@@ -53,6 +53,5 @@ See also [Cache overview in Scene7](https://helpx.adobe.com/experience-manager/s
    >
    >When you select assets, and then click **File** &gt; **Invalidate CDN**, Dynamic Media uses an invalidate CDN template to automatically create URLs to invalidate from the Content Delivery Network (CDN). If there is nothing in the CDN Invalidate Template text box, then you get a blank URL list. Caching at the CDN is not asset-based; it is URL-based. Therefore, it is necessary to be aware of the complete URLs that are on your website. After you determine those URLs, you can add them to the Invalidate CDN Template text box earlier in the steps. Then, you can select those assets, and invalidate the URLs in one step.
    >
-   >
    >Another option is to add complete URLs to the Invalidate CDN list. If you follow this approach, it is unnecessary to select assets in Dynamic Media Classic before going to the **File** &gt; **Invalidate CDN** option.
 

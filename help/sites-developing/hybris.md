@@ -491,11 +491,11 @@ The `CommerceSession` owns the three elements:
 >
 >`yourProject/commerce/components/shippingpicker`:
 >
->* Essentially this could be a copy of `foundation/components/form/radio`, but with callbacks to the `CommerceSession` for: >
->    * Checking if the method is available
->    * Adding pricing information
->    * To enable shoppers to update the order page in AEM (including the superset of shipping methods and the text describing them), while still having the control to expose the relevant `CommerceSession` information.
+>* Essentially this could be a copy of `foundation/components/form/radio`, but with callbacks to the `CommerceSession` for: 
 >
+>* Checking if the method is available
+>* Adding pricing information
+>* To enable shoppers to update the order page in AEM (including the superset of shipping methods and the text describing them), while still having the control to expose the relevant `CommerceSession` information.
 
 **Payment Processing**
 

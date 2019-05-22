@@ -501,15 +501,9 @@ The DocAssurance service can apply usage rights to PDF documents. To apply usage
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
-   >    * In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
-   >    
-   >    * In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
-   >    
-   >
+   >* To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
+   >* In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
+   >* In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
 
 ### Enable AES-256 {#enable-aes}
 

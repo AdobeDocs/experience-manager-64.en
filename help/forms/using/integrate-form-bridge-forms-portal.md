@@ -72,12 +72,9 @@ An existing HTML application can leverage the FormBridge API to interact with a 
    >
    >The **line 9**, contains additional JSP reference for CSS styles and JavaScript files to design the page.
    >
-   >
    >The &lt;div id="rightdiv"&gt; tag on **line 18** contains the HTML snippet of the XFA form.
    >
-   >
    >The page is styled into two containers: **left** and **right**. The right container has the form. The left container has two input fields and part of the external HTML page.
-   >
    >
    >The following screen shot shows how the form displays in a browser.
 

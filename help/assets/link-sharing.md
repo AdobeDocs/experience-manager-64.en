@@ -103,13 +103,13 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >
    >You can generate the preview of assets of specific MIME types only. These include:
    >
-   >    * JPG
-   >    * PNG
-   >    * GIF
-   >    * BMP
-   >    * INDD
-   >    * PDF
-   >    * PPT
+   >* JPG
+   >* PNG
+   >* GIF
+   >* BMP
+   >* INDD
+   >* PDF
+   >* PPT
    >    
    >For assets of other MIME types, you can only download the assets.
 

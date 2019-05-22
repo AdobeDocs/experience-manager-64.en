@@ -1024,10 +1024,8 @@ The `cq:listeners` node (node type `cq:EditListenersConfig`) defines what happen
 
 >
 >* For nested components, the values of the following properties *must* be `REFRESH_PAGE`: >
->    * `aftermove`  
->    
->    * `aftercopy` ``  
->
+>  * `aftermove`
+>  * `aftercopy`
 
 The event handler can be implemented with a custom implementation. For example (where `project.customerAction` is a static method):
 

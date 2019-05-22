@@ -84,12 +84,8 @@ The properties are distributed across several tabs.
   >
   >Vanity URLs:
   >
-  >    
-  >    
-  >    * Must be unique so you should take care that the value is not already used by another page.
-  >    * Do not support regex patterns.
-  >    
-  >
+  >* Must be unique so you should take care that the value is not already used by another page.
+  >* Do not support regex patterns.
 
 * **Redirect Vanity URL**
 

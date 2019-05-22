@@ -103,11 +103,7 @@ You can preview a specific version:
    >
    >If a page has been moved, you can no longer perform a preview on any versions made before the move.
    >
-   >    
-   >    
-   >    * If you experience problems with a preview, check the [Timeline](/help/sites-authoring/basic-handling.md#timeline) for the page to see whether the page has been moved.
-   >    
-   >
+   >* If you experience problems with a preview, check the [Timeline](/help/sites-authoring/basic-handling.md#timeline) for the page to see whether the page has been moved.
 
 ## Comparing a Version with Current Page {#comparing-a-version-with-current-page}
 

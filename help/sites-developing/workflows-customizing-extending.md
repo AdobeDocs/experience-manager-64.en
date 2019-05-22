@@ -116,13 +116,12 @@ Use the following procedure to specify default values for the **Title** and **De
 >The field values appear on the step instance when both of the following requirements are satisfied:
 >
 >* The edit dialog of the step stores the title and description in the following locations: >
->    * `./jcr:title`
->    * `./jcr:description` locations
+>* `./jcr:title`
+>* `./jcr:description` locations
 >
 >  This requirement is satisfied when the edit dialog uses the Common tab that the `/libs/cq/flow/components/step/step` component implements.
 >
 >* The step component or an ancestor of the component does not override the `step.jsp` script that the `/libs/cq/flow/components/step/step` component implements.
->
 
 1. Below the `cq:Component` node, add the following node:
 
@@ -1026,15 +1025,13 @@ The `_cq_dialog/.content.xml` sample used in this example:
 >Classic UI model editor dialogs will still work with the standard, touch-enabled UI editor.
 >
 >Though AEM has a [dialog conversion](/help/sites-developing/dialog-conversion.md) tool if you want to upgrade your classic UI step dialogs to standard UI dialogs. After conversion there are still some manual improvements that could be done to the dialog for certain cases.  
-
 >
->* In cases where an upgraded dialog is empty you can look at dialogs in `/libs` that have similar functionality as examples of how to provide a solution. For example: >
->    * `/libs/cq/workflow/components/model`
->    * `/libs/cq/workflow/components/workflow`
->    * `/libs/dam/components`
->    * `/libs/wcm/workflow/components/autoassign`
->    * `/libs/cq/projects`
+>* In cases where an upgraded dialog is empty you can look at dialogs in `/libs` that have similar functionality as examples of how to provide a solution. For example: 
+>
+>* `/libs/cq/workflow/components/model`
+>* `/libs/cq/workflow/components/workflow`
+>* `/libs/dam/components`
+>* `/libs/wcm/workflow/components/autoassign`
+>* `/libs/cq/projects`
 >
 >  You must not modify anything in `/libs`, simply use them as examples. If you want to leverage any of the existing steps, copy them to `/apps` and modify them there.
->
-

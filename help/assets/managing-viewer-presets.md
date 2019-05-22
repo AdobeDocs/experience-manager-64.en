@@ -409,7 +409,6 @@ To create a new viewer preset:
    >
    >If you prefer to edit the CSS directly in its raw form, tap **Show/Hide CSS** below the Selected Type pull-down menu (you may need to scroll the visual editor up to see it).
    >
-   >
    >Like the visual editor, when you make a change to a property directly in the CSS, you can instantly see what effect it has on the viewer sample. And, that same property is automatically updated at the same time in the visual editor. As such, you can use the raw CSS editor, or the visual editor, or use both interchangeably.
 
    >[!NOTE]
@@ -427,7 +426,6 @@ To create a new viewer preset:
    >[!NOTE]
    >
    >**If you are using a touch device, such as a phone or tablet...**
-   >
    >
    >After you type a value in the text field, tap elsewhere in the user interface to submit the change and close the virtual keyboard. If you tap Enter, no action occurs.
 

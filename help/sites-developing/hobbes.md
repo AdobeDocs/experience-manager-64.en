@@ -113,12 +113,9 @@ For full details about creating your own Test Suites, see the [Hobbes.js API doc
    >
    >**AEM Forms only**
    >
-   >
    >To test adaptive forms, add the following values to the categories and dependencies. For example:
    >
-   >
    >**categories**: `granite.testing.hobbes.tests, granite.testing.hobbes.af.commons`
-   >
    >
    >**dependencies**: `granite.testing.hobbes.testrunner, granite.testing.hobbes.af`
 

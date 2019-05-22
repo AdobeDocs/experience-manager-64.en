@@ -289,7 +289,6 @@ To add content to your teaser:
    >
    >When adding content to a teaser page (shown above) **do not enable targeting** on any of the components within this page (that is, do not select **Target** from the context menu when hovering over a component on this page). 
    >
-   >
    >Targeting is enabled on a teaser (or indeed any component) **on the page where it is displayed to visitors**, not here in the page used for editing.
 
 ## Creating a Touchpoint for your Teaser {#creating-a-touchpoint-for-your-teaser}

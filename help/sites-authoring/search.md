@@ -71,12 +71,8 @@ To search and filter your resources:
    >
    >The search criteria can vary:
    >
-   >    
-   >    
-   >    * Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
-   >    * Your instance as the [Search Forms](/help/sites-administering/search-forms.md) can be customized (appropriate to the location within AEM).
-   >    
-   >
+   >* Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
+   >* Your instance as the [Search Forms](/help/sites-administering/search-forms.md) can be customized (appropriate to the location within AEM).
 
    ![](assets/screen_shot_2018-03-23at101619.png)
 

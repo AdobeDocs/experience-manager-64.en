@@ -180,7 +180,6 @@ You can add your own action under `/apps` as follows:
    >
    >To see default actions that are part of the product: 
    >
-   >
    >`/libs/foundation/components/form/actions`
 
 ### Developing your own Form Constraints {#developing-your-own-form-constraints}
@@ -299,13 +298,8 @@ In Javascript, conditions use the value of the Element Name property to refer to
    >
    >The effects of Show / Hide definitions can be seen and tested:
    >
-   >    
-   >    
-   >    * in **Preview** mode on the author environment (needs a page reload when first switching to preview)  
-   >    
-   >    * on the publish environment
-   >    
-   >
+   >* in **Preview** mode on the author environment (needs a page reload when first switching to preview)  
+   >* on the publish environment
 
 #### Handling Broken Component References {#handling-broken-component-references}
 

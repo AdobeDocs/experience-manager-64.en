@@ -263,7 +263,6 @@ In the following section we will explore the contract that allows the SPA Editor
    >
    >This is a change in behavior from server-side rendered pages in AEM, where there is a `cq` element inserted for each editable component.
    >
-   >
    >This approach in SPA removes the need to inject custom elements, relying only an additional data attribute, making the markup simpler for the frontend developer.
 
 ## Next Steps {#next-steps}

@@ -46,10 +46,4 @@ Following are the steps to configure the **[!UICONTROL AEM DS Settings]**:
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * While using either Forms or AEM workflows, before you make any submission from the publish server, it is necessary to configure the DS settings service. Otherwise, the Form submission shall fail.
-   >    
-   >
-
+   >* While using either Forms or AEM workflows, before you make any submission from the publish server, it is necessary to configure the DS settings service. Otherwise, the Form submission shall fail.

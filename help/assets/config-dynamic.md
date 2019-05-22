@@ -178,10 +178,10 @@ To enable dynamic media:
    >
    >To troubleshoot issues with Dynamic Media, see the following logs in the **crx-quickstart/logs/** directory:
    >
-   >    * ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.
+   >* ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.
    >
    >      Example of an Image Server log file name: `ImageServer-57346-2019-07-25.log`
-   >    * s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
+   >* s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
    >
    >These logs are only used when Dynamic Media is enabled. They are not included in the **Download Full** package that is generated from the **system/console/status-Bundlelis**t page; when calling Customer Support if you have a Dynamic Media issue, please append both these logs to the issue.
 
@@ -226,7 +226,6 @@ To disable Dynamic Media after it has been enabled:
    >[!NOTE]
    >
    >After the Dynamic Media run mode is disabled, the workflow step that generates the *cqdam.pyramid.tiff* rendition is skipped automatically. This also disables dynamic rendition support and other Dynamic Media features.
-   >
    >
    >Also note that when Dynamic Media run mode is disabled after configuring the AEM server, all assets that were uploaded under that run mode are now invalid.
 

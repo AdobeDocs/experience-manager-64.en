@@ -129,7 +129,6 @@ See [Adobe Campaign Components](/help/sites-classic-ui-authoring/classic-persona
    >
    >The available context fields correspond to the **Profiles** targeting dimension in Adobe Campaign.
    >
-   >
    >See [Linking an AEM page to an Adobe Campaign email](/help/sites-classic-ui-authoring/classic-personalization-ac-campaign.md#linkinganaempagetoanadobecampaignemail).
 
    ![](assets/chlimage_1-178.png)

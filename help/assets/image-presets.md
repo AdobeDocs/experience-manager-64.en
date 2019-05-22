@@ -44,6 +44,5 @@ You can apply an image preset to an image anytime you preview it. To apply an im
    >
    >If the asset *and* the image preset have not yet been published, the **URL** button (or **URL** and **RESS** buttons, if applicable) are not available.
    >
-   >
    >Note also that image presets are automatically published on a Dynamic Media S7 server.
 

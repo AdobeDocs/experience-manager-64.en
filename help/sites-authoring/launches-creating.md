@@ -48,7 +48,6 @@ You can create a launch from either the Sites or Launches console:
    >
    >In the **Sites** console you can also use [selection mode](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources) to select a page before selecting **Create**.
    >
-   >
    >This will use the selected page as the initial source page.
 
 1. In the **Select Source** step you need to **Add Pages**. You can select multiple pages, specifying the path for each:
@@ -63,7 +62,6 @@ You can create a launch from either the Sites or Launches console:
    >[!NOTE]
    >
    >To add pages and/or branches to a launch they must be within a site; i.e. below a common top-level root. 
-   >
    >
    >If a site contains language roots below the top level, the pages and branches for a launch must be below a common language root.
 

@@ -766,12 +766,9 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >It may take a long time for failure/error messages to finally be recorded due to multiple workflow configurations on **retries**, **retry delay**, and **timeout** from [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr), for example:
    >
-   >    
-   >    
-   >    * Apache Sling Job Queue Configuration
-   >    * Adobe Granite Workflow External Process Job Handler
-   >    * Granite Workflow Timeout Queue
-   >    
+   >*     Apache Sling Job Queue Configuration
+   >*     Adobe Granite Workflow External Process Job Handler
+   >*     Granite Workflow Timeout Queue
    >    
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
 
@@ -803,9 +800,9 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >    
    >    
-   >    * Apache Sling Job Queue Configuration
-   >    * Adobe Granite Workflow External Process Job Handler
-   >    * Granite Workflow Timeout Queue
+   >*     Apache Sling Job Queue Configuration
+   >*     Adobe Granite Workflow External Process Job Handler
+   >*     Granite Workflow Timeout Queue
    >    
    >    
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.

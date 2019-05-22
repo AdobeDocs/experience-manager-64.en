@@ -106,21 +106,13 @@ There are many use-cases for MSM and live copies, some scenerios include:
   >
   >In such a scenario there is always the question of whether to make a straightforward copy or use live copies.
   >
-  >
   >There is a balance of:
   >
-  >    
-  >    
-  >    * How much of the core content will need updating over the multiple versions.
-  >    
-  >    
+  >  * How much of the core content will need updating over the multiple versions.
+  >
   >Against:
   >
-  >    
-  >    
-  >    * How much of the individual copies will need to be adjusted.
-  >    
-  >
+  >  * How much of the individual copies will need to be adjusted.
 
 ## MSM from the UI {#msm-from-the-ui}
 

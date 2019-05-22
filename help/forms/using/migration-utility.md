@@ -94,33 +94,20 @@ When you run the Migration Utility for the first time, a log is created with the
         * Letters
         * Data dictionaries
 
-   >[!NOTE]
-   >
-   >During assets migration, you may find warning messages such as “Conflict found for…”. Such messages indicate that rules for some of the components in adaptive forms could not be migrated. For example, if the component had an event which had both rules and scripts, if rules occur after any script none of the rules for the component are migrated. However, such rules can be migrated by opening the rule editor in adaptive form authoring.
-   >
-   >
-   >These components can be migrated by opening them in Rule Editor in Adaptive Forms editor. 
-   >
-   >    
-   >    
-   >    * To migrate rules and scripts (not required if upgrading from 6.3) in custom components, tap Adaptive Forms Custom Components Migration, and in the next screen, tap Start Migration. The following get migrated:    >    
-   >        
-   >        
-   >        * Rules and Scripts created using rule editor (6.1 FP1 and later)
-   >        * Scripts created using the Script tab in the UI of 6.1 and earlier  
-   >        
-   >        
-   >    * To migrate templates (not required if upgrading from 6.3), tap Adaptive Forms Template Migration, and in the next screen, tap Start Migration. The following get migrated:  
-   >    
-   >        
-   >        
-   >        * Old templates - the adaptive forms templates created under /apps using AEM 6.1 Forms or earlier. This includes the scripts that were defined in the template components.
-   >        * New templates - Adaptive forms templates created using template editor under /conf. This includes migration of rules and scripts created using the rule editor.
-   >        
-   >        
-   >    
-   >    
-   >
+    >[!NOTE]
+    >
+    >During assets migration, you may find warning messages such as “Conflict found for…”. Such messages indicate that rules for some of the components in adaptive forms could not be migrated. For example, if the component had an event which had both rules and scripts, if rules occur after any script none of the rules for the component are migrated. However, such rules can be migrated by opening the rule editor in adaptive form authoring.
+    >
+    >These components can be migrated by opening them in Rule Editor in Adaptive Forms editor. 
+    >
+    >* To migrate rules and scripts (not required if upgrading from 6.3) in custom components, tap Adaptive Forms Custom Components Migration, and in the next screen, tap Start Migration. The following get migrated:
+    >
+    >  * Rules and Scripts created using rule editor (6.1 FP1 and later)
+    >  * Scripts created using the Script tab in the UI of 6.1 and earlier  
+    >* To migrate templates (not required if upgrading from 6.3), tap Adaptive Forms Template Migration, and in the next screen, tap Start Migration. The following get migrated:
+    >
+    >  * Old templates - the adaptive forms templates created under /apps using AEM 6.1 Forms or earlier. This includes the scripts that were defined in the template components.
+    >  * New templates - Adaptive forms templates created using template editor under /conf. This includes migration of rules and scripts created using the rule editor.
 
     * To migrate adaptive form custom components, tap **Adaptive Forms Custom Components Migration** and in the Custom Components Migration page, tap **Start Migration**. The following get migrated:
 

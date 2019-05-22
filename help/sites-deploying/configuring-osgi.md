@@ -221,12 +221,9 @@ To actually add the new configuration to the repository:
    >
    >When making a Factory Configuration append `-<identifier>` to the name.
    >
-   >
    >As in: `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>`
    >
-   >
    >Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information); for example:
-   >
    >
    >`org.apache.sling.commons.log.LogManager.factory.config-MINE`
 

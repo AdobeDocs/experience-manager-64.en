@@ -155,7 +155,6 @@ The ReportConfiguration service is used by Process Reporting for configuring the
    >
    >This is the same location as specified in the ProcessDataStorage configuration option **Root Folder**.
    >
-   >
    >If you update the Root Folder option in the ProcessDataStorage configuration, you need to update the CRX Storage Path location in the ReportConfiguration service.
 
 1. Click **Save **and close **CQ Configuration Manager**.

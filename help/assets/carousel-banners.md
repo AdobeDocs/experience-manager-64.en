@@ -51,7 +51,6 @@ To get you up and running quickly:
    >
    >If you are an AEM Sites or Ecommerce customer, you can use the built-in feature to navigate to product pages and lookup the existing skus in the product catalog. You do not need to manually enter hotspot or image map variables. See information on [setting up eCommerce](/help/sites-administering/generic.md).
    >
-   >
    >If you are an AEM Assets and Dynamic Media customer, you will manually enter data for hotspots and image maps, and then integrate the published URL or Embed code with your third-party content management system.
 
 1. Optional: [Create a Carousel Set viewer preset](managing-viewer-presets.md), as needed.
@@ -213,11 +212,11 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
    >[!NOTE]
    >
    >For carousel banners, the following may be things you want to adjust:
-   >    * Duration that an image displays. By default, each image displays for 9 seconds.
-   >    * Animation. By default, each slide transition is a fade. You can change that to a slide transition.
-   >    * Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
-   >    * Change the highlight style of an image map or the icon used for hotspots.
-   >    * Before you edit a viewer preset, choose the style you want to base the preset off of. If you do not do this, when you start to edit the viewer preset, you will lose all of your changes if you decide change to a different preset.
+   >* Duration that an image displays. By default, each image displays for 9 seconds.
+   >* Animation. By default, each slide transition is a fade. You can change that to a slide transition.
+   >* Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
+   >* Change the highlight style of an image map or the icon used for hotspots.
+   >* Before you edit a viewer preset, choose the style you want to base the preset off of. If you do not do this, when you start to edit the viewer preset, you will lose all of your changes if you decide change to a different preset.
 
    You can also preview what the carousel banner will look like. See [(Optional) Previewing Carousel Banners](#optional-previewing-carousel-banners).
 

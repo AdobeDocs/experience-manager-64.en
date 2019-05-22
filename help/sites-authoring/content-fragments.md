@@ -86,12 +86,8 @@ The content fragments enable:
    >
    >For more information about further editing functionality see also:
    >
-   >    
-   >    
-   >    * [Responsive Layout](/help/sites-authoring/responsive-layout.md)
-   >    * [Editing Page Content](/help/sites-authoring/editing-content.md)
-   >    
-   >
+   >* [Responsive Layout](/help/sites-authoring/responsive-layout.md)
+   >* [Editing Page Content](/help/sites-authoring/editing-content.md)
 
 ## Selecting the Element or Variation {#selecting-the-element-or-variation}
 

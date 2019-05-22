@@ -302,7 +302,6 @@ In certain circumstances you may want to create a custom log file with a differe
    >`org.apache.sling.commons.log.pattern` supports up to six arguments.  
 
    >
-   >
    >{0} The timestamp of type `java.util.Date`  
    >{1} the log marker  
    >{2} the name of the current thread  
@@ -310,7 +309,6 @@ In certain circumstances you may want to create a custom log file with a differe
    >{4} the log level  
    >{5} the log message  
 
-   >
    >
    >If the log call includes a `Throwable` the stacktrace is appended to the message.
 
@@ -322,29 +320,21 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >Log writer paths are relative to the `crx-quickstart` location.
    >
-   >
    >Therefore, a log file specified as:
-   >
    >
    >`logs/thelog.log`  
 
    >
-   >
    >writes to:
-   >
    >
    >`` ` ` `<*cq-installation-dir*>/``crx-quickstart/logs/thelog.log`.
    >
-   >
    >And a log file specified as:
-   >
    >
    >`../logs/thelog.log`  
 
    >
-   >
    >writes to a directory:
-   >
    >
    >` <*cq-installation-dir*>/logs/`  
    >``(i.e. next to ` `<*cq-installation-dir*>/`crx-quickstart/`)
@@ -355,7 +345,6 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >A new Logging Writer Configuration is only required when the existing default is not suitable.  
 
-   >
    >
    >If no explicit Writer is configured the system will automatically generate an implicit Writer based on the default.
 
@@ -391,39 +380,33 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >`org.apache.sling.commons.log.file.size` controls the rotation of the log file by setting either:
    >
-   >    
-   >    
-   >    * a maximum file size
-   >    * a time/date schedule   
-   >    
-   >    
+   >* a maximum file size
+   >* a time/date schedule   
+   >
    >to indicate when a new file will be created (and the existing file renamed according to the name pattern).  
-
    >
-   >    
-   >    
-   >    * A size limit can be specified with a number. If no size indicator is given, then this is taken as the number of bytes, or you can add one of the size indicators - `KB`, `MB`, or `GB` (case is ignored).
-   >    
-   >    * A time/date schedule can be specified as a `java.util.SimpleDateFormat` pattern. This defines the time period after which the file will be rotated; also the suffix appended to the rotated file (for identification).  
-   >      The default is '.'yyyy-MM-dd (for daily log rotation).   
-   >      So for example, at midnight of January 20th 2010 (or when the first log message after this occurs to be precise), ../logs/error.log will be renamed to ../logs/error.log.2010-01-20. Logging for the 21st of January will be output to (a new and empty) ../logs/error.log until it is rolled over at the next change of day.  
-   >    
-   >    
-   >      | `'.'yyyy-MM` |Rotation at the beginning of each month |
-   >      |---|---|
-   >      | `'.'yyyy-ww` |Rotation at the first day of each week (depends on the locale). |
-   >      | `'.'yyyy-MM-dd` |Rotation at midnight each day. |
-   >      | `'.'yyyy-MM-dd-a` |Rotation at midnight and midday of each day. |
-   >      | `'.'yyyy-MM-dd-HH` |Rotation at the top of every hour. |
-   >      | `'.'yyyy-MM-dd-HH-mm` |Rotation at the beginning of every minute. |
-
-   >      Note: When specifying a time/date:  
-   >    1. You should "escape" literal text within a pair of single quotes (' ');   
-   >      this is to avoid certain characters being interpreted as pattern letters.  
-   >      2. Only use characters allowed for a valid file name anywhere in the option.
-   >    
-   >    
+   >* A size limit can be specified with a number. If no size indicator is given, then this is taken as the number of bytes, or you can add one of the size indicators - `KB`, `MB`, or `GB` (case is ignored).
+   >* A time/date schedule can be specified as a `java.util.SimpleDateFormat` pattern. This defines the time period after which the file will be rotated; also the suffix appended to the rotated file (for identification).
    >
+   >  The default is '.'yyyy-MM-dd (for daily log rotation).
+   >
+   >  So for example, at midnight of January 20th 2010 (or when the first log message after this occurs to be precise), ../logs/error.log will be renamed to ../logs/error.log.2010-01-20. Logging for the 21st of January will be output to (a new and empty) ../logs/error.log until it is rolled over at the next change of day.  
+   >
+   >  | `'.'yyyy-MM` |Rotation at the beginning of each month |
+   >  |---|---|
+   >  | `'.'yyyy-ww` |Rotation at the first day of each week (depends on the locale). |
+   >  | `'.'yyyy-MM-dd` |Rotation at midnight each day. |
+   >  | `'.'yyyy-MM-dd-a` |Rotation at midnight and midday of each day. |
+   >  | `'.'yyyy-MM-dd-HH` |Rotation at the top of every hour. |
+   >  | `'.'yyyy-MM-dd-HH-mm` |Rotation at the beginning of every minute. |
+   >
+   >  Note: When specifying a time/date:
+   >
+   >  1. You should "escape" literal text within a pair of single quotes (' ');
+   >
+   >     this is to avoid certain characters being interpreted as pattern letters.
+   >
+   >  1. Only use characters allowed for a valid file name anywhere in the option.
 
 1. Read your new log file with your chosen tool.
 
@@ -495,14 +478,11 @@ To monitor a replication agent:
    >
    >Do not use the "Test Connection" link for the Reverse Replication Outbox on a publish instance.
    >
-   >
    >If a replication test is performed for an Outbox queue, any items that are older than the test replication will be re-processed with every reverse replication.  
 
    >
-   >
    >If such items already exist in a queue, they can be found with the following XPath JCR query and should be removed.  
 
-   >
    >
    >`/jcr:root/var/replication/outbox//*[@cq:repActionType='TEST']`
 

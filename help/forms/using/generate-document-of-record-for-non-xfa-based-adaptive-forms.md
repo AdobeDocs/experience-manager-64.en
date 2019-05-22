@@ -285,12 +285,8 @@ Perform the following steps to configure a document of record for adaptive forms
    >
    >Ensure that schema used to create adaptive form and schema (data schema) of XFA Form are same if:
    >
-   >    
-   >    
-   >    * Your Adaptive form is schema based
-   >    * You are using **Associate Form Template as the Document of Record Template** option for document of record
-   >    
-   >
+   >*     Your Adaptive form is schema based
+   >*     You are using **Associate Form Template as the Document of Record Template** option for document of record
 
 1. Click **Done.**
 

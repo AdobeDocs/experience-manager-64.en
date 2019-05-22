@@ -189,15 +189,11 @@ Forest Theme Sample
    >
    >The styles.less file is not mandatory. This means that you do not need to create this file, if you have not defined any custom styles, variables, or mixins.
    >
-   >
    >However, if you do not create a style.less file, in the css.txt file, you need to uncomment the following line:
-   >
    >
    >**`#base=less`**
    >
-   >
    >And comment the following line:
-   >
    >
    >**`styles.less`**
 

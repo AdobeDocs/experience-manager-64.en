@@ -60,7 +60,6 @@ The InDesign Server can be integrated with AEM Assets so that files created with
    >
    >IDML is an XML-based format that renders *everything* in the InDesign file. It is stored as an compressed package using [Zip](https://www.techterms.com/definition/zip) compression.
    >
-   >
    >See [Adobe InDesign Interchange Formats INX and IDML](http://www.peachpit.com/articles/article.aspx?p=1381880&seqNum=8) for further information.
 
    >[!CAUTION]
@@ -105,7 +104,6 @@ To install and start the InDesign Server for use with AEM:
    >[!NOTE]
    >
    >If you want to save the output messages to a file then use redirection; for example, under Windows:
-   >
    >
    >`<ids-installation-dir>/InDesignServer.com -port 8080 > ~/temp/INDD-logfile.txt 2>&1`
 

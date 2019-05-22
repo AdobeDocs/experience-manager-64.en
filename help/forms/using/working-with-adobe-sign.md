@@ -178,20 +178,15 @@ You can have only one signer or multiple signers for an adaptive form. When you 
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * By default, the social identity-based authentication provides an option to authenticate using Facebook, Google, and LinkedIn. You can contact Adobe Sign support to enable other social authentication providers.
-   >    
-   >
+   >* By default, the social identity-based authentication provides an option to authenticate using Facebook, Google, and LinkedIn. You can contact Adobe Sign support to enable other social authentication providers.
 
     * **Adobe Sign fields to fill or sign:** Select Adobe Sign fields for the signer. An adaptive form can have multiple Adobe Sign fields. You can choose to enable specific fields for a signer. The field displays all the available Adobe Sign Blocks. When you select a block, all the fields of the block are selected. You can use the X icon to deselect a field.
 
-   ![](assets/signer-details-1.png)
+    ![](assets/signer-details-1.png)
 
-   The above image has two example Adobe Sign Blocks: Personal-Information and Office-details
+    The above image has two example Adobe Sign Blocks: Personal-Information and Office-details
 
-   Tap the Done ![](assets/aem_6_3_forms_save.png) icon. The signer is added and configured.
+    Tap the Done ![](assets/aem_6_3_forms_save.png) icon. The signer is added and configured.
 
 ### Select Submit Action for an adaptive form {#selectsubmitactionforanadaptiveform}
 

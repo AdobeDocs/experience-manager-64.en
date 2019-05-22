@@ -135,7 +135,6 @@ To open your fragment for editing:
    >
    >1. A message will be shown when the fragment is already referenced on a content page.
    >
-   >
    >2. The side panel can be hidden/shown using the **Toggle Side Panel** icon.
 
 1. Navigate through the three modes using the icons in the side panel:
@@ -197,9 +196,7 @@ While editing your content fragment AEM automatically creates versions to ensure
    >
    >The auto save interval is configurable using the `/conf` mechanism.
    >
-   >
    >Default value, see:
-   >
    >
    >`/libs/settings/dam/cfm/jcr:content/autoSaveInterval`
 

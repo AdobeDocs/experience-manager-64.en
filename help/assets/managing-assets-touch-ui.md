@@ -77,9 +77,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
    >
    >When you select **Replace** in the Name Conflict dialog, the asset ID is regenerated for the new asset. This ID is different from the ID of the previous asset.
    >
-   >
    >If Asset Insights is enabled to track impressions/clicks with Adobe Analytics, this regenerated asset ID invalidates the data-captured for the asset on Analytics.
-   >
    >
    >A similar situation may occur if content packages of Assets created with AEM 6.1 (or earlier versions) are installed on an AEM 6.2 instance.
 
@@ -821,7 +819,6 @@ Also, disable the force delete button using an overlay, to disallow users from d
    >[!NOTE]
    >
    >To resolve or remove the incoming references from other pages, update the relevant references before deleting an asset.
-   >
    >
    >Also, disable the force delete button using an overlay, to disallow users from deleting referenced assets and leaving broken links.
 

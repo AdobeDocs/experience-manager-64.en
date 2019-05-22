@@ -86,7 +86,6 @@ To create an Experience Fragment:
    >
    >You can use the [template editor](/help/sites-authoring/templates.md) to create your own template.
    >
-   >
    >**Only** editable templates can be used; static templates are not fully compatible.
    >
    > To create an experience fragment template that is detected by the Create Experience Fragment wizard, you must follow one of these rule sets:
