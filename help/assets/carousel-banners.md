@@ -287,9 +287,9 @@ To add hotspots to an image banner:
           **Note**: The URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
         * If you are a standalone customer, in the HREF text field, specify the full URL path to a linked web page.
 
-   Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
+          Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
 
-   See [Working with Selectors](working-with-selectors.md) for more information.
+          See [Working with Selectors](working-with-selectors.md) for more information.
 
     * Tap **[!UICONTROL Experience Fragment]**.
 

@@ -231,7 +231,7 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
    ![](assets/mimetypes.png)
 
-1. Under the mimeTypes folder, select a mime type. 
+1. Under the mimeTypes folder, select a mime type.
 1. On the right side of the CRXDE Lite page, in the lower portion:
 
     * double-click the **[!UICONTROL enabled]** field. By default all asset mime types are enabled (set to **true**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **false**.
