@@ -172,14 +172,10 @@ To develop new components for AEM based on existing component you can copy the c
    >[!NOTE]
    >
    >A component for the:  
-
    >
-   >    
-   >    
-   >    * Touch-enabled UI uses [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.html) components  
-   >    
-   >    * Classic UI uses [ExtJS widgets](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html)
-   >    
+   >* Touch-enabled UI uses [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.html) components  
+   >* Classic UI uses [ExtJS widgets](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html)
+
    >[!NOTE]
    >
    >A dialog defined for the classic UI will operate within the touch-enabled UI.
@@ -191,17 +187,13 @@ To develop new components for AEM based on existing component you can copy the c
 1. One of the following nodes should be present and properly initialized for the new component to appear:
 
     * `cq:dialog` - dialog for the touch-enabled UI  
-    
     * `dialog` - dialog for the classic UI  
-    
     * `cq:editConfig` - how components behave in the edit environment (e.g drag and drop)  
-    
     * `design_dialog` - dialog for design mode (classic UI only)
 
 1. Activate the new component in your paragraph system by either:
 
     * using CRXDE Lite to add the value `<path-to-component>` (for example, `/apps/geometrixx/components/myComponent`) to the property components of the node `/etc/designs/geometrixx/jcr:content/contentpage/par`   
-    
     * following the instructions in [Adding new components to paragraph systems](#adding-a-new-component-to-the-paragraph-system-design-mode)
 
 1. In AEM WCM, open a page in your web site and insert a new paragraph of the type you just created to make sure the component is working properly.
@@ -219,7 +211,6 @@ After the component has been developed, you add it to the paragraph system, whic
 
     * adding `?wcmmode=design` to the end of the URL and accessing again, for example:  
       `<contextPath>/ Test.html?wcmmode=design`
-    
     * clicking Design in Sidekick
 
    You are now in design mode and can edit the paragraph system.
@@ -276,17 +267,14 @@ To create the new component, we use the standard textimage component as a basis 
    >
    >The dialog definition is dependent on the UI:
    >
-   >    
-   >    
-   >    * Touch-enabled UI: `textimage/cq:dialog`
-   >    * Classic UI: `textimage/dialog`
-   >    
+   >* Touch-enabled UI: `textimage/cq:dialog`
+   >* Classic UI: `textimage/dialog`
+
 1. Edit the component metadata:
 
     * Component name
 
         * Set `jcr:description` to `Text Image Component (Extended)`
-        
         * Set `jcr:title` to `Text Image (Extended)`
 
     * Group, where the component is listed in the sidekick (leave as is)
@@ -326,17 +314,12 @@ To create the new component, we use the standard textimage component as a basis 
         * Set the following properties (of type String) for the new `tab3/items/position`node:
 
             * `name`: `./imagePosition`
-            
             * `xtype`: `selection`
-            
             * `fieldLabel`: `Image Position`
-            
             * `type`: `select`
 
         * Add subnode `position/options` of type `cq:WidgetCollection` to represent the two choices for image placement, and under it create two nodes, o1 and o2 of type `nt:unstructured`.
-        
         * For node `position/options/o1` set the properties: `text` to `Left` and `value` to `left.`
-        
         * For node `position/options/o2` set the properties: `text` to `Right` and `value` to `right`.
 
     * Delete tab4.
@@ -399,9 +382,7 @@ To disable this capability, we use the standard image component as a basis and m
 1. Add a new property:
 
     * **Name**: `allowUpload`
-    
     * **Type**: `String`
-    
     * **Value**: `false`
 
    ![](assets/chlimage_1-63.png)

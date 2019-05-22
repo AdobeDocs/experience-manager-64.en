@@ -84,13 +84,9 @@ Configure one or more connections to Search&Promote so that your web pages can i
    >
    >**Where:**
    >
-   >    
-   >    
-   >    * **XXXXXXXX** corresponds with your** Member id**
-   >    
-   >    * **spYYYYYYYY** corresponds with your **Account Number**
-   >    
-   >    
+   >* **XXXXXXXX** corresponds with your** Member id**
+   >* **spYYYYYYYY** corresponds with your **Account Number**
+
 1. Click **Connect To Search&Promote**.
 
    When the connection success message appears, click **OK**.

@@ -169,21 +169,16 @@ To insert personalization:
    >
    >**For Adobe Campaign Standard:**
    >
-   >    
-   >    
-   >    * Available context fields correspond to the **Profiles** targeting dimension in Adobe Campaign.
-   >    * See [Linking an AEM page to an Adobe Campaign email](#linking-an-aem-page-to-an-adobe-campaign-email-adobe-campaign-standard).
-   >    
-   >    
+   >* Available context fields correspond to the **Profiles** targeting dimension in Adobe Campaign.
+   >* See [Linking an AEM page to an Adobe Campaign email](#linking-an-aem-page-to-an-adobe-campaign-email-adobe-campaign-standard).
+   >
    >**For Adobe Campaign Classic:**
    >
-   >    
-   >    
-   >    * Available context fields are dynamically recovered from the Adobe Campaign **nms:seedMember** schema. Target extension data is dynamically recovered from the workflow that contains the delivery synchronized with the content. (See the [Synchronizing content created in AEM with a delivery from Adobe Campaign](#synchronizing-content-created-in-aem-with-a-delivery-from-adobe-campaign-classic) section).
-   >    
-   >    * To add or hide personalization elements, see [Managing personalization fields and blocks](/help/sites-administering/campaignonpremise.md#managing-personalization-fields-and-blocks).
-   >    * **Important**: All seed table fields must also be in the recipient table (or corresponding contact table).
-   >    
+   >* Available context fields are dynamically recovered from the Adobe Campaign **nms:seedMember** schema. Target extension data is dynamically recovered from the workflow that contains the delivery synchronized with the content. (See the [Synchronizing content created in AEM with a delivery from Adobe Campaign](#synchronizing-content-created-in-aem-with-a-delivery-from-adobe-campaign-classic) section).
+   >
+   >* To add or hide personalization elements, see [Managing personalization fields and blocks](/help/sites-administering/campaignonpremise.md#managing-personalization-fields-and-blocks).
+   >* **Important**: All seed table fields must also be in the recipient table (or corresponding contact table).
+
 1. Insert text by typing. Insert context fields or personalization blocks by clicking the Adobe Campaign components and selecting them. When finished select the checkmark.
 
    ![](assets/chlimage_1-27.png)
@@ -364,9 +359,9 @@ To synchronize content created in AEM with a delivery from Adobe Campaign:
    >
    >    
    >    
-   >    * After the delivery and content are synchronized, the delivery content in Adobe Campaign becomes read only. The email subject as well as its content can no longer be modified.
-   >    * If the content is updated in AEM while it is linked to a delivery in Adobe Campaign, it is automatically updated in the delivery during the delivery analysis. The synchronization can also be executed manually using the **Refresh content now** button.
-   >    * You can cancel synchronization between a delivery and AEM content using the **Desynchronize** button. This is only available if a content is already synchronized with the delivery. To synchronize a different content with a delivery, you must cancel the current content synchronization before being able to establish a new link.
-   >    * If desynchronized the local content is kept and becomes editable in Adobe Campaign. If you resynchronize the content after having modified it, you will lose all your changes.
-   >    * For recurring and continuous deliveries, synchronization with AEM content is stopped every time the delivery is executed.
+   >* After the delivery and content are synchronized, the delivery content in Adobe Campaign becomes read only. The email subject as well as its content can no longer be modified.
+   >* If the content is updated in AEM while it is linked to a delivery in Adobe Campaign, it is automatically updated in the delivery during the delivery analysis. The synchronization can also be executed manually using the **Refresh content now** button.
+   >* You can cancel synchronization between a delivery and AEM content using the **Desynchronize** button. This is only available if a content is already synchronized with the delivery. To synchronize a different content with a delivery, you must cancel the current content synchronization before being able to establish a new link.
+   >* If desynchronized the local content is kept and becomes editable in Adobe Campaign. If you resynchronize the content after having modified it, you will lose all your changes.
+   >* For recurring and continuous deliveries, synchronization with AEM content is stopped every time the delivery is executed.
    >    

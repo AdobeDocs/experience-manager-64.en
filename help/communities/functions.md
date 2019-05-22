@@ -148,11 +148,12 @@ When added to a template, the configuration allows specifying tag namespace(s) u
 ![](assets/catalogfunc.png)
 
 * see [Title and URL Settings](#title-and-url-settings)
-* **Select All Namespaces** 
-  The selected tag namespaces define which tags are selectable by visitors for filtering the list of enablement resources listed in the catalog.  
-  If checked, all tag namespaces allowed for the community site are available.  
-  If unchecked, it is possible to select one or more namespaces allowed for the community site.  
-  Default is checked.
+* **Select All Namespaces**
+
+  * The selected tag namespaces define which tags are selectable by visitors for filtering the list of enablement resources listed in the catalog.  
+  * If checked, all tag namespaces allowed for the community site are available.  
+  * If unchecked, it is possible to select one or more namespaces allowed for the community site.  
+  * Default is checked.
 
 ### Featured Content Function {#featured-content-function}
 

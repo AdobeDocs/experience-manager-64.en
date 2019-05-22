@@ -154,10 +154,8 @@ For both views (List and Calendar) you can define settings:
    >
    >For further information see:
    >
-   >    
-   >    
-   >    * Workflow items - [Participating in Workflows](/help/sites-authoring/workflows-participating.md)
-   >    
+   >* Workflow items - [Participating in Workflows](/help/sites-authoring/workflows-participating.md)
+
 1. Depending on the item selected an action will be started; for example:
 
     * a dialog appropriate to the action will be opened.

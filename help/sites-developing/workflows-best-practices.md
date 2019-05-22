@@ -100,12 +100,9 @@ Workflow models are stored in the repository according to type:
   >
   >Do not:
   >
-  >    
-  >    
-  >    * place any of your custom workflow models in this folder
-  >    * edit anything in `/libs`
-  >    
-  >    
+  >* place any of your custom workflow models in this folder
+  >* edit anything in `/libs`
+  >
   >As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.
 
 * Custom workflow designs are held under:
@@ -139,12 +136,9 @@ Workflow launcher definitions are also stored in the repository according to typ
   >
   >Do not:
   >
-  >    
-  >    
-  >    * place any of your custom workflow launchers in this folder
-  >    * edit anything in `/libs`
-  >    
-  >    
+  >* place any of your custom workflow launchers in this folder
+  >* edit anything in `/libs`
+  >
   >As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.
 
 * Custom workflow launchers are held under:
@@ -174,12 +168,9 @@ Workflow scripts are also stored in the repository according to type:
   >
   >Do not:
   >
-  >    
-  >    
-  >    * place any of your custom workflow scripts in this folder
-  >    * edit anything in `/libs`
-  >    
-  >    
+  >* place any of your custom workflow scripts in this folder
+  >* edit anything in `/libs`
+  >
   >As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.
 
 * Custom workflow scripts are held under:
@@ -205,12 +196,9 @@ Workflow notifications are also stored in the repository according to type:
   >
   >Do not:
   >
-  >    
-  >    
-  >    * place any of your custom workflow notification definitions in this folder
-  >    * edit anything in `/libs`
-  >    
-  >    
+  >* place any of your custom workflow notification definitions in this folder
+  >* edit anything in `/libs`
+  >
   >As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.
 
 * Custom workflow notification definitions are held under:

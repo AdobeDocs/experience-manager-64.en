@@ -380,38 +380,34 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >`org.apache.sling.commons.log.file.size` controls the rotation of the log file by setting either:
    >
-   >    
-   >    
-   >    * a maximum file size
-   >    * a time/date schedule   
-   >    
-   >    
-   >to indicate when a new file will be created (and the existing file renamed according to the name pattern).  
-
+   >* a maximum file size
+   >* a time/date schedule   
    >
-   >    
-   >    
-   >    * A size limit can be specified with a number. If no size indicator is given, then this is taken as the number of bytes, or you can add one of the size indicators - `KB`, `MB`, or `GB` (case is ignored).
-   >    
-   >    * A time/date schedule can be specified as a `java.util.SimpleDateFormat` pattern. This defines the time period after which the file will be rotated; also the suffix appended to the rotated file (for identification).  
-   >      The default is '.'yyyy-MM-dd (for daily log rotation).   
-   >      So for example, at midnight of January 20th 2010 (or when the first log message after this occurs to be precise), ../logs/error.log will be renamed to ../logs/error.log.2010-01-20. Logging for the 21st of January will be output to (a new and empty) ../logs/error.log until it is rolled over at the next change of day.  
-   >    
-   >    
-   >      | `'.'yyyy-MM` |Rotation at the beginning of each month |
-   >      |---|---|
-   >      | `'.'yyyy-ww` |Rotation at the first day of each week (depends on the locale). |
-   >      | `'.'yyyy-MM-dd` |Rotation at midnight each day. |
-   >      | `'.'yyyy-MM-dd-a` |Rotation at midnight and midday of each day. |
-   >      | `'.'yyyy-MM-dd-HH` |Rotation at the top of every hour. |
-   >      | `'.'yyyy-MM-dd-HH-mm` |Rotation at the beginning of every minute. |
+   >to indicate when a new file will be created (and the existing file renamed according to the name pattern).  
+   >
+   >* A size limit can be specified with a number. If no size indicator is given, then this is taken as the number of bytes, or you can add one of the size indicators - `KB`, `MB`, or `GB` (case is ignored).
+   >* A time/date schedule can be specified as a `java.util.SimpleDateFormat` pattern. This defines the time period after which the file will be rotated; also the suffix appended to the rotated file (for identification).
+   >
+   >  The default is '.'yyyy-MM-dd (for daily log rotation).
+   >
+   >  So for example, at midnight of January 20th 2010 (or when the first log message after this occurs to be precise), ../logs/error.log will be renamed to ../logs/error.log.2010-01-20. Logging for the 21st of January will be output to (a new and empty) ../logs/error.log until it is rolled over at the next change of day.  
+   >
+   >  | `'.'yyyy-MM` |Rotation at the beginning of each month |
+   >  |---|---|
+   >  | `'.'yyyy-ww` |Rotation at the first day of each week (depends on the locale). |
+   >  | `'.'yyyy-MM-dd` |Rotation at midnight each day. |
+   >  | `'.'yyyy-MM-dd-a` |Rotation at midnight and midday of each day. |
+   >  | `'.'yyyy-MM-dd-HH` |Rotation at the top of every hour. |
+   >  | `'.'yyyy-MM-dd-HH-mm` |Rotation at the beginning of every minute. |
+   >
+   >  Note: When specifying a time/date:
+   >
+   >  1. You should "escape" literal text within a pair of single quotes (' ');
+   >
+   >     this is to avoid certain characters being interpreted as pattern letters.
+   >
+   >  1. Only use characters allowed for a valid file name anywhere in the option.
 
-   >      Note: When specifying a time/date:  
-   >    1. You should "escape" literal text within a pair of single quotes (' ');   
-   >      this is to avoid certain characters being interpreted as pattern letters.  
-   >      2. Only use characters allowed for a valid file name anywhere in the option.
-   >    
-   >    
 1. Read your new log file with your chosen tool.
 
    The log file created by this example will be `../crx-quickstart/logs/myLogFile.log`.

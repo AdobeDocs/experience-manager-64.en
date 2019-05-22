@@ -386,14 +386,11 @@ Dependent on the predicate a selection of settings are available for configurati
 
    >[!NOTE]
    >
-   >The customized configurations are stored (as appropriate) under:  
-
+   >The customized configurations are stored (as appropriate) under:
    >
-   >    
-   >    
-   >    * `/apps/cq/gui/content/facets/<*option*>`
-   >    * `/apps/commerce/gui/content/facets/<*option*>`
-   >    
+   >* `/apps/cq/gui/content/facets/<*option*>`
+   >* `/apps/commerce/gui/content/facets/<*option*>`
+
 ### Add/Edit a Predicate Field and Define Field Settings {#add-edit-a-predicate-field-and-define-field-settings}
 
 You can add or edit fields and define/update their settings:

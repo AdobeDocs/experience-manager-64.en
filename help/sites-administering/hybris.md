@@ -425,16 +425,10 @@ To add order history to the [client context](/help/sites-developing/client-conte
    >[!NOTE]
    >
    >The message is realized by:  
-
    >
-   >    
-   >    
-   >    * Navigate to  
-   >      [http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html](http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html)  
-   >      The campaign consists of one experience.
-   >    
-   >    * Click on the segment  
-   >      ([http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html](http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html))
-   >    
-   >    * The segment is built using the **Order History Property** trait.
-   >    
+   >* Navigate to [http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html](http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html)
+   >
+   >  The campaign consists of one experience.
+   >* Click on the segment ([http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html](http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html))
+   >
+   >* The segment is built using the **Order History Property** trait.

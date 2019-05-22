@@ -393,11 +393,9 @@ To configure autouploading from AEM Assets:
 
    >[!NOTE]
    >
-   >    
-   >    
-   >    * When adding assets after automating, if they are not placed in the CQ target folder, they are not uploaded to Scene7.
-   >    * AEM embeds all the metadata as XMP before uploading it to Scene7, so all properties on the metadata node are available in Scene7 as XMP.
-   >    
+   >* When adding assets after automating, if they are not placed in the CQ target folder, they are not uploaded to Scene7.
+   >* AEM embeds all the metadata as XMP before uploading it to Scene7, so all properties on the metadata node are available in Scene7 as XMP.
+
 ### Configuring the state (published/unpublished) of assets pushed to Scene7 {#configuring-the-state-published-unpublished-of-assets-pushed-to-scene}
 
 If you are pushing assets from AEM Assets to Scene7, you can either publish them automatically (default behavior) or push them to Scene7 in an unpublished state.

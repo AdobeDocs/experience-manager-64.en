@@ -28,15 +28,13 @@ The machine translation service immediately translates your content in adaptive 
 1. Click the **ellipses** at the bottom of the **Translation Summary** tile. The Translation Summary screen opens.
 1. Click the **Edit** icon at the top of the **Translation Summary** screen. Open the **Translation** tab and select Machine Translation in the **Translation Method** screen. Select the appropriate **Translation Provider** and **Cloud Configuration**. Click the **Done** icon at the top of the screen.
 1. On the **Translation Job** tile, click the ![](assets/aem62forms_downarrow.png) icon, and click **Start**. The status of the tile changes to Draft. On completion of the translation, the status changes to **Ready for review**. Refresh the page after a few minutes and verify the status.
-1. After the status changes to **Ready for review o**n the Translation Job tile**, **open the form in a browser window. A localized version of the form is displayed.
+1. After the status changes to **Ready for review** on the **Translation Job** tile, open the form in a browser window. A localized version of the form is displayed.
 
    >[!NOTE]
    >
-   >    
-   >    
-   >    * Before opening the localized version of form in the browser window, ensure that the locale of the browser is set to match the locale of the form. For example, if the form is translated to German(de) language then set the locale of the browser to German(de).
-   >    * Adaptive form components do not support right to left (RTL) languages. For example, Hebrew.
-   >    
+   >* Before opening the localized version of form in the browser window, ensure that the locale of the browser is set to match the locale of the form. For example, if the form is translated to German(de) language then set the locale of the browser to German(de).
+   >* Adaptive form components do not support right to left (RTL) languages. For example, Hebrew.
+
    Along with the Adaptive form, the auto-generated document of record is also localized.
 
    For more information on Document of Record settings and configuration, see:

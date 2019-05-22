@@ -354,12 +354,9 @@ In order to configure binaryless replication with S3, the following steps are re
    >
    >Be aware that different versions of the tool need to be used depending on the Oak version you use with your AEM installation. Please check the version requirements list below before using the tool:
    >
-   >    
-   >    
-   >    * For Oak versions **1.2.x** use the Oak-run **1.2.12 or newer** 
-   >    
-   >    * For Oak versions **newer than the above**, use the version of Oak-run that matches the Oak core of your AEM installation.
-   >    
+   >* For Oak versions **1.2.x** use the Oak-run **1.2.12 or newer** 
+   >* For Oak versions **newer than the above**, use the version of Oak-run that matches the Oak core of your AEM installation.
+
 1. Lastly, validate the configuration. In order to do this, you need to look for a unique file added to the data store by each repository that is sharing it. The format of the files is `repository-[UUID]`, where the UUID is a unique identifier of each individual repository.
 
    Therefore, a proper configuration should have as many unique files as there are repositories sharing the data store.

@@ -60,11 +60,9 @@ A range of consoles are available for administering your workflows. Use the [glo
    >
    >The abort status is considered as a successful termination as it occurs as a result of user action; for example:
    >
-   >    
-   >    
-   >    * use of the **Terminate** action
-   >    * when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
-   >    
+   >* use of the **Terminate** action
+   >* when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
+
 1. Select a specific item, then **Open History** to see more details:
 
    ![](assets/wf-99.png)

@@ -54,11 +54,8 @@ Follow the steps below to perform asset level scheduling:
    >
    >To learn in detail on how to
    >
-   >    
-   >    
-   >    * Create a project, see [Creating a new Project](creating-a-screens-project.md).
-   >    * Create and add content to a channel, see [Managing Channels](managing-channels.md).
-   >    
+   >* Create a project, see [Creating a new Project](creating-a-screens-project.md).
+   >* Create and add content to a channel, see [Managing Channels](managing-channels.md).
 
 1. Click **Edit** to open the channel editor and select an asset you want to apply the scheduling to.
 

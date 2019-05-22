@@ -298,12 +298,9 @@ In Javascript, conditions use the value of the Element Name property to refer to
    >
    >The effects of Show / Hide definitions can be seen and tested:
    >
-   >    
-   >    
-   >    * in **Preview** mode on the author environment (needs a page reload when first switching to preview)  
-   >    
-   >    * on the publish environment
-   >    
+   >* in **Preview** mode on the author environment (needs a page reload when first switching to preview)  
+   >* on the publish environment
+
 #### Handling Broken Component References {#handling-broken-component-references}
 
 Show/hide conditions use the value of the Element Name property to reference other components in the form. The Show/Hide configuration is invalid when any of the conditions refer to a component that is deleted or has had the Element Name property changed. When this situation occurs, you need to manually update the conditions or an error occurs when the form loads.
