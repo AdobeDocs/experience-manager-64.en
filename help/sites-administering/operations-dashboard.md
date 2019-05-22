@@ -608,6 +608,10 @@ Workflows can also be purged from the Maintenance Dashboard. In order to run the
 1. Click on the **Weekly Maintenance Window** page.
 1. In the following page, click the **Play** button in the **Workflow purge** card.
 
+>[!NOTE]
+>
+> For more detailed information about Workflow Maintenance, see [this page](workflows-administering.md#regular-purging-of-workflow-instances).
+
 ### Audit Log Maintenance {#audit-log-maintenance}
 
 For Audit Log Maintenance, see the [separate documentation page.](/help/sites-administering/operations-audit-log.md)
