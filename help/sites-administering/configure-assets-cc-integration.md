@@ -86,7 +86,6 @@ Flow of data when AEM Assets and Creative Cloud are integrated
    >
    >Due to rebranding, if you entered the Tenant URL as **https://&lt;tenant_id&gt;.marketing.adobe.com** you need to change it to **https://&lt;tenant_id&gt;.experiencecloud.adobe.com. **In order to do this, follow the steps below:
    >
-   >
    >1. Navigate to **Tools &gt; Cloud Services &gt; Legacy Cloud Services**.  
    >2. Under Adobe Marketing Cloud, click **Show Configurations**.  
    >3. Select the configuration that was created while setting up the AEM-MAC-CC sync.  

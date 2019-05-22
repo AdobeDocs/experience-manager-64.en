@@ -242,7 +242,6 @@ The node structure must be created under `/apps` in order to overlay the data ty
    >
    >`/apps/settings/dam` should already exist.
    >
-   >
    >`/cfm/models/formbuilderconfig/datatypes/items` may need to be created with the nodetypes specified.
 
 1. Under `/items` you can add new node(s) to represent your new data type(s):

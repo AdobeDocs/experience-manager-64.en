@@ -35,7 +35,6 @@ You first have to enter a web site root and an identifier attribute. To do this:
    >
    >The **Web site root** is the root of your eCommerce website, for example `/content/geometrixx-outdoors/en`.
    >
-   >
    >The **Identifier attribute** is a JCR property that uniquely identifies the product: `identifier`.
 
 1. Click **OK**.

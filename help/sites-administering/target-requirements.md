@@ -41,7 +41,6 @@ The Test and Target [replication agent](/help/sites-deploying/replication.md) mu
    >
    >When you configure the Test and Target replication agent, in the **Transport** tab, the URI is set by default to **tnt:///**. Do not replace this URI with **https://admin.testandtarget.omniture.com**.
    >
-   >
    >Please note that if you try to test the connection with **tnt:///**, it will throw an error. This is expected behavior as this URI is for internal use only and should not be used with **Test Connection**.
 
 ## Securing the Activity Settings Node {#securing-the-activity-settings-node}

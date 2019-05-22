@@ -98,8 +98,6 @@ Follow the steps below to set up a project showcasing data triggered asset chang
    >    * [Configuring ContextHub](/help/sites-administering/contexthub-config.md)
    >    * [Configuring Segmentation with ContextHub](/help/sites-administering/segmentation.md)
    >    
-   >
-
    ![](assets/screen_shot_2019-02-28at31502pm.png)
 
    Click **Save & Close**.

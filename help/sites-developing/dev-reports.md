@@ -1215,16 +1215,13 @@ To illustrate these steps, the following example defines a report that lists all
    >In this example there are no definitions of `N:data` and `P:clientFilter`. This is because the value received from the server is returned on a 1:1 basis - which is the default behavior.  
 
    >
-   >
    >This is the same as the definitions:  
-   >
    >
    >```   >
    >N:data [nt:unstructured]
    > P:clientFilter [String] = "function(v) { return v; }"
    >
    >```   >
-   >
    >Where the function simply returns the value it receives.
 
 1. Define your report design. For example `osgireport[cq:Page]` under `/etc/designs/reports`.
@@ -1291,18 +1288,13 @@ An instance of your new report can now be created:
    >[!NOTE]
    >
    >As this example does not have any groupable columns the charts will not be available. To see charts, set `groupable` to `true`:  
-
    >
-   >
-   >
-   >
-   >```   >
+   >```   
    >N:osgireport [sling:Folder]
    > N:bundlecol [cq:Component]
    > N:definitions [nt:unstructured]
    > P:groupable [Boolean] = true
-   >```   >
-   >
+   >```
 
 ## Configuring the Report Framework Services {#configuring-the-report-framework-services}
 

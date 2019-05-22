@@ -184,8 +184,6 @@ To insert personalization:
    >    * To add or hide personalization elements, see [Managing personalization fields and blocks](/help/sites-administering/campaignonpremise.md#managing-personalization-fields-and-blocks).
    >    * **Important**: All seed table fields must also be in the recipient table (or corresponding contact table).
    >    
-   >
-
 1. Insert text by typing. Insert context fields or personalization blocks by clicking the Adobe Campaign components and selecting them. When finished select the checkmark.
 
    ![](assets/chlimage_1-27.png)
@@ -302,9 +300,7 @@ To link a page created in AEM with an email from Adobe Campaign:
    >
    >If the content is updated in AEM while it is linked to an email, it is automatically updated in Adobe Campaign during the analysis. The synchronization can also be executed manually using **Refresh Adobe Experience Manager content **from the content action bar.
    >
-   >
    >You can cancel the link between an email and AEM content using **Delete the link with the Adobe Experience Manager content** from the content action bar. This button is only available if a content is already linked with the delivery. To link a different content with a delivery, you must delete the current content link before being able to establish a new link.
-   >
    >
    >When the link is deleted, the local content is kept and becomes editable in Adobe Campaign. If you link again the content after having modified it, all changes will be lost.
 
@@ -366,7 +362,6 @@ To synchronize content created in AEM with a delivery from Adobe Campaign:
 
    >[!NOTE]
    >
-   >
    >    
    >    
    >    * After the delivery and content are synchronized, the delivery content in Adobe Campaign becomes read only. The email subject as well as its content can no longer be modified.
@@ -375,5 +370,3 @@ To synchronize content created in AEM with a delivery from Adobe Campaign:
    >    * If desynchronized the local content is kept and becomes editable in Adobe Campaign. If you resynchronize the content after having modified it, you will lose all your changes.
    >    * For recurring and continuous deliveries, synchronization with AEM content is stopped every time the delivery is executed.
    >    
-   >
-

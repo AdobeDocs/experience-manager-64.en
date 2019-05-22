@@ -107,8 +107,6 @@ You can preview a specific version:
    >    
    >    * If you experience problems with a preview, check the [Timeline](/help/sites-authoring/basic-handling.md#timeline) for the page to see whether the page has been moved.
    >    
-   >
-
 ## Comparing a Version with Current Page {#comparing-a-version-with-current-page}
 
 To compare a previous version with the current page:

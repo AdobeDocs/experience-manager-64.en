@@ -35,7 +35,6 @@ To deliver optimized images for a responsive site:
    >
    >The selected asset *and* the selected image preset or viewer preset must be published to make the **URL** or **RESS** buttons available.
    >
-   >
    >(Note that Dynamic Media - Hybrid mode requires you to publish image presets; Dynamic Media - Scene7 mode automatically publishes image presets.
 
 1. Tap or click **RESS**. The responsive code displays.

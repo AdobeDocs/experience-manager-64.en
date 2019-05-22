@@ -54,13 +54,9 @@ Use the following steps to add support for custom special characters:
        >
        >Do not make changes in the /libs branch. Any changes you do make may be lost, because this branch is liable to changes whenever you:
        >
-       >    
-       >    
-       >    * Upgrade on your instance
-       >    * Apply a hot fix
-       >    * Install a feature pack
-       >    
-       >
+       >* Upgrade on your instance
+       >* Apply a hot fix
+       >* Install a feature pack
 
     1. Click **OK** and then click **Save All**. The specialcharacters folder is created in the specified path.
 

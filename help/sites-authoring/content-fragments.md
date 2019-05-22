@@ -91,8 +91,6 @@ The content fragments enable:
    >    * [Responsive Layout](/help/sites-authoring/responsive-layout.md)
    >    * [Editing Page Content](/help/sites-authoring/editing-content.md)
    >    
-   >
-
 ## Selecting the Element or Variation {#selecting-the-element-or-variation}
 
 Open the fragment's **Configuration** dialog to configure the fragment for use on the current page. The dialog can depend on the component used.

@@ -98,7 +98,6 @@ When you run the Migration Utility for the first time, a log is created with the
    >
    >During assets migration, you may find warning messages such as “Conflict found for…”. Such messages indicate that rules for some of the components in adaptive forms could not be migrated. For example, if the component had an event which had both rules and scripts, if rules occur after any script none of the rules for the component are migrated. However, such rules can be migrated by opening the rule editor in adaptive form authoring.
    >
-   >
    >These components can be migrated by opening them in Rule Editor in Adaptive Forms editor. 
    >
    >    
@@ -120,8 +119,6 @@ When you run the Migration Utility for the first time, a log is created with the
    >        
    >    
    >    
-   >
-
     * To migrate adaptive form custom components, tap **Adaptive Forms Custom Components Migration** and in the Custom Components Migration page, tap **Start Migration**. The following get migrated:
 
         * Custom components written for Adaptive Forms

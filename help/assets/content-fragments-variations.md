@@ -280,8 +280,8 @@ They will be added to the paragraph sequence of the fragment without any formatt
    >
    >If, after adding an asset, you change format to:
    >
-   >    * **Plain Text**: the asset will be completely lost from the fragment.
-   >    * **Markdown**: the asset will not be visible, but will still be there when you return to **Rich Text**.
+   >* **Plain Text**: the asset will be completely lost from the fragment.
+   >* **Markdown**: the asset will not be visible, but will still be there when you return to **Rich Text**.
 
 ## Managing Variations {#managing-variations}
 

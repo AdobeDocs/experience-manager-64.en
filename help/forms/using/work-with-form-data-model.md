@@ -139,7 +139,6 @@ To read and write data for a data model object, do the following to configure re
    >
    >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. When you add an OData service datasource to a Form Data Model, there is a service available in Form Data Model for all navigation properties in a data model object. You can use this service to read the navigation properties of the corresponding data model object. 
    >
-   >
    >For more information using the service, see [Working with navigation properties of OData services](#navigation-properties-odata).
 
 1. Toggle **[!UICONTROL Top Level Object]** to specify if the data model object is a top-level model object.

@@ -180,15 +180,11 @@ To develop new components for AEM based on existing component you can copy the c
    >    
    >    * Classic UI uses [ExtJS widgets](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html)
    >    
-   >
-
    >[!NOTE]
    >
    >A dialog defined for the classic UI will operate within the touch-enabled UI.
    >
-   >
    >A dialog defined for the touch-enabled UI will not operate within the classic UI.
-   >
    >
    >Depending on your instance and author environment you might want to define both types of dialog for your component.
 
@@ -285,8 +281,6 @@ To create the new component, we use the standard textimage component as a basis 
    >    * Touch-enabled UI: `textimage/cq:dialog`
    >    * Classic UI: `textimage/dialog`
    >    
-   >
-
 1. Edit the component metadata:
 
     * Component name

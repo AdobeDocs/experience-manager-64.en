@@ -611,7 +611,6 @@ If required by your SMTP host, type the required information in the SMTP Server 
    >
    >If you are using Microsoft Office 365 as the SMTP server for sending the invitations for user registration, the use the following settings: 
    >
-   >
    >**SMTP Host:** smtp.office365.com  
    >**Port:** 587
 

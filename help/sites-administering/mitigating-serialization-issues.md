@@ -77,8 +77,6 @@ The firewall configuration is dynamic, and can be changed at any time by:
    >    
    >    * `https://server:port/system/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl`
    >    
-   >
-
 This configuration contains the whitelist, blacklist, and deserialization logging.
 
 **Whitelisting**

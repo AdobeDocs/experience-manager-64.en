@@ -74,7 +74,6 @@ Configure AEM to use your organization's Livefyre license credentials, allowing 
    >
    >Folders must have Cloud Configurations enabled in their properties before Livefyre configurations can be added to them. Configuration folders are created and managed in the Configuration Browser. 
    >
-   >
    >You cannot create a name for a configuration—it is referenced by the path of the folder it is in. You can only have one configuration per folder.
 
 1. Select the newly created Livefyre configuration card, then click **Properties**.

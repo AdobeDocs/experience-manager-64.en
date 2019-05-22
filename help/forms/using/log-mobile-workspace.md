@@ -28,8 +28,6 @@ When you start your AEM Forms app, you first need to provide your login credenti
    >    * To display the list of server URLs, click the list arrow at the right corner of the Server URL text box.
    >    * You can the select a AEM Forms server URL to log in to via the app.
    >    
-   >
-
 When you log in to the app, you are directed to the [**Home** screen](/help/forms/using/home-screen.md).
 
 >[!NOTE]

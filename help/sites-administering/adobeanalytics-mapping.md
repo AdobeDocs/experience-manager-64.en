@@ -62,8 +62,6 @@ Use the following procedure to map CQ component variables with Adobe Analytics r
    >    
    >    * whereas events should be mapped to variables starting with `eventdata.events.X`
    >    
-   >
-
 1. To make the framework available on the publish instance of your site, open the **Page **tab of sidekick, and click **Activate Framework.**
 
 ## Mapping Product-Related Variables {#mapping-product-related-variables}

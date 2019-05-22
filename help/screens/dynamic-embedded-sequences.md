@@ -108,7 +108,6 @@ Follow the steps below to implement the functionality:
    >
    >While creating the **Region A** location folder, make sure you enter the **Title** as **Region A** and you can leave the **Name** field empty, so automatically **region-a** name is picked up.
    >
-   >
    >Similar, is the case for creating location folder **Region B**, as shown below:
 
    ![](assets/screen_shot_2018-09-13at23212pm.png)
@@ -154,7 +153,6 @@ Follow the steps below to implement the functionality:
    >[!CAUTION]
    >
    >It is important when you create a sequence channel, the **Title** of the channel can be as your requirement, but the **Name** should be the same in all the local channels.
-   >
    >
    >In this example, the channels under **Region A **and **Region B** share the same **Name** as **region** and channels under **Store 1**, **Store 2**, **Store 3**, and **Store 4 **share the same **Name** as **store**.
 

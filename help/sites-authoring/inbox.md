@@ -158,8 +158,6 @@ For both views (List and Calendar) you can define settings:
    >    
    >    * Workflow items - [Participating in Workflows](/help/sites-authoring/workflows-participating.md)
    >    
-   >
-
 1. Depending on the item selected an action will be started; for example:
 
     * a dialog appropriate to the action will be opened.
@@ -213,7 +211,6 @@ For certain tasks you can create a [Project](/help/sites-authoring/projects.md) 
    >[!NOTE]
    >
    >Only tasks created using the **Create** option of the **Inbox** can be used to create a project.
-   >
    >
    >Workitems (from a workflow) cannot be used to create a project.
 

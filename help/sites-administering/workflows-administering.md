@@ -65,8 +65,6 @@ A range of consoles are available for administering your workflows. Use the [glo
    >    * use of the **Terminate** action
    >    * when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
    >    
-   >
-
 1. Select a specific item, then **Open History** to see more details:
 
    ![](assets/wf-99.png)

@@ -80,7 +80,6 @@ To configure universal presets:
    >
    >For more information about what the video presets mean, see the [Scene7 documentation](https://help.adobe.com/en_US/scene7/using/WSE86ACF2B-BD50-4c48-A1D7-9CD4405B62D0.html). 
    >
-   >
    >Adobe recommends that you select either both adaptive video sets when configuring the universal presets or select the** Adaptive Video Encoding** option.
 
 1. The selected encoding profiles are automatically applied to all videos uploaded to the CQ DAM target folder you set up for this Scene7 cloud configuration. You can set up multiple Scene7 cloud configurations with different target folders to apply different encoding profiles as needed.

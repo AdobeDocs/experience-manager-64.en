@@ -394,8 +394,6 @@ Dependent on the predicate a selection of settings are available for configurati
    >    * `/apps/cq/gui/content/facets/<*option*>`
    >    * `/apps/commerce/gui/content/facets/<*option*>`
    >    
-   >
-
 ### Add/Edit a Predicate Field and Define Field Settings {#add-edit-a-predicate-field-and-define-field-settings}
 
 You can add or edit fields and define/update their settings:
@@ -479,9 +477,7 @@ The following example (to search according to the template used to create a page
    >
    >You ***must*** not change anything in the `/libs` path.
    >
-   >
    >This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).
-   >
    >
    >The recommended method for configuration and other changes is:
    >
@@ -496,8 +492,6 @@ The following example (to search according to the template used to create a page
    >    
    >    1. Make any changes within `/apps.`
    >    
-   >
-
 1. Open the **Search Forms** console and select the configuration you want to update. For example, **Sites Admin Search Rail**.
 
    Then click/tap the **Edit search forms** icon.

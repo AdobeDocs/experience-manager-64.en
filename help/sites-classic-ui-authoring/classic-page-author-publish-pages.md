@@ -67,7 +67,6 @@ You can activate pages in the Websites console. After you have opened a page and
    >
    >If necessary, AEM requests that you activate or reactivate any assets that are linked to the page. You can select or clear the check boxes to activate those assets.
    >
-   >
 
 1. If necessary, AEM requests that you activate or reactivate any assets that are linked to the page. You can select or clear the check boxes to activate those assets.
 

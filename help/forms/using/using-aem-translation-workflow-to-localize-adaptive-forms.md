@@ -32,14 +32,11 @@ The machine translation service immediately translates your content in adaptive 
 
    >[!NOTE]
    >
-   >
    >    
    >    
    >    * Before opening the localized version of form in the browser window, ensure that the locale of the browser is set to match the locale of the form. For example, if the form is translated to German(de) language then set the locale of the browser to German(de).
    >    * Adaptive form components do not support right to left (RTL) languages. For example, Hebrew.
    >    
-   >
-
    Along with the Adaptive form, the auto-generated document of record is also localized.
 
    For more information on Document of Record settings and configuration, see:

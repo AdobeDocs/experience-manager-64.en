@@ -181,7 +181,6 @@ Everytime you publish an asset or letter after editing it, a version of the asse
    >
    >Only the selected asset is deleted, and the dependent assets and are not deleted. To check references of an asset, tap ![](assets/references.png) and then select an asset. 
    >
-   >
    >If the asset you are attempting to delete is child asset of another asset, it is not deleted. To delete such an asset, remove references of this asset from other assets and then retry.
 
 ## Protected adaptive forms {#protected-adaptive-forms}

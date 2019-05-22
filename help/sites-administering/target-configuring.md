@@ -76,7 +76,6 @@ To do this, you need to specify which A4T cloud configuration to connect your Ad
    >
    >Only analytics configurations that are enabled for A4T are available.
    >
-   >
    >When configuring A4T with AEM, you may see a Configuration reference missing entry. To be able to select the analytics framework, do the following:
    >
    >    
@@ -88,8 +87,6 @@ To do this, you need to specify which A4T cloud configuration to connect your Ad
    >    
    >    1. Tap or click **Save All**.
    >    
-   >
-
    ![](assets/chlimage_1-159.png)
 
    Click **OK**. When you target content with Adobe Target, you are able to [select your report source](/help/sites-authoring/content-targeting-touch.md).
@@ -151,8 +148,6 @@ Use the following procedure to create a Target cloud configuration in AEM:
    >    
    >    1. Tap or click **Save All**.
    >    
-   >
-
 1. In the dialog, provide values for these properties.
 
     * **Client Code**: the Target account Client Code
@@ -173,12 +168,9 @@ Use the following procedure to create a Target cloud configuration in AEM:
    >
    >By default when you opt into the Adobe Target configuration wizard, Accurate Targeting is enabled. 
    >
-   >
    >Accurate targeting means that the cloud service configuration waits for the context to load before loading content. As a result, in terms of performance, accurate targeting may create a few millisecond delay before loading content.
    >
-   >
    >Accurate targeting is always enabled on the author instance. However, on the publish instance you can opt to turn accurate targeting off globally by clearing the check mark next to Accurate Targeting in the cloud service configuration (**http://localhost:4502/etc/cloudservices.html**). You can also still turn accurate targeting on and off for individual components regardless of your setting in the cloud service configuration.
-   >
    >
    >If you have ***already*** created targeted components and you change this setting, your changes do not affect those components. You must make any changes to those component directly.
 

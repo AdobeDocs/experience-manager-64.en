@@ -56,8 +56,6 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
    >    * Edit the configuration for Apache Sling Referrer Filter
    >    * In the Allow Hosts, add the entry for the proxy server
    >    
-   >
-
 1. Enable Compression.
 
    Add the following configuration to the *APACHE_HOME/conf/httpd.conf* configuration file.

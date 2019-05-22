@@ -45,14 +45,10 @@ You can use the following steps to customize the text and appearance of the wate
        >
        >Do not make changes in the /libs branch. Any changes you do make may be lost, because this branch is liable to changes whenever you:
        >
-       >    
-       >    
-       >    * Upgrade on your instance
-       >    * Apply a hot fix
-       >    * Install a feature pack
-       >    
-       >
-
+       >* Upgrade on your instance
+       >* Apply a hot fix
+       >* Install a feature pack
+   
     1. Click **OK** and then click **Save All**. The **[!UICONTROL previewwatermark]** folder is created in the specified path.
 
 1. Copy and paste the ddx file from "/libs/fd/cm/configFiles/previewwatermark" folder to "/apps/fd/cm/configFiles/previewwatermark" folder and click **[!UICONTROL Save All]**.

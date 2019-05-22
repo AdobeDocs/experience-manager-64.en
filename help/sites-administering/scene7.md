@@ -310,7 +310,6 @@ To configure AEM to be able to publish assets to Scene7, perform the following s
    >
    >When creating additional configurations, the **parent configuration** field displays. 
    >
-   >
    >Do **not** change the parent configuration. Changing the parent configuration can break the integration.
 
 1. Enter the email address, password, and region of your Scene7 account and click **Connect to Scene7**. You are connected to the Scene7 server and the dialog expands with more options.  
@@ -394,14 +393,11 @@ To configure autouploading from AEM Assets:
 
    >[!NOTE]
    >
-   >
    >    
    >    
    >    * When adding assets after automating, if they are not placed in the CQ target folder, they are not uploaded to Scene7.
    >    * AEM embeds all the metadata as XMP before uploading it to Scene7, so all properties on the metadata node are available in Scene7 as XMP.
    >    
-   >
-
 ### Configuring the state (published/unpublished) of assets pushed to Scene7 {#configuring-the-state-published-unpublished-of-assets-pushed-to-scene}
 
 If you are pushing assets from AEM Assets to Scene7, you can either publish them automatically (default behavior) or push them to Scene7 in an unpublished state.
@@ -571,9 +567,7 @@ Specifically, you configure the accepted file format by MIME type in the OSGi (O
    >If you are uploading PSD files, process them as templates with layer extractions. To do so, enter the following in the **jobParam** value field:  
 
    >
-   >
    >`process=MaintainLayers&createTemplate=true`
-   >
    >
    >Be sure that your PSD file has “layers”. If it is strictly one image or an image with mask, it will only be processed as an image because there are no layers to process.
 

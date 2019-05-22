@@ -35,14 +35,8 @@ To apply any applicable viewer preset to an asset:
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * The **URL** and **Embed** buttons appear after you select a viewer preset.
-   >    
-   >    * The system shows numerous viewer presets when you select Viewers in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of viewer presets that display](managing-viewer-presets.md).
-   >    
-   >
+   >* The **URL** and **Embed** buttons appear after you select a viewer preset.
+   >* The system shows numerous viewer presets when you select Viewers in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of viewer presets that display](managing-viewer-presets.md).
 
 1. Select a viewer from the left pane to apply it to the asset as seen in the right pane. You can also [copy the URL to share](linking-urls-to-yourwebapplication.md) with others users.
 

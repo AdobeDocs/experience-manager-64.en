@@ -79,9 +79,7 @@ Fields are enabled on the page component (*not* on the template):
    >
    >You ***must*** not change anything in the `/libs` path.
    >
-   >
    >This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).
-   >
    >
    >The recommended method for configuration and other changes is:
    >
@@ -91,7 +89,5 @@ Fields are enabled on the page component (*not* on the template):
    >    
    >    1. Make any changes within `/apps`
    >    
-   >
-
 1. Select **Save All** to persist your updates.
 

@@ -501,7 +501,6 @@ The DocAssurance service can apply usage rights to PDF documents. To apply usage
 
    >[!NOTE]
    >
-   >
    >    
    >    
    >    * To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
@@ -509,8 +508,6 @@ The DocAssurance service can apply usage rights to PDF documents. To apply usage
    >    
    >    * In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
    >    
-   >
-
 ### Enable AES-256 {#enable-aes}
 
 To use AES 256 encryption for PDF files, obtain and install the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy files. Replace the local_policy.jar and US_export_policy.jar files in the jre/lib/security folder. For example, if you are using Sun JDK, copy the downloaded files to the [JAVA_HOME]/jre/lib/security folder.

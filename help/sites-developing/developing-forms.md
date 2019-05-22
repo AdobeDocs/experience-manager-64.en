@@ -180,7 +180,6 @@ You can add your own action under `/apps` as follows:
    >
    >To see default actions that are part of the product: 
    >
-   >
    >`/libs/foundation/components/form/actions`
 
 ### Developing your own Form Constraints {#developing-your-own-form-constraints}
@@ -305,8 +304,6 @@ In Javascript, conditions use the value of the Element Name property to refer to
    >    
    >    * on the publish environment
    >    
-   >
-
 #### Handling Broken Component References {#handling-broken-component-references}
 
 Show/hide conditions use the value of the Element Name property to reference other components in the form. The Show/Hide configuration is invalid when any of the conditions refer to a component that is deleted or has had the Element Name property changed. When this situation occurs, you need to manually update the conditions or an error occurs when the form loads.

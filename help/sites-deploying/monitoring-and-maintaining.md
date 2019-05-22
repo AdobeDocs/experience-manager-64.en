@@ -302,7 +302,6 @@ In certain circumstances you may want to create a custom log file with a differe
    >`org.apache.sling.commons.log.pattern` supports up to six arguments.  
 
    >
-   >
    >{0} The timestamp of type `java.util.Date`  
    >{1} the log marker  
    >{2} the name of the current thread  
@@ -310,7 +309,6 @@ In certain circumstances you may want to create a custom log file with a differe
    >{4} the log level  
    >{5} the log message  
 
-   >
    >
    >If the log call includes a `Throwable` the stacktrace is appended to the message.
 
@@ -322,29 +320,21 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >Log writer paths are relative to the `crx-quickstart` location.
    >
-   >
    >Therefore, a log file specified as:
-   >
    >
    >`logs/thelog.log`  
 
    >
-   >
    >writes to:
-   >
    >
    >`` ` ` `<*cq-installation-dir*>/``crx-quickstart/logs/thelog.log`.
    >
-   >
    >And a log file specified as:
-   >
    >
    >`../logs/thelog.log`  
 
    >
-   >
    >writes to a directory:
-   >
    >
    >` <*cq-installation-dir*>/logs/`  
    >``(i.e. next to ` `<*cq-installation-dir*>/`crx-quickstart/`)
@@ -355,7 +345,6 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >A new Logging Writer Configuration is only required when the existing default is not suitable.  
 
-   >
    >
    >If no explicit Writer is configured the system will automatically generate an implicit Writer based on the default.
 
@@ -423,8 +412,6 @@ In certain circumstances you may want to create a custom log file with a differe
    >      2. Only use characters allowed for a valid file name anywhere in the option.
    >    
    >    
-   >
-
 1. Read your new log file with your chosen tool.
 
    The log file created by this example will be `../crx-quickstart/logs/myLogFile.log`.
@@ -495,14 +482,11 @@ To monitor a replication agent:
    >
    >Do not use the "Test Connection" link for the Reverse Replication Outbox on a publish instance.
    >
-   >
    >If a replication test is performed for an Outbox queue, any items that are older than the test replication will be re-processed with every reverse replication.  
 
    >
-   >
    >If such items already exist in a queue, they can be found with the following XPath JCR query and should be removed.  
 
-   >
    >
    >`/jcr:root/var/replication/outbox//*[@cq:repActionType='TEST']`
 

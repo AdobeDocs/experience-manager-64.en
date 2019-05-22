@@ -51,7 +51,6 @@ After installation you can configure your instance:
    >
    >Use the context menu (usually right-button click) to select `Create Solr sort`.
    >
-   >
    >For Hybris 5.0.0 open the `Indexed Types` tab, double-click on `ClothesVariantProduct`, then the tab `SOLR Sort`.
 
    ![](assets/chlimage_1-36.png)
@@ -439,5 +438,3 @@ To add order history to the [client context](/help/sites-developing/client-conte
    >    
    >    * The segment is built using the **Order History Property** trait.
    >    
-   >
-

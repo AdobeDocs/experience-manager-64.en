@@ -85,10 +85,8 @@ Create a dictionary for managing your localized UI strings. After you create a d
    >
 
    >
-   >
    >The translator will only save translations for languages that are actually present underneath the path (e.g. `/apps/myProject/i18n`).  
 
-   >
    >
    >Make sure that these correspond to the languages shown in the grid.
 
@@ -205,7 +203,6 @@ After you add the English string to a dictionary, you can add translations of th
    >
    >Only edit dictionaries that are created for your project and reside under /apps.
    >
-   >
    >AEM system dictionaries are also available in this tool. Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under /libs.
 
 1. To edit the translated texts for one of the strings you can either:
@@ -308,10 +305,8 @@ Use the following procedure to add or remove languages.
    >
 
    >
-   >
    >The translator will only save translations for languages that are actually [present in the dictionary](#creating-a-dictionary) (i.e. underneath the dictionary path such as `/apps/myProject/i18n`).  
 
-   >
    >
    >Make sure that these correspond to the languages shown in the grid.
 

@@ -166,7 +166,6 @@ If entity children, which are other entities, are gathered for data modeling, th
    >
    >You have the option to choose the **Assets Model**, **Pages Model**, or a model of entity type you created before.
    >
-   >
    >See [Creating a Model](/help/mobile/working-with-a-model.md), to create your custom entity.
 
 1. Enter a **Title**,** Name**, **Description**, and** Tags** for the entity. Click **Create**.

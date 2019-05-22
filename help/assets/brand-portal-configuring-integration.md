@@ -118,7 +118,6 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
    >
    >Four replication agents are available in AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2, and later releases. Adobe recommends installing these releases to utilize multiple replication agents for high-speed parallel publishing.
    >
-   >
    >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
 
    >[!NOTE]
