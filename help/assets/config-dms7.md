@@ -88,11 +88,8 @@ To configure dynamic media cloud services:
 1. If the connection is successful, you can also set the following:
 
     * **[!UICONTROL Company]** - the name of the Dynamic Media account. It is possible you may have multiple Dynamic Media accounts for different sub-brands, divisions, or different staging/production environments.  
-    
-    * **[!UICONTROLCompany Root Folder Path]** 
-    
+    * **[!UICONTROLCompany Root Folder Path]**
     * **[!UICONTROLPublishing Assets]** - the option **Immediately** means that when assets are uploaded, the system ingests the assets and provides the URL/Embed instantly. There is no user intervention necessary to publish assets. The option **Upon Activation** means that you need to explicitly publish the asset first before a URL/Embed link is provided.
-    
     * **[!UICONTROL Secure Preview Server]** - lets you specify the URL path to your secure renditions preview server. That is, after renditions are generated, AEM can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the AEM instance).  
       Unless you have a special arrangment to use your own company's server or a special server, Adobe Systems recommends that you leave this setting as specified.
 
@@ -110,7 +107,6 @@ To configure dynamic media cloud services:
 
     * Log on to your Dynamic Media Classic account: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html). Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
     * On the navigation bar near the top right of the page, tap **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**.
-    
     * On the Image Server Publish page, in the Publish Context drop-down list, select **[!UICONTROL Test Image Serving]**.
     * For the Client Address Filter, tap **[!UICONTROL Add]**.
     * Select the check box to enable (turn on) the address, and then enter the IP address of the AEM Author instance (not Dispatcher IP).
@@ -147,7 +143,7 @@ Setup and configuration tasks include the following:
 
 The Publish Setup settings determine how assets are delivered by default from Dynamic Media. If no setting is specified, Dynamic Media delivers an asset according to the default settings defined in Publish Setup. For example, a request to deliver an image that does not include a resolution attribute yields an image with the Default Object Resolution setting.
 
-To configure Publish Setup: in Dynamic Media Classic, tap **[!UICONTROLSetup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**.
+To configure Publish Setup: in Dynamic Media Classic, tap **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**.
 
 The Image Server screen establishes default settings for delivering images. See the UI screen for description of each setting.
 
@@ -239,7 +235,6 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 1. On the right side of the CRXDE Lite page, in the lower portion:
 
     * double-click the **[!UICONTROL enabled]** field. By default all asset mime types are enabled (set to **true**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **false**.
-    
     * double-click **[!UICONTROL jobParam]** to open its associated text field. See [Supported Mime Types](assets-formats.md#supported-mime-types) for a list of permitted processing parameter values you can use for a given mime type.
 
 1. Do one of the following:
@@ -317,7 +312,6 @@ You can use either the form field method to define a batch set preset or the cod
 1. Do one of the following:
 
     * If you are using a default naming convention that you previously set up under **[!UICONTROL Application Setup &gt; Batch Set Presets &gt; Default Naming]**, expand [!UICONTROL Asset Naming Conventions], and then in the [!UICONTROL File Naming] drop-down list, tap **[!UICONTROL Default]**.
-    
     * To define a new naming convention as you set up the preset, [!UICONTROL Asset Naming Conventions], and then in the [!UICONTROL File Naming] drop-down list, tap **[!UICONTROL Custom]**.
 
 1. For Sequence order, define the order in which images are displayed after the set is grouped together in Dynamic Media.

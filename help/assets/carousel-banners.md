@@ -192,7 +192,6 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
    On the Carousel Banner Editor page, do either one of the following:
 
     * Near the upper-left corner of the page, tap **[!UICONTROL Add Slide]** icon.  
-    
     * Near the middle of the page, tap **[!UICONTROL Tap to open Asset Selector]**.
 
    Tap to select assets that you want to include in your Carousel Set. Selected assets have a checkmark icon over them. When you are finished, near the upper-right corner of the page, tap **[!UICONTROL Select]**.
@@ -206,7 +205,6 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
 
     * If necessary, drag slide's to re-order images in the the set list.
     * To delete an image, select the image, then tap **[!UICONTROL Delete Slide]** on the toolbar.  
-    
     * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a preset to apply to the set at once.
 
    To delete a slide, tap the slide and tap **[!UICONTROL Delete Slide]** in the toolbar. To move a slide, tap the reoreder icon and hold and move to the desired location.
@@ -332,7 +330,6 @@ To edit a Carousel Set:
 
     * Hover over an Carousel Set asset, then tap **[!UICONTROL Edit]** (pencil icon).
     * Hover over an Carousel Set asset, tap **[!UICONTROL Select]** (checkmark icon), then tap **[!UICONTROL Edit]** on the toolbar.
-    
     * Tap on a Carousel Set asset, then in the upper-left corner of the page tap **[!UICONTROL Edit]** (pencil icon).
 
 1. To edit the Carousel Set, do any of the following:
@@ -341,18 +338,14 @@ To edit a Carousel Set:
     * To reorder slides, drag an slide to a new location (select the reorder icon to move items).
     * To add a hotspot or image map, tap the hotspot or image map icons and see [adding hotspots and image maps](#adding-hotspots-or-image-maps-to-an-image-banner).
     * To edit the appearance or behavior of the carousel set, tap the [!UICONTROL Appearance] tab or [!UICONTROL Behavior] tab, then set the options you want.  
-    
     * To edit hotspots or image maps, on the appropriate slide, select a hotspot or image map and make changes as necessary under the [!UICONTROL Actions] tab.
     * To delete an slide, select it, then tap **[!UICONTROL Delete Slide]** on the toolbar.
     * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a viewer preset.  
-    
     * To delete an entire Carousel Set, navigate to the Carousel Set, select it, then tap **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
    >If you are editing interactive images with hotspots and crop the image, your hotspots are removed.
-   >
-   >
 
 ## (Optional) Previewing Carousel Banners {#optional-previewing-carousel-banners}
 

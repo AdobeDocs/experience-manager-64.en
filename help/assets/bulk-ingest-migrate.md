@@ -19,7 +19,7 @@ The installation of feature pack 18912 is _optional_. Feature pack 18912 lets yo
 >
 >Migration feature packs, such as this one, are only supported as part of a migration project through Adobe Professional Services.
 
-When you install this feature pack, you must also create a service user and provide that information to Adobe support.
+When you install this feature pack, you must also create a service user and provide that information to Adobe.
 
 See also [Configuring Dynamic Media - Scene7 mode](https://helpx.adobe.com/experience-manager/6-4/assets/using/config-dms7.html).
 
