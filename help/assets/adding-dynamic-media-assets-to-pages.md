@@ -13,7 +13,7 @@ discoiquuid: d1f45751-1761-4d6b-b17d-110b2f1117ea
 
 # Adding Dynamic Media Assets to Pages{#adding-dynamic-media-assets-to-pages}
 
-To add the dynamic media functionality to assets you use on your websites, you can add the **Dynamic Media** or** Interactive Media** component directly on the page. You do this by entering Layout mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.
+To add the dynamic media functionality to assets you use on your websites, you can add the **Dynamic Media** or **Interactive Media** component directly on the page. You do this by entering Layout mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.
 
 You add dynamic media assets directly to the page if you are using AEM as your WCM. If you are using a third-party for your WCM, either [link](linking-urls-to-yourwebapplication.md) or [embed](embed-code.md) your assets. For a responsive third-party web site, see [delivering optimized images to a responsive site](responsive-site.md).
 
@@ -32,11 +32,11 @@ Adding the Dynamic Media or Interactive Media component to a page is the same as
 >To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
 
 1. In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.
-1. In the left pane, click the **Components icon** and filter for **Dynamic Media**. If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](/help/sites-authoring/templates.md#editing-templates-template-authors) for more information. 
+1. In the left pane, click the **[!UICONTROL Components]** icon and filter for **[!UICONTROL Dynamic Media]**. If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](/help/sites-authoring/templates.md#editing-templates-template-authors) for more information. 
 
    ![](assets/chlimage_1-537.png)
 
-1. Drag the **Dynamic Media** or **Interactive Media** component onto the page in the desired location.
+1. Drag the **[!UICONTROL Dynamic Media]** or **[!UICONTROL Interactive Media]** component onto the page in the desired location.
 1. Click the blue box around the component, then tap the **Configuration** (wrench) icon.
 1. [Edit the components](#dynamic-media-components) as necessary and click the checkmark to save changes.
 
@@ -44,19 +44,19 @@ Adding the Dynamic Media or Interactive Media component to a page is the same as
 
 You can localize Dynamic Media components in one of two ways:
 
-* Within a web page in Sites, open **Properties** and select the **Advanced** tab. Select the desired language for localization.
+* Within a web page in Sites, open **[!UICONTROL Properties]** and select the **[!UICONTROL Advanced]** tab. Select the desired language for localization.
 
   ![](assets/chlimage_1-538.png)
 
-* From the site selector, select the desired page or page group. Tap or click **Properties** and select the **Advanced** tab. Select the desired language for localization.
+* From the site selector, select the desired page or page group. Tap **[!UICONTROL Properties]** and select the **[!UICONTROL Advanced]** tab. Select the desired language for localization.
 
   >[!NOTE]
   >
-  >Please note that not all languages available in the **Language** menu currently have tokens assigned.
+  >Please note that not all languages available in the [!UICONTROL Language] menu currently have tokens assigned.
 
 ## Dynamic Media Components {#dynamic-media-components}
 
-Dynamic Media and Interactive Media are available under the **Dynamic Media** tab in **Components**. You use the **Interactive Media** component for any interactive assets such as interactive video, interactive images, or carousel sets. For all other dynamic media components, use the **Dynamic Media** component.
+Dynamic Media and Interactive Media are available under the [!UICONTROL Dynamic Media] tab in [!UICONTROL Components]. You use the Interactive Media] component for any interactive assets such as interactive video, interactive images, or carousel sets. For all other dynamic media components, use the Dynamic Media component.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Dynamic Media and Interactive Media are available under the **Dynamic Media** ta
 
 ### Dynamic Media component {#dynamic-media-component}
 
-The Dynamic Media component is smart - depending on whether you add an image or a video, you have various options. The component supports image presets, image-based viewers such as image sets, spin sets, mixed media sets, and video. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
+The Dynamic Media component is smart&mdash;depending on whether you add an image or a video, you have various options. The component supports image presets, image-based viewers such as image sets, spin sets, mixed media sets, and video. In addition, the viewer is responsive. That is, the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ The Dynamic Media component is smart - depending on whether you add an image or 
 
 >[!NOTE]
 >
->When you add the Dynamic Media component, and **Dynamic Media Settings** is blank or you cannot add an asset properly, check the following:
+>When you add the Dynamic Media component, and **[!UICONTROL Dynamic Media Settings]** is blank or you cannot add an asset properly, check the following:
 >
 >* You have [enabled Dynamic Media](config-dynamic.md). Dynamic Media is disabled by default.
 >* The image has a pyramid tiff file. Images imported before dynamic media is enabled do not have a pyramid tiff file.
@@ -88,45 +88,45 @@ The Dynamic Media component lets you add dynamic images, including image sets, s
 
 You can also configure the viewer preset, image preset, or image format directly in the component. To make an image responsive you can either set the breakpoints or apply a responsive image preset.
 
-You can edit the following Dynamic Media Settings by clicking the **Edit** icon in the component and then **Dynamic Media Settings**.
+You can edit the following Dynamic Media Settings by clicking the **[!UICONTROL Edit]** icon in the component and then **[!UICONTROL Dynamic Media Settings]**.
 
 ![](assets/dm-settings-image-preset.png)
 
 >[!NOTE]
 >
->By default, the Dynamic Media image component is adaptive. If you want to make it a fixed size, set it in the component in the **Advanced** tab with the **Width** and **Height**.
+>By default, the Dynamic Media image component is adaptive. If you want to make it a fixed size, set it in the component in the **[!UICONTROL Advanced]** tab with the **[!UICONTROL Width]** and **[!UICONTROL Height]** settings.
 
-**Viewer preset** Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
+**[!UICONTROL Viewer preset]** Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
 
 This is the only option available if you are viewing image sets, spin sets, or mixed media sets. The viewer presets displayed are also smart - only relevant viewer presets appear.
 
-**Viewer modifiers** Viewer modifiers take the form of name=value pair with a & delimiter and let you change viewers as outlined in the Viewers Reference Guide. An example of a viewer modifier is posterimage=img.jpg&caption=text.vtt,1 which sets a different image for the video thumbnail and associates a closed caption/subtitle file with the video.
+**[!UICONTROL Viewer modifiers]** Viewer modifiers take the form of name=value pair with a & delimiter and let you change viewers as outlined in the Viewers Reference Guide. An example of a viewer modifier is posterimage=img.jpg&caption=text.vtt,1 which sets a different image for the video thumbnail and associates a closed caption/subtitle file with the video.
 
-**Image preset** Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See Managing Image Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
-
-This option is not available if you are viewing image sets, spin sets, or mixed media sets.
-
-**Image Modifiers** You can apply image effects by supplying additional image commands. These are described in Image Presets and the Image Serving Command reference.
+**[!UICONTROL Image preset]** Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See Managing Image Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-**Breakpoints** If you are using this asset on a responsive site, you need to add the image breakpoints. Image breakpoints need to be separated by commas (,). This option works when there is no height or width defined in an image preset.
+**[!UICONTROL Image Modifiers]** You can apply image effects by supplying additional image commands. These are described in Image Presets and the Image Serving Command reference.
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-You can edit the following Advanced Settings by clicking **Edit** in the component.
-
-**Title** Change the title of the image.
-
-**Alt Text** Add a title to the image for those users who have graphics turned off.
+**[!UICONTROL Breakpoints]** If you are using this asset on a responsive site, you need to add the image breakpoints. Image breakpoints need to be separated by commas (,). This option works when there is no height or width defined in an image preset.
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-**URL, Open in** You can set an asset to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
+You can edit the following Advanced Settings by clicking **[!UICONTROL Edit]** in the component.
+
+**[!UICONTROL Title]** Change the title of the image.
+
+**[!UICONTROL Alt Text]** Add a title to the image for those users who have graphics turned off.
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-**Width and Height** Enter value in pixels if you want the image to be a fixed size. Leaving these values blank makes the asset adaptive.
+**[!UICONTROL URL, Open in]** You can set an asset to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
+
+This option is not available if you are viewing image sets, spin sets, or mixed media sets.
+
+**[!UICONTROL Width]** and **[!UICONTROL Height]** Enter value in pixels if you want the image to be a fixed size. Leaving these values blank makes the asset adaptive.
 
 #### When working with Video {#when-working-with-video}
 
@@ -134,26 +134,26 @@ Use the Dynamic Media component to add dynamic video to your web pages. When you
 
 ![](assets/chlimage_1-540.png)
 
-You can edit the following Dynamic Media Settings by clicking **Edit** in the component.
+You can edit the following Dynamic Media Settings by clicking **[!UICONTROL Edit]** in the component.
 
 >[!NOTE]
 >
->By default, the Dynamic Media video component is adaptive. If you want to make it a fixed size, set it in the component with the **Width** and **Height** in the **Advanced** tab.
+>By default, the Dynamic Media video component is adaptive. If you want to make it a fixed size, set it in the component with the **[!UICONTROL Width]** and **[!UICONTROL Height]** in the [!UICONTROL Advanced] tab.
 
-**Viewer preset** Select an existing video viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets.
+**[!UICONTROL Viewer preset]** Select an existing video viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets.
 
-**Viewer modifiers** Viewer modifiers take the form of name=value pair with a & delimiter and let you change viewers as outlined in the Adobe Viewers Reference Guide. An example of a viewer modifier is posterimage=img.jpg&caption=text.vtt,1
+**[!UICONTROL Viewer modifiers]** Viewer modifiers take the form of name=value pair with a & delimiter and let you change viewers as outlined in the Adobe Viewers Reference Guide. An example of a viewer modifier is posterimage=img.jpg&caption=text.vtt,1
 
 With viewer modifiers, you for example, can do the following:
 
 * Associate a caption file with a video: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_caption.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_caption.html)
 * Associate a navigation file with a video: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_navigation.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_navigation.html)
 
-You can edit the following Advanced Settings by clicking **Edit** in the component.
+You can edit the following [!UICONTROL Advanced Settings] by clicking **[!UICONTROL Edit]** in the component.
 
-**Title** Change the title of the video.
+**[!UICONTROL Title** Change the title of the video.
 
-**Width and Height** Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.
+**[!UICONTROL Width** and **[!UICONTROL Height]** Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.
 
 #### When working with Smart Crop {#when-working-with-smart-crop}
 
@@ -163,35 +163,35 @@ See also [Image Profiles](image-profiles.md).
 
 ![](assets/dm-settings-smart-crop.png)
 
-You can edit the following Dynamic Media Setting by clicking **Edit** in the component.
+You can edit the following [!UICONTROL Dynamic Media Settings] by clicking **[!UICONTROL Edit]** in the component.
 
 >[!NOTE]
 >
->By default, the Dynamic Media image component is adaptive. If you want to make it a fixed size, set it in the component in the **Advanced** tab with the **Width** and **Height**.
+>By default, the Dynamic Media image component is adaptive. If you want to make it a fixed size, set it in the component in the [!UICONTROL Advanced] tab with the **[!UICONTROL Width]** and **[!UICONTROL Height]**.
 
-**Image Modifiers** You can apply image effects by supplying additional image commands. These are described in Image Presets and the Image Serving Command reference.
-
-This option is not available if you are viewing image sets, spin sets, or mixed media sets.
-
-You can edit the following Advanced Settings by clicking **Edit** in the component.
-
-**Title** Change the title of the Smart Crop image.
-
-**Alt Text** Add a title to the smart crop image for those users who have graphics turned off.
+**[!UICONTROL Image Modifiers]** You can apply image effects by supplying additional image commands. These are described in Image Presets and the Image Serving Command reference.
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-**URL, Open in** You can set an asset to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
+You can edit the following [!UICONTROL Advanced] settings by clicking **[!UICONTROL Edit]** in the component.
+
+**[!UICONTROL Title]** Change the title of the Smart Crop image.
+
+**[!UICONTROL Alt Text]** Add a title to the smart crop image for those users who have graphics turned off.
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-**Height, Width** Enter value in pixels if you want the smart crop image to be a fixed size. Leaving these values blank makes it adaptive.
+**[!UICONTROL URL, Open in]** You can set an asset to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
+
+This option is not available if you are viewing image sets, spin sets, or mixed media sets.
+
+**[!UICONTROL Height** **[!UICONTROL Width]** Enter value in pixels if you want the smart crop image to be a fixed size. Leaving these values blank makes it adaptive.
 
 ### Interactive Media Component {#interactive-media-component}
 
-Interactive Media component is for those assets that have interactivity on them such hotspots or image maps. If you have an interactive image, interactive video, or carousel banner, use the **Interactive Media** component.
+Interactive Media component is for those assets that have interactivity on them such hotspots or image maps. If you have an interactive image, interactive video, or carousel banner, use the Interactive Media component.
 
-The Interactive Media component is smart - depending on whether you add an image or a video, you have various options. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
+The Interactive Media component is smart&mdash;depending on whether you add an image or a video, you have various options. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
 
 >[!NOTE]
 >
@@ -201,21 +201,21 @@ The Interactive Media component is smart - depending on whether you add an image
 
 ![](assets/chlimage_1-541.png)
 
-You can edit the following **General** settings by clicking **Edit** in the component.
+You can edit the following [!UICONTROL General] settings by clicking **[!UICONTROL Edit]** in the component.
 
-**Viewer preset** Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. Viewer Presets must be published before they can be used. See Managing Viewer Presets.
+**[!UICONTROL Viewer preset]** Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. Viewer Presets must be published before they can be used. See Managing Viewer Presets.
 
-**Title** Change the title of the video.
+**[!UICONTROL Title]** Change the title of the video.
 
-**Width and Height** Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.
+**[!UICONTROL Width]** and **[!UICONTROL Height]** Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.
 
-You can edit the following **Add To Cart** settings by clicking **Edit** in the component.
+You can edit the following [!UICONTROL Add To Cart] settings by clicking **[!UICONTROL Edit]** in the component.
 
-**Show Product Asset** By default, this value is selected. The product asset shows an image of the product as defined in the Commerce module. Clear the check mark to not show the product asset.
+**[!UICONTROL Show Product Asset]** By default, this value is selected. The product asset shows an image of the product as defined in the Commerce module. Clear the check mark to not show the product asset.
 
-**Show Product Price** By default, this value is selected. Product price shows the price of the item as defined in the Commerce module. Clear the check mark to not show the product price.
+**S[!UICONTROL how Product Price]** By default, this value is selected. Product price shows the price of the item as defined in the Commerce module. Clear the check mark to not show the product price.
 
-**Show Product Form** By default, this value is not selected. The Product Form includes any product variants such as size and color. Clear the check mark to not show the product variants.
+**[!UICONTROL Show Product Form]** By default, this value is not selected. The Product Form includes any product variants such as size and color. Clear the check mark to not show the product variants.
 
 ### Panoramic Media Component {#panoramic-media-component}
 
@@ -228,9 +228,9 @@ Both the aspect ratio and keyword criteria apply to panoramic assets for the ass
 
 ![](assets/panoramic-media-viewer-preset.png)
 
-You can edit the following setting by tapping **Configure** in the component.
+You can edit the following setting by tapping **[!UICONTROL Configure]** in the component.
 
-**Viewer Preset** Select an existing viewer from the Viewer preset drop-down menu.
+**[!UICONTROL Viewer Preset]** Select an existing viewer from the Viewer preset drop-down menu.
 
 If the viewer preset you are looking for is not visible, check to ensure that it is published. You must publish viewer presets before you can use them. See [Managing Viewer Presets](managing-viewer-presets.md).
 
