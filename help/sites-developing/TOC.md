@@ -22,6 +22,7 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Customizing Pages shown by the Error Handler](customizing-errorhandler-pages.md)
     + [Custom Node Types](custom-nodetypes.md)
     + [Adding Fonts for Graphic-Rendering](adding-fonts.md)
+    + [Content Fragment Templates](content-fragment-templates.md)
 + Components{#components}
     + [REDIRECT Core Components](components-core.md)
     + [Style System](style-system.md)
@@ -29,7 +30,8 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [AEM Components - The Basics](components-basics.md)
     + [Developing AEM Components](developing-components.md)
     + [Developing AEM Components - Code Samples](developing-components-samples.md)
-<!-- 
+    + [Components for Content Fragments](components-content-fragments.md)
+<!--
 + Headless Experience Management{#headless}
     + [Headless and Hybrid with AEM](https://www.adobe.com)
     + [Enabling JSON Export for a Component](json-exporter-components.md)
@@ -79,6 +81,8 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Content Architecture](content-architecture.md)
     + [Software Architecture](software-architecture.md)
     + [Coding Tips](coding-tips.md)
+    + [Trying out Experience Fragments in We.Retail](we-retail-experience-fragments.md)
+    + [Trying out Content Fragments in We.Retail](we-retail-content-fragments.md)
 + Mobile Web{#mobileweb}
     + [Mobile Web](mobile-web.md)
     + [Creating Device Group Filters](groupfilters.md)
@@ -188,7 +192,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Implementing a React Component for SPA](spa-implementing-react-component.md)
     + [Trying out Editable Templates in We.Retail](we-retail-editable-templates.md)
     + [Enabling JSON Export for a Component](json-exporter-components.md)
-    + [Trying out Experience Fragments in We.Retail](we-retail-experience-fragments.md)
     + [REDIRECT Getting Started with SPAs in AEM](spa-getting-started.md)
     + [Structure of the AEM Touch-Enabled UI](touch-ui-structure.md)
     + [Tag Libraries](taglib.md)
@@ -219,7 +222,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [SPA Deep Dives](spa-deep-dives.md)
     + [JSON Exporter for Content Services](json-exporter.md)
     + [Developing and Extending Workflows](workflows.md)
-    + [Trying out Content Fragments in We.Retail](we-retail-content-fragments.md)
     + [Security Changes in CQ 5.3 and CRX 2.0](security-model-changes.md)
     + [Getting Started with SPAs in AEM - Angular](spa-getting-started-angular.md)
     + [index](reference-materials/spa/cq-spa-page-model-manager/index.md)
@@ -242,7 +244,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Using Hide Conditions](hide-conditions.md)
     + [Reference Materials](reference-materials.md)
     + [Best Practices](best-practices.md)
-    + [Components for Content Fragments](components-content-fragments.md)
     + [Client Context in Detail](client-context.md)
     + [Customizing Views of Page Properties](page-properties-views.md)
     + [Editor Limitations](editor-limitations.md)
@@ -252,7 +253,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Developer Mode](developer-mode.md)
     + [Request Analysis Script](analyze-request.md)
     + [Quickly Create a Fully-Featured Website](create-full-featured-website-htl.md)
-    + [Content Fragment Templates](content-fragment-templates.md)
     + [Using Client-Side Libraries](clientlibs.md)
     + [Customizing the Consoles](customizing-consoles-touch.md)
     + [Developing with CRXDE Lite](developing-with-crxde-lite.md)
@@ -273,5 +273,4 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Page Templates - Static](page-templates-static.md)
     + [AEM Development - Guidelines and Best Practices](dev-guidelines-bestpractices.md)
     + [SPA Blueprint](spa-blueprint.md)
-    + [Customizing and Extending Content Fragments](customizing-content-fragments.md)
     + [Getting Started with SPAs in AEM - React](spa-getting-started-react.md)
