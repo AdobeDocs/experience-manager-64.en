@@ -212,7 +212,7 @@ From left to right they are:
 >1. in pop up dialog for Agent Settings, select Transport tab
 >1. in URI, change the port number, 4503, to the desired port number 
 >
->   * for example, to use port 6103: `http://localhost:6103/bin/receive?sling:authRequestLogin=1`
+>   for example, to use port 6103: `http://localhost:6103/bin/receive?sling:authRequestLogin=1`
 >
 >1. select "OK"
 >1. (optional) select 'Clear' or 'Force Retry' to reset the replication queue
