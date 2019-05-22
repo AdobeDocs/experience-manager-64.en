@@ -126,7 +126,6 @@ To create a backup:
    >The backup console is also available using:  
 
    >
-   >
    >` https://<*hostname*>:<*port-number*>/libs/granite/backup/content/admin.html`
 
 1. Click **Save**, a progress bar will indicate the progress of the backup.

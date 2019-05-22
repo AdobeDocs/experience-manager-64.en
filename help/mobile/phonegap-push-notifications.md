@@ -133,7 +133,6 @@ Follow these steps to set up Amazon SNS for push notifications:
 
     1. Click **Create Topic** and choose a topic name. Record all fields such as Topic ARN, Topic Owner, Region, Display name.
     1. Click **Other Topic Actions** > **Edit Topic Policy**. Under **Allow these users to subscribe to this topic**, select **Everyone.**
-    
     1. Click **Update Policy**.
 
    >[!NOTE]
@@ -356,7 +355,6 @@ Once the **Push Notifications** tile displays in your dashboard, use the create 
    >[!NOTE]
    >
    >*The Link Button Text is limited to 20 characters. *
-   >
    >
    >*If the end user doesn't have the latest version of the application and the linked path isn't available, confirming the action of the deep link will bring the user to the main page of the app. *
 

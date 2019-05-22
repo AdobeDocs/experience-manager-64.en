@@ -242,7 +242,6 @@ To have customized behavior upon such activation you can overlay the **Request f
    >
    >This itself, overrides the common instance of:
    >
-   >
    >`/libs/cq/gui/content/common/managepublicationwizard`
 
 1. Update the [workflow model](/help/sites-developing/workflows-models.md) and related configurations/scripts as required.

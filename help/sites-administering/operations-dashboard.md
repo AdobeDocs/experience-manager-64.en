@@ -118,9 +118,7 @@ Creating an individual Health Check involves two steps: implementing a Sling Hea
    >
    >The resource path above is created as follows: if the mbean name of your Health Check is "test", add "test" to the end of the path `/system/sling/monitoring/mbeans/org/apache/sling/healthcheck/HealthCheck`
    >
-   >
    >So the final path will be:
-   >
    >
    >`/system/sling/monitoring/mbeans/org/apache/sling/healthcheck/HealthCheck/test`
 
@@ -129,13 +127,10 @@ Creating an individual Health Check involves two steps: implementing a Sling Hea
    >Make sure that the `/apps/settings/granite/operations/hc` path has the following properties set to true:  
 
    >
-   >
    >`sling:configCollectionInherit`
-   >
    >
    >`sling:configPropertyInherit`  
 
-   >
    >
    >This will tell the configuration manager to merge the new configurations with the existing ones from `/libs`.
 
@@ -189,10 +184,8 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
    >
    >If you create individual health checks that logically belong under a composite check that is already present in the Dashboard by default, they will be automatically captured and grouped under the respective composite check. Because of this, there is no need to create a new configuration node for these checks.
    >
-   >
    >For example, if you create an individual security health check, all you need to do is assign it the "**security**" tag, and it is installed, it will automatically appear under the Security Checks composite check in the Operations Dashboard.  
 
-   >
    >
 
 ### Health Checks Provided with AEM {#health-checks-provided-with-aem}
@@ -607,6 +600,10 @@ Workflows can also be purged from the Maintenance Dashboard. In order to run the
 
 1. Click on the **Weekly Maintenance Window** page.
 1. In the following page, click the **Play** button in the **Workflow purge** card.
+
+>[!NOTE]
+>
+> For more detailed information about Workflow Maintenance, see [this page](workflows-administering.md#regular-purging-of-workflow-instances).
 
 ### Audit Log Maintenance {#audit-log-maintenance}
 

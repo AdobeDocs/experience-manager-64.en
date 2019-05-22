@@ -37,7 +37,6 @@ Before exporting a fragment you need to add the **Cloud Configuration** for **Ad
    >
    >If you add the cloud configuration to the Experience Fragment parent folder, the configuration is inherited by all the children.
    >
-   >
    >If you add the cloud configuration to the Experience Fragment itself, the configuration is inherited by all varations.
 
 1. Select the **Cloud Services** tab.  

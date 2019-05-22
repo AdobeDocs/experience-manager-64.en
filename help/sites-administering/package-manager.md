@@ -353,7 +353,6 @@ To view, or edit, information about a package definition:
    >
    >You can also edit and perform certain actions on the package from this page.
    >
-   >
    >The buttons available will depend on whether the package has already been built or not.
 
 1. If the package has already been built click **Contents**, a window will open and list the entire contents of the package:
@@ -808,12 +807,9 @@ To download packages from Package Share and install them on your local instance,
    >
    >To find the package you downloaded, follow the same path as in Package Share. For example, if you downloaded a package from the following path in Package Share:
    >
-   >
    >**Packages** &gt; **Public** &gt; **Hotfixes**
    >
-   >
    >Then in Package Manager on your local instance the package will also appear under:
-   >
    >
    >**Packages** &gt; **Public** &gt; **Hotfixes**
 

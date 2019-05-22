@@ -51,7 +51,6 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 1. Configure the following arguments for the **PDF Rasterizer Handler** step:
 
     * Mime Types: *application/pdf *or *application/postscript*
-    
     * Commands: `PDFRasterizer -d -p 1 -s 1280 -t PNG -i ${file}`
     * Add Thumbnail sizes: 319:319, 140:100, 48:48. Add custom thumbnail configuration, if necessary.
 
@@ -84,7 +83,6 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 1. Configure the following arguments for the **PDF Rasterizer Handler** step:
 
     * Mime Types: *application/pdf *or *application/postscript*
-    
     * Commands: `PDFRasterizer -d -p 1 -s 1280 -t PNG -i ${file}`
     * Add Thumbnail sizes: 319:319, 140:100, 48:48. Add custom thumbnail configuration, if necessary.
 

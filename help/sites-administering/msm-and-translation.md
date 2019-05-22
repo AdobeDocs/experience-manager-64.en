@@ -54,10 +54,9 @@ The following diagram illustrates how the main concepts intersect (but does not 
 >
 >For all use-cases it is recommended to read the following best practices:
 >
->* [Best Practices for MSM](/help/sites-administering/msm-best-practices.md); particularly: >
->    * [Create Site](/help/sites-administering/msm-best-practices.md#create-site)
->    * [MSM and Multilingual Websites](/help/sites-administering/msm-best-practices.md#msm-and-multilingual-websites)
+>* [Best Practices for MSM](/help/sites-administering/msm-best-practices.md); particularly: 
+>
+>  * [Create Site](/help/sites-administering/msm-best-practices.md#create-site)
+>  * [MSM and Multilingual Websites](/help/sites-administering/msm-best-practices.md#msm-and-multilingual-websites)
 >
 >* [Best Practices for Translation](/help/sites-administering/tc-bp.md)
->
-

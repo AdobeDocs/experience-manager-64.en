@@ -11,7 +11,7 @@ topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: 167f3bd9-7dbc-4e6b-9868-3ee53935641b
 ---
 
-# Configure Your Users and User Groups{#configure-your-users-and-user-groups}
+# Configure Your Users and User Groups {#configure-your-users-and-user-groups}
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Members of the app-author group are responsible for authoring AEM mobile applica
 
 ### AEM Mobile Application Administrators Group (app-admins group) {#aem-mobile-application-administrators-group-app-admins-group}
 
-Members of the app-admins group can author application content with the same permissions included with app-authors **AND **in addition are also responsible for:
+Members of the app-admins group can author application content with the same permissions included with app-authors **AND** in addition are also responsible for:
 
 * Configuring PhoneGap Build and Adobe Mobile Services cloud services in AEM
 * Staging, publishing and clearing application Content Sync OTA updates
@@ -100,7 +100,6 @@ Members of the app-admins group can author application content with the same per
    >[!CAUTION]
    >
    >/var/contentsync access is denied OOTB. 
-   >
    >
    >Omitting the READ permission can result in empty update packages being built and replicated.
 

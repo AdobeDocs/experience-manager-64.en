@@ -300,7 +300,6 @@ To create a new template based on an existing template:
    >
    >Changes made to the **/apps/&lt;website&gt;/templates/&lt;template-name&gt;** node will affect the template instance (as in the selection list).
    >
-   >
    >Changes made to the **/apps/&lt;website&gt;/components/&lt;component-name&gt;** node will affect the content page created when the template is used.
 
    You can now create a page within your website using the new template.

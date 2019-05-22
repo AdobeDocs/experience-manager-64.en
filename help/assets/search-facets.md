@@ -47,8 +47,6 @@ For full-text searches, add the Fulltext predicate to the form. Use the Property
    >    
    >    1. Save the changes.
    >    
-   >
-
 1. In the Edit Search Forms page, drag a predicate from the **[!UICONTROL Select Predicate]** tab to the main pane. For example, drag **[!UICONTROL Property Predicate]**.
 
    ![Drag-and-drop a predicate to customize the search filters](assets/drag_predicate.png)

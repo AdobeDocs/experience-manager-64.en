@@ -45,25 +45,29 @@ For the standard reports delivered with CQ:
 >
 >* Each line defines a node or a property where:  
 >
->    * `N:<*name*> [<*nodeType*>]`  
->      Describes a node with the name of `<*name*>` and node type of `<*nodeType*>`*.*
->    
->    * `P:<*name*> [<*propertyType*]`  
->      Describes a property with the name of `<*name*>` and a property type of `<*propertyType*>`.  
->    
->    * `P:<*name*> = <*value*>`  
->      Describes a property `<*name*>` that must be set to the value of `<*value*>`.
+>  * `N:<*name*> [<*nodeType*>]`
+> 
+>     Describes a node with the name of `<*name*>` and node type of `<*nodeType*>`*.*
+>
+>  * `P:<*name*> [<*propertyType*]`
+>
+>     Describes a property with the name of `<*name*>` and a property type of `<*propertyType*>`.  
+>
+>  * `P:<*name*> = <*value*>`
+>
+>     Describes a property `<*name*>` that must be set to the value of `<*value*>`.
 >
 >* Indentation shows the hierarchical dependencies between the nodes.
->* Items separated by | denotes a list of possible items; for example, types or names:  
+>* Items separated by | denotes a list of possible items; for example, types or names:
+>
 >  e.g. String|String[] means that the property can be either String or String[].
+>
 >* [] depicts an array; such as String[] or an array of nodes as in the [Query Definition](#query-definition). 
 >
 >Unless otherwise stated the default types are:
 >
 >* Nodes - `nt:unstructured` 
 >* Properties - `String`
->
 
 ## Reporting Framework {#reporting-framework}
 
@@ -1215,16 +1219,13 @@ To illustrate these steps, the following example defines a report that lists all
    >In this example there are no definitions of `N:data` and `P:clientFilter`. This is because the value received from the server is returned on a 1:1 basis - which is the default behavior.  
 
    >
-   >
    >This is the same as the definitions:  
-   >
    >
    >```   >
    >N:data [nt:unstructured]
    > P:clientFilter [String] = "function(v) { return v; }"
    >
    >```   >
-   >
    >Where the function simply returns the value it receives.
 
 1. Define your report design. For example `osgireport[cq:Page]` under `/etc/designs/reports`.
@@ -1291,18 +1292,13 @@ An instance of your new report can now be created:
    >[!NOTE]
    >
    >As this example does not have any groupable columns the charts will not be available. To see charts, set `groupable` to `true`:  
-
    >
-   >
-   >
-   >
-   >```   >
+   >```   
    >N:osgireport [sling:Folder]
    > N:bundlecol [cq:Component]
    > N:definitions [nt:unstructured]
    > P:groupable [Boolean] = true
-   >```   >
-   >
+   >```
 
 ## Configuring the Report Framework Services {#configuring-the-report-framework-services}
 

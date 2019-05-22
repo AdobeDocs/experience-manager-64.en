@@ -130,13 +130,9 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
        >
        >After the package is installed, you are prompted to restart the AEM instance. **Do not immediately stop the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &lt;crx-repository&gt;/error.log file and the log is stable. Also note, the following three packages can remain in the installed state. You can safely ignore the state of these packages:
        >
-       >    
-       >    
-       >    * Adobe Correspondence Management Migration
-       >    * Adobe LiveCycle FormsManager Core
-       >    * Forms Common Service
-       >    
-       >
+       >* Adobe Correspondence Management Migration
+       >* Adobe LiveCycle FormsManager Core
+       >* Forms Common Service
 
     1. Stop the AEM instance and delete the following files:
 

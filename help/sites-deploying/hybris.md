@@ -135,9 +135,7 @@ The steps in this procedure will download and build the hybris server. It will a
    >
    >When executing:
    >
-   >
    >`ant clean all`
-   >
    >
    >Press `Return` when required.
 

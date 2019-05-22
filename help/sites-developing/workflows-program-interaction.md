@@ -423,7 +423,6 @@ To change the **Workflow Title** displayed in the **Instances** tab of the workf
 * with the following parameters:
 
     * `action`: its value has to be: `UPDATE`  
-    
     * `workflowTitle`: the workflow title
 
 #### How to change the Workflow Title - REST using curl {#how-to-change-the-workflow-title-rest-using-curl}
@@ -505,9 +504,8 @@ When creating a new model:
 
 * The workflow model editor requires that models use a specific node structure below `/var/workflow/models`. The parent node of the model must be of the type `cq:Page` having a `jcr:content` node with the following property values:
 
-    * `sling:resourceType`: `cq/workflow/components/pages/model`
-    
-    * `cq:template`: `/libs/cq/workflow/templates/model`
+  * `sling:resourceType`: `cq/workflow/components/pages/model`
+  * `cq:template`: `/libs/cq/workflow/templates/model`
 
   When you create a model, you must first create this `cq:Page` node and use its `jcr:content` node as the parent of the model node.
 
@@ -592,7 +590,8 @@ If you need to auto-advance a **Participant** step that has not been completed w
 
 1. Implement an OSGI event listener to listen on task creation and modification.
 1. Specify a timeout (deadline), then create a scheduled sling job to fire at that time.
-1. Write a job handler that is notified when the timeout expires and triggers the job.   
+1. Write a job handler that is notified when the timeout expires and triggers the job.
+
    This handler will take the required action on the task if the task is not yet completed
 
 >[!NOTE]

@@ -74,28 +74,18 @@ Configure one or more connections to Search&Promote so that your web pages can i
    >
    >In order to get this information **yourself,** first you need to log into 
    >
-   >
    >[https://searchandpromote.omniture.com/center/](https://searchandpromote.omniture.com/center/)
-   >
    >
    >using your valid Seach&Promote credentials (email/password).  
    >Then, you need to look at your url in your brouser's address bar which should look something like this:  
    >[](https://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY)
    >
-   >
    >[https://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY](https://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY)
-   >
    >
    >**Where:**
    >
-   >    
-   >    
-   >    * **XXXXXXXX** corresponds with your** Member id**
-   >    
-   >    * **spYYYYYYYY** corresponds with your **Account Number**
-   >    
-   >    
-   >
+   >* **XXXXXXXX** corresponds with your** Member id**
+   >* **spYYYYYYYY** corresponds with your **Account Number**
 
 1. Click **Connect To Search&Promote**.
 

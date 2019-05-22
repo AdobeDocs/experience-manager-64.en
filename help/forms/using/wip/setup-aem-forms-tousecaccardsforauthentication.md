@@ -49,18 +49,12 @@ The only difference between mutual authentication, CAC cards, and HSM based auth
 
        >[!NOTE]
        >
+       >* Ensure that the version of the files matches the version of JDK installed on the client machine.
+       >* If you are using IBM JDK, add the following to the [JAVA_HOME]\jre\lib\security\java.security file:
        >
-       >    
-       >    
-       >    * Ensure that the version of the files matches the version of JDK installed on the client machine.
-       >    * If you are using IBM JDK, add the following to the [JAVA_HOME]\jre\lib\security\java.security file:
-       >    
-       >    
        >ssl.SocketFactory.provider=
        >
-       >
        >ssl.ServerSocketFactory.provider=
-       >
        >
        >jdk.tls.disabledAlgorithms=SSLv3
 

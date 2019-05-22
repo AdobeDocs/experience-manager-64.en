@@ -62,7 +62,6 @@ Follow the steps below to add the interative REACT app to AEM Screens:
    >
    >Create a **Sequence Channel** while creating a channel in the **Channels** folder of your Screens project.
    >
-   >
    >Refer to [Creating and Managing Channels](/help/screens/managing-channels.md) for more details.
 
    ![](assets/screen_shot_2019-02-15at100330am.png)

@@ -48,8 +48,7 @@ When you open your content fragment for editing, the **Variations** tab will be 
 * open the [full-screen editor](#full-screen-editor) to:
 
     * select the [Format](#formats)
-    * see more editing options (for [Rich Text](#rich-text) format)  
-    
+    * see more editing options (for [Rich Text](#rich-text) format)
     * access a range of [actions](#actions)
 
 For example:
@@ -281,13 +280,8 @@ They will be added to the paragraph sequence of the fragment without any formatt
    >
    >If, after adding an asset, you change format to:
    >
-   >    
-   >    
-   >    * **Plain Text**: the asset will be completely lost from the fragment.
-   >    * **Markdown**: the asset will not be visible, but will still be there when you return to **Rich Text**.
-   >    
-   >    
-   >
+   >* **Plain Text**: the asset will be completely lost from the fragment.
+   >* **Markdown**: the asset will not be visible, but will still be there when you return to **Rich Text**.
 
 ## Managing Variations {#managing-variations}
 
@@ -364,12 +358,11 @@ When editing a variation you have access to the action for synchronizing the cur
 1. Select a specific variation, then the appropriate synchronization action from either:
 
     * the **Actions** drop down selector - **Select current element with master** 
-    
     * the toolbar of the full-screen editor - **Sync with master**
 
 1. Master and the variation will be shown side-by-side:
 
-    * green indicates content added (to the variation)  
+    * green indicates content added (to the variation)
     * red indicates content removed (from the variation)
 
    ![](assets/cfm-6420-27.png)

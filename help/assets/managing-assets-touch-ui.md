@@ -39,7 +39,6 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 1. To upload the assets, do one of the following:
 
     * On the toolbar, tap the **Create [!UICONTROL]** icon. Then, on the menu, then tap **Files**. You can rename the file in the presented dialog if needed.  
-    
     * In a browser that supports HTML5, drag the assets directly on the Assets UI. The dialog to rename file is not displayed.
 
    ![](assets/create_menu.png)
@@ -78,9 +77,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
    >
    >When you select **Replace** in the Name Conflict dialog, the asset ID is regenerated for the new asset. This ID is different from the ID of the previous asset.
    >
-   >
    >If Asset Insights is enabled to track impressions/clicks with Adobe Analytics, this regenerated asset ID invalidates the data-captured for the asset on Analytics.
-   >
    >
    >A similar situation may occur if content packages of Assets created with AEM 6.1 (or earlier versions) are installed on an AEM 6.2 instance.
 
@@ -142,6 +139,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
 1. In the lower-right corner of the Upload page, tap **Submit Upload**.
 
    To view the progress of the upload, on the Global Navigation Bar, tap **Jobs**. The Jobs page displays the progress of the upload. You can continue working in AEM and return to the Jobs page in Dynamic Media Classic at any time to review an in-progress job.  
+
    To cancel an upload job in progress, tap **Cancel** next to the Duration time.
 
 #### Upload Job Options {#upload-job-options}
@@ -698,7 +696,6 @@ The other properties and metadata information is retained. A partial copy is not
 1. In the Move Assets wizard, do one of the following:
 
     * Specify the name for the asset after it is moved. Then tap/click **Next** to proceed.  
-    
     * Tap/click **Cancel** to stop the process.
 
    >[!NOTE]
@@ -708,18 +705,15 @@ The other properties and metadata information is retained. A partial copy is not
 1. In the **Select Destination** screen, do one of the following:
 
     * Navigate to the new location for the assets, and then tap/click **Next** to proceed.  
-    
     * Tap/click **Back** to return to the **Rename** screen.
 
 1. If the assets being moved have any referencing pages, assets, or collections, the **Adjust References** tab appears beside the **Select Destination** tab.
 
-   Do one of the following in the **Adjust References **screen:
+   Do one of the following in the **Adjust References** screen:
 
     * Specify the references to be adjusted based on the new details, and then tap/click **Move** to proceed.  
-    
     * From the **Adjust** column, select/unselect references to the assets. 
     * Tap/click **Back** to return to the **Select Destination** screen.
-    
     * Tap/click **Cancel** to stop the move operation.
 
    If you do not update references, they continue to point to the previous path of the asset. If you adjust the references, they are updated to the new asset path.
@@ -732,7 +726,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    ![](assets/chlimage_1-15.png)
 
-1. Tap/click the GlobalNav icon, and select **Renditions **from the list.
+1. Tap/click the GlobalNav icon, and select **Renditions** from the list.
 
    ![](assets/renditions_menu.png)
 
@@ -764,15 +758,13 @@ The other properties and metadata information is retained. A partial copy is not
 
    You can configure the dimensions for the rendition you want displayed in the details page of an image or video asset. Based on the dimensions you specify, AEM Assets displays the rendition with the exact or closest dimensions.
 
-   To configure rendition dimensions of an image at the asset detail level, overlay the **renditionpicker** node *libs/dam/gui/content/assets/assetpage/jcr:content/body/content/content/items/assetdetail  
-   /items/col1/items/assetview/renditionpicker*) and configure the value of the width property. Configure the property **size (Long) in KB** in place of width to customize rendition on asset detail page based on image size. For size-based customization, the property **preferOriginal** assigns preference to the original if the size of the matched rendition is greater than the original.
+   To configure rendition dimensions of an image at the asset detail level, overlay the **renditionpicker** node *libs/dam/gui/content/assets/assetpage/jcr:content/body/content/content/items/assetdetail/items/col1/items/assetview/renditionpicker*) and configure the value of the width property. Configure the property **size (Long) in KB** in place of width to customize rendition on asset detail page based on image size. For size-based customization, the property **preferOriginal** assigns preference to the original if the size of the matched rendition is greater than the original.
 
    Similarly, you can customize the Annotation page image by overlaying *libs/dam/gui/content/assets/annotate/jcr:content/body/content/content/items/content/renditionpicker*.
 
    ![](assets/chlimage_1-17.png)
 
-   To configure rendition dimensions for a video asset, navigate to the **videopicker** node in the CRX repository at the location*/libs/dam/gui/content/assets/assetpage/jcr:content/body/content/content/items/assetdetail  
-   /items/col1/items/assetview/videopicker*, overlay the node, and then edit the appropriate property.
+   To configure rendition dimensions for a video asset, navigate to the **videopicker** node in the CRX repository at the location */libs/dam/gui/content/assets/assetpage/jcr:content/body/content/content/items/assetdetail/items/col1/items/assetview/videopicker*, overlay the node, and then edit the appropriate property.
 
    >[!NOTE]
    >
@@ -788,7 +780,7 @@ For Word documents, the DAM Parse Word Documents workflow generates a `cq:Page` 
 
 1. To view subassets, navigate to the location of the asset and open its asset page.  
 
-1. Tap/click the GlobalNav icon, and choose **Subassets **from the list 
+1. Tap/click the GlobalNav icon, and choose **Subassets** from the list 
 
    ![](assets/chlimage_1-18.png)
 
@@ -827,7 +819,6 @@ Also, disable the force delete button using an overlay, to disallow users from d
    >[!NOTE]
    >
    >To resolve or remove the incoming references from other pages, update the relevant references before deleting an asset.
-   >
    >
    >Also, disable the force delete button using an overlay, to disallow users from deleting referenced assets and leaving broken links.
 
@@ -1234,7 +1225,6 @@ If an asset includes annotations in foreign languages (especially non-latin lang
 
     * In the System Fonts directory option, specify the complete path to the fonts directory on your system. For example, if you're a Mac user, you can specify the path as */Library/Fonts* in the System Fonts directory option. AEM fetches the fonts from this directory.
     * Create a directory named **fonts** inside the **crx-quickstart** folder. CQ-DAM-Handler-Gibson Font Manager Service automatically fetches the fonts at the location *crx-quickstart/fonts*. You can override this default path from within the Adobe Server Fonts directory option.
-    
     * Create a new folder for fonts in your system, and store the desired fonts in the folder. Then, specify the complete path to that folder in the Customer Fonts directory option.
 
 1. Access the Annotation PDF configuration from the URL [https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig](http://localhost:4502/system/console/configMgr/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig).

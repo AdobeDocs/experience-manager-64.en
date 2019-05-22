@@ -51,7 +51,6 @@ To get you up and running quickly:
    >
    >If you are an AEM Sites or Ecommerce customer, you can use the built-in feature to navigate to product pages and lookup the existing skus in the product catalog. You do not need to manually enter hotspot or image map variables. See information on [setting up eCommerce](/help/sites-administering/generic.md).
    >
-   >
    >If you are an AEM Assets and Dynamic Media customer, you will manually enter data for hotspots and image maps, and then integrate the published URL or Embed code with your third-party content management system.
 
 1. Optional: [Create a Carousel Set viewer preset](managing-viewer-presets.md), as needed.
@@ -80,15 +79,13 @@ To get you up and running quickly:
 
 1. Do one of the following:
 
-    * [Add a carousel banner to your website page  
-      ](#adding-a-carousel-banner-to-your-website-page)You can add the carousel banner URL or embed code you have copied onto the website page.
+    * [Add a carousel banner to your website page](#adding-a-carousel-banner-to-your-website-page) You can add the carousel banner URL or embed code you have copied onto the website page.
 
         * [Integrate the carousel banner with an existing Quickview](#integrating-the-carousel-banner-with-an-existing-quickview). If you are using a third party web content management system, you will need to integrate the new carousel banner with the existing Quickview implementation on your website.
 
-    * [Add a carousel banner to your website in AEM  
-      ](adding-dynamic-media-assets-to-pages.md)If you are an AEM Sites customer you can add the carousel set directly to the page in AEM, using the Interactive Media component.
+    * [Add a carousel banner to your website in AEM](adding-dynamic-media-assets-to-pages.md) If you are an AEM Sites customer you can add the carousel set directly to the page in AEM, using the Interactive Media component.
 
-If you need to edit Carousel Sets, see [editing Carousel Sets.](#editing-carousel-sets) In addition, you can view and edit [Carousel Set properties](/help/assets/managing-assets-touch-ui.md#editing-properties).
+If you need to edit Carousel Sets, see [editing Carousel Sets](#editing-carousel-sets). In addition, you can view and edit [Carousel Set properties](/help/assets/managing-assets-touch-ui.md#editing-properties).
 
 ## Identifying Hotspot and Image Map Variables {#identifying-hotspot-and-image-map-variables}
 
@@ -215,11 +212,11 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
    >[!NOTE]
    >
    >For carousel banners, the following may be things you want to adjust:
-   >    * Duration that an image displays. By default, each image displays for 9 seconds.
-   >    * Animation. By default, each slide transition is a fade. You can change that to a slide transition.
-   >    * Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
-   >    * Change the highlight style of an image map or the icon used for hotspots.
-   >    * Before you edit a viewer preset, choose the style you want to base the preset off of. If you do not do this, when you start to edit the viewer preset, you will lose all of your changes if you decide change to a different preset.
+   >* Duration that an image displays. By default, each image displays for 9 seconds.
+   >* Animation. By default, each slide transition is a fade. You can change that to a slide transition.
+   >* Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
+   >* Change the highlight style of an image map or the icon used for hotspots.
+   >* Before you edit a viewer preset, choose the style you want to base the preset off of. If you do not do this, when you start to edit the viewer preset, you will lose all of your changes if you decide change to a different preset.
 
    You can also preview what the carousel banner will look like. See [(Optional) Previewing Carousel Banners](#optional-previewing-carousel-banners).
 
@@ -284,7 +281,9 @@ To add hotspots to an image banner:
     * Tap **[!UICONTROL Hyperlink]**.
 
         * If you are an AEM Sites customer, tap the [!UICONTROL Site Selector] icon (folder) to navigate to a URL.  
+
           **Note**: The URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
+          
         * If you are a standalone customer, in the HREF text field, specify the full URL path to a linked web page.
 
           Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
@@ -293,9 +292,12 @@ To add hotspots to an image banner:
 
     * Tap **[!UICONTROL Experience Fragment]**.
 
-        * If you are an AEM Sites customer, tap the **[!UICONTROL Search]** icon (magnifying glass) to open the Experience Fragment page. Tap the Experience Fragment you want to use, then tap **[!UICONTROL Select]** in the upper-right corner of the page to return to the Hotspot management page.  
+        * If you are an AEM Sites customer, tap the **[!UICONTROL Search]** icon (magnifying glass) to open the Experience Fragment page. Tap the Experience Fragment you want to use, then tap **[!UICONTROL Select]** in the upper-right corner of the page to return to the Hotspot management page.
+        
           See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
-         **Note**: Be aware that the social media sharing tools in Carousel Banner are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
+
+          **Note**: Be aware that the social media sharing tools in Carousel Banner are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
+
         * Specify the width and height of the Experience Fragment as it will appear on the banner.
   
    ![](assets/experience_fragment-carouselbanner.png)
@@ -351,10 +353,11 @@ To edit a Carousel Set:
 
 You can use Preview to see what your carousel banner will look like to customers and to test the carousel banners hotspots and image maps to ensure they are behaving as expected.
 
-When you are satisfied with the carousel banner, you can publish it.  
-See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).  
-See [Linking URLs to your web application](linking-urls-to-yourwebapplication.md). Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.  
-See [Adding Dynamic Media Assets to pages.](adding-dynamic-media-assets-to-pages.md)
+When you are satisfied with the carousel banner, you can publish it.
+
+* See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).  
+* See [Linking URLs to your web application](linking-urls-to-yourwebapplication.md). Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.  
+* See [Adding Dynamic Media Assets to pages.](adding-dynamic-media-assets-to-pages.md)
 
 You can preview carousel banners from the Carousel Editor (preferred method) or from the [!UICONTROL Viewers] list.
 
@@ -398,10 +401,12 @@ After you have uploaded banner images to create a carousel, added hotspots and/o
 
 However, if you are a stand-alone AEM assets customer you can manually add the carousel banner to your website landing page as described in this section.
 
-1. Copy the published carousel set's embed code.  
+1. Copy the published carousel set's embed code.
+
    See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).
 
 1. Add the embed code that you copied from AEM Assets to your webpage.  
+
    The copied embed code is responsive so it should automatically fit the embedding area of the page.
 
 ## Integrating the Carousel Banner with an Existing Quickview {#integrating-the-carousel-banner-with-an-existing-quickview}

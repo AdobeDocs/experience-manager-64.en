@@ -60,7 +60,7 @@ discoiquuid: b490dda2-4072-46b2-b52f-10367a9623a2
 
 ## Installation Instructions {#installation-instructions}
 
-See I [nstalling Feature Pack 18912](/help/assets/bulk-ingest-migrate.md).
+See [Installing Feature Pack 18912](/help/assets/bulk-ingest-migrate.md).
 
 ## Helpful resources {#helpful-resources}
 

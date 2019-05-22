@@ -428,7 +428,6 @@ To specify or change the depth:
    >
    >Switching to a shallow live copy will have immediate effect and is non-reversible.
    >
-   >
    >See [Live Copies - Composition](/help/sites-administering/msm.md#live-copies-composition) for more information.
 
 1. Click or tap **Save** to persist your updates.

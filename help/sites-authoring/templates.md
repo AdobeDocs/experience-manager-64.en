@@ -156,7 +156,6 @@ A template folder should be created for your project to hold your project-specif
    >
    >In a standard AEM instance the **global** folder already exists in the template console. This holds default templates and acts as a fallback if no policies and/or template-types are found in the current folder.
    >
-   >
    >It is recommended best practice to use a [template folder created for your project](/help/sites-developing/page-templates-editable.md#template-folders).
 
 1. Select **Create**, followed by **Create Template** to open the wizard.  
@@ -265,7 +264,6 @@ A template can be made available or unavailable for certain page branches.
    >[!NOTE]
    >
    >If the **Allowed Templates** list is left empty then the tree will be ascended until a value/list is found.
-   >
    >
    >See [Template Availability](/help/sites-developing/templates.md#template-availability) - the principles for allowed templates remain the same.
 

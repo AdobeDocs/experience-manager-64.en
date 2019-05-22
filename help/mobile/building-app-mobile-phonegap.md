@@ -25,14 +25,14 @@ A complete step-by-step article on how to build a mobile application using code 
 
 Move application files to the publish instance so that you can provide content updates to the installed instances of the mobile application, and to build the application using the published content. Applications consist of two node branches in the repository:
 
-* `/content/phonegap/apps/*<application name>*`: The web pages that authors create and activate. 
-* `/content/phonegap/content/*<application name>*`: Application configuration files and Content Sync configurations.
+* `/content/phonegap/apps/<application name>`: The web pages that authors create and activate. 
+* `/content/phonegap/content/<application name>`: Application configuration files and Content Sync configurations.
 
 >[!NOTE]
 >
 >If you do not move the application files to the publish instance, content authors cannot update the Content Sync cache.
 
-You only need to move the files in the `/content/phonegap/content/*<application name>*`* *branch to the publish instance. The files in the `/content/phonegap/apps/*<application name>*` branch are moved when the author activates the pages.
+You only need to move the files in the `/content/phonegap/content/<application name>` branch to the publish instance. The files in the `/content/phonegap/apps/<application name>` branch are moved when the author activates the pages.
 
 AEM provides two methods for moving bulk content to the publish instance:
 

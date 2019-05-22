@@ -80,7 +80,6 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
    >
    >The incremental import (of the sample geometrixx-outdoor importer) operates at the product level. 
    >
-   >
    >A customized importer can be defined to operate as required.
 
 1. Select **Next** to import the products, a log of the actions taken will be shown.

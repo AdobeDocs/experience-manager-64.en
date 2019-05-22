@@ -29,14 +29,18 @@ The following procedure shows you how to set up the Mobile Trader application on
 
 1. Start an author AEM instance that runs on port 4502.
 1. Start a publish AEM instance that runs on port 4503.
-1. Download the Mobile Trader AIR application on your desktop. The application is available in the repository at:  
+1. Download the Mobile Trader AIR application on your desktop. The application is available in the repository at:
+
    `/etc/designs/geometrixx/clientlibs/flash/MobileTrader.air`  
+
    To download this file, you can [map the repository to your local filesystem](/help/sites-administering/webdav-access.md) by using the WebDAV server that is embedded into AEM.  
 
 1. Run the Mobile Trader application on your desktop by double-clicking the `MobileTrader.air` file.  
+
    The application connects to the AEM publish instance.  
 
 1. Open the Mobile Trader page in the AEM author instance: in your browser, go to:  
+
    `http://localhost:4502/cf#/content/geometrixx_mobile/en/trader.touch.html`
 
 1. Modify a title:
@@ -51,7 +55,6 @@ The following procedure shows you how to set up the Mobile Trader application on
 
     1. Go to the **Site Admin** console.
     1. Select the **Assets** page below **Websites / Geometrixx Mobile Demo Site / Mobile Trader**.
-    
     1. Click **Activate**.
 
 1. Refresh the **Mobile Trader** AIR application to see the changes:
@@ -65,19 +68,17 @@ You can also:
 * Add a Mobile Trader component:
 
     1. In the Sidekick, in the **Components** tab, select the **MobileTrader** panel.
-    
     1. Drag and drop the component into the page.
 
 * Delete a component:
 
-    1. Right-click the component.  
+    1. Right-click the component.
     1. Select Delete Component in the context menu.
 
 * Add an image:
 
     1. Go into Design mode and make the **Mobile Image** () component available to the page.
     1. In the Sidekick, in the **Components** tab, select the **Mobile** panel.
-    
     1. Drag and drop the **Mobile Image** component into the page.
     1. Drag and drop an image from the **Content Finder** into the component.
     1. Edit the image: double-click it, modify it and click **OK**.
@@ -105,12 +106,14 @@ When a Flash disabled device like the iPad requests a AEM page that includes Fla
   
 The following procedure shows you how to access Flash content on your iPad. To access the Mobile Trader pages:
 
-1. On your iPad, open the Safari browser and go to the page:  
+1. On your iPad, open the Safari browser and go to the page:
+
    `https://<aem-server-ip>:4502/content/geometrixx_mobile/en/trader.html`
 
 1. Login with the default credentials ( `admin/admin`).  
 
-1. Click the **Gx** icon.  
+1. Click the **Gx** icon.
+
    You can also click the link Click "Add to Home Screen" to set a bookmark on the iPad Home Screen and then click the icon: you would then view the pages in the iPad app way (without e.g. the browser navigation bar).  
 
 1. The Flash based pages are displayed on your iPad.

@@ -11,7 +11,7 @@ topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: 3c84f4ec-d89b-4ad4-802e-ee3e2d49d916
 ---
 
-# Configure your Adobe PhoneGap Build Cloud Service{#configure-your-adobe-phonegap-build-cloud-service}
+# Configure your Adobe PhoneGap Build Cloud Service {#configure-your-adobe-phonegap-build-cloud-service}
 
 >[!NOTE]
 >
@@ -19,7 +19,7 @@ discoiquuid: 3c84f4ec-d89b-4ad4-802e-ee3e2d49d916
 
 The **PhoneGap Build Tile** on the application dashboard provides the ability to build and distribute your PhoneGap mobile application through the Adobe PhoneGap Build Service.
 
-All supported platforms defined within the** Manage App** tile will be built with PhoneGap Build when pushing a remote build with the **PhoneGap Build** Tile.
+All supported platforms defined within the **Manage App** tile will be built with PhoneGap Build when pushing a remote build with the **PhoneGap Build** Tile.
 
 You can push a remote build to [https://build.phonegap.com](https://build.phonegap.com) or download the source to build locally with [PhoneGap CLI](https://docs.phonegap.com/references/phonegap-cli/).
 
@@ -47,7 +47,7 @@ To configure cloud services for your app, follow the steps below:
 
    ![](assets/chlimage_1-61.png)
 
-1. Choose **PhoneGap Build **option from the **Add or Edit Cloud Service** screen.
+1. Choose **PhoneGap Build** option from the **Add or Edit Cloud Service** screen.
 
    Click **Next**.
 

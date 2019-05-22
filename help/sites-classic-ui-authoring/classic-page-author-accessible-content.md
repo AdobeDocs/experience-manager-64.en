@@ -378,12 +378,9 @@ You can make sure your web pages are given the appropriate structure by:
   >
   >RTE in a standard AEM installation is set up to use:
   >
-  >    
-  >    
-  >    * &lt;b&gt; for &lt;strong&gt;
-  >    * &lt;i&gt; for &lt;em&gt;
-  >    
-  >    
+  >* &lt;b&gt; for &lt;strong&gt;
+  >* &lt;i&gt; for &lt;em&gt;
+  >
   >They are effectively the same, but &lt;strong&gt; and &lt;em&gt; are preferable as they are semantically correct html. Your development team can configure the RTE to use &lt;strong&gt; and &lt;em&gt; (instead of &lt;b&gt; and &lt;i&gt;) when developing your project instance.
 
 * **Use lists**: You can use HTML to specify three different types of lists:

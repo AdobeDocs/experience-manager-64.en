@@ -100,13 +100,15 @@ Together with the JSON export capabilities of AEM core components, this structur
 
 Content fragments can be either:
 
-* Simple fragments  
-  These have no predefined structure. They contain only text, and images.  
-  These are based on the Simple Fragment template.
+* Simple fragments
 
-* Fragments that contain structured content  
-  These are based on a [Content Fragment Model](content-fragments-models.md), which predefines a structure for the resulting fragment.  
-  These can also be used to realize Content Services using the JSON Exporter.
+  * These have no predefined structure. They contain only text, and images.
+  * These are based on the Simple Fragment template.
+
+* Fragments that contain structured content
+
+  * These are based on a [Content Fragment Model](content-fragments-models.md), which predefines a structure for the resulting fragment.
+  * These can also be used to realize Content Services using the JSON Exporter.
 
 ## Content Type {#content-type}
 
@@ -117,7 +119,7 @@ Content fragments are:
     * Content fragments (and their variations) can be created and maintained from the **Assets** console.
     * Authored and edited in the Content Fragment Editor.
 
-* Used in the [page editor by means of the **Content Fragment** component](/help/sites-authoring/content-fragments.md) (referencing component):
+* Used in the [page editor by means of the Content Fragment component](/help/sites-authoring/content-fragments.md) (referencing component):
 
     * The **Content Fragment** component is available to page authors. It allows them to reference, and deliver, the required content fragment in either HTML or JSON format.
 
@@ -170,28 +172,27 @@ The content fragment assets are made up of the following parts (either directly 
     * For fragments with structured content, you use a content model to create the content fragment. The elements (fields) specified in the model define the structure of the fragment. These elements (fields) can be of a variety of data-types.
     * For simple fragments:
 
-        * The content is held in one (or more) multi-line text field(s), or element(s).  
-        * The elements are defined in the fragment template (cannot be defined when authoring the fragment, see [Content Fragment Templates](/help/sites-developing/content-fragment-templates.md)).
+      * The content is held in one (or more) multi-line text field(s), or element(s).
+      * The elements are defined in the fragment template (cannot be defined when authoring the fragment, see [Content Fragment Templates](/help/sites-developing/content-fragment-templates.md)).
 
 * **Fragment Paragraphs**
 
     * Blocks of text, that are:
 
-        * separated by vertical spaces (carriage return)   
+        * separated by vertical spaces (carriage return)
         * in multi-line text elements; in either simple or structured fragments
 
     * In the [Rich Text](content-fragments-variations.md#rich-text) and [Markdown](content-fragments-variations.md#markdown) modes, a paragraph can be formatted as a header, in which case it and the following paragraph belong together as one unit.
-    
     * Enable content control during page authoring.
 
 * **Assets Inserted into a Fragment (Mixed-Media Fragments)**
 
-    * Assets (images) inserted into the actual fragment and used as the internal content of a fragment.   
+    * Assets (images) inserted into the actual fragment and used as the internal content of a fragment.
     * Are embedded in the paragraph system of the fragment.
     * Can be formatted when the [fragment is used/referenced on a page](/help/sites-authoring/content-fragments.md).
     * Can only be added to, deleted from, or moved within, a fragment using the fragment editor. These actions cannot be made in the page editor.
     * Can only be added to, deleted from, or moved within, a fragment using [Rich Text format in the fragment editor](content-fragments-variations.md#inserting-assets-into-your-fragment).
-    * Can only be added to multi-line text elements (any fragment type).  
+    * Can only be added to multi-line text elements (any fragment type).
     * Are attached to the preceding text (paragraph).
 
   >[!CAUTION]
@@ -275,8 +276,7 @@ To create, edit and use content fragments you also need:
 * **Fragment Template**
 
     * Required to [create a simple fragment](content-fragments-managing.md#creating-content-fragments).
-    * Usually [developed during project implementation](/help/sites-developing/content-fragment-templates.md); cannot be created when authoring.  
-    
+    * Usually [developed during project implementation](/help/sites-developing/content-fragment-templates.md); cannot be created when authoring.
     * Defines the basics properties of a simple fragment (title, number of text elements, tag definitions).
     * Template definitions require a title and one text element; everything else is optional. The template defines a minimal scope of the fragment and default content if applicable. Authors can later extend a fragment beyond what is defined in the template.
 
@@ -285,7 +285,7 @@ To create, edit and use content fragments you also need:
     * Instrumental to delivering the fragment in HTML and/or JSON format.
     * Required to [reference the fragment on a page](/help/sites-authoring/content-fragments.md).
     * Responsible for layout and delivery of a fragment; i.e. channels. 
-    * Fragments need one or more dedicated components to define layout and deliver some or all elements/variations and associated content.  
+    * Fragments need one or more dedicated components to define layout and deliver some or all elements/variations and associated content.
     * Dragging a fragment onto a page in authoring will automatically associate the required component.
 
 ## Example Usage {#example-usage}

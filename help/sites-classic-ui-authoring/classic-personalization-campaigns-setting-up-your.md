@@ -214,27 +214,17 @@ To import leads from a comma-separated list:
    >
    >Alternatively, you can import leads by doing one of the following:
    >
-   >    
-   >    
-   >    * In the Dashboard, click **Import Leads** in the **Lists** pane  
-   >    
-   >    * Click **Lists** and in the **Tools** menu, select **Import Leads**.  
-   >    
-   >    
-   >
+   >* In the Dashboard, click **Import Leads** in the **Lists** pane  
+   >* Click **Lists** and in the **Tools** menu, select **Import Leads**.  
 
 1. In the **Tools** menu, select **Import Leads**.  
-
 1. Enter the information as described in Sample Data. The following fields can be imported: email,familyName,givenName,gender,aboutMe,city,country,phoneNumber,postalCode,region,streetAddress
 
    >[!NOTE]
    >
    >The first row in the CSV list are predefined labels that must be written exactly as in the example:
    >
-   >
    >`email,givenName,familyName` - if written as `givenname`, for example, the system will not recognize it.
-   >
-   >
 
    ![](assets/screen_shot_2012-02-21at123055pm.png)
 

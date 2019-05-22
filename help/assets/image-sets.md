@@ -130,8 +130,7 @@ To create an Image Set:
 
 1. Do either one of the following:
 
-    * Near the upper-left corner of the Image Set Editor page, tap **Add Asset**.  
-    
+    * Near the upper-left corner of the Image Set Editor page, tap **Add Asset**.
     * Near the middle of the Image Set Editor page, tap **Tap to open Asset Selector**.
 
    Tap to select assets that you want to include in your Image Set. Selected assets have a checkmark icon over them. When you are finished, near the upper-right corner of the page, tap **Select**.
@@ -152,8 +151,7 @@ To create an Image Set:
 
 1. (Optional) Do any of the following:
 
-    * To delete an image, select the image and tap **Delete Asset**.   
-    
+    * To delete an image, select the image and tap **Delete Asset**.
     * To apply a preset, near the upper-right corner of the page, tap **Preset**, then select a preset to apply to all the assets at once.
 
 1. Click **Save**. Your newly created Image Set appears in the folder you created it in.
@@ -198,18 +196,15 @@ To edit Image Sets:
 
     * Hover over an Image Set asset, then tap **Edit** (pencil icon).
     * Hover over an Image Set asset, tap **Select** (checkmark icon), then tap **Edit** on the toolbar.
-    
     * Tap on an Image Set asset, then tap **Edit** (pencil icon) on the toolbar.
 
 1. To edit the images in the Image Set, do any of the following:
 
     * To reorder assets, drag an image to a new location (select the reorder icon to move items).
     * To sort items in ascending or descending order, click the column heading.
-    * To add an asset or update an existing asset, click the **Add Asset**. Navigate to an asset, select it, then tap **Select** near the upper-right corner of the page. **Note**: If you delete the image that AEM uses for the thumbnail by replacing it with another image, the original asset still displays.  
-    
+    * To add an asset or update an existing asset, click the **Add Asset**. Navigate to an asset, select it, then tap **Select** near the upper-right corner of the page. **Note**: If you delete the image that AEM uses for the thumbnail by replacing it with another image, the original asset still displays.
     * To delete an asset, select it and tap or click **Delete Asset**.
-    * To apply a preset, near the upper-right corner of the page, tap **Preset**, then select a viewer preset.  
-    
+    * To apply a preset, near the upper-right corner of the page, tap **Preset**, then select a viewer preset.
     * To add or change a thumbnail, select the thumbnail icon next to the right of the asset. Navigate to the new thumbnail or swatch asset, select it, then tap **Select**.
     * To delete an entire Image Set, navigate to the Image Set, select it, and tap **Delete**.
 

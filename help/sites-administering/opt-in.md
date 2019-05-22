@@ -128,9 +128,7 @@ The following procedure describes how to opt into the integration using the prop
    >
    >The working directory is usually the directory that holds the jar or `license.properties` file.
    >
-   >
    >However, it can also be defined as an absolute path by the system property:
-   >
    >
    >`mac.provisioning.file.container`
 

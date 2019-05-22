@@ -11,7 +11,7 @@ topic-tags: developing-on-demand-services-app
 discoiquuid: cfc7ad16-965e-4075-bc4d-5630abeaba55
 ---
 
-# Page Templates for Mobile Apps{#page-templates-for-mobile-apps}
+# Page Templates for Mobile Apps {#page-templates-for-mobile-apps}
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ This attribute indicates to Angular that the contents of this DOM element should
 
 This module also defines a top-level controller named `AppController` which exposes the `wcmMode` variable to the scope, and configures the URI from which to fetch Content Sync update payloads.
 
-Lastly, this module iterates through each descendant page (including itself) and renders the content of the route fragement of each page (via the angular-route-fragment.js selector & extension), including it as a config entry to Angular's $routeProvider. In other words, the $routeProvider tells the app which content to render when a given path is requested.
+Lastly, this module iterates through each descendant page (including itself) and renders the content of the route fragement of each page (via the angular-route-fragment.js selector & extension), including it as a config entry to Angular's \$routeProvider. In other words, the \$routeProvider tells the app which content to render when a given path is requested.
 
 ### angular-route-fragment.js.jsp {#angular-route-fragment-js-jsp}
 
@@ -126,7 +126,7 @@ If necessary, you can override this script to handle more complex paths, includi
 
 ### angular-app-controllers.js.jsp {#angular-app-controllers-js-jsp}
 
-In Angular, Controllers wire up variables in the $scope, exposing them to the view. The angular-app-controllers.js.jsp script follows the pattern illustrated by angular-app-module.js.jsp in that it iterates through each descendant page (including itself) and outputs the controller fragment that each page defines (via controller.js.jsp). The module it defines is called `cqAppControllers` and must be listed as a dependency of the top level app module so that the page controllers are made available.
+In Angular, Controllers wire up variables in the \$scope, exposing them to the view. The angular-app-controllers.js.jsp script follows the pattern illustrated by angular-app-module.js.jsp in that it iterates through each descendant page (including itself) and outputs the controller fragment that each page defines (via controller.js.jsp). The module it defines is called `cqAppControllers` and must be listed as a dependency of the top level app module so that the page controllers are made available.
 
 ### controller.js.jsp {#controller-js-jsp}
 
@@ -148,7 +148,7 @@ In order for a component to be part of the controller in this way, it should ext
 
 ### template.jsp {#template-jsp}
 
-First introduced in the body.jsp section, template.jsp simply contains the page's parsys. In publish mode, this content is referenced directly (at &lt;page-path&gt;.template.html) and loaded into the SPA via the templateUrl configured on the $routeProvider.
+First introduced in the body.jsp section, template.jsp simply contains the page's parsys. In publish mode, this content is referenced directly (at &lt;page-path&gt;.template.html) and loaded into the SPA via the templateUrl configured on the \$routeProvider.
 
 The parsys in this script can be configured to accept any type of component. However, care must be given when dealing with components that are built for a traditional website (as opposed to an SPA). For example, the foundation image component functions correctly only on the top-level app page since it is not designed to reference assets that are inside an app.
 
@@ -189,7 +189,7 @@ Note the GUID '24BA22ED-7D06-4330-B7EB-F6FC73251CA3' in the path.
 
 As a PhoneGap developer, the content that you are concerned with is located below the www directory. To access the app assets, use relative paths.
 
-To compound the issue, your PhoneGap application uses the single page app (SPA) pattern so that the base URI (excluding the hash) never changes. Therefore, every asset, template, or script that you reference **must be relative to your top-level page. **The top level page initializes the Angular routing and controllers by virtue of `*<name>*.angular-app-module.js` and `*<name>*.angular-app-controllers.js`. This page should be the closest page to the root of the repository that *does not *extend a sling:redirect.
+To compound the issue, your PhoneGap application uses the single page app (SPA) pattern so that the base URI (excluding the hash) never changes. Therefore, every asset, template, or script that you reference **must be relative to your top-level page.** The top level page initializes the Angular routing and controllers by virtue of `*<name>*.angular-app-module.js` and `*<name>*.angular-app-controllers.js`. This page should be the closest page to the root of the repository that *does not *extend a sling:redirect.
 
 Several helper methods are available for dealing with relative paths:
 
@@ -351,13 +351,13 @@ Include other hooks as required. The following hooks are available (as provided 
 
 #### platforms/ {#platforms}
 
-This directory is empty until you execute the `phonegap run *<platform>*` command on the project. Currently, `*<platform>*` can be either `ios` or `android`.
+This directory is empty until you execute the `phonegap run <platform>` command on the project. Currently, `<platform>` can be either `ios` or `android`.
 
 After you build the app for a specific platform, the corresponding directory is created and it contains the platform-specific app code.
 
 #### plugins/ {#plugins}
 
-The plugins directory is populated by each plugin listed in the `.cordova/hooks/before_platform_add/install_plugins.js` file after you execute the `phonegap run *<platform>*` command. The directory is initially empty.
+The plugins directory is populated by each plugin listed in the `.cordova/hooks/before_platform_add/install_plugins.js` file after you execute the `phonegap run <platform>` command. The directory is initially empty.
 
 #### www/ {#www}
 
@@ -404,7 +404,7 @@ The content directory contains the rest of the web content of the app. The conte
 
 #### www/package.json {#www-package-json}
 
-The package.json file is a manifest file that lists the files that a **full** Content Sync download includes. This file also contains the timestamp at which the Content Sync payload was generated ( `lastModified`). This property is used when requesting partial updates of the app from AEM.
+The package.json file is a manifest file that lists the files that a **full** Content Sync download includes. This file also contains the timestamp at which the Content Sync payload was generated (`lastModified`). This property is used when requesting partial updates of the app from AEM.
 
 #### www/package-update.json {#www-package-update-json}
 

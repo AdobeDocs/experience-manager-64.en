@@ -135,9 +135,7 @@ You must install the **AEM Integration** package in Adobe Campaign. To do this:
    >
    >By default, no security zone is configured for this operator. To connect to Adobe Campaign via AEM, you must select one.
    >
-   >
    >In the **serverConf.xml** file, the **allowUserPassword** attribute of the selected security zone must be set to **true** to authorize AEM to connect Adobe Campaign via login/password.
-   >
    >
    >We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the [Installation guide](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html).
 

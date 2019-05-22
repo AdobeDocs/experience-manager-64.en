@@ -57,7 +57,7 @@ Creating a project requires signing in to the On-Demand Services portal using an
 
 ## Configuring an AEM Mobile Connector {#configuring-an-aem-mobile-connector}
 
-AEM set up involves the followng steps for connector configuration. Once the AEM Mobile connector configuration is complete, the user can set up user groups and permissions.
+AEM set up involves the following steps for connector configuration. Once the AEM Mobile connector configuration is complete, the user can set up user groups and permissions.
 
 The AEM Mobile On-Demand connector is used to bind AEM Mobile managed content with Adobe Experience Manager Mobile’s On-Demand services. This enables content authors to create and manage material for mobile applications using AEM’s tools while using AEM Mobile’s On-Demand services for easy distribution of mobile content.
 
@@ -74,7 +74,7 @@ You must complete the configuration steps in order for the AEM Mobile integratio
     1. AEM &gt; Tools &gt; Operations &gt; Web Console
     1. Scroll or search for ***Experience Manager Mobile On-demand Services Client (was Adobe Digital Publishing Solution Client)***
 
-1. Edit*** Experience Manager Mobile On-demand Services Client***
+1. Edit ***Experience Manager Mobile On-demand Services Client***
 
     1. [**Mandatory**] Enter required fields:
 
@@ -101,7 +101,7 @@ You must complete the configuration steps in order for the AEM Mobile integratio
     1. Enter a Title and Name 
     1. Enter Device Id 
     1. Enter Device Token
-    1. Select ***Test Device Configuration ***to validate entered values 
+    1. Select ***Test Device Configuration*** to validate entered values 
     1. Select Ok
 
 ## Adding AEM Mobile User Roles and Assigning Permissions {#adding-aem-mobile-user-roles-and-assigning-permissions}

@@ -56,13 +56,8 @@ Use the following procedure to map CQ component variables with Adobe Analytics r
    >
    >It is highly recommended that:
    >
-   >    
-   >    
-   >    * `eVars` and `props` are mapped to CQ variables beginning with either  `pagedata.X` or `eventdata.X`   
-   >    
-   >    * whereas events should be mapped to variables starting with `eventdata.events.X`
-   >    
-   >
+   >* `eVars` and `props` are mapped to CQ variables beginning with either  `pagedata.X` or `eventdata.X`   
+   >* whereas events should be mapped to variables starting with `eventdata.events.X`
 
 1. To make the framework available on the publish instance of your site, open the **Page **tab of sidekick, and click **Activate Framework.**
 

@@ -198,13 +198,7 @@ You can perform a variety of editing tasks on Spin Sets such as the following:
     * To delete an entire Spin Set, navigate to the Spin Set, select it, and select **Delete**
 
    >[!NOTE]
-   >
-   >
-   >    
-   >    
-   >    * You can edit the images in a Spin Set by navigating to the set, tap **Set Members** in the left rail, and then tap the Pencil icon on an individual asset to open the editing window.
-   >    
-   >
+   >* You can edit the images in a Spin Set by navigating to the set, tap **Set Members** in the left rail, and then tap the Pencil icon on an individual asset to open the editing window.
 
 1. Click **Save** when done editing.
 

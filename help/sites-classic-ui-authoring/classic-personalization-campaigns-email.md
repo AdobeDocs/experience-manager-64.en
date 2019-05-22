@@ -240,7 +240,6 @@ To send out a newsletter from within the campaign:
    >
    >Before sending out, make sure you have customized your newsletter's subject and originating e-mail address by [customizing its settings](#customizing-newsletter-settings).
    >
-   >
    >[Flight testing](#flight-testing-newsletters) the newsletter before sending is recommended.
 
 1. At the top of the newsletter, click **Send**. The Newsletter wizard opens.  

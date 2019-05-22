@@ -107,9 +107,11 @@ Dynamic Media supports the delivery of static assets, which are additional asset
     * `The URL of the published static is the following:`
 
         * `https://*<server_name>*/is/content/*<company_name>*/*<static_asset_filename>*.*<extension>*`  
+
           For example, `https://aem.com/is/content/adobe/image.gif`.
 
     * click **Asset** &gt;  **Dynamic Renditions**, then click on a dynamic rendition of the static asset and copy the URL.  
+
       Change the copied URL to use `is/content` in the path instead of `is/image/`.
 
 ## Obtaining a video URL for a published video rendition {#obtaining-a-video-url-for-a-published-video-rendition}
@@ -163,6 +165,7 @@ Dynamic Media supports the delivery of static assets, which are additional asset
    (The path above is for illustration purposes only; it is not the actual path you copy.)
 
     * Under **Registration ID**, copy the customer name found in the last part of the ID. You will need the copied customer name later in these steps.  
+    
       For example, if the registration ID was `87654321|demoCo`, the customer name you copy would be `demoCo`.
 
 1. Based on the video delivery protocol you are using, copy the respective protocol selector. You will need the copied protocol selector later in these steps.

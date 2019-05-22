@@ -245,7 +245,7 @@ If required, insert special characters in the document fragment. For example, yo
 
 Text editor has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md).
 
-## Searching and replacing text {#search}
+## Searching and replacing text {#search-features}
 
 When working with text document fragments containing a large amount of text, you need to search for a specific text string. You may also need to replace a specific string of text with an alternative string.
 

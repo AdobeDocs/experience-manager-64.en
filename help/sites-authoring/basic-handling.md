@@ -237,15 +237,10 @@ There are various help resources available:
   >
   >You can access an overview of shortcut keys available at any time using the hotkey `?` (question mark) when in a console.
   >
-  >
   >For an overview of all keyboard shortcuts see the following documentation:
   >
-  >    
-  >    
-  >    * [Keyboard shortcuts for editing pages](/help/sites-authoring/page-authoring-keyboard-shortcuts.md)
-  >    * [Keyboard shortcuts for consoles](/help/sites-authoring/keyboard-shortcuts.md)
-  >    
-  >
+  >* [Keyboard shortcuts for editing pages](/help/sites-authoring/page-authoring-keyboard-shortcuts.md)
+  >* [Keyboard shortcuts for consoles](/help/sites-authoring/keyboard-shortcuts.md)
 
 ## Actions Toolbar {#actions-toolbar}
 

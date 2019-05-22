@@ -141,7 +141,6 @@ This example illustrates how the mapping works in the context of tracking and th
    >
    >The component that you should use in a real-life scenario depends on the component inherited from (if at all). 
    >
-   >
    >If not you should have your own component exposed there (by defining an analytics subnode in its page component).
 
    Configure the mapping according to the following table, by dragging the Analytics (SiteCatalyst) variable from the left side-panel:
@@ -316,7 +315,6 @@ Use the following procedure to configure link tracking for a **Text** component:
    >[!NOTE]
    >
    >Custom link tracking is visible as a separate action, beside the Link/Unlink action (Analytics Icon). 
-   >
    >
    >It will only be enabled when you have selected a valid Link in the RTE.
 

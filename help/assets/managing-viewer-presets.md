@@ -395,7 +395,9 @@ To create a new viewer preset:
   
       The visual editor lets you see what effect a certain property has on a style. Just set or adjust any property to instantly see what effect it has on the viewer using the sample to the left of the editor.   
   
-      The CSS styling properties for each type of viewer preset are described in the any "Customizing *`<viewer name>`* Viewer" Help topic in the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/). For example, if you are creating a viewer preset of the type `Mixed_Media`, see [Customizing Mixed Media Viewer](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_mixedmedia_viewer_customizingviewer.html) for a list and description of each property.  
+      The CSS styling properties for each type of viewer preset are described in the any "Customizing *`<viewer name>`* Viewer" Help topic in the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/). 
+      
+      For example, if you are creating a viewer preset of the type `Mixed_Media`, see [Customizing Mixed Media Viewer](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_mixedmedia_viewer_customizingviewer.html) for a list and description of each property.  
     
     * If you have defined style settings in a separate CSS file, you can upload the CSS file to AEM Assets. Tap **Import CSS** below the Selected Type pull-down menu (you may need to scroll the visual editor up to see it) to find the uploaded CSS file and associate it with the viewer preset.  
   
@@ -406,7 +408,6 @@ To create a new viewer preset:
    >[!NOTE]
    >
    >If you prefer to edit the CSS directly in its raw form, tap **Show/Hide CSS** below the Selected Type pull-down menu (you may need to scroll the visual editor up to see it).
-   >
    >
    >Like the visual editor, when you make a change to a property directly in the CSS, you can instantly see what effect it has on the viewer sample. And, that same property is automatically updated at the same time in the visual editor. As such, you can use the raw CSS editor, or the visual editor, or use both interchangeably.
 
@@ -425,7 +426,6 @@ To create a new viewer preset:
    >[!NOTE]
    >
    >**If you are using a touch device, such as a phone or tablet...**
-   >
    >
    >After you type a value in the text field, tap elsewhere in the user interface to submit the change and close the virtual keyboard. If you tap Enter, no action occurs.
 
@@ -480,12 +480,15 @@ Video sub-segment 3 does not extend beyond the thumbnails that are assigned to i
 The logic that the viewer uses for how many thumbnails are displayed in the panel based on the number of available positions is as follows:
 
 * Number of sub-segments = round up to next sub-segment (number of thumbnails / number of visible slots in the thumbnail panel, based on browser window size).  
+
   Using the example in the table above, 9 thumbnails / 4 slots = 2.25; the viewer logic rounds it up to 3 sub-segments.
 
 * Number of thumbnails = round up to next thumbnail (number of thumbnails / number of video sub-segments).  
+
   Using the example in the table above, 9 thumbnails / 3 video sub-segments = 3 thumbnails.
 
 * Duration of sub-segment = total video duration / number of video sub-segments.  
+
   Using the example in the table above, 30 seconds / 3 video sub-segments = 10 second display of each video sub-segment.
 
 ### Special considerations for creating a Carousel Banner Viewer preset {#special-considerations-for-creating-a-carousel-banner-viewer-preset}

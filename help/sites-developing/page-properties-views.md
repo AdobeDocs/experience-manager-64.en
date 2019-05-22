@@ -59,34 +59,21 @@ For example, by default the [**Create Page** wizard](/help/sites-authoring/manag
    >[!NOTE]
    >
    >As reference, see:  
-
    >
+   >```   
    >
-   >
-   >
-   >```   >
    >/libs/wcm/foundation/components/basicpage/v1/basicpage/cq:dialog
    >
-   >```   >
-   >
-
-   >
+   >```
    >
    >However, you ***must*** not change anything in the `/libs` path.
    >
-   >
    >This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).
-   >
    >
    >The recommended method for configuration and other changes is:
    >
-   >    
-   >    
-   >    1. Recreate the required item (i.e. as it exists in `/libs`) under `/apps`  
-   >    
-   >    1. Make any changes within `/apps`
-   >    
-   >
+   >1. Recreate the required item (i.e. as it exists in `/libs`) under `/apps`  
+   >1. Make any changes within `/apps`
 
 1. Set the `path` property on `basic` to point to the override of the basic tab (see the next step as well). For example:
 

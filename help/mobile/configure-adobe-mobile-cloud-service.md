@@ -12,7 +12,7 @@ discoiquuid: 962e9e98-a303-435b-a938-31319282e022
 legacypath: /content/docs/en/aem/6-1/develop/mobile-apps/apps/managing-aem-mobile-apps/configure-your-adobe-phonegap-build-cloud-service1
 ---
 
-# Configure your Adobe Mobile Services Cloud Service{#configure-your-adobe-mobile-services-cloud-service}
+# Configure your Adobe Mobile Services Cloud Service {#configure-your-adobe-mobile-services-cloud-service}
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ In order to take advantage of Adobe Mobile Services Analytics you need to config
 
    If the credentials are verified, the **Verify** button changes to **Verified**. You can choose a mobile service app from **Select a Mobile App Service**.
 
-   Click** Submit** for setting up your configuration.
+   Click **Submit** for setting up your configuration.
 
    ![](assets/chlimage_1-26.png)
 

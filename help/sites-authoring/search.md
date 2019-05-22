@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: cd87e1e8-5329-4e60-ac9d-2705f54d0da6
 ---
 
-# Search{#search}
+# Search{#search-features}
 
 The author environment of AEM provides various mechanisms for searching for content, dependent on the resource type.
 
@@ -71,12 +71,8 @@ To search and filter your resources:
    >
    >The search criteria can vary:
    >
-   >    
-   >    
-   >    * Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
-   >    * Your instance as the [Search Forms](/help/sites-administering/search-forms.md) can be customized (appropriate to the location within AEM).
-   >    
-   >
+   >* Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
+   >* Your instance as the [Search Forms](/help/sites-administering/search-forms.md) can be customized (appropriate to the location within AEM).
 
    ![](assets/screen_shot_2018-03-23at101619.png)
 

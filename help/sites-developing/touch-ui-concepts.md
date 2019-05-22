@@ -41,7 +41,6 @@ The touch-enabled UI includes:
     * Selection for the left-hand rail
     * Breadcrumbs
     * Access to appropriate **Create** actions  
-    
     * View selections
 
 * The content area that:

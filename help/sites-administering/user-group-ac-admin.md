@@ -595,7 +595,6 @@ You can also register new privileges:
    >
    >Currently a workaround is needed to specify an empty string.
    >
-   >
    >For this you need to use "".
 
 1. Define your access control policy and click **OK** to save. Your new policy will:

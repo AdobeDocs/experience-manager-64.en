@@ -82,8 +82,10 @@ In this case, we're including them all, and so would prefer the more basic SCF c
 * Type: **`String`**
 * click **`Multi`**
 * Value: **`cq.social.scf`** 
-  *&lt;enter&gt; will pop up a dialog  
-  click **[+] **after each entry to add the following clientlib categories:*
+
+  *&lt;enter&gt; will pop up a dialog*  
+
+  *click **[+]** after each entry to add the following clientlib categories:*
 
     * **`cq.ckeditor`**
     * **`cq.social.author.hbs.comments`**
@@ -119,11 +121,12 @@ The include statement belongs in the <head> section of the <html> script. The de
 
 1. using **CRXDE Lite**, select **`/libs/foundation/components/page/headlibs.jsp`**
 
-1. right click and select **Copy **(or select Copy from the tool bar)
-1. select**`/apps/an-scf-sandbox/components/playpage`**
-1. right click and select **Paste **(or select Paste from the tool bar)
+1. right click and select **Copy** (or select Copy from the tool bar)
+1. select **`/apps/an-scf-sandbox/components/playpage`**
+1. right click and select **Paste** (or select Paste from the tool bar)
 1. double click on **`headlibs.jsp`** to open it
 1. append the following line to the end of the file  
+   
    **`<ui:includeClientLib categories="apps.an-scf-sandbox"/>`**
 
 1. click **Save All**
@@ -179,5 +182,4 @@ To create a package:
 
 * click **Build**
 
-Now you can select **Download** to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.  
-
+Now you can select **Download** to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox. 

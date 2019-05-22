@@ -208,13 +208,8 @@ In this procedure:
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * Replace [JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
-   >    * The imported CA signed certificate will replace a self-signed public certificate if it exists.
-   >    
-   >
+   >* Replace [JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
+   >* The imported CA signed certificate will replace a self-signed public certificate if it exists.
 
 1. Complete steps 13 - 18 of Create an SSL credential.
 

@@ -32,12 +32,11 @@ These help a developer to:
 >* Is only available in the touch-enabled UI (when editing pages).
 >* Is not available on mobile devices or small windows on desktop (due to space restrictions).  
 >
->    * This occurs when the width is less than 1024px.  
+>  * This occurs when the width is less than 1024px.  
 >
 >* Requires the appropriate permissions/privileges:  
 >
->    * Access to Developer Mode is given to users who have write access on `/apps`.
->
+>  * Access to Developer Mode is given to users who have write access on `/apps`.
 
 >[!CAUTION]
 >
@@ -56,7 +55,6 @@ These help a developer to:
 >
 >* Knowledge Base article, [Troubleshooting AEM TouchUI issues](https://helpx.adobe.com/experience-manager/kb/troubleshooting-aem-touchui-issues.html), for further tips and tools.
 >* AEM Gems session about [AEM 6.0 Developer Mode](https://docs.adobe.com/content/ddc/en/gems/aem-6-0-developer-mode.html).
->
 
 ## Opening Developer Mode {#opening-developer-mode}
 
@@ -80,8 +78,8 @@ This shows a component tree that:
 * Shows the server-side computational time needed to render the component.
 * Allows you to expand the tree and select specific components within the tree. Selection provides access to component details; such as:
 
-    * Repository path
-    * Links to scripts (accessed in CRXDE Lite)
+  * Repository path
+  * Links to scripts (accessed in CRXDE Lite)
 
 * Selected components (in the content flow, indicated by a blue border) will be highlighted in the content tree (and vice versa).
 
@@ -97,19 +95,19 @@ Each component entry can show (for example):
 
 * **View Details**: a link to a list that shows:
 
-    * all component scripts used to render the component.
-    * the repository content path for this specific component.
+  * all component scripts used to render the component.
+  * the repository content path for this specific component.
 
   ![](assets/chlimage_1-232.png)
 
 * **Edit Script**: a link that:
 
-    * opens the component script in CRXDE Lite.
+  * opens the component script in CRXDE Lite.
 
 * Expanding a component entry (arrow head) can also show:
 
-    * The hierarchy within the selected component.
-    * Rendering times for the selected component in isolation, any individual components nested within it, and the combined total.
+  * The hierarchy within the selected component.
+  * Rendering times for the selected component in isolation, any individual components nested within it, and the combined total.
 
   ![](assets/chlimage_1-233.png)
 

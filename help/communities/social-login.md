@@ -217,7 +217,6 @@ In general:
    >
    >It is not necessary to specify the port.
    >
-   >
    >For development, https://127.0.0.1/ will work.
 
 1. Once the application has been created, locate the **Consumer (API) Key **and **Consumer (API) Secret**. This information will be needed for configuring the [Twitter cloud service](#createatwittercloudservice).

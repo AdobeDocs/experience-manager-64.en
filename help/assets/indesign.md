@@ -16,8 +16,9 @@ discoiquuid: 2d406520-536f-4616-8038-7772fbc4948b
 Adobe Experience Manager (AEM) Assets uses:
 
 * A proxy to distribute the load of certain processing tasks. A proxy is an AEM instance that communicates with a proxy worker to fulfil a specific task, and other AEM instances to deliver the results.  
-* A proxy worker to define and manage a specific task.  
-  These can cover a wide variety of tasks; for example, using an InDesign Server to process files.
+* A proxy worker to define and manage a specific task.
+
+These can cover a wide variety of tasks; for example, using an InDesign Server to process files.
 
 To fully upload files to AEM Assets that you have created with Adobe InDesign a proxy is used. This uses a proxy worker to communicate with the Adobe InDesign Server, where [scripts](https://www.adobe.com/devnet/indesign/documentation.html#idscripting) are run to extract metadata and generate various renditions for AEM Assets. The proxy worker enables the two-way communication between the InDesign Server and the AEM instance(s) in a cloud configuration.
 
@@ -42,7 +43,8 @@ The InDesign Server can be integrated with AEM Assets so that files created with
 >Previous versions of AEM were able to extract XMP and the thumbnail, now all media can be extracted.
 
 1. Upload your `.indd` file to AEM Assets.
-1. A framework sends command script(s) to the InDesign Server via SOAP (Simple Object Access Protocol).  
+1. A framework sends command script(s) to the InDesign Server via SOAP (Simple Object Access Protocol).
+
    This command script will:
 
     * Retrieve the `.indd` file.
@@ -58,7 +60,6 @@ The InDesign Server can be integrated with AEM Assets so that files created with
    >
    >IDML is an XML-based format that renders *everything* in the InDesign file. It is stored as an compressed package using [Zip](https://www.techterms.com/definition/zip) compression.
    >
-   >
    >See [Adobe InDesign Interchange Formats INX and IDML](http://www.peachpit.com/articles/article.aspx?p=1381880&seqNum=8) for further information.
 
    >[!CAUTION]
@@ -68,7 +69,7 @@ The InDesign Server can be integrated with AEM Assets so that files created with
 1. After the extraction and rendition generation:
 
     * The structure is replicated to a `cq:Page` (type of rendition).
-    * The extracted text and files are stored in AEM Assets.  
+    * The extracted text and files are stored in AEM Assets.
     * All renditions are stored in AEM Assets, in the asset itself.
 
 ## Integrating the InDesign Server with AEM {#integrating-the-indesign-server-with-aem}
@@ -76,7 +77,8 @@ The InDesign Server can be integrated with AEM Assets so that files created with
 To integrate the InDesign Server for use with AEM Assets and after configuring your proxy, you need to:
 
 1. [Install the InDesign Server](#installing-the-indesign-server).
-1. If required, [configure the AEM Assets Workflow](#configuring-the-aem-assets-workflow).  
+1. If required, [configure the AEM Assets Workflow](#configuring-the-aem-assets-workflow).
+
    This is only necessary if the default values are not appropriate for your instance.
 
 1. Configure a [proxy worker for the InDesign Server](#configuring-the-proxy-worker-for-indesign-server).
@@ -103,7 +105,6 @@ To install and start the InDesign Server for use with AEM:
    >
    >If you want to save the output messages to a file then use redirection; for example, under Windows:
    >
-   >
    >`<ids-installation-dir>/InDesignServer.com -port 8080 > ~/temp/INDD-logfile.txt 2>&1`
 
 ### Configuring the AEM Assets Workflow {#configuring-the-aem-assets-workflow}
@@ -127,18 +128,19 @@ To customize, you can edit **Arguments** tab of the** Media Extraction** step.
 
 Media extraction arguments and script paths
 
-* **ExtendScript library** 
+* **ExtendScript library**
+
   This is a simple http get/post method library, required by the other scripts.  
 
-* **Extend Scripts** 
-  You can specify different script combinations here. If you want your own scripts to be executed on the InDesign Server, save the scripts at `/apps/settings/dam/indesign/scripts`.  
-  For information about Indesign scripts see:  
-  [https://www.adobe.com/devnet/indesign/documentation.html#idscripting](https://www.adobe.com/devnet/indesign/documentation.html#idscripting)
+* **Extend Scripts**
+
+  You can specify different script combinations here. If you want your own scripts to be executed on the InDesign Server, save the scripts at `/apps/settings/dam/indesign/scripts`.
+
+  For information about Indesign scripts see [https://www.adobe.com/devnet/indesign/documentation.html#idscripting](https://www.adobe.com/devnet/indesign/documentation.html#idscripting).
 
 >[!CAUTION]
 >
 >Do **not** change the **ExtendScript library**.  
-
 >
 >This library provides the HTTP functionality required to communicate with Sling. This setting specifies the library to be send to the InDesign Server for use there.
 
@@ -154,27 +156,35 @@ To customize, you can edit the **Arguments** tab of the** Page Extraction** step
 
 ![](assets/chlimage_1-289.png)
 
-* **Page Extraction Handler** 
-  From the drop down list, select the handler that you want to use. An extraction handler operates on a specific rendition, chosen by a related `RenditionPicker` (see the `ExtractionHandler` API).  
+* **Page Extraction Handler**
+
+  From the drop down list, select the handler that you want to use. An extraction handler operates on a specific rendition, chosen by a related `RenditionPicker` (see the `ExtractionHandler` API).
+
   In a standard AEM installation the following is available:
 
-    * IDML Export Extraction Handler  
+    * IDML Export Extraction Handler
+
       Operates on the `IDML` rendition generated in the MediaExtract step.
 
-* **Page Name** 
+* **Page Name**
+
   Specify the name you want to have assigned to the resulting page. If left blank then the name is "page" (or a derivative if "page" already exists).
 
-* **Page Title** 
+* **Page Title**
+
   Specify the title you want to have assigned to the resulting page.
 
-* **Page Root Path** 
-  The path to the root location of the resulting page.  
-  If left blank the node holding the asset's renditions will be used.  
+* **Page Root Path**
+
+  * The path to the root location of the resulting page.
+  * If left blank the node holding the asset's renditions will be used.  
 
 * **Page Template** 
+
   The template to use when generating the resulting page.
 
 * **Page Design** 
+
   The page design to be used when generating the resulting page.
 
 ### Configuring the Proxy Worker for InDesign Server {#configuring-the-proxy-worker-for-indesign-server}
@@ -191,7 +201,8 @@ To customize, you can edit the **Arguments** tab of the** Page Extraction** step
 
    ![](assets/proxy_idsworkerconfig.png)
 
-    * **IDS Pool** 
+    * **IDS Pool**
+
       The SOAP endpoint(s) to be used for communicating with the InDesign Server. You can add, remove and order items are required.
 
 1. Click **OK** to save.
@@ -225,12 +236,9 @@ To configure the number of parallel IDS jobs:
 
    `Apache Sling Job Queue Configuration`
 
-1. Set:** 
-   **
+1. Set:
 
-    * **Type** - `Parallel`** 
-      **
-    
+    * **Type** - `Parallel`
     * **Maximum Parallel Jobs** - `<*x*>` (as calculated above)
 
 1. Save these changes.
@@ -250,12 +258,9 @@ To configure the number of parallel IDS jobs:
    >
    >You may choose to enable Blacklisting of IDS workers when working with pool of workers.
    >
-   >
    >To do so, enable the "enable.retry.name" checkbox, under the `com.day.cq.dam.ids.impl.IDSJobProcessor.name` configuration, which enables IDS job retrials. 
    >
-   >
    >Also, under the `com.day.cq.dam.ids.impl.IDSPoolImpl.name` configuration, set a positive value for max.errors.to.blacklist parameter which determines number of job retrials before barring an IDS from the job handlers list
-   >
    >
    >By default, after the configurable (retry.interval.to.whitelist.name) time in minutes the IDS worker is revalidated. If the worker is found online, it is removed from the blacklist
 

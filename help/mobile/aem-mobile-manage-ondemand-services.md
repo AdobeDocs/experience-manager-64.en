@@ -32,7 +32,7 @@ With the Mobile On Demand Preflight app, you can view all projects to which you 
 1. From Mobile, choose your Mobile On-Demand app from the catalog.
 1. Click the ellipsis (...) from the **Manage Articles** (or Banners/Collections) tile.
 1. Select **Preflight** from the action bar.
-1. Click **Activate Preflight **from the dialog.
+1. Click **Activate Preflight** from the dialog.
 1. You app will now be ready for preview on the Mobile On-Demand Preflight app.
 
 ![](assets/chlimage_1-8.gif)

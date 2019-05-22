@@ -11,7 +11,7 @@ topic-tags: administering-on-demand-services-app
 discoiquuid: c3c73e67-7f85-4308-b4cd-1b42d4f3f2d9
 ---
 
-# Configure Your Users and User Groups{#configure-your-users-and-user-groups}
+# Configure Your Users and User Groups {#configure-your-users-and-user-groups}
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Members of the app-author group are responsible for authoring AEM mobile applica
 
 ### AEM Mobile Application Administrators Group (app-admins group) {#aem-mobile-application-administrators-group-app-admins-group}
 
-Members of the app-admins group can author application content with the same permissions included with app-authors **AND **in addition are also responsible for:
+Members of the app-admins group can author application content with the same permissions included with app-authors **AND** in addition are also responsible for:
 
 * Staging, publishing and clearing application ContentSync OTA updates
 
@@ -98,7 +98,6 @@ Members of the app-admins group can author application content with the same per
    >[!CAUTION]
    >
    >/var/contentsync access is denied OOTB. 
-   >
    >
    >Omitting the READ permission can result in empty update packages being built and replicated.
 
