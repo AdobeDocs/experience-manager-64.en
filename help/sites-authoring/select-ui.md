@@ -21,14 +21,11 @@ Although the touch-enabled UI is now the standard UI and feature parity has been
 
 There are various locations where you can define which UI is to be used:
 
-* [Configuring the default UI for your instance](#configuring-the-default-ui-for-your-instance)  
-  This will set the default UI to be shown at user login, although the user may be able to override this and select a different UI for their account or current session.  
+* [Configuring the default UI for your instance](#configuring-the-default-ui-for-your-instance) - This will set the default UI to be shown at user login, although the user may be able to override this and select a different UI for their account or current session.  
 
-* [Setting Classic UI Authoring for your account](/help/sites-authoring/select-ui.md#setting-classic-ui-authoring-for-your-account)  
-  This will set the UI to be used as default when editing pages, although the user can override this and select a different UI for their account or current session.  
+* [Setting Classic UI Authoring for your account](/help/sites-authoring/select-ui.md#setting-classic-ui-authoring-for-your-account) - This will set the UI to be used as default when editing pages, although the user can override this and select a different UI for their account or current session.  
 
-* [Switching to classic UI for the current session](#switching-to-classic-ui-for-the-current-session)  
-  This switches to the classic UI for the current session.
+* [Switching to classic UI for the current session](#switching-to-classic-ui-for-the-current-session) - This switches to the classic UI for the current session.
 
 * For the case of [page authoring the system makes certain overrides in the relation to the UI](#ui-overrides-for-the-editor).
 

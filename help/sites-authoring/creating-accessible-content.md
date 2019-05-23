@@ -73,7 +73,7 @@ For static graphics, the basic requirement is to provide an equivalent text alte
 >
 >Some out-of-the-box components, such as **Carousel** and **Slideshow** do not provide a means for adding alternate text descriptions to images. When implementing versions of these for your AEM instance, your development team will need to configure such components to support the `alt` attribute so that authors can add it to the content (see [Adding Support for Additional HTML Elements and Attributes](/help/sites-administering/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
-The **Alternative Text** field is available in the **Image **component dialog on the **Metadata** tab:
+The **Alternative Text** field is available in the **Image** component dialog on the **Metadata** tab:
 
 ![Edit dialog of the Image component in the touch-optimized UI; shows the Alt Text field.](assets/screen_shot_2018-03-21at165045.png)
 
@@ -98,12 +98,9 @@ The [W3C draft: HTML5 Techniques for providing useful text alternatives](https:/
 
 Specific types of non-text content that require text alternatives might include:
 
-* Illustrative photos:  
-  These are images of people, objects or places. Think about the role of the photo in the page; an appropriate text equivalent is likely to be *Photo of [object]*, but may be dependent on the surrounding text.
-* Icons**:** 
-  These are small pictograms (graphics) conveying specific information. They must be consistently used across a page and site. All instances of the icon on a page or site should have the same short and succinct text alternative, unless doing so results in unnecessary duplication of adjacent text.
-* Charts and graphs:  
-  These typically represent numerical data. So one option for providing a text alternative might be to include a brief summary of the main trends shown in the chart or graphic. If necessary, also provide a more detailed description in text using the **Description** field in the** Advanced **image properties tab. Additionally, you could provide the source data in tabular form elsewhere in the page or site.
+* Illustrative photos: These are images of people, objects or places. Think about the role of the photo in the page; an appropriate text equivalent is likely to be *Photo of &#91;object&#93;*, but may be dependent on the surrounding text.
+* Icons: These are small pictograms (graphics) conveying specific information. They must be consistently used across a page and site. All instances of the icon on a page or site should have the same short and succinct text alternative, unless doing so results in unnecessary duplication of adjacent text.
+* Charts and graphs: These typically represent numerical data. So one option for providing a text alternative might be to include a brief summary of the main trends shown in the chart or graphic. If necessary, also provide a more detailed description in text using the **Description** field in the **Advanced** image properties tab. Additionally, you could provide the source data in tabular form elsewhere in the page or site.
 
   ![Example of a graph. Below is the best approach to providing an alternative.](assets/chlimage_1.jpeg)
 
@@ -121,18 +118,15 @@ Specific types of non-text content that require text alternatives might include:
 
   In AEM this can be done using a combination of the **Alt Text** and **Description** fields in the image’s configuration dialog - as in [How to Meet - Non-text Content (1.1.1)](#how-to-meet-non-text-content).
 
-* Maps, diagrams, flowcharts:  
-  For graphics providing spatial data (for example. to support describing relationships between objects or a process), ensure that the key message is provided in text format. For maps, providing a full text equivalent is likely to be impractical, but if the map is provided as a way of helping people find their way to a particular location, then the map image’s alternative text can briefly indicate *Map of X*, then provide directions to that location in text elsewhere in the page or through the **Description** field in the **Advanced** tab of the **Image** component.
-* CAPTCHAs:  
-  A CAPTCHA is a *Completely Automated Public Turing test to tell Computers and Humans Apart*. It is a security check used on web pages to distinguish humans from malicious software, but which can cause accessibility barriers. They are images that require users to describe what they see in order to pass a security test. Providing a text alternative for the image is obviously not possible, so instead you will need to consider alternative non-graphic solutions.  
+* Maps, diagrams, flowcharts: For graphics providing spatial data (for example. to support describing relationships between objects or a process), ensure that the key message is provided in text format. For maps, providing a full text equivalent is likely to be impractical, but if the map is provided as a way of helping people find their way to a particular location, then the map image’s alternative text can briefly indicate *Map of X*, then provide directions to that location in text elsewhere in the page or through the **Description** field in the **Advanced** tab of the **Image** component.
+* CAPTCHAs: A CAPTCHA is a *Completely Automated Public Turing test to tell Computers and Humans Apart*. It is a security check used on web pages to distinguish humans from malicious software, but which can cause accessibility barriers. They are images that require users to describe what they see in order to pass a security test. Providing a text alternative for the image is obviously not possible, so instead you will need to consider alternative non-graphic solutions.  
   The W3C provides a number of suggestions, such as:Each of these approaches has their own merits and drawbacks.
 
     * Logic puzzles
     * The use of sound output instead of images
     * Limited use accounts and spam filters.
 
-* Background images:  
-  These are achieved using Cascading Style Sheets (CSS) rather than in HTML. This means it is not possible to specify an alternative text value. Therefore background images should not provide important textual information - if they do, this information must also be provided in the page’s text.  
+* Background images: These are achieved using Cascading Style Sheets (CSS) rather than in HTML. This means it is not possible to specify an alternative text value. Therefore background images should not provide important textual information - if they do, this information must also be provided in the page’s text.  
   However, it is important that an alternative background is displayed when the image cannot be displayed.
 
   >[!NOTE]
@@ -219,7 +213,7 @@ People who are deaf or hard of hearing will be unable or have great difficulty a
 Captions can be either:
 
 * Open: always visible when the video is played)
-* Closed:* *the captions can be switched on or off by the user
+* Closed: the captions can be switched on or off by the user
 
 Use closed captioning wherever possible, as this gives users the choice over whether or not to view captions.
 
@@ -318,7 +312,7 @@ Follow the guidance provided for [Audio Description or Media Alternative (Pre-Re
 
 This guideline covers the requirements necessary to support people who:
 
-* may not be able to access information as presented by an author in a *standard *two dimensional, multi-column, colored web page layout   
+* may not be able to access information as presented by an author in a *standard* two dimensional, multi-column, colored web page layout
 
 * may use an audio-only, or alternative visual display such as large text or high contrast.
 
@@ -346,7 +340,7 @@ You can make sure your web pages are given the appropriate structure by:
 
 * **Using headings:**
 
-  As long as you have the accessibility features of the RTE enabled (see [Configuring RTE for Producing Accessible Sites](/help/sites-administering/rte-accessible-content.md)), AEM offers 3 levels of page heading. You can use these to identify sections and subsections of content. Heading 1 is the highest level of heading, Heading 3 the lowest. The system administrator can configure the system to allow the use of more heading levels.
+  As long as you have the accessibility features of the RTE enabled (see [AEM and accessibility](#AdobeExperienceManagerandAccessibility)), AEM offers 3 levels of page heading. You can use these to identify sections and subsections of content. Heading 1 is the highest level of heading, Heading 3 the lowest. The system administrator can configure the system to allow the use of more heading levels.
 
   The following image demonstrates an example of the different types of headings.
 
@@ -373,7 +367,7 @@ You can make sure your web pages are given the appropriate structure by:
     * The `<ul>` element is used for *unordered* lists (bulleted) lists. Individual list items are identified using the `<li>` element.  
       in the RTE, use the **Bullet List** icon.
     
-    * The `<ol>` element is used for *numbered* lists*. *Individual list items are identified using the `<li>` element.  
+    * The `<ol>` element is used for *numbered lists*. Individual list items are identified using the `<li>` element.  
       In the RTE, use the **Numbered List** icon.
 
   If you want to change existing content into a specific list type, highlight the appropriate text and select the appropriate list type. As in the earlier example showing how paragraph text is entered, the appropriate list elements are automatically added to your HTML.
@@ -402,7 +396,7 @@ You can make sure your web pages are given the appropriate structure by:
   Additionally, accessible tables make use of the following elements and attributes:
 
     * The `<caption>` element is used to provide a visible caption for the table. Captions by default appear centred above the table, but can be positioned appropriately using CSS. The caption is programmatically associated with the table, thus it is a useful method for providing an introduction to content.
-    * The `<h3 class="summary">` element assists non-sighted users to more easily understand the information presented within a table, by providing a synopsis of what a sighted user can see. This is particularly useful where complex or unconventional table layouts are used (this attribute is not displayed in the browser, it is only read out to assistive technologies).
+    * The `<summary>` element assists non-sighted users to more easily understand the information presented within a table, by providing a synopsis of what a sighted user can see. This is particularly useful where complex or unconventional table layouts are used (this attribute is not displayed in the browser, it is only read out to assistive technologies).
     * The `scope` attribute of the `<th>` element is used to indicate whether a cell represents a header for a particular row, or for a particular column. A similar approach is to use the header and id attributes in complex tables, where data cells may be associated with one or more headers.
 
   >[!NOTE]
@@ -422,7 +416,7 @@ You can make sure your web pages are given the appropriate structure by:
 
 * **Complex Data Tables:**
 
-  In some cases, where there are complex tables with two or more levels of headers, then the basic Table Properties may not be enough to provide all the structural information necessary. For these kinds of complex tables, direct relationships need to be created between the headers and their related cells using the **header **and **id **attributes. For example, in the table below headers and ids are matched to make a programmatic association for assistive technology users.
+  In some cases, where there are complex tables with two or more levels of headers, then the basic Table Properties may not be enough to provide all the structural information necessary. For these kinds of complex tables, direct relationships need to be created between the headers and their related cells using the **header** and **id** attributes. For example, in the table below headers and ids are matched to make a programmatic association for assistive technology users.
 
   >[!NOTE]
   >
@@ -731,12 +725,12 @@ Above all, make sure that the purpose of a link is clearly described within the 
 
 * Bad Example:
 
-    * Text: For details of our evening classes for autumn 2010, click here.
+    * Text: For details of our evening classes for autumn 2010, click <u>here</u>.
     * Reason: it does not clearly and unambiguously indicate its destination.
 
 * Good Example:
 
-    * Text: Evening classes for autumn 2010 - details.
+    * Text: <u>Evening classes for autumn 2010</u> - details.
     * Reason: By slightly adjusting the text and the position of the link element, the link text can be improved:
 
 Links should be phrased consistently across pages, especially for navigation bars. For example, if a link to a specific page is named **Publications** on one page, use that text on other pages to ensure consistency.
@@ -804,11 +798,9 @@ The purpose of this success criterion is to make sure that text and other lingui
 
 To meet this success criterion, the default language of a web page can be identified using the `lang` attribute within the `<html>` element at the top of the page. For example:
 
-* If a page is written in British English, the `<html>` element should read:  
-  `<html lang = “en-gb”>`
+* If a page is written in British English, the `<html>` element should read: `<html lang = “en-gb”>`
 
-* Whereas a page to be rendered as US English should adopt the following standard:  
-  `<html lang = “en-us”>`
+* Whereas a page to be rendered as US English should adopt the following standard: `<html lang = “en-us”>`
 
 In AEM, the default language of your page is set when creating the page, but may also be changed when editing a page, which is accessible by **Sidekick** - **Page** tab - **Page Properties...** - **Advanced** tab.
 
@@ -911,10 +903,8 @@ If input for a form field is mandatory, make this clear by using the word requir
 
 The positioning of labels is also important as it helps them to locate appropriate fields. This is of particular importance when the user is faced with a complex form. Follow the convention below:
 
-* Checkboxes or radio buttons:   
-  Labels are positioned immediately to the right of the field.
-* All other form components (e.g. text boxes, combo boxes):   
-  Labels are positioned either immediately above or immediately to the left of the field.
+* Checkboxes or radio buttons: Labels are positioned immediately to the right of the field.
+* All other form components (e.g. text boxes, combo boxes): Labels are positioned either immediately above or immediately to the left of the field.
 
 In simple forms with very limited functionality, appropriately labelling a `Submit` button can act as a label for the adjacent field (for example `Search`). This is useful in situations when finding space for the label text might be difficult.
 

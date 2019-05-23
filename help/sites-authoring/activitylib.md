@@ -38,7 +38,6 @@ Activities are displayed with a label describing what kind of activity is define
 >[!NOTE]
 >
 >What types of activities are available is determined by the following:  
-
 >
 >* If the **xt_only** option is enabled on the Adobe Target tenant (clientcode) used on the AEM side to connect to Adobe Target, then you can create **only** XT activities in AEM.
 >
@@ -91,7 +90,7 @@ Add an activity or edit an existing activity to focus your marketing efforts on 
 
 To add an activity:
 
-1. Click or tap the brand for which you are creating the activity, and then click or tap **Create **then** Create Activity. **If editing, select the activity in the Master Area screen and clicking or tapping **Edit Activity**.
+1. Click or tap the brand for which you are creating the activity, and then click or tap **Create** then **Create Activity**. If editing, select the activity in the Master Area screen and clicking or tapping **Edit Activity**.
 1. Provide the following information and then click or tap **Next**:
 
     * A name for the activity.
