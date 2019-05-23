@@ -132,7 +132,7 @@ All example content and users (e.g. the Geometrixx project and its components) s
 
 >[!NOTE]
 >
->The sample Geometrixx applications are removed if this instance is running in [Production Ready Mode](/help/sites-administering/production-ready.md). If, for any reason, this is not the case, you can uninstall the `cq-geometrixx-all-pkg` package as described in [Uninstalling Packages](/help/sites-administering/package-manager.md#uninstalling-packages). You can then delete all geometrixx packages using the same user interface.
+>The sample We.Retail applications are removed if this instance is running in [Production Ready Mode](/help/sites-administering/production-ready.md). If, for any reason, this is not the case, you can uninstall the sample content by going to Package Manager, then serarching for and uninstalling all We.Rertail packages. Fore more info, see [How to Work With Packages](package-manager.md).
 
 ### Check if the CRX development bundles are present {#check-if-the-crx-development-bundles-are-present}
 
