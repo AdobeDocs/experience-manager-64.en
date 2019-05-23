@@ -132,7 +132,7 @@ All example content and users (e.g. the Geometrixx project and its components) s
 
 >[!NOTE]
 >
->The sample We.Retail applications are removed if this instance is running in [Production Ready Mode](/help/sites-administering/production-ready.md). If, for any reason, this is not the case, you can uninstall the sample content by going to Package Manager, then serarching for and uninstalling all We.Rertail packages. Fore more info, see [How to Work With Packages](package-manager.md).
+>The sample We.Retail applications are removed if this instance is running in [Production Ready Mode](/help/sites-administering/production-ready.md). If, for any reason, this is not the case, you can uninstall the sample content by going to Package Manager, then serarching for and uninstalling all We.Retail packages. Fore more info, see [How to Work With Packages](package-manager.md).
 
 ### Check if the CRX development bundles are present {#check-if-the-crx-development-bundles-are-present}
 
