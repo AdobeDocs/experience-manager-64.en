@@ -46,9 +46,11 @@ To create a header by placing a hash tag (#) in front of the heading. One hash t
 Optionally, you can create a H1 by underlining the text in equal signs and create a H2 by underlining the text in minus signs. For example:
 
 `This is an H1`  
+
 `==========`
 
 `This is an H2`  
+
 `--------------`
 
 ## Paragraphs and Line Breaks {#paragraphs-and-line-breaks}
@@ -76,7 +78,9 @@ A reference link has the following syntax:
 `Hey you should [checkout][0] this [cool thing][wiki] that I [made][].`
   
 `[0]: https://www.google.ca`  
+
 `[wiki]: https://www.wikipedia.org`  
+
 `[made]: https://www.stackoverflow.com`  
 
 ## Images {#images}
@@ -99,7 +103,7 @@ A Reference-style image has the following syntax:
 
 `![Alt text][id]`
 
-Where “i*d”* is the name of a defined image reference. Image references are defined using syntax identical to link references:
+Where “id” is the name of a defined image reference. Image references are defined using syntax identical to link references:
 
 `[id]: url/to/image "Optional title attribute"`
 
@@ -108,16 +112,23 @@ Where “i*d”* is the name of a defined image reference. Image references are 
 You can quote text by adding the &gt; symbol before the text. For example:
 
 `>This is block quotes`  
+
 `>asdhfjlkasdhlf`  
+
 `>asdfahsdlfasdfj`
 
 You can have nested block quotes. For example:
 
 `> This is the first level of quoting.`  
+
 `>`  
+
 &nbsp;&nbsp;&nbsp;&nbsp;`>> This is nested blockquote.`  
+
 `>`  
+
 `> Back to the first level.`
+
 
 ## Lists {#lists}
 
@@ -132,7 +143,9 @@ To create an unordered list, use the &ast; symbol before the items in the list. 
 To create an ordered list, add the numbers, followed by a period, before each item in the list. For example:
 
 `1. First item in list.`  
+
 `2. Second item in list.`  
+
 `3. Third item in list.`
 
 ## Emphasis {#emphasis}
