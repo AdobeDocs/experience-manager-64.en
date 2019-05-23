@@ -44,11 +44,11 @@ user-guide-title: AEM 6.4 Classic UI Authoring User Guide
     + [Creating and Organizing Pages](classic-page-author-manage-pages.md)
     + [Editing Page Content](classic-page-author-edit-content.md)
     + [Rich Text Editor](classic-page-author-rich-text-editor.md)
+    + [Page Authoring with Content Fragments](classic-page-author-content-fragments.md)
 + Deleted section Remove duplicates and move others to sections above {#deleted}
     + [Troubleshooting AEM when Authoring](classic-page-author-troubleshooting.md)
     + [Working with Adobe Campaign](classic-personalization-ac.md)
     + [Tracking Bounced Emails](classic-personalization-campaigns-email-tracking-bounces.md)
-    + [Page Authoring with Content Fragments](classic-page-author-content-fragments.md)
     + [Working with Assets](classicui-assets.md)
     + [Screens Authoring Capabilites](classic-screens.md)
     + [Creating Page Templates](classic-feature-templates.md)
