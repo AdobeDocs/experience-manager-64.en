@@ -59,9 +59,7 @@ The following diagram illustrates the architecture of the style system.
 
 To demonstrate the feature, styles need to be created for a component. Using [We.Retail](/help/sites-developing/we-retail.md)'s implementation of the core component's [list component](https://helpx.adobe.com/experience-manager/core-components/using/list.html) as a basis, you can install the attached package containing styles in order to explore the feature's functionality.
 
-Style system demo package
-
-[Get File](assets/package_-_style_systemdemo.zip)
+Download the [style system demo package](assets/package_-_style_systemdemo.zip)
 
 >[!NOTE]
 >
@@ -84,7 +82,7 @@ If you wish to use the style system for your own components do the following:
 
    ![](assets/screen_shot_2017-11-15at162032.png)
 
-1. Tap or click the **Styles** button on the toolbar of the **List **component to open the style menu and change the appearance of the component.
+1. Tap or click the **Styles** button on the toolbar of the **List** component to open the style menu and change the appearance of the component.
 
    ![](assets/screen_shot_2017-11-15at162358.png)
 

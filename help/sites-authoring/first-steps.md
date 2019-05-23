@@ -17,11 +17,9 @@ This section gives you an overview of the main tasks that you will be using when
 
 It covers:
 
-* [Getting Started](#getting-started)  
-  Detailing the basic sequence of events you need for creating and publishing your first page.  
+* [Getting Started](#getting-started) - Detailing the basic sequence of events you need for creating and publishing your first page.  
 
-* [Further Actions](#further-actions)  
-  Following on with the many other actions you can use when authoring.
+* [Further Actions](#further-actions) - Following on with the many other actions you can use when authoring.
 
 ## Overview {#overview}
 

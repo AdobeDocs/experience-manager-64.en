@@ -13,7 +13,7 @@ discoiquuid: 8556d20a-99bd-4942-b7b8-2db69f64e67c
 
 # Applying Workflows to Pages{#applying-workflows-to-pages}
 
-When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
+When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow.
 
 When you apply the workflow, you specify the following information:
 
@@ -24,8 +24,8 @@ When you apply the workflow, you specify the following information:
 
 Workflows can be started from:
 
-* [the **Sites** console](#starting-a-workflow-from-the-sites-console).
-* [when editing a page, from **Page Information**](#starting-a-workflow-from-the-page-editor).
+* the **[Sites](#starting-a-workflow-from-the-sites-console)** console.
+* when editing a page, from **[Page Information](#starting-a-workflow-from-the-page-editor)**.
 
 >[!NOTE]
 >
@@ -43,8 +43,8 @@ Workflows can be started from:
 
 You can start a workflow from either:
 
-* [the **Create** option of the Sites toolbar](#starting-a-workflow-from-the-sites-toolbar).
-* [the **Timeline** rail of the Sites console](#starting-a-workflow-from-the-timeline).
+* the **[Create](#starting-a-workflow-from-the-sites-toolbar)** option of the Sites toolbar.
+* the **[Timeline](#starting-a-workflow-from-the-timeline)** rail of the Sites console.
 
 In both cases you will need to:
 
@@ -79,8 +79,8 @@ The **Create Workflow** wizard will help you select the workflow and specify the
 
 After opening the **Create Workflow** wizard from either:
 
-* [the **Create** option of the Sites toolbar](#starting-a-workflow-from-the-sites-toolbar).
-* [the **Timeline** rail of the Sites console](#starting-a-workflow-from-the-timeline).
+* the **[Create](#starting-a-workflow-from-the-sites-toolbar)** option of the Sites toolbar.
+* the **[Timeline](#starting-a-workflow-from-the-timeline)** rail of the Sites console.
 
 You can specify details:
 

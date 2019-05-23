@@ -48,15 +48,15 @@ You edit the **Heading (Campaign)** component directly. Leave empty to use the p
 
 You can configure the following:
 
-* **Title** 
+* **Title**
   If you want to use a name other than the page title, enter it here.
 
-* **Heading level (1, 2, 3, 4)** 
+* **Heading level (1, 2, 3, 4)**
   The heading level based on the HTML heading sizes 1-4.
 
 The following example shows a Heading (Campaign) component being displayed.
 
-![](assets/chlimage_1-107.png) 
+![](assets/chlimage_1-107.png)
 
 ### Image (Campaign) {#image-campaign}
 
@@ -79,7 +79,6 @@ After the image is uploaded (and not before) you can use [inplace editing](/help
 >[!NOTE]
 >
 >The in-place editor uses the original size and aspect ratio of the image when editing. You can also specify height and width properties. Any size and aspect ratio restrictions defined in the properties are applied when you save your edit changes.  
-
 >
 >Depending on your instance, minimum and maximum restrictions may also be imposed by the [design of the page](/help/sites-developing/designer.md); these are developed during project implementation.
 
@@ -254,7 +253,7 @@ In the inplace editor you can add text, change the justification, add and remove
 
 >[!NOTE]
 >
->Only the fields defined in the **nms:seedMember** schema or one of its extensions are taken into account. The attributes of the tables linked to **nms:seedMember **are not available.
+>Only the fields defined in the **nms:seedMember** schema or one of its extensions are taken into account. The attributes of the tables linked to **nms:seedMember** are not available.
 
 ## Adobe Campaign Form Components {#adobe-campaign-form-components}
 
@@ -262,7 +261,7 @@ You use Adobe Campaign components to create a form that users fill out to either
 
 Each component field can be linked to an Adobe Campaign database field. The available fields differ according to the type of data they contain as described in the section [Components and Data Type](#components-and-data-type). If you extend your recipient schema in Adobe Campaign, the new fields will be available in the components whose data types match.
 
-When you open a form that is configured to integrate with Adobe Campaign, you see the following components in the **Adobe Campaign **section:
+When you open a form that is configured to integrate with Adobe Campaign, you see the following components in the **Adobe Campaign** section:
 
 * Checkbox (Campaign)
 * Date Field (Campaign) and Date Field/HTML5 (Campaign)

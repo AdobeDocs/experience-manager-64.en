@@ -19,6 +19,6 @@ discoiquuid: fbd68b0c-6431-4bef-81ba-173839e77a11
 >
 >Adobe's recommendation is to leverage [Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
 
-Users can be asked to subscribe to **Email Service Provider's** mailing lists with the help of the** Form **component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
+Users can be asked to subscribe to **Email Service Provider's** mailing lists with the help of the **Form** component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 
-See [Managing Subscriptions in the classic user interface](/help/sites-classic-ui-authoring/classic-personalization-campaigns-email-subscriptions.md) for more detailed descriptions of how to manage your subscriptions. 
+See [Managing Subscriptions in the classic user interface](/help/sites-classic-ui-authoring/classic-personalization-campaigns-email-subscriptions.md) for more detailed descriptions of how to manage your subscriptions.

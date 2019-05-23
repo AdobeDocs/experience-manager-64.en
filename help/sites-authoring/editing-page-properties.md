@@ -234,7 +234,7 @@ You can define page properties:
 
 ### From the Sites Console - Single Page {#from-the-sites-console-single-page}
 
-Clicking or tapping** Properties** to define the page properties:
+Clicking or tapping **Properties** to define the page properties:
 
 1. Using the **Sites** console, navigate to the location of the page for which you want to view and edit properties.  
 
@@ -259,7 +259,7 @@ When editing a page you can use **Page Information** to define the page properti
 
    ![](assets/screen_shot_2018-03-22at095740.png)
 
-1. Select** Open Properties** and a dailog will open allowing you to edit the properties, sorted by the appropriate tab. The following buttons are also available at the right of the toolbar:
+1. Select **Open Properties** and a dailog will open allowing you to edit the properties, sorted by the appropriate tab. The following buttons are also available at the right of the toolbar:
 
     * **Cancel**
     * **Save & Close**
