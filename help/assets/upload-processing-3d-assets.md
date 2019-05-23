@@ -26,13 +26,16 @@ When uploading is complete, your 3D files are converted and additional processin
 * Generally, there are no restrictions on where you upload 3D content in the AEM Assets folder hierarchy. AEM 3D's automated file dependencies resolution, however, has range limitations to control the time it takes to search large asset repositories. Therefore, Adobe recommends that when you upload 3D assets and their file dependents, you do so within reasonable proximity to each file (common grandparent folder). After file dependencies are resolved, you can freely move both the 3D asset and its dependents anywhere within the repository without losing the established relationships.
 * Adobe recommends that you decide on a consistent folder structure for 3D content *before *you upload. The following tips are some suggested approaches that you can take:
 
-    * **Maintain a separate folder for each 3D asset you upload**.  
+    * **Maintain a separate folder for each 3D asset you upload**. 
+
       The folder contains both the primary 3D model file and all its dependents. While putting all assets and dependents into one folder is easy to implement, it is cumbersome to browse for content. It also complicates sharing dependents (texture maps) between models.
     
-    * **Keep models in one folder and dependents in a sibling or sub-folder**.  
+    * **Keep models in one folder and dependents in a sibling or sub-folder**. 
+
       This approach readily supports the sharing of dependents between models. However, it can become difficult to find specific dependents if the number of assets is large.
     
-    * **Separate, parallel folder hierarchies for models and dependents**.  
+    * **Separate, parallel folder hierarchies for models and dependents**. 
+    
       You can model this approach to how 3D authoring applications such as Autodesk Maya, prefer to store content.
 
 * Dependent assets should not be deleted unless the associated 3D asset or assets that referenced them are also removed. You can, however, freely delete 3D assets without the need to delete their dependent assets. If a dependency is lost accidentally, you can easily resolve the dependency to restore it.  

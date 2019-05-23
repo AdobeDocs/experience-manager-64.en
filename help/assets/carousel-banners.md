@@ -188,7 +188,7 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
 
    On the Carousel Banner Editor page, do either one of the following:
 
-    * Near the upper-left corner of the page, tap **[!UICONTROL Add Slide]** icon.  
+    * Near the upper-left corner of the page, tap **[!UICONTROL Add Slide]** icon.
     * Near the middle of the page, tap **[!UICONTROL Tap to open Asset Selector]**.
 
    Tap to select assets that you want to include in your Carousel Set. Selected assets have a checkmark icon over them. When you are finished, near the upper-right corner of the page, tap **[!UICONTROL Select]**.
@@ -201,7 +201,7 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
 1. (Optional) Do any of the following:
 
     * If necessary, drag slide's to re-order images in the the set list.
-    * To delete an image, select the image, then tap **[!UICONTROL Delete Slide]** on the toolbar.  
+    * To delete an image, select the image, then tap **[!UICONTROL Delete Slide]** on the toolbar.
     * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a preset to apply to the set at once.
 
    To delete a slide, tap the slide and tap **[!UICONTROL Delete Slide]** in the toolbar. To move a slide, tap the reoreder icon and hold and move to the desired location.
@@ -275,7 +275,7 @@ To add hotspots to an image banner:
 
             * See [Identifying hotspot variables](#identifying-hotspot-and-image-map-variables) as you may want to define these variables. 
             * Then, manually enter the SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the quick view template so that the system knows to associate the tapped hotspot with a particular SKU's quick view.
-            * (Optional) If there are other variables within the quick view that you need to use to further identify a product, tap **[!UICONTROL Add Generic Variable]**. In the text field, specify an additional variable. For example, category=Mens is an added variable.  
+            * (Optional) If there are other variables within the quick view that you need to use to further identify a product, tap **[!UICONTROL Add Generic Variable]**. In the text field, specify an additional variable. For example, category=Mens is an added variable.
             * See [Working with Selectors](working-with-selectors.md) for more information.
 
     * Tap **[!UICONTROL Hyperlink]**.
@@ -339,10 +339,10 @@ To edit a Carousel Set:
     * To add a slide, tap the **[!UICONTROL Add Slide]** icon then navigate to the asset you want to add to that slide and tap the checkmark.
     * To reorder slides, drag an slide to a new location (select the reorder icon to move items).
     * To add a hotspot or image map, tap the hotspot or image map icons and see [adding hotspots and image maps](#adding-hotspots-or-image-maps-to-an-image-banner).
-    * To edit the appearance or behavior of the carousel set, tap the [!UICONTROL Appearance] tab or [!UICONTROL Behavior] tab, then set the options you want.  
+    * To edit the appearance or behavior of the carousel set, tap the [!UICONTROL Appearance] tab or [!UICONTROL Behavior] tab, then set the options you want.
     * To edit hotspots or image maps, on the appropriate slide, select a hotspot or image map and make changes as necessary under the [!UICONTROL Actions] tab.
     * To delete an slide, select it, then tap **[!UICONTROL Delete Slide]** on the toolbar.
-    * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a viewer preset.  
+    * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a viewer preset.
     * To delete an entire Carousel Set, navigate to the Carousel Set, select it, then tap **[!UICONTROL Delete]**.
 
    >[!NOTE]

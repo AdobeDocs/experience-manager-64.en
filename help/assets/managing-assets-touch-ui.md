@@ -38,7 +38,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 1. In the Assets UI, navigate to the location where you want to add digital assets.
 1. To upload the assets, do one of the following:
 
-    * On the toolbar, tap the **Create [!UICONTROL]** icon. Then, on the menu, then tap **Files**. You can rename the file in the presented dialog if needed.  
+    * On the toolbar, tap the **[!UICONTROL Create]** icon. Then, on the menu, then tap **Files**. You can rename the file in the presented dialog if needed.
     * In a browser that supports HTML5, drag the assets directly on the Assets UI. The dialog to rename file is not displayed.
 
    ![](assets/create_menu.png)
@@ -695,7 +695,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. In the Move Assets wizard, do one of the following:
 
-    * Specify the name for the asset after it is moved. Then tap/click **Next** to proceed.  
+    * Specify the name for the asset after it is moved. Then tap/click **Next** to proceed. 
     * Tap/click **Cancel** to stop the process.
 
    >[!NOTE]
@@ -704,14 +704,14 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. In the **Select Destination** screen, do one of the following:
 
-    * Navigate to the new location for the assets, and then tap/click **Next** to proceed.  
+    * Navigate to the new location for the assets, and then tap/click **Next** to proceed. 
     * Tap/click **Back** to return to the **Rename** screen.
 
 1. If the assets being moved have any referencing pages, assets, or collections, the **Adjust References** tab appears beside the **Select Destination** tab.
 
    Do one of the following in the **Adjust References** screen:
 
-    * Specify the references to be adjusted based on the new details, and then tap/click **Move** to proceed.  
+    * Specify the references to be adjusted based on the new details, and then tap/click **Move** to proceed. 
     * From the **Adjust** column, select/unselect references to the assets. 
     * Tap/click **Back** to return to the **Select Destination** screen.
     * Tap/click **Cancel** to stop the move operation.

@@ -120,8 +120,7 @@ This section describes how to create Spin Sets in AEM.
 
 1. Do either one of the following:
 
-    * Near the upper-left corner of the Spin Set Editor page, tap **Add Asset**.  
-    
+    * Near the upper-left corner of the Spin Set Editor page, tap **Add Asset**. 
     * Near the middle of the Spin Set Editor page, tap **Tap to open Asset Selector**.
 
    Tap to select assets that you want to include in your Spin Set. Selected assets have a checkmark icon over them. When you are finished, near the upper-right corner of the page, tap **Select**.
@@ -138,8 +137,7 @@ This section describes how to create Spin Sets in AEM.
 
 1. (Optional) Do any of the following:
 
-    * To delete an image, select the image, then tap **Delete Asset**.  
-    
+    * To delete an image, select the image, then tap **Delete Asset**. 
     * To apply a preset, near the upper-right corner of the page, tap **Preset**, then select a preset to apply to all the assets at once.
 
 1. Tap **Save**. Your newly created Spin Set appears in the folder in which you created it.
@@ -184,15 +182,13 @@ You can perform a variety of editing tasks on Spin Sets such as the following:
 
     * Hover over a Spin Set asset, then tap **Edit** (pencil icon).
     * Hover over a Spin Set asset, tap **Select** (checkmark icon), then tap **Edit** on the toolbar.
-    
     * Tap on a Spin Set asset, then tap **Edit** (pencil icon) on the toolbar.
 
 1. To edit the Spin Set, do any of the following:
 
     * To reorder images, drag an image to a new location (select the reorder icon to move items).
-    * To sort items in ascending or descending order, click the column heading.  
+    * To sort items in ascending or descending order, click the column heading. 
     * To add an asset or update an existing asset, click **Add Asset**. Navigate to an asset, select it, then tap **Select** near the upper-right corner. **Note**: If you delete the image that AEM uses for the thumbnail by replacing it with another image, the original asset still displays. 
-    
     * To delete an asset, select it and click or tap **Delete Asset**.
     * To apply a preset, tap or click the Preset icon and select a preset.
     * To delete an entire Spin Set, navigate to the Spin Set, select it, and select **Delete**

@@ -66,7 +66,7 @@ Interactive video steps:
 
    *Note that this step is only required if all the following are true*:  
 
-   * You want to add interactivity to your video by triggering to quickviews.  
+   * You want to add interactivity to your video by triggering to quickviews.
    * Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
 
 1. **(Optional) Creating an Interactive Video viewer preset** - Customize the appearance and behavior of various components that make up the player such as the video scrubber and the interactive thumbnails.  
@@ -278,7 +278,7 @@ To add interactivity to your video:
 1. In the Assets view, navigate to the video that you uploaded and want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**.  
+    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**. 
     * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
     * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
 

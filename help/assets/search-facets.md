@@ -37,16 +37,13 @@ For full-text searches, add the Fulltext predicate to the form. Use the Property
 
    >[!NOTE]
    >
-   >To use the folder search functionality from the preconfigured **Assets Admin Search Rail** from an earlier AEM version, perform these steps:
-   >
+   >To use the folder search functionality from the pre-configured **Assets Admin Search Rail** from an earlier AEM version, perform these steps:
    >    
-   >    
-   >    1. Navigate to */conf/global/settings/dam/search/facets/assets/jcr:content/items* in CRX-DE.
-   >    1. Delete the **type** node.
-   >    1. From the path */libs/settings/dam/search/facets/assets/jcr:content/items*, copy the nodes **asset, directory, typeor, excludepaths**, and** searchtype** to the path mentioned on step 1.
-   >    
-   >    1. Save the changes.
-   >    
+   >1. Navigate to */conf/global/settings/dam/search/facets/assets/jcr:content/items* in CRX-DE.
+   >1. Delete the **type** node.
+   >1. From the path */libs/settings/dam/search/facets/assets/jcr:content/items*, copy the nodes **asset, directory, typeor, excludepaths**, and **searchtype** to the path mentioned on step 1.
+   >1. Save the changes.
+
 1. In the Edit Search Forms page, drag a predicate from the **[!UICONTROL Select Predicate]** tab to the main pane. For example, drag **[!UICONTROL Property Predicate]**.
 
    ![Drag-and-drop a predicate to customize the search filters](assets/drag_predicate.png)

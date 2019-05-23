@@ -131,24 +131,18 @@ To edit a Mixed Media Set:
 
     * Hover over a Mixed Media Set asset, then tap **Edit** (pencil icon).
     * Hover over a Mixed Media Set asset, tap **Select** (checkmark icon), then tap **Edit** on the toolbar.
-    
     * Tap on a Mixed Media Set asset, then tap **Edit** (pencil icon) on the toolbar.
 
 1. In the Mixed Media Set Editor, do any of the following:
 
     * To reorder assets - In the left panel, tap **Assets** (picture icon), drag an asset to a new location.
-    * To add assets - On the toolbar, tap **Add Asset**. Navigate to the assets. For each asset that you want to add, hover over the asset's image (not the asset's name), then tap the checkmark icon. In the upper-right corner, tap **Select**.   
-    
-    * To delete an asset - In the left panel, tap **Assets **(picture icon), then select the asset. On the toolbar bar tap **Delete Asset**.
-    
+    * To add assets - On the toolbar, tap **Add Asset**. Navigate to the assets. For each asset that you want to add, hover over the asset's image (not the asset's name), then tap the checkmark icon. In the upper-right corner, tap **Select**. 
+    * To delete an asset - In the left panel, tap **Assets** (picture icon), then select the asset. On the toolbar bar tap **Delete Asset**.
     * To sort assets by their name in ascending or descending order, in the left panel, tap **Assets** (picture icon). To the right of the **Assets** heading, tap the up or down caret icons.
 
    >[!NOTE]
    >
-   >    
-   >    
-   >* To delete an entire Mixed Media Set, from any viewing mode (such as Card view or Column view) navigate to the Mixed Media Set. Hover over the asset and tap the checkmark icon to select it. Press **Backspace** on the keyboard, or click **More **(three dots) on the toolbar, then tap **Delete**.
-   >    
+   >* To delete an entire Mixed Media Set, from any viewing mode (such as Card view or Column view) navigate to the Mixed Media Set. Hover over the asset and tap the checkmark icon to select it. Press **Backspace** on the keyboard, or click **More** (three dots) on the toolbar, then tap **Delete**. 
    >* You can edit the assets in a Mixed Media Set by navigating to the set, clicking **Set Members** in the left rail, and then clicking or tapping the Pencil icon on an individual asset to open the editing window.
    >    
 1. Tap **Save** when you are done editing.
@@ -156,7 +150,6 @@ To edit a Mixed Media Set:
 >[!NOTE]
 >
 >* To edit the assets in a Mixed Media Set - Navigate to the Mixed Media Set. Tap (do not select) the set to open it in the AEM Set Preview page. In the left rail, click the down caret to open the drop-down list, then tap **Set Members**. In the Set Members page, hover on an asset, then tap **Edit** (pencil icon) to open the editing page.
->
 >* To delete an entire Mixed Media Set - From any viewing mode (such as Card view or Column view), navigate to the Mixed Media Set. Hover on the set, then tap **Select** (checkmark icon). Press **Backspace** on your keyboard, or tap **More** (row of three dots), then tap **Delete**.
 >
 

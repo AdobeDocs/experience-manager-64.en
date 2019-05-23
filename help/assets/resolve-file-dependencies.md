@@ -43,6 +43,7 @@ To resolve file dependencies:
    After the files are uploaded return to View Properties &gt; Dependencies page. The newly uploaded asset are now properly listed as referenced assets.
 
     * **Ignore the dependencies**.  
+    
       If a missing dependency is no longer needed, under the Referenced Asset column, in the text field to the left of the missing file, type `n/a` so that AEM 3D ignores the file.
 
 1. Near the upper-right corner of the View Properties page, tap **Save**.

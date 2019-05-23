@@ -82,7 +82,6 @@ To quickly setup a slinglog file:
 1. select **Add new logger**
 
     1. select `DEBUG`for **Log Level**
-    
     1. enter a name for **Log File**, for example
 
         * logs/scoring-debug.log
@@ -107,7 +106,6 @@ To see log entries
 * on the server's local disk
 
     * the log file is at &lt;*server-install-dir*&gt;/crx-quickstart/logs/&lt;*log-file-name*&gt;.log
-    
     * for example, `.../crx-quickstart/logs/scoring-debug.log`
 
 ![](assets/chlimage_1-249.png) 

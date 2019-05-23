@@ -136,11 +136,13 @@ Under the **Resource Types **tab, specify the custom resourceType for new instan
 ![](assets/chlimage_1-429.png)
 
 * **Comment Resource Type** 
-  Navigate to the resourceType of an extended `comment`component (single comment) in /apps. For example, `/apps/social/commons/components/hbs/comments/comment`  
+  Navigate to the resourceType of an extended `comment`component (single comment) in /apps. For example, `/apps/social/commons/components/hbs/comments/comment`
+
   This resource will identify the resourceType of the UGC created when a visitor posts a comment.
 
 * **Voting Resource Type** 
-  Navigate to the resourceType of an extended `voting`component in /apps. For example, `/apps/social/components/hbs/voting`  
+  Navigate to the resourceType of an extended `voting`component in /apps. For example, `/apps/social/components/hbs/voting`
+  
   This resource will identify the resource type of the UGC created when a visitor posts a vote.
 
 * **Comment System Resource Type** 

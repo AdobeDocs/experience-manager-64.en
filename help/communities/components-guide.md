@@ -36,10 +36,12 @@ Interactions with the Communities components will vary depending on:
 
 On author, to enter edit mode, insert either * `editor.html`* or * `cf#`* as the first path segment after the server name:
 
-* Standard UI:  
+* Standard UI:
+
   [https://&lt;server&gt;:&lt;port&gt;/editor.html/content/community-components/en.html](http://localhost:4502/editor.html/content/community-components/en.html)
 
-* Classic UI:  
+* Classic UI:
+
   [https://&lt;server&gt;:&lt;port&gt;/cf#/content/community-components/en.html](http://localhost:4502/cf#/content/community-components/en.html)
 
 >[!NOTE]
@@ -142,20 +144,23 @@ To quickly experiment with customizations, the `scg:showIde`property must be add
 
 Using the comments component as an example, on either the author or publish instance, signed in with administrator privileges:
 
-1. browse to [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md)  
+1. browse to [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md)
+
    for example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
 
-1. select the component's `jcr:content` node  
+1. select the component's `jcr:content` node 
+   
    for example, `/content/community-components/en/comments/jcr:content`
 
 1. add a property
 
-    * **Name **scg:showIde
-    * **Type **String
-    * **Value **true
+    * **Name** scg:showIde
+    * **Type** String
+    * **Value** true
 
 1. select **Save All**
-1. reload the Comments page in the guide  
+1. reload the Comments page in the guide 
+   
    [http://localhost:4503/content/community-components/en/comments.html](http://localhost:4503/content/community-components/en/comments.html)
 
 1. notice there are now 3 tabs for Templates, CSS, and Data.

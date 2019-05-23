@@ -30,7 +30,9 @@ This servlet creates a sling job from the posted parameters. This is then added 
 ### Supported Operations {#supported-operations}
 
 * `job`  
-  **Requirements**: the parameter `jobevent` must be set as a serialized value map. This is used to create an `Event` for a job processor.  
+
+  **Requirements**: the parameter `jobevent` must be set as a serialized value map. This is used to create an `Event` for a job processor. 
+
   **Result**: Adds a new job. If successful, a unique job id is returned.
 
 ```shell
@@ -38,8 +40,10 @@ curl -u admin:admin -F":operation=job" -F"someproperty=xxxxxxxxxxxx"
     -F"jobevent=serialized value map" http://localhost:4502/libs/dam/cloud/proxy
 ```
 
-* `result`  
+* `result` 
+
   **Requirements**: the parameter `jobid` must be set.  
+
   **Result**: Returns a JSON representation of the result Node as created by the job processor.
 
 ```shell
@@ -48,6 +52,7 @@ curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx"
 ```
 
 * `resource`  
+
   **Requirements**: the parameter jobid must be set.  
   **Result**: Returns a resource associated with the given job.
 
@@ -57,6 +62,7 @@ curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx"
 ```
 
 * `remove`  
+
   **Requirements**: the parameter jobid must be set.  
   **Results**: Removes a job if found.
 

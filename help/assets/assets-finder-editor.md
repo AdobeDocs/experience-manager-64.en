@@ -430,7 +430,7 @@ To multi-edit assets with the Asset Editor page:
 
 1. Select the assets:
 
-    * on Windows: `Ctrl + click` each asset.  
+    * on Windows: `Ctrl + click` each asset.
     * on Mac: `Cmd + click` each asset.
 
    To select a range of assets: click the first asset then `Shift + click` the last asset.  
@@ -451,7 +451,7 @@ To multi-edit assets with the Asset Editor page:
 
    You can:
 
-    * Click the **x** icon to remove the tag for all the assets.  
+    * Click the **x** icon to remove the tag for all the assets.
     * Click the **+** icon to add the tag to all the assets.
     * Click the **arrow** and select a tag to add a new tag to all the assets.
 
