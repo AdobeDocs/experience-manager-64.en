@@ -58,7 +58,9 @@ The method of creating a content fragment is (basically) the same for both simpl
 
         * **Title**
 
-          The fragment title. Mandatory.  
+          The fragment title. 
+
+          Mandatory.  
         
         * **Description**
         * **Tags**
@@ -67,7 +69,9 @@ The method of creating a content fragment is (basically) the same for both simpl
 
         * **Name**
 
-          The name; will be used to form the URL. Mandatory; will be automatically derived from the title, but can be updated.
+          The name; will be used to form the URL. 
+
+          Mandatory; will be automatically derived from the title, but can be updated.
 
 1. Select **Create** to complete the action, then either **Open** the fragment for editing or return to the console with **Done**.
 
@@ -84,17 +88,17 @@ Select the fragment to reveal the toolbar with applicable actions:
 
 * **Download**
 
-  Save the fragment as a ZIP file; you can define whether to include Elements, Variations, Metadata.
+  * Save the fragment as a ZIP file; you can define whether to include Elements, Variations, Metadata.
 
 * **Create**
 * **Checkout**
 * **Properties**
 
-  Allows you to view and/or edit the fragment's metadata.
+  * Allows you to view and/or edit the fragment's metadata.
 
 * **Edit**
 
-  Allows you to [open the fragment for editing content](content-fragments-variations.md) together with its elements, variations, associated content and metadata.
+  * Allows you to [open the fragment for editing content](content-fragments-variations.md) together with its elements, variations, associated content and metadata.
 
 * **Manage Tags**
 * **To Collection**
@@ -185,7 +189,7 @@ The editor has two options:
 
 While editing your content fragment AEM automatically creates versions to ensure that prior content can be restored if you **Cancel** your changes:
 
-1. When a content fragment is opened for editing AEM checks for the existence of the cookie-based token that indicates whether an *editing session *exists:
+1. When a content fragment is opened for editing AEM checks for the existence of the cookie-based token that indicates whether an *editing session* exists:
 
     1. If the token is found, the fragment is considered to be part of the existing editing session.
     1. If the token is *not* available and the user starts editing content, a version is created and a token for this new editing session is sent to the client, where it is saved in a cookie.
