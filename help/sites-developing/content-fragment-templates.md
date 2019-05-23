@@ -32,9 +32,11 @@ The out-of-the-box templates are held under:
 You can create your site-specific templates for content fragments under:
 
 * `/apps/settings/dam/cfm/templates`  
+
   The location for overlaying out-of-the-box templates or providing customer-specific, application-wide templates that are not intended to be extended/changed at runtime.
 
 * `/conf/global/settings/dam/cfm/templates`  
+
   The location for instance-wide customer-specific templates that need to be changed at runtime.
 
 The order of precedence is (in descending order) `/conf`, `/apps`, `/libs`.

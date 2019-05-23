@@ -57,7 +57,7 @@ The permissions needed to edit/update a fragment need to be applied to either th
 
 For example, a folder that will hold all content fragments, such as:
 
-`/content/dam/contentfragments`
+* `/content/dam/contentfragments`
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ The permissions prerequisite to allowing a specific user and/or group to edit/up
 
     * `jcr:addChildNodes`, `jcr:modifyProperties`
 
-* For the `jcr:content`node of all Content Fragments: ``
+* For the `jcr:content` node of all Content Fragments: 
 
     * `jcr:addChildNodes`, `jcr:modifyProperties` and `jcr:removeChildNodes`
 
