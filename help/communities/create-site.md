@@ -191,11 +191,13 @@ From left to right they are:
   select the world icon to publish the community site (for example if your publish server is running on your local machine, then to localhost:4503 by default)  
 
 * **Export Site** 
-  select the export icon to create a package of the community site that is both stored in [package manager](/help/sites-administering/package-manager.md) and downloaded.  
+  select the export icon to create a package of the community site that is both stored in [package manager](/help/sites-administering/package-manager.md) and downloaded.
+
   Note that UGC is not included in the site package.
 
-* **Delete Site  
-  **select the delete icon to delete the community site from within Communities &gt; Sites console. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
+* **Delete Site**  
+  
+  select the delete icon to delete the community site from within Communities &gt; Sites console. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
 
 ![](assets/siteactions-1.png)
 
@@ -212,7 +214,7 @@ From left to right they are:
 >1. in pop up dialog for Agent Settings, select Transport tab
 >1. in URI, change the port number, 4503, to the desired port number 
 >
->   for example, to use port 6103: `http://localhost:6103/bin/receive?sling:authRequestLogin=1`
+>for example, to use port 6103: `http://localhost:6103/bin/receive?sling:authRequestLogin=1`
 >
 >1. select "OK"
 >1. (optional) select 'Clear' or 'Force Retry' to reset the replication queue
@@ -277,7 +279,8 @@ To get started
 
     * select **Create Node**
 
-        * **Name** localhost.4503  
+        * **Name** localhost.4503
+          
           (do *not* use ':')
         
         * **Type** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
@@ -289,6 +292,7 @@ To get started
         * **Name** sling:match
         * **Type** String
         * **Value** localhost.4503/\$  
+
           (must end with '$' char)
 
     * add property

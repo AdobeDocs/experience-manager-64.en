@@ -69,7 +69,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
   (*Required*) The page to open when a member clicks on the **`Reply`**button. The target page should contain the **Compose Message** form.
 
 * **Reply/View as Resource** 
-  If checked, the Reply URL and View URL will reference a resource, else data is passed as query parameters in the URL .
+  If checked, the Reply URL and View URL will reference a resource, else data is passed as query parameters in the URL.
 
 * **Profile Display Form** 
   The profile form to use to display the senders profile.

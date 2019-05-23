@@ -55,8 +55,8 @@ Interactive Images steps:
 
 1. **Adding hotspots to an image banner** - Add one or more hotspots to an image banner and associate each one with an action such as a hyperlink, a Quickview, or an Experience Fragment. After you add hotspots, you will finish this task by publishing the interactive image.  
 
-   * See [Adding hotspots to an image banner](#adding-hotspots-to-an-image-banner).  
-   * See [Previewing interactive images](#optional-previewing-interactive-images) - Optional. If desired, you can view a representation of your shoppable banner and test its interactivity.  
+   * See [Adding hotspots to an image banner](#adding-hotspots-to-an-image-banner).
+   * See [Previewing interactive images](#optional-previewing-interactive-images) - Optional. If desired, you can view a representation of your shoppable banner and test its interactivity.
    * See [Publishing Assets](publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.  
 
 1. **Adding an interactive image to your website or to your website in AEM**
@@ -262,7 +262,7 @@ See [(Optional) Previewing interactive images](#optional-previewing-interactive-
 1. In the Assets view, navigate to the image banner that you want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**.  
+    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**. 
     * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
     * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
 

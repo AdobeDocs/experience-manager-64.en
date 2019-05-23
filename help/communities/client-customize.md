@@ -56,6 +56,7 @@ The value of the `data-scf-component` attribute may be the default, such as **`s
 To bind a component, the entire component script must be enclosed within a &lt;div&gt; element with the following attributes:
 
 * `data-component-id`="{{id}}"  
+
   resolves to the id property from the context
 
 * `data-scf-component`="*&lt;resourceType&gt;*
@@ -148,25 +149,10 @@ The use of [client-side libraries](/help/sites-developing/clientlibs.md) (client
 
 The clientlibs for SCF follow a very specific naming pattern for two variants, which vary only by the presence of 'author' in the category name:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> </td> 
-   <td><strong>Clientlib Variant</strong></td> 
-   <td><strong>Pattern for Categories Property</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td>complete clientlib</td> 
-   <td>cq.social.hbs.&amp;lt;component name&amp;gt;</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td>author clientlib</td> 
-   <td>cq.social.<strong>author</strong>.hbs.&amp;lt;component name&amp;gt;</td> 
-  </tr> 
- </tbody> 
-</table>
+|Clientlib Variant|Pattern for Categories Property|
+|--- |--- |
+|complete clientlib|cq.social.hbs.&lt;component name&gt;|
+|author clientlib|cq.social.author.hbs.&lt;component name&gt;|
 
 ### Complete Clientlibs {#complete-clientlibs}
 

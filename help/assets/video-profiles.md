@@ -17,16 +17,20 @@ Dynamic Media already comes with a predefined Adaptive Video Encoding profile. T
 
 The following are other factors that determine the quality of your videos:
 
-* **Resolution of the uploaded master video  
-  **If the MP4 video was recorded at a lower resolution, such as 240p or 360p, it cannot be streamed in high definition.
-* **Video player size  
-  **By default, the "Width" in the Adaptive Video Encoding profile is set to “Auto.” Again, during playback, the best quaility is used based on the size of the player.
+* **Resolution of the uploaded master video**
+  
+  If the MP4 video was recorded at a lower resolution, such as 240p or 360p, it cannot be streamed in high definition.
+* **Video player size**  
+  
+  By default, the "Width" in the Adaptive Video Encoding profile is set to “Auto.” Again, during playback, the best quaility is used based on the size of the player.
 
 See also [Best Practices for Video Encoding](video.md#best-practices-for-encoding-videos).
 
 >[!NOTE]
 >
->To generate a video's metadata and associated video image thumbnails, the video itself needs to go through the encoding process in Dynamic Media. In AEM, the **Dynamic Media Encode Video** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. See [Monitoring video encoding and YouTube publishing progress](video.md#monitoring-video-encoding-and-youtube-publishing-progress). If you have enabled dynamic media and set up video cloud services, the **Dynamic Media Encode Video** workflow automatically takes effect when you upload a video. (If you are not using dynamic media, the **DAM Update Asset** workflow takes effect.)
+>To generate a video's metadata and associated video image thumbnails, the video itself needs to go through the encoding process in Dynamic Media. In AEM, the **Dynamic Media Encode Video** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. 
+>
+>See [Monitoring video encoding and YouTube publishing progress](video.md#monitoring-video-encoding-and-youtube-publishing-progress). If you have enabled dynamic media and set up video cloud services, the **Dynamic Media Encode Video** workflow automatically takes effect when you upload a video. (If you are not using dynamic media, the **DAM Update Asset** workflow takes effect.)
 >
 >Metadata is useful when you are searching for assets. The thumbnails are static video images that are generated during encoding. They are required by the AEM system and used in the user interface to help you visually identify videos in the Cards view, Search Results view, and the Asset List view. You can see the generated thumbnails when you tap the Renditions icon (a painter's palette) of an encoded video.
 
@@ -121,7 +125,9 @@ When you are done creating the video profile, you apply it to a folder or multip
 1. Ensure that **Encode for adaptive streaming** is checked (default).
 1. Tap **Add Video Encoding Preset**.
 1. On the **Basic** tab, set the video and audio options.  
+
    Tap the information icon next to each option for additional descriptions or recommended settings based on the selected video format codec.
+
 1. Under the Video Size heading, ensure that **Keep aspect ratio** is checked.
 1. Set the video frame size resolution in pixels. Use the **Auto** value to automatically scale to match the source aspect ratio (width to height ratio). For example, Auto x 480 or 640 x Auto.
 
@@ -168,15 +174,18 @@ When you are done creating the video profile, you apply it to a folder or multip
 1. Enter a name and description for the profile.
 1. Clear the **Encode for adaptive streaming **check box.
 1. Tap **Add Video Encoding Preset**.
-1. On the **Basic** tab, set the video and audio options.  
+1. On the **Basic** tab, set the video and audio options. 
+
    Tap the information icon next to each option for additional descriptions or recommended settings based on the selected video format codec.
+
 1. (Optional) Under the Video Size heading, uncheck **Keep aspect ratio**.
 1. In the **Width** field, enter **auto**; to the right of the **Height** field, tap the information icon. Use the **Size Calculator** page to further set the video dimension (blue box) how you want. Tap **X** when you are done.
 1. (Optional) Do one of the following:
 
     * Tap the **Advanced** tab, and make sure the **Use Default Values** check box is selected (recommended).
     
-    * Clear the **Use Default Values** check box and specify the video settings and audio settings you want.  
+    * Clear the **Use Default Values** check box and specify the video settings and audio settings you want.
+    
       Tap the information icon next to each option for additional descriptions or recommended settings based on the selected video format codec.
 
 1. In the upper-right corner of the page, tap **Save** to save the preset.

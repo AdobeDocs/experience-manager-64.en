@@ -23,8 +23,10 @@ See also [Managing Viewer Presets](managing-viewer-presets.md).
 
 For an uploaded asset to qualify as a spherical panorama image that you intend to use with the Panoramic Image viewer, the asset must have either one or both of the following:
 
-* An aspect ratio of 2.  
+* An aspect ratio of 2.
+
   You can override the default aspect ratio setting of 2 in CRXDE Lite at the following:  
+
   `/conf/global/settings/cloudconfigs/dmscene7/jcr:content`
 
 * Tagged with the keywords `equirectangular`, or `spherical`and `panorama`, or `spherical` and `panoramic`. See [Using Tags](/help/sites-authoring/tags.md).

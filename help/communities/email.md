@@ -63,9 +63,11 @@ Once the [default mail service](#default-mail-service-configuration) is configur
 Only the instance for subscriptions needs to be further configured when allowing reply by email.
 
 1. ` [email](#configuration-for-notifications)` instance  
+
    for notifications, which does not support reply email, and should not be altered
 
 1. ` [subscriptions-email](#configuration-for-subscriptions)` instance  
+   
    requires configuration to fully enable creating post from reply email
 
 To reach the Communities email configuration instances:
@@ -138,16 +140,16 @@ In order for the email to be brought into the repository, it is necessary to con
 
 ![](assets/chlimage_1-102.png)
 
-* **Type **: *(required)* Pull down to select `POP3 (over SSL).`
+* **Type**: *(required)* Pull down to select `POP3 (over SSL).`
 
-* **URL **: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-emailgmail.com&password=****`
+* **URL**: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-emailgmail.com&password=****`
 
-* **Import to Path&ast;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails`  
+* **Import to Path&ast;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails` 
   by browsing to the `postEmails`folder and select **OK**
 
-* **Update Interval in Seconds**: *(optional) *The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.
+* **Update Interval in Seconds**: *(optional)* The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.
 
-* **Login **: *(optional)* 
+* **Login**: *(optional)* 
 
 * **Password**: *(optional)*
 
@@ -165,8 +167,7 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 * select the newly created configuration
 * modify the following properties
 
-    * **feedType **: replace `pop3s` with **`emailreply`**
-    
+    * **feedType**: replace `pop3s` with **`emailreply`**
     * **source**: replace source's protocol `pop3s://` with **`emailreply://`**
 
 ![](assets/chlimage_1-103.png)

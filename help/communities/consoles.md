@@ -47,18 +47,23 @@ To access the various Communities consoles, from global navigation select **navi
 ![](assets/chlimage_1-92.png)
 
 * [Sites](/help/communities/sites-console.md)  
+  
   The Sites console is accessible in the author environment for the purpose of creating and managing community sites and its [groups](/help/communities/groups.md).
 
 * [Moderation](/help/communities/moderation.md)  
+  
   The Moderation console is for bulk moderation of UGC and in the author environment. A similar bulk moderation console is accessible in the publish environment to community members assigned the role of [community moderator](/help/communities/users.md#publishenvironmentusersandgroups) for one or more community sites.
 
 * [Members, Groups](/help/communities/members.md)  
+  
   The Members and Groups consoles are for managing community members and member groups that exist in the publish environment from the author environment.
 
 * [Reports](/help/communities/reports.md)  
+  
   The Reports console is where reports on assignments, page views, and posted content (UGC) may be generated when a community site has [enabled Adobe Analytics](/help/communities/sites-console.md#analytics). The console is only available in the author environment.
 
 * [Resources](/help/communities/resources.md)  
+  
   The Resources console is where [enablement managers](/help/communities/enablement.md#communitymanagers) create, manage and assign resources to members of an [enablement community site](/help/communities/overview.md#enablement-community). The console is only available in the author environment.
 
 ## Tools Console {#tools-console}

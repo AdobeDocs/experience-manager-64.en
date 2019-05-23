@@ -16,16 +16,19 @@ discoiquuid: abcff903-204b-4ab6-87d8-6f0ce63d7b41
 You can deploy rule sets in Dynamic Media to transform URLs. Rule sets are sets of instructions written in a scripting language (such as JavaScript) that evaluate XML data and take certain actions if that data meets certain conditions. Each rule consists of at least one condition and at least one action. A rule evaluates the XML data against the conditions, and if a condition is met, then it takes the appropriate action. Examples of rule sets include the following:
 
 * Adding a MIME type suffix. Many services and websites require image suffixes, such as adding ".jpg" to a URL.
-* Creating a folder path to the URL for SEO (Search Engine Optimization) purposes.  
+* Creating a folder path to the URL for SEO (Search Engine Optimization) purposes. 
+
   See [How Adobe Scene7 Publishing System Supports SEO](https://marketing.adobe.com/resources/help/en_US/s7/s7_seo.pdf).  
 
-* Adding metadata to the URL for SEO (Search Engine Optimization) purposes.  
+* Adding metadata to the URL for SEO (Search Engine Optimization) purposes. 
+
   See [How Adobe Scene7 Publishing System Supports SEO](https://marketing.adobe.com/resources/help/en_US/s7/s7_seo.pdf).  
 
 * Setting the content disposition to trigger a download.
 * Simplify Image Serving templating URLs for personalization. For example, turn `rgb{XX,YY,ZZ}` into the RTF-ready `\redXX\greenYY\blueZZ`
 
 * Request certain characters to be encoded such as `$`, `{`, and `}`, and certain characters to be decoded toward ImageServer. For example, Facebook does not work well with URLs containing special characters.  
+
   See [Removing special characters from URLs](https://helpx.adobe.com/experience-manager/scene7/kb/base/scene7-rulesets/remove-special-characters-urls.html).
 
 In the context of Dynamic Media, websites that use an XML-based system to manage asset information can upload XML files to Dynamic Media. You can designate one of these files as the pre-processing rule set file for serving Dynamic Media asset. This file restructures the standard URL protocol format to meet the business logic of systems being integrated with Dynamic Media. You specify an XML file to serve as the rule set definitions file path.
