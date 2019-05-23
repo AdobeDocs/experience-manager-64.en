@@ -48,15 +48,15 @@ Adobe Experience Manager (AEM) content fragments are [created and managed as pag
 
 The **Content Fragment** component is used to hold a reference to a content fragment asset (effectively enhanced text assets). The resource type for the content fragment is:
 
-`dam/cfm/components/contentfragment/contentfragment`
+* `dam/cfm/components/contentfragment/contentfragment`
 
 The reference is defined in the property:
 
-`fileReference`
+* `fileReference`
 
 Only the editor of the touch-enabled UI fully supports content fragment components, which includes the client library:
 
-`cq.authoring.editor.plugin.cfm`
+* `cq.authoring.editor.plugin.cfm`
 
 This library adds features, specific to content fragments, to the editor. For example, support for the ability to add and configure content fragments on the page, ability to search for content fragment assets in the asset browser, and for associated content in the side panel are available.
 
@@ -64,7 +64,7 @@ This library adds features, specific to content fragments, to the editor. For ex
 
 The **Content Fragmen**t component allows you to drop additional components in-between the different paragraphs of the displayed [element](/help/assets/content-fragments.md#constituent-parts-of-a-content-fragment). Basically, the element displayed is composed of different paragraphs (each paragraph is marked by a carriage return). Between each of those paragraphs, you can insert content using other components.
 
-From a technical viewpoint, each paragraph of the displayed element* *lives in its own parsys, and each component that you add in-between the paragraphs will be (under the hood) inserted into the parsys.
+From a technical viewpoint, each paragraph of the displayed element lives in its own parsys, and each component that you add in-between the paragraphs will be (under the hood) inserted into the parsys.
 
 In other words, if the instance of the content fragment component is composed of three paragraphs, then the component will have three different parsys in the repository. All of the in-between content that is added to the content fragment will actually be located inside these parsys.
 

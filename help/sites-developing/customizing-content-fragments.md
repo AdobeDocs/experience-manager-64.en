@@ -77,15 +77,19 @@ Content fragments with structured content (i.e. based on a content fragment mode
 * All content is stored under the `jcr:content/data` node of the asset:
 
   * The element data is stored under the master sub-node:  
+
     `jcr:content/data/master`
 
   * Variations are stored under a sub-node that carries the name of the variation:  
+
     e.g. `jcr:content/data/myvariation`
 
   * The data of each element is stored in the respective sub-node as a property with the element name:  
+
     e.g. the content of element `text` is stored as property `text` on `jcr:content/data/master`
 
 * Metadata and associated content is stored below `jcr:content/metadata`  
+
   Except for the title and description, which are not considered traditional metadata and stored on `jcr:content`
 
 ### Mapping Simple Content Fragments to Assets {#mapping-simple-content-fragments-to-assets}
@@ -108,7 +112,7 @@ Simple content fragments (based on a template) are mapped to a composite consist
 
 As with standard assets, a content fragment is held under:
 
-`/content/dam`
+* `/content/dam`
 
 ### Asset Permissions {#asset-permissions}
 
@@ -157,9 +161,11 @@ The backend implementation of content fragments is, for example, responsible for
 The parameters for this can be configured in the [Web Console](/help/sites-deploying/configuring-osgi.md#osgi-configuration-with-the-web-console), for the OSGi bundle **DAM Content Fragments Configuration**.
 
 * **Resource types** 
+
   A list of `sling:resourceTypes` can be provided to define components that are used for rendering content fragments and where the background processing should be applied to.
 
 * **Reference Properties** 
+
   A list of properties can be configured to specify where the reference to the fragment is stored for the respective component.
 
 >[!NOTE]
@@ -198,15 +204,22 @@ Content fragments can be integrated with:
   * The individual translations of a content fragment are actually separate fragments; for example:
 
     * they are located under different language roots:  
-          `/content/dam/<*path*/en/<*to*>/<*fragment*>`  
-          vs.  
-          `/content/dam/<*path*>/de/<*to*>/<*fragment*>`
-      * but they share exactly the same relative path below the language root:  
-          `/content/dam/<*path*>/en/<*to*>/<*fragment*>`  
-          vs.  
-          `/content/dam/<*path*>/de/<*to*>/<*fragment*>`
 
-    * Besides the rule-based paths, there is no further connection between the different language versions of a content fragment; they are handled as two separate fragments, although the UI provides the means to navigate between the language variants.
+        `/content/dam/<*path*/en/<*to*>/<*fragment*>`  
+
+        vs.  
+
+        `/content/dam/<*path*>/de/<*to*>/<*fragment*>`
+
+    * but they share exactly the same relative path below the language root:  
+
+        `/content/dam/<*path*>/en/<*to*>/<*fragment*>`  
+
+        vs.  
+
+        `/content/dam/<*path*>/de/<*to*>/<*fragment*>`
+
+  * Besides the rule-based paths, there is no further connection between the different language versions of a content fragment; they are handled as two separate fragments, although the UI provides the means to navigate between the language variants.
 
   >[!NOTE]
   >
@@ -220,16 +233,18 @@ Content fragments can be integrated with:
 * **Metadata schemas**
 
   * Content fragments (re)use the [metadata schemas](/help/assets/metadata-schemas.md), that can be defined with standard assets.
-    * CFM provides its own, specific schema:  
-      `/libs/dam/content/schemaeditors/forms/contentfragment`  
-      this can be extended if required.
-    * The respective schema form is integrated with the fragment editor.
+* CFM provides its own, specific schema:  
+  
+  `/libs/dam/content/schemaeditors/forms/contentfragment`  
+
+  this can be extended if required.
+* The respective schema form is integrated with the fragment editor.
 
 ## The Content Fragment Management API - Server-Side {#the-content-fragment-management-api-server-side}
 
 You can use the server-side API to access your content fragments; see:
 
-` [com.adobe.cq.dam.cfm](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/package-summary.html)`
+`[com.adobe.cq.dam.cfm](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/package-summary.html)`
 
 >[!CAUTION]
 >
