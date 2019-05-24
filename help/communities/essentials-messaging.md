@@ -123,7 +123,7 @@ To try the server-side sample script, you will need a development environment an
 1. create a `bundle node`in `/apps/engage/install` with arbitrary names, such as
 
     * Symbolic Name: com.engage.media.social.messaging.MessagingNotification
-    * Name: Getting Started Tutorial Message Notificaton  
+    * Name: Getting Started Tutorial Message Notificaton 
     * Description: a sample service for sending an email notification to users when they receive a message
     * Package: com.engage.media.social.messaging.notification
 

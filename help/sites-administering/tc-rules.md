@@ -254,7 +254,7 @@ If you edit the translation_rules.xml file, keep a backup copy in a content pack
         <property name="dc:description" />
     </node>
     <!-- translation rules for extracting ASSETS from SITES content, configure all components that embed or reference assets -->
-    <assetNode resourceType="foundation/components/image" assetReferenceAttribute="fileReference"/>  
+    <assetNode resourceType="foundation/components/image" assetReferenceAttribute="fileReference"/>
     <assetNode resourceType="foundation/components/video" assetReferenceAttribute="asset"/>
     <assetNode resourceType="foundation/components/download" assetReferenceAttribute="fileReference"/>
     <assetNode resourceType="foundation/components/mobileimage" assetReferenceAttribute="fileReference"/>

@@ -16,10 +16,13 @@ discoiquuid: 45dca3d3-b5e2-497f-b74a-0333e05acb27
 
 You can create multi-tenancy for ContextHub audiences and adds the following functionality:
 
-* You can manage access to tenant folders and tenant audiences.  
+* You can manage access to tenant folders and tenant audiences.
+
   For example, you can manage access for users of a specific tenant to only have access to audience folders for that tenant (and not have access to folders of other tenants). 
+
 * You can view audiences in a hierarchical folder structure.
-* When selecting audiences, you can select audiences from tenant folders.  
+* When selecting audiences, you can select audiences from tenant folders. 
+
   You only see audiences for tenants that you have privileges to see.
 
 This document provides the information about how to:
@@ -48,7 +51,6 @@ You need to create tenant folders so that they can be selected by users. To crea
 * It includes a node jcr:content with the following properties:
 
     * **jcr:primaryType** =&gt; String **cq:PageContent**
-    
     * **sling:resourceType** =&gt; String **cq/contexthub/components/segments-listing-page**
 
 These folders cannot be created through the Audiences console. These folders should only be created by administrative users that have access to tools such as CRXDE Lite (to create the nodes) and to the Access Control Editor (to set the ACLs accordingly).
@@ -130,8 +132,7 @@ The folder structure on your AEM instance in this example looks something like t
 
     * **/contexthub/**
 
-        * **/common**-- this is a folder for common audiences  
-        
+        * **/common**-- this is a folder for common audiences 
         * **/emptyCommonFolder** -- this is an empty folder for common audiences
         * **/tenants1** -- this is a folder for audiences available to users in the group tenants1
         * **/tenants2** -- this is a folder for audiences available to users in the group tenants2

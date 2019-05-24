@@ -76,12 +76,16 @@ Most fields are optional fields the member can later fill-in on their profile.
 
 * **ID** 
   (*required*) The authorizable ID is the member's sign-in ID.  
+
   By default, the ID is set to the value of the required email address.  
+
   *Once created, the ID may not be modified.*
 
 * **Email Address** 
   (*required*) The member's email address.  
-  The member may change their email address when updating their profile.  
+
+  The member may change their email address when updating their profile. 
+
   If the ID defaulted to the email address, the ID will *not* change when the email address is changed.
 
 * **Password** 
@@ -105,19 +109,26 @@ Under Account settings it is possible for a community administrator to
 * **Status**
 
     * Banned  
-      A member is unable to sign in, preventing them from viewing pages or participating in activites which require sign in. They may stiill anonymously visit an open community site.
+
+      A member is unable to sign in, preventing them from viewing pages or participating in activities which require sign in. They may still anonymously visit an open community site.
+
     * Not Banned  
+
       A member has full access to the community site.
 
   Default is `Not Banned`.
 
 * **Contribution Limits** 
-  If checked, the member's ability to post content is limited.  
+
+  If checked, the member's ability to post content is limited. 
+
   Default depends on the configuration of contribution limits.  
+
   See [Member Contribution Limits](/help/communities/limits.md).
 
 * **Change Password** 
-  A link that is present when modifying an existing member. Povides the ability for a community administrator to reset a password for a member.
+
+  A link that is present when modifying an existing member. Provides the ability for a community administrator to reset a password for a member.
 
 ### GENERAL - Photo {#general-photo}
 
@@ -173,10 +184,12 @@ The required fields for creating a new publish-side member group are:
 
 * **ID** 
   (*required*) The group unique ID.  
+
   *Once created, the ID may not be modified.*
 
 * **Name** 
-  (*optional*) The display name for the group.  
+  (*optional*) The display name for the group. 
+   
   The default value is the ID.
 
 * **Description** 

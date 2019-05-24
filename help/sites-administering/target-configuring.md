@@ -77,16 +77,13 @@ To do this, you need to specify which A4T cloud configuration to connect your Ad
    >Only analytics configurations that are enabled for A4T are available.
    >
    >When configuring A4T with AEM, you may see a Configuration reference missing entry. To be able to select the analytics framework, do the following:
-   >
    >    
+   >1. Navigate to **Tools** &gt; **General** &gt; **CRXDE Lite**.
+   >1. Navigate to **/libs/cq/analytics/components/testandtargetpage/dialog/items/tabs/items/tab1_general/items/a4tAnalyticsConfig**
+   >1. Set the property **disable** to **false**.
+   >1. Tap or click **Save All**.
    >    
-   >    1. Navigate to **Tools** &gt; **General** &gt; **CRXDE Lite**.
-   >    
-   >    1. Navigate to** /libs/cq/analytics/components/testandtargetpage/dialog/items/tabs/items/tab1_general/items/a4tAnalyticsConfig**
-   >    1. Set the property **disable** to **false**.
-   >    
-   >    1. Tap or click **Save All**.
-   >    
+
    ![](assets/chlimage_1-159.png)
 
    Click **OK**. When you target content with Adobe Target, you are able to [select your report source](/help/sites-authoring/content-targeting-touch.md).
@@ -138,16 +135,12 @@ Use the following procedure to create a Target cloud configuration in AEM:
    >[!NOTE]
    >
    >When configuring A4T with AEM, you may see a Configuration reference missing entry. To be able to select the analytics framework, do the following:
-   >
    >    
-   >    
-   >    1. Navigate to **Tools** &gt; **General** &gt; **CRXDE Lite**.
-   >    
-   >    1. Navigate to** /libs/cq/analytics/components/testandtargetpage/dialog/items/tabs/items/tab1_general/items/a4tAnalyticsConfig**
-   >    1. Set the property **disable** to **false**.
-   >    
-   >    1. Tap or click **Save All**.
-   >    
+   >1. Navigate to **Tools** &gt; **General** &gt; **CRXDE Lite**.
+   >1. Navigate to **/libs/cq/analytics/components/testandtargetpage/dialog/items/tabs/items/tab1_general/items/a4tAnalyticsConfig**
+   >1. Set the property **disable** to **false**.
+   >1. Tap or click **Save All**.
+   
 1. In the dialog, provide values for these properties.
 
     * **Client Code**: the Target account Client Code

@@ -166,7 +166,8 @@ You can either deploy this bundle at runtime or add it to the portlet web applic
 After the cache is deployed, the portlet caches contents from the publish instance. The portlet cache can be invalidated with a dispatcher flush from AEM. To configure the portlet to use its own cache:
 
 1. Configure a replication agent in author that targets the portal server. 
-1. Assuming that the portal server runs on host **localhost**, **port 8080 **and the AEM portlet web application is mounted in the context **cqportlet**, the url to flush the cache is `http://localhost:8080/cqportlet/cqbridge/cqpcache?Path=$(path)`. Use GET as the method.  
+1. Assuming that the portal server runs on host **localhost**, **port 8080 **and the AEM portlet web application is mounted in the context **cqportlet**, the url to flush the cache is `http://localhost:8080/cqportlet/cqbridge/cqpcache?Path=$(path)`. Use GET as the method. 
+
    **Note:** Instead of using a request parameter, you can send an http header named **Path**.
 
 #### Flushing the Cache via Replication Agent {#flushing-the-cache-via-replication-agent}
@@ -770,8 +771,7 @@ To configure the portlet:
 
     * **Author Base URL**: The base URL for the AEM author instance.
     * **Publish Base URL**: The base URL for the AEM publish instance.
-    * **Author Is Used As Publish**: Is the author instance used as a publish  
-      instance (for development)?
+    * **Author Is Used As Publish**: Is the author instance used as a publish instance (for development)?
 
    ![](assets/chlimage_1-13.png)
 

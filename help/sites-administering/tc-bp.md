@@ -21,7 +21,6 @@ Creating or expanding a global web presence can be a complex process, but with g
 * **Plan for global expansion** before implementing your first site. Adapting an existing site for global coverage when the site was implemented at short notice is typically harder than planning for global expansion at the beginning:
 
     * Assess the current state of your organization’s localization maturity. Determine whether you have the **tools**, **processes** and **resources** in place to support global expansion.
-    
     * Be aware of **global regulations** and **regional language preferences**. Design flexible content structures and processes that can accommodate a changing global business environment.
 
 * Determine a **governance** model that supports your global business and use AEM mechanisms like MSM and user permissions to enforce your chosen model. For example, determine if content will be centrally authored and “pushed” or “pulled” to regions/countries. Determine what content can be unlocked and altered in the geographies. Determine who is responsible for initiating and managing translations.

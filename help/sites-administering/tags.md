@@ -259,7 +259,6 @@ Tag permissions are ['secure (by default)'](/help/sites-administering/production
         * for example, `/content/cq:tags/mycommunity`
 
     * select the `checkbox`in the **Read** column
-    
     * select **Save**
 
 ![](assets/chlimage_1-204.png)
@@ -304,7 +303,8 @@ To add a new language to the dialog, see [Adding a New Language to the Edit Tag 
 
 ## Resources {#resources}
 
-* [Tagging for Developers](/help/sites-developing/tags.md)  
+* [Tagging for Developers](/help/sites-developing/tags.md)
+
   Information about the tagging framework as well as extending and including tags in custom applications.
 
 * [Classic UI Tagging Console](/help/sites-administering/classic-console.md)

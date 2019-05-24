@@ -34,7 +34,6 @@ In this exercise, all pages are based on one simple template.
     * Label: **playpage**
     * Title: **An SCF Sandbox Play Template**
     * Description: **An SCF Sandbox template for play pages** 
-    
     * Resource Type: **an-scf-sandbox/components/playpage**
     * Ranking: &lt;leave as default&gt;
 
@@ -83,7 +82,9 @@ Create the *component* that defines the content and renders any pages created ba
 
 1. In CRXDE Lite, right-click **`/apps/an-scf-sandbox/components`** and click **Create** &gt; **Component**.
 1. By setting the node's name (Label) to *playpage*, the path to the component is  
-   `/apps/an-scf-sandbox/components/playpage`  
+
+   `/apps/an-scf-sandbox/components/playpage` 
+
    which corresponds to the Resource Type of the playpage template (optionally minus the initial **`/apps/`** part of the path).
 
    In the **Create Component** dialog, type the following property values:
@@ -92,13 +93,11 @@ Create the *component* that defines the content and renders any pages created ba
     * Title: **An SCF Sandbox Play Component**
     * Description: **This is the component which renders content for An SCF Sandbox page.**
     * Super Type: *&lt;leave blank&gt;*
-    
     * Group:
 
    ![](assets/chlimage_1-78.png)
 
-1.
-* click **Next** until the **Allowed Children** panel of the dialog appears
+1. Click **Next** until the **Allowed Children** panel of the dialog appears
     
     * click **OK**
     * click **Save All**

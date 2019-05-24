@@ -150,9 +150,9 @@ When added to a template, the configuration allows specifying tag namespace(s) u
 * see [Title and URL Settings](#title-and-url-settings)
 * **Select All Namespaces**
 
-  * The selected tag namespaces define which tags are selectable by visitors for filtering the list of enablement resources listed in the catalog.  
-  * If checked, all tag namespaces allowed for the community site are available.  
-  * If unchecked, it is possible to select one or more namespaces allowed for the community site.  
+  * The selected tag namespaces define which tags are selectable by visitors for filtering the list of enablement resources listed in the catalog.
+  * If checked, all tag namespaces allowed for the community site are available. 
+  * If unchecked, it is possible to select one or more namespaces allowed for the community site. 
   * Default is checked.
 
 ### Featured Content Function {#featured-content-function}
@@ -223,7 +223,8 @@ When added to a template, the following dialog opens:
   if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](/help/communities/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow Publish Creation** 
-  If checked, it is possible for authorized community members to create a group in the publish environment. If unchecked, new groups (sub-communities) may only be created in the author environment from the Communities Sites' Groups console.  
+  If checked, it is possible for authorized community members to create a group in the publish environment. If unchecked, new groups (sub-communities) may only be created in the author environment from the Communities Sites' Groups console. 
+
   Default is `checked`.
 
 ### Ideation Function {#ideation-function}
@@ -259,15 +260,18 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 * see [Title and URL Settings](#title-and-url-settings)
 * **Display Badge** 
-  If checked, a column for badge icons is included in the leaderboard.  
+  If checked, a column for badge icons is included in the leaderboard. 
+
   Default is unchecked.
 
 * **Display Badge Name** 
   If checked, a column for the badge name is included in the leaderboard.  
+
   Default is unchecked.
 
 * **Display Avatar** 
   If checked, the member's avatar image is included in the leaderboard, next to their name link to their member profile.  
+  
   Default is unchecked.
 
 ### Page Function {#page-function}

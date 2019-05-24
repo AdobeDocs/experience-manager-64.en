@@ -26,7 +26,6 @@ By default, ContextHub is enabled in an AEM installation. ContextHub can be disa
     1. In the rail click or tap **Tools &gt; Sites &gt; ContextHub**
     1. Click or tap the default **Configuration Container**
     1. Select the **ContextHub Configuration** and click or tap **Edit Selected Element**
-    
     1. Click or tap **Disable ContextHub** and click or tap **Save**
 
 or
@@ -72,7 +71,6 @@ Add a UI mode to group related ContextHub modules. When you create the UI mode, 
 
     * UI Mode Title: The title that identifies the UI mode 
     * Mode Icon: The selector for the [Coral UI icon](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon.html#availableIcons) to use, for example `coral-Icon--user`
-    
     * Enabled: Select to show the UI mode in the ContextHub toolbar
 
 1. Click or tap Save.

@@ -127,19 +127,20 @@ A workflow package:
       The type of server that the workflow launcher applies to. Select **Author**, **Publish**, or **Author & Publish**.
     
     * **Conditions** 
-      A list of conditions for node values that, when evaluated, determine whether the worklow is launched. For example, the following condition causes the workflow to launch when the node has a property name with the value User:  
+      A list of conditions for node values that, when evaluated, determine whether the worklow is launched. For example, the following condition causes the workflow to launch when the node has a property name with the value User:
+
       name==User
     
     * **Features** 
       A list of features to be enabled. Select the required feature(s) using the drop down selector.
     
-    * **Disabled Features  
-      **A list of features to be disabled. Select the required feature(s) using the drop down selector.
+    * **Disabled Features**
+    A list of features to be disabled. Select the required feature(s) using the drop down selector.
+
     * **Workflow Model** 
       The workflow to launch when the Event Type occurs on the Nodetype and/or Path under the defined Condition.
-    
-    * **Description  
-      **Your own text to describe and identify the launcher configuration.
+    * **Description**  
+      Your own text to describe and identify the launcher configuration.
     * **Activate** 
       Controls whether the workflow launcher is activated:
 
@@ -147,16 +148,19 @@ A workflow package:
         * Select **Disable** when the workflow should not execute (not even when the configuration properties are satisfied).
 
     * **Exclude List** 
-      This specifies any JCR events to exclude (i.e. ignore) when determining whether a workflow should be triggered.  
+      This specifies any JCR events to exclude (i.e. ignore) when determining whether a workflow should be triggered.
+
       This launcher property is a comma separated list of items: ``
 
         * `property-name` ignore any `jcr` event which triggered on the specified property name. ``
-        
         * `event-user-data:<*someValue*>` ignores any event that contains the `*<someValue*`> `user-data` set through the [ `ObservationManager` API](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/observation/ObservationManager.html#setUserData(java.lang.String).
 
-      For example:  
-      `jcr:lastModified,dc:modified,dc:format,jcr:lastModifiedBy,imageMap,event-user-data:changedByWorkflowProcess`  
-      This feature can be used to ignore any changes triggered by another workflow process by adding the exclude item:  
+      For example:
+
+      `jcr:lastModified,dc:modified,dc:format,jcr:lastModifiedBy,imageMap,event-user-data:changedByWorkflowProcess`
+      
+      This feature can be used to ignore any changes triggered by another workflow process by adding the exclude item:
+
       `event-user-data:changedByWorkflowProcess`
 
 1. Select **Create**, to create the launcher and return to the console.

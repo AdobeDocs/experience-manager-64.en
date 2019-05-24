@@ -48,8 +48,11 @@ For more on community user groups, visit [Managing Users and User Groups](/help/
     * select Forum
     * select New Post
     * enter the Subject  
+
       When to change the nectar in Humming Bird Feeder
+
     * enter the body text  
+
       I haven't had much success when I hang a hummingbird feeder up every year. Seems they come a day or two then that is it. I change it once a week is that too long? Do I need to change it sooner?
     * select Post
     * select Log Out
@@ -59,7 +62,9 @@ For more on community user groups, visit [Managing Users and User Groups](/help/
     * select Forum
     * for the Hummingbird Topic, select Read More
     * enter the comment for Post Reply  
+
       I change mine once a week and I get them from May til October.
+
     * select Reply
     * select Log Out
 
@@ -68,13 +73,15 @@ For more on community user groups, visit [Managing Users and User Groups](/help/
     * select Forum
     * for the Hummingbird Topic, select Read More
     * enter the comment for Post Reply  
+
       I sell nectar and feeders - visit https://my.viral.url/
+
     * select Reply
     * select Log Out
 
 ### Anonymous Site Visitor (#5) {#anonymous-site-visitor}
 
-Following is a view of the forum seen by a site vistior who is not signed in (5).
+Following is a view of the forum seen by a site visitor who is not signed in (5).
 
 An anonymous site visitor may only view the forum, but my not post any content nor perform any moderation actions.
 

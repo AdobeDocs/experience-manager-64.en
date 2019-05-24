@@ -56,12 +56,15 @@ Assigned (and awared) badges are stored in the selected [SRP](/help/communities/
 Included in the release are three role-based badges:
 
 * moderator  
+
   `/etc/community/badging/images/moderator/jcr:content/moderator.png`
 
-* group manager  
+* group manager 
+
   `/etc/community/badging/images/group-manager/jcr:content/group-manager.png`
 
-* privileged member  
+* privileged member 
+
   `/etc/community/badging/images/privileged-member/jcr:content/privileged-member.png`
 
 ![](assets/chlimage_1-366.png) 
@@ -78,12 +81,15 @@ In order for badges to appear as a reward for activity, there are two things tha
 Included in the release are three reward-based badges:
 
 * gold  
+
   `/etc/community/badging/images/gold-badge/jcr:content/gold.png`
 
 * silver  
+
   `/etc/community/badging/images/silver-badge/jcr:content/silver.png`
 
-* bronze  
+* bronze 
+
   `/etc/community/badging/images/bronze-badge/jcr:content/bronze.png`
 
 ![](assets/chlimage_1-367.png)
@@ -267,17 +273,25 @@ Included in the release are two scoring rules for the [Forum Function](/help/com
 1. /etc/community/scoring/rules/comments-scoring
 
     * subRules[] =  
+
       /etc/community/scoring/rules/sub-rules/member-comment-create  
+
       /etc/community/scoring/rules/sub-rules/member-receive-vote  
+
       /etc/community/scoring/rules/sub-rules/member-give-vote  
+
       /etc/community/scoring/rules/sub-rules/member-is-moderated
 
 1. /etc/community/scoring/rules/forums-scoring
 
     * subRules[] =  
+
       /etc/community/scoring/rules/sub-rules/member-forum-create  
-      /etc/community/scoring/rules/sub-rules/member-receive-vote  
-      /etc/community/scoring/rules/sub-rules/member-give-vote  
+
+      /etc/community/scoring/rules/sub-rules/member-receive-vote 
+
+      /etc/community/scoring/rules/sub-rules/member-give-vote 
+      
       /etc/community/scoring/rules/sub-rules/member-is-moderated
 
 **Notes:**
@@ -582,9 +596,7 @@ It is possible to quickly try scoring and badging using the [Getting Started Tut
 * add the badgingRules property:
 
     * **Name**: `badgingRules`
-    
     * **Type**: `String`
-    
     * select **Multi**
     * select **Add**
     * enter `/etc/community/badging/rules/forums-badging`
@@ -595,9 +607,7 @@ It is possible to quickly try scoring and badging using the [Getting Started Tut
 * add the scoringRules property:
 
     * **Name**: `scoringRules`
-    
     * **Type**: `String`
-    
     * select **Multi**
     * select **Add**
     * enter `/etc/community/scoring/rules/forums-scoring`
@@ -619,9 +629,7 @@ Next ensure the forum and comments components allow badges to be displayed:
 * add allowBadges boolean property, if necessary, and ensure it is true
 
     * **Name**: `allowBadges`
-    
     * **Type**: `Boolean`
-    
     * **Value**: `true`
 
 ![](assets/chlimage_1-371.png)

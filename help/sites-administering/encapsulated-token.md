@@ -68,10 +68,6 @@ In order to replicate the key across instances, you need to:
 
    The `bundle.info` file inside each folder will identify the bundle name.
 
-   ```
-      
-   ```
-
 1. Navigate to the data folder. For example:
 
     * `<author-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21/data`

@@ -35,8 +35,10 @@ The provided product data is for reference only. It is required to import the pr
 
 Before the actual import, delete all existing product data using CRXDE Lite:
 
-1. In CRXDE Lite, navigate to the sub-tree holding the product data:  
+1. In CRXDE Lite, navigate to the sub-tree holding the product data:
+
    `/etc/commerce/products`
+   
 1. Delete the node that holds your product data; for example, `geometrixx-outdoors-wc`.
 1. Click **Save All** to persist the change.
 

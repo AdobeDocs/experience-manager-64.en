@@ -31,7 +31,8 @@ In CRX every user account is a node in the workspace. A CRX user account has the
 * Is applicable for that workspace.
 * It cannot have sub-users. For hierarchical access rights you should use groups.
 
-* You can specify access rights for the user account.  
+* You can specify access rights for the user account.
+
   However, to simplify management we recommend that (in the majority of cases) you assign access rights to group accounts. Assigning access rights for each individual user quickly becomes very difficult to manage (the exceptions are certain system users when only one or two instances exist).
 
 **Group Accounts** Group accounts are collections of users and/or other groups. These are used to simplify management as a change in the access rights assigned to a group is automatically applied to all users in that group. A user does not have to belong to any group, but often belongs to several.
@@ -66,16 +67,20 @@ CRX uses two key concepts when evaluating access rights:
 * A **principal** is an entity that carries access rights. Principals include:
 
     * A user account.
-    * A group account.  
+    * A group account
+
       If a user account belongs to one, or more, groups it is also associated with each of those group principals.
 
-* A **subject** is used to represent the source of a request.  
+* A **subject** is used to represent the source of a request.
+
   It is used to consolidate the access rights applicable for that request. These are taken from:
 
-    * The user principal  
+    * The user principal 
+
       The rights that you assign directly to the user account.  
-    
-    * All groups principals associated with that user  
+
+    * All groups principals associated with that user 
+
       All rights assigned to any of the groups that the user belongs to.
 
   The result is then used to allow or deny access to the resource requested.
@@ -115,7 +120,7 @@ Access rights in CRX are evaluated as follows:
 
 * User principals always take precedence over group principals irrespective of:
 
-    * their order in the access control list   
+    * their order in the access control list 
     * their position in the node hierarchy
 
 * For a given principal there exists (at most) 1 deny and 1 allow entry on a given node. The implementation always clears redundant entries and makes sure that the same privilege is not listed in both the allow and deny entries.
@@ -244,19 +249,16 @@ If an account impersonates another it is very difficult to see. The log files ho
 1. Click **Create User**.
 1. You can then enter the Properties:
 
-    * **UserID** used as the account name.  
-    
+    * **UserID** used as the account name.
     * **Password** needed when logging in.
-    * **Principal Name** to provide a full textual name.  
-    
+    * **Principal Name** to provide a full textual name. 
     * **Intermediate Path** which can be used to form a tree structure.
 
 1. Click on the Save (green tick symbol).
 1. The dialog will be expanded so that you can:
 
     1. Configure **Properties**.
-    1. See **Group Membership**.  
-    
+    1. See **Group Membership**.
     1. Define **Impersonators**.
 
 >[!NOTE]
@@ -314,7 +316,8 @@ You can also change the password to your own user account from the **Security** 
 You can define Impersonators for either new or existing accounts:
 
 1. Open the **User Administration** dialog for the appropriate account.
-1. Specify the account to be allowed to impersonate that account.  
+1. Specify the account to be allowed to impersonate that account.
+
    You can use Browse... to select an existing account.   
 
 1. Click Save (green tick symbol) for the new property.
@@ -360,16 +363,14 @@ The **Inherited** column indicates membership that has been inherited as a resul
 1. Click **Create Group**.
 1. You can then enter the Properties:
 
-    * **Principal Name** to provide a full textual name.  
-    
+    * **Principal Name** to provide a full textual name. 
     * **Intermediate Path** which can be used to form a tree structure.
 
 1. Click on the Save (green tick symbol).
 1. The dialog will be expanded so that you can:
 
     1. Configure **Properties**.
-    1. See **Group Membership**.  
-    
+    1. See **Group Membership**.
     1. Manage **Members**.
 
 ### Updating a Group Account {#updating-a-group-account}
@@ -431,11 +432,13 @@ For example, for **Current Path** select the required resource in the left pane,
 The policies are categorized according to:
 
 * **Applicable Access Control Policies** 
-  These policies can be applied.   
+  These policies can be applied.
+
   These are policies that are available for creating a local policy. Once you select and add an applicable policy it becomes a local policy.  
 
 * **Local Access Control Policies** 
-  These are access control policies that you have applied. You can then update, order, or remove them.  
+  These are access control policies that you have applied. You can then update, order, or remove them.
+
   A local policy will override any policies inherited from the parent. 
 
 * **Effective Access Control Policies** 
@@ -452,8 +455,10 @@ The policies can be selected for:
   Selects repository level access control. For example, when setting the `jcr:namespaceManagement` privilege, which is only relevant for the repository, not a node. 
 
 * **Principal** 
-  A principal that is registered in the repository.  
-  You can either type in the **Principal** name or click the icon to the right of the field to open the **Select Principal** dialog.  
+  A principal that is registered in the repository.
+
+  You can either type in the **Principal** name or click the icon to the right of the field to open the **Select Principal** dialog.
+
   This allows you to **Search** for a **User** or **Group**. Select the required principal from the resulting list, then click **OK** to carry the value back to the previous dialog.
 
 ![](assets/crx_accesscontrol_selectprincipal.png)
@@ -600,7 +605,6 @@ You can also register new privileges:
 1. Define your access control policy and click **OK** to save. Your new policy will:
 
     * be listed under **Local Access Control Policy** 
-    
     * the changes will be reflected in the **Effective Access Control Policies**.
 
 CRX will validate your selection; for a given principal there exists (at most) 1 deny and 1 allow entry on a given node. The implementation always clears redundant entries and makes sure that the same privilege is not listed in both the allow and deny entries.

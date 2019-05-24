@@ -102,7 +102,7 @@ The following step-by-step workflow description is designed to help you get up a
 
           [Linking URLs to your web application](linking-urls-to-yourwebapplication.md).
         * Integrate video using embed code on web page: 
-        
+      
           [Embedding the video viewer on a web page](embed-code.md).
 
     * [Publishing videos to YouTube](#publishing-videos-to-youtube).
@@ -466,8 +466,11 @@ To publish to YouTube, you need a Google account. If you have a GMAIL account th
 To configure Google Cloud settings:
 
 1. Create a new Google account.  
+
    [https://accounts.google.com/SignUp?service=mail](https://accounts.google.com/SignUp?service=mail)  
+
    If you already have a Google account, skip to the next step.
+
 1. Go to [https://cloud.google.com/](https://cloud.google.com/).
 1. On the Google Cloud Platform page, near the top, tap **Console**. You may need **Sign in** using your Google account credentials.
 1. On the Dashboard page, tap **Create Project**.
@@ -564,6 +567,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 1. In the YouTube Account Settings dialog box, in the **Application Name** field, enter the Google Project ID.
 
    You specified the project ID when you initially configured Google Cloud settings earlier.  
+   
    Leave the YouTube Account Setting dialog box open; you will return to it in a moment.
 
 1. Using a plain text editor, open the JSON file that you downloaded and saved earlier in the task Configuring Google Cloud settings.
@@ -595,7 +599,8 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
    To delete a tag you have added, select the tag, and tap **X**.
 
-1. When you are finished adding the tags you want, tap **OK**.   
+1. When you are finished adding the tags you want, tap **OK**.  
+
    Now you publish videos to your YouTube channel.
 
 ### (Optional) Automating the setting of default YouTube properties for your uploaded videos {#optional-automating-the-setting-of-default-youtube-properties-for-your-uploaded-videos}
@@ -613,25 +618,31 @@ To automate the setting of default YouTube properties for your uploaded videos:
 1. Under the YouTube Publishing heading, tap **YouTube Category**. (Do not tap the YouTube Category drop-down list.)
 1. On the right side of the page, under the **Settings** tab, do the following:
 
-    * In the **Field Label** text field, select and copy the value.  
+    * In the **Field Label** text field, select and copy the value.
+
       Paste the copied value into an open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
     
     * In the **Map to property** text field, select and copy the value.  
+
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.  
     
-    * Under **Choices**, select and copy the default value that you want to use (such as People & Blogs or Science & Technology).  
+    * Under **Choices**, select and copy the default value that you want to use (such as People & Blogs or Science & Technology).
+     
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
 1. Under the YouTube Publishing heading, tap **YouTube Privacy**. (Do not tap the YouTube Privacy drop-down list.)
 1. On the right side of the page, under the **Settings** tab, do the following:
 
-    * In the **Field Label** text field, select and copy the value.  
+    * In the **Field Label** text field, select and copy the value. 
+
       Paste the copied value into an open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
     
     * In the **Map to property** text field, select and copy the value.  
+
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
     
     * Under **Choices**, select and copy the default value that you want to use. Notice that the Choices are grouped in pairs of two. The bottom field in the pair is the default value that you want to copy, such as public, unlisted, or private.  
+
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
 1. Near the upper-right corner of the Metadata Schema Editor page, tap **Cancel**.
@@ -657,7 +668,6 @@ To automate the setting of default YouTube properties for your uploaded videos:
     * Tap **Field Label** to select the component.
     * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Privacy`.
     * Tap the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Privacy** heading you just created.
-    
     * Tap **Field Label** to select the component.
     * On the right side of the page, under the **Settings** tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
 
@@ -773,10 +783,10 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >It may take a long time for failure/error messages to finally be recorded due to multiple workflow configurations on **retries**, **retry delay**, and **timeout** from [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr), for example:
    >
-   >*     Apache Sling Job Queue Configuration
-   >*     Adobe Granite Workflow External Process Job Handler
-   >*     Granite Workflow Timeout Queue
-   >    
+   >* Apache Sling Job Queue Configuration
+   >* Adobe Granite Workflow External Process Job Handler
+   >* Granite Workflow Timeout Queue
+   > 
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
 
 1. For workflows in progress, see Workflow Instances available from **Tools** &gt; **Workflow** &gt; **Instances**.
@@ -805,12 +815,9 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >It may take a long time for the error message to finally be recorded due to multiple workflow configurations on **retries**, **retry delay**, and **timeout** from [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr), for example:
    >
-   >    
-   >    
-   >*     Apache Sling Job Queue Configuration
-   >*     Adobe Granite Workflow External Process Job Handler
-   >*     Granite Workflow Timeout Queue
-   >    
+   >* Apache Sling Job Queue Configuration
+   >* Adobe Granite Workflow External Process Job Handler
+   >* Granite Workflow Timeout Queue
    >    
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
 
@@ -888,9 +895,11 @@ To view video reports:
 1. On the Video Reports page, do one of the following:
 
     * Near the upper-right corner, tap the **Refresh Video Report** icon.  
+
       You only need to use Refresh if the end date of the report is the current day. This ensures that you see the video tracking that has occurred since the last time you ran the report.
     
-    * Near the upper-right corner, tap the **Date Picker** icon.  
+    * Near the upper-right corner, tap the **Date Picker** icon. 
+
       Specify the beginning and end date range for which you want video data, and then tap **Run Report**.
 
    The Top Metrics group box identifies various aggregate measurements for all *published* videos across your site.
@@ -920,12 +929,14 @@ To view Video Reports based on a video viewer that you created using the Scene7 
 
    The `config2` parameter enables tracking in HTML5 Viewers. It is also a company-specific preset that contains the configuration information for Video Reporting, and for customer-specific Adobe Analytics configurations.
 
-   The correct value for the config2 parameter is found in both the **Embed Code **and in the copy **URL **function. In the URL from the copy **URL **command, the parameter to look for is `&config2=<value>` . The value is almost always `companypreset`, but in some instances it can also be `companypreset-1`, `companypreset-2`, and so forth.
+   The correct value for the config2 parameter is found in both the **Embed Code** and in the copy **URL** function. In the URL from the copy **URL** command, the parameter to look for is `&config2=<value>` . The value is almost always `companypreset`, but in some instances it can also be `companypreset-1`, `companypreset-2`, and so forth.
 
 1. In your custom video viewer code, add AppMeasurementBridge .jsp to the viewer page by doing the following:
 
-    * First, determine if you need the `&preset` parameter.  
-      If the `config2` parameter is `companypreset`, you do *not *need `&preset=parameter`.  
+    * First, determine if you need the `&preset` parameter. 
+
+      If the `config2` parameter is `companypreset`, you do *not* need `&preset=parameter`.  
+
       If `config2` is anything else, set the preset parameter the same as the `config2` parameter. For example, if `config2=companypreset-2`, add `&param2=companypreset-2` to the AppMeasurmentBridge.jsp URL.
     
     * Then, add the AppMeasurementBridge.jsp script:  
@@ -1153,7 +1164,7 @@ To configure the default time interval that video thumbnails are generated,
 1. On the lower-right panel, in the Properties tab, double-tap `thumbnailtime`.
 1. In the Edit thumbnailtime dialog box, use the text fields to enter interval values as percentages.
 
-    * Tap the plus sign (+) icon to add one or more interval value fields. You may need to scroll to the bottom of the dialog box to see the icon.  
+    * Tap the plus sign (+) icon to add one or more interval value fields. You may need to scroll to the bottom of the dialog box to see the icon.
     * Tap the minus sign (-) icon to the right of an interval value field to delete it from the list.
     * Tap the up arrow icon and the down arrow icon to reorder the interval values.
 

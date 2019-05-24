@@ -141,7 +141,7 @@ When you are done creating the video profile, you apply it to a folder or multip
 1. In the upper-right corner of the page, tap **Save** to save the preset.
 1. Do one of the following:
 
-    * Repeat steps 5-10 to create additional encoding presets. (Adaptive video streaming requires more than one video preset.)  
+    * Repeat steps 5-10 to create additional encoding presets. (Adaptive video streaming requires more than one video preset.) 
     * In the upper-right corner of the page, tap **Save** again to save the profile.
 
 ## Monitoring the Progress of an encoding job {#monitoring-the-progress-of-an-encoding-job}
@@ -276,8 +276,10 @@ To define advanced processing parameters for other asset types, see [Configuring
 1. On the Video Profiles page, check one video profile name.
 1. On the toolbar, tap **Edit**.
 1. On the Video Encoding Profile page, edit the name and description, as desired.
-1. As a best practice, ensure that the **Encode for adaptive streaming** check box is selected.   
+1. As a best practice, ensure that the **Encode for adaptive streaming** check box is selected.  
+
    Tap the information icon for a description of adaptive streaming. (If you are editing a progressive video profile, do not select this check box.)
+   
 1. Under the Video Encoding Presets heading, add, edit, or delete video encoding presets that make up the profile.
 
    Tap the information icon next to each option on the **Basic** and **Advanced** tabs for additional descriptions or recommended settings based on the selected video format codec.

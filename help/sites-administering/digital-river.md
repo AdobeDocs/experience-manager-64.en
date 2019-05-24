@@ -52,7 +52,6 @@ To import products to a specific folder:
     * **API Key**: Use the API Key provided by your Account or Project Manager.
     * **Secret**: Use the Secret provided by your Account or Project Manager.
     * **Locale**: Enter in the Locale of the products you want to import. If left blank, it will default to `en_us`.
-    
     * For the first import leave **Is this an incremental import?** blank. For subsequent imports you can check this.
     * Leave all **Collection** fields blank.
 
@@ -96,8 +95,7 @@ To import a catalog blueprint:
     * **API Key**: Use the API Key provided by your Account or Project Manager.
     * **Secret**: Use the Secret provided by your Account or Project Manager.
     * **Locale**: Enter in the Locale of the products you want to import. If left blank, it will default to `en_us`.
-    
-    * **Catalag Name**: Type a name for the imported Catalog. If left blank, it will default to `Digital River`.
+    * **Catalog Name**: Type a name for the imported Catalog. If left blank, it will default to `Digital River`.
 
    ![](assets/chlimage_1-12.jpeg)
 

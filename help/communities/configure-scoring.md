@@ -154,6 +154,7 @@ The screen shots of repository data come from setting up scoring and badging for
     * locate the forum component node
 
         * `/content/sites/engage/en/forum/jcr:content/content/primary/forum`  
+
           ( `sling:resourceType = social/forum/components/hbs/forum`)
 
     * add property to display badges
@@ -188,6 +189,7 @@ The screen shots of repository data come from setting up scoring and badging for
     * locate the forum component node
 
         * `/content/community-components/en/forum/jcr:content/content/forum`  
+        
           ( `sling:resourceType = social/forum/components/hbs/forum`)
 
     * add property to display badges

@@ -209,17 +209,23 @@ The first method is the preferred one.
 
 When processing events or jobs, and in some cases workflows, the corresponding session that triggered the event is usually lost. This leads to event handlers and job processors often using administrative sessions to do their work. There are different conceivable approaches to solve this problem, each with their advantages and disatvantages:
 
-1. Pass the `user-id` in the event payload and use impersonation.   
-   **Advantages:** Easy to use.   
-   Disatvantages: Still uses `loginAdministrative()`. It re-authenticates a request that has already been authenticated.
+1. Pass the `user-id` in the event payload and use impersonation.
 
-1. Create or reuse a service user that has access to the data.  
-   **Advantages:** Consistent with the current design. Needs minimal change.  
-   **Disatvantages:** Needs very powerful service users to be flexible, which can easily lead to privilege escalations. Circumvents the security model.
+   **Advantages:** Easy to use. 
 
-1. Pass a serialization of the `Subject` in the event payload, and create a `ResourceResolver` based on that subject. One example would be using the JAAS `doAsPrivileged` in the `ResourceResolverFactory`.  
-   **Advantages:** Clean implementation from a security standpoint. It avoids re-authentication and it operates with the original privileges. Security relevant code is transparent to the consumer of the event.   
-   **Disatvantages:** Needs refactoring. The fact that the security relevant code transparent to the consumer of the event might also lead to problems.
+   **Disadvantages:** Still uses `loginAdministrative()`. It re-authenticates a request that has already been authenticated.
+
+1. Create or reuse a service user that has access to the data.
+
+   **Advantages:** Consistent with the current design. Needs minimal change. 
+
+   **Disadvantages:** Needs very powerful service users to be flexible, which can easily lead to privilege escalations. Circumvents the security model.
+
+1. Pass a serialization of the `Subject` in the event payload, and create a `ResourceResolver` based on that subject. One example would be using the JAAS `doAsPrivileged` in the `ResourceResolverFactory`.
+
+   **Advantages:** Clean implementation from a security standpoint. It avoids re-authentication and it operates with the original privileges. Security relevant code is transparent to the consumer of the event. 
+   
+   **Disadvantages:** Needs refactoring. The fact that the security relevant code transparent to the consumer of the event might also lead to problems.
 
 The third approach is currently the preferred processing technique.
 

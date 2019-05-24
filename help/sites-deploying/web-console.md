@@ -43,10 +43,12 @@ The **Configuration** tab is used for configuring the OSGi bundles, and is there
 
 The **Configuration** tab can be accessed by either:
 
-* The drop-down menu:  
+* The drop-down menu: 
+
   **OSGi &gt;**
 
 * The URL; for example:  
+
   `http://localhost:4502/system/console/configMgr`
 
 A list of configurations will be shown:
@@ -63,6 +65,7 @@ There are two types of configurations available from the drop down lists on this
 
 * **Factory Configurations** 
   Allows you to create an instance of the required functionality object.  
+  
   This will be allocated a Persistent Identity and then listed in the Configurations drop down list.
 
 Selecting any entry from the lists will display the parameters related to that configuration:

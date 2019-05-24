@@ -248,13 +248,17 @@ To create a new package definition:
    Enter the:
 
     * **Group Name** 
-      The target group (or folder) name. Groups are intended to be used to help you organize your packages.  
-      A folder will be created for the group if it does not already exist. If you leave the group name blank, it will create the package in the main package list (Home &gt; Packages).  
-    
+
+      The target group (or folder) name. Groups are intended to be used to help you organize your packages.
+
+      A folder will be created for the group if it does not already exist. If you leave the group name blank, it will create the package in the main package list (Home &gt; Packages).
+
     * **Package Name** 
-      The name of your new package. Select a descriptive name to help you (and others) easily identify the contents of the package.  
-    
+
+      The name of your new package. Select a descriptive name to help you (and others) easily identify the contents of the package.
+  
     * **Version** 
+
       A textual field for you to indicate a version. This will be appended to the package name to form the name of the zip file.
 
    Click **OK** to create the package.
@@ -288,11 +292,12 @@ To create a new package definition:
    Specify:
 
     * **Root Path** 
-      The content to be packaged; this can be the root of a subtree.  
-    
+      The content to be packaged; this can be the root of a subtree. 
     * **Rules** 
-      Rules are optional; for simple package definitions, it is not necessary to specify include or exclude rules.  
-      If needed, you can define either [**Include** or **Exclude** rules](#package-filters) to exactly define the package contents.   
+      Rules are optional; for simple package definitions, it is not necessary to specify include or exclude rules. 
+
+      If needed, you can define either [**Include** or **Exclude** rules](#package-filters) to exactly define the package contents.  
+
       Add rules using the **+** symbol, alternatively remove rules using the **-** symbol. Rules are applied according to their order so position them as required using the **Up** and **Down** buttons.
 
    Then click **OK** to save the filter.
@@ -689,8 +694,7 @@ To gain access to Package Share:
 * Use the [Sign In page](#signing-in-to-package-share)
 * The first time you use the sign in page you will need to:
 
-    * [Register for an Adobe ID](#registering-for-package-share) and/or [validate your existing Adobe ID](#validating-your-adobe-id)  
-    
+    * [Register for an Adobe ID](#registering-for-package-share) and/or [validate your existing Adobe ID](#validating-your-adobe-id)
     * so that your [Package Share Account](#package-share-account) can be created
 
 >[!NOTE]
@@ -719,8 +723,10 @@ The first time you sign into Package Share with your Adobe ID your email address
 
 1. You will receive an email containing a link.  
 1. You need to click on this link.
-1. A webpage will be opened.  
+1. A webpage will be opened.
+
    The action of opening this webpage is taken as validation.
+
 1. Sign in will continue.
 
 1. You will receive an email containing a link.

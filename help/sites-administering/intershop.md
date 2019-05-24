@@ -50,8 +50,10 @@ The following properties indicate that the products are linked with Intershop:
 
 If required, before the actual import, delete all existing product data using CRXDE Lite:
 
-1. In CRXDE Lite, navigate to the sub-tree holding the product data:  
+1. In CRXDE Lite, navigate to the sub-tree holding the product data:
+
    `/etc/commerce/products`
+
 1. Delete the node that holds your product data; for example, `outdoors`.
 1. Click **Save All** to persist the change.
 
@@ -67,7 +69,8 @@ To do the full import:
 
 1. Click **Import Catalog** to start the import.
 
-   When complete, you can verify the data imported at:  
+   When complete, you can verify the data imported at: 
+
    [http://localhost:4502/crx/de/index.jsp#/etc/commerce/products](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)
 
 ### Incremental Import {#incremental-import}
@@ -84,7 +87,8 @@ To do the full import:
 1. Select the checkbox **Incremental Import**.
 1. Click **Import Catalog** to start the import.
 
-   When complete, you can verify the data imported at:  
+   When complete, you can verify the data imported at:
+
    [http://localhost:4502/crx/de/index.jsp#/etc/commerce/products](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)
 
 ### Express Update {#express-update}
@@ -110,7 +114,8 @@ The import process can take a long time so you can select specific areas of the 
 1. Select the checkbox **Express Update**.
 1. Click **Import Catalog** to start the import.
 
-   When complete, you can verify the data imported at:  
+   When complete, you can verify the data imported at:
+   
    [http://localhost:4502/crx/de/index.jsp#/etc/commerce/products](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)
 
 ## Configure the Catalog Importer {#configure-the-catalog-importer}

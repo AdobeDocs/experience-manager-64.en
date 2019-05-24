@@ -39,6 +39,7 @@ When uploading is complete, your 3D files are converted and additional processin
       You can model this approach to how 3D authoring applications such as Autodesk Maya, prefer to store content.
 
 * Dependent assets should not be deleted unless the associated 3D asset or assets that referenced them are also removed. You can, however, freely delete 3D assets without the need to delete their dependent assets. If a dependency is lost accidentally, you can easily resolve the dependency to restore it.  
+
   See Resolving file dependencies.
 
 ## Performance considerations when uploading 3D files {#performance-considerations-when-uploading-d-files}

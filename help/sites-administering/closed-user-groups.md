@@ -153,7 +153,6 @@ The target of this documentation is the evaluation of the login path as exposed 
 * In case of regular login, tests if a login path can be obtained in the following order:
 
     * from the `LoginPathProvider` as implemented by the new `com.adobe.granite.auth.requirement.impl.RequirementService`,
-    
     * from the old, deprecated CUG implementation,
     * from the Login Page Mappings as defined with the `LoginSelectorHandler`,
     * and finally fallback to the Default Login Page as defined with the `LoginSelectorHandler`.

@@ -274,6 +274,7 @@ To get started
     * select **Create Node**
 
         * **Name** localhost.4503  
+
           (do *not* use `:`)
         
         * **Type** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
@@ -284,7 +285,8 @@ To get started
 
         * **Name** sling:match
         * **Type** String
-        * **Value** localhost.4503/\$  
+        * **Value** localhost.4503/\$ 
+         
           (must end with '$' char)
 
     * add property

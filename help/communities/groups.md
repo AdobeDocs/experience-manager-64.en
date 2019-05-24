@@ -66,11 +66,13 @@ From this Groups console, it is possible to author new groups.
 
 ![](assets/multilingualgroup.png)
 
-* **Community Group Title**: a display title for the group.  
+* **Community Group Title**: a display title for the group.
+
   The title appears on the published site for the group.
 
 * **Community Group Description**: a description of the group.
-* **Community Group Root**: the root path to the group.  
+* **Community Group Root**: the root path to the group. 
+
   The default root is the parent site, but the root may be moved to any location within the web site. It is not recommended to change it.
 
 * **Additional Available Community Group Languages(s)** menu: use the pull down menu to select the available community group language(s). The menu displays all the language(s) in which the parent community site is created. Users can select among these languages to create groups in multiple locales in this single step. Same group gets created in multiple specified languages in the Groups console of the respective community sites.  
@@ -80,6 +82,7 @@ From this Groups console, it is possible to author new groups.
     * double-check the name as it is not easily changed after the group is created
     * the base URL will be displayed underneath the `Community Group Name`
     * for a valid URL, append ".html"  
+
       *for example*, `http://localhost:4502/content/sites/mysight/en/mygroup.html`
 
 * **Community Group Template** menu: use the pull down menu to choose an available [community group template](/help/communities/tools.md).
@@ -133,12 +136,15 @@ The membership setting allows for selection of one of the three ways to secure a
 
 ![](assets/chlimage_1-137.png)
 
-* Optional Membership  
+* Optional Membership 
+
   If selected, the community group is a public group. Site members may participate in the group and post without explicitly joining the group. Default is selected.
 * Required Membership  
+
   if selected, the community group is an open group. Community site members may view the contents of the group, but must join the group before being able to post content. Members join by selecting the `Join` button in the publish environment. Default is not selected.
 
-* Restricted Membership  
+* Restricted Membership 
+
   if selected, the community group is a secret group. Community members must be explicitly invited. Invited members are entered in the search box. Members may be added later using the [Members and Groups consoles](/help/communities/members.md) the author environment. Default is not selected.
 
 #### THUMBNAIL {#thumbnail}
@@ -206,14 +212,18 @@ The STRUCTURE panel allows the modification of the structure initially created f
 * on an instance of a community function in the site structure:
 
     * **`gear icon`** 
-      edit settings, including the display title and URL name&ast;  
-      as well as p [rivileged members groups](/help/communities/users.md#privilegedmembersgroups)
+
+      edit settings, including the display title and URL name&ast; 
+
+      as well as [privileged members groups](/help/communities/users.md#privilegedmembersgroups)
     
     * **`trashcan icon`** 
+
       remove (delete) functions from the site structure
     
     * **`grid icon`** 
-      modifiy the order of functions as displayed in the site's top level navigation bar
+
+      modify the order of functions as displayed in the site's top level navigation bar
 
 >[!CAUTION]
 >

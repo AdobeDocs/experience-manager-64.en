@@ -61,9 +61,9 @@ AEM eCommerce provides:
 
 * A number of **out-of-the-box AEM components** to illustrate what can be achieved for your project:
 
-    * Product display  
-    * Shopping cart  
-    * Check-out  
+    * Product display 
+    * Shopping cart 
+    * Check-out 
     * Recently viewed products
     * Vouchers
     * and others
@@ -78,7 +78,7 @@ AEM eCommerce provides:
 
     * the AEM search
     * the search of the eCommerce system
-    * a third party search (such as Search&Promote)   
+    * a third party search (such as Search&Promote) 
     * or a combination thereof.
 
   ![](assets/chlimage_1-151.png)
@@ -93,7 +93,7 @@ AEM eCommerce provides:
 
 * The possibility to develop **experience-driven commerce based on shopper data and activity**. This allows you to realize many scenarios:
 
-    * One example might be providing reductions in shipping costs when the total order exceeds a specific amount.  
+    * One example might be providing reductions in shipping costs when the total order exceeds a specific amount. 
     * Another might allow you to provide seasonal offers that use profile data (e.g. location). These can then be highlighted, again depending on other factors when necessary.
 
   In the example below one teaser is shown as the contents of the cart are less than $75:
@@ -107,7 +107,7 @@ AEM eCommerce provides:
 * And other features including:
 
     * Shopping cart contents retained across sessions
-    * Full order history  
+    * Full order history 
     * Express catalog update
 
 ## The Framework {#the-framework}

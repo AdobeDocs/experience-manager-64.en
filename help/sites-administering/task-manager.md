@@ -206,8 +206,7 @@ To use a `sling:OsgiConfig` node to configure the service, use the following nod
 
 * **Node property:**
 
-    * Name: `taskmanager.admingroups`  
-    
+    * Name: `taskmanager.admingroups` 
     * Type: `String`
     * Value: The group name.
 
