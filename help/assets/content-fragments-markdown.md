@@ -81,7 +81,8 @@ A reference link has the following syntax:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`[wiki]: https://www.wikipedia.org`  
 
-&nbsp;&nbsp;&nbsp;&nbsp;`[made]: https://www.stackoverflow.com`  
+&nbsp;&nbsp;&nbsp;&nbsp;`[made]: https://www.stackoverflow.com`
+  
 ## Images {#images}
 
 The syntax for images is similar to the links. You can create inline and referenced images.
