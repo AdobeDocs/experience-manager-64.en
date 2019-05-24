@@ -215,8 +215,8 @@ When in layout mode you can perform various actions on a grid:
 
 * Click/tap on a content component, the toolbar allows you to:
 
-    * **Parent  
-      **Allows you to select the entire layout container component for taking action on the whole.  
+    * **Parent**
+      Allows you to select the entire layout container component for taking action on the whole.  
     
     * **Float to new line** 
       The component will be moved to a new line, dependent on the space available within the grid.  
@@ -230,23 +230,23 @@ When in layout mode you can perform various actions on a grid:
 
   The toolbar will have different options depending on the state of the layout component and the components belonging to it. For example:
 
-    * **Parent - **Select the parent component.
+    * **Parent** - Select the parent component.
 
   ![](do-not-localize/screen_shot_2018-03-23at090823.png)
 
-    * **Show hidden components - **Reveal all or individual components. The number indicates how many hidden components there currently are. The the counter shows how many components are hidden.
+    * **Show hidden components** - Reveal all or individual components. The number indicates how many hidden components there currently are. The the counter shows how many components are hidden.
 
   ![](do-not-localize/screen_shot_2018-03-23at091007.png)
 
-    * **Revert breakpoint layout - **Revert to the default layout. This means that no customized layout will be imposed.
+    * **Revert breakpoint layout** - Revert to the default layout. This means that no customized layout will be imposed.
 
   ![](do-not-localize/screen_shot_2018-03-23at091013.png)
 
-    * **Float to new line - **Move the component up a position if spacing allows.
+    * **Float to new line** - Move the component up a position if spacing allows.
 
   ![](assets/screen_shot_2018-03-23at090829.png)
 
-    * **Hide component - **Hide the current component.
+    * **Hide component** - Hide the current component.
 
   ![](do-not-localize/screen_shot_2018-03-23at090834.png)
 
@@ -255,7 +255,7 @@ When in layout mode you can perform various actions on a grid:
   >In the above example the float and hide actions are available because this Layout Container is nested within a parent Layout Container.
 
     * **Unhide components** 
-      Select the parent components to show the action toolbar with the **Show hidden components **option. In this example, two components are hidden.
+      Select the parent components to show the action toolbar with the **Show hidden components** option. In this example, two components are hidden.
 
   ![](assets/screen_shot_2018-03-23at091200.png)
 

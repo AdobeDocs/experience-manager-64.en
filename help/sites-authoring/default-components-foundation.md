@@ -162,7 +162,7 @@ These are available in two tabs:
     * Controls Style  
       Various options are available from a pulldown menu; for example, Prev / Next Buttons, Top-Right Switches.
 
-* **List ** 
+* **List** 
   Here you specify how pages are included in your Carousel:
 
     * **Build list using** 
@@ -276,8 +276,8 @@ The external application integration component (**External**) enables you to emb
     * **Pass parameters** 
       Check the box for parameters to be passed to the application when required.
     
-    * **Width and Height  
-      **Define the size of the iframe
+    * **Width and Height**
+      Define the size of the iframe
 
 The external application is integrated into the paragraph system of the AEM page; for example, when using a Target application of `https://en.wikipedia.org/wiki/Main_Page`:
 
@@ -336,7 +336,6 @@ Once the image is uploaded (and not before) you can use [inplace editing](/help/
 >[!NOTE]
 >
 >The in-place editor uses the original size and aspect ratio of the image when editing. You can also specify height and width properties. Any size and aspect ratio restrictions defined in the properties are applied when you save your edit changes.  
-
 >
 >Depending on your instance, minimum and maximum restrictions may also be imposed by the [design of the page](/help/sites-developing/designer.md); these are developed during project implementation.
 
@@ -349,7 +348,6 @@ Several additional options are available in the full-screen editing mode; for ex
 >The progress of the upload cannot be monitored with Internet Explorer.
 >
 >Internet Explorer users need to upload the image and click **Ok** then re-open the image to see the uploaded file in the preview and to be able to perform modifications (i.e. crop).  
-
 >
 >See the [Supported Platforms](/help/release-notes/release-notes.md#supported-platforms) section for more information about HTML5 features used by AEM.
 
@@ -413,29 +411,29 @@ The List component allows you to configure search criteria for displaying a list
 
         * **Options for Child Pages**
 
-            * **Children of **(Parent Page)  
+            * **Children of** (Parent Page)  
               Specify a path either manually or using the selector. Leave empty to use the current page as parent.
 
         * **Options for Fixed List**
 
-            * **Pages  
-              **Select a list of pages. Use + to add more entries and the up/down buttons to adjust the order.
+            * **Pages**  
+              Select a list of pages. Use + to add more entries and the up/down buttons to adjust the order.
 
         * **Options for Search**
 
-            * **Start in  
-              **Enter a starting path, either manually or using the selector.
-            * **Search query  
-              **You can enter a plain text search query.
+            * **Start in**
+              Enter a starting path, either manually or using the selector.
+            * **Search query**
+              You can enter a plain text search query.
 
         * **Options for Advanced Search**
 
-            * **Querybuilder predicate notation  
-              **You can enter a search query using Querybuilder predicate notation. For example, you can enter "fulltext=Marketing" to have all pages with "Marketing" in their content show up in the Carousel.  
+            * **Querybuilder predicate notation**
+              You can enter a search query using Querybuilder predicate notation. For example, you can enter "fulltext=Marketing" to have all pages with "Marketing" in their content show up in the Carousel.  
               See [QueryBuilder API](/help/sites-developing/querybuilder-api.md) for full discussion of query expressions and further examples.
 
-        * **Tags  
-          **Specify the **Parent page**, **Tags/Keywords** and your required match criteria.
+        * **Tags**
+          Specify the **Parent page**, **Tags/Keywords** and your required match criteria.
 
     * **Display as** 
       How you want the items to be listed; includes Links, Teasers and News.
@@ -971,10 +969,10 @@ This component is needed to define the start of a new form on a page. You can co
       Defines the form validation resource type if you want to validate the entire form (instead of individual fields). If you are validating the complete form, also include one of the following:
 
         * A script for client validation:  
-          `/apps/<*myApp*>/form/<*myValidation*>/formclientvalidation.jsp`
+          `/apps/<myApp>/form/<myValidation>/formclientvalidation.jsp`
         
         * A script for validation on the server side:  
-          `/apps/<*myApp*>/form/<*myValidation*>/formservervalidation.jsp`
+          `/apps/<myApp>/form/<myValidation>/formservervalidation.jsp`
 
     * **Action Configuration** 
       The options available in **Action Configuration** are dependent on the **Action Type** selected:

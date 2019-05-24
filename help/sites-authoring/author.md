@@ -11,17 +11,7 @@ content-type: reference
 discoiquuid: 72ee013a-7a60-41ee-9421-2846e4c6bc68
 ---
 
-# Authoring{#authoring}
-
->[!NOTE]
->
->Authoring by default is performed in the standard, touch-enabled AEM UI, which is the focus of this authoring documentation.
->
->For an explanation of the differences between the standard UI and the classic UI, see [Working with the Author Environment](/help/sites-authoring/author-environment.md).
->
->If you are looking for authoring documentation for the classic UI, see [Authoring in the Classic UI User Guide](/help/sites-classic-ui-authoring/home.md).
-
-## Concept of Authoring (and Publishing) {#concept-of-authoring-and-publishing}
+# Concept of Authoring and Publishing{#authoring}
 
 AEM provides you with two environments:
 
@@ -41,9 +31,7 @@ On the author environment the functionality of AEM is made available through two
 
 >[!NOTE]
 >
->AEM itself is used to author the AEM documentation. 
->
->Together with the Dispatcher it is also used for publishing.
+>AEM itself along with the Dispatcher is used to publish this AEM documentation. 
 
 ### Author Environment {#author-environment}
 

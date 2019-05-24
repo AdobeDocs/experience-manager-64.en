@@ -13,7 +13,42 @@ discoiquuid: 9cadec1b-f435-4fd8-b4bc-1a23a0cf11f3
 
 # Selecting your UI{#selecting-your-ui}
 
-Although the touch-enabled UI is now the standard UI and feature parity has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the [classic UI](/help/sites-classic-ui-authoring/classicui.md). There are several options for doing this.
+## Understanding the UIs
+
+The author environment allows for:
+
+* [Authoring](/help/sites-authoring/author.md) (including [page authoring](/help/sites-authoring/page-authoring.md), [managing assets](/help/assets/home.md), [communities](/help/communities/author-communities.md))  
+
+* [Administering](/help/sites-administering/home.md) tasks you need when generating and maintaining the content on your website
+
+Two graphical user interfaces are provided to achieve this. These are accessible through any modern browser.
+
+1. Touch-Enabled UI
+
+    * This is the modern, default AEM UI.
+    * It is predominantly grey, with a clean, flat interface.
+    * Designed for use on both touch and desktop devices, the look and feel is the same on all devices, though [viewing and selecting your resources](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources) differs slightly (taps versus clicks).
+
+        * Desktop:
+
+   ![](assets/screen_shot_2018-03-23at115248.png)
+
+    * Tablet devices (or desktop less than 1024 pixels wide):
+
+   ![](assets/screen_shot_2018-03-23at115505.png)
+
+1. Classic UI
+
+    * This is the legacy UI and has been available in AEM for many years.
+    * It is predominantly green.
+    * It was designed for use on desktop devices.
+    * The following documentation focuses on the modern UI. For information about authoring in the classic UI, see the [Authoring documentation for the Classic UI](/help/sites-classic-ui-authoring/classicui.md).
+
+   ![](assets/chlimage_1-232.png)
+
+## Switching UIs
+
+Although the touch-enabled UI is now the standard UI and [feature parity](help/release-notes/touch-ui-features-status.md) has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the [classic UI](/help/sites-classic-ui-authoring/classicui.md). There are several options for doing this.
 
 >[!NOTE]
 >
