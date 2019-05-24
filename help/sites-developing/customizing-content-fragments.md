@@ -330,7 +330,7 @@ The following three interfaces can serve as entry points:
 
     * **Content Element**
   
-    <pre><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentElement.html">ContentElement</a></pre>
+        <pre><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentElement.html">ContentElement</a></pre>
 
         * Get basic data (name, title, description)
         * Get/Set content
@@ -346,13 +346,13 @@ The following three interfaces can serve as entry points:
 
     * **Content Variation** 
 
-    <pre><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentVariation.html">ContentVariation</a></pre>
+        <pre><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentVariation.html">ContentVariation</a></pre>
 
         * Get basic data (name, title, description)
         * Get/Set content
         * Simple synchronization, based on last modified information
 
-  All three interfaces ( `ContentFragment`, `ContentElement`, `ContentVariation`) extend the `Versionable` interface, which adds versioning capabilities, required for content fragments:
+All three interfaces ( `ContentFragment`, `ContentElement`, `ContentVariation`) extend the `Versionable` interface, which adds versioning capabilities, required for content fragments:
 
     * Create new version of the element
     * List versions of the element
