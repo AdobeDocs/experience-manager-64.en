@@ -57,9 +57,7 @@ When discussing segmentation, the following terminology is used:
 * Gender
 * Location
 
-**Derived Traits**
-
-Some demographic traits are hard to determine without registration, but can be derived by combining behavioral and demographic traits.
+**Derived Traits** Some demographic traits are hard to determine without registration, but can be derived by combining behavioral and demographic traits.
 
 For example, combining the referring URL (as a behavioral trait) with demographic data (acquired from tools such as [Google Ad Planner](https://www.google.com/adplanner/)) allows site owners to derive demographics traits of their visitors.
 

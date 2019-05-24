@@ -44,7 +44,6 @@ A special [mode](/help/sites-authoring/author-environment-tools.md#page-modes) i
 >[!NOTE]
 >
 >You can annotate a variety of resources:  
-
 >
 >* [Annotating assets](/help/assets/managing-assets-touch-ui.md#annotating)
 >* [Annotating video assets](/help/assets/managing-video-assets.md#annotating-video-assets)
