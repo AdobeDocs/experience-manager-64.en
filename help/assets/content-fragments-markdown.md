@@ -37,23 +37,21 @@ You can define:
 
 To create a header by placing a hash tag (#) in front of the heading. One hash tag (#) is used for an H1, two hash tags (##) for a H2 etc. You can use up to 6 hash tags. For example:
 
-`## This is an H2`
+&nbsp;&nbsp;&nbsp;&nbsp;`## This is an H2`
 
-`### This is an H3`
+&nbsp;&nbsp;&nbsp;&nbsp;`### This is an H3`
 
-`###### This is a H6`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`###### This is a H6`
 
 Optionally, you can create a H1 by underlining the text in equal signs and create a H2 by underlining the text in minus signs. For example:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`This is an H1`  
 
-`This is an H1`  
+&nbsp;&nbsp;&nbsp;&nbsp;`=============`
 
-`=============`
+&nbsp;&nbsp;&nbsp;&nbsp;`This is an H2`  
 
-`This is an H2`  
-
-`-------------`
+&nbsp;&nbsp;&nbsp;&nbsp;`-------------`
 
 ## Paragraphs and Line Breaks {#paragraphs-and-line-breaks}
 
@@ -69,37 +67,31 @@ In both styles, the link text is delimited by square brackets `[]`.
 
 These are examples of inline links:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`This is [an example](https://example.com/ "Title") inline link.`
 
-`This is [an example](https://example.com/ "Title") inline link.`
+&nbsp;&nbsp;&nbsp;&nbsp;`This is [an example of an email link](emailto:myaddress@mydomain.info)`
 
-`This is [an example of an email link](emailto:myaddress@mydomain.info)`
-
-`[This link](https://example.net/) has no title attribute.`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`[This link](https://example.net/) has no title attribute.`
 
 A reference link has the following syntax:
 
-
-`Hey you should [checkout][0] this [cool thing][wiki] that I [made][].`
+&nbsp;&nbsp;&nbsp;&nbsp;`Hey you should [checkout][0] this [cool thing][wiki] that I [made][].`
   
-`[0]: https://www.google.ca`  
+&nbsp;&nbsp;&nbsp;&nbsp;`[0]: https://www.google.ca`  
 
-`[wiki]: https://www.wikipedia.org`  
+&nbsp;&nbsp;&nbsp;&nbsp;`[wiki]: https://www.wikipedia.org`  
 
-`[made]: https://www.stackoverflow.com`  
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;`[made]: https://www.stackoverflow.com`
+  
 ## Images {#images}
 
 The syntax for images is similar to the links. You can create inline and referenced images.
 
 For example, an inline image has the following syntax:
 
-
-`![Alt text](/path/to/img.jpg)`  
+&nbsp;&nbsp;&nbsp;&nbsp;`![Alt text](/path/to/img.jpg)`  
   
-`![Alt text](/path/to/img.jpg "Optional title")`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`![Alt text](/path/to/img.jpg "Optional title")`
 
 The syntax includes:
 
@@ -109,40 +101,33 @@ The syntax includes:
 
 A Reference-style image has the following syntax:
 
-
-`![Alt text][id]`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`![Alt text][id]`
 
 Where “id” is the name of a defined image reference. Image references are defined using syntax identical to link references:
 
-
-`[id]: url/to/image "Optional title attribute"`
+&nbsp;&nbsp;&nbsp;&nbsp;`[id]: url/to/image "Optional title attribute"`
 
 ## Block Quotes {#block-quotes}
 
 You can quote text by adding the &gt; symbol before the text. For example:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`>This is block quotes`  
 
-`>This is block quotes`  
+&nbsp;&nbsp;&nbsp;&nbsp;`>asdhfjlkasdhlf`  
 
-`>asdhfjlkasdhlf`  
-
-`>asdfahsdlfasdfj`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`>asdfahsdlfasdfj`
 
 You can have nested block quotes. For example:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`> This is the first level of quoting.` 
 
-`> This is the first level of quoting.`  
+&nbsp;&nbsp;&nbsp;&nbsp;`>`  
 
-`>`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`>> This is nested blockquote.`  
 
-&nbsp;&nbsp;&nbsp;&nbsp;`>> This is nested blockquote.`  
+&nbsp;&nbsp;&nbsp;&nbsp;`>`  
 
-`>`  
-
-`> Back to the first level.`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`> Back to the first level.`
 
 ## Lists {#lists}
 
@@ -150,19 +135,17 @@ You can create both ordered and unordered lists.
 
 To create an unordered list, use the &ast; symbol before the items in the list. For example:
 
-`* item in list`  
-`* item in list`  
-`* item in list`
+&nbsp;&nbsp;&nbsp;&nbsp;`* item in list`  
+&nbsp;&nbsp;&nbsp;&nbsp;`* item in list`  
+&nbsp;&nbsp;&nbsp;&nbsp;`* item in list`
 
 To create an ordered list, add the numbers, followed by a period, before each item in the list. For example:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`1. First item in list.`  
 
-`1. First item in list.`  
+&nbsp;&nbsp;&nbsp;&nbsp;`2. Second item in list.`  
 
-`2. Second item in list.`  
-
-`3. Third item in list.`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`3. Third item in list.`
 
 ## Emphasis {#emphasis}
 
@@ -170,71 +153,60 @@ You can add italic or bold styling to your text.
 
 To can add italics as follows:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`*single asterisks*`
 
-`*single asterisks*`
+&nbsp;&nbsp;&nbsp;&nbsp;`_single underscores_`
 
-`_single underscores_`
-
-`Keyboard shortcut: Ctrl-I (Cmd-I)`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`Keyboard shortcut: Ctrl-I (Cmd-I)`
 
 You can bold text as follows:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`**double asterisks**`
 
-`**double asterisks**`
+&nbsp;&nbsp;&nbsp;&nbsp;`__double underscores__`
 
-`__double underscores__`
-
-`Keyboard shortcut: Ctrl-B (Cmd-B)`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`Keyboard shortcut: Ctrl-B (Cmd-B)`
 
 To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph.
 
 For example:
 
-
-``Use the `printf()` function.``
-
+&nbsp;&nbsp;&nbsp;&nbsp;``Use the `printf()` function.``
 
 ## Code Blocks {#code-blocks}
 
 Code blocks are typically used to illustrate source code. You can create code blocks by indenting the code using a tab or a minimum of 4 spaces. For example:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`This is a normal paragraph.`
 
-`This is a normal paragraph.`
-
-&nbsp;&nbsp;&nbsp;&nbsp;`This is a code block.`
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`This is a code block.`
 
 ## Backslash escapes {#backslash-escapes}
 
 You can use backslash escapes to generate literal characters which have special meaning in formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML &lt;em&gt; tag), you can use backslashes before the asterisks, like this:
 
-
-`\*literal asterisks\*`
-
+&nbsp;&nbsp;&nbsp;&nbsp;`\*literal asterisks\*`
 
 Backslash escapes are available for the following characters:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`\ backslash`
 
-`\ backslash`
+&nbsp;&nbsp;&nbsp;&nbsp;` backtick
 
-` backtick
+&nbsp;&nbsp;&nbsp;&nbsp;`* asterisk`
 
-`* asterisk`
+&nbsp;&nbsp;&nbsp;&nbsp;`_ underscore`
 
-`_ underscore`
+&nbsp;&nbsp;&nbsp;&nbsp;`{} curly braces`
 
-`{} curly braces`
+&nbsp;&nbsp;&nbsp;&nbsp;`[] square brackets`
 
-`[] square brackets`
+&nbsp;&nbsp;&nbsp;&nbsp;`() parentheses`
 
-`() parentheses`
+&nbsp;&nbsp;&nbsp;&nbsp;`# hash mark`
 
-`# hash mark`
+&nbsp;&nbsp;&nbsp;&nbsp;`+ plus sign`
 
-`+ plus sign`
+&nbsp;&nbsp;&nbsp;&nbsp;`- minus sign (hyphen)`
 
-`- minus sign (hyphen)`
-
-`. dot`
+&nbsp;&nbsp;&nbsp;&nbsp;`. dot`
