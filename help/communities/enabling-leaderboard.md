@@ -50,27 +50,31 @@ Select the placed `Leaderboard` component to access and select the `Configure` i
 Under the **Settings **tab, specify what information related to the member is displayed:
 
 * **Display Name** 
-  A descriptive name to display for the board, reflecting the rules selected for displaying badges and scores.  
+  A descriptive name to display for the board, reflecting the rules selected for displaying badges and scores.
+
   Default is `Leaderboard`, if nothing entered.
 
 * **Badge** 
   If checked, a column for badge icons is included in the leaderboard.  
+
   Default is unchecked.
 
 * **Badge Name** 
   If checked, a column for the badge name is included in the leaderboard.  
+
   Default is unchecked.
 
 * **Use Avatar** 
   If checked, the member's avatar image is included in the leaderboard, next to their name link to their member profile.  
+
   Default is unchecked.
 
 ### Rules tab {#rules-tab}
 
-Under the **Rules **tab, the community site, and its scoring and badging rules
+Under the **Rules** tab, the community site, and its scoring and badging rules
 
 * **Rule Location** 
-  (required) Location where the Scoring / Badging rule is configured.
+  (required) Location where the Scoring/Badging rule is configured.
 
 * **Scoring Rule** 
   (required) Specific rule generating the scores to display.
@@ -79,6 +83,7 @@ Under the **Rules **tab, the community site, and its scoring and badging rules
   (required) Specific rule generating the badge to display.
 
 * **Display Limit**Number of members to display per page.  
+
   Default is 10.
 
 ## Example: Participants Leaderboard {#example-participants-leaderboard}

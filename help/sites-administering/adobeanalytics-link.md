@@ -72,16 +72,20 @@ Properties for tracking when external links are clicked:
   Enables external link tracking.
 
 * **External Filters** 
-  (Optional) Defines filters for matching the external URLs of the link targets. When the link targets match the filter, the link is tracked. External filters are useful for tracking only some of the external links on your pages.  
+  (Optional) Defines filters for matching the external URLs of the link targets. When the link targets match the filter, the link is tracked. External filters are useful for tracking only some of the external links on your pages.
+
   To specify the external links to track, type all or part of the URL of the link target. Separate multiple filters with a comma. Enclose string literals within single quotation marks. No value (the default value of `''`, two single quotes) causes all external links to be tracked.
 
 * **Internal Filters** 
-  Defines filters for matching the URLs of internal links. When the link targets URLs that match this filter, the link is not tracked. The default value is a javascript command that returns the hostname of the URL for the current window address.  
+  Defines filters for matching the URLs of internal links. When the link targets URLs that match this filter, the link is not tracked. The default value is a javascript command that returns the hostname of the URL for the current window address. 
+
   To specify the internal links that are not tracked, type all or part of the internal URL of the link target. Separate multiple filters with a comma. Enclose string literals within single quotation marks.  
+
   The default value is `'javascript:,'+window.location.hostname`  
 
 * **Leave Query String** 
   Includes URL parameters when evaluating matches with internal and external filters.  
+
   Enable to include URL parameters when evaluating link target URLs against external and internal filters.
 
 The external link tracking properties are implemented as code in the `analytics.sitecatalyst.js` file that is generated for a page. The following example code is generated for a page that is associated with a framework that has enabled external link tracking with the following configuration:
@@ -111,12 +115,15 @@ To send variable data with link clicks:
 Properties for sending variable data with link clicks:
 
 * **Link Track Events** 
-  Enter the Adobe Analytics event variables that you want to use for counting link clicks.   
-  Separate multiple variable names with a comma.   
+  Enter the Adobe Analytics event variables that you want to use for counting link clicks.  
+
+  Separate multiple variable names with a comma.  
+
   The default value of `None` causes no event tracking.
 
 * **Link Track Vars** 
-  Enter the Adobe Analytics variables that you want to send to Adobe Analytics when links are clicked. Separate multiple variable names with a comma.   
+  Enter the Adobe Analytics variables that you want to send to Adobe Analytics when links are clicked. Separate multiple variable names with a comma.  
+
   The default value of `None` causes no variable data to be sent.
 
 When you specify the events and variables to send, the configuration is implemented as code in the `analytics.sitecatalyst.js` file that is generated for a page. The following example code is generated for a page when the framework tracks the `event10` event and the `prop4` property:
@@ -199,7 +206,8 @@ This example illustrates how the mapping works in the context of tracking and th
 
 1. Select **Track External**.
 1. Deselect **Leave Query String**.
-1. Use the following value for the **External Filters** list to identify it as an external URL:  
+1. Use the following value for the **External Filters** list to identify it as an external URL: 
+
    `‘yahoo.com’`  
 
 1. Add the following value to the **Link Track Events** field:
@@ -214,7 +222,8 @@ This example illustrates how the mapping works in the context of tracking and th
        eVar1,eVar2
    ```
 
-1. On the page that is associated with the framework, add a **Text **component. Inside the **Text** component, add a hyperlink pointing to the following address:  
+1. On the page that is associated with the framework, add a **Text** component. Inside the **Text** component, add a hyperlink pointing to the following address: 
+
    `https://search.yahoo.com/?p=this`  
 
 1. Switch to **Preview mode** and click the link.
@@ -322,8 +331,10 @@ Use the following procedure to configure link tracking for a **Text** component:
 
 1. Enable **Custom Link Tracking** to override the link tracking configuration of the Adobe Analytics framework and to enable link tracking for the current link.  
 
-1. (Optional) To track events with the link click, add Adobe Analytics event names in the **Include Adobe Analytics Variables** field. Separate multiple event name with commas, for example  
+1. (Optional) To track events with the link click, add Adobe Analytics event names in the **Include Adobe Analytics Variables** field. Separate multiple event name with commas, for example
+
    `event1, event22`.
+   
 1. (Optional) To track variable data with the link click, add Adobe Analytics variables in the **Include Adobe Analytics Variables** field. Use either of the following formats:
 
     * `*<Variable-name>*: *<Dynamic Value>*`

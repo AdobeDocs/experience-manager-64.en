@@ -42,6 +42,7 @@ The version specified should correspond to the Communities package version insta
 
 * login with adminstrative privileges
 * browse to [Package Manager](/help/sites-administering/package-manager.md)  
+
   for example, [http://localhost:4502/crx/packmgr/](http://localhost:4502/crx/packmgr/)
 
 * locate the package *cq-socialcommunities-pkg-1.x.xxx*

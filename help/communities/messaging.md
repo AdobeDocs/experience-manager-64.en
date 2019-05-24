@@ -91,6 +91,7 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 
 * **serviceSelector.name** 
   (*Required*) An absolute path (endpoint) through which the service is invoked (a virtual resource). The root of the path chosen must be one included in the *Execution Paths* configuration setting of OSGi config [ `Apache Sling Servlet/Script Resolver and Error Handler`](http://localhost:4502/system/console/configMgr/org.apache.sling.servlets.resolver.SlingServletResolver), such as `/bin/`, `/apps/`, and `/services/`. To select this configuration for a site's messaging feature, this endpoint is provided as the **`Service selector`** value for the `Message List and Compose Message components` (see [Message Feature](/help/communities/configure-messaging.md)).  
+  
   The default is */bin/messaging* .
 
 * **fieldWhitelist.name** 

@@ -127,7 +127,6 @@ The following entries should be added to the end of the /filter section, especia
 
 # Enable CSRF token otherwise nothings works.
 /5001 { /type "allow" /glob "GET /libs/granite/csrf/token.json *"}        
-    
 # Allow SCF User Model to bootstrap as it depends on the granite user
 /5002 { /type "allow" /glob "GET /libs/granite/security/currentuser.json*" }
    

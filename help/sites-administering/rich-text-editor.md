@@ -255,8 +255,10 @@ The [mode of RTE editing (and the UI)](#editingmodes) that you provide for your 
 
 Configure the following properties that apply in Dialog editing mode in Touch UI only:
 
-* `useFixedInlineToolbar`: Set this Boolean property defined on the RTE node (one with sling:resourceType= `cq/gui/components/authoring/dialog/richtext`) to `True`, to make RTE toolbar fixed instead of floating.  
-  When this property is true, Richtext editing is, by default, started on the "foundation-contentloaded" event.  
+* `useFixedInlineToolbar`: Set this Boolean property defined on the RTE node (one with sling:resourceType= `cq/gui/components/authoring/dialog/richtext`) to `True`, to make RTE toolbar fixed instead of floating.
+
+  When this property is true, Richtext editing is, by default, started on the "foundation-contentloaded" event.
+  
   To prevent this, set the property `customStart` to `True`and trigger the 'rte-start' event to start RTE editing. When this property is 'true', the default behavior, rte start on click, does not work.
 
 * `customStart`: Set this Boolean property defined on the RTE node to `True`, to control when to start RTE by triggering the event `rte-start`.
@@ -397,9 +399,7 @@ On a page, you can either include CoralUI 2 RTE clientlib or the CoralUI 3 RTE c
 1. Overlay the node `/libs/cq/gui/components/authoring/editors/clientlibs/core` under `/apps`, and do the following:
 
     * Replace `rte.coralui3` with `rte.coralui2` for the dependencies property.
-    
     * Replace `cq.authoring.editor.core.inlineediting.rte.coralui3` with `cq.authoring.editor.core.inlineediting.rte.coralui2` for the embed property.
-    
     * Replace `cq.authoring.rte.coralui3` with `cq.authoring.rte.coralui2` for the embed property.
 
 1. Overlay the nodes `/libs/cq/gui/components/authoring/dialog/richtext/clientlibs/rte/coralui3` and `/libs/cq/gui/components/authoring/dialog/richtext/clientlibs/rte/coralui2` under `/apps`.
@@ -423,7 +423,7 @@ In particular, to see the plug-ins and related options available:
 * The [CQ.form.RichText](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.RichText) component provides a form field for editing styled text information (rich text). To know all the parameters available for the rich text form, see the Config Options.
 * The RichText component provides a wide range of functionality using plug-ins listed under [CQ.form.rte.plugins.Plugin](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.Plugin). For each plug-in:
 
-    * see the Features for details of functionality that can be enabled (or disabled)  
+    * see the Features for details of functionality that can be enabled (or disabled)
     * See the Config Options for all parameters available for detailed configuration of the appropriate plug-in
 
 * More information about HTML Rules for links is also available.

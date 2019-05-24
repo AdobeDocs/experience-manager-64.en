@@ -30,7 +30,7 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
   The **Users** console lists:
 
     * the user name
-    * the user login name (account name)  
+    * the user login name (account name)
     * any title that the account has been given
 
 * [Group Administration](#group-administration)
@@ -58,13 +58,16 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
    Here you can enter the user details for the account (most are standard and self-explanatory):
 
     * **ID** 
-      This is the unique identification for the user account. It is mandatory and cannot contain spaces.  
+
+      This is the unique identification for the user account. It is mandatory and cannot contain spaces. 
     
     * **Email Address**
     * **Password** 
+
       A password is mandatory.
     
     * **Retype Password** 
+
       This is mandatory as it is required for confirmation of the password.
     
     * **First Name**
@@ -86,14 +89,19 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
           You can flag the account as either **active** or **inactive**.
 
     * **Photo** 
-      Here you can upload a photo to use as an avatar.  
-      Accepted file types: `.jpg .png .tif .gif`  
+
+      Here you can upload a photo to use as an avatar.
+
+      Accepted file types: `.jpg .png .tif .gif`
+
       Preferred size: `240x240px`
     
     * **Add User to Groups** 
-      Use the selection drop-down to select groups that the user should be a member of. Once selected, use the **X** by the name to deselect before saving.  
+
+      Use the selection drop-down to select groups that the user should be a member of. Once selected, use the **X** by the name to deselect before saving.
     
     * **Groups** 
+
       A list of group(s) that the user is currently a member of. Use the **X** by the name to deselect before saving.
 
 1. When you have defined the user account use:
@@ -140,8 +148,7 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
 
 1. When you have assigned, or unassigned, the groups as required use:
 
-    * **Cancel** to abort the changes  
-    
+    * **Cancel** to abort the changes
     * **Save** to confirm the changes
 
 ### Deleting Existing User Details {#deleting-existing-user-details}
@@ -168,18 +175,23 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
    Here you can enter the group details:
 
     * **ID** 
-      This is a unique identifier for the group. This is mandatory and cannot contain spaces.  
+
+      This is a unique identifier for the group. This is mandatory and cannot contain spaces. 
     
     * **Name** 
-      A name for the group; it will be shown in the Groups console.  
+
+      A name for the group; it will be shown in the Groups console. 
     
     * **Description** 
-      A description of the group.  
+
+      A description of the group. 
     
-    * **Add Members to Group** 
-      Use the selection drop-down to select user(s) to add to the group. Once selected, use the **X** by the name to deselect before saving.  
-    
+    * **Add Members to Group**
+
+      Use the selection drop-down to select user(s) to add to the group. Once selected, use the **X** by the name to deselect before saving.
+
     * **Group Members** 
+
       A list of user(s) in the group. Use the **X** by the name to deselect before saving.
 
 1. When you have defined the group, use:

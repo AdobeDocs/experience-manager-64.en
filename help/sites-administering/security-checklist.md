@@ -47,10 +47,12 @@ Adobe strongly recommends that after installation you change the password for th
 
 These accounts include:
 
-* The AEM `admin` account  
+* The AEM `admin` account
+
   Once you have changed the password for the AEM admin account, you will need to use the new password when accessing CRX.
 
-* The `admin` password for the OSGi Web console  
+* The `admin` password for the OSGi Web console
+
   This change will also be applied to the admin account used for accessing the Web console, so you will need to use the same password when accessing that.
 
 These two accounts use separate credentials and having distinct, strong password for each is vital to a secure deployment.
@@ -168,7 +170,8 @@ By default, all variations of localhost and the current host names the server is
 
 To configure the referrer filter service:
 
-1. Open the Apache Felix console (**Configurations**) at:  
+1. Open the Apache Felix console (**Configurations**) at:
+
    `https://<*server*>:<*port_number*>/system/console/configMgr`  
 
 1. Login as `admin`.
@@ -176,8 +179,10 @@ To configure the referrer filter service:
 
    `Apache Sling Referrer Filter`
 
-1. In the `Allow Hosts` field, enter all hosts that are allowed as a referrer. Each entry needs to be of the form  
-   &lt;protocol&gt;://&lt;server&gt;:&lt;port&gt;   
+1. In the `Allow Hosts` field, enter all hosts that are allowed as a referrer. Each entry needs to be of the form
+
+   &lt;protocol&gt;://&lt;server&gt;:&lt;port&gt; 
+
    For example:
 
     * `https://allowed.server:80` allows all requests from this server with the given port.
@@ -239,10 +244,12 @@ When working with AEM there are several methods of managing the configuration se
 A denial of service (DoS) attack is an attempt to make a computer resource unavailable to its intended users. This is often done by overloading the resource; for example:
 
 * With a flood of requests from an external source.
-* With a request for more information than the system can successfully deliver.  
+* With a request for more information than the system can successfully deliver.
+
   For example, a JSON representation of the entire repository.  
 
-* By requesting a content page with an unlimited number of URLs, The URL can include a handle, some selectors, an extension, and a suffix - any of which can be modified.  
+* By requesting a content page with an unlimited number of URLs, The URL can include a handle, some selectors, an extension, and a suffix - any of which can be modified.
+
   For example, `.../en.html` can also be requested as: ``
 
     * `.../en.ExtensionDosAttack`
@@ -273,18 +280,22 @@ To help prevent DoS misuse you can:
    In your application you should:
 
     * Control the selectors in your application, so that you *only* serve the explicit selectors needed and return `404` for all others.
-    
     * Prevent the output of an unlimited number of content nodes.
 
 1. Check the configuration of the default renderers, which can be a problem area.
 
-    * In particular the JSON renderer which can transverse the tree structure over multiple levels.  
-      For example, the request:  
-      `http://localhost:4502/.json`  
-      could dump the whole repository in a JSON representation. This would cause significant server problems. For this reason Sling sets a limit on the number of maximum results. To limit the depth of the JSON rendering you can set the value for:  
-      **JSON Max results** ( `json.maximumresults`)  
-      in the configuration for the [Apache Sling GET Servlet](/help/sites-deploying/osgi-configuration-settings.md). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `200`.  
-    
+    * In particular the JSON renderer which can transverse the tree structure over multiple levels.
+
+      For example, the request:
+
+      `http://localhost:4502/.json`
+
+      could dump the whole repository in a JSON representation. This would cause significant server problems. For this reason Sling sets a limit on the number of maximum results. To limit the depth of the JSON rendering you can set the value for: 
+      
+      **JSON Max results** ( `json.maximumresults`)
+
+      in the configuration for the [Apache Sling GET Servlet](/help/sites-deploying/osgi-configuration-settings.md). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `200`.
+
     * As a preventive measure disable the other default renderers (HTML, plain text, XML). Again by configuring the [Apache Sling GET Servlet](/help/sites-deploying/osgi-configuration-settings.md).
 
    >[!CAUTION]

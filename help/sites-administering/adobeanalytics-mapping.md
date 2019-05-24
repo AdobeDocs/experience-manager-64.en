@@ -56,7 +56,7 @@ Use the following procedure to map CQ component variables with Adobe Analytics r
    >
    >It is highly recommended that:
    >
-   >* `eVars` and `props` are mapped to CQ variables beginning with either  `pagedata.X` or `eventdata.X`   
+   >* `eVars` and `props` are mapped to CQ variables beginning with either  `pagedata.X` or `eventdata.X` 
    >* whereas events should be mapped to variables starting with `eventdata.events.X`
 
 1. To make the framework available on the publish instance of your site, open the **Page **tab of sidekick, and click **Activate Framework.**
@@ -109,9 +109,7 @@ The list can be manipulated in the following ways:
 
     * If* no button* is selected, the list shows the full list.
     * If the **Traffic** button is selected, the list will only show the variables belonging to the Traffic section
-    
     * If the **Conversion** button is selected, the list will only show the variables belonging to the Conversion section. 
-    
     * If the **Events** button is selected, the list will only show the variables belonging to the Events section.
 
    >[!NOTE]
@@ -134,7 +132,6 @@ The list can be manipulated in the following ways:
    ![](assets/aa-22.png)
 
     * The variables can be dragged&dropped onto any Adobe Analytics variable belonging to either one of the 3 variable sections (**Traffic**, **Conversion **and **Events**).
-    
     * When dragging a new tracking component onto the framework in CQ view, the CQ variables belonging to the component get automatically added to the Content Finder(cf#) in Adobe Analytics view.
 
    >[!NOTE]
@@ -183,13 +180,11 @@ Taking the above image as an example, the **AEM view** has the following propert
     * **Traffic**:
 
         * Traffic variable ( `prop1`) mapped to a CQ variable ( `eventdata.downloadLink`)
-        
         * When the component has a Padlock next to it, this means it is inherited from a parent framework and thus cannot be edited
 
     * **Conversion**:
 
         * Conversion variable ( `eVar1`) mapped to a CQ variable ( `pagedata.title`)
-        
         * Conversion variable ( `eVar3`) mapped to a javascript expression added inline by double-clicking on the CQ variable field and entering the code manually
 
     * **Event**:

@@ -42,8 +42,7 @@ Follow these steps in order to configure Audit Log Purging:
 1. Next, configure the purge scheduler according to your requirements. The available options are:
 
     * **Rule name:** the name of the audit policy rule;
-    * **Content path:** the path of the content the rule will apply to;  
-    
+    * **Content path:** the path of the content the rule will apply to; 
     * **Minimum age:** the time in days the audit logs need to be kept;
     * **Audit log type:** the type of audit log that should be purged.
 
@@ -77,8 +76,7 @@ In AEM 6.3, if the scheduled maintenance window closes before the Audit Log Purg
 1. In the next window, configure your rule accordingly. The options are:
 
     * **Rule name:** the name of the audit policy rule;
-    * **Content path:** the path of the content the rule will apply to  
-    
+    * **Content path:** the path of the content the rule will apply to
     * **Minimum age:** the time in days the audit logs need to be kept
     * **Audit Log Dam event types:** the types of DAM audit events that should be purged.
 
@@ -91,8 +89,7 @@ In AEM 6.3, if the scheduled maintenance window closes before the Audit Log Purg
 1. In the next window, configure your rule accordingly. The options are:
 
     * **Rule name:** the name of the audit policy rule
-    * **Content path:** the path of the content the rule will apply to  
-    
+    * **Content path:** the path of the content the rule will apply to 
     * **Minimum age:** the time in days the audit logs need to be kept
     * **Audit log Replication event types:** the types of Replication audit events that should be purged
 

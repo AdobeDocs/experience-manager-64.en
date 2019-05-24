@@ -232,7 +232,6 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 1. Edit the configuration so that it matches the parameters of your Adobe Campaign instance.
 
     * **Username**: **aemserver**, the Adobe Campaign AEM Integration package operator used to establish the link between the two solutions.
-    
     * **Password**: Adobe Campaign aemserver operator password. You may have to re-specify the password for this operator directly in Adobe Campaign.
     * **API End Point**: Adobe Campaign instance URL.
 
@@ -299,7 +298,6 @@ To add a new personalization field to those that are already available, you have
 1. Enter the different parameters of the extended schema:
 
     * **Schema**: select the **nms:seedMember** schema. The other fields in the window are automatically completed.
-    
     * **Namespace**: personalize the namespace of the extended schema.
 
 1. Edit the XML code of the schema to specify the field that you want to add there. For more information on extending schemas in Adobe Campaign, refer to the [Configuration guide](https://docs.campaign.adobe.com/doc/AC6.1/en/CFG_Editing_schemas_Extending_a_schema.html).

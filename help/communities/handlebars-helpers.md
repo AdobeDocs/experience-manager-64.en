@@ -42,15 +42,19 @@ If safeString is set to true, then the returned string is a SafeString.
 ### parameters {#parameters}
 
 * **context**: String  
+
   (optional) Default is the empty string
 
 * **maxLength**: number  
+
   (optional) Default is the length of the context.
 
 * **maxWords**: number  
+
   (optional) Default is the number of words in the trimmed string.
 
 * **safeString**: boolean  
+
   (optional) Returns a Handlebars.SafeString() if true. Default is false.
 
 ### examples {#examples}
@@ -86,18 +90,23 @@ A helper to add two spans under a div, one for the full text and the other for t
 ### parameters {#parameters-1}
 
 * **context**: String  
+
   (optional) Default is the empty string.  
 
-* **numChars**: number  
+* **numChars**: number 
+
   (optional) The number of characters to display when not displaying full text. Default is 100.
 
-* **moreText**: String  
+* **moreText**: String 
+
   (optional) The text to display indicating there is more text to display. Default is "more".
 
-* **ellipsesText**: String  
+* **ellipsesText**: String 
+
   (optional) The text to display indicating there is hidden text. Default is "...".
 
-* **safeString**: boolean  
+* **safeString**: boolean 
+
   (optional) Boolean value indicating whether or not to apply Handlebars.SafeString() before returning the result. Default is false.
 
 ### example {#example}
@@ -121,9 +130,11 @@ A helper to return a formatted date string.
 ### parameters {#parameters-2}
 
 * **context**: number  
+
   (optional) a millisecond value offset from January 1, 1970 (epoch). Default is the current date.
 
 * **format**: String  
+
   (optional) The date format to apply. Default is "YYYY-MM-DDTHH:mm:ss.sssZ" and the result appears as "2015-03-18T18:17:13-07:00"
 
 ### examples {#examples-1}
@@ -147,9 +158,11 @@ A helper to return content depending on an equality conditional.
 ### parameters {#parameters-3}
 
 * **lvalue**: String  
+
   The left-hand value to compare
 
 * **rvalue**: String  
+
   The right-hand value to compare
 
 ### example {#example-1}
@@ -170,9 +183,11 @@ A block helper that tests the current value of [WCM mode](https://helpx.adobe.co
 ### parameters {#parameters-4}
 
 * **context**: String  
+
   (optional) The string to translate. Required if no default provided.
 
-* **mode**: String  
+* **mode**: String 
+
   (optional) A comma separated list of [WCM modes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) to test if set.
 
 ### example {#example-2}
@@ -194,12 +209,15 @@ See also [Internationalizing Strings in JavaScript Code](/help/sites-developing/
 ### parameters {#parameters-5}
 
 * **context**: String  
+
   (optional) The string to translate. Required if no default provided.
 
 * **default**: String  
+
   (optional) The default string to translate. Required if no context provided.
 
 * **comment**: String  
+
   (optional) A translation hint
 
 ### example {#example-3}
@@ -222,21 +240,28 @@ This helper, appropriate only on the server-side, provides functionality similar
 
 ### parameters {#parameters-6}
 
-* **context**: String or object  
-  (optional, unless providing a relative path)  
+* **context**: String or object 
+
+  (optional, unless providing a relative path) 
+
   use `this`to pass the current context  
+
   use `this.id` to obtain the resource at `id` for rendering the resourceType requested
 
 * **resourceType**: String  
+
   (optional) resource type will default to resource type from context
 
 * **template**: String  
+
   path to component script
 
 * **path**: String  
+
   (required) The path to the resource. If path is relative, a context must be provided, else the empty string is returned.
 
-* **authoringDisabled**: boolean  
+* **authoringDisabled**: boolean 
+
   (optional) Default is false. For internal use only.
 
 ### example {#example-4}
@@ -255,16 +280,20 @@ This helper, appropriate only on the server-side, provides functionality similar
 
 ### parameters {#parameters-7}
 
-* **categories**: String  
+* **categories**: String 
+
   (optional) A list of comma-separated client lib categories. This will include all Javascript and CSS libraries for the given categories. The theme name is extracted from the request.
 
-* **theme**: String  
+* **theme**: String 
+
   (optional) A list of comma-separated client lib categories. This will include all theme related libraries (both CSS and JS) for the given categories. The theme name is extracted from the request.
 
-* **js**: String  
+* **js**: String 
+
   (optional) A list of comma-separated client lib categories. This will include all Javascript libraries for the given categories.
 
 * **css**: String  
+
   (optional) A list of comma-separated client lib categories. This will include all CSS libraries for the given categories.
 
 ### examples {#examples-2}
@@ -318,10 +347,12 @@ For example:
 
 ### parameters {#parameters-8}
 
-* **context**: number  
+* **context**: number 
+
   A time in the past to compare to 'now'. Time is expressed as a millisecond value offset from January 1, 1970 (epoch).
 
 * **daysCutoff**: number  
+
   The number of days ago before switching to an actual date. Default is 60.
 
 ### example {#example-5}
@@ -348,7 +379,8 @@ NOTE: this is not a validator and is not to be used for writing attribute values
 
 ### parameters {#parameters-9}
 
-* **context**: object  
+* **context**: object 
+
   the HTML to encode
 
 ### example {#example-6}
@@ -366,6 +398,7 @@ NOTE: this is not a validator and is not to be used for writing actionalable att
 ### parameters {#parameters-10}
 
 * **context**: object  
+
   the HTML to encode
 
 ### example {#example-7}
@@ -382,7 +415,8 @@ NOTE: this is not a validator and is not to be used for writing to arbitrary Jav
 
 ### parameters {#parameters-11}
 
-* **context**: object  
+* **context**: object 
+
   the HTML to encode
 
 ### example {#example-8}
@@ -400,6 +434,7 @@ NOTE: this may return an empty string
 ### parameters {#parameters-12}
 
 * **context**: object  
+
   the URL to sanitize
 
 ### example {#example-9}

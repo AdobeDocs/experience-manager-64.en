@@ -57,7 +57,8 @@ When you subscribe to either page or forum events notifications, the from-email 
 To configure the from-email address, add a `sling:OsgiConfig` node to the repository. Use the following procedure to add the node directly using CRXDE Lite:
 
 1. In CRXDE Lite, add a folder named `config` below your application folder.
-1. In the config folder, add a node named:  
+1. In the config folder, add a node named:
+
    `com.day.cq.wcm.notification.email.impl.EmailChannel` of type `sling:OsgiConfig`
 
 1. Add a `String` property to the node] named `email.from`. For the value, specify the email address that you want to use.
@@ -112,7 +113,8 @@ This is an automatically generated message. Please do not reply.
 
 To customize the English email template for page notification:
 
-1. In CRXDE, open the file:  
+1. In CRXDE, open the file:
+
    `/etc/notification/email/default/com.day.cq.wcm.core.page/en.txt`
 
 1. Modify the file to your needs.
@@ -134,9 +136,12 @@ Where &lt;text_x&gt; can be a mix of static text and dynamic string variables. T
 * `${userFullName}`, the full name of the user who triggered the event.  
 
 * `${userId}`, the ID of the user who triggered the event.
-* `${modifications}`, describes the type of the page event and the page path in the format:  
-  &lt;page event type&gt; =&gt; &lt;page path&gt;  
-  For example:  
+* `${modifications}`, describes the type of the page event and the page path in the format:
+
+  &lt;page event type&gt; =&gt; &lt;page path&gt;
+
+  For example:
+
   PageModified =&gt; /content/geometrixx/en/products
 
 ### Email Templates for Forum Notification {#email-templates-for-forum-notification}
@@ -167,7 +172,8 @@ This is an automatically generated message. Please do not reply.
 
 To customize the English email template for forum notification:
 
-1. In CRXDE, open the file:  
+1. In CRXDE, open the file: 
+
    `/etc/notification/email/default/com.day.cq.collab.forum/en.txt`
 
 1. Modify the file to your needs.
@@ -221,7 +227,8 @@ This is an automatically generated message. Please do not reply.
 
 To customize the English email template for workflow event notification:
 
-1. In CRXDE, open the file:  
+1. In CRXDE, open the file:
+
    `/etc/workflow/notification/email/default/en.txt`
 
 1. Modify the file to your needs.
@@ -280,8 +287,7 @@ To add a template for a new language:
 
 1. In CRXDE, add a file `<language-code>.txt` below:
 
-    * `/etc/notification/email/default/com.day.cq.wcm.core.page` : for page notifications  
-    
+    * `/etc/notification/email/default/com.day.cq.wcm.core.page` : for page notifications 
     * `/etc/notification/email/default/com.day.cq.collab.forum` : for forum notifications
     * `/etc/workflow/notification/email/default` : for workflow notifications
 

@@ -34,7 +34,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Applying Image Presets](image-presets.md)
     + [Video Profiles](video-profiles.md)
     + [Image Profiles](image-profiles.md)
-    + [Best practices for organizing your digital assets for using Profiles](best-practices-for-file-management.md)  
+    + [Best practices for organizing your digital assets for using Profiles](best-practices-for-file-management.md) 
     + [Smart Imaging](imaging-faq.md)
     + [HTTP2 delivery of content](http2.md)
     + [Delivering Dynamic Media assets](delivering-dynamic-media-assets.md)
@@ -59,7 +59,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Installing Feature Pack 18912 for bulk asset migration](bulk-ingest-migrate.md)
     + [Images](dynamic-media-images.md)
     + [RICKBR -NEW TOPIC BUT NOT FINISHED DO NOT PUBLISH Integrating digital non-visible watermarking (Digimarc) with Dynamic Media](digimarc-integration.md)
-+ Extending Assets {#extending}  
++ Extending Assets {#extending} 
     + [Customizing and Extending Assets](extending-assets.md)
     + [Processing Assets Using Media Handlers and Workflows](media-handlers.md)
     + [Extending Assets Search](searchx.md)
@@ -96,7 +96,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Enabling duplicate detection](duplicate-detection.md)
     + [Enhanced sorting of assets in AEM](enhance-sort.md)
     + [Video](s7-video.md)
-    + [Adding Scene7 features to your page](scene7.md)    
+    + [Adding Scene7 features to your page](scene7.md) 
     + [RICK BROUGH -MANAGING ASSETS Managing video assets](managing-video-assets.md)
     + [RICK BROUGH -MANAGING ASSETS Organize digital assets](organize-assets.md)
 + 3D Assets {#3d}

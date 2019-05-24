@@ -54,6 +54,7 @@ curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx"
 * `resource`  
 
   **Requirements**: the parameter jobid must be set.  
+
   **Result**: Returns a resource associated with the given job.
 
 ```shell
@@ -64,6 +65,7 @@ curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx"
 * `remove`  
 
   **Requirements**: the parameter jobid must be set.  
+
   **Results**: Removes a job if found.
 
 ```shell
@@ -156,7 +158,7 @@ Setting up your own custom proxy worker requires you to:
 
 * Then use the JobService API to:
 
-    * dispatch your custom job to the proxy   
+    * dispatch your custom job to the proxy 
     * manage your job
 
 * If you want to use the proxy from a workflow, you must implement a custom external step using the WorkflowExternalProcess API and the JobService API.

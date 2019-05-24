@@ -89,9 +89,7 @@ Operations for administering running, completed, and failed workflow instances.
 * Arguments:
 
     * Restart the instance: (Optional) Specify a value of `true` to restart the instances after they are terminated. The default value of `false` causes no restarting of terminated workflow instances.
-    
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
-    
     * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the failed instances of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
 
 * Returned value: Tablular data about the instances that are terminated, containing the following columns:
@@ -108,7 +106,6 @@ Operations for administering running, completed, and failed workflow instances.
 * Arguments:
 
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
-    
     * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the failed work items of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
 
 * Returned value: Tablular data about the failed work items that are retried, including the following columns:

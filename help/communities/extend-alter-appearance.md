@@ -58,7 +58,6 @@ One way to do so is
     * select **Tools &gt; Operations &gt; Replication**
     * select `Activate Tree`
     * set `Start Path`: to `/apps/custom`
-    
     * uncheck `Only Modified`
     * select `Activate`button
 

@@ -21,7 +21,8 @@ To access the Classic UI Tagging console :
 
 * on author
 * sign in with administrative privileges
-* browse to the console  
+* browse to the console
+
   for example, [http://localhost:4502/tagging](http://localhost:4502/tagging)
 
 ![](assets/managing_tags_usingthetagasministrationconsole-1.png) 
@@ -41,7 +42,8 @@ To access the Classic UI Tagging console :
 1. In both cases enter
 
     * **Title** 
-      (*Required*) The display title for the tag. While any character may be entered,  
+      (*Required*) The display title for the tag. While any character may be entered,
+
       it is recommended to not use these special characters :
 
         * `colon (:)` - namespace delimiter
@@ -50,9 +52,11 @@ To access the Classic UI Tagging console :
       These characters will not be displayed if entered.
     
     * **Name** 
+
       (*Required*) The node name for the tag.
     
     * **Description** 
+
       (*Optional*) A description for the tag.
     
     * select **Create**
@@ -62,7 +66,7 @@ To access the Classic UI Tagging console :
 1. In the right-hand pane, select the tag that you want to edit.
 1. Click **Edit**.
 1. You can modify the **Title** and the **Description**.
-1. Click **Save **to close the dialog.
+1. Click **Save** to close the dialog.
 
 ## Deleting Tags {#deleting-tags}
 
@@ -142,8 +146,7 @@ The following procedure shows how to translate the `title`of the tag **Animals**
 1. Add the translations in the following languages:
 
     * **English**: Animals
-    * **German**: Tiere  
-    
+    * **German**: Tiere 
     * **French**: Animaux
 
 1. Save the changes.
