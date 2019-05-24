@@ -352,7 +352,7 @@ The following three interfaces can serve as entry points:
         * Get/Set content
         * Simple synchronization, based on last modified information
 
-All three interfaces ( `ContentFragment`, `ContentElement`, `ContentVariation`) extend the `Versionable` interface, which adds versioning capabilities, required for content fragments:
+  All three interfaces ( `ContentFragment`, `ContentElement`, `ContentVariation`) extend the `Versionable` interface, which adds versioning capabilities, required for content fragments:
 
     * Create new version of the element
     * List versions of the element
