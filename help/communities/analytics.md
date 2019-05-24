@@ -89,13 +89,11 @@ By signing in to [Adobe Marketing Cloud](https://marketing.adobe.com/resources/h
 * [11 Conversion Variables](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) (evars)
 
     * **`evar1`** through **`evar11`** enabled
-    
     * can repurpose (rename) existing evars or create new ones to use for Communities features
 
 * [7 Success Events](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) (events)
 
     * **`event1`** through **`event7`** enabled
-    
     * type **`Counter`**
 
         * not **`Counter (no subrelations)`**
@@ -277,9 +275,10 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
    two drop down boxes appear
 
 1. choose a `Report suite`  
+
    the report suites associated with the Company account should be available for selection
 
-1. Select **Yes **in the dialog that opens:
+1. Select **Yes** in the dialog that opens:
 
    ```
    Load default server settings?
@@ -287,6 +286,7 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
    ```
 
 1. choose a `Run Mode`  
+
    choose **publish**
 
 ![](assets/chlimage_1-272.png)
@@ -509,6 +509,7 @@ Following is an example of default mappings after following the [getting started
 * *(g) UGC component title*: Hiking Topics
 * *(h) login (authorizableId)*: aaron.mcdonald@mailinator.com
 * *(i) SRP path to UGC*: /content/usergenerated/asi/.../forum/jmtz-topic3  
+
   or *path of component to follow*: /content/sites/communities/en/jcr:content/content/primary/forum
 
 * *(j) path to community site content*: /content/sites/community/en

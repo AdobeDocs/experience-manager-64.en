@@ -51,7 +51,8 @@ The following step-by-step workflow description is designed to help you get up a
 
     * Organize, browse, and search video assets
 
-        * [Organizing digital assets](organize-assets.md)  
+        * [Organizing digital assets](organize-assets.md) 
+
           Learn more about [Best practices for organizing your digital assets for using processing profiles](best-practices-for-file-management.md)
         
         * [Searching video assets](search-video-assets.md) or [Searching assets](managing-assets-touch-ui.md#searching-assets)
@@ -59,8 +60,11 @@ The following step-by-step workflow description is designed to help you get up a
     * Preview and publish video assets
 
         * View the source video and encoded renditions of the video along with its associated thumbnails:  
+
           [Previewing videos](managing-video-assets.md#uploading-and-previewing-video-assets) or [Previewing assets](previewing-assets.md)  
+
           [Viewing video renditions](video-renditions.md)  
+
           [Managing video renditions](managing-assets-touch-ui.md#managing-renditions)
         
         * [Manage viewer presets](managing-viewer-presets.md)
@@ -69,9 +73,11 @@ The following step-by-step workflow description is designed to help you get up a
     * Work with video metadata
 
         * View the properties of an encoded video rendition such as frame rate, audio and video bitrate, and codec:  
+
           [Viewing video rendition properties](video-renditions.md) 
         
         * Edit the properties of video such as the title, description, and tags, custom metadata fields:  
+
           [Editing video properties](managing-assets-touch-ui.md#editing-properties)
         
         * [Managing metadata for digital assets](metadata.md)
@@ -81,7 +87,6 @@ The following step-by-step workflow description is designed to help you get up a
 
         * [Annotating videos](managing-video-assets.md#annotating-video-assets) or [Annotating assets](managing-assets-touch-ui.md#annotating)
         * [Applying workflows to assets](assets-workflow.md) or [Starting a workflow on an asset](managing-assets-touch-ui.md#starting-a-workflow-on-an-asset)
-        
         * [Review folder assets](bulk-approval.md)
         * [Projects](/help/sites-authoring/projects.md)
 
@@ -94,14 +99,14 @@ The following step-by-step workflow description is designed to help you get up a
     * If you are using a third-party web content management system, you can link or embed videos to your web pages.
 
         * Integrate video using URL:  
+
           [Linking URLs to your web application](linking-urls-to-yourwebapplication.md).
+        * Integrate video using embed code on web page: 
         
-        * Integrate video using embed code on web page:  
           [Embedding the video viewer on a web page](embed-code.md).
 
     * [Publishing videos to YouTube](#publishing-videos-to-youtube).
     * [Generating video reports](#viewing-video-reports).
-    
     * [Adding captions to video](#adding-captions-to-video).
 
 ## Working with video in Dynamic Media {#working-with-video-in-dynamic-media}
@@ -321,9 +326,11 @@ Bitrate is the amount of data that is encoded to make up a single second of vide
 When selecting a bitrate encoding, there are two types you can choose:
 
 * **Constant Bitrate Encoding** (CBR) - During CBR encoding, the bitrate or the number of bits per second is kept the same throughout the encoding process. CBR encoding persists the set data rate to your setting over the entire video. Also, CBR encoding does not optimize media files for quality but does save on storage space.  
+
   Use CBR if your video contains a similar motion level throughout the entire video. CBR is most commonly used for streaming video content. See also [Using custom-added video encoding parameters](video-profiles.md#using-custom-added-video-encoding-parameters).  
 
 * **Variable Bitrate Encoding** (VBR) - VBR encoding adjusts the data rate down and to the upper limit you set, based on the data required by the compressor. This means that during a VBR encoding process the bitrate of the media file dynamically increases or decreases depending on the media files bitrate needs.  
+
   VBR takes longer to encode but produces the most favorable results; the quality of the media file is superior. VBR is most commonly used for http progressive delivery of video content.
 
 **When should you use VBR versus CRB?** 

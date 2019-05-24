@@ -86,6 +86,7 @@ After creating the site template, from global navigation select **Communities**,
 
 * select `Next`
 * select `Next`  
+
   (accept all default Settings)
 
 * select `Create`
