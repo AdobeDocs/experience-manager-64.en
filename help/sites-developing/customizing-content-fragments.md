@@ -204,12 +204,9 @@ Content fragments can be integrated with:
   * The individual translations of a content fragment are actually separate fragments; for example:
 
     * they are located under different language roots:  
-
-        `/content/dam/<*path*/en/<*to*>/<*fragment*>`  
-
-        vs.  
-
-        `/content/dam/<*path*>/de/<*to*>/<*fragment*>`
+        <pre>/content/dam/<<i>path</i>/en/<<i>to</i>>/<<i>fragment</i>></pre>
+        vs.
+        <pre>/content/dam/<<i>path</i>>/de/<<i>to</i>>/<<i>fragment</i>>`</pre>
 
     * but they share exactly the same relative path below the language root:  
 
