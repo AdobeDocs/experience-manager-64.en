@@ -19,30 +19,29 @@ Basic factors to consider are (in this order):
 
 * **Network speed**
 
-    * Network latency
-    * Available bandwidth
+  * Network latency
+  * Available bandwidth
 
 * **Computational speed**
 
-    * Caching efficiency
-    * Expected traffic
-    * Complexity of templates, applications and components
-    * Concurrent authors
-    * Complexity of the authoring operation (simple content editing, MSM rollout, etc)
+  * Caching efficiency
+  * Expected traffic
+  * Complexity of templates, applications and components
+  * Concurrent authors
+  * Complexity of the authoring operation (simple content editing, MSM rollout, etc)
 
 * **I/O performance**
 
-    * Performance and efficiency of the file or database storage
+  * Performance and efficiency of the file or database storage
 
 * **Hard Drive**
 
-    * at least two or three times larger than the repository size** 
-      **
+  * at least two or three times larger than the repository size
 
 * **Memory**
 
-    * Size of website (number of content-object, pages, and users)
-    * Number of users/sessions that are active at the same time
+  * Size of website (number of content-object, pages, and users)
+  * Number of users/sessions that are active at the same time
 
 ## Architecture {#architecture}
 
@@ -50,19 +49,19 @@ A typical AEM setup consists of an author and a publish environment. These envir
 
 In a typical project setup, you have several environments on which to stage project phases:
 
-* **Development environment** 
+* **Development environment**
   To develop new features or make significant changes. Best practise is to work using a development environment per developer (usually local installations on their personal systems).
 
-* **Author test environment** 
+* **Author test environment**
   To verify changes. The number of test environments can vary depending on the project requirements (for example, separate for QA, integration testing, or user acceptance testing).
 
-* **Publish test environment** 
+* **Publish test environment**
   Primarily for testing social collaboration use cases and/or the interaction between author and multiple publishing instances.
 
-* **Author production environment** 
+* **Author production environment**
   For authors to edit content.
 
-* **Publish production environment** 
+* **Publish production environment**
   To serve published content.
 
 Additionally the environments may vary, ranging from a single-server system running AEM and an application server, through to a highly scaled set of multi-server, multi-CPU clustered instances. We recommend that you use a separate computer for each production system and that you do not run other applications on these computers.
@@ -102,11 +101,11 @@ AEM runs well in virtualized environments, but there can be factors such as CPU 
 
 ### Parallelization of AEM Instances {#parallelization-of-aem-instances}
 
-**Fail Safeness**
+#### Fail Safeness {fail-safeness}
 
 A fail-safe website is deployed on at least two separate systems. If one system breaks down, an other system can take over and thus compensate the system failure.
 
-**System resources scalability**
+#### System resources scalability {system-resources-scalability}
 
 While all systems are running, an increased computational performance is available. That additional performance is not necessarily linear with the number of cluster nodes as the relationship is highly dependent on the technical environment; please see the [Cluster documentation](/help/sites-deploying/recommended-deploys.md) for more information.
 
@@ -121,19 +120,19 @@ For benchmarking purposes, Adobe has developed some benchmark tests for standalo
 
 * **Benchmark test 1**  
   
-  **Calculate maximum throughput of a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages all of a similar nature. The steps involved were logging in to the site, creating a page with a SWF and Image/Text, adding a tag cloud, then activating the page.
+  Calculate maximum throughput of a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages all of a similar nature. The steps involved were logging in to the site, creating a page with a SWF and Image/Text, adding a tag cloud, then activating the page.
 
-    * **Result**  
+  * **Result**  
   
-      **Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
+    Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
 
 * **Benchmark test 2**  
   
-  **Calculate maximum throughput when load profile has a mix of fresh page creation (10%), modification of an existing page (80%) and creation then modification of a page in succession (10%). The complexity of the pages remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of the same complexity as defined in benchmark test 1.
+  Calculate maximum throughput when load profile has a mix of fresh page creation (10%), modification of an existing page (80%) and creation then modification of a page in succession (10%). The complexity of the pages remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of the same complexity as defined in benchmark test 1.
 
-    * **Result** 
+  * **Result**
   
-      Maximum throughput for such a mix operation scenario was found to be 3252 transactions per hour.
+    Maximum throughput for such a mix operation scenario was found to be 3252 transactions per hour.
 
 >[!NOTE]
 >
@@ -151,17 +150,21 @@ In the author environment the number of authors that work in parallel and the lo
 
 For such scenarios Adobe executed benchmark tests on a two node shared-nothing cluster of author instances.
 
-* **Benchmark test 1a** 
+* **Benchmark test 1a**
+  
   With an active-active shared-nothing cluster of 2 author instances, calculate the maximum throughput with a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages, all of a similar nature.
 
-    * **Result**  
-      Maximum throughput for a simple page creation exercise, such as above, (considered as one transaction) is found to be 2016 transactions/hour. This is an increase of approximately 16% when compared to a standalone author instance for the same benchmark test.
+  * **Result**
 
-* **Benchmark test 2b** 
+    Maximum throughput for a simple page creation exercise, such as above, (considered as one transaction) is found to be 2016 transactions/hour. This is an increase of approximately 16% when compared to a standalone author instance for the same benchmark test.
+
+* **Benchmark test 2b**
+  
   With an active-active shared-nothing cluster of 2 author instances, calculate the maximum throughput when the load profile has a mix of fresh page creation (10%), modification of an existing pages (80%) and creation and modification a page in succession (10%). The complexity of the page remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of complexity the same as defined in benchmark test 1.
 
-    * **Result** 
-      Maximum throughput for such a mixed operation scenario was found to be 6288 transactions/hour. This is an increase of approximately 93% when compared to a standalone author instance for the same benchmark test.
+  * **Result**
+
+    Maximum throughput for such a mixed operation scenario was found to be 6288 transactions/hour. This is an increase of approximately 93% when compared to a standalone author instance for the same benchmark test.
 
 >[!NOTE]
 >
@@ -265,17 +268,17 @@ The variables in the equation are as follows:
 
 If you have a more complex website, you also need more powerful web servers so that AEM can answer a request in an acceptable time.
 
-* Complexity below 4:  
-    * 1024 MB JVM RAM&ast;  
-    * Low to mid-performance CPU
+* Complexity below 4:
+  * 1024 MB JVM RAM&ast;  
+  * Low to mid-performance CPU
 
 * Complexity between 4 and 8:  
-    * 2048 MB JVM RAM&ast;  
-    * Mid to high-performance CPU
+  * 2048 MB JVM RAM&ast;  
+  * Mid to high-performance CPU
 
 * Complexity above 8:  
-    * 4096 MB JVM RAM&ast;  
-    * High to high-end-performance CPU
+  * 4096 MB JVM RAM&ast;  
+  * High to high-end-performance CPU
 
 >[!NOTE]
 >
@@ -327,4 +330,3 @@ See
 
 * [Community Content Storage](/help/communities/working-with-srp.md)
 * [Recommended Topologies for Communities](/help/communities/topologies.md)
-

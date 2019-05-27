@@ -20,16 +20,16 @@ To help you, the best practices consist of:
 
 * An [interactive checklist](/help/managing/best-practices-checklist.md) that allows you to track and monitor your progress with these best practices.
 
-    * Defines inputs and deliverables according to phase, milestone and persona.
-    * Provides automated overviews (quality, health and completeness) to indicate progress and project-health.
+  * Defines inputs and deliverables according to phase, milestone and persona.
+  * Provides automated overviews (quality, health and completeness) to indicate progress and project-health.
 
 * Documentation, based directly on the [checklist](/help/managing/best-practices-checklist.md), that details the:
 
-    * [Project Heartbeat](#project-heartbeat-dashboard) analysis.
-    * [Status by Role](#status-by-role) overview.
-    * [Phases and Milestones](#phases-and-milestones).
-    * [Key Persona](#persona) and their involvement at every (relevant) stage.
-    * A [Glossary](/help/managing/best-practices-glossary.md) of the [Required Documents and Deliverables](#required-documents-and-deliverables).
+  * [Project Heartbeat](#project-heartbeat-dashboard) analysis.
+  * [Status by Role](#status-by-role) overview.
+  * [Phases and Milestones](#phases-and-milestones).
+  * [Key Persona](#persona) and their involvement at every (relevant) stage.
+  * A [Glossary](/help/managing/best-practices-glossary.md) of the [Required Documents and Deliverables](#required-documents-and-deliverables).
 
 * [Further reference](/help/managing/best-practices-further-reference.md) material to provide more details on specific areas.
 
@@ -39,15 +39,15 @@ The **Project Heartbeat** worksheet provides a graphical overview of critical me
 
 * **Phase Quality**
 
-    * Indicates the quality of the [Required Documents and Deliverables](#required-documents-and-deliverables) across the project.
+  * Indicates the quality of the [Required Documents and Deliverables](#required-documents-and-deliverables) across the project.
 
 * **Phase Health**
 
-    * A high level status indicator for your project; useful to highlight areas that may be at risk.
+  * A high level status indicator for your project; useful to highlight areas that may be at risk.
 
 * **Phase Completeness**
 
-    * At any point in time during the project this indicates how much has already been completed for each phase of your project.
+  * At any point in time during the project this indicates how much has already been completed for each phase of your project.
 
 ## Status by Role {#status-by-role}
 
@@ -69,11 +69,11 @@ Preparation of your project forms the basis of the entire project. You need to d
 
 * **Business Rationale**
 
-    * The fundamental reasons and justification for undertaking the project.
+  * The fundamental reasons and justification for undertaking the project.
 
 * **Scope and Schedule**
 
-    * A basic scope, and rough schedule should be made available to define what is required, and within which time frame; if it helps clarify the situation, you can also define what lies outside the scope.
+  * A basic scope, and rough schedule should be made available to define what is required, and within which time frame; if it helps clarify the situation, you can also define what lies outside the scope.
 
 How you prepare, plan and run your project and implement your solution will be affected by the restrictions you are operating under e.g. fixed budget, fixed timeline, quantity of content, quality required.
 
@@ -81,7 +81,7 @@ As always, adjusting any of the factors will impact the others. For example redu
 
 The Four Factors:
 
-![](assets/projectphases_fourphases.png) 
+![](assets/projectphases_fourphases.png)
 
 #### Milestones {#milestones}
 
@@ -89,14 +89,12 @@ The Four Factors:
 
   In this phase you need to validate and confirm the goals for the project; for example:
 
-    * What do you want to achieve/provide?
-    * Who will benefit?
-    * What is the scope?
-
-        * If it helps clarify the situation, you can also define what lies outside the scope.
-
-    * How will you define success?
-    * How will you measure success?
+  * What do you want to achieve/provide?
+  * Who will benefit?
+  * What is the scope?
+    * If it helps clarify the situation, you can also define what lies outside the scope.
+  * How will you define success?
+  * How will you measure success?
     * What are the requirements, business and technical?
     * Are there legacy systems to be replaced and if so, is there data to be migrated?
     * Who will be involved?
@@ -107,11 +105,11 @@ The Four Factors:
 
   Before you start any project you need a reliable, realistic estimation of what it will cost to implement:
 
-    * Use information from the validation milestone as a basis for the estimates.
-    * Be realistic in your estimates.
-    * Consider and respect any client guidelines, processes or restrictions that the client may be subject to. 
-    * Consider contingency and review processes should a review, or refinement, of the budget is required at a later stage.
-    * Remember that costs come in many forms; purchases, use of resources and fees amongst others.
+  * Use information from the validation milestone as a basis for the estimates.
+  * Be realistic in your estimates.
+  * Consider and respect any client guidelines, processes or restrictions that the client may be subject to.
+  * Consider contingency and review processes should a review, or refinement, of the budget is required at a later stage.
+  * Remember that costs come in many forms; purchases, use of resources and fees amongst others.
 
 ### Planning {#planning}
 
@@ -135,21 +133,20 @@ Planning your project consolidates the preparation. Here you need to start conve
 
   Communication is always key to the success of any project. You need to communicate clearly and efficiently to ensure that everyone is:
 
-    * Working towards the same basic goals
-    * From the same information base
-    * With the same channels
+  * Working towards the same basic goals
+  * From the same information base
+  * With the same channels
 
 * **Kick Off**
 
   The Kick Off meeting is used to raise awareness that the project is starting. It is a good opportunity to:
 
-    * Invite all interested parties (or at least group-representatives).
-    * Present key facts about the project.
-    * Answer questions.
-    * Ensure that everyone has the same knowledge base.
-    * Get commitment from everyone who will be involved - this will have to be earned.
-
-        * By involving prime players (including prospective authors) at the very start of the project, you increase your chances of getting their commitment to the project.
+  * Invite all interested parties (or at least group-representatives).
+  * Present key facts about the project.
+  * Answer questions.
+  * Ensure that everyone has the same knowledge base.
+  * Get commitment from everyone who will be involved - this will have to be earned.
+    * By involving prime players (including prospective authors) at the very start of the project, you increase your chances of getting their commitment to the project.
 
 ### Development Preparation {#development-preparation}
 
@@ -165,26 +162,26 @@ Planning the development is key to ensure that your project is built on a solid 
 
   The content architecture defines and describes the future architecture of the content; including:
 
-    * The content tree; including assets
-    * Basic structures; including campaigns, etc.
-    * Multi site and multi language structures (MSM, Translation, etc.)
-    * Supportive content (including tags and tagging concepts)
-    * Caching and content reuse strategies
+  * The content tree; including assets
+  * Basic structures; including campaigns, etc.
+  * Multi site and multi language structures (MSM, Translation, etc.)
+  * Supportive content (including tags and tagging concepts)
+  * Caching and content reuse strategies
 
 * **System Architecture**
 
   The system architecture defines the conceptual view of your system; including (amongst other information):
 
-    * [System structure](/help/sites-deploying/recommended-deploys.md#deployment-scenarios) for all required environments
-    * Sub-systems
-    * Third party systems
-    * Interfaces; hardware, software and human interaction
-    * Servers for each environment; see the [Technical Requirements](/help/sites-deploying/technical-requirements.md) and [Hardware Sizing Guidelines](/help/managing/hardware-sizing-guidelines.md)
-    * Processes for each environment; for example, deployment and maintenance requirements
-    * Maintenance activities (Datastore GC, TarPM optimization, etc.)
-    * [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) caching 
-    * [Clustering](/help/sites-deploying/recommended-deploys.md#deployment-scenarios) Publish/Authorshare 
-    * Performance for the client-side (JS minify, concat, css sprites, total number of http requests, and others)
+  * [System structure](/help/sites-deploying/recommended-deploys.md#deployment-scenarios) for all required environments
+  * Sub-systems
+  * Third party systems
+  * Interfaces; hardware, software and human interaction
+  * Servers for each environment; see the [Technical Requirements](/help/sites-deploying/technical-requirements.md) and [Hardware Sizing Guidelines](/help/managing/hardware-sizing-guidelines.md)
+  * Processes for each environment; for example, deployment and maintenance requirements
+  * Maintenance activities (Datastore GC, TarPM optimization, etc.)
+  * [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) caching
+  * [Clustering](/help/sites-deploying/recommended-deploys.md#deployment-scenarios) Publish/Authorshare
+  * Performance for the client-side (JS minify, concat, css sprites, total number of http requests, and others)
 
 * **Application Architecture**
 
@@ -192,24 +189,24 @@ Planning the development is key to ensure that your project is built on a solid 
 
   It is focused on:
 
-    * How they will interact with each other and with users. 
-    * The data to be consumed and produced by applications, rather than their internal structure.
+  * How they will interact with each other and with users.
+  * The data to be consumed and produced by applications, rather than their internal structure.
 
   The definitions should cover:
 
-    * Basic code structure for the project
-    * Code artifacts (bundles, packages, etc.)
-    * Breakdowns of the templates/components and their relationships
-    * High level details of required customizations (specific overlays will follow later)
-    * Design of workflows required by the solution (for example, content creation, approval, publishing, transformations, imports, exports, etc.)
-    * Special consideration for any complex modules, such as MSM, Commerce, third party integration
+  * Basic code structure for the project
+  * Code artifacts (bundles, packages, etc.)
+  * Breakdowns of the templates/components and their relationships
+  * High level details of required customizations (specific overlays will follow later)
+  * Design of workflows required by the solution (for example, content creation, approval, publishing, transformations, imports, exports, etc.)
+  * Special consideration for any complex modules, such as MSM, Commerce, third party integration
 
 * **System Integration**
 
   System integration requires you to plan (then implement):
 
-    * How all the sub-systems and [solution integrations](/help/sites-administering/integration.md) will be brought together to operate as one coherent system
-    * How any third party systems will be integrated; together with any special considerations, such as offline/online, client-side/browser-side or fallover handling when a third party system is down
+  * How all the sub-systems and [solution integrations](/help/sites-administering/integration.md) will be brought together to operate as one coherent system
+  * How any third party systems will be integrated; together with any special considerations, such as offline/online, client-side/browser-side or fallover handling when a third party system is down
 
 * **Test Concept**
 
@@ -217,11 +214,11 @@ Planning the development is key to ensure that your project is built on a solid 
 
   This should include (amongst others):
 
-    * Details of all tests to be performed
-    * Preparation of any content required for those tests
-    * Information of any test tools to be used
-    * High level indication of who will be involved in testing; especially groups outside the QA team
-    * Details of test automation; for example, with Selenium or AEM Developer mode
+  * Details of all tests to be performed
+  * Preparation of any content required for those tests
+  * Information of any test tools to be used
+  * High level indication of who will be involved in testing; especially groups outside the QA team
+  * Details of test automation; for example, with Selenium or AEM Developer mode
 
 * **Experience Design**
 
@@ -247,10 +244,10 @@ On a similar basis the operations must be properly planned to ensure you have th
 
   For example:
 
-    * A list of roles (i.e. groups) with `read`/ `write` access definitions for each 
-    * Definition of the use of privileges that impact the publish environment; for example, `replicate`
-    * For users with minimal privileges, workflows should be defined 
-    * Users in the `editor` group should not have `admin` rights nor be part of the `administrators` group
+  * A list of roles (i.e. groups) with `read`/ `write` access definitions for each
+  * Definition of the use of privileges that impact the publish environment; for example, `replicate`
+  * For users with minimal privileges, workflows should be defined
+  * Users in the `editor` group should not have `admin` rights nor be part of the `administrators` group
 
   For more information, see [User Administration and Security](/help/sites-administering/security.md).
 
@@ -258,8 +255,8 @@ On a similar basis the operations must be properly planned to ensure you have th
 
   Monitoring and maintenance are key aspects of ensuring the smooth operation of your solution once it goes live. For this you need to define:
 
-    * What needs monitoring
-    * Maintenance tasks; both regular and for special cases
+  * What needs monitoring
+  * Maintenance tasks; both regular and for special cases
 
   See also [Monitoring and Maintenance](/help/sites-deploying/monitoring-and-maintaining.md) for more information.
 
@@ -281,18 +278,15 @@ Development is a crucial phase that requires more than just coding.
 
   Plan and document your development environment, including:
 
-    * Architecture
-    * [Development tools](/help/sites-developing/dev-tools.md)
-
-        * A typical environment consists of:
-
-            * an issue tracking system; such as Jira
-            * an IDE; such as Eclipse
-            * a build management tool; such as Maven
-            * a tool for continuous integration; such as Jenkins 
-            * a tool for version control; such as GIT/SVN
-            * a build artifact repository manager; such as Archiva/Nexus
-
+  * Architecture
+  * [Development tools](/help/sites-developing/dev-tools.md)
+    * A typical environment consists of:
+      * an issue tracking system; such as Jira
+      * an IDE; such as Eclipse
+      * a build management tool; such as Maven
+      * a tool for continuous integration; such as Jenkins
+      * a tool for version control; such as GIT/SVN
+      * a build artifact repository manager; such as Archiva/Nexus
     * Third party software integration/dependencies
     * [Solution integration/dependencies](/help/sites-administering/integration.md)
     * Deployment cadence
@@ -301,37 +295,37 @@ Development is a crucial phase that requires more than just coding.
 
   Plan and document your test environment, including:
 
-    * Architecture
-    * Dependencies on development builds; including nightly builds
-    * The possibilities for, or limitations of, testing third party software integration/dependencies
-    * Testing tools
-    * Automated testing strategy
+  * Architecture
+  * Dependencies on development builds; including nightly builds
+  * The possibilities for, or limitations of, testing third party software integration/dependencies
+  * Testing tools
+  * Automated testing strategy
 
 * **Production System**
 
   Plan and document your production environment, including:
 
-    * Architecture
-    * Deployment cadence
-    * Third party software integration/dependencies
-    * Security setup
-    * Baseline performance verified by running the [Tough Day tests](/help/sites-developing/tough-day.md) on the production setup
-    * Requirements for performance tests; see [Best Practices for Quality Assurance](/help/sites-deploying/configuring-performance.md#best-practices-for-quality-assurance)
+  * Architecture
+  * Deployment cadence
+  * Third party software integration/dependencies
+  * Security setup
+  * Baseline performance verified by running the [Tough Day tests](/help/sites-developing/tough-day.md) on the production setup
+  * Requirements for performance tests; see [Best Practices for Quality Assurance](/help/sites-deploying/configuring-performance.md#best-practices-for-quality-assurance)
 
 * **Integration**
 
   Plan, document and test all aspects of the system and [solution integration](/help/sites-administering/integration.md), including:
 
-    * An automated testing strategy
-    * Automated processes to [move applications from development to test, then production](/help/managing/enterprise-devops.md#code-movement)
-    * Automated processes to [move content from production to test and development](/help/managing/enterprise-devops.md#content-movement)
+  * An automated testing strategy
+  * Automated processes to [move applications from development to test, then production](/help/managing/enterprise-devops.md#code-movement)
+  * Automated processes to [move content from production to test and development](/help/managing/enterprise-devops.md#content-movement)
 
 * **Migration**
 
   Plan, document and test all aspects of the content migration; including:
 
-    * Content architecture
-    * Migration strategy
+  * Content architecture
+  * Migration strategy
 
 * **Communication**
 
@@ -341,9 +335,9 @@ Development is a crucial phase that requires more than just coding.
 
   Document the solution fully; including:
 
-    * Operations Manual
-    * Any customizations that may affect upgrades
-    * Release notes
+  * Operations Manual
+  * Any customizations that may affect upgrades
+  * Release notes
 
 ### Performance and Testing {#performance-and-testing}
 
@@ -361,8 +355,8 @@ Once the new application is available it will need to undergo stringent testing,
 
   [User acceptance testing](/help/sites-developing/acceptance-signoff.md) (UAT) is crucial to ensure that:
 
-    * The solution fulfills the user/customer requirements
-    * The customer/users accept the solution (function, design and performance)
+  * The solution fulfills the user/customer requirements
+  * The customer/users accept the solution (function, design and performance)
 
   There should be a formalized checklist for customer handover; ideally automated and run on a nightly basis against a snapshot. The results should be sent to the project manager and development team
 
@@ -372,9 +366,9 @@ Once the new application is available it will need to undergo stringent testing,
 
   For more information about performance testing, see:
 
-    * [Performance Testing](/help/sites-deploying/configuring-performance.md)
-    * [How to plan and run testing](/help/sites-developing/planning.md)  
-    * [Basic Performance Guidelines](/help/sites-deploying/configuring-performance.md#basic-performance-guidelines)
+  * [Performance Testing](/help/sites-deploying/configuring-performance.md)
+  * [How to plan and run testing](/help/sites-developing/planning.md)  
+  * [Basic Performance Guidelines](/help/sites-deploying/configuring-performance.md#basic-performance-guidelines)
 
   >[!NOTE]
   >
@@ -400,21 +394,21 @@ Rollout of your new application needs careful planning to ensure a smooth Go Liv
 
   Ensure that your solution administrators have:
 
-    * Been trained
-    * Received the appropriate training material
-    * Received the appropriate documentation
+  * Been trained
+  * Received the appropriate training material
+  * Received the appropriate documentation
 
 * **Users Trained**
 
   Ensure that your authors have:
 
-    * Been trained
-    * Received the appropriate training material
-    * Received the appropriate documentation; for example, the User Guide
+  * Been trained
+  * Received the appropriate training material
+  * Received the appropriate documentation; for example, the User Guide
 
 * **Penetration Tests**
 
-  Penetration tests simulate an attack on a computer system to identify potential security weaknesses. 
+  Penetration tests simulate an attack on a computer system to identify potential security weaknesses.
 
 * **Penetration/Security Tests**
 
@@ -464,9 +458,8 @@ The project sponsor is:
 
 * Responsible for providing/presenting the business case for the project.
 * Key to shaping and defining the scope of the project; including:
-
-    * the definition of, and criteria for, success
-    * the main KPIs
+  * the definition of, and criteria for, success
+  * the main KPIs
 
 * Provide the main milestones based on the client roadmap.
 
@@ -491,26 +484,23 @@ The solution architect:
 The business analyst:
 
 * Is primarily responsible for gathering and analyzing the high-level requirements, then transforming these into specifications:
-
-    * for the project manager to use when planning the development
-    * for the development team to work from during design and development.
+  * for the project manager to use when planning the development
+  * for the development team to work from during design and development.
 
 * Works closely with the client to analyse the requirements. They match these against:
-
-    * The definition of success.
-    * The criteria for success.
-    * KPIs (both business and performance based).
+  * The definition of success.
+  * The criteria for success.
+  * KPIs (both business and performance based).
 
 ### Development Lead {#development-lead}
 
 The development lead:
 
 * Is responsible for the technical delivery of the project.
-* Is responsible for selecting a development methodology that is compliant with client requirements. 
+* Is responsible for selecting a development methodology that is compliant with client requirements.
 * Draws up the development strategy:
-
-    * ensuring that it is aligned with the business and performance KPIs
-    * taking into account the success criteria and definition
+  * ensuring that it is aligned with the business and performance KPIs
+  * taking into account the success criteria and definition
 
 * Works closely with the architect (especially when drawing up the development strategy for AEM) to define aspects such as the relationship between templates and components, the integration strategy for third party applications and any specialized functionality.
 
@@ -528,9 +518,8 @@ The system engineer:
 
 * Is responsible for overseeing the project infrastructure.
 * Is responsible for:
-
-    * the setup of internal development and test environments
-    * for matching those systems to the client systems
+  * the setup of internal development and test environments
+  * for matching those systems to the client systems
 
 * Provides hardware recommendations, monitor the various implementations and provide operations support both prior to go live and afterwards.
 
@@ -544,28 +533,21 @@ The security lead:
 ### Other Persona {#other-persona}
 
 * Stakeholders
-
-    * People (often from the business) who have an interest (stake) in the success of the project. They often contribute to the budget.
+  * People (often from the business) who have an interest (stake) in the success of the project. They often contribute to the budget.
 
 * Legal
-
-    * Legal advice is required when negotiating contracts.
+  * Legal advice is required when negotiating contracts.
 
 * Trainers
-
-    * Depending on the scale and nature of the project, specialized trainers can be used to develop and present training sessions for the relevant groups.
+  * Depending on the scale and nature of the project, specialized trainers can be used to develop and present training sessions for the relevant groups.
 
 * Technical Writers
-
-    * Depending on the scale and nature of the project, specialized technical writers can be used to write guidelines and manuals for specific groups; e.g. a Maintenance manual for system administrators or a User Guide for the authors.
+  * Depending on the scale and nature of the project, specialized technical writers can be used to write guidelines and manuals for specific groups; e.g. a Maintenance manual for system administrators or a User Guide for the authors.
 
 * System Administrators
-
-    * Responsible for the ongoing operation of the system.
-
+  * Responsible for the ongoing operation of the system.
 * Authors and End Users
-
-    * The people who will use the system to create and maintain your website content.
+  * The people who will use the system to create and maintain your website content.
 
 ## Required Documents and Deliverables {#required-documents-and-deliverables}
 
@@ -609,17 +591,14 @@ For best practices on deploying, administering, developing, or authoring, see th
 
   In addition, the following sections of AEM documentation are of particular interest (however, this list is not exhaustive):
 
-    * [Security](/help/sites-developing/security.md)
-    * [Recommended Deployments](/help/sites-deploying/recommended-deploys.md)
-    * [Enterprise DevOps](/help/managing/enterprise-devops.md)
-    * [Hardware sizing](/help/managing/hardware-sizing-guidelines.md)
-    * Concepts of AEM:
-
-        * [Developing - the basics](/help/sites-developing/the-basics.md)
-        * [MSM concepts](/help/sites-administering/msm.md)
-        * [HTML Template Language (HTL)](https://helpx.adobe.com/experience-manager/htl/user-guide.html)
+  * [Security](/help/sites-developing/security.md)
+  * [Recommended Deployments](/help/sites-deploying/recommended-deploys.md)
+  * [Enterprise DevOps](/help/managing/enterprise-devops.md)
+  * [Hardware sizing](/help/managing/hardware-sizing-guidelines.md)
+  * Concepts of AEM:
+    * [Developing - the basics](/help/sites-developing/the-basics.md)
+    * [MSM concepts](/help/sites-administering/msm.md)
+    * [HTML Template Language (HTL)](https://helpx.adobe.com/experience-manager/htl/user-guide.html)
 
 * Related Documentation
-
-    * Adobe Experience Cloud - [Planning for the Adobe Experience Cloud](https://helpx.adobe.com/marketing-cloud/how-to/planning.html)
-
+  * Adobe Experience Cloud - [Planning for the Adobe Experience Cloud](https://helpx.adobe.com/marketing-cloud/how-to/planning.html)

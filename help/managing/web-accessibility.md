@@ -29,7 +29,7 @@ Creating accessible websites and content with AEM impact:
 
 The following pages and section provide information and guidelines:
 
-* [Configuring the Rich Text Editor for Producing Accessible Sites](/help/sites-administering/rte-accessible-content.md) 
+* [Configuring the Rich Text Editor for Producing Accessible Sites](/help/sites-administering/rte-accessible-content.md)
 
   Guidelines on how administrators can configure AEM for producing accessible content.
 
@@ -39,7 +39,7 @@ The following pages and section provide information and guidelines:
 
 * [Quick Guide to WCAG 2.0](/help/managing/qg-wcag.md)  
 
-  Background information about WCAG 2.0.   
+  Background information about WCAG 2.0.
 
 * [Creating Accessible Adaptive Forms](/help/forms/using/creating-accessible-adaptive-forms.md)  
 

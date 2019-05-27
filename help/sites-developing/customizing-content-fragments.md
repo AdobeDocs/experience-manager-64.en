@@ -516,7 +516,7 @@ ContentFragment newFragment = tpl.createFragment(parentRsc, "A fragment name", "
 
 The auto save interval (measured in seconds) can be defined using the configuration manager (ConfMgr):
 
-* Node: <pre><<i>conf-root</i>>/settings/dam/cfm/jcr:content</pre>
+* Node: `<conf-root>/settings/dam/cfm/jcr:content`
 * Property Name: `autoSaveInterval`
 * Type: `Long`  
 
