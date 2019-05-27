@@ -112,7 +112,7 @@ A complete overview see the [Touch UI Feature Status](/help/release-notes/touch-
 For background information on basic handling:
 
 * [Working with the Author environment](/help/sites-authoring/home.md).
-* [Authoring Pages](/help/sites-authoring/page-authoring.md).
+* [Authoring Pages](/help/sites-authoring/page-authoring-tools.md).
 
 For detailed development information:
 
