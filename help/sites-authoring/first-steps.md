@@ -88,4 +88,4 @@ You can [create a version](/help/sites-authoring/working-with-page-versions.md#c
 
 ## More Information {#more-information}
 
-Access to more information about authoring can be found under [Page Authoring](/help/sites-authoring/page-authoring-tools.md) and [Working with the Author Environment](/help/sites-authoring/home.md).
+Access to more information about authoring can be found under [Page Authoring](/help/sites-authoring/authoring-environment-tools.md) and [Working with the Author Environment](/help/sites-authoring/home.md).

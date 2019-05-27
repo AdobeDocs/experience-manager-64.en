@@ -24,7 +24,7 @@ For full details about authoring with AEM see:
 
 * [First Steps for Authors](/help/sites-authoring/first-steps.md)  
 * [Working with the Author Environment](/help/sites-authoring/author-environment-tools.md)
-* [Authoring Pages](/help/sites-authoring/page-authoring-tools.md)
+* [Authoring Pages](/help/sites-authoring/authoring-environment-tools.md)
 
 ## A Few Quick Hints {#a-few-quick-hints}
 
