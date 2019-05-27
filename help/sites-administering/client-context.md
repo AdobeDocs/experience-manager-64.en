@@ -198,7 +198,7 @@ Editing a client context can be used to set (or reset) the values of certain pro
 
 ### Editing Property Details {#editing-property-details}
 
-Editing a client context can be used to set (or reset) the values of certain properties. This allows you to test specific scenarios (particularly useful for [segmentation](/help/sites-administering/campaign-segmentation.md) and [campaigns](/help/sites-authoring/campaigns.md)).
+Editing a client context can be used to set (or reset) the values of certain properties. This allows you to test specific scenarios (particularly useful for [segmentation](/help/sites-administering/campaign-segmentation.md) and [campaigns](/help/sites-authoring/personalization.md)).
 
 ![](assets/clientcontext_alisonparker_edit.png) 
 

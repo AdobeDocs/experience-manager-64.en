@@ -1,6 +1,6 @@
 ---
-title: Authoring
-seo-title: Authoring
+title: Concept of Authoring
+seo-title: Concept of Authoring
 description: Concepts of authoring in AEM
 seo-description: Concepts of authoring in AEM
 uuid: 824c8b91-07c7-471b-b3aa-5a73d6d48414
@@ -35,7 +35,7 @@ On the author environment the functionality of AEM is made available through two
 
 ### Author Environment {#author-environment}
 
-The author works in what is known as the **[author environment](/help/sites-authoring/author-environment.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
+The author works in what is known as the **[author environment](/help/sites-authoring/home.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
 
 >[!NOTE]
 >

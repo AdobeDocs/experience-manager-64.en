@@ -537,10 +537,10 @@ Promotions are not usually maintained by product information managers, but by ma
     * renderers and dialogs for promotion administration
     * sub-components for rendering and editing configuration parameters specific to the promotion handlers
 
-In AEM the promotions are also integrated into the [Campaign Management](/help/sites-authoring/campaigns.md):
+In AEM the promotions are also integrated into the [Campaign Management](/help/sites-authoring/personalization.md):
 
-* a [campaign](/help/sites-authoring/campaigns.md) specifies the on/off times
-* [experiences](/help/sites-authoring/campaigns.md) *within* the campaign are used to group assets (teaserpages, promotions, etc) according to the audience segment they correspond to
+* a [campaign](/help/sites-authoring/personalization.md) specifies the on/off times
+* [experiences](/help/sites-authoring/personalization.md) *within* the campaign are used to group assets (teaserpages, promotions, etc) according to the audience segment they correspond to
 
 A promotion can be held either in an experience or directly in the campaign:
 

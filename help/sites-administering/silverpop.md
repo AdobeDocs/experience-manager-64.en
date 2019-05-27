@@ -24,7 +24,7 @@ The integration provides you with the following features:
 * The ability to create Emails in AEM and publish them to Silverpop for distribution.
 * The ability to set action of a AEM form to create an Silverpop subscriber.
 
-After Silverpop Engage is configured, you can publish newsletters or emails to Silverpop Engage. See [Publishing Newsletters to an Email Service](/help/sites-authoring/campaigns.md#publishingnewsletterstoanemailservice).
+After Silverpop Engage is configured, you can publish newsletters or emails to Silverpop Engage.
 
 ## Creating a Silverpop Configuration {#creating-a-silverpop-configuration}
 

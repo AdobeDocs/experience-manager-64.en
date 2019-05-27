@@ -311,7 +311,7 @@ When using [closed user groups](/help/sites-administering/cug.md) you can config
 
 * **Target Path** to define where a request to " `/`" will be redirected to.
 
-There are [two UIs](/help/sites-authoring/author-environment.md) available in AEM:
+There are [two UIs](/help/sites-authoring/select-ui.md) available in AEM:
 
 * the touch-optimized UI has been introduced  
 * and the classic UI is still fully operational

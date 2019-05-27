@@ -175,7 +175,7 @@ The properties are distributed across several tabs.
 
 * **Personalization**
 
-  Select a [Brand to specify a scope for Targeting](/help/sites-authoring/campaigns.md).
+  Select a [Brand to specify a scope for Targeting](/help/sites-authoring/personalization.md).
 
 ### Permissions {#permissions}
 

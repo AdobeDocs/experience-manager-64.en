@@ -1,6 +1,6 @@
 ---
-title: Authoring - the Environment and Tools
-seo-title: Authoring - the Environment and Tools
+title: Authoring Environment and Tools
+seo-title: Authoring Environment and Tools
 description: The authoring environment of AEM provides various mechanisms for organizing and editing your content
 seo-description: The authoring environment of AEM provides various mechanisms for organizing and editing your content
 uuid: 2fe17bbf-f431-49bc-9d27-7a95f1f76252
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4f6a525d-d291-426f-be22-d2ef92c57156
 ---
 
-# Authoring - the Environment and Tools{#authoring-the-environment-and-tools}
+# Authoring Environment and Tools{#authoring-the-environment-and-tools}
 
 The authoring environment of AEM provides various mechanisms for organizing and editing your content. The tools provided are accessed from the various consoles and page editors.
 
