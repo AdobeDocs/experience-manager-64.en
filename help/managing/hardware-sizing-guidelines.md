@@ -234,36 +234,36 @@ Based on the complexity, you can determine the number of servers (or CPU cores) 
 
 The variables in the equation are as follows:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>traffic</td> 
-   <td>The expected peak traffic per second. You can estimate this as the number of page hits per day, divided by 35’000.</td> 
-  </tr> 
-  <tr> 
-   <td>applicationComplexity</td> 
-   <td><p>Use 1 for a simple application, 2 for a complex application, or a value in-between:</p> 
-    <ul> 
-     <li>1 - a fully anonymous, content orientated site</li> 
-     <li>1.1 - a fully anonymous, content orientated site with client-side/Target personalization</li> 
-     <li>1.5 - a content-orientated site with both anonymous and logged in sections, client-side/Target personalization</li> 
-     <li>1.7 - for a content-orientated site with both anonymous and logged in sections, client-side/Target personalization and some user-generated content</li> 
-     <li>2 - where the entire site requires log in, with extensive use of user-generated content and a variety of personalization techniques</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>cacheRatio</td> 
-   <td>The percentage of pages that come out of the dispatcher cache. Use 1 if all pages come from the cache, or 0 if every page is computed by AEM.</td> 
-  </tr> 
-  <tr> 
-   <td>templateComplexity</td> 
-   <td>Use a value between 1 and 10 to indicate the complexity of your templates. Higher numbers indicate more complex templates, using the value 1 for sites with an average of 10 components per page, the value 5 for a page average of 40 components and 10 for an average of over 100 components.</td> 
-  </tr> 
-  <tr> 
-   <td>activations</td> 
-   <td>Number of average activations (replication of average sized pages and assets from the author to the publish tier) per hour divided by x, where x is the number of activations done on a system without performance side effects to other tasks processed by the system. You can also predefine a pessimistic initial value like x = 100.<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <td>traffic</td>
+   <td>The expected peak traffic per second. You can estimate this as the number of page hits per day, divided by 35’000.</td>
+  </tr>
+  <tr>
+   <td>applicationComplexity</td>
+   <td><p>Use 1 for a simple application, 2 for a complex application, or a value in-between:</p>
+    <ul>
+     <li>1 - a fully anonymous, content orientated site</li>
+     <li>1.1 - a fully anonymous, content orientated site with client-side/Target personalization</li>
+     <li>1.5 - a content-orientated site with both anonymous and logged in sections, client-side/Target personalization</li>
+     <li>1.7 - for a content-orientated site with both anonymous and logged in sections, client-side/Target personalization and some user-generated content</li>
+     <li>2 - where the entire site requires log in, with extensive use of user-generated content and a variety of personalization techniques</li>
+    </ul> </td>
+  </tr>
+  <tr>
+   <td>cacheRatio</td>
+   <td>The percentage of pages that come out of the dispatcher cache. Use 1 if all pages come from the cache, or 0 if every page is computed by AEM.</td>
+  </tr>
+  <tr>
+   <td>templateComplexity</td>
+   <td>Use a value between 1 and 10 to indicate the complexity of your templates. Higher numbers indicate more complex templates, using the value 1 for sites with an average of 10 components per page, the value 5 for a page average of 40 components and 10 for an average of over 100 components.</td>
+  </tr>
+  <tr>
+   <td>activations</td>
+   <td>Number of average activations (replication of average sized pages and assets from the author to the publish tier) per hour divided by x, where x is the number of activations done on a system without performance side effects to other tasks processed by the system. You can also predefine a pessimistic initial value like x = 100.<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 If you have a more complex website, you also need more powerful web servers so that AEM can answer a request in an acceptable time.
