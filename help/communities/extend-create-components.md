@@ -152,9 +152,9 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 
     * **Name**: `clientlibs`
     
-    * **Type **: `cq:ClientLibraryFolder`
+    * **Type**: `cq:ClientLibraryFolder`
     
-    * add to **Properties **tab:
+    * add to **Properties** tab:
 
         * **Name** `categories` **Type** `String` **Value** `cq.social.author.hbs.comments` `Multi`
         
@@ -211,7 +211,6 @@ One way to do so is
     * select **Tools &gt; Deployment &gt; Replication**
     * select `Activate Tree`
     * set `Start Path`: to `/apps/custom`
-    
     * uncheck `Only Modified`
     * select `Activate`button
 

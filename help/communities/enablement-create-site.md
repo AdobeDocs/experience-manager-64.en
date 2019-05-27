@@ -45,6 +45,7 @@ On the **Site Template** step, enter a title, description, the name for the URL,
 
     * the initial URL will be displayed underneath the Community Site Name
     * for a valid URL, append a base language code + ".html"  
+
       *for example*, http://localhost:4502/content/sites/ `enable/en.html`
 
 * **Reference Site Template**: pull down to choose `Reference Structured Learning Site Template`
@@ -194,6 +195,7 @@ From left to right they are:
 
 * **Export Site** 
   select the export icon to create a package of the community site that is both stored in [package manager](/help/sites-administering/package-manager.md) and downloaded.  
+  
   Note that UGC is not included in the site package.
 
 * **Delete Site** 
@@ -272,6 +274,7 @@ To get started
     * select **Create Node**
 
         * **Name** localhost.4503  
+
           (do *not* use `:`)
         
         * **Type** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
@@ -282,7 +285,8 @@ To get started
 
         * **Name** sling:match
         * **Type** String
-        * **Value** localhost.4503/\$  
+        * **Value** localhost.4503/\$ 
+         
           (must end with '$' char)
 
     * add property

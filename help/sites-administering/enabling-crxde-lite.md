@@ -39,7 +39,6 @@ If disabled, you can turn CRXDE Lite on by following the below procedure:
 1. Create the following configuration:
 
     * **Root path:** `/crx/server`
-    
     * Tick the box under **Use absolute URIs**.
 
 1. When finished using CRXDE Lite, make sure you disable WebDAV again.

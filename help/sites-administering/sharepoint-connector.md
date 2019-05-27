@@ -95,7 +95,8 @@ To install the connector content package.
 1. Open an Adobe Support ticket to request for the connector featurepack.
 1. Download the package when it is available and then open Package Manager for your AEM instance.
 1. Tap/click **Install** from the package description page.
-1. From the **Install Package** dialog, tap/click **Install**.   
+1. From the **Install Package** dialog, tap/click **Install**. 
+ 
    **Note**: Make sure that you are logged-in as administrator.
 
 1. When the package is installed, tap/click **Close**.

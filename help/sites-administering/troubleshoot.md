@@ -80,10 +80,12 @@ The thread dump is a list of all the Java threads that are currently active. If 
 
 ### Using jstack (command line) {#using-jstack-command-line}
 
-1. Find the PID (process id) of the AEM Java instance.  
+1. Find the PID (process id) of the AEM Java instance. 
+
    For example, you can use `ps -ef` or `jps`.
 
-1. Run:  
+1. Run: 
+
    `jstack <pid>`
 
 1. This will show the thread dump.

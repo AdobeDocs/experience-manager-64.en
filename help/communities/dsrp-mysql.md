@@ -40,7 +40,8 @@ As SQL is case insensitive, for case sensitive operating systems, it is necessar
 For example, to specify all lower case table names on a Linux OS:
 
 * edit file `/etc/my.cnf`
-* in the `[mysqld]` section, add the following line:  
+* in the `[mysqld]` section, add the following line: 
+
   `lower_case_table_names = 1`
 
 ### UTF8 character set {#utf-character-set}
@@ -55,9 +56,11 @@ Change the MySQL database to default to UTF8:
 
 * edit file `/etc/my.cnf`
 * in the `[client]` section, add the following line:  
+
   `default-character-set=utf8`
 
 * in the `[mysqld]` section, add the following line:  
+
   `character-set-server=utf8`
 
 ## Installing MySQL Workbench {#installing-mysql-workbench}
@@ -76,6 +79,7 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 
 1. select the '+' icon to the right of `MySQL Connections`.
 1. in the dialog `Setup New Connection`, enter values appropriate for your platform  
+
    for demonstration purposes, with the author AEM instance and MySQL on the same server:
 
     * Connection Name: `Communities`
@@ -174,14 +178,19 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
     * **JDBC driver class**: com.mysql.jdbc.Driver
     * **JDBC connection URI**: jdbc:mysql://localhost:3306/communities?characterEncoding=UTF-8  
+
       specify server in place of localhost if MySQL server is not the same as 'this' AEM server  
+
       *communities* is the default database (schema) name
     
-    * **Username **: root  
+    * **Username**: root  
+
       or enter the configured Username for the MySQL server, if not 'root'
     
     * **Password**:   
+
       clear this field if no password set for MySQL,  
+      
       else enter the configured password for the MySQL Username
     
     * **...**

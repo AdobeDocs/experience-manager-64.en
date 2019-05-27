@@ -59,11 +59,8 @@ If the workflow model is stored within `/var/workflow/models` then you can assig
 1. In the **Add New Entry** dialog add a new ACE with the following properties:
 
     * **Principal**: `content-authors`
-    
     * **Type**: `Deny`
-    
     * **Privileges**: `jcr:read`
-    
     * **rep:glob**: reference to the specific workflow
 
    ![](assets/wf-108.png)
@@ -99,9 +96,7 @@ You can then add an ACL to the folder itself.
 1. In the **Add New Entry** dialog add a new ACE with the following properties:
 
     * **Principal**: `content-authors`
-    
     * **Type**: `Deny`
-    
     * **Privileges**: `jcr:read`
 
    >[!NOTE]

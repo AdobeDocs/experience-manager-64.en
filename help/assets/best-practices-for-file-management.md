@@ -23,17 +23,17 @@ The following are best-practice tips for organizing your digital asset files.
 
 * Organize your files based on the metadata that you add to them instead of on the folders in which they reside. You can accomplish this by adding metadata profiles. 
 
-  * See [Metadata Profiles.](metadata-profiles.md)  
+  * See [Metadata Profiles.](metadata-profiles.md)
   * See [Metadata for Digital Asset Management](metadata.md).  
 
 * In most cases, your collection of digital assets are always growing. Therefore, it is important, earlier on, to formalize metadata use, folder structure, and file naming among all your uploaded assets. Standardizing on these things ensures that as your pool of digital assets grows, you can apply processing profiles to folders with greater precision and consistency.
 * Use folders only to impose a consisistent storage structure for your digital assets. For example, folder structures that can help you refine what profiles to assign may include the following:
 
     * **Development folders** - contains digital assets that you are currently working on.
-    * **Client folders** - contains digital assets based on clients or project names.  
-    * **Master folders** - contains original, source digital assets.  
-    * **Rendition folders** - contains renditions and copies of the original, source digital assets.  
-    * **File Size folders** - contains digital assets based on small, medium, or large file sizes.  
+    * **Client folders** - contains digital assets based on clients or project names.
+    * **Master folders** - contains original, source digital assets.
+    * **Rendition folders** - contains renditions and copies of the original, source digital assets.
+    * **File Size folders** - contains digital assets based on small, medium, or large file sizes.
     * **Sgitang folders** - contains digital assets that are ready to publish live on your website.
     * **Mime type folders** - contains digital assets that are specific to mime types such as images, documents, and multimedia.
     * **Archive folders** - contains retired digital assets.

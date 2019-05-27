@@ -231,14 +231,11 @@ Calls to Adobe Analytics using the example provided should look like this when v
 
 *This is the **third call** made to Adobe Analytics:*
 
-* *prop1 and eVar1 contain a.media.name; *
-* *event1 because a segment has been viewed  
-  *
+* *prop1 and eVar1 contain `a.media.name;`*
+* *event1 because a segment has been viewed*
 * *event2 sent with time played = 4*
-* *event11 sent because eventdata.events.milestone8 has been reached  
-  *
-* *prop2 to 4 are not sent (since eventdata.events.a.media.view was not triggered)  
-  *
+* *event11 sent because eventdata.events.milestone8 has been reached*
+* *prop2 to 4 are not sent (since eventdata.events.a.media.view was not triggered)*
 
 ## Non-Legacy Milestones {#non-legacy-milestones}
 
@@ -322,15 +319,10 @@ This method is similar to the Milestones method with the difference that the mil
    *The **pev3** variable sent in the call contains the following information:*
 
     * *Name* - The name of the video file (*film.avi*)
-    
     * *Length* - The length of the video file, in seconds (*100*)
-    
     * *Player Name* - The video player used to play the video file (*HTML5 video*)
-    
     * *Total Seconds Played* - The total number of seconds the video was played (*25*)
-    
     * *Start Timestamp* - Timestamp that identifies when the video play started (*1331035567*)
-    
     * *Play Session* - The details of the play session. This field indicates how the user interacted with the video. This might include data such as where they started playing the video, whether they used the video slider to advance the video, and where they stopped playing the video (*L10E24S58L58 - video was stopped at sec. 25 of section L10, then skipped to sec. 48*)
 
 ## Legacy seconds {#legacy-seconds}

@@ -28,10 +28,12 @@ Community content, also known as user generated content (UGC), is created when a
 
 Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments:
 
-* [bulk moderation console](/help/communities/moderation.md)  
+* [bulk moderation console](/help/communities/moderation.md) 
+
   The Moderation console is accessible by administrators and [community moderators](/help/communities/users.md) in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a [common store](/help/communities/working-with-srp.md).
 
-* [in-context moderation](/help/communities/in-context.md)  
+* [in-context moderation](/help/communities/in-context.md)
+
   Moderation in the publish environment may be performed by administrators and community moderators directly on the page where the content was posted.
 
 ## Moderation Actions {#moderation-actions}
@@ -39,18 +41,23 @@ Moderation of UGC is useful for recognizing positive contributions as well as li
 The actions which can be performed on posted content (UGC) varies depending on the user identity and the environment. The table below uses the following terminology to describe the various roles according to user identity:
 
 * `Admin`  
+
   a user who is a member of [community-administrators](/help/communities/users.md) group
 
-* `Moderator`  
+* `Moderator` 
+
   a member of a [community moderators](/help/communities/users.md#publishenvironmentusersandgroups) group (has [moderator permissions](/help/communities/in-context.md#moderatorpermissions))
 
 * `Creator`  
+
   the user who posted the content
 
 * `Member`  
+
   a signed-in user without special permissions
 
-* `Visitor`  
+* `Visitor` 
+ 
   an anonymous user
 
 <table> 

@@ -96,7 +96,8 @@ use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
 1. **[create Community administrators](/help/communities/users.md#creating-community-members)** for author environment use classic-UI Security console: *http://localhost:4502/useradmin* 
  create user(s) with path = /home/users/community  
 
-    * add members(s) to the following groups:  
+    * add members(s) to the following groups: 
+     
       * Community Enablement Managers  
       * Communities Administrators
 

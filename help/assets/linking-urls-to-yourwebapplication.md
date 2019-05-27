@@ -164,7 +164,7 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
    (The path above is for illustration purposes only; it is not the actual path you copy.)
 
-    * Under **Registration ID**, copy the customer name found in the last part of the ID. You will need the copied customer name later in these steps.  
+    * Under **Registration ID**, copy the customer name found in the last part of the ID. You will need the copied customer name later in these steps. 
     
       For example, if the registration ID was `87654321|demoCo`, the customer name you copy would be `demoCo`.
 

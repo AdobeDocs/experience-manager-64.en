@@ -89,9 +89,7 @@ Operations for administering running, completed, and failed workflow instances.
 * Arguments:
 
     * Restart the instance: (Optional) Specify a value of `true` to restart the instances after they are terminated. The default value of `false` causes no restarting of terminated workflow instances.
-    
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
-    
     * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the failed instances of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
 
 * Returned value: Tablular data about the instances that are terminated, containing the following columns:
@@ -108,7 +106,6 @@ Operations for administering running, completed, and failed workflow instances.
 * Arguments:
 
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
-    
     * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the failed work items of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
 
 * Returned value: Tablular data about the failed work items that are retried, including the following columns:
@@ -760,23 +757,6 @@ Information about all packages that Package Manager contains.
 * Domain: com.adobe.granite.packaging
 * Type: manager
 
-### Attributes {#attributes-5}
-
-Each row in the table represents a package in Package Manager. The column headings are package properties. Read-only.
-
-**id** The String representation of the package ID.
-
-**installed** A boolean value that indicates whether the package is installed:
-
-* `true`: Installed.
-* `false`: Not installed.
-
-**installedBy** The ID of the user who last installed the package.
-
-**installedDate** The date when the package was last installed.
-
-**size** A long value that holds the size of the package in bytes.
-
 ## Quickstart Launcher {#quickstart-launcher}
 
 Information about the startup process and the Quickstart launcher.
@@ -831,12 +811,12 @@ Several third-party server resources install MBeans that expose attributes and o
   <tr> 
    <td>JMImplementation</td> 
    <td>MBeanServerDelegate</td> 
-   <td><a href="https://docs.oracle.com/javase/6/docs/api/javax/management/MBeanServerDelegate.html">javax.management.MBeanServerDelegate</a></td> 
+   <td><a href="https://docs.oracle.com/javase/8/docs/api/javax/management/MBeanServerDelegate.html">javax.management.MBeanServerDelegate</a></td> 
   </tr> 
   <tr> 
    <td>com.sun.management</td> 
    <td>HotSpotDiagnostic</td> 
-   <td><a href="https://docs.oracle.com/javase/6/docs/jre/api/management/extension/com/sun/management/HotSpotDiagnosticMXBean.html">com.sun.management.HotSpotDiagnosticMXBean</a></td> 
+   <td><a href="https://docs.oracle.com/javase/8/docs/jre/api/management/extension/com/sun/management/HotSpotDiagnosticMXBean.html">com.sun.management.HotSpotDiagnosticMXBean</a></td> 
   </tr> 
   <tr> 
    <td>java.lang</td> 
@@ -852,12 +832,12 @@ Several third-party server resources install MBeans that expose attributes and o
      <li>Runtime</li> 
      <li>Threading</li> 
     </ul> </td> 
-   <td><a href="https://docs.oracle.com/javase/1.5.0/docs/api/javax/management/package-summary.html">javax.management</a> package</td> 
+   <td><a href="https://docs.oracle.com/javase/8/docs/api/javax/management/package-summary.html">javax.management</a> package</td> 
   </tr> 
   <tr> 
    <td>java.util.logging</td> 
    <td> </td> 
-   <td><a href="https://docs.oracle.com/javase/6/docs/api/java/util/logging/LoggingMXBean.html">java.util.logging.LoggingMXBean</a></td> 
+   <td><a href="https://docs.oracle.com/javase/8/docs/api/java/util/logging/LoggingMXBean.html">java.util.logging.LoggingMXBean</a></td> 
   </tr> 
   <tr> 
    <td>osgi.core</td> 
@@ -868,7 +848,7 @@ Several third-party server resources install MBeans that expose attributes and o
      <li>packageState</li> 
      <li>serviceState</li> 
     </ul> </td> 
-   <td><a href="https://www.osgi.org/javadoc/r4v42/org/osgi/jmx/framework/package-summary.html">org.osgi.jmx.framework</a> package</td> 
+   <td><a href="https://osgi.org/specification/osgi.enterprise/7.0.0/service.jmx.html#d0e42567">org.osgi.jmx.framework</a> package</td> 
   </tr> 
  </tbody> 
 </table>

@@ -82,7 +82,6 @@ To quickly setup a slinglog file:
 1. select **Add new logger**
 
     1. select `DEBUG`for **Log Level**
-    
     1. enter a name for **Log File**, for example
 
         * logs/scoring-debug.log
@@ -107,7 +106,6 @@ To see log entries
 * on the server's local disk
 
     * the log file is at &lt;*server-install-dir*&gt;/crx-quickstart/logs/&lt;*log-file-name*&gt;.log
-    
     * for example, `.../crx-quickstart/logs/scoring-debug.log`
 
 ![](assets/chlimage_1-249.png) 
@@ -156,6 +154,7 @@ The screen shots of repository data come from setting up scoring and badging for
     * locate the forum component node
 
         * `/content/sites/engage/en/forum/jcr:content/content/primary/forum`  
+
           ( `sling:resourceType = social/forum/components/hbs/forum`)
 
     * add property to display badges
@@ -190,6 +189,7 @@ The screen shots of repository data come from setting up scoring and badging for
     * locate the forum component node
 
         * `/content/community-components/en/forum/jcr:content/content/forum`  
+        
           ( `sling:resourceType = social/forum/components/hbs/forum`)
 
     * add property to display badges

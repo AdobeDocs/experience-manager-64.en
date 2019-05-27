@@ -55,11 +55,8 @@ More specifically, the following configuration changes will be performed when AE
 1. **The Adobe Granite HTML Library Manager** is configured with the following settings:
 
     1. **Minify:** `enabled`
-    
     1. **Debug:** `disabled`
-    
     1. **Gzip:** `enabled`
-    
     1. **Timing:** `disabled`
 
 1. The **Apache Sling GET Servlet** is set to support secure configurations by default, as follows:

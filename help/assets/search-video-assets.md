@@ -93,14 +93,18 @@ You can search for digital assets based on one or more of the following properti
 1. Search for video assets by doing any one of the following:
 
     * Search using keywords  
+
       In the Enter Keywords field, start typing and then press Enter.  
+
       The current view is filtered based on the keywords that you type. Files are displayed as search results if your keywords match the file's name, metadata tags, or other properties.
     
     * Search using properties  
+
       To search for a video file based on a property such as the video's type, you can narrow the search by selecting a video or audio property. For example, expand the Video Format drop-down, and then check one or more values. Some properties require you to enter a minimum and maximum value.  
     
     * Search using keywords and properties  
+
       Enter a keyword but instead of pressing Enter, expand a video or audio property list, and then set the values you want.
 
-1. (Optional) Near the bottom of the page, tap **Save Smart Collection**, enter a name for the search. Check **Public **if you want the saved search made available to other users of the Adobe Experience Manager account. Uncheck if you want the search made available only to you when you are signed in to the account. Tap **Save**.
+1. (Optional) Near the bottom of the page, tap **Save Smart Collection**, enter a name for the search. Check **Public** if you want the saved search made available to other users of the Adobe Experience Manager account. Uncheck if you want the search made available only to you when you are signed in to the account. Tap **Save**.
 

@@ -273,16 +273,16 @@ You need to set up replication authentication on author in order to replicate im
 To set up authentication:
 
 1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account. 
-1. In AEM, tap the AEM logo to access the global navigation console, then tap **Tools** &gt;  **Security** &gt; **Users**.
+1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools &gt;  Security &gt; Users]**.
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
 
    ![](assets/dm-replication.png)
 
-1. In the Edit User Settings For dynamic-media-replication page, tap the **Keystore** tab, then click **Create KeyStore**.
+1. In the Edit User Settings For dynamic-media-replication page, tap the **[!UICONTROL Keystore]** tab, then tap **[!UICONTROL Create KeyStore]**.
 
    ![](assets/dm-replication-keystore.png)
 
-1. Enter a password and confirm the password in the **Set KeyStore Access Password** dialog box.
+1. Enter a password and confirm the password in the [!UICONTROL Set KeyStore Access Password] dialog box.
 
    >[!NOTE]
    >
@@ -293,9 +293,9 @@ To set up authentication:
 1. On the **Edit User Settings For dynamic-media-replication** page, expand the **Add Private Key from KeyStore file **area and add the following (see the images that follow):
 
    * In the **New Alias** field, enter the name of an alias that you will later use in the replication configuration; for example, **replication**.
-   * Tap **KeyStore File**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **Open**.  
+   * Tap **KeyStore File**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **Open**.
    * In the **KeyStore File Password** field, enter the KeyStore File password. This is **not** the KeyStore password that you created in Step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
-   * In the **Private Key Password** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.  
+   * In the **Private Key Password** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.
    * In the **Private Key Alias** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
 
    ![](assets/edit_settings_fordynamic-media-replication2.png)
@@ -308,28 +308,28 @@ To set up authentication:
 
 To configure the replication agent:
 
-1. In AEM, tap the AEM logo to access the global navigation console, then tap **Tools** &gt;  **Deployment** &gt; **Replication** &gt;  **Agents on author**.
-1. On the Agents on author page, tap **Dynamic Media Hybrid Image Replication (s7delivery)**.
-1. Tap **Edit**.
-1. Tap the **Settings** tab, then enter the following:
+1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools &gt;  Deployment &gt; Replication &gt; Agents on author]**.
+1. On the Agents on author page, tap **[!UICONTROL Dynamic Media Hybrid Image Replication (s7delivery)]**.
+1. Tap **[!UICONTROL Edit]**.
+1. Tap the **[!UICONTROL Settings]** tab, then enter the following:
 
-   * **Enabled** - Select this check box to enable the replication agent.
-   * **Region** - Set to the appropriate region: North America, Europe, or Asia
-   * **Tenant ID** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive this.
-   * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#setting-up-authentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#setting-up-authentication).)
-   * **Key Store Password** - This is the KeyStore password that was created when you clicked/tapped **Create KeyStore**. Adobe does not provide this password. See step 5 of [Setting up Authentication](#setting-up-authentication).
+   * **[!UICONTROL Enabled]** - Select this check box to enable the replication agent.
+   * **[!UICONTROL Region]** - Set to the appropriate region: North America, Europe, or Asia
+   * **[!UICONTROL Tenant ID]** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive this.
+   * **[!UICONTROL Key Store Alias]** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#setting-up-authentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#setting-up-authentication).)
+   * **[!UICONTROL Key Store Password]** - This is the KeyStore password that was created when you tapped **[!UICONTROL Create KeyStore]**. Adobe does not provide this password. See step 5 of [Setting up Authentication](#setting-up-authentication).
 
    The following image shows the replication agent with sample data:
 
    ![](assets/chlimage_1-509.png)
 
-1. Tap **OK**.
+1. Tap **[!UICONTROL OK]**.
 
 ### Validating the Replication Agent for Dynamic Media {#validating-the-replication-agent-for-dynamic-media}
 
 To validate the replication agent for dynamic media, do the following:
 
-Tap or click **Test Connection**. Example output is as follows:
+Tap **[!UICONTROL Test Connection]**. Example output is as follows:
 
 ```shell
 11.03.2016 10:57:55 - Transferring content for ReplicationAction{type=TEST, path[0]='/content/dam', time=1457722675402, userId='admin', revision='null'}
@@ -350,7 +350,7 @@ Replication test succeeded
 >You can also check by doing one of the following:
 >
 >* Check the replication logs to make sure the asset is replicated. 
->* Publish an image. Tap or click the image and select **Viewers** in drop-down menu. Then select a viewer preset, then click URL, and copy/paste the URL in the browser to verify that you can see the image.
+>* Publish an image. Tap the image and select **[!UICONTROL Viewers]** in drop-down menu. Select a viewer preset, then tap **[!UICONTROL URL]**, and copy/paste the URL in the browser to verify that you can see the image.
 
 ### Troubleshooting Authentication {#troubleshooting-authentication}
 
@@ -440,14 +440,14 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
 
    `localhost:4502/libs/granite/security/content/useradmin.html`
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
-1. Click the **KeyStore** tab. If the **Create KeyStore** button appears, then you need to redo the steps under [Setting up Authentication](#setting-up-authentication) earlier.
+1. Tap the **[!UICONTROL KeyStore]** tab. If the [!UICONTROL Create KeyStore] button appears, then you need to redo the steps under [Setting up Authentication](#setting-up-authentication) earlier.
 1. If you had to redo the KeyStore setup, you may need to do [Configuring the Replication Agent](config-dynamic.md#configuring-the-replication-agent) again, as well.
 
    Reconfigure the s7delivery Replication Agent.
 
    `localhost:4502/etc/replication/agents.author/s7delivery.html`
 
-1. Tap **Test Connection** to verify the configuration is valid.
+1. Tap **[!UICONTROL Test Connection]** to verify the configuration is valid.
 
 #### Problem: Publish Agent is using SSL instead of OAuth {#problem-publish-agent-is-using-ssl-instead-of-oauth}
 
@@ -469,7 +469,7 @@ Replicate log example:
 
 To fix this issue:
 
-1. In AEM, click **Tools** &gt;  **General** &gt;  **CRXDE Lite**.
+1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
 
    `localhost:4502/crx/de/index.jsp`
 
@@ -481,7 +481,7 @@ To fix this issue:
 
    `enableOauth=true`
 
-1. Near the upper-left corner of the page, click **Save All**.
+1. Near the upper-left corner of the page, tap **[!UICONTROL Save All]**.
 
 ### Testing your Configuration {#testing-your-configuration}
 
@@ -494,15 +494,15 @@ Be sure you have already done the following prior to beginning this test:
 
 To test your configuration:
 
-1. Upload an image asset. (In Assets, tap or click **Create** &gt; **Files** and select the file.)
+1. Upload an image asset. (In Assets, tap **[!UICONTROL Create &gt; Files]** and select the file.)
 1. Wait for the workflow to finish.
-1. Publish the image asset. (Select the asset and tap **Quick Publish**.)
-1. Navigate to the renditions for that image by opening the image, and tapping or clicking **Renditions**.
+1. Publish the image asset. (Select the asset and tap **[!UICONTROL Quick Publish]**.)
+1. Navigate to the renditions for that image by opening the image, and tapping **[!UICONTROL Renditions]**.
 
    ![](assets/chlimage_1-510.png)
 
 1. Select any dynamic rendition.
-1. Click **URL** to obtain the URL for this asset.
+1. Tap **[!UICONTROL URL]** to obtain the URL for this asset.
 1. Navigate to the selected URL and check whether the image behaves as expected.
 
 Another way to test that your assets were delivered is to append req=exists to your URL.
@@ -519,16 +519,16 @@ As part of the configuration, you need to enter a registration ID, video service
 
 To configure dynamic media cloud services:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt;  **Cloud Services** &gt; **Dynamic Media Configuration (Pre-6.3)**.
-1. On the Dynamic Media Configuration Browser page, in the left pane, select **global**, then click **Create**.
-1. In the **Create Dynamic Media Configuration** dialog box, in the Title field, type a title.
+1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; Cloud Services &gt; Dynamic Media Configuration (Pre-6.3)]**.
+1. On the [!UICONTROL Dynamic Media Configuration Browser] page, in the left pane, select **[!UICONTROL global]**, then tap **[!UICONTROL Create]**.
+1. In the [!UICONTROL Create Dynamic Media Configuration] dialog box, in the [!UICONTROL Title] field, type a title.
 1. If you are configuring Dynamic Media for video,
 
-    * In the **Registration ID** field, type your registration ID.
-    * In the **Video Service URL** field, enter the video service URL for the Dynamic Media Gateway.
+    * In the [!UICONTROL Registration ID] field, type your registration ID.
+    * In the [!UICONTROL Video Service URL] field, enter the video service URL for the Dynamic Media Gateway.
 
-1. If you are configuring Dynamic Media for imaging, in the **Image Service URL** field, enter the image service URL for the Dynamic Media Gateway.
-1. Tap **Save** to return to the Dynamic Media Configuration Browser page.
+1. If you are configuring Dynamic Media for imaging, in the [!UICONTROL Image Service URL] field, enter the image service URL for the Dynamic Media Gateway.
+1. Tap **[!UICONTROL Save]** to return to the Dynamic Media Configuration Browser page.
 1. Tap the AEM logo to access the global navigation console.
 
 ## Configuring Video Reporting {#configuring-video-reporting}
@@ -539,10 +539,10 @@ You can configure video reporting across multiple installations of AEM using Dyn
 
 **Get started:** Configure video reporting by completing the following three tasks.
 
-1. Create a Video Analytics preset package after you configure Dynamic Media Configuration (Pre 6.3) on the first Author node. This initial task is important because it allows a new configuration to continue using the same report suite. ` ```
-1. Install the Video Analytics preset package to any ***new*** Author node ***before*** you configure Dynamic Media Configuration (Pre 6.3). ``
+1. Create a Video Analytics preset package after you configure Dynamic Media Configuration (Pre 6.3) on the first Author node. This initial task is important because it allows a new configuration to continue using the same report suite.
+1. Install the Video Analytics preset package to any ***new*** Author node ***before*** you configure Dynamic Media Configuration (Pre 6.3).
 
-1. ` ```Verify and debug the package installation.
+1. Verify and debug the package installation.
 
 ### Creating a Video Analytics Preset package after configuring the first Author node {#creating-a-video-analytics-preset-package-after-configuring-the-first-author-node}
 
@@ -602,13 +602,13 @@ Make sure that the Video Analytics preset package from the first Author node is 
 
     * **Check the Video Analytics preset through the Video Reporting tool in AEM**
 
-      Click **Tools** &gt; **Assets** &gt; **Video Reporting** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
+      Tap **[!UICONTROL Tools &gt; Assets &gt; Video Reporting]** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
   
       If you see the following error message, the report suite is available, but unpopulated. This error is correct--and desired--in a new installation before the system collects any data.
 
       ![](assets/screen_shot_2018-05-23at52254pm.png)
 
-   To generate reporting data, upload and publish one video. Use **Copy URL** and run the video at least one time.  
+   To generate reporting data, upload and publish one video. Use **[!UICONTROL Copy URL]** and run the video at least one time.  
   
    Be aware that it can take up to 12 hours before the reporting data is populated from Video Viewer usage.  
   
@@ -649,8 +649,8 @@ You must publish your own default catalog settings as part of the setup process 
 
    **`https://<*server*>:<*port*>/crx/de/index.jsp#/conf/global/settings/dam/dm/imageserver/`**
 
-1. Tap the **Replication** tab.
-1. Tap **Replicate**.
+1. Tap the **[!UICONTROL Replication]** tab.
+1. Tap **[!UICONTROL Replicate]**.
 
 ## Replicating Viewer Presets {#replicating-viewer-presets}
 
@@ -727,16 +727,16 @@ If you are using Dynamic Media for (1) imaging in production **or** (2) imaging 
 
 If you are using Dynamic Media for video-only, follow these steps to set up asset filters for replication:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt;** Deployment** &gt; **Replication** &gt;  **Agents on author**.
-1. On the Agents on author page, tap **Default Agent (publish)**.
-1. Tap **Edit**.
-1. In the **Agent Settings** dialog box, in the **Settings** tab, check **Enabled** to turn on the agent.
-1. Tap **OK**.
-1. In AEM, tap **Tools** &gt; **General** &gt; **CRXDE Lite**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; Deployment &gt; Replication &gt; Agents on author]**.
+1. On the Agents on author page, tap **[!UICONTROL Default Agent (publish)]**.
+1. Tap **[!UICONTROL Edit]**.
+1. In the **[!UICONTROL Agent Settings]** dialog box, in the [!UICONTROL Settings] tab, check **[!UICONTROL Enabled]** to turn on the agent.
+1. Tap **[!UICONTROL OK]**.
+1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters`
-1. Locate **filter-video**, right-click it and select **Copy**.
+1. Locate [!UICONTROL filter-video], right-click it and select **[!UICONTROL Copy]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/publish`
-1. Locate **jcr:content**, right-click it and select **Paste**.
+1. Locate [!UICONTROL jcr:content], right-click it and select **[!UICONTROL Paste]**.
 
 This sets up the AEM publish instance to deliver the video poster image as well as the video metadata required for playback, while the video itself is delivered by the Dynamic Media cloud service. The filter will also exclude from replication the original video and static thumbnail renditions, which are not needed on the publish instance.
 
@@ -744,20 +744,20 @@ This sets up the AEM publish instance to deliver the video poster image as well 
 
 If you are using Dynamic Media for imaging in non-production deployments, follow these steps to set up asset filters for replication:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt; **Deployment** &gt; **Replication** &gt;  **Agents on author**.
-1. On the Agents on author page, tap **Default Agent (publish)**.
-1. Tap **Edit**.
-1. In the **Agent Settings** dialog box, in the **Settings** tab, check **Enabled** to turn on the agent.
-1. Tap **OK**.
-1. In AEM, tap **Tools** &gt; **General** &gt; **CRXDE Lite**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; Deployment &gt; Replication &gt; Agents on author]**.
+1. On the Agents on author page, tap **[!UICONTROL Default Agent (publish)]**.
+1. Tap **[!UICONTROL Edit]**.
+1. In the [!UICONTROL Agent Settings] dialog box, in the [!UICONTROL Settings] tab, check **[!UICONTROL Enabled]** to turn on the agent.
+1. Tap **[!UICONTROL OK]**.
+1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters`
 
    ![](assets/image-2018-01-16-10-22-40-410.png)
 
-1. Locate **filter-images**, right-click it and select **Copy**.
+1. Locate [!UICONTROL filter-images], right-click it and select **[!UICONTROL Copy]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/publish`
-1. Locate **jcr:content**, right-click it and select **Create** > **Create Node**. Enter the name `damRenditionFilters` of type `nt:unstructured`. 
-1. Locate `damRenditionFilters`, right-click it and select **Paste**.
+1. Locate [!UICONTROL jcr:content], right-click it and select **[!UICONTROL Create > Create Node]**. Enter the name `damRenditionFilters` of type `nt:unstructured`. 
+1. Locate [!UICONTROL `damRenditionFilters`], right-click it and select **[!UICONTROL Paste]**.
 
 This sets up the AEM publish instance to deliver the images to your non-production environment. The filter will also exclude from replication the original image and static renditions, which are not needed on the publish instance.
 
@@ -765,7 +765,7 @@ This sets up the AEM publish instance to deliver the images to your non-producti
 >
 >If there are many different filters in an author, each agent needs a different user assigned to it. The granite code enforces one-filter-per-user model. Always have a different user for each filter set up.
 >
->If you are using more than one filter on a server - for example, one filter for replication to publish and a second filter for s7delivery - then you need to ensure that these two filters have a different **userId** assigned to them in the **jcr:content** node. See the image that follows:
+>If you are using more than one filter on a server - for example, one filter for replication to publish and a second filter for s7delivery - then you need to ensure that these two filters have a different **userId** assigned to them in the [!UICONTROL jcr:content] node. See the image that follows:
 
 ![](assets/image-2018-01-16-10-26-28-465.png) 
 
@@ -773,14 +773,14 @@ This sets up the AEM publish instance to deliver the images to your non-producti
 
 To optionally customize asset filters for replication:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt; **General** &gt;  **CRXDE Lite**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
    ![](assets/chlimage_1-511.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
-   In the left rail, expand **content **> **dam **> **<`locate_your_asset`&gt;** &gt; **jcr:content** &gt; **metadata**, and then in the table, locate **dc:format**.
+   In the left rail, expand **[!UICONTROL content > dam > <`locate_your_asset`&gt; &gt; jcr:content &gt; metadata]**, and then in the table, locate [!UICONTROL dc:format].
 
    The following graphic is an example of an asset's path to dc:format.
 
@@ -839,15 +839,15 @@ Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 
 
 To configure Dynamic Media Image Server settings:
 
-1. In the upper-left corner of AEM, tap or click **Adobe Experience Manager** to access the global navigation console, then tap **Tools** &gt;  **Operations** &gt;  **Web Console**.
-1. On the Adobe Experience Manager Web Console Configuration page, click or tap **OSGi** &gt;  **Configuration **to list all the bundles that are currently running within AEM.
+1. In the upper-left corner of AEM, tap **[!UICONTROL Adobe Experience Manager]** to access the global navigation console, then tap **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
+1. On the Adobe Experience Manager Web Console Configuration page, tap **[!UICONTROL OSGi &gt; Configuration]** to list all the bundles that are currently running within AEM.
 
    The Dynamic Media Delivery Servers are found under the following names in the list:
 
     * Adobe CQ Scene7 ImageServer
     * Adobe CQ Scene7 PlatformServer
 
-1. In the list of bundles, to the right of Adobe CQ Scene7 ImageServer, tap the Edit icon.
+1. In the list of bundles, to the right of Adobe CQ Scene7 ImageServer, tap the **[!UICONTROL Edit]** icon.
 1. In the Adobe CQ Scene7 ImageServer dialog box, set the following configuration values:
 
    >[!NOTE]
@@ -894,8 +894,8 @@ To configure Dynamic Media Image Server settings:
  </tbody> 
 </table>
 
-1. Tap **Save**.
-1. In the list of bundles, to the right of Adobe CQ Scene7 PlatformServer, tap the Edit icon.
+1. Tap **[!UICONTROL Save]**.
+1. In the list of bundles, to the right of Adobe CQ Scene7 PlatformServer, tap the **[!UICONTROL Edit]** icon.
 1. In the Adobe CQ Scene7 PlatformServer dialog box, set the following default value options:
 
    >[!NOTE]
@@ -921,9 +921,9 @@ The location of the default manifest configuration is taken from the **Catalog r
 
 You can change the values of the properties, as described in the table below, by entering new values.
 
-When you are finished making changes to the default manifest, in the upper-left corner of the page, click **Save All**.
+When you are finished making changes to the default manifest, in the upper-left corner of the page, tap **[!UICONTROL Save All]**.
 
-Be sure you click the **Access Control** tab (to the right of the Properties tab), then set the access control privileges to `jcr:read` for the everyone and dynamic-media-replication users.
+Be sure you tap the **[!UICONTROL Access Control]** tab (to the right of the [!UICONTROL Properties] tab), then set the access control privileges to `jcr:read` for the everyone and dynamic-media-replication users.
 
 ![](assets/configimageservercrxdeliteaccesscontroltab.png)
 
@@ -1026,11 +1026,11 @@ After you install the feature pack, you need to configure the appropriate defaul
 
    ![](assets/chlimage_1-514.png)
 
-1. Add a color correction property by scrolling to the bottom of the **Properties** tab and manually entering the property name, type, and value, which are described in the following tables. After you enter the values, click **Add** and then **Save All** to save your values.
+1. Add a color correction property by scrolling to the bottom of the **Properties** tab and manually entering the property name, type, and value, which are described in the following tables. After you enter the values, tap **[!UICONTROL Add]** and then **[!UICONTROL Save All]** to save your values.
 
    Color correction properties are described in the **Color Corrections Properties** table. Values that you can assign to color correction properties are in the **Color Profile** table.
 
-   For example, in **Name**, add `iccprofilecmyk`, select **Type** `String`, and add `WebCoated` as a **Value**. Tap **Add**, then **Save All** to save your values.
+   For example, in **Name**, add `iccprofilecmyk`, select **Type** `String`, and add `WebCoated` as a **Value**. Tap **[!UICONTROL Add]**, then **[!UICONTROL Save All]** to save your values.
 
    ![](assets/chlimage_1-515.png)
 
@@ -1279,7 +1279,7 @@ After you install the feature pack, you need to configure the appropriate defaul
     </tbody> 
     </table>
 
-1. Tap **Save All**.
+1. Tap **[!UICONTROL Save All]**.
 
 For example, you could set the **iccprofilergb** to *sRGB*, and **iccprofilecmyk** to *WebCoated*. Doing so would do the following:
 

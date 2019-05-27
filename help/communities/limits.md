@@ -45,25 +45,37 @@ To reach this OSGi configuration:
 ![](assets/chlimage_1-127.png)
 
 * **Automatically Apply UGC Contribution Limits** 
-  If checked, automatically set contribution limits on users when they register as community members. This is reflected in the community member's profile and may be enabled/disabled from the [members console](/help/communities/members.md). New members with an email address from a white listed domain are never constrained.  
+
+  If checked, automatically set contribution limits on users when they register as community members. This is reflected in the community member's profile and may be enabled/disabled from the [members console](/help/communities/members.md). New members with an email address from a white listed domain are never constrained. 
+
   Default is unchecked.
 
 * **UGC Limit** 
-  Maximum number of contributions.  
+
+  Maximum number of contributions.
+
   Default is 10 posts.
 
 * **UGC Limit Frequency** 
+
   The time period constraining the UGC limit.  
+
   Default is 60 minutes.
 
 * **Domains** 
-  A white list of one or more email domains. Select the + icon to make addtional entries.  
-  Users with email addresses in the white listed domains are not affected when UGC contribution limits are automatically applied. For example, if domain `mycompany.com` is added to the list of domains, then a member with email address `me@mycompany.com` is never restricted from posting.  
+
+  A white list of one or more email domains. Select the + icon to make addtional entries. 
+
+  Users with email addresses in the white listed domains are not affected when UGC contribution limits are automatically applied. For example, if domain `mycompany.com` is added to the list of domains, then a member with email address `me@mycompany.com` is never restricted from posting.
+
   Default is an empty white list.
 
 * **Messaging Recipients** 
+
   List of one or more authorizable IDs of members able to modify the contribution limits for members. Select the + icon to make addtional entries.  
+
   Members may only reach out to specified members when their limit has been reached.  
+
   Default is no messaging recipients.
 
 Note: The default configuration results in a limit of 10 posts within a period of one hour.

@@ -288,22 +288,34 @@ Update index configurations to improve reindexing time:
 
 1. Browse to */oak:index/ntBaseLucene/indexRules/nt:base/properties*
 1. Add two nt:unstructured nodes "slingResource" and "damResolvedPath" under */oak:index/ntBaseLucene/indexRules/nt:base/properties*
-1. Set the properties below on the nodes (where ordered and propertyIndex properties are of type *Boolean*:  
+1. Set the properties below on the nodes (where ordered and propertyIndex properties are of type *Boolean*: 
+
    slingResource  
+
    name="sling:resource"  
+
    ordered=false  
-   propertyIndex= true  
-   type="String"  
-   damResolvedPath  
-   name="dam:resolvedPath"  
-   ordered=false  
-   propertyIndex=true  
+
+   propertyIndex= true 
+
+   type="String" 
+
+   damResolvedPath 
+
+   name="dam:resolvedPath" 
+
+   ordered=false 
+
+   propertyIndex=true 
+
    type="String"
 
 1. On the /oak:index/ntBaseLucene node, set the property *reindex=true*
 1. Click "Save All"
-1. Monitor the error.log to see when indexing is completed:  
+1. Monitor the error.log to see when indexing is completed: 
+
    Reindexing completed for indexes: [/oak:index/ntBaseLucene]
+   
 1. You can also see that indexing is completed by refreshing the /oak:index/ntBaseLucene node in CRXDe as the reindex property would go back to false
 1. Once indexing is completed then go back to CRXDe and set the "type" property to disabled on these two indexes
 

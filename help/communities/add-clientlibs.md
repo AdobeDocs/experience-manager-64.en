@@ -120,7 +120,6 @@ The include statement belongs in the <head> section of the <html> script. The de
 **Copy headlibs.jsp and include clientlibs:**
 
 1. using **CRXDE Lite**, select **`/libs/foundation/components/page/headlibs.jsp`**
-
 1. right click and select **Copy** (or select Copy from the tool bar)
 1. select **`/apps/an-scf-sandbox/components/playpage`**
 1. right click and select **Paste** (or select Paste from the tool bar)

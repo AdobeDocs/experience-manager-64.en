@@ -68,10 +68,10 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Specify:
 
     * **Importer** 
-      The importer for the specific [commerce provider](/help/sites-administering/concepts.md#commerce-providers), by default `Geometrixx`.  
+      The importer for the specific [commerce provider](/help/sites-administering/concepts.md#commerce-providers), by default `Geometrixx`. 
     
-    * **Source ** 
-      The file you want imported; you can use the browser to select a file.  
+    * **Source** 
+      The file you want imported; you can use the browser to select a file. 
     
     * **Incremental Import** 
       Indicate whether this is an incremental import (as opposed to full).
@@ -104,14 +104,15 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Specify:
 
     * **Store Name** 
-      Products will be imported to:  
+      Products will be imported to:
+
       `/etc/commerce/products/<*store name*>/`
     
     * **Commerce Provider** 
-      The importer for your [commerce provider](/help/sites-administering/concepts.md#commerce-providers); by default Geometrixx.  
+      The importer for your [commerce provider](/help/sites-administering/concepts.md#commerce-providers); by default Geometrixx. 
     
     * **Source File** 
-      The location in the repository of the file you want imported.  
+      The location in the repository of the file you want imported. 
     
     * **Incremental Import** 
       Indicate whether this is an incremental import (as opposed to full).
@@ -130,8 +131,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Use the **Create** icon to select either (depending on the structure and location):
 
     * **Create Product**
-    * **Create Product Variation  
-      **
+    * **Create Product Variation**
 
    ![](do-not-localize/chlimage_1-14.png)
 
@@ -580,7 +580,7 @@ To rollout a catalog:
 
 1. Edit the **Properties** by either:
 
-    * opening the page, then clicking the Edit button to open the Properties dialog  
+    * opening the page, then clicking the Edit button to open the Properties dialog
     * selecting the page in the Websites console, then using the context menu (usually the right mouse button) to select **Properties...** and open the properties dialog
 
    Specify the **Promotion Type**, **Discount Type**, **Discount Value** and any other fields as required.

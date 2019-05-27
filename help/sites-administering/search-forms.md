@@ -33,45 +33,64 @@ When you first access this console you can see that all the configurations have 
 
 The default configurations available are:
 
-* **Page Editor (Documents search):   
-  **This configuration defines the options available when searching for document in the assets browser (when editing a page).
+* **Page Editor (Documents search):** 
+
+  This configuration defines the options available when searching for document in the assets browser (when editing a page).
+
 * **Page Editor (Image search):** 
+
   This configuration defines the options available when searching for images in the assets browser (when editing a page).
 
 * **Page Editor (Manuscript search):** 
+
   This configuration defines the options available when searching for manuscripts in the assets browser (when editing a page).
 
-* **Page Editor (Page search):**  
+* **Page Editor (Page search):**
+
   This configuration defines the options available when searching for pages in the assets browser (when editing a page).
 
-* **Page Editor (Paragraphs search):**  
+* **Page Editor (Paragraphs search):**
+
   This configuration defines the options available when searching for paragraphs in the assets browser (when editing a page).
 
 * **Page Editor (Product search):**
+
   This configuration defines the options available when searching for products in the assets browser (when editing a page).
-* **Page Editor (Scene7 search)**:  
+
+* **Page Editor (Scene7 search)**:
+
   This configuration defines the options available when searching for Scene7 resources in the assets browser (when editing a page).
 
-* **Sites Admin Search Rail**:  
+* **Sites Admin Search Rail**:
+
   This configuration defines the search options available to the user when using the search rail of the Sites console.
 
 * **Page Editor (Video search):**
+
   This configuration defines the options available when searching for videos in the assets browser (when editing a page).
+
 * **Assets Admin Search Rail:**
+
   This configuration defines the search options available to the user when using the Assets console.
-* **Catalogs Admin Search Rail:**  
+
+* **Catalogs Admin Search Rail:**
+
   This configuration defines the search options available to the user when searching a commerce catalog.
 
-* **Orders Admin Search Rail:**  
+* **Orders Admin Search Rail:**
+
   This configuration defines the search options available to the user when searching commerce orders.
 
-* **Product Collections Admin Search Rail:**  
+* **Product Collections Admin Search Rail:**
+
   This configuration defines the search options available to the user when searching commerce product collections.
 
-* **Products Admin Search Rail:**  
+* **Products Admin Search Rail:**
+
   This configuration defines the search options available to the user when searching commerce products.
 
-* **Project Admin Search Rail:**  
+* **Project Admin Search Rail:**
+
   This configuration defines the search options available to the user when searching projects.
 
 ## Predicates and Their Settings {#predicates-and-their-settings}
@@ -335,31 +354,43 @@ The following predicates are available, dependent on the configuration:
 Dependent on the predicate a selection of settings are available for configuration:
 
 * **Field Label** 
+
   The label that will appear as the collapsible header or as the field label of the predicate.
 
 * **Description** 
+
   Descriptive details for the user.
 
 * **Placeholder** 
+
   Empty text or the place holder of the predicate in case no filtering text is entered.
 
 * **Property Name** 
-  The property to be searched on. It uses a relative path and the wildcards `*/*/*` specify the depth of the property relative to the `jcr:content` node (each asterisk represents one node level).  
+
+  The property to be searched on. It uses a relative path and the wildcards `*/*/*` specify the depth of the property relative to the `jcr:content` node (each asterisk represents one node level).
+
   If you want to search only on a first level child node of the resource that has the `x` property on the `jcr:content` node use `*/jcr:content/x`
 
 * **Property Depth** 
+
   The maximum depth to search for that property within the resources. So a search on that property can be performed on a resource and recursive children until the level of the children equals specified depth.
 
 * **Property Value** 
-  The property value as an absolute string or as an expression language; for example, `cq:Page` or  
+
+  The property value as an absolute string or as an expression language; for example, `cq:Page` or 
+
   `${empty requestPathInfo.suffix ? "/content" : requestPathInfo.suffix}`.  
 
 * **Range Text** 
+
   The label of the range field in the **Date Range** predicate.
 
 * **Option Path** 
-  The user can select the path using the Path Browser in the predicate setting tab. After selecting the **+** icon is used to add the selection to the list of valid options (then the **-** icon to remove if required).  
-  The options are content nodes created by the user, having the following structure:  
+
+  The user can select the path using the Path Browser in the predicate setting tab. After selecting the **+** icon is used to add the selection to the list of valid options (then the **-** icon to remove if required). 
+
+  The options are content nodes created by the user, having the following structure: 
+
   `(jcr:primaryType = nt:unstructured, value (String), jcr:title (String))`
 
 * **Options node path** 
@@ -402,10 +433,12 @@ You can add or edit fields and define/update their settings:
 
 1. Depending on whether:
 
-    * You are adding a new field:  
+    * You are adding a new field: 
+
       After adding the predicate the **Settings** tab will open and show the properties that can be defined.
     
-    * You want to update an existing predicate:  
+    * You want to update an existing predicate: 
+
       Select the predicate field (on the right), then open the **Settings** tab.
 
    For example, the settings for the **Date Range Predicate**:
@@ -478,17 +511,10 @@ The following example (to search according to the template used to create a page
    >
    >The recommended method for configuration and other changes is:
    >
-   >    
-   >    
-   >    1. Recreate the required item, as it exists in `/libs`, under `/apps`. In this case from:    >    
-   >        
-   >        
-   >        1. `/libs/cq/gui/content/common/options/predicates`
-   >        
-   >        
-   >    
-   >    1. Make any changes within `/apps.`
-   >    
+   >1. Recreate the required item, as it exists in `/libs`, under `/apps`. In this case from:    >    
+   >1. `/libs/cq/gui/content/common/options/predicates`
+   >1. Make any changes within `/apps.`
+
 1. Open the **Search Forms** console and select the configuration you want to update. For example, **Sites Admin Search Rail**.
 
    Then click/tap the **Edit search forms** icon.
@@ -497,11 +523,16 @@ The following example (to search according to the template used to create a page
 1. Update the fields, in particular:
 
     * **Property Name** 
-      Specific the node property to be searched for on the target nodes. For example:  
-      `jcr:content/cq:template`  
+    
+      Specific the node property to be searched for on the target nodes. For example: 
+
+      `jcr:content/cq:template` 
+
     
     * **Option node path** 
-      Select the path to where your options are held. For example:  
+
+      Select the path to where your options are held. For example:
+
       `/apps/cq/gui/content/common/options/predicates/templatetype`
 
    ![](assets/chlimage_1-380.png)

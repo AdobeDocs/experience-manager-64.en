@@ -30,7 +30,9 @@ This servlet creates a sling job from the posted parameters. This is then added 
 ### Supported Operations {#supported-operations}
 
 * `job`  
-  **Requirements**: the parameter `jobevent` must be set as a serialized value map. This is used to create an `Event` for a job processor.  
+
+  **Requirements**: the parameter `jobevent` must be set as a serialized value map. This is used to create an `Event` for a job processor. 
+
   **Result**: Adds a new job. If successful, a unique job id is returned.
 
 ```shell
@@ -38,8 +40,10 @@ curl -u admin:admin -F":operation=job" -F"someproperty=xxxxxxxxxxxx"
     -F"jobevent=serialized value map" http://localhost:4502/libs/dam/cloud/proxy
 ```
 
-* `result`  
+* `result` 
+
   **Requirements**: the parameter `jobid` must be set.  
+
   **Result**: Returns a JSON representation of the result Node as created by the job processor.
 
 ```shell
@@ -48,7 +52,9 @@ curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx"
 ```
 
 * `resource`  
+
   **Requirements**: the parameter jobid must be set.  
+
   **Result**: Returns a resource associated with the given job.
 
 ```shell
@@ -57,7 +63,9 @@ curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx"
 ```
 
 * `remove`  
+
   **Requirements**: the parameter jobid must be set.  
+
   **Results**: Removes a job if found.
 
 ```shell
@@ -150,7 +158,7 @@ Setting up your own custom proxy worker requires you to:
 
 * Then use the JobService API to:
 
-    * dispatch your custom job to the proxy   
+    * dispatch your custom job to the proxy 
     * manage your job
 
 * If you want to use the proxy from a workflow, you must implement a custom external step using the WorkflowExternalProcess API and the JobService API.

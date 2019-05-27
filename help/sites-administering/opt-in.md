@@ -19,10 +19,12 @@ When you log in as an administrator this task (**Configuring Analytics & Targeti
 
 You have the following options for configuring the integration:
 
-* Configure the integration via the task.  
+* Configure the integration via the task.
+
   This can be done either immediately or later, the task will remain in the Inbox until some action is taken. In either case the configuration can be done directly in the UI, or with the use of a pre-defined `.properties` file.  
 
-* Opt out of the integration.  
+* Opt out of the integration. 
+
   Consider this option if you prefer to [manually configure the integration](/help/sites-administering/marketing-cloud.md). See also [Integrating AEM with Adobe Target and Adobe Analytics using DTM](https://helpx.adobe.com/experience-manager/using/integrate-digital-marketing-solutions.html).
 
 * Configure the set up and provisioning by using a script.
@@ -61,7 +63,7 @@ To opt-in from the pre-loaded, out-of-the-box task:
 1. For Analytics:
 
     1. Enter the user account information for Analytics, then click the corresponding **Add** button.
-    1. The appropriate credentials are authenticated.  
+    1. The appropriate credentials are authenticated. 
     1. When the Analytics account is authenticated, select the Analytics report suite to use. AEM retrieves those Analytics report suites. The status is updated to **Added**.
 
 1. For Target:
@@ -83,7 +85,8 @@ To opt-in from the pre-loaded, out-of-the-box task:
 Opt out of the integration with Analytics and Target when you either:
 
 * Do not want to integrate with these products.
-* Prefer to configure the integrations manually.  
+* Prefer to configure the integrations manually.
+
   For information about configuring the integrations manually, see [Integrating with Adobe Analytics](/help/sites-administering/adobeanalytics.md) and [Integrating with Adobe Target](/help/sites-administering/target.md).
 
 To opt out you need to complete the pre-loaded task:
@@ -173,9 +176,7 @@ Which parameters you send depends on the following:
 * If you want to use the **marketingcloud.properties** file filled in with all the required credentials, then you must send the following parameters:
 
     * `automaticProvisioning`= `true`
-    
     * `servicename`= `analytics|target`
-    
     * `path`=path to an AEM page to attach the created cloud services configs
 
   For example, a curl request that creates both Analytics and Target configurations and attachs them to the we.retail page would be:
@@ -188,7 +189,7 @@ Which parameters you send depends on the following:
 
     * automaticProvisioning= `true`
     * servicename= `analytics|target`
-    * path=path to an AEM page to attach the created cloud services configs; multiple paths can be defined  
+    * path=path to an AEM page to attach the created cloud services configs; multiple paths can be defined
     * analytics.server= `https://servername`
     * analytics.company= `Name of company`
     * analytics.username= `me`

@@ -151,7 +151,6 @@ To connect to AEM via WebDAV in a Windows environment:
 
     * **Drive**: Choose any available letter
     * **Folder**: `http://localhost:4502`
-    
     * Check **Connect using different credentials**
 
    Click Finish

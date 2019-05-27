@@ -81,7 +81,6 @@ To configure the API end points :
 1. Add two properties to the newly added node:
 
     1. **Name**: `text`, **Type**: `String`, **Value**: `Engage 0`
-    
     1. **Name**: `value`, **Type**: `String`, **Value**: `https://api0.silverpop.com`
 
    ![](assets/chlimage_1-286.png)
@@ -93,7 +92,6 @@ To configure the API end points :
    Add two properties to the newly added node:
 
     1. **Name**: `text`, **Type**: `String`, **Value**: `Pilot`
-    
     1. **Name**: `value`, **Type**: `String`, **Value**: `https://apipilot.silverpop.com/XMLAPI`
 
 1. To change the existing API End points (Engage 1 to 6), click each of them one-by-one and replace the values as follows:

@@ -95,7 +95,8 @@ To use the bulk editor to edit multiple items simultaneously:
 
    ![](assets/searchfilter.png)
 
-1. Click **Search**. The Bulk Editor displays the results.  
+1. Click **Search**. The Bulk Editor displays the results.
+
    For the example above, all the pages that meet your search criteria are returned and displayed with the requested columns.
 
    ![](assets/chlimage_1-238.png)
@@ -148,8 +149,10 @@ By default the import functionality is hidden when you open the Bulk Editor. Sim
 To import content:
 
 1. Open the Bulk Editor.
-1. Add `?hib=false` to the URL, e.g.:  
+1. Add `?hib=false` to the URL, e.g.:
+
    `http://localhost:4502/etc/importers/bulkeditor.html?hib=false`
+   
 1. Click **Import**.
 1. Select the `.tsv` file. The data are imported into the repository.
 

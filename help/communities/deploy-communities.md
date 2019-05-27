@@ -281,7 +281,6 @@ There are two replication agents in the author environment that need the transpo
         1. select **edit**
         1. select the **Transport** tab
         1. if not port `4503`, edit the **URI** to specify the correct port
-        
         1. if not user `admin`, edit the **User** and **Password** to specify a member of the `administrators` user group
 
 The following images show the results of changing the port from 4503 to 6103 by:
@@ -305,6 +304,7 @@ To enable the tunnel service:
 * on **author**
 * sign in with administrative privileges
 * if publisher is not localhost:4503 or transport user is not `admin`,  
+
   then [configure the replication agent](#replication-agents-on-author)
 
 * access the [Web Console](/help/sites-deploying/configuring-osgi.md)
@@ -329,12 +329,14 @@ In order to copy the key material from author to all other instances, it is nece
 * access the AEM instance, typically an author instance, that contains the key material to copy
 
     * locate the `com.adobe.granite.crypto.file` bundle in the local file system  
+
       for example,
 
         * `<author-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21`
         * the `bundle.info` file will identify the bundle
 
-    * navigate into the data folder  
+    * navigate into the data folder 
+
       for example,
 
         * `<author-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21/data`
@@ -344,6 +346,7 @@ In order to copy the key material from author to all other instances, it is nece
 * for each target AEM instance
 
     * navigate into the data folder  
+
       for example,
 
         * `<publish-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21/data`
@@ -389,7 +392,8 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 
 ![](assets/chlimage_1-416.png)
 
-* after a moment, a **Success **dialog should appear:  
+* after a moment, a **Success** dialog should appear:  
+
   `Operation completed successfully.`
 
 ### Apache HTTP Server {#apache-http-server}

@@ -212,8 +212,8 @@ The online backup uses the following algorithm:
 1. When creating a zip file, the first step is to create or locate the target directory.
 
     * If backing up to a zip file, a temporary directory is created. The directory name starts with `backup.` and ends with `.temp`; for example `backup.f4d3.temp`.
-    
-    * If backing up to a directory, the name specified in the target path is used. An existing directory can be used, otherwise a new directory will be created.  
+    * If backing up to a directory, the name specified in the target path is used. An existing directory can be used, otherwise a new directory will be created. 
+
       An empty file named `backupInProgress.txt` is created in the target directory when the backup starts. This file is deleted when the backup is finished.
 
 1. The files are copied from the source directory to the target directory (or temporary directory when creating a zip file). The segmentstore is copied before the datastore to avoid repository corruption. The index and cache data are omitted when creating the backup. As a result, data from `crx-quickstart/repository/cache` and `crx-quickstart/repository/index` is not included in the backup. The progress bar indicator of the process is between 0% - 70% when creating a zip file, or 0% - 100% if no zip file is created. 

@@ -86,7 +86,7 @@ Create a Adobe Analytics configuration so that AEM can authenticate with the Ado
 
 1. In the **Create Configurations** dialog:
 
-    * Specify a title.   
+    * Specify a title. 
     * Optionally, specify a **Name** for the node used to store the configuration in the repostory. 
     * Do not change the Parent Configuration property; for example, **Adobe Analytics Configuration**.
 
@@ -102,18 +102,12 @@ Create a Adobe Analytics configuration so that AEM can authenticate with the Ado
     * **Company**: your company's name as featured on Adobe Analytics
     * **Username**: the name used to log in to Adobe Analytics
     * **Shared Secret**: the Adobe Analytics shared secret for the above account
-    * **Data Center**: The location of the Adobe Analytics data center that your account is associated with.  
-    
+    * **Data Center**: The location of the Adobe Analytics data center that your account is associated with. 
     * **Do not add tracking tag to page**: Select this option when you are using Adobe Analytics reports in the [Content Insights](/help/sites-authoring/content-insights.md) feature, and you are also using [Dynamic Tag Management](/help/sites-administering/dtm.md) (DTM) with AEM, and the DTM web property has the Adobe Analytics tool installed. In this case, selecting this option prevents two instances of the tracking code being added to pages.
-    
-    * **Do not track the page load event**: as appropriate  
-    
-    * **Use App Measurement**: as appropriate  
-    
-    * **Use ClientContext**: as appropriate  
-    
-    * **Additional context data**: as appropriate  
-    
+    * **Do not track the page load event**: as appropriate 
+    * **Use App Measurement**: as appropriate 
+    * **Use ClientContext**: as appropriate 
+    * **Additional context data**: as appropriate 
     * **Segment**: as appropriate
 
    Please contact your Adobe Analytics representative to confirm any details and make sure you fill in these credentials correctly.
@@ -125,8 +119,10 @@ Create a Adobe Analytics configuration so that AEM can authenticate with the Ado
 
 To be able to see and use the [Activity Map in the page editor](/help/sites-authoring/pa-using.md#analytics-visible-from-the-page-editor-activity-map), you need to configure:
 
-* Users (for both editing and/or configuring) need to be in the group:  
+* Users (for both editing and/or configuring) need to be in the group: 
+
   `analytics-administrators`  
+
   as there is a restriction on node `/libs/cq/activitymap/content/settings`
 
     * The settings are loaded via `/mnt/override/libs/cq/activitymap/content/settings` so you can override this group restriction.
@@ -134,14 +130,12 @@ To be able to see and use the [Activity Map in the page editor](/help/sites-auth
 * The page in question needs to be published.  
 * Analytics Integration
 
-    * Use AppMeasurement set to `true`  
-    
+    * Use AppMeasurement set to `true` 
     * Report Suite configured to use the `all` run mode
 
 * DTM Integration
 
-    * Use `AppMeasurement.js`  
-    
+    * Use `AppMeasurement.js` 
     * `Include Production code on Author` set to true
 
 >[!NOTE]
@@ -259,11 +253,14 @@ See [Seeing Page Analytics Data](/help/sites-authoring/pa-using.md) for further 
 
 Configure the appropriate instance of the **Adobe AEM Managed Polling Configuration** service:
 
-* **Poll Interval**:  
-  The interval, in seconds, at which the service retrieves page view data from Adobe Analytics.  
+* **Poll Interval**: 
+
+  The interval, in seconds, at which the service retrieves page view data from Adobe Analytics. 
+
   The default interval is 43200000 ms (12 hours).
 
-* **Enable**:  
+* **Enable**: 
+
   Enable or disable the service. By default, the service is enabled.
 
 To configure this OSGi service, you can either use the [Web Console](/help/sites-deploying/configuring-osgi.md#osgi-configuration-with-the-web-console) or an [osgiConfig node in the repository](/help/sites-deploying/configuring-osgi.md#osgi-configuration-in-the-repository) (the service PID is `com.day.cq.polling.importer.impl.ManagedPollConfigImpl`).  

@@ -77,9 +77,12 @@ To apply the CUG to a page:
 
 1. Look for and add your CUG in the following window - in this case add the group named **cug_access**. Finally, press **Save**.
 1. Click **Enabled** to define that this page (and any child pages) belong to a CUG.
-1. Specify the **Login Page** that members of the group will use; for example:  
-   `/content/geometrixx/en/toolbar/login.html`   
+1. Specify the **Login Page** that members of the group will use; for example:
+
+   `/content/geometrixx/en/toolbar/login.html`
+   
    This is optional, if left blank the standard login page will be used.
+   
 1. Add the **Admitted Groups**. Use + to add groups or - to remove. Only members of these groups will be allowed to log in and access the pages.
 1. Assign a **Realm** (a name for the groups of pages) if required. Leave empty to use the page title.
 1. Click **OK** to save the specification.

@@ -37,7 +37,6 @@ To export a page:
 1. In your file system, unzip the file:
 
     * the page html file ( `<page-name>.html`) is available below `<unzip-dir>/<page-path>`
-    
     * other resources (.js files, .css files, images, ...) are located according to the settings in the export template. In this example some resources are below `<unzip-dir>/etc`, some below `<unzip-dir>/<page-path>`.
 
 1. Open the page html file ( `<unzip-dir>/<page-path>.html`) in your browser to check the rendering.

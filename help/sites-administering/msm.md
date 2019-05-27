@@ -262,7 +262,7 @@ An MSM live copy is a copy of specific site content for which a live relationshi
 * Synchronization performs the actual transfer of content when changes are made to the source.
 * A live copy can be considered as either:
 
-    * Shallow: a single page  
+    * Shallow: a single page
     * Deep: the page, together with its child pages
 
 * Synchronization rules, called rollout configurations, determine which properties are synchronized and when the sychronization occurs.
@@ -314,7 +314,8 @@ When you create a live copy in AEM you can see and navigate through the live cop
 When you (or a process) create a [new page within an existing live copy](#live-copy-with-non-live-copy-pages) this new page can also be set up as a live copy of a different blueprint. This is known as a Nested Live Copy, here the behavior of the second (inner) live copy is affected by the first (outer) live copy in the following way:
 
 * A deep rollout triggered for the top-level live copy can be continued into the nested live copy (for example, if the trigger matches). 
-* Any links between the sources will be rewritten within the live copies.  
+* Any links between the sources will be rewritten within the live copies. 
+
   For example, links from the second to the first blueprint will be rewritten as links from the nested/second live copy to the first live copy.
 
 ![](assets/chlimage_1-369.png)
@@ -341,11 +342,14 @@ The source for a live copy can be either regular pages or pages encompassed by a
 
 The source forms the blueprint for the live copy. The blueprint is defined when you either:
 
-* [Create a Blueprint configuration](/help/sites-administering/msm-livecopy.md#creating-a-blueprint-configuration)  
+* [Create a Blueprint configuration](/help/sites-administering/msm-livecopy.md#creating-a-blueprint-configuration)
+
   The configuration defines (in advance) the pages to be used to create the live copy.
 
-* [Create a Live Copy of a Page](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-page)  
-  The pages used to create the live copy (the source pages) are the blueprint pages.  
+* [Create a Live Copy of a Page](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-page)
+
+  The pages used to create the live copy (the source pages) are the blueprint pages.
+  
   The source page can be referenced by a blueprint configuration, or not.
 
 ### Rollout and Synchronize {#rollout-and-synchronize}

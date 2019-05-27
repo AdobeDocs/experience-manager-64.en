@@ -107,19 +107,26 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
 ### Step by Step Instructions {#step-by-step-instructions}
 
 1. Start CRXDE Lite. For example: [http://localhost:4502/crx/de/](http://localhost:4502/crx/de/)
-1. Copy:  
-   `/libs/cq/ui/widgets/source/widgets/form/rte/commands/Table.js`  
-   to:  
+1. Copy:
+
+   `/libs/cq/ui/widgets/source/widgets/form/rte/commands/Table.js`
+
+   to:
+
    `/apps/cq/ui/widgets/source/widgets/form/rte/commands/Table.js`
 
    >[!NOTE]
    >
    >You may need to create intermediate folders if they do not already exist.
 
-1. Copy:  
-   `/libs/cq/ui/widgets/source/widgets/form/rte/plugins/TablePropertiesDialog.js`  
-   to:  
+1. Copy:
+
+   `/libs/cq/ui/widgets/source/widgets/form/rte/plugins/TablePropertiesDialog.js`
+
+   to:
+
    `/apps/cq/ui/widgets/source/widgets/form/rte/plugins/TablePropertiesDialog.js`.
+
 1. Open the following file for editing (open with double-click):
 
    `/apps/cq/ui/widgets/source/widgets/form/rte/plugins/TablePropertiesDialog.js`
@@ -146,7 +153,7 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
 
    `/apps/cq/ui/widgets/source/widgets/form/rte/commands/Table.js`.
 
-1. Add the following code at the end of the the `transferConfigToTable` method:
+1. Add the following code at the end of the `transferConfigToTable` method:
 
    ```
    /**
@@ -181,7 +188,7 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
    }
    ```
 
-1. Save your changes using **Save All … **
+1. Save your changes using **Save All …**
 
 >[!NOTE]
 >
@@ -189,8 +196,6 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
 >
 >To add editing capabilities for further additional elements and attributes, ensure that both:
 >
->* The `itemId` property for each corresponding field is set to the name of the appropriate DOM attribute ( `TablePropertiesDialog`).  
->
->* The attribute is set and/or removed on the DOM element explicitly ( `Table`).
->
+>* The `itemId` property for each corresponding field is set to the name of the appropriate DOM attribute (`TablePropertiesDialog`).  
+>* The attribute is set and/or removed on the DOM element explicitly (`Table`).
 

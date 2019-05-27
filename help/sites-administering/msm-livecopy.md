@@ -238,10 +238,12 @@ Roll out a blueprint page to push content changes to live copies. A **Rollout** 
 1. Click or tap **Rollout**.
 1. You will be asked to confirm details of the rollout:
 
-    * **Rollout scope**:  
-      Specify whether the scope is for the selected page alone, or should include subpages.  
-    
-    * **Background rollout**:  
+    * **Rollout scope**: 
+
+      Specify whether the scope is for the selected page alone, or should include subpages. 
+
+    * **Background rollout**: 
+
       If many pages/subpages are involved you can run the rollout as a background task.
 
    ![](assets/chlimage_1-222.png)
@@ -339,8 +341,7 @@ To suspend inheritance on a page:
 1. Click or tap the **Live Copy** tab.
 1. Select **Suspend** from the toolbar. You can then select either:
 
-    * **Suspend**: current page only  
-    
+    * **Suspend**: current page only
     * **Suspend with children**: current page together with any child pages
 
 1. Select **Suspend** on the confirmation dialog.
@@ -408,7 +409,7 @@ On an existing live copy you can change the depth for a page; i.e. whether child
 
 * Switching to a deep live copy:
 
-    * Child-pages remain untouched.  
+    * Child-pages remain untouched. 
     * To see the effect of the switch, you can make a roll-out, any content modifications are applied according the roll-out configuration.
 
 * Switching to a shallow live copy, then back to deep:

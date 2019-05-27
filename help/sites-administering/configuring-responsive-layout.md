@@ -22,17 +22,20 @@ legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/config
 
 AEM realizes responsive layout for your pages using a combination of mechanisms:
 
-* [**Layout Container**](/help/sites-authoring/responsive-layout.md#adding-a-layout-container-and-its-content-edit-mode) component  
+* [**Layout Container**](/help/sites-authoring/responsive-layout.md#adding-a-layout-container-and-its-content-edit-mode) component
+
   This component provides a grid-paragraph system to allow you to add and position components within a responsive grid. It can be used as the default parsys for your page and/or made available to authors in the component browser.
 
-    * The default **Layout Container** component is defined under:  
+    * The default **Layout Container** component is defined under:
+
       /libs/wcm/foundation/components/responsivegrid
-    
+  
     * You can define layout containers:
 
         * As a component that the user can add to a page.
         * As the default parsys for the page.
-        * Both.  
+        * Both. 
+
           You can have the layout container as standard for the page, while allowing the user to add further layout containers within this; for example, to achieve column control.
 
 * **[Layout Mode](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** 
@@ -83,7 +86,7 @@ These procedures are used to enable the **Layout** mode on your site.
 * Are used in responsive design.
 * Can be defined:
 
-    * On the page template, from where the settings will be copied to any pages created with that template.  
+    * On the page template, from where the settings will be copied to any pages created with that template.
     * On the page node, from where the settings will be inherited by any child pages.
 
 * Define a title and a width:
@@ -132,7 +135,6 @@ They can be defined using CRXDE Lite or XML.
     * Name: `*<descriptive name>*`
     * Type: `nt:unstructured`
     * Title: `String` * `<descriptive title seen in Emulator>`*
-    
     * Width: `Decimal` * `<value of breakpoint>`*
 
 #### Configuring Breakpoints using XML {#configuring-breakpoints-using-xml}
@@ -177,15 +179,13 @@ In either the:
 
 The following two examples illustrate the definition:
 
-* **HTL:  
-  **
+* **HTL:**
 
   ```xml
   <sly data-sly-resource="${'par' @ resourceType='wcm/foundation/components/responsivegrid'}/>
   ```
 
-* **JSP:  
-  **
+* **JSP:**
 
   ```
   <cq:include path="par" resourceType="wcm/foundation/components/responsivegrid" />
