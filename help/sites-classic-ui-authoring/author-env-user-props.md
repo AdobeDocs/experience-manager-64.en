@@ -33,10 +33,8 @@ Using the [account settings](#account-settings) and [user preferences](#user-pre
 * **Window Management** 
   Select either:
 
-    * Multiple Windows (Default)  
-      Pages will be opened in a new window.
-    * Single Window  
-      Pages will be opened in the current window.
+    * Multiple Windows (Default): Pages will be opened in a new window.
+    * Single Window: Pages will be opened in the current window.
 
 ## Account Settings {#account-settings}
 

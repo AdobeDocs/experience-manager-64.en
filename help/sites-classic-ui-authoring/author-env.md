@@ -15,7 +15,7 @@ discoiquuid: 8c747892-c5ba-4288-b5e7-75fd40d92f5c
 
 >[!NOTE]
 >
->The following documentation focuses on the classic UI. For information about authoring in the modern, touch-based UI, see the [standard Authoring documentation](/help/assets/assets.md).
+>The following documentation focuses on the classic UI. For information about authoring in the modern, touch-enabled UI, see the [standard Authoring documentation](/help/assets/assets.md).
 
 The author environment allows you to perform tasks related to:
 
@@ -35,11 +35,11 @@ Two graphical user interfaces are provided to achieve this, these are accessible
 
    ![](assets/chlimage_1-149.png)
 
-1. Touch-Optimized UI
+1. Touch-Enabled UI
 
     * This is the modern, standard AEM UI.
     * It is predominantly grey, with a clean, flat interface.
-    * It is designed for use on both touch and desktop devices (optimized for touch). The look and feel is the same on all devices, though [viewing and selecting your resources](/help/sites-authoring/basic-handling.md) differs slightly (taps versus clicks).
+    * It is designed for use on both touch and desktop devices. The look and feel is the same on all devices, though [viewing and selecting your resources](/help/sites-authoring/basic-handling.md) differs slightly (taps versus clicks).
     * See the [standard Authoring documentation](/help/sites-authoring/author.md) for further details on how to author using the touch-based UI. The following documentaiton focuses on the classic UI.
 
         * Desktop:
