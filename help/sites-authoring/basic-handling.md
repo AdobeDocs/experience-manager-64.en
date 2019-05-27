@@ -112,7 +112,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Sites</td> 
-   <td>The Sites consoles let you <a href="/help/sites-authoring/authoring-environment-tools.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
+   <td>The Sites consoles let you <a href="/help/sites-authoring/author-environment-tools.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
   </tr>
  </tbody>
 </table>
