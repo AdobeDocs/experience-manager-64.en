@@ -48,11 +48,11 @@ Two graphical user interfaces are provided to achieve this. These are accessible
 
 ## Switching UIs
 
-Although the touch-enabled UI is now the standard UI and [feature parity](help/release-notes/touch-ui-features-status.md) has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the [classic UI](/help/sites-classic-ui-authoring/classicui.md). There are several options for doing this.
+Although the touch-enabled UI is now the standard UI and [feature parity](../release-notes/touch-ui-features-status.md) has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the [classic UI](/help/sites-classic-ui-authoring/classicui.md). There are several options for doing this.
 
 >[!NOTE]
 >
->For details on the status of feature parity with the classic UI, see the [Touch UI Feature Parity](/help/release-notes/touch-ui-features-status.md) document.
+>For details on the status of feature parity with the classic UI, see the [Touch UI Feature Parity](../release-notes/touch-ui-features-status.md) document.
 
 There are various locations where you can define which UI is to be used:
 
