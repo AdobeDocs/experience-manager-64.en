@@ -27,4 +27,3 @@ These documents describe how to manage an AEM project from start to finish. See 
 * [Hardware Sizing Guidelines](/help/managing/hardware-sizing-guidelines.md)
 * [AEM and the Web Accessibility Guidelines](/help/managing/web-accessibility.md)
 * [SEO and URL Management Best Practices](/help/managing/seo-and-url-management.md)
-

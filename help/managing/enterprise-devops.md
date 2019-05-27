@@ -21,7 +21,7 @@ DevOps covers the processes, methods and communication required to:
 DevOps aims to avoid problems such as:
 
 * Manual errors.
-* Forgotten elements; for example, files, configuration details. 
+* Forgotten elements; for example, files, configuration details.
 * Discrepancies; for example, between a developer's local environment and other environments.
 
 ## Environments {#environments}
@@ -29,13 +29,13 @@ DevOps aims to avoid problems such as:
 An Adobe Experience Manager (AEM) deployment usually consists of multiple environments, used for different purposes on different levels:
 
 * [Development](#development)
-* [Quality Assurance](#quality-assurance) 
+* [Quality Assurance](#quality-assurance)
 * [Staging](#staging)
 * [Production](#production-author-and-publish)
 
 >[!NOTE]
 >
->The production environment must have at least one author and one publish environment. 
+>The production environment must have at least one author and one publish environment.
 >
 >It is recommended that all other environments also consist of an author and publish environment to reflect the production environment and enable early testing.
 
@@ -44,12 +44,12 @@ An Adobe Experience Manager (AEM) deployment usually consists of multiple enviro
 The developers are responsible for developing and customizing the proposed project (be it website, mobile applications, DAM implementation, etc), with all the required functionality. They:
 
 * develop and customize the necessary elements; for example, templates, components, workflows, applications
-* realize the design 
+* realize the design
 * develop the necessary services and scripts to implement the required functionality
 
 The configuration of the [development](/help/sites-developing/best-practices.md) environment can be dependent on various factors, though it is usually comprised of:
 
-* An integrated development system with version control to provide an integrated code-base. This is used to merge and consolidate code from the individual development environments used by each developer. 
+* An integrated development system with version control to provide an integrated code-base. This is used to merge and consolidate code from the individual development environments used by each developer.
 * A personal environment for each developer; usually resident on their local machine. At apppropriate intervals the code is synchronized with the version control system
 
 Depending on the scale of your system, the development environment can have both author and publish instances.
@@ -63,7 +63,7 @@ This environment is used by the quality assurance team to comprehensively [test]
 The staging environment should be a mirror of the production environment - configuration, code and content:
 
 * It is used to test the scripts used to implement the actual deployment.
-* It can be used for final tests (design, functionality and interfaces) before deploying to the production environments. 
+* It can be used for final tests (design, functionality and interfaces) before deploying to the production environments.
 * Although it is not always possible to have the staging environment identical to the production environment, it should be as close as possible to enable performance and load testing.
 
 ### Production - Author and Publish {#production-author-and-publish}
@@ -114,10 +114,10 @@ The code (e.g. customized web application functionality and design templates) is
 
 AEM projects often trigger code deployment:
 
-* Automatically: for transfer to the development and QA environments. 
+* Automatically: for transfer to the development and QA environments.
 * Manually: deployments to the staging and production environments are done in a more controlled manner, often manual; though automation is possible if required.
 
-![](assets/chlimage_1.png) 
+![](assets/chlimage_1.png)
 
 ## Content Movement {#content-movement}
 
@@ -133,8 +133,7 @@ Production content should be moved from the production environment to the stagin
 
 Content can transferred:
 
-* Between the different environments - by exporting and importing packages. 
+* Between the different environments - by exporting and importing packages.
 * Between different instances - by directly replicating ([AEM replication](/help/sites-deploying/replication.md)) the content (using a HTTP, or HTTPS, connection).
 
 ![](assets/chlimage_1-1.png)
-
