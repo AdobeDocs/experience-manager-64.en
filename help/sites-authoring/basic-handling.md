@@ -117,7 +117,7 @@ The options available on these panels are described below.
  </tbody>
 </table>
 
-2. In the Tools panel, each option in the side panel contains a range of sub-menus. The [Tools consoles](/help/sites-administering/tools-consoles.md) available here provide access to a number of specialized tools and consoles that help you administer your websites, digital assets and other aspects of your content repository.
+1. In the Tools panel, each option in the side panel contains a range of sub-menus. The [Tools consoles](/help/sites-administering/tools-consoles.md) available here provide access to a number of specialized tools and consoles that help you administer your websites, digital assets and other aspects of your content repository.
 
    ![](assets/screen_shot_2018-03-23at103406.png)
 
