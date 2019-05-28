@@ -290,7 +290,7 @@ Once logged in, you have access to AEM. For further information, depending on th
 * [Authoring](/help/sites-authoring/home.md) 
 * [Administering](/help/sites-administering/home.md)
 * [Developing](/help/sites-developing/home.md)
-* [Managing](/help/managing/manage-reference.md)
+* [Managing](/help/managing/best-practices.md)
 
 ## Advanced Deployment {#advanced-deployment}
 
