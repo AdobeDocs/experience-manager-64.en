@@ -95,6 +95,7 @@ To create an Experience Fragment:
    > *  **Both:**
    >  
    >    The resource type of the template (the initial node) must inherit from: `cq/experience-fragments/components/xfpage`
+   >    
    >    **And:**
    >
    >    The name of the template must begin with: 
