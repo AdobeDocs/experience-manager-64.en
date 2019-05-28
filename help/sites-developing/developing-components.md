@@ -18,10 +18,12 @@ AEM components are used to hold, format, and render the content made available o
 
 * When [authoring pages](/help/sites-authoring/default-components.md), the components allow the authors to edit and configure the content.
 
-    * When constructing a [Commerce](/help/sites-administering/ecommerce.md) site the components can, for example, collect and render information from the catalog.  
-      See [Developing eCommerce](/help/sites-developing/ecommerce.md) for more information.  
-    
-    * When constructing a [Communities](/help/communities/author-communities.md) site the components can provide information to and collect information from your visitors.  
+    * When constructing a [Commerce](/help/sites-administering/ecommerce.md) site the components can, for example, collect and render information from the catalog.
+
+      See [Developing eCommerce](/help/sites-developing/ecommerce.md) for more information.
+
+    * When constructing a [Communities](/help/communities/author-communities.md) site the components can provide information to and collect information from your visitors. 
+
       See [Developing Communities](/help/communities/communities.md) for more information.
 
 * On the publish instance the components render your content, presenting it as you require to your website visitors.
@@ -134,13 +136,13 @@ For full details see:
 
 * Coral UI
 
-    * Provides a consistent UI across all cloud solutions  
+    * Provides a consistent UI across all cloud solutions
     * [Concepts of the AEM Touch-Enabled UI - Coral UI](/help/sites-developing/touch-ui-concepts.md#coral-ui)
     * [Coral UI Guide](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html)
 
 * Granite UI
 
-    * Provides Coral UI markup wrapped into Sling components for building UI consoles and dialogs  
+    * Provides Coral UI markup wrapped into Sling components for building UI consoles and dialogs
     * [Concepts of the AEM Touch-Enabled UI - Granite UI](/help/sites-developing/touch-ui-concepts.md#coral-ui) 
     * [Granite UI Documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html)
 
@@ -172,7 +174,7 @@ newComponent (cq:Component)
       items 
         column 
           items 
-            file  
+            file 
             description  
 ```
 
@@ -372,7 +374,7 @@ This behavior, and the required asset-to-component relationship can be configure
 
 1. For each asset-to-component mapping create a node:
 
-    * Name: text; it is recommended that the name indicate the asset and related component type; for example, image  
+    * Name: text; it is recommended that the name indicate the asset and related component type; for example, image 
     * Type: `nt:unstructured`
 
    Each with the following properties:
@@ -448,7 +450,7 @@ When migrating a component that was designed for use with the classic UI to a co
 
 * Dialogs
 
-    * You will need to create a new dialog for use in the touch-enabled UI. However, for compatibility purposes the touch-enabled UI can use the definition of a classic UI dialog, when no dialog has been defined for the touch-enabled UI.  
+    * You will need to create a new dialog for use in the touch-enabled UI. However, for compatibility purposes the touch-enabled UI can use the definition of a classic UI dialog, when no dialog has been defined for the touch-enabled UI. 
     * The [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md) is provided to help you extend existing components.
     * [Mapping ExtJS to Granite UI Components](/help/sites-developing/touch-ui-concepts.md#extjs-and-corresponding-granite-ui-components) provides a convenient overview of ExtJS xtypes and node types with their equivalent Granite UI resource types.
     * Customizing fields, for more information see the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).

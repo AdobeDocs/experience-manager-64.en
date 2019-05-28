@@ -28,11 +28,11 @@ This tutorial describes how to:
 1. Create the root page for your website and then content pages.
 1. Create the following components for use on your pages:
 
-    * Top Navigation  
-    * List Children  
-    * Logo  
-    * Image  
-    * Text-Image  
+    * Top Navigation 
+    * List Children 
+    * Logo 
+    * Image 
+    * Text-Image 
     * Search
 
 1. Include various foundation components.
@@ -324,7 +324,6 @@ In this section you create several scripts that each generate a part of the page
 1. In CRXDE Lite, create the file `left.jsp` under `/apps/mywebsite/components/contentpage`:
 
     1. Right-click the node `/apps/mywebsite/components/contentpage`, then select **Create **then **Create File**.
-    
     1. In the window, type `left.jsp` as the** Name** and click **OK**.
 
 1. Edit the file `left.jsp` to remove the existing content and replace with the following code:
@@ -342,7 +341,6 @@ In this section you create several scripts that each generate a part of the page
 1. In CRXDE Lite, create the file `center.jsp` under `/apps/mywebsite/components/contentpage`:
 
     1. Right-click the node `/apps/mywebsite/components/contentpage`, select **Create**, then **Create File**.
-    
     1. In the dialog box, type `center.jsp` as **Name** and click **OK**.
 
 1. Edit the file `center.jsp` to remove the existing content and replace it with the following code:
@@ -360,7 +358,6 @@ In this section you create several scripts that each generate a part of the page
 1. In CRXDE Lite, create the file `right.jsp` under `/apps/mywebsite/components/contentpage`:
 
     1. Right-click the node `/apps/mywebsite/components/contentpage`, select **Create**, then **Create File**.
-    
     1. In the dialog box, type `right.jsp` as **Name** and click **OK**.
 
 1. Edit the file `right.jsp` to remove the existing content and replace with the following code:
@@ -414,9 +411,7 @@ Your top navigation will look as follows:
 1. In the **Create Component** window, enter the following:
 
     * **Label**: `topnav`
-    
     * **Title**: `My Top Navigation Component`
-    
     * **Description**: `This is My Top Navigation Component`
 
 1. Click **Next** until you come to the last window where you click **OK**. Save your changes.
@@ -528,9 +523,9 @@ In this exercise, Sling matches these URLs to the /apps/mywebsite/components/con
    import java.awt.Paint; 
    import java.awt.geom.Rectangle2D; 
    
-   import java.io.IOException;  
+   import java.io.IOException;
    import javax.jcr.RepositoryException; 
-    
+
    import com.day.cq.wcm.api.Page; 
    import com.day.cq.wcm.api.PageManager; 
    import com.day.cq.wcm.api.components.Component; 
@@ -564,13 +559,13 @@ In this exercise, Sling matches these URLs to the /apps/mywebsite/components/con
             int paddingX = 24;
             int paddingY = 24;
             Color bgColor = new Color(0x004a565c, true);
-            
+
             /* obtain the page title */
             String title = currentPage.getTitle();
             if (title == null) {
                 title = currentPage.getName();
             }
-            
+
             /* format the title text */
             title = title.toUpperCase();
             Paint titleColor = Color.WHITE;
@@ -726,7 +721,7 @@ Develop the script for the listchildren component.
    <%@include file="/libs/foundation/global.jsp"%><%
    %><%@ page import="java.util.Iterator,
             com.day.cq.wcm.api.PageFilter"%><%
-        /* Create a new Page object using the path of the current page */    
+        /* Create a new Page object using the path of the current page */ 
          String listroot = properties.get("listroot", currentPage.getPath());
         Page rootPage = pageManager.getPage(listroot);
         /* iterate through the child pages and gather properties */
@@ -755,11 +750,9 @@ Create the dialog that is used to configure the listchildren component propertie
 1. Create the dialog node under the listchildren component:
 
     1. In CRXDE Lite, right-click the `/apps/mywebsite/components/listchildren`node and click **Create** &gt; **Create Dialog**.
-    
     1. In the dialog, enter the following property values and click OK
 
         * **Label**: `dialog`
-        
         * **Title**: `Edit Component` and click **OK**.
 
    ![](assets/screen_shot_2012-03-07at45818pm.png)
@@ -908,11 +901,9 @@ Create the dialog for configuring your logo component in Design mode. Design-mod
 1. Create the dialog node under the logo component:
 
     1. Right-click the `/apps/mywebsite/components/logo` node and click **Create** &gt; **Create Dialog**.
-    
     1. Type the following property values and then click OK:
 
         * **Label:** `design_dialog` 
-        
         * **Title:** `Logo (Design)`
 
 1. Right-click the tab1 node in the design_dialog branch and click Delete. Click Save All.
@@ -932,7 +923,7 @@ Create the dialog for configuring your logo component in Design mode. Design-mod
 
 Create the script that retrieves the logo image and writes it to the page.
 
-1. Right-clck the logo component node and click Create &gt; Create File to create the script file named img.GET.java.
+1. Right-click the logo component node and click Create &gt; Create File to create the script file named img.GET.java.
 1. Open the file, copy the following code into the file, and then click Save All:
 
 ```java
@@ -995,7 +986,7 @@ public class img_GET extends AbstractImageServlet {
         resp.setContentType(contentType);
         IOUtils.copy(in, resp.getOutputStream());
         in.close();
-      
+
         resp.flushBuffer();
     }
 }
@@ -1284,7 +1275,6 @@ Your search input box will look as follows on the **English **page:
 
     * `/libs/foundation/components/search/dialog`
     * `` `/libs/foundation/components/search/i18n` 
-    
     * `/libs/foundation/components/search/icon.png`
 
 1. Click Save All.
@@ -1301,7 +1291,7 @@ This section describes how to create the search script:
    <%@include file="/libs/foundation/global.jsp" %><%
    %><cq:setContentBundle/><%
        Search search = new Search(slingRequest);
-    
+
        String searchIn = (String) properties.get("searchIn");
        String requestSearchPath = request.getParameter("path");
        if (searchIn != null) {
@@ -1315,7 +1305,7 @@ This section describes how to create the search script:
        } else if (requestSearchPath != null) {
            search.setSearchIn(requestSearchPath);
        }
-        
+
        pageContext.setAttribute("search", search);
        TagManager tm = resourceResolver.adaptTo(TagManager.class);
    %><c:set var="trends" value="${search.trends}"/><%
@@ -1341,8 +1331,8 @@ This section describes how to create the search script:
      <c:otherwise>
        <p class="searchmeta">Results ${result.startIndex + 1} - ${result.startIndex + fn:length(result.hits)} of ${result.totalMatches} for <b>${fn:escapeXml(search.query)}</b>. (${result.executionTime} seconds)</p>
       <br/>
-      
-     <div class="searchresults">    
+
+     <div class="searchresults"> 
        <div class="results">
          <c:forEach var="hit" items="${result.hits}" varStatus="status">
            <div class="hit">
@@ -1353,7 +1343,7 @@ This section describes how to create the search script:
          </c:forEach>
        </div>
          <br/>
-         
+
         <div class="searchRight">
              <c:if test="${fn:length(trends.queries) > 0}">
                  <p><fmt:message key="searchTrendsText"/></p>
@@ -1411,17 +1401,17 @@ This section describes how to create the search script:
              </c:if>
    
          <c:if test="${fn:length(search.relatedQueries) > 0}">
-         
+
           <br/><br/><div class="related">
            <fmt:message key="relatedSearchesText"/>
            <c:forEach var="rq" items="${search.relatedQueries}">
                <a href="${currentPage.path}.html?q=${rq}"><c:out value="${rq}"/></a>
            </c:forEach></div>
          </c:if>
-         </div>     
-         
+         </div> 
+
          <c:if test="${fn:length(result.resultPages) > 1}">
-           <div class="pagination">  
+           <div class="pagination"> 
                <fmt:message key="resultPagesText"/>
            <c:if test="${result.previousPage != null}">
              <a href="${result.previousPage.URL}"><fmt:message key="previousText"/></a>
@@ -1440,7 +1430,7 @@ This section describes how to create the search script:
            </div>
          </c:if>
          </div>
-         
+
      </c:otherwise>
    </c:choose>
    ```

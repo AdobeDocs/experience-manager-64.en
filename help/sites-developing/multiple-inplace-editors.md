@@ -60,27 +60,18 @@ To configure multiple editors:
 
 1. On the node `cq:inplaceEditing` (of type `cq:InplaceEditingConfig`) define the property:
 
-    * Name:     
-    
-      ```    
-      editorType 
-      
-      ```    
-    
-    * Type: `String`  
-    
+    * Name:`editorType` 
+    * Type: `String`
     * Value: `hybrid`
 
 1. Under this node create a new node:
 
-    * Name: `cq:ChildEditors`  
-    
+    * Name: `cq:ChildEditors`
     * Type: `nt:unstructured`
 
 1. Under the `cq:childEditors` node create a new node for each in-place editor:
 
-    * Name: the name of each node should be the name of the property that it represents (as with drop targets). For example, `image`, `text`.  
-    
+    * Name: the name of each node should be the name of the property that it represents (as with drop targets). For example, `image`, `text`.
     * Type: cq: `ChildEditorConfig`
 
    >[!NOTE]
@@ -92,8 +83,7 @@ To configure multiple editors:
     * Name: `type`
     * Value: name of the registered in-place editor; for example, `image`, `text`
 
-    * Name: `title`  
-    
+    * Name: `title`
     * Value: the title that you want to display in the components selection list (of available editors); for example, `Image`, `Text`
 
 ### Additional Configuration for Rich Text Editors {#additional-configuration-for-rich-text-editors}

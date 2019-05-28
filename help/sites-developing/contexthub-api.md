@@ -469,7 +469,6 @@ initializes the ContextHub.Store.JSONPStore object.
 
         * host: (String) The server name or IP address.
         * jsonp: (Boolean) A value of true indicates that the service is a JSONP service, false otherwise. When true, the `{callback: "ContextHub.Callbacks.*Object.name*}`object is added to `service.params`.
-        
         * params: (Object) URL parameters represented as object properties. Parameter names and values are the object property names and values, respectively. 
         * path: (String) The path to the service.
         * port: (Number) The port number of the service.
@@ -663,9 +662,7 @@ Creates a cookie of the given key and value, and adds the cookie to the current 
 * **options:** (Optional) An object that contains any of the following properties that configure the cookie attributes:
 
     * expires: A `date` or `number` value that specifies when the cookie expires. A date value specifies the absolute time of expiry. A number (in days) sets the time of expiry to the current time plus the number. The default value is `undefined`.
-    
     * secure: A `boolean` value that specifies the `Secure` attribute of the cookie. The default value is `false`.
-    
     * path: A `String` value to use as the `Path` attribute of the cookie. The default value is `undefined`.
 
 **Returns**

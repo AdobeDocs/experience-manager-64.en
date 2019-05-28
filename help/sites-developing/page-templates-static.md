@@ -152,8 +152,8 @@ To see a list of all templates in the repository, proceed as follows:
 
 1. In the Query tab  
 1. As **Type**, select **XPath**.
+1. In the **Query** input field, enter following string:
 
-1. In the **Query** input field, enter following string:  
    //element(&ast;, cq:Template)
 
 1. Click **Execute**. The list is displayed in the result box.

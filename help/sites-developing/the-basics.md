@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 6e913190-be92-4862-a8b9-517f8bde0044
 ---
 
-# AEM Core Concepts{#aem-core-concepts}
+# AEM Core Concepts {#aem-core-concepts}
 
 >[!NOTE]
 >
@@ -144,7 +144,8 @@ When the appropriate resource (content node) is located, the **sling resource ty
 The path specified by the `sling:resourceType` can be either:
 
 * absolute
-* relative, to a configuration parameter  
+* relative, to a configuration parameter
+
   Relative paths are recommended by Adobe as they increase portability.
 
 All Sling scripts are stored in subfolders of either `/apps` or `/libs`, which will be searched in this order (see [Customizing Components and Other Elements](/help/sites-developing/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)).
@@ -165,29 +166,40 @@ Additionally, Apache Sling supports integration with other popular scripting eng
 
 Using the above example, if the `sling:resourceType` is `hr/jobs` then for:
 
-* GET/HEAD requests, and URLs ending in .html (default request types, default format)  
+* GET/HEAD requests, and URLs ending in .html (default request types, default format)
+
   The script will be /apps/hr/jobs/jobs.esp; the last section of the sling:resourceType forms the file name.
-* POST requests (all request types excluding GET/HEAD, the method name must be uppercase)  
-  POST will be used in the script name.  
+
+* POST requests (all request types excluding GET/HEAD, the method name must be uppercase) 
+
+  POST will be used in the script name. 
+
   The script will be `/apps/hr/jobs/jobs.POST.esp`.
 
-* URLs in other formats, not ending with .html  
-  For example `../content/corporate/jobs/developer.pdf`  
+* URLs in other formats, not ending with .html 
+
+  For example `../content/corporate/jobs/developer.pdf` 
+
   The script will be `/apps/hr/jobs/jobs.pdf.esp`; the suffix is added to the script name.
 
-* URLs with selectors  
-  Selectors can be used to display the same content in an alternative format. For example a printer friendly version, an rss feed or a summary.  
-  If we look at a printer friendly version where the selector could be *print*; as in `../content/corporate/jobs/developer.print.html`  
+* URLs with selectors 
+
+  Selectors can be used to display the same content in an alternative format. For example a printer friendly version, an rss feed or a summary. 
+
+  If we look at a printer friendly version where the selector could be *print*; as in `../content/corporate/jobs/developer.print.html` 
+
   The script will be `/apps/hr/jobs/jobs.print.esp`; the selector is added to the script name.
 
 * If no sling:resourceType has been defined then:
 
-    * the content path will be used to search for an appropriate script (if the path based ResourceTypeProvider is active).  
+    * the content path will be used to search for an appropriate script (if the path based ResourceTypeProvider is active).
+
       For example, the script for `../content/corporate/jobs/developer.html` would generate a search in `/apps/content/corporate/jobs/`.
-    
+
     * the primary node type will be used.
 
-* If no script is found at all then the default script will be used.  
+* If no script is found at all then the default script will be used. 
+
   The default rendition is currently supported as plain text (.txt), HTML (.html) and JSON (.json), all of which will list the node's properties (suitably formatted). The default rendition for the extension .res, or requests without a request extension, is to spool the resource (where possible).
 * For http error handling (codes 403 or 404) Sling will look for a script at either:
 
@@ -390,24 +402,30 @@ The following list gives an overview of the structure you will see within the re
 >
 >You must not change anything in the `/libs` path. For configuration and other changes copy the item from `/libs` to `/apps` and make any changes within `/apps`.
 
-* `/apps`  
+* `/apps` 
+
   Application related; includes component definitions specific to your website. The components that you develop can be based on the out of the box components available at `/libs/foundation/components`.
 
-* `/content`  
+* `/content` 
+
   Content created for your website.
 
 * `/etc`  
 
-* `/home`  
+* `/home` 
+
   User and Group information.
 
-* `/libs`  
+* `/libs`
+
   Libraries and definitions that belong to the core of AEM. The sub-folders in `/libs` represent the out of the box AEM features as for example search or replication. The content in `/libs` should not be modified as it affects the way AEM works. Features specific to your website should be developed under `/apps` (see [Customizing Components and Other Elements](/help/sites-developing/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)).
 
-* `/tmp`  
+* `/tmp` 
+
   Temporary working area.
 
-* `/var`  
+* `/var` 
+
   Files that change and are updated by the system; such as audit logs, statistics, event-handling. The sub-folder `/var/classes` contains the java servlets in source and compiled forms that have been generated from the components scripts.
 
 ## Environments {#environments}
