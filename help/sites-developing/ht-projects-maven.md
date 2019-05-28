@@ -209,7 +209,7 @@ This use case involves calling into a static or instance method of an class in t
 
 ```java
 public class ClassWhichUsesAStaticMethodFromAPI {
-     
+  
     /**
      * Get a map of asset titles to asset objects.
      *
@@ -234,7 +234,7 @@ public class ClassWhichUsesAStaticMethodFromAPI {
 
 ```java
 public class ClassWhichUsesAnInstanceMethodFromAPI {
-     
+  
     /**
      * Count the number of paragraphs in a parsys.
      *
@@ -643,7 +643,7 @@ $ mvn -PautoInstallPackagePublish -PintegrationServer install
 <profiles>
 
     <!-- ... -->
-    
+
     <profile>
         <id>integrationServer</id>
         <properties>

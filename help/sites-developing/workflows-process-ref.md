@@ -117,9 +117,7 @@ The `ProcessAssembler` process executes multiple sub-processes sequentially in a
 * **Payload**: A DAM Asset, AEM Page or no payload (depends on requirements of subprocesses).
 * **Arguments**:
 
-    * 
-    
-      ```    
+      ```
       args := arg [',' arg]
        arg := processname ['::' processargs]
        processname := /* A fully qualified Java Class or absolute 

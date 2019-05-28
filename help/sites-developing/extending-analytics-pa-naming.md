@@ -101,10 +101,10 @@ The following implementation of the `getPageName` method returns the value of th
 ```java
 public String getPageName(AnalyticsPageNameContext context) {
         String pageName = null;
-        
+
         Framework framework = context.getFramework();
         Resource resource = context.getResource();
-        
+
         if (resource != null && framework != null && framework.mapsSCVariable(S_PAGE_NAME)) {
             String cqVar = framework.getMapping(S_PAGE_NAME);
             Page page = resource.adaptTo(Page.class);
@@ -121,14 +121,14 @@ The following implementation of the getResource method returns the Resource obje
 ```java
      public Resource getResource(AnalyticsPageNameContext context) {
         Resource res = null;
-        
+
         Framework framework = context.getFramework();
         ResourceResolver resolver = context.getResourceResolver();
         String pageName = context.getPageName();
         String basePath = context.getBasePath();
-        
+
         if (pageName != null && basePath != null && resolver != null
-                && framework != null && framework.mapsSCVariable(S_PAGE_NAME)) {          
+                && framework != null && framework.mapsSCVariable(S_PAGE_NAME)) { 
             String cqVar = framework.getMapping(S_PAGE_NAME);
             if (cqVar.equals("pagedata.pagename")) {
              Iterator<Resource>
@@ -201,10 +201,10 @@ import static com.day.cq.analytics.sitecatalyst.AnalyticsPageNameContext.S_PAGE_
 public class ExamplePageNameProvider implements AnalyticsPageNameProvider {
     public String getPageName(AnalyticsPageNameContext context) {
         String pageName = null;
-         
+
         Framework framework = context.getFramework();
         Resource resource = context.getResource();
-         
+
         if (resource != null && framework != null && framework.mapsSCVariable(S_PAGE_NAME)) {
             String cqVar = framework.getMapping(S_PAGE_NAME);
             Page page = resource.adaptTo(Page.class);
@@ -217,14 +217,14 @@ public class ExamplePageNameProvider implements AnalyticsPageNameProvider {
  
     public Resource getResource(AnalyticsPageNameContext context) {
         Resource res = null;
-         
+
         Framework framework = context.getFramework();
         ResourceResolver resolver = context.getResourceResolver();
         String pageName = context.getPageName();
         String basePath = context.getBasePath();
-         
+
         if (pageName != null && basePath != null && resolver != null
-                && framework != null && framework.mapsSCVariable(S_PAGE_NAME)) {          
+                && framework != null && framework.mapsSCVariable(S_PAGE_NAME)) { 
             String cqVar = framework.getMapping(S_PAGE_NAME);
             if (cqVar.equals("pagedata.pagename")) {
                 Iterator<Resource>

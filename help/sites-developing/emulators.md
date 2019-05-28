@@ -102,12 +102,14 @@ This way, the complete appearance of the emulator can be controlled by having CS
 The existing mobile emulators:
 
 * Are below /libs/wcm/mobile/components/emulators.
-* Are available via the JSON servlet at:  
+* Are available via the JSON servlet at: 
+
   http://localhost:4502/bin/wcm/mobile/emulators.json
 
 When the page component relies on the mobile page component ( `/libs/wcm/mobile/components/page`), the emulator functionality is automatically integrated in the page through the following mechanism:
 
-* The mobile page component `head.jsp` includes the device group's associated emulator init component (only in author mode) and the device group's rendering CSS through:  
+* The mobile page component `head.jsp` includes the device group's associated emulator init component (only in author mode) and the device group's rendering CSS through: 
+
   `deviceGroup.drawHead(pageContext);`
 
 * The method `DeviceGroup.drawHead(pageContext)` includes the emulator's init component, i.e. calls the `init.html.jsp` of the emulator component. If the emulator component does not have its own `init.html.jsp` and relies on the mobile base emulator ( `wcm/mobile/components/emulators/base)`, the init script of the mobile base emulator is called ( `/libs/wcm/mobile/components/emulators/base/init.html.jsp`).
@@ -115,9 +117,12 @@ When the page component relies on the mobile page component ( `/libs/wcm/mobile/
 * The init script of the mobile base emulator defines through Javascript:
 
     * The configuration for all the emulators that are defined for the page (emulatorConfigs)
-    * The emulator manager which integrates the emulator's functionality in the page through:  
-      `emulatorMgr.launch(config)`;  
-      The emulator manager is defined by:  
+    * The emulator manager which integrates the emulator's functionality in the page through: 
+
+      `emulatorMgr.launch(config)`; 
+
+      The emulator manager is defined by: 
+
       `/libs/wcm/emulator/widgets/source/EmulatorManager.js`
 
 #### Creating a Custom Mobile Emulator {#creating-a-custom-mobile-emulator}
@@ -128,16 +133,19 @@ To create a custom mobile emulator:
 
 1. Set the `sling:resourceSuperType` property to `/libs/wcm/mobile/components/emulators/base`
 
-1. Define a CSS client library with category `cq.wcm.mobile.emulator` for the emulator appearance: name = `css`, node type = `cq:ClientLibrary`  
+1. Define a CSS client library with category `cq.wcm.mobile.emulator` for the emulator appearance: name = `css`, node type = `cq:ClientLibrary` 
+
    As an example, you can refer to the node `/libs/wcm/mobile/components/emulators/iPhone/css`
 
-1. If needed, define a JS client library, for example to define a specific plugin: name = js, node type = cq:ClientLibrary  
+1. If needed, define a JS client library, for example to define a specific plugin: name = js, node type = cq:ClientLibrary 
+
    As an example, you can refer to the node `/libs/wcm/mobile/components/emulators/base/js`  
 
 1. If the emulator supports specific functionalities defined by plugins (like touch scrolling), create a configuration node below the emulator: name = `cq:emulatorConfig`, node type = `nt:unstructured` and add the property that defines the plugin: 
 
-   * Name = `canRotate`, Type = `Boolean`, Value = `true`: to include the rotation functionality.  
+   * Name = `canRotate`, Type = `Boolean`, Value = `true`: to include the rotation functionality. 
+
    * Name = `touchScrolling`, Type = `Boolean`, Value = `true`: to include the touch scrolling functionality. 
-    
+
    More functionalities can be added by defining your own plugins.
 

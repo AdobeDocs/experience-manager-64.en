@@ -503,8 +503,8 @@ To correctly redirect, once a site has been configured and pushed to publish, co
 
 * locate `Adobe Granite Login Selector Authentication Handler`
 * select the `pencil`icon to open the configuration for edit
-* enter a** Login Page Mappings** as follows:  
-  /content/sites/*&lt;site-name&gt;*/path/to/login/page**:**/content/sites/*&lt;site-name&gt;* 
+* enter a **Login Page Mappings** as follows:  
+  /content/sites/*&lt;site-name&gt;*/path/to/login/page:/content/sites/*&lt;site-name&gt;* 
   for example:  
   /content/sites/*engage*/en/signin:/content/sites/*engage*/en
 

@@ -153,16 +153,16 @@ The server-side API has localized `title`-related methods:
 
 * [com.day.cq.tagging.Tag](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/Tag.html)
 
-    * getLocalizedTitle(Locale locale)  
-    * getLocalizedTitlePaths()  
-    * getLocalizedTitles()  
-    * getTitle(Locale locale)  
+    * getLocalizedTitle(Locale locale)
+    * getLocalizedTitlePaths()
+    * getLocalizedTitles()
+    * getTitle(Locale locale)
     * getTitlePath(Locale locale)
 
 * [com.day.cq.tagging.TagManager](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/TagManager.html)
 
-    * canCreateTagByTitle(String tagTitlePath, Locale locale)  
-    * createTagByTitle(String tagTitlePath, Locale locale)  
+    * canCreateTagByTitle(String tagTitlePath, Locale locale)
+    * createTagByTitle(String tagTitlePath, Locale locale)
     * resolveByTitle(String tagTitlePath, Locale locale)
 
 In AEM, the language can be obtained either from the page language or from the user language:

@@ -96,7 +96,7 @@ The Target functionality on the client side is managed by the `CQ_Analytics.Test
             CQ_Analytics.TestTarget.clientCode = 'my_client_code';
         </script>
       ...
-        
+  
     <div class="cloudservice testandtarget">
   <script type="text/javascript">
   CQ_Analytics.TestTarget.maxProfileParams = 11;
@@ -170,7 +170,7 @@ The JSP script of this component generates calls to the Target javascript API an
       if( CQ_Analytics &&
           CQ_Analytics.ClientContextMgr &&
           !CQ_Analytics.ClientContextMgr.isConfigLoaded ) 
-        {  
+        { 
           $CQ("#cq-analytics-texthint").show();
         }
       });
@@ -300,7 +300,7 @@ When the component is included in the checkout page in the previous example, the
 ```
 <div class="mboxDefault"></div>
 <script type="text/javascript">
-      
+  
      mboxCreate('orderConfirmPage',
      'productPurchasedId=47638-S, 46587',
      'orderId=d03cb015-c30f-4bae-ab12-1d62b4d105ca',

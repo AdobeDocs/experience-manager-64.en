@@ -366,7 +366,7 @@ The default configuration includes an array named `defaultEmulators` that contai
 
 ```xml
 { 
-   "defaultEmulators":[       
+   "defaultEmulators":[ 
         {
             "id": "iphone-6",
             "title": "iPhone 6",

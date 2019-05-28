@@ -11,14 +11,15 @@ content-type: reference
 discoiquuid: fe61ee4b-51b6-4a6f-91d8-1c02b29cc1db
 ---
 
-# Configuring your Page for Bulk Editing of Page Properties{#configuring-your-page-for-bulk-editing-of-page-properties}
+# Configuring your Page for Bulk Editing of Page Properties {#configuring-your-page-for-bulk-editing-of-page-properties}
 
 [Bulk editing of page properties](/help/sites-authoring/editing-page-properties.md#from-the-sites-console-multiple-pages) allows you to edit the properties of multiple pages at once.
 
 Due to the possibility of different values, page properties are not enabled for bulk editing as default. They must be explicitily whitelisted (enabled). When defining the page properties to be available for bulk editing you need to consider certain implications, such as:
 
 * Certain fields are usually unique; for example a page title. You must decide whether it is meaningful to enable such fields for bulk editing, when one value will be applied.  
-* Certain fields might have multiple values - this needs meaningful representation when rendering.  
+* Certain fields might have multiple values - this needs meaningful representation when rendering.
+
   For example, a check-box indicating "Ready for Publication". This might have several values before bulk-editing (e.g. ready, in-review, in-progress).
 
 >[!CAUTION]
@@ -61,10 +62,8 @@ Fields are enabled on the page component (*not* on the template):
 1. Navigate to the required field within the `cq:dialog` definition.
 1. Define the following property on the field node:
 
-    * **Name**: `allowBulkEdit`  
-    
-    * **Type**: `Boolean`  
-    
+    * **Name**: `allowBulkEdit`
+    * **Type**: `Boolean`
     * **Value**: `true`
 
    For example, for the standard page [foundation component](/help/sites-authoring/default-components-foundation.md):
@@ -83,11 +82,8 @@ Fields are enabled on the page component (*not* on the template):
    >
    >The recommended method for configuration and other changes is:
    >
-   >    
-   >    
-   >    1. Recreate the required item (i.e. as it exists in `/libs`) under `/apps`  
-   >    
+   >    1. Recreate the required item (i.e. as it exists in `/libs`) under `/apps`
    >    1. Make any changes within `/apps`
-   >    
+
 1. Select **Save All** to persist your updates.
 

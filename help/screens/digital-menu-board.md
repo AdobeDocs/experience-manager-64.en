@@ -17,7 +17,7 @@ This section describes a use case example that emphasizes on setting up a digita
 
 ### Preconditions {#preconditions}
 
-Before you start this use case, make sure you understand**:**
+Before you start this use case, make sure you understand:
 
 * **[Create and Manage Channels](/help/screens/managing-channels.md)**
 * **Text Overlay**

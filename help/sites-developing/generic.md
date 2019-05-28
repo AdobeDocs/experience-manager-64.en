@@ -49,8 +49,7 @@ The eCommerce framework can be used with any eCommerce solution, the engine bein
 
 * The `cq:commerceProvider` property is also used to reference the appropriate commerce factory definition.
 
-    * For example, a `cq:commerceProvider` property with the value geometrixx will correlate to the OSGi configuration for **Day CQ Commerce Factory for Geometrixx-Outdoors** ( `com.adobe.cq.commerce.hybris.impl.GeoCommerceServiceFactory`) - where the parameter `commerceProvider` also has the value `geometrixx`.  
-    
+    * For example, a `cq:commerceProvider` property with the value geometrixx will correlate to the OSGi configuration for **Day CQ Commerce Factory for Geometrixx-Outdoors** (`com.adobe.cq.commerce.hybris.impl.GeoCommerceServiceFactory`) - where the parameter `commerceProvider` also has the value `geometrixx`. 
     * Here further properties can be configured (when appropriate and available).
 
 In a standard AEM installation a specific implementation is required, for example:
@@ -89,10 +88,12 @@ The **CommerceSession**:
 * Owns the **shopping cart**
 
     * performs add/remove/etc
-    * performs the various calculations on the cart;  
+    * performs the various calculations on the cart; 
+
       `commerceSession.getProductPriceInfo(Product product, Predicate filter)`
 
-* Owns persistance of the **order** data:  
+* Owns persistance of the **order** data:
+
   `CommerceSession.getUserContext()`
 
 * Can retrieve/update delivery details by using `updateOrder(Map<String, Object> delta)`
@@ -205,7 +206,7 @@ public interface VariantFilter {
  * <code>product.getVariants(new AxisFilter("color", "blue"));</code>
  */
 public class AxisFilter implements VariantFilter {
-    
+
     private String axis;
     private String value;
 
@@ -239,7 +240,6 @@ public class AxisFilter implements VariantFilter {
         * A reference, with the product data stored elsewhere:
 
             * Product references contain a `productData` property, which points to the product data (typically under `/etc/commerce/products`).
-            
             * The product data is hierarchical; product attributes are inherited from a product data node's ancestors.
             * Product references can also contain local properties, which override those specified in their product data.
 
@@ -415,10 +415,12 @@ This makes use of the search API to query the selected commerce engine (see [eCo
 
 There are several generic / helper classes provided by the core project:
 
-1. `CommerceQuery`   
+1. `CommerceQuery` 
+
    Is used to describe a search query (contains information about the query text, current page, page size, sort and selected facets). All eCommerce services that implement the search API will receive instances of this class in order to perform their search. A `CommerceQuery` can be instantiated from a request object ( `HttpServletRequest`).
 
-1. `FacetParamHelper`   
+1. `FacetParamHelper` 
+
    Is a utility class that provides one static method - `toParams` - that is used for generating `GET` parameter strings from a list of facets and one toggled value. This is useful on the UI side, where you need to display a hyperlink for each value of each facet, such that when the user clicks on the hyperlink the respective value is toggled (i.e. if it was selected it is removed from the query, otherwise added). This takes care of all the logic of handling multiple/single-valued facets, overriding values, etc.
 
 The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the API Documentation for more information on this topic.
@@ -427,9 +429,10 @@ The entry point for the search API is the `CommerceService#search` method which 
 
 * Vouchers:
 
-    * A Voucher is a page-based component that is created / edited with the Websites console and stored under:  
+    * A Voucher is a page-based component that is created / edited with the Websites console and stored under: 
+
       `/content/campaigns`
-    
+
     * Vouchers supply:
 
         * A voucher code (to be typed into the cart by the shopper).
@@ -444,15 +447,16 @@ The entry point for the search API is the `CommerceService#search` method which 
 
     * The **Voucher** component ( `/libs/commerce/components/voucher`) provides:
 
-        * A renderer for voucher administration; this shows any vouchers currently in the cart.  
+        * A renderer for voucher administration; this shows any vouchers currently in the cart. 
         * The edit dialogs (form) for administrating (adding/removing) the vouchers.
         * The actions required for adding/removing vouchers to/from the cart.
 
 * Promotions:
 
-    * A Promotion is a page-based component that is created / edited with the Websites console and stored under:  
+    * A Promotion is a page-based component that is created / edited with the Websites console and stored under: 
+
       `/content/campaigns`
-    
+
     * Promotions supply:
 
         * A priority

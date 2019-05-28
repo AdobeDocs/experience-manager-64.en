@@ -64,7 +64,8 @@ Node level permissions determine whether the link can be seen or not. The nodes 
 
 For example:
 
-* To restrict access to **Tools**, remove read access from  
+* To restrict access to **Tools**, remove read access from 
+
   `` `/libs/wcm/core/content/misc`
 
 See the [Security section](/help/sites-administering/security.md) for more information on how to set the desired permissions.
@@ -164,21 +165,26 @@ There are three sections (spaced slightly apart) provided by default:
 
 It is possible to hide a link from specific users or groups by removing read access to the nodes that represent the link.
 
-* Resources - remove access to:  
+* Resources - remove access to:
+
   `/libs/cq/core/content/welcome/resources/<*link-target*>`
 
-* Docs - remove access to:  
+* Docs - remove access to:
+
   `/libs/cq/core/content/welcome/docs/<*link-target*>`
 
-* Features - remove access to:  
+* Features - remove access to:
+
   `/libs/cq/core/content/welcome/features/<*link-target*>`
 
 For example:
 
-* To remove the link to **Reports**, remove read access from  
+* To remove the link to **Reports**, remove read access from
+
   `/libs/cq/core/content/welcome/resources/reports`  
 
-* To remove the link to **Packages**, remove read access from  
+* To remove the link to **Packages**, remove read access from 
+
   `/libs/cq/core/content/welcome/features/packages`
 
 See the [Security section](/help/sites-administering/security.md) for more information on how to set the desired permissions.

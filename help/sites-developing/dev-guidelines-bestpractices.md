@@ -54,17 +54,19 @@ This can be done by copying and overlaying the existing definition. In other wor
 
 For example:
 
-* [Customizing a Component](/help/sites-developing/components.md)  
+* [Customizing a Component](/help/sites-developing/components.md) 
+
   This involved overlaying a component definition:
 
     * Create a new component folder in `/apps/<website-name>/components/<MyComponent>` by copying an existing component:
 
         * For example, to customize the Text component copy:
 
-            * from `/libs/foundation/components/text`  
+            * from `/libs/foundation/components/text`
             * to `/apps/myProject/components/text`
 
-* [Customizing pages shown by the Error Handler](/help/sites-developing/customizing-errorhandler-pages.md#how-to-customize-pages-shown-by-the-error-handler)  
+* [Customizing pages shown by the Error Handler](/help/sites-developing/customizing-errorhandler-pages.md#how-to-customize-pages-shown-by-the-error-handler) 
+
   This case involves overlaying a servlet:
 
     * In the repository, copy the default script(s):

@@ -193,7 +193,7 @@ Click the Resume button in the email that you received in the previous step. It 
 
 You can also view the welcome kit at the following URL:
 
-https://** &lt;*host*&gt;**:**&lt;*port*&gt;/**content/aemforms-refsite/doclink.html?document=/content/forms/af/we-finance/credit-card/creditcardwelcomekit&customerId=197&channel=web
+https://&lt;*host*&gt;:&lt;*port*&gt;/content/aemforms-refsite/doclink.html?document=/content/forms/af/we-finance/credit-card/creditcardwelcomekit&customerId=197&channel=web
 
 You can access it on author and publish instances.
 
@@ -256,7 +256,7 @@ For you to view and explore the analytics report, we are providing seed data for
 1. Go to **Forms & Documents** UI at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 
 1. Click to open the **We.Finance** Folder.
-1. Select **Application for Credit Card **adaptive form, and then in the toolbar, click **[!UICONTROL Enable Analytics]**.
+1. Select **Application for Credit Card** adaptive form, and then in the toolbar, click **[!UICONTROL Enable Analytics]**.
 
 1. Select the adaptive form again and click **[!UICONTROL Analytics Report]** in the toolbar to generate the report. You will see a a blank report initially.
 
@@ -269,7 +269,7 @@ To generate analytics report with seed data:
 1. In CRXDE, navigate to: `/content/dam/formsanddocuments/we-finance/cc-app/jcr:content/analyticsdatanode/lastsevendays`
 1. In the **[!UICONTROL analyticsdata]** field under **[!UICONTROL Properties]**, paste the copied content of the seed data file. 
 
-1. Select **Application for Credit Card **adaptive form and click **[!UICONTROL Analytics Report]** in the toolbar to generate the report with seed data.
+1. Select **Application for Credit Card** adaptive form and click **[!UICONTROL Analytics Report]** in the toolbar to generate the report with seed data.
 
 **A/B testing of the credit card application**
 
@@ -282,7 +282,7 @@ Perform the following steps to experience the creation of A/B test for We.Financ
 1. Go to **Forms & Documents** at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 
 1. Click to open the **We.Finance** folder.
-1. Select **Application for Credit Card **adaptive form.
+1. Select **Application for Credit Card** adaptive form.
 1. Click **More** in toolbar and select **Configure A/B Testing**. The Configure A/B testing page opens.  
 
 1. Specify an **Activity Name**.
@@ -296,8 +296,8 @@ Perform the following steps to experience the creation of A/B test for We.Financ
 1. Go to the Forms and Documents UI, select the form, click **More**, and select **Start A/B Testing**.
 
 1. Now open the form in chrome browser several times using the following url:  
-   https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/cc-app/jcr:content?wcmmode=disabled*** 
-   Note: Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
+   https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/cc-app/jcr:content?wcmmode=disabled 
+   Note: Remove the cookie with the name **mbox** from browser’s cookie persistence before opening the form next time.* 
    You will see experience A and B of the form at random.
 
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
