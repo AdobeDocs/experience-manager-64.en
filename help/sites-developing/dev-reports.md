@@ -119,14 +119,17 @@ The query:
 
 * Usually consists of:
 
-    * A root path.  
-      This specifies the sub-tree of the repository to be searched.  
-      To help minimize the performance impact, it is advisable to (try to) restrict the query to a specific sub-tree of the repository. The root path can be either predefined in the [report template](#report-template) or set by the user in the [Configuration (Edit) dialog](#configuration-dialog).  
-    
-    * [One or more criteria](#query-definition).  
+    * A root path.
+
+      This specifies the sub-tree of the repository to be searched. 
+
+      To help minimize the performance impact, it is advisable to (try to) restrict the query to a specific sub-tree of the repository. The root path can be either predefined in the [report template](#report-template) or set by the user in the [Configuration (Edit) dialog](#configuration-dialog). 
+  
+    * [One or more criteria](#query-definition). 
+
       These are imposed to produce the (initial) result set; they include for example, restrictions on the node type, or property constraints.
 
-**[!UICONTROL The key point here is that each single node returned in the result set of the query is used to generate a single row on the report (so a 1:1 relationship).]**
+**The key point here is that each single node returned in the result set of the query is used to generate a single row on the report (so a 1:1 relationship).**
 
 The developer has to ensure that the query defined for a report returns a node set appropriate for that report. However, the node itself need not hold all the required information, this can also be derived from parent and/or child nodes. For example, the query used for the [User Report](/help/sites-administering/reporting.md#user-report) selects nodes based on the node type (in this case `rep:user`). However, most columns on this report do not take their data directly from these nodes, but from the child nodes `profile`.
 
@@ -136,13 +139,17 @@ The [query](#the-query-and-data-retrieval) returns a result set of data to be di
 
 This allows:
 
-* Extracting and deriving values from the underlying result set.  
+* Extracting and deriving values from the underlying result set. 
+
   For example, it allows you to process two property values as a single value by calculating the difference between the two.
-* Resolving extracted values; this can be done in a variety of ways.  
+
+* Resolving extracted values; this can be done in a variety of ways. 
+
   For example, paths can be mapped to a title (as in the more human-readable content of the respective *jcr:title* property).
 
 * Applying filters at various points.
-* Creating compound values, if necessary.  
+* Creating compound values, if necessary. 
+
   For example, consisting of a text that is displayed to the user, a value to be used for sorting and an additional URL that is used (on the client side) for creating a link.
 
 #### Workflow of the Processing Queue {#workflow-of-the-processing-queue}
@@ -155,7 +162,8 @@ The following workflow represents the processing queue:
 
 Where the detailed steps and elements are:
 
-1. Transforms the results returned by the [initial query ( `reportbase`)](#query-definition) into the basic result set using value extractors.  
+1. Transforms the results returned by the [initial query ( `reportbase`)](#query-definition) into the basic result set using value extractors. 
+
    Value extractors are automatically chosen depending on the [column type](#column-specific-definitions). They are used for reading values from the underlying JCR Query and creating a result set from them; after which further processing may then be applied. For example, for the `diff` type, the value extractor reads two properties, calculates the single value that is then added to the result set. The value extractors cannot be configured.  
 
 1. To that initial result set, containing raw data, [initial filtering](#column-specific-definitions) (*raw* phase) is applied.
@@ -168,8 +176,10 @@ Where the detailed steps and elements are:
 1. [Filtering](#column-specific-definitions) (assigned to the *resolved* phase) is executed on the resolved values.
 
 1. Data is [grouped and aggregated](#column-specific-definitions).
-1. Array data is resolved by converting it into a (string-based) list.  
+1. Array data is resolved by converting it into a (string-based) list. 
+
    This is an implicit step that converts a multi-value result into a list that can be displayed; it is required for (unaggregated) cell values that are based on multi-value JCR properties.
+
 1. Values are again [preprocessed](#processing-queue); as defined for the *afterApply* phase.
 
 1. Data is sorted.
@@ -257,8 +267,10 @@ N:queryBuilder
     P:mandatoryProperties [String|String[]]
 ```
 
-* `propertyConstraints`  
-  Can be used to limit the result set to nodes that have specific properties with specific values. If multiple constraints are specified, the node must satisfy all of them (AND operation).  
+* `propertyConstraints`
+
+  Can be used to limit the result set to nodes that have specific properties with specific values. If multiple constraints are specified, the node must satisfy all of them (AND operation).
+
   For example:
 
   ```
@@ -275,10 +287,12 @@ N:queryBuilder
 
   Would return all `textimage` components that were last modified by the `admin` user.  
 
-* `nodeTypes`  
+* `nodeTypes` 
+
   Used to limit the result set to the specified node types. Multiple node types can be specified.
 
-* `mandatoryProperties`  
+* `mandatoryProperties` 
+
   Can be used to limit the result set to nodes that have *all* of the specified properties. The value of the properties is not taken into account.
 
 All are optional and can be combined as necessary, but you must define at least one of them.
@@ -302,57 +316,71 @@ N:charting
     ]
 ```
 
-* `settings`  
+* `settings` 
+
   Holds definitions for the active charts.
 
-    * `active`  
+    * `active` 
+
       As multiple settings can be defined, you can use this to define which are currently active. These are defined by an array of nodes (there is no compulsory naming convention for these nodes, but the standard reports often use `0`, `1`.. `x`), each having the following property:
 
-        * `id`  
+        * `id` 
+
           Identification for the active charts. This must match the id of one of the chart `definitions`.
 
-* `definitions`  
-  Defines the chart types that are potentially available for the report. The `definitions` to be used will be specified by the `active` settings.  
+* `definitions` 
+
+  Defines the chart types that are potentially available for the report. The `definitions` to be used will be specified by the `active` settings. 
+
   The definitions are specified using an array of nodes (again often named `0`, `1`.. `x`), each having the following properties:
 
-    * `id`  
+    * `id` 
+
       The chart identification.
-    
-    * `type`  
+  
+    * `type` 
+
       The type of chart available. Select from:
 
-        * `pie`  
+        * `pie` 
           Pie chart. Generated from current data only.
-        
-        * `lineseries`  
+  
+        * `lineseries` 
           Series of lines (connecting dots representing the actual snapshots). Generated from historic data only.
 
     * Additional properties are available, dependent on the chart type:
 
         * for the chart type `pie`:
 
-            * `maxRadius` ( `Double/Long`)  
-              The maximum radius allowed for the pie chart; therefore the maximum size allowed for the chart (without legend). Ignored if `fixedRadius` is defined.  
-            
-            * `minRadius` ( `Double/Long`)  
+            * `maxRadius` ( `Double/Long`) 
+
+              The maximum radius allowed for the pie chart; therefore the maximum size allowed for the chart (without legend). Ignored if `fixedRadius` is defined. 
+  
+            * `minRadius` ( `Double/Long`) 
+
               The minimum radius allowed for the pie chart. Ignored if `fixedRadius` is defined.
-            
-            * `fixedRadius` ( `Double/Long`)  
+  
+            * `fixedRadius` ( `Double/Long`) 
               Defines a fixed radius for the pie chart.
 
         * [for the chart type `lineseries`](/help/sites-administering/reporting.md#display-limits):
 
-            * `totals` ( `Boolean`)  
-              True if an additional line showing the **Total** should be shown.  
-              default: `false`  
-            
-            * `series` ( `Long`)  
-              Number of lines/series to be shown.  
-              default: `9` (this is also the maximum allowed)  
-            
-            * `hoverLimit` ( `Long`)  
-              Maximum number of aggregated snapshots (dots shown on each horizontal line, representing distinct values) for which popups are to be displayed i.e. when the user does mouse-over on a distinct value or corresponding label in the chart legend.  
+            * `totals` ( `Boolean`) 
+
+              True if an additional line showing the **Total** should be shown. 
+              default: `false` 
+  
+            * `series` ( `Long`) 
+
+              Number of lines/series to be shown. 
+              default: `9` (this is also the maximum allowed) 
+  
+            * `hoverLimit` ( `Long`) 
+
+              Maximum number of aggregated snapshots (dots shown on each horizontal line, representing distinct values) for which popups are to be displayed i.e. when the user does mouse-over on a distinct value or corresponding label in the chart legend. 
+
               default: `35` (i.e. no popups at all are shown if more than 35 distinct values are applicable for the current chart settings).  
+
               There is an additional limit of 10 popups that can be shown in parallel (multiple popups can be shown when mouse-over is made over the legend texts).
 
 ### Configuration Dialog {#configuration-dialog}

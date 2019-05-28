@@ -60,24 +60,17 @@ Summary:
 * `<cq:defineObjects />`
 
     * `slingRequest` - The wrapped Request Object ( `SlingHttpServletRequest`).
-    
     * `slingResponse` - The wrapped Response Object ( `SlingHttpServletResponse`).
-    
     * `resource` - The Sling Resource Object ( `slingRequest.getResource();`).
-    
     * `resourceResolver` - The Sling Resource Resolver Object ( `slingRequest.getResoucreResolver();`).
-    
     * `currentNode` - The resolved JCR node for the request.
     * `log` - The Default logger ().
     * `sling` - The Sling script helper.
     * `properties` - The properties of the addressed resource ( `resource.adaptTo(ValueMap.class);`).
-    
     * `pageProperties` - The properties of the page of the addressed resource.
     * `pageManager` - The page manager for accessing AEM content pages ( `resourceResolver.adaptTo(PageManager.class);`).
-    
     * `component` - The component object of the current AEM component..
     * `designer` - The designer object for retrieving design information ( `resourceResolver.adaptTo(Designer.class);`).
-    
     * `currentDesign` - The design of the addressed resource.
     * `currentStyle` - The style of the addressed resource.
 
@@ -85,17 +78,24 @@ Summary:
 
 There are three methods to access content in AEM WCM:
 
-* Via the properties object introduced in `global.jsp`:  
-  The properties object is an instance of a ValueMap (see [Sling API](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/ValueMap.html)) and contains all properties of the current resource.  
-  Example: `String pageTitle = properties.get("jcr:title", "no title");` used in the rendering script of a page component.  
+* Via the properties object introduced in `global.jsp`:
+
+  The properties object is an instance of a ValueMap (see [Sling API](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/ValueMap.html)) and contains all properties of the current resource. 
+
+  Example: `String pageTitle = properties.get("jcr:title", "no title");` used in the rendering script of a page component. 
+
   Example: `String paragraphTitle = properties.get("jcr:title", "no title");` used in the rendering script of a standard paragraph component.
 
-* Via the `currentPage` object introduced in `global.jsp`:  
-  The `currentPage` object is an instance of a page (see [AEM API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.mhtml)). The page class provides some methods to access content.  
+* Via the `currentPage` object introduced in `global.jsp`: 
+
+  The `currentPage` object is an instance of a page (see [AEM API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.mhtml)). The page class provides some methods to access content. 
+
   Example: `String pageTitle = currentPage.getTitle();`
 
-* Via `currentNode` object introduced in `global.jsp`:  
-  The `currentNode` object is an instance of a node (see [JCR API](https://jackrabbit.apache.org/api/2.16/org/apache/jackrabbit/standalone/cli/core/CurrentNode.html)). The properties of a node can be accessed by the `getProperty()` method.  
+* Via `currentNode` object introduced in `global.jsp`: 
+
+  The `currentNode` object is an instance of a node (see [JCR API](https://jackrabbit.apache.org/api/2.16/org/apache/jackrabbit/standalone/cli/core/CurrentNode.html)). The properties of a node can be accessed by the `getProperty()` method. 
+
   Example: `String pageTitle = currentNode.getProperty("jcr:title");`
 
 ## JSP Tag Libraries {#jsp-tag-libraries}
@@ -160,8 +160,7 @@ To develop new components for AEM based on existing component you can copy the c
 
     * adding a new field in the dialog box
 
-        * `cq:dialog` - dialog for the touch-enabled UI  
-        
+        * `cq:dialog` - dialog for the touch-enabled UI 
         * `dialog` - dialog for the classic UI
 
     * replacing the `.jsp` file (name it after your new component)
@@ -171,9 +170,9 @@ To develop new components for AEM based on existing component you can copy the c
 
    >[!NOTE]
    >
-   >A component for the:  
+   >A component for the: 
    >
-   >* Touch-enabled UI uses [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.html) components  
+   >* Touch-enabled UI uses [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.html) components 
    >* Classic UI uses [ExtJS widgets](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html)
 
    >[!NOTE]
@@ -186,14 +185,14 @@ To develop new components for AEM based on existing component you can copy the c
 
 1. One of the following nodes should be present and properly initialized for the new component to appear:
 
-    * `cq:dialog` - dialog for the touch-enabled UI  
-    * `dialog` - dialog for the classic UI  
-    * `cq:editConfig` - how components behave in the edit environment (e.g drag and drop)  
+    * `cq:dialog` - dialog for the touch-enabled UI 
+    * `dialog` - dialog for the classic UI 
+    * `cq:editConfig` - how components behave in the edit environment (e.g drag and drop) 
     * `design_dialog` - dialog for design mode (classic UI only)
 
 1. Activate the new component in your paragraph system by either:
 
-    * using CRXDE Lite to add the value `<path-to-component>` (for example, `/apps/geometrixx/components/myComponent`) to the property components of the node `/etc/designs/geometrixx/jcr:content/contentpage/par`   
+    * using CRXDE Lite to add the value `<path-to-component>` (for example, `/apps/geometrixx/components/myComponent`) to the property components of the node `/etc/designs/geometrixx/jcr:content/contentpage/par` 
     * following the instructions in [Adding new components to paragraph systems](#adding-a-new-component-to-the-paragraph-system-design-mode)
 
 1. In AEM WCM, open a page in your web site and insert a new paragraph of the type you just created to make sure the component is working properly.
@@ -209,8 +208,10 @@ After the component has been developed, you add it to the paragraph system, whic
 1. Access a page within your authoring environment that uses the paragraph system, for example `<contentPath>/Test.html`.
 1. Switch to Design mode by either:
 
-    * adding `?wcmmode=design` to the end of the URL and accessing again, for example:  
+    * adding `?wcmmode=design` to the end of the URL and accessing again, for example:
+
       `<contextPath>/ Test.html?wcmmode=design`
+
     * clicking Design in Sidekick
 
    You are now in design mode and can edit the paragraph system.
@@ -303,14 +304,12 @@ To create the new component, we use the standard textimage component as a basis 
 
         * Change xtype to cqinclude (to inherit from the standard component).
         * Add a path property with values `/libs/foundation/components/textimage/dialog/items/tab1.infinity.json`and `/libs/foundation/components/textimage/dialog/items/tab2.infinity.json`, respectively.
-        
         * Remove all other properties or subnodes.
 
     * For tab3:
 
         * Leave the properties and subnodes without changes
         * Add a new field definition to `tab3/items`, node position of type `cq:Widget`
-        
         * Set the following properties (of type String) for the new `tab3/items/position`node:
 
             * `name`: `./imagePosition`
