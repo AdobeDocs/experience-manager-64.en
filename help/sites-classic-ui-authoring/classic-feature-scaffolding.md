@@ -65,7 +65,7 @@ To create a new scaffold go to the **Tools** console, then **Default Page Scaffo
 
 *Go to the **Page Properties** of the new page and set the *Title Text*, *Description*, *Target Template* and *Target Path*, as described above.*
 
-*Next, you have to define the structure of the page that this scaffold will create. To do this go into [design mode](/help/sites-authoring/page-authoring.md#sidekick) on the scaffold page. A link will appear allowing you to edit the scaffold in the **dialog editor**.
+*Next, you have to define the structure of the page that this scaffold will create. To do this go into design mode on the scaffold page. A link will appear allowing you to edit the scaffold in the **dialog editor**.
 
 ![](assets/cq5_dialog_editor.png)
 
