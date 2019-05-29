@@ -74,9 +74,9 @@ AEM 6 can be configured to run with MongoDB storage by following the below proce
     
     * `db`: Name of the Mongo database. By default new AEM 6 installations use **aem-author** as the database name.  
     
-    * `cache`: The cache size in MB. This is distributed among various caches used in DocumentNodeStore. The default is 256  
+    * `cache`: The cache size in MB. This is distributed among various caches used in DocumentNodeStore. The default is 256.
     
-    * `changesSize`: Size in MB of capped collection used in Mongo for caching the diff output. The default is 256  
+    * `changesSize`: Size in MB of capped collection used in Mongo for caching the diff output. The default is 256.  
     
     * `customBlobStore`: Boolean value indicating that a custom data store will be used. The default is false.
 

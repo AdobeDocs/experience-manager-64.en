@@ -45,7 +45,7 @@ To configure both the node store and the data store, perform these steps:
 >
 >Newer versions of Oak employ a new naming scheme and format for OSGi configuration files. The new naming scheme requires that the configuration file be named **.config** and the new format requires values to be typed and is [documented here](https://sling.apache.org/documentation/development/slingstart.html#default-configuration-format).
 >
->If you upgrade from an older version of Oak, ensure that you make a backup of the `crx-quickstart/install`folder first. After the upgrade, restore the contents of the folder to the upgraded installation and modify the extension of the configuration files from **.cfg** to **.config**.
+>If you upgrade from an older version of Oak, ensure that you make a backup of the `crx-quickstart/install` folder first. After the upgrade, restore the contents of the folder to the upgraded installation and modify the extension of the configuration files from **.cfg** to **.config**.
 >
 >In case you are reading this article in preparation for an upgrade from an **AEM 5.x** installation, ensure that you consult the [upgrade](https://docs.adobe.com/content/docs/en/aem/6-0/deploy/upgrade.html) documentation first.
 
@@ -79,15 +79,15 @@ customBlobStore=B"true"
 
 ### Document Node Store {#document-node-store}
 
-The document node store is the basis of AEM's MongoMK implementation. It uses the `org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService`* *PID. The following configuration options are available:
+The document node store is the basis of AEM's MongoMK implementation. It uses the `org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService` **PID**. The following configuration options are available:
 
 * `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`  
 
-* `db`: Name of the Mongo database. The default is **Oak** ``. However, new AEM 6 installations use **aem-author** ``as the default database name.  
+* `db`: Name of the Mongo database. The default is **Oak** . However, new AEM 6 installations use **aem-author** as the default database name.  
 
-* `cache`: The cache size in MB. This is distributed among various caches used in DocumentNodeStore. The default is `256`  
+* `cache`: The cache size in MB. This is distributed among various caches used in DocumentNodeStore. The default is `256`.  
 
-* `changesSize`: Size in MB of capped collection used in Mongo for caching the diff output. The default is `256`  
+* `changesSize`: Size in MB of capped collection used in Mongo for caching the diff output. The default is `256`.  
 
 * `customBlobStore`: Boolean value indicating that a custom data store will be used. The default is `false`.
 
@@ -124,9 +124,9 @@ This is the implementation of [FileDataStore](https://jackrabbit.apache.org/api/
 
 These configuration options are available:
 
-* `repository.home`: Path to repository home under which various repository related data is stored. By default, binary files would be stored under `crx-quickstart/repository/datastore` directory
+* `repository.home`: Path to repository home under which various repository related data is stored. By default, binary files would be stored under `crx-quickstart/repository/datastore` directory.
 
-* `path`: Path to the directory under which the files would be stored. If specified then it takes precedence over `repository.home` value
+* `path`: Path to the directory under which the files would be stored. If specified then it takes precedence over `repository.home` value.
 
 * `minRecordLength`: The minimum size in bytes of a file stored in the data store. Binary content less than this value would be inlined.
 
@@ -160,7 +160,7 @@ Once downloaded, you can install and configure the S3 Connector as follows:
 
    Copy all the contents from the above location to `<aem-install>/crx-quickstart/install.`
 
-1. If AEM is already configured to work with the Tar or MongoDB storage, remove any existing configuration files from the ***&lt;aem-install&gt;***/*crx-quickstart*/*install* folder before proceeding. The files that need to be removed are:
+1. If AEM is already configured to work with the Tar or MongoDB storage, remove any existing configuration files from the `aem-install/crx-quickstart/install` folder before proceeding. The files that need to be removed are:
 
     * `For MongoMK: org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService.config`
     * `For TarMK: org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config`
@@ -206,8 +206,7 @@ If you need to upgrade to a new version of the 1.8.x S3 connector (for example, 
 You can use the configuration file with the following options:
 
 * accessKey: The AWS access key.
-* secretKey: The AWS secret access key. **Note: **Alternatively, [IAM roles](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html) can be used for authentication. If you are using IAM roles you no longer need to specify the `accessKey` and `secretKey`.
-
+* secretKey: The AWS secret access key. **Note:** Alternatively, [IAM roles](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html) can be used for authentication. If you are using IAM roles you no longer need to specify the `accessKey` and `secretKey`.
 * s3Bucket: The bucket name.
 * s3Region: The bucket region.
 * path: The path of the data store. The default is **&lt;AEM install folder&gt;/repository/datastore**
