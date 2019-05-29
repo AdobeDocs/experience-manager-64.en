@@ -44,29 +44,42 @@ The [site creation wizard](/help/communities/sites-console.md):
 
 * provides essential features:
 
-    * responsive design:  
+    * responsive design:
+
       uses [Twitter Bootstrap themes](https://getbootstrap.com)
-    
-    * login:  
+
+    * login:
+
       self-registration, [social login](/help/communities/social-login.md), user profiles
-    
-    * notifications:  
+
+    * notifications:
+
       members see events of relevance to them
-    * messaging:  
+
+    * messaging:
+
       members may send or receive messages within the community site
-    * search:  
+
+    * search:
+
       ability to search within the community site
-    * language switching:  
+  
+    * language switching: 
+  
       ability to select a language for a [multillingual site](/help/sites-administering/translation.md)
-    
-    * administration:  
+  
+    * administration: 
+  
       access for authorized members to moderate and manage users within the community site
 
 * eliminates many page-level authoring steps:
 
-    * branding:  
+    * branding: 
+  
       optional upload of a banner image for display on all pages of the community site
-    * navigation menu:  
+  
+    * navigation menu: 
+  
       navigation links are provided for the features included in the community site template
 
 To experience the ease of quickly creating a new community site, visit [Getting Started with AEM Communities](/help/communities/getting-started.md).

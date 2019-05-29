@@ -55,9 +55,9 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
 * select an existing enablement community site
 
-    * select **Report **icon to generate reports which cover all enablement resources
+    * select **Report** icon to generate reports which cover all enablement resources
     * select an enablement learning path
-    * select **Report **icon to generate reports for
+    * select **Report** icon to generate reports for
 
         * the included enablement resources
         * the learners assigned to the learning path
@@ -85,14 +85,18 @@ The report provides information on their progress as well as any comments or rat
 Select the criteria for the report:
 
 * **Site** 
+
   select an enablement community site
 
 * **User or Group** 
-  * select User to generate a report for one learner  
-  * select Group to generate a report for a group of learners  
+
+  * select User to generate a report for one learner
+  * select Group to generate a report for a group of learners
+
   The tunnel service will access members and member groups from the publish environment
 
 * **Assignment** 
+
   Choose from among the enablement resources assigned to the selected learner(s)
 
 Select **Generate** to create the report:
@@ -108,12 +112,15 @@ The Views console allows reports to be generated on page views by community feat
 Select the criteria for the report:
 
 * **Site** 
+
   select a community site
 
 * **Content Type** 
+
   may choose All content or select one of the features present on the site
 
-* time frame  
+* time frame 
+
   select one of
 
     * Last 7 days
@@ -134,12 +141,15 @@ The Posts console allows reports to be generate on number of posts to community 
 Select the criteria for the report:
 
 * **Site** 
+
   select a community site
 
 * **Content Type** 
+
   may choose All content or select one of the features present on the site
 
-* time frame  
+* time frame 
+
   select one of
 
     * Last 7 days

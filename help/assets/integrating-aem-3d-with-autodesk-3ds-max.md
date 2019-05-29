@@ -58,7 +58,7 @@ To integrate AEM 3D with Autodesk 3ds Max:
     1. In CRXDE Lite, navigate to `/libs/settings/dam/v3D/Paths/maxWorkPath`. By default, the value of this setting is `./MaxWork`, which is relative to the AEM install root folder.
     1. Log onto the server itself and use **File Explorer** to navigate to the AEM install root folder.
     1. Delete the **MaxWork** folder--including its entire contents--if it exists.
-    
+
        The folder is re-created automatically the next time a .MAX file is ingested.
 
 1. Enable 3ds Max for ingestion by doing the following:

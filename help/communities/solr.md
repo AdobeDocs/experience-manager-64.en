@@ -162,14 +162,12 @@ The Standard MLS files are stored in the AEM repository.
 1. using CRXDE|Lite, locate
 
     * /libs/social/config/datastore/msrp/*solrX*/**schema.xml**
-    
     * /libs/social/config/datastore/msrp/*solrX*/**solrconfig.xml**
 
 1. 
 1. download to local server on which Solr is deployed
 
     * locate the `jcr:content` node's `jcr:data` property
-    
     * select `view` to start the download
     * ensure the files are saved with the appropriate names and encoding (UTF8)
 
@@ -181,8 +179,9 @@ The Standard MLS files are stored in the AEM repository.
 1. Prepare a new configuration:
 
     1. create *new-config-dir* 
+
        such as *solr-install-dir*/myconfig/
-    
+
     1. copy the contents of the existing Solr configuration directory to *new-config-dir*
 
         * for Solr4: copy *solr-install-dir*/example/solr/collection1/conf/&ast;
@@ -251,9 +250,7 @@ Installation instructions - note the few differences for Solr4 and Solr5:
         * for Solr5: copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&ast;
 
     1. copy the extracted **schema.xml** and **solrconfig.xml** to *new-config-dir* to overwrite existing files
-    
     1. for Solr5: copy *solr_install_dir*/server/solr/configsets/sample_techproducts_configs/conf/lang/&ast;.txt" to *new-config-dir*/lang/
-    
     1. copy the extracted **stopwords/** folder to *new-config-dir*
 
         * resulting in *new-config-dir*/stopwords/&ast;.txt
@@ -295,16 +292,23 @@ After the contents of the package have been extracted to the server hosting the 
     * ./bin/solr start
     * ./bin/solr create_core -c collection1 -d sample_techproducts_configs
 
-* Run the install script: Install [-v 4|5] [-d solrhome] [-c collectionpath]  
+* Run the install script: Install [-v 4|5] [-d solrhome] [-c collectionpath] 
   where:
 
-    * -d solrhome  
+    * -d solrhome 
+
       Solr installation directory
-    * -c collectionpath  
+
+    * -c collectionpath 
+
       collection path in solr
-    * --help  
+
+    * --help 
+
       print command line options
-    * -v [4|5]  
+
+    * -v [4|5] 
+
       set version for solr
 
 * Example for Solr 4.10.4:

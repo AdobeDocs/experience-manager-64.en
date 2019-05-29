@@ -22,7 +22,6 @@ To not display the avatar next to each posted comment:
 1. copy `comment.hbs`from `libs`to `apps`
 
     1. select `/libs/social/commons/components/hbs/comments/comment/comment.hbs`
-    
     1. select **Copy**
     1. select `/apps/social/commons/components/hbs/comments/comment`
     1. select **Paste**

@@ -39,14 +39,16 @@ To add an enablement resource to the new community site:
 
 Fill in the basic information for the Resource:
 
-* **Site Name**:  
+* **Site Name**:
+
   set to the name of the selected community site: Enablement Tutorial
 
 * **Resource Name&ast;**: Ski Lesson 1
 * **Tags**: Tutorial: Sports / Skiing
 * **Show in Catalog**: On
 * **Description**: Sliding on snow for beginners
-* **Add Image**:  
+* **Add Image**:
+
   add an image to represent the Resource to the member in their Assignments view
 
 ![](assets/chlimage_1-202.png)
@@ -140,10 +142,10 @@ A learning path is a logical grouping of enablement resources which form a cours
 
 Add the **Basic Info**:
 
-* **Learning Path Name **: Ski Lessons
+* **Learning Path Name**: Ski Lessons
 * **Tags**: Tutorial: Skiing
 * **Show in Catalog**: leave unchecked
-* **upload an image **to represent the learning path in the Resources console
+* **upload an image** to represent the learning path in the Resources console
 
 ![](assets/chlimage_1-213.png)
 
@@ -155,8 +157,9 @@ Skip the next panel as there are no prerequisite learning paths to add.
 
 On the Add Resources panel
 
-* select **+ Add Resources** to select the 2 ski lessions resources to add to the learning path  
-  Note: only **published **Resources will be selectable.
+* select **+ Add Resources** to select the 2 ski lessions resources to add to the learning path
+
+  Note: only **published** Resources will be selectable.
 
 >[!NOTE]
 >

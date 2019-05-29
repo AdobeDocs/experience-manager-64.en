@@ -66,8 +66,8 @@ Only the instance for subscriptions needs to be further configured when allowing
 
    for notifications, which does not support reply email, and should not be altered
 
-1. ` [subscriptions-email](#configuration-for-subscriptions)` instance  
-   
+1. ` [subscriptions-email](#configuration-for-subscriptions)` instance
+
    requires configuration to fully enable creating post from reply email
 
 To reach the Communities email configuration instances:

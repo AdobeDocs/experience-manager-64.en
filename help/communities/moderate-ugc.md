@@ -185,10 +185,12 @@ The Allow action is an option for UGC that has been Flagged, Denied or has not b
 
 When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a [community site](/help/communities/sites-console.md), checking the box ` [Content is Premoderated](/help/communities/sites-console.md#moderation)` will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog:
 
-* [comments](/help/communities/comments.md) and [reviews](/help/communities/reviews.md)  
+* [comments](/help/communities/comments.md) and [reviews](/help/communities/reviews.md)
+
   on **User Moderation** tab, check **Pre-Moderation**
 
-* [forum](/help/communities/forum.md), [ideation](/help/communities/ideation-feature.md), [QnA](/help/communities/working-with-qna.md), and [calendar](/help/communities/calendar.md)  
+* [forum](/help/communities/forum.md), [ideation](/help/communities/ideation-feature.md), [QnA](/help/communities/working-with-qna.md), and [calendar](/help/communities/calendar.md)
+
   on **Settings** tab, check **Moderated**
 
 ### Spam Detection {#spam-detection}

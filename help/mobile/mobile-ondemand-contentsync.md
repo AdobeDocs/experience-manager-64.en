@@ -331,7 +331,7 @@ public class LogoUpdateHandler implements ContentUpdateHandler {
                 Node parent = JcrUtil.createPath(parentPath, "sling:Folder", admin);
                 Node image = resolver.getResource(resource.getPath() + "/image").adaptTo(Node.class);
                 JcrUtil.copy(image, parent, Text.getName(src));
-    
+  
                 admin.save();
 
                 return true;

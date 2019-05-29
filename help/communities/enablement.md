@@ -97,8 +97,8 @@ use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
  create user(s) with path = /home/users/community  
 
     * add members(s) to the following groups: 
-     
-      * Community Enablement Managers  
+  
+      * Community Enablement Managers 
       * Communities Administrators
 
 ## Dispatcher {#dispatcher}

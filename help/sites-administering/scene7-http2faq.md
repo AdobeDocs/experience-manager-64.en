@@ -62,7 +62,7 @@ You must initiate the request to switch over to HTTP/2; it is not automatically 
            To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
 
            Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labelled [!UICONTROL **Published Server Name**].
-        
+   
         1. Verify that you use secure HTTPS for rich media requests.
         1. Verify you are using the CDN through Adobe and not managed with a direct relationship.
         1. Verify you are using a dedicated domain (that is, `images.company.com` or `mycompany.scene7.com`), not a generic Scene7 domain (such as `s7d1.scene7.com`, `s7d2.scene7.com`, `s7d13.scene7.com`).
@@ -74,7 +74,7 @@ You must initiate the request to switch over to HTTP/2; it is not automatically 
     1. Technical Support adds you to the HTTP/2 customer waitlist based on the order in which requests were submitted.
     1. When Adobe is ready to handle your request, Support will contact you to coordinate the transition and set a target date.
     1. You will be notified after completion and can verify a successful transition over to HTTP2.
-     
+   
        You will need to download an extension to use with your Web browser. For Firefox and Chrome use an extension called [!UICONTROL **HTTP/2 and SPDY Indicator**]. Browsers only support HTTP/2 securely, so it is necessary to call a URL with HTTPS to verify. If HTTP/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2"
 
 ## When can I expect to be transitioned over to HTTP/2? {#when-can-i-expect-to-be-transitioned-over-to-http}

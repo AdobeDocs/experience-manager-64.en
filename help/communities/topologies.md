@@ -133,18 +133,23 @@ If choosing [ASRP](/help/communities/asrp.md), [DSRP](/help/communities/dsrp.md)
 
 ## References {#references}
 
-* [User Synchronization](/help/communities/sync.md)  
+* [User Synchronization](/help/communities/sync.md)
+
   Discusses scynchronization of user data among publish farm instances.
 
-* [Managing Users and User Groups](/help/communities/users.md)  
+* [Managing Users and User Groups](/help/communities/users.md)
+
   Discusses the roles of users and user groups in the author and publish environments.
 
-* UGC [common store](/help/communities/working-with-srp.md)  
+* UGC [common store](/help/communities/working-with-srp.md)
+
   Describes the storage of community content separate from site content
 
-* [Node Stores and Data Stores](/help/sites-deploying/data-store-config.md)  
+* [Node Stores and Data Stores](/help/sites-deploying/data-store-config.md)
+
   Basically, site content is stored in a node store. For Assets, a data store can be configured to store binary data. For Communities, a common store must be configured to select the SRP.
 
-* [Storage Elements in AEM 6.3](/help/sites-deploying/storage-elements-in-aem-6.md)  
+* [Storage Elements in AEM 6.3](/help/sites-deploying/storage-elements-in-aem-6.md)
+
   Describes the two node storage implementations: Tar and MongoDB.
 

@@ -206,7 +206,8 @@ The framework leverages server side Handlebars templates to render the component
 The following are recommended conventions for defining and using CSS classes:
 
 * use clearly namespaced CSS class selector names and avoid generic names such as 'heading', 'image', etc.
-* define specific class selector styles so the CSS stylesheets work well with other elements and styles on the page. For example:  
+* define specific class selector styles so the CSS stylesheets work well with other elements and styles on the page. For example:
+
   `.social-forum .topic-list .li { color: blue; }`
 
 * keep CSS classes for styling separate from CSS classes for UX driven by JavaScript

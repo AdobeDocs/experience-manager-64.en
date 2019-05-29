@@ -47,7 +47,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >* &lt;AEM Server&gt;/linkshare.html
    >* &lt;AEM Server&gt;/linksharepreview.html
    >* &lt;AEM Server&gt;/linkexpired.html
-   >    
+   > 
    >Block other URLs to ensure that your Author instance is secure.
 
    >[!NOTE]
@@ -110,7 +110,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >* INDD
    >* PDF
    >* PPT
-   >    
+   > 
    >For assets of other MIME types, you can only download the assets.
 
 1. To download the shared asset, click/tap the **[!UICONTROL Select]** icon from the toolbar, click/tap the asset, and then click/tap **[!UICONTROL Download]** from the toolbar.

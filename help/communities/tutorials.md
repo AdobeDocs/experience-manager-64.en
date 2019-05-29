@@ -39,7 +39,8 @@ Sample code is available in the [Adobe Marketing Cloud GitHub](https://github.co
 
 ## How-To Instructions {#how-to-instructions}
 
-* [AEM Communities Todo MVC](https://github.com/Adobe-Marketing-Cloud/aem-communities-todomvc-sample)  
+* [AEM Communities Todo MVC](https://github.com/Adobe-Marketing-Cloud/aem-communities-todomvc-sample) 
+
   ToDo MVC Demostrates how to develop an SCF+SRP component from scratch
 
 * [Getting Started with AEM Communities](/help/communities/getting-started.md)

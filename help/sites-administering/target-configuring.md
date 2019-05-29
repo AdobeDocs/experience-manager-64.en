@@ -77,7 +77,7 @@ To do this, you need to specify which A4T cloud configuration to connect your Ad
    >Only analytics configurations that are enabled for A4T are available.
    >
    >When configuring A4T with AEM, you may see a Configuration reference missing entry. To be able to select the analytics framework, do the following:
-   >    
+   > 
    >1. Navigate to **Tools** &gt; **General** &gt; **CRXDE Lite**.
    >1. Navigate to **/libs/cq/analytics/components/testandtargetpage/dialog/items/tabs/items/tab1_general/items/a4tAnalyticsConfig**
    >1. Set the property **disable** to **false**.
@@ -135,7 +135,7 @@ Use the following procedure to create a Target cloud configuration in AEM:
    >[!NOTE]
    >
    >When configuring A4T with AEM, you may see a Configuration reference missing entry. To be able to select the analytics framework, do the following:
-   >    
+   > 
    >1. Navigate to **Tools** &gt; **General** &gt; **CRXDE Lite**.
    >1. Navigate to **/libs/cq/analytics/components/testandtargetpage/dialog/items/tabs/items/tab1_general/items/a4tAnalyticsConfig**
    >1. Set the property **disable** to **false**.
@@ -148,12 +148,11 @@ Use the following procedure to create a Target cloud configuration in AEM:
     * **Password**: the Target account password.
     * **API Type**: either REST or XML
     * **A4T Analytics Cloud Configuration**: Select the Analytics cloud configuration that is used for target activity goals and metrics. You need this if you are using Adobe Analytics as the reporting source when targeting content. If you do not see your cloud configuration, see note in [Configuring A4T Analytics Cloud Configuration](#configuring-a-t-analytics-cloud-configuration).
-    
+
     * **Use accurate targeting:** By default this check box is selected. If selected, the cloud service configuration will wait for the context to load before loading content. See note that follows.
     * **Synchronize Segments from Adobe Target:** Select this option to download segments that are defined in Target to use them in AEM. You must select this option when the API Type property is REST, because inline segments are not supported and you always need to use segments from Target. (Note that the AEM term of 'segment' is equivalent to the Target 'audience'.)
     * **Client library:** Select whether you want the mbox.js or AT.js client library. 
     * **Use DTM to deliver client library** - Select this option to use either AT.js or mbox.js from DTM or another tag managment system. You must [configure the DTM integration](/help/sites-administering/dtm.md) to use this option. Adobe recommends that you use DTM rather than AEM to deliver the library.
-    
     * **Custom mbox.js**: Leave blank if you checked the DTM box or to use the default mbox.js. Alternatively upload your custom mbox.js. Only appears if you have selected mbox.js.
     * **Custom AT.js**: Leave blank if you checked the DTM box or to use the default AT.js. Alternatively upload your custom AT.js. Only appears if you have selected AT.js.
 

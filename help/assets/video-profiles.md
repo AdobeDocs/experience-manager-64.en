@@ -134,7 +134,6 @@ When you are done creating the video profile, you apply it to a folder or multip
    Do one of the following:
 
     * In the **Width** field, enter **auto**. In the **Height** field, enter a value in pixels.
-    
     * To help you visualize the size of the video, tap the Information icon (i) to the right of **Height** to open the Size Calculator page. Use **Size Calculator** to set the video dimensions (represented by the blue box) you want. Tap **X** in the upper-right corner when you are done.
 
 1. (Optional) Tap the **Advanced** tab and ensure the **Use Default Values** check box is selected (recommended). Alternatively, modify advanced video and audio settings.
@@ -183,9 +182,8 @@ When you are done creating the video profile, you apply it to a folder or multip
 1. (Optional) Do one of the following:
 
     * Tap the **Advanced** tab, and make sure the **Use Default Values** check box is selected (recommended).
-    
     * Clear the **Use Default Values** check box and specify the video settings and audio settings you want.
-    
+
       Tap the information icon next to each option for additional descriptions or recommended settings based on the selected video format codec.
 
 1. In the upper-right corner of the page, tap **Save** to save the preset.

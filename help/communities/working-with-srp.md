@@ -74,10 +74,14 @@ With the default option, there is no common store. The UGC is persisted only in 
 
 * stores community content in the JCR repository of the AEM author or publish instance to which it was posted
 * requires all programmatic access to UGC be through the SRP API
-* requires a publish cluster if more than one publish instance is deployed  
+* requires a publish cluster if more than one publish instance is deployed
+
   (there is no replication mechanism among publish instances in a TarMK farm)
-* moderation is performed only in the publish environment  
+
+* moderation is performed only in the publish environment
+
   (there is no reverse/forward replication mechanism between author and publish)
+  
 * generally best for development, demonstrations, and training
 
 ## Configuring SRP {#configuring-srp}

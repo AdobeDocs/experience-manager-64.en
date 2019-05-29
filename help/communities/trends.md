@@ -54,7 +54,9 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
 ![](assets/chlimage_1-229.png)
 
 * **Type** 
-  Specify whether to to display data regarding community members or user generated content (UGC).  
+
+  Specify whether to to display data regarding community members or user generated content (UGC). 
+
   Select from
 
     * `Members`
@@ -63,14 +65,19 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
   Default is `Members`.
 
 * **Display title** 
+
   A descriptive title to display above the data, such as `Trending Content`.  
+
   Default is no title.
 
 * **Display count** 
-  The number of items to list.  
+
+  The number of items to list. 
+
   Default is 10.
 
 * **Activity type** 
+
   Select one of
 
     * `Views`(page visits)
@@ -81,6 +88,7 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
   Default is Views.
 
 * **Time period** 
+
   Select one of
 
     * `Last 24 hours`
@@ -93,11 +101,16 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
   Default is `Total`.
 
 * **Context path** 
-  Provides the ability to scope the activity to a subset of the site, such as a specific Blog.  
+
+
+  Provides the ability to scope the activity to a subset of the site, such as a specific Blog. 
+
   Default is the entire community site.
 
 * **Member count aggregation** 
-  When unchecked (turned off), only top-level posts are counted. For example, if the context is the root page (the default), then an `Activity Type`of `Posts`will never show any activity as there is no ability to post content to the root page. When checked, the counts on all descendant pages are included.  
+
+  When unchecked (turned off), only top-level posts are counted. For example, if the context is the root page (the default), then an `Activity Type`of `Posts`will never show any activity as there is no ability to post content to the root page. When checked, the counts on all descendant pages are included. 
+
   Default is checked.
 
 ## Example Page with 4 Components {#example-page-with-components}

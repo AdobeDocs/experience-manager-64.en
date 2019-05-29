@@ -165,7 +165,7 @@ To give read privileges for custom member paths, on all publish instances set AC
   rep:principalName="everyone"
   rep:privileges="{Name}[jcr:read]" >
   <rep:restrictions 
-    jcr:primaryType="rep:Restrictions"  
+    jcr:primaryType="rep:Restrictions" 
     rep:glob="*/profile*" />
 </allow>
 ```
@@ -267,9 +267,7 @@ Following are some configuration details specific for community members and memb
     * set the following properties:
 
         * **User auto membership**&ast;: `community-*<site name>-<uid>*-members`
-        
         * **User Path Prefix**: `/community`
-        
         * **Group Path Prefix**: `/community`
 
 1. [the External Login Module](/help/sites-administering/ldap-config.md#the-external-login-module)

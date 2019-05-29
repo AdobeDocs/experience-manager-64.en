@@ -33,11 +33,9 @@ To install FFmpeg for your platform:
 
 * **On Windows:**
 
-    1. Download the compiled binary as `ffmpeg.zip`  
-    
-    1. Unzip to a folder.  
-    1. Set the system environment variable `PATH` to `<*your-ffmpeg-locatio*n>\bin`  
-    
+    1. Download the compiled binary as `ffmpeg.zip` 
+    1. Unzip to a folder. 
+    1. Set the system environment variable `PATH` to `<*your-ffmpeg-locatio*n>\bin` 
     1. Restart AEM.
 
 * **On Mac OS X:**
@@ -45,15 +43,18 @@ To install FFmpeg for your platform:
     1. Install Xcode ([https://developer.apple.com/technologies/tools/xcode.html](https://developer.apple.com/technologies/tools/xcode.html))
     1. Install XQuartz/X11.
     1. Install MacPorts ([https://www.macports.org/](https://www.macports.org/))
-    1. In the console run the following command and follow the instructions:  
-       `sudo port install ffmpeg`   
+    1. In the console run the following command and follow the instructions: 
+
+       `sudo port install ffmpeg` 
+
        `FFmpeg` must be in `PATH` so AEM can pick it up via command line.
 
 * **Using the precompiled version for OS X 10.6:**
 
     1. Download the precompiled version.
     1. Extract it to the `/usr/local` directory.
-    1. From terminal, execute:  
+    1. From terminal, execute: 
+
        `sudo ln -s /usr/local/Cellar/ffmpeg/0.6/bin/ffmpeg /usr/bin/ffmpeg`
 
 To configure AEM, use the following steps:
@@ -61,16 +62,16 @@ To configure AEM, use the following steps:
 1. Open CRXDE Lite in your web browser. ([http://localhost:4502/crx/de](http://localhost:4502/crx/de))
 1. Select the `/libs/settings/dam/video/format_aac/jcr:content` node and ensure that the node properties are as follows:
 
-    * audioCodec:     
+    * audioCodec: 
     
-      ```    
-             aac
-      ```    
+      ``` 
+       aac
+      ``` 
     
-    * customArgs:     
+    * customArgs: 
     
-      ```    
-             -flags +loop -me_method umh -g 250 -qcomp 0.6 -qmin 10 -qmax 51 -qdiff 4 -bf 16 -b_strategy 1 -i_qfactor 0.71 -cmp chroma -subq 8 -me_range 16 -coder 1 -sc_threshold 40 -b-pyramid normal -wpredp 2 -mixed-refs 1 -8x8dct 1 -fast-pskip 1 -keyint_min 25 -refs 4 -trellis 1 -direct-pred 3 -partitions i8x8,i4x4,p8x8,b8x8
+      ``` 
+       -flags +loop -me_method umh -g 250 -qcomp 0.6 -qmin 10 -qmax 51 -qdiff 4 -bf 16 -b_strategy 1 -i_qfactor 0.71 -cmp chroma -subq 8 -me_range 16 -coder 1 -sc_threshold 40 -b-pyramid normal -wpredp 2 -mixed-refs 1 -8x8dct 1 -fast-pskip 1 -keyint_min 25 -refs 4 -trellis 1 -direct-pred 3 -partitions i8x8,i4x4,p8x8,b8x8
       ```
 
 1. To customize the configuration, create an overlay in `/apps/settings/` node and move the same structure under `/conf/global/settings/` node. It cannot be edited in `/libs` node. For example, to overlay path `/libs/settings/dam/video/fullhd-bp`, create it at `/conf/global/settings/dam/video/fullhd-bp`.

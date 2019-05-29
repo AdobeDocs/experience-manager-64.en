@@ -436,7 +436,7 @@ You can add or edit fields and define/update their settings:
     * You are adding a new field: 
 
       After adding the predicate the **Settings** tab will open and show the properties that can be defined.
-    
+  
     * You want to update an existing predicate: 
 
       Select the predicate field (on the right), then open the **Settings** tab.
@@ -511,7 +511,7 @@ The following example (to search according to the template used to create a page
    >
    >The recommended method for configuration and other changes is:
    >
-   >1. Recreate the required item, as it exists in `/libs`, under `/apps`. In this case from:    >    
+   >1. Recreate the required item, as it exists in `/libs`, under `/apps`. In this case from:    >
    >1. `/libs/cq/gui/content/common/options/predicates`
    >1. Make any changes within `/apps.`
 
@@ -523,12 +523,11 @@ The following example (to search according to the template used to create a page
 1. Update the fields, in particular:
 
     * **Property Name** 
-    
+  
       Specific the node property to be searched for on the target nodes. For example: 
 
       `jcr:content/cq:template` 
 
-    
     * **Option node path** 
 
       Select the path to where your options are held. For example:

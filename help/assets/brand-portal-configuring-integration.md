@@ -171,13 +171,13 @@ After replication succeeds, you can publish assets, folders, and collections  to
 
     1. Once you have selected assets/ folders to publish, select **Manage Publication** from the tool bar at the top.
     1. On **Manage Publication** page, select **Publish to Brand Portal** from **Action** and select **Later**from **Scheduling**.
-    
+
        ![](assets/publishlaterbp-1.png)
 
     1. Select an **Activation date** and specify time. Tap/ click **Next**.
     1. Select an **Activation date** and specify time. Tap/ click **Next**.
     1. Specify a Workflow title under **Workflows**. Tap/ click **Publish Later**.
-    
+
        ![](assets/publishworkflow.png)
 
 1. Log in to Brand Portal to see whether the published assets are available on  Brand  Portal interface.

@@ -46,9 +46,12 @@ Under the **Allowed Ratings **tab, specify the complete list of ratings to be sh
 ![](assets/chlimage_1-342.png)
 
 * **Allowed Ratings** 
-  A list of ratings from which a member can choose.  
-  Use the up arrow, down arrow and delete buttons to modify the visible selections.  
-  Click **Add Item **to add another rating choice.
+
+  A list of ratings from which a member can choose.
+
+  Use the up arrow, down arrow and delete buttons to modify the visible selections.
+
+  Click **Add Item** to add another rating choice.
 
 Under the **Required Ratings **tab, re-enter items from the list of **Allowed Ratings** that are required to be rated. If an item is only specified on the Allowed Ratings tab, it may be left unmarked when submitted by the member.
 
@@ -57,9 +60,12 @@ On the website, required ratings are marked with an asterisk. If an item is requ
 ![](assets/chlimage_1-343.png)
 
 * **Required Ratings** 
-  A subset of allowed ratings, indicating which ratings are required.  
-  Use the up arrow, down arrow and delete buttons to modify the visible selections.  
-  Click **Add Item **to add another response choice.
+
+  A subset of allowed ratings, indicating which ratings are required.
+
+  Use the up arrow, down arrow and delete buttons to modify the visible selections.
+
+  Click **Add Item** to add another response choice.
 
 >[!NOTE]
 >
@@ -152,11 +158,14 @@ Under the **Review Summary** tab
 
 ![](assets/chlimage_1-348.png)
 
-* `Review Path`  
-  enter or browse to the placed instance of the `reviews`component to summarize, for example, if added to the Web Page of the [Geometrixx Engage site,](/help/communities/getting-started.md) the path would be:  
+* `Review Path`
+
+  enter or browse to the placed instance of the `reviews`component to summarize, for example, if added to the Web Page of the [Geometrixx Engage site,](/help/communities/getting-started.md) the path would be:
+
   /content/sites/engage/en/page/jcr:content/content/primary/reviews
 
-* `Include histogram`  
+* `Include histogram`
+
   If checked, include the display of a bar graph indicating how many of each star rating there are in the reviews being summarized. Default is unchecked.
 
 ### Changing to a Custom Review Type {#changing-to-a-custom-review-type}
@@ -172,14 +181,19 @@ Under the **Resource Types **tab, specify the custom resourceType for new instan
 ![](assets/chlimage_1-349.png)
 
 * **Comment Resource Type** 
-  Navigate to the resourceType of an extended `comment`component (single comment) in /apps. For example, `/apps/social/commons/components/hbs/comments/comment`  
+
+  Navigate to the resourceType of an extended `comment`component (single comment) in /apps. For example, `/apps/social/commons/components/hbs/comments/comment`
+
   This resource will identify the resourceType of the UGC created when a visitor posts a comment.
 
 * **Voting Resource Type** 
-  Navigate to the resourceType of an extended `voting`component in /apps. For example, `/apps/social/components/hbs/voting`  
+
+  Navigate to the resourceType of an extended `voting`component in /apps. For example, `/apps/social/components/hbs/voting`
+
   This resource will identify the resource type of the UGC created when a visitor posts a vote.
 
 * **Comment System Resource Type** 
+
   Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](/help/communities/scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](/help/communities/handlebars-helpers.md#include)
 
 ## Site Visitor Experience {#site-visitor-experience}

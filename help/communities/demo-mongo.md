@@ -179,7 +179,7 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 1. Make sure MSRP has been configured to be the default provider:
 
     * On all author and publish AEM instances, revisit the [Storage Configuration console](/help/communities/srp-config.md)
-     
+
     or check the AEM repository:
 
     * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)

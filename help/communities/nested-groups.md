@@ -99,7 +99,8 @@ The `arts` group should also contain a `groups` folder, but one that is empty an
     * Title: `Visual Arts`
     * Name: `visual`
     * Template: `Reference Group`
-    * Membership: select `Optional Membership`  
+    * Membership: select `Optional Membership`
+
       a public group, open to all members
 
 1. Auditory
@@ -107,7 +108,8 @@ The `arts` group should also contain a `groups` folder, but one that is empty an
     * Title: `Auditory Arts`
     * Name: `auditory`
     * Template: `Reference Group`
-    * Membership: select `Required Membership`  
+    * Membership: select `Required Membership`
+
       an open group, available for members to join
 
 1. History
@@ -115,8 +117,10 @@ The `arts` group should also contain a `groups` folder, but one that is empty an
     * Title: `Art History`
     * Name: `history`
     * Template: `Reference Group`
-    * Membership: select `Restricted Membership`  
-      a secret group, visible only to invited members  
+    * Membership: select `Restricted Membership`
+
+      a secret group, visible only to invited members
+
       as an example, invite [demo user](/help/communities/tutorials.md#demo-users) `emily.andrews@mailinator.com`
 
 Refresh the page to see all three nested groups (sub-communities).
