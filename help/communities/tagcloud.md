@@ -75,25 +75,31 @@ Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A t
 ![](assets/chlimage_1-306.png)
 
 * **Show full title paths** 
-  If checked, shows the titles for the parent tags and namespace for each applied tag.   
+  If checked, shows the titles for the parent tags and namespace for each applied tag. 
+
   For example:
 
     * checked: `Geometrixx Media: Gadgets / Cars`
     * unchecked: `Cars`
 
-  There is no difference for a simple tag.  
+  There is no difference for a simple tag.
+
   Default is unchecked.
 
 * **Show only leaf tags** 
-  If checked, shows only applied tags which contain no other tags.  
-  For example, given the TagID of  
-  `Geometrixx Media: Gadgets / Cars`  
+  If checked, shows only applied tags which contain no other tags.
+
+  For example, given the TagID of
+
+  `Geometrixx Media: Gadgets / Cars` 
+
   there are 3 tags which can be applied: `Geometrixx Media (the namespace)`, `Gadgets`, and `Cars`
 
     * checked: only `Cars` will display, if applied
     * unchecked: `Geometrixx Media` and `Gadgets`as well as `Cars` will display, if applied
 
-  A simple tag is a leaf tag.  
+  A simple tag is a leaf tag. 
+  
   Default is unchecked.
 
 * **Link Template** 

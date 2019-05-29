@@ -85,9 +85,10 @@ Following are the steps necessary to enable user synchronization, followed by a 
 
     * locate `Apache Sling Distribution Agent - Sync Agents Factory`
 
-        * select the existing configuration to open for edit (pencil icon)  
+        * select the existing configuration to open for edit (pencil icon) 
+
           Verify `name`: **`socialpubsync`**
-        
+
         * select the `Enabled` checkbox
         * select `Save`
 
@@ -134,17 +135,12 @@ This authorized user will be used in step 3 to configure Sling distribution on a
 * select the `+` button to add an ACL entry
 
     * **Principal**: *search for user created for user sync*
-    
     * **Type**: `Allow`
-    
     * **Privileges**: `jcr:all`
-    
     * **Restrictions** rep:glob: `*/activities/*`
-    
     * select **OK**
 
 * select **Save All**
-*
 
 ![](assets/chlimage_1-388.png)
 
@@ -167,9 +163,10 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
         * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
     * locate `Adobe Granite Distribution - Encrypted Password Transport Secret Provider`
-    * select the existing configuration to open for edit (pencil icon)  
+    * select the existing configuration to open for edit (pencil icon) 
+
       Verify `property name` : **`socialpubsync-publishUser`**
-    
+
     * set the username and password to the [authorized user](#createauthuser) created on publish in step 2
 
         * for example, `usersync-admin`
@@ -189,13 +186,14 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
     * locate `Apache Sling Distribution Agent - Queue Agents Factory`
 
-        * select the existing configuration to open for edit (pencil icon)  
+        * select the existing configuration to open for edit (pencil icon) 
+
           Verify `Name` : `socialpubsync-reverse`
-        
+
         * select the `Enabled` checkbox
         * select `Save`
 
-    * **repeat **for each publish instance
+    * **repeat** for each publish instance
 
 ![](assets/chlimage_1-390.png)
 
@@ -212,9 +210,10 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
     * locate `Adobe Granite Distribution - Diff Observer Factory`
 
-        * select the existing configuration to open for edit (pencil icon)  
+        * select the existing configuration to open for edit (pencil icon) 
+
           Verify `agent name` : `socialpubsync-reverse`
-        
+
         * select the `Enabled` checkbox
         * select `Save`
 
@@ -261,7 +260,8 @@ The default configuration is for a single publish instance. As the reason for en
 
     * locate `Apache Sling Distribution Agent - Sync Agents Factory`
 
-        * select the existing configuration to open for edit (pencil icon)  
+        * select the existing configuration to open for edit (pencil icon) 
+
           Verify `Name` : `socialpubsync`
 
 ![](assets/chlimage_1-393.png)
@@ -284,9 +284,9 @@ The default configuration is for a single publish instance. As the reason for en
 
 **(Optional) Sync additional JCR nodes**
 
-If there is custom data that is desired to be synchronized across multiple publish instances, then :
+If there is custom data that is desired to be synchronized across multiple publish instances, then:
 
-* **on each publish instance** :
+* **on each publish instance**:
 
     * sign in with administrator privileges
     * access the [Web Console](/help/sites-deploying/configuring-osgi.md)
@@ -294,34 +294,43 @@ If there is custom data that is desired to be synchronized across multiple publi
         * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
     * locate `AEM Communities User Sync Listener`
-    * select the existing configuration to open for edit (pencil icon)  
-      Verify `Name` : `socialpubsync-scheduled-trigger`
+    * select the existing configuration to open for edit (pencil icon) 
+
+      Verify `Name`: `socialpubsync-scheduled-trigger`
 
 ![](assets/chlimage_1-394.png)
 
 * **Node Types** 
-  This is the list of node types that will synchronize. Any node type other than sling:Folder needs to be listed here (sling:folder is handled separately).  
-  Default list of node types to synchronize :
+
+  This is the list of node types that will synchronize. Any node type other than sling:Folder needs to be listed here (sling:folder is handled separately). 
+
+  Default list of node types to synchronize:
 
     * rep:User
     * nt:unstructured
     * nt:resource
 
-* **Ignorable Properties** 
-  This is the list of properties that will be ignored if any change is detected. Changes to these properties might get synchronized as a side effect of other changes (since synchronization is always at the node level), but changes to these properties will not by themselves trigger synchronization.  
-  Default property to ignore :
+* **Ignorable Properties**
+
+  This is the list of properties that will be ignored if any change is detected. Changes to these properties might get synchronized as a side effect of other changes (since synchronization is always at the node level), but changes to these properties will not by themselves trigger synchronization. 
+
+  Default property to ignore:
 
     * cq:lastModified
 
 * **Ignorable Nodes** 
-  Subpaths that will be entirely ignored during synchronization. Nothing under these subpaths will be synchronized at any time.  
-  Default nodes to ignore :
+
+  Subpaths that will be entirely ignored during synchronization. Nothing under these subpaths will be synchronized at any time.
+
+  Default nodes to ignore:
 
     * .tokens
     * system
 
 * **Distributed Folders** 
-  Most sling:Folders are ignored because synchronization is not necessary. The few exceptions are listed here.  
+
+  Most sling:Folders are ignored because synchronization is not necessary. The few exceptions are listed here. 
+
   Default folders to synchronize
 
     * segments/scoring
@@ -343,17 +352,19 @@ To validate that all Sling ID values differ, on each publish instance :
 
 ![](assets/chlimage_1-395.png)
 
-If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then :
+If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then:
 
 1. stop one of the publish instances that has a matching Sling ID
 1. in the crx-quickstart/launchpad/felix directory
 
     * search for and delete the file named *sling.id.file*
 
-        * for example, on a Linux system:  
+        * for example, on a Linux system: 
+
           `rm -i $(find . -type f -name sling.id.file)`
-        
-        * for example, on a Windows system:  
+
+        * for example, on a Windows system: 
+
           `use windows explorer and search for *sling.id.file*`
 
 1. start the publish instance
@@ -415,9 +426,9 @@ When the [User Administration and Security](/help/sites-administering/security.m
 
 To take user sync offine, in order to [remove a publisher](#how-to-remove-a-publisher) or [manually sync data](#manually-syncing-users-and-user-groups), the distribution queue must be empty and quiet.
 
-To check the state of the distribution queue :
+To check the state of the distribution queue:
 
-* on author :
+* on author:
 
     * using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md)
 

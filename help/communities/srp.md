@@ -128,10 +128,12 @@ Shadow nodes provide a Sling addressable location in the repository.
 
 Following is an example of a shadow node, using the [Comments component](http://localhost:4502/content/community-components/en/comments.html) in the [Community Components Guide](/help/communities/components-guide.md):
 
-* the component exists in the local repository at:  
+* the component exists in the local repository at:
+
   /content/community-components/en/comments/jcr:content/content/includable/comments
 * 
-* the corresponding shadow node exists in the local repository at:  
+* the corresponding shadow node exists in the local repository at:
+
   /content/usergenerated/content/community-components/en/comments/jcr:content/content/includable/comments
 
 No UGC will be found under the shadow node.

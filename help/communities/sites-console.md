@@ -75,23 +75,26 @@ The creation process is a series of steps presented as panels containing a set o
 
 On the Site Template panel, the Title, Description, Site Root, Base Language, Name and Site Template are specified:
 
-* **Community Site Title **: a display title for the site.  
+* **Community Site Title**: a display title for the site. 
+
   The title appears on the published site as well as in the site admin UI.
 
-* **Community Site Description **: a description of the site.  
+* **Community Site Description**: a description of the site. 
+
   The description does not appear on the published site.
 
-* **Community Site Root **: the root path to the site.  
+* **Community Site Root**: the root path to the site.  
+
   The default root is `/content/sites`, but the root may be moved to any location within the web site.
 
 * **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](/help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
-* **Community Site Name **: the name of the site's root page which appears in the URL
+* **Community Site Name**: the name of the site's root page which appears in the URL
 
     * double-check the name as it is not easily changed after the site is created
     * the base URL ( `https://*server:port/site root/site name*)` will be displayed underneath the `Community Site Name`
-    
-    * for a valid URL, append a base language code + ".html"  
+    * for a valid URL, append a base language code + ".html" 
+
       *for example*, `http://localhost:4502/content/sites/mysight/en.html`
 
 * **Community Site Template** menu: use the pull down menu to choose an available [community site template](/help/communities/tools.md).
@@ -166,28 +169,43 @@ The Settings panel contains several sub-panels presenting features to configure 
 >A community site is private when anonymous site visitors are denied access, may not self-register, and may not use social login.
 
 * **Allow User Registration** 
-  If checked, site visitors may become community members by self-registration.  
-  If unchecked, the community site is *restricted* and site visitors must be assigned to the community site's members group, make a request or be sent an invitation by email. If unchecked, anonymous access should not be allowed.  
-  Uncheck for a *private *community site. Default is checked. 
+
+  If checked, site visitors may become community members by self-registration. 
+
+  If unchecked, the community site is *restricted* and site visitors must be assigned to the community site's members group, make a request or be sent an invitation by email. If unchecked, anonymous access should not be allowed. 
+
+  Uncheck for a *private* community site. Default is checked. 
 
 * **Allow Anonymous Access** 
-  If checked, the community site is *open *and any site visitor may access the site.  
-  If unchecked, only signed-in members may access the site.  
-  Uncheck for a *private *community site. Default is checked.
+
+  If checked, the community site is *open* and any site visitor may access the site. 
+
+  If unchecked, only signed-in members may access the site. 
+
+  Uncheck for a *private* community site. Default is checked.
 
 * **Allow Messaging** 
-  If checked, members may send messages to one another and to the group within the community site.  
-  If unchecked, messaging is not setup for the community.  
+
+  If checked, members may send messages to one another and to the group within the community site. 
+
+  If unchecked, messaging is not setup for the community. 
+
   Default is unchecked.
 
-* **Allow Social Logins: Facebook  
-  **If checked, allow site visitors to sign in with their Facebook account credentials. The selected [Facebook cloud configuration](/help/communities/social-login.md#create-a-facebook-connect-cloud-service) should be configured to add users to the community site's members group once the community site is created.   
-  If unchecked, no Facebook login is presented.  
+* **Allow Social Logins: Facebook** 
+
+  If checked, allow site visitors to sign in with their Facebook account credentials. The selected [Facebook cloud configuration](/help/communities/social-login.md#create-a-facebook-connect-cloud-service) should be configured to add users to the community site's members group once the community site is created. 
+
+  If unchecked, no Facebook login is presented. 
+
   Leave unchecked for a *private* community site. Default is unchecked.
 
 * **Allow Social Logins: Twitter** 
-  If checked, allow site visitors to sign in with their Twitter account credentials. The selected [Twitter cloud configuration](/help/communities/social-login.md#create-a-twitter-connect-cloud-service) should be configured to add users to the community site's members group once the community site is created.  
-  If unchecked, no Twitter login is presented.  
+
+  If checked, allow site visitors to sign in with their Twitter account credentials. The selected [Twitter cloud configuration](/help/communities/social-login.md#create-a-twitter-connect-cloud-service) should be configured to add users to the community site's members group once the community site is created. 
+
+  If unchecked, no Twitter login is presented. 
+
   Leave unchecked for a *private* community site. Default is unchecked.
 
 >[!NOTE]
@@ -215,12 +233,15 @@ The [roles of community members](/help/communities/users.md) are assigned with t
 Finding community members is easy using type-ahead search.
 
 * **Community Managers** 
+
   Start typing to select one or more community members or member groups who may manager community members and member groups.
 
 * **Community Moderators** 
+
   Start typing to select one or more community members or member groups who are to be trusted as moderators of user generated content.
 
 * **Community Privileged Members** 
+
   Start typing to select one or more community members or member groups to be given the ability to create new content when `Allow Privileged Member` has been selected for a [community function](/help/communities/functions.md).
 
 #### MODERATION {#moderation}
@@ -230,9 +251,11 @@ Finding community members is easy using type-ahead search.
 The global setting for moderating user generated content (UGC) is controlled by these settings. Individual components have additional settings to control moderation.
 
 * **Content is Premoderated** 
+
   If checked, posted community content will not appear until approved by a moderator. Default is unchecked. For more information, see [Moderating Community Content](/help/communities/moderate-ugc.md#premoderation).
 
 * **Flagging threshold before content is hidden** 
+
   If greater than 0, the number of times a topic or post has to be flagged before it is hidden from public view. If set to -1, the flagged topic or post is never hidden from public view. Default is 5.
 
 #### ANALYTICS {#analytics}
@@ -240,13 +263,17 @@ The global setting for moderating user generated content (UGC) is controlled by 
 ![](assets/chlimage_1-453.png)
 
 * **Enable Analytics** 
-  Only available when Adobe Analytics has been [configured](/help/communities/analytics.md) for Communities features.  
+
+  Only available when Adobe Analytics has been [configured](/help/communities/analytics.md) for Communities features. 
+
   Default is unchecked. When checked, an additional selection menu appears:
 
 ![](assets/chlimage_1-454.png)
 
 * **Cloud Config Framework Reference** 
-  From the pull-down menu, select the Analytics cloud service framework configured for this community site.  
+
+  From the pull-down menu, select the Analytics cloud service framework configured for this community site. 
+
   `Communities`is the framework example from [Analytics Configuration for Communities Features](/help/communities/analytics.md#aem-analytics-framework-configuration) documentation.
 
 #### TRANSLATION {#translation}
@@ -259,36 +286,49 @@ The global setting for moderating user generated content (UGC) is controlled by 
 ![](assets/chlimage_1-456.png)
 
 * **Enable Machine Translation for selected languages** 
+
   The languages enabled for machine translation default to the system setting specified by the [translation integration configuration](/help/communities/translate-ugc.md#translation-integration-configuration). These default settings may be overridden for this site by deleting defaults and/or selecting other languages from the pull-down menu.
 
-* **Choose translation provider** 
+* **Choose translation provider**
+
   By default, the service provider is a trial service using `microsoft`for demonstration only. If no translation service provider is licensed, **Allow Machine Translation** should be unchecked.
 
 * **Choose global shared store** 
+
   For a website with multiple language copies, a global shared store provides a single thread of conversation, visible from each langauge copy. This is achieved by selecting one of the languages included as a language copy. Default is *No Global Shared Store*.
 
-* **Choose translation provider config** 
+* **Choose translation provider config**
+
   Choose a [translation integration framework](/help/sites-administering/tc-tic.md) created for the licensed translation provider.
 
 * **Select the translation options for your community site**
 
     * **Translate entire page** 
-      If selected, all UGC on a page is translated into the base language of the page.  
+
+      If selected, all UGC on a page is translated into the base language of the page.
+
       Default is *not selected*.
-    
+  
     * **Translate selection only** 
-      If selected, a translate option appears next to each post allowing individual posts to be translated into the base language of the page.  
+
+      If selected, a translate option appears next to each post allowing individual posts to be translated into the base language of the page.
+
       Default is *selected*.
 
 * **Select Persistence Options**
 
     * **Translate contributions on user request and persist afterwards** 
-      If selected, content is not translated until a request is made. Once translated, the translation is stored in the repository.  
+
+      If selected, content is not translated until a request is made. Once translated, the translation is stored in the repository. 
+
       Default is *not selected*.
-    
+  
     * **Don't persist translations** 
-      If selected, translations are not stored in the repository.  
-      If not selected, translations are persisted.  
+
+      If selected, translations are not stored in the repository. 
+  
+      If not selected, translations are persisted. 
+
       Default is *not selected*.
 
 * **Smart Render** 
@@ -305,9 +345,11 @@ The global setting for moderating user generated content (UGC) is controlled by 
 The `ENABLEMENT`settings are applicable when the chosen community site template includes the [assignments function](/help/communities/functions.md#assignments-function), which is available when the enablement features are licensed and [configured](/help/communities/enablement.md). The reference site template that includes the assignments function is `Reference Structured Learning Site Template.`
 
 * **Enablement Managers** 
+
   (required) Only members of the `Community Enablementmanagers` group are available to be selected to manage this enablement community. Enablement managers are responsible for assigning members to resources. See also [Managing Users and User Groups](/help/communities/users.md).
 
 * **Marketing Cloud Org Id** 
+
   (optional) The ID for a [Video Heartbeat Analytics](/help/communities/analytics.md#video-heartbeat-analytics) license.
 
 Select **Next**.
@@ -380,13 +422,17 @@ The STRUCTURE panel allows the modification of the structure initially created f
 * on an instance of a community function in the site structure:
 
     * **`gear icon`** 
-      edit settings, including the display title and URL name&ast;  
+
+      edit settings, including the display title and URL name&ast; 
+  
       as well as [privileged members groups](/help/communities/users.md#privilegedmembersgroups)
-    
+  
     * **`trashcan icon`** 
+
       remove (delete) functions from the site structure
-    
+  
     * **`grid icon`** 
+  
       modifiy the order of functions as displayed in the site's top level navigation bar
 
 >[!NOTE]
@@ -503,9 +549,12 @@ To correctly redirect, once a site has been configured and pushed to publish, co
 
 * locate `Adobe Granite Login Selector Authentication Handler`
 * select the `pencil`icon to open the configuration for edit
-* enter a **Login Page Mappings** as follows:  
+* enter a **Login Page Mappings** as follows: 
+
   /content/sites/*&lt;site-name&gt;*/path/to/login/page:/content/sites/*&lt;site-name&gt;* 
-  for example:  
+
+  for example: 
+
   /content/sites/*engage*/en/signin:/content/sites/*engage*/en
 
 * select **Save**

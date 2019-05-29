@@ -90,9 +90,7 @@ To add an activity:
 1. In the **Targeting** engine drop-down menu, select your targeting engine.
 
     * If you select **ContextHub AEM**, the remaining fields are dimmed and not available. Click or tap **Create**. 
-    
     * If you select **Adobe Target**, you can select a configuration (by default, it is the configuration you provided when you [configured the account](/help/sites-administering/opt-in.md)) and Activity Type.
-    
     * If you are using the AEM/Adobe Campaign integration and are sending targeted content (newsletters), select **Adobe Campaign**. See [Integrating with Adobe Campaign](/help/sites-administering/campaign.md) for more information.
 
 1. In the Activity menu, select either **Experience Targeting** or **A/B Test**.

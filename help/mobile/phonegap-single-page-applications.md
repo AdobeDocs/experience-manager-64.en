@@ -67,7 +67,7 @@ For a more complex controller example, open up the ng-template-page controller.j
         data.then(function(response) {
             $scope.contentparngproduct = response.data["content-par/ng-product"].items;
         });
-     
+
         /* ng-image component controller (path: content-par/ng-product/ng-image) */
         data.then(function(response) {
             $scope.contentparngproductngimage = response.data["content-par/ng-product/ng-image"].items;

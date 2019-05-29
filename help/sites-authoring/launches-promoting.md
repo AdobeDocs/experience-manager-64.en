@@ -49,7 +49,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
     * the **Sites** console:
 
         1. Open the [references rail](/help/sites-authoring/author-environment-tools.md#references) and select the required source page using [selection mode](/help/sites-authoring/basic-handling.md) (or select and open the references rail, the order is not important). All references will be shown.
-        
+
         1. Select **Launches** (e.g. Launches (1)) to show a list of the specific launches.
         1. Select the specific launch to show the actions available.
         1. Select **Promote launch** to open the wizard.
@@ -103,8 +103,9 @@ After creating a nested launch you can promote it back to any of the sources, in
 1. Enter the required details:
 
     * **Promotion target** 
-      You can promote to any of the sources.  
-    
+
+      You can promote to any of the sources.
+
     * **Scope** 
       Here you can select whether to promote the entire launch, or only pages that have actually been edited. If the latter, you can then select to include/exclude sub-pages. The default configuration is to only promote page changes for the current page:
 

@@ -291,7 +291,7 @@ Included in the release are two scoring rules for the [Forum Function](/help/com
       /etc/community/scoring/rules/sub-rules/member-receive-vote 
 
       /etc/community/scoring/rules/sub-rules/member-give-vote 
-      
+
       /etc/community/scoring/rules/sub-rules/member-is-moderated
 
 **Notes:**

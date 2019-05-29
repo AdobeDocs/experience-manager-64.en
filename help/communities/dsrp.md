@@ -69,7 +69,7 @@ On author, to access the Storage Configuration console
       must be the same as entered in [JDBC OSGi configuration](/help/communities/dsrp-mysql.md#configurejdbcconnections)  
 
       *default*: communities
-    
+  
     * **Database name** 
 
       name given to schema in [init_schema.sql](/help/communities/dsrp-mysql.md#obtain-the-sql-script) script 
@@ -79,15 +79,15 @@ On author, to access the Storage Configuration console
 * **SolrConfiguration**
 
     * **[Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
-    
+  
       Leave this value blank if running Solr using the internal ZooKeeper. Else, when running in [SolrCloud mode](/help/communities/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the URI for the ZooKeeper, such as *my.server.com:80* 
-      
+  
       *default*: *&lt;blank&gt;*
-    
+  
     * **Solr URL** 
 
       *default*: https://127.0.0.1:8983/solr/
-    
+  
     * **Solr Collection** 
 
       *default*: collection1

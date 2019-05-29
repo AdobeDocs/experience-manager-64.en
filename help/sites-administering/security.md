@@ -126,7 +126,7 @@ The following tables list each item together with:
   <tr> 
    <td>workflow-users</td> 
    <td>Group</td> 
-   <td><p>A user participating in a workflow must be member of group workflow-users. This gives him or her full access to: /etc/workflow/instances so that he or she can update the workflow instance.</p> <p>The group is included in the standard installation, but you must manually add your users to the group.</p> </td>  
+   <td><p>A user participating in a workflow must be member of group workflow-users. This gives him or her full access to: /etc/workflow/instances so that he or she can update the workflow instance.</p> <p>The group is included in the standard installation, but you must manually add your users to the group.</p> </td> 
   </tr> 
  </tbody> 
 </table>

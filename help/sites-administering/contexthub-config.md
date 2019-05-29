@@ -214,12 +214,10 @@ Use the procecure in [Adding a UI Module](/help/sites-administering/contexthub-c
    "icon": "coral-Icon--data", 
    "title": "MD5 Converstion", 
    "storeMapping": { "md5": "md5" }, 
-   "template": "<p>
-  ```
-
-  {{md5.original}}&lt;/p&gt;  
-  &lt;p&gt;{{md5.md5}}&lt;/p&gt;"   
+   "template": "<p> {{md5.original}}</p>; 
+                <p>{{md5.md5}}</p>" 
   }
+  ```
 
 ## Debugging ContextHub {#debugging-contexthub}
 

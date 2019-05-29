@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 5898d084-4b45-41bc-ad2e-2fcc65b0392c
 ---
 
-# Installing and configuring AEM 3D{#installing-and-configuring-aem-d}
+# Installing and configuring AEM 3D {#installing-and-configuring-aem-d}
 
 The installation and configuration of AEM 3D (version 3.0) involves the following:
 
@@ -45,12 +45,12 @@ See also [Advanced configuration settings](advanced-config-3d.md).
 
     * **Windows**
 
-      [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe)  
-    
+      [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe)
+
     * **OS X** 
 
-      [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_clang_mac.pkg.tgz](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_clang_mac.pkg.tgz)  
-    
+      [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_clang_mac.pkg.tgz](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_clang_mac.pkg.tgz)
+
     * **Linux** 
 
       [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_linux.tar.gz](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_linux.tar.gz)

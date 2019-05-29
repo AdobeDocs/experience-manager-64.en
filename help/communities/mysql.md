@@ -41,7 +41,8 @@ As SQL is case insensitive, for case sensitive operating systems, it is necessar
 For example, to specify all lower case table names on a Linux OS:
 
 * edit file `/etc/my.cnf`
-* in the `[mysqld]` section, add the following line:  
+* in the `[mysqld]` section, add the following line: 
+
   `lower_case_table_names = 1`
 
 ### UTF8 character set {#utf-character-set}
@@ -55,10 +56,12 @@ Change MySQL to have UTF8 as its character set:
 Change the MySQL database to default to UTF8:
 
 * edit file `/etc/my.cnf`
-* in the `[client]` section, add the following line:  
+* in the `[client]` section, add the following line: 
+
   `default-character-set=utf8`
 
-* in the `[mysqld]` section, add the following line:  
+* in the `[mysqld]` section, add the following line: 
+
   `character-set-server=utf8`
 
 ## Installing MySQL Workbench {#installing-mysql-workbench}
@@ -76,7 +79,8 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 ### New Connection Settings {#new-connection-settings}
 
 1. select the '+' icon to the right of `MySQL Connections`.
-1. in the dialog `Setup New Connection`, enter values appropriate for your platform  
+1. in the dialog `Setup New Connection`, enter values appropriate for your platform 
+
    for demonstration purposes, with the author AEM instance and MySQL on the same server:
 
     * Connection Name: `Enablement`
@@ -205,16 +209,21 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 * enter the following values:
 
     * **JDBC driver class**: com.mysql.jdbc.Driver
-    * **JDBC connection URI**: jdbc:mysql://localhost:3306/aem63reporting  
-      specify server in place of localhost if MySQL server is not the same as 'this' AEM server  
-    
-    * **Username **: root  
+    * **JDBC connection URI**: jdbc:mysql://localhost:3306/aem63reporting 
+
+      specify server in place of localhost if MySQL server is not the same as 'this' AEM server 
+
+  
+    * **Username**: root 
+
       or enter the configured Username for the MySQL server, if not 'root'
-    
-    * **Password**:   
-      clear this field if no password set for MySQL,  
+  
+    * **Password**: 
+
+      clear this field if no password set for MySQL, 
+  
       else enter the configured password for the MySQL Username
-    
+  
     * **...**
     * **Datasource name**: name entered for the [MySQL connection](#new-connection-settings), for example, 'enablement'
 
@@ -245,19 +254,24 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 * verify the following parameter values are consistent with the [JDBC Connection](#configurejdbcconnectionspool) config:
 
-    * **JDBC connection URI**: jdbc:mysql://localhost:3306/ScormEngineDB  
+    * **JDBC connection URI**: jdbc:mysql://localhost:3306/ScormEngineDB 
+
       *ScormEngineDB* is the default database name in the SQL scripts
-    
-    * **Username **: root  
+  
+    * **Username**: root 
+
       or enter the configured Username for the MySQL server, if not 'root'
-    
-    * **Password**:   
-      clear this field if no password set for MySQL,  
+  
+    * **Password**:  
+
+      clear this field if no password set for MySQL, 
+
       else enter the configured password for the MySQL Username
 
 * regarding the following parameter:
 
-    * **Scorm User Password**: DO NOT EDIT  
+    * **Scorm User Password**: DO NOT EDIT 
+  
       For internal use only. It is for a special service user used by AEM Communities to communicate with the scorm engine.
 
 * select **Save**

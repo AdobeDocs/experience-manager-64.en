@@ -239,7 +239,7 @@ While the functionality of each viewer differs, the process of creating a Quickv
        "quickViewActivate": function(inData) {
            var sku=inData.sku;
            loadQuickView(sku);
-     
+
        },
        "initComplete":function() {
            var popup = document.getElementById('quickview_div'); // get custom quick view container

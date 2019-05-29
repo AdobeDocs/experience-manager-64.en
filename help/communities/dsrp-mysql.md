@@ -182,15 +182,15 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
       specify server in place of localhost if MySQL server is not the same as 'this' AEM server  
 
       *communities* is the default database (schema) name
-    
+  
     * **Username**: root  
 
       or enter the configured Username for the MySQL server, if not 'root'
     
     * **Password**:   
 
-      clear this field if no password set for MySQL,  
-      
+      clear this field if no password set for MySQL, 
+    
       else enter the configured password for the MySQL Username
     
     * **...**

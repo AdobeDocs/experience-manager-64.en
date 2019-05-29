@@ -59,11 +59,10 @@ If you are editing a page, it can be published directly from the editor.
 
 1. Depending on whether the page has references that need publishing:
 
-    * The page will be published directly if there are no references to be published.  
+    * The page will be published directly if there are no references to be published. 
     * If the page has references that need publishing, these will be listed in the **Publish** wizard, where you can either:
 
-        * Specify which of the assets/tags/etc. you want to publish together with the page, then use **Publish** to complete the process.  
-        
+        * Specify which of the assets/tags/etc. you want to publish together with the page, then use **Publish** to complete the process. 
         * Use **Cancel** to abort the action.
 
    ![](assets/chlimage_1-50.png)

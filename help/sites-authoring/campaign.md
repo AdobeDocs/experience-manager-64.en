@@ -357,11 +357,8 @@ To synchronize content created in AEM with a delivery from Adobe Campaign:
 
    >[!NOTE]
    >
-   >    
-   >    
    >* After the delivery and content are synchronized, the delivery content in Adobe Campaign becomes read only. The email subject as well as its content can no longer be modified.
    >* If the content is updated in AEM while it is linked to a delivery in Adobe Campaign, it is automatically updated in the delivery during the delivery analysis. The synchronization can also be executed manually using the **Refresh content now** button.
    >* You can cancel synchronization between a delivery and AEM content using the **Desynchronize** button. This is only available if a content is already synchronized with the delivery. To synchronize a different content with a delivery, you must cancel the current content synchronization before being able to establish a new link.
    >* If desynchronized the local content is kept and becomes editable in Adobe Campaign. If you resynchronize the content after having modified it, you will lose all your changes.
    >* For recurring and continuous deliveries, synchronization with AEM content is stopped every time the delivery is executed.
-   >    

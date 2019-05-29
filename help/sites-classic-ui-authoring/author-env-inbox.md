@@ -72,9 +72,10 @@ To subscribe to notifications:
 
     * Activated: when a page has been activated.  
     * Deactivated: when a page has been deactivated.  
-    * Deleted (syndication): when a page has been delete-replicated, i.e. when a delete action performed on a page is replicated.  
-      When a page is deleted or moved, a delete action is automatically replicated: the page is deleted on the source instance where the delete action was performed and on the destination instance defined by the replication agents.  
-    
+    * Deleted (syndication): when a page has been delete-replicated, i.e. when a delete action performed on a page is replicated. 
+
+      When a page is deleted or moved, a delete action is automatically replicated: the page is deleted on the source instance where the delete action was performed and on the destination instance defined by the replication agents. 
+
     * Modified: when a page has been modified.  
     * Created: when a page has been created.  
     * Deleted: when a page has been deleted through the page delete action.  
@@ -84,10 +85,10 @@ To subscribe to notifications:
 
     * Click **Add** to add a new row to the table.
     * Click the **Path** table cell and enter the path, e.g. `/content/docs`.
-    
-    * To be notified for all the pages belonging to the sub-tree, set **Exact?** to **No**.  
+    * To be notified for all the pages belonging to the sub-tree, set **Exact?** to **No**. 
+
       To be only notified for actions on the page defined by the path, set **Exact?** to **Yes**.
-    
+      
     * To allow the rule, set **Rule** to **Allow**. If set to **Deny**, the rule is denied but not removed and can be allowed later.
 
    To remove a definition, select the row by clicking a table cell and click **Delete**.

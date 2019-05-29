@@ -461,16 +461,20 @@ Operation is seamless as no special configuration is required. You can simply sp
 
 This means that when an IP address needs to be specified you can select (as required) from:
 
-* an IPv6 address  
+* an IPv6 address
+
   for example `https://[ab12::34c5:6d7:8e90:1234]:4502`  
 
-* an IPv4 address  
+* an IPv4 address
+
   for example `https://123.1.1.4:4502`  
 
-* a server name  
+* a server name
+
   for example, `https://www.yourserver.com:4502`
 
-* the default case of `localhost` will be interpreted for both IPv4 and IPv6 network installations  
+* the default case of `localhost` will be interpreted for both IPv4 and IPv6 network installations
+
   for example, `http://localhost:4502`
 
 ### Requirements for AEM Dynamic Media Add-on {#requirements-for-aem-dynamic-media-add-on}

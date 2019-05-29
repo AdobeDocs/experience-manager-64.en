@@ -41,7 +41,8 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Defines the nodetype of a comment node.
 
-* @prop userIdentifier  
+* @prop userIdentifier 
+
   The user identifier.
 
 **Definition** [cq:Comment] > mix:title, mix:created, mix:language, nt:unstructured, cq:Taggable - email (string) - ip (string) - referer (string) - url (string) - userAgent (string) - userIdentifier (string) - authorizableId (string)
@@ -62,9 +63,12 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** A mixin that defines a geographic location in decimal degrees (DD)
 
-* @prop latitude  
+* @prop latitude 
+
   latitude encoded as double using decimal degrees
-* @prop longitude  
+
+* @prop longitude 
+
   longitude encoded as double using decimal degrees
 
 **Definition** [cq:GeoLocation] mixin - latitude (double) - longitude (double)
@@ -81,7 +85,8 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Defines the default CQ page.
 
-* @node jcr:content  
+* @node jcr:content 
+
   Primary content of the page.
 
 **Definition** [cq:Page] > nt:hierarchyNode orderable + jcr:content (nt:base) = nt:unstructured copy primary + &ast; (nt:base) = nt:base version
@@ -96,29 +101,52 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Defines the default node for page content, with the minimum properties as used by WCM.
 
-* @prop jcr:title  
+* @prop jcr:title 
+
   Title for the page.
-* @prop jcr:description  
+
+* @prop jcr:description 
+
   Description of this page.
-* @prop cq:template  
+
+* @prop cq:template 
+
   Path to the template used to create the page.
-* @prop cq:allowedTemplates  
+
+* @prop cq:allowedTemplates 
+
   List of regular expressions used to determine the path(s) to allowed template.
-* @prop pageTitle  
+
+* @prop pageTitle 
+
   Title usually displayed in the <title> tag.
-* @prop navTitle  
+
+* @prop navTitle 
+
   Title usually used in navigation.
-* @prop hideInNav  
+
+* @prop hideInNav 
+
   Specifies whether the page should be hidden in the navigation.
-* @prop onTime  
+
+* @prop onTime 
+
   Time when this page becomes valid.
-* @prop offTime  
+
+* @prop offTime 
+
   Time when this page becomes invalid.
-* @prop cq:lastModified  
+
+* @prop cq:lastModified 
+
   Date the page (or its paragraphs) was last modified.
-* @prop cq:lastModifiedBy  
+
+* @prop cq:lastModifiedBy 
+
   Last user to change the page (or its paragraphs).
-* @prop jcr:language  
+
+* @prop jcr:language 
+
   The language of page content.
 
 >[!NOTE]
@@ -131,24 +159,40 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Defines a CQ template.
 
-* @node jcr:content  
+* @node jcr:content 
+
   Default content for new pages.
-* @node icon.png  
+
+* @node icon.png 
+
   A file that holds a characteristic icon.
-* @node thumbnail.png  
+
+* @node thumbnail.png 
+
   A file that holds a characteristic thumbnail image.
-* @node workflows  
-  Auto assign workflow configuration. The configuration will follow the structure below:  
-  `+` workflows  
-  `+` name1  
-  `-` cq:path  
+
+* @node workflows 
+
+  Auto assign workflow configuration. The configuration will follow the structure below: 
+
+  `+` workflows 
+
+  `+` name1 
+
+  `-` cq:path 
+
   `-` cq:workflowName
 
-* @prop allowedParents  
+* @prop allowedParents 
+
   Regular expression patterns to determine the path(s) to templates allowed as parent templates.
-* @prop allowedChildren  
+
+* @prop allowedChildren 
+
   Regular expression patterns to determine the path(s) to templates allowed as child templates.
-* @prop ranking  
+
+* @prop ranking 
+
   Position within the list of templates in the create page dialog.
 
 **Definition** [cq:Template] > nt:hierarchyNode, mix:title - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version + jcr:content (nt:base) copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy + workflows (nt:base) copy - allowedParents (string) multiple - allowedChildren (string) multiple - ranking (long)
@@ -157,44 +201,76 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Defines a CQ component.
 
-* @prop jcr:title   
+* @prop jcr:title  
+
   Title for the component.
-* @prop jcr:description   
+
+* @prop jcr:description  
+
   Description of the component.
-* @node dialog   
+
+* @node dialog  
+
   Primary dialog.
-* @prop dialogPath  
+
+* @prop dialogPath 
+
   Primary dialog path (alternative to dialog).
-* @node design_dialog   
+
+* @node design_dialog  
+
   Design dialog.
-* @prop cq:cellName   
+
+* @prop cq:cellName 
+
   Name of the design cell.
-* @prop cq:isContainer   
+
+* @prop cq:isContainer  
+
   Indicates whether this is a container component. This forces the cell names of child components to be used instead of path names. For example, the `parsys` is a container component. If this value is not defined, the check is made based on the existence of a `cq:childEditConfig`.
 
-* @prop cq:noDecoration   
+* @prop cq:noDecoration 
+
   If true, no decoration `div` tags are drawn when including this component.
 
-* @node cq:editConfig   
+* @node cq:editConfig  
+
   The configuration that defines the parameters for the edit bar.
-* @node cq:childEditConfig  
+
+* @node cq:childEditConfig 
+
   The edit configuration that is inherited by child components.
-* @node cq:htmlTag   
+
+* @node cq:htmlTag  
+
   Defines additional tag attributes that are added to the "surrounding" `div` tag when the component is included.
 
-* @node icon.png   
+* @node icon.png  
+
   A file that holds a characteristic icon.
-* @node thumbnail.png   
+
+* @node thumbnail.png 
+
   A file that holds a characteristic thumbnail image.
-* @prop allowedParents   
+
+* @prop allowedParents  
+
   Regular expression patterns to determine the path(s) of components that are allowed as parent components.
-* @prop allowedChildren  
+
+* @prop allowedChildren 
+
   Regular expression patterns to determine the path(s) of components that are allowed as child components.
-* @node virtual   
+
+* @node virtual  
+
   Contains subnodes that reflect virtual components used for the component drag and drop.
-* @prop componentGroup  
+
+* @prop componentGroup 
+
   Name of the component group, used for the component drag and drop.
-* @node cq:infoProviders   
+
+* @node cq:infoProviders
+
   Contains subnodes, each of which has a property `className` that refers to a `PageInfoProvider`.
 
 **Definition** [cq:Component] > nt:folder, mix:title, sling:ResourceSuperType - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version + dialog (nt:base) = nt:unstructured copy - dialogPath (string) + design_dialog (nt:base) = nt:unstructured copy - cq:cellName (string) - cq:isContainer (boolean) - cq:noDecoration (boolean) + cq:editConfig (cq:EditConfig) = cq:EditConfig copy + cq:childEditConfig (cq:EditConfig) = cq:EditConfig copy + cq:htmlTag (nt:base) = nt:unstructured copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy - allowedParents (string) multiple - allowedChildren (string) multiple + virtual (nt:base) = sling:Folder copy - componentGroup (string) + cq:infoProviders (nt:base) = nt:unstructured copy
@@ -209,31 +285,44 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Defines the configuration for the "editbar".
 
-* @prop cq:dialogMode  
+* @prop cq:dialogMode 
+
   Mode of the dialog:
 
     * `floating` - for a normal, floating dialog
     * `inline` - inline editing
     * `auto` - automatic detection (depending on available space)
 
-* @node cq:inplaceEditing   
+* @node cq:inplaceEditing  
+
   Inplace editing configuration for this component.
-* @prop cq:layout   
+
+* @prop cq:layout  
+
   Layout of the edit bar:
 
     * `editbar` - edit bar
     * `rollover` - roll over frame
     * `auto` - automatic detection
 
-* @node cq:formParameters   
+* @node cq:formParameters  
+
   Additional parameters to add to the dialog form.
-* @prop cq:actions   
+
+* @prop cq:actions 
+
   List of actions (edit bar buttons, or menu items).
-* @node cq:actionConfigs   
+
+* @node cq:actionConfigs  
+
   Widget configurations for edit bar or menu items.
-* @prop cq:emptyText   
+
+* @prop cq:emptyText  
+
   Text to be displayed if no visual content is present.
-* @node cq:dropTargets   
+
+* @node cq:dropTargets  
+
   Collection of `{@link cq:DropTargetConfig}` nodes.
 
 **Definition** [cq:EditConfig] > nt:unstructured, nt:hierarchyNode orderable - cq:dialogMode (string) < 'auto', 'floating', 'inline' - cq:layout (string) < 'editbar', 'rollover', 'auto' + cq:formParameters (nt:base) = nt:unstructured - cq:actions (string) multiple + cq:actionConfigs (nt:base) = nt:unstructured - cq:emptyText (string) + cq:dropTargets (nt:base) = nt:unstructured + cq:listeners (nt:base) = cq:EditListenersConfig
@@ -242,12 +331,16 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Configures one drop target of a component. The name of the this node will be used as an ID for drag and drop.
 
-* @prop accept   
+* @prop accept 
+
   List of mime types accepted by this drop target; e.g. `["image/*"]`
 
-* @prop groups   
+* @prop groups 
+
   List of drag and drop groups that accept a source.
-* @prop propertyName   
+
+* @prop propertyName 
+
   Name of the property used to store the reference.
 
 **Definition** [cq:DropTargetConfig] > nt:unstructured orderable - accept (string) multiple - groups (string) multiple - propertyName (string) + parameters (nt:base) = nt:unstructured
@@ -256,23 +349,40 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Defines a virtual CQ component. These are currently used only for the new component drag and drop wizard.
 
-* @prop jcr:title   
+* @prop jcr:title  
+
   Title of this component.
-* @prop jcr:description   
+
+* @prop jcr:description  
+
   Description of this component.
-* @node cq:editConfig   
+
+* @node cq:editConfig  
+
   Edit configuration that defines the parameters for the edit bar.
-* @node cq:childEditConfig   
+
+* @node cq:childEditConfig  
+
   Edit configuration that is inherited by child components.
-* @node icon.png  
+
+* @node icon.png 
+
   A file that holds a characteristic icon.
-* @node thumbnail.png   
+
+* @node thumbnail.png  
+
   A file that holds a characteristic thumbnail image.
-* @prop allowedParents   
+
+* @prop allowedParents  
+
   Regular expression patterns to determine path(s) of components that are allowed as parent components.
-* @prop allowedChildren  
+
+* @prop allowedChildren 
+
   Regular expression patterns to determine path(s) of components that are allowed as child components.
-* @prop componentGroup   
+
+* @prop componentGroup
+
   Name of the component group for the component drag and drop.
 
 **Definition** [cq:VirtualComponent] > nt:folder, mix:title - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version + cq:editConfig (cq:EditConfig) = cq:EditConfig copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy - allowedParents (string) multiple - allowedChildren (string) multiple - componentGroup (string)
@@ -285,17 +395,28 @@ In addition to these. CQ provides a range of custom node types.
 * REFRESH_SELF
 * REFRESH_PARENT
 
-* @prop aftercreate   
+* @prop aftercreate 
+
   Fires after a component has been created.
-* @prop afteredit   
+
+* @prop afteredit  
+
   Fires after a component has been edited (modified).
-* @prop afterdelete   
+
+* @prop afterdelete 
+
   Fires after a component has been deleted.
-* @prop afterinsert   
+
+* @prop afterinsert
+
   Fires after a component has been added to this container.
-* @prop afterremove   
+
+* @prop afterremove 
+
   Fires after a component has been removed from this container.
-* @prop aftermove   
+
+* @prop aftermove 
+
   Fires after components have been moved in this container.
 
 **Definition** [cq:EditListenersConfig] - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version - aftercreate (string) - afteredit (string) - afterdelete (string) - afterinsert (string) - afterremove (string) - aftermove (string)
@@ -334,16 +455,23 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** cq:attributes is the node type for the ContentBus version tags. This node only has a series of properties; of which three are predefined "created", "csd", and "timestampe".
 
-* @prop created (long) mandatory copy  
+* @prop created (long) mandatory copy 
+
   Timestamp of creation of the version information, generally the time of checkin of the previous version or time of page creation.
-* @prop csd (string) mandatory copy  
+
+* @prop csd (string) mandatory copy 
+
   csd standard attribute, copy of the cq:csd property of the page node
-* @prop timestampe (long) mandatory copy  
+
+* @prop timestampe (long) mandatory copy 
+
   Timestamp of last version modification, generally checkin time.
-* @prop &ast; (string) copy  
+
+* @prop &ast; (string) copy 
+
   Additional attributes, versioned with the parent node.
 
-**Definition** [cq:Cq4PageAttributes] > nt:base - created (long) mandatory copy - csd (string) mandatory copy - timestampe (long) mandatory copy - &ast; (string) copy
+**Definition** [cq:Cq4PageAttributes] > nt:base - created (long) mandatory copy - csd (string) mandatory copy - timestamp (long) mandatory copy - &ast; (string) copy
 
 ### cq:Cq4ContentPage {#cq-cq-contentpage}
 
@@ -351,11 +479,16 @@ In addition to these. CQ provides a range of custom node types.
 
 The items in a "cq:Cq4ContentPage" are:
 
-* @prop cq:csd  
+* @prop cq:csd 
+
   The ContentBus CSD of the page.
-* @node cq:content  
+
+* @node cq:content 
+
   The content of the page. This child node does not exist if the page node is in state "Existing without content" or "Deleted".
-* @node cq:attributes  
+
+* @node cq:attributes 
+
   The list of page attributes, which were formerly known as version tags. This node is mandatory for the cq:contentPage type. The attrbutes node is versioned, when the page is node is versioned.
 
 **Definition** [cq:Cq4ContentPage] - cq:csd (string) mandatory copy + cq:attributes (cq:Cq4PageAttributes)
@@ -366,11 +499,16 @@ The items in a "cq:Cq4ContentPage" are:
 
 **Description** Poll configuration.
 
-* @prop source (String) mandatory  
+* @prop source (String) mandatory 
+
   Data source URI, this is required and must not be empty
-* @prop target (String)  
+
+* @prop target (String) 
+
   The target location where data retrieved from the data source is stored. This is optional and defaults to the cq:PollConfig node.
-* @prop interval (Long)  
+
+* @prop interval (Long) 
+
   The interval in seconds at which to poll for new or updated data from the data source. This is optional and defaults to 30 Minutes (1800 seconds).  
 
 * [Creating Custom Data Importer Services for Adobe Experience Manager](https://helpx.adobe.com/experience-manager/using/polling.html)
@@ -389,9 +527,12 @@ The items in a "cq:Cq4ContentPage" are:
 
 **Description** A mixin that defines a geographic location in decimal degrees (DD).
 
-* @prop latitude   
+* @prop latitude 
+
   Latitude encoded as double using decimal degrees.
-* @prop longitude   
+
+* @prop longitude 
+
   Longitude encoded as double using decimal degrees.
 
 **Definition** [cq:GeoLocation] mixin - latitude (double) - longitude (double)
@@ -416,13 +557,20 @@ The items in a "cq:Cq4ContentPage" are:
 
 **Description** Defines a LiveSync mixin. If a node is involved in a LiveRelationship with a master node as a slave, it is marked a LiveSync.
 
-* @prop cq:master   
+* @prop cq:master 
+
   Path of the master node of the LiveRelationship.
-* @prop cq:isDeep   
+
+* @prop cq:isDeep 
+
   Defines if the relationship is available for children.
-* @prop cq:syncTrigger   
+
+* @prop cq:syncTrigger
+
   Defines when is triggered the sync.
-* @node &ast; LiveSyncAction   
+
+* @node &ast; LiveSyncAction
+
   Actions to perform on sync
 
 **Definition** [cq:LiveSync] > cq:LiveRelationship mixin orderable + &ast; (cq:LiveSyncAction) = cq:LiveSyncAction + cq:LiveSyncConfig (nt:base) = cq:LiveSyncConfig
@@ -431,7 +579,8 @@ The items in a "cq:Cq4ContentPage" are:
 
 **Description** Defines a LiveSyncCancelled mixin. Cancel the LiveSync behavior of a slave node which may be involded in a LiveRelationship owing to one of its parents.
 
-* @prop cq:isCancelledForChildren   
+* @prop cq:isCancelledForChildren 
+
   Defines whether a LiveSync is cancelled; also for children.
 
 **Definition** [cq:LiveSyncCancelled] > cq:LiveRelationship mixin - cq:isCancelledForChildren (boolean)
@@ -440,9 +589,12 @@ The items in a "cq:Cq4ContentPage" are:
 
 **Description** Defines a LiveSyncAction attached to a LiveSync.
 
-* @prop name   
+* @prop name
+
   Action name.
-* @prop value   
+
+* @prop value 
+
   Action value.
 
 **Definition** [cq:LiveSyncAction] > nt:unstructured
@@ -477,17 +629,28 @@ For CQ 5.4 add to the end of list:
 
 **Description** Defines replication status information mixin.
 
-* @prop cq:lastPublished   
+* @prop cq:lastPublished
+
   The date the page was last published (not used anymore).
-* @prop cq:lastPublishedBy   
+
+* @prop cq:lastPublishedBy
+
   The user who published the page last (not used anymore).
-* @prop cq:lastReplicated   
+
+* @prop cq:lastReplicated
+
   The date the page was last replicated.
-* @prop cq:lastReplicatedBy   
+
+* @prop cq:lastReplicatedBy
+
   The user that replicated the page last.
-* @prop cq:lastReplicationAction   
+
+* @prop cq:lastReplicationAction
+
   The replication action: activate or deactivate.
-* @prop cq:lastReplicationStatus   
+
+* @prop cq:lastReplicationStatus
+
   The replication status (not used anymore).
 
 **Definition** [cq:ReplicationStatus] mixin - cq:lastPublished (date) ignore - cq:lastPublishedBy (string) ignore - cq:lastReplicated (date) ignore - cq:lastReplicatedBy (string) ignore - cq:lastReplicationAction (string) ignore - cq:lastReplicationStatus (string) ignore

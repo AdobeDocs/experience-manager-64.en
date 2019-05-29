@@ -89,7 +89,7 @@ The actual appearance and handling is dependent on the device type you are using
 
   From the top toolbar in the Components browser you can:
 
-    * Filter components by name.  
+    * Filter components by name.
     * Limit the display to a specific group using the drop down selection.
 
   For a more detailed description of the component, you can click or tap the information icon next to the component in the Components browser (if available).

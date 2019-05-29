@@ -29,13 +29,13 @@ When uploading is complete, your 3D files are converted and additional processin
     * **Maintain a separate folder for each 3D asset you upload**. 
 
       The folder contains both the primary 3D model file and all its dependents. While putting all assets and dependents into one folder is easy to implement, it is cumbersome to browse for content. It also complicates sharing dependents (texture maps) between models.
-    
+  
     * **Keep models in one folder and dependents in a sibling or sub-folder**. 
 
       This approach readily supports the sharing of dependents between models. However, it can become difficult to find specific dependents if the number of assets is large.
-    
+  
     * **Separate, parallel folder hierarchies for models and dependents**. 
-    
+  
       You can model this approach to how 3D authoring applications such as Autodesk Maya, prefer to store content.
 
 * Dependent assets should not be deleted unless the associated 3D asset or assets that referenced them are also removed. You can, however, freely delete 3D assets without the need to delete their dependent assets. If a dependency is lost accidentally, you can easily resolve the dependency to restore it.  

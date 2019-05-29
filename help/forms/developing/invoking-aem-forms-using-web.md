@@ -882,6 +882,7 @@ To invoke the `MyApplication/EncryptDocument` process by using Java proxy files 
 1. Set the connection values required to invoke AEM Forms by assigning values to the following data members:
 
     * Assign the WSDL endpoint and the encoding type to the `javax.xml.ws.BindingProvider` object’s `ENDPOINT_ADDRESS_PROPERTY` field. To invoke the `MyApplication/EncryptDocument` service using SwaRef encoding, specify the following URL value:
+    
       ` https://hiro-xp:8080/soap/services/MyApplication/EncryptDocument?blob=swaref`
     
     * Assign the AEM forms user to the `javax.xml.ws.BindingProvider` object’s `USERNAME_PROPERTY` field.
