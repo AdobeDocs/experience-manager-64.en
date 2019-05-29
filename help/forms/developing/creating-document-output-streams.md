@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: de527d50-991b-4ca3-a8ac-44d5cab988e9
 ---
 
-# Creating Document Output Streams {#creating-document-output-streams}
+# Creating Document Output Streams  {#creating-document-output-streams}
 
 **About the Output Service**
 

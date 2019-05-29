@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 023f0d9e-bfde-4879-a839-085fadffb48e
 ---
 
-# Assembling PDF Portfolios{#assembling-pdf-portfolios}
+# Assembling PDF Portfolios {#assembling-pdf-portfolios}
 
 You can assemble a PDF Portfolio using the Assembler Java and web service API. A portfolio can combine several documents of various types, including word file, image files (for example, a jpeg file), and PDF documents. The layout of the portfolio can be set to different styles like the *Grid with Preview*, the *On an Image* layout or even *Revolve*.
 
@@ -114,15 +114,15 @@ A PDF Portfolio is returned within a collection object. Iterate through the coll
 
 **See also**
 
-[Assemble a PDF Portfolio using the Java API](/help/forms/developing/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assemble-a-pdf-portfolio-using-the-java-api)
+[Assemble a PDF Portfolio using the Java API](/help/forms/developing/assembling-pdf-portfolios.md#assemble-a-pdf-portfolio-using-the-java-api) 
 
-[Assemble a PDF Portfolio using the web service API](/help/forms/developing/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assemble-a-pdf-portfolio-using-the-web-service-api)
+[Assemble a PDF Portfolio using the web service API](/help/forms/developing/assembling-pdf-portfolios.md##assemble-a-pdf-portfolio-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md)
 
 ## Assemble a PDF Portfolio using the Java API {#assemble-a-pdf-portfolio-using-the-java-api}
 
@@ -255,8 +255,6 @@ Assemble a PDF Portfolio by using the Assembler Service API (web service):
     * Extract the binary data that represents the PDF document by accessing its `BLOB` object’s `MTOM` property. This returns an array of bytes that you can write out to a PDF file.
 
 **See also**
-
-[Assembling PDF Portfolios](/help/forms/developing/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assembling-pdf-portfolios)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 

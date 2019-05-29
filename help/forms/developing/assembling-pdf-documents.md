@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 3dd2b0d3-6023-490a-9b17-e29cc21c1b9d
 ---
 
-# Assembling PDF Documents{#assembling-pdf-documents}
+# Assembling PDF Documents {#assembling-pdf-documents}
 
 **About the Assembler Service**
 

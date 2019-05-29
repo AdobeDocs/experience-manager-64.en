@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: f29b089e-8902-4744-81c5-15ee41ba8069
 ---
 
-# Creating Web Applications thatRenders Forms{#creating-web-applications-thatrenders-forms}
+# Creating Web Applications that Renders Forms {#creating-web-applications-thatrenders-forms}
 
 ## Creating Web Applications that Renders Forms {#creating-web-applications-that-renders-forms}
 
@@ -112,7 +112,8 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 >[!NOTE]
 >
->For information about creating the HTML page that invokes the `RenderFormFragment` Java servlet, see [Creating the web page](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms.md#creating-the-web-page).
+>For information about creating the HTML page that invokes the `RenderFormFragment` Java servlet, see 
+[Creating the web page](/help/forms/developing/rendering-forms.md#creating-the-web-page).
 
 ### Creating Java application logic for the servlet {#creating-java-application-logic-for-the-servlet}
 
@@ -322,7 +323,7 @@ The Java servlet captures the data that is posted from the HTML page by using th
              }
 ```
 
-The following HTML code is located in the index.html file that was created during setup of the development environment. (See [Creating a web project](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms.md#creating-a-web-project).)
+The following HTML code is located in the index.html file that was created during setup of the development environment. (See [Creating a web project](/help/forms/developing/rendering-forms.md#creating-a-web-project).) 
 
 ```as3
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 

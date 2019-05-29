@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 180cac3f-6378-42bc-9a47-60f9f08a7103
 ---
 
-# Converting Between File Formatsand PDF{#converting-between-file-formatsand-pdf}
+# Converting Between File Formats and PDF {#converting-between-file-formatsand-pdf}
 
 **About the Generate PDF Service**
 
@@ -847,7 +847,7 @@ The name of the additional dialog XML file must use the format appmon.*[applicat
 
 >[!NOTE]
 >
->None of the generic applications specified in the native2pdfconfig.xml configuration file have a primary dialog XML file. The section [Adding or modifying support for a native file format](converting-file-formats-pdf.md#adding-or-modifying-support-for-a-native-file-format)describes such specifications.
+>None of the generic applications specified in the native2pdfconfig.xml configuration file have a primary dialog XML file. The section [Adding or modifying support for a native file format](converting-file-formats-pdf.md#adding-or-modifying-support-for-a-native-file-format) describes such specifications.
 
 You must order `windowList` elements that appear as children in a `window` element. (See [Ordering the window and windowList elements](converting-file-formats-pdf.md#ordering-the-window-and-windowlist-elements).)
 

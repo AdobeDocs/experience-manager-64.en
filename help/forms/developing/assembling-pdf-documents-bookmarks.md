@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 9f4711a8-033c-4051-ab41-65a26838899b
 ---
 
-# Assembling PDF Documents with Bookmarks{#assembling-pdf-documents-with-bookmarks}
+# Assembling PDF Documents with Bookmarks {#assembling-pdf-documents-with-bookmarks}
 
 You can assemble a PDF document that contains bookmarks. For example, assume that you have a PDF document that does not contain bookmarks and you want to modify it by providing bookmarks. Using the Assembler service, you can pass it a PDF document that does not contain bookmarks and get back a PDF document that contains bookmarks.
 
@@ -155,19 +155,15 @@ To assemble a PDF document that contains new bookmarks, use the Assembler servic
 
 **Save the PDF document that contains bookmarks**
 
-You must extract the results from the returned map object and save the corresponding PDF document. (See “Extract the results” in [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents).)
+You must extract the results from the returned map object and save the corresponding PDF document. (See “Extract the results” in [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md).)
 
 **See also**
-
-[Assemble PDF documents with bookmarks using the Java API](/help/forms/developing/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assemble-pdf-documents-with-bookmarks-using-the-java-api)
-
-[Assemble PDF documents with bookmarks using the web service API](/help/forms/developing/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assemble-pdf-documents-with-bookmarks-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md)
 
 ## Assemble PDF documents with bookmarks using the Java API {#assemble-pdf-documents-with-bookmarks-using-the-java-api}
 
@@ -234,8 +230,6 @@ Assemble a PDF document with bookmarks by using the Assembler Service API (Java)
     * Invoke the `com.adobe.idp.Document` object’s `copyToFile` method to extract the PDF document.
 
 **See also**
-
-[Assembling PDF Documents with Bookmarks](/help/forms/developing/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assembling-pdf-documents-with-bookmarks)
 
 [Quick Start (SOAP mode): Assembling PDF documents with bookmarks using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-pdf-documents-with-bookmarks-using-the-java-api)
 
@@ -324,7 +318,5 @@ Assemble a PDF document with bookmarks by using the Assembler Service API (web s
     * Extract the binary data that represents the PDF document by accessing its `BLOB` object’s `MTOM` field. This returns an array of bytes that you can write out to a PDF file.
 
 **See also**
-
-[Assembling PDF Documents with Bookmarks](/help/forms/developing/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assembling-pdf-documents-with-bookmarks)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
