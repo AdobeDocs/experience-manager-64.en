@@ -72,7 +72,6 @@ Use the following steps to convert one or more dialogs:
    The table lists all existing legacy dialogs below the entered path. Each dialog has its Type listed. Types include:
 
     * **Classic:** Nodes of type `cq:Dialog` that have node name `dialog` or `design_dialog`
-    
     * **Coral 2:** Nodes named `cq:dialog` or `cq:design_dialog` that have a Granite UI / Coral 2 resource type at their child content node
 
    Each row contains a link to view the dialog and a link to CRXDE Lite to view its node structure.
@@ -177,20 +176,28 @@ For example, the following property `one` will be assigned the value of the prop
 
 Rules also support the following optional properties.
 
-* `cq:rewriteOptional` (boolean)  
+* `cq:rewriteOptional` (boolean) 
+
   Set this property on a pattern node to indicate that the node doesn’t have to be present for the pattern to match
-* `cq:rewriteRanking` (integer)  
+
+* `cq:rewriteRanking` (integer) 
+
   Set this property on the rule node to affect the order by which the rules are applied. This can be useful in ensuring that rules handling more specific structures aren’t overwritten by more general ones. Rules with a lower ranking take precedence over those with higher ranking. All rules by default receive `Integer.MAX_VALUE` as their ranking.
 
 The replacement tree also supports the following special properties (named beginning with `cq:rewrite`):
 
-* `cq:rewriteMapChildren` (string)  
+* `cq:rewriteMapChildren` (string) 
+
   The node containing this property will receive a copy of the children of the node in the original tree referenced by the property value (e.g. `cq:rewriteMapChildren=./items`).
-* `cq:rewriteFinal` (boolean)  
+
+* `cq:rewriteFinal` (boolean) 
+
   This is an optimization measure telling the algorithm that the node containing this property is final and doesn't have to be rechecked for matching rewrite rules. When placed on the replacement node itself, the whole replacement tree is considered final.
-* `cq:rewriteCommonAttrs` (boolean)  
+* `cq:rewriteCommonAttrs` (boolean) 
+
   Set this property on the replacement node ( `rule`/ `replacement`) to map relevant properties of the original root node to Granite common attribute equivalents in the copy root. It will handle data attributes by copying/creating the `granite:data` subnode on the target and writing `data-*` properties there.
-* `cq:rewriteRenderCondition` (boolean)  
+* `cq:rewriteRenderCondition` (boolean) 
+
   Set this property on the replacement node ( `rule`/ `replacement`) to copy any Granite render condition ( `rendercondition` or `granite:rendercondition`) child node from the original root node to a `granite:rendercondition` child of the copy root.
 
 In addition, a `cq:rewriteProperties` node can be added to a replacement node to define string rewrites for mapped properties in the result. The node is removed from the replacement. The properties of the `cq:rewriteProperties` node must be named the same as those which they are rewriting and accept a string array with two parameters:

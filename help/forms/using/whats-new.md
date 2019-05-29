@@ -37,7 +37,7 @@ Interactive communication is the default and recommended approach to create cust
 ### Multi-channel interactive communication authoring {#multi-channel-interactive-communication-authoring}
 
 Using interactive communication, you can author and edit both print and web documents from a single document editor. By utilizing the same document fragments to build renditions of both the channels, you can eliminate effort duplication. 
-[ ![](assets/printweb_2.png)
+    [ ![](assets/printweb_2.png)
 
 Click to enlarge
 

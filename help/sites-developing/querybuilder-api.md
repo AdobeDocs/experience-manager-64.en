@@ -136,8 +136,7 @@ For example, the UI can adapt following approach:
 
 * The response can have the following outcome:
 
-    * `total=43`, `more=false` - Indicates that total number of hits is 43. The UI can show up to ten results as part of the first page and provide pagination for the next three pages. You can also use this implementation to display a descriptive text like **"43 results found"**.  
-    
+    * `total=43`, `more=false` - Indicates that total number of hits is 43. The UI can show up to ten results as part of the first page and provide pagination for the next three pages. You can also use this implementation to display a descriptive text like **"43 results found"**.
     * `total=100`, `more=true` - Indicates that the total number of hits is greater than 100 and the exact count is not known. The UI can show up to ten as part of the first page and provide pagination for the next ten pages. You can also use this to display a text like **"more than 100 results found"**. As the user goes to the next pages calls made to the Query Builder would increase the limit of `guessTotal` and also of the `offset` and `limit` parameters.
 
 `guessTotal` should also be used in cases where the UI needs to make use of infinite scrolling, in order to avoid the Query Builder from determining the exact hit count.
@@ -385,7 +384,7 @@ For such principal properties, you can shorten the query and use " `similar=/con
 
 ```java
    String fulltextSearchTerm = "Geometrixx";
-                  
+
     // create query description as hash map (simplest way, same as form post)
     Map<String, String> map = new HashMap<String, String>();
   
@@ -401,11 +400,11 @@ For such principal properties, you can shorten the query and use " `similar=/con
     // can be done in map or with Query methods
     map.put("p.offset", "0"); // same as query.setStart(0) below
     map.put("p.limit", "20"); // same as query.setHitsPerPage(20) below
-                    
+
     Query query = builder.createQuery(PredicateGroup.create(map), session);
     query.setStart(0);
     query.setHitsPerPage(20);
-              
+
     SearchResult result = query.getResult();
  
     // paging metadata
@@ -413,16 +412,16 @@ For such principal properties, you can shorten the query and use " `similar=/con
     long totalMatches = result.getTotalMatches();
     long offset = result.getStartIndex();
     long numberOfPages = totalMatches / 20;
-                 
+
     //Place the results in XML to return to client
     DocumentBuilderFactory factory =     DocumentBuilderFactory.newInstance();
     DocumentBuilder builder = factory.newDocumentBuilder();
     Document doc = builder.newDocument();
-                              
+
     //Start building the XML to pass back to the AEM client
     Element root = doc.createElement( "results" );
     doc.appendChild( root );
-                 
+
     // iterating over the results
     for (Hit hit : result.getHits()) {
        String path = hit.getPath();
@@ -430,7 +429,7 @@ For such principal properties, you can shorten the query and use " `similar=/con
       //Create a result element
       Element resultel = doc.createElement( "result" );
       root.appendChild( resultel );
-                     
+
       Element pathel = doc.createElement( "path" );
       pathel.appendChild( doc.createTextNode(path ) );
       resultel.appendChild( pathel );

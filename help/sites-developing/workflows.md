@@ -117,12 +117,16 @@ There are various types of workflow as indicated in the Workflow Models console:
 
 ![](assets/wf-upgraded-03.png)
 
-* **Default** 
+* **Default**
+
   These are the out-of-the-box workflows included in a standard AEM instance.
 
-* Custom workflows (no indicator in the console)  
+* Custom workflows (no indicator in the console) 
+
   These are workflows that have been created as new, or from out-of-the-box workflows that have been overlaid with customizations.
-* **Legacy** 
+
+* **Legacy**
+
   Workflows created in a prior version of AEM. These can be retained during an upgrade, or exported as a workflow package from the prior version, then imported into the new version.
 
 ### Transient Workflows {#transient-workflows}

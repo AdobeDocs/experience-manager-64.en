@@ -75,9 +75,7 @@ Before adding the cq:tags index rule
 
 * **Query Builder query**
 
-    * 
-    
-      ```    
+    * ``` 
       type=cq:Page
        property=jcr:content/cq:tags
        property.value=my:tag
@@ -93,9 +91,7 @@ After adding the cq:tags index rule
 
 * **cq:tags Index Rule**
 
-    * 
-    
-      ```    
+    * ```
       /oak:index/cqPageLucene/indexRules/cq:Page/properties/cqTags
        @name=jcr:content/cq:tags
        @propertyIndex=true
@@ -103,9 +99,7 @@ After adding the cq:tags index rule
 
 * **Query Builder query**
 
-    * 
-    
-      ```    
+    * ``` 
       type=cq:Page
        property=jcr:content/cq:tags
        property.value=myTagNamespace:myTag
@@ -129,7 +123,7 @@ A useful way to identify if the Lucene index is returning a lot of results to re
 
 #### Post-Deployment {#post-deployment-1}
 
-* Monitor the `error.log` for travesal queries:
+* Monitor the `error.log` for traversal queries:
 
     * `*WARN* org.apache.jackrabbit.oak.spi.query.Cursors$TraversingCursor Traversed ### nodes ... consider creating an index or changing the query`
 
@@ -192,13 +186,16 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * property=jcr:content/contentType  
+        * property=jcr:content/contentType
+
           property.value=article-page
 
     * **Optimized query**
 
-        * type=cq:Page  
-          property=jcr:content/contentType  
+        * type=cq:Page 
+
+          property=jcr:content/contentType 
+
           property.value=article-page
 
    Queries lacking a nodetype restriction force AEM to assume the `nt:base` nodetype, which every node in AEM is a subtype of, effectively resulting in no nodetype restriction.
@@ -209,9 +206,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * 
-        
-          ```        
+        * ``` 
           type=nt:hierarchyNode
            property=jcr:content/contentType
            property.value=article-page
@@ -219,9 +214,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Optimized query**
 
-        * 
-        
-          ```        
+        * ``` 
           type=cq:Page
            property=jcr:content/contentType
            property.value=article-page
@@ -230,7 +223,6 @@ The following example uses Query Builder as it's the most common query language 
    `nt:hierarchyNode` is the parent nodetype of `cq:Page`, and assuming `jcr:content/contentType=article-page` is only applied to `cq:Page` nodes via our custom application, this query will only return `cq:Page` nodes where `jcr:content/contentType=article-page`. This is a suboptimal restriction though, because:
 
     * Other node inherit from `nt:hierarchyNode` (eg. `dam:Asset`) adding unnecessarily to the set of potential results.
-    
     * No AEM-provided index exists for `nt:hierarchyNode`, however as there a provided index for `cq:Page`.
 
    Setting `type=cq:Page` restricts this query to only `cq:Page` nodes, and resolves the query to AEM's cqPageLucene, limiting the results to a subset of nodes (only cq:Page nodes) in AEM.
@@ -239,18 +231,14 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * 
-        
-          ```        
+        * ``` 
           property=jcr:content/contentType
            property.value=article-page
           ```
 
     * **Optimized query**
 
-        * 
-        
-          ```        
+        * ```
           property=jcr:content/sling:resourceType
            property.value=my-site/components/structure/article-page
           ```
@@ -263,9 +251,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * 
-        
-          ```        
+        * ``` 
           type=cq:Page
            path=/content
            property=jcr:content/contentType
@@ -274,9 +260,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Optimized query**
 
-        * 
-        
-          ```        
+        * ```
           type=cq:Page
            path=/content/my-site/us/en
            property=jcr:content/contentType
@@ -291,9 +275,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * 
-        
-          ```        
+        * ```
           type=cq:Page
            property=jcr:content/contentType
            property.operation=like
@@ -302,9 +284,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Optimized query**
 
-        * 
-        
-          ```        
+        * ```
           type=cq:Page
            fulltext=article
            fulltext.relPath=jcr:content/contentType
@@ -320,18 +300,14 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * 
-        
-          ```        
+        * ``` 
           type=cq:Page
            path=/content
           ```
 
     * **Optimized query**
 
-        * 
-        
-          ```        
+        * ```
           type=cq:Page
            path=/content
            p.guessTotal=100
@@ -349,9 +325,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Query Builder query**
 
-        * 
-        
-          ```        
+        * ``` 
           query type=cq:Page
            path=/content/my-site/us/en
            property=jcr:content/contentType
@@ -398,9 +372,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Query Builder query**
 
-        * 
-        
-          ```        
+        * ```
           type=myApp:Author
            property=firstName
            property.value=ira

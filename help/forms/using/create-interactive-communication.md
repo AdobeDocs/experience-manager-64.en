@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c106aa41-cbc0-4daf-9ac6-6c0d23710010
 ---
 
-# Create an Interactive Communication{#create-an-interactive-communication}
+# Create an Interactive Communication {#create-an-interactive-communication}
 
 Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types.
 
@@ -169,7 +169,7 @@ For more information on the Interactive Communication authoring interface, see [
 
 ## Preview the Interactive Communication {#previewic}
 
-You can use the **Preview option **to evaluate appearance of the Interactive Communication. The web channel of Interactive Communication also provides an option to Emulate experience of an Interactive Communication for various devices. For example, iPhone, iPad, and Desktop. You can use both **Preview** and **Emulator** ![](assets/ruler.png) options in conjunction with each other to preview the web outputs for devices of different screen sizes. The sample data in the preview is populated from the specified forms data model.
+You can use the **Preview option** to evaluate appearance of the Interactive Communication. The web channel of Interactive Communication also provides an option to Emulate experience of an Interactive Communication for various devices. For example, iPhone, iPad, and Desktop. You can use both **Preview** and **Emulator** ![](assets/ruler.png) options in conjunction with each other to preview the web outputs for devices of different screen sizes. The sample data in the preview is populated from the specified forms data model.
 
 1. Select the (print or web) channel to preview and tap preview. The Interactive Communication appears.
 
@@ -280,7 +280,7 @@ You can add dynamic tables in Interactive Communication using layout fragments. 
             * **[!UICONTROL Data model object]**: A form data model propert's value is populated in the field.
 
         * **[!UICONTROL Data Model Object]**: The form data model property whose value is populated in the field. 
-        * **[!UICONTROL Default Value]**: Default value ensures that the field is not empty when there is no value provided by the specified data model object. The default value is prepopulated in the field. **[!UICONTROL]**
+        * **[!UICONTROL Default Value]**: Default value ensures that the field is not empty when there is no value provided by the specified data model object. The default value is pre-populated in the field. **[!UICONTROL]**
         
         * **[!UICONTROL Editable By Agent]**: Select to allow the agent to edit the value in the field in the Agent UI.
 
@@ -306,7 +306,7 @@ You can create a web-channel only dynamic table in an Interactive Communication 
 When you select Print as Master for Web Channel while creating an Interactive Communication, the Web channel is created in sync with the Print channel and the content and data binding of the Web channel is derived from the print channel and the changes made in the print channel are reflected in the web channel when you tap Synchronize.
 
 The authors are, however, allowed to break the inheritance for components in the web channel, as required. 
-[ ![](assets/printweb_2-3.png)
+    [ ![](assets/printweb_2-3.png)
 
 (Click to enlarge) 
 
@@ -316,7 +316,7 @@ Print and web channels in the Interactive Communication editor
 
 ### Auto sync {#auto-sync}
 
-If you are using Print channel as the master for the Web channel and you switch to the Web channel from the Print channel, automatic synchronization takes place. The automatic synchronization brings the placeholders, content, and data binding into the Web channel from the Print channel. Depending on the complexity and content of your Interactive Communication, automatic synchonization may take a little time.
+If you are using Print channel as the master for the Web channel and you switch to the Web channel from the Print channel, automatic synchronization takes place. The automatic synchronization brings the placeholders, content, and data binding into the Web channel from the Print channel. Depending on the complexity and content of your Interactive Communication, automatic synchronization may take a little time.
 
 >[!NOTE]
 >
@@ -328,7 +328,7 @@ In the web channel, the components are embedded in the target areas.
 
 Hover over the relevant target area in the web channel and select ![](assets/cancelinheritance.png) (Cancel Inheritance) and then in the Cancel Inheritance dialog, tap **[!UICONTROL Yes]**.
 
-The inheritence of the components within the target area gets cancelled and now you can edit them as required.
+The inheritance of the components within the target area gets canceled and now you can edit them as required.
 
 ### Re-enable Inheritance {#re-enable-inheritance}
 
@@ -338,7 +338,7 @@ The Revert Inheritance dialog appears.
 
 ![](assets/revertinheritance.png)
 
-If required, select **[!UICONTROL Synchronize The Page After Reverting Inheritance]**. Select this option to synchronize the entire inteactive communication. If you do not select this option only the relevant target area gets synchronized on reinstating the inheritance.
+If required, select **[!UICONTROL Synchronize The Page After Reverting Inheritance]**. Select this option to synchronize the entire interactive communication. If you do not select this option only the relevant target area gets synchronized on reinstating the inheritance.
 
 Tap **[!UICONTROL Yes]**.
 
@@ -348,7 +348,7 @@ If you are using Print as Master for Web Channel and make changes to the print c
 
 1. To synchronize the Web channel with the Print channel, tap **[!UICONTROL Synchronize]**.
 
-   Synchonize Content From Master Channel dialog appears. 
+   Synchronize Content From Master Channel dialog appears. 
 
    ![](assets/synchronizecontentfrommasterchannel.png)
 

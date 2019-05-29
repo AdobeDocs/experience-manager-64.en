@@ -19,13 +19,13 @@ To do this you can also load and use your own fonts.
 
 Currently all implementations of the Java Platform support [TrueType](https://en.wikipedia.org/wiki/Truetype) fonts.
 
-1. Open CRXDE Lite and navigate to your project application folder:  
+1. Open CRXDE Lite and navigate to your project application folder:
+
    `/apps/<*your-project*>/`  
 
 1. Under `/apps/<*your-project*>/` create a new node:
 
     * **Name**: `fonts`
-    
     * **Type**: `sling:Folder`
 
    Save all changes.

@@ -216,8 +216,10 @@ The following is a description of the effects in the repository when moving or m
     * tag A is not deleted and gets a `cq:movedTo` property.
     * tag B is created (in case of a move) and gets a `cq:backlinks` property.
 
-* `cq:movedTo` points to tag B.  
-  This property means that tag A has been moved or merged into tag B. Moving tag B will update this property accordingly. Tag A is thus hidden and is only kept in the repository to resolve tag IDs in content nodes pointing to tag A. The tag garbage collector removes tags like tag A once no more content nodes point to them.  
+* `cq:movedTo` points to tag B. 
+
+  This property means that tag A has been moved or merged into tag B. Moving tag B will update this property accordingly. Tag A is thus hidden and is only kept in the repository to resolve tag IDs in content nodes pointing to tag A. The tag garbage collector removes tags like tag A once no more content nodes point to them. 
+
   A special value for the `cq:movedTo` property is `nirvana`: it is applied when the tag is deleted but cannot be removed from the repository because there are subtags with a `cq:movedTo` that must be kept.
 
 **Note**: *The "cq:movedTo" property is only added to the moved or merged tag if either of these conditions are met:* 
@@ -233,9 +235,10 @@ The following is a description of the effects in the repository when moving or m
 * Reading a `cq:tags` property of a content node involves the following resolving:
 
     1. If there is no match under `/content/cq:tags`, no tag is returned.
-    1. If the tag has a `cq:movedTo` property set, the referenced tag ID is followed.  
+    1. If the tag has a `cq:movedTo` property set, the referenced tag ID is followed. 
+
        This step is repeated as long as the followed tag has a `cq:movedTo` property.
-    
+
     1. If the followed tag does not have a `cq:movedTo` property, the tag is read.
 
 * To publish the change when a tag has been moved or merged, the `cq:Tag` node and all its backlinks must be replicated: this is automatically done when the tag is activated in the tag administration console.  

@@ -76,4 +76,4 @@ Adobe Experience Manager (AEM) forms can help you transform complex transactions
 ## Quick reference card {#quick-reference-card}
 
 You can print following card (Click card to download a high-resolution version) and keep it on your desk for a quick reference:
-[ ![HTML5 Forms best practices quick reference card](do-not-localize/best-practices_reference_card.png)](assets/html5_forms_best_practices_reference_card.pdf)  
+    [ ![HTML5 Forms best practices quick reference card](do-not-localize/best-practices_reference_card.png)](assets/html5_forms_best_practices_reference_card.pdf)  

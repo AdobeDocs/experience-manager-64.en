@@ -220,7 +220,7 @@ The Theme Editor is divided in two panels:
 
   Also, in the Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error.** These options, along with the options described above are discussed in detail [below](/help/forms/using/themes.md#using-rail).
 
-[ ![Theme editor with Rail and Canvas highlighted.](assets/themes.png)](assets/themes-1.png) **A.** Sidebar **B.** Canvas
+    [ ![Theme editor with Rail and Canvas highlighted.](assets/themes.png)](assets/themes-1.png) **A.** Sidebar **B.** Canvas
 
 ### Styling components {#styling-components}
 
@@ -331,7 +331,7 @@ Redo/undo buttons appear when you style a component in the Theme Editor.
 The Theme Editor lets you edit a theme you created or uploaded. Navigate to **Forms & Documents &gt; Themes**, and select a theme and open it. The theme opens in the Theme Editor.
 
 As discussed above, the Theme Editor has two panels: Sidebar and Canvas.
-[ ![](assets/theme-editor.png)
+    [ ![](assets/theme-editor.png)
 
 Customizing the success state styling of Text Box Widget component in Theme Editor. Component is selected in Canvas, and its state is selected in the sidebar. Styling options available in the sidebar are used to customize the look of a component. 
 

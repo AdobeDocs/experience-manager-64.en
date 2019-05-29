@@ -55,14 +55,12 @@ The main MSM API objects interact as follows (see also [Terms Used](/help/sites-
 
     * The relationships are used when realizing inheritance and rollout.
     * `LiveRelationship` objects provide access (references) to the rollout configurations ( `RolloutConfig`), `LiveCopy`, and `LiveStatus` objects related to the relationship. 
-    
     * For example, a live copy is created in `/content/copy/us` from the source/blueprint at `/content/we-retail/language-masters`. The resources `/content/we.retail/language-masters/en/jcr:content` and `/content/copy/us/en/jcr:content` form a relationship.
 
 * 
   **`LiveCopy`** `LiveCopy` holds the configuration details for the relationships ( `LiveRelationship`) between the live copy resources and their source/blueprint resources.
 
-    * Use the `LiveCopy` class to access to the path of the page, the path of the source/blueprint page, the rollout configurations and whether child pages are also included in the `LiveCopy`.  
-    
+    * Use the `LiveCopy` class to access to the path of the page, the path of the source/blueprint page, the rollout configurations and whether child pages are also included in the `LiveCopy`. 
     * A `LiveCopy` node is created each time **Create Site** or **Create Live Copy** is used.
 
 * **`LiveStatus`**
@@ -101,9 +99,7 @@ The `LiveActionFactory` creates instances of the `LiveAction` class for a given 
 * `LiveActionFactory` classes include the following members:
 
     * `LIVE_ACTION_NAME`: A field that contains the name of the associated `LiveAction`. This name must coincide with the value that is returned by the `getName` method of the `LiveAction` class.
-    
     * `createAction`: Creates an instance of the `LiveAction`. The optional `Resource` parameter can be used to provide configuration information.
-    
     * `createsAction`: Returns the name of the associated `LiveAction`.
 
 #### Accessing the LiveAction Configuration Node {#accessing-the-liveaction-configuration-node}
@@ -199,15 +195,12 @@ Rollout configurations are stored below the `/etc/msm/rolloutconfigs` node. Add 
 1. Click **Create** then **Create Node**. Then configure the following node properties and click **OK**:
 
     * **Name**: The node name of the synchronization action. The name must be the same as the **Action Name** in the table under [Synchronization Actions](/help/sites-administering/msm-sync.md#installed-synchronization-actions), for example `contentCopy` or `workflow`.
-    
     * **Type**: `cq:LiveSyncAction`
 
 1. Select the action node just created and add the following property to the node:
 
-    * **Name**: The property name of the action. The name must be the same as the **Property Name** in the table under [Synchronization Actions](/help/sites-administering/msm-sync.md#installed-synchronization-actions), for example `enabled`.  
-    
-    * **Type**: String  
-    
+    * **Name**: The property name of the action. The name must be the same as the **Property Name** in the table under [Synchronization Actions](/help/sites-administering/msm-sync.md#installed-synchronization-actions), for example `enabled`. 
+    * **Type**: String 
     * **Value**: the property value of the action. For valid values, see the **Properties** column in [Synchronization Actions](/help/sites-administering/msm-sync.md#installed-synchronization-actions), for example `true`.
 
 1. Add and configure as many synchronization action nodes as you require. Rearrange the action nodes so that their order matches the order in which you want them to occur. The topmost action node occurs first.
@@ -249,17 +242,11 @@ The following procedure requires that you have added the adobe-public profile to
 1. Specify the following values at interactive prompt:
 
     * `groupId`: `com.adobe.example.msm`
-    
     * `artifactId`: `MyLiveActionFactory`
-    
     * `version`: `1.0-SNAPSHOT`
-    
     * `package`: `MyPackage`
-    
     * `appsFolderName`: `myapp`
-    
     * `artifactName`: `MyLiveActionFactory package`
-    
     * `packageGroup`: `myPackages`
 
 1. Start Eclipse and [import the Maven project](/help/sites-developing/howto-projects-eclipse.md#import-the-maven-project-into-eclipse).
@@ -545,8 +532,7 @@ Configure the rollout configuration that you created in the previous procedure s
 1. Open CRXDE Lite; for example, [http://localhost:4502/crx/de](http://localhost:4502/crx/de).
 1. Create the following node under `/etc/msm/rolloutconfigs/examplerolloutconfig/jcr:content`:
 
-    * **Name**: `exampleLiveAction`  
-    
+    * **Name**: `exampleLiveAction` 
     * **Type**: `cq:LiveSyncAction`
 
    ![](assets/chlimage_1-37.png)
@@ -555,9 +541,7 @@ Configure the rollout configuration that you created in the previous procedure s
 1. Select the `exampleLiveAction` node and add the following property:
 
     * **Name**: `repLastModBy`
-    
     * **Type**: `Boolean`
-    
     * **Value**: `true`
 
    This property indicates to the `ExampleLiveAction` class that the `cq:LastModifiedBy` property should be replicated from the source to the target node.
@@ -583,7 +567,8 @@ Activate the **Products** (english) page of the source branch and observe the lo
 
 In some cases, the **Chapters** selection is not required in the create site wizard (only the **Languages** selection is required). To remove this step in the default We.Retail English blueprint:
 
-1. In CRX Explorer, remove the node:  
+1. In CRX Explorer, remove the node: 
+
    `/etc/blueprints/weretail-english/jcr:content/dialog/items/tabs/items/tab_chap`.
 
 1. Navigate to `/libs/wcm/msm/templates/blueprint/defaults/livecopy_tab/items` and create a new node:
@@ -593,9 +578,7 @@ In some cases, the **Chapters** selection is not required in the create site wiz
 1. Add following properties to the new node:
 
     1. **Name** = `name`; **Type** = `String`; **Value** = `msm:chapterPages`
-    
     1. **Name** = `value`; **Type** = `String`; **Value** = `all`
-    
     1. **Name** = `xtype`; **Type** = `String`; **Value** = `hidden`
 
 ### Changing language names and default countries {#changing-language-names-and-default-countries}
@@ -668,12 +651,12 @@ Whether a page property is subject to roll out and therefore, subject to cancell
 
 * `cq-msm-lockable`
 
-    * is applicable to items in a touch-enabled UI dialog  
-    * will create the chain-link symbol in the dialog  
+    * is applicable to items in a touch-enabled UI dialog 
+    * will create the chain-link symbol in the dialog 
     * only allows editing if inheritance is cancelled (the chain-link is broken)
     * **Type**: `String`
-    
-    * **Value**: holds the name of the property under consideration (and is comparable to the value of the property `name`; for example, see  
+    * **Value**: holds the name of the property under consideration (and is comparable to the value of the property `name`; for example, see
+
       `/libs/foundation/components/page/cq:dialog/content/items/tabs/items/basic/items/column/items/title/items/title`
 
 When `cq-msm-lockable` has been defined, breaking/closing the chain will interact with MSM in the following way:
@@ -688,7 +671,6 @@ When `cq-msm-lockable` has been defined, breaking/closing the chain will interac
     * **Absolute** (e.g. `/image`)
 
         * breaking the chain will cancel inheritance by adding the `cq:LiveSyncCancelled` mixin to `./image` and setting `cq:isCancelledForChildren` to `true`.
-        
         * closing the chain will revert inheritance.
 
 >[!NOTE]

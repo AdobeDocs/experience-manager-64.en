@@ -44,7 +44,7 @@ Here are some general recommendations of when to include the wrapper element tha
 
 The following properties and nodes can be applied to the components to control the behavior of their decoration tag:
 
-* `cq:noDecoration {boolean}`**:** This property can be added to a component and a true value forces AEM not to generate any wrapper elements over the component.
+* **`cq:noDecoration {boolean}`:** This property can be added to a component and a true value forces AEM not to generate any wrapper elements over the component.
 
 * **`cq:htmlTag` node :** This node can be added under a component and can have the following properties:
 

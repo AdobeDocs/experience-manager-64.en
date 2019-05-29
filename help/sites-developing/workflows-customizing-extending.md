@@ -140,7 +140,6 @@ Use the following procedure to specify default values for the **Title** and **De
 1. Add `String` properties of the following names to the `cq:formParameters` node:
 
     * `jcr:title`: The value fills the **Title** field of the **Common** tab.
-    
     * `jcr:description`: The value fills the **Description** field of the **Common** tab.
 
 ### Saving Property Values in Workflow Metadata {#saving-property-values-in-workflow-metadata}
@@ -265,11 +264,11 @@ The execute method of the `WorkflowProcess` implementation is passed the `WorkIt
 
 ```java
 public void execute(WorkItem item, WorkflowSession session, MetaDataMap args) throws WorkflowException {
-     
+
     MetaDataMap wfd = item.getWorkflow().getWorkflowData().getMetaDataMap();
 
     wfd.put("mykey", "My Step Value");
-     
+
     Set<String> keyset = wfd.keySet();
     Iterator<String> i = keyset.iterator();
     while (i.hasNext()){
@@ -331,7 +330,7 @@ The following Java code is the `execute` method for a `WorkflowProcess` implemen
 public void execute(WorkItem item, WorkflowSession session, MetaDataMap args) throws WorkflowException {
      if (args.containsKey("PROCESS_ARGS")){
       log.info("workflow metadata for key PROCESS_ARGS and value {}",args.get("PROCESS_ARGS","string").toString());
-     }     
+     } 
     }
 ```
 
@@ -575,7 +574,7 @@ To define a participant step as an OSGI service component (Java class):
    import org.apache.felix.scr.annotations.Service;
    
    import org.osgi.framework.Constants;
-    
+
    /**
     * Sample dynamic participant step that determines the participant based on a path given as argument.
     */
@@ -583,16 +582,16 @@ To define a participant step as an OSGI service component (Java class):
    @Service
    
    public class MyDynamicParticipant implements ParticipantStepChooser {
-    
+
     @Property(value = "An example implementation of a dynamic participant chooser.")
     static final String DESCRIPTION = Constants.SERVICE_DESCRIPTION; 
        @Property(value = "Adobe")
        static final String VENDOR = Constants.SERVICE_VENDOR;
        @Property(value = "Dynamic Participant Chooser Process")
        static final String LABEL=ParticipantStepChooser.SERVICE_PROPERTY_LABEL;
-    
+
        private static final String TYPE_JCR_PATH = "JCR_PATH";
-    
+
        public String getParticipant(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap args) throws WorkflowException {
            WorkflowData workflowData = workItem.getWorkflowData();
            if (workflowData.getPayloadType().equals(TYPE_JCR_PATH)) {
@@ -818,17 +817,22 @@ An easy way to start creating your own custom step is to copy an existing step f
 
    **Properties of interest:**
 
-    * `sling:resourceSuperType`  
-      Must inherit from an existing step.   
+    * `sling:resourceSuperType`
+
+      Must inherit from an existing step. 
+
       In this example we are inheriting from the base step at `cq/workflow/components/model/step`, but you can use other super types like `participant`, `process`, etc.
-    
-    * `jcr:title`  
+
+    * `jcr:title`
+
       Is the title displayed when the component is listed in the step browser (left side panel of the workflow model editor).
-    
-    * `cq:icon`  
+
+    * `cq:icon` 
+
       Used to specify a [Coral icon](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon.html) for the step.
-    
-    * `componentGroup`  
+
+    * `componentGroup` 
+
       Must be one of the following:
 
         * Collaboration Workflow
@@ -860,10 +864,12 @@ After [Creating the Basic Step](#creating-the-basic-step), define the step **Con
 
    **Properties of interest:**
 
-    * `cq:inherit`   
+    * `cq:inherit`
+
       When set to `true`, then your step component will inherit properties from the step you specified in `sling:resourceSuperType`.
-    
-    * `cq:disableTargeting`  
+
+    * `cq:disableTargeting` 
+
       Set as required.
 
    ![](assets/wf-39.png)
@@ -872,9 +878,10 @@ After [Creating the Basic Step](#creating-the-basic-step), define the step **Con
 
    **Properties of interest:** ``
 
-    * `jcr:title`  
+    * `jcr:title` 
+
       Sets the default title on the step card in the model map and in the **Title** field of the **My Custom - Step Properties** configuration dialog.
-    
+
     * You can also define your own custom properties.
 
    ![](assets/wf-40.png)
@@ -885,12 +892,9 @@ After [Creating the Basic Step](#creating-the-basic-step), define the step **Con
 
    **Properties of Interest:**
 
-    * `afterMove: REFRESH_PAGE`    
-    
-    * `afterdelete: CQ.workflow.flow.Step.afterDelete`    
-    
-    * `afteredit: CQ.workflow.flow.Step.afterEdit`    
-    
+    * `afterMove: REFRESH_PAGE`
+    * `afterdelete: CQ.workflow.flow.Step.afterDelete`
+    * `afteredit: CQ.workflow.flow.Step.afterEdit`
     * `afterinsert: CQ.workflow.flow.Step.afterInsert`
 
    This configuration, is essential for the proper functioning of the editor. In the most cases this configuration must not be changed.

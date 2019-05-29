@@ -137,8 +137,8 @@ Perform the following steps to add an adaptive form as a child form using asset 
 
 1. Open the parent form in edit mode.
 1. In the sidebar, click **Assets** ![](assets/assets-browser.png). Under Assets, select **Adaptive Form** from the drop-down.
-   [ ![Selecting adaptive form under Assets](assets/asset.png)](assets/asset-1.png)
+    [ ![Selecting adaptive form under Assets](assets/asset.png)](assets/asset-1.png)
 
 1. Drag-drop the adaptive form you want to add as a child form. 
-   [ ![Drag-drop the adaptive form in your site](assets/drag-drop.png)](assets/drag-drop-1.png)The adaptive form you drop is added as a child form.
+    [ ![Drag-drop the adaptive form in your site](assets/drag-drop.png)](assets/drag-drop-1.png)The adaptive form you drop is added as a child form.
 

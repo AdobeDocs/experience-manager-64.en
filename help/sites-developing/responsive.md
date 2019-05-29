@@ -188,6 +188,7 @@ For example, to create a ` [sling:OsgiConfig](/help/sites-deploying/configuring-
 
 * Parent folder: `/apps/application_name/config`
 * Name: `com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider-*alias*`  
+
   The - `*alias*` suffix is required because the MobileEmulatorProvider service is a factory service. Use any alias that is unique for this factory.
 
 * jcr:primaryType: `sling:OsgiConfig`
@@ -255,9 +256,9 @@ The picturefill.js library requires HTML code that is similar to the following e
 
 ```xml
 <div data-picture>
-    <div data-src='path to default image'></div>                                        
-    <div data-src='path to small image'    data-media="(media query for phone)"></div>  
-    <div data-src='path to medium image'   data-media="(media query for tablet)"></div>  
+    <div data-src='path to default image'></div> 
+    <div data-src='path to small image'    data-media="(media query for phone)"></div> 
+    <div data-src='path to medium image'   data-media="(media query for tablet)"></div> 
     <div data-src='path to large image'     data-media="(media query for monitor)"></div>   
 </div>
 ```
@@ -266,9 +267,9 @@ When the page is rendered, picturefull.js inserts an `img` element as the last c
 
 ```xml
 <div data-picture>
-    <div data-src='path to default image'></div>                                        
-    <div data-src='path to small image'    data-media="(media query for phone)"></div>  
-    <div data-src='path to medium image'   data-media="(media query for tablet)"></div>  
+    <div data-src='path to default image'></div> 
+    <div data-src='path to small image'    data-media="(media query for phone)"></div> 
+    <div data-src='path to medium image'   data-media="(media query for tablet)"></div> 
     <div data-src='path to large image'     data-media="(media query for monitor)"></div>
     <img src="path to medium image">
 </div>
@@ -299,9 +300,9 @@ The following example HTML selects from 2 DAM renditions of the same image.
 
 ```xml
 <div data-picture>
-    <div data-src='/content/dam/geometrixx-media/articles/meridien.png'></div>                                        
-    <div data-src='/content/dam/geometrixx-media/articles/meridien.png/jcr:content/renditions/cq5dam.thumbnail.319.319.png'    data-media="(min-width: 769px)"></div>  
-    <div data-src='/content/dam/geometrixx-media/articles/meridien.png/jcr:content/renditions/cq5dam.thumbnail.140.100.png'   data-media="(min-width: 481px)"></div>     
+    <div data-src='/content/dam/geometrixx-media/articles/meridien.png'></div> 
+    <div data-src='/content/dam/geometrixx-media/articles/meridien.png/jcr:content/renditions/cq5dam.thumbnail.319.319.png'    data-media="(min-width: 769px)"></div>
+    <div data-src='/content/dam/geometrixx-media/articles/meridien.png/jcr:content/renditions/cq5dam.thumbnail.140.100.png'   data-media="(min-width: 481px)"></div>  
 </div>
 ```
 
@@ -401,11 +402,11 @@ The value of the `data-scr` attribute is a URL that Sling resolves to the Adapti
 The following HTML code is an example of the `div` elements that the JSP generates:
 
 ```xml
-<div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.320.low.jpg'></div>                                        
-    <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.320.medium.jpg'    data-media="(min-width: 320px)"></div>  
-    <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.480.medium.jpg'    data-media="(min-width: 321px)"></div>  
-    <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.476.high.jpg'     data-media="(min-width: 481px)"></div>   
-    <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.620.high.jpg'     data-media="(min-width: 769px)"></div>  
+<div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.320.low.jpg'></div> 
+    <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.320.medium.jpg'    data-media="(min-width: 320px)"></div> 
+    <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.480.medium.jpg'    data-media="(min-width: 321px)"></div> 
+    <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.476.high.jpg'     data-media="(min-width: 481px)"></div> 
+    <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.620.high.jpg'     data-media="(min-width: 769px)"></div>
     <div data-src='/content/geometrixx-media/en/events/the-lineup-you-ve-been-waiting-for/jcr:content/article-content-par/adaptive_image.adapt.full.high.jpg'     data-media="(min-width: 1025px)"></div>
 ```
 
@@ -912,16 +913,13 @@ Use the following algorithm as a starting point for developing the element class
 1. For each viewport size that you are targeting, add the corresponding media query to your CSS file. Add the following items in each media query:
 
     * A selector for the `content` class, for example `.content{}`.
-    
     * Selectors for each span class, for example `.span3{ }`.
     * A selector for the `row-fluid` class, for example `.row-fluid{ }`
-    
     * Selectors for span classes that are inside row-fluid classes, for example `.row-fluid span3 { }`.
 
 1. Add width styles for each selector:
 
     1. Set the width of `content` selectors to the absolute size of the page, for example `width:480px`.
-    
     1. Set the width of all row-fluid selectors to 100%.
     1. Set the width of all span selectors to the absolute width of the content block. A trivial grid uses evenly-distributed columns of the same width: `(absolute width of page)/(number of columns)`.
     1. Set the width of the `.row-fluid .span` selectors as a percentage of the total width. Calculate this width using the `(absolute span width)/(absolute page width)*100` formula.

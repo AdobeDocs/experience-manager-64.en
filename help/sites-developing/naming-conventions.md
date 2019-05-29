@@ -23,8 +23,7 @@ These naming conventions are implemented at various levels:
 * PageManager: the [Page Manager](#page-manager) provides methods for page level operations.
 * According to the UI being used:
 
-    * [Standard, touch-enabled UI](#standard-ui)  
-    
+    * [Standard, touch-enabled UI](#standard-ui) 
     * [Classic UI](#classic-ui)
 
 ### JCR Utilities {#jcr-utilities}
@@ -38,7 +37,7 @@ These naming conventions are implemented at various levels:
 
 * `createValidName`
 
-    * This creates a valid label out of an arbitrary string.  
+    * This creates a valid label out of an arbitrary string.
     * It can be used to create a name from a title.
 
 ### Page Manager {#page-manager}

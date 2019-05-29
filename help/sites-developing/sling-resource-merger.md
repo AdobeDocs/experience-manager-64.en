@@ -39,7 +39,8 @@ With the Sling Resource Merger, the overlay/override resources and/or properties
 The goals for using the Sling Resource Merger in AEM are to:
 
 * ensure that customization changes are not made in `/libs`.
-* reduce the structure that is replicated from `/libs`.  
+* reduce the structure that is replicated from `/libs`.
+
   When using the Sling Resource Merger it is not recommended to copy the entire structure from `/libs` as this would result in too much information being held in the customization (usually `/apps`). Duplicating information unnecessarily increases the chance of problems when the system in upgraded in any way.
 
 >[!NOTE]
@@ -65,19 +66,24 @@ The goals for using the Sling Resource Merger in AEM are to:
 
 The resource merger provides the following properties:
 
-* `sling:hideProperties` ( `String` or `String[]`)  
-  Specifies the property, or list of properties, to hide.  
+* `sling:hideProperties` ( `String` or `String[]`)
+
+  Specifies the property, or list of properties, to hide. 
+
   The wildcard `*` hides all.  
 
-* `sling:hideResource` ( `Boolean`)  
-  Indicates whether the resources should be completely hidden, including its children.  
-  ``
+* `sling:hideResource` ( `Boolean`) 
 
-* `sling:hideChildren` ( `String` or `String[]`)  
-  Contains the child node, or list of child nodes, to hide. The properties of the node will be maintained.  
+  Indicates whether the resources should be completely hidden, including its children. 
+
+* `sling:hideChildren` ( `String` or `String[]`) 
+
+  Contains the child node, or list of child nodes, to hide. The properties of the node will be maintained. 
+
   The wildcard `*` hides all.
 
-* `sling:orderBefore` ( `String`)  
+* `sling:orderBefore` ( `String`) 
+
   Contains the name of the sibling node that the current node should be positioned in front of.
 
 These properties affect how the corresponding/original resources/properties (from `/libs`) are used by the overlay/override (often in `/apps`).
@@ -88,22 +94,27 @@ To create an overlay or override you need to recreate the original node, with th
 
 * Overlay
 
-    * The definition of the navigation entry for the Sites console, as shown in the rail is defined at:  
+    * The definition of the navigation entry for the Sites console, as shown in the rail is defined at: 
+
       `/libs/cq/core/content/nav/sites/jcr:title`
-    
-    * To overlay this, create the following node:  
-      `/apps/cq/core/content/nav/sites`  
+
+    * To overlay this, create the following node: 
+
+      `/apps/cq/core/content/nav/sites` 
+
       Then update the property `jcr:title` as required.
 
 * Override
 
-    * The definition of the touch-enabled dialog for the Texts console, is defined at:  
+    * The definition of the touch-enabled dialog for the Texts console, is defined at:
+
       `/libs/foundation/components/text/cq:dialog`
-    
-    * To override this, create the following node - for example:  
+  
+    * To override this, create the following node - for example: 
+
       `/apps/the-project/components/text/cq:dialog`
 
-To create either of these you only need to recreate the skeleton structure. To simplify the recreation of the structure all intermediatry nodes can be of type `nt:unstructured` (they do not have to reflect the original node type; for example, in `/libs`).
+To create either of these you only need to recreate the skeleton structure. To simplify the recreation of the structure all intermediary nodes can be of type `nt:unstructured` (they do not have to reflect the original node type; for example, in `/libs`).
 
 So in the above overlay example, the following nodes are needed:
 
@@ -139,7 +150,8 @@ These, in conjunction with standard functionality, enable you to:
     1. Create the matching property on this node (under / `apps`)
 
         * The property will have a priority based on the Sling Resource Resolver configuration.
-        * Changing the property type is supported.  
+        * Changing the property type is supported.
+
           If you use a property type different to the one used in `/libs`, then the property type you define will be used.
 
   >[!NOTE]
@@ -151,8 +163,8 @@ These, in conjunction with standard functionality, enable you to:
   By default, auto-created properties (such as `jcr:primaryType`) are not subject to an overlay/override to ensure that the node type currently under `/libs` is respected. To impose an overlay/override you have to recreate the node in `/apps`, explicitly hide the property and redefine it:
 
     1. Create the corresponding node under `/apps` with the desired `jcr:primaryType`
-    
-    1. Create the property `sling:hideProperties` on that node, with the value set to that of the auto-created property; for example, `jcr:primaryType`  
+    1. Create the property `sling:hideProperties` on that node, with the value set to that of the auto-created property; for example, `jcr:primaryType`
+
        This property, defined under `/apps`, will now take priority over the one defined under `/libs`
 
 * **Redefine a node and its children**
@@ -183,8 +195,7 @@ These, in conjunction with standard functionality, enable you to:
     1. Create the corresponding node under /apps
     1. Create a property `sling:hideResource`
 
-        * type: `Boolean`  
-        
+        * type: `Boolean`
         * value: `true`
 
 * **Hide children of a node (while keeping the properties of the node)**
@@ -206,7 +217,8 @@ These, in conjunction with standard functionality, enable you to:
     * Use the `sling:orderBefore` property:
 
         1. Create the corresponding node under `/apps`
-        1. Create the property `sling:orderBefore`:  
+        1. Create the property `sling:orderBefore`:
+
            This specifies the node (as in `/libs`) that the current node should be positioned before:
 
             * type: `String`
@@ -224,7 +236,7 @@ The Sling Resource Merger includes two custom resource providers - one for overl
 
 * Overlay:
 
-    * purpose: merge resources based on their search path  
+    * purpose: merge resources based on their search path 
     * mount point: `/mnt/overlay`
     * usage: `mount point + relative path`
     * example:
@@ -233,7 +245,7 @@ The Sling Resource Merger includes two custom resource providers - one for overl
 
 * Override:
 
-    * purpose: merge resources based on their super type  
+    * purpose: merge resources based on their super type 
     * mount point: `/mnt/overide`
     * usage: `mount point + absolute path`
     * example:
