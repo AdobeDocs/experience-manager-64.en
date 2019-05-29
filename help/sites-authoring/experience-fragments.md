@@ -116,8 +116,7 @@ To create an Experience Fragment:
 
    A message will be displayed. Select:
 
-    * **Done** to return to the console   
-    
+    * **Done** to return to the console 
     * **Open** to open the fragment editor
 
 ## Editing your Experience Fragment {#editing-your-experience-fragment}
@@ -177,7 +176,7 @@ You can now use your Experience Fragment when authoring your pages:
 
 1. Add the actual Experience Fragment to the component instance; either:
 
-    * Drag the required fragment from the Assets Browser and drop onto the component  
+    * Drag the required fragment from the Assets Browser and drop onto the component 
     * Select **Configure** from the component toolbar and specify the fragment to use, confirm with **Done** (tick)
 
    ![](assets/xf-authoring-10.png)

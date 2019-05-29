@@ -78,7 +78,6 @@ If too many changes and commits are made to the repository in a short amount of 
 1. Open the Oak Repository Statistics MBean and determine if any `ObservationQueueMaxLength` value is greater than 10,000.
 
     * In normal operations, this maximum value must always eventually reduce to zero (especially in the `per second` section) so verify that the `ObservationQueueMaxLength`'s seconds metrics are 0.
-    
     * If the values are 10,000 or more, and increase steadily, this indicates at least one (possibly more) queues cannot be processed as fast as new changes (commits) occur.
     * Each observation queue has a limit (10,000 by default) and if the queue hits that limit, its processing degrades.
     * When using MongoMK, as queue lengths grow large, internal Oak cache performance degrades. This correlation can be seen in an increased `missRate` for the `DocChildren` cache in the `Consolidated Cache` statistics MBean.

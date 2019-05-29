@@ -229,7 +229,7 @@ There are various help resources available:
 
     * **Documentation** 
       View the Web Experience Management documentation
-    
+  
     * **Developer Resources** 
       Developer resources and downloads
 
@@ -401,7 +401,7 @@ Selecting a resource in the leftmost column will display the child resources in 
     * A visual representation of the page content.
     * The page title.
     * Important dates (such as last edited, last published).
-    * If the page is locked, hidden or part of a livecopy.  
+    * If the page is locked, hidden or part of a livecopy.
     * If appropriate, when you are required to take action as part of a workflow.
 
         * Markers that indicate required actions may be related to entries in your [Inbox](/help/sites-authoring/inbox.md).

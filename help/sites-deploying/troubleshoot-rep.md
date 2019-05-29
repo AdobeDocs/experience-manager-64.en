@@ -73,7 +73,6 @@ Sometimes it can be very helpful to set all replication logging to be added in a
 
     * Log Level: DEBUG
     * Log File Path: *(CQ5.4 and 5.3)* ../logs/replication.log *(CQ5.5)* logs/replication.log
-    
     * Categories: com.day.cq.replication
 
 1. If you suspect the problem to be related to sling eventing/jobs in any way then you can also add this java package under categories:org.apache.sling.event

@@ -86,7 +86,7 @@ There are various forms of non-text content, so the value of the text alternativ
 * Text alternatives should be succinct yet clearly capture the essential information provided by the non-text content.
 * Overly long descriptions (over 100 characters) should be avoided. If a text alternative requires more detail:
 
-    * provide a short description in the alternative text  
+    * provide a short description in the alternative text 
     * and have a longer description in text elsewhere on the same page or in a separate web page. Link to this separate description by making the image a link, or by placing a text link adjacent to the image.
 
 * Alternative text should not replicate content provided in text form nearby on the same page. Remember that many images are illustrations of points already covered in the text of a page, so a detailed text alternative may already exist.
@@ -119,14 +119,16 @@ Specific types of non-text content that require text alternatives might include:
   In AEM this can be done using a combination of the **Alt Text** and **Description** fields in the image’s configuration dialog - as in [How to Meet - Non-text Content (1.1.1)](#how-to-meet-non-text-content).
 
 * Maps, diagrams, flowcharts: For graphics providing spatial data (for example. to support describing relationships between objects or a process), ensure that the key message is provided in text format. For maps, providing a full text equivalent is likely to be impractical, but if the map is provided as a way of helping people find their way to a particular location, then the map image’s alternative text can briefly indicate *Map of X*, then provide directions to that location in text elsewhere in the page or through the **Description** field in the **Advanced** tab of the **Image** component.
-* CAPTCHAs: A CAPTCHA is a *Completely Automated Public Turing test to tell Computers and Humans Apart*. It is a security check used on web pages to distinguish humans from malicious software, but which can cause accessibility barriers. They are images that require users to describe what they see in order to pass a security test. Providing a text alternative for the image is obviously not possible, so instead you will need to consider alternative non-graphic solutions.  
+* CAPTCHAs: A CAPTCHA is a *Completely Automated Public Turing test to tell Computers and Humans Apart*. It is a security check used on web pages to distinguish humans from malicious software, but which can cause accessibility barriers. They are images that require users to describe what they see in order to pass a security test. Providing a text alternative for the image is obviously not possible, so instead you will need to consider alternative non-graphic solutions.
+
   The W3C provides a number of suggestions, such as:Each of these approaches has their own merits and drawbacks.
 
     * Logic puzzles
     * The use of sound output instead of images
     * Limited use accounts and spam filters.
 
-* Background images: These are achieved using Cascading Style Sheets (CSS) rather than in HTML. This means it is not possible to specify an alternative text value. Therefore background images should not provide important textual information - if they do, this information must also be provided in the page’s text.  
+* Background images: These are achieved using Cascading Style Sheets (CSS) rather than in HTML. This means it is not possible to specify an alternative text value. Therefore background images should not provide important textual information - if they do, this information must also be provided in the page’s text.
+
   However, it is important that an alternative background is displayed when the image cannot be displayed.
 
   >[!NOTE]
@@ -171,7 +173,8 @@ Providing this information in a different format, such as text (or audio for vid
 
 * If the content is pre-recorded audio with no video (such as a podcast):
 
-    * Provide a link immediately before or after the content to a text-transcript of the audio content.  
+    * Provide a link immediately before or after the content to a text-transcript of the audio content.
+  
       The transcript should be an HTML page with a text equivalent of all spoken and important non-spoken content, plus an indication of who is speaking, a description of the setting, vocal expressions and a description of any other significant audio.
 
 * If the content is an animation or pre-recorded video with no audio:
@@ -248,7 +251,6 @@ There are two approaches that can be adopted to meet this success criterion. Eit
     * Provide an new, additional and optional audio track containing the original soundtrack, but also including extra audio information about changes in the scene.
 
         * This allows users to switch between the existing audio track (which *does not* contain an audio description) and the new audio track (which *does* contain an audio description).
-        
         * This prevents disruption to users who do not need the additional description.
 
     * Create a second version of the video content to allow for extended audio descriptions. This reduces the difficulties associated with providing detailed audio descriptions within the gaps between existing dialogue, by temporarily pausing the audio and video at appropriate points. As a result, a much longer audio description can be given, before the action starts again. As in the previous example, this is best provided as an optional extra audio track in order to prevent disruption to users who do not need the additional description.
@@ -364,10 +366,12 @@ You can make sure your web pages are given the appropriate structure by:
 
 * **Use lists**: You can use HTML to specify three different types of lists:
 
-    * The `<ul>` element is used for *unordered* lists (bulleted) lists. Individual list items are identified using the `<li>` element.  
+    * The `<ul>` element is used for *unordered* lists (bulleted) lists. Individual list items are identified using the `<li>` element.
+
       in the RTE, use the **Bullet List** icon.
-    
-    * The `<ol>` element is used for *numbered lists*. Individual list items are identified using the `<li>` element.  
+  
+    * The `<ol>` element is used for *numbered lists*. Individual list items are identified using the `<li>` element. 
+  
       In the RTE, use the **Numbered List** icon.
 
   If you want to change existing content into a specific list type, highlight the appropriate text and select the appropriate list type. As in the earlier example showing how paragraph text is entered, the appropriate list elements are automatically added to your HTML.

@@ -125,9 +125,11 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
       ` Element root = (Element)document.createElement("DDX");  root.setAttribute("xmlns","https://ns.adobe.com/DDX/1.0/");  document.appendChild(root);`
     
     * Create the `PDFsFromBookmarks` element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Set a value for the `PDFsFromBookmarks` element by calling its `setAttribute` method. Append the `PDFsFromBookmarks` element to the `DDX` element by calling the DDX element’s `appendChild` method. Pass the `PDFsFromBookmarks` element object as an argument. The following lines of code show this application logic:
+
       ` Element PDFsFromBookmarks = (Element)document.createElement("PDFsFromBookmarks");  PDFsFromBookmarks.setAttribute("prefix","stmt");  root.appendChild(PDFsFromBookmarks);`
     
     * Create a `PDF` element by calling the `Document` object’s `createElement` method. Pass a string value that represents the element’s name. Cast the return value to `Element`. Set a value for the `PDF` element by calling its `setAttribute` method. Append the `PDF` element to the `PDFsFromBookmarks` element by calling the `PDFsFromBookmarks` element’s `appendChild` method. Pass the `PDF` element object as an argument. The following lines of code shows this application logic:
+
       ` Element PDF = (Element)document.createElement("PDF");  PDF.setAttribute("source","AssemblerResultPDF.pdf");  PDFsFromBookmarks.appendChild(PDF);`
 
 1. Convert the DDX document.
@@ -212,12 +214,15 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
 
     * Create a `System.Xml.XmlElement` object by using its constructor.
     * Create the DDX document’s root element by invoking the `XmlElement` object’s `CreateElement` method. This method creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `CreateElement` method. Set a value for the DDX element by calling its `SetAttribute` method. Finally, append the element to the DDX document by calling the `XmlElement` object’s `AppendChild` method. Pass the DDX object as an argument. The following lines of code show this application logic:
+
       ` System.Xml.XmlElement root = ddx.CreateElement("DDX");  root.SetAttribute("xmlns", "https://ns.adobe.com/DDX/1.0/");  ddx.AppendChild(root);`
     
     * Create the DDX document’s `PDFsFromBookmarks` element by calling the `XmlElement` object’s `CreateElement` method. Pass a string value representing the name of the element to the `CreateElement` method. Next, set a value for the element by calling its `SetAttribute` method. Append the `PDFsFromBookmarks` element to the root element by calling the `DDX` element’s `AppendChild` method. Pass the `PDFsFromBookmarks` element object as an argument. The following lines of code show this application logic:
+
       ` XmlElement PDFsFromBookmarks = ddx.CreateElement("PDFsFromBookmarks");  PDFsFromBookmarks.SetAttribute("prefix", "stmt");  root.AppendChild(PDFsFromBookmarks);`
     
     * Create the DDX document’s `PDF` element by calling the `XmlElement` object’s `CreateElement` method. Pass a string value representing the name of the element to the `CreateElement` method. Next, set a value for the child element by calling its `SetAttribute` method. Append the `PDF` element to the `PDFsFromBookmarks` element by calling the `PDFsFromBookmarks` element’s `AppendChild` method. Pass the `PDF` element object as an argument. The following lines of code shows this application logic:
+
       ` XmlElement PDF = ddx.CreateElement("PDF");  PDF.SetAttribute("source", "AssemblerResultPDF.pdf");  PDFsFromBookmarks.AppendChild(PDF);`
 
 1. Convert the DDX document.
@@ -225,6 +230,7 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
     * Create a `System.IO.MemoryStream` object by using its constructor.
     * Populate the `MemoryStream` object with the DDX document by using the `XmlElement` object that represents the DDX document. Invoke the `XmlElement` object’s `Save` method and pass the `MemoryStream` object.
     * Create a byte array and populate it with data located in the `MemoryStream` object. The following code shows this application logic:
+    
       ` int bufLen = Convert.ToInt32(stream.Length);  byte[] byteArray = new byte[bufLen];  stream.Position = 0;  int count = stream.Read(byteArray, 0, bufLen);`
     
     * Create a `BLOB` object. Assign the byte array to the `BLOB` object’s `MTOM` field.

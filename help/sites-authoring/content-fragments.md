@@ -71,7 +71,6 @@ The content fragments enable:
 1. You can either:
 
     * Open the **Assets** browser and filter for **Content Fragments** (the default is Images). Then drag the required fragment onto the component instance.
-    
     * Select the content fragment component, then **Configure** from the toolbar. In the dialog you can open the selection dialog to browse and select the required **Content Fragment**.
 
    >[!NOTE]
@@ -102,7 +101,6 @@ In the appropriate configuration dialog you can select the available parameters,
 * **Display Mode**:
 
     * **Single Text Element** 
-    
     * **Multiple Element**
 
 * **Element**

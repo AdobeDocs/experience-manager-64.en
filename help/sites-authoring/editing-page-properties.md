@@ -149,9 +149,11 @@ The properties are distributed across several tabs.
    Shows the page thumbnail image. You can:
 
     * **Generate Preview** 
-      Generate a preview of the page to use as thumbnail.  
-    
+
+      Generate a preview of the page to use as thumbnail. 
+
     * **Upload Image** 
+
       Upload an image to use as thumbnail.
 
 ### Social Media {#social-media}
@@ -184,8 +186,7 @@ The properties are distributed across several tabs.
   In this tab you can:
 
     * [Add Permissions](/help/sites-administering/user-group-ac-admin.md)
-    * [Edit Closed User Group](/help/sites-administering/cug.md#applying-your-closed-user-group-to-content-pages)  
-    
+    * [Edit Closed User Group](/help/sites-administering/cug.md#applying-your-closed-user-group-to-content-pages) 
     * View the [Effective Permissions](/help/sites-administering/user-group-ac-admin.md)
 
   >[!CAUTION]
@@ -221,8 +222,7 @@ You can define page properties:
 
 * From the **Sites** console:
 
-    * [Creating a new page](/help/sites-authoring/managing-pages.md#creating-a-new-page) (a subset of the properties)  
-    
+    * [Creating a new page](/help/sites-authoring/managing-pages.md#creating-a-new-page) (a subset of the properties)
     * Clicking or tapping **Properties**
 
         * For a single page
@@ -310,7 +310,7 @@ Once you have entered Bulk Editing you can:
 
     * A subset of properties
 
-        * Properties that are available on all selected pages and have been explicitly defined as available to bulk editing are visible.  
+        * Properties that are available on all selected pages and have been explicitly defined as available to bulk editing are visible.
         * If you reduce the page selection to one page, then all properties are visible.
 
     * Common properties with a common value

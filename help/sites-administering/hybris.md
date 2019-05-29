@@ -213,7 +213,7 @@ The following properties indicate the link with hybris:
        For example:
 
        [`http://localhost:4502/crx/de/index.jsp#/etc/commerce/products`](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)
-    
+  
     1. Delete the node that holds your product data; for example, `outdoors`.
     1. **Save All** to persist the change.
 
@@ -388,12 +388,12 @@ To remove one, or more, products from the catalog:
     * Open: 
 
       [http://localhost:4502/aem/catalogs.html/content/catalogs/geometrixx-outdoors-hybris](http://localhost:4502/aem/catalogs.html/content/catalogs/geometrixx-outdoors-hybris)
-    
+  
     * Rollout the `Hybris Base` catalog
     * Open: 
 
       [http://localhost:4502/editor.html/content/geometrixx-outdoors/en_US/equipment/biking.html](http://localhost:4502/editor.html/content/geometrixx-outdoors/en_US/equipment/biking.html)
-    
+  
     * The `Cajamara` product will have been removed from the `Bike` category
 
 1. To re-instate the product:

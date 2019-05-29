@@ -169,19 +169,24 @@ blobCacheSize=1024
 
 Where:
 
-* `mongodburi`  
+* `mongodburi`
+
   This is the MongoDB server AEM needs to connect to. Connections are made to all known members of the default replica set. If MongoDB Cloud Manager is used, server security is enabled. Consequently, the connection string must contain a suitable username and password. Non-enterprise versions of MongoDB only support username and password authentication. For more information on the connection string syntax, consult the [documentation](https://docs.mongodb.org/manual/reference/connection-string/).
 
-* `db`  
+* `db`
+
   The name of the database. The default for AEM is `aem-author`.
 
-* `customBlobStore`  
+* `customBlobStore`
+
   If the deployment stores binaries in the database, they will form part of the working set. For that reason it is advised not to store binaries within MongoDB, perfering an alternative datastore like a `FileSystem` datastore on a NAS.
 
-* `cache`  
+* `cache`
+
   The cache size in Megabytes. This is distributed among various caches used in the `DocumentNodeStore`. The default is 256MB. However, Oak read performance will benefit from a bigger cache.
 
-* `blobCacheSize`  
+* `blobCacheSize`
+
   Frequently used blobs may be cached by AEM to avoid refetching them from the data store. This will have more impact on performance especially when storing blobs in the MongoDB database. All the file system based Data Stores will benefit from the operating system level disk cache.
 
 #### Data Store Configuration {#data-store-configuration}
@@ -201,16 +206,20 @@ cacheSizeInMB=128
 
 Where:
 
-* `minRecordLength`  
+* `minRecordLength`
+
   Size in bytes. Binaries less than or equal to this size are stored with the Document Node Store. Rather than storing the ID of the blob, the content of the binary is stored. For binaries greater than this size the ID of the binary is stored as a property of the Document in the nodes collection, and the body of the binary is stored in the `FileDataStore` on disk. 4096 bytes is a typical file system block size.
 
-* `path`  
+* `path`
+
   The path to the root of the data store. For a MongoMK deployment, this must be a shared file system avaiable to all AEM instances. Typically a Network Attached Storage (NAS) server is used. For cloud deployments like Amazon Web Services, the `S3DataFileStore` is also available.
 
-* `cacheSizeInMB`  
+* `cacheSizeInMB`
+
   The total size of the binary cache in Megabytes. It is used to cache binaries less than the `maxCacheBinarySize` setting.
 
-* `maxCachedBinarySize`  
+* `maxCachedBinarySize`
+
   The maximum size in bytes of a binary cached in the binary cache. If a file system based Data Store is used, it is not recommended to use high values for the Data Store cache since the binaries are already cached by the operating system.
 
 #### Disabling the Query Hint {#disabling-the-query-hint}
@@ -382,19 +391,24 @@ The MongoDB process will behave differently under different allocation policies:
 
 ```
 
-* `-membind=<nodes>`  
+* `-membind=<nodes>`
+
   Allocate only on the nodes listed. Mongod will not allocate memory on nodes listed and may not use all the available memory.
 
-* `-cpunodebind=<nodes>`  
+* `-cpunodebind=<nodes>`
+
   Only execute on the nodes. Mongod will only run on the nodes specified and only use memory available on those nodes.
 
-* `-physcpubind=<nodes>`  
+* `-physcpubind=<nodes>`
+
   Only execute on CPUs (cores) listed. Mongod will only run on the CPUs listed and only use memory available on those CPUs.
 
-* `--localalloc`  
+* `--localalloc`
+
   Always allocate memory on the current node, but use all nodes the thread runs on. If one thread performs allocation, then only the memory available to that CPU will be used.
 
-* `--preferred=<node>`  
+* `--preferred=<node>`
+
   Prefers allocation to a node, but falls back to others if the preferred node is full. Relative notation for defining a node may be used. Also, the threads run on all nodes.
 
 Some of the policies may result in less than all the available RAM being given to the `mongod` process. Unlike MySQL, MongoDB actively avoids operating system level paging, and consequently the `mongod` process may get less memory that appears available.

@@ -77,10 +77,12 @@ Sketches are a feature of annotations that allow you to create simple line graph
 * The cursor will change to a crosswire when you are in sketch mode. You can draw multiple distinct lines.  
 * The sketch line reflects the annotation color and can be either:
 
-    * freehand  
-      the default mode; finish by releasing the mouse button.  
-    
-    * straight:  
+    * freehand 
+
+      the default mode; finish by releasing the mouse button.
+  
+    * straight: 
+
       hold down `ALT` and click the start and end points; finish with a double-click.
 
 * After you have exited sketch modus, you can click on a sketch line to select that sketch.

@@ -86,15 +86,11 @@ Below is the procedure that needs to be followed in order to create a setup with
 1. Shutdown your instance, and copy its installation folder to the location where the cold standby instance will run from. Even if run from different machines, make sure to give each folder a descriptive name (like *aem-primary* or *aem-standby*) to differentiate between the instances.
 1. Go to the installation folder of the primary instance and:
 
-    1. Check and delete any preivous OSGi configurations you might have under `aem-primary/crx-quickstart/install`  
-    
+    1. Check and delete any preivous OSGi configurations you might have under `aem-primary/crx-quickstart/install`
     1. Create a folder called `install.primary` under `aem-primary/crx-quickstart/install`
-    
     1. Create the required configurations for the prefered node store and data store under `aem-primary/crx-quickstart/install/install.primary`
     1. Create a file called `org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService.config` in the same location and configure it accordingly. For more information on the configuration options, see [Configuration](/help/sites-deploying/tarmk-cold-standby.md#configuration).
-    
     1. If you are using an AEM TarMK instance with an external data store, create a folder named `crx3` under `aem-primary/crx-quickstart/install` named `crx3`
-    
     1. Place the data store configuration file in the `crx3` folder.
 
    If, for example, you are running an AEM TarMK instance with an external File Data Store, you need these configuration files:
@@ -142,14 +138,12 @@ Below is the procedure that needs to be followed in order to create a setup with
 
     1. Delete any files you might have under `aem-standby/crx-quickstart/install`.
     1. Create a new folder called `install.standby` under `aem-standby/crx-quickstart/install`
-    
     1. Create two configuration files called:
 
         * `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config`
         * `org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService.config`
 
     1. Create a new folder called `crx3` under `aem-standby/crx-quickstart/install`
-    
     1. Create the data store configuration and place it under `aem-standby/crx-quickstart/install/crx3`. For this example, the file you need to create is:
 
         * org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.config
@@ -276,11 +270,8 @@ The following OSGi settings are available for the Cold Standby service:
 
 * **Allowed IP-Ranges (`primary.allowed-client-ip-ranges`):** - the IP ranges that the primary will allow connections from.
 * **Secure (`secure`):** Enable SSL encryption. In order to make use of this setting, it must be enabled on all instances.
-* **Standby Read Timeout (`standby.readtimeout`):** Timeout for requests issued from the standby instance in milliseconds. **The recommended timeout setting is 43200000. It is generally advised you set the timeout to a value of at least 12 hours.  
-  **
-
-* **Standby Automatic Cleanup (`standby.autoclean`): **Call the cleanup method if the size of the store increases on a sync cycle**.  
-  **
+* **Standby Read Timeout (`standby.readtimeout`):** Timeout for requests issued from the standby instance in milliseconds. **The recommended timeout setting is 43200000. It is generally advised you set the timeout to a value of at least 12 hours.**
+* **Standby Automatic Cleanup (`standby.autoclean`):** Call the cleanup method if the size of the store increases on a sync cycle.
 
 >[!NOTE]
 >
@@ -336,11 +327,8 @@ Observing a standby instance you will expose one node. The ID is usually a gener
 This node has five read-only attributes:
 
 * `Running:` boolean value indicating whether the sync process is running or not.  
-
 * `Mode:` Client: followed by the UUID used to identify the instance. Note that this UUID will change every time the configuration is updated.  
-
 * `Status:` a textual representation of the current state (like `running` or `stopped`).
-
 * `FailedRequests:`the number of consecutive errors.
 * `SecondsSinceLastSuccess:` the number of seconds since the last successful communication with the server. It will display `-1` if no successful communication has been made.
 
