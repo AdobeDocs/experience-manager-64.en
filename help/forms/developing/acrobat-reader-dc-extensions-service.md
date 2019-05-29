@@ -51,7 +51,7 @@ The following Java code example applies usage rights to a PDF document named *Lo
      * 17. xalan.jar (required for SOAP mode) 
      * 18. xbean.jar (required for SOAP mode) 
      * 19. xercesImpl.jar (required for SOAP mode) 
-    * 
+     * 
      * These JAR files are located in the following path: 
      * <install directory>/sdk/client-libs/common 
      * 
@@ -147,23 +147,23 @@ The following Java code example removes usage rights from a rights-enabled PDF d
      * 1. adobe-reader-extensions-client.jar 
      * 2. adobe-livecycle-client.jar 
      * 3. adobe-usermanager-client.jar 
-    * 4. activation.jar (required for SOAP mode) 
-    * 5. axis.jar (required for SOAP mode) 
-    * 6. commons-codec-1.3.jar (required for SOAP mode) 
-    * 7. commons-collections-3.2.jar  (required for SOAP mode) 
-    * 8. commons-discovery.jar (required for SOAP mode) 
-    * 9. commons-logging.jar (required for SOAP mode) 
-    * 10. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
-    * 11. jaxen-1.1-beta-9.jar (required for SOAP mode) 
-    * 12. jaxrpc.jar (required for SOAP mode) 
-    * 13. log4j.jar (required for SOAP mode) 
-    * 14. mail.jar (required for SOAP mode) 
-    * 15. saaj.jar (required for SOAP mode) 
-    * 16. wsdl4j.jar (required for SOAP mode) 
-    * 17. xalan.jar (required for SOAP mode) 
-    * 18. xbean.jar (required for SOAP mode) 
-    * 19. xercesImpl.jar (required for SOAP mode) 
-    * 
+     * 4. activation.jar (required for SOAP mode) 
+     * 5. axis.jar (required for SOAP mode) 
+     * 6. commons-codec-1.3.jar (required for SOAP mode) 
+     * 7. commons-collections-3.2.jar  (required for SOAP mode) 
+     * 8. commons-discovery.jar (required for SOAP mode) 
+     * 9. commons-logging.jar (required for SOAP mode) 
+     * 10. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
+     * 11. jaxen-1.1-beta-9.jar (required for SOAP mode) 
+     * 12. jaxrpc.jar (required for SOAP mode) 
+     * 13. log4j.jar (required for SOAP mode) 
+     * 14. mail.jar (required for SOAP mode) 
+     * 15. saaj.jar (required for SOAP mode) 
+     * 16. wsdl4j.jar (required for SOAP mode) 
+     * 17. xalan.jar (required for SOAP mode) 
+     * 18. xbean.jar (required for SOAP mode) 
+     * 19. xercesImpl.jar (required for SOAP mode) 
+     * 
      * The JBoss files must be kept in the jboss\client folder. You can copy the client folder to  
      * your local development environment and then include the 3 JBoss JAR files in your class path 
      * 
@@ -247,23 +247,23 @@ The following Java code example retrieves information about the credential that 
      * 1. adobe-reader-extensions-client.jar 
      * 2. adobe-livecycle-client.jar 
      * 3. adobe-usermanager-client.jar 
-    * 4. activation.jar (required for SOAP mode) 
-    * 5. axis.jar (required for SOAP mode) 
-    * 6. commons-codec-1.3.jar (required for SOAP mode) 
-    * 7. commons-collections-3.2.jar  (required for SOAP mode) 
-    * 8. commons-discovery.jar (required for SOAP mode) 
-    * 9. commons-logging.jar (required for SOAP mode) 
-    * 10. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
-    * 11. jaxen-1.1-beta-9.jar (required for SOAP mode) 
-    * 12. jaxrpc.jar (required for SOAP mode) 
-    * 13. log4j.jar (required for SOAP mode) 
-    * 14. mail.jar (required for SOAP mode) 
-    * 15. saaj.jar (required for SOAP mode) 
-    * 16. wsdl4j.jar (required for SOAP mode) 
-    * 17. xalan.jar (required for SOAP mode) 
-    * 18. xbean.jar (required for SOAP mode) 
-    * 19. xercesImpl.jar (required for SOAP mode) 
-    * 
+     * 4. activation.jar (required for SOAP mode) 
+     * 5. axis.jar (required for SOAP mode) 
+     * 6. commons-codec-1.3.jar (required for SOAP mode) 
+     * 7. commons-collections-3.2.jar  (required for SOAP mode) 
+     * 8. commons-discovery.jar (required for SOAP mode) 
+     * 9. commons-logging.jar (required for SOAP mode) 
+     * 10. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
+     * 11. jaxen-1.1-beta-9.jar (required for SOAP mode) 
+     * 12. jaxrpc.jar (required for SOAP mode) 
+     * 13. log4j.jar (required for SOAP mode) 
+     * 14. mail.jar (required for SOAP mode) 
+     * 15. saaj.jar (required for SOAP mode) 
+     * 16. wsdl4j.jar (required for SOAP mode) 
+     * 17. xalan.jar (required for SOAP mode) 
+     * 18. xbean.jar (required for SOAP mode) 
+     * 19. xercesImpl.jar (required for SOAP mode) 
+     * 
      * The JBoss files must be kept in the jboss\client folder. You can copy the client folder to  
      * your local development environment and then include the 3 JBoss JAR files in your class path 
      * 

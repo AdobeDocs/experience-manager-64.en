@@ -12,7 +12,7 @@ topic-tags: development-tools
 discoiquuid: ac9fe461-63e7-442b-bd1c-eb9576ef55aa
 ---
 
-# Understanding AEM Forms Processes{#understanding-aem-forms-processes}
+# Understanding AEM Forms Processes {#understanding-aem-forms-processes}
 
 A common use case is for a set of AEM Forms services to operate on a single document. You can send a request to the service container by creating a process using Workbench. A process represents a business process that you are automating. For information about creating processes, see [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).
 

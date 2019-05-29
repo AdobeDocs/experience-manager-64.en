@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 9e8db506-9ace-4e1f-8a7b-c4e9b15dde7e
 ---
 
-# Assigning Usage Rights{#assigning-usage-rights}
+# Assigning Usage Rights {#assigning-usage-rights}
 
 ## About the Acrobat Reader DC extensions Service {#about-the-acrobat-reader-dc-extensions-service}
 

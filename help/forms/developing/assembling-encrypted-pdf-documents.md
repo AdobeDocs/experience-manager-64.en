@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 6d75c7b1-9c0e-47f3-bdb1-61acf16b97f9
 ---
 
-# Assembling Encrypted PDF Documents{#assembling-encrypted-pdf-documents}
+# Assembling Encrypted PDF Documents {#assembling-encrypted-pdf-documents}
 
 You can encrypt a PDF document with a password by using the Assembler service. After a PDF document is encrypted with a password, a user must specify the password to view the PDF document in Adobe Reader or Acrobat. To encrypt a PDF document with a password, the DDX document must contain encryption element values that are required to encrypt a PDF document.
 
@@ -34,7 +34,7 @@ Within this DDX document, notice that the source attribute is assigned the value
 
 In contrast, when passing two or more input PDF documents to the Assembler service, you can invoke the `invokeDDX` operation. In this situation, assign the file name of the input PDF document to the `source` attribute.
 
-The Encryption service does not have to be part of your AEM forms installation to encrypt a PDF document with a password. See [Encrypting and Decrypting PDF Documents](/help/forms/developing/encrypting-decrypting-pdf-documents-encrypting encrypting-decrypting-pdf-documents-encrypting.md#encrypting-and-decrypting-pdf-documents).
+The Encryption service does not have to be part of your AEM forms installation to encrypt a PDF document with a password. See [Encrypting and Decrypting PDF Documents](/help/forms/developing/encrypting-decrypting-pdf-documents.md).
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ If only a single PDF document is being passed to the Assembler service, the Asse
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md)
 
 ## Assemble an encrypted PDF document using the Java API {#assemble-an-encrypted-pdf-document-using-the-java-api}
 
