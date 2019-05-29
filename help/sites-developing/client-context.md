@@ -188,10 +188,12 @@ AEM provides the genericstore and the genericstoreproperties context store compo
 
 * Complex data: Extend the `GenericStore` component. Your session store will then need a "renderer" method that will be called every time the component needs to be rendered. The renderer function is called with two parameters:
 
-    * `@param {String} store`  
+    * `@param {String} store`
+
       The store to render
-    
-    * `@param {String} divId`  
+  
+    * `@param {String} divId`
+
       Id of the div into which the store has to be rendered.
 
 >[!NOTE]
@@ -317,9 +319,12 @@ The tag has the following format:
 
 Your session store will then need a "renderer" method that will be called every time the component needs to be rendered. The renderer function is called with two parameters:
 
-* @param {String} store  
+* @param {String} store 
+
   The store to render
-* @param {String} divId  
+
+* @param {String} divId
+
   Id of the div into which the store has to be rendered.
 
 ## Interacting with Session Stores {#interacting-with-session-stores}
@@ -610,12 +615,16 @@ To create a second client context you need to duplicate the branch:
 
 `/etc/clientcontext/default`
 
-* The subfolder:  
-  `/content`  
+* The subfolder:
+
+  `/content` 
+
   will contain the content of the customized client context.
 
-* The folder:  
-  `/contextstores`  
+* The folder: 
+
+  `/contextstores` 
+  
   allows you to define different configurations for the context stores.
 
 To use your customized client context, edit the property  

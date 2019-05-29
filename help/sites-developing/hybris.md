@@ -55,8 +55,10 @@ The eCommerce framework can be used with any eCommerce solution, the engine bein
 
 * The `cq:commerceProvider` property is also used to reference the appropriate commerce factory definition.
 
-    * For example, a `cq:commerceProvider` property with the value `hybris` will correlate to the OSGi configuration for **Day CQ Commerce Factory for Hybris** (com.adobe.cq.commerce.hybris.impl.HybrisServiceFactory) - where the parameter `commerceProvider` also has the value `hybris`.  
-    
+    * For example, a `cq:commerceProvider` property with the value `hybris` will correlate to the OSGi configuration for **Day CQ Commerce Factory for Hybris**
+
+    (com.adobe.cq.commerce.hybris.impl.HybrisServiceFactory) - where the parameter `commerceProvider` also has the value `hybris`.
+
     * Here further properties, such as **Catalog version** can be configured (when appropriate and available).
 
 See the following examples below:
@@ -101,8 +103,10 @@ The default settings in the code are tuned for Hybris 5.
 
 To develop for Hybris 4 the following is required:
 
-* When invoking maven add the following command line argument to the command  
-  `-P hybris4`  
+* When invoking maven add the following command line argument to the command 
+
+  `-P hybris4` 
+
   It downloads the pre-configured Hybris 4 distribution and embeds it in the bundle:
 
   ```
@@ -112,7 +116,7 @@ To develop for Hybris 4 the following is required:
 
 * In the OSGi configuration manager:
 
-    * Disable Hybris 5 support for the Default Response Parser service.  
+    * Disable Hybris 5 support for the Default Response Parser service. 
     * Ensure that Hybris Basic Authentication Handler service has a lower service ranking than Hybris OAuth Handler service.
 
 ### Session Handling {#session-handling}
@@ -132,10 +136,12 @@ hybris uses a user session to store information such as the customer's shopping 
 * This session "owns" the **shopping cart**
 
     * performs add/remove/etc
-    * performs the various calculations on the cart;  
+    * performs the various calculations on the cart; 
+
       `commerceSession.getProductPrice(Product product)`
 
-* Owns the *storage location* for the **order** data  
+* Owns the *storage location* for the **order** data 
+
   `CommerceSession.getUserContext()`
 
 * Also owns the **payment** processing connection
@@ -161,9 +167,7 @@ Product data that is maintained in hybris needs to be available in AEM. The foll
 
 * The hybris extension provides a polling importer ("hybris" scheme"), which can be configured to import changes into AEM at a specified interval (for example, every 24 hours where the interval is specified in seconds):
 
-    * 
-    
-      ```    
+    * ``` 
       http://localhost:4502/content/geometrixx-outdoors/en_US/jcr:content.json
        {
        * "jcr:mixinTypes": ["cq:PollConfig"],
@@ -183,8 +187,7 @@ Product data that is maintained in hybris needs to be available in AEM. The foll
 
 * Activating a page in AEM (c) requires a check (b) and is only possible if
 
-    * The product is in an **Online** catalog version for product pages.  
-    
+    * The product is in an **Online** catalog version for product pages.
     * The referenced products are available in an **Online** catalog version for other pages (e.g. campaign pages).
 
 * Activated product pages need to access the product data's **Online** version (d).  
@@ -299,7 +302,7 @@ public interface VariantFilter {
  * <code>product.getVariants(new AxisFilter("color", "blue"));</code>
  */
 public class AxisFilter implements VariantFilter {
-    
+
     private String axis;
     private String value;
 
@@ -333,7 +336,6 @@ public class AxisFilter implements VariantFilter {
         * A reference, with the product data stored elsewhere:
 
             * Product references contain a `productData` property, which points to the product data (typically under `/etc/commerce/products`).
-            
             * The product data is hierarchical; product attributes are inherited from a product data node's ancestors.
             * Product references can also contain local properties, which override those specified in their product data.
 
@@ -529,10 +531,12 @@ This makes use of the search API to query the selected commerce engine (see [eCo
 
 There are several generic / helper classes provided by the core project:
 
-1. `CommerceQuery`  
+1. `CommerceQuery`
+
    Is used to describe a search query (contains information about the query text, current page, page size, sort and selected facets). All eCommerce services that implement the search API will receive instances of this class in order to perform their search. A `CommerceQuery` can be instantiated from a request object ( `HttpServletRequest`).
 
-1. `FacetParamHelper`  
+1. `FacetParamHelper`
+
    Is a utility class that provides one static method - `toParams` - that is used for generating `GET` parameter strings from a list of facets and one toggled value. This is useful on the UI side, where you need to display a hyperlink for each value of each facet, such that when the user clicks on the hyperlink the respective value is toggled (i.e. if it was selected it is removed from the query, otherwise added). This takes care of all the logic of handling multiple/single-valued facets, overriding values, etc.
 
 The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the [API Documentation](/help/sites-developing/ecommerce.md#api-documentation) for more information on this topic.
@@ -541,10 +545,12 @@ The entry point for the search API is the `CommerceService#search` method which 
 
 Integration is provided between AEM and various eCommerce systems. This requires a strategy for synchronizing shoppers between the various systems so that AEM-specific code only has to know about AEM and vice-versa:
 
-* Authentication  
+* Authentication 
+
   AEM is presumed to be the *only* web front-end and therefore performs *all* authentication.
 
-* Slave Accounts  
+* Slave Accounts 
+
   AEM creates a slave account in hybris for each shopper. The username of the slave account is the same as the AEM username. A cryptographically-random password is auto-generated and stored (encrypted) in AEM.
 
 #### Pre-existing Users {#pre-existing-users}

@@ -76,7 +76,7 @@ To successfully invoke an AEM Forms Document Security service with CAC cards aut
 * **DSC_PKCS11_LIBRARY_PATH**: Specifies path to the library or .dll file of CAC card reader software.
 * **DSC_PKCS11_SLOT_ID** (Optional): Specifies a slot number of the CAC card to read. A CAC card can have multiple slots and every slot can have multiple client private key certificates.
 * **DSC_PKCS11_PIN**: Specifies pkcs11 pin/password for CAC card authentication.
-* **DSC_PKCS11_CERT_LIST_CALLBACK_CLASS **(Optional)**:** If your pkcs11 card can have multiple certificates, you can use the option to display a popup to the user to select a certificate.
+* **DSC_PKCS11_CERT_LIST_CALLBACK_CLASS **(Optional): If your pkcs11 card can have multiple certificates, you can use the option to display a popup to the user to select a certificate.
 
 ### Client Truststore properties {#client-truststore-properties}
 

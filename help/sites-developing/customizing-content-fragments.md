@@ -43,8 +43,8 @@ Depending on the type of fragment, either models or templates are also used:
 
   * Used for defining content fragments that hold structured content.
   * Content fragment models define the structure of a content fragment when it is created.
-  * A fragment references the model; so changes to the model may/will impact any dependent fragments.  
-  * Models are built-up of data types.  
+  * A fragment references the model; so changes to the model may/will impact any dependent fragments.
+  * Models are built-up of data types.
   * Functions to add new variations, etc., have to update the fragment accordingly.
 
   >[!CAUTION]
@@ -190,7 +190,6 @@ There are still some guidelines you must follow to ensure your component is comp
 * If the fragment is rendered for `displayMode` == `singleText` (implicitly or explicitly) the following additional properties come into play:
 
   * `paragraphScope` defines whether all paragraphs, or only a range of paragraphs, should be rendered (values: `all` vs. `range`)
-    
   * if `paragraphScope` == `range` then the property `paragraphRange` defines the range of paragraphs to be rendered
 
 ### Integration with other Frameworks {#integration-with-other-frameworks}
@@ -203,14 +202,18 @@ Content fragments can be integrated with:
 
   * The individual translations of a content fragment are actually separate fragments; for example:
 
-    * they are located under different language roots:  
+    * they are located under different language roots: 
+
         <pre>/content/dam/<<i>path</i>/en/<<i>to</i>>/<<i>fragment</i>></pre>
         vs.
         <pre>/content/dam/<<i>path</i>>/de/<<i>to</i>>/<<i>fragment</i>>`</pre>
 
-    * but they share exactly the same relative path below the language root:  
+    * but they share exactly the same relative path below the language root: 
+
         <pre>/content/dam/<<i>path</i>>/en/<<i>to</i>>/<<i>fragment</i>></pre> 
-        vs.  
+
+        vs. 
+
         <pre>/content/dam/<<i>path</i>>/de/<<i>to</i>>/<<i>fragment</i>></pre>
 
   * Besides the rule-based paths, there is no further connection between the different language versions of a content fragment; they are handled as two separate fragments, although the UI provides the means to navigate between the language variants.
@@ -219,10 +222,8 @@ Content fragments can be integrated with:
   >
   >The AEM translation workflow works with `/content`:
   >
-  >  * As the content fragment models reside in `/conf`, these are not included in such translations. You can [internationalize the UI strings](/help/sites-developing/i18n-dev.md).  
-  >  * Templates are copied to create the fragment so this is implicit.  
-  >    
-  >
+  >  * As the content fragment models reside in `/conf`, these are not included in such translations. You can [internationalize the UI strings](/help/sites-developing/i18n-dev.md).
+  >  * Templates are copied to create the fragment so this is implicit. 
 
 * **Metadata schemas**
 
@@ -263,7 +264,7 @@ The following three interfaces can serve as entry points:
 
   This interface represents:
 
-    * either a content fragment model or content fragment template from which to create a content fragment,  
+    * either a content fragment model or content fragment template from which to create a content fragment, 
     * and (after the creation) the structural information of that fragment
 
   This information can include:
@@ -312,8 +313,7 @@ The following three interfaces can serve as entry points:
 
         * List elements
         * Get elements by name
-        * Create new elements (see [Caveats](#caveats))  
-        
+        * Create new elements (see [Caveats](#caveats)) 
         * Access element data (see `ContentElement`)
 
     * List variations defined for the fragment
@@ -365,7 +365,6 @@ The following can be adapted:
 * `ContentFragment` can be adapted to:
 
     * `Resource` - the underlying Sling resource; note that updating the underlying `Resource` directly, requires rebuilding the `ContentFragment` object.
-    
     * `Asset` - the DAM `Asset` abstraction that represents the content fragment; note that updating the `Asset` directly, requires rebuilding the `ContentFragment` object.
 
 * `ContentElement` can be adapted to:
@@ -393,7 +392,6 @@ It should be noted that:
 
     * Creating/removing new elements will not update the data structure of simple fragments (based on a fragment template).
     * Creating new variations from `ContentElement` will not update the data structure (but creating them globally from `ContentFragment` will).
-    
     * Removing existing variations will not update the data structure.
 
 ## The Content Fragment Management API - Client-Side {#the-content-fragment-management-api-client-side}

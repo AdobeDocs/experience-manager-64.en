@@ -74,7 +74,7 @@ import org.apache.sling.commons.json.JSONObject;
 @Component(metatype = false)
 @Service(value = ListInfoProvider.class)
 public class StarredListInfoProvider implements ListInfoProvider {
-    
+
     private int count = 0;
 
     public void updateListGlobalInfo(SlingHttpServletRequest request, JSONObject info, Resource resource) throws JSONException {
@@ -113,7 +113,8 @@ When you open the Websites Administration console and browse through your site, 
 
 To make sure that the new service is running after having deployed the bundle containing it:
 
-1. Point your browser to the following URL:  
+1. Point your browser to the following URL: 
+
    [http://localhost:4502/content/geometrixx.pages.json?start=0&limit=30&predicate=siteadmin](http://localhost:4502/content/geometrixx.pages.json?start=0&limit=30&predicate=siteadmin)
 
 1. The response should display the new properties as follows:
@@ -131,14 +132,12 @@ The last step consists in adapting the nodes structure of the Websites Administr
 1. Copy the node `/apps/wcm/core/content/siteadmin/grid/assets` to `/apps/wcm/core/content/siteadmin/grid/geometrixx` and changes its properties:
 
     * Remove **pageText** 
-    
-    * Set **pathRegex** `` to `/content/geometrixx(/.*)?`  
+    * Set **pathRegex** `` to `/content/geometrixx(/.*)?`
+
       This will make the grid configuration active for all geometrixx websites.
-    
+
     * Set **storeProxySuffix** to `.pages.json`
-    
     * Edit the **storeReaderFields** multivalued property and add the `starred` value.
-    
     * To activate MSM functionality add the following MSM parameters to the multi-String property **storeReaderFields**:
 
         * **msm:isSource**
@@ -147,18 +146,18 @@ The last step consists in adapting the nodes structure of the Websites Administr
 
 1. Add a `starred` node (of type **nt:unstructured**) below `/apps/wcm/core/content/siteadmin/grid/geometrixx/columns` with the following properties:
 
-    * **dataIndex**: `starred` of type String  
-    
+    * **dataIndex**: `starred` of type String 
     * **header**: `Starred` of type String
-    
     * **xtype**: `gridcolumn` of type String
 
 1. (optional) Drop the columns you do not want to display at `/apps/wcm/core/content/siteadmin/grid/geometrixx/columns`  
 
-1. `/siteadmin` is a vanity path that, as default, points to `/libs/wcm/core/content/siteadmin`.  
+1. `/siteadmin` is a vanity path that, as default, points to `/libs/wcm/core/content/siteadmin`. 
+
    To redirect this to your version of siteadmin on `/apps/wcm/core/content/siteadmin` define the property `sling:vanityOrder` to have a value higher than that defined on `/libs/wcm/core/content/siteadmin`. The default value is 300, so anything higher is suitable.  
 
-1. Go to the Websites Administration console and navigate to the Geometrixx site:  
+1. Go to the Websites Administration console and navigate to the Geometrixx site: 
+
    [http://localhost:4502/siteadmin#/content/geometrixx](http://localhost:4502/siteadmin#/content/geometrixx).
 
 1. The new column called **Starred** is available, displaying custom information as follows:

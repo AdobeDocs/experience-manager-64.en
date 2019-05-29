@@ -287,9 +287,7 @@ Use the following procedure to add or remove languages.
 1. On this node, create a property:
 
     * **Name**: `languages`
-    
     * **Type**: `Multi-String`
-    
     * **Value**: the list of languages you want displayed. For example:
 
         * fr
@@ -316,19 +314,21 @@ After defing a dictionary for a language new to your CQ instance you need to mak
 
 1. To change the list of available languages available in **Preferences** of the **Security** console:
 
-    1. Create an overlay in your application code for:    
-    
-       ```    
+    1. Create an overlay in your application code for: 
+
+       ```
                /libs/cq/security/widgets/source/widgets/security/Preferences.js
         and update as required.
        ```
 
 1. To make the language available in **Preferences** from the **Websites** console you need to make the following changes in your application:
 
-    1. Create an overlay for the structure under:  
-       `/libs/cq/security/content/tools/userProperties`  
-    
-    1. Inside the overlay update the language list under:  
+    1. Create an overlay for the structure under: 
+
+       `/libs/cq/security/content/tools/userProperties` 
+
+    1. Inside the overlay update the language list under: 
+
        `items/common/items /lang/options`
 
 1. Save everything and reload the appropriate console.
@@ -357,10 +357,11 @@ To change the default definitions:
 
 1. Update the **CQ WCM Language Manager**.
 
-    * **Language list**:  
-      The path to the language list in the repository. Set this to the location used to overlay:     
-    
-      ```    
+    * **Language list**:
+
+      The path to the language list in the repository. Set this to the location used to overlay: 
+
+      ```
              /apps/wcm/core/resources/languages
       ```
 

@@ -114,7 +114,7 @@ Follow the steps below to implement the functionality:
    >
    >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** --&gt; **Locations** --&gt; **Region** --&gt; **RegionDisplay **and clicking **Dashboard **from the action bar. Click **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
-   Similarly, assign channel **TargetedSinglePlay **for display**:**
+   Similarly, assign channel **TargetedSinglePlay **for display**:
 
     1. Navigate to **Channel Level Activation** --&gt; **Locations** --&gt; **Region** --&gt; **RegionDisplay** and click **Assign Channel** from the action bar.
     

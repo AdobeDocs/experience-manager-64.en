@@ -28,22 +28,21 @@ To create a mobile site, proceed as follows:
 
 1. Create the page component:
 
-    * Set the `sling:resourceSuperType` property to `wcm/mobile/components/page`  
+    * Set the `sling:resourceSuperType` property to `wcm/mobile/components/page`
+ 
       This way the component relies on the mobile page component.
-    
+
     * Create the `body.jsp` with the project specific logic.
 
 1. Create the page template:
 
-    * Set the `sling:resourceType` property to the newly created page component.  
-    
+    * Set the `sling:resourceType` property to the newly created page component. 
     * Set the `allowedPaths` property.
 
 1. Create the design page for the site.
 1. Create the site root page below the `/content` node:
 
-    * Set the `cq:allowedTemplates` property.  
-    
+    * Set the `cq:allowedTemplates` property. 
     * Set the `cq:designPath` property.
 
 1. In the page properties of the site root page, set the device groups in the **Mobile** tab.
@@ -129,29 +128,36 @@ The **We.Retail Mobile Demo Site** uses the following mobile components which ar
 
 The AEM mobile framework allows to develop components that are sensitive to the device issuing the request. The following code samples show how to use the AEM mobile API in a component jsp and particularly how to:
 
-* Get the device from the request:  
+* Get the device from the request:
+
   `Device device = slingRequest.adaptTo(Device.class);`
 
-* Get the device group:  
+* Get the device group:
+
   `DeviceGroup deviceGroup = device.getDeviceGroup();`
 
-* Get the device group capabilities:  
+* Get the device group capabilities:
+
   `Collection<DeviceCapability> capabilities = deviceGroup.getCapabilities();`
 
-* Get the device attributes (raw capability key/values from the WURFL database):  
+* Get the device attributes (raw capability key/values from the WURFL database):
+
   `Map<String,String> deviceAttributes = device.getAttributes();`
 
-* Get the device user-agent:  
+* Get the device user-agent: 
+
   `String userAgent = device.getUserAgent();`
 
-* Get the device group list (device groups assigned to the site by the author) from the current page:  
+* Get the device group list (device groups assigned to the site by the author) from the current page: 
+
   `DeviceGroupList deviceGroupList = currentPage.adaptTo(DeviceGroupList.class);`
 
-* Check if the device group supports images  
-  `if (deviceGroup.hasCapability(DeviceCapability.CAPABILITY_IMAGES)) {`  
-  ...  
-  OR  
-  `if MobileUtil.hasCapability(request, DeviceCapability.CAPABILITY_IMAGES) {`  
+* Check if the device group supports images 
+
+  `if (deviceGroup.hasCapability(DeviceCapability.CAPABILITY_IMAGES)) {` 
+  ... 
+  OR 
+  `if MobileUtil.hasCapability(request, DeviceCapability.CAPABILITY_IMAGES) {` 
   ...
 
 >[!NOTE]
@@ -172,7 +178,8 @@ To create an emulator, please refer to the [Creating a Custom Mobile Emulator](/
 
 **Main characteristics of mobile emulators**
 
-* A device group is composed of one of more emulators: the device group configuration page, e.g. /etc/mobile/groups/touch, contains the `emulators` property below the `jcr:content` node.  
+* A device group is composed of one of more emulators: the device group configuration page, e.g. /etc/mobile/groups/touch, contains the `emulators` property below the `jcr:content` node. 
+
   Note: although it's possible that the same emulator belongs to several device groups, it does not make much sense.
 
 * Via the device group's configuration dialog, the `emulators` property is set with the path of the desired emulator(s). For example: `/libs/wcm/mobile/components/emulators/iPhone4`.
@@ -243,26 +250,22 @@ Create a device group when the groups that AEM installs do not meet your require
 1. Create a new page below **Tools** &gt; **Mobile** &gt; **Device Groups**. In the **Create Page** dialog:
 
     * As **Title** enter `Special Phones`.
-    
     * As **Name** enter `special`.
-    
     * Select the **Mobile Device Group Template**.
     * Click **Create**.
 
 1. In CRXDE, add a **static.css** file containing the styles for the device group below the `/etc/mobile/groups/special` node.
 
 1. Open the **Special Phones** page.
-1. To configure the device group, click the **Edit** button beside **Settings**.  
+1. To configure the device group, click the **Edit** button beside **Settings**. 
+
    On the **General** tab:
 
-    * **Title**: the name of the mobile device group.  
-    
+    * **Title**: the name of the mobile device group. 
     * **Description**: description of the group.
-    * **User-Agent**: user-agent string which the devices are matched against. It is optional and can be a regex. Example: `BlackBerryZ10`  
-    
+    * **User-Agent**: user-agent string which the devices are matched against. It is optional and can be a regex. Example: `BlackBerryZ10`
     * **Capabilities**: defines if the group can handle images, CSS, JavaScript or device rotation.
     * **Minimum Screen Width **and** Height**
-    
     * **Disable Emulator**: to able/disable the emulator during content editing.
 
    On the **Emulators** tab:
@@ -583,7 +586,8 @@ The **Statistics** page looks as follows:
 If you need to generate an entry in the statistics, you can proceed as follows:
 
 1. Use a mobile device or an emulator (as for example https://chrispederick.com/work/user-agent-switcher/ on Firefox).  
-1. Request a mobile page on the author instance by disabling the authoring mode, e.g.:  
+1. Request a mobile page on the author instance by disabling the authoring mode, e.g.: 
+
    `http://localhost:4502/content/geometrixx_mobile/en/products.html?wcmmode=disabled`
 
 The **Statistics** page is now available.

@@ -246,8 +246,7 @@ Saving a session:
 * Inside a workflow process, if the `WorkflowSession` is being used to modify the repository then do not explicitly save the session - the workflow will save the session when it completes. 
 * `Session.Save` should not be called from within a workflow step:
 
-    * it is recommended to adapt the workflow jcr session; then `save` is not necessary as the workflow engine saves the session automatically once the workflow has finished executing.  
-    
+    * it is recommended to adapt the workflow jcr session; then `save` is not necessary as the workflow engine saves the session automatically once the workflow has finished executing. 
     * it is not recommended for a process step to create its own jcr session.
 
 * By eliminating unnecessary saves, you can reduce overhead and thus make the workflows more efficient.

@@ -107,7 +107,7 @@ public class ExampleMBeanImpl extends AnnotatedStandardMBean implements ExampleM
     public ExampleMBeanImpl() throws NotCompliantMBeanException {
         super(ExampleMBean.class);
     }
-    
+
     public String getRepositoryName() {
         return repository.getDescriptor("jcr.repository.name");
     }
@@ -165,7 +165,7 @@ public class ExampleMBeanImpl extends AnnotatedStandardMBean implements ExampleM
     public ExampleMBeanImpl() throws NotCompliantMBeanException {
         super(ExampleMBean.class);
     }
-    
+
     public String getRepositoryName() {
         return repository.getDescriptor("jcr.repository.name");
     }
@@ -347,7 +347,7 @@ public class WorkflowMBeanManagerImpl implements WorkflowMBeanManager {
   private Collection<ServiceRegistration> mbeanRegistrations= new Vector<ServiceRegistration>(0,1);
  
  @Activate
-        protected void activate(ComponentContext ctx) {        
+        protected void activate(ComponentContext ctx) { 
              //Traverse the repository and load the model nodes
              try {
                    session = repository.loginAdministrative(null);
@@ -375,7 +375,7 @@ public class WorkflowMBeanManagerImpl implements WorkflowMBeanManager {
                  mbeanProps.put("jmx.objectname", "com.adobe.example:type=workflow_model,id=" + ObjectName.quote(modelId));
                  WorkflowSession wfsession = workflowservice.getWorkflowSession(session);
                  WorkflowMBeanImpl mbean = new WorkflowMBeanImpl(wfsession.getModel(modelId));
-            
+
                 ServiceRegistration serviceregistration = componentContext.getBundleContext().registerService(WorkflowMBean.class.getName(), mbean, mbeanProps);
                 //Store the ServiceRegistration objects for deactivation
                 mbeanRegistrations.add(serviceregistration);

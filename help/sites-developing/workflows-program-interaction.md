@@ -273,7 +273,7 @@ Example: in the browser, a request to `http://localhost:4502/var/workflow/models
   "title":"Publish Example",
   "version":"1.0",
   "description":"This example shows a simple review and publish process.",
-  "metaData":  
+  "metaData": 
   {
     "multiResourceSupport":"true",
     "tags":"wcm,publish"
@@ -422,7 +422,7 @@ To change the **Workflow Title** displayed in the **Instances** tab of the workf
 
 * with the following parameters:
 
-    * `action`: its value has to be: `UPDATE`  
+    * `action`: its value has to be: `UPDATE` 
     * `workflowTitle`: the workflow title
 
 #### How to change the Workflow Title - REST using curl {#how-to-change-the-workflow-title-rest-using-curl}

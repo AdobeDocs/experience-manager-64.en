@@ -25,7 +25,8 @@ Models are saved and created under `/conf`, under a folder that has the [Content
 1. Navigate to the browser via **Tools**, **General**, **Configuration Browser** 
    For example, `http://localhost:4502/libs/granite/configurations/content/view.html/conf`
 
-1. From the browser, select the appropriate configuration then **Properties** from the toolbar.  
+1. From the browser, select the appropriate configuration then **Properties** from the toolbar. 
+
    For example, the properties for `global`: `http://localhost:4502/libs/granite/configurations/content/edit.html/conf/global`
 
 In the models console, all folders with the **Content Fragment Models** property will appear. Navigate via **Tools**, **Assets**, **Content Fragment Models**; for example, `http://localhost:4502/libs/dam/cfm/models/console/content/models.html/conf`.
@@ -44,21 +45,25 @@ The wizard will create an entry with this structure:
 
 ![](assets/cf-54.png)
 
-* `../settings/dam/cfm/models`  
+* `../settings/dam/cfm/models` 
+
   All the models are saved under sub-folders of this folder.  
 
-* `jcr:content`  
+* `jcr:content` 
+
   Every model contains a `jcr:content` node that:
 
-    * contains information properties about the model such as `jcr:title`, `lastModified`, `lastModifiedBy`  
-    
-    * usually has the `sling:ResourceType` of `dam/cfm/models/console/components/data/entity/default`,  
+    * contains information properties about the model such as `jcr:title`, `lastModified`, `lastModifiedBy` 
+    * usually has the `sling:ResourceType` of `dam/cfm/models/console/components/data/entity/default`, 
+  
       with the `sling:ResourceSuperType` of `dam/cfm/models/console/components/data/entity`
 
-* `model`  
+* `model` 
+
   The `model` node contains a property `dataTypesConfig`, used to determine the data types used in the model editor.
 
-* `items`  
+* `items` 
+
   Under the `items` node, all the data types added to the model are saved (as dragged and dropped in the model editor). Each item is given a random node name, but in order for the content fragment editor to work with this model, each item must have a `name` property. Additionally, on this node, all the configuration properties for a particular data type are saved, including default properties needed to render the components.
 
 >[!CAUTION]
@@ -73,17 +78,18 @@ The **Content Fragment Model Editor** has two parts:
 
 * The preview, or view, panel on the left side, where you can drop items. This:
 
-    * Shows a preview of the **Data Type** that is instantiated.  
-    
+    * Shows a preview of the **Data Type** that is instantiated. 
     * Permits ordering inside the Model Editor.
 
 * The **Data Types**/**Properties** tabs in the panel at the right side. This:
 
     * Shows a list of data types that can be dragged and instantiated. 
-    * For the out-of-the-box model editor the list is present at:  
-      `/libs/settings/dam/cfm/models/formbuilderconfig/datatypes`  
+    * For the out-of-the-box model editor the list is present at: 
+  
+      `/libs/settings/dam/cfm/models/formbuilderconfig/datatypes`
+  
       This node contains all the data types currently supported in the model editor. For more information on how to configure the data types, see [Customizing Data Types for Content Fragment Models](/help/sites-developing/customizing-content-fragment-model-data-types.md).
-    
+  
     * All rendered data types have two script tags that, when instantiated, will form the view (the component rendered on the left side) and the **Properties** tab, which defines the properties that a user can define for a given component.
 
 >[!CAUTION]

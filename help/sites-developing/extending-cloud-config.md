@@ -38,7 +38,8 @@ For each type of configuration a template and a component will be provided.This 
 
 To provide a configuration for a new services you need to:
 
-* create a servicepage in  
+* create a servicepage in
+
   `/etc/cloudservices`
 
 * under this:

@@ -35,48 +35,48 @@ Here are some general tips on how to construct your URLs for SEO:
 
 * Use hyphens to separate words.
 
-  * Name pages using hyphens (-) as separators.
-  * Avoid using camel case, underscores, and spaces.
+    * Name pages using hyphens (-) as separators.
+    * Avoid using camel case, underscores, and spaces.
 
 * Avoid the use of query parameters when possible. When necessary, limit them to two or less.
 
-  * Use the directory structure to indicate information architecture, when available.
-  * If a directory structure is not an option, make use of Sling selectors in the URL rather than query strings. In addition to the SEO value that they provide, sling selectors will also make the pages cacheable for the dispatcher.
+    * Use the directory structure to indicate information architecture, when available.
+    * If a directory structure is not an option, make use of Sling selectors in the URL rather than query strings. In addition to the SEO value that they provide, sling selectors will also make the pages cacheable for the dispatcher.
 
 * The more human-readable a URL is, the better; having keywords present in the URL will boost value.
 
-  * When using selectors on a page, selectors that provide semantic value are preferred.
-  * If a human cannot read your URL, a search engine cannot either.
-  * For example: `mybrand.com/products/product-detail.product-category.product-name.html` is preferred to `mybrand.com/products/product-detail.1234.html`
+    * When using selectors on a page, selectors that provide semantic value are preferred.
+    * If a human cannot read your URL, a search engine cannot either.
+    * For example: `mybrand.com/products/product-detail.product-category.product-name.html` is preferred to `mybrand.com/products/product-detail.1234.html`
 
 * Avoid subdomains whenever possible, as search engines will treat them as different entities, fragmenting the SEO value of the site.
 
-  * Instead use first-level sub paths. For example, instead of `es.mybrand.com/home.html`, use `www.mybrand.com/es/home.html`.
-  * Plan your content hierarchy to match the way that the content will be presented, according to this guideline.
+    * Instead use first-level sub paths. For example, instead of `es.mybrand.com/home.html`, use `www.mybrand.com/es/home.html`.
+    * Plan your content hierarchy to match the way that the content will be presented, according to this guideline.
 
 * Keyword effectiveness in URLs decreases as the length of the URL and the position of the keyword increases. In other words, shorter is better.
 
-  * Use URL shortening techniques and features provided by AEM to remove unnecessary URL pieces.
-  * For example, `mybrand.com/en/myPage.html` is preferred to `mybrand.com/content/my-brand/en/myPage.html`.
+    * Use URL shortening techniques and features provided by AEM to remove unnecessary URL pieces.
+    * For example, `mybrand.com/en/myPage.html` is preferred to `mybrand.com/content/my-brand/en/myPage.html`.
 
 * Use canonical URLs.
 
-  * When a URL can be served from different paths or with different parameters or selectors, make sure to use a `rel=canonical` tag on the page.
-  * This can be included in the code for the AEM template.
+    * When a URL can be served from different paths or with different parameters or selectors, make sure to use a `rel=canonical` tag on the page.
+    * This can be included in the code for the AEM template.
 
 * Match URLs to page titles whenever possible.
 
-  * Content authors should be encouraged to follow this practice.
+    * Content authors should be encouraged to follow this practice.
 
 * Support case insensitivity in URL requests.
 
-  * Configure the dispatcher to rewrite all inbound requests as lowercase letters.
-  * Train content authors to create all pages using lowercase letters.
+    * Configure the dispatcher to rewrite all inbound requests as lowercase letters.
+    * Train content authors to create all pages using lowercase letters.
 
 * Make sure that each page is only served from one protocol.
 
-  * Sometimes sites will be served over `http` until a user reaches a page with, for example, a checkout or login form, at which point it switches to `https`. When linking from this page, if the user can return to `http` pages and access them through `https`, the search engine will track these as two separate pages.
-  * Google currently prefers `https` pages to `http` ones. For this reason it often makes everyone’s life easier to serve the whole site over `https`.
+    * Sometimes sites will be served over `http` until a user reaches a page with, for example, a checkout or login form, at which point it switches to `https`. When linking from this page, if the user can return to `http` pages and access them through `https`, the search engine will track these as two separate pages.
+    * Google currently prefers `https` pages to `http` ones. For this reason it often makes everyone’s life easier to serve the whole site over `https`.
 
 ### Server configuration {#server-configuration}
 
@@ -84,7 +84,7 @@ In terms of server configuration, you can take the following steps to ensure tha
 
 * Use a `robots.txt` file to block crawling of any content that should not be indexed.
 
-  * Block **all** crawling on test environments.
+    * Block **all** crawling on test environments.
 
 * When launching a new site with updated URLs, implement 301 redirects to ensure that your existing SEO ranking is not lost.
 * Include a favicon for your site.

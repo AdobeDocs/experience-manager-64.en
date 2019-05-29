@@ -149,8 +149,7 @@ The following is an outline of the steps a front-end developer needs to follow w
 
    Pages and paragraph systems should extend this class so that delegation to inner components works as expected.
 
-1. **Implement a routing solution that using the HTML5 `History` API.  
-   **
+1. **Implement a routing solution that using the HTML5 `History` API.**
 
    When the `ModelRouter` is enabled, calling the `pushState` and `replaceState` functions will trigger a request to the `PageModelManager` to fetch a missing fragment of the model.
 

@@ -141,7 +141,8 @@ When creating a new editable template you:
 For organizing your templates you can use the following folders:
 
 * **global**
-* Site-specific  
+* Site-specific 
+
   The site-specific folders that you create to organize your templates are created with an account holding admin priviliges.
 
 >[!NOTE]
@@ -194,8 +195,7 @@ To create a new folder, you can either do this:
 
    Name: `jcr:title`
 
-    * Type: `String`  
-    
+    * Type: `String` 
     * Value: The title (for the folder) you want to appear in the **Templates** console.
 
 1. In *addition* to the standard authoring permissions and privileges (e.g. `content-authors`) you now need to assign group(s) and define the required access rights (ACLs) for your authors to be able to create templates in the new folder.
@@ -492,8 +492,7 @@ This node holds properties for the template:
 
 * **Name**: `status`
 
-    * ``**Type**: `String`  
-    
+    * **Type**: `String`
     * **Value**: `draft`, `enabled` or `disabled`
 
 ### Structure {#structure}
@@ -505,8 +504,7 @@ Defines the structure of the resultant page:
 * The `root` ( `structure/jcr:content/root`) node defines the list of components that will be available in the resulting page.
 
     * Components defined in the template structure cannot be moved on or deleted from any resultant pages.
-    * Once a component is unlocked the `editable` property is set to `true`.  
-    
+    * Once a component is unlocked the `editable` property is set to `true`. 
     * Once a component that already contains content is unlocked, this content will be moved to the `initial` branch.
 
 * The `cq:responsive` node holds definitions for the responsive layout.
@@ -529,13 +527,16 @@ When [editing a template you can define the layout](/help/sites-authoring/templa
 
 The content (or design) policies define the design properties of a component. For example, the components available or minimum/maximum dimensions. These are applicable to the template (and pages created with the template). Content policies can be created and selected in the template editor.
 
-* The property `cq:policy`, on the `root` node  
-  `/conf/<*your-folder*>/settings/wcm/templates/<*your-template*>/policies/jcr:content/root`  
+* The property `cq:policy`, on the `root` node
+
+  `/conf/<*your-folder*>/settings/wcm/templates/<*your-template*>/policies/jcr:content/root`
+
   Provides a relative reference to the content policy for the page's paragraph system.  
 
 * The property `cq:policy`, on the component-explicit nodes under `root`, provide links to the policies for the individual components.
 
-* The actual policy definitions are stored under:  
+* The actual policy definitions are stored under:
+
   `/conf/<*your-folder*>/settings/wcm/policies/wcm/foundation/components`
 
 >[!NOTE]
@@ -563,12 +564,10 @@ Page policies allow you to define the [content policy](#content-policies) for th
    Before a template can be used it must be enabled by either:
 
     * [Enabling the template](/help/sites-authoring/templates.md#enabling-and-allowing-a-template-template-author) from the **Templates** console.
-    
     * Setting the status property on the `jcr:content` node.
 
-        * For example, on:  
+        * For example, on: 
           `/conf/<*your-folder*>/settings/wcm/templates/<*your-template*>/jcr:content`
-        
         * Define the property:
 
             * Name: status
@@ -578,8 +577,10 @@ Page policies allow you to define the [content policy](#content-policies) for th
 1. **Allowed Templates**
 
     * [Define the Allowed Template path(s) on the **Page Properties**](/help/sites-authoring/templates.md#allowing-a-template-author) of the appropriate page or root page of a sub-branch.
-    * Set the property:  
-      `cq:allowedTemplates`  
+    * Set the property: 
+
+      `cq:allowedTemplates`
+
       On the `jcr:content` node of the required branch.
 
    For example, with a value of:
@@ -594,26 +595,32 @@ Pages created from editable templates:
 
 * Have references to information held in the template and template type. This is achieved with a `jcr:content` node with the properties:
 
-    * `cq:template`  
-      Provides the dynamic reference to the actual template; enables changes to the template to be reflected on the actual pages.  
-    
-    * `cq:templateType`  
+    * `cq:template` 
+
+      Provides the dynamic reference to the actual template; enables changes to the template to be reflected on the actual pages.
+  
+    * `cq:templateType` 
+
       Provides a reference to the template type.
 
 ![](assets/chlimage_1-250.png)
 
 The above diagram shows how templates, content, and components interrelate:
 
-* Controller - `/content/<*my-site*>/<*my-page*>`  
+* Controller - `/content/<*my-site*>/<*my-page*>` 
+
   The resultant page that references the template. The content controls the entire process. According to the definitions it accesses the appropriate template and components.  
 
-* Configuration - `/conf/<*my-folder*>/settings/wcm/templates/<*my-template*>`  
+* Configuration - `/conf/<*my-folder*>/settings/wcm/templates/<*my-template*>`
+
   The [template and related content policies](#template-definitions) define the page configuration.  
 
-* Model - OSGi bundles  
+* Model - OSGi bundles 
+
   The [OSGI bundles](/help/sites-deploying/osgi-configuration-settings.md) implement the functionality.  
 
-* View - `/apps/<*my-site*>/components`  
+* View - `/apps/<*my-site*>/components`
+
   On both the author and publish environments the content is rendered by [components](/help/sites-developing/components.md).
 
 When rendering a page:
@@ -625,11 +632,9 @@ When rendering a page:
 * **Components**:
 
     * The page component will merge the `structure/jcr:content` tree of the template with the `jcr:content` tree of the page.
-    
     * The page component will only allow the author to edit the nodes of the template structure that have been flagged as editable (as well as any children).
     * When rendering a component on a page, the relative path of that component will be taken from the `jcr:content` node; the same path under the `policies/jcr:content` node of the template will then be searched.
 
-        * The `cq:policy` property of this node points to the actual content policy (i.e. it holds the design configuration for that component).  
-        
+        * The `cq:policy` property of this node points to the actual content policy (i.e. it holds the design configuration for that component). 
         * This allows you to have multiple templates that re-use the same content policy configurations.
 

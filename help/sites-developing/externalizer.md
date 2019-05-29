@@ -34,23 +34,21 @@ To define a domain mapping for the **Externalizer** service:
 
    ![](assets/chlimage_1-44.png)
 
-1. Define a domain mapping: a mapping consists of a unique name that can be used in the code to reference the domain, a space and the domain:  
+1. Define a domain mapping: a mapping consists of a unique name that can be used in the code to reference the domain, a space and the domain: 
+
    `<unique-name> [scheme://]server[:port][/contextpath]`, where:
 
-    * **scheme** is usually http or https, but can also be ftp etc.; use https to enforce https links if desired; it will be used if the client code does not override the scheme when asking for externalization of a URL.  
-    
-    * **server** is the host name (can be a domain name or ip address).  
-    
-    * **port** (optional) is the port number.  
-    
+    * **scheme** is usually http or https, but can also be ftp etc.; use https to enforce https links if desired; it will be used if the client code does not override the scheme when asking for externalization of a URL. 
+    * **server** is the host name (can be a domain name or ip address).
+    * **port** (optional) is the port number. 
     * **contextpath** (optional) is only set if AEM is installed as a webapp under a different context path.
 
-   For example: `production https://my.production.instance`  
+   For example: `production https://my.production.instance` 
+
    The following mapping names are predefined and must always be set as AEM relies on them:
 
     * **local** - the local instance
-    * **author** - the authoring system DNS  
-    
+    * **author** - the authoring system DNS 
     * **publish** - the public facing website DNS
 
    >[!NOTE]

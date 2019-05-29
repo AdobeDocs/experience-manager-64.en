@@ -214,7 +214,7 @@ Configure the topnav component and edit the JSP file to define the tracking even
                    });
                }
        }
-   </script>  
+   </script> 
    ```
 
 1. Click Save All.
