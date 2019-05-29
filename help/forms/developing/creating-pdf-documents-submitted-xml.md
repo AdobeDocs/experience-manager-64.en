@@ -20,7 +20,7 @@ Web-based applications that enable users to fill interactive forms require the d
 
 >[!NOTE]
 >
->Before you read this content, it is recommended that you have a solid understanding of handling submitted forms. Concepts such as the relationship between a form design and submitted XML data are covered in [Handling Submitted Forms](help/forms/developing/rendering-forms.md#handling-submitted-forms).
+>Before you read this content, it is recommended that you have a solid understanding of handling submitted forms. Concepts such as the relationship between a form design and submitted XML data are covered in Handling submitted Forms.
 
 Consider the following workflow that involves three AEM Forms services:
 
