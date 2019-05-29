@@ -17,11 +17,9 @@ This section gives you an overview of the main tasks that you will be using when
 
 It covers:
 
-* [Getting Started](#getting-started)  
-  Detailing the basic sequence of events you need for creating and publishing your first page.  
+* [Getting Started](#getting-started) - Detailing the basic sequence of events you need for creating and publishing your first page.  
 
-* [Further Actions](#further-actions)  
-  Following on with the many other actions you can use when authoring.
+* [Further Actions](#further-actions) - Following on with the many other actions you can use when authoring.
 
 ## Overview {#overview}
 
@@ -90,4 +88,4 @@ You can [create a version](/help/sites-authoring/working-with-page-versions.md#c
 
 ## More Information {#more-information}
 
-Access to more information about authoring can be found under [Page Authoring](/help/sites-authoring/page-authoring.md) and [Working with the Author Environment](/help/sites-authoring/author-environment.md).
+Access to more information about authoring can be found under [Page Authoring](/help/sites-authoring/author-environment-tools.md) and [Working with the Author Environment](/help/sites-authoring/home.md).

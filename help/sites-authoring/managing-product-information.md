@@ -176,7 +176,7 @@ The photo shoot workflow includes several tasks. Each task is assigned to a user
 
 #### Create Shot List Task {#create-shot-list-task}
 
-The **Create Shot List **task enables the project owner to select products for which images are required. Based on the option selected by the user, a CSV file is generated that contains basic product information.
+The **Create Shot List** task enables the project owner to select products for which images are required. Based on the option selected by the user, a CSV file is generated that contains basic product information.
 
 1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracking-project-progress) to view the task item in the workflow.
 
@@ -217,7 +217,7 @@ The **Create Shot List **task enables the project owner to select products for w
     * The metadata for the assets becomes editable using the Assets console, even before the photographer provides the images.
     * A Photo Shoot folder is created that stores the images the photographer provides. The Photo Shoot folder contains subfolders for each product entry in the Shot List.
 
-   For the Product Photo Shoot (without commerce integration) workflow, Upload Shot List is the first task. Tap/click **Upload Shot List **to upload a **shotlist.csv **file. The CSV file should contain the product ID. The other fields are optional. You can use them to map assets to products.
+   For the Product Photo Shoot (without commerce integration) workflow, Upload Shot List is the first task. Tap/click **Upload Shot List** to upload a **shotlist.csv** file. The CSV file should contain the product ID. The other fields are optional. You can use them to map assets to products.
 
 ### Upload Shot List Task {#upload-shot-list-task}
 
@@ -225,13 +225,13 @@ This task is part of the Product Photo Shoot workflow. You perform this task if 
 
 Use the **View Shot List** link under the project card in the previous procedure to download a sample CSV file. Review the sample file to know the usual contents of a CSV file.
 
-The product list or the CSV file can contain fields, such as **Category, Product, Id, Description**, and **Path**. The **Id** field is mandatory and contains the product ID**. **The other fields are optional.
+The product list or the CSV file can contain fields, such as **Category, Product, Id, Description**, and **Path**. The **Id** field is mandatory and contains the product ID. The other fields are optional.
 
-A product can belong to a particular category. The product category can be listed in the CSV below the **Category **column. The **Product **field contains the name of the product. In the **Description **field, enter the product description or instructions for the photographer.
+A product can belong to a particular category. The product category can be listed in the CSV below the **Category** column. The **Product** field contains the name of the product. In the **Description** field, enter the product description or instructions for the photographer.
 
 >[!NOTE]
 >
->The name of images to be uploaded should start with "**&lt;ProductId&gt;_"** where Product ID is referenced from the **Id** field in the *shotlist.csv* file. For example, for a product in the shot list with **Id 397122**, you can upload files with names** 397122_highcontrast.jpg**, **397122_lowlight.png**, and so on.
+>The name of images to be uploaded should start with "**&lt;ProductId&gt;_"** where Product ID is referenced from the **Id** field in the *shotlist.csv* file. For example, for a product in the shot list with **Id 397122**, you can upload files with names **397122_highcontrast.jpg**, **397122_lowlight.png**, and so on.
 
 1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracking-project-progress) to view the list of tasks in the workflow.
 1. Select the **Upload Shot List** task, and then tap/click the **Open** icon from the toolbar.
@@ -253,11 +253,11 @@ A product can belong to a particular category. The product category can be liste
 
 ### Upload Photo Shoot Task {#upload-photo-shoot-task}
 
-If you are an Editor, you can upload shots for the products listed in the **shotlist.csv **file that is created or uploaded in the previous task.
+If you are an Editor, you can upload shots for the products listed in the **shotlist.csv** file that is created or uploaded in the previous task.
 
-The name of images to be uploaded should begin with "**&lt;productId&gt;_" **where Product ID is referenced from the **Id **field in the *shotlist.csv* file. For example, for a product with **ID 397122 **in the shot list, you can upload files with names **397122_highcontrast.jpg**,** 397122_lowlight.png**, and so on.
+The name of images to be uploaded should begin with **"&lt;productId&gt;_"** where Product ID is referenced from the **Id** field in the **shotlist.csv** file. For example, for a product with **ID 397122** in the shot list, you can upload files with names **397122_highcontrast.jpg**, **397122_lowlight.png**, and so on.
 
-You can either upload the images directly or upload a ZIP file that contains the images. Based on their names, the images are placed inside respective product folders within the **Photo Shoot **folder.
+You can either upload the images directly or upload a ZIP file that contains the images. Based on their names, the images are placed inside respective product folders within the **Photo Shoot** folder.
 
 1. Under the project folder, tap/click the ellipses in the [Task Card](#tracking-project-progress) to view the task item in the workflow.
 1. Select the **Upload Photo Shoot** task, and then tap/click the **Open** icon from the toolbar.
@@ -330,7 +330,7 @@ This task moves the approved assets to the production-ready folder to make them 
 
    ![](assets/chlimage_1-160.png)
 
-1. To view the approved assets for the photo shoot prior to moving them to production ready folder, click the **View Approved Assets **link below the project thumbnail on the **Move to Production** task page.
+1. To view the approved assets for the photo shoot prior to moving them to production ready folder, click the **View Approved Assets** link below the project thumbnail on the **Move to Production** task page.
 
    ![](assets/chlimage_1-161.png)
 
@@ -344,7 +344,7 @@ This task moves the approved assets to the production-ready folder to make them 
 
 ## Viewing DAM Asset Metadata {#viewing-dam-asset-metadata}
 
-After you approve, the assets are linked to the corresponding products. The [Properties Page](/help/assets/managing-assets-touch-ui.md#editing-properties) of the approved assets now has an additional **Product Data **(linked product information) tab. This tab displays the product details, SKU number, and other product-related details linking the asset. Tap/click the **Edit** icon to update an asset property. The product-related information remains read-only.
+After you approve, the assets are linked to the corresponding products. The [Properties Page](/help/assets/managing-assets-touch-ui.md#editing-properties) of the approved assets now has an additional **Product Data** (linked product information) tab. This tab displays the product details, SKU number, and other product-related details linking the asset. Tap/click the **Edit** icon to update an asset property. The product-related information remains read-only.
 
 Tap/click the link that appears to navigate to the respective product detail page in the product console with which asset is associated.
 
@@ -353,7 +353,7 @@ Tap/click the link that appears to navigate to the respective product detail pag
 You can customize the Project Photo Shoot workflows based on requirements. This is an optional, role-based task that you perform to set the value of a variable within the project. Later, you can then use the configured value to arrive at a decision.
 
 1. Click/tap the AEM logo, and then navigate to **Tools** &gt; **Workflow** &gt; **Models** to open the Workflow Models page.
-1. Select the **Product Photo Shoot (Commerce Integration) **workflow or the **Product Photo Shoot **workflow and the click/tap **Edit** from the toolbar to open the workflow in edit mode.
+1. Select the **Product Photo Shoot (Commerce Integration)** workflow or the **Product Photo Shoot** workflow and the click/tap **Edit** from the toolbar to open the workflow in edit mode.
 1. Open the **Projects** tasks in the side kick, and drag the **Create Role Based Project Task** step to the workflow.
 
    ![](assets/chlimage_1-163.png)
@@ -377,23 +377,25 @@ You can customize the Project Photo Shoot workflows based on requirements. This 
 1. Open the **Goto** task and tap/click the **Process** tab.
 1. Specify the following code in the **Script** box:
 
-   `function check() {`
+```
+   function check() {
 
    if (workflowData.getMetaDataMap().get("lastTaskAction","") == "Reject All") {
 
-   `return true`
+   return true
 
-   `}`
+   }
 
    // set copywriter user in metadata
 
-   `var previousId = workflowData.getMetaDataMap().get("lastTaskCompletedBy", "");`
+   var previousId = workflowData.getMetaDataMap().get("lastTaskCompletedBy", "");
 
-   `workflowData.getMetaDataMap().put("copywriter", previousId);`
+   workflowData.getMetaDataMap().put("copywriter", previousId);
 
    return false;
 
-   `}`
+   }
+```
 
    >[!NOTE]
    >

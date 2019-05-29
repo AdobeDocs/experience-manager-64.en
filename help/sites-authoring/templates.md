@@ -257,7 +257,7 @@ A template can be made available or unavailable for certain page branches.
 
    The path can be explicit or use patterns. For example:
 
-   `/conf/<*your-folder*>/settings/wcm/templates/.&ast;`
+   `/conf/<your-folder>/settings/wcm/templates/.*`
 
    The order of the paths is irrelevant, all paths will be scanned and any templates retrieved.
 
@@ -309,7 +309,7 @@ The following aspects of a template can be edited:
 
 * [Layout](#editing-a-template-layout-template-author)
 
-  Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the [**Layout** mode for page authoring](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode).
+  Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the **[Layout](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** mode for page authoring].
 
 * [Page Policies](#editing-a-template-structure-template-author)
 
@@ -439,7 +439,7 @@ In **Structure** mode of the template editor:
 
   >[!NOTE]
   >
-  >If multiple components of the same type are added as initial content, the same policy applies to all the components. This mirrors the same restriction in [**Design Mode** for static templates](/help/sites-authoring/default-components-designmode.md).
+  >If multiple components of the same type are added as initial content, the same policy applies to all the components. This mirrors the same restriction in **[Design Mode](/help/sites-authoring/default-components-designmode.md)** for static templates.
 
   ***Properties***
 
@@ -570,7 +570,7 @@ Although all content created in **Structure** mode is visible in **Initial Conte
 
 >[!NOTE]
 >
->**Initial Content** mode can be thought of edit mode for pages created with that template. Therefore policies are not defined in **Initial Content** mode but rather in [**Structure** mode](/help/sites-authoring/templates.md#editing-a-template-structure-template-author).
+>**Initial Content** mode can be thought of edit mode for pages created with that template. Therefore policies are not defined in **Initial Content** mode but rather in **[Structure](/help/sites-authoring/templates.md#editing-a-template-structure-template-author)** mode.
 
 * Unlocked components that are available for editing are marked. When selected they have a blue border:
 

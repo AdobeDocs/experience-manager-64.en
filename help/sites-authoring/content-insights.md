@@ -19,7 +19,7 @@ Content Insight provides information about page performance using web analytics 
 
 The layout of the Content Insight page changes to suit the screen dimensions and orientation of the device that you are using.
 
-**Report Data**
+## Report Data
 
 The Content Insight page includes reports that use Adobe SiteCatalyst, Adobe Target, Adobe Social, and BrightEdge data:
 
@@ -32,7 +32,9 @@ The Content Insight page includes reports that use Adobe SiteCatalyst, Adobe Tar
 * Target: Reports on campaign activity for which your page includes offers.
 * BrightEdge: Reports on the page features that improve the visibility of the page to search engines, and recommends features that should be implemented.
 
-See [Opening Analytics and Recommendations for a Page](/help/sites-authoring/ci-analyze.md#opening-analytics-and-recommendations-for-a-page). **Reporting Period**
+See [Opening Analytics and Recommendations for a Page](/help/sites-authoring/ci-analyze.md#opening-analytics-and-recommendations-for-a-page). 
+
+## Reporting Period
 
 Reports show data for a period of time that you control. When you adjust the reporting period, the reports automatically refresh with data for that period. Visual cues indicate the time when page versions changed, so that you can compare the performance of each version.
 

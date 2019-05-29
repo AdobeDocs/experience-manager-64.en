@@ -42,7 +42,7 @@ To create segments:
 To create a brand:
 
 1. In **Sites**, navigate to the **Campaigns** folder (for example in We.Retail). 
-1. Click **Create Page **and enter a title for the page, for example We.Retail Brand and select the **Brand **template.
+1. Click **Create Page** and enter a title for the page, for example We.Retail Brand and select the **Brand** template.
 
 ### Creating a Campaign {#creating-a-campaign}
 
@@ -58,7 +58,7 @@ To create experiences for segments:
 1. Open the **Campaign** page you just created. 
 1. Create experiences for your segments by clicking **Create Page** and entering a title for your page, for example, Male as you are creating an experience for the Male segment, and select the **Experience** template.
 1. Open the created Experience page.
-1. Click **Edit**, then below Segments click** Add Item**.
+1. Click **Edit**, then below Segments click **Add Item**.
 1. Enter the path to the male segment, for example **/etc/segmentation/ac-segments/male** and click **OK**. The following message should appear: *Experience is targeted at: Male*
 1. Repeat the previous steps to create an experience for all segments, for example the female target.
 
@@ -68,7 +68,7 @@ After you have created segments, a brand, a campaign, and an experience, you can
 
 >[!NOTE]
 >
->[Email samples are only available in Geometrixx](/help/sites-developing/we-retail.md. Please download sample Geometrixx content from Package Share.
+>[Email samples are only available in Geometrixx](/help/sites-developing/we-retail.md). Please download sample Geometrixx content from Package Share.
 
 To create a newsletter with targeted content:
 
@@ -90,7 +90,7 @@ To create a newsletter with targeted content:
 
    ![](assets/chlimage_1-189.png)
 
-1. Navigate to another segment (Male), and click **Add offer **and click the plus icon +. Then edit the offer. 
+1. Navigate to another segment (Male), and click **Add offer** and click the plus icon +. Then edit the offer. 
 1. Navigate to another segment (Female) and click **Add offer** and the plus icon +. Then edit this offer.
 1. Click **Next** to see Mapping, then click **Next** to see Settings, which does not apply to Adobe Campaign, and click **Save**.
 

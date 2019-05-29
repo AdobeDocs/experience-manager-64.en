@@ -134,6 +134,10 @@ The Create step of content targeting involves creating experiences. During this 
 
 After you [start the targeting process](/help/sites-authoring/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings), select an experience to see the offers that are provided for that experience. When you select an experience, the targeted components on the page change to show the offer for that experience.
 
+>[!CAUTION]
+>
+>Be careful when you disable targeting for a component that is already targeted in the author instance. The respective activity will be automatically deleted from the publish instance as well.
+
 >[!NOTE]
 >
 >An offer is the content of a targeted component.
@@ -284,7 +288,7 @@ If editing targeted content, you must click or tap **Start Targeting **before yo
    >
    >Administrators can decide whether setting this configuration is required at **https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet**
    >
-   >To require users to input a location, select the **Force location **check box.
+   >To require users to input a location, select the **Force location** check box.
 
 1. Select the experience for which you want to create the offer.
 1. Create the offer:

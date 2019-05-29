@@ -112,8 +112,7 @@ For both views (List and Calendar) you can define settings:
   For **Calendar View** you can configure:
 
     * **Group by**
-    * **Schedule** or **None  
-      **
+    * **Schedule** or **None**
     
     * **Card size**
 

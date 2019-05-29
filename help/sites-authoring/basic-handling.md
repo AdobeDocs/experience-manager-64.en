@@ -80,7 +80,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Assets<br /> </td> 
-   <td>These consoles let you import and manage digital assets such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
+   <td>These consoles let you import and <a href="/help/assets/assets.md">manage digital assets</a> such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
   </tr>
   <tr>
    <td>Communities</td> 
@@ -96,7 +96,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Forms</td> 
-   <td>This console allows you to create, manage, and process your forms and documents.</td> 
+   <td>This console allows you to create, manage, and process your <a href="/help/forms/using/introduction-aem-forms.md">forms and documents</a>>.</td> 
   </tr>
   <tr>
    <td>Personalization</td> 
@@ -112,7 +112,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Sites</td> 
-   <td>The Sites consoles let you <a href="/help/sites-authoring/page-authoring.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
+   <td>The Sites consoles let you <a href="/help/sites-authoring/author-environment-tools.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
   </tr>
  </tbody>
 </table>
@@ -448,6 +448,10 @@ Selecting a resource in the leftmost column will display the child resources in 
 
 * Change the order of items using the dotted vertical bar at the far right of each item in the list.
 
+>[!NOTE]
+>
+>Changing the order works only within an ordered folder that has `jcr:primaryType` value as `sling:OrderedFolder`.
+
   ![](assets/screen_shot_2018-03-23at110113.png)
 
   Click or tap on the vertical selection bar and drag the item to a new position in the list.
@@ -498,7 +502,7 @@ The timeline column allows you to:
 
     * The event types can be selected from the drop-down list:
 
-        * Comments
+        * [Comments](#TimelineAddingandViewingComments)
         * Annotations
         * Activities
         * [Launches](/help/sites-authoring/launches.md)
@@ -509,7 +513,7 @@ The timeline column allows you to:
 
         * and Show All
 
-* Add/view comments about the selected item. The **Comment** box is shown at the bottom of the list of events. Typing a comment followed by Return will register the comment. It is shown when **Comments** or **Show All** is selected.  
+* [Add/view comments](#TimelineAddingandViewingComments) about the selected item. The **Comment** box is shown at the bottom of the list of events. Typing a comment followed by Return will register the comment. It is shown when **Comments** or **Show All** is selected.  
 
 * Specific consoles have additional functionality. For example, in the Sites console you can:
 

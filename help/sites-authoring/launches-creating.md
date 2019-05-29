@@ -69,8 +69,7 @@ You can create a launch from either the Sites or Launches console:
 
     * **Include subpages**:
 
-        * Specify whether you want to create the launch with or without the child pages.  
-          By default, this subpages are included.
+        * Specify whether you want to create the launch with or without the child pages.  By default, this subpages are included.
 
    Proceed with **Next**.
 

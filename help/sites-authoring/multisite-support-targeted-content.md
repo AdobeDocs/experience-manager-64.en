@@ -265,7 +265,7 @@ To break inheritance of targeted content in an activity:
 
 1. Navigate to the page where you want to detach the live copy from the master and tap or click **Targeting** in the mode drop-down menu.
 1. If your page is linked to an area that is a live copy, you see the inheritance status. Tap or click **Start Targeting**.
-1. Select** Detach Live Copy** from the drop-down menu in the toolbar. AEM confirms that you want to detach the live copy.
+1. Select **Detach Live Copy** from the drop-down menu in the toolbar. AEM confirms that you want to detach the live copy.
 1. Tap or click **Detach** to detach the live copy from the activity. After it is detached, the drop-down menu regarding inheritance no longer displays. The activity is now a local activity.
 
    ![](assets/chlimage_1-287.png)

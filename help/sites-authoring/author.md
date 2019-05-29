@@ -1,6 +1,6 @@
 ---
-title: Authoring
-seo-title: Authoring
+title: Concept of Authoring
+seo-title: Concept of Authoring
 description: Concepts of authoring in AEM
 seo-description: Concepts of authoring in AEM
 uuid: 824c8b91-07c7-471b-b3aa-5a73d6d48414
@@ -11,17 +11,7 @@ content-type: reference
 discoiquuid: 72ee013a-7a60-41ee-9421-2846e4c6bc68
 ---
 
-# Authoring{#authoring}
-
->[!NOTE]
->
->Authoring by default is performed in the standard, touch-enabled AEM UI, which is the focus of this authoring documentation.
->
->For an explanation of the differences between the standard UI and the classic UI, see [Working with the Author Environment](/help/sites-authoring/author-environment.md).
->
->If you are looking for authoring documentation for the classic UI, see [Authoring in the Classic UI User Guide](/help/sites-classic-ui-authoring/home.md).
-
-## Concept of Authoring (and Publishing) {#concept-of-authoring-and-publishing}
+# Concept of Authoring and Publishing{#authoring}
 
 AEM provides you with two environments:
 
@@ -41,13 +31,11 @@ On the author environment the functionality of AEM is made available through two
 
 >[!NOTE]
 >
->AEM itself is used to author the AEM documentation. 
->
->Together with the Dispatcher it is also used for publishing.
+>AEM itself along with the Dispatcher is used to publish this AEM documentation. 
 
-### Author Environment {#author-environment}
+## Author Environment {#author-environment}
 
-The author works in what is known as the **[author environment](/help/sites-authoring/author-environment.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
+The author works in what is known as the **[author environment](/help/sites-authoring/home.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
 
 >[!NOTE]
 >
@@ -73,7 +61,7 @@ Additionally, there are administrative tasks that help you manage your content:
 >
 >AEM is also [administered](/help/sites-administering/home.md) (for a majority of tasks) from the author environment.
 
-### Publish Environment {#publish-environment}
+## Publish Environment {#publish-environment}
 
 When ready, the AEM site's content is published to the **publish environment**. Here the website's pages are made available to the intended audience in accordance with the look-and-feel of the designed interface.
 
@@ -95,6 +83,6 @@ When the AEM site is a [community site](/help/communities/overview.md), or inclu
 >  These are the technical terms used to indicate the movement of data (e.g. page content, files, code, user comments) from one environment to another; i.e. when publishing, or reverse-replicating user comments.
 >
 
-### Dispatcher {#dispatcher}
+## Dispatcher {#dispatcher}
 
 To optimize performance for visitors to your website, the **[dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html)** implements load balancing and caching.

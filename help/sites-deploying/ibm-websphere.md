@@ -68,7 +68,7 @@ To install AEM with a Websphere Commerce integration configuration (using the de
     
     1. `cq-6.3.0-featurepack-6709`
 
-1. [Author](/help/sites-authoring/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites-authoring/qg-page-authoring.md) any supplementary pages that you need in AEM.
 
 >[!NOTE]
 >

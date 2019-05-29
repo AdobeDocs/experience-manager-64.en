@@ -65,7 +65,7 @@ You can add new tasks to projects. These tasks then appear in the Tasks tile and
 
 To add a task:
 
-1. In the project, in the **Tasks** tile, tap/click the + icon. The **Add Task **window opens.
+1. In the project, in the **Tasks** tile, tap/click the + icon. The **Add Task** window opens.
 1. Enter information about the task. The title of the task and which group it is assigned to are mandatory. Additional information such as the content path, description, task priority, and due date are optional. In addition, you can select the **Advanced** tab to enter the name of the task, which is used to name the URL.
 
    ![](assets/chlimage_1-102.png)
