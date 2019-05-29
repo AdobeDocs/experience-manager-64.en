@@ -19,29 +19,29 @@ Basic factors to consider are (in this order):
 
 * **Network speed**
 
-  * Network latency
-  * Available bandwidth
+    * Network latency
+    * Available bandwidth
 
 * **Computational speed**
 
-  * Caching efficiency
-  * Expected traffic
-  * Complexity of templates, applications and components
-  * Concurrent authors
-  * Complexity of the authoring operation (simple content editing, MSM rollout, etc)
+    * Caching efficiency
+    * Expected traffic
+    * Complexity of templates, applications and components
+    * Concurrent authors
+    * Complexity of the authoring operation (simple content editing, MSM rollout, etc)
 
 * **I/O performance**
 
-  * Performance and efficiency of the file or database storage
+    * Performance and efficiency of the file or database storage
 
 * **Hard Drive**
 
-  * at least two or three times larger than the repository size
+    * at least two or three times larger than the repository size
 
 * **Memory**
 
-  * Size of website (number of content-object, pages, and users)
-  * Number of users/sessions that are active at the same time
+    * Size of website (number of content-object, pages, and users)
+    * Number of users/sessions that are active at the same time
 
 ## Architecture {#architecture}
 
@@ -122,17 +122,17 @@ For benchmarking purposes, Adobe has developed some benchmark tests for standalo
   
   Calculate maximum throughput of a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages all of a similar nature. The steps involved were logging in to the site, creating a page with a SWF and Image/Text, adding a tag cloud, then activating the page.
 
-  * **Result**  
+    * **Result**  
   
-    Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
+      Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
 
 * **Benchmark test 2**  
   
   Calculate maximum throughput when load profile has a mix of fresh page creation (10%), modification of an existing page (80%) and creation then modification of a page in succession (10%). The complexity of the pages remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of the same complexity as defined in benchmark test 1.
 
-  * **Result**
+    * **Result**
   
-    Maximum throughput for such a mix operation scenario was found to be 3252 transactions per hour.
+      Maximum throughput for such a mix operation scenario was found to be 3252 transactions per hour.
 
 >[!NOTE]
 >
@@ -154,17 +154,17 @@ For such scenarios Adobe executed benchmark tests on a two node shared-nothing c
   
   With an active-active shared-nothing cluster of 2 author instances, calculate the maximum throughput with a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages, all of a similar nature.
 
-  * **Result**
+    * **Result**
 
-    Maximum throughput for a simple page creation exercise, such as above, (considered as one transaction) is found to be 2016 transactions/hour. This is an increase of approximately 16% when compared to a standalone author instance for the same benchmark test.
+      Maximum throughput for a simple page creation exercise, such as above, (considered as one transaction) is found to be 2016 transactions/hour. This is an increase of approximately 16% when compared to a standalone author instance for the same benchmark test.
 
 * **Benchmark test 2b**
   
   With an active-active shared-nothing cluster of 2 author instances, calculate the maximum throughput when the load profile has a mix of fresh page creation (10%), modification of an existing pages (80%) and creation and modification a page in succession (10%). The complexity of the page remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of complexity the same as defined in benchmark test 1.
 
-  * **Result**
+    * **Result**
 
-    Maximum throughput for such a mixed operation scenario was found to be 6288 transactions/hour. This is an increase of approximately 93% when compared to a standalone author instance for the same benchmark test.
+      Maximum throughput for such a mixed operation scenario was found to be 6288 transactions/hour. This is an increase of approximately 93% when compared to a standalone author instance for the same benchmark test.
 
 >[!NOTE]
 >
@@ -269,16 +269,16 @@ The variables in the equation are as follows:
 If you have a more complex website, you also need more powerful web servers so that AEM can answer a request in an acceptable time.
 
 * Complexity below 4:
-  * 1024 MB JVM RAM&ast;  
-  * Low to mid-performance CPU
+    * 1024 MB JVM RAM&ast;  
+    * Low to mid-performance CPU
 
 * Complexity between 4 and 8:  
-  * 2048 MB JVM RAM&ast;  
-  * Mid to high-performance CPU
+    * 2048 MB JVM RAM&ast;  
+    * Mid to high-performance CPU
 
 * Complexity above 8:  
-  * 4096 MB JVM RAM&ast;  
-  * High to high-end-performance CPU
+    * 4096 MB JVM RAM&ast;  
+    * High to high-end-performance CPU
 
 >[!NOTE]
 >
