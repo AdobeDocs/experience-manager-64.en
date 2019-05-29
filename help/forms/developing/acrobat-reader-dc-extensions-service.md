@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 31a9bfc6-462d-4535-888f-31026b8fa674
 ---
 
-# Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP){#acrobat-reader-dc-extensions-servicejava-api-quick-start-soap}
+# Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP) {#acrobat-reader-dc-extensions-servicejava-api-quick-start-soap}
 
 The following Quick Starts are available for the Acrobat Reader DC Extensions service.
 
@@ -35,22 +35,22 @@ The following Java code example applies usage rights to a PDF document named *Lo
      * 1. adobe-reader-extensions-client.jar 
      * 2. adobe-livecycle-client.jar 
      * 3. adobe-usermanager-client.jar 
-    * 4. activation.jar (required for SOAP mode) 
-    * 5. axis.jar (required for SOAP mode) 
-    * 6. commons-codec-1.3.jar (required for SOAP mode) 
-    * 7. commons-collections-3.2.jar  (required for SOAP mode) 
-    * 8. commons-discovery.jar (required for SOAP mode) 
-    * 9. commons-logging.jar (required for SOAP mode) 
-    * 10. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
-    * 11. jaxen-1.1-beta-9.jar (required for SOAP mode) 
-    * 12. jaxrpc.jar (required for SOAP mode) 
-    * 13. log4j.jar (required for SOAP mode) 
-    * 14. mail.jar (required for SOAP mode) 
-    * 15. saaj.jar (required for SOAP mode) 
-    * 16. wsdl4j.jar (required for SOAP mode) 
-    * 17. xalan.jar (required for SOAP mode) 
-    * 18. xbean.jar (required for SOAP mode) 
-    * 19. xercesImpl.jar (required for SOAP mode) 
+     * 4. activation.jar (required for SOAP mode) 
+     * 5. axis.jar (required for SOAP mode) 
+     * 6. commons-codec-1.3.jar (required for SOAP mode) 
+     * 7. commons-collections-3.2.jar  (required for SOAP mode) 
+     * 8. commons-discovery.jar (required for SOAP mode) 
+     * 9. commons-logging.jar (required for SOAP mode) 
+     * 10. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
+     * 11. jaxen-1.1-beta-9.jar (required for SOAP mode) 
+     * 12. jaxrpc.jar (required for SOAP mode) 
+     * 13. log4j.jar (required for SOAP mode) 
+     * 14. mail.jar (required for SOAP mode) 
+     * 15. saaj.jar (required for SOAP mode) 
+     * 16. wsdl4j.jar (required for SOAP mode) 
+     * 17. xalan.jar (required for SOAP mode) 
+     * 18. xbean.jar (required for SOAP mode) 
+     * 19. xercesImpl.jar (required for SOAP mode) 
     * 
      * These JAR files are located in the following path: 
      * <install directory>/sdk/client-libs/common 

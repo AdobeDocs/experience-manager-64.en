@@ -408,10 +408,8 @@ The name "root" is never used in a query, it's implicit.
 * **p.hits** 
   (only for the JSON servlet) select the way the hits are written as JSON, with these standard ones (extensible via the ResultHitWriter service):
 
-    * **simple**: minimal items like `path`, `title`, `lastmodified`, `excerpt` (if set)  
-    
-    * **full**: sling JSON rendering of the node, with `jcr:path` indicating the path of the hit: by default just lists the direct properties of the node, include a deeper tree with `p.nodedepth=N`, with 0 meaning the entire, infinite subtree; add `p.acls=true` to include the JCR permissions of the current session on the given result item (mappings: `create` = `add_node`, `modify` = `set_property`, `delete` = `remove`)  
-    
+    * **simple**: minimal items like `path`, `title`, `lastmodified`, `excerpt` (if set)
+    * **full**: sling JSON rendering of the node, with `jcr:path` indicating the path of the hit: by default just lists the direct properties of the node, include a deeper tree with `p.nodedepth=N`, with 0 meaning the entire, infinite subtree; add `p.acls=true` to include the JCR permissions of the current session on the given result item (mappings: `create` = `add_node`, `modify` = `set_property`, `delete` = `remove`)
     * **selective**: only properties specified in `p.properties`, which is a space separated (use "+" in URLs) list of relative paths; if the relative path has a depth &gt; 1 these will be represented as child objects; the special jcr:path property includes the path of the hit
 
 ### savedquery {#savedquery}

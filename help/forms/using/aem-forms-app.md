@@ -21,11 +21,11 @@ The source code of the AEM Forms app is available to customers via package share
 
 AEM Forms app is supported on iOS, Android, Windows devices. You can install AEM Forms app for Android from Google Play, iOS from the App Store, and Windows from Windows store.
 
-[ ![](assets/google_play.png)](https://play.google.com/store/apps/details?id=com.adobe.aem.forms)
+    [ ![](assets/google_play.png)](https://play.google.com/store/apps/details?id=com.adobe.aem.forms)
 
-[ ![](assets/app_store.png)](https://itunes.apple.com/us/app/adobe-experience-manager-forms/id1129625976?ls=1&mt=8)
+    [ ![](assets/app_store.png)](https://itunes.apple.com/us/app/adobe-experience-manager-forms/id1129625976?ls=1&mt=8)
 
-[ ![](assets/microsoft-badge-icon.png)](https://www.microsoft.com/en-us/store/p/adobe-experience-manager-forms/9nd12rlxtgtt)
+    [ ![](assets/microsoft-badge-icon.png)](https://www.microsoft.com/en-us/store/p/adobe-experience-manager-forms/9nd12rlxtgtt)
 
 To install, customize, and distribute the app on iOS, Android, or Windows devices, see [Customize, build, and distribute the AEM Forms app](#customize-build-distribute).
 

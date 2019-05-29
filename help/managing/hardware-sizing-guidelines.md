@@ -19,29 +19,29 @@ Basic factors to consider are (in this order):
 
 * **Network speed**
 
-  * Network latency
-  * Available bandwidth
+    * Network latency
+    * Available bandwidth
 
 * **Computational speed**
 
-  * Caching efficiency
-  * Expected traffic
-  * Complexity of templates, applications and components
-  * Concurrent authors
-  * Complexity of the authoring operation (simple content editing, MSM rollout, etc)
+    * Caching efficiency
+    * Expected traffic
+    * Complexity of templates, applications and components
+    * Concurrent authors
+    * Complexity of the authoring operation (simple content editing, MSM rollout, etc)
 
 * **I/O performance**
 
-  * Performance and efficiency of the file or database storage
+    * Performance and efficiency of the file or database storage
 
 * **Hard Drive**
 
-  * at least two or three times larger than the repository size
+    * at least two or three times larger than the repository size
 
 * **Memory**
 
-  * Size of website (number of content-object, pages, and users)
-  * Number of users/sessions that are active at the same time
+    * Size of website (number of content-object, pages, and users)
+    * Number of users/sessions that are active at the same time
 
 ## Architecture {#architecture}
 
@@ -122,17 +122,17 @@ For benchmarking purposes, Adobe has developed some benchmark tests for standalo
   
   Calculate maximum throughput of a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages all of a similar nature. The steps involved were logging in to the site, creating a page with a SWF and Image/Text, adding a tag cloud, then activating the page.
 
-  * **Result**  
+    * **Result**  
   
-    Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
+      Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
 
 * **Benchmark test 2**  
   
   Calculate maximum throughput when load profile has a mix of fresh page creation (10%), modification of an existing page (80%) and creation then modification of a page in succession (10%). The complexity of the pages remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of the same complexity as defined in benchmark test 1.
 
-  * **Result**
+    * **Result**
   
-    Maximum throughput for such a mix operation scenario was found to be 3252 transactions per hour.
+      Maximum throughput for such a mix operation scenario was found to be 3252 transactions per hour.
 
 >[!NOTE]
 >
@@ -154,17 +154,17 @@ For such scenarios Adobe executed benchmark tests on a two node shared-nothing c
   
   With an active-active shared-nothing cluster of 2 author instances, calculate the maximum throughput with a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages, all of a similar nature.
 
-  * **Result**
+    * **Result**
 
-    Maximum throughput for a simple page creation exercise, such as above, (considered as one transaction) is found to be 2016 transactions/hour. This is an increase of approximately 16% when compared to a standalone author instance for the same benchmark test.
+      Maximum throughput for a simple page creation exercise, such as above, (considered as one transaction) is found to be 2016 transactions/hour. This is an increase of approximately 16% when compared to a standalone author instance for the same benchmark test.
 
 * **Benchmark test 2b**
   
   With an active-active shared-nothing cluster of 2 author instances, calculate the maximum throughput when the load profile has a mix of fresh page creation (10%), modification of an existing pages (80%) and creation and modification a page in succession (10%). The complexity of the page remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of complexity the same as defined in benchmark test 1.
 
-  * **Result**
+    * **Result**
 
-    Maximum throughput for such a mixed operation scenario was found to be 6288 transactions/hour. This is an increase of approximately 93% when compared to a standalone author instance for the same benchmark test.
+      Maximum throughput for such a mixed operation scenario was found to be 6288 transactions/hour. This is an increase of approximately 93% when compared to a standalone author instance for the same benchmark test.
 
 >[!NOTE]
 >
@@ -234,51 +234,51 @@ Based on the complexity, you can determine the number of servers (or CPU cores) 
 
 The variables in the equation are as follows:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>traffic</td> 
-   <td>The expected peak traffic per second. You can estimate this as the number of page hits per day, divided by 35’000.</td> 
-  </tr> 
-  <tr> 
-   <td>applicationComplexity</td> 
-   <td><p>Use 1 for a simple application, 2 for a complex application, or a value in-between:</p> 
-    <ul> 
-     <li>1 - a fully anonymous, content orientated site</li> 
-     <li>1.1 - a fully anonymous, content orientated site with client-side/Target personalization</li> 
-     <li>1.5 - a content-orientated site with both anonymous and logged in sections, client-side/Target personalization</li> 
-     <li>1.7 - for a content-orientated site with both anonymous and logged in sections, client-side/Target personalization and some user-generated content</li> 
-     <li>2 - where the entire site requires log in, with extensive use of user-generated content and a variety of personalization techniques</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>cacheRatio</td> 
-   <td>The percentage of pages that come out of the dispatcher cache. Use 1 if all pages come from the cache, or 0 if every page is computed by AEM.</td> 
-  </tr> 
-  <tr> 
-   <td>templateComplexity</td> 
-   <td>Use a value between 1 and 10 to indicate the complexity of your templates. Higher numbers indicate more complex templates, using the value 1 for sites with an average of 10 components per page, the value 5 for a page average of 40 components and 10 for an average of over 100 components.</td> 
-  </tr> 
-  <tr> 
-   <td>activations</td> 
-   <td>Number of average activations (replication of average sized pages and assets from the author to the publish tier) per hour divided by x, where x is the number of activations done on a system without performance side effects to other tasks processed by the system. You can also predefine a pessimistic initial value like x = 100.<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <td>traffic</td>
+   <td>The expected peak traffic per second. You can estimate this as the number of page hits per day, divided by 35’000.</td>
+  </tr>
+  <tr>
+   <td>applicationComplexity</td>
+   <td><p>Use 1 for a simple application, 2 for a complex application, or a value in-between:</p>
+    <ul>
+     <li>1 - a fully anonymous, content orientated site</li>
+     <li>1.1 - a fully anonymous, content orientated site with client-side/Target personalization</li>
+     <li>1.5 - a content-orientated site with both anonymous and logged in sections, client-side/Target personalization</li>
+     <li>1.7 - for a content-orientated site with both anonymous and logged in sections, client-side/Target personalization and some user-generated content</li>
+     <li>2 - where the entire site requires log in, with extensive use of user-generated content and a variety of personalization techniques</li>
+    </ul> </td>
+  </tr>
+  <tr>
+   <td>cacheRatio</td>
+   <td>The percentage of pages that come out of the dispatcher cache. Use 1 if all pages come from the cache, or 0 if every page is computed by AEM.</td>
+  </tr>
+  <tr>
+   <td>templateComplexity</td>
+   <td>Use a value between 1 and 10 to indicate the complexity of your templates. Higher numbers indicate more complex templates, using the value 1 for sites with an average of 10 components per page, the value 5 for a page average of 40 components and 10 for an average of over 100 components.</td>
+  </tr>
+  <tr>
+   <td>activations</td>
+   <td>Number of average activations (replication of average sized pages and assets from the author to the publish tier) per hour divided by x, where x is the number of activations done on a system without performance side effects to other tasks processed by the system. You can also predefine a pessimistic initial value like x = 100.<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 If you have a more complex website, you also need more powerful web servers so that AEM can answer a request in an acceptable time.
 
 * Complexity below 4:
-  * 1024 MB JVM RAM&ast;  
-  * Low to mid-performance CPU
+    * 1024 MB JVM RAM&ast;  
+    * Low to mid-performance CPU
 
 * Complexity between 4 and 8:  
-  * 2048 MB JVM RAM&ast;  
-  * Mid to high-performance CPU
+    * 2048 MB JVM RAM&ast;  
+    * Mid to high-performance CPU
 
 * Complexity above 8:  
-  * 4096 MB JVM RAM&ast;  
-  * High to high-end-performance CPU
+    * 4096 MB JVM RAM&ast;  
+    * High to high-end-performance CPU
 
 >[!NOTE]
 >

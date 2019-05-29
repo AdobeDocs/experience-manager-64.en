@@ -23,105 +23,26 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
 
 The following shortcuts are available for the Sites, Commerce, Screens, Assets, Users, Groups, Projects, and Experience Fragments consoles.
 
-<table> 
- <tbody>
-  <tr>
-   <th>Location</th> 
-   <th>Shortcut</th> 
-   <th>Description</th> 
-  </tr>
-  <tr>
-   <td>General</td> 
-   <td><span class="kbd">Ctrl+Click</span></td> 
-   <td>Multi-select on a desktop device</td> 
-  </tr>
-  <tr>
-   <td>Console - Column View &amp; Content Tree<br /> </td> 
-   <td><span class="kbd">Right Arrow</span></td> 
-   <td>Navigate down into the structure of your website / expand tree node</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">Left Arrow</span><br /> </td> 
-   <td>Navigate up the tree structure / collapse tree node</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">Down Arrow</span></td> 
-   <td>Move down a list of pages at the same level</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">Up Arrow</span><br /> </td> 
-   <td>Move up a list of pages at the same level</td> 
-  </tr>
-  <tr>
-   <td>Console - Column View</td> 
-   <td><span class="kbd">Shift-Up Arrow<br /> Shift-Down Arrow</span></td> 
-   <td>Select multiple items (at the same level)</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">Esc</span></td> 
-   <td>Remove all selections</td> 
-  </tr>
-  <tr>
-   <td>Consoles</td> 
-   <td><span class="kbd">?</span></td> 
-   <td>Keyboard shortcut help</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">/</span></td> 
-   <td>Invoke <a href="/help/sites-authoring/search.md">search</a></td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">Alt+&lt;Number&gt;</span></td> 
-   <td>Toggle which <a href="/help/sites-authoring/basic-handling.md#rail-selector">rail selector option</a> to view</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">`</span></td> 
-   <td>Hide rail<br /> </td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">e</span></td> 
-   <td>Edit</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">p</span></td> 
-   <td>Properties</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">m</span></td> 
-   <td>Move</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">Ctrl+c</span></td> 
-   <td>Copy</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">Ctrl+v</span><br /> </td> 
-   <td>Paste</td> 
-  </tr>
-  <tr>
-   <td> </td> 
-   <td><span class="kbd">Backspace</span></td> 
-   <td>Delete</td> 
-  </tr>
-  <tr>
-   <td>Property Pages<br /> </td> 
-   <td><span class="kbd">Ctrl+s</span></td> 
-   <td>Save</td> 
-  </tr>
- </tbody>
-</table>
+|Location|Shortcut|Description|
+|-|-|-|
+|General|`Ctrl+Click`|Multi-select on a desktop device|
+|Console - Column View & Content View|`Right Arrow`|Navigate down into the structure of your website / expand tree node|
+||`Left Arrow`|Navigate up the tree structure / collapse tree node|
+||`Down Arrow`|Move down a list of pages at the same level|
+||`Up Arrow`|Move up a list of pages at the same level|
+|Console - Column View|`Shift-Up/Down Arrow`|Move up a list of pages at the same level|
+||`Esc`|Move up a list of pages at the same level|
+|Consoles|`?`|Keyboard shortcut help|
+||`/`|Invoke [search](/help/sites-authoring/search.md)|
+||`Alt+`&lt;`Number`&gt;|Toggle which [rail selector](/help/sites-authoring/basic-handling.md#rail-selector) option to view|
+||&#96;|Hide rail|
+||`e`|Edit|
+||`p`|Properties|
+||`m`|Move|
+||`Ctrl+c`|Copy|
+||`Ctrl+v`|Paste|
+||`Backspace`|Delete|
+|Property Pages|`Ctrl+s`|Save|
 
 The key combinations are listed with the Windows [modifier keys](/help/sites-authoring/keyboard-shortcuts.md#os-specific-modifier-keys).
 
@@ -131,22 +52,10 @@ Various keyboard shortcuts are also available for desktop users when using the [
 
 The modfier keys used for the keyboard shortcuts vary depending on the operating system used by the client.
 
-<table> 
- <tbody>
-  <tr>
-   <td><strong>Windows and Linux</strong></td> 
-   <td><strong>macOS</strong><br /> </td> 
-  </tr>
-  <tr>
-   <td><span class="kbd">Alt</span><br /> </td> 
-   <td><span class="kbd">Option</span><br /> </td> 
-  </tr>
-  <tr>
-   <td><span class="kbd">Ctrl</span></td> 
-   <td><span class="kbd">Command</span></td> 
-  </tr>
- </tbody>
-</table>
+|Windows/Linux|macOS|
+|-|-|
+|`Alt`|`Option`|
+|`Ctrl`|`Command`|
 
 ## Browsers and Keyboard Shortcuts {#browsers-and-keyboard-shortcuts}
 

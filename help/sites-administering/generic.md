@@ -567,9 +567,9 @@ To rollout a catalog:
 
 >[!NOTE]
 >
->The following example deals with a promotion held directly in a [campaign](/help/sites-authoring/campaigns.md), this is used for vouchers.
+>The following example deals with a promotion held directly in a [campaign](/help/sites-authoring/personalization.md), this is used for vouchers.
 >
->A promotion can also be in an [experience](/help/sites-authoring/campaigns.md) within a campaign.
+>A promotion can also be in an [experience](/help/sites-authoring/personalization.md) within a campaign.
 >
 >For more information see [Promotions and Vouchers](#promotions).
 

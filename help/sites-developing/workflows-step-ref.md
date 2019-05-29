@@ -34,24 +34,31 @@ Each step component has a **Step Properties** dialog that allows you to define a
 A combination of the following properties are available for most workflow step components, on the **Common** tab of the properties dialog:
 
 * **Title** 
+
   The title for the step.
 
 * **Description** 
+
   A description of the step.
 
-* **Workflow Stage**  
+* **Workflow Stage** 
+
   A drop-down selector to apply a [Stage](/help/sites-developing/workflows.md#workflow-stages) to the step.  
 
 * **Timeout** 
+
   The period after which the step will be "timed out".  
   
   You can select between: **Off**, **Immediate**, **1h**, **6h**, **12h**, **24h**.
 
 * **Timeout Handler** 
+
   The handler which will control the workflow when the step times out; for example:  
+
   `Auto Advancer`
 
 * **Handler Advance** 
+
   Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
 
 #### Step Properties - User/Group tab {#step-properties-user-group-tab}
@@ -65,9 +72,9 @@ The following properties are available for many workflow step components, on the
 
 * **User/Group**
 
-    * A drop down selection box will allow you to navigate and select a user or group.  
-    * If you assign the step to a specific user, then only this user can take action on the step.  
-    * If you assign the step to an entire group, then when the workflow reaches this step all users in this group will have the action in their **Workflow Inbox**.  
+    * A drop down selection box will allow you to navigate and select a user or group. 
+    * If you assign the step to a specific user, then only this user can take action on the step. 
+    * If you assign the step to an entire group, then when the workflow reaches this step all users in this group will have the action in their **Workflow Inbox**. 
     * See [Participating in Workflows](/help/sites-authoring/workflows-participating.md) for more information.
 
 ## AND Split {#and-split}
@@ -82,7 +89,7 @@ To configure the split:
 
 * Edit the **AND Split Properties**:
 
-    * **Split Name**: assign a name for explanatory purposes  
+    * **Split Name**: assign a name for explanatory purposes
     * Select the number of branches required; 2, 3, 4 or 5.
 
 * Add workflow steps to the branches as required.
@@ -270,7 +277,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
     * To store widget data as a property of the workflow payload, use the following format for the value of the name property of the widget node:  
 
       `./jcr:content/nodename`
-    
+
     * The data is stored in the `nodename` property of the payload node. If the node does not contain that property, the property is created.
     * When stored with the payload, subsequent uses of the dialog with the same payload overwrites the value of the property.
 
@@ -279,7 +286,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
     * To store widget data as a property of the work item metadata, use the following format for the value of the name property:  
 
       `nodename`
-      
+
     * The data is stored in the `nodename` property of the work item `metadata`. The data is preserved if the dialog subsequently used with the same payload.
 
 #### Dialog Participant Step - Dialog Definition {#dialog-participant-step-dialog-definition}

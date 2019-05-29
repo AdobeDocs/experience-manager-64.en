@@ -20,9 +20,11 @@ Tagging allows content to be categorized and organized. Tags can be classified b
 
 The following information is available for developers :
 
-* [AEM Tagging Framework](/help/sites-developing/framework.md)  
+* [AEM Tagging Framework](/help/sites-developing/framework.md)
+
   description of the nodes and properties used for tagging
 
-* [Building Tagging into an AEM Application](/help/sites-developing/building.md)  
+* [Building Tagging into an AEM Application](/help/sites-developing/building.md)
+
   description of the APIs that work with the tagging framework from client side and server side code.
 

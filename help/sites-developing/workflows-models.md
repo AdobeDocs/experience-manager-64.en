@@ -25,10 +25,12 @@ When a user starts a workflow, an instance is started; this is the corresponding
 
 When you first create a new workflow model it contains:
 
-* The steps, **Flow Start** and **Flow End**.  
+* The steps, **Flow Start** and **Flow End**.
+
   These represent the beginning and end of the workflow. These steps are required and cannot be edited/removed. 
 
-* An example **Participant** step named **Step 1**.  
+* An example **Participant** step named **Step 1**. 
+
   This step is configured to assign a work item to the workflow initiator. Edit or delete this step, and add steps as required.
 
 To create a new workflow with the editor:
@@ -151,8 +153,7 @@ You can **Configure** and customize the behavior of a workflow step using the **
 
 1. To open the **Step Properties** dialog for a step either:
 
-    * Click/tap the* *step in the workflow model and select **Configure** from the component toolbar.  
-    
+    * Click/tap the* *step in the workflow model and select **Configure** from the component toolbar.
     * Double-click on the step.
 
    >[!NOTE]
@@ -248,7 +249,6 @@ To export a workflow model in a package:
 1. Create a new package using the [Package Manager](/help/sites-administering/package-manager.md#package-manager):
 
     1. Navigate to the Package Manager via **Tools**, **Deployment**, **Packages**.
-    
     1. Click **Create Package**.
     1. Specify the **Package Name**, and any other details as required.
     1. Click **OK**.
@@ -346,24 +346,19 @@ To illustrate some of the possibilities for creating a workflow, the following e
 1. Configure:
 
     * **Common**: select **2 Branches**
-    
     * **Branch 1**: select **Default Route**.
-    
     * **Branch 2**: ensure **Default Route** is not selected.
 
 1. Confirm your updates to the **OR Split**.
 1. Drag a **Participant Step** to the left-hand branch, open the properties, specify the following values, then confirm the changes:
 
     * **Title**: `Reject Publish Request`
-    
     * **User/Group**: for example, `projects-administrators`
-    
     * **Notify user via email**: Activate to have the user notified by email.
 
 1. Drag a **Process Step** to the right-hand branch, open the properties, specify the following values, then confirm the changes:
 
     * **Title**: `Publish Page as Requested`
-    
     * **Process**: select `Activate Page`. This process publishes the selected page to the publisher instances.
 
 1. Click **Sync** (editor toolbar) to generate the runtime model.
@@ -395,9 +390,9 @@ To define an OR rule, proceed as follows:
 1. Edit the workflow and add the **OR Split** to the model.
 1. Edit the properties of **Branch 1** of the **OR Split**:
 
-    * Define this as the **Default Route** by setting the **Value** to `true`.  
-    
-    * As **Rule**, set the path to the script. For example:  
+    * Define this as the **Default Route** by setting the **Value** to `true`. 
+    * As **Rule**, set the path to the script. For example: 
+
       `/apps/myapp/workflow/scripts/myscript1.ecma`
 
    >[!NOTE]
@@ -406,7 +401,8 @@ To define an OR rule, proceed as follows:
 
 1. Edit the properties of the **Branch 2** of the **OR Split**.
 
-    * As **Rule**, set the path to the other script. For example:  
+    * As **Rule**, set the path to the other script. For example:
+
       `/apps/myapp/workflow/scripts/myscript2.ecma`
 
 1. Set the properties of the individual steps in each branch. Make sure the **User/Group** is set.
@@ -427,7 +423,7 @@ function check() {
     if (workflowData.getPayloadType() == "JCR_PATH") {
       var path = workflowData.getPayload().toString();
       var node = jcrSession.getItem(path);
-      
+
       if (node.getPath().indexOf("/content/we-retail/us/en") >= 0) {
        return true;
       } else {

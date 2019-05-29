@@ -59,7 +59,7 @@ When you use more than one rule, these rules are combined by the Boolean operato
 
 >[!NOTE]
 >
->If you do not see **Create Target Audience **in the **Create** menu, you do not have the necessary permissions to create an audience. You need write permissions under **/etc/segmentation** to be able to create audiences. The group content-authors has write permissions by default.
+>If you do not see **Create Target Audience** in the **Create** menu, you do not have the necessary permissions to create an audience. You need write permissions under **/etc/segmentation** to be able to create audiences. The group content-authors has write permissions by default.
 
 To create an Adobe Target audience:
 
@@ -67,7 +67,7 @@ To create an Adobe Target audience:
 
    ![](assets/chlimage_1-299.png)
 
-1. In the Audiences console, tap or click **Create** and then** Create Target Audience**.
+1. In the Audiences console, tap or click **Create** and then **Create Target Audience**.
 
    ![](assets/chlimage_1-300.png)
 

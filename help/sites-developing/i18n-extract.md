@@ -30,7 +30,7 @@ Configure how the xgettext-maven-plugin tool extracts strings for your project.
    /javascript { }
    /regexp {
       /files {
-         /java { }        
+         /java { } 
          /jsp { }
          /extjstemplate { }
       }

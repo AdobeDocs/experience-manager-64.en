@@ -47,7 +47,7 @@ Select one of the listed content packages to create or edit content such as crea
 
 Note *everything is content*, meaning application styles, copy (text), media, pages, navigation and, targeting of content can all be edited and updated OTA, without a trip to an app store.
 
-In order to edit AEM Mobile content, *AEM authors *will need a solid understanding of AEM's content editiing interface: [Authoring pages in AEM.](/help/sites-authoring/page-authoring.md)
+In order to edit AEM Mobile content, *AEM authors *will need a solid understanding of AEM's content editiing interface: [Authoring pages in AEM.](/help/sites-authoring/qg-page-authoring.md)
 
 ## The Manage Content Packages Tile {#the-manage-content-packages-tile}
 

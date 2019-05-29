@@ -130,7 +130,7 @@ public class ScreenSizeLarge implements DeviceGroupFilter {
     private int len=400;
     private int wid=200;
     public String getDescription() {
-        
+
         return "Requires the physical size of the screen to have minimum dimensions " + len + "x" + wid+".";
     }
 

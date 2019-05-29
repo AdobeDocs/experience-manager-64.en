@@ -18,14 +18,14 @@ The project workflows available out of the box include the following:
 * **Project Approval Workflow** - This workflow allows you to assign content to a user, review, then approve.
 * **Request Launch** - A workflow the requests a launch.
 * **Request Landing Page** - This workflow requests a landing page.
-* **Request Email **- Workflow for requesting an email.
-* **Product Photo Shoot and Product Photo Shoot (Commerce) **- Maps assets with products
+* **Request Email** - Workflow for requesting an email.
+* **Product Photo Shoot and Product Photo Shoot (Commerce)** - Maps assets with products
 * **DAM Create and Translate Copy and DAM Create Language Copy** - Creates translated binaries, metadata, and tags for assets and folders.
 
 Depending on which Project template you select, you have certain workflows available:
 
 |   |**Simple Project** |**Media Project** |**Product Photo Shoot Project** |**Translation Project** |
-|---|---|---|---|---|
+|---|:-:|:-:|:-:|:-:|
 | Request Copy |  |x |  |  |
 | Product Photo Shoot |  |x |x |  |
 | Product Photo Shoot (Commerce) |  |  |x |  |
@@ -56,7 +56,7 @@ This section describes the workflows available for Projects.
 
 This workflow lets you request a manuscript from a user and then approve it. To start the request copy workflow:
 
-1. In your Media project, select the **+ **sign in the **Workflows** tile and select **Request Copy Workflow**.
+1. In your Media project, select the **+** sign in the **Workflows** tile and select **Request Copy Workflow**.
 1. Enter a manuscript title and a brief summary of what you are requesting. If applicable, enter a target word count, task priority and a due date.
 
    ![](assets/chlimage_1-321.png)
@@ -73,7 +73,7 @@ The Product Photo Shoot workflows (both commerce and without commerce) are cover
 
 In the Project Approval workflow, you assign content to a user, review, and then approve the content.
 
-1. In your Simple project, select the **+ **sign in the **Workflows** tile and select **Project Approval Workflow**.
+1. In your Simple project, select the ****+** sign in the **Workflows** tile and select **Project Approval Workflow**.
 1. Enter a title and select who to assign it to from the Team list. If applicable, enter a description, content path, task priority and a due date.
 
    ![](assets/chlimage_1-323.png)

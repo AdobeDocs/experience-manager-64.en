@@ -93,7 +93,7 @@ To install a fully-fledged configuration (using the demonstration catalog, Geome
 
     1. [Setup the Geometrixx Outdoor Store](#setup-the-geometrixx-outdoors-store).
 
-1. [Author](/help/sites-authoring/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites-authoring/qg-page-authoring.md) any supplementary pages that you need in AEM.
 
 >[!CAUTION]
 >

@@ -42,7 +42,7 @@ Additional functionality can be configured or developed:
 
 >[!NOTE]
 >
->The information specified in the profile can also be used to provide the user with targeted content via [Segments](/help/sites-administering/campaign-segmentation.md) and [Campaigns](/help/sites-authoring/campaigns.md).
+>The information specified in the profile can also be used to provide the user with targeted content via [Segments](/help/sites-administering/campaign-segmentation.md) and [Campaigns](/help/sites-authoring/personalization.md).
 
 ## Registration Forms {#registration-forms}
 

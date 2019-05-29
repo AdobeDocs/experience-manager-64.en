@@ -38,11 +38,9 @@ The structure of a website can be thought of as a tree structure that holds your
 
 The following shows an example from the We.Retail site, where a hiking shorts page ( `desert-sky-shorts`) is accessed:
 
-* Author environment  
-  `http://localhost:4502/editor.html/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html`
+* Author environment: `http://localhost:4502/editor.html/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html`
 
-* Publish environment  
-  `http://localhost:4503/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html`
+* Publish environment: `http://localhost:4503/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html`
 
 Depending on the configuration of your instance, use of `/content` might be optional on the publish environment.
 
@@ -103,7 +101,6 @@ The page **Title** and **Name** can be created separately but are related:
 >[!NOTE]
 >
 >When defining a page name, a good rule-of-thumb is to keep the page name as brief but as expressive and memorable as possible to make it easy to understand for the reader. See the [W3C style guide](https://www.w3.org/Provider/Style/TITLE.html) for the `title` element for more information.  
-
 >
 >Also keep in mind that some browsers (e.g. older versions of IE) can only accept URLs up to a certain length, so there is also technical reason to keep page names short.
 

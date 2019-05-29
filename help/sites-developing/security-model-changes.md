@@ -40,7 +40,7 @@ CRX 2.0
 
 * ACEs for user principals always take precedence over group principal ACEs, irrespective of:
 
-    * their order in the ACL   
+    * their order in the ACL 
     * their position in the node hierarchy
 
 * For a given principal there exists at most 1 deny and 1 allow entry at a given node. The implementation always clears redundant entries and makes sure that the same privilege is not listed in the allow and in the deny.
@@ -89,8 +89,7 @@ In this case:
 
 * CRX 2.0:
 
-    * `aUser` is not granted write permission on `grandChildNode`.  
-    
+    * `aUser` is not granted write permission on `grandChildNode`.
     * The second ACE for `aUser` is redundant.
 
 ### Mapping of Former CRX ActionSet to New JCR Privileges {#mapping-of-former-crx-actionset-to-new-jcr-privileges}
@@ -232,8 +231,7 @@ The default implementation of CRX and CQ grants workspace access only if the use
 Alternative implementations are as follows:
 
 * SimpleWorkspaceAccessManager: Always granting access.
-* DefaultSecurityManager#WorkspaceAccessManagerImpl: Granting  
-  access if the root node is visible to a given user.
+* DefaultSecurityManager#WorkspaceAccessManagerImpl: Granting access if the root node is visible to a given user.
 
 ### CRX Access Control API {#crx-access-control-api}
 

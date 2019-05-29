@@ -141,7 +141,7 @@ The following example JSP code obtains an instance of the hsqldbds data source, 
 <body>
 <%DataSourcePool dspService = sling.getService(DataSourcePool.class);
   try {
-     DataSource ds = (DataSource) dspService.getDataSource("hsqldbds");   
+     DataSource ds = (DataSource) dspService.getDataSource("hsqldbds"); 
      if(ds != null) {
          %><p>Obtained the datasource!</p><%
          %><%final Connection connection = ds.getConnection();

@@ -139,7 +139,7 @@ These indicators can be:
 
 * Performance:
 
-    * Define how to measure the performance of the system. 
+    * Define how to measure the performance of the system.
     * Some examples include page load time, server response time and database query performance.
 
 Some, but not all, indicators can be based on the target metrics that you identify and define.
@@ -266,7 +266,7 @@ However, (under controlled circumstances) the following guidelines can be applie
 * 25% of the requests for pages should respond in less than 100ms-300ms.
 * 4% of the requests for pages should respond in less than 300ms-500ms.
 * 1% of the requests for pages should respond in less than 500ms-1000ms.
-* No pages should respond slower than 1 second. 
+* No pages should respond slower than 1 second.
 
 The above numbers assume the following conditions:
 
@@ -451,12 +451,10 @@ Some points to note for each category are:
 * **Content**
 
     * The base architecture:
-
         * Drives the content hierarchy.
         * Helps to define the content concept.
         * Defines MSM usage and layout.
         * Defines roles, groups, workflows and permissions.
-
     * Consider whether offline page creation will be useful.
     * Plan for the early creation of first pages and content (for use in tests and feedback).
     * Plan for the migration of existing content.
@@ -511,56 +509,56 @@ The following site metrics should be defined:
 
 The following list is provided to inform you of tools that can be used. It is intended as an introduction, not an extensive recommendation list, and should certainly not deter you from using any other tools which you prefer.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Product</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>AEM</td> 
-   <td><p>AEM itself provides a range of mechanisms to help you monitor, test, investigate and debug your application; including:</p> 
-    <ul> 
-     <li><a href="/help/sites-developing/developer-mode.md">Developer Mode</a></li> 
-     <li>The <a href="/help/sites-developing/hobbes.md">Testing Console</a></li> 
-     <li><a href="/help/sites-administering/operations-dashboard.md">Operations Dashboard</a></li> 
-     <li><a href="/help/sites-authoring/content-insights.md">Content Insight</a></li> 
-     <li>The <a href="/help/sites-authoring/author-environment-tools.md#content-tree">Content Tree</a></li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Selenium</td> 
-   <td><a href="https://docs.seleniumhq.org/">Selenium</a> is an Open Source test tool. The tests run direct in the browser - emulating how your users work.</td> 
-  </tr> 
-  <tr> 
-   <td>Microsoft Project</td> 
-   <td>A commonly used project management tool.</td> 
-  </tr> 
-  <tr> 
-   <td>Jira</td> 
-   <td><a href="https://www.atlassian.com/software/jira">Jira</a> is an Open Source tool for tracking and managing details of your software bugs. Workflows can be imposed onto the bug details as required.</td> 
-  </tr> 
-  <tr> 
-   <td>Git</td> 
-   <td><a href="https://git-scm.com/">Git</a> is a revision control software.</td> 
-  </tr> 
-  <tr> 
-   <td>Eclipse</td> 
-   <td><p>Eclipse is an Open Source IDE, composed of various projects. These are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle.</p> <p>See <a href="/help/sites-developing/howto-projects-eclipse.md">How to Develop AEM Projects Using Eclipse</a> for more information.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>IntelliJ</td> 
-   <td><p>A professional (and therefore liable to licensing costs) IDE offering a comprehensive range of features. </p> <p>See <a href="/help/sites-developing/ht-intellij.md">How to Develop AEM Projects using IntelliJ IDEA</a> for more information.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Maven</td> 
-   <td><a href="https://maven.apache.org/">Maven</a> is a software project management and comprehension tool which can manage a project's build process (software and documentation).</td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <td><strong>Product</strong></td>
+   <td><strong>Description</strong></td>
+  </tr>
+  <tr>
+   <td>AEM</td>
+   <td><p>AEM itself provides a range of mechanisms to help you monitor, test, investigate and debug your application; including:</p>
+    <ul>
+     <li><a href="/help/sites-developing/developer-mode.md">Developer Mode</a></li>
+     <li>The <a href="/help/sites-developing/hobbes.md">Testing Console</a></li>
+     <li><a href="/help/sites-administering/operations-dashboard.md">Operations Dashboard</a></li>
+     <li><a href="/help/sites-authoring/content-insights.md">Content Insight</a></li>
+     <li>The <a href="/help/sites-authoring/author-environment-tools.md#content-tree">Content Tree</a></li>
+    </ul> </td>
+  </tr>
+  <tr>
+   <td> </td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>Selenium</td>
+   <td><a href="https://docs.seleniumhq.org/">Selenium</a> is an Open Source test tool. The tests run direct in the browser - emulating how your users work.</td>
+  </tr>
+  <tr>
+   <td>Microsoft Project</td>
+   <td>A commonly used project management tool.</td>
+  </tr>
+  <tr>
+   <td>Jira</td>
+   <td><a href="https://www.atlassian.com/software/jira">Jira</a> is an Open Source tool for tracking and managing details of your software bugs. Workflows can be imposed onto the bug details as required.</td>
+  </tr>
+  <tr>
+   <td>Git</td>
+   <td><a href="https://git-scm.com/">Git</a> is a revision control software.</td>
+  </tr>
+  <tr>
+   <td>Eclipse</td>
+   <td><p>Eclipse is an Open Source IDE, composed of various projects. These are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle.</p> <p>See <a href="/help/sites-developing/howto-projects-eclipse.md">How to Develop AEM Projects Using Eclipse</a> for more information.</p> </td>
+  </tr>
+  <tr>
+   <td>IntelliJ</td>
+   <td><p>A professional (and therefore liable to licensing costs) IDE offering a comprehensive range of features. </p> <p>See <a href="/help/sites-developing/ht-intellij.md">How to Develop AEM Projects using IntelliJ IDEA</a> for more information.</p> </td>
+  </tr>
+  <tr>
+   <td>Maven</td>
+   <td><a href="https://maven.apache.org/">Maven</a> is a software project management and comprehension tool which can manage a project's build process (software and documentation).</td>
+  </tr>
+ </tbody>
 </table>
 
 ## Further Reading {#further-reading}
@@ -580,4 +578,3 @@ Adobe provides further Best Practices for all phases and audiences:
 * [Administering](/help/sites-administering/administer-best-practices.md)
 * [Developing](/help/sites-developing/best-practices.md)
 * [Project Management](/help/managing/best-practices.md)
-

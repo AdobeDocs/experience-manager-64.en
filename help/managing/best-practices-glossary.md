@@ -351,10 +351,10 @@ Any customizations and/or applied hotfixes applied must be documented as they ca
 * AEM can be heavily customized to suit business needs. Any customizations that may impact upgrading must be fully documented. For example, any major changes to the user interface (UI) of AEM.
 * Any updates required for the current solution must be fully documented; these can include:
 
-  * cumulative fix packs (CFP)
-  * service packs (SP)
-  * hotfixes
-  * upgrades
+    * cumulative fix packs (CFP)
+    * service packs (SP)
+    * hotfixes
+    * upgrades
 
 ## Daily User Acceptance Test Report {#daily-user-acceptance-test-report}
 

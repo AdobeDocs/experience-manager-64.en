@@ -26,28 +26,28 @@ The touch-enabled UI includes:
 * The suite header that:
 
     * Shows the logo
-    * Provides a link to the Global Navigation  
+    * Provides a link to the Global Navigation 
     * Provides link to other generic actions; such as Search, Help, Marketing Cloud Solutions, Notifications and User Settings.
 
 * The left-hand rail (shown when needed and hidable), which can show:
 
-    * Timeline  
+    * Timeline 
     * References
     * Filters
 
 * The navigation header, which is again context sensitive and can show:
 
-    * Indicates which console you are currently using and/or your location within that console  
+    * Indicates which console you are currently using and/or your location within that console 
     * Selection for the left-hand rail
     * Breadcrumbs
-    * Access to appropriate **Create** actions  
+    * Access to appropriate **Create** actions 
     * View selections
 
 * The content area that:
 
     * Lists the items of content (be they pages, assets, forum posts, etc)
     * Can be formatted as requested, e.g. column, card, or list
-    * Uses a responsive design (the display resizes automatically according to your device and/or window size)  
+    * Uses a responsive design (the display resizes automatically according to your device and/or window size) 
     * Uses infinite scrolling (no more pagination, all items are listed ine one window)
 
 ![](assets/chlimage_1-183.png)
@@ -127,7 +127,8 @@ The Granite UI:
 
 ![](assets/chlimage_1-186.png)
 
-* [Granite UI Foundation Components](#granite-ui-foundation-components)  
+* [Granite UI Foundation Components](#granite-ui-foundation-components)
+
   This library of foundation components can be used or extended by other libraries.
 
 * [Granite UI Administration Components](#granite-ui-administration-components)

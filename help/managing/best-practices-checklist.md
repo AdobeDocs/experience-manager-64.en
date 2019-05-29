@@ -28,13 +28,13 @@ AEM Project Best Practices Checklist v2
 The spreadsheet provides you with the following worksheets:
 
 * **Instructions**
-  * Provides instructions on how to use the spreadsheet, together with explanations of the mechanisms used.
+    * Provides instructions on how to use the spreadsheet, together with explanations of the mechanisms used.
 * **[Project Heartbeat](/help/managing/best-practices.md#project-heartbeat-dashboard)**
 * **[Status by Role](/help/managing/best-practices.md#status-by-role)**
 * A series of checklists, according to [Persona](/help/managing/best-practices.md#persona), [Phase and Milestone](/help/managing/best-practices.md#phases-and-milestones)
 * **Glossary**
-  * The Glossary lists details of all Deliverable documents from the Project Checklist.
-  * The [Glossary](/help/managing/best-practices-glossary.md) is also available as part of the documentation.
+    * The Glossary lists details of all Deliverable documents from the Project Checklist.
+    * The [Glossary](/help/managing/best-practices-glossary.md) is also available as part of the documentation.
 * **[Persona Definitions](/help/managing/best-practices.md#persona)**
 
 ## Using the Checklists {#using-the-checklists}

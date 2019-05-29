@@ -1,6 +1,6 @@
 ---
-title: Launches
-seo-title: Launches
+title: Launches Overview
+seo-title: Launches Overview
 description: Launches enable you to efficiently develop content for a future release. They allow you to make changes ready for future publication, while maintaining your current pages
 seo-description: Launches enable you to efficiently develop content for a future release. They allow you to make changes ready for future publication, while maintaining your current pages
 uuid: ff6a2898-7a77-4315-bb1f-efa9caa5f3b2
@@ -11,7 +11,7 @@ topic-tags: site-features
 discoiquuid: a7ec190d-056e-4fc9-8f2d-f4164273674d
 ---
 
-# Launches{#launches}
+# Launches Overview{#launches}
 
 Launches enable you to efficiently develop content for a future release.
 

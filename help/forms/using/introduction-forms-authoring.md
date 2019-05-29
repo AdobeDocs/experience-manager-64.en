@@ -60,7 +60,7 @@ The Sidebar allows you to
 * Search, view, and use assets in your AEM Digital Asset Management (DAM) repository.
 * Add components on your form.
 
-[ ![Sidebar](assets/sidebar-comps-2.png)
+    [ ![Sidebar](assets/sidebar-comps-2.png)
 
 Click to enlarge
 

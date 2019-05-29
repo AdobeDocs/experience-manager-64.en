@@ -19,13 +19,15 @@ discoiquuid: 6825dcd6-fa75-4410-b6b2-e7bd4a391224
 
 AEM provides various mechanisms to enable you to customize the page authoring functionality (and the [consoles](/help/sites-developing/customizing-consoles-touch.md)) of your authoring instance.
 
-* Clientlibs  
+* Clientlibs
+
   Clientlibs allow you to extend the default implementation to realize new functionality, while reusing the standard functions, objects, and methods. When customizing, you can create your own clientlib under `/apps.` The new clientlib must:
 
     * depend on the authoring clientlib `cq.authoring.editor.sites.page`
     * be part of the appropriate `cq.authoring.editor.sites.page.hook` category
 
-* Overlays  
+* Overlays
+
   Overlays are based on node definitions and allow you to overlay the standard functionality (in `/libs`) with your own customized functionality (in `/apps`). When creating an overlay a 1:1 copy of the original is not required, as the [sling resource merger](/help/sites-developing/sling-resource-merger.md) allows for inheritance.
 
 >[!NOTE]
@@ -54,9 +56,7 @@ These can be used in many ways to extend the page authoring functionality in you
 >The recommended method for configuration and other changes is:
 >
 >1. Recreate the required item (i.e. as it exists in `/libs`) under `/apps`  
->
 >1. Make any changes within `/apps`
->
 
 ## Add New Layer (Mode) {#add-new-layer-mode}
 
@@ -142,13 +142,15 @@ In a standard AEM installation:
 
 1. There is a connection between the editor and each resource type (as in component) that can use it:
 
-    * `cq:inplaceEditing`  
+    * `cq:inplaceEditing`
+
       for example:
 
         * `/libs/foundation/components/text/cq:editConfig`
         * `/libs/foundation/components/image/cq:editConfig`
 
-            * property: `editorType`  
+            * property: `editorType` 
+
               Defines the type of inline editor that will be used when the in-place editing is triggered for that component; e.g. `text`, `textimage`, `image`, `title`.
 
 1. Additional configuration details of the editor can be configured using a `config` node containing configurations as well as a further `plugin` node to contain necessary plugin configuraiton details.
@@ -235,7 +237,8 @@ The out-of-the-box workflow, **Request for Activation**, is automatically trigge
 
 To have customized behavior upon such activation you can overlay the **Request for Activation** workflow:
 
-1. In `/apps` overlay the **Sites** wizard:  
+1. In `/apps` overlay the **Sites** wizard: 
+
    `/libs/wcm/core/content/common/managepublicationwizard`
 
    >[!NOTE]

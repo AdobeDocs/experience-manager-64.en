@@ -21,7 +21,7 @@ it on a portal server for end users. You can use the AEM Forms user interface to
 
 >[!NOTE]
 >
->For detailed information about other AEM tools and options, see [Working with the Author Environment](/help/sites-authoring/author-environment.md).
+>For detailed information about other AEM tools and options, see [Working with the Author Environment](/help/sites-authoring/home.md).
 
 ## Access AEM Forms components {#access-aem-forms-components}
 

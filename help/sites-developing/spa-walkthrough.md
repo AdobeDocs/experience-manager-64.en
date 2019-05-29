@@ -27,8 +27,7 @@ The goal of this introduction and walkthrough is to demonstrate to an AEM develo
 
 The walkthrough is based on standard AEM functionality and the sample We.Retail Journal app. The following requirements must be met:
 
-* [AEM version 6.4 with service pack 2 or newer  
-  ](/help/release-notes/sp-release-notes.md)
+* [AEM version 6.4 with service pack 2 or newer](/help/release-notes/sp-release-notes.md)
 * [Install the sample We.Retail Journal app available on GitHub here.](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal)
 
 >[!CAUTION]
@@ -173,20 +172,20 @@ The next section, [Loading an SPA Application](/help/sites-developing/spa-walkth
        <head>
        <meta charset="UTF-8">
        <title>We.Retail Journal</title>
-       
+
        <meta name="template" content="we-retail-react-template"/>
-       
+
    <link rel="stylesheet" href="/etc.clientlibs/we-retail-journal/react/clientlibs/we-retail-journal-react.css" type="text/css">
-       
+
    <link rel="stylesheet" href="/libs/wcm/foundation/components/page/responsive.css" type="text/css">
-       
+
    </head>
        <body class="page basicpage">
-               
+
    <div id="page"></div>
-       
+
    <script type="text/javascript" src="/etc.clientlibs/we-retail-journal/react/clientlibs/we-retail-journal-react.js"></script>
-           
+
        </body>
    </html>
    ```

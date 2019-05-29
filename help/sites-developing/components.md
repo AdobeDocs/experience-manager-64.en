@@ -82,7 +82,8 @@ Alternatively, you can also use CRXDE Lite to get a list of all the components a
 
 1. In the **Query** tab, select `XPath` as **Type**.
 
-1. In the **Query** input field, enter following string:  
+1. In the **Query** input field, enter following string:
+
    `//element(*, cq:Component)`
 
 1. Click **Execute **and the components are listed.

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 19cb3946-32ba-4f0b-89f0-f9272f2373d2
 ---
 
-# Developing with CRXDE Lite{#developing-with-crxde-lite}
+# Developing with CRXDE Lite {#developing-with-crxde-lite}
 
 This section describes how to develop your AEM application using CRXDE Lite.
 
@@ -146,13 +146,13 @@ With CRXDE Lite you can create a working project in three clicks. The project wi
 To create a project with CRXDE Lite:
 
 1. Open CRXDE Lite in your browser.
-1. In the Navigation pane, right-click a node, select **Create ...**, then **Create Project ...**.  
+1. In the Navigation pane, right-click a node, select **Create ...**, then **Create Project ...**. 
+
    Note: you can right-click any node in the tree navigation, as the new project nodes are, by design, created below `/apps,` `/content` and `/etc/packages`.
 
-1. Define**:**
+1. Define:
 
-    * **Project Name** - the project name is used to create the new nodes and the bundle, e.g. `myproject`.  
-    
+    * **Project Name** - the project name is used to create the new nodes and the bundle, e.g. `myproject`.
     * **Java Package** - the Java package name prefix, e.g. `com.mycompany`.
 
 1. Click **Create**.
@@ -186,7 +186,7 @@ To create a folder with CRXDE Lite:
 1. Open CRXDE Lite in your browser.
 1. In the Navigation pane, right-click the folder under which you want to create the new folder, select **Create ...**, then **Create Folder ...**.
 
-1. Enter the folder** Name** and click **OK**.
+1. Enter the folder **Name** and click **OK**.
 
 1. Click **Save All** to save the changes on the server.
 
@@ -295,7 +295,7 @@ To create a new script:
 1. Open CRXDE Lite in your browser.
 1. In the Navigation pane, right-click the component where you want to create the script, select **Create ...**, then **Create File ...**.
 
-1. Enter the File** Name** including its extension. Click **OK**.
+1. Enter the File **Name** including its extension. Click **OK**.
 
 1. The new file opens as a tab in the Edit pane.
 1. Edit the file.
@@ -305,7 +305,7 @@ To create a new script:
 
 With CRXDE Lite, it is straightforward to create an OSGI bundle, add Java classes to it, and build it. The bundle is then automatically installed and started in the OSGI container.
 
-This section describes how to create a `Test` bundle with a `HelloWorld` Java class that displays** Hello World! **in your browser when the resource is requested.
+This section describes how to create a `Test` bundle with a `HelloWorld` Java class that displays **Hello World!** in your browser when the resource is requested.
 
 #### Creating a Bundle {#creating-a-bundle}
 
@@ -314,35 +314,18 @@ To create the Test bundle with CRXDE Lite:
 1. In CRXDE Lite create `myapp` project with the [project wizard](#creating-a-project). Among others the following nodes are created:
 
     * `/apps/myapp/src`
-    * 
-    
-      ```    
-      /apps/myapp/install
-      
-      ```
+    * `/apps/myapp/install`
 
 1. Right-click the folder `/apps/myapp/src` that will contain the `Test` bundle, select **Create ...**, then **Create Bundle ...**.  
 
 1. Set the bundle properties as follows:
 
-    * Symbolic Bundle Name: `com.mycompany.test.TestBundle`  
-    
+    * Symbolic Bundle Name: `com.mycompany.test.TestBundle`
     * Bundle Name: `Test Bundle`
-    * Bundle Description:     
-    
-      ```    
-      This is my Test Bundle
-      
-      ```    
-    
-    * Package:     
-    
-      ```    
-      com.mycompany.test
-      
-      ```
+    * Bundle Description: `This is my Test Bundle`
+    * Package:`com.mycompany.test`
 
-   Click **OK**.
+      Click **OK**.
 
 1. Click **Save All** to save the changes on the server.
 
@@ -354,8 +337,7 @@ The wizard creates the following elements:
 
 * The folder structures:
 
-    * `src/main/java/com/mycompany/test`. It will contain the packages and the Java classes.  
-    
+    * `src/main/java/com/mycompany/test`. It will contain the packages and the Java classes.
     * `src/main/resources`. It will contain the resources used within the bundle.
 
 * The `Activator.java` file. It is the optional listener class to be notified of bundle start and stop events.
@@ -424,13 +406,14 @@ To create the `HelloWorld` Java class within the Test Bundle:
 1. Name the file `HelloWorld.java`. Click **OK**.
 
 1. The `HelloWorld.java` file opens in the Edit pane.
-1. Add the following lines into `HelloWorld.java`:  
+1. Add the following lines into `HelloWorld.java`:
+
    package com.mycompany.test;  
   
-   public class HelloWorld {  
-   public String getString(){  
-   return "Hello World!";  
-   }  
+   public class HelloWorld { 
+   public String getString(){ 
+   return "Hello World!"; 
+   } 
    }
 
 1. Click **Save All** to save the changes on the server.
@@ -452,16 +435,19 @@ To see the effect of the Test Bundle, create a component that uses the Java meth
 
 1. Create the component `mycomp` under `myapp/components`.
 
-1. Edit `mycomp.jsp` and replace the code with the following lines:  
-   &lt;%@ page import="com.mycompany.test.HelloWorld"%&gt;&lt;%  
-   %&gt;&lt;%@ include file="/libs/foundation/global.jsp"%&gt;&lt;%  
-   %&gt;&lt;% HelloWorld hello = new HelloWorld();%&gt;&lt;%  
-   %&gt;  
-   &lt;html&gt;  
-   &lt;body&gt;  
-   &lt;b&gt;&lt;%= hello.getString() %&gt;&lt;/b&gt;&lt;br&gt;  
-   &lt;/body&gt;  
-   &lt;/html&gt;
+1. Edit `mycomp.jsp` and replace the code with the following lines:
+
+ ```
+   <%@ page import="com.mycompany.test.HelloWorld"%><% 
+   %><%@ include file="/libs/foundation/global.jsp"%><% 
+   %><% HelloWorld hello = new HelloWorld();%><% 
+   %> 
+   <html> 
+   <body> 
+   <b><%= hello.getString() %></b><br> 
+   </body> 
+   </html>
+   ```
 
 1. Create the resource `test_node` of type `nt:unstructured` under `/content`.  
 
