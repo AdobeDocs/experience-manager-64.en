@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 49584fb4-8c3a-4d73-acd6-0879a67f6093
 ---
 
-# Disassemble a PDF document usingthe web service API{#disassemble-a-pdf-document-usingthe-web-service-api}
+# Disassemble a PDF document using the web service API {#disassemble-a-pdf-document-usingthe-web-service-api}
 
 Disassemble a PDF document by using the Assembler Service API (web service):
 

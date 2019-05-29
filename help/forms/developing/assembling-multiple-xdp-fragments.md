@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 0ed1f69d-c212-4d47-a572-ae030f2983fc
 ---
 
-# Assembling Multiple XDP Fragments{#assembling-multiple-xdp-fragments}
+# Assembling Multiple XDP Fragments {#assembling-multiple-xdp-fragments}
 
 You can assemble multiple XDP fragments into a single XDP document. For example, consider XDP fragments where each XDP file contains one or more subforms used to create a health form. The following illustration shows the outline view (represents the tuc018_template_flowed.xdp file used in the *Assembling multiple XDP fragments* quick start): 
 
@@ -144,9 +144,9 @@ An assembled XDP document is returned within a collection object. Iterate throug
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md)
 
-[Creating PDF Documents Using Fragments](/help/forms/developing/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating-pdf-documents-using-fragments)
+[Creating PDF Documents Using Fragments](/help/forms/developing/creating-document-output-streams.md)
 
 ## Assemble multiple XDP fragments using the Java API {#assemble-multiple-xdp-fragments-using-the-java-api}
 

@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 62490230-a24e-419d-95bb-c0bb04a03f96
 ---
 
-# Creating PDF Documents with SubmittedXML Data{#creating-pdf-documents-with-submittedxml-data}
+# Creating PDF Documents with Submitted XML Data {#creating-pdf-documents-with-submittedxml-data}
 
 ## Creating PDF Documents with Submitted XML Data {#creating-pdf-documents-with-submitted-xml-data}
 
@@ -20,7 +20,7 @@ Web-based applications that enable users to fill interactive forms require the d
 
 >[!NOTE]
 >
->Before you read this content, it is recommended that you have a solid understanding of handling submitted forms. Concepts such as the relationship between a form design and submitted XML data are covered in [Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling-submitted-forms).
+>Before you read this content, it is recommended that you have a solid understanding of handling submitted forms. Concepts such as the relationship between a form design and submitted XML data are covered in Handling submitted Forms.
 
 Consider the following workflow that involves three AEM Forms services:
 
@@ -69,15 +69,11 @@ Use the Document Management service API to store a PDF document in Content Servi
 
 **See also**
 
-[Create a PDF Document with submitted XML data using the Java API](/help/forms/developing/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml creating-pdf-documents-submitted-xml.md#create-a-pdf-document-with-submitted-xml-data-using-the-java-api)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
-
-[Creating PDF Documents](/help/forms/developing/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating-pdf-documents)
 
 ### Create a PDF Document with submitted XML data using the Java API {#create-a-pdf-document-with-submitted-xml-data-using-the-java-api}
 
@@ -143,8 +139,6 @@ Create a PDF document with submitted XML data by using the Forms, Output, and Do
    The `storeContent` method returns a `CRCResult` object that describes the content. Using a `CRCResult` object, you can, for example, obtain the content’s unique identifier value. To perform this task, invoke the `CRCResult` object’s `getNodeUuid` method.
 
 **See also**
-
-[Creating PDF Documents with Submitted XML Data](/help/forms/developing/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating-pdf-documents-with-submitted-xml-data)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 

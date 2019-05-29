@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 77e9b895-1313-4a5b-a2d5-cdb65bdc1966
 ---
 
-# Assembling Documents Using Bates Numbering{#assembling-documents-using-bates-numbering}
+# Assembling Documents Using Bates Numbering {#assembling-documents-using-bates-numbering}
 
 You can assemble PDF documents that contain unique page identifiers by using Bates numbering. *Bates numbering* is a method of applying unique identifies to a batch of related documents. Each page in the document (or set of documents) is assigned a Bates number that uniquely identifies the page. For example, manufacturing documents that contain bill of material information and are associated with the production of an assembly can contain an identifier. A Bates number contains a sequentially incremented numeric value and an optional prefix and suffix. The prefix + numeric + suffix is referred to as a *bates pattern*.
 
@@ -43,7 +43,7 @@ This DDX document merges two PDF documents named *map.pdf* and* directions.pdf* 
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you be familiar with assembling PDF documents using the Assembler service. This section does not discuss the concepts, such as creating a collection object that contains input documents, or extracting the results from the returned collection object. (See [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents).)
+>Before reading this section, it is recommended that you be familiar with assembling PDF documents using the Assembler service. This section does not discuss the concepts, such as creating a collection object that contains input documents, or extracting the results from the returned collection object. (See [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md).)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
+If AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create a PDF Assembler client**
 
@@ -105,19 +105,15 @@ The Assembler service returns a collection object that contains the job results.
 
 >[!NOTE]
 >
->A collection object is returned if you invoke the `invokeDDX` operation. This operation is used when passing two or more input PDF documents to the Assembler service. However if you pass only one input PDF document to the Assembler service, you should invoke the `invokeOneDocument` operation. For information about using this operation, see [Assembling Encrypted PDF Documents](/help/forms/developing/assembling-encrypted-pdf-documents-assembling assembling-encrypted-pdf-documents-assembling.md#assembling-encrypted-pdf-documents).
+>A collection object is returned if you invoke the `invokeDDX` operation. This operation is used when passing two or more input PDF documents to the Assembler service. However if you pass only one input PDF document to the Assembler service, you should invoke the `invokeOneDocument` operation. For information about using this operation, see [Assembling Encrypted PDF Documents](/help/forms/developing/assembling-encrypted-pdf-documents.md).
 
 **See also**
-
-[Assemble documents with Bates numbering using the Java API](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assemble-documents-with-bates-numbering-using-the-java-api)
-
-[Assemble documents with Bates numbering using the web service API](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assemble-documents-with-bates-numbering-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md)
 
 ## Assemble documents with Bates numbering using the Java API {#assemble-documents-with-bates-numbering-using-the-java-api}
 
@@ -171,8 +167,6 @@ Assemble a PDF document that uses unique page identifiers (Bates numbering) by u
     * Invoke the `com.adobe.idp.Document` object’s `copyToFile` method to extract the PDF document.
 
 **See also**
-
-[Assembling Documents Using Bates Numbering](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assembling-documents-using-bates-numbering)
 
 [Quick Start (SOAP mode): Assembling a PDF document with bates numbering using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-a-pdf-document-with-bates-numbering-using-the-java-api)
 
@@ -250,7 +244,5 @@ Assemble a PDF document that uses unique page identifiers (Bates numbering) by u
     * Extract the binary data that represents the PDF document by accessing its `BLOB` object’s `MTOM` property. This returns an array of bytes that you can write out to a PDF file.
 
 **See also**
-
-[Assembling Documents Using Bates Numbering](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assembling-documents-using-bates-numbering)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
