@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 2ad227de-68a8-446f-8c4f-a33a6f95bec8
 ---
 
-# Dynamically Creating DDX Documents{#dynamically-creating-ddx-documents}
+# Dynamically Creating DDX Documents {#dynamically-creating-ddx-documents}
 
 You can dynamically create a DDX document that can be used to perform an Assembler operation. Dynamically creating a DDX document enables you to use values in the DDX document that are obtained during run-time. To dynamically create a DDX document, use classes that belong to the programming language that you are using. For example, if you are developing your client application using Java, use classes that belong to the `org.w3c.dom.*`package. Likewise, if you are using Microsoft .NET, use classes that belong to the `System.Xml` namespace.
 
@@ -93,15 +93,13 @@ All disassembled PDF documents are returned within a collection object. Iterate 
 
 **See also**
 
-[Dynamically create a DDX document using the Java API](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-create-a-ddx-document-using-the-java-api)
+[Dynamically create a DDX document using the Java API](/help/forms/developing/dynamically-creating-ddx-documents.md#dynamically-create-a-ddx-document-using-the-java-api)
 
-[Dynamically create a DDX document using the web service API](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-create-a-ddx-document-using-the-web-service-api)
+[Dynamically create a DDX document using the web service API](/help/forms/developing/dynamically-creating-ddx-documents.md#dynamically-create-a-ddx-document-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
-
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 [Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents.md#programmatically-disassembling-pdf-documents)
 
@@ -178,8 +176,6 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
     * Invoke the `com.adobe.idp.Document` object’s `copyToFile` method to extract the PDF document.
 
 **See also**
-
-[Dynamically Creating DDX Documents](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-creating-ddx-documents)
 
 [Quick Start (SOAP mode): Dynamically creating a DDX document using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-dynamically-creating-a-ddx-document-using-the-java-api)
 
@@ -265,8 +261,6 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
     * Extract the binary data that represents the PDF document by accessing its `BLOB` object’s `MTOM` property. This returns an array of bytes that you can write out to a PDF file.
 
 **See also**
-
-[Dynamically Creating DDX Documents](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-creating-ddx-documents)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
