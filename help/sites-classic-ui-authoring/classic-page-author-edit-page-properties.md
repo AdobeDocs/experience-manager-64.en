@@ -104,10 +104,6 @@ The properties are distributed across several tabs:
 
   Specify an alias to be used with this page.
 
-* **Allowed Templates**
-
-  [Define the list of templates that will be available](/help/sites-classic-ui-authoring/classic-feature-templates.md#allowingatemplate) within this sub-branch.
-
 * **Enable Closed User Group**
 
   Enables (or disables) use of [closed user groups](/help/sites-administering/cug.md) (CUGs).

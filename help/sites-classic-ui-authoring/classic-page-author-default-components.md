@@ -29,9 +29,6 @@ The following pages provide fast links to some of the major areas of content man
 * [Components for Page Authoring](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md)  
   Components used for creating standard page content are primarily contained in the groups **General**, **Columns** and **Forms**.
 
-* [Communities](/help/sites-classic-ui-authoring/classic-communities.md)  
-  Components found in the **Communities** component group provide interactive features for a website, such as forums and comments. Many of these components are included when a [Community Site](/help/communities/overview.md) is created.
-
 * [eCommerce](/help/sites-administering/ecommerce.md)  
   The eCommerce functionality within AEM also includes a range of components, contained in the **Commerce** group. Actual use can depend on the commerce engine being used.
 

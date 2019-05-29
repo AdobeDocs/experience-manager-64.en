@@ -13,10 +13,9 @@ discoiquuid: 3fe5b6cc-1494-43e1-add7-2f7828b676ad
 
 # Authoring Pages{#authoring-pages}
 
-The following provide two types of overview to authoring with AEM:
+The following provides an overview to authoring with AEM:
 
 * [First Steps for Authors](/help/sites-classic-ui-authoring/classic-page-author-first-steps.md) - an introduction for new authors
-* [Quick Guide to Authoring Pages](/help/sites-classic-ui-authoring/classic-page-author-qg-page-authoring.md) - a quick guide (high-level) to the main actions
 
 >[!NOTE]
 >

@@ -208,7 +208,7 @@ You add the text and context fields or personalization blocks to create the cont
 
 ## Adobe Campaign Form Components {#adobe-campaign-form-components}
 
-You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles. See [Creating Adobe Campaign Forms](/help/sites-classic-ui-authoring/classic-personalization-ac-forms.md) for more information.
+You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles.
 
 Each component field can be linked to an Adobe Campaign database field. The available fields differ according to the type of data they contain as described in the section [Components and Data Type](#components-and-data-type). If you extend your recipient schema in Adobe Campaign, the new fields will be available in the components whose data types match.
 

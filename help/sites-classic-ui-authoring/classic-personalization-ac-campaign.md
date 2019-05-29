@@ -22,8 +22,6 @@ You can create email content in AEM and process it in Adobe Campaign emails. To 
 
 Content can then be synched with a delivery in Adobe Campaign. Detailed instructions are described in this document.
 
-See also [Creating Adobe Campaign Forms in AEM](/help/sites-classic-ui-authoring/classic-personalization-ac-forms.md).
-
 >[!NOTE]
 >
 >Before you can use this functionality, you must configure AEM to integrate with either [Adobe Campaign](/help/sites-administering/campaignonpremise.md) or [Adobe Campaign Standard](/help/sites-administering/campaignstandard.md).

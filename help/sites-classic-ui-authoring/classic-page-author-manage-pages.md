@@ -132,13 +132,9 @@ AEM comes with several templates provided out-of-the-box. The templates proffere
 * **Template** 
   A list of templates available for use when generating the new page.
 
->[!NOTE]
->
->If configured on your instance, [template authors can create templates with the Template Editor](/help/sites-classic-ui-authoring/classic-feature-templates.md).
-
 ### Components {#components}
 
-Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of [out-of-the-box components](/help/sites-classic-ui-authoring/classic-page-author-conponent-console.md) that provide comprehensive functionality; these include:
+Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of out-of-the-box components that provide comprehensive functionality; these include:
 
 * Text
 * Image
@@ -147,10 +143,6 @@ Components are the elements provided by AEM so that you can add specific types o
 * many more
 
 Once you have created and opened a page you can [add content using the components](/help/sites-classic-ui-authoring/classic-page-author-edit-content.md#insertinganewparagraph), available from the [sidekick](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#sidekick).
-
->[!NOTE]
->
->The [Components Console](/help/sites-classic-ui-authoring/classic-page-author-conponent-console.md) give an overview of the components on your instance.
 
 ## Managing Pages {#managing-pages}
 
