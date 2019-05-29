@@ -68,45 +68,45 @@ As with any project it is critical to establish ground-rules as soon as possible
 
   These should be clearly defined and made known to everyone involved in the project. In addition, it is advisable to highlight:
 
-  * Decision Makers
-  * Points of Contact
+    * Decision Makers
+    * Points of Contact
 
 * **Responsibilities**
 
-  * For each role a clear definition of the responsibilities related to your project helps prevent confusion.
+    * For each role a clear definition of the responsibilities related to your project helps prevent confusion.
 
 * **Involvement**
 
   By involving interested parties as soon as possible you can encourage them to become *stakeholders* in the project, thus increasing their commitment to its success.
 
-  * On the customer side this includes the authors - who will have to work with the system on a day to day basis.
-  * Within your own project team this will also include the people responsible for quality assurance. The more they understand the customer's requirements the better they can plan the tests.
+    * On the customer side this includes the authors - who will have to work with the system on a day to day basis.
+    * Within your own project team this will also include the people responsible for quality assurance. The more they understand the customer's requirements the better they can plan the tests.
 
 * **Paths of Communication**
 
-  * Although these should not be formalized excessively, specific definitions should ensure that the key people are always informed and therefore kept up-to-date. Specific attention should be made to communication with external parties.
+    * Although these should not be formalized excessively, specific definitions should ensure that the key people are always informed and therefore kept up-to-date. Specific attention should be made to communication with external parties.
 
 * **Processes**
 
   The processes to be defined will depend upon your individual project. Again try to keep these simple, with consideration for:
 
-  * Defining processes (and paths of communication) for interacting with any third-parties; e.g. design agencies and third-party software suppliers amongst others.
-  * Often the customer will have their own Project Management and Reporting procedures and tools.
+    * Defining processes (and paths of communication) for interacting with any third-parties; e.g. design agencies and third-party software suppliers amongst others.
+    * Often the customer will have their own Project Management and Reporting procedures and tools.
 
 * **Tracking Tools**
 
   There are many tools available for tracking information on bugs, tasks, and other aspects of your project - see [Overview of Potential Tools](#overview-of-potential-tools) for more details.
 
-  * The key point to note here is to keep only one copy of the information and share the information (and therefore access to the tool being used). This will ease maintenance and help prevent discrepancies.
+    * The key point to note here is to keep only one copy of the information and share the information (and therefore access to the tool being used). This will ease maintenance and help prevent discrepancies.
 
 * **Scope**
 
   Clearly define what is to be covered by the project at various levels:
 
-  * the individual releases (if an iterative release process is used, and regardless of whether they are delivered to customers or your internal test team).
-  * the AEM project.
-  * the entire project; including any third-party software, their impact on testing, organizational issues and many others.
-  * For certain aspects it can also be useful to state what is *not* within the scope of the project. This can help prevent confusion and incorrect assumptions, though it should be limited to essential issues.
+    * the individual releases (if an iterative release process is used, and regardless of whether they are delivered to customers or your internal test team).
+    * the AEM project.
+    * the entire project; including any third-party software, their impact on testing, organizational issues and many others.
+    * For certain aspects it can also be useful to state what is *not* within the scope of the project. This can help prevent confusion and incorrect assumptions, though it should be limited to essential issues.
 
 * **Reporting**
 
@@ -114,11 +114,11 @@ As with any project it is critical to establish ground-rules as soon as possible
 
 * **Terminology**
 
-  * Define any abbreviations and/or customer-specific terminology to be used.
+    * Define any abbreviations and/or customer-specific terminology to be used.
 
 * **Assumptions**
 
-  * Define any assumptions being made.
+    * Define any assumptions being made.
 
 This information can be defined within a Project Handbook; the use of a Wiki can also help ensure that ongoing changes are handled efficiently. Wherever these are defined, the key factors are that:
 
@@ -134,13 +134,13 @@ These indicators can be:
 
 * Business:
 
-  * Used to measure key business objectives.
-  * It is important to choose KPIs appropriate to your business/scenario with clear definitions of what they are, how they will be measured, how they will be used and by whom.
+    * Used to measure key business objectives.
+    * It is important to choose KPIs appropriate to your business/scenario with clear definitions of what they are, how they will be measured, how they will be used and by whom.
 
 * Performance:
 
-  * Define how to measure the performance of the system.
-  * Some examples include page load time, server response time and database query performance.
+    * Define how to measure the performance of the system.
+    * Some examples include page load time, server response time and database query performance.
 
 Some, but not all, indicators can be based on the target metrics that you identify and define.
 
@@ -218,8 +218,8 @@ There are several performance factors which can be evaluated:
 
 * response times for individual pages, taking into account:
 
-  * response times on an author environment
-  * response times on the publish environment
+    * response times on an author environment
+    * response times on the publish environment
 
 * response times for search requests
 
@@ -239,18 +239,18 @@ The response times you will be aiming for will be different on the author and pu
 
   This environment is used by authors entering, and updating content, so it must:
 
-  * cater for a small number of users who generate a high number of requests when updating content pages and the individual elements on those pages
-  * be as fast as possible to maximize their productivity for getting your content onto your website
+    * cater for a small number of users who generate a high number of requests when updating content pages and the individual elements on those pages
+    * be as fast as possible to maximize their productivity for getting your content onto your website
 
 * **Publish Environment**
 
   This environment contains content which you make available to your users:
 
-  * speed is still vital, but is often slower than an author environment
-  * additional performance enhancing mechanisms are often applied:
+    * speed is still vital, but is often slower than an author environment
+    * additional performance enhancing mechanisms are often applied:
 
-    * the content is cached
-    * load-balancing is applied
+        * the content is cached
+        * load-balancing is applied
 
 #### Setting target response times {#setting-target-response-times}
 
@@ -294,11 +294,11 @@ Search requests can have a significant impact on your website, in terms of both 
 
 * Response time of the actual search
 
-  * A fast search function is a quality goal for your website
+    * A fast search function is a quality goal for your website
 
 * Impact on general performance
 
-  * As a search function must scan (potentially large) sections of the content, or a specially extracted index, this can impact the performance of the entire system if not optimized
+    * As a search function must scan (potentially large) sections of the content, or a specially extracted index, this can impact the performance of the entire system if not optimized
 
 Setting targets for search requests is, again, a matter of experience depending on:
 
@@ -326,12 +326,12 @@ Targets for the number of concurrent users, are dependent on the environment typ
 
 * **Author Environment**
 
-  * Usually the number of concurrent users can be accurately estimated. You will know how many authors you have in total, though (probably) not all will be active at the same time.
+    * Usually the number of concurrent users can be accurately estimated. You will know how many authors you have in total, though (probably) not all will be active at the same time.
 
 * **Publish Environment**
 
-  * This is more difficult to predict, so you must select a target value. Again this should be based on experience of your current website together with realistic expectations of your new website.
-  * Special events (e.g. when you publish new, very popular content) may exceed expectations - or even capabilities (as sometimes reported in the press when tickets for certain events are made available for sale).
+    * This is more difficult to predict, so you must select a target value. Again this should be based on experience of your current website together with realistic expectations of your new website.
+    * Special events (e.g. when you publish new, very popular content) may exceed expectations - or even capabilities (as sometimes reported in the press when tickets for certain events are made available for sale).
 
 ### Capacity and Volume {#capacity-and-volume}
 
@@ -339,12 +339,12 @@ Before discussing the related metrics, a quick definition of the terms:
 
 * **Volume**
 
-  * The amount of output that is processed and delivered by the system.
+    * The amount of output that is processed and delivered by the system.
 
 * **Capacity**
 
-  * The system’s ability to deliver the volume.
-  * At each step, capacity and volume are measured differently, as shown in the table below. For best performance, make sure that the capacity matches the volume at each step, and that both capacity and volume are shared across all steps. For example, you may be able to compute the navigation on the client computer, or put it in the cache, instead of computing it on the server for every request.
+    * The system’s ability to deliver the volume.
+    * At each step, capacity and volume are measured differently, as shown in the table below. For best performance, make sure that the capacity matches the volume at each step, and that both capacity and volume are shared across all steps. For example, you may be able to compute the navigation on the client computer, or put it in the cache, instead of computing it on the server for every request.
 
 * **Capacity and Volume**
 
@@ -410,56 +410,56 @@ Some points to note for each category are:
 
 * **Development**
 
-  * Define the base architecture first.
-  * Use several iterations (sprints) for development:
+    * Define the base architecture first.
+    * Use several iterations (sprints) for development:
 
-    * First sprint equates to the first full development cycle.
-    * First sprint results in the first deployment to your test environment.
-    * Every sprint has a runable result.
-    * Each sprint gets a customer signoff (minimum of structured test with feedback).
+        * First sprint equates to the first full development cycle.
+        * First sprint results in the first deployment to your test environment.
+        * Every sprint has a runable result.
+        * Each sprint gets a customer signoff (minimum of structured test with feedback).
 
-  * Plan for the eventuality of an update of the available AEM version during the project.
-  * Plan for tests and optimization during sprints.
-  * Plan for stabilization and optimization phases.
-  * Create a log of items to be planned for further releases.
-  * Plan for partner involvement and handover.
+    * Plan for the eventuality of an update of the available AEM version during the project.
+    * Plan for tests and optimization during sprints.
+    * Plan for stabilization and optimization phases.
+    * Create a log of items to be planned for further releases.
+    * Plan for partner involvement and handover.
 
 * **Infrastructure**
 
-  * Define the base architecture first:
+    * Define the base architecture first:
 
-    * Define performance requirements.
-    * Define performance goals (ie clearly define expectations).
-    * Define hardware and infrastructure architecture; including sizing.
-    * Define deployment.
+        * Define performance requirements.
+        * Define performance goals (ie clearly define expectations).
+        * Define hardware and infrastructure architecture; including sizing.
+        * Define deployment.
 
-  * Use several iterations; for the first sprint and initial configuration prepare:
+    * Use several iterations; for the first sprint and initial configuration prepare:
 
-    * Development environment.
-    * Development process.
-    * Test environment.
-    * Deployment process (including configuration management).
+        * Development environment.
+        * Development process.
+        * Test environment.
+        * Deployment process (including configuration management).
 
-  * Plan for several load tests.
-  * Plan for tests and optimization during sprints.
-  * Plan for a stabilization and optimization phase.
-  * Deploy to the production environment as early as possible (let the operations team setup the system to gain experience).
-  * Use named users and defined roles as early as possible.
-  * Plan for training (for example, administrator training).
-  * Plan for handover to operations.
+    * Plan for several load tests.
+    * Plan for tests and optimization during sprints.
+    * Plan for a stabilization and optimization phase.
+    * Deploy to the production environment as early as possible (let the operations team setup the system to gain experience).
+    * Use named users and defined roles as early as possible.
+    * Plan for training (for example, administrator training).
+    * Plan for handover to operations.
 
 * **Content**
 
-  * The base architecture:
-    * Drives the content hierarchy.
-    * Helps to define the content concept.
-      * Defines MSM usage and layout.
-      * Defines roles, groups, workflows and permissions.
-  * Consider whether offline page creation will be useful.
-  * Plan for the early creation of first pages and content (for use in tests and feedback).
-  * Plan for the migration of existing content.
-  * Plan for "in-sprint-migration" after refactoring.
-  * Plan "content burndown" (sitemap for go-live content).
+    * The base architecture:
+        * Drives the content hierarchy.
+        * Helps to define the content concept.
+        * Defines MSM usage and layout.
+        * Defines roles, groups, workflows and permissions.
+    * Consider whether offline page creation will be useful.
+    * Plan for the early creation of first pages and content (for use in tests and feedback).
+    * Plan for the migration of existing content.
+    * Plan for "in-sprint-migration" after refactoring.
+    * Plan "content burndown" (sitemap for go-live content).
 
 ## Estimating Time and Effort {#estimating-time-and-effort}
 
