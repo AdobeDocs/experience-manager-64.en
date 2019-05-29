@@ -33,7 +33,7 @@ To install AEM with an Elastic Path integration configuration (using the demonst
     1. `ep-aem-integration`
     1. `cq-geometrixx-ep-content`
 
-1. [Author](/help/sites-authoring/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites-authoring/qg-page-authoring.md) any supplementary pages that you need in AEM.
 
 >[!NOTE]
 >
