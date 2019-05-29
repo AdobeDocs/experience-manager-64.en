@@ -51,7 +51,7 @@ The following Java code example applies usage rights to a PDF document named *Lo
      * 17. xalan.jar (required for SOAP mode) 
      * 18. xbean.jar (required for SOAP mode) 
      * 19. xercesImpl.jar (required for SOAP mode) 
-    * 
+     * 
      * These JAR files are located in the following path: 
      * <install directory>/sdk/client-libs/common 
      * 
