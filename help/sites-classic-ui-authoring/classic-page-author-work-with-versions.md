@@ -69,7 +69,7 @@ This method can be used to restore a page version. It can also be used to restor
 
 1. In the **Websites** console, navigate to the folder you want to restore and select it.
 1. From the top menu select **Tools**, then **Restore**.
-1. Selecting** Restore Tree...** opens the dialog to let you select the tree you want to restore:
+1. Selecting **Restore Tree...** opens the dialog to let you select the tree you want to restore:
 
    ![](assets/screen_shot_2012-02-08at45743pm-1.png)
 

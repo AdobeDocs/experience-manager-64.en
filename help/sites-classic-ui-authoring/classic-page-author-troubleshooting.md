@@ -66,7 +66,7 @@ The following section covers some issues that you might encounter when using AEM
 
 * **Reason**:
 
-    * The capability of** Find & Replace** depends on how the content is saved, and whether it can be searched upon. For example, a blog text is stored in `jcr:text` property which is not configured to be searched upon. The default scope for the find and replace servlet covers the following properties:
+    * The capability of **Find & Replace** depends on how the content is saved, and whether it can be searched upon. For example, a blog text is stored in `jcr:text` property which is not configured to be searched upon. The default scope for the find and replace servlet covers the following properties:
 
         * `jcr:title`
         * `jcr:description`

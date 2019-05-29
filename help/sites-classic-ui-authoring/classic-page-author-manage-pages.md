@@ -81,7 +81,7 @@ When creating a new page there are two keys fields:
 
 When creating a new page, AEM will [validate the page name according to the conventions](/help/sites-developing/naming-conventions.md) imposesd by AEM and JCR.
 
-Implementation and the list of characters allowed differs slightly according to UI (it is more extensive for the touch-optimized UI), but the minimum allowed is:
+Implementation and the list of characters allowed differs slightly according to UI (it is more extensive for the touch-enabled UI), but the minimum allowed is:
 
 * 'a' through to 'z'
 * 'A' through to 'Z'
@@ -104,11 +104,10 @@ If you supply only a page **Title** when creating a new page, AEM will derive th
 
 If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites-developing/naming-conventions.md) imposed by AEM and JCR.
 
-In the:
+In the Classic UI you **cannot enter invalid characters** in the **Name** field.
 
-* Touch-optimized UI you **cannot submit invalid characters** in the **Name** field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.
-
-* Classic UI you **cannot enter invalid characters** in the **Name** field.
+>[!NOTE]
+>In the touch-enabled UI you **cannot submit invalid characters** in the **Name** field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.
 
 >[!NOTE]
 >
