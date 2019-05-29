@@ -147,7 +147,7 @@ These are available in two tabs:
     * Controls Style  
       Various options are available from a pulldown menu; for example, Prev / Next Buttons, Top-Right Switches.
 
-* **List ** 
+* **List** 
   Here you specify how pages are included in your Carousel:
 
     * **Build list using** 
@@ -224,7 +224,7 @@ The following show an example of chart data followed by the resulting Bar chart:
 
 >[!CAUTION]
 >
->The full functionality of Content Fragment Management is only available with the touch-optimized UI.
+>The full functionality of Content Fragment Management is only available with the touch-enabled UI.
 >
 >The Content Fragment component can be seen in the classic UI sidekick, but further functions are not available.
 
@@ -325,7 +325,6 @@ You can either drag and drop an image from the [Content Finder](/help/sites-clas
 >The progress of the upload cannot be monitored with Internet Explorer.
 >
 >Internet Explorer users need to upload the image and click **Ok** then re-open the image to see the uploaded file in the preview and to be able to perform modifications (i.e. crop).  
-
 >
 >See the [Certified Platforms](/help/release-notes/release-notes.md#certifiedplatforms) section for more information about HTML5 features used by AEM.
 
@@ -384,29 +383,22 @@ The List component allows you to configure search criteria for displaying a list
 
         * **Options for Child Pages**
 
-            * **Children of **(Parent Page)  
+            * **Children of** (Parent Page)  
               Specify a path either manually or using the selector. Leave empty to use the current page as parent.
 
         * **Options for Fixed List**
 
-            * **Pages  
-              **Select a list of pages. Use + to add more entries and the up/down buttons to adjust the order.
+            * **Pages** - Select a list of pages. Use + to add more entries and the up/down buttons to adjust the order.
 
         * **Options for Search**
 
-            * **Start in  
-              **Enter a starting path, either manually or using the selector.
-            * **Search query  
-              **You can enter a plain text search query.
+            * **Start in** - Enter a starting path, either manually or using the selector. Search query You can enter a plain text search query.
 
         * **Options for Advanced Search**
 
-            * **Querybuilder predicate notation  
-              **You can enter a search query using Querybuilder predicate notation. For example, you can enter "fulltext=Marketing" to have all pages with "Marketing" in their content show up in the Carousel.  
-              See [QueryBuilder API](/help/sites-developing/querybuilder-api.md) for full discussion of query expressions and further examples.
+            * **Querybuilder predicate notation** - You can enter a search query using Querybuilder predicate notation. For example, you can enter "fulltext=Marketing" to have all pages with "Marketing" in their content show up in the Carousel. See [QueryBuilder API](/help/sites-developing/querybuilder-api.md) for full discussion of query expressions and further examples.
 
-        * **Tags  
-          **Specify the **Parent page**, **Tags/Keywords** and your required match criteria.
+        * **Tags** - Specify the **Parent page**, **Tags/Keywords** and your required match criteria.
 
     * **Display as** 
       How you want the items to be listed; includes Links, Teasers and News.
@@ -723,11 +715,9 @@ After placing an instance of the component on your page you can configure:
 
 * Video
 
-    * **Video asset  
-      **Upload or drop your video asset.  
+    * **Video asset** - Upload or drop your video asset.  
     
-    * **Size** 
-      The video's native size (width x height in pixels) will appear in the boxes next to Size (see above). Manually enter width and height dimensions here if you wish to override the video's native dimensions. Click **OK** to dismiss the dialog.
+    * **Size** - The video's native size (width x height in pixels) will appear in the boxes next to Size (see above). Manually enter width and height dimensions here if you wish to override the video's native dimensions. Click **OK** to dismiss the dialog.
 
 >[!NOTE]
 >
@@ -842,11 +832,9 @@ These tabs provide you with the necessary parameters; these can depend on the in
     * **Required** 
       This is dependent on the form component type, but provides one or more click boxes to indicate that this field, or certain parts of this field, is/are required.  
     
-    * **Required Message  
-      **A message to inform users that this field is required; a required field will also be flagged with and asterisk.  
+    * **Required Message** - A message to inform users that this field is required; a required field will also be flagged with and asterisk.  
     
-    * **Constraint  
-      **The constraints available for selection are dependent on the form component type.  
+    * **Constraint** - The constraints available for selection are dependent on the form component type.  
     
     * **Constraint Message** 
       A message to inform users what is required.
@@ -932,10 +920,10 @@ This component is needed to define the start of a new form on a page. You can co
       Defines the form validation resource type if you want to validate the entire form (instead of individual fields). If you are validating the complete form, also include one of the following:
 
         * A script for client validation:  
-          `/apps/<*myApp*>/form/<*myValidation*>/formclientvalidation.jsp`
+          `/apps/<myApp>/form/<myValidation>/formclientvalidation.jsp`
         
         * A script for validation on the server side:  
-          `/apps/<*myApp*>/form/<*myValidation*>/formservervalidation.jsp`
+          `/apps/<myApp>/form/<myValidation>/formservervalidation.jsp`
 
     * **Action Configuration** 
       The options available in **Action Configuration** are dependent on the **Action Type** selected:

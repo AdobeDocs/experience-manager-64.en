@@ -24,7 +24,6 @@ See the following:
 
 * [Working with Adobe Campaign 6.1 and Adobe Campaign Standard](/help/sites-classic-ui-authoring/classic-personalization-ac-campaign.md)
 * [Adobe Campaign Components](/help/sites-classic-ui-authoring/classic-personalization-ac-components.md)
-* [Creating Adobe Campaign Forms in AEM](/help/sites-classic-ui-authoring/classic-personalization-ac-forms.md)
 * [Targeting your Adobe Campaign](/help/sites-classic-ui-authoring/classic-personalization-ac-target.md)
 
 You must previously have [integrated AEM with Adobe Campaign](/help/sites-administering/campaign.md).

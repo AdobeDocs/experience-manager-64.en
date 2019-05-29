@@ -228,7 +228,7 @@ To import leads from a comma-separated list:
 
    ![](assets/screen_shot_2012-02-21at123055pm.png)
 
-1. Click** Next**. Here, you preview the leads to ensure they are accurate.
+1. Click **Next**. Here, you preview the leads to ensure they are accurate.
 
    ![](assets/screen_shot_2012-02-21at123104pm.png)
 

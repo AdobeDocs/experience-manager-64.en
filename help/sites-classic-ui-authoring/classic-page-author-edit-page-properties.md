@@ -53,7 +53,7 @@ The properties are distributed across several tabs:
 
   A subtitle for use on the page.
 
-* **Description **
+* **Description**
 
   Your description of the page, its purpose or any other details you want to add.
 
@@ -63,7 +63,7 @@ The properties are distributed across several tabs:
 
   Leave these fields empty for pages you want to publish immediately (the normal scenario).
 
-* **Off Time **
+* **Off Time**
 
   The time at which the published page will be deactivated.
 
@@ -103,10 +103,6 @@ The properties are distributed across several tabs:
 * **Alias**
 
   Specify an alias to be used with this page.
-
-* **Allowed Templates**
-
-  [Define the list of templates that will be available](/help/sites-classic-ui-authoring/classic-feature-templates.md#allowingatemplate) within this sub-branch.
 
 * **Enable Closed User Group**
 

@@ -74,7 +74,7 @@ For static graphics, the basic requirement is to provide an equivalent text alte
 >
 >Some out-of-the-box components, such as **Carousel** and **Slideshow** do not provide a means for adding alternate text descriptions to images. When implementing versions of these for your AEM instance, your development team will need to configure such components to support the `alt` attribute so that authors can add it to the content (see [Adding Support for Additional HTML Elements and Attributes](/help/sites-administering/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
-The **Alt Text** field is available in the **Advanced **image properties tab of the **Image **component dialog:
+The **Alt Text** field is available in the **Advanced** image properties tab of the **Image** component dialog:
 
 ![Edit dialog of the Image component in the classic UI; shows the Alt Text field.](assets/chlimage_1-17.png)
 
@@ -118,7 +118,7 @@ Specific types of non-text content that require text alternatives might include:
 * Icons:
   These are small pictograms (graphics) conveying specific information. They must be consistently used across a page and site. All instances of the icon on a page or site should have the same short and succinct text alternative, unless doing so results in unnecessary duplication of adjacent text.
 * Charts and graphs:  
-  These typically represent numerical data. So one option for providing a text alternative might be to include a brief summary of the main trends shown in the chart or graphic. If necessary, also provide a more detailed description in text using the **Description** field in the** Advanced **image properties tab. Additionally, you could provide the source data in tabular form elsewhere in the page or site.
+  These typically represent numerical data. So one option for providing a text alternative might be to include a brief summary of the main trends shown in the chart or graphic. If necessary, also provide a more detailed description in text using the **Description** field in the **Advanced** image properties tab. Additionally, you could provide the source data in tabular form elsewhere in the page or site.
 
   ![Example of a graph. Below is the best approach to providing an alternative.](assets/chlimage_1-2.jpeg)
 
@@ -234,7 +234,7 @@ People who are deaf or hard of hearing will be unable or have great difficulty a
 Captions can be either:
 
 * Open: always visible when the video is played)
-* Closed:* *the captions can be switched on or off by the user
+* Closed: the captions can be switched on or off by the user
 
 Use closed captioning wherever possible, as this gives users the choice over whether or not to view captions.
 
@@ -388,7 +388,7 @@ You can make sure your web pages are given the appropriate structure by:
     * The `<ul>` element is used for *unordered* lists (bulleted) lists. Individual list items are identified using the `<li>` element.  
       in the RTE, use the **Bulleted List** icon.
     
-    * The `<ol>` element is used for *numbered* lists*. *Individual list items are identified using the `<li>` element.  
+    * The `<ol>` element is used for *numbered* lists. Individual list items are identified using the `<li>` element.  
       In the RTE, use the **Numbered List** icon.
 
   If you want to change existing content into a specific list type, highlight the appropriate text and select the appropriate list type. As in the earlier example showing how paragraph text is entered, the appropriate list elements are automatically added to your HTML, but you can view this in source edit view.
@@ -433,7 +433,7 @@ You can make sure your web pages are given the appropriate structure by:
 
 * **Complex Data Tables:**
 
-  In some cases, where there are complex tables with two or more levels of headers, then the basic Table Properties may not be enough to provide all the structural information necessary. For these kinds of complex tables, direct relationships need to be created between the headers and their related cells using the **header **and **id **attributes. For example, in the table below headers and ids are matched to make a programmatic association for assistive technology users.
+  In some cases, where there are complex tables with two or more levels of headers, then the basic Table Properties may not be enough to provide all the structural information necessary. For these kinds of complex tables, direct relationships need to be created between the headers and their related cells using the **header** and **id** attributes. For example, in the table below headers and ids are matched to make a programmatic association for assistive technology users.
 
   >[!NOTE]
   >

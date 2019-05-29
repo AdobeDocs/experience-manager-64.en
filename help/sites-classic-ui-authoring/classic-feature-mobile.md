@@ -42,5 +42,5 @@ The page looks the same as the following:
 
 >[!NOTE]
 >
->The emulators are disabled when a page on the author instance is requested from a mobile device. Authoring can then be done by using the touch-optimized UI.
+>The emulators are disabled when a page on the author instance is requested from a mobile device. Authoring can then be done by using the touch-enabled UI.
 

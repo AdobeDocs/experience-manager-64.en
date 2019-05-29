@@ -15,7 +15,7 @@ discoiquuid: e75ce118-3850-4440-ad58-89569cb8c8eb
 
 Once your page is created (either new or as part of a launch or live copy) you can edit the content to make the updates you require.
 
-Content is added using [components](/help/sites-classic-ui-authoring/classic-page-author-conponent-console.md) (appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.
+Content is added using components(appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.
 
 >[!NOTE]
 >
@@ -148,8 +148,6 @@ To delete a paragraph:
 >[!NOTE]
 >
 >If you have set your [User Properties to show the Global Editing Toolbar](/help/sites-classic-ui-authoring/author-env-user-props.md) you can also perform certain actions on the paragraphs by using the **Copy**, **Cut**, **Paste**, **Delete** buttons available.  
-
->
 >Various [keyboard shortcuts](/help/sites-classic-ui-authoring/classic-page-author-keyboard-shortcuts.md) are also available.
 
 ## Cut/Copy/Paste a Component {#cut-copy-paste-a-component}
@@ -159,7 +157,6 @@ As when [Deleting a Component](#deleting-a-component) you can use the context me
 >[!NOTE]
 >
 >If you have set your [User Properties to show the Global Editing Toolbar](/help/sites-classic-ui-authoring/author-env-user-props.md) you can also perform certain actions on the paragraphs by using the **Copy**, **Cut**, **Paste**, **Delete** buttons available.  
-
 >
 >Various [keyboard shortcuts](/help/sites-classic-ui-authoring/classic-page-author-keyboard-shortcuts.md) are also available.
 

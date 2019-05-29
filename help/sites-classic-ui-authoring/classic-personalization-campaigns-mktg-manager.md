@@ -17,7 +17,7 @@ In AEM, the Marketing Campaign Manager (MCM) is a console that helps you manage 
 
 MCM can be accessed from various locations in AEM; for example, the Welcome screen, using the Campaigns icon or with the URL:
 
-`https://<*hostname*>:<*port-nr*>/libs/mcm/content/admin.html`
+`https://<hostname>:<port>/libs/mcm/content/admin.html`
 
 For example:
 
@@ -178,7 +178,7 @@ For the individual campaigns there are two views available:
     * **Analyze...** the impressions generated for a page.  
     
     * **Delete** items when they are no longer needed.
-    * **Search **for your text (the Title field of the experience will be searched).
+    * **Search** for your text (the Title field of the experience will be searched).
     * Use **Advanced** search to apply filters to the search.
 
 ### Simulating your Campaign Experiences {#simulating-your-campaign-experiences}

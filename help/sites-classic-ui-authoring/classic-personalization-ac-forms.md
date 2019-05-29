@@ -45,7 +45,7 @@ First of all, check the connection between the author and publish instances and 
 
 >[!NOTE]
 >
->Make sure the **acMapping **property on the page's **jcr:content** node is set to **mapRecipient** or **profile** when using Adobe Campaign 6.1.x or Adobe Campaign Standard, respectively
+>Make sure the **acMapping** property on the page's **jcr:content** node is set to **mapRecipient** or **profile** when using Adobe Campaign 6.1.x or Adobe Campaign Standard, respectively
 >
 
 ### Creating a Form {#creating-a-form}

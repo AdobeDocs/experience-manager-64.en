@@ -86,9 +86,9 @@ You can configure the following component properties in Edit mode to control run
 
 ## Enabling the filtering of results by facets {#enabling-the-filtering-of-results-by-facets}
 
-You can enable users to filter search results by facets. The **Checkbox List Facet, Dropdown Facet,** and **Link List Facet **components enable users to select one or more facets for filtering. When using these components, you should also include the **Breadcrumbs** component. Breadcrumbs indicate the current filters that are used.
+You can enable users to filter search results by facets. The **Checkbox List Facet**, **Dropdown Facet**, and **Link List Facet** components enable users to select one or more facets for filtering. When using these components, you should also include the **Breadcrumbs** component. Breadcrumbs indicate the current filters that are used.
 
-The **Checkbox List Facet, Dropdown Facet,** and** Link List Facet** components each have the following properties that you configure in **Edit** mode:
+The **Checkbox List Facet, Dropdown Facet,** and **Link List Facet** components each have the following properties that you configure in **Edit** mode:
 
 * **Facet Name**: The name of the facet that is used for filters.
 

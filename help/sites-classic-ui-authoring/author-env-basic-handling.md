@@ -49,7 +49,7 @@ The main consoles are:
   </tr> 
   <tr> 
    <td><strong>Launches</strong></td> 
-   <td>This helps you manage your <a href="/help/sites-classic-ui-authoring/classic-launches.md">launches</a>; these enable you to develop the content for a future release of one or more activated web pages.<br /> <i>Note: In the touch-optimized UI much of the same functionality is available in the Sites console, together with the References rail.</i> <i>If required, this console is available from the Tools console; select Operations, then Launches.</i></td> 
+   <td>This helps you manage your <a href="/help/sites-classic-ui-authoring/classic-launches.md">launches</a>; these enable you to develop the content for a future release of one or more activated web pages.<br /> <i>Note: In the touch-enabled UI much of the same functionality is available in the Sites console, together with the References rail.</i> <i>If required, this console is available from the Tools console; select Operations, then Launches.</i></td> 
   </tr> 
   <tr> 
    <td><strong>Inbox </strong></td> 
@@ -119,17 +119,18 @@ The **Websites** console lists your pages of content in a tree structure (left h
 >
 >This default value ( `30`) can be changed per console in your application specific configurations of the siteadmin widget:
 >
->* On the siteadmin node:  
->  Set the value of the property:  
->  `treeAutoExpandMax`  
->  on:  
->  `/apps/wcm/core/content/siteadmin`
+>On the siteadmin node:  
 >
->* Or globally in the theme:  
->  Set the value of:  
->  `TREE_AUTOEXPAND_MAX`  
->  in:  
->  `/apps/cq/ui/widgets/themes/default/widgets/wcm/SiteAdmin.js`
+>Set the value of the property:  
+>`treeAutoExpandMax`  
+>on:  
+>`/apps/wcm/core/content/siteadmin`
+>
+>Or globally in the theme:  
+>Set the value of:  
+>`TREE_AUTOEXPAND_MAX`  
+>in:  
+>`/apps/cq/ui/widgets/themes/default/widgets/wcm/SiteAdmin.js`
 >
 >See [SiteAdmin in the CQ Widget API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.wcm.SiteAdmin) for more details.
 

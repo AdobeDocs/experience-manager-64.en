@@ -48,7 +48,7 @@ The body of the scaffold is the form. When a user wishes to create a page using 
 
 * **Title**: This is the name of the page to be created. This field is always present on every scaffold.
 * **Text**: This field corresponds to a Text Component on the resulting page.
-* Image: This field corresponds to an Image Component on the resulting page.
+* **Image**: This field corresponds to an Image Component on the resulting page.
 * **Image/Advanced**: **Title**: The title of the image.
 
 * **Image/Advanced**: **Alt Text**: The alt text for the image.
@@ -65,11 +65,11 @@ To create a new scaffold go to the **Tools** console, then **Default Page Scaffo
 
 *Go to the **Page Properties** of the new page and set the *Title Text*, *Description*, *Target Template* and *Target Path*, as described above.*
 
-*Next, you have to define the structure of the page that this scaffold will create. To do this go into * [design mode](/help/sites-authoring/qg-page-authoring.md#sidekick)* on the scaffold page. A link will appear allowing you to edit the scaffold in the** dialog editor**.*
+*Next, you have to define the structure of the page that this scaffold will create. To do this go into design mode on the scaffold page. A link will appear allowing you to edit the scaffold in the **dialog editor**.
 
 ![](assets/cq5_dialog_editor.png)
 
-Using the dialog editor you specifiy the properties that will be created each time a new page is created using this scaffold.
+Using the dialog editor you specify the properties that will be created each time a new page is created using this scaffold.
 
 The dialog definition for a scaffold works similarly to that of a component (see [Components](/help/sites-developing/components.md)). However a few important differences apply:
 

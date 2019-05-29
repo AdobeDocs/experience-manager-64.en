@@ -15,8 +15,8 @@ discoiquuid: eb72f934-4b0f-4a71-b2a2-3ddf78db8c3c
 
 >[!NOTE]
 >
->Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
+>Adobe does not plan to further enhance of open/bounced emails sent by the AEM SMTP service.  
+>The recommendation is to [leverage Adobe Campaign and its AEM integration](/help/sites-administering/campaign.md).
 
 E-mail marketing (for example, newsletters) are an important part of any marketing campaign as you use them to push content to your leads. In AEM, you can create newsletters from existing AEM content as well as add new content, specific to the newsletters.
 
@@ -213,11 +213,6 @@ To flight test newsletters:
 
 ## Sending Newsletters {#sending-newsletters}
 
->[!NOTE]
->
->Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
-
 You can send out a newsletter from either the newsletter or from the list. Both procedures are described.
 
 >[!NOTE]
@@ -268,7 +263,7 @@ To send out a newsletter from a list:
 
 1. Select the check box next to the list of leads you want to send a newsletter to.  
 
-1. In the **Tools **menu, select **Send Newsletter**. The **Send Newsletter** window opens.
+1. In the **Tools** menu, select **Send Newsletter**. The **Send Newsletter** window opens.
 
    ![](assets/mcm_newslettersendfromlist.png)
 

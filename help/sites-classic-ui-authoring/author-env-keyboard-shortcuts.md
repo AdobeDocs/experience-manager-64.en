@@ -30,7 +30,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
  <tbody> 
   <tr> 
    <th>Location</th> 
-   <th>Shortcut *</th> 
+   <th>Shortcut</th> 
    <th>Description</th> 
   </tr> 
   <tr> 

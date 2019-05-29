@@ -15,8 +15,8 @@ discoiquuid: 295cb0a6-29db-42aa-824e-9141b37b5086
 
 >[!NOTE]
 >
->Adobe is not planning to further enhance this capability (Managing Leads and Lists).  
->Recommendation is to leverage [Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
+>Adobe does not plan to further enhance this capability (Managing Leads and Lists).  
+>The recommendation is to leverage [Adobe Campaign and its AEM integration](/help/sites-administering/campaign.md).
 
 Users can be asked to subscribe to **Email Service Provider's** mailing lists with the help of the **Form** component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 
@@ -92,18 +92,18 @@ To configure an auto-responder email for a subscriber:
 1. Open the page properties of the AEM page that have the sign-up form to configure auto responder for a lead.
 1. Apply the ExactTarget configuration to the page.  
 
-1. Add a **Form** component to the page by dragging the component from the sidekick. If the component is not available, switch to design mode and enable the **Form **group.
-1. Click **Edit** in the **Start of Form **bar and navigate to the **Advanced **tab**.**
-1. In the** Form** drop-down menu, select **E-mail Service: Send auto responder email.**
+1. Add a **Form** component to the page by dragging the component from the sidekick. If the component is not available, switch to design mode and enable the **Form** group.
+1. Click **Edit** in the **Start of Form** bar and navigate to the **Advanced** tab.
+1. In the **Form** drop-down menu, select **E-mail Service: Send auto responder email.**
 1. **Select an email** (this is the mail that is sent as an auto-responder email).  
 
 1. **Select Classification** (this classification is used to send the email).
-1. Select the** Thank you **page (the page where users are directed to once they submit the form).
+1. Select the **Thank you** page (the page where users are directed to once they submit the form).
 
    In the **Form** tab, select the thank you page you want users to go to after they submit the form. (If left blank, the form redisplays upon submission.) Click **OK**.
 
 1. Export the keys from author to publish.
-1. Add the **Submit** button component from the **Form **section in sidekick.
+1. Add the **Submit** button component from the **Form** section in sidekick.
 
    The sign-up form is ready. Publish the page configured in the steps above along with the **thank you** page to the publish instance. Any potential subscribers who visit the page can fill the form and on submitting the form the visitor shall receive an auto-responder email on the email id filled in the form.
 
