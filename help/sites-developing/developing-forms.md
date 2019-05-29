@@ -24,8 +24,7 @@ All of these are realized with a series of default [Form components](/help/sites
 In addition to [developing new components](/help/sites-developing/developing-components-samples.md) for use on your forms you can also:
 
 * [Preload your form with values](#preloading-form-values)
-* [Preload (certain) fields with multiple values   
-  ](#preloading-form-fields-with-multiple-values)
+* [Preload (certain) fields with multiple values](#preloading-form-fields-with-multiple-values)
 * [Develop new actions](#developing-your-own-form-actions)
 * [Develop new constraints](#developing-your-own-form-constraints)
 * [Show or hide specific form fields](#showing-and-hiding-form-components)
@@ -62,12 +61,14 @@ A drop down list can be configured with your range of values for selection.
 
 The **Items Load Path** can be used to access a list from a folder in the repository and preload these into the field:
 
-1. Create a new sling folder ( `sling:Folder`)  
+1. Create a new sling folder ( `sling:Folder`) 
+
    for example, `/etc/designs/<myDesign>/formlistvalues`  
 
 1. Add a new property (for example, `myList`) of type multi-value string ( `String[]`) to contain the list of drop down items. Content can also be imported using a script, such as with either a JSP script or cURL in a shell script.
 
-1. Use the full path in the **Items Load Path** field:  
+1. Use the full path in the **Items Load Path** field: 
+
    for example, `/etc/designs/geometrixx/formlistvalues/myList`
 
 Note that if the values in the `String[]` are of the formatted like this:
@@ -108,13 +109,10 @@ You can add your own action under `/apps` as follows:
 1. On this node define the following properties, then click **Save All** to persist your changes:
 
     * `sling:resourceType` - set as `foundation/components/form/action`
-    
     * `componentGroup` - define as `.hidden`
-    
     * Optionally:
 
-        * `jcr:title` - specify a title of your choice, this will show in the drop-down selection list. If not set then the node name is shown  
-        
+        * `jcr:title` - specify a title of your choice, this will show in the drop-down selection list. If not set then the node name is shown
         * `jcr:description` - enter a description of your choice
 
 1. In the folder create a dialog node:
@@ -123,12 +121,16 @@ You can add your own action under `/apps` as follows:
 
 1. In the folder create either:
 
-    1. A post script.  
-       The name of the script is `post.POST.<*extension*>`, e.g. `post.POST.jsp`  
+    1. A post script. 
+
+       The name of the script is `post.POST.<*extension*>`, e.g. `post.POST.jsp` 
+
        The post script is invoked when a form is submitted to process the form, it contains the code that handles the data arriving from the form `POST`.
-    
-    1. Add a forward script which is invoked when the form is submitted.  
-       The name of the script is `forward.<*extension*`>, e.g. `forward.jsp`  
+
+    1. Add a forward script which is invoked when the form is submitted. 
+
+       The name of the script is `forward.<*extension*`>, e.g. `forward.jsp` 
+
        This script can define a path. The current request is then forwarded to the specified path.
 
    The necessary call is `FormsHelper#setForwardPath` (2 variants). A typical case is to perform some validation, or logic, to find the target path and then forward to that path, letting the default Sling POST servlet do the actual storage in JCR.
@@ -157,21 +159,26 @@ You can add your own action under `/apps` as follows:
         1. form's validationRT: `servervalidation.jsp`
         1. `forward.jsp`
         1. if a forward path was set ( `FormsHelper.setForwardPath`), forward the request, then call `cleanup.jsp`
-        
         1. if no forward path was set, call `post.POST.jsp` (ends here, no `cleanup.jsp` called)
 
 1. Again in the folder optionally add:
 
-    1. A script for adding fields.  
-       The name of the script is `addfields.<*extension*>`, e.g. `addfields.jsp`  
-       An addfields script is invoked immediately after the HTML for the form start is written. This allows the action to add custom input fields or other such HTML inside the form.  
-    
-    1. An initialization script.  
-       The name of the script is `init.<*extension*>`, e.g. `init.jsp`  
+    1. A script for adding fields. 
+
+       The name of the script is `addfields.<*extension*>`, e.g. `addfields.jsp` 
+
+       An addfields script is invoked immediately after the HTML for the form start is written. This allows the action to add custom input fields or other such HTML inside the form. 
+
+    1. An initialization script. 
+
+       The name of the script is `init.<*extension*>`, e.g. `init.jsp`
+
        This script is invoked when the form is rendered. It can be used to initialize action specifics. ``
-    
-    1. A cleanup script.  
-       The name of the script is `cleanup.<*extension*>`, e.g. `cleanup.jsp`  
+
+    1. A cleanup script. 
+
+       The name of the script is `cleanup.<*extension*>`, e.g. `cleanup.jsp` 
+
        This script can be used to perform cleanup.
 
 1. Use the **Forms** component in a parsys. The **Action Type** drop down will now include your new action.
@@ -202,9 +209,7 @@ You can add your own constraints for an individual field (under `/apps`) as foll
 1. On this node define the following properties, then click **Save All** to persist your changes:
 
     * `sling:resourceType` - set to `foundation/components/form/constraint`
-    
-    * `constraintMessage` - a customized message that will be shown if the field is not valid, according to the constraint, when the form is submitted  
-    
+    * `constraintMessage` - a customized message that will be shown if the field is not valid, according to the constraint, when the form is submitted 
     * Optionally:
 
         * `jcr:title` - specify a title of your choice, this will show in the selection list. If not set then the node name is shown
@@ -212,12 +217,16 @@ You can add your own constraints for an individual field (under `/apps`) as foll
 
 1. Inside this folder, you can need the following scripts:
 
-    * A client validation script:  
-      The name of the script is `clientvalidation.<*extension*>`, e.g. `clientvalidation.jsp`  
+    * A client validation script: 
+
+      The name of the script is `clientvalidation.<*extension*>`, e.g. `clientvalidation.jsp` 
+
       This is invoked when the form field is rendered. It can be used to create client javascript to validate the field on the client.
-    
-    * A server validation script:  
-      The name of the script is `servervalidation.<*extension*>`, e.g. `servervalidation.jsp`  
+
+    * A server validation script: 
+
+      The name of the script is `servervalidation.<*extension*>`, e.g. `servervalidation.jsp` 
+
       This is invoked when the form is submitted. It can be used to validate the field on the server after it is submitted.
 
 >[!NOTE]
@@ -273,7 +282,6 @@ In Javascript, conditions use the value of the Element Name property to refer to
 1. Select **Show / Hide** to open the **Edit Show / Hide Rules** dialog:
 
     * In the first drop down list select either **Show** or **Hide** to specify whether your conditions determine whether to show or hide the component.
-    
     * In the drop down list at the end of the top line select:
 
         * **all** - if all conditions must be true to show or hide the component
@@ -298,7 +306,7 @@ In Javascript, conditions use the value of the Element Name property to refer to
    >
    >The effects of Show / Hide definitions can be seen and tested:
    >
-   >* in **Preview** mode on the author environment (needs a page reload when first switching to preview)  
+   >* in **Preview** mode on the author environment (needs a page reload when first switching to preview) 
    >* on the publish environment
 
 #### Handling Broken Component References {#handling-broken-component-references}
@@ -317,4 +325,3 @@ You can use this for actions such as calling a service before the form is submit
 * Include a script for validation:
 
     * In your JSP, call your web service and create a `com.day.cq.wcm.foundation.forms.ValidationInfo` object containing your error messages. If there are errors, form data will not be posted.
-

@@ -431,19 +431,27 @@ An example dialog can look as follows:
 Several preconfigured components are provided; these can be referenced in the dialog, using the `xtype` property with a value of `cqinclude`:
 
 * **`title`** 
-  `/libs/cq/reporting/components/commons/title`  
+
+  `/libs/cq/reporting/components/commons/title`
+
   Textfield to define the report title.
 
 * **`description`** 
-  `/libs/cq/reporting/components/commons/description`  
+
+  `/libs/cq/reporting/components/commons/description`
+
   Textarea to define the report description.
 
 * **`processing`** 
-  `/libs/cq/reporting/components/commons/processing`  
+
+  `/libs/cq/reporting/components/commons/processing` 
+
   Selector for the report's processing mode (manually/automatically load data).
 
 * **`scheduling`** 
-  `/libs/cq/reporting/components/commons/scheduling`  
+
+  `/libs/cq/reporting/components/commons/scheduling` 
+
   Selector for scheduling snapshots for the historic chart.
 
 >[!NOTE]
@@ -455,7 +463,9 @@ Several preconfigured components are provided; these can be referenced in the di
 Additionally a root path can be defined for the report:
 
 * **`rootPath`** 
-  This limits the report to a certain section (tree or subtree) of the repository, which is recommended for performance optimization. The root path is specified by the `rootPath` property of the `report` node of each report page (taken from the template upon page creation).  
+
+  This limits the report to a certain section (tree or subtree) of the repository, which is recommended for performance optimization. The root path is specified by the `rootPath` property of the `report` node of each report page (taken from the template upon page creation). 
+
   It can be specified by:
 
     * the [report template](#report-template) (either as a fixed value or as the default value for the configuration dialog).
@@ -470,11 +480,9 @@ A column component defines a combination of the following:
 * The [Column Specific Query](#column-specific-query) configuration.
 * The [Resolvers and Preprocessing](#resolvers-and-preprocessing).
 * The [Column Specific Definitions](#column-specific-definitions) (such as filters and aggregates; `definitions` child node).
-
 * [Column Default Values](#column-default-values).
 * The [Client Filter](#client-filter) to extracts the information to be displayed from the data returned by the server.
 * Additionally, a column component must provide a suitable instance of `cq:editConfig`. to define the [Events and Actions](#events-and-actions) required.  
-
 * The configuration for [generic columns](#generic-columns).
 
 ```
@@ -510,30 +518,39 @@ This defines the specific data extraction (from the [report data result set](#th
 ```xml
 N:definitions 
     N:queryBuilder
-        P:property [String|String[]]        
+        P:property [String|String[]] 
         P:subPath
         P:secondaryProperty [String|String[]]
         P:secondarySubPath
 ```
 
-* `property`  
-  Defines the property to be used for calculating the actual cell value.  
-  If property is defined as String[] multiple properties are scanned (in sequence) to find the actual value.  
-  For example, in the case of:  
-  `property = [ "jcr:lastModified", "jcr:created" ]`  
+* `property`
+
+  Defines the property to be used for calculating the actual cell value. 
+
+  If property is defined as String[] multiple properties are scanned (in sequence) to find the actual value. 
+
+  For example, in the case of: 
+
+  `property = [ "jcr:lastModified", "jcr:created" ]` 
+
   The corresponding value extractor (which is in control here) will:
 
-    * Check whether there is a jcr:lastModified property available and if so, use it.  
+    * Check whether there is a jcr:lastModified property available and if so, use it. 
     * If no jcr:lastModified property is available, the contents of jcr:created will be used instead.
 
-* `subPath`  
+* `subPath` 
+
   If the result is not located on the node that is returned by the query, `subPath` defines where the property is actually located.
 
-* `secondaryProperty`  
-  Defines a second property that must also be used for calculating the actual cell value; this will only be used for certain column types (diff and sortable).  
+* `secondaryProperty` 
+
+  Defines a second property that must also be used for calculating the actual cell value; this will only be used for certain column types (diff and sortable). 
+
   For example, in the case of the Workflow Instances Report, the property specified is used to store the actual value of the time difference (in milliseconds) between start and end times.  
 
-* `secondarySubPath`  
+* `secondarySubPath` 
+
   Similar to subPath, when `secondaryProperty` is used.
 
 In most cases, only `property` will be used.
@@ -583,19 +600,23 @@ N:definitions
             N:applyAfter
 ```
 
-* `resolver`  
+* `resolver` 
+
   Defines the resolver to be used. The following resolvers are available:
 
-    * `const`  
+    * `const` 
+
       Maps values to other values; for example, this is used to resolve constants such as `en` to its equivalent value `English`.
-    
-    * `default`  
+  
+    * `default` 
+
       The default resolver. This is a dummy resolver that actually resolves nothing.
-    
-    * `page`  
+  
+    * `page` 
+
       Resolves a path value to the path of the appropriate page; more precisely, to the corresponding `jcr:content` node. For example, `/content/.../page/jcr:content/par/xyz` is resolved to `/content/.../page/jcr:content`.
-    
-    * `path`  
+  
+    * `path` 
       Resolves a path value by optionally appending a sub path and taking the actual value from a property of the node (as defined by `resolverConfig`) at the resolved path. For example, a `path` of `/content/.../page/jcr:content` can be resolved to the content of the `jcr:title` property, this would mean that a page path is resolved to the page title.
     
     * `pathextension`  
