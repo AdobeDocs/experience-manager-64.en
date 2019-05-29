@@ -33,7 +33,7 @@ When you install the package, a Reference Fragments folder containing reference 
 ## Address {#address}
 
 Includes fields to specify mailing address. The available fields are street address, ZIP code, city, state, and country. It also includes a preconfigured web service that populates the city and state for a specified US zip code.
-[ ![Address fragment](assets/address.png)
+    [ ![Address fragment](assets/address.png)
 
 Click to enlarge
 
@@ -42,7 +42,7 @@ Click to enlarge
 ## Contact Information {#contact-information}
 
 Includes fields to capture phone number and email address. 
-[ ![Contact information fragment](assets/contact-info.png)
+    [ ![Contact information fragment](assets/contact-info.png)
 
 Click to enlarge
 
@@ -51,12 +51,12 @@ Click to enlarge
 ## Credit Card Information {#credit-card-information}
 
 Includes fields to capture credit card information that can be used to process payments.
-[ ![Credit Card Information Fragment](assets/cc-info.png)](assets/cc-info-1.png)
+    [ ![Credit Card Information Fragment](assets/cc-info.png)](assets/cc-info-1.png)
 
 ## Current Employment {#current-employment}
 
 Includes fields to capture current employment details like employment status, field of employment, designation, organization, and date of joining. 
-[ ![Current Employment fragment](assets/current-emp.png)
+    [ ![Current Employment fragment](assets/current-emp.png)
 
 Click to enlarge
 
@@ -65,7 +65,7 @@ Click to enlarge
 ## Dependents Information {#dependents-information}
 
 Includes fields to specify information about one or more dependents, such as their name, relationship, and age in a tabular format.
-[ ![Dependents information fragment](assets/dependents-info.png)
+    [ ![Dependents information fragment](assets/dependents-info.png)
 
 Click to enlarge
 
@@ -74,7 +74,7 @@ Click to enlarge
 ## Employment History {#employment-history}
 
 Includes fields to capture employment history. It allows adding multiple organizations.
-[ ![Employment History fragment](assets/emp-history.png)
+    [ ![Employment History fragment](assets/emp-history.png)
 
 Click to enlarge
 
@@ -83,7 +83,7 @@ Click to enlarge
 ## Income & Expenditure {#income-expenditure}
 
 Includes fields to capture monthly cash flow and expenses. Forms that require users to provide financial details can use this fragment to capture income and expenditure.
-[ ![Income & Expenditure fragment](assets/income.png)
+    [ ![Income & Expenditure fragment](assets/income.png)
 
 Click to enlarge
 
@@ -92,7 +92,7 @@ Click to enlarge
 ## Name {#name}
 
 Includes fields to specify title, first name, middle name, and last name.
-[ ![Name fragment](assets/name.png)
+    [ ![Name fragment](assets/name.png)
 
 Click to enlarge
 
@@ -101,7 +101,7 @@ Click to enlarge
 ## Terms & Conditions {#terms-conditions}
 
 Specifies terms and conditions for users to accept before submitting a form.
-[ ![Terms & Conditions fragment](assets/tnc.png)
+    [ ![Terms & Conditions fragment](assets/tnc.png)
 
 Click to enlarge
 
@@ -110,7 +110,7 @@ Click to enlarge
 ## Terms & Conditions with Scribble {#terms-conditions-with-scribble}
 
 Specifies terms and conditions for users to accept and sign before submitting a form.
-[ ![Terms & Conditions with Scribble](assets/tnc-scribble.png)
+    [ ![Terms & Conditions with Scribble](assets/tnc-scribble.png)
 
 Click to enlarge
 

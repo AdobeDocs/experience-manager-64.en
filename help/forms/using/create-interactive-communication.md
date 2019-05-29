@@ -306,7 +306,7 @@ You can create a web-channel only dynamic table in an Interactive Communication 
 When you select Print as Master for Web Channel while creating an Interactive Communication, the Web channel is created in sync with the Print channel and the content and data binding of the Web channel is derived from the print channel and the changes made in the print channel are reflected in the web channel when you tap Synchronize.
 
 The authors are, however, allowed to break the inheritance for components in the web channel, as required. 
-[ ![](assets/printweb_2-3.png)
+    [ ![](assets/printweb_2-3.png)
 
 (Click to enlarge) 
 

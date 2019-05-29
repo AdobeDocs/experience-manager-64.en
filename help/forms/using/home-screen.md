@@ -19,7 +19,7 @@ When you log in to the AEM Forms app, you are redirected to the Home screen.
 By default, the Home screen displays all forms including startpoints and tasks (if the connected server is AEM Forms Workflow enabled), along with the associated thumbnails. You can specify the thumbnails in the AEM Forms server.
 
 The following figure is annotated with call-outs to the essential components on the default Home screen.
-[ ![Forms app home screen](assets/home-screen-1.png)
+    [ ![Forms app home screen](assets/home-screen-1.png)
 
 Click to enlarge
 
