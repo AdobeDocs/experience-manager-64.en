@@ -81,7 +81,7 @@ When creating a new page there are two keys fields:
 
 When creating a new page, AEM will [validate the page name according to the conventions](/help/sites-developing/naming-conventions.md) imposesd by AEM and JCR.
 
-Implementation and the list of characters allowed differs slightly according to UI (it is more extensive for the touch-optimized UI), but the minimum allowed is:
+Implementation and the list of characters allowed differs slightly according to UI (it is more extensive for the touch-enabled UI), but the minimum allowed is:
 
 * 'a' through to 'z'
 * 'A' through to 'Z'
@@ -104,11 +104,10 @@ If you supply only a page **Title** when creating a new page, AEM will derive th
 
 If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites-developing/naming-conventions.md) imposed by AEM and JCR.
 
-In the:
+In the Classic UI you **cannot enter invalid characters** in the **Name** field.
 
-* Touch-optimized UI you **cannot submit invalid characters** in the **Name** field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.
-
-* Classic UI you **cannot enter invalid characters** in the **Name** field.
+>[!NOTE]
+>In the touch-enabled UI you **cannot submit invalid characters** in the **Name** field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.
 
 >[!NOTE]
 >
@@ -133,13 +132,9 @@ AEM comes with several templates provided out-of-the-box. The templates proffere
 * **Template** 
   A list of templates available for use when generating the new page.
 
->[!NOTE]
->
->If configured on your instance, [template authors can create templates with the Template Editor](/help/sites-classic-ui-authoring/classic-feature-templates.md).
-
 ### Components {#components}
 
-Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of [out-of-the-box components](/help/sites-classic-ui-authoring/classic-page-author-conponent-console.md) that provide comprehensive functionality; these include:
+Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of out-of-the-box components that provide comprehensive functionality; these include:
 
 * Text
 * Image
@@ -148,10 +143,6 @@ Components are the elements provided by AEM so that you can add specific types o
 * many more
 
 Once you have created and opened a page you can [add content using the components](/help/sites-classic-ui-authoring/classic-page-author-edit-content.md#insertinganewparagraph), available from the [sidekick](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#sidekick).
-
->[!NOTE]
->
->The [Components Console](/help/sites-classic-ui-authoring/classic-page-author-conponent-console.md) give an overview of the components on your instance.
 
 ## Managing Pages {#managing-pages}
 

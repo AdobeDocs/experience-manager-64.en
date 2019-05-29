@@ -204,15 +204,15 @@ You add the text and context fields or personalization blocks to create the cont
 
 >[!NOTE]
 >
->Only the fields defined in the **nms:seedMember** schema or one of its extensions are taken into account. The attributes of the tables linked to **nms:seedMember **are not available.
+>Only the fields defined in the **nms:seedMember** schema or one of its extensions are taken into account. The attributes of the tables linked to **nms:seedMember** are not available.
 
 ## Adobe Campaign Form Components {#adobe-campaign-form-components}
 
-You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles. See [Creating Adobe Campaign Forms](/help/sites-classic-ui-authoring/classic-personalization-ac-forms.md) for more information.
+You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles.
 
 Each component field can be linked to an Adobe Campaign database field. The available fields differ according to the type of data they contain as described in the section [Components and Data Type](#components-and-data-type). If you extend your recipient schema in Adobe Campaign, the new fields will be available in the components whose data types match.
 
-When you open a form that is configured to integrate with Adobe Campaign, you see the following components in the **Adobe Campaign **section:
+When you open a form that is configured to integrate with Adobe Campaign, you see the following components in the **Adobe Campaign** section:
 
 * Checkbox (Campaign)
 * Date Field (Campaign) and Date Field/HTML5 (Campaign)
@@ -297,10 +297,10 @@ You can configure the following:
 
 #### Constraints {#constraints}
 
-* **Required  
-  **Select this check box to make this component required; that is, users must enter a value.
-* **Required Message  
-  **Optionally, add a message stating that the field is required.
+* **Required**  
+  Select this check box to make this component required; that is, users must enter a value.
+* **Required Message**  
+  Optionally, add a message stating that the field is required.
 
 #### Styling {#styling}
 

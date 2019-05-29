@@ -39,12 +39,6 @@ As well as accessing [help from the console toolbars](/help/sites-classic-ui-aut
 
 Or by using the **Help** button in the edit dialog of specific components; this will show context sensitive help.
 
-* Step text
-* Step text
-* Step text
-* Step text
-* Step text
-
 ## Sidekick {#sidekick}
 
 The **Components** tab of the sidekick allows you to browse the components available to be added to the current page. The required group can be expanded, then a component dragged to the required location on the page.
@@ -124,11 +118,9 @@ On all options you can search for specific items. Any tags and any resources tha
 
 You can also use wildcards for search. Supported wildcards are:
 
-* `*`  
-  matches a sequence of zero or more characters.  
+* `*` - matches a sequence of zero or more characters.  
 
-* `?`  
-  matches a single character.
+* `?` - matches a single character.
 
 >[!NOTE]
 >
@@ -141,11 +133,8 @@ For example, if there is an image avaialable with the name:
 the following search patterns will find it (and any other images matching the pattern):
 
 * `name:*nmv*`
-* `name:AD*`  
-  the character matching is *not* case sensitive.
-
-* `name:ad?nm??is.*`  
-  you can use any number of wildcards in a query.
+* `name:AD*` - the character matching is *not* case sensitive.
+* `name:ad?nm??is.*` - you can use any number of wildcards in a query.
 
 >[!NOTE]
 >
@@ -204,13 +193,11 @@ The row of icons at the bottom of the Sidekick are used to switch modes for work
 >[!NOTE]
 >
 >Other options are also available:  
-
 >
 >* [Scaffolding](/help/sites-classic-ui-authoring/classic-feature-scaffolding.md)
 >* [Client Context](/help/sites-administering/client-context.md)
 >* Websites - will open the Websites console.
 >* Reload - will refresh the page.  
->
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 

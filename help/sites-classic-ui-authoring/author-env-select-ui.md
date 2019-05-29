@@ -13,15 +13,15 @@ discoiquuid: dcac2a3a-3241-47de-96ce-982ab0bc05eb
 
 # Selecting your UI{#selecting-your-ui}
 
-Since the touch-optimized UI is designed to supersede the classic UI, the user or administrator of the AEM instance must make an active decision to continue using the classic UI. Because the classic UI is no longer maintained, there is no way for the authoring user to simply switch from the classic UI to the equivalent in the touch-optimized UI.
+Since the touch-enabled UI supersedes the classic UI, the user or administrator of the AEM instance must make an active decision to continue using the classic UI. Because the classic UI is no longer maintained, there is no way for the authoring user to simply switch from the classic UI to the equivalent in the touch-enabled UI.
 
-For convenience to authoring users, the touch-optimized UI does allow for switching to the classic UI when necessary. See the [Selecting your UI](/help/sites-authoring/select-ui.md) in the standard Authoring documentation for details.
+For convenience to authoring users, the touch-enabled UI does allow for switching to the classic UI when necessary. See the [Selecting your UI](/help/sites-authoring/select-ui.md) in the standard Authoring documentation for details.
 
 >[!NOTE]
 >
 >Instances upgraded from a previous version will retain the classic UI for page authoring.
 >
->After upgrade, page authoring will not be automatically switched to the touch-optimized UI, but you can configure this using the the [OSGi configuration](/help/sites-deploying/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service). See [UI Overrides for the Editor](#uioverridesfortheeditor).
+>After upgrade, page authoring will not be automatically switched to the touch-enabled UI, but you can configure this using the the [OSGi configuration](/help/sites-deploying/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service). See [UI Overrides for the Editor](#uioverridesfortheeditor).
 
 ## Configuring the Default UI for Your Instance {#configuring-the-default-ui-for-your-instance}
 
