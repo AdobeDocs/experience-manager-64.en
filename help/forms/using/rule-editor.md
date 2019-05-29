@@ -280,7 +280,7 @@ To launch the rule editor user interface:
    Any existing rules on the selected form objects are listed in this view. For information about managing existing rules, see [Manage rules](/help/forms/using/rule-editor.md#p-manage-rules-p).
 
 1. Tap **[!UICONTROL Create]** to write a new rule. The visual editor of the rule editor user interface opens by default when you launch the rule editor the first time.
-   [ ![Rule Editor UI](assets/rule-editor-ui.png)
+    [ ![Rule Editor UI](assets/rule-editor-ui.png)
 
    Click to view enlarged image
 
@@ -563,7 +563,7 @@ After you have added your client library in the CRX repository, use it in your a
 
 1. Select the input numeric box, and tap ![](assets/edit-rules.png) to open the rule editor. 
 1. Tap **Create Rule**. Using options shown below, create a rule to save the squared value of the input in the Output field of your form. 
-   [ ![Using custom functions to create a rule](assets/add-custom-rule.png)](assets/add-custom-rule-1.png)Tap **Done**. Your custom function is added.
+    [ ![Using custom functions to create a rule](assets/add-custom-rule.png)](assets/add-custom-rule-1.png)Tap **Done**. Your custom function is added.
 
 #### Function declaration supported types {#function-declaration-supported-types}
 

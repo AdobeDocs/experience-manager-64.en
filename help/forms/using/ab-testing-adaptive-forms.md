@@ -103,7 +103,7 @@ Perform the following steps to create an A/B test for an adaptive form.
 1. Click the **Select** tool in the toolbar and select the adaptive form.
 1. Click **More** in toolbar and select **Configure A/B Testing**. The Configure A/B testing page opens.
 
-[ ![A/B test configuration page for adaptive forms](assets/ab-test-configure.png)](assets/ab-test-configure-1.png)
+    [ ![A/B test configuration page for adaptive forms](assets/ab-test-configure.png)](assets/ab-test-configure-1.png)
 
 1. Specify an **Activity Name** for the A/B test.  
 
@@ -143,7 +143,7 @@ Once you have allowed the A/B test to run for the desired period, you can genera
 
 1. Select the adaptive form, click **More**, and then click **A/B Testing Report**. The report gets displayed.
 
-[ ![A/B Test report](assets/ab-test-report.png)](assets/ab-test-report-1.png)
+    [ ![A/B Test report](assets/ab-test-report.png)](assets/ab-test-report-1.png)
 
 1. Analyze the report and see if you have enough data points to declare one of the better performing experiences as a winner. You can choose to continue with the same A/B test for more time or declare a winner and end the A/B test.  
 1. To declare a winner and end the A/B test, click **End A/B test** button on the reporting dashboard. A dialog prompts you to declare one of the two experiences as winner. Choose a winner and confirm to end the A/B test.  

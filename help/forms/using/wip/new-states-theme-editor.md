@@ -33,7 +33,7 @@ When you create or customize a component, it is stored in the `/apps` folder in 
 
    The properties of the footer node are specified as:  
 
-   [ ![Footer node properties](assets/footer-node-properties.png)
+    [ ![Footer node properties](assets/footer-node-properties.png)
 
    Click to enlarge
 

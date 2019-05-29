@@ -101,7 +101,7 @@ For example, you add the header component in the template. When you select the c
 When the Initial Content option is selected, the Adaptive Form Container of the template opens like an adaptive form for editing. Like authoring an adaptive form, you can specify initial settings, such as selecting a theme and submit actions.
 
 Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![](assets/canvas-drop-down.png)**&gt; Initial Content**. 
-[ ![Initial Content layer in Template Editor](assets/initial-content-layer.png)
+    [ ![Initial Content layer in Template Editor](assets/initial-content-layer.png)
 
 Initial Content layer in Template Editor showing Adaptive Form Container selected for specifying properties.
 
@@ -133,7 +133,7 @@ To create the General Information and Professional Information tabs, add two pan
 
 #### Adding content in tabs {#adding-content-in-tabs}
 
-[ ![Adding fields in the adaptive form template](assets/template-edit-initial-content.png)
+    [ ![Adding fields in the adaptive form template](assets/template-edit-initial-content.png)
 
 Adding fields in the template
 
