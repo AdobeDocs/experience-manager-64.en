@@ -82,12 +82,12 @@ When creating a new page there are two keys fields:
 
 * **[Title](#title)**:
 
-    * This is displayed to the user in the console and shown at the top of the page content when editing.  
+    * This is displayed to the user in the console and shown at the top of the page content when editing. 
     * This field is mandatory.
 
 * **[Name](#name)**:
 
-    * This is used to generate the URI.  
+    * This is used to generate the URI. 
     * User input for this field is optional. If not specified, the name is derived from the title. See the following section [Page Name Restrictions and Best Practices](/help/sites-authoring/managing-pages.md#page-name-restrictions-and-best-practices) for details.
 
 #### Page Name Restrictions and Best Practices {#page-name-restrictions-and-best-practices}
@@ -335,7 +335,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
     * Use the [column view](/help/sites-authoring/basic-handling.md#column-view) to navigate to the new location for the page:
 
-        * Select the destination it by clicking the destination's thumbnail.  
+        * Select the destination it by clicking the destination's thumbnail. 
         * Click **Next** to continue.
 
     * Use **Back** to return to page name specification.

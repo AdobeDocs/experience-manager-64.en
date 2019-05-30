@@ -38,8 +38,7 @@ You will have a form similar to the following by end of article:
 
 1. An option to **Add Properties** appears. The **Title** and **Name** fields are mandatory:
 
-    * **Title:** Specify `Add new or update shipping address` in the Title field. The title field specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.  
-    
+    * **Title:** Specify `Add new or update shipping address` in the Title field. The title field specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.
     * **Name:** Specify `shipping-address-add-update-form` in the Name field. The Name field specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
 
 1. Tap **Create**. An adaptive form is created and a dialog to open the form for editing appears. Tap **Open **to open the newly created form in a new tab. The form opens for editing. It also displays the sidebar to customize the newly created form according to the needs.

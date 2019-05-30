@@ -127,9 +127,8 @@ There are some frequently asked questions (FAQ) about layout, scripting support,
    Answer: Yes, accessible tables have the following limitations:
 
     * Nested tables and subform inside a table are not supported.
-    * Headers are only supported for the top row or left columns of the table. Headers are not supported for mid-table elements. You can apply headers to multiple row and column headers are supported provided all such rows and columns are along with the topmost row or leftmost column of the table.  
-    * `Rowspan`and `colspan`from a random location inside the table is not supported.  
-    
+    * Headers are only supported for the top row or left columns of the table. Headers are not supported for mid-table elements. You can apply headers to multiple row and column headers are supported provided all such rows and columns are along with the topmost row or leftmost column of the table. 
+    * `Rowspan`and `colspan`from a random location inside the table is not supported.
     * You cannot dynamically add or remove instance of rows which contain elements with rowspan value greater than 1.
 
 1. What is the reading order of tool tip and caption for screen readers?

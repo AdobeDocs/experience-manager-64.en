@@ -41,26 +41,22 @@ In this procedure:
 1. Copy the *keystorename*.keystore to the *[appserver root]*/server/*[type]*/conf directory by typing one of the following commands:
 
     * (Windows Single Server) `copy`*keystorename* `.keystore`*[appserver root]* `\standalone\configuration`
-    
     * (Windows Server Cluster) copy *keystorename*.keystore *[appserver root]*\domain\configuration
-
     * (Linux Single Server) `cp`*keystorename* `.keystore`*[appserver root]* `/standalone/configuration`
+    * (Linux Server Cluster)
     
-    * (Linux Server Cluster)    
-    
-      ```    
+      ``` 
       cp <em>keystorename</em>.keystore<em>[appserver root]</em>/domain/configuration
       
       ```
 
 1. Export the certificate file by typing the following command:
 
-    * ``(Single Server) keytool -export -alias "LC Cert" -file LC_cert.cer -keystore [appserver root]/standalone/configuration/keystorename.keystore  
-    
+    * ``(Single Server) keytool -export -alias "LC Cert" -file LC_cert.cer -keystore [appserver root]/standalone/configuration/keystorename.keystore
     * (Server Cluster) keytool -export -alias *"LC Cert"* -file *LC_cert*.cer -keystore *[appserver root]*/domain/configuration/*keystorename*.keystore
 
 1. Enter the *keystore_password* when prompted for a password.
-1. Copy the LC_cert.cer file to the *[appserver root] \conf *directory by typing the following command:
+1. Copy the LC_cert.cer file to the *[appserver root] \conf* directory by typing the following command:
 
     * (Windows Single Server) copy LC_cert.cer [appserver root]\standalone\configuration
     * (Windows Server Cluster) copy LC_cert.cer [appserver root]\domain\configuration
@@ -72,7 +68,7 @@ In this procedure:
     * `keytool -printcert -v -file [appserver root]\standalone\configuration\LC_cert.cer`
     * 
     
-      ```    
+      ``` 
       keytool -printcert -v -file [appserver root]\domain\configuration\LC_cert.cer
       
       ```

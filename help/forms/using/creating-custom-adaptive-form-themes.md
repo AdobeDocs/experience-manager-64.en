@@ -56,8 +56,9 @@ Forest Theme Sample
 
 1. Add two folders, `less` and `css`, and a file `css.txt` to the node created in step 1:
 
-    * `less` folder: Contains the `less` variable files in which you define the `less` variables and `less mixins` that are used to manage the .css styles.  
-      This folder consists of `less` variable files, `less` mixin files, `less` files defining styles using mixins and variables. And all these less files are then imported in styles.less.  
+    * `less` folder: Contains the `less` variable files in which you define the `less` variables and `less mixins` that are used to manage the .css styles.
+
+      This folder consists of `less` variable files, `less` mixin files, `less` files defining styles using mixins and variables. And all these less files are then imported in styles.less. 
     
     * `css`folder: Contains the .css files in which you define the static styles to be used in the theme.
 
@@ -90,8 +91,9 @@ Forest Theme Sample
 
    To override the `less`variables:
 
-    1. Import default adaptive form variables:  
-       `/apps/clientlibs/fd/af/guidetheme/common/less/globalvariables.less/apps/clientlibs/fd/af/guidetheme/common/less/layoutvariables.less`  
+    1. Import default adaptive form variables:
+
+       `/apps/clientlibs/fd/af/guidetheme/common/less/globalvariables.less/apps/clientlibs/fd/af/guidetheme/common/less/layoutvariables.less` 
     
     1. Then import the less file that includes overridden variables.
 

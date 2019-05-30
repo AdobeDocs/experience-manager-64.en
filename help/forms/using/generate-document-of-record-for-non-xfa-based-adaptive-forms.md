@@ -28,17 +28,19 @@ This article explains how you can generate a document of record for adaptive for
 
 When you create an adaptive form, you can select a form model. Your options are:
 
-* [Form Templates](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-an-xfa-form-template-p)  
+* [Form Templates](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-an-xfa-form-template-p)
+
   Lets you select an XFA template for your adaptive form. When you select an XFA template, you can use the associated XDP file for document of record as described above.
 
-* [XML Schema](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-xml-or-json-schema-p)  
+* [XML Schema](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-xml-or-json-schema-p)
+
   Lets you select an XML schema definition for your adaptive form. When you select an XML schema for your adaptive form, you can:
 
     * Associate an XFA template for document of record. Ensure that associated XFA template uses the same XML schema as your adaptive form
-    * Automatically generate document of record* 
-      *
+    * Automatically generate document of record
 
-* None  
+* None 
+
   Lets you create an adaptive form without a form model. The document of record is automatically generated for your adaptive form.
 
 When you select a form model, configure document of record using options available under Document of Record Template Configuration. See [Document of Record Template Configuration](#document-of-record-template-configuration).
@@ -258,7 +260,8 @@ Perform the following steps to configure a document of record for adaptive forms
 
 1. In AEM author instance, click **Forms &gt; Forms and Documents.** 
 1. Select a form, and click **View Properties**.
-1. In the Properties window, tap **Form Model**.  
+1. In the Properties window, tap **Form Model**.
+
    You can also select a form model when you create a form.
 
    >[!NOTE]
@@ -285,8 +288,8 @@ Perform the following steps to configure a document of record for adaptive forms
    >
    >Ensure that schema used to create adaptive form and schema (data schema) of XFA Form are same if:
    >
-   >*     Your Adaptive form is schema based
-   >*     You are using **Associate Form Template as the Document of Record Template** option for document of record
+   >* Your Adaptive form is schema based
+   >* You are using **Associate Form Template as the Document of Record Template** option for document of record
 
 1. Click **Done.**
 
