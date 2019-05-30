@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 8fa1426f-f453-45c5-89b9-67038f56c70e
 ---
 
-# Performing Service Operations Using APIs{#performing-service-operations-using-apis}
+# Performing Service Operations Using APIs {#performing-service-operations-using-apis}
 
 Before you start developing client applications by using the AEM Forms APIs, it is recommended that you first read Invoking AEM Forms, which describes the different ways in which to invoke services. (See [Service container](/help/forms/developing/service-container.md#service-container).)
 

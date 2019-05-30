@@ -32,8 +32,10 @@ The properties are distributed across several tabs:
   Here you can add, or remove tags from the page by updating the list in the selection box:
 
     * After selecting a tag is it listed below the selection box. You can remove a tag from this list using the x.
-    * A completely new tag can be entered by typing the name in an empty selection box.  
+    * A completely new tag can be entered by typing the name in an empty selection box.
+
       The new tag will actually be created when you hit enter. The new tag will then be shown in a box, with a small star on the right indicating that it is a new tag.
+  
     * With the drop-down functionality you can select from existing tags.
     * An x appears when you mouse-over a tag entry in the selection box; this can be used to remove that tag for this page.
 
@@ -130,10 +132,12 @@ The properties are distributed across several tabs:
 
   Shows the page thumbnail image. You can:
 
-    * **Generate Preview** 
-      Generate a preview of the page to use as thumbnail.  
-    
+    * **Generate Preview**
+
+      Generate a preview of the page to use as thumbnail. 
+  
     * **Upload Image** 
+
       Upload an image to use as thumbnail.
 
 ### Cloud Services {#cloud-services}

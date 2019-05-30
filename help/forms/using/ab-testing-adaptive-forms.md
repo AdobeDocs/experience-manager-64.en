@@ -36,9 +36,9 @@ Perform the following steps to integrate a running Target server with AEM Forms:
 
 1. On AEM server, go to https://&lt;*hostname*&gt;:&lt;*port*&gt;/libs/cq/core/content/tools/cloudservices.html.
 
-1. In the **Adobe Target** section, click **Show Configurations** and then the **+** icon to add a new configuration. 
+1. In the **Adobe Target** section, click **Show Configurations** and then the **+** icon to add a new configuration.
 
-   If you are configuring target for the first time, click **Configure Now. ** 
+   If you are configuring target for the first time, click **Configure Now.** 
 
 1. In the Create configuration dialog, specify a **Title** and optionally a **Name** for the configuration.
 1. Click **Create**. The Edit component dialog opens.
@@ -49,7 +49,7 @@ Perform the following steps to integrate a running Target server with AEM Forms:
 1. Go to https://&lt;*hostname*&gt;:&lt;*port*&gt;/system/console/configMgr.
 1. Click **AEM Forms Target Configuration**.
 1. Select a **Target Framework**.
-1. In the **Target URLs** field, specify all the URLs where A/B tests will run. For example, https://&lt;*hostname*&gt;:&lt;*port*&gt;/ for AEM Forms server on OSGi or https://&lt;*hostname*&gt;:&lt;*port*&gt;/lc/ for AEM Forms server on JEE.
+1. In the **Target URLs** field, specify all the URLs where A/B tests will run. For example, https://&lt;*hostname*&gt;:&lt;*port*&gt;/ for AEM Forms server on OSGi or https://&lt;*hostname*&gt;:&lt;*port*&gt;/lc/ for AEM Forms server on JEE. 
 
    Consider that you want to configure a Target URL for a publish instance and your customers can access it using the hostname or the IP address, you will need to configure both as Target URLs - using the hostname as well as the IP address. If you confgure only one of the URLs, your A/B test will not run for customers coming from the other URL. Click **+** to specify multiple URLs.  
 
@@ -142,7 +142,7 @@ Once you have allowed the A/B test to run for the desired period, you can genera
     [ ![A/B Test report](assets/ab-test-report.png)](assets/ab-test-report-1.png)
 
 1. Analyze the report and see if you have enough data points to declare one of the better performing experiences as a winner. You can choose to continue with the same A/B test for more time or declare a winner and end the A/B test.  
-1. To declare a winner and end the A/B test, click **End A/B test** button on the reporting dashboard. A dialog prompts you to declare one of the two experiences as winner. Choose a winner and confirm to end the A/B test. 
+1. To declare a winner and end the A/B test, click **End A/B test** button on the reporting dashboard. A dialog prompts you to declare one of the two experiences as winner. Choose a winner and confirm to end the A/B test.
 
    Alternatively, you can first declare a winner by clicking the **Declare Winner** button for the respective experience. It prompts you to confirm the winner. Click **Yes** to end the A/B test.
 

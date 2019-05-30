@@ -52,7 +52,6 @@ Follow the steps below to set up a project showcasing data triggered asset chang
 1. **Creating a Sequence Channel**
 
     1. Select the **Channels** folder and click **Create** to open the wizard to create a channel.
-    
     1. Select **Sequence Channel** from the wizard and create the channel titled as **DataTrigger**.
 
    ![](assets/screen_shot_2019-02-28at120710pm.png)
@@ -70,8 +69,7 @@ Follow the steps below to set up a project showcasing data triggered asset chang
 
 1. **Setting ContextHub and Targeting Configurations**
 
-    1. Navigate to **DataTriggerAsset** --&gt; **Channels** --&gt; **DataTrigger** and click **Properties** from the action bar.   
-    
+    1. Navigate to **DataTriggerAsset** --&gt; **Channels** --&gt; **DataTrigger** and click **Properties** from the action bar.
     1. Click **Personalization** tab.
 
    ![](assets/screen_shot_2019-02-28at10644pm.png)
@@ -82,7 +80,6 @@ Follow the steps below to set up a project showcasing data triggered asset chang
     1. Once you have downloaded the package to your AEM instance, you need to set the ContextHub and Segments Path:
 
     * For **ContextHub**, set the path to: ***/libs/settings/cloudsettings/legacy/contexthub***
-    
     * For **Segments Path**, set the path to: ***/conf/data-triggers/settings/wcm/segments***
 
    Data Triggers
@@ -102,8 +99,7 @@ Follow the steps below to set up a project showcasing data triggered asset chang
 
 1. **Switching to Targeting Mode**
 
-    1. Navigate to **DataTriggerAsset** &gt; **Channels** &gt; **DataTrigger** and click **Edit** from the action bar.  
-    
+    1. Navigate to **DataTriggerAsset** &gt; **Channels** &gt; **DataTrigger** and click **Edit** from the action bar.
     1. Select **Targeting** from the menu bar under **Edit**.
 
    ![](assets/screen_shot_2019-02-28at21849pm.png)
@@ -111,7 +107,6 @@ Follow the steps below to set up a project showcasing data triggered asset chang
 1. **Adding the Targeted Content**
 
     1. Select **Data Triggers** in **BRAND** and **Seasonal Data-Trigger **in **ACTIVITY**.
-    
     1. Click the **Start Targeting**
 
    ![](assets/screen_shot_2019-02-28at31953pm.png)

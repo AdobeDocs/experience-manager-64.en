@@ -58,12 +58,9 @@ This section describes what happens when a review is created or set up.
 
 1. You get a screen that displays information:
 
-    * **Review name**: Cannot be edited.  
-    
-    * **Review description**: Available for editing.  
-    
-    * **Review deadline**: Available for editing. One can modify the deadline to any date and time beyond the current date and time.  
-    
+    * **Review name**: Cannot be edited. 
+    * **Review description**: Available for editing. 
+    * **Review deadline**: Available for editing. One can modify the deadline to any date and time beyond the current date and time.
     * **Reviewers**: Available for editing. You can add or remove reviewers. If a task is overdue, you can add reviewers only after extending the deadline beyond the current date.
 
 1. Edit the necessary fields, and then click Update.

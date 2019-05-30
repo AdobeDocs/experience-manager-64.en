@@ -67,19 +67,19 @@ In addition, if you selected an XML schema or XDP form template as the form mode
 
 1. In the Fragment Creation dialog, specify the following information:
 
-    * **Name**: Name of the fragment. The default value is the element name of the panel. It is a mandatory field. 
+    * **Name**: Name of the fragment. The default value is the element name of the panel. It is a mandatory field.
 
       ***Note**: Ensure that you specify a unique name for the fragment. If there already exists another fragment with the same name, the fragment fails to create.* 
   
-    * **Title**: Title of the fragment. The default value is the title of the panel. 
-    * **Description**: Description of the fragment. 
+    * **Title**: Title of the fragment. The default value is the title of the panel.
+    * **Description**: Description of the fragment.
     * **Tags**: Tags metadata for the fragment. 
     * **Target Path**: Repository path where the fragment will be saved. If you do not specify a path, a node with the same name as that of the fragment gets created next to the node containing the adaptive form. The fragment is saved in this node. 
     * **Form Model**: Depending on the form model for the adaptive form, this field displays the **XML Schema**, **Form Template**, or **None**. It is a non-editable field.
-    * **Fragment Model Root**: Appears only in XSD-based adaptive forms. It specifies the root for the fragment model. You can choose **/** or the XSD complex type from the drop-down. Note that you can reuse the fragment in another adaptive form only if you select the complex type as the fragment model root. 
+    * **Fragment Model Root**: Appears only in XSD-based adaptive forms. It specifies the root for the fragment model. You can choose **/** or the XSD complex type from the drop-down. Note that you can reuse the fragment in another adaptive form only if you select the complex type as the fragment model root.
 
       If you choose **/** as the fragment model root, the complete XSD tree from the root is visible in the adaptive form data model tab. For a complex type fragment model root, only the descendants of the selected complex type are visible in the adaptive form data model tab. 
-  
+    
     * **XSD Ref**: Appears only in XSD-based adaptive forms. It displays the location of the XML schema.
     * **XDP Ref**: Appears only in XDP-based adaptive forms. It displays the location of the XDP form template.
 
@@ -104,7 +104,6 @@ Any fragment you insert in adaptive forms appears as a placeholder image. The pl
 Perform the following steps to show complete fragments in forms:
 
 1. Go to AEM web console configuration page at https:[*host*]:[*port*]/system/console/configMgr.
-
 1. Search and click **[!UICONTROL Adaptive Form Configuration Service]** to open it in edit mode.
 1. Disable **[!UICONTROL Enable Placeholder in place of Fragment]** checkbox to show complete fragments rather than the placeholder image.
 
@@ -226,9 +225,10 @@ To localize an adaptive form that contains adaptive form fragments, you need to 
 * When you publish an adaptive form, you need to publish the standalone adaptive form fragments inserted by reference in the adaptive form.
 * When you republish an updated adaptive form fragment, the changes reflect in the published instances of the adaptive form in which the fragment is used.
 * Adaptive form containing the Verify component does not support anonymous users. Also, it is not recommended to use the Verify component in an adaptive form fragment.  
-* (**Mac only**) To ensure that the form fragments functionality works perfectly in all the scenarios, add the following entry to the /private/etc/hosts file:
+* (**Mac only**) To ensure that the form fragments functionality works perfectly in all the scenarios, add the following entry to the /private/etc/hosts file: 
 
-  `127.0.0.1 <Host machine>` 
+  `127.0.0.1 <Host machine>`
+
   **Host machine**: The Apple Mac machine on which AEM Forms is deployed.
 
 ## Reference Fragments {#reference-fragments}

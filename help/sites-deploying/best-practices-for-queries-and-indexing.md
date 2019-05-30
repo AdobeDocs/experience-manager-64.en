@@ -253,8 +253,7 @@ The following detail possible issues together with resolutions:
 
 * How to Resolve:
 
-    * [Re-index](/help/sites-deploying/best-practices-for-queries-and-indexing.md#how-to-re-index) the lucene index  
-    
+    * [Re-index](/help/sites-deploying/best-practices-for-queries-and-indexing.md#how-to-re-index) the lucene index
     * Alternatively, touch (perform a benign write operation) to the missing nodes
 
         * Requires manual touches or custom code
@@ -322,15 +321,18 @@ The following detail possible issues together with resolutions:
 
 * How to Resolve:
 
-    * Perform a traversing repository check; for example:  
-      [http://localhost:4502/system/console/repositorycheck](http://localhost:4502/system/console/repositorycheck)  
+    * Perform a traversing repository check; for example: 
+
+      [http://localhost:4502/system/console/repositorycheck](http://localhost:4502/system/console/repositorycheck) 
+
       traversing the repository determines if other binaries (besides lucene files) are missing
     
     * If binaries other than lucene indexes are missing, restore from backup
     * Otherwise, [re-index](#how-to-re-index) *all* lucene indexes
-    
-    * Note:  
-      This condition is indicative of a misconfigured datastore that may result in ANY binary (eg. assets binaries) to go missing.  
+    * Note: 
+
+      This condition is indicative of a misconfigured datastore that may result in ANY binary (eg. assets binaries) to go missing. 
+
       In this case, restore to the last known good version of the repository to recover all missing binaries.
 
 #### Lucene Index Binary is Corrupt {#lucene-index-binary-is-corrupt}
@@ -346,7 +348,8 @@ The following detail possible issues together with resolutions:
 
 * How to Verify:
 
-    * The `AsyncIndexUpdate` (every 5s) will fail with an exception in the error.log:  
+    * The `AsyncIndexUpdate` (every 5s) will fail with an exception in the error.log: 
+
       `...a Lucene index file is corrupt...`
 
 * How to Resolve:
@@ -375,8 +378,10 @@ The following detail possible issues together with resolutions:
 
     * `[oak:queryIndexDefinition]@reindex-async=true`
 
-* Re-index the property index asynchronously using the Web Console via the **PropertyIndexAsyncReindex**MBean;  
-  for example,  
+* Re-index the property index asynchronously using the Web Console via the **PropertyIndexAsyncReindex**MBean; 
+
+  for example, 
+  
   [http://localhost:4502/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Dasync%2Ctype%3DPropertyIndexAsyncReindex](http://localhost:4502/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Dasync%2Ctype%3DPropertyIndexAsyncReindex)
 
 #### Re-indexing Lucene Property indexes {#re-indexing-lucene-property-indexes}

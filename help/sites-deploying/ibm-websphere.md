@@ -37,18 +37,12 @@ To install eCommerce functionality you need:
 * Your Websphere Commerce server.
 * AEM eCommerce framework:
 
-    * this is part of a standard AEM installation  
-    * CQ Geometrixx Outdoors demo store (needs seperate package, as Geometrixx demos are not part of AEM 6.3 any more)
+    * this is part of a standard AEM installation 
+    * CQ Geometrixx Outdoors demo store (needs separate package, as Geometrixx demos are not part of AEM 6.3 any more)
 
 * AEM Websphere Commerce content packages, available through your [Daycare](https://daycare.day.com/home.html) account: ``
 
-    * 
-    
-      ```    
-      cq-geometrixx-all-pkg-5.10.68
-      
-      ```    
-    
+    * `cq-geometrixx-all-pkg-5.10.68`
     * `cq-6.3.0-featurepack-6709`
     * a reference implementation to illustrate use of Websphere Commerce ( `geometrixx-outdoors/en_US`)
 
@@ -59,13 +53,7 @@ To install AEM with a Websphere Commerce integration configuration (using the de
 1. [Install AEM](/help/sites-deploying/deploy.md).
 1. Install the demonstration content packages using the [package manager](/help/sites-administering/package-manager.md):
 
-    1. 
-    
-       ```    
-       cq-geometrixx-all-pkg
-       
-       ```    
-    
+    1. `cq-geometrixx-all-pkg`
     1. `cq-6.3.0-featurepack-6709`
 
 1. [Author](/help/sites-authoring/qg-page-authoring.md) any supplementary pages that you need in AEM.

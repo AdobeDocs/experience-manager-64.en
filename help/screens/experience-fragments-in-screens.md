@@ -68,7 +68,6 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
 1. **Navigate to a Sites page in We.Retail**
 
     1. Navigate to Sites and select **We.Retail **-&gt;** United States **-&gt;**English **and select **Equipment** page to use this as an experience fragment for your Screens channel. 
-    
     1. Click **Edit** from the action bar to open the page you want to use as an experience fragment for your Screens channel.
 
    ![](assets/screen_shot_2018-06-06at105309am.png)
@@ -83,12 +82,9 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
 1. **Creating Experience fragment**
 
     1. Choose the **Action** as **Create a new Experience Fragment**.
-    
     1. Select the **Parent path**.
-    1. Select the **Template**. Choose the **We.Retail **template here.  
-    
+    1. Select the **Template**. Choose the **We.Retail** template here.
     1. Enter the **Fragment Title **as **ScreensFragment**.
-    
     1. Click the check mark to complete the creation of a new experience fragment.
 
    ![](assets/screen_shot_2018-06-06at115009am.png)
@@ -112,7 +108,6 @@ Follow the steps below to leverage the content from **We.Retail** to your **Test
 
     1. Navigate to the Screens channel where you want to use the **Screens** fragment.
     1. Select the **TestChannel** and click **Edit** from the bar.
-    
     1. Click the components icon from the side tab.
     1. Drag and drop the **Embedded Page** to your channel.
 

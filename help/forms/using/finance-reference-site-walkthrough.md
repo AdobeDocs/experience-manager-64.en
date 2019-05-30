@@ -295,7 +295,8 @@ Perform the following steps to experience the creation of A/B test for We.Financ
 1. Modify the form as desired to create a different experience than the default experience A.
 1. Go to the Forms and Documents UI, select the form, click **More**, and select **Start A/B Testing**.
 
-1. Now open the form in chrome browser several times using the following url:  
+1. Now open the form in chrome browser several times using the following url:
+
    https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/cc-app/jcr:content?wcmmode=disabled 
    Note: Remove the cookie with the name **mbox** from browser’s cookie persistence before opening the form next time.* 
    You will see experience A and B of the form at random.
@@ -546,7 +547,8 @@ Perform the following steps in the author instance to experience the creation of
 1. Modify the form as desired to create a different experience than the default experience A.
 1. Go to the Forms and Documents UI, select the form, click **More**, and select **Start A/B Testing**.
 
-1. Now open the form in chrome browser several times using the following url:  
+1. Now open the form in chrome browser several times using the following url:
+
    https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/hm-app/jcr:content?wcmmode=disabled** 
    **Note:** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
    You will see experience A and B of the form at random.

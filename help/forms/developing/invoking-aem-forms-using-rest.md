@@ -11,7 +11,7 @@ topic-tags: coding
 discoiquuid: df7b60bb-4897-479e-a05e-1b1e9429ed87
 ---
 
-# Invoking AEM Forms using REST Requests{#invoking-aem-forms-using-rest-requests}
+# Invoking AEM Forms using REST Requests {#invoking-aem-forms-using-rest-requests}
 
 Processes created in Workbench can be configured so that you can invoke them through Representational State Transfer (REST) requests. REST requests are sent from HTML pages. That is, you can invoke a Forms process directly from a web page using a REST request. For example, you can open a new instance of a web page. Then you can invoke a Forms process and load a rendered PDF document with data that was sent in an HTTP POST request.
 

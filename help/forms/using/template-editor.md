@@ -30,13 +30,14 @@ Once you tap to open a folder, you will find a Create button that allows creatin
 
 After you have created a folder, open the folder and perform the following steps to create a template:
 
-1. In the Template console, tap **Create **inside the folder you have created.
+1. In the Template console, tap **Create** inside the folder you have created.
 1. In the Pick a Template Type section, select **Adaptive Form Template **and tap **Next**.
 
-1. In the Template Details section, provide a Template Title and tap **Create**.  
+1. In the Template Details section, provide a Template Title and tap **Create**.
+
    You can provide a description and thumbnail that you can see when you can select the created template at the time of form authoring.
 
-1. Tap **Done **to return to the console, or tap **Open **to open the template in the editor.
+1. Tap **Done** to return to the console, or tap **Open** to open the template in the editor.
 
 ### Template editor UI {#template-editor-ui}
 
@@ -48,7 +49,8 @@ When you open a template for editing, you can see the following AEM Editor compo
     * **Toggle Side-Panel**: Lets you show or hide the sidebar.
     * **Page Information**: Lets you specify information such as the publish/unpublish time, thumbnails, client-side libraries, page policy, and page design client-side library. 
     * **Emulator**: Lets you simulate and customize the look for different devices. 
-    * **Layer selector:** Lets you change the layer.  
+    * **Layer selector:** Lets you change the layer.
+
       You can choose **Structure** layer or **Initial Content** layer. Structure layer lets you add and customize the header and footer. Initial Content layer lets you customize the form content.
     
     * **Preview:** Lets you preview how the template looks when you publish it. You can use Layer Selector and Preview to toggle editing and preview modes.
@@ -152,7 +154,8 @@ When you create a template, it is added as a draft. Enable the template to use i
 1. Navigate to **Adobe Experience Manager &gt; Tools &gt; Templates**, and open the folder in which you have created the template.  
 
 1. The template you have created is marked as Draft.  
-1. Select the template and tap **Enable** in the toolbar.  
+1. Select the template and tap **Enable** in the toolbar.
+
    When you create an adaptive form, you can see the template listed when you are asked to choose a template.
 
 ## Importing or exporting a template {#importing-or-exporting-a-template}
@@ -185,6 +188,7 @@ Perform the following steps to show and hide templates:
 ## Recommendations {#recommendations}
 
 * When you modify properties of the form in template editor, do not use the BindReference property.
-* If you want to add a breakpoint, create it when you author an adaptive form template.   
+* If you want to add a breakpoint, create it when you author an adaptive form template. 
+
   For more information on breakpoints, see [Responsive Layout](/help/sites-authoring/responsive-layout.md).
 

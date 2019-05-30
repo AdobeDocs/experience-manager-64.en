@@ -288,10 +288,12 @@ This is an optional field that specifies the path to a node in the repository. W
 
 If you are validating the complete form, also include one of the following:
 
-* A script for client validation:  
+* A script for client validation: 
+
   ` /apps/<myApp>/form/<myValidation>/formclientvalidation.jsp`
 
-* A script for validation on the server side:  
+* A script for validation on the server side: 
+
   ` /apps/<myApp>/form/<myValidation>/formservervalidation.jsp`
 
 **Action Configuration** Depending on the selection in Post Options, the Action Configuration changes. For example, when you select Create Lead, you can configure what list the lead is added to.

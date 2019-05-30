@@ -51,8 +51,7 @@ The create button is the starting point of the process of creating or uploading 
 
 * **Folder:** AEM Forms user interface uses folders to arrange assets. It supports two types of folders:
 
-    * **General Folder:** These folders are used for assets created within AEM Forms user interface. These folders do not have a strict folder structure. You can rename, create subfolders, and store adaptive forms, Interactive Communications, adaptive form fragments, Form Templates (XDPs), PDF Forms, Documents, and related assets in these folders.  
-    
+    * **General Folder:** These folders are used for assets created within AEM Forms user interface. These folders do not have a strict folder structure. You can rename, create subfolders, and store adaptive forms, Interactive Communications, adaptive form fragments, Form Templates (XDPs), PDF Forms, Documents, and related assets in these folders.
     * **Forms Workflow folder:** Forms workflow folders are created when Workbench processes (LiveCycle archives) are migrated and synchronized with AEM Forms user interface. It is not allowed to rename, create a subfolder, create an Interactive Communication, an adaptive form fragment, or an Interactive Communication. It is also not allowed to delete a version folder or create and upload an adaptive form, an adaptive form fragment, or an Interactive Communication in parallel to the version folder.
 
 ![](assets/folders.png)
@@ -97,26 +96,20 @@ AEM tools panel contains tools for various components. To navigate to AEM Forms-
 
 ![](assets/aem-forms-tools.png)
 
-* **Configure PDF Generator:** An administrator can configure AEM Forms PDF Generator settings, add user accounts, and import or export configuration to the PDF Generator**.   
-  **
-
+* **Configure PDF Generator:** An administrator can configure AEM Forms PDF Generator settings, add user accounts, and import or export configuration to the PDF Generator.
 * **Publish Correspondence Management Assets:** AEM Forms lets you publish all the Letters, Document Fragments, and Data Dictionaries and related dependencies from an author instance at once. The published assets include all the Correspondence Management assets and related dependencies. For detailed information, see [Publishing and unpublishing forms & documents](/help/forms/using/publishing-unpublishing-forms.md#publishallthecorrespondencemanagementassets).
-
 * **Export Correspondence Management Assets:** You can download all the Correspondence Management assets and related dependencies as a package from an AEM forms instance. For detailed steps, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md#importandexportassetsincorrespondencemanagement)
 
 ## Common elements of user interface {#commonelements}
 
 * **Left rail:** You can click the left rail icon ![](assets/railleftpng.png) to reveal Timeline and References capabilities of AEM Forms.
 
-    * **Timeline:** You can add and view comment on an asset that is available for review in the timeline. For detailed instructions, see [Creating and managing reviews for assets in forms](/help/forms/using/create-reviews-forms.md).  
-    
+    * **Timeline:** You can add and view comment on an asset that is available for review in the timeline. For detailed instructions, see [Creating and managing reviews for assets in forms](/help/forms/using/create-reviews-forms.md).
     * **References:** An AEM Forms asset can be used in multiple AEM Forms assets. For example, a document fragment can be used in multiple letters. References is a list of assets (other forms or resources) that the selected asset is used in and also the list of other assets that the selected asset is using.
 
 * **Breadcrumbs:** A Breadcrumb represents the title of the current console or folder. You can click the Breadcrumb option to navigate between the level of folders that are higher in hierarchy.
 * **View Switcher:** You can click the View Switcher icon ![](assets/viewlist.png) or ![](assets/viewcard.png) to quickly switch between list and card view. For more information about common user interface components, see [Working with the Author Environment](/help/sites-authoring/basic-handling.md).  
-
 * **Search:** The search option ![](assets/search.png) provides capability to quickly find and jump to the content and tools you need. Type the name of content or product capability and select from the suggestions, for example, type "Documents" to quickly find and navigate to Forms & Documents or Document Fragments console. For more information about search, see AEM 6.2 [search](/help/sites-authoring/search.md) article  
-
 * **Actions toolbar**: On selecting an asset, the actions toolbar appears above the list of assets. It contains all the management tools for the selected asset. You can hover over a tool icon to view the tool tip describing its functionality
 
 >[!NOTE]

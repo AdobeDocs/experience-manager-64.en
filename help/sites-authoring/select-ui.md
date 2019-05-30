@@ -138,10 +138,12 @@ The settings defined by a user or system administrator can be overriden by the s
 
 * When authoring pages:
 
-    * Use of the classic editor is forced when accessing the page using `cf#` in the URL. For example:  
+    * Use of the classic editor is forced when accessing the page using `cf#` in the URL. For example: 
+
       `http://localhost:4502/cf#/content/geometrixx/en/products/triangle.html`
-    
-    * Use of the touch-enabled editor is forced when using `/editor.html` in the URL or when using a touch device. For example:  
+
+    * Use of the touch-enabled editor is forced when using `/editor.html` in the URL or when using a touch device. For example: 
+
       `http://localhost:4502/editor.html/content/geometrixx/en/products/triangle.html`
 
 * Any forcing is temporary and only valid for the browser session
@@ -151,7 +153,7 @@ The settings defined by a user or system administrator can be overriden by the s
 * When opening pages through `siteadmin`, checks will be made for the existence of:
 
     * The cookie
-    * A user preference  
+    * A user preference 
     * If neither exist, it will default to the definitions set in the [OSGi configuration](/help/sites-deploying/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service).
 
 >[!NOTE]

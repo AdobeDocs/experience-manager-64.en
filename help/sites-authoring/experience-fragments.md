@@ -100,6 +100,7 @@ To create an Experience Fragment:
    >
    >    The name of the template must begin with: 
    >    `experience-fragments`
+   
    >    This allows users to create experience fragments in `/content/experience-fragments` as the `cq:allowedTemplates` property of this folder includes all the templates that have names beginning with `experience-fragment`. Customers can update this property to include their own naming scheme or template locations.
    >
    > * **Or:**

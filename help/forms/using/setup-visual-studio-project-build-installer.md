@@ -16,13 +16,15 @@ AEM Forms provides the complete source code of the AEM Forms app. The source con
 
 To get the AEM Forms app source, perform the following steps:
 
-1. Navigate to package share  
+1. Navigate to package share
+
    URL: `https://<server>:<port>/crx/packageshare`.
 
 1. Download the source package. When you download the package, it is added in your AEM Forms package manager.
 1. After it is downloaded, navigate to: `https://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
 
-1. To download the source code archive, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.   
+1. To download the source code archive, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser. 
+
    The source package is downloaded on your device.
 
 The following image displays the extracted contents of the `adobe-lc-mobileworkspace-src-<version>.zip`.
@@ -107,8 +109,10 @@ There are two ways to install the application on a Windows device.
 
 1. Right-click on the PowerShell file ( `Add-AppDevPackage.ps1)`, and choose **Run with PowerShell**.
 
-1. The setup prompts you to get a developer license. Use Microsoft account credentials to acquire developer license.  
+1. The setup prompts you to get a developer license. Use Microsoft account credentials to acquire developer license. 
+
    This license is valid for 30 days, and you can renew it for free.
+
 1. When you acquire the developer license, the setup installs the self-signed certificate on the system and application installs successfully.
 
 ### By using enterprise owned devices {#by-using-enterprise-owned-devices}
@@ -147,7 +151,8 @@ For more information, click [here](https://blogs.msdn.com/b/mvpawardprogram/arch
 
 To install the app on Windows using Visual Studio:
 
-1. Connect the device using remote debugger.  
+1. Connect the device using remote debugger. 
+
    For more information, see [Run Windows Store apps on a remote machine](https://docs.microsoft.com/en-us/visualstudio/debugger/run-windows-store-apps-on-a-remote-machine).
 
 1. With your app open in Visual Studio, choose Windows-x64, Windows-x86, or Windows-AnyCPU from the Solution Platforms list, and select **Remote Machine**.

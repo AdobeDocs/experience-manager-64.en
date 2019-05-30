@@ -80,8 +80,7 @@ For a more comprehensive analysis of the request logs on an AEM system, `rlog.ja
 
 The [Explain Query tool](/help/sites-administering/operations-dashboard.md#explain-query) in ACS AEM Tools can be used to view the indexes that are used when running a query. This can be very useful when optimizing slow running queries.
 
-**PageSpeed Tools  
-**
+**PageSpeed Tools**
 
 Google’s PageSpeed tools offer site analysis for adherence to best practices for page performance as well as a plugin that can be installed alongside the dispatcher on an Apache instance for additional optimizations. For more information, see the [PageSpeed Tools Website](https://developers.google.com/speed/pagespeed/).
 

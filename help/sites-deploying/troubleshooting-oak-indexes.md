@@ -109,14 +109,15 @@ To identify and fix a stuck re-indexing process, do the following:
 
     * Collect data from the async `IndexStats` MBean:
 
-        * Navigate to AEM OSGi Web Console&gt;Main&gt;JMX&gt;IndexStat&gt;async  
+        * Navigate to AEM OSGi Web Console&gt;Main&gt;JMX&gt;IndexStat&gt;async 
+
           or go to [http://localhost:4502/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Dasync%2Ctype%3DIndexStats](http://localhost:4502/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Dasync%2Ctype%3DIndexStats)
 
     * Use [oak-run.jar's console mode](https://github.com/apache/jackrabbit-oak/tree/trunk/oak-run) to collect the details of what exists under the * `/:async`* node.
-    
     * Collect a list of repository checkpoints by using the `CheckpointManager` MBean:
 
-        * AEM OSGi Web Console&gt;Main&gt;JMX&gt;CheckpointManager&gt;listCheckpoints()   
+        * AEM OSGi Web Console&gt;Main&gt;JMX&gt;CheckpointManager&gt;listCheckpoints()  
+
           or go to [http://localhost:4502/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3DSegment+node+store+checkpoint+management%2Ctype%3DCheckpointManager](http://localhost:4502/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3DSegment+node+store+checkpoint+management%2Ctype%3DCheckpointManager)
 
 1. After collecting all the information outlined in Step 1, restart AEM.
@@ -139,7 +140,6 @@ To safely abort re-indexing, follow these steps:
     * Open the IndexStats MBean based on the re-indexing lane that you wish to stop ( `async`, `async-reindex`, or `fulltext-async`)
 
         * To identify the appropriate lane and thus the IndexStats MBean instance, look at the Oak Indexes "async" property. The "async" property will contain the lane name: `async`, `async-reindex`, or `fulltext-async`.
-        
         * The lane is also available by accessing AEM's Index Manager in the "Async" column. To access the Index manager navigate to Operations&gt;Diagnosis&gt;Index Manager.
 
    ![](assets/chlimage_1-121.png)

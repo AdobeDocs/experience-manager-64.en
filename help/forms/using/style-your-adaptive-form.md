@@ -65,24 +65,21 @@ The design displayed above requires changes in placeholder text and logo of your
 
 1. Change the existing logo and text of the header. To remove the logo:
 
-    1. Open the form in form editor.  
+    1. Open the form in form editor.
+
        [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html)
     
     1. Tap logo image in the header component and tap ![](assets/cmppr.png) properties. In the image property, tap X to remove the existing logo image.
-    1. Tap upload, select the logo.png, and tap ![](assets/aem_6_3_forms_save.png) to save the changes. The image was downloaded in the [Before you start](/help/forms/using/style-your-adaptive-form.md#before-you-start) section.  
-    
+    1. Tap upload, select the logo.png, and tap ![](assets/aem_6_3_forms_save.png) to save the changes. The image was downloaded in the [Before you start](/help/forms/using/style-your-adaptive-form.md#before-you-start) section. 
     1. Tap header text, `We.Retail`, and tap ![](assets/aem_6_3_edit.png) **edit**. Change header text to `we retail`. Apply bold formatting only to `we`in `we retail`.
 
    ![](assets/we-retail-logo-text.png)
 
 1. Remove title and add placeholder text:
 
-    1. Tap the Customer ID field and tap ![](assets/cmppr.png) properties.  
-    
-    1. Copy the content of the **Title** field to the **Placeholder Text **field.  
-    
+    1. Tap the Customer ID field and tap ![](assets/cmppr.png) properties.
+    1. Copy the content of the **Title** field to the **Placeholder Text** field.
     1. Delete the content of the **Title** field and tap ![](assets/aem_6_3_forms_save.png).
-    
     1. Repeat the previous three steps for all the text boxes, numeric box, and email field in the form.
 
    ![](assets/updated-adaptive-form.png)
@@ -101,10 +98,9 @@ In this tutorial, you will style header and footer, text and numeric components,
 1. Tap **[!UICONTROL Create]**and select **[!UICONTROL Theme]**. The Create Theme page with the fields required to create a theme appears. The Title and Name fields are mandatory:
 
     * **Title:** Specify a title of the theme. For example, **Global Theme.** The title helps you identify the theme from the list of themes.
-    
     * **Name:** Specify the name of the theme. For example, **Global-Theme.** A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
 
-1. Tap **Create**. A theme is created and a dialog to open the form for editing appears. Tap **Open **to open the newly created theme in a new tab. The theme opens in theme editor. For styling, the theme editor uses an out-of-the-box adaptive form shipped with AEM Forms.
+1. Tap **Create**. A theme is created and a dialog to open the form for editing appears. Tap **Open** to open the newly created theme in a new tab. The theme opens in theme editor. For styling, the theme editor uses an out-of-the-box adaptive form shipped with AEM Forms.
 
    For information about using theme editor UI, see [About the theme editor](/help/forms/using/themes.md#aboutthethemeeditor).
 
@@ -293,8 +289,7 @@ You can use a custom theme to apply an identical style to all the buttons of the
 
 Some styles apply to only a specific component. Such components are styled in adaptive forms editor.
 
-1. Open the adaptive form for editing. [  
-   http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html)
+1. Open the adaptive form for editing. [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html)
 1. On the top bar, select the **Style **option.
 
    ![](assets/style-option.png)

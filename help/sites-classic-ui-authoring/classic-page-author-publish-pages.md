@@ -83,7 +83,8 @@ You can also activate a page when you have it open for editing.
 After you have opened the page and modified its contents, you:
 
 1. Select the **Page** tab in the Sidekick.
-1. Click **Activate Page**.  
+1. Click **Activate Page**. 
+
    A message displays at the top right of the window confirming that the page has been activated.
 
 ## Unpublishing a Page {#unpublishing-a-page}
@@ -162,6 +163,5 @@ From the **Websites** tab you can activate the individual pages. When you have e
 1. Select the action you want to perform:
 
     1. Select **Dry Run** if you want to check which pages *would* be activated. This is only an emulation, no pages will be activated.
-    
     1. Select **Activate** if you want to activate the pages.
 

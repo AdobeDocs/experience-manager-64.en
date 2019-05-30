@@ -43,7 +43,8 @@ You can make the following changes to the settings of your app.
 
 * **Offline mode**: To enable or disable the offline service for AEM Forms app. See [Working in the offline mode](/help/forms/using/work-offline-mode.md) for details.
 
-* **Landing screen**: To set the start location ([Home screen](/help/forms/using/home-screen.md)) for the app.  
+* **Landing screen**: To set the start location ([Home screen](/help/forms/using/home-screen.md)) for the app. 
+
   Available options:
 
     * Forms
