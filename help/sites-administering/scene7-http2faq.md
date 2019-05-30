@@ -61,7 +61,7 @@ You must initiate the request to switch over to HTTP/2; it is not automatically 
 
            To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
 
-           Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labelled [!UICONTROL **Published Server Name**].
+           Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labelled **[!UICONTROL Published Server Name]**.
         
         1. Verify that you use secure HTTPS for rich media requests.
         1. Verify you are using the CDN through Adobe and not managed with a direct relationship.
@@ -69,13 +69,13 @@ You must initiate the request to switch over to HTTP/2; it is not automatically 
 
            To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account. 
 
-           Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labelled [!UICONTROL **Published Server Name**]. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
+           Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labelled **[!UICONTROL Published Server Name]**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
 
     1. Technical Support adds you to the HTTP/2 customer waitlist based on the order in which requests were submitted.
     1. When Adobe is ready to handle your request, Support will contact you to coordinate the transition and set a target date.
     1. You will be notified after completion and can verify a successful transition over to HTTP2.
      
-       You will need to download an extension to use with your Web browser. For Firefox and Chrome use an extension called [!UICONTROL **HTTP/2 and SPDY Indicator**]. Browsers only support HTTP/2 securely, so it is necessary to call a URL with HTTPS to verify. If HTTP/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2"
+       You will need to download an extension to use with your Web browser. For Firefox and Chrome use an extension called **[!UICONTROL HTTP/2 and SPDY Indicator]**. Browsers only support HTTP/2 securely, so it is necessary to call a URL with HTTPS to verify. If HTTP/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2"
 
 ## When can I expect to be transitioned over to HTTP/2? {#when-can-i-expect-to-be-transitioned-over-to-http}
 
@@ -93,4 +93,4 @@ The non-cached content directly hits Adobe's origin servers until the cache is r
 
 ## How can you verify whether a URL or website is activated with HTTP/2? {#how-can-you-verify-whether-a-url-or-website-is-activated-with-http}
 
-You need to download an externsion to use with your Web browser. For Firefox and Chrome there is an extension called [!UICONTROL **HTTP/2 and SPDY Indicator**]. Browsers only support HTTP/2 securely, so it is necessary to call a URL with HTTPS to verify. If HTTP/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2".
+You need to download an externsion to use with your Web browser. For Firefox and Chrome there is an extension called **[!UICONTROL HTTP/2 and SPDY Indicator]**. Browsers only support HTTP/2 securely, so it is necessary to call a URL with HTTPS to verify. If HTTP/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2".

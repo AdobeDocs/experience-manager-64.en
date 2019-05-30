@@ -1,8 +1,8 @@
 ---
-title: Delivering Dynamic Media Assets
-seo-title: Delivering Dynamic Media Assets
-description: With Dynamic Media you have several options to deliver your dynamic media assets - both video and images -  to your website.
-seo-description: With Dynamic Media you have several options to deliver your dynamic media assets - both video and images -  to your website.
+title: Delivering Dynamic Media assets
+seo-title: Delivering Dynamic Media assets
+description: With Dynamic Media you have several options to deliver your dynamic media assets - both video and images - to your website.
+seo-description: With Dynamic Media you have several options to deliver your dynamic media assets - both video and images - to your website.
 uuid: 88a3ceec-034d-43a6-8623-3ef8b926a338
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 79d426a6-bad5-4f6d-a027-ca935576bcb9
 ---
 
-# Delivering Dynamic Media Assets{#delivering-dynamic-media-assets}
+# Delivering Dynamic Media assets{#delivering-dynamic-media-assets}
 
-How you can deliver your dynamic media assets - both video and images - depends on how your web site is implemented.
+How you can deliver your Dynamic Media assets &ndash; both video and images &ndash; depends on how your web site is implemented.
 
 With Dynamic Media you have several options:
 
@@ -22,5 +22,5 @@ With Dynamic Media you have several options:
 
 For more information, see the following topics:
 
-* [Adding Dynamic Media Assets to Pages](/help/sites-classic-ui-authoring/dynamic-media-assets-adding-to-page.md)
+* [Adding Dynamic Media assets to pages](/help/sites-classic-ui-authoring/dynamic-media-assets-adding-to-page.md)
 
