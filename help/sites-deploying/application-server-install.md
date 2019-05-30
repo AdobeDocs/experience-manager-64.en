@@ -44,8 +44,7 @@ If deployed the following will happen by default:
 * the run mode is `author`
 * the instance (Repository, Felix OSGI environment, bundles etc.) is installed in `${user.dir}/crx-quickstart`where `${user.dir}` is the current working directory, this path to crx-quickstart is called `sling.home`  
 
-* the context root is the war file name e.g : `aem-6` **[!UICONTROL   
-  ]**
+* the context root is the war file name e.g : `aem-6`
 
 #### Configuration {#configuration}
 
@@ -159,7 +158,6 @@ This uses a simple Server Layout with only an Admin Server.
 * Increase VM Memory settings:
 
     * open `${myDomain}/bin/setDomainEnv.cmd` (resp .sh)search for WLS_MEM_ARGS, set e.g set `WLS_MEM_ARGS_64BIT=-Xms256m -Xmx2048m`
-    
     * restart WebLogic Server
 
 * Create in `${myDomain}` a packages folder and inside a cq folder and in it a Plan folder
@@ -189,15 +187,12 @@ Before a deployment read the [General Description](#general-description) above.
     * Increase VM memory settings:
 
         * In `bin/catalina.bat` (resp `catalina.sh` on unix) add the following setting:
-        
         * `set "JAVA_OPTS= -Xmx2048m`
 
     * Tomcat enables neither admin nor manager access at installation. Therefore you have to manually edit `tomcat-users.xml` to allow access for these accounts:
 
         * Edit `tomcat-users.xml` to include access for admin and manager. The configuration should look similar to the following example:
-        * 
-        
-          ```        
+        * ```        
           <?xml version='1.0' encoding='utf-8'?>
            <tomcat-users>
            <role rolename="manager"/>
@@ -220,21 +215,18 @@ Before a deployment read the [General Description](#general-description) above.
 
     * If you install the AEM web application using the manager-gui then you need to increase the maximal size of an uploaded file, as the default only allows 50MB upload size. For that open the web.xml of the manager web application,
 
-      ```    
-      webapps/manager/WEB-INF/web.xml 
-      
-      ```    
+      `webapps/manager/WEB-INF/web.xml`    
     
       and increase the max-file-size and max-request-size to at least 500MB, see the following `multipart-config` example of such a a `web.xml` file:
         
-          ```        
+        ```        
           <multipart-config>
            <!-- 500MB max -->
            <max-file-size>524288000</max-file-size>
            <max-request-size>524288000</max-request-size>
            <file-size-threshold>0</file-size-threshold>
            </multipart-config>
-          ```
+        ```
 
 * **Deploy AEM web application**
 

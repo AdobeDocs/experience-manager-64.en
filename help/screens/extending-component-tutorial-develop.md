@@ -318,7 +318,6 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 1. Add the following properties to the shared client library:
 
     * `allowProxy` | Boolean | `true`
-    
     * `categories` | String[] | `cq.screens.components`
 
    ![Properties for /apps/weretail-run/components/content/poster/clientlibs/shared](assets/2018-05-03_at_1026pm-1.png)
