@@ -43,7 +43,7 @@ The Apache Oak based backend allows different indexers to be plugged into the re
 
 One indexer is the **Property Index**, for which the index definition is stored in the repository itself.
 
-Implementations for **Apache Lucene** and **Solr **are also available by default, which both support fulltext indexing.
+Implementations for **Apache Lucene** and **Solr** are also available by default, which both support fulltext indexing.
 
 The **Traversal Index** is used if no other indexer is available. This means that the content is not indexed and content nodes are traversed to find matches to the query.
 
@@ -59,7 +59,9 @@ Next, each index is consulted to estimate the cost for the query. Once that is c
 
 ## Configuring the indexes {#configuring-the-indexes}
 
-Note: For a large repository, building an index is a time consuming operation. This is true for both the initial creation of an index, and reindexing (rebuilding an index after changing the definition). See also "Troubleshooting Oak Indexes" section "Preventing slow re-indexing".
+>[!NOTE]
+>
+>For a large repository, building an index is a time consuming operation. This is true for both the initial creation of an index, and reindexing (rebuilding an index after changing the definition). See also [Troubleshooting Oak Indexes](/help/sites-deploying/troubleshooting-oak-indexes.md) and [Preventing Slow Re-indexing](/help/sites-deploying/troubleshooting-oak-indexes.md#preventing-slow-re-indexing).
 
 If reindexing is needed in very large repositories, specially when using MongoDB and for fulltext indexes, consider text pre-extraction, and using oak-run to build the initial index and to reindex.
 
@@ -90,14 +92,14 @@ The Property Index has the following configuration options:
 
 * The **propertyNames** property indicates the list of the properties that will be stored in the index. In case it is missing, the node name will be used as a property name reference value. In this example, the **jcr:uuid** property whose job is to expose the unique identifier (UUID) of its node is added to the index.
 
-* The** unique** flag which, if set to **true **adds a uniqueness constraint on the property index.  
+* The **unique** flag which, if set to **true** adds a uniqueness constraint on the property index.  
 
 * The **declaringNodeTypes** propery allows you to specify a certain node type that the index will only apply to.
 * The **reindex** flag which if set to **true**, will trigger a full content reindex.
 
 ### The Ordered Index {#the-ordered-index}
 
-The Ordered index is an extension of the Property index. However, it has been deprecated. Indexes of this type need to be replaced with the Lucene Property index (see below).
+The Ordered index is an extension of the Property index. However, it has been deprecated. Indexes of this type need to be replaced with the [Lucene Property Index](#the-lucene-property-index).
 
 ### The Lucene Full Text Index {#the-lucene-full-text-index}
 
@@ -234,7 +236,7 @@ If you wish to use any out of the box analyzer, you can configure it following t
 
 #### Creating Analyzers via Composition {#creating-analyzers-via-composition}
 
-Analyzers can also be composed based on `Tokenizers`, `TokenFilters` and `CharFilters`. You can do this by specifying an analyzer and creating children nodes of its optional tokenizers and filters which will be applied in listed order. [](https://wiki.apache.org/solr/AnalyzersTokenizersTokenFilters#Specifying_an_Analyzer_in_the_schema)
+Analyzers can also be composed based on `Tokenizers`, `TokenFilters` and `CharFilters`. You can do this by specifying an analyzer and creating children nodes of its optional tokenizers and filters which will be applied in listed order. See also [https://wiki.apache.org/solr/AnalyzersTokenizersTokenFilters#Specifying_an_Analyzer_in_the_schema](https://wiki.apache.org/solr/AnalyzersTokenizersTokenFilters#Specifying_an_Analyzer_in_the_schema)
 
 Consider this node structure as an example:
 
@@ -321,7 +323,7 @@ You can configure the embedded Solr server by:
    >The Solr home directory (solr.home.path) configuration will look for a folder with the same name in the AEM installation folder.
 
 1. Open CRXDE and login as Admin.
-1. Add a node called **solrlndex** of type **oak:QueryIndexDefinition **under **oak:index** with the following properties:
+1. Add a node called **solrlndex** of type **oak:QueryIndexDefinition** under **oak:index** with the following properties:
 
     * **type:** `solr`(of type String)
     
