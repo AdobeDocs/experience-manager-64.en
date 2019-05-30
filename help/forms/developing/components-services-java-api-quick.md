@@ -62,7 +62,7 @@ The following Java example deploys a component that is based on a JAR file named
         * 16. wsdl4j.jar (required for SOAP mode) 
         * 17. xalan.jar (required for SOAP mode) 
         * 18. xbean.jar (required for SOAP mode) 
-        * 19. xercesImpl.jar (required for SOAP mode)  
+        * 19. xercesImpl.jar (required for SOAP mode)
         * The JBoss files must be kept in the jboss\client folder. You can copy the client folder to  
         * your local development environment and then include the 3 JBoss JAR files in your class path 
         * 
@@ -258,7 +258,7 @@ The following Java code example disables security from the example EncryptDocume
         * 18. xbean.jar (required for SOAP mode) 
         * 19. xercesImpl.jar (required for SOAP mode) 
 * 
-        * The JBoss files must be kept in the jboss\client folder. You can copy the client folder to  
+        * The JBoss files must be kept in the jboss\client folder. You can copy the client folder to 
         * your local development environment and then include the 3 JBoss JAR files in your class path 
         * 
         * These JAR files are located in the following path: 

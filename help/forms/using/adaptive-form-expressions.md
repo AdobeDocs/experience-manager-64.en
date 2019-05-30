@@ -275,9 +275,7 @@ Perform the following steps to create a custom pattern for a specific field type
 1. Navigate to CRXDE Lite on your authoring instance.
 1. Create a folder to maintain your custom patterns. Under the /apps directory, create a node of type sling:folder. For example, create a node with the name `customPatterns`. Under this node, create another node of type `nt:unstructed` and name it `textboxpatterns`. This node contains the various custom patterns that you want to add.
 1. Open the Properties tab of the node created. For example, open the Properties tab of `textboxpatterns`. Add the `guideComponentType` property to this node and set its value to *fd/af/components/formatter/guideTextBox*.  
-
-1. The value of this property varies depending on the field for which you want to define the patterns. For numeric field, the value of the `guideComponentType` property is *fd/af/components/formatter/guideNumericBox*. The value for the Datepicker field is *fd/af/components/formatter/guideDatepicker*.  
-   ``
+1. The value of this property varies depending on the field for which you want to define the patterns. For numeric field, the value of the `guideComponentType` property is *fd/af/components/formatter/guideNumericBox*. The value for the Datepicker field is *fd/af/components/formatter/guideDatepicker*.
 1. You can add a custom pattern by assigning a property to the `textboxpatterns` node. Add a property with a name (for example `pattern1`), and set its value to the pattern you want to add. For example, add a property `pattern1` with value Fax=text{99-999-9999999}. The pattern is available for all the Text Boxes that you use in Adaptive Forms.
 
    ![Creating custom patterns for fields in CrxDe](assets/creating-custom-patterns.png)

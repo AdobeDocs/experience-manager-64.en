@@ -249,19 +249,24 @@ To prepopulate a form with a flowable layout by using the Forms API (Java), perf
     * Create a Java `DocumentBuilder` object by calling the `DocumentBuilderFactory` object’s `newDocumentBuilder` method.
     * Call the `DocumentBuilder` object’s `newDocument` method to instantiate a `org.w3c.dom.Document` object.
     * Create the XML data source’s root element by invoking the `org.w3c.dom.Document` object’s `createElement` method. This creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the root element to the document by calling the `Document` object’s `appendChild` method, and pass the root element object as an argument. The following lines of code shows this application logic:
+  
       ` Element root = (Element)document.createElement("transaction");  document.appendChild(root);`
-    
+  
     * Create the XML data source’s header element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the header element to the root element by calling the `root` object’s `appendChild` method, and pass the header element object as an argument. The XML elements that are appended to the header element correspond to the static portion of the form. The following lines of code show this application logic:
+  
       ` Element header = (Element)document.createElement("header");  root.appendChild(header);`
-    
+  
     * Create a child element that belongs to the header element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the header element by calling the header element’s `appendChild` method, and pass the child element object as an argument. The following lines of code show this application logic:
+
       ` Element poNum= (Element)document.createElement("txtPONum");  poNum.appendChild(document.createTextNode("8745236985"));  header.appendChild(LastName);`
-    
+  
     * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding-data-subgroups).)
     * Create the XML data source’s detail element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the detail element to the root element by calling the `root` object’s `appendChild` method, and pass the detail element object as an argument. The XML elements that are appended to the detail element correspond to the dynamic portion of the form. The following lines of code show this application logic:
+
       ` Element detail = (Element)document.createElement("detail");  root.appendChild(detail);`
     
     * Create a child element that belongs to the detail element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the detail element by calling the detail element’s `appendChild` method, and pass the child element object as an argument. The following lines of code show this application logic:
+
       ` Element txtPartNum = (Element)document.createElement("txtPartNum");  txtPartNum.appendChild(document.createTextNode("00010-100"));  detail.appendChild(txtPartNum);`
     
     * Repeat the last sub-step for all XML elements to append to the detail element. To properly create the XML data source used to populate the purchase order form, you must append the following XML elements to the detail element: `txtDescription`, `numQty`, and `numUnitPrice`.
@@ -322,19 +327,24 @@ To prepopulate a form with a flowable layout by using the Forms API (web service
     * Create a Java `DocumentBuilder` object by calling the `DocumentBuilderFactory` object’s `newDocumentBuilder` method.
     * Call the `DocumentBuilder` object’s `newDocument` method to instantiate a `org.w3c.dom.Document` object.
     * Create the XML data source’s root element by invoking the `org.w3c.dom.Document` object’s `createElement` method. This creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the root element to the document by calling the `Document` object’s `appendChild` method, and pass the root element object as an argument. The following lines of code show this application logic:
+
       ` Element root = (Element)document.createElement("transaction");  document.appendChild(root);`
     
     * Create the XML data source’s header element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the header element to the root element by calling the `root` object’s `appendChild` method, and pass the header element object as an argument. The XML elements that are appended to the header element correspond to the static portion of the form. The following lines of code show this application logic:
+
       ` Element header = (Element)document.createElement("header");  root.appendChild(header);`
     
     * Create a child element that belongs to the header element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the header element by calling the header element’s `appendChild` method, and pass the child element object as an argument. The following lines of code shows this application logic:
+
       ` Element poNum= (Element)document.createElement("txtPONum");  poNum.appendChild(document.createTextNode("8745236985"));  header.appendChild(LastName);`
     
     * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding-data-subgroups).)
     * Create the XML data source’s detail element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the detail element to the root element by calling the `root` object’s `appendChild` method, and pass the detail element object as an argument. The XML elements that are appended to the detail element correspond to the dynamic portion of the form. The following lines of code shows this application logic:
+
       ` Element detail = (Element)document.createElement("detail");  root.appendChild(detail);`
     
     * Create a child element that belongs to the detail element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the detail element by calling the detail element’s `appendChild` method, and pass the child element object as an argument. The following lines of code shows this application logic:
+    
       ` Element txtPartNum = (Element)document.createElement("txtPartNum");  txtPartNum.appendChild(document.createTextNode("00010-100"));  detail.appendChild(txtPartNum);`
     
     * Repeat the last sub-step for all XML elements to append to the detail element. To properly create the XML data source used to populate the purchase order form, you must append the following XML elements to the detail element: `txtDescription`, `numQty`, and `numUnitPrice`.

@@ -1540,7 +1540,7 @@ Send a print stream to a network printer by using the Output API (Java):
         * The `com.adobe.idp.Document` object that represents the XML data source that contains form data to merge with the form design.
 
       This method returns an `OutputResult` object that contains the results of the operation. 
-    
+
     * Create a `com.adobe.idp.Document` object to send to the printer by invoking the `OutputResult` object ‘s `getGeneratedDoc` method. This method returns a `com.adobe.idp.Document` object.
 
 1. Send the print stream to a network printer
