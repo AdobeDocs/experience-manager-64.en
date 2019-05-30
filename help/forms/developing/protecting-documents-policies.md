@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 9b1d2bf3-f28c-41b2-9026-1f3311556422
 ---
 
-# Protecting Documents with Policies{#protecting-documents-with-policies}
+# Protecting Documents with Policies {#protecting-documents-with-policies}
 
 **About the Document Security Service**
 

@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: e747147e-e96d-43c7-87b3-55947eef81f5
 ---
 
-# Preparing AEM Forms for Backup{#preparing-aem-forms-for-backup}
+# Preparing AEM Forms for Backup {#preparing-aem-forms-for-backup}
 
 ## About the Backup and Restore Service {#about-the-backup-and-restore-service}
 
