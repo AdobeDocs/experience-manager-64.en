@@ -53,27 +53,18 @@ All the examples in this procedure use JBoss as the Application Server and imply
     1. Step text Remove the following properties and save the file:
 
         1. `sling.installer.dir`  
-        
-        1. `felix.cm.dir`  
-        
+        1. `felix.cm.dir` 
         1. `granite.product.version`  
-        
         1. `org.osgi.framework.system.packages`  
-        
         1. `osgi-core-packages`  
-        
         1. `osgi-compendium-services`  
-        
         1. `jre-*`  
-        
         1. `sling.run.mode.install.options`
 
 1. Remove the files and folders that are no longer necessary. The items you need to specifically remove are:
 
-    * The **launchpad/startup folder**. You can delete it by running the following command in the terminal: `rm -rf crx-quickstart/launchpad/startup`  
-    
-    * The **base.jar file**: `find crx-quickstart/launchpad -type f -name "org.apache.sling.launchpad.base.jar*" -exec rm -f {} \`  
-    
+    * The **launchpad/startup folder**. You can delete it by running the following command in the terminal: `rm -rf crx-quickstart/launchpad/startup` 
+    * The **base.jar file**: `find crx-quickstart/launchpad -type f -name "org.apache.sling.launchpad.base.jar*" -exec rm -f {} \` 
     * The **BootstrapCommandFile_timestamp.txt file**: `rm -f crx-quickstart/launchpad/felix/bundle0/BootstrapCommandFile_timestamp.txt`
 
 1. Copy the newly migrated segmentstore to its proper location:
@@ -100,7 +91,8 @@ All the examples in this procedure use JBoss as the Application Server and imply
 
 1. Edit the configuration files to make them ready for use. More specifically:
 
-    * Add the following line to **org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config**:  
+    * Add the following line to **org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config**: 
+    
       `customBlobStore=true`  
     
     * Then add the following lines to **org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.config**:

@@ -99,8 +99,9 @@ The alias contains all the parameters that an HSM or etoken requires. Perform th
     * **Credential Alias**: Specify a string used to identify the alias. This value is used as a property for some Digital Signatures operations, such as the Sign Signature Field operation. 
     * **DLL Path**: Specify the fully qualified path of your HSM or etoken client library on the server. For example, C:\Program Files\LunaSA\cryptoki.dll. In a clustered environment, this path must be identical for all servers in the cluster.
     * **HSM Pin**: Specify the password required to access the device key. 
-    * **HSM Slot Id**: Specify a slot identifier of type integer. The slot ID is set on a client-by-client basis. If you register a second machine to a different partition (for example, HSMPART2 on the same HSM device), then slot 1 is associated with the HSMPART2 partition for the client.** 
-      Note:** *While configuring Etoken, specify a numeric value for the HSM Slot Id field. A numeric value is required to get the Signatures operations working.* 
+    * **HSM Slot Id**: Specify a slot identifier of type integer. The slot ID is set on a client-by-client basis. If you register a second machine to a different partition (for example, HSMPART2 on the same HSM device), then slot 1 is associated with the HSMPART2 partition for the client.
+    
+    **Note:** *While configuring Etoken, specify a numeric value for the HSM Slot Id field. A numeric value is required to get the Signatures operations working.* 
     
     * **Certificate SHA1**: Specify SHA1 value (thumbprint) of the public key (.cer) file for the credential you are using. Ensure that there are no spaces used in the SHA1 value. If you are using a physical certificate, then it is not required.
     * **HSM Device Type**: Select the manufacturer of the HSM (Luna or other) or eToken device.

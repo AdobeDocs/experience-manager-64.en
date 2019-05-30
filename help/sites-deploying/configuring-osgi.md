@@ -29,8 +29,10 @@ Either method can be used though there are subtle differences, primarily in rela
 
 * [Adobe CQ Web console](#osgi-configuration-with-the-web-console)
 
-    * The Web Console is the standard interface for OSGi configuration. It provides a UI for editing the various properties, where possible values can be selected from predefined lists.  
+    * The Web Console is the standard interface for OSGi configuration. It provides a UI for editing the various properties, where possible values can be selected from predefined lists. 
+
       As such it is the easiest method to use.
+
     * Any configurations made with the Web Console are applied immediately and applicable to the current instance, irrespective of the current run mode, or any subsequent changes to the run mode.
 
 * [configuration files](#osgi-configuration-with-configuration-files)
@@ -42,7 +44,6 @@ Either method can be used though there are subtle differences, primarily in rela
 
     * This requires manual configuration using CRXDE Lite.
     * Due to the naming conventions of the `sling:OsgiConfig` nodes, you can tie the configuration to a specific [run mode](/help/sites-deploying/configure-runmodes.md). You can even save configurations for more than one run mode in the same repository.
-    
     * Any appropriate configurations are applied immediately (dependent on the run mode).
 
 Whichever method you use, all of these configuration methods:
@@ -64,7 +65,7 @@ Any changes made are immediately applied to the relevant OSGi configuration, no 
 
 >[!NOTE]
 >
->Changes made in the web console are saved in the respository as [configuration files](#osgi-configuration-with-configuration-files). These can be included in content packages for re-use in further installations.
+>Changes made in the web console are saved in the repository as [configuration files](#osgi-configuration-with-configuration-files). These can be included in content packages for re-use in further installations.
 
 >[!NOTE]
 >
@@ -76,18 +77,19 @@ To update a configuration with the web console:
 
 1. Access the **Configuration** tab of the Web Console by either:
 
-    * Opening the web console from the link on the **Tool -&gt; Operations** menu. After logging into the console you can use the drop-down menu of:  
+    * Opening the web console from the link on the **Tool -&gt; Operations** menu. After logging into the console you can use the drop-down menu of: 
+
       **OSGi &gt;**
-    
-    * The direct URL; for example:  
+  
+    * The direct URL; for example: 
+
       `http://localhost:4502/system/console/configMgr`
 
    A list will be shown.
 
 1. Select the bundle that you want to configure by either:
 
-    * clicking on the **Edit** icon for that bundle  
-    
+    * clicking on the **Edit** icon for that bundle 
     * clicking on the **Name** of the bundle
 
 1. A dialog will open. Here you can edit as required; for example, set the **Log Level** to `INFO`:
@@ -173,8 +175,10 @@ As the same configuration parameter can be located in several places, the system
 
 To add a new configuration to the repository you need to know the following:
 
-1. The **Persistent Identity** (PID) of the service.  
-   Reference the **Configurations** field in the Web console. The name is shown in brackets after the bundle name (or in the **Configuration Information** towards the bottom of the page).  
+1. The **Persistent Identity** (PID) of the service. 
+
+   Reference the **Configurations** field in the Web console. The name is shown in brackets after the bundle name (or in the **Configuration Information** towards the bottom of the page). 
+
    For example, create a node `com.day.cq.wcm.core.impl.VersionManagerImpl.` to configure **AEM WCM Version Manager**. 
 
    ![](assets/chlimage_1-141.png)
@@ -187,14 +191,19 @@ To add a new configuration to the repository you need to know the following:
     * `config.<*run-mode*>` - as appropriate
 
 1. Whether a **Configuration** or **Factory Configuration** is necessary.
-1. The individual parameters to be configured; including any existing parameter definitions that will need to be recreated.  
-   Reference the individual parameter field in the Web console. The name is shown in brackets for each parameter.  
-   For example, create a property `versionmanager.createVersionOnActivation` to configure **Create Version on Activation**.
+1. The individual parameters to be configured; including any existing parameter definitions that will need to be recreated.
+
+   Reference the individual parameter field in the Web console. The name is shown in brackets for each parameter. 
+
+   For example, create a property 
+   `versionmanager.createVersionOnActivation` to configure **Create Version on Activation**.
 
    ![](assets/chlimage_1-142.png)
 
 1. Does a configuration already exist in `/libs`? To list all configurations in your instance, use the **Query** tool in CRXDE Lite to submit the following SQL query:  
+
    `select * from sling:OsgiConfig`  
+
    If so, this configuration can be copied to ` /apps/<*yourProject*>/`, then customized in the new location.
 
 #### Creating the Configuration in the Repository {#creating-the-configuration-in-the-repository}
@@ -213,8 +222,8 @@ To actually add the new configuration to the repository:
 1. Under this folder create a node:
 
     * Type: `sling:OsgiConfig`  
-    
     * Name: the persistent identity (PID);  
+    
       for example for AEM WCM Version Manager use `com.day.cq.wcm.core.impl.VersionManagerImpl`
 
    >[!NOTE]
@@ -229,9 +238,8 @@ To actually add the new configuration to the repository:
 
 1. For each parameter that you want to configure, create a property on this node:
 
-    * Name: the parameter name as shown in the Web console; the name is shown in brackets at the end of the field description. For example, for `Create Version on Activation` use `versionmanager.createVersionOnActivation`  
-    
-    * Type: as appropriate.  
+    * Name: the parameter name as shown in the Web console; the name is shown in brackets at the end of the field description. For example, for `Create Version on Activation` use `versionmanager.createVersionOnActivation` 
+    * Type: as appropriate. 
     * Value: as required.
 
    You only need to create properties for the parameters that you want to configure, others will still take the default values as set by AEM.
@@ -295,13 +303,16 @@ The configuration with the highest number of matching run modes will be effectiv
 
 The following list shows a small selection of the configurations available (in a standard installation) in the repository:
 
-* Author - AEM WCM Filter:  
+* Author - AEM WCM Filter: 
+
   `libs/wcm/core/config.author/com.day.cq.wcm.core.WCMRequestFilter`
 
-* Publish - AEM WCM Filter:  
+* Publish - AEM WCM Filter: 
+
   `libs/wcm/core/config.publish/com.day.cq.wcm.core.WCMRequestFilter`
 
-* Publish - AEM WCM Page Statistics:  
+* Publish - AEM WCM Page Statistics: 
+
   `libs/wcm/core/config.publish/com.day.cq.wcm.core.stats.PageViewStatistics`
 
 >[!NOTE]
@@ -314,16 +325,20 @@ To list all configuration nodes in your instance, use the **Query** functionalit
 
 ### Configuration Persistence {#configuration-persistence}
 
-* If you change a configuration through the Web console, it is (usually) written into the repository at:  
-  `/apps/{*somewhere*}`  
-  ``
+* If you change a configuration through the Web console, it is (usually) written into the repository at: 
 
-    * By default `{*somewhere*}` is `system/config` so the configuration is written to  
-      `/apps/system/config`  
+  `/apps/{*somewhere*}` 
+
+    * By default `{*somewhere*}` is `system/config` so the configuration is written to 
+
+      `/apps/system/config` 
     
-    * However, if you are editing a configuration which initially came from elsewhere in the repository: for example:  
-      /libs/foo/config/someconfig  
-      Then the updated configuration is written under the original location; for example:  
+    * However, if you are editing a configuration which initially came from elsewhere in the repository: for example: 
+
+      /libs/foo/config/someconfig 
+
+      Then the updated configuration is written under the original location; for example: 
+
       `/apps/foo/config/someconfig`
 
 * Settings that are changed by `admin` are saved in `*.config` files under:
@@ -332,15 +347,16 @@ To list all configuration nodes in your instance, use the **Query** functionalit
      /crx-quickstart/launchpad/config
   ```
 
-    * This is the private data area of the OSGi configuration admin and holds all configuration details specified by `admin`, regardless how they entered the system.  
-    
+    * This is the private data area of the OSGi configuration admin and holds all configuration details specified by `admin`, regardless how they entered the system.
     * This is an implementation detail and you must never edit this directory directly.
     * However, it is useful to know the location of these configuration files so that copies can be taken for backup and/or multiple installation:
 
-        * Apache Felix OSGi Management Console  
+        * Apache Felix OSGi Management Console 
+
           `../crx/org/apache/felix/webconsole/internal/servlet/OsgiManager.config`
         
-        * CRX Sling Client Repository  
+        * CRX Sling Client Repository 
+
           `../com/day/crx/sling/client/impl/CRXSlingClientRepository/<*pid-nr*>.config`
 
 >[!CAUTION]

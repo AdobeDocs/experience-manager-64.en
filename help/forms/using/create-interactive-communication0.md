@@ -49,9 +49,7 @@ The following is the list of resources that have already been created in this tu
 1. In the **Channels** wizard:
 
     1. Specify **create_first_ic_print_template** as the Print template and tap **Select**. Ensure that the **Use Print as Master for Web Channel** checkbox is not selected.
-    
     1. Specify **Create_First_IC_templates** folder &gt; **Create_First_IC_Web_Template** as the Web template and tap **Select**.
-    
     1. Tap **Create**.
 
    A confirmation message is displayed that the Interactive Communication has been created successfully.
@@ -74,13 +72,9 @@ The following is the list of resources that have already been created in this tu
 
     1. Specify a name for the chart.
     1. Select **Pie** from the **Chart Type **drop-down list.
-    
     1. Select the **calltype** property from the **calls** data model object type in the **X-axis** section. Tap ![](assets/done_icon.png).
-    
     1. Select **Frequency** from the **Function** drop-down list.
-    
     1. Select the **calltype** property from the **calls** data model object type in the **Y-axis** section. Tap ![](assets/done_icon.png).
-    
     1. Tap ![](assets/done_icon.png) to save the chart properties.
 
 1. Go to the **Assets** tab and apply the filter to display only the layout fragments in the left pane. Drag-and-drop the **table_lf** layout fragment to the **Itemised Calls** target area.
@@ -93,9 +87,7 @@ The following is the list of resources that have already been created in this tu
 1. Tap the Image component and select ![](assets/configure_icon.png) (Configure). The image properties display in the left pane:
 
     1. Specify **PayNow** as the name of the image in the **Name** field.
-    
     1. Tap **Upload**, select the image saved on the local file system, and tap **Open**.
-    
     1. Tap ![](assets/done_icon.png) to save the image properties.
 
 1. Repeat steps 13 and 14 to add **ValueAddedServices** image to the **ValueAddedServices** target area.
@@ -118,9 +110,7 @@ The following is the list of resources that have already been created in this tu
 1. In the **Channels** wizard:
 
     1. Specify **create_first_ic_print_template** as the Print template and tap **Select**. Ensure that the **Use Print as Master for Web Channel** checkbox is not selected.
-    
     1. Specify **Create_First_IC_templates** folder &gt; **Create_First_IC_Web_Template** as the Web template and tap **Select**.
-    
     1. Tap **Create**.
 
    A confirmation message is displayed that the Interactive Communication has been created successfully.
@@ -142,13 +132,9 @@ The following is the list of resources that have already been created in this tu
 
     1. Specify a name for the chart.
     1. Select **Pie** from the **Chart Type **drop-down list.
-    
     1. Select the **calltype** property from the **calls** data model object type in the **X-axis** section. Tap ![](assets/done_icon.png).
-    
     1. Select **Frequency** from the **Function** drop-down list.
-    
     1. Select the **calltype** property from the **calls** data model object type in the **Y-axis** section. Tap ![](assets/done_icon.png).
-    
     1. Tap ![](assets/done_icon.png) to save the chart properties.
 
 1. Select the **Data Sources** tab from the left pane and drag-and-drop the **calls** data model object to the **Itemised Calls** target area. All properties in the **calls** data model object are displayed as table columns in the** Itemised Calls** target area in the right pane.
@@ -162,13 +148,11 @@ The following is the list of resources that have already been created in this tu
 1. Based on the use case, insert a **Pay Now** button in the Interactive Communication that provides the user an option to make the payment by clicking the button. Execute the following steps to insert the button:
 
     1. Tap **Pay Now** target area, and tap **+** to add a **Text** component. 
-    
     1. Tap the text component and tap ![](assets/edit.png) (Edit).
     1. Rename the text to **Pay Now**.
     1. Select the text and tap the Hyperlink icon.
     1. Specify the payment URL in the **Path** field.
     1. Select **New Tab** from **Target** drop-down list.
-    
     1. Tap ![](assets/done_icon.png) to save the hyperlink properties.
 
 1. Select **Style** from the drop-down list next to the **Preview** option.
@@ -179,7 +163,6 @@ The following is the list of resources that have already been created in this tu
 
     1. Tap the text component and select ![](assets/edit.png) (Edit).
     1. In the **Border** section, specify **1.5px** as **Border Width**, select **Solid** as **Border Style**, and specify **46px** as **Border Radius**.
-    
     1. Select Red as the background color for the button from the **Background** section.
     1. In the **Margin** field for **Dimensions & Position** section, tap the **Edit simultaneously** icon, and set the **Right** margin as **450px**. The Top, Bottom, and Left fields are set as blank.
 
@@ -189,9 +172,7 @@ The following is the list of resources that have already been created in this tu
 1. Tap the Image component and select ![](assets/configure_icon.png) (Configure). The image properties display in the left pane:
 
     1. Specify **PayNow** as the name of the image in the **Name** field.
-    
     1. Tap **Upload**, select the **PayNowWeb** image saved on the local file system, and tap **Open**.
-    
     1. Tap ![](assets/done_icon.png) to save the image properties.
 
 1. Based on the use case, insert a **Subscribe** button in the Interactive Communication that provides the user an option to subscribe to the value added services by clicking the button.
@@ -210,10 +191,8 @@ Execute the following steps to derive the Web channel content using Print channe
 1. In the **Channels** wizard:
 
     1. Specify **create_first_ic_print_template** as the Print template and tap **Select**. 
-    
     1. Select the **Use Print as Master for Web Channel** checkbox.
     1. Specify **Create_First_IC_templates** folder &gt; **Create_First_IC_Web_Template** as the Web template and tap **Select**.
-    
     1. Tap **Create**.
 
    A confirmation message is displayed that the Interactive Communication has been created successfully.

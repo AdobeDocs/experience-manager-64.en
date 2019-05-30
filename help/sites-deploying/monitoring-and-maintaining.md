@@ -187,41 +187,51 @@ Various log files are held on the file server where you installed AEM:
 
 * `<*cq-installation-dir*>/crx-quickstart/logs`
 
-    * `access.log`  
+    * `access.log`
+
       All access requests to AEM WCM and the repository are registered here.
     
-    * `audit.log`  
+    * `audit.log` 
+
       Moderation actions are registered here.
     
-    * `error.log`  
+    * `error.log` 
+
       Error messages (of varying levels of severity) are registered here.
     
-    * [ `ImageServer-<PortId>-yyyy>-<mm>-<dd>.log`](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_image_server_log.html)  
+    * [ `ImageServer-<PortId>-yyyy>-<mm>-<dd>.log`](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_image_server_log.html) 
+
       This log is only used if dynamic media is enabled. It provides statistics and analytical information used for analyzing behavior of the internal ImageServer process. 
     
-    * `request.log`  
+    * `request.log` 
+
       Each access request is registered here together with the response.
     
-    * [ `s7access-<yyyy>-<mm>-<dd>.log`](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_Access_Log.html)  
+    * [ `s7access-<yyyy>-<mm>-<dd>.log`](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_Access_Log.html) 
+
       This log is only used if dynamic media is enabled. The s7access log records each request made to Dynamic Media through `/is/image` and `/is/content`.
     
-    * `stderr.log`  
-      Holds error messages, again of varying levels of severity, generated during startup. By default the log level is set to `Warning` ( `WARN`)  
+    * `stderr.log` 
+
+      Holds error messages, again of varying levels of severity, generated during startup. By default the log level is set to `Warning` ( `WARN`) 
     
-    * `stdout.log`  
+    * `stdout.log` 
+
       Holds logging messages indicating events during startup.
     
-    * `upgrade.log`  
+    * `upgrade.log` 
+
       Provides a log of all upgrade operations that runs from the `com.day.compat.codeupgrade` and `com.adobe.cq.upgradesexecutor` packages.
 
-* `<*cq-installation-dir*>/crx-quickstart/repository`
+* `<cq-installation-dir>/crx-quickstart/repository`
 
-    * `revision.log`  
+    * `revision.log` 
+
       Revision journaling information.
 
 >[!NOTE]
 >
->The ImageServer and s7access logs are not included in the **Download Full **package that is generated from the **system/console/status-Bundlelist **page. For support purposes, if you have Dynamic Media issues, please also append the ImageServer and s7access logs when you contact Customer Support.
+>The ImageServer and s7access logs are not included in the **Download Full** package that is generated from the **system/console/status-Bundlelist **page. For support purposes, if you have Dynamic Media issues, please also append the ImageServer and s7access logs when you contact Customer Support.
 
 ### Activating the DEBUG Log Level {#activating-the-debug-log-level}
 
@@ -258,8 +268,11 @@ In certain circumstances you may want to create a custom log file with a differe
 1. If not already existing, create a new configuration folder ( `sling:Folder`) for your project `/apps/<*project-name*>/config`.
 1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](/help/sites-deploying/osgi-configuration-settings.md#osgi-configuration-settings):
 
-    * Name: `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>` (as this is a Logger)  
-      Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.config-MINE`  
+    * Name:
+    
+    `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>` (as this is a Logger) 
+
+      Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.config-MINE` 
     
     * Type: `sling:OsgiConfig`
 
@@ -269,41 +282,49 @@ In certain circumstances you may want to create a custom log file with a differe
 
 1. Set the following properties on this node:
 
-    * Name: `org.apache.sling.commons.log.file`  
+    * Name: `org.apache.sling.commons.log.file` 
+
       Type: String  
+
       Value: specify the Log File; for example, `logs/myLogFile.log`
 
     * Name: `org.apache.sling.commons.log.names`  
+
       Type: String[] (String + Multi)  
+
       Value: specify the OSGi services for which the Logger is to log messages; for example, all of the following:
 
         * `org.apache.sling`
         * `org.apache.felix`
         * 
         
-          ```        
+        ```        
           com.day
           
-          ```
+        ```
 
     * Name: `org.apache.sling.commons.log.level`  
+
       Type: String  
-      Value: specify the log level required ( `debug`, `info`, `warn` or `error`); for example `debug`  
+
+      Value: specify the log level required ( `debug`, `info`, `warn` or `error`); for example `debug` 
     
     * Configure the other parameters as required:
 
-        * Name: `org.apache.sling.commons.log.pattern`  
+        * Name: `org.apache.sling.commons.log.pattern` 
+
           Type: `String`  
+
           Value: specify the pattern of the log message as required; for example,  
+
           `{0,date,dd.MM.yyyy HH:mm:ss.SSS} *{4}* [{2}] {3} {5}`
 
    >[!NOTE]
    >
-   >`org.apache.sling.commons.log.pattern` supports up to six arguments.  
-
+   >`org.apache.sling.commons.log.pattern` supports up to six arguments. 
    >
-   >{0} The timestamp of type `java.util.Date`  
-   >{1} the log marker  
+   >{0} The timestamp of type `java.util.Date` 
+   >{1} the log marker
    >{2} the name of the current thread  
    >{3} the name of the logger  
    >{4} the log level  
@@ -350,7 +371,8 @@ In certain circumstances you may want to create a custom log file with a differe
 
    Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](/help/sites-deploying/osgi-configuration-settings.md#osgi-configuration-settings):
 
-    * Name: `org.apache.sling.commons.log.LogManager.factory.writer-<*identifier*>` (as this is a Writer)  
+    * Name: `org.apache.sling.commons.log.LogManager.factory.writer-<*identifier*>` (as this is a Writer) 
+
       As with the Logger, `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.writer-MINE`
     
     * Type: `sling:OsgiConfig`
@@ -362,18 +384,25 @@ In certain circumstances you may want to create a custom log file with a differe
    Set the following properties on this node:
 
     * Name: `org.apache.sling.commons.log.file`   
+
       Type: `String`  
+
       Value: specify the Log File so that it matches the file specified in the Logger;   
+
       for this example, `../logs/myLogFile.log`.  
     
     * Configure the other parameters as required:
 
         * Name: `org.apache.sling.commons.log.file.number`  
+
           Type: `Long`  
+
           Value: specify the number of log files you want kept; for example, `5`  
         
         * Name: `org.apache.sling.commons.log.file.size`  
+
           Type: `String`  
+
           Value: specify as required to control file rotation by size/date; for example, `'.'yyyy-MM-dd`
 
    >[!NOTE]
@@ -469,7 +498,6 @@ To monitor a replication agent:
     * See whether the replication queue is currently active (enabled).
     * See whether there are any items in the queue.
     * **Refresh** or **Clear** to update the display of queue entries; this helps you see items enter and leave the queue.
-    
     * **View Log** to access the log of any actions by the replication agent.
     * **Test Connection** to the target instance.
     * **Force Retry** on any queue items if required.

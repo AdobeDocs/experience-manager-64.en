@@ -79,19 +79,25 @@ To follow this example and use the default replication agents you need to [Insta
 
 ### Replication (Author to Publish) {#replication-author-to-publish}
 
-1. Navigate to the support page on the author environment.  
+1. Navigate to the support page on the author environment.
+
    `http://localhost:4502/content/geometrixx/en/support.html` 
+
 1. Edit the page to add some new text.
 1. **Activate Page** to publish the changes.
-1. Open the support page on the publish environment:  
+1. Open the support page on the publish environment: 
+
    `http://localhost:4503/content/geometrixx/en/support.html`
+
 1. You can now see the changes that you entered on author.
 
 This replication is actioned from the author environment by the:
 
 * **Default Agent (publish)** 
-  This agent replicates content to the default publish instance.  
-  Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or:  
+  This agent replicates content to the default publish instance.
+
+  Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or: 
+
   `http://localhost:4502/etc/replication/agents.author/publish.html`.
 
 ### Replication Agents - Out of the Box {#replication-agents-out-of-the-box}
@@ -275,15 +281,15 @@ The following settings are only needed if a proxy is needed:
 
   These are used, as appropriate, to indicate the action to be used when flushing the handle or path. The sub-parameters are dynamic:
 
-    * `{action}` indicates a replication action  
-    
+    * `{action}` indicates a replication action 
     * `{path}` indicates a path
 
   They are substituted by the path/action relevant to the request and therefore do not need to be "hardcoded":
 
   >[!NOTE]
   >
-  >If you have installed AEM in a context other than the recommended default context, then you will need to register the context in the HTTP Headers. For example:  
+  >If you have installed AEM in a context other than the recommended default context, then you will need to register the context in the HTTP Headers. For example: 
+  >
   >`CQ-Handle:/<*yourContext*>{path}`
 
 * **Close Connection**
@@ -415,12 +421,12 @@ To configure replication of content for an additional publish instance you need 
         * Activate **Enabled**.
         * Enter a **Description**.
         * Set the **Retry Delay** to `60000`.
-        
         * Leave the **Serialization Type** as `Default`.
 
     * In the **Transport** tab:
 
-        * Enter the required URI for the new publish instance; for example,  
+        * Enter the required URI for the new publish instance; for example, 
+
           `http://localhost:4504/bin/receive`.
         
         * Enter the site-specific user account used for replication.
@@ -458,12 +464,12 @@ Default agents are included with the installation. However, certain configuratio
         * Activate **Enabled**.
         * Enter a **Description**.
         * Leave the **Serialization Type** as `Dispatcher Flush`, or set it as such if creating a new agent.
-        
         * (optional) Select **Alias update** to enable alias or vanity path invalidation requests to Dispatcher.
 
     * In the **Transport** tab:
 
-        * Enter the required URI for the new publish instance; for example,  
+        * Enter the required URI for the new publish instance; for example, 
+
           `http://localhost:80/dispatcher/invalidate.cache`.
         
         * Enter the site-specific user account used for replication.
@@ -523,7 +529,6 @@ To monitor a replication agent:
     * See whether the replication queue is currently active (enabled).
     * See whether there are any items in the queue.
     * **Refresh** or **Clear** to update the display of queue entries; this helps you see items enter and leave the queue.
-    
     * **View Log** to access the log of any actions by the replication agent.
     * **Test Connection** to the target instance.
     * **Force Retry** on any queue items if required.
@@ -532,9 +537,9 @@ To monitor a replication agent:
    >
    >Do not use the "Test Connection" link for the Reverse Replication Outbox on a publish instance.
    >
-   >If a replication test is performed for an Outbox queue, any items that are older than the test replication will be re-processed with every reverse replication.  
+   >If a replication test is performed for an Outbox queue, any items that are older than the test replication will be re-processed with every reverse replication. 
    >
-   >If such items already exist in a queue, they can be found with the following XPath JCR query and should be removed.  
+   >If such items already exist in a queue, they can be found with the following XPath JCR query and should be removed. 
    >
    >`/jcr:root/var/replication/outbox//*[@cq:repActionType='TEST']`
 

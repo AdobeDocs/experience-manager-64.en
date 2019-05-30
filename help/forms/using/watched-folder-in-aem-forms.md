@@ -18,7 +18,8 @@ An administrator can configure a network folder, known as a Watched Folder, so t
 
 You can use one of the following methods to create a Watched Folder on the file system:
 
-* While configuring the properties of a Watched Folder configuration node, type the full path of the parent directory in the folderPath property and append the name of the Watched Folder to be created, as shown in the following example: `C:/MyPDFs/MyWatchedFolder`  
+* While configuring the properties of a Watched Folder configuration node, type the full path of the parent directory in the folderPath property and append the name of the Watched Folder to be created, as shown in the following example: `C:/MyPDFs/MyWatchedFolder` 
+
   The `MyWatchedFolder`folder does not exist, AEM Forms attempts to create the folder at the specified path.
 
 * Create a folder on the file system prior to configuring a Watched Folder endpoint, and then provide the full path in the folderPath property. For detailed information about the folderPath property, see [Watched Folder properties](/help/forms/using/watched-folder-in-aem-forms.md#main-pars-header-1).
@@ -86,7 +87,8 @@ You can configure the following properties for a Watched Folder.
 * **deleteExpiredStageFileOnlyWhenThrottled (Boolean, default true):** Whether the expiration mechanism should activate only when the watch-folder is throttled. The mechanism is more relevant for throttled watch-folders since a small number of files which are lingering around in an unprocessed state (owing to intermittent job/workflow misfires) have the potential to choke processing for the entire batch when throttling is enabled. If this property is kept as true (the default), the expiration mechanism will not activate for watch-folders which are not throttled. If the property is kept as false, the mechanism will always activate as long as the stageFileExpirationDuration property is a positive number.  
 
 * **pollInterval (Long)**: The interval in seconds for scanning the Watched Folder for input. Unless the Throttle setting is enabled, poll Interval should be longer than the time to process an average job; otherwise, the system may become overloaded. The default value is 5. See the description for Batch Size for additional information. The value of the pollinterval must be greater than or equal to one.
-* **excludeFilePattern (String)**: A semi-colon (;) delimited list of patterns that a Watched Folder uses to determine which files and folders to scan and pick up. Any file or folder with this pattern is not scanned for processing. This setting is useful when the input is a folder with multiple files. The contents of the folder can be copied into a folder with a name that are picked up by the Watched Folder. This prevents the Watched Folder from picking up a folder for processing before the folder is completely copied into the input folder. The default value is null.   
+* **excludeFilePattern (String)**: A semi-colon (;) delimited list of patterns that a Watched Folder uses to determine which files and folders to scan and pick up. Any file or folder with this pattern is not scanned for processing. This setting is useful when the input is a folder with multiple files. The contents of the folder can be copied into a folder with a name that are picked up by the Watched Folder. This prevents the Watched Folder from picking up a folder for processing before the folder is completely copied into the input folder. The default value is null.  
+
   You can use [file patterns](/help/forms/using/watched-folder-in-aem-forms.md#p-file-and-folder-patterns-p) to exclude:
 
     * Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast; 
@@ -164,8 +166,7 @@ For more information about file patterns, see [About file patterns](/help/forms/
 * **enabled (Boolean)**: Deactivates and activates scanning for a Watched Folder. Set enabled to true, to start scanning the Watched Folder. The default value is true.
 * **payloadMapperFilter:**When a folder is configured as watched folder, a folder structure is created within the watched folder. The structure has folders to provide inputs, receive outputs (results), save data for failures, preserve data for long-lived processes, and save data for various stages. The folder structure of a Watched Folder can serve as a payload of Forms-centric workflows. A payload mapper allows you to define structure of a payload which uses a Watched Folder for input, output, and processing. For example, if you use the default mapper, it maps content of Watched Folder with [payload]\input and [payload]\output folder. Two out-of-the-box payload mapper implementations are available. If you do not have [a custom implementation](/help/forms/using/watched-folder-in-aem-forms.md#creating-a-custom-payload-mapper-filter), use one of out-of-the-box implementation:
 
-    * **Default mapper:** Use the default payload mapper to keep input and output contents of the watched folders in separate input and output folders in the payload. Also, in payload path of a workflow, use [payload]/input/ and [payload]/output paths to retrive and save content.  
-    
+    * **Default mapper:** Use the default payload mapper to keep input and output contents of the watched folders in separate input and output folders in the payload. Also, in payload path of a workflow, use [payload]/input/ and [payload]/output paths to retrive and save content. 
     * **Simple File-based payload mapper:** Use the Simple File-based payload mapper to keep input and output contents directly in the payload folder. It does not create any extra hierarchy, like default mapper.
 
 ### Custom configuration parameters {#custom-configuration-parameters}
@@ -218,11 +219,8 @@ context. The ProcessorContext has the following APIs:
 
 * **getWatchFolderId**: Returns the ID of the Watched Folder.
 * **getInputMap**: Returns a map of type Map. The keys of the map are the filename of input file and a document object containing the contents of the file. Use the getinputMap API to read the input files.
-* **getConfigParameters**: Returns an immutable map of type Map. The map contains  
-  the configuration parameters of a Watched Folder.
-
-* **setResult**: The ContentProcessor implementation  
-  uses the API to write the output document to the result folder. You can provide a name for the output file to the setResult API. The API might chooses to use or ignore the provided file depending upon the output folder/file pattern specified. If a folder pattern is specified, then the output files have names as described in workflows. If a file pattern is specified, the output files have names as described in file pattern.
+* **getConfigParameters**: Returns an immutable map of type Map. The map contains the configuration parameters of a Watched Folder.
+* **setResult**: The ContentProcessor implementation uses the API to write the output document to the result folder. You can provide a name for the output file to the setResult API. The API might chooses to use or ignore the provided file depending upon the output folder/file pattern specified. If a folder pattern is specified, then the output files have names as described in workflows. If a file pattern is specified, the output files have names as described in file pattern.
 
 For example, the following code is a custom implementation of the ContentProcessor interface with a custom foo=bar property.
 
@@ -298,8 +296,10 @@ Now, you can use configured custom location to save the scripts.
 Workflows enable you to automate Experience Manager activities. Workflows consist of a series of steps that are executed in a specific order. Each step performs a distinct activity such as activating a page or sending an email message. Workflows can interact with assets in the repository, user accounts, and Experience Manager services. Therefore, workflows can coordinate complicated.
 
 * Before creating a Workflow, consider the following points:
-* The output of a step must be available to all the subsequent steps.   
+* The output of a step must be available to all the subsequent steps.  
+
   The steps must be able to update (or even delete) existing outputs generated by the previous steps.
+
 * The mutable variables are used to flow the custom dynamic data between the steps.
 
 Perform the following steps to process files using workflows:
@@ -634,7 +634,8 @@ The ECMAScript would use PDF Generator’s createPDF API to convert Microsoft Wo
 
 ### Create a Workflow {#create-a-workflow}
 
-1. Open AEM Workflow UI in a browser window.   
+1. Open AEM Workflow UI in a browser window.  
+
    https://[servername]:[port]/worklow  
 
 1. In the Models view, click **New**. In the New Workflow dialog, specify **Title**, and click **OK**.
@@ -663,9 +664,10 @@ The ECMAScript would use PDF Generator’s createPDF API to convert Microsoft Wo
 
 1. Add the following properties to the node:
 
-    * folderPath (String): The path of the folder to be scanned at a defined time-intervals. The folder must be at a shared location with all servers having full access to the server.  
-      inputProcessorType (String): The type of the process to start. In this tutorial, specify workflow.  
-    
+    * folderPath (String): The path of the folder to be scanned at a defined time-intervals. The folder must be at a shared location with all servers having full access to the server. 
+
+    * inputProcessorType (String): The type of the process to start. In this tutorial, specify workflow. 
+
     * inputProcessorId (String): The behavior of the inputProcessorId property is based on the value specified for the inputProcessorType property. In this example, the value of the inputProcessorType property is workflow. So, for the inputProcessorId property specify the following path of the PDFG workflow: /etc/workflow/models/pdfg/jcr:content/model
 
     * outputFilePattern (String): Pattern of the output file. You can specify a folder or file pattern. If a folder pattern is specified, then the output files have names as described in workflows. If a file pattern is specified, the output files have names as described in file pattern.
@@ -744,11 +746,10 @@ The ECMAScript would use PDF Generator’s createPDF API to convert Microsoft Wo
 
 1. Add the following properties to the node:
 
-    * **folderPath (String)**: The path of the folder to be scanned at a defined time-intervals. The folder must be at a shared location with all servers having full access to the server.  
-    
-    * **inputProcessorType (String)**: The type of the process to start. In this tutorial, specify workflow.  
-    
+    * **folderPath (String)**: The path of the folder to be scanned at a defined time-intervals. The folder must be at a shared location with all servers having full access to the server. 
+    * **inputProcessorType (String)**: The type of the process to start. In this tutorial, specify workflow. 
     * **inputProcessorId (String)**: The behavior of the inputProcessorId property is based on the value specified for the inputProcessorType property. In this example, the value of the inputProcessorType property is workflow. So, for the inputProcessorId property specify the following path of the PDFG workflow:  
+    
       `/etc/workflow/models/cmb/jcr:content/model`
 
     * **outputFilePattern (String)**: Pattern of the output file. You can specify a folder or file pattern. If a folder pattern is specified, then the output files have names as described in workflows. If a file pattern is specified, the output files have names as described in file pattern.
