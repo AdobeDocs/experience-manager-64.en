@@ -77,15 +77,15 @@ You can edit the following Dynamic Media settings by clicking **[!UICONTROL Edit
 >
 >By default, the Dynamic Media image component is adaptive. If you want to make it a fixed size, set it in the component in the **[!UICONTROL Advanced]** tab with the **[!UICONTROL Width]** and **[!UICONTROL Height]** properties.
 
-**[!UICONTROL Viewer preset]** &ndash; Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See [Managing Viewer Presets](help/assets/managing-viewer-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
+**[!UICONTROL Viewer preset]** &ndash; Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See [Managing Viewer Presets](/help/assets/managing-viewer-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
 
 This is the only option available if you are viewing image sets, spin sets, or mixed media sets. The viewer presets displayed are also smart &ndash; only relevant viewer presets appear.
 
-**[!UICONTROL Image preset]** &ndash; Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See [Managing Image Presets](help/assets/managing-image-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
+**[!UICONTROL Image preset]** &ndash; Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See [Managing Image Presets](/help/assets/managing-image-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-**[!UICONTROL Image Modifiers]** &ndash; You can change image effects by supplying additional image commands. These are described in [Managing Image Presets](help/assets/managing-viewer-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
+**[!UICONTROL Image Modifiers]** &ndash; You can change image effects by supplying additional image commands. These are described in [Managing Image Presets](/help/assets/managing-viewer-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
