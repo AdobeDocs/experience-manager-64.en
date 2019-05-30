@@ -100,7 +100,7 @@ Create a PDF document with submitted XML data by using the Forms, Output, and Do
         * A `RenderOptionsSpec` object that stores run-time options.
 
       The `processFormSubmission` method returns a `FormsResult` object containing the results of the form submission.
-    
+
     * Determine whether the Forms service is finished processing the form data by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `0`, the data is ready to be processed.
     * Retrieve form data by creating a `com.adobe.idp.Document` object by invoking the `FormsResult` object’s `getOutputContent` method. (This object contains form data that can be sent to the Output service.)
     * Create a `java.io.InputStream` object by invoking the `java.io.DataInputStream` constructor and passing the `com.adobe.idp.Document` object.

@@ -217,7 +217,7 @@ Handle a submitted form by using the Forms API (Java):
         * A `RenderOptionsSpec` object that stores run-time options.
 
       The `processFormSubmission` method returns a `FormsResult` object containing the results of the form submission.
-    
+
     * Determine whether the Forms service is finished processing the form data by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `0`, the data is ready to be processed.
 
 1. Determine if the form submission contains file attachments
@@ -295,7 +295,7 @@ Handle a submitted form by using the Forms API (web service):
         * An empty `FormsResultHolder` object that is populated by the method with the form that is submitted.
 
       The `processFormSubmission` method populates the `FormsResultHolder` parameter with the results of the form submission.
-    
+
     * Determine whether the Forms service is finished processing the form data by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `0`, the form data is ready to be processed. You can get a `FormsResult` object by getting the value of the `FormsResultHolder` object’s `value` data member.
 
 1. Determine if the form submission contains file attachments
