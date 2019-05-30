@@ -61,15 +61,9 @@ To install eCommerce functionality you need:
 
     * `cq-geometrixx-all-pkg`
 
-* AEM hybris content packages: ``
+* AEM hybris content packages:
 
-    * 
-    
-      ```    
-      cq-hybris-content-6.3.2
-      
-      ```    
-    
+    * `cq-hybris-content-6.3.2`
     * hybris-specific API implementation
     * `cq-geometrixx-hybris-content-6.3.2`
     * a reference implementation to illustrate use of hybris ( `geometrixx-outdoors/en_US`)

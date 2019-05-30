@@ -329,14 +329,10 @@ Follow the steps below to deliver content updates from author to publish to devi
    >
    >The **Manage Publication** with update offline content is a two-step process and the steps must be in correct order.
    >
-   >    
-   >    
-   >    1. The workflow will not work if **Update Offline Content** is triggered before publish using **Manage Publication**.
-   >    
-   >    1. The workflow will not work if there are no changes in the project and nothing for **Update Offline Content**.
-   >    1. The workflow will not work if author does not completes the replication process (contents are still uploading to publish instance) after clicking the **Publish** button in the managing publication workflow.  
-   >    
-   >    
+   > 1. The workflow will not work if **Update Offline Content** is triggered before publish using **Manage Publication**.
+   > 1. The workflow will not work if there are no changes in the project and nothing for **Update Offline Content**.
+   > 1. The workflow will not work if author does not completes the replication process (contents are still uploading to publish instance) after clicking the **Publish** button in the managing publication workflow.
+   
 1. Once you have completed the manage publication workflow, you must trigger the update offline content in author, that will create the update offline on the author instance.
 
    Navigate to the project and click **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on the publish instance as well.

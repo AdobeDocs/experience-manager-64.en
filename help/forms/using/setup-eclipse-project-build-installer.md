@@ -55,13 +55,15 @@ Perform the following steps to build AEM Forms app using Android Studio:
 
 1. Launch the Android Studio application on your machine.
 1. Click **Open an existing Android Studio project**. If the dialog box to open an existing project does not appear automatically, select **File** &gt; **Open**.
-1. Navigate to *adobe-lc-mobileworkspace-src-&lt;version&gt;.zip/android* on the local file system and click **OK**.  
+1. Navigate to *adobe-lc-mobileworkspace-src-&lt;version&gt;.zip/android* on the local file system and click **OK**. 
+
    The **android** option is displayed in the left pane.
 
    ![](assets/android_folder_studio.png)
 
 1. Select **android** from the left pane and click **Run** &gt; **Run 'android'**.
-1. Select the Android device from the Connected Devices section on the Select Deployment Target dialog box and click OK.  
+1. Select the Android device from the Connected Devices section on the Select Deployment Target dialog box and click OK. 
+
    Once you have built the development environment successfully, you can now apply customizations on the app. Use the following articles to customize the app:
 
     * [Branding Customization](/help/forms/using/branding-customization.md)
@@ -76,8 +78,10 @@ Execute the following steps to generate the .apk file using Android Studio:
 
 1. Launch the Android Studio application on your machine.
 1. Select **Open an existing Android Studio project**. If the dialog box to open an existing project does not appear automatically, select **File** &gt;** Open**.
-1. Navigate to *adobe-lc-mobileworkspace-src-&lt;version&gt;.zip/android* on the local file system and click **OK**.  
+1. Navigate to *adobe-lc-mobileworkspace-src-&lt;version&gt;.zip/android* on the local file system and click **OK**. 
+
    The android option is displayed in the left pane.
+   
 1. Select **Build** &gt; **Build APK **to generate the .apk file.
 
    Optionally, Select **Build** &gt; **Generate Signed APK** to generate a [signed version](https://developer.android.com/studio/publish/app-signing) of the .apk file.

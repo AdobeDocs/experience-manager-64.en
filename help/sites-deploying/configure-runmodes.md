@@ -17,7 +17,8 @@ Run modes allow you to tune your AEM instance for a specific purpose; for exampl
 
 You can:
 
-* [Define collections of configuration parameters for each run mode](#defining-configuration-properties-for-a-run-mode).  
+* [Define collections of configuration parameters for each run mode](#defining-configuration-properties-for-a-run-mode).
+
   A basic set of configuration parameters is applied for all run modes, you can then tune additional sets to the purpose of your specific environment. These are applied as required.
 
 * [Define additional bundles to be installed for a particular mode](#defining-additional-bundles-to-be-installed-for-a-run-mode).
@@ -85,16 +86,20 @@ A collection of values for configuration properties, used for a particular run m
 
 The run mode is indicated by a suffix on the folder name. This allows you to store all configurations in one repository as. For example:
 
-* `config`  
+* `config`
+
   Applicable for all run modes  
 
-* `config.author`  
+* `config.author`
+
   Used for author run mode  
 
-* `config.publish`  
+* `config.publish`
+
   Used for publish run mode  
 
-* `config.<*run-mode*>`  
+* `config.<run-mode>`
+
   Used for the applicable run mode; for example, config
 
 See [OSGi Configuration in the Repository](/help/sites-deploying/configuring-osgi.md#osgi-configuration-in-the-repository) for further details on defining the individual configuration nodes within these folders and for creating configurations for combinations of multiple run modes.
@@ -128,10 +133,12 @@ When you are using an application server you can also [define the run mode in `w
 
 The `sling.properties` file can be used to define the required run mode:
 
-1. Edit the configuration file:  
-   `<*cq-installation-dir*>/crx-quickstart/conf/sling.properties`
+1. Edit the configuration file: 
 
-1. Add the following properties; the following example is for author:  
+   `<cq-installation-dir>/crx-quickstart/conf/sling.properties`
+
+1. Add the following properties; the following example is for author:
+
    `sling.run.modes=author`
 
 ### Using the -r option {#using-the-r-option}
@@ -146,7 +153,8 @@ java -jar cq-56-p4545.jar -r dev
 
 A system property in the start script can be used to specify the run mode.
 
-* For example use the following to launch an instance as a production publish instance located in the US:  
+* For example use the following to launch an instance as a production publish instance located in the US:
+
   `-Dsling.run.modes=publish,prod,us`
 
 ### Filename detection - renaming the jar file {#filename-detection-renaming-the-jar-file}

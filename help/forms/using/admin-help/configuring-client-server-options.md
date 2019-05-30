@@ -611,7 +611,7 @@ If required by your SMTP host, type the required information in the SMTP Server 
    >
    >If you are using Microsoft Office 365 as the SMTP server for sending the invitations for user registration, the use the following settings: 
    >
-   >**SMTP Host:** smtp.office365.com  
+   >**SMTP Host:** smtp.office365.com 
    >**Port:** 587
 
 1. Next, you need to update the config.xml. See [Configuration to enable SMTP for Transport Layer Security (TLS)](configuring-client-server-options.md#configuration-to-enable-smtp-for-transport-layer-security-tls)

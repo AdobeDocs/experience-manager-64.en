@@ -21,8 +21,10 @@ When you create a template, it is created under `/conf` in the content repositor
   
 Perform the following steps to show the components in the sidebar based on the content policy of a template:
 
-1. Open CRXDE lite.   
+1. Open CRXDE lite. 
+
    URL: `https://<server>:<port>/crx/de/index.jsp`
+   
 1. In CRXDE, navigate to the folder in which the template is created.
 
    For example: `/conf/<your-folder>/`

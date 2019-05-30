@@ -23,13 +23,9 @@ In AEM Forms, you can use the SendToPrinter service to send a document to printe
   When you send a document to a printer, specify one of these printing protocols:
 
     * **CUPS** `: A printing protocol named common UNIX printing system. This protocol is used for UNIX operating systems and enables a computer to function as a print server. The print server accepts print requests from client applications, processes them, and sends them to configured printers. On the IBM AIX® operating system, usage of CUPS is not recommended.`
-    
     * ``**DirectIP** `: A standard protocol for remote printing and managing print jobs. This protocol can be used locally or remotely. Print queues are not required.`
-    
     * ``**LPD** `: A printing protocol named Line Printer Daemon protocol or Line Printer Remote (LPR) protocol. This protocol provides network print server functionality for UNIX-based systems.`
-    
     * **SharedPrinter** `: A printing protocol that enables a computer to use a printer that is configured for that computer.`
-    
     * **CIFS**: The Output service supports the Common Internet File System (CIFS) printing protocol.
 
 ## Using SendToPrinter Service {#using-sendtoprinter-service}

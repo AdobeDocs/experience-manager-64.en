@@ -38,14 +38,16 @@ The reference sites provide reusable assets that you can use as templates to cre
 
 Before you set up the reference site, ensure that you have the following:
 
-* **AEM essentials  
-  **AEM QuickStart, AEM Forms add-on package, and reference site packages. See [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for add-on and reference sites packages details.
+* **AEM essentials**
+
+  AEM QuickStart, AEM Forms add-on package, and reference site packages. See [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for add-on and reference sites packages details.
 
 * **An SMTP service** 
   You can use any SMTP service.
 
-* **Adobe Sign developer account and Adobe Sign API application  
-  **To use digital signing capabilities, Adobe Sign developer account is required. See [Adobe Sign](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
+* **Adobe Sign developer account and Adobe Sign API application**
+  
+  To use digital signing capabilities, Adobe Sign developer account is required. See [Adobe Sign](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
 
 * A running instance of Microsoft Dynamics 365 to integrate with AEM Forms. To run the reference site, you import the sample data into the Microsoft Dynamics instance to prefill the interactive communication used in the reference site.
 * A running instance of AEM 6.4 with Forms add-on package. For more information, see [Installing and configuring AEM Forms](https://helpx.adobe.com/experience-manager/6-3/forms/using/installing-configuring-aem-forms-osgi.html).
@@ -156,8 +158,10 @@ In AEM, the **Externalizer** is an OSGI service that allows you to programmatica
 Perform the following steps on both author and publish instances:
 
 1. Go to OSGi Configuration at https://&lt;*hostname&gt;*:&lt;*port&gt;*/system/console/configMgr.
-1. Find and tap **Day CQ Link Externalizer** configuration.  
+1. Find and tap **Day CQ Link Externalizer** configuration.
+
    The Day CQ Link Externalizer dialog opens for editing the configuration.
+   
 1. In the Day CQ Link Externalizer dialog, in the Domains field:
 
     * On the author instance, specify a publish URL that can be accessed from an external system. For example, a hostname or a publishing web server.
@@ -249,9 +253,7 @@ To import the customer and insurance policy records:
 1. In your Microsoft Dynamics instance, do the following:
 
     * Go to **Sales** &gt;  **We.Finance Customers** and click **Import**. 
-    
-    * Go to **Sales** &gt;  **We.Finance Auto Insurance** and click **Import**.   
-    
+    * Go to **Sales** &gt;  **We.Finance Auto Insurance** and click **Import**. 
     * Go to **Sales** &gt;  **We.Finance Home Mortgage **and click **Import**.
 
 ## Configure OAuth cloud service for Microsoft Dynamics {#configure-oauth-cloud-service-for-microsoft-dynamics}
@@ -336,7 +338,6 @@ To generate a report, seed data is bundled with the reference sites. Before you 
 1. Navigate to https://&lt;*host*&gt;:&lt;*port*&gt;/system/console/configMgr and do the following:
 
     * In the **[!UICONTROL Web Console Configuration]** page, find and click **[!UICONTROL AEM Forms Analytics Configuration]**.
-    
     * In the **[!UICONTROL SiteCatalyst Framework]** field of the AEM Forms Analytics Configuration dialog, select we-finance(we-finance) or we-gov(we-gov).
     * Click **[!UICONTROL Save]** and let the page refresh.
 
@@ -353,8 +354,10 @@ The reference site showcases the integration of AEM Forms with Adobe Target that
 
 To experience the integration in the reference site, do the following to configure Target in AEM:
 
-1. Start the author quickstart with the jvm argument `-Dabtesting.enabled=true` to enable A/B testing on the server. 
-   **Note**: If the AEM instance is running on JBoss, which is started as a service from Turnkey installation, add the `-Dabtesting.enabled=true` parameter in the following entry in the `jboss\bin\standalone.conf.bat` file, :  
+1. Start the author quickstart with the jvm argument `-Dabtesting.enabled=true` to enable A/B testing on the server.
+
+   **Note**: If the AEM instance is running on JBoss, which is started as a service from Turnkey installation, add the `-Dabtesting.enabled=true` parameter in the following entry in the `jboss\bin\standalone.conf.bat` file, : 
+
    `set "JAVA_OPTS=%JAVA_OPTS% -Dadobeidp.serverName=server1 -Dfile.encoding=utf8 -Djava.net.preferIPv4Stack=true -Dabtesting.enabled=true"`   
 
 1. Access https://&lt;*hostname*&gt;:&lt;*port*&gt;/libs/cq/core/content/tools/cloudservices.html.

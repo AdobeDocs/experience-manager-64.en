@@ -44,10 +44,12 @@ The mappings form two lists that the JCR Resource Resolver evaluates (top-down) 
 
 These lists can be viewed (together with configuration information) under the **JCR ResourceResolver** option of the Felix console; for example, `https://<*host*>:<*port*>/system/console/jcrresolver`:
 
-* Configuration  
+* Configuration 
+
   Shows the current configuration (as defined for the [Apache Sling Resource Resolver](/help/sites-deploying/osgi-configuration-settings.md).
 
-* Configuration Test  
+* Configuration Test 
+
   This allows you to enter a URL or resource path. Click **Resolve** or **Map** to confirm how the system will transform the entry.  
 
 * **Resolver Map Entries** 
@@ -98,8 +100,9 @@ To create the mapping that prefixes any request to http://localhost:4503/ with `
 
 1. Create a new node:
 
-    * **Type** `sling:Mapping`  
-      This node type is intended for such mappings, though its use is not mandatory.  
+    * **Type** `sling:Mapping` 
+
+      This node type is intended for such mappings, though its use is not mandatory. 
     
     * **Name** `localhost_any`
 
@@ -109,13 +112,11 @@ To create the mapping that prefixes any request to http://localhost:4503/ with `
     * **Name** `sling:match`
 
         * **Type** `String` 
-        
         * **Value** `localhost.4503/`
 
     * **Name** `sling:internalRedirect`
 
-        * **Type** `String`  
-        
+        * **Type** `String` 
         * **Value** `/content/`
 
 1. Click **Save All**.

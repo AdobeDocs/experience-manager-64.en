@@ -26,8 +26,9 @@ Adaptive forms allow you to create forms that are engaging, responsive, dynamic,
 * **Using an XML Schema Definition (XSD) or a JSON Schema** 
   XML and JSON schemas represent the structure in which data is produced or consumed by the back-end system in your organization. You can associate the schema to an adaptive form and use its elements to add dynamic content to the adaptive form. The elements of the schema will be available for use in the Data Model Objects tab of the Content browser when authoring adaptive forms. 
 
-* **Using none or without a form model  
-  **Adaptive forms created with this option don't use any form model. The data XML generated from such forms has flat structure with fields and corresponding values.
+* **Using none or without a form model**
+
+Adaptive forms created with this option don't use any form model. The data XML generated from such forms has flat structure with fields and corresponding values.
 
 For more information about creating an adaptive form, see [Creating an adaptive form](/help/forms/using/creating-adaptive-form.md).
 
@@ -69,22 +70,31 @@ Click to enlarge
 The sidebar comprises the following browsers:
 
 * **Content browser** 
+
   In the content browser, you can see
 
-    * **Form Objects**  
+    * **Form Objects**
+
       Shows object hierarchy of the Form. Author can navigate to specific form component by tapping that element in Form Object Tree. Author can search objects and rearrange them from this tree.
-    * **Data Model Objects**  
-      Lets you see the form model hierarchy.  
+
+    * **Data Model Objects** 
+
+      Lets you see the form model hierarchy. 
+
       It allows you to drag and drop form-model elements on the adaptive form. The added elements automatically get converted into form components while retaining their original properties. You can see data model objects when your form uses XML schema, JSON schema, or XDP template.
 
-* **Properties browser  
-  **Lets you edit the properties of a component. Properties change according to a component. To see properties of the adaptive form container:  
+* **Properties browser**
+
+  Lets you edit the properties of a component. Properties change according to a component. To see properties of the adaptive form container:
+
   Select a component, then tap ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![](assets/cmppr.png).
 
 * **Assets browser** 
+
   Segregates different types content such as images, documents, pages, movies, and so on.
 
 * **Components browser** 
+
   Includes components that you can use to build an adaptive form. You can drag components from onto the adaptive form to add form elements, and configure added element as per the requirements. The following table describes the components listed in components browser**.**
 
 <table> 
@@ -267,10 +277,8 @@ Some best practices and key points to remember when working with adaptive form c
 
 * You can modify the Title property of an adaptive form component inline in the form editor without opening the Properties browser as long as the title is visible on the form. To do so:
 
-    1. Tap to select a component that has a **[!UICONTROL Title]** property and whose **[!UICONTROL Hide title]** property is disabled.  
-    
-    1. Tap ![](assets/aem_6_3_edit.png) to make the title editable.  
-    
+    1. Tap to select a component that has a **[!UICONTROL Title]** property and whose **[!UICONTROL Hide title]** property is disabled.
+    1. Tap ![](assets/aem_6_3_edit.png) to make the title editable.
     1. Modify the title and tap the Return key or tap anywhere outside the component to save the changes. Tap the Esc key to discard the changes.
 
 * Some adaptive form components like Email and Telephone include out-of-the-box validation patterns. However, you can specify custom validation by updating the **[!UICONTROL Validation Pattern]** field under the Patterns accordion in the component properties. See component descriptions in the table above for more information about default validations.  
@@ -309,8 +317,7 @@ The page toolbar on the top provides options that let you preview the form, chan
 * **Edit**: Lets you select other modes such as: **Edit, Style, Developer, **and** Design**.
 
     * **Edit**: Lets you edit the properties of the form and its components. For example, adding a component, dropping an image, and specifying mandatory fields. 
-    * **Style**: Lets you style the appearance of components of your form. For example, in style mode, you can select a panel and specify its background color.  
-    
+    * **Style**: Lets you style the appearance of components of your form. For example, in style mode, you can select a panel and specify its background color.
     * **Developer**: Lets a developer to:
 
         * Discover what forms are composed of.

@@ -26,10 +26,12 @@ Adobe Experience Manager (AEM) comes with a variety of out-of-the-box components
 
 The following pages provide fast links to some of the major areas of content management (links to further areas are given on the overview page above):
 
-* [Components for Page Authoring](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md)  
+* [Components for Page Authoring](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md)
+
   Components used for creating standard page content are primarily contained in the groups **General**, **Columns** and **Forms**.
 
-* [eCommerce](/help/sites-administering/ecommerce.md)  
+* [eCommerce](/help/sites-administering/ecommerce.md)
+
   The eCommerce functionality within AEM also includes a range of components, contained in the **Commerce** group. Actual use can depend on the commerce engine being used.
 
 ## Using Design Mode to Configure Components {#using-design-mode-to-configure-components}

@@ -101,13 +101,16 @@ The standard functions of **Cut** and **Copy** are available. Several flavors of
 
 * Cut (**Ctrl-X**)
 * Copy (**Ctrl-C**)
-* Paste  
+* Paste 
+
   This is the default paste mechanism (**Ctrl-V**) for the component; when installed out-of-the-box this is configured to be "Paste from Word".  
 
-* Paste as Text  
+* Paste as Text 
+
   Strips all styles and formatting to paste only the plain text.  
 
-* Paste from Word  
+* Paste from Word 
+
   This pastes the content as HTML (with some necessary reformatting).
 
 ### Undo, Redo {#undo-redo}
@@ -301,19 +304,24 @@ The basic properties of the table can be configured, before clicking **OK** to s
 
 ![](assets/cq55_rte_tableproperties_dialog.png)
 
-* **Width**  
+* **Width** 
+
   The total width of the table.  
 
-* **Height**  
+* **Height** 
+
   The total height of the table.  
 
-* **Border**  
+* **Border** 
+
   The size of the table border.  
 
-* **Cell padding**  
+* **Cell padding** 
+
   This defines the white space between the cell content and its borders.  
 
 * **Cell spacing** 
+
   This defines the distance between the cells.
 
 >[!NOTE]

@@ -39,7 +39,8 @@ Campaign management is made up of various elements:
   The focused content forms the various experiences, presented to the visitor at **Touchpoints**. There are several types of experience available:
 
     * **Teasers** 
-      [Teaser Pages / Paragraphs](#teasers) are used to steer specific visitor **Segments** to content that is focused on their interests.  
+      [Teaser Pages / Paragraphs](#teasers) are used to steer specific visitor **Segments** to content that is focused on their interests.
+
       Teaser pages can:
 
         * present a range of options for the visitor to choose from
@@ -48,28 +49,40 @@ Campaign management is made up of various elements:
       Typically a teaser page is a temporary action that will last for a specific period of time, until it is replaced by the next teaser page.
     
     * **Newsletters** 
+
       [E-mail Communications](#emailmarketing) are used to engage users and encourage them to visit your web site. These usually take the form of a newsletter, sent to your **Leads** (which are usually grouped into **Lists**). **Note:** Adobe is not planning to further enhance this capability. Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
     
     * **Adobe Target** 
+
       This allows integration with Adobe Target (formerly Test&Target) which gives marketers a conversion website optimization tool with the necessary capabilities to continually make their online content and offers more relevant to their customers—yielding greater conversion. Adobe Target provides an intuitive interface for designing and executing tests, creating audience segments and targeting content—all from a single application.
 
 * **Touchpoints** 
-  These are the points of contact between the visitor and your campaign. The touchpoints are connected to the experiences that you have created.  
+
+  These are the points of contact between the visitor and your campaign. The touchpoints are connected to the experiences that you have created. 
+
   For example, for teasers it is the content page where the teaser paragraph is located, for a newsletter it is the mailing list.
 
 * **Leads** 
-  The information that you have collected about your visitors and how to contact them forms the basis for your leads. **Note:** Adobe is not planning to further enhance this capability.  
+
+  The information that you have collected about your visitors and how to contact them forms the basis for your leads. **Note:** Adobe is not planning to further enhance this capability. 
+
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).  
 
 * **Lists** 
-  Leads are usually grouped into lists so that you can take collective action on them. Note: **Note:** Adobe is not planning to further enhance this capability.  
+
+  Leads are usually grouped into lists so that you can take collective action on them. Note: **Note:** Adobe is not planning to further enhance this capability. 
+
   Recommendation is to [leverage Adobe Campaign and the integration to AEM.](/help/sites-administering/campaign.md)  
 
 * **Segments** 
+
   Site visitors have different interests and objectives when they come to a site. Analyzing this according to factors such as activity on the website, profile information registered and activity on other websites, helps you to define segments. Content can then be specifically targeted to the visitor's needs and interests according to the segment(s) they match.
 
 * **MCM** 
-  The Marketing Campaign Manager (MCM) is a console that allows you to access all the functionality you need to create and control your campaigns, brands, experiences, touchpoints, leads, lists, segments and reports.  
-  It can be accessed from various locations (labelled as **Campaigns**), or with, for example, the URL:  
+
+  The Marketing Campaign Manager (MCM) is a console that allows you to access all the functionality you need to create and control your campaigns, brands, experiences, touchpoints, leads, lists, segments and reports. 
+
+  It can be accessed from various locations (labelled as **Campaigns**), or with, for example, the URL: 
+  
   `http://localhost:4502/libs/mcm/content/admin.html`
 

@@ -269,15 +269,15 @@ The variables in the equation are as follows:
 If you have a more complex website, you also need more powerful web servers so that AEM can answer a request in an acceptable time.
 
 * Complexity below 4:
-    * 1024 MB JVM RAM&ast;  
+    * 1024 MB JVM RAM&ast; 
     * Low to mid-performance CPU
 
-* Complexity between 4 and 8:  
-    * 2048 MB JVM RAM&ast;  
+* Complexity between 4 and 8: 
+    * 2048 MB JVM RAM&ast; 
     * Mid to high-performance CPU
 
-* Complexity above 8:  
-    * 4096 MB JVM RAM&ast;  
+* Complexity above 8: 
+    * 4096 MB JVM RAM&ast; 
     * High to high-end-performance CPU
 
 >[!NOTE]

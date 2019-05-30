@@ -29,11 +29,14 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
    `https://<hostname>:<port>/libs/cq/personalization/touch-ui/content/v2/activities.html`
 
 1. In the Activities page, tap **Create > Create Brand**. 
-1. You are asked to choose a template and enter properties.  
+1. You are asked to choose a template and enter properties.
+
    Select a template, tap **Next.** Enter the title of your brand in the Properties section, and tap **Create.** 
    Your brand is now listed in the Activities page. 
+
 1. Tap your brand in the Activities page. 
-1. In Master Area of your brand, tap **Create** &gt; **Create Activity**.  
+1. In Master Area of your brand, tap **Create** &gt; **Create Activity**. 
+
    When you create an activity, you specify its details, target, and settings.
 
    The Details section includes name, targeting engine, and objective. When you select Adobe Target as the targeting engine, you get Target cloud configuration option enabled. Choose your Target cloud configuration, choose Activity type, provide the objective of the activity, and tap **Next**. Interactive Communication supports only Experience Targeting Activity type.

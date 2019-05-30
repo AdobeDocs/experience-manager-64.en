@@ -15,7 +15,8 @@ discoiquuid: 22712b73-90f2-4329-b32f-dbb7ce802d1d
 
 When you apply the workflow, you specify the following information:
 
-* The workflow to apply.  
+* The workflow to apply. 
+
   You can apply any workflow (that you have access to, as assigned by your AEM administrator).
 * Optionally:
 

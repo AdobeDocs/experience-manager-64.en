@@ -39,10 +39,8 @@ The following are the prerequisites for creating an Interactive Communication:
     * **[!UICONTROL Name*]**: The name of the Interactive Communication is derived from the title you enter. Edit it, if necessary. 
     * **[!UICONTROL Description]**: Enter a description about the Interactive Communication. 
     * **[!UICONTROL Form Data Model*]**: Browse and select the form data model. For more information on Form Data Model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
-    
     * **[!UICONTROL Prefill Service]**: Select the prefill service to retrieve the data and prefill the Interactive Communication. 
-    * **[!UICONTROL Post Process Type]**: You can select AEM or Forms workflow to be triggered when the Interactive Communication is submitted. Select the type of the workflow to be triggered.  
-    
+    * **[!UICONTROL Post Process Type]**: You can select AEM or Forms workflow to be triggered when the Interactive Communication is submitted. Select the type of the workflow to be triggered.
     * **[!UICONTROL Post Process]**: Select the name of the workflow to be triggered. When you select AEM workflow, provide Attachment Path, Layout Path, PDF Path, Print Data Path, and Web Data Path.
     * **[!UICONTROL Tags]**: Select the tags to apply to the Interactive Communication. You can also type in a new/custom tag name and press Enter to create it. 
     * **[!UICONTROL Author]**:The author name is automatically taken from the logged in user's username. 
@@ -55,7 +53,6 @@ The following are the prerequisites for creating an Interactive Communication:
     * **[!UICONTROL Print]**: Select this option to generate the print channel of the Interactive Communication. 
     * **[!UICONTROL Print Template*:]** Browse and select an XDP as the print template.
     * **[!UICONTROL Use Print As Master For Web Channel:]** Select this option to create the web channel in sync with the print channel. Using print channel as master for web channel ensures the content and data binding of the web channel is derived from the print channel and the changes made in the print channel are reflected in the web channel when you tap Synchronize. The authors are, however, allowed to break the inheritance for specific components in the web channel, as required. For more information, see [Synchronize Web channel with Print channel](/help/forms/using/create-interactive-communication.md#synchronize). 
-    
     * **[!UICONTROL Web:]** Select this option to generate the web channel or the responsive output of Interactive Communication. 
     * **[!UICONTROL Interactive Communication Web Template*:]** Browse and select the web template. 
     * **[!UICONTROL Theme]** and **[!UICONTROL Select Theme*]**: Browse and select the theme to style the web channel of the Interactive Communication. For more information, see [Themes in AEM Forms](/help/forms/using/themes.md).
@@ -281,7 +278,6 @@ You can add dynamic tables in Interactive Communication using layout fragments. 
 
         * **[!UICONTROL Data Model Object]**: The form data model property whose value is populated in the field. 
         * **[!UICONTROL Default Value]**: Default value ensures that the field is not empty when there is no value provided by the specified data model object. The default value is pre-populated in the field. **[!UICONTROL]**
-        
         * **[!UICONTROL Editable By Agent]**: Select to allow the agent to edit the value in the field in the Agent UI.
 
     1. Tap ![](assets/done_icon.png).

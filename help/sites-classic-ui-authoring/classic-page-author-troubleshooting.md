@@ -36,12 +36,14 @@ The following section covers some issues that you might encounter when using AEM
 * **Solutions**:
 
     * There are various possibilities here:
-    * Confirm that the page has been replicated correctly. Check the page status and if necessary, the state of the replication queue.  
+    * Confirm that the page has been replicated correctly. Check the page status and if necessary, the state of the replication queue. 
     * Clear the cache in your local browser and access your page again.
-    * Add `?` to the end of the page URL. For example:  
-      `http://localhost:4502/sites.html/content?`  
+    * Add `?` to the end of the page URL. For example: 
+
+      `http://localhost:4502/sites.html/content?` 
+
       This will request the page directly from AEM and bypass the Dispatcher. If you receive the updated page, it is an indication that you should clear the Dispatcher cache.
-    
+
     * Contact your system administrator is there are issues with the replication queues.
 
 ## Sidekick not visible {#sidekick-not-visible}
@@ -75,9 +77,7 @@ The following section covers some issues that you might encounter when using AEM
 
 * **Solution**:
 
-    * These definitions can be changed with the configuration for **Day CQ WCM Find Replace Servlet** using the **Web Console**; for example, at     
-    
-      ```    
-             http://localhost:4502/system/console/configMgr
-      ```
+    * These definitions can be changed with the configuration for **Day CQ WCM Find Replace Servlet** using the **Web Console**; for example, at
+
+      `http://localhost:4502/system/console/configMgr`
 

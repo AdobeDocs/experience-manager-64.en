@@ -381,11 +381,9 @@ Here are some tips and tricks when configuring the Watched Folder endpoint:
 
     * Workaround 1
 
-    1. Specify a pattern for Exclude File Pattern, such as temp&ast;.ps.
-
-      2. Copy files that begin with temp (for example, temp1.ps) to the watched folder.
-
-      3. After the file has been completely copied to the watched folder, rename the file to correspond with the pattern specified for Include File Pattern. Watched Folder then moves the completed file to stage.
+      1. Specify a pattern for Exclude File Pattern, such as temp&ast;.ps.
+      1. Copy files that begin with temp (for example, temp1.ps) to the watched folder.
+      1. After the file has been completely copied to the watched folder, rename the file to correspond with the pattern specified for Include File Pattern. Watched Folder then moves the completed file to stage.
     
     * Workaround 2
 

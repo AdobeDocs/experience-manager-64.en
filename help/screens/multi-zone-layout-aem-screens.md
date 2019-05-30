@@ -61,7 +61,6 @@ You can use single assets such as an image or a video in all three different zon
 1. **Adding Content to the Channel**
 
     1. Navigate to **Zones** --&gt; **Channels **--&gt;** MultiZone**.
-    
     1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
 
    ![](assets/screen_shot_2018-12-07at14917pm.png)
@@ -79,9 +78,7 @@ If you want the zones to display sequence of images or content and a static imag
 1. **Creating a Channel Folder**
 
     1. Navigate to **Zones** --&gt; **MultiZone** --&gt; **Channels** and click **Create** from the action bar.
-    
-    1. Select **Channels Folder** from the **Create** wizard and click** Next**.
-    
+    1. Select **Channels Folder** from the **Create** wizard and click **Next**.
     1. Enter the title as **EmbeddedChannels** and click **Create**.
 
    ![](assets/screen_shot_2018-12-19at125428pm.png)
@@ -89,11 +86,8 @@ If you want the zones to display sequence of images or content and a static imag
 1. **Adding two more channels to Channel Folder**
 
     1. Navigate to **Zones** --&gt; **Channels** --&gt; **EmbeddedChannels** and click **Create** from the action bar.
-    
     1. Select **Sequence Channel** from the **Create** wizard to create a channel titled as** Zone1**.
-    
     1. Select **Zone1** and click **Edit** from the action bar to open the editor.
-    
     1. Drag and drop few images to this channel.
 
    Similarly, create another sequence channel titled as **Zone2** in **EmbeddedChannels** folder.
@@ -102,10 +96,8 @@ If you want the zones to display sequence of images or content and a static imag
 
 1. **Adding Embedded Sequences/component to main channel (MultiZone)**
 
-    1. Navigate to **Zones** --&gt; **Channels** --&gt; **MultiZone**.  
-    
-    1. Click **Edit** from the action bar to open the editor.  
-    
+    1. Navigate to **Zones** --&gt; **Channels** --&gt; **MultiZone**.
+    1. Click **Edit** from the action bar to open the editor.
     1. Drag and drop the **Embedded Sequence** component to two of the zones, as shown in the figure below.
 
    ![](assets/new.gif)
@@ -113,8 +105,7 @@ If you want the zones to display sequence of images or content and a static imag
 1. **Add Content to all three Zones**
 
     1. Navigate to **Zones** --&gt; **Channels** --&gt; **MultiZone**.
-    
-    1. Select the embedded sequence in one of the zones.  
+    1. Select the embedded sequence in one of the zones. 
     1. Click the **Configure** (wrench) icon to one of the embedded sequences in the editor.
     1. Select the channel path as **Zones** --&gt; **Channels** --&gt; **EmbeddedChannels** --&gt; **Zone1**, as shown in the figure below.
 

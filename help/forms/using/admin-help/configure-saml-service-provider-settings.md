@@ -44,12 +44,16 @@ For an explanation of SAML, see [Security Assertion Markup Language (SAML) V2.0 
 1. (Optional) In Custom Properties, specify additional properties. The additional properties are name=value pairs separated by new lines.
 
     * You can configure AEM forms to issue a SAML assertion for a validity period that matches the validity period of a third-party assertion. To honor the third-party SAML assertion timeout, add the following line in Custom Properties:
+
       `saml.sp.honour.idp.assertion.expiry=true`
     
     * Add the following custom property for using RelayState to determine the URL where the user will be redirected after successful authentication.
+
       `saml.sp.use.relaystate=true`
     
-    * Add the following custom property to configure the URL for the custom Java Server Pages (JSP), which will be used to render the registered list of identity providers. If you have not deployed a custom web application, it will use the default User Management page to render the list. `saml.sp.discovery.url=/custom/custom.jsp`
+    * Add the following custom property to configure the URL for the custom Java Server Pages (JSP), which will be used to render the registered list of identity providers. If you have not deployed a custom web application, it will use the default User Management page to render the list. 
+    
+    `saml.sp.discovery.url=/custom/custom.jsp`
 
 1. Click Save.
 

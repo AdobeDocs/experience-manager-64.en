@@ -107,8 +107,10 @@ This scenario shows how you can add a custom property to all the asset types and
 
    `/libs/fd/cm/ma/gui/content/cmmetadataproperties/commonproperties/col1/items`
 
-1. Under the newly created overlay node (/apps/fd/cm/ma/gui/content/cmmetadataproperties/commonproperties/col1/items)  
+1. Under the newly created overlay node (/apps/fd/cm/ma/gui/content/cmmetadataproperties/commonproperties/col1/items) 
+
    Create a node for each of the properties (fields) for which you need to create a drop-down (here `geographicallocation`) of the type nt:unstructured. 
+
 1. Add the following properties to the node (here geographicallocation) and click **Save All**:
 
    |Name|Type|Value|
@@ -162,7 +164,8 @@ Using the following procedure, you can add a tab with a field to all your assets
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
-       ![Overlay folder structure created in CRX](assets/cmmetadatapropertiesappsfolder.png)    
+       ![Overlay folder structure created in CRX](assets/cmmetadatapropertiesappsfolder.png)
+       
        Click **Save All**.
 
 1. Under the cmmetadataproperties folder, add a node for creating a custom tab for all the assets (Example: commontab) using the following steps:

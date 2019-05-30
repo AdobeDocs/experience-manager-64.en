@@ -66,24 +66,31 @@ This document describes the basics of creating newsletters in AEM. For more deta
    ![](assets/mcm_newnewsletterdialog.png)
 
     * **From Name** 
+
       Name that should appear as the sender of the newsletter.
     
     * **From Address** 
+
       Mail address that should appear as the sender of the newsletter.
     
     * **Subject** 
+
       Subject of the newsletter.
     
     * **Reply To** 
+
       Mail address that should address replies for sent newsletter.
     
     * **Description** 
+
       Description of the newsletter.
     
     * **On Time** 
+
       The on time for sending the newsletter.
     
     * **Default Recipients List** 
+
       Default list that should receive the newsletter.
 
    These can be updated at a later stage from the **Properties...** dialog.
@@ -179,8 +186,7 @@ To customize newsletter settings:
 
 1.
 
-    1. Enter the **From** e-mail address   
-    
+    1. Enter the **From** e-mail address 
     1. Modify the **Subject** of the e-mail, if necessary. 
     1. Select a **Default Recipients List** from the drop down list. 
     1. Click **OK**.
