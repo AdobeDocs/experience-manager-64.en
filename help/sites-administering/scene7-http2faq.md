@@ -54,21 +54,20 @@ You must initiate the request to switch over to HTTP/2; it is not automatically 
 
 1. Initiate a Technical Support request to switch over to HTTP2 (email: s7support@adobe.com)
 1. Provide the following information in your support request:
+1. Primary contact name, email, and phone number.
+1. All domains to be transitioned over to HTTP2 (that is, `images.company.com` or `mycompany.scene7.com`).
 
-     * Primary contact name, email, and phone number.
-     * All domains to be transitioned over to HTTP2 (that is, `images.company.com` or `mycompany.scene7.com`).
+     To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
 
-          To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
+     Click **Setup** &gt; **Application Setup** &gt; **General Settings**. Look for the field labelled **Published Server Name**.
 
-          Click **Setup** &gt; **Application Setup** &gt; **General Settings**. Look for the field labelled **Published Server Name**.
+1. Verify that you use secure HTTPS for rich media requests.
+1. Verify you are using the CDN through Adobe and not managed with a direct relationship.
+1. Verify you are using a dedicated domain (that is, `images.company.com` or `mycompany.scene7.com`), not a generic Scene7 domain (such as `s7d1.scene7.com`, `s7d2.scene7.com`, `s7d13.scene7.com`).
 
-     * Verify that you use secure HTTPS for rich media requests.
-     * Verify you are using the CDN through Adobe and not managed with a direct relationship.
-     * Verify you are using a dedicated domain (that is, `images.company.com` or `mycompany.scene7.com`), not a generic Scene7 domain (such as `s7d1.scene7.com`, `s7d2.scene7.com`, `s7d13.scene7.com`).
+     To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
 
-          To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
-
-          Click **UICONTROL Setup** &gt; **Application Setup** &gt; **General Settings**. Look for the field labelled **Published Server Name**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
+     Click **UICONTROL Setup** &gt; **Application Setup** &gt; **General Settings**. Look for the field labelled **Published Server Name**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
 
 1. Technical Support adds you to the HTTP/2 customer waitlist based on the order in which requests were submitted.
 1. When Adobe is ready to handle your request, Support will contact you to coordinate the transition and set a target date.
