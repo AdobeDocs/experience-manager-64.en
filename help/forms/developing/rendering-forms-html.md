@@ -171,7 +171,7 @@ You cannot sign an HTML form that contains a digital signature field if the form
 * StaticHTML
 * NoScriptXHTML
 
-For information about digitally signing a document, see [Digitally Signing and Certifying Documents](help\forms\developing\digitally-signing-certifying-documents.md)
+For information about digitally signing a document, see [Digitally Signing and Certifying Documents](/help/forms/developing/digitally-signing-certifying-documents.md)
 
 ## Rendering an accessibility guidelines-compliant XHTML form {#rendering-an-accessibility-guidelines-compliant-xhtml-form}
 
