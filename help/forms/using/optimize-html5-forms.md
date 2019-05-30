@@ -38,7 +38,8 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
    >
    >For Linux, the default APACHE_HOME directory is /etc/httpd/.
 
-1. Configure the proxy on port 8080 of JBoss.  
+1. Configure the proxy on port 8080 of JBoss. 
+
    Add the following configuration to the *APACHE_HOME/conf/httpd.conf* configuration file.
 
    ```java
@@ -49,7 +50,7 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
    >[!NOTE]
    >
    >When you use a proxy, the following configuration changes are required:
-   >    
+   > 
    >* Access: *https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr*
    >* Edit the configuration for Apache Sling Referrer Filter
    >* In the Allow Hosts, add the entry for the proxy server
@@ -66,7 +67,7 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
         SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
         SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
        #Dealing with proxy servers
-      
+   
         <IfModule mod_headers.c>
            Header append Vary User-Agent
         </IfModule>

@@ -312,7 +312,6 @@ In order to configure binaryless replication with S3, the following steps are re
 1. Create these two files inside the `crx-quickstart` folder:
 
     * *org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService*.*config*
-    
     * *org.apache.jackrabbit.oak.plugins.blob.datastore.S3DataStore*.*config*
 
    After the files have been created, add the configuration options as needed.
@@ -331,7 +330,6 @@ In order to configure binaryless replication with S3, the following steps are re
 1. First, create the data store configuration file on each instances that is required to share the data store:
 
     * If you are using a `FileDataStore`, create a file named `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.config` and place it in the `<aem-install>/crx-quickstart/install` folder.
-    
     * If using S3 as the data store, create a file named o `rg.apache.jackrabbit.oak.plugins.blob.datastore.S3DataStore.config` in the `<aem-install>/crx-quickstart/install` folder as above.
 
 1. Modify the data store configuration files on each instance to point to the same data store. For more information, see [this article](/help/sites-deploying/data-store-config.md#data-store-configurations).

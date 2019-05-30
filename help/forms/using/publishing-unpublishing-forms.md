@@ -66,8 +66,7 @@ An asset can have the following states:
     1. Do one of following and then tap Publish:
 
         * If you are in the card view, tap **[!UICONTROL Enter Selection]** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
-        
-        * If you are in the list view, select the checkbox of an asset. The asset is selected.  
+        * If you are in the list view, select the checkbox of an asset. The asset is selected. 
         * Tap an asset to display its details.
         * Display an asset's properties by tapping View Properties ![](assets/viewproperties.png).
 
@@ -126,7 +125,8 @@ Follow these steps to schedule the date and time of publishing and unpublishing 
 
 1. Select an asset and tap **[!UICONTROL View Properties]**. The Metadata Properties page opens.
 1. In the Metadata Properties page, tap **[!UICONTROL Advanced]**, and then tap **[!UICONTROL Edit]** ![](assets/illustratorcc_penciltool_cur_edit_2_17.png).
-1. In the **[!UICONTROL Publish On Time]** and **[!UICONTROL Publish Off Time]** fields, select the date and time.  
+1. In the **[!UICONTROL Publish On Time]** and **[!UICONTROL Publish Off Time]** fields, select the date and time. 
+
    Tap **[!UICONTROL Done]** ![](assets/aem6forms_check.png).
 
 ## Unpublish an asset {#unpublish-an-asset}
@@ -138,9 +138,7 @@ Follow these steps to schedule the date and time of publishing and unpublishing 
     1. Do one of following and then tap unpublish:
 
         * If you are in the card view, tap **[!UICONTROL Enter Selection** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
-        
-        * If you are in the list view, hover over an asset and tap ![](assets/selectassetcheckmark.png) . The asset is selected.  
-        
+        * If you are in the list view, hover over an asset and tap ![](assets/selectassetcheckmark.png) . The asset is selected.
         * Tap an asset to display its details.
         * Display an asset's properties by tapping View Properties ![](assets/viewproperties.png).
 
@@ -189,10 +187,12 @@ You can enable authentication for forms you want selected users to access. When 
 
 To enable authentication for your forms:
 
-1. In your browser, open configMgr in the publish instance.  
+1. In your browser, open configMgr in the publish instance.
+
    URL: `https://<hostname>:<PublishPort>/system/console/configMgr`
 
-1. In the Adobe Experience Manager Web Console Configuration, click **Apache Sling Authentication Service **to configure it.
-1. In the Apache Sling Authentication Service dialog that appears, use the **+** button to add paths.  
+1. In the Adobe Experience Manager Web Console Configuration, click **Apache Sling Authentication Service** to configure it.
+1. In the Apache Sling Authentication Service dialog that appears, use the **+** button to add paths. 
+
    When you add a path, the authentication service is enabled for forms in that path.
 

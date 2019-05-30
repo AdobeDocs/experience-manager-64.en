@@ -31,11 +31,9 @@ The text document fragment in Interactive Communication supports the following t
 1. Specify the following information:
 
     * **[!UICONTROL Title]**: (Optional) Enter the title for the text document fragment. Titles need not be unique and can have special characters and non-English characters. Texts are referred by their titles (when available) such as in thumbnails and properties. 
-    * **[!UICONTROL Name]**: The unique name for the text, within a folder. No two document fragments (text, condition, or list) in any state can exist with the same name in a folder. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
-    
+    * **[!UICONTROL Name]**: The unique name for the text, within a folder. No two document fragments (text, condition, or list) in any state can exist with the same name in a folder. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
     * **[!UICONTROL Description]**: Type a description of the text.
     * **`[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the text based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]`** field appears. Browse and select a form data model. While creating text and condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on Form Data Model, see [Data Integration](/help/forms/using/data-integration.md). 
-    
     * **[!UICONTROL Tags]**: Optionally, to create custom tag enter value in text field and press Enter. When you save this text, the newly added tags get created.
 
 1. Tap **[!UICONTROL Next]**.

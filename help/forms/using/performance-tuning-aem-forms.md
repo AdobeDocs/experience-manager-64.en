@@ -82,7 +82,8 @@ Apache can communicate to CRX using the HTTP protocol. The configurations are fo
    >
    >For Linux, the default `APACHE_HOME` is `/etc/httpd/`.
 
-1. Configure the proxy on port 4502 of crx.  
+1. Configure the proxy on port 4502 of crx. 
+
    Add following configuration in `APACHE_HOME/conf/httpd.conf` configuration file.
 
    ```java
@@ -136,7 +137,7 @@ To improve the performance, you can direct the antivirus software to exclude the
 
 * AEM Installation directory. If it is not possible to exclude complete directory, exclude the following:
 
-    * [AEM installation directory]\crx-repository\temp  
+    * [AEM installation directory]\crx-repository\temp 
     * [AEM installation directory]\crx-repository\repository
     * [AEM installation directory]\crx-repository\launchpad
 

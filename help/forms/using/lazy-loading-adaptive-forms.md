@@ -77,6 +77,7 @@ Important points to keep in mind while developing scripts for lazy loading panel
 * Ensure that initialize and calculate scripts used on the fields of a lazy loaded fragment are are idempotent in nature. Idempotent scripts are those which have same effect even after multiple executions.
 * Use the globally available property of fields to make value of fields located in a lazy loading panel available to all other panels of a form.
 * Do not forward reference value of a field inside a lazy panel irrespective of field being marked globally across fragments or not.
-* Use panel reset feature to reset everything visible on the panel by using the following click expression.  
+* Use panel reset feature to reset everything visible on the panel by using the following click expression.
+
   guideBridge.resolveNode(guideBridge.getFocus({"focusOption": "navigablePanel"})).resetData()
 

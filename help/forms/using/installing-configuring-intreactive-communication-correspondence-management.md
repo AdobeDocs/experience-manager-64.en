@@ -38,8 +38,7 @@ Before you begin to install and configure interactive communication and correspo
 * An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least one AEM instances (Author or Processing) to run AEM Forms interactive communication and correspondence management capabilities:
 
     * **Author**: An AEM instance used to create, upload, and edit content and to administer the website. Once content is ready to go live, it is replicated to the publish instance.
-    * **Processing:** A processing instance is a [hardened AEM Author](/help/forms/using/hardening-securing-aem-forms-environment.md) instance. You can set up an Author instance and harden it after performing the installation.   
-    
+    * **Processing:** A processing instance is a [hardened AEM Author](/help/forms/using/hardening-securing-aem-forms-environment.md) instance. You can set up an Author instance and harden it after performing the installation. 
     * **Publish**: An AEM instance that serves the published content to the public over the Internet or an internal network.
 
 * Memory requirements are met. AEM Forms add-on package requires:

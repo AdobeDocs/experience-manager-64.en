@@ -120,7 +120,7 @@ The other pairs follow the standard configuration:
 
     * Apache Sling Logging Logger Configuration 
       (org.apache.sling.commons.log.LogManager.factory.config.649d51b7-6425-45c9-81e6-2697a03d6be7)
-      
+  
     * Writes `Warning` messages to `../logs/error.log` for the service `org.apache.pdfbox`.
 
 * Does not link to a specific Writer so will create and use an implicit Writer with default configuration (daily log rotation).

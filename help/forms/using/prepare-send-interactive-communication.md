@@ -66,8 +66,7 @@ In the Content tab, manage the content such as document fragments and content va
 
     * [Formatting options](#formattingtext)
 
-        * [Copy paste formatted text from other applications](#pasteformattedtext)  
-        
+        * [Copy paste formatted text from other applications](#pasteformattedtext)
         * [Highlight parts of text](#highlightemphasize)
 
     * [Special characters](#specialcharacters)

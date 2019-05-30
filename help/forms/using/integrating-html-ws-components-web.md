@@ -19,8 +19,7 @@ You can use AEM Forms workspace [components](/help/forms/using/description-reusa
 1. Create a path `/apps/sampleApplication/wscomponents`.
 1. Copy css, images, js/libs, js/runtime, and js/registry.js
 
-    * from `/libs/ws`  
-    
+    * from `/libs/ws` 
     * to `/apps/sampleApplication/wscomponents`.
 
 1. Create a demomain.js file inside /apps/sampleApplication/wscomponents/js folder. Copy code from /libs/ws/js/main.js into demomain.js.

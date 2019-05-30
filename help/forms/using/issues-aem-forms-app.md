@@ -29,7 +29,8 @@ AEM Forms app for iOS configured to sync with AEM Forms on OSGi supports only fi
 
 1. On the connected server, navigate to **Adobe Experience Manager &gt; Tools &gt; Operations &gt; Web Console**.
 1. Find and click **Adaptive Form Configuration Service**.
-1. In the Adaptive Form Configuration Service dialog, enable **Make File Names Unique**.   
+1. In the Adaptive Form Configuration Service dialog, enable **Make File Names Unique**. 
+
    If **Make File Names Unique** setting is disabled, users experience data loss if they try to submit adaptive forms with multiple attachments.
 
 1. Click **Save**.
@@ -38,16 +39,16 @@ AEM Forms app for iOS configured to sync with AEM Forms on OSGi supports only fi
 
 For HTML5 forms enabled in AEM Forms app with **Save as Draft** HTML Render Profile, the saved drafts are not visible to workspace users. To view saved drafts of HTML5 forms submitted by workspace users on the portal, perform the following steps:
 
-1. Open CRXDE and login with administrator credentials.   
+1. Open CRXDE and login with administrator credentials. 
+
    URL: `https://<server>:<port>/lc/crx/de/index.jsp`
 
 1. In the root path of the CRXDE, in the Access Control List under Access Control, click **+**.
 1. In the **Add New Entry** dialog, click the group search button in the Principal field.
 1. In the Name field of the Select Principal dialog, type `PERM_WORKSPACE_USER` and click **Search**. 
-
 1. Select `PERM_WORKSPACE_USER` group in the Select Principal dialog and click **OK**.
+1. In the Add New Entry dialog, `PERM_WORKSPACE_USER` group is selected in the Principal field. 
 
-1. In the Add New Entry dialog, `PERM_WORKSPACE_USER` group is selected in the Principal field.   
    Enable `jcr:read` privileges for the user group.  
 
 1. Click **OK**.

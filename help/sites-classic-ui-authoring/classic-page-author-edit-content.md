@@ -67,9 +67,8 @@ To insert a new component:
 
 1. There are several methods of selecting the type of paragraph you want to insert:
 
-    * Double-click the area labeled **Drag components or assets here...** - the **Insert New Component** toolbar opens. Select a component and click **OK**.  
-    
-    * Drag a component from the floating toolbar (called sidekick) to insert a new paragraph.  
+    * Double-click the area labeled **Drag components or assets here...** - the **Insert New Component** toolbar opens. Select a component and click **OK**.
+    * Drag a component from the floating toolbar (called sidekick) to insert a new paragraph. 
     * Right-click an existing paragraph and select **New...** - the Insert New Component toolbar opens. Select a component and click **OK**.
 
    ![](assets/screen_shot_2012-02-15at115605am.png)

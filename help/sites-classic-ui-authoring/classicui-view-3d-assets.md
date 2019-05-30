@@ -38,7 +38,8 @@ In addition, the capabilities of the client computer-such as a workstation, note
 
 To view 3D assets:
 
-1. Make sure you have uploaded 3D assets into AEM.  
+1. Make sure you have uploaded 3D assets into AEM. 
+
    See [About the uploading and processing of 3D assets in AEM](/help/sites-classic-ui-authoring/classicui-upload-proc-3d.md).
 1. From **Adobe Experience Manager**, on the **Navigation** page, tap **Assets**.
 1. Near the upper-right corner of the page, from the View drop-down list, tap **Card View**.
@@ -48,8 +49,10 @@ To view 3D assets:
 
 1. Do any of the following:
 
-    * In the lower-right corner of the asset details page, use the camera control palette to change various views of the asset.  
-      If you use a non-touch input device without a scroll wheel, such as a classic Apple single-button mouse, you can still change the zoom or perspective of a 3D asset, while in each respective mode. You accomplish the action by pressing and holding down the `SHIFT`key while depressing the mouse button and dragging up or down.  
+    * In the lower-right corner of the asset details page, use the camera control palette to change various views of the asset. 
+
+      If you use a non-touch input device without a scroll wheel, such as a classic Apple single-button mouse, you can still change the zoom or perspective of a 3D asset, while in each respective mode. You accomplish the action by pressing and holding down the `SHIFT`key while depressing the mouse button and dragging up or down. 
+
       When using a touch pad on a typical notebook computer, it is often difficult to control the zoom or perspective behaviors with the two-finger gesture. In such cases, you can press and hold down `SHIFT`during the action. This kind of effort reduces the velocity of the pinch gesture and makes it easier to achieve the exact zoom level or perspective that you want. Alternately, you can use a one finger drag up or down while the `SHIFT`key is pressed to affect zoom or perspective behaviors.
 
 <table> 
@@ -93,21 +96,24 @@ To view 3D assets:
 
    ![](do-not-localize/chlimage_1-2.png)
 
-   Stages provide the environment-background, ground plane, and lighting-in which the 3D model is viewed.  
+   Stages provide the environment-background, ground plane, and lighting-in which the 3D model is viewed. 
+
    See [About the use of stages in AEM 3D](/help/sites-classic-ui-authoring/classicui-stages-aem3d.md).
 
     * Near the upper-right corner of the asset details page, tap the Camera Selector icon, then select a camera view that you want to apply to the 3D asset.
 
    ![](do-not-localize/chlimage_1-3.png)
 
-   Stages often provide pre-defined cameras. You can re-select the current camera to restore it to its pre-defined settings.  
+   Stages often provide pre-defined cameras. You can re-select the current camera to restore it to its pre-defined settings. 
+
    See [About the use of stages in AEM 3D](/help/sites-classic-ui-authoring/classicui-stages-aem3d.md).
 
 1. In the upper-right corner of the page, tap **Save**.
 1. Do one of the following:
 
-    * Render the 3D asset.  
+    * Render the 3D asset. 
+  
       See [Rendering 3D assets](/help/sites-classic-ui-authoring/classicui-rendering-3d.md).
-    
+  
     * In the upper-right corner of the page, tap **Close **to return to the Assets page.
 
