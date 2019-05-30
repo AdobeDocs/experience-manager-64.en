@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 8e38a597-5d22-4d83-95fe-4494fb04e4a3
 ---
 
-# Programmatically Disassembling PDF Documents{#programmatically-disassembling-pdf-documents}
+# Programmatically Disassembling PDF Documents {#programmatically-disassembling-pdf-documents}
 
 You can disassemble a PDF document by passing it to the Assembler service. Typically, this task is useful when the PDF document was originally created from many individual documents, such as a collection of statements. In the following illustration, DocA is divided into multiple resultant documents, where the first level 1 bookmark on a page identifies the start of a new resultant document.
 
@@ -34,7 +34,7 @@ For the purpose of this discussion, assume the following DDX document is used.
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you be familiar with assembling PDF documents by using the Assembler service. (See [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents).)
+>Before reading this section, it is recommended that you be familiar with assembling PDF documents by using the Assembler service. (See [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md).)
 
 >[!NOTE]
 >
@@ -100,15 +100,11 @@ All disassembled PDF documents are returned within a collection object. Iterate 
 
 **See also**
 
-[Disassemble a PDF document using the Java API](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-java.md#disassemble-a-pdf-document-using-the-java-api)
-
-[Disassemble a PDF document using the web service API](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-web.md#disassemble-a-pdf-document-using-the-web-service-api)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md)
 
 ## Disassemble a PDF document using the Java API {#disassemble-a-pdf-document-using-the-java-api}
 

@@ -20,7 +20,7 @@ You can create a web-based application that uses Java servlets to invoke the For
 
 >[!NOTE]
 >
->This section describes how to create a web-based application that uses a Java servlet that invokes the Forms service and renders forms-based on fragments. (See [Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering-forms-based-on-fragments).)
+>This section describes how to create a web-based application that uses a Java servlet that invokes the Forms service and renders forms-based on fragments. (See [Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-based-fragments.md).)
 
 Using a Java servlet, you can write a form to a client web browser so that a customer can view and enter data into the form. After populating the form with data, the web user clicks a submit button located on the form to send information back to the Java servlet, where the data can be retrieved and processed. For example, the data can be sent to another process.
 

@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 693859b0-a0c3-43f1-95c0-be48a90d7d8d
 ---
 
-# Validating DDX Documents{#validating-ddx-documents}
+# Validating DDX Documents {#validating-ddx-documents}
 
 You can programmatically validate a DDX document that is used by the Assembler service. That is, using the Assembler service API, you can determine whether or not a DDX document is valid. For example, if you upgraded from a previous AEM Forms version and you want to ensure that your DDX document is valid, you can validate it using the Assembler service API.
 
@@ -73,15 +73,15 @@ The Assembler service returns the validation results that you can write to a XML
 
 **See also**
 
-[Validate a DDX document using the Java API](/help/forms/developing/validating-ddx-documents-validating-ddx validate-ddx-document-using-java.md#validate-a-ddx-document-using-the-java-api)
+[Validate a DDX document using the Java API](#validate-a-ddx-document-using-the-java-api)
 
-[Validate a DDX document using the web service API](/help/forms/developing/validating-ddx-documents-validating-ddx validate-ddx-document-using-web.md#validate-a-ddx-document-using-the-web-service-api)
+[Validate a DDX document using the web service API](#validate-a-ddx-document-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md)
 
 ## Validate a DDX document using the Java API {#validate-a-ddx-document-using-the-java-api}
 

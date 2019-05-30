@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 245b9cc4-5837-4a22-b5f4-a1d4c5d66918
 ---
 
-# Barcoded Forms Service Java API Quick Start(SOAP) {#barcoded-forms-service-java-apiquick-start-soap}
+# Barcoded Forms Service Java API Quick Start (SOAP) {#barcoded-forms-service-java-apiquick-start-soap}
 
 Java API Quick Start(SOAP) is available for the Barcoded Forms service:
 

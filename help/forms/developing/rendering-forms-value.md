@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: ddbb2b82-4c57-4845-a5be-2435902d312b
 ---
 
-# Rendering Forms By Value{#rendering-forms-by-value}
+# Rendering Forms By Value {#rendering-forms-by-value}
 
 ## Rendering Forms by Value {#rendering-forms-by-value}
 
@@ -80,9 +80,9 @@ When the Forms service renders a form by value, it returns a form data stream th
 
 **See also**
 
-[Render a form by value using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms rendering-forms-value-rendering-forms.md#render-a-form-by-value-using-the-java-api)
+[Render a form by value using the Java API](#render-a-form-by-value-using-the-java-api)
 
-[Render a form by value using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms rendering-forms-value-rendering-forms.md#render-a-form-by-value-using-the-web-service-api)
+[Render a form by value using the web service API](#render-a-form-by-value-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -90,9 +90,9 @@ When the Forms service renders a form by value, it returns a form data stream th
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
+[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
 ### Render a form by value using the Java API {#render-a-form-by-value-using-the-java-api}
 
@@ -194,6 +194,6 @@ Render a form by value by using the Forms API (web service):
 
 **See also**
 
-[Rendering Forms By Value](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms.md#rendering-forms-by-value)
+[Rendering Forms By Value](#rendering-forms-by-value)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
