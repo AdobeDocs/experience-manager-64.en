@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 01d5677f-5c87-4a6e-987b-8eda9acc0b27
 ---
 
-# Working with XMP Utilities{#working-with-xmp-utilities}
+# Working with XMP Utilities {#working-with-xmp-utilities}
 
 **About the XMP Utilities Service**
 

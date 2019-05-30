@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: ebe8136b-2a79-4035-b9d5-aa70a5bbd4af
 ---
 
-# Programmatically Assembling PDF Documents{#programmatically-assembling-pdf-documents}
+# Programmatically Assembling PDF Documents {#programmatically-assembling-pdf-documents}
 
 You can use the Assembler Service API to assemble multiple PDF documents into a single PDF document. The following illustration shows three PDF documents being merged into a single PDF document. 
 
@@ -141,10 +141,6 @@ The following table summarizes some of the key values and object types that can 
 
 **See also**
 
-[Assemble PDF documents using the Java API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble-pdf-documents-using-the-java-api)
-
-[Assemble PDF documents using the web service API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble-pdf-documents-using-the-web-service-api)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
@@ -207,8 +203,6 @@ Assemble a PDF document by using the Assembler Service API (Java):
    >If `*LOG_LEVEL*` was set to produce a log, you can extract the log by using the `*AssemblerResult*` object's `*getJobLog*` method.
 
 **See also**
-
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 [Quick Start (SOAP mode): Assembling a PDF document using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-a-pdf-document-using-the-java-api)
 
@@ -290,7 +284,5 @@ Assemble PDF documents by using the Assembler Service API (web service):
    >If `LOG_LEVEL` was set to produce a log, you can extract the log by getting the value of the `AssemblerResult` object's `jobLog` data member.
 
 **See also**
-
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

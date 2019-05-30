@@ -18,7 +18,7 @@ At the AEM Foundation level, the Personal Data that is stored  is  the User Prof
 
 ### Manual Steps {#manual-steps}
 
-1. Open the User Administration console, by browsing to **Settings - Security - Users **or by browsing directly to `https://<serveraddress>:<serverport>/libs/granite/security/content/useradmin.html`
+1. Open the User Administration console, by browsing to **[!UICONTROL Settings - Security - Users]** or by browsing directly to `https://<serveraddress>:<serverport>/libs/granite/security/content/useradmin.html`
 
    ![](assets/useradmin2.png)
 
@@ -26,7 +26,7 @@ At the AEM Foundation level, the Personal Data that is stored  is  the User Prof
 
    ![](assets/usersearch.png)
 
-1. Finally, open the user profile by clicking it, then check under the **Details** tab.
+1. Finally, open the user profile by clicking it, then check under the **[!UICONTROL Details]** tab.
 
    ![](assets/userprofile_small.png)
 
@@ -82,24 +82,24 @@ curl -u user:password  'http://localhost:4502/home/users/we-retail/DSCP-athB1NYL
 
 ### Delete User Profile Information {#delete-user-profile-information}
 
-1. Log in to CRXDE Lite, then search for the `userId`: 
+1. Log in to CRXDE Lite, then search for the `[!UICONTROL userId]`: 
 
    ![](assets/image2018-2-6_1-57-11.png)
 
-1. Open the user node which is located under `/home/users` by default:
+1. Open the user node which is located under `[!UICONTROL /home/users]` by default:
 
    ![](assets/image2018-2-6_1-58-25.png)
 
 1. Delete profile nodes and all their children. There are two formats to the profile nodes, depeding on the AEM version:
 
-    1. The default private profile under `/profile` 
-    1. `/profiles`, for new profiles created using AEM 6.4.
+    1. The default private profile under `[!UICONTROL /profile]` 
+    1. `[!UICONTROL /profiles]`, for new profiles created using AEM 6.4.
 
    ![](assets/image2018-2-6_2-0-4.png)
 
 ### HTTP API {#http-api-1}
 
-The following procedures use the `curl` command line tool to illustrate how to disable the user with the **cavery** `userId` and delete her profiles available at the default location.
+The following procedures use the `curl` command line tool to illustrate how to disable the user with the **[!UICONTROL cavery]** `userId` and delete her profiles available at the default location.
 
 * *Discovering the user home*
 
