@@ -228,6 +228,7 @@ To localize an adaptive form that contains adaptive form fragments, you need to 
 * (**Mac only**) To ensure that the form fragments functionality works perfectly in all the scenarios, add the following entry to the /private/etc/hosts file: 
 
   `127.0.0.1 <Host machine>`
+
   **Host machine**: The Apple Mac machine on which AEM Forms is deployed.
 
 ## Reference Fragments {#reference-fragments}

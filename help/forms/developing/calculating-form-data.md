@@ -149,7 +149,7 @@ Calculate form data by using the Forms API (Java):
         * A `RenderOptionsSpec` object that stores run-time options.
 
       The `processFormSubmission` method returns a `FormsResult` object containing the results of the form submission.
-    
+
     * Verify that the processing state associated with a submitted form is `1` by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `1`, the calculation was performed and the data can be written back to the client web browser.
 
 1. Write the form data stream back to the client web browser
@@ -203,7 +203,7 @@ Calculate form data by using the Forms API (web service):
         * An empty `FormsResultHolder` object that is populated by the method with the form that is submitted.
 
       The `processFormSubmission` method populates the `FormsResultHolder` parameter with the results of the form submission. The `processFormSubmission` method returns a `FormsResult` object containing the results of the form submission.
-    
+
     * Verify that the processing state associated with a submitted form is `1` by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `1`, the calculation was performed and the data can be written back to the client web browser.
 
 1. Write the form data stream back to the client web browser
