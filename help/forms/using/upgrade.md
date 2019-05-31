@@ -126,8 +126,7 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
 1. Verify that the server is upgraded successfully, all the data is also migrated successfully, and it can operate normally.
 
-    * **Verify the status of the bundles:** Ensure that all the bundles are in active state.  
-    
+    * **Verify the status of the bundles:** Ensure that all the bundles are in active state.
     * **Verify replication and reverse replication:** Publish, fill, and submit a few migrated forms. Verify the submitted data also.
     * **Verify access to admin and developer user interfaces:** Log in to AEM instance from an admin account and verify that you have access to the following URLs:
 
@@ -185,7 +184,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 1. Perform the upgrade:
 
     1. Install AEM 6.4 Forms on JEE on a new server by running the installation program. The installer places all of the required files onto your computer, within one installation directory structure.  
-    1. After installation is complete, run the **Configuration Manager **to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository.
+    1. After installation is complete, run the **Configuration Manager** to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository.
 
        >[!NOTE]
        >
@@ -230,6 +229,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES3 s
         *   You do not require Content Repository for AEM Forms Document Security.
         
         Moreover, repository type of LiveCycle and AEM Forms are different. For available repository types and related information, see [Choosing a persistence type for an AEM Forms installation](/help/forms/using/choosing-persistence-type-for-aem-forms.md).
+
     1.  Create a backup of LiveCycle ES3 database, Global Data Storage (GDS), and Content Repository (not required for document security). If you're upgrading to MongoMK or RDBMK persistence, export LiveCycle ES3 correspondence management assets as an archive.
     1.  Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the [Supported Platform Combinations](/help/forms/using/aem-forms-jee-supported-platforms.md) document.
         
@@ -274,8 +274,7 @@ Upgrade your AEM 6.2 instance to AEM 6.3. For step by step instructions, see [ht
 Migration involves moving only assets (PDF, XDP, images, adaptive forms, correspondence management assets) from one server to another - processes (LCA), settings, configurations, and a few other pieces of metadata are not migrated. Perform the following steps to migrate to AEM 6.3 Forms:
 
 1. Set up a fresh environment of [AEM 6.3 Forms](https://adobe.com/go/learn_aemforms_documentation_63). 
-1. Move XDP or other compatible assets to the freshly set instance. For detailed instructions, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md). [  
-   ](/help/forms/using/import-export-forms-templates.md) 
+1. Move XDP or other compatible assets to the freshly set instance. For detailed instructions, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md). 
 1. Build the required services, if any.
 
    For example, if you are using AEM Forms on JEE Document Services, changes are required in the code to use document services available in AEM Forms on OSGi.

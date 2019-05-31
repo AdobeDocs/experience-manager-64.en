@@ -88,10 +88,8 @@ You can download the following resources (images and add these to assets) and fu
 
 Implementing Dynamic Embedded Sequence in an AEM Screens project involves three major tasks:
 
-1. **Setting up Project taxonomy including Channels, Locations, and Displays  
-   **
-1. **Creating a Schedule   
-   **
+1. **Setting up Project taxonomy including Channels, Locations, and Displays**
+1. **Creating a Schedule**
 1. **Assigning Schedule to each display**
 
 Follow the steps below to implement the functionality:
@@ -119,11 +117,8 @@ Follow the steps below to implement the functionality:
 1. **Create two Locations and a Channel under each location folder.**
 
     1. Navigate to **Demo** --&gt; **Locations** --&gt; **Region A**.
-    
     1. Select **Region A **and click **+ Create** from the action bar.
-    
-    1. Select **Location** from the wizard with **Title** as **Store 1**. Similarly, create another location from the wizard titled as **Store 2** with **Title** as **Store 2**. You can leave the **Name** field empy while creating **Store 1** and **Store 2**.  
-    
+    1. Select **Location** from the wizard with **Title** as **Store 1**. Similarly, create another location from the wizard titled as **Store 2** with **Title** as **Store 2**. You can leave the **Name** field empy while creating **Store 1** and **Store 2**. 
     1. Repeat step (b) and now select **Sequence Channel** from the wizard. Enter the **Title** as **Region A** and **Name** as **region **for this channel.
 
    >[!CAUTION]
@@ -143,11 +138,8 @@ Follow the steps below to implement the functionality:
 1. **Create Display and Channel under each Location.**
 
     1. Navigate to **Demo** --&gt; **Locations** --&gt; **Region A** --&gt; **Store 1**.  
-    
     1. Select **Store 1 **and click **+ Create** from the action bar.
-    
     1. Select **Display** from the wizard and create **Store1Display.** 
-    
     1. Repeat step (b) and this time select **Sequence Channel** from the wizard. Enter the **Title** as **Store1Channel** and the **Name** as **store**.
 
    >[!CAUTION]
@@ -208,43 +200,28 @@ Follow the steps below to implement the functionality:
 1. **Assign Channels to a Schedule**
 
     1. Navigate to **Demo** --&gt; **Schedules** --&gt; **AdSchedule** and click **Dashboard** from the action bar.
-    
     1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
-    
     1. Select **Reference Channel**.. by path.
-    1. Select the **Channel Path** as **Demo*** --&gt; ***Channels*** --&gt; ***Global***.* 
-    
+    1. Select the **Channel Path** as **Demo*** --&gt; ***Channels*** --&gt; ***Global***.
     1. Enter the **Channel Role** as **GlobalAdSegment**.
-    
-    1. Select the **Supported Events** as **Initial Load**, **Idle Screen**, and **User Interaction**.* 
-       *
-    
-    1. Click **Save**.* 
-       *
+    1. Select the **Supported Events** as **Initial Load**, **Idle Screen**, and **User Interaction**.
+    1. Click **Save**.
 
    **Assign Channel by Role for Region:**
 
     1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
-    
     1. Select **Reference Channel**.. by name.
     1. Enter the **Channel Name** as **region***.*
-    
     1. Enter the **Channel Role** as **RegionAdSegment**.
-    
-    1. Click **Save**.* 
-       *
+    1. Click **Save**.
 
    **Assign Channel by Role for Store:**
 
     1. Click **+ Assign Channel** from **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
-    
     1. Select **Reference Channel**.. by name.
-    1. Enter the **Channel Name** as **store***.*
-    
+    1. Enter the **Channel Name** as **store**.
     1. Enter the **Channel Role** as **StoreAdSegment**.
-    
-    1. Click **Save**.* 
-       *
+    1. Click **Save**.
 
    The following image shows the assigned channels by path and by role.
 
@@ -269,12 +246,9 @@ Follow the steps below to implement the functionality:
 1. **Assigning Schedule to each Display**
 
     1. Navigate to the each display, such as **Demo** --&gt; **Locations** --&gt; **Region A** --&gt;**Store 1** --&gt;**Store1Display**.
-    
     1. Click **Dashboard** from the action to open the display dashboard.
     1. Click **...** from the **ASSIGNED CHANNELS & SCHEDULES** panel and further click **+Assign Schedule**.
-    
     1. Select the path to the Schedule (for example, here, **Demo** --&gt; **Schedules** --&gt;**AdSchedule**).
-    
     1. Click **Save**.
 
 ## Viewing the Results {#viewing-the-results}
@@ -335,25 +309,20 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
     1. Navigate to **Adobe Experience Manager**.
     1. Click **Tools** --&gt; **Security** --&gt; **Groups**.
-    
     1. Click **Create Group** and enter **Global-Author** in **ID**.
-    
     1. Click **Save & Close**.
 
    Similarly, create two other groups such as **Region-Author** and **Store-Author**.   
+
    ![](assets/screen_shot_2018-09-17at34008pm.png)
 
 1. **Create Users and add Users to Groups**
 
     1. Navigate to **Adobe Experience Manager**.
     1. Click **Tools** --&gt; **Security** --&gt; **Users**.
-    
     1. Click **Create User** and enter **Global-User** in **ID**.
-    
     1. Enter **Password** and confirm password for this user.  
-    
     1. Click the **Groups** tab and enter the group name in **Select Group**, for example, enter **Global-Author** to add **Global-User** to that specific group.  
-    
     1. Click **Save & Close**.
 
    Similarly, create two other users such as **Region-User** and **Store-User** and add those to **Region-Author** and **Store-Author** respectively.
@@ -368,18 +337,14 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
     1. Navigate to **Adobe Experience Manager**.
     1. Click **Tools** --&gt; **Security** --&gt; **Groups**.
-    
     1. Select **Contributors** from the list and select **Members** tab.
-    
     1. Select the **Group** such as **Global-Author**, **Region-Author,** and **Store-Author** to contributors.
-    
     1. Click **Save & Close**.
 
 1. **Accessing Permissions for Each Group**
 
     1. Navigate to the *Useradmin* and use this UI to modify the permissions for different groups.
     1. Search for **Global-Author** and click **Permissions** tab, as shown in the figure below.
-    
     1. Similarly, you can access the permissions for **Region-Author** and **Store-Author**.
 
    ![](assets/screen_shot_2018-09-18at73523am.png)
@@ -420,13 +385,9 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
     1. Navigate to the **Permissions** tab.
     1. Navigate to ***/content/screens/demo*** and check only the **Read** permissions.
-    
     1. Navigate to ***/content/screens/demo/locations*** and check only the **Read** permissions.  
-    
     1. Navigate to ***/content/screens/demo/channels*** and un-check the permissions for **Global** channel.
-    
     1. Navigate to ***/content/screens/demo/locations/region-a*** and check only the **Read** permissions. Similarly, check only the **Read** permissions for **region-b**.
-    
     1. Navigate to ***/content/screens/demo/locations***/***region-a /store-1*** and check all the permissions. Similarly, check the permissions for **store-2, store-3,** and **store-4**.
 
    Please refer to the figure below for understanding the steps:

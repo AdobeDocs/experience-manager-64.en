@@ -163,13 +163,13 @@ Do the following to configure the form data model:
 
         * **Title**: Specify title of the service. For example: Retrieve Shipping Address.
         * **Description**: Specify description containing detailed functioning of the service. For example:  
+
           This service retrieves shipping address and other customer details from MySQL database
-        
+
         * **Output Model Object**: Select schema containing customer data. For example:  
+
           customerdetail schema
-        
         * **Return array**: Disable the **Return array** option.
-        
         * **Arguments**: Select argument named **ID**.
 
        Tap **Done**. Service to retrieve customer details from the MySQL database is configured.
@@ -181,14 +181,16 @@ Do the following to configure the form data model:
     1. Specify the following in the Edit Properties dialog:
 
         * **Title**: Specify title of the service. For example, Update Shipping Address.
+
         * **Description**: Specify description containing detailed functioning of the service. For example:  
+
           This service updates shipping address and related fields in MySQL database
         
         * **Input Model Object**: Select schema containing customer data. For example:  
+
           customerdetail schema
         
         * **Output type**: Select **BOOLEAN**.  
-        
         * **Arguments**: Select argument named **ID** and **customerdetails**.
 
        Tap **Done**. The **update** service to update customer details in the MySQL database is configured.

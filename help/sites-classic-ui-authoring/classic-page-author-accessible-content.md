@@ -80,10 +80,12 @@ The **Alt Text** field is available in the **Advanced** image properties tab of 
 
 AEM adds an **Alt Text** to your images by default. For the classic UI there are two different scenarios for how the default attribute is created (though the default value may not be sufficient as an alternative and will most likely need to be edited in the **Advanced** image properties tab):
 
-* File:  
+* File: 
+
   An image is uploaded from the user’s hard drive. If you add an image component to a page and then choose an image from your hard drive, or another source, the default value for **Alt Text** is `file`. This must be changed in the **Advanced** image properties tab. Again, this value is not displayed in the **Alt Text** field, but when the value is changed, the new value is displayed in the field.
 
-* Asset:  
+* Asset: 
+
   An image is added from the digital asset repository. If you drag an image from the digital asset repository to a web page, then the **Title** and **Alt Text** values for that image will be taken from the metadata for that image.
 
 >[!NOTE]
@@ -113,11 +115,16 @@ The [W3C draft: HTML5 Techniques for providing useful text alternatives](https:/
 
 Specific types of non-text content that require text alternatives might include:
 
-* Illustrative photos:  
+* Illustrative photos: 
+
   These are images of people, objects or places. Think about the role of the photo in the page; an appropriate text equivalent is likely to be *Photo of [object]*, but may be dependent on the surrounding text.
+
 * Icons:
+
   These are small pictograms (graphics) conveying specific information. They must be consistently used across a page and site. All instances of the icon on a page or site should have the same short and succinct text alternative, unless doing so results in unnecessary duplication of adjacent text.
+
 * Charts and graphs:  
+
   These typically represent numerical data. So one option for providing a text alternative might be to include a brief summary of the main trends shown in the chart or graphic. If necessary, also provide a more detailed description in text using the **Description** field in the **Advanced** image properties tab. Additionally, you could provide the source data in tabular form elsewhere in the page or site.
 
   ![Example of a graph. Below is the best approach to providing an alternative.](assets/chlimage_1-2.jpeg)
@@ -137,9 +144,13 @@ Specific types of non-text content that require text alternatives might include:
   In AEM this can be done using a combination of the **Alt Text** and **Description** fields in the image’s configuration dialog - as in [How to Meet - Non-text Content (1.1.1)](#how-to-meet-non-text-content).
 
 * Maps, diagrams, flowcharts:  
+
   For graphics providing spatial data (for example. to support describing relationships between objects or a process), ensure that the key message is provided in text format. For maps, providing a full text equivalent is likely to be impractical, but if the map is provided as a way of helping people find their way to a particular location, then the map image’s alternative text can briefly indicate *Map of X*, then provide directions to that location in text elsewhere in the page or through the **Description** field in the **Advanced** tab of the **Image** component.
+
 * CAPTCHAs:  
+
   A CAPTCHA is a *Completely Automated Public Turing test to tell Computers and Humans Apart*. It is a security check used on web pages to distinguish humans from malicious software, but which can cause accessibility barriers. They are images that require users to describe what they see in order to pass a security test. Providing a text alternative for the image is obviously not possible, so instead you will need to consider alternative non-graphic solutions.  
+
   The W3C provides a number of suggestions, such as:Each of these approaches has their own merits and drawbacks.
 
     * Logic puzzles
@@ -147,7 +158,9 @@ Specific types of non-text content that require text alternatives might include:
     * Limited use accounts and spam filters.
 
 * Background images:  
+
   These are achieved using Cascading Style Sheets (CSS) rather than in HTML. This means it is not possible to specify an alternative text value. Therefore background images should not provide important textual information - if they do, this information must also be provided in the page’s text.  
+
   However, it is important that an alternative background is displayed when the image cannot be displayed.
 
   >[!NOTE]
@@ -193,6 +206,7 @@ Providing this information in a different format, such as text (or audio for vid
 * If the content is pre-recorded audio with no video (such as a podcast):
 
     * Provide a link immediately before or after the content to a text-transcript of the audio content.  
+
       The transcript should be an HTML page with a text equivalent of all spoken and important non-spoken content, plus an indication of who is speaking, a description of the setting, vocal expressions and a description of any other significant audio.
 
 * If the content is an animation or pre-recorded video with no audio:
@@ -269,7 +283,6 @@ There are two approaches that can be adopted to meet this success criterion. Eit
     * Provide an new, additional and optional audio track containing the original soundtrack, but also including extra audio information about changes in the scene.
 
         * This allows users to switch between the existing audio track (which *does not* contain an audio description) and the new audio track (which *does* contain an audio description).
-        
         * This prevents disruption to users who do not need the additional description.
 
     * Create a second version of the video content to allow for extended audio descriptions. This reduces the difficulties associated with providing detailed audio descriptions within the gaps between existing dialogue, by temporarily pausing the audio and video at appropriate points. As a result, a much longer audio description can be given, before the action starts again. As in the previous example, this is best provided as an optional extra audio track in order to prevent disruption to users who do not need the additional description.
@@ -385,10 +398,12 @@ You can make sure your web pages are given the appropriate structure by:
 
 * **Use lists**: You can use HTML to specify three different types of lists:
 
-    * The `<ul>` element is used for *unordered* lists (bulleted) lists. Individual list items are identified using the `<li>` element.  
+    * The `<ul>` element is used for *unordered* lists (bulleted) lists. Individual list items are identified using the `<li>` element. 
+
       in the RTE, use the **Bulleted List** icon.
     
-    * The `<ol>` element is used for *numbered* lists. Individual list items are identified using the `<li>` element.  
+    * The `<ol>` element is used for *numbered* lists. Individual list items are identified using the `<li>` element. 
+
       In the RTE, use the **Numbered List** icon.
 
   If you want to change existing content into a specific list type, highlight the appropriate text and select the appropriate list type. As in the earlier example showing how paragraph text is entered, the appropriate list elements are automatically added to your HTML, but you can view this in source edit view.
@@ -815,10 +830,12 @@ The purpose of this success criterion is to make sure that text and other lingui
 
 To meet this success criterion, the default language of a web page can be identified using the `lang` attribute within the `<html>` element at the top of the page. For example:
 
-* If a page is written in British English, the `<html>` element should read:  
+* If a page is written in British English, the `<html>` element should read: 
+
   `<html lang = “en-gb”>`
 
-* Whereas a page to be rendered as US English should adopt the following standard:  
+* Whereas a page to be rendered as US English should adopt the following standard: 
+
   `<html lang = “en-us”>`
 
 In AEM, the default language of your page is set when creating the page, but may also be changed when editing a page, which is accessible by **Sidekick** - **Page** tab - **Page Properties...** - **Advanced** tab.
@@ -923,8 +940,11 @@ If input for a form field is mandatory, make this clear by using the word requir
 The positioning of labels is also important as it helps them to locate appropriate fields. This is of particular importance when the user is faced with a complex form. Follow the convention below:
 
 * Checkboxes or radio buttons:   
+
   Labels are positioned immediately to the right of the field.
-* All other form components (e.g. text boxes, combo boxes):   
+
+* All other form components (e.g. text boxes, combo boxes):  
+
   Labels are positioned either immediately above or immediately to the left of the field.
 
 In simple forms with very limited functionality, appropriately labelling a `Submit` button can act as a label for the adjacent field (for example `Search`). This is useful in situations when finding space for the label text might be difficult.

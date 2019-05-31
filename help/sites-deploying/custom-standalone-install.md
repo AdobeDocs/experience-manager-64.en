@@ -274,10 +274,12 @@ Before installing the Publish instance on your EC2 environment, do the following
 
 The following links can be used to verify that your installation is operational (all examples are on the basis that the instance is running on port 8080 of the localhost, that CRX is installed under /crx and Launchpad under /):
 
-* `http://localhost:8080/crx/de`  
+* `http://localhost:8080/crx/de`
+
   The CRXDE Lite console.
 
-* `http://localhost:8080/system/console`  
+* `http://localhost:8080/system/console`
+
   The Web Console.
 
 ## Actions after Installation {#actions-after-installation}

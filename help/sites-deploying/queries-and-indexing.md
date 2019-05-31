@@ -78,8 +78,7 @@ The Property Index is generally useful for queries that have property constraint
 1. Name the node **PropertyIndex**, and set the node type to **oak:QueryIndexDefinition**
 1. Set the following properties for the new node:
 
-    * **type:**  `property` (of type String)  
-    
+    * **type:**  `property` (of type String) 
     * **propertyNames:**  `jcr:uuid` (of type Name)
 
    This particular example will index the `jcr:uuid` property, whose job is to expose the universally unique idetifier (UUID) of the node it is attached to.
@@ -117,8 +116,7 @@ You can configure a Lucene full-text index, by following the below procedure:
 1. Name the node **LuceneIndex** and set the node type to **oak:QueryIndexDefinition**
 1. Add the following properties to the node:
 
-    * **type:**  `lucene` (of type String)  
-    
+    * **type:**  `lucene` (of type String)
     * **async:**  `async` (of type String)
 
 1. Save the changes.
@@ -126,9 +124,7 @@ You can configure a Lucene full-text index, by following the below procedure:
 The Lucene Index has the following configuration options:
 
 * The **type** property which will specify the type of index must be set to **lucene**
-
 * The **async** property which must be set to **async**. This will send the index update process to a background thread.
-
 * The **includePropertyTypes** property, which will define what subset of property types will be included in the index.
 * The **excludePropertyNames** property which will define a blacklist of property names - properties that should be excluded from the index.
 * The **reindex** flag which when set to **true**, triggers a full content re-index.
@@ -148,7 +144,6 @@ select * from [nt:base] where [alias] = '/admin'
 In order to define a Lucene Property Index for the above query, you can add the following definition by creating a new node under **oak:index:**
 
 * **Name:** `LucenePropertyIndex`
-
 * **Type:** `oak:QueryIndexDefinition`
 
 Once the node has been created, add the following properties:
@@ -157,7 +152,7 @@ Once the node has been created, add the following properties:
 
   ```
   lucene (of type String)
-  
+
   ```
 
 * **async:** 
@@ -211,9 +206,7 @@ If you wish to use any out of the box analyzer, you can configure it following t
 1. Add a property to the default node with the following properties:
 
     * **Name:** `class`
-    
     * **Type:** `String`
-    
     * **Value:** `org.apache.lucene.analysis.standard.StandardAnalyzer`
 
    The value is the name of the analyzer class you wish to use.
@@ -221,9 +214,7 @@ If you wish to use any out of the box analyzer, you can configure it following t
    You can also set the analyzer to be used with a specific lucene version by using the optional `luceneMatchVersion` string propery. A valid synthax for using it with Lucene 4.7 would be:
 
     * **Name:** `luceneMatchVersion`
-    
     * **Type:** `String`
-    
     * **Value:** `LUCENE_47`
 
    If `luceneMatchVersion` is not provided, Oak will use the version of Lucene it is shipped with.
@@ -231,7 +222,6 @@ If you wish to use any out of the box analyzer, you can configure it following t
 1. If you wish to add a stopwords file to the analyzer configurations, you can create a new node under the `default` one with the following properties:
 
     * **Name:** `stopwords`
-    
     * **Type:** `nt:file`
 
 #### Creating Analyzers via Composition {#creating-analyzers-via-composition}
@@ -245,11 +235,9 @@ Consider this node structure as an example:
     * **Name:** `default`
 
         * **Name:** `charFilters`
-        
         * **Type:** `nt:unstructured`
 
             * **Name:** `HTMLStrip`
-            
             * **Name:** `Mapping`
 
         * **Name:** `tokenizer`
@@ -257,21 +245,17 @@ Consider this node structure as an example:
             * **Property Name:** `name`
 
                 * **Type:** `String`
-                
                 * **Value:** `Standard`
 
         * **Name:** `filters`
-        
         * **Type:** `nt:unstructured`
 
             * **Name:** `LowerCase`
-            
             * **Name:** `Stop`
 
                 * **Property name:** `words`
 
                     * **Type:** `String`
-                    
                     * **Value:** `stop1.txt, stop2.txt`
 
                 * **Name:** `stop1.txt`
@@ -326,9 +310,7 @@ You can configure the embedded Solr server by:
 1. Add a node called **solrlndex** of type **oak:QueryIndexDefinition** under **oak:index** with the following properties:
 
     * **type:** `solr`(of type String)
-    
     * **async:** `async`(of type String)
-    
     * **reindex:** `true`(of type Boolean)
 
 1. Save the changes.
@@ -340,11 +322,11 @@ AEM can also be confiured to work with a remote Solr server instance:
 1. Download and extract the latest version of Solr. For more info on how to do this, please consult the [Apache Solr Installation documentation](https://cwiki.apache.org/confluence/display/solr/Installing+Solr).
 1. Now, create two Solr shards. You can do this by creating folders for each shard in the folder where Solr has been upacked:
 
-    * For the first shard, create the folder: ``
+    * For the first shard, create the folder: 
 
    `<solrunpackdirectory>\aemsolr1\node1`
 
-    * For the second shard, create the folder: ``
+    * For the second shard, create the folder: 
 
    `<solrunpackdirectory>\aemsolr2\node2`
 

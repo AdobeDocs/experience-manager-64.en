@@ -93,29 +93,37 @@ The dialog allows you to edit properties for your instance of the Adaptive Image
 * **Image**
 
     * **Image** 
+
       Drag an image from the content finder or click to open a browse window where you can load an image. After the image is loaded, you can crop the image, rotate it, or delete it. To zoom in and out of the image, use the slide bar beneath the image (above the OK and Cancel buttons)
     
     * **Crop** 
+
       Crop an image. Drag the border to crop the image.
     
     * **Rotate** 
+
       Click Rotate repeatedly until the image is rotated as desired.
     
     * **Clear** 
+
       Remove the current image.
 
 * **Advanced**
 
     * **Title** 
+
       The Adaptive Image component does not use this property.
     
     * **Alt Text** 
+
       The alternate text to use for the image.
     
     * **Link To** 
+
       The Adaptive Image component does not use this property.
     
     * **Description** 
+
       The Adaptive Image component does not use this property.
 
 #### Extending the Adaptive Image Component {#extending-the-adaptive-image-component}
@@ -141,33 +149,42 @@ These are available in two tabs:
   Here you specify how the carousel operates:
 
     * Play Speed  
+
       The time in milliseconds before the next slide is shown.
     * Transition Time  
+
       Time in milliseconds for the transition between two slides.
     * Controls Style  
+
       Various options are available from a pulldown menu; for example, Prev / Next Buttons, Top-Right Switches.
 
 * **List** 
   Here you specify how pages are included in your Carousel:
 
     * **Build list using** 
+
       There are several ways to build a page list - Child Pages, Fixed List, Search, or Advanced Search (all described below).  
+
       Note that no matter which method you choose, the pages you include in your list should each already have an image associated with the page, it is this image that will be displayed in the Carousel. If there is no image for a given page under that page's Page Properties, you should associate an image with the page before beginning, as otherwise the Carousel will display a blank (or mostly blank) page. See [Editing Page Properties](/help/sites-classic-ui-authoring/classic-page-author-edit-page-properties.md).  
+
       Depending on the item you choose a new panel will appear:
 
         * **Options for Child Pages**
 
             * **Parent Page** 
+
               Specify a path either manually or using the selector. Leave empty to use the current page as parent.
 
         * **Options for Fixed List**
 
             * **Pages** 
+
               Select a list of pages. Use `+` to add more entries and the up/down buttons to adjust the order.
 
         * **Options for Search**
 
             * **Start in** 
+
               Enter a starting path, either manually or using the selector.  
             
             * **Search query** 
@@ -176,13 +193,17 @@ These are available in two tabs:
         * **Options for Advanced Search**
 
             * **Querybuilder predicate notation** 
+
               You can enter a search query using Querybuilder predicate notation. For example, you can enter "fulltext=Marketing" to have all pages with "Marketing" in their content show up in the Carousel.  
+
               See [QueryBuilder API](/help/sites-developing/querybuilder-api.md) for full discussion of query expressions and further examples.
 
     * **Order by** 
+
       Select `jcr:title`, `jcr:created`, `cq:lastModified`, or `cq:template` from the dropdown menu.  
     
     * **Limit** 
+
       The maximum number of items you would like to use in the Carousel; this is optional.
 
 >[!NOTE]
@@ -196,20 +217,25 @@ The Chart component lets you add a bar, line, or pie chart. AEM creates a chart 
 * **Data**
 
     * **Chart Data** 
+
       Enter your chart data using the CSV format; the Comma Separated Values format uses commas (“,”) as the field separator.
 
 * **Advanced**
 
     * **Chart Type** 
+
       Select from Pie Chart, Line Chart, and Bar Chart.
     
     * **Alternative text** 
+
       Alternative text that displays instead of the chart.
     
     * **Width** 
+
       Width of the chart in pixels.
     
     * **Height** 
+
       Height of the chart in pixels.
 
 The following show an example of chart data followed by the resulting Bar chart:
@@ -241,9 +267,11 @@ The Download component creates a link on the selected web-page to download a spe
 * **Download**
 
     * **Description** 
+
       A short description displayed with the download link.
     
     * **File** 
+
       File available for download on the resulting web-page. Drag an asset from the content finder or click the area to upload the file to be available for download.
 
 The following example shows the Download component in Geometrixx:
@@ -257,6 +285,7 @@ The external application integration component (**External**) enables you to emb
 * **External**
 
     * **Target application** 
+
       Specify the URL of the web application to be integrated; for example:
 
       ```    
@@ -265,10 +294,12 @@ The external application integration component (**External**) enables you to emb
       ```
 
     * **Pass parameters** 
+
       Check the box for parameters to be passed to the application when required.
     
-    * **Width and Height  
-      **Define the size of the iframe
+    * **Width and Height**  
+
+      Define the size of the iframe
 
 The external application is integrated into the paragraph system of the AEM page; for example, when using a Target application of `https://en.wikipedia.org/wiki/Main_Page`:
 
@@ -285,29 +316,37 @@ The Flash component lets you load a Flash movie. You can drag a flash asset from
 * **Flash**
 
     * **Flash movie** 
+
       The flash movie file. Either drag an asset from the content finder, or click to open a browse window.
     
     * **Size** 
+
       Dimensions in pixels of the display area holding the movie.
 
 * **Alternative Image** 
+
   An alternative image to be shown
 
 * **Advanced**
 
     * **Context menu** 
+
       Indicates whether the context menu should be shown or hidden.
     
     * **Window Mode** 
+
       How the window appears, for example opaque, transparent, or as a distinct (solid) window.
     
     * **Background color** 
+
       A background color selected from the color chart provided.
     
     * **Minimum version** 
+
       The minimum version of Adobe Flash Player required to run the movie. The default is 9.0.0.
     
     * **Attributes** 
+
       Any further attributes required.
 
 ### Image {#image}
@@ -331,33 +370,43 @@ You can either drag and drop an image from the [Content Finder](/help/sites-clas
 When an image is loaded, you can configure the following:
 
 * **Map** 
+
   To map an image, select Map. You can specify how you want to create the image map (rectangle, polygon, and so on) and where the area should point to.
 
 * **Crop** 
+
   Select Crop to crop an image. Use your mouse to crop the image.
 
 * **Rotate** 
+
   To rotate an image, select Rotate. Use repeatedly until the image is rotated the way you want it.
 
 * **Clear** 
+
   Remove the current image.
 
 * **Zoom bar** 
+
   To zoom in and out of the image, use the slide bar beneath the image (above the OK and Cancel buttons)
 
 * **Title** 
+
   The title of the image.
 
 * **Alt Text** 
+
   An alternative text for use when creating accessible content.  
 
 * **Link To** 
+
   Create a link to assets or other pages within your website.  
 
 * **Description** 
+
   A description of the image.
 
 * **Size** 
+
   Sets the height and the width of the image.
 
 The final image (with **Title** and **Description**) may be shown as:
@@ -377,6 +426,7 @@ The List component allows you to configure search criteria for displaying a list
 * **List**
 
     * **Build list using** 
+
       Here you specify where the list will retrieve its content. There are several methods:
     
     * Depending on the item you choose a new panel will appear:
@@ -384,6 +434,7 @@ The List component allows you to configure search criteria for displaying a list
         * **Options for Child Pages**
 
             * **Children of** (Parent Page)  
+
               Specify a path either manually or using the selector. Leave empty to use the current page as parent.
 
         * **Options for Fixed List**
@@ -401,18 +452,23 @@ The List component allows you to configure search criteria for displaying a list
         * **Tags** - Specify the **Parent page**, **Tags/Keywords** and your required match criteria.
 
     * **Display as** 
+
       How you want the items to be listed; includes Links, Teasers and News.
     
     * **Order by** 
+
       Whether the list is to be ordered, and if so, the criteria to use for sorting. You can enter a criteria or select one from the drop down list provided.
     
     * **Limit** 
+
       Specify the maximum number of items that you want displayed in the list.
     
     * **Enable Feed** 
+
       Indicates whether an RSS feed should be activated for the list.
     
     * **Paginate after** 
+
       Here you can specify the number of list items to display at once. A list with more items than specified will use pagination to display the list in several portions.
 
 The following example shows a **List** component the way it may display a list of child pages (the design is controlled by a site design's custom CSS definitions).
@@ -430,23 +486,29 @@ You can configure:
 * Log In
 
     * Section Label  
+
       Lead-in text for the input fields.  
     
     * Username Label  
+
       Text to label the username field.  
     
     * Password Label  
+
       Text to label the password field.  
     
     * Log In Button Label  
+
       Text for the login button.  
     
     * Redirect to  
+
       You can specify the page on your website that should be opened once the user has logged in.
 
 * Already Logged In
 
     * Continue Button Label  
+
       Text to indicate the user is already logged in.
 
 ### Order Status {#order-status}
@@ -454,12 +516,15 @@ You can configure:
 * **Title**
 
     * **Title** 
+
       Specify the title text you want displayed.
     
     * **Link** 
+
       Specify the page (product) for which the order status should be displayed.
     
     * **Type/Size** 
+
       Select from the selection provided.
 
 ![](assets/chlimage_1-30.png) 
@@ -471,6 +536,7 @@ The **Reference** component lets you reference text from another page of your AE
 * **Paragraph Reference**
 
     * **Reference** 
+
       Specify the path to the page and paragraph that you want to reference (include content).
 
 To specify the path to a paragraph you need to suffix the path (to the page) with:
@@ -502,40 +568,53 @@ You can configure:
 * Search
 
     * **Node Types** 
+
       If the search is to be restricted to specific node type list them here; for example, `cq:Page`.
     
     * **Path to search in** 
+
       Specify the root page of the branch you want to search.  
     
     * **Search Button Text** 
+
       The name displayed on the actual search button.
     
     * **Statistics Text** 
+
       The text displayed above the search results.
     
     * **No Results Text** 
+
       If there are no results, the text entered here is displayed.
     
     * **Spellcheck Text** 
+
       If someone enters a similar term, this text is displayed before the term.  
+
       For example, if you type geometrixxe, the system displays "Did you mean? geometrixx".
     
     * **Similar Pages Text** 
+
       The text that is displayed next to a result for similar pages. Click this link to see pages that have similar content.
     
     * **Related Searches Text** 
+
       The text that appears next to searches for related terms and topics.
     
     * **Search Trends Text** 
+
       The title above the search terms users enter.
     
     * **Result Pages Label** 
+
       The text that appears at the bottom of this list with links to other results pages.
     
     * **Previous Label** 
+
       The name that appears on the link to previous search pages.
     
     * **Next Label** 
+
       The name that appears on the link to subsequent search pages.
 
 The following example shows the Search component after a search for the word *geometrixx* from the root directory of a standard installation. This also illustrates the pagination of results:
@@ -568,14 +647,17 @@ You can configure:
 * **Slides**
 
     * **New Slide** 
+
       You can specify a selection of slides using the **Add** (and **Remove**) buttons.  
     
     * **Title** 
+
       Specify a title if required. This is overlaid on the appropriate slide.
 
 * **Advanced**
 
     * **Size** 
+
       Specify the width and height in pixels.
 
 The slideshow component then repeatedly displays each in sequence, for a short period of time, before fading through to the next slide:
@@ -610,12 +692,15 @@ A tag cloud shows a graphically presented selection of the tags applied to conte
 When configuring the Tag Cloud component, you can specify:
 
 * **Tags to Display** 
+
   Where the tags to be displayed are collected from. Select from a page, a page with all children or all tags.
 
 * **Page** 
+
   Select the page to be referenced.  
 
 * **No links on tags** 
+
   Whether the tags displayed should act as links.
 
 For more information about applying tags, visit [Using Tags](/help/sites-classic-ui-authoring/classic-feature-tags.md).
@@ -655,28 +740,36 @@ The Text & Image component adds a text block and an image. You can also add and 
 
 You can configure:
 
-* **Component Styles** (**Styles**)  
+* **Component Styles** (**Styles**) 
+
   Here you can either left or right align the image. The default is **Left** aligned, with the image at the left.
 
 * **Image Properties** (**Advanced Image Properties**)  
+
   Allows you to specify the following:
 
     * **Image asset** 
+
       Upload the required image.
     
     * **Title** 
+
       The title for the block; will be shown by mouseover.
     
     * **Alt Text** 
+
       Alternative text to be shown if the image cannot be displayed. If left empty the title will be used.
     
     * **Link to** 
-      Specify a target path.  
+
+      Specify a target path. 
     
     * **Description** 
+
       A description of the image.
     
     * **Size** 
+
       Sets the height and width of the image.
 
 The following example shows a Text Image Component displaying the image left-aligned:
@@ -693,12 +786,15 @@ The title component can either:
 You can configure:
 
 * **Title** 
+
   If you want to use a name other than the page title, enter it here.
 
 * **Link** 
+
   The URI if the title is to operate as a link.
 
 * **Type/Size** 
+
   Select Small or Large from the dropdown list. Small is generated as an image. Large is generated as text.
 
 The following example shows a **Title** component being displayed; the design is determined by the site-specific CSS.
@@ -715,8 +811,7 @@ After placing an instance of the component on your page you can configure:
 
 * Video
 
-    * **Video asset** - Upload or drop your video asset.  
-    
+    * **Video asset** - Upload or drop your video asset. 
     * **Size** - The video's native size (width x height in pixels) will appear in the boxes next to Size (see above). Manually enter width and height dimensions here if you wish to override the video's native dimensions. Click **OK** to dismiss the dialog.
 
 >[!NOTE]
@@ -751,6 +846,7 @@ The Column Control component lets users select how they want to split the conten
 * **Column Control**
 
     * **Column Layout** 
+
       Select the number of columns you want rendered. Once created, each column has its own link for dragging components or assets when adding content.
 
 ## Form {#form}
@@ -764,12 +860,15 @@ Form components are used to create forms for visitors to submit input. Forms and
 Forms are built up from several different components:
 
 * **Form** 
+
   The form component defines the beginning and end of a new form on a page. Other components can then be placed in between these elements, such as tables, downloads, and so on. 
 
 * **Form fields and elements** 
+
   Form fields and elements can include text boxes, radio buttons, images, and so on. The user often completes an action in a form field, such as typing text. See individual form elements for more information.
 
 * **Profile Components** 
+
   Profile components relate to visitor profiles used for social collaboration and other areas where visitor personalization is required.
 
 The following shows an example form; it is comprised of the **Form** component (start and end), with two **Form Text** fields used for input, a **General Text** field used for the lead-in text and a **Submit** button.
@@ -787,15 +886,19 @@ Although each of the form components has a different purpose, many are composed 
 When configuring any of the form components the following tabs are available in the dialog:
 
 * **Title and Text** 
+
   Here you need to specify the basic information, such as the title of the form and any accompanying text. Where appropriate it also allows you to define other key information such as whether the field is multi-selectable and items available for selection.
 
 * **Initial Values** 
+
   Allows you to specify a default value.
 
 * **Constraints** 
+
   Here you can specify whether a field is required and place constraints are on that field (for example, must be numeric, and so on).
 
 * **Styling** 
+
   Indicates the size and styling of the fields.
 
 >[!NOTE]
@@ -807,44 +910,51 @@ These tabs provide you with the necessary parameters; these can depend on the in
 * **Title and Text**
 
     * **Element Name** 
+
       Name of the form element. This indicates where in the repository the data is stored.  
+
       This is a required field and should only contain the following characters:
 
         * alphanumeric characters
         * `_ . / : -`
 
     * **Title** 
+
       The title displayed with the field. If left blank, the default title will be shown.
     
     * **Description** 
+
       Allows you to provide additional information for the user, if necessary. On the form this is shown below the field, in a smaller font than the title.  
     
     * **Show/Hide** 
+
       Determines when the field is visible.
 
 * **Initial Values**
 
     * **Default Value** 
+
       The value displayed in the field when the form is opened; ie before the user has made any input.
 
 * **Constraints**
 
     * **Required** 
+
       This is dependent on the form component type, but provides one or more click boxes to indicate that this field, or certain parts of this field, is/are required.  
     
-    * **Required Message** - A message to inform users that this field is required; a required field will also be flagged with and asterisk.  
-    
-    * **Constraint** - The constraints available for selection are dependent on the form component type.  
-    
+    * **Required Message** - A message to inform users that this field is required; a required field will also be flagged with and asterisk.
+    * **Constraint** - The constraints available for selection are dependent on the form component type.
     * **Constraint Message** 
       A message to inform users what is required.
 
 * **Styling**
 
     * **Size** 
+
       In rows and columns.  
     
     * **Width** 
+
       In pixels.  
     
     * **CSS**
@@ -865,39 +975,34 @@ This component is needed to define the start of a new form on a page. You can co
 
     * **Thank You Page** 
       The page to be referenced to thank visitors for providing their input. If left blank, the form re-displays after submission.
-    
     * **Start Workflow** 
       Determines which workflow is triggered once a form is submitted.
 
 * **Advanced**
 
     * **Action Type** 
+
       A form needs an action. The action defines the operation that is triggered for execution with the data submitted by the user (similar to action= in HTML). Some need a corresponding **Action Configuration**.  
+
       A selection of action types are included in a standard AEM installation:
 
         * **Account Request** 
-        
         * **Create Content**
         * **Create Lead** 
-        
         * **Create and Update Account**
         * **E-Mail Service: Create Subscriber and add to list**
         * **E-Mail Service: Send auto-responder email**
         * **E-Mail Service: Unsubscribe user from list**
         * **Edit Community**
         * **Edit Resource(s)** 
-        
         * **Edit Workflow Controlled Resource(s)** 
-        
         * **Mail**
         * **Placed Order Details**
         * **Profile Update** 
-        
         * **Reset Password** 
-        
         * **Set Password** 
-        
         * **Store Content** 
+
           This is the default action type.  
         
         * **Store Content with Uploads**
@@ -906,26 +1011,35 @@ This component is needed to define the start of a new form on a page. You can co
         * **Update Order**
 
     * **Form Identifier** 
+
       The form identifier uniquely identifies the form. Use the form identifier if you have several forms on a single page; make sure they have different identifiers.
     
     * **Load Path** 
-      The path to node properties used to load predefined values into the form fields.  
-      This is an optional field that specifies the path to a node in the repository. When this node has properties that match the field names, then the appropriate fields on the form are preloaded with the value of those properties. If no match exists, then the field contains the default value.  
+
+      The path to node properties used to load predefined values into the form fields. 
+
+      This is an optional field that specifies the path to a node in the repository. When this node has properties that match the field names, then the appropriate fields on the form are preloaded with the value of those properties. If no match exists, then the field contains the default value. 
+
       Using **Load Path** you can preload the form with values in the required fields. See [Preloading Form Values](/help/sites-developing/developing-forms.md#preloading-form-values).
     
     * **Client Validation** 
+
       Indicates whether client validation is required for this form (server validation *always* occurs.). This can be achieved in conjunction with the **Forms Captcha** component.
     
     * **Validation Resource Type** 
+
       Defines the form validation resource type if you want to validate the entire form (instead of individual fields). If you are validating the complete form, also include one of the following:
 
         * A script for client validation:  
+
           `/apps/<myApp>/form/<myValidation>/formclientvalidation.jsp`
         
         * A script for validation on the server side:  
+
           `/apps/<myApp>/form/<myValidation>/formservervalidation.jsp`
 
     * **Action Configuration** 
+
       The options available in **Action Configuration** are dependent on the **Action Type** selected:
 
         * **Account Request**
@@ -935,20 +1049,26 @@ This component is needed to define the start of a new form on a page. You can co
 
         * **Create Content**
 
-            * Content Path  
+            * Content Path 
+
               The content path for any content that the form dumps. Enter a path that ends with a slash `/`. The slash means that for each form port, a new node is created at the given location; for example:  
+
               `/forms/feedback/`
             
             * **Type** 
+
               Select the required type. 
             
             * **Form** 
+
               Specify the form.  
             
             * **Render with** 
+
               Select the required option from the list.  
             
             * **Resource Type** 
+
               If set, this is added to each comment as `sling:resourceType`  
             
             * **View Selector**
@@ -956,59 +1076,75 @@ This component is needed to define the start of a new form on a page. You can co
         * **Create Lead**
 
             * **Lead will be added to this list** 
+
               Specify the required lead list.
 
         * **Create and Update Account**
 
             * **Initial Group** 
+
               Group to assign new user to.
             
             * **Home** 
+
               Page to display after successful login.
             
             * **Path** 
+
               The path (relative) to where the new account is created and stored.
             
             * **View Data...** 
+
               Click this button to access the information about form results in the bulk editor. From here, you can export the information to a `.tsv` (tab-separated) file (for use, for example, in an Excel spreadsheet).
 
         * **Mail**
 
             * **From** 
+
               Enter the email address that the email should come from.
             
             * **Mailto** 
+
               Enter the email address(es) that the form is to sent to.
             
             * **CC** 
+
               Enter the CC email address(es).
             
             * **BCC** 
+
               Enter the BCC email address(es).
             
             * **Subject** 
+
               Enter a subject for the email.
 
         * **Reset Password**
 
             * **Change Password Page** 
+
               The page used when changing the password.
 
         * **Store Content**
 
             * **Content Path** 
+
               The content path for any content that the form dumps. Enter a path that ends with a slash `/`. The slash means that for each form port, a new node is created at the given location; for example:  
+
               `/forms/feedback/`
             
             * **View Data...** 
+
               Click this button to access the information about form results in the bulk editor. From here, you can export the information to a .tsv (tab-separated) file (for use, for example, in an Excel spreadsheet).
 
         * **Store Content With Uploads** 
+
           This has the same options as **Store Content**.  
         
         * **Unsubscribe Subscriber**
 
             * **Lead will be deleted from this list** 
+
               Specify the required lead list.
 
 #### End of Form {#end-of-form}
@@ -1018,21 +1154,27 @@ This marks the end of the form. You can configure:
 * **Form End**
 
     * **Show Submit Button** 
+
       Indicates whether a Submit button should be shown or not.
     
     * **Submit Name** 
+
       An identifier if you are using multiple submit buttons in a form.
     
     * **Submit Title** 
+
       The name that appears on the button, such as Submit or Send.
     
     * **Show Reset Button** 
+
       Select check box to make the Reset button visible.
     
     * **Reset Title** 
+
       The name that appears on the Reset button.
     
     * **Description** 
+    
       Information that appears below the button.
 
 ### Account Name {#account-name}

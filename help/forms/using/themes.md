@@ -34,15 +34,15 @@ Perform the following steps to create a theme:
 
 1. Click **Adobe Experience Manager**, click **Forms**, and then click **Themes**.
 
-1. In the Themes page, click **Create &gt; Theme**.  
+1. In the Themes page, click **Create &gt; Theme**. 
+
    A wizard to create a theme is launched. 
 
-1. In the Basic tab of the Create Theme wizard, provide **Title **and **Name **of the theme. These are mandatory fields.
+1. In the Basic tab of the Create Theme wizard, provide **Title** and **Name** of the theme. These are mandatory fields.
 
 1. In the Advanced tab, you get two fields:
 
-    * **Clientlib Location**: Location in the repository which stores the clientlibs for the theme.  
-    
+    * **Clientlib Location**: Location in the repository which stores the clientlibs for the theme.
     * **Clientlib Category**: Provides a text field to enter clientlib category name for the theme.
 
 1. Click **Create** and then click **Edit** to open the theme in Theme Editor, or click **Done** to return to the themes page.
@@ -70,7 +70,8 @@ To upload a theme:
 1. Click **Adobe Experience Manager**, click **Forms**, and then click **Themes**.
 
 1. In the Themes page, click **Create &gt; File Upload**.
-1. In the File Upload prompt, browse and select a theme package on your computer and click **Upload**.  
+1. In the File Upload prompt, browse and select a theme package on your computer and click **Upload**. 
+
    The uploaded theme is available in the themes page.
 
 ## Metadata of a theme {#metadata-of-a-theme}
@@ -201,10 +202,13 @@ The Theme Editor is divided in two panels:
     * **Selector:*** *Shows the component selected for styling, and its properties that you can style. The selector represents all the components of a type. If you select a text box component in a theme for styling, all the text boxes in your form or interactive communication inherit the style. Selectors let you select a generic component or a specific component for styling. For example, a field component is a generic component, and a text box is a specific component.   
   
       **Styling generic component:** 
-      A field can be a numeric box field, such as age, or a text box field, such as address.  
+
+      A field can be a numeric box field, such as age, or a text box field, such as address. 
+
       When you style a field, all the fields such as age, name, address are styled.   
   
-      **Styling specific component**:  
+      **Styling specific component**: 
+
       A specific component impacts objects of the specific category. When you style the numeric box component in the theme, only the numeric box object in inherit the style.  
   
       For example, a text box field such as address is longer in length and a numeric box field such as age is shorter in length. You can select a numeric box field, reduce its length and apply to your form. Width of all numeric box fields is reduced in your form.   
@@ -213,9 +217,7 @@ The Theme Editor is divided in two panels:
 
     * **State:** Lets you customize styles of an object in a specific state. For example, you can specify how an object looks when it is in default, focus, disabled, hover, or error state.
     * **Property Categories:** Styling properties are divided in various categories. For example Dimension & Position, Text, Background, Border, and Effects. Under each category, you provide styling information. For example, under Background, you can provide Background Color, and Image & Gradient. 
-    
     * **Advanced:** Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap. 
-    
     * **View CSS**: Lets you view CSS of the selected component
 
   Also, in the Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error.** These options, along with the options described above are discussed in detail [below](/help/forms/using/themes.md#using-rail).
@@ -431,10 +433,12 @@ Simulate Error and Success options are available at the bottom of the sidebar. Y
 
 For example, you add a numeric field in your form, and you specify its styling in theme editor. When a user types an alphanumeric value in the field, you want the background color of the text box to change. You select the numeric field in the theme, and use the state option in the sidebar. You select the Error state in the sidebar, and change the background color to red. To preview the behavior, you can use the Simulate Error option available in the sidebar. Simulate Error and Success options are described in detail below:
 
-* **Simulate Success**:  
+* **Simulate Success**: 
+
   Lets you see how a component looks if you specify its styling for success state. For example, in a form, customers set password. Users can set password according to guidelines you provide. When a user types a password following all the guidelines you provide, the text box turns green. When the text box turns green, it is in success state. You can specify styling for a component in success state, and simulate its appearance using the Simulate Success option.
 
-* **Simulate Error**:  
+* **Simulate Error**: 
+
   Lets you see how a component looks if you specify its styling for error state. For example, in a form, customers set password. Users can set password according to guidelines you provide. When a user types a password which does not follow all the guidelines you provide, the text box turns red. When the text box turns red, it is in error state. You can specify styling for a component in error state, and simulate its appearance using the Simulate Error option.
 
 ### Styling a component {#styling-a-component}
@@ -446,14 +450,14 @@ Perform the following steps to customize styling for a particular component (a n
 1. In the Theme Editor, select the numeric box in the Canvas.
 1. When you select the numeric box, you can see the component toolbar with three options:
 
-    * **Numeric Box Widget  
-      **
-    * **Field Widget  
-      **
+    * **Numeric Box Widget**
+    * **Field Widget**
+
     * ![](assets/field-level.png)
 
 1. Select **Numeric Box Widget**.
-1. Sidebar title changes to Numeric Box Widget, and shows options to customize its look.  
+1. Sidebar title changes to Numeric Box Widget, and shows options to customize its look. 
+
    Use **Dimension & Position** option in the sidebar to customize size of the component. Ensure that the State is **Default**.
 
 Instead of selecting **Numeric Box Widget**, select **Field Widget** in the component toolbar, and perform the steps above. When you select dimensions for **Field Widget** option, all the text boxes except the numeric box have the same size.
@@ -465,7 +469,9 @@ With component toolbar, you can also specify styling of components for its diffe
 Perform the following steps to customize styling for a component in a specific state:
 
 1. Select a component in the Canvas, and select appropriate option from the component toolbar.  
-   Sidebar shows options to customize styling for the component. 
+
+   Sidebar shows options to customize styling for the component.
+   
 1. Select a state in the sidebar. For example, Error state. 
 1. Use options such as **Border, Background** in the sidebar to customize how the component looks.
 1. Use the **Simulate Error** option at the bottom of the sidebar to see how the styling looks in editing.
@@ -481,7 +487,9 @@ Use ruler in Canvas to select breakpoints for devices with smaller displays. Cli
 To style components for different breakpoints:
 
 1. In the Canvas, select a breakpoint above the ruler.   
+
    A breakpoint represents a mobile device and its display size.
+
 1. Use sidebar to customize styling of form or interactive communication components in the theme for the selected display size.
 1. Ensure that the customization is saved.
 
@@ -553,7 +561,8 @@ The example below shows masked and unmasked styles in a theme.
 To apply a theme to an adaptive form:
 
 1. Open your form in edit mode. To open a form in edit mode, select a form and click **Open**.
-1. In the edit mode, select a component, then click ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then click ![](assets/cmppr.png).  
+1. In the edit mode, select a component, then click ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then click ![](assets/cmppr.png). 
+
    You can edit properties of your form in the sidebar.
 
 1. In the sidebar, click **Styling**.
@@ -562,7 +571,8 @@ To apply a theme to an adaptive form:
 To apply a theme to an interactive communication:
 
 1. Open your interactive communication in edit mode. To open a interactive communication in edit mode, select a form and click **Open**.
-1. In the edit mode, select a component, then click ![](assets/field-level.png) &gt;**Document Container**, and then click ![](assets/cmppr.png).  
+1. In the edit mode, select a component, then click ![](assets/field-level.png) &gt;**Document Container**, and then click ![](assets/cmppr.png). 
+
    You can edit properties of your form in the sidebar.
 
 1. In the sidebar, under **Basic**, select your theme from the **Theme** drop-down and click **Done** ![](assets/check-button.png)
@@ -627,13 +637,16 @@ You can see the generated CSS using the following options:
 
 ## Troubleshooting, recommendations, and best practices {#troubleshooting-recommendations-and-best-practices}
 
-* **Avoiding assets from another Theme**  
+* **Avoiding assets from another Theme** 
+
   When you edit a theme, you can browse and add assets (such as images) from other themes. For example, you are editing the background of a page. For example, when you select **Page** ![](assets/edit-button.png)&gt; **Background** &gt; Add &gt; **Image**, you see a dialog that lets you browse and add images in other theme. 
 
 * You can face issues with your current theme if an asset is added from another theme, and the other theme is moved or deleted. It is recommended that you avoid browsing and adding assets from other themes.  
+
 * **Using base clientlib, theme editor, and inline styling**
 
-    * **Base clientlib**:  
+    * **Base clientlib**: 
+
       Base client library contains styling information. To use styling information in client-side libraries in themes.
 
         1. Navigate to **Experience Manager &gt; Forms &gt; Themes**. 
@@ -644,20 +657,28 @@ You can see the generated CSS using the following options:
 
       The styling you specify in client library is imported in the theme that uses it. For example, you specify styling for text box, numeric box, and switch in the client library. When you import your client library in the theme, styling for text box, numeric box, and switch is imported. You can then style other components using theme editor.   
       You can also create a theme, create copies of it, and then modify the styling provided in the copied themes for similar use-cases.  
+
       See [Getting specific appearance using Themes](#specific-af-appearance)
 
     * **Theme Editor:** 
+
       The Theme Editor lets you create themes to style your form or interactive communication. You can specify styling of components in a theme, that enable consistency in look and feel among multiple forms or interactive communications you develop. Specifying styling information in a theme, and then applying the theme to a form is recommended.   
     
     * **Inline styling:** 
+
       You can style components using the Style mode in form or interactive communication multichannel editor when you work with a form. Using style mode to change form component styling overrides the styling specified in the theme. If you want to change styling for certain components of a particular form, see [Inline styling of components](/help/forms/using/inline-style-adaptive-forms.md).
 
 * **Using client-side libraries** 
+
   If you want to create client libraries to import styling information, see [Using Client Side Libraries](/help/sites-developing/clientlibs.md). After you create a client library, you can import it in your theme using the steps mentioned above. 
 
-* **Changing container panel layout width  
-  **Changing container panel layout width is not recommended. When you specify width of a container panel, it becomes static and does not adapt to different displays.
+* **Changing container panel layout width**  
+  
+  Changing container panel layout width is not recommended. When you specify width of a container panel, it becomes static and does not adapt to different displays.
+
 * **When to use form editor or theme editor for working with header and footer** 
+
   Use theme editor if you want to style header and footer using styling options such as font style, background, and transparency.   
+  
   If you want to provide information such as a logo image, company name in header, and copyright information in the footer, use the form editor options.
 
