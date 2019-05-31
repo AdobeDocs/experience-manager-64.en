@@ -13,23 +13,23 @@ discoiquuid: a1efef3c-0e4b-4a17-bcad-e3cc17adbbf7
 
 # Configure the Video component{#configure-the-video-component}
 
-The [Video component](/help/sites-authoring/default-components-foundation.md#video) allows you to place a predefined, out-of-the-box video element on your page.
+The [Video component](/help/sites-authoring/default-components-foundation.md#video) lets you place a predefined, OOTB (out-of-the-box) video element on your page.
 
-For proper transcoding to occur, your administrator must [Install FFmpeg](#install-ffmpeg) separately. They can also [Configure your Video Profiles](#configure-video-profiles) for use with HTML5 elements.
+For proper transcoding to occur, your administrator must [Install FFmpeg and configure AEM](#install-ffmpeg) separately. They can also [Configure your Video Profiles](#configure-video-profiles) for use with HTML5 elements.
 
 ## Configure video profiles {#configure-video-profiles}
 
-You may want to define video profiles to use for HTML5 elements. Those chosen here are used in order. To access, use [Design Mode](/help/sites-authoring/default-components-designmode.md) (Classic UI only) and select the **Profiles** tab:
+You may want to define video profiles to use for HTML5 elements. Those chosen here are used in order. To access, use [Design Mode](/help/sites-authoring/default-components-designmode.md) (Classic UI only) and select the **[!UICONTROL Profiles]** tab:
 
 ![](assets/chlimage_1-317.png)
 
-You can also configure the design of the video components and parameters for Playback, Flash, and Advanced.
+You can also configure the design of the video components and parameters for [!UICONTROL Playback], [!UICONTROL Flash], and [!UICONTROL Advanced].
 
-## Install FFmpeg {#install-ffmpeg}
+## Install FFmpeg and configure AEM {#install-ffmpeg}
 
 The Video Component relies on the third-party open-source product FFmpeg for proper transcoding of videos that can be downloaded from [https://ffmpeg.org/](https://ffmpeg.org/). After you install FFmpeg, you must configure AEM to use a specific audio codec and specific runtime options.
 
-To install FFmpeg for your platform:
+**To install FFmpeg for your platform**:
 
 * **On Windows:**
 
@@ -57,9 +57,9 @@ To install FFmpeg for your platform:
 
        `sudo ln -s /usr/local/Cellar/ffmpeg/0.6/bin/ffmpeg /usr/bin/ffmpeg`
 
-To configure AEM, use the following steps:
+**To configure AEM**:
 
-1. Open CRXDE Lite in your web browser. ([http://localhost:4502/crx/de](http://localhost:4502/crx/de))
+1. Open [!UICONTROL CRXDE Lite] in your web browser. ([http://localhost:4502/crx/de](http://localhost:4502/crx/de))
 1. Select the `/libs/settings/dam/video/format_aac/jcr:content` node and ensure that the node properties are as follows:
 
     * audioCodec: 
@@ -80,9 +80,9 @@ To configure AEM, use the following steps:
    >
    >Overlay and edit the entire profile-node and not just the property that needs modification. Such resources are not resolved via SlingResourceMerger.
 
-1. If you changed either of the properties, click **Save All**.
+1. If you changed either of the properties, click **[!UICONTROL Save All]**.
 
 >[!NOTE]
 >
->Out-of-the-box (OOTB) workflow models are not preserved when you upgrade your AEM instance. Adobe recommends that you copy OOTB workflow models before modifying them. For example, copy the OOTB DAM Update Asset model before modifying the FFmpeg Transcoding step in the DAM Update Asset model to pick video-profile names that existed before the upgrade. Then, you can overlay the /apps node to let AEM retrieve the custom changes to the OOTB model.
+>OOTB workflow models are not preserved when you upgrade your AEM instance. Adobe recommends that you copy OOTB workflow models before editing them. For example, copy the OOTB DAM Update Asset model before editing the FFmpeg Transcoding step in the DAM Update Asset model to pick video-profile names that existed before the upgrade. Then, you can overlay the `/apps` node to let AEM retrieve the custom changes to the OOTB model.
 
