@@ -119,7 +119,7 @@ You can edit the following [!UICONTROL Dynamic Media Settings] by clicking **[!U
 >
 >By default, the Dynamic Media video component is adaptive. If you want to make it a fixed size, set it in the component with the **[!UICONTROL Width]** and **[!UICONTROL Height]** in the **[!UICONTROL Advanced]** tab.
 
-**[!UICONTROL Viewer preset]** &ndash; Select an existing video viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See [Managing Viewer Presets](help/assets/managing-viewer-presets.md).
+**[!UICONTROL Viewer preset]** &ndash; Select an existing video viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See [Managing Viewer Presets](/help/assets/managing-viewer-presets.md).
 
 You can edit the following [!UICONTROL Advanced] settings by clicking **[!UICONTROL Edit]** in the component.
 
