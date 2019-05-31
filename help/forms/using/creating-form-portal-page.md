@@ -196,7 +196,8 @@ To configure the Properties Predicate component:
 
 1. In the Options tab, tap **Add Item.**
 1. Select a property from the drop-down list and specify a search label for it in the field below the drop-down list.  
-1. Repeat step 4 to add more properties. You can also specify a default filter value to list forms based on the specified criteria and hide the property for search by end users. Select the Hide checkbox for a property and specify the default filter value.  
+1. Repeat step 4 to add more properties. You can also specify a default filter value to list forms based on the specified criteria and hide the property for search by end users. Select the Hide checkbox for a property and specify the default filter value.
+
    For example, if you want to display forms that contain "Travel" in their titles, select Hide next to the Title property. In addition, specify Travel in default filter value text box.  
 
 1. Tap **OK**

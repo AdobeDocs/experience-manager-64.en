@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 7599fa42-3a47-49c9-8a7f-e0b6be302ff0
 ---
 
-# Operations Dashboard{#operations-dashboard}
+# Operations Dashboard {#operations-dashboard}
 
 ## Introduction {#introduction}
 
@@ -21,7 +21,6 @@ The Operations Dashboard in AEM 6 helps system operators to monitor AEM system h
 
 * Is a one-click system status to help operations departments gain efficiency
 * Provides system health overview in a single, centralized place
-
 * Reduces time to find, analyze and fix issues
 * Provides self-contained maintenance automation that helps reduce project operations costs significantly
 
@@ -66,7 +65,7 @@ Composite health checks are configured with the aid of **filter tags**. In essen
 
 ### How to create Health Checks {#how-to-create-health-checks}
 
-In the Operations Dashboard you can visualize the result of both individual and composite Health Checks**.**
+In the Operations Dashboard you can visualize the result of both individual and composite Health Checks.
 
 ### Creating an individual Health Check {#creating-an-individual-health-check}
 
@@ -104,15 +103,12 @@ Creating an individual Health Check involves two steps: implementing a Sling Hea
     * **Name:** `sling:resourceType` 
 
         * **Type:** `String`
-        
         * **Value:** `granite/operations/components/mbean`
 
     * **Name:** `resource`
 
         * **Type:** `String`
-        
-        * **Value:** `/system/sling/monitoring/mbeans/org/apache/sling/healthcheck/HealthCheck/exampleHealthCheck`  
-          ``
+        * **Value:** `/system/sling/monitoring/mbeans/org/apache/sling/healthcheck/HealthCheck/exampleHealthCheck`
 
    >[!NOTE]
    >
@@ -171,13 +167,11 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
     * **Name:** `sling:resourceType` 
 
         * **Type:** `String`
-        
         * **Value:** `granite/operations/components/mbean`
 
     * **Name:** `resource`
 
         * **Type:** `String`
-        
         * **Value:** `/system/sling/monitoring/mbeans/org/apache/sling/healthcheck/HealthCheck/diskusage`
 
    >[!NOTE]
@@ -343,12 +337,9 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
 1. Add a host definition for the AEM server. This can be done via the Nagios XI Web Interface, by using the Configuration Manager:
 
     1. Open a browser and point to the Nagios server.
-    1. Press the** Configure** button in the top menu.  
-    
+    1. Press the **Configure** button in the top menu.
     1. In the left pane, press the **Core Config Manager** under **Advanced Configuration**.
-    
-    1. Press te **Hosts** link under the **Monitoring** section.
-    
+    1. Press the **Hosts** link under the **Monitoring** section.
     1. Add the host definition:
 
    ![](assets/chlimage_1-416.png)

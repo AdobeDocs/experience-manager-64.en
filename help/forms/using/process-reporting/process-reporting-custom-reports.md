@@ -632,12 +632,11 @@ The prerequisites to creating a separate UI for displaying results are [Sling Ba
 1. Create a separate UI as described in [Creating a separate UI](#creating-a-separate-ui-nbsp) section.
 1. Create a child `nt:unstructured` node at the `/content/process-reporting-runtime/custom-reports` node for every pluggable report.
 
-    * **id **- Specifies unique identification number of the report.
-    * **name **- Specifies the name of the report. The name is displayed in the UI.
-    * **link **- Specifies relative link to the renderer of the separate UI. The link is created Step 1.
-    * **description **- Specifies the one line description the report. You can leave the description field empty.  
-    
-    * **icon **- Specifies the image to pictorially represent the report. You can leave the icon field empty.
+    * **id**- Specifies unique identification number of the report.
+    * **name**- Specifies the name of the report. The name is displayed in the UI.
+    * **link**- Specifies relative link to the renderer of the separate UI. The link is created Step 1.
+    * **description**- Specifies the one line description the report. You can leave the description field empty. 
+    * **icon**- Specifies the image to pictorially represent the report. You can leave the icon field empty.
 
    ![Properties of node ](assets/nodeproperties.png)
 

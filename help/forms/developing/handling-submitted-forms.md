@@ -12,13 +12,13 @@ topic-tags: operations
 discoiquuid: 3d838027-6bde-4a71-a428-4d5102f7d799
 ---
 
-# Handling Submitted Forms{#handling-submitted-forms}
+# Handling Submitted Forms {#handling-submitted-forms}
 
 ## Handling Submitted Forms {#handling-submitted-forms}
 
 Web-based applications that enable a user to fill in interactive forms require the data to be submitted back to the server. Using the Forms service, you can retrieve the data that the user entered into an interactive form. After you retrieve the data, you can process the data to meet your business requirements. For example, you can store the data in a database, send the data to another application, send the data to another service, merge the data in a form design, display the data in a web browser, and so on.
 
-Form data is submitted to the Forms service as either XML or PDF data, which is an option that is set in Designer. A form that is submitted as XML enables you to extract individual field data values. That is, you can extract the value of each form field that the user entered into the form. A form that is submitted as PDF data is binary data, not XML data. You can save the form as a PDF file, or send the form to another service. If you want to extract data from a form submitted as XML and then use the form data to create a PDF document, invoke another AEM Forms operation. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating-pdf-documents-with-submitted-xml-data))
+Form data is submitted to the Forms service as either XML or PDF data, which is an option that is set in Designer. A form that is submitted as XML enables you to extract individual field data values. That is, you can extract the value of each form field that the user entered into the form. A form that is submitted as PDF data is binary data, not XML data. You can save the form as a PDF file, or send the form to another service. If you want to extract data from a form submitted as XML and then use the form data to create a PDF document, invoke another AEM Forms operation. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/creating-pdf-documents-submitted-xml.md))
 
 The following diagram shows data being submitted to a Java Servlet named `HandleData` from an interactive form displayed in a web browser.
 
@@ -177,19 +177,15 @@ Depending on the content type of the submitted data, you can extract individual 
 
 **See also**
 
-[Handle submitted forms using the Java API](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted.md#handle-submitted-forms-using-the-java-api)
-
-[Handle submitted PDF data using the web service API](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted.md#handle-submitted-pdf-data-using-the-web-service-api)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
+[Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
 ### Handle submitted forms using the Java API {#handle-submitted-forms-using-the-java-api}
 
@@ -221,7 +217,7 @@ Handle a submitted form by using the Forms API (Java):
         * A `RenderOptionsSpec` object that stores run-time options.
 
       The `processFormSubmission` method returns a `FormsResult` object containing the results of the form submission.
-    
+
     * Determine whether the Forms service is finished processing the form data by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `0`, the data is ready to be processed.
 
 1. Determine if the form submission contains file attachments
@@ -251,8 +247,6 @@ Handle a submitted form by using the Forms API (Java):
         * Populate the PDF file by invoking the `com.adobe.idp.Document` object’s `copyToFile` method and passing the `java.io.File` object.
 
 **See also**
-
-[Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling-submitted-forms)
 
 [Quick Start (SOAP mode): Handling PDF forms submitted as XML using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-handling-pdf-forms-submitted-as-xml-using-the-java-api)
 
@@ -301,7 +295,7 @@ Handle a submitted form by using the Forms API (web service):
         * An empty `FormsResultHolder` object that is populated by the method with the form that is submitted.
 
       The `processFormSubmission` method populates the `FormsResultHolder` parameter with the results of the form submission.
-    
+
     * Determine whether the Forms service is finished processing the form data by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `0`, the form data is ready to be processed. You can get a `FormsResult` object by getting the value of the `FormsResultHolder` object’s `value` data member.
 
 1. Determine if the form submission contains file attachments
@@ -329,7 +323,5 @@ Handle a submitted form by using the Forms API (web service):
         * Populate the PDF file by invoking the `java.io.FileOutputStream` object’s `write` method and passing the byte array.
 
 **See also**
-
-[Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling-submitted-forms)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

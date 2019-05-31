@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 1b229ddf-9350-40b6-8056-dcbe0c5afd5b
 ---
 
-# XMP Utilities Service Java APIQuick Start(SOAP){#xmp-utilities-service-java-apiquick-start-soap}
+# XMP Utilities Service Java API Quick Start (SOAP) {#xmp-utilities-service-java-apiquick-start-soap}
 
 The following Quick Starts are available for the XMP Utilities service.
 

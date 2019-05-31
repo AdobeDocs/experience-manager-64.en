@@ -84,14 +84,14 @@ Flow of data when AEM Assets and Creative Cloud are integrated
 
    >[!CAUTION]
    >
-   >Due to rebranding, if you entered the Tenant URL as **https://&lt;tenant_id&gt;.marketing.adobe.com** you need to change it to **https://&lt;tenant_id&gt;.experiencecloud.adobe.com. **In order to do this, follow the steps below:
+   >Due to rebranding, if you entered the Tenant URL as **https://&lt;tenant_id&gt;.marketing.adobe.com** you need to change it to **https://&lt;tenant_id&gt;.experiencecloud.adobe.com.** In order to do this, follow the steps below:
    >
-   >1. Navigate to **Tools &gt; Cloud Services &gt; Legacy Cloud Services**.  
-   >2. Under Adobe Marketing Cloud, click **Show Configurations**.  
-   >3. Select the configuration that was created while setting up the AEM-MAC-CC sync.  
-   >4. Edit the cloudservice configuration and replace **marketing.adobe.com** in Tenant URL field to **experiencecloud.adobe.com**.  
-   >5. Save the configuration.  
-   >6. Test the mac-sync replication agents.
+   >1. Navigate to **Tools &gt; Cloud Services &gt; Legacy Cloud Services**.
+   >1. Under Adobe Marketing Cloud, click **Show Configurations**. 
+   >1. Select the configuration that was created while setting up the AEM-MAC-CC sync. 
+   >1. Edit the cloudservice configuration and replace **marketing.adobe.com** in Tenant URL field to **experiencecloud.adobe.com**. 
+   >1. Save the configuration. 
+   >1. Test the mac-sync replication agents.
 
 1. In the **[!UICONTROL Client ID]** field, paste the application ID you copied at the end of the procedure [Create an application](/help/sites-administering/configure-assets-cc-integration.md#create-an-application).
 

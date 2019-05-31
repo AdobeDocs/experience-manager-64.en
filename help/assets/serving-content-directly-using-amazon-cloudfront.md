@@ -66,7 +66,7 @@ You require the AWS CloudFront key to configure the feature. If you do not have 
 
     * Add a Lambda function with the following code:
 
-      ```    
+      ``` 
       'use strict'; 
        exports.handler = (event, context, callback) => { 
        const request = event.Records[0].cf.request; 

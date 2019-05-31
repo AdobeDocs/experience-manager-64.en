@@ -21,10 +21,12 @@ See [Editing Your Page Content](/help/sites-authoring/qg-page-authoring.md#editi
 
 Rendering 3D content consumes significant server resources such as the CPU and memory. As such, rendering can often take large amounts of time. Render times vary significantly depending on various factors, in addition to the obvious model size and server hardware:
 
-* **Renderer selection**.  
+* **Renderer selection**. 
+
   The default Rapid Refine™ renderer in AEM 3D trades off some quality for faster render times. Still, it produces high-quality results for many applications. Renderers provided by way of third-party applications (for example V-Ray™ or NVIDIA® Mental Ray® deployed in Autodesk® Maya® or Autodesk® 3ds Max®) are broadly configurable and the performance versus quality tradeoff is made when the stage is designed.
 
-* **IBL versus traditional lighting**.  
+* **IBL versus traditional lighting**. 
+
   While this factor is of less consequence for the default Rapid Refine renderer, third-party renderers such as Mental Ray are substantially slower to render with IBL stages than when using traditional point or spot lights.
 
 The Rapid Refine renderer typically takes several few minutes to render larger images. However, third-party renderers often take many minutes, even hours when configured for maximum quality.

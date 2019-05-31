@@ -86,7 +86,7 @@ To stop AEM, do one of the following:
 
 * Depending on the platform you are using:
 
-    * If you started AEM from either a script or the command line, press **Ctrl+C **to shut down the server.
+    * If you started AEM from either a script or the command line, press **Ctrl+C** to shut down the server.
     * If you have used the start script on UNIX, you must use the stop script to stop AEM.
 
 * If you started AEM by double-clicking the jar file, click the **On** button on the startup window (the button then changes to **Off**) to shut down the server.

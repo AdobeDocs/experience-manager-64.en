@@ -99,10 +99,12 @@ The social component framework recommends that the business logic responsible fo
 
 All `OperationService`classes extend `AbstractOperationService`, allowing additional extensions which can hook into the operation being performed. Each operation in the service is represented by a `SocialOperation`class. The `OperationExtensions`class can be invoked during operation execution by calling the methods
 
-* `performBeforeActions()`  
+* `performBeforeActions()`
+
   allows for pre-checks/pre-processing and validations
 
-* `performAfterActions()`  
+* `performAfterActions()`
+
   allows for further modification of resources or invoking custom events, workflows, etc
 
 #### OperationExtension Class {#operationextension-class}

@@ -19,10 +19,12 @@ discoiquuid: 221ed05b-855d-4dc2-9df6-12fdeabb157a
 
 AEM provides various mechanisms to enable you to customize the consoles (and the [page authoring functionality](/help/sites-developing/customizing-page-authoring-touch.md)) of your authoring instance.
 
-* Clientlibs  
+* Clientlibs
+
   Clientlibs allow you to extend the default implementation to realize new functionality, while reusing the standard functions, objects, and methods. When customizing, you can create your own clientlib under `/apps.` For example it can hold the code required for your custom component.  
 
-* Overlays  
+* Overlays
+
   Overlays are based on node definitions and allow you to overlay the standard functionality (in `/libs`) with your own customized functionality (in `/apps`). When creating an overlay a 1:1 copy of the original is not required, as the sling resource merger allows for inheritance.
 
 These can be used in many ways to extend your AEM consoles. A small selection are covered below (at a high level).
@@ -62,10 +64,12 @@ For example, the following locations within the `/libs` structure can be overlai
 
 * toolbar(s) (dependent on console; for example sites):
 
-    * default  
+    * default 
+
       `/libs/wcm/core/content/sites/jcr:content/body/content/header/items/default`
-    
-    * selection mode  
+
+    * selection mode
+
       `/libs/wcm/core/content/sites/jcr:content/body/content/header/items/selection`
 
 * help menu options (dependent on console; for example sites):
@@ -128,7 +132,8 @@ You can find the code of this page on GitHub
 
         * the Granite UI page resource:
 
-            * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content`  
+            * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content`
+
               property: `sling:resourceType`
 
         * the page definition of the console
@@ -140,10 +145,12 @@ You can find the code of this page on GitHub
 
    To use the new console (for example in the [rail for navigation](#add-new-navigation-option-to-rail)) an ID is used, so that it can be explicitly referenced. The ID is used to connect the console and its navigation definition. The ID is defined in the `rail` node of the page; for example, for the Sites console:
 
-    * the rail node is:  
+    * the rail node is: 
+
       `/libs/wcm/core/content/sites/jcr:content/body/rail`
 
-        * here the `currentId` property is defined:  
+        * here the `currentId` property is defined: 
+
           `currentId` = `cq-sites`
 
    For the Launches console example:
@@ -155,9 +162,7 @@ You can find the code of this page on GitHub
     * with the following properties:
 
         * `currentId` = `cq-launches`
-        
         * `sling:resourceType` = `granite/ui/components/endor/navcolumns`
-        
         * `srcPath` = `cq/core/content/nav`
 
 ## Customizing the Default View for a Console {#customizing-the-default-view-for-a-console}
@@ -183,9 +188,7 @@ You can customize the default view (column, card, list) for a console:
    Define the following property:
 
     * **Name**: `sling:orderBefore`
-    
-    * **Type**: `String`  
-    
+    * **Type**: `String`
     * **Value**: `column`
 
 `aem-admin-extension-customize-sites` is a sample package showing how to customize an existing AEM 6 admin console. This package provides updates to Sites administration:
@@ -224,10 +227,11 @@ You can find the code of this page on GitHub
     * To create the connection, the `id` property references (i.e. must be the same as) the `currentID` property [for the appropriate console](#create-a-custom-console):
 
         * property: `id`
-        * value: same as for your console (e.g. `cq-launches`)  
-          for example: the same value as the `currentId` property on:  
-          `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/body/rail`  
-          ``
+        * value: same as for your console (e.g. `cq-launches`) 
+
+          for example: the same value as the `currentId` property on:
+
+          `/apps/<yourProject>/admin/ext/launches/content/jcr:content/body/rail`
 
 ## Add New Action to the Toolbar {#add-new-action-to-the-toolbar}
 
@@ -275,25 +279,14 @@ You can find the code of this page on GitHub
 
     * `projects`
     * `sites`
-    * 
-    
-      ```    
-      assets
-      
-      ```    
-    
+    * `assets`
     * `apps`
     * `forms`
     * `screens`
     * `personalization`
     * `commerce`
     * `tools`
-    * 
-    
-      ```    
-      communities
-      
-      ```
+    * `communities`
 
 1. For example, on a overlay at:
 
@@ -302,9 +295,7 @@ You can find the code of this page on GitHub
    Define the following property:
 
     * **Name**: `sling:hideResource`
-    
-    * **Type**: `String`  
-    
+    * **Type**: `String` 
     * **Value**: `true`
 
 `aem-admin-extension-customize-sites` is a sample package showing how to customize an existing AEM 6 admin console. This package provides updates to Sites administration:
@@ -330,26 +321,15 @@ You can restrict access to a navigation option using ACLs:
 
     * `projects`
     * `sites`
-    * 
-    
-      ```    
-      assets
-      
-      ```    
-    
+    * `assets`
     * `apps`
     * `forms`
     * `screens`
     * `personalization`
     * `commerce`
     * `tools`
-    * 
-    
-      ```    
-      communities
-      
-      ```
-
+    * `communities`
+ 
 ## Customizing Columns in the List View {#customizing-columns-in-the-list-view}
 
 >[!NOTE]
@@ -367,19 +347,18 @@ To customize the columns in the list view:
 
 1. Overlay the list of available columns.
 
-    * On the node:    
-    
-      ```    
-             /apps/wcm/core/content/common/availablecolumns
-      ```    
-    
+    * On the node: 
+
+      `/apps/wcm/core/content/common/availablecolumns`
+
     * Add your new columns - or remove existing ones.
 
    See [Using Overlays (and the Sling Resource Merger)](/help/sites-developing/overlays.md) for more information.
 
 1. Optionally:
 
-    * If you want to plug additional data, you need to write a ` [PageInforProvider](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider.html)` with a   
+    * If you want to plug additional data, you need to write a ` [PageInforProvider](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider.html)` with a 
+
       `pageInfoProviderType` property.
 
    For example, see the class/bundle attached (from GitHub) below.

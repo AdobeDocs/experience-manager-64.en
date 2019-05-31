@@ -72,8 +72,8 @@ You use the Data Dictionary Editor to create a data dictionary or you can upload
 
    Select either Composite Element, Collection Element, or Primitive Element.
 
-    * A Composite DDE contains other DDEs, which can be of type primitive, composite, or collection. For example, an address, which consists of a street address, city, province, country, and postal code.   
-    * Primitive DDEs are elements such as strings, numbers, dates, and Boolean values that hold information such as a city name.  
+    * A Composite DDE contains other DDEs, which can be of type primitive, composite, or collection. For example, an address, which consists of a street address, city, province, country, and postal code. 
+    * Primitive DDEs are elements such as strings, numbers, dates, and Boolean values that hold information such as a city name.
     * A Collection is a list of similar Simple or Composite DDEs. For example, a customer with multiple locations, or different billing and shipping addresses.
 
    Following are some rules for creating a data dictionary:
@@ -192,7 +192,8 @@ While editing or viewing a data dictionary, you can see which elements in the da
 
 1. After making the data entries, you can use this XML file when you are previewing a letter with test data.
 
-   You can add this test data with DD (Select DD and tap Upload Test Data and upload this xml file)  
+   You can add this test data with DD (Select DD and tap Upload Test Data and upload this xml file)
+
    So after this when you preview letter normally (not custom), then this XML data is used in letter. You can also tap Custom and then upload this XML.
 
 ## Samples {#samples}
@@ -424,12 +425,18 @@ When you want to send the same letter in different languages to your customers, 
 1. Tap **OK** in the alert. Correspondence Management downloads a zip file to your computer with the name DataDictionary-&lt;DDname&gt;.zip. 
 1. The Zip file contains a .properties file. This file defines the downloaded data dictionary. The contents of the property file are similar to the following:
 
-   #Wed May 20 16:06:23 BST 2015  
-   DataDictionary.EmployeeDD.description=  
-   DataDictionary.EmployeeDD.displayName=EmployeeDataDictionary  
-   DataDictionaryElement.name.description=  
-   DataDictionaryElement.name.displayName=name  
-   DataDictionaryElement.person.description=  
+   #Wed May 20 16:06:23 BST 2015
+
+   DataDictionary.EmployeeDD.description=
+
+   DataDictionary.EmployeeDD.displayName=EmployeeDataDictionary 
+
+   DataDictionaryElement.name.description= 
+
+   DataDictionaryElement.name.displayName=name 
+
+   DataDictionaryElement.person.description= 
+   
    DataDictionaryElement.person.displayName=person
 
    The structure of the properties file defines one line each for the description and the display name for the data dictionary and each data dictionary element in the data dictionary. In addition, the properties file defines one line for an enum value set for each data dictionary element. As with a data dictionary, the corresponding properties file can have multiple data dictionary elements definitions. In addition, the file can contain the definitions for one or more enum value sets.

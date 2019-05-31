@@ -218,8 +218,7 @@ AEM Forms workspace allows you to customize error dialogs. Perform the [Generic 
 
 ## Examples {#examples}
 
-* **To customize the error dialog, change:  
-  **
+* **To customize the error dialog, change:**
 
 ```css
 

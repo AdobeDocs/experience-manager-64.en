@@ -50,10 +50,11 @@ Follow these steps to create an adaptive form.
 
 1. Tap **Create**. An adaptive form is created and a dialog to open the form for editing appears.
 
-   Once you have finished specifying all the properties, click **Create**. An adaptive form is created and a dialog to open the form for editing appears.  
+   Once you have finished specifying all the properties, click **Create**. An adaptive form is created and a dialog to open the form for editing appears. 
+
    Once you have finished specifying all the properties, click **Create**. An adaptive form is created and a dialog to open the form for editing appears.  
 
-1. Tap **Open **to open the newly created form in a new tab. The form opens for editing and displays the contents available in the template. It also displays the sidebar to customize the newly created form according to the needs.
+1. Tap **Open** to open the newly created form in a new tab. The form opens for editing and displays the contents available in the template. It also displays the sidebar to customize the newly created form according to the needs.
 
    Based on the type of adaptive form, the form elements present in the associated XFA form template, XML schema, or JSON schema are displayed in the **Data Model Objects** tab of the **Content Browser** in the sidebar. You can also drag-drop these elements to build your adaptive form.
 

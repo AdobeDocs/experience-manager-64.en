@@ -50,15 +50,15 @@ To access the Classic UI Tagging console :
         * `forward slash (/)` - sub-tag delimiter
 
       These characters will not be displayed if entered.
-    
+  
     * **Name** 
 
       (*Required*) The node name for the tag.
-    
+  
     * **Description** 
 
       (*Optional*) A description for the tag.
-    
+  
     * select **Create**
 
 ## Editing Tags {#editing-tags}

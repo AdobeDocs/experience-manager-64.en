@@ -58,8 +58,7 @@ Complete the following steps to add a chart to an Interactive Communication:
     * Specify the following for **[!UICONTROL x-axis]** and **[!UICONTROL y-axis]**:
 
         * **[!UICONTROL Title]**: Specify the titles for X and Y axis to be displayed in the Interactive Communication. 
-        * **[!UICONTROL Data Model Object *]**: Browse and select data model objects for the X and Y axis of the chart from the form data model specified while creating the Interactive Communication. Choose two collection/array type properties of the same parent data model object that are meaningful in relation to each other to plot on the X and Y axis of a chart.   
-        
+        * **[!UICONTROL Data Model Object *]**: Browse and select data model objects for the X and Y axis of the chart from the form data model specified while creating the Interactive Communication. Choose two collection/array type properties of the same parent data model object that are meaningful in relation to each other to plot on the X and Y axis of a chart. 
         * **[!UICONTROL Function]**: To use statistical functions to compute the values on the axis, select function for X / Y axis. For more information about functions, see [Use functions in chart](#usefunction) and [Example 2: Application of sum and mean functions in a line chart](#applicationsumfrequency).
 
    >[!NOTE]
@@ -238,10 +237,8 @@ Once you have written a custom function, do the following to make it available f
 1. To display the custom function in Function drop-down, in CRXDe Lite, create an `nt:unstructured` node in the apps folder with the following properties:
 
     * Add property `guideComponentType` with value as `fd/af/reducer`. (mandatory)
-    
     * Add property `value` to a fully qualified name of the custom JavaScript™ function. (mandatory) and set its value to name of the custom function, such as Multiply. 
-    * Add property `jcr:description` with the value you want to display as the name of the custom function that appears in the Function drop-down. For example, **Multiply**.  
-    
+    * Add property `jcr:description` with the value you want to display as the name of the custom function that appears in the Function drop-down. For example, **Multiply**. 
     * Add property `qtip` with value that will be short description of the custom function. It appears as a tooltip when hovering pointer over the function name in the **Function** drop-down list.
 
 1. Click **Save All** to save the configuration.

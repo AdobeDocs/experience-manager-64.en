@@ -73,8 +73,7 @@ With AEM Forms Workflow server, a form can be associated with a startpoint in a 
 
 With AEM Forms server without AEM Forms workflow, a form enabled for syncing in the app is rendered in the AEM Forms app. Forms are available in the Forms tab of the app, can be submitted or saved as a draft. Adaptive forms and mobile forms are supported in the app.
 
-1. **Saving a task or form as a draft  
-   **
+1. **Saving a task or form as a draft**
 
    The save as draft option saves a snapshot of a task or form along with the data filled and files attached in the associated form. The drafts are saved to the mobile device and synced with AEM Forms server for a later retrieval.
 
@@ -180,13 +179,15 @@ The source code for the AEM Forms app can be extracted from the adobe-lc-mobilew
 
 To get the AEM Forms app source, perform the following steps:
 
-1. Navigate to package share  
+1. Navigate to package share
+
    URL: `https://<server>:<port>/crx/packageshare`.
 
 1. Download the source package. When you download the package, it is added in your AEM Forms package manager.
 1. After it is downloaded, navigate to: `https://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
 
-1. To download the package, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.   
+1. To download the package, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.
+
    The source package is downloaded on your device.
 
 **For iOS**:
@@ -214,6 +215,7 @@ If you are upgrading to the latest version of AEM Forms app, ensure that you rea
 * **If you installed an earlier version of the app from the play store on Android** 
   You can upgrade the app directly from the play store.
 
-* **If earlier version of the app is built and installed using the source code (applicable for iOS and Android)**:  
+* **If earlier version of the app is built and installed using the source code (applicable for iOS and Android)**:
+
   Before you install the new app, sync all your data with the AEM Forms server. After the data is synced, uninstall the earlier version of the app, and install the new app.
 

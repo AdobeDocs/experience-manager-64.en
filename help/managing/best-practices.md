@@ -367,7 +367,7 @@ Once the new application is available it will need to undergo stringent testing,
   For more information about performance testing, see:
 
     * [Performance Testing](/help/sites-deploying/configuring-performance.md)
-    * [How to plan and run testing](/help/sites-developing/planning.md)  
+    * [How to plan and run testing](/help/sites-developing/planning.md) 
     * [Basic Performance Guidelines](/help/sites-deploying/configuring-performance.md#basic-performance-guidelines)
 
   >[!NOTE]

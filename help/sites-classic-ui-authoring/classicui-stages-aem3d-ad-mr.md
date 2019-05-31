@@ -36,22 +36,21 @@ discoiquuid: f30c4039-3bbf-4d02-a9b5-bda6ccce16b9
 
    Configure the Render Settings with the following suggestions:
 
-    * Common tab  
+    * Common tab 
+
       Deselect the **Alpha channel (mask)** check box for all Renderable Cameras.
-    
+  
     * Quality tab
 
         * **Overall quality** `- 0.5` or less
-        
         * **Indirect Diffuse (GI) Mode** - `Final Gather`
-        
         * **Filter Size** - `2.0`, `2.0`
 
-    * Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, or Render settings, or do both to achieve the results you want.  
+    * Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, or Render settings, or do both to achieve the results you want. 
+  
       Be aware that rendering with Mental Ray, using image-based lighting, is very slow and CPU-intensive. Adobe recommends that you configure the lowest quality settings that are still capable of producing the desired render quality.
 
 1. Remove the reference that you created in step 2.
-
 1. Save the scene, then exit Autodesk Maya.
 1. Upload the scene into AEM and wait for upload processing to complete.
 

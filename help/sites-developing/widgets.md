@@ -49,9 +49,9 @@ To create a client library:
 
     * name="clientlib"
     * jcr:mixinTypes="[mix:lockable]"
-    * jcr:primaryType="cq:ClientLibraryFolder"  
-    * sling:resourceType="widgets/clientlib"  
-    * categories="[&lt;category-name&gt;]"  
+    * jcr:primaryType="cq:ClientLibraryFolder" 
+    * sling:resourceType="widgets/clientlib" 
+    * categories="[&lt;category-name&gt;]" 
     * dependencies="[cq.widgets]"
 
    `Note: <category-name> is the name of the custom library (e.g. "cq.extjstraining") and is used to include the library on the page.`
@@ -88,11 +88,14 @@ To create a client library:
 
 To include the client library in the page component jsp:
 
-* to include both javascript code and stylesheets:  
-  `<ui:includeClientLib categories="<category-name1>, <category-name2>, ..."/>`  
+* to include both javascript code and stylesheets: 
+
+  `<ui:includeClientLib categories="<category-name1>, <category-name2>, ..."/>` 
+
   where `<category-nameX>` is the name of the client-sided library.
 
-* to only include javascript code:  
+* to only include javascript code: 
+
   `<ui:includeClientLib js="<category-name>"/>`
 
 For more details refer to the description of the [&lt;ui:includeClientLib&gt;](/help/sites-developing/taglib.md#amp-lt-ui-includeclientlib) tag.
@@ -111,8 +114,10 @@ To follow the tutorials on this page, install the package called **Using ExtJS W
 
 1. In your AEM instance download the package called **Using ExtJS Widgets (v01)** from Package Share and install the package. It creates the project `extjstraining` below `/apps` in the repository.
 
-1. Include the client library containing the scripts (js) and the stylesheet (css) in the head tag of the geometrixx page jsp, as you will include the sample components in a new page of the **Geometrixx** branch:  
-   in **CRXDE Lite** open the file `/apps/geometrixx/components/page/headlibs.jsp` and add the `cq.extjstraining` category to the existing `<ui:includeClientLib>` tag as follows:  
+1. Include the client library containing the scripts (js) and the stylesheet (css) in the head tag of the geometrixx page jsp, as you will include the sample components in a new page of the **Geometrixx** branch: 
+
+   in **CRXDE Lite** open the file `/apps/geometrixx/components/page/headlibs.jsp` and add the `cq.extjstraining` category to the existing `<ui:includeClientLib>` tag as follows: 
+
    `%><ui:includeClientLib categories="apps.geometrixx-main, cq.extjstraining"/><%`
 
 1. Create a new page in the **Geometrixx** branch below `/content/geometrixx/en/products` and call it **Using ExtJS Widgets**.  
@@ -157,10 +162,12 @@ The **Full** dialog displays a window with three tabs, each tab having two text 
 * Displays 3 tabs (node type = `cq:Panel`).
 * Each tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](/help/sites-developing/xtypes.md#textfield)`).  
 
-* Is defined by the node:  
+* Is defined by the node: 
+
   `/apps/extjstraining/components/dialogbasics/full`
 
-* Is rendered in JSON format by requesting:  
+* Is rendered in JSON format by requesting: 
+
   `http://localhost:4502/apps/extjstraining/components/dialogbasics/full.-1.json`
 
 The dialog displays as follows:
@@ -175,10 +182,12 @@ The **Single Panel** dialog displays a window with one tab that has two text fie
 
 * The tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](/help/sites-developing/xtypes.md#textfield)`)  
 
-* Is defined by the node:  
+* Is defined by the node: 
+
   `/apps/extjstraining/components/dialogbasics/singlepanel`
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting: 
+
   `http://localhost:4502/apps/extjstraining/components/dialogbasics/singlepanel.-1.json`
 
 * One advantage over the **Full Dialog** is that less configuration is needed.
@@ -189,7 +198,6 @@ To use the Single Panel dialog:
 1. Replace the dialog of the **Dialog Basics** component with the **Single Panel** dialog:
 
     1. In **CRXDE Lite**, delete the node: `/apps/extjstraining/components/dialogbasics/dialog`
-    
     1. Click **Save All** to save the changes.
     1. Copy the node: `/apps/extjstraining/components/dialogbasics/singlepanel`
     1. Paste the copied node below: `/apps/extjstraining/components/dialogbasics`
@@ -208,10 +216,12 @@ The **Multi Panel** dialog has the same display as the **Full** dialog but it is
 * Displays 3 tabs (node type = `cq:Panel`).
 * Each tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](/help/sites-developing/xtypes.md#textfield)`).
 
-* Is defined by the node:  
+* Is defined by the node: 
+
   `/apps/extjstraining/components/dialogbasics/multipanel`
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting: 
+
   `http://localhost:4502/apps/extjstraining/components/dialogbasics/multipanel.-1.json`
 
 * One advantage over the **Full Dialog** is that it has a simplified structure.  
@@ -220,7 +230,8 @@ The **Multi Panel** dialog has the same display as the **Full** dialog but it is
 
 To use the Multi Panel dialog:
 
-1. Replace the dialog of the **Dialog Basics** component with the **Multi Panel **dialog:  
+1. Replace the dialog of the **Dialog Basics** component with the **Multi Panel** dialog: 
+
    follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)  
 
 1. Edit the component: the dialog displays as follows:
@@ -238,15 +249,18 @@ The **Rich** dialog displays a window with two tabs. The first tab has a text fi
 
 * The second tab has a ` [dialogfieldset](/help/sites-developing/xtypes.md#dialogfieldset)` widget with 4 ` [textfield](/help/sites-developing/xtypes.md#textfield)` widgets, and a collapsible `dialogfieldset` with 2 ` [textfield](/help/sites-developing/xtypes.md#textfield)` widgets.
 
-* Is defined by the node:  
+* Is defined by the node: 
+
   `/apps/extjstraining/components/dialogbasics/rich`
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting: 
+
   `http://localhost:4502/apps/extjstraining/components/dialogbasics/rich.-1.json`
 
 To use the **Rich** dialog:
 
-1. Replace the dialog of the **Dialog Basics** component with the **Rich** dialog:  
+1. Replace the dialog of the **Dialog Basics** component with the **Rich** dialog: 
+
    follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component: the dialog displays as follows:
@@ -282,38 +296,52 @@ Its main characteristics are:
 * Displays 2 tabs (node type = `cq:Panel`): 1 selection tab, the 2nd tab depends on the selection in the 1st tab (3 options).
 * Has 3 optional tabs (node type = `cq:Panel`), each one has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](/help/sites-developing/xtypes.md#textfield)`). Only one optional tab is displayed at a time.  
 
-* Is defined by the `switchtabs` node at:  
+* Is defined by the `switchtabs` node at: 
+
   `/apps/extjstraining/components/dynamicdialogs/switchtabs`
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting:
+
   `http://localhost:4502/apps/extjstraining/components/dynamicdialogs/switchtabs.-1.json`
 
 The logic is implemented through event listeners and javascript code as follows:
 
-* The dialog node has a " `beforeshow`" listener that hides all the optional tabs before the dialog is shown:  
-  `beforeshow="function(dialog){Ejst.x2.manageTabs(dialog.items.get(0));}"`  
+* The dialog node has a " `beforeshow`" listener that hides all the optional tabs before the dialog is shown: 
+
+  `beforeshow="function(dialog){Ejst.x2.manageTabs(dialog.items.get(0));}"` 
+
   `dialog.items.get(0)` gets the tabpanel that contains the selection panel and the 3 optional panels.  
 
-* The `Ejst.x2` object is defined in the `exercises.js` file at:  
+* The `Ejst.x2` object is defined in the `exercises.js` file at: 
+
   `/apps/extjstraining/clientlib/js/exercises.js`  
 
 * In the `Ejst.x2.manageTabs()` method, as the value of `index` is -1, all the optional tabs are hidden (i goes from 1 to 3).
 
-* The selection tab has 2 listeners: one that shows the selected tab when the dialog is loaded (" `loadcontent`" event) and one that shows the selected tab when the selection is changed (" `selectionchanged`" event):  
-  `loadcontent="function(field,rec,path){Ejst.x2.showTab(field);}"`  
+* The selection tab has 2 listeners: one that shows the selected tab when the dialog is loaded (" `loadcontent`" event) and one that shows the selected tab when the selection is changed (" `selectionchanged`" event): 
+
+  `loadcontent="function(field,rec,path){Ejst.x2.showTab(field);}"`
+
   `selectionchanged="function(field,value){Ejst.x2.showTab(field);}"`  
 
-* In the `Ejst.x2.showTab()` method:  
-  `field.findParentByType('tabpanel')` gets the tabpanel that contains all the tabs ( `field` represents the selection widget)  
-  `field.getValue()` gets the value of the selection, e.g.: tab2  
+* In the `Ejst.x2.showTab()` method: 
+
+  `field.findParentByType('tabpanel')` gets the tabpanel that contains all the tabs ( `field` represents the selection widget) 
+
+  `field.getValue()` gets the value of the selection, e.g.: tab2 
+
   `Ejst.x2.manageTabs()` displays the selected tab.
 
-* Each optional tab has a listener that hides the tab on " `render`" event:  
+* Each optional tab has a listener that hides the tab on " `render`" event: 
+
   `render="function(tab){Ejst.x2.hideTab(tab);}"`  
 
-* In the `Ejst.x2.hideTab()` method:  
-  `tabPanel` is the tabpanel that contains all the tabs  
-  `index` is the index of the optional tab  
+* In the `Ejst.x2.hideTab()` method: 
+
+  `tabPanel` is the tabpanel that contains all the tabs 
+
+  `index` is the index of the optional tab 
+
   `tabPanel.hideTabStripItem(index)` hides the tab
 
 It displays as follows:
@@ -334,32 +362,44 @@ Its main characteristics are:
 
 * The panel has a smartfile widget (node type = `cq:Widget`, xtype = ` [smartfile](/help/sites-developing/xtypes.md#smartfile)`) and an ownerdraw widget (node type = `cq:Widget`, xtype = ` [ownerdraw](/help/sites-developing/xtypes.md#ownerdraw)`)
 
-* Is defined by the `arbitrary` node at:  
+* Is defined by the `arbitrary` node at: 
+
   `/apps/extjstraining/components/dynamicdialogs/arbitrary`
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting:
+
   `http://localhost:4502/apps/extjstraining/components/dynamicdialogs/arbitrary.-1.json`
 
 The logic is implemented through event listeners and javascript code as follows:
 
-* The ownerdraw widget has a " `loadcontent`" listener that shows info about the page containing the component and the asset referenced by the smartfile widget when the content is loaded:  
-  `loadcontent="function(field,rec,path){Ejst.x2.showInfo(field,rec,path);}"`  
-  `field` is set with the ownerdraw object  
+* The ownerdraw widget has a " `loadcontent`" listener that shows info about the page containing the component and the asset referenced by the smartfile widget when the content is loaded: 
+
+  `loadcontent="function(field,rec,path){Ejst.x2.showInfo(field,rec,path);}"` 
+
+  `field` is set with the ownerdraw object 
+
   `path` is set with the content path of the component (e.g.: /content/geometrixx/en/products/triangle/ui-tutorial/jcr:content/par/dynamicdialogs)
 
-* The `Ejst.x2` object is defined in the `exercises.js` file at:  
+* The `Ejst.x2` object is defined in the `exercises.js` file at:
+
   `/apps/extjstraining/clientlib/js/exercises.js`
 
-* In the `Ejst.x2.showInfo()` method:  
-  `pagePath` is the path of the page containing the component  
-  `pageInfo` represents the page properties in json format  
-  `reference` is the path of the referenced asset  
-  `metadata` represents the metadata of the asset in json format  
+* In the `Ejst.x2.showInfo()` method: 
+
+  `pagePath` is the path of the page containing the component 
+
+  `pageInfo` represents the page properties in json format 
+
+  `reference` is the path of the referenced asset 
+
+  `metadata` represents the metadata of the asset in json format 
+
   `ownerdraw.getEl().update(html);` displays the created html in the dialog
 
 To use the **Arbitrary** dialog:
 
-1. Replace the dialog of the **Dynamic Dialog** component with the **Arbitrary** dialog:  
+1. Replace the dialog of the **Dynamic Dialog** component with the **Arbitrary** dialog: 
+
    follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component: the dialog displays as follows:
@@ -378,31 +418,38 @@ Its main characteristics are:
 
 * The panel has a selection/checkbox widget (node type = `cq:Widget`, xtype = ` [selection](/help/sites-developing/xtypes.md#selection)`, type = ` [checkbox](/help/sites-developing/xtypes.md#checkbox)`) and a collapsible dialogfieldset widget (node type = `cq:Widget`, xtype = ` [dialogfieldset](/help/sites-developing/xtypes.md#dialogfieldset)`) that is hidden by default, with 2 textfield widgets (node type = `cq:Widget`, xtype = ` [textfield](/help/sites-developing/xtypes.md#textfield)`).
 
-* Is defined by the `togglefields` node at:  
+* Is defined by the `togglefields` node at: 
+
   `/apps/extjstraining/components/dynamicdialogs/togglefields`
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting: 
+
   `http://localhost:4502/apps/extjstraining/components/dynamicdialogs/togglefields.-1.json`
 
 The logic is implemented through event listeners and javascript code as follows:
 
-* the selection tab has 2 listeners: one that shows the dialogfieldset when the content is loaded (" `loadcontent`" event) and one that shows the dialogfieldset when the selection is changed (" `selectionchanged`" event):  
-  `loadcontent="function(field,rec,path){Ejst.x2.toggleFieldSet(field);}"`  
+* the selection tab has 2 listeners: one that shows the dialogfieldset when the content is loaded (" `loadcontent`" event) and one that shows the dialogfieldset when the selection is changed (" `selectionchanged`" event): 
+
+  `loadcontent="function(field,rec,path){Ejst.x2.toggleFieldSet(field);}"` 
+
   `selectionchanged="function(field,value){Ejst.x2.toggleFieldSet(field);}"`
 
-* The `Ejst.x2` object is defined in the `exercises.js` file at:  
+* The `Ejst.x2` object is defined in the `exercises.js` file at: 
+
   `/apps/extjstraining/clientlib/js/exercises.js`  
 
-* In the `Ejst.x2.toggleFieldSet()` method:  
-  `box` is the selection object  
-  `panel` is the panel containing the selection and the dialogfieldset widgets  
-  `fieldSet` is the dialogfieldset object  
-  `show` is the value of the selection (true or false)  
-  based on ' `show`' the dialogfieldset is displayed or not
+* In the `Ejst.x2.toggleFieldSet()` method: 
+
+  * `box` is the selection object 
+  * `panel` is the panel containing the selection and the dialogfieldset widgets 
+  * `fieldSet` is the dialogfieldset object 
+  * `show` is the value of the selection (true or false) 
+  * based on ' `show`' the dialogfieldset is displayed or not
 
 To use the **Toggle Fields** dialog:
 
-1. Replace the dialog of the **Dynamic Dialog** component with the **Toggle Fields** dialog:  
+1. Replace the dialog of the **Dynamic Dialog** component with the **Toggle Fields** dialog: 
+
    follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component: the dialog displays as follows:
@@ -422,7 +469,8 @@ The custom widgets and the plugin are included in the component called **3. Cust
 
 1. Add the **3. Custom Widgets** component to the sample page from the **Using ExtJS Widgets** tab in the **Sidekick**.
 
-1. The component displays a title, some text and, when clicking the **PROPERTIES** link, the properties of the paragraph stored in the repository. Clicking again hides the properties.  
+1. The component displays a title, some text and, when clicking the **PROPERTIES** link, the properties of the paragraph stored in the repository. Clicking again hides the properties. 
+
    The component displays as follows:
 
 ![](assets/chlimage_1-137.png) 
@@ -441,23 +489,27 @@ The **Custom Multifield** widget based dialog:
 
 * The `multifield` widget has a fieldconfig (node type = `nt:unstructured`, xtype = `ejstcustom`, optionsProvider = `Ejst.x3.provideOptions`) that is based on the custom xtype ' `ejstcustom`':
 
-    * ' `fieldconfig`' is a config option of the ` [CQ.form.MultiField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.MultiField)` object.  
-    
-    * ' `optionsProvider`' is a configuration of the `ejstcustom` widget. It is set with the `Ejst.x3.provideOptions` method which is defined in `exercises.js` at:  
-      `/apps/extjstraining/clientlib/js/exercises.js`  
+    * ' `fieldconfig`' is a config option of the ` [CQ.form.MultiField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.MultiField)` object. 
+    * ' `optionsProvider`' is a configuration of the `ejstcustom` widget. It is set with the `Ejst.x3.provideOptions` method which is defined in `exercises.js` at: 
+
+      `/apps/extjstraining/clientlib/js/exercises.js` 
+
       and returns 2 options.
 
-* Is defined by the `multifield` node at:  
+* Is defined by the `multifield` node at: 
+
   `/apps/extjstraining/components/customwidgets/multifield`
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting: 
+
   `http://localhost:4502/apps/extjstraining/components/customwidgets/multifield.-1.json`
 
 The custom multifield widget (xtype = `ejstcustom`):
 
 * Is a javascript object called `Ejst.CustomWidget`.  
 
-* Is defined in the `CustomWidget.js` javascript file at:  
+* Is defined in the `CustomWidget.js` javascript file at: 
+
   `/apps/extjstraining/clientlib/js/CustomWidget.js`
 
 * Extends the ` [CQ.form.CompositeField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.CompositeField)` widget.  
@@ -467,13 +519,14 @@ The custom multifield widget (xtype = `ejstcustom`):
 * Overrides `CQ.Ext.Component#initComponent` to add the 3 fields:
 
     * `allowField` is a [CQ.form.Selection](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.Selection) object of type 'select'. optionsProvider is a configuration of the Selection object that is instantiated with the optionsProvider configuration of the CustomWidget defined in the dialog
-    
     * `otherField` is a [CQ.Ext.form.TextField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.form.TextField) object
 
-* Overrides the methods `setValue`, `getValue` and `getRawValue` of [CQ.form.CompositeField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.CompositeField) in order to set and retrieve the value of CustomWidget with the format:  
+* Overrides the methods `setValue`, `getValue` and `getRawValue` of [CQ.form.CompositeField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.CompositeField) in order to set and retrieve the value of CustomWidget with the format: 
+
   `<allowField value>/<otherField value>, e.g.: 'Bla1/hello'`.
 
-* Registers itself as ' `ejstcustom`' xtype:  
+* Registers itself as ' `ejstcustom`' xtype: 
+
   `CQ.Ext.reg('ejstcustom', Ejst.CustomWidget);`
 
 The **Custom Multifield** widget based dialog displays as follows:
@@ -492,16 +545,19 @@ The custom treebrowse dialog:
 
 * The panel has a custom widget (node type = `cq:Widget`, xtype = `ejstbrowse`)
 
-* Is defined by the `treebrowse` node at:  
+* Is defined by the `treebrowse` node at: 
+
   `/apps/extjstraining/components/customwidgets/treebrowse`
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting: 
+
   `http://localhost:4502/apps/extjstraining/components/customwidgets/treebrowse.-1.json`
 
 The custom treebrowse widget (xtype = `ejstbrowse`):
 
 * Is a javascript object called `Ejst.CustomWidget`.
-* Is defined in the `CustomBrowseField.js` javascript file at:  
+* Is defined in the `CustomBrowseField.js` javascript file at: 
+
   `/apps/extjstraining/clientlib/js/CustomBrowseField.js`  
 
 * Extends ` [CQ.Ext.form.TriggerField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.form.TriggerField)`.
@@ -521,12 +577,14 @@ The custom treebrowse widget (xtype = `ejstbrowse`):
 * The window is anchored below the **Path** field.
 * The selected path is passed from the browse field to the window on `show` event.  
 
-* Registers itself as ' `ejstbrowse`' xtype:  
+* Registers itself as ' `ejstbrowse`' xtype: 
+
   `CQ.Ext.reg('ejstbrowse', Ejst.CustomBrowseField);`
 
 To use the **Custom Treebrowse** widget based dialog:
 
-1. Replace the dialog of the **Custom Widgets** component with the **Custom Treebrowse** dialog:  
+1. Replace the dialog of the **Custom Widgets** component with the **Custom Treebrowse** dialog: 
+
    follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component: the dialog displays as follows:
@@ -539,10 +597,12 @@ The **Rich Text Editor (RTE) Plug-in** based dialog is a Rich Text Editor based 
 
 The **RTE plugin** based dialog:
 
-* Is defined by the rteplugin node at:  
+* Is defined by the rteplugin node at: 
+
   `/apps/extjstraining/components/customwidgets/rteplugin`  
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting:
+
   `http://localhost:4502/apps/extjstraining/components/customwidgets/rteplugin.-1.json`
 
 * The `rtePlugins` node has a child node `inserttext` (node type = `nt:unstructured`) that is named after the plugin. It has a property called `features`, that defines which of the plugin features are available to the RTE.
@@ -551,7 +611,8 @@ The RTE plugin:
 
 * Is a javascript object called `Ejst.InsertTextPlugin`.  
 
-* Is defined in the `InsertTextPlugin.js` javascript file at:  
+* Is defined in the `InsertTextPlugin.js` javascript file at: 
+
   `/apps/extjstraining/clientlib/js/InsertTextPlugin.js`  
 
 * Extends the ` [CQ.form.rte.plugins.Plugin](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.Plugin)` object.
@@ -566,18 +627,21 @@ The RTE plugin:
 
 * `executeInsertText()` is called by the `apply()` method of the dialog, which is triggered when the **OK** button is clicked.  
 
-* Registers itself as ' `inserttext`' plugin:  
+* Registers itself as ' `inserttext`' plugin: 
+
   `CQ.form.rte.plugins.PluginRegistry.register("inserttext", Ejst.InsertTextPlugin);`
 
 * the `Ejst.InsertTextPlugin.Dialog` object defines the dialog that is opened when the plugin button is clicked. The dialog consists of a panel, a form, a textfield and 2 buttons (**OK** and **Cancel**).
 
 To use the **Rich Text Editor (RTE) Plug-in** based dialog:
 
-1. Replace the dialog of the **Custom Widgets** component with the **Rich Text Editor (RTE) Plug-in** based dialog:  
+1. Replace the dialog of the **Custom Widgets** component with the **Rich Text Editor (RTE) Plug-in** based dialog: 
+
    follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component.
-1. Click the the last icon on the right (the one with four arrows). Enter a path and click **OK**:  
+1. Click the the last icon on the right (the one with four arrows). Enter a path and click **OK**: 
+
    The path is displayed within brackets ([ ]).
 
 1. Click **OK** to close the Rich Text Editor.
@@ -610,7 +674,8 @@ The component displays as follows:
 
 The Tree Overview component:
 
-* Is defined at:  
+* Is defined at: 
+
   `/apps/extjstraining/components/treeoverview`
 
 * Its dialog enables to set the size of the window and to dock/undock the window (see details below).
@@ -620,7 +685,8 @@ The component jsp:
 * Retrieves the width, heigth and docked properties from the repository.
 * Displays some text about the tree overview data format.
 * Embeds the window logic in the component jsp between javascript tags.
-* Is defined at:  
+* Is defined at: 
+
   `apps/extjstraining/components/treeoverview/content.jsp`
 
 The javascript code embedded in the component jsp:
@@ -629,15 +695,14 @@ The javascript code embedded in the component jsp:
 
 * If the window displaying the tree does not exist, `treePanel` ([CQ.Ext.tree.TreePanel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.tree.TreePanel)) is created:
 
-    * `treePanel` contains the data that is used to create the window.  
-    
-    * The data are retrieved by calling the servlet registered at:  
+    * `treePanel` contains the data that is used to create the window.
+    * The data are retrieved by calling the servlet registered at: 
       `/bin/wcm/siteadmin/tree.json`
 
 * The `beforeload` listener makes sure the clicked node is loaded.
 * The `root` object sets the path `apps/extjstraining` as the tree root.
+* `tree` ( ` [CQ.Ext.Window](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.Window)`) is set based on the pre-defined `treePanel`, and is displayed with: 
 
-* `tree` ( ` [CQ.Ext.Window](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.Window)`) is set based on the pre-defined `treePanel`, and is displayed with:  
   `tree.show();`
 
 * If the window already exists, it is displayed based on the width, heigth and docked properties retrieved from the repository.
@@ -649,10 +714,12 @@ The component dialog:
 
 * The panel has a sizefield widget (node type = `cq:Widget`, xtype = ` [sizefield](/help/sites-developing/xtypes.md#sizefield)`) and a selection widget (node type = `cq:Widget`, xtype = ` [selection](/help/sites-developing/xtypes.md#selection)`, type = `radio`) with 2 options (true/false)  
 
-* Is defined by the dialog node at:  
+* Is defined by the dialog node at: 
+
   `/apps/extjstraining/components/treeoverview/dialog`  
 
-* Is rendered in json format by requesting:  
+* Is rendered in json format by requesting: 
+
   `http://localhost:4502/apps/extjstraining/components/treeoverview/dialog.-1.json`
 
 * ``Displays as follows:
@@ -679,7 +746,7 @@ To include the Grid Overview component to the sample page:
 
 1. The component displays:
 
-    * a title with some text  
+    * a title with some text 
     * a **PROPERTIES** link: click to display the properties of the paragraph stored in the repository. Click again to hide the properties.
     * a floating window containing data in tabular format.
 
@@ -696,7 +763,8 @@ In its out-of-the-box version, the **Grid Overview** component displays a window
 
 The Grid Overview component:
 
-* Is defined at:  
+* Is defined at: 
+
   `/apps/extjstraining/components/gridoverview`
 
 * Its dialog enables to set the size of the window and to dock/undock the window.
@@ -705,17 +773,21 @@ The component jsp:
 
 * Retrieves the width, heigth and docked properties from the repository.
 * Displays some text as introduction to the grid overview data format.
-* References javascript code that defines the GridPanel object:  
-  `<script type="text/javascript" src="/apps/extjstraining/components/gridoverview/defaultgrid.js"></script>`  
+* References javascript code that defines the GridPanel object: 
+
+  `<script type="text/javascript" src="/apps/extjstraining/components/gridoverview/defaultgrid.js"></script>` 
+
   `defaultgrid.js` defines some static data as a base for the GridPanel object.  
 
 * Embeds javascript code between javascript tags that defines the Window object consuming the GridPanel object.  
-* Is defined at:  
+* Is defined at: 
+
   `apps/extjstraining/components/gridoverview/content.jsp`
 
 The javascript code embedded in the component jsp:
 
-* Defines the `grid` object by trying to retrieve the window component from the page:  
+* Defines the `grid` object by trying to retrieve the window component from the page: 
+
   `var grid = CQ.Ext.getCmp("<%= node.getName() %>-grid");`
 
 * If `grid` does not exist, a [CQ.Ext.grid.GridPanel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.grid.GridPanel) object ( `gridPanel`) is defined by calling the `getGridPanel()` method (see below). This method is defined in `defaultgrid.js`.
@@ -729,15 +801,18 @@ The javascript file ( `defaultgrid.js`) referenced in the component jsp defines 
 * `myData` is an array of static data formatted as a table of 5 columns and 4 rows.
 * `store` is a `CQ.Ext.data.Store` object that consumes `myData`.
 
-* `store` is loaded in memory:  
+* `store` is loaded in memory:
+
   `store.load();`
 
 * `gridPanel` is a ` [CQ.Ext.grid.GridPanel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.grid.GridPanel)` object that consumes `store`:
 
-    * the column widths are re-proportioned at all times:  
+    * the column widths are re-proportioned at all times: 
+
       `forceFit: true`
-    
-    * only one row at a time can be selected:  
+
+    * only one row at a time can be selected: 
+
       `singleSelect:true`
 
 #### Example 2: Reference Search Grid {#example-reference-search-grid}
@@ -752,10 +827,12 @@ As explained in the section before, the window object gets its ` [CQ.Ext.grid.Gr
 
 Switch the .js file that is referenced in the component jsp:
 
-1. In **CRXDE Lite**, in the `content.jsp` file of the component, comment the line that includes the `defaultgrid.js` file, so that it looks as follows:  
+1. In **CRXDE Lite**, in the `content.jsp` file of the component, comment the line that includes the `defaultgrid.js` file, so that it looks as follows: 
+
    `<!-- script type="text/javascript" src="/apps/extjstraining/components/gridoverview/defaultgrid.js"></script-->`
 
-1. Remove the comment from the line that includes the `referencesearch.js` file, so that it looks as follows:  
+1. Remove the comment from the line that includes the `referencesearch.js` file, so that it looks as follows: 
+
    `<script type="text/javascript" src="/apps/extjstraining/components/gridoverview/referencesearch.js"></script>`
 
 1. Save the changes.
@@ -769,11 +846,14 @@ The javascript code referenced in the component jsp ( `referencesearch.js`) defi
 
 * `reader` is a ` [CQ.Ext.data.JsonReader](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.data.JsonReader)`object that reads the servlet response in json format for 3 columns.
 
-* `cm` is a ` [CQ.Ext.grid.ColumnModel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.grid.ColumnModel)` object for 3 columns.  
-  The "Test" column cells can be edited as they are defined with an editor:  
+* `cm` is a ` [CQ.Ext.grid.ColumnModel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.grid.ColumnModel)` object for 3 columns. 
+
+  The "Test" column cells can be edited as they are defined with an editor: 
+
   `editor: new [CQ.Ext.form.TextField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.form.TextField)({})`  
 
-* the columns are sortable:  
+* the columns are sortable: 
+
   `cm.defaultSortable = true;`
 
 * `store` is a ` [CQ.Ext.data.GroupingStore](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.data.GroupingStore)` object:
@@ -784,14 +864,13 @@ The javascript code referenced in the component jsp ( `referencesearch.js`) defi
 
 * `gridPanel` is a ` [CQ.Ext.grid.EditorGridPanel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.grid.EditorGridPanel)` object that can be edited:
 
-    * it is based on the pre-defined `store` and on the column model `cm`  
-    
-    * only one row at a time can be selected:  
-      `sm: new [CQ.Ext.grid.RowSelectionModel](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.grid.RowSelectionModel)({singleSelect:true})`  
-    
+    * it is based on the pre-defined `store` and on the column model `cm` 
+    * only one row at a time can be selected: 
+
+      `sm: new [CQ.Ext.grid.RowSelectionModel](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.grid.RowSelectionModel)({singleSelect:true})` 
+
     * the `afteredit` listener makes sure that after a cell in the "**Test**" column has been edited:
 
         * the property ' `test`' of the node at the path defined by the "**jcr:path**" column is set in the repository with the value of the cell
-        
         * if the POST is successful, the value is added to the `store` object, otherwise it is rejected
 

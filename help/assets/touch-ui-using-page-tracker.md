@@ -33,7 +33,7 @@ The following sample code displays how a web page that contains both the Page Tr
                 assetAnalytics.charsLimitForGET = 2000; // bytes
                 assetAnalytics.dispatcher.init("assetstesting","xxxx","xxx","list1","eVar3","event8","event7");
             </script>
-                                                
+                    
     </head>
                 
     <body>

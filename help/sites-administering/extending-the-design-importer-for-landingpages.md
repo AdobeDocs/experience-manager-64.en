@@ -317,8 +317,10 @@ A lead form is a form that is used to collect a visitor/lead's profile informati
 * Map lead form fields using specific pre-defined names of CTA lead form, for example - firstName for first-name in lead form, and so on.
 * Fields that are not mapped to lead form will map to cq:form components - text, radio, checkbox, dropdown, hidden, password.
 * User can provide the title using “label” tag and can provide styling by using style attribute “class” (only available for CTA lead form components).
-* Thank You page and subscription list can be provided as a hidden parameter of the form (present in the index.htm) or can be added/edited from edit bar of “Start of lead form”  
-  &lt;input type="hidden" name="redirectUrl" value="/content/we-retail/en/user/register/thank_you"/&gt;  
+* Thank You page and subscription list can be provided as a hidden parameter of the form (present in the index.htm) or can be added/edited from edit bar of “Start of lead form” 
+
+  &lt;input type="hidden" name="redirectUrl" value="/content/we-retail/en/user/register/thank_you"/&gt; 
+  
   &lt;input type="hidden" name="groupName" value="leadForm"/&gt;
 
 * Constraints like - required can be provided from edit configuration of each of the component.

@@ -57,7 +57,8 @@ In this exercise, all pages are based on one simple template.
 
    When an author creates a page below `/content`, the `playpage`template titled "An SCF Sandbox Page Template" appears in a list of available templates to use.
 
-   After the root page is created from the template, access to the template could be restricted to this website by modifying the property to include the root path in the regular expression, i.e..  
+   After the root page is created from the template, access to the template could be restricted to this website by modifying the property to include the root path in the regular expression, i.e..
+
    **/content/an-scf-sandbox(/.&ast;)?**
 
    ![](assets/chlimage_1-76.png)
@@ -98,7 +99,7 @@ Create the *component* that defines the content and renders any pages created ba
    ![](assets/chlimage_1-78.png)
 
 1. Click **Next** until the **Allowed Children** panel of the dialog appears
-    
+
     * click **OK**
     * click **Save All**
 

@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 9f883483-b81e-42c6-a4a1-eb499dd112e7
 ---
 
-# Optimizing the Performance of theForms Service{#optimizing-the-performance-of-theforms-service}
+# Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-theforms-service}
 
 ## Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-the-forms-service}
 
@@ -50,7 +50,7 @@ You can set the following performance run-time options to improve the performanc
 * **Linearized PDF**: A linearized PDF file is organized to enable efficient incremental access in a network environment. The PDF file is valid PDF in all respects, and is compatible with all existing viewers and other PDF applications. That is, a linearized PDF can be viewed while it is still being downloaded.
 * This option does not improve performance when a PDF form is rendered on the client. 
 * **GuideRSL option**: Enables form Guide (deprecated) generation using run-time shared libraries. This means the first request will download a smaller SWF file, plus larger shared-libraries that are stored in the browser cache. For more information, see RSL in the Flex documentation. 
-* You can also improve the performance of the Forms service by rendering a form on the client. (See [Rendering Forms at the Client](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering-forms-at-the-client).)
+* You can also improve the performance of the Forms service by rendering a form on the client. (See [Rendering Forms at the Client](/help/forms/developing/rendering-forms-client.md).)
 
 **Render the form**
 
@@ -62,21 +62,17 @@ After the Forms service renders a form, it returns a form data stream that you m
 
 **See also**
 
-[Optimize the performance using the Java API](/help/forms/developing/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing optimizing-performance-forms-service-optimizing.md#optimize-the-performance-using-the-java-api)
-
-[Optimize the performance using the web service API](/help/forms/developing/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing optimizing-performance-forms-service-optimizing.md#optimize-the-performance-using-the-web-service-api)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-interactive-pdf-forms.md)
 
-[Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html)
+[Rendering Forms as HTML](/help/forms/developing/rendering-forms-html.md)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
 ### Optimize the performance using the Java API {#optimize-the-performance-using-the-java-api}
 
@@ -118,8 +114,6 @@ Render a form with optimized performance by using the Forms API (Java):
     * Invoke the `javax.servlet.ServletOutputStream` object’s `write` method to send the form data stream to the client web browser. Pass the byte array to the `write` method.
 
 **See also**
-
-[Optimizing the Performance of the Forms Service](/help/forms/developing/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing.md#optimizing-the-performance-of-the-forms-service)
 
 [Quick Start (SOAP mode): Optimizing performance using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-optimizing-performance-using-the-java-api)
 
@@ -172,7 +166,5 @@ Render a form with optimized performance by using the Forms API (web service):
     * Invoke the `javax.servlet.http.HttpServletResponse` object’s `write` method to send the form data stream to the client web browser. Pass the byte array to the `write` method.
 
 **See also**
-
-[Optimizing the Performance of the Forms Service](/help/forms/developing/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing.md#optimizing-the-performance-of-the-forms-service)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

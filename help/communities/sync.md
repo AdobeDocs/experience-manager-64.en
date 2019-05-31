@@ -83,7 +83,8 @@ User sync relies on the  author  environment to manage the user data distributio
 
 **Prerequisites**
 
-1. If users and user groups have already been created on one publisher, it is recommended to [manually sync](/help/sites-administering/sync.md#manually-syncing-users-and-user-groups) the user data to all publishers prior to configuring and enabling user sync.  
+1. If users and user groups have already been created on one publisher, it is recommended to [manually sync](/help/sites-administering/sync.md#manually-syncing-users-and-user-groups) the user data to all publishers prior to configuring and enabling user sync.
+
    Once user sync is enabled, only newly created users and groups are  syncrhonized . 
 
 1. Ensure the latest code has been installed:
@@ -115,7 +116,7 @@ On AEM author instance:
    For example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Locate **Apache Sling Distribution Agent - Sync Agents Factory.**
 
-   *   Select the existing configuration to open for edit (pencil icon).  
+   *   Select the existing configuration to open for edit (pencil icon.)
    *   Verify name: **`socialpubsync`.**
    *   Select the **Enabled** checkbox.
    *   Select **Use Multiple queues.**
@@ -246,21 +247,33 @@ On each AEM publish instance:
     Verify Name: **`socialpubsync` \-scheduled-trigger**
 1.  Set the following **`NodeTypes`** :  
 
-    rep:User  
-    `nt` :unstructured  
-    `nt` :resource  
-    rep:ACL  
-    sling:Folder  
-    sling:OrderedFolder  
+    rep:User 
+
+    `nt` :unstructured 
+
+    `nt` :resource 
+
+    rep:ACL 
+
+    sling:Folder 
+
+    sling:OrderedFolder 
+
     The node types specified in this property will synchronize, and the notifications info (blogs and configurations followed) are synced between different publishers.
 1.  Add all the folders to synchronize in **DistributedFolders**. For example,  
 
-    segments/scoring  
-    social/relationships  
+    segments/scoring 
+
+    social/relationships 
+
     activities
-1.  Set the **`ignorablenodes`** to:  
-    .tokens  
-    system  
+
+1.  Set the **`ignorablenodes`** to: 
+
+    .tokens 
+
+    system 
+
     rep `:cache` (since we use sticky sessions, we need not sync this node to different publishers)
 
     ![](assets/user-sync-listner.png)
@@ -290,10 +303,11 @@ On each publish instance:
     *for example, on a Linux system:*
 
     `rm -i $(find . -type f -name sling.id.file)` 
-    
+
     *for example, on a Windows system:*
-    
+
     `use windows explorer and search for _sling.id.file_`
+
 1.  Start the publish instance. On startup it will be assigned a new Sling ID.
 1.  Validate that the **Sling ID** is now unique.
 
@@ -343,9 +357,7 @@ If Sling distribution fails, try the following debugging steps:
 1. **Check AEM Communities User Sync Listener configuration.** If the created users are synced but subscriptions and follows are not working, then ensure that AEM Communities User Sync Listener configuration has:
 
     * Node types- set to **rep:User,  nt:unstructured**, **nt:resource**, **rep:ACL**, **sling:Folder**, and **sling:OrderedFolder**
-    
     * Ignorable nodes- set to **.tokens**, **system**, and **rep:cache**
-    
     * Distributed Folders- set to the folders which you want to be distributed
 
 1. **Check logs generated on user creation on Publish instance**. If the above configurations are appropriately set yet user sync is not working, then check the logs generated on user creation.
@@ -366,20 +378,23 @@ If Sling distribution fails, try the following debugging steps:
 
    To debug:
 
-    1. Disable the user synchronization:  
-    1. On AEM author instance, sign in with administrator privileges.  
-       2. Access the [Web Console](/help/sites-deploying/configuring-osgi.md). For example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).  
-       3. Locate the configuration **Apache Sling Distribution Agent - Sync Agents Factory**.  
-       4. Deselect the **Enabled** checkbox.  
-       On disabling the user synchronization on author instance, (exporter and importer) endpoints are disabled and the author instance is static. The **vlt** packages are not pinged or fetched by the author.  
+    1. Disable the user synchronization: 
+    1. On AEM author instance, sign in with administrator privileges. 
+
+       1. Access the [Web Console](/help/sites-deploying/configuring-osgi.md). For example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr). 
+       1. Locate the configuration **Apache Sling Distribution Agent - Sync Agents Factory**. 
+
+       1. Deselect the **Enabled** checkbox. 
+
+       On disabling the user synchronization on author instance, (exporter and importer) endpoints are disabled and the author instance is static. The **vlt** packages are not pinged or fetched by the author. 
+
        Now if a user is created on publish instance, the **vlt** package is created in */var/sling/distribution/packages/  socialpubsync -  vlt /data* node. And if these packages are pushed by the author to another service. You can download and extract this data to check what all properties are pushed to other services. 
-    
+
     1. Go to a publisher, and create a user on the publisher. As a result, events are created.
-    1. Check the [order of logs](/help/communities/sync.md#troubleshoot-sling-distribution-in-aem-communities), created on user creation.  
-    
+    1. Check the [order of logs](/help/communities/sync.md#troubleshoot-sling-distribution-in-aem-communities), created on user creation. 
     1. Check whether a **vlt** package is created on **/var/sling/distribution/packages/socialpubsync-vlt/data**.
-    
     1. Now, enable the user synchronization on AEM author instance. 
-    1. On publisher, change the exporter or importer endpoints in **Apache Sling Distribution Agent - Sync Agents Factory**.   
+    1. On publisher, change the exporter or importer endpoints in **Apache Sling Distribution Agent - Sync Agents Factory**.  
+
        We can download and extract package data to check what all properties are pushed to other publishers, and which data is lost.
 

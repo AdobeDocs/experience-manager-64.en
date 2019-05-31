@@ -283,7 +283,7 @@ To add hotspots to an image banner:
         * If you are an AEM Sites customer, tap the [!UICONTROL Site Selector] icon (folder) to navigate to a URL.  
 
           **Note**: The URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
-          
+  
         * If you are a standalone customer, in the HREF text field, specify the full URL path to a linked web page.
 
           Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
@@ -293,7 +293,7 @@ To add hotspots to an image banner:
     * Tap **[!UICONTROL Experience Fragment]**.
 
         * If you are an AEM Sites customer, tap the **[!UICONTROL Search]** icon (magnifying glass) to open the Experience Fragment page. Tap the Experience Fragment you want to use, then tap **[!UICONTROL Select]** in the upper-right corner of the page to return to the Hotspot management page.
-        
+  
           See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
 
           **Note**: Be aware that the social media sharing tools in Carousel Banner are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.

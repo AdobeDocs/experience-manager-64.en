@@ -39,7 +39,7 @@ To view details about a specific component tap/click on the required resource. T
 
   On the Properties tab you can:
 
-    * View the general properties of the component.  
+    * View the general properties of the component.
     * View how the [icon or abbreviation has been defined](/help/sites-developing/components-basics.md#component-icon-in-touch-ui) for the component.
 
         * Clicking the source of the icon will take you to that component.

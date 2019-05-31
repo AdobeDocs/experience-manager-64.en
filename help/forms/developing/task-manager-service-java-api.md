@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 532e607d-5bc5-4ccc-92c6-30efe1081872
 ---
 
-# Task Manager Service Java API QuickStart(SOAP){#task-manager-service-java-api-quickstart-soap}
+# Task Manager Service Java API Quick Start (SOAP) {#task-manager-service-java-api-quickstart-soap}
 
 The following Quick Starts are available for the Task Manager service.
 

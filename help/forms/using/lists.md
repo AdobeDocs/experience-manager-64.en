@@ -41,8 +41,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 1. Specify the following information for the text:
 
     * **Title: (Optional)** Enter the title for the text asset. Titles need not be unique and can have special characters and non-english characters. Texts are referred by their titles (when available) such as in thumbnails and asset properties. 
-    * **Name:** The unique name for the text asset. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
-    
+    * **Name:** The unique name for the text asset. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
     * **Description**: Type a description of the asset.
     * **Data Dictionary**: Optionally, select the data dictionary in which to map. This attribute enables you to add references to data dictionary elements in the text asset.
     * **Tags**: Optionally, to create custom tag enter value in text field and press Enter. You can see your tag below text field of tags. When you save this text, the newly added tags also get created.
@@ -123,8 +122,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    To:
 
-    * Add a data dictionary element in the text, select a data element from the list, and tap Insert ( ![](assets/insert.png)). If you select Protected, the data dictionary element is read-only and appears in the letter editor, but not in Create Correspondence user interface or Correspondence Creator.  
-    
+    * Add a data dictionary element in the text, select a data element from the list, and tap Insert ( ![](assets/insert.png)). If you select Protected, the data dictionary element is read-only and appears in the letter editor, but not in Create Correspondence user interface or Correspondence Creator.
     * Add a place holder element in the text, in the Data Elements panel tap Create New, enter the details for the new Data Element, and tap Create to add the new element to the list. The new place holder can be inserted into the text in the same way as data dictionary element. To edit a placeholder, select a placeholder and tap Edit.
 
    ![Placeholder elements](assets/placeholder_elements_in_xmldata.png)
@@ -239,7 +237,8 @@ A list is a group of related content that can be used in a letter template as a 
 
    ![Select assets to add to the list](assets/selectassets.png)
 
-1. The assets are added to the List Items page.  
+1. The assets are added to the List Items page.
+
    To change the order of the assets within the list, tap and hold the arrows icon ( ![](assets/dragndrop.png) ) and drag-and-drop. When the user opens a letter template in the Create Correspondence user interface, the content is assembled in the order you defined here.
 
    ![Reorder and configure assets in a list](assets/listitems.png)
@@ -248,10 +247,8 @@ A list is a group of related content that can be used in a letter template as a 
 
     * **Library Access**: To enable library access for adding assets, tap Library Access. When Library Access is enabled, the claims adjustor can add more content to the list. Otherwise, the Claims Adjustor is limited to the content you have defined for the list.
     * **Lock Order**: To lock the order of the assets in the list so that the Claims Adjustor cannot change the order, tap Lock Order. If you do not select this option, the Claims Adjustor can change the order of the list items.
-    
     * **Add Bullets**: Use this option to apply a bullet or numbering style to the module. You can use either a predesigned list style or a custom one. You can also specify the text to be displayed before and after each of the list items. 
-    * **Page Break**: Select this option ( ![](assets/break.png)) to add a page break between the list contents. When this option is not selected ( ![](assets/nobreak.png)), if the contents of the list are overflowing to the next page, the whole list is shifted to the next page instead of breaking in the page between the list. 
-    
+    * **Page Break**: Select this option ( ![](assets/break.png)) to add a page break between the list contents. When this option is not selected ( ![](assets/nobreak.png)), if the contents of the list are overflowing to the next page, the whole list is shifted to the next page instead of breaking in the page between the list.
     * **Assignment Configuration**: Use this option to specify minimum and maximum number of assets that can be added to the list.
 
 1. You can select the following options to specify how each asset in the list behaves at runtime:
@@ -396,7 +393,6 @@ For a detailed example of using static and dynamic tables in layout fragments, s
 1. Tap the **Table** tab and specify the following information for the layout:
 
     * **Configuration for**: Select the table being configured. As a suffix to the table name in the dropdown is (Static) if the table is a static one or (Dynamic) if the table is a dynamic table. Static tables contain a fixed number of rows. Static tables can contain target areas and fields. These target area and fields cannot be bound to repeating DDEs. The data bound to table cells determines the number of rows for dynamic tables.
-    
     * **Rows**: Select the number of rows for the layout. The configured row count must be greater than or equal to the original row count.
     * **Columns**: select the number of columns for the layout. The configured column count must be greater than or equal to the original column count.
 
@@ -498,7 +494,8 @@ This example shows how you can create a dynamic and a static table, bind the dyn
 
    Or, use the static and dynamic XDPs attached with this step.  
 
-   For more information on working with Layout Fragments, see [Layout Fragments](#layoutfragments).  
+   For more information on working with Layout Fragments, see [Layout Fragments](#layoutfragments).
+
    For more information on designing layouts, see [Designer Help](https://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/).
 
    [Get File](assets/static.xdp.zip)

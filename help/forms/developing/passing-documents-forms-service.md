@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: e23de3c3-f8a0-459f-801e-a0942fb1c6aa
 ---
 
-# Passing Documents to the FormsService{#passing-documents-to-the-formsservice}
+# Passing Documents to the Forms Service {#passing-documents-to-the-formsservice}
 
 ## Passing Documents to the Forms Service {#passing-documents-to-the-forms-service}
 
@@ -61,10 +61,6 @@ To render an interactive form, pass the `com.adobe.idp.Document` instance that w
 Depending on the type of client application, you can write the form to a client web browser or save the form as a PDF file. A web-based application typically writes the form to web browser. However, a desktop application typically saves the form as a PDF file.
 
 **See also**
-
-[Pass documents to the Forms Service using the Java API](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass-documents-to-the-forms-service-using-the-java-api)
-
-[Pass documents to the Forms Service using the web service API](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass-documents-to-the-forms-service-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -119,8 +115,6 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
     * Invoke the `javax.servlet.ServletOutputStream` object’s `write` method to send the form data stream to the client web browser. Pass the byte array to the `write` method.
 
 **See also**
-
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
 
 [Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-passing-documents-to-the-forms-service-using-the-java-api)
 
@@ -198,7 +192,5 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
     * Write the contents of the byte array to a PDF file by invoking the `System.IO.BinaryWriter` object’s `Write` method and passing the byte array.
 
 **See also**
-
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

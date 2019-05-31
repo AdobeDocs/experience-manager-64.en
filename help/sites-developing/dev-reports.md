@@ -431,19 +431,27 @@ An example dialog can look as follows:
 Several preconfigured components are provided; these can be referenced in the dialog, using the `xtype` property with a value of `cqinclude`:
 
 * **`title`** 
-  `/libs/cq/reporting/components/commons/title`  
+
+  `/libs/cq/reporting/components/commons/title`
+
   Textfield to define the report title.
 
 * **`description`** 
-  `/libs/cq/reporting/components/commons/description`  
+
+  `/libs/cq/reporting/components/commons/description`
+
   Textarea to define the report description.
 
 * **`processing`** 
-  `/libs/cq/reporting/components/commons/processing`  
+
+  `/libs/cq/reporting/components/commons/processing` 
+
   Selector for the report's processing mode (manually/automatically load data).
 
 * **`scheduling`** 
-  `/libs/cq/reporting/components/commons/scheduling`  
+
+  `/libs/cq/reporting/components/commons/scheduling` 
+
   Selector for scheduling snapshots for the historic chart.
 
 >[!NOTE]
@@ -455,7 +463,9 @@ Several preconfigured components are provided; these can be referenced in the di
 Additionally a root path can be defined for the report:
 
 * **`rootPath`** 
-  This limits the report to a certain section (tree or subtree) of the repository, which is recommended for performance optimization. The root path is specified by the `rootPath` property of the `report` node of each report page (taken from the template upon page creation).  
+
+  This limits the report to a certain section (tree or subtree) of the repository, which is recommended for performance optimization. The root path is specified by the `rootPath` property of the `report` node of each report page (taken from the template upon page creation). 
+
   It can be specified by:
 
     * the [report template](#report-template) (either as a fixed value or as the default value for the configuration dialog).
@@ -470,11 +480,9 @@ A column component defines a combination of the following:
 * The [Column Specific Query](#column-specific-query) configuration.
 * The [Resolvers and Preprocessing](#resolvers-and-preprocessing).
 * The [Column Specific Definitions](#column-specific-definitions) (such as filters and aggregates; `definitions` child node).
-
 * [Column Default Values](#column-default-values).
 * The [Client Filter](#client-filter) to extracts the information to be displayed from the data returned by the server.
 * Additionally, a column component must provide a suitable instance of `cq:editConfig`. to define the [Events and Actions](#events-and-actions) required.  
-
 * The configuration for [generic columns](#generic-columns).
 
 ```
@@ -510,30 +518,39 @@ This defines the specific data extraction (from the [report data result set](#th
 ```xml
 N:definitions 
     N:queryBuilder
-        P:property [String|String[]]        
+        P:property [String|String[]] 
         P:subPath
         P:secondaryProperty [String|String[]]
         P:secondarySubPath
 ```
 
-* `property`  
-  Defines the property to be used for calculating the actual cell value.  
-  If property is defined as String[] multiple properties are scanned (in sequence) to find the actual value.  
-  For example, in the case of:  
-  `property = [ "jcr:lastModified", "jcr:created" ]`  
+* `property`
+
+  Defines the property to be used for calculating the actual cell value. 
+
+  If property is defined as String[] multiple properties are scanned (in sequence) to find the actual value. 
+
+  For example, in the case of: 
+
+  `property = [ "jcr:lastModified", "jcr:created" ]` 
+
   The corresponding value extractor (which is in control here) will:
 
-    * Check whether there is a jcr:lastModified property available and if so, use it.  
+    * Check whether there is a jcr:lastModified property available and if so, use it. 
     * If no jcr:lastModified property is available, the contents of jcr:created will be used instead.
 
-* `subPath`  
+* `subPath` 
+
   If the result is not located on the node that is returned by the query, `subPath` defines where the property is actually located.
 
-* `secondaryProperty`  
-  Defines a second property that must also be used for calculating the actual cell value; this will only be used for certain column types (diff and sortable).  
+* `secondaryProperty` 
+
+  Defines a second property that must also be used for calculating the actual cell value; this will only be used for certain column types (diff and sortable). 
+
   For example, in the case of the Workflow Instances Report, the property specified is used to store the actual value of the time difference (in milliseconds) between start and end times.  
 
-* `secondarySubPath`  
+* `secondarySubPath` 
+
   Similar to subPath, when `secondaryProperty` is used.
 
 In most cases, only `property` will be used.
@@ -583,65 +600,84 @@ N:definitions
             N:applyAfter
 ```
 
-* `resolver`  
+* `resolver` 
+
   Defines the resolver to be used. The following resolvers are available:
 
-    * `const`  
+    * `const` 
+
       Maps values to other values; for example, this is used to resolve constants such as `en` to its equivalent value `English`.
-    
-    * `default`  
+  
+    * `default` 
+
       The default resolver. This is a dummy resolver that actually resolves nothing.
-    
-    * `page`  
+  
+    * `page` 
+
       Resolves a path value to the path of the appropriate page; more precisely, to the corresponding `jcr:content` node. For example, `/content/.../page/jcr:content/par/xyz` is resolved to `/content/.../page/jcr:content`.
-    
-    * `path`  
+  
+    * `path` 
+
       Resolves a path value by optionally appending a sub path and taking the actual value from a property of the node (as defined by `resolverConfig`) at the resolved path. For example, a `path` of `/content/.../page/jcr:content` can be resolved to the content of the `jcr:title` property, this would mean that a page path is resolved to the page title.
-    
-    * `pathextension`  
+  
+    * `pathextension` 
+
       Resolves a value by prepending a path and taking the actual value from a property of the node at the resolved path. For example, a value `de` might be prepended by a path such as `/libs/wcm/core/resources/languages`, taking the value from the property `language`, to resolve the country code `de` to the language description `German`.
 
-* `resolverConfig`  
+* `resolverConfig` 
+
   Provides definitions for the resolver; the options available are dependent on the `resolver` selected:
 
-    * `const`  
-      Use properties to specify the constants for resolving. The name of the property defines the constant to be resolved; the value of the property defines the resolved value.  
+    * `const` 
+
+      Use properties to specify the constants for resolving. The name of the property defines the constant to be resolved; the value of the property defines the resolved value. 
+  
       For example a property with **Name**= `1` and **Value** `=One` will resolve 1 to One.
-    
-    * `default`  
-      No configuration available.  
-    
+
+    * `default` 
+
+      No configuration available. 
+
     * `page`
 
-        * `propertyName` (optional)  
+        * `propertyName` (optional) 
+
           Defines the name of the property that should be used for resolving the value. If not specified, the default value of *jcr:title* (the page title) is used; for the `page` resolver, this means that first the path is resolved to the page path, then further resolved to the page title.
 
     * `path`
 
-        * `propertyName` (optional)  
+        * `propertyName` (optional) 
+
           Specifies the name of the property that should be used for resolving the value. If not specified, the default value of `jcr:title` is used.
-        
-        * `subPath` (optional)  
+
+        * `subPath` (optional) 
+
           This property can be used to specify a suffix to be appended to the path before the value is resolved.
 
     * `pathextension`
 
-        * `path` (mandatory)  
+        * `path` (mandatory) 
+
           Defines the path to be prepended.
-        
-        * `propertyName` (mandatory)  
+
+        * `propertyName` (mandatory)
+
           Defines the property on the resolved path where the actual value is located.
-        
-        * `i18n` (optional; type Boolean)  
+
+        * `i18n` (optional; type Boolean) 
+
           Determines whether the resolved value should be *internationalized* (i.e. using [CQ5's internationalization services](/help/sites-administering/tc-manage.md)).
 
-* `preprocessing`  
+* `preprocessing`
+
   Preprocessing is optional and can be bound (separately) to the processing phases *apply* or *applyAfter*:
 
-    * `apply`  
-      The initial preprocessing phase ([step 3 in the representation of the processing queue](#processing-queue)).  
-    
-    * `applyAfter`  
+    * `apply` 
+  
+      The initial preprocessing phase ([step 3 in the representation of the processing queue](#processing-queue)). 
+
+    * `applyAfter` 
+  
       Apply after preprocessing ([step 9 in the representation of the processing queue](#processing-queue)).
 
 #### Resolvers {#resolvers}
@@ -706,19 +742,23 @@ N:data
 
 ``The `preprocessing` definition can be applied to either the:
 
-* original value:  
+* original value: 
+
   The preprocessing definition for the original value is specified on `apply` and/or `applyAfter` directly.
 
-* value in its aggregated state:  
-  If necessary, a separate definition can be provided for each aggregation.  
+* value in its aggregated state: 
+
+  If necessary, a separate definition can be provided for each aggregation. 
+
   To specify explicit preprocessing for aggregated values, the preprocessing definitions have to reside on a respective `aggregated` child node ( `apply/aggregated`, `applyAfter/aggregated`). If explicit preprocessing for distinct aggregates is required, the preprocessing definition is located on a child node with the name of the respective aggregate (for example `apply/aggregated/min/max` or other aggregates).
 
 You can specify either of the following to be used during preprocessing:
 
-* [find and replace patterns](#preprocessing-find-and-replace-patterns)  
+* [find and replace patterns](#preprocessing-find-and-replace-patterns) 
   When found, the specified pattern (which is defined as a regular expression) is replaced by another pattern; for example, this can be used to extract a substring of the original.  
 
-* [data type formatters](#preprocessing-data-type-formatters)  
+* [data type formatters](#preprocessing-data-type-formatters) 
+
   Converts a numeric value into a relative string; for example, the value ``representing a time difference of 1 hour would be resolved to a string such as `1:24PM (1 hour ago)`.
 
 For example:
@@ -738,18 +778,19 @@ N:definitions
 
 For preprocessing you can specify a `pattern` (defined as a [regular expression](https://en.wikipedia.org/wiki/Regular_expression) or regex) that is located and then substituted by the `replace` pattern:
 
-* `pattern`  
+* `pattern` 
+
   The regular expression used to locate a substring.
 
-* `replace`  
+* `replace` 
+
   The string, or representation of the string, that will be used as a replacement for the original string. Often this represents a substring of the string located by the regular expression `pattern`.
 
 An example replacement can be broken down as:
 
 * For the node `definitions/data/preprocessing/apply` with the following two properties:
 
-    * `pattern`: `(.*)(/jcr:content)(/|$)(.*)`  
-    
+    * `pattern`: `(.*)(/jcr:content)(/|$)(.*)` 
     * `replace`: `$1`
 
 * A string arriving as: ``
@@ -758,12 +799,9 @@ An example replacement can be broken down as:
 
 * Will be broken into four sections:
 
-    * `$1` - `(.*)` - `/content/geometrixx/en/services`  
-    
-    * `$2` - `(/jcr:content)` - `/jcr:content`  
-    
+    * `$1` - `(.*)` - `/content/geometrixx/en/services`
+    * `$2` - `(/jcr:content)` - `/jcr:content`
     * `$3` - `(/|$)` - `/`
-    
     * `$4` - `(.*)` - `par/text`
 
 * And replaced with the string represented by `$1`:
@@ -782,15 +820,20 @@ For example, this can be used for a time column that allows `min`, `avg` and `ma
 
 Currently the available data type formatters are:
 
-* `format`  
+* `format`
+
   Data type formatter:
 
-    * `duration`  
-      Duration is the time span between two defined dates. For example, the start and end of a workflow action that took 1 hour, starting at 2/13/11 11:23h and ending one hour later at 2/13/11 12:23h.  
+    * `duration`
+  
+      Duration is the time span between two defined dates. For example, the start and end of a workflow action that took 1 hour, starting at 2/13/11 11:23h and ending one hour later at 2/13/11 12:23h. 
+  
       It converts a numeric value (interpreted as milliseconds) into a duration string; for example, `30000` is formatted as * `30s`.*
-    
-    * `datedelta`  
-      Datadelta is the time span between a date in the past until "now" (so it will have a different result if the report is viewed at a later point in time).  
+
+    * `datedelta` 
+
+      Datadelta is the time span between a date in the past until "now" (so it will have a different result if the report is viewed at a later point in time). 
+
       It converts the numeric value (interpreted as a time difference in days) into a relative date string. For example, 1 is formatted as 1 day ago.
 
 ``
@@ -817,7 +860,7 @@ The column specific definitions define the filters and aggregates available for 
 N:definitions
     P:type
     P:groupable [Boolean]
-    N:filters [cq:WidgetCollection]  
+    N:filters [cq:WidgetCollection] 
     [
         N:<name> // array of nodes (names irrelevant) with the following properties:
             P:filterType
@@ -832,7 +875,8 @@ N:definitions
     ]
 ```
 
-* `type`  
+* `type` 
+
   The following are available as standard options:
 
     * `string`
@@ -840,92 +884,109 @@ N:definitions
     * `int`
     * `date`
     * `diff`
-    * `timeslot`  
+    * `timeslot` 
+  
       Is used for extracting parts of a date needed for aggregation (for example, group by year to get data aggregated for each year).
-    
-    * `sortable`  
+
+    * `sortable` 
+
       Is used for values that use different values (as taken from different properties) for sorting and displaying.
 
-  In addition. any of the above can be defined as multi value; for example, `string[]` defines an array of strings.  
-  The value extractor is chosen by the column type. If a value extractor is available for a column type, then this extractor is used. Otherwise, the default value extractor is used.  
+  In addition. any of the above can be defined as multi value; for example, `string[]` defines an array of strings.
+
+  The value extractor is chosen by the column type. If a value extractor is available for a column type, then this extractor is used. Otherwise, the default value extractor is used.
+
   A type may (optionally) take a parameter. For example, `timeslot:year` extracts the year from a date field. Types with their parameters:
 
     * `timeslot` - The values are comparible to the corresponding constants of `java.utils.Calendar`.
 
-        * `timeslot:year` - `Calendar.YEAR`  
-        
-        * `timeslot:month-of-year` - `Calendar.MONTH`  
-        
-        * `timeslot:week-of-year` - `Calendar.WEEK_OF_YEAR`  
-        
-        * `timeslot:day-of-month` - `Calendar.DAY_OF_MONTH`  
-        
-        * `timeslot:day-of-week` - `Calendar.DAY_OF_WEEK`  
-        
-        * `timeslot:day-of-year` - `Calendar.DAY_OF_YEAR`  
-        
-        * `timeslot:hour-of-day` - `Calendar.HOUR_OF_DAY`  
-        
+        * `timeslot:year` - `Calendar.YEAR` 
+        * `timeslot:month-of-year` - `Calendar.MONTH` 
+        * `timeslot:week-of-year` - `Calendar.WEEK_OF_YEAR` 
+        * `timeslot:day-of-month` - `Calendar.DAY_OF_MONTH` 
+        * `timeslot:day-of-week` - `Calendar.DAY_OF_WEEK`
+        * `timeslot:day-of-year` - `Calendar.DAY_OF_YEAR`
+        * `timeslot:hour-of-day` - `Calendar.HOUR_OF_DAY`
         * `timeslot:minute-of-hour` - `Calendar.MINUTE`
 
-* `groupable`  
+* `groupable`
+
   Defines whether the report can be grouped by this column.
 
-* `filters`  
+* `filters` 
+
   Filter definitions.
 
-    * `filterType`  
+    * `filterType` 
+  
       Available filters are:
 
-        * `string`  
+        * `string` 
+
           A string based filter.
 
-    * `id`  
+    * `id` 
+
       Filter identifier.
-    
-    * `phase`  
+
+    * `phase` 
+
       Available phases:
 
-        * `raw`  
+        * `raw`
+  
           Filter is applied on raw data.
-        
-        * `preprocessed`  
+
+        * `preprocessed` 
+  
           Filter is applied on preprocessed data.
-        
-        * `resolved`  
+  
+        * `resolved` 
+
           Filter is applied on resolved data.
 
-* `aggregates`  
+* `aggregates`
+
   Aggregate definitions.
 
-    * `text`  
-      Textual name of the aggregate. If `text` is not specified, then it will take the default description of the aggregate; for example, `minimum` will be used for the `min` aggregate.  
-    
-    * `type`  
+    * `text` 
+  
+      Textual name of the aggregate. If `text` is not specified, then it will take the default description of the aggregate; for example, `minimum` will be used for the `min` aggregate.
+  
+    * `type` 
+
       Aggregate type. Available aggregates are:
 
-        * `count`  
+        * `count` 
+
           Counts the number of rows.
-        
-        * `count-nonempty`  
+
+        * `count-nonempty`
+  
           Counts the number of non-empty rows.
-        
-        * `min`  
+
+        * `min` 
+
           Provides the minimum value.
-        
-        * `max`  
+
+        * `max`
+
           Provides the maximum value.
-        
-        * `average`  
+
+        * `average`
+  
           Provides the average value.
-        
-        * `sum`  
+
+        * `sum` 
+
           Provides the sum of all values.
-        
-        * `median`  
+
+        * `median` 
+
           Provides the median value.
-        
-        * `percentile95`  
+
+        * `percentile95` 
+
           Takes the 95th percentile of all values.
 
 ### Column Default Values {#column-default-values}
@@ -937,7 +998,8 @@ N:defaults
     P:aggregate
 ```
 
-* `aggregate`  
+* `aggregate`
+
   Valid `aggregate` values are the same as for `type` under `aggregates` (see [Column Specific Definitions (definitions - filters / aggregates)](#column-specific-definitions) ).
 
 ### Events and Actions {#events-and-actions}
@@ -970,35 +1032,40 @@ An example is the **Generic** column of the **User Report**; see `/libs/cq/repor
 
 To make a column generic:
 
-* Set the `type` property of the column's `definition` node to `generic`.  
+* Set the `type` property of the column's `definition` node to `generic`.
+
   See `/libs/cq/reporting/components/userreport/genericcol/definitions`
 
-* Specify a (standard) dialog definition under the column's `definition` node.  
+* Specify a (standard) dialog definition under the column's `definition` node.
+
   See `/libs/cq/reporting/components/userreport/genericcol/definitions/dialog`
 
-    * The fields of the dialog must refer to the same names as the corresponding component property (including its path).  
+    * The fields of the dialog must refer to the same names as the corresponding component property (including its path). 
+  
       For example, if you want to make the type of the generic column configurable through the dialog, use a field with the name of `./definitions/type`.
-    
+  
     * Properties defined using the UI/dialog take precedence over those defined on the `columnbase` component.
 
-* Define the Edit Configuration.  
+* Define the Edit Configuration. 
+
   See `/libs/cq/reporting/components/userreport/genericcol/cq:editConfig`
 
-* Use standard CQ methodologies to define (additional) column properties.  
-  Note that for properties that are defined on both the component and column instances, the value on the column instance takes precedence.  
+* Use standard CQ methodologies to define (additional) column properties. 
+
+  Note that for properties that are defined on both the component and column instances, the value on the column instance takes precedence.
+
   Properties available for a generic column are:
 
     * `jcr:title` - column name
     * `definitions/aggregates` - aggregates
     * `definitions/filters` - filters
-    * `definitions/type`- the type of the column (this must be defined in the dialog, either using a selector/combobox or a hidden field)  
-    
-    * `definitions/data/resolver` and `definitions/data/resolverConfig` (but not `definitions/data/preprocessing` or `.../clientFilter`) - the resolver and configuration  
-    
+    * `definitions/type`- the type of the column (this must be defined in the dialog, either using a selector/combobox or a hidden field)
+    * `definitions/data/resolver` and `definitions/data/resolverConfig` (but not `definitions/data/preprocessing` or `.../clientFilter`) - the resolver and configuration 
     * `definitions/queryBuilder` - the query builder configuration
     * `defaults/aggregate` - the default aggregate
 
-  In the case of a new instance of the generic column on the **User Report** the properties defined with the dialog are persisted under:  
+  In the case of a new instance of the generic column on the **User Report** the properties defined with the dialog are persisted under:
+
   `/etc/reports/userreport/jcr:content/report/columns/genericcol/settings/generic`
 
 ## Report Design {#report-design}
@@ -1017,10 +1084,12 @@ The location for your reports can depend on where you have located your componen
 
 Required design properties are registered on `jcr:content/reportpage/report/columns` (for example, `/etc/designs/reports/<*reportName*>/jcr:content/reportpage/report/columns`):
 
-* `components`  
+* `components`
+
   Any components and/or component groups that are allowed on the report.
 
-* `sling:resourceType`  
+* `sling:resourceType`
+
   Property with value `cq/reporting/components/repparsys`.
 
 An example design snippet (taken from the design of the component report) is:
@@ -1200,7 +1269,6 @@ To illustrate these steps, the following example defines a report that lists all
 
     * searches for all nodes of type `sling:OsgiConfig`
     * displays both `pie` and `lineseries` charts
-    
     * provides a dialog for the user to configure the report
 
 1. Define your first column (columnbase) component. For example `bundlecol[cq:Component]` under `/apps/cq/reporting/components/osgireport`.
@@ -1234,20 +1302,17 @@ To illustrate these steps, the following example defines a report that lists all
    This defines a column base component that:
 
     * searches for and returns the value that it receives from the server; in this case the property `jcr:path` for every `sling:OsgiConfig` node
-    
     * provides the `count` aggregate
     * is not groupable
-    * has the title `Bundle` (column title within the table)  
-    
+    * has the title `Bundle` (column title within the table) 
     * is in the sidekick group `OSGi Report`
     * refreshes on specified events
 
    >[!NOTE]
    >
-   >In this example there are no definitions of `N:data` and `P:clientFilter`. This is because the value received from the server is returned on a 1:1 basis - which is the default behavior.  
-
+   >In this example there are no definitions of `N:data` and `P:clientFilter`. This is because the value received from the server is returned on a 1:1 basis - which is the default behavior. 
    >
-   >This is the same as the definitions:  
+   >This is the same as the definitions:
    >
    >```   >
    >N:data [nt:unstructured]
@@ -1302,7 +1367,6 @@ To illustrate these steps, the following example defines a report that lists all
    This defines a template that:
 
     * defines the `allowedPaths` for the resulting reports - in the above case anywhere under `/etc/reports`
-    
     * provides titles and descriptions for the template
     * provides a thumbnail image for use in the template list (the full definition of this node is not listed above - it is easiest to copy an instance of thumbnail.png from an existing report).
 
@@ -1319,9 +1383,9 @@ An instance of your new report can now be created:
 
    >[!NOTE]
    >
-   >As this example does not have any groupable columns the charts will not be available. To see charts, set `groupable` to `true`:  
+   >As this example does not have any groupable columns the charts will not be available. To see charts, set `groupable` to `true`: 
    >
-   >```   
+   >``` 
    >N:osgireport [sling:Folder]
    > N:bundlecol [cq:Component]
    > N:definitions [nt:unstructured]
@@ -1344,12 +1408,16 @@ These can be viewed using the Configuration menu of the web console (available f
 * **Daily snapshots** defines the hour of each day when daily snapshots are taken. The specified hour is in the local timezone of the server.
 * **Hourly snapshots** defines the minute of each hour when hourly snapshots are taken.
 * **Rows (max)** defines the maximum number of rows that are stored for each snapshot. This value should be chosen reasonably; if it is too high, this will affect the size of the repository, if too low, data may not be accurate because of the way historic data is handled.
-* **Fake data**, if enabled, fake historic data can be created by using the `fakedata` selector; if disabled, then use of the `fakedata` selector will throw an exception.  
-  As the data is fake it must *only* be used for testing and debugging purposes.  
+* **Fake data**, if enabled, fake historic data can be created by using the `fakedata` selector; if disabled, then use of the `fakedata` selector will throw an exception.
+
+  As the data is fake it must *only* be used for testing and debugging purposes. 
+
   Using the `fakedata` selector will finish the report implicitly, so all existing data will be lost; data can be restored manually, but this can be a time-consuming process.  
 
-* **Snapshot user** defines an optional user that can be used for taking snapshots.  
-  Basically, snapshots are taken for the user that has finished the report. There might be situations (for example on a publish system, where this user is non-existant as their account has not been replicated) where you want specify a fallback user that is used instead.  
+* **Snapshot user** defines an optional user that can be used for taking snapshots. 
+
+  Basically, snapshots are taken for the user that has finished the report. There might be situations (for example on a publish system, where this user is non-existant as their account has not been replicated) where you want specify a fallback user that is used instead. 
+  
   Additionally, specifying a user might impose a security risk.
 
 * **Enforce snapshot user**, if enabled, all snapshots will be taken with the user specified under *Snapshot user*. This might have serious security impacts if not handled correctly.

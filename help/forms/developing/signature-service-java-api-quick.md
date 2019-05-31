@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 07fffbd5-5430-4abc-b532-0840ecc7b1b0
 ---
 
-# Signature Service Java API QuickStart(SOAP){#signature-service-java-api-quickstart-soap}
+# Signature Service Java API Quick Start (SOAP) {#signature-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Signature service:
 

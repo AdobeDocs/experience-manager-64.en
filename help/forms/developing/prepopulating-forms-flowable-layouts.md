@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 30a12fc6-07b8-4c7c-b9e2-caa2bec0ac48
 ---
 
-# Prepopulating Forms with Flowable Layouts{#prepopulating-forms-with-flowable-layouts}
+# Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts}
 
 ## Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts}
 
@@ -180,7 +180,7 @@ Each data subgroup must contain XML elements that match the field names in the s
 
 >[!NOTE]
 >
->If you attempt to prepopulate a form with a data source that contains repeating XML elements and you set the `RenderAtClient` option to `No`, only the first data record is merged into the form. To ensure that all data records are merged into the form, set the `RenderAtClient` to `Yes`. For information about the `RenderAtClient` option, see [Rendering Forms at the Client](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering-forms-at-the-client).
+>If you attempt to prepopulate a form with a data source that contains repeating XML elements and you set the `RenderAtClient` option to `No`, only the first data record is merged into the form. To ensure that all data records are merged into the form, set the `RenderAtClient` to `Yes`. For information about the `RenderAtClient` option, see [Rendering Forms at the Client](/help/forms/developing/rendering-forms-client.md).
 
 >[!NOTE]
 >
@@ -221,19 +221,15 @@ You render a prepopulated form just like other form. The only difference is that
 
 **See also**
 
-[Prepopulating forms using the Java API](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-using-the-java-api)
-
-[Prepopulating forms using the web service API](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-using-the-web-service-api)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-interactive-pdf-forms.md)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
 ### Prepopulating forms using the Java API {#prepopulating-forms-using-the-java-api}
 
@@ -249,19 +245,25 @@ To prepopulate a form with a flowable layout by using the Forms API (Java), perf
     * Create a Java `DocumentBuilder` object by calling the `DocumentBuilderFactory` object’s `newDocumentBuilder` method.
     * Call the `DocumentBuilder` object’s `newDocument` method to instantiate a `org.w3c.dom.Document` object.
     * Create the XML data source’s root element by invoking the `org.w3c.dom.Document` object’s `createElement` method. This creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the root element to the document by calling the `Document` object’s `appendChild` method, and pass the root element object as an argument. The following lines of code shows this application logic:
+  
       ` Element root = (Element)document.createElement("transaction");  document.appendChild(root);`
-    
+  
     * Create the XML data source’s header element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the header element to the root element by calling the `root` object’s `appendChild` method, and pass the header element object as an argument. The XML elements that are appended to the header element correspond to the static portion of the form. The following lines of code show this application logic:
+  
       ` Element header = (Element)document.createElement("header");  root.appendChild(header);`
-    
+  
     * Create a child element that belongs to the header element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the header element by calling the header element’s `appendChild` method, and pass the child element object as an argument. The following lines of code show this application logic:
+
       ` Element poNum= (Element)document.createElement("txtPONum");  poNum.appendChild(document.createTextNode("8745236985"));  header.appendChild(LastName);`
+
     
-    * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding-data-subgroups).)
+    * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](#understanding-data-subgroups).)
     * Create the XML data source’s detail element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the detail element to the root element by calling the `root` object’s `appendChild` method, and pass the detail element object as an argument. The XML elements that are appended to the detail element correspond to the dynamic portion of the form. The following lines of code show this application logic:
+
       ` Element detail = (Element)document.createElement("detail");  root.appendChild(detail);`
     
     * Create a child element that belongs to the detail element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the detail element by calling the detail element’s `appendChild` method, and pass the child element object as an argument. The following lines of code show this application logic:
+
       ` Element txtPartNum = (Element)document.createElement("txtPartNum");  txtPartNum.appendChild(document.createTextNode("00010-100"));  detail.appendChild(txtPartNum);`
     
     * Repeat the last sub-step for all XML elements to append to the detail element. To properly create the XML data source used to populate the purchase order form, you must append the following XML elements to the detail element: `txtDescription`, `numQty`, and `numUnitPrice`.
@@ -299,8 +301,6 @@ To prepopulate a form with a flowable layout by using the Forms API (Java), perf
 
 **See also**
 
-[Prepopulating forms with flowable layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts)
-
 [Quick Start (SOAP mode): Prepopulating Forms with Flowable Layouts using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-prepopulating-forms-with-flowable-layouts-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
@@ -322,19 +322,24 @@ To prepopulate a form with a flowable layout by using the Forms API (web service
     * Create a Java `DocumentBuilder` object by calling the `DocumentBuilderFactory` object’s `newDocumentBuilder` method.
     * Call the `DocumentBuilder` object’s `newDocument` method to instantiate a `org.w3c.dom.Document` object.
     * Create the XML data source’s root element by invoking the `org.w3c.dom.Document` object’s `createElement` method. This creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the root element to the document by calling the `Document` object’s `appendChild` method, and pass the root element object as an argument. The following lines of code show this application logic:
+
       ` Element root = (Element)document.createElement("transaction");  document.appendChild(root);`
     
     * Create the XML data source’s header element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the header element to the root element by calling the `root` object’s `appendChild` method, and pass the header element object as an argument. The XML elements that are appended to the header element correspond to the static portion of the form. The following lines of code show this application logic:
+
       ` Element header = (Element)document.createElement("header");  root.appendChild(header);`
     
     * Create a child element that belongs to the header element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the header element by calling the header element’s `appendChild` method, and pass the child element object as an argument. The following lines of code shows this application logic:
+
       ` Element poNum= (Element)document.createElement("txtPONum");  poNum.appendChild(document.createTextNode("8745236985"));  header.appendChild(LastName);`
     
-    * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding-data-subgroups).)
+    * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](#understanding-data-subgroups).)
     * Create the XML data source’s detail element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the detail element to the root element by calling the `root` object’s `appendChild` method, and pass the detail element object as an argument. The XML elements that are appended to the detail element correspond to the dynamic portion of the form. The following lines of code shows this application logic:
+
       ` Element detail = (Element)document.createElement("detail");  root.appendChild(detail);`
     
     * Create a child element that belongs to the detail element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the detail element by calling the detail element’s `appendChild` method, and pass the child element object as an argument. The following lines of code shows this application logic:
+    
       ` Element txtPartNum = (Element)document.createElement("txtPartNum");  txtPartNum.appendChild(document.createTextNode("00010-100"));  detail.appendChild(txtPartNum);`
     
     * Repeat the last sub-step for all XML elements to append to the detail element. To properly create the XML data source used to populate the purchase order form, you must append the following XML elements to the detail element: `txtDescription`, `numQty`, and `numUnitPrice`.
@@ -381,8 +386,6 @@ To prepopulate a form with a flowable layout by using the Forms API (web service
    >The `renderPDFForm` method populates the `com.adobe.idp.services.holders.FormsResultHolder` object that is passed as the last argument value with a form data stream that must be written to the client web browser.
 
 **See also**
-
-[Prepopulating forms with flowable layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 

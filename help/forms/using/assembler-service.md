@@ -303,12 +303,9 @@ You can use the Assembler service to obtain the following information about a PD
     * Position of each word on each page of the document
     * Sentences in each paragraph of each page of the document
 
-* Bookmarks, including the page number, title, destination, and appearance. You can export this  
-  data from a PDF document and import it into a PDF document.  
+* Bookmarks, including the page number, title, destination, and appearance. You can export this data from a PDF document and import it into a PDF document.  
 
-* File attachments, including file information. For page-level attachments, it also includes the  
-  location of the file attachment annotation. You can export this data from a PDF document and  
-  import it into a PDF document.
+* File attachments, including file information. For page-level attachments, it also includes the location of the file attachment annotation. You can export this data from a PDF document and import it into a PDF document.
 
 * Package files, including file information, folders, package, schema, and field data. You can export this data from a PDF document and import it into a PDF document.
 

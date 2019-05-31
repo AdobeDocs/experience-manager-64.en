@@ -15,22 +15,25 @@ discoiquuid: a6d9b08d-e669-4b9b-b591-c21cd72b6e22
 
 Individual visitors to your website can only be identified when you provide the ability for them to log in. There are various reasons why you may want to provide a login capability:
 
-* [AEM Communities  
-  ](/help/communities/overview.md)Site visitors are required to sign in to post content to the community.
-* [Closed User Groups](/help/sites-administering/cug.md)  
+* [AEM Communities](/help/communities/overview.md)Site visitors are required to sign in to post content to the community.
+* [Closed User Groups](/help/sites-administering/cug.md) 
+
   You may need to limit access to your website (or sections of it) to specific visitors.
 
-* [Personalization  
-  ](/help/sites-administering/personalization.md) Allowing visitors to configure certains aspects of how they access your website.
+* [Personalization](/help/sites-administering/personalization.md) Allowing visitors to configure certain aspects of how they access your website.
 
 Log in (and out) functionality is provided by an [account with a **Profile**](#profiles-and-user-accounts), which holds additional information about the registered visitor (user). The actual processes for registration and authorization may differ:
 
-* Self-registration from the website  
+* Self-registration from the website
+
   A [Community Site](/help/communities/sites-console.md) may be configured to allow visitors to self-register or sign-in with their Facebook or Twitter accounts.  
 
-* Request for registration from the website  
+* Request for registration from the website
+
   For a closed user group you might allow visitors to request registration, but enforce authorization by means of a workflow.
-* Register each account from the author environment  
+
+* Register each account from the author environment
+
   If you have a small number of profiles, which will need authorization anyway, you may decide to register each directly.
 
 To allow visitors to register, a series of components and forms can be used to collect the required identification information, then the additional (often optional) profile information. After they have registered, they should also be able to check and update, the details that they have submitted.
@@ -89,8 +92,10 @@ To see the details of your profile click on **My Profile** in the top right corn
 
 You can view another profile using the [client context](/help/sites-administering/client-context.md) (on the author environment and with sufficient privileges):
 
-1. Open a page; for example the Geometrixx page:  
+1. Open a page; for example the Geometrixx page: 
+
    `http://localhost:4502/cf#/content/geometrixx/en.html`
+
 1. Click **My Profile** in the top right corner. You will see the profile of your current account; for example the administrator.
 1. Press **control-alt-C** to open the client context.
 1. In top left corner of the client context, click the **Load a Profile** button.
@@ -120,9 +125,7 @@ You can add fields to the profile definition. For example to add a "Favorite Col
 1. Double-click the **Dropdown List** component to open the dialog for configuration and enter:
 
     * **Element Name** - `favoriteColor`
-    
     * **Title** - `Favorite Color`
-    
     * **Items** - Add several colors as items
 
    Click **OK** to save.
@@ -149,10 +152,12 @@ This involves defining an appropriate property in the user profile in a way that
 
 This is done with:
 
-* [State Providers](#state-providers)  
+* [State Providers](#state-providers) 
+
   To manage the two states of a specific property and the transitions between the two.  
 
-* [Workflows](#workflows)  
+* [Workflows](#workflows) 
+
   To manage actions related to the states.
 
 Multiple states can be defined; for example in Geometrixx these include:

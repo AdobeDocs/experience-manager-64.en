@@ -35,8 +35,9 @@ You created a form data model by following the [create form data model](/help/fo
 
 Every customer is assigned a unique Customer ID number, which helps identify relevant customer data in a database. The procedure below uses the Customer ID to retrieve information from the database:
 
-1. Open the adaptive form for editing.  
-   [http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html](http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html  )   
+1. Open the adaptive form for editing.
+
+   [http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html](http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html)   
 
 1. Tap the **[!UICONTROL Customer ID]** field and tap the **[!UICONTROL Edit Rules]** icon. The Rule Editor window opens.
 1. Tap the **[!UICONTROL + Create]** icon to add a rule. It opens the Visual Editor.

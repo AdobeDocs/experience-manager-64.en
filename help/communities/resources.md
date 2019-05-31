@@ -122,31 +122,41 @@ When the resource is part of a course, a learning path, members should only be a
 ![](assets/chlimage_1-169.png)
 
 * **Add Image** 
-  (*optional*) An image to display on the card for the enablement resource in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.  
+
+  (*optional*) An image to display on the card for the enablement resource in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.
+
   ***Note***: the recommended image size is not simply 480 x 480 pixels. Due to the responsive design of the cards to various browser dimensions, the display size will vary from 220 X 165 pixels to 400 x 165 pixels.
 
 * **Site Name** 
+
   (*readonly*) The community site to which the resource is being added.
 
 * **Resource Name&ast;** 
+
   (*required*) The display name for the resource. A valid node name is created from the display name.
 
 * **Tags** 
+
   (*optional*) One or more tags may be chosen which associate the enablement resource with one or more catalogs. See [Tagging Enablement Resources](/help/communities/tag-resources.md).
 
 * **Show in Catalog** 
+
   When unchecked, the enablement resource will not appear in any catalog. If checked, the enablement resource will appear in all catalogs unless [pre-filtered](/help/communities/catalog-developer-essentials.md#pre-filters) or the member filters from the UI. Default is unchecked.
 
 * **Description** 
+
   (*optional*) The description to display for the enablement resource.
 
 * **Small Asset** 
+
   (*optional*) Selected from AEM Assets. A thumbnail image to represent the resource in the publish environment, such as in a catalog.
 
 * **Large Asset** 
+
   (*optional*) Selected from AEM Assets. A large image to represent the resource in the publish environment, such as on the main page for a resource.
 
-* **Content Fragment Asset** 
+* **Content Fragment Asset**
+
   (*optional*) Selected from AEM Assets. A content fragment that may be referenced in the publish environment, but is not in use by default.
 
 * Select **Next**
@@ -168,33 +178,45 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
   Select from Assets Library. Selection is limited to those that are visible within the community site.
 
 * **Add an external URL** 
-  Enter a link to learning content.  
+
+  Enter a link to learning content. 
+
   In the dialog which opens, enter:
 
     * **Title** 
+
       The name of the asset for the enablement resource.
-    
+  
     * **URL** 
+  
       The URL to an asset.
 
 * **Add an Adobe Connect URL** 
-  Enter a link to an Adobe Connect session.  
+
+  Enter a link to an Adobe Connect session. 
+
   In the dialog which opens, enter:
 
     * **Title** 
+  
       The name of the asset for the enablement resource.
-    
+  
     * **URL** 
+  
       The URL to an Adobe Connect session.
 
 * **Define an External Resource** 
-  Enter the location where the material is to be presented. The values for the success status and score are entered manually (see [Reports](/help/communities/reports.md)). An uploaded cover image can be used to provide additional information.  
+
+  Enter the location where the material is to be presented. The values for the success status and score are entered manually (see [Reports](/help/communities/reports.md)). An uploaded cover image can be used to provide additional information. 
+
   In the dialog which opens, enter:
 
     * **Title** 
+  
       The name of the asset for the enablement resource.
-    
+  
     * **Location** 
+  
       The location of a physical site, such as a classroom..
 
 #### Example of an added video resource {#example-of-an-added-video-resource}
@@ -202,7 +224,9 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 ![](assets/chlimage_1-172.png)
 
 * **Resource Cover Image** 
-  The cover image is an image to be displayed when the enablement resource is first viewed. For example, the cover image is displayed when a video resource is not yet playing. If a custom image is not uploaded, a default image is displayed. For video resources, it may be possible to [generate a thumbnail](/help/communities/enablement.md#ffmpeg), but only when uploaded and not when the video is referenced as an URL. For location resources, the image can be used to provide additional information.  
+
+  The cover image is an image to be displayed when the enablement resource is first viewed. For example, the cover image is displayed when a video resource is not yet playing. If a custom image is not uploaded, a default image is displayed. For video resources, it may be possible to [generate a thumbnail](/help/communities/enablement.md#ffmpeg), but only when uploaded and not when the video is referenced as an URL. For location resources, the image can be used to provide additional information. 
+
   The recommended size for the cover image is 640 x 360 px.
 
 * Select **Next**
@@ -218,15 +242,19 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 >If a member is enrolled in both a resource and a learning path which references that resource, their assignments will show both the single resource and the resource within the learning path.
 
 * **Social Settings** 
+
   These settings control whether or not learners are able to provide input regarding the enablement resource. The [moderation settings](/help/communities/sites-console.md#moderation) are those of the parent community site.
 
     * **Allow Commenting** 
+
       If checked, members are allowed to comment on the resource. Default is checked.
-    
+  
     * **Allow Ratings** 
+
       If checked, members are allowed to rate the resource. Default is checked.
-    
+  
     * **Allow Anonymous Access** 
+
       If checked, anonymous site visitors are allowed to view the resource in a catalog when the community site also allows anonymous access. Default is unchecked.
 
 * **Due Date** 
@@ -280,31 +308,41 @@ For enablement resources included in a learning path, the assignments should onl
 ![](assets/chlimage_1-177.png)
 
 * **Add Image** 
-  (*optional*) An image to display on the card for the learning path in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.  
+
+  (*optional*) An image to display on the card for the learning path in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource. 
+
   ***Note***: the recommended image size is no longer simply 480 x 480 pixels. Due to the responsive design of the cards to various browser dimensions, the display size will vary from 220 X 165 pixels to 400 x 165 pixels.
 
 * **Site Name** 
+
   (*readonly*) The community site to which the resource is being added.
 
 * **Learning Path Name** 
+
   (*required*) The display name for the learning path. A valid node name is created from the display name.
 
 * **Tags** 
+
   (*optional*) One or more tags may be chosen which associate the learning path with one or more catalogs. See [Tagging Enablement Resources](/help/communities/tag-resources.md).
 
 * **Show in Catalog** 
+
   When unchecked, the learning path will not appear in any catalog. If checked, the learning path will appear in all catalogs unless [pre-filtered](/help/communities/catalog-developer-essentials.md#pre-filters) or the member filters from the UI. Showing the learning path in a catalog will indirectly grant READ access to all its contained resources. Default is unchecked.
 
 * **Description** 
+
   (*optional*) The description to display for the enablement resource.
 
 * **Small Asset** 
+
   (*optional*) Selected from AEM Assets. A thumbnail image to represent the resource in the publish environment, such as in a catalog.
 
 * **Large Asset** 
+
   (*optional*) Selected from AEM Assets. A large image to represent the resource in the publish environment, such as on the main page for a resource.
 
 * **Content Fragment Asset** 
+
   (*optional*) Selected from AEM Assets. A content fragment that may be referenced in the publish environment, but is not in use by default.
 
 * Select **Next**
@@ -323,9 +361,11 @@ For enablement resources included in a learning path, the assignments should onl
 ![](assets/chlimage_1-179.png)
 
 * **Enforce Order in Learning Path** 
+
   (*optional*) if set to On, then the order in which the enablement resources are added is the order in which learners are required to proceed through the learning path. Default is Off.
 
 * **Resources** 
+
   One or more Resources chosen from among the *published *enablement resources created for the current community site.
 
 >[!NOTE]
@@ -339,9 +379,11 @@ For enablement resources included in a learning path, the assignments should onl
 ![](assets/chlimage_1-180.png)
 
 * **Add Enrollments** 
+
   Use the pulldown menu to select from the members and member groups (listed in bold face) who are members of the community site's [members group](#members-group). It is not necessary to add assignments when first creating the learning path. The learning path properties can be modified to add learners at a later time. 
 
 * **Learning Path Contact&ast;** 
+
   *(Required)* A person the member can contact regarding the learning path. Use the pulldown menu to select from the users who are members of the community site's [members group](#members-group).
 
 * select **Create**
@@ -423,15 +465,19 @@ For all enablement resources, regardless of whether or not Adobe Analytics is en
 The Analytics Timeline report shows when events occur over time for this enablement resource:
 
 * **Views** 
+
   a view is when a learner visits the resource details page
 
 * **Plays** 
+
   a play is when alLearner interacts with the resource, such as playing a video or opening a PDF
 
 * **Ratings** 
+
   a rating is when a learner assigns a star rating to a resource
 
 * **Comments** 
+
   a comment is when alLearner adds a comment
 
 The vertical axis is the number of events.
@@ -489,7 +535,7 @@ For a learning path Resource Report, the Report Summary is a table listing
     * publish status
     * number of views
     * number of plays
-    * averate rating
+    * average rating
     * format
     * size
     * community site name

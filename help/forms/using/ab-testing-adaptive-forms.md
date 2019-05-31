@@ -36,24 +36,21 @@ Perform the following steps to integrate a running Target server with AEM Forms:
 
 1. On AEM server, go to https://&lt;*hostname*&gt;:&lt;*port*&gt;/libs/cq/core/content/tools/cloudservices.html.
 
-1. In the **Adobe Target **section, click **Show Configurations** and then the **+** icon to add a new configuration.  
-   If you are configuring target for the first time, click **Configure Now. ** 
+1. In the **Adobe Target** section, click **Show Configurations** and then the **+** icon to add a new configuration.
+
+   If you are configuring target for the first time, click **Configure Now.** 
 
 1. In the Create configuration dialog, specify a **Title** and optionally a **Name** for the configuration.
-
 1. Click **Create**. The Edit component dialog opens.
 1. Specify your Target account details, such as client code, email, and password.
 1. Select **Rest** from the API Type drop-down list.  
-
-1. Click **Connect to Adobe Target** to initialize the connection with Target. If the connection is successful, the message Connection successful is displayed. Click **OK **on the message and then **OK **on the dialog. The Target account is configured.
-
+1. Click **Connect to Adobe Target** to initialize the connection with Target. If the connection is successful, the message Connection successful is displayed. Click **OK** on the message and then **OK **on the dialog. The Target account is configured.
 1. Create a Target framework as described in [Add a framework](/help/sites-administering/target.md).  
-
 1. Go to https://&lt;*hostname*&gt;:&lt;*port*&gt;/system/console/configMgr.
-
 1. Click **AEM Forms Target Configuration**.
 1. Select a **Target Framework**.
-1. In the **Target URLs** field, specify all the URLs where A/B tests will run. For example, https://&lt;*hostname*&gt;:&lt;*port*&gt;/ for AEM Forms server on OSGi or https://&lt;*hostname*&gt;:&lt;*port*&gt;/lc/ for AEM Forms server on JEE.  
+1. In the **Target URLs** field, specify all the URLs where A/B tests will run. For example, https://&lt;*hostname*&gt;:&lt;*port*&gt;/ for AEM Forms server on OSGi or https://&lt;*hostname*&gt;:&lt;*port*&gt;/lc/ for AEM Forms server on JEE. 
+
    Consider that you want to configure a Target URL for a publish instance and your customers can access it using the hostname or the IP address, you will need to configure both as Target URLs - using the hostname as well as the IP address. If you confgure only one of the URLs, your A/B test will not run for customers coming from the other URL. Click **+** to specify multiple URLs.  
 
 1. Click **Save**.
@@ -85,8 +82,7 @@ AEM lets you create an audience, and use it for an A/B test. The audience you cr
 1. In the Adobe Target Configuration dialog, select a Target configuration and click **Ok**. 
 1. In the Create New Audience page, create rules. Rules let you categorize the audience. For example, you want to categorize audiences based on operating system. Your audience A comes from Windows, and audience B comes from Linux.
 
-    1. To categorize audience based on Windows, in Rule #1, select **OS **attribute type. From the When drop-down, select **Windows. **
-    
+    1. To categorize audience based on Windows, in Rule #1, select **OS** attribute type. From the When drop-down, select **Windows.**
     1. To categorize audience based on Linux, in Rule #2, select **OS** attribute type. From the When drop-down, select **Linux, **and click **Next**.
 
 1. Specify a name for the created audience, and click **Save**.
@@ -113,7 +109,7 @@ Perform the following steps to create an A/B test for an adaptive form.
 1. Click **Configure**. A dialog appears to confirm the creation of the A/B test.
 1. Click **Edit Experience B **to open the adaptive form in the edit mode. Modify the form to create a different experience than the default experience A. The possible variations allowed in Experience B are changes in:
 
-    * CSS or styling  
+    * CSS or styling 
     * Order of fields in different panels or the same panel
     * Panel layout
     * Panel titles
@@ -146,7 +142,8 @@ Once you have allowed the A/B test to run for the desired period, you can genera
     [ ![A/B Test report](assets/ab-test-report.png)](assets/ab-test-report-1.png)
 
 1. Analyze the report and see if you have enough data points to declare one of the better performing experiences as a winner. You can choose to continue with the same A/B test for more time or declare a winner and end the A/B test.  
-1. To declare a winner and end the A/B test, click **End A/B test** button on the reporting dashboard. A dialog prompts you to declare one of the two experiences as winner. Choose a winner and confirm to end the A/B test.  
+1. To declare a winner and end the A/B test, click **End A/B test** button on the reporting dashboard. A dialog prompts you to declare one of the two experiences as winner. Choose a winner and confirm to end the A/B test.
+
    Alternatively, you can first declare a winner by clicking the **Declare Winner** button for the respective experience. It prompts you to confirm the winner. Click **Yes** to end the A/B test.
 
 If you picked experience A as the winner, the A/B test will be put to an end, and going forward, only Experience A will be served to all the audiences.

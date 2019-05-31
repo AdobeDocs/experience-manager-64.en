@@ -41,19 +41,25 @@ When you [create a new or edit an existing Interactive Communication](/help/form
 The sidebar includes the following:
 
 * **Channel browser**
+
   The Channel browser helps you switch between the print and web channels of the Interactive Communication. Based on the channel you have selected in the channel browser, the browsers, such as Content and Components display the options.
 
 * **Content browser** 
+
   In the content browser, you can see object hierarchy of the document for the selected channel. Author can navigate to specific component by tapping that element in Document Object Tree. Author can search objects in the web channel and rearrange them from this tree.
 
-* **Properties browser  
-  **Lets you edit the properties of a component. Properties change according to the component. For example, to see properties of the document container:  
+* **Properties browser**
+
+  Lets you edit the properties of a component. Properties change according to the component. For example, to see properties of the document container:
+
   Select a component, then tap ![](assets/field-level.png) &gt; **Document Container**, and then tap ![](assets/cmppr.png).
 
 * **Assets browser** 
+
   Segregates different types of content such as layout fragments, images, documents, pages, videos. Author can drag-and-drop assets into the Interactive Communication. 
 
 * **Components browser** 
+
   Includes components that you can use to build the print and web channels of a document. You can drag components to the Interactive Communication to add elements, and configure added element as per the requirements. The following table describes the components listed in Components browser for print and web channels:
 
 | **Component** |**Print Channel** |**Web Channel** |**Functionality** |
@@ -70,7 +76,8 @@ The sidebar includes the following:
 
 &ast;&ast; In the Print channel, target areas are predefined in the XDP/print template. You cannot add new target areas using the Interactive Communication authoring UI.
 
-* **Data Sources Browser** 
+* **Data Sources Browser**
+
   Data Sources Browser displays the available data sources in the form data model you selected while creating the Interactive Communication.
 
 ### Key points for working with components {#key-points-for-working-with-components}
@@ -81,9 +88,8 @@ Key points when working with interactive communication components are as follows
 * A component is identified with its element name. When you tap ![](assets/cmppr.png), you can change the name of the component by changing the Element Name field value in the properties browser. The Element Name field accepts letters, numbers, hyphens (-), and underscores (_) only. Other special characters are not allowed, and element name should begin with a letter. 
 * You can modify the Title property of an Interactive Communication component inline in the editor without opening the Properties browser as long as the title is visible on the Interactive Communication. To do so:
 
-    1. Tap to select a component that has a Title property and whose Hide title property is disabled.  
-    1. Tap ![](assets/aem_6_3_edit.png) to make the title editable.  
-    
+    1. Tap to select a component that has a Title property and whose Hide title property is disabled. 
+    1. Tap ![](assets/aem_6_3_edit.png) to make the title editable.
     1. Modify the title and tap the Return key or tap anywhere outside the component to save the changes. Tap the Esc key to discard the changes.
 
 ## Component toolbar {#component-toolbar}

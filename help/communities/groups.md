@@ -216,11 +216,11 @@ The STRUCTURE panel allows the modification of the structure initially created f
       edit settings, including the display title and URL name&ast; 
 
       as well as [privileged members groups](/help/communities/users.md#privilegedmembersgroups)
-    
+  
     * **`trashcan icon`** 
 
       remove (delete) functions from the site structure
-    
+  
     * **`grid icon`** 
 
       modify the order of functions as displayed in the site's top level navigation bar

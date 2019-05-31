@@ -41,9 +41,7 @@ After you create a launch you can change the launch name and the date of the lau
     * In the **General** tab, you can edit:
 
         * **Title** 
-        
         * **Live Date**: this is equivalent to the launch date  
-        
         * **Production Ready**
 
       See [Launches - the Order of Events](/help/sites-authoring/launches.md#launches-the-order-of-events) for information about the purpose and interaction of these fields.

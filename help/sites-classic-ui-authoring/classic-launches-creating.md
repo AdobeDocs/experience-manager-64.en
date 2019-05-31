@@ -34,7 +34,6 @@ The following procedure creates a launch.
     * **Source Page**: The path to the page for which to create the launch. By default, all child pages are included.
     * **Exclude Sub Pages**: Select this option to create the launch only for the source page and not the child pages. By default, this option is not selected.
     * **Keep In Sync**: Select this option to automatically update the content of launch pages when the source pages change. This is achieved by making the launch a [live copy](/help/sites-administering/msm.md).
-    
     * **Launch Date**: The date and time when the launch copy is to be activated (dependent on the **Production Ready** flag; see [Launches - the Order of Events](/help/sites-authoring/launches.md#launches-the-order-of-events)).
 
    ![](assets/chlimage_1-99.png)

@@ -11,7 +11,7 @@ topic-tags: coding
 discoiquuid: d5722281-bea9-4fc7-abdc-e678899e0a15
 ---
 
-# Invoking AEM Forms using Web Services{#invoking-aem-forms-using-web-services}
+# Invoking AEM Forms using Web Services {#invoking-aem-forms-using-web-services}
 
 Most AEM Forms services in the service container are configured to expose a web service, with full support for web service definition language (WSDL) generation. That is, you can create proxy objects that consume the native SOAP stack of an AEM Forms service. As a result, AEM Forms services can exchange and process the following SOAP messages:
 
@@ -223,7 +223,7 @@ The transmission protocol for returned `BLOB` objects depends on several factors
     * Service's SOAP endpoint parameter Default Protocol For Output Blob Objects is set to Smart.
 
       For each service with a SOAP endpoint, the administration console allows you to specify the transmission protocol for any returned blobs. (See [administration help](https://www.adobe.com/go/learn_aemforms_admin_63).) 
-    
+  
     * AEM Forms service takes one or more documents as input.
 
 1. **Service SOAP endpoint is not Smart**. The configured protocol determines the document transmission protocol, and the data is returned in the corresponding `BLOB` field. For example, if the SOAP endpoint is set to DIME, then the returned blob is in the `blob.attachmentID` field regardless of the transmission protocol of any input document.
@@ -689,14 +689,14 @@ You can invoke an AEM Forms service using Java proxy classes and Base64. To invo
     * Assign the WSDL endpoint and the encoding type to the `javax.xml.ws.BindingProvider` object’s `ENDPOINT_ADDRESS_PROPERTY` field. To invoke the `MyApplication/EncryptDocument` service using Base64 encoding, specify the following URL value:
 
       `https://hiro-xp:8080/soap/services/MyApplication/EncryptDocument?blob=base64`
-    
+  
     * Assign the AEM forms user to the `javax.xml.ws.BindingProvider` object’s `USERNAME_PROPERTY` field.
     * Assign the corresponding password value to the `javax.xml.ws.BindingProvider` object’s `PASSWORD_PROPERTY` field.
 
    The following code example shows this application logic:
 
    ```as3
-    //Set connection values required to invoke AEM Forms  
+    //Set connection values required to invoke AEM Forms 
     String url = "https://hiro-xp:8080/soap/services/MyApplication/EncryptDocument?blob=base64"; 
     String username = "administrator"; 
     String password = "password"; 
@@ -882,8 +882,9 @@ To invoke the `MyApplication/EncryptDocument` process by using Java proxy files 
 1. Set the connection values required to invoke AEM Forms by assigning values to the following data members:
 
     * Assign the WSDL endpoint and the encoding type to the `javax.xml.ws.BindingProvider` object’s `ENDPOINT_ADDRESS_PROPERTY` field. To invoke the `MyApplication/EncryptDocument` service using SwaRef encoding, specify the following URL value:
+  
       ` https://hiro-xp:8080/soap/services/MyApplication/EncryptDocument?blob=swaref`
-    
+  
     * Assign the AEM forms user to the `javax.xml.ws.BindingProvider` object’s `USERNAME_PROPERTY` field.
     * Assign the corresponding password value to the `javax.xml.ws.BindingProvider` object’s `PASSWORD_PROPERTY` field.
 
@@ -1006,7 +1007,7 @@ You can invoke an AEM Forms service using Java proxy classes and BLOB data over 
     * Assign the WSDL endpoint and the encoding type to the `javax.xml.ws.BindingProvider` object’s `ENDPOINT_ADDRESS_PROPERTY` field. To invoke the `MyApplication/EncryptDocument` service using BLOB over HTTP encoding, specify the following URL value:
 
       `https://hiro-xp:8080/soap/services/MyApplication/EncryptDocument?blob=http`
-    
+  
     * Assign the AEM forms user to the `javax.xml.ws.BindingProvider` object’s `USERNAME_PROPERTY` field.
     * Assign the corresponding password value to the `javax.xml.ws.BindingProvider` object’s `PASSWORD_PROPERTY` field.
 

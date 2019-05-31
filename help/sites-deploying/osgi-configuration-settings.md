@@ -72,7 +72,8 @@ The following OSGi configuration settings (listed according to bundle) are relev
 
 **Apache Sling Customizable Request Data Logger** Configure:
 
-* **Logger Name** and **Log Format** to configure the location and format of request and access logging (default: `request.log`). This log file is essential when analyzing performance or debugging functionality related to the web chain.  
+* **Logger Name** and **Log Format** to configure the location and format of request and access logging (default: `request.log`). This log file is essential when analyzing performance or debugging functionality related to the web chain. 
+
   This is paired with the Apache Sling Request Logger.
 
 For further information see [AEM Logging](/help/sites-deploying/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
@@ -81,7 +82,8 @@ For further information see [AEM Logging](/help/sites-deploying/configure-loggin
 
 * **Min Pool Size** and **Max Pool Size**, the size of the pool used to hold event threads.  
 
-* **Queue Size**, the maximum size of the thread queue if the pool is exhausted.  
+* **Queue Size**, the maximum size of the thread queue if the pool is exhausted. 
+
   The recommended value is `-1` as this sets the queue to unlimited; if a limit is set then losses might occur when it is exceeded.  
 
 * Changing these settings can help performance in scenarios with a high number of events; for example, heavy AEM DAM or Workflow usage.
@@ -91,7 +93,8 @@ For further information see [AEM Logging](/help/sites-deploying/configure-loggin
 **Apache Sling GET Servlet** Configure some aspects of rendering:
 
 * **Auto Index** to enable/disable directory rendering for browsing.
-* **Enable** (or disable) default renditions, such as **HMTL**, **Plain Text**, **JSON** or **XML**.  
+* **Enable** (or disable) default renditions, such as **HMTL**, **Plain Text**, **JSON** or **XML**. 
+
   You should not disable JSON.
 
 >[!NOTE]
@@ -232,7 +235,8 @@ For further information see: [https://cwiki.apache.org/confluence/display/SLING/
 
 Various parameters can be set, including:
 
-* **Execution Paths** lists the paths to search for executable scripts; by configuring specific paths you can limit which scripts can be executed. If no path is configured then the default is used ( `/` = root), this allows the execution of all scripts.   
+* **Execution Paths** lists the paths to search for executable scripts; by configuring specific paths you can limit which scripts can be executed. If no path is configured then the default is used ( `/` = root), this allows the execution of all scripts.  
+
   If a configured path value ends with a slash, the whole sub tree is searched. Without such a trailing slash the script will only be executed if it is an exact match.
 
 * **Script User** - this optional property can specify the repository user account used for reading the scripts. If no account is specified the `admin` user is used by default.   
@@ -241,7 +245,8 @@ Various parameters can be set, including:
 
 **Day Commons GFX Font Helper** When rendering graphics you can use DrawText to embed text. For this you can also install your own fonts:
 
-* Define the **Font Path** to be searched for project specific fonts.  
+* Define the **Font Path** to be searched for project specific fonts. 
+
   For example, `/apps/myapp/fonts`.
 
 **Apache HTTP Components Proxy Configuration** Proxy configuration for all code using the Apache HTTP client, used when a HTTP is made; for example upon replication.
@@ -298,8 +303,7 @@ When using [closed user groups](/help/sites-administering/cug.md) you can config
 
 **Day CQ Link Checker Task** Configure settings for a single link checker task (a task which checks an external link):
 
-* Check the intervals defined in **Good Link Test Interval** and **Bad Link Test Interval  
-  **
+* Check the intervals defined in **Good Link Test Interval** and **Bad Link Test Interval**
 
 * The various parameters related to proxies for internet access and NTLM that are needed for external access when checking a link.
 
@@ -342,7 +346,8 @@ Various configuration properties are available:
   Path for which this authentication handler is active. If this parameter is left empty the authentication handler is disabled. For example, the path / causes the authentication handler to be used for the entire repository.  
 
 * **Service Ranking** 
-  OSGi Framework Service Ranking value is used to indicate the order used for calling this service. This is an `int` value where higher values designate higher precedence.  
+  OSGi Framework Service Ranking value is used to indicate the order used for calling this service. This is an `int` value where higher values designate higher precedence. 
+
   Default value is `0`.
 
 * **Header Names** 
@@ -370,7 +375,8 @@ Various configuration properties are available:
 **Day CQ WCM Filter** Configure:
 
 * **WCM Mode **to define the default mode.
-* On an author instance this might be `edit`, `disable,preview` or `analytics`.  
+* On an author instance this might be `edit`, `disable,preview` or `analytics`. 
+
   The other modes can be accessed from the sidekick, or the suffix `?wcmmode=disabled` can be used to emulate a production environment.
 
 * On a publish instance this must be set to `disabled` to ensure that no other mode is accessible.
@@ -474,7 +480,8 @@ The overall flow is as follows:
 
 1. User authenticates with AEM and requests a page with assets.
 1. Requested page contains an asset similar to `/content/dam/geometrixx-media/articles/paladin_trailer.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png`
-1. Rewriter transforms the link to a CDN URL containing a JWS Signature:  
+1. Rewriter transforms the link to a CDN URL containing a JWS Signature: 
+
    `CDN_domain/content/dam/geometrixx-media/articles/paladin_trailer.jpg/_jcr_content/renditions/cq5dam.thumbnail.319.319.png?cdn_sign=JWS_SIGNATURE`
 
 1. User's browser then forwards the asset request to CDN server

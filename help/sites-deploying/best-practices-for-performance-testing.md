@@ -59,8 +59,7 @@ There are many commercially available performance testing tools on the market. W
 * Cloud based load testing tools like [Neustar](https://www.neustar.biz/services/web-performance/load-testing) can also be used.
 * When it comes to testing mobile or responsive websites, a separate set of tools need to be used. They work by throttling network bandwidth, simulating slower mobile connections like 3G or EDGE. Among the more widely used tools are:
 
-    * ** [Network Link Conditioner](https://nshipster.com/network-link-conditioner/)** - it provides an easy to use UI and works at a fairly low level on the networking stack. It includes versions for OS X and iOS; [](https://nshipster.com/network-link-conditioner/)
-    
+    * **[Network Link Conditioner](https://nshipster.com/network-link-conditioner/)** - it provides an easy to use UI and works at a fairly low level on the networking stack. It includes versions for OS X and iOS; [](https://nshipster.com/network-link-conditioner/)
     * [**Charles**](https://www.charlesproxy.com/) - a web debugging proxy application that in addition to several other uses, provides network throttling. Versions are provided for Windows, OS X and Linux. [](https://www.charlesproxy.com/)
 
 #### Optimization Tools {#optimization-tools}
@@ -81,8 +80,7 @@ For a more comprehensive analysis of the request logs on an AEM system, `rlog.ja
 
 The [Explain Query tool](/help/sites-administering/operations-dashboard.md#explain-query) in ACS AEM Tools can be used to view the indexes that are used when running a query. This can be very useful when optimizing slow running queries.
 
-**PageSpeed Tools  
-**
+**PageSpeed Tools**
 
 Google’s PageSpeed tools offer site analysis for adherence to best practices for page performance as well as a plugin that can be installed alongside the dispatcher on an Apache instance for additional optimizations. For more information, see the [PageSpeed Tools Website](https://developers.google.com/speed/pagespeed/).
 

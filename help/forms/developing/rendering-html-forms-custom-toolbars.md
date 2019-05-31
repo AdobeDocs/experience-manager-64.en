@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 7eb0e8a8-d76a-43f7-a012-c21157b14cd4
 ---
 
-# Rendering HTML Forms with CustomToolbars{#rendering-html-forms-with-customtoolbars}
+# Rendering HTML Forms with CustomToolbars {#rendering-html-forms-with-customtoolbars}
 
 ## Rendering HTML Forms with Custom Toolbars {#rendering-html-forms-with-custom-toolbars}
 
@@ -146,7 +146,7 @@ Also, specify a valid locale value by invoking the `HTMLRenderSpec` object’s `
 
 >[!NOTE]
 >
->Before you render an HTML form that uses a custom toolbar, you must know how HTML forms are rendered. (See [Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html).)
+>Before you render an HTML form that uses a custom toolbar, you must know how HTML forms are rendered. (See [Rendering Forms as HTML](/help/forms/developing/rendering-forms-html.md).)
 
 For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
@@ -184,9 +184,9 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 **See also**
 
-[Render an HTML Form with a custom toolbar using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars.md#render-an-html-form-with-a-custom-toolbar-using-the-java-api)
+[Render an HTML Form with a custom toolbar using the Java API](#render-an-html-form-with-a-custom-toolbar-using-the-java-api)
 
-[Rendering an HTML Form with a custom toolbar using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars.md#rendering-an-html-form-with-a-custom-toolbar-using-the-web-service-api)
+[Rendering an HTML Form with a custom toolbar using the web service API](#rendering-an-html-form-with-a-custom-toolbar-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -194,11 +194,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-interactive-pdf-forms.md)
 
-[Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html)
+[Rendering Forms as HTML](/help/forms/developing/rendering-forms-html.md)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
 ### Render an HTML Form with a custom toolbar using the Java API {#render-an-html-form-with-a-custom-toolbar-using-the-java-api}
 
@@ -249,8 +249,6 @@ Render an HTML Form that contains a custom toolbar by using the Forms Service AP
     * Invoke the `javax.servlet.ServletOutputStream` object’s `write` method to send the form data stream to the client web browser. Pass the byte array to the `write` method.
 
 **See also**
-
-[Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering-html-forms-with-custom-toolbars)
 
 [Quick Start (SOAP mode): Rendering an HTML Form with a custom toolbar using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-rendering-an-html-form-with-a-custom-toolbar-using-the-java-api)
 
@@ -313,7 +311,5 @@ Render an HTML form that contains a custom toolbar by using the Forms Service AP
     * Invoke the `javax.servlet.http.HttpServletResponse` object’s `write` method to send the form data stream to the client web browser. Pass the byte array to the `write` method.
 
 **See also**
-
-[Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering-html-forms-with-custom-toolbars)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

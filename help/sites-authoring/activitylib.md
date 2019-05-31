@@ -104,14 +104,12 @@ To add an activity:
 
     1. Click or tap **Select Audience **and select the segment that your experience targets.
     1. Click or tap **Add Experience**, type a name, and click or tap **OK**. 
-    
     1. Click or tap **Next**.
 
    If you are using Adobe Target A/B Testing:
 
     1. Click or tap the pencil in the audiences box to select an audience.
     1. Click or tap **Add Experience**, type a name, and click or tap **OK**.
-    
     1. Enter the percentage of traffic that displays each experience.
     1. Click or tap **Next**.
 

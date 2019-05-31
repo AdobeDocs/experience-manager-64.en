@@ -49,13 +49,9 @@ The deletion of the auto-created JSP file is because the default HBS file will b
     * **Create &gt; Component...**
 
         * **Label**: *comments*
-        
         * **Title**: *Alt Comments*
-        
         * **Description**: *Alternative comments style*
-        
         * **Super Type**: *social/commons/components/hbs/comments*
-        
         * **Group**: *Custom*
 
     * Select **Next**
@@ -83,13 +79,9 @@ The deletion of the auto-created JSP file is because the default HBS file will b
     * Select **Create &gt; Component...**
 
         * **Label**: *comment*
-        
         * **Title**: *Alt Comment*
-        
         * **Description**: *Alternative comment style*
-        
         * **Super Type**: *social/commons/components/hbs/comments/comment*
-        
         * **Group**: *.hidden*
 
     * Select **Next**
@@ -151,22 +143,17 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 * select **Create Node**
 
     * **Name**: `clientlibs`
-    
     * **Type**: `cq:ClientLibraryFolder`
-    
     * add to **Properties** tab:
 
         * **Name** `categories` **Type** `String` **Value** `cq.social.author.hbs.comments` `Multi`
-        
         * **Name** `dependencies` **Type** `String` **Value** `cq.social.scf` `Multi`
 
 * select **Save All**
 * with `/apps/custom/components/comments/clientlib`s node selected, create 3 files:
 
     * **Name**: `css.txt`
-    
-    * **Name**: `js.tx`t
-    
+    * **Name**: `js.txt`
     * **Name**: customcommentsystem.js
 
 * enter 'customcommentsystem.js' as the content of `js.txt`

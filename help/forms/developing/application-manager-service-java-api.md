@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 12da2a9b-4009-496e-953f-c2ae0352f59f
 ---
 
-# Application Manager Service JavaAPI Quick Start(SOAP) {#application-manager-service-javaapi-quick-start-soap}
+# Application Manager Service JavaAPI Quick Start (SOAP) {#application-manager-service-javaapi-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the Application Manager service.
 

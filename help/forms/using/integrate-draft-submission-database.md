@@ -178,8 +178,7 @@ Perform the following steps, on all the author and publish instances, to install
    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
    ```
 
-   **SQL statement for metadata table  
-   **
+   **SQL statement for metadata table**
 
    ```sql
    CREATE TABLE `metadata` ( 
@@ -220,8 +219,7 @@ Perform the following steps, on all the author and publish instances, to install
    
    ```
 
-   **SQL statement for additionalmetadatatable  
-   **
+   **SQL statement for additionalmetadatatable**
 
    ```sql
    CREATE TABLE `additionalmetadatatable` (

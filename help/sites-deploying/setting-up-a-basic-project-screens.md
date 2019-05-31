@@ -33,7 +33,6 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can ﻿go directly to: [http://localhost:4502/screens.html/content/screens](http://localhost:4502/screens.html/content/screens).
     1. Click **Create** to create a new Screens project (see the figure below).
     1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
-    
     1. Enter the title as *Test_Project *and click **Create**.
 
    ![](assets/chlimage_1-124.png)
@@ -51,10 +50,8 @@ The following steps allow you to create a sample project for Screens and publish
    Follow the steps below to create a new channel for your project:
 
     1. Navigate to the *Test_Project* you created and select the **Channels** folder.
-    
     1. Click** Create** next to the plus icon in the action bar (see the figure below). A wizard will open.
     1. Choose the **Sequence Channel **and click **Next**.
-    
     1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
 
    ![](assets/chlimage_1-126.png)
@@ -72,10 +69,8 @@ The following steps allow you to create a sample project for Screens and publish
    Follow the steps below to create a new location for your project:
 
     1. Navigate to the *Tes*t*_Project* you created and select the **Locations **folder.
-    
     1. Click **Create** from the action bar (see the figure below). A wizard will open. 
     1. Select **Locations** from the wizard and click **Next**.
-    
     1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
 
    ![](assets/chlimage_1-128.png)
@@ -91,17 +86,12 @@ The following steps allow you to create a sample project for Screens and publish
    **Creating a new display for *TestLocation***
 
     1. Navigate to the location where you want to create your display. Navigate to *Test_Project *--&gt; **Locations** --&gt; *TestLocation*, as shown in the figure above, and 
-    
     1. Select *TestLocation* and click** Create **from the action bar. 
-    
     1. Select **Display **from the **Create** wizard opens and click **Next**.
-    
     1. Enter **Name** and **Title** for your display location (enter the title as *TestDisplay*).
-    
     1. Under the Display tab, choose the details of the Layout.
 
         1. Choose the **Resolution** as **Full HD**.
-        
         1. Choose the **Number of Devices Horizontally** as 1.
         1. Choose the **Number of Devices Vertically** as 1.
 
@@ -113,13 +103,10 @@ The following steps allow you to create a sample project for Screens and publish
 
 1. **Creating a new device config**
 
-    1. Navigate to Locations folder --&gt;*TestLocation* --&gt;*TestDisplay* that you created in the preceedig step.
-    
+    1. Navigate to Locations folder --&gt;*TestLocation* --&gt;*TestDisplay* that you created in the preceding step.
     1. Click **View Dashboard** in the action bar (see the figure below).
     1. Click the **...** button on the top right of the **Devices **panel and choose **Add Device Config**.
-    
     1. Select the **Device config **from the wizard and click **Next**.
-    
     1. Enter the **Name** and **Title** for the device (name it as *TestDeviceConfig*) and click **Create**.
 
    ![](assets/chlimage_1-131.png)
@@ -131,17 +118,11 @@ The following steps allow you to create a sample project for Screens and publish
 1. **Assigning a channel**
 
     1. Navigate to the display from **Locations** folder --&gt; *TestLocation* --&gt; *TestDisplay*.
-    
     1. Select *TestDisplay* and tap/click **Assign Channel **in the action bar, Or,
-    
     1. Click **View Dashboard** and select **+assign channel** at the top right from **ASSIGNED CHANNELS** panel. **Channel Assignment** dialog box opens.
-    
     1. Enter the **Channel Role** as *LiveStream*.
-    
     1. Select the path (*TestProject* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**.
-    
     1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
-    
     1. Click **Save**.
 
    The channel should be created and added to the panel, as shown in the figure below:
@@ -157,7 +138,6 @@ The following steps allow you to create a sample project for Screens and publish
     1. Launch a separate browser window.
     1. Go to http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html
     1. From the dashboard, navigate to *TestProject* --&gt; **Devices**
-    
     1. Click **Device Manager** from the action bar.
     1. Click **Device Registration** and you will see the pending devices, as shown in the figure below:
 

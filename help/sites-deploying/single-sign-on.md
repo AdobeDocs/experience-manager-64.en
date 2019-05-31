@@ -40,24 +40,20 @@ To configure SSO for a AEM instance, you need to configure the [SSO Authenticati
    For example, for NTLM set:
 
     * **Path:** as required; for example, `/`
-    
     * **Header Names**: `LOGON_USER` 
-    
-    * **ID Format**: `^<DOMAIN>\\(.+)$`  
+    * **ID Format**: `^<DOMAIN>\\(.+)$` 
+
       Where `<*DOMAIN*>` is replaced by your own domain name.
 
    For CoSign:
 
     * **Path:** as required; for example, `/`
-    
-    * **Header Names**: remote_user  
-    
+    * **Header Names**: remote_user 
     * **ID Format:** AsIs
 
    For SiteMinder:
 
     * **Path:** as required; for example, `/`
-    
     * **Header Names:** SM_USER
     * **ID Format**: AsIs
 
@@ -124,7 +120,7 @@ Using the following configuration:
 
 * **Cookie Names**: `TestCookie`
 
-* **Paramater Names**: `TestParameter`
+* **Parameter Names**: `TestParameter`
 
 * **ID Format**: `AsIs`
 

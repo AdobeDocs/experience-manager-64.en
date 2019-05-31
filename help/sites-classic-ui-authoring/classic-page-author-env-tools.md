@@ -181,13 +181,16 @@ When editing a page with the classic UI there are various modes that can be acce
 
 The row of icons at the bottom of the Sidekick are used to switch modes for working with the pages:
 
-* [Edit](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md)  
+* [Edit](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md) 
+
   This is the default mode and allows you to edit the page, adding or deleting components and making other changes.
 
-* [Preview](/help/sites-classic-ui-authoring/classic-page-author-edit-content.md#previewing-pages)  
+* [Preview](/help/sites-classic-ui-authoring/classic-page-author-edit-content.md#previewing-pages) 
+
   This mode allows you to preview the page as if it were appearing on your website in its final form.
 
-* [Design](/help/sites-classic-ui-authoring/classic-page-author-design-mode.md#main-pars-procedure-0)  
+* [Design](/help/sites-classic-ui-authoring/classic-page-author-design-mode.md#main-pars-procedure-0) 
+
   In this mode, you have the possibility to edit the design of the page by configuring the components accessible.
 
 >[!NOTE]

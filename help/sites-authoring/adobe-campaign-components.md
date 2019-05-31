@@ -89,32 +89,43 @@ Several additional options are available in the full-screen editing mode; for ex
 When an image is loaded, you can configure the following:
 
 * **Map** 
+
   To map an image, select Map. You can specify how you want to create the image map (rectangle, polygon, and so on) and where the area should point to.
 
 * **Crop** 
+
   Select Crop to crop an image. Use your mouse to crop the image.
 
 * **Rotate** 
+
   To rotate an image, select Rotate. Use repeatedly until the image is rotated the way you want it.
 
 * **Clear** 
+
   Remove the current image.
 
-* Zoom bar (classic only)  
+* Zoom bar (classic only) 
+
   To zoom in and out of the image, use the slide bar beneath the image (above the OK and Cancel buttons)
+
 * **Title** 
+
   The title of the image.
 
 * **Alt Text** 
+
   An alternative text for use when creating accessible content.  
 
 * **Link To** 
+
   Create a link to assets or other pages within your website.  
 
 * **Description** 
+
   A description of the image.
 
 * **Size** 
+
   Sets the height and the width of the image.
 
 >[!NOTE]
@@ -135,15 +146,19 @@ The Link (Campaign) component lets you add a link to your newsletter.
 You can configure the following in the **Display**, **URL Info**, or **Advanced** tabs:
 
 * **Link Caption** 
+
   The caption for the link. This is the text that users see.
 
 * **Link ToolTip** 
+
   Adds additional information on how to use the link.
 
 * **LinkType** 
+
   In the drop-down list, select between a **Custom URL** and an **Adaptive Document**. This field is required. If you select Custom URL, you can provide the Link URL. If you select Adaptive Document, you can provide the document path.
 
 * **Additional URL Parameter** 
+
   Add any additional URL parameters. Click Add Item to add multiple items.
 
 >[!NOTE]
@@ -198,27 +213,35 @@ See [Image (Campaign) component](#image-campaign) for more information on workin
 As with the Text & Personalization (Campaign) and Image (Campaign) components, you can configure:
 
 * **Text** 
+
   Enter text. Use the toolbar to modify formatting, create lists, and add links.
 
 * **Image** 
+
   Drag an image from the content finder, or click to browse to an image. Crop or rotate as required.
 
 * **Image Properties** (**Advanced Image Properties**)  
+
   Allows you to specify the following:
 
     * **Title** 
+
       The title for the block; will be shown by mouseover.
     
     * **Alt Text** 
+
       Alternative text to be shown if the image cannot be displayed.
     
     * **Link to** 
+
       Create a link to assets or other pages within your website.
     
     * **Description** 
+
       A description of the image.
     
     * **Size** 
+
       Sets the height and width of the image.
 
 >[!NOTE]
@@ -329,15 +352,19 @@ In most components, you can configure the following:
 ![](assets/chlimage_1-118.png)
 
 * **Title** 
+
   If you want to use a name other than the element name, enter it here.
 
 * **Hide Title** 
+
   Select this check box if you do not want the title visble.
 
 * **Description** 
+
   Add a description to the field to provide more information for users.
 
 * **Only show value** 
+
   Only shows the value, if there is one
 
 #### Adobe Campaign {#adobe-campaign}
@@ -345,18 +372,23 @@ In most components, you can configure the following:
 You can configure the following:
 
 * **Mapping** 
+
   Select an Adobe Campaign personalization field, if appropriate.
 
 * **Reconciliation Key** 
+
   Select this check box if this field is part of the reconciliation key.
 
 ![](assets/chlimage_1-119.png) 
 
 #### Constraints {#constraints}
 
-* **Required**  
+* **Required** 
+
   Select this check box to make this component required; that is, users must enter a value.
-* **Required Message**  
+
+* **Required Message** 
+
   Optionally, add a message stating that the field is required.
 
 ![](assets/chlimage_1-120.png) 
@@ -385,9 +417,11 @@ Use the date field to allow recipients to a date; for example you may want the r
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
 * **Constraints - Constraint** drop-down  
+
   You can select - **None** or **Date**- to add the constraint of a date or no constraint. If you select date, the answer users enter into the field must be in a date format. 
 
 * **Constraint Message**  
+
   In addition, you can add a constraint message so users know how to properly format their answers.
 * **Styling - Width** 
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
@@ -405,6 +439,7 @@ Each form displaying and modifying Adobe Campaign profile data **must** include 
 You can configure the following in the Encrypted Primary Key (Campaign) component:
 
 * **Title and Text - Element Name**  
+
   Defaults to encryptedPK. You only need to change the element name when it conflicts with the name of another element on the form. No two form fields can have the same element name.
 * **Adobe Campaign - URL parameter** 
   Add the URL parameter for the EPK. For example, you can use the value **epk**.
@@ -428,6 +463,7 @@ The Hidden Reconciliation Key (Campaign) component allows you to add hidden fiel
 You can configure the following in the Hidden Reconciliation Key (Campaign) component:
 
 * **Title and Text - Element Name**  
+
   Defaults to reconcilKey. You only need to change the element name when it conflicts with the name of another element on the form. No two form fields can have the same element name.
 * **Adobe Campaign - Mapping** 
   Map to an Adobe Campaign personalization field.
@@ -443,9 +479,11 @@ Use the numeric field to allow recipients to enter numbers, for example their ag
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
 * **Constraints - Constraint** drop-down  
+
   You can select - **None** or **Numeric** - to add the constraint of either a number or no constraint. If you select number, the answer users enter into the field must be numeric. 
 
 * **Constraint Message**  
+
   In addition, you can add a constraint message so users know how to properly format their answers.
 * **Styling - Width** 
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
@@ -488,12 +526,16 @@ The Text Field (Campaign) component that lets you enter string type data, such a
 
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
-* **Constraints - Constraint** drop-down  
+* **Constraints - Constraint** drop-down 
+
   You can select - **None, Email,** or **Name (no umlauts)**- to add the constraint of either an email address, name, or no constraint. If you select email, the answer users enter into the field must be an email address. If you select name, it must be a name (umlauts are not allowed). 
 
-* **Constraint Message**  
+* **Constraint Message** 
+
   In addition, you can add a constraint message so users know how to properly format their answers.
+  
 * **Styling - Width** 
+
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
 
 The following example shows a Text Field (Campaign) component being displayed.

@@ -396,9 +396,9 @@ To create a new viewer preset:
       The visual editor lets you see what effect a certain property has on a style. Just set or adjust any property to instantly see what effect it has on the viewer using the sample to the left of the editor.   
   
       The CSS styling properties for each type of viewer preset are described in the any "Customizing *`<viewer name>`* Viewer" Help topic in the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/). 
-      
+  
       For example, if you are creating a viewer preset of the type `Mixed_Media`, see [Customizing Mixed Media Viewer](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_mixedmedia_viewer_customizingviewer.html) for a list and description of each property. 
-    
+
     * If you have defined style settings in a separate CSS file, you can upload the CSS file to AEM Assets. Tap **Import CSS** below the Selected Type pull-down menu (you may need to scroll the visual editor up to see it) to find the uploaded CSS file and associate it with the viewer preset.  
   
       When you import a CSS file, the visual editor checks to see if the CSS uses the correct viewer markers. For example, if you are creating a Zoom viewer, all the CSS rules you import must be defined using its viewer class name `.s7mixedmediaviewer` defined on a parent viewer element.  

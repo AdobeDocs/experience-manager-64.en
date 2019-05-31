@@ -54,9 +54,7 @@ A database initialization needs to be performed on `adobe_init`. To do that:
 1. Login to the new Geometrixx organization:
 
     * **Login**: `admin`
-    
     * **Password**: `intershop7`
-    
     * **Organization**: `Geometrixx`
 
 >[!NOTE]

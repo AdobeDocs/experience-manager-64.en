@@ -80,7 +80,7 @@ When you run the Migration Utility for the first time, a log is created with the
    The browser displays four options:
 
     * AEM Forms Assets Migration
-    * Adaptive Forms Custom Components Migration  
+    * Adaptive Forms Custom Components Migration 
     * Adaptive Forms Templates Migration
     * AEM Forms Cloud Configurations Migration
 
@@ -103,7 +103,7 @@ When you run the Migration Utility for the first time, a log is created with the
     >* To migrate rules and scripts (not required if upgrading from 6.3) in custom components, tap Adaptive Forms Custom Components Migration, and in the next screen, tap Start Migration. The following get migrated:
     >
     >  * Rules and Scripts created using rule editor (6.1 FP1 and later)
-    >  * Scripts created using the Script tab in the UI of 6.1 and earlier  
+    >  * Scripts created using the Script tab in the UI of 6.1 and earlier 
     >* To migrate templates (not required if upgrading from 6.3), tap Adaptive Forms Template Migration, and in the next screen, tap Start Migration. The following get migrated:
     >
     >  * Old templates - the adaptive forms templates created under /apps using AEM 6.1 Forms or earlier. This includes the scripts that were defined in the template components.
@@ -129,17 +129,17 @@ When you run the Migration Utility for the first time, a log is created with the
 
     * Recaptcha
 
-        * Source path: /etc/cloudservices/recaptcha  
+        * Source path: /etc/cloudservices/recaptcha 
         * Target path: /conf/global/settings/cloudconfigs/recaptcha
 
     * Adobe Sign
 
-        * Source path: /etc/cloudservices/echosign  
+        * Source path: /etc/cloudservices/echosign 
         * Target path: /conf/global/settings/cloudconfigs/echosign
 
     * Typekit cloud services
 
-        * Source path: /etc/cloudservices/typekit  
+        * Source path: /etc/cloudservices/typekit 
         * Target path: /conf/global/settings/cloudconfigs/typekit
 
    The browser window displays the following as the migration process takes place:

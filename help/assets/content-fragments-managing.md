@@ -61,7 +61,7 @@ The method of creating a content fragment is (basically) the same for both simpl
           The fragment title. 
 
           Mandatory.  
-        
+
         * **Description**
         * **Tags**
 

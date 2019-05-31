@@ -168,7 +168,7 @@ To enable dynamic media:
 
    ```
    -Djavax.net.ssl.trustStore=<absoluteFilePath>/customerTrustStoreFileName>
-    
+  
     -Djavax.net.ssl.trustStorePassword=<passwordForTrustStoreFile>
    ```
 
