@@ -21,5 +21,5 @@ See also [Installing and configuring AEM 3D](/help/assets/install-config-3d.md).
 
 >[!NOTE]
 >
->AEM 3D is only available from the touch UI, not the classic UI. See [Working with 3D Assets](/help/assets/3d-assets.md) in the standard authoring documentation for complete details.
+>AEM 3D is only available from the AEM touch UI, not the classic UI. See [Working with 3D Assets](/help/assets/3d-assets.md) in the standard authoring documentation for complete details.
 
