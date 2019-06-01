@@ -123,7 +123,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
 **To upload assets using FTP**
 
 1. Using your choice of FTP client, log in to the FTP server using the FTP user name and password that you received from the provisioning email. In the FTP client, upload files or folders to the FTP server. 
-1. [Log in to Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials received from the provisioning email. On the Global Navigation Bar, tap/click **Upload**.  
+1. [Log in to Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials received from the provisioning email. On the Global Navigation Bar, tap **Upload**.  
 
 1. On the Upload page, near the upper-left corner, tap the **Via FTP** tab.
 1. On the left side of the page, choose an FTP folder to upload files from; on the right side of the page, choose a destination folder.

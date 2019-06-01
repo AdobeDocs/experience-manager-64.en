@@ -40,17 +40,17 @@ When uploading is complete, your 3D files are converted and additional processin
 
 * Dependent assets should not be deleted unless the associated 3D asset or assets that referenced them are also removed. You can, however, freely delete 3D assets without the need to delete their dependent assets. If a dependency is lost accidentally, you can easily resolve the dependency to restore it. 
 
-  See Resolving file dependencies.
+  See [Resolving file dependencies](/help/assets/resolve-file-dependencies.md).
 
 ## Performance considerations when uploading 3D files {#performance-considerations-when-uploading-d-files}
 
 Converting and processing 3D files typically consumes significant CPU and memory resources on a server. It also takes a substantial amount of time. Processing times often vary greatly depending on the size of the model and the capabilities of the server. For example, a typical small model with less than 100k faces is usually ready for viewing in less than one minute; it is fully processed in 2-3 minutes. Whereas, a large model with more than one million faces can take tens of minutes to process completely.
 
-Conversion, processing, and render jobs are queued as needed to prevent slowing down the server too much. The message "Waiting for processing..." is sometimes shown in the Card View at the time you uploaded assets. This status indicates that other processing or render jobs must finish before the current asset is processed.
+Conversion, processing, and render jobs are queued as needed to prevent slowing down the server too much. The message "Waiting for processing..." is sometimes shown in the **[!UICONTROL Card View]** at the time you uploaded assets. This status indicates that other processing or render jobs must finish before the current asset is processed.
 
 ## Monitoring the processing status of your uploaded 3D files {#monitoring-the-processing-status-of-your-uploaded-d-files}
 
-In Card View only, the processing status and progression is displayed as a progress banner on the asset's card. Each uploaded 3D model typically undergoes the following 4-6 ordered processing stages:
+In **[!UICONTROL Card View]** only, the processing status and progression is displayed as a progress banner on the asset's card. Each uploaded 3D model typically undergoes the following 4-6 ordered processing stages:
 
 <table> 
  <tbody> 
@@ -94,5 +94,5 @@ In Card View only, the processing status and progression is displayed as a progr
 
 >[!NOTE]
 >
->You can view a 3D asset in Detail View or render it after the Creating preview stage is complete. You do not need to wait for all processing stages to complete.
+>You can view a 3D asset in **[!UICONTROL Detail View]** or render it after the Creating preview stage is complete. You do not need to wait for all processing stages to complete.
 
