@@ -111,7 +111,7 @@ For rendering content, use navigational access to the content tree instead of pe
 
 >[!NOTE]
 >
->It is also worthwhile referencing the [security checklist](/help/sites-administering/security-checklist.md).
+>It is also worthwhile to reference the [security checklist](/help/sites-administering/security-checklist.md).
 
 ### JCR (Repository) Sessions {#jcr-repository-sessions}
 
