@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: 90cd8ba5-4f47-4074-bc54-6a7bb8afe256
 ---
 
-# Building a secure AEM Forms app for iOS{#building-a-secure-aem-forms-app-for-ios}
+# Building a secure AEM Forms app for iOS {#building-a-secure-aem-forms-app-for-ios}
 
 You need to archive the Xcode project for AEM Forms app to build the installer (an .ipa file) and a property list (a .plist file) file. The property list file contains configuration information of the hosted in-house app, such as the name and the hosting location of the app. For more information about property list file, see [About Information Property List Files](https://developer.apple.com/library/ios/#documentation/general/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html).
 
@@ -36,4 +36,4 @@ You need to archive the Xcode project for AEM Forms app to build the installer (
 1. Under **PROJECT**, select **AEM Forms** and ensure that the appropriate signature is selected for **Code Signing Identity**, **Debug**, **Release** and **Any iOS SDK**. 
 1. Build and Distribute AEM Forms app. For detailed instructions to build and distribute AEM Forms app, see [Build the installer for AEM Forms app](/help/forms/using/setup-xcode-project-build-installer.md#main-pars-text-12).
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

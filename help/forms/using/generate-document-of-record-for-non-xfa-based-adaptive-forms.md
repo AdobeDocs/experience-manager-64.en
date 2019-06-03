@@ -12,7 +12,7 @@ discoiquuid: 1e533a8c-f200-40ca-b170-0e9abee8513e
 noindex: true
 ---
 
-# Generate Document of Record for adaptive forms{#generate-document-of-record-for-adaptive-forms}
+# Generate Document of Record for adaptive forms {#generate-document-of-record-for-adaptive-forms}
 
 ## Overview {#overview}
 

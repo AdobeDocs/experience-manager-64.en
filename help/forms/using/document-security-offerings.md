@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8e7a8481-b8cd-4f2b-b9d2-7a8132f1d3f6
 ---
 
-# Document security offerings{#document-security-offerings}
+# Document security offerings {#document-security-offerings}
 
 Adobe Experience Manager Forms document security ensures that only authorized users can use your documents. Using document security, you can safely distribute any information that you have saved in a supported format. Supported file formats include Adobe Portable Document Format (PDF) and Microsoft Word, Excel, and PowerPoint files.
 

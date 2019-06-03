@@ -10,7 +10,7 @@ topic-tags: introduction
 discoiquuid: 25a6d702-9995-4c63-99d8-3e5d710bb0c4
 ---
 
-# We.Gov reference site walkthrough{#we-gov-reference-site-walkthrough}
+# We.Gov reference site walkthrough {#we-gov-reference-site-walkthrough}
 
 ## Pre-requisite {#pre-requisite}
 
@@ -119,16 +119,16 @@ Sarah can provide details in any section, but the application fee is accepted on
 
 ### <strong>Sarah provides her information</strong> {#strong-sarah-provides-her-information-strong}
 
-After Sarah clicks **Start Application**, she is taken to the Applicant Information section of the Application For Child Support Services page. Under Applicant Information, Sarah navigates through the tabs and provides her personal information for the application. She clicks **Next **to navigate through the tabs.
+After Sarah clicks **Start Application**, she is taken to the Applicant Information section of the Application For Child Support Services page. Under Applicant Information, Sarah navigates through the tabs and provides her personal information for the application. She clicks **Next** to navigate through the tabs.
 
 Under Applicant Information, she is asked to provide details under the following tabs:
 
-* **Basic Information  
-  **Under Basic Information, Sarah provides her ID proof and her personal information. Sarah’s personal information includes her name, email ID, and social security number.
-* **Relationship  
-  **Under Relationship, Sarah enters information about her marital status. 
-* **Additional Information  
-  **Under Additional Information, Sarah enters an ID number, her date of birth, and current address and phone number.
+* **Basic Information**
+Under Basic Information, Sarah provides her ID proof and her personal information. Sarah’s personal information includes her name, email ID, and social security number.
+* **Relationship**  
+  Under Relationship, Sarah enters information about her marital status. 
+* **Additional Information**  
+  Under Additional Information, Sarah enters an ID number, her date of birth, and current address and phone number.
 
 ### Sarah provides child information {#sarah-provides-child-information}
 

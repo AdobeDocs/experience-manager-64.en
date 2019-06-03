@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: 1b5e6746-3618-46fe-ba2d-ec76bb79de1d
 ---
 
-# Custom special characters in Correspondence Management{#custom-special-characters-in-correspondence-management}
+# Custom special characters in Correspondence Management {#custom-special-characters-in-correspondence-management}
 
 ## Overview {#overview}
 

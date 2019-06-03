@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: ef5c957a-9d5a-42be-ad85-bdca876f56bc
 ---
 
-# Features of Flex workspace not available in AEM Forms workspace{#features-of-flex-workspace-not-available-in-aem-forms-workspace}
+# Features of Flex workspace not available in AEM Forms workspace {#features-of-flex-workspace-not-available-in-aem-forms-workspace}
 
 AEM Forms workspace is the brand new workspace. The following are some of the features of Flex-based workspace that are not available in AEM Forms workspace.
 
@@ -23,4 +23,4 @@ AEM Forms workspace is the brand new workspace. The following are some of the fe
 * Setting an approval container or custom container for a user task is not honored in AEM Forms workspace.
 * An option to search templates is available in the Tracking tab but not in the ToDo tab.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

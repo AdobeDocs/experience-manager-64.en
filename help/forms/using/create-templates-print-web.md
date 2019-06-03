@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 40c0a17b-6894-44cc-b1f7-490913061532
 ---
 
-# Tutorial: Create templates{#tutorial-create-templates}
+# Tutorial: Create templates {#tutorial-create-templates}
 
 Create Print and Web templates for Interactive Communication
 

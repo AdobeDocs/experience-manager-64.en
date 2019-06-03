@@ -10,7 +10,7 @@ topic-tags: publish
 discoiquuid: 0ce7b338-6686-49b3-b58b-e7ab6b670708
 ---
 
-# Create or Configure a watched folder{#create-or-configure-a-watched-folder}
+# Create or Configure a watched folder {#create-or-configure-a-watched-folder}
 
 An administrator can configure a network folder, known as a *watched folder*, so that when a user places a file (such as a PDF file) in the watched folder, a pre-configured operation is started and manipulates the file. After the specified operation is performed, the operation saves the modified file in a specified output folder. For detailed information about administering a watched folder, see [Administration Help](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md).
 

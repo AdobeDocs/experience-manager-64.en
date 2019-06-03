@@ -9,7 +9,7 @@ topic-tags: introduction
 discoiquuid: 4e247e70-c50a-4571-8ac1-fbbb07100262
 ---
 
-# DO NOT PUBLISH Create your first adaptive form{#do-not-publish-create-your-first-adaptive-form}
+# DO NOT PUBLISH Create your first adaptive form {#do-not-publish-create-your-first-adaptive-form}
 
  ![](assets/01-create-first-adaptive-form-hero-image.png)
 

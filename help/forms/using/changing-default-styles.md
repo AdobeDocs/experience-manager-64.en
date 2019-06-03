@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: a9ab5a78-2add-46e1-a8f2-444d0f25f43a
 ---
 
-# Changing default styles of HTML5 forms{#changing-default-styles-of-html-forms}
+# Changing default styles of HTML5 forms {#changing-default-styles-of-html-forms}
 
 HTML5 forms are rendered using HTML5 capabilities and the styling of the rendered form is done using CSS. Default appearance of a HTML5 forms is similar to its PDF rendition. Developers can use custom CSS to change default appearance of HTML5 forms.
 
@@ -52,4 +52,4 @@ The following two images show the difference between the default and customized 
     
     1. Save the file.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

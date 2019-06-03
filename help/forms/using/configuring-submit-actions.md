@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: fea76f90-22d5-4836-9901-a35229401eb0
 ---
 
-# Configuring the Submit action{#configuring-the-submit-action}
+# Configuring the Submit action {#configuring-the-submit-action}
 
 ## Introduction to submit actions {#introduction-to-submit-actions}
 
@@ -69,7 +69,7 @@ Use the **Submit to REST Endpoint** action to post the submitted data to a rest 
 
 To post data to an internal server, provide path of the resource. The data is posted the path of the resource. For example, /content/restEndPoint. For such post requests, the authentication information of the submit request is used.
 
-To post data to an external server, provide a URL. The format of the URL is https://host:port/path_to_rest_end_point. Ensure that you configure the path to handle the POST request anonymously. 
+To post data to an external server, provide a URL. The format of the URL is https:// host:port/path_to_rest_end_point. Ensure that you configure the path to handle the POST request anonymously. 
 
 ![Mapping for field values passed as Thank You Page parameters](assets/post-enabled-actionconfig.png)
 

@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: d519ac4e-6d29-4a69-874e-792acabe87ff
 ---
 
-# Auto-save an adaptive form{#auto-save-an-adaptive-form}
+# Auto-save an adaptive form {#auto-save-an-adaptive-form}
 
 You can configure an adaptive form to automatically start saving the content based on an event or a pre-defined time-interval. By default, contents of an adaptive form are saved on a user action, such as on pressing the save button. The auto save option is helpful in:
 

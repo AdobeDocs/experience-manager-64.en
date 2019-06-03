@@ -8,7 +8,7 @@ contentOwner: aheimoz
 discoiquuid: f2bd4d96-55a5-4fbd-bede-1747c2ec63c8
 ---
 
-# Forms-centric workflow on OSGi - Step Reference{#forms-centric-workflow-on-osgi-step-reference}
+# Forms-centric workflow on OSGi - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
 
 ## Forms Workflow Steps {#forms-workflow-steps}
 

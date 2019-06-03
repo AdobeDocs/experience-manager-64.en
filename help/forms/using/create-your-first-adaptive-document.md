@@ -8,7 +8,7 @@ uuid: 2cb2bf82-130f-4d6b-a711-df0b97cb0504
 discoiquuid: f3ca177f-7c0d-4b8b-ab4b-bf04668d634c
 ---
 
-# DO NOT PUBLISH Create your first adaptive document{#do-not-publish-create-your-first-adaptive-document}
+# DO NOT PUBLISH Create your first adaptive document {#do-not-publish-create-your-first-adaptive-document}
 
 ## Use Case {#use-case}
 

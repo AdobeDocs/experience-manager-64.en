@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: e4636b25-20a4-4326-82fb-f22f735e43c0
 ---
 
-# Home screen{#home-screen}
+# Home screen {#home-screen}
 
 When you log in to the AEM Forms app, you are redirected to the Home screen.
 
@@ -40,4 +40,4 @@ The change made to Home screen setting on the app effects the Home screen for th
 
 However, the change made in HTML Workspace effects all AEM Forms app users logged on to the AEM Forms server.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

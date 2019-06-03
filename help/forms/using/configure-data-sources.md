@@ -9,7 +9,7 @@ topic-tags: integration
 discoiquuid: 1dafd400-16c0-416d-9e81-7bf53b761f98
 ---
 
-# Configure data sources{#configure-data-sources}
+# Configure data sources {#configure-data-sources}
 
 Learn how to configure different types of data sources and leverage to create form data models.
 

@@ -10,7 +10,7 @@ topic-tags: integrations
 discoiquuid: 6301e0ef-3faa-4e6f-932d-37b049577cec
 ---
 
-# Configuring analytics and reports{#configuring-analytics-and-reports}
+# Configuring analytics and reports {#configuring-analytics-and-reports}
 
 AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.
 
@@ -42,7 +42,7 @@ Analytics data is stored in customer-specific repositories called report suites.
 
 Perform the following steps to create a report suite.
 
-1. Log in at [https://sc.omniture.com/login/](https://sc.omniture.com/login/ ) 
+1. Log in at [https://sc.omniture.com/login/](https://sc.omniture.com/login/)
 1. In the Marketing Cloud, select **Admin** &gt;** Admin Console** &gt;  **Report Suites**. 
 1. Select **Create New** &gt; **Report Suite** in the Report Suite Manager.
 

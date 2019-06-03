@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: c6115b64-e06f-4b5e-b7f9-876553c7627f
 ---
 
-# Creating a custom adaptive form template{#creating-a-custom-adaptive-form-template}
+# Creating a custom adaptive form template {#creating-a-custom-adaptive-form-template}
 
 ## Prerequisites {#prerequisites}
 

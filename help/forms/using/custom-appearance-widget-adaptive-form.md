@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: 1115697c-cb7d-441a-876f-3c01761568c0
 ---
 
-# Create custom appearances for adaptive form fields{#create-custom-appearances-for-adaptive-form-fields}
+# Create custom appearances for adaptive form fields {#create-custom-appearances-for-adaptive-form-fields}
 
 ## Introduction {#introduction}
 

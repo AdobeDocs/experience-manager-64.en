@@ -9,7 +9,7 @@ topic-tags: integration
 discoiquuid: 3a3a6ede-52af-4c37-8a51-c2ea721a28dc
 ---
 
-# Create form data model{#create-form-data-model}
+# Create form data model {#create-form-data-model}
 
 Learn how to create form data models with or without configured data sources.
 

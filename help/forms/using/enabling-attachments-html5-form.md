@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: 8eebfcd6-0597-44ed-b718-bf9a1baa6c12
 ---
 
-# Enabling attachments for an HTML5 form{#enabling-attachments-for-an-html-form}
+# Enabling attachments for an HTML5 form {#enabling-attachments-for-an-html-form}
 
 You can upload, preview, and submit attachments with HTML5 forms. By default, the attachment support is disabled. To enable the attachment support:
 
@@ -47,7 +47,7 @@ You can upload, preview, and submit attachments with HTML5 forms. By default, th
 
 ## Attachment submission format {#attachment-submission-format}
 
-When attachments are enabled, HTML5 form submits multipart data. The mutii-part submission data has two parts **dataXml **and** attachments. **
+When attachments are enabled, HTML5 form submits multipart data. The mutii-part submission data has two parts **dataXml** and **attachments**.
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 91a41bc1-3fa3-4467-b3f8-5570ba7757c0
 ---
 
-# Inline styling of adaptive form components{#inline-styling-of-adaptive-form-components}
+# Inline styling of adaptive form components {#inline-styling-of-adaptive-form-components}
 
 You can define the overall appearance and style of an adaptive form by specifying styles using [theme editor](/help/forms/using/themes.md). Also, you can apply inline CSS styles to individual adaptive form components and preview the changes on the fly. Inline styles override styling provided in the theme.
 

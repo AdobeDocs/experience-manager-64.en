@@ -11,7 +11,7 @@ geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 0156b5c3-3bef-4213-9ada-c7b6ae96ada4
 ---
 
-# Architecture and deployment topologies for AEM Forms{#architecture-and-deployment-topologies-for-aem-forms}
+# Architecture and deployment topologies for AEM Forms {#architecture-and-deployment-topologies-for-aem-forms}
 
 ## Architecture {#architecture}
 

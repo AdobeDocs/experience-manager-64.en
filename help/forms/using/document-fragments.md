@@ -9,7 +9,7 @@ topic-tags: correspondence-management
 discoiquuid: 1f48548c-4222-454d-ad16-53da37170de2
 ---
 
-# Document Fragments{#document-fragments}
+# Document Fragments {#document-fragments}
 
 Document fragments are reusable parts/components of a correspondence using which you can compose Interactive Communications/letters. The document fragments are of the following types:
 

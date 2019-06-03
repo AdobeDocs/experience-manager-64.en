@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: 602fd6a9-9a65-411c-8475-a4082a3fdee0
 ---
 
-# Customizing Draft and Submission data services{#customizing-draft-and-submission-data-services}
+# Customizing Draft and Submission data services {#customizing-draft-and-submission-data-services}
 
 ## Overview {#overview}
 

@@ -10,7 +10,7 @@ topic-tags: interactive-communications
 discoiquuid: 16c7e698-258d-4e63-9828-f538dc7d3294
 ---
 
-# Using charts in Interactive Communications{#using-charts-in-interactive-communications}
+# Using charts in Interactive Communications {#using-charts-in-interactive-communications}
 
 Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format  
 

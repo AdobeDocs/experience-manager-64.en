@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 6dc31bec-b02d-47db-a4f4-be8c14c5619e
 ---
 
-# Getting Task Variables in Summary URL{#getting-task-variables-in-summary-url}
+# Getting Task Variables in Summary URL {#getting-task-variables-in-summary-url}
 
 The summary page displays task-related information. This article describes how you can reuse task-related information in the summary page.
 
@@ -53,7 +53,7 @@ In this sample orchestration, an employee submits a leave application form. The 
 1. Modify the orchestration to extract the four properties from the submitted form data. After this create a node in CRX of type **Employees/PtoApplication**, with the properties populated.
 
     1. Create a process **create PTO summary** and use this as a subprocess before the **Assign Task** operation in your orchestration.
-    1. Define **employeeName**, **employeeID**, **ptoReason**, **totalDays**, and **nodeName **as input variables in your new process. These variables will be passed as submitted form data.
+    1. Define **employeeName**, **employeeID**, **ptoReason**, **totalDays**, and **nodeName** as input variables in your new process. These variables will be passed as submitted form data.
 
        Also define an output variable **ptoNodePath **which will be used while setting the summary Url.
     
@@ -82,4 +82,4 @@ In AEM Forms workspace, when you open a task, the summary Url accesses the CRX n
 
 The summary layout can be changed without modifying the process. The HTML renderer displays the summary appropriately.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

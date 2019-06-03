@@ -10,7 +10,7 @@ topic-tags: integrations
 discoiquuid: a69ff832-7955-4b10-b47f-287ac385b786
 ---
 
-# Create and manage A/B test for adaptive forms{#create-and-manage-a-b-test-for-adaptive-forms}
+# Create and manage A/B test for adaptive forms {#create-and-manage-a-b-test-for-adaptive-forms}
 
 ## Overview {#overview-br}
 
@@ -85,9 +85,9 @@ AEM lets you create an audience, and use it for an A/B test. The audience you cr
 1. In the Adobe Target Configuration dialog, select a Target configuration and click **Ok**. 
 1. In the Create New Audience page, create rules. Rules let you categorize the audience. For example, you want to categorize audiences based on operating system. Your audience A comes from Windows, and audience B comes from Linux.
 
-    1. To categorize audience based on Windows, in Rule #1, select **OS **attribute type. From the When drop-down, select **Windows. **
+    * To categorize audience based on Windows, in Rule #1, select **OS **attribute type. From the When drop-down, select **Windows. **
     
-    1. To categorize audience based on Linux, in Rule #2, select **OS** attribute type. From the When drop-down, select **Linux, **and click **Next**.
+    * To categorize audience based on Linux, in Rule #2, select **OS** attribute type. From the When drop-down, select **Linux, **and click **Next**.
 
 1. Specify a name for the created audience, and click **Save**.
 

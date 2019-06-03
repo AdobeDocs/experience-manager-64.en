@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: 9c27f976-972a-4250-b56d-b84a7d72f8c8
 ---
 
-# APIs to access letter instances{#apis-to-access-letter-instances}
+# APIs to access letter instances {#apis-to-access-letter-instances}
 
 ## Overview {#overview}
 

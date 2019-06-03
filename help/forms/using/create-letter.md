@@ -9,7 +9,7 @@ topic-tags: correspondence-management
 discoiquuid: 6cef0bcf-e2f0-4a5a-85a1-6d8a5dd9bd01
 ---
 
-# Create Letter{#create-letter}
+# Create Letter {#create-letter}
 
 ## Correspondence Management workflow {#correspondence-management-workflow}
 

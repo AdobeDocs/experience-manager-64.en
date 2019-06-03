@@ -9,7 +9,7 @@ topic-tags: publish
 discoiquuid: 4c7ba430-25b2-4ba2-a5eb-4edaed0d599a
 ---
 
-# Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows {#actions-and-capabilities-of-form-centric-aem-workflows-on-osgi-and-aem-forms-jee-workflows}
+# Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows  {#actions-and-capabilities-of-form-centric-aem-workflows-on-osgi-and-aem-forms-jee-workflows}
 
 ## AEM Inbox and HTML Workspace {#aem-inbox-and-html-workspace}
 

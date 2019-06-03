@@ -11,7 +11,7 @@ topic-tags: forms-app
 discoiquuid: e18aa345-034c-473b-b4c2-01678bb10616
 ---
 
-# AEM Forms app{#aem-forms-app}
+# AEM Forms app {#aem-forms-app}
 
 ## Overview {#overview}
 
@@ -73,8 +73,7 @@ With AEM Forms Workflow server, a form can be associated with a startpoint in a 
 
 With AEM Forms server without AEM Forms workflow, a form enabled for syncing in the app is rendered in the AEM Forms app. Forms are available in the Forms tab of the app, can be submitted or saved as a draft. Adaptive forms and mobile forms are supported in the app.
 
-1. **Saving a task or form as a draft  
-   **
+1. **Saving a task or form as a draft**
 
    The save as draft option saves a snapshot of a task or form along with the data filled and files attached in the associated form. The drafts are saved to the mobile device and synced with AEM Forms server for a later retrieval.
 

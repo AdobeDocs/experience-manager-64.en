@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 10158c13-47b4-43e3-ac47-690f3cbab158
 ---
 
-# Customize images used in route actions{#customize-images-used-in-route-actions}
+# Customize images used in route actions {#customize-images-used-in-route-actions}
 
 To customize the images used in route actions, perform the steps described in [Generic Steps of customization](/help/forms/using/generic-steps-html-workspace-customization.md) followed by the steps described in this article.
 
@@ -171,4 +171,4 @@ To
 1. Replace the text with the following:  
 `"text!/lc/apps/ws/js/runtime/templates/taskdetails.html"`
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

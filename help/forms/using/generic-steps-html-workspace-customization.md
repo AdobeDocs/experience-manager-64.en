@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: 54326a05-3fb0-4111-a6ec-230b6473052e
 ---
 
-# Generic steps for AEM Forms workspace customization{#generic-steps-for-aem-forms-workspace-customization}
+# Generic steps for AEM Forms workspace customization {#generic-steps-for-aem-forms-workspace-customization}
 
 The generic steps to perform any customizations are:
 
@@ -19,7 +19,7 @@ The generic steps to perform any customizations are:
 1. Create a folder named `ws`at `/apps`, if it does not exist. Click **[!UICONTROL Save All]**.
 1. Browse to `/apps/ws`, and navigate to the **[!UICONTROL Access Control]** tab.
 1. In the **[!UICONTROL Access Control]** list, click **[!UICONTROL +]** to add a new entry. Click **[!UICONTROL +]** again.
-1. Search and select the **PERM_WORKSPACE_USER **Principal.
+1. Search and select the **[!UICONTROL PERM_WORKSPACE_USER]** Principal.
 
    ![Select PERM_WORKSPACE_USER principal as part of the generic steps to customize HTML Workspace](assets/perm_workspace_user.png)
 
@@ -94,4 +94,4 @@ The generic steps to perform any customizations are:
 
    Access the URL `https://[server]:[port]/lc/ws` and log in with administrator/password credentials. The browser redirects to `https://[server]:[port]/lc/apps/ws/index.html`.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

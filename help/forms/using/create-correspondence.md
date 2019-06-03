@@ -9,7 +9,7 @@ topic-tags: correspondence-management
 discoiquuid: 2c1be479-9f44-4348-b074-a08af8df51fa
 ---
 
-# Create Correspondence{#create-correspondence}
+# Create Correspondence {#create-correspondence}
 
 ## Create correspondence in the Create Correspondence user interface {#create-correspondence-in-the-create-correspondence-user-interface}
 

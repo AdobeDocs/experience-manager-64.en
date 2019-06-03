@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: 842d3a5a-8e09-4a21-b9a2-a8f4f5b699bd
 ---
 
-# Customizing templates for forms portal components{#customizing-templates-for-forms-portal-components}
+# Customizing templates for forms portal components {#customizing-templates-for-forms-portal-components}
 
 ## Prerequisites {#prerequisites}
 

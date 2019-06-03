@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3ade2a54-cb9a-4e34-808c-c6feec23cfe1
 ---
 
-# Conditions in Interactive Communications{#conditions-in-interactive-communications}
+# Conditions in Interactive Communications {#conditions-in-interactive-communications}
 
 Creating and editing condition fragments to be used in Interactive Communications - condition is one of the four types of document fragments used to build Interactive Communications. The other three are texts, lists, and layout fragments.
 

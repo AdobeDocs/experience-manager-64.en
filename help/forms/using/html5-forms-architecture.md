@@ -11,7 +11,7 @@ topic-tags: hTML5_forms
 discoiquuid: 599f1925-a17e-4bae-93d9-b54edcee92b0
 ---
 
-# Architecture of HTML5 forms{#architecture-of-html-forms}
+# Architecture of HTML5 forms {#architecture-of-html-forms}
 
 ## Architecture {#architecture}
 
@@ -181,4 +181,4 @@ As described above, the profile renderer JSP calls Forms Service via a sling inc
 
 HTML5 forms allow developers to create Profile and Profile Renderer to customize the appearance of the forms. For example, HTML forms allow developers to integrate forms in a panel or &lt;div&gt; section of an existing HTML portal.  
 For more details on creating custom profiles, see [Creating a Custom Profile](/help/forms/using/custom-profile.md).   
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

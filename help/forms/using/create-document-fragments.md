@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e9b78e2b-af7d-49d7-b37f-c96ec732015e
 ---
 
-# Tutorial: Create document fragments{#tutorial-create-document-fragments}
+# Tutorial: Create document fragments {#tutorial-create-document-fragments}
 
 Create document fragments for Interactive Communication
 

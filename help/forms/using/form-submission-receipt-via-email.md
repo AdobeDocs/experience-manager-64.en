@@ -10,7 +10,7 @@ topic-tags: publish
 discoiquuid: 7ffe6317-174b-4d80-9ac6-9bfb5eed7e29
 ---
 
-# Sending a form submission acknowledgement via email{#sending-a-form-submission-acknowledgement-via-email}
+# Sending a form submission acknowledgement via email {#sending-a-form-submission-acknowledgement-via-email}
 
 ## Adaptive form data submission {#adaptive-form-data-submission}
 
@@ -36,7 +36,7 @@ The Email action enables an author to send email automatically to one or more re
 
 1. Open an adaptive form in edit mode.  
 
-1. Click **Edit** next to the **Start of an Adaptive Form **toolbar.
+1. Click **Edit** next to the **Start of an Adaptive Form** toolbar.
 
    The Edit Component dialog opens.
 

@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5f04b13e-ea40-4c86-9168-e020c52435a2
 ---
 
-# Employee recruitment reference site walkthrough{#employee-recruitment-reference-site-walkthrough}
+# Employee recruitment reference site walkthrough {#employee-recruitment-reference-site-walkthrough}
 
 ## Prerequisite {#prerequisite}
 

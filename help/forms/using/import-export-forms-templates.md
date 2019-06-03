@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 6fddb09a-ec60-4235-8ff4-0646f53f38f7
 ---
 
-# Importing and exporting assets to AEM Forms{#importing-and-exporting-assets-to-aem-forms}
+# Importing and exporting assets to AEM Forms {#importing-and-exporting-assets-to-aem-forms}
 
 You can move forms and related assets, themes, data dictionaries, document fragments, and letters between different AEM Forms instances. Such a movement is required when migrating systems or moving forms from a stage server to a production server. For those assets for which upload and import via the AEM Forms UI is supported, using the Forms UI is the recommended way for export or import. Using AEM Package Manager for exporting or importing such assets is not recommended.
 

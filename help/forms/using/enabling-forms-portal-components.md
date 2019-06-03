@@ -10,7 +10,7 @@ topic-tags: publish
 discoiquuid: 4d318908-c724-4582-a82b-6e9b1c55705b
 ---
 
-# Enabling forms portal components{#enabling-forms-portal-components}
+# Enabling forms portal components {#enabling-forms-portal-components}
 
 Out of the box, forms portal components are not available for use. To make the components appear in the list of available components in AEM sidekick, perform the following steps:
 

@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: b80a2bfe-6f57-4229-a9ee-1ec87f3c3306
 ---
 
-# Creating a custom toolbar action{#creating-a-custom-toolbar-action}
+# Creating a custom toolbar action {#creating-a-custom-toolbar-action}
 
 ## Prerequisites {#prerequisite}
 

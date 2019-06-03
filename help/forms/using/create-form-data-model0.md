@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ef873c07-be89-4cd0-8913-65765b989f90
 ---
 
-# Tutorial: Create form data model{#tutorial-create-form-data-model}
+# Tutorial: Create form data model {#tutorial-create-form-data-model}
 
 Create form data model for Interactive Communication
 
