@@ -24,7 +24,7 @@ This section describes topics about developing components for use with content t
 
 ## Enabling Targeting with Adobe Target On Your Pages {#enabling-targeting-with-adobe-target-on-your-pages}
 
-To use targeted components in your pages that interact with Adobe Target, include specific client-side code in the &lt;head&gt; element.
+To use targeted components in your pages that interact with Adobe Target, include specific client-side code in the `<head>` element.
 
 ### The head Section {#the-head-section}
 
@@ -117,7 +117,7 @@ The Target functionality on the client side is managed by the `CQ_Analytics.Test
  </div>
 ```
 
-The JSP adds the required analytics javascript objects and references to client-side javascript libraries. The testandtarget.js file contains the mbox.js functions. The HTML that the script generates is similar to the following example:
+The JSP adds the required analytics javascript objects and references to client-side javascript libraries. The `testandtarget.js` file contains the `mbox.js` functions. The HTML that the script generates is similar to the following example:
 
 ```xml
 <script type="text/javascript">
@@ -136,7 +136,7 @@ The JSP adds the required analytics javascript objects and references to client-
 
 #### The body Section (start) {#the-body-section-start}
 
-Add the following code immediately following the &lt;body&gt; tag to add the client context features to the page:
+Add the following code immediately following the `<body>` tag to add the client context features to the page:
 
 ```xml
 <cq:include path="clientcontext" resourceType="cq/personalization/components/clientcontext"/>
@@ -144,7 +144,7 @@ Add the following code immediately following the &lt;body&gt; tag to add the cli
 
 #### The body Section (end) {#the-body-section-end}
 
-Add the following code immediately before the &lt;/body&gt; end tag:
+Add the following code immediately before the `</body>` end tag:
 
 ```xml
 <cq:include path="cloudservices" resourceType="cq/cloudserviceconfigs/components/servicecomponents"/>
@@ -189,7 +189,7 @@ The JSP script of this component generates calls to the Target javascript API an
 >
 >By default, mboxes are hidden - the mboxDefault class determines this behavior. Hiding mboxes ensures that visitors do not see the default content before it is swapped; however, hiding mboxes impacts perceived performance.
 
-The default mbox.js file that is used to create mboxes is located at /etc/clientlibs/foundation/testandtarget/mbox/source/mbox.js. To use a customer mbox.js file, add the file to the Target cloud configuration. To add the file, the mbox.js file must be available on the file system.
+The default mbox.js file that is used to create mboxes is located at `/etc/clientlibs/foundation/testandtarget/mbox/source/mbox.js`. To use a customer mbox.js file, add the file to the Target cloud configuration. To add the file, the `mbox.js` file must be available on the file system.
 
 For example, if you want to use the [Marketing Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/) you need to download mbox.js so that it contains the correct value for the `imsOrgID` variable, which is based on your tenant. This variable is required for integrating with the Marketing Cloud ID service. For information, see [Adobe Analytics as the Reporting Source for Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) and [Before You Implement](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_before_implement.html).
 
@@ -213,11 +213,11 @@ Most components can be converted to targeted components using the Target command
 
 To remove the Target command from the context menu, add the following property to the cq:editConfig node of the component:
 
-* Name: cq:disableTargeting
-* Type: Boolean
-* Value: True
+* Name: `cq:disableTargeting`
+* Type: `Boolean`
+* Value: `True`
 
-For example, to disable targeting for the title components of the Geometrixx Demo Site pages, add the property to the /apps/geometrixx/components/title/cq:editConfig node.
+For example, to disable targeting for the title components of the Geometrixx Demo Site pages, add the property to the `/apps/geometrixx/components/title/cq:editConfig` node.
 
 ![](assets/chlimage_1-174.png) 
 
@@ -315,10 +315,10 @@ The Target component enables authors to create dynamic mboxes from CQ content co
 
 The target.jsp script accesses the page properties to determine the targeting engine to use for the component, and then executes the appropriate script:
 
-* Adobe Target: /libs/cq/personalization/components/target/engine_tnt.jsp  
-* [Adobe Target with AT.JS](/help/sites-administering/target.md): /libs/cq/personalization/components/target/engine_atjs.jsp
-* [Adobe Campaign](/help/sites-authoring/target-adobe-campaign.md): /libs/cq/personalization/components/target/engine_cq_campaign.jsp
-* Client-side Rules/ContextHub: /libs/cq/personalization/components/target/engine_cq.jsp
+* Adobe Target: `/libs/cq/personalization/components/target/engine_tnt.jsp`
+* [Adobe Target with AT.JS](/help/sites-administering/target.md): `/libs/cq/personalization/components/target/engine_atjs.jsp`
+* [Adobe Campaign](/help/sites-authoring/target-adobe-campaign.md): `/libs/cq/personalization/components/target/engine_cq_campaign.jsp`
+* Client-side Rules/ContextHub: `/libs/cq/personalization/components/target/engine_cq.jsp`
 
 ### The Creation of Mboxes {#the-creation-of-mboxes}
 
@@ -342,9 +342,8 @@ Following the `mboxDefault` div element, the javascript that creates the mbox is
 
 The following are the available clientlib categories:
 
-* testandtarget.mbox
-* testandtarget.init
-* testandtarget.util
-* testandtarget.atjs
-* testandtarget.atjs-integration
-
+* `testandtarget.mbox`
+* `testandtarget.init`
+* `testandtarget.util`
+* `testandtarget.atjs`
+* `testandtarget.atjs-integration`
