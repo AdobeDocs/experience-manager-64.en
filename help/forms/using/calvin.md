@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 2daf95b6-bf72-4191-bdb7-e17e76b166f3
 ---
 
-# Automate testing of adaptive forms{#automate-testing-of-adaptive-forms}
+# Automate testing of adaptive forms {#automate-testing-of-adaptive-forms}
 
 ## Overview {#overview}
 

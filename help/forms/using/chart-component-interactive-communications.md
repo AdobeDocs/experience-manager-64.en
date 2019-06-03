@@ -10,7 +10,7 @@ topic-tags: interactive-communications
 discoiquuid: 16c7e698-258d-4e63-9828-f538dc7d3294
 ---
 
-# Using charts in Interactive Communications{#using-charts-in-interactive-communications}
+# Using charts in Interactive Communications {#using-charts-in-interactive-communications}
 
 Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format  
 
@@ -52,7 +52,7 @@ Complete the following steps to add a chart to an Interactive Communication:
 
 1. Configure the Basic properties of the chart for print channel and web channel. Apart from the common properties, there are properties that are specific to print and web channel and the chart type.
 
-    * **[!UICONTROL Name*]**: Name of the chart object. The name of the chart that you specify here does not appear in the chart output but is used in rules to refer to the chart. 
+    * **[!UICONTROL Name]**: Name of the chart object. The name of the chart that you specify here does not appear in the chart output but is used in rules to refer to the chart. 
     * **[!UICONTROL Chart Type]**: Specify the chart type: Pie, Column, Donut, Line, Line and Point, Point, or Area. 
     * **[!UICONTROL Hide Object]**: Select to hide the chart in the final output. 
     * Specify the following for **[!UICONTROL x-axis]** and **[!UICONTROL y-axis]**:

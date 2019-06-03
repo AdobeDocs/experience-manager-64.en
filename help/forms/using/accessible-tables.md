@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: 3504afe1-abf5-4fbf-a0d2-e093361764bd
 ---
 
-# Create accessible complex tables in HTML5 forms{#create-accessible-complex-tables-in-html-forms}
+# Create accessible complex tables in HTML5 forms {#create-accessible-complex-tables-in-html-forms}
 
 The default implementation of tables in HTML5 Forms uses HTML DIV elements to render a table. Rendering involves using ARIA roles to satisfy the accessibility requirements.
 

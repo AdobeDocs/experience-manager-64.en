@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 982eddba-2350-40e7-8a42-db02d28cf133
 ---
 
-# DO NOT PUBLISH Tutorial: Apply rules to adaptive form fields{#do-not-publish-tutorial-apply-rules-to-adaptive-form-fields}
+# DO NOT PUBLISH Tutorial: Apply rules to adaptive form fields {#do-not-publish-tutorial-apply-rules-to-adaptive-form-fields}
 
  ![](assets/06-apply-rules-to-adaptive-form_main.png)
 
@@ -42,7 +42,7 @@ Every customer is assigned a unique Customer ID number, which helps identify rel
 1. Tap the **[!UICONTROL Customer ID]** field and tap the **[!UICONTROL Edit Rules]** icon. The Rule Editor window opens.
 1. Tap the **[!UICONTROL + Create]** icon to add a rule. It opens the Visual Editor.
 
-   In the Visual Editor, the **[!UICONTROL WHEN]**statement is selected by default. Also, the form object (in this case, **[!UICONTROL Customer ID]**) from where you launched the rule editor is specified in the **[!UICONTROL WHEN]**statement.
+   In the Visual Editor, the **[!UICONTROL WHEN]** statement is selected by default. Also, the form object (in this case, **[!UICONTROL Customer ID]**) from where you launched the rule editor is specified in the **[!UICONTROL WHEN]** statement.
 
 1. Tap the **[!UICONTROL Select State]** drop-down and select **[!UICONTROL is changed]**.
 
@@ -50,15 +50,15 @@ Every customer is assigned a unique Customer ID number, which helps identify rel
 
 1. In the **THEN** statement, select **Invoke Service** from the **Select Action** drop-down.
 1. Select the **Retrieve Shipping Address** service from the **Select** drop-down.
-1. Drag-and-drop the** Customer ID** field from the Form Objects tab to the **Drop object or select here **field in the **INPUT** box.
+1. Drag-and-drop the **Customer ID** field from the Form Objects tab to the **Drop object or select here **field in the **INPUT** box.
 
    ![](assets/dropobjectstoinputfield-retrievedata.png)
 
-1. Drag-and-drop the** Customer ID, Name, Shipping Address, State, and Zip Code** field from the Form Objects tab to the **Drop object or select here **field in the **OUTPUT** box.
+1. Drag-and-drop the **Customer ID, Name, Shipping Address, State, and Zip Code** field from the Form Objects tab to the **Drop object or select here** field in the **OUTPUT** box.
 
    ![](assets/dropobjectstooutputfield-retrievedata.png)
 
-   Tap **Done** to save the rule. On the rule editor window, tap **Close. **
+   Tap **Done** to save the rule. On the rule editor window, tap **Close**.
 
 1. Preview the adaptive form. Enter an ID in the **Customer ID** field. The form can now retrieve customer details from the database.
 
@@ -68,12 +68,12 @@ Every customer is assigned a unique Customer ID number, which helps identify rel
 
 After the customer details are retrieved from the database, you can update the shipping address, state, and zip code. The procedure below invokes a Form Data Model service to update customer information to the database:
 
-1. Select the** Submit **field and tap the **Edit Rules** icon. The Rule Editor window opens.
+1. Select the **Submit** field and tap the **Edit Rules** icon. The Rule Editor window opens.
 1. Select the **Submit - Click** rule and tap the **Edit** icon. The options to edit the Submit rule appear.
 
    ![](assets/submit-rule.png)
 
-   In the WHEN option, the **Submit **and **is clicked** options are already selected.
+   In the WHEN option, the **Submit** and **is clicked** options are already selected.
 
    ![](assets/submit-is-clicked.png)
 
@@ -84,14 +84,14 @@ After the customer details are retrieved from the database, you can update the s
 
 1. ![](assets/dropobjectstoinputfield-updatedata.png)
 
-   Drag-and-drop the** Shipping Address, State, and Zip Code** field from the Form Objects tab to the corresponding  tablename .property (for example,  customerdetails .shippingAddress) of the **Drop object or select here **field in the **INPUT** box. All the fields prefixed with  tablename  (For example,  customerdetails  in this use case) serve as input data for the update service. All the content provided in these fields is updated in the data source.
+   Drag-and-drop the **Shipping Address, State, and Zip Code** field from the Form Objects tab to the corresponding  tablename .property (for example,  customerdetails .shippingAddress) of the **Drop object or select here** field in the **INPUT** box. All the fields prefixed with  tablename  (For example,  customerdetails  in this use case) serve as input data for the update service. All the content provided in these fields is updated in the data source.
 
    >[!NOTE]
    >
    >Do not drag-and-drop the **Name** and **Customer ID** fields to the corresponding tablename.property (for example, customerdetails.name). It helps avoid updating name and ID of the customer by mistake.
 
 1. Drag-and-drop the **Customer ID** field from the Form Objects tab to the id field in the **INPUT** box. Fields without a prefixed  tablename  (for example,  customerdetails  in this use case) serve as a search parameter for the update service. The **id** field in this use case uniquely identifies a record in the  customerdetails  table.
-1. Tap **Done** to save the rule. On the rule editor window, tap **Close. **
+1. Tap **Done** to save the rule. On the rule editor window, tap **Close**.
 1. Preview the adaptive form. Retrieve details of a customer, update the shipping address, and submit the form. When you retrieve details of the same customer again, the updated shipping address is displayed.
 
 ## Step 3: (Bonus section) Use the code editor to run validations and display error messages {#step-bonus-section-use-the-code-editor-to-run-validations-and-display-error-messages}
@@ -102,10 +102,10 @@ Adaptive forms provide several components with built-in validations, for example
 
 The following procedure shows how to create a rule to displays an error message if the Customer ID entered in the form does not exist in the database. The rule also brings the focus to and resets the Customer ID field. The rule uses [the dataIntegrationUtils API of the form data model service](/help/forms/using/invoke-form-data-model-services.md) to check if the Customer ID exists in the database.
 
-1. Tap the **[!UICONTROL Customer ID]**field and tap the `Edit Rules` icon. The Rule Editor window opens.
-1. Tap the **[!UICONTROL + Create]**icon to add a rule. It opens the Visual Editor.
+1. Tap the **[!UICONTROL Customer ID]** field and tap the `Edit Rules` icon. The Rule Editor window opens.
+1. Tap the **[!UICONTROL + Create]** icon to add a rule. It opens the Visual Editor.
 
-   In the Visual Editor, the **[!UICONTROL WHEN]**statement is selected by default. Also, the form object (in this case, **[!UICONTROL Customer ID]**) from where you launched the rule editor is specified in the **[!UICONTROL WHEN]**statement.
+   In the Visual Editor, the **[!UICONTROL WHEN]** statement is selected by default. Also, the form object (in this case, **[!UICONTROL Customer ID]**) from where you launched the rule editor is specified in the **[!UICONTROL WHEN]** statement.
 
 1. Tap the **[!UICONTROL Select State]** drop-down and select **[!UICONTROL is changed]**.
 

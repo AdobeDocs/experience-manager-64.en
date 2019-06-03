@@ -10,7 +10,7 @@ topic-tags: integration
 discoiquuid: b6786321-6e8e-40e2-809b-d117991246c4
 ---
 
-# AEM Forms Data Integration{#aem-forms-data-integration}
+# AEM Forms Data Integration {#aem-forms-data-integration}
 
 Data Integration lets you integrate AEM Forms with disparate data sources and create form data model to create and work with adaptive forms and interactive communications.
 

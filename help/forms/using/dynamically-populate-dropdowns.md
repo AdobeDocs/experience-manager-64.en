@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: 49453dda-7b05-4470-866e-1946bff70f27
 ---
 
-# Dynamically populating drop-down lists {#dynamically-populating-drop-down-lists}
+# Dynamically populating drop-down lists  {#dynamically-populating-drop-down-lists}
 
 ## Prerequisites {#prerequisites}
 

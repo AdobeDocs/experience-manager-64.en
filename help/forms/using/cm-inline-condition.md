@@ -11,7 +11,7 @@ topic-tags: interactive-communications
 discoiquuid: f376b8c1-e176-4fe6-b298-f3d493c59319
 ---
 
-# Inline condition and repeat in Interactive Communications and letters{#inline-condition-and-repeat-in-interactive-communications-and-letters}
+# Inline condition and repeat in Interactive Communications and letters {#inline-condition-and-repeat-in-interactive-communications-and-letters}
 
 Using inline condition and repeat in Interactive Communications and letters, you can create communications that are highly contextual and well structured.
 

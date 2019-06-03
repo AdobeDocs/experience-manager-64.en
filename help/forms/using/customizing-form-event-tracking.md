@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: 60d67c6b-5994-42ef-b159-ed6edf5cf9d4
 ---
 
-# Customizing form event tracking{#customizing-form-event-tracking}
+# Customizing form event tracking {#customizing-form-event-tracking}
 
 Out of the box, the following events are tracked in an analytics enabled Adaptive Form:
 

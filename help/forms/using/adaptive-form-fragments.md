@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 4df5ee77-5a77-4efd-b7e1-c78e650673a9
 ---
 
-# Adaptive form fragments{#adaptive-form-fragments}
+# Adaptive form fragments {#adaptive-form-fragments}
 
 While every form is designed for a specific purpose, there are some common segments in most forms, such as to provide personal details like name and address, family details, income details, and so on. Form developers are required to create these common segments every time a new form is created.
 

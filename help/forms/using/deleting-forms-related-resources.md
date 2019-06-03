@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: c8519eec-f841-4867-baa9-a9e03042755e
 ---
 
-# Deleting forms and related resources{#deleting-forms-and-related-resources}
+# Deleting forms and related resources {#deleting-forms-and-related-resources}
 
 You can delete the forms and assets to remove these assets from the repository. Delete operation works on all asset types and folders.
 

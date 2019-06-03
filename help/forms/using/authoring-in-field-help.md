@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 893a72c7-d68f-464f-9765-ec2272189e58
 ---
 
-# Authoring in-context help for form fields{#authoring-in-context-help-for-form-fields}
+# Authoring in-context help for form fields {#authoring-in-context-help-for-form-fields}
 
 ## Introduction {#introduction}
 

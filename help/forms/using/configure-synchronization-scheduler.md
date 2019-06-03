@@ -10,7 +10,7 @@ topic-tags: Configuration
 discoiquuid: 2c8cea3c-8d8b-41d4-8ef9-a0ada8f86be6
 ---
 
-# Configuring the synchronization scheduler{#configuring-the-synchronization-scheduler}
+# Configuring the synchronization scheduler {#configuring-the-synchronization-scheduler}
 
 By default, the synchronization scheduler runs after every 3 minutes to synchronize all the assets modified and updated in the repository via LiveCycle Workbench 11. Applications containing forms and resources are visible in the AEM Forms user interface once the synchronization process is complete.
 

@@ -9,7 +9,7 @@ topic-tags: develop
 discoiquuid: 9f3ba207-b5a3-43a2-b59c-0d74d62c03fc
 ---
 
-# Adaptive Form Expressions{#adaptive-form-expressions}
+# Adaptive Form Expressions {#adaptive-form-expressions}
 
 Adaptive forms provide optimized and simplified form filling experience for end users with dynamic scripting capabilities. It allows you to write expressions to add various behaviors such as dynamic show/hide fields and panels. It also lets you add calculated fields, make fields read-only, add validation logic, and many more. The dynamic behavior is based on the user input or prefilled data.
 

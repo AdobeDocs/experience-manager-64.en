@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 40d7d43f-ee0a-4e34-ae93-20c9c940f76b
 ---
 
-# Customizing the listing of process instances{#customizing-the-listing-of-process-instances}
+# Customizing the listing of process instances {#customizing-the-listing-of-process-instances}
 
 The process instance list is displayed in the Tracking tab of AEM Forms workspace.
 
@@ -91,4 +91,4 @@ To display the `description` property of the process instance in the process ins
    }
    ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

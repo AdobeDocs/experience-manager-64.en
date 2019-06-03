@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 01724ca0-6901-45e7-b045-f44814ed574e
 ---
 
-# Creating forms with repeatable sections{#creating-forms-with-repeatable-sections}
+# Creating forms with repeatable sections {#creating-forms-with-repeatable-sections}
 
 Repeatable sections are panels that can be added or removed to a form dynamically.
 

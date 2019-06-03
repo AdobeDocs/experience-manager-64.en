@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c106aa41-cbc0-4daf-9ac6-6c0d23710010
 ---
 
-# Create an Interactive Communication {#create-an-interactive-communication}
+# Create an Interactive Communication  {#create-an-interactive-communication}
 
 Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types.
 

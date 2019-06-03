@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 0843ceff-2607-4733-8383-681820e513d1
 ---
 
-# Getting Started with SPAs in AEM - React{#getting-started-with-spas-in-aem-react}
+# Getting Started with SPAs in AEM - React {#getting-started-with-spas-in-aem-react}
 
 Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using SPA frameworks.
 
@@ -261,7 +261,7 @@ For more information see the [SPA Blueprint document](/help/sites-developing/spa
 >
 >By default you receive the entire model of the component when using the `withModel` function.
 
-## Sharing Information Between SPA Components {sharing-information-between-spa-components}
+## Sharing Information Between SPA Components {#sharing-information-between-spa-components}
 
 It is regularly necessary for components within a single-page application to share information. There are several recommended ways of doing this, listed as follows in increasing order of complexity.
 

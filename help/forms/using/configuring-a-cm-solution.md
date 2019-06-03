@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 186ca75c-638b-4057-826e-cd5d56aa0397
 ---
 
-# Configuring a Correspondence Management solution{#configuring-a-correspondence-management-solution}
+# Configuring a Correspondence Management solution {#configuring-a-correspondence-management-solution}
 
 ## Defining author instance URL for VersionRestoreManagerImpl {#defining-author-instance-url-for-versionrestoremanagerimpl}
 

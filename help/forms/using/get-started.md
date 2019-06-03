@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: f276d150-8936-4bfb-8475-7ca36815b233
 ---
 
-# Getting started with HTML5 forms{#getting-started-with-html-forms}
+# Getting started with HTML5 forms {#getting-started-with-html-forms}
 
 HTML5 forms bring numerous capabilities that are mobile-ready. It helps you expand your current solutions and workflows to tablets or smartphones devices with HTML5 browsers. Some of the capabilities include:
 
@@ -26,4 +26,4 @@ After installing AEM, perform the following steps to import Mobile Forms to AEM:
 
 * **Import Mobile Forms:** Import your forms from your local file system to the CRX repository. For detailed information, see [Getting XDP and PDF documents in AEM Forms](/help/forms/using/get-xdp-pdf-documents-aem.md).
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

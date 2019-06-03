@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 43c431e4-5286-4f4e-b94f-5a7451c4a22c
 ---
 
-# Best practices for working with adaptive forms{#best-practices-for-working-with-adaptive-forms}
+# Best practices for working with adaptive forms {#best-practices-for-working-with-adaptive-forms}
 
 ## Overview {#overview}
 

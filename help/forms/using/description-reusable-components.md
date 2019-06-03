@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: d3facd17-ceb0-4799-8cd9-ff9e81e09793
 ---
 
-# Description of reusable components{#description-of-reusable-components}
+# Description of reusable components {#description-of-reusable-components}
 
 AEM Forms workspace is composed of [reusable](/help/forms/using/integrating-html-ws-components-web.md) components which are organized in a specific [folder structure](/help/forms/using/folder-structure.md) in CRX™. Each component has model, view, and template file at location specified in the folder structure, JavaScript™ dependencies on other component files, events listened by the component and JavaScript objects which trigger these events in AEM Forms workspace. The complete list of reusable components with constituent filenames and dependencies is given here.
 
@@ -1088,4 +1088,4 @@ AEM Forms workspace is composed of [reusable](/help/forms/using/integrating-html
  </tbody> 
 </table>
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

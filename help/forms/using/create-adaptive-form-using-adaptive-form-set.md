@@ -9,7 +9,7 @@ topic-tags: develop
 discoiquuid: 75ee94f7-e939-409b-b8cb-8fdc3f79bb63
 ---
 
-# Create an adaptive form using a set of adaptive forms{#create-an-adaptive-form-using-a-set-of-adaptive-forms}
+# Create an adaptive form using a set of adaptive forms {#create-an-adaptive-form-using-a-set-of-adaptive-forms}
 
 ## Overview {#overview}
 

@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: cc473808-e71a-4834-bb30-91e6df783e60
 ---
 
-# Correspondence Management: Troubleshooting{#correspondence-management-troubleshooting}
+# Correspondence Management: Troubleshooting {#correspondence-management-troubleshooting}
 
 ## Errors when saving a letter {#errors-when-saving-a-letter}
 

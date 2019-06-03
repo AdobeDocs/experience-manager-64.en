@@ -11,7 +11,7 @@ topic-tags: hTML5_forms
 discoiquuid: 23bc7cd2-7d06-4ef8-977a-778e290daef9
 ---
 
-# Enable logging for HTML5 forms{#enable-logging-for-html-forms}
+# Enable logging for HTML5 forms {#enable-logging-for-html-forms}
 
 You can configure the logger utility to start creating logs for HTML5 forms. The logger utility has various levels, you can set a level as per your requirements. HTML5 forms has server and client components. You can configure logs for both the components.
 

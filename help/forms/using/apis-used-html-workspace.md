@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 4a73a973-fccf-466b-b4a0-47652a14a080
 ---
 
-# APIs used in AEM Forms workspace{#apis-used-in-aem-forms-workspace}
+# APIs used in AEM Forms workspace {#apis-used-in-aem-forms-workspace}
 
 The following APIs are used in AEM Forms workspace.
 
@@ -397,4 +397,5 @@ The following APIs are used in AEM Forms workspace.
  </tbody>
 </table>
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+

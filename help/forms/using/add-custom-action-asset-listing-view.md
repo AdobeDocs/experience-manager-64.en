@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: b35ea921-182f-4371-90f6-482d22694b42
 ---
 
-# Add custom action to the Asset Listing view{#add-custom-action-to-the-asset-listing-view}
+# Add custom action to the Asset Listing view {#add-custom-action-to-the-asset-listing-view}
 
 ## Overview {#overview}
 

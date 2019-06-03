@@ -11,7 +11,7 @@ topic-tags: interactive-communications
 discoiquuid: 954da8da-a30b-477d-bde7-3edd86a5be11
 ---
 
-# Tutorial: Create your first Interactive Communication{#tutorial-create-your-first-interactive-communication}
+# Tutorial: Create your first Interactive Communication {#tutorial-create-your-first-interactive-communication}
 
 Learn to create your first Interactive Communication.
 
