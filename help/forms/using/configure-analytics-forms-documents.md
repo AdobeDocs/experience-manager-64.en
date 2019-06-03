@@ -43,7 +43,7 @@ Analytics data is stored in customer-specific repositories called report suites.
 Perform the following steps to create a report suite.
 
 1. Log in at [https://sc.omniture.com/login/](https://sc.omniture.com/login/)
-1. In the Marketing Cloud, select **Admin** &gt;** Admin Console** &gt;  **Report Suites**. 
+1. In the Marketing Cloud, select **Admin** &gt; **Admin Console** &gt;  **Report Suites**. 
 1. Select **Create New** &gt; **Report Suite** in the Report Suite Manager.
 
    ![Create new Report Suite](assets/newreportsuite.png)
@@ -73,7 +73,7 @@ Perform the following steps to create a report suite.
 
    General Account Settings
 
-1. In General Account Settings screen, enable **Geography Reporting**, and click **Save. **
+1. In General Account Settings screen, enable **Geography Reporting**, and click **Save**.
 1. Navigate to **Edit Settings** &gt; **Traffic** &gt; **Traffic Variables**.  
 
 1. In the report suite, configure and enable following traffic variables.
@@ -143,7 +143,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
 
    Adobe Analytics configuration
 
-1. Type a **Title **and **Name **for the framework, select **Adobe Analytics** Framework, and click **Create**. The framework opens for editing.
+1. Type a **Title** and **Name** for the framework, select **Adobe Analytics** Framework, and click **Create**. The framework opens for editing.
 
 1. In the Report Suites section of the side pod, click **Add Item**, then use the drop-down to select the Report Suite ID (for example, JJEsquire) with which the framework will interact.  
 
@@ -172,7 +172,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
     * **SiteCatalyst Framework**: Select the framework/configuration that you defined in the Set up a framework for tracking section.
     * **Field time tracking baseline**: Specify the duration, in seconds, after which the field visit must be tracked. The default value is 0. When the value is greater than 0 (zero), two separate tracking events are sent to Adobe Analytics server. The first event instructs the analytics server to stop tracking the exited field. The second event is sent after the specified duration elapses. The second event instructs the analytics server to start tracking the visited field. Using two separate events helps accurately measure time spent on a field. When the value is 0 (zero), single tracking event is sent to Adobe Analytics server.  
     
-    * **Analytics report sync cron**: Specify cron expression for fetching reports from Adobe Analytics. The default value is 0 0 2 ? &ast; &ast;.  
+    * **Analytics report sync cron**: Specify cron expression for fetching reports from Adobe Analytics. The default value is 0 0 2 ?.  
     
     * **Fetch report timeout:** Specify the duration, in seconds, to wait for server to respond to the analytics report. The default time is 120 seconds.
 

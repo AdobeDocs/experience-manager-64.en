@@ -10,7 +10,7 @@ content-type: reference
 discoiquuid: 50e24c2b-ad7e-4422-a850-9a0bf6bd9423
 ---
 
-# Getting Started with SPAs in AEM - Angular{#getting-started-with-spas-in-aem-angular}
+# Getting Started with SPAs in AEM - Angular {#getting-started-with-spas-in-aem-angular}
 
 Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using SPA frameworks.
 
@@ -270,7 +270,7 @@ Finally the image can be rendered in `image.component.html`.
 <img [src]="src" [alt]="alt" [title]="title"/>
 ```
 
-## Sharing Information Between SPA Components {sharing-information-between-spa-components}
+## Sharing Information Between SPA Components {#sharing-information-between-spa-components}
 
 It is regularly necessary for components within a single-page application to share information. There are several recommended ways of doing this, listed as follows in increasing order of complexity.
 

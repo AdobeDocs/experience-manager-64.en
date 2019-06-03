@@ -258,7 +258,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 * One bundle remains in installed state after installing Forms Management package on release/640 branch. Hotfix for CQ-4265410
 * Forms submitted with attachments in them are not appearing in workflow with submit action "Invoke AEM Forms Workflow" & enable portal submit checked . Hotfix for CQ-4263110
 
-#### Forms - Backend Integration {forms-backend-integration}
+#### Forms - Backend Integration {#forms-backend-integration}
 
 * Unable to do testing of pre/post preprocessor and custom submit using Client SDK, Hotfix for CQ-4238469
 
@@ -282,7 +282,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 
 * The paper capture service crashes while processing  TIFF files. NPR-28079:  Hotfix for CQ-4240649
 
-#### Forms - Workflow {forms-new-workflow}
+#### Forms - Workflow {#forms-new-workflow}
 
 * HTML5 Forms with default submit process in an.lca do not work on JBoss 7. NPR-28675: Hotfix for CQ-4243928
 * Unable to submit PDF Forms in HTML Workspace. NPR-28058: Hotfix for CQ-4260373 
@@ -756,7 +756,7 @@ Some of the key highlights of AEM 6.4.2.0 are:
 *    &lsqb;Design Importer&rsqb; Importing a page does not import the js, `css` . NPR-25203: Hotfix for Granite-22236
 *   Proactive Foundation UI Backports to improve the stability of the product. NPR-24334
 
-### MAC - Test & Target Integration {mac-ui-tt-integration}
+### MAC - Test & Target Integration {#mac-ui-tt-integration}
 
 *   Second page of PersonalizationWizard (launched by "Start Targeting") is blank and throws console errors. Hotfix for CQ-4253277
 

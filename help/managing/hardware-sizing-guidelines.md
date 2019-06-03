@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 3f4feb38-eca0-4852-88f8-9b20625e18ad
 ---
 
-# Hardware Sizing Guidelines{#hardware-sizing-guidelines}
+# Hardware Sizing Guidelines {#hardware-sizing-guidelines}
 
 These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project. Sizing estimates depend on the architecture of the project, the complexity of the solution, expected traffic and the project requirements. This guide helps you to determine the hardware needs for a specific solution, or to find an upper and lower estimate for the hardware requirements.
 
@@ -101,11 +101,11 @@ AEM runs well in virtualized environments, but there can be factors such as CPU 
 
 ### Parallelization of AEM Instances {#parallelization-of-aem-instances}
 
-#### Fail Safeness {fail-safeness}
+#### Fail Safeness {#fail-safeness}
 
 A fail-safe website is deployed on at least two separate systems. If one system breaks down, an other system can take over and thus compensate the system failure.
 
-#### System resources scalability {system-resources-scalability}
+#### System resources scalability {#system-resources-scalability}
 
 While all systems are running, an increased computational performance is available. That additional performance is not necessarily linear with the number of cluster nodes as the relationship is highly dependent on the technical environment; please see the [Cluster documentation](/help/sites-deploying/recommended-deploys.md) for more information.
 
