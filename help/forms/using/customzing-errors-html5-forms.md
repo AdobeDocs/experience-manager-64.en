@@ -82,7 +82,8 @@ Ue the attached package to simultaneously display error messages for all the fie
 
 1. Navigate to the etc\clientlibs\mf-custom-error-manager\CustomErrorManager\css folder.  
 
-1. Open the file sample.css for editing.The css file contains 2 ids- #customError, #customWarning. You can use these ids to change various properties such as color, font size etc.  
+1. Open the file sample.css for editing.The css file contains 2 ids- #customError, #customWarning. You can use these ids to change various properties such as color, font size etc.
+
    Use the following code to change font size and color of error/warning messages.
 
    ```

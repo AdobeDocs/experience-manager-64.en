@@ -24,10 +24,8 @@ You can create a folder in AEM Forms in one of the following ways:
 
 * Create a new empty folder
 
-1. Log in to the AEM Forms user interface at `https://<server>:<port>/aem/forms.html`.  
-   ``
+1. Log in to the AEM Forms user interface at `https://<server>:<port>/aem/forms.html`. 
 1. Navigate to the location under which you want to create a folder.  
-
 1. Click the ![](assets/aem6forms_add.png) icon in the toolbar and then select **[!UICONTROL Create Folder]**.  
 
 1. Enter the following details:
@@ -49,8 +47,6 @@ You can create a folder in AEM Forms in one of the following ways:
 
 1. Select the folder whose title you want to edit.
 1. Click the edit ![](assets/aem6forms_edit.png) icon in the toolbar.  
-
-1. Enter the new title. The text field is prepopulated with the current value of folder title. You can change it to a new value.  
-
+1. Enter the new title. The text field is prepopulated with the current value of folder title. You can change it to a new value. 
 1. Click **[!UICONTROL Submit].**
 

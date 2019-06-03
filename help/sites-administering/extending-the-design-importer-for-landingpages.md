@@ -13,7 +13,7 @@ discoiquuid: f8991416-995b-4160-a705-d131e78089ee
 
 # Extending and Configuring the Design Importer for Landing Pages{#extending-and-configuring-the-design-importer-for-landing-pages}
 
-This section describes how to configure and if desired, extend the design importer for landing pages. Working with Landing Pages after import is covered in [Landing Pages.](/help/sites-authoring/landingpages.md)
+This section describes how to configure and if desired, extend the design importer for landing pages. Working with Landing Pages after import is covered in [Landing Pages.](/help/sites-classic-ui-authoring/classic-personalization-campaigns-landingpage.md)
 
 **Making the design importer extract your custom component**
 
@@ -94,7 +94,7 @@ Before you import the landing page, you may want to convert some of the parts of
 
 You do this by adding the `data-cq-component` to the appropriate component in the HTML file that you import.
 
-The following section describes how to edit your HTML file so that you convert certain parts of your landing pages into different editable AEM components. Components are described in detail at [Landing Pages Components](/help/sites-authoring/landingpages.md).
+The following section describes how to edit your HTML file so that you convert certain parts of your landing pages into different editable AEM components. Components are described in detail at [Landing Pages Components](/help/sites-classic-ui-authoring/classic-personalization-campaigns-landingpage.md).
 
 >[!NOTE]
 >
@@ -317,8 +317,10 @@ A lead form is a form that is used to collect a visitor/lead's profile informati
 * Map lead form fields using specific pre-defined names of CTA lead form, for example - firstName for first-name in lead form, and so on.
 * Fields that are not mapped to lead form will map to cq:form components - text, radio, checkbox, dropdown, hidden, password.
 * User can provide the title using “label” tag and can provide styling by using style attribute “class” (only available for CTA lead form components).
-* Thank You page and subscription list can be provided as a hidden parameter of the form (present in the index.htm) or can be added/edited from edit bar of “Start of lead form”  
-  &lt;input type="hidden" name="redirectUrl" value="/content/we-retail/en/user/register/thank_you"/&gt;  
+* Thank You page and subscription list can be provided as a hidden parameter of the form (present in the index.htm) or can be added/edited from edit bar of “Start of lead form” 
+
+  &lt;input type="hidden" name="redirectUrl" value="/content/we-retail/en/user/register/thank_you"/&gt; 
+  
   &lt;input type="hidden" name="groupName" value="leadForm"/&gt;
 
 * Constraints like - required can be provided from edit configuration of each of the component.

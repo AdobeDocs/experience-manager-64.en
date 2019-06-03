@@ -15,13 +15,16 @@ discoiquuid: d18c0ece-4c4f-499c-ac94-a9aaa7f883c4
 
 To setup your website, the instructions below describe the folders to create in the following locations:
 
-* **/apps**/an-scf-sandbox  
+* **/apps**/an-scf-sandbox
+
   this is where custom applications and templates reside
 
-* **/etc/designs**/an-scf-sandbox  
+* **/etc/designs**/an-scf-sandbox
+
   this is where downloadable design elements reside
 
-* **/content**/an-scf-sandbox  
+* **/content**/an-scf-sandbox
+
   this is where the downloadable web pages reside
 
 The code in this tutorial will rely on the main folder name being the same for the application, design, and content. If you choose some other name for your website, then always replace **an-scf-sandbox **with the name you have chosen.
@@ -34,7 +37,7 @@ The code in this tutorial will rely on the main folder name being the same for t
 >* node names may contain spaces, but when used in an URI, the space must be encoded either as '%20' or '+'
 >* node names may contain hyphens and underscores, but they must be encoded when referenced as a package name within a Java file. Both hyphens and underscores are escaped with underscore followed by their unicode value: 
 >
->  * hypen becomes '_002d'  
+>  * hyphen becomes '_002d'  
 >  * underscore becomes '_005f'
 
 ## Set up the Application Directory (/apps) {#setup-the-application-directory-apps}
@@ -47,14 +50,10 @@ The /apps directory is protected and not publicly accessible as are the /content
 
    Using **CRXDE Lite**, in the explorer pane
 
-    1. select the **`/apps`** folder   
-    
+    1. select the **`/apps`** folder
     1. right-click **Create**... or pull down the **Create...** menu
-    
     1. select **Create Folder...** .
-    
     1. in the **Create Folder** dialog, enter **an-scf-sandbox**
-    
     1. click **OK**
 
 1. Create **components** subfolder.
@@ -83,7 +82,7 @@ The /apps directory is protected and not publicly accessible as are the /content
 
 The /etc/designs directory contains the images, scripts, and stylesheets to be downloaded along with the page content.
 
-1. To use the Deisgner tool in the Classic UI, browse to [https://&lt;server&gt;:&lt;port&gt;/miscadmin](http://localhost:4502/miscadmin).
+1. To use the Designer tool in the Classic UI, browse to [https://&lt;server&gt;:&lt;port&gt;/miscadmin](http://localhost:4502/miscadmin).
 
    Note: If you use CRXDE Lite to create a Node of type `cq:Page`, the Access Control and Replication would not be set to default settings for a page.
 

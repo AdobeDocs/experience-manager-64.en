@@ -40,8 +40,7 @@ You can create a launch from either the Sites or Launches console:
 
     * **Sites**:
 
-        1. Select **Create** from the toolbar to open the selection box.  
-        
+        1. Select **Create** from the toolbar to open the selection box.
         1. From this select **Create Launch** to open the wizard.
 
    >[!NOTE]
@@ -69,8 +68,7 @@ You can create a launch from either the Sites or Launches console:
 
     * **Include subpages**:
 
-        * Specify whether you want to create the launch with or without the child pages.  
-          By default, this subpages are included.
+        * Specify whether you want to create the launch with or without the child pages.  By default, this subpages are included.
 
    Proceed with **Next**.
 
@@ -79,13 +77,12 @@ You can create a launch from either the Sites or Launches console:
 1. In the **Properties** step of the wizard you can specify:
 
     * **Launch Title**: The name of the Launch. The name should be meaningful for authors.
-    * **with existing content**: the original content will be used to create the launch.  
-    
-    * **use a new template to replace the page**: See [Create Launch with New Template](#create-launch-with-new-template) for more details.  
-    
-    * **Inherit source page live data**: Select this option to automatically update the content of launch pages when the source pages change. This option achieves this by making the launch a [live copy](/help/sites-administering/msm.md).  
-      By default, this option is selected.  
-    
+    * **with existing content**: the original content will be used to create the launch.
+    * **use a new template to replace the page**: See [Create Launch with New Template](#create-launch-with-new-template) for more details.
+    * **Inherit source page live data**: Select this option to automatically update the content of launch pages when the source pages change. This option achieves this by making the launch a [live copy](/help/sites-administering/msm.md).
+
+      By default, this option is selected. 
+
     * **Launch Date**: The date and time when the launch copy is to be activated (dependent on the **Production Ready** flag; see [Launches - the Order of Events](/help/sites-authoring/launches.md#launches-the-order-of-events)).
 
    ![](assets/chlimage_1-227.png)

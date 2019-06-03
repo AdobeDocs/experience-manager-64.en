@@ -65,7 +65,6 @@ Do the following to configure your MySQL database:
 
     1. Log in to AEM Forms Author Instance as an administrator and go to AEM web console bundles. The default URL is [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles).
     1. Tap **Install/Update**. An **Upload / Install Bundles** dialog appears.
-    
     1. Tap **Choose File** to browse and select the MySQL JDBC driver OSGi bundle. Select **Start Bundle** and **Refresh Packages**, and tap **Install **or **Update**. Ensure that the Oracle Corporation's JDBC Driver for MySQL is active. The driver is installed.
 
 1. Configure MySQL database as a data source:
@@ -75,20 +74,14 @@ Do the following to configure your MySQL database:
     1. In the configuration dialog, specify the following details:
 
         * **Datasource name:** You can specify any name. For example, specify **MySQL**.
-        
         * **DataSource service property name**: Specify name of the service property containing the DataSource name. It is specified while registering the data source instance as OSGi service. For example, **datasource.name**.
-        
         * **JDBC driver class**: Specify Java class name of the JDBC driver. For MySQL database, specify **com.mysql.jdbc.Driver**. 
-        
         * **JDBC connection URI**: Specify connection URL of the database. For MySQL database running on port 3306 and schema teleca, the URL is: `jdbc:mysql://[server]:3306/teleca?autoReconnect=true&useUnicode=true&characterEncoding=utf-8`
         * **Username:** Username of the database. It is required to enable JDBC driver to establish a connection with the database.
         * **Password:** Password of the database. It is required to enable JDBC driver to establish a connection with the database.
         * **Test on Borrow:** Enable the **Test on Borrow** option.
-        
         * **Test on Return:** Enable the **Test on Return** option.
-        
         * **Validation Query:** Specify a SQL SELECT query to validate connections from the pool. The query must return at least one row. For example, **select &ast; from customer**.
-        
         * **Transaction Isolation**: Set the value to **READ_COMMITTED**.
 
    Leave other properties with default [values](https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html) and tap **Save**.
@@ -159,6 +152,7 @@ A computed property is the one whose value is computed based on a rule or an exp
 Based on the use case, create the **usagecharges** child computed property in the **bills** data model object using the following mathematical expression:
 
 * usage charges = call charges + conference call charges + SMS charges + mobile internet charges + roaming national + roaming international + VAS (all these properties exist in the bills data model object)  
+
   For more information on the **usagecharges** child computed property, see [Plan the Interactive Communication](/help/forms/using/planning-interactive-communications.md).
 
 Execute the following steps to create computed child properties for bills data model object:
@@ -207,11 +201,8 @@ Perform the following steps to create associations between data model objects:
 
     * Specify a title for the association. It is an optional field.
     * Select **One to Many** from the **Type** drop-down list.
-    
     * Select **calls** from the **Model Object** drop-down list.
-    
     * Select **get** from the **Service** drop-down list.
-    
     * Tap **Add** to link the **customer** data model object to **calls** data model object using a property. Based on the use case, the calls data model object must be linked to the mobile number property in the customer data model object. The **Add Argument** dialog box opens.
 
    ![](assets/add_association.png)
@@ -219,13 +210,12 @@ Perform the following steps to create associations between data model objects:
 1. In the **Add Argument** dialog box:
 
     * Select **mobilenum **from the **Name** drop-down list. The mobile number property is a common property that is available in customer and calls data model objects. As a result, it is used to create an association between customer and calls data model objects.  
+
       For each mobile number available in the customer data model object, there are multiple call records available in the calls table.
     
     * Specify an optional title and description for the argument.
     * Select **customer** from the **Binding To** drop-down list.
-    
     * Select **mobilenum** from the **Binding Value** drop-down list.
-    
     * Tap **Add**.
 
    ![](assets/add_association_argument.png)
@@ -243,16 +233,13 @@ Perform the following steps to create associations between data model objects:
 
     * Specify a title for the association. It is an optional field.
     * Select **One to One** from the **Type** drop-down list.
-    
     * Select **bills** from the **Model Object** drop-down list.
-    
     * Select **get** from the **Service** drop-down list. The **billplan** property, which is the primary key for the bills table, is already available in the **Arguments** section.  
+
       The bills and customer data model objects are linked using the billplan (bills) and customerplan (customer) properties respectively. Create a binding between these properties to retrieve the plan details for any customer available in the MySQL database.
     
     * Select **customer** from the **Binding To** drop-down list.
-    
     * Select **customerplan** from the **Binding Value** drop-down list.
-    
     * Tap **Done** to create a binding between the billplan and customerplan properties.
 
    ![](assets/add_association_customer_bills.png)
@@ -271,14 +258,12 @@ After creating associations between the customer and other data model objects, e
 1. In the **Arguments** section:
 
     * Select **Request Attribute** from the **Binding To** drop-down list.
-    
     * Specify **mobilenum** as the Binding Value.
 
 1. Select **update** from the **Write** Service drop-down list.
 1. In the** Arguments** section:
 
     * For **mobilenum** property, select **customer **from the **Binding To** drop-down list.
-    
     * Select **mobilenum** from the **Binding Value** drop-down list.
 
 1. Tap **Done** to save the properties.
@@ -299,7 +284,6 @@ After creating associations between the customer and other data model objects, e
 
     * Enter an optional title and description.
     * Select **customer** from the **Output Model Object** drop-down list.
-    
     * Tap **Done** to save the properties.
 
    ![](assets/edit_properties_get_details.png)
@@ -309,7 +293,6 @@ After creating associations between the customer and other data model objects, e
 
     * Enter an optional title and description.
     * Select **customer** from the **Input Model Object** drop-down list.
-    
     * Tap **Done**.
     * Tap **Save** to save the form data model.
 

@@ -93,12 +93,15 @@ A workflow package:
 1. The Run Workflow dialog will open, allowing you to specify:
 
     * **Payload** 
+
       This can be a page, node, asset, package, amongst other resources.
-    
+  
     * **Title** 
+
       An optional title to help identify this instance.
-    
+  
     * **Comment** 
+  
       An optional comment to help indicate details of this instance.
 
    ![](assets/wf-104.png)
@@ -111,6 +114,7 @@ A workflow package:
    ![](assets/wf-105.png)
 
     * **Event Type** 
+
       The event type that will launch the workflow:
 
         * Created
@@ -118,36 +122,48 @@ A workflow package:
         * Removed
 
     * **Notetype** 
+
       The type of node that the workflow launcher applies to.
     
     * **Path** 
+
       The path that the workflow launcher applies to.
     
     * **Run Mode(s)** 
+
       The type of server that the workflow launcher applies to. Select **Author**, **Publish**, or **Author & Publish**.
     
     * **Conditions** 
-      A list of conditions for node values that, when evaluated, determine whether the worklow is launched. For example, the following condition causes the workflow to launch when the node has a property name with the value User:
+
+      A list of conditions for node values that, when evaluated, determine whether the workflow is launched. For example, the following condition causes the workflow to launch when the node has a property name with the value User:
 
       name==User
     
     * **Features** 
+
       A list of features to be enabled. Select the required feature(s) using the drop down selector.
     
     * **Disabled Features**
+
     A list of features to be disabled. Select the required feature(s) using the drop down selector.
 
     * **Workflow Model** 
+
       The workflow to launch when the Event Type occurs on the Nodetype and/or Path under the defined Condition.
-    * **Description**  
+
+    * **Description** 
+
       Your own text to describe and identify the launcher configuration.
+
     * **Activate** 
+
       Controls whether the workflow launcher is activated:
 
         * Select **Enable** to launch workflows when the configuration properties are satisfied.
         * Select **Disable** when the workflow should not execute (not even when the configuration properties are satisfied).
 
     * **Exclude List** 
+    
       This specifies any JCR events to exclude (i.e. ignore) when determining whether a workflow should be triggered.
 
       This launcher property is a comma separated list of items: ``

@@ -28,7 +28,8 @@ Before starting to actually configure/code your component you should ask:
 
 * What exactly do you need the new component to do?
 
-    * A clear specification helps at all stages of development, testing and handover.  
+    * A clear specification helps at all stages of development, testing and handover.
+
       Details may change over time, but the specification can be updated (though changes should be documented too).
 
 * Do you need to create your component from scratch, or can you inherit the basics from an existing component?
@@ -111,7 +112,6 @@ Use the following tools to move your components to the publish instance:
 * Page:
 
     * AEM has the *page* component ( `cq:Page`).
-    
     * This is a specific type of resource that is important for content management.
     * A page corresponds to a web page holding content for your website.
 
@@ -152,8 +152,7 @@ The definition of a component can be broken down as follows:
 * AEM components are based on [Sling](https://sling.apache.org/documentation.html).
 * AEM components are (usually) located under:
 
-    * HTL: `/libs/wcm/foundation/components`   
-    
+    * HTL: `/libs/wcm/foundation/components` 
     * JSP: `/libs/foundation/components`
 
 * Project/Site specific components are (usually) located under:
@@ -162,12 +161,16 @@ The definition of a component can be broken down as follows:
 
 * AEM standard components are defined as `cq:Component` and have the key elements:
 
-    * jcr properties:  
+    * jcr properties: 
+
       A list of jcr properties; these are variable and some may be optional though the basic structure of a component node, its properties and subnodes are defined by the `cq:Component` definition
-    
-    * Resources:  
+
+    * Resources: 
+
       These define static elements used by the component.
-    * Scripts:  
+
+    * Scripts: 
+
       Are used to implement the behavior of the resulting instance of the component.
 
 * **Root Node**:
@@ -189,21 +192,19 @@ The definition of a component can be broken down as follows:
 
 * **Vital Child Nodes**:
 
-    * `cq:editConfig (cq:EditConfig)` - Defines the edit properties of the component and enables the component to appear in the Components browser or Sidekick.  
+    * `cq:editConfig (cq:EditConfig)` - Defines the edit properties of the component and enables the component to appear in the Components browser or Sidekick.
+
       Note: if the component has a dialog, it will automatically appear in the Components browser or Sidekick, even if the cq:editConfig does not exist.
-    
-    * `cq:childEditConfig (cq:EditConfig)` - Controls author UI aspects for child components that do not define their own `cq:editConfig`.  
-    
+
+    * `cq:childEditConfig (cq:EditConfig)` - Controls author UI aspects for child components that do not define their own `cq:editConfig`. 
     * Touch-Enabled UI:
 
-        * `cq:dialog` ( `nt:unstructured`) - Dialog for this component. Defines the interface allowing the user to configure the component and/or edit content.  
-        
+        * `cq:dialog` ( `nt:unstructured`) - Dialog for this component. Defines the interface allowing the user to configure the component and/or edit content. 
         * `cq:design_dialog` ( `nt:unstructured`) - Design editing for this component
 
     * Classic UI:
 
-        * `dialog` ( `cq:Dialog`) - Dialog for this component. Defines the interface allowing the user to configure the component and/or edit content.  
-        
+        * `dialog` ( `cq:Dialog`) - Dialog for this component. Defines the interface allowing the user to configure the component and/or edit content. 
         * `design_dialog` ( `cq:Dialog`) - Design editing for this component.
 
 #### Component Icon in Touch UI {#component-icon-in-touch-ui}
@@ -233,9 +234,7 @@ The icon or abbreviation for the component is defined via JCR properties of the 
     * The recommended color is rgb(112, 112, 112) -&gt; #707070
     * The background of standard component icons is transparent.
     * Only `.png` and `.svg` files are supported.
-    
     * If importing from the file system via Eclipse plugin, filenames need to be esacaped as `_cq_icon.png` or `_cq_icon.svg` for example.
-    
     * `.png` takes precedent over `.svg` if both are present
 
 If none of the above properties ( `cq:icon`, `abbreviation`, `cq:icon.png` or `cq:icon.svg`) are found on the component:
@@ -433,15 +432,12 @@ Child nodes of particular interest include:
 * Touch-Enabled UI:
 
     * `cq:dialog` ( `nt:unstructured`) - defines the dialog for editing content of this component
-    
     * `cq:design_dialog` ( `nt:unstructured`) - specifies the design editing options for this component
 
 * Classic UI:
 
-    * `dialog` ( `cq:Dialog`) - defines the dialog for editing content of this component (specific to the classic UI)  
-    
-    * `design_dialog` ( `cq:Dialog`) - specifies the design editing options for this component  
-    
+    * `dialog` ( `cq:Dialog`) - defines the dialog for editing content of this component (specific to the classic UI) 
+    * `design_dialog` ( `cq:Dialog`) - specifies the design editing options for this component
     * `icon.png` - graphics file to be used as an icon for the component in the Sidekick
     * `thumbnail.png` - graphics file to be used as a thumbnail for the component while dragging it from the Sidekick
 
@@ -463,7 +459,7 @@ Dialog definitions are specific to the UI:
 
     * `cq:dialog` ( `nt:unstructured`) nodes:
 
-        * define the dialog for editing content of this component  
+        * define the dialog for editing content of this component 
         * specific to the touch-enabled UI
         * are defined using Granite UI components
         * have a property `sling:resourceType`, as standard Sling content structure
@@ -482,7 +478,7 @@ Dialog definitions are specific to the UI:
 
     * `dialog` ( `cq:Dialog`) nodes
 
-        * define the dialog for editing content of this component  
+        * define the dialog for editing content of this component 
         * specific to the classic UI
         * are defined using ExtJS widgets
         * have a property `xtype`, which refers to ExtJS
@@ -500,7 +496,6 @@ Dialog definitions are specific to the UI:
   Within a classic dialog:
 
     * you can create the dialog as `cq:Dialog`, which will provide a single tab - as in the text component, or if you need multiple tabs, as with the textimage component, the dialog can be defined as `cq:TabPanel`.
-    
     * a `cq:WidgetCollection` ( `items`) is used to provide a base for either input fields ( `cq:Widget`) or further tabs ( `cq:Widget`). This hierarchy can be extended.
 
 ### Design Dialogs {#design-dialogs}
@@ -558,6 +553,7 @@ The properties defined are dependent on the individual definitions. Although the
 Components within AEM are subject to 3 different hierarchies:
 
 * **Resource Type Hierarchy** 
+
   This is used to extend components using the property `sling:resourceSuperType`. This enables the component to inherit. For example a text component will inherit various attributes from the standard component.
 
     * scripts (resolved by Sling)
@@ -565,12 +561,17 @@ Components within AEM are subject to 3 different hierarchies:
     * descriptions (including thumbnail images, icons, etc)
 
 * **Container Hierarchy** 
-  This is used to populate configuration settings to the child component and is most commonly used in a parsys scenario.  
-  For example, configuration settings for the edit bar buttons, control set layout (editbars, rollover), dialog layout (inline, floating) can be defined on the parent component and propagated to the child components.  
+
+  This is used to populate configuration settings to the child component and is most commonly used in a parsys scenario.
+
+  For example, configuration settings for the edit bar buttons, control set layout (editbars, rollover), dialog layout (inline, floating) can be defined on the parent component and propagated to the child components.
+
   Configuration settings (related to edit functionality) in `cq:editConfig` and `cq:childEditConfig` are propagated.
 
 * **Include Hierarchy** 
-  This is imposed at runtime by the sequence of includes.  
+
+  This is imposed at runtime by the sequence of includes.
+
   This hierarchy is used by the Designer, which in turn acts as the base for various design aspects of the rendering; including layout information, css information, the available components in a parsys among others.
 
 ## Edit Behavior {#edit-behavior}
@@ -583,18 +584,14 @@ The edit behavior of a component is configured by adding a `cq:editConfig` node 
 
 * [ `cq:editConfig` node properties](#configuring-with-cq-editconfig-properties):
 
-    * `cq:actions` ( `String array`): defines the actions that can be performed on the component.  
-    
+    * `cq:actions` ( `String array`): defines the actions that can be performed on the component.
     * `cq:layout` ( `String`): : defines how the component is edited in the classic UI.
-    
     * `cq:dialogMode` ( `String`): defines how the component dialog is opened in the classic UI
 
         * In the touch-enabled UI, dialogs are always floating in desktop mode, and automatically opened as fullscreen in mobile.
 
-    * `cq:emptyText` ( `String`): defines text that is displayed when no visual content is present.  
-    
-    * `cq:inherit` ( `Boolean`): defines if missing values are inherited from the component that it inherits from.  
-    
+    * `cq:emptyText` ( `String`): defines text that is displayed when no visual content is present. 
+    * `cq:inherit` ( `Boolean`): defines if missing values are inherited from the component that it inherits from. 
     * `dialogLayout` (String): defines how the dialog should open.
 
 * [ `cq:editConfig` child nodes](#configuring-with-cq-editconfig-child-nodes):
@@ -604,12 +601,9 @@ The edit behavior of a component is configured by adding a `cq:editConfig` node 
         * Multiple drop targets are only available in the classic UI.
         * In the touch-enabled UI a single drop target is allowed.
 
-    * `cq:actionConfigs` (node type `nt:unstructured`): defines a list of new actions that are appended to the cq:actions list.  
-    
-    * `cq:formParameters` (node type `nt:unstructured`): defines additional parameters that are added to the dialog form.  
-    
-    * `cq:inplaceEditing` (node type `cq:InplaceEditingConfig`): defines an inplace editing configuration for the component.  
-    
+    * `cq:actionConfigs` (node type `nt:unstructured`): defines a list of new actions that are appended to the cq:actions list. 
+    * `cq:formParameters` (node type `nt:unstructured`): defines additional parameters that are added to the dialog form. 
+    * `cq:inplaceEditing` (node type `cq:InplaceEditingConfig`): defines an inplace editing configuration for the component.
     * `cq:listeners` (node type `cq:EditListenersConfig`): defines what happens before or after an action occurs on the component.
 
 >[!NOTE]
@@ -630,10 +624,12 @@ The edit behavior of a component is configured by adding a `cq:editConfig` node 
 
 There are many existing configurations in the repository. You can easily search for specific properties or child nodes:
 
-* To look for a property of the `cq:editConfig` node, e.g. `cq:actions`, you can use the Query tool in **CRXDE Lite** and search with the following XPath query string:  
+* To look for a property of the `cq:editConfig` node, e.g. `cq:actions`, you can use the Query tool in **CRXDE Lite** and search with the following XPath query string:
+
   `//element(cq:editConfig, cq:EditConfig)[@cq:actions]`
 
-* To look for a child node of `cq:editConfig`, e.g. you can search for `cq:dropTargets`, which is of type `cq:DropTargetConfig`; you can use the Query tool in** CRXDE Lite** and search with the following XPath query string:  
+* To look for a child node of `cq:editConfig`, e.g. you can search for `cq:dropTargets`, which is of type `cq:DropTargetConfig`; you can use the Query tool in** CRXDE Lite** and search with the following XPath query string: 
+
   `//element(cq:dropTargets, cq:DropTargetConfig)`
 
 ### Configuring with cq:EditConfig Properties {#configuring-with-cq-editconfig-properties}
@@ -860,7 +856,7 @@ The following sample configuration defines a new button (with a separator for th
 
 * a separator, defined by the xtype `tbseparator`;
 
-    * This is only used by the classic UI.  
+    * This is only used by the classic UI.
     * This definition is ignored by the touch-enabled UI as xtypes are ignored (and separators are unnecessary as the action toolbar is constructed differently in the touch-enabled UI).
 
 * a button named **Manage comments** that runs the handler function `CQ_collab_forum_openCollabAdmin()`.

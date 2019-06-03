@@ -22,8 +22,7 @@ AEM search is capable of searching and locating AEM assets and performing text s
 
 * If you are using AEM Forms on OSGi:
 
-    * Install [AEM Forms Document Security Indexer package](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) on the AEM Forms server.  
-    
+    * Install [AEM Forms Document Security Indexer package](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) on the AEM Forms server. 
     * Ensure an AEM Forms on JEE server is up and running and document security is installed on corresponding AEM Forms on JEE server. The AEM Form on JEE server is required to index the protected document.
 
 * If you are using only AEM Forms on JEE server, the indexer package is already installed.  
@@ -35,8 +34,7 @@ AEM search is capable of searching and locating AEM assets and performing text s
 * Whitelist the *sun.util.calendar* package. To whitelist the package, perform the following steps:
 
     1. Open AEM Web Console. The URL is `https://[server]:[port]/system/console/configMgr`.
-    1. Locate and open **Deserialization Firewall Configuration**.  
-    
+    1. Locate and open **Deserialization Firewall Configuration**.
     1. Add the sun.util.calendar package to the Whitelisted classes or package prefixes field and click **Save**.
 
 ## Establish a secure connection between AEM Forms JEE and OSGi stacks {#establish-a-secure-connection-between-aem-forms-jee-and-osgi-stacks}
@@ -65,15 +63,11 @@ You can use one of the following methods to establish the secure connection:
 1. Locate and open the **Adobe LiveCycle Client SDK** Bundle. Specify value for the following properties:
 
     * **Server URL**: Specify HTTPS URL of AEM Forms on JEE server. To enable communication over https, restart the AEM server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE keystore file&gt; parameter.
-    
     * **Enable 2-way SSL**: Enable the Enable 2-way SSL option.
     * **KeyStore File URL**: Specify the URL of the keystore file.
-    * **TrustStore FIle URL**: Specify the URL of the truststore file.  
-    
-    * **KeyStore Password**: Specify the password for the keystore file.  
-    
-    * **TrustStorePassword**: Specify the password for the truststore file.  
-    
+    * **TrustStore FIle URL**: Specify the URL of the truststore file.
+    * **KeyStore Password**: Specify the password for the keystore file.
+    * **TrustStorePassword**: Specify the password for the truststore file.
     * **Service Name**: Add the RightsManagementService to the list of specified services.
 
    Click **Save**. AEM is enabled to search document security protected PDF documents

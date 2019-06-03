@@ -49,7 +49,7 @@ The main consoles are:
   </tr> 
   <tr> 
    <td><strong>Launches</strong></td> 
-   <td>This helps you manage your <a href="/help/sites-classic-ui-authoring/classic-launches.md">launches</a>; these enable you to develop the content for a future release of one or more activated web pages.<br /> <i>Note: In the touch-optimized UI much of the same functionality is available in the Sites console, together with the References rail.</i> <i>If required, this console is available from the Tools console; select Operations, then Launches.</i></td> 
+   <td>This helps you manage your <a href="/help/sites-classic-ui-authoring/classic-launches.md">launches</a>; these enable you to develop the content for a future release of one or more activated web pages.<br /> <i>Note: In the touch-enabled UI much of the same functionality is available in the Sites console, together with the References rail.</i> <i>If required, this console is available from the Tools console; select Operations, then Launches.</i></td> 
   </tr> 
   <tr> 
    <td><strong>Inbox </strong></td> 
@@ -80,11 +80,14 @@ The main consoles are:
 
 The **Websites** console provides two panes for you to navigate and manage your pages:
 
-* Left pane  
-  This shows the tree structure of your websites and the pages within those websites.  
+* Left pane 
+
+  This shows the tree structure of your websites and the pages within those websites. 
+
   It also shows information about other aspects or AEM, including projects, blueprints and assets.  
 
-* Right pane  
+* Right pane 
+
   This shows the pages (at the location selected in the left pane) and can be used for taking actions.
 
 From here you can [manage your pages](/help/sites-authoring/managing-pages.md) using either the toolbar, a context menu or by opening a page for further actions.
@@ -110,7 +113,8 @@ The **Websites** console lists your pages of content in a tree structure (left h
 * A single click on the page name (in the left pane) will:
 
     * List the child pages in the right pane
-    * Also expand the structure in the left pane.  
+    * Also expand the structure in the left pane. 
+    
       For performance reasons this action is dependent on the number of children nodes. With a standard installation this method of expansion works when there are `30` or less child nodes.
 
 * A double click on the page name (left pane) will also expand the tree, though as the page is opened at the same time this effect is not so obvious.
@@ -119,17 +123,18 @@ The **Websites** console lists your pages of content in a tree structure (left h
 >
 >This default value ( `30`) can be changed per console in your application specific configurations of the siteadmin widget:
 >
->* On the siteadmin node:  
->  Set the value of the property:  
->  `treeAutoExpandMax`  
->  on:  
->  `/apps/wcm/core/content/siteadmin`
+>On the siteadmin node:  
 >
->* Or globally in the theme:  
->  Set the value of:  
->  `TREE_AUTOEXPAND_MAX`  
->  in:  
->  `/apps/cq/ui/widgets/themes/default/widgets/wcm/SiteAdmin.js`
+>Set the value of the property:  
+>`treeAutoExpandMax`  
+>on:  
+>`/apps/wcm/core/content/siteadmin`
+>
+>Or globally in the theme:  
+>Set the value of:  
+>`TREE_AUTOEXPAND_MAX`  
+>in:  
+>`/apps/cq/ui/widgets/themes/default/widgets/wcm/SiteAdmin.js`
 >
 >See [SiteAdmin in the CQ Widget API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.wcm.SiteAdmin) for more details.
 

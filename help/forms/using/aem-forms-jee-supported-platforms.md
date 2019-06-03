@@ -564,8 +564,7 @@ The following subsystems of AEM Forms are not [508](https://www.section508.gov/)
 For additional reuirements see:
 
 * [System requirements for a single-server AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_single_63)
-* [System requirements for a clustered AEM Forms on JEE deployment  
-  ](https://www.adobe.com/go/learn_aemforms_sysreq_cluster_63)
+* [System requirements for a clustered AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_cluster_63)
 
 ## Supported Clients for AEM Forms on JEE {#supported-clients-for-aem-forms-on-jee}
 
@@ -617,8 +616,8 @@ For additional reuirements see:
 
 * Microsoft® Windows® 2012 Server R2, Microsoft® Windows® 2016 Server, Microsoft Windows 10
 
-  * 1 GHz or faster processor with support for PAE, NX, and SSE2.  
-  * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS  
+  * 1 GHz or faster processor with support for PAE, NX, and SSE2.
+  * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS 
   * 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
 
 * Graphics memory - 128 MB of GPU (256 MB recommended)

@@ -58,14 +58,13 @@ Creating a new template using the **Templates Console** and the **Template Edito
 
 * **Admin**:
 
-    * Creates a new folder for templates requires `admin` rights.  
-    
+    * Creates a new folder for templates requires `admin` rights.
     * Such tasks can often also be done by a developer
 
 * **Developer**:
 
     * Concentrates on the technical/internal details
-    * Needs experience with the development environment.  
+    * Needs experience with the development environment. 
     * Provides the template author with necessary information.
 
 * **Template Author**:
@@ -92,16 +91,15 @@ AEM now offers two basic types of templates:
 
 * Editable Templates
 
-    * Can be [created](#creating-a-new-template-template-author) and [edited](#editing-templates-template-authors) by template authors using the **Template** console and editor. The **Template** console is accessible in the **General** section of the **Tools** console.  
-    
+    * Can be [created](#creating-a-new-template-template-author) and [edited](#editing-templates-template-authors) by template authors using the **Template** console and editor. The **Template** console is accessible in the **General** section of the **Tools** console.
     * After the new page is created a dynamic connection is maintained between the page and the template. This means that changes to the template structure and/or locked content will be reflected on any pages created with that template. Changes to the unlocked (i.e. initial) content will not be reflected.
     * Use content policies, which you can define these from the template editor, to persist the design properties. Design mode within the page editor is no longer used for editable templates.
 
 * Static Templates
 
-    * Static templates have been available for several versions of AEM.  
+    * Static templates have been available for several versions of AEM. 
     * They are [provided by your developers](/help/sites-developing/page-templates-static.md), so they cannot be created or edited by authors.
-    * Are copied to create the new page, but no dynamic connection exists after this (though the template name is registered for information).  
+    * Are copied to create the new page, but no dynamic connection exists after this (though the template name is registered for information). 
     * Use [Design Mode](/help/sites-authoring/default-components-designmode.md) to persist design properties.
     * Because editing static templates is the exclusive task of a developer, please see the developer document [Page Templates - Static](/help/sites-developing/page-templates-static.md) for more information.
 
@@ -125,10 +123,8 @@ When creating a new editable template you:
 * [Define additional properties](#defining-template-properties-template-author) for the template if required
 * [Edit the template](#editing-templates-template-authors) to define the:
 
-    * [Structure](#editing-a-template-structure-template-author) - Predefined content that cannot be changed on pages created with the template.  
-    
-    * [Initial Content](#editing-a-template-initial-content-author) - Predefined content that can be changed on pages created with the template.  
-    
+    * [Structure](#editing-a-template-structure-template-author) - Predefined content that cannot be changed on pages created with the template. 
+    * [Initial Content](#editing-a-template-initial-content-author) - Predefined content that can be changed on pages created with the template. 
     * [Layout](#editing-a-template-layout-template-author) - For a range of devices.
     * [Styles](/help/sites-authoring/style-system.md) - Define the styles to be used with the template and its components.
 
@@ -257,7 +253,7 @@ A template can be made available or unavailable for certain page branches.
 
    The path can be explicit or use patterns. For example:
 
-   `/conf/<*your-folder*>/settings/wcm/templates/.&ast;`
+   `/conf/<your-folder>/settings/wcm/templates/.*`
 
    The order of the paths is irrelevant, all paths will be scanned and any templates retrieved.
 
@@ -309,7 +305,7 @@ The following aspects of a template can be edited:
 
 * [Layout](#editing-a-template-layout-template-author)
 
-  Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the [**Layout** mode for page authoring](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode).
+  Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the **[Layout](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** mode for page authoring].
 
 * [Page Policies](#editing-a-template-structure-template-author)
 
@@ -356,8 +352,7 @@ In **Structure** mode of the template editor:
   There are several mechanisms for adding components to the template:
 
     * From the **Components** browser in the side panel.
-    * By using the **Insert Component** option (**+** icon) available on the toolbar of components already on the template or the **Drag components here** box.  
-    
+    * By using the **Insert Component** option (**+** icon) available on the toolbar of components already on the template or the **Drag components here** box. 
     * By dragging an asset (from the **Assets** browser in the side panel) directly onto the template to generate the appropriate component in situ.
 
   Once added, each component is marked with:
@@ -439,7 +434,7 @@ In **Structure** mode of the template editor:
 
   >[!NOTE]
   >
-  >If multiple components of the same type are added as initial content, the same policy applies to all the components. This mirrors the same restriction in [**Design Mode** for static templates](/help/sites-authoring/default-components-designmode.md).
+  >If multiple components of the same type are added as initial content, the same policy applies to all the components. This mirrors the same restriction in **[Design Mode](/help/sites-authoring/default-components-designmode.md)** for static templates.
 
   ***Properties***
 
@@ -570,7 +565,7 @@ Although all content created in **Structure** mode is visible in **Initial Conte
 
 >[!NOTE]
 >
->**Initial Content** mode can be thought of edit mode for pages created with that template. Therefore policies are not defined in **Initial Content** mode but rather in [**Structure** mode](/help/sites-authoring/templates.md#editing-a-template-structure-template-author).
+>**Initial Content** mode can be thought of edit mode for pages created with that template. Therefore policies are not defined in **Initial Content** mode but rather in **[Structure](/help/sites-authoring/templates.md#editing-a-template-structure-template-author)** mode.
 
 * Unlocked components that are available for editing are marked. When selected they have a blue border:
 

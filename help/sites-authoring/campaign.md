@@ -101,7 +101,7 @@ From within the newsletter/email in authoring, you might not be able to select t
 
    ![](assets/chlimage_1-19.png)
 
-1. Select **Cloud services** and click **+** to add a configuration. Select any visible configuration (does not matter which one). Click or tap the **+ **sign to add another configuration and then select **Adobe Campaign**.
+1. Select **Cloud services** and click **+** to add a configuration. Select any visible configuration (does not matter which one). Click or tap the **+** sign to add another configuration and then select **Adobe Campaign**.
 
    >[!NOTE]
    >
@@ -132,7 +132,7 @@ To edit email content:
 
    ![](assets/chlimage_1-22.png)
 
-1. Drag components directly onto the page and edit them accordingly. For example, you can drag a **Text & Personalization (Campaign) **component and add personalized text.
+1. Drag components directly onto the page and edit them accordingly. For example, you can drag a **Text & Personalization (Campaign)** component and add personalized text.
 
    ![](assets/chlimage_1-23.png)
 
@@ -213,7 +213,7 @@ This out-of-the-box workflow has two steps: revision then approval, or revision 
 
 ![](assets/chlimage_1-31.png)
 
-To approve content for Adobe Campaign, apply the workflow by selecting **Workflow** and selecting** Approve for Adobe Campaign** and click** Start Workflow. **Go through the steps and approve the content. You can also reject the contents by selecting **Reject** instead of **Approve** in the last workflow step.
+To approve content for Adobe Campaign, apply the workflow by selecting **Workflow** and selecting **Approve for Adobe Campaign** and click **Start Workflow**. Go through the steps and approve the content. You can also reject the contents by selecting **Reject** instead of **Approve** in the last workflow step.
 
 ![](assets/chlimage_1-32.png)
 
@@ -293,7 +293,7 @@ To link a page created in AEM with an email from Adobe Campaign:
 
    >[!NOTE]
    >
-   >If the content is updated in AEM while it is linked to an email, it is automatically updated in Adobe Campaign during the analysis. The synchronization can also be executed manually using **Refresh Adobe Experience Manager content **from the content action bar.
+   >If the content is updated in AEM while it is linked to an email, it is automatically updated in Adobe Campaign during the analysis. The synchronization can also be executed manually using **Refresh Adobe Experience Manager content** from the content action bar.
    >
    >You can cancel the link between an email and AEM content using **Delete the link with the Adobe Experience Manager content** from the content action bar. This button is only available if a content is already linked with the delivery. To link a different content with a delivery, you must delete the current content link before being able to establish a new link.
    >
@@ -357,11 +357,8 @@ To synchronize content created in AEM with a delivery from Adobe Campaign:
 
    >[!NOTE]
    >
-   >    
-   >    
    >* After the delivery and content are synchronized, the delivery content in Adobe Campaign becomes read only. The email subject as well as its content can no longer be modified.
    >* If the content is updated in AEM while it is linked to a delivery in Adobe Campaign, it is automatically updated in the delivery during the delivery analysis. The synchronization can also be executed manually using the **Refresh content now** button.
    >* You can cancel synchronization between a delivery and AEM content using the **Desynchronize** button. This is only available if a content is already synchronized with the delivery. To synchronize a different content with a delivery, you must cancel the current content synchronization before being able to establish a new link.
    >* If desynchronized the local content is kept and becomes editable in Adobe Campaign. If you resynchronize the content after having modified it, you will lose all your changes.
    >* For recurring and continuous deliveries, synchronization with AEM content is stopped every time the delivery is executed.
-   >    

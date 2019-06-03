@@ -61,15 +61,9 @@ To install eCommerce functionality you need:
 
     * `cq-geometrixx-all-pkg`
 
-* AEM hybris content packages: ``
+* AEM hybris content packages:
 
-    * 
-    
-      ```    
-      cq-hybris-content-6.3.2
-      
-      ```    
-    
+    * `cq-hybris-content-6.3.2`
     * hybris-specific API implementation
     * `cq-geometrixx-hybris-content-6.3.2`
     * a reference implementation to illustrate use of hybris ( `geometrixx-outdoors/en_US`)
@@ -93,7 +87,7 @@ To install a fully-fledged configuration (using the demonstration catalog, Geome
 
     1. [Setup the Geometrixx Outdoor Store](#setup-the-geometrixx-outdoors-store).
 
-1. [Author](/help/sites-authoring/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites-authoring/qg-page-authoring.md) any supplementary pages that you need in AEM.
 
 >[!CAUTION]
 >

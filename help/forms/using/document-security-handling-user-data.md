@@ -150,7 +150,6 @@ Do the following to delete document security data for a principal ID from databa
 1. Active and archived policy XML files are stored in the `EdcPolicyXmlEntity` and `EdcPolicyArchiveEntity` database tables, respectively. To delete data for a user from these tables, do the following:
 
     1. Open the XML blob of each row in the `EdcPolicyXMLEntity` or `EdcPolicyArchiveEntity` table and extract the XML file. The XML file is similar to the one shown below. 
-    
     1. Edit the XML file to remove the blob for the principal ID.
     1. Repeat steps 1 and 2 for the other file.
 
@@ -190,7 +189,6 @@ Do the following to delete document security data for a principal ID from databa
    **Using administration console**
 
     1. As an administrator, log into the Forms JEE administration console at https://[*server*]:[*port*]/adminui.
-    
     1. Navigate to **[!UICONTROL Services > Document Security > Policy Sets]**.
     1. Open a policy set and delete the user from the policy.
 
@@ -199,7 +197,6 @@ Do the following to delete document security data for a principal ID from databa
    Document security users who have permissions to create personal policies can delete user data from their policies. To do so:
 
     1. Users who have personal policies log into their document security web page at https://[*server*]:[*port*]/edc.
-    
     1. Navigate to **[!UICONTROL Services > Document Security > My Policies]**.
     1. Open a policy and delete the user from the policy.
 

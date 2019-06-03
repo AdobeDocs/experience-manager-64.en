@@ -70,9 +70,7 @@ Do the following to add or update data sources to an existing form data model.
    In the Update Source tab:
 
     * Tap the browse icon in the **[!UICONTROL Context-Aware Configuration]** field and select a configuration node where cloud configuration for the data source you want to add resides. If you do not select a node, cloud configurations residing only in the `global` node are listed when you tap **[!UICONTROL Add Sources]**.
-    
     * To add a new data source, tap **[!UICONTROL Add Sources]** and select the data sources to add to the form data model. All data sources configured in `global` and the selected configuration node, if any, are displayed.
-    
     * To replace an existing data source with another data source of the same type, tap the **[!UICONTROL Edit]** icon for the data source and select from the list of available data sources.
     * To delete an existing data source, tap the **[!UICONTROL Delete]** icon for the data source. The Delete icon is disabled if a data model object in the data source is added in the form data model.
 

@@ -95,19 +95,21 @@ Various Forms Portal components provide exclusive sets of OOTB metadata that you
 * **description**: Description of the form
 * **formUrl**: URL to render the form as HTML
 * **pdfUrl**: URL to render the form as PDF
-* **assetType**: Type of the asset. Valid values include **Form**,** PDF Form**,** Print Form**, and **Adaptive Form**
+* **assetType**: Type of the asset. Valid values include **Form**, **PDF Form**, **Print Form**, and **Adaptive Form**
+* **htmlStyle** & **pdfStyle**: Display style for HTML and PDF icons respectively used for rendering. Valid values are “**__FP_display_none**” or **blank**
 
-* **htmlStyle **& **pdfStyle**: Display style for HTML and PDF icons respectively used for rendering. Valid values are “**__FP_display_none**” or **blank  
-  ***Note: Remember to use the __FP_display_none class in your custom style sheet*
+  *Note: Remember to use the __FP_display_none class in your custom style sheet*
 
 * **downloadUrl**: URL to download an asset.
 
 Support for localization, sorting, and using configuration properties on the user interface (Search & Lister Only):
 
-1. **Localization Support**: To localize any static text use the attribute **${localize-***YOUR_TEXT***} **and make the localized value available, if doesn't exist already.  
+1. **Localization Support**: To localize any static text use the attribute **${localize-***YOUR_TEXT***}** and make the localized value available, if doesn't exist already. 
+
    *In the example discussed, the attributes ${localize-Apply} and ${localize-Download} are used to localize the Apply and Download text.*
 
-1. **Support for Sorting**: Click the HTML element to sort search results. To implement sorting in a tabled layout, add the "data-sortKey" attribute on the particular table header. In addition, add its value as the metadata for which you want to sort.  
+1. **Support for Sorting**: Click the HTML element to sort search results. To implement sorting in a tabled layout, add the "data-sortKey" attribute on the particular table header. In addition, add its value as the metadata for which you want to sort. 
+
    For example, for the "Title" header in the grid view, the value of the "data-sortKey" header is "title". Click the heading to sort the values in a particular column.
 
 1. **Using configuration properties**: The Search & Lister component has several configurations that you can use on the user interface. For example, to display HTML ToolTip text saved through the edit dialog, use the **${config-htmlLinkText} attribute. **Similarly, for PDF tool tip text, use the** ${config-pdfLinkText}** attribute.

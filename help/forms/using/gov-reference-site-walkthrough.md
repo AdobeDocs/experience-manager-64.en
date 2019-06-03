@@ -22,7 +22,8 @@ We.Gov is a state run organization that lets adoptive parents enroll for child s
 
 * Eligibility of the applicant, the adoptive parent
 * Personal and professional details of the applicant (if the applicant is eligible for child support)
-* Personal details of the adopted child  
+* Personal details of the adopted child 
+
   Applicant can provide details for more than one child
 * Bank account details of the applicant in which the applicant can receive child support benefits
 * Recovery of application fee
@@ -81,7 +82,8 @@ In your browser, open `https://<hostname>:<PublishPort>/content/we-gov/en.html`.
 To see the rules:
 
 1. Open the form in edit mode on the author instance. URL: `https://<hostname>:<AuthorPort>/editor.html/content/forms/af/we-gov/child-support/css.html`.
-1. Select a component and click ![](assets/edit-rules.png).  
+1. Select a component and click ![](assets/edit-rules.png). 
+
    The Rule Editor opens listing all the rules applied in the form.  
 
 1. In the left side panel, click rules `passMsg` and `failMsg` to understand how the eligibility check works.
@@ -124,10 +126,15 @@ After Sarah clicks **Start Application**, she is taken to the Applicant Informat
 Under Applicant Information, she is asked to provide details under the following tabs:
 
 * **Basic Information**
+
 Under Basic Information, Sarah provides her ID proof and her personal information. Sarah’s personal information includes her name, email ID, and social security number.
+
 * **Relationship**  
+
   Under Relationship, Sarah enters information about her marital status. 
+  
 * **Additional Information**  
+
   Under Additional Information, Sarah enters an ID number, her date of birth, and current address and phone number.
 
 ### Sarah provides child information {#sarah-provides-child-information}
@@ -191,7 +198,8 @@ See the theme here: `https://<hostname>:<AuthorPort>/editor.html/content/dam/for
 
 To see all the rules, perform the following steps:
 
-1. Open the form in the authoring mode.   
+1. Open the form in the authoring mode. 
+
    URL: `https://<hostname>:<AuthorPort>/editor.html/content/forms/af/we-gov/child-support/css.html`
 
 1. Select a component, and tap ![](assets/edit-rules.png). All the rules are listed in the rule editor, including the rules listed above.

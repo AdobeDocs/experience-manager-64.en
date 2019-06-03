@@ -13,40 +13,41 @@ discoiquuid: 14754023-e7c4-4dc5-a9d8-408b81861d95
 
 # Resolving file dependencies{#resolving-file-dependencies}
 
-Primary 3D model file dependencies, such as texture map files, are automatically resolved where possible. This functionality is accomplished by having AEM search nearby Asset folders for files with the same names that are found in the 3D file. If one or more dependencies are unresolvable during the Creating preview processing stage, the asset's card displays the following red banner message in the Card View:
+Primary 3D model file dependencies, such as texture map files, are automatically resolved where possible. This functionality is accomplished by having AEM search nearby Asset folders for files with the same names that are found in the 3D file. If one or more dependencies are unresolvable during the Creating preview processing stage, the asset's card displays the following red banner message in the [!UICONTROL Card View]:
 
 ![](assets/chlimage_1-189.png)
 
-To resolve file dependencies:
+**To resolve file dependencies**:
 
-1. In the Card View, hover the pointer over the **Unresolved Dependencies** banner message on the card, then tap the exclamation point icon.
+1. In the **[!UICONTROL Card View]**, hover the pointer over the **[!UICONTROL Unresolved Dependencies]** banner message on the card, then tap the exclamation point icon.
 
    ![](assets/chlimage_1-190.png)
 
-1. On the metadata properties page, tap the **Dependencies **tab.
+1. On the metadata properties page, tap the **[!UICONTROL Dependencies]** tab.
 
    The files that AEM could not auto-resolve are listed under the Original Paths column, in red.
 
 1. Do one or more of the following:
 
-    * **Browse to and select the dependencies**. (This option assumes that you have already uploaded the dependency files.
+    * **[!UICONTROL Browse to and select the dependencies]**. (This option assumes that you have already uploaded the dependency files.
 
-        1. Tap the File Browse icon to the left of the red path.
-        1. On the Select Content page, navigate to the missing file, then tap on the file's card to select it.
-        1. In the upper-left corner of the Select Content page, tap Close (X icon) to return to the View Properties page.
+        1. Tap the **[!UICONTROL File Browse]** icon to the left of the red path.
+        1. On the **[!UICONTROL Select Content]** page, navigate to the missing file, then tap on the file's card to select it.
+        1. In the upper-left corner of the **[!UICONTROL Select Content]** page, tap **[!UICONTROL Close]** (X icon) to return to the **[!UICONTROL View Properties]** page.
 
-    * **Upload the dependencies**. (This option assumes that you have not yet uploaded the missing files.)
+    * **[!UICONTROL Upload the dependencies]**. (This option assumes that you have not yet uploaded the missing files.)
 
         1. Note the missing paths and file names.
-        1. Near the upper-right corner of the properties page, tap **Close**.
+        1. Near the upper-right corner of the properties page, tap **[!UICONTROL Close]**.
 
-   After the files are uploaded return to View Properties &gt; Dependencies page. The newly uploaded asset are now properly listed as referenced assets.
+   After the files are uploaded return to **[!UICONTROL View Properties]** &gt; **[!UICONTROL Dependencies]** page. The newly uploaded asset are now properly listed as referenced assets.
 
-    * **Ignore the dependencies**.  
-      If a missing dependency is no longer needed, under the Referenced Asset column, in the text field to the left of the missing file, type `n/a` so that AEM 3D ignores the file.
+    * **[!UICONTROL Ignore the dependencies]**. 
 
-1. Near the upper-right corner of the View Properties page, tap **Save**.
-1. Tap **Close **to return to the Card View.
+      If a missing dependency is no longer needed, under the **[!UICONTROL Referenced Asset]** column, in the text field to the left of the missing file, type `n/a` so that AEM 3D ignores the file.
+
+1. Near the upper-right corner of the **[!UICONTROL View Properties]** page, tap **[!UICONTROL Save]**.
+1. Tap **[!UICONTROL Close]** to return to the **[!UICONTROL Card View]**.
 
    The asset is automatically reprocessed with the newly resolved dependencies.
 

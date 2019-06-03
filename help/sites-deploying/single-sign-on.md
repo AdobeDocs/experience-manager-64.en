@@ -12,7 +12,7 @@ topic-tags: Security
 discoiquuid: 86e8dc12-608d-4aff-ba7a-5524f6b4eb0d
 ---
 
-# Single Sign On{#single-sign-on}
+# Single Sign On {#single-sign-on}
 
 Single Sign On (SSO) allows a user to access multiple systems after providing authentication credentials (such as a user name and password) once. A separate system (known as the trusted authenticator) performs the authentication and provides Experience Manager with the user credentials. Experience Manager checks and enforces the access permissions for the user (i.e. determines which resources the user is allowed to access).
 
@@ -40,24 +40,20 @@ To configure SSO for a AEM instance, you need to configure the [SSO Authenticati
    For example, for NTLM set:
 
     * **Path:** as required; for example, `/`
-    
     * **Header Names**: `LOGON_USER` 
-    
-    * **ID Format**: `^<DOMAIN>\\(.+)$`  
+    * **ID Format**: `^<DOMAIN>\\(.+)$` 
+
       Where `<*DOMAIN*>` is replaced by your own domain name.
 
    For CoSign:
 
     * **Path:** as required; for example, `/`
-    
-    * **Header Names**: remote_user  
-    
+    * **Header Names**: remote_user 
     * **ID Format:** AsIs
 
    For SiteMinder:
 
     * **Path:** as required; for example, `/`
-    
     * **Header Names:** SM_USER
     * **ID Format**: AsIs
 
@@ -87,7 +83,6 @@ To configure SSO for a AEM instance, you need to configure the [SSO Authenticati
 >
 >In `disp_iis.ini` set:  
 >(see [installing the Dispatcher with the Microsoft Internet Information Server](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html#microsoft-internet-information-server) for full details)  
-
 >
 >* `servervariables=1` (forwards IIS server variables as request headers to the remote instance)
 >* `replaceauthorization=1` (replaces any header named "Authorization" other than "Basic" with its "Basic" equivalent)
@@ -125,7 +120,7 @@ Using the following configuration:
 
 * **Cookie Names**: `TestCookie`
 
-* **Paramater Names**: `TestParameter`
+* **Parameter Names**: `TestParameter`
 
 * **ID Format**: `AsIs`
 

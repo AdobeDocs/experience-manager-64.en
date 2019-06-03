@@ -23,7 +23,8 @@ This article describes how to configure **AEM DS Settings Service**. This settin
 
 Following are the steps to configure the **[!UICONTROL AEM DS Settings]**:
 
-1. Open the Configuration Manager on the publish instance using the URL:   
+1. Open the Configuration Manager on the publish instance using the URL: 
+
    *http://localhost:port/system/console/configMgr*.
 
    ![](assets/aem_web_configuration_console.png)

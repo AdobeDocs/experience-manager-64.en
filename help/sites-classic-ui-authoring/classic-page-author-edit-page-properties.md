@@ -32,8 +32,10 @@ The properties are distributed across several tabs:
   Here you can add, or remove tags from the page by updating the list in the selection box:
 
     * After selecting a tag is it listed below the selection box. You can remove a tag from this list using the x.
-    * A completely new tag can be entered by typing the name in an empty selection box.  
+    * A completely new tag can be entered by typing the name in an empty selection box.
+
       The new tag will actually be created when you hit enter. The new tag will then be shown in a box, with a small star on the right indicating that it is a new tag.
+  
     * With the drop-down functionality you can select from existing tags.
     * An x appears when you mouse-over a tag entry in the selection box; this can be used to remove that tag for this page.
 
@@ -53,7 +55,7 @@ The properties are distributed across several tabs:
 
   A subtitle for use on the page.
 
-* **Description **
+* **Description**
 
   Your description of the page, its purpose or any other details you want to add.
 
@@ -63,7 +65,7 @@ The properties are distributed across several tabs:
 
   Leave these fields empty for pages you want to publish immediately (the normal scenario).
 
-* **Off Time **
+* **Off Time**
 
   The time at which the published page will be deactivated.
 
@@ -104,10 +106,6 @@ The properties are distributed across several tabs:
 
   Specify an alias to be used with this page.
 
-* **Allowed Templates**
-
-  [Define the list of templates that will be available](/help/sites-classic-ui-authoring/classic-feature-templates.md#allowingatemplate) within this sub-branch.
-
 * **Enable Closed User Group**
 
   Enables (or disables) use of [closed user groups](/help/sites-administering/cug.md) (CUGs).
@@ -134,10 +132,12 @@ The properties are distributed across several tabs:
 
   Shows the page thumbnail image. You can:
 
-    * **Generate Preview** 
-      Generate a preview of the page to use as thumbnail.  
-    
+    * **Generate Preview**
+
+      Generate a preview of the page to use as thumbnail. 
+  
     * **Upload Image** 
+
       Upload an image to use as thumbnail.
 
 ### Cloud Services {#cloud-services}

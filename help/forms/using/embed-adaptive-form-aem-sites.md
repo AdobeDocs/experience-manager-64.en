@@ -49,8 +49,7 @@ To embed an adaptive form or interactive communication using AEM Forms Container
 1. Tap the embedded AEM Forms Container component in the sites page, and then tap ![](assets/settings_icon.png) on the action bar. The **Edit AEM Forms Container** dialog opens.
 1. In the Edit AEM Forms Container dialog, specify the following.
 
-    * **Asset Type:** Select the type of asset to embed. The options are adaptive form and interactive communication  
-    
+    * **Asset Type:** Select the type of asset to embed. The options are adaptive form and interactive communication 
     * **Asset Path**: Browse and select the adaptive form or interactive communication to embed. It is auto-populated if you dropped it from the Assets browser.
     * (Adaptive form only) **Post Submission**: Select the action to trigger on form submission. You can choose to show a thank you message or a thank you page.
 
@@ -58,8 +57,7 @@ To embed an adaptive form or interactive communication using AEM Forms Container
         * **Thank You Page**: Browse and select the page to display on form submission. This option is available only when you choose to show a thank you page.
         * **Refresh Page on Submission**: Enable to refresh the page containing the embedded adaptive form to show the thank you page. Otherwise, the thank you page replaces the adaptive form in the AEM Forms container, without refreshing the page. This option is available only when you choose to show a thank you page.
 
-    * **Theme**: Select a theme that defines styling for components of your adaptive form or interactive communication. Styling includes appearance properties such as font style, background color, dimensions, and alignment.  
-    
+    * **Theme**: Select a theme that defines styling for components of your adaptive form or interactive communication. Styling includes appearance properties such as font style, background color, dimensions, and alignment.
     * **Height**: Specify the height of the container. Leave it blank to automatically resize the container.
     * **CSS Client library**: Specify path to a CSS client library.
 

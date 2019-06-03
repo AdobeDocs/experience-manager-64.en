@@ -56,12 +56,21 @@ Check the following parameters:
     * adobe-lc-forms-content-pkg-&lt;version&gt;.zip
     * adobe-lc-forms-runtime-pkg-&lt;version&gt;.zip
 
-1. Log in to CQ Web Console (Felix Console) at https://&lt;server&gt;:&lt;port&gt;/system/console/bundles.  
+1. Log in to CQ Web Console (Felix Console) at https://&lt;server&gt;:&lt;port&gt;/system/console/bundles. 
+
    Ensure that the status of the following bundles is "active":
 
-    * scala-lang.bundle [osgi] (com.adobe.livecyclescala-lang.bundle)
-    * Adobe XFA Forms Renderer(com.adobe.livecycle.adobe-lc-forms-core)  
-    * Adobe XFA Forms LC Connector (com.adobe.livecycle.adobe-lc-forms-lc-connector)
+    * scala-lang.bundle [osgi] 
+    
+    (com.adobe.livecyclescala-lang.bundle)
+
+    * Adobe XFA Forms Renderer
+
+    (com.adobe.livecycle.adobe-lc-forms-core) 
+
+    * Adobe XFA Forms LC Connector 
+    
+    (com.adobe.livecycle.adobe-lc-forms-lc-connector)
 
 ## Problem: Form renders without styles {#problem-form-renders-without-styles}
 

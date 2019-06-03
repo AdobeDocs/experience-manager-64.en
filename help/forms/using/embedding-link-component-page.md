@@ -22,11 +22,11 @@ The Link component allows form portal authors to create a link to an adaptive fo
 
 Perform the following steps to add a Link component to the page:
 
-1. Drag the **Link **component on the page. Select the component and tap ![](assets/cmppr.png). The Edit Link Component dialog opens.
+1. Drag the **Link** component on the page. Select the component and tap ![](assets/cmppr.png). The Edit Link Component dialog opens.
 
    ![](assets/edit-link-component.png)
 
-1. In the **Display **tab, specify the following:
+1. In the **Display** tab, specify the following:
 
     * **Link Caption**: Link text or caption for the link.
     * **Link Tooltip**: Tool tip for the link.
@@ -34,14 +34,13 @@ Perform the following steps to add a Link component to the page:
 
 1. Open the **Asset Info** tab and specify the type of the asset. An asset can be a **form**. Depending upon the type of asset selected, the options listed below are displayed:
 
-    * **Asset Path**: Repository path where the asset is stored.  
-    
+    * **Asset Path**: Repository path where the asset is stored.
     * **Render Type**: The render format--PDF, HTML, or Auto. The Auto render type detects the user environment and accordingly renders the form as HTML or as PDF. For example, if the form is accessed from a mobile device, the Auto render type render the form in HTML.
     * **Submit URL:**  URL to the servlet where the form data is submitted.
     * **HTML Profile**: Profile for rendering the form as HTML.
     * **PDF Profile**: Profile for rendering the form as PDF document.
 
-1. Open the **Advanced **tab. You can specify the additional parameters in the key-value pair format. When the link is clicked, these additional parameters and passed along with the form.
+1. Open the **Advanced** tab. You can specify the additional parameters in the key-value pair format. When the link is clicked, these additional parameters and passed along with the form.
 
    Tap **Done** to save the configuration.
 

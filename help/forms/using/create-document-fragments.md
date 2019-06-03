@@ -63,11 +63,8 @@ Execute the following steps to create variables for fields with Agent UI as the 
 1. Specify the following information:
 
     1. Enter **bill_details_first_ic** as the name in the **Title** field. The title gets auto-populated in the **Name** field.
-    
     1. Select **Form Data Model** from the **Data Model** section.
-    
     1. Select **FDM_Create_First_IC** as the form data model and tap **Select**.
-    
     1. Tap **Next**.
 
 1. Select the **Variables** tab in the left pane and tap **Create**.
@@ -127,11 +124,8 @@ Execute the following steps to create variables for fields with Agent UI as the 
 1. Specify the following information:
 
     1. Enter **customer_details_first_ic** as the name in the **Title** field. The title gets auto-populated in the **Name** field.
-    
     1. Select **Form Data Model** from the **Data Model** section.
-    
     1. Select **FDM_Create_First_IC** as the form data model and tap **Select**.
-    
     1. Tap **Next**.
 
 1. Select the **Variables** tab in the left pane and tap **Create**.
@@ -190,11 +184,8 @@ Execute the following steps to create variables for fields with Agent UI as the 
 1. Specify the following information:
 
     1. Enter **bill_summary_first_ic** as the name in the **Title** field. The title gets auto-populated in the **Name** field.
-    
     1. Select **Form Data Model** from the **Data Model** section.
-    
     1. Select **FDM_Create_First_IC** as the form data model and tap **Select**.
-    
     1. Tap **Next**.
 
 1. Select the **Variables** tab in the left pane and tap **Create**.
@@ -257,11 +248,8 @@ Execute the following steps to create static text and use form data model elemen
 1. Specify the following information:
 
     1. Enter **summary_charges_first_ic **as the name in the **Title** field. The title gets auto-populated in the Name field.
-    
     1. Select **Form Data Model** from the **Data Model** section.
-    
     1. Select **FDM_Create_First_IC** as the form data model and tap **Select**.
-    
     1. Tap **Next**.
 
 1. Create static text for the following fields using the right pane:
@@ -295,7 +283,6 @@ Execute the following steps to create static text and use form data model elemen
 1. On the **Create Rule** pop-up window:
 
     1. Select **Data Models and Variables** and then **bills** &gt; **callcharges**.
-    
     1. Select **is less than** as the operator.
     1. Select **Number** and enter the value as **60**.
 

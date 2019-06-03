@@ -56,7 +56,6 @@ Perform the following steps to identify process instance IDs for a workflow init
    The query returns tasks initiated by the specified `initiator`_ `principal_id`. The tasks are of two types:
 
     * **Completed tasks**: These tasks have been submitted and display an alphanumeric value in the `process_instance_id` field. Take note of all process instance IDs for submitted tasks and continue with the steps. 
-    
     * **Tasks initiated but not complete**: These tasks have initiated but not submitted yet. The value in the `process_instance_id` field for these tasks is **0** (zero). In this case, take note of the corresponding task IDs and see [Work with orphan tasks](#orphan).
 
 1. (**For workflow participants**) Execute the following command to retrieve process instance IDs associated with the principal ID of the process participant for the initiator from the `tb_assignment` database table.

@@ -35,10 +35,13 @@ The structure of a website can be thought of as a *tree structure* that holds yo
 The following shows an extract from the Geometrixx site; where, for example, the `Triangle` page will be accessed:
 
 * Author environment  
+
   `http://localhost:4502/cf#/content/geometrixx/en/products/triangle.html`
 
 * Publish environment  
+
   `http://localhost:4503/content/geometrixx/en/products/triangle.html`  
+
   Depending on the configuration of your instance, use of `/content` might be optional on the publish environment.
 
 ```xml
@@ -71,17 +74,17 @@ When creating a new page there are two keys fields:
 
 * **[Title](#title)**:
 
-    * This is displayed to the user in the console and shown at the top of the page content when editing.  
+    * This is displayed to the user in the console and shown at the top of the page content when editing. 
     * This field is mandatory.
 
 * **[Name](#name)**:
 
-    * This is used to generate the URI.  
+    * This is used to generate the URI. 
     * User input for this field is optional. If not specified, the name is derived from the title.
 
-When creating a new page, AEM will [validate the page name according to the conventions](/help/sites-developing/naming-conventions.md) imposesd by AEM and JCR.
+When creating a new page, AEM will [validate the page name according to the conventions](/help/sites-developing/naming-conventions.md) imposed by AEM and JCR.
 
-Implementation and the list of characters allowed differs slightly according to UI (it is more extensive for the touch-optimized UI), but the minimum allowed is:
+Implementation and the list of characters allowed differs slightly according to UI (it is more extensive for the touch-enabled UI), but the minimum allowed is:
 
 * 'a' through to 'z'
 * 'A' through to 'Z'
@@ -104,11 +107,10 @@ If you supply only a page **Title** when creating a new page, AEM will derive th
 
 If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites-developing/naming-conventions.md) imposed by AEM and JCR.
 
-In the:
+In the Classic UI you **cannot enter invalid characters** in the **Name** field.
 
-* Touch-optimized UI you **cannot submit invalid characters** in the **Name** field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.
-
-* Classic UI you **cannot enter invalid characters** in the **Name** field.
+>[!NOTE]
+>In the touch-enabled UI you **cannot submit invalid characters** in the **Name** field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.
 
 >[!NOTE]
 >
@@ -133,13 +135,9 @@ AEM comes with several templates provided out-of-the-box. The templates proffere
 * **Template** 
   A list of templates available for use when generating the new page.
 
->[!NOTE]
->
->If configured on your instance, [template authors can create templates with the Template Editor](/help/sites-classic-ui-authoring/classic-feature-templates.md).
-
 ### Components {#components}
 
-Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of [out-of-the-box components](/help/sites-classic-ui-authoring/classic-page-author-conponent-console.md) that provide comprehensive functionality; these include:
+Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of out-of-the-box components that provide comprehensive functionality; these include:
 
 * Text
 * Image
@@ -148,10 +146,6 @@ Components are the elements provided by AEM so that you can add specific types o
 * many more
 
 Once you have created and opened a page you can [add content using the components](/help/sites-classic-ui-authoring/classic-page-author-edit-content.md#insertinganewparagraph), available from the [sidekick](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#sidekick).
-
->[!NOTE]
->
->The [Components Console](/help/sites-classic-ui-authoring/classic-page-author-conponent-console.md) give an overview of the components on your instance.
 
 ## Managing Pages {#managing-pages}
 
@@ -174,11 +168,11 @@ Unless all pages have been created for you in advance, before you can start crea
     * Provide a **Title**; this is displayed to the user.
     * Provide a **Name**; this is used to generate the URI. If not specified, the name will be derived from the title.
 
-        * If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites-developing/naming-conventions.md) imposesd by AEM and JCR.  
-        
+        * If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites-developing/naming-conventions.md) imposesd by AEM and JCR. 
         * In the classic UI you **cannot enter invalid characters** in the **Name** field.
 
-    * Click the template you want to use to create the new page.  
+    * Click the template you want to use to create the new page. 
+
       The template is used as the basis for the new page; for example, to determine the basic layout of a content page.
 
    >[!NOTE]
@@ -260,9 +254,7 @@ To move or rename a page:
 1. There are various methods of triggering a move:
 
     * From the **Websites** console, click to select the page, then select **Move...** 
-    
     * From the **Websites** console, you can also select the page item, then **right-click** and select **Move...**
-    
     * When editing a page you can select **Move Page** from the **Page** tab of the sidekick.
 
 1. The **Move** window opens; here you can either specify a new location, a new name for the page, or both.
@@ -274,20 +266,27 @@ To move or rename a page:
 1. Fill in the following fields, as appropriate:
 
     * **Destination** 
+
       Use the sitemap (available via the drop-down selector) to select the location where the page should be moved to.  
+
       If you are only renaming the page, ignore this field.
     
     * **Move** 
+
       Specify the page to be moved - this is usually filled in by default, depending on how and where you started the move action.
     
     * **Rename to** 
+
       The current page label displays by default. Specify the new page label, if required.
     
     * **Adjust** 
-      Update the links on the page listed that point to the moved page: for example, if page A has links to page B, AEM adjusts the links in page A in case you move page B.  
+
+      Update the links on the page listed that point to the moved page: for example, if page A has links to page B, AEM adjusts the links in page A in case you move page B. 
+
       This can be selected/deselected for each individual referencing page.
     
     * **Republish** 
+
       Republish the referencing page; again this can be selected for each individual page.
 
    >[!NOTE]
@@ -305,9 +304,7 @@ To move or rename a page:
 1. You can delete a page from various locations:
 
     * Within the **Websites** console, click to select the page, then right-click and select **Delete** from the resulting menu.
-    
     * Within the **Websites** console, click to select the page, then select **Delete** from the toolbar menu.
-    
     * Within sidekick use the **Page** tab to select **Delete Page** - this deletes the page that is currently open.
 
 1. After you have selected to delete a page you must confirm the request - as the action cannot be undone.

@@ -23,9 +23,7 @@ They:
 For full details about authoring with AEM see:
 
 * [First Steps for Authors](/help/sites-authoring/first-steps.md)  
-
-* [Working with the Author Environment](/help/sites-authoring/author-environment.md)
-* [Authoring Pages](/help/sites-authoring/page-authoring.md)
+* [Working with the Author Environment](/help/sites-authoring/author-environment-tools.md)
 
 ## A Few Quick Hints {#a-few-quick-hints}
 
@@ -204,14 +202,14 @@ There are two (main) methods of [editing page properties](/help/sites-authoring/
 
   ![](assets/screen_shot_2018-03-21at160850.png)
 
-  1. The page properties will be shown. You can make updates as required, then use Save to persist these
+* The page properties will be shown. You can make updates as required, then use Save to persist these
 
-        * When [editing your page](#editing-your-page-content):
+    * When [editing your page](#editing-your-page-content):
 
-            1. Open the **Page Information** menu.
-            1. Select **Open Properties** to open the dialog for editing the properties.
+        1. Open the **Page Information** menu.
+        1. Select **Open Properties** to open the dialog for editing the properties.
 
-               ![](assets/screen_shot_2018-03-21at160920.png)
+            ![](assets/screen_shot_2018-03-21at160920.png)
 
 ## Publishing Your Page (or Unpublishing) {#publishing-your-page-or-unpublishing}
 

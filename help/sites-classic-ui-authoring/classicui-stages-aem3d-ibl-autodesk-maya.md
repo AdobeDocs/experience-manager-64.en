@@ -18,24 +18,24 @@ discoiquuid: 00f7ed25-276b-42c2-ae4c-11de357a9ec6
 1. Create a (temporary) reference to a representative model. Doing so helps to facilitate evaluating lighting, setting up cameras, and configuring the renderer.
 1. Set up image-based lighting.
 
-    1. In Render Settings, select **Render Using: mental ray**, and open the Scene tab.
-    1. Open the Environment accordion and click **Create Image Based Lighting**.
-    1. Click the box icon that has a right arrow on the left side of the box to select the IBL node `mentalRayIblShape1`, then exit the Render Settings.
-    1. In the Attribute Editor, select the transform node `mentalRayIbl1`, then rename the transform node to `AdobeIbl`.
-    
-    1. Set the Scale of the node to make the environment sphere significantly larger than the largest 3D object to be shown with this stage (for example, `10000,10000,10000`).
+    1. In Render Settings, select **[!UICONTROL Render Using: mental ray]**, and open the **[!UICONTROL Scene]** tab.
+    1. Open the **[!UICONTROL Environment]** accordion, then click **[!UICONTROL Create Image Based Lighting]**.
+    1. Click the box icon that has a right arrow on the left side of the box to select the IBL node `mentalRayIblShape1`, then exit the [!UICONTROL Render Settings].
+    1. In the **[!UICONTROL Attribute Editor]**, select the transform node `mentalRayIbl1`, then rename the transform node to `AdobeIbl`.
+
+    1. Set the [!UICONTROL Scale] of the node to make the environment sphere significantly larger than the largest 3D object to be shown with this stage (for example, `10000,10000,10000`).
     1. Select the `AdobeIblShape` node and configure it as follows:
 
-        * **Mapping** - Spherical
-        * **Type** - Image File
-        * **Emit Light** - true
+        * **[!UICONTROL Mapping]** - Spherical
+        * **[!UICONTROL Type]** - Image File
+        * **[!UICONTROL Emit Light]** - true
 
     1. Attach the desired 32-bit TIFF image to the `AdobeIbl` node.
 
 1. Setup the ground plane.
 
     * Create a suitable plane to use as ground plane and size it to reasonably fit within the IBL sphere, passing through the coordinate origin.
-    * Attach a **Use Background** material to the ground plane and name it `AdobeUseBackground` and attach it to the ground plane object.
+    * Attach a **[!UICONTROL Use Background]** material to the ground plane and name it `AdobeUseBackground` and attach it to the ground plane object.
 
 1. (Optional) Create and configure cameras.
 
@@ -43,20 +43,20 @@ discoiquuid: 00f7ed25-276b-42c2-ae4c-11de357a9ec6
 
 1. Set up rendering with Mental Ray.
 
-   Configure the Render Settings with the following suggestions.
+   Configure the [!UICONTROL Render Settings] with the following suggestions.
 
-    * Common tab  
-      Deselect the **Alpha channel (mask)** check box for all Renderable Cameras.
-    
-    * Quality tab
+    * **[!UICONTROL Common]** tab 
 
-        * **Overall quality** - `0.5` or less
-        
-        * **Indirect Diffuse (GI) Mode** - `Final Gather`
-        
-        * ``**Filter Size** - `2.0`, `2.0`
+      Deselect the **[!UICONTROL Alpha channel (mask)]** check box for all Renderable Cameras.
 
-    * Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, Render settings, or both to achieve the results you want.  
+    * **[!UICONTROL Quality]** tab
+
+        * **[!UICONTROL Overall quality]** - `0.5` or less
+        * **[!UICONTROL Indirect Diffuse (GI) Mode]** - `Final Gather`
+        * **[!UICONTROL Filter Size]** - `2.0`, `2.0`
+
+    * Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, Render settings, or both to achieve the results you want. 
+
       Be aware that rendering with Mental Ray, using image-based lighting, is very slow and CPU-intensive. Adobe recommends that you configure the lowest quality settings that are still capable of producing the desired render quality.
 
 1. Remove the reference that you created in step 2.  
@@ -73,7 +73,7 @@ discoiquuid: 00f7ed25-276b-42c2-ae4c-11de357a9ec6
 
    AEM 3D may not be able to detect the IBL image configured in the stage. In such situations, you must resolve the missing dependencies manually. You can assign the same previously uploaded IBL PTIFF image for each of the missing dependencies. Or, you can assign different images to further control the IBL effects. After resolving the dependencies, be sure you tap **Save** to initiate reprocessing.
 
-1. Open Asset Properties in AEM. Set Title to a suitable string that will appear in the Stage Selector drop-down list. Verify that **Class **is set to **3D Stage**. Save and exit.  
+1. Open Asset Properties in AEM. Set Title to a suitable string that will appear in the Stage Selector drop-down list. Verify that **[!UICONTROL Class]** is set to **[!UICONTROL 3D Stage]**. Save and exit.  
 
 1. Open a 3D asset, select the new stage, and verify that it previews and renders as expected.
 

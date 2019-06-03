@@ -28,13 +28,12 @@ For an adaptive form, the auto save option is not enabled out of the box. You ca
 1. Specify the Trigger. Auto-save is triggered based on your configuration. Your options are:
 
     * **Time based:** Select the option to start saving the content based on a specific time interval.
-    
     * **Event based:** Select the option to start saving the content based when an event is triggered.
 
    When you select a trigger, Strategy Configuration box is enabled. Strategy Configuration box lets you:
 
-    * Specify a time interval if you select **Time based **trigger.
-    * Specify an event name if you select** Event based** trigger.
+    * Specify a time interval if you select **Time based** trigger.
+    * Specify an event name if you select **Event based** trigger.
 
    You can also create and add your own custom strategy to the list. For details, see [Implement a custom strategy to autosave the forms](/help/forms/using/auto-save-an-adaptive-form.md#p-implement-a-custom-strategy-to-enable-autosave-for-adaptive-forms-p).
 

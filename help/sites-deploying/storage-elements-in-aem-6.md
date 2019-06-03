@@ -70,14 +70,10 @@ AEM 6 can be configured to run with MongoDB storage by following the below proce
 
 1. Edit the file and set your configuration options. The following options are available:
 
-    * `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`  
-    
-    * `db`: Name of the Mongo database. By default new AEM 6 installations use **aem-author** as the database name.  
-    
-    * `cache`: The cache size in MB. This is distributed among various caches used in DocumentNodeStore. The default is 256  
-    
-    * `changesSize`: Size in MB of capped collection used in Mongo for caching the diff output. The default is 256  
-    
+    * `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017` 
+    * `db`: Name of the Mongo database. By default new AEM 6 installations use **aem-author** as the database name. 
+    * `cache`: The cache size in MB. This is distributed among various caches used in DocumentNodeStore. The default is 256.
+    * `changesSize`: Size in MB of capped collection used in Mongo for caching the diff output. The default is 256. 
     * `customBlobStore`: Boolean value indicating that a custom data store will be used. The default is false.
 
 1. Create a configuration file with the PID of the data store you wish to use and edit the file in order to set the configuration options. For more info, please see [Configuring Node Stores and Data Stores](/help/sites-deploying/data-store-config.md).  

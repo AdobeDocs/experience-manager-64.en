@@ -44,7 +44,6 @@ A special [mode](/help/sites-authoring/author-environment-tools.md#page-modes) i
 >[!NOTE]
 >
 >You can annotate a variety of resources:  
-
 >
 >* [Annotating assets](/help/assets/managing-assets-touch-ui.md#annotating)
 >* [Annotating video assets](/help/assets/managing-video-assets.md#annotating-video-assets)
@@ -77,7 +76,8 @@ The Annotate mode allows you to create, edit, move or delete annotations on your
    Here you can use the appropriate field and/or icon to:
 
     * Enter the annotation text.
-    * Create a sketch (lines and shapes) to highlight an area of the component.  
+    * Create a sketch (lines and shapes) to highlight an area of the component.
+
       The cursor will change to a crosswire when you are creating a sketch. You can draw multiple distinct lines. The sketch line reflects the annotation color and can be either an arrow, circle, or oval.
 
    ![](do-not-localize/screen_shot_2018-03-22at110640.png)
@@ -101,7 +101,7 @@ The Annotate mode allows you to create, edit, move or delete annotations on your
         * Sketches cannot be deleted independently of the annotation.
 
     * Reposition the text marker.
-    * Click/tap on a sketch line to select that sketch and drag it to the desired position.  
+    * Click/tap on a sketch line to select that sketch and drag it to the desired position.
     * Move, or copy, a component
 
         * Any related annotations and their sketches will also be moved or copied and their position in relation to the paragraph will remain the same.

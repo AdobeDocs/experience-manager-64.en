@@ -291,7 +291,7 @@ To help prevent DoS misuse you can:
       `http://localhost:4502/.json`
 
       could dump the whole repository in a JSON representation. This would cause significant server problems. For this reason Sling sets a limit on the number of maximum results. To limit the depth of the JSON rendering you can set the value for: 
-      
+
       **JSON Max results** ( `json.maximumresults`)
 
       in the configuration for the [Apache Sling GET Servlet](/help/sites-deploying/osgi-configuration-settings.md). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `200`.

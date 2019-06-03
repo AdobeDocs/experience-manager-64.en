@@ -284,7 +284,6 @@ When after creating a correspondence, you tap Open, Correspondence Management di
     1. **Mandatory**: When this option is selected, the content is required in Create Correspondence user interface.
     1. **Selected**: When this option is selected, the content is selected by defaults in the Create Correspondence user interface.
     1. **Indentation**: Increase or decrease the indentation of the module/content in the letter. Indentation is specified in terms of levels, starting 0. Each level indents 36pts. For more information on customizing forms, see **[!UICONTROL Correspondence Management Configurations]** in [Forms workflow](/help/forms/using/submit-letter-topostprocess.md#main-pars-header-3).
-    
     1. **Page break before**: If you set the Page Break Before to on, the contents of THIS module always display on a new page.
     1. **Page break after**: If you set the Page Break After to on for a specific module, the contents of the NEXT module always display on a new page.
 
@@ -300,7 +299,6 @@ When after creating a correspondence, you tap Open, Correspondence Management di
    In this page, you can also do the following for each of the assets in the subforms:
 
     1. **Change the order of the assets**: drag-and-drop an asset holding the reorder icon for an asset ( ![](assets/dragndrop.png)).
-    
     1. **Delete assets**: Tap the Delete icon next to an asset to delete it.
     1. **Preview assets**: Tap the show preview icon ( ![](assets/showpreview.png)) next to an asset.
 

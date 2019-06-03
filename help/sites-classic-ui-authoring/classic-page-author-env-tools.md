@@ -39,12 +39,6 @@ As well as accessing [help from the console toolbars](/help/sites-classic-ui-aut
 
 Or by using the **Help** button in the edit dialog of specific components; this will show context sensitive help.
 
-* Step text
-* Step text
-* Step text
-* Step text
-* Step text
-
 ## Sidekick {#sidekick}
 
 The **Components** tab of the sidekick allows you to browse the components available to be added to the current page. The required group can be expanded, then a component dragged to the required location on the page.
@@ -124,11 +118,9 @@ On all options you can search for specific items. Any tags and any resources tha
 
 You can also use wildcards for search. Supported wildcards are:
 
-* `*`  
-  matches a sequence of zero or more characters.  
+* `*` - matches a sequence of zero or more characters.  
 
-* `?`  
-  matches a single character.
+* `?` - matches a single character.
 
 >[!NOTE]
 >
@@ -141,11 +133,8 @@ For example, if there is an image avaialable with the name:
 the following search patterns will find it (and any other images matching the pattern):
 
 * `name:*nmv*`
-* `name:AD*`  
-  the character matching is *not* case sensitive.
-
-* `name:ad?nm??is.*`  
-  you can use any number of wildcards in a query.
+* `name:AD*` - the character matching is *not* case sensitive.
+* `name:ad?nm??is.*` - you can use any number of wildcards in a query.
 
 >[!NOTE]
 >
@@ -192,25 +181,26 @@ When editing a page with the classic UI there are various modes that can be acce
 
 The row of icons at the bottom of the Sidekick are used to switch modes for working with the pages:
 
-* [Edit](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md)  
+* [Edit](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md) 
+
   This is the default mode and allows you to edit the page, adding or deleting components and making other changes.
 
-* [Preview](/help/sites-classic-ui-authoring/classic-page-author-edit-content.md#previewing-pages)  
+* [Preview](/help/sites-classic-ui-authoring/classic-page-author-edit-content.md#previewing-pages) 
+
   This mode allows you to preview the page as if it were appearing on your website in its final form.
 
-* [Design](/help/sites-classic-ui-authoring/classic-page-author-design-mode.md#main-pars-procedure-0)  
+* [Design](/help/sites-classic-ui-authoring/classic-page-author-design-mode.md#main-pars-procedure-0) 
+
   In this mode, you have the possibility to edit the design of the page by configuring the components accessible.
 
 >[!NOTE]
 >
 >Other options are also available:  
-
 >
 >* [Scaffolding](/help/sites-classic-ui-authoring/classic-feature-scaffolding.md)
 >* [Client Context](/help/sites-administering/client-context.md)
 >* Websites - will open the Websites console.
 >* Reload - will refresh the page.  
->
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 

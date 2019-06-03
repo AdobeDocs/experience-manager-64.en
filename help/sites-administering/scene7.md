@@ -150,13 +150,13 @@ To use Dynamic Media and Dynamic Media Classic simultaneously:
     </tbody> 
     </table>
 
-1. Optional (please see use case table) - Set up the [Dynamic Media cloud configuration](/help/assets/config-dynamic.md) and [enable the Dynamic Media server](/help/assets/config-dynamic.md).
-1. Optional (please see use case table) - If you choose to enable Automatic Upload from Assets to Dynamic Media Classic, then you need to add the following:
+1. (Optional; see use case table) - Set up the [Dynamic Media cloud configuration](/help/assets/config-dynamic.md) and [enable the Dynamic Media server](/help/assets/config-dynamic.md).
+1. (Optional; see use case table) - If you choose to enable Automatic Upload from Assets to Dynamic Media Classic, then you need to add the following:
 
     1. Set up automatic upload to Dynamic Media Classic.
-    1. Add the **Dynamic Media Classic upload** step after all the Dynamic Media workflow steps *at the end of* **Dam Update Asset** workflow ( `https://<server>:<host>/cf#/etc/workflow/models/dam/update_asset.html)`
-    1. (Optional) Restrict Dynamic Media Classic asset upload by MIME type in [https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl](http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl). Asset MIME types not in this list will not be uploaded to Dynamic Media Classic server.
-    1. (Optional) Set up video in Dynamic Media Classic configuration. You can enable video encoding for either or both Dynamic Media and Dynamic Media Classic simultaneously. Dynamic renditions are used for preview and playback locally in AEM instance, whereas Dynamic Media Classic video renditions are generated and stored on Dynamic Media Classic servers. When setting up video encoding services for both Dynamic Media and Dynamic Media Classic, apply a [video processing profile](/help/assets/video-profiles.md) to the Dynamic Media Classic asset folder.
+    1.  Add the **Dynamic Media Classic upload** step after all the Dynamic Media workflow steps *at the end of* **Dam Update Asset** workflow ( `https://<server>:<host>/cf#/etc/workflow/models/dam/update_asset.html)`
+    1.  (Optional) Restrict Dynamic Media Classic asset upload by MIME type in [https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl](http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl). Asset MIME types not in this list will not be uploaded to Dynamic Media Classic server.
+    1.  (Optional) Set up video in Dynamic Media Classic configuration. You can enable video encoding for either or both Dynamic Media and Dynamic Media Classic simultaneously. Dynamic renditions are used for preview and playback locally in AEM instance, whereas Dynamic Media Classic video renditions are generated and stored on Dynamic Media Classic servers. When setting up video encoding services for both Dynamic Media and Dynamic Media Classic, apply a [video processing profile](/help/assets/video-profiles.md) to the Dynamic Media Classic asset folder.
     1. (Optional) [Configure Secure preview in Dynamic Media Classic](/help/sites-administering/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene).
 
 #### Limitations {#limitations}
@@ -167,14 +167,14 @@ When you have both Dynamic Media Classic and Dynamic Media enabled, there are th
 * Even though AEM-Dynamic Media Classic synced assets are updated to Dynamic Media Classic automatically when the asset is edited in Assets, a rollback action does not trigger a new upload, hence Dynamic Media Classic would not get the latest version immediately after a rollback. The workaround is to edit again once rollback is complete.
 * If you need to use Dynamic Media for one use case and Dynamic Media Classic integration for another use case, so that the Dynamic Media assets do not interact with the Dynamic Media Classic system, then do not to apply the Dynamic Media Classic configuration to the Dynamic Media folder, or the Dynamic Media configuration (processing profile) to a Dynamic Media Classic folder.
 
-## Best Practices for Integrating Dynamic Media Classic with AEM {#best-practices-for-integrating-scene-with-aem}
+## Best practices for integrating Dynamic Media Classic with AEM {#best-practices-for-integrating-scene-with-aem}
 
 When integrating Dynamic Media Classic with AEM, there are some important best practices that need to be observed in the following areas:
 
 * Test-driving your integration
 * Uploading assets directly from Dynamic Media Classic recommended for certain scenarios
 
-In addition, please see [known limitations](#known-limitations-and-design-implications).
+See [known limitations](#known-limitations-and-design-implications).
 
 ### Test-driving your integration {#test-driving-your-integration}
 
@@ -295,11 +295,11 @@ A cloud configuration defines the mapping between a Dynamic Media Classic folder
 >
 >You can have multiple configurations: one cloud configuration represents one user at a Dynamic Media Classic company. If you want to access other Dynamic Media Classic companies or users, you need to create multiple configurations.
 
-To configure AEM to be able to publish assets to Dynamic Media Classic, perform the following steps:
+To configure AEM to be able to publish assets to Dynamic Media Classic:
 
 1. Tap the AEM icon and navigate to **[!UICONTROL Deployment &gt; Cloud Services]** to access Adobe Dynamic Media Classic.  
 
-1. Tap **[!UICONTROL Configure Now]**.
+1. Tap **[!UICONTROL Configure now]**.
 
    ![](assets/chlimage_1-297.png)
 
@@ -561,8 +561,10 @@ Specifically, you configure the accepted file format by MIME type in the OSGi (O
 
    >[!NOTE]
    >
-   >If you are uploading PSD files, process them as templates with layer extractions. To do so, enter the following in the **[!UICONTROL jobParam]** value field:  
+   >If you are uploading PSD files, process them as templates with layer extractions. To do so, enter the following in the **[!UICONTROL jobParam]** value field: 
+   >
    >`process=MaintainLayers&createTemplate=true`
+   >
    >Be sure that your PSD file has “layers”. If it is strictly one image or an image with mask, it will only be processed as an image because there are no layers to process.
 
 1. In the upper-left corner of the CRXDE Lite page, tap **[!UICONTROL Save All]**.

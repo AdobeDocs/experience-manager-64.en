@@ -22,8 +22,6 @@ You can create email content in AEM and process it in Adobe Campaign emails. To 
 
 Content can then be synched with a delivery in Adobe Campaign. Detailed instructions are described in this document.
 
-See also [Creating Adobe Campaign Forms in AEM](/help/sites-classic-ui-authoring/classic-personalization-ac-forms.md).
-
 >[!NOTE]
 >
 >Before you can use this functionality, you must configure AEM to integrate with either [Adobe Campaign](/help/sites-administering/campaignonpremise.md) or [Adobe Campaign Standard](/help/sites-administering/campaignstandard.md).
@@ -64,7 +62,7 @@ Detailed instructions are described in this document.
 
    ![](assets/chlimage_1-173.png)
 
-1. Click **Create **to create your email or newsletter.
+1. Click **Create** to create your email or newsletter.
 
 ### Selecting the Adobe Campaign cloud service and template {#selecting-the-adobe-campaign-cloud-service-and-template}
 
@@ -160,7 +158,7 @@ This out-of-the-box workflow has two steps: revision then approval, or revision 
 
 ![](assets/chlimage_1-182.png)
 
-To approve content for Adobe Campaign, apply the workflow by selecting **Workflow** in the sidekick and selecting** Approve for Adobe Campaign** and click** Start Workflow. **Go through the steps and approve the content. You can also reject the contents by selecting **Reject** instead of **Approve** in the last workflow step.
+To approve content for Adobe Campaign, apply the workflow by selecting **Workflow** in the sidekick and selecting **Approve for Adobe Campaign** and click **Start Workflow**. Go through the steps and approve the content. You can also reject the contents by selecting **Reject** instead of **Approve** in the last workflow step.
 
 ![](assets/chlimage_1-183.png)
 

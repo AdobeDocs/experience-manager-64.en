@@ -90,9 +90,7 @@ To add an activity:
 1. In the **Targeting** engine drop-down menu, select your targeting engine.
 
     * If you select **ContextHub AEM**, the remaining fields are dimmed and not available. Click or tap **Create**. 
-    
     * If you select **Adobe Target**, you can select a configuration (by default, it is the configuration you provided when you [configured the account](/help/sites-administering/opt-in.md)) and Activity Type.
-    
     * If you are using the AEM/Adobe Campaign integration and are sending targeted content (newsletters), select **Adobe Campaign**. See [Integrating with Adobe Campaign](/help/sites-administering/campaign.md) for more information.
 
 1. In the Activity menu, select either **Experience Targeting** or **A/B Test**.
@@ -133,6 +131,10 @@ The Create step of content targeting involves creating experiences. During this 
 ### Seeing Experience Offers in Targeting Mode {#seeing-experience-offers-in-targeting-mode}
 
 After you [start the targeting process](/help/sites-authoring/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings), select an experience to see the offers that are provided for that experience. When you select an experience, the targeted components on the page change to show the offer for that experience.
+
+>[!CAUTION]
+>
+>Be careful when you disable targeting for a component that is already targeted in the author instance. The respective activity will be automatically deleted from the publish instance as well.
 
 >[!NOTE]
 >
@@ -284,7 +286,7 @@ If editing targeted content, you must click or tap **Start Targeting **before yo
    >
    >Administrators can decide whether setting this configuration is required at **https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet**
    >
-   >To require users to input a location, select the **Force location **check box.
+   >To require users to input a location, select the **Force location** check box.
 
 1. Select the experience for which you want to create the offer.
 1. Create the offer:

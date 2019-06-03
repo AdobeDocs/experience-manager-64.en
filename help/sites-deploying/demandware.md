@@ -38,7 +38,7 @@ To install AEM with a Demandware Commerce integration configuration (using the d
 
 1. [Install AEM](/help/sites-deploying/deploy.md).
 1. Install the content package using the [package manager](/help/sites-administering/package-manager.md):
-1. [Author](/help/sites-authoring/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites-authoring/qg-page-authoring.md) any supplementary pages that you need in AEM.
 
 >[!NOTE]
 >

@@ -25,10 +25,11 @@ While the we-retail sample provides sample Facebook and Twitter apps and cloud s
 
 The required steps are:
 
-1. [**Enable **OAuth authentication](#adobe-granite-oauth-authentication-handler) on all AEM publish instances.  
+1. [**Enable **OAuth authentication](#adobe-granite-oauth-authentication-handler) on all AEM publish instances. 
+
    Without OAuth enabled, attempts to log in fail.
 
-1. **Create **a social app and cloud service.
+1. **Create** a social app and cloud service.
 
     * To support log in with Facebook:
 
@@ -51,7 +52,6 @@ There are two basic concepts:
 1. **fields** (params) specifies the actual data requested using URL parameters.
 
     * These fields are specified in [AEM Communities Facebook OAuth Provider](#aem-communities-facebook-oauth-provider) and [AEM Communities Twitter OAuth Provider](#aem-communities-twitter-oauth-provider).
-    
     * The default fields are sufficient for most use cases but can be modified.
 
 ## Facebook Login {#facebook-login}
@@ -83,7 +83,6 @@ In general, as of Facebook API v2.7:
 
     * for *Display Name* - enter a title for use as the Title of the Facebook connect service.
     * for *Category*, recommended choosing *Apps for Pages,* but can be anything.
-    
     * *Add  Product:  Facebook Login*
 
         * for *Valid OAuth redirect URIs* - enter `  https://<server>:<port>.`
@@ -100,8 +99,10 @@ The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe
 
 1. On the AEM author instance, sign in with administrator privileges.
 1. From global navigation, select **Tools, Cloud Services, Facebook Social login configuration.**
-1. Select the configuration **context path**.  
+1. Select the configuration **context path**. 
+
    **Context path** should be the same as the cloud configuration path that you have selected while creating/editing a community site.
+
 1. Check if your context path is enabled to create cloud services below it.
 1. Go to **Tools, General, Configuration Browser.** Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
 
@@ -112,16 +113,11 @@ The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe
    ![](assets/fbsocialloginconfigpng.png)
 
     * **Title** (*Required*) Enter a display title that identifies the Facebook App. It is recommended to use the same name entered as the *Display Name* for the Facebook app.
-    
     * **App ID/API Key** (*Required*) Enter the ***App ID*** for the Facebook App. This identifies the [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance created from the dialog.
-    
     * **App Secret** (*Required*) Enter the ***App Secret*** for the Facebook App.
-    
     * **Create Users** If checked, logging in with a Facebook account will create an AEM user entry and add them as a member to the selected user group(s).  Default  is checked (strongly recommended).
-    
     * **Mask User IDs:** Leave deselected.
     * **Scope Email:** email id of  user  should be fetched from Facebook.
-    
     * **Add to User Groups** select Add User Group to choose one or more [member groups](https://helpx.adobe.com/experience-manager/6-3/communities/using/users.html) for the community site to which users will be added.
 
    >[!NOTE]
@@ -140,7 +136,7 @@ The AEM Communities provider extends the [Adobe Granite OAuth Application and Pr
 This provider will require editing to:
 
 * Allow user updates 
-* Add additional fields [within  scope ](#adobe-granite-oauth-application-and-provider)
+* Add additional fields [within scope](#adobe-granite-oauth-application-and-provider)
 
     * not all fields permitted by default are included by default.
 
@@ -154,24 +150,31 @@ If editing is necessary, on each AEM publish instance:
    ![](assets/fboauthprov_png.png)
 
     * **OAuth Provider ID** 
+  
       (*Required*)  Default  value is * soco -facebook*. Do not edit.
-    
+  
     * **Cloud Service Config** 
+  
       Default value is */etc/  cloudservices /  facebookconnect *. Do not edit.
-    
+  
     * **OAuth Provider Service Config** 
+  
       Default value is */apps/social/facebookprovider/config/*. Do not edit.
-    
-    * **Enable Tags  
-      **Do not Edit.  
-    
+  
+    * **Enable Tags** 
+  
+      Do not Edit. 
+
     * **User Path** 
+  
       Location in the repository where user data is stored. For a community site, to ensure permissions for members to view one another's profile, the path should be the default */home/users/community*.
-    
+  
     * **Enable fields** 
+
       If checked, the Fields listed are specified on the request to Facebook for user authentication and information. The default is deselected.
-    
+  
     * **Fields** 
+
       When Fields are enabled, the following fields are included when calling the Facebook Graph API. The fields must be allowed within the scope defined in the cloud service configuration. Additional fields may require approval by Facebook. Reference the Facebook Login Permissions section of the Facebook documentation. The default fields added as parameters are:
 
         * id
@@ -204,13 +207,13 @@ The next steps are the same for both Facebook and Twitter:
 
 A configured Twitter application is required to enable Twitter social login.
 
-Follow the latest instructions to create a new Twitter application at [https](https://apps.twitter.com/) [://apps.twitter.com](https://apps.twitter.com/) [/](https://apps.twitter.com/).
+Follow the latest instructions to create a new Twitter application at [https://apps.twitter.com](https://apps.twitter.com/).
 
 In general:
 
-1. Enter a *Name *that will identify your Twitter application to the users of your website.
+1. Enter a *Name* that will identify your Twitter application to the users of your website.
 1. Enter a *Description.*
-1. For w*ebsite* - enter https://&lt;server&gt;/.
+1. For *website* - enter https://&lt;server&gt;/.
 1. For *Callback URL* - enter https://&lt;server&gt;/.
 
    >[!NOTE]
@@ -219,7 +222,7 @@ In general:
    >
    >For development, https://127.0.0.1/ will work.
 
-1. Once the application has been created, locate the **Consumer (API) Key **and **Consumer (API) Secret**. This information will be needed for configuring the [Twitter cloud service](#createatwittercloudservice).
+1. Once the application has been created, locate the **Consumer (API) Key** and **Consumer (API) Secret**. This information will be needed for configuring the [Twitter cloud service](#createatwittercloudservice).
 
 #### Permissions {#permissions}
 
@@ -234,7 +237,7 @@ In the Twitter application management's permissions section:
     * If not selected, the user profile in AEM will not include their email address.
     * Twitter's instructions note additional steps to take.
 
-The only REST request made for social login is to * [GET account/verify credentials](https://dev.twitter.com/rest/reference/get/account/verify_credentials)*.
+The only REST request made for social login is to *[GET account/verify credentials](https://dev.twitter.com/rest/reference/get/account/verify_credentials)*.
 
 ### Create a Twitter Connect Cloud Service {#create-a-twitter-connect-cloud-service}
 
@@ -242,8 +245,10 @@ The [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-applicat
 
 1. On the author instance, sign in with administrator privileges.
 1. From global navigation, select **Tools, Cloud Services, Twitter Social login configuration.**
-1. Choose the **context path **configuration.   
+1. Choose the **context path** configuration.
+
    The Context path should be the same as the cloud configuration path that you selected while creating/editing a community site.
+
 1. Check if your context path is enabled to create cloud services below it.
 1. Go to **Tools, General, Configuration Browser.** Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
 
@@ -267,9 +272,9 @@ The [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-applicat
 
    >[!NOTE]
    >
-   >Groups may be added or removed at any time. But existing users's memberships won't be affected. Auto membership only applies to new users being created post this field update. For Sites where anonymous users are disabled, add users to corresponding community-members group meant for that closed community site.
+   >Groups may be added or removed at any time. But existing users' memberships won't be affected. Auto membership only applies to new users being created post this field update. For Sites where anonymous users are disabled, add users to corresponding community-members group meant for that closed community site.
 
-1. Select **SAVE**, and** Publish**.
+1. Select **SAVE**, and **Publish**.
 
 The result is an [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#adobe-granite-oauth-application-and-provider) instance which does not require further modification. The default scope is the standard permissions for Twitter login.
 
@@ -280,28 +285,35 @@ The AEM Communities configuration extends the [Adobe Granite OAuth Application a
 If editing is necessary, on each AEM publish instance:
 
 1. Sign in with administrator privileges.
-1. Navigate to the [Web Console](/help/sites-deploying/configuring-osgi.md).  
+1. Navigate to the [Web Console](/help/sites-deploying/configuring-osgi.md). 
+
    For example, http://localhost:4503/system/console/configMgr.
+
 1. Locate AEM Communities Twitter OAuth Provider.
 1. Select the pencil icon to open for edit.
 
    ![](assets/twitteroauth_png.png)
 
-    * **OAuth Provider ID **(*Required*)  
+    * **OAuth Provider ID **(*Required*) 
+
       The default value is * soco -twitter*. Do not edit.
-    
+  
     * **Cloud Service Config** 
+
       The default value is *conf.* Do not edit.
-    
+  
     * **OAuth Provider Service Config** 
+
       The default value is */apps/social/twitterprovider/config/*. Do not edit.
-    
+
     * **User Path** 
+
       Location in the repository where user data is stored. For a community site, to ensure permissions for members to view one another's profile, the path should be the default */home/users/community*.
-    
+  
     * **Enable Params** do not edit
     * **URL Parameters** do not edit
     * **Update User** 
+  
       If checked, refreshes user data in the repository on each login to reflect profile changes or additional data requested. The default is deselected.
 
 #### Next Steps {#next-steps-1}
@@ -332,8 +344,10 @@ Once a cloud service is configured, it may be enabled for the relevant Social Lo
 * ensure [Adobe Granite OAuth Authentication Handler](#adobe-granite-oauth-authentication-handler) has been enabled on all publish instances
 * ensure the cloud services have been published
 * ensure the community site has been published
-* launch the published site in a browser  
+* launch the published site in a browser 
+
   for example, http://localhost:4503/content/sites/engage/en.html
+
 * select **Login In**
 * select either **Sign in with Facebook **or **Sign in with Twitter**
 
@@ -351,7 +365,8 @@ The `Adobe Granite OAuth Authentication Handler` is not enabled by default and *
 To enable the authentication handler on publish, simply open the OSGi config and save it:
 
 * sign in with administrator privileges
-* navigate to the [Web Console](/help/sites-deploying/configuring-osgi.md)  
+* navigate to the [Web Console](/help/sites-deploying/configuring-osgi.md) 
+
   for example, http://localhost:4503/system/console/configMgr
 
 * Locate `Adobe Granite OAuth Authentication Handler`
@@ -387,24 +402,31 @@ To locate the created instance for a Facebook or Twitter app:
    Except the following properties, leave the other properties of the config  unaltered:
 
     * **Config ID** 
+  
       (*Required*) OAuth configuration IDs must be unique. Auto-generated when cloud service is created.
-    
+  
     * **Client ID** 
+  
       (*Required*) The application ID provided when the cloud service was created.
-    
+  
     * **Client Secret** 
+  
       (*Required*) The application secret provided when the cloud service was created.
-    
+  
     * **Scope** 
+  
       (*Optional*) Additional scope for what is permitted can be asked  from  the provider. The default scope covers the permissions necessary for providing social authentication and profile data.
-    
+  
     * **Provider ID** 
-      (*Required*) The provider ID for AEM Communities is set when the cloud service was created. Do not edit. For Facebook Connect, the value is * soco -facebook*. For Twitter Connect, the value is * soco -twitter*.
-    
+  
+      (*Required*) The provider ID for AEM Communities is set when the cloud service was created. Do not edit. For Facebook Connect, the value is *soco -facebook*. For Twitter Connect, the value is *soco -twitter*.
+  
     * **Groups** 
+  
       (*Recommended*) One or more member groups to which created users are added. For AEM Communities, it is recommended to list the member group for the community site.
-    
+  
     * **Callback URL** 
+  
       (*Optional*) URL configured with the OAuth providers to redirect the client back. Use a relative  url  to use the host of the original request. Leave empty to use the originally requested URL instead. Suffix "/callback/j_security_check" is automatically appended to this  url .
 
    >[!NOTE]
@@ -440,7 +462,6 @@ On an author instance, signed in with administrative privileges:
 
     * **indexPath**: /oak:index/ntBaseLucene-oauth
     * **name**: oauthid-123**&ast;**
-    
     * **reindex**: true
     * **reindexCount**: 1
 

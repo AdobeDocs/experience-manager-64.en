@@ -124,8 +124,8 @@ The include statement belongs in the <head> section of the <html> script. The de
 1. select **`/apps/an-scf-sandbox/components/playpage`**
 1. right click and select **Paste** (or select Paste from the tool bar)
 1. double click on **`headlibs.jsp`** to open it
-1. append the following line to the end of the file  
-   
+1. append the following line to the end of the file
+
    **`<ui:includeClientLib categories="apps.an-scf-sandbox"/>`**
 
 1. click **Save All**

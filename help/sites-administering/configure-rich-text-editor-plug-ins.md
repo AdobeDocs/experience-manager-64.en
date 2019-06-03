@@ -32,8 +32,7 @@ By default, `format`, `link`, `list`, `justify`, and `control` plugins and all t
 >
 >The respective rtePlugins node is referred to as &lt;*rtePlugins-node*&gt; to avoid duplication in this article.
 
-1. Using CRXDE Lite, locate the text component for your project.  
-   ``
+1. Using CRXDE Lite, locate the text component for your project. 
 1. Create the parent node of `<*rtePlugins-node*>` if it does not exist, before configuring any RTE plug-ins:
 
     * Depending on your component the parent nodes:
@@ -43,25 +42,20 @@ By default, `format`, `link`, `list`, `justify`, and `control` plugins and all t
         * text: .../text/dialog/items/tab1/items/**text**
 
     * Are of type:** jcr:primaryType** `cq:Widget`
-    
     * Both have the following property:
 
-        * **Name** `name`  
-        
+        * **Name** `name`
         * **Type** `String`
-        
         * **Value** `./text`
 
 1. Depending on the UI you are configuring for, create a node `<*rtePlugins-node*>`, if it does not exist:
 
-    * **Name** `rtePlugins`  
-    
+    * **Name** `rtePlugins`
     * **Type** `nt:unstructured`
 
 1. Below this create a node for each plug-in that you want to activate:
 
     * **Type** `nt:unstructured`
-    
     * **Name** the Plug-in ID of the plug-in required
 
 After activating a plug-in, follow these guidelines to configure `features` property.
@@ -117,8 +111,10 @@ You can provide some, all, or none of these three icons to your authors in the R
 
 To configure RTE to display the required icons, follow these steps.
 
-1. Navigate to your component; for example:  
+1. Navigate to your component; for example:
+
    `/apps/<*myProject*>/components/text`
+
 1. Navigate to the node `rtePlugins/edit`. See [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin) if the node does not exist.
 1. Create the `features` property on the `edit` node and add one or more of the features.
 
@@ -140,9 +136,7 @@ The configuration allows for the following three types of use cases:
 1. In the `edit` node create a property using the following details:
 
     * **Name** `defaultPasteMode`
-    
     * **Type** `String`
-    
     * **Value** One of the required paste mode `browser`, `plaintext`, or `wordhtml`.
 
 ### Configure the formats allowed when pasting content {#pasteformats}
@@ -164,25 +158,19 @@ To configure which formats are allowed when pasting text into AEM from another p
 1. Create a node under the `edit` node to hold the HTML paste rules:
 
     * **Name** `htmlPasteRules`
-    
     * **Type** `nt:unstructured`
 
 1. Create a node under `htmlPasteRules`, to hold details of the basic formats allowed:
 
     * **Name** `allowBasics`
-    
     * **Type** `nt:unstructured`
 
 1. To control the individual formats accepted, create one, or more, of the following properties on the `allowBasics` node:
 
     * **Name** `bold`
-    
     * **Name** `italic`
-    
     * **Name** `underline`
-    
-    * **Name** `anchor` (for both links and named anchors)  
-    
+    * **Name** `anchor` (for both links and named anchors)
     * **Name** `image`
 
    All properties are of **Type** Boolean, so in the appropriate **Value** you can either select or remove the check mark to enable or disable the functionality.
@@ -286,10 +274,8 @@ This is done by enabling the styles plug-in.
 1. In your component, navigate to the node `<*rtePlugins-node*>/styles`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `styles` node:
 
-    * **Name** `features`  
-    
+    * **Name** `features`
     * **Type** `String`
-    
     * **Value** `*` (asterisk)
 
 1. Save all changes.
@@ -305,10 +291,8 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 1. Navigate to the root node of your text component, for example `/apps/<*myProject*>/components/text`.
 1. Add the property `externalStyleSheets` to the parent node of `<*rtePlugins-node*>`:
 
-    * **Name** `externalStyleSheets`  
-    
-    * **Type** `String[]` (multi-string; click **Multi** in CRXDE)  
-    
+    * **Name** `externalStyleSheets`
+    * **Type** `String[]` (multi-string; click **Multi** in CRXDE) 
     * **Value(s)** The path and filename of every style sheet you want to include. Use repository paths.
 
    >[!NOTE]
@@ -340,29 +324,23 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 1. Under the node `styles`, create a new node (also called `styles`) to hold the list being made available:
 
     * **Name** `styles`
-    
     * **Type** `cq:WidgetCollection`
 
 1. Create a new node under the `styles` node to represent an individual style:
 
-    * **Name**, you can specify the name, but it should be suitable for the style  
-    
+    * **Name**, you can specify the name, but it should be suitable for the style
     * **Type** `nt:unstructured`
 
 1. Add the property `cssName` to this node to reference the CSS class:
 
     * **Name** `cssName`
-    
-    * **Type** `String`  
-    
+    * **Type** `String`
     * **Value** The name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
 1. Add the property `text` to the same node; this defines the text shown in the selection box:
 
     * **Name** `text`
-    
     * **Type** `String`
-    
     * **Value** Description of the style; appears in the Style drop-down selection box.
 
 1. Save the changes.
@@ -395,10 +373,8 @@ First enable the paraformat plug-in:
 1. In your component, navigate to the node `<*rtePlugins-node*>/paraformat`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `paraformat` node:
 
-    * **Name** `features`  
-    
+    * **Name** `features`
     * **Type** `String`
-    
     * **Value** `*` (asterisk)
 
 >[!NOTE]
@@ -423,30 +399,25 @@ Paragraph formats may be made available for selection by:
 1. Under the `paraformat` node create a new node, to hold the list of formats:
 
     * **Name** `formats`
-    
     * **Type** `cq:WidgetCollection`
 
 1. Create a new node under the `formats` node, this holds details for an individual format:
 
-    * **Name**, you can specify the name, but it should be suitable for the format (for example, myparagraph, myheading1).  
-    
+    * **Name**, you can specify the name, but it should be suitable for the format (for example, myparagraph, myheading1). 
     * **Type** `nt:unstructured`
 
 1. To this node, add the property to define the block tag used:
 
     * **Name** `tag`
-    
     * **Type** `String`
-    
-    * **Value** The block tag for the format; for example: p, h1, h2, etc.  
+    * **Value** The block tag for the format; for example: p, h1, h2, etc.
+
       You do not need to enter the delimiting angle-brackets.
 
 1. To the same node add another property, for descriptive text to appear in the drop-down list:
 
     * **Name** `description`
-    
     * **Type** `String`
-    
     * **Value** The descriptive text for this format; for example, Paragraph, Heading 1, Heading 2, and so on. This text is displayed in the Format selection list.
 
 1. Save the changes.
@@ -473,41 +444,35 @@ You can configure the RTE to make your own selection of characters available; ei
 1. Create the `features` property on the `misctools` node:
 
     * **Name** `features`
-    
     * **Type** 
-    
-      ```    
+
+      ``` 
       String[] 
-      
       ```
 
-    * **Value** `specialchars`  
+    * **Value** `specialchars` 
+
       (or `String / *` if applying all features for this plug-in)
 
 1. Under `misctools` create a node to hold the special character configurations:
 
     * **Name** `specialCharsConfig`
-    
     * **Type** `nt:unstructured`
 
 1. Under `specialCharsConfig` create another node to hold the list of characters:
 
     * **Name** `chars`
-    
     * **Type** `nt:unstructured`
 
 1. Under `chars` add a new node to hold an individual character definition:
 
-    * **Name **you can specify the name, but it should reflect the character; for example, half.  
-    
+    * **Name** you can specify the name, but it should reflect the character; for example, half. 
     * **Type** `nt:unstructured`
 
 1. To this node add the following property:
 
     * **Name** `entity`
-    
     * **Type** `String`
-    
     * **Value** the HTML representation of the required character; for example, `&189;` for the fraction one half.
 
 1. Save the changes.
@@ -523,18 +488,17 @@ You can configure the RTE to make your own selection of characters available; ei
 1. Use steps 1 to 3 from [Defining a Single Character](#definesinglechar).
 1. Under `chars` add a new node to hold the definition of the character range:
 
-    * **Name **you can specify the name, but it should reflect the character range; for example, pencils.  
-    
+    * **Name** you can specify the name, but it should reflect the character range; for example, pencils. 
     * **Type** `nt:unstructured`
 
 1. Under this node (named according to your special character range) add the following two properties:
 
-    * **Name** `rangeStart`  
-      **Type** `Long`  
-      **Value** the [Unicode](https://unicode.org/) representation (decimal) of the first character in the range  
-    
-    * **Name** `rangeEnd`  
-      **Type** `Long`  
+    * **Name** `rangeStart` 
+      **Type** `Long` 
+      **Value** the [Unicode](https://unicode.org/) representation (decimal) of the first character in the range 
+
+    * **Name** `rangeEnd` 
+      **Type** `Long` 
       **Value** the [Unicode](https://unicode.org/) representation (decimal) of the last character in the range
 
 1. Save the changes.
@@ -565,9 +529,7 @@ Styles are typically applied on text, but a separate set of Styles can also be a
 1. Create the `features` property on the `table` node:
 
     * **Name** `features`
-    
     * **Type** `String`
-    
     * **Value** `*`
 
    >[!NOTE]
@@ -583,14 +545,12 @@ Styles are typically applied on text, but a separate set of Styles can also be a
 
     * To define styles for the entire table (available under **Table properties**):
 
-        * **Name** `tableStyles`  
-        
+        * **Name** `tableStyles` 
         * **Type** `cq:WidgetCollection`
 
     * To define styles for the individual cells (available under **Cell properties**):
 
-        * **Name** `cellStyles`  
-        
+        * **Name** `cellStyles` 
         * **Type** `cq:WidgetCollection`
 
 1. Create a new node (under the `tableStyles` or `cellStyles` node as appropriate) to represent an individual style:
@@ -679,10 +639,8 @@ RTE allows authors to undo or redo a few last edits. By default, 50 edits are st
 1. On the `undo` node create the property:
 
     * **Name** `maxUndoSteps`
-    
     * **Type** `Long`
-    
-    * **Value **the number of undo steps you want saved in the history.
+    * **Value** the number of undo steps you want saved in the history.
 
         * The default is 50.
         * Use 0 to disable undo/redo completely.
@@ -695,14 +653,12 @@ When the tab character is pressed within any text a predefined number of spaces 
 
 To define the tab size:
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/keys`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
+1. In your component, navigate to the node `<rtePlugins-node>/keys`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. On the `keys` node create the property:
 
     * **Name** `tabSize`
-    
     * **Type** `String`
-    
-    * **Value **the number of space characters to be used for the tabulator
+    * **Value** the number of space characters to be used for the tabulator
 
 1. Save the changes.
 
@@ -718,9 +674,7 @@ When indentation is enabled (default) you can define the size of indent:
 1. On the `lists` node create the `identSize` parameter:
 
     * **Name**: `identSize`
-    
     * **Type**: `Long`
-    
     * **Value**: number of pixels required for the indent margin
 
 ## Configure the height of editable space {#editablespace}
@@ -733,10 +687,8 @@ You can define the height of the editable space shown within the component dialo
 
 1. On the `../items/text` node in the dialog definition for the component, create a new property:
 
-    * **Name** `height`  
-    
+    * **Name** `height`
     * **Type** `Long`
-    
     * **Value** the height of the edit canvas in pixels
 
    >[!NOTE]
@@ -754,12 +706,10 @@ When adding links in AEM, you can define:
 
 To configure how links are added in AEM from another program, define the HTML rules.
 
-1. Using CRXDE Lite, locate the text component for your project.  
-   ``
+1. Using CRXDE Lite, locate the text component for your project.
 1. Create a new node at the same level as <*rtePlugins-node*>, that is, create the node under the parent node of `<rtePlugins-node>`:
 
     * **Name** `htmlRules`
-    
     * **Type** `nt:unstructured`
 
    >[!NOTE]
@@ -778,80 +728,64 @@ To configure how links are added in AEM from another program, define the HTML ru
 1. Under `htmlRules`, create a new node.
 
     * **Name** `links`
-    
     * **Type** `nt:unstructured`
 
 1. Under the `links` node define the properties as required:
 
     * CSS style for internal links:
 
-        * **Name** `cssInternal`  
-        
+        * **Name** `cssInternal`
         * **Type** `String`
-        
-        * **Value **the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
+        * **Value** the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
     * CSS style for external links
 
-        * **Name** `cssExternal`  
-        
+        * **Name** `cssExternal`
         * **Type** `String`
-        
         * **Value** the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
     * Array of valid **protocols** (including https://, https:// file://, mailto:, amongst others)
 
-        * **Name** `protocols`  
-        
+        * **Name** `protocols`
         * **Type** `String[]`
-        
         * **Value**(s) one, or more, protocols
 
     * **defaultProtocol** (property of type **String**): Protocol to be used if the user did not specify one explicitly.
 
-        * **Name** `defaultProtocol`  
-        
+        * **Name** `defaultProtocol` 
         * **Type** `String`
-        
         * **Value**(s) one, or more, default protocols
 
     * Definition of how to handle the target attribute of a link. Create a new node:
 
-        * **Name** `targetConfig`  
-        
+        * **Name** `targetConfig`
         * **Type** `nt:unstructured`
 
       On the node `targetConfig`: define the required properties:
 
         * Specify the target mode:
 
-            * **Name** `mode`  
-            
+            * **Name** `mode`
             * **Type** `String`)
-            
             * **Value**(s) :
 
-                * `auto`: means that an automatic target is chosen  
-                  (specified by the `targetExternal` property for external links or `targetInternal` for internal links). 
-                
+                * `auto`: means that an automatic target is chosen 
+
+                  (specified by the `targetExternal` property for external links or `targetInternal` for internal links).
+
                 * `manual`: not applicable in this context
                 * `blank`: not applicable in this context
 
         * The target for internal links:
 
-            * **Name** `targetInternal`  
-            
-            * **Type** `String`  
-            
-            * **Value **the target for internal links (only use when the `` mode is `auto`)
+            * **Name** `targetInternal`
+            * **Type** `String`
+            * **Value** the target for internal links (only use when the `` mode is `auto`)
 
         * The target for external links:
 
             * **Name** `targetExternal`
-            
-            * **Type** `String`  
-            
+            * **Type** `String`
             * **Value** the target for external links (only used when the mode is `auto`).
 
 1. Save all changes.
-

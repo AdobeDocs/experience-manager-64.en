@@ -95,8 +95,7 @@ After installation you can configure your instance:
 1. **Save** the changes.
 1. Open **System**, **Facet search**, then **Indexer operation wizard**. Start a cronjob:
 
-    * **Indexer operation**: `full`   
-    
+    * **Indexer operation**: `full`
     * **Solr configuration**: `Sample Solr Config for Clothes`
 
 ## Configure the Catalog Version {#configure-the-catalog-version}
@@ -207,11 +206,14 @@ The following properties indicate the link with hybris:
 
 1. If required, delete all existing product data using CRXDE Lite.
 
-    1. Navigate to the sub-tree holding the product data:  
-       `/etc/commerce/products`  
-       For example:  
-       [ `http://localhost:4502/crx/de/index.jsp#/etc/commerce/products`](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)
-    
+    1. Navigate to the sub-tree holding the product data:
+
+       `/etc/commerce/products`
+
+       For example:
+
+       [`http://localhost:4502/crx/de/index.jsp#/etc/commerce/products`](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)
+  
     1. Delete the node that holds your product data; for example, `outdoors`.
     1. **Save All** to persist the change.
 
@@ -235,8 +237,9 @@ The following properties indicate the link with hybris:
        /etc/commerce/products/outdoors
    ```
 
-   You can open this in CRXDE Lite; for example:  
-   ` [http://localhost:4502/crx/de/index.jsp#/etc/commerce/products](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)`
+   You can open this in CRXDE Lite; for example:
+
+   `[http://localhost:4502/crx/de/index.jsp#/etc/commerce/products](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)`
 
 ### Incremental Import {#incremental-import}
 
@@ -244,7 +247,8 @@ The following properties indicate the link with hybris:
 
    `/etc/commerce/products`
 
-   You can open this in CRXDE Lite; for example:  
+   You can open this in CRXDE Lite; for example: 
+
    [http://localhost:4502/crx/de/index.jsp#/etc/commerce/products](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)
 
 1. In hybris, update the information held on the revelant product(s).  
@@ -276,7 +280,8 @@ The import process can take a long time, so as an extension to the Product Synch
 
    `/etc/commerce/products`
 
-   You can open this in CRXDE Lite; for example:  
+   You can open this in CRXDE Lite; for example:
+
    [http://localhost:4502/crx/de/index.jsp#/etc/commerce/products](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)
 
 1. In hybris, update the information held on the revelant product(s).  
@@ -353,7 +358,7 @@ To remove one, or more, products from the catalog:
 
 1. Initialize the importer by performing two incremental updates (see [Catalog Import](#catalog-import)):
 
-    * The first time run result in a set of changed products - indicated in the log list.  
+    * The first time run result in a set of changed products - indicated in the log list. 
     * For the second time no products should be updated.
 
    >[!NOTE]
@@ -380,23 +385,24 @@ To remove one, or more, products from the catalog:
 
    For example:
 
-    * Open:  
+    * Open: 
+
       [http://localhost:4502/aem/catalogs.html/content/catalogs/geometrixx-outdoors-hybris](http://localhost:4502/aem/catalogs.html/content/catalogs/geometrixx-outdoors-hybris)
-    
+  
     * Rollout the `Hybris Base` catalog
-    * Open:  
+    * Open: 
+
       [http://localhost:4502/editor.html/content/geometrixx-outdoors/en_US/equipment/biking.html](http://localhost:4502/editor.html/content/geometrixx-outdoors/en_US/equipment/biking.html)
-    
+  
     * The `Cajamara` product will have been removed from the `Bike` category
 
-1. To reinstate the product:
+1. To re-instate the product:
 
     1. In hybris, set the approval status back to **approved** 
-    
     1. In AEM:
 
         1. perform an incremental update
-        1. rollout the appropriate catalog again  
+        1. rollout the appropriate catalog again 
         1. refresh the appropriate category page
 
 ## Add Order History Trait to the Client Context {#add-order-history-trait-to-the-client-context}
@@ -405,8 +411,7 @@ To add order history to the [client context](/help/sites-developing/client-conte
 
 1. Open the [client context design page](/help/sites-administering/client-context.md), by either:
 
-    * Open a page for editing, then open the client context using **Ctrl-Alt-c** (windows) or **control-option-c** (Mac). Use the pencil icon in the top left corner of the client context to **Open the ClientContext design page**.  
-    
+    * Open a page for editing, then open the client context using **Ctrl-Alt-c** (windows) or **control-option-c** (Mac). Use the pencil icon in the top left corner of the client context to **Open the ClientContext design page**. 
     * Navigate directly to [http://localhost:4502/etc/clientcontext/default/content.html](http://localhost:4502/etc/clientcontext/default/content.html)
 
 1. [Add the **Order History** component](/help/sites-administering/client-context.md#adding-a-property-component) to the **Shopping Car**t component of the client context.
@@ -419,16 +424,17 @@ To add order history to the [client context](/help/sites-developing/client-conte
     1. Add another item to the cart.
     1. Navigate to the checkout page:
 
-        * The client context shows a summary of the order history.  
+        * The client context shows a summary of the order history. 
         * The message "You're a returning customer" is shown.
 
    >[!NOTE]
    >
-   >The message is realized by:  
+   >The message is realized by: 
    >
    >* Navigate to [http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html](http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html)
    >
    >  The campaign consists of one experience.
+   >
    >* Click on the segment ([http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html](http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html))
    >
    >* The segment is built using the **Order History Property** trait.

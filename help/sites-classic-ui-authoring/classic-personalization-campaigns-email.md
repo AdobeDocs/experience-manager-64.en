@@ -15,8 +15,8 @@ discoiquuid: eb72f934-4b0f-4a71-b2a2-3ddf78db8c3c
 
 >[!NOTE]
 >
->Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
+>Adobe does not plan to further enhance of open/bounced emails sent by the AEM SMTP service.  
+>The recommendation is to [leverage Adobe Campaign and its AEM integration](/help/sites-administering/campaign.md).
 
 E-mail marketing (for example, newsletters) are an important part of any marketing campaign as you use them to push content to your leads. In AEM, you can create newsletters from existing AEM content as well as add new content, specific to the newsletters.
 
@@ -66,24 +66,31 @@ This document describes the basics of creating newsletters in AEM. For more deta
    ![](assets/mcm_newnewsletterdialog.png)
 
     * **From Name** 
+
       Name that should appear as the sender of the newsletter.
     
     * **From Address** 
+
       Mail address that should appear as the sender of the newsletter.
     
     * **Subject** 
+
       Subject of the newsletter.
     
     * **Reply To** 
+
       Mail address that should address replies for sent newsletter.
     
     * **Description** 
+
       Description of the newsletter.
     
     * **On Time** 
+
       The on time for sending the newsletter.
     
     * **Default Recipients List** 
+
       Default list that should receive the newsletter.
 
    These can be updated at a later stage from the **Properties...** dialog.
@@ -179,8 +186,7 @@ To customize newsletter settings:
 
 1.
 
-    1. Enter the **From** e-mail address   
-    
+    1. Enter the **From** e-mail address 
     1. Modify the **Subject** of the e-mail, if necessary. 
     1. Select a **Default Recipients List** from the drop down list. 
     1. Click **OK**.
@@ -212,11 +218,6 @@ To flight test newsletters:
 1. Enter the test mail address where you want the newsletter sent and click **Send**. If you want to change the profile, you load another profile in the client context. You do this by pressing CTRL+ALT+c and selecting Load and loading a profile.
 
 ## Sending Newsletters {#sending-newsletters}
-
->[!NOTE]
->
->Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
 
 You can send out a newsletter from either the newsletter or from the list. Both procedures are described.
 
@@ -268,7 +269,7 @@ To send out a newsletter from a list:
 
 1. Select the check box next to the list of leads you want to send a newsletter to.  
 
-1. In the **Tools **menu, select **Send Newsletter**. The **Send Newsletter** window opens.
+1. In the **Tools** menu, select **Send Newsletter**. The **Send Newsletter** window opens.
 
    ![](assets/mcm_newslettersendfromlist.png)
 

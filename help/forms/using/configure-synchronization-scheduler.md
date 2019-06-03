@@ -22,7 +22,8 @@ Perform the following steps to change the interval of the synchronization schedu
 
 1. Locate and open the **FormsManagerConfiguration** bundle.
 
-1. Specify a new value for the **Synchronization Scheduler Frequency** option.  
+1. Specify a new value for the **Synchronization Scheduler Frequency** option.
+
    The unit of the frequency is minutes. For example, to configure the scheduler to run after every 60 minutes, specify 60.
 
 ## Synchronizing assets {#synchronizing-assets}

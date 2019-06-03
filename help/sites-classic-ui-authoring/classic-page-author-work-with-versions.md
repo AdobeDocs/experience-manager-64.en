@@ -30,7 +30,8 @@ To create a new version of a page:
 
 1. Enter a **Comment** (optional).
 1. To set a label to the version (optional), click the **More &gt;&gt;** button and set the **Label** to name the version. If the label is not set, the version is an automatically incremented number.
-1. Click **Create Version**. A greyed message is displayed on the page; for example:  
+1. Click **Create Version**. A greyed message is displayed on the page; for example: 
+
    Version 1.2 created for: Shirts.
 
 >[!NOTE]
@@ -69,7 +70,7 @@ This method can be used to restore a page version. It can also be used to restor
 
 1. In the **Websites** console, navigate to the folder you want to restore and select it.
 1. From the top menu select **Tools**, then **Restore**.
-1. Selecting** Restore Tree...** opens the dialog to let you select the tree you want to restore:
+1. Selecting **Restore Tree...** opens the dialog to let you select the tree you want to restore:
 
    ![](assets/screen_shot_2012-02-08at45743pm-1.png)
 
@@ -141,7 +142,6 @@ The calendar version is used if you have a specific day to be viewed:
 1. When you have finished viewing the page, click:
 
     * **Exit Timewarp** to exit and return to the current author page.
-    
     * [Show Timeline](#using-the-timewarp-timeline) to view the timeline.
 
    ![](assets/chlimage_1-107.png)
@@ -155,7 +155,6 @@ If you want to view the timeline of the document:
 1. To show the Timeline you can either:
 
     1. Open the **Versioning** tab and then click **Timewarp** (near the bottom of the sidekick).
-    
     1. Use the sidekick dialog shown after [using the Timewarp Calendar](#using-the-timewarp-calendar).
 
 1. Click on **Show Timeline** - the document's timeline will appear; for example:
@@ -164,8 +163,10 @@ If you want to view the timeline of the document:
 
 1. Select and move (hold and drag) the timeline to move through the document's timeline.
 
-    * All lines indicate published versions.  
-      When a page is activated, a new line starts. Every time the document is edited a new color appears.  
+    * All lines indicate published versions. 
+
+      When a page is activated, a new line starts. Every time the document is edited a new color appears. 
+
       In the example below, the red line indicates that the page was edited during the timeframe of the initial green version and the yellow line indicates that the page was edited sometime during the red version etc.
 
    ![](assets/chlimage_1-109.png)

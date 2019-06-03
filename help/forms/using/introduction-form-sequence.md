@@ -26,10 +26,8 @@ Let's take a use case where you need to create a sequence for fill, verify, sign
 
    In this example, we can add the following panels:
 
-    * **Fill**: It contains forms fields for capturing data. Here, you can include nested sub-panels to create sections for different types of information, such as personal, family, financial, and so on.  
-    
-    * **Verify**: It contains the **Verify** component that can be used in an XFA-based adaptive form. It displays the information captured in the Fill panel in read-only mode for verification.  
-    
+    * **Fill**: It contains forms fields for capturing data. Here, you can include nested sub-panels to create sections for different types of information, such as personal, family, financial, and so on. 
+    * **Verify**: It contains the **Verify** component that can be used in an XFA-based adaptive form. It displays the information captured in the Fill panel in read-only mode for verification. 
     * **E-sign**: It contains the **Sign **component that can be used in an XFA-based adaptive form. it provides the following signing services:
 
         * Adobe Document Cloud eSign services

@@ -43,13 +43,9 @@ You can configure relational databases using AEM Web Console Configuration. Do t
    >
    >Ensure that you encrypt sensitive information like passwords before configuring the data source. To encrypt:
    >
-   >    
-   >    
-   >    1. Go to `https://[server]:[port]/system/console/crypto`.
-   >    1. In the **[!UICONTROL Plain Text]** field, specify the password or any string to encrypt and click **[!UICONTROL Protect]**.
-   >    
-   >    
-   >    
+   >1. Go to `https://[server]:[port]/system/console/crypto`.
+   >1. In the **[!UICONTROL Plain Text]** field, specify the password or any string to encrypt and click **[!UICONTROL Protect]**.
+   >
    >The encrypted text appears in the Protected Text field that you can specify in the configuration.
 
 1. Enable **[!UICONTROL Test on Borrow]** or **[!UICONTROL Test on Return]** to specify that the objects are validated before being borrowed or returned from and to the pool, respectively.
@@ -93,9 +89,7 @@ To configure the folder for cloud service configurations:
 1. Do the following to enable the global folder for cloud configurations or skip this step to create and configure another folder for cloud service configurations.
 
     1. In the **[!UICONTROL Configuration Browser]**, select the `global` folder and tap **[!UICONTROL Properties]**.
-    
     1. In the **[!UICONTROL Configuration Properties]** dialog, enable **[!UICONTROL Cloud Configurations]**.
-    
     1. Tap **[!UICONTROL Save & Close]** to save the configuration and exit the dialog.
 
 1. In the **[!UICONTROL Configuration Browser]**, tap **[!UICONTROL Create]**.

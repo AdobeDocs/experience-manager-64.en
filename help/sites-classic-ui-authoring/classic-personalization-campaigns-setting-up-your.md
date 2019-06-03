@@ -214,7 +214,7 @@ To import leads from a comma-separated list:
    >
    >Alternatively, you can import leads by doing one of the following:
    >
-   >* In the Dashboard, click **Import Leads** in the **Lists** pane  
+   >* In the Dashboard, click **Import Leads** in the **Lists** pane 
    >* Click **Lists** and in the **Tools** menu, select **Import Leads**.  
 
 1. In the **Tools** menu, select **Import Leads**.  
@@ -228,7 +228,7 @@ To import leads from a comma-separated list:
 
    ![](assets/screen_shot_2012-02-21at123055pm.png)
 
-1. Click** Next**. Here, you preview the leads to ensure they are accurate.
+1. Click **Next**. Here, you preview the leads to ensure they are accurate.
 
    ![](assets/screen_shot_2012-02-21at123104pm.png)
 

@@ -37,7 +37,6 @@ Perform the following steps to customize the default app icon and the launch ima
 1. (***For customizing launch images***) Ensure that the filenames of your images are:
 
     * For portrait: `Default-Portrait~ipad.png` and `Default-Portrait@2x~ipad.png`
-    
     * For landscape: `Default-Landscape~ipad.png` and `Default-Landscape@2x~ipad.png`
 
    Upload them to the Capture project to replace existing files in the project.
@@ -89,7 +88,8 @@ Perform the following steps to customize the default app icon and the launch ima
 ### For iOS {#for-ios-1}
 
 1. Open the `Capture.xcodeproj` project in Xcode.
-1. In the navigator view of Capture, navigate to **Capture &gt; Capture &gt; Supporting Files &gt; InfoPlist.strings**.   
+1. In the navigator view of Capture, navigate to **Capture &gt; Capture &gt; Supporting Files &gt; InfoPlist.strings**. 
+
    Update the value for the `CFBundleDisplayName` attribute to a name you want to display for the app.  
 
 1. Build and run AEM Forms app on iOS device or iOS simulator.

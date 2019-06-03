@@ -97,11 +97,11 @@ You can search for digital assets based on one or more of the following properti
       In the Enter Keywords field, start typing and then press Enter.  
 
       The current view is filtered based on the keywords that you type. Files are displayed as search results if your keywords match the file's name, metadata tags, or other properties.
-    
+  
     * Search using properties  
 
-      To search for a video file based on a property such as the video's type, you can narrow the search by selecting a video or audio property. For example, expand the Video Format drop-down, and then check one or more values. Some properties require you to enter a minimum and maximum value.  
-    
+      To search for a video file based on a property such as the video's type, you can narrow the search by selecting a video or audio property. For example, expand the Video Format drop-down, and then check one or more values. Some properties require you to enter a minimum and maximum value. 
+  
     * Search using keywords and properties  
 
       Enter a keyword but instead of pressing Enter, expand a video or audio property list, and then set the values you want.

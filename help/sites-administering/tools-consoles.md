@@ -211,7 +211,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="/help/sites-authoring/campaigns.md">Campaigns</a></td> 
+   <td><a href="/help/sites-classic-ui-authoring/classic-personalization-campaigns.md">Campaigns</a></td> 
    <td>Manage your marketing campaigns.</td> 
   </tr> 
   <tr> 

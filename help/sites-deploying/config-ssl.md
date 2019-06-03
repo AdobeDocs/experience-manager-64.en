@@ -97,7 +97,6 @@ Configure the Apache Felix Jetty-based HTTP service to use SSL, employing your c
 1. Click **Create** &gt;  **Create Node** and enter the following properties:
 
     * **Name**: `org.apache.felix.http`
-    
     * **Type**: `sling:OsgiConfig`
 
 1. Add properties to the node according to the following table:
@@ -155,15 +154,12 @@ The following example redirects traffic to `localhost:4502` to `http://localhost
 1. Click the `/etc/map/http` folder and click **Create** &gt;  **Create Node**:
 
     * **Name**: `localhost.4502`
-    
     * **Type**: `sling:mapping`
 
 1. Create the following property for this node:
 
     * **Name**: `sling:redirect`
-    
     * **Type**: `String`
-    
     * **Value**: `http://localhost:5433`
 
 1. Click **Save All**.

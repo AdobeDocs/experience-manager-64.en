@@ -38,11 +38,9 @@ The structure of a website can be thought of as a tree structure that holds your
 
 The following shows an example from the We.Retail site, where a hiking shorts page ( `desert-sky-shorts`) is accessed:
 
-* Author environment  
-  `http://localhost:4502/editor.html/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html`
+* Author environment: `http://localhost:4502/editor.html/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html`
 
-* Publish environment  
-  `http://localhost:4503/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html`
+* Publish environment: `http://localhost:4503/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html`
 
 Depending on the configuration of your instance, use of `/content` might be optional on the publish environment.
 
@@ -84,12 +82,12 @@ When creating a new page there are two keys fields:
 
 * **[Title](#title)**:
 
-    * This is displayed to the user in the console and shown at the top of the page content when editing.  
+    * This is displayed to the user in the console and shown at the top of the page content when editing. 
     * This field is mandatory.
 
 * **[Name](#name)**:
 
-    * This is used to generate the URI.  
+    * This is used to generate the URI. 
     * User input for this field is optional. If not specified, the name is derived from the title. See the following section [Page Name Restrictions and Best Practices](/help/sites-authoring/managing-pages.md#page-name-restrictions-and-best-practices) for details.
 
 #### Page Name Restrictions and Best Practices {#page-name-restrictions-and-best-practices}
@@ -103,7 +101,6 @@ The page **Title** and **Name** can be created separately but are related:
 >[!NOTE]
 >
 >When defining a page name, a good rule-of-thumb is to keep the page name as brief but as expressive and memorable as possible to make it easy to understand for the reader. See the [W3C style guide](https://www.w3.org/Provider/Style/TITLE.html) for the `title` element for more information.  
-
 >
 >Also keep in mind that some browsers (e.g. older versions of IE) can only accept URLs up to a certain length, so there is also technical reason to keep page names short.
 
@@ -195,16 +192,14 @@ Unless all pages have been created for you in advance, before you can start crea
 
 1. From the first stage of the wizard you can either:
 
-    * Select the template you want used to create the new page, then click/tap **Next** to proceed.  
-    
+    * Select the template you want used to create the new page, then click/tap **Next** to proceed.
     * **Cancel** to abort the process.
 
    ![](assets/chlimage_1-8.png)
 
 1. From the final stage of the wizard you can either:
 
-    * Use the three tabs to enter the [page properties](/help/sites-authoring/editing-page-properties.md) you want assigned to the new page, then click/tap **Create** to actually create the page.  
-    
+    * Use the three tabs to enter the [page properties](/help/sites-authoring/editing-page-properties.md) you want assigned to the new page, then click/tap **Create** to actually create the page.
     * Use **Back** to return to template selection.
 
    Key fields are:
@@ -216,8 +211,7 @@ Unless all pages have been created for you in advance, before you can start crea
     * **Name**:
 
         * This is used to generate the URI. If not specified, the name is derived from the title.
-        * If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites-developing/naming-conventions.md) imposesd by AEM and JCR.  
-        
+        * If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites-developing/naming-conventions.md) imposesd by AEM and JCR.
         * You **cannot submit invalid characters** in the **Name** field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.
 
    >[!NOTE]
@@ -326,8 +320,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
 1. From the **Rename** stage of the wizard you can either:
 
-    * Specify the name you want the page to have after it is moved, then click/tap **Next** to proceed.  
-    
+    * Specify the name you want the page to have after it is moved, then click/tap **Next** to proceed.
     * **Cancel** to abort the process.
 
    ![](assets/chlimage_1-11.png)
@@ -342,7 +335,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
     * Use the [column view](/help/sites-authoring/basic-handling.md#column-view) to navigate to the new location for the page:
 
-        * Select the destination it by clicking the destination's thumbnail.  
+        * Select the destination it by clicking the destination's thumbnail. 
         * Click **Next** to continue.
 
     * Use **Back** to return to page name specification.

@@ -36,7 +36,7 @@ An email or newsletter that you want to publish to an e-mail service can be crea
 To create a new email that is published to the configured e-mail service:
 
 1. Go to **Websites** and then **Campaigns**. Select a campaign. 
-1. Click **New** to open the **Create Page **window.
+1. Click **New** to open the **Create Page** window.
 1. Enter the title, name, and select the **Geometrixx Newsletter** template from the list of available templates.
 1. Click **Create**.
 1. Open the created email. 
@@ -52,7 +52,7 @@ To create a new email that is published to the configured e-mail service:
 The **Email Tools** component for ExactTarget can add more email functionality to your email/newsletter.
 
 1. Open an email to be published to ExactTarget.
-1. Add the component **ET - Email Tools **to your page using the sidekick. Open the component in Edit mode.
+1. Add the component **ET - Email Tools** to your page using the sidekick. Open the component in Edit mode.
 
    ![](assets/chlimage_1.gif)
 
@@ -117,7 +117,7 @@ You can add personalized fields in an email by adding the **Text and Personaliza
    ![](assets/chlimage_1-110.png)
 
 1. Add the required personalized field to the text by selecting the field from the drop-down menu and clicking **Insert**.
-1. Click **OK **to finish.
+1. Click **OK** to finish.
 
 ## Applying E-mail Service Configuration to E-mail Settings {#applying-e-mail-service-configuration-to-e-mail-settings}
 
@@ -162,7 +162,7 @@ The **Update** button on the Publish dialog box lets you update a newsletter alr
 To update a published email:
 
 1. Open the email/newsletter that has previously been published to an e-mail service provider that you want to re-publish after making changes to the email/newsletter.
-1. Click **Publish**. The** Publish Newsletter to Email Service Provider **window displays. Click **Update**.
+1. Click **Publish**. The **Publish Newsletter to Email Service Provider** window displays. Click **Update**.
 
    To check if the email/newsletter has been updated on ExactTarget, click **View Published Email**. This takes you to the published email in ExactTarget.
 

@@ -13,22 +13,54 @@ discoiquuid: 9cadec1b-f435-4fd8-b4bc-1a23a0cf11f3
 
 # Selecting your UI{#selecting-your-ui}
 
-Although the touch-enabled UI is now the standard UI and feature parity has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the [classic UI](/help/sites-classic-ui-authoring/classicui.md). There are several options for doing this.
+## Understanding the UIs
+
+The author environment allows for:
+
+* [Authoring](/help/sites-authoring/author.md) (including [page authoring](/help/sites-authoring/author-environment-tools.md), [managing assets](/help/assets/home.md), [communities](/help/communities/author-communities.md))  
+
+* [Administering](/help/sites-administering/home.md) tasks you need when generating and maintaining the content on your website
+
+Two graphical user interfaces are provided to achieve this. These are accessible through any modern browser.
+
+1. Touch-Enabled UI
+
+    * This is the modern, default AEM UI.
+    * It is predominantly grey, with a clean, flat interface.
+    * Designed for use on both touch and desktop devices, the look and feel is the same on all devices, though [viewing and selecting your resources](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources) differs slightly (taps versus clicks).
+
+        * Desktop:
+
+   ![](assets/screen_shot_2018-03-23at115248.png)
+
+    * Tablet devices (or desktop less than 1024 pixels wide):
+
+   ![](assets/screen_shot_2018-03-23at115505.png)
+
+1. Classic UI
+
+    * This is the legacy UI and has been available in AEM for many years.
+    * It is predominantly green.
+    * It was designed for use on desktop devices.
+    * The following documentation focuses on the modern UI. For information about authoring in the classic UI, see the [Authoring documentation for the Classic UI](/help/sites-classic-ui-authoring/classicui.md).
+
+   ![](assets/chlimage_1-232.png)
+
+## Switching UIs
+
+Although the touch-enabled UI is now the standard UI and [feature parity](../release-notes/touch-ui-features-status.md) has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the [classic UI](/help/sites-classic-ui-authoring/classicui.md). There are several options for doing this.
 
 >[!NOTE]
 >
->For details on the status of feature parity with the classic UI, see the [Touch UI Feature Parity](/help/release-notes/touch-ui-features-status.md) document.
+>For details on the status of feature parity with the classic UI, see the [Touch UI Feature Parity](../release-notes/touch-ui-features-status.md) document.
 
 There are various locations where you can define which UI is to be used:
 
-* [Configuring the default UI for your instance](#configuring-the-default-ui-for-your-instance)  
-  This will set the default UI to be shown at user login, although the user may be able to override this and select a different UI for their account or current session.  
+* [Configuring the default UI for your instance](#configuring-the-default-ui-for-your-instance) - This will set the default UI to be shown at user login, although the user may be able to override this and select a different UI for their account or current session.  
 
-* [Setting Classic UI Authoring for your account](/help/sites-authoring/select-ui.md#setting-classic-ui-authoring-for-your-account)  
-  This will set the UI to be used as default when editing pages, although the user can override this and select a different UI for their account or current session.  
+* [Setting Classic UI Authoring for your account](/help/sites-authoring/select-ui.md#setting-classic-ui-authoring-for-your-account) - This will set the UI to be used as default when editing pages, although the user can override this and select a different UI for their account or current session.  
 
-* [Switching to classic UI for the current session](#switching-to-classic-ui-for-the-current-session)  
-  This switches to the classic UI for the current session.
+* [Switching to classic UI for the current session](#switching-to-classic-ui-for-the-current-session) - This switches to the classic UI for the current session.
 
 * For the case of [page authoring the system makes certain overrides in the relation to the UI](#ui-overrides-for-the-editor).
 
@@ -106,10 +138,12 @@ The settings defined by a user or system administrator can be overriden by the s
 
 * When authoring pages:
 
-    * Use of the classic editor is forced when accessing the page using `cf#` in the URL. For example:  
+    * Use of the classic editor is forced when accessing the page using `cf#` in the URL. For example: 
+
       `http://localhost:4502/cf#/content/geometrixx/en/products/triangle.html`
-    
-    * Use of the touch-enabled editor is forced when using `/editor.html` in the URL or when using a touch device. For example:  
+
+    * Use of the touch-enabled editor is forced when using `/editor.html` in the URL or when using a touch device. For example: 
+
       `http://localhost:4502/editor.html/content/geometrixx/en/products/triangle.html`
 
 * Any forcing is temporary and only valid for the browser session
@@ -119,7 +153,7 @@ The settings defined by a user or system administrator can be overriden by the s
 * When opening pages through `siteadmin`, checks will be made for the existence of:
 
     * The cookie
-    * A user preference  
+    * A user preference 
     * If neither exist, it will default to the definitions set in the [OSGi configuration](/help/sites-deploying/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service).
 
 >[!NOTE]

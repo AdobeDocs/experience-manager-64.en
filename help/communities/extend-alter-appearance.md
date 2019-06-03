@@ -29,7 +29,7 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 
     * comment out the tag which includes the avatar for a comment post (~ line 21):
 
-      ```    
+      ``` 
       <!--
        <<img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>
        -->
@@ -39,7 +39,7 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 
     * comment out the tag which includes the avatar for the next comment entry (~ line 44):
 
-      ```    
+      ``` 
       <!--
        <img class="scf-composer-avatar" src="{{loggedInUser.avatarUrl}}"></img>
        -->

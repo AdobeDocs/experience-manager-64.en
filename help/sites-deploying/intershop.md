@@ -54,9 +54,7 @@ A database initialization needs to be performed on `adobe_init`. To do that:
 1. Login to the new Geometrixx organization:
 
     * **Login**: `admin`
-    
     * **Password**: `intershop7`
-    
     * **Organization**: `Geometrixx`
 
 >[!NOTE]
@@ -74,7 +72,7 @@ To install AEM with an Intershop integration configuration (using the demonstrat
    >
    >Packages are available on demand. To be able to find and download them, please [contact Intershop](https://www.intershop.com/contact).
 
-1. [Author](/help/sites-authoring/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites-authoring/qg-page-authoring.md) any supplementary pages that you need in AEM.
 
 Configure the Intershop REST Client:
 

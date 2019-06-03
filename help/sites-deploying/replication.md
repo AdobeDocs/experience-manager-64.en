@@ -79,38 +79,38 @@ To follow this example and use the default replication agents you need to [Insta
 
 ### Replication (Author to Publish) {#replication-author-to-publish}
 
-1. Navigate to the support page on the author environment.  
+1. Navigate to the support page on the author environment.
+
    `http://localhost:4502/content/geometrixx/en/support.html` 
+
 1. Edit the page to add some new text.
 1. **Activate Page** to publish the changes.
-1. Open the support page on the publish environment:  
+1. Open the support page on the publish environment: 
+
    `http://localhost:4503/content/geometrixx/en/support.html`
+
 1. You can now see the changes that you entered on author.
 
 This replication is actioned from the author environment by the:
 
 * **Default Agent (publish)** 
-  This agent replicates content to the default publish instance.  
-  Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or:  
+  This agent replicates content to the default publish instance.
+
+  Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or: 
+
   `http://localhost:4502/etc/replication/agents.author/publish.html`.
 
 ### Replication Agents - Out of the Box {#replication-agents-out-of-the-box}
 
 The following agents are available in a standard AEM installation:
 
-* [Default Agent](#replication-author-to-publish)  
-  Used for replicating from author to publish.
+* [Default Agent](#replication-author-to-publish) - Used for replicating from author to publish.
 
-* Dispatcher Flush  
-  This is used for managing the Dispatcher cache. See [Invalidating Dispatcher Cache from the Authoring Environment](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-the-authoring-environment) and [Invalidating Dispatcher Cache from a Publishing Instance](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-a-publishing-instance) for more information.
+* Dispatcher Flush - This is used for managing the Dispatcher cache. See [Invalidating Dispatcher Cache from the Authoring Environment](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-the-authoring-environment) and [Invalidating Dispatcher Cache from a Publishing Instance](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-a-publishing-instance) for more information.
 
-* [Reverse Replication](#replicating-from-publish-to-author)  
-  Used for replicating from publish to author. Reverse replication is not used for Communities features, such as forums, blogs, and comments. It is effectively disabled as the outbox is not enabled. Use of reverse replication would require custom configuration.
+* [Reverse Replication](#replicating-from-publish-to-author) - Used for replicating from publish to author. Reverse replication is not used for Communities features, such as forums, blogs, and comments. It is effectively disabled as the outbox is not enabled. Use of reverse replication would require custom configuration.
 
-* Static Agent  
-  This is an "Agent that stores a static representation of a node into the filesystem.".  
-  For example with the default settings, content pages and dam assets are stored under `/tmp`, either as HTML or the appropriate asset format. See the `Settings` and `Rules` tabs for the configuration.  
-  This was requested so that when the page is requested directly from the application server the content can be seen. This is a specialized agent and (probably) will not be required for most instances.
+* Static Agent - This is an "Agent that stores a static representation of a node into the filesystem." For example with the default settings, content pages and dam assets are stored under `/tmp`, either as HTML or the appropriate asset format. See the `Settings` and `Rules` tabs for the configuration. This was requested so that when the page is requested directly from the application server the content can be seen. This is a specialized agent and (probably) will not be required for most instances.
 
 ## Replication Agents - Configuration Parameters {#replication-agents-configuration-parameters}
 
@@ -132,9 +132,9 @@ When configuring a replication agent from the Tools console, four tabs are avail
 
   When the agent is **enabled** the queue will be shown as:
 
-    * **Active **when items are being processed.
-    * **Idle **when the queue is empty.
-    * **Blocked **when items are in the queue, but cannot be processed; for example, when the receiving queue is disabled.
+    * **Active** when items are being processed.
+    * **Idle** when the queue is empty.
+    * **Blocked** when items are in the queue, but cannot be processed; for example, when the receiving queue is disabled.
 
 * **Serialization Type**
 
@@ -281,15 +281,15 @@ The following settings are only needed if a proxy is needed:
 
   These are used, as appropriate, to indicate the action to be used when flushing the handle or path. The sub-parameters are dynamic:
 
-    * `{action}` indicates a replication action  
-    
+    * `{action}` indicates a replication action 
     * `{path}` indicates a path
 
   They are substituted by the path/action relevant to the request and therefore do not need to be "hardcoded":
 
   >[!NOTE]
   >
-  >If you have installed AEM in a context other than the recommended default context, then you will need to register the context in the HTTP Headers. For example:  
+  >If you have installed AEM in a context other than the recommended default context, then you will need to register the context in the HTTP Headers. For example: 
+  >
   >`CQ-Handle:/<*yourContext*>{path}`
 
 * **Close Connection**
@@ -421,12 +421,12 @@ To configure replication of content for an additional publish instance you need 
         * Activate **Enabled**.
         * Enter a **Description**.
         * Set the **Retry Delay** to `60000`.
-        
         * Leave the **Serialization Type** as `Default`.
 
     * In the **Transport** tab:
 
-        * Enter the required URI for the new publish instance; for example,  
+        * Enter the required URI for the new publish instance; for example, 
+
           `http://localhost:4504/bin/receive`.
         
         * Enter the site-specific user account used for replication.
@@ -443,7 +443,6 @@ If you encounter any problems, you can check the logs on the author instance. De
 >[!NOTE]
 >
 >This can be combined with use of the [Agent User Id](#settings) to select different content for replicating to the individual publish environments. For each publish environment:  
-
 >
 >1. Configure a replication agent for replicating to that publish environment.
 >1. Configure a user account; with the access rights required to read the content that will be replicated to that specific publish environment.
@@ -456,7 +455,7 @@ Default agents are included with the installation. However, certain configuratio
 
 1. Open the **Tools** tab in AEM.
 1. Click **Deployment**.
-1. Select **Replication **and then **Agents on publish**.
+1. Select **Replication** and then **Agents on publish**.
 1. Double-click on the **Dispatcher Flush** item to open the overview.
 1. Click **Edit** - the **Agent Settings** dialog will open:
 
@@ -465,12 +464,12 @@ Default agents are included with the installation. However, certain configuratio
         * Activate **Enabled**.
         * Enter a **Description**.
         * Leave the **Serialization Type** as `Dispatcher Flush`, or set it as such if creating a new agent.
-        
         * (optional) Select **Alias update** to enable alias or vanity path invalidation requests to Dispatcher.
 
     * In the **Transport** tab:
 
-        * Enter the required URI for the new publish instance; for example,  
+        * Enter the required URI for the new publish instance; for example, 
+
           `http://localhost:80/dispatcher/invalidate.cache`.
         
         * Enter the site-specific user account used for replication.
@@ -530,7 +529,6 @@ To monitor a replication agent:
     * See whether the replication queue is currently active (enabled).
     * See whether there are any items in the queue.
     * **Refresh** or **Clear** to update the display of queue entries; this helps you see items enter and leave the queue.
-    
     * **View Log** to access the log of any actions by the replication agent.
     * **Test Connection** to the target instance.
     * **Force Retry** on any queue items if required.
@@ -539,11 +537,9 @@ To monitor a replication agent:
    >
    >Do not use the "Test Connection" link for the Reverse Replication Outbox on a publish instance.
    >
-   >If a replication test is performed for an Outbox queue, any items that are older than the test replication will be re-processed with every reverse replication.  
-
+   >If a replication test is performed for an Outbox queue, any items that are older than the test replication will be re-processed with every reverse replication. 
    >
-   >If such items already exist in a queue, they can be found with the following XPath JCR query and should be removed.  
-
+   >If such items already exist in a queue, they can be found with the following XPath JCR query and should be removed. 
    >
    >`/jcr:root/var/replication/outbox//*[@cq:repActionType='TEST']`
 
@@ -566,17 +562,3 @@ For additional information, Adobe has a series of Knowledge Base articles relate
 [https://helpx.adobe.com/experience-manager/kb/ACLReplication.html](https://helpx.adobe.com/experience-manager/kb/ACLReplication.html)  
 [https://helpx.adobe.com/experience-manager/kb/content-grow-due-reverse-replication.html](https://helpx.adobe.com/experience-manager/kb/content-grow-due-reverse-replication.html)  
 [https://helpx.adobe.com/experience-manager/kb/ReplicationAgentUsingAnonUser.html](https://helpx.adobe.com/experience-manager/kb/ReplicationAgentUsingAnonUser.html)
-
-https://helpx.adobe.com/experience-manager/kb/ReplicationSiblingReordering.html   
-https://helpx.adobe.com/experience-manager/kb/ReplicationFailureAfterNewIP.html   
-https://helpx.adobe.com/experience-manager/kb/LimitAccessToReplicationAgents.html   
-https://helpx.adobe.com/experience-manager/kb/PagePermissionsNotReplicatedWithUser.html   
-https://helpx.adobe.com/experience-manager/kb/HowToUseReverseReplication.html   
-https://helpx.adobe.com/experience-manager/kb/CQ5ReplicateToSpecificAgents.html   
-https://helpx.adobe.com/experience-manager/kb/ReplicationListener.html   
-https://helpx.adobe.com/experience-manager/kb/replication-stuck.html   
-https://helpx.adobe.com/experience-manager/kb/replication-privileges-missing-after-upgrade-to-cq-5-5.html   
-https://helpx.adobe.com/experience-manager/kb/CQ53UnableToCreateJobQueueDueToMaxQueues.html   
-https://helpx.adobe.com/experience-manager/kb/ACLReplication.html   
-https://helpx.adobe.com/experience-manager/kb/content-grow-due-reverse-replication.html   
-https://helpx.adobe.com/experience-manager/kb/ReplicationAgentUsingAnonUser.html  

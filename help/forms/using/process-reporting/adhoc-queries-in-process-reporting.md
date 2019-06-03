@@ -119,11 +119,8 @@ Use the options in the **My Filters** panel to **Add** ![](assets/lc_pr_add_filt
 1. The following fields are displayed in a Process Search result:
 
     * **Process ID**: The ID of the process. The field is hyperlinked. If you click a process ID in this field, you are redirected to the **[!UICONTROL Process Details]** panel for the process.  
-    
     * **Initiator**: The AEM Forms user who started the process instance  
-    
     * **Created Time**: The date and time when the process instance started  
-    
     * **Completed Time**: The date and time when the process instance completed
     * **Duration**: The duration from start to completion of the process instance
     * **Status**: The current status of the process instance.
@@ -135,9 +132,7 @@ Use the options in the **My Filters** panel to **Add** ![](assets/lc_pr_add_filt
    Similarly, the following fields are displayed in a Task Search result:
 
     * **Task ID**: The ID of the task. The field is hyperlinked. If you click a task ID in this field, you are redirected to the **[!UICONTROL Task Details]** panel for the task.  
-    
     * **Initiator**: The AEM Forms user who started the process instance  
-    
     * **Created Time**: The date and time when the process instance started  
     
     * **Completed Time**: The date and time when the process instance completed
@@ -154,7 +149,6 @@ Use the options in the **My Filters** panel to **Add** ![](assets/lc_pr_add_filt
 1. Use the options in the upper right corner of the **Report **panel to perform operations on the query result.
 
     * **Refresh**: Refreshes the report with latest data lying in the storage  
-    
     * **Export to CSV**: Export the report data to a comma-separated file.
 
    >[!NOTE]
@@ -171,8 +165,7 @@ Similarly, you use the **Task Details** panel to view the details of a specific 
 
 You can view the details of a specific AEM Forms process/task:
 
-* **From a Process/Task Search result  
-  **
+* **From a Process/Task Search result**
 * **By entering the Process/Task ID in the Process/Task Details panel**
 
 #### From a Process/Task Search result {#from-a-process-task-search-result}
@@ -240,7 +233,7 @@ You can view the details of a specific AEM Forms process/task:
 
    **Upper-Right panel:** Displays the following details of the forms that make up selected task:
 
-    * Foprm ID  
+    * Form ID  
     * Form creation date time
     * Form update date time
     * Form template Url

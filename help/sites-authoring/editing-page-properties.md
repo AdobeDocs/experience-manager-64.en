@@ -149,9 +149,11 @@ The properties are distributed across several tabs.
    Shows the page thumbnail image. You can:
 
     * **Generate Preview** 
-      Generate a preview of the page to use as thumbnail.  
-    
+
+      Generate a preview of the page to use as thumbnail. 
+
     * **Upload Image** 
+
       Upload an image to use as thumbnail.
 
 ### Social Media {#social-media}
@@ -175,7 +177,7 @@ The properties are distributed across several tabs.
 
 * **Personalization**
 
-  Select a [Brand to specify a scope for Targeting](/help/sites-authoring/campaigns.md).
+  Select a [Brand to specify a scope for Targeting](/help/sites-authoring/personalization.md).
 
 ### Permissions {#permissions}
 
@@ -184,8 +186,7 @@ The properties are distributed across several tabs.
   In this tab you can:
 
     * [Add Permissions](/help/sites-administering/user-group-ac-admin.md)
-    * [Edit Closed User Group](/help/sites-administering/cug.md#applying-your-closed-user-group-to-content-pages)  
-    
+    * [Edit Closed User Group](/help/sites-administering/cug.md#applying-your-closed-user-group-to-content-pages) 
     * View the [Effective Permissions](/help/sites-administering/user-group-ac-admin.md)
 
   >[!CAUTION]
@@ -221,8 +222,7 @@ You can define page properties:
 
 * From the **Sites** console:
 
-    * [Creating a new page](/help/sites-authoring/managing-pages.md#creating-a-new-page) (a subset of the properties)  
-    
+    * [Creating a new page](/help/sites-authoring/managing-pages.md#creating-a-new-page) (a subset of the properties)
     * Clicking or tapping **Properties**
 
         * For a single page
@@ -234,7 +234,7 @@ You can define page properties:
 
 ### From the Sites Console - Single Page {#from-the-sites-console-single-page}
 
-Clicking or tapping** Properties** to define the page properties:
+Clicking or tapping **Properties** to define the page properties:
 
 1. Using the **Sites** console, navigate to the location of the page for which you want to view and edit properties.  
 
@@ -259,7 +259,7 @@ When editing a page you can use **Page Information** to define the page properti
 
    ![](assets/screen_shot_2018-03-22at095740.png)
 
-1. Select** Open Properties** and a dailog will open allowing you to edit the properties, sorted by the appropriate tab. The following buttons are also available at the right of the toolbar:
+1. Select **Open Properties** and a dailog will open allowing you to edit the properties, sorted by the appropriate tab. The following buttons are also available at the right of the toolbar:
 
     * **Cancel**
     * **Save & Close**
@@ -310,7 +310,7 @@ Once you have entered Bulk Editing you can:
 
     * A subset of properties
 
-        * Properties that are available on all selected pages and have been explicitly defined as available to bulk editing are visible.  
+        * Properties that are available on all selected pages and have been explicitly defined as available to bulk editing are visible.
         * If you reduce the page selection to one page, then all properties are visible.
 
     * Common properties with a common value

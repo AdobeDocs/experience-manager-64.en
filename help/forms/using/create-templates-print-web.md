@@ -65,7 +65,6 @@ Execute the following steps to create an XDP template for the Print channel:
 1. In the **Bindings** tab:
 
     1. Specify **BillDetails** in the **Name** field.
-    
     1. Select **No data binding** from the **Data Binding** drop-down list.
 
    ![](assets/forms_designer_subform.png)
@@ -73,7 +72,6 @@ Execute the following steps to create an XDP template for the Print channel:
 1. Similarly, select the root subform, select the **Subform** tab, and select **Flowed** from the **Content** drop-down list. In the **Bindings** tab:
 
     1. Specify **TelecaBill** in the **Name** field.
-    
     1. Select **No data binding** from the **Data Binding** drop-down list.
 
    ![](assets/root_subform_print_template.png)
@@ -105,7 +103,6 @@ Execute the following steps to create an XDP template for the Print channel:
 
     1. Navigate to the location to save the file and specify the name as **create_first_ic_print_template**.
     1. Select **.xdp** from the **Save as type** drop-down list.
-    
     1. Tap **Save**.
 
 ### Upload XDP template to the AEM Forms server {#upload-xdp-template-to-the-aem-forms-server}
@@ -155,7 +152,6 @@ To create a layout fragment for the Print channel of the Interactive Communicati
 
     1. Navigate to the location to save the file and specify the name as **table_lf**.
     1. Select **.xdp** from the **Save as type** drop-down list.
-    
     1. Tap **Save**.
 
    Once you have created an XDP template for layout fragment using the Forms Designer, you must [upload](/help/forms/using/create-templates-print-web.md#upload-xdp-template-to-the-aem-forms-server) it to AEM Forms server so that the template is available for use while creating layout fragments.
@@ -225,7 +221,6 @@ Execute the following steps to create a template for the Web channel in the **Cr
     1. Specify **billdetails** in the Name field.
     1. Specify **Bill Details** in the Title field.
     1. Select **1** from the **Number of Columns** drop-down list.
-    
     1. Tap ![](assets/done_icon.png) to save the properties.
 
    The name of the panel is updated to **Bill Details** in the content tree.

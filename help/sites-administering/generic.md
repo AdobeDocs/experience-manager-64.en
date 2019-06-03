@@ -67,13 +67,16 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 
 1. Specify:
 
-    * **Importer** 
+    * **Importer**
+  
       The importer for the specific [commerce provider](/help/sites-administering/concepts.md#commerce-providers), by default `Geometrixx`. 
-    
+  
     * **Source** 
+  
       The file you want imported; you can use the browser to select a file. 
-    
+  
     * **Incremental Import** 
+  
       Indicate whether this is an incremental import (as opposed to full).
 
    >[!NOTE]
@@ -104,17 +107,21 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Specify:
 
     * **Store Name** 
+  
       Products will be imported to:
 
       `/etc/commerce/products/<*store name*>/`
-    
+  
     * **Commerce Provider** 
+  
       The importer for your [commerce provider](/help/sites-administering/concepts.md#commerce-providers); by default Geometrixx. 
-    
-    * **Source File** 
+  
+    * **Source File**
+  
       The location in the repository of the file you want imported. 
-    
+  
     * **Incremental Import** 
+  
       Indicate whether this is an incremental import (as opposed to full).
 
 1. Click **Import Products**.
@@ -567,9 +574,9 @@ To rollout a catalog:
 
 >[!NOTE]
 >
->The following example deals with a promotion held directly in a [campaign](/help/sites-authoring/campaigns.md), this is used for vouchers.
+>The following example deals with a promotion held directly in a [campaign](/help/sites-authoring/personalization.md), this is used for vouchers.
 >
->A promotion can also be in an [experience](/help/sites-authoring/campaigns.md) within a campaign.
+>A promotion can also be in an [experience](/help/sites-authoring/personalization.md) within a campaign.
 >
 >For more information see [Promotions and Vouchers](#promotions).
 

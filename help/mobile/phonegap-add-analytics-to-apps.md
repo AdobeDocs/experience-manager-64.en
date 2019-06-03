@@ -51,7 +51,7 @@ For further details on how to download the ADBMobileConfig from your Mobile Appl
 <jcr:root xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:unstructured"
     extension="json"
-    path="../../../.."            
+    path="../../../.." 
     selector="ADBMobileConfig"
     targetRootDirectory="www"
     type="mobileADBMobileConfigJSON"/>

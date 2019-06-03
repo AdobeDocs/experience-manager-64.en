@@ -25,17 +25,22 @@ These versions are never purged, so the repository size will grow over time and 
 
 AEM is shipped with various mechanisms to help you manage your repository:
 
-* the [Version Manager](#version-manager)  
+* the [Version Manager](#version-manager) 
+
   This can be configured to purge old versions when new versions are created.  
 
-* the [Purge Versions](/help/sites-deploying/monitoring-and-maintaining.md#version-purging) tool  
-  This is used as part of monitoring and maintaining your repository.  
+* the [Purge Versions](/help/sites-deploying/monitoring-and-maintaining.md#version-purging) tool 
+
+  This is used as part of monitoring and maintaining your repository. 
+
   It allows you to intervene to remove old versions of a node, or a hierarchy of nodes, according to these parameters:
 
-    * The maximum number of versions to be kept in the repository.  
-      When this number is exceeded, the oldest version is removed.  
-    
-    * The maximum age of any version kept in the repository.  
+    * The maximum number of versions to be kept in the repository. 
+
+      When this number is exceeded, the oldest version is removed. 
+
+    * The maximum age of any version kept in the repository. 
+
       When the age of a version exceeds this value, it is purged from the repository.
 
 * the [Version Purge maintenance task](/help/sites-administering/operations-dashboard.md#automated-maintenance-tasks). You can schedule the Version Purge maintenance task to delete old versions automatically. As a result, this minimizes the need to manually use the Version Purge tools.
@@ -54,27 +59,36 @@ To configure the Version Manager, create a configuration for:
 
 The following options are available:
 
-* `versionmanager.createVersionOnActivation` (Boolean, default: true)  
-  whether to create a version when pages are activated.  
-  A version is created unless the replication agent is configured to suppress creation of versions, which is honoured by the Version Manager  
+* `versionmanager.createVersionOnActivation` (Boolean, default: true) 
+
+  whether to create a version when pages are activated. 
+
+  A version is created unless the replication agent is configured to suppress creation of versions, which is honoured by the Version Manager 
+
   A version is only created if the activation happens on a paths that is contained in versionmanager.ivPaths (see below).
 
-* `versionmanager.ivPaths` (String[], default: {"/"})  
+* `versionmanager.ivPaths` (String[], default: {"/"}) 
+
   paths on which versions are implicitly created on activation if versionmanager.createVersionOnActivation is true.
 
-* `versionmanager.purgingEnabled` (Boolean, default: false)  
+* `versionmanager.purgingEnabled` (Boolean, default: false) 
+
   whether to enable purging when new versions are created
 
-* `versionmanager.purgePaths` (String[], default: {"/content"})  
+* `versionmanager.purgePaths` (String[], default: {"/content"}) 
+
   on which paths to purge versions when new versions are created.
 
-* `versionmanager.maxAgeDays` (int, default: 30)  
+* `versionmanager.maxAgeDays` (int, default: 30) 
+
   on purge, any version older than this value will be removed. If this value is less than 1, purging is not performed based on the age of the version  
 
-* `versionmanager.maxNumberVersions` (int, default 5)  
+* `versionmanager.maxNumberVersions` (int, default 5) 
+
   on purge, any version older than the n-th newest version will be removed. If this value is less than 1, purging is not performed based on the number of versions
 
-* `versionmanager.minNumberVersions` (int, default 0)  
+* `versionmanager.minNumberVersions` (int, default 0) 
+
   The minimum number of versions to keep regardless of the age. If this value is set to a value less than 1 no minimum number of versions is retained.
 
 >[!NOTE]
@@ -89,8 +103,7 @@ For example, when defining the maximum number of versions to retain AND the olde
 
 * Setting:
 
-    * `maxNumberVersions` = 7  
-    
+    * `maxNumberVersions` = 7
     * `maxAgeDays` = 30
 
 * With:

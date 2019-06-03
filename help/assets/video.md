@@ -54,7 +54,7 @@ The following step-by-step workflow description is designed to help you get up a
         * [Organizing digital assets](organize-assets.md) 
 
           Learn more about [Best practices for organizing your digital assets for using processing profiles](best-practices-for-file-management.md)
-        
+  
         * [Searching video assets](search-video-assets.md) or [Searching assets](managing-assets-touch-ui.md#searching-assets)
 
     * Preview and publish video assets
@@ -66,7 +66,7 @@ The following step-by-step workflow description is designed to help you get up a
           [Viewing video renditions](video-renditions.md)  
 
           [Managing video renditions](managing-assets-touch-ui.md#managing-renditions)
-        
+  
         * [Manage viewer presets](managing-viewer-presets.md)
         * [Publishing assets](publishing-dynamicmedia-assets.md)
 
@@ -75,11 +75,11 @@ The following step-by-step workflow description is designed to help you get up a
         * View the properties of an encoded video rendition such as frame rate, audio and video bitrate, and codec:  
 
           [Viewing video rendition properties](video-renditions.md) 
-        
+  
         * Edit the properties of video such as the title, description, and tags, custom metadata fields:  
 
           [Editing video properties](managing-assets-touch-ui.md#editing-properties)
-        
+  
         * [Managing metadata for digital assets](metadata.md)
         * [Metadata schemas](metadata-schemas.md)
 
@@ -102,7 +102,7 @@ The following step-by-step workflow description is designed to help you get up a
 
           [Linking URLs to your web application](linking-urls-to-yourwebapplication.md).
         * Integrate video using embed code on web page: 
-      
+
           [Embedding the video viewer on a web page](embed-code.md).
 
     * [Publishing videos to YouTube](#publishing-videos-to-youtube).
@@ -566,7 +566,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 1. Tap **Create**.
 1. In the YouTube Account Settings dialog box, in the **Application Name** field, enter the Google Project ID.
 
-   You specified the project ID when you initially configured Google Cloud settings earlier.  
+   You specified the project ID when you initially configured Google Cloud settings earlier. 
    
    Leave the YouTube Account Setting dialog box open; you will return to it in a moment.
 
@@ -621,13 +621,13 @@ To automate the setting of default YouTube properties for your uploaded videos:
     * In the **Field Label** text field, select and copy the value.
 
       Paste the copied value into an open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
-    
+  
     * In the **Map to property** text field, select and copy the value.  
 
-      Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.  
-    
+      Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open. 
+  
     * Under **Choices**, select and copy the default value that you want to use (such as People & Blogs or Science & Technology).
-     
+  
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
 1. Under the YouTube Publishing heading, tap **YouTube Privacy**. (Do not tap the YouTube Privacy drop-down list.)
@@ -636,11 +636,11 @@ To automate the setting of default YouTube properties for your uploaded videos:
     * In the **Field Label** text field, select and copy the value. 
 
       Paste the copied value into an open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
-    
+
     * In the **Map to property** text field, select and copy the value.  
 
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
-    
+
     * Under **Choices**, select and copy the default value that you want to use. Notice that the Choices are grouped in pairs of two. The bottom field in the pair is the default value that you want to copy, such as public, unlisted, or private.  
 
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
@@ -657,7 +657,6 @@ To automate the setting of default YouTube properties for your uploaded videos:
     * Tap **Field Label** to select the component.
     * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Publishing`.
     * Tap the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Publishing** heading that you just created.
-    
     * Tap **Field Label** to select the component.
     * On the right side of the page, under the Settings tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
 
@@ -818,7 +817,7 @@ To monitor progress (including failed encoding/YouTube publish):
    >* Apache Sling Job Queue Configuration
    >* Adobe Granite Workflow External Process Job Handler
    >* Granite Workflow Timeout Queue
-   >    
+   >
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
 
 1. For completed workflows, see Workflow Archive available from **Tools** &gt; **Workflow** &gt; **Archive**. The **Workflow Archive** lists all completed workflow activities.
@@ -897,7 +896,7 @@ To view video reports:
     * Near the upper-right corner, tap the **Refresh Video Report** icon.  
 
       You only need to use Refresh if the end date of the report is the current day. This ensures that you see the video tracking that has occurred since the last time you ran the report.
-    
+  
     * Near the upper-right corner, tap the **Date Picker** icon. 
 
       Specify the beginning and end date range for which you want video data, and then tap **Run Report**.
@@ -938,31 +937,37 @@ To view Video Reports based on a video viewer that you created using the Scene7 
       If the `config2` parameter is `companypreset`, you do *not* need `&preset=parameter`.  
 
       If `config2` is anything else, set the preset parameter the same as the `config2` parameter. For example, if `config2=companypreset-2`, add `&param2=companypreset-2` to the AppMeasurmentBridge.jsp URL.
-    
-    * Then, add the AppMeasurementBridge.jsp script:  
+  
+    * Then, add the AppMeasurementBridge.jsp script: 
+
       `<script language="javascript" type="text/javascript" src="https://s7d1.scene7.com/s7viewers/AppMeasurementBridge.jsp?company=robindallas&preset=companypreset-2"></script>`
 
 1. Create the TrackingManager component by doing the following:
 
-    * After calling `s7sdk.Utils.init();` create a TrackingManager instance to track events by adding the following:  
-      `var trackingManager = new s7sdk.TrackingManager();`  
-    
-    * Connect components to TrackingManager by doing the following:  
-      In the `s7sdk.Event.SDK_READY` event handler, attach the component you want to track to the TrackingManager.  
-      For example, if the component is `videoPlayer`, add  
-      `trackingManager.attach(videoPlayer);`  
-      to attach the component to the trackingManager. To track multiple viewers on a page, use multiple tracking mangaer components.  
-    
+    * After calling `s7sdk.Utils.init();` create a TrackingManager instance to track events by adding the following: 
+
+      `var trackingManager = new s7sdk.TrackingManager();` 
+  
+    * Connect components to TrackingManager by doing the following: 
+
+      In the `s7sdk.Event.SDK_READY` event handler, attach the component you want to track to the TrackingManager. 
+
+      For example, if the component is `videoPlayer`, add 
+
+      `trackingManager.attach(videoPlayer);` 
+
+      to attach the component to the trackingManager. To track multiple viewers on a page, use multiple tracking mangaer components. 
+
     * Create the AppMeasurementBridge object by adding the following:
 
-      ```    
+      ``` 
       var appMeasurementBridge = new AppMeasurementBridge(); appMeasurementBridge.setVideoPlayer(videoPlayer);
-      
+  
       ```
 
     * Add the tracking function by adding the following:
 
-      ```    
+      ``` 
       trackingManager.setCallback(appMeasurementBridge.track, 
        appMeasurementBridge);
       ```
@@ -1023,7 +1028,7 @@ To add captions or subtitles to video:
       `&caption=<server_path>/is/content/<path_to_caption.vtt_file,1>`  
   
       Note the `,1` at the end of the caption path. Immediately following the .vtt filename extension in the path, you have the option to enable (turn on) or disable (turn off) the closed caption button on the video player bar by setting to `,1` or `,0`, respectively.
-    
+  
     * For an embedded video viewer experience, tap **Embed Code**. In the Embed Code dialog box, select and copy the embed code to the Clipboard and then paste the code into a simple text editor. Append the copied embed code with the following syntax:  
   
       `videoViewer.setParam("caption","<path_to_caption.vtt_file,1>");`  

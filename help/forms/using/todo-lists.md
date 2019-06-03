@@ -207,8 +207,10 @@ You can complete a task in various ways:
 
 * Using the actions available in any of the tabs
 * Using the actions built in the form itself
-* From your To-do list, without opening the task  
+* From your To-do list, without opening the task
+
   Note: This option is available if `isMustOpenToComplete` field is not selected in the `Assign Task` step in Workbench, while designing a process.
+  
 * By email, if you receive email notifications
 
 When you complete a task, depending on the task, a confirmation dialog box may appear reaffirming your action. For example, you may see a dialog that prompts you to attest to the validity of the information that you provided.

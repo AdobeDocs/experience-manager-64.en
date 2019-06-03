@@ -31,10 +31,12 @@ Before performing above steps, ensure that you follow the steps listed at [Gener
 
 Perform the following steps to add support for a language *New* and the browser locale code *nw*.
 
-1. Log in to CRXDE Lite.  
+1. Log in to CRXDE Lite. 
+
    The default URL of CRXDE Lite is `https://[server]:[port]/lc/crx/de/index.jsp`.
+
 1. Navigate to the location `apps/ws/locales` and create a new folder `nw.`
-1. Copy the file `translation.json`from the location `/apps/ws/locales/en-US` to location `/apps/ws/locales/nw` .
+1. Copy the file `translation.json`from the location `/apps/ws/locales/en-US` to location `/apps/ws/locales/nw`.
 1. Navigate to `/apps/ws/locales/nw` and open `translation.json` for editing. Make locale-specific changes to the translation.json file.
 
    The following examples contain the translation.json file for English and French locales of AEM Forms workspace.

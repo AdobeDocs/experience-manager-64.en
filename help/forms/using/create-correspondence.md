@@ -153,7 +153,7 @@ In the content tab, manage the content such as document fragments and content va
 
     * Only unprotected data dictionary and placeholder variables. The variable count does not include layout or protected data dictionary variables.
     * Mandatory fields.
-    * Layout fields if they are mandatory and bound to the user.  
+    * Layout fields if they are mandatory and bound to the user.
     * Only unique variables instances. If a module, target area, or letter template contains two or more instances of the same variable, the count is displayed as 1 (one). However, for each of the instances, the count is displayed as 1.
 
    The unfilled variable count does not include deselected modules. If a module is included in a letter template but is not in the letter, the count for unfilled variables in this module are not displayed.
@@ -170,7 +170,6 @@ In the content tab, manage the content such as document fragments and content va
    Note the following regarding variables with default values:
 
     * A Boolean variable field defaults to *false*. However, the variable is considered to be unfilled. This implies that the variable count includes all Boolean variable fields with value *false*.
-    
     * A numeric variable field defaults to *0 (zero)*. However, the variable is considered to be unfilled. This implies that the variable count includes all numeric variable fields with value *0 (zero)*.
 
 #### Actions and Info available in the Create Correspondence Content tab {#actions-and-info-available-in-the-create-correspondence-content-tab}

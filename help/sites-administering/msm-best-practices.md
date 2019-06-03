@@ -74,21 +74,24 @@ To support the nesting of components such that locally added components are main
 
 Notice that AEM has two main approaches for creating live copies:
 
-* When [creating a **Live Copy**](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-page)  
+* When [creating a **Live Copy**](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-page)
+
   This can be considered as the more generic approach, allowing you to create live copies from any page. The content structure of a live copy exactly matches the source.
 
-* When [creating a **Site**](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration)   
+* When [creating a **Site**](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration) 
+
   This is a more specialized approach, primarily for creating websites with a multilingual structure.
 
 Following are a few considerations to keep in mind when creating a site:
 
 * To create a new site, you need a [blueprint configuration](/help/sites-administering/msm-livecopy.md#managing-blueprint-configurations). 
 * To allow the selection of language paths to create in a new site, the corresponding language roots must exist in the blueprint (source). 
-* Once a [new site has been created as a live copy](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration) (using **Create**, then **Site**), the first two levels of this live copy are *shallow*. Children of the page do not belong to the live-relationship, but a roll-out will still descend if a live-relationship that matches the trigger is found.  
+* Once a [new site has been created as a live copy](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration) (using **Create**, then **Site**), the first two levels of this live copy are *shallow*. Children of the page do not belong to the live-relationship, but a roll-out will still descend if a live-relationship that matches the trigger is found.
+
   It helps avoid:
 
-    * manually adding languages in the blueprint (below the first level)  
-    * manually adding content directly below the language root,  
+    * manually adding languages in the blueprint (below the first level) 
+    * manually adding content directly below the language root, 
     * does not result in automatically carrying this new content over to the live copy on rollout.
 
 ## MSM and Multilingual Websites {#msm-and-multilingual-websites}
@@ -100,8 +103,10 @@ MSM can assist in the creation of multilingual websites in two ways:
     * While MSM itself **does not provide content translation**, it can be integrated with third-party translation connectors that do. Please note that:
 
         * MSM allows you to cancel inheritance at the page- and/or component- level. This helps prevent overwriting translated content (from a live copy, with not-yet-translated content from a blueprint) on the next rollout.
-        * Some third-party translation connectors automate this management of MSM inheritances.  
+        * Some third-party translation connectors automate this management of MSM inheritances. 
+
           Please check with your translation service provider for more information.
+
         * An alternative approach for creating and translating language masters is to use language copies in conjunction with AEM's out-of-the-box translation integration framework.
 
 * When rolling out content from language masters.
@@ -120,7 +125,7 @@ Modifications to the content structure in a blueprint/source tree are reflected 
 
 * **Moving** pages in a blueprint will **not** result in corresponding pages being moved in live copies after rollout with standard rollout configuration:
 
-    * The reason for this behavior is that a page move implicitly includes a page delete. This could potentionally lead to unexpected behavior on publish, as deleting pages on author automatically deactivates corresponding content on publish. This can also have a knock-on effect on related items such as links, bookmarks, and others.  
+    * The reason for this behavior is that a page move implicitly includes a page delete. This could potentionally lead to unexpected behavior on publish, as deleting pages on author automatically deactivates corresponding content on publish. This can also have a knock-on effect on related items such as links, bookmarks, and others. 
     * Content inheritance in the respective live copy pages is updated to reflect the new location of their sources in the blueprint.
     * To fully realize a page move from a blueprint to live copies, consider the following best practices:
 
@@ -130,20 +135,24 @@ Modifications to the content structure in a blueprint/source tree are reflected 
 
 * Create a custom rollout configuration:
 
-    * This new configuration must include the action:  
-      `PageMoveAction`  
+    * This new configuration must include the action: 
+
+      `PageMoveAction` 
+
       Do not add other actions to this configuration.
 
 * Position the new configuration:
 
     * To fully roll out the page move, while deleting respective pages at their old location in the live copy:
 
-        * Position the newly created configuration before the standard rollout configuration.  
+        * Position the newly created configuration before the standard rollout configuration. 
+
           The standard rollout configuration will take care of deleting the pages in their old location.
 
     * To roll out the page move while keeping respective pages in their old location in the live copies (essentially duplicating the content):
 
-        * Position the newly created configuration after the standard rollout configuration.  
+        * Position the newly created configuration after the standard rollout configuration. 
+
           This will ensure no content is deleted in the live copy or deactivated from publish.
 
 ## Customizing Rollouts {#customizing-rollouts}

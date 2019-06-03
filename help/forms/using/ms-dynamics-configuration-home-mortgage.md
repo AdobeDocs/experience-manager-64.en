@@ -60,7 +60,7 @@ Before you begin to set up and configure Dynamics 365, ensure that you have:
     1. Download the package from:
 
        `https://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip`
-    
+   
     1. Import the solution package to Microsoft® Dynamics instance. In your Microsoft® Dynamics instance, go to **Settings** &gt; **Solutions** and then tap **Import**.
 
 1. To set up user contact details used in the refsite, import the Sarah Rose Contact.CSV package to your Microsoft® Dynamics instance:

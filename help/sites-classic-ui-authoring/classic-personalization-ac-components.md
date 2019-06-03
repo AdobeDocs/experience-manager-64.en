@@ -80,21 +80,28 @@ When an image is loaded, you can configure the following:
 * **Clear** 
   Remove the current image.
 
-* Zoom bar (classic only)  
+* Zoom bar (classic only) 
+
   To zoom in and out of the image, use the slide bar beneath the image (above the OK and Cancel buttons)
+
 * **Title** 
+
   The title of the image.
 
 * **Alt Text** 
+
   An alternative text for use when creating accessible content.  
 
 * **Link To** 
+
   Create a link to assets or other pages within your website.  
 
 * **Description** 
+
   A description of the image.
 
 * **Size** 
+
   Sets the height and the width of the image.
 
 >[!NOTE]
@@ -162,21 +169,27 @@ As with the Text & Personalization (Campaign) and Image (Campaign) components, y
   Drag an image from the content finder, or click to browse to an image. Crop or rotate as required.
 
 * **Image Properties** (**Advanced Image Properties**)  
+
   Allows you to specify the following:
 
     * **Title** 
+
       The title for the block; will be shown by mouseover.
     
     * **Alt Text** 
+
       Alternative text to be shown if the image cannot be displayed.
     
-    * **Link to** 
+    * **Link to**
+
       Create a link to assets or other pages within your website.
     
     * **Description** 
+
       A description of the image.
     
     * **Size** 
+
       Sets the height and width of the image.
 
 >[!NOTE]
@@ -204,15 +217,15 @@ You add the text and context fields or personalization blocks to create the cont
 
 >[!NOTE]
 >
->Only the fields defined in the **nms:seedMember** schema or one of its extensions are taken into account. The attributes of the tables linked to **nms:seedMember **are not available.
+>Only the fields defined in the **nms:seedMember** schema or one of its extensions are taken into account. The attributes of the tables linked to **nms:seedMember** are not available.
 
 ## Adobe Campaign Form Components {#adobe-campaign-form-components}
 
-You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles. See [Creating Adobe Campaign Forms](/help/sites-classic-ui-authoring/classic-personalization-ac-forms.md) for more information.
+You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles.
 
 Each component field can be linked to an Adobe Campaign database field. The available fields differ according to the type of data they contain as described in the section [Components and Data Type](#components-and-data-type). If you extend your recipient schema in Adobe Campaign, the new fields will be available in the components whose data types match.
 
-When you open a form that is configured to integrate with Adobe Campaign, you see the following components in the **Adobe Campaign **section:
+When you open a form that is configured to integrate with Adobe Campaign, you see the following components in the **Adobe Campaign** section:
 
 * Checkbox (Campaign)
 * Date Field (Campaign) and Date Field/HTML5 (Campaign)
@@ -274,15 +287,19 @@ In most components, you can configure the following:
 #### Title and Text {#title-and-text}
 
 * **Title** 
+
   If you want to use a name other than the element name, enter it here.
 
 * **Hide Title** 
+
   Select this check box if you do not want the title visble.
 
 * **Description** 
+
   Add a description to the field to provide more information for users.
 
 * **Only show value** 
+
   Only shows the value, if there is one
 
 #### Adobe Campaign {#adobe-campaign}
@@ -290,21 +307,27 @@ In most components, you can configure the following:
 You can configure the following:
 
 * **Mapping** 
+
   Select an Adobe Campaign personalization field, if appropriate.
 
 * **Reconciliation Key** 
+
   Select this check box if this field is part of the reconciliation key.
 
 #### Constraints {#constraints}
 
-* **Required  
-  **Select this check box to make this component required; that is, users must enter a value.
-* **Required Message  
-  **Optionally, add a message stating that the field is required.
+* **Required**  
+
+  Select this check box to make this component required; that is, users must enter a value.
+
+* **Required Message**  
+
+  Optionally, add a message stating that the field is required.
 
 #### Styling {#styling}
 
 * **CSS** 
+
   Enter the CSS classes you want to use for this component.
 
 ### Checkbox (Campaign) {#checkbox-campaign}
@@ -324,11 +347,15 @@ Use the date field to allow recipients to a date; for example you may want the r
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
 * **Constraints - Constraint** drop-down  
+
   You can select - **None** or **Date** - to add the constraint of a date or no constraint. If you select date, the answer users enter into the field must be in a date format. 
 
 * **Constraint Message**  
+
   In addition, you can add a constraint message so users know how to properly format their answers.
+
 * **Styling - Width** 
+
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
 
 The following example shows a Date Field (Campaign) component with the width adjusted being displayed.
@@ -344,8 +371,11 @@ Each form displaying and modifying Adobe Campaign profile data **must** include 
 You can configure the following in the Encrypted Primary Key (Campaign) component:
 
 * **Title and Text - Element Name**  
+
   Defaults to encryptedPK. You only need to change the element name when it conflicts with the name of another element on the form. No two form fields can have the same element name.
+
 * **Adobe Campaign - URL parameter** 
+
   Add the URL parameter for the EPK. For example, you can use the value **epk**.
 
 The following example shows an Encrypted Primary Key (Campaign) component being displayed.
@@ -366,7 +396,8 @@ The Hidden Reconciliation Key (Campaign) component allows you to add hidden fiel
 
 You can configure the following in the Hidden Reconciliation Key (Campaign) component:
 
-* **Title and Text - Element Name**  
+* **Title and Text - Element Name** 
+
   Defaults to reconcilKey. You only need to change the element name when it conflicts with the name of another element on the form. No two form fields can have the same element name.
 * **Adobe Campaign - Mapping** 
   Map to an Adobe Campaign personalization field.
@@ -381,10 +412,12 @@ Use the numeric field to allow recipients to enter numbers, for example their ag
 
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
-* **Constraints - Constraint** drop-down  
+* **Constraints - Constraint** drop-down 
+
   You can select - **None** or **Numeric** - to add the constraint of either a number or no constraint. If you select number, the answer users enter into the field must be numeric. 
 
-* **Constraint Message**  
+* **Constraint Message** 
+
   In addition, you can add a constraint message so users know how to properly format their answers.
 * **Styling - Width** 
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
@@ -425,12 +458,16 @@ The Text Field (Campaign) component that lets you enter string type data, such a
 
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
-* **Constraints - Constraint** drop-down  
+* **Constraints - Constraint** drop-down 
+
   You can select - **None, Email,** or **Name (no umlauts)** - to add the constraint of either an email address, name, or no constraint. If you select email, the answer users enter into the field must be an email address. If you select name, it must be a name (umlauts are not allowed). 
 
 * **Constraint Message**  
+
   In addition, you can add a constraint message so users know how to properly format their answers.
+
 * **Styling - Width** 
+
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
 
 The following example shows a Text Field (Campaign) component being displayed.

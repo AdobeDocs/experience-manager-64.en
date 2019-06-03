@@ -36,12 +36,10 @@ Both the components provide a window, as displayed below, to sign a form. You ca
 
 1. Tap the **Configure** ![](assets/configure.png) icon. It opens properties browser and displays Signature step properties. Configure the following properties:
 
-    * **Element Name**: Specify name of the component.  
-    
+    * **Element Name**: Specify name of the component.
     * **Title:** Specify unique title of the component.
     * **Template message:** Specify the message to be displayed while the signature PDF is being loaded. Adobe Sign services take some time to prepare and load signature PDF.
-    * **Signing Service:** Select the **Scribble Signature** option.  
-    
+    * **Signing Service:** Select the **Scribble Signature** option.
     * **CSS Class**: Specify CSS class of the client library, if any. It is recommended to use [themes](/help/forms/using/themes.md) and [in-line styles](/help/forms/using/inline-style-adaptive-forms.md) instead of CSS Class.
 
    Tap the Done ![](assets/aem_6_3_forms_save.png) icon to save the changes. The Signature is configured sucessfully.

@@ -47,7 +47,6 @@ For example, the content of a product page may contain a paragraph system holdin
 >[!CAUTION]
 >
 >Editing the design using Design Mode as described in this article is the recommended way to define designs of static templates  
-
 >
 >Modifying designs in CRX DE for example is not best practice and the application of such designs can vary from expected behavior. See the developer document [Page Templates - Static](/help/sites-developing/page-templates-static.md#how-template-designs-are-applied) for more information.
 
@@ -104,7 +103,7 @@ To either enable or disable a component:
 
    On the **Settings** tab you can define additional options such as to draw an anchor for each component and to define the cell padding of each container.
 
-1. Select **Done **to save your configuration.
+1. Select **Done** to save your configuration.
 
 ## Configuring the Design of a Component {#configuring-the-design-of-a-component}
 
@@ -120,7 +119,7 @@ To either enable or disable a component:
 
    ![](do-not-localize/screen_shot_2018-03-22at103256-1.png)
 
-   In the design dialogue, you can configure the component according to the design parameters avalable.
+   In the design dialogue, you can configure the component according to the design parameters available.
 
    ![](assets/screen_shot_2018-03-22at103530.png)
 
@@ -144,7 +143,7 @@ To either enable or disable a component:
 
    ![](assets/screen_shot_2018-03-22at103741.png)
 
-   Use the **Add **button to add additional entries to a multiple-entry dialogue list.
+   Use the **Add** button to add additional entries to a multiple-entry dialogue list.
 
    ![](assets/chlimage_1-94.png)
 

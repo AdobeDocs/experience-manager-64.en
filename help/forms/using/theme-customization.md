@@ -68,8 +68,7 @@ You can customize the HTML code and CSS file to provide a distinct organization-
 
 1. Navigate to the css folder.
 
-    * In Xcode, navigate to **Capture &gt; www &gt; wsmobile &gt; css**.  
-    
+    * In Xcode, navigate to **Capture &gt; www &gt; wsmobile &gt; css**.
     * In Eclipse, navigate to **assets &gt; www &gt; wsmobile &gt; css**.
     * In Visual Studio, navigate to **MWSWindows &gt; www &gt; wsmobile &gt; css**.
 

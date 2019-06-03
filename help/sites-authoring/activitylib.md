@@ -38,7 +38,6 @@ Activities are displayed with a label describing what kind of activity is define
 >[!NOTE]
 >
 >What types of activities are available is determined by the following:  
-
 >
 >* If the **xt_only** option is enabled on the Adobe Target tenant (clientcode) used on the AEM side to connect to Adobe Target, then you can create **only** XT activities in AEM.
 >
@@ -91,7 +90,7 @@ Add an activity or edit an existing activity to focus your marketing efforts on 
 
 To add an activity:
 
-1. Click or tap the brand for which you are creating the activity, and then click or tap **Create **then** Create Activity. **If editing, select the activity in the Master Area screen and clicking or tapping **Edit Activity**.
+1. Click or tap the brand for which you are creating the activity, and then click or tap **Create** then **Create Activity**. If editing, select the activity in the Master Area screen and clicking or tapping **Edit Activity**.
 1. Provide the following information and then click or tap **Next**:
 
     * A name for the activity.
@@ -105,14 +104,12 @@ To add an activity:
 
     1. Click or tap **Select Audience **and select the segment that your experience targets.
     1. Click or tap **Add Experience**, type a name, and click or tap **OK**. 
-    
     1. Click or tap **Next**.
 
    If you are using Adobe Target A/B Testing:
 
     1. Click or tap the pencil in the audiences box to select an audience.
     1. Click or tap **Add Experience**, type a name, and click or tap **OK**.
-    
     1. Enter the percentage of traffic that displays each experience.
     1. Click or tap **Next**.
 

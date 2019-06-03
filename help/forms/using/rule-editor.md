@@ -418,9 +418,7 @@ Perform the following steps to write rules:
 1. In the expression field:
 
     * Select or drag-drop from the Forms Object tab the **Salary** field in the first **Drop object or select here** field.
-    
     * Select **Plus** from the **Select Operator** field.
-    
     * Select or drag-drop from the Forms Object tab the **Spouse Salary** field in the other **Drop object or select here** field.
 
    ![](assets/write-rules-visual-editor-12.png)
@@ -446,9 +444,7 @@ Perform the following steps to write rules:
    In the When statement:
 
     * Select or drag-drop from the Forms Object tab the **Marital Status** field in the first **Drop object or select here** field.
-    
     * Select i**s equal to** from the **Select Operator** field.
-    
     * Select String in the other **Drop object or select here** field and specify **Married** in the **Enter a String** field.
 
    The rule finally appears as follows in the rule editor.  ![](assets/write-rules-visual-editor-16.png)
@@ -498,23 +494,35 @@ For more information, see [usejsdoc.org](https://usejsdoc.org/).
 Supported `jsdoc` tags:
 
 * **Private** 
+
   Syntax: `@private`  
+
   A private function is not included as a custom function.  
 
 * **Name** 
+
   Syntax: `@name funcName <Function Name>`  
-  Alternatively `,` you can use: `@function funcName <Function Name>` **or** `@func` `funcName <Function Name>`.  
+
+  Alternatively `,` you can use: `@function funcName <Function Name>` **or** `@func` `funcName <Function Name>`. 
+
   `funcName` is the name of the function (no spaces allowed).   
+
   `<Function Name>` is the display name of the function.   
 
 * **Member** 
+
   Syntax: `@memberof namespace`  
+
   Attaches a namespace to the function.   
 
 * **Parameter** 
+
   Syntax: `@param {type} name <Parameter Description>`  
+
   Alternatively, you can use: `@argument` `{type} name <Parameter Description>` **or** `@arg` `{type}` `name <Parameter Description>`.  
+
   Shows parameters used by the function. A function can have multiple parameter tags, one tag for each parameter in the order of occurrence.   
+
   `{type}` represents parameter type. Allowed parameter types are:
 
     1. string  
@@ -524,9 +532,13 @@ Supported `jsdoc` tags:
   All other parameter types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Types are not case sensitive. Spaces are not allowed in the parameter `name`. `<Parameter Descrption>` 
 
 * **Return Type** 
+
   Syntax: `@return {type}`  
+
   Alternatively, you can use `@returns {type}`.   
+
   Adds information about the function, such as its objective.   
+
   {type} represents the return type of the function. Allowed return types are:
 
     1. string  
@@ -555,7 +567,9 @@ Perform the following steps to create a client library and add it in the CRX rep
 After you have added your client library in the CRX repository, use it in your adaptive form. It lets you use your custom function as a rule in your form. Perform the following steps to add the client library in your adaptive form.
 
 1. Open your form in edit mode.   
+
    To open a form in edit mode, select a form and tap **Open**.
+
 1. In the edit mode, select a component, then tap ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![](assets/cmppr.png).
 1. In the sidebar, under Name of Client Library, add your client library. ( `customfunction` in the example.)
 
@@ -639,6 +653,7 @@ You can perform the following actions on rules:
 * **Expand/Collapse**: The Content column in the rule list displays the rule content. If the entire rule content is not visible in the default view, tap ![](assets/expand-rule-content.png) to expand it.
 
 * **Reorder**: Any new rule you create is stacked at the bottom of the rule list. The rules are executed from top to bottom. The rule at the top executes first followed by other rules of the same type. For example, if you have When, Show, Enable, and When rules at first, second, third, and fourth positions from top, respectively, the When rule at the top gets executed first followed by the When rule at the fourth position. Then, the Show and Enable rules will be executed.  
+
   You can change the order of a rule by tapping ![](assets/sort-rules.png) against it or drag-drop it to the desired order in the list.
 
 * **Edit**: To edit a rule, select the check box next to the rule title. Additional options to edit and delete the rule appear. Tap **Edit** to open the selected rule in the rule editor in visual or code editor mode depending the mode used to create the rule. 

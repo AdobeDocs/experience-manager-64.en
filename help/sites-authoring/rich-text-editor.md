@@ -1,8 +1,8 @@
 ---
-title: Use Rich Text Editor to author content
-seo-title: Use Rich Text Editor to author content
-description: Use the Rich Text Editor to author text in AEM.
-seo-description: Use the Rich Text Editor to author text in AEM.
+title: Using the Rich Text Editor to Author Content
+seo-title: Using the Rich Text Editor to Author Content
+description: Using the Rich Text Editor to author text in AEM.
+seo-description: Using the Rich Text Editor to author text in AEM.
 uuid: d8dc5989-7a1c-4bab-88fd-040c2c9aa69f
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 29e0bdfa-1d49-47d9-a332-04da062d3d3f
 ---
 
-# Use Rich Text Editor to author content{#use-rich-text-editor-to-author-content}
+# Using the Rich Text Editor to Author Content{#using-the-rich-text-editor-to-author-content}
 
 The Rich Text Editor (RTE) is a basic building block for inserting textual content into AEM. It forms the basis of various components, including:
 

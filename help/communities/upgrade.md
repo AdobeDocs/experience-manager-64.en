@@ -25,7 +25,8 @@ When installing a new Communities feature pack on a deployment configured with M
 
 1. install the [latest feature pack](/help/communities/deploy-communities.md#latestfeaturepack)
 1. install the [latest Solr config files](/help/communities/msrp.md#upgrading)
-1. reindex MSRP  
+1. reindex MSRP 
+
    see section [MSRP Reindex Tool](/help/communities/msrp.md#msrp-reindex-tool)
 
 ### Enablement 2.0 {#enablement}
@@ -57,8 +58,7 @@ For all AEM 6.3 author and publish instances
     * locate **AEM Communities Utilities** configuration
     * select to expand config panel
 
-        * *uncheck ***`Cloud Storage`**
-        
+        * *uncheck* **`Cloud Storage`**
         * select **Save**
 
 ![](assets/chlimage_1-126.png) 

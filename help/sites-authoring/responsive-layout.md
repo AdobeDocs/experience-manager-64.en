@@ -34,10 +34,12 @@ The user can then see how the content will be rendered for specific devices usin
 
 AEM realizes responsive layout for your pages using a combination of mechanisms:
 
-* [**Layout Container**](#adding-a-layout-container-and-its-content-edit-mode) component  
+* [**Layout Container**](#adding-a-layout-container-and-its-content-edit-mode) component
+
   This component is available in the [component browser](/help/sites-authoring/author-environment-tools.md#components-browser) and provides a grid-paragraph system to allow you to add and position components within a responsive grid. It can also be set as the default paragraph system on your page.  
 
-* [**Layout Mode**](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)  
+* [**Layout Mode**](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode) 
+
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
 * [**Emulator**](#selecting-a-device-to-emulate) 
@@ -70,8 +72,8 @@ AEM allows you to define layouts dependent on the width of the device:
 * The emulator enables you to emulate these layouts on a range of devices. In addition to the device type, the orientation, selected by the **Rotate device** option, can impact the breakpoint selected as the width changes.
 * Breakpoints are the points which separate the layout definitions.
 
-    * They effectively define the maximum width (in pixels) of any device using a specific layout.  
-    * The breakpoints are usually valid for a selection of devices, dependent on the width of their displays.  
+    * They effectively define the maximum width (in pixels) of any device using a specific layout. 
+    * The breakpoints are usually valid for a selection of devices, dependent on the width of their displays. 
     * The range of a breakpoint extends left until the next breakpoint.
     * You cannot select the breakpoint specifically, selecting a device and orientation will automatically select the appropriate breakpoint.
 
@@ -121,7 +123,6 @@ For example, when you select the device **iPhone 6 Plus** (defined with a width 
 1. Once a specific device has been selected you can:
 
     * See the active marker for the selected device, such as **iPad.** 
-    
     * See the active marker for the appropriate [breakpoint](/help/sites-authoring/responsive-layout.md#layout-definitions-device-emulation-and-breakpoints) such as **Tablet.**
 
    ![](assets/screen_shot_2018-03-23at084932.png)
@@ -194,13 +195,11 @@ To configure the layout of a responsive grid implemented with the Layout Contain
 * By using the [mode menu in the toolbar](/help/sites-authoring/author-environment-tools.md#page-modes) and choosing **Layout** mode
 
     * Select the **Layout** mode just as you would switch to **Edit** mode or **Targeting** mode.
-    
     * **Layout** mode remains persistent and you do not leave **Layout** mode until you select another mode via the mode selector.
 
 * When [editing an individual component.](/help/sites-authoring/editing-content.md#edit-component-layout)
 
     * By using the **Layout** option in the component's quick action menu, you can switch to **Layout** mode.
-    
     * **Layout** mode persists while editing the component and reverts to **Edit** mode once focus changes to another component.
 
 When in layout mode you can perform various actions on a grid:
@@ -215,13 +214,16 @@ When in layout mode you can perform various actions on a grid:
 
 * Click/tap on a content component, the toolbar allows you to:
 
-    * **Parent  
-      **Allows you to select the entire layout container component for taking action on the whole.  
+    * **Parent**
+
+      Allows you to select the entire layout container component for taking action on the whole. 
     
     * **Float to new line** 
-      The component will be moved to a new line, dependent on the space available within the grid.  
+
+      The component will be moved to a new line, dependent on the space available within the grid. 
     
     * **Hide component** 
+
       The component will be made invisible (it can be restored from the toolbar of the layout container).
 
   ![](assets/screen_shot_2018-03-23at090246.png)
@@ -230,23 +232,23 @@ When in layout mode you can perform various actions on a grid:
 
   The toolbar will have different options depending on the state of the layout component and the components belonging to it. For example:
 
-    * **Parent - **Select the parent component.
+    * **Parent** - Select the parent component.
 
   ![](do-not-localize/screen_shot_2018-03-23at090823.png)
 
-    * **Show hidden components - **Reveal all or individual components. The number indicates how many hidden components there currently are. The the counter shows how many components are hidden.
+    * **Show hidden components** - Reveal all or individual components. The number indicates how many hidden components there currently are. The the counter shows how many components are hidden.
 
   ![](do-not-localize/screen_shot_2018-03-23at091007.png)
 
-    * **Revert breakpoint layout - **Revert to the default layout. This means that no customized layout will be imposed.
+    * **Revert breakpoint layout** - Revert to the default layout. This means that no customized layout will be imposed.
 
   ![](do-not-localize/screen_shot_2018-03-23at091013.png)
 
-    * **Float to new line - **Move the component up a position if spacing allows.
+    * **Float to new line** - Move the component up a position if spacing allows.
 
   ![](assets/screen_shot_2018-03-23at090829.png)
 
-    * **Hide component - **Hide the current component.
+    * **Hide component** - Hide the current component.
 
   ![](do-not-localize/screen_shot_2018-03-23at090834.png)
 
@@ -255,7 +257,7 @@ When in layout mode you can perform various actions on a grid:
   >In the above example the float and hide actions are available because this Layout Container is nested within a parent Layout Container.
 
     * **Unhide components** 
-      Select the parent components to show the action toolbar with the **Show hidden components **option. In this example, two components are hidden.
+      Select the parent components to show the action toolbar with the **Show hidden components** option. In this example, two components are hidden.
 
   ![](assets/screen_shot_2018-03-23at091200.png)
 

@@ -54,10 +54,12 @@ To complete the setup of the administration console:
 
 1. Select Extended Sites Hub as the store.
 1. Select Extended Sites -&gt; New Store
-1. Provide name, default currency and email  
+1. Provide name, default currency and email 
+
    * Store Unique Identifier: Geometrixx  
    * Store Display Name: Geometrixx  
    * Store Short Description: Geometrixx
+   
 1. Select **Extended Sites Seller Organization** for Store Organization.
 1. Select **Next**.
 1. Select new storefront asset store store created above and click **Next**.

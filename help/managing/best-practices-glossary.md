@@ -103,7 +103,8 @@ Ensure that your team is made up of staff with the appropriate training. For pro
 
 * at least one AEM certified Lead Developer  
 * at least one AEM certified Architect  
-* at least 75% of your developers AEM certified;  
+* at least 75% of your developers AEM certified;
+
   this allows the certified developers to mentor junior developers and ensures knowledge sharing and transparency
 
 ## Architecture Diagram {#architecture-diagram}

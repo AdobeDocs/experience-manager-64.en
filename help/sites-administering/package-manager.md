@@ -421,9 +421,11 @@ To upload a package:
    ![](assets/packagesuploaddialog.png)
 
     * **File** 
-      You can either type the file name directly, or use the **Browse...** dialog to select the required package from your local file system (after selection click **OK**).  
-    
+
+      You can either type the file name directly, or use the **Browse...** dialog to select the required package from your local file system (after selection click **OK**). 
+  
     * **Force Upload** 
+
       If a package with this name already exists you can click this to force upload (and overwrite the existing package).
 
    Click **OK** so that the new package is uploaded and listed in the Package Manager list.
@@ -534,8 +536,7 @@ Validation of packages can be done in two different ways:
 
 1. The chosen validation(s) is/are then run. Results are displayed in the activity log of the Package Manager.
 
-**Package Validation Via HTTP POST Request  
-**
+**Package Validation Via HTTP POST Request**
 
 The POST request takes the following form.
 

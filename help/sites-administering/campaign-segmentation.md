@@ -21,7 +21,7 @@ Segmentation is a key consideration when creating a campaign. See [Segmentation 
 
 Depending on the information you have already collected about your site visitors and the goals you want to achieve, you will need to define the segments and strategies needed for your targeted content.
 
-These segments are then used to provide a visitor with specifically targeted content. This content is maintained in the [Campaigns](/help/sites-authoring/campaigns.md) section of the website. Teaser pages defined here can be included as teaser paragraphs on any page and define which visitor segment the specialized content is applicable for.
+These segments are then used to provide a visitor with specifically targeted content. This content is maintained in the [Campaigns](/help/sites-authoring/personalization.md) section of the website. Teaser pages defined here can be included as teaser paragraphs on any page and define which visitor segment the specialized content is applicable for.
 
 AEM allows you to easily create and update segments, teasers, and campaigns. It also allows you to verify the results of your definitions.
 
@@ -185,4 +185,4 @@ Mouseover on a teaser paragraph will show the segments applied, whether they cur
 
 ## Using Your Segment {#using-your-segment}
 
-Segments are currently used within [Campaigns](/help/sites-authoring/campaigns.md). They are used to steer the actual content seen by specific target audiences. See [Understanding Segments](/help/sites-authoring/segmentation-overview.md) for more information.
+Segments are currently used within [Campaigns](/help/sites-authoring/personalization.md). They are used to steer the actual content seen by specific target audiences. See [Understanding Segments](/help/sites-authoring/segmentation-overview.md) for more information.

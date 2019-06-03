@@ -91,7 +91,7 @@ To optimize operation, both AEM and the eCommerce engine concentrate on their ow
         * Product information from the database.
         * Product variant management.
         * Order management.
-        * ERP (Enterprise Resource Planning).  
+        * ERP (Enterprise Resource Planning). 
         * Search within the product information.
 
     * Process:
@@ -127,7 +127,8 @@ The framework gives you access to functionality such as:
 
 AEM eCommerce is implemented with an eCommerce engine:
 
-* The eCommerce integration framework has been built to allow you to easily integrate an eCommerce engine with AEM. The purpose built eCommerce engine controls product data, shopping carts, checkout and order fulfillment, while AEM controls the data display and marketing campaigns.  
+* The eCommerce integration framework has been built to allow you to easily integrate an eCommerce engine with AEM. The purpose built eCommerce engine controls product data, shopping carts, checkout and order fulfillment, while AEM controls the data display and marketing campaigns.
+
   [A reference site has already been implemented using hybris](/help/sites-administering/hybris.md).
 
 >[!NOTE]
@@ -212,12 +213,16 @@ Though the actual location can depend on your implementation; for example, gener
 
 If the following two categories can be differentiated, then this allows you to make clear URLs with a meaningful structure (trees of `cq:Page` nodes) and therefore, very close to classical AEM content management):
 
-* *Structural *categories  
-  The category tree defining *what is a product*; for example:  
+* *Structural *categories
+
+  The category tree defining *what is a product*; for example: 
+
   `/products/mens/shoes/sneakers`
 
-* *Marketing *categories  
-  All other categories a *product can belong to*; for example:  
+* *Marketing* categories 
+
+  All other categories a *product can belong to*; for example: 
+
   `/special-offers/christmas/shoes`)
 
 ### Product Data {#product-data}
@@ -227,7 +232,8 @@ To portray and manage your product you will want to hold a range of information 
 Product data can be:
 
 * maintained directly in AEM (generic).  
-* maintained in the eCommerce engine and made available in AEM.  
+* maintained in the eCommerce engine and made available in AEM.
+
   Depending on the data type it is [synchronized](#catalog-maintenance-data-synchronization) as necessary, or accessed directly; for example, highly volatile and critial data such as product prices are retrieved from the ecommerce engine (e.g. hybris) on every page request to ensure they are always up-to-date.
 
 In either case, when the product data has been entered/imported into AEM it can be seen from the **Products** console. Here the card and list views of a product show information such as:
@@ -248,37 +254,46 @@ For appropriate products information about variants can also be held. For exampl
 
 The individual attributes held about each product may depend on the eCommerce engine being used and your AEM implementation. These are available (as appropriate) when viewing product pages and/or editing product information and can include:
 
-* **Image** 
+* **Image**
+
   An image of the product.  
 
 * **Title** 
+
   The product name.  
 
 * **Description** 
+
   A textual description of the product.  
 
 * **Tags** 
+
   Tags used to group related products.
 
 * **Default Asset Category** 
+
   A default category for assets.  
 
 * **ERP Data** 
+
   Enterprise resource planning (ERP) information.
 
     * **SKU** 
+
       Stock-keeping unit (SKU) information.
-    
+
     * **Color** 
-    
     * **Size**
     * **Price** 
+
       The unit price of the product.
 
 * **Summary** 
+
   A summary of the product features.  
 
 * **Features** 
+
   Fuller details of the product features.
 
 ### Product Assets {#product-assets}
@@ -327,7 +342,8 @@ When using an eCommerce engine the product data is maintained there and needs to
 
 This can depend on the type of data:
 
-* A [periodic synchronization is used together with a data feed of changes](/help/sites-developing/hybris.md#product-synchronization-and-publishing).  
+* A [periodic synchronization is used together with a data feed of changes](/help/sites-developing/hybris.md#product-synchronization-and-publishing). 
+
   In addition to this, you can select specific updates for an express update.
 
 * Highly volatile data, such as price information, is retrieved from the commerce engine for each page request, to ensure that it is always up to date.
@@ -339,7 +355,6 @@ Importing a large catalog with a high number of products (usually more than 100,
 There are various strategies you can choose to work around these issues:
 
 * [Bucketing](#bucketing) - to cater for the large number of nodes  
-
 * [Offload asset post processing to a dedicated instance](#offload-asset-post-processing-to-a-dedicated-instance)
 * [Only import product data](#only-import-product-data)
 * [Import Throttling and Batch Saves](#import-throttling-and-batch-saves)
@@ -356,9 +371,12 @@ These buckets take the form of phantom folders that are introduced to your catal
 
 This scenario involves setting up two author instances:
 
-1. Master author instance  
+1. Master author instance 
+
    Imports product data from PIM, on which post-processing for the asset paths is disabled.
-1. Dedicated DAM author instance  
+
+1. Dedicated DAM author instance 
+
    Imports and post-processes product assets from the PIM, then replicates these back to the master author instance for use.
 
 ![Architecture diagram](assets/chlimage_1-171.png) 
@@ -377,13 +395,16 @@ For cases when products do not contain assets (images) to be imported, you can i
 
 Performance testing must be taken into consideration on AEM eCommerce implementations:
 
-* Author environment:  
+* Author environment:
+
   Background (e.g. import) activity can occur at the same time as normal user activity (e.g. page editing) and even if front-end performance is (in general) given a higher priority, bad performance seen by online authors can lead to frustration capable of blocking a go-live decision.  
 
-* Publication environment:  
+* Publication environment: 
+
   Replication is a critical process to ensure that the content is published quickly and reliably. This can be impacted by how the author groups the content to be published.  
 
-* Front-end:  
+* Front-end: 
+
   The mixture of front-end and cache invalidations can potentially lead to performance surprises. Testing helps avoid these.
 
 Please note that this performance testing requires knowledge and analysis of your target:
@@ -410,20 +431,31 @@ Please note that this performance testing requires knowledge and analysis of you
 
 For all implementations the following points can be kept in mind:
 
-* As product, stock-keeping units and categories can be numerous, try to use the least number of nodes possible to model the content.  
+* As product, stock-keeping units and categories can be numerous, try to use the least number of nodes possible to model the content. 
+
   The more nodes you have, the more flexible your content is (e.g. parsys). However, everything is a trade-off and do you need individual flexibility (by default) when manipulating (for example) 30K products?
+
 * Avoid duplication as much as you can (see localization), or when you do, think about how many nodes your duplication will lead to.
-* Try to tag your content as much as you can in order to prepare the query optimization.  
-  For example:  
-  `/content/products/france/fr/shoe/reebok/pump/46 SKU`  
-  should have one tag per content level (i.e. country, language, category, brand, product). Searching for  
-  `//element(*,my:Sku)[@country=’france’ and @language=’fr’`  
-  and  
-  `@category=’shoe’ and @brand=’reebok’ and @product=’pump’]`  
-  will be drastically quicker than searching for  
+* Try to tag your content as much as you can in order to prepare the query optimization. 
+
+  For example: 
+
+  `/content/products/france/fr/shoe/reebok/pump/46 SKU` 
+
+  should have one tag per content level (i.e. country, language, category, brand, product). Searching for 
+
+  `//element(*,my:Sku)[@country=’france’ and @language=’fr’` 
+
+  and 
+
+  `@category=’shoe’ and @brand=’reebok’ and @product=’pump’]` 
+
+  will be drastically quicker than searching for 
+
   `/jcr:root/content/france/fr/shoe/reebok/pump/element(*,my:Sku)`
 
-* In your technical stack, plan very factorized content access model and services. This is a general best practice, but is even more crucial her, as you can, in optimization phases, add application caches for data that is read very often (and that you do not want to fill the bundle cache with).  
+* In your technical stack, plan very factorized content access model and services. This is a general best practice, but is even more crucial her, as you can, in optimization phases, add application caches for data that is read very often (and that you do not want to fill the bundle cache with). 
+
   For example, attributes management is very frequently a good candidate for caching as it concerns data that is updated through products import.
 * Consider use of [proxy pages](/help/sites-administering/concepts.md#proxy-pages).
 
@@ -501,7 +533,7 @@ In AEM:
 * A voucher is a page-based component that is created / edited with the Websites console.  
 * The **Voucher** component provides:
 
-    * A renderer for voucher administration; this shows any vouchers currently in the cart.  
+    * A renderer for voucher administration; this shows any vouchers currently in the cart. 
     * The edit dialogs (form) for administrating (adding/removing) the vouchers.
     * The actions required for adding/removing vouchers to/from the cart.
 
@@ -537,21 +569,27 @@ Promotions are not usually maintained by product information managers, but by ma
     * renderers and dialogs for promotion administration
     * sub-components for rendering and editing configuration parameters specific to the promotion handlers
 
-In AEM the promotions are also integrated into the [Campaign Management](/help/sites-authoring/campaigns.md):
+In AEM the promotions are also integrated into the [Campaign Management](/help/sites-authoring/personalization.md):
 
-* a [campaign](/help/sites-authoring/campaigns.md) specifies the on/off times
-* [experiences](/help/sites-authoring/campaigns.md) *within* the campaign are used to group assets (teaserpages, promotions, etc) according to the audience segment they correspond to
+* a [campaign](/help/sites-authoring/personalization.md) specifies the on/off times
+* [experiences](/help/sites-authoring/personalization.md) *within* the campaign are used to group assets (teaserpages, promotions, etc) according to the audience segment they correspond to
 
 A promotion can be held either in an experience or directly in the campaign:
 
-* If a promotion is held in an experience, then it can be automatically applied to an audience segment.  
-  For example, in the geometrixx-outdoors sample site, the promotion:  
-  `/content/campaigns/geometrixx-outdoors/big-spender/ordervalueover100/free-shipping`  
+* If a promotion is held in an experience, then it can be automatically applied to an audience segment.
+
+  For example, in the geometrixx-outdoors sample site, the promotion:
+
+  `/content/campaigns/geometrixx-outdoors/big-spender/ordervalueover100/free-shipping` 
+
   is in an experience, and so fires automatically whenever the segment ( `ordervalueover100`) resolves.
 
-* If a promotion does not appear within an experience (only in the campaign), then it cannot be automatically applied to an audience. However, it can still be fired if the shopper enters a voucher into their cart and that voucher references the promotion.  
-  For example, the promotion:  
-  `/content/campaigns/geometrixx-outdoors/article/10-bucks-off`  
+* If a promotion does not appear within an experience (only in the campaign), then it cannot be automatically applied to an audience. However, it can still be fired if the shopper enters a voucher into their cart and that voucher references the promotion. 
+
+  For example, the promotion: 
+
+  `/content/campaigns/geometrixx-outdoors/article/10-bucks-off` 
+
   is outside an experience and so never fires automatically (ie: based on segmentation). It is, however, referenced by the vouchers which can be found in several of the experiences within the article campaign. Entering those voucher codes into the cart will result in the promotion firing.
 
 >[!NOTE]
@@ -726,51 +764,67 @@ Depending on your implementation information about an order is held either in th
 A variety of information is stored, which can include:
 
 * **Order ID** 
+
   The reference number for the order.  
 
 * **Placed** 
+
   The date the order was placed.  
 
 * **Status** 
+
   The status of the order; for example, Shipped.  
 
 * **Currency** 
+
   The currency of the order.  
 
 * **Content Items** 
+
   A list of items ordered.  
 
 * **Subtotal** 
+
   The total cost of the items ordered.  
 
 * **Tax** 
+
   The amount of any taxes due on the order.  
 
 * **Shipping** 
+
   Shipping costs.  
 
 * **Total** 
+
   The total value of the order; items ordered, taxes and shpping.  
 
 * **Billing Address** 
+
   The address to be which the invoice should be sent.  
 
-* **Payment Token** 
+* **Payment Token**
+
   The payment method.  
 
-* **Payment Status** 
+* **Payment Status**
+
   The status of the payment.  
 
-* **Shipping Address** 
+* **Shipping Address**
+
   The address to which the goods should be shipped.  
 
-* **Shipping Method  
-  **The method of shipping; for example, land, sea or air.  
+* **Shipping Method** 
 
-* **Tracking Number  
-  **Any tracking number used by the shipping company.  
+  The method of shipping; for example, land, sea or air.  
 
-* **Tracking Link** 
+* **Tracking Number**
+
+  Any tracking number used by the shipping company.  
+
+* **Tracking Link**
+
   The link used for tracking the order while being shipped.
 
 >[!NOTE]

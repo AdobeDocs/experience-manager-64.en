@@ -112,9 +112,7 @@ For both views (List and Calendar) you can define settings:
   For **Calendar View** you can configure:
 
     * **Group by**
-    * **Schedule** or **None  
-      **
-    
+    * **Schedule** or **None**
     * **Card size**
 
   ![](assets/wf-92.png)
@@ -138,15 +136,13 @@ For both views (List and Calendar) you can define settings:
 
     * **Complete** action; for example, a task or workflow item.
     * **Re-assign**/**Delegate** an item.
-    
     * **Open** an item; depending on the item type this action can:
 
         * show the item properties
         * open an appropriate dashboard or wizard for further action
         * open related documentation
 
-    * **Step back** to a previous step.  
-    
+    * **Step back** to a previous step.
     * View the payload for a workflow.
     * Create a project from the item.
 
@@ -218,7 +214,7 @@ For certain tasks you can create a [Project](/help/sites-authoring/projects.md) 
 
     * **Basic**
 
-        * **TItle**
+        * **Title**
         * **Description**
         * **Start Date**
         * **Due Date**

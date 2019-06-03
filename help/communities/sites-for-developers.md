@@ -92,20 +92,20 @@ As of AEM Communities 6.3 Service Pack 1, Delete Site icon appears on hovering o
 
 To identify the unique site ID associated with the community site, using CRXDE:
 
-* navigate to the language root of the site, such as  
+* navigate to the language root of the site, such as
+
   `/content/sites/*<site name>*/en/rep:policy`
 
 * find the `allow<#>` node with a `rep:principalName` in this format:
 
     * `rep:principalName = *community-enable-nrh9h-members*`
 
-* the site ID is the 3rd component of `rep:principalName`  
+* the site ID is the 3rd component of `rep:principalName`
+
   for example, if `rep:principalName = community-enable-nrh9h-members`
 
     * **site name** = *enable*
-    
     * **site ID** = *nrh9h*
-    
     * **unique site ID** = *enable-nrh9h*
 
 ### User Generated Content {#user-generated-content}

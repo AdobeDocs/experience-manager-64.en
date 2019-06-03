@@ -59,7 +59,6 @@ Forms portal enables you to list forms from the forms repository onto your porta
 1. **List forms on a page (create forms portal page):** You can list forms on both AEM Sites and non-AEM Site pages. The list contains forms available on the publish instance. A user can open forms and start filling those. Whenever a user opens a form, a new instance of the form is created:
 
     1. **List forms on an AEM Sites page**: Add the **[Search & Lister](/help/forms/using/creating-form-portal-page.md)** component to the page and configure the **[List Pane](/help/forms/using/creating-form-portal-page.md#p-list-pane-p)** in it, to list forms on a page. Add and configure the **[Search Pane](/help/forms/using/creating-form-portal-page.md#search-pane)** component to the **Search & Lister** component also to add search functionality to the page. The page with forms portal component is known as [forms portal page](/help/forms/using/creating-form-portal-page.md).
-    
     1. **List forms on a non-AEM Sites page:** Use the [forms portal search APIs](/help/forms/using/listing-forms-webpage-using-apis.md) to query, retrieve, and list forms on non-AEM Sites pages.
 
 1. **List draft and submitted forms on a forms portal page**: Add and configure the Drafts & Submissions component to the forms portal page. The component lists all the forms that are in the draft state and the forms that are already submitted.

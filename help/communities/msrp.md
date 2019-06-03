@@ -58,33 +58,46 @@ On author, to access the Storage Configuration console:
 * select **MongoDB Storage Resource Provider (MSRP)**
 * **mongoDB Configuration**
 
-    * **mongoDB URI** 
+    * **mongoDB URI**
+  
       *default*: mongodb://localhost/?maxPoolSize=10&waitQueueMultiple=5&readPreference=secondaryPreferred
-    
+  
     * **mongoDB Database** 
+  
       *default*: communities
-    
+  
     * **mongoDB UGC Collection** 
+
       *default*: content
-    
+  
     * **mongoDB Attachment Collection** 
+  
       *default*: attachments
 
 * **SolrConfiguration**
 
     * **[Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
+
       When running in [SolrCloud mode](/help/communities/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the `HOST:PORT` for the ZooKeeper, such as *my.server.com:2181* 
+
       For a ZooKeeper Ensemble, enter comma-separated `HOST:PORT` values, such as *host1:2181,host2:2181* 
+
       Leave blank if running Solr in standalone mode using the internal ZooKeeper.  
+
       *default*: *&lt;blank&gt;*
-    
+  
     * **Solr URL** 
-      The URL used to communicate with Solr in standalone mode.  
+
+      The URL used to communicate with Solr in standalone mode. 
+  
       Leave blank if running in SolrCloud mode.  
+
       *default*: https://127.0.0.1:8983/solr/
-    
+  
     * **Solr Collection** 
+
       The Solr collection name.  
+
       *default*: collection1
 
 * select **Submit**
@@ -131,7 +144,8 @@ If upgrading from an earlier version configured with MSRP, it will be necessary 
     * for [standard MLS](/help/communities/solr.md#installing-standard-mls)
     * for [advanced MLS](/help/communities/solr.md#installing-advanced-mls)
 
-1. reindex MSRP  
+1. reindex MSRP 
+
    see section [MSRP Reindex Tool](#msrp-reindex-tool)
 
 ## Publishing the Configuration {#publishing-the-configuration}
@@ -260,8 +274,10 @@ To resolve the error, when following the instructions for [Installing Standard M
 
 If an attempt to make a secured connection to the MongoDB server fails due to a missing class definition, it is necessary to update the MongoDB driver bundle, `mongo-java-driver`, available from the public maven repository.
 
-1. download the driver from  
-   [https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar](https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar)  
+1. download the driver from 
+
+   [https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar](https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar) 
+   
    (version 2.13.2 or later)
 
 1. copy the bundle into the "crx-quickstart/install" folder for an AEM instance

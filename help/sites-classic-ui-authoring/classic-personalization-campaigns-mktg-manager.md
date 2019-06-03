@@ -17,7 +17,7 @@ In AEM, the Marketing Campaign Manager (MCM) is a console that helps you manage 
 
 MCM can be accessed from various locations in AEM; for example, the Welcome screen, using the Campaigns icon or with the URL:
 
-`https://<*hostname*>:<*port-nr*>/libs/mcm/content/admin.html`
+`https://<hostname>:<port>/libs/mcm/content/admin.html`
 
 For example:
 
@@ -30,27 +30,37 @@ From the MCM you can access:
 * **[Dashboard](#dashboard)** 
   This is divided into four panes:
 
-    * [Lists](#lists)  
-      This pane shows the lists you have already created, together with the number of leads in that list. From this pane you can create a new list directly or import leads to create a new list.  
+    * [Lists](#lists) 
+
+      This pane shows the lists you have already created, together with the number of leads in that list. From this pane you can create a new list directly or import leads to create a new list. 
+
       Selecting a specific list will take you to the [Lists](#lists) section showing details for your list.  
     
     * [Segments](/help/sites-classic-ui-authoring/classic-personalization-campaigns.md#anoverviewofsegmentation)  
+
       This pane show the segments that you have defined. Segments let you characterize a collection of visitors that share certain traits.  
+
       Selecting a specific segment will open the segment definition page.  
     
     * [Reports](/help/sites-administering/reporting.md)  
       AEM provides different reports to help you analyze and monitor the state of your instance. This MCM pane lists the reports.  
+
       Selecting a report will open the report page.  
     
     * [Campaigns](#campaigns)  
+
       This pane lists your campaign experiences such as [newsletters](/help/sites-classic-ui-authoring/classic-personalization-campaigns.md#newsletters) and [teasers](/help/sites-classic-ui-authoring/classic-personalization-campaigns.md#teasers).
 
 * **[Leads](#leads)** 
+
   Here you can manage your leads. You can create or import leads, edit specific details for individual leads or delete when no longer needed. You can also put leads in different groups, called Lists. **Note:** Adobe is not planning to further enhance this capability.  
+
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).  
 
 * **[Lists](#lists)** 
+
   Here you can manage your lists (of leads).**Note:** Adobe is not planning to further enhance this capability.  
+
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
 
 * **[Campaigns](#campaigns)** 
@@ -107,14 +117,18 @@ To access existing campaigns, in the MCM click **Campaigns**.
 ![](assets/screen_shot_2012-02-21at11106pm.png)
 
 * **In the left pane**:  
-  There is a list of all brands and campaigns.  
+
+  There is a list of all brands and campaigns. 
+
   A single click on a brand will both:
 
     * expand the list to show all related campaigns in the left pane; this list also shows the number of experiences that exist for each campaign.
     * open the brand overview in the right pane.
 
 * **In the right pane**:  
+
   Icons are shown for each brand (historical campaigns will not be shown).  
+
   You can double-click on these to open the brand overview.
 
 #### Brand Overview {#brand-overview}
@@ -151,10 +165,8 @@ For the individual campaigns there are two views available:
 
    From here you can:
 
-    * Change the timespan you are viewing by using the arrows, or return to **Today**.  
-    
-    * Use **Add Touchpoint...** to add a new touchpoint for an existing experience.  
-    
+    * Change the timespan you are viewing by using the arrows, or return to **Today**. 
+    * Use **Add Touchpoint...** to add a new touchpoint for an existing experience. 
     * Click on a teaser (in the right pane) to set the **On Time** and **Off Time**.
 
 1. **List View**
@@ -173,12 +185,12 @@ For the individual campaigns there are two views available:
     * **Edit** the details of a specific teaser page or newsletter (a double-click can also be used).
     * Define the **Properties...** for a specific teaser page or newsletter.
     * **Simulate** the look and feel of an experience (teaser page or newsletter).  
+
       When the simulated page is open you can then open the sidekick to switch into edit mode for that page.  
     
     * **Analyze...** the impressions generated for a page.  
-    
     * **Delete** items when they are no longer needed.
-    * **Search **for your text (the Title field of the experience will be searched).
+    * **Search** for your text (the Title field of the experience will be searched).
     * Use **Advanced** search to apply filters to the search.
 
 ### Simulating your Campaign Experiences {#simulating-your-campaign-experiences}

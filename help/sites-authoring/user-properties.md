@@ -15,9 +15,7 @@ discoiquuid: 6afbc889-c613-40e6-8a25-1570dff32d60
 
 AEM provides you with the capability to configure your account and certain aspects of the author environment.
 
-Using the [User](/help/sites-authoring/user-properties.md#user-settings) option in the [header](/help/sites-authoring/basic-handling.md#the-header) and the associated [My Preferences](#my-preferences) dialog, you can modify your user options such as.
-
-Begin by accessing the [User](/help/sites-authoring/user-properties.md#user-settings) option in the header.
+Using the [User](/help/sites-authoring/user-properties.md#user-settings) option in the [header](/help/sites-authoring/basic-handling.md#the-header) and the associated [My Preferences](#my-preferences) dialog, you can modify your user options.
 
 ## User Settings {#user-settings}
 
@@ -81,14 +79,10 @@ Each user can set certain properties for himself or herself.
   This option defines how dates in the system are displayed. The following options are available:
 
     * **Always show exact date**: The exact date is always displayed (never a relative date).
-    * **1 Day**: The relative date is shown for dates within one day, otherwise an exact date is shown.  
-    
-    * **7 Days (default)**: The relative date is shown for dates within seven days, otherwise an exact date is shown.  
-    
-    * **1 Month**: The relative date is shown for dates within one month, otherwise an exact date is shown.  
-    
-    * **1 Year**: The relative date is shown for dates within one year, otherwise an exact date is shown.  
-    
+    * **1 Day**: The relative date is shown for dates within one day, otherwise an exact date is shown. 
+    * **7 Days (default)**: The relative date is shown for dates within seven days, otherwise an exact date is shown. 
+    * **1 Month**: The relative date is shown for dates within one month, otherwise an exact date is shown. 
+    * **1 Year**: The relative date is shown for dates within one year, otherwise an exact date is shown. 
     * **Always show relative date**: Exact dates are never shown and only relative dates are shown.
 
 * **Enable Shortcuts**

@@ -20,8 +20,7 @@ Using Channel Level Activation covers the following topics:
 * **[Using Channel Level Activation as a Single Event Playback](/help/screens/channel-level-activation.md#using-channel-level-activation)**
 
     * **[Prerequisites](/help/screens/channel-level-activation.md#prerequisites)**
-    * **[Implementation](/help/screens/channel-level-activation.md#implementation)  
-      **
+    * **[Implementation](/help/screens/channel-level-activation.md#implementation)**
 
 * **[Viewing the Results](/help/screens/channel-level-activation.md#viewing-the-results)**
 
@@ -86,10 +85,8 @@ Follow the steps below to implement the functionality:
 
 1. **Create Display under Location**
 
-    1. Navigate to **Channel Level Activation** > **Locations** > **Region**.  
-    
-    1. Select **Region **and click **+ Create** from the action bar.
-    
+    1. Navigate to **Channel Level Activation** > **Locations** > **Region**.
+    1. Select **Region** and click **+ Create** from the action bar.
     1. Select **Display** from the wizard and create a display titled as **RegionDisplay.**
 
    ![](assets/screen_shot_2018-11-27at112216am.png)
@@ -103,35 +100,27 @@ Follow the steps below to implement the functionality:
     1. Select **Reference Channel**.. by path.
     1. Select the **Channel Path** as **Channel Level Activation** --&gt; ***Channels*** --&gt; ***MainAdChannel***.
     1. The **Channel Role** is populated as **mainadchannel**.
-    1. Select the **Priority** as **1**.  
-    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.**
-    
+    1. Select the **Priority** as **1**. 
+    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
     1. Click **Save**.
 
    ![](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** --&gt; **Locations** --&gt; **Region** --&gt; **RegionDisplay **and clicking **Dashboard **from the action bar. Click **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
+   >You can also assign channel from the display dashboard by navigating to **Channel Level Activation** --&gt; **Locations** --&gt; **Region** --&gt; **RegionDisplay** and clicking **Dashboard** from the action bar. Click **+ Assign Channel** from the **ASSIGNED CHANNELS & SCHEDULES** panel.
 
-   Similarly, assign channel **TargetedSinglePlay **for display**:
+   Similarly, assign channel **TargetedSinglePlay** for display**:
 
     1. Navigate to **Channel Level Activation** --&gt; **Locations** --&gt; **Region** --&gt; **RegionDisplay** and click **Assign Channel** from the action bar.
-    
-    1. **Channel Assignment** dialog box opens.  
-    
+    1. **Channel Assignment** dialog box opens.
     1. Select **Reference Channel**.. by path.
-    1. Select the **Channel Path** as **Channel Level Activation*** --&gt; ***Channels*** --&gt; ***TargetedSinglePlay***.* 
-    
+    1. Select the **Channel Path** as **Channel Level Activation*** --&gt; ***Channels*** --&gt; ***TargetedSinglePlay***.*
     1. The **Channel Role** is populated as **targetedsingleplay**.
-    
-    1. Set the **Priority** as **2**.  
-    
+    1. Set the **Priority** as **2**. 
     1. Select the **Supported Events** as **Initial Load**, **Idle Screen **and** Timer***, *as shown in the figure below.
-    
     1. Choose the date in **active from** as November 27, 2018 11:59 pm and in **active until** as November 28, 2018 12:05 am.* 
        *
-    
     1. Click **Save**.* 
        *
 

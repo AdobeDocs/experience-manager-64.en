@@ -60,16 +60,16 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
     * **ID** 
 
       This is the unique identification for the user account. It is mandatory and cannot contain spaces. 
-    
+  
     * **Email Address**
     * **Password** 
 
       A password is mandatory.
-    
+  
     * **Retype Password** 
 
       This is mandatory as it is required for confirmation of the password.
-    
+  
     * **First Name**
     * **Last Name**
     * **Phone Number**
@@ -95,11 +95,11 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
       Accepted file types: `.jpg .png .tif .gif`
 
       Preferred size: `240x240px`
-    
+  
     * **Add User to Groups** 
 
       Use the selection drop-down to select groups that the user should be a member of. Once selected, use the **X** by the name to deselect before saving.
-    
+  
     * **Groups** 
 
       A list of group(s) that the user is currently a member of. Use the **X** by the name to deselect before saving.
@@ -177,15 +177,15 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
     * **ID** 
 
       This is a unique identifier for the group. This is mandatory and cannot contain spaces. 
-    
+  
     * **Name** 
 
       A name for the group; it will be shown in the Groups console. 
-    
+  
     * **Description** 
 
       A description of the group. 
-    
+  
     * **Add Members to Group**
 
       Use the selection drop-down to select user(s) to add to the group. Once selected, use the **X** by the name to deselect before saving.

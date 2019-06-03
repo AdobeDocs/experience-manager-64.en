@@ -35,21 +35,17 @@ The following steps allow you to create a sample project for Screens and publish
    >
    >Follow the steps below to enable the ***Apache Sling Referrer Filter Allow Empty***:
    >
+   >1. Navigate to [Adobe Experience Manager Web Console Configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter).
+   >1. Check the **allow.empty** option.
+   >1. Click **Save**.
    >    
-   >    
-   >    1. Navigate to [Adobe Experience Manager Web Console Configuration](http://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter).
-   >    1. Check the **allow.empty** option.
-   >    1. Click **Save**.
-   >    
-   >       >To learn more about the preceding steps in details, refer to the ***Prerequisites*** section in [Configuring and Deploying AEM Screens](configuring-screens-introduction.md).
+   >To learn more about the preceding steps in details, refer to the ***Prerequisites*** section in [Configuring and Deploying AEM Screens](configuring-screens-introduction.md).
 
 1. **Creating a new project**
 
     1. Select the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: [http://localhost:4502/screens.html/content/screens](http://localhost:4502/screens.html/content/screens).
-    
     1. Click **Create** to create a new Screens project (see the figure below).
     1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
-    
     1. Enter the title as *Test_Project *and click **Create**.
 
    ![](assets/chlimage_1-64.png)
@@ -71,10 +67,8 @@ The following steps allow you to create a sample project for Screens and publish
    Follow the steps below to create a new channel for your project:
 
     1. Navigate to the *Test_Project* you created and select the **Channels** folder.
-    
     1. Click** Create** from the action bar (see the figure below). A wizard will open.
     1. Choose the **Sequence Channel **and click **Next**.
-    
     1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
 
    ![](assets/screen_shot_2019-03-04at90236am.png)
@@ -91,10 +85,8 @@ The following steps allow you to create a sample project for Screens and publish
 
    Follow the steps below to add content to the channel (*TestChannel*) in your project:
 
-    1. Navigate to the *Test_Project* you created and select the **Channels **folder.
-    
+    1. Navigate to the *Test_Project* you created and select the **Channels** folder.
     1. Click **Edit** from the action bar (see the figure below). The editor for the* TestChannel* opens.
-    
     1. Click the icon that toggles side panel on left hand side of the action bar to open the assets and components.
     1. Drag and drop the components you want to add to your channel.
 
@@ -112,11 +104,9 @@ The following steps allow you to create a sample project for Screens and publish
 
    Follow the steps below to create a new location for your project:
 
-    1. Navigate to the *Test_Project* you created and select the **Locations **folder.
-    
+    1. Navigate to the *Test_Project* you created and select the **Locations** folder.
     1. Click **Create** next to the plus icon in the action bar (see the figure below). A wizard will open. 
     1. Select **Location** from the wizard and click **Next**.
-    
     1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
 
    ![](assets/screen_shot_2019-03-04at91021am.png)
@@ -132,12 +122,9 @@ The following steps allow you to create a sample project for Screens and publish
    ***Displays*** represent the digital experience that run on one or multiple screens.
 
     1. Navigate to the location where you want to create your display (*Test_Projec*t --&gt; **Locations** --&gt; *TestLocation)* as shown in the figure above and selct *TestLocation*.
-    
     1. Click** Create **from the action bar. 
     1. Select **Display **from the **Create** wizard and click **Next**.
-    
     1. Enter **Title** for your display location (enter the title as *TestDisplay*).
-    
     1. Click **Create**.
 
    A new display *TestDisplay* is added to your location *TestLocation*, as shown in the figure below.
@@ -153,12 +140,9 @@ The following steps allow you to create a sample project for Screens and publish
    >This Screens functionality is only available if you have installed AEM 6.3 Sites Feature Pack 1 or higher. To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
 
     1. Navigate to the **Schedules** folder from Test_Project --&gt; **Schedules**.
-    
     1. Click** Create **from the action bar. A wizard will open.
     1. Select **Schedule** from the **Create** wizard page.
-    
     1. Enter the **Title** as *MorningSchedule* in the properties page.
-    
     1. Click **Create** and schedule will be added to the **Schedules** folder, as shown in the figure below.
 
    ![](assets/screen_shot_2019-03-04at91836am.png)
@@ -172,21 +156,13 @@ The following steps allow you to create a sample project for Screens and publish
 1. **Assigning a channel**
 
     1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
-    
     1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
-    
     1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS & SCHEDULES** panel, as shown in the figure below. **Channel Assignment** dialog box opens.
-    
     1. Select **Reference Channel** by **path**.
-    
-    1. Select the** Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**. The **Channel Role** will be automatically populated with the channel name.  
-    
+    1. Select the** Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**. The **Channel Role** will be automatically populated with the channel name. 
     1. Select the **Priority** for this channel as *1*.
-    
     1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
-    
     1. Enter **Schedule **and select the dates in **active from** and **active until**. *(You need to fill these fields only if you want the channel to display for a particular interval of time.)* 
-    
     1. Click **Save**.
 
    The channel is assigned and added to the panel.
@@ -198,11 +174,8 @@ The following steps allow you to create a sample project for Screens and publish
 1. **Adding Schedule to a Channel**
 
     1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
-    
     1. Click **Dashboard** and select **+Assign Schedule** at the top right from **ASSIGNED CHANNELS & SCHEDULES** panel, as shown in the figure above. **Schedule Assignment** dialog box opens.
-    
     1. Choose the path where you created your schedule (here, *Test_Project* --&gt; **Schedules** --&gt; *MorningSchedule*).
-    
     1. Click **Save** to add your schedule to your channel.
 
    ![](assets/screen_shot_2019-03-04at93309am.png)
@@ -220,7 +193,6 @@ The following steps allow you to create a sample project for Screens and publish
     1. Launch a separate browser window.
     1. Go to Screens player using the [web browser](http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html) or launch the AEM Screens app. When you open the device you will notice the device's state as unregistered. 
     1. From the AEM dashboard, navigate to *Test_Project* --&gt; **Devices**
-    
     1. Click **Device Manager** from the action bar.
     1. Click **Device Registration** and you will see the pending devices, as shown in the figure below.
 
@@ -263,7 +235,6 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select the device you want to assign.
     1. Click **Assign Device** from the action bar.
     1. Select the display path for your channel as */content/screens/Test_Project/***Locations***/TestLocation/TestDisplay.*
-    
     1. Click **Assign**.
     1. Click **Finish** to complete the process, and now the device is assigned.
 

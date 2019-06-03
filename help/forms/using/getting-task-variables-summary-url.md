@@ -68,7 +68,6 @@ In this sample orchestration, an employee submits a leave application form. The 
        It takes three input variables:
 
         * **Folder Path**: The path where the new CRX node is created. Set the path as **/content**.
-        
         * **Node name**: Assign the input variable nodeName to this field. This is a unique node name string. 
         * **Node Type**: Define the type as **nt:unstructured**. The output of this process is nodePath. The nodePath is the CRX path of the newly created node. The ndoePath would be the final output of the **create PTO** summary process.
 

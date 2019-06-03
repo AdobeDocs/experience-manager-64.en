@@ -40,7 +40,6 @@ You can use one of the following methods to create repeatable panels:
         1. Under THEN:
 
             * To create an add panel button, select **Add Instance**, and drag-drop the panel using ![](assets/toggle-side-panel.png) or select it using **Drop object or select here.** 
-            
             * To create a delete panel button, select **Remove Instance**, and drag-drop the panel using ![](assets/toggle-side-panel.png) or select it using **Drop object or select here.**
 
        Select **Code Editor** in the Form Objects and Functions row. Click **Edit Rules** and in the code area:

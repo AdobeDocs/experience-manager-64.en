@@ -72,7 +72,8 @@ The top navigation bar is constant for all consoles. For more information, see [
 
 The toolbar, located beneath the top navigation bar, provides the following toggle switch on the left side:
 
-* [Filter rail](/help/communities/moderation.md#filter-rail)  
+* [Filter rail](/help/communities/moderation.md#filter-rail)
+
   opens a rail which allows a choice of properties on which to filter the content.
 
 The toolbar, located beneath the top navigation bar, provides the following toggle switch on the left side:
@@ -177,7 +178,8 @@ To add additional resources on which to filter:
 * select the configuration to open in edit mode
 * enter the ResourceType of a component on which to filter
 
-    * for example, to filter on included Voting components, enter:  
+    * for example, to filter on included Voting components, enter:
+   
       `Voting=social/tally/components/hbs/voting`
 
 ![](assets/chlimage_1-475.png)
