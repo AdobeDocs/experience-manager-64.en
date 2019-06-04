@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: 184b5c7f-a704-4b8c-b1ec-f4d6616a1afc
 ---
 
-# Adding attachments{#adding-attachments}
+# Adding attachments {#adding-attachments}
 
 ## Adding attachments in forms synced with AEM Forms Workflow server (AEM Forms on JEE) {#adding-annotations}
 

@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d2695f71-5126-477c-ae6b-a964fb55728b
 ---
 
-# Employee self-service reference site walkthrough{#employee-self-service-reference-site-walkthrough}
+# Employee self-service reference site walkthrough {#employee-self-service-reference-site-walkthrough}
 
 ## Prerequisite {#prerequisite}
 

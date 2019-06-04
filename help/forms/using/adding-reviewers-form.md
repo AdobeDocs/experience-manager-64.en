@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 7c39383b-b430-40a1-9bcb-f5aaccb616ad
 ---
 
-# Associating submission reviewers with a form {#associating-submission-reviewers-with-a-form}
+# Associating submission reviewers with a form  {#associating-submission-reviewers-with-a-form}
 
 When you create a form, you can specify users who review the submissions of the form via forms portal and provide feedback. Your organization can collect feedback and rework on the submitted forms.
 

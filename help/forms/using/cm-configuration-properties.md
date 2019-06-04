@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: f2955419-c680-44a7-9913-c594b4577551
 ---
 
-# Correspondence Management Configuration Properties{#correspondence-management-configuration-properties}
+# Correspondence Management Configuration Properties {#correspondence-management-configuration-properties}
 
 To configure these properties, open the following URL in a browser: `https://<server>:<port>/<contextPath>/system/console/configMgr` and select **Correspondence Management Configurations**.
 

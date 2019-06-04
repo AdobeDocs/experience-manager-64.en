@@ -10,7 +10,7 @@ topic-tags: Configuration
 discoiquuid: dd18f7b5-882d-4e81-ab3d-85f1e5d74992
 ---
 
-# Configure adaptive forms cache{#configure-adaptive-forms-cache}
+# Configure adaptive forms cache {#configure-adaptive-forms-cache}
 
 A cache is a mechanism to shorten data access times, reduce latency, and improve input/output (I/O) speeds. Adaptive forms cache stores only HTML content and JSON structure of an adaptive form without saving any pre-filled data. It helps in reducing the time required to render an adaptive form or document on the client. It is designed specifically for adaptive forms and also supports adaptive documents.
 

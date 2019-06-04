@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: 3efd8f5a-9f38-4d9b-88d6-d8fde6c9a644
 ---
 
-# Customize create correspondence UI{#customize-create-correspondence-ui}
+# Customize create correspondence UI {#customize-create-correspondence-ui}
 
 ## Overview {#overview}
 

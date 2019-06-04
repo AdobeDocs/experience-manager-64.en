@@ -10,7 +10,7 @@ topic-tags: introduction
 discoiquuid: 0c1b6ad7-9d25-41dc-b1fe-a4cb9366c259
 ---
 
-# We.Finance reference site walkthrough{#we-finance-reference-site-walkthrough}
+# We.Finance reference site walkthrough {#we-finance-reference-site-walkthrough}
 
 ## Pre-requisites {#pre-requisites}
 

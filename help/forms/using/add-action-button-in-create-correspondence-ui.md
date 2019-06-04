@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: 481856df-5db1-4ef5-80d3-3722b5bf8b67
 ---
 
-# Add custom action/button in Create Correspondence UI{#add-custom-action-button-in-create-correspondence-ui}
+# Add custom action/button in Create Correspondence UI {#add-custom-action-button-in-create-correspondence-ui}
 
 ## Overview {#overview}
 
@@ -38,13 +38,13 @@ Adding a button with an action (here send letter for review) to the Create Corre
 1. Go to `https://[server]:[port]/[ContextPath]/crx/de` and login as Administrator.
 1. In the apps folder, create a folder named `defaultApp` with path/structure similar to the defaultApp folder (located in config folder). Use the following steps to create the folder:
 
-    1. Right-click the **defaultApp** folder at the following path and select **Overlay Node**:
+    * Right-click the **defaultApp** folder at the following path and select **Overlay Node**:
 
        /libs/fd/cm/config/defaultApp/
 
        ![Overlay node](assets/1_defaultapp.png)
 
-    1. Ensure that the Overlay Node dialog has the following values:
+    * Ensure that the Overlay Node dialog has the following values:
 
        **Path:** /libs/fd/cm/config/defaultApp/
 
@@ -54,19 +54,19 @@ Adding a button with an action (here send letter for review) to the Create Corre
     
        ![Overlay node](assets/2_defaultappoverlaynode.png)
 
-    1. Click **OK**.
-    1. Click **Save All**.
+    * Click **OK**.
+    * Click **Save All**.
 
 1. Make a copy of the acmExtensionsConfig.xml file (exists under the /libs branch) under the /apps branch.
 
-    1. Go to "/libs/fd/cm/config/defaultApp/acmExtensionsConfig.xml"  
+    * Go to "/libs/fd/cm/config/defaultApp/acmExtensionsConfig.xml"  
 
-    1. Right click the acmExtensionsConfig.xml file and select **Copy**.
+    * Right click the acmExtensionsConfig.xml file and select **Copy**.
     
        ![Copy acmExtensionsConfig.xml](assets/3_acmextensionsconfig_xml_copy.png)
 
-    1. Right-click the **defaultApp** folder at "/apps/fd/cm/config/defaultApp/," and select **Paste**.
-    1. Click **Save All**.
+    * Right-click the **defaultApp** folder at "/apps/fd/cm/config/defaultApp/," and select **Paste**.
+    * Click **Save All**.
 
 1. Double-click the copy of acmExtentionsConfig.xml you have newly created in the apps folder. The file opens for editing. 
 1. Locate the following code:

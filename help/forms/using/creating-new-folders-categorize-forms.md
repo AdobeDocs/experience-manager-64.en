@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 2a8f4380-8d0f-4354-b2da-4e0c02a545e3
 ---
 
-# Create new folders to categorize forms{#create-new-folders-to-categorize-forms}
+# Create new folders to categorize forms {#create-new-folders-to-categorize-forms}
 
 You can organize your assets better using folders. Since AEM Forms supports several types of assets—form templates, PDFs, documents, resources, and adaptive forms, with various metadata—you can use folders to categorize your forms based on the desired criteria.
 

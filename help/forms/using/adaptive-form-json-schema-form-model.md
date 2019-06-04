@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: bcda96ff-6c7d-46c4-a9e8-7e0fb245cde9
 ---
 
-# Creating adaptive forms using JSON Schema{#creating-adaptive-forms-using-json-schema}
+# Creating adaptive forms using JSON Schema {#creating-adaptive-forms-using-json-schema}
 
 ## Prerequisites {#prerequisites}
 

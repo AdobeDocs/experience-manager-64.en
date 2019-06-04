@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: ac0a281f-f589-4a70-9bc7-1a23e054b02f
 ---
 
-# Customizing tabs for a task{#customizing-tabs-for-a-task}
+# Customizing tabs for a task {#customizing-tabs-for-a-task}
 
 You can customize tab names for the `Start Process` component in the `Start Process` Uber view and the `Task Details` component in the `ToDo` Uber view.
 
@@ -47,4 +47,4 @@ You can customize tab names for the `Start Process` component in the `Start Proc
    >
    >Add corresponding key-value pair for all supported languages.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

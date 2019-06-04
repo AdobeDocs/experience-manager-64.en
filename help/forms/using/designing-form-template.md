@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: e135fa01-fede-4285-b4dd-2d23acbb4d26
 ---
 
-# Designing form templates for HTML5 forms{#designing-form-templates-for-html-forms}
+# Designing form templates for HTML5 forms {#designing-form-templates-for-html-forms}
 
 The HTML5 forms component in AEM offers rendering XFA form template to HTML5 format. Form designers can design form templates using [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63) and use the HTML5 rendition capability. These form templates, along with their assets, can reside in AEM repository, file system, or exposed via http. However, if you plan to manage your forms using Forms Manager, the templates and assets should reside in the AEM repository.
 
@@ -30,4 +30,4 @@ The key target for HTML5 forms is touch devices. Therefore, a new scribble signa
 
 ![](assets/4.png)
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

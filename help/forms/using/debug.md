@@ -11,7 +11,7 @@ topic-tags: hTML5_forms
 discoiquuid: 5260d981-da40-40ab-834e-88e091840813
 ---
 
-# Debugging HTML5 forms{#debugging-html-forms}
+# Debugging HTML5 forms {#debugging-html-forms}
 
 This document includes several troubleshooting scenarios. For each scenario, some steps are provided to troubleshoot the problem. Follow these steps and, if the problem persists, configure the Logger to get and review logs for errors/warnings. For more details about HTML5 forms logging, see [Generating Logs for HTML5 forms](/help/forms/using/enable-logs.md).
 
@@ -74,7 +74,7 @@ Check the following parameters:
 
 ## Problem: Form renders without styles {#problem-form-renders-without-styles}
 
-1. In your browser, open **Developer Tools. **Ensure that profile.css is available.
+1. In your browser, open **Developer Tools**. Ensure that profile.css is available.
 1. If the profile.css file is not available, login to CRX DE at https://&lt;server&gt;:&lt;port&gt;/crx/de.
 1. In the folder hierarchy on the left, navigate to /etc/clientlibs/fd/xfaforms/. Open css.txt files listed in the folders.
 
@@ -99,7 +99,7 @@ Check the following parameters:
 
 ### Problem: Unexpected error encountered {#problem-unexpected-error-encountered}
 
-1. In the form URL, add a query parameter debugClientLibs and set its value to true (For example: https://&lt;server&gt;:&lt;port&gt;/content/xfaforms/profiles/test.html?contentRoot=&lt;some path&gt;&template=&lt;name of xdp file&gt;&log=1-a9-b9-c9&**debugClientLibs=true**)
+1. In the form URL, add a query parameter debugClientLibs and set its value to true (For example: https://&lt;server&gt;:&lt;port&gt;/content/xfaforms/profiles/test.html?contentRoot=&lt;some path&gt;&template=&lt;name of xdp file&gt;&log=1-a9-b9-c9&debugClientLibs=true)
 1. In the desktop browser like chrome, go to Developer Tools -&gt; Console.
 1. Open the logs to identify the type of error. For detailed information on logs, see [logs for HTML5 forms](/help/forms/using/enable-logs.md).
 1. Go to Developer Tools -&gt; Console. Use stack trace to locate the code which is causing the error. Debug the error to resolve the issue.
@@ -179,4 +179,4 @@ Check the following parameters:
 
    Check on the left side in Frames if that image displays.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

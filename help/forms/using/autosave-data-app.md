@@ -11,7 +11,7 @@ topic-tags: forms-app
 discoiquuid: 133d93b0-512c-46db-b5f9-f981d77b565f
 ---
 
-# Using autosave in AEM Forms app{#using-autosave-in-aem-forms-app}
+# Using autosave in AEM Forms app {#using-autosave-in-aem-forms-app}
 
 When a user enters data in the Adobe Experience Manager Forms app, the autosave feature saves it at regular intervals. The autosave feature in the AEM Forms app helps you avoid data loss if the app is accidentally closed.
 

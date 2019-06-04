@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: a09e2c83-083d-427a-8336-0567e00c5712
 ---
 
-# Custom watermark in letter PDF preview{#custom-watermark-in-letter-pdf-preview}
+# Custom watermark in letter PDF preview {#custom-watermark-in-letter-pdf-preview}
 
 ## Overview {#overview}
 

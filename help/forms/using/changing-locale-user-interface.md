@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: e4ca8188-fb9a-44bf-8437-a98abaa7521a
 ---
 
-# Changing the locale of AEM Forms workspace user interface{#changing-the-locale-of-aem-forms-workspace-user-interface}
+# Changing the locale of AEM Forms workspace user interface {#changing-the-locale-of-aem-forms-workspace-user-interface}
 
 AEM Forms workspace provides out of the box support for English, French, German, and Japanese languages. It also provides capability to localize AEM Forms workspace user interface to any other language.
 
@@ -58,7 +58,7 @@ In the following steps, it is assumed that the new localized image files are *Ca
 Perform the following steps to localize the images:
 
 1. Using a WebDAV client, place the image files in the */apps/ws/images* folder.
-1. Navigate to* /apps/ws/css*. Open *newStyle.css* for editing and add the following entries:
+1. Navigate to */apps/ws/css*. Open *newStyle.css* for editing and add the following entries:
 
    ```
    #categoryListBar .content.nw {
@@ -193,4 +193,4 @@ You require development package to localize the *datepicker *API. For detailed i
    }
    ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: cfaa6b49-3fd0-4c08-84a2-e86c7e7e3532
 ---
 
-# Creating a new login screen{#creating-a-new-login-screen}
+# Creating a new login screen {#creating-a-new-login-screen}
 
 You can modify the login screen of all AEM Forms modules that use the AEM Forms login screen. For example, the modifications affect the login screen of, both, Forms Manager and AEM Forms workspace.
 
@@ -290,4 +290,4 @@ You can modify the login screen of all AEM Forms modules that use the AEM Forms 
    <div class="newLginContainerBkg">
    ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

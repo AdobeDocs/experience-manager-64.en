@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 764d8e0d-604d-4c7b-89cd-7686ce5f03ff
 ---
 
-# Correspondence Management | Handling user data{#correspondence-management-handling-user-data}
+# Correspondence Management | Handling user data {#correspondence-management-handling-user-data}
 
 AEM Forms Correspondence Management enables you to create, manage, and streamline secure and personalized customer correspondences. It provides an intuitive user interface for business users to create correspondences using pre-approved content blocks and media elements. For more information about creating correspondences, see [Create Correspondence](/help/forms/using/create-correspondence.md).
 

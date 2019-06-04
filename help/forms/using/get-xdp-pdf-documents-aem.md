@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 99da0d37-726e-42b9-b98a-5dd6c2165af6
 ---
 
-# Getting XDP and PDF documents in AEM Forms{#getting-xdp-and-pdf-documents-in-aem-forms}
+# Getting XDP and PDF documents in AEM Forms {#getting-xdp-and-pdf-documents-in-aem-forms}
 
 ## Overview {#overview}
 

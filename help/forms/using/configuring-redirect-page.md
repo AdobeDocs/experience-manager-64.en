@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: c51817aa-193a-4d4f-bd83-06518ddfb395
 ---
 
-# Configuring redirect page{#configuring-redirect-page}
+# Configuring redirect page {#configuring-redirect-page}
 
 Form authors can configure a page for each form, to which the form users are redirected after submitting a form.
 

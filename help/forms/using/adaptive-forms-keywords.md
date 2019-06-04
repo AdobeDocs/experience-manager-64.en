@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 678e9dfc-2c46-430a-8da9-0329dda80090
 ---
 
-# Adaptive forms keywords{#adaptive-forms-keywords}
+# Adaptive forms keywords {#adaptive-forms-keywords}
 
 Adaptive forms keywords are predefined, reserved identifiers that have special meaning for adaptive forms. You cannot use these keywords as identifiers in your adaptive forms. The following table lists all the keywords that are reserved identifiers for adaptive forms. 
 

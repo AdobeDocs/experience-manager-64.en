@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 437e6581-4eb1-4fbd-a6da-86b9c90cec89
 ---
 
-# Creating custom adaptive form themes{#creating-custom-adaptive-form-themes}
+# Creating custom adaptive form themes {#creating-custom-adaptive-form-themes}
 
 >[!CAUTION]
 >

@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: e1431ad9-3bae-4ac3-97e2-96dcbfce1f71
 ---
 
-# Customize layout and positioning of error messages of an adaptive form{#customize-layout-and-positioning-of-error-messages-of-an-adaptive-form}
+# Customize layout and positioning of error messages of an adaptive form {#customize-layout-and-positioning-of-error-messages-of-an-adaptive-form}
 
 You can customize layout and positioning of the error messages of an adaptive form. You can perform the following customizations:
 

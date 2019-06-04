@@ -12,7 +12,7 @@ geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 38a80992-2eda-4535-89af-0de34b1a9686
 ---
 
-# Compatibility Package{#compatibility-package}
+# Compatibility Package {#compatibility-package}
 
 Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages
 

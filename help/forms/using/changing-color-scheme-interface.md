@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: 18dab82a-badf-4c32-83a2-cd5cb04cae89
 ---
 
-# Changing the color scheme of the interface{#changing-the-color-scheme-of-the-interface}
+# Changing the color scheme of the interface {#changing-the-color-scheme-of-the-interface}
 
 You can modify the color scheme of AEM Forms workspace user interface portions to suit your requirements. Following are some examples of representative color scheme customizations. In addition to the steps discussed in this article, see [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 
@@ -55,4 +55,4 @@ Category component displays the various categories of your tasks in the left pan
 
 Tasks are displayed in the middle panel called the TaskList Component. To change its color, modify the style associated with .task selector in the style sheet.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
