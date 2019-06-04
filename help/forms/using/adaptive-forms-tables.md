@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: e7d53127-3a0f-4c74-a656-25d9cf969f98
 ---
 
-# Tables in adaptive forms{#tables-in-adaptive-forms}
+# Tables in adaptive forms {#tables-in-adaptive-forms}
 
 Using tables is an effective, simplified, and organized way of presenting complex data. It helps users in identifying information easily and providing inputs in an ordered arrangement of rows and columns. Most forms from financial services and government organizations require large data tables to put numbers and perform calculations.
 

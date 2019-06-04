@@ -8,7 +8,7 @@ topic-tags: installing
 discoiquuid: b53eae8c-16ba-47e7-9421-7c33e141d268
 ---
 
-# Installing and configuring document services{#installing-and-configuring-document-services}
+# Installing and configuring document services {#installing-and-configuring-document-services}
 
 ## Introduction {#introduction}
 

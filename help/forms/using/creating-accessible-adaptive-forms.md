@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 96d9ad52-074b-4084-b818-abce79282776
 ---
 
-# Creating accessible adaptive forms{#creating-accessible-adaptive-forms}
+# Creating accessible adaptive forms {#creating-accessible-adaptive-forms}
 
 ## Introduction {#introduction}
 

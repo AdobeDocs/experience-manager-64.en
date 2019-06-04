@@ -11,7 +11,7 @@ topic-tags: forms-app
 discoiquuid: 747d13d3-e7cc-4aa1-bcc8-4b57157e71ed
 ---
 
-# Gesture customization{#gesture-customization}
+# Gesture customization {#gesture-customization}
 
 You can customize the gestures of AEM Forms app to provide a distinct method of interacting with the app. For example, you can add new gestures to open or close a task or Startpoint.
 
@@ -27,8 +27,8 @@ In the AEM Forms app, the left swipe opens up a new task or Startpoint while rig
 
 1. Navigate to the views folder and open the `task.js` file for editing.
 
-    * In Xcode, navigate to the **Capture &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; views **folder.
-    * In Eclipse, navigate to the** assets &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; views** folder.
+    * In Xcode, navigate to the **Capture &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; views** folder.
+    * In Eclipse, navigate to the **assets &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; views** folder.
     * In Visual Studio, navigate to the **MWSWindows &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; views** folder.
 
    >[!NOTE]

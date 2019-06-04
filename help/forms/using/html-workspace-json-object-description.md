@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 61b7246d-ed28-4470-a0a2-a4aaf1a061a4
 ---
 
-# AEM Forms workspace JSON object description{#aem-forms-workspace-json-object-description}
+# AEM Forms workspace JSON object description {#aem-forms-workspace-json-object-description}
 
 JSON objects used in AEM Forms workspace are described below.
 
@@ -848,4 +848,4 @@ JSON objects used in AEM Forms workspace are described below.
  </tbody>
 </table>
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

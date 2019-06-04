@@ -9,7 +9,7 @@ topic-tags: correspondence-management
 discoiquuid: 53595ac8-ca7e-4adc-9214-5d0b7cdf71a0
 ---
 
-# Data Dictionary{#data-dictionary}
+# Data Dictionary {#data-dictionary}
 
 ## Introduction {#introduction}
 

@@ -11,7 +11,7 @@ discoiquuid: f8df5fa3-3843-4110-a46d-9a524d2657cd
 noindex: true
 ---
 
-# Forms-centric workflow on OSGi{#forms-centric-workflow-on-osgi}
+# Forms-centric workflow on OSGi {#forms-centric-workflow-on-osgi}
 
  ![](do-not-localize/header.png)
 

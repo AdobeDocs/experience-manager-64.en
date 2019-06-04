@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 48f841b7-0e7f-4216-9ee8-fb6e843acaf0
 ---
 
-# Forms Portal | Handling user data{#forms-portal-handling-user-data}
+# Forms Portal | Handling user data {#forms-portal-handling-user-data}
 
 AEM Forms portal provides components that you can use to list adaptive forms, HTML5 forms, and other Forms assets on AEM Sites page. In addition, you can configure it to display drafts and submitted adaptive forms and HTML5 forms for a logged-in user. For more information about forms portal, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 

@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: a80254a2-245c-48fa-b460-958eeda085af
 ---
 
-# Customize text editor{#customize-text-editor}
+# Customize text editor {#customize-text-editor}
 
 ## Overview {#overview}
 

@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: a9ab5a78-2add-46e1-a8f2-444d0f25f43a
 ---
 
-# Changing default styles of HTML5 forms{#changing-default-styles-of-html-forms}
+# Changing default styles of HTML5 forms {#changing-default-styles-of-html-forms}
 
 HTML5 forms are rendered using HTML5 capabilities and the styling of the rendered form is done using CSS. Default appearance of a HTML5 forms is similar to its PDF rendition. Developers can use custom CSS to change default appearance of HTML5 forms.
 
@@ -31,9 +31,6 @@ The following two images show the difference between the default and customized 
    Navigate to the folder in which you have created the profile renderer and create a CSS style sheet file. The steps to follow are
 
     1. Right click the folder and select **create** -&gt; **create File** from the menu
-    1. In the create file dialog, enter the name of the style sheet. Make sure that you use the extension .css (for example stylesheet.css)
-    1. From the navigation pane, open the CSS file that you have created.
-    1. Define the CSS classes of the components that you want to style and add styles in those classes.
 
    To know which CSS classes to create for a particular component in your HTML5 forms, see [Introduction to Styles](/help/forms/using/css-styles.md).  
 
@@ -51,4 +48,4 @@ The following two images show the difference between the default and customized 
     
     1. Save the file.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

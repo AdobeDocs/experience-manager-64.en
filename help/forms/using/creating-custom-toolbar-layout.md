@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: c69bb229-d680-4a55-9b2d-cd5ad0f83a9e
 ---
 
-# Creating custom toolbar layout{#creating-custom-toolbar-layout}
+# Creating custom toolbar layout {#creating-custom-toolbar-layout}
 
 ## Toolbar layouts {#layout}
 
@@ -226,7 +226,5 @@ Demo custom toolbar layout
 >
 >The description updated in the previous step is displayed in the Layout drop-down list.
 
-![Desktop view of the custom layout toolbar](assets/toolbar_1.png)
-
+![Desktop view of the custom layout toolbar](assets/toolbar_1.png) 
 Desktop view of the custom layout toolbar
-

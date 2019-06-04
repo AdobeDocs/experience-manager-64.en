@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6ebb6420-68b6-4abc-b298-c252db038416
 ---
 
-# Configuring storage services for drafts and submissions{#configuring-storage-services-for-drafts-and-submissions}
+# Configuring storage services for drafts and submissions {#configuring-storage-services-for-drafts-and-submissions}
 
 ## Overview {#overview}
 

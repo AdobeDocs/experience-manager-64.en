@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 6e4e3af5-4260-4f38-9b29-0818e92bc182
 ---
 
-# Asynchronous submission of adaptive forms{#asynchronous-submission-of-adaptive-forms}
+# Asynchronous submission of adaptive forms {#asynchronous-submission-of-adaptive-forms}
 
 Traditionally, web forms are configured to submit synchronously. When users submit a form, they are redirected to an acknowledgement page, or in case of submission failure, an error page. However, modern web experiences like single page applications are gaining popularity where the web page remains static while client-server interaction happens in the background. You can now provide this experience with adaptive forms by configuring asynchronous submission. In this case, an adaptive form behaves like a single page application as the form does not reload or its URL does not change when the submitted form data is validated on the server.
 

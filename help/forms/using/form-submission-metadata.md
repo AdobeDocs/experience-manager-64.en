@@ -9,7 +9,7 @@ topic-tags: develop
 discoiquuid: 93961c9c-b46c-4233-b070-7343245255d1
 ---
 
-# Adding information from user data to form submission metadata{#adding-information-from-user-data-to-form-submission-metadata}
+# Adding information from user data to form submission metadata {#adding-information-from-user-data-to-form-submission-metadata}
 
 You can use values entered in an element of your form to compute metadata fields of a draft or a form submission. Metadata lets you filter content based on user data. For example, a user enters John Doe in the name field of your form. You can use this information to compute metadata that can categorize this submission under the initials JD.
 

@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: 7427858d-8eec-423d-a0a9-444140420620
 ---
 
-# Understanding the folder structure{#understanding-the-folder-structure}
+# Understanding the folder structure {#understanding-the-folder-structure}
 
 AEM Forms workspace components are designed on MVC architecture using Backbone. Each component has a file for:
 
@@ -33,4 +33,4 @@ The assets for all the components are placed in the folder structure described b
 
 **util** Contains generic utilities usable by multiple components.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

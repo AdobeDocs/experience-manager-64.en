@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 4d55a100-1876-41f0-a06f-7a009c934f3d
 ---
 
-# Initiating a new process with existing process data in AEM Forms workspace{#initiating-a-new-process-with-existing-process-data-in-aem-forms-workspace}
+# Initiating a new process with existing process data in AEM Forms workspace {#initiating-a-new-process-with-existing-process-data-in-aem-forms-workspace}
 
 You can initiate a new process using the data of an existing process data. The need to initiate a new process from existing process data arises when we have to use the same form frequently with few changes in content like that of paid-time-off forms. This feature saves time and effort of users especially when the process has long form to fill.
 

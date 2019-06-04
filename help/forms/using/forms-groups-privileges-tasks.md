@@ -11,7 +11,7 @@ topic-tags: Configuration
 discoiquuid: 71412f5d-ff34-415f-baf8-d300756b93a9
 ---
 
-# AEM Forms on OSGi Groups and Privileges{#aem-forms-on-osgi-groups-and-privileges}
+# AEM Forms on OSGi Groups and Privileges {#aem-forms-on-osgi-groups-and-privileges}
 
 Assign users to the groups to manage AEM Forms on OSGi
 

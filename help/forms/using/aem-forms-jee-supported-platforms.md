@@ -10,7 +10,7 @@ geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 1b9f8d98-e7e8-4b9b-a0df-52ccba324da3
 ---
 
-# Supported Platforms for AEM Forms on JEE{#supported-platforms-for-aem-forms-on-jee}
+# Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
 
 ## Supported Platforms {#supported-platforms}
 

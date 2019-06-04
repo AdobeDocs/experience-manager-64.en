@@ -11,7 +11,7 @@ topic-tags: document_services
 discoiquuid: 536bcba4-b754-4799-b0d2-88960cc4c44a
 ---
 
-# Use HSM to digitally sign or certify documents{#use-hsm-to-digitally-sign-or-certify-documents}
+# Use HSM to digitally sign or certify documents {#use-hsm-to-digitally-sign-or-certify-documents}
 
 Hardware security modules (HSM) and etokens are dedicated, hardened, and tamper-resistance computing devices designed to securely manage, process, and store digital keys. These devices are directly attached to a computer or a network server.
 

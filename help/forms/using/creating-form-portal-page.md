@@ -10,7 +10,7 @@ topic-tags: publish
 discoiquuid: 7387dfe8-0029-4ad0-b319-fc519928318b
 ---
 
-# Creating a forms portal page{#creating-a-forms-portal-page}
+# Creating a forms portal page {#creating-a-forms-portal-page}
 
 Forms portal components equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM). For a quick overview of forms portal, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
