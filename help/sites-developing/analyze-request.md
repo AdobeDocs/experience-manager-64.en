@@ -15,23 +15,23 @@ discoiquuid: 1b5e0ccf-4157-45e3-8caf-1d6739d7d9d2
 
 ## Download {#download}
 
-This script is made to ease the analysis of the access.log files producing a readable report for later processing.
+This script is made to ease the analysis of the `access.log` files producing a readable report for later processing.
 
 [Get File](assets/analyse-access.sh)
 
 ## Description {#description}
 
-This script is made to ease the analysis of the access.log files producing a readable report for later processing.
+This script is made to ease the analysis of the `access.log` files producing a readable report for later processing.
 
 It produces the overall requests number, GET vs POST, Request distribution over time and more.
 
-The output will be in Markdown syntax therefore it will be easier to convert it to PDFs with tools like pandoc or showing it in a browser with plugins like markdown viewer.
+The output is in Markdown syntax therefore it will be easier to convert it to PDFs with tools like pandoc or showing it in a browser with plug-ins like Markdown viewer.
 
-It can analyse as well custom path provided on the command line.
+It can analyse a custom path provided on the command line.
 
-Taking from the comment within the file that will tell you how to run it:
+Taking from the comment within the file that tells you how to run it:
 
-Analyse CQ access.log extrapolating various informations and producing a MarkDown output on stdout
+Analyse CQ `access.log` extrapolating various informations and producing a Markdown output on `stdout`.
 
 ## Usage {#usage}
 
