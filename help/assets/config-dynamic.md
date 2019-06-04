@@ -24,18 +24,14 @@ Dynamic Media-Hybrid needs to be enabled and configured for use. Depending on yo
 
 Learn more about working with [video](video.md) in Dynamic Media.
 
->[!NOTE]
->
->If you use Adobe Experience Manager set up for different environments, such as one for development, one for staging, and one for live production, you need to configure Dynamic Media Cloud Services for each one of those environments.
+If you use Adobe Experience Manager set up for different environments, such as one for development, one for staging, and one for live production, you need to configure Dynamic Media Cloud Services for each one of those environments.
 
->[!NOTE]
->
->If you are having issues with your Dynamic Media configuration, an important place to look are the log files specific to dynamic media. These are installed automatically when you enable dynamic media:
->
->* s7access.log
->* ImageServing.log
->
->They are documented in [Monitoring and Maintaining your AEM instance](/help/sites-deploying/monitoring-and-maintaining.md).
+If you are having issues with your Dynamic Media configuration, an important place to look are the log files specific to dynamic media. These are installed automatically when you enable dynamic media:
+
+* s7access.log
+* ImageServing.log
+
+They are documented in [Monitoring and Maintaining your AEM instance](/help/sites-deploying/monitoring-and-maintaining.md).
 
 Hybrid publishing and delivery is a core feature of the Dynamic Media addition to Adobe Experience Manager. Hybrid publishing lets you deliver Dynamic Media assets, such as images, sets and video, from the cloud instead of from the AEM publish nodes.
 
@@ -145,19 +141,19 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 >[!NOTE]
 >
->Enabling dynamic media via the run mode replaces the functionality in AEM 6.1 and AEM 6.0 where you enabled dynamic media by setting the **dynamicMediaEnabled** flag to **true**. This flag has no functionality in AEM 6.2 and later. In addition, you do not need to restart the quickstart to enable dynamic media.
+>Enabling dynamic media via the run mode replaces the functionality in AEM 6.1 and AEM 6.0 where you enabled dynamic media by setting the **[!UICONTROL dynamicMediaEnabled]** flag to **[!UICONTROL true]**. This flag has no functionality in AEM 6.2 and later. In addition, you do not need to restart the quickstart to enable dynamic media.
 
-By enabling Dynamic Media, the dynamic media features will be available in the UI and every uploaded image asset receives a *cqdam.pyramid.tiff* rendition that is used for fast delivery of dynamic image renditions. Those PTIFFs have significant advantages including (1) the ability to manage only a single master image and generate infinite renditions on-the-fly without any additional storage and (2) the ability to use interactive visualization such as zoom, pan, spin, and so on.
+By enabling Dynamic Media, the dynamic media features will be available in the UI and every uploaded image asset receives a `cqdam.pyramid.tiff` rendition that is used for fast delivery of dynamic image renditions. Those PTIFFs have significant advantages including (1) the ability to manage only a single master image and generate infinite renditions on-the-fly without any additional storage and (2) the ability to use interactive visualization such as zoom, pan, spin, and so on.
 
 If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
 
 To enable dynamic media, you must enable the dynamic media runmode either from the command line or from the quickstart file name.
 
-To enable dynamic media:
+**To enable dynamic media**:
 
 1. On the command line, when launching the quickstart, do the following:
 
-    * Add **-r dynamicmedia** to the end of the command line when starting the jar file.
+    * Add **[!UICONTROL -r dynamicmedia]** to the end of the command line when starting the jar file.
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar -r dynamicmedia
@@ -176,14 +172,14 @@ To enable dynamic media:
 
    >[!NOTE]
    >
-   >To troubleshoot issues with Dynamic Media, see the following logs in the **crx-quickstart/logs/** directory:
+   >To troubleshoot issues with Dynamic Media, see the following logs in the **[!UICONTROL crx-quickstart/logs/]** directory:
    >
    >* ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.
    >
    >      Example of an Image Server log file name: `ImageServer-57346-2019-07-25.log`
-   >* s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
+   >* s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through `/is/image` and `/is/content`.
    >
-   >These logs are only used when Dynamic Media is enabled. They are not included in the **Download Full** package that is generated from the **system/console/status-Bundlelis**t page; when calling Customer Support if you have a Dynamic Media issue, please append both these logs to the issue.
+   >These logs are only used when Dynamic Media is enabled. They are not included in the **Download Full** package that is generated from the **[!UICONTROL system/console/status-Bundlelist]** page; when calling Customer Support if you have a Dynamic Media issue, please append both these logs to the issue.
 
 ### If you installed AEM to a different port or context path ... {#if-you-installed-aem-to-a-different-port-or-context-path}
 
