@@ -66,7 +66,7 @@ Automated Forms Conversion service supports the following components and field t
 1. Tap the folder which contains the converted form.
 1. Select the PDF form and tap **[!UICONTROL Review Conversions]**. The Review and Correct UI opens in a new tab.
 
-![](assets/img1.png)
+![img1](assets/img1.png)
 
 **A.** Content view of the converted print form **B.** Properties of the selected component **C.** Fragments in the converted PDF **D.** Hide/Unhide the left menu **E.** Switch to adaptive form editor **F.** Filter data based on the components **G.** Add new component **H.** Transform existing component **I.** Group the related components into a panel **J.** Ungroup selected panel **K.** Delete selected component **L.** Save changes and update corrections
 
@@ -93,7 +93,7 @@ You can see from the illustration that the section **Date of birth** is a **date
 
 1. Tap **[!UICONTROL Add]**dropdown > **[!UICONTROL Field]**.
 
-   ![](assets/img3.png)
+   ![img3](assets/img3.png)
 
 1. To define coordinates of the component, draw an overlay.
 
@@ -101,7 +101,7 @@ You can see from the illustration that the section **Date of birth** is a **date
 
 1. The Automated Forms Conversion service reflects the extraction results of the overlay in the **[!UICONTROL Properties]** view. You can verify the accuracy of the extraction and can modify the properties of the field in the **Properties** view (if necessary). The properties differ for different components.
 
-   ![](assets/img4.png)
+   ![img4](assets/img4.png)
 
    In this example, the **[!UICONTROL **Title**]**content is extracted correctly but the field type is identified incorrectly as **Text** that requires to be changed to **Date **type.
 
@@ -109,7 +109,7 @@ You can see from the illustration that the section **Date of birth** is a **date
 
    In **[!UICONTROL **Properties**]**view, select **[!UICONTROL **Type**]**as **[!UICONTROL **Date**]**from the dropdown. The change of field type is reflected on the print form.
 
-   ![](assets/img5.png)
+   ![img5](assets/img5.png)
 
 1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
 
@@ -129,7 +129,7 @@ You can change an existing component if the conversion service is unable to corr
 
 In the following illustration, the highlighted section **Gender** is incorrectly identified as a **Text** field type. Also, the **Title** content of the field not extracted correctly.
 
-![](assets/img6.png)
+![img6](assets/img6.png)
 
 You can see from the illustration that the section **Gender** is a multiple-choice attribute of **Check Box** field type. And the **Title** property also requires modification.
 
@@ -137,11 +137,11 @@ You can see from the illustration that the section **Gender** is a multiple-choi
 
 1. Tap **[!UICONTROL Change]**to **dropdown > **[!UICONTROL Choice Group]**.
 
-   ![](assets/img7.png)
+   ![img7](assets/img7.png)
 
 1. The Automated Forms Conversion service reflects the component and property changes on the Review and Correct UI. You can verify the accuracy of the changes and can modify the properties of the component in the **Properties** view (if necessary). The properties differ for different components.
 
-   ![](assets/img9.png)
+   ![img9](assets/img9.png)
 
    In this example, the component is transformed to **Choice Group** of **Check Box** field type. But the **Title** property and options of the **Choice Group** are note extracted correctly.
 
@@ -149,7 +149,7 @@ You can see from the illustration that the section **Gender** is a multiple-choi
 
    In **[!UICONTROL **Properties**]**view, modify the **[!UICONTROL **Title**]**and add **[!UICONTROL Options]** for the **Gender** component.
 
-   ![](assets/img8.png)
+   ![img8](assets/img8.png)
 
 1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
 
@@ -161,7 +161,7 @@ There is a possibility that the transformation results for a component are not a
 
 1. Select the component and tap **[!UICONTROL **Delete**]**button.
 
-   ![](assets/img10.png)
+   ![img10](assets/img10.png)
 
 1. To delete the component, confirm the request.
 
@@ -173,7 +173,7 @@ During conversion, multiple panels are created and there is a possibility that a
 
 In the following illustration, the highlighted panel **Current_Residential_Address** does not contain **Date_Moved** which is a relative component of the address. 
 
-![](assets/img12.png)
+![img12](assets/img12.png)
 
 To merge the relative component within the panel, you must ungroup the panel and then select all the relative components to group them into the correct panel definition.
 
@@ -181,17 +181,17 @@ To merge the relative component within the panel, you must ungroup the panel and
 
 1. Select the panel and tap **[!UICONTROL Ungroup]**button. The panel definition, child components relationship, and the panel properties are deleted.
 
-   ![](assets/img13.png)
+   ![img13](assets/img13.png)
 
 1. Press **Ctrl** key and tap all the relative components.
 
    To create a panel, tap **Group** button.
 
-   ![](assets/img14.png)
+   ![img14](assets/img14.png)
 
 1. A new panel **Current_Residential_Address** is created, and the properties view reflects the panel definition.
 
-   ![](assets/img17.png)
+   ![img17](assets/img17.png)
 
 1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
 
@@ -201,7 +201,7 @@ Once you have completed the review and modified the conversion results, you can 
 
 To send the updated PDF for reconversion, tap **[!UICONTROL Save & Convert]** from the dropdown as shown in the following illustration. The folder status changes to **Sent for conversion**.
 
-![](assets/img11.png)
+![img11](assets/img11.png)
 
 The conversion service updates the adaptive form, schema, and data fragments based on the modifications applied. It may take some time to reflect the modifications. You can validate the modifications on the Review and Correct UI after reconversion process is complete.
 

@@ -15,7 +15,7 @@ discoiquuid: 80a70f5c-dcc4-425f-9971-9e0feec094d6
 
 AEM form workspace provides capabilities to modify the presentation semantics and functionality of its interface. The types of customizations to change the style, layout, formatting, branding, and core functionality are described below.
 
-![](assets/cu_customized_workspace_example.png)
+![cu_customized_workspace_example](assets/cu_customized_workspace_example.png)
 
 An example of a customized workspace
 

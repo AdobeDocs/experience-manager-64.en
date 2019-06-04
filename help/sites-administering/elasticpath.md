@@ -31,5 +31,5 @@ Login is required, the default details are:
 * Account name: `admin`
 * Password: `aem12345`
 
-![](assets/chlimage_1-61.png)
+![chlimage_1-61](assets/chlimage_1-61.png)
 

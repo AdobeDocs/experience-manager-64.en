@@ -34,13 +34,13 @@ Once you have your API key, you can install the package from package share on al
 1. Enter your Adobe ID credentials or create an account if you do not already have one.
 1. Search for Digital River and select the **Digital River Commerce Connector **package.
 
-   ![](assets/chlimage_1.jpeg)
+   ![chlimage_1](assets/chlimage_1.jpeg)
 
 1. Click **Download**, then accept the End User License Agreement.
 1. Once it's downloaded, click **Downloaded **and it will bring you to the package manager.
 1. Click the **Install** button next to the newly downloaded package.
 
-   ![](assets/chlimage_1-1.jpeg)
+   ![chlimage_1-1](assets/chlimage_1-1.jpeg)
 
 ## Configuration {#configuration}
 
@@ -53,7 +53,7 @@ To Configure Digital River in your AEM instance:
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Digital River Commerce Provider**.
 
-   ![](assets/chlimage_1-2.jpeg)
+   ![chlimage_1-2](assets/chlimage_1-2.jpeg)
 
 1. Enter the following information:
 

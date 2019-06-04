@@ -15,7 +15,7 @@ discoiquuid: 8e38a597-5d22-4d83-95fe-4494fb04e4a3
 
 You can disassemble a PDF document by passing it to the Assembler service. Typically, this task is useful when the PDF document was originally created from many individual documents, such as a collection of statements. In the following illustration, DocA is divided into multiple resultant documents, where the first level 1 bookmark on a page identifies the start of a new resultant document.
 
-![](assets/pd_pd_pdfsfrombookmarks.png)
+![pd_pd_pdfsfrombookmarks](assets/pd_pd_pdfsfrombookmarks.png)
 
 To disassemble a PDF document, ensure that the `PDFsFromBookmarks` element is located in the DDX document. The `PDFsFromBookmarks` element is a resultant element and can be only a child element of the `DDX` element. It does not have a `result` attribute because it can result in the generation of multiple documents.
 

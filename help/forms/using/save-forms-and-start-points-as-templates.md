@@ -18,7 +18,7 @@ At times, when users fill a form, inputs to a few fields remain the same. For su
 Perform the following steps to create a template:
 
 1. Open a form and select or fill the fields that have almost identical values every time you use it. You can include an attachment with the template that you typically add when you fill the form. 
-1. Tap the **Save as Template** ![](assets/save_as_template.png)icon. A dialog box to specify the name of the template appears.
+1. Tap the **Save as Template** ![save_as_template](assets/save_as_template.png)icon. A dialog box to specify the name of the template appears.
 1. Specify the name of the template and tap **Save**. The template appears in the template folder.
 
    If a template with the identical name exists, a dialog box to confirm overwriting the existing template appears. To replace the existing template with new template, tap **Continue** or to save the template with a different name, tap **Cancel**.

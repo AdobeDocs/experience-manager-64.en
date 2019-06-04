@@ -35,7 +35,7 @@ In summary, here are the main steps to use the Smart Content Service:
 * Training the Smart Content Service
 * Automatic tagging
 
-![](assets/flowchart.gif) 
+![flowchart](assets/flowchart.gif) 
 
 ## Prerequisites {#prerequisites}
 
@@ -82,7 +82,7 @@ You can train the Smart Content Service periodically or on requirement basis.
 
 You can enable the Smart Content Service to train periodically on the assets and associated tags within a folder. Open the properties page of your asset folder, select **Enable Smart Tags** under the **Details** tab, and save the changes.
 
-![](assets/enable_smart_tags.png)
+![enable_smart_tags](assets/enable_smart_tags.png)
 
 Once this option is selected for a folder, AEM runs a training workflow automatically to train the Smart Content Service on the folder assets and their tags. By default, the training workflow runs on a weekly basis at 12:30 AM on Saturdays.
 
@@ -95,7 +95,7 @@ You can train the Smart Content Service whenever required from the Workflow cons
 1. In the **Run Workflow** dialog, browse to the payload folder that includes the tagged assets for training the service.
 1. Specify a title for the workflow and a add a comment. Then, tap/click **Run**. The assets and tags are submitted for training.
 
-   ![](assets/workflow_dialog.png)
+   ![workflow_dialog](assets/workflow_dialog.png)
 
 >[!NOTE]
 >
@@ -150,12 +150,12 @@ You can trigger the tagging workflow from the following to instantly tag your as
 1. Tap/click the AEM logo, and go to **Tools** &gt; **Workflow** &gt; **Models**.
 1. From the **Workflow Models** page, select the **DAM Smart Tags Assets** workflow and then tap/click **Start Workflow** from the toolbar.
 
-   ![](assets/dam_smart_tag_workflow.png)
+   ![dam_smart_tag_workflow](assets/dam_smart_tag_workflow.png)
 
 1. In the **Run Workflow** dialog, browse to the payload folder containing assets on which you want to apply your tags automatically.
 1. Specify a title for the workflow and an optional comment. Then, tap/click **Run**.
 
-   ![](assets/tagging_dialog.png)
+   ![tagging_dialog](assets/tagging_dialog.png)
 
    Navigate to the asset folder and review the tags to verify whether the Smart Content Service tagged your assets properly. For details, see [Managing Smart Tags](managing-smart-tags.md).
 
@@ -165,7 +165,7 @@ You can trigger the tagging workflow from the following to instantly tag your as
 1. Tap/click the GlobalNav icon and open the timeline.
 1. Tap/click the arrow at the bottom, and then tap/click **Start Workflow**.
 
-   ![](assets/start_workflow.png)
+   ![start_workflow](assets/start_workflow.png)
 
 1. Select the **DAM Smart Tag Assets** workflow, and specify a title for the workflow.
 1. Tap/click **Start**. The workflow applies your tags on assets. Navigate to the asset folder and review the tags to verify whether the Smart Content Service tagged your assets properly. For details, see [Managing Smart Tags](managing-smart-tags.md).

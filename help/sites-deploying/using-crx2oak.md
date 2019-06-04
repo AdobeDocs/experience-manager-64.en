@@ -40,7 +40,7 @@ Support for migrating repositories using external Blob Stores (commonly known as
 
 The below diagram illustrates all the possible migration combinations supported by CRX2Oak:
 
-![](assets/chlimage_1-151.png) 
+![chlimage_1-151](assets/chlimage_1-151.png) 
 
 ## Features {#features}
 
@@ -94,7 +94,7 @@ If there is any part of the content that is not required on the new instance, yo
 
 If data needs to be copied between two repositories and you have a content path that is different on both instances, you can define it in the `--merge-path` parameter. Once you do, CRX2Oak will copy only the new nodes to the destination repository and will keep the old ones in place.
 
-![](assets/chlimage_1-152.png) 
+![chlimage_1-152](assets/chlimage_1-152.png) 
 
 #### Version Support {#version-support}
 
@@ -108,7 +108,7 @@ You can also choose whether to copy orphaned versions by adding `--copy-orphaned
 
 Both parameters also support a `YYYY-MM-DD` date format, in case you want to copy versions no later than a specific date.
 
-![](assets/chlimage_1-153.png) 
+![chlimage_1-153](assets/chlimage_1-153.png) 
 
 #### Open Source Version {#open-source-version}
 

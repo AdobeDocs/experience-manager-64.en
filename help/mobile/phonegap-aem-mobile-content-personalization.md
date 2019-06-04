@@ -55,11 +55,11 @@ To get targeted content working for mobile applications there are two services t
 
 From the AEM Mobile Dashboard locate the Manage Cloud Services and click the + button. 
 
-![](assets/chlimage_1-38.png)
+![chlimage_1-38](assets/chlimage_1-38.png)
 
 From the Add Cloud Service wizard select the "Adobe Target" cloud service card and click Next.
 
-![](assets/chlimage_1-39.png)
+![chlimage_1-39](assets/chlimage_1-39.png)
 
 From the Select a Configuration dropdown you can either create a new configuration or select from an existing one. To create a new configuration select "Create Configuration" from the dropdown. Enter a title for the Target configuration. Enter your client code, email, and password that are associated with your Target account. If you do not know the values for these fields contact the Adobe Target support. Click the "Verify" button to validate the credentials. Once verified, click the Submit button to create the cloud service.
 
@@ -69,7 +69,7 @@ From the Select a Configuration dropdown you can either create a new configurati
 
 After completion of the wizard the Manage Cloud Service tile will contain the Target cloud service, however it contains a warning about a missing Adobe Mobile Service account. 
 
-![](assets/chlimage_1-40.png) 
+![chlimage_1-40](assets/chlimage_1-40.png) 
 
 ### Adobe Mobile Services {#adobe-mobile-services}
 
@@ -79,7 +79,7 @@ It is necessary to link a Adobe Mobile Services (AMS) account to the application
 
 To login to the AMS services visit [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/), select the mobile application and click the settings. Locate the SDK Target Options field and place the client code into the field and click Save. 
 
-![](assets/chlimage_1-41.png)
+![chlimage_1-41](assets/chlimage_1-41.png)
 
 Now that the client code has been associated with the mobile application, when the AMS cloud service is configured via the Adobe Mobile Dashboard the settings for the service settings will be delivered via the ADBMobileConfig.json file.
 
@@ -87,17 +87,17 @@ Now that the client code has been associated with the mobile application, when t
 
 Now that AMS has been configured, it's time to associate the mobile application in the Adobe Mobile Dashboard. From the AEM Mobile Dashboard locate the Manage Cloud Services and click the + button. 
 
-![](assets/chlimage_1-42.png)
+![chlimage_1-42](assets/chlimage_1-42.png)
 
 Select the Adobe Mobile Services card and click Next.
 
-![](assets/chlimage_1-43.png)
+![chlimage_1-43](assets/chlimage_1-43.png)
 
 From the Create or Select wizard step select the Mobile Service dropdown and select the Create Configuration entry. Provide a title, company, username, password and select the appropriate data center. If you do not know these values contact your Adobe Mobile Service administrator to obtain them. Once all fields have been filled out click the Verify button. The verification process goes to AMS and verifies the credentials for the account, and upon successful validation, a list of Mobile Applications will be populated where you select the associated mobile application from the dropdown. Click the Submit button to complete the wizard. The process may take a bit of time to obtain the configuration data and any associated analytics with the application. Once the process is complete click the Done button from the modal to return back to the Adobe Mobile Dashboard.
 
 Returning back to the Mobile Dashboard the Manage Cloud Services tile will contain the AMS cloud service. You will also note that the Analyze Metrics tile will be populated with lifecycle reports.
 
-![](assets/chlimage_1-44.png) 
+![chlimage_1-44](assets/chlimage_1-44.png) 
 
 ## For Authors {#for-authors}
 

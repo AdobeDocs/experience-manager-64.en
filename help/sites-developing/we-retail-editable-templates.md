@@ -29,13 +29,13 @@ All pages in We.Retail are based on editable templates, allowing non-developers 
 
    The structure mode of the page allows you to modify the structure of the template. This includes for example the components that are allowed in the layout container.
 
-   ![](assets/chlimage_1-138.png)
+   ![chlimage_1-138](assets/chlimage_1-138.png)
 
 1. Configure the policies for the Layout Container to define which components are allowed in the container.
 
    Policies are the equivalent of design configurations.
 
-   ![](assets/chlimage_1-139.png)
+   ![chlimage_1-139](assets/chlimage_1-139.png)
 
 1. In the design dialog of the layout container, you can
 
@@ -43,7 +43,7 @@ All pages in We.Retail are based on editable templates, allowing non-developers 
     * Select which components are allowed in the container
     * Define the default components to be placed when an asset is dragged to the container
 
-   ![](assets/chlimage_1-140.png)
+   ![chlimage_1-140](assets/chlimage_1-140.png)
 
 1. Back in the template editor, you can edit the policy of the text component within the layout container.
 
@@ -59,7 +59,7 @@ All pages in We.Retail are based on editable templates, allowing non-developers 
 
    Many components based on the core components allow the configuration of options at the component level through the editable templates, removing the need for customization by developers.
 
-   ![](assets/chlimage_1-141.png)
+   ![chlimage_1-141](assets/chlimage_1-141.png)
 
 1. Back in the template editor, you can use the mode selector to change to **Initial Content** mode to define what content is required on the page.
 

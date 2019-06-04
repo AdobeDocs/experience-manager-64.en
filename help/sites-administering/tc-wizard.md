@@ -23,19 +23,19 @@ To access this wizard:
 
 1. In Sites, select a page and tap/click Create.
 
-   ![](assets/chlimage_1-48.jpeg)
+   ![chlimage_1-48](assets/chlimage_1-48.jpeg)
 
 1. Select Language Copy and the wizard opens.
 
-   ![](assets/chlimage_1-49.jpeg)
+   ![chlimage_1-49](assets/chlimage_1-49.jpeg)
 
 1. The **Select Source** step of the wizard allows you to add/remove pages. You also have the option of including or excluding the subpages.
 
-   ![](assets/chlimage_1-50.jpeg)
+   ![chlimage_1-50](assets/chlimage_1-50.jpeg)
 
 1. The **Next **button brings you to the **Configure** step of the wizard. Here you can add/remove languages and select translation method.
 
-   ![](assets/chlimage_1-51.jpeg)
+   ![chlimage_1-51](assets/chlimage_1-51.jpeg)
 
    >[!NOTE]
    >
@@ -47,9 +47,9 @@ To access this wizard:
    >
    >If you selected multiple languages in the previous step, multiple translation projects will be created.
 
-   ![](assets/chlimage_1-52.jpeg)
+   ![chlimage_1-52](assets/chlimage_1-52.jpeg)
 
 1. The **Create** button ends the wizard.
 
-   ![](assets/chlimage_1-53.jpeg)
+   ![chlimage_1-53](assets/chlimage_1-53.jpeg)
 

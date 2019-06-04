@@ -63,7 +63,7 @@ The workflow to import a new article
 >
 >You must associate a Mobile On-Demand connection first.
 
-![](assets/chlimage_1-3.gif)
+![chlimage_1-3](assets/chlimage_1-3.gif)
 
 ## Editing an Article {#editing-an-article}
 
@@ -106,7 +106,7 @@ The general workflow to upload an article:
 1. Select **Upload** from the action bar, then click Upload in the dialog.
 1. Your article(s) are now uploaded to Mobile On-Demand.
 
-![](assets/chlimage_1-4.gif)
+![chlimage_1-4](assets/chlimage_1-4.gif)
 
 ## Deleting an Article {#deleting-an-article}
 
@@ -122,7 +122,7 @@ The general workflow to delete an article:
 1. Click **Delete**.
 1. Your article is now removed from the list.
 
-![](assets/chlimage_1-5.gif)
+![chlimage_1-5](assets/chlimage_1-5.gif)
 
 ### The Next Steps {#the-next-steps}
 

@@ -23,7 +23,7 @@ The Assets Home page is disabled by default. To enable it, perform the following
 1. Open the **Day CQ DAM Event Recorder** service.
 1. Select the **Enable this service** to enable activity recording.
 
-   ![](assets/chlimage_1-250.png)
+   ![chlimage_1-250](assets/chlimage_1-250.png)
 
 1. From the **Event Types** list, select the events to be recorded and save the changes.
 
@@ -34,15 +34,15 @@ The Assets Home page is disabled by default. To enable it, perform the following
 1. Open the **DAM Asset Home Page Feature Flag** service from Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 1. Select the **isEnabled.name** option to enable the Assets Home page feature. Save the changes.
 
-   ![](assets/chlimage_1-251.png)
+   ![chlimage_1-251](assets/chlimage_1-251.png)
 
 1. Open the **User Preferences** dialog, and select **Enable Assets Home Page**. Save the changes.
 
-   ![](assets/user_preferences.png)
+   ![user_preferences](assets/user_preferences.png)
 
 After enabling the Assets Home page, navigate to the Assets user interface either from the Navigation page or access it directly from the URL *https://&lt;Server Name&gt;:&lt;Port&gt;/aem/assetshome.html/content/dam*.
 
-![](assets/home_page.png)
+![home_page](assets/home_page.png)
 
 Tap/click the **Click here to configure your experience** link to add your username, background image, and profile image.
 

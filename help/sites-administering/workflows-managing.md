@@ -63,11 +63,11 @@ If the workflow model is stored within `/var/workflow/models` then you can assig
     * **Privileges**: `jcr:read`
     * **rep:glob**: reference to the specific workflow
 
-   ![](assets/wf-108.png)
+   ![wf-108](assets/wf-108.png)
 
    The **Access Control List** table now includes the restriction for `content-authors` on the `prototype-wfm-01` workflow model.
 
-   ![](assets/wf-109.png)
+   ![wf-109](assets/wf-109.png)
 
 1. Click **Save All**.
 
@@ -103,11 +103,11 @@ You can then add an ACL to the folder itself.
    >
    >As with [Apply an ACL for the specific workflow model to /var/workflow/models](/help/sites-administering/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models) you can include a rep:glob to limit access to a specific workflow.
 
-   ![](assets/wf-110.png)
+   ![wf-110](assets/wf-110.png)
 
    The **Access Control List** table now includes the restriction for `content-authors` on the `prototypes` folder.
 
-   ![](assets/wf-111.png)
+   ![wf-111](assets/wf-111.png)
 
 1. Click **Save All**.
 

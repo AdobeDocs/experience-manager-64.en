@@ -16,7 +16,7 @@ discoiquuid: ebe8136b-2a79-4035-b9d5-aa70a5bbd4af
 
 You can use the Assembler Service API to assemble multiple PDF documents into a single PDF document. The following illustration shows three PDF documents being merged into a single PDF document. 
 
-![](assets/pa_pa_document_assembly.png)
+![pa_pa_document_assembly](assets/pa_pa_document_assembly.png)
 
 To assemble two or more PDF documents into a single PDF document, you need a DDX document. A DDX document describes the PDF document that the Assembler service produces. That is, the DDX document instructs the Assembler service what actions to perform.
 

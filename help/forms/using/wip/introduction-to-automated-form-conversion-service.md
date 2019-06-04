@@ -32,7 +32,7 @@ Conversion service supports non-interactive PDF forms, Acroforms, and XFA-based 
 
 Automated Forms Conversion service runs on Adobe Cloud. You connect your AEM instance to the service, upload legacy forms to your AEM instance, specify configurations, and start the conversion. The complete conversion process is as listed below:
 
-![](assets/workflow.png)
+![workflow](assets/workflow.png)
 
 1. **Set up the environment**: Before starting the conversion, connect your AEM Forms instance to the conversion service running on Adobe I/O, prepare templates, prepare themes, customize meta-model, and configure email service:
 

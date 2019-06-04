@@ -30,7 +30,7 @@ The import process is fully automated and takes care of copying the content to t
 
 Dragging the zipped app onto the AEM Mobile apps catalog will automatically start the import process as shown below.
 
-![](assets/chlimage_1-37.png)
+![chlimage_1-37](assets/chlimage_1-37.png)
 
 ## The Next Steps {#the-next-steps}
 

@@ -38,7 +38,7 @@ Complete the following steps to add a chart to an Interactive Communication:
 
    The dropped Chart component, creates a placeholder for a chart. 
 
-1. Tap the chart component in the Interactive Communication editor and from the Component toolbar select **[!UICONTROL Configure (]** ![](assets/configure_icon.png)).
+1. Tap the chart component in the Interactive Communication editor and from the Component toolbar select **[!UICONTROL Configure (]** ![configure_icon](assets/configure_icon.png)).
 
    Properties sidebar appears with the Basic properties of the chart in focus. 
 
@@ -69,9 +69,9 @@ Complete the following steps to add a chart to an Interactive Communication:
 
 1. (Print channel only) In the Agent Settings, specify whether it is mandatory for the agent to use this chart. If i **[!UICONTROL t Is Mandatory For the Agent To Use This Chart]** option is not selected, the agent can tap the eye icon for the chart in the Content tab of Agent UI to show/hide the chart. 
 
-   ![](assets/chart_agentproperties.png)
+   ![chart_agentproperties](assets/chart_agentproperties.png)
 
-1. In the Properties sidebar, tap ![](assets/done_icon.png).
+1. In the Properties sidebar, tap ![done_icon](assets/done_icon.png).
 
    Preview to see the appearance and data of the chart. Return to reconfigure the properties of the chart, if necessary. 
 
@@ -118,13 +118,13 @@ You can apply the sum function to add up values of multiple instances of same da
 
 Sum function can make graph more useful when you want to collate and display sum for many instances of the same data property. 
 
-![](assets/creditcardchartsumfunctioncopy.png) 
+![creditcardchartsumfunctioncopy](assets/creditcardchartsumfunctioncopy.png) 
 
 ### Frequency function {#frequency-function}
 
 The Frequency function returns the number of values on X or Y axis for a given value on the other axis. With application of the Frequency function on the y-axis (Amount/TransAmount), the graph displays that there have been three occurrences of Bed and Breakfast transactions and one occurrence of rest of the types of transactions. 
 
-![](assets/creditcardchartfrequencyfunctioncopy.png) 
+![creditcardchartfrequencyfunctioncopy](assets/creditcardchartfrequencyfunctioncopy.png) 
 
 ## Basic properties in charts {#basicpropertiescharts}
 
@@ -188,7 +188,7 @@ You can configure a chart to use statistical functions to compute values from th
 
 While the Chart component come with some in-built functions, you can write your own functions and make them available for use in the chart configuration in the Web channel.
 
-![](assets/functionchart.png)
+![functionchart](assets/functionchart.png)
 
 >[!NOTE]
 >

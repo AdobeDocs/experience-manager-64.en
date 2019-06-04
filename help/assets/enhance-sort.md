@@ -38,15 +38,15 @@ AEM Assets lets you sort folder assets based on the following fields:
 1. Navigate to a folder that contains a large a number of assets.
 1. Click/tap the Layout icon and toggle to the list view.
 
-   ![](assets/chlimage_1-394.png)
+   ![chlimage_1-394](assets/chlimage_1-394.png)
 
 1. Click/tap the Sort icon beside any column header in the list of assets.
 
-   ![](assets/chlimage_1-395.png)
+   ![chlimage_1-395](assets/chlimage_1-395.png)
 
    The list of assets is sorted based on the field values.
 
-   ![](assets/chlimage_1-396.png)
+   ![chlimage_1-396](assets/chlimage_1-396.png)
 
 >[!NOTE]
 >
@@ -65,12 +65,12 @@ You can sort search results based on the following fields:
 
 1. From the OmniSearch box, search for assets based on the desired criteria.
 
-   ![](assets/chlimage_1-397.png)
+   ![chlimage_1-397](assets/chlimage_1-397.png)
 
 1. Click/tap the Layout icon and toggle to the list view. If the search results are already displayed in the list view, skip this step.
 1. Click/tap the Sort icon beside any column header in the list of assets. The list of assets is sorted based on the field values.
 
-   ![](assets/chlimage_1-398.png)
+   ![chlimage_1-398](assets/chlimage_1-398.png)
 
 ## Sorting assets in timeline {#sorting-assets-in-timeline}
 
@@ -79,13 +79,13 @@ AEM Assets lets you chronologically sort timeline entries, such as annotations, 
 1. From the Assets UI, select an asset for which you want to display the timeline.
 1. Click/tap the GolbalNav icon and select **Timeline**.
 
-   ![](assets/chlimage_1-399.png)
+   ![chlimage_1-399](assets/chlimage_1-399.png)
 
 1. In the timeline, select an entry from the list. For example, select **Comments** to display the list of annotations associated with the asset. 
 
-   ![](assets/chlimage_1-400.png)
+   ![chlimage_1-400](assets/chlimage_1-400.png)
 
 1. Click/tap the **Sort** icon beside the **Date** label. Based on your selection, the annotations are listed in the chronological/reverse chronological order in which they were added to the asset.
 
-   ![](assets/chlimage_1-401.png)
+   ![chlimage_1-401](assets/chlimage_1-401.png)
 

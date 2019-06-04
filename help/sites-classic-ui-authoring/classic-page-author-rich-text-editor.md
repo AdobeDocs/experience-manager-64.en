@@ -23,7 +23,7 @@ The Rich Text Editor is a basic building block for inputting textual content int
 
 The WYSIWYG editing dialog provides a wide range of functionality:
 
-![](assets/cq55_rte_basicchars.png)
+![cq55_rte_basicchars](assets/cq55_rte_basicchars.png)
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Click twice on a paragraph (a slow double-click) to enter the inplace editing mo
 
 You will be able to directly edit the text on the page, instead of inside a dialog window. Just make your changes and they will be automatically saved.
 
-![](assets/cq55_rte_inlineediting.png)
+![cq55_rte_inlineediting](assets/cq55_rte_inlineediting.png)
 
 >[!NOTE]
 >
@@ -67,23 +67,23 @@ Here you can apply formatting to characters you have selected (highlighted); som
 * Subscript
 * Superscript
 
-![](assets/cq55_rte_basicchars_use.png)
+![cq55_rte_basicchars_use](assets/cq55_rte_basicchars_use.png)
 
 All operate as a toggle, so reselection will remove the format.
 
 ### Predefined Styles and Formats {#predefined-styles-and-formats}
 
-![](assets/cq55_rte_stylesparagraph.png)
+![cq55_rte_stylesparagraph](assets/cq55_rte_stylesparagraph.png)
 
 Your installation can include predefined styles and formats. These are available with the **Style** and **Format** drop down lists and can be applied to text that you have selected.
 
 A style can be applied to a specific string (a style correlates to CSS):
 
-![](assets/cq55_rte_styles_use.png)
+![cq55_rte_styles_use](assets/cq55_rte_styles_use.png)
 
 Whereas a format is applied to the entire text paragraph (a format is HTML-based):
 
-![](assets/cq55_rte_paragraph_use.png)
+![cq55_rte_paragraph_use](assets/cq55_rte_paragraph_use.png)
 
 A specific format can only be changed (the default is **Paragraph**).
 
@@ -133,7 +133,7 @@ AEM keeps a record of your last 50 actions in the current component, held in chr
 
 Your text can be either left, center or right aligned.
 
-![](assets/cq55_rte_alignment_use.png) 
+![cq55_rte_alignment_use](assets/cq55_rte_alignment_use.png) 
 
 ### Indentation {#indentation}
 
@@ -141,7 +141,7 @@ Your text can be either left, center or right aligned.
 
 The indentation of a paragraph can be increased, or decreased. The selected paragraph will be indented, any new text entered will retain the current level of indentation.
 
-![](assets/cq55_rte_indent_use.png) 
+![cq55_rte_indent_use](assets/cq55_rte_indent_use.png) 
 
 ### Lists {#lists}
 
@@ -153,7 +153,7 @@ Nested lists can be achieved by indenting one or more list items.
 
 The style of a list can be changed by simply positioning the cursor within the list, then selecting the other style. A sublist can also have a different style to the containing list. This can be applied once the sublist has been created (by indentation).
 
-![](assets/cq55_rte_lists_use.png) 
+![cq55_rte_lists_use](assets/cq55_rte_lists_use.png) 
 
 ### Links {#links}
 
@@ -165,7 +165,7 @@ A link to an URL (either within your website or an external location) is generat
 
 A dialog will allow you to specify the target URL; also whether it should be opened in a new window.
 
-![](assets/cq55_rte_link_use.png)
+![cq55_rte_link_use](assets/cq55_rte_link_use.png)
 
 You can:
 
@@ -192,11 +192,11 @@ An anchor can be created anywhere within the text by either positioning the curs
 
 Enter the name of the anchor then click **OK** to save.
 
-![](assets/cq55_rte_anchor_use.png)
+![cq55_rte_anchor_use](assets/cq55_rte_anchor_use.png)
 
 The anchor is shown when the component is being edited and can now be used within a target for links.
 
-![](assets/chlimage_1-145.png) 
+![chlimage_1-145](assets/chlimage_1-145.png) 
 
 ### Find and Replace {#find-and-replace}
 
@@ -208,17 +208,17 @@ Both have a **Find next** button to search the open component for the text speci
 
 The search will always start from the current cursor position within the text. When the end of the component is reached a message will inform you that the next search operation will start from the top.
 
-![](assets/cq55_rte_find_use.png)
+![cq55_rte_find_use](assets/cq55_rte_find_use.png)
 
 The **Replace** option allows you to **Find**, then **Replace** an individual instance with the specified text, or to **Replace all** instances in the current component.
 
-![](assets/cq55_rte_findreplace_use.png) 
+![cq55_rte_findreplace_use](assets/cq55_rte_findreplace_use.png) 
 
 ### Images {#images}
 
 Images can be dragged from the content finder to add them to the text.
 
-![](assets/cq55_rte_image_use.png)
+![cq55_rte_image_use](assets/cq55_rte_image_use.png)
 
 >[!NOTE]
 >
@@ -232,7 +232,7 @@ The spelling checker will check all the text in the current component.
 
 Any incorrect spellings will be highlighted:
 
-![](assets/cq55_rte_spellchecker_use.png)
+![cq55_rte_spellchecker_use](assets/cq55_rte_spellchecker_use.png)
 
 >[!NOTE]
 >
@@ -244,7 +244,7 @@ Tables are available both:
 
 * As the **Table** component
 
-  ![](assets/chlimage_1-146.png)
+  ![chlimage_1-146](assets/chlimage_1-146.png)
 
 * From within the **Text** component
 
@@ -256,7 +256,7 @@ Tables are available both:
 
 In both the **Text** and **Table** components table functionality is available via the context menu (usually the right-mouse-button) clicked within the table; for example:
 
-![](assets/cq55_rte_tablemenu.png)
+![cq55_rte_tablemenu](assets/cq55_rte_tablemenu.png)
 
 >[!NOTE]
 >
@@ -298,11 +298,11 @@ The table specific functions are:
 
 #### Table Properties {#table-properties}
 
-![](assets/cq55_rte_tableproperties_icon.png)
+![cq55_rte_tableproperties_icon](assets/cq55_rte_tableproperties_icon.png)
 
 The basic properties of the table can be configured, before clicking **OK** to save:
 
-![](assets/cq55_rte_tableproperties_dialog.png)
+![cq55_rte_tableproperties_dialog](assets/cq55_rte_tableproperties_dialog.png)
 
 * **Width** 
 
@@ -337,11 +337,11 @@ The basic properties of the table can be configured, before clicking **OK** to s
 
 #### Cell Properties {#cell-properties}
 
-![](assets/cq55_rte_cellproperties_icon.png)
+![cq55_rte_cellproperties_icon](assets/cq55_rte_cellproperties_icon.png)
 
 The properties of a specific cell, or series of cells, can be configured:
 
-![](assets/cq55_rte_cellproperties_dialog.png)
+![cq55_rte_cellproperties_dialog](assets/cq55_rte_cellproperties_dialog.png)
 
 * **Width** 
 * **Height** 
@@ -355,7 +355,7 @@ The properties of a specific cell, or series of cells, can be configured:
 
 #### Add or Delete Rows {#add-or-delete-rows}
 
-![](assets/cq55_rte_rows.png)
+![cq55_rte_rows](assets/cq55_rte_rows.png)
 
 Rows can be added either above or below the current row.
 
@@ -363,7 +363,7 @@ The current row can also be deleted.
 
 #### Add or Delete Columns {#add-or-delete-columns}
 
-![](assets/cq55_rte_columns.png)
+![cq55_rte_columns](assets/cq55_rte_columns.png)
 
 Columns can be added either to the left or right of the current column.
 
@@ -371,20 +371,20 @@ The current column can also be deleted.
 
 #### Selecting Entire Rows or Columns {#selecting-entire-rows-or-columns}
 
-![](assets/chlimage_1-147.png)
+![chlimage_1-147](assets/chlimage_1-147.png)
 
 Selects the entire current row or column. Specific actions (e.g. merge) are then available.
 
 #### Merge Cells {#merge-cells}
 
-![](assets/cq55_rte_cellmerge.png) ![](assets/cq55_rte_cellmerge-1.png)
+![cq55_rte_cellmerge](assets/cq55_rte_cellmerge.png) ![cq55_rte_cellmerge-1](assets/cq55_rte_cellmerge-1.png)
 
 * If you have selected a group of cells you can merge these into one.
 * If you have have only one cell selected then you can merge it with the cell to either the right or below.
 
 #### Split Cells {#split-cells}
 
-![](assets/cq55_rte_cellsplit.png)
+![cq55_rte_cellsplit](assets/cq55_rte_cellsplit.png)
 
 Select a single cell to split it:
 
@@ -393,7 +393,7 @@ Select a single cell to split it:
 
 #### Creating Nested Tables {#creating-nested-tables}
 
-![](assets/chlimage_1-148.png)
+![chlimage_1-148](assets/chlimage_1-148.png)
 
 Creating a nested table will create a new, self-contained table within the current cell.
 
@@ -407,7 +407,7 @@ Creating a nested table will create a new, self-contained table within the curre
 
 #### Remove Table {#remove-table}
 
-![](assets/cq55_rte_removetable.png)
+![cq55_rte_removetable](assets/cq55_rte_removetable.png)
 
 This will remove the table from within the **Text** component.
 
@@ -417,7 +417,7 @@ This will remove the table from within the **Text** component.
 
 Special characters can be made available to your rich text editor; these might vary according to your installation.
 
-![](assets/cq55_rte_specialchars_use.png)
+![cq55_rte_specialchars_use](assets/cq55_rte_specialchars_use.png)
 
 Use mouseover to see a magnified version of the character, then click for it to be included at the current location in your text.
 
@@ -429,11 +429,11 @@ The source editing mode allows you to see and edit the underlying HTML of the co
 
 So the text:
 
-![](assets/cq55_rte_sourcemode_1.png)
+![cq55_rte_sourcemode_1](assets/cq55_rte_sourcemode_1.png)
 
 Will looks as follows in source mode (often the source is much longer, so you will have to scroll):
 
-![](assets/cq55_rte_sourcemode_2.png)
+![cq55_rte_sourcemode_2](assets/cq55_rte_sourcemode_2.png)
 
 >[!CAUTION]
 >

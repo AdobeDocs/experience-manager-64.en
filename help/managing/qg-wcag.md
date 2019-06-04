@@ -58,9 +58,9 @@ WCAG 2.0 is structured in a way that introduces concepts of accessible web conte
 WCAG 2.0 consists of four key principles for accessible design. These are:
 
 1. **Perceivable**: can a user sense the web content in question?
-2. **Operable**: can a user navigate, input data, or otherwise interact with the web content?
-3. **Understandable**: can a user process and comprehend the web content presented to them?
-4. **Robust**: is the web content available in the intended way across a suitably wide range of browsing environments, including legacy and emerging browsing environments?
+1. **Operable**: can a user navigate, input data, or otherwise interact with the web content?
+1. **Understandable**: can a user process and comprehend the web content presented to them?
+1. **Robust**: is the web content available in the intended way across a suitably wide range of browsing environments, including legacy and emerging browsing environments?
 
 These principles are sometimes referred to by the acronym POUR.
 

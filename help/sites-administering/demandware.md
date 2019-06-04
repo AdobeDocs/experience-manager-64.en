@@ -22,11 +22,11 @@ Demandware products can be imported into AEM to be used by product pickers, comp
 1. In AEM, navigate to Products: [http://localhost:4502/aem/products.html/etc/commerce/products](http://localhost:4502/aem/products.html/etc/commerce/products)
 1. Click **Create** button and **Import Products**.
 
-   ![](assets/chlimage_1-59.png)
+   ![chlimage_1-59](assets/chlimage_1-59.png)
 
 1. Select **Demandware** as **Importer**.
 
-   ![](assets/chlimage_1-60.png)
+   ![chlimage_1-60](assets/chlimage_1-60.png)
 
 1. Select the exported xml as **Source** and enter a store name.
 

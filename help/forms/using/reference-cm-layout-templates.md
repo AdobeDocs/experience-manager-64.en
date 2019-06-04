@@ -43,7 +43,7 @@ After installing the AEM-FORMS-6.3-REFERENCE-LAYOUT-TEMPLATES package, the templ
 
 With a logo on top, Classic template is suitable for a plain professional letter. 
 
-![](assets/classic.png)
+![classic](assets/classic.png)
 
 PDF preview of a letter created using the Classic template
 
@@ -59,7 +59,7 @@ PDF preview of a letter created using the Classic Simple template
 
 The Balanced Left template includes logo on the left of the letter.
 
-![](assets/balancedleft.png)
+![balancedleft](assets/balancedleft.png)
 
 PDF preview of a letter created using the Balanced Left template
 
@@ -67,7 +67,7 @@ PDF preview of a letter created using the Balanced Left template
 
 Balanced Right template has the company logo on the left and provides space for entering recipients address on the letter itself. Balanced Right template also includes a footer that reflows when your letter has multiple pages.
 
-![](assets/balancedright.png)
+![balancedright](assets/balancedright.png)
 
 PDF preview of a letter created using the Balanced Right template
 
@@ -75,7 +75,7 @@ PDF preview of a letter created using the Balanced Right template
 
 The Visual Left template has a side head on the left of the page with the company logo placed over the side head. Visual Left template has a subject field but no footer.
 
-![](assets/visualleft.png)
+![visualleft](assets/visualleft.png)
 
 PDF preview of a letter created using the Visual Left template
 
@@ -83,7 +83,7 @@ PDF preview of a letter created using the Visual Left template
 
 Visual Top template has visual margin on the top. The Visual Top template has a field for entering recipient's address on the page itself. The Visual Top template has the subject field and a footer that reflows for letters that extend to multiple pages.
 
-![](assets/visualtop.png)
+![visualtop](assets/visualtop.png)
 
 PDF preview of a letter created using the Visual Top template
 
@@ -91,7 +91,7 @@ PDF preview of a letter created using the Visual Top template
 
 The Visual Top - Classic template has a header on top of the page with the company logo. The Visual Top - Classic template has a field to enter a subject but no footer.
 
-![](assets/visualtopclassic.png)
+![visualtopclassic](assets/visualtopclassic.png)
 
 PDF preview of a letter created using the Visual Top - Classic template
 

@@ -110,7 +110,7 @@ To merge data with the form design, you must reference an XML data source that c
 
 Consider the following example loan application form. 
 
-![](assets/cp_cp_loanformdata.png)
+![cp_cp_loanformdata](assets/cp_cp_loanformdata.png)
 
 To merge data into this form design, you must create an XML data source that corresponds to the form. The following XML represents an XDP XML data source that corresponds to the example mortgage application form.
 
@@ -169,7 +169,7 @@ After you reference a valid XML data source that contains form data and you set 
 
 When generating a PDF document, you specify URI values that are required by the Output service to create a PDF document. A form design can be stored in locations such as the server file system or as part of an AEM Forms application. A form design (or other resources such as an image file) that exists as part of a Forms application can be referenced by using the content root URI value `repository:///`. For example, consider the following form design named *Loan.xdp* located within a Forms application named *Applications/FormsApplication*:
 
-![](assets/cp_cp_formrepository.png)
+![cp_cp_formrepository](assets/cp_cp_formrepository.png)
 
 To access the Loan.xdp file shown in the previous illustration, specify `repository:///Applications/FormsApplication/1.0/FormsFolder/` as the third parameter passed to the `OutputClient` object’s `generatePDFOutput` method. Specify the form name (*Loan.xdp*) as the second parameter passed to the `OutputClient` object’s `generatePDFOutput` method.
 
@@ -386,7 +386,7 @@ A PDF/A document must use the font that is specified in the form design and font
 
 When a PDF/A document is opened in Acrobat, a message is displayed that confirms that the document is a PDF/A document, as shown in the following illustration. 
 
-![](assets/cp_cp_pdfamessage.png)
+![cp_cp_pdfamessage](assets/cp_cp_pdfamessage.png)
 
 >[!NOTE]
 >
@@ -814,7 +814,7 @@ The Output service renders a non-interactive PDF form that is based on a form de
 
 An advantage of passing a `com.adobe.idp.Document` object to the Output service is that other AEM Forms service operations return a `com.adobe.idp.Document` instance. That is, you can get a `com.adobe.idp.Document` instance from another service operation and render it. For example, assume that an XDP file is stored in the AEM Forms repository, as shown in the following illustration. 
 
-![](assets/pd_pd_formrepository.png)
+![pd_pd_formrepository](assets/pd_pd_formrepository.png)
 
 The *FormsFolder* folder is a user-defined location in the AEM Forms repository (this location is an example and does not exist by default). In this example, a form design named Loan.xdp is located in this folder. In addition to the form design, other form collateral such as images can be stored in this location. The path to a resource located in the AEM Forms repository is:
 
@@ -933,7 +933,7 @@ You can use the Output and Assembler services to create an output stream, such a
 
 The following illustration shows this workflow.
 
-![](assets/cp_cp_outputassemblefragments.png)
+![cp_cp_outputassemblefragments](assets/cp_cp_outputassemblefragments.png)
 
 Before reading *Creating PDF Documents using Fragments*, it is recommended that you become familiar with using the Assembler service to assemble multiple XDP documents. (See [Assembling Multiple XDP Fragments](/help/forms/developing/assembling-pdf-documents.md#assembling-multiple-xdp-fragments).)
 
@@ -1635,7 +1635,7 @@ The following illustration also shows the Output service processing an XML data 
 
 The following illustration shows the Output service processing an XML data file that contains multiple records. Assume that you instruct the Output service to create a separate PDF document for each data record. In this situation, the Output service generates a separate PDF document for each data record. 
 
-![](assets/cm_outputbatchmany.png)
+![cm_outputbatchmany](assets/cm_outputbatchmany.png)
 
 The following XML data shows an example of a data file that contains three data records.
 
@@ -1932,7 +1932,7 @@ You can create search rules that result in the Output service examining input da
 
 In addition, the Output service is able to generate document packages, where multiple records are provided in the data set and each record is matched to a form design and a single document is generated made up of multiple form designs.
 
-![](assets/cs_outputbatchmanyformdesigns2.png)
+![cs_outputbatchmanyformdesigns2](assets/cs_outputbatchmanyformdesigns2.png)
 
 >[!NOTE]
 >

@@ -259,11 +259,11 @@ The following table describes the device, browser, and playback method of videos
 
 The following graphic shows the overall authoring workflow of videos that are uploaded and encoded by way of DMGateway and made available for public consumption.
 
-![](assets/chlimage_1-427.png) 
+![chlimage_1-427](assets/chlimage_1-427.png) 
 
 ## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
-![](assets/chlimage_1-428.png) 
+![chlimage_1-428](assets/chlimage_1-428.png) 
 
 ## Best practices for encoding videos {#best-practices-for-encoding-videos}
 
@@ -762,19 +762,19 @@ To monitor progress (including failed encoding/YouTube publish):
 
     * In card view, video encoding progress displays on the asset by percent. If there is an error, this information also displays on the asset.
 
-       ![](assets/chlimage_1-429.png)
+       ![chlimage_1-429](assets/chlimage_1-429.png)
 
     * In list view, video encoding progress displays in the **Processing Status** column. If there is an error, this message displays in that same column.
 
-       ![](assets/chlimage_1-430.png)
+       ![chlimage_1-430](assets/chlimage_1-430.png)
 
        This column does not display by default. To enable the column, select **View Settings** from the views drop-down menu, and add the **Processing Status** column and tap **Update**.
 
-       ![](assets/chlimage_1-431.png)
+       ![chlimage_1-431](assets/chlimage_1-431.png)
 
 1. View progress in the asset details. When you tap an asset, open the drop-down menu and select **Timeline**. To narrow it down to workflow activities like encoding or YouTube publishing, select **Workflows**.
 
-   ![](assets/chlimage_1-432.png)
+   ![chlimage_1-432](assets/chlimage_1-432.png)
 
    Any workflow information such as encoding displays in the timeline. For YouTube publish, the Workflow timeline also includes the name of the YouTube channel and the YouTube video URL. In addition, you see any failure notifications in the Workflow timeline.
 
@@ -794,11 +794,11 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-433.png)
+   ![chlimage_1-433](assets/chlimage_1-433.png)
 
    Select the instance and tap **Open History**.
 
-   ![](assets/chlimage_1-434.png)
+   ![chlimage_1-434](assets/chlimage_1-434.png)
 
    From the Workflow Instances area, you can also suspend, terminate, or rename workflows. See [Administering workflows](/help/sites-administering/workflows-administering.md) for more information. 
 
@@ -808,7 +808,7 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-435.png)
+   ![chlimage_1-435](assets/chlimage_1-435.png)
 
    >[!NOTE]
    >
@@ -826,7 +826,7 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-436.png)
+   ![chlimage_1-436](assets/chlimage_1-436.png)
 
 1. You may receive email notifications about aborted or failed workflow jobs. These email notifications are configurable by an administrator. See [Configuring email notifications](#configuring-e-mail-notifications).
 

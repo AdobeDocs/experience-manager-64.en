@@ -774,7 +774,7 @@ Arguments:
 
 * p1: A `String` value that represents the message to display. The following illustration shows the result of invoking `log` with a p1 value of `this is a log message`.
 
-![](assets/launcheruilog.png)
+![launcheruilog](assets/launcheruilog.png)
 
 * Returned value: none
 
@@ -795,7 +795,7 @@ Sets the completion value of the server startup process. The progress bar on the
 
 * Returned value: none.
 
-![](assets/launcherprogress.png) 
+![launcherprogress](assets/launcherprogress.png) 
 
 ## Third-Party Services {#third-party-services}
 
@@ -888,7 +888,7 @@ JConsole will start and the JConsole window will appear.
 
 JConsole will display a list of local Java Virtual Machine processes. The list will contain two quickstart processes. Select the quickstart "CHILD" process from the list of local processes (usually the one with the higher PID).
 
-![](assets/screen_shot_2012-03-26at114557am.png) 
+![screen_shot_2012-03-26at114557am](assets/screen_shot_2012-03-26at114557am.png) 
 
 ### Connecting to a remote CRX process {#connecting-to-a-remote-crx-process}
 
@@ -919,11 +919,11 @@ $ java
 
 After connecting to the quickstart process, JConsole provides a range of general monitoring tools for the JVM that CRX is running in.
 
-![](assets/screen_shot_2012-03-26at115056am.png)
+![screen_shot_2012-03-26at115056am](assets/screen_shot_2012-03-26at115056am.png)
 
 In order to access CRX's internal monitoring and configuration options, go to the MBeans tab, and from the hierarchical content tree on the left, select the Attributes or Operations section that you are interested in. For example the com.adobe.granite/Repository/Operations section.
 
 Within that section, select the desired attribute or operation in the left pane.
 
-![](assets/screen_shot_2012-03-26at115728am.png)
+![screen_shot_2012-03-26at115728am](assets/screen_shot_2012-03-26at115728am.png)
 

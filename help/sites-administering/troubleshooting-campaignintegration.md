@@ -53,7 +53,7 @@ To fix this issue, change the following in **$CAMPAIGN_HOME/conf/config-&lt;inst
 
 In Adobe Campaign, ensure that you have no trailing slash (/) after the port number.
 
-![](assets/chlimage_1-149.png) 
+![chlimage_1-149](assets/chlimage_1-149.png) 
 
 ## If you get a warning about your setlocale {#if-you-get-a-warning-about-your-setlocale}
 

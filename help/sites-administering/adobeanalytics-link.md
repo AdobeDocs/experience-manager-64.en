@@ -22,7 +22,7 @@ When users click links on pages of your website you can capture related informat
 1. Using **Show Configurations**, open the required Adobe Analytics framework.
 1. Expand the **Link Tracking Configuration** section and configure as required (this page provides further details):
 
-   ![](assets/aa-08.png)
+   ![aa-08](assets/aa-08.png)
 
 ## Tracking File Downloads {#tracking-file-downloads}
 
@@ -230,7 +230,7 @@ This example illustrates how the mapping works in the context of tracking and th
 
 The call made will look like this when viewed with the Adobe Marketing Cloud Debugger:
 
-![](assets/aa-leavequerysearch-blank.png)
+![aa-leavequerysearch-blank](assets/aa-leavequerysearch-blank.png)
 
 >[!NOTE]
 >
@@ -244,7 +244,7 @@ The call made will look like this when viewed with the Adobe Marketing Cloud Deb
 
 The call details that appear in Adobe Marketing Cloud Debugger are similar to the following example:
 
-![](assets/aa-leavequerysearch-active.png)
+![aa-leavequerysearch-active](assets/aa-leavequerysearch-active.png)
 
 >[!NOTE]
 >
@@ -327,7 +327,7 @@ Use the following procedure to configure link tracking for a **Text** component:
    >
    >It will only be enabled when you have selected a valid Link in the RTE.
 
-   ![](assets/aa-17.png)
+   ![aa-17](assets/aa-17.png)
 
 1. Enable **Custom Link Tracking** to override the link tracking configuration of the Adobe Analytics framework and to enable link tracking for the current link.  
 

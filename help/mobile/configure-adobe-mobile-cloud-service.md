@@ -35,7 +35,7 @@ Adobe Mobile Analytics SDK provides the following:
 >
 >The **Analyze Metrics** Tile displays in the dashboard, only if you have configured cloud services.
 
-![](assets/chlimage_1-22.png)
+![chlimage_1-22](assets/chlimage_1-22.png)
 
 AEM Command Center Metrics Tile
 
@@ -45,31 +45,31 @@ In order to take advantage of Adobe Mobile Services Analytics you need to config
 
 1. Click on the top right hand side icon to add or edit the Cloud Services from the **Manage Cloud Services** tile from the app dashboard.
 
-   ![](assets/chlimage_1-23.png)
+   ![chlimage_1-23](assets/chlimage_1-23.png)
 
 1. The **Add or Edit Cloud Services** screen displays. Select **Adobe Mobile Services** and click **Next**.
 
-   ![](assets/chlimage_1-24.png)
+   ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Choose an existing configuration from the **Mobile Services** or choose **Create Configuration** to create a new one.
 
    For new configuration, enter the **Mobile Services Properties **and click** Verify.**
 
-   ![](assets/chlimage_1-25.png)
+   ![chlimage_1-25](assets/chlimage_1-25.png)
 
    If the credentials are verified, the **Verify** button changes to **Verified**. You can choose a mobile service app from **Select a Mobile App Service**.
 
    Click **Submit** for setting up your configuration.
 
-   ![](assets/chlimage_1-26.png)
+   ![chlimage_1-26](assets/chlimage_1-26.png)
 
 1. Once you set up a cloud configuration, you can view the same in your dashboard.
 
-   ![](assets/chlimage_1-27.png)
+   ![chlimage_1-27](assets/chlimage_1-27.png)
 
    >[!NOTE]
    >
    >Once you set up your cloud configuration, you can view the **Analyze Metrics** Tile in your app dashboard.
 
-   ![](assets/chlimage_1-28.png)
+   ![chlimage_1-28](assets/chlimage_1-28.png)
 

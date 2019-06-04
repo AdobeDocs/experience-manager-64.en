@@ -165,7 +165,7 @@ Setting up your own custom proxy worker requires you to:
 
 The following diagram and steps detail how to proceed:
 
-![](assets/chlimage_1-249.png)
+![chlimage_1-249](assets/chlimage_1-249.png)
 
 >[!NOTE]
 >

@@ -85,15 +85,15 @@ The following image displays the directory structure of the `android`folder in t
 
 1. After the project is imported, a pop-up appears with option to update the Android™ plugin Gradle. Click the appropriate button depending on your requirement.
 
-   ![](assets/dontremindmeagainforthisproject.png)
+   ![dontremindmeagainforthisproject](assets/dontremindmeagainforthisproject.png)
 
 1. After successful gradle build, the following screen appears. Connect the appropriate device or emulator with the system and click **[!UICONTROL Run Android™]**.  
 
-   ![](assets/gradleconsole.png)
+   ![gradleconsole](assets/gradleconsole.png)
 
 1. Android™ Studio displays the connected devices and available emulators. Select the device on which you want to run the application and then click **OK**.  
 
-   ![](assets/connecteddevice.png)
+   ![connecteddevice](assets/connecteddevice.png)
 
 After you have built the project, you can choose to install the app using Android™ Debug Bridge or Android™ Studio.
 

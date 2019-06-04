@@ -68,15 +68,15 @@ You can drag assets from the Assets UI to a collection. You can also create a co
 1. From the Assets UI, select the assets you want to add to a collection.
 1. Drag the assets to the **Drop in Collection** zone.
 
-   ![](assets/drop_in_collection.png)
+   ![drop_in_collection](assets/drop_in_collection.png)
 
    Release the mouse button when the Dropzone becomes active, and its label changes to **Drop to Add**.
 
-   ![](assets/drop_to_add.png)
+   ![drop_to_add](assets/drop_to_add.png)
 
    Alternatively, tap/click the **To Collection** icon from the toolbar.
 
-   ![](assets/chlimage_1-109.png)
+   ![chlimage_1-109](assets/chlimage_1-109.png)
 
 1. In the **Add To Collection** page, tap/click the **Create Collection** icon from the toolbar.
 
@@ -91,22 +91,22 @@ A smart collection uses a search criteria to dynamically populate assets. To cre
 
 1. Navigate to the** Assets **UI, and tap/click the** Search** icon.
 
-   ![](assets/chlimage_1-110.png)
+   ![chlimage_1-110](assets/chlimage_1-110.png)
 
 1. With the cursor in the Omni Search box, press the Return key. 
 
-   ![](assets/chlimage_1-111.png)
+   ![chlimage_1-111](assets/chlimage_1-111.png)
 
 1. Tap/click the GlobalNav icon to display the Filters panel.
 1. In the Omni Search box, enter the search keywords and then select a search criteria from the Search panel. For example, to search for assets that include "Surfing" in the title, enter "Surfing" in the Omni Search box and then press Enter.
 1. From the **Files & Folders** list, select **Files**.
 
-   ![](assets/files_option.png)
+   ![files_option](assets/files_option.png)
 
 1. Tap/click **Save Smart Collection**.
 1. Specify a name for the collection. Select **Public** to add the DAM Users group with the Viewer role to the smart collection.
 
-   ![](assets/save_collection.png)
+   ![save_collection](assets/save_collection.png)
 
    >[!NOTE]
    >
@@ -120,11 +120,11 @@ A smart collection uses a search criteria to dynamically populate assets. To cre
 
    The new smart collection is also added to the **Saved Searches** list.
 
-   ![](assets/collection_listing.png)
+   ![collection_listing](assets/collection_listing.png)
 
    The label of the **Create Smart Selection** button changes to **Edit Smart Selection**. To edit the settings of the smart collection, select **Files** from the **Files & Folders** list. Then, tap/click the **Edit Smart Selection** button.
 
-   ![](assets/chlimage_1-112.png)
+   ![chlimage_1-112](assets/chlimage_1-112.png)
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ You can add assets to a collection that contains a list of referenced assets or 
 1. In the Assets UI, navigate to the location of the asset that you want to add to a collection.
 1. Select the asset and tap/click the **To Collection** icon from the toolbar.
 
-   ![](assets/chlimage_1-113.png)
+   ![chlimage_1-113](assets/chlimage_1-113.png)
 
    Alternatively, you can drag the asset to the **Drop in Collection** zone. Release the mouse button when the drop zone becomes active and its label changes to **Drop to Add**.
 
@@ -154,20 +154,20 @@ Smart collections are built by saving a search so you can alter their content by
 
 1. In the** Assets **UI, tap/click the** Search** icon from the toolbar.
 
-   ![](assets/chlimage_1-114.png)
+   ![chlimage_1-114](assets/chlimage_1-114.png)
 
 1. With the cursor in the Omni Search box, press the Return key. 
 1. Tap/click the GlobalNav icon to display the Filters panel.
 1. From the **Saved Searches** list, select the smart collection you want to modify. The Search panel displays the filters configured for the saved search.
 
-   ![](assets/select_smart_collection.png)
+   ![select_smart_collection](assets/select_smart_collection.png)
 
 1. From the **Files & Folders** list, select **Files**.
 1. Modify one or more filters, as necessary. Tap/click **Edit Smart Collection**.
 
    You can also edit the name of the smart collection.
 
-   ![](assets/edit_smart_collectiondialog.png)
+   ![edit_smart_collectiondialog](assets/edit_smart_collectiondialog.png)
 
 1. Tap/click **Save**. The **Edit Smart Collection** dialog appears.
 1. Tap/click **Overwrite** to replace the original smart collection with the edited collection. Alternatively, select **Save As** to save the edited collection separately.
@@ -218,13 +218,13 @@ You can edit collection settings, such as title and description, or to add membe
 
 1. Tap/click **Save** to save the changes.
 
-   ![](assets/chlimage_1-115.png)
+   ![chlimage_1-115](assets/chlimage_1-115.png)
 
 ## Deleting a collection {#deleting-a-collection}
 
 1. From the Collections console, select one or more collections and tap/click the** Delete** icon in the toolbar.
 
-   ![](assets/chlimage_1-116.png)
+   ![chlimage_1-116](assets/chlimage_1-116.png)
 
 1. In the dialog, tap/click **Delete** to confirm the delete action.
 
@@ -248,7 +248,7 @@ You can add a collection to another collection, thereby creating a nested collec
 
 1. From the Collections console, select the desired collection or group of collections, and tap or click the **To Collection** icon in the toolbar.
 
-   ![](assets/chlimage_1-117.png)
+   ![chlimage_1-117](assets/chlimage_1-117.png)
 
 1. From the **Add To Collection** page, select the collection in which to add the collection.
 
@@ -266,7 +266,7 @@ You can add a collection to another collection, thereby creating a nested collec
 
 In the Assets UI, you can search or filter assets based on certain rules, search criteria, or custom search facets. If you save these as **Saved Searches**, you can access them later from the **Saved Searches** list in the Filter panel. Creating a saved search also creates a smart collection.
 
-![](assets/saved_searches_list.png) 
+![saved_searches_list](assets/saved_searches_list.png) 
 
 ### Creating Saved Searches {#creating-saved-searches}
 
@@ -284,14 +284,14 @@ Editing saved searches is the same as editing smart collections. For details, se
 
 1. Navigate to the **Assets** UI, and tap/click the **Search** icon on the toolbar.
 
-   ![](assets/chlimage_1-118.png)
+   ![chlimage_1-118](assets/chlimage_1-118.png)
 
 1. With the cursor in the Omni Search box, press the Return key.
 1. Click or tap the GlobalNav icon to display the Filters panel.  
 
 1. From the **Saved Searches** list, tap/click the **Delete** icon next to the smart collection you want to delete.
 
-   ![](assets/select_smart_collection-1.png)
+   ![select_smart_collection-1](assets/select_smart_collection-1.png)
 
 1. In the dialog, tap/click **Delete** to delete the saved search.
 
@@ -303,7 +303,7 @@ You can run a workflow for the assets within a collection. If the collection con
 1. Tap/click the GlobalNav icon, and choose **Timeline** from the list.
 1. From the timeline, click or tap the Caret icon at the bottom, and then tap/click **Start Workflow**.
 
-   ![](assets/chlimage_1-119.png)
+   ![chlimage_1-119](assets/chlimage_1-119.png)
 
 1. In the **Start Workflow** section, select a workflow model from the list. For example, select the **DAM Update Asset** model.
 1. Enter a title for the workflow, and tap/click **Start**.

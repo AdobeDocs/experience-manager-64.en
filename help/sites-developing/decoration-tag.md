@@ -76,7 +76,7 @@ For further information about developing in HTL see the [HTL documentation](http
 
 This decision tree summarizes the logic that determines the behavior of the wrapper tags.
 
-![](assets/chlimage_1-75.png) 
+![chlimage_1-75](assets/chlimage_1-75.png) 
 
 #### Use Cases {#use-cases}
 
@@ -154,5 +154,5 @@ When including a component using `cq:includ`e or `sling:include`, the default be
 
 The following decision tree illustrates how `cq:noDecoration`, `cq:htmlTag`, `cq:tagName`, and `decorationTagName` affect the wrapper behavior.
 
-![](assets/chlimage_1-3.jpeg)
+![chlimage_1-3](assets/chlimage_1-3.jpeg)
 

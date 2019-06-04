@@ -36,7 +36,7 @@ Using CRXDE Lite:
 1. Click the green** [+] Add**
 1. click **Save All**
 
-![](assets/chlimage_1-231.png) 
+![chlimage_1-231](assets/chlimage_1-231.png) 
 
 ### head and body scripts {#head-and-body-scripts}
 
@@ -121,13 +121,13 @@ You should not only see the heading **Community Play**, but also the UI for edit
 
 The Assets/Component side panel is seen when both the side panel is toggled open and the window is wide enough for both the side content and the page content to be displayed.
 
-![](assets/chlimage_1-232.png)
+![chlimage_1-232](assets/chlimage_1-232.png)
 
 * Classic UI: [http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html](http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html)
 
 Following is how the play page appears in the classic UI including with content finder (cf):
 
-![](assets/chlimage_1-233.png) 
+![chlimage_1-233](assets/chlimage_1-233.png) 
 
 ## Communities Components {#communities-components}
 

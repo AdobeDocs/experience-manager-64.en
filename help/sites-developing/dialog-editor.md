@@ -17,11 +17,11 @@ The dialog editor provides a graphical interface for easily creating and editing
 
 To see how it works, go to CRXDE Lite, open the explorer tree to `/libs/foundation/components/chart` and double click on the node `dialog`:
 
-![](assets/chlimage_1-247.png)
+![chlimage_1-247](assets/chlimage_1-247.png)
 
 The dialog node will open in the **dialog editor**:
 
-![](assets/screen_shot_2012-02-01at25033pm.png)
+![screen_shot_2012-02-01at25033pm](assets/screen_shot_2012-02-01at25033pm.png)
 
 ## User Interface Overview {#user-interface-overview}
 

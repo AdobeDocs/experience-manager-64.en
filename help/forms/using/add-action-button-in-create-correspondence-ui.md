@@ -440,10 +440,10 @@ After you have configured the action and button for sending the letter for revie
 
 1. Clear the browser cache.
 
-2. In the Create Correspondence UI, click **Letter Review** and specify the reviewer's email ID.
+1. In the Create Correspondence UI, click **Letter Review** and specify the reviewer's email ID.
 
-3. Click **Submit**. 
+1. Click **Submit**. 
 
-![](assets/sendreview.png)
+![sendreview](assets/sendreview.png)
 
 The reviewer receives an email from the system with the letter as a PDF attachment. 

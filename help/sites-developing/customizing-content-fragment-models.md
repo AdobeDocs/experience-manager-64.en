@@ -43,7 +43,7 @@ A user can [create a content fragment model](/help/assets/content-fragments-mode
 
 The wizard will create an entry with this structure:
 
-![](assets/cf-54.png)
+![cf-54](assets/cf-54.png)
 
 * `../settings/dam/cfm/models` 
 

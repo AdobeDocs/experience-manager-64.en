@@ -24,7 +24,7 @@ Make sure you select **Magento Registration** as the action type.
 You can re-import catalog blueprint and products from your Magento server by using the [standard blueprint import procedure](/help/sites-administering/generic.md#importing-products).  
 You just need to select the **Magento2** importer.
 
-![](assets/chlimage_1-42.jpeg) 
+![chlimage_1-42](assets/chlimage_1-42.jpeg) 
 
 ## Order-Service {#order-service}
 
@@ -33,7 +33,7 @@ You can add a new mapping to the Apache Sling Service User Mapper Service Amendm
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Apache Sling Service User Mapper Service Amendment**.
 
-   ![](assets/chlimage_1-43.jpeg)
+   ![chlimage_1-43](assets/chlimage_1-43.jpeg)
 
 1. Enter the following information:
 

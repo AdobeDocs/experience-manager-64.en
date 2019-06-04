@@ -27,17 +27,17 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/essentials-voting.md#essentials-for-client-side) are included, this is how the `Voting` component will appear.
 
-![](assets/chlimage_1-307.png)
+![chlimage_1-307](assets/chlimage_1-307.png)
 
 ## Configuring Voting {#configuring-voting}
 
 Select the placed `Voting` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-308.png)
+![chlimage_1-308](assets/chlimage_1-308.png)
 
 Under the **Texts & Labels** tab, specify the properties used to record votes.
 
-![](assets/chlimage_1-309.png)
+![chlimage_1-309](assets/chlimage_1-309.png)
 
 * **Positive Response Label** 
   (*Required*) The internal property name for a positive response.

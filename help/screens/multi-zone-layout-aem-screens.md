@@ -52,7 +52,7 @@ Create a channel titled as **MultiZone** in **Zones** project. Follow the steps 
 
 1. Click **Create** to complete the channel creation.
 
-![](assets/screen_shot_2018-12-07at120026pm.png) 
+![screen_shot_2018-12-07at120026pm](assets/screen_shot_2018-12-07at120026pm.png) 
 
 ### Using Single Assets in one or more Zones {#using-single-assets-in-one-or-more-zones}
 
@@ -63,13 +63,13 @@ You can use single assets such as an image or a video in all three different zon
     1. Navigate to **Zones** --&gt; **Channels **--&gt;** MultiZone**.
     1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
 
-   ![](assets/screen_shot_2018-12-07at14917pm.png)
+   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **Adding Images to the Channel**
 
    To play a single image or a video in all three zones, simply drag and drop the image in the channel editor, as shown below.
 
-   ![](assets/new1-1.gif)
+   ![new1-1](assets/new1-1.gif)
 
 ### Using Sequenced Content in one or more Zones {#using-sequenced-content-in-one-or-more-zones}
 
@@ -81,7 +81,7 @@ If you want the zones to display sequence of images or content and a static imag
     1. Select **Channels Folder** from the **Create** wizard and click **Next**.
     1. Enter the title as **EmbeddedChannels** and click **Create**.
 
-   ![](assets/screen_shot_2018-12-19at125428pm.png)
+   ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Adding two more channels to Channel Folder**
 
@@ -92,7 +92,7 @@ If you want the zones to display sequence of images or content and a static imag
 
    Similarly, create another sequence channel titled as **Zone2** in **EmbeddedChannels** folder.
 
-   ![](assets/screen_shot_2018-12-19at125930pm.png)
+   ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
 1. **Adding Embedded Sequences/component to main channel (MultiZone)**
 
@@ -100,7 +100,7 @@ If you want the zones to display sequence of images or content and a static imag
     1. Click **Edit** from the action bar to open the editor.
     1. Drag and drop the **Embedded Sequence** component to two of the zones, as shown in the figure below.
 
-   ![](assets/new.gif)
+   ![new](assets/new.gif)
 
 1. **Add Content to all three Zones**
 
@@ -111,7 +111,7 @@ If you want the zones to display sequence of images or content and a static imag
 
    Similarly, add the **Zone2** to another embedded sequence component in the editor. Also, add an image to the third zone at the bottom, as shown below.
 
-   ![](assets/new2-1.gif)
+   ![new2-1](assets/new2-1.gif)
 
 #### Viewing the Result {#viewing-the-result}
 
@@ -119,5 +119,5 @@ Once you implement multi-zone layouts using the preceding steps, the following o
 
 The following output in Screens Player displays the content in three different zones. The left and the right zones (both use embedded sequence as a component) display sequence of images and the zone below displays a static image.
 
-![](assets/new2-2.gif)
+![new2-2](assets/new2-2.gif)
 

@@ -61,7 +61,7 @@ First of all, check the connection between the author and publish instances and 
 
 1. Click **Create** to create the form.
 
-   ![](assets/chlimage_1-187.png)
+   ![chlimage_1-187](assets/chlimage_1-187.png)
 
    You can then [edit and configure your form's content](#editing-form-content).
 
@@ -95,7 +95,7 @@ This section only details specific links to Adobe Campaign. For more information
 
 1. Add your selected components by dragging them from the toolbox and dropping them into the form. For more information on the available Adobe Campaign specific components, see [Adobe Form Components](/help/sites-classic-ui-authoring/classic-personalization-ac-components.md).
 
-   ![](assets/chlimage_1-188.png)
+   ![chlimage_1-188](assets/chlimage_1-188.png)
 
 1. Configure the added fields by double clicking them. The **Adobe Campaign** tab lets you link the field to a field in the Adobe Campaign recipient table. You can also specify whether the field is part of the reconciliation key which allows recipients that are already present in the Adobe Campaign database to be recognized.
 

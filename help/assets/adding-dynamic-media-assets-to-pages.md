@@ -34,7 +34,7 @@ Adding the Dynamic Media or Interactive Media component to a page is the same as
 1. In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.
 1. In the left pane, click the **[!UICONTROL Components]** icon and filter for **[!UICONTROL Dynamic Media]**. If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](/help/sites-authoring/templates.md#editing-templates-template-authors) for more information. 
 
-   ![](assets/chlimage_1-537.png)
+   ![chlimage_1-537](assets/chlimage_1-537.png)
 
 1. Drag the **[!UICONTROL Dynamic Media]** or **[!UICONTROL Interactive Media]** component onto the page in the desired location.
 1. Click the blue box around the component, then tap the **Configuration** (wrench) icon.
@@ -46,7 +46,7 @@ You can localize Dynamic Media components in one of two ways:
 
 * Within a web page in Sites, open **[!UICONTROL Properties]** and select the **[!UICONTROL Advanced]** tab. Select the desired language for localization.
 
-  ![](assets/chlimage_1-538.png)
+  ![chlimage_1-538](assets/chlimage_1-538.png)
 
 * From the site selector, select the desired page or page group. Tap **[!UICONTROL Properties]** and select the **[!UICONTROL Advanced]** tab. Select the desired language for localization.
 
@@ -62,7 +62,7 @@ Dynamic Media and Interactive Media are available under the [!UICONTROL Dynamic 
 >
 >These components are not available by default and need to be made available via the template editor before using. [After they are made available i](/help/sites-authoring/templates.md#editing-templates-template-authors)n the template editor, you can add the components to your page as you would any other AEM component.
 
-![](assets/chlimage_1-539.png) 
+![chlimage_1-539](assets/chlimage_1-539.png) 
 
 ### Dynamic Media component {#dynamic-media-component}
 
@@ -90,7 +90,7 @@ You can also configure the viewer preset, image preset, or image format directly
 
 You can edit the following Dynamic Media Settings by clicking the **[!UICONTROL Edit]** icon in the component and then **[!UICONTROL Dynamic Media Settings]**.
 
-![](assets/dm-settings-image-preset.png)
+![dm-settings-image-preset](assets/dm-settings-image-preset.png)
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ This option is not available if you are viewing image sets, spin sets, or mixed 
 
 Use the Dynamic Media component to add dynamic video to your web pages. When you edit the component you can choose to use a predefined video viewer preset for playing the video on the page.
 
-![](assets/chlimage_1-540.png)
+![chlimage_1-540](assets/chlimage_1-540.png)
 
 You can edit the following Dynamic Media Settings by clicking **[!UICONTROL Edit]** in the component.
 
@@ -161,7 +161,7 @@ Use the Dynamic Media component to add Smart Crop image assets to your web pages
 
 See also [Image Profiles](image-profiles.md).
 
-![](assets/dm-settings-smart-crop.png)
+![dm-settings-smart-crop](assets/dm-settings-smart-crop.png)
 
 You can edit the following [!UICONTROL Dynamic Media Settings] by clicking **[!UICONTROL Edit]** in the component.
 
@@ -199,7 +199,7 @@ The Interactive Media component is smart&mdash;depending on whether you add an i
   
 >To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
 
-![](assets/chlimage_1-541.png)
+![chlimage_1-541](assets/chlimage_1-541.png)
 
 You can edit the following [!UICONTROL General] settings by clicking **[!UICONTROL Edit]** in the component.
 
@@ -226,7 +226,7 @@ Panoramic Media component is for those assets that are spherical panoramic image
 
 Both the aspect ratio and keyword criteria apply to panoramic assets for the asset details page and the "Panoramic Media" WCM component.
 
-![](assets/panoramic-media-viewer-preset.png)
+![panoramic-media-viewer-preset](assets/panoramic-media-viewer-preset.png)
 
 You can edit the following setting by tapping **[!UICONTROL Configure]** in the component.
 

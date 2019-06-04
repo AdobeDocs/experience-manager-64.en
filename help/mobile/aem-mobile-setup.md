@@ -86,7 +86,7 @@ You must complete the configuration steps in order for the AEM Mobile integratio
 1. Save the changes.
 1. Here is an example configuration:
 
-![](assets/chlimage_1-53.png) 
+![chlimage_1-53](assets/chlimage_1-53.png) 
 
 ### Configuring AEM Mobile On-Demand Services CloudService {#configuring-aem-mobile-on-demand-services-cloudservice}
 

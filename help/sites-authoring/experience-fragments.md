@@ -68,19 +68,19 @@ To create an Experience Fragment:
 
 1. Select Experience Fragments from the Global Navigation.
 
-   ![](assets/screen_shot_2018-04-05at92221am1.png)
+   ![screen_shot_2018-04-05at92221am1](assets/screen_shot_2018-04-05at92221am1.png)
 
 1. Select **Create**. You can create **Folders** and/or **Experience Fragments**.
 
    Creating folders allows you to create a meaningful structure for your Experience Fragments.
 
-   ![](assets/xf-authoring-01.png)
+   ![xf-authoring-01](assets/xf-authoring-01.png)
 
 1. From the required folder, select **Create** then **Experience Fragment** to open the **Create Experience Fragment** wizard.
 
    Select the required **Template**, then **Next**:
 
-   ![](assets/xf-authoring-02.png)
+   ![xf-authoring-02](assets/xf-authoring-02.png)
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ To create an Experience Fragment:
 
    A **Title** is mandatory. If the **Name** is left blank it will be derived from the **Title**.
 
-   ![](assets/xf-authoring-03.png)
+   ![xf-authoring-03](assets/xf-authoring-03.png)
 
 1. Click **Create**.
 
@@ -128,7 +128,7 @@ The following example procedure illustrates how to create a teaser for a product
 
 1. Drag and drop a **Category Teaser** from the [Components Browser](/help/sites-authoring/author-environment-tools.md#components-browser).
 
-   ![](assets/xf-authoring-04.png)
+   ![xf-authoring-04](assets/xf-authoring-04.png)
 
 1. Select **[Configure](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste)** from the component toolbar.
 1. Add the **Asset** and define the **Properties** as required.
@@ -142,7 +142,7 @@ You can create variations of your Experience Fragment, depending on your needs:
 1. Open your fragment for [editing](/help/sites-authoring/experience-fragments.md#editing-your-experience-fragment).
 1. Open the **Variations** tab.
 
-   ![](assets/xf-authoring-06.png)
+   ![xf-authoring-06](assets/xf-authoring-06.png)
 
 1. **Create** allows you to create:
 
@@ -157,11 +157,11 @@ You can create variations of your Experience Fragment, depending on your needs:
     * **Description**
     * **Variation tags**
 
-   ![](assets/xf-authoring-07.png)
+   ![xf-authoring-07](assets/xf-authoring-07.png)
 
 1. Confirm with **Done** (tick icon), the new variation will be shown in the panel:
 
-   ![](assets/xf-authoring-08.png)
+   ![$1](assets/$1.$2)
 
 ## Using your Experience Fragment {#using-your-experience-fragment}
 
@@ -173,14 +173,14 @@ You can now use your Experience Fragment when authoring your pages:
 
 1. Create an instance of the Experience Fragment component, by dragging the component from the Components browser to the page paragraph system:
 
-   ![](assets/xf-authoring-09.png)
+   ![xf-authoring-09](assets/xf-authoring-09.png)
 
 1. Add the actual Experience Fragment to the component instance; either:
 
     * Drag the required fragment from the Assets Browser and drop onto the component 
     * Select **Configure** from the component toolbar and specify the fragment to use, confirm with **Done** (tick)
 
-   ![](assets/xf-authoring-10.png)
+   ![xf-authoring-10](assets/xf-authoring-10.png)
 
    >[!NOTE]
    >
@@ -196,23 +196,23 @@ To create a new Building Block:
 
 1. In the Experience Fragment editor, select the components you want to re-use:
 
-   ![](assets/xf-authoring-12.png)
+   ![xf-authoring-12](assets/xf-authoring-12.png)
 
 1. From the components toolbar, select **Convert to building block**:
 
-   ![](assets/xf-authoring-13-icon.png)
+   ![xf-authoring-13-icon](assets/xf-authoring-13-icon.png)
 
    For example:
 
-   ![](assets/xf-authoring-13.png)
+   ![xf-authoring-13](assets/xf-authoring-13.png)
 
 1. Enter the name of the **Building Block**, and confirm with **Convert**:
 
-   ![](assets/xf-authoring-14.png)
+   ![xf-authoring-14](assets/xf-authoring-14.png)
 
 1. The **Building Block** will be shown in the tab, and can be selected in the paragraph system:
 
-   ![](assets/xf-authoring-15.png)
+   ![xf-authoring-15](assets/xf-authoring-15.png)
 
 ### Managing a Building Block {#managing-a-building-block}
 
@@ -222,7 +222,7 @@ Your building block is visible in the **Building Blocks** tab. For each block, t
 * Rename   
 * Delete
 
-![](assets/xf-authoring-16.png) 
+![xf-authoring-16](assets/xf-authoring-16.png) 
 
 ### Using a Building Block {#using-a-building-block}
 
@@ -248,7 +248,7 @@ For example:
 >
 >Links always reference the publish instance. They are intended to be consumed by third parties, so the link will always be called from the publish instance, not the author.
 
-![](assets/xf-authoring-17.png) 
+![xf-authoring-17](assets/xf-authoring-17.png) 
 
 ## Exporting Experience Fragments {#exporting-experience-fragments}
 

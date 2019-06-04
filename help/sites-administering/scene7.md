@@ -279,7 +279,7 @@ If you run AEM behind a proxy or have special firewall settings, you may need to
 
 If you navigate to `/etc/cloudservices/scene7/endpoints.html`, you see the servers listed (and can edit them by clicking on the URL):
 
-![](assets/chlimage_1-296.png) 
+![chlimage_1-296](assets/chlimage_1-296.png) 
 
 ### Creating a cloud configuration for Dynamic Media Classic {#creating-a-cloud-configuration-for-scene}
 
@@ -301,7 +301,7 @@ To configure AEM to be able to publish assets to Dynamic Media Classic:
 
 1. Tap **[!UICONTROL Configure now]**.
 
-   ![](assets/chlimage_1-297.png)
+   ![chlimage_1-297](assets/chlimage_1-297.png)
 
 1. In the **[!UICONTROL Title]** field, and optionally in the **[!UICONTROL Name]** field, enter the appropriate information. Tap **[!UICONTROL Create]**.
 
@@ -323,7 +323,7 @@ To configure AEM to be able to publish assets to Dynamic Media Classic:
    >
    >Depending on the size of the Dynamic Media Classic folder, importing a root folder can take a long time. In addition, Dynamic Media Classic data could exceed the AEM storage. Ensure you are importing the correct folder. Importing too much data can stop your system.
 
-   ![](assets/chlimage_1-298.png)
+   ![chlimage_1-298](assets/chlimage_1-298.png)
 
 1. Click **[!UICONTROL OK]**. AEM saves your configuration.
 
@@ -344,7 +344,7 @@ To enable it:
 1. Tap the [!UICONTROL Tools] icon, then navigate to **[!UICONTROL Operations &gt; Web Console]**. The Web console opens.
 1. Navigate to **[!UICONTROL Adobe CQ Dynamic Media Classic Dam Listener]** and select the **[!UICONTROL Enabled]** check box. 
 
-   ![](assets/chlimage_1-299.png)
+   ![chlimage_1-299](assets/chlimage_1-299.png)
 
 1. Tap  **[!UICONTROL Save]**.
 
@@ -354,7 +354,7 @@ When an AEM instance is configured to handle video encoding through Dynamic Medi
 
 1. Navigate to **http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl**.
 
-   ![](assets/chlimage_1-300.png)
+   ![chlimage_1-300](assets/chlimage_1-300.png)
 
 1. Change the number as desired in the **[!UICONTROL Active job timeout]** field. Any non-negative number is accepted with the unit of measure in seconds. By default, this is set to 2100.
 
@@ -383,12 +383,12 @@ To configure autouploading from AEM Assets:
    >
    >See [Configuring the state (published/unpublished) of assets pushed to Dynamic Media Classic](#configuring-the-state-published-unpublished-of-assets-pushed-to-scene) for information on pushing assets to Dynamic Media Classic in an unpublished state.
 
-   ![](assets/screen_shot_2018-03-15at52501pm.jpg)
+   ![screen_shot_2018-03-15at52501pm](assets/screen_shot_2018-03-15at52501pm.jpg)
 
 1. Navigate back to the AEM welcome page and tap **[!UICONTROL Workflows]**. Double-click the **DAM Update Asset** workflow to open it.
 1. In the sidekick, navigate to the **[!UICONTROL Workflow]** components, and select **[!UICONTROL Dynamic Media Classic]**. Drag **[!UICONTROL Dynamic Media Classic]** to the workflow and tap **[!UICONTROL Save]**. Assets added to AEM Assets in the target folder will automatically be uploaded to Dynamic Media Classic.
 
-   ![](assets/chlimage_1-301.png)
+   ![chlimage_1-301](assets/chlimage_1-301.png)
 
    >[!NOTE]
    >
@@ -444,7 +444,7 @@ To set the state of assets pushed to Dynamic Media Classic as unpublished:
 
    See [Dynamic Media Classic documentation](https://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html) for more information on testing assets before making them public.
 
-   ![](assets/chlimage_1-302.png)
+   ![chlimage_1-302](assets/chlimage_1-302.png)
 
 1. Tap **[!UICONTROL OK]**.
 
@@ -472,7 +472,7 @@ To enable Dynamic Media Classic for WCM in the touch-optimized UI:
 1. Tap **[!UICONTROL Cloud Services]** and tap **[!UICONTROL Add Configuration]** and select **[!UICONTROL Dynamic Media Classic]**.
 1. In the **[!UICONTROL Adobe Dynamic Media Classic]** drop-down list, select the desired configuration and tap **[!UICONTROL OK]**.
 
-   ![](assets/chlimage_1-303.png)
+   ![chlimage_1-303](assets/chlimage_1-303.png)
 
    Video presets from that configuration of Dynamic Media Classic are available for use in AEM with the Dynamic Media Classic video component on that page and child pages.
 
@@ -502,7 +502,7 @@ To configure the default configuration:
 
 1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Default Configuration]** check box to make this the default company and root path that appears in the Dynamic Media Classic content browser.
 
-   ![](assets/chlimage_1-304.png)
+   ![chlimage_1-304](assets/chlimage_1-304.png)
 
    >[!NOTE]
    >
@@ -519,7 +519,7 @@ To configure the adhoc folder:
 
 1. Tap the **[!UICONTROL Advanced]** tab. In the **[!UICONTROL Ad-hoc Folder]** field, you can modify the **Ad-hoc** folder. By default, it is the **name_of_the_company/CQ5_adhoc**.
 
-   ![](assets/chlimage_1-305.png)
+   ![chlimage_1-305](assets/chlimage_1-305.png)
 
 ### Configuring universal presets {#configuring-universal-presets}
 

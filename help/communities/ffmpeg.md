@@ -60,7 +60,7 @@ To modify the DAM Update Asset workflow, and in this example, to turn off transc
 
       default values: `profile:firefoxhq,profile:hq,profile:flv,profile:iehq`
 
-![](assets/chlimage_1-372.png)
+![chlimage_1-372](assets/chlimage_1-372.png)
 
 * select **OK** to close the `Step Properties` dialog
 

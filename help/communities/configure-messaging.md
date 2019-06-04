@@ -52,15 +52,15 @@ In order to access the configuraiton dialog, it is necessary to cancel inheritan
 
 Once the configuration is complete, it is necessary to restore inheritance by selecting the `broken link` icon.
 
-![](assets/chlimage_1-396.png)
+![chlimage_1-396](assets/chlimage_1-396.png)
 
 Once inheritance is canceled, it will be possible to select the `configure` icon to open the configuration dialog.
 
-![](assets/chlimage_1-397.png)
+![chlimage_1-397](assets/chlimage_1-397.png)
 
 #### Basic tab {#basic-tab}
 
-![](assets/chlimage_1-398.png)
+![chlimage_1-398](assets/chlimage_1-398.png)
 
 * **Service selector** 
   (*Required*) Set this to the value of the property**`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](/help/communities/messaging.md#messaging-operations-service).
@@ -82,7 +82,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
 
 #### Display tab {#display-tab}
 
-![](assets/chlimage_1-399.png)
+![chlimage_1-399](assets/chlimage_1-399.png)
 
 * **Mark Read Button** 
   If checked, displays a `Read`button allowing a message to be marked as read.
@@ -117,15 +117,15 @@ In order to access the configuraiton dialog, it is necessary to cancel inheritan
 
 Once the configuration is complete, it is necessary to restore inheritance by selecting the `broken link` icon.
 
-![](assets/chlimage_1-400.png)
+![chlimage_1-400](assets/chlimage_1-400.png)
 
 Once inheritance is canceled, it will be possible to select the `configure` icon to open the configuration dialog.
 
-![](assets/chlimage_1-401.png)
+![chlimage_1-401](assets/chlimage_1-401.png)
 
 #### Basic tab {#basic-tab-1}
 
-![](assets/chlimage_1-402.png)
+![chlimage_1-402](assets/chlimage_1-402.png)
 
 * **Redirect URL** 
   Enter the URL of the page shown after the message is sent. For example, `../messaging.html`.
@@ -144,7 +144,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
 
 #### Display tab {#display-tab-1}
 
-![](assets/chlimage_1-403.png)
+![chlimage_1-403](assets/chlimage_1-403.png)
 
 * **Show Subject Field** 
   If checked, show the `Subject` field and enable adding a subject to the message. Default is not checked.

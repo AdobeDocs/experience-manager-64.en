@@ -239,7 +239,7 @@ The console can be accessed at:
 
 It looks as follows: 
 
-![](assets/chlimage_1-132.png) 
+![chlimage_1-132](assets/chlimage_1-132.png) 
 
 ### Extending the Content Sync framework {#extending-the-content-sync-framework}
 

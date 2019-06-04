@@ -25,7 +25,7 @@ Processes created in Workbench can be invoked by using Remoting. That is, you ca
 
 The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, can be invoked using Remoting. (For information about this process such as its input and output values, see [Short lived process example](/help/forms/developing/aem-forms-processes.md).)
 
-![](assets/iu_iu_encryptdocumentprocess2.png)
+![iu_iu_encryptdocumentprocess2](assets/iu_iu_encryptdocumentprocess2.png)
 
 >[!NOTE]
 >
@@ -618,7 +618,7 @@ You can use administration console to specify whether documents are secure when 
 
 The following code example invokes the `MyApplication/EncryptDocument.`A user must login to click the Select File button that is used to upload a PDF file and invoke the process. That is, once the user is authenticated, the Select File button is enabled. The following illustration shows the Flex client application after a user is authenticated. Notice that the Authenticated CheckBox is enabled. 
 
-![](assets/iu_iu_secureremotelogin.png)
+![iu_iu_secureremotelogin](assets/iu_iu_secureremotelogin.png)
 
 if AEM Forms is configured to only allow secure documents to be uploaded and the user not have the* Document Upload Application User *role, then an exception is thrown. If the user does have this role, then the file is uploaded and the process is invoked.
 
@@ -886,7 +886,7 @@ You can invoke services located in a custom component using Remoting. For exampl
 
 The Customer service exposes an operation named `createCustomer`. This discussion describes how to create a Flex client application that invokes the Customer service and creates a customer. This operation requires a complex object of type `com.adobe.livecycle.sample.customer.Customer` that represents the new customer. The following illustration shows the client application that invokes the Customer service and creates a new customer. The `createCustomer` operation returns a customer identifier value. The identifier value is displayed in the Customer Identifier text box.
 
-![](assets/iu_iu_flexnewcust.png)
+![iu_iu_flexnewcust](assets/iu_iu_flexnewcust.png)
 
 The following table lists the controls that are part of this client application. 
 
@@ -970,7 +970,7 @@ The ActionScript class's fields match the fields that belong to the AEM Forms co
 
 The Customer ActionScript class belongs to a package named customer. It is recommended that you place all ActionScript classes that map to complex AEM Forms data types in their own package. Create a folder in the Flex project's src folder and place the ActionScript file in the folder, as shown in the following illustration.
 
-![](assets/iu_iu_customeras.png) 
+![iu_iu_customeras](assets/iu_iu_customeras.png) 
 
 ### Quick Start: Invoking the Customer custom service using Remoting {#quick-start-invoking-the-customer-custom-service-using-remoting}
 

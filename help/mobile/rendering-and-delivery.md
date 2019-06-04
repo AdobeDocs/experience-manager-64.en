@@ -26,7 +26,7 @@ Content Services Default Renderers fill the gap between out-of-the-box Sling Def
 
 The following diagram shows the rendering of content services.
 
-![](assets/chlimage_1-15.png) 
+![chlimage_1-15](assets/chlimage_1-15.png) 
 
 ## Requesting JSON {#requesting-json}
 

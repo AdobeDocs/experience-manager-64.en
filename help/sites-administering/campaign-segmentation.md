@@ -27,7 +27,7 @@ AEM allows you to easily create and update segments, teasers, and campaigns. It 
 
 The **Segment Editor** allows you to easily define a segment:
 
-![](assets/segmenteditor-1.png)
+![segmenteditor-1](assets/segmenteditor-1.png)
 
 You can **Edit** each segment to specify a **Title**, **Description** and **Boost** factor. Using the sidekick you can add **AND** and **OR** containers to define the **Segment Logic**, then add the required **Segment Traits** to define the selection criteria.
 
@@ -123,17 +123,17 @@ To define your new segment:
 1. Create a [new page](/help/sites-authoring/managing-pages.md) using the **Segment** template.
 1. Open the new page to see the segment editor:
 
-   ![](assets/screen_shot_2012-02-02at101726am.png)
+   ![screen_shot_2012-02-02at101726am](assets/screen_shot_2012-02-02at101726am.png)
 
 1. Use either the sidekick or the context menu (usually right mouse button click, then select **New...** to open the Insert New Component window) to find the segment trait you need. Then drag it to the **Segment Editor** it will appear in the default **AND** container.
 1. Double-click on the new trait to edit the specific parameters; for example the mouse position:
 
-   ![](assets/screen_shot_2012-02-02at103135am-1.png)
+   ![screen_shot_2012-02-02at103135am-1](assets/screen_shot_2012-02-02at103135am-1.png)
 
 1. Click **OK** to save your definition:
 1. You can **Edit** the segment definition to give it a **Title**, **Description** and **[Boost](/help/sites-administering/campaign-segmentation.md#boost-factor)** factor:
 
-   ![](assets/screen_shot_2012-02-02at103547am.png)
+   ![screen_shot_2012-02-02at103547am](assets/screen_shot_2012-02-02at103547am.png)
 
 1. Add more traits if required. You can formulate boolean expressions using the **AND Container** and **OR Container** components found under **Segment Logic**. With the segment editor you can delete traits or containers not needed anymore, or drag them to new positions within the statement.
 
@@ -154,7 +154,7 @@ Female and between the ages of 16 and 62
 
 As the main operator is OR you need to start with an **OR Container**. Within this you have 2 AND statements, for each of these you need an **AND Container**, into which you can add the individual traits.
 
-![](assets/screen_shot_2012-02-02at105145am-1.png) 
+![screen_shot_2012-02-02at105145am-1](assets/screen_shot_2012-02-02at105145am-1.png) 
 
 ## Testing the Application of a Segment {#testing-the-application-of-a-segment}
 
@@ -167,11 +167,11 @@ Once the segment has been defined, potential results can be tested with the help
 
 For example, a simple segment definition can be based on the age and gender of the user. Loading a specific profile shows that the segment is successfully resolved:
 
-![](assets/screen_shot_2012-02-02at105926am-1.png)
+![screen_shot_2012-02-02at105926am-1](assets/screen_shot_2012-02-02at105926am-1.png)
 
 Or not:
 
-![](assets/screen_shot_2012-02-02at110019am-1.png)
+![screen_shot_2012-02-02at110019am-1](assets/screen_shot_2012-02-02at110019am-1.png)
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ Such tests can also be performed on content pages and in combination with **Teas
 
 Mouseover on a teaser paragraph will show the segments applied, whether they currently resolve and therefore, why the current teaser instance has been selected:
 
-![](assets/chlimage_1-408.png) 
+![chlimage_1-408](assets/chlimage_1-408.png) 
 
 ## Using Your Segment {#using-your-segment}
 
