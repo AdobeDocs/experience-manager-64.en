@@ -161,7 +161,7 @@ You can create variations of your Experience Fragment, depending on your needs:
 
 1. Confirm with **Done** (tick icon), the new variation will be shown in the panel:
 
-   ![$1](assets/$1.$2)
+   ![xf-authoring-08](assets/xf-authoring-08.png)
 
 ## Using your Experience Fragment {#using-your-experience-fragment}
 

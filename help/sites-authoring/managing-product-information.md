@@ -197,7 +197,7 @@ The **Create Shot List** task enables the project owner to select products for w
 1. Tap/click the **Add To Shotlist** icon to create a CSV file that contains a list of all such products. A message confirms that the shot list is created for the selected products. Click **Close** to complete the workflow.
 1. After you create a shot list, the **View Shot List** link appears. To add more products to the shot list, tap/click **Add to Shot List**. In this case, the data gets appended to the initially created shot list.
 
-   ![$1](assets/$1.$2)
+   ![chlimage_1-147](assets/chlimage_1-147.png)
 
 1. Tap/click **View Shot List** to view the new shot list.
 
