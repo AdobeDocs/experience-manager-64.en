@@ -41,7 +41,7 @@ The **Manage Page Content tile** displays the number of pages of managed content
 
 Once content has been updated, administrators can publish a content update payload Over-the-Air (OTA) to customers through the **Manage Content Packages tile.**
 
-![](assets/chlimage_1-161.png)
+![chlimage_1-161](assets/chlimage_1-161.png)
 
 Select one of the listed content packages to create or edit content such as creating, editing or removing pages, changing navigation and page order, create or update content such as copy (text) and media.
 
@@ -53,7 +53,7 @@ In order to edit AEM Mobile content, *AEM authors *will need a solid understandi
 
 Here, *AEM Administrators* can quickly and easily update their apps to deliver engaging experiences and up to date content to drive brand engagement and meet business goals all without the need for a developer or app store resubmission.
 
-![](assets/chlimage_1-162.png)
+![chlimage_1-162](assets/chlimage_1-162.png)
 
 Once *AEM Authors* have added or modified content through the Manage Content Tile, *AEM Administrators* are able to push those changes out to customers with a Content Packages update.
 
@@ -63,11 +63,11 @@ The Content Package action allows the *AEM Author* to create and edit page conte
 
 Select a content package from the tile, in this example the English package. Notice a content update dialog lists the relevant *Content Sync* configuration. If app content has been modified since a previous update, the status will display *Pending*, as shown below.
 
-![](assets/chlimage_1-163.png)
+![chlimage_1-163](assets/chlimage_1-163.png)
 
 Next, select the **Stage** action at the top right to being creating the new content update. Add the appropriate update information and press Done.
 
-![](assets/chlimage_1-164.png)
+![chlimage_1-164](assets/chlimage_1-164.png)
 
 The *Content Sync* handler then creates the required packages by forming a delta (a package of *only* what has changed). Once completed, this update content package has been staged as shown below.
 
@@ -79,11 +79,11 @@ Staging an update to content allows several updates to be made before publishing
 >
 >See [Mobile Quickstart for AEM Verify](/help/mobile/phonegap-mobile-quickstart.md) for more details on AEM Verify app.
 
-![](assets/chlimage_1-165.png)
+![chlimage_1-165](assets/chlimage_1-165.png)
 
 When ready to deliver new content to your app users with Content Sync OTA, select **Publish** as shown below.
 
-![](assets/chlimage_1-166.png)
+![chlimage_1-166](assets/chlimage_1-166.png)
 
 ### The Next Steps {#the-next-steps}
 

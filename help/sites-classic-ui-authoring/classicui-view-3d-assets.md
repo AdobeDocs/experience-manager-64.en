@@ -15,7 +15,7 @@ discoiquuid: 5e1e0039-670e-4051-9f2a-e88162482467
 
 The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
 
-![](assets/chlimage_1-16.png)
+![chlimage_1-16](assets/chlimage_1-16.png)
 
 Besides using the default stages in AEM 3D, you can also use stages that you have created in a third-party application and uploaded into AEM.
 

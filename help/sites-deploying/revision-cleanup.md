@@ -41,15 +41,15 @@ Online Revision Cleanup is configured by default to automatically run once a day
 
 1. In the main AEM window, go to **Tools - Operations - Dashboard - Maintenance** or point your browser to: `https://serveraddress:serverport/libs/granite/operations/content/maintenance.html`
 
-   ![](assets/chlimage_1-90.png)
+   ![chlimage_1-90](assets/chlimage_1-90.png)
 
 1. Hover over **Daily Maintenance Window** and click the **Settings** icon.
 
-   ![](assets/chlimage_1-91.png)
+   ![chlimage_1-91](assets/chlimage_1-91.png)
 
 1. Enter the desired values (recurrence, start time, end time) and click **Save**.
 
-   ![](assets/chlimage_1-92.png)
+   ![chlimage_1-92](assets/chlimage_1-92.png)
 
 Alternatively, if you want to run the revision cleanup task manually, you can:
 
@@ -58,7 +58,7 @@ Alternatively, if you want to run the revision cleanup task manually, you can:
 1. Hover over the **Revision Cleanup** icon.
 1. Click **Run**.
 
-   ![](assets/chlimage_1-93.png)
+   ![chlimage_1-93](assets/chlimage_1-93.png)
 
 ### Running Online Revision Cleanup After Offline Revision Cleanup {#running-online-revision-cleanup-after-offline-revision-cleanup}
 
@@ -84,7 +84,7 @@ AEM 6.4 also introduces a more efficient content deduplication mechanism during 
 
 The two charts below, present results from internal laboratory testing that illustrate the reduction of average execution times and the average footprint on disk in AEM 6.4 compared to AEM 6.3:
 
-![](assets/onrc-duration-6_4vs63.png) ![](assets/segmentstore-6_4vs63.png) 
+![onrc-duration-6_4vs63](assets/onrc-duration-6_4vs63.png) ![segmentstore-6_4vs63](assets/segmentstore-6_4vs63.png) 
 
 ### How To Configure Full and Tail Compaction {#how-to-configure-full-and-tail-compaction}
 

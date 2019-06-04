@@ -27,13 +27,13 @@ App definitions are a way to identify what spaces and other configurations are a
 
 1. Choose **Mobile** from the AEM Navigation Console.
 
-   ![](assets/chlimage_1-170.png)
+   ![chlimage_1-170](assets/chlimage_1-170.png)
 
 1. Choose **Apps** from **Mobile **and click **Create.**
 
    Choose **App** to and enter details to create your your new app.
 
-   ![](assets/chlimage_1-11.gif)
+   ![chlimage_1-11](assets/chlimage_1-11.gif)
 
 ### The Next Steps {#the-next-steps}
 

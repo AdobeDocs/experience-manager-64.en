@@ -15,7 +15,7 @@ discoiquuid: 60f980fd-049e-43c1-8b5d-60a8279b357a
 
 Content Insight provides information about page performance using web analytics and SEO recommendations. Use Content Insight to make decisions about how to modify pages, or to learn how previous changes have changed performance. For every page that you author, you can open Content Insight to analyse the page.
 
-![](assets/chlimage_1-311.png)
+![chlimage_1-311](assets/chlimage_1-311.png)
 
 The layout of the Content Insight page changes to suit the screen dimensions and orientation of the device that you are using.
 
@@ -56,7 +56,7 @@ The Views report includes the following features for evaluating page traffic:
     * Total views.
     * Unique vistors.
 
-![](assets/chlimage_1-312.png)
+![chlimage_1-312](assets/chlimage_1-312.png)
 
 ## The Page Average Engaged Report {#the-page-average-engaged-report}
 
@@ -65,25 +65,25 @@ The Page Average Engaged report includes the following features for evaluating p
 * The average time that the page remains open for the entire reporting period.
 * A graph of the average length of a page view across the reporting period.
 
-![](assets/chlimage_1-313.png)
+![chlimage_1-313](assets/chlimage_1-313.png)
 
 ## The Sources Report {#the-sources-report}
 
 The Sources report indicates how users navigated to the page, for example from search engine results or using the known URL.
 
-![](assets/chlimage_1-314.png)
+![chlimage_1-314](assets/chlimage_1-314.png)
 
 ## The Bounces Report {#the-bounces-report}
 
 The Bounces report includes a graph that shows the number of bounces that have occurred for a page over the selected reporting period. 
 
-![](assets/chlimage_1-315.png)
+![chlimage_1-315](assets/chlimage_1-315.png)
 
 ## The Campaign Activity Report {#the-campaign-activity-report}
 
 For each campaign for which the page is active, a report appears named *Campaign Name* Activity. The report shows page impressions and conversions for each segment for which an offer is provided. 
 
-![](assets/chlimage_1-316.png)
+![chlimage_1-316](assets/chlimage_1-316.png)
 
 ## The SEO Recommendations Report {#the-seo-recommendations-report}
 
@@ -91,5 +91,5 @@ The SEO Recommendations report contains the results of the BrightEdge analysis f
 
 The report enables you to create tasks so that improvements are made to improve page findability. Recommendations indicate that tasks have been created for implementing the recommendation. See [Assigning Tasks for SEO Recommendations](/help/sites-authoring/ci-analyze.md#assigning-tasks-for-seo-recommendations).
 
-![](assets/chlimage_1-317.png)
+![chlimage_1-317](assets/chlimage_1-317.png)
 

@@ -23,7 +23,7 @@ Although the client application contains required application logic to perform S
 
 The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, is invoked after a user is authenticated using SSO. (For information about this process such as its input and output values, see [Short lived process example](/help/forms/developing/aem-forms-processes.md).)
 
-![](assets/cf_cf_encryptdocumentprocess2.png)
+![cf_cf_encryptdocumentprocess2](assets/cf_cf_encryptdocumentprocess2.png)
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ On receiving this request, the User Manager security servlet deletes the `lcAuth
 
 To demonstrate how to create a client application that performs SSO authentication, an example client application is created. The following illustration shows the steps that the client application performs to authenticate a user using SSO.
 
-![](assets/cf_cf_flexsso.png)
+![cf_cf_flexsso](assets/cf_cf_flexsso.png)
 
 The previous illustration describes the application flow that occurs when the client application starts.
 
@@ -117,7 +117,7 @@ The client application consists of the following files:
 
 The following illustration provides a visual representation of the client application. 
 
-![](assets/cf_cf_sso_project.png)
+![cf_cf_sso_project](assets/cf_cf_sso_project.png)
 
 >[!NOTE]
 >

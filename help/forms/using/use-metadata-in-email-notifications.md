@@ -16,7 +16,7 @@ You can use the Assign Task step to create and assign tasks to a user or group. 
 
 You can use metadata in an email template to dynamically populate information in an email notification. For example, the value of the title, description, due date, priority, workflow, and last date in the following email notification is selected dynamically at the runtime (when an email notification is generated). 
 
-![](assets/default-email-template.png)
+![default-email-template](assets/default-email-template.png)
 
 Metadata is stored in key-value pairs. You can specify the key in the email template and the key is replaced with a value at the runtime (when an email notification is generated). For example, in the below code sample, "$ {workitem_title} " is a key. It is replaced with value “Loan-Request” at the runtime.
 
@@ -175,7 +175,7 @@ You can also use custom metadata in an email notification. Custom metadata conta
 
 1. Click Save All. Now, the script is available for selection in AEM workflow model.
 
-   ![](assets/assigntask-metadata.png)
+   ![assigntask-metadata](assets/assigntask-metadata.png)
 
 1. (Optional) Specify the title of the script:
 

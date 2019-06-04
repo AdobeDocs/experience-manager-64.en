@@ -41,13 +41,13 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
     * On the toolbar, tap the **[!UICONTROL Create]** icon. Then, on the menu, then tap **Files**. You can rename the file in the presented dialog if needed.
     * In a browser that supports HTML5, drag the assets directly on the Assets UI. The dialog to rename file is not displayed.
 
-   ![](assets/create_menu.png)
+   ![create_menu](assets/create_menu.png)
 
    To select multiple files, press the Ctrl/Command key and select the assets in the file picker dialog. If using an iPad, you can only select one file at a time.
 
    You can pause the uploading of large assets (greater than 500 MB) and resume it later from the same page. Tap the **Pause** icon beside progress bar that appears when the uploading starts.
 
-   ![](assets/chlimage_1-5.png)
+   ![chlimage_1-5](assets/chlimage_1-5.png)
 
    The size above which an asset is considered a large asset is configurable. For example, you can configure the system to consider assets above 1000 MB (instead of 500 MB) as large assets. In this case, the **Pause** button in the progress bar appears when assets of size greater than 1000 MB are uploaded.
 
@@ -57,7 +57,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    When you click the **Pause** icon, it toggles to a **Play** icon. To resume uploading, click the **Play** icon. 
 
-   ![](assets/chlimage_1-6.png)
+   ![chlimage_1-6](assets/chlimage_1-6.png)
 
    To cancel an ongoing upload, click the '**X**' button beside the progress bar. When you cancel the upload operation, AEM Assets deletes the partially uploaded portion of the asset.
 
@@ -71,7 +71,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    You can choose to replace an existing asset, create another version, or keep both by renaming the new asset that is uploaded. If you replace an existing asset, the metadata for the asset and any prior modifications (for example annotations, croppings, and so on) you made to the existing asset are deleted. If you choose to keep both assets, the new asset is renamed with the number 1 appended to its name.
 
-   ![](assets/chlimage_1-7.png)
+   ![chlimage_1-7](assets/chlimage_1-7.png)
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
    >
    >The **Duplicates Detected** dialog appears only when the Duplicate Detection feature is enabled. To enable the Duplicate Detection feature, see [Enabling Duplicate Detection](duplicate-detection.md).
 
-   ![](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
    Tap/click **Keep** to retain the duplicate asset in AEM Assets. Tap/click **Delete** to delete the duplicate asset you uploaded.
 
@@ -95,7 +95,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    To suit specific file naming conventions for your organization, the Upload Assets dialog lets you specify long names for the files that you upload.
 
-   ![](assets/chlimage_1-9.png)
+   ![chlimage_1-9](assets/chlimage_1-9.png)
 
    In addition, the Assets UI displays the most recent asset that you upload or the folder you create first in all the views (Card, List, and Column views).
 
@@ -103,7 +103,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    The Upload Progress dialog in AEM Assets displays the count of successfully uploaded files and the files that failed to upload.
 
-   ![](assets/chlimage_1-10.png)
+   ![chlimage_1-10](assets/chlimage_1-10.png)
 
    If you cancel the upload operation before the files are uploaded, AEM Assets stops uploading the current file and refreshes the content. However, files that are already uploaded are not deleted.
 
@@ -582,11 +582,11 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
    To zoom into an asset, tap/click **+** (or tap/click the magnifying glass on the asset). To zoom out, tap/click **-**. When you zoom in, you can look closely at any area of the image by panning. The **Reset Zoom** arrow brings you back to the original view.
 
-   ![](assets/uploadicon.png)
+   ![uploadicon](assets/uploadicon.png)
 
    Tap the **Reset **button to reset the view to the original size.
 
-   ![](assets/chlimage_1-11.png)
+   ![chlimage_1-11](assets/chlimage_1-11.png)
 
 ## Editing Properties {#editing-properties}
 
@@ -594,11 +594,11 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. Select the asset, and tap/click **Properties** from the toolbar to view asset properties.
 
-   ![](assets/properties.png)
+   ![properties](assets/properties.png)
 
    Alternatively, choose the **Properties** quick action on the asset card.
 
-   ![](assets/properties_quickaction.png)
+   ![properties_quickaction](assets/properties_quickaction.png)
 
 1. In the Properties page, edit the metadata properties under various tabs. For example, under the **Basic** tab, edit the title, description, and so on.
 
@@ -608,11 +608,11 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. To schedule a particular date/time for the activation of the asset, use the date picker beside the **On Time** field.
 
-   ![](assets/chlimage_1-12.png)
+   ![chlimage_1-12](assets/chlimage_1-12.png)
 
 1. To deactivate the asset after a particular duration, choose the deactivation date/time from the date picker beside the **Off Time** field.
 
-   ![](assets/chlimage_1-13.png)
+   ![chlimage_1-13](assets/chlimage_1-13.png)
 
    >[!NOTE]
    >
@@ -632,7 +632,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. To provide a rating to the asset, tap/click the **Advanced** tab and then tap/click the star at the appropriate position to assign the desired rating. 
 
-   ![](assets/ratings.png)
+   ![ratings](assets/ratings.png)
 
    The rating score that you assign to the asset is displayed under **Your Ratings**. The average rating score that the asset received from users who rated the asset is displayed under **Rating**. In addition, the breakup of the rating scores that contribute to the average rating score is displayed under **Rating Breakdown**. You can search assets based on average rating scores.
 
@@ -663,7 +663,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. From the Assets UI, select one or more assets, and then tap/click the **Copy** icon from the toolbar. Alternatively, choose the **Copy** quick action from the asset card.
 
-   ![](assets/copy_icon.png)
+   ![copy_icon](assets/copy_icon.png)
 
    >[!NOTE]
    >
@@ -677,7 +677,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Click the **Paste** asset icon from the toolbar:
 
-   ![](assets/chlimage_1-14.png)
+   ![chlimage_1-14](assets/chlimage_1-14.png)
 
    The assets are copied to this location.
 
@@ -691,7 +691,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Select the asset, and tap/click the **Move** icon from the toolbar.
 
-   ![](assets/move_icon.png)
+   ![move_icon](assets/move_icon.png)
 
 1. In the Move Assets wizard, do one of the following:
 
@@ -724,15 +724,15 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Tap/click the asset to open its asset page. 
 
-   ![](assets/chlimage_1-15.png)
+   ![chlimage_1-15](assets/chlimage_1-15.png)
 
 1. Tap/click the GlobalNav icon, and select **Renditions** from the list.
 
-   ![](assets/renditions_menu.png)
+   ![renditions_menu](assets/renditions_menu.png)
 
 1. In the **Renditions** panel, view the list of renditions generated for the asset.
 
-   ![](assets/renditions_panel.png)
+   ![renditions_panel](assets/renditions_panel.png)
 
    >[!NOTE]
    >
@@ -744,13 +744,13 @@ The other properties and metadata information is retained. A partial copy is not
 
    Select a rendition from the **Renditions** panel, and then tap/click the **Delete Rendition** icon from the [toolbar](/help/sites-authoring/basic-handling.md).
 
-   ![](assets/delete_renditionicon.png)
+   ![delete_renditionicon](assets/delete_renditionicon.png)
 
    **Uploading a new rendition**
 
    Navigate to the asset details page for the asset, and tap/click the **Add Rendition **icon in the toolbar to upload a new rendition for the asset. 
 
-   ![](assets/chlimage_1-16.png)
+   ![chlimage_1-16](assets/chlimage_1-16.png)
 
    >[!NOTE]
    >
@@ -762,7 +762,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    Similarly, you can customize the Annotation page image by overlaying *libs/dam/gui/content/assets/annotate/jcr:content/body/content/content/items/content/renditionpicker*.
 
-   ![](assets/chlimage_1-17.png)
+   ![chlimage_1-17](assets/chlimage_1-17.png)
 
    To configure rendition dimensions for a video asset, navigate to the **videopicker** node in the CRX repository at the location */libs/dam/gui/content/assets/assetpage/jcr:content/body/content/content/items/assetdetail/items/col1/items/assetview/videopicker*, overlay the node, and then edit the appropriate property.
 
@@ -782,7 +782,7 @@ For Word documents, the DAM Parse Word Documents workflow generates a `cq:Page` 
 
 1. Tap/click the GlobalNav icon, and choose **Subassets** from the list 
 
-   ![](assets/chlimage_1-18.png)
+   ![chlimage_1-18](assets/chlimage_1-18.png)
 
    >[!NOTE]
    >
@@ -790,7 +790,7 @@ For Word documents, the DAM Parse Word Documents workflow generates a `cq:Page` 
 
    When you select **Subassets** from the list, the **subassets** page displays the subassets linked to the parent asset.
 
-   ![](assets/chlimage_1-19.png)
+   ![chlimage_1-19](assets/chlimage_1-19.png)
 
 ## Deleting Assets {#deleting-assets}
 
@@ -802,7 +802,7 @@ Also, disable the force delete button using an overlay, to disallow users from d
 
 1. Select the asset, and tap/click the **Delete** icon from the toolbar.
 
-   ![](assets/delete_icon.png)
+   ![delete_icon](assets/delete_icon.png)
 
 1. In the confirmation dialog, click:
 
@@ -882,11 +882,11 @@ The following are the Export/Download options. Dynamic renditions are unique to 
 1. Navigate to the location of the asset(s) you want to download and select the asset(s).
 1. Tap/click the **Download** icon from the toolbar to download the required asset.
 
-   ![](assets/download_icon.png)
+   ![download_icon](assets/download_icon.png)
 
 1. In the dialog, specify your download options.
 
-   ![](assets/chlimage_1-20.png)
+   ![chlimage_1-20](assets/chlimage_1-20.png)
 
     * **Cancel** to stop the download
     * **Renditions **to download the renditions of the asset
@@ -914,7 +914,7 @@ The following are the Export/Download options. Dynamic renditions are unique to 
 1. Either select the **Publish** quick action from the asset card, or select the asset and tap/click the **Quick Publish** icon from the toolbar.
 1. If the asset references other assets, its references are listed in the wizard. Only references that are either unpublished or modified since they were last published/unpublished are displayed. Choose the references you want to publish.
 
-   ![](assets/chlimage_1-21.png)
+   ![chlimage_1-21](assets/chlimage_1-21.png)
 
    >[!NOTE]
    >
@@ -932,11 +932,11 @@ The following are the Export/Download options. Dynamic renditions are unique to 
 
 1. Select the asset/folder to unpublish, and tap/click the **Manage Publication **icon from the toolbar.
 
-   ![](assets/manage_publication.png)
+   ![manage_publication](assets/manage_publication.png)
 
 1. Select the **Unpublish **action from the list.
 
-   ![](assets/unpublish_action.png)
+   ![unpublish_action](assets/unpublish_action.png)
 
 1. To unpublish the asset later, select **Unpublish Later**, and then select a date for unpublishing the asset.
 1. Schedule a date for the asset to be unavailable from the publish environment.
@@ -959,11 +959,11 @@ CUGs are an extra way to restrict access to your assets. You can also configure 
 1. Select a folder from the Assets UI, and tap/click the Properties icon from the toolbar to display the properties page.
 1. From the **Permissions** tab, add members or groups under **Closed User Group**.
 
-   ![](assets/add_user.png)
+   ![add_user](assets/add_user.png)
 
 1. To display a login screen when users access the folder, select the **Enable** option. Then, select the path to a login page in AEM, and save the changes.
 
-   ![](assets/login_page.png)
+   ![login_page](assets/login_page.png)
 
    >[!NOTE]
    >
@@ -976,7 +976,7 @@ CUGs are an extra way to restrict access to your assets. You can also configure 
 
 Basic search is detailed in the [Search and filter](/help/sites-authoring/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](search-facets.md). 
 
-![](assets/filters_panel.png)
+![filters_panel](assets/filters_panel.png)
 
 >[!NOTE]
 >
@@ -995,15 +995,15 @@ Quick action icons are available for a single asset at a time. Depending upon yo
 
 You can view, navigate through, and select assets with any of the available views (Card, Column, and List) using the **Select** icon. The **Select** icon appears as a quick action in the Card view.
 
-![](assets/select_quick_action.png)
+![select_quick_action](assets/select_quick_action.png)
 
 In List view, the **Select** icon appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in the list.
 
-![](assets/select_quick_in_listview.png)
+![select_quick_in_listview](assets/select_quick_in_listview.png)
 
 Similar to List view, the **Select** icon appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in Column view.
 
-![](assets/select_quick_in_columnview.png)
+![select_quick_in_columnview](assets/select_quick_in_columnview.png)
 
 For more information, see [Viewing and Selecting your Resources](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources).
 
@@ -1021,36 +1021,36 @@ The editing tools in the AEM Assets interface let you perform small editing jobs
     * Tap/click the **Edit** icon that appears on an asset in the Card view.
     * In the asset page, tap/click the **Edit** icon in the toolbar.
 
-   ![](assets/edit_icon.png)
+   ![edit_icon](assets/edit_icon.png)
 
 1. To crop the image, tap/click the **Crop** icon.
 
-   ![](assets/chlimage_1-22.png)
+   ![chlimage_1-22](assets/chlimage_1-22.png)
 
 1. Select the desired option from the list. The crop area appears on the image based on the option you choose. The **Free Hand** option lets you crop the image without any aspect ratio restrictions.
 
-   ![](assets/chlimage_1-23.png)
+   ![chlimage_1-23](assets/chlimage_1-23.png)
 
 1. Select the area to be cropped, and resize or reposition it on the image.
 1. Use the **Finish** icon (top right corner) to crop the image. Clicking the **Finish** icon also triggers the regeneration of renditions.
 
-   ![](assets/chlimage_1-24.png)
+   ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Use the **Undo** and **Redo** icons on the top right to revert to the uncropped image or retain the cropped image, respectively.
 
-   ![](assets/chlimage_1-25.png)
+   ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Tap/click the appropriate Rotate icon to rotate the image clockwise or anti-clockwise.
 
-   ![](assets/chlimage_1-26.png)
+   ![chlimage_1-26](assets/chlimage_1-26.png)
 
 1. Tap/click the appropriate Flip icon to flip the image horizontally or vertically.
 
-   ![](assets/chlimage_1-27.png)
+   ![chlimage_1-27](assets/chlimage_1-27.png)
 
 1. Tap/click the **Finish** icon to save the changes.
 
-   ![](assets/chlimage_1-28.png)
+   ![chlimage_1-28](assets/chlimage_1-28.png)
 
 >[!NOTE]
 >
@@ -1075,11 +1075,11 @@ The timeline lets you view various events for a selected item, such as active wo
 1. Open the asset page for an asset, or select it in the Assets UI.
 1. Tap/click the GlobalNav icon, and choose **Timeline** from the list.
 
-   ![](assets/timeline.png)
+   ![timeline](assets/timeline.png)
 
 1. In the list that appears, use the **Show All** list to filter the results based on comments, versions, workflows, and activities.
 
-   ![](assets/timeline_options.png)
+   ![timeline_options](assets/timeline_options.png)
 
    >[!NOTE]
    >
@@ -1105,11 +1105,11 @@ Video annotations are only supported on browsers with HTML5-compatible video for
     * [Quick actions](managing-assets-touch-ui.md#quick-actions)
     * From the toolbar after selecting the asset or navigating to the asset page
 
-   ![](assets/chlimage_1-29.png)
+   ![chlimage_1-29](assets/chlimage_1-29.png)
 
 1. Add a comment in the **Comment** box at the bottom of the timeline. Alternatively, mark up an area on the image and add an annotation in the **Add Annotation** dialog.
 
-   ![](assets/chlimage_1-30.png)
+   ![chlimage_1-30](assets/chlimage_1-30.png)
 
 1. To notify a user about an annotation, specify the email address of the user and add the comment. For example, to notify Aaron MacDonald about an annotation, enter @aa. Hints for all matching users is displayed in a list. Select Aaron's email address from the list to tag her with the comment. Similarly, you can tag more users anywhere within the annotation or before or after it.
 
@@ -1117,11 +1117,11 @@ Video annotations are only supported on browsers with HTML5-compatible video for
    >
    >For a non-administrator user, suggestions appear only if the user has Read permissions at */home* in Crx-de.
 
-   ![](assets/chlimage_1-31.png)
+   ![chlimage_1-31](assets/chlimage_1-31.png)
 
 1. After adding the annotation, click **Add** to save it. A notification for the annotation is sent to Aaron. 
 
-   ![](assets/chlimage_1-32.png)
+   ![chlimage_1-32](assets/chlimage_1-32.png)
 
    >[!NOTE]
    >
@@ -1136,11 +1136,11 @@ Video annotations are only supported on browsers with HTML5-compatible video for
 
 1. To choose a different color so you can differentiate between users, click/tap the Profile icon and click/tap **My Preferences**.
 
-   ![](assets/chlimage_1-33.png)
+   ![chlimage_1-33](assets/chlimage_1-33.png)
 
    Specify the desired color in the **Annotation Color** box and then click/tap **Accept**.
 
-   ![](assets/chlimage_1-34.png)
+   ![chlimage_1-34](assets/chlimage_1-34.png)
 
 >[!NOTE]
 >
@@ -1152,15 +1152,15 @@ Video annotations are only supported on browsers with HTML5-compatible video for
 
 1. Tap/click the GlobalNav icon, and choose **Timeline** from the list.
 
-   ![](assets/chlimage_1-35.png)
+   ![chlimage_1-35](assets/chlimage_1-35.png)
 
 1. From the **Show All** list in the timeline, select **Comments** to filter the results based on annotations.
 
-   ![](assets/chlimage_1-36.png)
+   ![chlimage_1-36](assets/chlimage_1-36.png)
 
    Tap/click a comment in the **Timeline** panel to view the corresponding annotation on the image.
 
-   ![](assets/chlimage_1-37.png)
+   ![chlimage_1-37](assets/chlimage_1-37.png)
 
    Tap/click **Delete**, to delete a particular comment.
 
@@ -1180,19 +1180,19 @@ To print the annotations and review status, tap/click the **Print** icon and fol
 
 1. To print specific annotations, select the annotations from the timeline.
 
-   ![](assets/chlimage_1-38.png)
+   ![chlimage_1-38](assets/chlimage_1-38.png)
 
    To print the review status only, select it from the timeline.
 
-   ![](assets/chlimage_1-39.png)
+   ![chlimage_1-39](assets/chlimage_1-39.png)
 
 1. Tap/click the **Print** icon from the toolbar.
 
-   ![](assets/chlimage_1-40.png)
+   ![chlimage_1-40](assets/chlimage_1-40.png)
 
 1. From the Print dialog, choose the position you want the annotations/review status to be displayed on the PDF. For example, if you want the annotations/status to be printed at the top-right of the page that contains the printed image, use the **Top-Left** setting. It is selected by default.
 
-   ![](assets/chlimage_1-41.png)
+   ![chlimage_1-41](assets/chlimage_1-41.png)
 
    You can choose other settings depending on the position where you want the annotations/status to appear in the printed PDF. If you want the annotations/status to appear in a page that is separate from the printed asset, choose **Next Page**.
 
@@ -1202,11 +1202,11 @@ To print the annotations and review status, tap/click the **Print** icon and fol
 
 1. Tap/click **Print**. Depending upon the option you choose in step 2, the generated PDF displays the annotations/status at the specified position. For example, if you choose to print both annotations and the review status using the **Top-Left** setting, the generated output resembles the PDF file depicted here.
 
-   ![](assets/chlimage_1-42.png)
+   ![chlimage_1-42](assets/chlimage_1-42.png)
 
 1. Download or print the PDF using the options at the top-right.
 
-   ![](assets/chlimage_1-43.png)
+   ![chlimage_1-43](assets/chlimage_1-43.png)
 
    >[!NOTE]
    >
@@ -1214,7 +1214,7 @@ To print the annotations and review status, tap/click the **Print** icon and fol
 
    To modify the appearance of the rendered PDF file, for example the font color, size, and style, background color of the comments and statuses, open the** Annotation PDF configuration** from Configuration Manager, and modify the desired options. For example, to change the display color of the approved status, modify the color code in the corresponding field. For information around changing the font color of annotations, see [Annotating](managing-assets-touch-ui.md#annotating).
 
-   ![](assets/chlimage_1-44.png)
+   ![chlimage_1-44](assets/chlimage_1-44.png)
 
    Return to the rendered PDF file and refresh it. The refreshed PDF reflects the changes you made.
 
@@ -1267,27 +1267,27 @@ The versioning functionality lets you do the following:
 
 1. Tap/click the GlobalNav icon, and the choose **Timeline** from the menu.
 
-   ![](assets/timeline-1.png)
+   ![timeline-1](assets/timeline-1.png)
 
 1. Tap/click the **Actions** (arrow) icon at the bottom to view the available actions you can perform on the asset.
 
-   ![](assets/chlimage_1-45.png)
+   ![chlimage_1-45](assets/chlimage_1-45.png)
 
 1. Tap/click **Save as Version** to create a version for the asset.
 
-   ![](assets/chlimage_1-46.png)
+   ![chlimage_1-46](assets/chlimage_1-46.png)
 
 1. Add a label and comment, and then click **Create** to create a version. Alternatively, tap/click **Cancel** to exit the operation.
 
-   ![](assets/chlimage_1-47.png)
+   ![chlimage_1-47](assets/chlimage_1-47.png)
 
 1. To view the new version, open the **Show All** list in the timeline from the asset details page or the Assets UI, and choose **Versions**.
 
-   ![](assets/versions_option.png)
+   ![versions_option](assets/versions_option.png)
 
 1. Select a specific version for the asset to preview it or enable it to appear in the Assets UI.
 
-   ![](assets/select_version.png)
+   ![select_version](assets/select_version.png)
 
    >[!NOTE]
    >
@@ -1295,44 +1295,44 @@ The versioning functionality lets you do the following:
 
 1. Add a label and comment for the version to revert to the particular version in the Assets UI.
 
-   ![](assets/save_version.png)
+   ![save_version](assets/save_version.png)
 
 1. To generate a preview for the version, tap/click **Preview Version**.
 1. To display this version in the Assets UI, select **Revert to this Version**.
 1. To compare between two versions, go to asset page of the asset and tap/click the version to be compared with the current version.
 
-   ![](assets/select_version_tocompare.png)
+   ![select_version_tocompare](assets/select_version_tocompare.png)
 
 1. From the timeline, select the version you want to compare and drag the slider to the left to superimpose this version over the current version and compare.
 
-   ![](assets/compare_versions.png)
+   ![compare_versions](assets/compare_versions.png)
 
 ### Starting a workflow on an asset {#starting-a-workflow-on-an-asset}
 
 1. Navigate to the location of the asset for which you want to start a workflow, and tap/click the asset to open the asset page.
 1. Tap/click the GlobalNav icon, and the choose **Timeline** from the menu to display the timeline.
 
-   ![](assets/timeline-2.png)
+   ![timeline-2](assets/timeline-2.png)
 
 1. Tap/click the **Actions** (arrow) icon at the bottom to open the list of actions available for the asset.
 
-   ![](assets/chlimage_1-48.png)
+   ![chlimage_1-48](assets/chlimage_1-48.png)
 
 1. Tap/click **Start Workflow** from the list.
 
-   ![](assets/chlimage_1-49.png)
+   ![chlimage_1-49](assets/chlimage_1-49.png)
 
 1. In the **Start Workflow** dialog, select a workflow model from the list.
 
-   ![](assets/chlimage_1-50.png)
+   ![chlimage_1-50](assets/chlimage_1-50.png)
 
 1. (Optional) Specify a title for the workflow, which can be used to reference the workflow instance.
 
-   ![](assets/chlimage_1-51.png)
+   ![chlimage_1-51](assets/chlimage_1-51.png)
 
 1. Tap/click **Start **and then tap/click **Proceed** in the dialog to confirm. Each step of workflow is displayed in the timeline as an event.
 
-   ![](assets/chlimage_1-52.png)
+   ![chlimage_1-52](assets/chlimage_1-52.png)
 
 ## Collections {#collections}
 

@@ -19,7 +19,7 @@ The Repository service provides resource storage and management services to AEM 
 
 For example, consider the following Forms application named *Applications/FormsApplication*:
 
-![](assets/ww_ww_formrepository.png)
+![ww_ww_formrepository](assets/ww_ww_formrepository.png)
 
 Notice that there is a file named Loan.xdp located in the FormsFolder. To access this form design, you specify the complete path (including version): `Applications/FormsApplication/1.0/FormsFolder/Loan.xdp`.
 
@@ -992,7 +992,7 @@ You can lock a resource or set of resources for exclusive use by a particular us
 
 When a resource is locked, a lock icon appears when you view the Resources tab located in Workbench, as shown in the following illustration. 
 
-![](assets/lr_lr_lockrepository.png)
+![lr_lr_lockrepository](assets/lr_lr_lockrepository.png)
 
 You can programmatically control access to resources by using the Repository service Java API or web service API.
 

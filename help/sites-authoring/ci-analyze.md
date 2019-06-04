@@ -26,7 +26,7 @@ Use the following procedure to see the Analytics and Recommendations for a page:
    >
    >Analytics and Recommendations for a page only appear if you have configured AEM to [integrate with Adobe Analytics](/help/sites-administering/adobeanalytics-connect.md).
 
-   ![](assets/screen_shot_2017-11-29at135651.png)
+   ![screen_shot_2017-11-29at135651](assets/screen_shot_2017-11-29at135651.png)
 
 ## Changing the Reporting Period {#changing-the-reporting-period}
 
@@ -35,13 +35,13 @@ Change the following time-related aspects of the analytics reports:
 * The period of time on which to report.
 * The granularity of the data.
 
-The tools for changing the time-related aspects of the reports appear at the top of the Content Insight page. ![](assets/chlimage_1-249.png)
+The tools for changing the time-related aspects of the reports appear at the top of the Content Insight page. ![chlimage_1-249](assets/chlimage_1-249.png)
 
 ### Changing the Reporting Period {#changing-the-reporting-period-1}
 
 Change the reporting period of the Content Insight page to focus your analysis of page activity to a specific period of time. When you change the reporting period, the reports automatically refresh. The shaded area on the timeframe represents the reporting period. The dates on the timeframe increase from left to right.
 
-![](assets/chlimage_1-250.png)
+![chlimage_1-250](assets/chlimage_1-250.png)
 
 To change the reporting period of a Content Insight page:
 
@@ -59,13 +59,13 @@ To change the reporting period of a Content Insight page:
 
 Change the amount of time that each data point spans in a report. For example, when the Week granularity is selected, each data point on the Views report represents the number of views for one week.
 
-![](assets/screen_shot_2017-11-29at141001.png)
+![screen_shot_2017-11-29at141001](assets/screen_shot_2017-11-29at141001.png)
 
 The granularity affects the reports that plot data against time, such as the Views and the Page Average Engaged Minutes reports. Granularity also affects the scale of the timeframe.
 
 1. If the granularity control does not appear, click or tap the Toggle Granularity icon.
 
-   ![](assets/chlimage_1-251.png)
+   ![chlimage_1-251](assets/chlimage_1-251.png)
 
 1. Click or tap the desired granularity. Once selected, the report automatically updates to reflect the granularity.
 
@@ -73,11 +73,11 @@ The granularity affects the reports that plot data against time, such as the Vie
 
 Use the SEO Recommendations report to create tasks for improving page visibility to search engines. For each recommendation in the report that does not have a checkmark, you can create a task that you assign to a user to perform the required work. 
 
-![](assets/chlimage_1-252.png)
+![chlimage_1-252](assets/chlimage_1-252.png)
 
 The status of the SEO recommendation indicates when the task is created but not yet completed.
 
-![](assets/chlimage_1-253.png)
+![chlimage_1-253](assets/chlimage_1-253.png)
 
 When created, the task appears in the user's Tasks list. For information about tasks, see [Track Content Changes Using Task Management](/help/sites-administering/task-manager.md) and [Working with Tasks](/help/sites-authoring/task-content.md).
 
@@ -89,7 +89,7 @@ Use the following procedure to create a task for an SEO recommendation.
 
 1. Click the encircled triangle icon that appears next to the information icon.
 
-   ![](assets/chlimage_1-254.png)
+   ![chlimage_1-254](assets/chlimage_1-254.png)
 
 1. Fill the form fields that appear and then tap Create:
 

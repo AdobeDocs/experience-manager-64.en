@@ -40,7 +40,7 @@ Page components can be associated with one or more `com.day.cq.wcm.api.PageInfoP
 1. The PageInfo servlet calls each PageInfoProvider that is associated with the component.
 1. The servlet aggregates the metadata that each PageInfoProvider returns and adds the metadata to the HTTP response in a JSON object.
 
-![](assets/chlimage_1-2.png)
+![chlimage_1-2](assets/chlimage_1-2.png)
 
 >[!NOTE]
 >
@@ -600,7 +600,7 @@ public class PageUrlInfoProvider implements PageInfoProvider {
 
 The following example, in CRXDE Lite, shows the page component that is configured to use the PageUrlInfoProvider service:
 
-![](assets/chlimage_1-3.png)
+![chlimage_1-3](assets/chlimage_1-3.png)
 
 The PageUrlInfoProvider service returns the following data for the `/content/we-retail/us/en` node:
 

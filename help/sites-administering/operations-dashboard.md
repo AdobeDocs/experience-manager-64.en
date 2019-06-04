@@ -44,11 +44,11 @@ The Health Reports interface can be accessed through the **Tools** - **Operation
 
 `https://<serveraddress>:port/libs/granite/operations/content/healthreports/healthreportlist.html`
 
-![](assets/chlimage_1-414.png)
+![chlimage_1-414](assets/chlimage_1-414.png)
 
 The card system exposes three possible states: **OK**, **WARN **and **CRITICAL**. The states are a result of rules and thresholds, which can be configured by hovering the mouse over the card and then clicking the gear icon in the action bar:
 
-![](assets/chlimage_1-415.png) 
+![chlimage_1-415](assets/chlimage_1-415.png) 
 
 ### Health Check Types {#health-check-types}
 
@@ -139,7 +139,7 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
 1. Search for the entry called **Apache Sling Composite Health Check**. After you find it, notice that there are two configurations already available: one for the System Checks and another one for the Security Checks.
 1. Create a new configuration by pressing the "+" button on the right hand side of the configuration. A new window will appear, as shown below:
 
-   ![](assets/chlimage_1-63.jpeg)
+   ![chlimage_1-63](assets/chlimage_1-63.jpeg)
 
 1. Create a configuration and save it. A Mbean will be created with the new configuration.
 
@@ -342,7 +342,7 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
     1. Press the **Hosts** link under the **Monitoring** section.
     1. Add the host definition:
 
-   ![](assets/chlimage_1-416.png)
+   ![chlimage_1-416](assets/chlimage_1-416.png)
 
    Below is an example of a host configuration file, in case you are using Nagios Core:
 
@@ -390,7 +390,7 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
 
 1. Check your Nagios dashboard for the newly created service:
 
-   ![](assets/chlimage_1-417.png)
+   ![chlimage_1-417](assets/chlimage_1-417.png)
 
 ## Diagnosis tools {#diagnosis-tools}
 
@@ -404,7 +404,7 @@ Amongst its most important features are:
 
 You can reach the Diagnosis Tools screen by going to **Tools - Operations - Diagnosis** from the AEM Welcome screen. You can also access the screen by directly accessing the following URL: `https://serveraddress:port/libs/granite/operations/content/diagnosis.html`
 
-![](assets/chlimage_1-418.png) 
+![chlimage_1-418](assets/chlimage_1-418.png) 
 
 ### Log Messages {#log-messages}
 
@@ -421,7 +421,7 @@ Examples:
 
 * If you plan on capturing all the messages coming from a certain package (for example com.adobe.granite) - the logger name should be set to: "com.adobe.granite", and the logger level to: **DEBUG** (this will capture all the **ERROR**, **WARN**, **INFO** and **DEBUG** messages), as shown in the image below.
 
-![](assets/chlimage_1-419.png)
+![chlimage_1-419](assets/chlimage_1-419.png)
 
 >[!NOTE]
 >
@@ -455,7 +455,7 @@ The Request Performance page allows the analysis of the slowest page requests pr
 1. Requests accessing resources under `/etc/design`
 1. Requests having the `".html"` extension
 
-![](assets/chlimage_1-420.png)
+![chlimage_1-420](assets/chlimage_1-420.png)
 
 The page displays:
 
@@ -477,7 +477,7 @@ The page displays:
 * The statement of the query 
 * The duration in milliseconds
 
-![](assets/chlimage_1-421.png) 
+![chlimage_1-421](assets/chlimage_1-421.png) 
 
 ### Explain Query {#explain-query}
 
@@ -496,7 +496,7 @@ The Explain Query is a tool that explains how Oak is executing a query. It can b
 
 Once you are in the Explain Query UI, all you need to do in order to use it is enter the query and press the **Explain** button:
 
-![](assets/chlimage_1-422.png)
+![chlimage_1-422](assets/chlimage_1-422.png)
 
 The first entry in the Query Explanation section is the actual explanation. The explanation will show the type of index that was used to execute the query.
 
@@ -504,7 +504,7 @@ The second entry is the execution plan.
 
 Ticking the **Include execution time** box before running the query will also show the amount of time the query was executed in, allowing for more information that can be used for optimizing the indexes for your application or deployment.
 
-![](assets/chlimage_1-423.png) 
+![chlimage_1-423](assets/chlimage_1-423.png) 
 
 ### The Index Manager {#the-index-manager}
 
@@ -514,7 +514,7 @@ It can be accessed by going to **Tools - Operations - Diagnosis **from the Welco
 
 It can also be accessed directly at this URL: `https://serveraddress:port/libs/granite/operations/content/diagnosistools/indexManager.html`
 
-![](assets/chlimage_1-424.png)
+![chlimage_1-424](assets/chlimage_1-424.png)
 
 The UI can be used to filter indexes in the table by typing in the filter criteria in the search box in the upper left corner of the screen.
 
@@ -524,7 +524,7 @@ This will trigger the download of a zip containing useful information about the 
 
 From this window you can select what to export (log files and or thread dumps) and the number of days of logs included in the download relative to the current date.
 
-![](assets/download_status_zip.png) 
+![download_status_zip](assets/download_status_zip.png) 
 
 ### Download Thread Dump {#download-thread-dump}
 
@@ -560,7 +560,7 @@ The default timing for the daily maintenance window is 2 to 5 AM. The tasks conf
 
 You can also configure the timings by pressing the gear icon on any of the two maintenance cards:
 
-![](assets/chlimage_1-425.png)
+![chlimage_1-425](assets/chlimage_1-425.png)
 
 >[!NOTE]
 >
@@ -607,11 +607,11 @@ You can schedule the Version Purge maintenance task to delete old versions autom
 1. Click the **Add** button.
 1. Choose **Version Purge** from the drop-down menu.
 
-   ![](assets/version_purge_maintenancetask.png)
+   ![version_purge_maintenancetask](assets/version_purge_maintenancetask.png)
 
 1. To configure the Version Purge task, click on the **gears** icon on the newly created Version Purge maintenance card.
 
-   ![](assets/version_purge_taskconfiguration.png)
+   ![version_purge_taskconfiguration](assets/version_purge_taskconfiguration.png)
 
 **With AEM 6.4**, you can stop the Version Purge maintenance task as follows:
 
@@ -691,7 +691,7 @@ src/main/java/com/adobe/granite/samples/maintenance/impl/DeleteTempFilesTask.jav
 
 Once the service is deployed, it will be exposed to the Operations Dashboard UI and can be added to one of the available maintenance schedules:
 
-![](assets/chlimage_1-426.png)
+![chlimage_1-426](assets/chlimage_1-426.png)
 
 This will add a corresponding resource at /apps/granite/operations/config/maintenance/[schedule]/[taskname]. If the task is run mode dependent, the property granite.operations.conditions.runmode needs to be set on that node with the values of the runmodes which need to be active for this maintenance task.
 
@@ -707,7 +707,7 @@ The **System Overview Dashboard** displays a high-level overview of the configur
 
 To access the System Overview Dashboard, navigate to **Tools &gt; Operations &gt; System Overview**.
 
-![](assets/system_overview_dashboard.png) 
+![system_overview_dashboard](assets/system_overview_dashboard.png) 
 
 ### System Overview Dashboard Explained {#system-overview-dashboard-explained}
 

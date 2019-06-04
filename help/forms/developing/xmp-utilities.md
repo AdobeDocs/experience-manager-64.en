@@ -32,7 +32,7 @@ You can accomplish these tasks using the XMP Utilities service:
 
 You can use the XMP Utilities Java and web service APIs to programmatically import XMP metadata into a PDF document. Metadata provides information about a PDF document such as the document’s author and keywords related to the document. Metadata can be located in the document’s Document Properties dialog, as shown in the following illustration. 
 
-![](assets/ww_ww_metadatadialog.png)
+![ww_ww_metadatadialog](assets/ww_ww_metadatadialog.png)
 
 To programmatically import metadata into a PDF document, you can use an existing XML document that specifies the metadata values or you can use an object of type `XMPUtilityMetadata`. (See [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).)
 

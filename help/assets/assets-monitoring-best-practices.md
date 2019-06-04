@@ -50,7 +50,7 @@ Typically, you use these tools together to obtain a comprehensive idea about the
 >
 >These tools are standard tools and not directly supported by Adobe. They don’t require additional licenses.
 
-![](assets/chlimage_1-142.png) ![](assets/chlimage_1-143.png) 
+![chlimage_1-142](assets/chlimage_1-142.png) ![chlimage_1-143](assets/chlimage_1-143.png) 
 
 ## Long Term Monitoring {#long-term-monitoring}
 

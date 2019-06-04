@@ -191,7 +191,7 @@ You can modify the login screen of all AEM Forms modules that use the AEM Forms 
 
     1. Modify `/apps/livecycle/core/components/login/login.jsp` to incorporate the newly added text.
 
-   ![](assets/capture.png) 
+   ![capture](assets/capture.png) 
 
    ```
    div class="loginContent">

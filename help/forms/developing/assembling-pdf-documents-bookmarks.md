@@ -70,7 +70,7 @@ Within this bookmark XML document, notice the Action element that defines the ac
 
 Given the DDX document specified in this section and bookmark XML file as input, the Assembler service assembles a PDF document that contains the following bookmarks.
 
-![](assets/aw_aw_bmark.png)
+![aw_aw_bmark](assets/aw_aw_bmark.png)
 
 When a user clicks on the *Open the Loan Details* bookmark, the LoanDetails.pdf is opened. Likewise, when the user clicks on the *Launch NotePad* bookmark, NotePad is started.
 

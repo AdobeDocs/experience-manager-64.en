@@ -71,7 +71,7 @@ The Annotate mode allows you to create, edit, move or delete annotations on your
 
 1. Click/tap the required component (components that can be annotated will be highlighted with a blue border) to add the annotation and open the dialog:
 
-   ![](assets/screen_shot_2018-03-22at110606.png)
+   ![screen_shot_2018-03-22at110606](assets/screen_shot_2018-03-22at110606.png)
 
    Here you can use the appropriate field and/or icon to:
 
@@ -92,7 +92,7 @@ The Annotate mode allows you to create, edit, move or delete annotations on your
 
 1. You can close the annotation dialog by clicking/tapping outside the dialog. A truncated view (the first word) of the annotation, together with any sketches, is shown:
 
-   ![](assets/screen_shot_2018-03-22at110850.png)
+   ![screen_shot_2018-03-22at110850](assets/screen_shot_2018-03-22at110850.png)
 
 1. After you have finished editing a specific annotation, you can:
 
@@ -112,5 +112,5 @@ The Annotate mode allows you to create, edit, move or delete annotations on your
 
 Annotations do not appear in Edit mode, but the badge at the top right of the toolbar shows how many annotations exist for the current page. The badge replaces the default Annotations icon, but still functions as a quick link that toggles to/from the Annotate mode:
 
-![](assets/chlimage_1-242.png)
+![chlimage_1-242](assets/chlimage_1-242.png)
 

@@ -42,7 +42,7 @@ This is based on the documentation for [Configuring Email Notification](/help/si
 
 For example (filled in with values for illustrative purposes only):
 
-![](assets/chlimage_1-98.png)
+![chlimage_1-98](assets/chlimage_1-98.png)
 
 * **SMTP server host name:** *(required)* The SMTP server to use.
 
@@ -80,7 +80,7 @@ To reach the Communities email configuration instances:
 
 * locate `AEM Communities Email Reply Configuration`
 
-![](assets/chlimage_1-99.png) 
+![chlimage_1-99](assets/chlimage_1-99.png) 
 
 ### Configuration for Notifications {#configuration-for-notifications}
 
@@ -94,7 +94,7 @@ This configuration should not be altered.
 
 * verify **Create post from reply email** is `unchecked`
 
-![](assets/chlimage_1-100.png) 
+![chlimage_1-100](assets/chlimage_1-100.png) 
 
 ### Configuration for Subscriptions {#configuration-for-subscriptions}
 
@@ -104,7 +104,7 @@ For Communities subscriptions, it is possible to enable or disable the ability f
 * select the edit icon
 * verify the **Name** is `subscriptions-email`
 
-![](assets/chlimage_1-101.png)
+![chlimage_1-101](assets/chlimage_1-101.png)
 
 * **Name **: *(required)* `subscriptions-email`. Do Not Edit.
 
@@ -138,7 +138,7 @@ In order for the email to be brought into the repository, it is necessary to con
     for example, [http://localhost:4503/etc/importers/polling.html](http://localhost:4503/etc/importers/polling.html)
 * select **Add**
 
-![](assets/chlimage_1-102.png)
+![chlimage_1-102](assets/chlimage_1-102.png)
 
 * **Type**: *(required)* Pull down to select `POP3 (over SSL).`
 
@@ -170,7 +170,7 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
     * **feedType**: replace `pop3s` with **`emailreply`**
     * **source**: replace source's protocol `pop3s://` with **`emailreply://`**
 
-![](assets/chlimage_1-103.png)
+![chlimage_1-103](assets/chlimage_1-103.png)
 
 The red triangles indicate the modified properties. Be sure to save the changes:
 

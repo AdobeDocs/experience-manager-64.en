@@ -68,7 +68,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
 
    For example, when selecting to only promote modified pages:
 
-   ![](assets/chlimage_1.png)
+   ![chlimage_1](assets/chlimage_1.png)
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
 1. Select **Next** to proceed.
 1. You can review the pages to be promoted, these will depend on the range of pages you have chosen:
 
-   ![](assets/chlimage_1-1.png)
+   ![chlimage_1-1](assets/chlimage_1-1.png)
 
 1. Select **Promote**.
 
@@ -85,7 +85,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
 
 When you are editing a launch page, the **Promote Launch** action is also available from **Page Information**. This will open the wizard to collect the information needed.
 
-![](assets/chlimage_1-2.png)
+![chlimage_1-2](assets/chlimage_1-2.png)
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ When you are editing a launch page, the **Promote Launch** action is also availa
 
 After creating a nested launch you can promote it back to any of the sources, including the root source (production).
 
-![](assets/chlimage_1-3.png)
+![chlimage_1-3](assets/chlimage_1-3.png)
 
 1. As with [Creating a Nested Launch](/help/sites-authoring/launches-creating.md#creating-a-nested-launch), navigate to and select the required launch in either the **Launches** console or the **References** rail.
 1. Select **Promote launch** to open the wizard.  
@@ -114,12 +114,12 @@ After creating a nested launch you can promote it back to any of the sources, in
         * **Promote current page**
         * **Promote current page and sub pages**
 
-   ![](assets/chlimage_1-4.png)
+   ![chlimage_1-4](assets/chlimage_1-4.png)
 
 1. Select **Next**.
 1. Review the promotion details before selecting **Promote**:
 
-   ![](assets/chlimage_1-5.png)
+   ![chlimage_1-5](assets/chlimage_1-5.png)
 
    >[!NOTE]
    >
@@ -127,7 +127,7 @@ After creating a nested launch you can promote it back to any of the sources, in
 
 1. Your changes will be promoted and reflected in the **Launches** console:
 
-   ![](assets/chlimage_1-6.png)
+   ![chlimage_1-6](assets/chlimage_1-6.png)
 
 ## Processing Promoted Pages Using AEM Workflow {#processing-promoted-pages-using-aem-workflow}
 
@@ -141,5 +141,5 @@ To start a workflow automatically when pages are promoted, [configure a workflow
 
 For example, you can automatically generate page activation requests when authors promote Launches pages. Configure a workflow launcher to start the Request Activation workflow when the package node is modified. 
 
-![](assets/chlimage_1-7.png)
+![chlimage_1-7](assets/chlimage_1-7.png)
 

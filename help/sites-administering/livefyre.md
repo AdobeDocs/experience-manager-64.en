@@ -30,7 +30,7 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
 1. In the Package Manager, scroll until you see the pre-installed Livefyre feature package, then click the package title **cq-social-livefyre-pkg-1.2.6.zip** to expand the options.
 1. Click **More &gt; Uninstall**.
 
-   ![](assets/livefyre-aem-uninstall-64.png)
+   ![livefyre-aem-uninstall-64](assets/livefyre-aem-uninstall-64.png)
 
 1. Return to the AEM homepage, click Tools, then navigate to **Deployment &gt; Package Share**.
 
@@ -38,12 +38,12 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
 
 1. In the keyword search, search for "Livefyre", then select the Livefyre feature pack corresponding to your AEM version.
 
-   ![](assets/livefyre-aem3-6-4.png)
+   ![livefyre-aem3-6-4](assets/livefyre-aem3-6-4.png)
 
 1. On the feature pack information page, click **Download**, then read the Package License Agreement and click **Accept**.
 1. Return to the Package Manager, locate the newly downloaded package, and click **Install**.
 
-   ![](assets/livefyre-aem4-6-4.png)
+   ![livefyre-aem4-6-4](assets/livefyre-aem4-6-4.png)
 
    Your Livefyre-AEM package is now installed. Before you can begin using the integration features, you must Configure AEM to use Livefyre.
 
@@ -59,7 +59,7 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
   
    This will create a folder under **Tools &gt; Deployment &gt; Livefyre Configuration** with the name provided.
 
-   ![](assets/livefyre-aem-create-config-folder.png)
+   ![livefyre-aem-create-config-folder](assets/livefyre-aem-create-config-folder.png)
 
 ### Configure AEM to use Livefyre: Create a Livefyre Configuration {#configure-aem-to-use-livefyre-create-a-livefyre-configuration}
 
@@ -68,7 +68,7 @@ Configure AEM to use your organization's Livefyre license credentials, allowing 
 1. From the AEM homepage, click the **Tools **icon in the left rail, then navigate to **Deployment &gt; Livefyre Configuration**.
 1. Select the configuration folder in which you want to create a new Livefyre configuration, then click **Create**.
 
-   ![](assets/create-livefyre-configuration1.png)
+   ![create-livefyre-configuration1](assets/create-livefyre-configuration1.png)
 
    >[!NOTE]
    >
@@ -78,11 +78,11 @@ Configure AEM to use your organization's Livefyre license credentials, allowing 
 
 1. Select the newly created Livefyre configuration card, then click **Properties**.
 
-   ![](assets/create-livefyre-configuration2.png)
+   ![create-livefyre-configuration2](assets/create-livefyre-configuration2.png)
 
 1. Enter your organization's Livefyre credentials, then click **OK**.
 
-   ![](assets/configure-aem2.png)
+   ![configure-aem2](assets/configure-aem2.png)
 
    To access this information, open Livefyre studio and navigate to **Settings &gt; Integration Settings &gt; Credentials**.
 
@@ -117,7 +117,7 @@ Once Livefyre is enabled for the page, containers must be configured to allow Li
 
 1. From the **Components **side panel in design mode, select **Livefyre **from the menu to limit the list to available Livefyre components.
 
-   ![](assets/livefyre-add.png)
+   ![livefyre-add](assets/livefyre-add.png)
 
 1. Select a Livefyre component, and drag it into position on your page.
 1. Select whether to create a new Livefyre app or to embed an existing one.
@@ -150,7 +150,7 @@ To import UGC into AEM Assets:
 1. From the AEM homepage, navigate to **Assets &gt; Files**.
 1. Click **Create**, then click **Import UGC.**
 
-   ![](assets/livefyre-aem-import-ugc.png)
+   ![livefyre-aem-import-ugc](assets/livefyre-aem-import-ugc.png)
 
 1. Find content:
 
@@ -161,7 +161,7 @@ To import UGC into AEM Assets:
 1. **Optional**: Click the **Selected **tab and review your selected UGC content to import.
 1. Click **Next**.
 
-   ![](assets/livefyre-aem-import-ugc2.png)
+   ![livefyre-aem-import-ugc2](assets/livefyre-aem-import-ugc2.png)
 
 1. For rights requests, choose one of the following options for each asset:
 
@@ -174,7 +174,7 @@ To import UGC into AEM Assets:
    >
    >Due to updates affecting the aggregation of content from non-business user accounts, we can no longer post comments on your behalf or automatically check for replies from the author. [Click here to find out more](https://developers.facebook.com/blog/post/2018/04/04/facebook-api-platform-product-changes/).
 
-   ![](assets/livefyre-aem-import-ugc3-6-4.png)
+   ![livefyre-aem-import-ugc3-6-4](assets/livefyre-aem-import-ugc3-6-4.png)
 
    For Twitter:
 
@@ -185,7 +185,7 @@ To import UGC into AEM Assets:
 
    If you sent a Twitter rights request, the content owner will see the rights request message on their account:
 
-   ![](assets/livefyre-aem-rights-request-twitter.png)
+   ![livefyre-aem-rights-request-twitter](assets/livefyre-aem-rights-request-twitter.png)
 
    >[!NOTE]
    >

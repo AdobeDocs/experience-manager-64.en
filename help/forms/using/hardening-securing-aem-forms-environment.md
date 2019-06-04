@@ -23,7 +23,7 @@ The article is intended for consultants, security specialists, systems architect
 
 The following image displays components and protocols that are used in a typical AEM Forms deployment, including the appropriate firewall topology:
 
-![](assets/typical-architecture.png)
+![typical-architecture](assets/typical-architecture.png)
 
 AEM Forms is highly customizable and can work in many different environments. Some of the recommendations might not be applicable to your organization.
 

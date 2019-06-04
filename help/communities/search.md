@@ -37,17 +37,17 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the required client-side library, `cq.social.hbs.search`, is included, this is how the `Search` component will appear.
 
-![](assets/chlimage_1-373.png)
+![chlimage_1-373](assets/chlimage_1-373.png)
 
 ### Configure the Added Search {#configure-the-added-search}
 
 Select the placed `Search` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-374.png)
+![chlimage_1-374](assets/chlimage_1-374.png)
 
 Under the **Search Settings **tab, specify how what paths are are search when a query is entered by a visitor.
 
-![](assets/chlimage_1-375.png)
+![chlimage_1-375](assets/chlimage_1-375.png)
 
 * **Search Paths** 
   By adding search paths using the Add Item button, the content search is limited. As an example, to limit the search to a specific forum, select a forum component placed within a page:
@@ -73,17 +73,17 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the required client-side library, `cq.social.hbs.search`, is included, this is how the `Search Result` component will appear:
 
-![](assets/chlimage_1-376.png)
+![chlimage_1-376](assets/chlimage_1-376.png)
 
 ### Configure the Added Search Result {#configure-the-added-search-result}
 
 Select the placed `Search Results` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-377.png)
+![chlimage_1-377](assets/chlimage_1-377.png)
 
 Under the **Search Result Settings **tab, it is possible to specify what paths are included in the search when a query is entered by a visitor.
 
-![](assets/chlimage_1-378.png)
+![chlimage_1-378](assets/chlimage_1-378.png)
 
 * **Search Results Per Page** 
   Define the number of topics/posts shown per page. Default is 10.

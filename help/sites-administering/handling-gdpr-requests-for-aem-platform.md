@@ -20,15 +20,15 @@ At the AEM Foundation level, the Personal Data that is stored  is  the User Prof
 
 1. Open the User Administration console, by browsing to **[!UICONTROL Settings - Security - Users]** or by browsing directly to `https://<serveraddress>:<serverport>/libs/granite/security/content/useradmin.html`
 
-   ![](assets/useradmin2.png)
+   ![useradmin2](assets/useradmin2.png)
 
 1. Then, search for the user in question by typing the name in the search bar at the top of the page:
 
-   ![](assets/usersearch.png)
+   ![usersearch](assets/usersearch.png)
 
 1. Finally, open the user profile by clicking it, then check under the **[!UICONTROL Details]** tab.
 
-   ![](assets/userprofile_small.png)
+   ![userprofile_small](assets/userprofile_small.png)
 
 ### HTTP API {#http-api}
 
@@ -70,32 +70,32 @@ curl -u user:password  'http://localhost:4502/home/users/we-retail/DSCP-athB1NYL
 
 1. Press the Disable button in the upper menu to disable the user:
 
-   ![](assets/userdisable.png)
+   ![userdisable](assets/userdisable.png)
 
 1. Fianlly, confirm the action:
 
-   ![](assets/image2018-2-6_1-40-58.png)
+   ![image2018-2-6_1-40-58](assets/image2018-2-6_1-40-58.png)
 
    The user interface will then indicate that the user has been deactivated by greying out and adding a lock to the profile card:
 
-   ![](assets/disableduser.png)
+   ![disableduser](assets/disableduser.png)
 
 ### Delete User Profile Information {#delete-user-profile-information}
 
 1. Log in to CRXDE Lite, then search for the `[!UICONTROL userId]`: 
 
-   ![](assets/image2018-2-6_1-57-11.png)
+   ![image2018-2-6_1-57-11](assets/image2018-2-6_1-57-11.png)
 
 1. Open the user node which is located under `[!UICONTROL /home/users]` by default:
 
-   ![](assets/image2018-2-6_1-58-25.png)
+   ![image2018-2-6_1-58-25](assets/image2018-2-6_1-58-25.png)
 
 1. Delete profile nodes and all their children. There are two formats to the profile nodes, depeding on the AEM version:
 
     1. The default private profile under `[!UICONTROL /profile]` 
     1. `[!UICONTROL /profiles]`, for new profiles created using AEM 6.4.
 
-   ![](assets/image2018-2-6_2-0-4.png)
+   ![image2018-2-6_2-0-4](assets/image2018-2-6_2-0-4.png)
 
 ### HTTP API {#http-api-1}
 

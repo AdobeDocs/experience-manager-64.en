@@ -61,7 +61,7 @@ The following types of integration are described in this guide:
 
 The follow diagram depicts both types of integration and describes how they connect work and assets in DAM with user's work on desktop:
 
-![](assets/chlimage_1-300.png) 
+![chlimage_1-300](assets/chlimage_1-300.png) 
 
 ### Determining which integration to use {#determining-which-integration-to-use}
 
@@ -264,7 +264,7 @@ The following use cases describe various types of workflows between DAM and desi
 
 The following diagram illustrates the digital asset lifecycle. It depicts how creative users and DAM users (marketers, LOB users) leverage existing assets and use them to create more assets, and send them for approval.
 
-![](assets/chlimage_1-301.png)
+![chlimage_1-301](assets/chlimage_1-301.png)
 
 The asset lifecycle includes the following stages:
 
@@ -291,7 +291,7 @@ In some cases, assets in DAM might require changes. Examples include:
 
 In such cases, AEM Desktop App provides the easiest way of performing these operations.
 
-![](assets/chlimage_1-302.png)
+![chlimage_1-302](assets/chlimage_1-302.png)
 
 Here is the flow of events depicted in the diagram:
 

@@ -107,7 +107,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
    See also [Smart Crop and Smart Swatch Options](#crop-options) and [Unsharp Mask](#unsharp-mask).
 
-   ![](assets/crop.png)
+   ![crop](assets/crop.png)
 
 1. Click **Save**. The newly created profile appears in the list of available profiles.
 
@@ -116,7 +116,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 1. Tap the AEM logo and navigate to **Tools** &gt; **Assets** &gt; **Image Profiles.**
 1. Select the image profile you want to edit or remove. To edit it, select **Edit Image Processing Profile**. To remove it, select **Delete Image Processing Profile**.
 
-   ![](assets/chlimage_1-254.png)
+   ![chlimage_1-254](assets/chlimage_1-254.png)
 
 1. If editing, save the changes. If deleting, confirm that you want to remove the profile.
 
@@ -143,7 +143,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 1. Tap the AEM logo and navigate to **Tools** &gt; **Assets** &gt; **Image Profiles.**
 1. Select the image profile that you want to apply to a folder or multiple folders.
 
-   ![](assets/chlimage_1-255.png)
+   ![chlimage_1-255](assets/chlimage_1-255.png)
 
 1. Tap **Apply Processing Profile to Folder(s)** and select the folder or multiple folders you want use to receive the newly uploaded assets and tap/click **Apply**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
@@ -153,7 +153,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 1. On the folder, tap the check mark to select it and then tap **Properties**.
 1. Tap the **Image Profiles** tab. From the Profile Name drop-down list, select the profile, then tap **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-   ![](assets/chlimage_1-256.png)
+   ![chlimage_1-256](assets/chlimage_1-256.png)
 
 ### Applying an image profile globally {#applying-an-image-profile-globally}
 
@@ -163,13 +163,13 @@ To apply a profile globally, do one of the following:
 
 * Navigate to **https://&lt;AEM server&gt;/mnt/overlay/dam/gui/content/assets/foldersharewizard.html/content/dam** and apply the appropriate profile and tap **Save**.
 
-  ![](assets/chlimage_1-257.png)
+  ![chlimage_1-257](assets/chlimage_1-257.png)
 
 * Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content.**
 
   Add the property **imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/&lt;name of image profile&gt;** and tap **Save All**. 
 
-  ![](assets/configure_image_profiles.png)
+  ![configure_image_profiles](assets/configure_image_profiles.png)
 
 ## Editing the smart crop or smart swatch of a single image {#editing-the-smart-crop-or-smart-swatch-of-a-single-image}
 
@@ -217,13 +217,13 @@ You can re-run smart crop to generate the additional crops again, if required.
   
       To the right of the breakpoint name drop-down list, drag the slider bar left or right to change the size of the viewable image display.
 
-       ![](assets/edit_smart_crops-sliderbar.png)
+       ![edit_smart_crops-sliderbar](assets/edit_smart_crops-sliderbar.png)
 
     * Filter the list of viewable images based on breakpoint names. In the example below, the images are filtered on the breakpoint name "Medium".
 
       Near the upper-right corner of the page, from the drop-down list, select a breakpoint name to filter on what images you see. (See the image above.)
 
-       ![](assets/edit_smart_crops-dropdownlist.png)
+       ![edit_smart_crops-dropdownlist](assets/edit_smart_crops-dropdownlist.png)
 
     * Resize the smart crop box. Do any one of the following:
 
@@ -237,13 +237,13 @@ You can re-run smart crop to generate the additional crops again, if required.
         * If the image has a smart crop or a smart swatch only, on the image, drag the crop box to a new location.
         * If the image has both a smart crop and a smart swatch, on the image, drag the smart crop box to a new location. Or, tap or click the smart swatch below the image (color swatches are static), then drag the smart swatch crop box to a new location.
 
-       ![](assets/edit_smart_crops-move.png)
+       ![edit_smart_crops-move](assets/edit_smart_crops-move.png)
 
     * Undo all your edits and restore the original smart crop or smart swatch (applies to the current editing session only).
 
       Tap **Revert** above the image.
 
-       ![](assets/edit_smart_crops-revert.png)
+       ![edit_smart_crops-revert](assets/edit_smart_crops-revert.png)
 
 1. Near the upper-right corner of the page, tap **Save**. then tap **Close** to return to the folder of assets.
 

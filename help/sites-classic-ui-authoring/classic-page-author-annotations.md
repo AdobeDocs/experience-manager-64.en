@@ -40,7 +40,7 @@ Depending on the paragraph design, annotation is either available as an option o
 
 In either case select **Annotate**. A colored sticky-note annotation will be applied to the paragraph, you are immediately in Edit mode, allowing you to add text directly:
 
-![](assets/chlimage_1-137.png)
+![chlimage_1-137](assets/chlimage_1-137.png)
 
 You can move the annotation to a new position on the page. Click on the top border area, then hold and simultaneously drag the annotation to the new position. This can be anywhere on the page, though it is usually meaningful to keep it connected to the paragraph in some way.
 
@@ -72,7 +72,7 @@ The three icons at top left allow you to minimize the annotation (together with 
 
 Sketches are a feature of annotations that allow you to create simple line graphics anywhere on the browser window (visible portion):
 
-![](assets/chlimage_1-138.png)
+![chlimage_1-138](assets/chlimage_1-138.png)
 
 * The cursor will change to a crosswire when you are in sketch mode. You can draw multiple distinct lines.  
 * The sketch line reflects the annotation color and can be either:

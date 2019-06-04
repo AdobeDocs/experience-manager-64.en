@@ -100,7 +100,7 @@ You can see which authentication handler is being applied to any section of the 
 
 The handler that best matches the path is queried first. For example, if you configure handler-A for the path `/` and handler-B for the path `/content`, then a request to `/content/mypage.html` will query handler-B first.
 
-![](assets/screen_shot_2012-02-15at21006pm.png) 
+![screen_shot_2012-02-15at21006pm](assets/screen_shot_2012-02-15at21006pm.png) 
 
 ### Example {#example}
 

@@ -15,7 +15,7 @@ discoiquuid: 954da8da-a30b-477d-bde7-3edd86a5be11
 
 Learn to create your first Interactive Communication.
 
- ![](assets/01-create-first-adaptive-form-hero-image.png)
+ ![01-create-first-adaptive-form-hero-image](assets/01-create-first-adaptive-form-hero-image.png)
 
 Interactive Communications centralizes and manages the creation, assembly, and delivery of secure, personalized, and interactive correspondences such as business correspondence, documents, statements, marketing mails, bills, and welcome kits. Interactive Communications can be delivered using two channels: Print and Web. The Print channel is used to create PDFs and paper communications, while the Web channel is used to deliver online experiences.
 
@@ -23,7 +23,7 @@ This tutorial provides an end-to-end framework to create an Interactive Communic
 
 The following image illustrates the building blocks that are required to create an Interactive Communication.
 
-![](assets/workflow.gif)
+![workflow](assets/workflow.gif)
 
 At the end of this tutorial, you will be able to:
 
@@ -50,7 +50,7 @@ A telecom operator sends monthly bills to the customers over the email. The bill
 
 ## Step 1: Plan the Interactive Communication {#step-plan-the-interactive-communication}
 
-![](assets/07-apply-rules-to-adaptive-form_small.png)
+![07-apply-rules-to-adaptive-form_small](assets/07-apply-rules-to-adaptive-form_small.png)
 
 The first step in planning an Interactive Communication is to finalize the content of the Interactive Communication. After the content is finalized, you must analyze it to identify the various asset types that are required to create the Interactive Communication.
 
@@ -64,11 +64,11 @@ To create an anatomy for the Interactive Communication with the following modes 
 * Conditional data
 * Images
 
-    [ ![](assets/see-the-guide-sm.png)](/help/forms/using/planning-interactive-communications.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/planning-interactive-communications.md)
 
 ## Step 2: Create form data model {#step-create-form-data-model}
 
-![](assets/03-create-adaptive-form-main-image_small.png)
+![03-create-adaptive-form-main-image_small](assets/03-create-adaptive-form-main-image_small.png)
 
 A form data model allows you to connect an Interactive Communication to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an Interactive Communication to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
@@ -83,11 +83,11 @@ A form data model allows you to connect an Interactive Communication to disparat
 * Edit sample data
 * Test form data model and configured services with test data
 
-    [ ![](assets/see-the-guide-sm.png)](/help/forms/using/create-form-data-model0.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/create-form-data-model0.md)
 
 ## Step 3: Create document fragments {#step-create-document-fragments}
 
-![](assets/05-create-form-data-model-main_small.png)
+![05-create-form-data-model-main_small](assets/05-create-form-data-model-main_small.png)
 
 Document fragments are reusable components of a correspondence that are used to compose an Interactive Communication. The document fragments are of types: Text, List, and Condition.
 
@@ -97,11 +97,11 @@ Document fragments are reusable components of a correspondence that are used to 
 * Create variables
 * Create and apply rules
 
-    [ ![](assets/see-the-guide-sm.png)](/help/forms/using/create-document-fragments.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/create-document-fragments.md)
 
 ## Step 4: Create templates {#step-create-templates}
 
-![](assets/07-apply-rules-to-adaptive-form_small.png)
+![07-apply-rules-to-adaptive-form_small](assets/07-apply-rules-to-adaptive-form_small.png)
 
 To create an Interactive Communication, you must have templates available on the AEM server for Print and Web Channels.
 
@@ -115,11 +115,11 @@ The templates for the Web channel are created in AEM. Template authors and admin
 * Upload the XDP templates to the AEM Forms Server
 * Create and enable templates for the Web channel
 
-    [ ![](assets/see-the-guide-sm.png)](/help/forms/using/create-templates-print-web.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/create-templates-print-web.md)
 
 ## Step 5: Create an Interactive Communication {#step-create-an-interactive-communication}
 
-![](assets/09-style-your-adaptive-form-small.png)
+![09-style-your-adaptive-form-small](assets/09-style-your-adaptive-form-small.png)
 
 Once you create all the building blocks such as form data model, document fragments, and templates for the web version, you can start creating an Interactive Communication.
 
@@ -134,11 +134,11 @@ Interactive Communications can be delivered through two channels: Print and Web.
 * Create a chart in Web version of Interactive Communication
 * Create hyperlinks in Web version of Interactive Communication
 
-    [ ![](assets/see-the-guide-sm.png)](/help/forms/using/create-interactive-communication0.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/create-interactive-communication0.md)
 
 ## Step 6: Test your Interactive Communication {#step-test-your-interactive-communication}
 
-![](assets/11-test-your-adaptive-form.png)
+![11-test-your-adaptive-form](assets/11-test-your-adaptive-form.png)
 
 Once you have created an Interactive Communication, it is important that you test every change that you make in them. Testing every field of an Interactive Communication is tedious. AEM Forms provide an SDK (Calvin SDK) to automate testing of Interactive Communications in web browser.
 
@@ -150,7 +150,7 @@ Once you have created an Interactive Communication, it is important that you tes
 
 ## Step 7: Publish your Interactive Communication {#step-publish-your-interactive-communication}
 
-![](assets/12-publish-your-adaptive-form-_small.png)
+![12-publish-your-adaptive-form-_small](assets/12-publish-your-adaptive-form-_small.png)
 
 Once you create and test Interactive Communications using Print and Web channels, you can publish these assets. The use case described in this tutorial focuses on integrating these assets with an email client. The email client serves as a bridge to send the Interactive Communications to multiple email addresses.
 

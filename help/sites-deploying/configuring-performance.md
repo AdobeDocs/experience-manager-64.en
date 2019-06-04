@@ -53,7 +53,7 @@ These rules, to a large degree, apply to web projects in general, and are releva
 
 ### Planning for Optimization {#planning-for-optimization}
 
-![](assets/chlimage_1-3.jpeg)
+![chlimage_1-3](assets/chlimage_1-3.jpeg)
 
 Around 10% of the project effort should be planned for the performance optimization phase. Of course, the actual performance optimization requirements will depend on the level of complexity of a project and the experience of the development team. While your project may (ultimately) not require all of the allocated time, it is good practice to always plan for performance optimization in the suggested region.
 
@@ -65,7 +65,7 @@ Since your system load changes and the performance profiles of your system shift
 
 ### Simulate Reality {#simulate-reality}
 
-![](assets/chlimage_1-4.jpeg)
+![chlimage_1-4](assets/chlimage_1-4.jpeg)
 
 If you go live with a website and find out after the launch that you run into performance issues there is only one reason for that: Your load and performance tests did not simulate reality closely enough.
 
@@ -73,7 +73,7 @@ Simulating reality is difficult and how much effort you will reasonably want to 
 
 ### Establish Solid Goals {#establish-solid-goals}
 
-![](assets/chlimage_1-5.jpeg)
+![chlimage_1-5](assets/chlimage_1-5.jpeg)
 
 The importance of properly establishing performance goals is not to be underestimated. Often, once people become focused on specific performance goals it is very hard to change these goals afterwards, even if they are based on wild assumptions.
 
@@ -81,13 +81,13 @@ Establishing good, solid performance goals is really one of the trickiest areas.
 
 ### Stay Relevant {#stay-relevant}
 
-![](assets/chlimage_1-6.jpeg)
+![chlimage_1-6](assets/chlimage_1-6.jpeg)
 
 It is important to optimize one bottleneck at a time. If you try to do things in parallel without validating the impact of the one optimization, you will lose track of which optimization measure actually helped.
 
 ### Agile Iteration Cycles {#agile-iteration-cycles}
 
-![](assets/chlimage_1-7.jpeg)
+![chlimage_1-7](assets/chlimage_1-7.jpeg)
 
 Performance tuning is an iterative process that involves, measuring, analysis, optimization and validation until the goal is reached. In order to properly take this aspect into account, implement an agile validation process in the optimization phase rather than a more heavy-weight testing process after each iteration.
 
@@ -139,13 +139,13 @@ To improve performance you can consider the following:
 
 * How many assets are going to be uploaded per day? A good estimate can be based on:
 
-![](assets/chlimage_1-77.png)
+![chlimage_1-77](assets/chlimage_1-77.png)
 
 * The timeframe in which edits will be made (typically the length of the working day, more for international operations).
 * The average size of images uploaded (and the size of renditions generated per image) in megabytes.
 * Determine the average data rate:
 
-![](assets/chlimage_1-78.png)
+![chlimage_1-78](assets/chlimage_1-78.png)
 
 * 80% of all edits will be made in 20% of the time, so in peak time you will have 4 times the average data rate. This is your performance goal.
 
@@ -161,7 +161,7 @@ A basic starting point is a good knowledge of your system when it is operating a
 
 The following diagram illustrates the path that a request for CQ content can take - and therefore the number of different elements which can impact the performance.
 
-![](assets/chlimage_1-79.png)
+![chlimage_1-79](assets/chlimage_1-79.png)
 
 Performance is also a balance between Volume and Capacity:
 
@@ -171,7 +171,7 @@ Performance is also a balance between Volume and Capacity:
 
 This can be illustrated in various locations throughout the web-chain.
 
-![](assets/chlimage_1-80.png)
+![chlimage_1-80](assets/chlimage_1-80.png)
 
 There are several functional areas which are often responsible for impacting the performance:
 
@@ -722,13 +722,13 @@ Impact of load on backup performance can be estimated by the difference between 
 
 The main result of these benchmarks is to show how backup times vary as a function of the backup type and overall quantity of data. The following chart shows the backup time obtained using the default backup configuration, as a function of the number of total number of pages.
 
-![](assets/chlimage_1-81.png)
+![chlimage_1-81](assets/chlimage_1-81.png)
 
 Backup times on an idle instance are fairly consistent, averaging 0.608 MB/s regardless of full or incremental backups (see chart below). The backup time is simply a function of the amount of data that is being backed up. The time to complete a full backup clearly increases with the total number of pages. The time to complete an incremental backup also climbs with the total number of pages, but at a much lower rate. The time taken to complete the incremental backup is much shorter owing to the relatively small amount of data being backed up.
 
 The size of the backup produced is the main determinant of the time taken to complete a backup. The following chart shows time taken as a function of final backup size.
 
-![](assets/chlimage_1-82.png)
+![chlimage_1-82](assets/chlimage_1-82.png)
 
 This chart illustrates that both incremental and full backups follow a simple size versus time pattern that we can measure as throughput. Backup times on an idle instance are fairly consistent, averaging 0.61 MB/sec regardless of full or incremental backups on the benchmark environment.
 
@@ -740,7 +740,7 @@ The backup delay parameter is provided to limit the extent to which backups may 
 * The impact may be slight -- as little as 5% -- or could be very significant -- causing as much as 75% drop in throughput, and this likely depends on the application more than anything.
 * Backup is not a heavy load on the CPU, and so CPU-intensive production workloads would be less affected by backup than I/O intensive ones.
 
-![](assets/chlimage_1-83.png)
+![chlimage_1-83](assets/chlimage_1-83.png)
 
 For comparison the throughput obtained using a filesystem backup (using 'tar') to backup the same repository files. The performance of the tar is comparable, but slightly higher than the backup with delay set to zero. Setting even a small delay greatly reduces the backup throughput and the default delay of 10ms results in vastly reduced throughput. In situations where backups may be scheduled when overall application usage is very low or the application can be completely idle, it is probably desirable to reduce the delay below the default value in order to permit the backup to proceed more quickly.
 

@@ -22,7 +22,7 @@ The We.Unlimited App is a sample template representing the shell of a fully conf
 
 Selecting this sample template when creating a new app delivers an AEM Mobile feature rich dashboard.
 
-![](assets/chlimage_1-70.png)
+![chlimage_1-70](assets/chlimage_1-70.png)
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ The Unlimited Article is a sample template representing a typical AEM Mobile On-
 1. Click **Next** to enter the details for social sharing.
 1. Click **Create** to finish the process of creating an article using the sample. You either click **Done** or **Edit Article** to edit the properties of this article.
 
-![](assets/chlimage_1-71.png) 
+![chlimage_1-71](assets/chlimage_1-71.png) 
 
 ### Adding Components to Article {#adding-components-to-article}
 
@@ -86,11 +86,11 @@ Once created, an author can edit an article's content by adding components like 
 
 Select an article, you want to edit and click on **Edit** to add components to the article.
 
-![](assets/chlimage_1-72.png) ![](assets/chlimage_1-73.png)
+![chlimage_1-72](assets/chlimage_1-72.png) ![chlimage_1-73](assets/chlimage_1-73.png)
 
 Choose the '**+**' on the left panel to add components to your article.
 
-![](assets/chlimage_1-74.png) 
+![chlimage_1-74](assets/chlimage_1-74.png) 
 
 ### Creating Out-of-the-box templates {#creating-out-of-the-box-templates}
 
@@ -134,7 +134,7 @@ Once the component has already been included in an AEM page, along with a few ot
 1. Select the **Components** tab
 1. Drag and drop one of the available components onto the page
 
-![](assets/chlimage_1-75.png)
+![chlimage_1-75](assets/chlimage_1-75.png)
 
 **To edit an existing component:**
 

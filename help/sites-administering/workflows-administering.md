@@ -32,29 +32,29 @@ A range of consoles are available for administering your workflows. Use the [glo
 1. Using Navigation select **Tools**, then **Workflow**. 
 1. Select **Instances** to display the list of workflow instances currently in progress.
 
-   ![](assets/wf-96.png)
+   ![wf-96](assets/wf-96.png)
 
 1. Select a specific item, then **Open History** to see more details:
 
-   ![](assets/wf-97.png)
+   ![wf-97](assets/wf-97.png)
 
 ## Suspending, Resuming, and Terminating a Workflow Instance {#suspending-resuming-and-terminating-a-workflow-instance}
 
 1. Using Navigation select **Tools**, then **Workflow**. 
 1. Select **Instances** to display the list of workflow instances currently in progress.
 
-   ![](assets/wf-96-1.png)
+   ![wf-96-1](assets/wf-96-1.png)
 
 1. Select a specific item, then use **Terminate**, **Suspend**, or **Resume**, as appropriate; confirmation, and/or further details are required:
 
-   ![](assets/wf-97-1.png)
+   ![wf-97-1](assets/wf-97-1.png)
 
 ## Viewing Archived Workflows {#viewing-archived-workflows}
 
 1. Using Navigation select **Tools**, then **Workflow**. 
 1. Select **Archive** to display the list of workflow instances that completed successfully.
 
-   ![](assets/wf-98.png)
+   ![wf-98](assets/wf-98.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ A range of consoles are available for administering your workflows. Use the [glo
 
 1. Select a specific item, then **Open History** to see more details:
 
-   ![](assets/wf-99.png)
+   ![wf-99](assets/wf-99.png)
 
 ## Fixing Workflow Instance Failures {#fixing-workflow-instance-failures}
 
@@ -87,7 +87,7 @@ To investigate failures, then resume or terminate the workflow afterwards, use t
 1. Select **Failures** to display the list of workflow instances that did not complete successfully.
 1. Select a specific item, then the appropriate action:
 
-   ![](assets/wf-47.png)
+   ![wf-47](assets/wf-47.png)
 
 ## Regular Purging of Workflow Instances {#regular-purging-of-workflow-instances}
 

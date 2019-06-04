@@ -38,7 +38,7 @@ Once you create your project for Screens, follow the steps below to create a new
 
 See the steps below to understand creating a new location for an AEM Screens project. For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
 
-![](assets/player2.gif)
+![player2](assets/player2.gif)
 
 Once you create a location, you have to create a new display for your location.
 
@@ -49,7 +49,7 @@ To edit/access the properties of a location:
 1. Select the location.
 1. Click **Properties** from the action bar.
 
-![](assets/player3.gif)
+![player3](assets/player3.gif)
 
 #### The Next Steps {#the-next-steps}
 

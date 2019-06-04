@@ -22,7 +22,7 @@ Form data is submitted to the Forms service as either XML or PDF data, which is 
 
 The following diagram shows data being submitted to a Java Servlet named `HandleData` from an interactive form displayed in a web browser.
 
-![](assets/hs_hs_handlesubmit.png)
+![hs_hs_handlesubmit](assets/hs_hs_handlesubmit.png)
 
 The following table explains the steps in the diagram.
 
@@ -53,11 +53,11 @@ The following table explains the steps in the diagram.
 
 When form data is submitted as XML, you can retrieve XML data that represents the submitted data. All form fields appear as nodes in an XML schema. The node values correspond to the values that the user filled in. Consider a loan form where each field in the form appears as a node within the XML data. The value of each node corresponds to the value that a user fills in. Assume a user fills the loan form with data shown in the following form.
 
-![](assets/hs_hs_loanformdata.png)
+![hs_hs_loanformdata](assets/hs_hs_loanformdata.png)
 
 The following illustration shows corresponding XML data that is retrieved by using the Forms service Client API.
 
-![](assets/hs_hs_loandata.png)
+![hs_hs_loandata](assets/hs_hs_loandata.png)
 
 The fields in the loan form. These values can be retrieved
 using Java XML classes.
@@ -70,7 +70,7 @@ using Java XML classes.
 
 Consider a web application that invokes the Forms service. After the Forms service renders an interactive PDF form to a client web browser, the user fills in the form and submits it back as PDF data. When the Forms service receives the PDF data, it can send the PDF data to another service or save it as a PDF file. The following diagram shows the application’s logic flow.
 
-![](assets/hs_hs_savingforms.png)
+![hs_hs_savingforms](assets/hs_hs_savingforms.png)
 
 The following table describes the steps in this diagram.
 

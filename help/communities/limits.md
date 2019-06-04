@@ -42,7 +42,7 @@ To reach this OSGi configuration:
 * locate `AEM Communities User Generated Content Contribution Limits Configuration`
 * select the edit icon
 
-![](assets/chlimage_1-127.png)
+![chlimage_1-127](assets/chlimage_1-127.png)
 
 * **Automatically Apply UGC Contribution Limits** 
 

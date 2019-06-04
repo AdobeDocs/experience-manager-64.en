@@ -75,7 +75,7 @@ Each column in the report has a drop-down menu. This becomes visible when your m
 
 An arrow head will appear at the far right of the title cell (not to be confused with the arrow head immediately to the right of the title text that indicates the [current sort mechanism](#sorting-the-data)).
 
-![](assets/reportcolumnsort.png)
+![reportcolumnsort](assets/reportcolumnsort.png)
 
 The options available on the menu will depend on the configuration of the column (as made during project development), any invalid options will be greyed out.
 
@@ -92,7 +92,7 @@ On appropriate columns you can select **Group by this column** from the [column'
 
 After at least one column has been grouped a pie-chart of **Current data** will be generated, based on this grouping. If multiple columns are grouped then this will also be indicated on the chart.
 
-![](assets/reportuser.png)
+![reportuser](assets/reportuser.png)
 
 Moving your cursor over the pie-chart will show the aggregated value for the appropriate segment. This uses the aggregate currently defined for the column; for example, count, minimum, average, amongst others.
 
@@ -107,7 +107,7 @@ Filter Settings allow you to specify the criteria for entries to be displayed. T
 * `contains`  
 * `equals`
 
-![](assets/reportfilter.png)
+![reportfilter](assets/reportfilter.png)
 
 To set a filter:
 
@@ -124,7 +124,7 @@ To deactivate the filter:
 
 You can also select an aggregation method (these may vary depending on the column selected):
 
-![](assets/reportaggregate.png) 
+![reportaggregate](assets/reportaggregate.png) 
 
 ### Column Properties {#column-properties}
 
@@ -149,7 +149,7 @@ The report can be generated:
 
 The resulting chart is shown at the bottom right:
 
-![](assets/reporttrends.png)
+![reporttrends](assets/reporttrends.png)
 
 Once data collection has started you can select:
 
@@ -168,7 +168,7 @@ Once data collection has started you can select:
 
 Select your requirements, then click **Go** to apply them to the report. To update the display after further snapshots have been made, click **Go** again.
 
-![](assets/chlimage_1-62.png)
+![chlimage_1-62](assets/chlimage_1-62.png)
 
 When snapshots are being collected you can:
 
@@ -197,7 +197,7 @@ The historical data report can also change slightly in appearance due to limits 
 
 Each horizontal line is known as a series (and corresponds to an entry in the chart legend), each vertical column of dots represents the aggregated snapshots.
 
-![](assets/chlimage_1-63.png)
+![chlimage_1-63](assets/chlimage_1-63.png)
 
 To keep the chart clean over longer periods of time there are limits which can be set. For the standard reports these are:
 
@@ -210,7 +210,7 @@ So when the (appropriate) limits are exceeded the:
 * the dots will not be displayed
 * the legend for the historical data chart might show a different number of entries to that of the current data chart
 
-![](assets/chlimage_1-64.png)
+![chlimage_1-64](assets/chlimage_1-64.png)
 
 Customized reports can also show the **Total** value for all series. This is shown as a series (horizontal line and entry in the legend).
 
@@ -224,7 +224,7 @@ The **Edit** button opens the **Edit Report** Dialog.
 
 This is one location where the period for collecting snapshots for [Historic data](#historic-data) is defined, but various other settings can also be defined:
 
-![](assets/reportedit.png)
+![reportedit](assets/reportedit.png)
 
 * **Title** 
 
@@ -259,7 +259,7 @@ This is one location where the period for collecting snapshots for [Historic dat
 
 The **Load data** button is only visible when **manually refresh data** has been selected from **[Edit](#edit-report)**.
 
-![](assets/chlimage_1-65.png)
+![chlimage_1-65](assets/chlimage_1-65.png)
 
 Clicking on **Load data** will reload the data and update the report being shown.
 
@@ -281,7 +281,7 @@ When you **Finish** the report:
 
 With this dialog you can define, or update, your own title and description for the resulting report.
 
-![](assets/reportfinish.png) 
+![reportfinish](assets/reportfinish.png) 
 
 ## Report Types {#report-types}
 
@@ -312,7 +312,7 @@ Mean that you can see, for example:
 
 All components are included, product-standard and project-specific. Using the **Edit** dialog the user can also set a **Root path** that defines the startpoint of the report - all components under that root are considered for the report.
 
-![](assets/reportcomponent.png) ![](assets/reportcompentall.png) 
+![reportcomponent](assets/reportcomponent.png) ![reportcompentall](assets/reportcompentall.png) 
 
 ### Disk Usage {#disk-usage}
 
@@ -320,7 +320,7 @@ The disk usage report shows information about the data stored within your reposi
 
 The report starts in the root ( / ) of the repository; by clicking on a particular branch you can drill down inside the repository (the current path will be reflected in the report title).
 
-![](assets/reportdiskusage.png) 
+![reportdiskusage](assets/reportdiskusage.png) 
 
 ### Health Check {#health-check}
 
@@ -360,7 +360,7 @@ To generate the report you can specify:
 
   Optional; Default: blank
 
-![](assets/reporthealth.png) 
+![reporthealth](assets/reporthealth.png) 
 
 ### Page Activity Report {#page-activity-report}
 
@@ -383,7 +383,7 @@ Mean that you can monitor:
 
 The page activity report takes all its information from the audit log. By default the root path is configured to the audit log at `/var/audit/com.day.cq.wcm.core.page`.
 
-![](assets/reportpageactivity.png)
+![reportpageactivity](assets/reportpageactivity.png)
 
 ### User Generated Content Report {#user-generated-content-report}
 
@@ -404,7 +404,7 @@ Allow you to:
 * Get an overview of all comments that specific site visitors are leaving, maybe the issues are related.  
 * Judge whether new content is provoking comments by monitoring when comments are being made on a page.
 
-![](assets/reportusercontent.png) 
+![reportusercontent](assets/reportusercontent.png) 
 
 ### User Report {#user-report}
 
@@ -431,7 +431,7 @@ Allow you to:
 * See the demographic spread of your users.
 * Report on customized fields you have added to the profiles.
 
-![](assets/reportusercanned.png) 
+![reportusercanned](assets/reportusercanned.png) 
 
 #### Generic Column {#generic-column}
 
@@ -442,7 +442,7 @@ The Generic column dialog will open when you either:
 * Drag the Generic component from the sidekick to the report.
 * Select the Column Properties for an existing Generic column.
 
-![](assets/reportusrgenericcolm.png)
+![reportusrgenericcolm](assets/reportusrgenericcolm.png)
 
 From the **Definitions** tab you can define:
 
@@ -470,7 +470,7 @@ From the **Definitions** tab you can define:
 
 In the **Extended** tab you can also define the aggregates and filters available:
 
-![](assets/reportusrgenericcolmextented.png) 
+![reportusrgenericcolmextented](assets/reportusrgenericcolmextented.png) 
 
 ### Workflow Instance Report {#workflow-instance-report}
 
@@ -490,13 +490,13 @@ Mean you can:
 
 * Monitor the mean duration of workflows; if this happens regularly it can highlight issues with the workflow.
 
-![](assets/reportworkflowintance.png) 
+![reportworkflowintance](assets/reportworkflowintance.png) 
 
 ### Workflow Report {#workflow-report}
 
 This provides key statistics about the workflows running on your instance.
 
-![](assets/reportworkflow.png) 
+![reportworkflow](assets/reportworkflow.png) 
 
 ## Using Reports in a Publish Environment {#using-reports-in-a-publish-environment}
 
@@ -518,7 +518,7 @@ This will now report on data collected from the publish environment.
 
 As no report configuration is allowed in the publish environment, the **Edit** and **Finish** buttons are not available. However, you can select the **Period** and **Interval** for the **Historic data** reports if snapshots are being collected.
 
-![](assets/reportsucgpublish.png)
+![reportsucgpublish](assets/reportsucgpublish.png)
 
 >[!CAUTION]
 >

@@ -37,17 +37,17 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/tag.md#essentials-for-client-side) are included, this is how the `Social Tag Cloud` component will appear:
 
-![](assets/chlimage_1-303.png)
+![chlimage_1-303](assets/chlimage_1-303.png)
 
 ## Configuring Social Tag Cloud {#configuring-social-tag-cloud}
 
 Select the placed `Social Tag Cloud` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-304.png)
+![chlimage_1-304](assets/chlimage_1-304.png)
 
 Under the **Social Tag Cloud** tab, specify which tags to display and, if the tags are active links, the location of the page for search results.:
 
-![](assets/chlimage_1-305.png)
+![chlimage_1-305](assets/chlimage_1-305.png)
 
 * **Social Tags to Display** 
   Identify which UGC tags to display. The pull-down options are
@@ -72,7 +72,7 @@ To edit the display of the **Social Tag Cloud**, enter [Design Mode](/help/sites
 
 Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A tag may be a simple tag, a single word in the default namespace, or a hierarchical taxonomy:
 
-![](assets/chlimage_1-306.png)
+![chlimage_1-306](assets/chlimage_1-306.png)
 
 * **Show full title paths** 
   If checked, shows the titles for the parent tags and namespace for each applied tag. 

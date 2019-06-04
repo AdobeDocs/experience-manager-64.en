@@ -65,30 +65,30 @@ The following is the list of resources that have already been created in this tu
    | bill_summary_first_ic |BillSummary |
    | summary_charges_first_interactive_communication |Charges |
 
-   ![](assets/create_first_ic_doc_fragments.png)
+   ![create_first_ic_doc_fragments](assets/create_first_ic_doc_fragments.png)
 
 1. Tap **Charts** target area, and tap **+** to add a **Chart** component. 
-1. Tap the Chart component and select ![](assets/configure_icon.png) (Configure). The chart properties display in the left pane:
+1. Tap the Chart component and select ![configure_icon](assets/configure_icon.png) (Configure). The chart properties display in the left pane:
 
     1. Specify a name for the chart.
     1. Select **Pie** from the **Chart Type **drop-down list.
-    1. Select the **calltype** property from the **calls** data model object type in the **X-axis** section. Tap ![](assets/done_icon.png).
+    1. Select the **calltype** property from the **calls** data model object type in the **X-axis** section. Tap ![done_icon](assets/done_icon.png).
     1. Select **Frequency** from the **Function** drop-down list.
-    1. Select the **calltype** property from the **calls** data model object type in the **Y-axis** section. Tap ![](assets/done_icon.png).
-    1. Tap ![](assets/done_icon.png) to save the chart properties.
+    1. Select the **calltype** property from the **calls** data model object type in the **Y-axis** section. Tap ![done_icon](assets/done_icon.png).
+    1. Tap ![done_icon](assets/done_icon.png) to save the chart properties.
 
 1. Go to the **Assets** tab and apply the filter to display only the layout fragments in the left pane. Drag-and-drop the **table_lf** layout fragment to the **Itemised Calls** target area.
-1. Select the Text Field in the **Date** column and tap ![](assets/configure_icon.png) (Configure).
-1. Select **Data Model Object** from the **Binding Type** drop-down list and select **calls** &gt; **calldate**. Tap ![](assets/done_icon.png) twice to save the properties.
+1. Select the Text Field in the **Date** column and tap ![configure_icon](assets/configure_icon.png) (Configure).
+1. Select **Data Model Object** from the **Binding Type** drop-down list and select **calls** &gt; **calldate**. Tap ![done_icon](assets/done_icon.png) twice to save the properties.
 
    Similarly, create binding with **calltime**, **callnumber**, **callduration**, and **callcharges** for text fields in the **Time**, **Number**, **Duration**, and **Charges** columns respectively.
 
 1. Tap **PayNow** target area, and tap **+** to add an **Image** component. 
-1. Tap the Image component and select ![](assets/configure_icon.png) (Configure). The image properties display in the left pane:
+1. Tap the Image component and select ![configure_icon](assets/configure_icon.png) (Configure). The image properties display in the left pane:
 
     1. Specify **PayNow** as the name of the image in the **Name** field.
     1. Tap **Upload**, select the image saved on the local file system, and tap **Open**.
-    1. Tap ![](assets/done_icon.png) to save the image properties.
+    1. Tap ![done_icon](assets/done_icon.png) to save the image properties.
 
 1. Repeat steps 13 and 14 to add **ValueAddedServices** image to the **ValueAddedServices** target area.
 
@@ -128,52 +128,52 @@ The following is the list of resources that have already been created in this tu
    | summary_charges_first_interactive_communication |Charges |
 
 1. Tap **Summary of Charges** target area, and tap **+** to add a **Chart** component. 
-1. Tap the Chart component and select ![](assets/configure_icon.png) (Configure). The chart properties display in the left pane:
+1. Tap the Chart component and select ![configure_icon](assets/configure_icon.png) (Configure). The chart properties display in the left pane:
 
     1. Specify a name for the chart.
     1. Select **Pie** from the **Chart Type **drop-down list.
-    1. Select the **calltype** property from the **calls** data model object type in the **X-axis** section. Tap ![](assets/done_icon.png).
+    1. Select the **calltype** property from the **calls** data model object type in the **X-axis** section. Tap ![done_icon](assets/done_icon.png).
     1. Select **Frequency** from the **Function** drop-down list.
-    1. Select the **calltype** property from the **calls** data model object type in the **Y-axis** section. Tap ![](assets/done_icon.png).
-    1. Tap ![](assets/done_icon.png) to save the chart properties.
+    1. Select the **calltype** property from the **calls** data model object type in the **Y-axis** section. Tap ![done_icon](assets/done_icon.png).
+    1. Tap ![done_icon](assets/done_icon.png) to save the chart properties.
 
 1. Select the **Data Sources** tab from the left pane and drag-and-drop the **calls** data model object to the **Itemised Calls** target area. All properties in the **calls** data model object are displayed as table columns in the** Itemised Calls** target area in the right pane.
 
    Based on the use case, you require Call Date, Call Time, Call Number, Call Duration, and Call Charges columns in the table.
 
-   ![](assets/table_ic_web.png)
+   ![table_ic_web](assets/table_ic_web.png)
 
 1. Select **Mobilenum** table column heading and select **More options** &gt; **Delete column**. Similarly, delete the **Calltype** column.
-1. Select the **Calldate** table column heading and tap ![](assets/edit.png) (Edit) to rename the text to **Call Date**. Similarly, rename other column headings in the table.
+1. Select the **Calldate** table column heading and tap ![edit](assets/edit.png) (Edit) to rename the text to **Call Date**. Similarly, rename other column headings in the table.
 1. Based on the use case, insert a **Pay Now** button in the Interactive Communication that provides the user an option to make the payment by clicking the button. Execute the following steps to insert the button:
 
     1. Tap **Pay Now** target area, and tap **+** to add a **Text** component. 
-    1. Tap the text component and tap ![](assets/edit.png) (Edit).
+    1. Tap the text component and tap ![edit](assets/edit.png) (Edit).
     1. Rename the text to **Pay Now**.
     1. Select the text and tap the Hyperlink icon.
     1. Specify the payment URL in the **Path** field.
     1. Select **New Tab** from **Target** drop-down list.
-    1. Tap ![](assets/done_icon.png) to save the hyperlink properties.
+    1. Tap ![done_icon](assets/done_icon.png) to save the hyperlink properties.
 
 1. Select **Style** from the drop-down list next to the **Preview** option.
 
-   ![](assets/select_style_ic_web.png)
+   ![select_style_ic_web](assets/select_style_ic_web.png)
 
 1. Style the hyperlink text to display it as a button in the Interactive Communication using the following steps:
 
-    1. Tap the text component and select ![](assets/edit.png) (Edit).
+    1. Tap the text component and select ![edit](assets/edit.png) (Edit).
     1. In the **Border** section, specify **1.5px** as **Border Width**, select **Solid** as **Border Style**, and specify **46px** as **Border Radius**.
     1. Select Red as the background color for the button from the **Background** section.
     1. In the **Margin** field for **Dimensions & Position** section, tap the **Edit simultaneously** icon, and set the **Right** margin as **450px**. The Top, Bottom, and Left fields are set as blank.
 
-   ![](assets/ic_web_hyperlink.png)
+   ![ic_web_hyperlink](assets/ic_web_hyperlink.png)
 
 1. Tap **Pay Now** target area, and tap **+** to add an **Image** component. 
-1. Tap the Image component and select ![](assets/configure_icon.png) (Configure). The image properties display in the left pane:
+1. Tap the Image component and select ![configure_icon](assets/configure_icon.png) (Configure). The image properties display in the left pane:
 
     1. Specify **PayNow** as the name of the image in the **Name** field.
     1. Tap **Upload**, select the **PayNowWeb** image saved on the local file system, and tap **Open**.
-    1. Tap ![](assets/done_icon.png) to save the image properties.
+    1. Tap ![done_icon](assets/done_icon.png) to save the image properties.
 
 1. Based on the use case, insert a **Subscribe** button in the Interactive Communication that provides the user an option to subscribe to the value added services by clicking the button.
 
@@ -204,11 +204,11 @@ Execute the following steps to derive the Web channel content using Print channe
 
    The print channel content is inserted below the Web channel template content. To modify the Web channel content that has been auto-generated from the Print channel, you can cancel the inheritance for any target area.
 
-   Hover over the relevant target area in the web channel and select ![](assets/cancelinheritance.png) (Cancel Inheritance) and then in the **Cancel Inheritance** dialog, tap **Yes**. 
+   Hover over the relevant target area in the web channel and select ![cancelinheritance](assets/cancelinheritance.png) (Cancel Inheritance) and then in the **Cancel Inheritance** dialog, tap **Yes**. 
 
-   ![](assets/cancel_inheritance_web_channel.png)
+   ![cancel_inheritance_web_channel](assets/cancel_inheritance_web_channel.png)
 
-   If you have canceled inheritance of a component, you can re-enable it. To re-enable inheritance, hover over the boundary of the relevant target area, which includes the component, and tap ![](assets/reenableinheritance.png). 
+   If you have canceled inheritance of a component, you can re-enable it. To re-enable inheritance, hover over the boundary of the relevant target area, which includes the component, and tap ![reenableinheritance](assets/reenableinheritance.png). 
 
 1. Select the **Content** tab in the left pane.
 1. Drag-and-drop the auto-generated Web channel content to the existing panels in the Web template using the content tree. The following is the list of components that need to be rearranged:
@@ -219,7 +219,7 @@ Execute the following steps to derive the Web channel content using Print channe
     * Summary of Charges component to Summary of Charges panel
     * Layout fragment (table) to the Itemised Calls panel
 
-   ![](assets/ic_web_content_tree.png)
+   ![ic_web_content_tree](assets/ic_web_content_tree.png)
 
 1. Repeat steps 13 - 18 of [Create Interactive Communication for Web channel](/help/forms/using/create-interactive-communication0.md#create-interactive-communication-for-web-channel) to insert the **Pay Now** and **Subscribe** hyperlinks in the Web channel of the Interactive Communication.
 

@@ -42,13 +42,13 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear:
 
-![](assets/chlimage_1-280.png)
+![chlimage_1-280](assets/chlimage_1-280.png)
 
 ### Configuring QnA {#configuring-qna}
 
 Select the placed `QnA` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-281.png) ![](assets/chlimage_1-282.png)
+![chlimage_1-281](assets/chlimage_1-281.png) ![chlimage_1-282](assets/chlimage_1-282.png)
 
 #### Settings tab {#settings-tab}
 

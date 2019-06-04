@@ -117,11 +117,11 @@ Various search options are also available.
 
 The integration framework provides the API, a range of components to illustrate functionality and several extensions to provide examples of connection methods:
 
-![](assets/chlimage_1-167.png)
+![chlimage_1-167](assets/chlimage_1-167.png)
 
 The framework gives you access to functionality such as:
 
-![](assets/chlimage_1-168.png) 
+![chlimage_1-168](assets/chlimage_1-168.png) 
 
 ### Implementations {#implementations}
 
@@ -203,7 +203,7 @@ The integrated system caters for the following roles to maintain the data:
 
 Though the actual location can depend on your implementation; for example, generic or with an eCommerce engine:
 
-![](assets/chlimage_1-169.png) 
+![chlimage_1-169](assets/chlimage_1-169.png) 
 
 ## Products {#products}
 
@@ -242,13 +242,13 @@ In either case, when the product data has been entered/imported into AEM it can 
 * the SKU code
 * when last modified
 
-![](assets/chlimage_1-170.png) 
+![chlimage_1-170](assets/chlimage_1-170.png) 
 
 ### Product Variants {#product-variants}
 
 For appropriate products information about variants can also be held. For example, for items of clothing the different colors available are held as variants:
 
-![](assets/ecommerceproductvariants.png) 
+![ecommerceproductvariants](assets/ecommerceproductvariants.png) 
 
 ### Product Attributes {#product-attributes}
 
@@ -467,7 +467,7 @@ Catalog sections provide you with, for example:
 * links to the individual products in that category
 * links to the other categories
 
-![](assets/ecommerce_categoryrunning.png) 
+![ecommerce_categoryrunning](assets/ecommerce_categoryrunning.png) 
 
 ### Product Pages {#product-pages}
 
@@ -475,7 +475,7 @@ Product pages provide comprehensive information about individual products. Dynam
 
 Product pages are AEM pages that use the **Product** component; for example, within the **Commerce Product** template:
 
-![](assets/ecommerce_nairobirunnersgreen.png)
+![ecommerce_nairobirunnersgreen](assets/ecommerce_nairobirunnersgreen.png)
 
 The Product component provides:
 
@@ -602,7 +602,7 @@ A promotion can be held either in an experience or directly in the campaign:
 
 When a shopper registers, the account details need to be synchronized between AEM and the eCommerce engine. Sensitive data is held independently, but profiles are shared:
 
-![](assets/chlimage_1-173.png)
+![chlimage_1-173](assets/chlimage_1-173.png)
 
 The exact mechanism can depend on the scenario:
 
@@ -631,7 +631,7 @@ When using an eCommerce engine, AEM only stores the account ID and password (opt
 
 Often sign-up is required for the shopper to have access to the shopping cart. This requires registration (Create Account) so that a customer-specific account can be created.
 
-![](assets/chlimage_1-174.png)
+![chlimage_1-174](assets/chlimage_1-174.png)
 
 >[!NOTE]
 >
@@ -641,7 +641,7 @@ Often sign-up is required for the shopper to have access to the shopping cart. T
 
 After sign-up the shopper can login with their account so that their actions can be tracked and their orders fulfilled.
 
-![](assets/chlimage_1-175.png) 
+![chlimage_1-175](assets/chlimage_1-175.png) 
 
 ### Single Sign-On {#single-sign-on}
 
@@ -653,7 +653,7 @@ Transaction data from the eCommerce engine is combined with personal information
 
 There is a page which allows you to easily manage your account informations. You can access it by clicking **My Account** at the top of a geometrixx page, or by navigating to `/content/geometrixx-outdoors/en/user/account.html`.
 
-![](assets/chlimage_1-176.png) 
+![chlimage_1-176](assets/chlimage_1-176.png) 
 
 ### Address Book {#address-book}
 
@@ -669,7 +669,7 @@ You can choose which address you want as default.
 
 The address book component is reachable from the **My Account** page by clicking **Address Book** or by navigating to `/content/geometrixx-outdoors/en/user/account/address-book.html`.
 
-![](assets/chlimage_1-177.png)
+![chlimage_1-177](assets/chlimage_1-177.png)
 
 You can click** Add new address...** to add a new address in your address book. It opens a form that you can fill out and then click **Add address**.
 
@@ -679,7 +679,7 @@ You can click** Add new address...** to add a new address in your address book. 
 
 The Address Book is used when you checkout your cart:
 
-![](assets/chlimage_1-178.png)
+![chlimage_1-178](assets/chlimage_1-178.png)
 
 Addresses are persisted below `user_home/profile/addresses`.  
 For example, for Alison Parker, it would be under /home/users/geometrixx/aparker@geometrixx.info/profile/addresses
@@ -727,7 +727,7 @@ The shopping cart provides:
     * update the number/quantity of the individual items
     * remove individual items
 
-![](assets/ecommerce_shoppingcart.png)
+![ecommerce_shoppingcart](assets/ecommerce_shoppingcart.png)
 
 The shopping cart is saved according to the engine being used:
 
@@ -839,7 +839,7 @@ When the order is held within AEM the Order console shows the following for each
 * when the order was placed
 * the status
 
-![](assets/chlimage_1-179.png) 
+![chlimage_1-179](assets/chlimage_1-179.png) 
 
 ### Order Tracking {#order-tracking}
 
@@ -853,7 +853,7 @@ After receiving the order delivery, shoppers may also want to view the history o
 
 Order fulfillment and tracking is usually managed by the eCommerce engine. Information can be displayed by AEM using the Order History component, which shows all relevant details, including the vouchers and promotions applied. For example:
 
-![](assets/chlimage_1-180.png) 
+![chlimage_1-180](assets/chlimage_1-180.png) 
 
 ## Checkout {#checkout}
 
@@ -873,7 +873,7 @@ The order is confirmed on screen and can be tracked with the [order tracking](#o
 
 ## Search {#search-features}
 
-![](assets/chlimage_1-181.png)
+![chlimage_1-181](assets/chlimage_1-181.png)
 
 Since AEM uses standard pages for products, you can use the standard search component to create a search page.
 

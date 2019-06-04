@@ -67,7 +67,7 @@ There are several different ways you can obtain a URL string. However, the steps
 
    At the bottom of the left rail, tap **URL**.
 
-   ![](assets/chlimage_1-270.png)
+   ![chlimage_1-270](assets/chlimage_1-270.png)
 
     * If you selected a spin set, an image set, a carousel set, or a video, in the drop-down menu, click or tap **Viewers**.
 
@@ -75,7 +75,7 @@ There are several different ways you can obtain a URL string. However, the steps
 
    In the left rail, at the bottom, tap or click **URL**.
 
-   ![](assets/chlimage_1-271.png)
+   ![chlimage_1-271](assets/chlimage_1-271.png)
 
 1. Select and copy the text to your web browser to preview the asset or to add to your web content page.
 

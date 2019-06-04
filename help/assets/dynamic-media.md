@@ -60,27 +60,27 @@ When clicking on an image asset, the view of the asset is different with Dynamic
 
 Dynamic renditions such as image and viewer presets (under **Dynamic**) are available when Dynamic Media is enabled.
 
-![](assets/chlimage_1-358.png) 
+![chlimage_1-358](assets/chlimage_1-358.png) 
 
 ### Image sets, spins sets, mixed media sets {#image-sets-spins-sets-mixed-media-sets}
 
 Image sets, spin sets, and mixed media sets are available if Dynamic Media is enabled.
 
-![](assets/chlimage_1-359.png) 
+![chlimage_1-359](assets/chlimage_1-359.png) 
 
 ### Ptiff renditions {#ptiff-renditions}
 
 Dynamic media enabled assets include pyramid.tiffs.
 
-![](assets/chlimage_1-360.png) 
+![chlimage_1-360](assets/chlimage_1-360.png) 
 
 ### Asset views change {#asset-views-change}
 
 With Dynamic Media enabled, you can zoom in and out by clicking the + and - buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:
 
-![](assets/chlimage_1-361.png)
+![chlimage_1-361](assets/chlimage_1-361.png)
 
 With dynamic media disabled you can zoom in and out and revert to the original size:
 
-![](assets/chlimage_1-362.png)
+![chlimage_1-362](assets/chlimage_1-362.png)
 

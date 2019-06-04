@@ -27,7 +27,7 @@ The machine translation service immediately translates your content in adaptive 
 1. In the Dictionary Added dialog box, click **Open Projects**. In the Projects screen, open the newly created project.
 1. Click the **ellipses** at the bottom of the **Translation Summary** tile. The Translation Summary screen opens.
 1. Click the **Edit** icon at the top of the **Translation Summary** screen. Open the **Translation** tab and select Machine Translation in the **Translation Method** screen. Select the appropriate **Translation Provider** and **Cloud Configuration**. Click the **Done** icon at the top of the screen.
-1. On the **Translation Job** tile, click the ![](assets/aem62forms_downarrow.png) icon, and click **Start**. The status of the tile changes to Draft. On completion of the translation, the status changes to **Ready for review**. Refresh the page after a few minutes and verify the status.
+1. On the **Translation Job** tile, click the ![aem62forms_downarrow](assets/aem62forms_downarrow.png) icon, and click **Start**. The status of the tile changes to Draft. On completion of the translation, the status changes to **Ready for review**. Refresh the page after a few minutes and verify the status.
 1. After the status changes to **Ready for review** on the **Translation Job** tile, open the form in a browser window. A localized version of the form is displayed.
 
    >[!NOTE]
@@ -56,15 +56,15 @@ Perform the following steps to localize a form and its document of record using 
 
 1. [Connect AEM with your translation service provider](/help/sites-administering/tc-tic.md) and [create translation integration framework configurations](/help/sites-administering/tc-tic.md).
 
-2. [Associate the pages of your language master](/help/sites-administering/tc-tic.md) with the translation service and framework configurations.
+1. [Associate the pages of your language master](/help/sites-administering/tc-tic.md) with the translation service and framework configurations.
 
-3. [Identify the type of content](/help/sites-administering/tc-rules.md) to translate.
+1. [Identify the type of content](/help/sites-administering/tc-rules.md) to translate.
 
-4. [Prepare the content for translation](/help/sites-administering/tc-prep.md) by authoring the language master and creating the root pages of language copies.
+1. [Prepare the content for translation](/help/sites-administering/tc-prep.md) by authoring the language master and creating the root pages of language copies.
 
-5. [Create translation projects](/help/sites-administering/tc-manage.md) to gather the content to translate and to prepare the translation process.
+1. [Create translation projects](/help/sites-administering/tc-manage.md) to gather the content to translate and to prepare the translation process.
 
-6. Use the translation projects to [manage the content translation process](/help/sites-administering/tc-manage.md).
+1. Use the translation projects to [manage the content translation process](/help/sites-administering/tc-manage.md).
 
 >[!NOTE]
 >

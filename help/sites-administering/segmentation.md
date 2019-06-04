@@ -32,13 +32,13 @@ The [Audiences](/help/sites-authoring/managing-audiences.md) console is used to 
 
 To access your segments, in global navigation select **Navigation &gt; Personalization &gt; Audiences**.
 
-![](assets/chlimage_1-310.png) 
+![chlimage_1-310](assets/chlimage_1-310.png) 
 
 ## Segment Editor {#segment-editor}
 
 The **Segment Editor** allows you to easily modify a segment. To edit a segment, select a segment in the [list of segments](/help/sites-administering/segmentation.md#accessing-segments) and click the **Edit** button.
 
-![](assets/segmenteditor.png)
+![segmenteditor](assets/segmenteditor.png)
 
 Using the components browser you can add **AND** and **OR** containers to define the segment logic, then add additional components to compare properties and values or reference scripts and other segments to define the selection criteria (see [Creating a New Segment](#creating-a-new-segment)) to define the exact scenario for selecting the segment.
 
@@ -127,11 +127,11 @@ To define your new segment:
 
 1. After [accessing the segments](/help/sites-administering/segmentation.md#accessing-segments), click or tap the Create button and select **Create ContextHub Segment**.
 
-   ![](assets/chlimage_1-311.png)
+   ![chlimage_1-311](assets/chlimage_1-311.png)
 
 1. In the **New ContextHub Segment**, enter a title for the segment as well as a boost value if required and then tap or click **Create**.
 
-   ![](assets/chlimage_1-312.png)
+   ![chlimage_1-312](assets/chlimage_1-312.png)
 
    Each segment has a boost parameter that is used as a weighting factor. A higher number indicates that the segment will be selected in preference to a segment with a lower number in instances where multiple segments are valid.
 
@@ -141,7 +141,7 @@ To define your new segment:
 1. Drag a comparison or reference to the segment editor it will appear in the default AND container.
 1. Double-click on or tap the configure option of the new reference or segment to edit the specific parameters. In this example, we are testing for people in San Jose.
 
-   ![](assets/screen_shot_2012-02-02at103135am.png)
+   ![screen_shot_2012-02-02at103135am](assets/screen_shot_2012-02-02at103135am.png)
 
    Always set a **Data Type** if possible to ensure that your comparisons are evaluated properly. See [Comparisons](/help/sites-administering/segmentation.md#comparisons) for more information.
 
@@ -165,7 +165,7 @@ Female and between the ages of 30 and 59
 
 You start by placing an OR container component within the default AND container. Within the OR container, you add two AND containers and within both of these you can add the property or reference components.
 
-![](assets/screen_shot_2012-02-02at105145am.png) 
+![screen_shot_2012-02-02at105145am](assets/screen_shot_2012-02-02at105145am.png) 
 
 ### Using Script References {#using-script-references}
 
@@ -230,11 +230,11 @@ Once the segment has been defined, potential results can be tested with the help
 
 For example, our simple segment defintion to identify users in our prime age group is a simple segment definition is based on the age and gender of the user. Loading a specific persona that matches those criteria shows if that the segment is successfully resolved:
 
-![](assets/screen_shot_2012-02-02at105926am.png)
+![screen_shot_2012-02-02at105926am](assets/screen_shot_2012-02-02at105926am.png)
 
 Or if it is not resolved:
 
-![](assets/screen_shot_2012-02-02at110019am.png)
+![screen_shot_2012-02-02at110019am](assets/screen_shot_2012-02-02at110019am.png)
 
 >[!NOTE]
 >
@@ -246,15 +246,15 @@ If you have set up an activity and experience using the prime age group segment 
 
 1. In editing mode of a page where you have set up targeted content, you can see that the content is targeted via arrow icon on the content.
 
-   ![](assets/chlimage_1-313.png)
+   ![chlimage_1-313](assets/chlimage_1-313.png)
 
 1. Switch to preview mode and using the context hub, switch to a persona that does not match the segmentation configured for the experience.
 
-   ![](assets/chlimage_1-314.png)
+   ![chlimage_1-314](assets/chlimage_1-314.png)
 
 1. Switch to a persona that does match the segmentation configured for the experience and see that the experience changes accordingly.
 
-   ![](assets/chlimage_1-315.png)
+   ![chlimage_1-315](assets/chlimage_1-315.png)
 
 ## Using Your Segment {#using-your-segment}
 

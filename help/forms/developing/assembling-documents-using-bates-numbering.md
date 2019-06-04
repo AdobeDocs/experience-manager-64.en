@@ -18,7 +18,7 @@ You can assemble PDF documents that contain unique page identifiers by using Bat
 
 The following illustration shows a PDF document that contains a unique identifier located in the document’s header.
 
-![](assets/au_au_batesnumber.png)
+![au_au_batesnumber](assets/au_au_batesnumber.png)
 
 For the purpose of this discussion, the unique page identifier is placed in a document’s header. Assume that the following DDX document is used.
 

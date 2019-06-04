@@ -11,7 +11,7 @@ discoiquuid: 982eddba-2350-40e7-8a42-db02d28cf133
 
 # DO NOT PUBLISH Tutorial: Apply rules to adaptive form fields {#do-not-publish-tutorial-apply-rules-to-adaptive-form-fields}
 
- ![](assets/06-apply-rules-to-adaptive-form_main.png)
+ ![06-apply-rules-to-adaptive-form_main](assets/06-apply-rules-to-adaptive-form_main.png)
 
 This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. Adobe recommends following the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
@@ -46,23 +46,23 @@ Every customer is assigned a unique Customer ID number, which helps identify rel
 
 1. Tap the **[!UICONTROL Select State]** drop-down and select **[!UICONTROL is changed]**.
 
-   ![](assets/whencustomeridischanged.png)
+   ![whencustomeridischanged](assets/whencustomeridischanged.png)
 
 1. In the **THEN** statement, select **Invoke Service** from the **Select Action** drop-down.
 1. Select the **Retrieve Shipping Address** service from the **Select** drop-down.
 1. Drag-and-drop the **Customer ID** field from the Form Objects tab to the **Drop object or select here **field in the **INPUT** box.
 
-   ![](assets/dropobjectstoinputfield-retrievedata.png)
+   ![dropobjectstoinputfield-retrievedata](assets/dropobjectstoinputfield-retrievedata.png)
 
 1. Drag-and-drop the **Customer ID, Name, Shipping Address, State, and Zip Code** field from the Form Objects tab to the **Drop object or select here** field in the **OUTPUT** box.
 
-   ![](assets/dropobjectstooutputfield-retrievedata.png)
+   ![dropobjectstooutputfield-retrievedata](assets/dropobjectstooutputfield-retrievedata.png)
 
    Tap **Done** to save the rule. On the rule editor window, tap **Close**.
 
 1. Preview the adaptive form. Enter an ID in the **Customer ID** field. The form can now retrieve customer details from the database.
 
-   ![](assets/retrieve-information.gif)
+   ![retrieve-information](assets/retrieve-information.gif)
 
 ## Step 2: Add the updated customer address to the database {#updated-customer-address}
 
@@ -71,18 +71,18 @@ After the customer details are retrieved from the database, you can update the s
 1. Select the **Submit** field and tap the **Edit Rules** icon. The Rule Editor window opens.
 1. Select the **Submit - Click** rule and tap the **Edit** icon. The options to edit the Submit rule appear.
 
-   ![](assets/submit-rule.png)
+   ![submit-rule](assets/submit-rule.png)
 
    In the WHEN option, the **Submit** and **is clicked** options are already selected.
 
-   ![](assets/submit-is-clicked.png)
+   ![submit-is-clicked](assets/submit-is-clicked.png)
 
 1. In the **THEN** option, tap the **+ Add Statement** option. Select **Invoke Service** from the **Select Action** drop-down.
 1. Select the **Update Shipping Address** service from the **Select** drop-down.
 
-   ![](assets/update-shipping-address.png)
+   ![update-shipping-address](assets/update-shipping-address.png)
 
-1. ![](assets/dropobjectstoinputfield-updatedata.png)
+1. ![dropobjectstoinputfield-updatedata](assets/dropobjectstoinputfield-updatedata.png)
 
    Drag-and-drop the **Shipping Address, State, and Zip Code** field from the Form Objects tab to the corresponding  tablename .property (for example,  customerdetails .shippingAddress) of the **Drop object or select here** field in the **INPUT** box. All the fields prefixed with  tablename  (For example,  customerdetails  in this use case) serve as input data for the update service. All the content provided in these fields is updated in the data source.
 
@@ -109,13 +109,13 @@ The following procedure shows how to create a rule to displays an error message 
 
 1. Tap the **[!UICONTROL Select State]** drop-down and select **[!UICONTROL is changed]**.
 
-   ![](assets/whencustomeridischanged.png)
+   ![whencustomeridischanged](assets/whencustomeridischanged.png)
 
    In the **THEN** statement, select **Invoke Service** from the **Select Action** drop-down.
 
 1. Switch from **[!UICONTROL Visual Editor]** to **[!UICONTROL Code Editor]**. The switch control is on the right side of the window. The Code Editor opens, displaying code similar to the following:
 
-   ![](assets/code-editor.png)
+   ![code-editor](assets/code-editor.png)
 
 1. Replace the input variable section with the following code:
 
@@ -144,5 +144,5 @@ The following procedure shows how to create a rule to displays an error message 
 
 1. Preview the adaptive form. Enter an incorrect Customer ID. An error message appears.
 
-   ![](assets/display-validation-error.gif)
+   ![display-validation-error](assets/display-validation-error.gif)
 

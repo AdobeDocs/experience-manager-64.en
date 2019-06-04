@@ -19,7 +19,7 @@ The following tutorial walks through the steps to create a custom component for 
 
 This tutorial is intended for developers who are new to AEM Screens. In this tutorial a simple "Hello World" component is built for a Sequence channel in AEM Screens. A dialog allows authors to update the text displayed.
 
-![](assets/overviewhellow.png) 
+![overviewhellow](assets/overviewhellow.png) 
 
 ## Prerequisites {#prerequisites}
 
@@ -92,7 +92,7 @@ A Screens project's source code is typically managed as a multi-module Maven pro
 
    From the AEM Start Menu &gt; Click the Screens the icon. Verify the We.Retail Run Project can be seen.
 
-   ![](assets/we-retaiul-run-starter.png)
+   ![we-retaiul-run-starter](assets/we-retaiul-run-starter.png)
 
 ## Create the Hello World Component {#hello-world-cmp}
 
@@ -203,7 +203,7 @@ AEM Screens has some interesting constraints that are not necessarily true for t
     1. Copy the dialog from: `/libs/screens/core/components/content/image/cq:dialog`
     1. Paste the dialog beneath `/apps/weretail-run/components/content/helloworld`
 
-   ![](assets/copy-image-dialog.gif)
+   ![copy-image-dialog](assets/copy-image-dialog.gif)
 
 1. **Update Hello World dialog to include a tab for message.**
 
@@ -282,11 +282,11 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    Beneath `/apps/weretail-run/components/content/helloworld`create a new folder named `clientlibs`.
 
-   ![](assets/2018-04-30_at_1046am.png)
+   ![2018-04-30_at_1046am](assets/2018-04-30_at_1046am.png)
 
 1. Beneath the `clientlibs` folder create a new node named `shared` of type `cq:ClientLibraryFolder.` 
 
-   ![](assets/2018-04-30_at_1115am.png)
+   ![2018-04-30_at_1115am](assets/2018-04-30_at_1115am.png)
 
 1. Add the following properties to the shared client library:
 
@@ -315,7 +315,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
 1. Create a folder named `css` beneath the `shared` folder. Add a file named `style.less` beneath the `css` folder. The structure of the client libraries should now look like this:
 
-   ![](assets/2018-04-30_at_3_11pm.png)
+   ![2018-04-30_at_3_11pm](assets/2018-04-30_at_3_11pm.png)
 
    Instead of writing CSS directly, this tutorial uses LESS. [LESS](https://lesscss.org/) is a popular CSS pre-compiler that supports CSS variables, mixins, and functions. AEM client libraries natively support LESS compilation. Sass or other pre-compilers can be used but need to be compiled outside of AEM.
 
@@ -416,7 +416,7 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
 
    1. Choose **Create Entity**
 
-   ![](assets/2018-04-30_at_5_18pm.png)
+   ![2018-04-30_at_5_18pm](assets/2018-04-30_at_5_18pm.png)
 
 1. In the Create wizard:
 
@@ -427,7 +427,7 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
     * Basic Tab &gt; Title = **Idle Channel**
     * Channel Tab &gt; check** Make channel online **
 
-   ![](assets/idle-channel.gif)
+   ![idle-channel](assets/idle-channel.gif)
 
 1. Open the page properties for the Idle Channel. Update the Design field to point to `/apps/settings/wcm/designs/we-retail-run,`the design page created in the previous section.
 
@@ -443,11 +443,11 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
 
    1. Select the **Screens** group and the **We.Retail Run - Content** group.
 
-   ![](assets/2018-04-30_at_5_43pm.png)
+   ![2018-04-30_at_5_43pm](assets/2018-04-30_at_5_43pm.png)
 
 1. Switch the page mode to **Edit**. The Hello World component can now be added to the page and combined with other sequence channel components.
 
-   ![](assets/2018-04-30_at_5_53pm.png)
+   ![2018-04-30_at_5_53pm](assets/2018-04-30_at_5_53pm.png)
 
 1. In [CRXDE-Lite](http://localhost:4502/crx/de/index.jsp#/apps/settings/wcm/designs/we-retail-run/jcr%3Acontent/sequencechannel/par) navigate to `/apps/settings/wcm/designs/we-retail-run/jcr:content/sequencechannel/par`. Notice the `components` property now includes `group:Screens`, `group:We.Retail Run - Content`. 
 

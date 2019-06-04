@@ -66,7 +66,7 @@ The following shows an extract from the Geometrixx site; where, for example, the
 
 This structure can be viewed from the Websites console, which you can use to [navigate through the tree structure](/help/sites-classic-ui-authoring/author-env-basic-handling.md#main-pars-text-15).
 
-![](assets/chlimage_1-151.png) 
+![chlimage_1-151](assets/chlimage_1-151.png) 
 
 ### Page Naming Conventions {#page-naming-conventions}
 
@@ -157,7 +157,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
    In the following example, you are creating a page under the level **Products** - shown in the left pane; the right pane shows pages that already exist at the level under **Products**.
 
-   ![](assets/screen_shot_2012-02-15at114413am.png)
+   ![screen_shot_2012-02-15at114413am](assets/screen_shot_2012-02-15at114413am.png)
 
 1. In the **New...** menu (click the arrow next to **New...**), select **New Page...**. The **Create Page** window opens.
 
@@ -181,7 +181,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
    The minimum information required to create a new page is the **Title** and the template required.
 
-   ![](assets/screen_shot_2012-02-15at114845am.png)
+   ![screen_shot_2012-02-15at114845am](assets/screen_shot_2012-02-15at114845am.png)
 
    >[!NOTE]
    >
@@ -259,7 +259,7 @@ To move or rename a page:
 
 1. The **Move** window opens; here you can either specify a new location, a new name for the page, or both.
 
-   ![](assets/screen_shot_2012-02-15at121336pm.png)
+   ![screen_shot_2012-02-15at121336pm](assets/screen_shot_2012-02-15at121336pm.png)
 
    The page also lists any pages that reference the page being moved. Depending on the status of the referencing page, you may be able to adjust those links on and/or republish the pages.
 
@@ -331,7 +331,7 @@ You can [lock/unlock a page](/help/sites-classic-ui-authoring/classic-page-autho
 1. In the **New...** menu (click the arrow next to **New...**), select **New Folder...**. 
 1. The **Create Folder** dialog will open. Here you can enter the **Name** and **Title**:
 
-   ![](assets/chlimage_1-152.png)
+   ![chlimage_1-152](assets/chlimage_1-152.png)
 
 1. Select **Create** to create the folder.
 

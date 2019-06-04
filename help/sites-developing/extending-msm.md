@@ -37,12 +37,12 @@ Multi Site Management consists of the following packages:
 
 The main MSM API objects interact as follows (see also [Terms Used](/help/sites-administering/msm.md#terms-used)):
 
-![](assets/chlimage_1-35.png)
+![chlimage_1-35](assets/chlimage_1-35.png)
 
 * **`Blueprint`** 
   A `Blueprint` (as in [blueprint configuration](/help/sites-administering/msm.md#source-blueprints-and-blueprint-configurations)) specifies the pages from which a live copy can inherit content. 
 
-  ![](assets/chlimage_1-36.png)
+  ![chlimage_1-36](assets/chlimage_1-36.png)
 
     * The use of a blueprint configuration ( `Blueprint`) is optional, but:
 
@@ -535,7 +535,7 @@ Configure the rollout configuration that you created in the previous procedure s
     * **Name**: `exampleLiveAction` 
     * **Type**: `cq:LiveSyncAction`
 
-   ![](assets/chlimage_1-37.png)
+   ![chlimage_1-37](assets/chlimage_1-37.png)
 
 1. Click **Save All**.
 1. Select the `exampleLiveAction` node and add the following property:
@@ -602,7 +602,7 @@ The language list is stored below the `/libs/wcm/core/resources/languages` node.
 * The `country` property of the node stores the full name of the country for the code.
 * When the node name consists only of a language code (such as `en`), the country property is `*`, and an additional `defaultCountry` property stores the code of the language-country to indicate the country to use.
 
-![](assets/chlimage_1-38.png)
+![chlimage_1-38](assets/chlimage_1-38.png)
 
 To modify the languages:
 
@@ -613,7 +613,7 @@ To modify the languages:
 
 1. Repeat the previous step to create the `/apps/wcm/core` folder tree. Create a node of type `sling:Folder` in core called `resources`.
 
-   ![](assets/chlimage_1-39.png)
+   ![chlimage_1-39](assets/chlimage_1-39.png)
 
 1. Right-click the `/libs/wcm/core/resources/languages` node and click **Copy**.
 1. Right-click the `/apps/wcm/core/resources` folder and click **Paste**. Modify the child nodes as required.
@@ -621,7 +621,7 @@ To modify the languages:
 1. Click **Tools**, **Operations** then **Web Console**. From this console click **OSGi**, then **Configuration**.
 1. Locate and click **Day CQ WCM Language Manager**, and change the value of **Language List** to `/apps/wcm/core/resources/languages`, then click **Save**.
 
-   ![](assets/chlimage_1-40.png)
+   ![chlimage_1-40](assets/chlimage_1-40.png)
 
 ### Configuring MSM Locks on Page Properties (Touch-Enabled UI) {#configuring-msm-locks-on-page-properties-touch-enabled-ui}
 

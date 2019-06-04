@@ -28,7 +28,7 @@ This feature is disabled by default. To enable the feature, configure the **Day 
 
 1. Select the **Detect MIME from content** option to enable the parsing of uploaded assets to determine their MIME type while ignoring file extensions. By default, this option is unselected.
 
-   ![](assets/chlimage_1-333.png)
+   ![chlimage_1-333](assets/chlimage_1-333.png)
 
 1. Click/tap **Save** to save the changes.
 

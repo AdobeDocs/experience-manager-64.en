@@ -65,7 +65,7 @@ To do the full import:
 
 1. Configure the parameters as required; for example:
 
-   ![](assets/chlimage_1-30.jpeg)
+   ![chlimage_1-30](assets/chlimage_1-30.jpeg)
 
 1. Click **Import Catalog** to start the import.
 
@@ -105,7 +105,7 @@ The import process can take a long time so you can select specific areas of the 
 1. On the **General** tab mark the checkbox **Express Update**.
 1. Click **Apply** and click the lock icon on top of the page again to unlock the product.
 
-   ![](assets/chlimage_1-104.png)
+   ![chlimage_1-104](assets/chlimage_1-104.png)
 
 1. Open the Intershop importer in AEM:
 
@@ -127,7 +127,7 @@ The parameters used by the importer can be configured for:
 **Intershop Product and Catalog Importer** 
 ( `com.adobe.cq.commerce.intershop.impl.importer.IntershopImporter`)
 
-![](assets/chlimage_1-105.png)
+![chlimage_1-105](assets/chlimage_1-105.png)
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ The parameters used by the parser can be configured for:
 **Intershop JSON Parser** 
 ( `com.adobe.cq.commerce.intershop.impl.importer.IntershopJSONParser`)
 
-![](assets/chlimage_1-106.png)
+![chlimage_1-106](assets/chlimage_1-106.png)
 
 >[!NOTE]
 >

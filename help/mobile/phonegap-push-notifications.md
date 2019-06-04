@@ -324,19 +324,19 @@ Create the notification, add a button text and link path for the optional deep l
 
 1. Click the edit on the top right corner of the **Manage Cloud Services** tile.
 
-   ![](assets/chlimage_1-108.png)
+   ![chlimage_1-108](assets/chlimage_1-108.png)
 
 1. Select the **Pushwoosh Connection**. Click **Next**.
 
-   ![](assets/chlimage_1-109.png)
+   ![chlimage_1-109](assets/chlimage_1-109.png)
 
 1. Enter the details of the properties and click **Submit**.
 
-   ![](assets/chlimage_1-110.png)
+   ![chlimage_1-110](assets/chlimage_1-110.png)
 
    One you submit your configuration, the **Push Notifications** tile displays in the dashboard.
 
-   ![](assets/chlimage_1-111.png)
+   ![chlimage_1-111](assets/chlimage_1-111.png)
 
 ### Create Notification Wizard {#create-notification-wizard}
 
@@ -344,13 +344,13 @@ Once the **Push Notifications** tile displays in your dashboard, use the create 
 
 1. Click the add symbol on the top right corner of the **Push Notifications** tile to open the **Create Notification Wizard**.
 
-   ![](assets/chlimage_1-112.png)
+   ![chlimage_1-112](assets/chlimage_1-112.png)
 
 1. Clicking the browse icon in the link path, presents the user with the content structure of the app.
 
    Once you select the path, click the check icon.
 
-   ![](assets/chlimage_1-113.png)
+   ![chlimage_1-113](assets/chlimage_1-113.png)
 
    >[!NOTE]
    >
@@ -360,13 +360,13 @@ Once the **Push Notifications** tile displays in your dashboard, use the create 
 
 1. Enter the **Text Details** in the **Create Notification Wizard** and click **Create**.
 
-   ![](assets/chlimage_1-114.png)
+   ![chlimage_1-114](assets/chlimage_1-114.png)
 
    Open the details by clicking on the push notification you created from the **Push Notifications** tile.
 
    You can edit properties, send notifications, or delete the notification.
 
-   ![](assets/chlimage_1-115.png)
+   ![chlimage_1-115](assets/chlimage_1-115.png)
 
 >[!NOTE]
 >

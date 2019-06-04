@@ -23,21 +23,21 @@ All We.Retail pages use the Layout Container component to implement responsive d
 
 1. Switch to **Preview** to see the page as it would be rendered to a visitor of the website. Scroll down to the content of the article *Aloha spirits in Norther Norway*.
 
-   ![](assets/chlimage_1-178.png)
+   ![chlimage_1-178](assets/chlimage_1-178.png)
 
 1. Resize your browser window and watch as the layout adapts dynamically to the resizing.
 
-   ![](assets/chlimage_1-179.png)
+   ![chlimage_1-179](assets/chlimage_1-179.png)
 
 1. Switch to Layout mode. The emulator toolbar is automatically shown, allowing you to plan your layout per targeted device.
 
    Selecting a component displays floating and hiding options in the edit menu along with resizing handles for the component.
 
-   ![](assets/chlimage_1-180.png)
+   ![chlimage_1-180](assets/chlimage_1-180.png)
 
 1. Grabbing and dragging the resize handle of the component automatically shows the layout grid to assit you with the resizing.
 
-   ![](assets/chlimage_1-181.png)
+   ![chlimage_1-181](assets/chlimage_1-181.png)
 
 ## Further Information {#further-information}
 

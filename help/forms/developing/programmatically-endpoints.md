@@ -258,7 +258,7 @@ You can programmatically add a Watched Folder endpoint to a service by using the
 
 For the purposes of programmatically adding a Watched Folder endpoint to a service, consider the following short-lived process named *EncryptDocument*. (See [Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md#understanding-aem-forms-processes).) 
 
-![](assets/aw_aw_encryptdocumentprocess.png)
+![aw_aw_encryptdocumentprocess](assets/aw_aw_encryptdocumentprocess.png)
 
 This process accepts an unsecured PDF document as an input value and then passes the unsecured PDF document to the Encryption service’s `EncryptPDFUsingPassword` operation. The PDF document is encrypted with a password, and the password-encrypted PDF document is the output value of this process. The name of the input value (the unsecured PDF document) is `InDoc` and the data type is `com.adobe.idp.Document`. The name of the output value (the password-encrypted PDF document) is `SecuredDoc` and the data type is `com.adobe.idp.Document`.
 
@@ -491,7 +491,7 @@ You can programmatically add an Email endpoint to a service by using the AEM For
 
 For the purposes of programmatically adding an Email endpoint to a service, consider the following short-lived process named *MyApplication\EncryptDocument*. For information about short-lived processes, see [Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md#understanding-aem-forms-processes).
 
-![](assets/ae_ae_encryptdocumentprocess.png)
+![ae_ae_encryptdocumentprocess](assets/ae_ae_encryptdocumentprocess.png)
 
 This process accepts an unsecured PDF document as an input value and then passes the unsecured PDF document to the Encryption service’s `EncryptPDFUsingPassword` operation. This process encrypts the PDF document with a password and returns the password-encrypted PDF document as the output value. The name of the input value (the unsecured PDF document) is `InDoc` and the data type is `com.adobe.idp.Document`. The name of the output value (the password-encrypted PDF document) is `SecuredDoc` and the data type is `com.adobe.idp.Document`.
 
@@ -747,7 +747,7 @@ You can programmatically add a Remoting endpoint to a service by using the AEM F
 
 For the purposes of programmatically adding a Remoting endpoint to a service, consider the following short-lived process named *EncryptDocument*.
 
-![](assets/ar_ar_encryptdocumentprocess.png)
+![ar_ar_encryptdocumentprocess](assets/ar_ar_encryptdocumentprocess.png)
 
 This process accepts an unsecured PDF document as an input value and then passes the unsecured PDF document to the Encryption service’s `EncryptPDFUsingPassword` operation. The PDF document is encrypted with a password, and the password-encrypted PDF document is the output value of this process. The name of the input value (the unsecured PDF document) is `InDoc` and the data type is `com.adobe.idp.Document`. The name of the output value (the password-encrypted PDF document) is `SecuredDoc` and the data type is `com.adobe.idp.Document`.
 

@@ -33,7 +33,7 @@ In the author environment, to reach the Storage Configuration console
 
 * from global navigation: **Tools, Communities, Storage Configuration**
 
-![](assets/chlimage_1-234.png)
+![chlimage_1-234](assets/chlimage_1-234.png)
 
 * select **JCR Storage Resource Provider (JSRP)**
 * select **Submit**

@@ -34,7 +34,7 @@ Use the following procedure to author a mobile page:
 
 The page looks similar to the following:
 
-![](assets/mobileipademu.png)
+![mobileipademu](assets/mobileipademu.png)
 
 >[!NOTE]
 >

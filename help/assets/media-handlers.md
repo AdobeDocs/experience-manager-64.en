@@ -108,7 +108,7 @@ It is possible to view the active media handlers:
 1. Click the link com.day.cq.dam.core.impl.store.AssetStoreImpl.
 1. A list with all the active media handlers is displayed. For example:
 
-![](assets/chlimage_1-437.png) 
+![chlimage_1-437](assets/chlimage_1-437.png) 
 
 ## Using Media Handlers in Workflows to perform tasks on Assets {#using-media-handlers-in-workflows-to-perform-tasks-on-assets}
 

@@ -149,17 +149,17 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 1. sign in to post a comment:
 1. enter text in the comment text entry box and click **Post**
 
-   ![](assets/chlimage_1-191.png)
+   ![chlimage_1-191](assets/chlimage_1-191.png)
 
 1. Simply view the comment on the [author instance](http://localhost:4502/content/community-components/en/comments.html) (likely still signed in as admin / admin).
 
-   ![](assets/chlimage_1-192.png)
+   ![chlimage_1-192](assets/chlimage_1-192.png)
 
    Note: while there are JCR nodes under the *asipath *on author, these are for the SCF framework. The actual UGC is not in JCR, it is in the MongoDB.
 
 1. view the UGC in mongodb (communities &gt; Collections &gt; content)
 
-   ![](assets/chlimage_1-193.png)
+   ![chlimage_1-193](assets/chlimage_1-193.png)
 
 1. view the UGC in Solr:
 
@@ -168,7 +168,7 @@ To test and verify the MongoDB common store, post a comment on the publish insta
     * select `Query`
     * select `Execute Query`
 
-   ![](assets/chlimage_1-194.png)
+   ![chlimage_1-194](assets/chlimage_1-194.png)
 
 ## Troubleshooting {#troubleshooting}
 

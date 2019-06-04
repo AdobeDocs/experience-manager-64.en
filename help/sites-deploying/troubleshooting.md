@@ -21,11 +21,11 @@ Analyzing slow performance on Authoring instance can become quite complex. As fi
 
 The following decision tree provides guidenance to narrow down the bottleneck. 
 
-![](assets/chlimage_1-75.png) 
+![chlimage_1-75](assets/chlimage_1-75.png) 
 
 ## Basic Optimization {#basic-optimization}
 
-![](assets/chlimage_1-76.png) 
+![chlimage_1-76](assets/chlimage_1-76.png) 
 
 ## Configuring log files and audit logs {#configuring-log-files-and-audit-logs}
 

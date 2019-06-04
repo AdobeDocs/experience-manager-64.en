@@ -61,7 +61,7 @@ For all AEM 6.3 author and publish instances
         * *uncheck* **`Cloud Storage`**
         * select **Save**
 
-![](assets/chlimage_1-126.png) 
+![chlimage_1-126](assets/chlimage_1-126.png) 
 
 ### On-premise Storage {#on-premise-storage}
 

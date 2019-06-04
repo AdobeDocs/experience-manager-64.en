@@ -72,7 +72,7 @@ Once you have fulfilled the [requirements](#requirements) above, you can install
 
 The AEM Development Tools for Eclipse ships with a Perspective that offers you full control over your AEM projects and instances.
 
-![](assets/chlimage_1-2.jpeg) 
+![chlimage_1-2](assets/chlimage_1-2.jpeg) 
 
 ## Sample Multi-Module Project {#sample-multi-module-project}
 
@@ -82,7 +82,7 @@ Follow these steps to create the sample project:
 
 1. In the **File** &gt; **New** &gt; **Project** menu, browse to the **AEM** section and select **AEM Sample Multi-Module Project**.
 
-   ![](assets/chlimage_1-69.png)
+   ![chlimage_1-69](assets/chlimage_1-69.png)
 
 1. Click **Next**.
 
@@ -90,15 +90,15 @@ Follow these steps to create the sample project:
    >
    >This step might take a while since m2eclipse needs to scan the archetype catalogs.
 
-   ![](assets/chlimage_1-70.png)
+   ![chlimage_1-70](assets/chlimage_1-70.png)
 
 1. Choose **com.adobe.granite.archetypes : sample-project-archetype : (highest number)** from the menu, then click **Next**.
 
-   ![](assets/chlimage_1-71.png)
+   ![chlimage_1-71](assets/chlimage_1-71.png)
 
 1. Fill in a **Name**, **Group id** and an **Artifact id** for the sample project. You can also opt to set some advanced properties.
 
-   ![](assets/chlimage_1-72.png)
+   ![chlimage_1-72](assets/chlimage_1-72.png)
 
 1. You should then configure an AEM server to which Eclipse will connect.
 
@@ -108,7 +108,7 @@ Follow these steps to create the sample project:
        -nofork -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=10123
    ```
 
-   ![](assets/chlimage_1-73.png)
+   ![chlimage_1-73](assets/chlimage_1-73.png)
 
 1. Click **Finish**. The project structure is created.
 

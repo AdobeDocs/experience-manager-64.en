@@ -93,7 +93,7 @@ To quickly setup a slinglog file:
 
     1. select **Save**
 
-![](assets/chlimage_1-248.png)
+![chlimage_1-248](assets/chlimage_1-248.png)
 
 To see log entries
 
@@ -108,7 +108,7 @@ To see log entries
     * the log file is at &lt;*server-install-dir*&gt;/crx-quickstart/logs/&lt;*log-file-name*&gt;.log
     * for example, `.../crx-quickstart/logs/scoring-debug.log`
 
-![](assets/chlimage_1-249.png) 
+![chlimage_1-249](assets/chlimage_1-249.png) 
 
 ## UGC for Scoring and Badging {#ugc-for-scoring-and-badging}
 
@@ -203,7 +203,7 @@ curl -i -X POST -H "Accept:application/json" -u admin:admin -F ":operation=socia
 
 As a user has earned two bronze badges and has been awarded a moderator badge, this is how the user appears with their forum entry:
 
-![](assets/chlimage_1-250.png)
+![chlimage_1-250](assets/chlimage_1-250.png)
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ For the Community Components guide site, the user and their score is in a path c
 
 The score is stored in the property `scoreValue_tl` which may directonly contain a value or indirectly refer to an atomicCounter.
 
-![](assets/chlimage_1-251.png) 
+![chlimage_1-251](assets/chlimage_1-251.png) 
 
 ### Access Badging UGC {#access-badging-ugc}
 
@@ -253,11 +253,11 @@ Followed by the path to the user's profile, ending in a badges folder, such as
 
 #### awarded badge {#awarded-badge}
 
-![](assets/chlimage_1-252.png) 
+![chlimage_1-252](assets/chlimage_1-252.png) 
 
 #### assigned badge {#assigned-badge}
 
-![](assets/chlimage_1-253.png) 
+![chlimage_1-253](assets/chlimage_1-253.png) 
 
 ## Additional Information {#additional-information}
 

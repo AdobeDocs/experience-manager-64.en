@@ -28,7 +28,7 @@ Ensure that you include the following in your network diagram:
 
 Begin by diagramming the connectivity between the individual client devices and the corporate network. At this stage, identify shared resources, such as WiFi connections, where multiple users access the same point or ethernet switch to upload and download assets.
 
-![](assets/chlimage_1-353.png)
+![chlimage_1-353](assets/chlimage_1-353.png)
 
 Client devices connect to the corporate network in various ways, such as shared WiFi, ethernet to a shared switch, and VPN. Identifying and understanding chokepoints on this network is important for Assets planning and to modify the network.
 
@@ -42,13 +42,13 @@ The computer displayed at the right has a limited upstream to the corporate netw
 
 ## Topology of the corporate network {#topology-of-the-corporate-network}
 
-![](assets/chlimage_1-354.png)
+![chlimage_1-354](assets/chlimage_1-354.png)
 
 The diagram displays higher uplink speeds within the corporate network than what is generally used. These pipes are shared resources. If the shared switch is expected to handle 50 clients, it can potentially be a chokepoint. In the initial diagram, only two computers share the particular connection.
 
 ## Uplink to the internet from the corporate network and AEM environment {#uplink-to-the-internet-from-the-corporate-network-and-aem-environment}
 
-![](assets/chlimage_1-355.png)
+![chlimage_1-355](assets/chlimage_1-355.png)
 
 It is important to consider unknown factors on the Internet and the VPC connection because the bandwidth across the internet can be impaired due to peak load or large-scale provider outages. In general, internet connectivity is reliable. However, it can sometimes introduce chokepoints.
 
@@ -64,7 +64,7 @@ From the sample diagrams, you can conclude that six devices share a conceptual 1
 
 ## Topology of the AEM environment {#topology-of-the-aem-environment}
 
-![](assets/chlimage_1-356.png)
+![chlimage_1-356](assets/chlimage_1-356.png)
 
 Designing the topology of the AEM environment requires detailed knowledge of the system configuration and how the network is connected within the user environment.
 
@@ -98,5 +98,5 @@ Here are some items to consider:
 
 Here is a customer example for the definition of an asset workflow.
 
-![](assets/chlimage_1-357.png)
+![chlimage_1-357](assets/chlimage_1-357.png)
 

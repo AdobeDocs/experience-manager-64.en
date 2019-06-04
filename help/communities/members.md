@@ -42,13 +42,13 @@ In the author environment, to reach the Members console for managing members reg
 >
 >It will not be possible to use the Members console if the [tunnel service](/help/communities/deploy-communities.md#tunnel-service-on-author) is not enabled.
 
-![](assets/chlimage_1-119.png)
+![chlimage_1-119](assets/chlimage_1-119.png)
 
 ### Search {#search-features}
 
 Select the side panel icon on the left side of the `Members` header to toggle open the search side panel.
 
-![](assets/chlimage_1-120.png) ![](assets/chlimage_1-121.png)
+![chlimage_1-120](assets/chlimage_1-120.png) ![chlimage_1-121](assets/chlimage_1-121.png)
 
 Select the search icon on the left side of the `Members` header to toggle the search side panel closed.
 
@@ -68,7 +68,7 @@ The column headers are
 
 Select `Create Member` in order to create a user in the publish environment.
 
-![](assets/chlimage_1-122.png)
+![chlimage_1-122](assets/chlimage_1-122.png)
 
 ### GENERAL - Member Details {#general-member-details}
 
@@ -148,7 +148,7 @@ The `BADGES` panel provides the ability to manually assign badges as well as rev
 
 See also [Scoring and Badges](/help/communities/implementing-scoring.md).
 
-![](assets/chlimage_1-123.png)
+![chlimage_1-123](assets/chlimage_1-123.png)
 
 * **add badges**
 
@@ -178,7 +178,7 @@ To access the Groups console:
 
 Select `Add Group` in order to create a group in the publish environment.
 
-![](assets/chlimage_1-124.png)
+![chlimage_1-124](assets/chlimage_1-124.png)
 
 The required fields for creating a new publish-side member group are:
 

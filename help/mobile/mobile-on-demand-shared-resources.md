@@ -42,7 +42,7 @@ Follow these steps to upload your shared resources for an article:
 1. Select the article from **Manage Articles** tile.
 1. Click **Upload Shared Resources **to upload your shared HTML resources.
 
-   ![](assets/chlimage_1-133.png)
+   ![chlimage_1-133](assets/chlimage_1-133.png)
 
 1.
 

@@ -230,20 +230,20 @@ To create a user who may be assigned the role of `Community Site Enablement Mana
 
 * select **Create**
 
-![](assets/chlimage_1-130.png)
+![chlimage_1-130](assets/chlimage_1-130.png)
 
 * In the left pane:
 
     * search for the newly created user and select to display in the right pane
 
-![](assets/chlimage_1-131.png)
+![chlimage_1-131](assets/chlimage_1-131.png)
 
 In the left pane:
 
 * clear the search box and select **Hide Users**
 * locate and drag `community-enablementmanagers` to the **Groups **tab of the new user displayed in the right pane
 
-![](assets/chlimage_1-132.png) 
+![chlimage_1-132](assets/chlimage_1-132.png) 
 
 ### Community Administrators Role {#community-administrators-role}
 

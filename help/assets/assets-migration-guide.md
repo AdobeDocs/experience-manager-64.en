@@ -42,7 +42,7 @@ Migrating assets to AEM requires several steps and should be viewed as a phased 
 1. Activate assets.
 1. Enable workflows.
 
-![](assets/chlimage_1-223.png) 
+![chlimage_1-223](assets/chlimage_1-223.png) 
 
 ### Disabling Workflows {#disabling-workflows}
 

@@ -93,7 +93,7 @@ Create a cloud service configuration to connect your AEM Instance to the convers
  </tbody> 
 </table>
 
-   ![](assets/service-configuration-basic.png)
+   ![service-configuration-basic](assets/service-configuration-basic.png)
 
 1. In the **[!UICONTROL Advanced]**tab of the **[!UICONTROL Create Automated Forms Conversion Configuration]** page, specify value for the following field:
 
@@ -102,7 +102,7 @@ Create a cloud service configuration to connect your AEM Instance to the convers
    | Generate Document of Record |Select the option to automatically generate Document of Record for converted forms. |
    | Enable Analytics |Select the option to enable Adobe Analytics on all the converted forms. |
 
-   ![](assets/service-configuration-advanced.png)
+   ![service-configuration-advanced](assets/service-configuration-advanced.png)
 
 1. Tap **[!UICONTROL Save & Close]**. The cloud configuration is created. Your AEM Forms instance is ready to start converting legacy forms to adaptive forms.
 

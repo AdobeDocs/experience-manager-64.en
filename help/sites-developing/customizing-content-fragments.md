@@ -70,7 +70,7 @@ Content Fragment Management (CFM) is part of AEM Assets as:
 
 ### Mapping Structured Content Fragments to Assets {#mapping-structured-content-fragments-to-assets}
 
-![](assets/fragment-to-assets-structured.png)
+![fragment-to-assets-structured](assets/fragment-to-assets-structured.png)
 
 Content fragments with structured content (i.e. based on a content fragment model) are mapped to a single asset:
 
@@ -94,7 +94,7 @@ Content fragments with structured content (i.e. based on a content fragment mode
 
 ### Mapping Simple Content Fragments to Assets {#mapping-simple-content-fragments-to-assets}
 
-![](assets/chlimage_1-253.png)
+![chlimage_1-253](assets/chlimage_1-253.png)
 
 Simple content fragments (based on a template) are mapped to a composite consisting of a main asset and (optional) sub-assets:
 
@@ -174,7 +174,7 @@ The parameters for this can be configured in the [Web Console](/help/sites-deplo
 >
 >AEM simply takes the first property that can be found on a paragraph. So you should choose the properties carefully.
 
-![](assets/osgi-config.png)
+![osgi-config](assets/osgi-config.png)
 
 There are still some guidelines you must follow to ensure your component is compatible with the content fragment background processing:
 
