@@ -32,7 +32,7 @@ To define a domain mapping for the **Externalizer** service:
    >
    >The direct link to the configuration is `https://<host>:<port>/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl`
 
-   ![](assets/chlimage_1-44.png)
+   ![chlimage_1-44](assets/chlimage_1-44.png)
 
 1. Define a domain mapping: a mapping consists of a unique name that can be used in the code to reference the domain, a space and the domain: 
 

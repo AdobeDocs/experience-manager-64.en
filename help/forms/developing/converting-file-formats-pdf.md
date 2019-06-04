@@ -646,7 +646,7 @@ This section describes XML elements that provide AppMon with instructions. These
 
 This diagram shows the hierarchy of script and dialog XML. A script XML file conforms to the script.xsd schema, which includes (in the XML sense) the window.xsd schema. Similarly, a dialog XML file conforms to the dialogs.xsd schema, which also includes the window.xsd schema. 
 
-![](assets/as_as_xml_hierarchy.png)
+![as_as_xml_hierarchy](assets/as_as_xml_hierarchy.png)
 
 Hierarchy of script and dialog XML
 

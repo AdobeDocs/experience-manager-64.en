@@ -120,7 +120,7 @@ The evaluation works as follows:
 
 The following diagram depicts the template evaluation process:
 
-![](assets/chlimage_1-176.png) 
+![chlimage_1-176](assets/chlimage_1-176.png) 
 
 #### Limiting templates used in child pages {#limiting-templates-used-in-child-pages}
 

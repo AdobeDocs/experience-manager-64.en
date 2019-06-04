@@ -93,7 +93,7 @@ Following are the steps necessary to enable user synchronization, followed by a 
         * select `Save`
 
 
-![](assets/chlimage_1-387.png)
+![chlimage_1-387](assets/chlimage_1-387.png)
 
 ### 2. Create Authorized User {#createauthuser}
 
@@ -142,7 +142,7 @@ This authorized user will be used in step 3 to configure Sling distribution on a
 
 * select **Save All**
 
-![](assets/chlimage_1-388.png)
+![chlimage_1-388](assets/chlimage_1-388.png)
 
 See also
 
@@ -171,7 +171,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
         * for example, `usersync-admin`
 
-![](assets/chlimage_1-389.png)
+![chlimage_1-389](assets/chlimage_1-389.png)
 
 ### 4. Apache Sling Distribution Agent - Queue Agents Factory {#apache-sling-distribution-agent-queue-agents-factory}
 
@@ -195,7 +195,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
     * **repeat** for each publish instance
 
-![](assets/chlimage_1-390.png)
+![chlimage_1-390](assets/chlimage_1-390.png)
 
 ### 5. Adobe Granite Distribution - Diff Observer Factory {#diffobserver}
 
@@ -217,7 +217,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
         * select the `Enabled` checkbox
         * select `Save`
 
-![](assets/chlimage_1-391.png)
+![chlimage_1-391](assets/chlimage_1-391.png)
 
 ### 6. Apache Sling Distribution Trigger - Scheduled Triggers Factory {#apache-sling-distribution-trigger-scheduled-triggers-factory}
 
@@ -241,7 +241,7 @@ By default, author will poll for changes every 30 seconds. To alter this interva
         * set the `Interval in Seconds` to the desired interval
         * select `Save`
 
-![](assets/chlimage_1-392.png)
+![chlimage_1-392](assets/chlimage_1-392.png)
 
 ## Configure for Multiple Publish Instances {#configure-for-multiple-publish-instances}
 
@@ -264,7 +264,7 @@ The default configuration is for a single publish instance. As the reason for en
 
           Verify `Name` : `socialpubsync`
 
-![](assets/chlimage_1-393.png)
+![chlimage_1-393](assets/chlimage_1-393.png)
 
 * **Exporter Endpoints** 
   There should be an exporter endpoint for each publisher. For example, if there are 2 publishers, localhost:4503 and 4504, there should be 2 entries:
@@ -298,7 +298,7 @@ If there is custom data that is desired to be synchronized across multiple publi
 
       Verify `Name`: `socialpubsync-scheduled-trigger`
 
-![](assets/chlimage_1-394.png)
+![chlimage_1-394](assets/chlimage_1-394.png)
 
 * **Node Types** 
 
@@ -350,7 +350,7 @@ To validate that all Sling ID values differ, on each publish instance :
 1. browse to [https://*host:port*/system/console/status-slingsettings](http://localhost:4503/system/console/status-slingsettings)
 1. check the value of **Sling ID**
 
-![](assets/chlimage_1-395.png)
+![chlimage_1-395](assets/chlimage_1-395.png)
 
 If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then:
 
@@ -404,7 +404,7 @@ In order for updates to sync properly, it is necessary to modify the vault packa
 
         * `Acl Handling :` `IGNORE`
 
-![](assets/chlimage_1-396.png)
+![chlimage_1-396](assets/chlimage_1-396.png)
 
 ## What Happens When ... {#what-happens-when}
 
@@ -465,7 +465,7 @@ Simply entering the User Sync Diagnostics console will display the results.
 
 This is what is displayed when User Synchronization has not been enabled :
 
-![](assets/chlimage_1-397.png)
+![chlimage_1-397](assets/chlimage_1-397.png)
 
 #### How To Run Diagnostics for Publishers {#how-to-run-diagnostics-for-publishers}
 
@@ -475,7 +475,7 @@ Included in the list is an URL for each publish instance that will run the diagn
 
 **Note** : before launching the URL, the *authorized sync user* must already be signed into that publish instance.
 
-![](assets/chlimage_1-398.png)
+![chlimage_1-398](assets/chlimage_1-398.png)
 
 ### Configuration Improperly Added {#improperconfig}
 
@@ -485,23 +485,23 @@ Following are views of how the edited, default configurations should appear in t
 
 #### (author) One Apache Sling Distribution Agent - Sync Agents Factory {#author-one-apache-sling-distribution-agent-sync-agents-factory}
 
-![](assets/chlimage_1-399.png)
+![chlimage_1-399](assets/chlimage_1-399.png)
 
 #### (author) One Adobe Granite Distribution - Encrypted Password Transport Secret Provider {#author-one-adobe-granite-distribution-encrypted-password-transport-secret-provider}
 
-![](assets/chlimage_1-400.png)
+![chlimage_1-400](assets/chlimage_1-400.png)
 
 #### (publish) One Apache Sling Distribution Agent - Queue Agents Factory {#publish-one-apache-sling-distribution-agent-queue-agents-factory}
 
-![](assets/chlimage_1-401.png)
+![chlimage_1-401](assets/chlimage_1-401.png)
 
 #### (publish) One Adobe Granite Distribution - Diff Observer Factory {#publish-one-adobe-granite-distribution-diff-observer-factory}
 
-![](assets/chlimage_1-402.png)
+![chlimage_1-402](assets/chlimage_1-402.png)
 
 #### (author) One Apache Sling Distribution Trigger - Scheduled Triggers Factory {#author-one-apache-sling-distribution-trigger-scheduled-triggers-factory}
 
-![](assets/chlimage_1-403.png)
+![chlimage_1-403](assets/chlimage_1-403.png)
 
 ### Modify Operation Exception During Response Processing {#modify-operation-exception-during-response-processing}
 

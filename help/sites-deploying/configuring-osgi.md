@@ -94,7 +94,7 @@ To update a configuration with the web console:
 
 1. A dialog will open. Here you can edit as required; for example, set the **Log Level** to `INFO`:
 
-   ![](assets/chlimage_1-140.png)
+   ![chlimage_1-140](assets/chlimage_1-140.png)
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ To add a new configuration to the repository you need to know the following:
 
    For example, create a node `com.day.cq.wcm.core.impl.VersionManagerImpl.` to configure **AEM WCM Version Manager**. 
 
-   ![](assets/chlimage_1-141.png)
+   ![chlimage_1-141](assets/chlimage_1-141.png)
 
 1. Whether a specific [run mode](/help/sites-deploying/configure-runmodes.md) is required. Create the folder:
 
@@ -198,7 +198,7 @@ To add a new configuration to the repository you need to know the following:
    For example, create a property 
    `versionmanager.createVersionOnActivation` to configure **Create Version on Activation**.
 
-   ![](assets/chlimage_1-142.png)
+   ![chlimage_1-142](assets/chlimage_1-142.png)
 
 1. Does a configuration already exist in `/libs`? To list all configurations in your instance, use the **Query** tool in CRXDE Lite to submit the following SQL query:  
 

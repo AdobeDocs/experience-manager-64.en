@@ -21,7 +21,7 @@ When a launch has been created for a page (or set of pages) you can edit the con
 1. Open the page for editing.
 1. In Sidekick, select the **Versioning** tab, then expand the **Launches** group. The title of the launch that is currently being edited uses a bold font.
 
-   ![](assets/chlimage_1-13.jpeg)
+   ![chlimage_1-13](assets/chlimage_1-13.jpeg)
 
 1. Select the launch that you want to work on and then click **Switch**.
 1. Start editing.
@@ -59,5 +59,5 @@ When you are editing a launch of a page, information about the launch appears at
 * The user who performed the last change.
 * The status of the **Production Ready** flag (orange=not set; green=set).
 
-![](assets/chlimage_1-186.png)
+![chlimage_1-186](assets/chlimage_1-186.png)
 

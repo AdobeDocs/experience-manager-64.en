@@ -31,7 +31,7 @@ To get started, create a simple [community site template](/help/communities/site
 
 From global navigation on an author instance select **Tools, Communities, Site Templates**.
 
-![](assets/chlimage_1-82.png)
+![chlimage_1-82](assets/chlimage_1-82.png)
 
 * select `Create button`
 * BASIC INFO
@@ -40,7 +40,7 @@ From global navigation on an author instance select **Tools, Communities, Site T
     * `Description`: A template consisting of a single Page function.
     * select `Enabled`
 
-![](assets/chlimage_1-83.png)
+![chlimage_1-83](assets/chlimage_1-83.png)
 
 * STRUCTURE
 
@@ -50,7 +50,7 @@ From global navigation on an author instance select **Tools, Communities, Site T
         * `Title`: Single Page
         * `URL`: page
 
-![](assets/chlimage_1-84.png)
+![chlimage_1-84](assets/chlimage_1-84.png)
 
 * select **`Save`**for the configuration
 * select **`Save`**for the site template
@@ -61,7 +61,7 @@ Now create a new community site based on the simple site template.
 
 After creating the site template, from global navigation select **Communities**, **Sites**.
 
-![](assets/chlimage_1-85.png)
+![chlimage_1-85](assets/chlimage_1-85.png)
 
 * select**`Create`** `icon`
 
@@ -77,7 +77,7 @@ After creating the site template, from global navigation select **Communities**,
 
     * `Template`: choose `Single Page Template`
 
-![](assets/chlimage_1-86.png)
+![chlimage_1-86](assets/chlimage_1-86.png)
 
 * select `Next`
 * step `2 - Design`
@@ -91,23 +91,23 @@ After creating the site template, from global navigation select **Communities**,
 
 * select `Create`
 
-![](assets/chlimage_1-87.png)
+![chlimage_1-87](assets/chlimage_1-87.png)
 
 ## Publish the Site {#publish-the-site}
 
-![](assets/chlimage_1-88.png)
+![chlimage_1-88](assets/chlimage_1-88.png)
 
 From the [community sites console](/help/communities/sites-console.md), select the publish icon to publish the site, by default to http://localhost:4503.
 
 ## Open the Site on Author in Edit Mode {#open-the-site-on-author-in-edit-mode}
 
-![](assets/chlimage_1-89.png)
+![chlimage_1-89](assets/chlimage_1-89.png)
 
 Select the open site icon to view the site in edit mode.
 
 The URL will be [http://localhost:4502/editor.html/content/sites/sample/en.html](http://localhost:4502/editor.html/content/sites/sample/en.html)
 
-![](assets/chlimage_1-90.png)
+![chlimage_1-90](assets/chlimage_1-90.png)
 
 On the simple home page it is possible to see what is pre-wired through the community functions and templates, and play with adding and configuring community components.
 

@@ -44,13 +44,13 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/essentials-featured.md#essentials-for-client-side) are included, this is how the `Featured Content`component will appear:
 
-![](assets/chlimage_1-13.png)
+![chlimage_1-13](assets/chlimage_1-13.png)
 
 ## Configuring Featured Content {#configuring-featured-content}
 
 Select the placed `Featured Content` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-14.png) ![](assets/chlimage_1-15.png)
+![chlimage_1-14](assets/chlimage_1-14.png) ![chlimage_1-15](assets/chlimage_1-15.png)
 
 ### Settings tab {#settings-tab}
 
@@ -71,13 +71,13 @@ The ability to flag content as featured content requires moderator privileges.
 
 When a moderator views posted content, they have access to the in-context moderation flags, which includes the new `Feature` flag.
 
-![](assets/chlimage_1-16.png)
+![chlimage_1-16](assets/chlimage_1-16.png)
 
 Once flagged as feature, the modeartion flag becomes `Unfeature`.
 
 The page containing the `Featured Content` component, will now include this post.
 
-![](assets/chlimage_1-17.png)
+![chlimage_1-17](assets/chlimage_1-17.png)
 
 `Read More` is a link to the actual post.
 

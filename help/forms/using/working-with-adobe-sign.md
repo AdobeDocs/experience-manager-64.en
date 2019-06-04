@@ -52,7 +52,7 @@ Perform the following steps to configure Adobe Sign for an adaptive form:
 1. [Add Adobe Sign Signers to an adaptive form](/help/forms/using/working-with-adobe-sign.md#main-pars-header-1374317451)
 1. [Select Submit Action for an adaptive form](/help/forms/using/working-with-adobe-sign.md#main-pars-header)
 
-![](assets/signer-details.png) 
+![signer-details](assets/signer-details.png) 
 
 ### Edit adaptive form properties for Adobe Sign {#enableadobesign}
 
@@ -100,7 +100,7 @@ Perform the following steps to add fields to an adaptive form and customize vari
 
 1. Drag-and-drop **Adobe Sign Block** component from the component browser to the adaptive form. The Adobe Sign Block component has all the supported Adobe Sign fields. By default, it adds a **Signature **field to the adaptive form.
 
-   ![](assets/sign-block.png)
+   ![sign-block](assets/sign-block.png)
 
    By default, the Adobe Sign Block is not visible in the published adaptive form. It is visible only in the signing documents. You can change the visibility of Adobe Sign Block from the properties of the Adobe Sign Block component.
 
@@ -109,17 +109,17 @@ Perform the following steps to add fields to an adaptive form and customize vari
    >* Using Adobe Sign block is not mandatory to use Adobe Sign in an adaptive form. If you do not use Adobe Sign block and add fields for the signers, then the default signature field is displayed at the bottom of the signing documents. 
    >* Use Adobe Sign block only for those adptive forms which automatically generate Document of Record. If you are using a custom XDP for generating Document of Record or a form template based adaptive form, Adobe Sign block is not required. 
 
-1. Select the **Adobe Sign Block** component and tap the **Edit** ![](assets/aem_6_3_edit.png) icon. It displays options to add fields and format appearance of a field. 
+1. Select the **Adobe Sign Block** component and tap the **Edit** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon. It displays options to add fields and format appearance of a field. 
 
-   ![](assets/adobe-sign-block-select-fields.png)
+   ![adobe-sign-block-select-fields](assets/adobe-sign-block-select-fields.png)
 
    **A.** Select and add Adobe Sign fields. **B.** Expand the Adobe Sign block to full screen view
 
-1. Tap the **Adobe Sign Field** ![](assets/aem_6_3_adobesign.png) icon. It displays options to select and add Adobe Sign fields.
+1. Tap the **Adobe Sign Field** ![aem_6_3_adobesign](assets/aem_6_3_adobesign.png) icon. It displays options to select and add Adobe Sign fields.
 
-   Expand the **Type** drop-down field to select a Adobe Sign field and tap the Done ![](assets/aem_6_3_forms_save.png) icon to add the selected field to Adobe Sign block. The **Type** drop-down field includes Signature, Signer info, and Data field types. Adobe Sign integration with AEM Forms support fields listed in the Type drop-down box only. For detailed information about Adobe Sign fields, see [Adobe Sign documentation](https://helpx.adobe.com/sign/help/field-types.html).
+   Expand the **Type** drop-down field to select a Adobe Sign field and tap the Done ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) icon to add the selected field to Adobe Sign block. The **Type** drop-down field includes Signature, Signer info, and Data field types. Adobe Sign integration with AEM Forms support fields listed in the Type drop-down box only. For detailed information about Adobe Sign fields, see [Adobe Sign documentation](https://helpx.adobe.com/sign/help/field-types.html).
 
-   ![](assets/adobe-sign-block-fields-options.png)
+   ![adobe-sign-block-fields-options](assets/adobe-sign-block-fields-options.png)
 
    It is mandatory to provide a unique name for a field. You can also select the required option to mark a field mandatory. In addition to the **Name** and **Required** option, some Adobe Sign field have more options. For example, mask and multi-line. Moreover, specify a unique names for each Adobe Sign field whether the fields reside in same or different Adobe Sign blocks.
 
@@ -127,7 +127,7 @@ Perform the following steps to add fields to an adaptive form and customize vari
 
 Out of the box, Adobe Sign is not enabled for an adaptive form. Perform the following steps to enable it:
 
-1. In the Content browser, tap **Form Container**, and tap the **Configure** ![](assets/configure.png) icon. It opens properties browser and displays Adaptive Form container properties.
+1. In the Content browser, tap **Form Container**, and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Adaptive Form container properties.
 1. In the properties browser, expand the **Electronic Signature **accordion, and select the **Enable Adobe Sign** option. It enables Adobe Sign for an adaptive form.
 
 ### Select Adobe Sign Cloud Service and signing order {#selectadobesigncloudserviceforanadaptiveform}
@@ -138,9 +138,9 @@ A document can also have multiple signers. For example, a credit-card applicatio
 
 Perform the following steps to select a cloud service and order of signing:
 
-![](assets/cloud-service.png)
+![cloud-service](assets/cloud-service.png)
 
-1. In the Content browser, tap **Form Container**, and tap the **Configure** ![](assets/configure.png) icon. It opens properties browser and displays Adaptive Form container properties.
+1. In the Content browser, tap **Form Container**, and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Adaptive Form container properties.
 1. In the properties browser, expand the **Electronic Signature **accordion, and select the **Enable Adobe Sign** option. It enables Adobe Sign for an adaptive form.
 1. Select a cloud service from the already configured list of Adobe Sign Cloud Services.
 
@@ -158,12 +158,12 @@ Perform the following steps to select a cloud service and order of signing:
 
 You can have only one signer or multiple signers for an adaptive form. When you add a signer, you can also configure authentication details for the signer. You can also select if the form filler and singer are the same person. Perform the following steps to add and provide various details about a signer:
 
-1. In the Content browser, tap **Form Container**, and tap the **Configure** ![](assets/configure.png) icon. It opens properties browser with Adaptive Form container properties.
+1. In the Content browser, tap **Form Container**, and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser with Adaptive Form container properties.
 1. In the properties browser, expand the **Electronic Signature** accordion, and select the **Enable Adobe Sign** option. It enables Adobe Sign for an adaptive form.
 1. Tap **Add Signer** under **Signer Configuration.** It adds a signer to the adaptive form. You can add multiple Adobe Sign signers to an adaptive form. 
-1. ![](assets/phone-details.png)
+1. ![phone-details](assets/phone-details.png)
 
-   Click the **Edit** ![](assets/aem_6_3_edit.png) icon to specify the following information about the signer:
+   Click the **Edit** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon to specify the following information about the signer:
 
     * **Title:** Specify a title to uniquely identify a signer. 
     * **Is the signer and the person filling the form same?:** Select **Yes**, if form filler and first signer are the same person. If the option is set to **No,** then do not use the signature step component in the adaptive form. If the form contains a Signature Step component, then the field is automaticallly set to Yes. 
@@ -176,11 +176,11 @@ You can have only one signer or multiple signers for an adaptive form. When you 
 
     * **Adobe Sign fields to fill or sign:** Select Adobe Sign fields for the signer. An adaptive form can have multiple Adobe Sign fields. You can choose to enable specific fields for a signer. The field displays all the available Adobe Sign Blocks. When you select a block, all the fields of the block are selected. You can use the X icon to deselect a field.
 
-    ![](assets/signer-details-1.png)
+    ![signer-details-1](assets/signer-details-1.png)
 
     The above image has two example Adobe Sign Blocks: Personal-Information and Office-details
 
-    Tap the Done ![](assets/aem_6_3_forms_save.png) icon. The signer is added and configured.
+    Tap the Done ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) icon. The signer is added and configured.
 
 ### Select Submit Action for an adaptive form {#selectsubmitactionforanadaptiveform}
 
@@ -202,19 +202,19 @@ After [editing adaptive form properties for Adobe sign](/help/forms/using/workin
 
 1. Drag-and-drop **Adobe Sign Block** component from the component browser to the adaptive form. The Adobe Sign Block component has all the supported Adobe Sign fields. By default, it adds a **Signature** field to the adaptive form.
 
-   ![](assets/sign-block.png)
+   ![sign-block](assets/sign-block.png)
 
-1. Select the **Adobe Sign Block** component and tap the **Edit** ![](assets/aem_6_3_edit.png) icon. It displays options to add fields and format appearance of a field. 
+1. Select the **Adobe Sign Block** component and tap the **Edit** ![aem_6_3_edit](assets/aem_6_3_edit.png) icon. It displays options to add fields and format appearance of a field. 
 
-   ![](assets/adobe-sign-block-select-fields.png)
+   ![adobe-sign-block-select-fields](assets/adobe-sign-block-select-fields.png)
 
    **A.** Select and add Adobe Sign fields. **B.** Expand the Adobe Sign block to full screen view
 
-1. Tap the **Adobe Sign Field** ![](assets/aem_6_3_adobesign.png) icon. It displays options to select and add Adobe Sign fields.
+1. Tap the **Adobe Sign Field** ![aem_6_3_adobesign](assets/aem_6_3_adobesign.png) icon. It displays options to select and add Adobe Sign fields.
 
-   Expand the **Type** drop-down field to select **Digital Signature** and tap the Done ![](assets/aem_6_3_forms_save.png) icon to add the selected field to Adobe Sign block.
+   Expand the **Type** drop-down field to select **Digital Signature** and tap the Done ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) icon to add the selected field to Adobe Sign block.
 
-   ![](assets/digital_signatures.png)
+   ![digital_signatures](assets/digital_signatures.png)
 
    It is mandatory to provide a unique name for a field.
 
@@ -237,7 +237,7 @@ A user can also sign an adaptive form while filling-up the form. This experience
 1. [Add and configure the Signature Step component](/help/forms/using/working-with-adobe-sign.md#main-pars-header-1414119828).
 1. [Add the Summary Step component](/help/forms/using/working-with-adobe-sign.md#main-pars-header-473098029).
 
-![](assets/in-form-signing-experience.png) 
+![in-form-signing-experience](assets/in-form-signing-experience.png) 
 
 ### Add and configure the Signature Step component {#add-and-configure-the-signature-step-component}
 
@@ -246,7 +246,7 @@ Use the Signature Step component to provide an area to electronically sign the f
 Perform the following steps to configure the Signature Step component:
 
 1. Drag-and-drop the **Signature Step** component from the Components browser to the form.
-1. Select the newly added Signature step component and tap the **Configure** ![](assets/configure.png) icon. It opens properties browser and displays Signature step properties. Configure the following properties:
+1. Select the newly added Signature step component and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Signature step properties. Configure the following properties:
 
     * **Element Name**: Specify the name of the component. 
     * **Title:** Specify the unique title of the component.
@@ -255,9 +255,9 @@ Perform the following steps to configure the Signature Step component:
     * **Use legacy E-sign component**: If you are using the respective adaptive form in [AEM Forms Workspace](/help/forms/using/introduction-html-workspace.md), AEM Forms app, or the underlying adaptive form has legacy e-sign component, select the **Use legacy E-sign component** option. 
     * **Configuration**: Select a configuration (Adobe Sign Cloud Service). The drop-down box is available only if the **Use legacy E-sign component** option is enabled.
 
-   Tap the Done ![](assets/aem_6_3_forms_save.png) icon to save the changes.
+   Tap the Done ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) icon to save the changes.
 
-   ![](assets/signature-step.png)
+   ![signature-step](assets/signature-step.png)
 
    >[!NOTE]
    >

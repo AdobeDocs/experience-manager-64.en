@@ -75,11 +75,11 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    You can copy and paste one or more paragraphs of text in an editable text module. For example, you may have an MS Word document with a bulleted list of acceptable proofs of residence such a following:
 
-   ![](assets/pastetextmsword.png)
+   ![pastetextmsword](assets/pastetextmsword.png)
 
    You can directly copy and paste the text from the MS Word document to an editable text module. The formatting such as bulleted list, font, and text color is retained in the text module.
 
-   ![](assets/pastetexttextmodule.png)
+   ![pastetexttextmodule](assets/pastetexttextmodule.png)
 
    >[!NOTE]
    >
@@ -91,25 +91,25 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
     * Mathematical symbols such as ∑, √, ∂, and ^
     * Punctuation symbols such as ‟ and ”
 
-   ![](assets/specialcharacters.png)
+   ![specialcharacters](assets/specialcharacters.png)
 
    Correspondence Management has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md). 
 
 1. To highlight\emphasize parts of text in an editable inline module, select the text and tap Highlight Color.
 
-   ![](assets/textbackgroundcolorapplied.png)
+   ![textbackgroundcolorapplied](assets/textbackgroundcolorapplied.png)
 
    You can either directly tap a basic color **[A]** present in the Basic Colors palette or tap **Select** after using the slider **[B]** to choose the appropriate shade of the color.
 
    Optionally, you can also go to the Advanced tab to select the appropriate Hue, Lightness, and Saturation **[C]** to create the precise color and then tap Select **[D]** to apply the color to highlight the text. 
 
-   ![](assets/textbackgroundcolor.png)
+   ![textbackgroundcolor](assets/textbackgroundcolor.png)
 
 1. From the data panel, drag-and-drop data dictionary elements and placeholder elements to the text.
 
    To:
 
-    * Add a data dictionary element in the text, select a data element from the list, and tap Insert ( ![](assets/insert.png)). If you select Protected, the data dictionary element is read-only and appears in the letter editor, but not in Create Correspondence user interface or Correspondence Creator.  
+    * Add a data dictionary element in the text, select a data element from the list, and tap Insert ( ![insert](assets/insert.png)). If you select Protected, the data dictionary element is read-only and appears in the letter editor, but not in Create Correspondence user interface or Correspondence Creator.  
     
     * Add a place holder element in the text, in the Data Elements panel tap Create New, enter the details for the new Data Element, and tap Create to add the new element to the list. The new place holder can be inserted into the text in the same way as data dictionary element. To edit a placeholder, select a placeholder and tap Edit.
 

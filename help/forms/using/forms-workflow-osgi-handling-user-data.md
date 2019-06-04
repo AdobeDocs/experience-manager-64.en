@@ -94,15 +94,15 @@ To identify and access user data stored for a workflow instance, perform the fol
 
    For example, the following query returns two workflow instances path from the `/var/workflow/instances` node whose workflow initiator is `srose`.
 
-   ![](assets/workflow-instance.png)
+   ![workflow-instance](assets/workflow-instance.png)
 
 1. Go to a workflow instance path returned by the query. The status property displays the current status of the workflow instance.
 
-   ![](assets/status.png)
+   ![status](assets/status.png)
 
 1. In the workflow instance node, navigate to `data/payload/`. The `path` property stores the path to the payload for the workflow instance. You can navigate to the path to access data stored in the payload. 
 
-   ![](assets/payload-path.png)
+   ![payload-path](assets/payload-path.png)
 
 1. Navigate to the locations for drafts and history for the workflow instance.
 

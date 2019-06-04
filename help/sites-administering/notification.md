@@ -48,7 +48,7 @@ To help you debug an issue with the **Day CQ Mail Service**, you can watch the l
 
 The configuration looks as follows in the Web console:
 
-![](assets/chlimage_1-276.png) 
+![chlimage_1-276](assets/chlimage_1-276.png) 
 
 ## Configuring the Email Notification Channel {#configuring-the-email-notification-channel}
 
@@ -82,7 +82,7 @@ When you receive workflow email notifications, both the from-email address and t
 
 The default configuration looks as follows in the Web Console:
 
-![](assets/chlimage_1-277.png) 
+![chlimage_1-277](assets/chlimage_1-277.png) 
 
 ### Email Templates for Page Notification {#email-templates-for-page-notification}
 

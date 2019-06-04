@@ -80,7 +80,7 @@ While the functionality of each viewer differs, the process of creating a Quickv
    **Example** 
    Suppose you were using the following sample embed code on your web page for an interactive image:
 
-   ![](assets/chlimage_1-291.png)
+   ![chlimage_1-291](assets/chlimage_1-291.png)
 
    The handler is loaded into the viewer using `setHandlers`:
 

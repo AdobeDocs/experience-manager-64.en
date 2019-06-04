@@ -114,7 +114,7 @@ For more information, please visit [this documentation page](/help/sites-deployi
 
 * All-new [Workflow Editor to create and edit workflow models](/help/sites-developing/workflows-models.md).
 
-![](assets/screen_shot_2018-04-04at71143am.png)
+![screen_shot_2018-04-04at71143am](assets/screen_shot_2018-04-04at71143am.png)
 
 #### Upgrade from earlier version {#upgrade-from-earlier-version}
 
@@ -165,7 +165,7 @@ AEM 6.4 adds many new features and enhancements to Communities. Full list of cha
 
 New spam detection engine has been provided to filter out unwanted user generated content on community sites and groups. Once enabled from system/console/configMgr, it marks a piece of user generated content as spam based on a pre-defined set of spam words. To know more about spam detection engine, refer [automoderating community user generating content](/help/communities/moderate-ugc.md#spam-detection).
 
-![](assets/spamdetection.png)
+![spamdetection](assets/spamdetection.png)
 
 **New filters for QnA**
 
@@ -185,7 +185,7 @@ AEM 6.4 Communities exposes [out-of-the-box APIs](/help/communities/user-ugc-man
 
 Capability to create multi-lingual groups in single operation has been provided. To create such groups, users can navigate to Group Collection of the desired communities site from the Sites console. Create a group, and specify the desired languages in Community Group Template page. To know more about this functionality, refer [community groups console](/help/communities/groups.md).
 
-![](assets/multilingualgroup.png)
+![multilingualgroup](assets/multilingualgroup.png)
 
 **[Delete community sites and groups in a click](/help/communities/groups.md)**
 
@@ -195,7 +195,7 @@ Delete icon is now available on respective sites and groups, while navigating fr
 
 Assignment and Catalog functions are now available within groups. This enables learning content to be created, managed and published for a specific set of targeted community members. To know more about enabling community groups, refer [managing enablement resources](/help/communities/resource.md).
 
-![](assets/assignmentcatalog.png)
+![assignmentcatalog](assets/assignmentcatalog.png)
 
 ### Experience Manager Assets {#experience-manager-assets}
 
@@ -207,7 +207,7 @@ Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration betw
 
 To learn more about this capability, prerequisites, and how to access it, see [Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html).
 
-![](assets/adobe_asset_link.png)
+![adobe_asset_link](assets/adobe_asset_link.png)
 
 **AEM Desktop App**
 
@@ -219,7 +219,7 @@ Improvements introduced since the AEM 6.3 release include the ability to upload 
 
 New capabilities include Enhanced Smart Tags, with the ability to learn customer business taxonomy, automatically tag digital assets with customer-specific tags and Smart Translation Search, which improves discoverability in multiple languages by translating search terms on the fly. To learn more about this feature, see [Enhanced Smart Tags](/help/assets/enhanced-smart-tags.md).
 
-![](assets/enhanced_smart_tags2.png)
+![enhanced_smart_tags2](assets/enhanced_smart_tags2.png)
 
 **Metadata**
 
@@ -255,7 +255,7 @@ Smart imaging leverages each user's unique viewing characteristics to automatica
 
 See [Smart Imaging](/help/assets/imaging-faq.md) documentation to learn more.
 
-![](assets/smart_crop.png)
+![smart_crop](assets/smart_crop.png)
 
 **Emerging Media & Viewer Enhancements**
 
@@ -269,7 +269,7 @@ New integration with [Adobe Dimension CC](https://www.adobe.com/products/dimensi
 
 See [Working with 3D assets](/help/assets/3d-assets.md) documentation to learn more.
 
-![](assets/do-not-localize/3d.png)
+![do-not-localize/3d](assets/do-not-localize/3d.png)
 
 ### Experience Manager Forms {#experience-manager-forms}
 

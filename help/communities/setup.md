@@ -109,7 +109,7 @@ Scroll down to `Add User to Groups`:
 
 * select **Save**
 
-![](assets/chlimage_1-301.png)
+![chlimage_1-301](assets/chlimage_1-301.png)
 
 ## Enable Social Login {#enable-social-login}
 
@@ -135,7 +135,7 @@ Use the [Tagging console](/help/sites-administering/tags.md#tagging-console) to 
 * `Tutorial: Arts / Auditory`
 * `Tutorial: Arts / History`
 
-![](assets/chlimage_1-302.png)
+![chlimage_1-302](assets/chlimage_1-302.png)
 
 Then follow the instructions to
 

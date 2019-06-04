@@ -27,7 +27,7 @@ The classic UI provides a selection of consoles, using well-known mechanisms for
 
 Upon login the Welcome screen will be shown, this provides a list of links to consoles and services:
 
-![](assets/screen_shot_2012-01-30at61745pm.png) 
+![screen_shot_2012-01-30at61745pm](assets/screen_shot_2012-01-30at61745pm.png) 
 
 ## Consoles {#consoles}
 
@@ -96,13 +96,13 @@ From here you can [manage your pages](/help/sites-authoring/managing-pages.md) u
 >
 >The basic handling is the same across all consoles. This section concentrates on the **Websites** console as it is the primary console used when authoring.
 
-![](assets/chlimage_1-9.png) 
+![chlimage_1-9](assets/chlimage_1-9.png) 
 
 ## Accessing Help {#accessing-help}
 
 On various consoles (e.g. Websites) there is also **Help** button is available, this will open either Package Share or the documentation site.
 
-![](assets/chlimage_1-10.png)
+![chlimage_1-10](assets/chlimage_1-10.png)
 
 When editing a page the [sidekick also has a button for accessing help](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#accessing-help).
 
@@ -142,7 +142,7 @@ The **Websites** console lists your pages of content in a tree structure (left h
 
 The right pane of the **Websites** console provides a list view with information about pages:
 
-![](assets/page-info.png)
+![page-info](assets/page-info.png)
 
 The following are available; a subset of these fields is shown as default:
 
@@ -222,5 +222,5 @@ The colors next to pages in the **Published** and **Modified** columns indicate 
 
 The classic UI uses well-known mechanisms for navigating and initiating actions, including click and double-click. Depending on the current situation, a range of context menus (usually opened with the right-mouse-button) are also available:
 
-![](assets/chlimage_1-11.png)
+![chlimage_1-11](assets/chlimage_1-11.png)
 

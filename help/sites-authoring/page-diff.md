@@ -47,7 +47,7 @@ For example if comparing versions, the current version is displayed on the left 
 
 The source of both pages is clearly displayed in the header bar at the top of the browser window.
 
-![](assets/chlimage_1-355.png)
+![chlimage_1-355](assets/chlimage_1-355.png)
 
 The diff detects changes at the component and HTML level. Items that have been changed are highlighted with different colors.
 
@@ -77,7 +77,7 @@ In order to focus on particular content, you can click on the full screen icon f
 
 The selected side will fill the entire window, but the bar will remain at the top allowing you to switch between the two pages.
 
-![](assets/chlimage_1-356.png)
+![chlimage_1-356](assets/chlimage_1-356.png)
 
 You can also choose to close the full screen view by clicking the exit full screen icon.
 

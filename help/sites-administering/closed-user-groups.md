@@ -424,7 +424,7 @@ The following image shows the authentication requirements of an AEM publish inst
 >
 >In this example the optional login path property was not set. Consequently, no second entry has been registered with the authenticator.
 
-![](assets/chlimage_1-62.jpeg) 
+![chlimage_1-62](assets/chlimage_1-62.jpeg) 
 
 #### Retrieve the Effective Login Path {#retrieve-the-effective-login-path}
 

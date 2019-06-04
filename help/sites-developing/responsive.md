@@ -26,7 +26,7 @@ Design your web pages so that they adapt to the client viewport in which they ar
 * Navigation: Device-specific tools are provided for accessing other pages. 
 * Images: Serving image renditions that are appropriate for the client viewport. according to the window dimensions.
 
-![](assets/chlimage_1-4.png)
+![chlimage_1-4](assets/chlimage_1-4.png)
 
 Develop Adobe Experience Manager (AEM) applications that generate HTML5 pages that adapt to multiple window sizes and orientations. For example, the following ranges of viewport widths correspond with various device types and orientations
 
@@ -164,7 +164,7 @@ The JSP script generates the following HTML code that references the style sheet
 
 See previews of your pages in different viewport sizes to test the behavior of your responsive design. In Preview mode, Sidekick includes a Devices drop-down menu that you use to select a device. When you select a device, the page changes to adapt to the viewport size.
 
-![](assets/chlimage_1-5.png)
+![chlimage_1-5](assets/chlimage_1-5.png)
 
 To enable the device preview in Sidekick, you must configure the page and the MobileEmulatorProvider service. Another page configuration controls the list of devices that appears in the Devices list.
 
@@ -324,7 +324,7 @@ To customize image rendering, you should understand the default AEM static image
 1. Image request: The web browser loads the page, and requests the image according to the src attribute of the img element.
 1. Image rendering: The image-rendering servlet returns the image to the web browser.
 
-![](assets/chlimage_1-6.png)
+![chlimage_1-6](assets/chlimage_1-6.png)
 
 For example, the JSP of the Image component generates the following HTML element:
 

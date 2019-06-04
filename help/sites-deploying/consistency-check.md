@@ -34,5 +34,5 @@ On a default installation, it is found here:  **[|Show Me|](http://localhost:450
 
 In the **Operations** section of the page you will find two methods: **`traversalCheck`** and **`consistencyCheck`**. To execute a check, click on the operation and enter the desired parameters.
 
-![](assets/chlimage_1-117.png)
+![chlimage_1-117](assets/chlimage_1-117.png)
 

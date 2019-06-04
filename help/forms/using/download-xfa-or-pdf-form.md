@@ -30,7 +30,7 @@ Aside from these assets, you can download the `Resource` type of asset if it is 
 
 1. Navigate to the location of the asset you want to download.  
 
-1. Select the asset. Click the **[!UICONTROL Download]** ![](assets/aem6forms_download.png) icon in the toolbar.
+1. Select the asset. Click the **[!UICONTROL Download]** ![aem6forms_download](assets/aem6forms_download.png) icon in the toolbar.
 
    >[!NOTE]
    >

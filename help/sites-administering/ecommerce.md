@@ -68,7 +68,7 @@ AEM eCommerce provides:
     * Vouchers
     * and others
 
-  ![](assets/chlimage_1-150.png)
+  ![chlimage_1-150](assets/chlimage_1-150.png)
 
   >[!NOTE]
   >
@@ -81,11 +81,11 @@ AEM eCommerce provides:
     * a third party search (such as Search&Promote) 
     * or a combination thereof.
 
-  ![](assets/chlimage_1-151.png)
+  ![chlimage_1-151](assets/chlimage_1-151.png)
 
 * Uses the AEM ability to **present your content on multiple channels**, be that full browser window or mobile device. This delivers your content in the format needed by your visitors.
 
-  ![](assets/chlimage_1-152.png)
+  ![chlimage_1-152](assets/chlimage_1-152.png)
 
 * The ability to **develop your own integration implementation based on the [AEM eCommerce framework](#the-framework)**.
 
@@ -98,11 +98,11 @@ AEM eCommerce provides:
 
   In the example below one teaser is shown as the contents of the cart are less than $75:
 
-  ![](assets/chlimage_1-153.png)
+  ![chlimage_1-153](assets/chlimage_1-153.png)
 
   This can be changed when the contents of the cart exceed $75:
 
-  ![](assets/chlimage_1-154.png)
+  ![chlimage_1-154](assets/chlimage_1-154.png)
 
 * And other features including:
 

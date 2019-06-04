@@ -88,7 +88,7 @@ To do this:
 1. Navigate to the web console at `<server>:<port>/system/console/configMgr`.
 1. Navigate to** Apache Felix OSGi Management Console** and change the **user name** and **password**.
 
-   ![](assets/chlimage_1-166.png)
+   ![chlimage_1-166](assets/chlimage_1-166.png)
 
 1. Click **Save**.
 

@@ -25,7 +25,7 @@ With the new architecture, AEM is responsible for master assets and synchs with 
 1. After the renditions are generated, AEM can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the AEM instance). 
 1. After content is ready to be published and approved, it triggers the Dynamic Media service to push content out to delivery servers and cache content at the CDN.
 
-![](assets/chlimage_1.png) 
+![chlimage_1](assets/chlimage_1.png) 
 
 ## Enabling Dynamic Media in Scene7 mode {#enabling-dynamic-media-in-scene-mode}
 
@@ -100,7 +100,7 @@ To configure dynamic media cloud services:
    >
    >After an asset is activated, any updates are immediately published live to S7 Delivery.
 
-   ![](assets/dynamicmediaconfiguration2updated.png)
+   ![dynamicmediaconfiguration2updated](assets/dynamicmediaconfiguration2updated.png)
 
 1. Tap **[!UICONTROL Save]**.
 1. To securely preview Dynamic Media content before it gets published, you will need to "whitelist" the AEM author instance to connect to Dynamic Media:
@@ -228,7 +228,7 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
    `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`
 
-   ![](assets/mimetypes.png)
+   ![mimetypes](assets/mimetypes.png)
 
 1. Under the mimeTypes folder, select a mime type.
 1. On the right side of the CRXDE Lite page, in the lower portion:
@@ -344,7 +344,7 @@ spin-01-01
 
 With this information, your Batch Set Type recipe might be created as follows:
 
-![](assets/chlimage_1-1.png)
+![chlimage_1-1](assets/chlimage_1-1.png)
 
 Grouping for the shared asset name part of the spinset is added to the **[!UICONTROL Match]** field (as highlighted). The variable part of the asset name containing the row and column is added to the **[!UICONTROL Row]** and **[!UICONTROL Column]** fields, respectively.
 
@@ -434,7 +434,7 @@ The Granite Transit Workflow queue is used for the **[!UICONTROL DAM Update Asse
 
    Adobe recommends that 32 **[!UICONTROL Maximum Parallel Jobs]** be configured to adequately support heavy upload of files to Dynamic Media Classic.
 
-   ![](assets/chlimage_1.jpeg)
+   ![chlimage_1](assets/chlimage_1.jpeg)
 
 1. Tap **[!UICONTROL Save]**.
 
@@ -456,7 +456,7 @@ The Granite Workflow queue is used for non-transient workflows. In Dynamic Media
 
    For most use cases, the 0.5 default setting is sufficient.
 
-   ![](assets/chlimage_1-1.jpeg)
+   ![chlimage_1-1](assets/chlimage_1-1.jpeg)
 
 1. Tap **[!UICONTROL Save]**.
 
@@ -475,7 +475,7 @@ The Scene7 Upload Connection setting synchronizes AEM assets to Dynamic Media Cl
 
    For most use cases, the setting of 2100 is sufficient.
 
-   ![](assets/chlimage_1-2.jpeg)
+   ![chlimage_1-2](assets/chlimage_1-2.jpeg)
 
 1. Tap **[!UICONTROL Save]**.
 
@@ -529,7 +529,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 1. In AEM, tap the AEM logo to access the global navigation console and tap the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL General &gt; CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
-   ![](assets/chlimage_1-2.png)
+   ![chlimage_1-2](assets/chlimage_1-2.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
@@ -537,7 +537,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
    The following graphic is an example of an asset's path to dc:format.
 
-   ![](assets/chlimage_1-3.png)
+   ![chlimage_1-3](assets/chlimage_1-3.png)
 
    Notice that the `dc:format` for the asset `Fiji Red.jpg` is `image/jpeg`.
 
@@ -574,7 +574,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
    The following graphic is an example of an asset's renditions.
 
-   ![](assets/chlimage_1-4.png)
+   ![chlimage_1-4](assets/chlimage_1-4.png)
 
    If you only wanted to replicate the original, then you would enter `+original`.
 

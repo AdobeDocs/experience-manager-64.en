@@ -25,11 +25,11 @@ To deliver optimized images for a responsive site:
 
 1. Navigate to the image you want supply responsive code for and in the drop-down menu, tap or click **Renditions**.
 
-   ![](assets/chlimage_1-408.png)
+   ![chlimage_1-408](assets/chlimage_1-408.png)
 
 1. Select a responsive image preset. The **URL** and **RESS** buttons appear. 
 
-   ![](assets/chlimage_1-409.png)
+   ![chlimage_1-409](assets/chlimage_1-409.png)
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ To deliver optimized images for a responsive site:
 
 1. Tap or click **RESS**. The responsive code displays.
 
-   ![](assets/chlimage_1-410.png)
+   ![chlimage_1-410](assets/chlimage_1-410.png)
 
 1. Select and copy the text and paste it in your web site to access the responsive asset.
 1. Edit the default breakpoints in the embed code to match those of the responsive web site directly in the code. In addition, test the different image resolutions being served at different page breakpoints.

@@ -27,23 +27,23 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
 
 ### Section 1 {#section}
 
-![](assets/chlimage_1-103.png) 
+![chlimage_1-103](assets/chlimage_1-103.png) 
 
 ### Section 2 {#section-1}
 
-![](assets/chlimage_1-104.png) 
+![chlimage_1-104](assets/chlimage_1-104.png) 
 
 ### Section 3 {#section-2}
 
-![](assets/chlimage_1-105.png) 
+![chlimage_1-105](assets/chlimage_1-105.png) 
 
 ### Section 4 {#section-3}
 
-![](assets/chlimage_1-106.png) 
+![chlimage_1-106](assets/chlimage_1-106.png) 
 
 ### Section 5 {#section-4}
 
-![](assets/chlimage_1-107.png) 
+![chlimage_1-107](assets/chlimage_1-107.png) 
 
 ## Reference Links {#reference-links}
 

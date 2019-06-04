@@ -35,7 +35,7 @@ For example, to search for assets that have the title "Target," perform these st
    >
    >You can also perform full-text search on folder. In this case, you must specify a non-empty full-text search term.
 
-   ![](assets/gql_search.png)
+   ![gql_search](assets/gql_search.png)
 
 1. Press **Enter**. The AEM Assets user interface displays only those assets whose title exactly matches "Target."
 
@@ -198,11 +198,11 @@ You can improve the relevance of keywords for particular assets to help boost se
 1. From the Assets UI, open the properties page for the asset for which you want to promote a keyword.
 1. Switch to the **Advanced** tab and click/tap **Add** under **Elevate for search keywords**.
 
-   ![](assets/elevate_for_search.png)
+   ![elevate_for_search](assets/elevate_for_search.png)
 
 1. In the **Search Promote** box, specify a keyword for which you want to boost the search for the image and then click/tap **Add**. In necessary, specify multiple keywords in the same way. 
 
-   ![](assets/add_search_word.png)
+   ![add_search_word](assets/add_search_word.png)
 
 1. Click/tap **Save & Close**.
 1. Search for the keyword using the Omnisearch box. The asset for which you promoted this keyword appears among the top search results.

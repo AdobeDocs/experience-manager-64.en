@@ -46,11 +46,11 @@ The following table lists the preview options available for different types of s
 
 ## Previewing a form {#previewing-a-form-1}
 
-1. Select an asset you want to preview, and click Preview ![](assets/aem6forms_preview.png) in the actions toolbar.
+1. Select an asset you want to preview, and click Preview ![aem6forms_preview](assets/aem6forms_preview.png) in the actions toolbar.
 
    >[!NOTE]
    >
-   >To select an asset, switch to List view from the default Card view. Click ![](assets/aem6forms_viewlist.png) or ![](assets/aem6forms_viewcard.png) to switch views.
+   >To select an asset, switch to List view from the default Card view. Click ![aem6forms_viewlist](assets/aem6forms_viewlist.png) or ![aem6forms_viewcard](assets/aem6forms_viewcard.png) to switch views.
 
 1. Clicking Preview lists the possible preview options applicable for the selected Asset Type. Click the desired option to render the selected asset in a new tab.
 
@@ -64,6 +64,6 @@ The following table lists the preview options available for different types of s
 
 When you select **Preview with Data**, you can see how the form looks with real data entered in it. Preview with Data option lets you upload an XML that contains sample user data. The sample user data is used to populate the preview form in the format you choose.
 
-1. Select an asset, click Preview ![](assets/aem6forms_preview.png), and select **Preview with Data**.
+1. Select an asset, click Preview ![aem6forms_preview](assets/aem6forms_preview.png), and select **Preview with Data**.
 1. In the Preview Form dialog, provide FormData as an XML file. Click Preview to render the form with the merged data from XML.
 

@@ -49,7 +49,7 @@ The **Traversal Index** is used if no other indexer is available. This means tha
 
 If multiple indexers are available for a query, each available indexer estimates the cost of executing the query. Oak then chooses the indexer with the lowest estimated cost.
 
-![](assets/chlimage_1-148.png)
+![chlimage_1-148](assets/chlimage_1-148.png)
 
 The above diagram is a high level representation of the query execution mechanism of Apache Oak.
 
@@ -189,7 +189,7 @@ The analyzers can be configured via the `analyzers` node (of type `nt:unstructur
 
 The default analyzer for an index is configured in the `default` child of the analyzers node.
 
-![](assets/chlimage_1-149.png)
+![chlimage_1-149](assets/chlimage_1-149.png)
 
 >[!NOTE]
 >
@@ -405,7 +405,7 @@ The ACS Commons package also exposes OSGi configurations that can be used to cre
 
 You can access it from the Web Console by searching for "**Ensure Oak Property Index**".
 
-![](assets/chlimage_1-150.png) 
+![chlimage_1-150](assets/chlimage_1-150.png) 
 
 ### Troubleshooting indexing issues {#troubleshooting-indexing-issues}
 

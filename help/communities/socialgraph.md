@@ -33,7 +33,7 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/essentials-socialgraph.md#essentials-for-client-side) are included, this is how the `Following` component will appear:
 
-![](assets/chlimage_1-447.png)
+![chlimage_1-447](assets/chlimage_1-447.png)
 
 ## Configuring Following {#configuring-following}
 

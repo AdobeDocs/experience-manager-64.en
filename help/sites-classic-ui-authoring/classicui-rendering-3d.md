@@ -50,13 +50,13 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 1. Tap the card of the 3D object to open it in the asset details page.
 1. Near the upper-left corner of the page, tap the drop-down list, then select **[!UICONTROL Render]**.
 
-   ![](assets/chlimage_1-13.png)
+   ![chlimage_1-13](assets/chlimage_1-13.png)
 
 1. Near the upper-right corner of the asset details page, tap the **[!UICONTROL Stage Selector]** icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
 
    See [About the use of stages in AEM 3D](/help/sites-classic-ui-authoring/classicui-stages-aem3d.md).
 
-   ![](assets/chlimage_1-14.png)
+   ![chlimage_1-14](assets/chlimage_1-14.png)
 
    [UICONTROL Stage Selector] icon
 
@@ -77,7 +77,7 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 
    Left and right bars or top and bottom bars are a visual indicator as to which parts of the view will be rendered. When the camera is provided by the selected stage, you can select a pre-defined camera.
 
-   ![](assets/chlimage_1-15.png)
+   ![chlimage_1-15](assets/chlimage_1-15.png)
 
    [!UICONTROL Camera Selector] icon
 

@@ -48,7 +48,7 @@ Follow the steps below to perform asset level scheduling:
 
 1. Select any channel and click **Edit** from the action bar to add or edit content in your channel.
 
-   ![](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
 
    >[!NOTE]
    >
@@ -59,19 +59,19 @@ Follow the steps below to perform asset level scheduling:
 
 1. Click **Edit** to open the channel editor and select an asset you want to apply the scheduling to.
 
-   ![](assets/screen_shot_2018-04-24at90434pm.png)
+   ![screen_shot_2018-04-24at90434pm](assets/screen_shot_2018-04-24at90434pm.png)
 
 1. Select the asset and click on top left **Configure** icon to open the properties of the image.
 
    Click the **Activation** tab.
 
-   ![](assets/screen_shot_2018-04-23at112348am.png)
+   ![screen_shot_2018-04-23at112348am](assets/screen_shot_2018-04-23at112348am.png)
 
 1. You can specify the the date from the date picker from the **Active from** and **Active until** fields.
 
    If you select the** Active from** and **Active until** date and time, the asset will display and loop only between that start date/time and end date/time respectively.
 
-   ![](assets/screen_shot_2018-04-23at113545am.png)
+   ![screen_shot_2018-04-23at113545am](assets/screen_shot_2018-04-23at113545am.png)
 
 ## Handling Recurrence in Assets {#handling-recurrence-in-assets}
 
@@ -103,21 +103,21 @@ To use multi-asset level scheduling for your assets, create an AEM Screens proje
 * Create an AEM Screens project titled as **MultiAssetDemo**
 * Create a channel titled as **MultiAssetChannel** and add content to the channel, as shown in the figure below
 
-![](assets/screen_shot_2018-12-21at70128am.png)
+![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
 Follow the steps below to select multiple assets and schedule their display in an AEM Screens project:
 
 1. Select **MultiAssetChannel** and click **Edit** from the action bar to open the editor.
 
-   ![](assets/screen_shot_2018-12-21at70313am.png)
+   ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
 1. Select multiple assets from the editor and click **Edit Activation** (top left icon).
 
-   ![](assets/screen_shot_2018-12-21at70550am.png)
+   ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
 1. Select the date and time in **Active from** and **Active until **from the **Component Activation** dialog box. Click the check mark icon when you are done selecting the schedules.
 
-   ![](assets/screen_shot_2018-12-17at20337pm.png)
+   ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
 1. Click refresh to check the assets to which multi-asset schedule is applied.
 
@@ -125,5 +125,5 @@ Follow the steps below to select multiple assets and schedule their display in a
    >
    >The schedule icon is visible on the top right corner to those assets that have muti asset scheduling.
 
-   ![](assets/screen_shot_2018-12-21at70722am.png)
+   ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 

@@ -10,7 +10,7 @@ discoiquuid: 55c08940-8c25-4938-8e49-25bce20aaf22
 
 # DO NOT PUBLISH Tutorial: Create an adaptive form {#do-not-publish-tutorial-create-an-adaptive-form}
 
- ![](assets/02-create-adaptive-form-main-image.png)
+ ![02-create-adaptive-form-main-image](assets/02-create-adaptive-form-main-image.png)
 
 This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
@@ -45,30 +45,30 @@ You will have a form similar to the following by end of article:
 
    For information about adaptive form authoring interface and available components, see [Introduction to authoring adaptive forms](/help/forms/using/creating-adaptive-form.md).
 
-   ![](assets/newly-created-adaptive-form.png)
+   ![newly-created-adaptive-form](assets/newly-created-adaptive-form.png)
 
 ## Step 2: Add header and footer {#step-add-header-and-footer}
 
 AEM Forms provides many components to display information on an adaptive form. Header and Footer components help provide a consistent look and feel to a form. A header typically includes the logo of a corporation, the title of the form, and summary. A footer typically includes copyright information and links to other pages.
 
-1. Tap ![](assets/toggle-side-panel.png) &gt; ![](assets/treeexpandall.png). The component browser opens. Drag the **Header** component from component browser to the adaptive form. 
-1. Tap **Logo**. The toolbar appears. Tap ![](assets/aem_6_3_edit.png) on the toolbar, type **We.Retail**, and tap ![](assets/aem_6_3_forms_save.png).  
+1. Tap ![toggle-side-panel](assets/toggle-side-panel.png) &gt; ![treeexpandall](assets/treeexpandall.png). The component browser opens. Drag the **Header** component from component browser to the adaptive form. 
+1. Tap **Logo**. The toolbar appears. Tap ![aem_6_3_edit](assets/aem_6_3_edit.png) on the toolbar, type **We.Retail**, and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).  
 
-1. Tap Image. The toolbar appears. Tap ![](assets/cmppr.png). The properties browser opens on the left of the screen. **Browse** and upload the logo image. Tap ![](assets/aem_6_3_forms_save.png). The image appears on the header.
+1. Tap Image. The toolbar appears. Tap ![cmppr](assets/cmppr.png). The properties browser opens on the left of the screen. **Browse** and upload the logo image. Tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png). The image appears on the header.
 
    You can tap Get file to download the logo used in this article if you don't have one.
 
    [Get File](assets/logo.png)
 
-1. Drag the **Footer** component from ![](assets/treeexpandall.png) to the adaptive form. At this stage, the form looks like the following: 
+1. Drag the **Footer** component from ![treeexpandall](assets/treeexpandall.png) to the adaptive form. At this stage, the form looks like the following: 
 
-   ![](assets/adaptive-form-with-headers-and-footers.png)
+   ![adaptive-form-with-headers-and-footers](assets/adaptive-form-with-headers-and-footers.png)
 
 ## Step 3: Add components to capture and display information {#step-add-components-to-capture-and-display-information}
 
-Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
+Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![treeexpandall](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
-1. Drag the Numeric Box component to the adaptive form. Place it before the footer component. Open properties of the component, change **Title** of the component to **`Customer ID`**, change **Element Name** to **`customer_ID`**, enable the **Required Field** option, enable the **Use HTML5 Number Input Type** option, and tap ![](assets/aem_6_3_forms_save.png).
+1. Drag the Numeric Box component to the adaptive form. Place it before the footer component. Open properties of the component, change **Title** of the component to **`Customer ID`**, change **Element Name** to **`customer_ID`**, enable the **Required Field** option, enable the **Use HTML5 Number Input Type** option, and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 1. Drag three Text Box components to the adaptive form. Place these before the footer component. Set the following properties for these text boxes.:
 
 <table> 
@@ -106,7 +106,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
  </tbody> 
 </table>
 
-1. Drag a **Numeric Box** component before the footer component. Open properties of the component, set values listed in the below table, Tap ![](assets/aem_6_3_forms_save.png).
+1. Drag a **Numeric Box** component before the footer component. Open properties of the component, set values listed in the below table, Tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
    | Property |Value |
    |---|---|
@@ -116,7 +116,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
    | Required Field |Enabled |
    | Display Pattern Type |No Pattern |
 
-1. Drag an **Email** component before the footer component. Open properties of the component, set values listed in the below table, and tap ![](assets/aem_6_3_forms_save.png).
+1. Drag an **Email** component before the footer component. Open properties of the component, set values listed in the below table, and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
    | Property |Value |
    |---|---|
@@ -124,7 +124,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
    | Element Name |customer_Email |
    | Required Field |Enabled |
 
-1. Drag an **File Attachment** component before the footer component. Open properties of the component, set values listed in the below table, and tap ![](assets/aem_6_3_forms_save.png).
+1. Drag an **File Attachment** component before the footer component. Open properties of the component, set values listed in the below table, and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
 <table> 
  <tbody> 
@@ -147,9 +147,9 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
  </tbody> 
 </table>
 
-1. Drag a **Submit Button** component to the adaptive form. Place it before the footer component. Open properties of the component, change Element Name to** address_addition_update_submit**, tap ![](assets/aem_6_3_forms_save.png). The layout of the form is complete and the form looks like the following:
+1. Drag a **Submit Button** component to the adaptive form. Place it before the footer component. Open properties of the component, change Element Name to** address_addition_update_submit**, tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png). The layout of the form is complete and the form looks like the following:
 
-   ![](assets/adaptive-form-with-all-the-components.png)
+   ![adaptive-form-with-all-the-components](assets/adaptive-form-with-all-the-components.png)
 
 ## Step 4: Configure submit action for the adaptive form {#step-configure-submit-action-for-the-adaptive-form}
 
@@ -161,8 +161,8 @@ Using the following steps, you can configure email submit action and demo submit
 
    /content/help/en/experience-manager/6-4/sites-administering/notification.html 
 
-1. Tap **Form Container** in the Content browser and tap ![](assets/cmppr.png). The properties browser opens on the left. 
-1. Go to **Submission** &gt;  **Submit Action**. Select **Send Email**. Specify the following values and tap ![](assets/aem_6_3_forms_save.png).
+1. Tap **Form Container** in the Content browser and tap ![cmppr](assets/cmppr.png). The properties browser opens on the left. 
+1. Go to **Submission** &gt;  **Submit Action**. Select **Send Email**. Specify the following values and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
    |Property|Value|
    |--- |--- |
@@ -178,10 +178,10 @@ Using the following steps, you can configure email submit action and demo submit
 
 You can use the **Preview option** to evaluate appearance and behavior of a form. You can submit a form in preview mode and also check validations applied on a form. For example, if an error is displayed when a mandatory field is left empty.
 
-Adaptive forms also provide an option to Emulate experience of a form for various devices. For example, iPhone, iPad, and Desktop. You can use both **Preview** and **Emulator** ![](assets/ruler.png) options in conjunction with each other to preview a form for devices of different screen sizes.
+Adaptive forms also provide an option to Emulate experience of a form for various devices. For example, iPhone, iPad, and Desktop. You can use both **Preview** and **Emulator** ![ruler](assets/ruler.png) options in conjunction with each other to preview a form for devices of different screen sizes.
 
 1. Tap the **Preview** option on the right side of the form editor. The form opens in the preview mode. If you have used the name mentioned the tutorial, then preview URL of the form is [http://localhost:4502/content/dam/formsanddocuments/shipping-address-add-update-form/jcr:content?wcmmode=disabled](http://localhost:4502/content/dam/formsanddocuments/shipping-address-addition-updation-form/jcr:content?wcmmode=disabled)
-1. Use ![](assets/ruler.png) to view how the form looks on various devices.
+1. Use ![ruler](assets/ruler.png) to view how the form looks on various devices.
 1. Fill out fields of the form and tap **Submit**. The form is submitted and you are redirected to default **Thank You** page. You can also specify a custom thank you page. For details, see [Configuring redirect page](/help/forms/using/configuring-redirect-page.md).
 
 The adaptive form to add an address is ready. If you have used the name mentioned the tutorial and accessing the form on the machine running AEM Forms server, then the form is available at [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html).

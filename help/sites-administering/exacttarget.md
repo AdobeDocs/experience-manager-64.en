@@ -33,16 +33,16 @@ To create an ExactTarget configuration in Cloud Services:
 1. On the welcome page, click **Cloud Services**. (Or directly access at `https://<hostname>:<port>/etc/cloudservices.html`.)
 1. Click **ExactTarget** and then **Configure**. The ExactTarget configuration window opens.
 
-   ![](assets/chlimage_1-182.png)
+   ![chlimage_1-182](assets/chlimage_1-182.png)
 
 1. Enter a title and optionally, a name and click **Create**. The** ExactTarget Settings** configuration window opens.
 
-   ![](assets/chlimage_1-31.jpeg)
+   ![chlimage_1-31](assets/chlimage_1-31.jpeg)
 
 1. Enter the username, password and select an API endpoint (for example, **https://webservice.exacttarget.com/Service.asmx**).
 1. Click **Connect to ExactTarget.** When you have successfully connected you see a success dialog. Click **OK** to exit the window.
 
-   ![](assets/chlimage_1-32.jpeg)
+   ![chlimage_1-32](assets/chlimage_1-32.jpeg)
 
 1. Select an account, if available. The account is for Enterprise 2.0 customers. Click **OK**.
 
@@ -52,7 +52,7 @@ To create an ExactTarget configuration in Cloud Services:
 
    Imported data extension columns can later be used through the **Text and Personalization** component.
 
-   ![](assets/chlimage_1-33.jpeg)
+   ![chlimage_1-33](assets/chlimage_1-33.jpeg)
 
 ### Configuring ExactTarget via Tools {#configuring-exacttarget-via-tools}
 
@@ -62,7 +62,7 @@ To create an ExactTarget configuration in Tools:
 1. Select **Tools**, then **Cloud Services Configurations,** then **ExactTarget**.
 1. Click **New** to open the **Create Page **window.
 
-   ![](assets/chlimage_1-34.jpeg)
+   ![chlimage_1-34](assets/chlimage_1-34.jpeg)
 
 1. Enter the **Title** and optionally the **Name**, and click **Create**.
 1. Enter the configuration information as outlined in step 4 in the previous procedure. Follow that procedure to finish configuring ExactTarget.

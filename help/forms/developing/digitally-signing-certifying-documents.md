@@ -1280,7 +1280,7 @@ Digital signatures can be verified to ensure that a signed PDF document was not 
 
 Assume that the identity of the signer is unknown. When you open the PDF document in Acrobat, a warning message states that the signer’s identity is unknown, as shown in the following illustration. 
 
-![](assets/vd_vd_verifysig.png)
+![vd_vd_verifysig](assets/vd_vd_verifysig.png)
 
 Likewise, when you programmatically verify a digital signature, you can determine the status of the signer’s identity. For example, if you verify the digital signature in the document shown in the previous illustration, the result would be that the signer’s identity is unknown.
 

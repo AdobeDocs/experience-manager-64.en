@@ -31,7 +31,7 @@ To find assets on the asset share page:
 1. Select tags to further narrow your search. Selecting tags filters the results to those with the selected tags.  
 1. You can collect assets in the lightbox and perform actions on them, such as downloading.
 
-![](assets/chlimage_1-143.png)
+![chlimage_1-143](assets/chlimage_1-143.png)
 
 ## Downloading Assets {#downloading-assets}
 
@@ -59,6 +59,6 @@ To download assets using the Lightbox:
 1. Select additional assets that you want to download. Click **Add** until you have selected all the assets you want in the Lightbox. 
 1. Click the **Download** in the Lightbox.
 
-![](assets/chlimage_1-144.png)
+![chlimage_1-144](assets/chlimage_1-144.png)
 
 AEM Assets again creates a ZIP file containing all the assets in the lightbox. You can empty the lightbox by clicking **Remove** at any time to start a new asset collection.

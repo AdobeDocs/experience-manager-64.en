@@ -15,13 +15,13 @@ discoiquuid: 05b7410b-82a1-4267-ac07-2edbc29e9ee8
 
 Primary 3D model file dependencies, such as texture map files, are automatically resolved where possible. This functionality is accomplished by having AEM search nearby Asset folders for files with the same names that are found in the 3D file. If one or more dependencies are unresolvable during the Creating preview processing stage, the asset's card displays the following red banner message in the Card View:
 
-![](assets/chlimage_1-124.png)
+![chlimage_1-124](assets/chlimage_1-124.png)
 
 To resolve file dependencies:
 
 1. In the Card View, hover the pointer over the **Unresolved Dependencies** banner message on the card, then tap the exclamation point icon.
 
-   ![](assets/chlimage_1-125.png)
+   ![chlimage_1-125](assets/chlimage_1-125.png)
 
 1. On the metadata properties page, tap the **Dependencies **tab.
 

@@ -19,7 +19,7 @@ discoiquuid: d13c68ba-be49-440b-8bbe-a10edbfb9b9b
 
 The Client Context is a mechanism that provides you with certain information about the current page and visitor. It can be opened using **Ctrl-Alt-c** (windows) or **control-option-c** (Mac):
 
-![](assets/clientcontext_alisonparker.png)
+![clientcontext_alisonparker](assets/clientcontext_alisonparker.png)
 
 In both the publish and author environment it shows information about:
 
@@ -148,7 +148,7 @@ When finished you can [reset the profile](#resetting-the-profile-to-the-current-
 
 1. This will open the dialog, here you can select the profile you want to load:
 
-   ![](assets/clientcontext_profileloader.png)
+   ![clientcontext_profileloader](assets/clientcontext_profileloader.png)
 
 1. Click **OK** to load.
 
@@ -158,7 +158,7 @@ You can also select a profile with the selection slider:
 
 1. Double-click on the icon representing the current user. The selector will open, use the arrows to navigate and see the profiles available:
 
-   ![](assets/clientcontext_profileselector.png)
+   ![clientcontext_profileselector](assets/clientcontext_profileselector.png)
 
 1. Click on the profile you want to load. When the details have loaded click outside the selector to close.
 
@@ -172,7 +172,7 @@ You can also select a profile with the selection slider:
 
 1. Double-click on the icon representing the browser platform. The selector will open, use the arrows to navigate and see the platforms/browsers available:
 
-   ![](assets/clientcontext_browserplatform.png)
+   ![clientcontext_browserplatform](assets/clientcontext_browserplatform.png)
 
 1. Click on the platform browser you want to load. When the details have loaded click outside the selector to close.
 
@@ -180,7 +180,7 @@ You can also select a profile with the selection slider:
 
 1. Double-click on the geolocation icon. An expanded map will open, here you can drag the marker to a new location:
 
-   ![](assets/clientcontext_geomocationrelocate.png)
+   ![clientcontext_geomocationrelocate](assets/clientcontext_geomocationrelocate.png)
 
 1. Click outside the map to close.
 
@@ -188,7 +188,7 @@ You can also select a profile with the selection slider:
 
 1. Double-click on the Tag Cloud section of the Client Context. The dialog will open, here you can select tags:
 
-   ![](assets/clientcontext_tagselection.png)
+   ![clientcontext_tagselection](assets/clientcontext_tagselection.png)
 
 1. Click OK to load into the Client Context.
 
@@ -200,13 +200,13 @@ Editing a client context can be used to set (or reset) the values of certain pro
 
 Editing a client context can be used to set (or reset) the values of certain properties. This allows you to test specific scenarios (particularly useful for [segmentation](/help/sites-administering/campaign-segmentation.md) and [campaigns](/help/sites-authoring/personalization.md)).
 
-![](assets/clientcontext_alisonparker_edit.png) 
+![clientcontext_alisonparker_edit](assets/clientcontext_alisonparker_edit.png) 
 
 ### Adding a Property Component {#adding-a-property-component}
 
 After you have opened the **ClientContext design page**, you can also **Add** a completely new property using the available components (the components are listed on both the sidekick or from the **Insert New Component** dialog that is opened after a double-click on the **Drag components or assets here** box):
 
-![](assets/clientcontext_alisonparker_new.png) 
+![clientcontext_alisonparker_new](assets/clientcontext_alisonparker_new.png) 
 
 ### Removing a Property Component {#removing-a-property-component}
 
@@ -230,7 +230,7 @@ Add the JSONP Store component to Client Context and use it to retrieve and store
 
 1. Drag the JSONP Store component to Client Context.
 
-   ![](assets/chlimage_1-40.jpeg)
+   ![chlimage_1-40](assets/chlimage_1-40.jpeg)
 
 1. Double-click the component to open the edit dialog. 
 1. In the JSONP Service URL box, enter the following URL, and then click Fetch Store:
@@ -239,12 +239,12 @@ Add the JSONP Store component to Client Context and use it to retrieve and store
 
    The component calls the JSONP service and lists all of the properties that the returned data contains. The properties that are in the list are those that will be available in Client Context.
 
-   ![](assets/chlimage_1-274.png)
+   ![chlimage_1-274](assets/chlimage_1-274.png)
 
 1. Click OK.
 1. Return to the Geometrixx Outdoors home page and refresh the page. Client Context now includes the information from the JSONP Store component.
 
-   ![](assets/chlimage_1-275.png)
+   ![chlimage_1-275](assets/chlimage_1-275.png)
 
 ### Create the Segment {#create-the-segment}
 
@@ -265,7 +265,7 @@ Use the data from the session store that you created using the JSONP store compo
 1. Right-click the Winter segment and click Open. 
 1. Drag the Generic Store Property to the default AND container.
 
-   ![](assets/chlimage_1-41.jpeg)
+   ![chlimage_1-41](assets/chlimage_1-41.jpeg)
 
 1. Double-click the component to open the edit dialog, specify the following property values, and then click OK:
 

@@ -19,7 +19,7 @@ This document describes both how to view 3D assets in asset details and how to v
 
 The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
 
-![](assets/chlimage_1-139.png)
+![chlimage_1-139](assets/chlimage_1-139.png)
 
 Besides using the default stages in AEM 3D, you can also use stages that you have created in a third-party application and uploaded into AEM.
 
@@ -97,7 +97,7 @@ To view 3D assets:
 
     * Near the upper-right corner of the asset details page, tap the Stage Selector icon. Select a stage name with the background and lighting that you want to apply to the 3D asset.
 
-   ![](assets/chlimage_1-140.png)
+   ![chlimage_1-140](assets/chlimage_1-140.png)
 
    Stages provide the environment-background, ground plane, and lighting-in which the 3D model is viewed. 
 
@@ -105,7 +105,7 @@ To view 3D assets:
 
     * Near the upper-right corner of the asset details page, tap the Camera Selector icon, then select a camera view that you want to apply to the 3D asset.
 
-   ![](assets/chlimage_1-141.png)
+   ![chlimage_1-141](assets/chlimage_1-141.png)
 
    Stages often provide pre-defined cameras. You can re-select the current camera to restore it to its pre-defined settings. 
 
@@ -136,7 +136,7 @@ For more information, see the following:
 
 See also [Previewing a web page that has a 3D component](using-the-3d-sites-component.md#previewing-a-web-page-that-has-a-d-component).
 
-![](assets/screen_shot_2017-12-11at145654.png) 
+![screen_shot_2017-12-11at145654](assets/screen_shot_2017-12-11at145654.png) 
 
 ### Touchscreen devices {#touchscreen-devices}
 

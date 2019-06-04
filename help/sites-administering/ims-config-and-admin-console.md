@@ -39,7 +39,7 @@ IMS Authentication works by using the OAuth protocol between AEM and the Adobe I
 
 The user login flow is shown below, the user will be redirected to IMS and optionally to the customer IDP for SSO validation and then redirected back to AEM.
 
-![](assets/image2018-9-23_23-55-8.png) 
+![image2018-9-23_23-55-8](assets/image2018-9-23_23-55-8.png) 
 
 ## How To Set Up {#how-to-set-up}
 
@@ -55,7 +55,7 @@ The move to IMS for user authentication will be a joint effort between AMS and c
 
 Once a customer exists as an IMS Organization and AMS is done with provisioning the customer for IMS, this is the summary of the configuration workflows required:
 
-![](assets/image2018-9-23_23-33-25.png)
+![image2018-9-23_23-33-25](assets/image2018-9-23_23-33-25.png)
 
 1. The designated System Admin receives an invite to log in to the Admin Console
 1. The System Admin Claims Domain to confirm the ownership of the domain (in this example acme.com)
@@ -83,13 +83,13 @@ Users and Groups can be manually created in the Admin Console UI. This method ca
 
 Users can also be manually created if the customer is already using this method for administering other Adobe products like Analytics, Target or Creative Cloud applications.
 
-![](assets/image2018-9-23_20-39-9.png) 
+![image2018-9-23_20-39-9](assets/image2018-9-23_20-39-9.png) 
 
 #### File Upload in the Admin Console UI {#file-upload-in-the-admin-console-ui}
 
 For easy handling of user creation, a CSV file can be uploaded for adding users in bulk:
 
-![](assets/image2018-9-23_18-59-57.png) 
+![image2018-9-23_18-59-57](assets/image2018-9-23_18-59-57.png) 
 
 #### User Sync Tool {#user-sync-tool}
 
@@ -101,7 +101,7 @@ The tool allows the system admin to map user groups in the customer’s director
 
 To set up User Sync, the organization needs to create a set of credentials in the same way they would use the [User Management API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/setup.html).
 
-![](assets/image2018-9-23_13-36-56.png)
+![image2018-9-23_13-36-56](assets/image2018-9-23_13-36-56.png)
 
 User Sync is distributed through the Adobe Github repository at this location:
 
@@ -137,23 +137,23 @@ More information about the new group features can be found here:
 
 When the customer Product Administrator logs in to Admin Console, they will see multiple instances of the AEM Managed Services Product Context as shown below:
 
-![](assets/screen_shot_2018-09-17at105804pm.png)
+![screen_shot_2018-09-17at105804pm](assets/screen_shot_2018-09-17at105804pm.png)
 
 In this example, the org *AEM-MS-Onboard* has 32 instances spanning different topologies and environments like Stage, Prod, etc.
 
-![](assets/screen_shot_2018-09-17at105517pm.png)
+![screen_shot_2018-09-17at105517pm](assets/screen_shot_2018-09-17at105517pm.png)
 
 The instance details can be checked to identify the instance:
 
-![](assets/screen_shot_2018-09-17at105601pm.png)
+![screen_shot_2018-09-17at105601pm](assets/screen_shot_2018-09-17at105601pm.png)
 
 Under each Product Context instance, there will be an associated Product Profile. This product profile is used for assigning access to users and groups.
 
-![](assets/image2018-9-18_7-48-50.png)
+![image2018-9-18_7-48-50](assets/image2018-9-18_7-48-50.png)
 
 Any users and groups added under this product profile will be able to login to that instance as shown in the example below:
 
-![](assets/screen_shot_2018-09-17at105623pm.png) 
+![screen_shot_2018-09-17at105623pm](assets/screen_shot_2018-09-17at105623pm.png) 
 
 ### Logging into AEM {#logging-into-aem}
 
@@ -161,27 +161,27 @@ Any users and groups added under this product profile will be able to login to t
 
 AEM can continue to support local logins for Admin users, as the login screen has an option to log in locally:
 
-![](assets/screen_shot_2018-09-18at121056am.png) 
+![screen_shot_2018-09-18at121056am](assets/screen_shot_2018-09-18at121056am.png) 
 
 #### IMS Based Login {#ims-based-login}
 
 For other users, the IMS based login can be used once IMS is configured on the instance. The user will first click on the **Sign in with Adobe** button as shown below:
 
-![](assets/image2018-9-18_0-10-32.png)
+![image2018-9-18_0-10-32](assets/image2018-9-18_0-10-32.png)
 
 They will then be redirected to the IMS login screen and enter their credentials:
 
-![](assets/screen_shot_2018-09-17at115629pm.png)
+![screen_shot_2018-09-17at115629pm](assets/screen_shot_2018-09-17at115629pm.png)
 
 If a federated IDP is configured during initial Admin Console setup, then the user will be redirected to the customer IDP for SSO.
 
 The IDP is Okta in the below example:
 
-![](assets/screen_shot_2018-09-17at115734pm.png)
+![screen_shot_2018-09-17at115734pm](assets/screen_shot_2018-09-17at115734pm.png)
 
 After authentication is complete, the user will be redirected back to AEM and logged in:
 
-![](assets/screen_shot_2018-09-18at120124am.png) 
+![screen_shot_2018-09-18at120124am](assets/screen_shot_2018-09-18at120124am.png) 
 
 ### Migrating Existing Users {#migrating-existing-users}
 
@@ -201,21 +201,21 @@ Here, a user has also been assigned to a few groups in the Admin Console. ( Plea
 
 &ast;Note that user groups only get synced when the users log in to the instance, for customers that have a large number of users and groups, a Group Sync utility can be run by AMS to pre-fetch groups for access control and permissions management described above.
 
-![](assets/screen_shot_2018-09-17at94207pm.png)
+![screen_shot_2018-09-17at94207pm](assets/screen_shot_2018-09-17at94207pm.png)
 
 The user is part of the following Groups in IMS:
 
-![](assets/screen_shot_2018-09-17at94237pm.png)
+![screen_shot_2018-09-17at94237pm](assets/screen_shot_2018-09-17at94237pm.png)
 
 When the user logs in, their Group Memberships are synced, as shown below:
 
-![](assets/screen_shot_2018-09-17at94033pm.png)
+![screen_shot_2018-09-17at94033pm](assets/screen_shot_2018-09-17at94033pm.png)
 
 In AEM, the user groups synced from IMS can be added as members to existing local groups, e.g. DAM Users.
 
-![](assets/screen_shot_2018-09-17at95804pm.png)
+![screen_shot_2018-09-17at95804pm](assets/screen_shot_2018-09-17at95804pm.png)
 
 As shown below, the group *AEM-GRP_008* inherits the Permissions and Privileges of DAM Users. This is an effective way of managing permissions for synced groups and is commonly used in LDAP based Authentication methods as well.
 
-![](assets/screen_shot_2018-09-17at110505pm.png)
+![screen_shot_2018-09-17at110505pm](assets/screen_shot_2018-09-17at110505pm.png)
 

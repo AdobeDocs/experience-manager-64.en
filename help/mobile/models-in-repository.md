@@ -60,7 +60,7 @@ For example, an overlay for the String data type could be added in order to chan
 
 For more information on Sling Resource Merging see, [Using Sling Resource Merger in AEM](/help/sites-developing/sling-resource-merger.md).
 
-![](assets/chlimage_1-7.png)
+![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### Data Types {#data-types}
 

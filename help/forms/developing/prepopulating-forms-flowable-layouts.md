@@ -46,7 +46,7 @@ To prepopulate the sample confirmation form, you have to create an XML data sour
 
 After you prepopulate the confirmation form with this XML data source and then render the form, the data values that you assigned to the XML elements are displayed, as shown in the following diagram.
 
-![](assets/pf_pf_confirmxml3.png) 
+![pf_pf_confirmxml3](assets/pf_pf_confirmxml3.png) 
 
 ### Prepopulating forms with flowable layouts {#prepopulating_forms_with_flowable_layouts-1}
 
@@ -56,7 +56,7 @@ A form is typically populated with data that is obtained during run-time. As a r
 
 Consider a web-based application, such as an online store. After an online shopper finishes purchasing items, all purchased items are placed into an in-memory XML data source that is used to prepopulate a form. The following diagram shows this process, which is explained in the table following the diagram.
 
-![](assets/pf_pf_finsrv_webapp_v1.png)
+![pf_pf_finsrv_webapp_v1](assets/pf_pf_finsrv_webapp_v1.png)
 
 The following table describes the steps in this diagram.
 
@@ -89,7 +89,7 @@ The following table describes the steps in this diagram.
 
 The following diagram shows an example of a purchase order form. The information in the table can adjust to the number of records in the XML data. 
 
-![](assets/pf_pf_poform.png)
+![pf_pf_poform](assets/pf_pf_poform.png)
 
 >[!NOTE]
 >

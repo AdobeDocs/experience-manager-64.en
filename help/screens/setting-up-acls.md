@@ -23,7 +23,7 @@ The following steps summarize the procedure for setting up ACLs for a project:
 
 1. Login to AEM and navigate to **Tools** → **Security**.
 
-   ![](assets/screen_shot_2018-02-16at10156pm.png)
+   ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
 1. Click **Groups** and enter an ID (for example, Acme).
 
@@ -31,15 +31,15 @@ The following steps summarize the procedure for setting up ACLs for a project:
 
    Subsequently, click **Save**.
 
-   ![](assets/screen_shot_2018-02-16at12648pm.png)
+   ![screen_shot_2018-02-16at12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
 1. Select **Contributors** from the list and double click it.
 
-   ![](assets/screen_shot_2018-02-18at33938pm.png)
+   ![screen_shot_2018-02-18at33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
 1. Add the **Acme** (project you created) to** Add Members to Group**. Click **Save**.
 
-   ![](assets/screen_shot_2018-02-18at35630pm.png)
+   ![screen_shot_2018-02-18at35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
    >[!NOTE]
    >
@@ -47,13 +47,13 @@ The following steps summarize the procedure for setting up ACLs for a project:
 
 1. Add all the users who will be working on the **Acme** Project to the **Acme** group.
 
-   ![](assets/screen_shot_2018-02-18at41320pm.png)
+   ![screen_shot_2018-02-18at41320pm](assets/screen_shot_2018-02-18at41320pm.png)
 
 1. Setup the permissions for the group **Acme** using this [link](http://localhost:4502/useradmin).
 
    Select the group **Acme** and click the **permissions**.
 
-   ![](assets/screen_shot_2018-02-18at41534pm.png)
+   ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
 ### Permissions {#permissions}
 

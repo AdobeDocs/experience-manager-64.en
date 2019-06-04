@@ -84,7 +84,7 @@ For more information, see [Create an adaptive form](/help/forms/using/creating-a
 ### Using touch-optimized UI for authoring {#using-touch-optimized-ui-for-authoring}
 
 * Use Objects browser in the sidebar to quickly access fields deep down in the form hierarchy. You can use the search box to search for objects in the form or objects tree to navigate from one object to another.
-* To view and edit the properties of a component in the components browser in the sidebar, select the component and click ![](assets/cmppr-1.png). You can also double-click a component to view its properties in the properties browser.
+* To view and edit the properties of a component in the components browser in the sidebar, select the component and click ![cmppr-1](assets/cmppr-1.png). You can also double-click a component to view its properties in the properties browser.
 * Use keyboard shortcuts to take quick actions on your forms. See [AEM Forms Keyboard Shortcuts](/help/forms/using/keyboard-shortcuts.md).  
 
 * Adaptive form components are recommended for use only in adaptive form pages. The components have dependency on their parent hierarchy. Hence, do not use them in an AEM page.

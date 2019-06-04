@@ -65,7 +65,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 1. Select **Delete**
 1. Select **Save All**
 
-![](assets/chlimage_1-70.png) 
+![chlimage_1-70](assets/chlimage_1-70.png) 
 
 ### Create the Child Comment Component {#create-the-child-comment-component}
 
@@ -95,7 +95,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 1. Select **Delete**
 1. Select **Save All**
 
-![](assets/chlimage_1-71.png) ![](assets/chlimage_1-72.png) 
+![chlimage_1-71](assets/chlimage_1-71.png) ![chlimage_1-72](assets/chlimage_1-72.png) 
 
 ### Copy and Modify the Default HBS Scripts {#copy-and-modify-the-default-hbs-scripts}
 
@@ -159,7 +159,7 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 * enter 'customcommentsystem.js' as the content of `js.txt`
 * select **Save All**
 
-![](assets/chlimage_1-73.png) 
+![chlimage_1-73](assets/chlimage_1-73.png) 
 
 ## Register the SCF Model & View {#register-the-scf-model-view}
 

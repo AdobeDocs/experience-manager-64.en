@@ -43,7 +43,7 @@ For example, a mobile application named phonegapapp is created. The following no
 
 **Tip:** To move a package from the author instance to the publish instance, use the Replicate command on the package.
 
-![](assets/chlimage_1-16.png) 
+![chlimage_1-16](assets/chlimage_1-16.png) 
 
 ## Building Using the PhoneGap Command Line Interface {#building-using-the-phonegap-command-line-interface}
 
@@ -132,7 +132,7 @@ Create a PhoneGap Build configuration so that you can use the PhoneGap Build ser
 1. In the CQ Operations area, click Cloud Services.
 1. Click the Configure Now link for PhoneGap Build.
 
-   ![](assets/chlimage_1-17.png)
+   ![chlimage_1-17](assets/chlimage_1-17.png)
 
 1. In the Create Configuration dialog, type a value for the Title property. By default, the value of the Name property is derived from the title, however you can enter a name. Click Create.
 1. In the PhoneGap Build Configuration dialog, type your PhoneGap Build user name and password, and then click OK.

@@ -24,7 +24,7 @@ If you are an Adobe Experience Manager (AEM) Assets user, Lightbox is automatica
 1. From the Assets user interface, select the assets that you want to add to Lightbox.
 1. Drag the assets to the **Drop in Lightbox** zone. Release when the Dropzone becomes active, and its label changes to **Drop to Add**.
 
-   ![](assets/add_to_lightbox.png)
+   ![add_to_lightbox](assets/add_to_lightbox.png)
 
 1. In the dialog, tap/click **Add**, and then close it to complete the process. The selected assets are added to Lightbox.
 1. To view Lightbox, go to the Collections console.

@@ -44,11 +44,11 @@ To integrate AEM 3D with Autodesk Maya:
 
    For example, on Windows Server 2012, tap or click **Start** > **Control Panel** > **System and Security** > **System** > **Advanced System Settings** > **Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
 
-   ![](assets/chlimage_1-53.png)
+   ![chlimage_1-53](assets/chlimage_1-53.png)
 
 1. To enable Maya for ingestion and rendering, open CRXDE Lite and navigate to **`/libs/settings/dam/v3D/assetTypes/maya`** and set the **Enabled** property to `true`.
 
-   ![](assets/image2018-6-22_12-42-7.png)
+   ![image2018-6-22_12-42-7](assets/image2018-6-22_12-42-7.png)
 
 1. To enable the JT (Siemens PLM Open CAD) file format, navigate to **`/libs/settings/dam/v3D/assetTypes/jt`** and set the **Enabled** property to `true`.
 1. In AEM, enable Maya as a renderer. Begin by navigating to **Tools** &gt; **General** &gt; **CRXDE Lite**.
@@ -56,7 +56,7 @@ To integrate AEM 3D with Autodesk Maya:
 
    `/libs/settings/dam/v3D/renderers/maya`
 
-   ![](assets/image2018-6-22_12-46-18.png)
+   ![image2018-6-22_12-46-18](assets/image2018-6-22_12-46-18.png)
 
 1. Set the **Enabled** property to `true`.
 
@@ -80,7 +80,7 @@ To integrate AEM 3D with Autodesk Maya:
 
 1. Near the upper-left corner of the page, tap or click the drop-down list and then select **Render**.
 
-   ![](assets/chlimage_1-54.png)
+   ![chlimage_1-54](assets/chlimage_1-54.png)
 
 1. In the **Renderer** drop-down list, select **Autodesk Maya**, then tap or click **Start Render**.
 1. Near the upper-right corner of the page, tap or click **Close** to return to the Card view.
@@ -118,5 +118,5 @@ To enable additional formats supported by AEM:
 
 The following illustrates an added file format, using COLLADA DAE as an example:
 
-![](assets/image2018-6-22_12-50-39.png)
+![image2018-6-22_12-50-39](assets/image2018-6-22_12-50-39.png)
 

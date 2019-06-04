@@ -23,7 +23,7 @@ The author environment of AEM provides various mechanisms for searching for cont
 
 To access the search panel, click on the **Search** tab at the top of the left-hand pane of the appropriate console.
 
-![](assets/chlimage_1-140.png)
+![chlimage_1-140](assets/chlimage_1-140.png)
 
 The search panel lets you search across all your website pages. It contains fields and widgets for the following:
 
@@ -50,7 +50,7 @@ Execute the search by clicking **Search** at the bottom of the pane. Click **Res
 
 At various locations a filter can be set (and cleared) to drill down and refine your view:
 
-![](assets/chlimage_1-141.png)
+![chlimage_1-141](assets/chlimage_1-141.png)
 
 ## Find and Replace {#find-and-replace}
 
@@ -59,7 +59,7 @@ In the **Websites** console a **Find & Replace** menu option allows you to searc
 1. Select the root page, or folder, where you want the find and replace action to take place.
 1. Select **Tools** then **Find & Replace**:
 
-   ![](assets/screen_shot_2012-02-15at120346pm.png)
+   ![screen_shot_2012-02-15at120346pm](assets/screen_shot_2012-02-15at120346pm.png)
 
 1. The **Find & Replace** dialog does the following:
 
@@ -71,7 +71,7 @@ In the **Websites** console a **Find & Replace** menu option allows you to searc
 
    Clicking **Preview** lists where the term has been found. You can select/clear specific instances to be replaced:
 
-   ![](assets/screen_shot_2012-02-15at120719pm.png)
+   ![screen_shot_2012-02-15at120719pm](assets/screen_shot_2012-02-15at120719pm.png)
 
 1. Click **Replace** to actually replace all instances. You will be asked to confirm the action.
 

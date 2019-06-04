@@ -37,13 +37,13 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When first placed on a page of a community site, this is how the component appears:
 
-![](assets/chlimage_1-8.png)
+![chlimage_1-8](assets/chlimage_1-8.png)
 
 ## Configuring Leaderboard {#configuring-leaderboard}
 
 Select the placed `Leaderboard` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-9.png) ![](assets/chlimage_1-10.png)
+![chlimage_1-9](assets/chlimage_1-9.png) ![chlimage_1-10](assets/chlimage_1-10.png)
 
 ### Settings tab {#settings-tab}
 
@@ -108,7 +108,7 @@ Leaderboard component configuration:
     * Badging Rule = `/etc/community/badging/rules/reference-badging`
     * Display Limit = `10`
 
-![](assets/chlimage_1-11.png)
+![chlimage_1-11](assets/chlimage_1-11.png)
 
 ## Example: Experts Leaderboard {#example-experts-leaderboard}
 
@@ -131,7 +131,7 @@ Leaderboard component configuration:
     * Badging Rule = `/etc/community/badging/rules/adv-forums-badging`
     * Display Limit = `10`
 
-![](assets/chlimage_1-12.png)
+![chlimage_1-12](assets/chlimage_1-12.png)
 
 ## Additional Information {#additional-information}
 

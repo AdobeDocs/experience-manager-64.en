@@ -30,7 +30,7 @@ The following procedure uses the touch-optimized UI to create a Microsoft Transl
 1. In the Microsoft Translator area, then click or tap Show Configurations.
 1. Click the + link next to Available Configurations.
 
-   ![](assets/chlimage_1-382.png)
+   ![chlimage_1-382](assets/chlimage_1-382.png)
 
 1. Type a title for your configuration. The title identifies the configuration in the Cloud Services console as well as in page property drop-down lists. The default name is based on the title. Optionally, type a name to use for the repository node that stores the configuration. You should use the default value for the Parent Configuration property which is the path of the repository node.
 1. Click Create.
@@ -57,11 +57,11 @@ Microsoft Translation configuration pages provide a convenient link to the Micro
 1. On the rail, click or tap Tools &gt; Operations &gt; Cloud &gt; Cloud Services.
 1. In the Microsoft Translator area, click or tap Show Configurations, then click or tap Microsoft Translator Trial License (Microsoft Translation Configuration).
 
-   ![](assets/chlimage_1-383.png)
+   ![chlimage_1-383](assets/chlimage_1-383.png)
 
 1. On the configuration page, click Upgrade Subscription. Use the Microsoft web page that opens to configure your account.
 
-   ![](assets/chlimage_1-384.png)
+   ![chlimage_1-384](assets/chlimage_1-384.png)
 
 ### Customizing Your Microsoft Translator Engine {#customizing-your-microsoft-translator-engine}
 

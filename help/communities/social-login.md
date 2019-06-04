@@ -15,7 +15,7 @@ discoiquuid: c0a71870-8f95-40c8-9ffd-b7af49723288
 
 Social login is the capability to present a site visitor the option to sign in with their Facebook or Twitter account. Therefore, including permitted Facebook or Twitter data in their AEM member profile.
 
-![](assets/socialloginweretail.png) 
+![socialloginweretail](assets/socialloginweretail.png) 
 
 ## Social Login Overview {#social-login-overview}
 
@@ -106,11 +106,11 @@ The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe
 1. Check if your context path is enabled to create cloud services below it.
 1. Go to **Tools, General, Configuration Browser.** Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
 
-   ![](assets/config-propertiespng.png)
+   ![config-propertiespng](assets/config-propertiespng.png)
 
 1. Create/Edit Facebook cloud service configuration.
 
-   ![](assets/fbsocialloginconfigpng.png)
+   ![fbsocialloginconfigpng](assets/fbsocialloginconfigpng.png)
 
     * **Title** (*Required*) Enter a display title that identifies the Facebook App. It is recommended to use the same name entered as the *Display Name* for the Facebook app.
     * **App ID/API Key** (*Required*) Enter the ***App ID*** for the Facebook App. This identifies the [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance created from the dialog.
@@ -147,7 +147,7 @@ If editing is necessary, on each AEM publish instance:
 1. Locate AEM Communities Facebook OAuth Provider.
 1. Select the pencil icon to open for edit.
 
-   ![](assets/fboauthprov_png.png)
+   ![fboauthprov_png](assets/fboauthprov_png.png)
 
     * **OAuth Provider ID** 
   
@@ -252,11 +252,11 @@ The [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-applicat
 1. Check if your context path is enabled to create cloud services below it.
 1. Go to **Tools, General, Configuration Browser.** Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
 
-   ![](assets/twitterconfigproppng.png)
+   ![twitterconfigproppng](assets/twitterconfigproppng.png)
 
 1. Create/Edit Twitter cloud service configuration.
 
-   ![](assets/twittersocialloginpng.png)
+   ![twittersocialloginpng](assets/twittersocialloginpng.png)
 
     * **Title** (*Required*) Enter a display title that identifies the Twitter App. It is recommended to use the same name entered as the *Display Name* for the Twitter app.
 
@@ -292,7 +292,7 @@ If editing is necessary, on each AEM publish instance:
 1. Locate AEM Communities Twitter OAuth Provider.
 1. Select the pencil icon to open for edit.
 
-   ![](assets/twitteroauth_png.png)
+   ![twitteroauth_png](assets/twitteroauth_png.png)
 
     * **OAuth Provider ID **(*Required*) 
 
@@ -333,11 +333,11 @@ Once a cloud service is configured, it may be enabled for the relevant Social Lo
 
 1. On General tab, set cloud configurations.
 
-   ![](assets/managesites_png.png)
+   ![managesites_png](assets/managesites_png.png)
 
 1. On Settings tab, enable **Social Logins **and Save.
 
-   ![](assets/usermgmt_png.png)
+   ![usermgmt_png](assets/usermgmt_png.png)
 
 ## Test Social Login {#test-social-login}
 
@@ -374,13 +374,13 @@ To enable the authentication handler on publish, simply open the OSGi config and
 
 * select **Save**
 
-![](assets/chlimage_1-489.png)
+![chlimage_1-489](assets/chlimage_1-489.png)
 
 >[!CAUTION]
 >
 >Be careful to not confuse the authentication handler with a Facebook or Twitter instance of *Adobe Granite OAuth Application and Provider*.
 
-![](assets/chlimage_1-490.png) 
+![chlimage_1-490](assets/chlimage_1-490.png) 
 
 ### Adobe Granite OAuth Application and Provider {#adobe-granite-oauth-application-and-provider}
 
@@ -397,7 +397,7 @@ To locate the created instance for a Facebook or Twitter app:
 
     * Locate the instance where ***Client ID*** matches the ***App ID***
 
-   ![](assets/chlimage_1-491.png)
+   ![chlimage_1-491](assets/chlimage_1-491.png)
 
    Except the following properties, leave the other properties of the config  unaltered:
 
@@ -477,7 +477,7 @@ On an author instance, signed in with administrative privileges:
 
 **&ast;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](/help/communities/social-login.md#adobe-granite-oauth-application-and-provider)configuration.
 
-![](assets/chlimage_1-492.png)
+![chlimage_1-492](assets/chlimage_1-492.png)
 
 For additional information and tools, refer to [Oak Queries and Indexing](/help/sites-deploying/queries-and-indexing.md).
 

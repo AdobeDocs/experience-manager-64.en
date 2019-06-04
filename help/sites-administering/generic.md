@@ -102,7 +102,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Using the **Tools** console open the **Commerce** folder.
 1. Double-click to open the **Product Importer**:
 
-   ![](assets/chlimage_1-54.jpeg)
+   ![chlimage_1-54](assets/chlimage_1-54.jpeg)
 
 1. Specify:
 
@@ -191,7 +191,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 
 1. Select your required product - the secondary rail will update to show the reference types available:
 
-   ![](assets/chlimage_1-326.png)
+   ![chlimage_1-326](assets/chlimage_1-326.png)
 
 1. Click/tap on the reference type (e.g. Product Pages) to expand the list.
 1. Select a specific reference to show the options:
@@ -199,7 +199,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
     * Navigate to Product Page
     * Edit Product Page
 
-   ![](assets/chlimage_1-327.png)
+   ![chlimage_1-327](assets/chlimage_1-327.png)
 
 ### Search for Products {#search-for-products}
 
@@ -210,7 +210,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 
 1. Several facets are available for you to search for products. You can use only one or several facets for a search. The products found will appear:
 
-   ![](assets/chlimage_1-328.png)
+   ![chlimage_1-328](assets/chlimage_1-328.png)
 
 1. Clicking/tapping a product opens it. You can also publish it or view the product data.
 
@@ -248,7 +248,7 @@ You can add multiple assets in the product component, then specify the asset tha
 1. Tap/click Edit icon.
 1. Scroll to **Add**.
 
-   ![](assets/chlimage_1-329.png)
+   ![chlimage_1-329](assets/chlimage_1-329.png)
 
 1. Tap/click **Add**. A new asset placeholder appears.
 1. Tapping/clicking **Change **opens a dialog which allows you to choose an asset.
@@ -387,11 +387,11 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
 
 1. Click the fullscreen icon.
 
-   ![](assets/chlimage_1-330.png)
+   ![chlimage_1-330](assets/chlimage_1-330.png)
 
 1. Click the Launch Map icon.
 
-   ![](assets/chlimage_1-331.png)
+   ![chlimage_1-331](assets/chlimage_1-331.png)
 
 1. Click one of the shape icons.
 
@@ -405,7 +405,7 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
    >
    >Alternatively, you can type directly the product path which has to be at the product level, not the variant level.
 
-   ![](assets/chlimage_1-332.png)
+   ![chlimage_1-332](assets/chlimage_1-332.png)
 
 1. Click the confirm icon twice then click exit fullscreen.
 1. Click somewhere on the page next to the component. The page should refresh and you should see the following symbol on your image:
@@ -415,7 +415,7 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
 1. Switch to [preview](/help/sites-authoring/editing-content.md#previewing-pages) mode.
 1. Click the + hotspot. A dialog opens where you can choose the size and quantity of the product you entered in **Path**. 
 
-   ![](assets/chlimage_1-333.png)
+   ![chlimage_1-333](assets/chlimage_1-333.png)
 
 1. Enter a size and a quantity.
 1. Click the Add to cart button. The dialog closes.
@@ -427,15 +427,15 @@ You can configure how the dialog looks like when you click the hotspot:
 
 1. Click the component and click the configure icon.
 
-   ![](assets/chlimage_1-334.png)
+   ![chlimage_1-334](assets/chlimage_1-334.png)
 
 1. Scroll down. There is a **ADD TO CART** tab.
 
-   ![](assets/chlimage_1-335.png)
+   ![chlimage_1-335](assets/chlimage_1-335.png)
 
 1. Click **ADD TO CART**. There are 3 configuration options that you can use.
 
-   ![](assets/chlimage_1-336.png)
+   ![chlimage_1-336](assets/chlimage_1-336.png)
 
 1. Click the Done icon.
 
@@ -459,18 +459,18 @@ To generate a Catalog:
 
 1. From the list select **Create Catalog**, the Create Catalog wizard will open.
 
-   ![](assets/chlimage_1-337.png)
+   ![chlimage_1-337](assets/chlimage_1-337.png)
 
 1. Navigate to the required Catalog Blueprint.
 1. Tap/click **Select** button and tap/click the required Catalog Blueprint.
 1. Tap/click **Next**.
 
-   ![](assets/chlimage_1-338.png)
+   ![chlimage_1-338](assets/chlimage_1-338.png)
 
 1. Type a **Title** and a **Name**.
 1. Tap/click the **Create** button. The catalog is created and a dialog opens.
 
-   ![](assets/chlimage_1-339.png)
+   ![chlimage_1-339](assets/chlimage_1-339.png)
 
 1. Tapping/clicking **Done** button brings you back to the Sites console where you'll be able to see you catalog.
 
@@ -550,7 +550,7 @@ To rollout a catalog:
 
 1. In the wizard, select the Source as required and tap/click **Next**.
 
-   ![](assets/chlimage_1-340.png)
+   ![chlimage_1-340](assets/chlimage_1-340.png)
 
 1. Tap/click **Done** once the import is finished.
 

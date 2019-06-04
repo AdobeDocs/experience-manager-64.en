@@ -38,7 +38,7 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/essentials-comments.md#essentials-for-client-side) are included, this is how the `Comments`component will appear.
 
-![](assets/chlimage_1-428.png)
+![chlimage_1-428](assets/chlimage_1-428.png)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ When the [required client-side libraries](/help/communities/essentials-comments.
 
 Select the placed `Comments` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/configure.png) ![](assets/commentssettings.png)
+![configure](assets/configure.png) ![commentssettings](assets/commentssettings.png)
 
 ### Comments tab {#comments-tab}
 
@@ -133,7 +133,7 @@ Once the custom resource types is known, enter [Design Mode](/help/sites-authori
 
 Under the **Resource Types **tab, specify the custom resourceType for new instances of the `Comments or Voting`components:
 
-![](assets/chlimage_1-429.png)
+![chlimage_1-429](assets/chlimage_1-429.png)
 
 * **Comment Resource Type** 
   Navigate to the resourceType of an extended `comment`component (single comment) in /apps. For example, `/apps/social/commons/components/hbs/comments/comment`

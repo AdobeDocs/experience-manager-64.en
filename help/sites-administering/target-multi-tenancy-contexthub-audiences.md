@@ -114,15 +114,15 @@ You can set up multiple tenants by creating groups for those tenant users and ad
 
 In this example, there are three tenant groups: **tenants1**, **tenants2**, and **tenantsX**. You can manage groups and users by navigating to **Tools** &gt; **Security** &gt; **Users** or **Groups** respectively.
 
-![](assets/chlimage_1-278.png)
+![chlimage_1-278](assets/chlimage_1-278.png)
 
 Each tenant group in this example has one user: **tenant1**, **tenant2**, and **tenantX**.
 
-![](assets/chlimage_1-279.png)
+![chlimage_1-279](assets/chlimage_1-279.png)
 
 For example, if you select the group **tenants1**, you see that **tenant1** is a member of that group. The same is true of the other users: **tenant2** is a member of group **tenants2**.** tenantX **is a member of group **tenantsX**.
 
-![](assets/chlimage_1-280.png)
+![chlimage_1-280](assets/chlimage_1-280.png)
 
 In addition, all groups are members of the group **content-authors**, which gives them write permissions, and **target-activity-authors**, which gives them the right to set up to target activities.
 
@@ -142,7 +142,7 @@ The folder structure on your AEM instance in this example looks something like t
     * **/adobe-target** -- this folder contains audiences for adobe target
     * **/brands** -- these folders contain audiences specific to brands, such as geometrixx or we.retail.
 
-![](assets/chlimage_1-281.png)
+![chlimage_1-281](assets/chlimage_1-281.png)
 
 If you expand each folder, they include audiences that are specific to that folder.
 
@@ -170,15 +170,15 @@ In addition, tenants cannot read tenant folders if they are denied **rep:write**
 
 * When looking at the **tenantsX** group privileges, **tenants1** and **tenants2** are denied permission to the tenantsX folder. Only users in group **tenantsX** have access to this folder.
 
-  ![](assets/chlimage_1-282.png)
+  ![chlimage_1-282](assets/chlimage_1-282.png)
 
 * When looking at the **tenants2** group privileges, **tenants1** is denied permission to the tenants2 folder. (But **tenantsX** is not denied, so users in that group can access the tenants2 folder).
 
-  ![](assets/chlimage_1-283.png)
+  ![chlimage_1-283](assets/chlimage_1-283.png)
 
 * When looking at the **tenants1** group privileges, **tenants2** is denied permission to the tenants1 folder. (But **tenantsX** is not denied, so users in that group can access the tenants2 folder).
 
-  ![](assets/chlimage_1-284.png)
+  ![chlimage_1-284](assets/chlimage_1-284.png)
 
 After changing the rights, if you are a user in the **tenantsX** group, you see all the folders. If you are a user in the **tenants1** group, you only see folders in tenant1. If you are a user in the **tenants2** group, you only see folders in tenants 2.
 
@@ -190,7 +190,7 @@ Audiences are covered in general in detail in [Managing Audiences](/help/sites-a
 
 Audiences can also be managed in structured folders:
 
-![](assets/chlimage_1-285.png)
+![chlimage_1-285](assets/chlimage_1-285.png)
 
 You can create audiences directly in contexthub or in a tenant folder. Which audiences and audience folders are available to a certain user depends on the privileges.
 

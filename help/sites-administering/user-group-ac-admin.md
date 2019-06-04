@@ -97,7 +97,7 @@ The list of access rights applicable for the subject is constructed from:
 * the rights that you assign directly to the user account  
 * plus all rights assigned to any of the groups that the user belongs to
 
-![](assets/chlimage_1-307.png)
+![chlimage_1-307](assets/chlimage_1-307.png)
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ When CRX handles the request it compares the access request from the subject wit
 
 So if Linda requests to update the `/features` node in the following repository structure:
 
-![](assets/chlimage_1-308.png) 
+![chlimage_1-308](assets/chlimage_1-308.png) 
 
 ### Order of Precedence {#order-of-precedence}
 
@@ -213,7 +213,7 @@ You must be logged into the appropriate workspace, then you can access the dialo
 * the **User Administration** link on the Main Console of CRX
 * the **Security** menu of the CRX Explorer
 
-![](assets/chlimage_1-309.png)
+![chlimage_1-309](assets/chlimage_1-309.png)
 
 **Properties**
 
@@ -331,7 +331,7 @@ You must be logged into the appropriate workspace, then you can access the dialo
 * the **Group Administration** link on the Main Console of CRX
 * the **Security** menu of the CRX Explorer
 
-![](assets/chlimage_1-47.jpeg)
+![chlimage_1-47](assets/chlimage_1-47.jpeg)
 
 **Properties**
 
@@ -427,7 +427,7 @@ With the **Access Control** tab of CRXDE Lite you can define the access control 
 
 For example, for **Current Path** select the required resource in the left pane, the Access Control tab in the bottom right pane:
 
-![](assets/crx_accesscontrol_tab.png)
+![crx_accesscontrol_tab](assets/crx_accesscontrol_tab.png)
 
 The policies are categorized according to:
 
@@ -461,7 +461,7 @@ The policies can be selected for:
 
   This allows you to **Search** for a **User** or **Group**. Select the required principal from the resulting list, then click **OK** to carry the value back to the previous dialog.
 
-![](assets/crx_accesscontrol_selectprincipal.png)
+![crx_accesscontrol_selectprincipal](assets/crx_accesscontrol_selectprincipal.png)
 
 >[!NOTE]
 >
@@ -572,11 +572,11 @@ You can also register new privileges:
 
 1. From the toolbar select **Tools**, then **Privileges** to display the privileges currently registered.
 
-   ![](assets/ac_privileges.png)
+   ![ac_privileges](assets/ac_privileges.png)
 
 1. Use the **Register Privilege** icon (**+**) to open the dialog and define a new privilege:
 
-   ![](assets/ac_privilegeregister.png)
+   ![ac_privilegeregister](assets/ac_privilegeregister.png)
 
 1. Click **OK** to save. The privilege will now be available for selection.
 
@@ -586,15 +586,15 @@ You can also register new privileges:
 
 1. To add a new **Local Access Control Policies**, click the **+** icon at the right of the **Applicable Access Control Policy** list:
 
-   ![](assets/crx_accesscontrol_applicable.png)
+   ![crx_accesscontrol_applicable](assets/crx_accesscontrol_applicable.png)
 
 1. A new entry appears under **Local Access Control Policies:**
 
-   ![](assets/crx_accesscontrol_newlocal.png)
+   ![crx_accesscontrol_newlocal](assets/crx_accesscontrol_newlocal.png)
 
 1. Click the **+** icon to add a new entry:
 
-   ![](assets/crx_accesscontrol_addentry.png)
+   ![crx_accesscontrol_addentry](assets/crx_accesscontrol_addentry.png)
 
    >[!NOTE]
    >
@@ -615,7 +615,7 @@ The order in the list indicates the order in which the policies are applied.
 
 1. In the table of **Local Access Control Policies** select the required entry and drag it to the new position in the table.
 
-   ![](assets/crx_accesscontrol_reorder.png)
+   ![crx_accesscontrol_reorder](assets/crx_accesscontrol_reorder.png)
 
 1. The changes will be shown in both the tables for the **Local** and the **Effective Access Control Policies**.
 
@@ -633,5 +633,5 @@ The order in the list indicates the order in which the policies are applied.
 
 1. Click **Test** to see the results for your selection:
 
-   ![](assets/crx_accesscontrol_test.png)
+   ![crx_accesscontrol_test](assets/crx_accesscontrol_test.png)
 

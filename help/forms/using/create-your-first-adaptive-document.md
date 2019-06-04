@@ -19,7 +19,7 @@ One of their customers' auto insurance policy is expiring and they are sending h
 The portal runs on Adobe AEM. The web and print welcome channel output is created using the multi-channel capabilities of Adaptive Document.
 
 You will have an adaptive document similar to the following at the end of the tutorial:
-    [ ![](assets/ad-1.png)](https://blogs.adobe.com/contentcorner/files/2017/07/PAF_Mobile.pdf)    [ ![](assets/ad-2.png)](https://blogs.adobe.com/contentcorner/files/2017/07/PAF_Desktop.pdf)Creating your first adaptive document tutorial is categorized into steps. Each step is a complete article in itself.
+    [ ![ad-1](assets/ad-1.png)](https://blogs.adobe.com/contentcorner/files/2017/07/PAF_Mobile.pdf)    [ ![ad-2](assets/ad-2.png)](https://blogs.adobe.com/contentcorner/files/2017/07/PAF_Desktop.pdf)Creating your first adaptive document tutorial is categorized into steps. Each step is a complete article in itself.
 
 <table> 
  <tbody>
@@ -74,7 +74,7 @@ Goals:
 * Layout fields of an adaptive form to display information to the customer
 * Create rules to retrieve and display information from form data model to adaptive document.
 
-<!--![](assets/see-the-guide-sm.png)-->
+<!--![see-the-guide-sm](assets/see-the-guide-sm.png)-->
 
 ## Step 3: Apply rules to adaptive document fields (Web channel only) {#step-apply-rules-to-adaptive-document-fields-web-channel-only}
 

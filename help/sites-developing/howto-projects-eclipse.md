@@ -115,15 +115,15 @@ For that to work:
 1. In Eclipse, choose File &gt; Import...
 1. In the Import Dialog, choose Maven &gt; Existing Maven Projects, then click "Next".
 
-   ![](assets/chlimage_1-41.png)
+   ![chlimage_1-41](assets/chlimage_1-41.png)
 
 1. Enter the path to your project's top-level folder, then click "Select All" and "Finish".
 
-   ![](assets/chlimage_1-42.png)
+   ![chlimage_1-42](assets/chlimage_1-42.png)
 
 1. You are now all set for using Eclipse to develop your AEM project, including JSP autocompletion.
 
-   ![](assets/chlimage_1-43.png)
+   ![chlimage_1-43](assets/chlimage_1-43.png)
 
    >[!NOTE]
    >

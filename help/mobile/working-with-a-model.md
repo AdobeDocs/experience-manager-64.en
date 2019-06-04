@@ -39,16 +39,16 @@ Once you have defined the configurations in the Configuration Browser, you can c
 
 1. Navigate to the Models console and choose the configuration.
 
-   ![](assets/chlimage_1.png)
+   ![chlimage_1](assets/chlimage_1.png)
 
 1. Click **Create** to create a new model.
 1. Choose the type of template: **Entity Group** or **Primitives Types Model**. Click **Next**.
 
-   ![](assets/chlimage_1-1.png)
+   ![chlimage_1-1](assets/chlimage_1-1.png)
 
 1. Enter the **Model Title** and **Description**. Click **Create** to create a model.
 
-   ![](assets/chlimage_1-2.png)
+   ![chlimage_1-2](assets/chlimage_1-2.png)
 
    >[!NOTE]
    >
@@ -56,19 +56,19 @@ Once you have defined the configurations in the Configuration Browser, you can c
 
    If you created your model using the Entity Group as the template, you will only view options such as Properties, Copy and Delete for that created model.
 
-   ![](assets/chlimage_1-3.png)
+   ![chlimage_1-3](assets/chlimage_1-3.png)
 
    If you created your model using the **Primitives Model Type** as the template, you will only view options such as Edit, Properties, Copy and Delete for that created model.
 
-   ![](assets/chlimage_1-4.png)
+   ![chlimage_1-4](assets/chlimage_1-4.png)
 
 1. If you choose the template as **Primitive Models type**, click **Edit** to add the data types using the **Data Model Editor**.
 
-   ![](assets/chlimage_1-5.png)
+   ![chlimage_1-5](assets/chlimage_1-5.png)
 
    Or, if you are using the **Entity Template** for your model, then click on view properties to upload an image or get more information on the defined model.
 
-   ![](assets/chlimage_1-6.png)
+   ![chlimage_1-6](assets/chlimage_1-6.png)
 
    >[!NOTE]
    >

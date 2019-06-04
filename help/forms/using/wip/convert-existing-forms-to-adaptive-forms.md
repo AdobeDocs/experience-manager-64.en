@@ -47,7 +47,7 @@ After you have uploaded the forms and configured the service, perform the follow
 1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** ![](../assets/adobeexperiencemanager.png) > **[!UICONTROL Navigation]** ![](../assets/compass.png) **[!UICONTROL]**> **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
 1. Select the folder containing PDF forms (forms to be converted) and tap **[!UICONTROL  **Start Automated Forms Conversion**]**. The **[!UICONTROL Conversion Settings]** dialog appears.
 
-   ![](assets/start-conversion-dialog.png)
+   ![start-conversion-dialog](assets/start-conversion-dialog.png)
 
 1. In the **[!UICONTROL **General**]**tab of the Conversion Settings dialog:
 
@@ -64,7 +64,7 @@ After you have uploaded the forms and configured the service, perform the follow
 
    On a successful conversion, the converted adaptive form and related schema are downloaded to the folder specified in the **[!UICONTROL Output]**tab of the conversion dialog. Form fragments and corresponding schema are downloaded only if the **[!UICONTROL Extract Fragment]** option is selected before starting the conversion.
 
-   ![](assets/conversion-in-progress.png)
+   ![conversion-in-progress](assets/conversion-in-progress.png)
 
    >[!NOTE]
    >

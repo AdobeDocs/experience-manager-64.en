@@ -45,7 +45,7 @@ AEM 6.0 introduced the new Jackrabbit Oak repository. Persistence Managers were 
 
 If Asset Insights is to be used and you are upgrading from a version older than AEM 6.2, assets must be migrated and have IDs generated through a JMX bean. In our internal tests, 125K assets on a TarMK environment were migrated in an hour, but your results may vary.
 
-6.3 introduced a new format for the `SegmentNodeStore`, which is the basis of the TarMK implementation. If you are upgrading from a version older than AEM 6.3, this will require a repository migration as part of the upgrade, involving system downtime.
+AEM 6.3 introduced a new format for the `SegmentNodeStore`, which is the basis of the TarMK implementation. If you are upgrading from a version older than AEM 6.3, this will require a repository migration as part of the upgrade, involving system downtime.
 
 Adobe Engineering estimates this to be around 20 minutes. Note that reindexing will not be necessary. Additionally, a new version of the crx2oak tool has been released to work with the new repository format.
 
@@ -71,7 +71,7 @@ For more details about what else has changed in recent AEM versions, see the com
 
 Upgrading AEM is a multi-step, sometimes multi-month process. The following outline has been provided as an overview of what is included in an upgrade project and the content that has been included in this documentation:
 
-![](assets/screen_shot_2018-03-30at80708am.png)
+![screen_shot_2018-03-30at80708am](assets/screen_shot_2018-03-30at80708am.png)
 
 ## Upgrade Flow with 6.4 Upgrade Improvements {#upgrade-overview-1}
 
@@ -81,5 +81,5 @@ There was a big focus in 6.4 to keep all the new features backward compatible, b
 
 Finally, in your 6.4 development cycle, features introduced under Sustainable Upgrades(see [Sustainable Upgrades](/help/sites-deploying/sustainable-upgrades.md)) help you follow best practices to make future upgrades even more efficient and seamless.
 
-![](assets/6_4_upgrade_overviewflowchart-newpage3.png)
+![6_4_upgrade_overviewflowchart-newpage3](assets/6_4_upgrade_overviewflowchart-newpage3.png)
 

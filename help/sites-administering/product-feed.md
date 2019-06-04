@@ -65,7 +65,7 @@ A scheduler is configured as a child configuration of your specific Search&Promo
 1. Enter a **[!UICONTROL Title]** that is recognizable to page authors, and a unique **[!UICONTROL Name]**.
 1. Click **[!UICONTROL Create]**. A dialog opens.
 
-   ![](assets/chlimage_1-108.png)
+   ![chlimage_1-108](assets/chlimage_1-108.png)
 
 1. Enter the **[!UICONTROL Remote Control Password]**. It is the password you configured in your Search&Pronote account.
 

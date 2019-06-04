@@ -68,7 +68,7 @@ In CQ 5.6.1 **Author Offload** is the preferred solution. It consists of the fol
   
   With a shared data store and binaryless replication configured, the resulting replication step will need to transfer only the *data store references* from processing to editing instance. The actual binary data will reside in the shared data store, and remain there. If the publish instance also shares the same data store then binaryless replication between editing and publish will be similarly improved.
 
-![](assets/chlimage_1-95.png)
+![chlimage_1-95](assets/chlimage_1-95.png)
 
 #### Author Cluster {#author-cluster}
 
@@ -83,7 +83,7 @@ For pre-5.6.1 installations, where offloading is not available, one solution is 
 
 #### Author Preprocessing {#author-preprocessing}
 
-![](assets/chlimage_1-96.png)
+![chlimage_1-96](assets/chlimage_1-96.png)
 
 An alternative solution for pre-5.6.1 is **Author Preprocessing**. This solution consists of the following steps:
 
@@ -129,7 +129,7 @@ The recommended solution in this case is the **Import Author**:
 * Once the product information is updated and the package built, it is replicated to the editing author. In some cases it may also be appropriate to replicate the resulting package directy to the publish instance(s). 
 * Note that in some cases such direct-publish replication from the import author will not work. For example, with CQs eCommerce solution, the product information must be replicated to the editing author, where it is further processed and then replicated to the publish instances.
 
-![](assets/chlimage_1-97.png)
+![chlimage_1-97](assets/chlimage_1-97.png)
 
 #### Import Author with Sharding {#import-author-with-sharding}
 
@@ -224,7 +224,7 @@ It may also be useful separate the replication queues so that the main queue is 
 
 In some case it might be possible to import and continually update the newsfeed directly to the publish instance, bypassing the need for author-to-publish replication. Of course this would only be feasible if human filtering or processing of the feed content was not needed. If human filtering is not required, then importing directly to the publishers is the best course. You should ensure the import starts at the same time on each publisher to achieve consistent results accross publishers.
 
-![](assets/chlimage_1-98.png)
+![chlimage_1-98](assets/chlimage_1-98.png)
 
 ## Many Editors {#many-editors}
 
@@ -247,7 +247,7 @@ The two (or more) author instances would each publish their content via replicat
 
 The disadvantage of this approach is that linking across content shards would be more difficult, since the links would only resolve correctly once all content was replicated to publish. If however you have areas of content that are entirely independent of each other, this is the recommended approach to scaling.
 
-![](assets/chlimage_1-99.png)
+![chlimage_1-99](assets/chlimage_1-99.png)
 
 ### Tuning Strategies {#tuning-strategies-1}
 
@@ -285,7 +285,7 @@ The first step is to leverage the dispatcher caching as well as possible:
 
 A further possible step is to set up an external Content Delivery Network (CDN) to cache content closer to your users. You should ensure that the CDN is configured with a suitably short Time To Live (TTL).
 
-![](assets/chlimage_1-100.png)
+![chlimage_1-100](assets/chlimage_1-100.png)
 
 #### Improve Rendering and Delivery {#improve-rendering-and-delivery}
 
@@ -324,7 +324,7 @@ The best solution in such a case is to leverage the data store:
 * Keep in mind that while the main repository storage (the PM store) requires a disk with very low latency (i.e., a local disk on the instance machine), the data store can be can be kept in higher-latency (and cheaper) remote storage such as network attached storage (NAS) or cloud storage (Amazon S3, Preview Technology). 
 * Note that in 5.6.1, there are huge performance improvements (about 10x or more) for the data store garbage collection if the persistence manager uses tar-based storage.
 
-![](assets/chlimage_1-101.png)
+![chlimage_1-101](assets/chlimage_1-101.png)
 
 ## Geographically Distributed Editors {#geographically-distributed-editors}
 
@@ -348,5 +348,5 @@ Reduce the traffic between the dispatcher and the editor's browser, for example 
 * Minify and concatenate all client libraries.
 * Cache all responses for non-authorable content in the editor's browser cache by configuring the expiry headers in dispatcher (e.g. using Apache's mod_expires)
 
-![](assets/chlimage_1-102.png)
+![chlimage_1-102](assets/chlimage_1-102.png)
 

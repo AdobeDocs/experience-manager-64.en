@@ -19,7 +19,7 @@ discoiquuid: a87834c9-247c-49fa-9978-a969230db91c
 
 The **Manage App** Tile on the App Dashboard provides the ability to modify details about the Application. To open the Details page click on the Manage App tile's details link. From within the Manage App page you can edit the PhoneGap Application Configuration (config.xml) settings and prepare your application for submission to the various application stores.
 
-![](assets/chlimage_1-116.png) 
+![chlimage_1-116](assets/chlimage_1-116.png) 
 
 ## Understanding the Manage App Tile {#understanding-the-manage-app-tile}
 
@@ -29,7 +29,7 @@ You can drill into each tile in the **Manage App** tile to view or edit details 
 
 You can edit the **Name**, **Author**, **Short Description**, and the **Description** for your app from this tab.
 
-![](assets/chlimage_1-117.png) 
+![chlimage_1-117](assets/chlimage_1-117.png) 
 
 ### The Advanced tab {#the-advanced-tab}
 
@@ -50,7 +50,7 @@ Each vendor application store, such as Apple App Store or Google Play Store, for
 >
 >See [Mobile Quickstart for AEM Verify](/help/mobile/phonegap-mobile-quickstart.md) for more details.
 
-![](assets/chlimage_1-118.png) 
+![chlimage_1-118](assets/chlimage_1-118.png) 
 
 ### Metadata {#metadata}
 
@@ -72,7 +72,7 @@ Within this section you define the Content Update Server URL, landing page for y
 
 **Content Update Server URL** is the URL which your application will use to call for ContentSync updates. It must be set to your dispatcher URL or, if not using a dispatcher, to one of your publish instances that will be used to serve ContentSync updates to your application.
 
-![](assets/chlimage_1-119.png)
+![chlimage_1-119](assets/chlimage_1-119.png)
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ The downloaded zip file contains an itmsp file which can be inspected for the me
 
 The export functionality is used to provide a convenient way of collecting the screenshots and metadata that can be passed along to the application publisher for input into the vendor specific application store.
 
-![](assets/chlimage_1-120.png) 
+![chlimage_1-120](assets/chlimage_1-120.png) 
 
 #### Android Metadata {#android-metadata}
 
@@ -110,7 +110,7 @@ When selecting the Android platform, there is no custom metadata at this point t
 
 The export functionality is used to provide a convenient way of collecting the screenshots and metadata that can be passed along to the application publisher for input into the vendor specific application store.
 
-![](assets/chlimage_1-121.png) 
+![chlimage_1-121](assets/chlimage_1-121.png) 
 
 ### Content Update Server URL {#content-update-server-url}
 
@@ -128,13 +128,13 @@ The Content Update Server URL property is the URL that must point to a publish i
 
 The **Plugins** tab describes the plugins associated with your app. This information will be used to retrieve the appropriate plugin during a build.
 
-![](assets/chlimage_1-122.png) 
+![chlimage_1-122](assets/chlimage_1-122.png) 
 
 ### The Screenshots tab {#the-screenshots-tab}
 
 The **Screenshots** tab displays the supported screenshot resolutions on different platforms.
 
-![](assets/chlimage_1-123.png)
+![chlimage_1-123](assets/chlimage_1-123.png)
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ The **Screenshots** tab displays the supported screenshot resolutions on differe
 
 The **Authentication** tab allows you to select an OAuth client to be assoicated with your application and enables a developer to utilize Adobe Experience Manager's OAuth authentication. 
 
-![](assets/chlimage_1-124.png) 
+![chlimage_1-124](assets/chlimage_1-124.png) 
 
 ### The Next Steps {#the-next-steps}
 

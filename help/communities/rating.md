@@ -27,17 +27,17 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/rating-basics.md#essentials-for-client-side) are included, this is how the `Rating` component will appear.
 
-![](assets/chlimage_1-493.png)
+![chlimage_1-493](assets/chlimage_1-493.png)
 
 ## Configuring Rating {#configuring-rating}
 
 Select the placed `Rating` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-494.png)
+![chlimage_1-494](assets/chlimage_1-494.png)
 
 Under the **Texts & Labels** tab you specify the internal identifier for the Rating.
 
-![](assets/chlimage_1-495.png)
+![chlimage_1-495](assets/chlimage_1-495.png)
 
 * **Tally Name** 
   (*Required*) A simple name for the `Rating`which uniquely identifies this instance. Must be a valid node name for the repository.

@@ -39,7 +39,7 @@ See also [Keyboard accessiblity and navigation](https://marketing.adobe.com/reso
 
 You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM by tapping **Tools** (hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
 
-![](assets/tools-assets.png)
+![tools-assets](assets/tools-assets.png)
 
 >[!NOTE]
 >
@@ -351,12 +351,12 @@ AEM shows a wide variety viewer presets when viewing an assets from **Detail Vie
 1. Navigate to CRXDE Lite ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
 1. Navigate to the viewer preset listing node at **/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist**
 
-   ![](assets/chlimage_1-221.png)
+   ![chlimage_1-221](assets/chlimage_1-221.png)
 
 1. In the **limit** property, change the **Value**, which is set to 15 by default, to the desired number.
 1. Navigate to the viewer preset datasource at **/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist/datasource**
 
-   ![](assets/chlimage_1-222.png)
+   ![chlimage_1-222](assets/chlimage_1-222.png)
 
 1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
 1. Tap or click **Save All**.
@@ -377,7 +377,7 @@ To create a new viewer preset:
 
 1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools **(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
 
-   ![](assets/viewerpresets.png)
+   ![viewerpresets](assets/viewerpresets.png)
 
 1. On the Viewer Presets page, on the toolbar, tap **Create**.
 1. In the **New Viewer Preset** dialog box, in the **Preset Name** field, enter the name of the new preset. Choose a name carefully--they are not editable after you tap **Create**.

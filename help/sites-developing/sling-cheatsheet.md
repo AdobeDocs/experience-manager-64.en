@@ -13,5 +13,5 @@ discoiquuid: c5ce62ad-ce9f-4681-bf85-78f7e72e1506
 
 # Sling Cheatsheet{#sling-cheatsheet}
 
- ![](assets/chlimage_1-97.png) ![](assets/chlimage_1-98.png)
+ ![chlimage_1-97](assets/chlimage_1-97.png) ![chlimage_1-98](assets/chlimage_1-98.png)
 

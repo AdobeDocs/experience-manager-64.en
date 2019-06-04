@@ -60,7 +60,7 @@ These help a developer to:
 
 Developer mode is implemented as a side panel to the page editor. To open the panel, select **Developer** from the mode selector in the toolbar of the page editor:
 
-![](assets/chlimage_1-229.png)
+![chlimage_1-229](assets/chlimage_1-229.png)
 
 The panel is divided into two tabs:
 
@@ -70,7 +70,7 @@ The panel is divided into two tabs:
 
 ### Components {#components}
 
-![](assets/chlimage_1-230.png)
+![chlimage_1-230](assets/chlimage_1-230.png)
 
 This shows a component tree that:
 
@@ -91,14 +91,14 @@ This can help to:
 
 Each component entry can show (for example):
 
-![](assets/chlimage_1-231.png)
+![chlimage_1-231](assets/chlimage_1-231.png)
 
 * **View Details**: a link to a list that shows:
 
   * all component scripts used to render the component.
   * the repository content path for this specific component.
 
-  ![](assets/chlimage_1-232.png)
+  ![chlimage_1-232](assets/chlimage_1-232.png)
 
 * **Edit Script**: a link that:
 
@@ -109,7 +109,7 @@ Each component entry can show (for example):
   * The hierarchy within the selected component.
   * Rendering times for the selected component in isolation, any individual components nested within it, and the combined total.
 
-  ![](assets/chlimage_1-233.png)
+  ![chlimage_1-233](assets/chlimage_1-233.png)
 
 >[!CAUTION]
 >
@@ -117,7 +117,7 @@ Each component entry can show (for example):
 
 ### Errors {#errors}
 
-![](assets/chlimage_1-234.png)
+![chlimage_1-234](assets/chlimage_1-234.png)
 
 Hopefully the **Errors** tab will always be empty (as above), but when problems occur the following details are shown for each component:
 
@@ -126,7 +126,7 @@ Hopefully the **Errors** tab will always be empty (as above), but when problems 
 
 For example, in a situation where a undefined method is called, the resulting error will be shown in the **Errors** tab:
 
-![](assets/chlimage_1-235.png)
+![chlimage_1-235](assets/chlimage_1-235.png)
 
 The component entry in the tree of the Components tab will also be marked with an indicator when an error occurs.
 

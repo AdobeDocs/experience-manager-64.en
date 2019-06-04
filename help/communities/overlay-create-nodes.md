@@ -118,5 +118,5 @@ The overlay's own `Type`(property `sling:resourceType`) must be a relative self-
 
 * select **Save All**
 
-![](assets/chlimage_1-4.png) 
+![chlimage_1-4](assets/chlimage_1-4.png) 
 

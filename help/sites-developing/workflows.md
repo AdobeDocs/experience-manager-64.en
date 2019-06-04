@@ -115,7 +115,7 @@ The `WorkItems` are assigned to either the user account directly or to the group
 
 There are various types of workflow as indicated in the Workflow Models console:
 
-![](assets/wf-upgraded-03.png)
+![wf-upgraded-03](assets/wf-upgraded-03.png)
 
 * **Default**
 

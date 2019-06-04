@@ -17,7 +17,7 @@ Image Sets give users an integrated viewing experience, where users can see diff
 
 Image Sets are designated by a banner with the word **IMAGESET**. In addition, if the Image Set is published, then the publish date, indicated by the **World** icon is on the banner along with the last modification date, indicated by the **Pencil** icon displays. 
 
-![](assets/chlimage_1-339.png)
+![chlimage_1-339](assets/chlimage_1-339.png)
 
 Within the image set, you can also create swatches by creating an Image Set and adding thumbnails.
 
@@ -118,11 +118,11 @@ To create an Image Set:
 
 1. In **Assets**, navigate to where you want to create an image set, click **Create**, and select** Image Set**. You can also create the set from inside a folder that contains your assets. The Image Set Editor displays.
 
-   ![](assets/chlimage_1-340.png)
+   ![chlimage_1-340](assets/chlimage_1-340.png)
 
 1. In the Spin Set Editor, in the **Title** field, enter a name for the Spin Set. The name appears in the banner across the Spin Set. Optionally, enter a description.
 
-   ![](assets/chlimage_1-341.png)
+   ![chlimage_1-341](assets/chlimage_1-341.png)
 
    >[!NOTE]
    >
@@ -139,13 +139,13 @@ To create an Image Set:
 
    See [Working with Selectors.](working-with-selectors.md)
 
-   ![](assets/chlimage_1-342.png)
+   ![chlimage_1-342](assets/chlimage_1-342.png)
 
 1. When you add assets to your set, they are automatically added in alphanumeric order. You can manually re-order or sort assets after you add them.
 
    If necessary, drag an asset's Reorder icon to the right of the asset's file name to re-order images up or down the set list.
 
-   ![](assets/spin_set_assets.png)
+   ![spin_set_assets](assets/spin_set_assets.png)
 
    If you want to change a thumbnail or swatch, click the **+ thumbnail** icon next to the image and navigate to the thumbnail or swatch you want. When done selecting all the images click **Save.**
 
@@ -164,17 +164,17 @@ However, sets created using batch set presets, do **not** appear in the user int
 
 * When opening the properties of an individual asset. Properties indicate what sets the selected asset is a member of (under **Member of Sets**). Click the name of the set to see the entire set.
 
-  ![](assets/chlimage_1-343.png)
+  ![chlimage_1-343](assets/chlimage_1-343.png)
 
 * From a member image of any set. Select the **Sets** menu to display the sets that the asset is a member of. 
 
-  ![](assets/chlimage_1-344.png)
+  ![chlimage_1-344](assets/chlimage_1-344.png)
 
 * From search, you can Select **Filters**, then expand **Dynamic Media** and select **Sets**.
 
   The search returns matching sets that were manually created in the UI or automatically created through batch set presets. For automated sets, the search query is conducted using "Starts with" search criteria which is different from AEM search which is based on using "Contains" search criteria. Setting the filter to **Sets** is the the only way to search automated sets.
 
-  ![](assets/chlimage_1-345.png)
+  ![chlimage_1-345](assets/chlimage_1-345.png)
 
 >[!NOTE]
 >
