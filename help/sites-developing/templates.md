@@ -37,7 +37,7 @@ AEM now offers two basic types of templates for creating pages:
 
 ### Editable Templates {#editable-templates}
 
-Editable templates are now cosidered best practices for developing with AEM 6.4.
+Editable templates are now cosidered best practices for developing with AEM.
 
 The advantages of Editable Templates:
 
@@ -63,7 +63,7 @@ The advantages of Editable Templates:
 Static Templates:
 
 * Must be defined and configured by your developers.
-* These templates have been available for several versions of AEM. 
+* This was the original templating system of AEM and has been available for many versions. 
 * A static template is a hierarchy of nodes that has the same structure as the page to be created, but without any actual content.
 * Are copied to create the new page, no dynamic connection exists after this.
 * Uses [Design Mode](/help/sites-authoring/default-components-designmode.md) to persist design properties.
@@ -72,7 +72,7 @@ Static Templates:
 
 >[!NOTE]
 >
->The use of Static Templates in Experience Manager 6.4 is not considered a best practice. Use Editable Templates instead.
+>As of AEM 6.4 the use of Static Templates is not considered a best practice. Use Editable Templates instead.
 
 ### Template Availability {#template-availability}
 

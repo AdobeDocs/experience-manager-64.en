@@ -122,7 +122,7 @@ This event is triggered to indicate that page tracking has been completed. If yo
 
 ## Implementing Adobe Analytics Tracking for Custom Components {#implementing-adobe-analytics-tracking-for-custom-components}
 
-Enable your CQ components to interact with the Adobe Analytics framework. Then, configure your framework so that Adobe Analytics tracks the component data.
+Enable your AEM components to interact with the Adobe Analytics framework. Then, configure your framework so that Adobe Analytics tracks the component data.
 
 Components that interact with the Adobe Analytics framework appear in SideKick when you are editing a framework. After dragging the component to the framework, the component properties appear and you can then map them with Adobe Analytics properties. (See [Setting Up a Framework For Basic Tracking](/help/sites-administering/adobeanalytics-connect.md#creating-a-adobe-analytics-framework).)
 

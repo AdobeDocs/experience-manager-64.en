@@ -113,25 +113,25 @@ Backwards compatibility should also be kept in mind in regards to the general co
 
 ## Core Concepts {#core-concepts}
 
-**Author instance** Typically, for security, governance, and other reasons, a production site will divide instances of AEM into Author and Publish instances. For more information on deployment architecture (including Author/Publish instances), see documentation about AEM Instances.
+**Author instance** - Typically, for security, governance, and other reasons, a production site will divide instances of AEM into Author and Publish instances. For more information on deployment architecture (including Author/Publish instances), see documentation about AEM Instances.
 
-**Caching, frying, and baking** Traditionally, the concepts of baking versus frying are an important distinction between different Web Content Management Systems. In CMS jargon, "baking" refers to the concept of committing data to static files at publish-time, while "frying" refers to the concept of processing data for final presentation at request-time (i.e., just in time).
+**Caching, frying, and baking** - Traditionally, the concepts of baking versus frying are an important distinction between different Web Content Management Systems. In CMS jargon, "baking" refers to the concept of committing data to static files at publish-time, while "frying" refers to the concept of processing data for final presentation at request-time (i.e., just in time).
 
-**Clustering and load-balancing** To increase availability and imrpove the performance of a Production environment, it is common to combine multiple Author and/or Publish instances (into Clusters), by either making them available to different groups of users or by load-balancing them behind a Dispatcher configuration.
+**Clustering and load-balancing** - To increase availability and imrpove the performance of a Production environment, it is common to combine multiple Author and/or Publish instances (into Clusters), by either making them available to different groups of users or by load-balancing them behind a Dispatcher configuration.
 
 It is also possible to combine multiple instances of the content repository to create a *high-availability* JCR solution, which can then be integrated with your AEM solution to maximize protection against hardware and software failure. See [Recommended Deployments](/help/sites-deploying/recommended-deploys.md#oak-cluster-with-mongomk-failover-for-high-availability-in-a-single-datacenter) for further information.
 
-**Component** In AEM, a Component is an object type, instances of which can generally be created by dragging and dropping them from, say, the Sidekick. So for example, out-of-the-box components that ship with AEM include the Text, Title, Tag Cloud, Carousel, Image, and List components, all available from the Sidekick at runtime.
+**Component** - In AEM, a Component is an object type, instances of which can generally be created by dragging and dropping them from, say, the Sidekick. So for example, out-of-the-box components that ship with AEM include the Text, Title, Tag Cloud, Carousel, Image, and List components, all available from the Sidekick at runtime.
 
-**Content Finder** In authoring mode, the Content Finder is a special panel (frame) on the left-hand side of the page that, depending on the tab you select at the top, displays lists of images, documents, Flash assets, pages, paragraphs, or repository resources that you can drag and drop from the Content Finder into the page you're working on (on the right).
+**Content Finder** - In authoring mode, the Content Finder is a special panel (frame) on the left-hand side of the page that, depending on the tab you select at the top, displays lists of images, documents, Flash assets, pages, paragraphs, or repository resources that you can drag and drop from the Content Finder into the page you're working on (on the right).
 
-**Digital assets** In AEM, Digital Assets are (typically) images and rich media files. For further information, see Working with Digital Assets in DAM.
+**Digital assets** - In AEM, Digital Assets are (typically) images and rich media files. For further information, see Working with Digital Assets in DAM.
 
-**Dispatcher** The Dispatcher is both a caching and load-balancing tool, as well as providing certain security safeguards.
+**Dispatcher** - The Dispatcher is both a caching and load-balancing tool, as well as providing certain security safeguards.
 
-**ExtJS widgets** Most user-interface elements in AEM make use of ExtJS, which is a third-party widget library written in JavaScript. ExtJS features high performance, customizable UI widgets and a well-designed and extensible component model.
+**ExtJS widgets** - Most user-interface elements in AEM make use of ExtJS, which is a third-party widget library written in JavaScript. ExtJS features high performance, customizable UI widgets and a well-designed and extensible component model.
 
-**JCR, Java Content Repository** The Java Content Repository specification (JSR-283) provides both an abstract data model and an Application Programming Interface for realizing a massively scalable NoSQL data repository that combines features of a file system and an object database. While you do not need to understand JSR-283 in exhaustive detail, you should take time to familiarize yourself with the basic capabilities of JCR and the data model underlying it, because JCR is what makes possible the "everything is content" philosophy of AEM.
+**JCR, Java Content Repository** - The Java Content Repository specification (JSR-283) provides both an abstract data model and an Application Programming Interface for realizing a massively scalable NoSQL data repository that combines features of a file system and an object database. While you do not need to understand JSR-283 in exhaustive detail, you should take time to familiarize yourself with the basic capabilities of JCR and the data model underlying it, because JCR is what makes possible the "everything is content" philosophy of AEM.
 
 In essence, JCR is a system of nodes and properties, in which nodes can inherit from other nodes and all content is stored as property *values*. Note that in addition to ordinary inheritance, JCR allows for a concept of "mixin" nodes, which enables modelling of multiple inheritance.
 
@@ -141,17 +141,17 @@ The JavaDoc for JCR's Java API is [here](http://jackrabbit.apache.org/jcr/jcr-ap
 
 Before attempting to read the JavaDoc or the JCR spec itself, you might want to look at [this high-level explanation](/help/sites-developing/the-basics.md#java-content-repository) of JCR as implemented by Adobe Experience Services.
 
-**Multi-Site Manager (MSM)** The MSM feature of AEM helps customers handle multilingual and multinational content, enabling them to balance centralized branding with localized content.
+**Multi-Site Manager (MSM)** - The MSM feature of AEM helps customers handle multilingual and multinational content, enabling them to balance centralized branding with localized content.
 
-**OSGi** OSGi is the services-based runtime technology that provides the basis for modularized Java development in AEM. It is a framework that provides not only a highly dynamic (and secure) classloading and execution environment for code resources (known as bundles), but also full control over the visibility and lifecycle of the various services exposed by bundles. A service registry provides a cooperation model for bundles that takes lifecycle dynamics (and version requirements) into account. OSGi solves many of the problems that application servers were intended to solve, but does so in a lightweight, highly dynamic way, making it possible, for example, to hot-deploy services (making the new code immediately available without restarting the server).
+**OSGi** - OSGi is the services-based runtime technology that provides the basis for modularized Java development in AEM. It is a framework that provides not only a highly dynamic (and secure) classloading and execution environment for code resources (known as bundles), but also full control over the visibility and lifecycle of the various services exposed by bundles. A service registry provides a cooperation model for bundles that takes lifecycle dynamics (and version requirements) into account. OSGi solves many of the problems that application servers were intended to solve, but does so in a lightweight, highly dynamic way, making it possible, for example, to hot-deploy services (making the new code immediately available without restarting the server).
 
-**Parsys, Paragraph System** The paragraph system (parsys) is a compound component that allows authors to add components of different types to a page and contains other paragraph components. Each paragraph type is represented as a component. The paragraph system itself is also a component, which contains the other paragraph components.
+**Parsys, Paragraph System** - The paragraph system (parsys) is a compound component that allows authors to add components of different types to a page and contains other paragraph components. Each paragraph type is represented as a component. The paragraph system itself is also a component, which contains the other paragraph components.
 
-**Microkernel** Every workspace in the repository can be separately configured to store its data through a specific microkernel (a class that manages the reading and writing of the data). Similarly, the repository-wide version store can also be independently configured to use a particular microkernel. A number of different microkernels are available, capable of storing data in a variety of file formats or relational databases. (For example, there are persistence managers for MongoDB, DB2 or Oracle) The default microkernel for AEM is TarMK (see further below).
+**Microkernel** - Every workspace in the repository can be separately configured to store its data through a specific microkernel (a class that manages the reading and writing of the data). Similarly, the repository-wide version store can also be independently configured to use a particular microkernel. A number of different microkernels are available, capable of storing data in a variety of file formats or relational databases. (For example, there are persistence managers for MongoDB, DB2 or Oracle) The default microkernel for AEM is TarMK (see further below).
 
-**Publish instance** For security, governance, and other reasons, a production site will typically divide instances of AEM into Author and Publish instances. For more information on deployment architecture (including Author/Publish instances), see documentation about AEM Instances.
+**Publish instance** - For security, governance, and other reasons, a production site will typically divide instances of AEM into Author and Publish instances. For more information on deployment architecture (including Author/Publish instances), see documentation about AEM Instances.
 
-**Quickstart** Unlike many other programs, you install AEM by using a single "Quickstart" self-extracting JAR file. When you double-click the JAR file for the first time, everything you need is automatically installed. The quickstart JAR includes all files required for the CRX repository (including administrative facilities), virtual repository services, index and search services, workflow services, security, and a Web server, plus the CQ Servlet Engine (CQSE) and all AEM services. There are no other files to install: the Quickstart is self-contained.
+**Quickstart** - Unlike many other programs, you install AEM by using a single "Quickstart" self-extracting JAR file. When you double-click the JAR file for the first time, everything you need is automatically installed. The quickstart JAR includes all files required for the CRX repository (including administrative facilities), virtual repository services, index and search services, workflow services, security, and a Web server, plus the CQ Servlet Engine (CQSE) and all AEM services. There are no other files to install: the Quickstart is self-contained.
 
 The first time you start the Quickstart, it creates an entire JCR-compliant repository in the background, which can take several minutes. After this initial startup, subsequent startups are much quicker as the repository infrastructure has already been laid down.
 
@@ -161,18 +161,18 @@ Many startup options (such as the active port number and whether the AEM instanc
 java -jar <quickstartfilename>.jar -help
 ```
 
-**Replication agents** Replication agents are central to AEM as the mechanism used to Publish (activate) content from an author to a publish environment; flush content from the Dispatcher cache; return user generated content (for example, form input) from the Publish environment to the Author environment.
+**Replication agents** - Replication agents are central to AEM as the mechanism used to Publish (activate) content from an author to a publish environment; flush content from the Dispatcher cache; return user generated content (for example, form input) from the Publish environment to the Author environment.
 
-**Scaffolding** With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.
+**Scaffolding** - With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.
 
-**Segmentation** Site visitors have different interests and objectives when they come to a site. Understanding visitors' goals and fulfilling their expectations is an important success prerequisite for online marketing. Segmentation helps to achieve this by analyzing and characterizing a visitor's details.
+**Segmentation** - Site visitors have different interests and objectives when they come to a site. Understanding visitors' goals and fulfilling their expectations is an important success prerequisite for online marketing. Segmentation helps to achieve this by analyzing and characterizing a visitor's details.
 
-**Sidekick** The Sidekick is a palette-like floating window that appears on the editable page, from which new components can be dragged and actions that apply to the page can be executed.
+**Sidekick** - The Sidekick is a palette-like floating window that appears on the editable page, from which new components can be dragged and actions that apply to the page can be executed.
 
-**Site Catalyst** SiteCatalyst provides marketers with one place to measure, analyze, and optimize integrated data from all online initiatives across multiple marketing channels. You can use Adobe SiteCatalyst to analyze data from AEM websites.
+**Site Catalyst** - SiteCatalyst provides marketers with one place to measure, analyze, and optimize integrated data from all online initiatives across multiple marketing channels. You can use Adobe SiteCatalyst to analyze data from AEM websites.
 
-**Tar Storage (TarMK)** TarMK is the default persistence system in AEM. Although AEM can be configured to use a different persistence system (such as MongoDB), TarMK has certain advantages in that it is performance-optimized for typical JCR use-cases (thus is very fast), uses an industry-standard data format, and can be quickly and easily backed up. Read more here.
+**Tar Storage (TarMK)** - TarMK is the default persistence system in AEM. Although AEM can be configured to use a different persistence system (such as MongoDB), TarMK has certain advantages in that it is performance-optimized for typical JCR use-cases (thus is very fast), uses an industry-standard data format, and can be quickly and easily backed up.
 
-**Template** In AEM, a Template specifies a particular type of page. It defines the structure of a page (while also typically specifying a thumbnail image, and various properties). For example, you may have separate templates for product pages, sitemaps, and contact information.
+**Template** - In AEM, a Template specifies a particular type of page. It defines the structure of a page (while also typically specifying a thumbnail image, and various properties). For example, you may have separate templates for product pages, sitemaps, and contact information.
 
-**Workflow** The AEM Workflow system allows for creation of automated processes involving pages or assets.
+**Workflow** - The AEM Workflow system allows for creation of automated processes involving pages or assets.

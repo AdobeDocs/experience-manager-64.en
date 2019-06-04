@@ -25,7 +25,7 @@ With content fragments that use structured content, you can provide content serv
 
 >[!NOTE]
 >
->The functionality described here is available for all components since [release 1.1 of the Core Components](https://docs.adobe.com/content/docs/en/core-components/v1.html).
+>The functionality described here is available for all Core Components since [release 1.1.0 of the Core Components](https://docs.adobe.com/content/docs/en/core-components/v1.html).
 
 ## JSON Exporter with Content Fragment Core Components {#json-exporter-with-content-fragment-core-components}
 

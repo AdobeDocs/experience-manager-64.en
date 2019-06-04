@@ -25,7 +25,7 @@ The **Externalizer** service allows you to centrally define multiple domains tha
 
 To define a domain mapping for the **Externalizer** service:
 
-1. Navigate to the configuration manager via **Tools**, then** Web Console**, or enter `https://<host>:<port>/system/console/configMgr.`
+1. Navigate to the configuration manager via **Tools**, then **Web Console**, or enter `https://<host>:<port>/system/console/configMgr.`
 1. Click **Day CQ Link Externalizer** to open the configuration dialog box.
 
    >[!NOTE]

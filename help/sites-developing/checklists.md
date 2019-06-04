@@ -15,87 +15,18 @@ discoiquuid: 8f94c22d-5f08-4a8b-8bb5-5ec757c44bc8
 
 The following checklist highlights some of the main issues - please read the other sections related to Testing for full details.
 
-<table> 
- <tbody>
-  <tr>
-   <td>Check </td> 
-   <td>Response</td> 
-   <td>Action</td> 
-   <td>Owner</td> 
-   <td>Due Date</td> 
-  </tr>
-  <tr>
-   <td>Has a clear, regular reporting mechanism been setup?</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>Are key players (from the testing team) involved in the status meetings?</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td><p>Are the testing responsibilities clearly defined?</p> <p>In particular for the customer.</p> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>Does the customer have the necessary experience to fulfil their testing commitments?</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td><p>Have all tools (testing and tracking) been selected?</p> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>Have the above tools been installed and users (primarily the project team) trained as necessary?</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>Has a clear, comprehensive test plan been formulated?</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>Has the test plan been reviewed by the appropriate parties?</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td><p>Have the acceptance tests been clearly defined?</p> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>Have the acceptance tests been officially accepted by all parties?</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
- </tbody>
-</table>
+|Check|Response|Action|Owner|Due|
+|-|-|-|-|-|
+|Has a clear, regular reporting mechanism been set up?|||||
+|Are key players (from the testing team) involved in the status meetings?|||||
+|Are the testing responsibilities clearly defined (in particular for the customer)?|||||
+|Does the customer have the necessary experience to fulfil their testing commitments?|||||
+|Have all tools (testing and tracking) been selected?|||||
+|Have the above tools been installed and users (primarily the project team) trained as necessary?|||||
+|Has a clear, comprehensive test plan been formulated?|||||
+|Has the test plan been reviewed by the appropriate parties?|||||
+|Have the acceptance tests been clearly defined?|||||
+|Have the acceptance tests been officially accepted by all parties?|||||
 
 >[!NOTE]
 >

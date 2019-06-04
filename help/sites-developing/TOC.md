@@ -25,7 +25,7 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Content Fragment Templates](content-fragment-templates.md)
 + Components{#components}
     + [REDIRECT Core Components](components-core.md)
-    + [Style System](style-system.md)
+    + [Style System](help/sites-authoring/style-system.md)
     + [Components Overview](components.md)
     + [AEM Components - The Basics](components-basics.md)
     + [Developing AEM Components](developing-components.md)
@@ -184,7 +184,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Implementing a Custom Predicate Evaluator for the Query Builder](implementing-custom-predicate-evaluator.md)
     + [Workflow Best Practices](workflows-best-practices.md)
     + [SPA Model Routing](spa-routing.md)
-    + [Style System](style-system.md)
     + [SPA and Server-Side Rendering](spa-ssr.md)
     + [REDIRECT REST API](developing-screens-rest-api.md)
     + [SPA and Launch Integration](spa-launch.md)

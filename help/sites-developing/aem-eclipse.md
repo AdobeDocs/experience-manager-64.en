@@ -23,22 +23,22 @@ It offers several features that make AEM development easier:
 
 * Seamless integration with AEM instances through Eclipse Server Connector.  
 * Synchronization for both content and OSGI bundles.
-* Debugging support with code hot-swaping capabiliby.  
+* Debugging support with code hot-swaping capability.  
 * Simple bootstrap of AEM projects via a specific Project Creation Wizard.
-* Easy JCR properties edition.
+* Easy editing of JCR properties.
 
 ## Requirements {#requirements}
 
-Before using the AEM Developper Tools, you need to:
+Before using the AEM Developer Tools, you need to:
 
-* Download and install [Eclipse IDE for Java EE Developers](https://eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunar). We currently support Eclipse Kepler or newer  
+* Download and install [Eclipse IDE for Java EE Developers](https://eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunar). AEM Developer Tools currently support Eclipse Kepler or newer  
 
-* We support AEM version 5.6.1 or newer  
-* Configure your eclipse installation to ensure that you have at least 1 Giga bytes of Heap memory by editing your `eclipse.ini` configuration file as described in the [Eclipse FAQ](https://wiki.eclipse.org/FAQ_How_do_I_increase_the_heap_size_available_to_Eclipse%3F).
+* Can be used with AEM version 5.6.1 or newer  
+* Configure your eclipse installation to ensure that you have at least 1 gigabyte of heap memory by editing your `eclipse.ini` configuration file as described in the [Eclipse FAQ](https://wiki.eclipse.org/FAQ_How_do_I_increase_the_heap_size_available_to_Eclipse%3F).
 
 >[!NOTE]
 >
->On Mac OS X, you need to right click on **Eclipse.app** and then select **Show Package Contents** in order to find your `eclipse.ini`**.**
+>On macOS, you need to right-click on **Eclipse.app** and then select **Show Package Contents** in order to find your `eclipse.ini`**.**
 
 ## How to install the AEM Developer Tools for Eclipse {#how-to-install-the-aem-developer-tools-for-eclipse}
 
@@ -66,7 +66,7 @@ Once you have fulfilled the [requirements](#requirements) above, you can install
 
 >[!NOTE]
 >
->See [How to work with a bundle in eclipse when it was downloaded from AEM](https://stackoverflow.com/questions/29699726/how-to-work-with-a-bundle-in-eclipse-when-it-was-downloaded-from-aem/29705407#29705407).
+>See [How to work with a bundle in Eclipse when it was downloaded from AEM](https://stackoverflow.com/questions/29699726/how-to-work-with-a-bundle-in-eclipse-when-it-was-downloaded-from-aem/29705407#29705407).
 
 ## The AEM Perspective {#the-aem-perspective}
 
@@ -102,7 +102,7 @@ Follow these steps to create the sample project:
 
 1. You should then configure an AEM server to which Eclipse will connect.
 
-   In order to use the debugger featue, you need to have started AEM in debug mode - which can be achieved eg by adding the following to the command line: ``
+   In order to use the debugger featue, you need to have started AEM in debug mode - which can be achieved eg by adding the following to the command line:
 
    ```
        -nofork -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=10123
