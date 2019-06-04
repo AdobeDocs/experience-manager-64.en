@@ -13,8 +13,7 @@ discoiquuid: e48e87c6-43ca-45ba-bd6b-d74c969757cd
 
 # Creating a Custom Cloud Service{#creating-a-custom-cloud-service}
 
-The default set of Cloud Services can be extended with custom Cloud Service types. This allows you to inject custom markup into the page in a structured fashion. This will be primarily of use for 3rd party analytics providers, for example Google Analytics, Chartbeat, etc.  
-Cloud Services are inherited from parent pages to child pages with the ability to break the inheritance at any level.
+The default set of Cloud Services can be extended with custom Cloud Service types. This allows you to inject custom markup into the page in a structured fashion. This will be primarily of use for 3rd party analytics providers, for example Google Analytics, Chartbeat, etc. Cloud Services are inherited from parent pages to child pages with the ability to break the inheritance at any level.
 
 >[!NOTE]
 >
@@ -47,7 +46,7 @@ Cloud Services are inherited from parent pages to child pages with the ability t
     * **Super Type**: `cq/cloudserviceconfigs/components/configpage`
     * **Group**: `.hidden`
 
-1. Click **Next **twice and specifiy:
+1. Click **Next** twice and specify:
 
     * **Allowed Parents:** `acs/analytics/templates/googleanalytics`
 

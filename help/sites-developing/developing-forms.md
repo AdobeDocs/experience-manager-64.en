@@ -123,13 +123,13 @@ You can add your own action under `/apps` as follows:
 
     1. A post script. 
 
-       The name of the script is `post.POST.<*extension*>`, e.g. `post.POST.jsp` 
+       The name of the script is `post.POST.<extension>`, e.g. `post.POST.jsp` 
 
        The post script is invoked when a form is submitted to process the form, it contains the code that handles the data arriving from the form `POST`.
 
     1. Add a forward script which is invoked when the form is submitted. 
 
-       The name of the script is `forward.<*extension*`>, e.g. `forward.jsp` 
+       The name of the script is `forward.<extension`>, e.g. `forward.jsp` 
 
        This script can define a path. The current request is then forwarded to the specified path.
 
@@ -165,19 +165,19 @@ You can add your own action under `/apps` as follows:
 
     1. A script for adding fields. 
 
-       The name of the script is `addfields.<*extension*>`, e.g. `addfields.jsp` 
+       The name of the script is `addfields.<extension>`, e.g. `addfields.jsp` 
 
        An addfields script is invoked immediately after the HTML for the form start is written. This allows the action to add custom input fields or other such HTML inside the form. 
 
     1. An initialization script. 
 
-       The name of the script is `init.<*extension*>`, e.g. `init.jsp`
+       The name of the script is `init.<extension>`, e.g. `init.jsp`
 
        This script is invoked when the form is rendered. It can be used to initialize action specifics. ``
 
     1. A cleanup script. 
 
-       The name of the script is `cleanup.<*extension*>`, e.g. `cleanup.jsp` 
+       The name of the script is `cleanup.<extension>`, e.g. `cleanup.jsp` 
 
        This script can be used to perform cleanup.
 
@@ -219,13 +219,13 @@ You can add your own constraints for an individual field (under `/apps`) as foll
 
     * A client validation script: 
 
-      The name of the script is `clientvalidation.<*extension*>`, e.g. `clientvalidation.jsp` 
+      The name of the script is `clientvalidation.<extension>`, e.g. `clientvalidation.jsp` 
 
       This is invoked when the form field is rendered. It can be used to create client javascript to validate the field on the client.
 
     * A server validation script: 
 
-      The name of the script is `servervalidation.<*extension*>`, e.g. `servervalidation.jsp` 
+      The name of the script is `servervalidation.<extension>`, e.g. `servervalidation.jsp` 
 
       This is invoked when the form is submitted. It can be used to validate the field on the server after it is submitted.
 
