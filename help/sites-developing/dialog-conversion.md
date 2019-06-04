@@ -57,7 +57,7 @@ Use the following steps to convert one or more dialogs:
 
 1. Open the **Dialog Conversion** console, accessible from **Global Navigation** -&gt; **Tools** -&gt; **Operations**:
 
-   `https://<*hostname*>:<*port*>/libs/cq/dialogconversion/content/console.html`
+   `https://<hostname>:<port>/libs/cq/dialogconversion/content/console.html`
 
    ![](assets/chlimage_1-18.png)
 
@@ -251,7 +251,7 @@ The `matches` method must return `true` if the rule matches the subtree rooted a
 
 #### Further information - Javadocs {#further-information-javadocs}
 
-For further information see the [Javadocs for `com.adobe.cq.dialogconversion`](https://adobe-marketing-cloud.github.io/aem-touchui-dialogconversion-samples/javadoc/).
+For further information see the Javadocs for [`com.adobe.cq.dialogconversion`](https://adobe-marketing-cloud.github.io/aem-touchui-dialogconversion-samples/javadoc/).
 
 #### Defining Your Own Java-Based Rewrite Rules {#defining-your-own-java-based-rewrite-rules}
 

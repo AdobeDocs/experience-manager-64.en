@@ -13,11 +13,11 @@ discoiquuid: 50fafc64-d462-4386-93af-ce360588d294
 
 # Developing Reports{#developing-reports}
 
-CQ provides a selection of [standard reports](/help/sites-administering/reporting.md) most of which are based on a reporting framework.
+AEM provides a selection of [standard reports](/help/sites-administering/reporting.md) most of which are based on a reporting framework.
 
 Using the framework you can either extend these standard reports, or develop your own, completely new, report(s). The reporting framework integrates tightly with existing CQ5 concepts and principles so that developers can use their existing knowledge of CQ5 as a springboard for developing reports.
 
-For the standard reports delivered with CQ:
+For the standard reports delivered with AEM:
 
 * These reports are built on the reporting framework:
 
@@ -35,7 +35,6 @@ For the standard reports delivered with CQ:
 >[!NOTE]
 >
 >The tutorial [Creating Your Own Report - An Example](#creating-your-own-report-an-example) also shows how many of the principles below can be used.  
-
 >
 >You can also refer to the standard reports to see other examples of implementation.
 
@@ -45,24 +44,24 @@ For the standard reports delivered with CQ:
 >
 >* Each line defines a node or a property where:  
 >
->  * `N:<*name*> [<*nodeType*>]`
+>  * `N:<name> [<nodeType>]`
 > 
 >     Describes a node with the name of `<*name*>` and node type of `<*nodeType*>`*.*
 >
->  * `P:<*name*> [<*propertyType*]`
+>  * `P:<name> [<propertyType]`
 >
 >     Describes a property with the name of `<*name*>` and a property type of `<*propertyType*>`.  
 >
->  * `P:<*name*> = <*value*>`
+>  * `P:<name> = <value>`
 >
->     Describes a property `<*name*>` that must be set to the value of `<*value*>`.
+>     Describes a property `<name>` that must be set to the value of `<value>`.
 >
 >* Indentation shows the hierarchical dependencies between the nodes.
 >* Items separated by | denotes a list of possible items; for example, types or names:
 >
->  e.g. String|String[] means that the property can be either String or String[].
+>  e.g. `String|String[]` means that the property can be either String or String[].
 >
->* [] depicts an array; such as String[] or an array of nodes as in the [Query Definition](#query-definition). 
+>* `[]` depicts an array; such as String[] or an array of nodes as in the [Query Definition](#query-definition). 
 >
 >Unless otherwise stated the default types are:
 >
@@ -162,7 +161,7 @@ The following workflow represents the processing queue:
 
 Where the detailed steps and elements are:
 
-1. Transforms the results returned by the [initial query ( `reportbase`)](#query-definition) into the basic result set using value extractors. 
+1. Transforms the results returned by the [initial query (reportbase)](#query-definition) into the basic result set using value extractors. 
 
    Value extractors are automatically chosen depending on the [column type](#column-specific-definitions). They are used for reading values from the underlying JCR Query and creating a result set from them; after which further processing may then be applied. For example, for the `diff` type, the value extractor reads two properties, calculates the single value that is then added to the result set. The value extractors cannot be configured.  
 
@@ -206,11 +205,11 @@ The following are needed to construct and configure a report:
 
 The default reporting components are held under `/libs/cq/reporting/components`.
 
-However, it is strongly recommended that you do not update these nodes, but create your own component nodes under `/apps/cq/reporting/components` or if more appropriate `/apps/<*yourProject*>/reports/components`.
+However, it is strongly recommended that you do not update these nodes, but create your own component nodes under `/apps/cq/reporting/components` or if more appropriate `/apps/<yourProject>/reports/components`.
 
 Where (as an example):
 
-```xml
+```
 N:apps 
     N:cq [nt:folder]
         N:reporting|reports [sling:Folder]
@@ -219,7 +218,7 @@ N:apps
 
 Under this you create the root for your report and under this, the report base component and the column base components:
 
-```xml
+```
 N:apps 
     N:cq [nt:folder]
         N:reporting|reports [sling:Folder]
@@ -245,7 +244,7 @@ This component acts as a container for the report as a whole and provides inform
 * An [(optional) dialog](#configuration-dialog) for configuring the report.
 * Any [Charts](#chart-definitions) integrated in the report.
 
-```xml
+```
 N:<reportname> [cq:Component]
     P:sling:resourceSuperType = "cq/reporting/components/reportbase"
     N:charting
@@ -264,7 +263,8 @@ N:queryBuilder
             P:value
     ]
     P:nodeTypes [String|String[]] 
-    P:mandatoryProperties [String|String[]]
+    P:mandatoryProperties [String|String[]
+  ]
 ```
 
 * `propertyConstraints`
@@ -363,7 +363,7 @@ N:charting
             * `fixedRadius` ( `Double/Long`) 
               Defines a fixed radius for the pie chart.
 
-        * [for the chart type `lineseries`](/help/sites-administering/reporting.md#display-limits):
+        * for the chart type [`lineseries`](/help/sites-administering/reporting.md#display-limits):
 
             * `totals` ( `Boolean`) 
 
@@ -487,26 +487,26 @@ A column component defines a combination of the following:
 
 ```
 N:<columnname> [cq:Component]
- P:componentGroup
- P:jcr:title
- P:sling:resourceSuperType = "cq/reporting/components/columnbase"
- N:cq:editConfig [cq:EditConfig] // <a href="#events-and-actions">Events and Actions</a>
- N:defaults // <a href="#column-default-values">Column Default Values</a>
- N:definitions
- N:queryBuilder // <a href="#column-specific-query">Column Specific Query</a>
- P:property [String|String[]] // Column Specific Query
- P:subPath // Column Specific Query
- P:secondaryProperty [String|String[]] // Column Specific Query
- P:secondarySubPath // Column Specific Query
- N:data
- P:clientFilter [String] // <a href="#client-filter">Client Filter</a>
- P:resolver // <a href="#resolvers-and-preprocessing">Resolvers and Preprocessing</a>
- N:resolverConfig // Resolvers and Preprocessing
- N:preprocessing // Resolvers and Preprocessing
- P:type // <a href="#column-specific-definitions">Column Specific Definitions</a>
- P:groupable [Boolean] // Column Specific Definitions
- N:filters [cq:WidgetCollection] // Column Specific Definitions
- N:aggregates [cq:WidgetCollection] // Column Specific Definitions
+    P:componentGroup
+    P:jcr:title
+    P:sling:resourceSuperType = "cq/reporting/components/columnbase"
+    N:cq:editConfig [cq:EditConfig] // <a href="#events-and-actions">Events and Actions</a>
+    N:defaults // <a href="#column-default-values">Column Default Values</a>
+    N:definitions
+      N:queryBuilder // <a href="#column-specific-query">Column Specific Query</a>
+        P:property [String|String[]] // Column Specific Query
+        P:subPath // Column Specific Query
+        P:secondaryProperty [String|String[]] // Column Specific Query
+        P:secondarySubPath // Column Specific Query
+      N:data
+        P:clientFilter [String] // <a href="#client-filter">Client Filter</a>
+        P:resolver // <a href="#resolvers-and-preprocessing">Resolvers and Preprocessing</a>
+        N:resolverConfig // Resolvers and Preprocessing
+        N:preprocessing // Resolvers and Preprocessing
+      P:type // <a href="#column-specific-definitions">Column Specific Definitions</a>
+      P:groupable [Boolean] // Column Specific Definitions
+      N:filters [cq:WidgetCollection] // Column Specific Definitions
+      N:aggregates [cq:WidgetCollection] // Column Specific Definitions
 ```
 
 See also [Defining Your New Report](#defining-your-new-report).
@@ -740,7 +740,7 @@ N:data
 
 #### Preprocessing {#preprocessing}
 
-``The `preprocessing` definition can be applied to either the:
+The `preprocessing` definition can be applied to either the:
 
 * original value: 
 
@@ -793,7 +793,7 @@ An example replacement can be broken down as:
     * `pattern`: `(.*)(/jcr:content)(/|$)(.*)` 
     * `replace`: `$1`
 
-* A string arriving as: ``
+* A string arriving as:
 
     * `/content/geometrixx/en/services/jcr:content/par/text`
 
@@ -810,11 +810,7 @@ An example replacement can be broken down as:
 
 #### Preprocessing - Data Type Formatters {#preprocessing-data-type-formatters}
 
-``
-
 These formatters convert a numeric value into a relative string.
-
-``
 
 For example, this can be used for a time column that allows `min`, `avg` and `max` aggregates. As `min`/ `avg`/ `max` aggregates are displayed as a *time difference* (e.g. `10 days ago`), they require a data formatter. For this, a `datedelta` formatter is applied to the `min`/ `avg`/ `max` aggregated values. If a `count` aggregate is also available then this does not need a formatter, neither does the original value.
 
@@ -835,8 +831,6 @@ Currently the available data type formatters are:
       Datadelta is the time span between a date in the past until "now" (so it will have a different result if the report is viewed at a later point in time). 
 
       It converts the numeric value (interpreted as a time difference in days) into a relative date string. For example, 1 is formatted as 1 day ago.
-
-``
 
 The following example defines `datedelta` formatting for `min` and `max` aggregates:
 
@@ -1050,7 +1044,7 @@ To make a column generic:
 
   See `/libs/cq/reporting/components/userreport/genericcol/cq:editConfig`
 
-* Use standard CQ methodologies to define (additional) column properties. 
+* Use standard AEM methodologies to define (additional) column properties. 
 
   Note that for properties that are defined on both the component and column instances, the value on the column instance takes precedence.
 
@@ -1078,11 +1072,11 @@ The default reporting components are held under `/etc/designs/reports`.
 
 The location for your reports can depend on where you have located your components:
 
-* `/etc/designs/reports/<*yourReport*>` is suitable if the report is located unter `/apps/cq/reporting`
+* `/etc/designs/reports/<yourReport>` is suitable if the report is located unter `/apps/cq/reporting`
 
-* `/etc/designs/<*yourProject*>/reports/<*yourReport*>` for reports using the `/apps/<*yourProject*>/reports` pattern
+* `/etc/designs/<yourProject>/reports/<*yourReport*>` for reports using the `/apps/<yourProject>/reports` pattern
 
-Required design properties are registered on `jcr:content/reportpage/report/columns` (for example, `/etc/designs/reports/<*reportName*>/jcr:content/reportpage/report/columns`):
+Required design properties are registered on `jcr:content/reportpage/report/columns` (for example, `/etc/designs/reports/<reportName>/jcr:content/reportpage/report/columns`):
 
 * `components`
 
@@ -1168,7 +1162,7 @@ An example template snippet, showing the definition of the root path (taken from
 
 The default reporting templates are held under `/libs/cq/reporting/templates`.
 
-However, it is strongly recommended that you do not update these nodes, but create your own component nodes under `/apps/cq/reporting/templates` or if more appropriate `/apps/<*yourProject*>/reports/templates`.
+However, it is strongly recommended that you do not update these nodes, but create your own component nodes under `/apps/cq/reporting/templates` or if more appropriate `/apps/<yourProject>/reports/templates`.
 
 Where, as an example (see also [Location of Report Components](#location-of-report-components)):
 
@@ -1314,11 +1308,10 @@ To illustrate these steps, the following example defines a report that lists all
    >
    >This is the same as the definitions:
    >
-   >```   >
+   >```
    >N:data [nt:unstructured]
-   > P:clientFilter [String] = "function(v) { return v; }"
-   >
-   >```   >
+   >  P:clientFilter [String] = "function(v) { return v; }"
+   >```
    >Where the function simply returns the value it receives.
 
 1. Define your report design. For example `osgireport[cq:Page]` under `/etc/designs/reports`.

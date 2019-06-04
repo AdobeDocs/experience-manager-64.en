@@ -13,7 +13,7 @@ discoiquuid: 63c94c82-ed96-4d10-b645-227fa3c09f4b
 
 # Customizing Pages shown by the Error Handler{#customizing-pages-shown-by-the-error-handler}
 
-CQ comes with a standard error handler for handling HTTP errors; for example, by showing:
+AEM comes with a standard error handler for handling HTTP errors; for example, by showing:
 
 ![](assets/chlimage_1-67.png)
 
@@ -24,7 +24,7 @@ System provided scripts exist (under `/libs/sling/servlet/errorhandler`) to resp
 
 >[!NOTE]
 >
->CQ is based on Apache Sling, so see [https://sling.apache.org/site/errorhandling.html](https://sling.apache.org/site/errorhandling.html) for detailed information about Sling Error Handling.
+>AEM is based on Apache Sling, so see [https://sling.apache.org/site/errorhandling.html](https://sling.apache.org/site/errorhandling.html) for detailed information about Sling Error Handling.
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ HTTP 500 errors are caused by server side exceptions.
 * **[500 Internal Server Error](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)** 
   The server encountered an unexpected condition which prevented it from fulfilling the request.
 
-When request processing results in an exception, the Apache Sling framework (that CQ is built on):
+When request processing results in an exception, the Apache Sling framework (that AEM is built on):
 
 * logs the exception
 * returns:

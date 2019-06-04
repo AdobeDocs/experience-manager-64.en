@@ -58,7 +58,7 @@ In Adobe Campaign, tap/click **Add** to create a new extension of the **Seed add
 
 ![](assets/chlimage_1-194.png)
 
-Now, use the fields from the **event*** *table to extend the **seed** table:
+Now, use the fields from the **event** table to extend the **seed** table:
 
 ```xml
 <element label="Event" name="custom_cus_event">

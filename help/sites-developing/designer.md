@@ -39,9 +39,9 @@ Designs are stored under `/etc/designs`. The path to the design to be used for a
 
 To realize your design you will need:
 
-**CSS** The Cascading Style Sheets define the formats of specific areas on your pages.
+**CSS** - The Cascading Style Sheets define the formats of specific areas on your pages.
 
-**Images** Any images that you use for features such as backgrounds, buttons.
+**Images** - Any images that you use for features such as backgrounds, buttons.
 
 ### Considerations When Designing Your Website {#considerations-when-designing-your-website}
 
