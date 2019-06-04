@@ -63,7 +63,7 @@ Analytics has been designed with an inheritance mechanism in mind. Usually, you 
 
 #### Solution {#solution-1}
 
-Firstly, analyzing the [error.log](help/sites-deploying/configure-logging.md) might give you some insight about the amount of active or registered PollingImporters. For example:
+Firstly, analyzing the [error.log](/help/sites-deploying/configure-logging.md) might give you some insight about the amount of active or registered PollingImporters. For example:
 
 ```
 # Count PollingImporter entries
