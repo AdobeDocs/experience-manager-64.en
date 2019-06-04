@@ -91,7 +91,6 @@ Create a Adobe Analytics configuration so that AEM can authenticate with the Ado
     * Do not change the Parent Configuration property; for example, **Adobe Analytics Configuration**.
 
 1. Select **Create**.
-1. 
 
    >[!NOTE]
    >
@@ -141,7 +140,7 @@ To be able to see and use the [Activity Map in the page editor](/help/sites-auth
 >[!NOTE]
 >
 >Since `ActivityMap` inspects the tag (report suite) on the page to fetch report data (and publishing data is a key aim) `ActivityMap` is only supported if the report suite on author and publish is the same.  
-  
+>  
 >`ActivityMap` cannot show data from report suites other than the ones used for tracking on the page.
 
 >[!NOTE]
