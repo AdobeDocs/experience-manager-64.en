@@ -206,7 +206,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Trying out Core Components in We.Retail](we-retail-core-components.md)
     + [Developing for Targeted Content](target.md)
     + [DO NOT PUBLISH, BUT DO NOT DELETE Customizing Content Fragment Models](customizing-content-fragment-models.md)
-    + [REDIRECT Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)
     + [Tough Day](tough-day.md)
     + [Templates](templates.md)
     + [Workflow Step Reference](workflows-step-ref.md)
