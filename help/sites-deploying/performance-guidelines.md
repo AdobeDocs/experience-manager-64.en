@@ -16,7 +16,7 @@ discoiquuid: 9ccbc39e-aea7-455e-8639-9193abc1552f
 This page provides general guidelines on how to optimize the performance of your AEM deployment. If you are new to AEM, please go over the following pages before you start reading the performance guidelines:
 
 * [AEM Basic Concepts](/help/sites-deploying/deploy.md#basic-concepts)
-* [Overview of Storage in AEM 6.3](/help/sites-deploying/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
+* [Overview of Storage in AEM](/help/sites-deploying/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
 * [Recommended Deployments](/help/sites-deploying/recommended-deploys.md)
 * [Technical Requirements](/help/sites-deploying/technical-requirements.md)
 
@@ -400,7 +400,7 @@ For more information about TarMK, see [Deployment Scenarios](/help/sites-deployi
 
 >[!NOTE]
 >
->The minimum architecture guidelines presented below are for production enviroments and high traffic sites. These are **not **the [minimum specifications](/help/sites-deploying/technical-requirements.md#prerequisites) needed to run AEM.
+>The minimum architecture guidelines presented below are for production enviroments and high traffic sites. These are **not** the [minimum specifications](/help/sites-deploying/technical-requirements.md#prerequisites) needed to run AEM.
 
 To establish good performance when using TarMK, you should start from the following architecture:
 
@@ -838,7 +838,7 @@ The guidelines presented on this page can be summarized as follows:
     * Binary-less replication turned on if the File Datastore is shared
 
 * **Nodestore** should be stored on the local disk, not a network attached storage (NAS)
-* When using** Amazon S3:**
+* When using **Amazon S3**:
 
     * The Amazon S3 datastore is shared between the Author and Publish tier
     * Binary-less replication must be turned on
