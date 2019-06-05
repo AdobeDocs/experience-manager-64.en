@@ -124,7 +124,7 @@ To create a backup:
    >[!NOTE]
    >
    >The backup console is also available using:  
-
+   >
    >
    >` https://<*hostname*>:<*port-number*>/libs/granite/backup/content/admin.html`
 

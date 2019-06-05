@@ -48,7 +48,7 @@ There are three ways to implement Livefyre into a custom AEM component or other 
 
 For advanced customizations using the SDK, please refer to [StreamHub SDKs](https://github.com/Livefyre/streamhub-sdk).
 
-**Method 3: API Implementation **
+**Method 3: API Implementation**
 
 * For creating customized experiences and data visualizations, Livefyre Apps can be created from scratch by consuming Livefyre and social data using the [Bootstrap and Stream API](https://marketing.adobe.com/resources/help/en_US/livefyre/bootstrap-stream-api.html).
 
