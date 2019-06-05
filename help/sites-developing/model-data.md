@@ -35,7 +35,7 @@ I would like to start filling this void by expressing my personal opinions on ho
 
 ### Seven Simple Rules {#seven-simple-rules}
 
-#### Rule #1: Data First, Structure Later. Maybe. {#rule-data-first-structure-later-maybe}
+#### Rule #1: Data first, structure later. Maybe. {#rule-data-first-structure-later-maybe}
 
 **Explanation**
 
@@ -59,7 +59,7 @@ The above example of using a `lastModified` Date property on for example "blog p
 
 **Explanation**
 
-The content hierarchy is a very valuable asset. So don't just let it happen, design it. If you don't have a "good", human-readable name for a node, that's probably that you should reconsider. Arbitrary numbers are hardly ever a "good name".
+The content hierarchy is a very valuable asset. So don't just let it happen, design it. If you don't have a "good", human-readable name for a node, that's probably something that you should reconsider. Arbitrary numbers are hardly ever a "good name".
 
 While it may be extremely easy to quickly put an existing relational model into a hierarchical model, one should put some thought in that process.
 
@@ -71,7 +71,7 @@ Personally I prefer hierarchy conventions over the nodetyping system in a lot of
 >
 >The way a content repository is structured can impact performance as well. For best performance, the number of child nodes attached to individual nodes in a content repository should generally not exceed 1'000.
 >
->See the [How much data can CRX handle?](https://helpx.adobe.com/experience-manager/kb/CrxLimitation.html) section for more information.
+>See [How much data can CRX handle?](https://helpx.adobe.com/experience-manager/kb/CrxLimitation.html) for more information.
 
 **Example**
 
@@ -87,7 +87,7 @@ I would model a simple blogging system as follows. Please note that initially I 
 /content/myblog/comments/iphone_shipping/i_like_it_too/i_hate_it
 ```
 
-think one of the things that become apparent is that we all understand the structure of the content based on the example without any further explanations.
+I think one of the things that become apparent is that we all understand the structure of the content based on the example without any further explanations.
 
 What may be unexpected initially is why I wouldn't store the "comments" with the "post", which is due to access control which I would like to be applied in a reasonably hierarchical way.
 
@@ -166,7 +166,7 @@ So I would either model those references as "weak-references" (in JCR v1.0 this 
 
 I think there are use cases where a system really can't work if a reference is dangling, but I just can't come up with a good "real" yet simple example from my direct experience.
 
-#### Rule #6: Files are Files. {#rule-files-are-files}
+#### Rule #6: Files are files. {#rule-files-are-files}
 
 **Explanation**
 
@@ -208,13 +208,13 @@ It is true that some nodes need a stable identification throughout their live cy
 
 Keep also in mind that items can be identified by path, and as much as "symlinks" make way more sense for most users than hardlinks in a unix filesystem, a path makes a sense for most applications to refer to a target node.
 
-More importantly, it is &ast;&ast;mix&ast;&ast;:referenceable which means that it can be applied to a node at the point in time when you actually need to reference it.
+More importantly, it is **mix**:referenceable which means that it can be applied to a node at the point in time when you actually need to reference it.
 
 So let's say just because you would like to be able to potentially reference a node of type "Document" does not mean that your "Document" nodetype has to extend from mix:referenceable in a static fashion since it can be added to any instance of the "Document" dynamically.
 
 **Example**
 
-use:
+Use:
 
 ```xml
 /content/myblog/posts/iphone_shipping/attachments/front.jpg

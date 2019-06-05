@@ -251,13 +251,13 @@ Use a specific format for the ***Name*** property of the replication agents so t
 
 **Naming the outgoing agent on the author instance:**
 
-`offloading_`* `<slingid>`*, where `*<slingid>*` is the Sling ID of the worker instance.
+`offloading_<slingid>`, where `<slingid>` is the Sling ID of the worker instance.
 
 Example: `offloading_f5c8494a-4220-49b8-b079-360a72f71559`
 
 **Naming the reverse agent on the author instance:**
 
-`offloading_reverse_*<slingid>*`, where * `<slingid>`* is the Sling ID of the worker instance.
+`offloading_reverse_<slingid>`, where `<slingid>` is the Sling ID of the worker instance.
 
 Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
@@ -267,7 +267,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
 ### Creating the outgoing agent {#creating-the-outgoing-agent}
 
-1. Create a** Replication Agent **on author. (See the [documention for replication agents](/help/sites-deploying/replication.md)). Specify any **Title**. The **Name** must follow the naming convention. 
+1. Create a **Replication Agent** on author. (See the [documention for replication agents](/help/sites-deploying/replication.md)). Specify any **Title**. The **Name** must follow the naming convention. 
 1. Create the agent using the following properties:
 
    | Property |Value |
@@ -281,7 +281,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
 ### Creating the reverse agent {#creating-the-reverse-agent}
 
-1. Create a** Reverse Replication Agent **on author. (See the [documention for replication agents](/help/sites-deploying/replication.md).) Specify any **Title. **The **Name** must follow the naming convention. 
+1. Create a **Reverse Replication Agent** on author. (See the [documention for replication agents](/help/sites-deploying/replication.md).) Specify any **Title**. The **Name** must follow the naming convention. 
 1. Create the agent using the following properties:
 
    | Property |Value |
@@ -294,7 +294,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
 ### Creating the outbox agent {#creating-the-outbox-agent}
 
-1. Create a **Replication Agent **on the worker instance. (See the [documention for replication agents](/help/sites-deploying/replication.md).) Specify any **Title**. The **Name** must be `offloading_outbox`.
+1. Create a **Replication Agent** on the worker instance. (See the [documention for replication agents](/help/sites-deploying/replication.md).) Specify any **Title**. The **Name** must be `offloading_outbox`.
 1. Create the agent using the following properties.
 
    | Property |Value |
