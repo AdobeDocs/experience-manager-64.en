@@ -168,7 +168,6 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [REDIRECT Monitoring and Troubleshooting Performance](monitoring-screens.md)
     + [REDIRECT Setting up ACLs](setting-up-acls.md)
     + [Compatibility Matrix for AEM Screens Player](compatibility-matrix.md)
-    + [Multi-tenancy for ContextHub Audiences](target-multi-tenancy-contexthub-audiences.md)
     + [REDIRECT Implementing Windows 10 Player](implementing-windows-player.md)
     + [REDIRECT Administering Screens](administering-screens.md)
     + [FAQs to troubleshoot Rich Text Editor](aem-rte-faq.md)
@@ -176,5 +175,3 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [REDIRECT Adobe Analytics Integration with AEM Screens](adobe-analytics-integration-aem-screens.md)
     + [REDIRECT Implementing Android Player](implementing-android-player.md)
     + [Content Disposition Filter](content-disposition-filter.md)
-    + [Custom User Group Mapping in AEM 6.4](cug-mapping.md)
-    + [Track Content Changes Using Task Management](task-manager.md)

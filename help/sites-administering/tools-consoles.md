@@ -230,11 +230,6 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>Manage your Inbox items.</td> 
   </tr> 
   <tr> 
-   <td> </td> 
-   <td><a href="/help/sites-administering/task-manager.md">Task Management</a></td> 
-   <td>Manage tasks allocated to you.<br /> </td> 
-  </tr> 
-  <tr> 
    <td>Operations</td> 
    <td> </td> 
    <td> </td> 
