@@ -86,7 +86,7 @@ To create a newsletter with targeted content:
 
 1. Click **Default** and then the Text and Personalization component you added and you see the Bullseye with an arrow in it. Click the icon to target this component.
 
-   ![](assets/chlimage_1-165.png)
+   ![chlimage_1-165](assets/chlimage_1-165.png)
 
 1. Navigate to another segment (Male), and click **Add offer** and click the plus icon +. Then edit the offer. 
 1. Navigate to another segment (Female) and click **Add offer** and the plus icon +. Then edit this offer.
@@ -98,7 +98,7 @@ To create a newsletter with targeted content:
 
    In the HTML view, the different experiences of targeted components are enclosed in Adobe Campaign targeting code.
 
-   ![](assets/chlimage_1-166.png)
+   ![chlimage_1-166](assets/chlimage_1-166.png)
 
    >[!NOTE]
    >

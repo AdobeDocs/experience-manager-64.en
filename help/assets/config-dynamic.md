@@ -4,7 +4,7 @@ seo-title: Configuring Dynamic Media - Hybrid mode
 description: Learn how to configure Dynamic Media - Hybrid mode.
 seo-description: Learn how to configure Dynamic Media - Hybrid mode.
 uuid: de88f68f-4697-4ff0-8008-3ae6a4684a84
-contentOwner: Alva Ware-Bevacqui
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
@@ -24,18 +24,14 @@ Dynamic Media-Hybrid needs to be enabled and configured for use. Depending on yo
 
 Learn more about working with [video](video.md) in Dynamic Media.
 
->[!NOTE]
->
->If you use Adobe Experience Manager set up for different environments, such as one for development, one for staging, and one for live production, you need to configure Dynamic Media Cloud Services for each one of those environments.
+If you use Adobe Experience Manager set up for different environments, such as one for development, one for staging, and one for live production, you need to configure Dynamic Media Cloud Services for each one of those environments.
 
->[!NOTE]
->
->If you are having issues with your Dynamic Media configuration, an important place to look are the log files specific to dynamic media. These are installed automatically when you enable dynamic media:
->
->* s7access.log
->* ImageServing.log
->
->They are documented in [Monitoring and Maintaining your AEM instance](/help/sites-deploying/monitoring-and-maintaining.md).
+If you are having issues with your Dynamic Media configuration, an important place to look are the log files specific to dynamic media. These are installed automatically when you enable dynamic media:
+
+* s7access.log
+* ImageServing.log
+
+They are documented in [Monitoring and Maintaining your AEM instance](/help/sites-deploying/monitoring-and-maintaining.md).
 
 Hybrid publishing and delivery is a core feature of the Dynamic Media addition to Adobe Experience Manager. Hybrid publishing lets you deliver Dynamic Media assets, such as images, sets and video, from the cloud instead of from the AEM publish nodes.
 
@@ -45,11 +41,11 @@ If you are a customer of Dynamic Media, you are required to use hybrid delivery 
 
 ## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
-![](assets/chlimage_1-506.png) 
+![chlimage_1-506](assets/chlimage_1-506.png) 
 
 ## Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
 
-![](assets/chlimage_1-507.png) 
+![chlimage_1-507](assets/chlimage_1-507.png) 
 
 ## Supported Dynamic Media Configurations {#supported-dynamic-media-configurations}
 
@@ -145,19 +141,19 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 >[!NOTE]
 >
->Enabling dynamic media via the run mode replaces the functionality in AEM 6.1 and AEM 6.0 where you enabled dynamic media by setting the **dynamicMediaEnabled** flag to **true**. This flag has no functionality in AEM 6.2 and later. In addition, you do not need to restart the quickstart to enable dynamic media.
+>Enabling dynamic media via the run mode replaces the functionality in AEM 6.1 and AEM 6.0 where you enabled dynamic media by setting the **[!UICONTROL dynamicMediaEnabled]** flag to **[!UICONTROL true]**. This flag has no functionality in AEM 6.2 and later. In addition, you do not need to restart the quickstart to enable dynamic media.
 
-By enabling Dynamic Media, the dynamic media features will be available in the UI and every uploaded image asset receives a *cqdam.pyramid.tiff* rendition that is used for fast delivery of dynamic image renditions. Those PTIFFs have significant advantages including (1) the ability to manage only a single master image and generate infinite renditions on-the-fly without any additional storage and (2) the ability to use interactive visualization such as zoom, pan, spin, and so on.
+By enabling Dynamic Media, the dynamic media features will be available in the UI and every uploaded image asset receives a `cqdam.pyramid.tiff` rendition that is used for fast delivery of dynamic image renditions. Those PTIFFs have significant advantages including (1) the ability to manage only a single master image and generate infinite renditions on-the-fly without any additional storage and (2) the ability to use interactive visualization such as zoom, pan, spin, and so on.
 
 If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
 
 To enable dynamic media, you must enable the dynamic media runmode either from the command line or from the quickstart file name.
 
-To enable dynamic media:
+**To enable dynamic media**:
 
 1. On the command line, when launching the quickstart, do the following:
 
-    * Add **-r dynamicmedia** to the end of the command line when starting the jar file.
+    * Add **[!UICONTROL -r dynamicmedia]** to the end of the command line when starting the jar file.
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar -r dynamicmedia
@@ -176,14 +172,14 @@ To enable dynamic media:
 
    >[!NOTE]
    >
-   >To troubleshoot issues with Dynamic Media, see the following logs in the **crx-quickstart/logs/** directory:
+   >To troubleshoot issues with Dynamic Media, see the following logs in the **[!UICONTROL crx-quickstart/logs/]** directory:
    >
    >* ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.
    >
    >      Example of an Image Server log file name: `ImageServer-57346-2019-07-25.log`
-   >* s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
+   >* s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through `/is/image` and `/is/content`.
    >
-   >These logs are only used when Dynamic Media is enabled. They are not included in the **Download Full** package that is generated from the **system/console/status-Bundlelis**t page; when calling Customer Support if you have a Dynamic Media issue, please append both these logs to the issue.
+   >These logs are only used when Dynamic Media is enabled. They are not included in the **Download Full** package that is generated from the **[!UICONTROL system/console/status-Bundlelist]** page; when calling Customer Support if you have a Dynamic Media issue, please append both these logs to the issue.
 
 ### If you installed AEM to a different port or context path ... {#if-you-installed-aem-to-a-different-port-or-context-path}
 
@@ -276,11 +272,11 @@ To set up authentication:
 1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools &gt;  Security &gt; Users]**.
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
 
-   ![](assets/dm-replication.png)
+   ![dm-replication](assets/dm-replication.png)
 
 1. In the Edit User Settings For dynamic-media-replication page, tap the **[!UICONTROL Keystore]** tab, then tap **[!UICONTROL Create KeyStore]**.
 
-   ![](assets/dm-replication-keystore.png)
+   ![dm-replication-keystore](assets/dm-replication-keystore.png)
 
 1. Enter a password and confirm the password in the [!UICONTROL Set KeyStore Access Password] dialog box.
 
@@ -288,7 +284,7 @@ To set up authentication:
    >
    >Remember the password that you enter. You will need to enter it again when you configure the Replication Agent later.
 
-   ![](assets/chlimage_1-508.png)
+   ![chlimage_1-508](assets/chlimage_1-508.png)
 
 1. On the **Edit User Settings For dynamic-media-replication** page, expand the **Add Private Key from KeyStore file **area and add the following (see the images that follow):
 
@@ -298,7 +294,7 @@ To set up authentication:
    * In the **Private Key Password** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.
    * In the **Private Key Alias** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
 
-   ![](assets/edit_settings_fordynamic-media-replication2.png)
+   ![edit_settings_fordynamic-media-replication2](assets/edit_settings_fordynamic-media-replication2.png)
 
 1. Tap **Save & Close** to save your changes to this user.
 
@@ -321,7 +317,7 @@ To configure the replication agent:
 
    The following image shows the replication agent with sample data:
 
-   ![](assets/chlimage_1-509.png)
+   ![chlimage_1-509](assets/chlimage_1-509.png)
 
 1. Tap **[!UICONTROL OK]**.
 
@@ -499,7 +495,7 @@ To test your configuration:
 1. Publish the image asset. (Select the asset and tap **[!UICONTROL Quick Publish]**.)
 1. Navigate to the renditions for that image by opening the image, and tapping **[!UICONTROL Renditions]**.
 
-   ![](assets/chlimage_1-510.png)
+   ![chlimage_1-510](assets/chlimage_1-510.png)
 
 1. Select any dynamic rendition.
 1. Tap **[!UICONTROL URL]** to obtain the URL for this asset.
@@ -606,7 +602,7 @@ Make sure that the Video Analytics preset package from the first Author node is 
   
       If you see the following error message, the report suite is available, but unpopulated. This error is correct--and desired--in a new installation before the system collects any data.
 
-      ![](assets/screen_shot_2018-05-23at52254pm.png)
+      ![screen_shot_2018-05-23at52254pm](assets/screen_shot_2018-05-23at52254pm.png)
 
    To generate reporting data, upload and publish one video. Use **[!UICONTROL Copy URL]** and run the video at least one time.  
   
@@ -614,7 +610,7 @@ Make sure that the Video Analytics preset package from the first Author node is 
   
    If there is an error and the report suite is not set correctly, the following alert is displayed.
 
-   ![](assets/screen_shot_2018-05-23at52612pm.png)
+   ![screen_shot_2018-05-23at52612pm](assets/screen_shot_2018-05-23at52612pm.png)
 
    This error is also displayed if Video Reporting is run before you configure Dynamic Media Configuration (Pre 6.3) services.
 
@@ -752,7 +748,7 @@ If you are using Dynamic Media for imaging in non-production deployments, follow
 1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters`
 
-   ![](assets/image-2018-01-16-10-22-40-410.png)
+   ![image-2018-01-16-10-22-40-410](assets/image-2018-01-16-10-22-40-410.png)
 
 1. Locate [!UICONTROL filter-images], right-click it and select **[!UICONTROL Copy]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/publish`
@@ -767,7 +763,7 @@ This sets up the AEM publish instance to deliver the images to your non-producti
 >
 >If you are using more than one filter on a server - for example, one filter for replication to publish and a second filter for s7delivery - then you need to ensure that these two filters have a different **userId** assigned to them in the [!UICONTROL jcr:content] node. See the image that follows:
 
-![](assets/image-2018-01-16-10-26-28-465.png) 
+![image-2018-01-16-10-26-28-465](assets/image-2018-01-16-10-26-28-465.png) 
 
 ### Customizing Asset Filters for Replication {#customizing-asset-filters-for-replication}
 
@@ -776,7 +772,7 @@ To optionally customize asset filters for replication:
 1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
-   ![](assets/chlimage_1-511.png)
+   ![chlimage_1-511](assets/chlimage_1-511.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
@@ -784,7 +780,7 @@ To optionally customize asset filters for replication:
 
    The following graphic is an example of an asset's path to dc:format.
 
-   ![](assets/chlimage_1-512.png)
+   ![chlimage_1-512](assets/chlimage_1-512.png)
 
    Notice that the `dc:format` for the asset `Fiji Red.jpg` is `image/jpeg`.
 
@@ -821,7 +817,7 @@ To optionally customize asset filters for replication:
 
    The following graphic is an example of an asset's renditions.
 
-   ![](assets/chlimage_1-513.png)
+   ![chlimage_1-513](assets/chlimage_1-513.png)
 
    Using the example above, if you only wanted to replicate the PTIFF (Pyramid TIFF), then you would enter `+cqdam,*` which includes all the renditions that start with `cqdam`. Inthe example, that rendition is `cqdam.pyramid.tiff`.
 
@@ -917,7 +913,7 @@ The location of the default manifest configuration is taken from the **Catalog r
 
 **/conf/global/settings/dam/dm/imageserver/**
 
-![](assets/configimageservercrxdelite.png)
+![configimageservercrxdelite](assets/configimageservercrxdelite.png)
 
 You can change the values of the properties, as described in the table below, by entering new values.
 
@@ -925,7 +921,7 @@ When you are finished making changes to the default manifest, in the upper-left 
 
 Be sure you tap the **[!UICONTROL Access Control]** tab (to the right of the [!UICONTROL Properties] tab), then set the access control privileges to `jcr:read` for the everyone and dynamic-media-replication users.
 
-![](assets/configimageservercrxdeliteaccesscontroltab.png)
+![configimageservercrxdeliteaccesscontroltab](assets/configimageservercrxdeliteaccesscontroltab.png)
 
 Table of Manifest settings and their default values:
 
@@ -1024,7 +1020,7 @@ After you install the feature pack, you need to configure the appropriate defaul
 
 1. In **Tools** &gt; **General** &gt; **CRXDE Lite**, navigate to */conf/global/settings/dam/dm/imageserver/configuration/settings* which contains the default Adobe Color Profiles.
 
-   ![](assets/chlimage_1-514.png)
+   ![chlimage_1-514](assets/chlimage_1-514.png)
 
 1. Add a color correction property by scrolling to the bottom of the **Properties** tab and manually entering the property name, type, and value, which are described in the following tables. After you enter the values, tap **[!UICONTROL Add]** and then **[!UICONTROL Save All]** to save your values.
 
@@ -1032,7 +1028,7 @@ After you install the feature pack, you need to configure the appropriate defaul
 
    For example, in **Name**, add `iccprofilecmyk`, select **Type** `String`, and add `WebCoated` as a **Value**. Tap **[!UICONTROL Add]**, then **[!UICONTROL Save All]** to save your values.
 
-   ![](assets/chlimage_1-515.png)
+   ![chlimage_1-515](assets/chlimage_1-515.png)
 
     **Color Correction Properties Table**
 

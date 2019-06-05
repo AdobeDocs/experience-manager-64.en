@@ -46,27 +46,27 @@ The following steps describes setting up link to cloud configuration:
 1. From **Mobile**, choose **Apps** and then your Mobile On-Demand app from the catalog.
 1. Click the gear icon on the **Manage Connection** tile.
 
-   ![](assets/chlimage_1-65.png)
+   ![chlimage_1-65](assets/chlimage_1-65.png)
 
 1. Enter the already existing configuration or create a new one by entering the **Configuration Title**, **Device Id**, and **Device Token**.
 
-   ![](assets/chlimage_1-66.png)
+   ![chlimage_1-66](assets/chlimage_1-66.png)
 
 1. Once your **Device Id** and **Device Token** are verified, choose your On-Demand project from the list.
 
    Click **Submit**.
 
-   ![](assets/chlimage_1-67.png)
+   ![chlimage_1-67](assets/chlimage_1-67.png)
 
    The **Manage Connection** tile shows your Cloud Configuration.
 
-   ![](assets/chlimage_1-68.png)
+   ![chlimage_1-68](assets/chlimage_1-68.png)
 
    >[!CAUTION]
    >
    >If you try to change which project this App is associated with, while switching project in the dashboard, you will receive a warning for content integrity issues as shown in the figure below:
 
-   ![](assets/chlimage_1-69.png)
+   ![chlimage_1-69](assets/chlimage_1-69.png)
 
 ### The Next Steps {#the-next-steps}
 

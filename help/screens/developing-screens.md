@@ -21,7 +21,7 @@ A developer creates applications and components, works on API integrations and p
 
 The following diagram provides a detailed architecture of AEM Screens:
 
-![](assets/chlimage_1-42.png)
+![chlimage_1-42](assets/chlimage_1-42.png)
 
 To access the developer resources, see the links below:
 

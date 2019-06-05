@@ -7,6 +7,7 @@ uuid: 26dc5e46-9332-4d9b-8874-895b90391e8c
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+topic-tags: security
 discoiquuid: 4e08c297-aa4b-44cf-84c8-1e11582d9ebb
 ---
 
@@ -29,20 +30,20 @@ These steps show how to encrypt the SMTP password for the Mail service. You can 
 1. Go to the AEM Web Console at *https://&lt;serveraddress&gt;:&lt;serverport&gt;/system/console/configMgr*
 1. In the upper left corner, go to **Main - Crypto Support**
 
-   ![](assets/chlimage_1-325.png)
+   ![chlimage_1-325](assets/chlimage_1-325.png)
 
 1. The **Adobe Experience Manager Web Console Crypto Support** page is displayed.
 
-   ![](assets/screen_shot_2018-08-01at113417am.png)
+   ![screen_shot_2018-08-01at113417am](assets/screen_shot_2018-08-01at113417am.png)
 
 1. In the **Plain Text** field, enter the text of the sensitive data you want to protect.
 1. Select **Protect**. The Protected text is displayed as encrypted text.
 
-   ![](assets/screen_shot_2018-08-01at113844am.png)
+   ![screen_shot_2018-08-01at113844am](assets/screen_shot_2018-08-01at113844am.png)
 
 1. Copy the Protected Text from Step#5 and paste it into OSGI Form value. In this example, the ecrypted **SMTP password** is added to the *Day CQ Mail Service*.
 
-   ![](assets/screen_shot_2016-12-18at105809pm.png)
+   ![screen_shot_2016-12-18at105809pm](assets/screen_shot_2016-12-18at105809pm.png)
 
 1. Save the Day CQ Mail Service properties. The SMTP password will now be sent as an encrypted value.
 

@@ -13,7 +13,7 @@ discoiquuid: 40c0a17b-6894-44cc-b1f7-490913061532
 
 Create Print and Web templates for Interactive Communication
 
- ![](assets/07-apply-rules-to-adaptive-form_small.png)
+ ![07-apply-rules-to-adaptive-form_small](assets/07-apply-rules-to-adaptive-form_small.png)
 
 This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
@@ -49,7 +49,7 @@ Based on the [use case](/help/forms/using/create-your-first-interactive-communic
 * Pay Now: Includes an image
 * Value Added Services: Includes an image
 
-![](assets/create_print_template.gif)
+![create_print_template](assets/create_print_template.gif)
 
 These subforms are displayed as target areas in the Print template after uploading the XDP file to the Forms server. All entities such as document fragments, charts, layout fragments, and images are added to target areas while creating the Interactive Communication.
 
@@ -67,14 +67,14 @@ Execute the following steps to create an XDP template for the Print channel:
     1. Specify **BillDetails** in the **Name** field.
     1. Select **No data binding** from the **Data Binding** drop-down list.
 
-   ![](assets/forms_designer_subform.png)
+   ![forms_designer_subform](assets/forms_designer_subform.png)
 
 1. Similarly, select the root subform, select the **Subform** tab, and select **Flowed** from the **Content** drop-down list. In the **Bindings** tab:
 
     1. Specify **TelecaBill** in the **Name** field.
     1. Select **No data binding** from the **Data Binding** drop-down list.
 
-   ![](assets/root_subform_print_template.png)
+   ![root_subform_print_template](assets/root_subform_print_template.png)
 
 1. Repeat steps 2 - 5 to create the following subforms:
 
@@ -97,7 +97,7 @@ Execute the following steps to create an XDP template for the Print channel:
 1. Drag-and-drop the **Text** object from the **Object Library** to the form and enter the **Dial XXXX to subscribe** text in the box.
 1. Right-click the text object in the left pane, select **Rename Object**, and enter the name of the text object as **Subscribe**. 
 
-   ![](assets/print_xdp_template_subform.png)
+   ![print_xdp_template_subform](assets/print_xdp_template_subform.png)
 
 1. Select **File** &gt; **Save As** to save the file on the local file system:
 
@@ -136,15 +136,15 @@ To create a layout fragment for the Print channel of the Interactive Communicati
 
 1. Click the Header text fields in the **Designer View** and rename them to **Time**, **Number**, **Duration**, and **Charges**.
 
-   ![](assets/layout_fragment_print.png)
+   ![layout_fragment_print](assets/layout_fragment_print.png)
 
 1. Select **Row 1** from the left pane and select **Object** &gt; **Binding** &gt; **Repeat Row for Each Data Item**.
 
-   ![](assets/layout_fragment_print_repeat.png)
+   ![layout_fragment_print_repeat](assets/layout_fragment_print_repeat.png)
 
 1. Drag-and-drop the **Text Field** component from the **Object Library** to the **Designer View**.
 
-   ![](assets/layout_fragment_print_text_field.png)
+   ![layout_fragment_print_text_field](assets/layout_fragment_print_text_field.png)
 
    Similarly, drag-and drop **Text Field** component to the **Time**, **Number**, **Duration**, and **Charges** rows.
 
@@ -175,7 +175,7 @@ Execute the following steps to create a folder for the editable templates:
 1. In the Configuration Browser page, tap **Create**. 
 1. In the **Create Configuration** dialog, specify **Create_First_IC_templates** as the title for the folder, check **Editable Templates**, and tap **Create**.
 
-   ![](assets/create_first_ic_web_template.png)
+   ![create_first_ic_web_template](assets/create_first_ic_web_template.png)
 
    The **Create_First_IC_templates** folder is created and listed on the **Configuration Browser** page.
 
@@ -191,7 +191,7 @@ Based on the [use case](/help/forms/using/create-your-first-interactive-communic
 * Pay Now: Includes a **Pay Now** button and an image
 * Value Added Services: Includes an image and a **Subscribe** button.
 
-![](assets/create_web_template.gif)
+![create_web_template](assets/create_web_template.gif)
 
 All the entities such as document fragments, charts, tables, images, and buttons are added while creating the Interactive Communication.
 
@@ -207,21 +207,21 @@ Execute the following steps to create a template for the Web channel in the **Cr
 1. Tap **Open** to open the template in the template editor.
 1. Select **Initial Content** from the drop-down list next to the **Preview** option.
 
-   ![](assets/template_editor_initial_content.png)
+   ![template_editor_initial_content](assets/template_editor_initial_content.png)
 
 1. Tap **Root Panel **and then tap **+** to view the list of components that you can add to the template.
 1. Select **Panel** from the list to add a panel above the **Root Panel**.
 1. Select the **Content** tab in the left pane. The new panel added in step 8 is displayed under the **Root Panel** in the content tree.
 
-   ![](assets/content_tree_root_panel.png)
+   ![content_tree_root_panel](assets/content_tree_root_panel.png)
 
-1. Select the panel and tap ![](assets/configure_icon.png) (Configure).
+1. Select the panel and tap ![configure_icon](assets/configure_icon.png) (Configure).
 1. In the Properties pane:
 
     1. Specify **billdetails** in the Name field.
     1. Specify **Bill Details** in the Title field.
     1. Select **1** from the **Number of Columns** drop-down list.
-    1. Tap ![](assets/done_icon.png) to save the properties.
+    1. Tap ![done_icon](assets/done_icon.png) to save the properties.
 
    The name of the panel is updated to **Bill Details** in the content tree.
 
@@ -238,7 +238,7 @@ Execute the following steps to create a template for the Web channel in the **Cr
 
    The following image depicts the content tree after adding all panels to the template:
 
-   ![](assets/content_tee_all_panels.png)
+   ![content_tee_all_panels](assets/content_tee_all_panels.png)
 
 ### Enable the template {#enable-the-template}
 
@@ -259,11 +259,11 @@ Based on the use case, you must include the **Pay Now** and **Subscribe** button
 1. Select **Structure** from the drop-down list next to the **Preview** option.
 1. Select the **Document Container** root panel using the content tree and tap **Policy** to select the components that are allowed for use in the Interactive Communication.
 
-   ![](assets/structure_configure_policy.png)
+   ![structure_configure_policy](assets/structure_configure_policy.png)
 
 1. In the **Allowed Components** tab of **Properties** section, select **Button** from the **Adaptive Form** components.
 
-   ![](assets/allowed_components_af.png)
+   ![allowed_components_af](assets/allowed_components_af.png)
 
-1. Tap ![](assets/done_icon.png) to save the properties.
+1. Tap ![done_icon](assets/done_icon.png) to save the properties.
 

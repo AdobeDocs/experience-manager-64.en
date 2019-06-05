@@ -75,17 +75,17 @@ To create a new Translation Integration, which integrates a Translation Service 
 * select **Cloud Services**
 * scroll down to **Translation Integration**
 
-![](assets/chlimage_1-65.png)
+![chlimage_1-65](assets/chlimage_1-65.png)
 
 * select **Show Configurations**
 
-![](assets/chlimage_1-66.png)
+![chlimage_1-66](assets/chlimage_1-66.png)
 
 * select **[+]** icon next to **Available Configurations** to create a new configuration
 
 #### Create Configuration Dialog {#create-configuration-dialog}
 
-![](assets/chlimage_1-67.png)
+![chlimage_1-67](assets/chlimage_1-67.png)
 
 * **Parent Configuration** 
   (required)Typically leave as default. Default is `/etc/cloudservices/translation`.
@@ -100,7 +100,7 @@ To create a new Translation Integration, which integrates a Translation Service 
 
 #### Translation Config Dialog {#translation-config-dialog}
 
-![](assets/chlimage_1-68.png)
+![chlimage_1-68](assets/chlimage_1-68.png)
 
 For detailed instructions visit [Creating a Translation Integration Configuration](/help/sites-administering/tc-tic.md#creating-a-translation-integration-configuration)
 
@@ -148,7 +148,7 @@ One such setting is whether or not to always display community content in their 
 
 When pages are automatically translated into the user's preferred language, the UI for showing the original text and improving the translation are still made available.
 
-![](assets/chlimage_1-69.png)
+![chlimage_1-69](assets/chlimage_1-69.png)
 
 ### Community Site Setting {#community-site-setting}
 

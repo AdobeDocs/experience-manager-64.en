@@ -119,7 +119,7 @@ To offer a solid base and to broaden the variety of content flow possibilities, 
 
 All have a **header**, a **footer** and a **body** section. Below the body section, each template differs in **column design** (1, 2 or 3 columns).
 
-![](assets/chlimage_1-318.png) 
+![chlimage_1-318](assets/chlimage_1-318.png) 
 
 ### Components {#components}
 

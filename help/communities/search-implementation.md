@@ -91,7 +91,7 @@ To view the existing Oak indices in [CRXDE Lite](/help/sites-developing/developi
 
 * /oak:index/socialLucene
 
-![](assets/chlimage_1-235.png) 
+![chlimage_1-235](assets/chlimage_1-235.png) 
 
 ## Indexed Search Properties {#indexed-search-properties}
 

@@ -27,17 +27,17 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/essentials-liking.md#essentials-for-client-side) are included, this is how the `Liking` component will appear.
 
-![](assets/chlimage_1-93.png)
+![chlimage_1-93](assets/chlimage_1-93.png)
 
 ## Configuring Liking {#configuring-liking}
 
 Select the placed `Liking` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-94.png)
+![chlimage_1-94](assets/chlimage_1-94.png)
 
 Under the **Texts & Labels **tab, specify the properties used to record likes.
 
-![](assets/chlimage_1-95.png)
+![chlimage_1-95](assets/chlimage_1-95.png)
 
 * **Positive Response Label** 
   (*Required*) The property name for a positive response.

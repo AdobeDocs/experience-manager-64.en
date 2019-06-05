@@ -67,7 +67,7 @@ Included in the release are three role-based badges:
 
   `/etc/community/badging/images/privileged-member/jcr:content/privileged-member.png`
 
-![](assets/chlimage_1-366.png) 
+![chlimage_1-366](assets/chlimage_1-366.png) 
 
 ### Awarded Badges {#awarded-badges}
 
@@ -92,7 +92,7 @@ Included in the release are three reward-based badges:
 
   `/etc/community/badging/images/bronze-badge/jcr:content/bronze.png`
 
-![](assets/chlimage_1-367.png)
+![chlimage_1-367](assets/chlimage_1-367.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ A boolean property, `allowBadges`, enables/disables the display of badges for a 
 
 #### Example: allowBadges for Forum component instance {#example-allowbadges-for-forum-component-instance}
 
-![](assets/chlimage_1-368.png)
+![chlimage_1-368](assets/chlimage_1-368.png)
 
 >[!NOTE]
 >
@@ -340,7 +340,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
 >
 >Best practice: create badge images unique to each AEM site.
 
-![](assets/chlimage_1-369.png) 
+![chlimage_1-369](assets/chlimage_1-369.png) 
 
 <table> 
  <tbody> 
@@ -617,7 +617,7 @@ It is possible to quickly try scoring and badging using the [Getting Started Tut
 
 * select **Save All**
 
-![](assets/chlimage_1-370.png)
+![chlimage_1-370](assets/chlimage_1-370.png)
 
 Next ensure the forum and comments components allow badges to be displayed:
 
@@ -632,7 +632,7 @@ Next ensure the forum and comments components allow badges to be displayed:
     * **Type**: `Boolean`
     * **Value**: `true`
 
-![](assets/chlimage_1-371.png)
+![chlimage_1-371](assets/chlimage_1-371.png)
 
 Next, [republish](/help/communities/sites-console.md#publishing-the-site) the community site.
 
@@ -649,7 +649,7 @@ Finally,
 
 This should earn the community member a bronze badge visible with their forum post due to the first forums-badging rule's first threshold being a score of 1.
 
-![](assets/bronzebadge.png) 
+![bronzebadge](assets/bronzebadge.png) 
 
 ## Additional Information {#additional-information}
 

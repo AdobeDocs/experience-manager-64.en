@@ -31,7 +31,7 @@ To apply any applicable viewer preset to an asset:
 
 1. Open the asset and in the left rail, and click or tap **Viewers**.
 
-   ![](assets/chlimage_1-104.png)
+   ![chlimage_1-104](assets/chlimage_1-104.png)
 
    >[!NOTE]
    >

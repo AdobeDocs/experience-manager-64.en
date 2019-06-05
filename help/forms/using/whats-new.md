@@ -20,7 +20,7 @@ Read on for quick introduction to new features and enhancements. Visit documenta
 
 ## Interactive Communications {#interactive-communications}
 
-![](assets/correspondence-management.png)
+![correspondence-management](assets/correspondence-management.png)
 
 Interactive Communications centralizes and manages the creation, assembly, and delivery of secure, personalized, and interactive correspondences such as business correspondence, letters, documents, statements, benefit notices, wealth management prospectus, marketing mails, bills, and welcome kits.
 
@@ -37,7 +37,7 @@ Interactive communication is the default and recommended approach to create cust
 ### Multi-channel interactive communication authoring {#multi-channel-interactive-communication-authoring}
 
 Using interactive communication, you can author and edit both print and web documents from a single document editor. By utilizing the same document fragments to build renditions of both the channels, you can eliminate effort duplication. 
-    [ ![](assets/printweb_2.png)
+    [ ![printweb_2](assets/printweb_2.png)
 
 Click to enlarge
 
@@ -49,7 +49,7 @@ The WYSIWYG drag-and-drop document editor is business friendly. The intuitive in
 
 To create an Interactive communication or edit an existing one, business users can use the following building blocks: Channels, Content, Properties, Assets, Components, and Data Sources.
 
-![](assets/drag-n-drop-lf.png)
+![drag-n-drop-lf](assets/drag-n-drop-lf.png)
 
 For more information, see [Introduction to authoring Interactive Communication](/help/forms/using/introduction-interactive-communication-authoring.md).
 
@@ -77,7 +77,7 @@ For more information, see [Prepare and send Interactive Communication using the 
 
 Interactive communication supports charts in web and the print channel for richer communications. Using charts such as pie, donut, bar, and column, you can condense and visually present large amounts of information for easy interpretation and analysis. 
 
-![](assets/chart-2.png) ![](assets/chart.png)
+![chart-2](assets/chart-2.png) ![chart](assets/chart.png)
 
 For more information, see [Using charts in Interactive Communications](/help/forms/using/chart-component-interactive-communications.md).
 
@@ -85,7 +85,7 @@ For more information, see [Using charts in Interactive Communications](/help/for
 
 Interactive communication provides data integration with business tools to connect with multiple business systems including CRM Systems and personalize data into documents. 
 
-![](assets/fdm_ad.png)
+![fdm_ad](assets/fdm_ad.png)
 
 For more information, see [Use form data model](/help/forms/using/using-form-data-model.md).
 
@@ -141,7 +141,7 @@ For details, see [Use form data model](/help/forms/using/using-form-data-model.m
 
 ### Refresh data source definitions {#refresh-data-source-definitions}
 
-Any update in data source entities or properties does not automatically reflect in associated form data models. Form data model editor now features ![](assets/refresh_forms_di.png) (Refresh Data Source Definitions) that invalidates the server cache and fetches updated schema from the data source to immediately reflect in the form data model.
+Any update in data source entities or properties does not automatically reflect in associated form data models. Form data model editor now features ![refresh_forms_di](assets/refresh_forms_di.png) (Refresh Data Source Definitions) that invalidates the server cache and fetches updated schema from the data source to immediately reflect in the form data model.
 
 ### Configure data sources using Touch user interface {#configure-data-sources-using-touch-user-interface}
 
@@ -149,7 +149,7 @@ With this release, the cloud services configuration for data sources is availabl
 
 ## Adaptive Forms {#adaptive-forms}
 
-![](assets/simplification-of-authoring-forms-and-documents_hero-image_2.png) 
+![simplification-of-authoring-forms-and-documents_hero-image_2](assets/simplification-of-authoring-forms-and-documents_hero-image_2.png) 
 
 ### Improve performance of adaptive forms with enhanced lazy loading {#improve-performance-of-adaptive-forms-with-enhanced-lazy-loading}
 
@@ -163,7 +163,7 @@ There are several enhancements to the lazy loading feature in this release:
 
 ## Forms-Centric AEM Workflows {#forms-centric-aem-workflows}
 
-![](assets/aem-forms-workflow-on-osgi-.png)
+![aem-forms-workflow-on-osgi-](assets/aem-forms-workflow-on-osgi-.png)
 
 With Forms-Centric AEM Workflows capability, you can rapidly build and deploy workflows for various tasks on the OSGi stack. You are no longer required to install the Process Management capability available on JEE stack, simplifying deployment and eliminating application server and infrastructure costs. For more information, see [Forms-centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md).
 
@@ -175,7 +175,7 @@ Following are the enhancements in Forms-Centric AEM Workflows:·
 
 ## AEM Forms App {#aem-forms-app}
 
-![](assets/aem-forms-app.png)
+![aem-forms-app](assets/aem-forms-app.png)
 
 AEM Forms app allows field workers to synchronize their mobile devices with an AEM Forms server and work on their forms. The application works seamlessly when the device is offline by saving data locally on the device and synchronizing the data with the server when the device is back online. For more information, see [AEM Forms app](/help/forms/using/aem-forms-app.md).
 
@@ -186,7 +186,7 @@ Following are the improvements in AEM Forms app:
 
 ## Document Security {#document-security}
 
-![](assets/aem-forms-document-security-.png)
+![aem-forms-document-security-](assets/aem-forms-document-security-.png)
 
 Using document security, you can safely distribute any information that you have saved in a supported format. Document security ensures that only authorized users can use your documents. The following are the major changes in document security:
 

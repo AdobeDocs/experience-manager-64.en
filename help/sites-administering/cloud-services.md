@@ -22,7 +22,7 @@ The configuration wizard will force customers to create cloud configurations und
 
 The following screenshot exemplifies how the structure looks for we-retail cloud configurations:
 
-![](assets/cloud_services_structure.png)
+![cloud_services_structure](assets/cloud_services_structure.png)
 
 >[!NOTE]
 >

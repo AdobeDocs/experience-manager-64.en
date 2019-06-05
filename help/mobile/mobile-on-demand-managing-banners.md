@@ -43,7 +43,7 @@ The general workflow to create an article is as follows:
 1. When ready, click **Create**.
 1. Your new banner appears in the **Manage Banners** tile.
 
-![](assets/chlimage_1-6.gif)
+![chlimage_1-6](assets/chlimage_1-6.gif)
 
 ## Importing a New Banner {#importing-a-new-banner}
 
@@ -105,7 +105,7 @@ The general workflow to upload a banner:
 1. Select **Upload** from the action bar, then click Upload in the dialog.
 1. Your banner(s) are now uploaded to Mobile On-Demand.
 
-![](assets/chlimage_1-7.gif)
+![chlimage_1-7](assets/chlimage_1-7.gif)
 
 ## Deleting a Banner {#deleting-a-banner}
 

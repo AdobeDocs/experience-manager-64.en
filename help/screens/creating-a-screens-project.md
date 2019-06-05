@@ -17,11 +17,11 @@ The AEM Screens is available by selecting the Adobe Experience Manager link (top
 
 Alternatively, you can ﻿go directly to: [http://localhost:4502/screens.html/content/screens](http://localhost:4502/screens.html/content/screens)
 
-![](assets/chlimage_1-14.png)
+![chlimage_1-14](assets/chlimage_1-14.png)
 
 Different projects could be differents brands, deployments, customers, and so on.
 
-![](assets/screen_shot_2018-08-23at105748am.png)
+![screen_shot_2018-08-23at105748am](assets/screen_shot_2018-08-23at105748am.png)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Follow the steps below to create a new Screens project:
 
 1. Enter the properties (**Title** and **Name**) as required and click **Create**.
 
-![](assets/player1.gif)
+![player1](assets/player1.gif)
 
 >[!NOTE]
 >
@@ -56,17 +56,17 @@ In a project, there are four kind of folders, as shown in the figure below:
 * **Channels**
 * **Devices**
 
-![](assets/screen_shot_2018-08-23at110114am.png) 
+![screen_shot_2018-08-23at110114am](assets/screen_shot_2018-08-23at110114am.png) 
 
 ### Viewing Properties {#viewing-properties}
 
 Once you create the Screens project, click **Properties** on the action bar to edit properties of an exiting AEM Screens project. 
 
-![](assets/screen_shot_2018-08-23at110211am.png)
+![screen_shot_2018-08-23at110211am](assets/screen_shot_2018-08-23at110211am.png)
 
 The following options allow you to edit/change properties of your *DemoProject*.
 
-![](assets/screen_shot_2018-08-23at110409am.png) 
+![screen_shot_2018-08-23at110409am](assets/screen_shot_2018-08-23at110409am.png) 
 
 ### Creating a Custom Folder {#creating-a-custom-folder}
 
@@ -81,7 +81,7 @@ To create a custom folder:
 
 The following steps show the creation of an applications folder to your **Applications** master page in *DemoProject*.
 
-![](assets/player2-1.gif) 
+![player2-1](assets/player2-1.gif) 
 
 ### The Next Steps {#the-next-steps}
 

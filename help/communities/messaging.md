@@ -33,13 +33,13 @@ For community sites created using the [Communities Sites console](/help/communit
 
 As shown below, a configuration of the service exists for sites created with the [site creation wizard](/help/communities/sites-console.md). The configuration can be viewed or edited by selecting the pencil icon next to the configuration:
 
-![](assets/chlimage_1-63.png)
+![chlimage_1-63](assets/chlimage_1-63.png)
 
 ### New Configuration {#new-configuration}
 
 To add a new configuration, select the plus '**+**' icon next to the service's name:
 
-![](assets/chlimage_1-64.png)
+![chlimage_1-64](assets/chlimage_1-64.png)
 
 * **Message Fields Whitelist** 
   Specifies the properties of the Compose Message component users can edit and persist. If new form elements are added, then the element id would need to be added if desired to be stored in SRP. Default is two entries: *subject* and *content*.

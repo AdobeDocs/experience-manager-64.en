@@ -28,7 +28,7 @@ The `categories`property value given to this client library is the identifier us
 
 1. click **OK**
 
-![](assets/chlimage_1-220.png)
+![chlimage_1-220](assets/chlimage_1-220.png)
 
 In the **Properties** tab for the new `clientlibs` node, enter the **`categories`**property:
 
@@ -49,7 +49,7 @@ Note: prefacing the categories value with 'apps.' is a convention to identify th
 
 1. click **Save All**
 
-![](assets/chlimage_1-221.png)
+![chlimage_1-221](assets/chlimage_1-221.png)
 
 The first line of the css.txt and js.txt identifies the base location from which the following lists of files are to be found.
 
@@ -97,11 +97,11 @@ In this case, we're including them all, and so would prefer the more basic SCF c
 
 * click **Save All**
 
-![](assets/chlimage_1-222.png)
+![chlimage_1-222](assets/chlimage_1-222.png)
 
 This is how `/etc/designs/an-scf-sandbox/clientlibs` should now appear in the repository:
 
-![](assets/chlimage_1-223.png) 
+![chlimage_1-223](assets/chlimage_1-223.png) 
 
 ## Include Clientlibs in PlayPage Template {#include-clientlibs-in-playpage-template}
 
@@ -109,11 +109,11 @@ Without including the `apps.an-scf-sandbox` ClientLibraryFolder category on the 
 
 For example, without including the clientlibs, the SCF comments component appears unstyled:
 
-![](assets/chlimage_1-224.png)
+![chlimage_1-224](assets/chlimage_1-224.png)
 
 Once apps.an-scf-sandbox clientlibs is included, the SCF comments component appears styled:
 
-![](assets/chlimage_1-225.png)
+![chlimage_1-225](assets/chlimage_1-225.png)
 
 The include statement belongs in the <head> section of the <html> script. The default **`foundation head.jsp`** includes a script that can be overlaid: **`headlibs.jsp`**.
 
@@ -145,7 +145,7 @@ Load your website in the browser and see if the background is not a shade of blu
 
 [http://localhost:4502/content/an-scf-sandbox/en/play.html](http://localhost:4502/content/an-scf-sandbox/en/play.html)
 
-![](assets/chlimage_1-226.png) 
+![chlimage_1-226](assets/chlimage_1-226.png) 
 
 ## Saving Your Work So Far {#saving-your-work-so-far}
 

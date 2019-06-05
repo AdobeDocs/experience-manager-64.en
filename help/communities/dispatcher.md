@@ -54,7 +54,7 @@ The OSGi configuration **ACS AEM Commons - Dispatcher Cache Control Header - Max
 * locate `ACS AEM Commons - Dispatcher Cache Control Header - Max Age`
 * select the '+' icon to create a new connection configuration
 
-![](assets/chlimage_1-339.png)
+![chlimage_1-339](assets/chlimage_1-339.png)
 
 * **Filter Patterns** 
   *(required) * One or more paths to community pages. For example, `/content/sites/engage/(.*)`.

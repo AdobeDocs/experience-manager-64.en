@@ -27,7 +27,7 @@ Perform the following steps to add an element in the metadata:
 
    To open your form in edit mode, in the forms manager, select your form and tap **Open**.
    
-1. In the edit mode, select a component, tap ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![](assets/cmppr.png).
+1. In the edit mode, select a component, tap ![field-level](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![cmppr](assets/cmppr.png).
 1. In the sidebar, click **Metadata**.
 1. In the Metadata section, click **Add**.
 1. Use the Value field of the Metadata tab to add scripts. The scripts you add collect data from elements on the form and compute values that are fed to the metadata.
@@ -48,7 +48,7 @@ After a user enters data in the element selected as a metadata field, the comput
 
 For the example above, the metadata is stored in the CRX repository. The metadata looks like:
 
-![](assets/metadata-entry.png)
+![metadata-entry](assets/metadata-entry.png)
 
 If you add a check box element in the metadata, selected values are stored as a comma separated string. For example, you add a check box component in your form, and specify its name as `checkbox1`. In the check box component properties, you add the items Driving License, Social Security Number, and Passport for values 0, 1, and 2.
 

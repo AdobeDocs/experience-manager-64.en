@@ -59,16 +59,16 @@ If a template author chooses to disable the child pages option, a design propert
 
 1. By default, the page author can use the list core component to build a list using child pages by choosing the option **Child pages**.
 
-   ![](assets/chlimage_1-218.png)
+   ![chlimage_1-218](assets/chlimage_1-218.png)
 
 1. In the design dialog of the list core component, the template author can choose the option **Disable Children** to prevent the option to generate a list based on child pages from being shown to the page author.
 
-   ![](assets/chlimage_1-219.png)
+   ![chlimage_1-219](assets/chlimage_1-219.png)
 
 1. A policy node is created under `/conf/we-retail/settings/wcm/policies/weretail/components/content/lis`t with a property `disableChildren` set to `true`.
 1. The hide condition is defined as the value of a `granite:hid`e property on the dialog property node `/conf/we-retail/settings/wcm/policies/weretail/components/content/list`
 
-   ![](assets/chlimage_1-220.png)
+   ![chlimage_1-220](assets/chlimage_1-220.png)
 
 1. The value of `disableChildren` is pulled from the design configuration and the expression `${cdDesign.disableChildren}` evaluates to `false`, meaning the option will not be rendered as part of the component.
 
@@ -76,5 +76,5 @@ If a template author chooses to disable the child pages option, a design propert
 
 1. The option **Child pages** is no longer rendered for the page author when using the list component.
 
-   ![](assets/chlimage_1-221.png)
+   ![chlimage_1-221](assets/chlimage_1-221.png)
 

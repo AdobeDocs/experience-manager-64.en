@@ -41,12 +41,12 @@ Once you've successfully boostrapped your development environment, download the 
 
 * Click on the PhoneGap Build tile dropdown chevron.
 
-![](assets/chlimage_1-45.png)
+![chlimage_1-45](assets/chlimage_1-45.png)
 
 * Click Download Source.
 * Select the desired source from the Download Source modal.
 
-![](assets/chlimage_1-46.png)
+![chlimage_1-46](assets/chlimage_1-46.png)
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ To enable the developer tools:
 
 * Click Advanced in Preference window
 
-![](assets/chlimage_1-47.png)
+![chlimage_1-47](assets/chlimage_1-47.png)
 
 * Check "Show Develop menu in menu bar"
 * Close the Preference window
@@ -130,7 +130,7 @@ phonegap run <platform> --emulator
 * Select iOS Simulator sub menu
 * Click on home.html
 
-![](assets/chlimage_1-48.png) 
+![chlimage_1-48](assets/chlimage_1-48.png) 
 
 ## Debug JavaScript with Safari's Web Inspector {#debug-javascript-with-safari-s-web-inspector}
 
@@ -141,7 +141,7 @@ You can set breakpoints anywhere in your source. When you interact with your emu
 * Click on the line number adjacent to add a breakpoint
 * Interact with device or emulator
 
-![](assets/chlimage_1-49.png)
+![chlimage_1-49](assets/chlimage_1-49.png)
 
 * Use the control buttons to continue execution, step over, step into and step out of methods:
 

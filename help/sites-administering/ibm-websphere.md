@@ -110,7 +110,7 @@ To change the price of a product:
 1. Expand the left menu tree of the **Geometrixx Outdoors** catalog to find the required product, for example **Mens** and then **Mens Apparel**.
 1. Select the required product, for example Ashanti Nomad shirt, open the context menu and select **Show SKUs List**.
 
-   ![](assets/chlimage_1-306.png)
+   ![chlimage_1-306](assets/chlimage_1-306.png)
 
 1. Double click the first entry to open the **S** size variant of the shirt.
 1. Go to **Manage SKU** tab and scroll down to **Pricing**.
@@ -151,7 +151,7 @@ A product is now in your cart. To setup scale prices in WebSphere Commerce:
 1. Go to **Manage SKU** tab and scroll down to **Pricing**.
 1. Add two more price ranges.
 
-   ![](assets/chlimage_1-46.jpeg)
+   ![chlimage_1-46](assets/chlimage_1-46.jpeg)
 
 1. Click **Save and Preview**.
 

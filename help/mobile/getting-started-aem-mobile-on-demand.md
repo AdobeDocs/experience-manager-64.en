@@ -31,7 +31,7 @@ AEM Preflight app can be considered a testing environment to preview the app and
 >
 >To learn in-depth about Preflight app, see [Using the AEM Preflight app](https://helpx.adobe.com/digital-publishing-solution/help/preflight-app.html) in AEM Mobile On-Demand Services Help.
 
-![](assets/chlimage_1-171.png)
+![chlimage_1-171](assets/chlimage_1-171.png)
 
 >[!NOTE]
 >

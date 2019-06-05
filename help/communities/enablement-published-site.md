@@ -30,7 +30,7 @@ When first arriving at the published site, the site visitor would typically not 
 
 **http://localhost:4503/content/sites/enable/en.html** 
 
-![](assets/chlimage_1-433.png) 
+![chlimage_1-433](assets/chlimage_1-433.png) 
 
 ## Anonymous Site Visitor {#anonymous-site-visitor}
 
@@ -57,12 +57,12 @@ To protect your community site's content from access by anonymous users through 
 
 1. Go to **Page Properties**.
 
-   ![](assets/page-properties-1.png)
+   ![page-properties-1](assets/page-properties-1.png)
 
 1. Go to **Advanced** tab.
 1. Enable **Authentication Requirement**.
 
-   ![](assets/site-authentication-1.png)
+   ![site-authentication-1](assets/site-authentication-1.png)
 
 1. Add the path of the login page. For example, **/content/......./GetStarted**.
 1. Publish the page.
@@ -80,7 +80,7 @@ If the user profile was not created through self-registration, the very first ti
 
 The next time the member signs in, the home page, identified by the first menu item, is displayed.
 
-![](assets/chlimage_1-434.png) 
+![chlimage_1-434](assets/chlimage_1-434.png) 
 
 ### Assignments {#assignments}
 
@@ -96,11 +96,11 @@ Each assignment provides basic information as to
 
 The type of Assignment is indicated by an icon in the upper left corner of the card. The image of a road is for a learning path with the number of included enablement resources.
 
-![](assets/chlimage_1-435.png)
+![chlimage_1-435](assets/chlimage_1-435.png)
 
 Selecting *Ski Lessons* will display the two enablement resources referenced by the learning path.
 
-![](assets/chlimage_1-436.png)
+![chlimage_1-436](assets/chlimage_1-436.png)
 
 Selecting *Ski Lesson 1* will open the enablement resource's details page.
 
@@ -108,7 +108,7 @@ From the details page, the member is able to learn, [rate](/help/communities/rat
 
 Interactions with the enablement resource will be noted in the Report section accessible in the author environment.
 
-![](assets/chlimage_1-437.png) 
+![chlimage_1-437](assets/chlimage_1-437.png) 
 
 ### Ski Catalog {#ski-catalog}
 
@@ -116,7 +116,7 @@ The Ski Catalog page is the catalog of enablement resources tagged with tags fro
 
 When a member has not been assigned enablement resources, either directly or through a learning path, it is possible to interact with enablement resources located within a catalog and provide feedback through comments and ratings.
 
-![](assets/chlimage_1-438.png) 
+![chlimage_1-438](assets/chlimage_1-438.png) 
 
 ### Discussions {#discussions}
 
@@ -128,7 +128,7 @@ Log out and Log in as Sidney Croft (sidney / password) and reply to the question
 
 Notice, in addition to inline moderation, there are options to share the topic on social media or to email the topic.
 
-![](assets/chlimage_1-439.png) 
+![chlimage_1-439](assets/chlimage_1-439.png) 
 
 ### What's New {#what-s-new}
 
@@ -136,7 +136,7 @@ The `What's New` menu item is the title given the [activity stream function](/he
 
 Still signed in as Sidney, select the `What's New` link to show the activity.
 
-![](assets/chlimage_1-440.png) 
+![chlimage_1-440](assets/chlimage_1-440.png) 
 
 ## Trusted Community Member {#trusted-community-member}
 
@@ -149,7 +149,7 @@ Login with
 
 Once signed in, notice there is a new menu item, `Administration`, which appears because the member was given the role of moderator. 
 
-![](assets/chlimage_1-441.png)
+![chlimage_1-441](assets/chlimage_1-441.png)
 
 The home page is identified by the first menu item, Assignments. Quinn is the moderator and enablement resource contact and was not enrolled in any enablement resources or learning paths, and so there is nothing to display.
 
@@ -161,7 +161,7 @@ Selecting the side-panel icon toggles open the filters used to search community 
 
 Hovering over a comment card displays moderation actions.
 
-![](assets/chlimage_1-442.png) 
+![chlimage_1-442](assets/chlimage_1-442.png) 
 
 ## Reports on Author {#reports-on-author}
 
@@ -204,7 +204,7 @@ Notice that it is likely too soon to show data from Adobe Analytics, which can t
 
 #### Ski Lessons Resource Report {#ski-lessons-resource-report}
 
-![](assets/chlimage_1-443.png) 
+![chlimage_1-443](assets/chlimage_1-443.png) 
 
 #### Ski Lessons User Report {#ski-lessons-user-report}
 
@@ -214,7 +214,7 @@ Notice that it is likely too soon to show data from Adobe Analytics, which can t
 * open card `Ski Lessons`
 * `select Report, User Report`
 
-![](assets/chlimage_1-444.png) 
+![chlimage_1-444](assets/chlimage_1-444.png) 
 
 ### Reports Console {#reports-console}
 
@@ -237,7 +237,7 @@ For reports on assignments:
 
 * select **Generate**
 
-![](assets/chlimage_1-445.png)
+![chlimage_1-445](assets/chlimage_1-445.png)
 
 For reports on views:
 
@@ -252,6 +252,6 @@ For reports on views:
 
 * select **Generate**
 
-![](assets/chlimage_1-446.png)
+![chlimage_1-446](assets/chlimage_1-446.png)
 
 **[⇐ Create and Assign Enablement Resources](/help/communities/resource.md)**

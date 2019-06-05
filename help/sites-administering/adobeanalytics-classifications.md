@@ -20,11 +20,11 @@ To configure this:
 1. Navigate via **Tools, Cloudservices** to the **Adobe Analytics** section.
 1. Add a new configuration . You will see that the **Adobe Analytics Classifications** Configuration template displays below the **Adobe Analytics Framework** configuration. Supply a **Title** and **Name** as required:
 
-   ![](assets/aa-25.png)
+   ![aa-25](assets/aa-25.png)
 
 1. Click **Create** to configure the settings.
 
-   ![](assets/chlimage_1.png)
+   ![chlimage_1](assets/chlimage_1.png)
 
    Properties include the following:
 
@@ -53,7 +53,7 @@ To change the page size:
 
 1. Navigate to the OSGI console at **https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr **and select **Adobe AEM Classifications Exporter**.
 
-   ![](assets/aa-26.png)
+   ![aa-26](assets/aa-26.png)
 
 1. Update the **Export Page Size** as required, then click **Save**.
 

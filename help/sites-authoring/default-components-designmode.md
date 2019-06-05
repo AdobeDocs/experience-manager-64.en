@@ -56,11 +56,11 @@ To either enable or disable a component:
 
 1. Select the **Design** mode.
 
-   ![](assets/screen_shot_2018-03-22at103113.png)
+   ![screen_shot_2018-03-22at103113](assets/screen_shot_2018-03-22at103113.png)
 
 1. Tap or click on a component. The component will have a blue border when selected.
 
-   ![](assets/screen_shot_2018-03-22at103204.png)
+   ![screen_shot_2018-03-22at103204](assets/screen_shot_2018-03-22at103204.png)
 
 1. Click or tap the **Parent** icon.
 
@@ -76,7 +76,7 @@ To either enable or disable a component:
 
 1. Use the dialog to define the components available in the components browser when editing the current page.
 
-   ![](assets/screen_shot_2018-03-22at103329.png)
+   ![screen_shot_2018-03-22at103329](assets/screen_shot_2018-03-22at103329.png)
 
    The dialogue has two tabs:
 
@@ -109,11 +109,11 @@ To either enable or disable a component:
 
 1. Select the **Design** mode.
 
-   ![](assets/screen_shot_2018-03-22at103113-1.png)
+   ![screen_shot_2018-03-22at103113-1](assets/screen_shot_2018-03-22at103113-1.png)
 
 1. Tap or click on a component with a blue border. In this example a hero image component is selected.
 
-   ![](assets/screen_shot_2018-03-22at103434.png)
+   ![screen_shot_2018-03-22at103434](assets/screen_shot_2018-03-22at103434.png)
 
 1. Use the **Configure** icon to open the dialogue.
 
@@ -121,7 +121,7 @@ To either enable or disable a component:
 
    In the design dialogue, you can configure the component according to the design parameters available.
 
-   ![](assets/screen_shot_2018-03-22at103530.png)
+   ![screen_shot_2018-03-22at103530](assets/screen_shot_2018-03-22at103530.png)
 
    The dialogue has three tabs:
 
@@ -141,11 +141,11 @@ To either enable or disable a component:
 
    The **Styles** tab allows you to define the CSS classes and styles to be used with the compoent.
 
-   ![](assets/screen_shot_2018-03-22at103741.png)
+   ![screen_shot_2018-03-22at103741](assets/screen_shot_2018-03-22at103741.png)
 
    Use the **Add** button to add additional entries to a multiple-entry dialogue list.
 
-   ![](assets/chlimage_1-94.png)
+   ![chlimage_1-94](assets/chlimage_1-94.png)
 
    Use the** Delete **icon to remove an entry from a multiple-entry dialogue list.
 

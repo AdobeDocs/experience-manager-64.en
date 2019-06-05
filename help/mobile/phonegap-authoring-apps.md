@@ -51,7 +51,7 @@ The Manage App Tile displays your application icon, name, description, supported
 
 Click [here](/help/mobile/phonegap-app-details-tile.md) for details.
 
-![](assets/chlimage_1-137.png)
+![chlimage_1-137](assets/chlimage_1-137.png)
 
 ### The Manage Page Content Tile {#the-manage-page-content-tile}
 
@@ -115,7 +115,7 @@ Click [here](/help/mobile/phonegap-app-definitions.md) to create and manage your
 
 You can drill into the manage entity content dashboard by clicking the '...' in the bottom right.
 
-![](assets/chlimage_1-142.png)
+![chlimage_1-142](assets/chlimage_1-142.png)
 
 #### Additional Resources {#additional-resources}
 

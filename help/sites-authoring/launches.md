@@ -52,7 +52,7 @@ Launches allow you to:
   >
   >Multiple source branches for a launch is not possible in classic UI.
 
-  ![](assets/chlimage_1-233.png)
+  ![chlimage_1-233](assets/chlimage_1-233.png)
 
 * Edit the launch configuration:
 
@@ -80,14 +80,14 @@ Launches allow you to:
     * Changes to the source pages are automatically implemented in the launch copy (if set up as with inheritance; i.e. as a live copy).
     * Changes to your launch copy can be made without disrupting these automatic updates or the source pages.
 
-  ![](assets/chlimage_1-234.png)
+  ![chlimage_1-234](assets/chlimage_1-234.png)
 
 * [Create a nested launch](/help/sites-authoring/launches-creating.md#creating-a-nested-launch) - a launch within a launch:
 
     * The source is an existing launch.
     * You can [promote a nested launch](/help/sites-authoring/launches-promoting.md#promoting-a-nested-launch) to any target; this can be a parent launch or the top-level source pages (Production).
 
-  ![](assets/chlimage_1-235.png)
+  ![chlimage_1-235](assets/chlimage_1-235.png)
 
   >[!CAUTION]
   >
@@ -113,9 +113,9 @@ The Launches console provides an overview of your launches and allows you to tak
 1. Open the **References** rail and select the source page.
 1. Select **Launches**, the existing launch(es) will be listed:
 
-   ![](assets/chlimage_1-236.png)
+   ![chlimage_1-236](assets/chlimage_1-236.png)
 
 1. Tap/click on the appropriate launch, the list of possible actions will be displayed:
 
-   ![](assets/chlimage_1-237.png)
+   ![chlimage_1-237](assets/chlimage_1-237.png)
 

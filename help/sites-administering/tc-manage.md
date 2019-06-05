@@ -66,11 +66,11 @@ You can also [manually create translation projects](#creating-a-translation-proj
 
 The References panel indicates whether the you are updating existing language copies or creating the first version of the language copies. When a language copy exists for the selected page, the Update Language Copies tab appears to provide access to project-related commands.
 
-![](assets/chlimage_1-239.png)
+![chlimage_1-239](assets/chlimage_1-239.png)
 
 After translating, you can [review the translation](#reviewing-and-promoting-updated-content) before overwriting the language copy with it. When no language copy exists for the selected page, the Create & Translate tab appears to provide access to project-related commands.
 
-![](assets/chlimage_1-240.png) 
+![chlimage_1-240](assets/chlimage_1-240.png) 
 
 ### Create Translation Projects for a New Language Copy {#create-translation-projects-for-a-new-language-copy}
 
@@ -80,7 +80,7 @@ After translating, you can [review the translation](#reviewing-and-promoting-upd
 
 1. On the toolbar, click or tap References.
 
-   ![](assets/chlimage_1-241.png)
+   ![chlimage_1-241](assets/chlimage_1-241.png)
 
 1. Select Language Copies, and then select the language copies for which you are translating the source pages.
 1. Click or tap Create & Translate and then configure the translation job:
@@ -90,7 +90,7 @@ After translating, you can [review the translation](#reviewing-and-promoting-upd
     * For Project, select Create New Translation Project.
     * Type a name for the project.
 
-   ![](assets/chlimage_1-242.png)
+   ![chlimage_1-242](assets/chlimage_1-242.png)
 
 1. Click or tap Create.
 
@@ -102,7 +102,7 @@ After translating, you can [review the translation](#reviewing-and-promoting-upd
 
 1. On the toolbar, click or tap References.
 
-   ![](assets/chlimage_1-243.png)
+   ![chlimage_1-243](assets/chlimage_1-243.png)
 
 1. Select Language Copies, and then select the language copies for which you are translating the source pages.
 1. Click or tap Update Language Copies and then configure the translation job:
@@ -111,7 +111,7 @@ After translating, you can [review the translation](#reviewing-and-promoting-upd
     * For Project, select Create New Translation Project.
     * Type a name for the project.
 
-   ![](assets/chlimage_1-244.png)
+   ![chlimage_1-244](assets/chlimage_1-244.png)
 
 1. Click or tap Start.
 
@@ -129,11 +129,11 @@ As when creating a new project, when adding pages, copies of the pages are added
 
 1. On the toolbar, click or tap References.
 
-   ![](assets/chlimage_1-245.png)
+   ![chlimage_1-245](assets/chlimage_1-245.png)
 
 1. Select Language Copies, and then select the language copies for which you are translating the source pages.
 
-   ![](assets/chlimage_1-35.jpeg)
+   ![chlimage_1-35](assets/chlimage_1-35.jpeg)
 
 1. Click or tap Update Language Copies and then configure the properties:
 
@@ -145,7 +145,7 @@ As when creating a new project, when adding pages, copies of the pages are added
    >
    >The target language set in the Translation Project should match with the path of the language copy as shown in References Panel.
 
-   ![](assets/chlimage_1-36.jpeg)
+   ![chlimage_1-36](assets/chlimage_1-36.jpeg)
 
 1. Click or tap Start.
 
@@ -155,19 +155,19 @@ You can add pages, assets, tags or i18n dictionaries to the Translation Job of y
 
 1. On the bottom of the Translation Job tile of your translation project, click or tap the ellipsis.
 
-   ![](assets/chlimage_1-246.png)
+   ![chlimage_1-246](assets/chlimage_1-246.png)
 
 1. Click or tap Add and Pages/Assets.
 
-   ![](assets/chlimage_1-247.png)
+   ![chlimage_1-247](assets/chlimage_1-247.png)
 
 1. Select the topmost item of the branch that you want to add, and then click or tap the checkmark icon. You can multi-select.
 
-   ![](assets/chlimage_1-248.png)
+   ![chlimage_1-248](assets/chlimage_1-248.png)
 
 1. Alternatively, you can select the search icon to easily look for pages or assets you want to add to your translation job.
 
-   ![](assets/chlimage_1-249.png)
+   ![chlimage_1-249](assets/chlimage_1-249.png)
 
 Your pages and/or assets are added to you translation job.
 
@@ -177,19 +177,19 @@ You can add pages, assets, tags or i18n dictionaries to the Translation Job of y
 
 1. On the bottom of the Translation Job tile of your translation project, click or tap the ellipsis.
 
-   ![](assets/chlimage_1-250.png)
+   ![chlimage_1-250](assets/chlimage_1-250.png)
 
 1. Click or tap Add and I18N-Dictionary.
 
-   ![](assets/chlimage_1-251.png)
+   ![chlimage_1-251](assets/chlimage_1-251.png)
 
 1. Select the dictionary that you want to add, and then click or tap Add button.
 
-   ![](assets/chlimage_1-252.png)
+   ![chlimage_1-252](assets/chlimage_1-252.png)
 
 Your dictionary is now in your translation job.
 
-![](assets/chlimage_1-253.png)
+![chlimage_1-253](assets/chlimage_1-253.png)
 
 >[!NOTE]
 >
@@ -201,19 +201,19 @@ You can add pages, assets, tags or i18n dictionaries to the Translation Job of y
 
 1. On the bottom of the Translation Job tile of your translation project, click or tap the ellipsis.
 
-   ![](assets/chlimage_1-254.png)
+   ![chlimage_1-254](assets/chlimage_1-254.png)
 
 1. Click or tap Add and then Tags.
 
-   ![](assets/chlimage_1-255.png)
+   ![chlimage_1-255](assets/chlimage_1-255.png)
 
 1. Select the tags that you want to add, and then click or tap the checkmark icon. You can multi-select.
 
-   ![](assets/chlimage_1-256.png)
+   ![chlimage_1-256](assets/chlimage_1-256.png)
 
 Your tags are now added in your translation job.
 
-![](assets/chlimage_1-257.png) 
+![chlimage_1-257](assets/chlimage_1-257.png) 
 
 ## Seeing Translation Project Details {#seeing-translation-project-details}
 
@@ -228,13 +228,13 @@ The Translation Summary tile contains the properties that are configured for a t
 
 When a project is created using the Resources pane of a page, these properties are automatically configured based on the properties of the source page.
 
-![](assets/chlimage_1-258.png) 
+![chlimage_1-258](assets/chlimage_1-258.png) 
 
 ## Monitoring the Status of a Translation Job {#monitoring-the-status-of-a-translation-job}
 
 The Translation Job tile of a Translation project provides the status of a translation job, as well as the number of pages and assets in the job.
 
-![](assets/chlimage_1-259.png)
+![chlimage_1-259](assets/chlimage_1-259.png)
 
 The following table describes each status that a job or an item in the job can have:
 
@@ -268,11 +268,11 @@ The following procedure sets the due date for a project.
 
 1. Click or tap the ellipsis at the bottom of the Translation Summary tile.
 
-   ![](assets/chlimage_1-260.png)
+   ![chlimage_1-260](assets/chlimage_1-260.png)
 
 1. On the Basic tab, use the date picker of the Due Date property to select the due date.
 
-   ![](assets/chlimage_1-261.png)
+   ![chlimage_1-261](assets/chlimage_1-261.png)
 
 1. Click or tap Done.
 
@@ -280,11 +280,11 @@ The following procedure sets the due date for a translation job.
 
 1. On the Translation Job tile, click or tap the commands menu, then click or tap Due Date.
 
-   ![](assets/chlimage_1-262.png)
+   ![chlimage_1-262](assets/chlimage_1-262.png)
 
 1. In the dialog box, click or tap the calendar icon, then select the date and time to use as the due date, then click Save.
 
-   ![](assets/chlimage_1-263.png)
+   ![chlimage_1-263](assets/chlimage_1-263.png)
 
 ## Scoping a Translation Job {#scoping-a-translation-job}
 
@@ -303,7 +303,7 @@ Scoping functions correctly only when the translation vendor that you are using 
 1. In the Projects console, open your translation project.
 1. On the Translation Job tile, click or tap the commands menu, then click or tap Request Scope.
 
-   ![](assets/chlimage_1-264.png)
+   ![chlimage_1-264](assets/chlimage_1-264.png)
 
 1. When the job status changes to SCOPE_COMPLETED, on the Translation Job tile click or tap the commands menu, then click or tap Show Scope.
 
@@ -313,12 +313,12 @@ Start a translation job to translate the source pages to the target language. Th
 
 After you start the translation job, the Translation Job tile shows the Translation in Progress status.
 
-![](assets/chlimage_1-265.png)
+![chlimage_1-265](assets/chlimage_1-265.png)
 
 1. In the Projects console, open the translation project.
 1. On the Translation Job tile, click or tap the commands menu, then click or tap Start.
 
-   ![](assets/chlimage_1-266.png)
+   ![chlimage_1-266](assets/chlimage_1-266.png)
 
 1. In the Action dialog that confirms the starting of the translation, click or tap Close.
 
@@ -334,11 +334,11 @@ Cancel a translation job to halt the translation process and prevent the transla
 
 When the content comes back after translation and is in Ready for Review status, you can go in the translation job and accept/reject content.
 
-![](assets/chlimage_1-267.png)
+![chlimage_1-267](assets/chlimage_1-267.png)
 
 If you select Reject Translation, you have the option to add a comment.
 
-![](assets/chlimage_1-268.png)
+![chlimage_1-268](assets/chlimage_1-268.png)
 
 Rejecting content sends it back to translation vendor where he will be able to see the comment.
 
@@ -346,16 +346,16 @@ Rejecting content sends it back to translation vendor where he will be able to s
 
 When content is translated for an existing language copy, review the translations, make changes if necessary, and then promote the translations to move it to the language copy. You can review translated files when the translation job shows the Ready For Review status.
 
-![](assets/chlimage_1-269.png)
+![chlimage_1-269](assets/chlimage_1-269.png)
 
 1. Select the page in the language master, click or tap References, then click or tap Language Copies.
 1. Click or tap the language copy to review.
 
-   ![](assets/chlimage_1-270.png)
+   ![chlimage_1-270](assets/chlimage_1-270.png)
 
 1. Click or tap Launch to reveal the launch-related commands.
 
-   ![](assets/chlimage_1-271.png)
+   ![chlimage_1-271](assets/chlimage_1-271.png)
 
 1. To open the launch copy of the page to review and edit the content, click Open Page.
 1. After you have reviewed the content and made necessary changes, to promote the launch copy click Promote.
@@ -370,7 +370,7 @@ To compare Language Copies to the language Master:
 1. Under the **Copies** heading select **Language Copies.**
 1. Select your specific language copy and then you can either click **Compare to Master **or **Compare to Previous **if applicable.
 
-   ![](assets/chlimage_1-37.jpeg)
+   ![chlimage_1-37](assets/chlimage_1-37.jpeg)
 
 1. The two pages (launch and source) will be opened side-by-side.
 
@@ -382,7 +382,7 @@ Complete a translation job after you have reviewed the translated files from the
 
 After you complete the job, the job has the Complete status.
 
-![](assets/chlimage_1-272.png)
+![chlimage_1-272](assets/chlimage_1-272.png)
 
 Archive a translation job after it is complete and you no longer need to see job status details. When you archive the job, the Translation Job tile is removed from the project.
 
@@ -393,18 +393,18 @@ Populate your language copy so that it contains content from the master language
 1. Use the Sites console to select the language root of the master language that you are using as the source. For example, to translate the English pages of the Geometrixx Demo Site, select Content &gt; Geometrixx Demo Site &gt; English.
 1. On the toolbar, click or tap References.
 
-   ![](assets/chlimage_1-273.png)
+   ![chlimage_1-273](assets/chlimage_1-273.png)
 
 1. Select Language Copies, and then select the language copies that you want to populate. 
 
-   ![](assets/chlimage_1-38.jpeg)
+   ![chlimage_1-38](assets/chlimage_1-38.jpeg)
 
 1. Click or tap Update Language Copies to reveal the translation tools, and configure the properties:
 
     * Select the Select All Sub-pages option.
     * For Project, select Create Structure Only.
 
-   ![](assets/chlimage_1-39.jpeg)
+   ![chlimage_1-39](assets/chlimage_1-39.jpeg)
 
 1. Click or tap Start.
 

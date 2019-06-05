@@ -33,17 +33,17 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews`component will appear.
 
-![](assets/chlimage_1-340.png)
+![chlimage_1-340](assets/chlimage_1-340.png)
 
 ## Configuring Reviews {#configuring-reviews}
 
 Select the placed `Reviews` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-341.png)
+![chlimage_1-341](assets/chlimage_1-341.png)
 
 Under the **Allowed Ratings **tab, specify the complete list of ratings to be shown to members. The first rating should be an overall/general rating, as it is the rating which provides the average rating for the `Review Summary (Display)` component. The next two ratings in the default configuration should be given a different title, other than "Subrating 1" or "Subrating 2".
 
-![](assets/chlimage_1-342.png)
+![chlimage_1-342](assets/chlimage_1-342.png)
 
 * **Allowed Ratings** 
 
@@ -57,7 +57,7 @@ Under the **Required Ratings **tab, re-enter items from the list of **Allowed Ra
 
 On the website, required ratings are marked with an asterisk. If an item is required and left unmarked, a message is displayed to the member and the submission is denied until all required ratings are marked.
 
-![](assets/chlimage_1-343.png)
+![chlimage_1-343](assets/chlimage_1-343.png)
 
 * **Required Ratings** 
 
@@ -73,7 +73,7 @@ On the website, required ratings are marked with an asterisk. If an item is requ
 
 Under the **Reviews **tab, specify how reviews are handled.
 
-![](assets/chlimage_1-344.png)
+![chlimage_1-344](assets/chlimage_1-344.png)
 
 * **Allow Replies** 
   If checked, allow replies to reviews. Default is unchecked.
@@ -101,7 +101,7 @@ Under the **Reviews **tab, specify how reviews are handled.
 
 Under the **User Moderation **tab, specify how the posted reviews are managed. For more information, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
 
-![](assets/chlimage_1-345.png)
+![chlimage_1-345](assets/chlimage_1-345.png)
 
 * **Pre-Moderation** 
   If checked, reviews must be approved before they will appear on a publish site. Default is unchecked.
@@ -142,7 +142,7 @@ For necessary information, visit [Communities Components Basics](/help/communiti
 
 When the [required client-side libraries](/help/communities/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews Summary (Display)`component will appear.
 
-![](assets/chlimage_1-346.png)
+![chlimage_1-346](assets/chlimage_1-346.png)
 
 >[!NOTE]
 >
@@ -152,11 +152,11 @@ When the [required client-side libraries](/help/communities/reviews-basics.md#es
 
 Select the placed `Reviews Summary (Display)` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-347.png)
+![chlimage_1-347](assets/chlimage_1-347.png)
 
 Under the **Review Summary** tab
 
-![](assets/chlimage_1-348.png)
+![chlimage_1-348](assets/chlimage_1-348.png)
 
 * `Review Path`
 
@@ -178,7 +178,7 @@ Once the custom resource types is known, enter [Design Mode](/help/sites-authori
 
 Under the **Resource Types **tab, specify the custom resourceType for new instances of the `Comments or Voting`components:
 
-![](assets/chlimage_1-349.png)
+![chlimage_1-349](assets/chlimage_1-349.png)
 
 * **Comment Resource Type** 
 

@@ -42,13 +42,13 @@ Members of the app-author group are responsible for authoring AEM mobile applica
 
 1. Add member to group: Authors
 
-   ![](assets/chlimage_1-18.png)
+   ![chlimage_1-18](assets/chlimage_1-18.png)
 
    Add app-authors to the Authors group
 
 1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](http://localhost:4502/libs/granite/security/content/useradmin.md).
 
-   ![](assets/chlimage_1-19.png)
+   ![chlimage_1-19](assets/chlimage_1-19.png)
 
    Edit user groups
 
@@ -81,7 +81,7 @@ Members of the app-admins group can author application content with the same per
     * content-authors
     * workflow-users
 
-   ![](assets/chlimage_1-20.png)
+   ![chlimage_1-20](assets/chlimage_1-20.png)
 
 1. Navigate to the [Permissions console](http://localhost:4502/useradmin) and add permissions to administer cloudservices
 
@@ -120,5 +120,5 @@ The tile currently has no actions that require permissions, however the details 
 
 The image below shows the Download and Edit options for an app:
 
-![](assets/chlimage_1-21.png)
+![chlimage_1-21](assets/chlimage_1-21.png)
 

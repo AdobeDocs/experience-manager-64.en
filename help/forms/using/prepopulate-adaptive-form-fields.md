@@ -235,7 +235,7 @@ To enable prefill service, specify the Default Prefill Service Configuration in 
    https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr
 1. Search and open **[!UICONTROL Default Prefill Service Configuration]**. 
 
-   ![](assets/prefill_config.png)
+   ![prefill_config](assets/prefill_config.png)
 
 1. Enter the data location or a regex (regular expression) for the **Data files locations**. Examples of valid Data files locations are:
 

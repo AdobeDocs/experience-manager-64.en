@@ -40,7 +40,7 @@ The details of your app can be viewed in the Dashboard or AEM Mobile Control Cen
 1. If known, enter cloud config details, otherwise click **Create**.
 1. Click **Done** to view your new AEM Mobile app in the catalog.
 
-![](assets/chlimage_1.gif)
+![chlimage_1](assets/chlimage_1.gif)
 
 >[!NOTE]
 >

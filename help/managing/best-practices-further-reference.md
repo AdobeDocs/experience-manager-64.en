@@ -392,11 +392,11 @@ For a new implementation of a standard AEM project you will need to consider tas
 * Handover to operations (**Maintenance/Support**).
 * Follow up releases.
 
-![](assets/chlimage_1-2.png)
+![chlimage_1-2](assets/chlimage_1-2.png)
 
 For all aspects it is recommended to use an iterative approach:
 
-![](assets/chlimage_1-3.png)
+![chlimage_1-3](assets/chlimage_1-3.png)
 
 >[!NOTE]
 >

@@ -53,7 +53,7 @@ Actually implementing the styles only requires deployment on AEM and selection w
 
 The following diagram illustrates the architecture of the style system.
 
-![](assets/aem-style-system.png) 
+![aem-style-system](assets/aem-style-system.png) 
 
 ## Use {#use}
 
@@ -80,11 +80,11 @@ If you wish to use the style system for your own components do the following:
 1. After installing the style system demo package, navigate to We.Retail's English language master home page at `http://localhost:4502/sites.html/content/we-retail/language-masters/en` and edit the page.
 1. Select the **List** component at the bottom or the top of the parsys. Do not confuse it with the **Articles List** component.
 
-   ![](assets/screen_shot_2017-11-15at162032.png)
+   ![screen_shot_2017-11-15at162032](assets/screen_shot_2017-11-15at162032.png)
 
 1. Tap or click the **Styles** button on the toolbar of the **List** component to open the style menu and change the appearance of the component.
 
-   ![](assets/screen_shot_2017-11-15at162358.png)
+   ![screen_shot_2017-11-15at162358](assets/screen_shot_2017-11-15at162358.png)
 
    >[!NOTE]
    >
@@ -94,15 +94,15 @@ If you wish to use the style system for your own components do the following:
 
 1. While editing We.Retail's English language master home page at `http://localhost:4502/sites.html/content/we-retail/language-masters/en`, edit the template of the page via **Page Information -&gt; Edit Template**.
 
-   ![](assets/screen_shot_2017-11-15at162922.png)
+   ![screen_shot_2017-11-15at162922](assets/screen_shot_2017-11-15at162922.png)
 
 1. Edit the policy of the **List** component by tapping or clicking the **Policy** button of the component. Do not confuse this with the **Article List** component.
 
-   ![](assets/screen_shot_2017-11-15at163133.png)
+   ![screen_shot_2017-11-15at163133](assets/screen_shot_2017-11-15at163133.png)
 
 1. On the Styles tab of the properties, you can see how the styles have been configured.
 
-   ![](assets/screen_shot_2017-12-15at101404.png)
+   ![screen_shot_2017-12-15at101404](assets/screen_shot_2017-12-15at101404.png)
 
     * **Group Name:** Styles can be grouped together within the style menu that the content author will see when configuring the style of the component.
     * **Styles can be combined:** Allows for multiple styles within that group to be selected at one time.

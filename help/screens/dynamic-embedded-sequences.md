@@ -69,7 +69,7 @@ Before you start implementing this functionality, please make sure you have the 
 * Add content to your **Global** Channel (*Please check **Resources.zip** for relevant assets*)
 
 The following image shows the **Demo** project with **Global** channel in **Channels** folder.   
-![](assets/screen_shot_2018-09-07at21032pm.png) 
+![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png) 
 
 ### Resources {#resources}
 
@@ -108,7 +108,7 @@ Follow the steps below to implement the functionality:
    >
    >Similar, is the case for creating location folder **Region B**, as shown below:
 
-   ![](assets/screen_shot_2018-09-13at23212pm.png)
+   ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Follow the steps below to implement the functionality:
    >
    >Please make sure that while creating channel **Region A**, enter the **Title** as **Region A **and the **Name** as **region**.
 
-   ![](assets/screen_shot_2018-09-13at22857pm.png)
+   ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
    Similarly, create two locations under **Region B** titled as **Store 3** and **Store 4**. Also, create a **Sequence Channel** with **Title** as **Region B** and **Name** as **region**.
 
@@ -133,7 +133,7 @@ Follow the steps below to implement the functionality:
    >
    >Please make sure that you can use the same name for the channels created in **Region A** and **Region B** as **region**.
 
-   ![](assets/screen_shot_2018-09-13at24408pm.png)
+   ![screen_shot_2018-09-13at24408pm](assets/screen_shot_2018-09-13at24408pm.png)
 
 1. **Create Display and Channel under each Location.**
 
@@ -148,7 +148,7 @@ Follow the steps below to implement the functionality:
    >
    >In this example, the channels under **Region A **and **Region B** share the same **Name** as **region** and channels under **Store 1**, **Store 2**, **Store 3**, and **Store 4 **share the same **Name** as **store**.
 
-   ![](assets/screen_shot_2018-09-19at120206pm.png)
+   ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
 
    Similarly, create a display as **Store2Display** and a channel **Store2Channel** under** Store 2** (with name as **store**).
 
@@ -156,17 +156,17 @@ Follow the steps below to implement the functionality:
    >
    >Please make sure that you can use the same name for the channels created in **Store 1** and **Store 2** as **store**.
 
-   ![](assets/screen_shot_2018-09-19at120329pm.png)
+   ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
 
    Follow the preceding steps to create a channel and display in **Store 3** and **Store 4** under **Region B**. Again, please make sure that you use same **Name** as **store** while creating channel **Store3Channel** and **Store4Channel** respectively.
 
    The following image shows the display and channel in **Store 3**.
 
-   ![](assets/screen_shot_2018-09-19at120448pm.png)
+   ![screen_shot_2018-09-19at120448pm](assets/screen_shot_2018-09-19at120448pm.png)
 
    The following image shows the display and channel in **Store 4**.
 
-   ![](assets/screen_shot_2018-09-19at120552pm.png)
+   ![screen_shot_2018-09-19at120552pm](assets/screen_shot_2018-09-19at120552pm.png)
 
 1. **Add Content to the Channels in their respective Locations.**
 
@@ -176,11 +176,11 @@ Follow the steps below to implement the functionality:
    >
    >You can use the ***Resources.zip*** file from the **Resources** section, above, to use the images as assets for your channel content.
 
-   ![](assets/screen_shot_2018-09-12at12438pm.png)
+   ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
    Similarly, navigate to the **Demo** -&gt; **Locations** -&gt; **Region B** -&gt; **Region B** and click **Edit** from the action bar to drag and drop the assets to your channel, as shown below:
 
-   ![](assets/screen_shot_2018-09-12at13133pm.png)
+   ![screen_shot_2018-09-12at13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
    Follow the preceding steps and the resources, to add content to the following channels:
 
@@ -195,7 +195,7 @@ Follow the steps below to implement the functionality:
 
    The following image shows the **AdSchedule** created in **Demo** project.
 
-   ![](assets/screen_shot_2018-09-13at33307pm.png)
+   ![screen_shot_2018-09-13at33307pm](assets/screen_shot_2018-09-13at33307pm.png)
 
 1. **Assign Channels to a Schedule**
 
@@ -225,7 +225,7 @@ Follow the steps below to implement the functionality:
 
    The following image shows the assigned channels by path and by role.
 
-   ![](assets/screen_shot_2018-09-12at21429pm.png)
+   ![screen_shot_2018-09-12at21429pm](assets/screen_shot_2018-09-12at21429pm.png)
 
 1. **Configuring Dynamic Embedded Sequence to the Global Channel.**
 
@@ -233,7 +233,7 @@ Follow the steps below to implement the functionality:
 
    Click **Edit** from the action to open the editor.
 
-   ![](assets/screen_shot_2018-09-13at52754pm.png)
+   ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
    Drag and drop two **Dynamic Embedded Sequence** components in the channel editor.
 
@@ -241,7 +241,7 @@ Follow the steps below to implement the functionality:
 
    Similarly, select the other component and open properties to enter the **Channel Assignment Role** as **StoreAdSegment**.
 
-   ![](assets/channeldisplay4.gif)
+   ![channeldisplay4](assets/channeldisplay4.gif)
 
 1. **Assigning Schedule to each Display**
 
@@ -269,13 +269,13 @@ The following output confirms your channel content in AEM Screens player, depend
 
 If you assign the display path as **Demo** --&gt; **Locations** --&gt; **Region A** --&gt;** Store 1** --&gt; **Store1Display**, the following content will display on your AEM Screens player.
 
-![](assets/channeldisplay1.gif)
+![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
 If you assign the display path as **Demo** --&gt; **Locations** --&gt; **Region B** --&gt;** Store 3** --&gt; **Store3Display**, the following content will display on your AEM Screens player.
 
-![](assets/channeldisplay2.gif) 
+![channeldisplay2](assets/channeldisplay2.gif) 
 
 ## Restricting Users and Modifying the ACLs {#restricting-users-and-modifying-the-acls}
 
@@ -314,7 +314,7 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
    Similarly, create two other groups such as **Region-Author** and **Store-Author**.   
 
-   ![](assets/screen_shot_2018-09-17at34008pm.png)
+   ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
 
 1. **Create Users and add Users to Groups**
 
@@ -331,7 +331,7 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
    >
    >It is a best practice to add users in a group and then assign permissions to each particular group of users.
 
-   ![](assets/screen_shot_2018-09-17at34412pm.png)
+   ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
 1. **Add all the Groups to Contributors**
 
@@ -347,7 +347,7 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
     1. Search for **Global-Author** and click **Permissions** tab, as shown in the figure below.
     1. Similarly, you can access the permissions for **Region-Author** and **Store-Author**.
 
-   ![](assets/screen_shot_2018-09-18at73523am.png)
+   ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
 
 1. **Modifying Permissions for Each Group**
 
@@ -359,11 +359,11 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
     1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Similarly, check the permissions for **region-b**.
 
    Please refer to the figure below for understanding the steps:   
-   ![](assets/screen_shot_2018-09-18at115752am.png)
+   ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
    The following image shows that now the **Global-User** has access to the **Global Channel** and both the **Region A** and **Region B** with all the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4**.
 
-   ![](assets/global.gif)
+   ![global](assets/global.gif)
 
    **For Region-Author:**
 
@@ -375,11 +375,11 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
    Please refer to the figure below for understanding the steps:
 
-   ![](assets/screen_shot_2018-09-18at125158pm.png)
+   ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
    The following image shows that now the Region-User has access to both the **Region A** and **Region B** with all the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4** but does not access to the **Global** Channel.
 
-   ![](assets/region.gif)
+   ![region](assets/region.gif)
 
    **For Store-Author:**
 
@@ -392,11 +392,11 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
    Please refer to the figure below for understanding the steps:
 
-   ![](assets/screen_shot_2018-09-18at12415pm.png)
+   ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
    The following image shows that now the **Store-User** has access only to the four stores namely **Store 1**, **Store 2**, **Store 3**, and **Store 4** but does not have permissions to access the **Global** or the region (**Region A **and **Region B**) channels.
 
-   ![](assets/store.gif)
+   ![store](assets/store.gif)
 
 >[!NOTE]
 >

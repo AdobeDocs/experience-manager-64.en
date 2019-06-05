@@ -32,35 +32,35 @@ To resize thumbnails in the Card view, perform these steps:
 
 1. Tap/click the Layout icon from the toolbar, and then choose the **View Settings** option.
 
-   ![](assets/view_settings.png)
+   ![view_settings](assets/view_settings.png)
 
 1. From the **View Settings** dialog, select the desired thumbnail size, and then tap/click **Update**.
 
-   ![](assets/view_settings_dialog.png)
+   ![view_settings_dialog](assets/view_settings_dialog.png)
 
 1. Review the thumbnails that are displayed in the chosen size.
 
-   ![](assets/thumbnails_changed.png)
+   ![thumbnails_changed](assets/thumbnails_changed.png)
 
 The tile in the Card view now displays additional information, such as publication status.
 
-![](assets/publish_status.png)
+![publish_status](assets/publish_status.png)
 
 ## List view improvements {#list-view-improvements}
 
 In the List view, the first column now displays the filenames of assets by default. Additional information, such as publication and processing status and locale are also displayed.
 
-![](assets/list_view.png)
+![list_view](assets/list_view.png)
 
 You can choose to configure the amount of detail you want to display. Tap/click the Layout icon, choose the **View Settings** option, and specify the columns you want displayed in the **View Settings** dialog.
 
-![](assets/view_settings_dialoglistview.png)
+![view_settings_dialoglistview](assets/view_settings_dialoglistview.png)
 
 ## Column view improvements {#column-view-improvements}
 
 In addition to Card and List views, you can now navigate to the details page of an asset from the Column view. Select an asset from the Column view, and then tap/click **More Details** under the asset snapshot.
 
-![](assets/more_details.png)
+![more_details](assets/more_details.png)
 
 ## Tree view {#tree-view}
 
@@ -68,11 +68,11 @@ AEM 6.4 Assets includes a Tree view that lets you conveniently browse your asset
 
 To open the Tree view, tap/click the GlobalNav icon in the `Assets UI`, and choose **[!UICONTROL Content tree]** from the menu.
 
-![](assets/content_tree.png)
+![content_tree](assets/content_tree.png)
 
 From the content hierarchy, navigate to the desired asset.
 
-![](assets/navigate_contenttree.png)
+![navigate_contenttree](assets/navigate_contenttree.png)
 
 ## Navigating asset details {#navigating-asset-details}
 
@@ -90,5 +90,5 @@ Depending upon the chose layout, you can open the details page for an asset in t
 
 Use the Previous/Next buttons to move back and forth between the assets.
 
-![](assets/prev_next_buttons.png)
+![prev_next_buttons](assets/prev_next_buttons.png)
 

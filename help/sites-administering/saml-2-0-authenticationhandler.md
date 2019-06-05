@@ -97,7 +97,7 @@ SAML assertions are signed and may optionally be encrypted. In order for this to
 1. Upload the IdP certificate.
 1. Take note of the certificate Alias. The alias is **admin#1436172864930** in the example below.
 
-   ![](assets/chlimage_1-372.png)
+   ![chlimage_1-372](assets/chlimage_1-372.png)
 
 ## Add the Service Provider key and certificate chain to the AEM keystore {#add-the-service-provider-key-and-certificate-chain-to-the-aem-keystore}
 
@@ -117,7 +117,7 @@ SAML assertions are signed and may optionally be encrypted. In order for this to
 1. Upload the certificate file by clicking **Select Certificate Chain Files**.
 1. Assign an Alias, as shown below:
 
-   ![](assets/chlimage_1-373.png)
+   ![chlimage_1-373](assets/chlimage_1-373.png)
 
 ## Configure a Logger for SAML {#configure-a-logger-for-saml}
 

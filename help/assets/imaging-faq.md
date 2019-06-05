@@ -23,7 +23,7 @@ Smart imaging benefits from the added performance boost of being fully integrate
 
 Smart imaging provides better image delivery performance by automatically optimizing image file size based on user characteristics. Because images constitute a majority of a page's load time, the performance improvement can have a profound impact on business KPIs such as higher conversion, time spent on site, lower site bounce rate, and so on. Adobe compared performance of default image delivery versus smart imaging across different file formats, browsers, and quality (QLT) settings. Overall, you can expect 22-47% performance improvement depending on your existing image preset settings and specific end user characteristics. 
 
-![](assets/image2017-11-14_133226.png) 
+![image2017-11-14_133226](assets/image2017-11-14_133226.png) 
 
 ## Are there any licensing costs associated with smart imaging? {#are-there-any-licensing-costs-associated-with-smart-imaging}
 
@@ -151,5 +151,5 @@ During the initial transition, the non-cached images directly hits Adobe's origi
 >
 >Not all images are converted. Smart imaging decides if the conversion is needed to improve performance. In some cases, where there is no expected performance gain, the image is not converted.
 
-![](assets/image2017-11-14_15398.png)
+![image2017-11-14_15398](assets/image2017-11-14_15398.png)
 

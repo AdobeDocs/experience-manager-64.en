@@ -48,7 +48,7 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
 1. Navigate to your AEM Screens project.
 1. Select the project and click **Update Offline Content** from the action bar to manually update the channel content.
 
-   ![](assets/screen_shot_2018-04-24at122256pm.png)
+   ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
 ### Adobe Experience Manager Web Console Configuration {#adobe-experience-manager-web-console-configuration}
 
@@ -57,7 +57,7 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
 1. Adobe Experience Manager Web Console Configuration.
 1. Search for bulk offline update services.
 
-   ![](assets/screen_shot_2018-04-24at121428pm.png)
+   ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
 1. Add the following properties:
 

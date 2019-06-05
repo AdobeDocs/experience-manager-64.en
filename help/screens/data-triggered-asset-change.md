@@ -47,21 +47,21 @@ Follow the steps below to set up a project showcasing data triggered asset chang
 
 1. Create an AEM Screens Project named as **DataTriggerAsset**, as shown below.
 
-   ![](assets/screen_shot_2019-02-28at120427pm.png)
+   ![screen_shot_2019-02-28at120427pm](assets/screen_shot_2019-02-28at120427pm.png)
 
 1. **Creating a Sequence Channel**
 
     1. Select the **Channels** folder and click **Create** to open the wizard to create a channel.
     1. Select **Sequence Channel** from the wizard and create the channel titled as **DataTrigger**.
 
-   ![](assets/screen_shot_2019-02-28at120710pm.png)
+   ![screen_shot_2019-02-28at120710pm](assets/screen_shot_2019-02-28at120710pm.png)
 
 1. **Adding Content to Sequence Channel**
 
     1. Select the channel **DataTrigger**.
     1. Click **Edit** from the action bar to open the editor. Drag and drop few assets to your channel.
 
-   ![](assets/screen_shot_2019-02-28at21511pm.png)
+   ![screen_shot_2019-02-28at21511pm](assets/screen_shot_2019-02-28at21511pm.png)
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ Follow the steps below to set up a project showcasing data triggered asset chang
     1. Navigate to **DataTriggerAsset** --&gt; **Channels** --&gt; **DataTrigger** and click **Properties** from the action bar.
     1. Click **Personalization** tab.
 
-   ![](assets/screen_shot_2019-02-28at10644pm.png)
+   ![screen_shot_2019-02-28at10644pm](assets/screen_shot_2019-02-28at10644pm.png)
 
 1. **Adding ContextHub and Targeting Configurations**
 
@@ -93,7 +93,7 @@ Follow the steps below to set up a project showcasing data triggered asset chang
    >* [Configuring ContextHub](/help/sites-administering/contexthub-config.md)
    >* [Configuring Segmentation with ContextHub](/help/sites-administering/segmentation.md)
 
-   ![](assets/screen_shot_2019-02-28at31502pm.png)
+   ![screen_shot_2019-02-28at31502pm](assets/screen_shot_2019-02-28at31502pm.png)
 
    Click **Save & Close**.
 
@@ -102,14 +102,14 @@ Follow the steps below to set up a project showcasing data triggered asset chang
     1. Navigate to **DataTriggerAsset** &gt; **Channels** &gt; **DataTrigger** and click **Edit** from the action bar.
     1. Select **Targeting** from the menu bar under **Edit**.
 
-   ![](assets/screen_shot_2019-02-28at21849pm.png)
+   ![screen_shot_2019-02-28at21849pm](assets/screen_shot_2019-02-28at21849pm.png)
 
 1. **Adding the Targeted Content**
 
     1. Select **Data Triggers** in **BRAND** and **Seasonal Data-Trigger **in **ACTIVITY**.
     1. Click the **Start Targeting**
 
-   ![](assets/screen_shot_2019-02-28at31953pm.png)
+   ![screen_shot_2019-02-28at31953pm](assets/screen_shot_2019-02-28at31953pm.png)
 
 1. **Defining the Targeted Component**
 
@@ -121,7 +121,7 @@ Follow the steps below to set up a project showcasing data triggered asset chang
    >
    >To hide the **Assets** panel in the editor, you will have to click the left arrow on the right hand side panel, as shown in the figure below.
 
-   ![](assets/target.gif)
+   ![target](assets/target.gif)
 
 ## Viewing the Results {#viewing-the-results}
 
@@ -129,11 +129,11 @@ Once you have completed the preceding steps, follow along further to preview and
 
 1. Click **Preview** from the editor.
 
-   ![](assets/target2.gif)
+   ![target2](assets/target2.gif)
 
 1. To showcase, how the image will change, depending on the location and further the temperature of your area, you can manually click the ContextHub icon, as shown below.
 
    As soon as you update the location, the temperature of that area is captured and the image updates with the winter selection and replaces the summer selection image.
 
-   ![](assets/target3.gif)
+   ![target3](assets/target3.gif)
 

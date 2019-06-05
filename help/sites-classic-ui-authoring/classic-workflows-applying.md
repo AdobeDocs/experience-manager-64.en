@@ -33,7 +33,7 @@ Workflows can be started from either the Websites console or, when editing a pag
 
 The **Status** column in the **Websites** console indicates whether a workflow has been applied to a page:
 
-![](assets/workflowstatus.png)
+![workflowstatus](assets/workflowstatus.png)
 
 ### Starting a Workflow from the Websites Console {#starting-a-workflow-from-the-websites-console}
 
@@ -49,7 +49,7 @@ The **Status** column in the **Websites** console indicates whether a workflow h
 1. Select the Workflow tab from the Sidekick.
 1. Expand the **Workflow** dialog, allowing you to select the **Workflow** and optionally enter **Workflow Title** and **Comment**.
 
-   ![](assets/workflowstartsidekick.png)
+   ![workflowstartsidekick](assets/workflowstartsidekick.png)
 
 1. Click **Start Workflow** to start a new workflow instance with the properties you configured and the current page as the payload. Now the workflow is running.
 

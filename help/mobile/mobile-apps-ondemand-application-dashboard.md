@@ -21,7 +21,7 @@ You can manage your application and mobile app content from AEM Mobile Applicati
 
 You can drill into each tile in the Control Center to view or edit details by clicking the '...' in the bottom right corner.
 
-![](assets/chlimage_1-54.png)
+![chlimage_1-54](assets/chlimage_1-54.png)
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ The **Manage App** Tile displays available application information:
 * Last Modified
 * Last Modified By
 
-![](assets/chlimage_1-55.png) 
+![chlimage_1-55](assets/chlimage_1-55.png) 
 
 ## The Manage Connection Tile {#the-manage-connection-tile}
 
@@ -57,7 +57,7 @@ The **Manage Connection** tile displays the AEM Mobile On-Demand Services connec
 >
 >See [Configuring Mobile On-Demand Services](/help/mobile/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md) for details.
 
-![](assets/chlimage_1-56.png) 
+![chlimage_1-56](assets/chlimage_1-56.png) 
 
 ## Managing Entities {#managing-entities}
 
@@ -82,7 +82,7 @@ The **Manage Banners** tile allows you to manage the content for a banner. The f
 
 The following image shows the **Manage Banners** tile in AEM Mobile Application Dashboard:
 
-![](assets/chlimage_1-57.png)
+![chlimage_1-57](assets/chlimage_1-57.png)
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ The **Manage Articles** tile allows you to manage the content for an article. Th
 
 The following image shows the **Manage Articles** tile in AEM Mobile Application Dashboard:
 
-![](assets/chlimage_1-58.png)
+![chlimage_1-58](assets/chlimage_1-58.png)
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ The **Manage Collections** tile allows you to manage the content for a collectio
 
 The following image shows the **Manage Collections** tile in AEM Mobile Application Dashboard:
 
-![](assets/chlimage_1-59.png)
+![chlimage_1-59](assets/chlimage_1-59.png)
 
 >[!NOTE]
 >

@@ -94,7 +94,7 @@ To update a configuration with the web console:
 
 1. A dialog will open. Here you can edit as required; for example, set the **Log Level** to `INFO`:
 
-   ![](assets/chlimage_1-140.png)
+   ![chlimage_1-140](assets/chlimage_1-140.png)
 
    >[!NOTE]
    >
@@ -181,14 +181,14 @@ To add a new configuration to the repository you need to know the following:
 
    For example, create a node `com.day.cq.wcm.core.impl.VersionManagerImpl.` to configure **AEM WCM Version Manager**. 
 
-   ![](assets/chlimage_1-141.png)
+   ![chlimage_1-141](assets/chlimage_1-141.png)
 
 1. Whether a specific [run mode](/help/sites-deploying/configure-runmodes.md) is required. Create the folder:
 
     * `config` - for all run modes
     * `config.author` - for the author environment
     * `config.publish` - for the publish environment
-    * `config.<*run-mode*>` - as appropriate
+    * `config.<run-mode>` - as appropriate
 
 1. Whether a **Configuration** or **Factory Configuration** is necessary.
 1. The individual parameters to be configured; including any existing parameter definitions that will need to be recreated.
@@ -198,13 +198,13 @@ To add a new configuration to the repository you need to know the following:
    For example, create a property 
    `versionmanager.createVersionOnActivation` to configure **Create Version on Activation**.
 
-   ![](assets/chlimage_1-142.png)
+   ![chlimage_1-142](assets/chlimage_1-142.png)
 
 1. Does a configuration already exist in `/libs`? To list all configurations in your instance, use the **Query** tool in CRXDE Lite to submit the following SQL query:  
 
    `select * from sling:OsgiConfig`  
 
-   If so, this configuration can be copied to ` /apps/<*yourProject*>/`, then customized in the new location.
+   If so, this configuration can be copied to ` /apps/<yourProject>/`, then customized in the new location.
 
 #### Creating the Configuration in the Repository {#creating-the-configuration-in-the-repository}
 
@@ -212,12 +212,12 @@ To actually add the new configuration to the repository:
 
 1. Use CRXDE Lite to navigate to:
 
-   ` /apps/<*yourProject*>`
+   ` /apps/<yourProject>`
 
 1. If not already existing, create the `config` folder ( `sling:Folder`):
 
     * `config` - applicable to all run modes
-    * `config.<*run-mode*>` - specific to a particular run mode
+    * `config.<run-mode>` - specific to a particular run mode
 
 1. Under this folder create a node:
 
@@ -230,9 +230,9 @@ To actually add the new configuration to the repository:
    >
    >When making a Factory Configuration append `-<identifier>` to the name.
    >
-   >As in: `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>`
+   >As in: `org.apache.sling.commons.log.LogManager.factory.config-<identifier>`
    >
-   >Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information); for example:
+   >Where `<identifier>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information); for example:
    >
    >`org.apache.sling.commons.log.LogManager.factory.config-MINE`
 
@@ -327,9 +327,9 @@ To list all configuration nodes in your instance, use the **Query** functionalit
 
 * If you change a configuration through the Web console, it is (usually) written into the repository at: 
 
-  `/apps/{*somewhere*}` 
+  `/apps/{somewhere}` 
 
-    * By default `{*somewhere*}` is `system/config` so the configuration is written to 
+    * By default `{somewhere}` is `system/config` so the configuration is written to 
 
       `/apps/system/config` 
     
@@ -357,7 +357,7 @@ To list all configuration nodes in your instance, use the **Query** functionalit
         
         * CRX Sling Client Repository 
 
-          `../com/day/crx/sling/client/impl/CRXSlingClientRepository/<*pid-nr*>.config`
+          `../com/day/crx/sling/client/impl/CRXSlingClientRepository/<pid-nr>.config`
 
 >[!CAUTION]
 >

@@ -71,7 +71,7 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
    Alternatively, four buttons appear when you move your pointer over the form or interactive communication icon without selecting it. You can tap the **Edit** button that appears, to open the form in edit mode. 
 
-1. In the page toolbar, tap **Page Information** ![](assets/theme-options.png) > **Open Properties**. 
+1. In the page toolbar, tap **Page Information** ![theme-options](assets/theme-options.png) > **Open Properties**. 
 1. In the General tab, choose a configuration for the **Adobe Target** field. Tap **Save & Close**.
 
 ## Applying created activity to an adaptive form image or an interactive communication image {#applying-created-activity-to-an-adaptive-form-image-or-an-interactive-communication-image}
@@ -87,7 +87,7 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 1. Switch from **Edit **to **Targeting **mode. The option to switch modes is near the Top-Right corner. 
 1. Select a **BRAND**, select **ACTIVITY**, and tap **Start Targeting**. The **Audiences **menu appears on right side of the editor. 
 
-   ![](assets/targeting-menu.png)
+   ![targeting-menu](assets/targeting-menu.png)
 
 1. Select an audience from the **Audiences** menu and tap the image to target. A menu appears. In the menu, tap **Target**. Tap the image and tap **Configure**. In the properties window, select the image to display for the selected audience. Repeat the step for all the audiences. The experience targeting is enabled for the image in the interactive communication or adaptive form.
 

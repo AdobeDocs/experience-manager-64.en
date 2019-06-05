@@ -33,7 +33,7 @@ The **User** settings dialog gives you access to:
 
     * Specify various preference settings unique to your user
 
-![](assets/screen_shot_2018-03-20at103808.png)
+![screen_shot_2018-03-20at103808](assets/screen_shot_2018-03-20at103808.png)
 
 ## My Preferences {#my-preferences}
 
@@ -41,7 +41,7 @@ The **My Preferences** dialog is access via the [User](/help/sites-authoring/use
 
 Each user can set certain properties for himself or herself.
 
-![](assets/screen_shot_2018-03-20at102118.png)
+![screen_shot_2018-03-20at102118](assets/screen_shot_2018-03-20at102118.png)
 
 * **Language**
 

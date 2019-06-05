@@ -43,7 +43,7 @@ The general workflow to publish/unpublish an article:
 >
 >Generally, you should preflight before publishing. See [Previewing with Preflight](/content/docs/en/aem/6-3/administer/mobile-apps/aem-mobile/previewing-with-preflight-on-demand-services.md) for more details.-->
 
-![](assets/chlimage_1-9.gif)
+![chlimage_1-9](assets/chlimage_1-9.gif)
 
 
 ### The Next Steps {#the-next-steps}

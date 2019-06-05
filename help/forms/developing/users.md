@@ -39,7 +39,7 @@ User Management provides built-in authentication functionality, and also provide
 
 The following diagram shows the interaction among an end user attempting to log in, User Management, and the authentication provider.
 
-![](assets/mu_mu_umauth_process.png)
+![mu_mu_umauth_process](assets/mu_mu_umauth_process.png)
 
 The following table describes each step of the authentication process. 
 
@@ -722,7 +722,7 @@ If the authentication is successful, the application accesses a secured enterpri
 
 The following diagram shows the application’s logic flow.
 
-![](assets/au_au_umauth_process.png)
+![au_au_umauth_process](assets/au_au_umauth_process.png)
 
 The following table describes the steps in this diagram
 
@@ -848,7 +848,7 @@ You can programmatically synchronize users by using the User Management API. Whe
 
 The following diagram shows AEM Forms synchronizing with a user respository.
 
-![](assets/ps_ps_umauth_sync.png)
+![ps_ps_umauth_sync](assets/ps_ps_umauth_sync.png)
 
 The following table describes the steps in this diagram
 

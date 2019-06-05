@@ -47,7 +47,7 @@ To integrate AEM 3D with Autodesk 3ds Max:
     1. Double-click `export-fbx.bat` to open it.
     1. Edit the first line of the script as needed to reflect the location of the `3dsmaxcmd.exe` utility. For example, if 3ds Max 2017 is used and AEM is installed on a different disk drive:
 
-   ![](assets/image2018-6-22_13-35-8.png)
+   ![image2018-6-22_13-35-8](assets/image2018-6-22_13-35-8.png)
 
 1. Near the upper-left corner of the CRXDE Lite page, tap or click **Save All**.
 
@@ -65,7 +65,7 @@ To integrate AEM 3D with Autodesk 3ds Max:
 
     1. In CRXDE Lite, navigate to `/libs/settings/dam/v3D/assetTypes/max` and set the **Enabled** property to true:
 
-   ![](assets/image2018-6-22_13-50-50.png)
+   ![image2018-6-22_13-50-50](assets/image2018-6-22_13-50-50.png)
 
 1. Near the upper-left corner of the CRXDE Lite page, tap or click **Save All**.
 

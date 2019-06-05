@@ -109,7 +109,7 @@ The steps in this procedure will download and build the hybris server. It will a
 >
 >To complete this, you will need [Groovy](https://groovy-lang.org/) installed on your system.
 
-1. Download the **hybris Commerce Suite **distribution from the hybris download site.
+1. Download the **hybris Commerce Suite** distribution from the hybris download site.
 
    >[!CAUTION]
    >
@@ -136,10 +136,9 @@ The steps in this procedure will download and build the hybris server. It will a
 1. Download the following files to the root folder of your extracted hybris distribution,
 
    ```
-       <<i>hybris-root-directory</i>>
+       <hybris-root-directory>
    ```
 
-   :
 
    [Get File](assets/setup.groovy)
 
@@ -218,6 +217,7 @@ This procedure will upload and configure the demonstration store - Geometrixx On
 1. **Upload** the following **Import file**:
 
    [Get File](assets/base-store.csv)
+   
    For hybris 5.7, please use the following:
 
    [Get File](assets/base-store-5_7.csv)

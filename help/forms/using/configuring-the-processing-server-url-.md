@@ -27,15 +27,15 @@ Following are the steps to configure the **[!UICONTROL AEM DS Settings]**:
 
    *http://localhost:port/system/console/configMgr*.
 
-   ![](assets/aem_web_configuration_console.png)
+   ![aem_web_configuration_console](assets/aem_web_configuration_console.png)
 
 1. In the **[!UICONTROL Adobe Experience Manager Web Console Configuration]** window, locate and click the **[!UICONTROL AEM DS Settings]** option.
 
-   ![](assets/ds_settings.png)
+   ![ds_settings](assets/ds_settings.png)
 
 1. The **[!UICONTROL AEM DS Settings Service]** window displays the common configuration settings for AEM DS Components.
 
-   ![](assets/ds_settings_1.png)
+   ![ds_settings_1](assets/ds_settings_1.png)
 
 1. Add the following information in the respective fields:
 

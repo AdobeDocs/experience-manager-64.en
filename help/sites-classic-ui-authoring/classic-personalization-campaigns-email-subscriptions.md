@@ -29,7 +29,7 @@ To configure an AEM page:
 
 1. Select **Cloud Services** then **Add Service**. Select a configuration from the list of available configurations. 
 
-   ![](assets/chlimage_1-164.png)
+   ![chlimage_1-164](assets/chlimage_1-164.png)
 
 1. Click **OK**.
 
@@ -46,7 +46,7 @@ To create a sign-up form and configure it for subscriptions to Email Service Pro
 1. At the bottom of the dialog box, open the **Action Configuration** drop-down, which allows you to select one or more subscription lists.
 1. In the **Select list**, select the list you want users to subscribe to. You can add multiple lists by using the plus button (**Add Item**).
 
-   ![](assets/chlimage_1-10.jpeg)
+   ![chlimage_1-10](assets/chlimage_1-10.jpeg)
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ To unsubscribe users from lists:
 1. While configuring the component, select the action **E-mail Service**: **Unsubscribe user from list.**
 1. From the drop-down menu, select the appropriate list from which the user will be removed when unsubscribing.
 
-   ![](assets/chlimage_1-11.jpeg)
+   ![chlimage_1-11](assets/chlimage_1-11.jpeg)
 
 1. Export the keys from author to publish.
 
@@ -111,5 +111,5 @@ To configure an auto-responder email for a subscriber:
    >
    >To make the sign-up form subscription function correctly, [encryption keys from author need to be exported and imported on the publish instance](#exporting-keys-from-author-and-importing-on-publish).
 
-   ![](assets/chlimage_1-12.jpeg)
+   ![chlimage_1-12](assets/chlimage_1-12.jpeg)
 

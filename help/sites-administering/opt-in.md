@@ -58,7 +58,7 @@ To opt-in from the pre-loaded, out-of-the-box task:
 
 1. From your [Inbox, select and **Open** the Configure Analytics & Targeting](/help/sites-authoring/inbox.md#taking-action-on-an-item) task.
 
-   ![](assets/optin-01.png)
+   ![optin-01](assets/optin-01.png)
 
 1. For Analytics:
 
@@ -141,7 +141,7 @@ The following procedure describes how to opt into the integration using the prop
 
    Select **Add** for the appropriate service, then continue with the wizard. 
 
-   ![](assets/optin-02.png)
+   ![optin-02](assets/optin-02.png)
 
 ## About the Cloud Configurations {#about-the-cloud-configurations}
 

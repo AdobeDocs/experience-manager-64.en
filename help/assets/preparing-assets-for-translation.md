@@ -50,11 +50,11 @@ For example, the root page of the Italian language copy of the sample hierarchy 
 
 1. From the Assets console, click/tap **Create** and choose **Folder** from the menu.
 
-   ![](assets/chlimage_1-120.png)
+   ![chlimage_1-120](assets/chlimage_1-120.png)
 
 1. In the Name field type the country code in the format of `<language-code>`.
 
-   ![](assets/chlimage_1-121.png)
+   ![chlimage_1-121](assets/chlimage_1-121.png)
 
 1. Click or tap** Create**. The language root is created in the Assets console.
 
@@ -65,9 +65,9 @@ The touch-optimized UI provides a References panel that shows a list of language
 1. In the Assets console, select the language master for which you want to create language copies.
 1. Click or tap the GlobalNav icon, and choose **References** to open the Reference pane.
 
-   ![](assets/chlimage_1-122.png)
+   ![chlimage_1-122](assets/chlimage_1-122.png)
 
 1. In the References pane, click or tap **Language Copies**. The Language Copies panel shows the language copies of the assets.
 
-   ![](assets/chlimage_1-123.png)
+   ![chlimage_1-123](assets/chlimage_1-123.png)
 
