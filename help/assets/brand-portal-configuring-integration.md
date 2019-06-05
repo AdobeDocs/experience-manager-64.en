@@ -55,25 +55,25 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 1. From the **Navigation** page of your local AEM Assets instance, tap/click the **Tools** icon on the left.
 
-   ![](assets/chlimage_1-252.png)
+   ![chlimage_1-252](assets/chlimage_1-252.png)
 
 1. Navigate to **Cloud Services &gt; Legacy Cloud Services**.
 
-   ![](assets/cloudservices.png)
+   ![cloudservices](assets/cloudservices.png)
 
 1. In the **Cloud Services** page, locate the **Assets Brand Portal** service under **Adobe Experience Cloud**.
 
-   ![](assets/bpcloudservices.png)
+   ![bpcloudservices](assets/bpcloudservices.png)
 
 1. Tap/ click the **Configure now** link below the service to display the **Create Configuration** dialog.
 1. In the **Create Configuration** dialog, specify a title and name for the new configuration and tap/click **Create**. 
 
-   ![](assets/bp-config.png)
+   ![bp-config](assets/bp-config.png)
 
 1. In the **AEM Assets Brand Portal Replication** dialog, specify the URL of your organization in the **Tenant URL** field. 
 1. In the **Client ID** field, paste the application ID you copied at the end of the procedure [Create an application](brand-portal-configuring-integration.md#create-jwt-application). Click **OK**.
 
-   ![](assets/public-folder-publish.png)
+   ![public-folder-publish](assets/public-folder-publish.png)
 
 1. To make the assets (published from AEM) publicly available to general users of Brand Portal, enable the **Public Folder Publish** check box .
 
@@ -83,7 +83,7 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 1. From the **Brand Portal Configuration** page, tap/click **Display Public Key** to display the public key generated for your instance.
 
-   ![](assets/display-public-key.png)
+   ![display-public-key](assets/display-public-key.png)
 
    Alternatively, click **Download Public Key for OAuth Gateway** to download the file containing the public key. Then, open the file to display the public key.
 
@@ -102,15 +102,15 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 1. From the **Navigation** page of your local AEM Assets instance, click the **Tools** icon on the left.
 
-   ![](assets/chlimage_1-253.png)
+   ![chlimage_1-253](assets/chlimage_1-253.png)
 
 1. Navigate to **Deployment** &gt; **Replication**.
 
-   ![](assets/deploymentreplication.png)
+   ![deploymentreplication](assets/deploymentreplication.png)
 
 1. In the **Replication** page, tap/click **Agents on author**.
 
-   ![](assets/agents_on_author.png)
+   ![agents_on_author](assets/agents_on_author.png)
 
 1. To verify the connection between AEM Author and Brand Portal, open any of the four replication agents and click **Test Connection**.
 
@@ -124,11 +124,11 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
    >
    >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
 
-   ![](assets/aem_assets_parallelpublishing.png)
+   ![aem_assets_parallelpublishing](assets/aem_assets_parallelpublishing.png)
 
 1. Look at the bottom of the test results to verify that the replication succeeded.
 
-   ![](assets/replication_succeeded.png)
+   ![replication_succeeded](assets/replication_succeeded.png)
 
 After replication succeeds, you can publish assets, folders, and collections to Brand Portal. For details, see:
 
@@ -151,7 +151,7 @@ After replication succeeds, you can publish assets, folders, and collections  to
 
    Alternatively, select the assets you want to publish to Brand Portal.
 
-   ![](assets/publish2bp-2.png)
+   ![publish2bp-2](assets/publish2bp-2.png)
 
 1. **Publish assets now**
 
@@ -172,15 +172,15 @@ After replication succeeds, you can publish assets, folders, and collections  to
     1. Once you have selected assets/ folders to publish, select **Manage Publication** from the tool bar at the top.
     1. On **Manage Publication** page, select **Publish to Brand Portal** from **Action** and select **Later**from **Scheduling**.
 
-       ![](assets/publishlaterbp-1.png)
+       ![publishlaterbp-1](assets/publishlaterbp-1.png)
 
     1. Select an **Activation date** and specify time. Tap/ click **Next**.
     1. Select an **Activation date** and specify time. Tap/ click **Next**.
     1. Specify a Workflow title under **Workflows**. Tap/ click **Publish Later**.
 
-       ![](assets/publishworkflow.png)
+       ![publishworkflow](assets/publishworkflow.png)
 
 1. Log in to Brand Portal to see whether the published assets are available on  Brand  Portal interface.
 
-   ![](assets/bp_631_landing_page.png)
+   ![bp_631_landing_page](assets/bp_631_landing_page.png)
 

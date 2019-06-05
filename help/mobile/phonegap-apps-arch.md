@@ -218,7 +218,7 @@ Alternatively, if `$scope.wcmMode == false`, each navigation event results in a 
 
 ### Component Script Details {#component-script-details}
 
-![](assets/chlimage_1-144.png) 
+![chlimage_1-144](assets/chlimage_1-144.png) 
 
 #### ng-component.jsp {#ng-component-jsp}
 

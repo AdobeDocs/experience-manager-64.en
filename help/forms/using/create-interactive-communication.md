@@ -31,7 +31,7 @@ The following are the prerequisites for creating an Interactive Communication:
 1. Log in to the AEM author instance and navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
 1. Tap **[!UICONTROL Create]** and select **[!UICONTROL Interactive Communication]**. Create Interactive Communication page appears. 
 
-   ![](assets/create-interactive-communication.png)
+   ![create-interactive-communication](assets/create-interactive-communication.png)
 
 1. Enter the following information. :
 
@@ -85,7 +85,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    Using the Assets browser, you can also directly drag and drop assets into Interactive Communication target areas. 
 
-   ![](assets/assets-docfragments.png)
+   ![assets-docfragments](assets/assets-docfragments.png)
 
 1. Drag-and-drop the document fragments into the Interactive Communication. Following are the types of document fragments that you can use in the print channel of the Interactive Communication. 
 
@@ -112,13 +112,13 @@ For more information on the Interactive Communication authoring interface, see [
 
    For more information on document fragments, see [Document Fragments](/help/forms/using/document-fragments.md). 
 
-1. To set up binding of variables, tap a variable and select ![](assets/configure_icon.png) (Configure) and then set up the binding properties in the Properties panel in the sidebar.
+1. To set up binding of variables, tap a variable and select ![configure_icon](assets/configure_icon.png) (Configure) and then set up the binding properties in the Properties panel in the sidebar.
 
     * **None**: Agent will fill in the value for the variable.
     * **Text Fragment**: If selected, you can browse and select a text document fragment whose content is rendered in the field. Only those text document fragments can be bound to variables that have no variables within. 
     * **Data Model Object**: Select a form data model property whose value is populated in the field.
 
-   You can also choose to configure the relevant text document fragment. The Properties panel displays the list of variables in the text document fragment. You can tap ![](assets/edit.png) (Edit) next to a variable name to display that variable's settings for editing.
+   You can also choose to configure the relevant text document fragment. The Properties panel displays the list of variables in the text document fragment. You can tap ![edit](assets/edit.png) (Edit) next to a variable name to display that variable's settings for editing.
 
 1. To add a table, with the print channel selected, in the **[!UICONTROL Assets]** tab apply the filter to display only the Layout Fragments. Drag-and-drop the required layout fragment to the Interactive Communication. A layout fragment is based on an XDP and can be used to create graphical layouts or static and dynamic tables in Interactive Communication that get populated with dynamic data.
 
@@ -146,7 +146,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    Since we are using Print as master for the web in this example, the Print channel placeholders, content, and data binding get synced to the web channel. However, you can change and customize the specific content in the web channel as required. 
 
-   ![](assets/webchannelassets.png)
+   ![webchannelassets](assets/webchannelassets.png)
 
 1. To add additional components in the Web channel, with the Web channel selected, tap **[!UICONTROL Components]**. Drag-and-drop components in the web channel of your Interactive Communication as required and proceed to configure them.
 
@@ -166,7 +166,7 @@ For more information on the Interactive Communication authoring interface, see [
 
 ## Preview the Interactive Communication {#previewic}
 
-You can use the **Preview option** to evaluate appearance of the Interactive Communication. The web channel of Interactive Communication also provides an option to Emulate experience of an Interactive Communication for various devices. For example, iPhone, iPad, and Desktop. You can use both **Preview** and **Emulator** ![](assets/ruler.png) options in conjunction with each other to preview the web outputs for devices of different screen sizes. The sample data in the preview is populated from the specified forms data model.
+You can use the **Preview option** to evaluate appearance of the Interactive Communication. The web channel of Interactive Communication also provides an option to Emulate experience of an Interactive Communication for various devices. For example, iPhone, iPad, and Desktop. You can use both **Preview** and **Emulator** ![ruler](assets/ruler.png) options in conjunction with each other to preview the web outputs for devices of different screen sizes. The sample data in the preview is populated from the specified forms data model.
 
 1. Select the (print or web) channel to preview and tap preview. The Interactive Communication appears.
 
@@ -174,9 +174,9 @@ You can use the **Preview option** to evaluate appearance of the Interactive Com
    >
    >The preview is populated with the specified form data model's sample data. For more information on previewing the Interactive Communication with some other data or using the prefill service, see [Use form data model](/help/forms/using/using-form-data-model.md) and [Work with form data model](/help/forms/using/work-with-form-data-model.md).
 
-1. For the web channel, use ![](assets/ruler.png) to view how the Interactive Communication looks on various devices.
+1. For the web channel, use ![ruler](assets/ruler.png) to view how the Interactive Communication looks on various devices.
 
-   ![](assets/webchannelpreview.png)
+   ![webchannelpreview](assets/webchannelpreview.png)
 
 Further, you can [Prepare and send Interactive Communication using the Agent UI](/help/forms/using/prepare-send-interactive-communication.md).
 
@@ -188,11 +188,11 @@ In the Print channel, you can configure the attachments and library access to al
 
 1. In the Print channel, highlight the Document Container and tap **Properties**.
 
-   ![](assets/documentcontainerproperties.png)
+   ![documentcontainerproperties](assets/documentcontainerproperties.png)
 
    The Properties panel appears in the Sidebar. 
 
-   ![](assets/propertiesattachments.png)
+   ![propertiesattachments](assets/propertiesattachments.png)
 
 1. Expand **Attachments** and specify the following properties:
 
@@ -204,17 +204,17 @@ In the Print channel, you can configure the attachments and library access to al
         * **[!UICONTROL Attach This File To Document By Default]**: You can change this option if only the attachment is not Mandatory.
         * **[!UICONTROL Mandatory:]** Agent will not be able to remove the attachment in the Agent UI.
 
-   ![](assets/attachfiles.png)
+   ![attachfiles](assets/attachfiles.png)
 
 1. Tap **[!UICONTROL Done]**.
 
 ### XDP/Layout field properties {#xdplayoutfieldproperties}
 
-1. While editing the Print channel of an Interactive Communication, hover over a field, which is built in the Print channel template, and select ![](assets/configure_icon.png) (Configure).
+1. While editing the Print channel of an Interactive Communication, hover over a field, which is built in the Print channel template, and select ![configure_icon](assets/configure_icon.png) (Configure).
 
    The Properties dialog appears in the sidebar. 
 
-   ![](assets/xdpfieldproperties.png)
+   ![xdpfieldproperties](assets/xdpfieldproperties.png)
 
 1. Specify the following:
 
@@ -233,11 +233,11 @@ In the Print channel, you can configure the attachments and library access to al
     * **[!UICONTROL Required]**: Select to make the field mandatory for the Agent. This setting is not applicable if Binding Type is Text Fragment. 
     * **[!UICONTROL Allow multiple lines]**: Select this field to allow multiple lines of text as entry in the field. This setting is not applicable if Binding Type is Text Fragment.
 
-1. Tap ![](assets/done_icon.png).
+1. Tap ![done_icon](assets/done_icon.png).
 
 ## Apply rules to Interactive Communication components {#rules}
 
-To conditionalize components or content in the interactive communcation, tap the component/piece of content and select ![](assets/createruleicon.png) (Create Rule) to launch Rule Editor.
+To conditionalize components or content in the interactive communcation, tap the component/piece of content and select ![createruleicon](assets/createruleicon.png) (Create Rule) to launch Rule Editor.
 
 For more information, see:
 
@@ -253,19 +253,19 @@ You can add dynamic tables in Interactive Communication using layout fragments. 
 1. Ensure that the required layout fragment for creating the table is available in AEM.
 1. In the print channel of your Interactive Communication, drag and drop a layout fragment (with a multi-column table) in a Target Area from the Asset browser. 
 
-   ![](assets/lf_dragdrop.png)
+   ![lf_dragdrop](assets/lf_dragdrop.png)
 
    A table appears in the Interactive Communication layout area.
 
-   ![](assets/lf_dragdrop_table.png)
+   ![lf_dragdrop_table](assets/lf_dragdrop_table.png)
 
 1. Specify data binding for each of the cells of the table. To create a repeatable row, insert form data model properties in the row belonging to a common collection property.
 
-    1. Tap a cell in the table and select ![](assets/configure_icon.png) (Configure).
+    1. Tap a cell in the table and select ![configure_icon](assets/configure_icon.png) (Configure).
 
        The Properties dialog appears in the sidebar. 
     
-       ![](assets/lf_cell_properties.png)
+       ![lf_cell_properties](assets/lf_cell_properties.png)
 
     1. Configure the properties:
 
@@ -280,11 +280,11 @@ You can add dynamic tables in Interactive Communication using layout fragments. 
         * **[!UICONTROL Default Value]**: Default value ensures that the field is not empty when there is no value provided by the specified data model object. The default value is pre-populated in the field. **[!UICONTROL]**
         * **[!UICONTROL Editable By Agent]**: Select to allow the agent to edit the value in the field in the Agent UI.
 
-    1. Tap ![](assets/done_icon.png).
+    1. Tap ![done_icon](assets/done_icon.png).
 
 1. Preview the Interactive Communication to see the table rendered with the data.
 
-   ![](assets/lf_preview.png)
+   ![lf_preview](assets/lf_preview.png)
 
 ### Web-channel only tables {#web-channel-only-tables}
 
@@ -302,7 +302,7 @@ You can create a web-channel only dynamic table in an Interactive Communication 
 When you select Print as Master for Web Channel while creating an Interactive Communication, the Web channel is created in sync with the Print channel and the content and data binding of the Web channel is derived from the print channel and the changes made in the print channel are reflected in the web channel when you tap Synchronize.
 
 The authors are, however, allowed to break the inheritance for components in the web channel, as required. 
-    [ ![](assets/printweb_2-3.png)
+    [ ![printweb_2-3](assets/printweb_2-3.png)
 
 (Click to enlarge) 
 
@@ -322,17 +322,17 @@ If you are using Print channel as the master for the Web channel and you switch 
 
 In the web channel, the components are embedded in the target areas.
 
-Hover over the relevant target area in the web channel and select ![](assets/cancelinheritance.png) (Cancel Inheritance) and then in the Cancel Inheritance dialog, tap **[!UICONTROL Yes]**.
+Hover over the relevant target area in the web channel and select ![cancelinheritance](assets/cancelinheritance.png) (Cancel Inheritance) and then in the Cancel Inheritance dialog, tap **[!UICONTROL Yes]**.
 
 The inheritance of the components within the target area gets canceled and now you can edit them as required.
 
 ### Re-enable Inheritance {#re-enable-inheritance}
 
-In the Web channel, if you have cancelled inheritance of a component, you can re-enable it. To re-enable inheritance, hover over the boundary of the relevant target area, which includes the component, and tap ![](assets/reenableinheritance.png).
+In the Web channel, if you have cancelled inheritance of a component, you can re-enable it. To re-enable inheritance, hover over the boundary of the relevant target area, which includes the component, and tap ![reenableinheritance](assets/reenableinheritance.png).
 
 The Revert Inheritance dialog appears.
 
-![](assets/revertinheritance.png)
+![revertinheritance](assets/revertinheritance.png)
 
 If required, select **[!UICONTROL Synchronize The Page After Reverting Inheritance]**. Select this option to synchronize the entire interactive communication. If you do not select this option only the relevant target area gets synchronized on reinstating the inheritance.
 
@@ -346,7 +346,7 @@ If you are using Print as Master for Web Channel and make changes to the print c
 
    Synchronize Content From Master Channel dialog appears. 
 
-   ![](assets/synchronizecontentfrommasterchannel.png)
+   ![synchronizecontentfrommasterchannel](assets/synchronizecontentfrommasterchannel.png)
 
 1. Tap one of the following:
 

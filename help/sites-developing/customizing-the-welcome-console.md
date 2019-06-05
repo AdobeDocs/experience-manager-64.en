@@ -21,7 +21,7 @@ discoiquuid: 2e408acb-3802-4837-8619-688cfc3abfa7
 
 The Welcome console provides a list of links to the various consoles and functionality within AEM.
 
-![](assets/cq_welcomescreen.png)
+![cq_welcomescreen](assets/cq_welcomescreen.png)
 
 It is possible to configure the links that are visible. This can be defined for specific users and/or groups. The actions to be taken are dependent on the target type (which correlates to the section of the console they are in):
 
@@ -32,7 +32,7 @@ It is possible to configure the links that are visible. This can be defined for 
 
 This lists the main consoles of AEM.
 
-![](assets/cq_welcomescreenmainconsole.png) 
+![cq_welcomescreenmainconsole](assets/cq_welcomescreenmainconsole.png) 
 
 ### Configuring whether Main Console Links are Visible {#configuring-whether-main-console-links-are-visible}
 
@@ -72,7 +72,7 @@ See the [Security section](/help/sites-administering/security.md) for more infor
 
 ### Links in Sidebar (Right Pane) {#links-in-sidebar-right-pane}
 
-![](assets/cq_welcomescreensidebar.png)
+![cq_welcomescreensidebar](assets/cq_welcomescreensidebar.png)
 
 These links are based on the existence of *and* read access to nodes under the following path:
 

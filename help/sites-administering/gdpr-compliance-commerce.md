@@ -16,13 +16,13 @@ The European Union's General Data Protection Regulation on data privacy rights t
 >
 >See [AEM GDPR Readiness](/help/managing/gdpr-compliance.md) for further details.
 
-![](assets/screen_shot_2018-03-22at111606.jpg)
+![screen_shot_2018-03-22at111606](assets/screen_shot_2018-03-22at111606.jpg)
 
 In our out-of-the-box Commerce integrations, AEM is the experience layer, consuming services and sending data back to the customer commerce platform that runs in a headless mode.
 
 For some commerce platforms, we store profile information ( `/home/users`) and commerce tokens (to login in the commerce platform) in AEM. For these use cases, please read [Handling GDPR Requests for the AEM Platform](/help/sites-administering/handling-gdpr-requests-for-aem-platform.md).
 
-![](assets/screen_shot_2018-03-22at111621.jpg)
+![screen_shot_2018-03-22at111621](assets/screen_shot_2018-03-22at111621.jpg)
 
 ## Handling GDPR Requests for AEM Commerce {#handling-gdpr-requests-for-aem-commerce}
 

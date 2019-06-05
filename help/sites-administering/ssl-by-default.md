@@ -21,17 +21,17 @@ You can start configuring SSL By Default by clicking the relevant Inbox message 
 
 In the list, select and open the **Configure HTTPS** alert:
 
-![](assets/chlimage_1-341.png)
+![chlimage_1-341](assets/chlimage_1-341.png)
 
 A service user called **ssl-service **has been created for this feature. Once you open the alert, you will be guided through the follwing configuration wizard:
 
 1. First, set up the Store Credentials. These are the credentials for the **ssl-service** system user's key store that will contain the private key and trust store for the HTTPS listener.
 
-   ![](assets/chlimage_1-342.png)
+   ![chlimage_1-342](assets/chlimage_1-342.png)
 
 1. Once you enter the credentials, click **Next** in the upper right corner of the page. Then, upload the associated private key and certificate for the SSL connection.
 
-   ![](assets/chlimage_1-343.png)
+   ![chlimage_1-343](assets/chlimage_1-343.png)
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ A service user called **ssl-service **has been created for this feature. Once yo
 
 1. Lastly, specify the HTTPS hostname and the TCP port for the HTTPS listener.
 
-   ![](assets/screen_shot_2018-07-25at31658pm.png)
+   ![screen_shot_2018-07-25at31658pm](assets/screen_shot_2018-07-25at31658pm.png)
 
 ## Automating SSL By Default {#automating-ssl-by-default}
 

@@ -45,11 +45,11 @@ When you are assigned a work item (for example, **Approve Content**) various ale
 
 * The **Status** column of the Websites console indicates when a page is in a workflow:
 
-  ![](assets/workflowstatus-1.png)
+  ![workflowstatus-1](assets/workflowstatus-1.png)
 
 * When you, or a group that you belong to, are assigned a work item as part of a workflow, the work item appears in your AEM Workflow Inbox.
 
-  ![](assets/workflowinbox.png)
+  ![workflowinbox](assets/workflowinbox.png)
 
 ### Completing a Participant Step {#completing-a-participant-step}
 
@@ -58,7 +58,7 @@ After you have taken the action indicated you can complete the work item, thus a
 1. Select the workflow step and click the **Complete** button in the top navigation bar.
 1. In the resulting dialog, select the **Next Step**; that is, the step to execute next. A drop down list shows all appropriate destinations. A **Comment** can also be entered.
 
-   ![](assets/workflowcomplete.png)
+   ![workflowcomplete](assets/workflowcomplete.png)
 
    The number of steps listed depends on the design of the workflow model.
 
@@ -71,7 +71,7 @@ Use the following procedure to delegate a work item.
 1. Click the **Delegate** button in the top navigation bar.
 1. In the dialog, use the drop-down list to select the **User** to delegate the work item to. You can also add a **Comment**.
 
-   ![](assets/workflowdelegate.png)
+   ![workflowdelegate](assets/workflowdelegate.png)
 
 1. Click **OK** to confirm the action.
 
@@ -82,7 +82,7 @@ Use the following procedure to step back.
 1. Click the Step Back button in the top navigation bar.
 1. In the resulting dialog, select the Previous Step; that is, the step to execute next - even though it is a step that occurs earlier in the workflow. A drop down list shows all appropriate destinations.
 
-   ![](assets/screen_shot_2018-08-10at155325.jpg)
+   ![screen_shot_2018-08-10at155325](assets/screen_shot_2018-08-10at155325.jpg)
 
 1. Click OK to confirm the action.
 

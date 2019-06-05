@@ -4,7 +4,7 @@ seo-title: Configuring Dynamic Media - Scene7 mode
 description: Information on how to configure Dynamic Media - Scene7 mode.
 seo-description: Information on how to configure Dynamic Media - Scene7 mode.
 uuid: 81cc208b-e95d-4a01-9817-2b6d50cfe8b8
-contentOwner: User
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
@@ -25,7 +25,7 @@ With the new architecture, AEM is responsible for master assets and synchs with 
 1. After the renditions are generated, AEM can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the AEM instance). 
 1. After content is ready to be published and approved, it triggers the Dynamic Media service to push content out to delivery servers and cache content at the CDN.
 
-![](assets/chlimage_1.png) 
+![chlimage_1](assets/chlimage_1.png) 
 
 ## Enabling Dynamic Media in Scene7 mode {#enabling-dynamic-media-in-scene-mode}
 
@@ -76,10 +76,10 @@ See [Installing feature pack 18912 for bulk asset migration](bulk-ingest-migrate
 To configure dynamic media cloud services:
 
 1. In AEM, tap the AEM logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services &gt; Dynamic Media Configuration]**.
-1. On the Dynamic Media Configuration Browser page, in the left pane, tap **[!UICONTROL global]** (do not tap or select the folder icon to the left of [!UICONTROL global]), then tap **[!UICONTROLCreate]**.
+1. On the Dynamic Media Configuration Browser page, in the left pane, tap **[!UICONTROL global]** (do not tap or select the folder icon to the left of [!UICONTROL global]), then tap **[!UICONTROL Create]**.
 1. On the Create Dynamic Media Configuration page, enter a title, the Dynamic Media account email address, password, then select your region. These are provided to you by Adobe in the provisioning email. Please contact support if you did not receive this.
 
-   Tap **[!UICONTROLConnect to Dynamic Media]**.
+   Tap **[!UICONTROL Connect to Dynamic Media]**.
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ To configure dynamic media cloud services:
 
     * **[!UICONTROL Company]** - the name of the Dynamic Media account. It is possible you may have multiple Dynamic Media accounts for different sub-brands, divisions, or different staging/production environments.
     * **[!UICONTROL Company Root Folder Path]**
-    * **[!UICONTROL Publishing Assets]** - the option **Immediately** means that when assets are uploaded, the system ingests the assets and provides the URL/Embed instantly. There is no user intervention necessary to publish assets. The option **Upon Activation** means that you need to explicitly publish the asset first before a URL/Embed link is provided.
+    * **[!UICONTROL Publishing Assets]** - the option **[!UICONTROL Immediately]** means that when assets are uploaded, the system ingests the assets and provides the URL/Embed instantly. There is no user intervention necessary to publish assets. The option **[!UICONTROL Upon Activation]** means that you need to explicitly publish the asset first before a URL/Embed link is provided.
     * **[!UICONTROL Secure Preview Server]** - lets you specify the URL path to your secure renditions preview server. That is, after renditions are generated, AEM can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the AEM instance).  
 
       Unless you have a special arrangment to use your own company's server or a special server, Adobe Systems recommends that you leave this setting as specified.
@@ -100,7 +100,7 @@ To configure dynamic media cloud services:
    >
    >After an asset is activated, any updates are immediately published live to S7 Delivery.
 
-   ![](assets/dynamicmediaconfiguration2updated.png)
+   ![dynamicmediaconfiguration2updated](assets/dynamicmediaconfiguration2updated.png)
 
 1. Tap **[!UICONTROL Save]**.
 1. To securely preview Dynamic Media content before it gets published, you will need to "whitelist" the AEM author instance to connect to Dynamic Media:
@@ -228,12 +228,12 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
    `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`
 
-   ![](assets/mimetypes.png)
+   ![mimetypes](assets/mimetypes.png)
 
 1. Under the mimeTypes folder, select a mime type.
 1. On the right side of the CRXDE Lite page, in the lower portion:
 
-    * double-click the **[!UICONTROL enabled]** field. By default all asset mime types are enabled (set to **true**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **false**.
+    * double-click the **[!UICONTROL enabled]** field. By default all asset mime types are enabled (set to **[!UICONTROL true]**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **[!UICONTROL false]**.
     * double-click **[!UICONTROL jobParam]** to open its associated text field. See [Supported Mime Types](assets-formats.md#supported-mime-types) for a list of permitted processing parameter values you can use for a given mime type.
 
 1. Do one of the following:
@@ -257,9 +257,9 @@ Create a default naming convention that is used in any batch set preset recipe. 
 
 While setting up a default naming convention is not required to use batch set preset functionality, best practice recommends that you use the default naming convention to define as many elements of your naming convention that you want grouped in a set so you can streamline batch set creation.
 
-As an alternative, note that you can use [!UICONTROL View Code] with no form fields available. In this view you create your naming convention definitions entirely using regular expressions.
+As an alternative, note that you can use **[!UICONTROL View Code]** with no form fields available. In this view you create your naming convention definitions entirely using regular expressions.
 
-Two elements are available for definition, Match and Base Name. These fields let you define all elements of a naming convention and identify the part of the convention used to name the set in which they are contained. A company’s individual naming convention may make use of one or more lines of definition for each of these elements. You can use as many lines for your unique definition and group them into distinct elements, such as for Main Image, Color element, Alternate View element, and Swatch element.
+Two elements are available for definition, **[!UICONTROL Match]** and **[!UICONTROL Base Name]**. These fields let you define all elements of a naming convention and identify the part of the convention used to name the set in which they are contained. A company’s individual naming convention may make use of one or more lines of definition for each of these elements. You can use as many lines for your unique definition and group them into distinct elements, such as for Main Image, Color element, Alternate View element, and Swatch element.
 
 **To configure default naming:**
 
@@ -305,30 +305,30 @@ You can use either the form field method to define a batch set preset or the cod
 
    Note that [!UICONTROL View Form], as set in the upper-right corner of the [!UICONTROL Details] page, is the default view.
 
-1. In the Preset List panel, tap **[!UICONTROL Add]** to activate the definition fields in the [!UICONTROL Details] panel on the right hand side of the screen.
-1. In the [!UICONTROL Details] panel, in the [!UICONTROL Preset Name] field, type a name for the preset.
-1. In the [!UICONTROL Batch Set Type] drop-down menu, select a preset type.
+1. In the Preset List panel, tap **[!UICONTROL Add]** to activate the definition fields in the **[!UICONTROL Details]** panel on the right hand side of the screen.
+1. In the **[!UICONTROL Details]** panel, in the **[!UICONTROL Preset Name]** field, type a name for the preset.
+1. In the **[!UICONTROL Batch Set Type]** drop-down menu, select a preset type.
 1. Do one of the following:
 
-    * If you are using a default naming convention that you previously set up under **[!UICONTROL Application Setup &gt; Batch Set Presets &gt; Default Naming]**, expand [!UICONTROL Asset Naming Conventions], and then in the [!UICONTROL File Naming] drop-down list, tap **[!UICONTROL Default]**.
-    * To define a new naming convention as you set up the preset, [!UICONTROL Asset Naming Conventions], and then in the [!UICONTROL File Naming] drop-down list, tap **[!UICONTROL Custom]**.
+    * If you are using a default naming convention that you previously set up under **[!UICONTROL Application Setup &gt; Batch Set Presets &gt; Default Naming]**, expand **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Default]**.
+    * To define a new naming convention as you set up the preset, **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Custom]**.
 
 1. For Sequence order, define the order in which images are displayed after the set is grouped together in Dynamic Media.
 
    By default, your assets are ordered alphanumerically. However, you can use a comma-separated list of regular expressions to define the order.
 
-1. For Set Naming and Creation Convention, specify the suffix or prefix to the base name you defined in the [!UICONTROL Asset Naming Convention]. Also, define where the set will be created within the Dynamic Media folder structure.
+1. For **[!UICONTROL Set Naming]** and **[!UICONTROL Creation Convention]**, specify the suffix or prefix to the base name you defined in the **[!UICONTROL Asset Naming Convention]**. Also, define where the set will be created within the Dynamic Media folder structure.
 
    If you define large numbers of sets, you may prefer to keep these separate from the folders that contain the assets themselves. For example, you can create an Image Sets folder and place generated sets here.
 
-1. In the Details panel, tap **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Details]** panel, tap **[!UICONTROL Save]**.
 1. Tap **[!UICONTROL Active]** next to the new preset name.
 
    Activating the preset ensures that when you upload assets to Dynamic Media, the batch set preset is applied to generate the set.
 
 **Creating a Batch Set Preset for the auto-generation of a 2D Spin Set**
 
-You can use the Batch Set Type *Multi-Axis Spin Set* to create a recipe that automates the generation of 2D Spin Sets. The grouping of images uses Row and Column regular expressions so that the image assets are properly aligned in the corresponding location in the multi-dimensional array. There is no minimum or maximum number of rows or columns that you must have in a multi-axis spin set.
+You can use the Batch Set Type **[!UICONTROL Multi-Axis Spin Set]** to create a recipe that automates the generation of 2D Spin Sets. The grouping of images uses Row and Column regular expressions so that the image assets are properly aligned in the corresponding location in the multi-dimensional array. There is no minimum or maximum number of rows or columns that you must have in a multi-axis spin set.
 
 As an example, suppose you want to create a multi-axis spin set named `spin-2dspin`. You have a set of spin set images that contain three rows, with 12 images per row. The images are named as follows:
 
@@ -344,11 +344,11 @@ spin-01-01
 
 With this information, your Batch Set Type recipe might be created as follows:
 
-![](assets/chlimage_1-1.png)
+![chlimage_1-1](assets/chlimage_1-1.png)
 
-Grouping for the shared asset name part of the spinset is added to the [!UICONTROL Match] field (as highlighted). The variable part of the asset name containing the row and column is added to the [!UICONTROL Row] and [!UICONTROL Column] fields, respectively.
+Grouping for the shared asset name part of the spinset is added to the **[!UICONTROL Match]** field (as highlighted). The variable part of the asset name containing the row and column is added to the **[!UICONTROL Row]** and **[!UICONTROL Column]** fields, respectively.
 
-When the Spin Set is uploaded and published, you activate the name of the 2D Spin Set recipe that is listed under [!UICONTROL Batch Set Presets] in the [!UICONTROL Upload Job Options] dialog box.
+When the Spin Set is uploaded and published, you activate the name of the 2D Spin Set recipe that is listed under **[!UICONTROL Batch Set Presets]** in the **[!UICONTROL Upload Job Options]** dialog box.
 
 **To create a Batch Set Preset for the auto-generation of a 2D Spin Set:**
 
@@ -360,18 +360,18 @@ When the Spin Set is uploaded and published, you activate the name of the 2D Spi
 
    Note that [!UICONTROL View Form], as set in the upper-right corner of the [!UICONTROL Details] page, is the default view.
 
-1. In the [!UICONTROL Preset List] panel, tap **[!UICONTROL Add]** to activate the definition fields in the [!UICONTROL Details] panel on the right hand side of the screen.
-1. In the [!UICONTROL Details] panel, in the [!UICONTROL Preset Name[!UICONTROL field, type a name for the preset.
-1. In the [!UICONTROL Batch Set Type] drop-down menu, select **[!UICONTROL Asset Set]**.
-1. In the [!UICONTROL Sub Type] drop-down list, select **[!UICONTROL Multi-Axis Spin Set]**.
-1. Expand [!UICONTROL Asset Naming Conventions], and then in the [!UICONTROL File Naming] drop-down list, tap **[!UICONTROL Custom]**.
-1. Use the [!UICONTROL Match] and, optionally, [!UICONTROL Base Name] attributes to define a regular expression for the naming of image assets that make up the grouping.
+1. In the **[!UICONTROL Preset List]** panel, tap **[!UICONTROL Add]** to activate the definition fields in the **[!UICONTROL Details]** panel on the right hand side of the screen.
+1. In the **[!UICONTROL Details]** panel, in the [!UICONTROL Preset Name[!UICONTROL field, type a name for the preset.
+1. In the **[!UICONTROL Batch Set Type]** drop-down menu, select **[!UICONTROL Asset Set]**.
+1. In the **[!UICONTROL Sub Type]** drop-down list, select **[!UICONTROL Multi-Axis Spin Set]**.
+1. Expand **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Custom]**.
+1. Use the **[!UICONTROL Match]** and, optionally, **[!UICONTROL Base Name]** attributes to define a regular expression for the naming of image assets that make up the grouping.
 
    For example, your literal Match regular expression might look like the following:
 
    `(w+)-w+-w+`
 
-1. Expand [!UICONTROL Row Column Position], and then define the name format for the position of the image asset within the 2D Spin Set array.
+1. Expand **[!UICONTROL Row Column Position]**, and then define the name format for the position of the image asset within the 2D Spin Set array.
 
    Use the parenthesis to embrace the row or column position in the file name.
 
@@ -397,13 +397,13 @@ When the Spin Set is uploaded and published, you activate the name of the 2D Spi
    >
    >If the combination of row and column regular expressions is unable to determine the position of the asset within the multi-dimensional spinset array, then that asset is not added to the set and an error is logged.
 
-1. For Set Naming and Creation Convention, specify the suffix or prefix to the base name you defined in the [!UICONTROL Asset Naming Convention].
+1. For **[!UICONTROL Set Naming]** and **[!UICONTROL Creation Convention]**, specify the suffix or prefix to the base name you defined in the **[!UICONTROL Asset Naming Convention]**.
 
    Also, define where the spin set will be created within the Dynamic Media Classic folder structure.
 
    If you define large numbers of sets, you may prefer to keep these separate from the folders that contain the assets themselves. For example, create a Spin Sets folder to place generated sets here.
 
-1. In the [!UICONTROL Details] panel, tap **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Details]** panel, tap **[!UICONTROL Save]**.
 1. Tap **[!UICONTROL Active]** next to the new preset name.
 
    Activating the preset ensures that when you upload assets to Dynamic Media, the batch set preset is applied to generate the set.
@@ -418,45 +418,45 @@ To keep Dynamic Media (with dynamicmedia_scene7 runmode) running smoothly, Adobe
 
 #### Updating the Granite Transient Workflow queue {#updating-the-granite-transient-workflow-queue}
 
-The Granite Transit Workflow queue is used for the [!UICONTROL DAM Update Asset] workflow. In Dynamic Media, it is used for image ingestion and processing.
+The Granite Transit Workflow queue is used for the **[!UICONTROL DAM Update Asset]** workflow. In Dynamic Media, it is used for image ingestion and processing.
 
-To update the Granite Transient Workflow queue:
+**To update the Granite Transient Workflow queue**:
 
-1. Navigate to [https://&lt;server&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for [!UICONTROL Queue: Granite Transient Workflow Queue].
+1. Navigate to [https://&lt;server&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for **[!UICONTROL Queue: Granite Transient Workflow Queue]**.
 
    >[!NOTE]
    >
    >A text search is necessary instead of a direct URL because the OSGi PID is dynamically generated.
 
-1. In the [!UICONTROL Maximum Parallel Jobs] field, change the number to the desired value.
+1. In the **[!UICONTROL Maximum Parallel Jobs]** field, change the number to the desired value.
 
    By default, the maximum number of parallel jobs depends on the number of available CPU cores. For example, on a 4-core server, it assigns 2 worker threads. (A value between 0.0 and 1.0 is ratio based, or any numbers greater than 1 will assign the number of worker threads.)
 
-   Adobe recommends that 32 [!UICONTROL Maximum Parallel Jobs] be configured to adequately support heavy upload of files to Dynamic Media Classic.
+   Adobe recommends that 32 **[!UICONTROL Maximum Parallel Jobs]** be configured to adequately support heavy upload of files to Dynamic Media Classic.
 
-   ![](assets/chlimage_1.jpeg)
+   ![chlimage_1](assets/chlimage_1.jpeg)
 
 1. Tap **[!UICONTROL Save]**.
 
 #### Updating the Granite Workflow queue {#updating-the-granite-workflow-queue}
 
-The Granite Workflow queue is used for non-transient workflows. In Dynamic Media, it used to to process video with the [!UICONTROL Dynamic Media Encode Video] workflow.
+The Granite Workflow queue is used for non-transient workflows. In Dynamic Media, it used to to process video with the **[!UICONTROL Dynamic Media Encode Video]** workflow.
 
 **To update the Granite Workflow queue:**
 
-1. Navigate to `https://<server>/system/console/configMgr` and search for [!UICONTROL Queue: Granite Workflow Queue].
+1. Navigate to `https://<server>/system/console/configMgr` and search for **[!UICONTROL Queue: Granite Workflow Queue]**.
 
    >[!NOTE]
    >
    >A text search is necessary instead of a direct URL because the OSGi PID is dynamically generated.
 
-1. In the [!UICONTROL Maximum Parallel Jobs] field, change the number to the desired value.
+1. In the **[!UICONTROL Maximum Parallel Jobs]** field, change the number to the desired value.
 
    By default, the maximum number of parallel jobs depends on the number of available CPU cores. For example, on a 4-core server, it assigns 2 worker threads. (A value between 0.0 and 1.0 is ratio based, or any numbers greater than 1 will assign the number of worker threads.)
 
    For most use cases, the 0.5 default setting is sufficient.
 
-   ![](assets/chlimage_1-1.jpeg)
+   ![chlimage_1-1](assets/chlimage_1-1.jpeg)
 
 1. Tap **[!UICONTROL Save]**.
 
@@ -475,7 +475,7 @@ The Scene7 Upload Connection setting synchronizes AEM assets to Dynamic Media Cl
 
    For most use cases, the setting of 2100 is sufficient.
 
-   ![](assets/chlimage_1-2.jpeg)
+   ![chlimage_1-2](assets/chlimage_1-2.jpeg)
 
 1. Tap **[!UICONTROL Save]**.
 
@@ -526,10 +526,10 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
 #### Customizing asset filters for replication {#customizing-asset-filters-for-replication}
 
-1. In AEM, tap the AEM logo to access the global navigation console and tap the Tools icon and navigate to **[!UICONTROL General &gt; CRXDE Lite]**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL General &gt; CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
-   ![](assets/chlimage_1-2.png)
+   ![chlimage_1-2](assets/chlimage_1-2.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
@@ -537,7 +537,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
    The following graphic is an example of an asset's path to dc:format.
 
-   ![](assets/chlimage_1-3.png)
+   ![chlimage_1-3](assets/chlimage_1-3.png)
 
    Notice that the `dc:format` for the asset `Fiji Red.jpg` is `image/jpeg`.
 
@@ -574,7 +574,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
    The following graphic is an example of an asset's renditions.
 
-   ![](assets/chlimage_1-4.png)
+   ![chlimage_1-4](assets/chlimage_1-4.png)
 
    If you only wanted to replicate the original, then you would enter `+original`.
 

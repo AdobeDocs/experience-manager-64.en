@@ -248,7 +248,7 @@ You can edit an existing video encoding profile to take advantage of advanced vi
     </tbody> 
    </table>
 
-   ![](assets/chlimage_1-516.png)
+   ![chlimage_1-516](assets/chlimage_1-516.png)
 
 1. Near the lower-right corner of the page, click or tap **Add**.
 1. Do one of the following:
@@ -314,7 +314,7 @@ If you assigned a different video profile to a folder, the new profile overrides
 
 Folders that have a profile assigned to it are indicated in the user interface by the name of the profile appearing in the card name.
 
-![](assets/chlimage_1-517.png)
+![chlimage_1-517](assets/chlimage_1-517.png)
 
 You can apply video profiles to specific folders or globally to all assets.
 
@@ -336,7 +336,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.
 1. Select the **Video Profiles** tab and select the profile from the drop-down menu and click **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-   ![](assets/chlimage_1-518.png)
+   ![chlimage_1-518](assets/chlimage_1-518.png)
 
 ### Applying a video profile globally {#applying-a-video-profile-globally}
 
@@ -346,7 +346,7 @@ To apply a video profile globally,
 
 * Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** videoProfile:/etc/dam/video/dynamicmedia/&lt;name of video encoding profile&gt; **and tap or click **Save All**. 
 
-  ![](assets/chlimage_1-519.png)
+  ![chlimage_1-519](assets/chlimage_1-519.png)
 
 ## Removing a Video Profile from Folders {#removing-a-video-profile-from-folders}
 

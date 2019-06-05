@@ -111,6 +111,7 @@ The necessary steps are:
     * version must be &gt;= 5.1.38
 
 1. extract mysql-connector-java-&lt;version&gt;-bin.jar (bundle) from the archive
+
 1. use the web console to install and start the bundle:
 
     * for example, http://localhost:4502/system/console/bundles
@@ -131,7 +132,7 @@ Further information on installing bundles is found on the [Web Console](/help/si
 
 #### Example: Installed MySQL Connector Bundle {#example-installed-mysql-connector-bundle}
 
-![](assets/chlimage_1-410.png) 
+![chlimage_1-410](assets/chlimage_1-410.png) 
 
 ### SCORM Package {#scorm-package}
 
@@ -150,10 +151,8 @@ For a new installation of SCORM engine, the package containing [SCORM 2017.1](ht
 ### To install a SCORM package for the first time
 
 1.  Install the **[cq-social-scorm-package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg).**
-    
-2.  Download **`/libs/social/config/scorm/database_scormengine_data.sql`** from cq instance and execute it in mysql server to create an upgraded scormEngineDB schema.
-    
-3.  Add `/content/communities/scorm/RecordResults` in Excluded Paths property in CSRF filter from `https://<hostname>;:<port>/system/console/configMgr` on publishers.
+1.  Download **`/libs/social/config/scorm/database_scormengine_data.sql`** from cq instance and execute it in mysql server to create an upgraded scormEngineDB schema.
+1.  Add `/content/communities/scorm/RecordResults` in Excluded Paths property in CSRF filter from `https://<hostname>;:<port>/system/console/configMgr` on publishers.
 
 Existing SCORM installations can be upgraded to [**cq-social-scorm-package, version 2.2.2**](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg) (which uses [SCORM 2017.1](https://rusticisoftware.com/blog/scorm-engine-2017-released/)), if the authored course content requires SCORM 2017.1.
 
@@ -244,7 +243,7 @@ By default, the `AEM Communities Publisher Configuration` OSGi configuration is 
 
 Therefore, it is necessary to **edit the configuration on all secondary publish instances** to uncheck the **`Primary Publisher`** checkbox.
 
-![](assets/chlimage_1-411.png)
+![chlimage_1-411](assets/chlimage_1-411.png)
 
 For all other (secondary) publish instances in a publish farm:
 
@@ -287,11 +286,11 @@ The following images show the results of changing the port from 4503 to 6103 by:
 
 #### Default Agent (publish) {#default-agent-publish}
 
-![](assets/chlimage_1-412.png) 
+![chlimage_1-412](assets/chlimage_1-412.png) 
 
 #### Reverse Replication Agent (publish reverse) {#reverse-replication-agent-publish-reverse}
 
-![](assets/chlimage_1-413.png) 
+![chlimage_1-413](assets/chlimage_1-413.png) 
 
 ### Tunnel Service on Author {#tunnel-service-on-author}
 
@@ -316,7 +315,7 @@ To enable the tunnel service:
 * check the **enable **box
 * select **Save**
 
-![](assets/chlimage_1-414.png) 
+![chlimage_1-414](assets/chlimage_1-414.png) 
 
 ### Replicate the Crypto Key {#replicate-the-crypto-key}
 
@@ -379,7 +378,7 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 
 * [refresh the Granite Crypto bundle](#refresh-the-granite-crypto-bundle)
 
-![](assets/chlimage_1-415.png) 
+![chlimage_1-415](assets/chlimage_1-415.png) 
 
 #### Refresh the Granite Crypto Bundle {#refresh-the-granite-crypto-bundle}
 
@@ -390,7 +389,7 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 * locate `Adobe Granite Crypto Support` bundle (com.adobe.granite.crypto)
 * select **Refresh**
 
-![](assets/chlimage_1-416.png)
+![chlimage_1-416](assets/chlimage_1-416.png)
 
 * after a moment, a **Success** dialog should appear:  
 

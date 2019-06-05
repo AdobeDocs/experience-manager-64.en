@@ -32,7 +32,7 @@ When you are assigned a work item (for example, **Approve Content**) various ale
 
 * The item will be listed in your notification [Inbox](/help/sites-authoring/inbox.md):
 
-  ![](assets/wf-58.png)
+  ![wf-58](assets/wf-58.png)
 
 * When you are using the page editor the status bar will show:
 
@@ -43,7 +43,7 @@ When you are assigned a work item (for example, **Approve Content**) various ale
         * use the left/right arrows to navigate through the status information of the various workflows.
         * click/tap on the actual number to open a drop down list of all applicable workflows, then select the workflow you want displayed in the status bar.
 
-  ![](assets/wf-59.png)
+  ![wf-59](assets/wf-59.png)
 
   >[!NOTE]
   >
@@ -54,7 +54,7 @@ When you are assigned a work item (for example, **Approve Content**) various ale
 
 * When **Timeline** is open for the resource, the workflow step will be shown. When you click/tap on the alert banner, the available actions will also be shown:
 
-  ![](assets/wf-64.png)
+  ![wf-64](assets/wf-64.png)
 
 ### Completing a Participant Step {#completing-a-participant-step}
 
@@ -97,15 +97,15 @@ You can also use timeline to complete and advance a step:
 
 1. Select the required page and open **Timeline** (or open **Timeline** and select the page):
 
-   ![](assets/wf-65.png)
+   ![wf-65](assets/wf-65.png)
 
 1. Click/tap on the alert banner to show available actions. Select **Advance**:
 
-   ![](assets/wf-66.png)
+   ![wf-66](assets/wf-66.png)
 
 1. Depending on the workflow, you can select the next step:
 
-   ![](assets/wf-67.png)
+   ![wf-67](assets/wf-67.png)
 
 1. Select **Advance** to confirm the action.
 
@@ -157,11 +157,11 @@ You can also use timeline to delegate and/or assign a step:
 1. Select the required page and open **Timeline** (or open **Timeline** and select the page).
 1. Click/tap on the alert banner to show available actions. Select **Change Assignee**:
 
-   ![](assets/wf-69.png)
+   ![wf-69](assets/wf-69.png)
 
 1. Specify a new assignee:
 
-   ![](assets/wf-68.png)
+   ![wf-68](assets/wf-68.png)
 
 1. Select **Assign** to confirm the action.
 
@@ -208,11 +208,11 @@ You can also use timeline to roll (step) back to a previous step:
 1. Select the required page and open **Timeline** (or open **Timeline** and select the page).
 1. Click/tap on the alert banner to show available actions. Select **Roll back**:
 
-   ![](assets/wf-69-1.png)
+   ![wf-69-1](assets/wf-69-1.png)
 
 1. Specify the step the workflow should return to:
 
-   ![](assets/wf-70.png)
+   ![wf-70](assets/wf-70.png)
 
 1. Select **Roll back** to confirm the action.
 
@@ -224,19 +224,19 @@ The workflow details are shown in tabs and appropriate actions are available in 
 
 * **WORKITEM** tab: 
 
-  ![](assets/wf-72.png)
+  ![wf-72](assets/wf-72.png)
 
 * **WORKFLOW INFO**
 
-  ![](assets/wf-73.png)
+  ![wf-73](assets/wf-73.png)
 
   If [Workflow Stages](/help/sites-developing/workflows.md#workflow-stages) have been configured for the model, you can view the progress according to these:
 
-  ![](assets/wf-107.png)
+  ![wf-107](assets/wf-107.png)
 
 * **COMMENTS**
 
-  ![](assets/wf-75.png)
+  ![wf-75](assets/wf-75.png)
 
 You can open the work item details from either:
 
@@ -276,7 +276,7 @@ To view the payload, and resources, of the workflow instance:
 
    As a workflow package is simply a collection of pointers to paths within the repository, you can add/remove/modify the entries here to adjust what is referenced by the workflow package. Use the **Resource Definition** component to add new entries.
 
-   ![](assets/wf-78.png)
+   ![wf-78](assets/wf-78.png)
 
 1. The links can be used to open the individual pages.
 

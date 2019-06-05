@@ -39,11 +39,11 @@ An example to illustrate such a use case is included in the Geometrixx web site:
 1. Navigate to the **Support** page and then to the **Customer Service Satisfaction** survey.
 1. **Edit** the **Start of Form** paragraph. In the dialog click the **Advanced** tab, expand the **Action Configuration**, then click **View Data...**.
 
-   ![](assets/custsatsurvey.png)
+   ![custsatsurvey](assets/custsatsurvey.png)
 
 1. The Bulk Editor is fully customizable., though in this example the bulk editor does not allow users to edit the content, but only lets them export the information to a spreadsheet.
 
-   ![](assets/bulkeditor.png)
+   ![bulkeditor](assets/bulkeditor.png)
 
 ## How to Use the Bulk Editor {#how-to-use-the-bulk-editor}
 
@@ -93,17 +93,17 @@ To use the bulk editor to edit multiple items simultaneously:
 
    For example:
 
-   ![](assets/searchfilter.png)
+   ![searchfilter](assets/searchfilter.png)
 
 1. Click **Search**. The Bulk Editor displays the results.
 
    For the example above, all the pages that meet your search criteria are returned and displayed with the requested columns.
 
-   ![](assets/chlimage_1-238.png)
+   ![chlimage_1-238](assets/chlimage_1-238.png)
 
 1. Make any changes you need by double-clicking in a cell.
 
-   ![](assets/srchresultedit.png)
+   ![srchresultedit](assets/srchresultedit.png)
 
 1. Click **Save** to save your changes (the **Save** button will be activated once you have edited a cell).
 
@@ -131,12 +131,12 @@ To export content:
    >
    >By default, changes are encoded in [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252) (also known as CP-1252). You can check UTF-8 to export the changes in UTF-8.
 
-   ![](assets/srchrsesultexport.png)
+   ![srchrsesultexport](assets/srchrsesultexport.png)
 
 1. Select the location and confirm that you want to download the file.
 1. After you download the file, you can open it from your spreadsheet program, for example, Microsoft Excel. The spreadsheet program imports the file and converts it to a spreadsheet format.
 
-   ![](assets/exportinexcel.png)
+   ![exportinexcel](assets/exportinexcel.png)
 
 ### Importing Content {#importing-content}
 

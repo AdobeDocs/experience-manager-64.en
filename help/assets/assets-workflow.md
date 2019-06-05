@@ -26,16 +26,16 @@ For details of applying a workflow to an AEM asset, see [Starting a Workflow on 
 1. From the Assets console, navigate to the location of the assets for which you want to start a workflow, and select the assets.
 1. Click the GlobalNav icon, and the choose **Timeline** from the menu to display the timeline.
 
-   ![](assets/chlimage_1-136.png)
+   ![chlimage_1-136](assets/chlimage_1-136.png)
 
 1. Click the **Actions** (arrow) icon at the bottom.
 
-   ![](assets/chlimage_1-137.png)
+   ![chlimage_1-137](assets/chlimage_1-137.png)
 
 1. Click **Start Workflow**.
 1. In the **Start Workflow** dialog, select a workflow model from the list.
 
-   ![](assets/chlimage_1-138.png)
+   ![chlimage_1-138](assets/chlimage_1-138.png)
 
 1. (Optional) Specify a title for the workflow, which can be used to reference the workflow instance.
 1. Click **Start **and then click **Confirm** in the dialog. The workflow runs on all the assets you selected.

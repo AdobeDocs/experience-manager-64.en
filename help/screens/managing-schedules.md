@@ -36,7 +36,7 @@ Follow the steps below to create schedule for your channel:
 
 You will see a schedules folder with designated name and title in your project.
 
-![](assets/chlimage_1.gif)
+![chlimage_1](assets/chlimage_1.gif)
 
 ## Viewing Dashboard {#viewing-dashboard}
 
@@ -46,13 +46,13 @@ Follow the steps below to view the schedules dashboard. The following example sh
 
 1. Navigate to the **Schedules** folder of Screens (example, We.Retail) project.
 
-   ![](assets/chlimage_1.png)
+   ![chlimage_1](assets/chlimage_1.png)
 
 1. Click **Dashboard** from the action bar to open the schedule's dashboard.
 
    You ca view three different panels such as **SCHEDULE INFORMATION**, **ASSIGNED CHANNELS**, and **ASSIGNED DISPLAYS**.
 
-   ![](assets/chlimage_1-1.png)
+   ![chlimage_1-1](assets/chlimage_1-1.png)
 
    **Schedule Information Panel** Click Properties from the top right corner from the SCHEDULE INFORMATION Panel to view/change properties of the schedule.
 

@@ -11,5 +11,5 @@ discoiquuid: 826694f1-fb33-430f-85d1-da8e9e75f213
 
 # Test page{#test-page}
 
- ![](assets/screen_shot_2018-03-21at084300.png) ![](assets/screen_shot_2018-03-21at084428.png) ![](assets/screen_shot_2018-03-21at084727.png) ![](assets/screen_shot_2018-03-21at084508.png) ![](assets/screen_shot_2018-03-21at084830.png)
+ ![screen_shot_2018-03-21at084300](assets/screen_shot_2018-03-21at084300.png) ![screen_shot_2018-03-21at084428](assets/screen_shot_2018-03-21at084428.png) ![screen_shot_2018-03-21at084727](assets/screen_shot_2018-03-21at084727.png) ![screen_shot_2018-03-21at084508](assets/screen_shot_2018-03-21at084508.png) ![screen_shot_2018-03-21at084830](assets/screen_shot_2018-03-21at084830.png)
 

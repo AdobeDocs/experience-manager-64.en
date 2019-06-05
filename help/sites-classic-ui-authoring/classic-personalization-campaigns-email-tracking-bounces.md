@@ -33,7 +33,7 @@ To configure the feed importer for tracking bounced emails:
 
 1. Click **Add** to create a new configuration.
 
-   ![](assets/chlimage_1.png)
+   ![chlimage_1](assets/chlimage_1.png)
 
 1. Add a new configuration by selecting the type and by adding information to the polling URL to configure the host and port. In addition, you need to add some mail and protocol-specific parameters to the URL query. Set the configuration to poll at least once a day.
 
@@ -82,7 +82,7 @@ To configure the newsletter service:
 
 1. Configure the service and save the changes when finished.
 
-   ![](assets/chlimage_1-1.png)
+   ![chlimage_1-1](assets/chlimage_1-1.png)
 
    The following configurations can be set to adjust the behavior:
 

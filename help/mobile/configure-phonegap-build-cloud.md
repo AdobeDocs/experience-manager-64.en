@@ -45,25 +45,25 @@ To configure cloud services for your app, follow the steps below:
 
 1. Click on the top right corner of the **Manage Cloud Services** tile.
 
-   ![](assets/chlimage_1-61.png)
+   ![chlimage_1-61](assets/chlimage_1-61.png)
 
 1. Choose **PhoneGap Build** option from the **Add or Edit Cloud Service** screen.
 
    Click **Next**.
 
-   ![](assets/chlimage_1-62.png)
+   ![chlimage_1-62](assets/chlimage_1-62.png)
 
 1. Enter your credentials to create a new cloud configuration.
 
    Once it is verified, click **Submit**. This configured cloud configuration now displays in the **Manage Cloud Services** tile.
 
-   ![](assets/chlimage_1-63.png)
+   ![chlimage_1-63](assets/chlimage_1-63.png)
 
 ### Building your Application with PhoneGap Build {#building-your-application-with-phonegap-build}
 
 Once you have configured the cloud services, you can build your application with **PhoneGap Build** tile. Click on the top right corner to choose from the **Build Remote** or **Download Source** options.
 
-![](assets/chlimage_1-64.png)
+![chlimage_1-64](assets/chlimage_1-64.png)
 
 To invoke a remote build with Adobe PhoneGap Build, click **Build Remote**.
 

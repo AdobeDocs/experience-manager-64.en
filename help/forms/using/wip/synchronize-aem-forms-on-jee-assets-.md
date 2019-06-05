@@ -48,7 +48,7 @@ If an asset with the identical name already exists in AEM forms UI or the networ
 
 * Post upgrade asset migration is an automated process which migrates assets available in the shadow root of previous version of AEM Forms (/content/dam/formsanddocument) to the current version of AEM Forms. If AEM Forms Management User Interface and location /content/dam/formsanddocuments contains an application with the identical name, then the dialog box displayed below appears. To resolve the issue, delete or rename the conflicting application and run the [on-demand asset synchronization](#manual-or-on-demand-asset-synchronization) to manually synchronize the assets.
 
-![](assets/asset-sync-error-message.png)
+![asset-sync-error-message](assets/asset-sync-error-message.png)
 
 * If a folder with the identical name already exists in AEM Forms management user interface and in Workbench, then delete or rename the conflicting folder in LiveCycle Workbench or AEM Forms management user interface. After deleting or renaming the folder, run the [on-demand asset synchronization](#manual-or-on-demand-asset-synchronization) to manually synchronize the assets.
 

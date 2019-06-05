@@ -48,7 +48,7 @@ You receive these notifications in your own Inbox where you can view them and ta
 
 From any of the consoles the current number of items in your inbox is shown in the header. The indicator can also be opened to provide either quick access to the page(s) requiring action(s) or access to the inbox:
 
-![](assets/wf-80.png)
+![wf-80](assets/wf-80.png)
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ To open the AEM notification inbox:
 
    For both views you can also define [View Settings](#inbox-view-settings); the options available are dependent on the current view.
 
-   ![](assets/wf-79.png)
+   ![wf-79](assets/wf-79.png)
 
 >[!NOTE]
 >
@@ -84,13 +84,13 @@ To open the AEM notification inbox:
 
 This view lists all items, together with key relevant information:
 
-![](assets/wf-82.png) 
+![wf-82](assets/wf-82.png) 
 
 ### Inbox - Calendar View {#inbox-calendar-view}
 
 This view presents items according to their position in the calendar and the precise view you have selected:
 
-![](assets/wf-93.png)
+![wf-93](assets/wf-93.png)
 
 You can:
 
@@ -101,7 +101,7 @@ You can:
 * drill down for more detailed information on an item
 * select a date range to focus the view:
 
-![](assets/wf-91.png) 
+![wf-91](assets/wf-91.png) 
 
 ### Inbox - View Settings {#inbox-view-settings}
 
@@ -115,7 +115,7 @@ For both views (List and Calendar) you can define settings:
     * **Schedule** or **None**
     * **Card size**
 
-  ![](assets/wf-92.png)
+  ![wf-92](assets/wf-92.png)
 
 * **List View**
 
@@ -124,13 +124,13 @@ For both views (List and Calendar) you can define settings:
     * **Sort on**
     * **Sort Order**
 
-  ![](assets/wf-83.png)
+  ![wf-83](assets/wf-83.png)
 
 ## Taking Action on an Item {#taking-action-on-an-item}
 
 1. To take an action on an item, select the thumbnail for the appropriate item. Icons for the actions that are applicable to that item will be shown in the toolbar:
 
-   ![](assets/wf-84.png)
+   ![wf-84](assets/wf-84.png)
 
    The actions are appropriate to the item and include:
 
@@ -160,7 +160,7 @@ For both views (List and Calendar) you can define settings:
 
    For example, **Re-assign** will open a dialog:
 
-   ![](assets/wf-85.png)
+   ![wf-85](assets/wf-85.png)
 
    Depending on whether a dialog, wizard, documentation page has been opened you can:
 
@@ -186,13 +186,13 @@ From the inbox you can create tasks:
         * **Start Date**
         * **Due Date**
 
-   ![](assets/wf-86.png)
+   ![wf-86](assets/wf-86.png)
 
     * **Advanced**
 
         * **Name**: this will be used to form the URL; if blank it will be based on the **Title**.
 
-   ![](assets/wf-87.png)
+   ![wf-87](assets/wf-87.png)
 
 1. Select **Submit**.
 
@@ -238,11 +238,11 @@ You can filter the items listed:
 
 1. Open the filter selector:
 
-   ![](assets/wf-88.png)
+   ![wf-88](assets/wf-88.png)
 
 1. You can filter the items listed according to a range of criteria, many of which can be refined; for example:
 
-   ![](assets/wf-89.png)
+   ![wf-89](assets/wf-89.png)
 
    >[!NOTE]
    >

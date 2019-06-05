@@ -52,7 +52,7 @@ Detailed instructions are described in this document.
    >
    >[Email samples are only available in Geometrixx](/help/sites-developing/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
 
-   ![](assets/chlimage_1-172.png)
+   ![chlimage_1-172](assets/chlimage_1-172.png)
 
 1. Select **New** &gt; **New Page** to create new email content.
 1. Select one of the available templates specific to Adobe Campaign, then fill the general properties of the page. Three templates are available by default:
@@ -60,7 +60,7 @@ Detailed instructions are described in this document.
     * **Adobe Campaign Email (AC 6.1)**: lets you add content to a predefined template before sending it to Adobe Campaign 6.1 for delivery. 
     * **Adobe Campaign Email (ACS)**: lets you add content to a predefined template before sending it to Adobe Campaign Standard for delivery.
 
-   ![](assets/chlimage_1-173.png)
+   ![chlimage_1-173](assets/chlimage_1-173.png)
 
 1. Click **Create** to create your email or newsletter.
 
@@ -73,7 +73,7 @@ In addition you may also need to select the Adobe Campaign template and change t
 1. Select the **Page** tab in the sidekick, then select **Page properties.**
 1. In the **Cloud services** tab in the pop-up window, select **Add Service** to add the Adobe Campaign service and click **OK**.
 
-   ![](assets/chlimage_1-174.png)
+   ![chlimage_1-174](assets/chlimage_1-174.png)
 
 1. Select the configuration that matches your Adobe Campaign instance from the drop-down list, then click **OK**.
 
@@ -93,17 +93,17 @@ You can edit email content in either the classic user interface or the touch-opt
 
 1. Enter the subject and the text version of the email by selecting **Page properties** &gt; **Email** from the toolbox. 
 
-   ![](assets/chlimage_1-175.png)
+   ![chlimage_1-175](assets/chlimage_1-175.png)
 
 1. Edit email content by adding the elements you would like from those available in the sidekick. To do this, drag and drop them. Then double click the element you want to edit.
 
    For example, you can add text containing personalization fields.
 
-   ![](assets/chlimage_1-176.png)
+   ![chlimage_1-176](assets/chlimage_1-176.png)
 
    See [Adobe Campaign Components](/help/sites-classic-ui-authoring/classic-personalization-ac-components.md) for a description of components available for Adobe Campaign newsletters/email campaigns.
 
-   ![](assets/chlimage_1-177.png)
+   ![chlimage_1-177](assets/chlimage_1-177.png)
 
 ### Inserting personalization {#inserting-personalization}
 
@@ -129,15 +129,15 @@ See [Adobe Campaign Components](/help/sites-classic-ui-authoring/classic-persona
    >
    >See [Linking an AEM page to an Adobe Campaign email](/help/sites-classic-ui-authoring/classic-personalization-ac-campaign.md#linkinganaempagetoanadobecampaignemail).
 
-   ![](assets/chlimage_1-178.png)
+   ![chlimage_1-178](assets/chlimage_1-178.png)
 
 1. Select **Client Context** in the sidekick to test the personalization fields using the data in the persona profiles.
 
-   ![](assets/chlimage_1-179.png)
+   ![chlimage_1-179](assets/chlimage_1-179.png)
 
 1. A window appears and lets you select the persona you like. The personalization fields are automatically replaced by data from the selected profile.
 
-   ![](assets/chlimage_1-180.png)
+   ![chlimage_1-180](assets/chlimage_1-180.png)
 
 ### Previewing a newsletter {#previewing-a-newsletter}
 
@@ -146,7 +146,7 @@ You can preview how the newsletter will look as well as preview the personalizat
 1. Open the newsletter you want to preview and click Preview (magnifying glass) to shrink the sidekick. 
 1. Click one of the email client icons to see what your newsletter looks like in each email client.
 
-   ![](assets/chlimage_1-181.png)
+   ![chlimage_1-181](assets/chlimage_1-181.png)
 
 1. Expand the sidekick to begin editing again.
 
@@ -156,21 +156,21 @@ After the content is finished, you can start the approval process. Go to the **W
 
 This out-of-the-box workflow has two steps: revision then approval, or revision then rejection. Nevertheless, this workflow can be extended and adapted to a more complex process.
 
-![](assets/chlimage_1-182.png)
+![chlimage_1-182](assets/chlimage_1-182.png)
 
 To approve content for Adobe Campaign, apply the workflow by selecting **Workflow** in the sidekick and selecting **Approve for Adobe Campaign** and click **Start Workflow**. Go through the steps and approve the content. You can also reject the contents by selecting **Reject** instead of **Approve** in the last workflow step.
 
-![](assets/chlimage_1-183.png)
+![chlimage_1-183](assets/chlimage_1-183.png)
 
 After content is approved, it appears as approved in Adobe Campaign. The email can then be sent.
 
 In Adobe Campaign Standard:
 
-![](assets/chlimage_1-184.png)
+![chlimage_1-184](assets/chlimage_1-184.png)
 
 In Adobe Campaign 6.1:
 
-![](assets/chlimage_1-185.png)
+![chlimage_1-185](assets/chlimage_1-185.png)
 
 >[!NOTE]
 >

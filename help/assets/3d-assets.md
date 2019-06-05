@@ -23,7 +23,7 @@ See also [Installing and configuring AEM 3D](install-config-3d.md).
 
 AEM 3D lets you view and render high-quality static, stand-alone 3D models in pre-defined environments called Stages. Basically, a stage provides "lighting" for the 3D scene and the settings for rendering in a native application such as Autodesk® Maya® or Autodesk 3ds Max®. In addition, the stage can optionally include pre-defined cameras, backgrounds, and ground plane geometry.
 
-Uploaded 3D files that contain lights are assumed to be a stage. You can revert such assets to be simple 3D objects by opening the asset in the asset details page. Tap **View Properties**, then tap the **Basic** tab. Under the Metadata heading, from the Asset Class drop-down list, select **3D object**.
+Uploaded 3D files that contain lights are assumed to be a stage. You can revert such assets to be simple 3D objects by opening the asset in the asset details page. Tap **[!UICONTROL View Properties]**, then tap the **Basic** tab. Under the Metadata heading, from the Asset Class drop-down list, select **[!UICONTROL 3D object]**.
 
 When you create 3D models for use in AEM 3D, be aware of the following:
 
@@ -44,15 +44,15 @@ A typical 3D asset has a primary model file and none or more referenced files. R
 
 The primary 3D model file contains the actual 3D model geometry and definitions for the (default) materials that are applied to the model surfaces. AEM 3D supports the following primary 3D model file formats:
 
-* Wavefront OBJ file format (.obj)  
+* Wavefront OBJ file format (`.obj`)  
 
-  The OBJ format requires one or more separate, external MTL files (Material Template Library) (.mtl).
+  The OBJ format requires one or more separate, external MTL files (Material Template Library) (`.mtl`).
 
-* Autodesk FBX (Filmbox) file format (.fbx)  
+* Autodesk FBX (Filmbox) file format (`.fbx`)  
 
   The Autodesk 3D file interchange format; both binary and ASCII formats.  
 
-  When you create FBX files in third-party applications, Adobe recommends the following configuration settings (see table below). These settings can help you achieve the best results for 3D files that you intend to use in AEM. The option names are taken from the Autodesk Maya FBX Export Options dialog box.
+  When you create FBX files in third-party applications, Adobe recommends the following configuration settings (see table below). These settings can help you achieve the best results for 3D files that you intend to use in AEM. The option names are taken from the **[!UICONTROL Autodesk Maya FBX Export Options]** dialog box.
 
 <table> 
  <tbody> 
@@ -113,7 +113,7 @@ The following additional file formats are supported if Autodesk Maya is installe
 
   Both ASCII `.ma` and binary `.mb` formats.
 
-* ``Jupiter Tesselation (ISO 14306-1) `.jt`.  
+* `Jupiter Tesselation (ISO 14306-1).jt`.  
 
   An industry-standard CAD data exchange, collaboration, and product visualization format.
 
@@ -131,7 +131,7 @@ Material definitions in 3D model files can include references to external image 
 
 Materials in the primary 3D model file can reference other types of maps which are ignored by AEM 3D.
 
-### IBL (Image-Based Lighting) Images {#ibl-image-based-lighting-images}
+### IBL (Image-Based Lighting) images {#ibl-image-based-lighting-images}
 
 A 3D model file that defines a stage can reference a single IBL environment image. Currently, AEM 3D supports only 32-bit TIFF images in latitude/longitude format for diffuse IBL and for reflections. For the spherical scene background, 8-bit RGB images are also supported.
 
@@ -139,7 +139,7 @@ See [About working with IBL stages](working-with-ibl-stages.md).
 
 >[!NOTE]
 >
->File references-other than those described above-that are present in the primary 3D model file are currently ignored. AEM 3D does not support references to secondary 3D model files.
+>File references&ndash;other than those described above&ndash;that are present in the primary 3D model file are currently ignored. AEM 3D does not support references to secondary 3D model files.
 >
 >Y-up is the preferred coordinate system for FBX files this release.
 

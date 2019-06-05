@@ -55,7 +55,7 @@ The following template options are available while using the wizard such as:
 
 The following example shows the creation of a Sequence Channel **ChannelOne** for a Screens project **DemoProject**.
 
-![](assets/player2-2.gif)
+![player2-2](assets/player2-2.gif)
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ You can edit, view properties and dashboard, copy, preview, and delete a channel
 >
 >Click on the icon on the left to select an item. For example, click on the icon for channel and perform the following actions, as shown in the figure below.
 
-![](assets/screen_shot_2018-08-23at10208pm.png) 
+![screen_shot_2018-08-23at10208pm](assets/screen_shot_2018-08-23at10208pm.png) 
 
 ### Adding/Editing Content to a Channel {#adding-editing-content-to-a-channel}
 
@@ -82,7 +82,7 @@ To add or edit content in a channel, follow the steps below:
 1. Click on the Channel you want to edit (as shown in the figure above).
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. The editor opens that allows you to add assets/components to your channel that you want to publish.
 
-![](assets/chlimage_1-44.png)
+![chlimage_1-44](assets/chlimage_1-44.png)
 
 **Uploading Videos to the Channel** 
 Follow the steps below to upload videos to your channel:
@@ -102,7 +102,7 @@ To view or edit properties of a channel, follow the steps below:
 1. Click on the Channel you want to edit.
 1. Click **Properties **from the action bar to view/edit the channel properties. The following tabs allow you to change the options.
 
-![](assets/player2-3.gif) 
+![player2-3](assets/player2-3.gif) 
 
 ### Viewing Dashboard {#viewing-dashboard}
 
@@ -111,7 +111,7 @@ To view dashboard of a channel, follow the steps below:
 1. Click on the Channel you want to edit.
 1. Click **View Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION** and **ASSIGNED DISPLAYS** panel opens, as shown in the figure below:
 
-![](assets/player2-4.gif) 
+![player2-4](assets/player2-4.gif) 
 
 ### Channel Information {#channel-information}
 
@@ -119,7 +119,7 @@ The Channel Information panel describes the Channel properties, along with the p
 
 Click on the (**...**) in the **Channel Information** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
-![](assets/screen_shot_2017-12-20at82048am.png) 
+![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png) 
 
 ### Online and Offline Channels {#online-and-offline-channels}
 
@@ -137,25 +137,25 @@ Follow the steps below to make the channel online:
 
    Select the channel.
 
-   ![](assets/chlimage_1-45.png)
+   ![chlimage_1-45](assets/chlimage_1-45.png)
 
    Click **View Dashboard** from the action bar to view the status of the player. The **CHANNEL INFORMATION **panel provides information on whether the channel is online or offline.
 
-   ![](assets/chlimage_1-46.png)
+   ![chlimage_1-46](assets/chlimage_1-46.png)
 
 1. Click **Properties** from the action bar and navigate to the **Channel** tab as shown below:
 
-   ![](assets/chlimage_1-47.png)
+   ![chlimage_1-47](assets/chlimage_1-47.png)
 
 1. Check the **Make channel online** to make the channel as online.
 
    Click **Save & Close** to save your option.
 
-   ![](assets/screen_shot_2018-08-23at15525pm.png)
+   ![screen_shot_2018-08-23at15525pm](assets/screen_shot_2018-08-23at15525pm.png)
 
    The channel dashboard displays and the **CHANNEL INFORMATION** panel shows the online status of the player.
 
-   ![](assets/chlimage_1-48.png)
+   ![chlimage_1-48](assets/chlimage_1-48.png)
 
 #### Automatic versus Manual Updates from the Device Dashboard {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -203,7 +203,7 @@ The assigned displays panel shows the display associated to the channel. It prov
 
 The associated displays will list in the **Assigned Displays** panel, as shown below:
 
-![](assets/chlimage_1-49.png)
+![chlimage_1-49](assets/chlimage_1-49.png)
 
 >[!NOTE]
 >
@@ -215,7 +215,7 @@ The associated displays will list in the **Assigned Displays** panel, as shown b
 
 Additionally, click on the display in the **ASSIGNED DISPLAYS** panel, to view the display information, as shown below:
 
-![](assets/chlimage_1-50.png) 
+![chlimage_1-50](assets/chlimage_1-50.png) 
 
 ### The Next Steps {#the-next-steps}
 

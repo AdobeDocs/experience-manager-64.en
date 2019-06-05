@@ -42,23 +42,23 @@ If you do not see a source attribute under video, it could be that the video did
 
 Check ffmpeg is installed and the video profiles. 
 
-![](assets/chlimage_1-2.png)
+![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### Checking Video Profile {#checking-video-profile}
 
 1. Navigate to the [Video Profile](http://localhost:4502/etc/dam/video.html) and click **Upload Test Video**.
 
-   ![](assets/chlimage_1-3.png)
+   ![chlimage_1-3](assets/chlimage_1-3.png)
 
 1. Upload a test video and click **Ok **to begin the transcoding.
 
    If the transcode fails, expand the ffmpeg output to understand any errors in the console output of ffmpeg.
 
-   ![](assets/chlimage_1-4.png)
+   ![chlimage_1-4](assets/chlimage_1-4.png)
 
    Also, if the video transcodes successfully can download the transcoded file.
 
-   ![](assets/chlimage_1-5.png)
+   ![chlimage_1-5](assets/chlimage_1-5.png)
 
    >[!NOTE]
    >
@@ -70,13 +70,13 @@ Check the list of profiles from the page design if the video component is not co
 
 1. Navigate to your channel and select the **Design** mode.
 
-   ![](assets/chlimage_1-6.png)
+   ![chlimage_1-6](assets/chlimage_1-6.png)
 
 1. Select the video and open the **Edit** dialog. Open the **Profiles** tab.
 
    Select different profiles (at least "High Quality H.264" profile should be there).
 
-   ![](assets/chlimage_1-7.png)
+   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### Checking the Video in the Web Player {#checking-the-video-in-the-web-player}
 
@@ -136,7 +136,7 @@ Follow the steps below to set up an absolute strategy:
 1. Open its configuration dialog.
 1. Edit the **Strategy** and add absolute.
 
-![](assets/chlimage_1-8.png)
+![chlimage_1-8](assets/chlimage_1-8.png)
 
 >[!NOTE]
 >

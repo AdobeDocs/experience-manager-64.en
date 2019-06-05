@@ -47,18 +47,18 @@ The Create CSV Export wizard allows you to select:
 
 The resulting `export.csv` file can be opened in Excel or any other compatible application.
 
-![](assets/chlimage_1-58.png)
+![chlimage_1-58](assets/chlimage_1-58.png)
 
 The create **CSV Export** option is available when browsing the **Sites** console (in List view): it is an option of the **Create** drop down menu:
 
-![](assets/screen_shot_2018-03-21at154719.png)
+![screen_shot_2018-03-21at154719](assets/screen_shot_2018-03-21at154719.png)
 
 To create a CSV export:
 
 1. Open the **Sites** console, navigate to the required location if required.
 1. From the toolbar, select **Create** then **CSV Export** to open the wizard:
 
-   ![](assets/screen_shot_2018-03-21at154758.png)
+   ![screen_shot_2018-03-21at154758](assets/screen_shot_2018-03-21at154758.png)
 
 1. Select the required properties to export.
 1. Select **Create**.

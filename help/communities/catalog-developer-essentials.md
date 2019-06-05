@@ -98,13 +98,13 @@ Using the example of the [Enablement Tutorial](/help/communities/getting-started
 
 * re-publish the community site
 
-![](assets/chlimage_1-189.png) 
+![chlimage_1-189](assets/chlimage_1-189.png) 
 
 #### Pre-filter TagIDs {#pre-filter-tagids}
 
 The pre-filter [TagIDs](/help/sites-developing/framework.md#tagid) must exactly match the tags applied to the enablement resources. These are visible in the `resources` folder for the site as the values of the property `se_resource-tags`.
 
-![](assets/chlimage_1-190.png) 
+![chlimage_1-190](assets/chlimage_1-190.png) 
 
 ### Reference APIs {#reference-apis}
 

@@ -30,7 +30,7 @@ There are three main types of material that Content Services deliver:
 1. **Packaged HTML content (HTML/CSS/JS)**
 1. **Channel independent content**
 
-![](assets/chlimage_1-154.png) 
+![chlimage_1-154](assets/chlimage_1-154.png) 
 
 ## Assets {#assets}
 
@@ -60,7 +60,7 @@ The asset workflow is as follows:
 
 The following diagram shows the **Assets Reference Workflow**:
 
-![](assets/chlimage_1-155.png) 
+![chlimage_1-155](assets/chlimage_1-155.png) 
 
 ### Managing Assets {#managing-assets}
 
@@ -94,7 +94,7 @@ An app developer can get a list of what assets are available, by retrieving the 
 
 The result would be an object in a JSON format that would provide a list of the assets in the "icons" folder. 
 
-![](assets/chlimage_1-156.png) 
+![chlimage_1-156](assets/chlimage_1-156.png) 
 
 #### Getting an Image {#getting-an-image}
 
@@ -113,7 +113,7 @@ The following options are considered:
 * **Zip file:** To have the best chance at displaying properly on the device, all of the page’s referenced material - css, JavaScript, assets, etc. - will be included in a single compressed file with the response. The references in the HTML page will be adjusted to use a relative path to these files.
 * **Streaming:** Getting a manifest of the required files from AEM. Then use that manifest to request all of the files (HTML, CSS, JS, etc.) with subsequent requests.
 
-![](assets/chlimage_1-157.png) 
+![chlimage_1-157](assets/chlimage_1-157.png) 
 
 ## Channel Independent Content {#channel-independent-content}
 

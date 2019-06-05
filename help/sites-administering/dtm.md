@@ -163,7 +163,7 @@ When hosting the Dynamic Tag Management libraries on AEM, AEM automatically conf
  </tbody> 
 </table>
 
-![](assets/chlimage_1-352.png) 
+![chlimage_1-352](assets/chlimage_1-352.png) 
 
 ### Cloud Hosting Properties - Staging and Production {#cloud-hosting-properties-staging-and-production}
 
@@ -190,7 +190,7 @@ You configure the following properties for your Dynamic Tag Management configura
  </tbody> 
 </table>
 
-![](assets/chlimage_1-353.png)
+![chlimage_1-353](assets/chlimage_1-353.png)
 
 The following procedure uses the touch-optimized UI to configure the integration with Dynamic Tag Management.
 
@@ -200,7 +200,7 @@ The following procedure uses the touch-optimized UI to configure the integration
     * Click Configure Now if this is the first configuration that you are adding.
     * Click Show Configurations and then click the + link beside Available Configurations if one or more configurations have been created.
 
-   ![](assets/chlimage_1-354.png)
+   ![chlimage_1-354](assets/chlimage_1-354.png)
 
 1. Type a title for the configuration and then click Create.
 1. In the API Token field, enter the value of the API Token property of your Dynamic Tag Management user account.
@@ -211,7 +211,7 @@ The following procedure uses the touch-optimized UI to configure the integration
    >
    >The API token does not expire until the Dynamic Tag Management user explicitly requests it.
 
-   ![](assets/chlimage_1-355.png)
+   ![chlimage_1-355](assets/chlimage_1-355.png)
 
 1. Click Connect to DTM. AEM authenticates with Dynamic Tag Management and retrieves the list of companies that your account is associated with.
 1. Select the Company, and then select the Property that you are using to track your AEM site.
@@ -226,7 +226,7 @@ Manually download the Dynamic Tag Management libraries to immediately update the
 1. In the Dynamic Tag Management area, click Show Configurations and then click your configuration.
 1. In either the Staging Settings area or the Production Settings area, click the Trigger Download Workflow button to download and deploy the library bundle.
 
-   ![](assets/chlimage_1-356.png)
+   ![chlimage_1-356](assets/chlimage_1-356.png)
 
 >[!NOTE]
 >
@@ -250,7 +250,7 @@ Use the following procedure to associate a page and the descendants with a Dynam
 1. Use Sidekick to open the page properties.
 1. On the Cloud Services tab, click Add Service, select Dynamic Tag Management, and then click OK.
 
-   ![](assets/chlimage_1-357.png)
+   ![chlimage_1-357](assets/chlimage_1-357.png)
 
 1. Use the Dynamic Tag Management drop-down menu to select your configuration, and then click OK.
 
@@ -260,7 +260,7 @@ Use the following procedure to override the inherited configuration association 
 1. Use Sidekick to open the page properties.
 1. On the Cloud Services tab, click the padlock icon next to the Inherited From property, then click Yes in the confirmation dialog box.
 
-   ![](assets/chlimage_1-358.png)
+   ![chlimage_1-358](assets/chlimage_1-358.png)
 
 1. Remove or select a different Dynamic Tag Management configuration, and then click OK.
 

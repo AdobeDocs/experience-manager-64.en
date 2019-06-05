@@ -26,22 +26,22 @@ The following procedure uses the classic UI to create a language root of a site.
 
     1. Select the Template and click Create.
 
-   ![](assets/newpagefr.png)
+   ![newpagefr](assets/newpagefr.png)
 
 1. In the Websites console, in the Websites tree, select the root page of the site.
 1. In the Tools menu, select Language Copy.
 
-   ![](assets/toolslanguagecopy.png)
+   ![toolslanguagecopy](assets/toolslanguagecopy.png)
 
    The Language Copy dialog displays a matrix of available language versions and web pages. An x in a language column means that the page is available in that language.
 
-   ![](assets/languagecopydialog.png)
+   ![languagecopydialog](assets/languagecopydialog.png)
 
 1. To copy an existing page or page tree to a language version, select the cell for that page in the language column. Click the arrow and select the type of copy to create.
 
    In the following example, the equipment/sunglasses/irian page is being copied to the French language version.
 
-   ![](assets/languagecopydilogdropdown.png) 
+   ![languagecopydilogdropdown](assets/languagecopydilogdropdown.png) 
 
    | Type of language copy |Description |
    |---|---|

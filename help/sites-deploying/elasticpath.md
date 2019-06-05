@@ -47,7 +47,7 @@ If Elastic Path is running on any other machine or server (as recommended for Pr
 1. Open `com.elasticpath.web.config.EPConfigurationHandler`.
 1. Update the `cortex.url` to point to that machine in which Elastic Path is running.
 
-   ![](assets/chlimage_1-108.png)
+   ![chlimage_1-108](assets/chlimage_1-108.png)
 
 >[!CAUTION]
 >

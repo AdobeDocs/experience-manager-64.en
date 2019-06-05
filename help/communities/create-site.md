@@ -26,11 +26,11 @@ To get started creating a new community site:
 
 * select the `Create`button
 
-![](assets/createcommunitysite.png) 
+![createcommunitysite](assets/createcommunitysite.png) 
 
 ### Step 1: Site Template {#step-site-template}
 
-![](assets/createsitetemplate63.png)
+![createsitetemplate63](assets/createsitetemplate63.png)
 
 On the [Site Template step](/help/communities/sites-console.md#step2013asitetemplate), enter a title, description, the name for the URL, and select a community site template, for example:
 
@@ -62,13 +62,13 @@ The Design step is presented in two sections for selecing the theme and branding
 
 Select the desired style to apply to the template. When selected, the theme will be overlayed with a check mark.
 
-![](assets/sitetheme.png) 
+![sitetheme](assets/sitetheme.png) 
 
 #### COMMUNITY SITE BRANDING {#community-site-branding}
 
 (optional) Upload a banner image to display across the site pages. The banner is pinned to the left edge of the browser, between the community site header and menu (navigation links). The banner height is cropped to 120 pixels. There is no resizing of the banner to fit the width of the browser and 120 pixel height.
 
-![](assets/chlimage_1-353.png) ![](assets/chlimage_1-354.png)
+![chlimage_1-353](assets/chlimage_1-353.png) ![chlimage_1-354](assets/chlimage_1-354.png)
 
 Select **Next**.
 
@@ -92,7 +92,7 @@ Check all checkboxes for [User Management](/help/communities/sites-console.md#us
 >
 >For a production environment, it is necessary to create custom Facebook and Twitter applications. See [Social Login with Facebook and Twitter](/help/communities/social-login.md).
 
-![](assets/createsitesettings.png) 
+![createsitesettings](assets/createsitesettings.png) 
 
 #### TAGGING {#tagging}
 
@@ -103,7 +103,7 @@ Finding namespaces is easy using type-ahead search. For example,
 * type 'tut'
 * select `Tutorial`
 
-![](assets/chlimage_1-355.png) 
+![chlimage_1-355](assets/chlimage_1-355.png) 
 
 #### ROLES {#roles}
 
@@ -120,13 +120,13 @@ For example,
 >
 >[Tunnel service](https://helpx.adobe.com/experience-manager/6-3/communities/using/deploy-communities.html#tunnel-service-on-author) allows selection of members and groups existing only in the  publish  environment.
 
-![](assets/community_roles-1.png) 
+![community_roles-1](assets/community_roles-1.png) 
 
 #### MODERATION {#moderation}
 
 Accept the default global settings for [moderating](/help/communities/sites-console.md#moderation) user generated content (UGC).
 
-![](assets/chlimage_1-356.png) 
+![chlimage_1-356](assets/chlimage_1-356.png) 
 
 #### ANALYTICS {#analytics}
 
@@ -134,7 +134,7 @@ If Adobe Analytics is licensed and an Analytics cloud service and framework have
 
 See [Analytics Configuration for Communities Features](/help/communities/analytics.md).
 
-![](assets/chlimage_1-357.png) 
+![chlimage_1-357](assets/chlimage_1-357.png) 
 
 #### TRANSLATION {#translation}
 
@@ -147,7 +147,7 @@ The [Translation settings](/help/communities/sites-console.md#translation) speci
 * select **Translate entire page**
 * leave default persistence option
 
-![](assets/chlimage_1-358.png) 
+![chlimage_1-358](assets/chlimage_1-358.png) 
 
 #### ENABLEMENT {#enablement}
 
@@ -161,11 +161,11 @@ Select **Next**.
 
 Select **Create.**
 
-![](assets/chlimage_1-359.png)
+![chlimage_1-359](assets/chlimage_1-359.png)
 
 When the process completes, the folder for the new site is displayed in the Communities - Sites console.
 
-![](assets/communitiessitesconsole.png) 
+![communitiessitesconsole](assets/communitiessitesconsole.png) 
 
 ## Publish the New Community Site {#publish-the-new-community-site}
 
@@ -173,11 +173,11 @@ The created site should be managed from the Communities - Sites console, the sam
 
 After selecting the community site's folder to open it, hover over the site icon such that four action icons appear:
 
-![](assets/siteactionicons-1.png)
+![siteactionicons-1](assets/siteactionicons-1.png)
 
 On selecting the fourth ellipses icon (More Actions), Export Site and Delete Site options show up.
 
-![](assets/siteactionsnew-1.png)
+![siteactionsnew-1](assets/siteactionsnew-1.png)
 
 From left to right they are:
 
@@ -199,7 +199,7 @@ From left to right they are:
   
   select the delete icon to delete the community site from within Communities &gt; Sites console. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
 
-![](assets/siteactions-1.png)
+![siteactions-1](assets/siteactions-1.png)
 
 >[!NOTE]
 >
@@ -223,11 +223,11 @@ From left to right they are:
 
 After ensuring the publish server is running, select the world icon to publish the community site.
 
-![](assets/chlimage_1-360.png)
+![chlimage_1-360](assets/chlimage_1-360.png)
 
 When the community site has been successfully published, a message briefly appears:
 
-![](assets/chlimage_1-361.png) 
+![chlimage_1-361](assets/chlimage_1-361.png) 
 
 ### Notice New Community User Groups {#notice-new-community-user-groups}
 
@@ -248,11 +248,11 @@ Notice that [Aaron McDonald](/help/communities/tutorials.md#demo-users) is a mem
 * Community Engage Moderators
 * Community Engage Members (indirectly as a member of Moderators group)
 
-![](assets/chlimage_1-362.png) 
+![chlimage_1-362](assets/chlimage_1-362.png) 
 
 #### http://localhost:4503/content/sites/engage/en.html {#http-localhost-content-sites-engage-en-html}
 
-![](assets/chlimage_1-363.png) 
+![chlimage_1-363](assets/chlimage_1-363.png) 
 
 ## Configure for Authentication Error {#configure-for-authentication-error}
 
@@ -311,13 +311,13 @@ To get started
 >
 >To disable, simply prepend the `sling:match` property value with an 'x' - `xlocalhost.4503/$` - and **Save All**.
 
-![](assets/chlimage_1-364.png) 
+![chlimage_1-364](assets/chlimage_1-364.png) 
 
 #### Troubleshooting: Error Saving Map {#troubleshooting-error-saving-map}
 
 If unable to save changes, be sure the node name is `localhost.4503`, with a 'dot' separator, and not `localhost:4503` with a 'colon' separator, as `localhost`is not a valid namespace prefix.
 
-![](assets/chlimage_1-365.png) 
+![chlimage_1-365](assets/chlimage_1-365.png) 
 
 #### Troubleshooting: Fail to Redirect {#troubleshooting-fail-to-redirect}
 

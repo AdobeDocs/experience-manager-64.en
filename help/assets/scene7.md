@@ -84,7 +84,7 @@ To add a Dynamic Media Classic component/viewer to a page in the touch-optimized
 
 1. If no Dynamic Media Classic components are available, click **[!UICONTROL Design]** mode, tap any component with a blue border, tap the [!UICONTROL Parent] icon, and then the **[!UICONTROL Configuration]** icon. In **[!UICONTROL Parsys (Design)]**, select all the **[!UICONTROL Dynamic Media Classic]** components to make them available and click **[!UICONTROL OK]**.
 
-   ![](assets/chlimage_1-224.png)
+   ![chlimage_1-224](assets/chlimage_1-224.png)
 
 1. Click **[!UICONTROL Edit]** to return to Edit mode.  
 
@@ -117,7 +117,7 @@ To add an interactive viewing experience to a responsive site in the touch-optim
 1. Select the component and tap the configuration icon.
 1. In the **[!UICONTROL Dynamic Media Classic Settings]** tab, adjust the breakpoints.
 
-   ![](assets/chlimage_1-225.png)
+   ![chlimage_1-225](assets/chlimage_1-225.png)
 
 1. Confirm that the viewers are responsively resizing and that all interactions are optimized for desktop, tablet, and mobile.
 
@@ -131,7 +131,7 @@ Although configuration options vary, the following are common to all [!UICONTROL
 
 You set these configuration options by opening (double-clicking) a [!UICONTROL Dynamic Media Classic] component, for example, when you open a **[!UICONTROL Zoom]** component:
 
-![](assets/chlimage_1-226.png) 
+![chlimage_1-226](assets/chlimage_1-226.png) 
 
 ### Zoom {#zoom}
 
@@ -139,7 +139,7 @@ The HTML5 Zoom component displays a larger image when you press the + button.
 
 The asset has zoom tools at the bottom. Tap **[!UICONTROL +]** to enlarge. Tap **[!UICONTROL -]** to reduce. Tapping the **[!UICONTROL x]** or the reset zoom arrow brings the image back to the original size it was imported as. Tap the diagonal arrows to make it full screen. Tap **[!UICONTROL Edit]** to configure the component. With this component, you can configure [settings common to all [!UICONTROL Dynamic Media Classic] components](#settings-common-to-all-scene-components).
 
-![](assets/chlimage_1-227.png) 
+![chlimage_1-227](assets/chlimage_1-227.png) 
 
 ### Flyout {#flyout}
 
@@ -151,19 +151,19 @@ In the HTML5 Flyout component, the asset is shown as split screen; left the asse
 >
 >If your [!UICONTROL Flyout] component uses the default size, as set in the Design view, then the default size is used and the component stretches to accomodate the page layout size with responsive setup of the component enabled. Be aware, however, that there is a limitation on responsive setup of the component. When the you use the [!UICONTROL Flyout] component with responsive setup, you should not use it with full page stretch. Otherwise, the [!UICONTROL Flyout] may extend beyond the page's right border.
 
-![](assets/chlimage_1-228.png) 
+![chlimage_1-228](assets/chlimage_1-228.png) 
 
 ### Image {#image}
 
 The [!UICONTROL Dynamic Media Classic] Image component lets you add Dynamic Media Classic functionality to your images, such as Dynamic Media Classic modifiers, image or viewer presets, and sharpening. The Dynamic Media Classic Image component is similar to other image components in AEM with special Dynamic Media Classic functionality. In this example, the image has the Dynamic Media Classic URL modifier, **&op_invert=1** applied.
 
-![](assets/chlimage_1-229.png)
+![chlimage_1-229](assets/chlimage_1-229.png)
 
 **[!UICONTROL Title, Alt Text]** &ndash; In the **[!UICONTROL Advanced]** tab, add a title to the image and alt text for those users who have graphics turned off.
 
 **[!UICONTROL URL, Open in]** &ndash; You can set an asset from to open a link. Set the [!UICONTROL URL] and in [!UICONTROL Open in] indicate whether you want it to open in the same window or a new window.
 
-![](assets/chlimage_1-230.png)
+![chlimage_1-230](assets/chlimage_1-230.png)
 
 **[!UICONTROL Viewer preset]** &ndash; Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
 
@@ -185,7 +185,7 @@ The [!UICONTROL Dynamic Media Classic] Image component lets you add Dynamic Medi
 
 Tap **[!UICONTROL Edit]** to configure the component. You can configure [settings common to all Dynamic Media Classic components](#settings-common-to-all-scene-components) as well as other settings described in this section.
 
-![](assets/chlimage_1-231.png)
+![chlimage_1-231](assets/chlimage_1-231.png)
 
 **[!UICONTROL File Reference, Width, Height]** &ndash; See settings common to all ScDynamic Media Classicene7 components.
 
@@ -197,31 +197,31 @@ Tap **[!UICONTROL Edit]** to configure the component. You can configure [setting
 
 **[!UICONTROL URL, Open in]** You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
 
-![](assets/chlimage_1-232.png)
+![chlimage_1-232](assets/chlimage_1-232.png)
 
 **[!UICONTROL Parameter Panel]** &ndash; When importing an image, the parameters are pre-populated with information from the image. If there is no content that can be dynamically changed, this window is empty.
 
-![](assets/chlimage_1-233.png) 
+![chlimage_1-233](assets/chlimage_1-233.png) 
 
 #### Changing text dynamically {#changing-text-dynamically}
 
 To change the text dynamically, enter new text in the fields and click **[!UICONTROL OK]**. In this example, the **[!UICONTROL Price]** is now $50 and shipping is 99 cents.
 
-![](assets/chlimage_1-234.png)
+![chlimage_1-234](assets/chlimage_1-234.png)
 
 The text in the image changes. You can reset the text back to the original value by tapping **[!UICONTROL Reset]** next to the field.
 
-![](assets/chlimage_1-235.png) 
+![chlimage_1-235](assets/chlimage_1-235.png) 
 
 #### Changing text to reflect the value of a client context value {#changing-text-to-reflect-the-value-of-a-client-context-value}
 
 To link a field to a client context value, tap **[!UICONTROL Select]** to open the client-context menu, select the client context, and tap **[!UICONTROL OK]**. In this example, the name changes based on linking the Name with the formatted name in the profile.
 
-![](assets/chlimage_1-236.png)
+![chlimage_1-236](assets/chlimage_1-236.png)
 
 The text reflects the name of the currently logged in user. You can reset the text back to the original value by clicking **Reset **next to the field.
 
-![](assets/chlimage_1-237.png) 
+![chlimage_1-237](assets/chlimage_1-237.png) 
 
 #### Making the Dynamic Media Classic image template a link {#making-the-scene-image-template-a-link}
 
@@ -230,7 +230,7 @@ To make the Dynamic Media Classic image template component a clickable link:
 1. On the page with the Dynamic Media Classic image template component, tap **[!UICONTROL Edit]**.
 1. In the **[!UICONTROL URL]** field, enter the URL that users go to when the image is tapped. In the **[!UICONTROL Open in]** field, select whether you want the target to open (a new window or same window). 
 
-   ![](assets/chlimage_1-238.png)
+   ![chlimage_1-238](assets/chlimage_1-238.png)
 
 1. Tap **[!UICONTROL OK]**.
 
@@ -242,7 +242,7 @@ It can be used for adaptive video sets, a single MP4 video, or a single F4V vide
 
 See [Video](s7-video.md) for more information on how videos work with Dynamic Media Classic integration. In addition, see how [the **Dynamic Media Classic video** component compares to the foundation **video** component](s7-video.md). 
 
-![](assets/chlimage_1-239.png) 
+![chlimage_1-239](assets/chlimage_1-239.png) 
 
 ### Known limitations for the video component {#known-limitations-for-the-video-component}
 
@@ -284,11 +284,11 @@ Browse Dynamic Media Classic assets by selecting **[!UICONTROL Dynamic Media Cla
 >* If you have a secure preview server set, the browser will use that preview server to render thumbnails and assets.
 >
 
-![](assets/chlimage_1-240.png)
+![chlimage_1-240](assets/chlimage_1-240.png)
 
 In addition, you can browse resolution information, size, days since modification, and file name by hovering over the asset in the browser.
 
-![](assets/chlimage_1-241.png)
+![chlimage_1-241](assets/chlimage_1-241.png)
 
 * For Adaptive Video Sets and Templates, no size information is generated for thumbnails.
 * For Adaptive Video Sets, no resolution is generated for thumbnails.
@@ -303,7 +303,7 @@ When searching in either UI, you can filter by the following criteria (shown her
 
 **[!UICONTROL Enter keywords]** &ndash; You can search assets by name. When searching the keywords you enter is what the file name starts with. For example, typing the word "swimming" would look for any asset file names that start with those letters in that order. Be sure to tap enter after you type the term to find the asset.
 
-![](assets/chlimage_1-242.png)
+![chlimage_1-242](assets/chlimage_1-242.png)
 
 **[!UICONTROL Folder/path]** &ndash; The name of the folder that appears is based on the configuration you have selected. You can drill down to lower levels by tapping the folder icon and selecting a sub-folder, then tapping the checkmark to select it.
 
@@ -311,19 +311,19 @@ If you enter a keyword and select a folder, AEM searches that folder and any sub
 
 By default, AEM searches the folder selected and all sub-folders.
 
-![](assets/chlimage_1-243.png)
+![chlimage_1-243](assets/chlimage_1-243.png)
 
 **[!UICONTROL Type of Asset]** &ndash; Select **[!UICONTROL Dynamic Media Classic]** to browse Dynamic Media Classic content. This option is only available if Dynamic Media Classic has been configured.
 
-![](assets/chlimage_1-244.png)
+![chlimage_1-244](assets/chlimage_1-244.png)
 
 **[!UICONTROL Configuration]** &ndash; If you have more than one Dynamic Media Classic configuration defined in [!UICONTROL Cloud Services], you can select it here. As a result the folder will change based on the configuration you have chosen.
 
-![](assets/chlimage_1-245.png)
+![chlimage_1-245](assets/chlimage_1-245.png)
 
 **[!UICONTROL Asset type]** &ndash; Within the Dynamic Media Classic browser, you can filter results to include any of the following: images, templates, videos, and adaptive video sets. If you do not select any asset type, AEM by default searches all asset types.
 
-![](assets/chlimage_1-246.png)
+![chlimage_1-246](assets/chlimage_1-246.png)
 
 >[!NOTE]
 >
@@ -335,5 +335,5 @@ By default, AEM searches the folder selected and all sub-folders.
 
 **[!UICONTROL Publish Status]** &ndash; You can filter for assets based on publication status: Unpublished or Published. If you do not select any Publish Status, AEM by default searches all publish statuses.
 
-![](assets/chlimage_1-247.png)
+![chlimage_1-247](assets/chlimage_1-247.png)
 

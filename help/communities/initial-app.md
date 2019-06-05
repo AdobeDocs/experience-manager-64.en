@@ -43,7 +43,7 @@ In this exercise, all pages are based on one simple template.
 
    In this case, all pages created using the `playpage`template are rendered by the `an-scf-sandbox/components/playpage` component. By convention, the path to the component is relative, allowing Sling to search for the resource first in the `/apps` folder and, if not found, in the `/libs` folder.
 
-   ![](assets/chlimage_1-75.png)
+   ![chlimage_1-75](assets/chlimage_1-75.png)
 
 1. If using copy/paste, ensure the Resource Type value has no leading or trailing spaces.
 
@@ -61,7 +61,7 @@ In this exercise, all pages are based on one simple template.
 
    **/content/an-scf-sandbox(/.&ast;)?**
 
-   ![](assets/chlimage_1-76.png)
+   ![chlimage_1-76](assets/chlimage_1-76.png)
 
 1. Click **Next**.
 
@@ -75,7 +75,7 @@ In this exercise, all pages are based on one simple template.
 
    Click **Save All** to save the new template to the repository.
 
-   ![](assets/chlimage_1-77.png)
+   ![chlimage_1-77](assets/chlimage_1-77.png)
 
 ### Create the Template's Rendering Component {#create-the-template-s-rendering-component}
 
@@ -96,7 +96,7 @@ Create the *component* that defines the content and renders any pages created ba
     * Super Type: *&lt;leave blank&gt;*
     * Group:
 
-   ![](assets/chlimage_1-78.png)
+   ![chlimage_1-78](assets/chlimage_1-78.png)
 
 1. Click **Next** until the **Allowed Children** panel of the dialog appears
 
@@ -109,4 +109,4 @@ Create the *component* that defines the content and renders any pages created ba
    >
    >**The correspondence between the path to the playpage component and the sling:resourceType property of the playpage template is crucial to the correct functioning of the website.**
 
-   ![](assets/chlimage_1-79.png)
+   ![chlimage_1-79](assets/chlimage_1-79.png)

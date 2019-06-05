@@ -29,15 +29,15 @@ You can configure preferences for your device from the Device Dashboard, accessi
 
    Select **Devices** and **Device Manager** from the action bar.
 
-   ![](assets/chlimage_1-66.png)
+   ![chlimage_1-66](assets/chlimage_1-66.png)
 
 1. Click on the device to open the device dashboard.
 
-   ![](assets/chlimage_1-67.png)
+   ![chlimage_1-67](assets/chlimage_1-67.png)
 
 1. Check the **PREFERENCES** panel. You can enable/disable the **Admin UI** and **Channel Switcher** for your player from these two options.
 
-   ![](assets/chlimage_1-68.png)
+   ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### The Admin UI {#the-admin-ui}
 
@@ -49,7 +49,7 @@ To view the admin UI from the Screens player, long press on the top left corner 
 >
 >Additionally, you can view the AEM Screens Player app uptime to check app health status.
 
-![](assets/chlimage_1-3.gif)
+![chlimage_1-3](assets/chlimage_1-3.gif)
 
 If you select the **Configuration** option from the side menu, you can also reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
 
@@ -59,13 +59,13 @@ Additionally, you can specify the number of maximum log files to keep for an AEM
 >
 >The **Update Firmware** option only works on the cordova, such as Android players.
 
-![](assets/screen_shot_2018-10-15at101257am.png)
+![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
 You can clear cache for channels and applications from the Admin UI in AEM Screens player.
 
 Select the **Content Cache** from the side rail to update the cache.
 
-![](assets/screen_shot_2018-10-15at105717am.png) 
+![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png) 
 
 ### The Channel Switcher {#the-channel-switcher}
 
@@ -77,7 +77,7 @@ You can switch and control settings for your channel from your Screens Player.
 
 To view the channel switcher from the player, long press on the lower left corner to open the channel switcher that allows switching channels and other features.
 
-![](assets/chlimage_1-69.png)
+![chlimage_1-69](assets/chlimage_1-69.png)
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Follow these steps to change preferences from your Player:
 1. Navigate to **Configuration** from the left action menu.
 1. Enable/disable configuration for **Admin UI** or **Channel Switcher**.
 
-![](assets/screen_shot_2018-10-15at101257am-1.png) 
+![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png) 
 
 ## Troubleshooting AEM Screens Player {#troubleshooting-aem-screens-player}
 

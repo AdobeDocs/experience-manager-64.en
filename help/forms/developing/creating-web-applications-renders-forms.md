@@ -26,15 +26,15 @@ Using a Java servlet, you can write a form to a client web browser so that a cus
 
 This section discusses how to create a web-based application that enables the user to select either American-based form data or Canadian-based form data, as shown in the following illustration. 
 
-![](assets/cw_cw_fragmentwebclient.png)
+![cw_cw_fragmentwebclient](assets/cw_cw_fragmentwebclient.png)
 
 The form that is rendered is a form that is based on fragments. That is, if the user selects American data, then the returned form uses fragments based on American data. For example, the footer of the form contains an American address, as shown in the following illustration. 
 
-![](assets/cw_cw_fragementformfooter.png)
+![cw_cw_fragementformfooter](assets/cw_cw_fragementformfooter.png)
 
 Likewise, if the user selects Canadian data, then the returned form contains a Canadian address, as shown in the following illustration. 
 
-![](assets/cw_cw_fragementformfootercnd.png)
+![cw_cw_fragementformfootercnd](assets/cw_cw_fragementformfootercnd.png)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ This section uses sample files that can be located in the following location:
 
 where &lt;*install directory*&gt; is the installation path. For the purposes of the client application, the Purchase Order Dynamic.xdp file was copied from this installation location and deployed to a Forms application named *Applications/FormsApplication*. The Purchase Order Dynamic.xdp file is placed in a folder named FormsFolder. Likewise, the fragments are placed in folder named Fragments, as shown in the following illustration.
 
-![](assets/cw_cw_fragmentsrepository.png)
+![cw_cw_fragmentsrepository](assets/cw_cw_fragmentsrepository.png)
 
 To access the Purchase Order Dynamic.xdp form design, specify `Applications/FormsApplication/1.0/FormsFolder/Purchase Order Dynamic.xdp` as the form name (the first parameter passed to the `renderPDFForm` method) and `repository:///` as the content root URI value.
 

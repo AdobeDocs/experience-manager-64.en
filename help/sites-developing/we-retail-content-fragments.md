@@ -46,7 +46,7 @@ These include **Arctic Surfing in Lofoten**, a fragment together with related vi
 
     * [http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten](http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten)
 
-![](assets/cf-44.png)
+![cf-44](assets/cf-44.png)
 
 You can select and edit the **Arctic Surfing in Lofoten** fragment:
 
@@ -61,7 +61,7 @@ Here you can [edit and manage](/help/assets/content-fragments.md) your fragment 
 * **[Associated Content](/help/assets/content-fragments-assoc-content.md)**
 * **[Metadata](/help/assets/content-fragments-metadata.md)**
 
-![](assets/cf-46.png) 
+![cf-46](assets/cf-46.png) 
 
 ## Where Content Fragments are Used in We.Retail {#where-content-fragments-are-used-in-we-retail}
 
@@ -75,7 +75,7 @@ For example, the **Arctic Surfing in Lofoten** content fragment is referenced in
 
     * [http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html](http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html)
 
-![](assets/cf-53.png) 
+![cf-53](assets/cf-53.png) 
 
 ## Further Information {#further-information}
 

@@ -17,7 +17,7 @@ While the default configuration settings are appropriate for typical use cases, 
 
 The following advanced configuration settings apply to the integration of AEM 3D for both Maya and non-Maya deployments.
 
-All settings are accessed using CRXDE Lite in AEM (**Tools** &gt; **General** &gt; **CRXDE Lite**).
+All settings are accessed using **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**).
 
 >[!NOTE]
 >
@@ -29,19 +29,19 @@ All settings are accessed using CRXDE Lite in AEM (**Tools** &gt; **General** &g
 
 ## Asset Types Configuration {#asset-types-configuration}
 
-In CRXDE Lite in AEM (**Tools** &gt; **General** &gt;**CRXDE Lite**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
 
 | Path |Description |
 |---|---|
-| /libs/settings/dam/v3D/assetTypes/*/Conversion |Specifies the file type for the intermediate 3D format created during ingestion. Must be empty for 'fbx' and 'obj' file formats or 'fbx' for formats enabled by Maya. |
-| /libs/settings/dam/v3D/assetTypes/*/Enabled |Set to true or false to enable or disable this entry in the **assetTypes** list. |
-| /libs/settings/dam/v3D/assetTypes/*/Extension |Specify one or more comma-separated file suffixes or file extensions which are to be associated with this asset type. |
-| /libs/settings/dam/v3D/assetTypes/*/IngestRegime |Must be ' `native`' for FBX and OBJ file formats and ' `maya`' for formats enabled by Maya. |
-| /libs/settings/dam/v3D/assetTypes/*/MimeType |Specifies the mime type for this asset type. For formats enabled by Maya it is recommended to use 'application/x-ext', where ext is the string specified as the `Extension` value. |
+| `/libs/settings/dam/v3D/assetTypes/*/Conversion` |Specifies the file type for the intermediate 3D format created during ingestion. Must be empty for 'fbx' and 'obj' file formats or 'fbx' for formats enabled by Maya. |
+| `/libs/settings/dam/v3D/assetTypes/*/Enabled` |Set to true or false to enable or disable this entry in the **assetTypes** list. |
+| `/libs/settings/dam/v3D/assetTypes/*/Extension` |Specify one or more comma-separated file suffixes or file extensions which are to be associated with this asset type. |
+| `/libs/settings/dam/v3D/assetTypes/*/IngestRegime` |Must be `native` for FBX and OBJ file formats and  `maya` for formats enabled by Maya. |
+| `/libs/settings/dam/v3D/assetTypes/*/MimeType` |Specifies the mime type for this asset type. For formats enabled by Maya it is recommended to use `application/x-ext`, where `ext` is the string specified as the `Extension` value. |
 
 ## Ingestion Configuration {#ingestion-configuration}
 
-In CRXDE Lite in AEM (**Tools** &gt;**General** &gt;**CRXDE Lite**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
 
 <table> 
  <tbody> 
@@ -80,66 +80,66 @@ In CRXDE Lite in AEM (**Tools** &gt;**General** &gt;**CRXDE Lite**), access the 
  </tbody> 
 </table>
 
-## Cloud Services Configuration Settings {#cloud-services-configuration-settings}
+## Cloud Services configuration settings {#cloud-services-configuration-settings}
 
 Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.
 
 | **Path** |**Description** |
 |---|---|
-| /libs/settings/dam/v3D/services/aws/accountId |The account id of the Adobe AWS account. |
-| /libs/settings/dam/v3D/services/aws/bucketName |The name of the S3 transfer bucket; normally `aem3d`. |
-| /libs/settings/dam/v3D/services/aws/customerId |The unique id assigned by Adobe to your organization. Used as AWS Cognito user ID. |
-| /libs/settings/dam/v3D/services/aws/encryptedPassword |The password associated with this customerId. Used as AWS Cognito password. |
-| /libs/settings/dam/v3D/services/aws/region |The AWS region where the cloud services are deployed. |
-| /libs/settings/dam/v3D/services/aws/userPoolId |The applicable AWS Cognito user pool ID. |
-| /libs/settings/dam/v3D/services/dncr/clientId |The AWS Cognito client id for the dncr conversion service. |
+| `/libs/settings/dam/v3D/services/aws/accountId` |The account id of the Adobe AWS account. |
+| `/libs/settings/dam/v3D/services/aws/bucketName` |The name of the S3 transfer bucket; normally `aem3d`. |
+| `/libs/settings/dam/v3D/services/aws/customerId` |The unique id assigned by Adobe to your organization. Used as AWS Cognito user ID. |
+| `/libs/settings/dam/v3D/services/aws/encryptedPassword` |The password associated with this customerId. Used as AWS Cognito password. |
+| `/libs/settings/dam/v3D/services/aws/region` |The AWS region where the cloud services are deployed. |
+| `/libs/settings/dam/v3D/services/aws/userPoolId` |The applicable AWS Cognito user pool ID. |
+| `/libs/settings/dam/v3D/services/dncr/clientId` |The AWS Cognito client id for the dncr conversion service. |
 
-## Common Processing Settings {#common-processing-settings}
+## Common processing settings {#common-processing-settings}
 
-In CRXDE Lite in AEM (**Tools** &gt;**General** &gt;**CRXDE Lite**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
 
 | **Path** |**Description** |
 |---|---|
-| /libs/settings/dam/v3D/Paths/mayaWorkPath |The name and location of the working folder for Maya conversion and rendering. The folder is created automatically if it does not exist. |
-| /libs/settings/dam/v3D/Paths/maxWorkPath |Name and location of the working folder for 3ds Max conversion. The folder is created automatically if it does not exist. |
-| /libs/settings/dam/v3D/settings/debugNative |Set to **true** to enable creation of debug information during format conversion and rendering with the RapidRefine renderer. |
+| `/libs/settings/dam/v3D/Paths/mayaWorkPath` |The name and location of the working folder for Maya conversion and rendering. The folder is created automatically if it does not exist. |
+| `/libs/settings/dam/v3D/Paths/maxWorkPath` |Name and location of the working folder for 3ds Max conversion. The folder is created automatically if it does not exist. |
+| `/libs/settings/dam/v3D/settings/debugNative` |Set to **[!UICONTROL true]** to enable creation of debug information during format conversion and rendering with the RapidRefine renderer. |
 
 ## Renderer Configuration {#renderer-configuration}
 
-In CRXDE Lite in AEM (**Tools** &gt;**General** &gt;**CRXDE Lite**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
 
 | **Path** |**Description** |
 |---|---|
-| /libs/settings/dam/v3D/settings/dynamicIBL |When set to **true** and pre-generated light maps are not available (that is invokeLightMapsOnIngest=false), the Rapid Refine renderer creates light maps during rendering to improve render quality. This setting can substantially increase render time. Setting to **false** minimizes CPU usage in such situations but may result in a lower render quality.  |
-| /libs/settings/dam/v3D/renderers/*/Enabled |Set to **true** or **false** to enable or disable a renderer, respectively. |
-| /libs/settings/dam/v3D/renderers/*/Display |Lets you change the string that is displayed for an enabled renderer in the Renderer selector in the Render panel. |
-| /libs/settings/dam/v3D/renderers/*/MaxCpuPercentage |Specifies how many CPUs are used at most for rendering 3D scenes. Higher values speed up rendering but may cause AEM to become less-responsive overall. This setting is approximate. That is, accuracy increases with the number of available CPU cores. |
+| `/libs/settings/dam/v3D/settings/dynamicIBL` |When set to **[!UICONTROL true]** and pre-generated light maps are not available (that is invokeLightMapsOnIngest=false), the Rapid Refine renderer creates light maps during rendering to improve render quality. This setting can substantially increase render time. Setting to **[!UICONTROL false]** minimizes CPU usage in such situations but may result in a lower render quality.  |
+| `/libs/settings/dam/v3D/renderers/*/Enabled` |Set to **[!UICONTROL true]** or **[!UICONTROL false]** to enable or disable a renderer, respectively. |
+| `/libs/settings/dam/v3D/renderers/*/Display` |Lets you change the string that is displayed for an enabled renderer in the Renderer selector in the Render panel. |
+| `/libs/settings/dam/v3D/renderers/*/MaxCpuPercentage` |Specifies how many CPUs are used at most for rendering 3D scenes. Higher values speed up rendering but may cause AEM to become less-responsive overall. This setting is approximate. That is, accuracy increases with the number of available CPU cores. |
 
-## 3D Asset Preview Settings {#d-asset-preview-settings}
+## 3D Asset preview settings {#d-asset-preview-settings}
 
-In CRXDE Lite in AEM (**Tools** &gt;**General** &gt; **CRXDE Lite**), access the following configurations:
-
-| Path |Description |
-|---|---|
-| /libs/settings/dam/v3D/WebGLSites/autoSpin |Set to `true` or `false` to enable or disable auto-spin (automatic camera orbit) on page load. |
-| /libs/settings/dam/v3D/WebGLSites/autoSpinAfterReset |Set to `true` to restart auto-spin after **Reset** is pressed. Ignored when auto-spin is disabled. |
-| /libs/settings/dam/v3D/WebGLSites/autoSpinSpeed |Specifies the speed (revolutions per minute) and direction of auto-spin, with negative values for right-to-left and positive values for left-to-right rotation. |
-| /libs/settings/dam/v3D/WebGL/continueRotate |Set to false to disable continuation with gradual fadeout of viewer responses to touch and mouse gestures. |
-| /libs/settings/dam/v3D/WebGL/curtainColor |Specifies the color of the load curtain that can optionally cover the viewport of the 3D asset preview during load and initialization. R,G,B value, with each color component in the range 0 to 255. |
-| /libs/settings/dam/v3D/WebGL/fadeCurtains |When set to `true`, the load curtain will gradually fade out during the latter parts of viewer initialization. When set to false, the curtain remains opaque until loading and initialization has completed. |
-| /libs/settings/dam/v3D/WebGL/showCurtains |Set to `true` or `false` to enable or disable the load curtain for 3D asset preview. |
-| /libs/settings/dam/v3D/WebGL/spinHeight |When auto-spin is enabled and active, the vertical position of the camera is automatically adjusted relative to the height of the 3D object. When set to 0.5, the camera will positioned vertically at 1/2 the height of the object, which results in the horizon to be centered vertically in the viewport. Larger values result in the camera looking down onto the object and raising the height of the rendered horizon, smaller values result in the camera looking up at the object and lowering the horizon. |
-
-## 3D Sites Component Settings {#d-sites-component-settings}
-
-In CRXDE Lite in AEM (**Tools** &gt; **General** &gt; **CRXDE Lite**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
 
 | Path |Description |
 |---|---|
-| /libs/settings/dam/v3D/WebGLSites/autoSpinAfterReset |Set to `true` to reactivate auto-spin (automatic camera orbit) after home is pressed. Ignored when auto-spin is disabled. |
-| /libs/settings/dam/v3D/WebGLSites/continueRotate |Set to `false` to disable continuation with gradual fadeout of viewer responses to touch and mouse gestures. |
-| /libs/settings/dam/v3D/WebGLSites/curtainColor |Specifies the color of the load curtain that can optionally cover the viewport of the 3D Sites component during load. R,G,B value, with each color component in the range 0 to 255. |
-| /libs/settings/dam/v3D/WebGLSites/fadeCurtains |When set to `true`, the load curtain will gradually fade out during the latter parts of loading and initialization. When set to `false`, the curtain remains opaque until loading and initialization has completed. |
-| /libs/settings/dam/v3D/WebGLSites/showCurtains |Set to `true` or `false` to enable or disable the load curtain for the 3D Sites component. |
-| /libs/settings/dam/v3D/WebGLSites/spinHeight |When auto-spin is enabled and active, the vertical position of the camera is automatically adjusted relative to the height of the 3D object. When set to 0.5, the camera will positioned vertically at 1/2 the height of the object, which results in the horizon to be centered vertically in the viewport. Larger values result in the camera looking down onto the object and raising the height of the rendered horizon, smaller values result in the camera looking up at the object and lowering the horizon. |
+| `/libs/settings/dam/v3D/WebGLSites/autoSpin` |Set to **[!UICONTROL true]** or **[!UICONTROL false]** to enable or disable auto-spin (automatic camera orbit) on page load. |
+| `/libs/settings/dam/v3D/WebGLSites/autoSpinAfterReset` |Set to **[!UICONTROL true]** to restart auto-spin after **[!UICONTROL Reset]** is pressed. Ignored when auto-spin is disabled. |
+| `/libs/settings/dam/v3D/WebGLSites/autoSpinSpeed` |Specifies the speed (revolutions per minute) and direction of auto-spin, with negative values for right-to-left and positive values for left-to-right rotation. |
+| `/libs/settings/dam/v3D/WebGL/continueRotate` |Set to **[!UICONTROL false]** to disable continuation with gradual fadeout of viewer responses to touch and mouse gestures. |
+| `/libs/settings/dam/v3D/WebGL/curtainColor` |Specifies the color of the load curtain that can optionally cover the viewport of the 3D asset preview during load and initialization. R,G,B value, with each color component in the range 0 to 255. |
+| `/libs/settings/dam/v3D/WebGL/fadeCurtains` |When set to **[!UICONTROL true]**, the load curtain will gradually fade out during the latter parts of viewer initialization. When set to **[!UICONTROL false]**, the curtain remains opaque until loading and initialization has completed. |
+| `/libs/settings/dam/v3D/WebGL/showCurtains` |Set to **[!UICONTROL true]** or **[!UICONTROL false]** to enable or disable the load curtain for 3D asset preview. |
+| `/libs/settings/dam/v3D/WebGL/spinHeight` |When auto-spin is enabled and active, the vertical position of the camera is automatically adjusted relative to the height of the 3D object. When set to 0.5, the camera will positioned vertically at 1/2 the height of the object, which results in the horizon to be centered vertically in the viewport. Larger values result in the camera looking down onto the object and raising the height of the rendered horizon, smaller values result in the camera looking up at the object and lowering the horizon. |
+
+## 3D Sites component settings {#d-sites-component-settings}
+
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+
+| Path |Description |
+|---|---|
+| `/libs/settings/dam/v3D/WebGLSites/autoSpinAfterReset` |Set to **[!UICONTROL true]** to reactivate auto-spin (automatic camera orbit) after home is pressed. Ignored when auto-spin is disabled. |
+| `/libs/settings/dam/v3D/WebGLSites/continueRotate` |Set to **[!UICONTROL false]** to disable continuation with gradual fadeout of viewer responses to touch and mouse gestures. |
+| `/libs/settings/dam/v3D/WebGLSites/curtainColor` |Specifies the color of the load curtain that can optionally cover the viewport of the 3D Sites component during load. R,G,B value, with each color component in the range 0 to 255. |
+| `/libs/settings/dam/v3D/WebGLSites/fadeCurtains` |When set to **[!UICONTROL true]**, the load curtain will gradually fade out during the latter parts of loading and initialization. When set to **[!UICONTROL false]**, the curtain remains opaque until loading and initialization has completed. |
+| `/libs/settings/dam/v3D/WebGLSites/showCurtains` |Set to **[!UICONTROL true]** or **[!UICONTROL false]** to enable or disable the load curtain for the 3D Sites component. |
+| `/libs/settings/dam/v3D/WebGLSites/spinHeight` |When auto-spin is enabled and active, the vertical position of the camera is automatically adjusted relative to the height of the 3D object. When set to 0.5, the camera will positioned vertically at 1/2 the height of the object, which results in the horizon to be centered vertically in the viewport. Larger values result in the camera looking down onto the object and raising the height of the rendered horizon, smaller values result in the camera looking up at the object and lowering the horizon. |
 

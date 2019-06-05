@@ -46,27 +46,27 @@ Use the **Create structure only** option to create a target folder hierarchy wit
 1. In the Assets UI, select the source folder for which you want to create a structure in the target language root.
 1. Open the **References **pane and click/tap **Language Copies **under **Copies**.
 
-   ![](assets/chlimage_1-57.png)
+   ![chlimage_1-57](assets/chlimage_1-57.png)
 
 1. Click/tap **Create & Translate** at the bottom.
 
-   ![](assets/chlimage_1-58.png)
+   ![chlimage_1-58](assets/chlimage_1-58.png)
 
 1. From the **Target Languages** list, select the language for which you want to create a folder structure.
 
-   ![](assets/chlimage_1-59.png)
+   ![chlimage_1-59](assets/chlimage_1-59.png)
 
 1. From the** Project** list, choose **Create structure only**. 
 
-   ![](assets/chlimage_1-60.png)
+   ![chlimage_1-60](assets/chlimage_1-60.png)
 
 1. Click/tap** Create**. The new structure for the target language is listed under **Language Copies**. 
 
-   ![](assets/chlimage_1-61.png)
+   ![chlimage_1-61](assets/chlimage_1-61.png)
 
 1. Click/tap the structure from the list, and then click/tap **Reveal in Assets** to navigate to the folder structure within the target language.
 
-   ![](assets/chlimage_1-62.png)
+   ![chlimage_1-62](assets/chlimage_1-62.png)
 
 ### Create a new translation project {#create-a-new-translation-project}
 
@@ -75,53 +75,53 @@ If you use this option, assets to be translated are copied to the language root 
 1. In the Assets UI, select the source folder for which you want to create a Language copy.
 1. Open the **References **pane and click/tap **Language Copies **under **Copies**.
 
-   ![](assets/chlimage_1-63.png)
+   ![chlimage_1-63](assets/chlimage_1-63.png)
 
 1. Click/tap **Create & Translate** at the bottom.
 
-   ![](assets/chlimage_1-64.png)
+   ![chlimage_1-64](assets/chlimage_1-64.png)
 
 1. From the **Target Languages **list, select the language(s) for which you want to create a folder structure.
 
-   ![](assets/chlimage_1-65.png)
+   ![chlimage_1-65](assets/chlimage_1-65.png)
 
 1. From the **Project **list, select **Create a new translation project**.
 
-   ![](assets/chlimage_1-66.png)
+   ![chlimage_1-66](assets/chlimage_1-66.png)
 
 1. In the **Project Title **field, enter a title for the project.
 
-   ![](assets/chlimage_1-67.png)
+   ![chlimage_1-67](assets/chlimage_1-67.png)
 
 1. Click/tap on **Create**. Assets from the source folder are copied to the target folders for the locales you selected in step 4.
 
-   ![](assets/chlimage_1-68.png)
+   ![chlimage_1-68](assets/chlimage_1-68.png)
 
 1. To navigate to the folder, select the language copy, and click **Reveal in Assets**.
 
-   ![](assets/chlimage_1-69.png)
+   ![chlimage_1-69](assets/chlimage_1-69.png)
 
 1. Navigate to the Projects console. The translation folder is copied to the Projects console.
 
-   ![](assets/chlimage_1-70.png)
+   ![chlimage_1-70](assets/chlimage_1-70.png)
 
 1. Open the folder to view the translation project.
 
-   ![](assets/chlimage_1-71.png)
+   ![chlimage_1-71](assets/chlimage_1-71.png)
 
 1. Click/tap the project to open the details page.
 
-   ![](assets/chlimage_1-72.png)
+   ![chlimage_1-72](assets/chlimage_1-72.png)
 
 1. To view the status of the translation job, click the ellipsis at the bottom of the **Translation Job **tile.
 
-   ![](assets/chlimage_1-73.png)
+   ![chlimage_1-73](assets/chlimage_1-73.png)
 
    For more details around job statuses, see [Monitoring the Status of a Translation Job](/help/sites-administering/tc-manage.md#monitoring-the-status-of-a-translation-job).
 
 1. Navigate to the Assets UI, and open the Properties page for each of the translated assets to view the translated metadata.
 
-   ![](assets/chlimage_1-74.png)
+   ![chlimage_1-74](assets/chlimage_1-74.png)
 
    >[!NOTE]
    >
@@ -136,15 +136,15 @@ If you use this option, the translation workflow runs for assets that you add to
 1. Click/tap **Language Copies** under **Copies**. A list of available translation copies is displayed.
 1. Click/tap **Create & Translate** at the bottom.
 
-   ![](assets/chlimage_1-75.png)
+   ![chlimage_1-75](assets/chlimage_1-75.png)
 
 1. From the **Target Languages **list, select the language(s) for which you want to create a folder structure.
 
-   ![](assets/chlimage_1-76.png)
+   ![chlimage_1-76](assets/chlimage_1-76.png)
 
 1. From the **Project **list, select **Add to existing translation project **to run the translation workflow on the folder.
 
-   ![](assets/chlimage_1-77.png)
+   ![chlimage_1-77](assets/chlimage_1-77.png)
 
    >[!NOTE]
    >
@@ -152,16 +152,16 @@ If you use this option, the translation workflow runs for assets that you add to
 
 1. From the **Existing translation project **list, select a project to add the asset for translation.
 
-   ![](assets/chlimage_1-78.png)
+   ![chlimage_1-78](assets/chlimage_1-78.png)
 
 1. Click/tap **Create**. The assets to be translated are added to the target folder. The updated folder is listed under the **Language Copies **section.
 
-   ![](assets/chlimage_1-79.png)
+   ![chlimage_1-79](assets/chlimage_1-79.png)
 
 1. Navigate to the Projects console, and open the existing translation project you added to.
 1. Click/tap the translation project view the project details page.
 
-   ![](assets/chlimage_1-80.png)
+   ![chlimage_1-80](assets/chlimage_1-80.png)
 
 1. Click/tap the ellipsis at the bottom of the **Translation Job** tile to view the assets in the translation workflow. The translation job list also displays entries for asset metadata and tags. These entries indicate that the metadata and tags for the assets are also translated.
 
@@ -179,15 +179,15 @@ If you use this option, the translation workflow runs for assets that you add to
 
 1. To start the translation for the assets, click/tap the arrow on the **Translation Job** tile and select **Start** from the list.
 
-   ![](assets/chlimage_1-81.png)
+   ![chlimage_1-81](assets/chlimage_1-81.png)
 
    A message notifies the commencement of the translation job.
 
-   ![](assets/chlimage_1-82.png)
+   ![chlimage_1-82](assets/chlimage_1-82.png)
 
 1. To view the status of the translation job, click/tap the ellipsis at the bottom of the **Translation Job** tile.
 
-   ![](assets/chlimage_1-83.png)
+   ![chlimage_1-83](assets/chlimage_1-83.png)
 
    For more details, see [Monitoring the Status of a Translation Job](/help/sites-administering/tc-manage.md#monitoring-the-status-of-a-translation-job).
 
@@ -208,44 +208,44 @@ If you use this option, a translation project is created for the set of assets f
 1. Open the **References** pane, and click/tap **Language Copies** under **Copies** to display the list of language copies. 
 1. Select the check box before **Language Copies**, and then select the target folder corresponding to the appropriate locale.
 
-   ![](assets/chlimage_1-84.png)
+   ![chlimage_1-84](assets/chlimage_1-84.png)
 
 1. Click/tap **Update language copies** at the bottom.
 
-   ![](assets/chlimage_1-85.png)
+   ![chlimage_1-85](assets/chlimage_1-85.png)
 
 1. From the **Project** list, choose **Create a new translation project**.
 
-   ![](assets/chlimage_1-86.png)
+   ![chlimage_1-86](assets/chlimage_1-86.png)
 
 1. In the **Project Title **field, enter a title for the project. 
 
-   ![](assets/chlimage_1-87.png)
+   ![chlimage_1-87](assets/chlimage_1-87.png)
 
 1. Click/tap **Start**.
 1. Navigate to the Projects console. The translation folder is copied to the Projects console.
 
-   ![](assets/chlimage_1-88.png)
+   ![chlimage_1-88](assets/chlimage_1-88.png)
 
 1. Open the folder to view the translation project.
 
-   ![](assets/chlimage_1-89.png)
+   ![chlimage_1-89](assets/chlimage_1-89.png)
 
 1. Click/tap the project to open the details page.
 
-   ![](assets/chlimage_1-90.png)
+   ![chlimage_1-90](assets/chlimage_1-90.png)
 
 1. To start the translation for the assets, click the arrow on the **Translation Job **tile and select **Start **from the list.
 
-   ![](assets/chlimage_1-91.png)
+   ![chlimage_1-91](assets/chlimage_1-91.png)
 
    A message notifies the commencement of the translation job.
 
-   ![](assets/chlimage_1-92.png)
+   ![chlimage_1-92](assets/chlimage_1-92.png)
 
 1. To view the status of the translation job, click/tap the ellipsis at the bottom of the **Translation Job **tile.
 
-   ![](assets/chlimage_1-93.png)
+   ![chlimage_1-93](assets/chlimage_1-93.png)
 
    For more details around job statuses, see [Monitoring the Status of a Translation Job](/help/sites-administering/tc-manage.md#monitoring-the-status-of-a-translation-job).
 
@@ -258,23 +258,23 @@ If you use this option, the set of assets are added to an existing translation p
 1. From the Assets UI, select the source folder where you added an asset folder.
 1. Open the References pane, and click/tap **Language Copies** under **Copies** to display the list of language copies.
 
-   ![](assets/chlimage_1-94.png)
+   ![chlimage_1-94](assets/chlimage_1-94.png)
 
 1. Select the check box before **Language Copies**, which selects all language copies. Unselect other copies except the language copy (copies) corresponding to the locale(s) to which you want to translate.
 
-   ![](assets/chlimage_1-95.png)
+   ![chlimage_1-95](assets/chlimage_1-95.png)
 
 1. Click/tap **Update language copies** at the bottom.
 
-   ![](assets/chlimage_1-96.png)
+   ![chlimage_1-96](assets/chlimage_1-96.png)
 
 1. From the **Project** list, choose **Add to existing translation project**.
 
-   ![](assets/chlimage_1-97.png)
+   ![chlimage_1-97](assets/chlimage_1-97.png)
 
 1. From the **Existing translation project **list, select a project to add the asset for translation.
 
-   ![](assets/chlimage_1-98.png)
+   ![chlimage_1-98](assets/chlimage_1-98.png)
 
 1. Click/tap **Start**.
 1. See steps 9-14 of [Add to existing translation project](translation-projects.md#add-to-existing-translation-project) to complete the rest of the procedure.
@@ -285,22 +285,22 @@ When you run a translation workflow to update a language copy with edited versio
 
 1. Click/tap the source root folder under **Language Copies** for which you already created a languag copy, and then click/tap **Reveal in Assets** to open the folder in AEM Assets.
 
-   ![](assets/chlimage_1-99.png)
+   ![chlimage_1-99](assets/chlimage_1-99.png)
 
 1. From the Assets UI, select an asset you already translated and click/tap the **Edit** icon from the toolbar to open the asset in edit mode.
 
-   ![](assets/chlimage_1-100.png)
+   ![chlimage_1-100](assets/chlimage_1-100.png)
 
 1. Edit the asset and then save the changes.
 1. Perform steps 2-14 of the [Add to existing translation project](#add-to-existing-translation-project) procedure to update the language copy.
 1. Click/tap the ellipsis at the bottom of the **Translation Job** tile. From the list of assets in the **Translation Job** page, you can clearly view the temporary location where the translated version of the asset is stored.
 
-   ![](assets/chlimage_1-101.png)
+   ![chlimage_1-101](assets/chlimage_1-101.png)
 
 1. Select the checkbox next to **Title**.
 1. From the toolbar, click/tap **Accept Translation** and then click/tap **Accept** in the dialog to overwrite the translated asset in the target folder with the translated version of the edited asset.
 
-   ![](assets/chlimage_1-102.png)
+   ![chlimage_1-102](assets/chlimage_1-102.png)
 
    >[!NOTE]
    >
@@ -308,7 +308,7 @@ When you run a translation workflow to update a language copy with edited versio
 
    Click/tap **Reject Translation** to retain the originally translated version of the asset in the target locale root and reject the edited version.
 
-   ![](assets/chlimage_1-103.png)
+   ![chlimage_1-103](assets/chlimage_1-103.png)
 
 1. Navigate to the Assets console, and open the Properties page for each of the translated assets to view the translated metadata.
 

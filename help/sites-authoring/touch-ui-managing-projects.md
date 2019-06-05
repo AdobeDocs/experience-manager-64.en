@@ -17,7 +17,7 @@ Projects lets you organize your project by grouping resources into one entity.
 
 In the **Projects** console, you access and take action on your projects:
 
-![](assets/chlimage_1-255.png)
+![chlimage_1-255](assets/chlimage_1-255.png)
 
 In Projects, you can create a project, associate resources with your project, and also delete a project or Resource links. You may want to open a tile to view its content as well as add items to a tile. This topic describes those procedures.
 
@@ -47,11 +47,11 @@ The procedure of creating a project is the same from project to project. The dif
 1. In **Projects**, tap/click **Create** to open the **Create Project** wizard:
 1. Select a template. Out of the box, Simple Project, Media Project, [Translation Project](/help/sites-administering/tc-manage.md), and [Product Photo Shoot Product](/help/sites-authoring/managing-product-information.md) are available and click **Next**. 
 
-   ![](assets/chlimage_1-256.png)
+   ![chlimage_1-256](assets/chlimage_1-256.png)
 
 1. Define the **Title** and **Description** and add a **Thumbnail** image if required. You also add or delete users and what group they belong to. In addition, click **Advanced** to add a name used in the URL.
 
-   ![](assets/chlimage_1-257.png)
+   ![chlimage_1-257](assets/chlimage_1-257.png)
 
 1. Tap/click **Create**. The confirmation asks whether you want to open your new project or to return to the console.
 
@@ -64,7 +64,7 @@ To associate resources with your project:
 1. Open your project from the **Projects** console.
 1. Tap/click **Add Tile** and select the tile that you want to link to your project. You can select multiple types of tiles.
 
-   ![](assets/chlimage_1-258.png)
+   ![chlimage_1-258](assets/chlimage_1-258.png)
 
    >[!NOTE]
    >
@@ -98,11 +98,11 @@ To add items to a Tile:
 
 1. In **Projects**, navigate to the project and click the Add + icon on the tile you want to add an item to.
 
-   ![](assets/chlimage_1-259.png)
+   ![chlimage_1-259](assets/chlimage_1-259.png)
 
 1. Add an item to the tile as you would when creating a new tile. Project tiles are described [here](/help/sites-authoring/projects.md#project-tiles). In this example, another workflow was added.
 
-   ![](assets/chlimage_1-260.png)
+   ![chlimage_1-260](assets/chlimage_1-260.png)
 
 ### Opening a Tile {#opening-a-tile}
 
@@ -112,33 +112,33 @@ To open a tile so that you can view or modify items:
 
 1. In the Projects console, tap/click the ellipses (...)
 
-   ![](assets/chlimage_1-261.png)
+   ![chlimage_1-261](assets/chlimage_1-261.png)
 
 1. AEM lists the items in that tile. You can enter selection mode to modify or delete the items.
 
-   ![](assets/chlimage_1-262.png)
+   ![chlimage_1-262](assets/chlimage_1-262.png)
 
 ## Viewing Project Statistics {#viewing-project-statistics}
 
 To view project statistics, in the **Projects** console, click **Show Statistics View**. The level of completion for each project displays. Click **Show Statistics View** again to go to the **Projects** console.
 
-![](assets/chlimage_1-263.png) 
+![chlimage_1-263](assets/chlimage_1-263.png) 
 
 ### Viewing a Project Timeline {#viewing-a-project-timeline}
 
 The project timeline provides information on when assets in the project were last used. To view the project timeline, click/tap **Timeline**, then enter selection mode and select the project. Assets are displayed in the left pane. Click/tap **Timeline** to return to the **Projects** console.
 
-![](assets/chlimage_1-264.png) 
+![chlimage_1-264](assets/chlimage_1-264.png) 
 
 ### Viewing Active/Inactive Projects {#viewing-active-inactive-projects}
 
 To toggle between your active and inactive projects, in the **Projects** console, click **Toggle Active Projects**. If the icon has a checkmark next to it, it is displaying the active projects.
 
-![](assets/chlimage_1-265.png)
+![chlimage_1-265](assets/chlimage_1-265.png)
 
 If the icon has an x next to, it is displaying the inactive projects.
 
-![](assets/chlimage_1-266.png) 
+![chlimage_1-266](assets/chlimage_1-266.png) 
 
 ## Making Projects Inactive or Active {#making-projects-inactive-or-active}
 
@@ -155,7 +155,7 @@ To make a project inactive (or active):
 1. Tap/click **Edit**.
 1. Change the selector from **Active** to **Inactive** (or vice versa).
 
-   ![](assets/chlimage_1-267.png)
+   ![chlimage_1-267](assets/chlimage_1-267.png)
 
 1. Tap/click **Done** to save your changes.
 

@@ -83,7 +83,7 @@ For a description of the installed Context Store Components that you can add to 
 
 Profile information is also used for delivering [targeted content](/help/sites-authoring/content-targeting-touch.md).
 
-![](assets/clientcontext_targetedcontentdelivery.png) ![](assets/clientcontext_targetedcontentdeliverydetail.png) 
+![clientcontext_targetedcontentdelivery](assets/clientcontext_targetedcontentdelivery.png) ![clientcontext_targetedcontentdeliverydetail](assets/clientcontext_targetedcontentdeliverydetail.png) 
 
 ## Adding Client Context To A Page {#adding-client-context-to-a-page}
 
@@ -292,7 +292,7 @@ The `/libs/cq/personalization/components/contextstores/profiledata` context stor
 * level0, level1, and level2 are distributed vertically, and use a white font.
 * level3, and any additional levels, are distributed horizontally, and use a white font with a darker background.
 
-![](assets/chlimage_1-222.png) 
+![chlimage_1-222](assets/chlimage_1-222.png) 
 
 ### Rendering Session Store Data for genericstore Components {#rendering-session-store-data-for-genericstore-components}
 
@@ -529,7 +529,7 @@ The context store component requires an edit dialog. The geoloc edit dialog will
 
 1. Click Save All.
 
-   ![](assets/chlimage_1-223.png)
+   ![chlimage_1-223](assets/chlimage_1-223.png)
 
 ### Create the Initialization Script {#create-the-initialization-script}
 
@@ -559,7 +559,7 @@ The init.js.jsp file is executed when the Client Context is loaded by the page. 
 
 Add the code to the JSP file of the geoloc component to render the store data in Client Context.
 
-![](assets/chlimage_1-224.png)
+![chlimage_1-224](assets/chlimage_1-224.png)
 
 1. In CRXDE Lite, open the `/apps/myapp/contextstores/geoloc/geoloc.jsp` file.
 1. Add the following HTML code below the stub code:

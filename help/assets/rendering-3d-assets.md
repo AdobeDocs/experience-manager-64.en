@@ -49,13 +49,13 @@ To render 3D assets:
 1. Tap the card of the 3D object to open it in the asset details page.
 1. Near the upper-left corner of the page, tap the drop-down list, then select **Render**.
 
-   ![](assets/chlimage_1-369.png)
+   ![chlimage_1-369](assets/chlimage_1-369.png)
 
 1. Near the upper-right corner of the asset details page, tap the Stage Selector icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
 
    See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
-   ![](assets/chlimage_1-370.png)
+   ![chlimage_1-370](assets/chlimage_1-370.png)
 
    Stage Selector icon
 
@@ -76,7 +76,7 @@ To render 3D assets:
 
    Left and right bars or top and bottom bars are a visual indicator as to which parts of the view will be rendered. When the camera is provided by the selected stage, you can select a pre-defined camera.
 
-   ![](assets/chlimage_1-371.png)
+   ![chlimage_1-371](assets/chlimage_1-371.png)
 
    Camera Selector icon
 

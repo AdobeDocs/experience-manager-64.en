@@ -82,7 +82,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    On the `cq:editConfig/cq:dropTargets/image/parameters` node update the `sling:resourceType` property to equal `weretail-run/components/content/poster`. 
 
-   ![](assets/edit-config.png)
+   ![edit-config](assets/edit-config.png)
 
    XML representation of the cq:editConfig represented below:
 
@@ -309,11 +309,11 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    Beneath `/apps/weretail-run/components/content/poster,`create a new folder named `clientlibs`.
 
-   ![](assets/2018-05-03_at_1008pm.png)
+   ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
 
 1. Beneath the `clientlibs` folder create a new node named `shared` of type `cq:ClientLibraryFolder.` 
 
-   ![](assets/2018-05-03_at_1011pm.png)
+   ![2018-05-03_at_1011pm](assets/2018-05-03_at_1011pm.png)
 
 1. Add the following properties to the shared client library:
 
@@ -341,7 +341,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
 1. Create a folder named `css` beneath the `shared` folder. Add a file named `style.less` beneath the `css` folder. The structure of the client libraries should now look like this:
 
-   ![](assets/2018-05-03_at_1057pm.png)
+   ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
    Instead of writing CSS directly, this tutorial uses LESS. [LESS](https://lesscss.org/) is a popular CSS pre-compiler that supports CSS variables, mixins, and functions. AEM client libraries natively support LESS compilation. Sass or other pre-compilers can be used but need to be compiled outside of AEM.
 
@@ -404,7 +404,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
 1. Copy the `shared` client library folder. Paste it as a sibling and rename it to `production`.
 
-   ![](assets/2018-05-03_at_1114pm.png)
+   ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
 
 1. Update the `categories` property of the production clientlibrary to be `cq.screens.components.production.`
 
@@ -484,15 +484,15 @@ The Poster component is intended to be used on a Sequence Channel. The starter p
 1. Open the Idle Channel from the We.Retail Run project: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Drag + Drop a new instance of the **Poster** component from the side bar on to the page.
 
-   ![](assets/2018-05-07_at_3_23pm.png)
+   ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
 
 1. Edit the dialog of the Poster component to add an Image, Title, Description. Use the Text Position and Text Color choices to ensure the Title/Description is readable over the Image. 
 
-   ![](assets/2018-05-07_at_3_25pm.png)
+   ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
 
 1. Repeat the above steps to add a few Poster components. Add transitions in between the components.
 
-   ![](assets/2018-05-07_at_3_28pm.png)
+   ![2018-05-07_at_3_28pm](assets/2018-05-07_at_3_28pm.png)
 
 ## Putting it all together {#putting-it-all-together}
 

@@ -69,7 +69,7 @@ You can edit a variety of Package Settings to define aspects such as the package
 
 The **Package Settings** dialog is available via the **Edit** button when [creating](#creating-a-new-package) or [editing](#viewing-and-editing-package-information) a package and provides three tabs for configuration. After any changes are made click **OK** to save these.
 
-![](assets/packagesedit.png) 
+![packagesedit](assets/packagesedit.png) 
 
 | **Field** |**Description** |
 |---|---|
@@ -79,7 +79,7 @@ The **Package Settings** dialog is available via the **Edit** button when [creat
 | Description |A brief description of the package. HTML markup can be used for formatting. |
 | Thumbnail |The icon that appears with the package listing. Click Browse to select a local file. |
 
-![](assets/chlimage_1-344.png)  
+![chlimage_1-344](assets/chlimage_1-344.png)  
 
 <table> 
  <tbody> 
@@ -134,7 +134,7 @@ The **Package Settings** dialog is available via the **Edit** button when [creat
  </tbody> 
 </table>
 
-![](assets/packagesdependencies.png) 
+![packagesdependencies](assets/packagesdependencies.png) 
 
 | **Field** |**Description** |**Format/Example** |
 |---|---|---|
@@ -154,7 +154,7 @@ Filters can include zero or more rules. When no rules are defined, the package c
 
 You can define one or more filter definitions for a package. Use more than one filter to include content from multiple root paths.
 
-![](assets/chlimage_1-345.png)
+![chlimage_1-345](assets/chlimage_1-345.png)
 
 The following table describes these rules and provides examples:
 
@@ -243,7 +243,7 @@ To create a new package definition:
 
 1. In the dialog:
 
-   ![](assets/packagesnew.png)
+   ![packagesnew](assets/packagesnew.png)
 
    Enter the:
 
@@ -265,11 +265,11 @@ To create a new package definition:
 
 1. AEM lists the new package in the appropriate group folder.
 
-   ![](assets/packagesitem.png)
+   ![packagesitem](assets/packagesitem.png)
 
    Click on the icon or package name to open.
 
-   ![](assets/packagesitemclicked.png)
+   ![packagesitemclicked](assets/packagesitemclicked.png)
 
    >[!NOTE]
    >
@@ -287,7 +287,7 @@ To create a new package definition:
 
 1. Define the **[Package Filters](#package-filters)** by dragging instances of the **Filter Definition** from the sidekick, then double-clicking to open for editing:
 
-   ![](assets/packagesfilter.png)
+   ![packagesfilter](assets/packagesfilter.png)
 
    Specify:
 
@@ -352,7 +352,7 @@ To view, or edit, information about a package definition:
 1. In the Package Manager navigate to the package you want to view.
 1. Click the package icon of the package you want to view. This will open the package page listing information about the package definition:
 
-   ![](assets/packagesitemclicked-1.png)
+   ![packagesitemclicked-1](assets/packagesitemclicked-1.png)
 
    >[!NOTE]
    >
@@ -371,11 +371,11 @@ After a package has been built you can view the contents:
 
 1. To view the contents click **Contents**, a window will open and list the entire contents of the package:
 
-   ![](assets/packgescontents.png)
+   ![packgescontents](assets/packgescontents.png)
 
 1. To perform a dry run of the installation click **Test Installation**. After you confirm the action, a window will open and list the results as if installation was performed:
 
-   ![](assets/packagestestinstall.png)
+   ![packagestestinstall](assets/packagestestinstall.png)
 
 ### Downloading Packages to Your File System {#downloading-packages-to-your-file-system}
 
@@ -396,7 +396,7 @@ This section describes how to download a package from AEM to your file system by
 1. On the AEM Welcome screen, click **Packages**, then select **Package Manager**.
 1. Navigate to the package you want to download.
 
-   ![](assets/packagesdownload.png)
+   ![packagesdownload](assets/packagesdownload.png)
 
 1. Click the link formed by the name of the zip file (underlined) for the package you want to download; for example `export-for-offline.zip`.
 
@@ -414,11 +414,11 @@ To upload a package:
 
 1. Navigate to the **Package Manager**. Then to the group folder into which you want the package to uploaded.
 
-   ![](assets/packagesuploadbutton.png)
+   ![packagesuploadbutton](assets/packagesuploadbutton.png)
 
 1. Click **Upload Package**. 
 
-   ![](assets/packagesuploaddialog.png)
+   ![packagesuploaddialog](assets/packagesuploaddialog.png)
 
     * **File** 
 
@@ -659,7 +659,7 @@ To delete a package from the Package Manager list(s):
     * Click **Delete **in the toolbar menu.
     * Right-click and select **Delete**.
 
-   ![](assets/packagesdelete.png)
+   ![packagesdelete](assets/packagesdelete.png)
 
 1. AEM asks for confirmation that you want to delete the package. Click **OK** to confirm the deletion.
 
@@ -784,7 +784,7 @@ In Package Share packages are arranged in tree subtrees:
 * Shared packages that have been provided by others companies and have been made public by Adobe.  
 * Your company packages that are private.
 
-![](assets/chlimage_1-346.png) 
+![chlimage_1-346](assets/chlimage_1-346.png) 
 
 ### Searching and Filtering Packages {#searching-and-filtering-packages}
 
@@ -861,7 +861,7 @@ To upload packages your the company-internal Package Share:
 
    When you are logged in, AEM will display details about the package to be uploaded:
 
-   ![](assets/chlimage_1-347.png)
+   ![chlimage_1-347](assets/chlimage_1-347.png)
 
 1. Click **Share** to upload the package to your company's internal Package Share.
 

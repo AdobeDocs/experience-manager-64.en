@@ -27,7 +27,7 @@ To use the external link checker:
 1. Double-click on **External Link Checker** (either the right or left pane). A list of all external links is generated.
 1. Validate a specific link by selecting it in the list, then clicking **Check**:
 
-   ![](assets/chlimage_1-109.png)
+   ![chlimage_1-109](assets/chlimage_1-109.png)
 
    Information such as:
 
@@ -41,5 +41,5 @@ To use the external link checker:
 
 1. On the individual content pages invalid links will be shown as broken:
 
-   ![](assets/chlimage_1-110.png)
+   ![chlimage_1-110](assets/chlimage_1-110.png)
 

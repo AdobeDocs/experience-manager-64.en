@@ -39,7 +39,7 @@ After the application is approved, the applicant receives an email from the We.G
 
 The infographic below shows the step-by-step workflow of the We.Gov reference site scenario. 
 
-![](assets/workflow_aem_gov_2.png)
+![workflow_aem_gov_2](assets/workflow_aem_gov_2.png)
 
 The scenario involves the following personas:
 
@@ -82,7 +82,7 @@ In your browser, open `https://<hostname>:<PublishPort>/content/we-gov/en.html`.
 To see the rules:
 
 1. Open the form in edit mode on the author instance. URL: `https://<hostname>:<AuthorPort>/editor.html/content/forms/af/we-gov/child-support/css.html`.
-1. Select a component and click ![](assets/edit-rules.png). 
+1. Select a component and click ![edit-rules](assets/edit-rules.png). 
 
    The Rule Editor opens listing all the rules applied in the form.  
 
@@ -115,7 +115,7 @@ The child support form on We.Gov site uses adaptive forms. She can use the link 
 >
 >The resume-from-email workflow works with logged in users only. In the reference site scenario, ensure that the user Sarah Rose is added. Sarah's login credentials are `srose/password`.
 
-![](assets/mob1.png)
+![mob1](assets/mob1.png)
 
 Sarah can provide details in any section, but the application fee is accepted only after she provides required information in all the sections. An application is incomplete without fee payment, and fields marked with an asterisk are required.
 
@@ -161,7 +161,7 @@ She enters her 10-digit bank account number.
 After Sarah agrees to the terms and conditions of the application, she pays the application fee of $25. Application fee is required to process her application.  
 Sarah enters her credit card details and clicks **Pay Now**. After paying the fees, a PDF version of the application appears with a signature field. 
 
-![](assets/sarah-sign-1.png)
+![sarah-sign-1](assets/sarah-sign-1.png)
 
 Sarah can choose either to type in, use draw to handwrite, insert an image of signature, or use her mobile's touchscreen to draw her signature. Sarah types in her name and clicks Click To Sign.
 
@@ -172,7 +172,7 @@ Her application is submitted to the We.Gov site.
 After Sarah pays the application fee, she receives an acknowledgement email from the We.Gov site.  
 We.Gov processes the application, and Sarah is informed she will receive monthly compensation after her application is approved.
 
-![](assets/sarah-ack-email.png) 
+![sarah-ack-email](assets/sarah-ack-email.png) 
 
 ### How it works {#how-it-works-1}
 
@@ -202,7 +202,7 @@ To see all the rules, perform the following steps:
 
    URL: `https://<hostname>:<AuthorPort>/editor.html/content/forms/af/we-gov/child-support/css.html`
 
-1. Select a component, and tap ![](assets/edit-rules.png). All the rules are listed in the rule editor, including the rules listed above.
+1. Select a component, and tap ![edit-rules](assets/edit-rules.png). All the rules are listed in the rule editor, including the rules listed above.
 
 ## Gloria receives the application {#gloria-receives-the-application}
 
@@ -227,7 +227,7 @@ Gloria, head of approvals at We.Gov, opens her AEM inbox. She sees a review task
 She sees a PDF of the form filled with details Sarah entered along with the documents Sarah uploaded.  
 Gloria can approve or reject the application. However, Gloria clicks **Assessment Required **to get the application assessed. 
 
-![](assets/gloria-sends-assessment.png)
+![gloria-sends-assessment](assets/gloria-sends-assessment.png)
 
 Sarah's application is a startpoint in the AEM workflow. It initiates the AEM workflow when the child support application form is submitted. The AEM workflow creates a task for Gloria, which shows up in her AEM inbox. When Gloria requests for on-site assessment, a new task is created for the field agent.
 
@@ -248,13 +248,13 @@ When Gloria clicks **Assessment Required**, Conard gets the review task in his A
 
 Conard gets the applicant assessment task as shown below.
 
-![](assets/conrad-inbox.png)
+![conrad-inbox](assets/conrad-inbox.png)
 
 The child support assessment is a form associated with the task. He gets Sarah's details, along with the supporting documents (attached in task details). Conard fills the assessment form in the field on a device and submits for reevaluation.
 
 Conard verifies all the details Sarah provided, and Sarah signs the assessment. AEM Forms can take the location and timestamp, and add them to the signature.
 
-![](assets/submit-for-re-evaluation.png)
+![submit-for-re-evaluation](assets/submit-for-re-evaluation.png)
 
 Conard clicks **Submit For Reevaluation**, and the AEM workflow submits the assessment to the We.Gov organization.
 
@@ -279,11 +279,11 @@ You can see a new Assessment Request task added in the inbox. Submit the complet
 
 After Conard submits the assessment, Gloria sees a Review task in her inbox. She selects and opens **Review**.
 
-![](assets/gloriainbox-1.png)
+![gloriainbox-1](assets/gloriainbox-1.png)
 
 Under Task Details, Gloria sees Last Action Taken as "Submit for Re-evaluation" (by Conard). Gloria sees that Conard Simms assessed the application.
 
-![](assets/gloriaapproves.png) 
+![gloriaapproves](assets/gloriaapproves.png) 
 
 ### How it works {#how-it-works-5}
 
@@ -303,15 +303,15 @@ After Gloria approves the application, Sarah receives an email from We.Gov that 
 
 The **View Document **button in the email links to her enrollment details. Sarah clicks **View Document. **
 
-![](assets/approval-enrolment-kit-email.png)
+![approval-enrolment-kit-email](assets/approval-enrolment-kit-email.png)
 
 The enrollment document lists details such as the reference ID, child covered, date of initiation, bank account number, payment frequency, and payment amount.
 
-![](assets/sarah-enrollment-details.png)
+![sarah-enrollment-details](assets/sarah-enrollment-details.png)
 
 Sarah can view the documents she uploaded in the same page. 
 
-![](assets/uploaded-documents.png) 
+![uploaded-documents](assets/uploaded-documents.png) 
 
 ### How it works {#how-it-works-6}
 
@@ -329,7 +329,7 @@ Alternatively, to see the document in your browser, open: `https://<hostname>:<P
 
 We.Gov, from time to time, reviews the performance of their child support services application to check for any issues that customers might be facing. They use this analysis to take informed decisions about the changes required in the child support services application to enhance the user experience, reduce abandonment rate of forms, and thereby improve conversion. They leverage the integration of AEM Forms with Adobe Analytics for their analysis. The following image depicts their analytics dashboard.
 
-![](assets/child-support-analytics-dashboard.png) 
+![child-support-analytics-dashboard](assets/child-support-analytics-dashboard.png) 
 
 ### How it works {#how-it-works-7}
 

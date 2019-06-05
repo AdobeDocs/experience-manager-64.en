@@ -30,7 +30,7 @@ AEM to CC folder sharing relies on the server-side sharing of folders and files 
 
 The following diagram provides an overview of the integration.
 
-![](assets/chlimage_1-406.png)
+![chlimage_1-406](assets/chlimage_1-406.png)
 
 The integration includes the following elements:
 
@@ -68,5 +68,5 @@ Best practices for leveraging the AEM to Creative Cloud folder sharing include:
 
 The following diagram illustrates an example configuration for creating new designs based on existing final assets from AEM Assets.
 
-![](assets/chlimage_1-407.png)
+![chlimage_1-407](assets/chlimage_1-407.png)
 

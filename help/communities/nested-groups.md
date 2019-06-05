@@ -26,11 +26,11 @@ On author, from global navigation
 
 The result is to reach the [Groups console](/help/communities/groups.md):
 
-![](assets/chlimage_1-53.png)
+![chlimage_1-53](assets/chlimage_1-53.png)
 
 The groups function will display as a folder in which instances of groups are created. Select the Groups folder to open it. The group created on publish is visible.
 
-![](assets/chlimage_1-54.png)
+![chlimage_1-54](assets/chlimage_1-54.png)
 
 ## Create Main Arts Group {#create-main-arts-group}
 
@@ -49,7 +49,7 @@ These consoles are very similar to the Communities Sites console.
     * Template: pull down to select `Reference Group`
     * `select Next`
 
-![](assets/parenttonestedgroup.png)
+![parenttonestedgroup](assets/parenttonestedgroup.png)
 
 Continue through the other panels with these settings:
 
@@ -80,17 +80,17 @@ Continue through the other panels with these settings:
 
 The `groups` folder should now contain two groups (it may be necessary to refresh the page).
 
-![](assets/createcommunitygroup.png)
+![createcommunitygroup](assets/createcommunitygroup.png)
 
 #### Publish Group {#publish-group}
 
 Before creating groups nested within the `arts`group, hover over the `arts` card and select the publish icon to publish it.
 
-![](assets/chlimage_1-55.png)
+![chlimage_1-55](assets/chlimage_1-55.png)
 
 Wait for confirmation that the group was published.
 
-![](assets/chlimage_1-56.png)
+![chlimage_1-56](assets/chlimage_1-56.png)
 
 The `arts` group should also contain a `groups` folder, but one that is empty and in which new groups can be created. Navigate to the arts group folder and create 3 nested groups, each with a different membership setting:
 
@@ -133,11 +133,11 @@ If necessary, to navigate to the nested groups from the Communities Sites consol
 * select arts card
 * select Groups folder
 
-![](assets/chlimage_1-57.png)
+![chlimage_1-57](assets/chlimage_1-57.png)
 
 ## Publishing Groups {#publishing-groups}
 
-![](assets/chlimage_1-58.png)
+![chlimage_1-58](assets/chlimage_1-58.png)
 
 After publishing the main community site, it is necessary to
 
@@ -149,7 +149,7 @@ After publishing the main community site, it is necessary to
 
     * all groups must be published in a top-down fashion.
 
-![](assets/chlimage_1-59.png)
+![chlimage_1-59](assets/chlimage_1-59.png)
 
 ## Experience on Publish {#experience-on-publish}
 

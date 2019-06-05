@@ -64,7 +64,7 @@ A launcher can be created for any node. However, changes to certain nodes do not
 
 Various definitions are included with the standard installation. These are used for digital asset management and social collaboration tasks:
 
-![](assets/wf-100.png) 
+![wf-100](assets/wf-100.png) 
 
 ## Workflow Packages for Batch Processing {#workflow-packages-for-batch-processing}
 
@@ -83,7 +83,7 @@ A workflow package:
 1. Navigate to the **Models** console using **Tools**, **Workflow**, then **Models**.
 1. Select the workflow (according to the console view); you can also use Search (top left) if required:
 
-   ![](assets/wf-103.png)
+   ![wf-103](assets/wf-103.png)
 
    >[!NOTE]
    >
@@ -104,14 +104,14 @@ A workflow package:
   
       An optional comment to help indicate details of this instance.
 
-   ![](assets/wf-104.png)
+   ![wf-104](assets/wf-104.png)
 
 ## Creating a Launcher Configuration {#creating-a-launcher-configuration}
 
 1. Navigate to the **Workflow Launchers** console using **Tools**, **Workflow**, then **Launchers**.
 1. Select **Create**, then **Add Launcher** to open the dialog:
 
-   ![](assets/wf-105.png)
+   ![wf-105](assets/wf-105.png)
 
     * **Event Type** 
 

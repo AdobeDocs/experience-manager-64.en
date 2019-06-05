@@ -32,7 +32,7 @@ Perform the following steps to download the `adobe-aemfd-forms-app-src-pkg-<vers
 
 The following image displays the structure of the `adobe-lc-mobileworkspace-src-<version>.zip\android`folder.
 
-![](assets/zip_android_folder_structure.png) 
+![zip_android_folder_structure](assets/zip_android_folder_structure.png) 
 
 ## Set the environment variables {#set-environment-variable-android}
 
@@ -59,7 +59,7 @@ Perform the following steps to build AEM Forms app using Android Studio:
 
    The **android** option is displayed in the left pane.
 
-   ![](assets/android_folder_studio.png)
+   ![android_folder_studio](assets/android_folder_studio.png)
 
 1. Select **android** from the left pane and click **Run** &gt; **Run 'android'**.
 1. Select the Android device from the Connected Devices section on the Select Deployment Target dialog box and click OK. 

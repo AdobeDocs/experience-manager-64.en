@@ -54,7 +54,7 @@ To connect to an AEM server:
     * In Windows Explorer, right-click a folder, a file, or your desktop, and choose **Adobe Drive 5 &gt; Connect To** from the context menu. 
     * In Mac OS, CTRL-click a folder or file in Finder or your desktop, and choose **More &gt; Adobe Drive 5 &gt; Connect To** from the context menu.
 
-   ![](assets/chlimage_1-292.png)
+   ![chlimage_1-292](assets/chlimage_1-292.png)
 
 1. Click **Add Drive**.
 1. Click **AEM DAM** to indicate that you want to connect using the AEM Assets Services Connector.
@@ -72,7 +72,7 @@ To connect to an AEM server:
     * In Windows Explorer, it should be under **My Computer**.
     * In Mac OS Finder, it should be under **Devices**.
 
-   ![](assets/chlimage_1-293.png)
+   ![chlimage_1-293](assets/chlimage_1-293.png)
 
 ## Troubleshooting {#troubleshooting}
 
@@ -97,11 +97,11 @@ To connect AEM Assets to Adobe Bridge, you must first mount it as a drive on you
 
 Next, start Adobe Bridge, select **Adobe Drive** on the left-hand panel and double click on the drive you want to connect to in the center panel:
 
-![](assets/chlimage_1-294.png)
+![chlimage_1-294](assets/chlimage_1-294.png)
 
 You can now navigate into the mounted drive to reveal all your AEM assets:
 
-![](assets/chlimage_1-295.png) 
+![chlimage_1-295](assets/chlimage_1-295.png) 
 
 ## Browsing and manipulating documents and folders {#browsing-and-manipulating-documents-and-folders}
 
@@ -167,15 +167,15 @@ Alternatively you right-click the asset and choose **File Info**. The resulting 
 
 In addition, the Adobe Bridge **Label** menu gives you access to the view and edit rating and label information:
 
-![](assets/chlimage_1-296.png)
+![chlimage_1-296](assets/chlimage_1-296.png)
 
 Alternatively you right-click the asset and choose **File Info**. The resulting dialog provides access to all XMP metadata properties:
 
-![](assets/chlimage_1-297.png)
+![chlimage_1-297](assets/chlimage_1-297.png)
 
 In addition, the Adobe Bridge **Label** menu gives you access to the view and edit rating and label information:
 
-![](assets/chlimage_1-298.png) 
+![chlimage_1-298](assets/chlimage_1-298.png) 
 
 ## Searching documents and folders {#searching-documents-and-folders}
 
@@ -194,7 +194,7 @@ To search for a document or a folder on an AEM server from Adobe Bridge:
 >
 >You can search assets based on any metadata information except "**File size**", "**Check in comment**", or "**Lock owner**" (although these are listed in the search criteria).
 
-![](assets/chlimage_1-299.png) 
+![chlimage_1-299](assets/chlimage_1-299.png) 
 
 ## Check-out and version management {#check-out-and-version-management}
 

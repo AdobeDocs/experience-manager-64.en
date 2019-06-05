@@ -22,17 +22,17 @@ The toolbar consists of a series of UI modes that contain one or more UI modules
 
 ContextHub installs several UI modes and UI modules. Your administrator may have [configured ContextHub](/help/sites-administering/contexthub-config.md) to display different ones.
 
-![](assets/screen_shot_2018-03-23at093446.png)
+![screen_shot_2018-03-23at093446](assets/screen_shot_2018-03-23at093446.png)
 
 ## Revealing the ContextHub Toolbar {#revealing-the-contexthub-toolbar}
 
 The ContextHub toolbar is available in Preview mode. The toolbar is available only on author instances and only when your administrator has enabled it.
 
-![](assets/screen_shot_2018-03-23at093730.png)
+![screen_shot_2018-03-23at093730](assets/screen_shot_2018-03-23at093730.png)
 
 1. With your page open for editing, on the toolbar click or tap Preview.
 
-   ![](assets/chlimage_1-219.png)
+   ![chlimage_1-219](assets/chlimage_1-219.png)
 
 1. To reveal the toolbar, click or tap the ContextHub icon.
 
@@ -46,13 +46,13 @@ Each UI module provides is different set of features, but the following types of
 
 UI modules can display data from one or more ContextHub stores in the toolbar. UI modules use an icon and a title to identify themselves.
 
-![](assets/screen_shot_2018-03-23at093936.png)
+![screen_shot_2018-03-23at093936](assets/screen_shot_2018-03-23at093936.png)
 
 ### Popup Content {#popup-content}
 
 Some UI modules display a popup overaly when clicked or tapped. Typically, the popup contains additional information than what appears on the toolbar.
 
-![](assets/screen_shot_2018-03-23at094003.png)
+![screen_shot_2018-03-23at094003](assets/screen_shot_2018-03-23at094003.png)
 
 ### Popup Forms {#popup-forms}
 

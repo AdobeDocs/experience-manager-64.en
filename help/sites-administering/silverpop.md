@@ -57,7 +57,7 @@ To create a Silverpop configuration in Tools:
 1. Select **Tools**, then **Cloud Services Configurations,** then **Silverpop Engage**.
 1. Click **New** to open the **Create Page **window.
 
-   ![](assets/chlimage_1-44.jpeg)
+   ![chlimage_1-44](assets/chlimage_1-44.jpeg)
 
 1. Enter the **Title** and optionally the **Name**, and click **Create**.
 1. Enter the configuration information as outlined in step 4 in the previous procedure. Follow that procedure to finish configuring Silverpop.
@@ -83,7 +83,7 @@ To configure the API end points :
     1. **Name**: `text`, **Type**: `String`, **Value**: `Engage 0`
     1. **Name**: `value`, **Type**: `String`, **Value**: `https://api0.silverpop.com`
 
-   ![](assets/chlimage_1-286.png)
+   ![chlimage_1-286](assets/chlimage_1-286.png)
 
    Click on "Save All" button.
 
@@ -107,5 +107,5 @@ To configure the API end points :
 
 1. Click **Save All**. AEM is now ready to connect to Silverpop over secured end points.
 
-   ![](assets/chlimage_1-45.jpeg)
+   ![chlimage_1-45](assets/chlimage_1-45.jpeg)
 

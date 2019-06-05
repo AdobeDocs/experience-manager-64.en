@@ -99,7 +99,7 @@ If you wish to use the style system for your own components follow these steps:
 
 1. On the Styles tab of the properties, you can see how the styles have been configured.
 
-   ![](assets/screen_shot_2017-11-15at163546.png)
+   ![screen_shot_2017-11-15at163546](assets/screen_shot_2017-11-15at163546.png)
 
     * **Group Name:** Styles can be grouped together within the style menu that the content author will see when configuring the style of the component.
     * **Multiple:** Allows for multiple styles within that group to be selected at one time.

@@ -30,7 +30,7 @@ Adding the 3D component to the page template:
 1. Tap **Edit** to open the template.
 1. Near the upper-right of the page, in the drop-down menu, select **Structure** mode, if it is not already active.
 
-   ![](assets/image2017-11-14_15-33-57.png)
+   ![image2017-11-14_15-33-57](assets/image2017-11-14_15-33-57.png)
 
 1. Tap in the Layout Container region to select it.  
 
@@ -51,7 +51,7 @@ To add the 3D viewer component to a web page:
 
 1. Tap the Edit (pencil) icon to open the page into the page editor. Make sure **Edit** mode near the top right of page is selected.
 
-   ![](assets/image2017-11-14_15-44-40.png)
+   ![image2017-11-14_15-44-40](assets/image2017-11-14_15-44-40.png)
 
 1. Tap the rail selector to open the side panel.  
 
@@ -134,7 +134,7 @@ To add the 3D viewer component to a web page:
 
 1. Select the **3D Models** filter to hide unwanted asset types.
 
-   ![](assets/screen_shot_2017-12-11at124258.png)
+   ![screen_shot_2017-12-11at124258](assets/screen_shot_2017-12-11at124258.png)
 
 1. Search for or scroll to the 3D asset that you want to view on the page being edited.  
 

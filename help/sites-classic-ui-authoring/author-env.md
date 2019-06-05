@@ -33,7 +33,7 @@ Two graphical user interfaces are provided to achieve this, these are accessible
     * It is no longer maintained.
     * The following documentation focuses on this classic UI. For information about authoring in the modern, touch-based UI, see the [standard Authoring documentation](/help/sites-authoring/author.md).
 
-   ![](assets/chlimage_1-149.png)
+   ![chlimage_1-149](assets/chlimage_1-149.png)
 
 1. Touch-Enabled UI
 
@@ -44,9 +44,9 @@ Two graphical user interfaces are provided to achieve this, these are accessible
 
     * Desktop:
 
-   ![](assets/chlimage_1-150.png)
+   ![chlimage_1-150](assets/chlimage_1-150.png)
 
     * Tablet devices (or desktop less than 1024 pixels wide):
 
-   ![](assets/chlimage_1-7.jpeg)
+   ![chlimage_1-7](assets/chlimage_1-7.jpeg)
 

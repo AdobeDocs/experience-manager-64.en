@@ -28,7 +28,7 @@ Create a project to organize a set of related tasks. Projects appear below the T
 
 After you create a project, you can populate it with tasks.
 
-![](assets/tmprojects.png)
+![tmprojects](assets/tmprojects.png)
 
 >[!NOTE]
 >

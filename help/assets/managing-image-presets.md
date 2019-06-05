@@ -40,7 +40,7 @@ Administrators can create Image Presets. To create an image preset, you can star
 
 You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **Assets** &gt; **Image Presets**.
 
-![](assets/chlimage_1-494.png)
+![chlimage_1-494](assets/chlimage_1-494.png)
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ Thumbnail sizing is defined in the following format: **width:height:center**, fo
 1. Tap **[!UICONTROL Tools &gt; Workflow &gt; Models &gt; DAM Update Asset &gt; Edit]**.
 1. Tap the **[!UICONTROL Dynamic Media Process Image Assets]** step, then tap the **[!UICONTROL Thumbnails]** tab. Change the thumbnail size, as needed, then tap **[!UICONTROL OK]**.
 
-   ![](assets/step_properties_thumbnailarguments.png)
+   ![step_properties_thumbnailarguments](assets/step_properties_thumbnailarguments.png)
 
 1. Tap the **[!UICONTROL Process Thumbnails]** step, then tap the **[!UICONTROL Thumbnails]** tab. Change the thumbnail size, as needed, and tap **[!UICONTROL OK]**.
 
@@ -214,12 +214,12 @@ Image presets you create are available as dynamic renditions when you preview as
 1. Navigate to **[!UICONTROL CRXDE Lite]** ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
 1. Navigate to the image preset listing node at **/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist**
 
-   ![](assets/increase_decreasethenumberofimagepresetsthatdisplay.png)
+   ![increase_decreasethenumberofimagepresetsthatdisplay](assets/increase_decreasethenumberofimagepresetsthatdisplay.png)
 
 1. In the **[!UICONTROL limit]** property, change the **[!UICONTROL value]**, which is set to 15 by default, to the desired number.
 1. Navigate to the image preset datasource at **/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist/datasource**
 
-   ![](assets/chlimage_1-495.png)
+   ![chlimage_1-495](assets/chlimage_1-495.png)
 
 1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
 1. Tap **[!UICONTROL Save All]**.
@@ -243,7 +243,7 @@ If you intend to support the ingestion of INDD files so that you can generate dy
 1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets &gt; Image Presets]**.
 1. Tap **[!UICONTROL Create]**.
 
-   ![](assets/chlimage_1-496.png)
+   ![chlimage_1-496](assets/chlimage_1-496.png)
 
    >[!NOTE]
    >
@@ -251,7 +251,7 @@ If you intend to support the ingestion of INDD files so that you can generate dy
 
 1. On the **[!UICONTROL Edit Image Preset]** page, enter values into the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs as appropriate, including a name. The options are outlined in [Image Preset Options](#image-preset-options). Presets appear in the left pane and can be used on-the-fly with other assets.
 
-   ![](assets/chlimage_1-497.png)
+   ![chlimage_1-497](assets/chlimage_1-497.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -261,7 +261,7 @@ To create a responsive image preset, perform the steps in [Creating Image Preset
 
 Leaving them blank tells AEM that this image preset is responsive. You can adjust the other values as appropriate. 
 
-![](assets/chlimage_1-498.png)
+![chlimage_1-498](assets/chlimage_1-498.png)
 
 >[!NOTE]
 >
@@ -434,7 +434,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_invert=1
   ```
 
-  ![](assets/chlimage_1-499.png)
+  ![chlimage_1-499](assets/chlimage_1-499.png)
 
 * [op_blur](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_blur.html) - Applies a blur filter to the image.
 
@@ -442,7 +442,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_blur=25
   ```
 
-  ![](assets/chlimage_1-500.png)
+  ![chlimage_1-500](assets/chlimage_1-500.png)
 
 * Combined commands - op_blur and op-invert
 
@@ -450,7 +450,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_invert=1&op_blur=25
   ```
 
-  ![](assets/chlimage_1-501.png)
+  ![chlimage_1-501](assets/chlimage_1-501.png)
 
 * [op_brightness](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_brightness.html) - Decreases or increases the brightness.
 
@@ -458,7 +458,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_brightness=75
   ```
 
-  ![](assets/chlimage_1-502.png)
+  ![chlimage_1-502](assets/chlimage_1-502.png)
 
 * [opac](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_opac.html) - Adjusts image opacity. Lets you decrease the foreground opacity.
 
@@ -466,7 +466,7 @@ The following are some basic examples of what you can do with image modifiers.
   opac=50
   ```
 
-  ![](assets/chlimage_1-503.png)
+  ![chlimage_1-503](assets/chlimage_1-503.png)
 
 ## Modifying Image Presets {#modifying-image-presets}
 
@@ -475,7 +475,7 @@ The following are some basic examples of what you can do with image modifiers.
 1. In AEM, tap the AEM logo to access the global navigation console.
 1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets &gt; Image Presets]**.
 
-   ![](assets/chlimage_1-504.png)
+   ![chlimage_1-504](assets/chlimage_1-504.png)
 
 1. Select a preset, then tap **[!UICONTROL Edit]**.
 1. On the **[!UICONTROL Edit Image Presets]** page, make the changes you want, then tap **[!UICONTROL Save]**.
@@ -493,7 +493,7 @@ If you are running Dynamic Media - Scene7 mode, image presets are automatically 
 1. Select the image preset or multiple image presets from the list of image presets, then tap **[!UICONTROL Publish]**.
 1. After the image preset is published, the status changes from unpublished to published.
 
-   ![](assets/chlimage_1-505.png)
+   ![chlimage_1-505](assets/chlimage_1-505.png)
 
 ## Deleting Image Presets {#deleting-image-presets}
 

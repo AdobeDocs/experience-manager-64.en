@@ -23,7 +23,7 @@ discoiquuid: e26bf608-c57c-4346-88fb-32a82cfa82d2
 1. Click **New ...**
 1. You can specify the **Title**, **Name** and type of experience to be created; in this case, Test&Target Offer.
 
-   ![](assets/chlimage_1-139.png)
+   ![chlimage_1-139](assets/chlimage_1-139.png)
 
 1. Click **Create**.
 

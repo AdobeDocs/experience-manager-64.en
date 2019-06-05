@@ -141,7 +141,7 @@ You can find the code of this page on GitHub
             * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/head`
             * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/body`
 
-   ![](assets/chlimage_1-236.png)
+   ![chlimage_1-236](assets/chlimage_1-236.png)
 
    To use the new console (for example in the [rail for navigation](#add-new-navigation-option-to-rail)) an ID is used, so that it can be explicitly referenced. The ID is used to connect the console and its navigation definition. The ID is defined in the `rail` node of the page; for example, for the Sites console:
 
@@ -214,7 +214,7 @@ You can find the code of this page on GitHub
 
    Create the new nodes and properties:
 
-   ![](assets/chlimage_1-237.png)
+   ![chlimage_1-237](assets/chlimage_1-237.png)
 
     * Extend navigation:
 

@@ -87,7 +87,7 @@ When using the emulator, you select a specific device for emulation and layout d
 
 For example, when you select the device **iPhone 6 Plus** (defined with a width of 540 pixels) for emulation and layout, the breakpoint **Phone** (defined as 768 pixels) will be activated too. Any layout changes you make for the **iPhone 6** will be applicable to other devices under the **Phones** breakpoint, such as **iPhone 5** (defined as 320 pixels).
 
-![](assets/screen_shot_2018-03-23at084058.png)
+![screen_shot_2018-03-23at084058](assets/screen_shot_2018-03-23at084058.png)
 
 ## Selecting a Device to Emulate {#selecting-a-device-to-emulate}
 
@@ -101,7 +101,7 @@ For example, when you select the device **iPhone 6 Plus** (defined with a width 
 
 1. The emulator toolbar will open.
 
-   ![](assets/screen_shot_2018-03-23at084551.png)
+   ![screen_shot_2018-03-23at084551](assets/screen_shot_2018-03-23at084551.png)
 
    The emulator toolbar displays additional layout options:
 
@@ -118,18 +118,18 @@ For example, when you select the device **iPhone 6 Plus** (defined with a width 
     * Use the Select Device icon and select from a drop-down selector.
     * Tap/click on the device indicator in the emulator toolbar.
 
-   ![](assets/screen_shot_2018-03-23at084818.png)
+   ![screen_shot_2018-03-23at084818](assets/screen_shot_2018-03-23at084818.png)
 
 1. Once a specific device has been selected you can:
 
     * See the active marker for the selected device, such as **iPad.** 
     * See the active marker for the appropriate [breakpoint](/help/sites-authoring/responsive-layout.md#layout-definitions-device-emulation-and-breakpoints) such as **Tablet.**
 
-   ![](assets/screen_shot_2018-03-23at084932.png)
+   ![screen_shot_2018-03-23at084932](assets/screen_shot_2018-03-23at084932.png)
 
     * The blue dotted line represents the *fold* for the selected device (here an **iPhone 6**).
 
-   ![](assets/screen_shot_2018-03-23at084947.png)
+   ![screen_shot_2018-03-23at084947](assets/screen_shot_2018-03-23at084947.png)
 
     * The fold can also be considered the page line break (not to be confused with the [breakpoints](/help/sites-authoring/responsive-layout.md#layout-definitions-device-emulation-and-breakpoints)) for the content. This is displayed for convenience to show what part of the content the user will see on the device before scrolling.
     * The line for the fold will not be shown if the height of the device being emulated is higher than the screen size.
@@ -150,7 +150,7 @@ A **Layout Container** is a paragraph system that:
 1. The **Layout Container** is available as a standard component in the [Components Browser](/help/sites-authoring/author-environment-tools.md#components-browser). From here you can drag it to the required location on the page after which you will see the **Drag Components here** placeholder.
 1. You can then add components to the layout container. These components will hold the actual content:
 
-   ![](assets/screen_shot_2018-03-23at085500.png)
+   ![screen_shot_2018-03-23at085500](assets/screen_shot_2018-03-23at085500.png)
 
 ## Selecting and Taking Action on a Layout Container (Edit mode) {#selecting-and-taking-action-on-a-layout-container-edit-mode}
 
@@ -162,7 +162,7 @@ As with other components, you can select and then take action on (cut, copy, del
 
 1. If you mouseover or tap the grid placeholder, the action menu is displayed.
 
-   ![](assets/screen_shot_2018-03-23at085357.png)
+   ![screen_shot_2018-03-23at085357](assets/screen_shot_2018-03-23at085357.png)
 
    You need to select the **Parent** option.
 
@@ -176,11 +176,11 @@ As with other components, you can select and then take action on (cut, copy, del
     * The next-lowest nested layout container will be in a dark grey.
     * Every successive container will be lin a lighter shade of grey.
 
-   ![](assets/screen_shot_2018-03-23at085636.png)
+   ![screen_shot_2018-03-23at085636](assets/screen_shot_2018-03-23at085636.png)
 
 1. This will highlight the entire grid with its content. The action toolbar will be shown, from where you can select an action such as **Delete.**
 
-   ![](assets/screen_shot_2018-03-23at085724.png)
+   ![screen_shot_2018-03-23at085724](assets/screen_shot_2018-03-23at085724.png)
 
 ## Defining Layouts (Layout mode) {#defining-layouts-layout-mode}
 
@@ -206,7 +206,7 @@ When in layout mode you can perform various actions on a grid:
 
 * Resize the content components using the blue dots. Resizing will always snap-to-grid. When resizing the background grid will be shown to aid alignment:
 
-  ![](assets/screen_shot_2018-03-23at090140.png)
+  ![screen_shot_2018-03-23at090140](assets/screen_shot_2018-03-23at090140.png)
 
   >[!NOTE]
   >
@@ -226,7 +226,7 @@ When in layout mode you can perform various actions on a grid:
 
       The component will be made invisible (it can be restored from the toolbar of the layout container).
 
-  ![](assets/screen_shot_2018-03-23at090246.png)
+  ![screen_shot_2018-03-23at090246](assets/screen_shot_2018-03-23at090246.png)
 
 * In **Layout** mode you can tap/click on the **Drag components here** to select the entire component. This will show the toolbar for this mode.
 
@@ -246,7 +246,7 @@ When in layout mode you can perform various actions on a grid:
 
     * **Float to new line** - Move the component up a position if spacing allows.
 
-  ![](assets/screen_shot_2018-03-23at090829.png)
+  ![screen_shot_2018-03-23at090829](assets/screen_shot_2018-03-23at090829.png)
 
     * **Hide component** - Hide the current component.
 
@@ -259,11 +259,11 @@ When in layout mode you can perform various actions on a grid:
     * **Unhide components** 
       Select the parent components to show the action toolbar with the **Show hidden components** option. In this example, two components are hidden.
 
-  ![](assets/screen_shot_2018-03-23at091200.png)
+  ![screen_shot_2018-03-23at091200](assets/screen_shot_2018-03-23at091200.png)
 
   Selecting the **Show hidden components** option will display in blue the components that are currently hidden in their original positions.
 
-  ![](assets/screen_shot_2018-03-23at091224.png)
+  ![screen_shot_2018-03-23at091224](assets/screen_shot_2018-03-23at091224.png)
 
   Selecting **Restore all** will unhide all hidden components.
 

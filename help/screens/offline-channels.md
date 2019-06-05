@@ -86,25 +86,25 @@ Follow the steps below to enable offline config for a channel:
 
 1. Inspect the channel content and check if it is requested from an AEM Instance (Online).
 
-   ![](assets/chlimage_1-15.png)
+   ![chlimage_1-15](assets/chlimage_1-15.png)
 
 1. Navigate to the channel dashboard and click **... **in the** CHANNEL INFORMATION **Panel to change the properties.
 
-   ![](assets/chlimage_1-16.png)
+   ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. Navigate to the channel properties and make sure the checkbox is disabled under the **Channel** tab. Click **Save & Close**.
 
-   ![](assets/screen_shot_2017-12-19at122422pm.png)
+   ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
    Before content is properly deployed to the device, click the **Update Offline Content**.
 
-   ![](assets/screen_shot_2017-12-19at122637pm.png)
+   ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
    The **Offline** status under **PROPERTIES** also updates accordingly.
 
-   ![](assets/screen_shot_2017-12-19at124735pm.png)
+   ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
 1. Inspect the channel content and check if it is requested from the local Player-Cache. 
 
-   ![](assets/chlimage_1-17.png)
+   ![chlimage_1-17](assets/chlimage_1-17.png)
 

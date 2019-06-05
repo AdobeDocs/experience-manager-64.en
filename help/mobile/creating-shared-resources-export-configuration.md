@@ -49,7 +49,7 @@ To view sample shared resource, see the steps below:
 
    You can view all the properties required for creating your shared resources as shown in the figure below:
 
-   ![](assets/chlimage_1-145.png)
+   ![chlimage_1-145](assets/chlimage_1-145.png)
 
 >[!NOTE]
 >

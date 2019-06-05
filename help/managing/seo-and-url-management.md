@@ -244,12 +244,12 @@ While this is the approach that is documented in the official AEM and Sling docu
 Here is an example of how this issue occurs:
 
 1. A user visits your website and requests `https://www.mydomain.com/my-page.html`
-2. The dispatcher forwards this request to the publish server.
-3. Using `/etc/map`, the publish server resolves this request to `/content/my-brand/my-page` and renders the page.
+1. The dispatcher forwards this request to the publish server.
+1. Using `/etc/map`, the publish server resolves this request to `/content/my-brand/my-page` and renders the page.
 
-4. The dispatcher caches the response at `/my-page.html` and returns the response to the user.
-5. A content author makes a change to this page and activates it.
-6. The dispatcher flush agent sends an invalidation request for `/content/my-brand/my-page`**.** Because the dispatcher does not have a page cached at this path, the old content remains cached and will be stale.
+1. The dispatcher caches the response at `/my-page.html` and returns the response to the user.
+1. A content author makes a change to this page and activates it.
+1. The dispatcher flush agent sends an invalidation request for `/content/my-brand/my-page`**.** Because the dispatcher does not have a page cached at this path, the old content remains cached and will be stale.
 
 There are ways to configure custom dispatch-flush rules that will map the shorter URL to the longer URL for purposes of cache invalidation.
 
@@ -280,7 +280,7 @@ However, there is also a simpler way to manage this:
 
    This is in line with the recommended practice of keeping URLs as short as possible.
 
-2. **Mapping URL Output on Pages**
+1. **Mapping URL Output on Pages**
 
    After you have defined your mappings in the Apache Sling Resource Resolver, you need to use these mappings in your components to ensure that the URLs you output on your pages are short and tidy. You can do this by using the map function of the `ResourceResolver`.
 

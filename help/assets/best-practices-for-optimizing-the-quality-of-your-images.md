@@ -49,18 +49,18 @@ With AEM, you can sharpen images on ingestion, on delivery, or both. In most cas
 
 There are two image sharpening methods that you can use:
 
-* Simple sharpening ( `&op_sharpen`) - Similar to the sharpen filter used in Photoshop, simple sharpening applies basic sharpening to the final view of the image following dynamic resizing. However, this method is not user-configurable. The best practice is to not use &op_sharpen unless required.
-* Unsharp masking ( `&op_USM`) - Unsharp masking is an industry standard sharpening filter. The best practice is to sharpen images with unsharp masking following the guidelines below. Unsharp masking lets you control the following three parameters:
+* Simple sharpening ( `&op_sharpen`) &ndash; Similar to the sharpen filter used in Photoshop, simple sharpening applies basic sharpening to the final view of the image following dynamic resizing. However, this method is not user-configurable. The best practice is to not use &op_sharpen unless required.
+* Unsharp masking ( `&op_USM`) &ndash; Unsharp masking is an industry standard sharpening filter. The best practice is to sharpen images with unsharp masking following the guidelines below. Unsharp masking lets you control the following three parameters:
 
     * `&op_sharpen=`amount,radius,threshold
 
-        * amount (0-5, strength of the effect.)
-        * radius (0-250, width of the "sharpening lines" drawn around the sharpened object, as measured in pixels.)
+        * **[!UICONTROL amount]** (0-5, strength of the effect.)
+        * **[!UICONTROL radius]** (0-250, width of the "sharpening lines" drawn around the sharpened object, as measured in pixels.)
 
           Keep in mind that the parameters radius and amount work against each other. Reducing radius can be compensated by increasing amount. Radius allows finer control as a lower value sharpens only the edge pixels, whereas a higher value sharpens a wider band of pixels.
-        * threshold (0-255, sensitivity of effect.)
+        * **[!UICONTROL threshold]** (0-255, sensitivity of effect.)
 
-          This parameter determines how different the sharpened pixels must be from the surrounding area before they are considered edge pixels and the filter sharpens them. Threshold helps to avoid over-sharpening areas with similar colors, such as skin tones. For example, a threshold value of 12 ignores slight variations in skin tone brightness to avoid adding "noise", while still adding edge contrast to high contrast areas, such as where eyelashes meet skin.
+          This parameter determines how different the sharpened pixels must be from the surrounding area before they are considered edge pixels and the filter sharpens them. The **[!UICONTROL threshold]** parameter helps to avoid over-sharpening areas with similar colors, such as skin tones. For example, a threshold value of 12 ignores slight variations in skin tone brightness to avoid adding "noise", while still adding edge contrast to high contrast areas, such as where eyelashes meet skin.
 
       For more information about how you set these three parameters, including best practices to use with the filter, see the following resources:
 
@@ -72,10 +72,10 @@ There are two image sharpening methods that you can use:
 
 As a best practice, start with the unsharp mask radius parameter. Radius settings that you can start with are the following:
 
-* Website: 0.2-0.3 pixels
-* Photographic printing (250-300 ppi): 0.3-0.5 pixels
-* Offset printing (266-300 ppi): 0.7-1.0 pixels
-* Canvas printing (150 ppi): 1.5-2.0 pixels
+* **[!UICONTROL Website]**: 0.2-0.3 pixels
+* **[!UICONTROL Photographic printing (250-300 ppi)]**: 0.3-0.5 pixels
+* **[!UICONTROL Offset printing (266-300 ppi)]**: 0.7-1.0 pixels
+* **[!UICONTROL Canvas printing (150 ppi)]**: 1.5-2.0 pixels
 
 Gradually increase the amount from 1.75 to 4. If sharpening is still not the way you want, increase the radius by a decimal point and run the amount again from 1.75 to 4. Repeat as necessary.
 
@@ -84,24 +84,24 @@ Leave the monochrome parameter setting at 0.
 ### Best practices for JPEF compression (&qlt=) {#best-practices-for-jpef-compression-qlt}
 
 * This parameter controls JPG encoding quality. A higher value means a higher-quality image but a large file size; alternatively, a lower value means a lower quality image but a smaller file size. The range for this parameter is 0-100.
-* To optimize for quality, do not set the parameter value to 100. The difference between a setting of 90 or 95 and 100 is almost imperceptible, yet 100 unnecessarily increases the size of the image file. Therefore, to optimize for quality but avoid image files becoming too large, set the qlt= value to 90 or 95.
-* To optimize for a small image file size but keep image quality at an acceptable level, set the qlt= value to 80. Values below 70 to 75 results in significant image quality degradation.
-* As a best practice, to stay in the middle, set the qlt= value to 85 to stay in the middle.
-* Using the chroma flag in qlt=
+* To optimize for quality, do not set the parameter value to 100. The difference between a setting of 90 or 95 and 100 is almost imperceptible, yet 100 unnecessarily increases the size of the image file. Therefore, to optimize for quality but avoid image files becoming too large, set the `qlt= value` to 90 or 95.
+* To optimize for a small image file size but keep image quality at an acceptable level, set the `qlt= value` to 80. Values below 70 to 75 results in significant image quality degradation.
+* As a best practice, to stay in the middle, set the `qlt= value` to 85 to stay in the middle.
+* Using the chroma flag in `qlt=`
 
-    * The qlt= parameter has a second setting that lets you turn on RGB chromaticity downsampling using the value ,1 or off using the value ,0.
-    * To keep it simple, start with RGB chromaticity downsampling turned off (,0). This setting usually results in better image quality, especially for synthetic images with lots of sharp edges and contrast.
+    * The `qlt=` parameter has a second setting that lets you turn on RGB chromaticity downsampling using the value `,1` or off using the value `,0`.
+    * To keep it simple, start with RGB chromaticity downsampling turned off (`,0`). This setting usually results in better image quality, especially for synthetic images with lots of sharp edges and contrast.
 
-As a best practice for JPG compression use &qlt=85,0.
+As a best practice for JPG compression use `&qlt=85,0`.
 
 ## Best practices for JPEG sizing (&jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 jpegSize is a useful parameter if you want to guarantee that an image does not exceed a certain size for delivery to devices that have limited memory.
 
-* This parameter is set in kilobytes (jpegSize=&lt;size_in_kilobytes&gt;). It defines the maximum allowed size for image delivery.
-* &jpegSize= interacts with the JPG compression parameter &qlt=. If the JPG response with the specified JPG compression parameter (&qlt=) does not exceed thejpegSize value, the image is returned with &qlt= as defined. Otherwise, &qlt= is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
+* This parameter is set in kilobytes (`jpegSize=&lt;size_in_kilobytes&gt;`). It defines the maximum allowed size for image delivery.
+* `&jpegSize=` interacts with the JPG compression parameter `&qlt=`. If the JPG response with the specified JPG compression parameter (`&qlt=`) does not exceed thejpegSize value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
 
-As a best practice, set &jpegSize= and add the parameter &qlt= if you are delivering JPG images to devices with limited memory.
+As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are delivering JPG images to devices with limited memory.
 
 ## Best practices summary {#best-practices-summary}
 
@@ -118,6 +118,6 @@ If sharpening results are still not satisfactory, increase the radius in decimal
 As you experiment, you may also find the following general suggestions helpful to optimize your workflow:
 
 * Try out and test different parameters in real time, either directly on a URL or using the Scene7 Publishing System's image adjustment functionality which provides real-time previews for adjustment operations.
-* As a best practice, remember that you can group dynamic media image serving commands into an image preset. An image preset is basically URL command macros with custom preset names such as $thumb_low$ and &product_high$. The custom preset name in a URL path makes a call to these presets. Such functionality helps you manage commands and quality settings for different usage patterns of images on your website and shortens the overall length of URLs.
-* AEM also provides more advanced ways to tune image quality, such as applying sharpening images on ingestion. For advanced use cases where this may be an option to further tune and optimize rendering results, Adobe Professional Services can help you with customized insight and best practices.
+* As a best practice, remember that you can group Dynamic Media Image Serving commands into an image preset. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. The custom preset name in a URL path makes a call to these presets. Such functionality helps you manage commands and quality settings for different usage patterns of images on your website and shortens the overall length of URLs.
+* AEM also provides more advanced ways to tune image quality, such as applying sharpening images on ingestion. For advanced use cases where this may be an option to further tune and optimize rendering results, [Adobe Professional Services](https://www.adobe.com/experience-cloud/consulting-services.html) can help you with customized insight and best practices.
 

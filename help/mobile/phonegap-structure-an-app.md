@@ -23,7 +23,7 @@ An AEM Mobile project involves a diverse set of content types including pages, J
 
 The pages of your application should all be located below /content/mobileapps in order for them to be recognized by the AEM Mobile console.
 
-![](assets/chlimage_1-52.png)
+![chlimage_1-52](assets/chlimage_1-52.png)
 
 By AEM convention, the first page of your app should be a redirect to one of it's children which serves as the default language of the app ('en' in both Geometrixx and Starter Kit cases). The top level locale page typically inherits from the foundation 'splash-page' component (/libs/mobileapps/components/splash-page) which takes care of the initialization necessary to support the installation of over-the-air Content Sync updates (contentInit code can be found at /etc/clientlibs/mobile/content-sync/js/contentInit.js).
 

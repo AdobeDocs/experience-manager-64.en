@@ -267,7 +267,7 @@ When you hover over the asterisk or exclamation mark, a tooltip provides more de
  </tbody> 
 </table>
 
-![](assets/chlimage_1-348.png)
+![chlimage_1-348](assets/chlimage_1-348.png)
 
 >[!NOTE]
 >
@@ -296,7 +296,7 @@ You browse permissions by path by expanding/collapsing the nodes and you can tra
 
 You allow or deny permissions by selecting or clearing the appropriate check boxes.
 
-![](assets/cqsecuritypermissionstab.png) 
+![cqsecuritypermissionstab](assets/cqsecuritypermissionstab.png) 
 
 ### Viewing Detailed Permission Information {#viewing-detailed-permission-information}
 
@@ -306,7 +306,7 @@ In addition to viewing information, you can also include or exclude the current 
 
 To access the Detail view, in the **Permissions** tab, click **Details** for any selected group/user and path.
 
-![](assets/permissiondetails.png)
+![permissiondetails](assets/permissiondetails.png)
 
 Details are split into two parts:
 
@@ -390,11 +390,11 @@ To access AEM WCM security, do one of the following:
 
 The following window displays:
 
-![](assets/cqsecuritypage.png)
+![cqsecuritypage](assets/cqsecuritypage.png)
 
 The left tree lists all the users and groups currently in the system. You can select the columns you want displayed, sort the contents of the columns, and even change the order in which the columns are displayed by dragging the column-header to a new position.
 
-![](assets/cqsecuritycolumncontext.png)
+![cqsecuritycolumncontext](assets/cqsecuritycolumncontext.png)
 
 The tabs provide access to various configurations:
 
@@ -422,7 +422,7 @@ To filter users or groups:
 1. In the left tree list, type your filter expression in the space provided. For example, entering **admin** displays all users and groups containing this string.
 1. Click the magnifying glass to filter the list.
 
-   ![](assets/cqsecurityfilter.png)
+   ![cqsecurityfilter](assets/cqsecurityfilter.png)
 
 1. Click the **x** when you want to remove all filters.
 
@@ -434,7 +434,7 @@ To hide users and groups:
 
 1. In the **Security** console, click **Hide Users** or **Hide Groups**. The selected button appears highlighted.
 
-   ![](assets/cqsecurityhideusers.png)
+   ![cqsecurityhideusers](assets/cqsecurityhideusers.png)
 
 1. To make either users or groups reappear, click the corresponding button again.
 
@@ -444,17 +444,17 @@ To create a new user or group:
 
 1. In the **Security** console tree list, click **Edit** and then either **Create User** or **Create Group**.
 
-   ![](assets/cqseruityeditcontextmenu.png)
+   ![cqseruityeditcontextmenu](assets/cqseruityeditcontextmenu.png)
 
 1. Enter the required details, according to whether you are creating a user or a group.
 
     * If you select **Create User,** you enter the Login ID, first and last name, e-mail address and a password. By default, AEM creates a path based on the first letter of the last name, but you can select another path.
 
-   ![](assets/createuserdialog.png)
+   ![createuserdialog](assets/createuserdialog.png)
 
     * If you select **Create Group**, you enter a group ID and an optional description.
 
-   ![](assets/creategroupdialog.png)
+   ![creategroupdialog](assets/creategroupdialog.png)
 
 1. Click **Create**. The user or group you created appears in the tree list.
 
@@ -474,7 +474,7 @@ To modify user and group properties:
 
 1. Click the **Properties** tab, make the required changes, and click **Save**.
 
-   ![](assets/cqsecurityuserprops.png)
+   ![cqsecurityuserprops](assets/cqsecurityuserprops.png)
 
 >[!NOTE]
 >
@@ -494,7 +494,7 @@ Use the following procedure to modify a user's password.
 
 1. Click **Set Password**. The Set Password window opens where you can change your password.
 
-   ![](assets/cqsecurityuserpassword.png)
+   ![cqsecurityuserpassword](assets/cqsecurityuserpassword.png)
 
 1. Enter the new password twice; as they are not displayed in clear text this is for confirmation - if they do not match, the system shows an error.
 1. Click **Set** to activate the new password for the account.
@@ -515,7 +515,7 @@ The **Groups** tab shows you which groups the current account belongs to. You ca
 1. Click the **Groups** tab. You see a list of groups that the account already belongs to.
 1. In the tree list, click the name of the group you want to add to the account to and drag it to the **Groups** pane. (If you want to add multiple users, Shift+click or Control+click those names and drag them.)
 
-   ![](assets/cqsecurityaddusertogroup.png)
+   ![cqsecurityaddusertogroup](assets/cqsecurityaddusertogroup.png)
 
 1. Click **Save** to save your changes.
 
@@ -527,7 +527,7 @@ The **Members** tab only works for groups and shows you which users and groups b
 1. Click the **Members** tab. You see a list of members that already belong to this group.
 1. In the tree list, click the name of the member you want to add to the group and drag it to the **Members** pane. (If you want to add multiple users, Shift+click or Control+click those names and drag them.)
 
-   ![](assets/cqsecurityadduserasmember.png)
+   ![cqsecurityadduserasmember](assets/cqsecurityadduserasmember.png)
 
 1. Click **Save** to save your changes.
 
@@ -541,7 +541,7 @@ To add members to a group at in a certain path:
 
 1. Navigate to the path you want to add permissions to and click **Details**. The lower part of the details window provides information about who has permissions for that page.
 
-   ![](assets/chlimage_1-349.png)
+   ![chlimage_1-349](assets/chlimage_1-349.png)
 
 1. Select the check box in the **Member** column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.
 1. Click **OK** to save your changes.
@@ -562,7 +562,7 @@ To remove a user or group account from a group:
 1. Click the **Groups** tab. You see what groups the selected account belongs to.
 1. In the **Groups** pane, click the name of the user or group you want to remove from the group and click **Remove**. (If you want to remove multiple accounts, Shift+click or Control+click those names and click **Remove**.)
 
-   ![](assets/cqsecurityremoveuserfromgrp.png)
+   ![cqsecurityremoveuserfromgrp](assets/cqsecurityremoveuserfromgrp.png)
 
 1. Click **Save** to save your changes.
 
@@ -574,7 +574,7 @@ To remove accounts from a group:
 1. Click the **Members** tab. You see a list of members that already belong to this group.
 1. In the **Members** pane, click the name of the member you want to remove from the group and click **Remove**. (If you want to remove multiple users, Shift+click or Control+click those names and and click **Remove**.)
 
-   ![](assets/cqsecurityremovemember.png)
+   ![cqsecurityremovemember](assets/cqsecurityremovemember.png)
 
 1. Click **Save** to save your changes.
 
@@ -588,7 +588,7 @@ To remove members from a group at a certain path:
 
 1. Navigate to the path you want to remove permissions to and click **Details**. The lower part of the details window provides information about who has permissions for that page.
 
-   ![](assets/chlimage_1-350.png)
+   ![chlimage_1-350](assets/chlimage_1-350.png)
 
 1. Select the check box in the **Member** column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.
 1. Click **OK** to save your changes.
@@ -613,7 +613,7 @@ To add, modify, or delete permissions:
 
 1. Click the **Permissions** tab.
 
-   ![](assets/cquserpermissions.png)
+   ![cquserpermissions](assets/cquserpermissions.png)
 
 1. In the tree grid, select a check box to allow the selected user or group to perform an action or clear a check box to deny the selected user or group to perform an action. For more information click **Details**.  
 
@@ -637,7 +637,7 @@ To set replication privileges:
 
 1. In the **Replicate** column at the path selected, select a check box to add the replication privilege for that user or group, or clear the check box to remove the replication privilege. AEM displays a red triangle anywhere you have made changes that have not yet been saved.
 
-   ![](assets/cquserreplicatepermissions.png)
+   ![cquserreplicatepermissions](assets/cquserreplicatepermissions.png)
 
 1. Click **Save** to save your changes.
 
@@ -649,7 +649,7 @@ There are two different types of path search:
 
 * Path search - If the search string starts with a "/" then the search will search for the direct sub-nodes of the given path:
 
-![](assets/cqsecuritypathsearch.png)
+![cqsecuritypathsearch](assets/cqsecuritypathsearch.png)
 
 In the search box, you can do the following:
 
@@ -661,7 +661,7 @@ In the search box, you can do the following:
 
 * FullText search - If the search string does not start with a "/" then a fulltext search is executed on all the nodes under the path "/content."
 
-![](assets/cqsecurityfulltextsearch.png)
+![cqsecurityfulltextsearch](assets/cqsecurityfulltextsearch.png)
 
 To perform a search on paths or fulltext:
 
@@ -686,7 +686,7 @@ To impersonate an existing user:
 1. Click the **Impersonators** tab.
 1. Click the user you want to be able to impersonate the selected user. Drag the user (who will impersonate) from the list to the Impersonate pane. The name appears in the list.
 
-   ![](assets/chlimage_1-351.png)
+   ![chlimage_1-351](assets/chlimage_1-351.png)
 
 1. Click **Save**.
 
@@ -697,7 +697,7 @@ To set user and group preferences, including language, window management, and to
 1. Select the user or group whose preferences you want to change in the left-hand tree. To select multiple users or groups, Ctrl+click or Shift+click your selections.
 1. Click the **Preferences** tab.
 
-   ![](assets/cqsecuritypreferences.png)
+   ![cqsecuritypreferences](assets/cqsecuritypreferences.png)
 
 1. Make changes, as necessary to the group or user preferences and click **Save** when finished.
 
@@ -707,11 +707,11 @@ To set users or administrators to have the privileges to delete/activate/deactiv
 
 1. Add the user you want to give privileges to manage other users to the administrator group and save your changes.
 
-   ![](assets/cqsecurityaddmembertoadmin.png)
+   ![cqsecurityaddmembertoadmin](assets/cqsecurityaddmembertoadmin.png)
 
 1. In the user's **Permissions** tab, navigate to "/" and in the Replicate column, select the check box to allow replication at "/" and click **Save**.
 
-   ![](assets/cqsecurityreplicatepermissions.png)
+   ![cqsecurityreplicatepermissions](assets/cqsecurityreplicatepermissions.png)
 
    The selected user now has the ability to deactivate, activate, delete, and create users.
 
