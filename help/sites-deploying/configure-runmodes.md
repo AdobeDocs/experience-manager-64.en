@@ -33,7 +33,6 @@ Installation run modes are provided out-of-the-box:
 
 * `author`
 * `publish`
-
 * `samplecontent`
 * `nosamplecontent`
 
@@ -57,12 +56,7 @@ You can also create your own, customized, run modes. These can be combined to co
 
 * `publish` + `test`
 
-* 
-
-  ```
-  publish + test + golive
-  
-  ```
+*  `publish` + `test` + `golive`
 
 * `publish` + `intranet`
 
@@ -123,11 +117,11 @@ If you have defined configurations for multiple run modes then you need to defin
 
 1. [ `sling.properties` file](#using-the-sling-properties-file)
 1. [ `-r` option](#using-the-r-option)
-1. [system properties ( `-D`)](#using-a-system-property-in-the-start-script)  
+1. [system properties (`-D`)](#using-a-system-property-in-the-start-script)  
 
 1. [Filename detection](#filename-detection-renaming-the-jar-file)
 
-When you are using an application server you can also [define the run mode in `web.xml`](#defining-the-run-mode-in-web-xml-with-application-server).
+When you are using an application server you can also [define the run mode in web.xml](#defining-the-run-mode-in-web-xml-with-application-server).
 
 ### Using the sling.properties file {#using-the-sling-properties-file}
 
@@ -166,7 +160,7 @@ The following two installation run modes can be activated by renaming the instal
 
 The jar file must use the naming convention:
 
-`cq5-<*run-mode*>-p<*port-number*>`
+`cq5-<run-mode>-p<port-number>`
 
 For example, set the `publish` run mode by naming the jar file:
 

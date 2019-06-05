@@ -77,7 +77,7 @@ Mixins applied in CRXDE Lite will show content nodes and trees that are marked a
 
 AEM 6.4 will ship with a health check to alert customers if overlaid or referenced content is used in a way inconsistent with the content classification.
 
-The** Sling/Granite Content Access Check** is a new health check that monitors the repository to see if customer code is improperly accessing protected nodes in AEM.
+The **Sling/Granite Content Access Check** is a new health check that monitors the repository to see if customer code is improperly accessing protected nodes in AEM.
 
 This will scan **/apps** and typically takes several seconds to complete.
 

@@ -197,7 +197,6 @@ The service can also be configured via the Web Console, by:
 >[!NOTE]
 >
 >You can check the role of an instance at any time by checking the presence of the **primary** or **standby** runmodes in the Sling Settings Web Console.  
-
 >
 >This can be done by going to *http://localhost:4502/system/console/status-slingsettings* and checking the **"Run Modes"** line.
 >
@@ -307,7 +306,7 @@ The recommended way to apply hotfixes to a cold stanby setup is by installing th
 
 You can do this by following the steps outlined below:
 
-1. Stop the synchronization process on the cold standby instance by going to the JMX Console and using the **org.apache.jackrabbit.oak: Status ("Standby")**bean. For more information on how to do this, see the section on [Monitoring](#monitoring).
+1. Stop the synchronization process on the cold standby instance by going to the JMX Console and using the **org.apache.jackrabbit.oak: Status ("Standby")** bean. For more information on how to do this, see the section on [Monitoring](#monitoring).
 1. Stop the cold standby instance.
 1. Install the hotfix on the primary instance. For more details on how to install a hotfix, see [How to Work With Packages](/help/sites-administering/package-manager.md).
 1. Test the instance for issues after the installation. 
@@ -387,7 +386,7 @@ It is important to run garbage collection on file datastore instances from time 
 1. After the maintenance process has completed and the instances have been restarted:
 
     * On the primary, run the data store garbage collection via the relevant JMX bean as described in [this article](/help/sites-administering/data-store-garbage-collection.md#running-data-store-garbage-collection-via-the-jmx-console).
-    * On the standby, the data store garbage collection is available only via the **BlobGarbageCollection** MBean - `startBlobGC()`. The **RepositoryManagement **MBean is not available on the standby.
+    * On the standby, the data store garbage collection is available only via the **BlobGarbageCollection** MBean - `startBlobGC()`. The **RepositoryManagement** MBean is not available on the standby.
 
    >[!NOTE]
    >
