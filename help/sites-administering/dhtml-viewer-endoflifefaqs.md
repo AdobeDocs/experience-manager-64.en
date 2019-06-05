@@ -68,9 +68,9 @@ To determine if the viewer your company is using is DHTML and hence affected by 
 
 1. Your company is using a device detection library that is part of the DHTML viewers package:
 
-Look for JS include of "sj_deviceDetect.js" in your code.
+   Look for JS include of "sj_deviceDetect.js" in your code.
 
-This has been replaced by new JS device detection code here: [https://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#Detecting_devices_and_browsers](https://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#Detecting_devices_and_browsers) .
+   This has been replaced by new JS device detection code here: [https://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#Detecting_devices_and_browsers](https://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#Detecting_devices_and_browsers) .
 
 **What is the replacement viewer platform?**
 

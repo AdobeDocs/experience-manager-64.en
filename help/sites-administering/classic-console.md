@@ -174,7 +174,7 @@ By default the tag `titles`in the page properties are displayed in the page lang
 
 By default, the Page Properties dialog displays the tag `titles`according to the page language.
 
-In general, the language of the tag is taken from the page language if the page language is available. When the [ `tag` widget](/help/sites-developing/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
+In general, the language of the tag is taken from the page language if the page language is available. When the [tag widget](/help/sites-developing/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
 
 >[!NOTE]
 >
