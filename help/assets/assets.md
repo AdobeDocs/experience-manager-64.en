@@ -28,7 +28,6 @@ The following activities are those that you typically perform as a digital asset
 * [Metadata Schemas](metadata-schemas.md)
 * [Profiles for Processing Metadata, Images, and Videos](processing-profiles.md)
 * [XMP writeback to renditions](xmp-writeback.md)
-* [Installing and Configuring Video Transcoder with FFmpeg](video-transcoder.md)
 * [Watermarking](watermarking.md)
 * [Asset link sharing](link-sharing.md)
 * [Best Practices for Assets](best-practices-for-assets.md)
