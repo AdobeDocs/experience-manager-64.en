@@ -32,7 +32,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [We.Gov reference site walkthrough](using/gov-reference-site-walkthrough.md)
 + Installation {#install-aem-forms}
   + [Architecture and deployment topologies for AEM Forms](using/aem-forms-architecture-deployment.md)
-    + [Choosing a persistence type for an AEM Forms installation](using/choosing-persistence-type-for-aem-forms.md)
+  + [Choosing a persistence type for an AEM Forms installation](using/choosing-persistence-type-for-aem-forms.md)
   + OSGi {#osgi-installation}
     + [Technical requirements](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)
     + [Install and configure data capture capabilities](using/installing-configuring-aem-forms-osgi.md)
