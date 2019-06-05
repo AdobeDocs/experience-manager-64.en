@@ -18,7 +18,6 @@ discoiquuid: b5ff918d-08ab-4307-a807-693468fc083b
 * [Analytics with External Providers](/help/sites-administering/external-providers.md)
 * [Catalog Producer](/help/sites-administering/catalog-producer.md)
 * [Configuring AEM Assets integration with Marketing Cloud and Creative Cloud](/help/sites-administering/configure-assets-cc-integration.md)
-* [Adobe Experience Manager Desktop App](/help/assets/desktop-app-release-notes.md)
 * [SharePoint Connector](/help/sites-administering/sharepoint-connector.md)
 
 The following information is available about integrating AEM with other Adobe or third-party services:
