@@ -3,7 +3,6 @@ title: Getting Started with AEM Assets
 seo-title: Getting Started with AEM Assets
 description: null
 seo-description: null
-page-status-flag: de-activated
 uuid: 5bb3a807-2bd5-4a6a-a71e-2d20e2838428
 contentOwner: Rick Brough
 discoiquuid: a6ca75c1-57e6-419a-8caf-6ac7100f905f
@@ -24,41 +23,41 @@ In addition, links to documentation for more details on more advanced functional
 
 This section describes navigation basics in AEM Assets. In this tutorial, you will learn how to navigate to tools and assets, how to collapse the pane, and where to see what's been shared, and how to access online help.
 
-1. After logging into AEM, tap or click the Assets icon.
+1. After logging into AEM, tap the **[!UICONTROL Assets]** icon.
 
    ![screen_shot_2018-01-18at111315](assets/screen_shot_2018-01-18at111315.png)
 
    You see the Assets navigation window, where you can choose from the following:
 
-    * Files
-    * Collections
-    * Shared Links
-    * Templates
-    * Catalogs
+    * **[!UICONTROL Files]**
+    * **[!UICONTROL Collections]**
+    * **[!UICONTROL Shared Links]**
+    * **[!UICONTROL Templates]**
+    * **[!UICONTROL Catalogs]**
 
    In this tutorial, you will look at files and shared links, but you could also view your collections, templates, or catalogs.
 
    ![screen_shot_2018-01-18at111556](assets/screen_shot_2018-01-18at111556.png)
 
-   Select **Files** to see all your assets (assets may be within folders). Select a folder to view your assets. Use your browser's back button to go back to a previous page.
+   Select **[!UICONTROL Files]** to see all your assets (assets may be within folders). Select a folder to view your assets. Use your browser's back button to go back to a previous page.
 
    ![screen_shot_2018-01-18at112037](assets/screen_shot_2018-01-18at112037.png)
 
    The Assets pane is where you manage all your assets, including uploading and downloading, editing, publishing, and many other functions.
 
-   Clicking **Adobe Experience Manager** in the top left corner toggles you back and forth between the window you are in and the main Assets navigation page.
+   Clicking **[!UICONTROL Adobe Experience Manager]** in the top left corner toggles you back and forth between the window you are in and the main Assets navigation page.
 
    ![screen_shot_2018-01-18at160440](assets/screen_shot_2018-01-18at160440.png)
 
-   Assets users and administrators also have tools available. Depending on whether you are an administrator or a user, you see different options in **Tools**. Reports are available to all users, and administrators can also access profiles and presets.
+   Assets users and administrators also have tools available. Depending on whether you are an administrator or a user, you see different options in **[!UICONTROL Tools]**. Reports are available to all users, and administrators can also access profiles and presets.
 
-   You access **Tools** by clicking the tool icon (hammer) on the main page and selecting **Assets**.
+   You access **[!UICONTROL Tools]** by clicking the **[!UICONTROL Tool]** icon (hammer) on the main page and selecting **[!UICONTROL Assets]**.
 
    ![screen_shot_2018-01-18at160705](assets/screen_shot_2018-01-18at160705.png)
 
-1. Navigate back to the main Assets navigation page and select **Files**. Select the drop-down icon in the upper left corner. This drop-down menu when selected opens a left pane for easy navigation to other parts of Assets, a view of an asset's timeline, an asset's references, and a filter for easy searching.
+1. Navigate back to the main Assets navigation page and select **[!UICONTROL Files]**. Select the drop-down icon in the upper left corner. This drop-down menu when selected opens a left pane for easy navigation to other parts of Assets, a view of an asset's timeline, an asset's references, and a filter for easy searching.
 
-   Select **Content Only** from the drop-down menu to collapse the rail. 
+   Select **[!UICONTROL Content Only]** from the drop-down menu to collapse the rail. 
 
    ![screen_shot_2018-01-18at162652](assets/screen_shot_2018-01-18at162652.png)
 
@@ -80,7 +79,7 @@ This section describes navigation basics in AEM Assets. In this tutorial, you wi
 
    Clicking the person icon lets you sign out.
 
-1. To find out what links you have shared, navigate to the main Assets navigation screen and select **Shared Links**. Any links shared are displayed.
+1. To find out what links you have shared, navigate to the main Assets navigation screen and select **[!UICONTROL Shared Links]**. Any links shared are displayed.
 
    ![screen_shot_2018-01-18at161817](assets/screen_shot_2018-01-18at161817.png)
 
@@ -88,18 +87,18 @@ This section describes navigation basics in AEM Assets. In this tutorial, you wi
 
 In this tutorial, you learn how to manage your assets by creating folders and uploading and downloading assets.
 
-1. In the main AEM navigation page, select the **Assets** icon.
-1. Select** Files**.
-1. Tap or click **Create** and select **Folder** from the drop-down list. Folders are one way to organize your assets (Tags are another way).
+1. In the main AEM navigation page, select the **[!UICONTROL Assets]** icon.
+1. Select **[!UICONTROL Files]**.
+1. Tap **[!UICONTROL Create]** and select **[!UICONTROL Folder]** from the drop-down list. Folders are one way to organize your assets (Tags are another way).
 
    ![screen_shot_2018-01-24at140924](assets/screen_shot_2018-01-24at140924.png)
 
-1. Enter a name for the folder and click **Create**. In this example, we create a folder named **My New Folder**.
+1. Enter a name for the folder and click **[!UICONTROL Create]**. In this example, we create a folder named **My New Folder**.
 
    ![screen_shot_2018-01-24at141146](assets/screen_shot_2018-01-24at141146.png)
 
-1. Tap or click the folder to open it. You see that there is no content. To add assets, select **Create** and then select **Files** from the drop-down menu. Select some assets to upload and click **Open**.
-1. Your selected items appear in the **Upload** window. Click **Upload**. 
+1. Tap the folder to open it. You see that there is no content. To add assets, select **[!UICONTROL Create]** and then select **[!UICONTROL Files]** from the drop-down menu. Select some assets to upload and click **[!UICONTROL Open]**.
+1. Your selected items appear in the **[!UICONTROL Upload]** window. Click **[!UICONTROL Upload]**. 
 
    ![screen_shot_2018-01-24at141525](assets/screen_shot_2018-01-24at141525.png)
 
@@ -115,39 +114,39 @@ In this tutorial, you learn how to manage your assets by creating folders and up
 
    ![screen_shot_2018-01-24at142316](assets/screen_shot_2018-01-24at142316.png)
 
-1. Select **List** view to get a bulleted list of your assets. Select the **Card** view to return to the previous layout.
+1. Select **[!UICONTROL List]** view to get a bulleted list of your assets. Select the **[!UICONTROL Card]** view to return to the previous layout.
 
    ![screen_shot_2018-01-24at142648](assets/screen_shot_2018-01-24at142648.png)
 
-   Select the **Column** view to have an expanded view of your assets.
+   Select the **[!UICONTROL Column]** view to have an expanded view of your assets.
 
    ![screen_shot_2018-01-24at142811](assets/screen_shot_2018-01-24at142811.png)
 
-1. Navigate to the parent folder by tapping or clicking the drop-down menu in the center of the menu bar. Select **My New Folder **to return to the list of your assets.
+1. Navigate to the parent folder by tapping or clicking the drop-down menu in the center of the menu bar. Select "My New Folder" to return to the list of your assets.
 
    ![screen_shot_2018-01-24at143027](assets/screen_shot_2018-01-24at143027.png)
 
-1. In **Card View**, hover over an asset and another toolbar appears. These are the actions you can perform on this particular asset. You can select, annotate, view the properties of, download, edit, and copy the asset. Hover over the icons in the toolbar to find out what clicking each icon does.
+1. In **[!UICONTROL Card View]**, hover over an asset and another toolbar appears. These are the actions you can perform on this particular asset. You can select, annotate, view the properties of, download, edit, and copy the asset. Hover over the icons in the toolbar to find out what clicking each icon does.
 
    ![screen_shot_2018-01-24at143735](assets/screen_shot_2018-01-24at143735.png)
 
-   In **Column View** and **List View**, you can tap or click the asset to select it and a toolbar appears where you can select additional actions.
+   In **C[!UICONTROL olumn View]** and **[!UICONTROL List View]**, you can tap the asset to select it and a toolbar appears where you can select additional actions.
 
    ![screen_shot_2018-01-24at143914](assets/screen_shot_2018-01-24at143914.png)
 
-1. Select an asset in **Card View** by selecting the checkmark. You can select multiple assets by clicking/tapping them. (In other views, you can click or tap the asset to select it.)
+1. Select an asset in **[!UICONTROL Card View]** by selecting the checkmark. You can select multiple assets by tapping them. (In other views, you can tap the asset to select it.)
 
    ![screen_shot_2018-01-24at144653](assets/screen_shot_2018-01-24at144653.png)
 
-   Notice how the selected image changes color and has a check mark on it. When an assets is selected the toolbar expands with additional options. Click the three dots menu to see more action items.
+   Notice how the selected image changes color and has a check mark on it. When an assets is selected the toolbar expands with additional options. Tap the three dots menu to see more action items.
 
    ![screen_shot_2018-01-24at144748](assets/screen_shot_2018-01-24at144748.png)
 
-1. Click **Download** to open the **Download** window where you can download assets, renditions, and any dynamic assets, if applicable. After selecting what you want to download, click **Download**.
+1. Tap **[!UICONTROL Download]** to open the **[!UICONTROL Download]** window where you can download assets, renditions, and any dynamic assets, if applicable. After selecting what you want to download, tap **[!UICONTROL Download]**.
 
    ![screen_shot_2018-01-24at144913](assets/screen_shot_2018-01-24at144913.png)
 
-1. Either tap or click the x next to the number of selected items or individually de-select the items by clicking on them.
+1. Tap the **[!UICONTROL x]** next to the number of selected items or individually de-select the items by tapping them.
 
    ![screen_shot_2018-01-24at145029](assets/screen_shot_2018-01-24at145029.png)
 
@@ -164,31 +163,31 @@ For more information, see the following topics:
 
 In this tutorial, you learn how to work with individual assets, including using viewer presets, zooming in, and viewing and editing metadata properties, and viewing the timeline.
 
-1. Navigate to **Assets** &gt; **Files** &gt; **My New Folder**, which you created in [Managing Assets](#managing-assets), and select an asset.
+1. Navigate to **[!UICONTROL Assets &gt; Files &gt; My New Folder]**, which you created in [Managing Assets](#managing-assets), and select an asset.
 
    Open the asset. Open the drop-down menu on the left to select an overview, timeline, renditions, and viewers. All the editing toolbars for the image above and below the image. Here is where you preview the image.
 
    ![screen_shot_2018-01-29at161837](assets/screen_shot_2018-01-29at161837.png)
 
-1. From the drop-down menu, select **Overview** to view information on this particular asset. To close this pane, select **Content Only**. 
+1. From the drop-down menu, select **[!UICONTROL Overview]** to view information on this particular asset. To close this pane, select **[!UICONTROL Content Only]**. 
 
    ![screen_shot_2018-01-29at162437](assets/screen_shot_2018-01-29at162437.png)
 
-1. Click the + to zoom into the asset. Select **Renditions** from the drop-down menu to see what other renditions are available for this asset. Select a rendition.
+1. Tap **[!UICONTROL +]** to zoom into the asset. Select **[!UICONTROL Renditions]** from the drop-down menu to see what other renditions are available for this asset. Select a rendition.
 
    ![screen_shot_2018-01-29at162820](assets/screen_shot_2018-01-29at162820.png)
 
-1. Select **Properties** from the editing toolbar above the asset.
+1. Select **[!UICONTROL Properties]** from the editing toolbar above the asset.
 
    ![screen_shot_2018-01-29at162959](assets/screen_shot_2018-01-29at162959.png)
 
-   The **Basic**, **Advanced**, **IPTC**, and **IPTC Extension** tabs display asset metadata that you can edit. In addition, you can view insights into this asset's usage and performance statistics in the **Insight** tab. If an asset is tied to a product, that information is available in the **Product Data** tab.
+   The **[!UICONTROL Basic]**, **[!UICONTROL Advanced]**, **[!UICONTROL IPTC]**, and **[!UICONTROL IPTC Extension]** tabs display asset metadata that you can edit. In addition, you can view insights into this asset's usage and performance statistics in the **[!UICONTROL Insight]** tab. If an asset is tied to a product, that information is available in the **[!UICONTROL Product Data]** tab.
 
-1. In the **Basic** tab, type some additional metadata information, for example **Title** and **Description**. Click **Save** to save your changes. Your changes are visible in the **Basic** tab.
+1. In the **[!UICONTROL Basic]** tab, type some additional metadata information, for example **[!UICONTROL Title]** and **[!UICONTROL Description]**. Tap **[!UICONTROL Save]** to save your changes. Your changes are visible in the **[!UICONTROL Basic]** tab.
 
    ![screen_shot_2018-01-29at163714](assets/screen_shot_2018-01-29at163714.png)
 
-1. Select **Close** to navigate back to **My New Folder** and select **Timeline** in the left drop-down menu.
+1. Select **[!UICONTROL Close]** to navigate back to "My New Folder" and select **[!UICONTROL Timeline]** in the left drop-down menu.
 
    ![screen_shot_2018-01-29at164526](assets/screen_shot_2018-01-29at164526.png)
 
@@ -205,7 +204,7 @@ For more information, see the following:
 
 In this tutorial, you learn how to search for assets.
 
-1. Navigate to **Assets** &gt; **Files** to view all your assets.
+1. Navigate to **[!UICONTROL Assets &gt; Files]** to view all your assets.
 1. In the top navigation bar, select the magnifying glass to enter search. Enter a keyword. AEM displays possible selections.
 
    ![screen_shot_2018-01-31at164820](assets/screen_shot_2018-01-31at164820.png)
@@ -216,13 +215,13 @@ In this tutorial, you learn how to search for assets.
 
    ![screen_shot_2018-01-31at165429](assets/screen_shot_2018-01-31at165429.png)
 
-   You can type in a keyword in the Search toolbar as you did in the previous step. In addition, you can modify your search by a variety of filters such as file size or file type.
+   You can type in a keyword in the search toolbar as you did in the previous step. In addition, you can modify your search by a variety of filters such as file size or file type.
 
-1. Select **File Type** and select the **Images** check box to view all the images in the Assets folder.
+1. Select **[!UICONTROL File Type]** and select the **[!UICONTROL Images]** check box to view all the images in the Assets folder.
 
    ![screen_shot_2018-01-31at165613](assets/screen_shot_2018-01-31at165613.png)
 
-   Notice that checking images adds it to the search toolbar as **File Type:Images**. You can remove that filter by either clicking **x** or removing the checkmark next to the word Images.
+   Notice that checking images adds it to the search toolbar as **[!UICONTROL File Type:Images]**. You can remove that filter by either tapping **[!UICONTROL x]** or removing the checkmark next to the word **[!UICONTROL Images]**.
 
 In this tutorial you learned how to search for an asset. For more information, see the following:
 
