@@ -147,6 +147,6 @@ The player displays the content of **MainAdChannel** and exactly at 11:59 pm (as
 >To learn about AEM Screen Player, please refer to the following resources:
 >
 >* [**AEM Screens Player downloads**](https://download.macromedia.com/screens/)
->* [**Working with AEM Screens Player**](/help/sites-authoring/working-with-screens-player.md)
+>* [**Working with AEM Screens Player**](/help/screens/working-with-screens-player.md)
 >
 
