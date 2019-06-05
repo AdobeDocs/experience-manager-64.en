@@ -54,9 +54,9 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Migrate AEM Forms assets and documents](using/migration-utility.md)
   + [Install Compatibility Package](using/compatibility-package.md)
   + [Available upgrade paths](using/upgrade.md)
-  + [Upgrade to AEM 6.4 forms on OSGi](using/upgrade_forms_osgi.md)
+  + [Upgrade to AEM 6.4 forms on OSGi](using/upgrade-forms-osgi.md)
   + JEE {#jee-upgrade}
-    + [Upgrade to AEM 6.4 forms on JEE](using/upgrade_forms_jee.md)
+    + [Upgrade to AEM 6.4 forms on JEE](using/upgrade-forms-jee.md)
     + [Prepare to upgrade AEM Forms](http://www.adobe.com/go/learn_aemforms_prepareupgrade_64)
     + [Upgrade checklist and planning](http://www.adobe.com/go/learn_aemforms_upgrade_checklist_64)
     + [Upgrading to AEM Forms on JEE for JBoss](http://www.adobe.com/go/learn_aemforms_upgradeJBoss_64)
