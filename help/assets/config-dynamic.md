@@ -14,7 +14,7 @@ legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config
 
 # Configuring Dynamic Media - Hybrid mode{#configuring-dynamic-media-hybrid-mode}
 
-Dynamic Media-Hybrid needs to be enabled and configured for use. Depending on your use case, Dynamic Media has several [supported configurations](#supported-dynamic-media-configurations).
+Dynamic Media &ndash; Hybrid needs to be enabled and configured for use. Depending on your use case, Dynamic Media has several [supported configurations](#supported-dynamic-media-configurations).
 
 >[!NOTE]
 >
@@ -28,10 +28,10 @@ If you use Adobe Experience Manager set up for different environments, such as o
 
 If you are having issues with your Dynamic Media configuration, an important place to look are the log files specific to dynamic media. These are installed automatically when you enable dynamic media:
 
-* s7access.log
-* ImageServing.log
+* `s7access.log`
+* `ImageServing.log`
 
-They are documented in [Monitoring and Maintaining your AEM instance](/help/sites-deploying/monitoring-and-maintaining.md).
+They are documented in [Monitoring and maintaining your AEM instance](/help/sites-deploying/monitoring-and-maintaining.md).
 
 Hybrid publishing and delivery is a core feature of the Dynamic Media addition to Adobe Experience Manager. Hybrid publishing lets you deliver Dynamic Media assets, such as images, sets and video, from the cloud instead of from the AEM publish nodes.
 
@@ -47,7 +47,7 @@ If you are a customer of Dynamic Media, you are required to use hybrid delivery 
 
 ![chlimage_1-507](assets/chlimage_1-507.png) 
 
-## Supported Dynamic Media Configurations {#supported-dynamic-media-configurations}
+## Supported Dynamic Media configurations {#supported-dynamic-media-configurations}
 
 The configuration tasks that follow reference the following terms:
 
@@ -137,7 +137,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 ## Enabling Dynamic Media {#enabling-dynamic-media}
 
-[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable dynamic media by using the **dynamicmedia** run mode as you would, for example, **publish** run mode. Before enabling, make sure to review the [technical requirements.](/help/sites-deploying/technical-requirements.md#requirements-for-aem-dynamic-media-add-on)
+[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of Dynamic Media features, you need to enable dynamic media by using the **[!UICONTROL dynamicmedia]** run mode as you would, for example, **[!UICONTROL publish]** run mode. Before enabling, make sure to review the [technical requirements.](/help/sites-deploying/technical-requirements.md#requirements-for-aem-dynamic-media-add-on)
 
 >[!NOTE]
 >
@@ -204,13 +204,13 @@ In an AEM QuickStart WAR deployment, the port number and context path cannot be 
 
 Dynamic media is not enabled by default. However, if you have previously enabled dynamic media, you may want to turn it off at a later time.
 
-To disable dynamic media after you have enabled it, you remove the **-r dynamicmedia **run mode flag.
+To disable dynamic media after you have enabled it, you remove the **[!UICONTROL -r dynamicmedia]** run mode flag.
 
-To disable Dynamic Media after it has been enabled:
+**To disable Dynamic Media after it has been enabled**:
 
 1. On the command line, when launching the quickstart, you can do either of the following:
 
-    * Do not add **-r dynamicmedia** to the command line when starting the jar file.
+    * Do not add **[!UICONTROL -r dynamicmedia]** to the command line when starting the jar file.
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar
@@ -221,15 +221,15 @@ To disable Dynamic Media after it has been enabled:
 
    >[!NOTE]
    >
-   >After the Dynamic Media run mode is disabled, the workflow step that generates the *cqdam.pyramid.tiff* rendition is skipped automatically. This also disables dynamic rendition support and other Dynamic Media features.
+   >After the Dynamic Media run mode is disabled, the workflow step that generates the `qdam.pyramid.tiff` rendition is skipped automatically. This also disables dynamic rendition support and other Dynamic Media features.
    >
    >Also note that when Dynamic Media run mode is disabled after configuring the AEM server, all assets that were uploaded under that run mode are now invalid.
 
-## (Optional) Migrating Dynamic Media presets and configurations from 6.3 to 6.4 Zero Downtime {#optional-migrating-dynamic-media-presets-and-configurations-from-to-zero-downtime}
+## (Optional) Migrating Dynamic Media presets and configurations from 6.3 to 6.4 zero downtime {#optional-migrating-dynamic-media-presets-and-configurations-from-to-zero-downtime}
 
-If you are upgrading AEM Dynamic Media from 6.3 to 6.4-which now includes the ability for zero downtime (also know as Opt-in) deployments-you are required to run the following curl command to migrate all your presets and configurations from `/etc` to `/conf` in CRXDE Lite.
+If you are upgrading AEM Dynamic Media from 6.3 to 6.4&ndash;which now includes the ability for zero downtime (also known as "Opt-in") deployments&ndash;you are required to run the following curl command to migrate all your presets and configurations from `/etc` to `/conf` in **[!UICONTROL CRXDE Lite]**.
 
-**Note**: If you run your AEM instance in compatibility mode--that is, you have the compatibility packaged installed--you do not need to run these commands.  
+**Note**: If you run your AEM instance in compatibility mode&ndash;that is, you have the compatibility packaged installed&ndash;you do not need to run these commands.  
   
 To migrate your custom presets and configurations from `/etc` to `/conf`, run the following Linux curl command:
 
@@ -239,7 +239,7 @@ For all upgrades, either with or without the compatibility package, you can copy
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
 
-## Configuring Image Replication {#configuring-image-replication}
+## Configuring image replication {#configuring-image-replication}
 
 Dynamic Media image delivery works by publishing image assets, including video thumbnails, from AEM Author and replicating them to Adobe's on-demand replication service (the Replication Service URL). Assets are then delivered by way of the on-demand image delivery service (the Image Service URL).
 
@@ -260,17 +260,17 @@ After you have configured the replication agent, you need to [validate and test 
 >
 >An image that requires more than the maximum memory limit will be rejected.
 >
->To change the memory limit for PTIFF creation, navigate to **Tools** &gt; **Operations** &gt; **Web Console**&gt; **Adobe CQ Scene7 PTiffManager** and change the **maxMemory** value.
+>To change the memory limit for PTIFF creation, navigate to **[!UICONTROL Tools &gt; Operations &gt; Web Console &gt; Adobe CQ Scene7 PTiffManager]** and change the **[!UICONTROL maxMemory]** value.
 
 ### Setting up Authentication {#setting-up-authentication}
 
-You need to set up replication authentication on author in order to replicate images to the Dynamic Media image delivery service. You do this by obtaining a KeyStore and then saving it under the **dynamic-media-replication** user and configuring it. Your company administrator should have received a welcome email with the KeyStore file and necessary credentials during the provisioning process. If you did not receive this, please contact Customer Care.
+You need to set up replication authentication on author in order to replicate images to the Dynamic Media image delivery service. You do this by obtaining a KeyStore and then saving it under the **[!UICONTROL dynamic-media-replication]** user and configuring it. Your company administrator should have received a welcome email with the KeyStore file and necessary credentials during the provisioning process. If you did not receive this, please contact Customer Care.
 
-To set up authentication:
+**To set up authentication**:
 
 1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account. 
 1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools &gt;  Security &gt; Users]**.
-1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
+1. On the User Management page, navigate to the **[!UICONTROL dynamic-media-replication]** user, then tap to open.
 
    ![dm-replication](assets/dm-replication.png)
 
@@ -278,31 +278,29 @@ To set up authentication:
 
    ![dm-replication-keystore](assets/dm-replication-keystore.png)
 
-1. Enter a password and confirm the password in the [!UICONTROL Set KeyStore Access Password] dialog box.
+1. Enter a password and confirm the password in the **[!UICONTROL Set KeyStore Access Password]** dialog box.
 
    >[!NOTE]
    >
-   >Remember the password that you enter. You will need to enter it again when you configure the Replication Agent later.
+   >Remember the password that you enter. You will need to enter it again when you configure the **[!UICONTROL Replication Agent]** later.
 
    ![chlimage_1-508](assets/chlimage_1-508.png)
 
-1. On the **Edit User Settings For dynamic-media-replication** page, expand the **Add Private Key from KeyStore file **area and add the following (see the images that follow):
+1. On the **[!UICONTROL Edit User Settings For dynamic-media-replication]** page, expand the **[!UICONTROL Add Private Key from KeyStore file]** area and add the following (see the images that follow):
 
-   * In the **New Alias** field, enter the name of an alias that you will later use in the replication configuration; for example, **replication**.
-   * Tap **KeyStore File**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **Open**.
-   * In the **KeyStore File Password** field, enter the KeyStore File password. This is **not** the KeyStore password that you created in Step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
-   * In the **Private Key Password** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.
-   * In the **Private Key Alias** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
+   * In the **[!UICONTROL New Alias]** field, enter the name of an alias that you will later use in the replication configuration; for example, **replication**.
+   * Tap **[!UICONTROL KeyStore File]**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **[!UICONTROL Open]**.
+   * In the **[!UICONTROL KeyStore File Password]** field, enter the KeyStore File password. This is _not_ the KeyStore password that you created in step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
+   * In the **[!UICONTROL Private Key Password]** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.
+   * In the **[!UICONTROL Private Key Alias]** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
 
    ![edit_settings_fordynamic-media-replication2](assets/edit_settings_fordynamic-media-replication2.png)
 
-1. Tap **Save & Close** to save your changes to this user.
+1. Tap **[!UICONTROL Save & Close]** to save your changes to this user.
 
    Next, you need to [configure the replication agent.](#configuring-the-replication-agent)
 
 ### Configuring the Replication Agent {#configuring-the-replication-agent}
-
-To configure the replication agent:
 
 1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools &gt;  Deployment &gt; Replication &gt; Agents on author]**.
 1. On the Agents on author page, tap **[!UICONTROL Dynamic Media Hybrid Image Replication (s7delivery)]**.
@@ -346,7 +344,7 @@ Replication test succeeded
 >You can also check by doing one of the following:
 >
 >* Check the replication logs to make sure the asset is replicated. 
->* Publish an image. Tap the image and select **[!UICONTROL Viewers]** in drop-down menu. Select a viewer preset, then tap **[!UICONTROL URL]**, and copy/paste the URL in the browser to verify that you can see the image.
+>* Publish an image. Tap the image and select **[!UICONTROL Viewers]** in drop-down menu. Select a viewer preset, then tap **[!UICONTROL URL]**, and copy and paste the URL in the browser to verify that you can see the image.
 
 ### Troubleshooting Authentication {#troubleshooting-authentication}
 
@@ -375,7 +373,7 @@ Replication test to s7delivery:https://s7bern.macromedia.com:8580/is-publish/
  Server returned status code 401 with message: Authorization required.
 ```
 
-**Solution**: Check that the `KeyStore` is saved to **dynamic-media-replication** user and is provided with the correct password.
+**Solution**: Check that the `KeyStore` is saved to **[!UICONTROL dynamic-media-replication]** user and is provided with the correct password.
 
 #### Problem: Could Not Decrypt Key - Could Not Decrypt Data {#problem-could-not-decrypt-key-could-not-decrypt-data}
 
@@ -415,7 +413,7 @@ java.io.IOException: Failed to execute request 'https://replicate-na.assetsadobe
 
 #### Problem: KeyStore is either not set up or it is not initialized {#problem-keystore-is-either-not-set-up-or-it-is-not-initialized}
 
-This issue may be caused by a hot fix, or a feature pack overwriting the dynamic-media-user or keystore node.
+This issue may be caused by a hot fix, or a feature pack overwriting the **[!UICONTROL dynamic-media-user]** or **[!UICONTROL keystore]** node.
 
 Replication log example:
 
@@ -432,12 +430,12 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
 
 **Solution**:
 
-1. Navigate to the User Management page:
+1. Navigate to the **[!UICONTROL User Management]** page:
 
    `localhost:4502/libs/granite/security/content/useradmin.html`
-1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
-1. Tap the **[!UICONTROL KeyStore]** tab. If the [!UICONTROL Create KeyStore] button appears, then you need to redo the steps under [Setting up Authentication](#setting-up-authentication) earlier.
-1. If you had to redo the KeyStore setup, you may need to do [Configuring the Replication Agent](config-dynamic.md#configuring-the-replication-agent) again, as well.
+1. On the **[!UICONTROL User Management]** page, navigate to the **[!UICONTROL dynamic-media-replication]** user, then tap to open.
+1. Tap the **[!UICONTROL KeyStore]** tab. If the **[!UICONTROL Create KeyStore]** button appears, then you need to redo the steps under [Setting up Authentication](#setting-up-authentication) earlier.
+1. If you had to redo the **[!UICONTROL KeyStore]** setup, you may need to do [Configuring the Replication Agent](config-dynamic.md#configuring-the-replication-agent) again, as well.
 
    Reconfigure the s7delivery Replication Agent.
 
@@ -463,30 +461,28 @@ Replicate log example:
 
 **Solution:**
 
-To fix this issue:
-
 1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
 
    `localhost:4502/crx/de/index.jsp`
 
-1. Navigate to the s7delivery Replication Agent node.
+1. Navigate to the **[!UICONTROL s7delivery Replication Agent]** node.
 
    `localhost:4502/crx/de/index.jsp#/etc/replication/agents.author/s7delivery/jcr:content`  
 
-1. Add this setting to the replication agent (Boolean with value set to **True**):
+1. Add this setting to the replication agent (Boolean with value set to **[!UICONTROL True]**):
 
    `enableOauth=true`
 
 1. Near the upper-left corner of the page, tap **[!UICONTROL Save All]**.
 
-### Testing your Configuration {#testing-your-configuration}
+### Testing your configuration {#testing-your-configuration}
 
 Adobe recommends that you perform an end-to-end test of the configuration.
 
 Be sure you have already done the following prior to beginning this test:
 
 * Added Image Presets.
-* Configure **Dynamic Media Configuration (Pre 6.3)** under Cloud Services. The Image Service URL is required for this test
+* Configure **Dynamic Media Configuration (Pre 6.3)** under **[!UICONTROL Cloud Services]**. The Image Service URL is required for this test
 
 To test your configuration:
 
@@ -511,42 +507,42 @@ As part of the configuration, you need to enter a registration ID, video service
 
 >[!NOTE]
 >
->Before setting up Dynamic Media Cloud services, be sure to have your publish instance set up. You must also have replication set up before configuring Dynamic Media Cloud services.
+>Before setting up Dynamic Media Cloud Services, be sure to have your publish instance set up. You must also have replication set up before configuring Dynamic Media Cloud Services.
 
-To configure dynamic media cloud services:
+**To configure dynamic media cloud services**:
 
 1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; Cloud Services &gt; Dynamic Media Configuration (Pre-6.3)]**.
-1. On the [!UICONTROL Dynamic Media Configuration Browser] page, in the left pane, select **[!UICONTROL global]**, then tap **[!UICONTROL Create]**.
-1. In the [!UICONTROL Create Dynamic Media Configuration] dialog box, in the [!UICONTROL Title] field, type a title.
+1. On the **[!UICONTROL Dynamic Media Configuration Browser]** page, in the left pane, select **[!UICONTROL global]**, then tap **[!UICONTROL Create]**.
+1. In the **[!UICONTROL Create Dynamic Media Configuration]** dialog box, in the **[!UICONTROL Title]** field, type a title.
 1. If you are configuring Dynamic Media for video,
 
-    * In the [!UICONTROL Registration ID] field, type your registration ID.
-    * In the [!UICONTROL Video Service URL] field, enter the video service URL for the Dynamic Media Gateway.
+    * In the **[!UICONTROL Registration ID]** field, type your registration ID.
+    * In the **[!UICONTROL Video Service URL]** field, enter the video service URL for the Dynamic Media Gateway.
 
-1. If you are configuring Dynamic Media for imaging, in the [!UICONTROL Image Service URL] field, enter the image service URL for the Dynamic Media Gateway.
+1. If you are configuring Dynamic Media for imaging, in the **[!UICONTROL Image Service URL]** field, enter the image service URL for the Dynamic Media Gateway.
 1. Tap **[!UICONTROL Save]** to return to the Dynamic Media Configuration Browser page.
 1. Tap the AEM logo to access the global navigation console.
 
-## Configuring Video Reporting {#configuring-video-reporting}
+## Configuring video reporting {#configuring-video-reporting}
 
-You can configure video reporting across multiple installations of AEM using Dynamic Media Hybrid.
+You can configure video reporting across multiple installations of AEM using Dynamic Media &ndash; Hybrid mode.
 
-**When to use:** At the time you configure Dynamic Media Configuration (Pre 6.3), numerous features are started including video reporting. The configuration creates a report suite in a regional Analytics company. If you configure multiple Author nodes, you create a separate report suite for each one. As a result, reporting data is inconsistent among installations. Furthermore, if each Author node refers to the same Hybrid Publish server, the last Author installation changes the destination report suite for all video reporting. This issue overloads the Analytics system with too many report suites.
+**When to use:** At the time you configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**, numerous features are started including video reporting. The configuration creates a report suite in a regional Analytics company. If you configure multiple Author nodes, you create a separate report suite for each one. As a result, reporting data is inconsistent among installations. Furthermore, if each Author node refers to the same Hybrid Publish server, the last Author installation changes the destination report suite for all video reporting. This issue overloads the Analytics system with too many report suites.
 
 **Get started:** Configure video reporting by completing the following three tasks.
 
-1. Create a Video Analytics preset package after you configure Dynamic Media Configuration (Pre 6.3) on the first Author node. This initial task is important because it allows a new configuration to continue using the same report suite.
+1. Create a Video Analytics preset package after you configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]** on the first Author node. This initial task is important because it allows a new configuration to continue using the same report suite.
 1. Install the Video Analytics preset package to any ***new*** Author node ***before*** you configure Dynamic Media Configuration (Pre 6.3).
 
 1. Verify and debug the package installation.
 
-### Creating a Video Analytics Preset package after configuring the first Author node {#creating-a-video-analytics-preset-package-after-configuring-the-first-author-node}
+### Creating a Video Analytics preset package after configuring the first Author node {#creating-a-video-analytics-preset-package-after-configuring-the-first-author-node}
 
 When you have finished this task, you will have a package file that contains the Video Analytics presets. These presets contain a report suite, the tracking server, the tracking namespace, and the Marketing Cloud Organization ID, if available.
 
-1. If you have not already done so, configure Dynamic Media Configuration (Pre 6.3).
-1. (Optional) View and copy the Report Suite ID (you must have access to the JCR). While having the Report Suite ID is not required, it makes validation easier.
-1. Create a package using Package Manager.
+1. If you have not already done so, configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**.
+1. (Optional) View and copy the **[!UICONTROL Report Suite ID]** (you must have access to the JCR). While having the **[!UICONTROL Report Suite ID]** is not required, it makes validation easier.
+1. Create a package using **[!UICONTROL Package Manager]**.
 1. Edit the package to include a filter.
 
    In AEM: `/conf/global/settings/dam/dm/presets/analytics/jcr:content/userdata`

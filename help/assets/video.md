@@ -4,7 +4,7 @@ seo-title: Video
 description: Learn how to work with video in dynamic media
 seo-description: Learn how to work with video in dynamic media
 uuid: 15e89f88-2787-472d-bbb6-d370bbab9228
-contentOwner: msm-service
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
