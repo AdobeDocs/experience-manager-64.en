@@ -38,8 +38,8 @@ Actions on workflows can be undertaken if:
 
 Workflow models inherit a default access control list (ACL) for controlling how users can interact with workflows. To customize user access for a workflow, modify the Access Control List (ACL) in the repository for the folder containing the workflow model node:
 
-* [Apply an ACL for the specific workflow model to `/var/workflow/models`](/help/sites-administering/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models)
-* [Create a subfolder in `/var/workflow/models` and apply the ACL to that](/help/sites-administering/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that)
+* [Apply an ACL for the specific workflow model to /var/workflow/models](/help/sites-administering/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models)
+* [Create a subfolder in /var/workflow/models and apply the ACL to that](/help/sites-administering/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that)
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ You can then add an ACL to the folder itself.
    `/var/workflow/models/prototypes`
 
 1. Click the **Access Control** tab.
-1. In the **Applicable Access Control Policy **table, click the plus icon to **Add** an entry.
+1. In the **Applicable Access Control Policy** table, click the plus icon to **Add** an entry.
 1. In the **Local Access Control Policies** (**Access Control List**) table, click the plus icon to **Add Entry**.
 1. In the **Add New Entry** dialog add a new ACE with the following properties:
 
