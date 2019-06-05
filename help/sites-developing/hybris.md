@@ -55,9 +55,7 @@ The eCommerce framework can be used with any eCommerce solution, the engine bein
 
 * The `cq:commerceProvider` property is also used to reference the appropriate commerce factory definition.
 
-    * For example, a `cq:commerceProvider` property with the value `hybris` will correlate to the OSGi configuration for **Day CQ Commerce Factory for Hybris**
-
-    (com.adobe.cq.commerce.hybris.impl.HybrisServiceFactory) - where the parameter `commerceProvider` also has the value `hybris`.
+    * For example, a `cq:commerceProvider` property with the value `hybris` will correlate to the OSGi configuration for **Day CQ Commerce Factory for Hybris** (com.adobe.cq.commerce.hybris.impl.HybrisServiceFactory) - where the parameter `commerceProvider` also has the value `hybris`.
 
     * Here further properties, such as **Catalog version** can be configured (when appropriate and available).
 
@@ -414,8 +412,6 @@ public class AxisFilter implements VariantFilter {
 
         * `int CommerceSession.getQuantityBreakpoints(Product product)`
         * `String CommerceSession.getProductPrice(Product product)`
-
-  ``
 
 **Storage**
 
