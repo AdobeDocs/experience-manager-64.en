@@ -387,9 +387,10 @@ For cases when products do not contain assets (images) to be imported, you can i
 
 ![Architecture diagram](assets/chlimage_1-172.png) 
 
+<!--delete
 #### Import Throttling and Batch Saves {#import-throttling-and-batch-saves}
 
-[Import throttling](/help/sites-deploying/scaling.md#import-throttling) and [batch saves](/help/sites-deploying/scaling.md#batch-saves) are two general [scaling](/help/sites-deploying/scaling.md) mechanisms that can help when importing large volumes of data.
+[Import throttling](/help/sites-deploying/scaling.md#import-throttling) and [batch saves](/help/sites-deploying/scaling.md#batch-saves) are two general [scaling](/help/sites-deploying/scaling.md) mechanisms that can help when importing large volumes of data.-->
 
 #### Performance Testing {#performance-testing}
 

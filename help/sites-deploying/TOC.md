@@ -98,8 +98,6 @@ user-guide-title: AEM 6.4 Deploying Guide
 + Deleted section Remove duplicates and move others to sections above {#deleted}
     + [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)
     + [Device Control Center](device-control-center.md)
-    + [Performance](performance-lp.md)
-    + [Scaling](scaling.md)
 + Missing TOC files that need to be linked to - please fix {#missing}
     + [webconsole](web-console.md)
     + [aemscreensintro](aem-screens-introduction.md)
@@ -115,13 +113,6 @@ To be removed:
 [Device Control Center](device-control-center.md)
 [repository-restructuring-in-aem64](repository-restructuring-in-aem64.md)
 [Web Console] (configuring-web-console.md)
-
-Deactivated on helpx:
-[Performance](performance-lp.md)
-[Scaling](scaling.md)
-
-Commented out for link check:
-[Performance Guidelines PDF](DO-NOT-DELETE-performance-guidelines-pdf.md)
 
 Redirects:
     [(Redirect)Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
