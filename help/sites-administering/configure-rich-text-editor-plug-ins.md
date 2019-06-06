@@ -33,7 +33,7 @@ By default, `format`, `link`, `list`, `justify`, and `control` plugins and all t
 >The respective rtePlugins node is referred to as &lt;*rtePlugins-node*&gt; to avoid duplication in this article.
 
 1. Using CRXDE Lite, locate the text component for your project. 
-1. Create the parent node of `<*rtePlugins-node*>` if it does not exist, before configuring any RTE plug-ins:
+1. Create the parent node of `<rtePlugins-node>` if it does not exist, before configuring any RTE plug-ins:
 
     * Depending on your component the parent nodes:
 
@@ -41,14 +41,14 @@ By default, `format`, `link`, `list`, `justify`, and `control` plugins and all t
         * an alternative configuration node: .../text/cq:editConfig/cq:inplaceEditing/inplaceEditingTextConfig
         * text: .../text/dialog/items/tab1/items/**text**
 
-    * Are of type:** jcr:primaryType** `cq:Widget`
+    * Are of type: **jcr:primaryType** `cq:Widget`
     * Both have the following property:
 
         * **Name** `name`
         * **Type** `String`
         * **Value** `./text`
 
-1. Depending on the UI you are configuring for, create a node `<*rtePlugins-node*>`, if it does not exist:
+1. Depending on the UI you are configuring for, create a node `<rtePlugins-node>`, if it does not exist:
 
     * **Name** `rtePlugins`
     * **Type** `nt:unstructured`
@@ -113,7 +113,7 @@ To configure RTE to display the required icons, follow these steps.
 
 1. Navigate to your component; for example:
 
-   `/apps/<*myProject*>/components/text`
+   `/apps/<myProject>/components/text`
 
 1. Navigate to the node `rtePlugins/edit`. See [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin) if the node does not exist.
 1. Create the `features` property on the `edit` node and add one or more of the features.
@@ -154,7 +154,7 @@ For links, you can also define the protocols that are automatically accepted.
 
 To configure which formats are allowed when pasting text into AEM from another program:
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/edit`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
+1. In your component, navigate to the node `<rtePlugins-node>/edit`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create a node under the `edit` node to hold the HTML paste rules:
 
     * **Name** `htmlPasteRules`
@@ -271,7 +271,7 @@ For later (re-)configurations, say to add more styles, follow only the instructi
 
 This is done by enabling the styles plug-in.
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/styles`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
+1. In your component, navigate to the node `<rtePlugins-node>/styles`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `styles` node:
 
     * **Name** `features`
@@ -288,8 +288,8 @@ This is done by enabling the styles plug-in.
 
 Then, specify the location(s) of the style sheet(s) you want to reference:
 
-1. Navigate to the root node of your text component, for example `/apps/<*myProject*>/components/text`.
-1. Add the property `externalStyleSheets` to the parent node of `<*rtePlugins-node*>`:
+1. Navigate to the root node of your text component, for example `/apps/<myProject>/components/text`.
+1. Add the property `externalStyleSheets` to the parent node of `<rtePlugins-node>`:
 
     * **Name** `externalStyleSheets`
     * **Type** `String[]` (multi-string; click **Multi** in CRXDE) 
@@ -320,7 +320,7 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 
 ### Specify the available Styles in the pop-up list {#stylesindropdown}
 
-1. In the component definition, navigate to the node `<*rtePlugins-node*>/styles`, as created in [Enabling the style drop-down selector](#styleselectorlist).
+1. In the component definition, navigate to the node `<rtePlugins-node>/styles`, as created in [Enabling the style drop-down selector](#styleselectorlist).
 1. Under the node `styles`, create a new node (also called `styles`) to hold the list being made available:
 
     * **Name** `styles`
@@ -370,7 +370,7 @@ For later (re-)configurations, say to add more formats, follow only the relevant
 
 First enable the paraformat plug-in:
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/paraformat`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
+1. In your component, navigate to the node `<rtePlugins-node>/paraformat`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `paraformat` node:
 
     * **Name** `features`
@@ -395,7 +395,7 @@ First enable the paraformat plug-in:
 
 Paragraph formats may be made available for selection by:
 
-1. In the component definition, navigate to the node `<*rtePlugins-node*>/paraformat`, as created in [Enabling the format drop-down selector](#styleselectorlist).
+1. In the component definition, navigate to the node `<rtePlugins-node>/paraformat`, as created in [Enabling the format drop-down selector](#styleselectorlist).
 1. Under the `paraformat` node create a new node, to hold the list of formats:
 
     * **Name** `formats`
@@ -440,7 +440,7 @@ You can configure the RTE to make your own selection of characters available; ei
 
 ### Define a single character {#definesinglechar}
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/misctools`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
+1. In your component, navigate to the node `<rtePlugins-node>/misctools`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `misctools` node:
 
     * **Name** `features`
@@ -525,7 +525,7 @@ Styles are typically applied on text, but a separate set of Styles can also be a
 >
 >Copying and pasting tables in or from RTE component is browser-dependent. It is not supported out of the box for all browsers. You may get varied results depending on table structure and browser. For example, when you copy and paste a table in a RTE component in Mozilla Firefox in Classic UI and Touch UI, the layout of the table is not preserved.
 
-1. Within your component navigate to the node `<*rtePlugins-node*>/table`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
+1. Within your component navigate to the node `<rtePlugins-node>/table`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `table` node:
 
     * **Name** `features`
@@ -635,7 +635,7 @@ To add more dictionaries, if required, follow these steps.
 
 RTE allows authors to undo or redo a few last edits. By default, 50 edits are stored in the history. You can configure this value as required.
 
-1. Within your component navigate to the node `<*rtePlugins-node*>/undo`. Create these nodes if they do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
+1. Within your component navigate to the node `<rtePlugins-node>/undo`. Create these nodes if they do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. On the `undo` node create the property:
 
     * **Name** `maxUndoSteps`
@@ -670,7 +670,7 @@ When indentation is enabled (default) you can define the size of indent:
 >
 >This indent size is only applied to paragraphs (blocks) of text; it does not affect the indentation of actual lists.
 
-1. Within your component navigate to the node `<*rtePlugins-node*>/lists`. Create these nodes if they do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
+1. Within your component navigate to the node `<rtePlugins-node>/lists`. Create these nodes if they do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. On the `lists` node create the `identSize` parameter:
 
     * **Name**: `identSize`
@@ -707,7 +707,7 @@ When adding links in AEM, you can define:
 To configure how links are added in AEM from another program, define the HTML rules.
 
 1. Using CRXDE Lite, locate the text component for your project.
-1. Create a new node at the same level as <*rtePlugins-node*>, that is, create the node under the parent node of `<rtePlugins-node>`:
+1. Create a new node at the same level as `<rtePlugins-node>`, that is, create the node under the parent node of `<rtePlugins-node>`:
 
     * **Name** `htmlRules`
     * **Type** `nt:unstructured`
@@ -722,8 +722,8 @@ To configure how links are added in AEM from another program, define the HTML ru
    >
    >The location of the `../items/text` node can vary, depending on the structure of your dialog; two examples include:
    >
-   >* `/apps/<*myProject*>/components/text/dialog/items/text`
-   >* `/apps/<*myProject*>/components/text/dialog/items/panel/items/text`
+   >* `/apps/myProject>/components/text/dialog/items/text`
+   >* `/apps/<myProject>/components/text/dialog/items/panel/items/text`
 
 1. Under `htmlRules`, create a new node.
 
