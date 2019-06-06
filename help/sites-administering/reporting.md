@@ -45,7 +45,7 @@ There are various formats of reports available. The following reports all use co
 >[!NOTE]
 >
 >The following reports each have their own format and customization:  
-
+>
 >
 >* [Health Check](#health-check) uses selection fields to specify the data you want to report on.  
 >* [Disk Usage](#disk-usage) uses links to drill down through the repository structure.
@@ -183,7 +183,7 @@ When snapshots are being collected you can:
 >[!NOTE]
 >
 >Snapshots are stored under `/var/reports/...` where the remainder of the path mirrors the path of the respective report and ID created when the report was finished.  
-
+>
 >
 >Old snapshots can be manually purged, if you are completely sure that you no longer require those instances.
 
@@ -324,7 +324,8 @@ The report starts in the root ( / ) of the repository; by clicking on a particul
 
 ### Health Check {#health-check}
 
-This report analyzes the current request log:  
+This report analyzes the current request log:
+
 `<cq-installation-dir>/crx-quickstart/logs/request.log`  
 to help you identify the most expensive request(s) within a given period.
 
@@ -522,7 +523,7 @@ As no report configuration is allowed in the publish environment, the **Edit** a
 
 >[!CAUTION]
 >
->Access to these reports may be a security issue; therefore we recommend you configure the Dispatcher so that `/etc/reports` is not available to external visitors. See the [Security Checklist](/content/docs/en/aem/6-3/deploy/security_checklist.md#restrict access via the dispatcher) for more details.
+>Access to these reports may be a security issue; therefore we recommend you configure the Dispatcher so that `/etc/reports` is not available to external visitors. See the [Security Checklist](security-checklist.md) for more details.
 
 ## Permissions Needed for Running Reports {#permissions-needed-for-running-reports}
 
