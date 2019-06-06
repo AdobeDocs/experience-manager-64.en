@@ -11,7 +11,7 @@ topic-tags: introduction
 discoiquuid: 67b03098-c58d-4a57-90e0-e4ddd78e5d99
 ---
 
-# Interactive Communications Overview{#interactive-communications-overview}
+# Interactive Communications Overview {#interactive-communications-overview}
 
 This article includes overview, sample use cases, creation workflow, and differences between Interactive Communication and letter.
 

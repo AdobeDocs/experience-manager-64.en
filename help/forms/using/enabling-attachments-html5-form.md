@@ -19,10 +19,10 @@ You can upload, preview, and submit attachments with HTML5 forms. By default, th
 
 1. In the custom profile, use the following configurations:
 
-    * **multiSelect **-&gt; true or false (true by default)
-    * **fileSizeLimit **-&gt; value_in_mb (say 5) (2 MBs by default)
-    * **buttonText **-&gt; Button text for pop-up window ("Attach" by default) 
-    * **accept **-&gt; file types to accept ("audio/&ast;, video/&ast;, image/&ast;, text/&ast;, .pdf" by default)
+    * **multiSelect** -&gt; true or false (true by default)
+    * **fileSizeLimit** -&gt; value_in_mb (say 5) (2 MBs by default)
+    * **buttonText** -&gt; Button text for pop-up window ("Attach" by default) 
+    * **accept** -&gt; file types to accept ("audio/&ast;, video/&ast;, image/&ast;, text/&ast;, .pdf" by default)
 
    >[!NOTE]
    >

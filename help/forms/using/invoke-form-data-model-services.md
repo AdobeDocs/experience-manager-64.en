@@ -9,7 +9,7 @@ topic-tags: develop
 discoiquuid: aa3e50f1-8f5a-489d-a42e-a928e437ab79
 ---
 
-# API to invoke form data model service from adaptive forms{#api-to-invoke-form-data-model-service-from-adaptive-forms}
+# API to invoke form data model service from adaptive forms {#api-to-invoke-form-data-model-service-from-adaptive-forms}
 
 ## Overview {#overview}
 

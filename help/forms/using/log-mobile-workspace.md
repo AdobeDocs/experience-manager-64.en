@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: e5aa84a5-9b47-4cc8-8622-510a0a2950bf
 ---
 
-# Logging in to AEM Forms app{#logging-in-to-aem-forms-app}
+# Logging in to AEM Forms app {#logging-in-to-aem-forms-app}
 
 When you start your AEM Forms app, you first need to provide your login credentials and a AEM Forms server URL.
 
@@ -32,4 +32,4 @@ When you log in to the app, you are directed to the [**Home** screen](/help/form
 >
 >In the offline mode, only the last logged in user can log in to the app.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

@@ -4,7 +4,7 @@ seo-title: Managing Assets
 description: Learn how to work with dynamic media assets
 seo-description: Learn how to work with dynamic media assets
 uuid: 9c7f9d4e-caab-434f-a1ae-eca16c883461
-contentOwner: Alva Ware-Bevacqui
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference

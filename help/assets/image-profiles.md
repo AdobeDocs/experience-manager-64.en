@@ -4,7 +4,7 @@ seo-title: Image Profiles
 description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 seo-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 uuid: 9049fab9-d2be-4118-8684-ce58f3c8c16a
-contentOwner: Alva Ware-Bevacqui
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference

@@ -9,7 +9,7 @@ topic-tags: installing
 discoiquuid: 1bb8360c-5543-484e-9712-590822211298
 ---
 
-# Install and configure data capture capabilities{#install-and-configure-data-capture-capabilities}
+# Install and configure data capture capabilities {#install-and-configure-data-capture-capabilities}
 
 Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
 

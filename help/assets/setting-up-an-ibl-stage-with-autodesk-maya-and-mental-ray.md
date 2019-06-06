@@ -4,7 +4,7 @@ seo-title: Setting up an IBL stage with Autodesk Maya and Mental Ray
 description: How to set up an IBL stage with Autodesk Maya and Mental Ray
 seo-description: How to set up an IBL stage with Autodesk Maya and Mental Ray
 uuid: 353ff561-0d30-4d62-8cad-68890c883c92
-contentOwner: User
+contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS

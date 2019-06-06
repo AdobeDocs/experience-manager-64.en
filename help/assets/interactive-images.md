@@ -4,7 +4,7 @@ seo-title: Interactive Images
 description: Learn how to work with interactive images in dynamic media
 seo-description: Learn how to work with interactive images in dynamic media
 uuid: e8f79bc1-fccb-48d0-aca1-7f319c595fe9
-contentOwner: Alva Ware-Bevacqui
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
