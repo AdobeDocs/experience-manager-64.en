@@ -23,17 +23,17 @@ The UI caters for both mobile and desktop devices, though rather than creating t
 
 All modules use the same basic layout, in AEM this can be seen as: 
 
-![](assets/chlimage_1-142.png)
+![chlimage_1-142](assets/chlimage_1-142.png)
 
 The layout adheres to a responsive design style and will accommodate itself to the size of the device/window you are using.
 
 For example, when the resolution goes below 1024px (as on a mobile device) the display will be adjusted accordingly:
 
-![](assets/chlimage_1-143.png) 
+![chlimage_1-143](assets/chlimage_1-143.png) 
 
 ### Header Bar {#header-bar}
 
-![](assets/chlimage_1-144.png)
+![chlimage_1-144](assets/chlimage_1-144.png)
 
 The header bar shows global elements including:
 
@@ -50,11 +50,11 @@ This is contextual to your location and surfaces tools relevant to controlling t
 
 In any location the toolbar shows the actions currently available: 
 
-![](assets/chlimage_1-145.png)
+![chlimage_1-145](assets/chlimage_1-145.png)
 
 Also dependent on whether a resource is currently selected:
 
-![](assets/chlimage_1-146.png) 
+![chlimage_1-146](assets/chlimage_1-146.png) 
 
 ### Left Rail {#left-rail}
 
@@ -66,7 +66,7 @@ The left rail can be opened/hidden as required to show:
 
 The default is **Content Only** (rail hidden).
 
-![](assets/chlimage_1-147.png) 
+![chlimage_1-147](assets/chlimage_1-147.png) 
 
 ## Page Authoring {#page-authoring}
 
@@ -78,7 +78,7 @@ The page content is rendered in the content frame. The content frame is complete
 
 The content frame is on the right-hand section of the window, under the toolbar. 
 
-![](assets/chlimage_1-148.png) 
+![chlimage_1-148](assets/chlimage_1-148.png) 
 
 ### Editor Frame {#editor-frame}
 
@@ -91,7 +91,7 @@ The editor frame is a container (abstract) for all the *page authoring elements*
 * all the overlays
 * any other page authoring element; for example, the component toolbar
 
-![](assets/chlimage_1-149.png) 
+![chlimage_1-149](assets/chlimage_1-149.png) 
 
 ### Side Panel {#side-panel}
 
@@ -99,25 +99,25 @@ This contains two default tabs to allow you to select assets and components; the
 
 The side panel is hidden by default. When selected it will either be shown at the left side, or will slide across to cover the entire window (when the window size is below a width of 1024px; as, for example, on a mobile device).
 
-![](assets/chlimage_1-150.png) 
+![chlimage_1-150](assets/chlimage_1-150.png) 
 
 ### Side Panel - Assets {#side-panel-assets}
 
 In the Assets tab you can select from the range of assets. You can also filter on a specific term, or select a group.
 
-![](assets/chlimage_1-151.png) 
+![chlimage_1-151](assets/chlimage_1-151.png) 
 
 ### Side Panel - Asset Groups {#side-panel-asset-groups}
 
 In the Asset tab there is a drop down that you can use to select the specific asset groups.
 
-![](assets/chlimage_1-152.png) 
+![chlimage_1-152](assets/chlimage_1-152.png) 
 
 ### Side Panel - Components {#side-panel-components}
 
 In the Components tab you can select from the range of components. You can also filter on a specific term, or select a group.
 
-![](assets/chlimage_1-153.png) 
+![chlimage_1-153](assets/chlimage_1-153.png) 
 
 ### Overlays {#overlays}
 
@@ -125,7 +125,7 @@ These overlay the content frame and are used by the [layers](#layer) to realize 
 
 The overlays live in the editor frame (with all other page authoring elements), though they actually overlay the appropriate components in the content frame.
 
-![](assets/chlimage_1-154.png) 
+![chlimage_1-154](assets/chlimage_1-154.png) 
 
 ### Layer {#layer}
 
@@ -148,7 +148,7 @@ The layer switcher allows you to choose the layer you want to use. When closed, 
 
 The layer switcher is available as a drop down from the toolbar (at the top of the window, within the editor frame). 
 
-![](assets/chlimage_1-155.png) 
+![chlimage_1-155](assets/chlimage_1-155.png) 
 
 ### Component Toolbar {#component-toolbar}
 
@@ -156,7 +156,7 @@ Each instance of a component will reveal its toolbar when clicked (either once o
 
 Depending on the space available, the component toolbars are positioned at the top-, or bottom-, right corner of the appropriate component.
 
-![](assets/chlimage_1-156.png) 
+![chlimage_1-156](assets/chlimage_1-156.png) 
 
 ## Further Information {#further-information}
 

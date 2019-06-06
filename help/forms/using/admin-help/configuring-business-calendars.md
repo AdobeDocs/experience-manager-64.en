@@ -62,7 +62,7 @@ If your organization contains different sets of users who have different non-bus
 >If you do not create a new business calendar, then the default calendar will be used.
 
 1. In administration console, click Services &gt; Forms workflow &gt; Business Calendars.
-1. To add a new business calendar, click ![](assets/bus_cal_plus.png). The text *New Calendar* appears in the drop-down list. Select the text and type another name for your calendar.
+1. To add a new business calendar, click ![bus_cal_plus](assets/bus_cal_plus.png). The text *New Calendar* appears in the drop-down list. Select the text and type another name for your calendar.
 
    To edit an existing business calendar, select it from the drop-down list.
 
@@ -75,7 +75,7 @@ If your organization contains different sets of users who have different non-bus
 
 1. In the calendar on the left, double-click any other non-business days, such as holidays. You cannot select days in the past. The non-business days that you select appear in a list on the right, with the date appearing twice on one line. Select the date on the left to type name or description for the non-business day.
 
-   To remove a non-business day from the list, click ![](assets/bus_cal_trash.png) beside the day.
+   To remove a non-business day from the list, click ![bus_cal_trash](assets/bus_cal_trash.png) beside the day.
 
 1. [Optional] If this calendar is to be the default calendar, select Default Calendar. The default calendar is used when no other calendar mapping exists for user-associated events or no business calendar is specified for the Timer Event or the Wait Service. You cannot delete the default calendar.
 1. When you have finished defining the non-business days, select Calendar Enabled to make it active, and then click Save.

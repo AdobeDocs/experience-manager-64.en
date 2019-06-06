@@ -28,14 +28,14 @@ After Silverpop Engage is configured, you can publish newsletters or emails to S
 
 ## Creating a Silverpop Configuration {#creating-a-silverpop-configuration}
 
-Silverpop configurations can be added via **Cloudservices**, **Tools**, or** API end points**. All methods are described in this section.
+Silverpop configurations can be added via **Cloudservices**, **Tools**, or **API end points**. All methods are described in this section.
 
 ### Configuring Silverpop via Cloudservices {#configuring-silverpop-via-cloudservices}
 
 To create a Silverpop configuration in Cloud Services:
 
 1. In AEM, tap or click **Tools** > **Deployment** > **Cloud Services**. (Or directly access at `https://<hostname>:<port>/etc/cloudservices.html`.)
-1. Under third-party services, click **Silverop Engage **and then **Configure**. The Silverpop configuration window opens.
+1. Under third-party services, click **Silverop Engage** and then **Configure**. The Silverpop configuration window opens.
 
    >[!NOTE]
    >
@@ -53,11 +53,11 @@ To create a Silverpop configuration in Cloud Services:
 
 To create a Silverpop configuration in Tools:
 
-1. In AEM, tap or click **Tools **> **Deployment** > **Cloud Services**. Or navigate there directly by going to `https://<hostname>:<port>/misadmin#/etc`.
+1. In AEM, tap or click **Tools** > **Deployment** > **Cloud Services**. Or navigate there directly by going to `https://<hostname>:<port>/misadmin#/etc`.
 1. Select **Tools**, then **Cloud Services Configurations,** then **Silverpop Engage**.
-1. Click **New** to open the **Create Page **window.
+1. Click **New** to open the **Create Page** window.
 
-   ![](assets/chlimage_1-44.jpeg)
+   ![chlimage_1-44](assets/chlimage_1-44.jpeg)
 
 1. Enter the **Title** and optionally the **Name**, and click **Create**.
 1. Enter the configuration information as outlined in step 4 in the previous procedure. Follow that procedure to finish configuring Silverpop.
@@ -66,7 +66,7 @@ To create a Silverpop configuration in Tools:
 
 To add multiple configurations:
 
-1. On the welcome page, click **Cloud Services** and click **Silverpop Engage**. Click on **Show Configurations**button which appears if one or more Silverpop configurations is available. All available configurations are listed.
+1. On the welcome page, click **Cloud Services** and click **Silverpop Engage**. Click on **Show Configurations** button which appears if one or more Silverpop configurations is available. All available configurations are listed.
 1. Click the **+** sign next to Available configurations. This opens the **Create Configurations** window. Follow the previous configuration procedure to create a new configuration.
 
 ### Configuring API end points for connecting to Silverpop {#configuring-api-end-points-for-connecting-to-silverpop}
@@ -83,7 +83,7 @@ To configure the API end points :
     1. **Name**: `text`, **Type**: `String`, **Value**: `Engage 0`
     1. **Name**: `value`, **Type**: `String`, **Value**: `https://api0.silverpop.com`
 
-   ![](assets/chlimage_1-286.png)
+   ![chlimage_1-286](assets/chlimage_1-286.png)
 
    Click on "Save All" button.
 
@@ -107,5 +107,5 @@ To configure the API end points :
 
 1. Click **Save All**. AEM is now ready to connect to Silverpop over secured end points.
 
-   ![](assets/chlimage_1-45.jpeg)
+   ![chlimage_1-45](assets/chlimage_1-45.jpeg)
 

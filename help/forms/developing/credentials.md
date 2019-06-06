@@ -35,7 +35,7 @@ You can programmatically import a credential into AEM Forms by using the Trust M
 
 When importing a credential, you specify an alias for the credential. The alias is used to perform a Forms operation that requires a credential. Once imported, a credential can be viewed in administration console, as shown in the following illustration. Notice that the alias for the credential is *Secure*. 
 
-![](assets/ww_ww_truststore.png)
+![ww_ww_truststore](assets/ww_ww_truststore.png)
 
 >[!NOTE]
 >

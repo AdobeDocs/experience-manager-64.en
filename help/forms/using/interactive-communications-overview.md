@@ -36,7 +36,7 @@ The [Welcome kit for a credit card customer](/help/forms/using/finance-reference
 
 ## Interactive Communication creation  {#interactive-communication-creation}
 
-![](assets/interactive_communication-01.jpg)
+![interactive_communication-01](assets/interactive_communication-01.jpg)
 
 ### Workflow {#workflow}
 

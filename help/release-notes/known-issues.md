@@ -118,8 +118,8 @@ If you are using Edge as browser:
 /libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices/  
 wsdlauthenticationsettings/items/fixedcolumns/items/container/items/wsdl/items/  
 selectAuthentication/items/custom.  
-2. Update the value of the value property to the same as the value of the text property.  
-3. Click Save All to save the configuration.
+1. Update the value of the value property to the same as the value of the text property.  
+1. Click Save All to save the configuration.
 
 (Ref# CQ-4238462)
 

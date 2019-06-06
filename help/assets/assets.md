@@ -28,7 +28,6 @@ The following activities are those that you typically perform as a digital asset
 * [Metadata Schemas](metadata-schemas.md)
 * [Profiles for Processing Metadata, Images, and Videos](processing-profiles.md)
 * [XMP writeback to renditions](xmp-writeback.md)
-* [Installing and Configuring Video Transcoder with FFmpeg](video-transcoder.md)
 * [Watermarking](watermarking.md)
 * [Asset link sharing](link-sharing.md)
 * [Best Practices for Assets](best-practices-for-assets.md)
@@ -62,13 +61,13 @@ AEM Assets is fully integrated with CQ WCM and functionality is available using 
 
 <!-- Update image for branding -->
 
-![](assets/screen_shot_2012-04-17at15946pm.png) ![](assets/screen_shot_2012-04-17at20100pm.png)
+![screen_shot_2012-04-17at15946pm](assets/screen_shot_2012-04-17at15946pm.png) ![screen_shot_2012-04-17at20100pm](assets/screen_shot_2012-04-17at20100pm.png)
 
 Assets managed within CQ DAM can then be accessed via the content finder of WCM:
 
 <!-- Update image for branding -->
 
-![](assets/screen_shot_2012-04-17at20214pm.png)
+![screen_shot_2012-04-17at20214pm](assets/screen_shot_2012-04-17at20214pm.png)
 
 >[!NOTE]
 >

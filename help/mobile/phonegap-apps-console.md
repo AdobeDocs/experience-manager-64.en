@@ -19,7 +19,7 @@ discoiquuid: 9890d045-cead-4d70-b797-95319284e0d8
 
 The AEM mobile application development process recognizes that users of different expertise contribute to the development of mobile applications. The following process map illustrates the general order in which content authors and application developers perform tasks.
 
-![](assets/chlimage_1-10.gif)
+![chlimage_1-10](assets/chlimage_1-10.gif)
 
 Information about how to perform the Marketer tasks appear on this page. For information about the Developer tasks, see Building PhoneGap Applications.
 
@@ -37,7 +37,7 @@ The root page of the mobile applications that you create in AEM appears in the A
 
 The root page is stored below the Destination Path property of the application that was specified upon creating the application (the default path is /content/phonegap/apps). The page name is the Name property of the application. For example, the default URL of the root page of the site named `myphonegapapp` is `http://localhost:4502/content/phonegap/apps/myphonegapapp.html`.
 
-![](assets/chlimage_1-146.png)
+![chlimage_1-146](assets/chlimage_1-146.png)
 
 ### The Language Variation of a PhoneGap App {#the-language-variation-of-a-phonegap-app}
 
@@ -45,14 +45,14 @@ The first child pages of the root page are the language variations of the applic
 
 **Note:** The default PhoneGap blueprint creates only an English application. Your developer can modify the blueprint so that it can create more language variations.
 
-![](assets/chlimage_1-147.png)
+![chlimage_1-147](assets/chlimage_1-147.png)
 
 The language page serves two purposes:
 
 * The page content is the spash page for the language variation of the application.
 * The page properties control several design aspects of the application, such as the URL to use for requesting content updates, and information about connecting to the cloud build and Adobe Analytics Services integration.
 
-![](assets/chlimage_1-148.png)
+![chlimage_1-148](assets/chlimage_1-148.png)
 
 ### The Home Page {#the-home-page}
 
@@ -150,7 +150,7 @@ The Content Sync cache on the AEM publish instance is used as a repository of co
 
 Mobile applications include an Updates command that downloads and installs updated application content. When an application instance sends an Update request, Content Sync determines which content has changed since the last time the application was updated or installed, and provides the new content.
 
-![](assets/chlimage_1-149.png)
+![chlimage_1-149](assets/chlimage_1-149.png)
 
 To make updated content available to applications, you update the Content Sync cache. The first time you update the cache, all published content is added. Subsequent updates adds only the published content that has changed since the previous update.
 
@@ -179,12 +179,12 @@ Steps to creating a new app based on an app template:
 1. Ensure you have the latest AEM Apps 6.1 feature pack and reference samples packages installed
 1. Click on Apps from the left rail.
 
-![](assets/chlimage_1-1.jpeg)
+![chlimage_1-1](assets/chlimage_1-1.jpeg)
 
 1. Click on the + Create button at the top and select Create App.
 1. Once you are presented with the list of App Templates, select one:
 
-![](assets/chlimage_1-2.jpeg)
+![chlimage_1-2](assets/chlimage_1-2.jpeg)
 
 1. Click Next. 
 1. Provide an App Id and Title, however you might want to also include a Name and a Description.
@@ -192,12 +192,12 @@ Steps to creating a new app based on an app template:
     1. Additionally, you can provide a PNG (supported PhoneGap icon format) as an icon by browsing AEM assets.
     1. Recall that you can edit all these fields after the app has been created in the Manage App tile. With the exception of the App Id, once the App Id has been set you are unable to change it.
 
-![](assets/chlimage_1-150.png)
+![chlimage_1-150](assets/chlimage_1-150.png)
 
 1. Click the create button, you will be presented with 2 options, either Done (go back to Apps catalog view) or Manage App (opens the app dashboard). 
 1. Once created, you should see the new app listed in the App catalog:
 
-![](assets/chlimage_1-3.jpeg)
+![chlimage_1-3](assets/chlimage_1-3.jpeg)
 
 1. Click on the app to open it, you have successfully created a new app based on the template of an existing app.
 
@@ -283,7 +283,7 @@ The Swipe Carousel component is a tool for showcasing and navigating site pages.
 
 Note that images appear in the carousel for pages that are associated with an image in a specific way. When pages are not associated with images, only the list of links appears.
 
-![](assets/chlimage_1-151.png)
+![chlimage_1-151](assets/chlimage_1-151.png)
 
 **Carousel properties tab**
 
@@ -345,11 +345,11 @@ The Store Locations component provides users with tools for finding business out
 * Search
 * Lists of locations that are near or distant to the GPS coordinates of the device.
 
-The component requires that the repository contains location information for each store. Sample locations are installed at the /etc/commerce/locations/adobe node. ![](assets/chlimage_1-152.png)
+The component requires that the repository contains location information for each store. Sample locations are installed at the /etc/commerce/locations/adobe node. ![chlimage_1-152](assets/chlimage_1-152.png)
 
 ### Two Column Row {#two-column-row}
 
 Enables you to add side-by-side components to a page.
 
-![](assets/chlimage_1-153.png)
+![chlimage_1-153](assets/chlimage_1-153.png)
 

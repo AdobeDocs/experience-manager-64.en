@@ -98,7 +98,7 @@ Perform the following steps to change the publishing schedule:
 
 1. Restart the AEM Forms server instance.
 
-![](assets/processdatapublisherservice.png) 
+![processdatapublisherservice](assets/processdatapublisherservice.png) 
 
 ### ProcessDataStorage service {#processdatastorage-service}
 
@@ -113,7 +113,7 @@ You can use the Administration console to configure the root (**default**: `/con
 1. Log in to** Administration Console** with administrator credentials. The default URL of Administration Console is `https://[server]:[port]/adminui`
 1. Navigate to **Home** &gt;  **Services** &gt;  **Applications and Services** &gt;** Service Management** and open the **ProcessDataStorageProvider** service.
 
-   ![](assets/process-data-storage-service.png)
+   ![process-data-storage-service](assets/process-data-storage-service.png)
 
    **RootFolder**
 
@@ -171,7 +171,7 @@ The ProcessDataPublisher service imports process data from the AEM Forms databas
 
 1. Navigate to **Home** &gt;  **Services** &gt;  **Applications and Services** &gt;** Service Management** and open the **ProcessDataPublisher** service.
 
-![](assets/processdatapublisherservice-1.png)
+![processdatapublisherservice-1](assets/processdatapublisherservice-1.png)
 
 **Publish Data**
 
@@ -237,13 +237,13 @@ Specify your credentials to log in to the Process Reporting module.
 >
 >`PERM_PROCESS_REPORTING_USER`
 
-![](assets/capture.png)
+![capture](assets/capture.png)
 
 When you log in to Process Reporting, the **[!UICONTROL Home]**screen displays.
 
 ### Process Reporting Home screen {#process-reporting-home-screen}
 
-![](assets/process-reporting-home-screen.png)
+![process-reporting-home-screen](assets/process-reporting-home-screen.png)
 
 **Process Reporting tree view:** The tree view on the left side of the Home screen contains the items for the Process Reporting modules.
 

@@ -13,7 +13,7 @@ discoiquuid: 62f9d1de-c397-46b5-964e-19777ddd130c
 
 Leverage, integrate, and work with online and on-premises Microsoft Dynamics services through form data model.
 
- ![](assets/data-integeration.png)
+ ![data-integeration](assets/data-integeration.png)
 
 Microsoft Dynamics is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases. [AEM Forms Data Integration](/help/forms/using/data-integration.md) provides an OData cloud service configuration to integrate Forms with both online and on-premises Microsoft Dynamics server. It enables you to create form data model based on the entities, attributes, and services defined in Microsoft Dynamics service. The form data model can be used to create adaptive forms that interact with Microsoft Dynamics server to enable business workflows. For example:
 
@@ -54,7 +54,7 @@ Do the following to set the Reply URL for registered Microsoft Dynamics applicat
 
    `https://[server]:[port]/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html`
 
-   ![](assets/azure_directory.png)
+   ![azure_directory](assets/azure_directory.png)
 
 1. Save the configuration.
 
@@ -123,7 +123,7 @@ The **MS Dynamics OData Cloud Service (OData Service)** configuration comes with
     1. Replace the default values in the **Client Id** (also referred to as **Application ID**), **Client Secret**, **OAuth URL**, **Refresh Token URL**, **Access Token URL**, and **Resource** fields with values from your Microsoft Dynamics service configuration. It is mandatory to specify the dynamics instance URL in the **Resource** field to configure Microsoft Dynamics with a form data model. Use the Service Root URL to derive the dynamics instance URL. For example, [https://org.crm.dynamics.com](https://org.crm.dynamics.com/). 
     1. Specify **openid** in the **Authorization Scope** field for authorization process on Microsoft Dynamics.
 
-   ![](assets/dynamics_authentication_settings.png)
+   ![dynamics_authentication_settings](assets/dynamics_authentication_settings.png)
 
 1. Click **[!UICONTROL Connect to OAuth]**. You are redirected to Microsoft Dynamics login page.
 1. Log in with your Microsoft Dynamics credentials and accept to allow the cloud service configuration to connect to Microsoft Dynamics service. It is a one-time task to establish connection between the cloud service and the service.
@@ -142,7 +142,7 @@ To review the form data model, go to **[!UICONTROL Forms > Data Integrations]**.
 
 `https://[*server*]:[*port*]/aem/fdm/editor.html/content/dam/formsanddocuments-fdm/ms-dynamics-fdm`
 
-![](assets/default-fdm-1.png)
+![default-fdm-1](assets/default-fdm-1.png)
 
 Next, you can create an adaptive form based on the form data model and use it in various adaptive form use cases, such as:
 

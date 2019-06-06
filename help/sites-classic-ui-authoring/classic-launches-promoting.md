@@ -46,5 +46,5 @@ To start a workflow automatically when pages are promoted, [configure a workflow
 
 For example, you can automatically generate page activation requests when authors promote Launches pages. Configure a workflow launcher to start the Request Activation workflow when the package node is modified. 
 
-![](assets/chlimage_1-136.png)
+![chlimage_1-136](assets/chlimage_1-136.png)
 

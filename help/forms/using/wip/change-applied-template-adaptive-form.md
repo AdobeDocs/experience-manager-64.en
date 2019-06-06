@@ -13,7 +13,7 @@ discoiquuid: b8a569d4-9ead-4587-85c6-1b04e1628a52
 
 Changing an adaptive form’s template updates the appearances, the layout, and the design of the form. A change in the template does not impact the form data or the information present in the form.
 
-1. Select an adaptive form and click Edit Template ![](assets/aem6forms_tableedit.png) in the toolbar.
+1. Select an adaptive form and click Edit Template ![aem6forms_tableedit](assets/aem6forms_tableedit.png) in the toolbar.
 1. On the Edit Template Wizard, select the new template. To search for the applicable template, use the search box and select from the search results.
 
    >[!NOTE]

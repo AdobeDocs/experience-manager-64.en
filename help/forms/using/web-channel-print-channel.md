@@ -45,7 +45,7 @@ To author a web channel template Complete the following steps:
 
 1. Create a Template folder to keep your Interactive Communication web templates, if you do not already have one. For more information, see Template Folders in [Page Templates - Editable](/help/sites-developing/page-templates-editable.md).
 
-    1. Tap **[!UICONTROL Tools]** ![](assets/tools-1.png) > **[!UICONTROL Configuration Browser]**. **[!UICONTROL]**
+    1. Tap **[!UICONTROL Tools]** ![tools-1](assets/tools-1.png) > **[!UICONTROL Configuration Browser]**. **[!UICONTROL]**
     1. In the Configuration Browser page, tap **[!UICONTROL Create]**. 
     1. In the Create Configuration dialog, specify a title for the folder, check **[!UICONTROL Editable Templates]**, and tap **[!UICONTROL Create]**.
 
@@ -64,13 +64,13 @@ To author a web channel template Complete the following steps:
 
        The Template Editor appears. 
     
-       ![](assets/webchanneltemplate.png)    
+       ![webchanneltemplate](assets/webchanneltemplate.png)    
     
        When creating or editing a template, there are various aspects that a Template Author can define. Creating or editing a template is similar to page authoring. For more information, see Editing Templates - Template Authors in [Creating Page Templates](/help/sites-authoring/templates.md).
 
 1. To allow usage of this template for Interactive Communication creation, enable the template.
 
-    1. Tap **[!UICONTROL Tools]** ![](assets/tools-1.png) > **[!UICONTROL Templates]**.
+    1. Tap **[!UICONTROL Tools]** ![tools-1](assets/tools-1.png) > **[!UICONTROL Templates]**.
     1. Navigate to the appropriate template, select it, and tap **[!UICONTROL Enable]** and in the alert message, tap **[!UICONTROL Enable]**.
 
        The template is enabled and its status is displayed as Enabled. Now you can proceed to creating an Interactive Communication where you can use the newly created web channel template.
@@ -79,5 +79,5 @@ To author a web channel template Complete the following steps:
 
 While authoring an Interactive Communication, authors can select this option to create the web channel in sync with the print channel. Using print channel as master for web channel ensures the content, inheritance, and data binding of the web channel is derived from the print channel and the changes made in the print channel could be reflected in the web channel. The Interactive Communication authors are, however, allowed to break the inheritance for specific components in the web channel, as required.
 
-![](assets/printweb_2-2.png)
+![printweb_2-2](assets/printweb_2-2.png)
 

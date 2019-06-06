@@ -257,7 +257,7 @@ When editing a page you can use **Page Information** to define the page properti
 
 1. Select the **Page Information** icon to open the selection menu:
 
-   ![](assets/screen_shot_2018-03-22at095740.png)
+   ![screen_shot_2018-03-22at095740](assets/screen_shot_2018-03-22at095740.png)
 
 1. Select **Open Properties** and a dailog will open allowing you to edit the properties, sorted by the appropriate tab. The following buttons are also available at the right of the toolbar:
 
@@ -281,11 +281,11 @@ You can select multiple pages for bulk editing by various methods, including:
 * When browsing the **Sites** console
 * After using **Search** to locate a set of pages
 
-![](assets/screen_shot_2018-03-22at100039.png)
+![screen_shot_2018-03-22at100039](assets/screen_shot_2018-03-22at100039.png)
 
 After selecting the pages and then clicking or tapping the **Properties** option, the bulk properties will be shown:
 
-![](assets/screen_shot_2018-03-22at100114.png)
+![screen_shot_2018-03-22at100114](assets/screen_shot_2018-03-22at100114.png)
 
 You can only bulk edit pages that:
 

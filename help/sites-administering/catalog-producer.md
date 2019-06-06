@@ -38,7 +38,7 @@ Catalog Producer uses product information management (PIM) data to map product p
 1. In the **Catalogs** page, tap/click **Create** from the toolbar, and then select **Catalog** from the list.
 1. In the **Create Catalog** page, enter a name and description (optional) for the catalog and specify tags, if any. You can also add a thumbnail image for the catalog.
 
-   ![](assets/create_catalog.png)
+   ![create_catalog](assets/create_catalog.png)
 
 1. Tap/click **Save**. A confirmation dialog notifies that the catalog is created. Tap/click **Done** to close the dialog.
 1. To open the catalog you created, tap/click it from the **Catalogs** page.
@@ -57,7 +57,7 @@ Catalog Producer uses product information management (PIM) data to map product p
 
 1. To create more pages, repeat steps 6-9. To create similar pages for other products, select the page and tap/click the **Create similar pages** icon from the toolbar.
 
-   ![](assets/create_similar_pages.png)
+   ![create_similar_pages](assets/create_similar_pages.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Catalog Producer uses product information management (PIM) data to map product p
 
    Tap/click the Add icon, select products from the product picker, and then tap/click **Select** from the toolbar.
 
-   ![](assets/select_product.png)
+   ![select_product](assets/select_product.png)
 
 1. From the toolbar, click/tap **Create**. Tap/click **Done** to close the dialog. Similar pages are included in your catalog.
 1. To add any existing InDesign file to your catalog, tap/click **Create** from the toolbar, and choose the **Add to existing page** option.
@@ -73,11 +73,11 @@ Catalog Producer uses product information management (PIM) data to map product p
 
    If the metadata of the products that you reference in the catalog pages is changed, the changes are not automatically reflected in the catalog pages. A banner labeled **Stale** appears on the product images in the referencing catalog pages, indicating that the metadata for the referenced products is not up-to-date.
 
-   ![](assets/chlimage_1-117.png)
+   ![chlimage_1-117](assets/chlimage_1-117.png)
 
    To ensure that the product images reflect the latest metadata changes, select the page in the Catalog console and click/tap the **Update page** icon from the toolbar.
 
-   ![](assets/chlimage_1-118.png)
+   ![chlimage_1-118](assets/chlimage_1-118.png)
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ Catalog Producer uses product information management (PIM) data to map product p
 1. Tap/click **Save**, and then tap/click **Done** to close the confirmation dialog.
 1. To generate a preview for the catalog you created, select it in the **Catalogs** console, and then click the **Preview** icon from the toolbar.
 
-   ![](assets/chlimage_1-119.png)
+   ![chlimage_1-119](assets/chlimage_1-119.png)
 
    Review the pages in your catalog in the preview. Tap/click **Close** to close the preview.
 

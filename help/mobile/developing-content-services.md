@@ -38,7 +38,7 @@ Content Services can deliver the content as assets, packaged HTML (HTML/CSS/JS),
 >
 >See **[Administering Content Services](/help/mobile/developing-content-services.md)** for details.
 
-![](assets/chlimage_1-143.png)
+![chlimage_1-143](assets/chlimage_1-143.png)
 
 Once you have set the Content Services flag and enabled data models in Configuration Browser, see the resources below to get started with AEM Mobile Content Services, get familiar with Content Services Concepts such as model management, entity management followed by content delivery/rendering for AEM Mobile Content Services.
 

@@ -117,7 +117,7 @@ To set the URL of the SharePoint server and advanced options, perform these step
 1. Set the SharePoint Server URL as the value of **Workspaces**.
 1. Tap/click **Save**.
 
-![](assets/chlimage_1-81.png)
+![chlimage_1-81](assets/chlimage_1-81.png)
 
 'Workspaces' and 'Default Workspace Name' parameters:
 
@@ -134,15 +134,15 @@ To whitelist bundles in AEM, perform the following steps:
 
 1. Navigate to the OSGi Management Console: http://localhost:4502/system/console/configMgr.
 
-2. Search for " Apache Sling Login Admin Whitelist" service.
+1. Search for " Apache Sling Login Admin Whitelist" service.
 
-3. Select Bypass the whitelist.
+1. Select Bypass the whitelist.
 
-4. Add '**com.day.cq.dam.cq-dam-jcr-connectors**' in whitelist bundles default
+1. Add '**com.day.cq.dam.cq-dam-jcr-connectors**' in whitelist bundles default
 
-5. Click Save.
+1. Click Save.
 
-![](assets/chlimage_1-82.png)
+![chlimage_1-82](assets/chlimage_1-82.png)
 
 >[!NOTE]
 >

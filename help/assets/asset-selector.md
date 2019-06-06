@@ -83,15 +83,15 @@ You can pass the following request parameters in a URL to launch the asset selec
 1. To access the asset selector interface, go to *https://&lt;host&gt;:&lt;port&gt;/aem/assetpicker*.
 1. Navigate to the desired folder, and select one or more assets.
 
-   ![](assets/chlimage_1-441.png)
+   ![chlimage_1-441](assets/chlimage_1-441.png)
 
    Alternatively, you can search for the desired asset from the OmniSearch box and then select it.
 
-   ![](assets/chlimage_1-442.png)
+   ![chlimage_1-442](assets/chlimage_1-442.png)
 
    If you search for asssets using the OmniSearch box, you can select various filters from the **Filters** pane to refine your search.
 
-   ![](assets/chlimage_1-443.png)
+   ![chlimage_1-443](assets/chlimage_1-443.png)
 
 1. Tap/click **Select** from the toolbar.
 

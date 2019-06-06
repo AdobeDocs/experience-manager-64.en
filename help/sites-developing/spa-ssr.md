@@ -35,7 +35,7 @@ When using SSR, the [component interaction workflow](/help/sites-developing/spa-
 
 1. AEM serves the HTML returned by the Node.js server via the HTL template of the backend page component.
 
-![](assets/server-side-rendering-cms-drivenaemnode.png)
+![server-side-rendering-cms-drivenaemnode](assets/server-side-rendering-cms-drivenaemnode.png)
 
 ### Node.js-Driven Communication Flow {#node-js-driven-communication-flow}
 

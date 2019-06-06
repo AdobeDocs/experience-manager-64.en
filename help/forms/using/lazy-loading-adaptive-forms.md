@@ -41,7 +41,7 @@ Before you configure lazy loading of fragments in your adaptive form, it is impo
 Perform the following steps to enable lazy loading on an adaptive form fragment:
 
 1. Open the adaptive form in authoring mode that contains the fragment you want to enable for lazy loading.
-1. Select the adaptive form fragment and tap ![](assets/cmppr.png).
+1. Select the adaptive form fragment and tap ![cmppr](assets/cmppr.png).
 1. In the sidebar, enable **[!UICONTROL Load fragment lazily]** and tap **Done**.
 
    ![Enable lazy loading for the adaptive form fragment](assets/lazy-loading-fragment.png)
@@ -53,7 +53,6 @@ You can mark the values of objects in the lazily loaded fragment as global so th
 1. Open the adaptive form fragment in authoring mode.
 1. Tap the field whose value you want to mark as global, and then tap ![](assets/cmppr.png).
 1. In the sidebar, enable **[!UICONTROL Use value during lazy loading]**.
-
    ![Lazy loading field in sidebar](assets/enable-lazy-loading.png)
 
    The value is now marked as global and will be available for use in scripts even when the containing fragment is unloaded.

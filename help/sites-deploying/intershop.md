@@ -80,7 +80,7 @@ Configure the Intershop REST Client:
 1. Open `Intershop REST Client`.
 1. Update the properties to point to the Intershop instance.
 
-   ![](assets/chlimage_1-143.png)
+   ![chlimage_1-143](assets/chlimage_1-143.png)
 
 >[!CAUTION]
 >

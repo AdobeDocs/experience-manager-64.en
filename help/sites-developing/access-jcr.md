@@ -139,5 +139,5 @@ try {
 
 After you run the full code example and create the nodes, you can view the new nodes in the CRXDE Lite, as shown in the following illustration.
 
-![](assets/chlimage_1-68.png)
+![chlimage_1-68](assets/chlimage_1-68.png)
 

@@ -49,25 +49,25 @@ Before you start implementing this functionality, please make sure you have set 
 
 The following image shows the **TextOverlayDemo** project with **TextSample** channel in **Channels** folder.
 
-![](assets/screen_shot_2018-12-16at75908pm.png)
+![screen_shot_2018-12-16at75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
 1. Navigate to **TextOverlayDemo** --&gt; **Channels** --&gt; **TextSample** and click **Edit** from the action bar to open the editor.
 
-   ![](assets/screen_shot_2018-12-16at80017pm.png)
+   ![screen_shot_2018-12-16at80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
 1. Select the image and click **Configure** (wrench icon) to open the properties dialog box.
 
-   ![](assets/screen_shot_2018-12-16at80221pm.png)
+   ![screen_shot_2018-12-16at80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
 1. Select the **Text Overlay** option from the navigation bar of the dialog box, as shown in the figure below.
 
-   ![](assets/screen_shot_2018-12-16at80424pm.png)
+   ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
 ### Understanding Text Overlay Properties {#understanding-text-overlay-properties}
 
 Using the Text Overlay properties, you can add text to any of the component in your Screens project. The following section provides an overview of the properties that are available in Text Overlay:
 
-![](assets/text.gif)
+![text](assets/text.gif)
 
 You can add a text to the text box and add typographical emphasis such as bold, italics, underline, and so on.
 

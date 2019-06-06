@@ -39,11 +39,11 @@ For details, see [Configuring Components in Design Mode](/help/sites-authoring/d
 
 Following are images of selecting a few Communities components and viewing them in the components browser:
 
-![](assets/chlimage_1-424.png)
+![chlimage_1-424](assets/chlimage_1-424.png)
 
 The selected components are now available in the components browser:
 
-![](assets/chlimage_1-425.png)
+![chlimage_1-425](assets/chlimage_1-425.png)
 
 ## Required Clientlibs {#required-clientlibs}
 
@@ -53,11 +53,11 @@ When adding a Communities component to a page, if the result is an error or an u
 
 ### Example: initially placed reviews without client libraries ... {#example-initially-placed-reviews-without-client-libraries}
 
-![](assets/chlimage_1-426.png)
+![chlimage_1-426](assets/chlimage_1-426.png)
 
 ### ... and with client libraries {#and-with-client-libraries}
 
-![](assets/chlimage_1-427.png)
+![chlimage_1-427](assets/chlimage_1-427.png)
 
 ## Tagging {#tagging}
 

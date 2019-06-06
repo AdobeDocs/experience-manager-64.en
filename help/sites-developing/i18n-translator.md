@@ -33,7 +33,7 @@ Note that the Translator tool and the dictionaries that you manage are for prese
 
 The translator lists the texts used in AEM with the various language translations alongside each other:
 
-![](assets/chlimage_1-205.png)
+![chlimage_1-205](assets/chlimage_1-205.png)
 
 You can search, filter and edit the English and translated texts. You can also export dictionaries to XLIFF format for translating, then import the translations back into the dictionaries.
 
@@ -41,13 +41,13 @@ It is also possible to add the i18n dictonaries to a translation project from th
 
 1. Click **Translate Dictionary**.
 
-   ![](assets/chlimage_1-206.png)
+   ![chlimage_1-206](assets/chlimage_1-206.png)
 
 1. Select Create or Add option depending on your need. A dialog opens.
 
-   ![](assets/chlimage_1-207.png)
+   ![chlimage_1-207](assets/chlimage_1-207.png)
 
-1. Fill the fields as required and click OK. ![](assets/chlimage_1-208.png)
+1. Fill the fields as required and click OK. ![chlimage_1-208](assets/chlimage_1-208.png)
 
 1. You can now click **OK **or see the Target Dictionary.
 
@@ -137,13 +137,13 @@ Use the following procedure to add a string.
 1. In the Dictionaries drop-down menu, select the dictionary to which you are adding a string. In the drop-down menu, Dictionaries are represented by their path in the respository. 
 1. Above the Strings and Translations table, click Add.
 
-   ![](assets/chlimage_1-209.png)
+   ![chlimage_1-209](assets/chlimage_1-209.png)
 
 1. In the String box of the Add String dialog box, type the English string. In the Comment box, type a translation hint for the translator if necessary.
 1. Click OK.
 1. Click Save.
 
-   ![](assets/chlimage_1-210.png)
+   ![chlimage_1-210](assets/chlimage_1-210.png)
 
 Use the following procedure to change a string in a dictionary.
 
@@ -151,23 +151,23 @@ Use the following procedure to change a string in a dictionary.
 1. Double-click the string to change.
 1. In the Edit String dialog box, select Modify String or Comment (Creates a Copy).
 
-   ![](assets/chlimage_1-211.png)
+   ![chlimage_1-211](assets/chlimage_1-211.png)
 
 1. Modify the string or the comment and click OK.
 1. Click Save.
 
-   ![](assets/chlimage_1-212.png)
+   ![chlimage_1-212](assets/chlimage_1-212.png)
 
 Use the following procedure to remove a string from a dictionary.
 
 1. In the Dictionaries drop-down menu, select the dictionary from which you are removing a string.
 1. Click Remove.
 
-   ![](assets/chlimage_1-213.png)
+   ![chlimage_1-213](assets/chlimage_1-213.png)
 
 1. Click Save.
 
-   ![](assets/chlimage_1-214.png)
+   ![chlimage_1-214](assets/chlimage_1-214.png)
 
 ### Searching for Strings {#searching-for-strings}
 
@@ -185,7 +185,7 @@ The search bar at the bottom of the Translator tool provides string selection op
 * **Has Comment**: Show items that have comments for translators.
 * **Missing Translations:** Show items where at least one language does not have a translation.
 
-![](assets/chlimage_1-215.png)
+![chlimage_1-215](assets/chlimage_1-215.png)
 
 1. On the search bar, select the filtering options.
 1. To filter using the options click Filter.
@@ -209,11 +209,11 @@ After you add the English string to a dictionary, you can add translations of th
 
     * Double click on the appropriate language for the required string to edit that single text:
 
-   ![](assets/chlimage_1-216.png)
+   ![chlimage_1-216](assets/chlimage_1-216.png)
 
     * Double click on the **String** or **Comment** fields for the required string to open the **Edit string** dialog, edit the translation(s) as required, then click **OK** to close the dialog:
 
-   ![](assets/chlimage_1-217.png)
+   ![chlimage_1-217](assets/chlimage_1-217.png)
 
 1. Click **Save** in the toolbar to commit your changes.
 

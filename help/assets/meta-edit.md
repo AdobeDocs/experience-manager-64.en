@@ -27,11 +27,11 @@ To edit metadata:
     * From the asset thumbnail, select the View Properties quick action.
     * From the asset page, click/tap the View Properties icon from the toolbar.
 
-   ![](assets/chlimage_1-168.png)
+   ![chlimage_1-168](assets/chlimage_1-168.png)
 
    The asset page displays all of the asset's metadata. This metadata was automatically extracted when it was uploaded (ingested) into AEM Assets.
 
-   ![](assets/chlimage_1-169.png)
+   ![chlimage_1-169](assets/chlimage_1-169.png)
 
 1. Make edits to the metadata under the various tabs, as required, and when completed, click/tap **Save** from the toolbar to save your changes. Click/tap **Close** to return to the Assets UI.
 

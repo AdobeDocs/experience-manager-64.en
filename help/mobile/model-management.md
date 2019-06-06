@@ -20,7 +20,7 @@ Model management involves the creation and management of models for the purpose 
 
 Model Management involves creation of **models**, **entities**, and **spaces**. The following diagram illustrates the relationship between the AEM Content and the models.
 
-![](assets/chlimage_1-81.png)
+![chlimage_1-81](assets/chlimage_1-81.png)
 
 ## The Content Model {#the-content-model}
 
@@ -34,7 +34,7 @@ The user can create his or her own models. This enables the creation of new cont
 
 The following diagram illustrates the content model for AEM Mobile Apps and how entities, folders, and spaces are assigned to an app.
 
-![](assets/chlimage_1-82.png)
+![chlimage_1-82](assets/chlimage_1-82.png)
 
 ### The Models {#the-models}
 

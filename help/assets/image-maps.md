@@ -26,31 +26,31 @@ Image Maps let you add one or more hyperlinked areas that function like other hy
     * In the Card or List view, select the asset and click the **Edit** icon on the toolbar.
     * Click the **Edit** icon from the asset page.
 
-   ![](assets/chlimage_1-420.png)
+   ![chlimage_1-420](assets/chlimage_1-420.png)
 
 1. To insert an Image map, click/tap the **Launch Map** icon from the toolbar.
 
-   ![](assets/chlimage_1-421.png)
+   ![chlimage_1-421](assets/chlimage_1-421.png)
 
 1. Select the shape of the image map. The hot-spot of the selected shape is placed on the image.
 
-   ![](assets/chlimage_1-422.png)
+   ![chlimage_1-422](assets/chlimage_1-422.png)
 
 1. Click/tap the hot-spot, and enter the URL and Alt text. From the Target list, specify where you want the image map displayed, for example the same tab, a new tab, or an iFrame. For example, enter https://www.adobe.com as the URL, Adobe website as the Alt text, and specify New Tab from the Target list for the image map to open in a new tab.
 
-   ![](assets/chlimage_1-423.png)
+   ![chlimage_1-423](assets/chlimage_1-423.png)
 
 1. Click/tap the **Confirm** icon, and then click/tap the Finish icon from the toolbar to save the changes.
 
-   ![](assets/chlimage_1-424.png)
+   ![chlimage_1-424](assets/chlimage_1-424.png)
 
    To delete the image map, click the hot-spot and click the **Delete** icon.
 
-   ![](assets/chlimage_1-425.png)
+   ![chlimage_1-425](assets/chlimage_1-425.png)
 
 1. To view the image map, navigate to the asset details page, and hover the cursor over the image.
 
-   ![](assets/chlimage_1-426.png)
+   ![chlimage_1-426](assets/chlimage_1-426.png)
 
    If the Dynamic Media option is enabled, navigate to the Asset editor and click the **Map** icon to view all the applied image maps.
 

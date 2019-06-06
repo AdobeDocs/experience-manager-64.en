@@ -70,7 +70,7 @@ To configure universal presets:
 1. In **Cloud Services**, navigate to your **Scene7** configuration and click **Edit**.
 1. Select the **Video** tab.
 
-   ![](assets/chlimage_1-363.png)
+   ![chlimage_1-363](assets/chlimage_1-363.png)
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ To configure universal presets:
 
 If you need to update the viewer and encoding presets for video in AEM because the presets have been updated in Scene7, navigate to the Scene7 configuration in the cloud configuration and click **Update the viewer and encoding presets**.
 
-![](assets/chlimage_1-364.png) 
+![chlimage_1-364](assets/chlimage_1-364.png) 
 
 ## Uploading your master video {#uploading-your-master-video}
 
@@ -113,7 +113,7 @@ The Scene7 video component only works for Scene7 videos. The foundation componen
 
 The following matrix explains when you should use which component:
 
-![](assets/chlimage_1-365.png)
+![chlimage_1-365](assets/chlimage_1-365.png)
 
 >[!NOTE]
 >
@@ -152,11 +152,11 @@ The various video encodings are created according to the S7 encoding presets sel
 1. In AEM, go to **Tools**, then select **Configuration Console**. In the Configuration Console navigate to **Tools** -&gt; **DAM** -&gt; **Video Profiles** in the navigation tree. 
 1. Create a new S7 Video Profile. In the **New...** menu, select **Create Page** and then select the Scene7 Video Profile template. Give the new video profile page a name and click **Create**.
 
-   ![](assets/chlimage_1-366.png)
+   ![chlimage_1-366](assets/chlimage_1-366.png)
 
 1. Edit the new video profile. Select the cloud config first. Then select the same encoding preset as selected in the cloud config.
 
-   ![](assets/chlimage_1-367.png) 
+   ![chlimage_1-367](assets/chlimage_1-367.png) 
 
    | Property |Description |
    |---|---|

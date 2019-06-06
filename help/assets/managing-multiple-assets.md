@@ -50,7 +50,7 @@ To customize the metadata properties page, including adding, modifying, deleting
    >
    >For single-value fields, the new metadata is not appended to the existing value in the field even if you select **Append mode**.
 
-   ![](assets/chlimage_1-402.png)
+   ![chlimage_1-402](assets/chlimage_1-402.png)
 
 ## Editing metadata properties of multiple collections {#editing-metadata-properties-of-multiple-collections}
 

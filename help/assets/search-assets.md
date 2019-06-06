@@ -31,16 +31,16 @@ You can search based on the following options (predicates):
 
 You can customize the Filters panel and add/remove search predicates using [search facets](search-facets.md). To display the Filters panel, perform these steps:
 
-1. In the Assets user interface, tap/click ![](assets/search_icon.png) from the toolbar to display the OmniSearch box.
+1. In the Assets user interface, tap/click ![search_icon](assets/search_icon.png) from the toolbar to display the OmniSearch box.
 1. Enter your search term and press Enter. Alternatively, simply press Enter without entering any search term. Do not enter any leading spaces else the search does not work.  
 
 1. Tap/click the GlobalNav icon. The Filters panel is displayed. 
 
-   ![](assets/filters_panel-1.png)
+   ![filters_panel-1](assets/filters_panel-1.png)
 
    Depending upon the type of items you search, the number of matches is indicated at the top of the search results.
 
-   ![](assets/numer_of_searches.png)
+   ![numer_of_searches](assets/numer_of_searches.png)
 
 ## Search for file types {#search-for-file-types}
 
@@ -48,45 +48,45 @@ The Filters panel helps add more granularity to your search experience and makes
 
 For example, if you are looking for an image, use the **File Type** predicate to choose whether you want a bitmap image or a vector image.
 
-![](assets/image_type.png)
+![image_type](assets/image_type.png)
 
 You can further narrow the scope of search by specifying the MIME type for the image.
 
-![](assets/mime_type.png)
+![mime_type](assets/mime_type.png)
 
 Similarly, when searching for documents, you can specify the format, for example PDF or MS Word.
 
-![](assets/documents.png)
+![documents](assets/documents.png)
 
 ## Search based on file size {#search-based-on-file-size}
 
 Use the **File Size** predicate to search for assets based on their size. You can specify the lower and upper limits for the size range to narrow down your search. You can also specify the unit of measure, for example Kilobytes, Megabytes, and so on.
 
-![](assets/unit_of_measure.png)
+![unit_of_measure](assets/unit_of_measure.png)
 
 ## Search based on when assets are last modified {#search-based-on-when-assets-are-last-modified}
 
 If you are managing work-in-progress assets or monitoring a review workflow, you can search for when an asset was last modified based on accurate time stamps. For example, specify dates before or after which assets were modified. 
 
-![](assets/last_modified_dates.png)
+![last_modified_dates](assets/last_modified_dates.png)
 
 You can also use the following options to achieve a higher level of granularity in your search: 
 
-![](assets/timestamp.png)
+![timestamp](assets/timestamp.png)
 
 ## Search based on status {#search-based-on-status}
 
 Use the **Status** predicate to search for assets based on various types of status, such as Publish, Approval, Checkout, and Expiration.
 
-![](assets/status.png)
+![status](assets/status.png)
 
 For example, when monitoring asset publishing, you can use the appropriate option to search for which assets are published.
 
-![](assets/publish.png)
+![publish](assets/publish.png)
 
 When monitoring the review status of assets, use the appropriate option to find which assets are approved or assets that are pending approval.
 
-![](assets/approval.png)
+![approval](assets/approval.png)
 
 ## Search based on Insights data {#search-based-on-insights-data}
 
@@ -97,5 +97,5 @@ Use the **Insights** predicate to search for assets based on their usage statist
 * Clicks
 * Media channels where the assets appear
 
-![](assets/insights.png)
+![insights](assets/insights.png)
 

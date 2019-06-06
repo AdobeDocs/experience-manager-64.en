@@ -310,7 +310,7 @@ Several properties and node types are excluded by default, these are defined in 
 
 By default properties matching the following regular expressions are excluded (i.e. not updated) on rollout:
 
-![](assets/chlimage_1-18.png)
+![chlimage_1-18](assets/chlimage_1-18.png)
 
 You can change the expressions defining the exclusion list as required.
 
@@ -379,7 +379,7 @@ You can also configure the rollout configurations for a live copy page when you 
 
    The **Configuration** section shows the rollout configurations that the page inherits.
 
-   ![](assets/chlimage_1-19.png)
+   ![chlimage_1-19](assets/chlimage_1-19.png)
 
 1. If required, adjust the **Live Copy Inheritance** flag. If checked the live copy configuration is effective on all children.  
 
@@ -387,7 +387,7 @@ You can also configure the rollout configurations for a live copy page when you 
 
    The selected rollout configurations appear below the drop-down list.
 
-   ![](assets/chlimage_1-20.png)
+   ![chlimage_1-20](assets/chlimage_1-20.png)
 
 1. Click or tap **Save**.
 

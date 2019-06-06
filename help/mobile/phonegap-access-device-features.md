@@ -21,7 +21,7 @@ discoiquuid: 0019e367-8edc-4a23-bfa4-5beda266ace6
 
 The [AEM PhoneGap Kitchen Sink](https://github.com/blefebvre/aem-phonegap-kitchen-sink) Github repository provides developers with a functional AEM app that illustrates the use of a number of core Cordova APIs. When run on iOS or Android via the PhoneGap CLI, the app opens up into the following page which includes a link to each device API that it demonstrates:
 
-![](assets/chlimage_1-107.png)
+![chlimage_1-107](assets/chlimage_1-107.png)
 
 The source code for each of these device API components is [available on Github](https://github.com/blefebvre/aem-phonegap-kitchen-sink/tree/master/content/src/main/content/jcr_root/apps/brucelefebvre/kitchen-sink/components).
 

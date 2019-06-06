@@ -42,11 +42,11 @@ For this example, we are going to configure the existing device group **Smart Ph
 
    Set the option **Disable Emulator** and save.
 
-   ![](assets/chlimage_1-157.png)
+   ![chlimage_1-157](assets/chlimage_1-157.png)
 
 1. The selector will be available for the **Blackberry** and **iPhone 4** provided the device group **Smart Phone** is added to the template and page structures in the following steps.
 
-   ![](assets/chlimage_1-158.png)
+   ![chlimage_1-158](assets/chlimage_1-158.png)
 
 1. Using CRX DE Lite, allow the device group to be used on your template by adding it to the multi-value string property `cq:deviceGroups` on the structure of your template.
 
@@ -56,7 +56,7 @@ For this example, we are going to configure the existing device group **Smart Ph
 
    `/conf/we-retail/settings/wcm/templates/experience-page/structure/jcr:content`
 
-   ![](assets/chlimage_1-159.png)
+   ![chlimage_1-159](assets/chlimage_1-159.png)
 
 1. Using CRX DE Lite, allow the device group to be used on your site by adding it to the multi-value string property `cq:deviceGroups` on the structure of your site.
 
@@ -66,7 +66,7 @@ For this example, we are going to configure the existing device group **Smart Ph
 
    `/content/we-retail/jcr:content`
 
-   ![](assets/chlimage_1-160.png)
+   ![chlimage_1-160](assets/chlimage_1-160.png)
 
 Now when using the [emulator](/help/sites-authoring/responsive-layout.md#layout-definitions-device-emulation-and-breakpoints) in the page editor (such as when [modifying the layout](/help/sites-authoring/responsive-layout.md)) and you choose a device of the configured device group, the page will be rendered with a selector as part of the URL.
 
@@ -74,5 +74,5 @@ In our example, when editing a page based on the **Experience Page** template, a
 
 The page can also be called directly using this selector.
 
-![](assets/chlimage_1-161.png)
+![chlimage_1-161](assets/chlimage_1-161.png)
 

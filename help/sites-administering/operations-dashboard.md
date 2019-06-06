@@ -44,11 +44,11 @@ The Health Reports interface can be accessed through the **Tools** - **Operation
 
 `https://<serveraddress>:port/libs/granite/operations/content/healthreports/healthreportlist.html`
 
-![](assets/chlimage_1-414.png)
+![chlimage_1-414](assets/chlimage_1-414.png)
 
-The card system exposes three possible states: **OK**, **WARN **and **CRITICAL**. The states are a result of rules and thresholds, which can be configured by hovering the mouse over the card and then clicking the gear icon in the action bar:
+The card system exposes three possible states: **OK**, **WARN** and **CRITICAL**. The states are a result of rules and thresholds, which can be configured by hovering the mouse over the card and then clicking the gear icon in the action bar:
 
-![](assets/chlimage_1-415.png) 
+![chlimage_1-415](assets/chlimage_1-415.png) 
 
 ### Health Check Types {#health-check-types}
 
@@ -121,12 +121,12 @@ Creating an individual Health Check involves two steps: implementing a Sling Hea
    >[!NOTE]
    >
    >Make sure that the `/apps/settings/granite/operations/hc` path has the following properties set to true:  
-
+   >
    >
    >`sling:configCollectionInherit`
    >
    >`sling:configPropertyInherit`  
-
+   >
    >
    >This will tell the configuration manager to merge the new configurations with the existing ones from `/libs`.
 
@@ -139,7 +139,7 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
 1. Search for the entry called **Apache Sling Composite Health Check**. After you find it, notice that there are two configurations already available: one for the System Checks and another one for the Security Checks.
 1. Create a new configuration by pressing the "+" button on the right hand side of the configuration. A new window will appear, as shown below:
 
-   ![](assets/chlimage_1-63.jpeg)
+   ![chlimage_1-63](assets/chlimage_1-63.jpeg)
 
 1. Create a configuration and save it. A Mbean will be created with the new configuration.
 
@@ -154,7 +154,7 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
    >
    >A new JMX Mbean is created for each new configuration of the Apache Sling Composite Health Check.**
 
-1. Finally, the entry of the composite health check that has just been created needs to be added in the Operations Dashboard configuration nodes. The procedure for this is the same as with individual health checks: a node of type **nt:unstructured **needs to be created under `/apps/settings/granite/operations/hc`. The resource property of the node will be defined by the value of **hc.mean.name** in the OSGI configuration.
+1. Finally, the entry of the composite health check that has just been created needs to be added in the Operations Dashboard configuration nodes. The procedure for this is the same as with individual health checks: a node of type **nt:unstructured** needs to be created under `/apps/settings/granite/operations/hc`. The resource property of the node will be defined by the value of **hc.mean.name** in the OSGI configuration.
 
    If, for example, you created a configuration and set the **hc.mbean.name** value to **diskusage**, the configuration nodes will look like this:
 
@@ -179,8 +179,6 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
    >If you create individual health checks that logically belong under a composite check that is already present in the Dashboard by default, they will be automatically captured and grouped under the respective composite check. Because of this, there is no need to create a new configuration node for these checks.
    >
    >For example, if you create an individual security health check, all you need to do is assign it the "**security**" tag, and it is installed, it will automatically appear under the Security Checks composite check in the Operations Dashboard.  
-
-   >
 
 ### Health Checks Provided with AEM {#health-checks-provided-with-aem}
 
@@ -342,7 +340,7 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
     1. Press the **Hosts** link under the **Monitoring** section.
     1. Add the host definition:
 
-   ![](assets/chlimage_1-416.png)
+   ![chlimage_1-416](assets/chlimage_1-416.png)
 
    Below is an example of a host configuration file, in case you are using Nagios Core:
 
@@ -390,7 +388,7 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
 
 1. Check your Nagios dashboard for the newly created service:
 
-   ![](assets/chlimage_1-417.png)
+   ![chlimage_1-417](assets/chlimage_1-417.png)
 
 ## Diagnosis tools {#diagnosis-tools}
 
@@ -404,7 +402,7 @@ Amongst its most important features are:
 
 You can reach the Diagnosis Tools screen by going to **Tools - Operations - Diagnosis** from the AEM Welcome screen. You can also access the screen by directly accessing the following URL: `https://serveraddress:port/libs/granite/operations/content/diagnosis.html`
 
-![](assets/chlimage_1-418.png) 
+![chlimage_1-418](assets/chlimage_1-418.png) 
 
 ### Log Messages {#log-messages}
 
@@ -421,7 +419,7 @@ Examples:
 
 * If you plan on capturing all the messages coming from a certain package (for example com.adobe.granite) - the logger name should be set to: "com.adobe.granite", and the logger level to: **DEBUG** (this will capture all the **ERROR**, **WARN**, **INFO** and **DEBUG** messages), as shown in the image below.
 
-![](assets/chlimage_1-419.png)
+![chlimage_1-419](assets/chlimage_1-419.png)
 
 >[!NOTE]
 >
@@ -455,7 +453,7 @@ The Request Performance page allows the analysis of the slowest page requests pr
 1. Requests accessing resources under `/etc/design`
 1. Requests having the `".html"` extension
 
-![](assets/chlimage_1-420.png)
+![chlimage_1-420](assets/chlimage_1-420.png)
 
 The page displays:
 
@@ -477,7 +475,7 @@ The page displays:
 * The statement of the query 
 * The duration in milliseconds
 
-![](assets/chlimage_1-421.png) 
+![chlimage_1-421](assets/chlimage_1-421.png) 
 
 ### Explain Query {#explain-query}
 
@@ -496,7 +494,7 @@ The Explain Query is a tool that explains how Oak is executing a query. It can b
 
 Once you are in the Explain Query UI, all you need to do in order to use it is enter the query and press the **Explain** button:
 
-![](assets/chlimage_1-422.png)
+![chlimage_1-422](assets/chlimage_1-422.png)
 
 The first entry in the Query Explanation section is the actual explanation. The explanation will show the type of index that was used to execute the query.
 
@@ -504,7 +502,7 @@ The second entry is the execution plan.
 
 Ticking the **Include execution time** box before running the query will also show the amount of time the query was executed in, allowing for more information that can be used for optimizing the indexes for your application or deployment.
 
-![](assets/chlimage_1-423.png) 
+![chlimage_1-423](assets/chlimage_1-423.png) 
 
 ### The Index Manager {#the-index-manager}
 
@@ -514,7 +512,7 @@ It can be accessed by going to **Tools - Operations - Diagnosis **from the Welco
 
 It can also be accessed directly at this URL: `https://serveraddress:port/libs/granite/operations/content/diagnosistools/indexManager.html`
 
-![](assets/chlimage_1-424.png)
+![chlimage_1-424](assets/chlimage_1-424.png)
 
 The UI can be used to filter indexes in the table by typing in the filter criteria in the search box in the upper left corner of the screen.
 
@@ -524,7 +522,7 @@ This will trigger the download of a zip containing useful information about the 
 
 From this window you can select what to export (log files and or thread dumps) and the number of days of logs included in the download relative to the current date.
 
-![](assets/download_status_zip.png) 
+![download_status_zip](assets/download_status_zip.png) 
 
 ### Download Thread Dump {#download-thread-dump}
 
@@ -560,7 +558,7 @@ The default timing for the daily maintenance window is 2 to 5 AM. The tasks conf
 
 You can also configure the timings by pressing the gear icon on any of the two maintenance cards:
 
-![](assets/chlimage_1-425.png)
+![chlimage_1-425](assets/chlimage_1-425.png)
 
 >[!NOTE]
 >
@@ -607,16 +605,16 @@ You can schedule the Version Purge maintenance task to delete old versions autom
 1. Click the **Add** button.
 1. Choose **Version Purge** from the drop-down menu.
 
-   ![](assets/version_purge_maintenancetask.png)
+   ![version_purge_maintenancetask](assets/version_purge_maintenancetask.png)
 
 1. To configure the Version Purge task, click on the **gears** icon on the newly created Version Purge maintenance card.
 
-   ![](assets/version_purge_taskconfiguration.png)
+   ![version_purge_taskconfiguration](assets/version_purge_taskconfiguration.png)
 
 **With AEM 6.4**, you can stop the Version Purge maintenance task as follows:
 
 * Automatically - If the scheduled maintenance window closes before the task can complete, the task stops automatically. It will resume when the next maintenance window opens.
-* Manually - To manually stop the task, on the Version Purge maintenance card, click the **Stop **icon. On the next execution, the task will safely resume.
+* Manually - To manually stop the task, on the Version Purge maintenance card, click the **Stop** icon. On the next execution, the task will safely resume.
 
 >[!NOTE]
 >
@@ -682,7 +680,7 @@ src/main/java/com/adobe/granite/samples/maintenance/impl/DeleteTempFilesTask.jav
 <table> 
  <tbody> 
   <tr> 
-   <td><p> </p> <p><code>/*</code></p> <p><code> * #%L</code></p> <p><code> * sample-maintenance-task</code></p> <p><code> * %%</code></p> <p><code> * Copyright (C) 2014 Adobe</code></p> <p><code> * %%</code></p> <p><code> * Licensed under the Apache License, Version 2.0 (the "License");</code></p> <p><code> * you may not use this file except in compliance with the License.</code></p> <p><code> * You may obtain a copy of the License at</code></p> <p><code> * </code></p> <p><code> * <a href="https://www.apache.org/licenses/LICENSE-2.0">https://www.apache.org/licenses/LICENSE-2.0</a></code></p> <p><code> * </code></p> <p><code> * Unless required by applicable law or agreed to in writing, software</code></p> <p><code> * distributed under the License is distributed on an "AS IS" BASIS,</code></p> <p><code> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</code></p> <p><code> * See the License for the specific language governing permissions and</code></p> <p><code> * limitations under the License.</code></p> <p><code> * #L%</code></p> <p><code> */</code></p> <p><code> </code></p> <p><code>package com.adobe.granite.samples.maintenance.impl;</code></p> <p><code> </code></p> <p><code>import java.io.File;</code></p> <p><code>import java.util.Calendar;</code></p> <p><code>import java.util.Collection;</code></p> <p><code>import java.util.Map;</code></p> <p><code> </code></p> <p><code>import org.apache.commons.io.FileUtils;</code></p> <p><code>import org.apache.commons.io.filefilter.IOFileFilter;</code></p> <p><code>import org.apache.commons.io.filefilter.TrueFileFilter;</code></p> <p><code>import org.apache.felix.scr.annotations.Activate;</code></p> <p><code>import org.apache.felix.scr.annotations.Component;</code></p> <p><code>import org.apache.felix.scr.annotations.Properties;</code></p> <p><code>import org.apache.felix.scr.annotations.Property;</code></p> <p><code>import org.apache.felix.scr.annotations.Service;</code></p> <p><code>import org.apache.sling.commons.osgi.PropertiesUtil;</code></p> <p><code>import org.apache.sling.event.jobs.Job;</code></p> <p><code>import org.apache.sling.event.jobs.consumer.JobConsumer;</code></p> <p><code>import org.apache.sling.event.jobs.consumer.JobExecutionContext;</code></p> <p><code>import org.apache.sling.event.jobs.consumer.JobExecutionResult;</code></p> <p><code>import org.apache.sling.event.jobs.consumer.JobExecutor;</code></p> <p><code>import org.slf4j.Logger;</code></p> <p><code>import org.slf4j.LoggerFactory;</code></p> <p><code> </code></p> <p><code>import com.adobe.granite.maintenance.MaintenanceConstants;</code></p> <p><code> </code></p> <p><code>@Component(metatype = true,</code></p> <p><code> label = "Delete Temp Files Maintenance Task",</code></p> <p><code> description = "Maintatence Task which deletes files from a configurable temporary directory which have been modified in the last 24 hours.")</code></p> <p><code>@Service</code></p> <p><code>@Properties({</code></p> <p><code> @Property(name = MaintenanceConstants.PROPERTY_TASK_NAME, value = "DeleteTempFilesTask", propertyPrivate = true),</code></p> <p><code> @Property(name = MaintenanceConstants.PROPERTY_TASK_TITLE, value = "Delete Temp Files", propertyPrivate = true),</code></p> <p><code> @Property(name = JobConsumer.PROPERTY_TOPICS, value = MaintenanceConstants.TASK_TOPIC_PREFIX</code></p> <p><code> + "DeleteTempFilesTask", propertyPrivate = true) })</code></p> <p><code>public class DeleteTempFilesTask implements JobExecutor {</code></p> <p><code> </code></p> <p><code> private static final Logger log = LoggerFactory.getLogger(DeleteTempFilesTask.class);</code></p> <p><code> </code></p> <p><code> @Property(label = "Temporary Directory", description="Temporary Directory. Defaults to the java.io.tmpdir system property.")</code></p> <p><code> private static final String PROP_TEMP_DIR = "temp.dir";</code></p> <p><code> </code></p> <p><code> private File tempDir;</code></p> <p><code> </code></p> <p><code> @Activate</code></p> <p><code> private void activate(Map&amp;lt;string, object=""&amp;gt; properties) {</code></p> <p><code> this.tempDir = new File(PropertiesUtil.toString(properties.get(PROP_TEMP_DIR),</code></p> <p><code> System.getProperty("java.io.tmpdir")));</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code> @Override</code></p> <p><code> public JobExecutionResult process(Job job, JobExecutionContext context) {</code></p> <p><code> log.info("Deleting old temp files from {}.", tempDir.getAbsolutePath());</code></p> <p><code> Collection&amp;lt;file&amp;gt; files = FileUtils.listFiles(tempDir, new LastModifiedBeforeYesterdayFilter(),</code></p> <p><code> TrueFileFilter.INSTANCE);</code></p> <p><code> int counter = 0;</code></p> <p><code> for (File file : files) {</code></p> <p><code> log.debug("Deleting file {}.", file.getAbsolutePath());</code></p> <p><code> counter++;</code></p> <p><code> file.delete();</code></p> <p><code> // TODO - capture the output of delete() and do something useful with it</code></p> <p><code> }</code></p> <p><code> return context.result().message(String.format("Deleted %s files.", counter)).succeeded();</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code> /**</code></p> <p><code> * IOFileFilter which filters out files which have been modified in the last 24 hours.</code></p> <p><code> *</code></p> <p><code> */</code></p> <p><code> private static class LastModifiedBeforeYesterdayFilter implements IOFileFilter {</code></p> <p><code> </code></p> <p><code> private final long minTime;</code></p> <p><code> </code></p> <p><code> private LastModifiedBeforeYesterdayFilter() {</code></p> <p><code> Calendar cal = Calendar.getInstance();</code></p> <p><code> cal.add(Calendar.DATE, -1);</code></p> <p><code> this.minTime = cal.getTimeInMillis();</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code> @Override</code></p> <p><code> public boolean accept(File dir, String name) {</code></p> <p><code> // this method is never actually called.</code></p> <p><code> return false;</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code> @Override</code></p> <p><code> public boolean accept(File file) {</code></p> <p><code> return file.lastModified() &amp;lt;= this.minTime;</code></p> <p><code> }</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code>}</code></p> <p><code>&amp;lt;/file&amp;gt;&amp;lt;/string,&amp;gt;</code></p> <p> </p> </td> 
+   <td><p> </p> <p><code>/*</code></p> <p><code> * #%L</code></p> <p><code> * sample-maintenance-task</code></p> <p><code> * %%</code></p> <p><code> * Copyright (C) 2014 Adobe</code></p> <p><code> * %%</code></p> <p><code> * Licensed under the Apache License, Version 2.0 (the "License");</code></p> <p><code> * you may not use this file except in compliance with the License.</code></p> <p><code> * You may obtain a copy of the License at</code></p> <p><code> * </code></p> <p><code> * <a href="https://www.apache.org/licenses/LICENSE-2.0">https://www.apache.org/licenses/LICENSE-2.0</a></code></p> <p><code> * </code></p> <p><code> * Unless required by applicable law or agreed to in writing, software</code></p> <p><code> * distributed under the License is distributed on an "AS IS" BASIS,</code></p> <p><code> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</code></p> <p><code> * See the License for the specific language governing permissions and</code></p> <p><code> * limitations under the License.</code></p> <p><code> * #L%</code></p> <p><code> */</code></p> <p><code> </code></p> <p><code>package com.adobe.granite.samples.maintenance.impl;</code></p> <p><code> </code></p> <p><code>import java.io.File;</code></p> <p><code>import java.util.Calendar;</code></p> <p><code>import java.util.Collection;</code></p> <p><code>import java.util.Map;</code></p> <p><code> </code></p> <p><code>import org.apache.commons.io.FileUtils;</code></p> <p><code>import org.apache.commons.io.filefilter.IOFileFilter;</code></p> <p><code>import org.apache.commons.io.filefilter.TrueFileFilter;</code></p> <p><code>import org.apache.felix.scr.annotations.Activate;</code></p> <p><code>import org.apache.felix.scr.annotations.Component;</code></p> <p><code>import org.apache.felix.scr.annotations.Properties;</code></p> <p><code>import org.apache.felix.scr.annotations.Property;</code></p> <p><code>import org.apache.felix.scr.annotations.Service;</code></p> <p><code>import org.apache.sling.commons.osgi.PropertiesUtil;</code></p> <p><code>import org.apache.sling.event.jobs.Job;</code></p> <p><code>import org.apache.sling.event.jobs.consumer.JobConsumer;</code></p> <p><code>import org.apache.sling.event.jobs.consumer.JobExecutionContext;</code></p> <p><code>import org.apache.sling.event.jobs.consumer.JobExecutionResult;</code></p> <p><code>import org.apache.sling.event.jobs.consumer.JobExecutor;</code></p> <p><code>import org.slf4j.Logger;</code></p> <p><code>import org.slf4j.LoggerFactory;</code></p> <p><code> </code></p> <p><code>import com.adobe.granite.maintenance.MaintenanceConstants;</code></p> <p><code> </code></p> <p><code>@Component(metatype = true,</code></p> <p><code> label = "Delete Temp Files Maintenance Task",</code></p> <p><code> description = "Maintatence Task which deletes files from a configurable temporary directory which have been modified in the last 24 hours.")</code></p> <p><code>@Service</code></p> <p><code>@Properties({</code></p> <p><code> @Property(name = MaintenanceConstants.PROPERTY_TASK_NAME, value = "DeleteTempFilesTask", propertyPrivate = true),</code></p> <p><code> @Property(name = MaintenanceConstants.PROPERTY_TASK_TITLE, value = "Delete Temp Files", propertyPrivate = true),</code></p> <p><code> @Property(name = JobConsumer.PROPERTY_TOPICS, value = MaintenanceConstants.TASK_TOPIC_PREFIX</code></p> <p><code> + "DeleteTempFilesTask", propertyPrivate = true) })</code></p> <p><code>public class DeleteTempFilesTask implements JobExecutor {</code></p> <p><code> </code></p> <p><code> private static final Logger log = LoggerFactory.getLogger(DeleteTempFilesTask.class);</code></p> <p><code> </code></p> <p><code> @Property(label = "Temporary Directory", description="Temporary Directory. Defaults to the java.io.tmpdir system property.")</code></p> <p><code> private static final String PROP_TEMP_DIR = "temp.dir";</code></p> <p><code> </code></p> <p><code> private File tempDir;</code></p> <p><code> </code></p> <p><code> @Activate</code></p> <p><code> private void activate(Map&lt;string, object=""&gt; properties) {</code></p> <p><code> this.tempDir = new File(PropertiesUtil.toString(properties.get(PROP_TEMP_DIR),</code></p> <p><code> System.getProperty("java.io.tmpdir")));</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code> @Override</code></p> <p><code> public JobExecutionResult process(Job job, JobExecutionContext context) {</code></p> <p><code> log.info("Deleting old temp files from {}.", tempDir.getAbsolutePath());</code></p> <p><code> Collection&lt;file&gt; files = FileUtils.listFiles(tempDir, new LastModifiedBeforeYesterdayFilter(),</code></p> <p><code> TrueFileFilter.INSTANCE);</code></p> <p><code> int counter = 0;</code></p> <p><code> for (File file : files) {</code></p> <p><code> log.debug("Deleting file {}.", file.getAbsolutePath());</code></p> <p><code> counter++;</code></p> <p><code> file.delete();</code></p> <p><code> // TODO - capture the output of delete() and do something useful with it</code></p> <p><code> }</code></p> <p><code> return context.result().message(String.format("Deleted %s files.", counter)).succeeded();</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code> /**</code></p> <p><code> * IOFileFilter which filters out files which have been modified in the last 24 hours.</code></p> <p><code> *</code></p> <p><code> */</code></p> <p><code> private static class LastModifiedBeforeYesterdayFilter implements IOFileFilter {</code></p> <p><code> </code></p> <p><code> private final long minTime;</code></p> <p><code> </code></p> <p><code> private LastModifiedBeforeYesterdayFilter() {</code></p> <p><code> Calendar cal = Calendar.getInstance();</code></p> <p><code> cal.add(Calendar.DATE, -1);</code></p> <p><code> this.minTime = cal.getTimeInMillis();</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code> @Override</code></p> <p><code> public boolean accept(File dir, String name) {</code></p> <p><code> // this method is never actually called.</code></p> <p><code> return false;</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code> @Override</code></p> <p><code> public boolean accept(File file) {</code></p> <p><code> return file.lastModified() <= this.minTime;</code></p> <p><code> }</code></p> <p><code> }</code></p> <p><code> </code></p> <p><code>}</code></p> <p><code>&lt;file&gt;&lt;/string,&gt;</code></p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -691,9 +689,9 @@ src/main/java/com/adobe/granite/samples/maintenance/impl/DeleteTempFilesTask.jav
 
 Once the service is deployed, it will be exposed to the Operations Dashboard UI and can be added to one of the available maintenance schedules:
 
-![](assets/chlimage_1-426.png)
+![chlimage_1-426](assets/chlimage_1-426.png)
 
-This will add a corresponding resource at /apps/granite/operations/config/maintenance/[schedule]/[taskname]. If the task is run mode dependent, the property granite.operations.conditions.runmode needs to be set on that node with the values of the runmodes which need to be active for this maintenance task.
+This will add a corresponding resource at /apps/granite/operations/config/maintenance/`schedule`/`taskname`. If the task is run mode dependent, the property granite.operations.conditions.runmode needs to be set on that node with the values of the runmodes which need to be active for this maintenance task.
 
 ## System Overview {#system-overview}
 
@@ -707,7 +705,7 @@ The **System Overview Dashboard** displays a high-level overview of the configur
 
 To access the System Overview Dashboard, navigate to **Tools &gt; Operations &gt; System Overview**.
 
-![](assets/system_overview_dashboard.png) 
+![system_overview_dashboard](assets/system_overview_dashboard.png) 
 
 ### System Overview Dashboard Explained {#system-overview-dashboard-explained}
 

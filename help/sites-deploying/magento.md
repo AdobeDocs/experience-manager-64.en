@@ -49,7 +49,7 @@ To configure the Identity Provider:
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Magento Identity Provider**.
 
-   ![](assets/chlimage_1-11.jpeg)
+   ![chlimage_1-11](assets/chlimage_1-11.jpeg)
 
 1. Enter the following information:
 
@@ -64,7 +64,7 @@ To configure the Sync Handler:
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Apache Jackrabbit Oak Default Sync Handler.**
 
-   ![](assets/chlimage_1-12.jpeg)
+   ![chlimage_1-12](assets/chlimage_1-12.jpeg)
 
 1. Enter the following information:
 
@@ -95,7 +95,7 @@ The external login module is the bridge between the login, the idp and the sync 
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Apache Jackrabbit External Login Module**.
 
-   ![](assets/chlimage_1-13.jpeg)
+   ![chlimage_1-13](assets/chlimage_1-13.jpeg)
 
 1. Enter the following information:
 

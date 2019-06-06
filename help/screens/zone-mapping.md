@@ -52,7 +52,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
     1. Select **Screens** from the **Create Screens Project** wizard and click **Next**. 
     1. Enter the title as **Demo Mapping Project** and click **Create**.
 
-   ![](assets/zm1.gif)
+   ![zm1](assets/zm1.gif)
 
 1. ***Creating a new Channels Folder***
 
@@ -61,7 +61,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
     1. Choose the **Channels Folder **and click **Next**.
     1. Enter the Title as **Dual Zone **and click **Create**.
 
-   ![](assets/zm2.gif)
+   ![zm2](assets/zm2.gif)
 
 1. ***Creating a new Channel***
 
@@ -72,7 +72,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
 
    Similarly, create another sequence channel as **Right** in the **Zone Mapping Project**.
 
-   ![](assets/zm3.gif)
+   ![zm3](assets/zm3.gif)
 
 1. ***Adding Content to the Channels***
 
@@ -83,7 +83,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
 
    Similarly, add content to the **Right** channel too.
 
-   ![](assets/zm4.gif)
+   ![zm4](assets/zm4.gif)
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
     1. Select **Location** from the wizard and click **Next**.
     1. Enter the **Title** for your location (enter the title as **San Jose**) and click **Create**.
 
-   ![](assets/zm5.gif)
+   ![zm5](assets/zm5.gif)
 
 1. ***Creating a new display for San Jose***
 
@@ -107,7 +107,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
     1. Choose the **Number of Devices Horizontally** as **2**. Choose the **Number of Devices Vertically** as **1**.
     1. Click **Create**.
 
-   ![](assets/zm6.gif)
+   ![zm6](assets/zm6.gif)
 
 1. ***Assigning a channel***
 
@@ -119,7 +119,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
     1. Select the **Priority** for this channel as **1**. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
     1. Click **Save**.
 
-   ![](assets/zm7.gif)
+   ![zm7](assets/zm7.gif)
 
 1. ***Registering and Assigning the Device***
 
@@ -134,7 +134,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
     1. Click **Assign Device** fand select the display path for your channel () as */content/screens/Test_Project/Locations/TestLocation/TestDisplay*. Click **Assign**.
     1. Click **Finish** to complete the process, and now the device is assigned.
 
-   ![](assets/zm8.gif)
+   ![zm8](assets/zm8.gif)
 
 1. ***Creating multi-zone display***
 
@@ -150,7 +150,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
    >* identifiers "a1" and "a2" correspond to the zones defined in the template, that is, "screens-zone-a1" and "screens-zone-a2".
    >* ${display.channel}/left" points to the channel to embed in the zone, where "display.channel" points to the current channel path in the display. This effectively embeds the "left" and "right" children of the channel.
 
-   ![](assets/screen_shot_2018-01-22at114708am.png)
+   ![screen_shot_2018-01-22at114708am](assets/screen_shot_2018-01-22at114708am.png)
 
 #### Viewing Content in AEM Screens Player {#viewing-content-in-aem-screens-player}
 

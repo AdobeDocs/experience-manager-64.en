@@ -82,7 +82,7 @@ The error message is displayed when you build AEM Forms app in Android Studio. T
 
 **Resolution:** Click **Fix Gradle wrapper and re-import project** to resolve the issue.
 
-![](assets/gradle_unsupported_version.png) 
+![gradle_unsupported_version](assets/gradle_unsupported_version.png) 
 
 ## Gradle and Android Gradle plug-in compatibility issues {#gradle-and-android-gradle-plug-in-compatibility-issues}
 
@@ -90,7 +90,7 @@ The error message is displayed when you build AEM Forms app in Android Studio. T
 
 The error message is displayed when you select **Build APK** option from the **Build** menu on the Android Studio user interface. 
 
-![](assets/gradle_plugin_compatibility.png)
+![gradle_plugin_compatibility](assets/gradle_plugin_compatibility.png)
 
 **Resolution:** Open **Gradle Scripts** &gt; **gradle-wrapper.properties** file and edit the **distributionUrl** property.
 
@@ -98,5 +98,5 @@ For example, the Android Studio console recommends downgrading the Gradle versio
 
 Select **Build** &gt; **Build APK** again to resolve the error and generate the .apk file.
 
-![](assets/gradle_wrapper_properties.png)
+![gradle_wrapper_properties](assets/gradle_wrapper_properties.png)
 

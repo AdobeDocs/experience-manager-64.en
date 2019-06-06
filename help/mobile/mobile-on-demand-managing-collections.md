@@ -43,7 +43,7 @@ The general workflow to create a collection is as follows:
 1. When ready, click **Create**.
 1. Your new article appears in the **Manage Collections** tile.
 
-![](assets/chlimage_1-1.gif)
+![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ## Importing a New Collection {#importing-a-new-collection}
 
@@ -133,7 +133,7 @@ Collections are essentially a category of related content: They gather content s
 1. Select a previously uploaded collection from the dialog.
 1. Click **Update** to add content to the collection.
 
-![](assets/chlimage_1-2.gif)
+![chlimage_1-2](assets/chlimage_1-2.gif)
 
 1.
 

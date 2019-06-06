@@ -38,8 +38,8 @@ Actions on workflows can be undertaken if:
 
 Workflow models inherit a default access control list (ACL) for controlling how users can interact with workflows. To customize user access for a workflow, modify the Access Control List (ACL) in the repository for the folder containing the workflow model node:
 
-* [Apply an ACL for the specific workflow model to `/var/workflow/models`](/help/sites-administering/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models)
-* [Create a subfolder in `/var/workflow/models` and apply the ACL to that](/help/sites-administering/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that)
+* [Apply an ACL for the specific workflow model to /var/workflow/models](/help/sites-administering/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models)
+* [Create a subfolder in /var/workflow/models and apply the ACL to that](/help/sites-administering/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that)
 
 >[!NOTE]
 >
@@ -63,11 +63,11 @@ If the workflow model is stored within `/var/workflow/models` then you can assig
     * **Privileges**: `jcr:read`
     * **rep:glob**: reference to the specific workflow
 
-   ![](assets/wf-108.png)
+   ![wf-108](assets/wf-108.png)
 
    The **Access Control List** table now includes the restriction for `content-authors` on the `prototype-wfm-01` workflow model.
 
-   ![](assets/wf-109.png)
+   ![wf-109](assets/wf-109.png)
 
 1. Click **Save All**.
 
@@ -91,7 +91,7 @@ You can then add an ACL to the folder itself.
    `/var/workflow/models/prototypes`
 
 1. Click the **Access Control** tab.
-1. In the **Applicable Access Control Policy **table, click the plus icon to **Add** an entry.
+1. In the **Applicable Access Control Policy** table, click the plus icon to **Add** an entry.
 1. In the **Local Access Control Policies** (**Access Control List**) table, click the plus icon to **Add Entry**.
 1. In the **Add New Entry** dialog add a new ACE with the following properties:
 
@@ -103,11 +103,11 @@ You can then add an ACL to the folder itself.
    >
    >As with [Apply an ACL for the specific workflow model to /var/workflow/models](/help/sites-administering/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models) you can include a rep:glob to limit access to a specific workflow.
 
-   ![](assets/wf-110.png)
+   ![wf-110](assets/wf-110.png)
 
    The **Access Control List** table now includes the restriction for `content-authors` on the `prototypes` folder.
 
-   ![](assets/wf-111.png)
+   ![wf-111](assets/wf-111.png)
 
 1. Click **Save All**.
 

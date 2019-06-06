@@ -74,7 +74,7 @@ This structure can be viewed From the **Sites** console, where you can [navigate
 
 From any point, you can see the upward branch from breadcrumbs in the header bar:
 
-![](assets/screen_shot_2018-03-22at104706.png) 
+![screen_shot_2018-03-22at104706](assets/screen_shot_2018-03-22at104706.png) 
 
 ### Page Naming Conventions {#page-naming-conventions}
 
@@ -133,7 +133,7 @@ If you supply only a page **Title** when creating a new page, AEM will derive th
 
 When you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites-developing/naming-conventions.md) imposed by AEM and JCR. You cannot submit invalid characters in the **Name** field. When AEM detects invalid characters the field will be highlighted with an explanatory message.
 
-![](assets/screen_shot_2018-03-22at104817.png)
+![screen_shot_2018-03-22at104817](assets/screen_shot_2018-03-22at104817.png)
 
 >[!NOTE]
 >
@@ -188,14 +188,14 @@ Unless all pages have been created for you in advance, before you can start crea
 1. Navigate to the location where you want to create the new page. 
 1. Open the drop down selector using **Create** in the toolbar, then select **Page** from the list:
 
-   ![](assets/screen_shot_2018-03-22at104944.png)
+   ![screen_shot_2018-03-22at104944](assets/screen_shot_2018-03-22at104944.png)
 
 1. From the first stage of the wizard you can either:
 
     * Select the template you want used to create the new page, then click/tap **Next** to proceed.
     * **Cancel** to abort the process.
 
-   ![](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
 1. From the final stage of the wizard you can either:
 
@@ -220,11 +220,11 @@ Unless all pages have been created for you in advance, before you can start crea
 
    The minimum information required to create a new page is the **Title**.
 
-   ![](assets/chlimage_1-9.png)
+   ![chlimage_1-9](assets/chlimage_1-9.png)
 
 1. Use **Create** to complete the process and create your new page. The confirmation dialog will ask whether you want to **Open** the page immediately or return to the console (**Done**):
 
-   ![](assets/chlimage_1-10.png)
+   ![chlimage_1-10](assets/chlimage_1-10.png)
 
    >[!NOTE]
    >
@@ -232,7 +232,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
 1. If you return to the console you will see your new page:
 
-   ![](assets/screen_shot_2018-03-22at105321.png)
+   ![screen_shot_2018-03-22at105321](assets/screen_shot_2018-03-22at105321.png)
 
 >[!CAUTION]
 >
@@ -251,7 +251,7 @@ After creating a page, or navigating to an existing page (in the console), you c
 
    And then select the **Edit** icon:
 
-   ![](assets/screen_shot_2018-03-22at105355.png)
+   ![screen_shot_2018-03-22at105355](assets/screen_shot_2018-03-22at105355.png)
 
 1. The page will be opened and you can [edit the page](/help/sites-authoring/editing-content.md) as required.
 
@@ -271,7 +271,7 @@ You can copy a page and all of its subpages to a new location:
 
    And then the **Copy** page icon:
 
-   ![](assets/screen_shot_2018-03-22at105425.png)
+   ![screen_shot_2018-03-22at105425](assets/screen_shot_2018-03-22at105425.png)
 
    >[!NOTE]
    >
@@ -280,7 +280,7 @@ You can copy a page and all of its subpages to a new location:
 1. Navigate to the location for the new copy of the page.
 1. Use the **Paste** page icon:
 
-   ![](assets/screen_shot_2018-03-22at105510.png)
+   ![screen_shot_2018-03-22at105510](assets/screen_shot_2018-03-22at105510.png)
 
    A copy of the original page and any subpages will be created at this location.
 
@@ -314,7 +314,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
    And then select the **Move** page icon:
 
-   ![](assets/screen_shot_2018-03-22at105534.png)
+   ![screen_shot_2018-03-22at105534](assets/screen_shot_2018-03-22at105534.png)
 
    This will open the move page wizard.
 
@@ -323,7 +323,7 @@ AEM offers you the functionality to update any internal links that refer to the 
     * Specify the name you want the page to have after it is moved, then click/tap **Next** to proceed.
     * **Cancel** to abort the process.
 
-   ![](assets/chlimage_1-11.png)
+   ![chlimage_1-11](assets/chlimage_1-11.png)
 
    The page name can remain the same if you are only moving the page.
 
@@ -340,7 +340,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
     * Use **Back** to return to page name specification.
 
-   ![](assets/chlimage_1-12.png)
+   ![chlimage_1-12](assets/chlimage_1-12.png)
 
    >[!NOTE]
    >
@@ -348,7 +348,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
 1. If the page is linked to or referenced, then these references will be listed in the **Adjust/Republish** step. You can indicate which should be adjusted and republished as appropriate.
 
-   ![](assets/chlimage_1-13.png)
+   ![chlimage_1-13](assets/chlimage_1-13.png)
 
 1. Selecting **Move** will complete the process and move/rename your page as appropriate.
 
@@ -365,7 +365,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 1. Navigate until you can see the page you want to delete.
 1. Use [selection mode](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources) to select the required page, then use **Delete** from the toolbar:
 
-   ![](assets/screen_shot_2018-03-22at105622.png)
+   ![screen_shot_2018-03-22at105622](assets/screen_shot_2018-03-22at105622.png)
 
    >[!NOTE]
    >
@@ -387,7 +387,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
 You can [lock/unlock a page](/help/sites-authoring/editing-content.md#locking-a-page) from either a console or when editing an individual page. Information about whether a page is locked is also shown in both locations.
 
-![](assets/screen_shot_2018-03-22at105713.png) ![](assets/screen_shot_2018-03-22at105720.png) 
+![screen_shot_2018-03-22at105713](assets/screen_shot_2018-03-22at105713.png) ![screen_shot_2018-03-22at105720](assets/screen_shot_2018-03-22at105720.png) 
 
 ### Creating a New Folder {#creating-a-new-folder}
 
@@ -408,7 +408,7 @@ You can create folders to help organize your files and pages.
 1. To open the option list, select **Create** from the toolbar
 1. Select **Folder** to open the dialog. Here you can enter the **Name** and **Title**:
 
-   ![](assets/chlimage_1-14.png)
+   ![chlimage_1-14](assets/chlimage_1-14.png)
 
 1. Select **Create** to create the folder.
 

@@ -17,10 +17,10 @@ discoiquuid: 599f1925-a17e-4bae-93d9-b54edcee92b0
 
 HTML5 forms functionality is deployed as a package within the embedded AEM instance and is exposesd as a REST end point over HTTP/S using RESTful [Apache Sling Architecture](https://sling.apache.org/).
 
-    [ ![](assets/01-aem-forms-architecture.jpg)  
+    [ ![01-aem-forms-architecture](assets/01-aem-forms-architecture.jpg)  
 *View Full Size*](javascript:void(0).md)
 
-    [ ![](assets/02-aem-forms-architecture_large.jpg)](javascript:void(0).md)
+    [ ![02-aem-forms-architecture_large](assets/02-aem-forms-architecture_large.jpg)](javascript:void(0).md)
 
 ### Using Sling Framework {#using-sling-framework}
 

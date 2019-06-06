@@ -26,7 +26,7 @@ Configuring MSSL for replication involves performing the following steps:
 1. Configure the Jetty-Based HTTP Service on the Publish instance.
 1. Configure the transport and SSL properties of the replication agent.
 
-![](assets/chlimage_1-64.png)
+![chlimage_1-64](assets/chlimage_1-64.png)
 
 You must determine which user account is performing the replication. When installing the trusted author certificate on the publish instance, the certificate is associated with this user account.
 
@@ -145,17 +145,17 @@ To perform the following procedure, you must be logged in as an adminstrator of 
 1. If the Create KeyStore link appears in the Account Settings area, click the link. Configure a password and click OK.
 1. In the Account Settings area, click Manage Keystore.
 
-   ![](assets/chlimage_1-65.png)
+   ![chlimage_1-65](assets/chlimage_1-65.png)
 
 1. Click Add Private Key From Key Store File.
 
-   ![](assets/chlimage_1-66.png)
+   ![chlimage_1-66](assets/chlimage_1-66.png)
 
 1. Click Select Key Store file, then browse for and select the author.keystore file or the author.pfx file if using pkcs#12, then click Open.
 1. Enter an alias and the password for the key store. Enter the alias and password for the private key, then click Submit.
 1. Close the KeyStore Management dialog box.
 
-   ![](assets/chlimage_1-67.png)
+   ![chlimage_1-67](assets/chlimage_1-67.png)
 
 ### Install the Publish Certificate {#install-the-publish-certificate}
 
@@ -165,12 +165,12 @@ To perform the following procedure, you must be logged in as an adminstrator of 
 1. In the Account Settings area, click Manage TrustStore.
 1. Click Add Certificate From CER File.
 
-   ![](assets/chlimage_1-68.png)
+   ![chlimage_1-68](assets/chlimage_1-68.png)
 
 1. Clear the Map Certificate to User option. Click Select Certificate File, select publish.cer, and click Open.
 1. Close the TrustStore Management dialog box.
 
-   ![](assets/chlimage_1-69.png)
+   ![chlimage_1-69](assets/chlimage_1-69.png)
 
 ## Install Private Key and TrustStore on Publish {#install-private-key-and-truststore-on-publish}
 
@@ -246,7 +246,7 @@ To enable MSSL, configure the properties on the Transport tab according to the f
  </tbody> 
 </table>
 
-![](assets/chlimage_1-70.png)
+![chlimage_1-70](assets/chlimage_1-70.png)
 
 After you configure the replication agent, test the connection to determine whether MSSL is configured correctly.
 

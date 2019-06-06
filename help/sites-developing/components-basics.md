@@ -410,11 +410,11 @@ If we look at the **Text** component (either version), we can see these elements
 
 * HTL ( `/libs/wcm/foundation/components/text`)
 
-  ![](assets/chlimage_1-241.png)
+  ![chlimage_1-241](assets/chlimage_1-241.png)
 
 * JSP ( `/libs/foundation/components/text`)
 
-  ![](assets/screen_shot_2012-02-13at60457pm.png)
+  ![screen_shot_2012-02-13at60457pm](assets/screen_shot_2012-02-13at60457pm.png)
 
 Properties of particular interest include:
 
@@ -468,11 +468,11 @@ Dialog definitions are specific to the UI:
             * For out-of-the box components this often references a page in the documentation. 
             * If no `helpPath` is specified, the default URL (documentation overview page) is shown.
 
-  ![](assets/chlimage_1-242.png)
+  ![chlimage_1-242](assets/chlimage_1-242.png)
 
   Within the dialog, individual fields are defined:
 
-  ![](assets/screen_shot_2012-02-13at60937pm.png)
+  ![screen_shot_2012-02-13at60937pm](assets/screen_shot_2012-02-13at60937pm.png)
 
 * Classic UI ``
 
@@ -487,11 +487,11 @@ Dialog definitions are specific to the UI:
             * For out-of-the box components this often references a page in the documentation. 
             * If no `helpPath` is specified, the default URL (documentation overview page) is shown.
 
-  ![](assets/chlimage_1-243.png)
+  ![chlimage_1-243](assets/chlimage_1-243.png)
 
   Within the dialog, individual fields are defined:
 
-  ![](assets/chlimage_1-244.png)
+  ![chlimage_1-244](assets/chlimage_1-244.png)
 
   Within a classic dialog:
 
@@ -519,7 +519,7 @@ Once a component has been defined it must be made available for use. To make a c
 
    `/etc/designs/geometrixx/jcr:content/contentpage/par`
 
-   ![](assets/chlimage_1-245.png)
+   ![chlimage_1-245](assets/chlimage_1-245.png)
 
 ### Components and the Content They Create {#components-and-the-content-they-create}
 
@@ -527,15 +527,15 @@ If we create and configure an instance of the **Title** component on the page: `
 
 * Touch-Enabled UI
 
-  ![](assets/chlimage_1-246.png)
+  ![chlimage_1-246](assets/chlimage_1-246.png)
 
 * Classic UI
 
-  ![](assets/screen_shot_2012-02-01at34257pm.png)
+  ![screen_shot_2012-02-01at34257pm](assets/screen_shot_2012-02-01at34257pm.png)
 
 Then we can see the structure of the content created within the repository:
 
-![](assets/screen_shot_2012-02-13at61405pm.png)
+![screen_shot_2012-02-13at61405pm](assets/screen_shot_2012-02-13at61405pm.png)
 
 In particular, if you look at the actual text for a **Title**:
 

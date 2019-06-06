@@ -28,7 +28,5 @@ user-guide-title: AEM 6.4 Release Notes
 
 <!--
 [REDIRECT AEM 6.4.1.0 Release Notes](sp1-release-notes.md)
-[AEM 6.4.2.0 Release Notes](sp2-release-notes.md) 
- [DELETED AEM Mobile](apps-release-notes.md)
-[DELETED Integrating with Livefyre](livefyre.md)
+[AEM 6.4.2.0 Release Notes](sp2-release-notes.md)
 -->

@@ -27,8 +27,8 @@ Optionally, you can specify the **Launch Date** (and time) to define when the la
 The following procedure creates a launch.
 
 1. Open the Website administration page ([http://localhost:4502/siteadmin](http://localhost:4502/siteadmin)). 
-2. Click **New...** then **New Launch...**.
-3. In the **Create Launch** dialog, specify values for the following properties:
+1. Click **New...** then **New Launch...**.
+1. In the **Create Launch** dialog, specify values for the following properties:
 
     * **Launch Title**: The name of the Launch. The name should be meaningful for authors.
     * **Source Page**: The path to the page for which to create the launch. By default, all child pages are included.
@@ -36,9 +36,9 @@ The following procedure creates a launch.
     * **Keep In Sync**: Select this option to automatically update the content of launch pages when the source pages change. This is achieved by making the launch a [live copy](/help/sites-administering/msm.md).
     * **Launch Date**: The date and time when the launch copy is to be activated (dependent on the **Production Ready** flag; see [Launches - the Order of Events](/help/sites-authoring/launches.md#launches-the-order-of-events)).
 
-   ![](assets/chlimage_1-99.png)
+   ![chlimage_1-99](assets/chlimage_1-99.png)
 
-4. Click **Create**.
+1. Click **Create**.
 
 ## Deleting a Launch {#deleting-a-launch}
 
@@ -47,7 +47,7 @@ You can also delete a launch.
 1. In the [launches console](/help/sites-classic-ui-authoring/classic-launches.md), select the required launch.
 1. Click **Delete** - confirmation is required:
 
-   ![](assets/chlimage_1-100.png)
+   ![chlimage_1-100](assets/chlimage_1-100.png)
 
    >[!CAUTION]
    >

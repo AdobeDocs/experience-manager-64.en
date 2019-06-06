@@ -17,19 +17,19 @@ Adobe Experience Manager (AEM) Assets lets you share folders containing assets w
 
 1. In the Assets console, select a folder to share with Creative Cloud.
 
-   ![](assets/chlimage_1-14.png)
+   ![chlimage_1-14](assets/chlimage_1-14.png)
 
 1. From the toolbar, click the **Share** icon.
 
-   ![](assets/chlimage_1-15.png)
+   ![chlimage_1-15](assets/chlimage_1-15.png)
 
 1. From the list, select the **Adobe Creative Cloud** option.
 
-   ![](assets/chlimage_1-16.png)
+   ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. In the **Creative Cloud Sharing** page, add the user to share the folder with and then click **Save**.
 
-   ![](assets/chlimage_1-17.png)
+   ![chlimage_1-17](assets/chlimage_1-17.png)
 
 1. Click **Ok** to close the confirmation message.
 1. Log on to Creative Cloud with the credentials of the user you shared the folder with. The shared folder is available in Creative Cloud.

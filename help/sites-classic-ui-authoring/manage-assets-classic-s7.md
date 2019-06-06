@@ -54,7 +54,7 @@ To publish to Dynamic Media Classic from the Assets console if the assets are in
 
 1. Select the asset (or assets) or folder from within the target folder you want to publish to Dynamic Media Classic and right-click and select **[!UICONTROL Publish to Dynamic Media Classic]**. Alternatively, you can select **[!UICONTROL Publish to Dynamic Media Classic]** from the **[!UICONTROL Tools] menuu.
 
-   ![](assets/chlimage_1-76.png)
+   ![chlimage_1-76](assets/chlimage_1-76.png)
 
 1. Go to Dynamic Media Classic and confirm that the assets are available.
 
@@ -78,7 +78,7 @@ You can manually publish an asset as long as that asset is located inside the sy
 
 1. In the asset details pane, select **[!UICONTROL Publish to Dynamic Media Classic]**.
 
-   ![](assets/screen_shot_2012-02-22at34828pm.png)
+   ![screen_shot_2012-02-22at34828pm](assets/screen_shot_2012-02-22at34828pm.png)
 
 1. The link changes to **[!UICONTROL Publishing ...]** and then **[!UICONTROL Published]**. Go to Dynamic Media Classic and confirm that the asset is available.
 
@@ -105,7 +105,7 @@ You do this by configuring the Cloud configuration for the page where the asset 
 1. Click **[!UICONTROL Cloud Services** &gt; **Add services** &gt; **Dynamic Media Classic (Scene7)**.
 1. In the Adobe Dynamic Media Classic drop-down list, select the desired configuration, then click **[!UICONTROL OK]**.
 
-   ![](assets/chlimage_1-77.png)
+   ![chlimage_1-77](assets/chlimage_1-77.png)
 
 1. On the web page, add a Dynamic Media Classic (Scene7) component to the desired location on the page.
 1. From the content finder, drag a digital asset to the component. You see a link to **[!UICONTROL Check Dynamic Media Classic Publication Status]**.
@@ -114,7 +114,7 @@ You do this by configuring the Cloud configuration for the page where the asset 
    >
    >If the digital asset is in the CQ target folder, then no link to **[!UICONTROL Check Dynamic Media Classic Publication Status]** appears. The assets is simply placed in the component.
 
-   ![](assets/chlimage_1-78.png)
+   ![chlimage_1-78](assets/chlimage_1-78.png)
 
 1. Click **[!UICONTROL Check Dynamic Media Classic Publication Status]**. If the asset is not published, AEM publishes the asset to Dynamic Media Classic. After it is uploaded, the asset is located in the ad-hoc folder. By default, the ad-hoc folder is located in the `name_of_the_company/CQ5_adhoc`. You can [configure this, if needed](#configuringtheadhocfolder).
 
@@ -177,7 +177,7 @@ Responsive design for your assets means that your assets adapts depending on whe
 1. In a website with the Dynamic Media Classic components enabled, drag an **[!UICONTROL Image]** viewer to the page.
 1. Edit the component and adjust the breakpoints in the **[!UICONTROL Dynamic Media Classic Settings]** tab.
 
-   ![](assets/chlimage_1-79.png)
+   ![chlimage_1-79](assets/chlimage_1-79.png)
 
 1. Confirm that the viewers are responsively resizing and that all interactions are optimized for desktop, tablet, and mobile.
 
@@ -191,7 +191,7 @@ Although configuration options vary, the following are common to all Dynamic Med
 
 You set these configuration options by double-clicking a Dynamic Media Classic component, for example, when you open a **[!UICONTROL Zoom]** component:
 
-![](assets/chlimage_1-80.png) 
+![chlimage_1-80](assets/chlimage_1-80.png) 
 
 ### Zoom {#zoom}
 
@@ -211,7 +211,7 @@ In the HTML5 Flyout component, the asset is shown as split screen; left the asse
 >
 >If your Flyout component uses the default size, as set in the [!UICONTROL Design] view, then the default size is used and the component stretches to accomodate the page layout size with responsive setup of the component enabled. Be aware, however, that there is a limitation on responsive setup of the component. When the you use the Flyout component with responsive setup, you should not use it with full page stretch. Otherwise, the Flyout may extend beyond the page's right border.
 
-![](assets/chlimage_1-81.png) 
+![chlimage_1-81](assets/chlimage_1-81.png) 
 
 ### Image {#image}
 
@@ -223,7 +223,7 @@ The Dynamic Media Classic Image component lets you add Dynamic Media Classic fun
 
 **[!UICONTROL URL, Open in]** - You can set an asset from to open a link. Set the **[!UICONTROL URL]** and **[!UICONTROL Open in]** to indicate whether you want it to open in the same window or a new window.
 
-![](assets/chlimage_1-82.png)
+![chlimage_1-82](assets/chlimage_1-82.png)
 
 **[!UICONTROL Viewer preset]** - Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See [Managing Viewer Presets](/help/assets/managing-viewer-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
 
@@ -245,7 +245,7 @@ The Dynamic Media Classic Image component lets you add Dynamic Media Classic fun
 
 Click **[!UICONTROL Edit]** to configure the component. You can configure [settings common to all Dynamic Media Classic components](/help/sites-administering/scene7.md#settingscommontoalldynamicmediaclassicscomponents) as well as other settings described in this section.
 
-![](assets/chlimage_1-83.png)
+![chlimage_1-83](assets/chlimage_1-83.png)
 
 **[!UICONTROL File Reference, Width, Height]** - See settings common to all Dynamic Media Classic components.
 
@@ -257,31 +257,31 @@ Click **[!UICONTROL Edit]** to configure the component. You can configure [setti
 
 **[!UICONTROL URL, Open in]** You can set an asset from to open a link. Set the **[!UICONTROL URL]** and in **[!UICONTROL Open in]** indicate whether you want it to open in the same window or a new window.
 
-![](assets/chlimage_1-84.png)
+![chlimage_1-84](assets/chlimage_1-84.png)
 
 **[!UICONTROL Parameter Panel]** When importing an image, the parameters are pre-populated with information from the image. If there is no content that can be dynamically changed, this window is empty.
 
-![](assets/chlimage_1-85.png) 
+![chlimage_1-85](assets/chlimage_1-85.png) 
 
 #### Changing text dynamically {#changing-text-dynamically}
 
 To change the text dynamically, enter new text in the fields and click **[!UICONTROL OK]**. In this example, the **[!UICONTROL Price]** is now $50 and shipping is 99 cents.
 
-![](assets/chlimage_1-86.png)
+![chlimage_1-86](assets/chlimage_1-86.png)
 
 The text in the image changes. You can reset the text back to the original value by clicking **[!UICONTROL Reset]** next to the field.
 
-![](assets/chlimage_1-87.png) 
+![chlimage_1-87](assets/chlimage_1-87.png) 
 
 #### Changing text to reflect the value of a client context value {#changing-text-to-reflect-the-value-of-a-client-context-value}
 
 To link a field to a client context value, click **[!UICONTROL Select]** to open the client-context menu, select the client context, and click **[!UICONTROL OK]**. In this example, the name changes based on linking the Name with the formatted name in the profile.
 
-![](assets/chlimage_1-88.png)
+![chlimage_1-88](assets/chlimage_1-88.png)
 
 The text reflects the name of the currently logged in user. You can reset the text back to the original value by clicking **[!UICONTROL Reset]** next to the field.
 
-![](assets/chlimage_1-89.png) 
+![chlimage_1-89](assets/chlimage_1-89.png) 
 
 #### Making the Dynamic Media Classic image template a link {#making-the-scene-image-template-a-link}
 
@@ -290,7 +290,7 @@ The text reflects the name of the currently logged in user. You can reset the te
 1. On the page with the Dynamic Media Classic image template component, click **[!UICONTROL Edit]**.
 1. In the **[!UICONTROL URL]** field, enter the URL that users go to when the image is clicked. In the **[!UICONTROL Open in]** field, select whether you want the target to open (a new window or same window). 
 
-   ![](assets/chlimage_1-90.png)
+   ![chlimage_1-90](assets/chlimage_1-90.png)
 
 1. Click **[!UICONTROL OK]**.
 
@@ -302,7 +302,7 @@ It can be used for adaptive video sets, a single MP4 video, or a single F4V vide
 
 See [Video](/help/sites-classic-ui-authoring/manage-assets-classic-s7-video.md) for more information on how videos work with Dynamic Media Classic integration. In addition, see how [the **Dynamic Media Classic video** component compares to the foundation **video** component](/help/sites-classic-ui-authoring/manage-assets-classic-s7-video.md). 
 
-![](assets/chlimage_1-91.png) 
+![chlimage_1-91](assets/chlimage_1-91.png) 
 
 ### Known limitations for the video component {#known-limitations-for-the-video-component}
 
@@ -337,7 +337,7 @@ Browse content in Dynamic Media Classic by clicking the **[!UICONTROL S7]** tab.
 
 You can change the configuration you are accessing by selecting the configuration. The folders change depending on which configuration you select.
 
-![](assets/chlimage_1-92.png)
+![chlimage_1-92](assets/chlimage_1-92.png)
 
 As with the content finder for Assets, you can search for assets and filter results. However, unlike the Assets finder, when entering a keyword in the **[!UICONTROL S7]** tab, the file name *starts with* the string that you entered, rather than *containing* the keyword in the file name.
 
@@ -362,7 +362,7 @@ When searching in either UI, you can filter by the following criteria (shown her
 
 **[!UICONTROL Enter keywords]** - You can search assets by name. When searching the keywords you enter is what the file name starts with. For example, typing the word "swimming" would look for any asset file names that start with those letters in that order. Be sure to click enter after you type the term to find the asset.
 
-![](assets/chlimage_1-93.png)
+![chlimage_1-93](assets/chlimage_1-93.png)
 
 **[!UICONTROL Folder/path]** - The name of the folder that appears is based on the configuration you have selected. You can drill down to lower levels by clicking the folder icon and selecting a sub-folder, then clicking the checkmark to select it.
 
@@ -370,19 +370,19 @@ If you enter a keyword and select a folder, AEM searches that folder and any sub
 
 By default, AEM searches the folder selected and all sub-folders.
 
-![](assets/chlimage_1-94.png)
+![chlimage_1-94](assets/chlimage_1-94.png)
 
 **[!UICONTROL Type of Asset]** Select Dynamic Media Classic to browse Dynamic Media Classic content. This option is only available if you have already configured Dynamic Media Classic.
 
-![](assets/chlimage_1-95.png)
+![chlimage_1-95](assets/chlimage_1-95.png)
 
 **[!UICONTROL Configuration]** If you have more than one Dynamic Media Classic configuration defined in [!UICONTROL Cloud Services], you can select it here. As a result the folder will change based on the configuration you have chosen.
 
-![](assets/chlimage_1-96.png)
+![chlimage_1-96](assets/chlimage_1-96.png)
 
 **[!UICONTROL Asset type]** Within the Dynamic Media Classic browser, you can filter results to include any of the following: images, templates, videos, and adaptive video sets. If you do not select any asset type, AEM by default searches all asset types.
 
-![](assets/chlimage_1-97.png)
+![chlimage_1-97](assets/chlimage_1-97.png)
 
 >[!NOTE]
 >
@@ -392,5 +392,5 @@ By default, AEM searches the folder selected and all sub-folders.
 
 **[!UICONTROL Publish Status]** You can filter for assets based on publication status: [!UICONTROL Published] or [!UICONTROL Unpublished]. If you do not select any [!UICONTROL Publish status], AEM by default searches all publish statuses.
 
-![](assets/chlimage_1-98.png)
+![chlimage_1-98](assets/chlimage_1-98.png)
 

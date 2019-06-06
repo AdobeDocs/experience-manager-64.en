@@ -154,7 +154,7 @@ This creates an AEM page from the extracted elements. An extraction handler is u
 
 To customize, you can edit the **Arguments** tab of the** Page Extraction** step.
 
-![](assets/chlimage_1-289.png)
+![chlimage_1-289](assets/chlimage_1-289.png)
 
 * **Page Extraction Handler**
 
@@ -199,7 +199,7 @@ To customize, you can edit the **Arguments** tab of the** Page Extraction** step
 
 1. Click **Edit** to open the configuration dialog and define the required settings:
 
-   ![](assets/proxy_idsworkerconfig.png)
+   ![proxy_idsworkerconfig](assets/proxy_idsworkerconfig.png)
 
     * **IDS Pool**
 
@@ -215,7 +215,7 @@ If the InDesign server and AEM run on different hosts or either or both these ap
 1. Locate the configuration **Day CQ Link Externalizer**, and click the **Edit** icon to open it.
 1. Specify the host name and context path for the Indesign server and click **Save**.
 
-   ![](assets/chlimage_1-290.png)
+   ![chlimage_1-290](assets/chlimage_1-290.png)
 
 ### Enabling Parallel Job Processing for InDesign Server(s) {#enabling-parallel-job-processing-for-indesign-server-s}
 

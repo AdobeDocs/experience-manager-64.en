@@ -35,13 +35,13 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
     1. Enter the title as *Test_Project *and click **Create**.
 
-   ![](assets/chlimage_1-124.png)
+   ![chlimage_1-124](assets/chlimage_1-124.png)
 
    Once the project is created, it brings you back to the Screens Project console. You can now select your project. In a project, there are five kind of folders namely *Applications*, *Channels*, *Devices*, *Locations*, and *Schedules*, as shown in the figure below.
 
-   ![](assets/chlimage_1-125.png)
+   ![chlimage_1-125](assets/chlimage_1-125.png)
 
-   See [Creating and Managing projects in Screens](/help/sites-authoring/creating-a-screens-project.md) for more details.
+   See [Creating and Managing projects in Screens](/help/screens/creating-a-screens-project.md) for more details.
 
 1. **Creating a new channel**
 
@@ -50,15 +50,15 @@ The following steps allow you to create a sample project for Screens and publish
    Follow the steps below to create a new channel for your project:
 
     1. Navigate to the *Test_Project* you created and select the **Channels** folder.
-    1. Click** Create** next to the plus icon in the action bar (see the figure below). A wizard will open.
+    1. Click **Create** next to the plus icon in the action bar (see the figure below). A wizard will open.
     1. Choose the **Sequence Channel **and click **Next**.
     1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
 
-   ![](assets/chlimage_1-126.png)
+   ![chlimage_1-126](assets/chlimage_1-126.png)
 
    The *TestChannel* is created and added to your channels folder, as shown in the figure below.
 
-   ![](assets/chlimage_1-127.png)
+   ![chlimage_1-127](assets/chlimage_1-127.png)
 
    See [Channel Management](/help/screens/managing-channels.md) for more details on creating and managing channels.
 
@@ -73,11 +73,11 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select **Locations** from the wizard and click **Next**.
     1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
 
-   ![](assets/chlimage_1-128.png)
+   ![chlimage_1-128](assets/chlimage_1-128.png)
 
    The *TestLocation* is created and added to your **Locations** folder.
 
-   ![](assets/chlimage_1-129.png)
+   ![chlimage_1-129](assets/chlimage_1-129.png)
 
    Once you have created a location, you need to create a new display for your location.
 
@@ -99,7 +99,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    A new display (*TestDisplay*) is added to your location named *TestLocation*, as shown in the figure below:
 
-   ![](assets/chlimage_1-130.png)
+   ![chlimage_1-130](assets/chlimage_1-130.png)
 
 1. **Creating a new device config**
 
@@ -109,11 +109,11 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select the **Device config **from the wizard and click **Next**.
     1. Enter the **Name** and **Title** for the device (name it as *TestDeviceConfig*) and click **Create**.
 
-   ![](assets/chlimage_1-131.png)
+   ![chlimage_1-131](assets/chlimage_1-131.png)
 
    The device config (*TestDeviceConfig*) is created and added to the current display.
 
-   ![](assets/chlimage_1-132.png)
+   ![chlimage_1-132](assets/chlimage_1-132.png)
 
 1. **Assigning a channel**
 
@@ -127,7 +127,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    The channel should be created and added to the panel, as shown in the figure below:
 
-   ![](assets/chlimage_1-133.png)
+   ![chlimage_1-133](assets/chlimage_1-133.png)
 
 1. **Registering a device**
 
@@ -141,18 +141,18 @@ The following steps allow you to create a sample project for Screens and publish
     1. Click **Device Manager** from the action bar.
     1. Click **Device Registration** and you will see the pending devices, as shown in the figure below:
 
-   ![](assets/chlimage_1-134.png)
+   ![chlimage_1-134](assets/chlimage_1-134.png)
 
    Select the device you want to register and click **Register Device**.
 
-   ![](assets/chlimage_1-135.png)
+   ![chlimage_1-135](assets/chlimage_1-135.png)
 
    You will need to validate the code by verifying the code from the web browser.
 
     1. Click Validate to navigate to **Device Registration** screen.
     1. Enter **Title** and click **Register** and the device will be registered as shown in the figure below:
 
-   ![](assets/chlimage_1-136.png)
+   ![chlimage_1-136](assets/chlimage_1-136.png)
 
 1. **Assigning the display**
 
@@ -163,20 +163,20 @@ The following steps allow you to create a sample project for Screens and publish
     1. Click **Assign**.
     1. Click **Finish** to complete the process, and now the device is assigned as shown in the figure below:
 
-   ![](assets/chlimage_1-137.png)
+   ![chlimage_1-137](assets/chlimage_1-137.png)
 
 ### Viewing the content in Screens Player {#viewing-the-content-in-screens-player}
 
 Once you have added the above configurations, the player should automatically show the default channel for the display on your device, for example an image (in this scenario, a sequence channel).
 
-![](assets/chlimage_1-138.png) 
+![chlimage_1-138](assets/chlimage_1-138.png) 
 
 ### Additional Resources {#additional-resources}
 
 For in-depth understanding for all the modules for Screens, see the resources below:
 
 1. [Installing and Configuring Screens](/help/screens/configuring-screens-introduction.md)
-1. [Screens Project Creation](/help/sites-authoring/creating-a-screens-project.md)
+1. [Screens Project Creation](/help/screens/creating-a-screens-project.md)
 1. [Device Assignment](/help/screens/managing-devices.md)
 1. Application Management
 1. Channel Management

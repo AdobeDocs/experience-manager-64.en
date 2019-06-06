@@ -21,7 +21,7 @@ For proper transcoding to occur, your administrator must [Install FFmpeg and con
 
 You may want to define video profiles to use for HTML5 elements. Those chosen here are used in order. To access, use [Design Mode](/help/sites-authoring/default-components-designmode.md) (Classic UI only) and select the **[!UICONTROL Profiles]** tab:
 
-![](assets/chlimage_1-317.png)
+![chlimage_1-317](assets/chlimage_1-317.png)
 
 You can also configure the design of the video components and parameters for [!UICONTROL Playback], [!UICONTROL Flash], and [!UICONTROL Advanced].
 

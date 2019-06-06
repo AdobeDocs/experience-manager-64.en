@@ -17,7 +17,7 @@ discoiquuid: f3781d9a-421a-446e-8b49-40744b9ef58e
 
 The AEM team at Adobe has been working closely with the open source project [NotSoSerial](https://github.com/kantega/notsoserial) to assist in mitigating the vulnerabilities described in **CVE-2015-7501**. NotSoSerial is licensed under the [Apache 2 license](https://www.apache.org/licenses/LICENSE-2.0) and includes ASM code licensed under its own [BSD-like license](https://asm.ow2.org/license.html).
 
-The agent jar included with this package is Adobe's modified distribution of NotSoSerial. 
+The agent jar included with this package is Adobe's modified distribution of NotSoSerial.
   
 NotSoSerial is a Java level solution to a Java level problem and is not AEM specific. It adds a preflight check to an attempt to deserialize an object. This check will test a class name against a firewall-style whitelist and/or blacklist. Due to the limited number of classes in the default blacklist, this is unlikely to have an impact on your systems or code.
 

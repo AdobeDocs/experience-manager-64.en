@@ -115,16 +115,16 @@ To create a backup:
 1. Go to **Tools - Operations - Backup.**
 1. Click **Create**. The backup console will open.
 
-   ![](assets/chlimage_1-1.png)
+   ![chlimage_1-1](assets/chlimage_1-1.png)
 
 1. On the backup console, specify the **[Target Path](#aem-online-backup)** and **[Delay](#aem-online-backup)**.
 
-   ![](assets/chlimage_1-2.png)
+   ![chlimage_1-2](assets/chlimage_1-2.png)
 
    >[!NOTE]
    >
    >The backup console is also available using:  
-
+   >
    >
    >` https://<*hostname*>:<*port-number*>/libs/granite/backup/content/admin.html`
 
@@ -136,7 +136,7 @@ To create a backup:
 
 1. When the backup is complete, the zip files are listed in the backup window.
 
-   ![](assets/chlimage_1-3.png)
+   ![chlimage_1-3](assets/chlimage_1-3.png)
 
    >[!NOTE]
    >

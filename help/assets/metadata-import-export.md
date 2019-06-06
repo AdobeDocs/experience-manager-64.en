@@ -64,15 +64,15 @@ The metadata is exported asynchronously and, therefore, does not impact the perf
 
 1. Select the asset folder for which you want to export metadata. 
 
-   ![](assets/select_folder.png)
+   ![select_folder](assets/select_folder.png)
 
 1. From the toolbar, select** Export metadata**.
 
-   ![](assets/export_metadata.png)
+   ![export_metadata](assets/export_metadata.png)
 
 1. In the Metadata Export field, specify a name for the CSV file. To export metadata for assets in subfolders, select **Include assets in sub-folders**.
 
-   ![](assets/export_metadata_page.png)
+   ![export_metadata_page](assets/export_metadata_page.png)
 
 1. Select whether you want to export now or at a later date.
 1. In the **Properties to be exported** field, specify whether you want to export all or specific properties.  
@@ -80,5 +80,5 @@ The metadata is exported asynchronously and, therefore, does not impact the perf
 1. From the toolbar, tap/click **Export**. A message confirms that the metadata is exported. Close the message.
 1. Open the inbox nofification for the export job. To download the CSV file with the metadata, tap/click the **CSV Download** icon from the toolbar.
 
-   ![](assets/csv_download.png)
+   ![csv_download](assets/csv_download.png)
 

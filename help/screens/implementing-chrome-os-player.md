@@ -33,12 +33,12 @@ Follow the steps below to enable the Kiosk mode:
 
 1. Log in to the Chrome Developer Console.
 
-   ![](assets/screen_shot_2017-12-08at20303pm.png)
+   ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Browse to **Device management** → **Chrome Management** → **Device Settings**.
 1. Scroll down to **Kiosk Settings** and click **Manage Kiosk Applications**.
 
-   ![](assets/kiosk.png)
+   ![kiosk](assets/kiosk.png)
 
 1. Select the AEM Screens Player from the Chrome Web Store.
 

@@ -39,7 +39,7 @@ Several tabs and icons are available, including:
 * Client Context
 * Websites
 
-![](assets/chlimage_1-101.png)
+![chlimage_1-101](assets/chlimage_1-101.png)
 
 These provide access to a wide selection of functionality; including:
 
@@ -71,7 +71,7 @@ To insert a new component:
     * Drag a component from the floating toolbar (called sidekick) to insert a new paragraph. 
     * Right-click an existing paragraph and select **New...** - the Insert New Component toolbar opens. Select a component and click **OK**.
 
-   ![](assets/screen_shot_2012-02-15at115605am.png)
+   ![screen_shot_2012-02-15at115605am](assets/screen_shot_2012-02-15at115605am.png)
 
 1. In both the sidekick and the **Insert New Component** toolbar you see a list of the available components (paragraph types). These may be split into various sections (for example, General, Columns, etc.), which can be expanded as required.
 
@@ -126,12 +126,12 @@ To move a paragraph:
 
 1. Select the paragraph to be moved:
 
-   ![](assets/screen_shot_2012-02-15at115855am.png)
+   ![screen_shot_2012-02-15at115855am](assets/screen_shot_2012-02-15at115855am.png)
 
 1. Drag the paragraph to the new location - AEM indicates where the paragraph can be moved to with a green checkmark. Drop it in your desired location.
 1. Your paragraph is moved:
 
-   ![](assets/screen_shot_2012-02-15at120030pm.png)
+   ![screen_shot_2012-02-15at120030pm](assets/screen_shot_2012-02-15at120030pm.png)
 
 ## Deleting a Component {#deleting-a-component}
 
@@ -139,7 +139,7 @@ To delete a paragraph:
 
 1. Select the paragraph and **right-click**:
 
-   ![](assets/screen_shot_2012-02-15at120220pm.png)
+   ![screen_shot_2012-02-15at120220pm](assets/screen_shot_2012-02-15at120220pm.png)
 
 1. Select **Delete** from the menu. AEM WCM requests confirmation that you want to delete the paragraph as this action cannot be undone.
 1. Click **OK**.
@@ -180,17 +180,17 @@ You can cancel (then re-enable) the inheritance. Depending on the component, thi
 
     * The padlock icon is shown when the component is selected; for example:
 
-   ![](assets/chlimage_1-102.png)
+   ![chlimage_1-102](assets/chlimage_1-102.png)
 
     * The padlock is also shown in the dialog of components; for example:
 
-   ![](assets/chlimage_1-103.png)
+   ![chlimage_1-103](assets/chlimage_1-103.png)
 
 1. **An Inherited Paragraph System**
 
    The configuration dialog. For example, as with the Inherited Paragraph System within Geometrixx:
 
-   ![](assets/chlimage_1-104.png)
+   ![chlimage_1-104](assets/chlimage_1-104.png)
 
 ## Adding Annotations {#adding-annotations}
 
@@ -232,11 +232,11 @@ To lock a page:
 1. Double-click the page to open it for edit.
 1. In the **Page** tab of sidekick, select **Lock Page**:
 
-   ![](assets/screen_shot_2012-02-08at15750pm.png)
+   ![screen_shot_2012-02-08at15750pm](assets/screen_shot_2012-02-08at15750pm.png)
 
    A message shows that your page is locked to other users. In addition, in the right pane of the **Websites** console, AEM WCM displays the page as locked and indicates which user has locked the page.
 
-   ![](assets/screen_shot_2012-02-08at20657pm.png)
+   ![screen_shot_2012-02-08at20657pm](assets/screen_shot_2012-02-08at20657pm.png)
 
 ## Unlocking a Page {#unlocking-a-page}
 
