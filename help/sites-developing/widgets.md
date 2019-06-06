@@ -55,6 +55,7 @@ To create a client library:
         categories="[&lt;category-name&gt;]" 
         dependencies="[cq.widgets]"
     ```
+
     >[!NOTE]
     >
     >Note: <category-name> is the name of the custom library (e.g. "cq.extjstraining") and is used to include the library on the page.
@@ -93,7 +94,7 @@ To include the client library in the page component jsp:
 
 * to include both javascript code and stylesheets: 
 
-  `<ui:includeClientLib categories="<category-name1>, <category-name2>, ..."/>` 
+  `<ui:includeClientLib categories="<category-name1>, <category-name2>, ..."/>`
 
   where `<category-nameX>` is the name of the client-sided library.
 
@@ -165,17 +166,17 @@ The **Full** dialog displays a window with three tabs, each tab having two text 
 * Displays 3 tabs (node type = `cq:Panel`).
 * Each tab has 2 textfields (node type = `cq:Widget`, xtype = [`textfield`](/help/sites-developing/xtypes.md#textfield)).  
 
-* Is defined by the node: 
+* Is defined by the node:
 
   `/apps/extjstraining/components/dialogbasics/full`
 
-* Is rendered in JSON format by requesting: 
+* Is rendered in JSON format by requesting:
 
   `http://localhost:4502/apps/extjstraining/components/dialogbasics/full.-1.json`
 
 The dialog displays as follows:
 
-![screen_shot_2012-01-31at45411pm](assets/screen_shot_2012-01-31at45411pm.png) 
+![screen_shot_2012-01-31at45411pm](assets/screen_shot_2012-01-31at45411pm.png)
 
 #### Example 2: Single Panel Dialog {#example-single-panel-dialog}
 
@@ -185,11 +186,11 @@ The **Single Panel** dialog displays a window with one tab that has two text fie
 
 * The tab has 2 textfields (node type = `cq:Widget`, xtype = [`textfield`](/help/sites-developing/xtypes.md#textfield))  
 
-* Is defined by the node: 
+* Is defined by the node:
 
   `/apps/extjstraining/components/dialogbasics/singlepanel`
 
-* Is rendered in json format by requesting: 
+* Is rendered in json format by requesting:
 
   `http://localhost:4502/apps/extjstraining/components/dialogbasics/singlepanel.-1.json`
 
@@ -208,7 +209,7 @@ To use the Single Panel dialog:
 
 1. Edit the component: the dialog displays as follows:
 
-![screen_shot_2012-01-31at45952pm](assets/screen_shot_2012-01-31at45952pm.png) 
+![screen_shot_2012-01-31at45952pm](assets/screen_shot_2012-01-31at45952pm.png)
 
 #### Example 3: Multi Panel Dialog {#example-multi-panel-dialog}
 
@@ -219,11 +220,11 @@ The **Multi Panel** dialog has the same display as the **Full** dialog but it is
 * Displays 3 tabs (node type = `cq:Panel`).
 * Each tab has 2 textfields (node type = `cq:Widget`, xtype = [`textfield`](/help/sites-developing/xtypes.md#textfield)).
 
-* Is defined by the node: 
+* Is defined by the node:
 
   `/apps/extjstraining/components/dialogbasics/multipanel`
 
-* Is rendered in json format by requesting: 
+* Is rendered in json format by requesting:
 
   `http://localhost:4502/apps/extjstraining/components/dialogbasics/multipanel.-1.json`
 
@@ -233,7 +234,7 @@ The **Multi Panel** dialog has the same display as the **Full** dialog but it is
 
 To use the Multi Panel dialog:
 
-1. Replace the dialog of the **Dialog Basics** component with the **Multi Panel** dialog: 
+1. Replace the dialog of the **Dialog Basics** component with the **Multi Panel** dialog:
 
    follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)  
 
