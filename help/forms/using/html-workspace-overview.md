@@ -50,8 +50,7 @@ AEM Forms on JEE also deploys Flex Workspace by default. It continues to work as
 
 In AEM Forms workspace, the default render and submit services, in the default action profile, associated with XDP forms have changed and new services have been introduced. For details, see [New render and submit service](/help/forms/using/new-render-submit-service.md). To migrate your existing processes, that work with XDP forms, to make use of these services, you can follow [these steps](/help/forms/using/new-render-submit-service.md#main-pars-faq).
 
-**Mapping Flex Workspace customizations with AEM Forms workspace  
-**
+**Mapping Flex Workspace customizations with AEM Forms workspace:**
 
 The mapping between various types of customizations in both the workspaces is as follows.
 

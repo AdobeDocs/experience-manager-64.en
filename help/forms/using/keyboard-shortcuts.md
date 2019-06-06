@@ -11,7 +11,7 @@ topic-tags: correspondence-management
 discoiquuid: 010e3639-b1a9-40fb-8615-7d18c4784b73
 ---
 
-# AEM Forms Keyboard Shortcuts{#aem-forms-keyboard-shortcuts}
+# AEM Forms Keyboard Shortcuts {#aem-forms-keyboard-shortcuts}
 
 This article lists the keyboard shortcuts that can be used with Adaptive Form Editor, Theme Editor, Content Browser, and Correspondence Management for Windows and Macintosh operating systems.
 
@@ -200,7 +200,6 @@ This section lists various keyboards and accessibility shortcuts that you can us
  </tbody>
 </table>
 
-1. This moves the cursor to the end of the next word.
 
 ### Text alignment {#text-alignment}
 

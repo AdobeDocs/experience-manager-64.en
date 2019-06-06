@@ -10,7 +10,7 @@ topic-tags: publish
 discoiquuid: 44871fe1-ddc9-492c-8784-5df3ca392f9b
 ---
 
-# Introduction to publishing forms on a portal{#introduction-to-publishing-forms-on-a-portal}
+# Introduction to publishing forms on a portal {#introduction-to-publishing-forms-on-a-portal}
 
 ## AEM Forms portal components overview {#aem-forms-portal-components-overview}
 

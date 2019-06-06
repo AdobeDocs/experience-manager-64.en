@@ -11,7 +11,7 @@ topic-tags: publish
 discoiquuid: c1515c58-7d9a-4a36-9390-f6d6b980b801
 ---
 
-# Manage Forms applications and tasks in AEM Inbox{#manage-forms-applications-and-tasks-in-aem-inbox}
+# Manage Forms applications and tasks in AEM Inbox {#manage-forms-applications-and-tasks-in-aem-inbox}
 
 One of the many ways to launch or trigger a Forms-centric workflow is through applications in AEM Inbox. You need to create a workflow application to make a Forms workflow available as application in Inbox. For more information about workflow application and other ways to launch Forms workflows, see [Launch a Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md#launch).
 
@@ -58,7 +58,7 @@ Tasks that are assigned to a group appear in the Inbox of all group members. Any
 When you open a task, you can view task details and perform available actions. The actions available for a task are defined in the Assign task step of the associated Forms workflow.
 
 1. Tap to select the thumbnail of the task. Options to open or delegate the selected task appear at the top. 
-1. Tap **Open** to view task details and take actions. The detailed task view opens. In this view, you can view task details and take actions on the task.
+1. Tap **[!UICONTROL Open]** to view task details and take actions. The detailed task view opens. In this view, you can view task details and take actions on the task.
 
    >[!NOTE]
    >

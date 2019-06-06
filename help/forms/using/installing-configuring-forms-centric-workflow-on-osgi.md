@@ -8,7 +8,7 @@ topic-tags: installing
 discoiquuid: 7333641e-8c8c-4b52-a7da-a2976c88592c
 ---
 
-# Installing and Configuring Forms-centric workflow on OSGi{#installing-and-configuring-forms-centric-workflow-on-osgi}
+# Installing and Configuring Forms-centric workflow on OSGi {#installing-and-configuring-forms-centric-workflow-on-osgi}
 
 ## Introduction {#introduction}
 

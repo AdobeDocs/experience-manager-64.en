@@ -9,7 +9,7 @@ topic-tags: develop
 discoiquuid: d570ead9-8f9c-4668-8b23-e8984d9b25e9
 ---
 
-# Improve performance of large forms with lazy loading{#improve-performance-of-large-forms-with-lazy-loading}
+# Improve performance of large forms with lazy loading {#improve-performance-of-large-forms-with-lazy-loading}
 
 ## Introduction to lazy loading {#introduction-to-lazy-loading}
 
@@ -52,7 +52,7 @@ You can mark the values of objects in the lazily loaded fragment as global so th
 
 1. Open the adaptive form fragment in authoring mode.
 1. Tap the field whose value you want to mark as global, and then tap ![](assets/cmppr.png).
-1. In the sidebar, enable **Use value during lazy loading**.
+1. In the sidebar, enable **[!UICONTROL Use value during lazy loading]**.
 
    ![Lazy loading field in sidebar](assets/enable-lazy-loading.png)
 

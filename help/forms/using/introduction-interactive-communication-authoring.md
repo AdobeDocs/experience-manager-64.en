@@ -10,7 +10,7 @@ topic-tags: interactive-communications
 discoiquuid: 565bfb42-6099-49f4-83ba-b1f0c129aab7
 ---
 
-# Introduction to Interactive Communication authoring UI{#introduction-to-interactive-communication-authoring-ui}
+# Introduction to Interactive Communication authoring UI {#introduction-to-interactive-communication-authoring-ui}
 
 An introduction to the various user interface elements you can use to author Interactive Communication
 
@@ -36,6 +36,7 @@ When you [create a new or edit an existing Interactive Communication](/help/form
 ![Sidebar](assets/sidebar-comps.png)
 
 [Click to enlarge](assets/sidebar-comps-1.png) 
+
 **A.** Channel browser **B.** Content browser **C.** Properties browser **D.** Asset browser **E.** Components browser **F.** Data Sources browser - Data Model **G.** Data Sources browser - Master Content
 
 The sidebar includes the following:

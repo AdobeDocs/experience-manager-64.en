@@ -10,7 +10,7 @@ topic-tags: publish
 discoiquuid: da96d3d8-a338-470a-8d20-55ea39bd15bf
 ---
 
-# Sample for integrating drafts & submissions component with database{#sample-for-integrating-drafts-submissions-component-with-database}
+# Sample for integrating drafts & submissions component with database {#sample-for-integrating-drafts-submissions-component-with-database}
 
 ## Sample overview {#sample-overview}
 

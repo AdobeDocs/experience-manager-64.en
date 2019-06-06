@@ -10,7 +10,7 @@ topic-tags: document_services
 discoiquuid: 8b96ba2d-007e-472a-875f-2caedd35ecf4
 ---
 
-# Output Service{#output-service}
+# Output Service {#output-service}
 
 ## Overview {#overview}
 

@@ -9,7 +9,7 @@ topic-tags: correspondence-management
 discoiquuid: 7bdf1f06-c298-4695-bad1-e402cf472086
 ---
 
-# Document Fragments{#document-fragments}
+# Document Fragments {#document-fragments}
 
 ## Document Fragments {#document-fragments-1}
 
@@ -54,11 +54,10 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
 1. A text editor opens, enter the text. Use the toolbar at the top of the page to format the text, insert conditions, link, and page breaks.  
 
-    [ ![Toolbar](assets/advancedediting.png)
 
-    <!--   (Click to open full-sized image)
+    ![Toolbar](assets/advancedediting.png)
 
-    [ !](assets/advancedediting-1.png) -->
+    **Figure:** *Toolbar*
 
     * **Link**: Insert hypertext link in the text.
     * **Repeat**: Repeat prints collection element in Data Dictionary using a delimiter. 
@@ -70,11 +69,11 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    ![Select type of toolbar](assets/toolbarselection.png)
 
-   Select type of toolbar: Paragraph, Alignment, or Listing
+   **Figure:** *Select type of toolbar: Paragraph, Alignment, or Listing*
 
    ![Paragraph toolbar](assets/fonteditingtoolbar.png)
 
-   Paragraph toolbar
+   **Figure:** *Paragraph toolbar*
 
    ![Alignment toolbar](assets/paragrapheditingtoolbar.png)](assets/paragrapheditingtoolbar-1.png)
    
@@ -82,7 +81,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    ![Listing toolbar](assets/bulleteditingtoolbar.png)
 
-   Listing toolbar (Click to open full-sized image)
+   **Figure:** *Listing toolbar*
 
 1. To reuse one of more paragraphs of text that exist in another application, such as from MS Word or HTML pages, copy and paste the text into the text editor. The formatting of the copied text is retained in the text editor.
 
@@ -127,11 +126,11 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    ![Placeholder elements](assets/placeholder_elements_in_xmldata.png)
 
-   Placeholder elements as specified in sample data file of a Data Dictionary
+   **Figure:** *Placeholder elements as specified in sample data file of a Data Dictionary*
 
    ![Placeholder elements in letter](assets/placeholder_elements_in_text.png)
 
-   Placeholder element values in the CCR view populated from the Data Dictionary variables as specified in the sample data file
+   **Figure:** *Placeholder element values in the CCR view populated from the Data Dictionary variables as specified in the sample data file*
 
 1. You can use inline conditions and repeat to make your letter highly contextual and well structured. For more information on inline condition and repeat, see [Inline conditions and repeat in letters](/help/forms/using/cm-inline-condition.md).
 1. Tap **Save**.
@@ -151,7 +150,7 @@ The Find and Replace feature allows you to search for (and replace) any string o
 
 1. To search for the next instance of the text, press Find again.
 
-   If you continue to press the Find button, the search continues down the page. After the last instance of the text is found, the message **Reached end of module **indicates that no more search results were found.
+   If you continue to press the Find button, the search continues down the page. After the last instance of the text is found, the message **Reached end of module** indicates that no more search results were found.
 
    However, if no instance of the search text is found in the text module, the message displayed is: **Match Not Found**.
 
@@ -508,13 +507,14 @@ This example shows how you can create a dynamic and a static table, bind the dyn
    This layout's fields are later bound to the imported DD and in the letter, the number of rows are dynamically created based on the number of records in the test data file (the XML data file attached with the DD). 
 
    ![Create a layout fragment screen](assets/dynamictableproperties.png)
-
-   Click to open full-sized image
+   [Click to enlarge](assets/dynamictableproperties.png)
+   
 
 1. Create a layout fragment based on the static XDP. The Table tab of the properties displays that the table is static (Configuration For field). The number of rows (1) and columns (3) are derived from the XDP/Layout Fragment.
 
    You can change the number of columns and rows here. According to what you choose in this screen, the number of rows and columns of a static table remain fixed in the letter that is created with this layout.
     [ ![Create a layout fragment screen](assets/statictableproperties.png)](assets/statictableproperties-1.png)
+    [Click to enlarge](assets/statictableproperties-1.png)
 
 1. Create a letter using both the layout fragments in it. When you insert the dynamic XDP in the letter, set the binding of its fields to the Data Dictionary's collection elements.
 

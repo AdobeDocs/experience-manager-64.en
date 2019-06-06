@@ -96,7 +96,7 @@ The error message is displayed when you select **Build APK** option from the **B
 
 For example, the Android Studio console recommends downgrading the Gradle version to 3.5. Edit the version in **distributionUrl **of** gradle-wrapper.properties** file.
 
-Select **Build** &gt; **Build APK**again to resolve the error and generate the .apk file.
+Select **Build** &gt; **Build APK** again to resolve the error and generate the .apk file.
 
 ![](assets/gradle_wrapper_properties.png)
 

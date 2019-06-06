@@ -9,7 +9,7 @@ topic-tags: hTML5_forms
 discoiquuid: b8cd2656-8bc2-4bd7-a3d6-dc76b0a2d429
 ---
 
-# Introduction to HTML5 forms{#introduction-to-html-forms}
+# Introduction to HTML5 forms {#introduction-to-html-forms}
 
 HTML5 forms is a new capability in Adobe Experience Manager 6.0 (AEM 6.0) software that offers rendering of XFA form templates in HTML5 format. This capability enables the rendering of forms on mobile devices and desktop browsers on which XFA-based PDF is not supported. HTML5 forms not only supports the existing capabilities of XFA form templates but also adds new capabilities, such as scribble signature, for mobile devices.
 
@@ -41,4 +41,4 @@ AEM also provides a unified view for listing and managing all form templates usi
 
 HTML5 forms renders form templates using standard HTML5 constructs. This makes it simple to customize and extend forms in HTML5 format using web technologies, primarily CSS, and JavaScript. You can easily customize the appearance of existing widgets, create your own custom widgets, or use custom styles in forms. For more information about creating custom widgets and customizing existing widgets, see [Plug in custom widgets with HTML5 forms](/help/forms/using/custom-widgets.md).
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

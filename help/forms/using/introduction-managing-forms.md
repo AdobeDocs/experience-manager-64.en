@@ -11,7 +11,7 @@ topic-tags: introduction
 discoiquuid: 6f9cb26a-ac7f-4218-827f-9d4d55b859b4
 ---
 
-# Introduction to managing forms{#introduction-to-managing-forms}
+# Introduction to managing forms {#introduction-to-managing-forms}
 
 AEM Forms provides simplified yet powerful user interface to create and manage forms, documents, themes, letters, document fragments, data dictionaries, and related assets. It helps manage the complete lifecycle of forms, documents, and related assets - from a developer's desktop to offering  
 it on a portal server for end users. You can use the AEM Forms user interface to:
@@ -119,5 +119,3 @@ AEM tools panel contains tools for various components. To navigate to AEM Forms-
 * **Actions toolbar**: On selecting an asset, the actions toolbar appears above the list of assets. It contains all the management tools for the selected asset. You can hover over a tool icon to view the tool tip describing its functionality
 
 ![Action toolbar for an adaptive form](assets/action-tool-bar.png)
-
-Action toolbar for an adaptive form
