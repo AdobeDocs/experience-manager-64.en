@@ -4,7 +4,7 @@ seo-title: Image Sets
 description: Learn how to work with image sets in dynamic media
 seo-description: Learn how to work with image sets in dynamic media
 uuid: 16008278-f59f-4fa8-90e9-19c78f132439
-contentOwner: Alva Ware-Bevacqui
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference

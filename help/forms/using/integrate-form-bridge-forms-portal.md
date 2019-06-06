@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: e0608649-bd49-4f40-bc1b-821c9b208883
 ---
 
-# Integrating Form Bridge with custom portal for HTML5 forms{#integrating-form-bridge-with-custom-portal-for-html-forms}
+# Integrating Form Bridge with custom portal for HTML5 forms {#integrating-form-bridge-with-custom-portal-for-html-forms}
 
 FormBridge is a HTML5 forms bridge API that allows you to interact with a form. For the FormBridge API reference, see [FormBridge API reference](/help/forms/using/form-bridge-apis.md).
 
@@ -85,7 +85,7 @@ An existing HTML application can leverage the FormBridge API to interact with a 
 
    The following is a sample script you can add to set values in a form field.
 
-   For example, if you want to set the **EmployeeName **using the values in the Fields **First Name** and **Last Name**, call the **window.formBridge.setFieldValue** function.
+   For example, if you want to set the **EmployeeName** using the values in the Fields **First Name** and **Last Name**, call the **window.formBridge.setFieldValue** function.
 
    Similarly, you can read the value by calling **window.formBridge.getFieldValue **API.
 
@@ -100,4 +100,4 @@ An existing HTML application can leverage the FormBridge API to interact with a 
            });
    ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

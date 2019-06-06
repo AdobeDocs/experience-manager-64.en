@@ -283,7 +283,7 @@ If you are running Microsoft Windows Server, configure the Ink and Handwriting s
 
 1. Open the Server Manager. Click the **Server Manager** icon on the Quick Launch tray.
 1. Click **Add Features** in the **Features** menu. Select the **Ink and Handwriting Services** check box. 
-1. **Select Features** dialog box with **Ink and Handwriting Services** selected. Click **Install **and the service is installed.
+1. **Select Features** dialog box with **Ink and Handwriting Services** selected. Click **Install** and the service is installed.
 
 ### Configure the file block settings for Microsoft Office {#configure-the-file-block-settings-for-microsoft-office}
 

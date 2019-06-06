@@ -74,11 +74,11 @@ To support the nesting of components such that locally added components are main
 
 Notice that AEM has two main approaches for creating live copies:
 
-* When [creating a **Live Copy**](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-page)
+* When [creating a Live Copy](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-page)
 
   This can be considered as the more generic approach, allowing you to create live copies from any page. The content structure of a live copy exactly matches the source.
 
-* When [creating a **Site**](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration) 
+* When [creating a Site](/help/sites-administering/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration) 
 
   This is a more specialized approach, primarily for creating websites with a multilingual structure.
 

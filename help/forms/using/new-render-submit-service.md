@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 58f95138-5439-4540-a8dc-193b4cb42203
 ---
 
-# New render and submit service{#new-render-and-submit-service}
+# New render and submit service {#new-render-and-submit-service}
 
 ## Introduction {#introduction}
 
@@ -150,9 +150,11 @@ The user must select the HTML radio button for the default profile.
 
 ![gen_question_b_20](assets/gen_question_b_20.png) **Will there be any upgrade impact on changing the default action profile behavior?**
 
-Yes, since the previous render and submit services associated with the default action profile were different, these are treated as a customization of the existing forms. On clicking **Restore Defaults**, the default render and submit services are set instead.
+Yes, since the previous render and submit services associated with the default action profile were different, these are treated as a customization of the existing forms. On clicking **[!UICONTROL Restore Defaults]**, the default render and submit services are set instead.
 
 If you had modified the existing Render or Submit PDF Form services or created custom services (say custom1), and now want to use the same functionality for HTML rendition. You need to replicate the new render or submit service (as say custom2) and apply similar customizations to those. Now, modify the action profile for your XDP to start using custom2 services, instead of the custom1 for render or submit.
 
 What needs to be done by the process designer to enable the form to be rendered in HTML on a device, and in PDF on a desktop?  
-What needs to be done by the process designer to enable the form to be rendered in HTML on a device, and in PDF on a desktop?  [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+What needs to be done by the process designer to enable the form to be rendered in HTML on a device, and in PDF on a desktop?  
+
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

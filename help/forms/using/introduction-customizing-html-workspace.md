@@ -11,13 +11,11 @@ topic-tags: forms-workspace
 discoiquuid: 80a70f5c-dcc4-425f-9971-9e0feec094d6
 ---
 
-# Introduction to Customizing AEM form workspace{#introduction-to-customizing-aem-form-workspace}
+# Introduction to Customizing AEM form workspace {#introduction-to-customizing-aem-form-workspace}
 
 AEM form workspace provides capabilities to modify the presentation semantics and functionality of its interface. The types of customizations to change the style, layout, formatting, branding, and core functionality are described below.
 
 ![cu_customized_workspace_example](assets/cu_customized_workspace_example.png)
-
-An example of a customized workspace
 
 ## Types of customizations {#types-of-customizations}
 
@@ -376,4 +374,4 @@ mvn clean -P Dev install on client-pkg
 * content.xml
 * _rep_policy.xml
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

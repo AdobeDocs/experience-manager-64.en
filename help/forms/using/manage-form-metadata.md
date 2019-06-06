@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 28549db2-e2f2-4a25-b0b1-785237d9d941
 ---
 
-# Manage form metadata{#manage-form-metadata}
+# Manage form metadata {#manage-form-metadata}
 
 ## Overview&nbsp; {#overview-nbsp}
 
@@ -260,7 +260,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
    ![Metadata schema editor for Adaptive Form type](assets/metadata-schema-editor-for-adaptive-form-type.png)
 
-   Metadata editor
+   [Click to enlarge](assets/metadata-schema-editor-for-adaptive-form-type.png)
 
     1. The left panel contains tabbed sections where the fields are placed and the right panel displays all the available UI components and the properties of the field selected from the left panel.  
 

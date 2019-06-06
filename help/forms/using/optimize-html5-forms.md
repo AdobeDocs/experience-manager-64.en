@@ -10,13 +10,13 @@ topic-tags: hTML5_forms
 discoiquuid: bdb9edc2-6a37-4d3f-97d5-0fc5664316be
 ---
 
-# Optimizing HTML5 forms{#optimizing-html-forms}
+# Optimizing HTML5 forms {#optimizing-html-forms}
 
 HTML5 forms renders forms in the HTML5 format. The resultant output could be large depending on factors like the form size and images in the form. To optimize the data transfer, the recommended approach is to compress the HTML response using the Web Server from which the request is being served. This approach reduces the response size, network traffic, and the time required to stream data between the server and client machines.
 
 This article describes the steps required to enable compression for the Apache Web Server 2.0 32 bit, with JBoss.
 
-*Note: The following instructions do not apply to server other than the Apache Web Server 2.0 32 bit. *
+*Note: The following instructions do not apply to server other than the Apache Web Server 2.0 32 bit.*
 
 Obtain the Apache web server software applicable to your operating system:
 
@@ -26,7 +26,7 @@ Obtain the Apache web server software applicable to your operating system:
 
 Apache can communicate with JBoss using HTTP or the AJP protocol.
 
-1. Uncomment the following module configurations in the *APACHE_HOME/conf/httpd.conf *file.
+1. Uncomment the following module configurations in the *APACHE_HOME/conf/httpd.conf* file.
 
    ```java
    LoadModule proxy_balancer_module modules/mod_proxy.so
@@ -77,4 +77,4 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
 
 1. To access the AEM server, use https://[Apache_server]:80.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
