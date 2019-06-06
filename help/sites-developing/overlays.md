@@ -79,20 +79,18 @@ For overlays the resource delivered is an aggregate of the resources and propert
 * Two service users need JCR:READ access to the location where the scripts are stored. Those users are: components-search-service (used by the com.day.cq.wcm.coreto access/cache components) and sling-scripting (used by org.apache.sling.servlets.resolver to find servlets).
 * The following configuration must also be configured according to where you put your scripts (in this example under /etc, /libs or /apps).
 
-```
-PID = org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl
-
-resource.resolver.searchpath=["/etc","/apps","/libs"]
-
-resource.resolver.vanitypath.whitelist=["/etc/","/apps/","/libs/","/content/"]
-```
+    ```
+    PID = org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl
+    resource.resolver.searchpath=["/etc","/apps","/libs"]
+    resource.resolver.vanitypath.whitelist=["/etc/","/apps/","/libs/","/content/"]
+    ```
 
 * Finally the Servlet Resolver must also be configured (in this example to add /etc as well)
-`
-``
-PID = org.apache.sling.servlets.resolver.SlingServletResolver  
-servletresolver.paths=["/bin/","/libs/","/apps/","/etc/","/system/","/index.servlet","/login.servlet","/services/"]
-```
+
+    ```
+    PID = org.apache.sling.servlets.resolver.SlingServletResolver  
+    servletresolver.paths=["/bin/","/libs/","/apps/","/etc/","/system/","/index.servlet","/login.servlet","/services/"]
+    ```
 
 ## Example of Usage {#example-of-usage}
 
