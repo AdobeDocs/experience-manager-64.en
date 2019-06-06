@@ -25,7 +25,7 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Content Fragment Templates](content-fragment-templates.md)
 + Components{#components}
     + [REDIRECT Core Components](components-core.md)
-    + [Style System](help/sites-authoring/style-system.md)
+    + [Style System](/help/sites-authoring/style-system.md)
     + [Components Overview](components.md)
     + [AEM Components - The Basics](components-basics.md)
     + [Developing AEM Components](developing-components.md)
