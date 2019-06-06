@@ -116,7 +116,6 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Integrating AEM 3D with Autodesk 3ds Max](integrating-aem-3d-with-autodesk-3ds-max.md)
     + [Setting up an IBL stage with Autodesk Maya and Mental Ray](setting-up-an-ibl-stage-with-autodesk-maya-and-mental-ray.md)
 + Deleted section Remove duplicates and move others to sections above {#deleted}
-    + [Getting Started with AEM Assets](getting-started-with-aem-assets.md)
     + [AEM Desktop App Release Notes](desktop-app-release-notes.md)
     + [Assets HTTP API](mac-api-assets.md)
     + [Extending Assets Search](searchx.md)
