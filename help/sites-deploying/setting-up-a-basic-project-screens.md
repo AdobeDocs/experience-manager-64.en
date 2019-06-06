@@ -41,7 +41,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![chlimage_1-125](assets/chlimage_1-125.png)
 
-   See [Creating and Managing projects in Screens](/help/sites-authoring/creating-a-screens-project.md) for more details.
+   See [Creating and Managing projects in Screens](/help/screens/creating-a-screens-project.md) for more details.
 
 1. **Creating a new channel**
 
@@ -50,7 +50,7 @@ The following steps allow you to create a sample project for Screens and publish
    Follow the steps below to create a new channel for your project:
 
     1. Navigate to the *Test_Project* you created and select the **Channels** folder.
-    1. Click** Create** next to the plus icon in the action bar (see the figure below). A wizard will open.
+    1. Click **Create** next to the plus icon in the action bar (see the figure below). A wizard will open.
     1. Choose the **Sequence Channel **and click **Next**.
     1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
 
@@ -176,7 +176,7 @@ Once you have added the above configurations, the player should automatically sh
 For in-depth understanding for all the modules for Screens, see the resources below:
 
 1. [Installing and Configuring Screens](/help/screens/configuring-screens-introduction.md)
-1. [Screens Project Creation](/help/sites-authoring/creating-a-screens-project.md)
+1. [Screens Project Creation](/help/screens/creating-a-screens-project.md)
 1. [Device Assignment](/help/screens/managing-devices.md)
 1. Application Management
 1. Channel Management

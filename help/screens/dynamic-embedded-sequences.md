@@ -260,7 +260,7 @@ Once you have the set up for channels and display complete, please launch the AE
 >To learn about AEM Screen Player, please refer to the following resources:
 >
 >* [**AEM Screens player downloads**](https://download.macromedia.com/screens/)
->* [**Working with AEM Screens Player**](/help/sites-authoring/working-with-screens-player.md)
+>* [**Working with AEM Screens Player**](/help/screens/working-with-screens-player.md)
 >
 
 The following output confirms your channel content in AEM Screens player, depending on the display path.
