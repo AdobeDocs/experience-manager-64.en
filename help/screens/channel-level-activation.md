@@ -52,7 +52,7 @@ Before you start implementing this functionality, please make sure you have the 
 
 The following image shows the **Channel Level Activation** project with **MainAdChannel** and **TargetedSinglePlay** channels in **Channels** folder.
 
-![](assets/screen_shot_2018-11-27at104500am.png)
+![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Follow the steps below to implement the functionality:
 
    Navigate to your **Locations** folder in your AEM Screens project and create a location as **Region**.
 
-   ![](assets/screen_shot_2018-11-27at112112am.png)
+   ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ Follow the steps below to implement the functionality:
     1. Select **Region** and click **+ Create** from the action bar.
     1. Select **Display** from the wizard and create a display titled as **RegionDisplay.**
 
-   ![](assets/screen_shot_2018-11-27at112216am.png)
+   ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
 1. **Assign Channels to Display**
 
@@ -104,7 +104,7 @@ Follow the steps below to implement the functionality:
     1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
     1. Click **Save**.
 
-   ![](assets/screen_shot_2018-11-27at124626pm.png)
+   ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
@@ -128,13 +128,13 @@ Follow the steps below to implement the functionality:
    >
    >You must set the priority for **TargetedSinglePlay** channel higher than the **MainAdSegment** channel.
 
-   ![](assets/screen_shot_2018-11-27at31206pm.png)
+   ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
    >To choose the same day, you have to select the next day and the manually edit the date to the same day but for a later time. This restricts the user from selecting a past date. Please refer to the example below:
 
-   ![](assets/new1.gif)
+   ![new1](assets/new1.gif)
 
 ## Viewing the Results {#viewing-the-results}
 
@@ -147,6 +147,6 @@ The player displays the content of **MainAdChannel** and exactly at 11:59 pm (as
 >To learn about AEM Screen Player, please refer to the following resources:
 >
 >* [**AEM Screens Player downloads**](https://download.macromedia.com/screens/)
->* [**Working with AEM Screens Player**](/help/sites-authoring/working-with-screens-player.md)
+>* [**Working with AEM Screens Player**](/help/screens/working-with-screens-player.md)
 >
 

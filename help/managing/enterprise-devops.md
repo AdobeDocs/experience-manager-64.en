@@ -117,7 +117,7 @@ AEM projects often trigger code deployment:
 * Automatically: for transfer to the development and QA environments.
 * Manually: deployments to the staging and production environments are done in a more controlled manner, often manual; though automation is possible if required.
 
-![](assets/chlimage_1.png)
+![chlimage_1](assets/chlimage_1.png)
 
 ## Content Movement {#content-movement}
 
@@ -136,4 +136,4 @@ Content can transferred:
 * Between the different environments - by exporting and importing packages.
 * Between different instances - by directly replicating ([AEM replication](/help/sites-deploying/replication.md)) the content (using a HTTP, or HTTPS, connection).
 
-![](assets/chlimage_1-1.png)
+![chlimage_1-1](assets/chlimage_1-1.png)

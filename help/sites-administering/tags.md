@@ -68,7 +68,7 @@ To access the Tagging console :
     * select **`General`**
     * select **`Tagging`**
 
-![](assets/managing_tags_usingthetagasministrationconsole.png) 
+![managing_tags_usingthetagasministrationconsole](assets/managing_tags_usingthetagasministrationconsole.png) 
 
 ### Creating a Namespace {#creating-a-namespace}
 
@@ -76,7 +76,7 @@ To create a new namespace, select the **`Create Namespace`** icon.
 
 The namespace is itself a tag, and need not contain any sub-tags. However, to continue creating a taxonomy, [create sub-tags](#creating-tags), which in turn may be either leaf tags or container tags.
 
-![](assets/chlimage_1-183.png) ![](assets/creating_tags_andnamespaces.png)
+![chlimage_1-183](assets/chlimage_1-183.png) ![creating_tags_andnamespaces](assets/creating_tags_andnamespaces.png)
 
 * **Title** 
   *(required) *A display title for the namespace.
@@ -105,11 +105,11 @@ Selecting a namespace or other tag makes available the following operations :
 * [Unpublish](#unpublishing-tags)
 * [Delete](#deleting-tags)
 
-![](assets/chlimage_1-184.png)
+![chlimage_1-184](assets/chlimage_1-184.png)
 
 When the browser window is not wide enough to display all icons, then the right-most icons are grouped together under a **`... More`** icon, which will display a drop-down list of the hidden operation icons when selected.
 
-![](assets/chlimage_1-185.png) 
+![chlimage_1-185](assets/chlimage_1-185.png) 
 
 ### Selecting a Namespace Tag {#selecting-a-namespace-tag}
 
@@ -117,39 +117,39 @@ When first selected, if the namespace does not contain any tags, then the proper
 
 To select the tag for operations, and to multi-select, only select the icon next to the title. Selecting the title will only display properties or open the tag to display its contents.
 
-![](assets/chlimage_1-186.png) ![](assets/chlimage_1-187.png) 
+![chlimage_1-186](assets/chlimage_1-186.png) ![chlimage_1-187](assets/chlimage_1-187.png) 
 
 ### Viewing Tag Properties {#viewing-tag-properties}
 
-![](assets/chlimage_1-188.png)
+![chlimage_1-188](assets/chlimage_1-188.png)
 
 When a namespace or other tag is selected, selecting the **`View Properties`** icon results in the display of information as to the `name`, time of last edit, and number of references. If published, the time it was last published and the id of the publisher are shown. This information will appear in a column to the left of the tag columns.
 
-![](assets/chlimage_1-189.png) 
+![chlimage_1-189](assets/chlimage_1-189.png) 
 
 ### Showing Tag References {#showing-tag-references}
 
-![](assets/chlimage_1-190.png)
+![chlimage_1-190](assets/chlimage_1-190.png)
 
 When a namespace or other tag is selected, selecting the **`References`**icon will identify the content to which the tag has been applied.
 
 The initial display is a count of tags applied.
 
-![](assets/chlimage_1-191.png)
+![chlimage_1-191](assets/chlimage_1-191.png)
 
 By selecting the arrow to the right of the count, the reference names are listed.
 
 The path to the reference is displayed as a tool tip when hovering over a reference.
 
-![](assets/chlimage_1-192.png) 
+![chlimage_1-192](assets/chlimage_1-192.png) 
 
 ### Creating Tags {#creating-tags}
 
-![](assets/chlimage_1-193.png)
+![chlimage_1-193](assets/chlimage_1-193.png)
 
 When a namespace or other tag is selected (by selecting the icon next to the title), a child tag may be created for the current tag by selecting the **`Create Tag`** icon.
 
-![](assets/chlimage_1-194.png)
+![chlimage_1-194](assets/chlimage_1-194.png)
 
 * **Title** 
   *(required) *A display title for the tag.
@@ -166,7 +166,7 @@ Once the required information is entered
 
 ### Editing Tags {#editing-tags}
 
-![](assets/chlimage_1-195.png)
+![chlimage_1-195](assets/chlimage_1-195.png)
 
 When a namespace or other tag is selected, it is possible to alter the Title, Description, and provide localizations of the Title by selecting the **`Edit`**icon.
 
@@ -174,11 +174,11 @@ After edits are made, select **Save**.
 
 For details about adding language translations, see the section on [Managing Tags in Different Languages](#managing-tags-in-different-languages).
 
-![](assets/chlimage_1-196.png) 
+![chlimage_1-196](assets/chlimage_1-196.png) 
 
 ### Moving Tags {#moving-tags}
 
-![](assets/chlimage_1-197.png)
+![chlimage_1-197](assets/chlimage_1-197.png)
 
 When a namespace or other tag is selected, selecting the **`Move`** icon will allow Tags Administrators and Developers to clean up the taxonomy by moving the tag to a new location or renaming it. When the selected tag is a container tag, moving the tag will move all child tags as well.
 
@@ -186,7 +186,7 @@ When a namespace or other tag is selected, selecting the **`Move`** icon will al
 >
 >It is recommended that Authors only be allowed to [edit](#editing-tags) the tag's `title`, not to move or rename tags.
 
-![](assets/chlimage_1-198.png)
+![chlimage_1-198](assets/chlimage_1-198.png)
 
 * **Path** 
   *(readonly)* The current path to the selected tag.
@@ -202,13 +202,13 @@ When a namespace or other tag is selected, selecting the **`Move`** icon will al
 
 ### Merging Tags {#merging-tags}
 
-![](assets/chlimage_1-199.png)
+![chlimage_1-199](assets/chlimage_1-199.png)
 
 Merging tags can be used when a taxonomy has duplicates. When tag A is merged into tag B, all the pages tagged with tag A will be tagged with tag B and tag A is no longer available to authors.
 
 When a namespace or other tag is selected, selecting the **`Merge`**icon will open a panel where the path to merge into may be selected.
 
-![](assets/chlimage_1-200.png)
+![chlimage_1-200](assets/chlimage_1-200.png)
 
 * **Path** 
   *(readonly)* The path of the tag selected to be merged into another tag.
@@ -224,7 +224,7 @@ When a namespace or other tag is selected, selecting the **`Merge`**icon will op
 
 ### Publishing Tags {#publishing-tags}
 
-![](assets/chlimage_1-201.png)
+![chlimage_1-201](assets/chlimage_1-201.png)
 
 When a namespace or other tag is selected, selecting the **`Publish`**icon to activate the tag in the publish environment. Similar to page content, only the selected tag is published, regardless of whether it is a container tag or not.
 
@@ -232,13 +232,13 @@ To publish a taxonomy (a namespace and sub-tags), the best practice is to create
 
 ### Unpublishing Tags {#unpublishing-tags}
 
-![](assets/chlimage_1-202.png)
+![chlimage_1-202](assets/chlimage_1-202.png)
 
 When a namespace or other tag is selected, selecting the **`Unpublish`**icon will deactivate the tag in the author environment and remove it from the publish environment. Similar to the `Delete`operation, if the selected tag is a container tag, all of its child tags will be deactivated in the author environment and removed from the publish environment.
 
 ### Deleting Tags {#deleting-tags}
 
-![](assets/chlimage_1-203.png)
+![chlimage_1-203](assets/chlimage_1-203.png)
 
 When a namespace or other tag is selected, selecting the **`Delete`**icon will permanently remove the tag from the author environment. If the tag was published, it is also removed from the publish environment. If the selected tag is a container tag, all of its child tags will be removed as well.
 
@@ -261,7 +261,7 @@ Tag permissions are ['secure (by default)'](/help/sites-administering/production
     * select the `checkbox`in the **Read** column
     * select **Save**
 
-![](assets/chlimage_1-204.png)
+![chlimage_1-204](assets/chlimage_1-204.png)
 
 * ensure all publish instances have same permissions
 
@@ -289,7 +289,7 @@ As each language is selected, a text entry box appears into which the translated
 
 Once all translations are entered, select **Save **to exit edit mode.
 
-![](assets/chlimage_1-205.png)
+![chlimage_1-205](assets/chlimage_1-205.png)
 
 In general, the language chosen for the tag is taken from the page language, when available. When the [ `tag` widget](/help/sites-developing/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
 

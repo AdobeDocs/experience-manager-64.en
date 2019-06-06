@@ -43,7 +43,7 @@ ECMAScript is a scripting language. It is used for client-side scripting and ser
 
     1. Click **Save All**. The script becomes available for selection in the components of AEM Workflow.
        
-       ![](assets/script.png)
+       ![script](assets/script.png)
 
 ### Sample ECMAScripts to dynamically choose a user or a group {#sample-ecmascripts-to-dynamically-choose-a-user-or-a-group}
 

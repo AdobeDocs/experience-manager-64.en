@@ -91,7 +91,7 @@ To stop AEM, do one of the following:
 
 * If you started AEM by double-clicking the jar file, click the **On** button on the startup window (the button then changes to **Off**) to shut down the server.
 
-  ![](assets/chlimage_1-63.png)
+  ![chlimage_1-63](assets/chlimage_1-63.png)
 
 ## Stopping Adobe Experience Manager from the Command Line {#stopping-adobe-experience-manager-from-the-command-line}
 

@@ -522,7 +522,7 @@ Explain **all** queries during the development cycle against the target index se
 
 * Use the AEM QueryBuilder debugger to generate an explainable XPath query:
 
-![](assets/chlimage_1-66.png)
+![chlimage_1-66](assets/chlimage_1-66.png)
 
 1. Provide the Query Buidler query in the Query Builder debugger
 1. Execute the Search

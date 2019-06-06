@@ -33,7 +33,7 @@ In the author environment, to reach the groups templates console
 
 This console displays the templates from which a [community site](/help/communities/sites-console.md) can be created and allows new group templates to be created.
 
-![](assets/groupstemplate.png)
+![groupstemplate](assets/groupstemplate.png)
 
 ## Create Goup Template {#create-goup-template}
 
@@ -43,7 +43,7 @@ This will bring up the Site Editor panel which contains 3 sub-panels:
 
 ### Basic Info {#basic-info}
 
-![](assets/chlimage_1-96.png)
+![chlimage_1-96](assets/chlimage_1-96.png)
 
 On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
@@ -58,7 +58,7 @@ On the Basic Info panel, a name, description and whether the template is enabled
 
 ### Thumbnail {#thumbnail}
 
-![](assets/chlimage_1-97.png)
+![chlimage_1-97](assets/chlimage_1-97.png)
 
 (Optional) Select the Upload Image icon in order to display a Thumbnail along with the Name and Description to creators of community sites.
 
@@ -72,7 +72,7 @@ On the Basic Info panel, a name, description and whether the template is enabled
 >
 >It is still not allowed to add a Groups function as the first or only function in a template.
 
-![](assets/grptemplateeditor.png)
+![grptemplateeditor](assets/grptemplateeditor.png)
 
 To add community functions, drag from the right side to the left in the order the site menu links should appear. Styles will be applied to the template during creation of the site.
 
@@ -80,7 +80,7 @@ For example, if you want a forum, drag the forum function from the library and d
 
 Continue dragging and dropping any other community functions desired for a sub-community site (group) based on this template.
 
-![](assets/dragfunctions.png)
+![dragfunctions](assets/dragfunctions.png)
 
 Once all desired functions have been dropped into the template builder area and configured, select **Save **in the upper right hand corner.
 

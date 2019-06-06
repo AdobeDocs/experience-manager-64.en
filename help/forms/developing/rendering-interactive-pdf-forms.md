@@ -26,7 +26,7 @@ The Forms service renders interactive PDF forms to client devices, typically web
 
 A sample loan application is introduced to demonstrate how the Forms service uses interactive forms to collect information from users. This application lets a user fill in a form with data required to secure a loan and then submits data to the Forms service. The following diagram shows the loan application’s logic flow.
 
-![](assets/ri_ri_finsrv_loanapp_v1.png)
+![ri_ri_finsrv_loanapp_v1](assets/ri_ri_finsrv_loanapp_v1.png)
 
 The following table describes the steps in this diagram.
 
@@ -65,13 +65,13 @@ The following table describes the steps in this diagram.
 
 This interactive loan form is rendered by the sample loan application’s `GetLoanForm` Java Servlet.
 
-![](assets/ri_ri_loanform.png)
+![ri_ri_loanform](assets/ri_ri_loanform.png)
 
 **Confirmation form**
 
 This form is rendered by the sample loan application’s `HandleData` Java Servlet.
 
-![](assets/ri_ri_confirm.png)
+![ri_ri_confirm](assets/ri_ri_confirm.png)
 
 The `HandleData` Java Servlet prepopulates this form with the user’s first and last name as well as the amount. After the form is prepopulated, it is sent to the client web browser. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/prepopulating-forms-flowable-layouts.md).)
 
@@ -122,7 +122,7 @@ Before you can programmatically perform a Forms service Client API operation, yo
 
 You can specify URI values that are required by the Forms service to render a form. A form design that is saved as part of a Forms application can be referenced by using the content root URI value `repository:///`. For example, consider the following form design named *Loan.xdp* located within a Forms application named *FormsApplication*:
 
-![](assets/ri_ri_formrepository.png)
+![ri_ri_formrepository](assets/ri_ri_formrepository.png)
 
 To access this form design, specify `Applications/FormsApplication/1.0/FormsFolder/Loan.xdp` as the form name (the first parameter passed to the `renderPDFForm` method) and `repository:///` as the content root URI value.
 

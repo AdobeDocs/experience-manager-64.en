@@ -81,7 +81,7 @@ The reporting framework works on the following principles:
 
 The reporting framework (illustrated by the structure of a standard report) uses the following building blocks, fed by the processing queue:
 
-![](assets/chlimage_1-248.png) 
+![chlimage_1-248](assets/chlimage_1-248.png) 
 
 ### Report Page {#report-page}
 
@@ -155,7 +155,7 @@ This allows:
 
 The following workflow represents the processing queue:
 
-![](assets/chlimage_1-249.png) 
+![chlimage_1-249](assets/chlimage_1-249.png) 
 
 #### Phases of the Processing Queue {#phases-of-the-processing-queue}
 

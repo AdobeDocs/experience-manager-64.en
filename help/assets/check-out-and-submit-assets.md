@@ -23,39 +23,39 @@ This feature helps prevent other users from overriding the changes made by an au
 
 1. From the Assets UI, select the asset you want to check out. You can also select multiple assets to check out.
 
-   ![](assets/chlimage_1-468.png)
+   ![chlimage_1-468](assets/chlimage_1-468.png)
 
 1. From the toolbar, click/tap the **Checkout** icon.
 
-   ![](assets/chlimage_1-469.png)
+   ![chlimage_1-469](assets/chlimage_1-469.png)
 
    Observe that the **Checkout** icon toggles to the **Checkin** icon with the lock open.
 
-   ![](assets/chlimage_1-470.png)
+   ![chlimage_1-470](assets/chlimage_1-470.png)
 
    To verify whether other users can edit the asset you checked out, log in as a different user. A lock icon appears on the thumbnail of the asset that you checked out.
 
-   ![](assets/chlimage_1-471.png)
+   ![chlimage_1-471](assets/chlimage_1-471.png)
 
    Select the asset. Notice that the toolbar does not display any options that let you edit, annotate, publish, or delete the asset.
 
-   ![](assets/chlimage_1-472.png)
+   ![chlimage_1-472](assets/chlimage_1-472.png)
 
    You can, however, click/tap the **View Properties** icon to edit the metadata for the locked asset.
 
 1. Click/tap the Edit icon to open the asset in edit mode.
 
-   ![](assets/chlimage_1-473.png)
+   ![chlimage_1-473](assets/chlimage_1-473.png)
 
 1. Edit the asset and save the changes. For example, crop the image and save. 
 
-   ![](assets/chlimage_1-474.png)
+   ![chlimage_1-474](assets/chlimage_1-474.png)
 
    You can also choose to annotate or publish the asset.
 
 1. Select the edited asset from the Assets UI, and click/tap the **Checkin** icon from the toolbar.
 
-   ![](assets/chlimage_1-475.png)
+   ![chlimage_1-475](assets/chlimage_1-475.png)
 
    The modified asset is checked in to AEM Assets and is available to other users for editing.
 
@@ -66,9 +66,9 @@ Administrators can check in assets that are checked out by other users.
 1. Log in to AEM Assets as an administrator.
 1. From the Assets UI select one or more assets that have been checked out by other users.
 
-   ![](assets/chlimage_1-476.png)
+   ![chlimage_1-476](assets/chlimage_1-476.png)
 
 1. From the toolbar, click/tap the **Release Lock** icon. The asset is checked back in and available for edit to other users.
 
-   ![](assets/chlimage_1-477.png)
+   ![chlimage_1-477](assets/chlimage_1-477.png)
 

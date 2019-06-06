@@ -52,7 +52,7 @@ For more information on groups, permissions, access control lists, and managing 
 
    Select the check box in the Member column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.
 
-   ![](assets/useradmin-creditcard.png)
+   ![useradmin-creditcard](assets/useradmin-creditcard.png)
 
    >[!NOTE]
    >

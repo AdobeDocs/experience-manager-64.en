@@ -50,7 +50,7 @@ The touch-enabled UI includes:
     * Uses a responsive design (the display resizes automatically according to your device and/or window size) 
     * Uses infinite scrolling (no more pagination, all items are listed ine one window)
 
-![](assets/chlimage_1-183.png)
+![chlimage_1-183](assets/chlimage_1-183.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ For a further overview of the touch-enabled UI structure, see the article [Struc
 
 AEM uses the Granite platform as a base and the Granite platform includes, amongst other things, the Java Content Repository. 
 
-![](assets/chlimage_1-184.png) 
+![chlimage_1-184](assets/chlimage_1-184.png) 
 
 ## Granite {#granite}
 
@@ -125,7 +125,7 @@ The Granite UI:
 * Is designed for both mobile and desktop devices (respects mobile first)
 * Can be used in any Granite-based platform/product/project; eg AEM
 
-![](assets/chlimage_1-186.png)
+![chlimage_1-186](assets/chlimage_1-186.png)
 
 * [Granite UI Foundation Components](#granite-ui-foundation-components)
 
@@ -140,7 +140,7 @@ The client-server communication in the Granite UI consists of hypertext, not obj
 * The server enriches the HTML with semantic data
 * The client enriches the hypertext with hypermedia (interaction)
 
-![](assets/chlimage_1-187.png) 
+![chlimage_1-187](assets/chlimage_1-187.png) 
 
 #### Client-Side {#client-side}
 
@@ -305,7 +305,7 @@ Coral UI (CUI) is an implementation of Adobe's visual style for the touch-enable
 
 The Coral UI is a collection of building blocks for developing web applications.
 
-![](assets/chlimage_1-188.png)
+![chlimage_1-188](assets/chlimage_1-188.png)
 
 Designed to be modular from the start, each module forms a distinct layer based on its primary role. Although the layers have been designed to support each other, they can also be used independently if needed. This makes it possible to implement Coral’s user experience in any HTML-capable environment.
 
@@ -339,7 +339,7 @@ For example, the markup:
 
 Is displayed as: 
 
-![](assets/chlimage_1-189.png)
+![chlimage_1-189](assets/chlimage_1-189.png)
 
 The look-and-feel is defined in LESS, tied to an element by dedicated class name (the following extract has been shortened for the sake of brevity):
 
@@ -430,7 +430,7 @@ $(‘.cards’).cardlayout ();
 
 This will show as:
 
-![](assets/chlimage_1-190.png)
+![chlimage_1-190](assets/chlimage_1-190.png)
 
 The `cardLayout` plugin lays out the enclosed `UL` elements based on their respective heights and also taking the parent’s width into consideration.
 
@@ -481,7 +481,7 @@ The plugin emits HTML markup (this markup uses basic elements, which may use oth
 
 This will show as:
 
-![](assets/chlimage_1-191.png) 
+![chlimage_1-191](assets/chlimage_1-191.png) 
 
 ### Utility Library {#utility-library}
 

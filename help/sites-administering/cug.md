@@ -44,16 +44,16 @@ To create a closed user group:
 
 1. Select the **Groups** card from the next screen.
 
-   ![](assets/screenshot_2018-10-30at145502.png)
+   ![screenshot_2018-10-30at145502](assets/screenshot_2018-10-30at145502.png)
 
 1. Press the **Create** button in the top right corner, in order to create a new group.
 1. Name your new group; for example, `cug_access`.
 
-   ![](assets/screenshot_2018-10-30at151459.png)
+   ![screenshot_2018-10-30at151459](assets/screenshot_2018-10-30at151459.png)
 
 1. Go to the **Members** tab and assign the required users to this group.
 
-   ![](assets/screenshot_2018-10-30at151808.png)
+   ![screenshot_2018-10-30at151808](assets/screenshot_2018-10-30at151808.png)
 
 1. Activate any users that you have assigned to your CUG; in this case, all members of `cug_access`.
 1. Activate the closed user group so that it is available in the publish environment; in this example, `cug_access`.
@@ -65,7 +65,7 @@ To apply the CUG to a page:
 1. Navigate to the root page of the restricted section you want to assign to your CUG.
 1. Select the page by clicking on its thumbnail and then clicking **Properties** in the top panel.
 
-   ![](assets/screenshot_2018-10-30at162632.png)
+   ![screenshot_2018-10-30at162632](assets/screenshot_2018-10-30at162632.png)
 
 1. In the following window, go to the **Advanced** tab.
 1. Scroll down and enable the tickbox in the **Authentication Requirement** section.  
@@ -73,7 +73,7 @@ To apply the CUG to a page:
 1. Add your comnfiguration path below, then press Save.
 1. Next, go to the **Permissions** tab and press the **Edit Closed User Group** button.
 
-   ![](assets/screenshot_2018-10-30at163003.png)
+   ![screenshot_2018-10-30at163003](assets/screenshot_2018-10-30at163003.png)
 
 1. Look for and add your CUG in the following window - in this case add the group named **cug_access**. Finally, press **Save**.
 1. Click **Enabled** to define that this page (and any child pages) belong to a CUG.

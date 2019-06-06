@@ -123,9 +123,9 @@ If the migration has completed successfully, the tool will exit with an exit cod
 
 Check the configuration files beneath `crx-quickstart/install` folder. If a migration was necessary these will be updated to reflect the target repository.
 
-**A note on datastores:**
-
-While `FileDataStore` is the new default for AEM 6.3 installations, using an external datastore is not required. While using an external datastore is recommended as a best practice for production deployments, it is not a prerequisite to upgrade. Due to the complexity already present in upgrading AEM, we recommend performing the upgrade without doing a datastore migration. If desired, a datastore migration can be executed afterwards as a separate effort.
+>[!NOTE]
+>
+>While `FileDataStore` is the new default for AEM 6.3 installations, using an external datastore is not required. While using an external datastore is recommended as a best practice for production deployments, it is not a prerequisite to upgrade. Due to the complexity already present in upgrading AEM, we recommend performing the upgrade without doing a datastore migration. If desired, a datastore migration can be executed afterwards as a separate effort.
 
 ## Troubleshooting Migration Issues {#troubleshooting-migration-issues}
 

@@ -31,11 +31,11 @@ Two graphical user interfaces are provided to achieve this. These are accessible
 
         * Desktop:
 
-   ![](assets/screen_shot_2018-03-23at115248.png)
+   ![screen_shot_2018-03-23at115248](assets/screen_shot_2018-03-23at115248.png)
 
     * Tablet devices (or desktop less than 1024 pixels wide):
 
-   ![](assets/screen_shot_2018-03-23at115505.png)
+   ![screen_shot_2018-03-23at115505](assets/screen_shot_2018-03-23at115505.png)
 
 1. Classic UI
 
@@ -44,7 +44,7 @@ Two graphical user interfaces are provided to achieve this. These are accessible
     * It was designed for use on desktop devices.
     * The following documentation focuses on the modern UI. For information about authoring in the classic UI, see the [Authoring documentation for the Classic UI](/help/sites-classic-ui-authoring/classicui.md).
 
-   ![](assets/chlimage_1-232.png)
+   ![chlimage_1-232](assets/chlimage_1-232.png)
 
 ## Switching UIs
 
@@ -105,7 +105,7 @@ When using the touch-enabled UI desktop users might want to revert to the classi
 
   For examples, the links from **Sites** to **siteadmin**:
 
-  ![](assets/screen_shot_2018-03-23at111924.png)
+  ![screen_shot_2018-03-23at111924](assets/screen_shot_2018-03-23at111924.png)
 
 * **URL**
 
@@ -130,7 +130,7 @@ When using the touch-enabled UI desktop users might want to revert to the classi
 
 If enabled, **Open the Classic UI** is available from the **Page Information** dialog:
 
-![](assets/chlimage_1-49.png)
+![chlimage_1-49](assets/chlimage_1-49.png)
 
 ### UI Overrides for the Editor {#ui-overrides-for-the-editor}
 

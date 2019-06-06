@@ -42,7 +42,7 @@ The [Storage Configuration console](/help/communities/srp-config.md) allows for 
 
 * from global navigation: **Tools, Communities, Storage Configuration**
 
-![](assets/chlimage_1-310.png)
+![chlimage_1-310](assets/chlimage_1-310.png)
 
 * select **Adobe Storage Resource Provider (ASRP)**
 * the following information comes from the provisioning process

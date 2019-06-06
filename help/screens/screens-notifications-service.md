@@ -43,7 +43,7 @@ Follow the steps below to configure the email notification settings:
 1. Open **Adobe Experience Manager Web Console Configuration**.
 1. Open **Screens Device Email Monitoring Service**.
 
-   ![](assets/screen_shot_2018-04-26at44602pm.png)
+   ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Define the following fields to configure your settings for the email:
 

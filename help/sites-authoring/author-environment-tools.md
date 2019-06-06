@@ -21,7 +21,7 @@ The **Sites** console allows you to navigate and manage your website, using the 
 
 For example, card view:
 
-![](assets/chlimage_1-290.png) 
+![chlimage_1-290](assets/chlimage_1-290.png) 
 
 ## Editing Page Content {#editing-page-content}
 
@@ -29,7 +29,7 @@ You can edit a page with the page editor. For example:
 
 `http://localhost:4502/editor.html/content/we-retail/us/en/equipment.html`
 
-![](assets/screen_shot_2018-03-22at141536.png)
+![screen_shot_2018-03-22at141536](assets/screen_shot_2018-03-22at141536.png)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ The actual appearance and handling is dependent on the device type you are using
 
   To add a components to your page touch-and-hold the required component and move it towards the right - the components browser will close to show the page again - where you can position the component.
 
-  ![](assets/screen_shot_2018-03-22at141752.png)
+  ![screen_shot_2018-03-22at141752](assets/screen_shot_2018-03-22at141752.png)
 
 * **Desktop device**
 
@@ -76,7 +76,7 @@ The actual appearance and handling is dependent on the device type you are using
 
   To add a component to your page click on the required component and drag it to the required location.
 
-  ![](assets/screen_shot_2018-03-22at141808.png)
+  ![screen_shot_2018-03-22at141808](assets/screen_shot_2018-03-22at141808.png)
 
   Components are represented by
 
@@ -94,7 +94,7 @@ The actual appearance and handling is dependent on the device type you are using
 
   For a more detailed description of the component, you can click or tap the information icon next to the component in the Components browser (if available).
 
-  ![](assets/screen_shot_2018-03-22at141929.png)
+  ![screen_shot_2018-03-22at141929](assets/screen_shot_2018-03-22at141929.png)
 
   For even more information about the components available to you see the [Component Console](/help/sites-authoring/default-components-console.md).
 
@@ -112,7 +112,7 @@ When you open the side panel it will slide open from the left side. Select the *
 
 When the assets browser is open you can browse through all the assets available for your page. Infinite scrolling is used to expand the list when required.
 
-![](assets/chlimage_1-291.png)
+![chlimage_1-291](assets/chlimage_1-291.png)
 
 To add an asset to your page, select and drag to the required location. This can be:
 
@@ -149,7 +149,7 @@ The actual appearance and handling is dependent on the device type you are using
 
   To add an asset to your page touch-and-hold the required asset, then move it towards the right - the assets browser will close to show the page again, where you can add the asset to the required component.
 
-  ![](assets/screen_shot_2018-03-22at142223.png)
+  ![screen_shot_2018-03-22at142223](assets/screen_shot_2018-03-22at142223.png)
 
 * **Desktop device**
 
@@ -157,7 +157,7 @@ The actual appearance and handling is dependent on the device type you are using
 
   To add an asset to your page click on the required asset and drag it to the required component or location.
 
-  ![](assets/screen_shot_2018-03-22at142337.png)
+  ![screen_shot_2018-03-22at142337](assets/screen_shot_2018-03-22at142337.png)
 
 If you need to quickly make a change to an asset, you can start the [asset editor](/help/assets/managing-assets-touch-ui.md) directly from the asset browser by clicking the edit icon shown next to the asset's name.
 
@@ -173,7 +173,7 @@ The Content Tree is a tab within the side panel (together with the components an
 
 When you open the side panel it will slide open (from the left side). Select the **Content Tree** tab if necessary. When open you can see a tree view representation of your page or template, so that it's easier to understand how its content is structured hierarchically. Additionally on a complex page, it makes it easier to jump between components of the page.
 
-![](assets/screen_shot_2018-03-22at142526.png)
+![screen_shot_2018-03-22at142526](assets/screen_shot_2018-03-22at142526.png)
 
 A page can easily be composed of many of the same type of components, so the component tree displays descriptive text (in grey) after the name of the component type (in black). The descriptive text comes from common properties of the component such as title or text.
 
@@ -181,11 +181,11 @@ Component types will be shown in the user language, whereas the component descri
 
 Clicking the chevron next to a component will collapse or expand that level.
 
-![](assets/screen_shot_2018-03-22at142559.png)
+![screen_shot_2018-03-22at142559](assets/screen_shot_2018-03-22at142559.png)
 
 Clicking on the component will highlight the component in the page editor.
 
-![](assets/screen_shot_2018-03-22at142647.png)
+![screen_shot_2018-03-22at142647](assets/screen_shot_2018-03-22at142647.png)
 
 If the component you click in the tree is editable a wrench icon will appear to the right of the name. Clicking on this icon will directly start the edit dialogue for the component.
 
@@ -212,11 +212,11 @@ If your page contains Content Fragments then you will also have access to the [b
 
 Open the required console, then navigate to the required resource and open **References** using:
 
-![](assets/screen_shot_2018-03-22at153653.png)
+![screen_shot_2018-03-22at153653](assets/screen_shot_2018-03-22at153653.png)
 
 [Select your required resource](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources) to show a list of references types relevant to that resource:
 
-![](assets/screen_shot_2018-03-22at153731.png)
+![screen_shot_2018-03-22at153731](assets/screen_shot_2018-03-22at153731.png)
 
 Select the appropriate reference type for more information. In certain situations further actions are available when you select a specific reference, including:
 
@@ -229,7 +229,7 @@ Select the appropriate reference type for more information. In certain situation
 
 For example, you can fix a broken reference within a Reference component:
 
-![](assets/chlimage_1-292.png) 
+![chlimage_1-292](assets/chlimage_1-292.png) 
 
 ## Events - Timeline {#events-timeline}
 
@@ -237,17 +237,17 @@ For appropriate resources (e.g. pages from the **Sites** console, or assets from
 
 Open the required console, then navigate to the required resource and open **Timeline**, using:
 
-![](assets/screen_shot_2018-03-22at153952.png)
+![screen_shot_2018-03-22at153952](assets/screen_shot_2018-03-22at153952.png)
 
 [Select your required resource](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources), then either **Show All** or **Activities** to list any recent actions on the selected resources:
 
-![](assets/screen_shot_2018-03-22at154130.png) 
+![screen_shot_2018-03-22at154130](assets/screen_shot_2018-03-22at154130.png) 
 
 ## Page Information {#page-information}
 
 The Page Information (equalizer icon) opens a menu that also provides details about the last edit and the last publication. Depending on the characteristics of the page (and its site) more or fewer options might be available:
 
-![](assets/screen_shot_2018-03-22at154210.png)
+![screen_shot_2018-03-22at154210](assets/screen_shot_2018-03-22at154210.png)
 
 * [Open Properties](/help/sites-authoring/editing-page-properties.md)
 * [Rollout Page](/help/sites-administering/msm.md#msm-from-the-ui)
@@ -291,7 +291,7 @@ There are various modes when editing a page allowing for different actions:
 
 You can access these using the icons in the top right corner. The actual icon will change to reflect the mode you are currently using:
 
-![](assets/chlimage_1-293.png)
+![chlimage_1-293](assets/chlimage_1-293.png)
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ The example used here to illustrate is the image component. For more information
 
 Path fields have auto-complete and look-ahead funtionality now to make locating a resource easier. Simply start typing in the path field and the AEM will offer matching paths as you type.
 
-![](assets/screen_shot_2018-03-22at154403.png)
+![screen_shot_2018-03-22at154403](assets/screen_shot_2018-03-22at154403.png)
 
 Clicking the **Open Selection Dialog** button in the path field opens the [path browser](/help/sites-authoring/author-environment-tools.md#path-browser) dialog to allow for more detailed selection options.
 
@@ -321,27 +321,27 @@ Clicking the **Open Selection Dialog** button in the path field opens the [path 
 
 The path browser is organized like the [column view](/help/sites-authoring/basic-handling.md#column-view) of the sites console, allowing for more detailed selection of resources.
 
-![](assets/screen_shot_2018-03-22at154521.png)
+![screen_shot_2018-03-22at154521](assets/screen_shot_2018-03-22at154521.png)
 
 Once a resource is selected, the **Select** button at the upper-right of the dialogue becomes active. Click or tap to confirm the selection or **Cancel** to abort.
 
 If the context allows for the selection of multiple resources, selecting a resource also activates the Select button, but also adds a count of the number of selected resources to the upper-right of the window. Click the X next to the number to deselect all.
 
-![](assets/chlimage_1-294.png)
+![chlimage_1-294](assets/chlimage_1-294.png)
 
 The breadcrumbs can be used to quickly jump within the resource hierarchy.
 
-![](assets/chlimage_1-295.png)
+![chlimage_1-295](assets/chlimage_1-295.png)
 
 At any time you can use the search field at the top of the dialogue.
 
-![](assets/chlimage_1-296.png)
+![chlimage_1-296](assets/chlimage_1-296.png)
 
 Click the X in the search field to clear the search.
 
 To narrow your search, you can reveal the filter options and filter your results based on a certain path.
 
-![](assets/chlimage_1-297.png) 
+![chlimage_1-297](assets/chlimage_1-297.png) 
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 

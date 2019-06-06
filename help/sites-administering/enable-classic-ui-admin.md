@@ -15,7 +15,7 @@ discoiquuid: 98ba3093-1edb-4891-abbe-47cf6e4f1feb
 
 By default, the ability to switch to the classic UI via the admin consoles has been disabled. Therefore the pop-up icons that was seen when mousing over certain console icons, allowing access to classic UI, are no longer displayed.
 
-![](assets/screen_shot_2018-03-23at111956.png)
+![screen_shot_2018-03-23at111956](assets/screen_shot_2018-03-23at111956.png)
 
 Every console that has a Classic UI version in `/libs/cq/core/content/nav` can be re-enabled individually so that the **Classic UI** option once again pops up over the console icon when it is moused over.
 
@@ -43,6 +43,6 @@ In this example, we are re-enabling the Classic UI for the Sites console.
 
 1. The **Classic UI** option is again available as a popover option in the admin console.
 
-   ![](assets/screen_shot_2018-03-23at111924.png)
+   ![screen_shot_2018-03-23at111924](assets/screen_shot_2018-03-23at111924.png)
 
 Repeat these steps for every console for which you wish to re-enable access to the Classic UI version.

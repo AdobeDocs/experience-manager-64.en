@@ -48,7 +48,7 @@ In the author environment, authors may apply tags by accessing the page properti
 
 To apply [pre-defined tags](/help/sites-administering/tags.md), in the **Page Properties** window use the **Tags** field and the **Select Tags** window. The **Standard Tags** tab is the default namespace, which means there is no `namespace-string:` prefixed to the taxonomy.
 
-![](assets/chlimage_1-92.png) 
+![chlimage_1-92](assets/chlimage_1-92.png) 
 
 ### Publishing Tags {#publishing-tags}
 
@@ -82,5 +82,5 @@ You can search for tags in both the author and publish environments.
 
 Adding a [Search component](/help/sites-authoring/default-components-foundation.md#search) to a page provides a search capability which includes tags and can be used in both the author and publish environments.
 
-![](assets/chlimage_1-93.png)
+![chlimage_1-93](assets/chlimage_1-93.png)
 

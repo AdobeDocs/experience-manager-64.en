@@ -24,7 +24,7 @@ AEM Communities enables community administrators to create groups and sub-groups
 
 As part of a community site, multi-lingual groups can be created in single operation. **Additional Available Community Group Language(s)** field in **Community Group Template** page, which is available while creating a [new community group](/help/communities/groups.md#p-step-community-group-template-p) within a community site, makes this feasible.
 
-![](assets/multilingualgroup-1.png)
+![multilingualgroup-1](assets/multilingualgroup-1.png)
 
 To create such groups, users can simply navigate to Group Collection of the desired communities site from the Sites console. Create a group, and specify the desired languages in **Additional Available Community Group Language(s)** field of **Community Group Template** page.
 
@@ -32,13 +32,13 @@ To create such groups, users can simply navigate to Group Collection of the desi
 
 AEM 6.4 Communities provides Delete Group icon on the existing community groups, in community Groups collection within community Sites console. This enables [group deletion](/help/communities/groups.md#deleting-the-group) in one click, along with the deletion of all the items associated (such as content and user memberships) with the group.
 
-![](assets/deletegrp.png)
+![deletegrp](assets/deletegrp.png)
 
 ### Create and assign enablement resources within groups {#create-and-assign-enablement-resources-within-groups}
 
 Learning content can now be created, managed and published for a specific set of targeted community members. Due to the availability of catalog and assignment functions for community groups (and not only the entire community site), enablement managers can [assign enablement resources](/help/communities/resource.md) and learning path to a small set of people too.
 
-![](assets/assignmentcatalog.png)
+![assignmentcatalog](assets/assignmentcatalog.png)
 
 ## Moderating user generated content {#moderating-user-generated-content}
 
@@ -48,17 +48,17 @@ AEM 6.4 Communities offers few improvements to moderation, which are instrumenta
 
 New spam detection engine helps in filtering out the unwanted and unsolicited user generated content on community sites or groups. When enabled, this functionality can mark a piece of user generated content as Spam or Not Spam based on a pre-defined set of spam words. Moderators can further act upon the content to deny or allow it to appear on the publish instance. These moderation actions can be performed inline or through bulk moderation console.
 
-![](assets/spamdetection-1.png)
+![spamdetection-1](assets/spamdetection-1.png)
 
 [Spam detector](/help/communities/moderate-ugc.md#spam-detection) finds and flags a given piece of user generated content with 90% accuracy. However, this functionality is not enabled by default. To enable it, community administrators need to navigate to configMgr on system/console and add Spam Process.
 
-![](assets/spamprocess-1.png)
+![spamprocess-1](assets/spamprocess-1.png)
 
 ### New (Answered/Unanswered) filters for QnA {#new-answered-unanswered-filters-for-qna}
 
 AEM 6.4 adds two [new filters](/help/communities/moderation.md#main-pars-image-1686651047), named Answered and Not Answered for QnA questions, to bulk moderation console. These filters are available under Status in Filter Rail.
 
-![](assets/statuses.png)
+![statuses](assets/statuses.png)
 
 On selecting the Answered status, all the answered questions are visible to the moderator in content area. Whereas, if only the Not Answered status is selected, then the moderator will see all the content (for all content types) except the answered questions, because the property responsible for the Answered Question does not exist in the case of not-answered questions and other content such as forum topic, blog article, or comments.
 
@@ -76,7 +76,7 @@ AEM 6.4 Communities provides site management enhancements, which ensure that num
 
 AEM Communities allows creating a [multi-lingual community sites](/help/communities/create-site.md#main-pars-image-370942726) in single operation. This is possible due to the availability of multiple languages to select from in **Community Site Base Language** field in **Site Template** page, while creating a new community site from the sites console.
 
-![](assets/multilocalesite.png)
+![multilocalesite](assets/multilocalesite.png)
 
 Users can select configuration folders, branding and many other configurations at once for all these sites.
 
@@ -84,7 +84,7 @@ Users can select configuration folders, branding and many other configurations a
 
 AEM 6.4 Communities provides Delete Site icon on the existing community sites, in community Sites console. This enables the [deletion of the site](/help/communities/create-site.md#main-pars-image-871f) and the associated items in one click.
 
-![](assets/siteactions.png)
+![siteactions](assets/siteactions.png)
 
 ## Managing UGC and user profiles {#managing-ugc-and-user-profiles}
 
@@ -96,5 +96,5 @@ Keeping user data protection at the heart of communities experience, AEM Communi
 * Option to upload a custom CSS has been removed from the community sites and groups theme.
 * Content Only and Search icons have been added in the Filter Rail in Bulk Moderation UI.
 * Content Path filter has been added in Filter Rail in Bulk Moderation UI.  
-* Switch to bulk mode and Exit bulk mode have been removed from the Bulk Moderation UI. To enter multi-select mode click the Select ( ![](assets/selecticon.png)) icon on a post, which appears on hovering over it with the mouse (desktop) or pressing and holding a finger on the post (mobile).
+* Switch to bulk mode and Exit bulk mode have been removed from the Bulk Moderation UI. To enter multi-select mode click the Select ( ![selecticon](assets/selecticon.png)) icon on a post, which appears on hovering over it with the mouse (desktop) or pressing and holding a finger on the post (mobile).
 

@@ -85,7 +85,7 @@ Following is a view of the forum seen by a site visitor who is not signed in (5)
 
 An anonymous site visitor may only view the forum, but my not post any content nor perform any moderation actions.
 
-![](assets/chlimage_1.png)
+![chlimage_1](assets/chlimage_1.png)
 
 ### New Member (#4) {#new-member}
 
@@ -103,7 +103,7 @@ Have Boyd select Flag to flag the content posted by Andrew.
 
 Log Out
 
-![](assets/chlimage_1-1.png)
+![chlimage_1-1](assets/chlimage_1-1.png)
 
 ### Administrator (#3) {#administrator}
 
@@ -114,7 +114,7 @@ Notice
 * admin can Flag, Delete, Edit, Deny, Cut, Close, Pin, Feature
 * admin may select Administration to access the moderation console
 
-![](assets/communityadmin-forum.png)
+![communityadmin-forum](assets/communityadmin-forum.png)
 
 Select Administration menu item to access the [moderation console](/help/communities/moderation.md) from the publish environment.
 
@@ -124,7 +124,7 @@ The search filter is a sidepanel that toggles open or closed.
 
 Log Out.
 
-![](assets/moderationconsole-publish.png)
+![moderationconsole-publish](assets/moderationconsole-publish.png)
 
 ### Community Moderator (#2) {#community-moderator}
 
@@ -137,7 +137,7 @@ Notice
 * Aaron can Cut the forum topic to move it to another forum for which he moderates
 * Aaron may select Administration to access the moderation console
 
-![](assets/chlimage_1-2.png)
+![chlimage_1-2](assets/chlimage_1-2.png)
 
 Select Administration menu item to access the [moderation console](/help/communities/moderation.md) from the publish environment.
 
@@ -147,7 +147,7 @@ Notice the community moderator has the same options as the administrator (image 
 
 Log Out.
 
-![](assets/moderatoraccess.png)
+![moderatoraccess](assets/moderatoraccess.png)
 
 ### Content Author (#1) {#content-author}
 
@@ -159,5 +159,5 @@ Notice
 * Rebekah can also Reply to or Flag other content
 * Rebekah can not access the moderation console
 
-![](assets/chlimage_1-3.png)
+![chlimage_1-3](assets/chlimage_1-3.png)
 

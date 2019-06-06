@@ -31,11 +31,11 @@ Consider the following workflow that involves three AEM Forms services:
 
 The following diagram provides a visual representation of this workflow. 
 
-![](assets/cd_cd_finsrv_architecture_xml_pdf1.png)
+![cd_cd_finsrv_architecture_xml_pdf1](assets/cd_cd_finsrv_architecture_xml_pdf1.png)
 
 After the user submits the form from the client web browser, the non-interactive PDF document is stored in Content Services (deprecated). The following illustration shows a PDF document stored in Content Services (deprecated). 
 
-![](assets/cd_cd_cs_gui.png) 
+![cd_cd_cs_gui](assets/cd_cd_cs_gui.png) 
 
 ### Summary of steps {#summary-of-steps}
 

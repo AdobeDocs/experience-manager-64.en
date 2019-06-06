@@ -102,7 +102,7 @@ In Classic UI, a slow double-click on the component allows inline editing and an
 
 ### Full screen editing {#full-screen-editing}
 
-AEM components can be opened in full screen view that hides the page content and occupies the available screen. Consider full screen editing a detailed version of the inline editing as it offers the most editing options. It can be opened by clicking ![](assets/rte_fullscreen.png), from the compact toolbar when using the inline editing mode.
+AEM components can be opened in full screen view that hides the page content and occupies the available screen. Consider full screen editing a detailed version of the inline editing as it offers the most editing options. It can be opened by clicking ![rte_fullscreen](assets/rte_fullscreen.png), from the compact toolbar when using the inline editing mode.
 
 The dialog full screen mode provides, a detailed RTE toolbar and the options and the components that are available in the dialog mode. It is applicable only for a dialog that contains RTE alongside other components.
 

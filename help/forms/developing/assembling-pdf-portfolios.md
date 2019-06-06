@@ -18,7 +18,7 @@ You can assemble a PDF Portfolio using the Assembler Java and web service API. A
 
 The following illustration is a screenshot of a portfolio with *On an Image* style layout.
 
-![](assets/ap_ap_portfolio.png)
+![ap_ap_portfolio](assets/ap_ap_portfolio.png)
 
 Creating a PDF Portfolio serves as a paperless alternative to passing a collection of documents. Using AEM Forms you can create portfolios by invoking the Assembler service with a structured DDX document. The following DDX document is an example of a DDX document that creates a PDF Portfolio.
 

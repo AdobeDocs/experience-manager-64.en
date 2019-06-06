@@ -56,7 +56,7 @@ After you create the event table, run the **Update database structure wizard** t
 
 In Adobe Campaign, tap/click **Add** to create a new extension of the **Seed addresses (nms)** table.
 
-![](assets/chlimage_1-194.png)
+![chlimage_1-194](assets/chlimage_1-194.png)
 
 Now, use the fields from the **event** table to extend the **seed** table:
 
@@ -79,7 +79,7 @@ In **Administration/Campaign Managemen**t, go to **Target Mappings** and add a n
 >
 >Make sure you use a meaningful name for **Internal name**.
 
-![](assets/chlimage_1-195.png) 
+![chlimage_1-195](assets/chlimage_1-195.png) 
 
 ### Creating a Custom Delivery Template {#creating-a-custom-delivery-template}
 
@@ -87,7 +87,7 @@ In this step, you are adding a delivery template that uses the created **Target 
 
 In **Resources/Templates**, navigate to the Delivery Template and duplicate the existing AEM delivery. When you click **To**, select the create event **Target mapping**.
 
-![](assets/chlimage_1-196.png) 
+![chlimage_1-196](assets/chlimage_1-196.png) 
 
 ### Building the Form in AEM {#building-the-form-in-aem}
 
@@ -95,7 +95,7 @@ In AEM, make sure you have configured a Cloud Service in **Page Properties**.
 
 Then, in the **Adobe Campaign** tab, select the delivery that was created in [Creating a Custom Delivery Template](#creating-a-custom-delivery-template).
 
-![](assets/chlimage_1-197.png)
+![chlimage_1-197](assets/chlimage_1-197.png)
 
 When configuring the fields, make sure you specify unique element-names for the form-fields.
 
@@ -103,17 +103,17 @@ After the fields are configured, you need to manually change the mapping.
 
 In CRXDE-lite, go the **jcr:content** (of the page) node and change the **acMapping** value to the internal name of the **Target mapping**.
 
-![](assets/chlimage_1-198.png)
+![chlimage_1-198](assets/chlimage_1-198.png)
 
 In the configuration of the form, make sure you check the checkbox to create if non existing
 
-![](assets/chlimage_1-199.png) 
+![chlimage_1-199](assets/chlimage_1-199.png) 
 
 ### Submitting the Form {#submitting-the-form}
 
 You can now submit the form and validate on the Adobe Campaign side whether the values are saved.
 
-![](assets/chlimage_1-200.png) 
+![chlimage_1-200](assets/chlimage_1-200.png) 
 
 ## Troubleshooting {#troubleshooting}
 

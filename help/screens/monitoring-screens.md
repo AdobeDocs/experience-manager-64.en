@@ -27,21 +27,21 @@ Follow the steps below to navigate to the device dashboard:
 
    Select **Devices** and **Device Manager** from the action bar.
 
-   ![](assets/chlimage_1-51.png)
+   ![chlimage_1-51](assets/chlimage_1-51.png)
 
 1. Select the device you want to monitor.
 
-   ![](assets/chlimage_1-52.png)
+   ![chlimage_1-52](assets/chlimage_1-52.png)
 
 1. The page shows the device information, activity, and the device details that allows you to monitor the device activities and functions.
 
-   ![](assets/chlimage_1-53.png)
+   ![chlimage_1-53](assets/chlimage_1-53.png)
 
 ### Monitor Device Activity {#monitor-device-activity}
 
 The **Activity** panel shows the last ping of your screens player with the timestamp. The last ping corresponds to the last time the device contacted the server.
 
-![](assets/chlimage_1-54.png)
+![chlimage_1-54](assets/chlimage_1-54.png)
 
 Additionally, click **Collect Logs** from the top right hand corner of the **Activity** panel to view the logs for your player.
 
@@ -49,23 +49,23 @@ Additionally, click **Collect Logs** from the top right hand corner of the **Act
 
 Check the **Device Details** panel to view the device IP, Storage usage, firmware version and the player uptime for your device.
 
-![](assets/chlimage_1-55.png)
+![chlimage_1-55](assets/chlimage_1-55.png)
 
 Additionally, click **Clear cache** and **Update** to clear the cache of your device and update the [firmware](screens-glossary.md) version respectively from this panel.
 
 Also, click the **...** from the top right corner of the **Device Details** panel to restart or refresh the status of your player.
 
-![](assets/chlimage_1-56.png) 
+![chlimage_1-56](assets/chlimage_1-56.png) 
 
 ### Update Device Information {#update-device-information}
 
 Check the **DEVICE INFORMATION** panel to view the configuration update, device, platform, version, and the diplay associated with the device.
 
-![](assets/chlimage_1-57.png)
+![chlimage_1-57](assets/chlimage_1-57.png)
 
 Additionally, click the (**...**) from the top right corner of the Device Information panel to view properties or update the device.
 
-![](assets/chlimage_1-58.png)
+![chlimage_1-58](assets/chlimage_1-58.png)
 
 Click **Properties** to view the **Device Properties** dialog box. You can edit the device title or choose the option for configuration updates as **Manual** or **Automatic**.
 
@@ -73,7 +73,7 @@ Click **Properties** to view the **Device Properties** dialog box. You can edit 
 >
 >To learn more about the events associated with device's automatic or manual updates, see the section ***Automatic versus Manual Updates from the Device Dashboard*** in [Managing Channels](managing-channels.md).
 
-![](assets/chlimage_1-59.png) 
+![chlimage_1-59](assets/chlimage_1-59.png) 
 
 ### View Player Screenshot {#view-player-screenshot}
 
@@ -81,7 +81,7 @@ You can view the player screenshot from the device from the **PLAYER SCREENSHOT 
 
 Click (**...**) on the top right corner of the Player Screenshot panel and select **Refresh Screenshot **to view the snapshot of the running player.
 
-![](assets/chlimage_1-60.png) 
+![chlimage_1-60](assets/chlimage_1-60.png) 
 
 ### Manage Preferences {#manage-preferences}
 
@@ -91,11 +91,11 @@ The **PREFERENCES** panel allows the user to change preferences for **Admin UI**
 >
 >To learn more on these option, See [AEM Screens Player](working-with-screens-player.md).
 
-![](assets/chlimage_1-61.png)
+![chlimage_1-61](assets/chlimage_1-61.png)
 
 Additionally, click **View Preferences** from the top right corner to update the server URL and the resolution.
 
-![](assets/chlimage_1-62.png) 
+![chlimage_1-62](assets/chlimage_1-62.png) 
 
 ## Troubleshoot OSGI Settings {#troubleshoot-osgi-settings}
 
@@ -109,7 +109,7 @@ Follow the steps below to enable the Apache Sling Referrer Filter Allow Empty
 1. Check the **allow.empty **option.
 1. Click **Save**.
 
-![](assets/chlimage_1-63.png) 
+![chlimage_1-63](assets/chlimage_1-63.png) 
 
 ### Recommendations {#recommendations}
 

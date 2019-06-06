@@ -17,23 +17,23 @@ Adobe Experience Manager (AEM) Assets fetches usage data around AEM assets used 
 
 1. From the **Navigation** page, click the **Tools** icon.
 
-   ![](assets/chlimage_1-209.png)
+   ![chlimage_1-209](assets/chlimage_1-209.png)
 
 1. From the rail, click **Assets**. 
 
-   ![](assets/chlimage_1-210.png)
+   ![chlimage_1-210](assets/chlimage_1-210.png)
 
 1. From the **Navigation** page, click the **Insights Configuration** card.
 1. In the wizard, select a data center and provide your credentials including the name of your organization, user name, and password.
 
-   ![](assets/chlimage_1-211.png)
+   ![chlimage_1-211](assets/chlimage_1-211.png)
 
 1. Click/tap **Authenticate**.
 1. After AEM authenticates your credentials, from the **Report Suite** list, choose an Adobe Analytics report suite from where you want Asset Insights to fetch data. Click **Add**.
 1. After AEM sets up your report suite, click/tap **Next** on the top right. 
 1. In the **Preferences** screen, define events and corresponding variables for the clicks and impressions data you want capture for assets.
 
-   ![](assets/chlimage_1-212.png)
+   ![chlimage_1-212](assets/chlimage_1-212.png)
 
 1. Click/tap **Done** and then click/tap **Ok** to close the confirmation message.
 
@@ -43,11 +43,11 @@ After you configure your Analytics account, the Page Tracker code is generated f
 
 1. From the **Navigation** page, click the **Tools** icon.
 
-   ![](assets/chlimage_1-213.png)
+   ![chlimage_1-213](assets/chlimage_1-213.png)
 
 1. From the rail, click **Assets**.
 
-   ![](assets/chlimage_1-214.png)
+   ![chlimage_1-214](assets/chlimage_1-214.png)
 
 1. From the **Navigation** page, click the **Insights Page Tracker** card.
 1. Click the **Download** icon to download the page tracker code.

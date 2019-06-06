@@ -296,7 +296,7 @@ Add components that are enabled for tracking with the Adobe Analytics to Sidekic
 
 1. In the Link Tracking Configuration area, click Configure Inheritance.
 
-   ![](assets/chlimage_1.png)
+   ![chlimage_1](assets/chlimage_1.png)
 
 1. In the Allowed Components list, select topnav (tracking) in the General section, then click OK.
 1. Expand Sidekick to enter edit mode. The component is now available in the General group.
@@ -305,7 +305,7 @@ Add components that are enabled for tracking with the Adobe Analytics to Sidekic
 
 Drag the topnav component to your Adobe Analytics framework and map the component variables and events to Adobe Analytics variables and events. (See [Setting Up a Framework For Basic Tracking](/help/sites-administering/adobeanalytics-connect.md).)
 
-![](assets/chlimage_1-1.png)
+![chlimage_1-1](assets/chlimage_1-1.png)
 
 The topnav component is now integrated with the Adobe Analytics framework. When you add the component to a page, clicking the items in the top navigation bar causes tracking data to be sent to Adobe Analytics.
 

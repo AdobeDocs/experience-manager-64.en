@@ -50,5 +50,5 @@ Each component is extended with the capabilities of the [ `ModelProvider`](/help
 1. This model is then passed to the front-end root [Container](/help/sites-developing/spa-blueprint.md#container) component of the application. 
 1. Pieces of the model are finally propagated to each individual child component.
 
-![](assets/app_model_initialization.png)
+![app_model_initialization](assets/app_model_initialization.png)
 

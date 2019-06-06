@@ -15,7 +15,7 @@ discoiquuid: 5fca5401-502d-483b-bfc1-ef53e2c041b7
 
 By default, the ability to switch to the classic UI from the editor has been disabled.
 
-![](assets/chlimage_1-9.png)
+![chlimage_1-9](assets/chlimage_1-9.png)
 
 To re-enable the option **Open in Classic UI** in the **Page Information** menu, follow these steps.
 
@@ -37,5 +37,5 @@ To re-enable the option **Open in Classic UI** in the **Page Information** menu,
 
 1. The **Open in Classic UI** option is again available in the **Page Information** menu when editing pages.
 
-   ![](assets/chlimage_1-10.png)
+   ![chlimage_1-10](assets/chlimage_1-10.png)
 

@@ -18,7 +18,7 @@ On author, to access the Communities tools console:
 
 * from global navigation: **Tools, Communities**
 
-![](assets/chlimage_1-129.png)
+![chlimage_1-129](assets/chlimage_1-129.png)
 
 * [Site Templates](/help/communities/sites.md) - console for site template creation and management
 * [Group Templates](/help/communities/tools-groups.md)- console for group template creation and management

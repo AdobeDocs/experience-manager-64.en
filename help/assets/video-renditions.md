@@ -25,11 +25,11 @@ AEM assets provide playback support for these renditions on the client side.
 
 To view the renditions of a particular video asset, open its asset page, and click/tap the GlobalNav icon. Then, choose **Renditions** from the list.
 
-![](assets/chlimage_1-478.png)
+![chlimage_1-478](assets/chlimage_1-478.png)
 
 The list of video renditions are displayed in the** Renditions** panel. 
 
-![](assets/chlimage_1-479.png)
+![chlimage_1-479](assets/chlimage_1-479.png)
 
 To configure the proxy server for DM-encoded renditions, [configure Dynamic Media Cloud services.](config-dynamic.md)
 

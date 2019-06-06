@@ -131,11 +131,11 @@ This scenario shows how you can add a custom property to all the asset types and
        |text|String|This is the value of the drop-down option that is visible to the user. Keep it blank for the blank (default) value or enter the value, such as **International** or **Within US**.|
        |value|String|Value stored in CRXDE for the text. Enter any unique keyword.|
 
-       ![](assets/customizationdropdownvaluescrxde.png)
+       ![customizationdropdownvaluescrxde](assets/customizationdropdownvaluescrxde.png)
 
 The custom drop-down appears as the following in asset properties:
 
-![](assets/drop-down_customization.png) 
+![drop-down_customization](assets/drop-down_customization.png) 
 
 ### Scenario: Common tab for all asset types {#scenario-common-tab-for-all-asset-types}
 
@@ -482,7 +482,7 @@ By default, the custom properties added to new tabs are visible only on the prop
    </tbody> 
    </table>
 
-   ![](assets/customfieldappearinginmainproperties.png)
+   ![customfieldappearinginmainproperties](assets/customfieldappearinginmainproperties.png)
 
    Custom property, Language, appearing in the UI for creating a letter
 
@@ -618,7 +618,7 @@ Complete the following steps to display the custom property in the Correspondenc
 
    For example, using the Scenario: Adding custom properties for specific asset types you add a custom property to text assets, you can enter custom properties to text assets only. If, however, you display that custom property in the UI, the column appears for all asset types. 
 
-   ![](assets/custompropertyinlistview.png)
+   ![custompropertyinlistview](assets/custompropertyinlistview.png)
 
 1. (Optional) By default the new column appears as the last column in the UI. To make the column appear at a specific position, add the following property to the column node:
 

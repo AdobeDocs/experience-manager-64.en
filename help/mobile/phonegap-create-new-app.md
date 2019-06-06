@@ -49,15 +49,15 @@ Steps to creating a new app based on an app template:
 1. Navigate to the AEM Mobile app catalog: &lt;*server-url*&gt;aem/apps.html/content/mobileapps
 1. Select **Create** and then choose **App** as shown below
 
-![](assets/chlimage_1-158.png)
+![chlimage_1-158](assets/chlimage_1-158.png)
 
 Select an app template made available to you by an AEM developer. See [Structure of an AEM Mobile App](/help/mobile/phonegap-structure-an-app.md) for developer assistance.
 
-![](assets/chlimage_1-159.png)
+![chlimage_1-159](assets/chlimage_1-159.png)
 
 Fill out your new app's details as needed including optionally changing its thumbnail image. These values can be edited later from the **Manage App** tile.
 
-![](assets/chlimage_1-160.png) 
+![chlimage_1-160](assets/chlimage_1-160.png) 
 
 ## The Next Steps {#the-next-steps}
 

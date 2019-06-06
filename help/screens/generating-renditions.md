@@ -29,35 +29,35 @@ Follow the steps below to automatically generate full HD renditions:
 
    Click **Models** to enter the workflow models management.
 
-   ![](assets/screen_shot_2018-02-01at123407pm.png)
+   ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
 1. Select the **DAM Update Asset **model and click Edit from the action bar to open the **DAM Update Asset **window.
 
-   ![](assets/step5_-_edit_thedamupdateassetmodel.png)
+   ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
 1. Double-click the **FFmpeg transcoding** step.
 
-   ![](assets/screen_shot_2018-02-01at124454pm.png)
+   ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
 1. Select the **Process** tab to edit the process arguments. Enter the full HD profiles to the list in **Arguments** as: ***,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
 
-   ![](assets/screen_shot_2018-02-02at103340am.png)
+   ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
 1. Click **Save **on the top left of the **DAM Update Asset **screen.
 
-   ![](assets/screen_shot_2018-02-02at101830am.png)
+   ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
 1. Navigate to **Assets** and upload a new video. Click the video and open the Renditions side rail and you will notice the two full HD videos.
 
-   ![](assets/step10_-_open_thevideoasset.png)
+   ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
 1. Open **Renditions** from the side rail.
 
-   ![](assets/step11_-_open_therenditionssiderail.png)
+   ![step11_-_open_therenditionssiderail](assets/step11_-_open_therenditionssiderail.png)
 
 1. You will notice two new full HD renditions.
 
-   ![](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
+   ![step12_-_2_new_renditionsareaddedtothevideo](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
 ## Manually Generating Full HD Renditions {#manually-generating-full-hd-renditions}
 
@@ -67,21 +67,21 @@ Follow the steps below to manually generate full HD renditions:
 
    Click **Models** to enter the workflow models management.
 
-   ![](assets/screen_shot_2018-02-01at123407pm-1.png)
+   ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
 1. Select the **Screens Update Asset **model, and click the **Start Workflow** to open the **Run Workflow** dialog box.
 
-   ![](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
+   ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
 1. Select the desired video in the **Payload** and click the **Run**.
 
-   ![](assets/step6_-_select_thedesiredvideo.png)
+   ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
 1. Navigate to **Assets**, drill down to your asset, and click it.
 
-   ![](assets/step7_-_open_thevideoasset.png)
+   ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
 1. Open the **Renditions** side rail and you will notice the new full HD renditions.
 
-   ![](assets/step8_-_open_therenditionssiderail.png)
+   ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
 

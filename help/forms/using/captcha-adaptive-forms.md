@@ -25,7 +25,7 @@ AEM Forms supports CAPTCHA in adaptive forms. You can use reCAPTCHA service by G
 
 Form authors can use the reCAPTCHA service by Google to implement CAPTCHA in adaptive forms. It offers advanced CAPTCHA capabilities to protect your site. For more information on how reCAPTCHA works, see [Google reCAPTCHA](https://developers.google.com/recaptcha/).
 
-![](assets/recaptcha.png)
+![recaptcha](assets/recaptcha.png)
 
 To implement the reCAPTCHA service in AEM Forms:
 
@@ -45,7 +45,7 @@ To implement the reCAPTCHA service in AEM Forms:
 
 1. Configure the cloud service for reCAPTCHA.
 
-    1. On your AEM author instance, go to ![](assets/tools.png)** &gt;  Cloud Services**.
+    1. On your AEM author instance, go to ![tools](assets/tools.png)** &gt;  Cloud Services**.
     1. Tap **[!UICONTROL reCAPTCHA]**. The Configurations page opens. Select the configuration container created in the previous step and tap **[!UICONTROL Create]**.
     1. Specify Name, Site key, and Secret Key for reCAPTCHA service and tap **[!UICONTROL Create]** to create the cloud service configuration.
     1. In the Edit Component dialog, specify the site and secret keys obtained in step 1. Tap **Save Settings** and then tap **OK** to complete the configuration.
@@ -72,7 +72,7 @@ To use CAPTCHA in adaptive forms:
    >
    >Captcha is time-sensitive and expires in about a minute. Therefore, it is recommended to place the Captcha component just before the Submit button in the adaptive form.
 
-1. Select the Captcha component you added and tap ![](assets/cmppr.png) to edit its properties.
+1. Select the Captcha component you added and tap ![cmppr](assets/cmppr.png) to edit its properties.
 1. Specify a title for the CAPTCHA widget. The default value is **Captcha**. Select **Hide title** if you do not want title to appear.
 1. From the **Captcha service** drop-down, select **reCaptcha** to enable reCAPTCHA service if you configured it as described in [ReCAPTCHA service by Google](#google-recaptcha). Select a configuration from the Settings drop-down. Also, select the size as **Normal** or **Compact** for the reCAPTCHA widget.
 

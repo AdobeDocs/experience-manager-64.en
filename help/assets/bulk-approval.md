@@ -28,7 +28,7 @@ After the reviewer completes the review (approves or rejects assets), you receiv
 1. From the Assets user interface, select the folder for which you want to create a review task.
 1. From the toolbar, tap/click the **Create Review Task** icon to open the **Review Task** page. If you cannot see the icon in the toolbar, tap/click **More** and then select the icon.
 
-   ![](assets/chlimage_1-403.png)
+   ![chlimage_1-403](assets/chlimage_1-403.png)
 
 1. (Optional) From the **Project** list, select the project to which you want to associate the review task. By default, the **(None)** option is selected. If you do not want to associate any project with the review task, retain this selection.
 
@@ -44,39 +44,39 @@ After the reviewer completes the review (approves or rejects assets), you receiv
 
 1. Enter a description, the task priority, and the due date for the review task.
 
-   ![](assets/task_details.png)
+   ![task_details](assets/task_details.png)
 
 1. In the Advanced tab, enter a label to be used to create the URI. 
 
-   ![](assets/review_name.png)
+   ![review_name](assets/review_name.png)
 
 1. Tap/click **Submit**, and then tap/click **Done** to close the confirmation message. A notification for the new task is sent to the approver.
 1. Log in to AEM Assets as an Approver and navigate to the Assets UI. To approve assets, click/tap the **Notifications** icon and then select the review task from the list.
 
-   ![](assets/notification.png)
+   ![notification](assets/notification.png)
 
 1. In the **Review Task** page, examine the details of the review task, and then tap/click **Review**.
 1. In the **Review Task** page, select assets, and tap/click the **Approve**/**Reject** icon to approve or reject, as appropriate.
 
-   ![](assets/review_task.png)
+   ![review_task](assets/review_task.png)
 
 1. Tap/click the **Complete** icon from the toolbar. In the dialog, enter a comment and tap/click **Complete **to confirm.
 1. Navigate to the Assets UI, and open the folder. The approval status icons for the assets appear in both the Card and List views.
 
    **Card view**
 
-   ![](assets/chlimage_1-404.png)
+   ![chlimage_1-404](assets/chlimage_1-404.png)
 
    **List view**
 
-   ![](assets/review_status_listview.png)
+   ![review_status_listview](assets/review_status_listview.png)
 
 ## Creating a review task for collections {#creating-a-review-task-for-collections}
 
 1. From the Collections page, select the collection for which you want to create a review task.
 1. From the toolbar, tap/click the **Create Review Task** icon to open the **Review Task** page. If you cannot see the icon in the toolbar, tap/click **More** and then select the icon.
 
-   ![](assets/chlimage_1-405.png)
+   ![chlimage_1-405](assets/chlimage_1-405.png)
 
 1. (Optional) From the **Project** list, select the project to which you want to associate the review task. By default, the **(None)** option is selected. If you do not want to associate any project with the review task, retain this selection.
 
@@ -92,23 +92,23 @@ After the reviewer completes the review (approves or rejects assets), you receiv
 
 1. Enter a description, the task priority, and the due date for the review task.
 
-   ![](assets/task_details-collection.png)
+   ![task_details-collection](assets/task_details-collection.png)
 
 1. Tap/click **Submit**, and then tap/click **Done** to close the confirmation message. A notification for the new task is sent to the approver.
 1. Log in to AEM Assets as an Approver and navigate to the Assets console. To approve assets, tap/click the **Notifications** icon and then select the review task from the list.
 1. In the **Review Task** page, examine the details of the review task, and then tap/click **Review**.
 1. All the assets in the collection are visible on the review page. Select the assets and tap/click the **Approve**/**Reject** icon to approve or reject assets, as appropriate.
 
-   ![](assets/review_task_collection.png)
+   ![review_task_collection](assets/review_task_collection.png)
 
 1. Tap/click the **Complete** icon from the toolbar. In the dialog, enter a comment and tap/click **Complete **to confirm.
 1. Navigate to the Collections console and open the collection. The approval status icons for the assets appear in both the Card and List views.
 
    **Card view**
 
-   ![](assets/collection_reviewstatuscardview.png)
+   ![collection_reviewstatuscardview](assets/collection_reviewstatuscardview.png)
 
    **List view**
 
-   ![](assets/collection_reviewstatuslistview.png)
+   ![collection_reviewstatuslistview](assets/collection_reviewstatuslistview.png)
 

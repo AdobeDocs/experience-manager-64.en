@@ -53,7 +53,7 @@ On author, to access the Storage Configuration console:
 
 * from global navigation: **Tools, Communities, Storage Configuration**
 
-![](assets/chlimage_1-28.png)
+![chlimage_1-28](assets/chlimage_1-28.png)
 
 * select **MongoDB Storage Resource Provider (MSRP)**
 * **mongoDB Configuration**

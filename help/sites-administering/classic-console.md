@@ -25,7 +25,7 @@ To access the Classic UI Tagging console :
 
   for example, [http://localhost:4502/tagging](http://localhost:4502/tagging)
 
-![](assets/managing_tags_usingthetagasministrationconsole-1.png) 
+![managing_tags_usingthetagasministrationconsole-1](assets/managing_tags_usingthetagasministrationconsole-1.png) 
 
 ## Creating Tags and Namespaces {#creating-tags-and-namespaces}
 
@@ -33,11 +33,11 @@ To access the Classic UI Tagging console :
 
    If you select **Tags** you can create a namespace:
 
-   ![](assets/creating_tags_andnamespaces-1.png)
+   ![creating_tags_andnamespaces-1](assets/creating_tags_andnamespaces-1.png)
 
    If you select a namespace (for example **Demo**) you can create a tag within that namespace:
 
-   ![](assets/creating_tags_andnamespacesinnewnamespace.png)
+   ![creating_tags_andnamespacesinnewnamespace](assets/creating_tags_andnamespacesinnewnamespace.png)
 
 1. In both cases enter
 
@@ -85,7 +85,7 @@ To access the Classic UI Tagging console :
 
 **List** opens a new window showing the paths of all pages using the highlighted tag:
 
-![](assets/list_showing_wheretagsarereferenced.png) 
+![list_showing_wheretagsarereferenced](assets/list_showing_wheretagsarereferenced.png) 
 
 ## Moving Tags {#moving-tags}
 
@@ -102,7 +102,7 @@ To help tags administrators and developers clean up the taxonomy or rename a tag
 
 The **Move Tag** dialog looks as follows:
 
-![](assets/move_tag.png)
+![move_tag](assets/move_tag.png)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ To merge a tag into another one:
 
 The **Merge Tag** dialog looks as follows:
 
-![](assets/mergetag.png) 
+![mergetag](assets/mergetag.png) 
 
 ## Counting Usage of Tags {#counting-usage-of-tags}
 
@@ -153,7 +153,7 @@ The following procedure shows how to translate the `title`of the tag **Animals**
 
 The dialog looks as follows:
 
-![](assets/edit_tag.png)
+![edit_tag](assets/edit_tag.png)
 
 The Tagging console uses the user language setting, so for the Animal tag, 'Animaux' is displayed for a user who sets the language to French in user properties.
 
@@ -170,11 +170,11 @@ By default the tag `titles`in the page properties are displayed in the page lang
 
    Select the **Animals** (**Animaux**) tag and select outside the dialog to close it and add the tag to the page properties.
 
-   ![](assets/french_tag.png)
+   ![french_tag](assets/french_tag.png)
 
 By default, the Page Properties dialog displays the tag `titles`according to the page language.
 
-In general, the language of the tag is taken from the page language if the page language is available. When the [ `tag` widget](/help/sites-developing/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
+In general, the language of the tag is taken from the page language if the page language is available. When the [tag widget](/help/sites-developing/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
 
 >[!NOTE]
 >

@@ -40,13 +40,13 @@ Once you configure Spaces in dashboard, follow these steps to create Spaces:
 
 1. Choose **Spaces** from Content Services.
 
-   ![](assets/chlimage_1-83.png)
+   ![chlimage_1-83](assets/chlimage_1-83.png)
 
 1. Choose **Create** to create a space. Enter **Title**, **Name**, and **Description** for the space.
 
    Click **Create**.
 
-   ![](assets/chlimage_1-84.png)
+   ![chlimage_1-84](assets/chlimage_1-84.png)
 
 ## Managing a Space {#managing-a-space}
 
@@ -54,7 +54,7 @@ Once you create a space, click on the left to manage the space in the list.
 
 You can view properties of the space, delete the space, or publish the space and its contents to an AEM publish instance.
 
-![](assets/chlimage_1-85.png)
+![chlimage_1-85](assets/chlimage_1-85.png)
 
 **Viewing and Editing Properties of a Space**
 
@@ -73,7 +73,7 @@ You can view properties of the space, delete the space, or publish the space and
 >
 >The following image illustrates the actions that can be performed, after you publish the space.
 
-![](assets/chlimage_1-86.png)
+![chlimage_1-86](assets/chlimage_1-86.png)
 
 ## Working with Folders in a Space {#working-with-folders-in-a-space}
 
@@ -83,11 +83,11 @@ Spaces can include folders to help further organize space's content and assets. 
 
 1. Click on the space in the list in the space console and click **Create Folder**
 
-   ![](assets/chlimage_1-87.png)
+   ![chlimage_1-87](assets/chlimage_1-87.png)
 
 1. Enter the **Title**, **Name,** and **Description** for the folder
 
-   ![](assets/chlimage_1-88.png)
+   ![chlimage_1-88](assets/chlimage_1-88.png)
 
 1. Click **Create **to create the folder in a space
 
@@ -109,7 +109,7 @@ The **Language Copy** feature allows authors to copy their master Language Copy 
 
    Click **Create** and choose **Language Copy**.
 
-   ![](assets/chlimage_1-89.png)
+   ![chlimage_1-89](assets/chlimage_1-89.png)
 
    >[!NOTE]
    >
@@ -119,11 +119,11 @@ The **Language Copy** feature allows authors to copy their master Language Copy 
 
    Click **Create**.
 
-   ![](assets/chlimage_1-90.png)
+   ![chlimage_1-90](assets/chlimage_1-90.png)
 
 1. Once you create a Language Copy, it appears in your space in **Language Masters**.
 
-   ![](assets/chlimage_1-91.png)
+   ![chlimage_1-91](assets/chlimage_1-91.png)
 
    >[!NOTE]
    >
@@ -156,11 +156,11 @@ If entity children, which are other entities, are gathered for data modeling, th
 
    Optionally, you can navigate to the folder by clicking on the title of the folder in the list.
 
-   ![](assets/chlimage_1-92.png)
+   ![chlimage_1-92](assets/chlimage_1-92.png)
 
 1. Choose the model for the entity. This is the type of entity that you want to create. Click Next.
 
-   ![](assets/chlimage_1-93.png)
+   ![chlimage_1-93](assets/chlimage_1-93.png)
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ If entity children, which are other entities, are gathered for data modeling, th
 
 1. Enter a **Title**,** Name**, **Description**, and** Tags** for the entity. Click **Create**.
 
-   ![](assets/chlimage_1-94.png)
+   ![chlimage_1-94](assets/chlimage_1-94.png)
 
    Once you are done, the entity appears in your space's descendants.
 
@@ -178,11 +178,11 @@ If entity children, which are other entities, are gathered for data modeling, th
 
 1. Once you have created an entity, go to your folder or space and choose your entity from the Space console to edit.
 
-   ![](assets/chlimage_1-95.png)
+   ![chlimage_1-95](assets/chlimage_1-95.png)
 
 1. Select an entity for editing and click **Edit**.
 
-   ![](assets/chlimage_1-96.png)
+   ![chlimage_1-96](assets/chlimage_1-96.png)
 
    >[!CAUTION]
    >
@@ -190,25 +190,25 @@ If entity children, which are other entities, are gathered for data modeling, th
 
    ***If you choose the template for creating the entity as Assets Models***, clicking on **Edit** allows you to add assets as shown in the figure below:
 
-   ![](assets/chlimage_1-97.png)
+   ![chlimage_1-97](assets/chlimage_1-97.png)
 
    Alternatively, you can click on **Preview** to view the json link.
 
-   ![](assets/chlimage_1-98.png)
+   ![chlimage_1-98](assets/chlimage_1-98.png)
 
    ***If you choose the template for creating the entity as Pages Models***, clicking on **Edit** allows you to add assets as shown in the figure below:
 
-   ![](assets/chlimage_1-99.png)
+   ![chlimage_1-99](assets/chlimage_1-99.png)
 
    Click on the icon in the **Path** to add an asset
 
-   ![](assets/chlimage_1-100.png)
+   ![chlimage_1-100](assets/chlimage_1-100.png)
 
    >[!NOTE]
    >
    >Once you add an entity, it must be saved for the Preview link to work. To view the preview, click **Save**. Clicking on the **Preview** shows the json of the added asset, as shown in the figure below:
 
-   ![](assets/chlimage_1-101.png)
+   ![chlimage_1-101](assets/chlimage_1-101.png)
 
    >[!NOTE]
    >
@@ -216,17 +216,17 @@ If entity children, which are other entities, are gathered for data modeling, th
 
    Additionally, select an entity from the space console list and click on **Properties** to view and edit the properties for a defined entity.
 
-   ![](assets/chlimage_1-102.png)
+   ![chlimage_1-102](assets/chlimage_1-102.png)
 
    You can edit the title, description, tags and add the assets to your entity. 
 
-   ![](assets/chlimage_1-103.png)
+   ![chlimage_1-103](assets/chlimage_1-103.png)
 
 ### Removing an Entity {#removing-an-entity}
 
 1. Select the entity from the list of space contents
 
-   ![](assets/chlimage_1-104.png)
+   ![chlimage_1-104](assets/chlimage_1-104.png)
 
 1. Click **Delete** from the toolbar to remove the specific entity from the space
 
@@ -236,7 +236,7 @@ You have the option of choosing **Publish Tree** or **Quick Publish** to publish
 
 1. Select an entity from the space console list and click **Publish Tree **to publish that entity and its children.
 
-   ![](assets/chlimage_1-105.png)
+   ![chlimage_1-105](assets/chlimage_1-105.png)
 
    **Or**,
 

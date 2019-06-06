@@ -17,7 +17,7 @@ This page describes device assignment.
 
 The Devices console allows you to access the device manager to assign your device to a display.
 
-![](assets/chlimage_1-31.png)
+![chlimage_1-31](assets/chlimage_1-31.png)
 
 >[!CAUTION]
 >
@@ -31,31 +31,31 @@ Follow the steps below to assign a device to a display:
 
    [http://localhost:4502/screens.html/content/screens/TestProject](http://localhost:4502/screens.html/content/screens/TestProject)
 
-   ![](assets/chlimage_1-32.png)
+   ![chlimage_1-32](assets/chlimage_1-32.png)
 
 1. Select your **Devices** folder and tap/click **Device Manager** in the action bar. The assigned and unassigned devices display.
 
-   ![](assets/chlimage_1-33.png)
+   ![chlimage_1-33](assets/chlimage_1-33.png)
 
 1. Select an unassigned device from the list, and tap/click the **Assign Device** in the action bar.
 
-   ![](assets/chlimage_1-34.png)
+   ![chlimage_1-34](assets/chlimage_1-34.png)
 
 1. Select the display you want to assign the device to from the list, and tap/click the **Assign**.
 
-   ![](assets/chlimage_1-35.png)
+   ![chlimage_1-35](assets/chlimage_1-35.png)
 
 1. Tap/click the **Finish** to complete the assignment process.
 
-   ![](assets/chlimage_1-36.png)
+   ![chlimage_1-36](assets/chlimage_1-36.png)
 
    The display dashboard displays the assigned device in the **DEVICES** panel.
 
-   ![](assets/chlimage_1-37.png)
+   ![chlimage_1-37](assets/chlimage_1-37.png)
 
    Click the (**...**) on the top right corner of the **DEVICES** panel to either add device config or update the devices.
 
-   ![](assets/chlimage_1-38.png)
+   ![chlimage_1-38](assets/chlimage_1-38.png)
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Follow the steps below to assign a device to a display:
 >For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.  
 >This group will be added as a member of the **Contributors** group, as shown in the figure below:
 
-![](assets/chlimage_1-39.png)
+![chlimage_1-39](assets/chlimage_1-39.png)
 
 ### The Next Steps {#the-next-steps}
 

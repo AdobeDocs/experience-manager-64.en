@@ -50,10 +50,10 @@ Such snippets enable data to be collected and reports generated. The actual data
 >[!CAUTION]
 >
 >The Geometrixx-Outdoors demo site is configured so that the attributes provided in the Page Properties are appended to the html source code (just above the `</html>` endtag) in the corresponding `js` script.  
-
+>
 >
 >If your own `/apps` do not inherit from the default page component ( `/libs/foundation/components/page`) you (or your developers) have to make sure that the corresponding `js` scripts are included, for example by either including `cq/cloudserviceconfigs/components/servicescomponents`, or using a similar mechanism.  
-
+>
 >
 >Without this, none of the services (Generic, Analytics, Target, etc) will work.
 
@@ -67,15 +67,15 @@ For the basic configuration:
 
 1. Double-click on **Generic Analytics Snippet** to open the page:
 
-   ![](assets/analytics_genericoverview.png)
+   ![analytics_genericoverview](assets/analytics_genericoverview.png)
 
 1. Click on the + to add a new configuration using the dialog; at a minimum assign a name, for example google analytics:
 
-   ![](assets/analytics_addconfig.png)
+   ![analytics_addconfig](assets/analytics_addconfig.png)
 
 1. Click **Create**, the snippet dialog will open immediately - paste the appropriate javascript snippet into the field:
 
-   ![](assets/analytics_snippet.png)
+   ![analytics_snippet](assets/analytics_snippet.png)
 
 1. Click **OK** to save.
 
@@ -89,13 +89,13 @@ Having created the service configuration you now need configure the required pag
 
 1. Click **Add Service**, then select the required service; for example the **Generic Analytics Snippet**:
 
-   ![](assets/analytics_selectservice.png)
+   ![analytics_selectservice](assets/analytics_selectservice.png)
 
 1. Click **OK** to save.  
 
 1. You will be returned to the **Cloud Services** tab. The **Generic Analytics Snippet** is now listed with the message `Configuration reference missing`. Use the drop down list to select your specific service instance; for example google-analytics:
 
-   ![](assets/analytics_selectspecificservice.png)
+   ![analytics_selectspecificservice](assets/analytics_selectspecificservice.png)
 
 1. Click **OK** to save.
 

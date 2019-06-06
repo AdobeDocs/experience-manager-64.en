@@ -26,7 +26,7 @@ The Properties page for assets now includes separate tabs to display the IPTC Co
 1. In the Properties page, click/tap the **IPTC** tab to view IPTC metadata for the asset.
 1. Edit the IPTC metadata properties, as necessary.
 
-   ![](assets/iptc_tab.png)
+   ![iptc_tab](assets/iptc_tab.png)
 
 1. Click/tap the **IPTC Extension** tab to view IPTC Extension metadata for the asset.
 1. Edit the ITPC Extension metadata properties, as necessary.
@@ -46,5 +46,5 @@ However, this property is currently not indexed to avoid any conflict with custo
 
 The **IPTC** tab of the Properties page also displays keywords added to assets through Adobe Bridge and other Creative Apps. You can also edit these keywords and add more keywords from the **IPTC** tab.
 
-![](assets/keywords.png)
+![keywords](assets/keywords.png)
 

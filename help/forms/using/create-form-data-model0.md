@@ -13,7 +13,7 @@ discoiquuid: ef873c07-be89-4cd0-8913-65765b989f90
 
 Create form data model for Interactive Communication
 
- ![](assets/04-create-form-data-model-main.png)
+ ![04-create-form-data-model-main](assets/04-create-form-data-model-main.png)
 
 This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
@@ -33,7 +33,7 @@ This tutorial walks you through the steps to prepare, create, configure, and ass
 
 The form data model looks similar to the following:
 
-![](assets/form_data_model_callouts.png)
+![form_data_model_callouts](assets/form_data_model_callouts.png)
 
 **A.** Configured data sources **B.** Data source schemas **C.** Available services **D.** Data model objects **E.** Configured services
 
@@ -49,7 +49,7 @@ Before you begin, ensure that you have the following:
 A database is essential to create an Interactive Communication. This tutorial uses a database to display Form Data Model and persistence capabilities of Interactive Communications. Set up a database containing customer, bills, and calls tables.  
 The following image illustrates sample data for the customer table:
 
-![](assets/sample_data_cust.png)
+![sample_data_cust](assets/sample_data_cust.png)
 
 The calls table includes the call details such as call date, call time, call number, call duration, and call charges. The customer table is linked to the calls table using the Mobile Number (mobilenum) field. For each mobile number listed in the customer table, there are multiple records in the calls table. For example, you can retrieve the call details for the **1457892541** mobile number by referring to the calls table.
 
@@ -88,7 +88,7 @@ Do the following to configure your MySQL database:
 
    A configuration similar to the following is created.
 
-   ![](assets/apache_configuration.png)
+   ![apache_configuration](assets/apache_configuration.png)
 
 ## Step 3: Create form data model {#step-create-form-data-model}
 
@@ -101,7 +101,7 @@ Do the following to create form data model:
 1. In the Create Form Data Model wizard, specify a **name **for the form data model. For example, **FDM_Create_First_IC**. Tap **Next**.
 1. The select datasource screen lists all configured data sources. Select **MySQL** data source and tap **Create**.
 
-   ![](assets/fdm_mysql_data_source.png)
+   ![fdm_mysql_data_source](assets/fdm_mysql_data_source.png)
 
 1. Click **Done**. The **FDM_Create_First_IC** form data model is created.
 
@@ -122,7 +122,7 @@ Configuring form data model includes:
 
    The selected data source **MySQL** is displayed in the **Data Sources** pane.
 
-   ![](assets/mysql_fdm.png)
+   ![mysql_fdm](assets/mysql_fdm.png)
 
 1. Expand the **MySQL** data source tree. Select the following data model objects and services from **teleca** schema:
 
@@ -139,11 +139,11 @@ Configuring form data model includes:
 
    Tap **Add Selected** to add selected data model objects and services to the form data model.
 
-   ![](assets/select_data_model_objs_services.png)
+   ![select_data_model_objs_services](assets/select_data_model_objs_services.png)
 
    The bills, calls, and customer data model objects are displayed in the right pane in the **Model** tab. The get and update services are displayed in the **Services** tab.
 
-   ![](assets/data_model_objects.png)
+   ![data_model_objects](assets/data_model_objects.png)
 
 ### Create computed child properties for data model object {#create-computed-child-properties-for-data-model-object}
 
@@ -164,19 +164,19 @@ Execute the following steps to create computed child properties for bills data m
     1. Enable **Computed**.
     1. Select **Float** as the type and tap **Done** to add the child property to the **bills** data model object.
 
-   ![](assets/create_child_property_float.png)
+   ![create_child_property_float](assets/create_child_property_float.png)
 
 1. Tap **Edit Rule** to open the Rule Editor.
 1. Tap **Create**. The **Set Value** rule window opens.
 1. From the Select Option drop-down, select **Mathematical Expression**.
 
-   ![](assets/usage_charges_rule_editor.png)
+   ![usage_charges_rule_editor](assets/usage_charges_rule_editor.png)
 
 1. In the mathematical expression, select **callcharges** and **confcallcharges** as first and second objects, respectively. Select **plus** as the operator. Tap within the mathematical expression and tap **Extend Expression** to add **smscharges**, **internetcharges**, **roamingnational**, **roamingintnl**, and **vas** objects to the expression.
 
    The following image depicts the mathematical expression in the rule editor:
 
-   ![](assets/usage_charges_rule_all.png)
+   ![usage_charges_rule_all](assets/usage_charges_rule_all.png)
 
 1. Tap **Done**. The rule gets created in the Rule Editor.
 1. Tap **Close** to close the Rule Editor window.
@@ -205,7 +205,7 @@ Perform the following steps to create associations between data model objects:
     * Select **get** from the **Service** drop-down list.
     * Tap **Add** to link the **customer** data model object to **calls** data model object using a property. Based on the use case, the calls data model object must be linked to the mobile number property in the customer data model object. The **Add Argument** dialog box opens.
 
-   ![](assets/add_association.png)
+   ![add_association](assets/add_association.png)
 
 1. In the **Add Argument** dialog box:
 
@@ -218,11 +218,11 @@ Perform the following steps to create associations between data model objects:
     * Select **mobilenum** from the **Binding Value** drop-down list.
     * Tap **Add**.
 
-   ![](assets/add_association_argument.png)
+   ![add_association_argument](assets/add_association_argument.png)
 
    The mobilenum property displays in the **Arguments** section.
 
-   ![](assets/add_argument_association.png)
+   ![add_argument_association](assets/add_argument_association.png)
 
 1. Tap **Done** to create a 1:n association between customer and calls data model objects.
 
@@ -242,11 +242,11 @@ Perform the following steps to create associations between data model objects:
     * Select **customerplan** from the **Binding Value** drop-down list.
     * Tap **Done** to create a binding between the billplan and customerplan properties.
 
-   ![](assets/add_association_customer_bills.png)
+   ![add_association_customer_bills](assets/add_association_customer_bills.png)
 
    The following image depicts the associations between the data model objects and the properties used to create associations between them:
 
-   ![](assets/fdm_associations.gif)
+   ![fdm_associations](assets/fdm_associations.gif)
 
 ### Edit data model object properties {#edit-data-model-object-properties}
 
@@ -268,7 +268,7 @@ After creating associations between the customer and other data model objects, e
 
 1. Tap **Done** to save the properties.
 
-   ![](assets/configure_services_customer.png)
+   ![configure_services_customer](assets/configure_services_customer.png)
 
 1. Select the check box at the top of the **calls** data model object to select it and tap **Edit Properties**. The **Edit Properties** pane opens.
 1. Disable the **Top Level Model object** for **calls** data model object.
@@ -286,7 +286,7 @@ After creating associations between the customer and other data model objects, e
     * Select **customer** from the **Output Model Object** drop-down list.
     * Tap **Done** to save the properties.
 
-   ![](assets/edit_properties_get_details.png)
+   ![edit_properties_get_details](assets/edit_properties_get_details.png)
 
 1. Select the **update** service and tap **Edit Properties**. The **Edit Properties** pane opens.
 1. In the **Edit Properties** pane:
@@ -296,7 +296,7 @@ After creating associations between the customer and other data model objects, e
     * Tap **Done**.
     * Tap **Save** to save the form data model.
 
-   ![](assets/update_service_properties.png)
+   ![update_service_properties](assets/update_service_properties.png)
 
 ## Step 5: Test form data model and services {#step-test-form-data-model-and-services}
 
@@ -310,7 +310,7 @@ Do the following to run the test:
 
    The customer details associated with the specified mobilenum property are fetched and displayed in the Output section as shown below. Close the dialog box.
 
-   ![](assets/test_data_model.png)
+   ![test_data_model](assets/test_data_model.png)
 
 1. Go to the **Services** tab.
 1. Select the **get** service and tap **Test Service.**
@@ -318,7 +318,7 @@ Do the following to run the test:
 
    The customer details associated with the specified mobilenum property are fetched and displayed in the Output section as shown below. Close the dialog box.
 
-   ![](assets/test_service.png)
+   ![test_service](assets/test_service.png)
 
 ### Edit and save sample data {#edit-and-save-sample-data}
 
@@ -328,7 +328,7 @@ Do the following to generate, edit, and save sample data:
 
 1. On the form data model page, tap **Edit Sample Data**. It generates and displays the sample data in Edit Sample Data window.
 
-   ![](assets/edit_sample_data.png)
+   ![edit_sample_data](assets/edit_sample_data.png)
 
 1. In **Edit Sample Data** window, edit data, as required, and tap **Save**. Close the window.
 

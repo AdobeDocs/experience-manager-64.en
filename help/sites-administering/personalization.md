@@ -52,7 +52,7 @@ Personalization can be either:
 
 Personalization can be used in many cases, for example:
 
-** Intranet pages**
+**Intranet pages**
 
 * Content can be proffered based on the location, department, and/or role of a user - already defined within an internal network.
 * Dependent on the choice available, the user can make further selections.

@@ -88,7 +88,7 @@ If you do not need a workflow or versioning for your assets, you should upload y
 
 If you need to update the viewer and encoding presets for video in AEM because the presets have been updated in Dynamic Media Classic, navigate to the Dynamic Media Classic configuration in the cloud configuration and click **Update the viewer and encoding presets**.
 
-![](assets/chlimage_1-131.png) 
+![chlimage_1-131](assets/chlimage_1-131.png) 
 
 ### Uploading your master video {#uploading-your-master-video}
 
@@ -111,7 +111,7 @@ The Dynamic Media Classic video component only works for Dynamic Media Classic v
 
 The following matrix explains when you should use which component:
 
-![](assets/chlimage_1-132.png)
+![chlimage_1-132](assets/chlimage_1-132.png)
 
 >[!NOTE]
 >
@@ -147,11 +147,11 @@ The various video encodings are created according to the Dynamic Media Classic e
 1. In AEM, go to **[!UICONTROL Tools]**, then select **[!UICONTROL Configuration Console]**. In the Configuration Console navigate to **[!UICONTROL Tools]** &gt; **[!UICONTROL Assets]** &gt; **[!UICONTROL Video Profiles]** in the navigation tree. 
 1. Create a new Dynamic Media Classic Video Profile. In the **[!UICONTROL New...]** menu, select **[!UICONTROL Create Page]** and then select the Dynamic Media Classic Video Profile template. Give the new video profile page a name and click **[!UICONTROL Create]**.
 
-   ![](assets/chlimage_1-133.png)
+   ![chlimage_1-133](assets/chlimage_1-133.png)
 
 1. Edit the new video profile. Select the cloud config first. Then select the same encoding preset as selected in the cloud config.
 
-   ![](assets/chlimage_1-134.png) 
+   ![chlimage_1-134](assets/chlimage_1-134.png) 
 
    | Property |Description |
    |---|---|

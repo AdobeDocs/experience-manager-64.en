@@ -603,7 +603,7 @@ Pages created from editable templates:
 
       Provides a reference to the template type.
 
-![](assets/chlimage_1-250.png)
+![chlimage_1-250](assets/chlimage_1-250.png)
 
 The above diagram shows how templates, content, and components interrelate:
 

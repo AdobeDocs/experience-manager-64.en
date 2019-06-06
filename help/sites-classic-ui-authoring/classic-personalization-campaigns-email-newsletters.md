@@ -54,7 +54,7 @@ The **Email Tools** component for ExactTarget can add more email functionality t
 1. Open an email to be published to ExactTarget.
 1. Add the component **ET - Email Tools** to your page using the sidekick. Open the component in Edit mode.
 
-   ![](assets/chlimage_1.gif)
+   ![chlimage_1](assets/chlimage_1.gif)
 
 1. Select an option from the **Options** menu:
 
@@ -114,7 +114,7 @@ You can add personalized fields in an email by adding the **Text and Personaliza
 1. To enable personalization field from your email service, add the framework configuration while configuring the email service. See [configuring Silverpop Engage](/help/sites-administering/silverpop.md) and [configuring Exact Target](/help/sites-administering/exacttarget.md) for more information.
 1. nAdd the component **Text & Personalization** from the sidekick. This component is the part of newsletter group. Open this component in the edit mode.
 
-   ![](assets/chlimage_1-110.png)
+   ![chlimage_1-110](assets/chlimage_1-110.png)
 
 1. Add the required personalized field to the text by selecting the field from the drop-down menu and clicking **Insert**.
 1. Click **OK** to finish.
@@ -128,7 +128,7 @@ To apply your E-mail service configuration to a newsletter:
 1. Open the email/newsletter settings by either clicking **Settings** or by clicking **Page Properties in** the sidekick. 
 1. Click **Add Service** in **Cloud Services** tab. You see the list of services. Select your required configuration - either **ExactTarget** or **Silverpop** - from the list from the drop-down list.
 
-   ![](assets/chlimage_1-5.jpeg)
+   ![chlimage_1-5](assets/chlimage_1-5.jpeg)
 
 1. Click **OK**.
 
@@ -142,7 +142,7 @@ Emails/Newsletters can be published to your E-mail Service by following these st
 1. Fill in the **Newsletter Name** field. The email/newsletter is published to E-mail Service Provider with this name. In case a email name is not provided, then the email is published using the page name of the newsletter in AEM. 
 1. Click **Publish**. 
 
-   ![](assets/chlimage_1-6.jpeg)
+   ![chlimage_1-6](assets/chlimage_1-6.jpeg)
 
    If successful, AEM confirms you can view the email in ExactTarget or Silverpop Engage.
 

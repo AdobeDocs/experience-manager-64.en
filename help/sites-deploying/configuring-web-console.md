@@ -52,7 +52,7 @@ The **Configuration** tab can be accessed by either:
 
 A list of configurations will be shown:
 
-![](assets/screen_shot_2012-02-15at52308pm-1.png)
+![screen_shot_2012-02-15at52308pm-1](assets/screen_shot_2012-02-15at52308pm-1.png)
 
 There are two types of configurations available from the drop down lists on this screen:
 
@@ -71,7 +71,7 @@ There are two types of configurations available from the drop down lists on this
 
 Selecting any entry from the lists will display the parameters related to that configuration:
 
-![](assets/chlimage_1-61.png)
+![chlimage_1-61](assets/chlimage_1-61.png)
 
 You can then update the parameters as required and:
 
@@ -111,7 +111,7 @@ The **Bundles** tab is the mechanism for installing the OSGi bundles required fo
 
 A list of bundles will be shown:
 
-![](assets/screen_shot_2012-02-15at44740pm-1.png)
+![screen_shot_2012-02-15at44740pm-1](assets/screen_shot_2012-02-15at44740pm-1.png)
 
 Using this tab you can:
 
@@ -163,11 +163,11 @@ The **Components** tab allows you to Enable and/or Disable the various component
 
 A list of components will be shown. Various icons are available to enable you to enable, disable or (where appropriate) open configuration details for a specific component.
 
-![](assets/screen_shot_2012-02-15at52144pm-1.png)
+![screen_shot_2012-02-15at52144pm-1](assets/screen_shot_2012-02-15at52144pm-1.png)
 
 Clicking on the name of a particular component will display further information on its status. Here you can also enable, disable or reload the component.
 
-![](assets/chlimage_1-62.png)
+![chlimage_1-62](assets/chlimage_1-62.png)
 
 >[!NOTE]
 >

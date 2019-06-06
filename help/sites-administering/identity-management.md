@@ -54,11 +54,11 @@ A form can be used to collect the registration information, then generate the ne
 For example, users can request a new profile, using the Geometrixx page  
 `http://localhost:4502/content/geometrixx-outdoors/en/user/register.html`
 
-![](assets/registerform.png)
+![registerform](assets/registerform.png)
 
 Upon submitting the request, the profile page opens where the user can provide personal details.
 
-![](assets/profilepage.png)
+![profilepage](assets/profilepage.png)
 
 The new account is also visible in the [Users console](/help/sites-administering/security.md).
 
@@ -72,7 +72,7 @@ For example, users can either log in, or create a new account, using the **Sign 
 
 `http://localhost:4502/content/geometrixx-outdoors/en/user/sign-in.html`
 
-![](assets/login.png) 
+![login](assets/login.png) 
 
 ## Logging Out {#logging-out}
 
@@ -106,7 +106,7 @@ You can view another profile using the [client context](/help/sites-administerin
 1. Click **OK**.
 1. Click again on **My Profile**. The form will be updated with Alison's details.
 
-   ![](assets/profilealison.png)
+   ![profilealison](assets/profilealison.png)
 
 1. You can now use **Edit Profile** or **Change Password** to update the details.
 
@@ -134,11 +134,11 @@ You can add fields to the profile definition. For example to add a "Favorite Col
 
    Next time you view a profile you can select a favorite color:
 
-   ![](assets/aparkerfavcolour.png)
+   ![aparkerfavcolour](assets/aparkerfavcolour.png)
 
    The field will be saved under the **profile** section of the relevant user account:
 
-   ![](assets/aparkercrxdelite.png)
+   ![aparkercrxdelite](assets/aparkercrxdelite.png)
 
 ## Profile States {#profile-states}
 
@@ -186,7 +186,7 @@ Profiles are stored in the Content Repository as part of the the [user account](
 
 The profile can be found under `/home/users/geometrixx`:
 
-![](assets/chlimage_1-385.png)
+![chlimage_1-385](assets/chlimage_1-385.png)
 
 On a standard installation (author or publish) everyone has read access to the entire profile information of all users. everyone is a "*Built-in group automatically containing all existing users and groups. The list of members cannot be edited*".
 
@@ -203,7 +203,7 @@ If such access is not appropriate for your installation you can change these def
 
 This can be done using the **[Access Control](/help/sites-administering/user-group-ac-admin.md#access-right-management)** tab:
 
-![](assets/aclmanager.png)  
+![aclmanager](assets/aclmanager.png)  
 
 ## Profile Components {#profile-components}
 
@@ -218,23 +218,23 @@ This component gives you two fields for:
 
 With default settings the component will appear as follows:
 
-![](assets/dc_profiles_checkedpassword.png) 
+![dc_profiles_checkedpassword](assets/dc_profiles_checkedpassword.png) 
 
 ### Profile Avatar Photo {#profile-avatar-photo}
 
 This component provides the user with a mechanism for selecting and uploading an Avatar Photo file.
 
-![](assets/dc_profiles_avatarphoto.png) 
+![dc_profiles_avatarphoto](assets/dc_profiles_avatarphoto.png) 
 
 ### Profile Detailed Name {#profile-detailed-name}
 
 This component allows the user to input a detailed name.
 
-![](assets/dc_profiles_detailedname.png) 
+![dc_profiles_detailedname](assets/dc_profiles_detailedname.png) 
 
 ### Profile Gender {#profile-gender}
 
 This component allows the user to input their gender.
 
-![](assets/dc_profiles_gender.png)
+![dc_profiles_gender](assets/dc_profiles_gender.png)
 

@@ -57,7 +57,7 @@ On author, to access the Storage Configuration console
 
         * as an example, the resulting location is: [http://localhost:4502/communities/admin/defaultsrp](http://localhost:4502/communities/admin/defaultsrp)
 
-![](assets/chlimage_1-128.png)
+![chlimage_1-128](assets/chlimage_1-128.png)
 
 * select **Database Storage Resource Provider (DSRP)**
 * **Database Configuration**

@@ -60,7 +60,7 @@ In order to take advantage of Adobe Mobile Services you need to configure the AE
 
 Configure the cloud service to your mobile app begins by clicking the gear icon located on the Analyze Metrics tile.
 
-![](assets/chlimage_1-125.png)
+![chlimage_1-125](assets/chlimage_1-125.png)
 
 Clicking the gear icon in the Analyze Metrics tile will open the 'Configure Mobile Services Analytics' modal dialog. Select your configuration from the 'Select a Mobile Service Configuration' drop-down. If you need to create a new configuration, click the wrench button.
 
@@ -68,15 +68,15 @@ To create a Adobe Mobile Service cloud service there are two steps involved, the
 
 To begin, click on the '+' button on the Manage Cloud Services tile in the dashboard.
 
-![](assets/chlimage_1-126.png)
+![chlimage_1-126](assets/chlimage_1-126.png)
 
 Upon clicking the '**+**' button, the **Add Cloud Service **wizard will be displayed.
 
-![](assets/chlimage_1-127.png)
+![chlimage_1-127](assets/chlimage_1-127.png)
 
 Select or create a new mobile service configuration by filling required fields as shown below. Your AEM administrator will require this information to successfully create the connection to Adobe Mobile Services.
 
-![](assets/chlimage_1-128.png)
+![chlimage_1-128](assets/chlimage_1-128.png)
 
 Once you've completed the Mobile Services Account Settings, you will be prompted to select an app. Doing so connects Adobe Mobile Service analytics reporting to that application.
 
@@ -84,7 +84,7 @@ Select the desired mobile service, and click 'Update' to assign the mobile servi
 
 Now that you have associated the mobile service config to the AEM Mobile app the tile will start to fetch the metric data and begin reporting.
 
-![](assets/chlimage_1-129.png)
+![chlimage_1-129](assets/chlimage_1-129.png)
 
 ### Adobe Mobile Services SDK Config File {#adobe-mobile-services-sdk-config-file}
 
@@ -92,11 +92,11 @@ At this point your mobile application is associated with a cloud service, howeve
 
 From the Analyze Metrics tile, click on the arrow icon to expose the Download / Upload AMS SDK Config menu entries.
 
-![](assets/chlimage_1-130.png)
+![chlimage_1-130](assets/chlimage_1-130.png)
 
 The first step is to obtain the SDK Config from Adobe Mobile Services, clicking on the 'Download AMS SDK Config' will redirect you to the Adobe Mobile Services website where you can download the config file from. Once you have obtained the ADBMobileConfig.json file, click on the "Upload AMS SDK Config" to upload the config file into AEM.
 
-![](assets/chlimage_1-131.png)
+![chlimage_1-131](assets/chlimage_1-131.png)
 
 Click the 'Upload Adobe Mobile Services Application Config' button and browse for the ADBMobileConfig.json file, then click 'Upload'.
 

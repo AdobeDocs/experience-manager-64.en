@@ -54,7 +54,7 @@ A list is a group of related content that can be used in a letter template as a 
    ![Select assets to add to the list](assets/selectassets.png)
 
 1. The assets are added to the List Items page.  
-   To change the order of the assets within the list, tap and hold the arrows icon ( ![](assets/dragndrop.png) ) and drag-and-drop. When the user opens a letter template in the Create Correspondence user interface, the content is assembled in the order you defined here.
+   To change the order of the assets within the list, tap and hold the arrows icon ( ![dragndrop](assets/dragndrop.png) ) and drag-and-drop. When the user opens a letter template in the Create Correspondence user interface, the content is assembled in the order you defined here.
 
    ![Reorder and configure assets in a list](assets/listitems.png)
 
@@ -64,7 +64,7 @@ A list is a group of related content that can be used in a letter template as a 
     * **Lock Order**: To lock the order of the assets in the list so that the Claims Adjustor cannot change the order, tap Lock Order. If you do not select this option, the Claims Adjustor can change the order of the list items.
     
     * **Add Bullets**: Use this option to apply a bullet or numbering style to the module. You can use either a predesigned list style or a custom one. You can also specify the text to be displayed before and after each of the list items. 
-    * **Page Break**: Select this option ( ![](assets/break.png)) to add a page break between the list contents. When this option is not selected ( ![](assets/nobreak.png)), if the contents of the list are overflowing to the next page, the whole list is shifted to the next page instead of breaking in the page between the list. 
+    * **Page Break**: Select this option ( ![break](assets/break.png)) to add a page break between the list contents. When this option is not selected ( ![nobreak](assets/nobreak.png)), if the contents of the list are overflowing to the next page, the whole list is shifted to the next page instead of breaking in the page between the list. 
     
     * **Assignment Configuration**: Use this option to specify minimum and maximum number of assets that can be added to the list.
 

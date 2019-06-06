@@ -104,7 +104,7 @@ To configure the 3D asset ingestion workflow:
 1. On the DAM Update Asset screen, in the AEM floating panel, click the Plus icon to the right of Workflow to expand the list. Select **Process Step** in the list.
 1. Drag **Process Step** and drop it into the workflow just before **DAM Update Asset Workflow Completed** component near the end of the workflow.
 
-   ![](assets/3d_process_step_underaem6-4.png)
+   ![3d_process_step_underaem6-4](assets/3d_process_step_underaem6-4.png)
 
 1. Double-click the newly added process step.
 1. In the Step Properties dialog box, under the Common tab, in the Title field, enter a suitable description for the process such as `Process 3D content`.
@@ -112,7 +112,7 @@ To configure the 3D asset ingestion workflow:
 
 1. From the Process drop-down menu, select **Geometric 3D Object Service**, then select the **Handler Advance** check box.
 
-   ![](assets/3d_install-process-steppropertiesdlg.png)
+   ![3d_install-process-steppropertiesdlg](assets/3d_install-process-steppropertiesdlg.png)
 
 1. Near the upper-right corner of the dialog box, click the check mark icon to return to the DAM Update Asset page.
 1. Near the upper-right corner of the DAM Update Asset page, click **Sync** to save the edited workflow model.
@@ -144,34 +144,34 @@ To configure the 3D asset ingestion workflow:
    >
    >Expect very high CPU utilization while 3D processing is in progress. Depending on available CPU capacity it may take a substantial amount of time to complete all processing.
 
-   ![](assets/screenshot_2017-01-2518-29-32.png)
+   ![screenshot_2017-01-2518-29-32](assets/screenshot_2017-01-2518-29-32.png)
 
 1. You will now learn how to resolve file dependencies.
 
    On the "Unresolved Dependencies" banner for the `stage-helipad.fbx` card, click the Exclamation Point icon to navigate to the asset's properties and open the **Dependencies** tab.
 
-   ![](assets/chlimage_1-372.png)
+   ![chlimage_1-372](assets/chlimage_1-372.png)
 
 1. Click the Folder/Magnifying Glass icon to the right of the file name to open the asset browser and resolve the dependencies as follows:
 
-   ![](assets/chlimage_1-373.png)
+   ![chlimage_1-373](assets/chlimage_1-373.png)
 
 1. Click **Save** and **Close** to finish processing the asset and return to the Card View, respectively.
 1. When processing is complete, you see the following in Card View:
 
-   ![](assets/chlimage_1-374.png)
+   ![chlimage_1-374](assets/chlimage_1-374.png)
 
 1. On the test3d page, click the `logo-sphere.fbx` card to open the model in Detail view.
 
    Near the upper-right corner of the logo-sphere.fbx page, click the Stage Spotlight icon to expand the drop-down menu, then select **stage-spotlights.fbx**.
 
-   ![](assets/chlimage_1-375.png)
+   ![chlimage_1-375](assets/chlimage_1-375.png)
 
 1. From the Stage Spotlight drop-down list, select `stage-helipad.fbx`.
 
    Using the left mouse button to adjust the view. The background and model lighting changes to reflect the new stage selection.
 
-   ![](assets/chlimage_1-376.png)
+   ![chlimage_1-376](assets/chlimage_1-376.png)
 
 ## Configuring support for Adobe Dimension assets {#configuring-support-for-adobe-dimension-assets}
 
@@ -235,7 +235,7 @@ To configure suoport for Adobe Dimension assets:
     1. Return to the Card view and observe the message banner shown on the uploaded asset. The Converting Format... banner is displayed while the conversion process is in progress.
     1. After all processing is complete, open the asset in Detail view to verify that the converted asset is displayed correctly and that the viewer's navigation controls are usable.
 
-   ![](assets/image2018-11-2_15-51-19.png)
+   ![image2018-11-2_15-51-19](assets/image2018-11-2_15-51-19.png)
 
    If a "Processing Error" is displayed on the Dn asset in the Card view after 10-15 minutes, the conversion failed.
 

@@ -31,7 +31,7 @@ Oak implements the [JSR-283](https://www.day.com/day/en/products/jcr/jsr-283.htm
 
 ## Architecture Concept {#architecture-concept}
 
-![](assets/chlimage_1-84.png)
+![chlimage_1-84](assets/chlimage_1-84.png)
 
 ### Storage {#storage}
 
@@ -112,7 +112,7 @@ Data about active and inactive cluster nodes is kept in the database in order to
 
 A typical AEM cluster setup with MongoDB storage:
 
-![](assets/chlimage_1-85.png)
+![chlimage_1-85](assets/chlimage_1-85.png)
 
 ## What is different from Jackrabbit 2? {#what-is-different-from-jackrabbit}
 

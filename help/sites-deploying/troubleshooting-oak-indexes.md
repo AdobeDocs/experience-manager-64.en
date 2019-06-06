@@ -58,7 +58,7 @@ In exceptional circumstances, the thread pool used to manage asychronous indexin
     * Add an entry to the "Allowed Thread Pools" field with the value of "oak".
     * Click Save in the bottom-right to save the changes.
 
-   ![](assets/chlimage_1-119.png)
+   ![chlimage_1-119](assets/chlimage_1-119.png)
 
 1. Verify that the new Apache Sling Scheduler thread pool is registered and displays in the Apache Sling Scheduler Satus web console.
 
@@ -68,7 +68,7 @@ In exceptional circumstances, the thread pool used to manage asychronous indexin
         * ApacheSlingoak
         * ApacheSlingdefault
 
-   ![](assets/chlimage_1-120.png)
+   ![chlimage_1-120](assets/chlimage_1-120.png)
 
 ## Observation queue is full {#observation-queue-is-full}
 
@@ -85,7 +85,7 @@ If too many changes and commits are made to the repository in a short amount of 
 1. To avoid exceeding acceptable observation queue limits, it is recommended to:
 
     * Lower the constant rate of commits. Short spikes in commits are acceptable, but the constant rate should be reduced.
-    * Increase the size of the `DiffCache` as described in [Performance tuning tips > Mongo Storage Tuning > Document cache size](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html#main-pars_text_3). ``
+    * Increase the size of the `DiffCache` as described in [Performance tuning tips > Mongo Storage Tuning > Document cache size](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html#main-pars_text_3).
 
 ## Identifying and remediating a stuck re-indexing process {#identifying-and-remediating-a-stuck-re-indexing-process}
 
@@ -142,7 +142,7 @@ To safely abort re-indexing, follow these steps:
         * To identify the appropriate lane and thus the IndexStats MBean instance, look at the Oak Indexes "async" property. The "async" property will contain the lane name: `async`, `async-reindex`, or `fulltext-async`.
         * The lane is also available by accessing AEM's Index Manager in the "Async" column. To access the Index manager navigate to Operations&gt;Diagnosis&gt;Index Manager.
 
-   ![](assets/chlimage_1-121.png)
+   ![chlimage_1-121](assets/chlimage_1-121.png)
 
 1. Invoke the `abortAndPause()` command on the appropriate `IndexStats` MBean.
 1. Mark the Oak index definition appropriately to prevent resuming re-indexing when the indexing lane resumes.

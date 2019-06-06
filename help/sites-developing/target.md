@@ -209,7 +209,7 @@ Your Target configuration includes a custom mbox.js file, [the required code in 
 
 Most components can be converted to targeted components using the Target command on the context menu.
 
-![](assets/chlimage_1-173.png)
+![chlimage_1-173](assets/chlimage_1-173.png)
 
 To remove the Target command from the context menu, add the following property to the cq:editConfig node of the component:
 
@@ -219,7 +219,7 @@ To remove the Target command from the context menu, add the following property t
 
 For example, to disable targeting for the title components of the Geometrixx Demo Site pages, add the property to the `/apps/geometrixx/components/title/cq:editConfig` node.
 
-![](assets/chlimage_1-174.png) 
+![chlimage_1-174](assets/chlimage_1-174.png) 
 
 ## Sending Order Confirmation Information to Adobe Target {#sending-order-confirmation-information-to-adobe-target}
 
@@ -248,7 +248,7 @@ The values of each parameter are different for each order. Therefore, you requir
 
 The Geometrixx Outdoors sample displays the following confirmation page when a visitor purchases products:
 
-![](assets/chlimage_1-175.png)
+![chlimage_1-175](assets/chlimage_1-175.png)
 
 The following code for the JSP script of a component accesses the properties of the shopping cart and then prints the code for creating the mbox.
 

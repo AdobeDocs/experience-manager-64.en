@@ -42,7 +42,7 @@ To get started with CRXDE Lite, proceed as follows:
 
 The CRXDE Lite User Interface looks as follows in your browser:
 
-![](assets/chlimage_1-238.png)
+![chlimage_1-238](assets/chlimage_1-238.png)
 
 You can now use CRXDE Lite to develop your application.
 
@@ -177,7 +177,7 @@ The following nodes are created:
 
 The structure looks as follows in CRXDE Lite with a project called **myproject** and a java package suffix called **mycompany**:
 
-![](assets/chlimage_1-239.png) ![](assets/chlimage_1-240.png) 
+![chlimage_1-239](assets/chlimage_1-239.png) ![chlimage_1-240](assets/chlimage_1-240.png) 
 
 ### Creating a Folder {#creating-a-folder}
 

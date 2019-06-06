@@ -33,7 +33,7 @@ In the author environment, to reach the Badges console
 
 This console displays the badges currently available and from which new badges can be added.
 
-![](assets/chlimage_1-242.png)
+![chlimage_1-242](assets/chlimage_1-242.png)
 
 ## Create Badge {#create-badge}
 
@@ -41,7 +41,7 @@ A badge is created by uploading a suitably small image (72dpi with a height rang
 
 If the publish environment is a farm of publishers, it is necessary to configure [user sync](/help/communities/sync.md).
 
-![](assets/chlimage_1-243.png)
+![chlimage_1-243](assets/chlimage_1-243.png)
 
 * **Upload Image** 
   (*required*) A badge image with a recommended size of 32 x 32 pixels at 72dpi in either the JPEG or PNG format.

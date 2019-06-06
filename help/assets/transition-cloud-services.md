@@ -24,16 +24,16 @@ Applying translation cloud services directly to your asset folder eliminates the
 1. From the Assets UI, select the folder to which you want to apply translation services.
 1. From the toolbar, click/tap the **Properties** icon to display the **Folder Properties** page.
 
-   ![](assets/chlimage_1-215.png)
+   ![chlimage_1-215](assets/chlimage_1-215.png)
 
 1. Navigate to the **Cloud Services** tab.
 1. From the Cloud Service Configurations list, choose the desired translation provider. For example, if you want to avail translation services from Microsoft, choose **Microsoft Translator**.
 
-   ![](assets/chlimage_1-216.png)
+   ![chlimage_1-216](assets/chlimage_1-216.png)
 
 1. Choose the connector for the translation provider.
 
-   ![](assets/chlimage_1-217.png)
+   ![chlimage_1-217](assets/chlimage_1-217.png)
 
 1. From the toolbar, click/tap **Save**, and then click **OK** to close the dialog.The translation service is applied to the folder.
 
@@ -45,14 +45,14 @@ If you want to apply a custom connector for the translation services you want to
 1. Click/tap the AEM logo, and navigate to **Tools** &gt; **Deployment** &gt; **Cloud Services**.
 1. Locate the connector you installed under **Third Party Services** in the **Cloud Services** page.
 
-   ![](assets/chlimage_1-218.png)
+   ![chlimage_1-218](assets/chlimage_1-218.png)
 
 1. Click/tap the **Configure now** link to open the **Create Configuration** dialog.
 
-   ![](assets/chlimage_1-219.png)
+   ![chlimage_1-219](assets/chlimage_1-219.png)
 
 1. Specify a title and a name for the connector, and then click/tap **Create**. The custom connector is available in the list of connectors in the **Cloud Services** tab described in step 5 of [Applying the translation services](#applying-the-translation-services). 
 1. Run any translation workflow described in [Creating Translation Projects](translation-projects.md) after you apply the custom connector. Verify the details of the connector in the **Translation Summary** tile of the translation project in the **Projects** console.
 
-   ![](assets/chlimage_1-220.png)
+   ![chlimage_1-220](assets/chlimage_1-220.png)
 

@@ -76,7 +76,7 @@ The thread dump is a list of all the Java threads that are currently active. If 
 
 1. Select the **Threads **under** Status** tab.
 
-![](assets/screen_shot_2012-02-13at43925pm.png) 
+![screen_shot_2012-02-13at43925pm](assets/screen_shot_2012-02-13at43925pm.png) 
 
 ### Using jstack (command line) {#using-jstack-command-line}
 
@@ -121,5 +121,5 @@ The status of the OSGi bundles can also give an early indication of possible iss
     * the Status of the bundles. If any are Inactive or Unsatisfied, then try to stop and restart the bundle. If the issue persists then you may need to investigate further using other methods.
     * whether any of the bundles have missing dependencies. Such details can be seen by clicking on the individual bundle Name, which is a link (the following example does not have any issues):
 
-![](assets/screen_shot_2012-02-13at44706pm.png)
+![screen_shot_2012-02-13at44706pm](assets/screen_shot_2012-02-13at44706pm.png)
 

@@ -49,7 +49,7 @@ Adaptive forms editor provides multiple out-of-the-box themes. If you plan not t
    [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html) 
 
 1. Open properties of **Adaptive Form container**. In the properties browser, navigate to **Basic** &gt; **Adaptive Form Theme**. The** Adaptive Form Theme** field lists all the out-of-the-box and custom themes. By default, the Canvas theme is applied.
-1. Select a theme from the **Adaptive Form Theme** field. For example, **Survey theme**. Tap ![](assets/aem_6_3_forms_save.png) to apply the selected theme.
+1. Select a theme from the **Adaptive Form Theme** field. For example, **Survey theme**. Tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) to apply the selected theme.
 
 ![Adaptive form with the default theme](assets/default-adaptive-form.png)
 
@@ -69,20 +69,20 @@ The design displayed above requires changes in placeholder text and logo of your
 
        [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html)
     
-    1. Tap logo image in the header component and tap ![](assets/cmppr.png) properties. In the image property, tap X to remove the existing logo image.
-    1. Tap upload, select the logo.png, and tap ![](assets/aem_6_3_forms_save.png) to save the changes. The image was downloaded in the [Before you start](/help/forms/using/style-your-adaptive-form.md#before-you-start) section. 
-    1. Tap header text, `We.Retail`, and tap ![](assets/aem_6_3_edit.png) **edit**. Change header text to `we retail`. Apply bold formatting only to `we`in `we retail`.
+    1. Tap logo image in the header component and tap ![cmppr](assets/cmppr.png) properties. In the image property, tap X to remove the existing logo image.
+    1. Tap upload, select the logo.png, and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) to save the changes. The image was downloaded in the [Before you start](/help/forms/using/style-your-adaptive-form.md#before-you-start) section. 
+    1. Tap header text, `We.Retail`, and tap ![aem_6_3_edit](assets/aem_6_3_edit.png) **edit**. Change header text to `we retail`. Apply bold formatting only to `we`in `we retail`.
 
-   ![](assets/we-retail-logo-text.png)
+   ![we-retail-logo-text](assets/we-retail-logo-text.png)
 
 1. Remove title and add placeholder text:
 
-    1. Tap the Customer ID field and tap ![](assets/cmppr.png) properties.
+    1. Tap the Customer ID field and tap ![cmppr](assets/cmppr.png) properties.
     1. Copy the content of the **Title** field to the **Placeholder Text** field.
-    1. Delete the content of the **Title** field and tap ![](assets/aem_6_3_forms_save.png).
+    1. Delete the content of the **Title** field and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
     1. Repeat the previous three steps for all the text boxes, numeric box, and email field in the form.
 
-   ![](assets/updated-adaptive-form.png)
+   ![updated-adaptive-form](assets/updated-adaptive-form.png)
 
 ## Step 3: Create a custom theme for your adaptive form {#step-create-a-custom-theme-for-your-adaptive-form}
 
@@ -104,13 +104,13 @@ In this tutorial, you will style header and footer, text and numeric components,
 
    For information about using theme editor UI, see [About the theme editor](/help/forms/using/themes.md#aboutthethemeeditor).
 
-1. Tap **Theme Options** ![](assets/theme-options.png) > **Configure**. In the **Preview Form** field, select the **shipping-address-add-update-form** adaptive form, tap ![](assets/aem_6_3_forms_save.png), tap **Save**. Now, the theme editor is configured to use your own adaptive form instead of the default adaptive form. Tap **Cancel** to return to the theme editor.
+1. Tap **Theme Options** ![theme-options](assets/theme-options.png) > **Configure**. In the **Preview Form** field, select the **shipping-address-add-update-form** adaptive form, tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png), tap **Save**. Now, the theme editor is configured to use your own adaptive form instead of the default adaptive form. Tap **Cancel** to return to the theme editor.
 
-   ![](assets/custom-theme.png)
+   ![custom-theme](assets/custom-theme.png)
 
    Theme editor with the shipping-address-add-update-form adaptive form
 
-   ![](assets/create-a-theme.png)
+   ![create-a-theme](assets/create-a-theme.png)
 
    Adaptive form with the default form
 
@@ -120,7 +120,7 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
 
 1. Navigate the **Header** &gt; **Text** option in the Selectors panel. The Selectors panel is on the left of the theme editor. If the panel is not visible, tap ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/6-2/toggle-side-panel.png) Toggle Side Panel.  
 
-1. Set the following properties in the **Text** accordion and tap ![](assets/aem_6_3_forms_save.png). 
+1. Set the following properties in the **Text** accordion and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png). 
 
    | Property |Value |
    |---|---|
@@ -128,10 +128,10 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
    | Font Color |FFFFFF |
    | Font Size |54px |
 
-1. Tap the header widget and tap **Header**. The options to style the Header widget appear on the left. Expand the **Dimensions & Position** accordion, set the** Height** to `120px`, and tap ![](assets/aem_6_3_forms_save.png).
+1. Tap the header widget and tap **Header**. The options to style the Header widget appear on the left. Expand the **Dimensions & Position** accordion, set the** Height** to `120px`, and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 1. Expand the Background accordion of the header widget, set the** Background Color** to `F6921E.`
 
-   Hover over **Image & Gradient** &gt; **+ Add**, tap **Image**. Set the following properties and tap ![](assets/aem_6_3_forms_save.png).
+   Hover over **Image & Gradient** &gt; **+ Add**, tap **Image**. Set the following properties and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
    | Property |Value |
    |---|---|
@@ -139,7 +139,7 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
    | Position |Right Bottom |
    | Tiling |No Repeat |
 
-1. In the theme editor, tap the logo in the header and tap **Header Logo**. Expand the Dimensions & Position accordion, set the following properties and tap ![](assets/aem_6_3_forms_save.png).
+1. In the theme editor, tap the logo in the header and tap **Header Logo**. Expand the Dimensions & Position accordion, set the following properties and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
 <table> 
  <tbody> 
@@ -163,13 +163,13 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
  </tbody> 
 </table>
 
-1. Tap the footer widget and tap **Footer**. Expand the **Background** accordion, set the** Background Color** to `F6921E`, and tap ![](assets/aem_6_3_forms_save.png).
+1. Tap the footer widget and tap **Footer**. Expand the **Background** accordion, set the** Background Color** to `F6921E`, and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
 ### Style the data capture component and apply a background to the adaptive form {#style-the-data-capture-component-and-apply-a-background-to-the-adaptive-form}
 
 You can use multiple components in an adaptive form to capture data. For example, text box and numeric box. You can provide identical style to all the data capture components or separate style for each component. In this tutorial, an identical style is applied to numeric boxes (Customer ID, ZIP Code) and text boxes (Customer ID, Name, Shipping Address, State, Email). To style the data capture components:
 
-1. Tap the Customer ID field and tap the **Field Widget** option. Set the following properties and tap ![](assets/aem_6_3_forms_save.png).
+1. Tap the Customer ID field and tap the **Field Widget** option. Set the following properties and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
 <table> 
  <tbody> 
@@ -225,7 +225,7 @@ You can use multiple components in an adaptive form to capture data. For example
  </tbody> 
 </table>
 
-1. Tap on the empty area above the Customer ID field and tap **Responsive Panel Container**. Set the **Background** &gt; **Background Color** to F1F2F2. Tap ![](assets/aem_6_3_forms_save.png).
+1. Tap on the empty area above the Customer ID field and tap **Responsive Panel Container**. Set the **Background** &gt; **Background Color** to F1F2F2. Tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
    ![](do-not-localize/responsive-panel-container.png)
 
@@ -233,7 +233,7 @@ You can use multiple components in an adaptive form to capture data. For example
 
 You can use a custom theme to apply an identical style to all the buttons of the adaptive form and [inline styling](/help/forms/using/inline-style-adaptive-forms.md) to apply a style to a specific button. To style the buttons:
 
-1. Tap the **Submit **button and tap the **Button **option. Set the following properties and tap ![](assets/aem_6_3_forms_save.png).
+1. Tap the **Submit **button and tap the **Button **option. Set the following properties and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png).
 
 <table> 
  <tbody> 
@@ -283,7 +283,7 @@ You can use a custom theme to apply an identical style to all the buttons of the
 
 1. [Apply the custom theme](/help/forms/using/style-your-adaptive-form.md#step-apply-a-theme-to-your-adaptive-form), Global Theme, to your adaptive form. If the style does not reflect on the adaptive form, clean the browser cache and try again.
 
-   ![](assets/style-data-capture-components.png)
+   ![style-data-capture-components](assets/style-data-capture-components.png)
 
 ## Step 4: Style individual components {#step-style-individual-components}
 
@@ -292,16 +292,16 @@ Some styles apply to only a specific component. Such components are styled in ad
 1. Open the adaptive form for editing. [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html)
 1. On the top bar, select the **Style **option.
 
-   ![](assets/style-option.png)
+   ![style-option](assets/style-option.png)
 
-1. Tap the **Attach** button and tap the ![](assets/aem_6_3_edit.png)icon. Set the following properties in the **Dimensions and Position** accordion:
+1. Tap the **Attach** button and tap the ![aem_6_3_edit](assets/aem_6_3_edit.png)icon. Set the following properties in the **Dimensions and Position** accordion:
 
    | Property |Value |
    |---|---|
    | Float |Left |
    | Width |10% |
 
-1. Tap the **Government approved address proof** option and tap the ![](assets/aem_6_3_edit.png)icon. Set the following properties:
+1. Tap the **Government approved address proof** option and tap the ![aem_6_3_edit](assets/aem_6_3_edit.png)icon. Set the following properties:
 
 <table> 
  <tbody> 
@@ -390,7 +390,7 @@ Some styles apply to only a specific component. Such components are styled in ad
  </tbody> 
 </table>
 
-1. Tap the **Submit** button and tap the ![](assets/aem_6_3_edit.png) icon. Set the following properties:
+1. Tap the **Submit** button and tap the ![aem_6_3_edit](assets/aem_6_3_edit.png) icon. Set the following properties:
 
 <table> 
  <tbody> 
@@ -428,7 +428,7 @@ Some styles apply to only a specific component. Such components are styled in ad
  </tbody> 
 </table>
 
-   ![](assets/styled-adaptive-form-1.png)
+   ![styled-adaptive-form-1](assets/styled-adaptive-form-1.png)
 
 ## Step 5: Bonus Section: Using web fonts in a custom theme {#step-bonus-section-using-web-fonts-in-a-custom-theme}
 
@@ -438,14 +438,14 @@ Adobe Typekit is a web fonts service. You can configure and use the service with
 
 >[!NOTE]
 >
->![](assets/typekit-to-adobe-fonts.png) Typekit is now called Adobe Fonts and is included with Creative Cloud and other subscriptions. [Learn more](https://fonts.adobe.com/).
+>![typekit-to-adobe-fonts](assets/typekit-to-adobe-fonts.png) Typekit is now called Adobe Fonts and is included with Creative Cloud and other subscriptions. [Learn more](https://fonts.adobe.com/).
 
 1. Create an [Adobe Typekit](https://typekit.com/) account, create a kit, add font Myriad Pro to the kit, publish the kit, and obtain the Kit ID. It is required to use Adobe Typekit fonts (Web fonts) in an adaptive form. 
-1. In the AEM Forms server, navigate to ![](assets/adobeexperiencemanager.png) **Adobe Experience Manager** > **Tools** ![](assets/hammer.png) > **Deployment** > **Cloud Services**. On the Cloud Services page, navigate to **Third Party Services** > **Typekit**, and click **Configure** Now under Typekit. If a configuration is already available, click the + button to create a new instance.
+1. In the AEM Forms server, navigate to ![adobeexperiencemanager](assets/adobeexperiencemanager.png) **Adobe Experience Manager** > **Tools** ![hammer](assets/hammer.png) > **Deployment** > **Cloud Services**. On the Cloud Services page, navigate to **Third Party Services** > **Typekit**, and click **Configure** Now under Typekit. If a configuration is already available, click the + button to create a new instance.
 
    On the Create Configuration dialog, specify a **Title **for the configuration, and click **Create**. You are redirected to the configuration page. In the Edit Component dialog that appears, provide your **Kit ID** and click **OK**.
 
-1. Configure your theme to use the TypeKit configuration. On the author instance, open **Global Theme** in the theme editor. In the theme editor, navigate to Theme Options ![](assets/theme-options.png) > Configure. In **Typekit Configuration** field, select the kit, and click **Save**.
+1. Configure your theme to use the TypeKit configuration. On the author instance, open **Global Theme** in the theme editor. In the theme editor, navigate to Theme Options ![theme-options](assets/theme-options.png) > Configure. In **Typekit Configuration** field, select the kit, and click **Save**.
 
    The fonts added to the Typekit are available for selection in the **Text **accordion of all the components.
 

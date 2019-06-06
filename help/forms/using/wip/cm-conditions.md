@@ -46,9 +46,9 @@ The Condition editor enables you to specify a default condition. If the value of
 1. You can select the following options to specify how the condition behaves at runtime:
 
     * **Disable Multiple Results Evaluation\Enable Multiple Results Evaluation**: When this option is enabled (appears as “Enable Multiple…”), all the conditions are evaluated and the result is the sum of all the true conditions. If this option is disabled (appears as "Disable Multiple...") then only the first condition that is found to be true is evaluated and becomes the output of the condition.
-    * **Page Break**: Select this option ( ![](assets/break.png)) to add a page break between the modules of the conditions. When this option is not selected ( ![](assets/nobreak.png)), if a condition is overflowing to the next page, the whole condition is shifted to the next page instead of breaking in the page between the condition.
+    * **Page Break**: Select this option ( ![break](assets/break.png)) to add a page break between the modules of the conditions. When this option is not selected ( ![nobreak](assets/nobreak.png)), if a condition is overflowing to the next page, the whole condition is shifted to the next page instead of breaking in the page between the condition.
 
-1. To change the order of the assets within the condition, tap and hold the arrows icon ( ![](assets/dragndrop.png) ) and drag-and-drop. When the user opens a letter template in the Create Correspondence user interface, the content is assembled in the order you defined here.
+1. To change the order of the assets within the condition, tap and hold the arrows icon ( ![dragndrop](assets/dragndrop.png) ) and drag-and-drop. When the user opens a letter template in the Create Correspondence user interface, the content is assembled in the order you defined here.
 1. Tap **Delete** to delete the row. If you tap Delete for the default row, only clears the asset information.
 1. Tap **Copy** to duplicate a row.
 1. Tap **Edit** to change the asset or edit the expression.

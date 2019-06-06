@@ -30,7 +30,7 @@ Below you will find a list of use cases that can be leveraged when performing in
 * `oak-run.jar`quickly determines if lucene oak indexes are corrupt.
 * It is safe to run on an in-use AEM instance for consistency check levels 1 and 2.
 
-![](assets/screen_shot_2017-12-14at135758.png) 
+![screen_shot_2017-12-14at135758](assets/screen_shot_2017-12-14at135758.png) 
 
 ## Index Statistics {#indexstatistics}
 
@@ -42,13 +42,13 @@ Below you will find a list of use cases that can be leveraged when performing in
 
 * Safe to execute on an in-use AEM instance.
 
-![](assets/image2017-12-19_9-47-40.png) 
+![image2017-12-19_9-47-40](assets/image2017-12-19_9-47-40.png) 
 
 ## Re-indexing Approach Decision Tree {#reindexingapproachdecisiontree}
 
 This diagram is a decision tree for when to use the various re-indexing approaches.
 
-![](assets/oak_-_reindexingwithoak-run.png) 
+![oak_-_reindexingwithoak-run](assets/oak_-_reindexingwithoak-run.png) 
 
 ## Re-indexing MongoMK / RDMBMK {#reindexingmongomk}
 
@@ -62,7 +62,7 @@ This diagram is a decision tree for when to use the various re-indexing approach
 
 Depending on the `oak-run.jar` indexing approach there will be various steps on either side of the Perform Re-index step in the diagram below.
 
-![](assets/4.png)
+![4](assets/4.png)
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ This is the recommended method for reindexing MongoMK (and RDBMK) AEM installati
 
 This process needs to be executed only against a single AEM instance in the cluster.
 
-![](assets/5.png) 
+![5](assets/5.png) 
 
 ## Re-indexing TarMK {#re-indexingtarmk}
 
@@ -104,7 +104,7 @@ This is the method used before te introudction of the new indexing capabilities 
 
 This approach can be used if the time and performance effects to index are acceptable to the customer. This is often the case for small to medium sized AEM installations.
 
-![](assets/6.png) 
+![6](assets/6.png) 
 
 ### Online Re-Indexing TarMK using oak-run.jar {#onlinere-indexingtarmkusingoak-run-jar}
 
@@ -118,7 +118,7 @@ Online-reindexing of TarMK is faster than the Online TarkMK reindexing decribed 
 >
 >Orange denotes operations where AEM must be performed in a maintenance period.
 
-![](assets/7.png) 
+![7](assets/7.png) 
 
 ### Offline Re-Indexing TarMK using oak-run.jar {#offlinere-indexingtarmkusingoak-run-jar}
 
@@ -132,7 +132,7 @@ Offline re-indexing of TarMK is the simplest `oak-run.jar` based re-indexing app
 >
 >Red denotes operations where AEM must be shut down.
 
-![](assets/8.png) 
+![8](assets/8.png) 
 
 ### Out-of-band Re-Indexing TarMK using oak-run.jar  {#out-of-bandre-indexingtarmkusingoak-run-jar}
 
@@ -146,7 +146,7 @@ Out-of-band re-indexing minimizes the impact of re-indexing on in-use AEM instan
 >
 >Red denotes operations where AEM may be shut down.
 
-![](assets/9.png) 
+![9](assets/9.png) 
 
 ## Updating Indexing Definitions {#updatingindexingdefinitions}
 
@@ -168,11 +168,11 @@ For more info, see the [ACS Ensure Index documentation](https://adobe-consulting
 
 If the time or performance impact of re-indexing using non `oak-run.jar` methods is too high, the following `oak-run.jar` based approach can be used to import and re-index Lucene Index definitions in a TarMK based AEM installation.
 
-![](assets/10.png) 
+![10](assets/10.png) 
 
 ### Creating and Updating Index Definitions on MonogMK using oak-run.jar {#creatingandupdatingindexdefinitionsonmonogmkusingoak-run-jar}
 
 If the time or performance impact of re-indexing using non `oak-run.jar` methods is too high, the following `oak-run.jar` based approach can be used to import and re-index Lucene Index definitions in MongoMK based AEM installations.
 
-![](assets/11.png)
+![11](assets/11.png)
 

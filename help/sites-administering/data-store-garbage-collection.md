@@ -105,15 +105,15 @@ Before running data store garbage collection you should check that no backups ar
 1. Open the Operations Dashboard by **Navigation** -&gt; **Tools** -&gt; **Operations** -&gt; **Maintenance**.
 1. Click or tap the **Weekly Maintenance Window**.
 
-   ![](assets/chlimage_1-121.png)
+   ![chlimage_1-121](assets/chlimage_1-121.png)
 
 1. Select the **Data Store Garbage Collection** task and then click or tap the **Run** icon.
 
-   ![](assets/chlimage_1-122.png)
+   ![chlimage_1-122](assets/chlimage_1-122.png)
 
 1. Data store garbage collection runs and its status is displayed in the dashboard.
 
-   ![](assets/chlimage_1-123.png)
+   ![chlimage_1-123](assets/chlimage_1-123.png)
 
 >[!NOTE]
 >

@@ -33,7 +33,7 @@ A workflow step component defines the appearance and behavior of the step when c
 
 As with [all components](/help/sites-developing/components.md), workflow step components inherit from the component that is specifed for the `sling:resourceSuperType` property. The following diagram shows the hierarchy of `cq:component` nodes that form the basis of all workflow step components. The diagram also includes the **Process Step**, **Participant Step**, and **Dynamic Participant Step** components, as these are the most common (and basic) starting points for developing custom step components. 
 
-![](assets/aem_wf_componentinherit.png)
+![aem_wf_componentinherit](assets/aem_wf_componentinherit.png)
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ The `/libs/cq/workflow/components/model/step` component is the nearest common an
 
   The `step.jsp` script renders the title of the step component when it is added to a model. 
 
-  ![](assets/wf-22-1.png)
+  ![wf-22-1](assets/wf-22-1.png)
 
 * [cq:dialog](/help/sites-developing/developing-components.md#creating-and-configuring-a-dialog)
 
@@ -61,7 +61,7 @@ The `/libs/cq/workflow/components/model/step` component is the nearest common an
     * **Common**: for editing the title and description.
     * **Advanced**: for editing email notification properties.
 
-  ![](assets/wf-44.png) ![](assets/wf-45.png)
+  ![wf-44](assets/wf-44.png) ![wf-45](assets/wf-45.png)
 
   >[!NOTE]
   >
@@ -316,7 +316,7 @@ The edit dialog of the **Process Step** component includes the **Arguments** pro
 
 In the following diagram, the value of the **Arguments** property is `argument1, argument2`:
 
-![](assets/wf-24.png) 
+![wf-24](assets/wf-24.png) 
 
 #### Java {#java-1}
 
@@ -804,7 +804,7 @@ An easy way to start creating your own custom step is to copy an existing step f
 
    Here is the result of our example customized step:
 
-   ![](assets/wf-34.png)
+   ![wf-34](assets/wf-34.png)
 
    >[!CAUTION]
    >
@@ -841,19 +841,19 @@ An easy way to start creating your own custom step is to copy an existing step f
         * WCM Workflow
         * Workflow
 
-   ![](assets/wf-35.png)
+   ![wf-35](assets/wf-35.png)
 
 1. You can now open a workflow model for editing. In the steps browser you can filter to see **My Custom Step**:
 
-   ![](assets/wf-36.png)
+   ![wf-36](assets/wf-36.png)
 
    Dragging **My Custom Step** on to the model displays the card:
 
-   ![](assets/wf-37.png)
+   ![wf-37](assets/wf-37.png)
 
    If no `cq:icon` has been defined for the step, then a default icon is rendered using the first two letters of the title. For example:
 
-   ![](assets/wf-38.png)
+   ![wf-38](assets/wf-38.png)
 
 #### Defining the Step Configure Dialog {#defining-the-step-configure-dialog}
 
@@ -871,7 +871,7 @@ After [Creating the Basic Step](#creating-the-basic-step), define the step **Con
 
       Set as required.
 
-   ![](assets/wf-39.png)
+   ![wf-39](assets/wf-39.png)
 
 1. Configure the properties on the node `cq:formsParameter` as follows:
 
@@ -883,7 +883,7 @@ After [Creating the Basic Step](#creating-the-basic-step), define the step **Con
 
     * You can also define your own custom properties.
 
-   ![](assets/wf-40.png)
+   ![wf-40](assets/wf-40.png)
 
 1. Configure the properties on the node `cq:listeners`.
 
@@ -902,11 +902,11 @@ After [Creating the Basic Step](#creating-the-basic-step), define the step **Con
 
    In this example, inheritance has been activated so we could remove the `cq:listeners` node and the step will still function correctly.
 
-   ![](assets/wf-41.png)
+   ![wf-41](assets/wf-41.png)
 
 1. You can now add an instance of your step to a workflow model. When you **Configure** the step you will see the dialog:
 
-   ![](assets/wf-42.png) ![](assets/wf-43.png)
+   ![wf-42](assets/wf-42.png) ![wf-43](assets/wf-43.png)
 
 #### Sample Markup used in this Example {#sample-markup-used-in-this-example}
 

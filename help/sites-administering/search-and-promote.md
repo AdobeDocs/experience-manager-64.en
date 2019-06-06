@@ -59,13 +59,13 @@ Configure one or more connections to Search&Promote so that your web pages can i
 
    If you would like to learn more about Search&Promote click **[!UICONTROL Learn more]** instead.
 
-   ![](assets/chlimage_1-409.png)
+   ![chlimage_1-409](assets/chlimage_1-409.png)
 
 1. Enter a **[!UICONTROL Title]** that is recognizable to page authors, and enter a unique **[!UICONTROL Name]**, then tap **[!UICONTROL Create]**.
   
    Also, the newly created Configuration appears below **[!UICONTROL Available Configurations]** on the **[!UICONTROL Cloud Services dashboard]** Adobe Search&Promote list item.
 
-   ![](assets/chlimage_1-410.png)
+   ![chlimage_1-410](assets/chlimage_1-410.png)
 
 1. In the [!UICONTROL Edit Component] dialog box, add the following to the fields:
 
@@ -104,7 +104,7 @@ If your Search&Promote account is in Asia or Europe, you need to change the defa
 
 1. Navigate to the Web console at `http://localhost:4502/system/console/configMgr/com.day.cq.searchpromote.impl.SearchPromoteServiceImpl`
 
-   ![](assets/chlimage_1-411.png)
+   ![chlimage_1-411](assets/chlimage_1-411.png)
 
 1. Depending on the location of the server, change the URI to one of the following:
 
@@ -136,7 +136,7 @@ When you configure the Search&Promote properties for a page, all child pages inh
 
 1. To disable the inheritance of cloud services configurations from a parent page, click the padlock icon next to the inheritance path.
 
-   ![](assets/sandpinheritpadlock.png)
+   ![sandpinheritpadlock](assets/sandpinheritpadlock.png)
 
 1. Click **[!UICONTROL Add Service]**, select **[!UICONTROL Adobe Search&Promote]**, then click **[!UICONTROL OK]**.  
 

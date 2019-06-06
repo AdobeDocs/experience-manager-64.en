@@ -37,7 +37,7 @@ Follow these steps in order to configure Audit Log Purging:
 
 1. Search for an item called **Pages audit Log Purge rule** and click it.
 
-   ![](assets/chlimage_1-365.png)
+   ![chlimage_1-365](assets/chlimage_1-365.png)
 
 1. Next, configure the purge scheduler according to your requirements. The available options are:
 
@@ -57,7 +57,7 @@ Follow these steps in order to configure Audit Log Purging:
 
 1. You will find the maintenance task already present under the **AuditLog Maintenance Task** card.
 
-   ![](assets/chlimage_1-366.png)
+   ![chlimage_1-366](assets/chlimage_1-366.png)
 
 1. You can either inspect the date of the next execution, configure it, or manually executing it by pressing the play button.
 

@@ -59,7 +59,7 @@ When you use custom javascript code to customize the framework, you alter the co
 
 There are a number of predefined variables within Adobe Analytics that are configurable on a framework**. **The **charset**, **cookieLifetime**, **currencyCode** and **trackInlineStats** variables are included in the **General Analytics Settings** list by default.
 
-![](assets/aa-22.png)
+![aa-22](assets/aa-22.png)
 
 You can add variable names and values to the list. These predefined variables and any variables that you add are used to configure the properties of the `s` object in the analytics.sitecatalyst.js file. The following example shows how the added `prop10` property of value `CONSTANT` is represented in the javascript code:
 
@@ -111,7 +111,7 @@ Use the following procedure to add variables to the list:
 
 The free-from javascript box in the **General Analytics Settings** area enables you to add custom code to a Adobe Analytics framework. 
 
-![](assets/aa-21.png)
+![aa-21](assets/aa-21.png)
 
 The code that you add is appended to the analytics.sitecatalyst.js file. Therefore, you can access the `s` variable, which is an instance of the `s_gi` javascript object that is defined in `s_code.js`. For example, adding the following code is equivalent to adding a variable named `prop10` of value `CONSTANT`, which is the example in the previous section:
 
@@ -163,7 +163,7 @@ A Adobe Analytics framework has the following configruations:
 
 For example, the following values are generated in Adobe Analytics:
 
-![](assets/aa-20.png)  
+![aa-20](assets/aa-20.png)  
 
 ### Adding Global Custom Code for All Adobe Analytics Frameworks {#adding-global-custom-code-for-all-adobe-analytics-frameworks}
 

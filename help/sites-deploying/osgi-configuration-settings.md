@@ -374,7 +374,7 @@ Various configuration properties are available:
 
 **Day CQ WCM Filter** Configure:
 
-* **WCM Mode **to define the default mode.
+* **WCM Mode** to define the default mode.
 * On an author instance this might be `edit`, `disable,preview` or `analytics`. 
 
   The other modes can be accessed from the sidekick, or the suffix `?wcmmode=disabled` can be used to emulate a production environment.
@@ -490,7 +490,7 @@ The overall flow is as follows:
 
 The flow between the user's browser, the CDN, and AEM can be visualized as follows.
 
-![](assets/chlimage_1-118.png)
+![chlimage_1-118](assets/chlimage_1-118.png)
 
 >[!NOTE]
 >

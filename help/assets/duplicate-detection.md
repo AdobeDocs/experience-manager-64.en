@@ -26,5 +26,5 @@ Duplicate Detection is disabled by default. To enable the feature, perform the f
 1. Edit the configuration for the servlet **Day CQ DAM Create Asset**.
 1. Select the d**etect duplicate** option, and click/tap **Save**. The Detect Duplicate feature is now enabled in AEM Assets.
 
-   ![](assets/chlimage_1-377.png)
+   ![chlimage_1-377](assets/chlimage_1-377.png)
 

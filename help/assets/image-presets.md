@@ -33,7 +33,7 @@ You can apply an image preset to an image anytime you preview it. To apply an im
    >
    >* The system shows numerous renditions when you select **Renditions** in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of image presets that display](managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display).
 
-   ![](assets/chlimage_1-208.png)
+   ![chlimage_1-208](assets/chlimage_1-208.png)
 
 1. Do any of the following:
 

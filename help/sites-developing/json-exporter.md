@@ -43,7 +43,7 @@ Within AEM the delivery is achieved using the suffix
 
 1. Will deliver content such as:
 
-   ![](assets/chlimage_1-192.png)
+   ![chlimage_1-192](assets/chlimage_1-192.png)
 
 You can alternatively deliver the contents of a structured content fragment by targeting it specifically.
 
@@ -61,7 +61,7 @@ Your page can contain either a single content fragment or multiple components of
 
 * Will deliver content such as:
 
-  ![](assets/chlimage_1-193.png)
+  ![chlimage_1-193](assets/chlimage_1-193.png)
 
   >[!NOTE]
   >

@@ -30,7 +30,7 @@ The following use case describes creating multi-zones in a channel.
     1. Select **Screens** from the **Create Screens Project** wizard and click **Next**. 
     1. Enter the title as **Channel Layout Project** and click **Create**.
 
-   ![](assets/ch1.gif)
+   ![ch1](assets/ch1.gif)
 
 1. ***Creating a Channel***
 
@@ -39,7 +39,7 @@ The following use case describes creating multi-zones in a channel.
     1. Choose the **1x2 Split Screen Channel** and click **Next**. 
     1. Enter the **Title** as **Split horizontal** and click **Create**.
 
-   ![](assets/channelcreation.gif)
+   ![channelcreation](assets/channelcreation.gif)
 
 1. ***Adding Content to your channel***
 
@@ -47,13 +47,13 @@ The following use case describes creating multi-zones in a channel.
     1. Click **Edit** from the action bar and the editor for the **Split Channel** opens.
     1. Click the icon that toggles side panel on left hand side of the action bar to open the assets and components. Drag and drop the components you want to add to your channel.
 
-   ![](assets/ch4.gif)
+   ![ch4](assets/ch4.gif)
 
    >[!NOTE]
    >
    >As an example, fhe following two images are added to the channel in the editor.
 
-   ![](assets/screen_shot_2018-02-08at123635pm.png)
+   ![screen_shot_2018-02-08at123635pm](assets/screen_shot_2018-02-08at123635pm.png)
 
 1. ***Creating a Location***
 
@@ -63,7 +63,7 @@ The following use case describes creating multi-zones in a channel.
     1. Enter **Title** for your location as **San Jose**.
     1. Click **Create**.
 
-   ![](assets/ch5.gif)
+   ![ch5](assets/ch5.gif)
 
 1. ***Creating a new Display***
 
@@ -73,7 +73,7 @@ The following use case describes creating multi-zones in a channel.
     1. Under the **Display** tab, choose the details of the Layout. Choose the **Resolution** as **Full HD**. Choose the **Number of Devices Horizontally** as 1 and the **Number of Devices Vertically** as **1**.
     1. Click **Create**.
 
-   ![](assets/ch6.gif)
+   ![ch6](assets/ch6.gif)
 
 1. ***Assigning a channel***
 
@@ -86,7 +86,7 @@ The following use case describes creating multi-zones in a channel.
     1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
     1. Click **Save**.
 
-   ![](assets/ch7.gif)
+   ![ch7](assets/ch7.gif)
 
 1. ***Registering and Assigning the Device***
 
@@ -100,7 +100,7 @@ The following use case describes creating multi-zones in a channel.
     1. Click Assign Device fand select the display path for your channel () as /content/screens/Test_Project/Locations/TestLocation/TestDisplay. Click **Assign**.
     1. Click **Finish** to complete the process, and now the device is assigned.
 
-   ![](assets/ch8.gif)
+   ![ch8](assets/ch8.gif)
 
 #### Viewing Content in AEM Screens Player {#viewing-content-in-aem-screens-player}
 

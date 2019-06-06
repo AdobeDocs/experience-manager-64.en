@@ -23,13 +23,13 @@ You will need to create a design for your website and in AEM, you do so by using
 
 Your design can be defined in the **designs** section of the **Tools** tab:
 
-![](assets/screen_shot_2012-02-01at30237pm.png)
+![screen_shot_2012-02-01at30237pm](assets/screen_shot_2012-02-01at30237pm.png)
 
 Here you can create the structure required to store the design, then upload the cascaded style sheets and images required.
 
 Designs are stored under `/etc/designs`. The path to the design to be used for a website is specified using the `cq:designPath` property of the `jcr:content` node.
 
-![](assets/chlimage_1-74.png)
+![chlimage_1-74](assets/chlimage_1-74.png)
 
 >[!NOTE]
 >

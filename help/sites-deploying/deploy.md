@@ -159,7 +159,7 @@ In the following section we describe the **standalone installation**. For detail
 
    *Note that path of the file directory must consist of only US ASCII characters.*
 
-1. Place the the **jar** and **license **files in this directory:
+1. Place the the **jar** and **license** files in this directory:
 
    ```shell
    <aem-install>/
@@ -252,7 +252,7 @@ When the quickstart jar is launched for the first time it will unpack itself int
 
 If the instance was installed from the GUI, then a browser window will open auomatically and a desktop application window will also open displaying the host and port of the instance and an on/off switch:
 
-![](assets/screen_shot_2018-04-05at91504am1.png)
+![screen_shot_2018-04-05at91504am1](assets/screen_shot_2018-04-05at91504am1.png)
 
 >[!NOTE]
 >
@@ -283,7 +283,7 @@ AEM starts and automatically redirects your web browser to the appropriate page,
 
 `http://localhost:4502/`
 
-![](assets/screen_shot_2018-04-03at15317pm1.png)
+![screen_shot_2018-04-03at15317pm1](assets/screen_shot_2018-04-03at15317pm1.png)
 
 Once logged in, you have access to AEM. For further information, depending on the your role, see the following:
 

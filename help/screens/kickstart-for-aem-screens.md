@@ -48,7 +48,7 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
     1. Enter the title as *Test_Project *and click **Create**.
 
-   ![](assets/chlimage_1-64.png)
+   ![chlimage_1-64](assets/chlimage_1-64.png)
 
    Once the project is created, it brings you back to the Screens Project console. You can now select your project. In a project, there are five kind of folders namely **Schedules**,** Locations**,** Applications**,** Devices** and **Channels**, as shown in the figure below.
 
@@ -56,7 +56,7 @@ The following steps allow you to create a sample project for Screens and publish
    >
    >Schedules is only available if you have installed AEM 6.3 Sites Feature Pack 1. To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
 
-   ![](assets/screen_shot_2019-03-04at85952am.png)
+   ![screen_shot_2019-03-04at85952am](assets/screen_shot_2019-03-04at85952am.png)
 
    See [Create and Manage Screens Project](creating-a-screens-project.md) for more details.
 
@@ -71,11 +71,11 @@ The following steps allow you to create a sample project for Screens and publish
     1. Choose the **Sequence Channel **and click **Next**.
     1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
 
-   ![](assets/screen_shot_2019-03-04at90236am.png)
+   ![screen_shot_2019-03-04at90236am](assets/screen_shot_2019-03-04at90236am.png)
 
    The *TestChannel* is created and added to your channels folder, as shown in the figure below.
 
-   ![](assets/screen_shot_2019-03-04at90346am.png)
+   ![screen_shot_2019-03-04at90346am](assets/screen_shot_2019-03-04at90346am.png)
 
    See [Channel Management](managing-channels.md) for more details on creating and managing channels.
 
@@ -90,11 +90,11 @@ The following steps allow you to create a sample project for Screens and publish
     1. Click the icon that toggles side panel on left hand side of the action bar to open the assets and components.
     1. Drag and drop the components you want to add to your channel.
 
-   ![](assets/screen_shot_2019-03-04at90507am.png)
+   ![screen_shot_2019-03-04at90507am](assets/screen_shot_2019-03-04at90507am.png)
 
    In this example, the editor shows an image added to the channel.
 
-   ![](assets/screen_shot_2019-03-04at90558am.png)
+   ![screen_shot_2019-03-04at90558am](assets/screen_shot_2019-03-04at90558am.png)
 
 1. **Creating a new location**
 
@@ -109,11 +109,11 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select **Location** from the wizard and click **Next**.
     1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
 
-   ![](assets/screen_shot_2019-03-04at91021am.png)
+   ![screen_shot_2019-03-04at91021am](assets/screen_shot_2019-03-04at91021am.png)
 
    The *TestLocation* is created and added to your **Locations** folder.
 
-   ![](assets/screen_shot_2019-03-04at91117am.png)
+   ![screen_shot_2019-03-04at91117am](assets/screen_shot_2019-03-04at91117am.png)
 
 1. **Creating a new display for *TestLocation***
 
@@ -129,7 +129,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    A new display *TestDisplay* is added to your location *TestLocation*, as shown in the figure below.
 
-   ![](assets/screen_shot_2019-03-04at91341am.png)
+   ![screen_shot_2019-03-04at91341am](assets/screen_shot_2019-03-04at91341am.png)
 
 1. **Adding a Schedule**
 
@@ -145,11 +145,11 @@ The following steps allow you to create a sample project for Screens and publish
     1. Enter the **Title** as *MorningSchedule* in the properties page.
     1. Click **Create** and schedule will be added to the **Schedules** folder, as shown in the figure below.
 
-   ![](assets/screen_shot_2019-03-04at91836am.png)
+   ![screen_shot_2019-03-04at91836am](assets/screen_shot_2019-03-04at91836am.png)
 
    Additionally, select the schedule (*MorningSchedule*) and click **Dashboard** from the action bar to view the schedules dashboard. You can view/change schedule's properties, assign channels, and view assigned displays using the dashboard.
 
-   ![](assets/chlimage_1-65.png)
+   ![chlimage_1-65](assets/chlimage_1-65.png)
 
    See [Create and Manage Schedules](managing-schedules.md) to get detailed information on schedules.
 
@@ -167,7 +167,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    The channel is assigned and added to the panel.
 
-   ![](assets/screen_shot_2019-03-04at92423am.png)
+   ![screen_shot_2019-03-04at92423am](assets/screen_shot_2019-03-04at92423am.png)
 
    To learn more about **Channel Assignment** dialog box and the properties associated with it, see [Channel Assignment.](channel-assignment.md)
 
@@ -178,7 +178,7 @@ The following steps allow you to create a sample project for Screens and publish
     1. Choose the path where you created your schedule (here, *Test_Project* --&gt; **Schedules** --&gt; *MorningSchedule*).
     1. Click **Save** to add your schedule to your channel.
 
-   ![](assets/screen_shot_2019-03-04at93309am.png)
+   ![screen_shot_2019-03-04at93309am](assets/screen_shot_2019-03-04at93309am.png)
 
 1. **Registering a device**
 
@@ -200,27 +200,27 @@ The following steps allow you to create a sample project for Screens and publish
    >
    >If you are using AEM Screens Player as a ChromeOS extension, refer to the query under ***How to Install ChromeOS player as Chrome Browser Plugin*** in [AEM Screens FAQs](aem-screens-faqs.md) page.
 
-   ![](assets/screen_shot_2019-03-04at94604am.png)
+   ![screen_shot_2019-03-04at94604am](assets/screen_shot_2019-03-04at94604am.png)
 
    Select the device you want to register and click **Register Device**.
 
-   ![](assets/screen_shot_2019-03-04at94641am.png)
+   ![screen_shot_2019-03-04at94641am](assets/screen_shot_2019-03-04at94641am.png)
 
    You will need to validate the code by verifying the code from the web browser or AEM Screens player.
 
    Click **Validate** to navigate to **Device Registration** screen.
 
-   ![](assets/screen_shot_2019-03-04at94738am.png)
+   ![screen_shot_2019-03-04at94738am](assets/screen_shot_2019-03-04at94738am.png)
 
    Enter **Title** and click **Register**and the device will be registered.
 
    Click **Finish** to complete the device registration step.
 
-   ![](assets/screen_shot_2019-03-04at94901am.png)
+   ![screen_shot_2019-03-04at94901am](assets/screen_shot_2019-03-04at94901am.png)
 
    Clicking **Finish** returns you to the device page that displays unassigned and assigned devices.
 
-   ![](assets/screen_shot_2019-03-04at94943am.png)
+   ![screen_shot_2019-03-04at94943am](assets/screen_shot_2019-03-04at94943am.png)
 
    >[!NOTE]
    >
@@ -238,17 +238,17 @@ The following steps allow you to create a sample project for Screens and publish
     1. Click **Assign**.
     1. Click **Finish** to complete the process, and now the device is assigned.
 
-   ![](assets/screen_shot_2019-03-04at95026am.png)
+   ![screen_shot_2019-03-04at95026am](assets/screen_shot_2019-03-04at95026am.png)
 
    The display dashboard opens and you will see all the information related to assigned channels and schedules along with device config details.
 
-   ![](assets/screen_shot_2019-03-04at95124am.png)
+   ![screen_shot_2019-03-04at95124am](assets/screen_shot_2019-03-04at95124am.png)
 
 ### Viewing the content in Screens Player {#viewing-the-content-in-screens-player}
 
 Once you have added the above configurations, the player should automatically show the default channel for the display on your device, for example an image (in this scenario, a sequence channel and the content is visible in Screens Player for web browser).
 
-![](assets/screen_shot_2019-03-04at95334am.png)
+![screen_shot_2019-03-04at95334am](assets/screen_shot_2019-03-04at95334am.png)
 
 See [AEM Screens Player](working-with-screens-player.md), to get more detailed information on AEM Screens player.
 

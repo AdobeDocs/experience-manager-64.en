@@ -19,7 +19,7 @@ A Rich Text Editor (RTE) provides the ability to enter text with markup.
 
 For Communities components, while similar to the [rich text editor in the author environment](/help/sites-authoring/rich-text-editor.md), it affects text entered in the publish environment.
 
-![](assets/chlimage_1-410.png) 
+![chlimage_1-410](assets/chlimage_1-410.png) 
 
 ## Enabling Rich Text Editor {#enabling-rich-text-editor}
 
