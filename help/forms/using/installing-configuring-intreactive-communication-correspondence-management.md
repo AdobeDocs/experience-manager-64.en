@@ -8,7 +8,7 @@ topic-tags: installing
 discoiquuid: 674c6b68-8a04-4cd3-a63e-9968ca686948
 ---
 
-# Install and configure Interactive Communications{#install-and-configure-interactive-communications}
+# Install and configure Interactive Communications {#install-and-configure-interactive-communications}
 
 ## Introduction {#introduction}
 

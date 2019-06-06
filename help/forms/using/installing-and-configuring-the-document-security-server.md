@@ -8,7 +8,7 @@ contentOwner: khsingh
 discoiquuid: 600d13e7-6655-41c5-aab4-c8e9e2a8d14f
 ---
 
-# Installing and configuring the document security server{#installing-and-configuring-the-document-security-server}
+# Installing and configuring the document security server {#installing-and-configuring-the-document-security-server}
 
 Use document security to safely distribute any information that you have saved in a supported format. Only authorized users can access protected documents. 
 

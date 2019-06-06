@@ -10,7 +10,7 @@ topic-tags: document_services
 discoiquuid: 8b85bdc7-3864-49c9-81b0-cf15b8e986d9
 ---
  
-# Initiate Document Services APIs from AEM Workflow {#initiate-document-services-apis-from-aem-workflow}
+# Initiate Document Services APIs from AEM Workflow  {#initiate-document-services-apis-from-aem-workflow}
 
 ## Assembler {#assembler}
 
@@ -23,9 +23,9 @@ AEM Forms provides custom workflows to invoke the following Assembler service AP
 
 The **Invoke DDX** workflow invokes the `Invoke` Assembler service API, which you can use to assemble or disassemble documents, add watermark to a PDF, and so on.
 
-1. Drag the **Invoke DDX** workflow step under the Forms Workflow tab in Sidekick.
+1. Drag the **[!UICONTROL Invoke DDX]** workflow step under the Forms Workflow tab in Sidekick.
 1. Double-click the added workflow step to edit the component.
-1. In the Edit component dialog, configure input documents, environment options, and output documents, and click **OK**.
+1. In the Edit component dialog, configure input documents, environment options, and output documents, and click **[!UICONTROL OK]**.
 
 #### Input documents {#input-documents}
 
@@ -63,10 +63,10 @@ Depending on the input DDX, the invoke API can produce multiple output documents
 
 The Convert to PDF/A workflow step invokes the `toPDFA` Assembler service API. It is used for converting PDF documents to PDF/A compliant documents.
 
-1. Drag the **ConvertToPDFA** workflow step under the Forms Workflow tab in Sidekick.  
+1. Drag the **[!UICONTROL ConvertToPDFA]** workflow step under the Forms Workflow tab in Sidekick.  
 
 1. Double-click the added workflow step to edit the component.
-1. In the Edit component dialog, configure input documents, conversion options, and output documents, and click **OK**.
+1. In the Edit component dialog, configure input documents, conversion options, and output documents, and click **[!UICONTROL OK]**.
 
 #### Input documents {#input-documents-1}
 
@@ -104,7 +104,7 @@ The Render PDF Form workflow is a wrapper around `renderPDFForm` Forms service A
 
 1. Drag the Render PDF Form workflow step under the Forms Workflow tab in Sidekick.
 1. Double-click the added workflow step to edit the component.
-1. In the Edit component dialog, configure input documents, output documents, and additional parameters, and click **OK**.
+1. In the Edit component dialog, configure input documents, output documents, and additional parameters, and click **[!UICONTROL OK]**.
 
 #### Input documents {#input-documents-2}
 
@@ -133,7 +133,7 @@ The Generate Non Interactive PDF Workflow is a wrapper around `generatePDFOutput
 
 1. Drag the Generate Non Interactive PDF Output workflow under the Forms Workflow tab in Sidekick.
 1. Double-click the added workflow step to edit the component.
-1. In the Edit component dialog, configure input documents, output documents, and additional parameters, and click **OK**.
+1. In the Edit component dialog, configure input documents, output documents, and additional parameters, and click **[!UICONTROL OK]**.
 
 #### Input documents {#input-documents-3}
 

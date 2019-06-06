@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: 7313c108-39fa-4cf4-8955-2d54be41d476
 ---
 
-# Manage agent signature images{#manage-agent-signature-images}
+# Manage agent signature images {#manage-agent-signature-images}
 
 ## Overview {#overview}
 

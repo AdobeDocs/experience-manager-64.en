@@ -9,7 +9,7 @@ topic-tags: develop
 discoiquuid: d570ead9-8f9c-4668-8b23-e8984d9b25e9
 ---
 
-# Improve performance of large forms with lazy loading{#improve-performance-of-large-forms-with-lazy-loading}
+# Improve performance of large forms with lazy loading {#improve-performance-of-large-forms-with-lazy-loading}
 
 ## Introduction to lazy loading {#introduction-to-lazy-loading}
 
@@ -51,9 +51,8 @@ Perform the following steps to enable lazy loading on an adaptive form fragment:
 You can mark the values of objects in the lazily loaded fragment as global so that they are available for use in scripts when the containing fragment is not loaded. Do the following:
 
 1. Open the adaptive form fragment in authoring mode.
-1. Tap the field whose value you want to mark as global, and then tap ![cmppr](assets/cmppr.png).
-1. In the sidebar, enable **Use value during lazy loading**.
-
+1. Tap the field whose value you want to mark as global, and then tap ![](assets/cmppr.png).
+1. In the sidebar, enable **[!UICONTROL Use value during lazy loading]**.
    ![Lazy loading field in sidebar](assets/enable-lazy-loading.png)
 
    The value is now marked as global and will be available for use in scripts even when the containing fragment is unloaded.

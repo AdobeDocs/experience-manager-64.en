@@ -11,7 +11,7 @@ topic-tags: interactive-communications
 discoiquuid: 046b1bf9-1ac7-4e2e-ab37-6fe5422dfa20
 ---
 
-# Layout Design{#layout-design}
+# Layout Design {#layout-design}
 
 XFA form templates or XDPs are the templates for:
 
@@ -121,5 +121,5 @@ When elements such as your organization’s logo and address appear on all pages
 
 Use the layout’s server render format to Dynamic XML Form; otherwise, any letters/Interactive Communications based on this layout cannot render correctly. By default, the server render format in Forms Designer is set to Dynamic XML Form. To ensure that you are using the correct format:
 
-* In Designer, click **File** &gt;  **Form Properties** &gt;  **Defaults**, and ensure that the PDF Render/Format setting is set to Dynamic XML Form.
+* In Designer, click **[!UICONTROL File]** &gt; **[!UICONTROL Form Properties]** &gt; **[!UICONTROL Default]**, and ensure that the PDF Render/Format setting is set to Dynamic XML Form.
 

@@ -12,7 +12,7 @@ discoiquuid: 36560809-dba9-49cf-a8ee-23c6766382ef
 noindex: true
 ---
 
-# Installing and configuring Designer{#installing-and-configuring-designer}
+# Installing and configuring Designer {#installing-and-configuring-designer}
 
 Designer is available as a stand-alone installer and is also bundled with WorkBench. If you are using a stand-alone installer for Designer, follow these steps:
 

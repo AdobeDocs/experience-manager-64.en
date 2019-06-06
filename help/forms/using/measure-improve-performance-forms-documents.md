@@ -10,7 +10,7 @@ topic-tags: integrations
 discoiquuid: 6b62b280-d101-410a-ba8c-02940f766c32
 ---
 
-# Measure and improve effectiveness and conversion of forms{#measure-and-improve-effectiveness-and-conversion-of-forms}
+# Measure and improve effectiveness and conversion of forms {#measure-and-improve-effectiveness-and-conversion-of-forms}
 
 ## The challenge {#the-challenge-br}
 
