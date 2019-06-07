@@ -117,7 +117,7 @@ The Target functionality on the client side is managed by the `CQ_Analytics.Test
  </div>
 ```
 
-The JSP adds the required analytics javascript objects and references to client-side javascript libraries. The `testandtarget.js` file contains the `mbox.js` functions. The HTML that the script generates is similar to the following example:
+The JSP adds the required analytics javascript objects and references to client-side javascript libraries. The `testandtarget.js` file contains the `mbox.js` functions. The HTML that the script generates is similar to the following example:
 
 ```xml
 <script type="text/javascript">
@@ -136,7 +136,7 @@ The JSP adds the required analytics javascript objects and references to client-
 
 #### The body Section (start) {#the-body-section-start}
 
-Add the following code immediately following the `<body>` tag to add the client context features to the page:
+Add the following code immediately following the `<body>` tag to add the client context features to the page:
 
 ```xml
 <cq:include path="clientcontext" resourceType="cq/personalization/components/clientcontext"/>
@@ -144,7 +144,7 @@ Add the following code immediately following the `<body>` tag to add the clien
 
 #### The body Section (end) {#the-body-section-end}
 
-Add the following code immediately before the `</body>` end tag:
+Add the following code immediately before the `</body>` end tag:
 
 ```xml
 <cq:include path="cloudservices" resourceType="cq/cloudserviceconfigs/components/servicecomponents"/>
@@ -214,7 +214,7 @@ Most components can be converted to targeted components using the Target command
 To remove the Target command from the context menu, add the following property to the cq:editConfig node of the component:
 
 * Name: `cq:disableTargeting`
-* Type: `Boolean`
+* Type: `Boolean`
 * Value: `True`
 
 For example, to disable targeting for the title components of the Geometrixx Demo Site pages, add the property to the `/apps/geometrixx/components/title/cq:editConfig` node.
