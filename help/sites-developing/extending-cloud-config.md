@@ -102,7 +102,7 @@ Your component should extend the base component:
 
 After setting up your template and component you can add your configuration by adding subpages under:
 
-`/etc/cloudservices/<*service-name*>`
+`/etc/cloudservices/<service-name>`
 
 ### Content Model {#content-model}
 
@@ -135,7 +135,7 @@ propertyname
 
 For reference documentation on the API see [com.day.cq.wcm.webservicesupport](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/webservicesupport/package-summary.html).
 
-### CQ Integration {#cq-integration}
+### AEM Integration {#aem-integration}
 
 Available services are listed in the **Cloud Services** tab of the **Page Properties** dialog (of any page that inherits from `foundation/components/page` or `wcm/mobile/components/page`).
 

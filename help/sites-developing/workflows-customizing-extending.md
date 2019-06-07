@@ -43,11 +43,7 @@ As with [all components](/help/sites-developing/components.md), workflow step co
 >
 >The recommended method for configuration and other changes is:
 >
->1. Recreate the required item (i.e. as it exists in `/libs`) under >
->```>
->/apps
->
->```>
+>1. Recreate the required item (i.e. as it exists in `/libs` under `/apps`
 >2. Make any changes within `/apps`
 
 The `/libs/cq/workflow/components/model/step` component is the nearest common ancestor of the **Process Step**, **Participant Step**, and **Dynamic Participant Step**, which all inherit the following items:
@@ -256,7 +252,7 @@ Below the `cq:Component` node, add a `cq:EditConfig` node. Below that add an `nt
 
 You can use workflow metadata to persist information that is required during the lifetime of the workflow - and between steps. A common requirement of workflow steps is to persist data for future use, or to retrieve the persisted data from prior steps.
 
-Workflow metadata is stored in a ` [MetaDataMap](#metadatamaps)` object. The Java API provides the ` [Workflow.getWorkflowData](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow.html)` method to return a ` [WorkflowData](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData.html)` object that provides the appropriate `MetaDataMap` object. This `WorkflowData` `MetaDataMap` object is available to the OSGi service or ECMA script of a step component.
+Workflow metadata is stored in a [`MetaDataMap`](#metadatamaps) object. The Java API provides the [`Workflow.getWorkflowData`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow.html) method to return a [`WorkflowData`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData.html) object that provides the appropriate `MetaDataMap` object. This `WorkflowData` `MetaDataMap` object is available to the OSGi service or ECMA script of a step component.
 
 #### Java {#java}
 
@@ -357,6 +353,9 @@ log.info("currentDateInMillisKey "+ graniteWorkItem.getWorkflowData().getMetaDat
 >[!NOTE]
 >
 >This section describes how to work with arguments for process steps. The information also applies to dynamic participant choosers.
+
+>[!NOTE]
+>For another example of storing component properties in workflow metadata, see Example: Create a Logger Workflow Step. This example features a dailog that associates metadata value with a key other than PROCESS_ARGS.
 
 ### Scripts and Process Arguments {#scripts-and-process-arguments}
 
@@ -659,8 +658,8 @@ function getParticipant() {
 >
 >The following workflow process steps accept workflow packages for bulk page activation:
 >
->* ` [com.day.cq.wcm.workflow.process.ActivatePageProcess](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/process/ActivatePageProcess.html)` 
->* ` [com.day.cq.wcm.workflow.process.DeactivatePageProcess](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/process/DeactivatePageProcess.html)` 
+>* [`com.day.cq.wcm.workflow.process.ActivatePageProcess`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/process/ActivatePageProcess.html)
+>* [`com.day.cq.wcm.workflow.process.DeactivatePageProcess`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/process/DeactivatePageProcess.html)
 >
 
 You can develop workflow steps that obtain the package resources and process them. The following members of the `com.day.cq.workflow.collection` package provide access to workflow packages:
@@ -876,7 +875,7 @@ After [Creating the Basic Step](#creating-the-basic-step), define the step **Con
 
 1. Configure the properties on the node `cq:formsParameter` as follows:
 
-   **Properties of interest:** ``
+   **Properties of interest:**
 
     * `jcr:title` 
 

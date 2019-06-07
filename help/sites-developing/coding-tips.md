@@ -27,14 +27,13 @@ Ideally, another programmer should not have to open a module to understand what 
 
 In the AEM code base, the following conventions are used:
 
-* A single implementation of an interface is named *&lt;Interface&gt;Impl*, i.e. *ReaderImpl*.
 
-* Multiple implementations of an interface are named *&lt;Variant&gt;&lt;Interface&gt;*, i.e. *JcrReader* and *FileSystemReader*.
-
-* Abstract base classes are named Abstract*&lt;Interface&gt;* or *Abstract&lt;Variant&gt;&lt;Interface&gt;*.
-
-* Packages are named *com.adobe.product.module*. Each Maven artifact or OSGi bundle must have its own package.
+* A single implementation of an interface is named `<Interface>Impl`, i.e. `ReaderImpl`.
+* Multiple implementations of an interface are named `<Variant><Interface>`, i.e. `JcrReader` and `FileSystemReader`.
+* Abstract base classes are named `Abstract<Interface>` or `Abstract<Variant><Interface>`.
+* Packages are named `com.adobe.product.module`.  Each Maven artifact or OSGi bundle must have its own package.
 * Java implementations are placed in an impl package below their API.
+
 
 Note that these conventions don’t necessarily need to apply to customer implementations, but it is important that conventions are defined and adhered to so that the code can stay maintainable.
 

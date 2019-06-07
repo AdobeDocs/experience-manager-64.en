@@ -13,7 +13,7 @@ discoiquuid: 5773ec1a-f15b-462d-8f9f-54ee1d7ead44
 
 # Configuring Cookie Usage{#configuring-cookie-usage}
 
-CQ provides a service that enables you to configure and control how cookies are used with your web pages:
+AEM provides a service that enables you to configure and control how cookies are used with your web pages:
 
 * A configurable server-side service maintains a list of cookies that can be used.
 * A javascript API enables your javascript code to verify that a cookie can be used.

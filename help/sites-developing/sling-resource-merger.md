@@ -19,18 +19,17 @@ The Sling Resource Merger provides services to access and merge resources. It pr
 
 * **[Overlays](/help/sites-developing/overlays.md)** of resources using the [configured search paths](/help/sites-developing/overlays.md#configuring-the-search-paths).
 
-* **Overrides** of component dialogs for the touch-enabled UI ( `cq:dialog`), using the resource type hierarchy (by means of the property `sling:resourceSuperType`).
+* **Overrides** of component dialogs for the touch-enabled UI (`cq:dialog`), using the resource type hierarchy (by means of the property `sling:resourceSuperType`).
 
 With the Sling Resource Merger, the overlay/override resources and/or properties are merged with the original resources/properties:
 
 * The content of the customized definition has a higher priority than that of the original (i.e. it *overlays *or* overrides* it).  
 
-* Where necessary, [properties](#properties) defined in the customization ``, indicate how content merged from the original is to be used.
+* Where necessary, [properties](#properties) defined in the customization, indicate how content merged from the original is to be used.
 
 >[!CAUTION]
 >
 >The Sling Resource Merger and related methods can only be used with [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html). This also means that it is only appropriate for the stndard, touch-enabled UI; in particular overrides defined in this manner are only applicable for the touch-enabled dialog of a component.  
-
 >
 >Overlays/overrides for other areas (including other aspects of a touch-enabled component or the classic UI) involve copying the appropriate node and structure from the original to where the customization will be defined.
 
@@ -222,7 +221,7 @@ These, in conjunction with standard functionality, enable you to:
            This specifies the node (as in `/libs`) that the current node should be positioned before:
 
             * type: `String`
-            * value: `<*before-SiblingName*>`
+            * value: `<before-SiblingName>`
 
 ### Invoking the Sling Resource Merger from your code {#invoking-the-sling-resource-merger-from-your-code}
 
@@ -241,7 +240,7 @@ The Sling Resource Merger includes two custom resource providers - one for overl
     * usage: `mount point + relative path`
     * example:
 
-        * `getResource('/mnt/overlay' + '<*relative-path-to-resource*>');`
+        * `getResource('/mnt/overlay' + '<relative-path-to-resource>');`
 
 * Override:
 
@@ -250,7 +249,7 @@ The Sling Resource Merger includes two custom resource providers - one for overl
     * usage: `mount point + absolute path`
     * example:
 
-        * `getResource('/mnt/override' + '<*absolute-path-to-resource*>');`
+        * `getResource('/mnt/override' + '<absolute-path-to-resource>');`
 
 ### Example of Usage {#example-of-usage}
 

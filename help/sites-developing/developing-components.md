@@ -337,7 +337,7 @@ Out-of-the-box AEM only checks the Reference component. To add your component yo
 
 Create a new entry in the definition, specifying your component, together with the property to be checked. For example:
 
-`/apps/<*your-Project*>/components/reference@parentPath`
+`/apps/<your-Project>/components/reference@parentPath`
 
 >[!NOTE]
 >
@@ -350,7 +350,7 @@ After the component has been developed it needs to be enabled for use in an appr
 This can be done by either:
 
 * using [Design mode](/help/sites-authoring/default-components-designmode.md) when editing a specific page.
-* [defining the `components` property on the paragraph system of a template](/help/sites-developing/components-basics.md#adding-your-component-to-the-paragraph-system).
+* defining the components [property on the paragraph system of a template](/help/sites-developing/components-basics.md#adding-your-component-to-the-paragraph-system).
 
 ## Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance {#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance}
 

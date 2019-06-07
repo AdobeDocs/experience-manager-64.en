@@ -32,6 +32,11 @@ AEM provides several APIs for developing applications. The following list provid
 
 AEM Single-Page Application (SPA) Editor SDK framework JavaScript API references:
 
+* [Component Mapping](https://www.npmjs.com/package/@adobe/cq-spa-component-mapping)
+* [Page Model Manager](https://www.npmjs.com/package/@adobe/cq-spa-page-model-manager)
+* [React Editable Components](https://www.npmjs.com/package/@adobe/cq-react-editable-components)
+* [Angular Editable Components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components)
+
 AEM Delivery and Content Management APIs:
 
 * Core Components (JSON)
