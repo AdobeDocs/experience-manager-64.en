@@ -27,6 +27,6 @@ To access the developer resources, see the links below:
 
 * [REST API](/help/screens/rest-api.md)
 * [Creating Components](/help/screens/creating-components.md)
-* [Offline Channels](help/screens/offline-channels.md)
+* [Offline Channels](/help/screens/offline-channels.mdd)
 * [Configuring Adobe Analytics with AEM Screens](/help/screens/configuring-adobe-analytics-aem-screens.md)
 
