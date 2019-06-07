@@ -13,7 +13,7 @@ discoiquuid: d630499d-740d-4979-8a34-9e3fcc3b5a23
 
 # Interactive Images{#interactive-images}
 
-You can easily make static images rich, engaging experiences for customers by dragging and dropping "shoppable" hotspots onto an image. Shoppable hotspots combine additional information about a product or service with a direct, point-of-sale "Add to cart" or "Buy" capability. Customers can tap or click these hotspots and be linked directly to the product or service, add it to a shopping cart, or be linked to a web page. Direct experiences such as these increase customer engagment and conversion on your web site.
+You can easily make static images rich, engaging experiences for customers by dragging and dropping "shoppable" hotspots onto an image. Shoppable hotspots combine additional information about a product or service with a direct, point-of-sale "Add to cart" or "Buy" capability. Customers can tap these hotspots and be linked directly to the product or service, add it to a shopping cart, or be linked to a web page. Direct experiences such as these increase customer engagment and conversion on your web site.
 
 The following is a shoppable banner with a Quickview pop-up. A user activates the Quickview by tapping the circle or "hotspot" on the model.
 
@@ -37,7 +37,7 @@ Look for the **Example** heading within some of the Quick Start tasks. It contai
 
 The tutorial helps to illustrate the steps of integrating interactive images on your own website.
 
-Interactive Images steps:
+**Interactive Images workflow**:
 
 1. **(Optional) Identifying hotspot variables** - If you use AEM Assets and Dynamic Media standalone, start by identifying dynamic variables used in your existing Quickview implementation so that you can enter hotspot data when creating the interactive image. See [(Optional) Identifying hotspot variables](#optional-identifying-hotspot-variables).
 
@@ -88,7 +88,7 @@ Sometimes it may be enough to consult with IT specialists responsible for the ex
 
 The majority of Quickview implementations use the following paradigm:
 
-* User activates a user interface element on the website. For example, clicking a "Quickview" button.
+* User activates a user interface element on the website. For example, clicking a **[!UICONTROL Quickview]** button.
 * The website sends an Ajax request to the backend to load the Quickview data or content, if needed.
 * The Quickview data is translated into the content in preparation for rendering on the web page.
 * Finally, the front-end code visually renders such content on the screen.
@@ -97,13 +97,13 @@ The approach then is to visit different areas of the existing website where the 
 
 Normally there is no need for you to use any specialized debugging tools. Modern web browsers feature web inspectors that do an adequate job. The following are a few examples of web browsers that include web inspectors:
 
-* To see all outgoing HTTP requests in Google Chrome, press F12 to open the Developer Tools panel, and then click the Network tab.
+* To see all outgoing HTTP requests in Google Chrome, press F12 to open the **[!UICONTROL Developer Tools]** panel, and then click the **[!UICONTROL Network]** tab.
 
-  On a Mac, press Command+Option+I to open the Developer Tools panel, then click the Network tab.  
+  On a Mac, press **[!UICONTROL Command+Option+I]** to open the **[!UICONTROL Developer Tools]** panel, then click the Network tab.  
 
-* In Firefox, you can either activate the Firebug plug-in by pressing F12 and use its Net tab, or you can use the built-in Inspector tool and its Network tab.
+* In Firefox, you can either activate the Firebug plug-in by pressing F12 and use its Net tab, or you can use the built-in **[!UICONTROL Inspector]** tool and its **[!UICONTROL Network]** tab.
 
-  On a Mac, press Command+Option+I to open the Developer Tools panel, then click the Inspector tab.
+  On a Mac, press **[!UICONTROL Command+Option+I]** to open the **[!UICONTROL Developer Tools]** panel, then click the **[!UICONTROL Inspector]** tab.
 
 When network monitoring is turned on in the browser, trigger the Quickview on the page.
 
@@ -164,7 +164,7 @@ You can apply the same approach used in the three examples above to the demo web
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html)
 
-The demo web page has several product thumbnails, each having a Quickview button labeled “See More”. With your web browser's debugging tool still activated, click each button and note the recorded Quickview URLs. After you activate all four product Quickviews available on the page, you have the following list of Quickview requests made to the backend:
+The demo web page has several product thumbnails, each having a Quickview button labeled **[!UICONTROL See More]**. With your web browser's debugging tool still activated, click each button and note the recorded Quickview URLs. After you activate all four product Quickviews available on the page, you have the following list of Quickview requests made to the backend:
 
 * `/datafeed/Men-Windbreaker.json`
 * `/datafeed/Men-SimpleHenley.json`
@@ -186,28 +186,28 @@ You are now ready to upload an image banner and add hotspots to it using the sho
 
 ## (Optional) Creating an Interactive Image viewer preset {#optional-creating-an-interactive-image-viewer-preset}
 
-You can choose to use the default, out-of-the-box Interactive Image viewer preset called **Shoppable_Banner **that comes with AEM Assets. Or you can create your own custom viewer preset for use with interactive images.
+You can choose to use the default, out-of-the-box Interactive Image viewer preset called **[!UICONTROL Shoppable_Banner]** that comes with AEM Assets. Or you can create your own custom viewer preset for use with interactive images.
 
 When you create a custom Interactive Image viewer preset, you can determine the look of hotspots on the image banner. As part of the creation of the viewer preset, you can choose to use a hotspot graphic from a gallery of pre-defined images.
 
-After you save the viewer preset, it is automatically activated (turned on) on the Viewer Preset list page in AEM Assets. This functionality means that it is visible in the Interactive Media component and whenever you view an asset. However, to *deliver *an interactive banner with this viewer preset, you must *publish *your viewer preset as well (this is true for custom or out-of-box viewer presets).
+After you save the viewer preset, it is automatically activated (turned on) on the **[!UICONTROL Viewer Preset]** list page in AEM Assets. This functionality means that it is visible in the Interactive Media component and whenever you view an asset. However, to *deliver* an interactive banner with this viewer preset, you must *publish* your viewer preset as well (this is true for custom or out-of-box viewer presets).
 
 **To create an Interactive Image viewer preset**:
 
-1. In the left rail, tap **Tools** &gt; **Assets** &gt; **Viewer Presets**.
-1. Near the upper-right corner of the page, tap **Create**.
-1. In the New Viewer Preset dialog box, type a name to describe the interactive banner viewer preset.  
+1. In the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]**.
+1. Near the upper-right corner of the page, tap **[!UICONTROL Create]**.
+1. In the **[!UICONTROL New Viewer Preset]** dialog box, type a name to describe the interactive banner viewer preset.  
 
-   This is the title that will appear in the Viewer Preset list page after you save.
-1. In the Rich Media Type pull-down menu, select **Interactive Image**.
+   This is the title that will appear in the **[!UICONTROL Viewer Preset]** list page after you save.
+1. In the **[!UICONTROL Rich Media Type]** pull-down menu, select **[!UICONTROL Interactive Image]**.
 1. Tap **Create**.
-1. On the Edit Viewer Preset page, tap the **Appearance** tab.
+1. On the **[!UICONTROL Edit Viewer Preset]** page, tap the **[!UICONTROL Appearance]** tab.
 1. Do one of the following:
 
-    * To upload your own hotspot image that you want to use on images, tap the Asset Picker icon. In the Select Content page, navigate to the hotspot image you want to use, select it, and then tap the Check Mark icon in the upper-right corner.
-    * To select a predefined hotspot image, tap the Hotspot Gallery icon. On the hotspot gallery pallette, tap the hotspot image you want to use.
+    * To upload your own hotspot image that you want to use on images, tap the **[!UICONTROL Asset Picker]** icon. In the **[!UICONTROL Select Content]** page, navigate to the hotspot image you want to use, select it, and then tap the **[!UICONTROL Check Mark]** icon in the upper-right corner.
+    * To select a predefined hotspot image, tap the **[!UICONTROL Hotspot Gallery]** icon. On the hotspot gallery pallette, tap the hotspot image you want to use.
 
-1. Near the upper-right corner of the page, tap **Save**.
+1. Near the upper-right corner of the page, tap **[!UICONTROL Save]**.
 
    Be sure you publish the new viewer preset.
 
@@ -229,7 +229,7 @@ If you have already uploaded the images that you want to use, advance to the nex
 
 ## Adding hotspots to an image banner {#adding-hotspots-to-an-image-banner}
 
-You can add hotspots to an image banner using the editor on the Hotspot Management page.
+You can add hotspots to an image banner using the editor on the **[!UICONTROL Hotspot Management]** page.
 
 When you add hotspots, you can define them as a Quickview pop-up display, as a hyperlink, or an Experience Fragment.
 
@@ -239,9 +239,9 @@ See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
 >
 >Be aware that the social media sharing tools in Interactive Image are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
 
-Undo and Redo options, near the upper-right corner of the page, are supported during your current creation/editing session.
+**[!UICONTROL Undo]** and **[!UICONTROL Redo]** options, near the upper-right corner of the page, are supported during your current creation/editing session.
 
-When you finish creating your interactive image, you can use Preview to see a representation of how your interactive image will appear to customers.
+When you finish creating your interactive image, you can use **[!UICONTROL Preview]** to see a representation of how your interactive image will appear to customers.
 
 See [(Optional) Previewing interactive images](#optional-previewing-interactive-images).
 
@@ -262,33 +262,33 @@ See [(Optional) Previewing interactive images](#optional-previewing-interactive-
 1. In the Assets view, navigate to the image banner that you want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**. 
-    * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
-    * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
+    * Hover on the image, then tap **[!UICONTROL Select** (checkmark icon). On the toolbar, tap **[!UICONTROL Edit**. 
+    * Hover on the image, then tap **[!UICONTROL More actions]** (three dots icon) &gt; **[!UICONTROL Edit]**.
+    * Tap the image to open it in the **[!UICONTROL Detail View]** page. On the toolbar, tap **[!UICONTROL Edit**.
 
-1. Near the upper-left corner of the page, tap **Add Hotspot** (finger tap icon) to open the Hotspot management page.
-1. Near the upper-left corner of the page, tap **Hotspot**.
-1.  a. Near the upper-left corner of the Hotspot Management page, tap **Hotspot**.
+1. Near the upper-left corner of the page, tap **[!UICONTROL Add Hotspot]** (finger tap icon) to open the **[!UICONTROL Hotspot Management]** page.
+1. Near the upper-left corner of the page, tap **[!UICONTROL Hotspot]**.
+1.  a. Near the upper-left corner of the **Hotspot Management** page, tap **[!UICONTROL Hotspot]**.
     b. On the image, tap a location where you want the hotspot to appear. If necessary, drag the hotspot to adjust its location.
     c. Add additional hotspots as necessary by repeating steps a and b.
-    d. (Optional) To delete a hotspot, select it on the image, then tap **Delete** (garbage can icon) under the **Hotspots** heading.
+    d. (Optional) To delete a hotspot, select it on the image, then tap **[!UICONTROL Delete]** (garbage can icon) under the **[!UICONTROL Hotspots]** heading.
 
-1. In the Name text field, type the name of the hotspot. This name also appears in the Selected Hotspot drop-down list.
+1. In the **[!UICONTROL Name]** text field, type the name of the hotspot. This name also appears in the **[!UICONTROL Selected Hotspot]** drop-down list.
 1. Do one of the following:
 
-    * Tap **Quickview**.
+    * Tap **[!UICONTROL Quickview]**.
 
-        * If you are an AEM Sites or eCommerce customer, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap the product you want to use, then tap **Select** in the upper-right corner of the page to return to the Hotspot management page.
+        * If you are an AEM Sites or eCommerce customer, tap the **[!UICONTROL Product Picker]** icon (magnifying glass) to open the **[!UICONTROL Select Product]** page. Tap the product you want to use, then tap **[!UICONTROL Select]** in the upper-right corner of the page to return to the **[!UICONTROL Hotspot Management]** page.
         * If you are *not* an AEM Sites or eCommerce customer
 
             * See [Identifying hotspot variables](#optional-identifying-hotspot-variables); you will need to define these variables. 
-            * Then, manually enter the SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped hotspot with a particular SKU's Quickview.
-            * (Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap **Add Generic Variable**. In the text field, specify an additional variable. For example, `category=Mens` is an added variable.
+            * Then, manually enter the SKU value. In the **[!UICONTROL SKU Value]** text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped hotspot with a particular SKU's Quickview.
+            * (Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap **[!UICONTROL Add Generic Variable]**. In the text field, specify an additional variable. For example, `category=Mens` is an added variable.
 
     * Tap **Hyperlink**.
 
-        * If you are an AEM Sites customer, tap or click the Site Selector icon (folder) to navigate to a URL. Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
-        * If you are a standalone customer, in the HREF text field, specify the full URL path to a linked web page.
+        * If you are an AEM Sites customer, tap the **[!UICONTROL Site Selector]** icon (folder) to navigate to a URL. Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
+        * If you are a standalone customer, in the **[!UICONTROL HREF]** text field, specify the full URL path to a linked web page.
 
         Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
 
@@ -296,14 +296,15 @@ See [(Optional) Previewing interactive images](#optional-previewing-interactive-
 
     * Tap **Experience Fragment**.
 
-        * If you are an AEM Sites customer, tap the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap Select in the upper-right corner of the page to return to the Hotspot management page.  
+        * If you are an AEM Sites customer, tap the **[!UICONTROL Search]** icon (magnifying glass) to open the **[!UICONTROL Experience Fragment]** page. Tap the Experience Fragment you want to use, then tap **[!UICONTROL Select]** in the upper-right corner of the page to return to the Hotspot management page.  
 
           See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
-          **Note**: Be aware that the social media sharing tools in Interactive Image are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
+          >[!NOTE]
+          >Be aware that the social media sharing tools in Interactive Image are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
 
         * Specify the width and height of the Experience Fragment as it will appear on the banner.
 
-1. Tap **Save** to save your work and return to the Browse page.
+1. Tap **[!UICONTROL Save]** to save your work and return to the **[!UICONTROL Browse]** page.
 1. Publish the interactive image. Publishing allows for the banner to be delivered through the cloud and also generates embed code if you need to integrate with a third party website.
 
    See [Publishing assets](managing-assets-touch-ui.md#publishing-assets).
@@ -325,11 +326,11 @@ See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).
 See [Linking URLs to your web application](linking-urls-to-yourwebapplication.md). Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.  
 See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)
 
-To preview interactive images:
+**To preview interactive images**:
 
 1. In the Assets view, navigate to an existing interactive image that you have created and tap to open it in Preview.
-1. Near the upper-left corner of the Preview page, in the Content drop-down list, tap **Viewers**.
-1. In the Viewers list, tap **Shoppable_Banner** or the name of the interactive image viewer preset you have created.
+1. Near the upper-left corner of the Preview page, in the **[!UICONTROL Content]** drop-down list, tap **[!UICONTROL Viewers]**.
+1. In the **[!UICONTROL Viewers]** list, tap **[!UICONTROL Shoppable_Banner]** or the name of the interactive image viewer preset you have created.
 1. Tap hotspots on the image to test their associated actions.
 
 ## Publishing interactive image assets {#publishing-interactive-image-assets}
@@ -348,7 +349,7 @@ If you are a standalone AEM Assets customer, you can manually add the interactiv
 
    See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).
 
-1. Add the copied embed code on the desired location within the webpage.   
+1. Add the copied embed code on the desired location within the webpage.
 
    The copied embed code is set for a responsive environment so it should automatically fit the assigned area.
 
@@ -372,7 +373,7 @@ Integration is as simple as removing the `IMG` tag and replacing it with the cop
 >
 >As this point, the hotspots on the shoppable interactive image of the demo website are for display purposes only; they are not yet integrated with the existing Quickviews.
 
-To apply a "crop" to a shoppable interactive image for a responsive environment, you can include the Interactive Image configuration attribute `ZoomView.iscommand` to the path--where `ZoomView` is the component to call and `iscommand` is the "crop" image serving command that you apply.
+To apply a crop to a shoppable interactive image for a responsive environment, you can include the Interactive Image configuration attribute `ZoomView.iscommand` to the path&mdash;where `ZoomView` is the component to call and `iscommand` is the crop image serving command that you apply.
 
 See [ZoomView.iscommand](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_interactive_image_config_attrib_zoomview_iscommand.html) configuration attribute.
 
