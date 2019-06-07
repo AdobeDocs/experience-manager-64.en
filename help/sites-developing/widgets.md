@@ -52,13 +52,13 @@ To create a client library:
         jcr:mixinTypes="[mix:lockable]"
         jcr:primaryType="cq:ClientLibraryFolder" 
         sling:resourceType="widgets/clientlib" 
-        categories="[&lt;category-name&gt;]" 
+        categories="[<category-name>]" 
         dependencies="[cq.widgets]"
     ```
 
     >[!NOTE]
     >
-    >Note: <category-name> is the name of the custom library (e.g. "cq.extjstraining") and is used to include the library on the page.
+    >Note: `<category-name>` is the name of the custom library (e.g. "cq.extjstraining") and is used to include the library on the page.
 
 1. Below `clientlib` create the `css` and `js` folders (nt:folder).  
 
