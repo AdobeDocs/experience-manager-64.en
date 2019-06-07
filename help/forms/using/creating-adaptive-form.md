@@ -98,8 +98,7 @@ Do the following to use an XFA form template as form model for your adaptive for
 1. In the Form Model tab, from the drop-down list, select **Form Templates**. All the form templates that are uploaded to the repository via AEM Forms UI are listed for selection. Select a template from the list.
 
    ![Associate XFA Form Template with an Adaptive Form](assets/form_model_xfa_associate.png)
-
-   Selecting a form template
+**Figure:** *Selecting a form template*
 
    >[!NOTE]
    >
@@ -129,14 +128,12 @@ Do the following to use XML or JSON schema as form model for an adaptive form:
    >Ensure that the JSON schema filename ends with **.schema.json**. For example: mySchema.schema.json
 
    ![Selecting XML or JSON schema](assets/upload-schema.png)
-
-   Selecting XML or JSON schema
+**Figure:** *Selecting XML or JSON schema*
 
 1. (For XML schema only) After you select or upload an XML Schema, specify a root element of the selected XSD file to map with the adaptive form.
 
    ![Selecting XSD root element](assets/xsd-root-element.png)
-
-   Selecting XSD root element
+**Figure:** *Selecting XSD root element*
 
 >[!NOTE]
 >

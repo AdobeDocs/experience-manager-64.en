@@ -153,7 +153,7 @@ The name of the store.
 
 #### persistence {#persistence}
 
-A ContextHub.Utils.Persistence object. For information about the default value and initialization, see ` [init(name,config)](/help/sites-developing/contexthub-api.md#init-name-config).`
+A ContextHub.Utils.Persistence object. For information about the default value and initialization, see `[init(name,config)](/help/sites-developing/contexthub-api.md#init-name-config).`
 
 ### Functions (ContextHub.Store.Core) {#functions-contexthub-store-core}
 
@@ -686,9 +686,9 @@ Removes all cookies that match a given filter. Cookies are matched using the get
 
 **Parameters**
 
-* **filter:** The `filter` argument to use in the call to the ` [getKeys](/help/sites-developing/contexthub-api.md#getkeys-filter)` function.
+* **filter:** The `filter` argument to use in the call to the `[getKeys](/help/sites-developing/contexthub-api.md#getkeys-filter)` function.
 
-* **options:** The `options` argument to use in the call to the ` [removeItem](/help/sites-developing/contexthub-api.md#removeitem-key-options)` function.
+* **options:** The `options` argument to use in the call to the `[removeItem](/help/sites-developing/contexthub-api.md#removeitem-key-options)` function.
 
 **Returns**
 

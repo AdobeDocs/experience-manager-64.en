@@ -23,7 +23,6 @@ The classic UI uses ExtJS to create widgets that provide the look-and-feel of th
 >[!NOTE]
 >
 >Although both the HTML Template Language (HTL) and JSP can be used for developing components for the classic UI, this page illustrates development with JSP. This is solely due to the history of using JSP within the classic UI.  
-
 >
 >HTL is now the recommended scripting language for AEM. See [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html) and [Developing AEM Components](/help/sites-developing/developing-components.md) to compare methods.
 
@@ -146,7 +145,7 @@ To develop new components for AEM based on existing component you can copy the c
 
 1. Using CRXDE Lite, create a new component folder in:
 
-   / `apps/<*myProject*>/components/<*myComponent*>`
+   / `apps/<myProject>/components/<myComponent>`
 
    Recreate the node structure as in libs, then copy the definition of an existing component, such as the Text component. For example, to customize the Text component copy:
 

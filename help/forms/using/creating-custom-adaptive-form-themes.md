@@ -39,8 +39,7 @@ You create an **adaptive template** and apply the theme to the template. You the
 >If you follow these steps using the names, the resultant template should appear similar to the following snapshot:
 
 ![Forest themed Adaptive Form snapshot](assets/thumbnail.png)
-
-Forest Theme Sample
+**Figure:** *Forest Theme Sample*
 
 1. Create a node of type `cq:ClientLibraryFolder` under the `/apps`node.
 

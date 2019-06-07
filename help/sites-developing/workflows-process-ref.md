@@ -30,7 +30,7 @@ Process steps are defined either by a Java class or an ECMAScript.
 
 The payload is the entity upon which a workflow instance acts. The payload is selected implicitly by the context within which a workflow instance is started.
 
-For example, if a workflow is applied to an AEM page *P* then *P* is passed from step to step as the workflow advances, with each step optionally acting upon *P *in some way.
+For example, if a workflow is applied to an AEM page *P* then *P* is passed from step to step as the workflow advances, with each step optionally acting upon *P* in some way.
 
 In the most common case the payload is a JCR node in the repository (for example, an AEM Page or Asset). A JCR Node payload is passed as a string that is either a JCR path or a JCR identifier (UUID). In some cases the payload may be a JCR property (passed as a JCR path), a URL, a binary object or a generic Java object. Individual process steps that do act on the payload will usually expect a payload of a certain type, or act differently depending on the payload type. For each process described below, the expected payload type, if any, is described.
 
@@ -40,14 +40,12 @@ Some workflow processes accept arguments that the administrator specifies when s
 
 Arguments are entered as a single string in the **Process Arguments** property in the **Properties** pane of the workflow editor. For each process described below, the format of the argument string is described in a simple EBNF grammar. For example, the following indicates that the argument string consists of one or more comma-delimited pairs, where each pair consists of a name (which is a string) and a value, seperated by a double colon:
 
-`args := name '::' value [',' name '::' value]*`
-
 ```
-name := /* A string */
-
+    args := name '::' value [',' name '::' value]*
+    name := /* A string */
+    value := /* A string */
 ```
 
-`value := /* A string */`
 
 ### Timeout {#timeout}
 
@@ -92,9 +90,7 @@ The following processes do not perform any actions on content. They serve to con
 The `AbsoluteTimeAutoAdvancer` (Absolute Time Auto Advancer) process behaves identically to **AutoAdvancer**, except that it times out at a given time and date, instead of after a given length of time.
 
 * **Java Class**: `com.adobe.granite.workflow.console.timeout.autoadvance.AbsoluteTimeAutoAdvancer`
-
-* ``**Payload**: None.
-
+* **Payload**: None.
 * **Arguments**: None.
 * **Timeout**: Process times out when the set time and date is reached.
 
@@ -106,7 +102,7 @@ The `AutoAdvancer` process automatically advances the workflow to the next step.
 
 * **Payload**: None.
 * **Arguments**: None.
-* **Timeout**: Process times out after set length of time. ``
+* **Timeout**: Process times out after set length of time.
 
 ### ProcessAssembler (Process Assembler) {#processassembler-process-assembler}
 
@@ -117,16 +113,16 @@ The `ProcessAssembler` process executes multiple sub-processes sequentially in a
 * **Payload**: A DAM Asset, AEM Page or no payload (depends on requirements of subprocesses).
 * **Arguments**:
 
-      ```
-      args := arg [',' arg]
-       arg := processname ['::' processargs]
-       processname := /* A fully qualified Java Class or absolute 
-       repository path to an ECMAScript */
-       processargs := processarg [';' processarg]*
-       processarg := '[' nobracketprocessarg ']' | nobracketprocessarg
-       nobracketprocessarg := listitem [':' listitem]*
-       listitem := /* A string */
-      ```
+```
+        args := arg [',' arg]
+        arg := processname ['::' processargs]
+        processname := /* A fully qualified Java Class or absolute 
+        repository path to an ECMAScript */
+        processargs := processarg [';' processarg]*
+        processarg := '[' nobracketprocessarg ']' | nobracketprocessarg
+        nobracketprocessarg := listitem [':' listitem]*
+        listitem := /* A string */
+```
 
 * **Timeout**: Respected.
 
@@ -146,7 +142,7 @@ com.day.cq.dam.core.process.ExtractMetadataProcess,
 
 ## Basic Processes {#basic-processes}
 
-``The following processes perform simple tasks or serve as examples.
+The following processes perform simple tasks or serve as examples.
 
 >[!CAUTION]
 >
@@ -160,9 +156,9 @@ The item at the given path is deleted.
 
 * **ECMAScript path**: `/libs/workflow/scripts/delete.ecma`
 
-* **Payload**: JCR path.
-* **Arguments**: None.
-* **Timeout**: Ignored. ``
+* **Payload**: JCR path
+* **Arguments**: None
+* **Timeout**: Ignored
 
 ### noop {#noop}
 
@@ -170,9 +166,9 @@ This is the null process. It performs no operation, but does log a debug message
 
 * **ECMAScript path**: `/libs/workflow/scripts/noop.ecma`
 
-* **Payload**: None.
-* **Arguments**: None.
-* **Timeout**: Ignored.
+* **Payload**: None
+* **Arguments**: None
+* **Timeout**: Ignored
 
 ### rule-false {#rule-false}
 
@@ -180,9 +176,9 @@ This is a null process that returns `false` on the `check()` method.
 
 * **ECMAScript path**: `/libs/workflow/scripts/rule-false.ecma`
 
-* **Payload**: None.
-* **Arguments**: None.
-* **Timeout**: Ignored. ``
+* **Payload**: None
+* **Arguments**: None
+* **Timeout**: Ignored
 
 ### sample {#sample}
 
@@ -190,9 +186,9 @@ This is a sample ECMAScript process.
 
 * **ECMAScript path**: `/libs/workflow/scripts/sample.ecma`
 
-* **Payload**: None.
-* **Arguments**: None.
-* ``**Timeout**: Ignored.
+* **Payload**: None
+* **Arguments**: None
+* **Timeout**: Ignored
 
 ### urlcaller {#urlcaller}
 
@@ -200,16 +196,19 @@ This is a simple workflow process that calls the given URL. Typically the URL wi
 
 * **ECMAScript path**: `/libs/workflow/scripts/urlcaller.ecma`
 
-* **Payload**: None.
+* **Payload**: None
 * **Arguments**:
 
-    * `args := url [',' login ',' password]`
-    * `url := /* The URL to be called */`
-    * `login := /* The login to access the URL */`
-    * `password := /* The password to access the URL */`
-    * for example: `http://localhost:4502/my.jsp, mylogin, mypassword`
+```
+        args := url [',' login ',' password]
+        url := /* The URL to be called */
+        login := /* The login to access the URL */
+        password := /* The password to access the URL */
+```
 
-* **Timeout**: Ignored.
+For example: `http://localhost:4502/my.jsp, mylogin, mypassword`
+
+* **Timeout**: Ignored
 
 ### LockProcess {#lockprocess}
 
@@ -223,8 +222,8 @@ Locks the payload of the workflow.
 
 The step has no effect under the following circumstances:
 
-* The payload is already locked.
-* The payload node does not contain a jcr:content child node.
+* The payload is already locked
+* The payload node does not contain a jcr:content child node
 
 ### UnlockProcess {#unlockprocess}
 
@@ -238,8 +237,8 @@ Unlocks the payload of the workflow.
 
 The step has no effect under the following circumstances:
 
-* The payload is already unlocked.
-* The payload node does not contain a jcr:content child node.
+* The payload is already unlocked
+* The payload node does not contain a jcr:content child node
 
 ## Versioning Processes {#versioning-processes}
 
@@ -251,7 +250,7 @@ Creates a new version of the workflow payload (AEM page or DAM asset).
 
 * **Java class**: `com.day.cq.wcm.workflow.process.CreateVersionProcess`
 
-* **Payload**: A JCR path or UUID that refers to a page or DAM asset.
-* **Arguments**: None.
-* **Timeout**: Respected.
+* **Payload**: A JCR path or UUID that refers to a page or DAM asset
+* **Arguments**: None
+* **Timeout**: Respected
 

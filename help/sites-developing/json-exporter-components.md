@@ -62,7 +62,7 @@ The Model interface needs to be properly annotated to define which methods shoul
 
 ## Example {#example}
 
-The Core Components have supported JSON export since release [1.1.0 of the core components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) and can be used as a reference.
+The Core Components have supported JSON export since release [1.1.0 of the core components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) and can be used as a reference.
 
 For an example, see the Sling Model implementation of the Image Core Component and its annotated interface.
 

@@ -111,10 +111,10 @@ These adhere to the requirements:
 * Be extensible
 * Be easy to override
 
-![chlimage_1-185](assets/chlimage_1-185.png)  
-GraniteUI.pdf
+![](assets/chlimage_1-185.png)  
 
 [Get File](assets/graniteui.pdf)
+
 The Granite UI:
 
 * Uses the RESTful architecture of Sling
@@ -280,9 +280,8 @@ Implementation:
 
 ## Coral UI {#coral-ui}
 
-CoralUI.pdf
-
 [Get File](assets/coralui.pdf)
+
 Coral UI (CUI) is an implementation of Adobe's visual style for the touch-enabled UI, that has been designed to provide consistency in the user experience across multiple products. Coral UI provides everything you need to adopt the visual style used on the authoring environment.
 
 >[!CAUTION]
@@ -290,7 +289,6 @@ Coral UI (CUI) is an implementation of Adobe's visual style for the touch-enable
 >Coral UI is a UI library made available to AEM customers for building applications and web interfaces within the boundaries of their licensed use of the product.
 >
 >Use of Coral UI is only permitted:  
-
 >
 >* When it has been shipped and bundled with AEM.
 >* For use when extending the existing UI of the authoring environment.

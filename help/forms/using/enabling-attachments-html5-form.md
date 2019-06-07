@@ -33,7 +33,7 @@ You can upload, preview, and submit attachments with HTML5 forms. By default, th
 
    >[!NOTE]
    >
-   >Out of the box, the forms portal provides a custom profile with drafts and attachments capability enabled. For more information about the **Save as Draft **profile, see [Saving HTML5 forms as a draft](/help/forms/using/saving-html5-form-draft.md).
+   >Out of the box, the forms portal provides a custom profile with drafts and attachments capability enabled. For more information about the **Save as Draft** profile, see [Saving HTML5 forms as a draft](/help/forms/using/saving-html5-form-draft.md).
 
 1. Click the attachment icon, an attachment selection dialog box appears. Browse and select the attachment and click **Attach**.
 

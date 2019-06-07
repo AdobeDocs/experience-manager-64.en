@@ -14,6 +14,12 @@ discoiquuid: 6d4188f4-ad98-49df-9bb4-7936b7bea9c8
 
 To enable the author to use the AEM SPA Editor to edit the content of an SPA, there are requirements that the SPA must fulfill, which are described in this document.
 
+>[!NOTE]
+>
+>The Single-Page Application (SPA) Editor feature requires AEM 6.4 service pack 2 or newer.
+>
+>The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React or Angular).
+
 ## Introduction {#introduction}
 
 This document describes the general contract that any SPA framework should fulfill (i.e. the kind of AEM support layer) in order to implement editable SPA components within AEM.
@@ -107,7 +113,7 @@ The following entities should be implemented in accordance with the guidelines s
 
 Project components must delegate access to the fragments of a model to a Model Provider. The Model Provider is then in charge of listening for changes made to the specified fragment of the model and return the updated model to the delegating component.
 
-To do this, the Model Provider must register to the ` [PageModelManager](/help/sites-developing/spa-blueprint.md#pagemodelmanager)`. Then when a change occurs it receives and and pass the updated data to the delegating component. By convention, the property made available to the delegating component that will carry the fragment of model is named `cqModel`. The implementation is free to provide this property to the component but should consider aspects such as the integration with framework architecture, discoverability, and ease of use.
+To do this, the Model Provider must register to the [`PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager). Then when a change occurs it receives and and pass the updated data to the delegating component. By convention, the property made available to the delegating component that will carry the fragment of model is named `cqModel`. The implementation is free to provide this property to the component but should consider aspects such as the integration with framework architecture, discoverability, and ease of use.
 
 ### The Component HTML Decorator {#the-component-html-decorator}
 
@@ -139,7 +145,7 @@ Each component must be extended with a functionality that will decorate the oute
 
 A container is a component meant to contain and render child components. To do so, the container iterates over the `:itemsOrder`, `:items` and `:children` properties of its model.
 
-The container dynamically gets the child components from the store of the ` [ComponentMapping](/help/sites-developing/spa-blueprint.md#componentmapping)` library. The container then extends the child component with the Model Provider capabilities and finally instantiate it.
+The container dynamically gets the child components from the store of the [`ComponentMapping`](/help/sites-developing/spa-blueprint.md#componentmapping) library. The container then extends the child component with the Model Provider capabilities and finally instantiate it.
 
 ### Page {#page}
 
@@ -200,7 +206,7 @@ class MyComponent extends Component {
 MapTo('component/resource/path')(MyComponent, EditConfig);
 ```
 
-In the above implementation, the project component is extended with the emptiness functionality before the being actually registered in the [Component Mapping](/help/sites-developing/spa-blueprint.md#componentmapping) store. This is done by encapsulating and extending the ` [ComponentMapping](/content.md#main-pars-header-906602219)` library to introduce the support of the `EditConfig` configuration object:
+In the above implementation, the project component is extended with the emptiness functionality before the being actually registered in the [Component Mapping](/help/sites-developing/spa-blueprint.md#componentmapping) store. This is done by encapsulating and extending the [ComponentMapping](#componentmapping) library to introduce the support of the `EditConfig` configuration object:
 
 ```
 /**
@@ -262,9 +268,9 @@ The following fragment illustrates the typical HTML representation of a page con
 
 The App owns the routing. The front end developer first needs to implement a Navigation component (mapped to an AEM navigation component). This component would render URL links to be used in conjunction with a series of routes that will display or hide fragments of content.
 
-The underlying [ `PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager) library and its ` [ModelRouter](/help/sites-developing/spa-routing.md)` module (enabled by default) are responsible for pre-fetching and providing access to the model associated with a given resource path.
+The underlying [`PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager) library and its `[`ModelRouter`](/help/sites-developing/spa-routing.md) module (enabled by default) are responsible for pre-fetching and providing access to the model associated with a given resource path.
 
-The two entities relate to the notion of routing but the ` [ModelRouter](/help/sites-developing/spa-routing.md)` is only responsible for having the ` [PageModelManager](/help/sites-developing/spa-blueprint.md#pagemodelmanager)` loaded with a data model structured in sync with the current application state.
+The two entities relate to the notion of routing but the [`ModelRouter`](/help/sites-developing/spa-routing.md) is only responsible for having the [`PageModelManager](/help/sites-developing/spa-blueprint.md#pagemodelmanager) loaded with a data model structured in sync with the current application state.
 
 See the article [SPA Model Routing](/help/sites-developing/spa-routing.md) for more information.
 

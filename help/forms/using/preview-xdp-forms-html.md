@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: c142d7b3-301b-447c-a715-452c905565d1
 ---
 
-# Generate HTML5 preview of an XDP form{#generate-html-preview-of-an-xdp-form}
+# Generate HTML5 preview of an XDP form {#generate-html-preview-of-an-xdp-form}
 
 While designing a form in AEM Forms Designer, besides previewing the PDF rendition of a form, you can also preview an HTML5 rendition of it. You can use the **Preview HTML** tab to preview a form as it would appear in a browser.
 

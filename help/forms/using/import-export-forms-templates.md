@@ -133,7 +133,7 @@ To download all the Correspondence Management assets and related dependencies as
 
    ![publish-cmp-assets](assets/publish-cmp-assets.png)
 
-   ( ``The Export All Correspondence Management Assets page appears and displays the information about the last time the Export process was attempted and a link to download the last successfully exported package. 
+   The Export All Correspondence Management Assets page appears and displays the information about the last time the Export process was attempted and a link to download the last successfully exported package. 
 
    ![export-last-run-details](assets/export-last-run-details.png)
 
@@ -243,8 +243,7 @@ When you search for assets, AEM Forms displays the side panel. You can also tap 
 **A.** Search **B.** Filter
 
 ![Side panel - Filters](assets/search_sidepanel.png)
-
-Side panel - Filters
+**Figure:** *Side panel - Filters*
 
 On the side panel, you can use the following to narrow down your search results:
 

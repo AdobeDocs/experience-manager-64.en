@@ -213,7 +213,7 @@ Workflow notifications are also stored in the repository according to type:
   >If you want to override a workflow notification text, create an overlaid path under:
   >
   >
-  >`/conf/global/settings/workflow/notification/<*path-under-libs*>`
+  >`/conf/global/settings/workflow/notification/<path-under-libs>`
 
 * Legacy workflow notification definitions are held under the following path:
 
@@ -318,7 +318,7 @@ When upgrading your instance:
 
 ## System Tools {#system-tools}
 
-There are many system tools available to help with monitoring, maintaining, and troubleshooting workflows. All example URLs below use `localhost:4502`, but should be available on any author instance ( `<*hostname*>:<*port*>`).
+There are many system tools available to help with monitoring, maintaining, and troubleshooting workflows. All example URLs below use `localhost:4502`, but should be available on any author instance ( `<hostname>:<port>`).
 
 ### Sling Job Handling Console {#sling-job-handling-console}
 
@@ -347,4 +347,3 @@ For further information see:
 * [Administering Workflows](/help/sites-administering/workflows.md)
 * [Developing and Extending Workflows](/help/sites-developing/workflows.md)
 * [Performance Optimization](/help/sites-deploying/configuring-performance.md)
-

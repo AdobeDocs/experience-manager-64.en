@@ -21,8 +21,7 @@ Form authors can configure a page for each form, to which the form users are red
 1. Optionally, under Submit Action, for the Submit to REST endpoint action, you can configure the parameter to be passed to the redirect page.
 
 ![Redirect page configuration](assets/thank-you-setting-1.png)
-
-Redirect page configuration
+**Figure:** *Redirect page configuration*
 
 Form authors can use the following parameters that are passed to the Thank you page. For all the available submit actions, `status` and `owner` parameters are passed. Besides these two parameters, some additional parameters are passed for the following submit actions:
 

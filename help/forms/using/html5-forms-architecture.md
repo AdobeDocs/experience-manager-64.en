@@ -39,8 +39,7 @@ HTML5 forms cache all the intermediate objects required to process (rendition or
 Mobile Form maintains two different levels of cache, PreRender cache and Render Cache. The preRender cache contains all the fragments and images of a resolved template and Render cache contains rendered content such as HTML. 
 
 ![HTML5 forms workflow](assets/cacheworkflow.png)
-
-HTML5 forms workflow
+**Figure:** *HTML5 forms workflow*
 
 HTML5 forms do not cache templates that have missing references of fragments and images. If HTML5 forms take more than normal amount of time, then check the server logs for missing references and warnings. Also ensure that the maximum size of the object is not reached.
 
