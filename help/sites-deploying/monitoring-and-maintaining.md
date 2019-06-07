@@ -164,7 +164,7 @@ Auditing records and log files relating to Adobe Experience Manager (AEM) can be
 
 AEM WCM records detailed logs. After you unpack and start Quickstart, you can find logs in:
 
-* `<cq-installation-dir>/crx-quickstart/logs/` ``
+* `<cq-installation-dir>/crx-quickstart/logs/`
 
 * `<cq-installation-dir>/crx-quickstart/repository/`
 
@@ -340,7 +340,7 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >writes to:
    >
-   >`` ` ` `<cq-installation-dir>/``crx-quickstart/logs/thelog.log`.
+   >`<cq-installation-dir>/crx-quickstart/logs/thelog.log`.
    >
    >And a log file specified as:
    >
@@ -348,8 +348,8 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >writes to a directory:
    >
-   >` <cq-installation-dir>/logs/`  
-   >``(i.e. next to ` `<cq-installation-dir>/`crx-quickstart/`)
+   >`<cq-installation-dir>/logs/`  
+   >`(i.e. next to `<cq-installation-dir>/crx-quickstart/`)
 
 1. This step is only necessary when a new Writer is required (i.e. with a configuration that is different to the default Writer).
 
