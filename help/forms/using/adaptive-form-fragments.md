@@ -84,8 +84,7 @@ In addition, if you selected an XML schema or XDP form template as the form mode
     * **XDP Ref**: Appears only in XDP-based adaptive forms. It displays the location of the XDP form template.
 
    ![save-fragment](assets/save-fragment.png)
-
-   Save As Fragment dialog
+**Figure:** *Save As Fragment dialog*
 
 1. Click **OK**.
 

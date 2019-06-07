@@ -37,8 +37,7 @@ Perform the following steps to add an element in the metadata:
    `(agebox.value >= 21) ? true : false`
 
    ![Metadata script](assets/add-element-metadata.png)
-
-   Script entered in the Metadata tab
+   **Figure:** *Script entered in the Metadata tab*
 
 1. Click **OK**.
 

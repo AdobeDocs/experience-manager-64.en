@@ -70,8 +70,7 @@ Perform the following steps to create a report suite.
 1. Select the newly created Report Suite. Navigate to **Edit Settings** &gt; **General** &gt;  **General Account Settings**.
 
    ![General Account Settings](assets/geographic_settings.png)
-
-   General Account Settings
+**Figure:** *General Account Settings*
 
 1. In General Account Settings screen, enable **Geography Reporting**, and click **Save**.
 1. Navigate to **Edit Settings** &gt; **Traffic** &gt; **Traffic Variables**.  
@@ -140,8 +139,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
 1. Click the **[+]** link next to next to your Analytics configuration.
 
    ![Adobe Analytics configuration](assets/adobe-analytics-cloud-services.png)
-
-   Adobe Analytics configuration
+**Figure:** *Adobe Analytics configuration*
 
 1. Type a **Title** and **Name** for the framework, select **Adobe Analytics** Framework, and click **Create**. The framework opens for editing.
 
@@ -164,8 +162,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
 1. Locate and open AEM Forms Analytics Configuration 
 
    ![AEM Forms Analytics Configuration service](assets/analytics_configuration.png)
-
-   AEM Forms Analytics Configuration service
+**Figure:** *AEM Forms Analytics Configuration service*
 
 1. Specify appropriate values for the following fields and click **Save**.
 
@@ -188,8 +185,7 @@ Now, you can enable analytics for forms and generate an analytics report.
 1. Click **Forms &gt; Forms & Documents**, select a form or document, and click **Enable Analytics**. The analytics is enabled.
 
    ![Enabling analytics for a form or document](assets/enable-analytics-1.png)
-
-   Enabling analytics for a form 
+**Figure:** *Enabling analytics for a form* 
 
    **A.** Enable Analytics button **B.** Selected form
 

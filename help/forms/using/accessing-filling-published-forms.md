@@ -27,8 +27,7 @@ Navigate to the published forms portal page. For more information about creating
 The Search and Lister component of roms portal displays the forms available on the Publish instance of the AEM server. This list includes all forms or the forms defined in the filter at the time of authoring the forms portal page. A forms portal page looks similar to as shown in the following image:
 
 ![A sample forms portal page ](assets/forms-portal-page.png)
-
-A sample forms portal page
+**Figure:** *A sample forms portal page*
 
 ### Search and Lister {#search-and-lister}
 
@@ -50,8 +49,7 @@ You can search for forms in the Forms Portal page by using the following options
 Full text search allows you to find and list forms based on the specified keywords.
 
 ![An advanced search dialog](assets/search-panel.png)
-
-An advanced search dialog
+**Figure:** *An advanced search dialog*
 
 Advance Search allows you to search forms based on specified form properties. This provides a more specific results than full-text search. Advance search includes search based on tags, properties (such as Author, Description, and Title), modification date, and full text.
 
@@ -60,8 +58,7 @@ Lister displays forms based on the search parameters. Each form in the search re
 ### Filling a form {#filling-a-form}
 
 ![A sample adaptive form](assets/filling_a_form.png)
-
-A sample adaptive form
+**Figure:** *A sample adaptive form*
 
 The forms can be accessed from the link provided along with the form in the Search and Lister component of the page.
 
@@ -80,8 +77,7 @@ On completion of form filling, the user submits the forms by clicking the Submit
 >Submitted forms appear in the Submitted Forms tab only if the submit action for the adaptive form is configured as Forms Portal Submit Action. For more information about submit actions, see [Configuring the Submit action](/help/forms/using/configuring-submit-actions.md).
 
 ![Drafts & submissions component](assets/draft-submission.png)
-
-Drafts & submissions component
+**Figure:** *Drafts & submissions component*
 
 ## Start a new form using submitted form data {#start-a-new-form-using-submitted-form-data}
 

@@ -43,12 +43,10 @@ Complete the following steps to add a chart to an Interactive Communication:
    Properties sidebar appears with the Basic properties of the chart in focus. 
 
    ![Basic properties of a line type chart in print channel](assets/chart_basicproperties.png)
-
-   Basic properties of a line type chart in print channel
+**Figure:** *Basic properties of a line type chart in print channel*
 
    ![Basic properties of a line type chart in web channel](assets/basicpropertieswebchannel.png)
-
-   Basic properties of a line type chart in web channel
+**Figure:** *Basic properties of a line type chart in web channel*
 
 1. Configure the Basic properties of the chart for print channel and web channel. Apart from the common properties, there are properties that are specific to print and web channel and the chart type.
 
@@ -93,14 +91,12 @@ To accomplish this, you need to specify:
 * **[!UICONTROL Tooltip]** to display on mouse over of an expense (web channel only) - in this example `${x}: $ ${y}`, which displays as [Expense Label: $ Amount] (Example: Theme Park Visit: $ 315)
 
 ![Column chart in the print output of an Interactive Communication](assets/chartprintchannel.png)
-
-Column chart in the print output of an Interactive Communication
+**Figure:** *Column chart in the print output of an Interactive Communication*
 
 **A.** Y axis - Amount fetched from the form data model property and Title property set to Amount ($) **B.** Label Direction of X-axis set to Tilt Left **C.** X Axis - Expense description fetched from the form data model property and Title property set to Expense
 
 ![Donut chart in the web output of an Interactive Communication](assets/chartwebchannel.png)
-
-Donut chart in the web output of an Interactive Communication
+**Figure:** *Donut chart in the web output of an Interactive Communication*
 
 **A.** Inner Radius property of the donut is set **B.** Show Legend property is selected and Legend Position property is set to Right **C.** Tooltip displays the detail of the item on mouse over - Tooltip is set to ${x}: $ ${y}
 
@@ -109,8 +105,7 @@ Donut chart in the web output of an Interactive Communication
 By applying functions in a chart, you can plot data that is not directly provided by the form data model. In this example, we use a credit card statement example to understand how Sum and Frequency functions can be applied to the chart.
 
 ![Line chart without a function with three "Bed and Breakfast" transactions](assets/creditcarddatalinechartcopy.png)
-
-Line chart without a function with three "Bed and Breakfast" transactions
+**Figure:** *Line chart without a function with three "Bed and Breakfast" transactions*
 
 ### Sum function {#sum-function}
 

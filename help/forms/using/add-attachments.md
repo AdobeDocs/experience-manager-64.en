@@ -35,7 +35,7 @@ To see all the attachments in a place, tap ![attachments-app](assets/attachments
 
 ![All attachments in a place](assets/attachments-screen.png)
 
-You can use the **+ **button in the Attachments screen to attach another picture, scribble, or text.
+You can use the **+** button in the Attachments screen to attach another picture, scribble, or text.
 
 ### Adding a photograph {#adding-a-photograph}
 
@@ -64,8 +64,7 @@ The **Notes** option lets you add freehand scribbles and text attachments in you
 1. In the Notes user interface that is launched, capture a freehand scribble.
 
    ![Scribble interface](assets/scribble-ui.png)
-
-   Scribble
+**Figure:** *Scribble*
 
    You can use the following options in the Scribble interface:
 
@@ -84,4 +83,4 @@ Form level attachments are not supported for adaptive forms loaded in the app fr
 
 In case of adaptive forms, you can view the attached files in the document of record (DoR). See, [Generate Document of Record for non-XFA adaptive forms](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md).
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

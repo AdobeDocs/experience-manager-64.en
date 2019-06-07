@@ -1374,7 +1374,7 @@ The public key is stored in the user's certificate that must be available to rec
 
 ***Note**:* *Before you can digitally sign a PDF document, you must ensure that you add the credential in AEM Keystore. The credential is the private key used for signing*.
 
-***Note:*** AEM Forms also supports * [CAdES](https://en.wikipedia.org/wiki/CAdES_%28computing%29)* specification for digitally signing PDF documents.
+***Note:*** AEM Forms also supports *[CAdES](https://en.wikipedia.org/wiki/CAdES_%28computing%29)* specification for digitally signing PDF documents.
 
 **Certifying PDF Documents**
 
