@@ -68,4 +68,4 @@ In the AEM Forms app, the left swipe opens up a new task or Startpoint while rig
 
 Similarly, you can make changes in other views for various combinations of gestures, HTML elements, and functions.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

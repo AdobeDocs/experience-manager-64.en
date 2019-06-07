@@ -134,12 +134,10 @@ You can configure a mobile layout for a table from the Styling tab of the Edit c
 In the Headers on left layout, the header in the table are transposed on the left with only one cell appearing against a header. Each row in this layout appears as a distinct section. The following images compare a table on a desktop with that on a mobile device.
 
 ![desktopview](assets/desktopview.png)
-
-Desktop view of a table with Header on left layout
+**Figure:** *Desktop view of a table with Header on left layout*
 
 ![headersontheleft](assets/headersontheleft.png)
-
-Mobile view of a table with Header on left layout
+**Figure:** *Mobile view of a table with Header on left layout*
 
 ### Collapsible columns layout {#collapsible-columns-layout}
 
@@ -150,12 +148,10 @@ In the Collapsible column layout, the columns in the table collapse to show one 
 The following images compare how a table looks on a device with collapsed and expanded columns.
 
 ![collapsed-column](assets/collapsed-column.png)
-
-Collapsed columns of a table with only two columns showing up on a mobile device
+**Figure:** *Collapsed columns of a table with only two columns showing up on a mobile device*
 
 ![collapsible_column](assets/collapsible_column.png)
-
-Expanded column of a table on a mobile device
+**Figure:** *Expanded column of a table on a mobile device*
 
 ## Merge data in a table {#merge-data-in-a-table}
 

@@ -59,7 +59,7 @@ Execute the following steps to create an XDP template for the Print channel:
 
    Ensure that the **Object Library** and **Object** options are selected from the **Window** menu.
 
-1. Drag-and-drop the **Subform **component from the **Object Library** to the form.
+1. Drag-and-drop the **Subform** component from the **Object Library** to the form.
 1. Select the subform to display the options for the subform in the **Object** window in the right pane.
 1. Select the **Subform** tab and select **Flowed** from the **Content** drop-down list. Drag the left endpoint of the subform to adjust the length.
 1. In the **Bindings** tab:

@@ -110,6 +110,5 @@ Personalized documents, like, receipts, welcome kits, and statements can easily 
 * Document security add-on for AEM Forms including encryption, usage policies, tracking, and auditing
 
 ![](do-not-localize/layout-02.png)
-
-Streamlined personalized communication workflow
+**Figure:** *Streamlined personalized communication workflow*
 

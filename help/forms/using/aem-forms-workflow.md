@@ -86,7 +86,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    ![workflow-editor](assets/workflow-editor.png)
 
-   For the mortgage application example**,** configure the assign task step to use a Read-only adaptive form and display PDF Document once the task is complete. Also, select to user group allowed to approve the loan request. On the **Actions **tab, disable the **Submit **option. Specify a **Route Variable**. For example, actionTaken. Also, add the Approve and Reject routes. The routes are displayed as separate actions (buttons) in AEM Inbox. The workflow selects a branch based on the action (button) a user taps.
+   For the mortgage application example **,** configure the assign task step to use a Read-only adaptive form and display PDF Document once the task is complete. Also, select to user group allowed to approve the loan request. On the **Actions** tab, disable the **Submit** option. Specify a **Route Variable**. For example, actionTaken. Also, add the Approve and Reject routes. The routes are displayed as separate actions (buttons) in AEM Inbox. The workflow selects a branch based on the action (button) a user taps.
 
    You can import the example package, available for download in the starting of the section, for the complete set of values of all the fields of the assign task step configured for example mortgage application.
 
@@ -96,7 +96,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    **Code snippet for Branch 1**
 
-   When a user taps **Approve **in AEM Inbox, Branch 1 is activated.
+   When a user taps **Approve** in AEM Inbox, Branch 1 is activated.
 
    ```
    function check(){
@@ -108,7 +108,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    **Code snippet for Branch 2**
 
-   When a user taps **Reject **in AEM Inbox, Branch 2 is activated.
+   When a user taps **Reject** in AEM Inbox, Branch 2 is activated.
 
    ```
    function check(){

@@ -60,7 +60,7 @@ The Email action enables an author to send email automatically to one or more re
    >
    >If you choose the **Email PDF action**, you must select the Include attachments option.
 
-1. Click **OK **to save the changes.
+1. Click **OK** to save the changes.
 
 ### Using adaptive form field names to dynamically create email content {#using-adaptive-form-field-names-to-dynamically-create-email-content}
 

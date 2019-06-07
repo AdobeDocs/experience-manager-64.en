@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 75b2d424-91d3-45b4-a5d7-fb49ab558582
 ---
 
-# Tutorial: Plan the Interactive Communication{#tutorial-plan-the-interactive-communication}
+# Tutorial: Plan the Interactive Communication {#tutorial-plan-the-interactive-communication}
 
 Plan the anatomy for your Interactive Communication
 
