@@ -216,7 +216,7 @@ To use the Single Panel dialog:
 The **Multi Panel** dialog has the same display as the **Full** dialog but it is built differently. Its characteristics are:
 
 * Is defined by a node (node type = `cq:Dialog`, xtype = [`tabpanel`](/help/sites-developing/xtypes.md#tabpanel)).
-`
+
 * Displays 3 tabs (node type = `cq:Panel`).
 * Each tab has 2 textfields (node type = `cq:Widget`, xtype = [`textfield`](/help/sites-developing/xtypes.md#textfield)).
 
