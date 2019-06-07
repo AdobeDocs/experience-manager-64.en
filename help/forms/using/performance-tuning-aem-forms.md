@@ -10,7 +10,7 @@ topic-tags: Configuration
 discoiquuid: 5d672b56-00c4-46a0-974b-e174fbdf07d6
 ---
 
-# Performance tuning of AEM Forms server{#performance-tuning-of-aem-forms-server}
+# Performance tuning of AEM Forms server {#performance-tuning-of-aem-forms-server}
 
 This article discusses strategies and best practices you can implement to reduce bottlenecks and optimize the performance of your AEM Forms deployment.
 
@@ -30,7 +30,7 @@ The available options for caching are as follows:
 The default cache settings for AEM Forms may not be good enough to achieve optimal performance. Therefore, it is recommended to use the following settings:
 
 * **Cache Strategy**: Aggressive
-* **Cache size **(in terms of number of forms): As required
+* **Cache size** (in terms of number of forms): As required
 * **Max Object Size**: As required
 
 ![Mobile Forms Configurations](assets/snap.png)

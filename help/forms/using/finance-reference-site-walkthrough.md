@@ -335,12 +335,10 @@ Let’s now look in detail the steps in the reference site scenario to see how t
 Sarah Rose is planning to buy a home and looking for a home mortgage plans. She is a We.Finance customer and therefore visits the We.Finance portal to explore home mortgage offers. She goes to the Loans section and finds a mortgage calculator on the portal. She fills in the details and clicks Calculate my mortgage, which returns a mortgage plan.
 
 ![loans1](assets/loans1.png) ![loans2](assets/loans2.png)
-
-Mortgage calculator
+**Figure:** *Mortgage calculator*
 
 ![loans3](assets/loans3.png)
-
-Mortgage calculator result
+**Figure:** *Mortgage calculator result*
 
 #### How it works {#how-it-works-6}
 
@@ -581,12 +579,10 @@ The Home Mortgage application walkthrough with Microsoft Dynamics demonstrates h
 Sarah Rose is planning to buy a home and looking for a home mortgage plans. She is a We.Finance customer and therefore visits the We.Finance portal to explore home mortgage offers. She goes to the Loans section and finds a mortgage calculator on the portal. She fills in the details and clicks Calculate my mortgage, which returns a mortgage plan.
 
 ![loans1](assets/loans1.png) ![loans2](assets/loans2.png)
-
-Mortgage calculator
+**Figure:** *Mortgage calculator*
 
 ![loans3](assets/loans3.png)
-
-Mortgage calculator result
+**Figure:** *Mortgage calculator result*
 
 #### How it works {#how-it-works-12}
 

@@ -36,12 +36,10 @@ The Compliance department at Sarah's organization has asked employees to submit 
 Sarah goes to her organization's portal, logs in, and clicks Employee to access the employee dashboard. She finds Conflict of Interest questionnaire on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
 ![we-finance-home](assets/we-finance-home.png)
-
-Organization portal
+**Figure:** *Organization portal*
 
 ![employee-dashboard](assets/employee-dashboard.png)
-
-Employee dashboard
+**Figure:** *Employee dashboard*
 
 Sarah navigates the form using the Next button and reads through the Introduction and Definition sections. She responds to the questions in the Questions section. Finally, she signs and submits the questionnaire.
 
@@ -64,12 +62,10 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/self-ser
 The Conflict of Interest questionnaire submitted by Sarah is assigned to Gloria Rios for review. Gloria works as a Compliance Officer in the organization. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the questionnaire submitted by Sarah and completes the task.
 
 ![conflict-inbox](assets/conflict-inbox.png)
-
-Gloria's inbox
+**Figure:** *Gloria's inbox*
 
 ![conflict-approved](assets/conflict-approved.png)
-
-Open task
+**Figure:** *Open task*
 
 **How it works**
 
@@ -90,12 +86,10 @@ Sarah travels a lot for business and requires a corporate credit card to pay her
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds Corporate Card application on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
 ![we-finance-home-1](assets/we-finance-home-1.png)
-
-Organization portal
+**Figure:** *Organization portal*
 
 ![employee-dashboard-1](assets/employee-dashboard-1.png)
-
-Employee dashboard
+**Figure:** *Employee dashboard*
 
 She clicks **[!UICONTROL Apply]** on the Corporate Card application. A single-page application opens. She fills all the details and clicks **[!UICONTROL Apply]** to submit the application.
 
@@ -117,12 +111,10 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/self-ser
 The Corporate Card application submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 
 ![corporate-card-inbox](assets/corporate-card-inbox.png)
-
-Gloria's inbox
+**Figure:** *Gloria's inbox*
 
 ![corporate-card-approved](assets/corporate-card-approved.png)
-
-Open task
+**Figure:** *Open task*
 
 **How it works**
 
@@ -143,12 +135,10 @@ As Sarah spends during business travels, she needs to submit expense reports for
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds Expense Report application on the employee dashboard and clicks **[!UICONTROL Apply]**. 
 
 ![we-finance-home-2](assets/we-finance-home-2.png)
-
-Organization portal
+**Figure:** *Organization portal*
 
 ![employee-dashboard-2](assets/employee-dashboard-2.png)
-
-Employee dashboard
+**Figure:** *Employee dashboard*
 
 She clicks **[!UICONTROL Apply]** on the Expense Report application. An application form opens, which has two tabs - Report Name and Report Details. The **+** icon in the Report Details tab allows her to add more than expenditures in one report.
 
@@ -171,12 +161,10 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/self-ser
 The expense report submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 
 ![expense-report-inbox](assets/expense-report-inbox.png)
-
-Gloria's inbox
+**Figure:** *Gloria's inbox*
 
 ![expense-report-approved](assets/expense-report-approved.png)
-
-Open task
+**Figure:** *Open task*
 
 **How it works**
 
@@ -197,12 +185,10 @@ Sarah is planning a family vacation next month and wants to apply for a week's l
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds leave application on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
 ![we-finance-home-3](assets/we-finance-home-3.png)
-
-Organization portal
+**Figure:** *Organization portal*
 
 ![employee-dashboard-3](assets/employee-dashboard-3.png)
-
-Employee dashboard
+**Figure:** *Employee dashboard*
 
 The leave application opens with Sarah's name and employee ID prefilled in the form. It also displays her leave balance and history. She fills in the leave details and submits the application for approval.
 
@@ -231,12 +217,10 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/self-ser
 The leave application submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 
 ![leave-inbox](assets/leave-inbox.png)
-
-Gloria's inbox
+**Figure:** *Gloria's inbox*
 
 ![leave-approved](assets/leave-approved.png)
-
-Open task
+**Figure:** *Open task*
 
 **How it works**
 

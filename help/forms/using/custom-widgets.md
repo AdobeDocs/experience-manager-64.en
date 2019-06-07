@@ -16,8 +16,7 @@ discoiquuid: 5d860f05-3257-4cf7-93dd-77d226d59b39
 You can plug in custom widgets to a Mobile Forms. You can extend existing jQuery Widgets or develop your own custom widgets using appearances framework. XFA engine uses various widgets, see [Appearance framework for adaptive and HTML5 forms](/help/forms/using/introduction-widgets.md) for detailed information.
 
 ![An example of default and custom widget](assets/custom-widgets.jpg)
-
-An example of default and custom widget
+**Figure:** *An example of default and custom widget*
 
 ## Integrating custom widgets with HTML5 forms {#integrating-custom-widgets-with-html-forms}
 

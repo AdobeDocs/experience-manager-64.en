@@ -33,8 +33,8 @@ Although the properties are self explanatory, the important ones are as follows:
 
   option.
 
-* **Username **- Specifies user name of the account which is used to establish communication between AEM and LiveCycle. The account is a LiveCycle user account who has the permissions to start Document Services.
-* **Password **- Specifies the password.
+* **Username**- Specifies user name of the account which is used to establish communication between AEM and LiveCycle. The account is a LiveCycle user account who has the permissions to start Document Services.
+* **Password**- Specifies the password.
 * **Service Name** - Specifies the services which are started using the user credentials provided in Username and Password fields. By default, no credentials are passed while starting LiveCycle services.
 
 ## Starting document services {#starting-document-services}

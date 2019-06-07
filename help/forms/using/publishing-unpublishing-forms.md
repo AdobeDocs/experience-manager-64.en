@@ -11,7 +11,7 @@ content-strategy: max-2018
 discoiquuid: 7dd08e81-5df6-4522-9f8c-48b4bba8927b
 ---
 
-# Publishing and unpublishing forms and documents{#publishing-and-unpublishing-forms-and-documents}
+# Publishing and unpublishing forms and documents {#publishing-and-unpublishing-forms-and-documents}
 
 AEM Forms let you create, publish, and unpublish forms easily. For more information about AEM Forms, see [Introduction to managing forms](/help/forms/using/introduction-managing-forms.md).
 
