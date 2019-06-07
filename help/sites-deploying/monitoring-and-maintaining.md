@@ -50,7 +50,6 @@ Often a full backup is taken at regular intervals (e.g. daily, weekly or monthly
 >[!CAUTION]
 >
 >When implementing backups of your production instances, tests *must* be made to ensure that the backup can be successfully restored.  
-
 >
 >Without this, the backup is potentially useless (worst case scenario).
 
@@ -93,7 +92,7 @@ This section deals with maintenance operations related to the versioning feature
 
 ### Overview {#overview}
 
-The **Purge Versions **tool is available in the **[Tools](/help/sites-administering/tools-consoles.md) console** under **Versioning** or directly at: ``
+The **Purge Versions** tool is available in the **[Tools](/help/sites-administering/tools-consoles.md) console** under **Versioning** or directly at: ``
 
 `https://<server>:<port>/etc/versioning/purge.html`
 
@@ -115,7 +114,7 @@ The **Purge Versions **tool is available in the **[Tools](/help/sites-administer
 
 To purge versions of a web site, proceed as follows:
 
-1. Navigate to the **[Tools](/help/sites-administering/tools-consoles.md) console**, select **Versioning** and double-click **Purge Versions.**
+1. Navigate to the **[Tools](/help/sites-administering/tools-consoles.md) console**, select **Versioning** and double-click **Purge Versions**.
 1. Set the start path of the content to be purged (e.g. `/content/geometrixx-outdoors`).
 
     * If you want to only purge the node defined by your path, unselect **Recursive**.
@@ -126,7 +125,7 @@ To purge versions of a web site, proceed as follows:
 1. Set the maximun version age in days (for each node) that you want to keep. Leave empty to not use this setting.  
 
 1. Click **Dry Run** to preview what the purge process would do.
-1. Click **Purge **to launch the process.
+1. Click **Purge** to launch the process.
 
 >[!CAUTION]
 >
@@ -152,7 +151,7 @@ Moreover the console provides useful information about the versions:
 
 In the next example:
 
-* The **Shirts **versions are purged because their version age is greater than 2 days.
+* The **Shirts** versions are purged because their version age is greater than 2 days.
 * The **Tonga Fashions!** versions are purged because their number of versions is greater than 5.
 
 ![global_version_screenshot](assets/global_version_screenshot.png) 
@@ -165,9 +164,9 @@ Auditing records and log files relating to Adobe Experience Manager (AEM) can be
 
 AEM WCM records detailed logs. After you unpack and start Quickstart, you can find logs in:
 
-* `<*cq-installation-dir*>/crx-quickstart/logs/` ``
+* `<cq-installation-dir>/crx-quickstart/logs/` ``
 
-* `<*cq-installation-dir*>/crx-quickstart/repository/`
+* `<cq-installation-dir>/crx-quickstart/repository/`
 
 #### Log file rotation {#log-file-rotation}
 
@@ -185,7 +184,7 @@ Log file rotation refers to the process that limits the growth of file by creati
 
 Various log files are held on the file server where you installed AEM:
 
-* `<*cq-installation-dir*>/crx-quickstart/logs`
+* `<cq-installation-dir>/crx-quickstart/logs`
 
     * `access.log`
 
@@ -231,7 +230,7 @@ Various log files are held on the file server where you installed AEM:
 
 >[!NOTE]
 >
->The ImageServer and s7access logs are not included in the **Download Full** package that is generated from the **system/console/status-Bundlelist **page. For support purposes, if you have Dynamic Media issues, please also append the ImageServer and s7access logs when you contact Customer Support.
+>The ImageServer and s7access logs are not included in the **Download Full** package that is generated from the **system/console/status-Bundlelist** page. For support purposes, if you have Dynamic Media issues, please also append the ImageServer and s7access logs when you contact Customer Support.
 
 ### Activating the DEBUG Log Level {#activating-the-debug-log-level}
 
@@ -265,20 +264,20 @@ The log levels are as follows:
 
 In certain circumstances you may want to create a custom log file with a different log level. You can do this in the repository by:
 
-1. If not already existing, create a new configuration folder ( `sling:Folder`) for your project `/apps/<*project-name*>/config`.
-1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](/help/sites-deploying/osgi-configuration-settings.md#osgi-configuration-settings):
+1. If not already existing, create a new configuration folder ( `sling:Folder`) for your project `/apps/<project-name>/config`.
+1. Under `/apps/<project-name>/config`, create a node for the new [Apache Sling Logging Logger Configuration](/help/sites-deploying/osgi-configuration-settings.md#osgi-configuration-settings):
 
     * Name:
     
-    `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>` (as this is a Logger) 
+    `org.apache.sling.commons.log.LogManager.factory.config-<identifier>` (as this is a Logger) 
 
-      Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.config-MINE` 
+      Where `<identifier>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.config-MINE` 
     
     * Type: `sling:OsgiConfig`
 
    >[!NOTE]
    >
-   >Although not a technical requirement, it is advisable to make `<*identifier*>` unique.
+   >Although not a technical requirement, it is advisable to make `<identifier>` unique.
 
 1. Set the following properties on this node:
 
@@ -290,18 +289,13 @@ In certain circumstances you may want to create a custom log file with a differe
 
     * Name: `org.apache.sling.commons.log.names`  
 
-      Type: String[] (String + Multi)  
+      Type: `String[] (String + Multi)`  
 
       Value: specify the OSGi services for which the Logger is to log messages; for example, all of the following:
 
         * `org.apache.sling`
         * `org.apache.felix`
-        * 
-        
-        ```        
-          com.day
-          
-        ```
+        *  `com.day`
 
     * Name: `org.apache.sling.commons.log.level`  
 
@@ -329,7 +323,6 @@ In certain circumstances you may want to create a custom log file with a differe
    >{3} the name of the logger  
    >{4} the log level  
    >{5} the log message  
-
    >
    >If the log call includes a `Throwable` the stacktrace is appended to the message.
 
@@ -344,42 +337,38 @@ In certain circumstances you may want to create a custom log file with a differe
    >Therefore, a log file specified as:
    >
    >`logs/thelog.log`  
-
    >
    >writes to:
    >
-   >`` ` ` `<*cq-installation-dir*>/``crx-quickstart/logs/thelog.log`.
+   >`` ` ` `<cq-installation-dir>/``crx-quickstart/logs/thelog.log`.
    >
    >And a log file specified as:
    >
    >`../logs/thelog.log`  
-
    >
    >writes to a directory:
    >
-   >` <*cq-installation-dir*>/logs/`  
-   >``(i.e. next to ` `<*cq-installation-dir*>/`crx-quickstart/`)
+   >` <cq-installation-dir>/logs/`  
+   >``(i.e. next to ` `<cq-installation-dir>/`crx-quickstart/`)
 
 1. This step is only necessary when a new Writer is required (i.e. with a configuration that is different to the default Writer).
 
    >[!CAUTION]
    >
    >A new Logging Writer Configuration is only required when the existing default is not suitable.  
-
-   >
    >If no explicit Writer is configured the system will automatically generate an implicit Writer based on the default.
 
-   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](/help/sites-deploying/osgi-configuration-settings.md#osgi-configuration-settings):
+   Under `/apps/<project-name>/config`, create a node for the new [Apache Sling Logging Writer Configuration](/help/sites-deploying/osgi-configuration-settings.md#osgi-configuration-settings):
 
-    * Name: `org.apache.sling.commons.log.LogManager.factory.writer-<*identifier*>` (as this is a Writer) 
+    * Name: `org.apache.sling.commons.log.LogManager.factory.writer-<identifier>` (as this is a Writer) 
 
-      As with the Logger, `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.writer-MINE`
+      As with the Logger, `<identifier>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.writer-MINE`
     
     * Type: `sling:OsgiConfig`
 
    >[!NOTE]
    >
-   >Although not a technical requirement, it is advisable to make `<*identifier*>` unique.
+   >Although not a technical requirement, it is advisable to make `<identifier>` unique.
 
    Set the following properties on this node:
 
@@ -507,10 +496,8 @@ To monitor a replication agent:
    >Do not use the "Test Connection" link for the Reverse Replication Outbox on a publish instance.
    >
    >If a replication test is performed for an Outbox queue, any items that are older than the test replication will be re-processed with every reverse replication.  
-
    >
    >If such items already exist in a queue, they can be found with the following XPath JCR query and should be removed.  
-
    >
    >`/jcr:root/var/replication/outbox//*[@cq:repActionType='TEST']`
 
@@ -680,7 +667,7 @@ By totaling all the GET entries within a specific periods (e.g. over various 24 
 
 A good starting point for performance analysis is the request log:
 
-`<*cq-installation-dir*>/crx-quickstart/logs/request.log`
+`<cq-installation-dir>/crx-quickstart/logs/request.log`
 
 The log looks as follows (the lines are shortened for simplicity):
 
@@ -748,7 +735,7 @@ Tests must be made to determine how many concurrent users the system can handle 
 ### Using rlog.jar to find requests with long duration times {#using-rlog-jar-to-find-requests-with-long-duration-times}
 
 AEM includes various helper tools located in:  
-`<*cq-installation-dir*>/crx-quickstart/opt/helpers`
+`<cq-installation-dir>/crx-quickstart/opt/helpers`
 
 One of these, `rlog.jar`, can be used to quickly sort `request.log` so that requests are displayed by duration, from longest to shortest time.
 
