@@ -18,8 +18,7 @@ A submit action is triggered when a user clicks the Submit button on an adaptive
 You can configure a submit action in the **Submission** section of the Adaptive Form Container properties, in the sidebar.
 
 ![Configure Submit Action](assets/thank-you-setting.png)
-
-Configure Submit Action
+**Figure:** *Configure Submit Action*
 
 The default submit actions available with adaptive forms are:
 
@@ -53,7 +52,7 @@ The **Submit to REST endpoint** submit option passes the data filled in the form
 
 As shown in the image below, `param1` and `param2` are passed as parameters with values copied from the **textbox** and **numericbox** fields for the next action.
 
-You can also **Enable POST request **and provide a URL to post the request. To submit data to the AEM server hosting the form, use a relative path corresponding to the root path of the AEM server. For example, /content/forms/af/SampleForm.html. To submit data to any other server, use absolute path.
+You can also **Enable POST request** and provide a URL to post the request. To submit data to the AEM server hosting the form, use a relative path corresponding to the root path of the AEM server. For example, /content/forms/af/SampleForm.html. To submit data to any other server, use absolute path.
 
 ![Configuring Rest Endpoint Submit Action](assets/action-config.png)
 
@@ -145,8 +144,7 @@ All out of the box (OOTB) field validations of an adaptive form thate are rerun 
 Use the **Revalidate on server** under Adaptive Form Container in the sidebar to enable or disable server-side validation for the current form. 
 
 ![Enabling Server-Side Validation](assets/revalidate-on-server.png)
-
-Enabling Server-Side Validation
+**Figure:** *Enabling Server-Side Validation*
 
 If end-user bypass those validations and submit the forms, the server again performs the validation. If the validation fails at server end, then the submit transaction is stopped. The end user is presented with the orignal form again. The captured data and submitted data are presented to the user as an error.
 
@@ -155,8 +153,7 @@ If end-user bypass those validations and submit the forms, the server again perf
 At times, in case of **complex validation rules**, the exact validation script reside in custom functions and author calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form author can configure the name of AEM client library under the **Basic** tab of Adaptive Form Container properties as shown below.
 
 ![Supporting Custom functions in Validation Expressions](assets/clientlib-cat.png)
-
-Supporting Custom functions in Validation Expressions
+**Figure:** *Supporting Custom functions in Validation Expressions*
 
 Author can configure custom javascript library per adaptive form. In the library, only keep the reusable functions, which has dependency on jquery and underscore.js third-party libraries.
 

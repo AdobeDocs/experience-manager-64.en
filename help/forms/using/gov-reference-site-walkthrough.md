@@ -225,7 +225,7 @@ Gloria can see, approve, or reject the application from the application dashboar
 Gloria, head of approvals at We.Gov, opens her AEM inbox. She sees a review task in her list of tasks. She opens and views the review task.
 
 She sees a PDF of the form filled with details Sarah entered along with the documents Sarah uploaded.  
-Gloria can approve or reject the application. However, Gloria clicks **Assessment Required **to get the application assessed. 
+Gloria can approve or reject the application. However, Gloria clicks **Assessment Required** to get the application assessed. 
 
 ![gloria-sends-assessment](assets/gloria-sends-assessment.png)
 

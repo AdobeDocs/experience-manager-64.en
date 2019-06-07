@@ -90,8 +90,7 @@ Notice the change in text box style as shown in the following image after applyi
 </table>
 
 ![Text box style after inline styling is applied](assets/applied-style.png)
-
-Text box component after applying inline style properties
+**Figure:** *Text box component after applying inline style properties*
 
 Following the steps above, you can select and style other components, such as panels, submit buttons, and radio buttons.
 

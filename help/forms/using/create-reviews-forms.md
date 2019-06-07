@@ -37,8 +37,7 @@ This section describes what happens when a review is created or set up.
 1. All reviewers are assigned a review task. The task appears in their Notifications section. A reviewer can click a notification, or go to the Inbox to view the task. A reviewer can click to open the review task, to view the form, and start adding comments.
 
    ![Reviewer Notification Alert](assets/noti.png)
-
-   Reviewer Notification Alert
+**Figure:** *Reviewer Notification Alert*
 
 1. The comment box is available to the initiator and reviewers of the asset. Others can view the comments, but cannot write comments.
 
@@ -66,8 +65,7 @@ This section describes what happens when a review is created or set up.
 1. Edit the necessary fields, and then click Update.
 
    ![Review updated state in Task Manager](assets/tskmgr.png)
-
-   Review updated state in Task Manager
+**Figure:** *Review updated state in Task Manager*
 
 1. To end the review, click End.
 
@@ -81,8 +79,7 @@ This section describes, what happens on Review end / modification:
 1. If a reviewer is removed:
 
    ![Removing a reviewer](assets/removeduser.png)
-
-   Removing a reviewer
+**Figure:** *Removing a reviewer*
 
     1. If incomplete, the assigned task is terminated.
     1. The reviewer can no longer comment on the asset.
@@ -90,8 +87,7 @@ This section describes, what happens on Review end / modification:
 1. If a reviewer is added:
 
    ![Adding a reviewer](assets/addedreviewer.png)
-
-   Adding a reviewer
+**Figure:** *Adding a reviewer*
 
     1. A review task is created and assigned to the newly added reviewer.
     1. The newly added reviewer can add comments for the asset.

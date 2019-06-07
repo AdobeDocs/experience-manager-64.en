@@ -25,8 +25,7 @@ Forms portal components are not available for use by default. Ensure that the fo
 Once they are enabled on an AEM sites page, these component categories are available for use in the component browser.
 
 ![AEM Forms portal components in component browser](assets/component-categories.png)
-
-Forms portal component categories
+**Figure:** *Forms portal component categories*
 
 ## Search &amp; Lister Component {#search-amp-lister-component}
 
@@ -38,8 +37,7 @@ The Search & Lister component, available under Document Services component categ
 You can drag-drop the Search & Lister component from the Document Services component category in the components browser onto the page. The component, when added, looks similar to the following.
 
 ![Search & Lister Component in a page](assets/fp-grid-viw.png)
-
-Search & Lister Component in a page with Grid layout
+**Figure:** *Search & Lister Component in a page with Grid layout*
 
 ### List pane {#list-pane}
 
@@ -48,8 +46,7 @@ The List pane is an area where your forms are listed. The Search & Lister compon
 To configure the List pane, tap the Search and Lister component and then tap ![settings_icon](assets/settings_icon.png). The **[!UICONTROL Edit Component]** dialog opens. 
 
 ![List pane in edit mode](assets/edit-list.png)
-
-List pane in edit mode
+**Figure:** *List pane in edit mode*
 
 The **Edit **dialog includes several tabs that provide configuration options described in the table below. Tap **OK **to save the configuration, when done.
 
@@ -155,8 +152,7 @@ The Search pane lets you add the Date Predicate, Full Text Predicate, Properties
 **Tip:** *You can control the list of forms displayed on your forms portal based on a preset criteria and hide the search functionality for end users. To control the list of forms, use the Predicate components to apply search filters. You can also specify the default filter values and disable the search from the Display tab of the Edit Component dialog.*
 
 ![Search Panel with Date, Full Text, Properties, and Tags Predicate](assets/search-with-predicates.png)
-
-Search Panel with Date, Full Text, Properties, and Tags Predicate
+**Figure:** *Search Panel with Date, Full Text, Properties, and Tags Predicate*
 
 #### Date Predicate {#date-predicate}
 
@@ -230,8 +226,7 @@ Forms Portal Search & Lister component is mobile device friendly and adapts acco
 The following image depicts the Search & Lister component when opened on a mobile device:
 
 ![Screenshot of the Search and Lister component](assets/search_lister.png)
-
-Search & Lister component
+**Figure:** *Search & Lister component*
 
 ## Customizing a forms portal page {#customizing-a-forms-portal-page-br}
 

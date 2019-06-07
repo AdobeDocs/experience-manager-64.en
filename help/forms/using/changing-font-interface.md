@@ -71,11 +71,9 @@ As an example, to change the font of the top navigation bar anchor text to Couri
 1. Relaunch the workspace and clear the browser cache for the changes to be visible.
 
 ![change_font_before](assets/change_font_before.png)
-
-Top navigation bar before font customization
+**Figure:** *Top navigation bar before font customization*
 
 ![change_font_after](assets/change_font_after.png)
-
-Top navigation bar after font customization of first tab
+**Figure:** *Top navigation bar after font customization of first tab*
 
 [Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

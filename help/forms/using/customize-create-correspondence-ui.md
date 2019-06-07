@@ -19,8 +19,7 @@ Correspondence Management allows you to rebrand its solution template for better
 You can change the logo in the Create Correspondence UI with your organization's logo.
 
 ![The custom icon in the Create Correspondence UI](assets/0_1_introscreenshot.png)
-
-The custom icon in the Create Correspondence UI
+**Figure:** *The custom icon in the Create Correspondence UI*
 
 ### Changing the logo in the Create Correspondence UI {#changing-the-logo-in-the-create-correspondence-ui}
 
@@ -136,8 +135,7 @@ Use the following steps to upload the custom logo file to CRX:
    The image file formats supported are according to the browser you are using to access AEM Forms. All the browsers support JPEG, GIF, and PNG. For more information, see the browser-specific documentation on the supported image formats. 
 
    ![Sample custom logo file](assets/geometrixx-outdoors.png)
-
-   Example: CustomLogo.png to be used as the custom logo
+**Figure:** *Example - CustomLogo.png to be used as the custom logo*
 
 1. Click **Save All**.
 
@@ -171,6 +169,5 @@ Use the following steps to set up the style sheet for rendering the logo:
 Clear the browser cache and then open the Create Correspondence UI instance in your browser. You should see your custom logo. 
 
 ![Create correspondence user interface with custom logo](assets/0_1_introscreenshot-1.png)
-
-The custom icon in the Create Correspondence UI
+**Figure:** *The custom icon in the Create Correspondence UI*
 
