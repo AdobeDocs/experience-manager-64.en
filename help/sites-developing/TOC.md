@@ -196,7 +196,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [SPA WKND Tutorial](spa-wknd.md)
     + [REDIRECT Creating Components](developing-screens-creating-components.md)
     + [Using xtypes (Classic UI)](xtypes.md)
-    + [REDIRECT Offline Channels](developing-screens-offline-channels.md)
     + [Adaptive Template Rendering](templates-adaptive-rendering.md)
     + [SPA Page Component](spa-page-component.md)
     + [We.Retail Reference Implementation](we-retail.md)
