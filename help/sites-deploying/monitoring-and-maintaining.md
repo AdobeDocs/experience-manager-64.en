@@ -349,7 +349,7 @@ In certain circumstances you may want to create a custom log file with a differe
    >writes to a directory:
    >
    >`<cq-installation-dir>/logs/`  
-   >`(i.e. next to `<cq-installation-dir>/crx-quickstart/`)
+   >(i.e. next to `<cq-installation-dir>/crx-quickstart/`)
 
 1. This step is only necessary when a new Writer is required (i.e. with a configuration that is different to the default Writer).
 
