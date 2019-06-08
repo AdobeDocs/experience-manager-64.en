@@ -17,7 +17,7 @@ This section describes the options available when installing a standalone AEM in
 
 ## Changing the Port Number by Renaming the File {#changing-the-port-number-by-renaming-the-file}
 
-The default port for AEM is 4502. If that port is not available or already in use, Quickstart automatically configures itself to use the first available port number as follows: 4502, 8080, 8081, 8082, 8083, 8084, 8085, 8888, 9362, `<*random*>`.
+The default port for AEM is 4502. If that port is not available or already in use, Quickstart automatically configures itself to use the first available port number as follows: 4502, 8080, 8081, 8082, 8083, 8084, 8085, 8888, 9362, `<random>`.
 
 You can also set the port number by renaming the quickstart jar file, so that the file name includes the port number; for example, `cq5-publish-p4503.jar` or `cq5-author-p6754.jar`.
 
@@ -121,9 +121,9 @@ To uninstall the service, either click **Stop** in the **Services** control pane
 
 The default location of the temporary folder of the java machine is `/tmp`. AEM uses this folder too, for example when building packages.
 
-If you want to change the location of the temporary folder (for example, if you need a directory with more free space) then define a * `<new-tmp-path>`* by adding the JVM parameter:
+If you want to change the location of the temporary folder (for example, if you need a directory with more free space) then define a `<new-tmp-path>` by adding the JVM parameter:
 
-`-Djava.io.tmpdir="/<*new-tmp-path*>"`
+`-Djava.io.tmpdir="/<new-tmp-path>"`
 
 to either:
 
@@ -134,7 +134,7 @@ to either:
 
 Further options and renaming conventions are described in the Quickstart help file, which is available through the -help option. To access the help, type:
 
-* `java -jar cq5-<*version*>.jar -help`
+* `java -jar cq5-<version>.jar -help`
 
 ```shell
 Loading quickstart properties: default
