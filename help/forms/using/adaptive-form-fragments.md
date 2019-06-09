@@ -22,17 +22,17 @@ You can create an adaptive form fragment from scratch or save a panel in an exis
 ### Create fragment from scratch {#create-fragment-from-scratch}
 
 1. Log into AEM Forms author instance at https://[*hostname*]:[*port*]/aem/forms.html.
-1. Click **Create &gt; Adaptive Form Fragment**.
+1. Click **[!UICONTROL Create &gt; Adaptive Form Fragment]**.
 1. Specify title, name, description, and tags for the fragment.
 
    >[!NOTE]
    >
    >Ensure that you specify a unique name for the fragment. If there already exists another fragment with the same name, the fragment fails to create.
 
-1. Click to open the **Form Model** tab, and from the **Select From** drop-down menu, select one of the following models for the fragment:
+1. Click to open the **[!UICONTROL Form Model]** tab, and from the **[!UICONTROL Select From]** drop-down menu, select one of the following models for the fragment:
 
-    * **None**: Specifies to create the fragment from scratch without using any form model.
-    * **Form Template**: Specifies to create the fragment using an XDP template uploaded to AEM Forms. Select the appropriate XDP template as the form model for the fragment.
+    * **[!UICONTROL None]**: Specifies to create the fragment from scratch without using any form model.
+    * **[!UICONTROL Form Template]**: Specifies to create the fragment using an XDP template uploaded to AEM Forms. Select the appropriate XDP template as the form model for the fragment.
 
    ![Creating an adaptive form using form template as model](assets/form-template-model.png)
 
@@ -42,7 +42,7 @@ You can create an adaptive form fragment from scratch or save a panel in an exis
 
    In addition, you can create an adaptive form fragment using sub forms that are not marked as fragments in the form template by specifying the SOM expression for the sub form in the drop-down box.
 
-    * **XML Schema**: Specifies to create the fragment using an XML schema uploaded to AEM Forms. You can upload or select from the available XML schemas as the form model for the fragment.
+    * **[!UICONTROL XML Schema]**: Specifies to create the fragment using an XML schema uploaded to AEM Forms. You can upload or select from the available XML schemas as the form model for the fragment.
 
    ![Create an adaptive form fragment based on an XML schema as model](assets/xml-schema-model.png)
 
@@ -50,7 +50,7 @@ You can create an adaptive form fragment from scratch or save a panel in an exis
 
    ![Select a complex type from the specified XML schema model](assets/complex-type.png)
 
-1. Click **Create** and then click **Open** to open the fragment, with a default template, in edit mode.
+1. Click **[!UICONTROL Create]** and then click **[!UICONTROL Open]** to open the fragment, with a default template, in edit mode.
 
 In edit mode, you can drag-and-drop any adaptive form component from the AEM sidekick onto the fragment. For information about adaptive form components, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
@@ -67,26 +67,26 @@ In addition, if you selected an XML schema or XDP form template as the form mode
 
 1. In the Fragment Creation dialog, specify the following information:
 
-    * **Name**: Name of the fragment. The default value is the element name of the panel. It is a mandatory field.
+    * **[!UICONTROL Name]**: Name of the fragment. The default value is the element name of the panel. It is a mandatory field.
 
       ***Note**: Ensure that you specify a unique name for the fragment. If there already exists another fragment with the same name, the fragment fails to create.* 
   
-    * **Title**: Title of the fragment. The default value is the title of the panel.
-    * **Description**: Description of the fragment.
-    * **Tags**: Tags metadata for the fragment. 
-    * **Target Path**: Repository path where the fragment will be saved. If you do not specify a path, a node with the same name as that of the fragment gets created next to the node containing the adaptive form. The fragment is saved in this node. 
-    * **Form Model**: Depending on the form model for the adaptive form, this field displays the **XML Schema**, **Form Template**, or **None**. It is a non-editable field.
-    * **Fragment Model Root**: Appears only in XSD-based adaptive forms. It specifies the root for the fragment model. You can choose **/** or the XSD complex type from the drop-down. Note that you can reuse the fragment in another adaptive form only if you select the complex type as the fragment model root.
+    * **[!UICONTROL Title]**: Title of the fragment. The default value is the title of the panel.
+    * **[!UICONTROL Description]**: Description of the fragment.
+    * **[!UICONTROL Tags]**: Tags metadata for the fragment. 
+    * **[!UICONTROL Target Path]**: Repository path where the fragment will be saved. If you do not specify a path, a node with the same name as that of the fragment gets created next to the node containing the adaptive form. The fragment is saved in this node. 
+    * **[!UICONTROL Form Model]**: Depending on the form model for the adaptive form, this field displays the **[!UICONTROL XML Schema]**, **[!UICONTROL Form Template]**, or **[!UICONTROL None]**. It is a non-editable field.
+    * **[!UICONTROL Fragment Model Root]**: Appears only in XSD-based adaptive forms. It specifies the root for the fragment model. You can choose **/** or the XSD complex type from the drop-down. Note that you can reuse the fragment in another adaptive form only if you select the complex type as the fragment model root.
 
       If you choose **/** as the fragment model root, the complete XSD tree from the root is visible in the adaptive form data model tab. For a complex type fragment model root, only the descendants of the selected complex type are visible in the adaptive form data model tab. 
     
-    * **XSD Ref**: Appears only in XSD-based adaptive forms. It displays the location of the XML schema.
-    * **XDP Ref**: Appears only in XDP-based adaptive forms. It displays the location of the XDP form template.
+    * **[!UICONTROL XSD Ref]**: Appears only in XSD-based adaptive forms. It displays the location of the XML schema.
+    * **[!UICONTROL XDP Ref]**: Appears only in XDP-based adaptive forms. It displays the location of the XDP form template.
 
    ![save-fragment](assets/save-fragment.png)
 **Figure:** *Save As Fragment dialog*
 
-1. Click **OK**.
+1. Click **[!UICONTROL OK]**.
 
    The panel is saved at the specified or the default location in the repository. In the adaptive form, the panel is replaced by a snapshot of the fragment. As shown below, the General Information panel and its child panels, Personal Information and Address, are saved as a fragment.
 
@@ -111,7 +111,7 @@ Perform the following steps to show complete fragments in forms:
 The adaptive form fragments you create appear in the Adaptive Form Fragments tab of the AEM content finder. To insert an adaptive form fragment in an adaptive form:
 
 1. Open the adaptive form, in edit mode, in which you want to insert an adaptive form fragment.
-1. Click **Assets** ![assets-browser](assets/assets-browser.png) in the sidebar. In the assets browser, select **Adaptive Form Fragments** from the drop-down. 
+1. Click **[!UICONTROL Assets]** ![assets-browser](assets/assets-browser.png) in the sidebar. In the assets browser, select **[!UICONTROL Adaptive Form Fragments]** from the drop-down. 
 
    You can also choose to display all adaptive form fragments or filter based on their form model - Form Template, XML Schema, or Basic.
 
@@ -125,7 +125,7 @@ The adaptive form fragment is inserted by reference in the adaptive form and is 
 
 ### Embed a fragment in adaptive form {#embed-a-fragment-in-adaptive-form}
 
-You can choose to embed an adaptive form fragment in an adaptive form by clicking **Embed Asset: &lt;*fragmentName*&gt;** button on the panel toolbar of the added fragment, as shown in the following example image.
+You can choose to embed an adaptive form fragment in an adaptive form by clicking **[!UICONTROL Embed Asset: &lt;*fragmentName*&gt;]** button on the panel toolbar of the added fragment, as shown in the following example image.
 
 ![Embed a form fragment in adaptive form](assets/embed-fragment.png)
 
@@ -139,7 +139,7 @@ You can create nested adaptive form fragments, which means you can drag-drop a f
 
 ### Change fragments {#change-fragments}
 
-You can replace or change an adaptive form fragment by another fragment by using the **Select Fragment asset** property in the Edit component dialog for an adaptive form fragment panel.
+You can replace or change an adaptive form fragment by another fragment by using the **[!UICONTROL Select Fragment asset]** property in the Edit component dialog for an adaptive form fragment panel.
 
 ## Auto mapping of fragments for data binding {#auto-mapping-of-fragments-for-data-binding}
 
@@ -157,7 +157,7 @@ You can perform several operations on adaptive form fragments using the AEM Form
 
 1. Go to `https://[hostname]:[port]/aem/forms.html`.  
 
-1. Click **Select** in the AEM Forms UI toolbar and select an adaptive form fragment. The toolbar displays the following operations you can perform on the selected adaptive form fragment.
+1. Click **[!UICONTROL Select]** in the AEM Forms UI toolbar and select an adaptive form fragment. The toolbar displays the following operations you can perform on the selected adaptive form fragment.
 
 <table> 
  <tbody> 
