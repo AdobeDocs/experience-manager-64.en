@@ -48,7 +48,7 @@ To implement the reCAPTCHA service in AEM Forms:
     1. On your AEM author instance, go to ![tools](assets/tools.png)** &gt;  Cloud Services**.
     1. Tap **[!UICONTROL reCAPTCHA]**. The Configurations page opens. Select the configuration container created in the previous step and tap **[!UICONTROL Create]**.
     1. Specify Name, Site key, and Secret Key for reCAPTCHA service and tap **[!UICONTROL Create]** to create the cloud service configuration.
-    1. In the Edit Component dialog, specify the site and secret keys obtained in step 1. Tap **Save Settings** and then tap **OK** to complete the configuration.
+    1. In the Edit Component dialog, specify the site and secret keys obtained in step 1. Tap **[!UICONTROL Save Settings]** and then tap **[!UICONTROL OK]** to complete the configuration.
 
    Once the reCAPTCHA service is configured, it is available for use in adaptive forms. For more information, see [Using CAPTCHA in adaptive forms](#using-captcha).
 
@@ -62,7 +62,7 @@ To use CAPTCHA in adaptive forms:
    >
    >Ensure that the configuration container selected when creating the adaptive form contains the reCAPTCHA cloud service. You can also edit adaptive form properties to change the configuration container associated with the form.
 
-1. From the component browser, drag-drop the **Captcha** component onto the adaptive form.
+1. From the component browser, drag-drop the **[!UICONTROL Captcha]** component onto the adaptive form.
 
    >[!NOTE]
    >
@@ -73,8 +73,8 @@ To use CAPTCHA in adaptive forms:
    >Captcha is time-sensitive and expires in about a minute. Therefore, it is recommended to place the Captcha component just before the Submit button in the adaptive form.
 
 1. Select the Captcha component you added and tap ![cmppr](assets/cmppr.png) to edit its properties.
-1. Specify a title for the CAPTCHA widget. The default value is **Captcha**. Select **Hide title** if you do not want title to appear.
-1. From the **Captcha service** drop-down, select **reCaptcha** to enable reCAPTCHA service if you configured it as described in [ReCAPTCHA service by Google](#google-recaptcha). Select a configuration from the Settings drop-down. Also, select the size as **Normal** or **Compact** for the reCAPTCHA widget.
+1. Specify a title for the CAPTCHA widget. The default value is **Captcha**. Select **[!UICONTROL Hide title]** if you do not want title to appear.
+1. From the **[!UICONTROL Captcha service]** drop-down, select **[!UICONTROL reCaptcha]** to enable reCAPTCHA service if you configured it as described in [ReCAPTCHA service by Google](#google-recaptcha). Select a configuration from the Settings drop-down. Also, select the size as **[!UICONTROL Normal]** or **[!UICONTROL Compact]** for the reCAPTCHA widget.
 
    >[!NOTE]
    >
