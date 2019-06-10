@@ -275,11 +275,11 @@ Leaving them blank tells AEM that this image preset is responsive. You can adjus
 
 When you create or edit image presets, you have the options described in this section. In addition, Adobe recommends the following three *best practice* option choices to start:
 
-* **[!UICONTROL Format]** (**[!UICONTROL Basic]** tab) - Select **[!UICONTROL JPEG]** or another format that meets your requirements. All web browsers support the JPEG image format; it offers a good balance between small files sizes and image quality. However, JPEG format images use a lossy compression scheme that can introduce unwanted image artifacts if the compression setting is too low. For that reason, Adobe recommends setting the compression quality to 75. This setting offers a good balance between image quality and small file size.
+* **[!UICONTROL Format]** (**[!UICONTROL Basic]** tab) &ndash; Select **[!UICONTROL JPEG]** or another format that meets your requirements. All web browsers support the JPEG image format; it offers a good balance between small files sizes and image quality. However, JPEG format images use a lossy compression scheme that can introduce unwanted image artifacts if the compression setting is too low. For that reason, Adobe recommends setting the compression quality to 75. This setting offers a good balance between image quality and small file size.
 
-* **[!UICONTROL Enable Simple Sharpening]** - Do not select **[!UICONTROL Enable Simple Sharpening]** (this sharpening filter offers less control than Unsharp Masking settings).
+* **[!UICONTROL Enable Simple Sharpening]** &ndash; Do not select **[!UICONTROL Enable Simple Sharpening]** (this sharpening filter offers less control than Unsharp Masking settings).
 
-* **[!UICONTROL Sharpening: Resampling Mode]** - Select **[!UICONTROL Bi-Cubic]**.
+* **[!UICONTROL Sharpening: Resampling Mode]** &ndash; Select **[!UICONTROL Bi-Cubic]**.
 
 #### Basic tab options {#basic-tab-options}
 
@@ -468,7 +468,7 @@ The following are some basic examples of what you can do with image modifiers.
 
   ![chlimage_1-503](assets/chlimage_1-503.png)
 
-## Modifying Image Presets {#modifying-image-presets}
+## Editing Image Presets {#modifying-image-presets}
 
 **To edit image presets**:
 
