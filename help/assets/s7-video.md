@@ -52,7 +52,7 @@ If the answer is "yes" to either or both of these questions, then upload your vi
 If you need a workflow or versioning for your assets, you should upload to Adobe DAM first. The following is the recommended workflow:
 
 1. Upload the video asset to Adobe DAM and automatically encode and publish to Scene7.
-1. In AEM, access video assets in WCM in the **Movies** tab of the Content Finder.
+1. In AEM, access video assets in WCM in the **[!UICONTROL Movies]** tab of the Content Finder.
 1. Author with Scene7 video or foundation video component.
 
 ### If you are uploading your video to Scene7 {#if-you-are-uploading-your-video-to-scene}
@@ -60,29 +60,29 @@ If you need a workflow or versioning for your assets, you should upload to Adobe
 If you do not need a workflow or versioning for your assets, you should upload your assets to Scene7. The following is the recommended workflow:
 
 1. In Scene7, [set up a scheduled FTP uploading and encoding to Scene7 (system automated)](https://help.adobe.com/en_US/scene7/using/WS70B173EC-4CAD-4b4c-BF9C-43A11F3A5950.html).
-1. In AEM, access video assets in WCM in the **Scene7 **tab of the Content Finder.
+1. In AEM, access video assets in WCM in the **[!UICONTROL Scene7]** tab of the Content Finder.
 1. Author with the Scene7 video component.
 
 ## Configuring Integration with Scene7 Video {#configuring-integration-with-scene-video}
 
 To configure universal presets:
 
-1. In **Cloud Services**, navigate to your **Scene7** configuration and click **Edit**.
-1. Select the **Video** tab.
+1. In **[!UICONTROL Cloud Services]**, navigate to your **[!UICONTROL Scene7]** configuration and click **[!UICONTROL Edit]**.
+1. Select the **[!UICONTROL Video]** tab.
 
    ![chlimage_1-363](assets/chlimage_1-363.png)
 
    >[!NOTE]
    >
-   >The **Video** tab does not appear if the page does not have a cloud configuration.
+   >The **[!UICONTROL Video]** tab does not appear if the page does not have a cloud configuration.
 
 1. Select the adaptive video encoding profile, an out-of-the-box single video encoding profile, or a custom video encoding profile.
 
    >[!NOTE]
    >
-   >For more information about what the video presets mean, see the [Scene7 documentation](https://help.adobe.com/en_US/scene7/using/WSE86ACF2B-BD50-4c48-A1D7-9CD4405B62D0.html). 
+   >For more information about what the video presets mean, see the [Dynamic Media Classic documentation](https://help.adobe.com/en_US/scene7/using/WSE86ACF2B-BD50-4c48-A1D7-9CD4405B62D0.html). 
    >
-   >Adobe recommends that you select either both adaptive video sets when configuring the universal presets or select the **Adaptive Video Encoding** option.
+   >Adobe recommends that you select either both adaptive video sets when configuring the universal presets or select the **[!UICONTROL Adaptive Video Encoding]** option.
 
 1. The selected encoding profiles are automatically applied to all videos uploaded to the CQ DAM target folder you set up for this Scene7 cloud configuration. You can set up multiple Scene7 cloud configurations with different target folders to apply different encoding profiles as needed.
 
@@ -92,18 +92,16 @@ If you need to update the viewer and encoding presets for video in AEM because t
 
 ![chlimage_1-364](assets/chlimage_1-364.png) 
 
-## Uploading your master video {#uploading-your-master-video}
-
-To upload your master video to Scene7 from Adobe DAM:
+## Uploading your master video to Scene7 from Adobe DAM {#uploading-your-master-video}
 
 1. Navigate to the CQ DAM target folder where you have set up your cloud configuration with Scene7 encoding profiles.
-1. Click **Upload** to upload master video. Video uploading and encoding is complete after the DAM Update Asset workflow is complete and **Publish to Scene7** has a checkmark.
+1. Click **[!UICONTROL Upload]** to upload master video. Video uploading and encoding is complete after the DAM Update Asset workflow is complete and **[!UICONTROL Publish to Scene7]** has a checkmark.
 
    >[!NOTE]
    >
    >It may take some time for the video thumbnails to be generated.
 
-   Dragging the DAM master video on to the video component accesses **all** of the Scene7 encoded proxy renditions for delivery.
+   Dragging the DAM master video on to the video component accesses *all* of the Scene7 encoded proxy renditions for delivery.
 
 ## Foundation Video Component versus Scene7 Video Component {#foundation-video-component-versus-scene-video-component}
 
@@ -117,11 +115,7 @@ The following matrix explains when you should use which component:
 
 >[!NOTE]
 >
->Out of the box, the S7 video component uses the universal video profile. You can however obtain the HTML5-based video player for use by AEM by doing one of the following: 
->
->* In Scene7, copy the embed code of the out-of-box HTML5 video player and put it in your AEM page.
->* Use the Scene7 HTML5 viewer SDK to create a custom player and then create a custom AEM component.  
->
+>Out of the box, the S7 video component uses the universal video profile. You can however obtain the HTML5-based video player for use by AEM by doing one of the following in Scene7: copy the embed code of the out-of-box HTML5 video player and put it in your AEM page.
 
 ## AEM Video Component {#aem-video-component}
 
@@ -149,8 +143,9 @@ The various video encodings are created according to the S7 encoding presets sel
 >
 >New video profiles and changes to them must be activated to publish.
 
-1. In AEM, go to **Tools**, then select **Configuration Console**. In the Configuration Console navigate to **Tools** -&gt; **DAM** -&gt; **Video Profiles** in the navigation tree. 
-1. Create a new S7 Video Profile. In the **New...** menu, select **Create Page** and then select the Scene7 Video Profile template. Give the new video profile page a name and click **Create**.
+1. In AEM, tap **[!UICONTROL Tools &gt; Configuration Console**.
+1. In the **[!UICONTROL Configuration Console]** navigate to **[!UICONTROL Tools &gt; DAM &gt; Video Profiles]** in the navigation tree. 
+1. Create a new S7 Video Profile. In the **[!UICONTROL New...]** menu, select **[!UICONTROL Create Page]** and then select the Scene7 Video Profile template. Give the new video profile page a name and click **[!UICONTROL Create]**.
 
    ![chlimage_1-366](assets/chlimage_1-366.png)
 
@@ -166,9 +161,9 @@ The various video encodings are created according to the S7 encoding presets sel
 
    Repeat this step for all encoding presets selected in the cloud config that you want to use in the video component.
 
-#### Configuring Design {#configuring-design}
+#### Configuring design {#configuring-design}
 
-The foundation video component must know about what video profiles to use in order to build the video sources list. You must open the video components design dialog and configure the components design for using the new video profiles.
+The foundation video component must know about what video profiles to use in order to build the video sources list. You must open the video components design dialog box and configure the components design for using the new video profiles.
 
 >[!NOTE]
 >
@@ -178,8 +173,8 @@ The foundation video component must know about what video profiles to use in ord
 >
 >Changes made to the design require activation of the design in order to take effect on publish.
 
-1. Open the foundation video component's design dialog and change to the **Profiles** tab. Then delete the OOTB profiles and add the new S7 video profiles. The order of the profile list in the design dialog as well defines to order of the video sources element when rendering.
-1. For browsers not supporting HTML5, the video component allows to configure a flash fallback. Open the video components design dialog and change to the **Flash** tab. Configure the flash player settings and assign a fallback profile for the flash player.
+1. Open the foundation video component's design dialog box and change to the **[!UICONTROL Profiles]** tab. Then delete the out-of-the-box profiles and add the new S7 video profiles. The order of the profile list in the design dialog box defines the order of the video sources element when rendering.
+1. For browsers not supporting HTML5, the video component allows to configure a Flash fallback. Open the video components design dialog box and change to the **[!UICONTROL Flash]** tab. Configure the Flash player settings and assign a fallback profile for the flash player.
 
 #### Checklist {#checklist}
 
