@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 5edcc765-c374-4368-a0d9-e02a713a24f2
 ---
 
-# Delivering Optimized Images for a Responsive Site{#delivering-optimized-images-for-a-responsive-site}
+# Delivering optimized images for a responsive site{#delivering-optimized-images-for-a-responsive-site}
 
-Use the Responsive code feature when you want to share the code for responsive serving with your web developer. You copy the responsive (RESS) code to the clipboard so you can share it with the web developer.
+Use the Responsive code feature when you want to share the code for responsive serving with your web developer. You copy the responsive (**[!UICONTROL RESS]**) code to the clipboard so you can share it with the web developer.
 
 This feature makes sense to use if your website is on a third-party WCM. However, if your website is on AEM instead, an offsite image server renders the image and supplies it to the web page.
 
@@ -21,27 +21,27 @@ See also [Embedding the Video Viewer on a Web Page.](embed-code.md)
 
 See also [Linking URLs to your Web Application.](linking-urls-to-yourwebapplication.md)
 
-To deliver optimized images for a responsive site:
+**To deliver optimized images for a responsive site**:
 
-1. Navigate to the image you want supply responsive code for and in the drop-down menu, tap or click **Renditions**.
+1. Navigate to the image you want supply responsive code for and in the drop-down menu, tap **[!UICONTROL Renditions]**.
 
    ![chlimage_1-408](assets/chlimage_1-408.png)
 
-1. Select a responsive image preset. The **URL** and **RESS** buttons appear. 
+1. Select a responsive image preset. The **[!UICONTROL URL]** and **[!UICONTROL RESS]** buttons appear. 
 
    ![chlimage_1-409](assets/chlimage_1-409.png)
 
    >[!NOTE]
    >
-   >The selected asset *and* the selected image preset or viewer preset must be published to make the **URL** or **RESS** buttons available.
+   >The selected asset *and* the selected image preset or viewer preset must be published to make the **[!UICONTROL URL]** or **[!UICONTROL RESS]** buttons available.
    >
-   >(Note that Dynamic Media - Hybrid mode requires you to publish image presets; Dynamic Media - Scene7 mode automatically publishes image presets.
+   >Dynamic Media - Hybrid mode requires you to publish image presets; Dynamic Media - Scene7 mode automatically publishes image presets.
 
-1. Tap or click **RESS**. The responsive code displays.
+1. Tap **[!UICONTROL RESS]**.
 
-   ![chlimage_1-410](assets/chlimage_1-410.png)
+    ![chlimage_1-410](assets/chlimage_1-410.png)
 
-1. Select and copy the text and paste it in your web site to access the responsive asset.
+1. In the **[!UICONTROL Embed Responsive Image]** dialog box, select and copy the responsive code text and paste it in your web site to access the responsive asset.
 1. Edit the default breakpoints in the embed code to match those of the responsive web site directly in the code. In addition, test the different image resolutions being served at different page breakpoints.
 
 ## Using HTTP/2 to delivery your Dynamic Media assets {#using-http-to-delivery-your-dynamic-media-assets}
