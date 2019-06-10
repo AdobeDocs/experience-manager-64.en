@@ -25,13 +25,13 @@ Click the following screenshot to watch the interactive video in full.
 
 During playback, as products are used in the video, the identical product appears on the right as a thumbnail image.
 
-Click the thumbnail to pause the video and open the product's quickview. For example, click the KitchenAid thumbnail image to experience a 360-degree spin view of the mixer, or zoom in to see mixer details.
+Click the thumbnail to pause the video and open the product's Quickview. For example, click the KitchenAid thumbnail image to experience a 360-degree spin view of the mixer, or zoom in to see mixer details.
 
 ![chlimage_1-126](assets/chlimage_1-126.png)
 
 >[!NOTE]
 >
->If you create an interactive video to launch a web page when a user clicks a thumbnail image, some devices will block the pop-up web page from opening. In such cases, you must change the pop-up blocker setting on the device. For example, on an Apple iPhone 6, tap **Settings** &gt; **Safari** &gt; **Block Pop-ups**, then slide the control to **Off**. Now, when you play an interactive video and click a thumbnail, you are prompted if you want to open the pop-up. If you accept, the web page opens.
+>If you create an interactive video to launch a web page when a user clicks a thumbnail image, some devices will block the pop-up web page from opening. In such cases, you must change the pop-up blocker setting on the device. For example, on an Apple iPhone 6, tap **[!UICONTROL Settings &gt; Safari &gt; Block Pop-ups]**, then slide the control to **[!UICONTROL Off]**. Now, when you play an interactive video and click a thumbnail, you are prompted if you want to open the pop-up. If you accept, the web page opens.
 
 ## Watch how interactive videos are created {#watch-how-interactive-videos-are-created}
 
@@ -60,13 +60,13 @@ When you finish the tutorial in the last Example section, the final demo web pag
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/john-lewis/landing-3.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/john-lewis/landing-3.html)
 
-Interactive video steps:
+**Interactive video workflow**:
 
 1. **(Optional) Identifying Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identifying Quickview variables](#optional-identifying-quickview-variables). 
 
    *Note that this step is only required if all the following are true*:  
 
-   * You want to add interactivity to your video by triggering to quickviews.
+   * You want to add interactivity to your video by triggering to Quickviews.
    * Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
 
 1. **(Optional) Creating an Interactive Video viewer preset** - Customize the appearance and behavior of various components that make up the player such as the video scrubber and the interactive thumbnails.  
@@ -115,7 +115,7 @@ Sometimes it may be enough to consult with IT specialists responsible for your e
 
 The majority of Quickview implementations use the following paradigm:
 
-* User activates a user interface element on the website. For example, clicking a "Quickview" button.
+* User activates a user interface element on the website. For example, clicking a **[!UICONTROL Quickview]** button.
 * The website sends an Ajax request to the backend to load the Quickview data or content, if needed.
 * The Quickview data is translated into the content in preparation for rendering on the web page.
 * Finally, the front-end code visually renders such content on the screen.
@@ -124,11 +124,11 @@ The approach, therefore, is to visit different areas of your existing website wh
 
 Normally there is no need for you to use any specialized debugging tools. Modern web browsers feature web inspectors that do an adequate job. The following are a few examples of web browsers that include web inspectors:
 
-* To see all outgoing HTTP requests in Google Chrome, press **F12** (Windows) or **Command+Options+I** (Mac) to open the Developer Tools panel, and then click the **Network** tab.
+* To see all outgoing HTTP requests in Google Chrome, press **[!UICONTROL F12]** (Windows) or **[!UICONTROL Command+Options+I]** (Mac) to open the Developer Tools panel, and then click the **[!UICONTROL Network]** tab.
 
-* In Firefox, you can either activate the Firebug plug-in by pressing **F12** (Windows) or **Command+Option+I** (Mac) and use its **Net** tab, or you can use the built-in Inspector tool and its Network tab.
+* In Firefox, you can either activate the Firebug plug-in by pressing **[!UICONTROL F12]** (Windows) or **[!UICONTROL Command+Option+I]** (Mac) and use its **[!UICONTROL Net]** tab, or you can use the built-in Inspector tool and its Network tab.
 
-* In Internet Explorer activate the debugger tool by pressing **F12**.
+* In Internet Explorer activate the debugger tool by pressing **[!UICONTROL F12]**.
 
 When network monitoring is turned on in the browser, trigger the Quickview on the page.
 
@@ -185,7 +185,7 @@ Consider the following examples of Quickview URLs and their resulting thumbnail 
 
 **Example**
 
-When the above approach is applied to our Example website, we have a web page with a number of product thumbnails, each having a "SEE MORE" button:
+When the above approach is applied to our Example website, we have a web page with a number of product thumbnails, each having a **[!UICONTROL SEE MORE]** button:
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/john-lewis/landing-0.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/john-lewis/landing-0.html)
 
@@ -229,15 +229,15 @@ You are now ready to upload a video and its associated thumbnail assets.
 
 You can skip this task and continue to the next if you intend to use either of the default, out-of-the-box Interactive Video viewer preset types `Shoppable_Video_dark` or `Shoppable_Video_light`.
 
-When a thumbnail is clicked in the authoring environment a preview of the Quickview dialog box appears.
+When a thumbnail is clicked in the authoring environment a preview of the **[!UICONTROL Quickview]** dialog box appears.
 
 ![chlimage_1-127](assets/chlimage_1-127.png)
 
 You can optionally create your own custom Interactive Video viewer preset. You can determine, among other things, the styling of the video player, the interactive thumbnails, and the thumbnail grid view that appears at the end of the video.
 
-An Interactive Video viewer preset properly renders the video and all timeline segments you have added. It also uses an example default Quickview when you click a product thumbnail in Preview mode so you can test its interactivity before publishing.
+An Interactive Video viewer preset properly renders the video and all timeline segments you have added. It also uses an example default Quickview when you click a product thumbnail in **[!UICONTROL Preview]** mode so you can test its interactivity before publishing.
 
-After you save the viewer preset, its state is automatically set to **On **in the Viewer Presets page. This state means that it is visible in the Dynamic Media component and whenever you preview a video with it. Be sure you also manually publish your new viewer preset.
+After you save the viewer preset, its state is automatically set to **[!UICONTROL On]** in the **[!UICONTROL Viewer Presets]** page. This state means that it is visible in the Dynamic Media component and whenever you preview a video with it. Be sure you also manually publish your new viewer preset.
 
 See [Creating a New Viewer Preset](managing-viewer-presets.md#creating-a-new-viewer-preset) to create your own Interactive Video viewer preset.
 
@@ -247,7 +247,7 @@ If you have already uploaded your video and thumbnail assets, proceed to [Adding
 
 If you uploaded the wrong videos or images, or you want to delete uploaded videos or images that you no longer need, see [Deleting Assets](managing-assets-touch-ui.md#deleting-assets).
 
-To upload a video and its associated thumbnail assets:
+**To upload a video and its associated thumbnail assets**:
 
 1. Upload the video and associated thumbnail assets to the folder or folders you want.
 
@@ -269,34 +269,34 @@ See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
 >
 >The URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
 
-Undo and Redo options, near the upper-right corner of the page, are supported during your current creation/editing session.
+**[!UICONTROL Undo]** and **[!UICONTROL Redo]** options, near the upper-right corner of the page, are supported during your current creation/editing session.
 
 After you save your interactive video, the video is immediately opened into Preview. From there, you can select an Interactive Video viewer preset and play the video to see an approximate representation of how it will appear to customers.
 
-To add interactivity to your video:
+**To add interactivity to your video**:
 
 1. In the Assets view, navigate to the video that you uploaded and want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**. 
-    * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
-    * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
+    * Hover on the image, then tap **[!UICONTROL Select]** (checkmark icon). On the toolbar, tap **[!UICONTROL Edit]**. 
+    * Hover on the image, then tap **[!UICONTROL More actions]** (three dots icon) &gt; **[!UICONTROL Edit]**.
+    * Tap the image to open it in the Detail View page. On the toolbar, tap **[!UICONTROL Edit]**.
 
-1. On the Create Interactive Video page, do any one of the following:
+1. On the **[!UICONTROL Create Interactive Video]** page, do any one of the following:
 
-    * Tap the **Play** button to begin playing the video. When a particular product, service, or detail that you want to highlight comes into view, tap **Add Segment** on the toolbar. Repeat until you have reached the end of the video.  
+    * Tap the **[!UICONTROL Play]** button to begin playing the video. When a particular product, service, or detail that you want to highlight comes into view, tap **[!UICONTROL Add Segment]** on the toolbar. Repeat until you have reached the end of the video.  
   
       For each time segment that you add, you can assign one or more thumbnail images to it and then link those thumbnails to Quickview product pages for customers to purchase or to web pages for more information.
 
-    * Tap the **Play** button to begin playing the video. When a particular product, service, or detail that you want to highlight comes into view, tap **Pause**. Tap **Add Segment**.  
+    * Tap the **[!UICONTROL Play]** button to begin playing the video. When a particular product, service, or detail that you want to highlight comes into view, tap **[!UICONTROL Pause]**. Tap **[!UICONTROL Add Segment]**.  
   
       Continue playing and pausing the video at points along the timeline where you want to add a segment until you reach the end of the video.
 
-1. (Optional) Drag the bar on the **Timeline Scale Slider** left to zoom in or right to zoom out, thereby controlling how much detail you see of the segments that you have added.
+1. (Optional) Drag the bar on the **[!UICONTROL Timeline Scale Slider]** left to zoom in or right to zoom out, thereby controlling how much detail you see of the segments that you have added.
 
    ![chlimage_1-128](assets/chlimage_1-128.png)
 
-   Depending on the length of your video, the Segment Duration defaults to the following values:
+   Depending on the length of your video, the **[!UICONTROL Segment Duration]** defaults to the following values:
 
    <table> 
     <tbody> 
@@ -329,25 +329,25 @@ To add interactivity to your video:
 
    The video timeline uses as much screen real estate as what is made available to it. As such, when you resize the browser, the segments you have added maintain their correct width.
 
-   To illustrate, the following three screenshots are using the same video. Notice that the width of each segment changes depending on the Timeline Scale setting.
+   To illustrate, the following three screenshots are using the same video. Notice that the width of each segment changes depending on the **[!UICONTROL Timeline Scale]** setting.
 
    ![chlimage_1-129](assets/chlimage_1-129.png)
 
    Screenshot A
 
-   Screenshot A above shows you the default view of a 29 second product video. The Timeline Scale is set at the default of 5 seconds.
+   Screenshot A above shows you the default view of a 29 second product video. The **[!UICONTROL Timeline Scale]** is set at the default of 5 seconds.
 
    ![chlimage_1-130](assets/chlimage_1-130.png)
 
    Screenshot B
 
-   In Screenshot B above, the Timeline Scale slider was dragged from the default of 5 seconds to 3 seconds. Notice that the individual Timeline Scale time stamps are now all set at 3 second intervals.
+   In Screenshot B above, the **[!UICONTROL Timeline Scale]** slider was dragged from the default of 5 seconds to 3 seconds. Notice that the individual **[!UICONTROL Timeline Scale]** time stamps are now all set at 3 second intervals.
 
    ![chlimage_1-131](assets/chlimage_1-131.png)
 
    Screenshot C
 
-   In Screenshot C above, the Timeline Scale setting was moved to 8 seconds. Notice how the segments that contain product thumbnails have shrunk. Zooming out in this manner is useful if you have a long video and you want to be able to see an overview of more segments that would normally fit in the width of the page.
+   In Screenshot C above, the **[!UICONTROL Timeline Scale]** setting was moved to 8 seconds. Notice how the segments that contain product thumbnails have shrunk. Zooming out in this manner is useful if you have a long video and you want to be able to see an overview of more segments that would normally fit in the width of the page.
 
 1. (Optional) Do any of the following:
 
@@ -367,13 +367,13 @@ To add interactivity to your video:
 
     * To delete a segment  
   
-      Select the last segment that is on the timeline, then on the toolbar, tap **Delete Segment**. If two or more segments are selected, the Delete Segment feature is disabled.  
+      Select the last segment that is on the timeline, then on the toolbar, tap **[!UICONTROL Delete Segment]**. If two or more segments are selected, the **[!UICONTROL Delete Segment]** feature is disabled.  
   
-      You can only delete the last segment. For example, if you wanted to delete all the segments on the timeline, you must always select the last one, then tap **Delete Segment**.
+      You can only delete the last segment. For example, if you wanted to delete all the segments on the timeline, you must always select the last one, then tap **[!UICONTROL Delete Segment]**.
 
 1. Select a time segment to which you want to associate one or more thumbnail images. 
-1. To the right of the video, tap the **Content** tab.
-1. Under the Content tab, tap **Select Assets**, then browse and select all the image assets that you want to use with your video. The selected assets are added to the Asset Selector panel in the Content tab.  
+1. To the right of the video, tap the **[!UICONTROL Content]** tab.
+1. Under the **[!UICONTROL Content]** tab, tap **[!UICONTROL Select Assets]**, then browse and select all the image assets that you want to use with your video. The selected assets are added to the **[!UICONTROL Asset Selector]** panel in the **[!UICONTROL Content]** tab.  
 
 1. In the asset selector below the Content tab, do any of the following:
 
@@ -398,7 +398,7 @@ To add interactivity to your video:
 
    Tapping an image in the asset selector panel adds it to the selected timeline segment.
 
-1. Select a single thumbnail image within one of the timeline segments, then tap the **Actions** tab.
+1. Select a single thumbnail image within one of the timeline segments, then tap the **[!UICONTROL Actions]** tab.
 1. Do any of the following:
 
    <table> 
@@ -459,37 +459,37 @@ To add interactivity to your video:
 
 1. (Optional) Do either of the following:
 
-    * **Merge Segment** - You can combine two adjacent segments (with or without product thumbnails assigned to them) into one segment.  
+    * **[!UICONTROL Merge Segment]** - You can combine two adjacent segments (with or without product thumbnails assigned to them) into one segment.  
   
       On the timeline, tap two or more contiguous segments that you want to merge into one. Note that there are no blue oval drag handles on the two selected segments in the illustration below.
 
-   Tap** Merge Segment** on the toolbar. 
+      Tap **[!UICONTROL Merge Segment]** on the toolbar. 
 
    ![chlimage_1-134](assets/chlimage_1-134.png)
 
    Merging two selected five second segments into one ten second segment.
 
-    * **Split Segment** - You can divide a single segment into two equally timed segments. If there are product thumbnails already assigned to the segment, the thumbnails are combined into the left segment.
+    * **[!UICONTROL Split Segment]** - You can divide a single segment into two equally timed segments. If there are product thumbnails already assigned to the segment, the thumbnails are combined into the left segment.
 
-   On the timeline, tap or click a segment you want to divide in half, then tap **Split Segment** on the toolbar.
+      On the timeline, tap a segment you want to divide in half, then tap **[!UICONTROL Split Segment]** on the toolbar.
 
-   Selecting two or more segments disables the Split Segment feature.
+      Selecting two or more segments disables the **[!UICONTROL Split Segment]** feature.
 
    ![chlimage_1-135](assets/chlimage_1-135.png)
 
-   Splitting a selected ten second segment into two segments of five seconds each.
+      Splitting a selected ten second segment into two segments of five seconds each.
 
-1. Near the upper-right corner of the Create Interactive Video page, the name of the currently selected viewer preset used with the video is displayed. Tap the name to select a different viewer preset.
+1. Near the upper-right corner of the **[!UICONTROL Create Interactive Video]** page, the name of the currently selected viewer preset used with the video is displayed. Tap the name to select a different viewer preset.
 
    For example, the `Shoppable_Video_light` viewer preset lets you play the video with a white display area adjacent to the video. The display area is where the clickable thumbnail images are shown during playback. The `Shoppable_Video_dark` viewer preset lets you play the video with a black display area adjacent to the video.
 
-   If you created your own interactive video viewer preset, you will also see it in the list of presets from which you can choose.
+   If you created your own Interactive Video viewer preset, you will also see it in the list of presets from which you can choose.
 
-   When you are finished, tap **Save**.
+   When you are finished, tap **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
-   >When you save your interactive video, an associated `.vtt` file is automatically saved with it. The `.vtt` file is saved to the `_VTT` folder located at the root of **Assets**. The file and folder is necessary for your interactive video to play correctly on your website. As such, do not move, edit, or delete the `_VTT` folder or its contents.
+   >When you save your interactive video, an associated `.vtt` file is automatically saved with it. The `.vtt` file is saved to the `_VTT` folder located at the root of **[!UICONTROL Assets]**. The file and folder is necessary for your interactive video to play correctly on your website. As such, do not move, edit, or delete the `_VTT` folder or its contents.
 
 1. Publish the interactive video. Publishing creates the embed code or URL that you will eventually copy and paste to your website experiences.
 
@@ -514,6 +514,8 @@ After you have uploaded a video, added timeline segments to it, and published th
 If you are an AEM Sites customer, you can add the interactive video by dragging the Interactive Media component to your page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)
 
 If you are a standalone AEM Assets customer, you can manually add the interactive video to your website as described in this section.
+
+**To integrate an interactive video with your website**:
 
 1. Copy the published interactive video's embed code or URL.  
 
@@ -708,7 +710,7 @@ The demo website is triggering the Quickview dialog box using a simple `loadQuic
 loadQuickView(quickViewUrl);
 ```
 
-Finally, make sure that your Quickview dialog box is attached to the viewer's container element. The default embed code provides sample steps to achieve this functionality. To obtain a reference to the viewer's container element, you can use the following lines of code:
+Finally, make sure that your **[!UICONTROL Quickview]** dialog box is attached to the viewer's container element. The default embed code provides sample steps to achieve this functionality. To obtain a reference to the viewer's container element, you can use the following lines of code:
 
 ```xml
 var sdkContainerId = s7interactivevideoviewer.getComponent("container").getInnerContainerId(); // get viewer container component
