@@ -48,19 +48,19 @@ Every customer is assigned a unique Customer ID number, which helps identify rel
 
    ![whencustomeridischanged](assets/whencustomeridischanged.png)
 
-1. In the **THEN** statement, select **Invoke Service** from the **Select Action** drop-down.
-1. Select the **Retrieve Shipping Address** service from the **Select** drop-down.
-1. Drag-and-drop the **Customer ID** field from the Form Objects tab to the **Drop object or select here **field in the **INPUT** box.
+1. In the **[!UICONTROL THEN]** statement, select **[!UICONTROL Invoke Service]** from the **[!UICONTROL Select Action]** drop-down.
+1. Select the **[!UICONTROL Retrieve Shipping Address]** service from the **[!UICONTROL Select]** drop-down.
+1. Drag-and-drop the **[!UICONTROL Customer ID]** field from the Form Objects tab to the **[!UICONTROL Drop object or select here]** field in the **[!UICONTROL INPUT]** box.
 
    ![dropobjectstoinputfield-retrievedata](assets/dropobjectstoinputfield-retrievedata.png)
 
-1. Drag-and-drop the **Customer ID, Name, Shipping Address, State, and Zip Code** field from the Form Objects tab to the **Drop object or select here** field in the **OUTPUT** box.
+1. Drag-and-drop the **[!UICONTROL Customer ID, Name, Shipping Address, State, and Zip Code]** field from the Form Objects tab to the **[!UICONTROL Drop object or select here]** field in the **[!UICONTROL OUTPUT]** box.
 
    ![dropobjectstooutputfield-retrievedata](assets/dropobjectstooutputfield-retrievedata.png)
 
-   Tap **Done** to save the rule. On the rule editor window, tap **Close**.
+   Tap **[!UICONTROL Done]** to save the rule. On the rule editor window, tap **[!UICONTROL Close]**.
 
-1. Preview the adaptive form. Enter an ID in the **Customer ID** field. The form can now retrieve customer details from the database.
+1. Preview the adaptive form. Enter an ID in the **[!UICONTROL Customer ID]** field. The form can now retrieve customer details from the database.
 
    ![retrieve-information](assets/retrieve-information.gif)
 
@@ -68,30 +68,30 @@ Every customer is assigned a unique Customer ID number, which helps identify rel
 
 After the customer details are retrieved from the database, you can update the shipping address, state, and zip code. The procedure below invokes a Form Data Model service to update customer information to the database:
 
-1. Select the **Submit** field and tap the **Edit Rules** icon. The Rule Editor window opens.
-1. Select the **Submit - Click** rule and tap the **Edit** icon. The options to edit the Submit rule appear.
+1. Select the **[!UICONTROL Submit]** field and tap the **[!UICONTROL Edit Rules]** icon. The Rule Editor window opens.
+1. Select the **[!UICONTROL Submit - Click]** rule and tap the **[!UICONTROL Edit]** icon. The options to edit the Submit rule appear.
 
    ![submit-rule](assets/submit-rule.png)
 
-   In the WHEN option, the **Submit** and **is clicked** options are already selected.
+   In the WHEN option, the **[!UICONTROL Submit]** and **[!UICONTROL is clicked]** options are already selected.
 
    ![submit-is-clicked](assets/submit-is-clicked.png)
 
-1. In the **THEN** option, tap the **+ Add Statement** option. Select **Invoke Service** from the **Select Action** drop-down.
-1. Select the **Update Shipping Address** service from the **Select** drop-down.
+1. In the **[!UICONTROL THEN]** option, tap the **[!UICONTROL + Add Statement]** option. Select **[!UICONTROL Invoke Service]** from the **[!UICONTROL Select Action]** drop-down.
+1. Select the **[!UICONTROL Update Shipping Address]** service from the **[!UICONTROL Select]** drop-down.
 
    ![update-shipping-address](assets/update-shipping-address.png)
 
 1. ![dropobjectstoinputfield-updatedata](assets/dropobjectstoinputfield-updatedata.png)
 
-   Drag-and-drop the **Shipping Address, State, and Zip Code** field from the Form Objects tab to the corresponding  tablename .property (for example,  customerdetails .shippingAddress) of the **Drop object or select here** field in the **INPUT** box. All the fields prefixed with  tablename  (For example,  customerdetails  in this use case) serve as input data for the update service. All the content provided in these fields is updated in the data source.
+   Drag-and-drop the **[!UICONTROL Shipping Address, State, and Zip Code]** field from the Form Objects tab to the corresponding  tablename .property (for example,  customerdetails .shippingAddress) of the **[!UICONTROL Drop object or select here]** field in the **[!UICONTROL INPUT]** box. All the fields prefixed with  tablename  (For example,  customerdetails  in this use case) serve as input data for the update service. All the content provided in these fields is updated in the data source.
 
    >[!NOTE]
    >
-   >Do not drag-and-drop the **Name** and **Customer ID** fields to the corresponding tablename.property (for example, customerdetails.name). It helps avoid updating name and ID of the customer by mistake.
+   >Do not drag-and-drop the **[!UICONTROL Name]** and **[!UICONTROL Customer ID]** fields to the corresponding tablename.property (for example, customerdetails.name). It helps avoid updating name and ID of the customer by mistake.
 
-1. Drag-and-drop the **Customer ID** field from the Form Objects tab to the id field in the **INPUT** box. Fields without a prefixed  tablename  (for example,  customerdetails  in this use case) serve as a search parameter for the update service. The **id** field in this use case uniquely identifies a record in the  customerdetails  table.
-1. Tap **Done** to save the rule. On the rule editor window, tap **Close**.
+1. Drag-and-drop the **[!UICONTROL Customer ID]** field from the Form Objects tab to the id field in the **[!UICONTROL INPUT]** box. Fields without a prefixed  tablename  (for example,  customerdetails  in this use case) serve as a search parameter for the update service. The **[!UICONTROL id]** field in this use case uniquely identifies a record in the  customerdetails  table.
+1. Tap **[!UICONTROL Done]** to save the rule. On the rule editor window, tap **[!UICONTROL Close]**.
 1. Preview the adaptive form. Retrieve details of a customer, update the shipping address, and submit the form. When you retrieve details of the same customer again, the updated shipping address is displayed.
 
 ## Step 3: (Bonus section) Use the code editor to run validations and display error messages {#step-bonus-section-use-the-code-editor-to-run-validations-and-display-error-messages}
@@ -111,7 +111,7 @@ The following procedure shows how to create a rule to displays an error message 
 
    ![whencustomeridischanged](assets/whencustomeridischanged.png)
 
-   In the **THEN** statement, select **Invoke Service** from the **Select Action** drop-down.
+   In the **[!UICONTROL THEN]** statement, select **[!UICONTROL Invoke Service]** from the **[!UICONTROL Select Action]** drop-down.
 
 1. Switch from **[!UICONTROL Visual Editor]** to **[!UICONTROL Code Editor]**. The switch control is on the right side of the window. The Code Editor opens, displaying code similar to the following:
 
