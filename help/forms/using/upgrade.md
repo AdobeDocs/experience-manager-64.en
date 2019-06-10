@@ -75,13 +75,13 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 1. Install AEM Forms add-on package. The steps are listed below:
 
     1. Log in to the AEM server as an administrator and open the package share. The default URL of the package share is `https://[server]:[port]/crx/packageshare`.
-    1. In package share, search **AEM 6.4 Forms add-on packages**, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded** appears next to the package.
+    1. In package share, search **[!UICONTROL AEM 6.4 Forms add-on packages]**, click the package applicable to your operating system, and click **[!UICONTROL Download]**. Read and accept the license agreement and click **[!UICONTROL OK]**. The download starts. Once downloaded, the word **[!UICONTROL Downloaded]** appears next to the package.
 
        Alternately, you can also use the hyperlinks listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) to manually download a package.
     
-    1. After the download is complete, click **Downloaded**. You are redirected to package manager. In the package manager, search the downloaded package, and click **Install**.
+    1. After the download is complete, click **[!UICONTROL Downloaded]**. You are redirected to package manager. In the package manager, search the downloaded package, and click **[!UICONTROL Install]**.
 
-       If you manually download the package using the direct link listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html), then open AEM Package Manager, click **Upload Package**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **Install.**
+       If you manually download the package using the direct link listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html), then open AEM Package Manager, click **[!UICONTROL Upload Package]**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **[!UICONTROL Install]**.
 
        >[!NOTE]
        >
@@ -184,11 +184,11 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 1. Perform the upgrade:
 
     1. Install AEM 6.4 Forms on JEE on a new server by running the installation program. The installer places all of the required files onto your computer, within one installation directory structure.  
-    1. After installation is complete, run the **Configuration Manager** to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository.
+    1. After installation is complete, run the **[!UICONTROL Configuration Manager]** to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository.
 
        >[!NOTE]
        >
-       >On the Upgrade Task Selection screen, select the **Upgrade from Adobe Experience Manager Forms 6.2.0** option. The **Upgrade from Adobe Experience Manager Forms 6.2.0** option allows the configuration manager to upgrade from LiveCycle ES4 SP1 to AEM 6.4 Forms.
+       >On the Upgrade Task Selection screen, select the **[!UICONTROL Upgrade from Adobe Experience Manager Forms 6.2.0]** option. The **[!UICONTROL Upgrade from Adobe Experience Manager Forms 6.2.0]** option allows the configuration manager to upgrade from LiveCycle ES4 SP1 to AEM 6.4 Forms.
 
     1. (Not required for AEM Forms document security module) Import content to the Content Repository (CRX-Repository) to AEM 6.4 Forms server.
 
@@ -240,9 +240,9 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES3 s
 1.  Perform the upgrade:
     
     1.  Install AEM 6.4 Forms on JEE on a new server by running the installation program. The installer places all of the required files onto your computer, within one installation directory structure.
-    1.  After installation is complete, run the **Configuration Manager** to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository.
+    1.  After installation is complete, run the **[!UICONTROL Configuration Manager]** to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository.
         
-        NOTE: On the Upgrade Task Selection screen, select the **Upgrade from Adobe Experience Manager Forms 6.2.0** option. The **Upgrade from Adobe Experience Manager Forms 6.2.0** option allows the configuration manager to upgrade from LiveCycle ES3 to AEM 6.4 Forms.  
+        NOTE: On the Upgrade Task Selection screen, select the **[!UICONTROL Upgrade from Adobe Experience Manager Forms 6.2.0]** option. The **[!UICONTROL Upgrade from Adobe Experience Manager Forms 6.2.0]** option allows the configuration manager to upgrade from LiveCycle ES3 to AEM 6.4 Forms.  
         
     1.  NOTE: (Not required for AEM Forms document security module) Upgrade and import the CRX repository to AEM 6.4 Forms server.
         
