@@ -237,7 +237,7 @@ To enable prefill service, specify the Default Prefill Service Configuration in 
 
    ![prefill_config](assets/prefill_config.png)
 
-1. Enter the data location or a regex (regular expression) for the **Data files locations**. Examples of valid Data files locations are:
+1. Enter the data location or a regex (regular expression) for the **[!UICONTROL Data files locations]**. Examples of valid Data files locations are:
 
     * file:///C:/Users/public/Document/Prefill/.&ast;
     * http://localhost:8000/somesamplexmlfile.xml
@@ -368,6 +368,6 @@ The boilerplate package (sample prefill service package) contains sample impleme
 To start the prefill service, upload the JAR file to AEM Forms Web Console, and activate the service. Now, the service starts appearing in adaptive forms editor. To associate a prefill service to an adaptive form:
 
 1. Open the adaptive form in Forms Editor and open the Properties panel for the Form Container.
-1. In the Properties console, navigate to AEM Forms container &gt; Basic &gt; Prefill Service.
+1. In the Properties console, navigate to **[!UICONTROL AEM Forms container &gt; Basic &gt; Prefill Service]**.
 1. Select the Default Prefill Service and click **[!UICONTROL Save]**. The service is associated to the form.
 

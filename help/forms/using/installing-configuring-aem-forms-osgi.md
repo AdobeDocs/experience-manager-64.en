@@ -85,13 +85,13 @@ Before you begin to install and configure data capture capability AEM Forms, ens
 AEM Forms add-on package is an application deployed onto AEM. The package contains AEM Forms data capture and other capabilities. Perform the following steps to install the add-on package:
 
 1. Log in to the [AEM server](http://localhost:4502) as an administrator and open [package share](http://localhost:4502/crx/packageshare). You require an Adobe ID to log in to the package share.
-1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search **AEM 6.4 Forms add-on packages**, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded **appears next to the package.
+1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search **[!UICONTROL AEM 6.4 Forms add-on packages]**, click the package applicable to your operating system, and click **[!UICONTROL Download]**. Read and accept the license agreement and click **[!UICONTROL OK]**. The download starts. Once downloaded, the word **[!UICONTROL Downloaded]** appears next to the package.
 
    You can also use the version number to search an add-on package. For version number of the latest package, see the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
 
-1. After the download completes, click **Downloaded**. You are redirected to package manager. In the package manager, search the downloaded package, and click **Install**.
+1. After the download completes, click **[!UICONTROL Downloaded]**. You are redirected to package manager. In the package manager, search the downloaded package, and click **[!UICONTROL Install]**.
 
-   If you manually download the package via the direct link listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article, log in to the package manager, click **Upload Package**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **Install.**
+   If you manually download the package via the direct link listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article, log in to the package manager, click **[!UICONTROL Upload Package]**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **[!UICONTROL Install]**.
 
 1. After the package is installed, you are prompted to restart the AEM instance. **Do not immediately restart the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the [AEM-Installation-Directory]/crx-quickstart/logs/error.log file and the log is stable.
 1. Repeat steps 1-4 on all the Author and Publish instances.
@@ -126,8 +126,8 @@ Perform the following steps on all the Author and Publish instances to boot dele
 Perform the following steps on all the Author and Publish instances to whitelist the package:
 
 1. Open AEM Configuration Manager in a browser window. The default URL is `https://[server]:[port]/system/console/configMgr`.
-1. Search and open **Deserialization Firewall Configuration**.
-1. Add the **sun.util.calendar **package to the **whitelist **field. Click Save.
+1. Search and open **[!UICONTROL Deserialization Firewall Configuration]**.
+1. Add the **[!UICONTROL sun.util.calendar]** package to the **[!UICONTROL whitelist]** field. Click **[!UICONTROL Save]**.
 1. Repeat step 1-3 on all the Author and Publish instances.
 
 ### Optional post-installation configurations {#optional-post-installation-configurations}
@@ -146,7 +146,7 @@ Dispatcher is caching and load balancing tool for AEM. AEM Dispatcher also helps
 
 1. Configure the referrer filter service:
 
-   Log in to the Apache Felix configuration manager as an administrator. The Default URL of the configuration manager is `https://[server]:[port_number]/system/console/configMgr`. In the **Configurations **menu, select the **Apache Sling Referrer Filter** option. In the Allow Hosts field, enter host name of the dispatcher to allow it as a referrer and click **Save**. The format of the entry is `https://[server]:[port]`.
+   Log in to the Apache Felix configuration manager as an administrator. The Default URL of the configuration manager is `https://[server]:[port_number]/system/console/configMgr`. In the **[!UICONTROL Configurations]** menu, select the **[!UICONTROL Apache Sling Referrer Filter]** option. In the Allow Hosts field, enter host name of the dispatcher to allow it as a referrer and click **[!UICONTROL Save]**. The format of the entry is `https://[server]:[port]`.
 
 #### Configure Cache {#configure-cache}
 
@@ -158,7 +158,7 @@ Caching is a mechanism to shorten data access times, reduce latency, and improve
 Perform the following steps to configure the adaptive forms cache:
 
 1. Go to AEM web console configuration manager at `https://[server]:[port]/system/console/configMgr`.
-1. Click **Adaptive Form and Interactive Communication Web Channel Configuration** to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the **Number of Adaptive Forms** field. The default value is 100. Click **Save**.
+1. Click **[!UICONTROL Adaptive Form and Interactive Communication Web Channel Configuration]** to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the **[!UICONTROL Number of Adaptive Forms]** field. The default value is 100. Click **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
