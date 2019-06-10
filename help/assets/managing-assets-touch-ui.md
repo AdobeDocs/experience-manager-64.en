@@ -582,7 +582,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. In the preview mode, zoom options are available for [supported Image types](assets-formats.md#supported-raster-image-formats) (with interactive editing).
 
-   To zoom into an asset, tap **+** (or tap the magnifying glass on the asset). To zoom out, tap **-**. When you zoom in, you can look closely at any area of the image by panning. The **[!UICONTROL Reset Zoom]** arrow brings you back to the original view.
+   To zoom into an asset, tap **[!UICONTROL +]** (or tap the magnifying glass on the asset). To zoom out, tap **[!UICONTROL -]**. When you zoom in, you can look closely at any area of the image by panning. The **[!UICONTROL Reset Zoom]** arrow brings you back to the original view.
 
    ![uploadicon](assets/uploadicon.png)
 
