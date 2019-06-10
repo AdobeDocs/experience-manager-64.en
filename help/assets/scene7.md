@@ -33,9 +33,9 @@ For more information on using video components with AEM, see [Video](video.md).
 
 >[!NOTE]
 >
->If Dynamic Media Classic assets do not display properly, please make sure that Dynamic media is [disabled](config-dynamic.md#disabling-dynamic-media) and then refresh the page.
+>If Dynamic Media Classic assets do not display properly, make sure that Dynamic media is [disabled](config-dynamic.md#disabling-dynamic-media) and then refresh the page.
 
-## Manually Publishing to Dynamic Media Classic from Assets {#manually-publishing-to-scene-from-assets}
+## Manually publishing to Dynamic Media Classic from assets {#manually-publishing-to-scene-from-assets}
 
 You can publish digital assets to Dynamic Media Classic as follows:
 
@@ -48,7 +48,7 @@ You can publish digital assets to Dynamic Media Classic as follows:
 >AEM publishes to Dynamic Media Classic asynchronously. After you click **[!UICONTROL Publish]**, it may take several seconds for your asset to publish to Dynamic Media Classic.
 >
 
-## Dynamic Media Classic Components {#scene-components}
+## Dynamic Media Classic components {#scene-components}
 
 The following Dynamic Media Classic components are available in AEM:
 
@@ -60,9 +60,9 @@ The following Dynamic Media Classic components are available in AEM:
 
 >[!NOTE]
 >
->These components are not available by default and need to be selected in Design mode before using.
+>These components are not available by default and need to be selected in **[!UICONTROL Design]** mode before using.
 
-After they are made available in Design mode, you can add the components to your page like any other AEM component. Assets that have not yet been published to Dynamic Media Classic are published to Dynamic Media Classic if in a synchronized folder or on a page or with a Dynamic Media Classic cloud configuration.
+After they are made available in **[!UICONTROL Design]** mode, you can add the components to your page like any other AEM component. Assets that have not yet been published to Dynamic Media Classic are published to Dynamic Media Classic if in a synchronized folder or on a page or with a Dynamic Media Classic cloud configuration.
 
 >[!NOTE]
 >
@@ -74,46 +74,46 @@ Effective January 31, 2017, Adobe Dynamic Media Classic ended support for the Fl
 
 For more information about this important change, see [Flash Viewer End-of-Life FAQs](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-### Adding a Dynamic Media Classic Component to a Page {#adding-a-scene-component-to-a-page}
+### Adding a Dynamic Media Classic component (Scene7) to a page {#adding-a-scene-component-to-a-page}
 
-Adding a Dynamic Media Classic component to a page is the same as adding a component to any page. Dynamic Media Classic components are described in detail in the following sections.
+Adding a Dynamic Media Classic (Scene7) component to a page is the same as adding a component to any page. Dynamic Media Classic components are described in detail in the following sections.
 
-To add a Dynamic Media Classic component/viewer to a page in the touch-optimized UI:
+**To add a Dynamic Media Classic (Scene7) component to a page**:
 
-1. In AEM, open the page where you want to add the Dynamic Media Classic component.  
+1. In AEM, open the page where you want to add the Dynamic Media Classic (Scene7) component.  
 
-1. If no Dynamic Media Classic components are available, click **[!UICONTROL Design]** mode, tap any component with a blue border, tap the [!UICONTROL Parent] icon, and then the **[!UICONTROL Configuration]** icon. In **[!UICONTROL Parsys (Design)]**, select all the **[!UICONTROL Dynamic Media Classic]** components to make them available and click **[!UICONTROL OK]**.
+1. If no Dynamic Media Classic components are available, click **[!UICONTROL Design]** mode, tap any component with a blue border, tap the **[!UICONTROL Parent]** icon, and then the **[!UICONTROL Configuration]** icon. In **[!UICONTROL Parsys (Design)]**, select all the Dynamic Media Classic components to make them available and click **[!UICONTROL OK]**.
 
    ![chlimage_1-224](assets/chlimage_1-224.png)
 
-1. Click **[!UICONTROL Edit]** to return to Edit mode.  
+1. Click **[!UICONTROL Edit]** to return to **[!UICONTROL Edit]** mode.  
 
-1. Drag a component from the **[!UICONTROL Dynamic Media Classic]** group in the sidekick onto the page in the desired location.  
+1. Drag a component from the Dynamic Media Classic group in the sidekick onto the page in the desired location.  
 
 1. Click the **[!UICONTROL Configuration]** icon to open the component.  
 
-1. Edit the component as necessary and click **OK** to save changes.
+1. Edit the component as necessary and click **[!UICONTROL OK]** to save changes.
 1. Drag your image or video from the content browser onto the Dynamic Media Classic component you added to the page.
 
    >[!NOTE]
    >
-   >In touch UI only, you must drag and drop the image or video onto the [!UICONTROL Dynamic Media Classic] component you placed on the page. Selecting and editing the [!UICONTROL Dynamic Media Classic] component and then choosing the asset is not supported.
+   >In touch UI only, you must drag and drop the image or video onto the Dynamic Media Classic component you placed on the page. Selecting and editing the Dynamic Media Classic component and then choosing the asset is not supported.
 
-### Adding interactive viewing experiences to a responsive website {#adding-interactive-viewing-experiences-to-a-responsive-website}
+### Adding interactive viewing experiences to a responsive site {#adding-interactive-viewing-experiences-to-a-responsive-website}
 
 Responsive design for your assets means that your assets adapts depending on where it is displayed. With responsive design, the same assets can be effectively displayed on multiple devices.
 
 See also [Responsive Design for Web Pages](/help/sites-developing/responsive.md).
 
-To add an interactive viewing experience to a responsive site in the touch-optimized UI:
+**To add an interactive viewing experience to a responsive site**:
 
-1. Log in to AEM, and ensure that you have [configured Adobe Dynamic Media Classic Cloud Services](/help/sites-administering/scene7.md#configuring-scene-integration) and that [!UICONTROL Dynamic Media Classic] components are available.
+1. Log in to AEM, and ensure that you have [configured Adobe Dynamic Media Classic Cloud Services](/help/sites-administering/scene7.md#configuring-scene-integration) and that Dynamic Media Classic components are available.
 
    >[!NOTE]
    >
-   >If [!UICONTROL Dynamic Media Classic] components are not available, be sure [to enable them by way of Design mode](/help/sites-authoring/default-components-designmode.md).
+   >If Dynamic Media Classic components are not available, be sure [to enable them by way of Design mode](/help/sites-authoring/default-components-designmode.md).
 
-1. In a website with the [!UICONTROL Dynamic Media Classic] components enabled, drag an **[!UICONTROL Image]** component to the page.
+1. In a website with the **[!UICONTROL Dynamic Media Classic]** components enabled, drag an **[!UICONTROL Image]** component to the page.
 1. Select the component and tap the configuration icon.
 1. In the **[!UICONTROL Dynamic Media Classic Settings]** tab, adjust the breakpoints.
 
@@ -125,17 +125,17 @@ To add an interactive viewing experience to a responsive site in the touch-optim
 
 Although configuration options vary, the following are common to all [!UICONTROL Dynamic Media Classic] components:
 
-* **[!UICONTROL File Reference]** - Browse to a file that you want to reference. File reference shows the asset URL and not necessarily the full Dynamic Media Classic URL including the URL commands and parameters. You cannot add Dynamic Media Classic URL commands and parameters in this field. They have to be added through the corresponding functionality in the component.
-* **[!UICONTROL Width]** - Lets you set the width.
-* **[!UICONTROL Height]** - Lets you set the height.
+* **[!UICONTROL File Reference]** &ndash; Browse to a file that you want to reference. File reference shows the asset URL and not necessarily the full Dynamic Media Classic URL including the URL commands and parameters. You cannot add Dynamic Media Classic URL commands and parameters in this field. They have to be added through the corresponding functionality in the component.
+* **[!UICONTROL Width]** &ndash; Lets you set the width.
+* **[!UICONTROL Height]** &ndash; Lets you set the height.
 
-You set these configuration options by opening (double-clicking) a [!UICONTROL Dynamic Media Classic] component, for example, when you open a **[!UICONTROL Zoom]** component:
+You set these configuration options by opening (double-clicking) a Dynamic Media Classic component, for example, when you open a **[!UICONTROL Zoom]** component:
 
 ![chlimage_1-226](assets/chlimage_1-226.png) 
 
 ### Zoom {#zoom}
 
-The HTML5 Zoom component displays a larger image when you press the + button.
+The HTML5 Zoom component displays a larger image when you press the **[!UICONTROL +]** button.
 
 The asset has zoom tools at the bottom. Tap **[!UICONTROL +]** to enlarge. Tap **[!UICONTROL -]** to reduce. Tapping the **[!UICONTROL x]** or the reset zoom arrow brings the image back to the original size it was imported as. Tap the diagonal arrows to make it full screen. Tap **[!UICONTROL Edit]** to configure the component. With this component, you can configure [settings common to all [!UICONTROL Dynamic Media Classic] components](#settings-common-to-all-scene-components).
 
@@ -143,39 +143,39 @@ The asset has zoom tools at the bottom. Tap **[!UICONTROL +]** to enlarge. Tap *
 
 ### Flyout {#flyout}
 
-In the HTML5 Flyout component, the asset is shown as split screen; left the asset in the specified size; right the zoom portion is displayed. Tap **[!UICONTROL Edit]** to configure the component. With this component, you can configure [settings common to all Dynamic Media Classic components](#settings-common-to-all-scene-components).
+In the HTML5 **[!UICONTROL Flyout]** component, the asset is shown as split screen; left the asset in the specified size; right the zoom portion is displayed. Tap **[!UICONTROL Edit]** to configure the component. With this component, you can configure [settings common to all Dynamic Media Classic components](#settings-common-to-all-scene-components).
 
 >[!NOTE]
 >
->If your [!UICONTROL Flyout] component uses a custom size, then that custom size is used and responsive setup of the component is disabled.
+>If your **[!UICONTROL Flyout]** component uses a custom size, then that custom size is used and responsive setup of the component is disabled.
 >
->If your [!UICONTROL Flyout] component uses the default size, as set in the Design view, then the default size is used and the component stretches to accomodate the page layout size with responsive setup of the component enabled. Be aware, however, that there is a limitation on responsive setup of the component. When the you use the [!UICONTROL Flyout] component with responsive setup, you should not use it with full page stretch. Otherwise, the [!UICONTROL Flyout] may extend beyond the page's right border.
+>If your **[!UICONTROL Flyout]** component uses the default size, as set in the **[!UICONTROL Design View]**, then the default size is used and the component stretches to accomodate the page layout size with responsive setup of the component enabled. Be aware, however, that there is a limitation on responsive setup of the component. When the you use the **[!UICONTROL Flyout]** component with responsive setup, you should not use it with full page stretch. Otherwise, the **[!UICONTROL Flyout]** may extend beyond the page's right border.
 
 ![chlimage_1-228](assets/chlimage_1-228.png) 
 
 ### Image {#image}
 
-The [!UICONTROL Dynamic Media Classic] Image component lets you add Dynamic Media Classic functionality to your images, such as Dynamic Media Classic modifiers, image or viewer presets, and sharpening. The Dynamic Media Classic Image component is similar to other image components in AEM with special Dynamic Media Classic functionality. In this example, the image has the Dynamic Media Classic URL modifier, **&op_invert=1** applied.
+The Dynamic Media Classic **[!UICONTROL Image]** component lets you add Dynamic Media Classic functionality to your images, such as Dynamic Media Classic modifiers, image or viewer presets, and sharpening. The Dynamic Media Classic **[!UICONTROL Image]** component is similar to other image components in AEM with special Dynamic Media Classic functionality. In this example, the image has the Dynamic Media Classic URL modifier, **&op_invert=1** applied.
 
 ![chlimage_1-229](assets/chlimage_1-229.png)
 
 **[!UICONTROL Title, Alt Text]** &ndash; In the **[!UICONTROL Advanced]** tab, add a title to the image and alt text for those users who have graphics turned off.
 
-**[!UICONTROL URL, Open in]** &ndash; You can set an asset from to open a link. Set the [!UICONTROL URL] and in [!UICONTROL Open in] indicate whether you want it to open in the same window or a new window.
+**[!UICONTROL URL, Open in]** &ndash; You can set an asset from to open a link. Set the **[!UICONTROL URL]** and in **[!UICONTROL Open in]** indicate whether you want it to open in the same window or a new window.
 
 ![chlimage_1-230](assets/chlimage_1-230.png)
 
-**[!UICONTROL Viewer preset]** &ndash; Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
+**[!UICONTROL Viewer preset]** &ndash; Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See [Managing Viewer Presets](/help/assets/managing-viewer-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
 
 **[!UICONTROL Dynamic Media Classic Configuration]** &ndash; Select the Dynamic Media Classic configuration you want to use to fetch active image presets from SPS.
 
-**[!UICONTROL Image preset]** &ndash; Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See Managing Image Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
+**[!UICONTROL Image preset]** &ndash; Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See [Managing Image Presets](/help/assets/managing-image-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
 
-**[!UICONTROL Output Format]** &ndash; Select the output format of the image, for example jpeg. Depending on the output format you select, you may have additional configuration options. See Image Preset best practices.
+**[!UICONTROL Output Format]** &ndash; Select the output format of the image, for example jpeg. Depending on the output format you select, you may have additional configuration options. See [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options).
 
-**[!UICONTROL Sharpening]** &ndash; Select how you want to sharpen the image. Sharpening is explained in detail in Image Preset best practices and Sharpening best practices.
+**[!UICONTROL Sharpening]** &ndash; Select how you want to sharpen the image. Sharpening is explained in detail in [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options) and [Sharpening best practices](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
 
-**[!UICONTROL URL Modifiers]** &ndash; You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in Image Presets and the Command reference.
+**[!UICONTROL URL Modifiers]** &ndash; You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
 
 **[!UICONTROL Breakpoints]** &ndash; If your website is responsive, you want to adjust the breakpoints. Breakpoints must be separated by commas ( , ).
 
@@ -223,11 +223,9 @@ The text reflects the name of the currently logged in user. You can reset the te
 
 ![chlimage_1-237](assets/chlimage_1-237.png) 
 
-#### Making the Dynamic Media Classic image template a link {#making-the-scene-image-template-a-link}
+#### Making the Dynamic Media Classic Image Template a link {#making-the-scene-image-template-a-link}
 
-To make the Dynamic Media Classic image template component a clickable link:
-
-1. On the page with the Dynamic Media Classic image template component, tap **[!UICONTROL Edit]**.
+1. On the page with the Dynamic Media Classic **[!UICONTROL Image Template]** component, tap **[!UICONTROL Edit]**.
 1. In the **[!UICONTROL URL]** field, enter the URL that users go to when the image is tapped. In the **[!UICONTROL Open in]** field, select whether you want the target to open (a new window or same window). 
 
    ![chlimage_1-238](assets/chlimage_1-238.png)
@@ -240,7 +238,7 @@ The Dynamic Media Classic **[!UICONTROL Video]** component (available from the D
 
 It can be used for adaptive video sets, a single MP4 video, or a single F4V video.
 
-See [Video](s7-video.md) for more information on how videos work with Dynamic Media Classic integration. In addition, see how [the **Dynamic Media Classic video** component compares to the foundation **video** component](s7-video.md). 
+See [Video](s7-video.md) for more information on how videos work with Dynamic Media Classic integration. In addition, see [the Dynamic Media Classic Video component versus the Foundation Video component](s7-video.md). 
 
 ![chlimage_1-239](assets/chlimage_1-239.png) 
 
@@ -253,7 +251,7 @@ Adobe DAM and WCM shows if a master video is uploaded. They do not show these pr
 
 When using an adaptive video set with the Dynamic Media Classic video component, you need to resize the component to fit the dimensions of the video.
 
-## Dynamic Media Classic Content Browser {#scene-content-browser}
+## Dynamic Media Classic content browser {#scene-content-browser}
 
 The Dynamic Media Classic content browser lets you view content from Dynamic Media Classic directly in AEM. To access the content browser, in the **[!UICONTROL Content Finder]**, select **[!UICONTROL Dynamic Media Classic]** in the touch-optimized user interface or the **[!UICONTROL S7]** icon in the classic user interface. Functionality is identical between both user interfaces.
 
@@ -270,7 +268,7 @@ If you have multiple configurations, AEM by default displays the [default config
 >  * Single MP4 video 
 >  * Single F4V video 
 
-### Browsing content in the Touch-optimized UI {#browsing-content-in-the-touch-optimized-ui}
+### Browsing content in the touch-optimized UI {#browsing-content-in-the-touch-optimized-ui}
 
 You can access the content browser either in the touch-optimized or classic UI. Currently the touch-optimized has the following limitation:
 
@@ -333,7 +331,7 @@ By default, AEM searches the folder selected and all sub-folders.
 >* When searching an adaptive video set, you are searching the the folder and all sub-folders but only if you have added a keyword to the search. If you have not added a keyword, AEM does not search the sub-folders.
 >
 
-**[!UICONTROL Publish Status]** &ndash; You can filter for assets based on publication status: Unpublished or Published. If you do not select any Publish Status, AEM by default searches all publish statuses.
+**[!UICONTROL Publish Status]** &ndash; You can filter for assets based on publication status: **[!UICONTROL Unpublished]** or **[!UICONTROL Published]**. If you do not select any **[!UICONTROL Publish Status]**, AEM by default searches all publish statuses.
 
 ![chlimage_1-247](assets/chlimage_1-247.png)
 
