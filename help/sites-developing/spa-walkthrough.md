@@ -101,7 +101,7 @@ When an SPA is built to leverage the AEM SPA Editor, the content author notices 
 
    ![screen_shot_2018-06-07at142533](assets/screen_shot_2018-06-07at142533.png)
 
-1. Select a heading component and notice that a toolbar appears like for any other component. Select **Edit**.
+1. Select a heading component and notice that a toolbar appears like for any other component. Select **[!UICONTROL Edit]**.
 
    ![screen_shot_2018-06-07at142937](assets/screen_shot_2018-06-07at142937.png)
 
@@ -131,7 +131,7 @@ Experiencing how an SPA behaves for the end user and then inspecting the SPA pag
 
 ### Using an SPA Application {#using-an-spa-application}
 
-1. Load the We.Retail Journal application either on the publish server or using the option **View as Published** from the **Page Information** menu in the page editor.
+1. Load the We.Retail Journal application either on the publish server or using the option **[!UICONTROL View as Published]** from the **Page Information** menu in the page editor.
 
    `/content/we-retail-journal/react.html`
 
@@ -157,7 +157,7 @@ The next section, [Loading an SPA Application](/help/sites-developing/spa-walkth
 
 ### Loading an SPA Application {#loading-an-spa-application}
 
-1. If not already loaded, load the We.Retail Journal application either on the publish server or using the option **View as Published** from the **Page Information** menu in the page editor.
+1. If not already loaded, load the We.Retail Journal application either on the publish server or using the option **[!UICONTROL View as Published]** from the **Page Information** menu in the page editor.
 
    `/content/we-retail-journal/react.html`
 
