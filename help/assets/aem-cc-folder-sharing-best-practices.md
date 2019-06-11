@@ -36,13 +36,13 @@ The integration includes the following elements:
 
 * **AEM Assets server** deployed in the enterprise network (managed services or on-premise): Folder sharing is initiated here.
 * **Adobe Marketing Cloud Assets core service**: Acts as an intermediary between AEM and Creative Cloud storage services. Admin of the company using the integration needs to established trust relationship between the Marketing Cloud organization and the AEM Assets instance. They also [define a list of approved Creative Cloud collaborators](https://marketing.adobe.com/resources/help/en_US/mcloud/t_admin_add_cc_user.html), that AEM Assets users can share folders too for additional security.
-
 * **Creative Cloud Assets web services** (storage and Creative Cloud Files web UI): This is where specific Creative Cloud users, with whom an AEM Assets folder was shared, would be able to accept the invitation and see the folder in their Creative Cloud account storage.
 * **Creative Cloud Desktop App**: (Optional) Allows for direct access to shared folder/files from creative user’s desktop via sync with Creative Cloud Assets storage.
 
 ## Characteristics and limitations {#characteristics-and-limitations}
 
 * **One-way propagation of changes:** File changes are propagated in one direction only - from the system (AEM or Creative Cloud Assets), where the asset was originally created (uploaded). The integration does not provide a fully automated, two-way synchronization between the two systems.
+
 * **Versioning:**
 
   * AEM only creates versions of an asset on updates if the file originated in AEM and is updated there.
@@ -59,7 +59,6 @@ The integration includes the following elements:
 Best practices for leveraging the AEM to Creative Cloud folder sharing include:
 
 * **Volume considerations:** AEM/Creative Cloud Folder Sharing should be used to share smaller number of files, for example, relevant to a specific campaign or activity. To share larger sets of assets, like all approved assets in the organization, use other distribution methods (for example, AEM Assets Brand Portal) or AEM Desktop App.
-
 * **Avoid sharing deep hierarchies:** The sharing works recursively and does not allow for selective unsharing. Typically, only folders without subfolders, or with a very shallow hierarchy, like 1 subfolder level, should be considered for sharing.
 * **Separate folders for one-way sharing:** Separate folders should be used for sharing final assets from AEM Assets to Creative Cloud files, and for sharing creative-ready assets back from Creative Cloud files to AEM Assets. Together with a good naming convention for these folders, it creates an easier-to-understand working environment for AEM Assets and Creative Cloud users alike.
 * **Avoid WIP in the shared folder:** Shared folder should not be used for Work in Progress - use a separate folder in Creative Cloud Files to carry out work that requires frequent changes to the file.

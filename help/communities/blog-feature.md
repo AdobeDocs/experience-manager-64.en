@@ -71,57 +71,75 @@ Select the placed `Blog` component to access and select the `Configure` icon whi
 Under the **Settings** tab, specify the basic features of the blog:
 
 * **Journal Title** 
+
   The blog title to display on the page.
 
 * **Journal Description** 
+
   The blog description.
 
 * **Topics Per Page** 
+
   Defines the number of blog entries/comments shown per page. Default is 10.
 
 * **Moderated** 
+
   If checked, posting of blog entries and comments must be approved before they will appear on a publish site. Default is unchecked.
 
 * **Closed** 
+
   If checked, the blog is closed to new blog entries and comments. Default is unchecked.
 
 * **Rich Text Editor** 
+
   If checked, blog entries and comments may be entered with markup. Default is checked.
 
 * **Allow Tagging** 
+
   If checked, allow members to add tag labels to their post (see **Tag field** tab). Default is unchecked.
 
 * **Allow File Uploads** 
+
   If checked, allow file attachments to be added to a blog entry or comment. Default is unchecked.
 
 * **Max File Size** 
+
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
 * **Allowed File Types** 
+
   Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
 
 * **Max Attach Image File Size** 
+
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152 (2 Mb).
 
 * **Allow Replies** 
+
   If checked, allow replies to comments posted to the blog entry. Default is unchecked.
 
 * **Allow Users to Delete Comments and Topics** 
+
   If checked, allow members to delete the comments and blog entries they posted. Default is unchecked.
 
 * **Allow Following** 
+
   If checked, include the following feature for blog articles, which allows members to be [notified](/help/communities/notifications.md) of new posts. Default is unchecked.
 
 * **Allow Email Subscriptions** 
+
   If checked, allow members to be notified of new posts by email ([subscription](/help/communities/subscriptions.md)). Requires `Allow Following` to be checked and [email configured](/help/communities/email.md). Default is unchecked.
 
 * **Allow Voting** 
+
   If checked, include the Voting feature with a blog entry. Default is unchecked.
 
 * **Display Badges** 
+
   If checked, display earned and assigned [badges](/help/communities/implementing-scoring.md) with a member's blog entry. Default is unchecked.
 
 * **Allow Featured Content** 
+
   if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is unchecked.
 
 #### User Moderation tab {#user-moderation-tab}
@@ -129,24 +147,31 @@ Under the **Settings** tab, specify the basic features of the blog:
 Under the **User Moderation** tab, specify the moderation settings:
 
 * **Deny Posts** 
+
   If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is unchecked.  
 
-* **Close / Reopen Topics** 
+* **Close/Reopen Topics** 
+
   If checked, trusted member moderators may close a topic to further edits and comments, and may also reopen a topic. Default is unchecked.  
 
 * **Flag Posts** 
+
   If checked, allow members to flag others' topics or comments as inappropriate. Default is unchecked**.** 
 
 * **Flag Reason List** 
+
   If checked, allow members to choose, from a drop-down list, their reason for flagging a topic or comment as inappropriate. Default is unchecked.  
 
 * **Custom Flag Reason** 
+
   If checked, allow members to enter their own reason for flagging a topic or comment as inappropriate. Default is unchecked**.** 
 
 * **Moderation Threshold** 
+
   Enter the number of times a topic or comment has to be flagged by members before moderators are notified. Default is 1 ( one time).
 
 * **Flagging Limit** 
+
   Enter the number of times a topic or comment has to be flagged before it is hidden from public view. If set to -1, the flagged topic or comment is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.
 
 #### Tag field tab {#tag-field-tab}
@@ -154,9 +179,11 @@ Under the **User Moderation** tab, specify the moderation settings:
 Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab:
 
 * **Allowed Namespaces** 
-  Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
+
+  Relevant if `Allow Tagging` is checked under the **Settings** tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
 
 * **Suggestion Limit** 
+
   Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of -1 means no limits. Default is 0.
 
 ### Configuring Blog Sidebar {#configuring-blog-sidebar}
@@ -168,6 +195,7 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
 ![chlimage_1-151](assets/chlimage_1-151.png)
 
 * **Date format** 
+
   The format used to display for archives of blog entries. The format uses placeholders following the Java convention.
 
     * yyyy: full year, like '2015'
@@ -179,6 +207,7 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
   Default is "yyyy MMMMM" which would display, for example, "2015 June"
 
 * **View Type** 
+
   The Title and type of blog entries to display in the sidebar. The choice is between
 
     * Authors
@@ -186,11 +215,13 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
     * Archives
 
 * **Journal Component Path** 
+
   *(Optional)* The location of the blog resource from which blog articles are to be listed. If left blank, will use the component of resourceType `social/journal/components/hbs/journal` that appears on the same page.
 
     * for example, `/content/sites/engage/en/blog/jcr:content/content/primary/blog`
 
 * **Suggestion Limit** 
+
   The number of blog articles to be displayed. A value of -1 means no limit. Default is -1.
 
 ## Site Visitor Experience {#site-visitor-experience}

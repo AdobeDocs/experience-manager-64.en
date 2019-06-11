@@ -44,15 +44,19 @@ If the publish environment is a farm of publishers, it is necessary to configure
 ![chlimage_1-243](assets/chlimage_1-243.png)
 
 * **Upload Image** 
+
   (*required*) A badge image with a recommended size of 32 x 32 pixels at 72dpi in either the JPEG or PNG format.
 
 * **Name** 
+
   (*required*) The badge name. It is the default `Display Name` as well as the repository node name. If the `Name` is not a valid repository node name, it will be modified.
 
 * **Display Name** 
+
   (*optional*) The name to display for the badge in the UI. Default is the unaltered text entered for the `Name`.
 
 * **Description** 
+
   (*optional*) A description for the badge.
 
 ## Additional Information {#additional-information}
