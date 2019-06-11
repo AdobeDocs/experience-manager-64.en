@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: f7f19679-cfc2-4ac0-9a26-685fad09276f
 ---
 
-# Searching for forms and assets{#searching-for-forms-and-assets}
+# Searching for forms and assets {#searching-for-forms-and-assets}
 
 You can search for your forms or form assets, using a text string or text string along with wildcards. You can also narrow your search using the criteria available in various categories in the Search panel.
 
@@ -42,8 +42,6 @@ Note the following points about the basic search:
 In the search criteria, besides the query you can specify some search parameters to make the basic search more efficient and focused.
 
 ![Search field and parameters or filters for AEM form and asset search](assets/search_forms_assets.png)
-
-Search field and parameters or filters for AEM form and asset search
 
 ### Asset Path {#asset-path}
 

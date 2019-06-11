@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: ba674a2d-7c78-430e-8e17-1a18619e71cb
 ---
 
-# Separator component in adaptive forms{#separator-component-in-adaptive-forms}
+# Separator component in adaptive forms {#separator-component-in-adaptive-forms}
 
 You can use the separator component to visually segregate panels of a form. You can define the overall appearance and style of a separator component by specifying the following properties of separator component:
 

@@ -10,7 +10,7 @@ topic-tags: Configuration
 discoiquuid: e78f539a-109c-444c-8e52-be2260c3509f
 ---
 
-# Supporting new locales for adaptive forms localization{#supporting-new-locales-for-adaptive-forms-localization}
+# Supporting new locales for adaptive forms localization {#supporting-new-locales-for-adaptive-forms-localization}
 
 ## About locale dictionaries {#about-locale-dictionaries}
 

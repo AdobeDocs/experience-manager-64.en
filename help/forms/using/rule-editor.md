@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 66a3528a-489b-4fd0-be6c-b8c4b9b1f908
 ---
 
-# Adaptive forms rule editor{#adaptive-forms-rule-editor}
+# Adaptive forms rule editor {#adaptive-forms-rule-editor}
 
 ## Overview {#overview}
 
@@ -77,10 +77,10 @@ The rule editor provides the following logical operators and events using which 
 
 * **Is Equal To**
 * **Is Not Equal To**
-* **Starts With **
+* **Starts With**
 * **Ends With** 
-* **Contains **
-* **Is Empty **
+* **Contains**
+* **Is Empty**
 * **Is Not Empty**
 * **Has Selected:** Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
 * **Is Initialized (event):** Returns true when a form object renders in the browser. 
@@ -280,11 +280,11 @@ To launch the rule editor user interface:
    Any existing rules on the selected form objects are listed in this view. For information about managing existing rules, see [Manage rules](/help/forms/using/rule-editor.md#p-manage-rules-p).
 
 1. Tap **[!UICONTROL Create]** to write a new rule. The visual editor of the rule editor user interface opens by default when you launch the rule editor the first time.
-    [ ![Rule Editor UI](assets/rule-editor-ui.png)
+     ![Rule Editor UI](assets/rule-editor-ui.png)
 
-   Click to view enlarged image
-
-   ](assets/rule-editor-ui-1.png)Let's look at each component of the rule editor UI in detail.
+   [Click to  enlarge](assets/rule-editor-ui-1.png)
+   &nbsp;
+   Let's look at each component of the rule editor UI in detail.
 
 ### A. Component-rule display {#a-component-rule-display}
 
@@ -383,7 +383,7 @@ Perform the following steps to write rules:
 
    ![write-rules-visual-editor-5](assets/write-rules-visual-editor-5.png)
 
-1. Drag-drop the **Spouse Salary** field from the Form Objects tab on the **Drop object or select here **field. Alternatively, tap the **Drop object or select here** field and select the **Spouse Salary** field from the pop-up menu, which lists all form objects in the form.
+1. Drag-drop the **Spouse Salary** field from the Form Objects tab on the **Drop object or select here** field. Alternatively, tap the **Drop object or select here** field and select the **Spouse Salary** field from the pop-up menu, which lists all form objects in the form.
 
    ![write-rules-visual-editor-6](assets/write-rules-visual-editor-6.png)
 
@@ -437,7 +437,7 @@ Perform the following steps to write rules:
 
    Next, create a condition, which when returns True, the expression executes.
 
-1. Tap **Add Condition **to add a When statement.
+1. Tap **Add Condition** to add a When statement.
 
    ![write-rules-visual-editor-15](assets/write-rules-visual-editor-15.png)
 
@@ -742,8 +742,6 @@ The following rule shows how you will configure the Invoke service action to acc
 
 ![example-invoke-services](assets/example-invoke-services.png)
 
-Invoke form data model service using adaptive form rule
-
 ### Triggering multiple actions using the When rule {#triggering-multiple-actions-using-the-when-rule}
 
 In a loan application form, you want to capture whether the loan applicant is an existing customer or not. Based on the information user provides, the customer ID field should show or hide. Also, you want to set focus on the customer ID field if the user is an existing customer. The loan application form has the following components:
@@ -754,15 +752,11 @@ In a loan application form, you want to capture whether the loan applicant is an
 
 When you write a When rule on the radio button to implement this behavior, the rule appears as follows in the visual rule editor.  ![when-rule-example](assets/when-rule-example.png)
 
-Rule in the visual editor
-
 In the example rule, the statement in the When section is the condition, which when returns True, executes the actions specified in the Then section.
 
 The rule appears as follows in the code editor.
 
 ![when-rule-example-code](assets/when-rule-example-code.png)
-
-Rule in the code editor
 
 ### Using a function output in a rule {#using-a-function-output-in-a-rule}
 
@@ -780,13 +774,7 @@ Now, you want to add specified quantities in the Product Quantity column for all
 
 ![example-function-output](assets/example-function-output.png)
 
-Rule in the visual editor
-
-The rule appears as follows in the code editor.
-
 ![example-function-output-code](assets/example-function-output-code.png)
-
-Rule in the code editor
 
 ### Validating a field value using expression {#validating-a-field-value-using-expression}
 
@@ -794,11 +782,5 @@ In the purchase order form explained in the previous example, you want to restri
 
 ![example-validate](assets/example-validate.png)
 
-Rule in the visual editor
-
-The rule appears as follows in the code editor.
-
 ![example-validate-code](assets/example-validate-code.png)
-
-Rule in the code editor
 

@@ -10,7 +10,7 @@ topic-tags: document_services
 discoiquuid: dcf60604-c401-4c74-95c7-e7d4457fdfe5
 ---
 
-# Barcoded Forms Service{#barcoded-forms-service}
+# Barcoded Forms Service {#barcoded-forms-service}
 
 ## Overview {#overview}
 

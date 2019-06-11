@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: f5d6d9bd-4f36-4a4f-8008-15fb853a9219
 ---
 
-# Build the AEM Forms Android app{#build-the-aem-forms-android-app}
+# Build the AEM Forms Android app {#build-the-aem-forms-android-app}
 
 Perform the following steps in the recommended sequence to build the Android app for AEM Forms.
 
@@ -25,7 +25,7 @@ AEM Forms App Source Code Package refers to the `adobe-lc-mobileworkspace-src-<v
 Perform the following steps to download the `adobe-aemfd-forms-app-src-pkg-<version>.zip` file:
 
 1. Log in to the author instance of the [AEM server](http://localhost:4502/) as an administrator and open [package share](http://localhost:4502/crx/packageshare). You require an Adobe ID to log in to the package share.
-1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search `adobe-aemfd-forms-app-src-pkg-<version>.zip`, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded **appears next to the package.
+1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search `adobe-aemfd-forms-app-src-pkg-<version>.zip`, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded** appears next to the package.
 1. After the download completes, click **Downloaded**. You are redirected to package manager. In the package manager, search the downloaded package, and click **Install**.
 1. To download the source-code archive, open **https://&lt;server&gt;:&lt;port&gt;/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-&lt;version&gt;.zip** in your browser. The Android app .zip file is downloaded on your device.
 1. Extract the contents of the .zip file to a folder on your local file system. For example, *C:\&lt;Folder Structure&gt;\adobe-lc-mobileworkspace-src-2.4.20*
@@ -77,12 +77,12 @@ Perform the following steps to build AEM Forms app using Android Studio:
 Execute the following steps to generate the .apk file using Android Studio:
 
 1. Launch the Android Studio application on your machine.
-1. Select **Open an existing Android Studio project**. If the dialog box to open an existing project does not appear automatically, select **File** &gt;** Open**.
+1. Select **Open an existing Android Studio project**. If the dialog box to open an existing project does not appear automatically, select **File** &gt; **Open**.
 1. Navigate to *adobe-lc-mobileworkspace-src-&lt;version&gt;.zip/android* on the local file system and click **OK**. 
 
    The android option is displayed in the left pane.
    
-1. Select **Build** &gt; **Build APK **to generate the .apk file.
+1. Select **Build** &gt; **Build APK** to generate the .apk file.
 
    Optionally, Select **Build** &gt; **Generate Signed APK** to generate a [signed version](https://developer.android.com/studio/publish/app-signing) of the .apk file.
 
@@ -94,4 +94,4 @@ Once the .apk file has been generated, execute the following command to install 
 
 **MAC users:** `adb install [User_Home]/Projects/[your-project]/adobe-lc-mobileworkspace-src-[version]/android/build/outputs/apk/android-debug.apk`
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

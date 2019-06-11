@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: bef38e7a-92db-4226-a4ea-8facce573456
 ---
 
-# Viewing and Understanding Transaction Reports{#viewing-and-understanding-transaction-reports}
+# Viewing and Understanding Transaction Reports {#viewing-and-understanding-transaction-reports}
 
 Use transaction reports to make an informed decision about the product usage and rebalancing investments in hardware and software.
 
@@ -41,7 +41,7 @@ Transaction reports use reverse replication to consolidate count of transactions
 Transaction reports are disabled by default. You can enable the reports from AEM Web Console. to Enable transaction reports in an AEM Forms environment, perform the following steps on all the author and publish instances:
 
 1. Log in to an AEM instance as an administrator. Go to **Tools** &gt; **Operations** &gt; **Web Console**.
-1. Locate and open the **Forms Transaction Reporting **service.
+1. Locate and open the **Forms Transaction Reporting** service.
 1. Select the Record Transactions check box. Click **Save**.
 
    Repeat step 1-3 on all the author and publish instances.
@@ -55,13 +55,13 @@ Only members of the fd-administrator group can view transaction reports. To allo
 Transactions are cached in-memory before being stored to the repository. By default, the caching period (Transaction Flush Period) is set to 60 seconds. Perform the following steps to change the default caching period:
 
 1. Log in to author instances as an administrator. Go to **Tools** &gt; **Operations** &gt; **Web Console**.
-1. Locate and open the **Forms Transaction Repository Storage Provider **service.
+1. Locate and open the **Forms Transaction Repository Storage Provider** service.
 1. Specify the number of seconds in the **Transaction Flush Period** field. Click **Save**.
 
 Reverse replication copies transaction data to the default outbox of the author instances. You can place transaction data in a custom outbox. Perform the following steps to specify a custom outbox:
 
 1. Log in to author instances as an administrator. Go to **Tools** &gt;  **Operations** &gt;  **Web Console**.
-1. Locate and open the **Forms Transaction Repository Storage Provider **service.
+1. Locate and open the **Forms Transaction Repository Storage Provider** service.
 1. Specify the name of the custom outbox the **Outboxes** field. Click **Save**. An outbox with the specified name is created on all the author instances.
 
 ## Viewing the transaction report {#viewing-the-transaction-report}

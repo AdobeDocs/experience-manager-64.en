@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 2f514072-81d9-48de-8369-cca94a330f1d
 ---
 
-# Using an adaptive form in HTML Workspace{#using-an-adaptive-form-in-html-workspace}
+# Using an adaptive form in HTML Workspace {#using-an-adaptive-form-in-html-workspace}
 
 AEM Forms on JEE provides the capability of using an adaptive form in HTML Workspace.
 
@@ -54,26 +54,18 @@ HTML Workspace provides some adaptive form-specific controls in addition to cont
 
    ![Create new application](assets/create_new_appl.png)
 
-   Create new application
-
 1. Create a process, or use an existing process in the application.
 
    ![Create new process](assets/create_new_process.png)
-
-   Create new process
 
 1. Create a Start Point or Assign Task and double-click it.
 1. Under the **[!UICONTROL Presentation & Data]** section, select **[!UICONTROL use a CRX asset]** and click the ellipses before the asset.
 
    ![Use a CRX asset](assets/use_crx_asset.png)
 
-   Use a CRX asset
-
 1. Select the adaptive form created through Manage Assets UI, and click **[!UICONTROL OK]**.
 
    ![Select an adaptive form](assets/selecting_form.png)
-
-   Select an adaptive form
 
    >[!NOTE]
    >

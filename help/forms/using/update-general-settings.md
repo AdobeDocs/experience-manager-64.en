@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: a3aac07e-7d67-4a4f-b941-ff25a981092f
 ---
 
-# Updating general settings{#updating-general-settings}
+# Updating general settings {#updating-general-settings}
 
 General settings of the AEM Forms app let you specify settings such as fetching attachments, offline mode, landing screen, default category, and autsave frequency.
 
@@ -28,8 +28,6 @@ In the General tab, change the download attachments, offline mode, landing scree
 1. In the Settings screen, tap the General tab.
 
    ![General settings in the AEM Forms app](assets/gen-settings-2.png)
-
-   General Settings screen
 
    >[!NOTE]
    >
@@ -65,4 +63,4 @@ You can make the following changes to the settings of your app.
 >
 >However, you will be prompted to confirm the clear cache operation.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

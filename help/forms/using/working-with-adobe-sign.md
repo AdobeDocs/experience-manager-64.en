@@ -11,7 +11,7 @@ discoiquuid: 29fc297e-0a95-4d2a-bfe6-5676d53624db
 noindex: true
 ---
 
-# Using Adobe Sign in an adaptive form{#using-adobe-sign-in-an-adaptive-form}
+# Using Adobe Sign in an adaptive form {#using-adobe-sign-in-an-adaptive-form}
 
 Enable e-signature (Adobe Sign) workflows for an adaptive form to automate signing workflows, simplify single and multi-signature processes, and to electronically sign forms from mobile devices. 
 
@@ -128,7 +128,7 @@ Perform the following steps to add fields to an adaptive form and customize vari
 Out of the box, Adobe Sign is not enabled for an adaptive form. Perform the following steps to enable it:
 
 1. In the Content browser, tap **Form Container**, and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Adaptive Form container properties.
-1. In the properties browser, expand the **Electronic Signature **accordion, and select the **Enable Adobe Sign** option. It enables Adobe Sign for an adaptive form.
+1. In the properties browser, expand the **Electronic Signature** accordion, and select the **Enable Adobe Sign** option. It enables Adobe Sign for an adaptive form.
 
 ### Select Adobe Sign Cloud Service and signing order {#selectadobesigncloudserviceforanadaptiveform}
 
@@ -141,7 +141,7 @@ Perform the following steps to select a cloud service and order of signing:
 ![cloud-service](assets/cloud-service.png)
 
 1. In the Content browser, tap **Form Container**, and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Adaptive Form container properties.
-1. In the properties browser, expand the **Electronic Signature **accordion, and select the **Enable Adobe Sign** option. It enables Adobe Sign for an adaptive form.
+1. In the properties browser, expand the **Electronic Signature** accordion, and select the **Enable Adobe Sign** option. It enables Adobe Sign for an adaptive form.
 1. Select a cloud service from the already configured list of Adobe Sign Cloud Services.
 
    If the **Adobe Sign Cloud Service** list is empty, follow the [Configure Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md) artilce to configure the service. 
