@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: 2228dcdd-5c9c-46b3-9888-489756c04887
 ---
 
-# Tracking processes{#tracking-processes}
+# Tracking processes {#tracking-processes}
 
 On the Tracking page, you can search for active or completed processes that you started or participated in and view the process details. The process details show the tasks, assignments, and forms that were part of the process. You can also start new processes using form data from a process that you previously initiated.
 
@@ -48,4 +48,4 @@ On the Tracking page, you can select a process and view its details. You can sea
     * To view the task assignment details, click the Assignment tab.
     * To view the associated form, click the form button.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

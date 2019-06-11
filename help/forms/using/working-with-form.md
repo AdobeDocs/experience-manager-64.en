@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: 8a5e038e-b39a-41de-88a0-47642e5bd5bf
 ---
 
-# Working with a Form{#working-with-a-form}
+# Working with a Form {#working-with-a-form}
 
 If a form is enabled for syncing in the forms app, the form is downloaded and you can work with it directly.
 
@@ -21,7 +21,7 @@ To sync your form in AEM Forms app:
 1. In author instance, select a form, and click **View Properties**.  
 
 1. In the properties page, click **Advanced.**
-1. Under Advanced, enable option: **Sync with AEM Forms App, **and tap **Save**.
+1. Under Advanced, enable option: **Sync with AEM Forms App**, and tap **Save**.
 
 To sync multiple forms, in the author instance, select multiple forms in forms manager and tap **Sync with AEM Forms App**. When the form is published, the AEM Forms app can connect to the publish server and fetch the forms.
 
@@ -39,4 +39,4 @@ To sync multiple forms, in the author instance, select multiple forms in forms m
 1. To open a form, tap the form in the home screen.
 1. You can update the fields of the form, add attachments, save as draft, and submit it.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

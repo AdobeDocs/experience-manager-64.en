@@ -10,7 +10,7 @@ topic-tags: document_services
 discoiquuid: c2d564ba-fa5a-4130-b7fe-7e2c64d92170
 ---
 
-# Using the sendToPrinter API{#using-the-sendtoprinter-api}
+# Using the sendToPrinter API {#using-the-sendtoprinter-api}
 
 ## Overview {#overview}
 

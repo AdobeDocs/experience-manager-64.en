@@ -10,7 +10,7 @@ discoiquuid: f5642571-9657-4ca1-93c5-4ae2eb91e967
 noindex: true
 ---
 
-# Using AEM translation workflow to localize adaptive forms and document of record{#using-aem-translation-workflow-to-localize-adaptive-forms-and-document-of-record}
+# Using AEM translation workflow to localize adaptive forms and document of record {#using-aem-translation-workflow-to-localize-adaptive-forms-and-document-of-record}
 
 Localized forms help you serve a wider audience across geographies. Adobe Experience Manager translation workflow helps you localize adaptive forms and their documents of record . You can use **machine translation** or **human translators** to localize an adaptive form.
 
@@ -21,7 +21,7 @@ This article explains the process to use AEM translation workflow with adaptive 
 The machine translation service immediately translates your content in adaptive form and document of record. AEM Forms is pre-configured to use a trial version of Microsoft Translator for machine translation. Perform the following steps to enable machine translation for your adaptive forms and document of record:
 
 1. On the AEM Forms UI, select a form, and tap the **Add Dictionary** option.
-1. In **Add Dictionary to Translation Project** screen, select the **Create a new translation project** or **Add to an existing translation project **option.
+1. In **Add Dictionary to Translation Project** screen, select the **Create a new translation project** or **Add to an existing translation project** option.
 1. In the **Project Title** field, specify the title. For example, `Government Reference Site - German locale.`
 1. In the **Target Languages** field, specify a locale (For example, `German(de)`), and click **Done**. You can specify multiple locales. The form is translated to all the locales specified in the **Target Languages** field.
 1. In the Dictionary Added dialog box, click **Open Projects**. In the Projects screen, open the newly created project.

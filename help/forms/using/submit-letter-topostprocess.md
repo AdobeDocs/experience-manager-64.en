@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: 637342e8-fbdd-4cda-b175-56a805b3b480
 ---
 
-# Post processing of letters and interactive communications{#post-processing-of-letters-and-interactive-communications}
+# Post processing of letters and interactive communications {#post-processing-of-letters-and-interactive-communications}
 
 ## Post Processing {#post-processing}
 

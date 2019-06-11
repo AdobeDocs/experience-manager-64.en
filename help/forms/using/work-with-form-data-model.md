@@ -9,7 +9,7 @@ topic-tags: integration
 discoiquuid: 2ee45ac0-bc15-403a-93fc-c8592afb967d
 ---
 
-# Work with form data model{#work-with-form-data-model}
+# Work with form data model {#work-with-form-data-model}
 
 Data Integration provides form data model editor to configure and work with form data models.
 
@@ -43,13 +43,9 @@ To add data model objects and services:
 
    ![selected-objects](assets/selected-objects.png)
 
-   Selected data model objects and services
-
    The Model tab displays a graphical representation of all data model objects and their properties added to the form data model. Each data model object is represented by a box in the form data model.
 
    ![model-tab](assets/model-tab.png)
-
-   Model tab displays added data model objects
 
    >[!NOTE] {grayBox="true"}
    >
@@ -58,8 +54,6 @@ To add data model objects and services:
    The Services tab lists added services.
 
    ![services-tab](assets/services-tab.png)
-
-   Services tab displays data model services
 
    >[!NOTE]
    >

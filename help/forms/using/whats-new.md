@@ -10,7 +10,7 @@ topic-tags: introduction
 discoiquuid: 436aa424-d05e-4f3d-90ac-5ff3b05ddba8
 ---
 
-# New features summary | AEM 6.4 Forms{#new-features-summary-aem-forms}
+# New features summary | AEM 6.4 Forms {#new-features-summary-aem-forms}
 
 Summary of new features and enhancements in AEM 6.4 Forms.
 
@@ -37,11 +37,9 @@ Interactive communication is the default and recommended approach to create cust
 ### Multi-channel interactive communication authoring {#multi-channel-interactive-communication-authoring}
 
 Using interactive communication, you can author and edit both print and web documents from a single document editor. By utilizing the same document fragments to build renditions of both the channels, you can eliminate effort duplication. 
-    [ ![printweb_2](assets/printweb_2.png)
+    ![printweb_2](assets/printweb_2.png)
 
-Click to enlarge
-
-](assets/printweb_2-1.png) For more information, see [Interactive Communications Overview](/help/forms/using/interactive-communications-overview.md).
+For more information, see [Interactive Communications Overview](/help/forms/using/interactive-communications-overview.md).
 
 ### WYSIWYG Document Editor {#wysiwyg-document-editor}
 
