@@ -21,21 +21,21 @@ After you have added your 3D component, you can [view the 3D asset in that compo
 
 You must enable the 3D component in the page before you can place it on a page. See [Editing templates](/help/sites-authoring/templates.md#editing-a-template-layout-template-author) for detailed information on enabling components in templates.
 
-Adding the 3D component to the page template:
+**Adding the 3D component to the page template**:
 
-1. Navigate to **Tools** &gt; **General** &gt; **Templates**.  
+1. Navigate to **[!UICONTROL Tools &gt; General &gt; Templates]**.  
 
 1. Navigate to the page template that you want to enable the 3D component in and select the template.  
 
-1. Tap **Edit** to open the template.
-1. Near the upper-right of the page, in the drop-down menu, select **Structure** mode, if it is not already active.
+1. Tap **[!UICONTROL Edit]** to open the template.
+1. Near the upper-right of the page, in the drop-down menu, select **[!UICONTROL Structure]** mode, if it is not already active.
 
    ![image2017-11-14_15-33-57](assets/image2017-11-14_15-33-57.png)
 
-1. Tap in the Layout Container region to select it.  
+1. Tap in the **[!UICONTROL Layout Container]** region to select it.  
 
-1. Tap the **Policy** button to open the Policy Editor.
-1. In the **Properties** section, select the **3D** checkmark, and then tap **Done** to save the changes and close the Policy Editor.
+1. Tap the **[!UICONTROL Policy]** button to open the **[!UICONTROL Policy Editor]**.
+1. In the **[!UICONTROL Properties]** section, select the **[!UICONTROL 3D]** checkmark, and then tap **[!UICONTROL Done]** to save the changes and close the **[!UICONTROL Policy Editor]**.
 
    You can now place the 3D Sites component on all pages that use this template.
 
@@ -45,25 +45,25 @@ Adding the 3D component to the page template:
 >
 >This version of AEM 3D supports only one instance of the 3D component on each web page. Multiple 3D components on the same page do not function properly.
 
-To add the 3D viewer component to a web page:
+**To add the 3D viewer component to a web page**:
 
 1. Open AEM Sites and select the web page to which you want to add the 3D component.  
 
-1. Tap the Edit (pencil) icon to open the page into the page editor. Make sure **Edit** mode near the top right of page is selected.
+1. Tap the **[!UICONTROL Edit]** (pencil) icon to open the page into the page editor. Make sure **[!UICONTROL Edit]** mode near the top right of page is selected.
 
    ![image2017-11-14_15-44-40](assets/image2017-11-14_15-44-40.png)
 
 1. Tap the rail selector to open the side panel.  
 
-1. Tap the plus sign icon to open the Components list.  
+1. Tap the plus sign icon to open the **[!UICONTROL Components]** list.  
 
-1. Drag the 3D Viewer component from the Components list to the location on the page where you want the 3D viewer to appear.
+1. Drag the **[!UICONTROL 3D Viewer]** component from the **[!UICONTROL Components]** list to the location on the page where you want the 3D viewer to appear.
 
 ## Configuring the 3D component {#configuring-the-d-component}
 
-1. In the AEM Sites page editor, select the 3D Viewer component that you previously added to the page.  
+1. In the AEM Sites page editor, select the **[!UICONTROL 3D Viewer]** component that you previously added to the page.  
 
-1. Tap the **Configuration** icon (wrench) to open the component configuration dialog box.
+1. Tap the **[!UICONTROL Configuration]** icon (wrench) to open the component configuration dialog box.
 
    You can set the following component properties:
 
@@ -124,39 +124,36 @@ To add the 3D viewer component to a web page:
 
 1. Tap the check mark to save your changes.
 
-   >[!NOTE]
-   >
-   >In addition to the settings available in the component configuration dialog, a number of global configuration settings are available which can be modified via the CRXDELite. See [Advanced Configuration Settings](advanced-config-3d.md) for detailed information on these global settings.
+   In addition to the settings available in the component configuration dialog, a number of global configuration settings are available which can be modified by way of the CRXDE Lite.
+   See [Advanced Configuration Settings](advanced-config-3d.md) for detailed information on these global settings.
 
 ## Assigning a 3D model to the component {#assigning-a-d-model-to-the-component}
 
-1. In the AEM Sites page editor, click the Assets icon to open the Assets list in the side panel.  
+1. In the AEM Sites page editor, click the **[!UICONTROL Assets]** icon to open the Assets list in the side panel.  
 
-1. Select the **3D Models** filter to hide unwanted asset types.
+1. Select the **[!UICONTROL 3D Models]** filter to hide unwanted asset types.
 
    ![screen_shot_2017-12-11at124258](assets/screen_shot_2017-12-11at124258.png)
 
 1. Search for or scroll to the 3D asset that you want to view on the page being edited.  
 
-1. Drag the 3D asset from the **Assets** list to the **3D Viewer** component previously placed on the page.
+1. Drag the 3D asset from the **[!UICONTROL Assets]** list to the **[!UICONTROL 3D Viewer]** component previously placed on the page.
 
-   >[!NOTE]
-   >
-   >Adobe Dimension assets are rendered using new viewer technology based on the glTF open standard, while all other 3D asset types rely on the classic AEM 3D webGL viewer. The component automatically selects the appropriate viewer based on the type of the 3D model.
+   Adobe Dimension assets are rendered using new viewer technology based on the glTF open standard, while all other 3D asset types rely on the classic AEM 3D webGL viewer. The component automatically selects the appropriate viewer based on the type of the 3D model.
 
 ## Previewing a web page that has a 3D component {#previewing-a-web-page-that-has-a-d-component}
 
-While the web page is in Edit mode, the 3D component displays the 3D model but no interaction with the model is possible.
+While the web page is in **[!UICONTROL Edit]** mode, the 3D component displays the 3D model but no interaction with the model is possible.
 
 You can preview the web page in the page editor with full access to the functionality of the 3D component.
 
 See also [Viewing 3D assets in the Sites 3D component](viewing-3d-assets.md#viewing-d-assets-in-the-sites-d-component).
 
-To preview a web page that has a 3D component:
+**To preview a web page that has a 3D component**:
 
 1. Do either one of the following:
 
-    * Near the upper-right of the page, click **Preview** to enter preview mode.
+    * Near the upper-right of the page, click **[!UICONTROL Preview]** to enter preview mode.
     * Delete `/edit.html` from the page URL in the browser.
 
 ## Publishing the page and assets {#publishing-the-page-and-assets}
@@ -165,7 +162,7 @@ See [Publishing Assets](managing-assets-touch-ui.md) for information on how to p
 
 >[!NOTE]
 >
->Using the Publish Page menu item on the Page Information menu will publish the page and all primary page dependencies. Secondary dependencies that may be referenced by the 3D model and/or the 3D stage, such as texture maps and IBL images, are not published when you publish the page in this way.
+>Using the **[!UICONTROL Publish Page]** menu item on the **[!UICONTROL Page Information]** menu will publish the page and all primary page dependencies. Secondary dependencies that may be referenced by the 3D model and/or the 3D stage, such as texture maps and IBL images, are not published when you publish the page in this way.
 >
 >Adobe recommends that you publish all 3D assets and their dependencies directly from AEM Assets, before publishing the web page that references these assets.
 
