@@ -102,7 +102,7 @@ The following properties are available to configure a pooled connection service.
 
 * Password ( `jdbc.password`): The password to use for authentication of the user. The data type is `String`.
 
-* ``Validation Query ( `jdbc.validation.query`): The SQL statement to use to verify that the connection is successful, for example `select 1 from INFORMATION_SCHEMA.SYSTEM_USERS`. The data type is `String`.
+* Validation Query ( `jdbc.validation.query`): The SQL statement to use to verify that the connection is successful, for example `select 1 from INFORMATION_SCHEMA.SYSTEM_USERS`. The data type is `String`.
 
 * Readonly By Default (default.readonly): Select this option when you want the connection to provide read-only access. The data type is `Boolean`.
 * Autocommit By Default ( `default.autocommit`): Select this option to create separate transactions for each SQL command that is sent to the database, and each transaction is automatically committed. Do not select this option when you are committing transactions explicitly in your code. The data type is `Boolean`.
@@ -115,7 +115,7 @@ The following properties are available to configure a pooled connection service.
 
 * Additional Service Properties ( `datasource.svc.properties`): A set of name/value pairs that you want to append to the connection URL. The data type is `String[]`.
 
-The JDBC Connections Pool service is a factory. Therefore, if you use a `sling:OsgiConfig` node to configure the connection service, the name of the node must include the factory service PID followed by `-*alias*`. The alias that you use must be unique for all configuration nodess for that PID. An example node name is `com.day.commons.datasource.jdbcpool.JdbcPoolService-myhsqldbpool`.
+The JDBC Connections Pool service is a factory. Therefore, if you use a `sling:OsgiConfig` node to configure the connection service, the name of the node must include the factory service PID followed by *`-alias`*. The alias that you use must be unique for all configuration nodess for that PID. An example node name is `com.day.commons.datasource.jdbcpool.JdbcPoolService-myhsqldbpool`.
 
 ![chlimage_1-7](assets/chlimage_1-7.png) 
 
