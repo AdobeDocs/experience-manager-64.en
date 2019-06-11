@@ -11,33 +11,33 @@ content-type: reference
 discoiquuid: 77296bff-8429-4240-af93-26076ae431ec
 ---
 
-# Previewing Assets{#previewing-assets}
+# Previewing assets{#previewing-assets}
 
-You can use Preview to see how a digital asset looks when it is viewed by a customer in their own web browser. The default embedded, cross-device viewer that is assigned to the asset is used for the Preview.
+You can use **[!UICONTROL Preview]** to see how a digital asset looks when it is viewed by a customer in their own web browser. The default embedded, cross-device viewer that is assigned to the asset is used for the **[!UICONTROL Preview]**.
 
 A viewer is a collection of various settings or "presets," such as the viewer display size, zoom behavior, color schemes, borders, fonts, and so forth, that determine how users view rich-media assets on their computer screens and mobile devices.
 
-Besides using the dedicated Preview feature for video, spin sets, and image sets, you can also preview an asset by using viewer presets that you have created. Or, use image presets to preview renditions of images.
+Besides using the dedicated preview feature for video, spin sets, and image sets, you can also preview an asset by using viewer presets that you have created. Or, use image presets to preview renditions of images.
 
 * [Applying Image Presets](image-presets.md)
 * [Applying Viewer Presets](viewer-presets.md)
 
 >[!NOTE]
 >
->When you are on a webpage (Sites) in AEM, you cannot preview assets in **Edit** mode. You need to go to **Preview** mode by clicking **Preview** in the upper right-hand corner.
+>When you are on a webpage (Sites) in AEM, you cannot preview assets in **[!UICONTROL Edit]** mode. You need to go to **[!UICONTROL Preview]** mode by clicking **Preview** in the upper right-hand corner.
 
-To preview assets:
+**To preview assets**:
 
-1. From **Adobe Experience Manager**, on the **Navigation **page, tap **Assets, **then** Files **to access assets. 
-1. Near the upper-right corner of the page, from the View drop-down list, tap **List View**.
-1. (Optional) Use the **Type** column to sort the assets by the type you want to preview.
-1. Under the **Title** column, click the title name (not the thumbnail image) of the asset you want to preview.
+1. From **Adobe Experience Manager**, on the **[!UICONTROL Navigation]** page, tap **[!UICONTROL Asset]s**, then **[!UICONTROL Files]** to access assets. 
+1. Near the upper-right corner of the page, from the **[!UICONTROL View]** drop-down list, tap **[!UICONTROL List View]**.
+1. (Optional) Use the **[!UICONTROL Type]** column to sort the assets by the type you want to preview.
+1. Under the **[!UICONTROL Title]** column, click the title name (not the thumbnail image) of the asset you want to preview.
 1. Depending on the asset type you clicked, do any one of the following:
 
 <table> 
  <tbody>
   <tr>
-   <td><strong>Asset type you clicked</strong><br /> </td> 
+   <td><strong>Asset type you tapped</strong><br /> </td> 
    <td><strong>Able to preview asset in a particular rendition?</strong></td> 
    <td><strong>Able to preview asset in a particular viewer?</strong></td> 
   </tr>

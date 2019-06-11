@@ -28,9 +28,9 @@ This section describes how to create, modify, and generally manage image presets
 
 ## Understanding Image Presets {#understanding-image-presets}
 
-Like a macro, an Image Preset is a predefined collection of sizing and formatting commands saved under a name. To understand how Image Presets work, suppose your web site requires each product image to appear in different sizes, different formats, and compression rates for desktop and mobile delivery.
+Like a software macro, an Image Preset is a predefined collection of sizing and formatting commands saved under a name. To understand how Image Presets work, suppose your web site requires each product image to appear in different sizes, different formats, and compression rates for desktop and mobile delivery.
 
-You could create two image presets: one with 500 x 500 pixels for desktop version and 150 x 150 pixels for the mobile version. You create two Image Presets, one called **Enlarge** to display images at 500x500 pixels and one called **Thumbnail** to display images at 150 x 150 pixels. To deliver images at the **Enlarge** and **Thumbnail** size, AEM looks up the definition of the Enlarge Image Preset and Thumbnail Image Preset. Then AEM dynamically generates an image at the size and formatting specifications of each Image Preset.
+You could create two Image Presets: one with 500 x 500 pixels for desktop version and 150 x 150 pixels for the mobile version. You create two Image Presets, one called *Enlarge* to display images at 500x500 pixels and one called *Thumbnail* to display images at 150 x 150 pixels. To deliver images at the Enlarge and Thumbnail size, AEM looks up the definition of the Enlarge Image Preset and Thumbnail Image Preset. Then AEM dynamically generates an image at the size and formatting specifications of each Image Preset.
 
 Images that are reduced in size when they are delivered dynamically can lose sharpness and detail. For this reason, each Image Preset contains formatting controls for optimizing an image when it is delivered at a particular size. These controls make sure that your images are sharp and clear when they are delivered to your web site or application.
 
@@ -38,7 +38,7 @@ Administrators can create Image Presets. To create an image preset, you can star
 
 ## Managing Image Presets {#managing-image-presets-1}
 
-You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **Assets** &gt; **Image Presets**.
+You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **[!UICONTROL Assets &gt; Image Presets]**.
 
 ![chlimage_1-494](assets/chlimage_1-494.png)
 
@@ -46,7 +46,7 @@ You manage your image presets in AEM by tapping the AEM logo to access the globa
 >
 >Any image presets you create are also available as dynamic renditions when you preview or deliver assets.
 >
->In *Dynamic Media - Scene7 mode*, you do **not** need to publish image presets as image presets are automatically published.
+>In *Dynamic Media - Scene7 mode*, you do *not* need to publish image presets as image presets are automatically published.
 >
 >In *Dynamic Media - Hybrid mode*, you need to manually publish image presets.
 >
@@ -54,7 +54,7 @@ You manage your image presets in AEM by tapping the AEM logo to access the globa
 
 >[!NOTE]
 >
->The system shows a variety of renditions when you select **Renditions** in an asset's Detail View. You can increase or decrease the number of image presets that display. See [Increasing the number of image presets that display](#increasing-or-decreasing-the-number-of-image-presets-that-display).
+>The system shows a variety of renditions when you select **[!UICONTROL Renditions]** in an asset's **[!UICONTROL Detail]** View. You can increase or decrease the number of image presets that display. See [Increasing the number of image presets that display](#increasing-or-decreasing-the-number-of-image-presets-that-display).
 
 ### Adobe Illustrator (AI), Postscript (EPS), and PDF file formats {#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats}
 
@@ -69,17 +69,17 @@ The sub-assets are created by the `Create Sub Asset process` component within th
 
 See also [Viewing pages of a multi-page file](/help/assets/managing-linked-subassets.md#view-pages-of-a-multi-page-file).  
   
-You can view the sub-assets or the pages when you open the asset, tap the Content menu, and select **[!UICONTROL Subassets]** or **[!UICONTROL Pages]**. The sub-assets are real assets. That is, PDF pages are extracted by the `Create Sub Asset` workflow component. They are then stored as `page1.pdf`, `page2.pdf`, and so on below the main asset. After they are stored, the `DAM Update Asset` workflow processes them.  
+You can view the sub-assets or the pages when you open the asset, tap the Content menu, and select **[!UICONTROL Subassets]** or **[!UICONTROL Pages]**. The sub-assets are real assets. That is, PDF pages are extracted by the `Create Sub Asset` workflow component. They are then stored as `page1.pdf`, `page2.pdf`, and so on below the main asset. After they are stored, the **[!UICONTROL DAM Update Asset]** workflow processes them.  
   
 To use Dynamic Media to preview and generate dynamic renditions for AI, EPS or PDF files, the following processing steps are required:
 
-1. In the `DAM Update Asset` workflow, the `Rasterize PDF/AI Image Preview Rendition` process component rasterizes the first page of the original asset--using the configured resolution--into a `cqdam.preview.png` rendition.
+1. In the **[!UICONTROL DAM Update Asset]** workflow, the **[!UICONTROL Rasterize PDF/AI Image Preview Rendition]** process component rasterizes the first page of the original asset&ndash;using the configured resolution&ndash;into a `cqdam.preview.png` rendition.
 
-1. The `cqdam.preview.png` rendition is then optimized into a PTIFF by the `Dynamic Media Process Image Assets` process component within the workflow.
+1. The `cqdam.preview.png` rendition is then optimized into a PTIFF by the **[!UICONTROL Dynamic Media Process Image Assets]** process component within the workflow.
 
 >[!NOTE]
 >
->In the DAM Update Asset workflow, the **EPS thumbnails** step generates thumbnails for EPS files.
+>In the **[!UICONTROL DAM Update Asset]** workflow, the **[!UICONTROL EPS thumbnails]** step generates thumbnails for EPS files.
 
 ### PDF/AI/EPS asset metadata properties {#pdf-ai-eps-asset-metadata-properties}
 
@@ -88,11 +88,11 @@ To use Dynamic Media to preview and generate dynamic renditions for AI, EPS or P
 | dam:Physicalwidthininches |Document width in inches. |
 | dam:Physicalheightininches |Document height in inches. |
 
-You access `Rasterize PDF/AI Image Preview Rendition` process component options by way of the `DAM Update Asset` workflow.
+You access **[!UICONTROL Rasterize PDF/AI Image Preview Rendition]** process component options by way of the **[!UICONTROL DAM Update Asset]** workflow.
 
-Tap on Adobe Experience Manager in the upper left, navigate to **[!UICONTROL Tools &gt; Workflow &gt; Models]**. On the Workflow Models page, select **[!UICONTROL DAM Update Asset]**, then on the toolbar tap **[!UICONTROL Edit]**. On the DAM Update Asset workflow page, double-tap the `Rasterize PDF/AI Image Preview Rendition` process component to open its Step Properties dialog box.
+Tap on Adobe Experience Manager in the upper left, navigate to **[!UICONTROL Tools &gt; Workflow &gt; Models]**. On the **[!UICONTROL Workflow Models]** page, select **[!UICONTROL DAM Update Asset]**, then on the toolbar tap **[!UICONTROL Edit]**. On the **[!UICONTROL DAM Update Asset workflow]** page, double-tap the **[!UICONTROL Rasterize PDF/AI Image Preview Rendition]** process component to open its **[!UICONTROL Step Properties]** dialog box.
 
-### Rasterize PDF/AI Image Preview Rendition options {#rasterize-pdf-ai-image-preview-rendition-options}
+### Rasterize PDF/AI image preview rendition options {#rasterize-pdf-ai-image-preview-rendition-options}
 
 ![Arguments to rasterize PDF or AI workflow](assets/rasterize_pdf_ai_image_preview.png)
 
@@ -130,9 +130,9 @@ Tap on Adobe Experience Manager in the upper left, navigate to **[!UICONTROL Too
 
 Using the default process arguments, the first page of a PDF/AI document is rasterized at 72 ppi and the generated preview image is sized at 2048 x 2048 pixels. For a typical deployment, you may want to increase the resolution to a minimum of 150 ppi or more. For example, a US letter size document at 300 ppi requires a maximum width and height of 2550 x 3300 pixels, respectively.  
   
-Max Width and Max Height limit the resolution at which to rasterize. For example, if the maximums are unchanged, and Resolution is set to 300 ppi, a US Letter document is rasterized at 186 ppi. That is, the document is 1581 x 2046 pixels.  
+**[!UICONTROL Max Width]** and **[!UICONTROL Max Height]** limit the resolution at which to rasterize. For example, if the maximums are unchanged, and Resolution is set to 300 ppi, a US Letter document is rasterized at 186 ppi. That is, the document is 1581 x 2046 pixels.  
   
-The `Rasterize PDF/AI Image Preview Rendition` process component has a maximum defined to ensure that it does not create overly large images in memory. Such large images can overflow the memory provided to the JVM (Java Virtual Machine). Care must be taken to provide the JVM with enough memory to manage the configured number of parallel workflows, with each having the potential to create an image at the maximum configured size.
+The **[!UICONTROL Rasterize PDF/AI Image Preview Rendition]** process component has a maximum defined to ensure that it does not create overly large images in memory. Such large images can overflow the memory provided to the JVM (Java Virtual Machine). Care must be taken to provide the JVM with enough memory to manage the configured number of parallel workflows, with each having the potential to create an image at the maximum configured size.
 
 ### InDesign (INDD) file format {#indesign-indd-file-format}
 
@@ -142,11 +142,11 @@ For InDesign files, sub assets are extracted only if the Adobe InDesign server i
 
 See [Integrating AEM Assets with InDesign Server](indesign.md).  
   
-The Media Extraction process component in the `DAM Update Asset` workflow runs several preconfigured Extend Scripts to process InDesign files.
+The Media Extraction process component in the **[!UICONTROL DAM Update Asset]** workflow runs several preconfigured **[!UICONTROL Extend Scripts]** to process InDesign files.
 
-![The ExtendScript paths in the arguments of Media Extraction process](assets/media_extraction_arguments.png)
+![The Extend Script paths in the arguments of Media Extraction process](assets/media_extraction_arguments.png)
 
-The ExtendScript paths in the arguments of Media Extraction process component in the DAM Update Asset workflow.
+The **[!UICONTROL Extend Script]** paths in the arguments of **[!UICONTROL Media Extraction]** process component in the **[!UICONTROL DAM Update Asset]** workflow.
 
 The following scripts, are used by Dynamic Media integration:
 
@@ -212,12 +212,12 @@ Image presets you create are available as dynamic renditions when you preview as
 **To increase or decrease the number of image presets displayed**:
 
 1. Navigate to **[!UICONTROL CRXDE Lite]** ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
-1. Navigate to the image preset listing node at **/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist**
+1. Navigate to the image preset listing node at `/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist`
 
    ![increase_decreasethenumberofimagepresetsthatdisplay](assets/increase_decreasethenumberofimagepresetsthatdisplay.png)
 
 1. In the **[!UICONTROL limit]** property, change the **[!UICONTROL value]**, which is set to 15 by default, to the desired number.
-1. Navigate to the image preset datasource at **/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist/datasource**
+1. Navigate to the image preset datasource at `/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist/datasource`
 
    ![chlimage_1-495](assets/chlimage_1-495.png)
 
@@ -275,11 +275,11 @@ Leaving them blank tells AEM that this image preset is responsive. You can adjus
 
 When you create or edit image presets, you have the options described in this section. In addition, Adobe recommends the following three *best practice* option choices to start:
 
-* **[!UICONTROL Format]** (**[!UICONTROL Basic]** tab) - Select **[!UICONTROL JPEG]** or another format that meets your requirements. All web browsers support the JPEG image format; it offers a good balance between small files sizes and image quality. However, JPEG format images use a lossy compression scheme that can introduce unwanted image artifacts if the compression setting is too low. For that reason, Adobe recommends setting the compression quality to 75. This setting offers a good balance between image quality and small file size.
+* **[!UICONTROL Format]** (**[!UICONTROL Basic]** tab) &ndash; Select **[!UICONTROL JPEG]** or another format that meets your requirements. All web browsers support the JPEG image format; it offers a good balance between small files sizes and image quality. However, JPEG format images use a lossy compression scheme that can introduce unwanted image artifacts if the compression setting is too low. For that reason, Adobe recommends setting the compression quality to 75. This setting offers a good balance between image quality and small file size.
 
-* **[!UICONTROL Enable Simple Sharpening]** - Do not select **[!UICONTROL Enable Simple Sharpening]** (this sharpening filter offers less control than Unsharp Masking settings).
+* **[!UICONTROL Enable Simple Sharpening]** &ndash; Do not select **[!UICONTROL Enable Simple Sharpening]** (this sharpening filter offers less control than Unsharp Masking settings).
 
-* **[!UICONTROL Sharpening: Resampling Mode]** - Select **[!UICONTROL Bi-Cubic]**.
+* **[!UICONTROL Sharpening: Resampling Mode]** &ndash; Select **[!UICONTROL Bi-Cubic]**.
 
 #### Basic tab options {#basic-tab-options}
 
@@ -468,7 +468,7 @@ The following are some basic examples of what you can do with image modifiers.
 
   ![chlimage_1-503](assets/chlimage_1-503.png)
 
-## Modifying Image Presets {#modifying-image-presets}
+## Editing Image Presets {#modifying-image-presets}
 
 **To edit image presets**:
 
