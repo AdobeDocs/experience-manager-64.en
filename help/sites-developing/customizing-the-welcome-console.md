@@ -38,35 +38,27 @@ This lists the main consoles of AEM.
 
 Node level permissions determine whether the link can be seen or not. The nodes in question are:
 
-* **Websites** 
-  `/libs/wcm/core/content/siteadmin`
+* **Websites:** `/libs/wcm/core/content/siteadmin`
 
-* **Digital Assets** 
-  `/libs/wcm/core/content/damadmin`
+* **Digital Assets:** `/libs/wcm/core/content/damadmin`
 
-* **Community** 
-  `/libs/collab/core/content/admin`
+* **Community:** `/libs/collab/core/content/admin`
 
-* **Campaigns** 
-  `/libs/mcm/content/admin`
+* **Campaigns:** `/libs/mcm/content/admin`
 
-* **Inbox** 
-  `/libs/cq/workflow/content/inbox`
+* **Inbox:** `/libs/cq/workflow/content/inbox`
 
-* **Users** 
-  `/libs/cq/security/content/admin`
+* **Users:** `/libs/cq/security/content/admin`
 
-* **Tools** 
-  `/libs/wcm/core/content/misc`
+* **Tools:** `/libs/wcm/core/content/misc`
 
-* **Tagging** 
-  `/libs/cq/tagging/content/tagadmin`
+* **Tagging:** `/libs/cq/tagging/content/tagadmin`
 
 For example:
 
 * To restrict access to **Tools**, remove read access from 
 
-  `` `/libs/wcm/core/content/misc`
+  `/libs/wcm/core/content/misc`
 
 See the [Security section](/help/sites-administering/security.md) for more information on how to set the desired permissions.
 
@@ -167,15 +159,15 @@ It is possible to hide a link from specific users or groups by removing read acc
 
 * Resources - remove access to:
 
-  `/libs/cq/core/content/welcome/resources/<*link-target*>`
+  `/libs/cq/core/content/welcome/resources/<link-target>`
 
 * Docs - remove access to:
 
-  `/libs/cq/core/content/welcome/docs/<*link-target*>`
+  `/libs/cq/core/content/welcome/docs/<link-target>`
 
 * Features - remove access to:
 
-  `/libs/cq/core/content/welcome/features/<*link-target*>`
+  `/libs/cq/core/content/welcome/features/<link-target>`
 
 For example:
 

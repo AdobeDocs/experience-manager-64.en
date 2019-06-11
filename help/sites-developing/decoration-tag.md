@@ -87,20 +87,20 @@ All examples that follow assume following content structure, and components:
 ```
 /content/test/
   @resourceType = "test/components/one"
- child/
- @resourceType = "test/components/two"
+  child/
+    @resourceType = "test/components/two"
 
 ```
 
 ```
 /apps/test/components/
- one/
- one.html
- two/
- two.html
- cq:htmlTag/
- @cq:tagName = "article"
- @class = "component-two"
+  one/
+    one.html
+  two/
+    two.html
+    cq:htmlTag/
+      @cq:tagName = "article"
+      @class = "component-two"
 ```
 
 #### Use Case 1: Include a Component for Code Reuse {#use-case-include-a-component-for-code-reuse}
@@ -111,7 +111,8 @@ The most typical use case is when a component includes another component for cod
 
 `two.html: Hello World!`
 
-Resulting output on `/content/test.html`:  
+Resulting output on `/content/test.html`:
+
 **`Hello World!`**
 
 An example would be a component that includes a core image component to display an image, typically in that case by using a synthetic resource, which consists in including a virtual child component by passing to data-sly-resource a Map object that represents all the properties that the component would have.
@@ -127,6 +128,7 @@ Since the included component is in this case an independent component, it needs 
 `two.html: Hello World!`
 
 Resulting output on `/content/test.html`:  
+
 **`<article class="component-two">Hello World!</article>`**
 
 #### Use Case 3: Custom Behavior {#use-case-custom-behavior}
@@ -141,6 +143,7 @@ There can be any number of complex cases, which can be achieved easily by the po
 `two.html: Hello World!`
 
 Resulting output `/content/test.html`:  
+
 **`<aside class="child">Hello World!</aside>`**
 
 ## JSP {#jsp}

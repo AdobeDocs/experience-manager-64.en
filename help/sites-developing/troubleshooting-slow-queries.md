@@ -45,7 +45,7 @@ In AEM 6.3, by default, when a traversal of 100,000 is reached, the query fails 
 
 Explain **all** queries and ensure their query plans do not contain the **/&ast; traverse** explanation in them. Example traversing query plan:
 
-* **PLAN:** [nt:unstructured] as [a] /&ast; traverse "/content//&ast;" where ([a].[unindexedProperty] = 'some value') and (isdescendantnode([a], [/content])) &ast;/
+* **PLAN:** `[nt:unstructured] as [a] /* traverse "/content//*" where ([a].[unindexedProperty] = 'some value') and (isdescendantnode([a], [/content])) */`
 
 #### Post-Deployment {#post-deployment}
 
@@ -83,7 +83,7 @@ Before adding the cq:tags index rule
 
 * **Query plan**
 
-    * [cq:Page] as [a] /&ast; lucene:cqPageLucene(/oak:index/cqPageLucene) &ast;:&ast; where [a].[jcr:content/cq:tags] = 'my:tag' &ast;/
+    * `[cq:Page] as [a] /* lucene:cqPageLucene(/oak:index/cqPageLucene) *:* where [a].[jcr:content/cq:tags] = 'my:tag' */`
 
 This query resolves to the `cqPageLucene` index, but because no property index rule exists for `jcr:content` or `cq:tags`, when this restriction is evaluated, every record in the `cqPageLucene` index is checked to determine a match. This means that if the index contains 1 million `cq:Page` nodes, then 1 million records are checked to determine the result set.
 
@@ -107,7 +107,7 @@ After adding the cq:tags index rule
 
 * **Query plan**
 
-    * [cq:Page] as [a] /&ast; lucene:cqPageLucene(/oak:index/cqPageLucene) jcr:content/cq:tags:my:tag where [a].[jcr:content/cq:tags] = 'my:tag' &ast;/
+    * `[cq:Page] as [a] /* lucene:cqPageLucene(/oak:index/cqPageLucene) jcr:content/cq:tags:my:tag where [a].[jcr:content/cq:tags] = 'my:tag' */`
 
 The addition of the indexRule for `jcr:content/cq:tags` in the `cqPageLucene` index allows `cq:tags` data to be stored in an optimized way.
 
@@ -152,13 +152,14 @@ This helps avoiding resource intensive queries (ie. not backed by any index or b
 For AEM 6.0 - 6.2 versions, you can tune the threshold for node traversal via JVM parameters in the AEM start script to prevent large queries from overloading the environment. The recommended values are :
 
 * 
-
   ```
   -Doak.queryLimitInMemory=500000
-  
   ```
 
-* `-Doak.queryLimitReads=100000`
+* 
+  ```
+  -Doak.queryLimitReads=100000
+  ```
 
 In AEM 6.3, the above 2 parameters are preconfigured by default, and can be modified via the OSGi QueryEngineSettings.
 
@@ -186,17 +187,20 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * property=jcr:content/contentType
-
-          property.value=article-page
+        * 
+          ```
+           property=jcr:content/contentType
+           property.value=article-page
+          ```
 
     * **Optimized query**
 
-        * type=cq:Page 
-
-          property=jcr:content/contentType 
-
-          property.value=article-page
+        * 
+          ```
+           type=cq:Page 
+           property=jcr:content/contentType 
+           property.value=article-page
+          ```
 
    Queries lacking a nodetype restriction force AEM to assume the `nt:base` nodetype, which every node in AEM is a subtype of, effectively resulting in no nodetype restriction.
 
@@ -208,16 +212,16 @@ The following example uses Query Builder as it's the most common query language 
 
         * ``` 
           type=nt:hierarchyNode
-           property=jcr:content/contentType
-           property.value=article-page
+          property=jcr:content/contentType
+          property.value=article-page
           ```
 
     * **Optimized query**
 
         * ``` 
           type=cq:Page
-           property=jcr:content/contentType
-           property.value=article-page
+          property=jcr:content/contentType
+          property.value=article-page
           ```
 
    `nt:hierarchyNode` is the parent nodetype of `cq:Page`, and assuming `jcr:content/contentType=article-page` is only applied to `cq:Page` nodes via our custom application, this query will only return `cq:Page` nodes where `jcr:content/contentType=article-page`. This is a suboptimal restriction though, because:
@@ -233,14 +237,14 @@ The following example uses Query Builder as it's the most common query language 
 
         * ``` 
           property=jcr:content/contentType
-           property.value=article-page
+          property.value=article-page
           ```
 
     * **Optimized query**
 
         * ```
           property=jcr:content/sling:resourceType
-           property.value=my-site/components/structure/article-page
+          property.value=my-site/components/structure/article-page
           ```
 
    Changing the property restriction from `jcr:content/contentType` (a custom value) to the well known property `sling:resourceType` lets the query to resolve to the property index `slingResourceType` which indexes all content by `sling:resourceType`.
@@ -253,18 +257,18 @@ The following example uses Query Builder as it's the most common query language 
 
         * ``` 
           type=cq:Page
-           path=/content
-           property=jcr:content/contentType
-           property.value=article-page
+          path=/content
+          property=jcr:content/contentType
+          property.value=article-page
           ```
 
     * **Optimized query**
 
         * ```
           type=cq:Page
-           path=/content/my-site/us/en
-           property=jcr:content/contentType
-           property.value=article-page
+          path=/content/my-site/us/en
+          property=jcr:content/contentType
+          property.value=article-page
           ```
 
    Scoping the path restriction from `path=/content`to `path=/content/my-site/us/en` allows the indexes to reduce the number of index entries that need to be inspected. When the query can restrict the path very well, beyond just `/content` or `/content/dam`, ensure the index has `evaluatePathRestrictions=true`.
@@ -277,17 +281,17 @@ The following example uses Query Builder as it's the most common query language 
 
         * ```
           type=cq:Page
-           property=jcr:content/contentType
-           property.operation=like
-           property.value=%article%
+          property=jcr:content/contentType
+          property.operation=like
+          property.value=%article%
           ```
 
     * **Optimized query**
 
         * ```
           type=cq:Page
-           fulltext=article
-           fulltext.relPath=jcr:content/contentType
+          fulltext=article
+          fulltext.relPath=jcr:content/contentType
           ```
 
    The LIKE condition is slow to evaluate because no index can be used if the text starts with a wildcard ("%...'). The jcr:contains condition allows using a fulltext index, and is therefore preferred. This requires the resolved Lucene Property Index to have indexRule for `jcr:content/contentType` with `analayzed=true`.
@@ -302,15 +306,15 @@ The following example uses Query Builder as it's the most common query language 
 
         * ``` 
           type=cq:Page
-           path=/content
+          path=/content
           ```
 
     * **Optimized query**
 
         * ```
           type=cq:Page
-           path=/content
-           p.guessTotal=100
+          path=/content
+          p.guessTotal=100
           ```
 
    For cases where query execution is fast but the number of results are large, p. `guessTotal` is a critical optimization for Query Builder queries.
@@ -327,37 +331,39 @@ The following example uses Query Builder as it's the most common query language 
 
         * ``` 
           query type=cq:Page
-           path=/content/my-site/us/en
-           property=jcr:content/contentType
-           property.value=article-page
-           orderby=@jcr:content/publishDate
-           orderby.sort=desc
+          path=/content/my-site/us/en
+          property=jcr:content/contentType
+          property.value=article-page
+          orderby=@jcr:content/publishDate
+          orderby.sort=desc
           ```
 
     * **XPath generated from Query Builder query**
 
-        * `/jcr:root/content/my-site/us/en//element(*, cq:Page)[jcr:content/@contentType = 'article-page'] order by jcr:content/@publishDate descending`
+        * ```
+          /jcr:root/content/my-site/us/en//element(*, cq:Page)[jcr:content/@contentType = 'article-page'] order by jcr:content/@publishDate descending
+          ```
 
 1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
 
-**Generated Lucene Property Index definition**
+    **Generated Lucene Property Index definition**
 
-   ```xml
-   - evaluatePathRestrictions = true
-   - compatVersion = 2
-   - type = "lucene"
-   - async = "async"
-   - jcr:primaryType = oak:QueryIndexDefinition
-     + indexRules 
-       + cq:Page 
-         + properties 
-           + contentType 
-               - name = "jcr:content/contentType"
-               - propertyIndex = true
-           + publishDate 
-              - ordered = true
-              - name = "jcr:content/publishDate"
-   ```
+    ```xml
+    - evaluatePathRestrictions = true
+    - compatVersion = 2
+    - type = "lucene"
+    - async = "async"
+    - jcr:primaryType = oak:QueryIndexDefinition
+        + indexRules 
+        + cq:Page 
+            + properties 
+            + contentType 
+                - name = "jcr:content/contentType"
+                - propertyIndex = true
+            + publishDate 
+                - ordered = true
+                - name = "jcr:content/publishDate"
+    ```
 
 1. Manually merge the generated definition into the existing Lucene Property Index in an additive fashion. Be careful not to remove existing configurations as they may be used to satisfy other queries.
 
@@ -365,7 +371,7 @@ The following example uses Query Builder as it's the most common query language 
     1. Identify the configuration delta between the optimized index definition (Step #4) and the existing index (/oak:index/cqPageLucene), and add the missing configurations from the optimized Index to the existing index definition.
     1. Per AEM's Re-indexing Best Practices, either a refresh or re-index is in order, based on if existing content will be effected by this index configuration change.
 
-## Create a new Index {#create-a-new-index}
+## Create a New Index {#create-a-new-index}
 
 1. Verify the query does not resolve to an existing Lucene Property Index. If it does, see the above section on tuning and existing index.
 1. As needed, convert the query to XPath or JCR-SQL2.
@@ -374,30 +380,32 @@ The following example uses Query Builder as it's the most common query language 
 
         * ```
           type=myApp:Author
-           property=firstName
-           property.value=ira
+          property=firstName
+          property.value=ira
           ```
 
     * **XPath generated from Query Builder query**
 
-        * `//element(*, myApp:Page)[@firstName = 'ira']`
+        * ```
+          //element(*, myApp:Page)[@firstName = 'ira']
+          ```
 
 1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
 
-**Generated Lucene Property Index definition**
+    **Generated Lucene Property Index definition**
 
-   ```xml
-   - compatVersion = 2
-   - type = "lucene"
-   - async = "async"
-   - jcr:primaryType = oak:QueryIndexDefinition
-     + indexRules 
-       + myApp:AuthorModel 
-         + properties 
-           + firstName 
-             - name = "firstName"
-             - propertyIndex = true
-   ```
+    ```xml
+    - compatVersion = 2
+    - type = "lucene"
+    - async = "async"
+    - jcr:primaryType = oak:QueryIndexDefinition
+        + indexRules 
+        + myApp:AuthorModel 
+            + properties 
+            + firstName 
+                - name = "firstName"
+                - propertyIndex = true
+    ```
 
 1. Deploy the generated Lucene Property Index definition.
 
@@ -407,17 +415,17 @@ The following example uses Query Builder as it's the most common query language 
 
    Upon the initial deployment of this index, AEM will populate the index with the requisite data.
 
-## When index-less and traversal queries are OK? {#when-index-less-and-traversal-queries-are-ok}
+## When are index-less and traversal queries OK? {#when-index-less-and-traversal-queries-are-ok}
 
 Due to AEM's flexible content architecture, it's difficult to predict and ensure traversals of content structures will not evolve over time to be unacceptably large.
 
-Therefore, ensure an indexes satisfy queries, except if the combination of path restriction and nodetype restriction guarentees that** less than 20 nodes are ever traversed.**
+Therefore, ensure an indexes satisfy queries, except if the combination of path restriction and nodetype restriction guarantees that **less than 20 nodes are ever traversed.**
 
 ## Query Development Tools {#query-development-tools}
 
 ### Adobe Supported {#adobe-supported}
 
-* **Query Builder Debugger **
+* **Query Builder Debugger**
 
     * A WebUI for executing Query Builder queries and generate the supporting XPath (for use in Explain Query or Oak Index Definition Generator).
     * Located on AEM at [/libs/cq/search/content/querydebug.html](http://localhost:4502/libs/cq/search/content/querydebug.html)
