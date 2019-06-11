@@ -11,7 +11,7 @@ topic-tags: document_services
 discoiquuid: 83ca522e-d16e-4196-9aa7-84f85de8dee2
 ---
 
-# Reader extending policy-protected PDF documents using Portable Protection Library{#reader-extending-policy-protected-pdf-documents-using-portable-protection-library}
+# Reader extending policy-protected PDF documents using Portable Protection Library {#reader-extending-policy-protected-pdf-documents-using-portable-protection-library}
 
 You must be familiar with concepts of document security, reader extension, and Java Programming language to reader-extend the document security policy-protected PDF documents.
 

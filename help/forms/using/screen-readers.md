@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: 53c57180-7004-4534-9146-603f7770a6fe
 ---
 
-# Screen readers for HTML5 forms{#screen-readers-for-html-forms}
+# Screen readers for HTML5 forms {#screen-readers-for-html-forms}
 
 HTML5 forms components render XFA form template to a HTML5 format. All standard browsers supporting HTML5 can render these forms. To support similar data capture experience across PDF and HTML5 forms, the layout of PDF forms is retained in HTML5 forms.
 
@@ -40,4 +40,4 @@ HTML5 forms support all the default keystrokes and gestures of Voice over. For m
 
 * VoiceOver is unable to detect arrow keys on the date widget on iPad safari.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
