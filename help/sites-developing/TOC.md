@@ -194,7 +194,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Structure of the AEM Touch-Enabled UI](touch-ui-structure.md)
     + [Tag Libraries](taglib.md)
     + [SPA WKND Tutorial](spa-wknd.md)
-    + [REDIRECT Creating Components](developing-screens-creating-components.md)
     + [Using xtypes (Classic UI)](xtypes.md)
     + [Adaptive Template Rendering](templates-adaptive-rendering.md)
     + [SPA Page Component](spa-page-component.md)
