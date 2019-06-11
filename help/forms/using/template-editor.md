@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 155aaf96-1e9c-4e73-8e43-d96878d69b16
 ---
 
-# Adaptive Form Templates{#adaptive-form-templates}
+# Adaptive Form Templates {#adaptive-form-templates}
 
 When you author a form, you add fields and components to define form structure, content, and actions in the editor. You add fields and components in the `guideRootPanel` of the form container. With Template Editor, you can create a template that contains basic structure and initial content that authors can use to create forms.
 
@@ -31,7 +31,7 @@ Once you tap to open a folder, you will find a Create button that allows creatin
 After you have created a folder, open the folder and perform the following steps to create a template:
 
 1. In the Template console, tap **Create** inside the folder you have created.
-1. In the Pick a Template Type section, select **Adaptive Form Template **and tap **Next**.
+1. In the Pick a Template Type section, select **Adaptive Form Template** and tap **Next**.
 
 1. In the Template Details section, provide a Template Title and tap **Create**.
 
@@ -76,7 +76,7 @@ When you select the structure layer in the Template Editor, you can see the layo
 
 ![Layout container in the structure layer](assets/header-layer-selector.png)
 
-Layout containers in the structure layer
+**Figure:** *Layout containers in the structure layer*
 
 **A.** Layout container for Header component **B.** Layout container for Footer component
 
@@ -86,7 +86,7 @@ Similarly, when you drag-drop the footer component in the layout container below
 
 ![Header and footer added in the Structure layer](assets/header-and-footer.png)
 
-Header and footer added in the Structure layer
+**Figure:** *Header and footer added in the Structure layer*
 
 #### Locking/unlocking components in the structure layer {#locking-unlocking-components-in-the-structure-layer}
 
@@ -102,7 +102,7 @@ For example, you add the header component in the template. When you select the c
 
 When the Initial Content option is selected, the Adaptive Form Container of the template opens like an adaptive form for editing. Like authoring an adaptive form, you can specify initial settings, such as selecting a theme and submit actions.
 
-Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png)**&gt; Initial Content**. 
+Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png) **&gt; Initial Content**. 
     [ ![Initial Content layer in Template Editor](assets/initial-content-layer.png)
 
 Initial Content layer in Template Editor showing Adaptive Form Container selected for specifying properties.
@@ -126,7 +126,7 @@ You have added a logo, provided a title, and added a footer in the structure lay
 
 Change the layer from Structure to Initial Content, and start adding content to the form. To create a tabbed structure, add a child Panel in the guideRootPanel of the Adaptive Form container. To add a panel:
 
-* You can add a panel by tapping the **+** button when you select the **Drag components here **option. 
+* You can add a panel by tapping the **+** button when you select the **Drag components here** option. 
 
 * You can drag-drop the panel component from the components browser in the sidebar. 
 * You can add child panel of the `guideRootPanel` from the component toolbar.
@@ -180,8 +180,8 @@ Perform the following steps to show and hide templates:
 
 1. Locate and open the **FormsManager Configuration** settings:
 
-    * To show or hide out of the box adaptive forms template, check or uncheck the **Include Out of the box AF and AD Templates **option.
-    * To show or hide out of the box adaptive form templates that were added in AEM 6.0 Forms or AEM 6.1 Forms releases but are now deprecated, check or uncheck the **Include AEM 6.0 AF Templates **option. If this option is checked, in order to take effect, it requires the **Include Out of the box AF and AD Templates** configuration to be enabled.
+    * To show or hide out of the box adaptive forms template, check or uncheck the **Include Out of the box AF and AD Templates** option.
+    * To show or hide out of the box adaptive form templates that were added in AEM 6.0 Forms or AEM 6.1 Forms releases but are now deprecated, check or uncheck the **Include AEM 6.0 AF Templates** option. If this option is checked, in order to take effect, it requires the **Include Out of the box AF and AD Templates** configuration to be enabled.
 
 1. Click **Save**. The display options for the out of the box templates are changed.
 

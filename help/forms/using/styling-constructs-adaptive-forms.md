@@ -9,7 +9,7 @@ topic-tags: develop
 discoiquuid: d28997b4-49d2-46da-bfa1-ed6876a65639
 ---
 
-# Styling constructs for adaptive forms{#styling-constructs-for-adaptive-forms}
+# Styling constructs for adaptive forms {#styling-constructs-for-adaptive-forms}
 
 ## Prerequisites {#prerequisites}
 

@@ -10,7 +10,7 @@ topic-tags: introduction
 discoiquuid: 2feb4a9c-57ad-4c6b-a572-0047bc409bbb
 ---
 
-# Set up and configure AEM Forms reference sites{#set-up-and-configure-aem-forms-reference-sites}
+# Set up and configure AEM Forms reference sites {#set-up-and-configure-aem-forms-reference-sites}
 
 AEM Forms provides reference site implementation to demonstrate how AEM Forms helps Financial Services Industry and Government organizations in transforming their complex transactions into simple and engaging digital experiences anywhere, anytime, on any device.
 
@@ -238,7 +238,7 @@ To import the custom entity for auto insurance application:
 
 To import the custom entity for auto insurance application:
 
-1. Download the** AEMFormsFSIRefsite_1_0.zip** package from https://[author]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip. Select and import the package.  
+1. Download the **AEMFormsFSIRefsite_1_0.zip** package from https://[author]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip. Select and import the package.  
 
 1. In your Microsoft Dynamics instance, go to **Settings &gt; Solutions** and click **Import**. Select and import the package.
 

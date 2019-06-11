@@ -9,7 +9,7 @@ topic-tags: develop
 discoiquuid: eaf60421-097e-4feb-b661-433a512470ab
 ---
 
-# XFA support in XDP-based adaptive forms{#xfa-support-in-xdp-based-adaptive-forms}
+# XFA support in XDP-based adaptive forms {#xfa-support-in-xdp-based-adaptive-forms}
 
 ## Introduction {#introduction}
 

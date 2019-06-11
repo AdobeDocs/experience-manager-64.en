@@ -11,7 +11,7 @@ topic-tags: developer-reference
 discoiquuid: 9457effd-3595-452f-a976-ad9eda6dc909
 ---
 
-# APIs to work with submitted forms on forms portal{#apis-to-work-with-submitted-forms-on-forms-portal}
+# APIs to work with submitted forms on forms portal {#apis-to-work-with-submitted-forms-on-forms-portal}
 
 AEM Forms provides APIs that you can use to query forms data submitted through forms portal. In addition, you can post comments or update properties of submitted forms using the APIs explained in this document.
 

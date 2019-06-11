@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6bd58e37-085e-4057-8200-1404d54f41cc
 ---
 
-# Grant rule editor access to select user groups{#grant-rule-editor-access-to-select-user-groups}
+# Grant rule editor access to select user groups {#grant-rule-editor-access-to-select-user-groups}
 
 ## Overview {#overview}
 
@@ -22,7 +22,7 @@ AEM Forms allows you to limit rule editor access to users based on their role or
 ## Specify user groups that can access rule editor {#specify-user-groups-that-can-access-rule-editor}
 
 1. Log in to AEM Forms as an administrator.
-1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer.png) &gt; Operations &gt; Web Console. **The Web Console opens in a new window.
+1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![hammer](assets/hammer.png) &gt; Operations &gt; Web Console. The Web Console opens in a new window.
 
    ![1](assets/1.png)
 

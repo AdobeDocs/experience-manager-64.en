@@ -8,7 +8,7 @@ topic-tags: publish
 discoiquuid: bdf13893-630a-43cd-aaeb-c7c16bf4f8a6
 ---
 
-# Use metadata in an email notification {#use-metadata-in-an-email-notification}
+# Use metadata in an email notification  {#use-metadata-in-an-email-notification}
 
 Use metadata to populate information in a forms workflow email notification
 
