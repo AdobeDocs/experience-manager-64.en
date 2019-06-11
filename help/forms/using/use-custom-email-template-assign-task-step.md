@@ -8,7 +8,7 @@ topic-tags: publish
 discoiquuid: c447fc39-c0f3-4932-ac6c-465d1fb83f8c
 ---
 
-# Use custom email templates in an Assign Task step{#use-custom-email-templates-in-an-assign-task-step}
+# Use custom email templates in an Assign Task step {#use-custom-email-templates-in-an-assign-task-step}
 
 Custom email templates for forms workflow email notifications 
 

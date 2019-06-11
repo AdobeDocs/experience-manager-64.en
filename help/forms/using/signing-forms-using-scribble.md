@@ -9,9 +9,9 @@ topic-tags: author
 discoiquuid: 6a806727-28c5-430e-9a83-b43e0e9d9e1c
 ---
 
-# Apply electronic signatures to a form using scribble signatures{#apply-electronic-signatures-to-a-form-using-scribble-signatures}
+# Apply electronic signatures to a form using scribble signatures {#apply-electronic-signatures-to-a-form-using-scribble-signatures}
 
-You can use the **Scribble Signature **component and **Signature Step **component to draw(Scribble) signature on an adaptive form. The Signature step component displays a PDF version of the adaptive form. You require a Document of Record option enabled or form template based adaptive forms to use the Signature step component.
+You can use the **Scribble Signature** component and **Signature Step** component to draw(Scribble) signature on an adaptive form. The Signature step component displays a PDF version of the adaptive form. You require a Document of Record option enabled or form template based adaptive forms to use the Signature step component.
 
 Both the components provide a window, as displayed below, to sign a form. You can also click the geolocation icon ![aem_6_3_geolocation](assets/aem_6_3_geolocation.png) to add geolocation to the signature.
 

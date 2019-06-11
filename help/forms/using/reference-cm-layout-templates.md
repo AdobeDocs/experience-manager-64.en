@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: afeb9f4d-3feb-4a0e-8884-e3ec1309b33b
 ---
 
-# Reference letter templates{#reference-letter-templates}
+# Reference letter templates {#reference-letter-templates}
 
 In Correspondence Management, a letter template contains typical form fields, layout features such as a header and footer, and empty "target areas" for the placement of content.
 

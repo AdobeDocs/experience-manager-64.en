@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: 265eee8a-364e-4edf-b2a0-f42617169944
 ---
 
-# Working with Startpoints{#working-with-startpoints}
+# Working with Startpoints {#working-with-startpoints}
 
 A startpoint invokes a process created in Workbench. It is associated with a form which invokes the process when the form is submitted. See [Geometrixx Finance Reference Site walkthrough](/help/forms/using/finance-reference-site-walkthrough.md) to understand processes.
 

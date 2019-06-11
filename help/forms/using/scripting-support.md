@@ -11,7 +11,7 @@ topic-tags: hTML5_forms
 discoiquuid: 4ef78c8c-783f-4aac-a499-692cd4acef75
 ---
 
-# Scripting support for HTML5 forms{#scripting-support-for-html-forms}
+# Scripting support for HTML5 forms {#scripting-support-for-html-forms}
 
 JavaScript, FormCalc properties, and methods supported in HTML5 forms are as listed below:
 
@@ -1348,4 +1348,4 @@ The following client sided XFA events are supported:
 >
 >HTML5 forms are rendered on the client-side (browser). It is recomended to use client side **validate **and **calculate **scripts instead of server-sided scripts.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

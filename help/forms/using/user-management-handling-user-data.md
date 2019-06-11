@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a88fc933-f1af-4798-b72f-10e7b0d2fd11
 ---
 
-# Forms user management | Handling user data{#forms-user-management-handling-user-data}
+# Forms user management | Handling user data {#forms-user-management-handling-user-data}
 
 User management is an AEM Forms JEE component that allows creating, managing, and authorizing AEM Forms users to access AEM Forms. User management uses domains as directory for obtaining user information. The following domain types are supported:
 

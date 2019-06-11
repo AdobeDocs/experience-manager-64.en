@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 82e72ffb-2faa-45fe-8bb2-f485d8fa043e
 ---
 
-# Transaction Reports Billable APIs{#transaction-reports-billable-apis}
+# Transaction Reports Billable APIs {#transaction-reports-billable-apis}
 
 List of all the APIs that are accounted as transactions
 
