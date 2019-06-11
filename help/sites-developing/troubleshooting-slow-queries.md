@@ -151,15 +151,10 @@ This helps avoiding resource intensive queries (ie. not backed by any index or b
 
 For AEM 6.0 - 6.2 versions, you can tune the threshold for node traversal via JVM parameters in the AEM start script to prevent large queries from overloading the environment. The recommended values are :
 
-*     
-  ```
-  -Doak.queryLimitInMemory=500000
+* `-Doak.queryLimitInMemory=500000`
   ```
 
-* 
-  ```
-  -Doak.queryLimitReads=100000
-  ```
+* `-Doak.queryLimitReads=100000`
 
 In AEM 6.3, the above 2 parameters are preconfigured by default, and can be modified via the OSGi QueryEngineSettings.
 
