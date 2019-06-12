@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9161c8ca-ef33-4ec9-affc-94b5b3e48a4c
 ---
 
-# Working with tasks{#working-with-tasks}
+# Working with tasks {#working-with-tasks}
 
 Use the Task Search page to search for tasks by user name or task ID. The search results are displayed on the Task List page, where you can access a task’s history. You can also reassign a task is one user has too many tasks or if a user has received a task assignment in error.
 

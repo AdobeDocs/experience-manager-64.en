@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b93060bd-c6e1-40d2-8acd-ccafb8ed56da
 ---
 
-# Starting and stopping services{#starting-and-stopping-services}
+# Starting and stopping services {#starting-and-stopping-services}
 
 There are two types of services that are part of AEM forms:
 

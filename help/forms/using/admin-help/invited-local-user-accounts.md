@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 65720eed-ab06-463f-9567-2fdc468b6219
 ---
 
-# Managing invited and local user accounts{#managing-invited-and-local-user-accounts}
+# Managing invited and local user accounts {#managing-invited-and-local-user-accounts}
 
 Use the Invited and Local Users page to manage your invited and local users. This page is displayed only if the following requirements are met:
 

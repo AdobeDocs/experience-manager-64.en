@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7c0efcb3-5b07-4090-9119-b7318c8b7980
 ---
 
-# Configuring SSL for WebSphere Application Server{#configuring-ssl-for-websphere-application-server}
+# Configuring SSL for WebSphere Application Server {#configuring-ssl-for-websphere-application-server}
 
 This section includes the following steps to configure SSL with your IBM WebSphere Application Server.
 

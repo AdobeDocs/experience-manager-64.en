@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3d2b7cfb-228c-4cc2-8fcd-d500f0010010
 ---
 
-# Configuring locations for Forms{#configuring-locations-for-forms}
+# Configuring locations for Forms {#configuring-locations-for-forms}
 
 You can specify the URL, URI, and file locations of attributes such as the web root, the location of the forms to be retrieved, the seed PDF file that is used in PDFForm transformations, and the cache location.
 
@@ -75,9 +75,9 @@ The default value is an empty string.
 
 **Default Location:** This is the default selection. When this option is selected, the cache is created at a location that is dependent on the application server you are using:
 
-* **JBoss:***[JBoss Home]*\server\*[install type]*\svcdata\FormServer\Cache
-* **WebLogic:** [WebLogic Home]\user_projects\domains\*[aem-forms Domain Name]*\adobe\*[forms server name]*\FormServer\Cache
-* **WebSphere:***[IBM Home]*\WebSphere\AppServer\installedApps\adobe\server1\FormServer\Cache
+* **JBoss:** [JBoss Home]\server\[install type]\svcdata\FormServer\Cache
+* **WebLogic:** [WebLogic Home]\user_projects\domains\[aem-forms Domain Name]\adobe\[forms server name]\FormServer\Cache
+* **WebSphere:** [IBM Home]\WebSphere\AppServer\installedApps\adobe\server1\FormServer\Cache
 
 **LC Temp Directory:** The cache is created in a subdirectory of the AEM forms temp directory, which is specified in the administration console under Settings > Core System Settings > Configurations > Location of Temp Directory. The subdirectory is named adobeform_[servername].
 

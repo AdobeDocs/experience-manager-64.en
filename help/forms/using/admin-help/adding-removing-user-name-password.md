@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1fd28077-37a4-4cba-bbce-6d5b353f1e7d
 ---
 
-# Adding and removing user name and password credentials{#adding-and-removing-user-name-and-password-credentials}
+# Adding and removing user name and password credentials {#adding-and-removing-user-name-and-password-credentials}
 
 From the Trust Store Management page, you can add and remove user name and password credentials used by the Forms service when it receives a request with SOAP-level security.
 

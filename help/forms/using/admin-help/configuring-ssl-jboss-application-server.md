@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c187daa4-41b7-47dc-9669-d7120850cafd
 ---
 
-# Configuring SSL for JBoss Application Server{#configuring-ssl-for-jboss-application-server}
+# Configuring SSL for JBoss Application Server {#configuring-ssl-for-jboss-application-server}
 
 To configure SSL on JBoss Application Server, you need an SSL credential for authentication. You can use the Java keytool to create a credential or request and import a credential from a certificate authority (CA). You must then enable SSL on JBoss.
 
@@ -36,7 +36,7 @@ In this procedure:
 
    >[!NOTE]
    >
-   >The `keystore_password`* entered at this step may be the same password (key_password) that you entered in step 1, or it may be different. *
+   >The `keystore_password` *ntered at this step may be the same password (key_password) that you entered in step 1, or it may be different.*
 
 1. Copy the *keystorename*.keystore to the *[appserver root]*/server/*[type]*/conf directory by typing one of the following commands:
 
@@ -95,9 +95,7 @@ In this procedure:
 
     * Server Cluster - [appserver root]/domain/configuration/domain_&lt;dbname&gt;.xml
 
-1.
-
-    * **For single server,** in the lc_&lt;dbaname/tunkey&gt;.xml file, add the following after &lt;security-realms&gt; section:
+1. * **For single server,** in the lc_&lt;dbaname/tunkey&gt;.xml file, add the following after &lt;security-realms&gt; section:
 
    ```as3
    <security-realm name="SSLRealm">

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5a96f5ea-6fe3-44b1-b314-14097b9e9c01
 ---
 
-# Overview of output service{#overview-of-output-service}
+# Overview of output service {#overview-of-output-service}
 
 Output lets you merge XML form data with a form design created in Designer to create a document output stream in various formats. The output stream can be sent to a network printer, a local printer, or a disk file
 

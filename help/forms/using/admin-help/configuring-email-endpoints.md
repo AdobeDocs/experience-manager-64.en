@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: dcf15c42-9ec6-4d1c-ad41-083aa0b8c7ae
 ---
 
-# Configuring email endpoints{#configuring-email-endpoints}
+# Configuring email endpoints {#configuring-email-endpoints}
 
 Email endpoints enable users to invoke a service by sending one or more documents (as email attachments) to a specified email account. The email inbox acts as a collecting point for the attachments. The service monitors the inbox and processes the attachments. The results of the conversion are forwarded to the user defined in the endpoint.
 
@@ -80,7 +80,7 @@ For forms workflow to receive and handle incoming email messages from users, you
 
 **Domain Pattern:** The domain name pattern that is used to filter incoming emails. For example, if adobe.com is used, only email from adobe.com will be processed; email from other domains is ignored.
 
-**File Pattern:** The incoming file attachment patterns that the provider accepts. This includes files that have specific extensions (&ast;.dat, &ast;.xml), specific names (data), and composite expressions in the name and extension (&ast;.[dD][aA][Tt]). The default value is &ast;.&ast;.
+**File Pattern:** The incoming file attachment patterns that the provider accepts. This includes files that have specific extensions (&ast;.dat, &ast;.xml), specific names (data), and composite expressions in the name and extension (.[dD][aA][Tt]). The default value is &ast;.&ast;.
 
 **Successful Job’s Recipients:** One or more email addresses that are used to send emails to indicate successful jobs. By default, a successful job message is always sent to the sender of the initial job. Up to 100 recipients are supported. To turn off this setting, leave this field blank.
 

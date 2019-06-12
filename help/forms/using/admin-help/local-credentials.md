@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 598a9a03-3773-4620-8867-1f754d8ca031
 ---
 
-# Managing local credentials{#managing-local-credentials}
+# Managing local credentials {#managing-local-credentials}
 
 Local credentials are private key credentials hosted in Trust Store Management. A *local credential* identifies where a user’s DES credential is stored. Using Trust Store Management, you can import and manage your local credentials by using, for example, existing PFX files so that you can import, edit, and delete local credentials.
 

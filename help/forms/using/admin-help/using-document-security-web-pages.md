@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2878b145-e6c0-48d3-810c-3540de13c826
 ---
 
-# Using the document security webpages{#using-the-document-security-webpages}
+# Using the document security webpages {#using-the-document-security-webpages}
 
 Users and administrators use the document security web pages to create and manage policies, manage policy-protected documents, and monitor events that are associated with policy-protected documents. Administrators also use the web pages to create policy sets and designate policy set coordinators, configure document security default settings, manage invited user registration and accounts, and monitor and manage server, policy, user, and document-related events.
 
