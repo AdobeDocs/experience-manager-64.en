@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 31dd8db3-ddac-429e-82f8-8c5dc4ffc186
 ---
 
-# Configuring authentication providers{#configuring-authentication-providers}
+# Configuring authentication providers {#configuring-authentication-providers}
 
 Hybrid domains require at least one authentication provider, and enterprise domains require at least one authentication provider or directory provider.
 

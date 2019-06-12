@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f9b40e1f-956d-498b-92e4-4fe21e23fc4a
 ---
 
-# About administration and process terminology{#about-administration-and-process-terminology}
+# About administration and process terminology {#about-administration-and-process-terminology}
 
 To administer forms workflow effectively, you should understand the following terms and the hierarchy of the elements:
 

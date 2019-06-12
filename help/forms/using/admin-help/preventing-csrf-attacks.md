@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a3cbffb7-c1d1-47c2-bcfd-70f1e2d81ac9
 ---
 
-# Preventing CSRF attacks{#preventing-csrf-attacks}
+# Preventing CSRF attacks {#preventing-csrf-attacks}
 
 ## How CSRF attacks work {#how-csrf-attacks-work}
 

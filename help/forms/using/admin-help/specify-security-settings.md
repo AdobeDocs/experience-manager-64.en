@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3c017f9a-aa7f-4d12-ba8b-9fd92c029157
 ---
 
-# Specify security settings{#specify-security-settings}
+# Specify security settings {#specify-security-settings}
 
 Output enables you to control whether external entities in XML inputs are resolved. By default, they are resolved, but you can change this behavior to increase the security of your AEM forms system.
 

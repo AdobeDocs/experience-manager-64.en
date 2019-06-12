@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c908d064-6596-473a-b218-22a2496c83f7
 ---
 
-# Starting and stopping WebLogic Server{#starting-and-stopping-weblogic-server}
+# Starting and stopping WebLogic Server {#starting-and-stopping-weblogic-server}
 
 Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. Ensure that WebLogic Server is stopped or running, depending on the task you are performing.
 
@@ -69,12 +69,12 @@ The WebLogic Server administration console is no longer available, and the comma
 
 ## Start WebLogic administration console {#start-weblogic-administration-console}
 
-1. If WebLogic Admin Server is not already running, from a command prompt, go to the *[appserver root]*\user_projects\domains\*[domainname] *directory, and enter the following command:
+1. If WebLogic Admin Server is not already running, from a command prompt, go to the *[appserver root]\user_projects\domains\[domainname]* directory, and enter the following command:
 
     * (Windows) `startWebLogic.cmd`
     * (Linux, UNIX) ./ `startWebLogic.sh`
 
-1. Access WebLogic Server administration console by typing `https://*[host name]*:`*[Port]* `/console` in the URL line of a web browser, where *[Port]* is the non-secure listening port. By default, this port value is 7001.
+1. Access WebLogic Server administration console by typing `https://*[host name]:`[Port] `/console` in the URL line of a web browser, where *[Port]* is the non-secure listening port. By default, this port value is 7001.
 1. On the login screen, type your administrator user name and password, and click Log In.
 
 ## Start Node Manager {#start-node-manager}

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6e4b4dfa-3af5-4c21-a2a1-b90ef02d8514
 ---
 
-# Customizing search templates{#customizing-search-templates}
+# Customizing search templates {#customizing-search-templates}
 
 You can create search templates to be used in Workspace to search for instances of processes from the To Do and Tracking pages. You can also edit or delete existing search templates.
 
@@ -40,9 +40,9 @@ You can create as many search templates as required.
 
     * At the top of the Criteria tab, select a Process Element or Task Element.
 
-      ***Tip**: If you previously selected the Process Name element and specified a process, any Process Variables defined in that process are also available for selection. *
+      **Tip**: *If you previously selected the Process Name element and specified a process, any Process Variables defined in that process are also available for selection.*
 
-      ***Tip**: If you select the Task Visible element, users will be able to remove completed tasks from the search results. *
+      **Tip**: *If you select the Task Visible element, users will be able to remove completed tasks from the search results.*
 
       The search criteria fields for the selected element appear at the bottom of the Criteria tab.
     
@@ -52,9 +52,9 @@ You can create as many search templates as required.
         * (Optional) To enable users to change the operand value in Workspace, select Allow The User To Change The Operand.
         * (Optional) To enable users to change the relational operator, select Allow The User To Select Another Relational Operator. In the list that appears, select the operators that will be available to the user.
 
-      ***Tip**: If you selected Process Name as the element, you can click the icon beside the operand field to display a list where you can select a process that is running on the forms server. After selecting a process, any process variables defined in that process are available for selection under Process Variables in the top section of the Criteria tab.*
+      **Tip**: *If you selected Process Name as the element, you can click the icon beside the operand field to display a list where you can select a process that is running on the forms server. After selecting a process, any process variables defined in that process are available for selection under Process Variables in the top section of the Criteria tab.*
 
-      ***Tip**: You can delete an element from the search template by clicking the Delete icon beside the element’s search criteria.*
+      **Tip**: *You can delete an element from the search template by clicking the Delete icon beside the element’s search criteria.*
 
 1. (Optional) For each column heading to display in the search results, click the Layout tab and perform the following steps:
 
@@ -62,7 +62,7 @@ You can create as many search templates as required.
     * In the Columns To Report list, select the process or task element and click the Up Arrow or Down Arrow to move it to its place in the column order. The column headings in the search results will appear in the order that they are listed here.
     * (Optional) To change the name of the element for the column heading, select the element from the Columns To Report list and provide the new name.
 
-      ***Note**: The layout specified in the search template overrides the user’s preferences specified for column headings in Workspace. *
+      **Note**: *The layout specified in the search template overrides the user’s preferences specified for column headings in Workspace.*
 
 1. (Optional) For each column to sort in the search results, click the Sort tab and perform the following steps:
 

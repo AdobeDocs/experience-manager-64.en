@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d958ae65-3008-4d68-9e11-4346e149827f
 ---
 
-# Configuring certificate-based authentication{#configuring-certificate-based-authentication}
+# Configuring certificate-based authentication {#configuring-certificate-based-authentication}
 
 User Management usually performs authentication by using a user name and password. User Management also supports certificate-based authentication, which you can use to authenticate users through Acrobat or to authenticate users programmatically. For details about authenticating users programmatically, see [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63).
 

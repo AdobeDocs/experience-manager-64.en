@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8f8367fe-a8e9-46ee-a980-1633be02932d
 ---
 
-# Configuring Acrobat Reader DC extensions for data capture{#configuring-acrobat-reader-dc-extensions-for-data-capture}
+# Configuring Acrobat Reader DC extensions for data capture {#configuring-acrobat-reader-dc-extensions-for-data-capture}
 
 If users of your AEM forms installation use the data capture functionality of Content Services (Deprecated), it is recommended that you create a role with read-only access for these users.
 

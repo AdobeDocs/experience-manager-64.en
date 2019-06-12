@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 69a406f2-4fa8-40bb-b671-7b0f5b6a2c4c
 ---
 
-# Purge records from the Job Manager database{#purge-records-from-the-job-manager-database}
+# Purge records from the Job Manager database {#purge-records-from-the-job-manager-database}
 
 Process data that is generated when a long-lived process is invoked can become too large, resulting in lower AEM forms performance and the use of unnecessary disk space. It is good practice to purge process data when records are no longer necessary.
 

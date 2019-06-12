@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e87c7379-28ed-4fda-aef1-970d2b54f30d
 ---
 
-# Basics of configuring forms{#basics-of-configuring-forms}
+# Basics of configuring forms {#basics-of-configuring-forms}
 
 The Forms service enables you to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors develop a single form design that the Forms service renders in various formats:
 

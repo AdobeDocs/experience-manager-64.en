@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c303e967-944d-40b0-96ca-f91e2f42a0d0
 ---
 
-# Overview of Health Monitor{#overview-of-health-monitor}
+# Overview of Health Monitor {#overview-of-health-monitor}
 
 Health Monitor provides critical information about the AEM forms system, such as server information, memory usage, and processor usage. Also available are Work Manager statistics, such as the number of work items or jobs in the queue and their statuses. You can perform the following tasks using Health Monitor:
 

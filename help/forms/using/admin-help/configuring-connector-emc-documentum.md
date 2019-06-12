@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e62370a7-9d9e-43a3-8014-8e53800c870d
 ---
 
-# Configuring Connector for EMC Documentum{#configuring-connector-for-emc-documentum}
+# Configuring Connector for EMC Documentum {#configuring-connector-for-emc-documentum}
 
 Connector for EMC Documentum enables communication between AEM forms and EMC Documentum. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 

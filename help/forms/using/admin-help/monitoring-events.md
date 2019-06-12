@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 379957bf-0634-4182-b269-1b010da4c90f
 ---
 
-# Monitoring events{#monitoring-events}
+# Monitoring events {#monitoring-events}
 
 When the auditing capability is enabled, document security enables you to monitor certain types of events. The events that you can see depend on your role:
 
@@ -27,7 +27,7 @@ When the auditing capability is enabled, document security enables you to monito
 
 A failed event is recorded if an unauthorized user attempts to view a document or attempts to log in using an incorrect user name or password.
 
-***Note**: Failed anonymous access events for documents may be logged if a policy is edited to remove anonymous access. When an authorized recipient attempts to access a document that the edited policy protects, anonymous access is still attempted but will fail. *
+**Note**: *Failed anonymous access events for documents may be logged if a policy is edited to remove anonymous access. When an authorized recipient attempts to access a document that the edited policy protects, anonymous access is still attempted but will fail.*
 
 If a policy allows anonymous user access but the administrator later turns off anonymous access for document security, anonymous access will fail for documents protected with the policy and the event will not be logged.
 

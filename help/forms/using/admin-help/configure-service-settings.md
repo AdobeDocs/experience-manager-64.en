@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2fab4b0c-e5db-47cd-b85a-4ff5ad6eb178
 ---
 
-# Configure service settings{#configure-service-settings}
+# Configure service settings {#configure-service-settings}
 
 You can use the Service Management page to configure settings for each of the services that are part of AEM forms. The available settings vary depending on the service being configured.
 
@@ -369,7 +369,7 @@ The following settings are available for the JMS service.
 
 **Other Properties:** Property name and value pairs that you can pass to the JNDI service provider. These properties depend on the implementation and configuration of the provider that you are using.
 
-The property name and value pairs are separated by semi-colons (;). For example, the following text shows the value that would be specified for two properties named name1 and name2, with values value1 and value2, respectively:
+The property name and value pairs are separated by semi-colons **;**. For example, the following text shows the value that would be specified for two properties named name1 and name2, with values value1 and value2, respectively:
 
 `name1=value1;name2=value2`
 
@@ -420,7 +420,7 @@ The following settings are available for the Microsoft SharePoint configuration 
 
 **Offline Support:** Enables users to continue using the mobile client applications even when they do not have a connection to the server (for example, when they are out of cell range or in airplane mode). Users must also enable the Offline Support setting on their mobile devices. This feature is available for Android and iOS devices. By default, this feature is off.
 
-***note**: If Offline support has been enabled and then you disable it, the users’ provisioning profiles are updated immediately, or as soon as they are online. If a user has been working offline, all pending tasks are returned to their Tasks list and all items in their Queue, including pending forms, tasks, and forms containing validation errors, are deleted from the Queue.*
+**Note**: *If Offline support has been enabled and then you disable it, the users’ provisioning profiles are updated immediately, or as soon as they are online. If a user has been working offline, all pending tasks are returned to their Tasks list and all items in their Queue, including pending forms, tasks, and forms containing validation errors, are deleted from the Queue.*
 
 **Android:** Allows Android devices to connect to the server.
 
@@ -808,18 +808,18 @@ Default security profiles are installed, which can then be configured to meet yo
 1. The Select Principal screen displays the users and groups that are configured in User Management. If the user or group you want is not displayed, use the search function to find it. Click a user or group name.
 1. On the Add Permissions screen, select the permissions to assign to the user or group for this service:
 
-    * **INVOKE_PERM: **To invoke all operations on the service
-    * **MODIFY_CONFIG_PERM: **To modify the configuration of a service
-    * **SUPERVISOR_PERM: **To view process instance data for a service that is created from a process
-    * **START_STOP_PERM: **To start and stop a service
-    * **ADD_REMOVE_ENDPOINTS_PERM: **To add, remove, and modify endpoints for a service
-    * **CREATE_VERSION_PERM: **To create a new version of the service
-    * **DELETE_VERSION_PERM: **To delete a version of the service
-    * **MODIFY_VERSION_PERM: **To modify a version of the service
-    * **READ_PERM: **To view the service
-    * **PROCESS_OWNER_PERM: **For use in a future version of AEM forms. Do not use this permission.
-    * **SERVICE_MANAGER_PERM: **For use in a future version of AEM forms. Do not use this permission.
-    * **SERVICE_AGENT_PERM: **For use in a future version of AEM forms. Do not use this permission.
+    * **INVOKE_PERM:** To invoke all operations on the service
+    * **MODIFY_CONFIG_PERM:** To modify the configuration of a service
+    * **SUPERVISOR_PERM:** To view process instance data for a service that is created from a process
+    * **START_STOP_PERM:** To start and stop a service
+    * **ADD_REMOVE_ENDPOINTS_PERM:** To add, remove, and modify endpoints for a service
+    * **CREATE_VERSION_PERM:** To create a new version of the service
+    * **DELETE_VERSION_PERM:** To delete a version of the service
+    * **MODIFY_VERSION_PERM:** To modify a version of the service
+    * **READ_PERM:** To view the service
+    * **PROCESS_OWNER_PERM:** For use in a future version of AEM forms. Do not use this permission.
+    * **SERVICE_MANAGER_PERM:** For use in a future version of AEM forms. Do not use this permission.
+    * **SERVICE_AGENT_PERM:** For use in a future version of AEM forms. Do not use this permission.
 
 1. Click Add.
 

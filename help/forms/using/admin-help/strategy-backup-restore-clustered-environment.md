@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c332985b-4556-4056-961a-fce2356da88d
 ---
 
-# Strategy for backup and restore in a clustered environment{#strategy-for-backup-and-restore-in-a-clustered-environment}
+# Strategy for backup and restore in a clustered environment {#strategy-for-backup-and-restore-in-a-clustered-environment}
 
 >[!NOTE]
 >
