@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 372cf182-9fcd-4963-84e1-9a6f95583bd1
 ---
 
-# DO NOT PUBLISH Text{#do-not-publish-text}
+# DO NOT PUBLISH Text {#do-not-publish-text}
 
 A text asset is a piece of content that consists of one or more paragraphs of text. A paragraph can be static or dynamic. A dynamic paragraph contains references to data elements, whose values are supplied at runtime. For example, the customer name in a letter salutation could be a dynamic data element, with its value made available at runtime. By changing these values, the same letter template can be used to generate letters for different customers.
 
@@ -26,10 +26,10 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
 1. Select **Forms** &gt;  **Document Fragments**.  
 
-1. Tap **Create** &gt; **Text. **Or select a text asset and tap **Edit**.
+1. Tap **Create** &gt; **Text**. Or select a text asset and tap **Edit**.
 1. Specify the following information for the text:
 
-    * **Title: (Optional) **Enter the title for the text asset. Titles need not be unique and can have special characters and non-english characters. Texts are referred by their titles (when available) such as in thumbnails and asset properties. 
+    * **Title: (Optional)** Enter the title for the text asset. Titles need not be unique and can have special characters and non-english characters. Texts are referred by their titles (when available) such as in thumbnails and asset properties. 
     * **Name:** The unique name for the text asset. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
     
     * **Description**: Type a description of the asset.
@@ -139,9 +139,9 @@ The Find and Replace feature allows you to search for (and replace) any string o
 
 1. To search for the next instance of the text, press Find again.
 
-   If you continue to press the Find button, the search continues down the page. After the last instance of the text is found, the message **Reached end of module **indicates that no more search results were found.
+   If you continue to press the Find button, the search continues down the page. After the last instance of the text is found, the message **Reached end of module** indicates that no more search results were found.
 
-   However, if no instance of the search text is found in the text module, the message displayed is:** Match Not Found**.
+   However, if no instance of the search text is found in the text module, the message displayed is: **Match Not Found**.
 
 1. If you press Find again, the search continues at the top of the page.
 

@@ -7,7 +7,7 @@ uuid: 65e15c98-216c-4120-9895-58cda2ae5023
 discoiquuid: dd2fd163-1447-4c40-946f-b3d0d1511395
 ---
 
-# Review and correct converted forms{#review-and-correct-converted-forms}
+# Review and correct converted forms {#review-and-correct-converted-forms}
 
 Review and correct the adaptive forms converted by the Automated Forms Conversion service.
 

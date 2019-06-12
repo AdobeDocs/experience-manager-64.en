@@ -8,7 +8,7 @@ uuid: 1b863d8c-3d71-44b1-9aa9-e8b3711a91b7
 discoiquuid: 797c956d-7e23-412d-8eba-933e2feb58b8
 ---
 
-# Forms-centric workflow on OSGi - Step Reference{#forms-centric-workflow-on-osgi-step-reference}
+# Forms-centric workflow on OSGi - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
 
 ## Forms Workflow Steps {#forms-workflow-steps}
 
@@ -35,7 +35,7 @@ You can also use the component to control the behavior of the task. For example,
 * **Highlight the action and comment from the last task in Task Details:** Select this option to display the last action that was taken and comment received on the task details section of a task.
 * **Type:** Choose the type of document to be filled when the workflow is started. You can choose an adaptive form, read-only adaptive form, or a non-interactive PDF document.
 * **Resolve form path using**: Specify the adaptive form for the workflow model. You can specify an absolute path of an adaptive form, a payload, or a variable that contains the path of the adaptive form. For example, when a workflow is initiated on submission of an adaptive form the submitting adaptive form serves as a payload.   
-  The **Resolve form path using **option is available only when you choose an adaptive form or read-only adaptive form in the **Type **field. 
+  The **Resolve form path using** option is available only when you choose an adaptive form or read-only adaptive form in the **Type **field. 
 
 * **PDF Path:** Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based adaptive forms for using the PDF Path option.
 * **For completed task, render the adaptive form as**: When a task is marked complete, you can render the adaptive form as a read-only adaptive form or a PDF document. You require a Document of Record option enabled or form template based adaptive forms for rendering the adaptive form as Document of Record.

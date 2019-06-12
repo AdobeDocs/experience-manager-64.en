@@ -12,7 +12,7 @@ topic-tags: forms-app
 discoiquuid: 4f3815e9-2151-41aa-a8b2-8905f87de387
 ---
 
-# DO NOT PUBLISH Troubleshoot AEM Forms Android app build issues{#do-not-publish-troubleshoot-aem-forms-android-app-build-issues}
+# DO NOT PUBLISH Troubleshoot AEM Forms Android app build issues {#do-not-publish-troubleshoot-aem-forms-android-app-build-issues}
 
 This article describes the error messages that might be displayed while building AEM Forms Android app and the steps to resolve them.
 
