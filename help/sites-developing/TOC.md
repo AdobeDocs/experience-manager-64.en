@@ -253,7 +253,6 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [The CSRF Protection Framework](csrf-protection.md)
     + [Page Templates - Editable ](page-templates-editable.md)
     + [Configuring your Page for Bulk Editing of Page Properties](bulk-editing.md)
-    + [Creating an AEM project using Lazybones](aem-project-lazybones.md)
     + [Page Templates - Static](page-templates-static.md)
     + [AEM Development - Guidelines and Best Practices](dev-guidelines-bestpractices.md)
     + [SPA Blueprint](spa-blueprint.md)
