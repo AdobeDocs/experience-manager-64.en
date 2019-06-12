@@ -123,7 +123,7 @@ replicator.replicate(session, replicationActionType, tagPath);
 
 ## Tagging on the Client Side {#tagging-on-the-client-side}
 
-[`CQ.tagging.TagInputField`](/sites-developing/reference-materials/widgets-api/index.html?class=CQ.tagging.TagInputField) is a form widget for entering tags. It has a popup menu for selecting from existing tags, includes auto-completion and many other features. Its xtype is `tags`.
+`CQ.tagging.TagInputField` is a form widget for entering tags. It has a popup menu for selecting from existing tags, includes auto-completion and many other features. Its xtype is `tags`.
 
 ## The Tag Garbage Collector {#the-tag-garbage-collector}
 
