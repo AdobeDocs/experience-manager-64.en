@@ -25,7 +25,7 @@ it on a portal server for end users. You can use the AEM Forms user interface to
 
 ## Access AEM Forms components {#access-aem-forms-components}
 
-Along with options to create forms, documents, and related assets, AEM provides options to create sites, assets, manage an AEM instance, and more. You can click the ![adobeexperiencemanager](assets/adobeexperiencemanager.png) Experience Manager logo to navigate to all the available tools. Along with links to the consoles of other components, it also contains links for AEM Forms . To navigate to AEM Forms, click the **[!UICONTROL Experience Manager logo ![adobeexperiencemanager](assets/adobeexperiencemanager.png) &gt; navigation ![compass](assets/compass.png) &gt; Forms]**. Links of the following consoles are displayed:
+Along with options to create forms, documents, and related assets, AEM provides options to create sites, assets, manage an AEM instance, and more. You can click the ![adobeexperiencemanager](assets/adobeexperiencemanager.png) Experience Manager logo to navigate to all the available tools. Along with links to the consoles of other components, it also contains links for AEM Forms . To navigate to AEM Forms, click the **Experience Manager logo** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) &gt; **navigation** ![compass](assets/compass.png) &gt; **Forms**. Links of the following consoles are displayed:
 
 * Forms & Documents  
 * Themes  
@@ -88,17 +88,17 @@ For information about creating and using data dictionaries, see creating [data d
 
 ## Accessing AEM Forms Configurations {#accessing-aem-forms-configurations}
 
-AEM tools panel contains tools for various components. To navigate to AEM Forms-specific tools, click the **[!UICONTROL Experience Manager logo ![adobeexperiencemanager](assets/adobeexperiencemanager.png) &gt; tools ![hammer](assets/hammer.png) &gt; Forms]**. Tools to perform the following functions are displayed:
+AEM tools panel contains tools for various components. To navigate to AEM Forms-specific tools, click the **Experience Manager logo** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) &gt; **tools** ![hammer](assets/hammer.png) &gt; **Forms**. Tools to perform the following functions are displayed:
 
-* **[!UICONTROL Configure Watched Folder:]** An administrator can configure a network folder, known as a watched folder, so that when a user places a file (such as a PDF file) in the watched folder, a pre-configured operation is started and manipulates the file. <!-- Fix broken link For detailed information, see Create and Configure a watched folder. -->  
+* **Configure Watched Folder:** An administrator can configure a network folder, known as a watched folder, so that when a user places a file (such as a PDF file) in the watched folder, a pre-configured operation is started and manipulates the file. <!-- Fix broken link For detailed information, see Create and Configure a watched folder. -->  
 
-* **[!UICONTROL Configure Forms App Offline Service:]** The AEM Forms app offline service caches the paths or URLs of the resources used in a form. Caching paths or URLs of the resources used in a form improves server-side performance. To configure the server-side offline component of AEM Forms app, see [Working in the offline mode](/help/forms/using/work-offline-mode.md).
+* **Configure Forms App Offline Service:** The AEM Forms app offline service caches the paths or URLs of the resources used in a form. Caching paths or URLs of the resources used in a form improves server-side performance. To configure the server-side offline component of AEM Forms app, see [Working in the offline mode](/help/forms/using/work-offline-mode.md).
 
 ![aem-forms-tools](assets/aem-forms-tools.png)
 
-* **[!UICONTROL Configure PDF Generator:]** An administrator can configure AEM Forms PDF Generator settings, add user accounts, and import or export configuration to the PDF Generator.
-* **[!UICONTROL Publish Correspondence Management Assets:]** AEM Forms lets you publish all the Letters, Document Fragments, and Data Dictionaries and related dependencies from an author instance at once. The published assets include all the Correspondence Management assets and related dependencies. For detailed information, see [Publishing and unpublishing forms & documents](/help/forms/using/publishing-unpublishing-forms.md#publishallthecorrespondencemanagementassets).
-* **[!UICONTROL Export Correspondence Management Assets:]** You can download all the Correspondence Management assets and related dependencies as a package from an AEM forms instance. For detailed steps, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md#importandexportassetsincorrespondencemanagement)
+* **Configure PDF Generator:** An administrator can configure AEM Forms PDF Generator settings, add user accounts, and import or export configuration to the PDF Generator.
+* **Publish Correspondence Management Assets:** AEM Forms lets you publish all the Letters, Document Fragments, and Data Dictionaries and related dependencies from an author instance at once. The published assets include all the Correspondence Management assets and related dependencies. For detailed information, see [Publishing and unpublishing forms & documents](/help/forms/using/publishing-unpublishing-forms.md#publishallthecorrespondencemanagementassets).
+* **Export Correspondence Management Assets:** You can download all the Correspondence Management assets and related dependencies as a package from an AEM forms instance. For detailed steps, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md#importandexportassetsincorrespondencemanagement)
 
 ## Common elements of user interface {#commonelements}
 
