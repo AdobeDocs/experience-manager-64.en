@@ -11,11 +11,11 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 533ad3f7-3905-420d-8bb9-8ae8f14fb28e
 ---
 
-# Configure advanced system attributes{#configure-advanced-system-attributes}
+# Configure advanced system attributes {#configure-advanced-system-attributes}
 
 Use the Configure Advanced System Attributes page to modify certain settings in the configuration file without the need to export, edit, and import the file. (See [Importing and exporting the configuration file](/help/forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
 
-1. In administration console, click Settings &gt; User Management &gt; Configuration &gt; Configure Advanced System Attributes.
+1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Configuration &gt; Configure Advanced System Attributes]**.
 1. (Optional) Change any of the following session attributes:
 
    **Session Timeout Limit (Minutes):** The amount of time, in minutes, before a user is automatically logged out of the system. By default, AEM forms components such as Workbench time out after two hours, regardless of activity or inactivity, and the user must log in again. Valid values are `1` to `1440`. The default value is `120` (2 hours). This setting updates the `SAML/Producer/assertionValidityInMinutes` entry key in the configuration file.
@@ -36,7 +36,7 @@ Use the Configure Advanced System Attributes page to modify certain settings in 
 
    **Cluster Job Lock Timeout In Minutes:** Used in clustered environments. If the synchronization on one node fails and the cluster lock is not released, this value specifies the number of minutes that another node waits before forcibly acquiring the lock. The default value is `15` minutes. Valid values are `1` to `1440` minutes. 
 
-1. (Optional) Change the following attributes and then click OK:
+1. (Optional) Change the following attributes and then click **[!UICONTROL OK]**:
 
    **User Manager Event Auditing:** Select this option to enable auditing of directory synchronization events and of authentication events such as success, failure, and lockout. By default, this option is not selected unless you installed a component that requires auditing, such as Rights Management. This setting updates the `APSAuditService` entry key in the configuration file.
 

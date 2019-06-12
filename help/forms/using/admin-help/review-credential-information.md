@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: cdf61cff-768b-49f7-9926-400bc96b0708
 ---
 
-# Review credential use information{#review-credential-use-information}
+# Review credential use information {#review-credential-use-information}
 
 The credential contains information describing its intended use that is accessible through the Acrobat Reader DC extensions end-user web application. You can use this information to determine the type of credential installed (either evaluation or production) and its validity dates.
 

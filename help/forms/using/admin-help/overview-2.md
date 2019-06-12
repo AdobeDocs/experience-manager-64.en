@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 986d16fc-4c81-4785-b1f3-fe8bd7ff669e
 ---
 
-# Basics of managing certificates and credentials{#basics-of-managing-certificates-and-credentials}
+# Basics of managing certificates and credentials {#basics-of-managing-certificates-and-credentials}
 
 A *credential* contains your private key information needed for signing or identifying documents. A *certificate* is public key information that you configure for trust. AEM forms uses certificates and credentials for several purposes:
 

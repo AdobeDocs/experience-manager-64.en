@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 52187196-b091-4683-85ae-cc7c250dee54
 ---
 
-# Backing up the AEM forms data{#backing-up-the-aem-forms-data}
+# Backing up the AEM forms data {#backing-up-the-aem-forms-data}
 
 This section describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
 

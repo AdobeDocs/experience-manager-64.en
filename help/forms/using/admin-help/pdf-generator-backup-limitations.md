@@ -12,6 +12,6 @@ discoiquuid: 23386353-b2bf-49f1-947a-dd7587bba175
 noindex: true
 ---
 
-# PDF Generator backup limitations{#pdf-generator-backup-limitations}
+# PDF Generator backup limitations {#pdf-generator-backup-limitations}
 
 The temporary directory that PDF Generator uses to convert files cannot be backed up. Even though the service will be restored properly, data can get lost because PDF Generator reviews and clears the contents of the temporary directory at set intervals. 

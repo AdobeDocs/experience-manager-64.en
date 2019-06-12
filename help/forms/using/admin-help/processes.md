@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 37e702c2-8716-4360-a3eb-d9877b28cc86
 ---
 
-# Managing Processes{#managing-processes}
+# Managing Processes {#managing-processes}
 
 The Process List page shows the processes that a user has initiated or that were started automatically.
 
@@ -71,7 +71,7 @@ A process instance, including subprocesses, can have the following statuses:
 
 **UNSUSPENDING:** The status is about to change to RUNNING after having been SUSPENDED.
 
-***Note**: When a request is made to change the status of a process instance (such as to suspend or terminate), the request enters the command queue for forms workflow. Depending on the size of the queue and overall processing speed, the displayed status may not change until the page is reloaded one or more times.*
+**Note**: *When a request is made to change the status of a process instance (such as to suspend or terminate), the request enters the command queue for forms workflow. Depending on the size of the queue and overall processing speed, the displayed status may not change until the page is reloaded one or more times.*
 
 ### Suspend or unsuspend process instances {#suspend-or-unsuspend-process-instances}
 

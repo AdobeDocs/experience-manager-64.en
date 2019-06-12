@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 72fe5749-2fa2-442f-b679-7889faeafcac
 ---
 
-# Importing and exporting global settings{#importing-and-exporting-global-settings}
+# Importing and exporting global settings {#importing-and-exporting-global-settings}
 
 You can import and export search template definitions and global settings for Workspace.
 
@@ -124,4 +124,4 @@ To define the custom name:
 
 `<client_systemContext_name>[custom name to display]</client_systemContext_name>`
 
-***note**: For the Demo application, the default display name is **Citizen**. For a custom application that you create, the default display name is **System Context Account**.*
+**Note**: *For the Demo application, the default display name is **Citizen**. For a custom application that you create, the default display name is **System Context Account**.*

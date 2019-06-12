@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 4c83694c-b00f-40be-9ac4-f5785cd60741
 ---
 
-# Specifying fonts to embed{#specifying-fonts-to-embed}
+# Specifying fonts to embed {#specifying-fonts-to-embed}
 
 You can specify which fonts are always embedded or never embedded with the forms that the Forms service generates. Embedding fonts increases the file size of the forms. Embed unusual fonts that users rarely have on their systems. Do not embed common fonts that they typically have installed.
 

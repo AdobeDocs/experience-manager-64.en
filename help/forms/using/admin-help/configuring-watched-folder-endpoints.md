@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 761e7909-43ba-4642-bcfc-8d76f139b9a3
 ---
 
-# Configuring watched folder endpoints{#configuring-watched-folder-endpoints}
+# Configuring watched folder endpoints {#configuring-watched-folder-endpoints}
 
 An administrator can configure a network folder, known as a *watched folder*, so that when a user places a file (such as a PDF file) in the watched folder, a configured service operation is invoked and manipulates the file. After the service performs the specified operation, it saves the modified file in a specified output folder.
 
@@ -44,7 +44,7 @@ In Windows, if the application server is running as a service, it must be starte
 
 Watched folders can be chained together so that a result document of one watched folder is the input document of the next watched folder. Each watched folder can invoke a different service. By configuring watched folders in this manner, multiple services can be invoked. For example, one watched folder could convert PDF files to Adobe PostScript® and a second watched folder could convert the PostScript files to PDF/A format. To do this, simply set the *result* folder of the watched folder defined by your first endpoint to point to the *input* folder of the watched folder defined by your second endpoint.
 
-Output from the first conversion would go to \*path*\result. Input for the second conversion would be \*path*\result, and output from the second conversion would go to \*path*\result\result (or the directory you define in the Result Folder box for the second conversion).
+Output from the first conversion would go to \path\result. Input for the second conversion would be \path\result, and output from the second conversion would go to \path\result\result (or the directory you define in the Result Folder box for the second conversion).
 
 ## How users interact with watched folders {#how-users-interact-with-watched-folders}
 
@@ -140,13 +140,13 @@ When files are dropped into the watched folder, it lists the files in the input,
 
 This setting is useful to ensure that a file or folder is completely copied to the input folder. For example, if you have a large file to process and the file takes ten minutes to download, set the wait time to 10&ast;60 &ast;1000 milliseconds. This prevents the watched folder from scanning the file if it is not ten minutes old.
 
-**Exclude File Pattern:** A semi-colon (;) delimited list of patterns that a watched folder uses to determine which files and folders to scan and pick up. Any file or folder with this pattern will not be scanned for processing.
+**Exclude File Pattern:** A semi-colon **;** delimited list of patterns that a watched folder uses to determine which files and folders to scan and pick up. Any file or folder with this pattern will not be scanned for processing.
 
 This setting is useful when the input is a folder with multiple files. The contents of the folder can be copied into a folder with a name that will be picked up by the watched folder. This prevents the watched folder from picking up a folder for processing before the folder is completely copied into the input folder.
 
 You can use file patterns to exclude:
 
-* Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast;
+* Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, &ast;.pdf.
 * Files with specific names; for example, data.&ast; would exclude files and folders named *data1*, *data2*, and so on.
 * Files with composite expressions in the name and extension, as in these examples:
 
@@ -156,13 +156,13 @@ You can use file patterns to exclude:
 
 For more information about file patterns, see [About file patterns](configuring-watched-folder-endpoints.md#about-file-patterns).
 
-**Include File Pattern:** (Mandatory) A semi-colon (;) delimited list of patterns that the watched folder uses to determine which folders and files to scan and pick up. For example, if the Include File Pattern is input&ast;, all files and folders that match input&ast; are picked up. This includes files and folders named input1, input2, and so on.
+**Include File Pattern:** (Mandatory) A semi-colon **;** delimited list of patterns that the watched folder uses to determine which folders and files to scan and pick up. For example, if the Include File Pattern is input&ast;, all files and folders that match input&ast; are picked up. This includes files and folders named input1, input2, and so on.
 
 The default value is &ast; and indicates all files and folders.
 
 You can use file patterns to include:
 
-* Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast;
+* Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, &ast;.pdf.
 * Files with specific names; for example, data.&ast; would include files and folders named *data1*, *data2*, and so on.
 * Files with composite expressions in the name and extension, as in these examples:
 
@@ -223,13 +223,13 @@ A value of -1 days indicates to never delete the results folder. The default val
 
 Watched Folder output can be a single document, a list of documents, or a map of documents. These output documents are then saved in the result folder, using the pattern specified in the Output Parameter Mapping.
 
-***Note**: Specifying names that result in unique output filenames improves performance. For example, consider the case where the service returns one output document and the Output Parameter Mapping maps it to `%F.%E` (the file name and extension of the input file). In this case, if users drop files with the same name every minute, and the result folder is configured to `result/%Y/%M/%D`, and the Overwrite Duplicate Filename setting is off, Watched Folder will try to resolve the duplicate file names. The process of resolving duplicate file names can affect performance. In this situation, changing the Output Parameter Mapping to `%F_%h_%m_%s_%l` to add hours, minutes, seconds, and milliseconds to the name, or ensuring that dropped files have unique names may improve performance.*
+**Note**: *Specifying names that result in unique output filenames improves performance. For example, consider the case where the service returns one output document and the Output Parameter Mapping maps it to `%F.%E` (the file name and extension of the input file). In this case, if users drop files with the same name every minute, and the result folder is configured to `result/%Y/%M/%D`, and the Overwrite Duplicate Filename setting is off, Watched Folder will try to resolve the duplicate file names. The process of resolving duplicate file names can affect performance. In this situation, changing the Output Parameter Mapping to `%F_%h_%m_%s_%l` to add hours, minutes, seconds, and milliseconds to the name, or ensuring that dropped files have unique names may improve performance.*
 
 ## About file patterns {#about-file-patterns}
 
 Administrators can specify the type of file that can invoke a service. Multiple file patterns can be established for each watched folder. A file pattern can be one of the following file properties:
 
-* Files with specific file name extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast;
+* Files with specific file name extensions; for example, &ast;.dat, &ast;.xml, &ast;.pdf,;
 * Files with specific names; for example, data.&ast;
 * Files with composite expressions in the name and extension, as in these examples:
 

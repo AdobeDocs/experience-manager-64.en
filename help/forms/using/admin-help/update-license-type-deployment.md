@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e4f31377-ccc9-4986-a3bf-ef2e83d12448
 ---
 
-# Update the license type for the deployment{#update-the-license-type-for-the-deployment}
+# Update the license type for the deployment {#update-the-license-type-for-the-deployment}
 
 As part of the AEM forms installation process, you used Configuration Manager to configure and deploy the AEM forms modules that you require. By default, those modules are configured with a 60-day evaluation license. Use the Change License page in administration console to change the license type for the deployment. The currently deployed modules are displayed on the Change License page.
 

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 14de0652-717d-4c84-b7b4-b7b78f325baa
 ---
 
-# Set up the System information service{#set-up-the-system-information-service}
+# Set up the System information service {#set-up-the-system-information-service}
 
 The system information service provides REST APIs to retrieve information. To use the system information service, enable the REST endpoint from administration console. Perform the following steps to enable the REST endpoint:
 
