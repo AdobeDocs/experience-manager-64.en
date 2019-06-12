@@ -179,9 +179,9 @@ Then you set the `allowProxy` property on `foo` to true.
 
 1. Open the file and type the following text to identify the root of the path of the source files:
 
-   `#base=*[root]*`
+   `#base=[root]`
 
-   Replace * `[root]`* with the path to the folder that contains the source files, relative to the TXT file. For example, use the following text when the source files are in the same folder as the TXT file:
+   Replace `[root]` with the path to the folder that contains the source files, relative to the TXT file. For example, use the following text when the source files are in the same folder as the TXT file:
 
    `#base=.`
 
@@ -199,7 +199,7 @@ When the code in your client library folder references other libraries, identify
 The dependencies must be another `cq:ClientLibraryFolder`. To identify dependencies, add a property to your `cq:ClientLibraryFolder` node with the following attributes:
 
 * **Name:** dependencies
-* **Type:** String[]
+* **Type:** String`[]`
 * **Values:** The value of the categories property of the cq:ClientLibraryFolder node that the current library folder depends on.
 
 For example, the / `etc/clientlibs/myclientlibs/publicmain` has a dependency on the `cq.jquery` library. The JSP that references the main client library generates HTML that includes the following code:
@@ -222,7 +222,7 @@ It is a best practice to keep all application-related files in their application
 Use the categories property to identify the client library folder to embed. To embed the library, add a property to the embedding `cq:ClientLibraryFolder` node, using the following property attributes:
 
 * **Name:** embed
-* **Type:** String[]
+* **Type:** String`[]`
 * **Value:** The value of the categories property of the `cq:ClientLibraryFolder` node to embed.
 
 #### Using Embedding to Minimize Requests {#using-embedding-to-minimize-requests}
@@ -297,7 +297,7 @@ Use the `channels` property of a client library folder to identify the mobile gr
 To associate a client library folder with a device group, add a property to your `cq:ClientLibraryFolder` node with the following attributes:
 
 * **Name:** channels
-* **Type:** String[]
+* **Type:** String`[]`
 * **Values:** The name of the mobile group. To exclude the library folder from a group, prefix the name with an exclamation mark ("!").
 
 For example, the following table lists the value of the `channels` property for each client library folder of the `cq.widgets` category:
@@ -308,7 +308,7 @@ For example, the following table lists the value of the `channels` property for 
 | `/libs/cq/analytics/widgets/themes/default` | `!touch` |
 | `/libs/cq/cloudserviceconfigs/widgets` | `!touch` |
 | `/libs/cq/searchpromote/widgets` | `!touch` |
-| `/libs/cq/searchpromote/widgets/themes/default` |*[no value]* |
+| `/libs/cq/searchpromote/widgets/themes/default` |`[`*no value*`]`|
 | `/libs/cq/touch/widgets` | `touch` |
 | `/libs/cq/touch/widgets/themes/default` | `touch` |
 | `/libs/cq/ui/widgets` | `!touch` |

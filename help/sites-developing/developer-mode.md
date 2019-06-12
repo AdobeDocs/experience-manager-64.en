@@ -134,7 +134,6 @@ The component entry in the tree of the Components tab will also be marked with a
 
 >[!CAUTION]
 >
->In AEM 6.2, the testing features of Developer mode was re-implemented as a standalone Tools application.
+>In AEM 6.2, the testing features of Developer mode were re-implemented as a standalone Tools application.
 >
 >For full details see [Testing Your UI](/help/sites-developing/hobbes.md).
-
