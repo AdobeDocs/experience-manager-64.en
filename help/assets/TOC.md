@@ -13,7 +13,6 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Working with Content Fragments](content-fragments.md)
     + [Working with Dynamic Media](dynamic-media.md)
     + [Working with 3D assets](3d-assets.md)
-    + [Naming conventions for assets](asset-naming-conventions.md)
     + [User Experience Improvements](ux-improvements.md)
 + Authoring AEM Assets {#authoring}
     + [GQL Full-text Search](gql-search.md)
@@ -172,7 +171,6 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [DO NOT PUBLISH | User Experience Improvements](ux-improvements.md)
     + [Multilingual Assets](multilingual-assets.md)
     + [Search assets in AEM](search-assets.md)
-    + [Naming conventions for assets](asset-naming-conventions.md)
     + [Enabling Duplicate Detection](duplicate-detection.md)
     + [Using PDF Rasterizer](aem-pdf-rasterizer.md)
     + [Configuring Asset Upload Restrictions](configuring-asset-upload-restrictions.md)
@@ -181,7 +179,6 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Enhanced sorting of assets in AEM](enhance-sort.md)
     + [Searching Video Assets](search-video-assets.md)
     + [Managing Multiple Assets and Collections](managing-multiple-assets.md)
-    + [[Redirect] Authoring Adobe Flash Content](flash.md)
     + [Assets Sizing Guide](assets-sizing-guide.md)
     + [Review folder assets and collections](bulk-approval.md)
     + [Multi-tenancy for Collections, Snippets, and Snippet Templates](multi-tenancy.md)
