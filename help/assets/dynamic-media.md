@@ -44,21 +44,21 @@ See also [Setting up Dynamic Media](administering-dynamic-media.md).
 
 >[!NOTE]
 >
->To understand the differences between using Dynamic Media and integrating Scene7 with AEM, see [Scene7/AEM integration versus Dynamic Media](/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media).
+>To understand the differences between using Dynamic Media and integrating Dynamic Media Classic with AEM, see [Dynamic Media Classic integration versus Dynamic Media](/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media).
 
-## Dynamic Media on versus Dynamic Media off {#dynamic-media-on-versus-dynamic-media-off}
+## Dynamic Media enabled versus Dynamic Media disabled {#dynamic-media-on-versus-dynamic-media-off}
 
-You can tell whether Dynamic Media is turned on by the following characteristics:
+You can tell whether Dynamic Media is enabled (turned on) by the following characteristics:
 
-* Dynamic Renditions are available when downloading or previewing assets.
-* Image sets, Spin sets, Mixed media sets are available.
+* Dynamic renditions are available when downloading or previewing assets.
+* Image sets, spin sets, mixed media sets are available.
 * PTIFF renditions are created.
 
-When clicking on an image asset, the view of the asset is different with Dynamic Media [enabled](config-dynamic.md#enabling-dynamic-media). Dynamic Media uses the on-demand HTML5 viewers.
+When you click an image asset, the view of the asset is different with Dynamic Media [enabled](config-dynamic.md#enabling-dynamic-media). Dynamic Media uses the on-demand HTML5 viewers.
 
-### Dynamic Renditions {#dynamic-renditions}
+### Dynamic renditions {#dynamic-renditions}
 
-Dynamic renditions such as image and viewer presets (under **Dynamic**) are available when Dynamic Media is enabled.
+Dynamic renditions such as image and viewer presets (under **[!UICONTROL Dynamic]**) are available when Dynamic Media is enabled.
 
 ![chlimage_1-358](assets/chlimage_1-358.png) 
 
@@ -68,19 +68,19 @@ Image sets, spin sets, and mixed media sets are available if Dynamic Media is en
 
 ![chlimage_1-359](assets/chlimage_1-359.png) 
 
-### Ptiff renditions {#ptiff-renditions}
+### PTIFF renditions {#ptiff-renditions}
 
-Dynamic media enabled assets include pyramid.tiffs.
+Dynamic media enabled assets include `pyramid.tiffs`.
 
 ![chlimage_1-360](assets/chlimage_1-360.png) 
 
 ### Asset views change {#asset-views-change}
 
-With Dynamic Media enabled, you can zoom in and out by clicking the + and - buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:
+With Dynamic Media enabled, you can zoom in and out by clicking the **[!UICONTROL +]** and **[!UICONTROL -]** buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:
 
 ![chlimage_1-361](assets/chlimage_1-361.png)
 
-With dynamic media disabled you can zoom in and out and revert to the original size:
+With Dynamic Media disabled you can zoom in and out and revert to the original size:
 
 ![chlimage_1-362](assets/chlimage_1-362.png)
 

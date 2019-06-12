@@ -37,7 +37,7 @@ Once you have your API key, you can install the package from package share on al
    ![chlimage_1](assets/chlimage_1.jpeg)
 
 1. Click **Download**, then accept the End User License Agreement.
-1. Once it's downloaded, click **Downloaded **and it will bring you to the package manager.
+1. Once it's downloaded, click **Downloaded** and it will bring you to the package manager.
 1. Click the **Install** button next to the newly downloaded package.
 
    ![chlimage_1-1](assets/chlimage_1-1.jpeg)

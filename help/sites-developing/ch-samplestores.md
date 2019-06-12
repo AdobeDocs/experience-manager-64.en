@@ -29,7 +29,7 @@ Store for resolved and unresolved ContextHub segments. Automatically retrieves s
 
 **Base Implementation**
 
-The aem.segmentation store candidate extends ` [ContextHub.Store.PersistedJSONPStore](/help/sites-developing/contexthub-api.md#contexthub-store-persistedjsonpstore)`.
+The aem.segmentation store candidate extends [`ContextHub.Store.PersistedJSONPStore`](/help/sites-developing/contexthub-api.md#contexthub-store-persistedjsonpstore).
 
 **Configuration**
 
@@ -55,7 +55,7 @@ Stores the currently resolved segments. Listens to the ContextHub SegmentManager
 
 **Base Implementation**
 
-The aem.resolvedsegments store candidate extends ` [ContextHub.Store.SessionStore](/help/sites-developing/contexthub-api.md#contexthub-store-sessionstore)`.
+The aem.resolvedsegments store candidate extends [`ContextHub.Store.SessionStore`](/help/sites-developing/contexthub-api.md#contexthub-store-sessionstore).
 
 **Configuration**
 
@@ -82,7 +82,7 @@ Stores current date and time information of the client.
 
 **Base Implementation**
 
-The contexthub.datetime store candidate extends ` [ContextHub.Store.PersistedStore](/help/sites-developing/contexthub-api.md#contexthub-store-persistedstore)`.
+The contexthub.datetime store candidate extends [`ContextHub.Store.PersistedStore`](/help/sites-developing/contexthub-api.md#contexthub-store-persistedstore).
 
 **Configuration**
 
@@ -311,7 +311,7 @@ Configure stores based on this store candidate using an object that contains the
 
 * **metaName:** (String) If `parseMeta` is `true`, the value of the `name` attribute of the `meta` element that contains the tags.
 
-* **tags[]:** (String) An array of tags to add to the store.
+* **`tags[]`:** (String) An array of tags to add to the store.
 
 Provide different device profiles in the Detail Configuration as required. The following configuration is the default:
 

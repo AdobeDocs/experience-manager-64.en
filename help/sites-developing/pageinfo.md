@@ -15,7 +15,7 @@ discoiquuid: 505bf3e3-ce3c-40aa-9619-e1b9f6634deb
 
 To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format.
 
-The PageInfo servlet returns information about resources in the respository. The servlet is bound to the URL `https://*server*:*port*/libs/wcm/core/content/pageinfo.json` and uses the `path` parameter to identify the resource. The following example URL returns information about the `/content/we-retail/us/en` node:
+The PageInfo servlet returns information about resources in the respository. The servlet is bound to the URL `https://<server>:<port>/libs/wcm/core/content/pageinfo.json` and uses the `path` parameter to identify the resource. The following example URL returns information about the `/content/we-retail/us/en` node:
 
 ```shell
 http://localhost:4502/libs/wcm/core/content/pageinfo.json?path=/content/we-retail/us/en
@@ -484,10 +484,8 @@ The service applies the cumulative result of all filters. For example, the follo
 
 ```
 -/etc/workflow/packages(/.*)?
-
-```
-
 +/etc/workflow/packages/Editions(/.&ast;)?
+```
 
 >[!NOTE]
 >
@@ -513,7 +511,7 @@ To configure the service in your project source:
 
 1. Locate or create the config folder for your AEM application in your project source.
 
-   For example, if you used the multimodule archetype of the Content Package Maven Plugin to create your project, the folder path is `*projectroot*/content/src/ for example content/src/main/content/jcr_root/apps/*appname*/config`.
+   For example, if you used the multimodule archetype of the Content Package Maven Plugin to create your project, the folder path is `<projectroot>/content/src/ for example content/src/main/content/jcr_root/apps/<appname>/config`.
 1. In the config folder, create a text file named com.day.cq.wcm.workflow.impl.WorkflowPackageInfoProvider.xml
 1. Copy the following text to the file:
 
@@ -525,7 +523,7 @@ To configure the service in your project source:
     workflowpackageinfoprovider.filter="[]"/>
    ```
 
-1. Inside the brackets ("[]") that surround the `workflowpackageinfoprovider.filter` property, type a comma-separated list of filter values similar to the following example:
+1. Inside the brackets (`[]`) that surround the `workflowpackageinfoprovider.filter` property, type a comma-separated list of filter values similar to the following example:
 
    `workflowpackageinfoprovider.filter="[-/etc/workflow/packages(/.*)?,+/etc/workflow/packages/Editions(/.*)?]"/>`
 

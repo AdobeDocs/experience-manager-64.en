@@ -4,7 +4,7 @@ seo-title: Setting up a standard stage with Autodesk Maya and Mental Ray
 description: How to set up a standard stage with Autodesk Maya and Mental Ray
 seo-description: How to set up a standard stage with Autodesk Maya and Mental Ray
 uuid: 3895fda6-29ae-46f5-b2bc-abc989808648
-contentOwner: rbrough
+contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -36,15 +36,15 @@ discoiquuid: da8fc33b-84ae-4ead-87bb-5a7870a38b1f
 
    Configure the Render Settings with the following suggestions:
 
-    * Common tab  
+    * **[!UICONTROL Common]** tab  
 
-      Deselect the **Alpha channel (mask)** check box for all Renderable Cameras.
+      Deselect the **[!UICONTROL Alpha channel (mask)]** check box for all Renderable Cameras.
   
-    * Quality tab
+    * **[!UICONTROL Quality]** tab
 
-        * **Overall quality** `- 0.5` or less
-        * **Indirect Diffuse (GI) Mode** - `Final Gather`
-        * **Filter Size** - `2.0`, `2.0`
+        * **[!UICONTROL Overall quality]** `- 0.5` or less
+        * **[!UICONTROL Indirect Diffuse (GI) Mode]** - `Final Gather`
+        * **[!UICONTROL Filter Size]** - `2.0`, `2.0`
 
     * Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, or Render settings, or do both to achieve the results you want. 
   
@@ -59,6 +59,6 @@ discoiquuid: da8fc33b-84ae-4ead-87bb-5a7870a38b1f
 
    If Autodesk® Maya® is not configured on the AEM server, export an FBX from Maya and upload it into AEM.
 
-1. Open Asset Properties in AEM. Set Title to a suitable string that will appear in the Stage Selector drop-down list. Verify that **Class** is set to **3D Stage**. Save and exit.
+1. Open Asset Properties in AEM. Set **[!UICONTROL Title]** to a suitable string that will appear in the **[!UICONTROL Stage Selector]** drop-down list. Verify that **[!UICONTROL Class]** is set to **[!UICONTROL 3D Stage]**. Save and exit.
 1. Open a 3D asset, select the new stage, and verify that it previews and renders as expected.
 

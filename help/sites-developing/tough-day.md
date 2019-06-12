@@ -15,7 +15,7 @@ discoiquuid: f48fa5ba-749b-4d3d-a4dd-c802006c8f07
 
 ## What is Tough Day 2 {#what-is-tough-day}
 
-"Tough Day 2" is a an application that allows you to stress test the limits of your AEM instance. It can be run out of the box with the default test suite or it can be configured to fit your testing needs. You can watch [this recording](https://docs.adobe.com/ddc/en/gems/Toughday2---A-new-and-improved-stress-testing-and-benchmarking-tool.html) for a presentation of the application.
+Tough Day 2 is a an application that allows you to stress test the limits of your AEM instance. It can be run out of the box with the default test suite or it can be configured to fit your testing needs. You can watch [this recording](https://docs.adobe.com/ddc/en/gems/Toughday2---A-new-and-improved-stress-testing-and-benchmarking-tool.html) for a presentation of the application.
 
 ## How to run Tough Day 2 {#how-to-run-tough-day}
 
@@ -35,7 +35,7 @@ The default suite that runs after adding the parameters is named `toughday`. It 
 
 The suite contains 15% write actions and 85% read actions.
 
-To run the suite tests, Tough Day 2 will install its default content package. This can be avoided by setting the `installsamplecontent`parameter to `false`, but remember that you should also change the default paths for the tests that you intend to run. If the jar is run without parameters, Tough Day 2 displays the [help information](/help/sites-developing/tough-day.md#getting-help).
+To run the suite tests, Tough Day 2 will install its default content package. This can be avoided by setting the `installsamplecontent` parameter to `false`, but remember that you should also change the default paths for the tests that you intend to run. If the jar is run without parameters, Tough Day 2 displays the [help information](/help/sites-developing/tough-day.md#getting-help).
 
 As a general rule, you can use the application by following this pattern:
 
@@ -399,30 +399,3 @@ Tough Day 2 creates a logs folder in the same directory where you ran Tough Day 
 * **toughday_&lt;testname&gt;.log**: messages related to the specified test.
 
 The logs are not overwritten, subsequent runs will append messages to the existing logs. The logs have several levels, for more information see the ` [loglevel parameter](/help/sites-developing/tough-day.md#global-parameters)`.
-
-#### Example Usage {#example-usage}
-
-#### Known Issues {#known-issues}
-
-[Get File](assets/toughday-6_1.jar)
-
-#### Example Usage {#example-usage-1}
-
-#### Example Usage {#example-usage-2}
-
-#### Example Usage {#example-usage-3}
-
-#### Example Usage {#example-usage-4}
-
-#### Example Usage {#example-usage-5}
-
-#### Example Usage {#example-usage-6}
-
-#### Example Usage {#example-usage-7}
-
-#### Example Usage {#example-usage-8}
-
-#### Example Usage {#example-usage-9}
-
-#### Example Usage {#example-usage-10}
-

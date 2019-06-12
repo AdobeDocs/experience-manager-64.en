@@ -4,7 +4,7 @@ seo-title: Setting Up Dynamic Media
 description: To set up dynamic media, you need to configure dynamic media and manage image and viewer presets
 seo-description: To set up dynamic media, you need to configure dynamic media and manage image and viewer presets
 uuid: bcd1f9ab-4201-4222-9e4a-ba82b3c7cd6c
-contentOwner: Alva Ware-Bevacqui
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference

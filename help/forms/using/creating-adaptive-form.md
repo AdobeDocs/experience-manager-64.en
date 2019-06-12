@@ -24,20 +24,20 @@ Follow these steps to create an adaptive form.
 
 1. Enter your credentials on the AEM login page.
 
-   After you are logged in, in the top-left corner, tap **Adobe Experience Manager &gt; Forms &gt; Forms & Documents**.
+   After you are logged in, in the top-left corner, tap **[!UICONTROL Adobe Experience Manager &gt; Forms &gt; Forms & Documents]**.
 
    >[!NOTE]
    >
    >For a default installation, the login is `admin` and the password is `admin`.
 
-1. Tap** Create** and select **Adaptive Form**.
+1. Tap **[!UICONTROL Create]** and select **[!UICONTROL Adaptive Form]**.
 1. An option to select a template appears. For more information about templates, see [Adaptive form templates](/help/forms/using/creating-adaptive-form.md#p-adaptive-form-templates-p). Tap a template to select it and tap Next.
 1. An option to 'Add Properties' appears. Specify the values for following property fields. The Title and Name fields are mandatory:
 
-    * **Title:** Specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.
-    * **Name:** Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
-    * **Description:** Specifies the detailed information about the form. 
-    * **Tags:** Specifies tags to uniquely identify the adaptive form. Tags help in searching the form. To create tags, type new tag names in the **Tags **box.
+    * **[!UICONTROL Title:]** Specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.
+    * **[!UICONTROL Name:]** Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
+    * **[!UICONTROL Description:]** Specifies the detailed information about the form. 
+    * **[!UICONTROL Tags:]** Specifies tags to uniquely identify the adaptive form. Tags help in searching the form. To create tags, type new tag names in the **Tags **box.
 
 1. You can create an adaptive form based on one of following form models:
 
@@ -46,17 +46,17 @@ Follow these steps to create an adaptive form.
     * [XML or JSON schema](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-xml-or-json-schema-p)
     * None or without any form model
 
-   You can configure these from the **Form Model** tab on the **Add Properties** page. By default, the form model selected is **None**.
+   You can configure these from the **[!UICONTROL Form Model]** tab on the **[!UICONTROL Add Properties]** page. By default, the form model selected is **[!UICONTROL None]**.
 
 1. Tap **Create**. An adaptive form is created and a dialog to open the form for editing appears.
 
-   Once you have finished specifying all the properties, click **Create**. An adaptive form is created and a dialog to open the form for editing appears. 
+   Once you have finished specifying all the properties, click **[!UICONTROL Create]**. An adaptive form is created and a dialog to open the form for editing appears. 
 
-   Once you have finished specifying all the properties, click **Create**. An adaptive form is created and a dialog to open the form for editing appears.  
+   Once you have finished specifying all the properties, click **[!UICONTROL Create]**. An adaptive form is created and a dialog to open the form for editing appears.  
 
-1. Tap **Open** to open the newly created form in a new tab. The form opens for editing and displays the contents available in the template. It also displays the sidebar to customize the newly created form according to the needs.
+1. Tap **[!UICONTROL Open]** to open the newly created form in a new tab. The form opens for editing and displays the contents available in the template. It also displays the sidebar to customize the newly created form according to the needs.
 
-   Based on the type of adaptive form, the form elements present in the associated XFA form template, XML schema, or JSON schema are displayed in the **Data Model Objects** tab of the **Content Browser** in the sidebar. You can also drag-drop these elements to build your adaptive form.
+   Based on the type of adaptive form, the form elements present in the associated XFA form template, XML schema, or JSON schema are displayed in the **[!UICONTROL Data Model Objects]** tab of the **[!UICONTROL Content Browser]** in the sidebar. You can also drag-drop these elements to build your adaptive form.
 
    For information about adaptive form authoring interface and available components, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
@@ -94,8 +94,8 @@ You can repurpose your XFA form templates to create adaptive forms. To repurpose
 
 Do the following to use an XFA form template as form model for your adaptive form:
 
-1. On the **Add Properties** page, open the **Form Model** tab.
-1. In the Form Model tab, from the drop-down list, select **Form Templates**. All the form templates that are uploaded to the repository via AEM Forms UI are listed for selection. Select a template from the list.
+1. On the **[!UICONTROL Add Properties]** page, open the **[!UICONTROL Form Model]** tab.
+1. In the Form Model tab, from the drop-down list, select **[!UICONTROL Form Templates]**. All the form templates that are uploaded to the repository via AEM Forms UI are listed for selection. Select a template from the list.
 
    ![Associate XFA Form Template with an Adaptive Form](assets/form_model_xfa_associate.png)
 **Figure:** *Selecting a form template*
@@ -115,13 +115,13 @@ See the following documents to understand how to design XML or JSON schema for a
 
 Do the following to use XML or JSON schema as form model for an adaptive form:
 
-1. On the **Add Properties** step of adaptive form creation page, tap on the **Form Model** tab.
+1. On the **[!UICONTROL Add Properties]** step of adaptive form creation page, tap on the **[!UICONTROL Form Model]** tab.
 1. In the Form Model tab, select **[!UICONTROL Schema]** from the **[!UICONTROL Select From]** drop-down field.
 
-1. Tap **Select Schema** and do one of the following:
+1. Tap **[!UICONTROL Select Schema]** and do one of the following:
 
-    * **Upload from disk** - Select this option and tap Upload Schema Definition to browse and upload an XML schema or JSON schema from your file system. The uploaded schema file resides with the form and is not accessible to other adaptive forms.
-    * **Search in repository** - Select this option to select from the list of schema definition files available in the repository. Select the XML or JSON schema file as form model. The selected schema will be associated with the form by reference and will be accessible for use in other adaptive forms.
+    * **[!UICONTROL Upload from disk]** - Select this option and tap Upload Schema Definition to browse and upload an XML schema or JSON schema from your file system. The uploaded schema file resides with the form and is not accessible to other adaptive forms.
+    * **[!UICONTROL Search in repository]** - Select this option to select from the list of schema definition files available in the repository. Select the XML or JSON schema file as form model. The selected schema will be associated with the form by reference and will be accessible for use in other adaptive forms.
 
    >[!CAUTION] {grayBox="true"}
    >

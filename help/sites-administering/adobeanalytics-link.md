@@ -53,7 +53,7 @@ s.linkDownloadFileTypes= 'exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls';
 
 To enable download tracking for your Adobe Analytics framework:
 
-1. [Open the Adobe Analytics framework and expand the **Link Tracking Configuration** section](#configuring-link-tracking-for-an-adobe-analytics-framework).
+1. [Open the Adobe Analytics framework and expand the Link Tracking Configuration section](#configuring-link-tracking-for-an-adobe-analytics-framework).
 1. Enable **Track Downloads**.
 1. In the **Download File Types** box, type the filename extensions for the types of files that you want tracked.
 
@@ -109,7 +109,7 @@ The framework mappings determine the event and variable values. You can map Adob
 
 To send variable data with link clicks:
 
-1. [Open the Adobe Analytics framework and expand the **Link Tracking Configuration** section](#configuring-link-tracking-for-an-adobe-analytics-framework).
+1. [Open the Adobe Analytics framework and expand the Link Tracking Configuration section](#configuring-link-tracking-for-an-adobe-analytics-framework).
 1. Configure the following properties according to your requirements.
 
 Properties for sending variable data with link clicks:

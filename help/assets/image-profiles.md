@@ -4,7 +4,7 @@ seo-title: Image Profiles
 description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 seo-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 uuid: 9049fab9-d2be-4118-8684-ce58f3c8c16a
-contentOwner: Alva Ware-Bevacqui
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
@@ -99,8 +99,8 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 **To create image profiles**:
 
-1. Tap the AEM logo and navigate to **Tools** &gt; **Assets** &gt; **Image Profiles.**
-1. Tap **Create** to add a new image profile.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap **[!UICONTROL Create]** to add a new image profile.
 1. Enter a profile name, and values for unsharp mask, crop, or swatch, or both.
 
    You may find it helpful to use a profile name that is specific to its intended purpose. For example, if you want to create a profile that generates swatches only--that is, Smart Crop is disable (turned off) and Color and Image Swatch is enabled (turned on)--you could use the profile name "Smart Swatches".
@@ -109,12 +109,12 @@ To define advanced processing parameters for other asset types, see [Configuring
 
    ![crop](assets/crop.png)
 
-1. Click **Save**. The newly created profile appears in the list of available profiles.
+1. Tap **[!UICONTROL Save]**. The newly created profile appears in the list of available profiles.
 
 ## Editing or deleting image profiles {#editing-or-deleting-image-profiles}
 
-1. Tap the AEM logo and navigate to **Tools** &gt; **Assets** &gt; **Image Profiles.**
-1. Select the image profile you want to edit or remove. To edit it, select **Edit Image Processing Profile**. To remove it, select **Delete Image Processing Profile**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Select the image profile you want to edit or remove. To edit it, select **[!UICONTROL Edit Image Processing Profile]**. To remove it, select **[!UICONTROL Delete Image Processing Profile]**.
 
    ![chlimage_1-254](assets/chlimage_1-254.png)
 
@@ -134,24 +134,24 @@ You can apply image profiles to specific folders or globally to all assets.
 
 ### Applying image profiles to specific folders {#applying-image-profiles-to-specific-folders}
 
-You can apply an image profile to a folder from within the **Tools** menu or if you are in the folder, from **Properties**. This section describes how to apply image profiles to folders both ways.
+You can apply an image profile to a folder from within the **[!UICONTROL Tools]** menu or if you are in the folder, from **[!UICONTROL Properties]**. This section describes how to apply image profiles to folders both ways.
 
 Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
 #### Applying image profiles to folders from Profiles user interface {#applying-image-profiles-to-folders-from-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **Tools** &gt; **Assets** &gt; **Image Profiles.**
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
 1. Select the image profile that you want to apply to a folder or multiple folders.
 
    ![chlimage_1-255](assets/chlimage_1-255.png)
 
-1. Tap **Apply Processing Profile to Folder(s)** and select the folder or multiple folders you want use to receive the newly uploaded assets and tap/click **Apply**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
+1. Tap **[!UICONTROL Apply Processing Profile to Folder(s)]** and select the folder or multiple folders you want use to receive the newly uploaded assets and tap/click **[!UICONTROL Apply]**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
 #### Applying image profiles to folders from Properties {#applying-image-profiles-to-folders-from-properties}
 
-1. Tap the AEM logo and navigate to **Assets** and then to the folder that you want to apply an image profile to.
-1. On the folder, tap the check mark to select it and then tap **Properties**.
-1. Tap the **Image Profiles** tab. From the Profile Name drop-down list, select the profile, then tap **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
+1. Tap the AEM logo and navigate to **[!UICONTROL Assets]** and then to the folder that you want to apply an image profile to.
+1. On the folder, tap the check mark to select it and then tap **[!UICONTROL Properties]**.
+1. Tap the **[!UICONTROL Image Profiles]** tab. From the **[!UICONTROL Profile Name]** drop-down list, select the profile, then tap **[!UICONTROL Save & Close]**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
    ![chlimage_1-256](assets/chlimage_1-256.png)
 
@@ -159,23 +159,25 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 In addition to applying a profile to a folder, you can also apply one globally so that any content uploaded into AEM assets in any folder has the selected profile applied.
 
-To apply a profile globally, do one of the following:
+**To apply an image profile globally**:
 
-* Navigate to **https://&lt;AEM server&gt;/mnt/overlay/dam/gui/content/assets/foldersharewizard.html/content/dam** and apply the appropriate profile and tap **Save**.
+1. Do one of the following:
 
-  ![chlimage_1-257](assets/chlimage_1-257.png)
+    * Navigate to **https://&lt;AEM server&gt;/mnt/overlay/dam/gui/content/assets/foldersharewizard.html/content/dam** and apply the appropriate profile and tap **Save**.
 
-* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content.**
+      ![chlimage_1-257](assets/chlimage_1-257.png)
 
-  Add the property **imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/&lt;name of image profile&gt;** and tap **Save All**. 
+    * Navigate to CRXDE Lite to the following node: `/content/dam/jcr:content`.
 
-  ![configure_image_profiles](assets/configure_image_profiles.png)
+      Add the property `imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/&lt;name of image profile&gt;` and tap **[!UICONTROL Save All]**. 
+
+      ![configure_image_profiles](assets/configure_image_profiles.png)
 
 ## Editing the smart crop or smart swatch of a single image {#editing-the-smart-crop-or-smart-swatch-of-a-single-image}
 
 >[!NOTE]
 >
->Smart Crop is only available in Dynamic Media - Scene7 mode.
+>Smart Crop is available only in Dynamic Media - Scene7 mode.
 
 You can manually realign or resize the smart crop window of an image to further refine its focal point.
 
@@ -185,35 +187,35 @@ You can re-run smart crop to generate the additional crops again, if required.
 
 See also [Editing the smart crop or smart swatch of multiple images](#editing-the-smart-crop-or-smart-swatch-of-multiple-images).
 
-1. Tap or click the AEM logo and navigate to **Assets**, then to the folder that has a smart crop or smart swatch image profile applied to it.  
+1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**, then to the folder that has a smart crop or smart swatch image profile applied to it.  
 
 1. Tap the folder to open its contents.
 1. Tap the image whose smart crop or smart swatch you want to adjust.
-1. On the toolbar, tap **Smart Crop**.  
+1. On the toolbar, tap **[!UICONTROL Smart Crop]**.  
 
 1. Do any of the following:
 
     * Near the upper-right corner of the page, drag the slider bar left or right to increase or decrease the image display, respectively.
     * On the image, drag a corner handle to adjust the size of the viewable area of the crop or swatch.
     * On the image, drag the box/swatch to a new location. You can only edit image swatches; color swatches are static.
-    * Above the image, tap or click **Revert** to undo all your edits and restore the original crop or swatch.
+    * Above the image, tap  **[!UICONTROL Revert]** to undo all your edits and restore the original crop or swatch.
 
-1. Near the upper-right corner of the page, tap or click **Save**, then tap **Close** to return to the folder of assets.
+1. Near the upper-right corner of the page, tap **[!UICONTROL Save]**, then tap **[!UICONTROL Close]** to return to the folder of assets.
 
 ## Editing the smart crop or smart swatch of multiple images {#editing-the-smart-crop-or-smart-swatch-of-multiple-images}
 
-After you apply an image profile--containing Smart Crop--to a folder, all images in that folder have a crop applied to them. If desired, you can manually realign or resize the smart crop window in multiple images to further refine their focal point.
+After you apply an image profile&mdash;containing Smart Crop&mdash;to a folder, all images in that folder have a crop applied to them. If desired, you can *manually* realign or resize the smart crop window in multiple images to further refine their focal point.
 
 After you edit a smart crop and save, the change is propagated everywhere you use the crop for the specific images.
 
 You can re-run smart crop to generate the additional crops again, if required.
 
-1. Tap or click the AEM logo and navigate to **Assets**, then to a folder that has a smart crop or smart swatch image profile applied to it.
-1. On the folder, tap the **More Actions** (...) icon, then tap **Smart Crop**.  
+1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**, then to a folder that has a smart crop or smart swatch image profile applied to it.
+1. On the folder, tap the **[!UICONTROL More Actions]** (...) icon, then tap **[!UICONTROL Smart Crop]**.  
 
-1. On the Edit Smart Crops page, do any of the following:
+1. On the **[!UICONTROL Edit Smart Crops]** page, do any of the following:
 
-    * Adjust the viewing size of images on the Edit Smart Crops page.
+    * Adjust the viewing size of images on the page.
   
       To the right of the breakpoint name drop-down list, drag the slider bar left or right to change the size of the viewable image display.
 
@@ -241,28 +243,31 @@ You can re-run smart crop to generate the additional crops again, if required.
 
     * Undo all your edits and restore the original smart crop or smart swatch (applies to the current editing session only).
 
-      Tap **Revert** above the image.
+      Tap **[!UICONTROL Revert]** above the image.
 
        ![edit_smart_crops-revert](assets/edit_smart_crops-revert.png)
 
-1. Near the upper-right corner of the page, tap **Save**. then tap **Close** to return to the folder of assets.
+1. Near the upper-right corner of the page, tap **[!UICONTROL Save]**. then tap **[!UICONTROL Close]** to return to the folder of assets.
 
 ## Removing an image profile from folders {#removing-an-image-profile-from-folders}
 
 When you remove an image profile from a folder, any subfolders automatically inherit the removal of the profile from its parent folder. However, any processing of files that has occurred within the folders remains intact.
 
-You can remove an image profile from a folder from within the **Tools** menu or if you are in the folder, from **Properties**. This section describes how to remove image profiles from folders both ways.
+You can remove an image profile from a folder from within the **[!UICONTROL Tools]** menu or if you are in the folder, from **[!UICONTROL Properties]**. This section describes how to remove image profiles from folders both ways.
 
 ### Removing image profiles from folders via Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
 
-1. Tap or click the AEM logo and navigate to **Tools** &gt; **Assets** &gt; **Image Profiles.**
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
 1. Select the image profile that you want to remove from a folder or multiple folders.
-1. Tap **Remove Processing Profile from Folder(s)** and select the folder or multiple folders you want use to remove the profile from and tap **Remove**.
+1. Tap **[!UICONTROL Remove Processing Profile from Folder(s)]** and select the folder or multiple folders you want use to remove the profile from and tap **[!UICONTROL Remove]**.
 
-   You can confirm that the image profile is no longer applied to a folder because the name no longer appears below the folder name.
+    You can confirm that the image profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-### Removing image profiles from folders via Properties {#removing-image-profiles-from-folders-via-properties}
+### Removing image profiles from folders by way of Properties {#removing-image-profiles-from-folders-via-properties}
 
-1. Tap or click the AEM logo and navigate **Assets** and then to the folder that you want to remove an image profile from.
-1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.
-1. Select the **Image Profiles** tab and select **None** from the **Profile Name** drop-down menu and click **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
+1. Tap the AEM logo and navigate **[!UICONTROL Assets]** and then to the folder that you want to remove an image profile from.
+1. On the folder, tap the check mark to select it, then tap **[!UICONTROL Properties]**.
+1. Select the **[!UICONTROL Image Profiles]** tab.
+1. From the **[!UICONTROL Profile Name]** drop-down menu, select **[!UICONTROL None]**, then tap **[!UICONTROL Save & Close]**.
+
+    Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.

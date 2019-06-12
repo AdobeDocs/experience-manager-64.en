@@ -30,15 +30,15 @@ With Dynamic Media you have several options:
 
 For more information, see the following topics:
 
-* [Adding Dynamic Media Assets to Web Pages](adding-dynamic-media-assets-to-pages.md)
-* [Embedding the Video or Image Viewer on a Web Page](embed-code.md)
+* [Adding Dynamic Media Assets to web pages](adding-dynamic-media-assets-to-pages.md)
+* [Embedding the Video or Image Viewer on a web page](embed-code.md)
 * [Activating hotlink protection in Dynamic Media](https://helpx.adobe.com/experience-manager/6-4/assets/using/hotlink-protection.html)
-* Integrating digital non-visible watermarking (Digimarc) with Dynamic Media  
-* [Linking URLs to your Web Application](linking-urls-to-yourwebapplication.md)
-* [Delivering Optimized Images for a Responsive Site](responsive-site.md)
-* [HTTP2 Delivery of Content](http2.md)
-* I [nvalidating your CDN cached content](invalidate-cdn-cached-content.md)
-* [Using Rulesets to Transform URLs](using-rulesets-to-transform-urls.md)
+* Integrating digital non-visible watermarking (Digimarc) with Dynamic Media (coming soon)  
+* [Linking URLs to your web application](linking-urls-to-yourwebapplication.md)
+* [Delivering optimized images for a responsive site](responsive-site.md)
+* [HTTP2 delivery of content](http2.md)
+* [Invalidating your CDN cached content](invalidate-cdn-cached-content.md)
+* [Using Rulesets to transform URLs](using-rulesets-to-transform-urls.md)
 
 ## HTTP/2 delivery of Dynamic Media assets {#http-delivery-of-dynamic-media-assets}
 

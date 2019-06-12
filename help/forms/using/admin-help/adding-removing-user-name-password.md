@@ -17,13 +17,13 @@ From the Trust Store Management page, you can add and remove user name and passw
 
 ## Add a user name and password credential {#add-a-user-name-and-password-credential}
 
-1. In administration console, click Settings &gt;Trust Store Management &gt; User and Password Credentials and then click Add.
-1. In the Profile Name box, type a name for the credential.
-1. In the User Name box, type a unique user name. 
-1. In the Password box, type a password for the user and then click OK.
+1. In administration console, click **[!UICONTROL Settings &gt;Trust Store Management &gt; User and Password Credentials]** and then click **[!UICONTROL Add]**.
+1. In the **[!UICONTROL Profile Name]** box, type a name for the credential.
+1. In the **[!UICONTROL User Name]** box, type a unique user name. 
+1. In the **[!UICONTROL Password]** box, type a password for the user and then click **[!UICONTROL OK]**.
 
 ## Delete a user name and password credential {#delete-a-user-name-and-password-credential}
 
-1. In administration console, click Settings &gt;Trust Store Management &gt; User and Password Credentials.
-1. Select the check boxes for the credentials you want to delete, click Delete, and then click OK.
+1. In administration console, click **[!UICONTROL Settings &gt;Trust Store Management &gt; User and Password Credentials]**.
+1. Select the check boxes for the credentials you want to delete, click **[!UICONTROL Delete]**, and then click **[!UICONTROL OK]**.
 

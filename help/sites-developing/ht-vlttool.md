@@ -915,6 +915,7 @@ Sets the value of a property on files or directories.
 >[!NOTE]
 >
 >VLT recognizes the following special versioned properties:   
+>
 >**vlt:mime-type** 
 >
 >The mimetype of the file. Used to determine whether to merge the file. A mimetype beginning with 'text/' (or an absent mimetype) is treated as text. Anything else is treated as binary.
@@ -1129,8 +1130,8 @@ vlt rcp http://localhost:4502/crx/-/jcr:root/content  https://admin:admin@localh
 
 >[!NOTE]
 >
->The --exclude options need to be followed by another option before the `<src>` and `<dst>` arguments.  
->For example:  
+>The `--exclude` options need to be followed by another option before the `<src>` and `<dst>` arguments. For example:
+>
 >`vlt rcp -e ".*\.txt" -r`
 
 ### Sync {#sync}

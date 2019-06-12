@@ -4,7 +4,7 @@ seo-title: Smart Imaging
 description: Smart imaging leverages each user's unique viewing characteristics to automatically serve the right images optimized for their experience, resulting in better performance and engagement.
 seo-description: Smart imaging leverages each user's unique viewing characteristics to automatically serve the right images optimized for their experience, resulting in better performance and engagement.
 uuid: c11e52ba-8d64-4dc5-b30a-fc10c2b704e5
-contentOwner: rbrough
+contentOwner: Rick Brough
 topic-tags: dynamic-media
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -58,11 +58,11 @@ For example, suppose an image preset is defined with JPEG format, size 500x500, 
 
 No. Smart imaging works seamlessly with your existing image URLs and image presets. In addition, smart imaging does not require you to add any code on your website to detect different user characteristics (browser, bandwidth, device, and so on). All of this is handled automatically by Adobe.
 
-The only change that may be required is to update the Time To Live (TTL) setting. This setting defines how long assets are cached by the CDN. To maximize the performance improvements of smart imaging, Adobe recommends setting the TTL to 24 hours or longer. To change this setting:
+The only change that may be required is to update the **[!UICONTROL Time To Live]** (TTL) setting. This setting defines how long assets are cached by the CDN. To maximize the performance improvements of smart imaging, Adobe recommends setting the TTL to 24 hours or longer. To change this setting:
 
-* If you are using Dynamic Media Classic (S7), click **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server**. Set the **Default Client Cache Time To Live** value to 24 or longer.
+* If you are using Dynamic Media Classic, tap **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**. Set the **[!UICONTROL Default Client Cache Time To Live]** value to 24 or longer.
 
-* If you are using Dynamic Media, follow the instructions here: [https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html](https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html) (Configuring Dynamic Media Image Settings). Set the **Expiration** value to 24 hours or longer.
+* If you are using Dynamic Media, follow the instructions here: [https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html](https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html) (Configuring Dynamic Media Image Settings). Set the **[!UICONTROL Expiration]** value to 24 hours or longer.
 
 >[!NOTE]
 >
@@ -74,14 +74,14 @@ Smart imaging works with images delivered over HTTP or HTTPS. In addiiton, it al
 
 ## Am I eligible to use smart imaging? {#am-i-eligible-to-use-smart-imaging}
 
-To use smart imaging, your company's Dynamic Media Classic (Scene7) or Dynamic Media account must meet the following requirements:
+To use smart imaging, your company's Dynamic Media Classic or Dynamic Media on AEM account must meet the following requirements:
 
-* Use the Adobe-bundled CDN as part of your license.
-* Use a dedicated domain (that is, images.company.com or mycompany.scene7.com), not a generic domain (that is, s7d1.scene7.com, s7d2.scene7.com, or s7d13.scene7.com). 
+* Use the Adobe-bundled CDN (Content Delivery Network) as part of your license.
+* Use a dedicated domain (that is, `images.company.com` or `mycompany.scene7.com`), not a generic domain (that is, `s7d1.scene7.com`, `s7d2.scene7.com`, or `s7d13.scene7.com`). 
 
   To find your domains, log in to your company account or accounts.  
   
-  Click **Setup** &gt; **Application Setup** &gt; **General Settings**. Look for the field labeled **Published Server Name**. If you are currently using a generic domain, you can request moving over to your own custom domain as part of this transition.   
+  Tap **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic domain, you can request moving over to your own custom domain as part of this transition.
 
 * Do not request CMYK JPEG images. As part of its processing, smart imaging converts CMYK JPEG images to RGB. If you need to obtain CMYK JPEG images, you cannot use smart imaging.
 
@@ -97,17 +97,17 @@ You must initiate the request to use smart imaging; it is not automatically enab
 
        To find your domains, log into your company account or accounts. 
 
-       Click **Setup** &gt; **Application Setup** &gt; **General Settings**.  
+       Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.  
 
-       Look for the field labeled **Published Server Name**.
+       Look for the field labeled **[!UICONTROL Published Server Name]**.
     1. Verify that you are using the CDN through Adobe and not managed with a direct relationship.
-    1. Verify you are using a dedicated domain such as images.company.com or mycompany.scene7.com, and not a generic domain, such as s7d1.scene7.com, s7d2.scene7.com, s7d13.scene7.com.  
+    1. Verify you are using a dedicated domain such as `images.company.com` or `mycompany.scene7.com`, and not a generic domain, such as `s7d1.scene7.com`, `s7d2.scene7.com`, `s7d13.scene7.com`.  
 
        To find your domains, log into your company account or accounts.
 
-       Click **Setup** &gt; **Application Setup** &gt; **General Settings**.  
+       Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.  
 
-       Look for the field labeled **Published Server Name**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
+       Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic Dynamic Media Classic domain, you can request moving over to your own custom domain as part of this transition.
     1. Indicate if you also need this to work over HTTP/2
 
 1. Technical Support will add you to the smart imaging customer Wait List based on the order in which requests were submitted.
@@ -116,8 +116,8 @@ You must initiate the request to use smart imaging; it is not automatically enab
 1. You are notified after completion by support.
 1. To maximize the performance improvements of smart imaging, Adobe recommends setting the Time To Live (TTL) to 24 hours or longer. The TTL defines how long assets are cached by the CDN. To change this setting:
 
-    1. If you use Dynamic Media Classic (Scene7), click **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server**. Set the **Default Client Cache Time To Live** value to 24 or longer.
-    1. If you use Dynamic Media, follow these instructions: [https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html](https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html) (Configuring Dynamic Media Image Settings). Set the **Expiration** value 24 hours or longer.
+    1. If you use Dynamic Media Classic, click **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**. Set the **[!UICONTROL Default Client Cache Time To Live]** value to 24 or longer.
+    1. If you use Dynamic Media, follow these instructions: [https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html](https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html) (Configuring Dynamic Media Image Settings). Set the **[!UICONTROL Expiration]** value 24 hours or longer.
 
 ## When can I expect my account to be enabled with smart imaging? {#when-can-i-expect-my-account-to-be-enabled-with-smart-imaging}
 
@@ -129,19 +129,19 @@ Requests are processed in the order in which they are received by Technical Supp
 
 ## What are the risks with switching over to use smart imaging? {#what-are-the-risks-with-switching-over-to-use-smart-imaging}
 
-The transition to smart imaging clears out your cache at the CDN because it involves moving to a new configuration of Dynamic Media Classic (Scene7) or Dynamic Media.
+The transition to smart imaging clears out your cache at the CDN because it involves moving to a new configuration of Dynamic Media Classic or Dynamic Media on AEM.
 
 During the initial transition, the non-cached images directly hits Adobe's origin servers until the cache is rebuilt again. Because of this, Adobe plans to handle a few customer transitions at a time so that acceptable performance is maintained when pulling requests from our origin. For most customers, the cache is fully built up again at the CDN within ~1 to 2 days.
 
 ## How can I verify whether smart imaging is working as expected?  {#how-can-i-verify-whether-smart-imaging-is-working-as-expected}
 
 1. After your account is configured with smart imaging, load a Dynamic Media Classic(S7)/Dynamic Media image URL on the browser.
-1. Open the Chrome developer pane by clicking **View** &gt; **Developer** &gt; **Developer Tools** in the browser. Or choose any browser developer tool of your choice.
+1. Open the Chrome developer pane by clicking **[!UICONTROL View &gt; Developer &gt; Developer Tools]** in the browser. Or choose any browser developer tool of your choice.
 
 1. Ensure that cache is disabled when developer tools is open.
 
-    1. On Windows, navigate to settings in the developer tool pane, then select **Disable cache (while devtools is open)** checkbox.
-    1. On Mac, in the developer pane, under the Network tab, select **disable cache** .
+    1. On Windows, navigate to settings in the developer tool pane, then select **[!UICONTROL Disable cache (while devtools is open)]** checkbox.
+    1. On Mac, in the developer pane, under the **[!UICONTROL Network]** tab, select **[!UICONTROL disable cache]** .
 
 1. On the initial request the image will not be optimized. Typically, it takes about 15 minutes to return the optimized image if it is not in the CDN cache.
 1. Observe the Content Type is transformed to the appropriate format. The following screenshot shows PNG image being converted dynamically to WebP on Chrome.

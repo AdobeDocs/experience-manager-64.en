@@ -15,8 +15,6 @@ discoiquuid: f50150af-deff-4c29-bfe0-1cfc67b29d51
 
 ## Introduction {#introduction}
 
-![](/content/help/en/experience-manager/6-4/sites-developing/we-retail/_jcr_content/main-pars/image.img.jpg/screencapture-localhost-4502-editor-html-content-we-retail-us-en-html-2018-08-17-14_33_32.png)
-
 We.Retail is a reference implementation and sample content that illustrates the recommended way of setting up an online presence with Adobe Experience Manager.
 
 We.Retail makes use of the latest AEM technologies such as HTL, responsive layouts, editable templates, core components, and much more.
@@ -113,7 +111,7 @@ If you encounter problems, please file [GitHub issues](https://github.com/Adobe-
 
 Feel free to fork or to contribute with [pull requests](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/pulls).
 
-## Appendix {#appendix}
+## Preview {#preview}
 
 Preview of the We.Retail welcome page:
 

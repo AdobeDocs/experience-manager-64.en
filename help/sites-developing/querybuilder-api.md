@@ -17,11 +17,11 @@ tagskeywords: querybuilder
 
 The functionality of the [Asset Share Query Builder](/help/assets/assets-finder-editor.md) is exposed through a Java API and a REST API. This section describes these APIs.
 
-The server-side query builder ( ` [QueryBuilder](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.html)`) will accept a query description, create and run an XPath query, optionally filter the result set, and also extract facets, if desired.
+The server-side query builder ( [`QueryBuilder`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.html)) will accept a query description, create and run an XPath query, optionally filter the result set, and also extract facets, if desired.
 
-The query description is simply a set of predicates ( ` [Predicate](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/Predicate.html)`). Examples include a full-text predicate, which corresponds to the `jcr:contains()` function in XPath, and an image size predicate that looks for width and height properties in the DAM asset subtree.
+The query description is simply a set of predicates ([`Predicate`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/Predicate.html)). Examples include a full-text predicate, which corresponds to the `jcr:contains()` function in XPath, and an image size predicate that looks for width and height properties in the DAM asset subtree.
 
-For each predicate type, there is an evaluator component ( ` [PredicateEvaluator](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.html)`) that knows how to handle that specific predicate for XPath, filtering, and facet extraction. It is very easy to create custom evaluators, which are plugged-in through the OSGi component runtime.
+For each predicate type, there is an evaluator component ([`PredicateEvaluator`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.html)) that knows how to handle that specific predicate for XPath, filtering, and facet extraction. It is very easy to create custom evaluators, which are plugged-in through the OSGi component runtime.
 
 The REST API provides access to exactly the same features through HTTP with responses being sent in JSON.
 
@@ -59,7 +59,7 @@ For the `QueryBuilder` JSON Servlet, each example includes a link to your local 
 
 The following query will **return ten results** (or to be precise a maximum of ten), but inform you of the **Number of hits:** that are actually available:
 
-` [http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&orderby=path](http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&orderby:path)`
+`http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&orderby=path`
 
 ```xml
 path=/content
@@ -71,7 +71,7 @@ orderby=path
 
 The same query (with the parameter `p.limit=-1`) will **return all results** (this might be a high number depending on your instance):
 
-` [http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.limit=-1&orderby=path](http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.limit=-1&orderby:path)`
+`http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.limit=-1&orderby=path`
 
 ```xml
 path=/content
@@ -90,7 +90,7 @@ The disadvantage to the parameter is users do not see the exact total. But you c
 
 Add `p.guessTotal=true` to the query below to see how it works:
 
-[http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.guessTotal=true&orderby=path](http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.guesstotal=true&orderby:path)
+`http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.guessTotal=true&orderby=path`
 
 ```xml
 path=/content
@@ -113,9 +113,9 @@ The query will return the `p.limit` default of `10` results with a `0` offset:
 
 As of AEM 6.0 SP2, you can also use a numeric value to count up to a custom number of maximum results. Use the same query as above, but change the value of `p.guessTotal` to `50`:
 
-[http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.guessTotal=50&orderby=path](http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.guessTotal=50&orderby:path)
+`http://localhost:4502/bin/querybuilder.json?path=/content&1_property=sling:resourceType&1_property.value=foundation/components/text&1_property.operation=like&p.guessTotal=50&orderby=path`
 
-It will return a numer the same default limit of 10 results with a 0 offset, but will only display a maximum of 50 results:
+It will return a number the same default limit of 10 results with a 0 offset, but will only display a maximum of 50 results:
 
 ```xml
 "success": true,
@@ -143,7 +143,7 @@ For example, the UI can adapt following approach:
 
 ### Find jar files and order them, newest first {#find-jar-files-and-order-them-newest-first}
 
-` [http://localhost:4502/bin/querybuilder.json?type=nt:file&nodename=*.jar&orderby=@jcr:content/jcr:lastModified&orderby.sort=desc](http://localhost:4502/bin/querybuilder.json?type=nt:file&nodename=*.jar&orderby=@jcr:content/jcr:lastModified&orderby.sort=desc )`
+`http://localhost:4502/bin/querybuilder.json?type=nt:file&nodename=*.jar&orderby=@jcr:content/jcr:lastModified&orderby.sort=desc`
 
 ```xml
 type=nt:file
@@ -154,7 +154,7 @@ orderby.sort=desc
 
 ### Find all pages and order them by last modified {#find-all-pages-and-order-them-by-last-modified}
 
-[ `http://localhost:4502/bin/querybuilder.json?type=cq:Page&orderby=@jcr:content/cq:lastModified`](http://localhost:4502/bin/querybuilder.json?type=cq:Page&orderby=@jcr:content/cq:lastModified)
+`http://localhost:4502/bin/querybuilder.json?type=cq:Page&orderby=@jcr:content/cq:lastModified`
 
 ```xml
 type=cq:Page
@@ -163,7 +163,7 @@ orderby=@jcr:content/cq:lastModified
 
 ### Find all pages and order them by last modified, but descending {#find-all-pages-and-order-them-by-last-modified-but-descending}
 
-[http://localhost:4502/bin/querybuilder.json?type=cq:Page&orderby=@jcr:content/cq:lastModified&orderby.sort=desc](http://localhost:4502/bin/querybuilder.json?type=cq:Page&orderby=@jcr:content/cq:lastModified&orderby.sort=desc)
+`http://localhost:4502/bin/querybuilder.json?type=cq:Page&orderby=@jcr:content/cq:lastModified&orderby.sort=desc]`
 
 ```xml
 type=cq:Page
@@ -173,7 +173,7 @@ orderby.sort=desc
 
 ### Fulltext search, ordered by score {#fulltext-search-ordered-by-score}
 
-[http://localhost:4502/bin/querybuilder.json?fulltext=Management&orderby=@jcr:score&orderby.sort=desc](http://localhost:4502/bin/querybuilder.json?fulltext=Management&orderby=@jcr:score&orderby.sort=desc)
+`http://localhost:4502/bin/querybuilder.json?fulltext=Management&orderby=@jcr:score&orderby.sort=desc`
 
 ```xml
 fulltext=Management
@@ -183,7 +183,7 @@ orderby.sort=desc
 
 ### Search for pages tagged with a certain tag {#search-for-pages-tagged-with-a-certain-tag}
 
-[http://localhost:4502/bin/querybuilder.json?type=cq:Page&tagid=marketing:interest/product&tagid.property=jcr:content/cq:tags](http://localhost:4502/bin/querybuilder.json?type=cq:Page&tagid=marketing:interest/product&tagid.property=jcr:content/cq:tags)
+`http://localhost:4502/bin/querybuilder.json?type=cq:Page&tagid=marketing:interest/product&tagid.property=jcr:content/cq:tags``
 
 ```xml
 type=cq:Page
@@ -199,7 +199,7 @@ Because, in the previous example, you are searching for pages ( `cq:Page` nodes)
 
 ### Search under multiple paths (using groups) {#search-under-multiple-paths-using-groups}
 
-[http://localhost:4502/bin/querybuilder.json?fulltext=Management&group.1_path=/content/geometrixx/en/company/management&group.2_path=/content/geometrixx/en/company/bod&group.p.or=true](http://localhost:4502/bin/querybuilder.json?fulltext=Management&group.1_path=/content/geometrixx/en/company/management&group.2_path=/content/geometrixx/en/company/bod&group.p.or=true)
+`http://localhost:4502/bin/querybuilder.json?fulltext=Management&group.1_path=/content/geometrixx/en/company/management&group.2_path=/content/geometrixx/en/company/bod&group.p.or=true`
 
 ```xml
 fulltext=Management
@@ -226,7 +226,7 @@ If no `p.or` is given then all predicates are ANDed together, that is, each resu
 
 Here you are searching for all pages of a given template, using the `cq:template` property:
 
-` [http://localhost:4502/bin/querybuilder.json?property=cq%3atemplate&property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&type=cq%3aPageContent](http://localhost:4502/bin/querybuilder.json?property=cq%3atemplate&property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&type=cq%3aPageContent)`
+`http://localhost:4502/bin/querybuilder.json?property=cq%3atemplate&property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&type=cq%3aPageContent`
 
 ```xml
 type=cq:PageContent
@@ -236,7 +236,7 @@ property.value=/apps/geometrixx/templates/homepage
 
 This has the drawback that the `jcr:content` nodes of the pages, not the pages themselves, are returned. To solve this, you can search by relative path:
 
-` [http://localhost:4502/bin/querybuilder.json?property=jcr%3acontent%2fcq%3atemplate&property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&type=cq%3aPage](http://localhost:4502/bin/querybuilder.json?property=jcr%3acontent%2fcq%3atemplate&property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&type=cq%3aPage)`
+`http://localhost:4502/bin/querybuilder.json?property=jcr%3acontent%2fcq%3atemplate&property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&type=cq%3aPage`
 
 ```xml
 type=cq:Page
@@ -248,7 +248,7 @@ property.value=/apps/geometrixx/templates/homepage
 
 When using the property predicate multiple times, you have to add the number prefixes again:
 
-`` ` [http://localhost:4502/bin/querybuilder.json?1_property=jcr%3acontent%2fcq%3atemplate&1_property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&2_property=jcr%3acontent%2fjcr%3atitle&2_property.value=English&type=cq%3aPage](http://localhost:4502/bin/querybuilder.json?1_property=jcr%3acontent%2fcq%3atemplate&1_property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&2_property=jcr%3acontent%2fjcr%3atitle&2_property.value=English&type=cq%3aPage)`
+`http://localhost:4502/bin/querybuilder.json?1_property=jcr%3acontent%2fcq%3atemplate&1_property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&2_property=jcr%3acontent%2fjcr%3atitle&2_property.value=English&type=cq%3aPage`
 
 ```xml
 type=cq:Page
@@ -262,7 +262,7 @@ type=cq:Page
 
 To avoid big groups when you want to search for multiple values of a property ( `"A" or "B" or "C"`), you can provide multiple values to the `property` predicate:
 
-[ `http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&property.1_value=Products&property.2_value=Square&property.3_value=Events`](http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&property.1_value=Products&property.2_value=Square&property.3_value=Events)
+`http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&property.1_value=Products&property.2_value=Square&property.3_value=Events`
 
 ```xml
 property=jcr:title
@@ -273,7 +273,7 @@ property.3_value=Events
 
 For multi-value properties, you can also require that multiple values match ( `"A" and "B" and "C"`):
 
-[ `http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&property.and=true&property.1_value=test&property.2_value=foo&property.3_value=bar`](http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&property.and=true&property.1_value=test&property.2_value=foo&property.3_value=bar)
+`http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&property.and=true&property.1_value=test&property.2_value=foo&property.3_value=bar`
 
 ```xml
 property=jcr:title
@@ -285,13 +285,7 @@ property.3_value=bar
 
 ## Refining What Is Returned {#refining-what-is-returned}
 
-By default, the 
-
-```
-QueryBuilder
-```
-
-JSON Servlet will return a default set of properties for each node in the search result (e.g. path, name, title, etc.). In order to gain control over which properties are returned, you can do one of the following:
+By default, the QueryBuilder JSON Servlet will return a default set of properties for each node in the search result (e.g. path, name, title, etc.). In order to gain control over which properties are returned, you can do one of the following:
 
 Specify 
 
@@ -299,9 +293,9 @@ Specify
 p.hits=full
 ```
 
-, in which case all properties will be included for each node:
+in which case all properties will be included for each node:
 
-` [http://localhost:4502/bin/querybuilder.json?p.hits=full&property=jcr%3atitle&property.value=Triangle](http://localhost:4502/bin/querybuilder.json?p.hits=full&property=jcr%3atitle&property.value=Triangle)`
+`http://localhost:4502/bin/querybuilder.json?p.hits=full&property=jcr%3atitle&property.value=Triangle`
 
 ```xml
 property=jcr:title
@@ -321,8 +315,9 @@ and specify the properties you want to get in
 p.properties
 ```
 
-, separated by a space:  
-[](http://localhost:4502/bin/querybuilder.json?p.hits=selective&property=jcr%3atitle&property.value=Triangle)
+separated by a space:
+
+`http://localhost:4502/bin/querybuilder.json?p.hits=selective&property=jcr%3atitle&property.value=Triangle`
 
 [ `http://localhost:4502/bin/querybuilder.json?`](http://localhost:4502/bin/querybuilder.json?p.hits=selective&p.properties=sling%3aresourceType%20jcr%3aprimaryType&property=jcr%3atitle&property.value=Triangle) [p.hits=selective&](http://localhost:4502/bin/querybuilder.json?p.hits=selective&p.nodedepth=5&p.properties=sling%3aresourceType%20jcr%3apath&property=jcr%3atitle&property.value=Triangle)p.properties=sling%3aresourceType%20jcr%3aprimaryType&property=jcr%3atitle&property.value=Triangle
 
@@ -333,35 +328,21 @@ p.hits=selective
 p.properties=sling:resourceType jcr:primaryType
 ```
 
-Another thing you can do is include child nodes in the 
-
-```
-QueryBuilder
-```
-
-response. In order to do this you need to specify 
+Another thing you can do is include child nodes in the QueryBuilder response. In order to do this you need to specify 
 
 ```
 p.nodedepth=n
 ```
 
-, where **n** is the number of levels you want the query to return. Note that, in order for a child node to be returned, it must be specified by the properties selector (
+where `n` is the number of levels you want the query to return. Note that, in order for a child node to be returned, it must be specified by the properties selector 
 
 ```
 p.hits=full
 ```
 
-```
+Example:
 
-```
-
-```
-
-```
-
-). Example:
-
-[ `http://localhost:4502/bin/querybuilder.json?p.hits=full&p.nodedepth=5&property=jcr%3atitle&property.value=Triangle`](http://localhost:4502/bin/querybuilder.json?p.hits=full&p.nodedepth=5&property=jcr%3atitle&property.value=Triangle)
+`http://localhost:4502/bin/querybuilder.json?p.hits=full&p.nodedepth=5&property=jcr%3atitle&property.value=Triangle`
 
 ```xml
 property=jcr:title
@@ -374,9 +355,9 @@ p.nodedepth=5
 
 For more predicates, see the [Query Builder Predicate Reference page](/help/sites-developing/querybuilder-predicate-reference.md).
 
-You can also check the [Javadoc for the `*PredicateEvaluator` classes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.html). The Javadoc for these classes contains the list of properties that you can use.
+You can also check the [Javadoc for the `PredicateEvaluator` classes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.html). The Javadoc for these classes contains the list of properties that you can use.
 
-The prefix of the class name (for example, " `similar`" in ` [SimilarityPredicateEvaluator](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/SimilarityPredicateEvaluator.html)`) is the *principal property* of the class. This property is also the name of the predicate to use in the query (in lower case).
+The prefix of the class name (for example, " `similar`" in [`SimilarityPredicateEvaluator`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/SimilarityPredicateEvaluator.html)) is the *principal property* of the class. This property is also the name of the predicate to use in the query (in lower case).
 
 For such principal properties, you can shorten the query and use " `similar=/content/en`" instead of the fully qualified variant " `similar.similar=/content/en`". The fully qualified form must be used for all non-principal properties of a class.
 
@@ -442,7 +423,7 @@ For such principal properties, you can shorten the query and use " `similar=/con
 
 The same query executed over HTTP using the Query Builder (JSON) Servlet:
 
-[ `http://localhost:4502/bin/querybuilder.json?path=/content&type=cq:Page&group.p.or=true&group.1_fulltext=Geometrixx&group.1_fulltext.relPath=jcr:content&group.2_fulltext=Geometrixx&group.2_fulltext.relPath=jcr:content/@cq:tags&p.offset=0&p.limit=20`](http://localhost:4502/bin/querybuilder.json?path=/content&type=cq:Page&group.p.or=true&group.1_fulltext=Geometrixx&group.1_fulltext.relPath=jcr:content&group.2_fulltext=Geometrixx&group.2_fulltext.relPath=jcr:content/@cq:tags&p.offset=0&p.limit=20)
+`http://localhost:4502/bin/querybuilder.json?path=/content&type=cq:Page&group.p.or=true&group.1_fulltext=Geometrixx&group.1_fulltext.relPath=jcr:content&group.2_fulltext=Geometrixx&group.2_fulltext.relPath=jcr:content/@cq:tags&p.offset=0&p.limit=20`
 
 ## Storing and loading queries {#storing-and-loading-queries}
 
@@ -458,7 +439,7 @@ When using the [ `QueryBuilder#storeQuery`](https://helpx.adobe.com/experience-m
 builder.storeQuery(query, "/mypath/getfiles", true, session);
 ```
 
-Any previously stored queries can be loaded from the repository by using the ` [QueryBuilder#loadQuery](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.html#loadqueryjavalangstringjavaxjcrsession)` method:
+Any previously stored queries can be loaded from the repository by using the [`QueryBuilder#loadQuery`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.html#loadqueryjavalangstringjavaxjcrsession) method:
 
 ```java
 Query loadQuery(String path, Session session) throws RepositoryException, IOException
@@ -474,11 +455,11 @@ Query loadedQuery = builder.loadQuery("/mypath/getfiles", session);
 
 For playing around and debugging querybuilder queries, you can use the QueryBuilder debugger console at
 
-` [http://localhost:4502/libs/cq/search/content/querydebug.html](http://localhost:4502/libs/cq/search/content/querydebug.html)`
+`http://localhost:4502/libs/cq/search/content/querydebug.html`
 
 or alternatively the querybuilder json servlet at
 
-[ `http://localhost:4502/bin/querybuilder.json?path=/tmp`](http://localhost:4502/bin/querybuilder.json?path=/tmp  )
+`http://localhost:4502/bin/querybuilder.json?path=/tmp`
 
 ( `path=/tmp` is only an example).
 

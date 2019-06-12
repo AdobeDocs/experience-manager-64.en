@@ -78,16 +78,18 @@ Managing and authoring your website content has some best practices outlined as 
 
 Some best practices for Communities are described here:
 
-| Best practices for working with user generated content (UGC) | [Coding Guidelines](/help/communities/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](/help/communities/scf.md) (SCF). |
+||||
 |---|---|---|
+| Best practices for working with user generated content (UGC) | [Coding Guidelines](/help/communities/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](/help/communities/scf.md) (SCF). |
 | Example usage of Communities components | [Community Components Guide](/help/communities/components-guide.md) |An interactive development tool. |
 
 ## Tooling/HTL {#tooling-htl}
 
 HTML Template Language (HTL) is a new HTML templating system, introduced with AEM 6.0. It replaces JSP and ESP as the preferred templating system of AEM.
 
-| HTL overview | [HTL overview and syntax](https://helpx.adobe.com/experience-manager/htl/user-guide.html) |This document describes what HTL is, how to move to HTL, a sample project, syntax, expressions, and statements |
+||||
 |---|---|---|
+| HTL overview | [HTL overview and syntax](https://helpx.adobe.com/experience-manager/htl/user-guide.html) |This document describes what HTL is, how to move to HTL, a sample project, syntax, expressions, and statements |
 | Using API in java | [HTL Java Use-API](https://helpx.adobe.com/experience-manager/htl/using/use-api.html) |The HTL Java Use-API enables a HTL file to access helper methods in a custom Java class.  |
 
 >[!NOTE]

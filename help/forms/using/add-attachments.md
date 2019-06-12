@@ -18,11 +18,11 @@ AEM Forms app lets you attach images, scribbled notes, and text notes to your fo
 
 Your options are:
 
-* **Gallery**: Lets you add a picture from the pictures saved on your device.  
+* **[!UICONTROL Gallery]**: Lets you add a picture from the pictures saved on your device.  
 
-* **Camera**: Lets you take a picture and add it to the form.  
+* **[!UICONTROL Camera]**: Lets you take a picture and add it to the form.  
 
-* **Notes**: Lets you add a scribble or a text note. Use ![scribble](assets/scribble.png) to add a scribble, and ![keyboard](assets/keyboard.png) to add a text note.
+* **[!UICONTROL Notes]**: Lets you add a scribble or a text note. Use ![scribble](assets/scribble.png) to add a scribble, and ![keyboard](assets/keyboard.png) to add a text note.
 
 >[!NOTE]
 >
@@ -42,16 +42,16 @@ You can use the **+** button in the Attachments screen to attach another picture
 You can use the camera of your mobile device or saved pictures in your device to attach a picture in the form.
 
 1. Tap the attachment button ![attch](assets/attch.png) at the bottom of the window.
-1. Tap **Gallery** or **Camera** in the pop-up that appears. 
+1. Tap **[!UICONTROL Gallery]** or **[!UICONTROL Camera]** in the pop-up that appears. 
 1. Based on the option you select, perform the following:
 
-    1. If you select **Camera**.
+    1. If you select **[!UICONTROL Camera]**.
 
-       Take a photograph. Then tap the **Use** ![use-pic](assets/use-pic.png) button.
+       Take a photograph. Then tap the **[!UICONTROL Use]** ![use-pic](assets/use-pic.png) button.
 
-       Or tap the **Retake** ![retake](assets/retake.png) button to retake the photograph.
+       Or tap the **[!UICONTROL Retake]** ![retake](assets/retake.png) button to retake the photograph.
     
-    1. If you select **Gallery**.
+    1. If you select **[!UICONTROL Gallery]**.
 
        The image browser of device pops up. In the picture browser of your device, tap the picture you want to attach.
 
@@ -60,7 +60,7 @@ You can use the camera of your mobile device or saved pictures in your device to
 The **Notes** option lets you add freehand scribbles and text attachments in your form.
 
 1. Tap the attachment button ![attch](assets/attch.png) at the bottom of the window.
-1. Tap **Notes** in the pop-up that appears.
+1. Tap **[!UICONTROL Notes]** in the pop-up that appears.
 1. In the Notes user interface that is launched, capture a freehand scribble.
 
    ![Scribble interface](assets/scribble-ui.png)
@@ -68,9 +68,9 @@ The **Notes** option lets you add freehand scribbles and text attachments in you
 
    You can use the following options in the Scribble interface:
 
-    * **Clear**: Clears the screen.
-    * **Done button**: Attaches the current scribble.
-    * **Cancel button**: Discards the current scribble and exits the Scribble user interface.
+    * **[!UICONTROL Clear]**: Clears the screen.
+    * **[!UICONTROL Done]**: Attaches the current scribble.
+    * **[!UICONTROL Cancel]**: Discards the current scribble and exits the Scribble user interface.
     * ![keyboard](assets/keyboard.png): Clears the scribble and lets you add a text note.
 
    ![Keyboard in AEM Forms app scribble](assets/keyboard-inapp.png)

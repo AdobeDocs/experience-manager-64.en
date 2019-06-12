@@ -200,7 +200,6 @@ The AEM SPA Editor SDK was introduced with AEM 6.4 service pack 2. It is fully s
 
 * Server-Side Rendering is currently a tech preview that is being finalized for the session-less use-case.
 * Template Editor  
-* MSM unlocking of components
 * Target mode
 * ContextHub
 * Inline image editing

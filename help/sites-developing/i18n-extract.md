@@ -52,11 +52,9 @@ Configure how the xgettext-maven-plugin tool extracts strings for your project.
 The /filter section of the i18n.any file identifies the files that the xgettext-maven-plugin tool parses. Add several include and exclude rules that identify files that are parsed and ignored, respectively. You should include all files and then exclude the files that you do not want to parse. Typically, you exclude file types that do not contribute to the UI, or files that define UI but are not being translated. The include and exclude rules have the following format:
 
 ```
-{ /include "<i>pattern</i>" }
-
+{ /include "pattern" }
+{ /exclude "pattern" }
 ```
-
-{ /exclude "*pattern*" }
 
 The pattern part of a rule is used to match the names of the files to include or exclude. The pattern prefix indicate whether you are matching a JCR node (its representation in Vault) or the file system.
 

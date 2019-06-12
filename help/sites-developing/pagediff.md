@@ -21,7 +21,7 @@ The page diff allows a user to compare the current page to launches, previous ve
 
 ## Operation Details {#operation-details}
 
-When comparing versions of a page, the previous version that the user wishes to compare is recreated by AEM in the background in order to facilitate the diff. This is needed to be able to render the content [for side-by-side comparison](/help/sites-developing/pagediff.md#operation-details).
+When comparing versions of a page, the previous version that the user wishes to compare is recreated by AEM in the background in order to facilitate the diff. This is needed to be able to render the content [for side-by-side comparison](/help/sites-authoring/page-diff.md#presentation-of-differences).
 
 This recreation operation is done by AEM internally and is transparent to the user and requires no intervention. However an administrator viewing the repository for example in CRX DE Lite would see these recreated versions within the content structure.
 
