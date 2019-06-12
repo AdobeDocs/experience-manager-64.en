@@ -55,6 +55,7 @@ The /filter section of the i18n.any file identifies the files that the xgettext-
 { /include "pattern" }
 { /exclude "pattern" }
 ```
+
 The pattern part of a rule is used to match the names of the files to include or exclude. The pattern prefix indicate whether you are matching a JCR node (its representation in Vault) or the file system.
 
 | Prefix |Effect |
