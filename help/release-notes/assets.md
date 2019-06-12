@@ -13,32 +13,30 @@ discoiquuid: 397b3267-1437-4263-963c-9d68ccc928ab
 
 # AEM Assets Release Notes {#aem-assets-release-notes}
 
-Release notes specific to Adobe Experience Manager 6.4 Assets.
-
-Here are the key features and highlights of the AEM 6.4 Assets release.
+The key features, highlights, and enhancements done in AEM 6.4 Assets are covered in these release notes. For detailed information, follow the provided links.
 
 ## Adobe Asset Link {#adobe-asset-link}
 
 Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise, providing a connection to AEM Assets directly from Photoshop, Illustrator, and InDesign — without leaving their tools of choice.  
 
-To learn more about the capability, prerequisites, and how to access it, see the [Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) page.  
+To learn more about the capability, prerequisites, and how to access it, see the [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) page.  
 
 ## Enhanced Smart Tags (powered by Adobe Sensei) {#enhanced-smart-tags-powered-by-adobe-sensei}
 
-AEM 6.4 introduces Artificial Intelligence based Enhanced Smart Tags capability in addition to Smart Tags which was launched in 6.3.
+AEM 6.4 introduces Artificial Intelligence based Enhanced Smart Tags capability in addition to Smart Tags that was launched in 6.3.
 
-* Smart Content Service learns customer's business taxonomy and uses it to automatically tag digital assets with customer relevant tags in addition to generic tags. It improves asset discoverability significantly and reduces time to market. 
+* Smart Content Service learns customer's business taxonomy and uses it to automatically tag digital assets with customer relevant tags in addition to generic tags. It improves asset discoverability significantly and reduces time to market.
 * Adobe Sensei powers the Smart Content Service, which enables you to train the image recognition algorithm on your business taxonomy. This content intelligence is then used to apply relevant tags on similar assets.
 
-AEM Assets Enhanced Smart Tags requires the [latest service pack of AEM 6.4](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
+To use AEM Assets Enhanced Smart Tags, install the [latest service pack of AEM 6.4](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
 
 ## Smart Translation Search (powered by Adobe Sensei) {#smart-translation-search-powered-by-adobe-sensei}
 
-AEM 6.4 introduces Smart Translation Search capability to support multi lingual search scenarios. Customers with globally distributed teams across multiple locales now have access to search in different languages without having to go through costly and time-consuming translation workflows.
+AEM 6.4 introduces Smart Translation Search capability to support multilingual search scenarios. Customers with globally distributed teams across multiple locales now have access to search in different languages without having to go through costly and time-consuming translation workflows.
 
-* Search query is translated without manual intervention
-* Has support for Smart Tags, which are generated in English, but are machine translated to others language 
-* Multi-lingual search is built using open source library Apache Joshua, which supports more than 50 languages.
+* Search query is translated without manual intervention.
+* Has support for Smart Tags, which are generated in English, but are machine translated to others language.
+* Multilingual search is built using open source library Apache Joshua that supports more than 50 languages.
 
 ## User Experience {#user-experience}
 
@@ -48,7 +46,7 @@ Browse Improvements
 
 * New Content Tree rail to quickly navigate an asset hierarchy. In combination with the list view, this restores the Classic UI interaction model to browse asset hierarchies.
 * New Keyboard Shortcuts such as (m) for Move operation, (p) for navigation to properties page, (ctrl+c) for copy operation and many more.
-* Improved scrolling, lazy loading experience in card and list view for browsing large number of assets. 
+* Improved scrolling, lazy loading experience in card and list view for browsing large number of assets.
 * Improved Card View with support for different sized cards based on view setting.
 * Improved asset detail experience with ability to view, navigate to “previous” or "next" asset along with number of assets, current asset.
 
@@ -128,7 +126,7 @@ For an overview of supported platforms, please refer to the [Technical Requireme
 
 ## Closed User Group {#closed-user-group}
 
-* In AEM 6.4, Closed User Group or CUG provides a way to restrict folder access on publish instance, it’s a touch UI option to add principals through folder properties page at the folder level and are applied to all folder and subfolders/assets inside. 
+* In AEM 6.4, Closed User Group or CUG provides a way to restrict folder access on publish instance, it’s a touch UI option to add principals through folder properties page at the folder level and are applied to all folder and subfolders/assets inside.
 * In publish mode, if a CUG is configured and authorization enabled om a folder, users are redirected to a login page when they try to access the folder. Therefore, authorized users can access the folder and its assets only after successful login. Hence, CUG restricts read access to a given tree in the content repository for everyone except selected principals.
 
 ## Dynamic Media add-on {#dynamic-media-add-on}
@@ -141,7 +139,7 @@ In addition, AEM 6.4 introduces new features powered by Adobe Sensei, enhancemen
 
 ### Smart Crop (Powered by Adobe Sensei) {#smart-crop-powered-by-adobe-sensei}
 
-* Smart Crop automatically provides non-destructive cropping of images to preserve the point of interest for responsive design. You can preview cropped suggestions and manually adjust them, if necessary.   
+* Smart Crop automatically provides non-destructive cropping of images to preserve the point of interest for responsive design. You can preview cropped suggestions and manually adjust them, if necessary.
 * This feature also enables automated swatch generation for product imagery. Automated swatch generation helps to add color swatches, pattern swatches, or both to product images automatically.
 
 See [Image Profiles](/help/assets/image-profiles.md) documentation to learn more.
@@ -167,6 +165,4 @@ See [Smart Imaging](/help/assets/imaging-faq.md) documentation to learn more.
 
 ### 3D and Integration with Dimension CC {#d-and-integration-with-dimension-cc}
 
-Integration with [Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted.
-
-See [Working with 3D assets](/help/assets/3d-assets.md) documentation to learn more.
+Integration with [Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted. To learn more, see [Working with 3D assets](/help/assets/3d-assets.md) documentation.
