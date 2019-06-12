@@ -26,7 +26,7 @@ You can use the proxy server to monitor all client-server interaction, regardles
 * SMTP for email messages
 * LDAP for user management
 
-For example, you can position the proxy server between any two applications that communicate via a TCP/IP network; e.g. a web browser and CQ. This allows you to monitor exactly what happens when you request a CQ page.
+For example, you can position the proxy server between any two applications that communicate via a TCP/IP network; e.g. a web browser and AEM. This allows you to monitor exactly what happens when you request a CQ page.
 
 ## Starting the Proxy Server Tool {#starting-the-proxy-server-tool}
 
@@ -38,7 +38,7 @@ Start the server on the command line:
 
 `<host>`
 
-``This is the host address of the CRX instance that you want to connect to. If the instance is on your local machine, then this will be `localhost`.
+This is the host address of the CRX instance that you want to connect to. If the instance is on your local machine, then this will be `localhost`.
 
 `<remoteport>`
 
@@ -46,7 +46,7 @@ This is the host port of the target CRX instance. For example, the default of a 
 
 `<localport>`
 
-``This is the port on your local machine that you wish to connect to to access the CRX instance through the proxy.
+This is the port on your local machine that you wish to connect to to access the CRX instance through the proxy.
 
 **Options**
 
@@ -83,13 +83,13 @@ For example, a request for a Web page may look as follows:
 * C signifies that this entry comes from the client (it is a request for a Web page)
 * 0 is the connection number (the connection counter starts at 0)
 * #00000 the offset in the byte stream. This is the first entry, so the offset is 0.
-* [GET &lt;?&gt;] is the content of the request, in the example one of the HTTP headers (url).
+* `[GET <?>]` is the content of the request, in the example one of the HTTP headers (url).
 
 When a connection closes, the following information is logged:
 
 ```
 C-6-Finished: 758 bytes (1.0 kb/s)
- S-6-Finished: 665 bytes (1.0 kb/s)
+S-6-Finished: 665 bytes (1.0 kb/s)
 ```
 
 This shows the number of bytes that passed between client ( `C`) and the server ( `S`) on the 6th connection and at the average speed.
@@ -194,15 +194,11 @@ The following log entry example shows all cookies and their values sent by the c
 
 The following log entry example shows that the server is able to make a keep-alive connection and the content length header was properly set:
 
-**
-
 ```
 S-7-#000017 -> [Connection: Keep-Alive ]
  ...
  S-7-#000107 -> [Content-Length: 124 ]
 ```
-
-**
 
 **Checking if Keep-Alive works**
 
