@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: fa054d30-c7dc-4b64-acf1-cbcbe8827df5
 ---
 
-# Creating and managing policies{#creating-and-managing-policies}
+# Creating and managing policies {#creating-and-managing-policies}
 
 A *policy* defines a set of confidentiality settings and users who can access a document to which the policy is applied. A *policy set* is used to group a set of policies that have a common business purpose. These policy sets are then made available to a subset of users in the system. For details about policies, see [Policies and policy-protected documents](/help/forms/using/admin-help/document-security.md#policies-and-policy-protected-documents).
 
@@ -133,7 +133,7 @@ In the Users and Groups area, you specify the users who have access to documents
 * Select the domain you want to search from the In list, and click Find.
 * When the results are returned, select the user or group to add, and click Add.
 
-***Note**: If you enter a correct invited user name or email address and no result is returned, the user may not have registered yet, or the account may be deleted. You can try adding the user as an invited user type or contact your administrator. *
+**Note**: *If you enter a correct invited user name or email address and no result is returned, the user may not have registered yet, or the account may be deleted. You can try adding the user as an invited user type or contact your administrator.*
 
 **Invite New User:** To add an invited user, click Invite New User, type the user’s email address in the box that appears, and click Invite. This option is available only if the administrator enabled it. When you add new invited users to a policy, document security sends a registration invitation email if the users are not already invited to register. The users must use the link in the email to create an account, and then they must activate the account.
 

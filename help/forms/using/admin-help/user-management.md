@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 10e6177a-8228-4515-aba9-bbe59bede449
 ---
 
-# User Management{#user-management}
+# User Management {#user-management}
 
 User Management allows you to enable single sign-on (SSO) between AEM forms modules and Netegrity SiteMinder-protected applications by using Security Assertion Markup Language (SAML). When SSO is implemented, the AEM forms user login pages are not required and are not displayed if the user is already authenticated through the company portal.
 

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b76d7d93-23a5-4c08-81f5-a56267b1556a
 ---
 
-# High-volume secure information delivery{#high-volume-secure-information-delivery}
+# High-volume secure information delivery {#high-volume-secure-information-delivery}
 
 In a mass production environment, such as one that generates secured monthly invoices for a telecom company, creating licenses that are specific to each document can become a resource-intensive process. In such cases, document security supports the association of licenses to users, rather than to the documents. The license generated for a user is used for all documents that are protected for that user.
 

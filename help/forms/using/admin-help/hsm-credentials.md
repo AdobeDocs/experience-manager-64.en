@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e5f17ba8-8aab-4449-811a-20ad33de1c6f
 ---
 
-# Managing HSM credentials{#managing-hsm-credentials}
+# Managing HSM credentials {#managing-hsm-credentials}
 
 From the Trust Store Management page, you can manage Hardware Security Module (HSM) credentials. An HSM is a third-party PKCS#11 device that you can use to securely generate and store private keys. The HSM physically protects the access to and use of the private keys.
 

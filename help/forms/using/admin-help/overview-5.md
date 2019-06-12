@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 207c6335-f700-48f1-814b-992692534f6c
 ---
 
-# Introduction to working with PDF Generator{#introduction-to-working-with-pdf-generator}
+# Introduction to working with PDF Generator {#introduction-to-working-with-pdf-generator}
 
 PDF Generator converts various file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents. For a list of supported file formats, see “Generate PDF service” in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 

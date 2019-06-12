@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 89f4d3cf-eb2e-4d55-8209-16ecbba03792
 ---
 
-# Configuring file type settings{#configuring-file-type-settings}
+# Configuring file type settings {#configuring-file-type-settings}
 
 In PDF Generator, you can set up the application settings for supported file types. On Windows, you can set up the application settings for each supported file type. On UNIX and Linux, you can set up the application settings for HTML-to-PDF and OpenOffice.
 
@@ -602,7 +602,7 @@ You can also specify how forms are submitted. The options are XML, FDF, PDF, or 
 
 **Export Automatically Inserted Blank Pages**: When this option is selected, automatically inserted blank pages are included in the generated PDF document. This is useful if you are printing a PDF document double-sided. For example, a book may be configured so that the first page of chapter always starts on an odd-numbered page. If the previous chapter ends on an odd-numbered page, OpenOffice insets a blank even-numbered page. This option controls whether to include that even-numbered page in the generated PDF.
 
-## Other applications’ settings (Windows only) {#other-applications-settings-windows-only}
+## Other application settings (Windows only) {#other-applications-settings-windows-only}
 
 You cannot change the settings for other applications through administration console; they display the filename extensions for the supported file types. For instructions about accessing these settings, see [Create or edit file type settings](https://help.adobe.com/en_US/AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e42.2.html).
 

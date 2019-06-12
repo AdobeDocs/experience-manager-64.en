@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1f15f028-aa81-478e-97eb-f83a4dc0418c
 ---
 
-# Configuring directories{#configuring-directories}
+# Configuring directories {#configuring-directories}
 
 For each enterprise domain you configure, specify the directories that the authentication provider queries for user information. You can configure multiple directories for a domain.
 

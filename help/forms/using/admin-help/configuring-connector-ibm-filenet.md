@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: be4994de-12f8-436e-926a-49a6783b006e
 ---
 
-# Configuring Connector for IBM FileNet{#configuring-connector-for-ibm-filenet}
+# Configuring Connector for IBM FileNet {#configuring-connector-for-ibm-filenet}
 
 Connector for IBM FileNet enables communication between AEM forms and IBM FileNet. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 

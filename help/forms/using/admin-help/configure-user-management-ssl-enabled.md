@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e6e7e2fa-579d-4b36-8598-6ced469a94b1
 ---
 
-# Configure User Management for an SSL-enabled LDAP server{#configure-user-management-for-an-ssl-enabled-ldap-server}
+# Configure User Management for an SSL-enabled LDAP server {#configure-user-management-for-an-ssl-enabled-ldap-server}
 
 For synchronization to work properly over LDAPS, the LDAP certificates that the certificate authority (CA) issued must be present in the application server’s Java runtime environment (JRE). Import the certificate into the application server’s JRE cacerts file, which is usually in the *[JAVA_HOME]*/jre/lib/security/cacerts directory.
 

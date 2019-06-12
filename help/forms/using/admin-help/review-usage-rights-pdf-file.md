@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2777706c-d42b-4921-a8f4-720b7c0fa45e
 ---
 
-# Review the usage rights of a PDF file{#review-the-usage-rights-of-a-pdf-file}
+# Review the usage rights of a PDF file {#review-the-usage-rights-of-a-pdf-file}
 
 When you upload a PDF file to the Acrobat Reader DC extensions web application, you can view this information:to view whether it has been Reader extended, any usage rights applied, and their expiry dates.
 

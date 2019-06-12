@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f146202f-25f1-46a0-9943-c483f5f09f9f
 ---
 
-# Backing up and recovering the EMC Documentum repository{#backing-up-and-recovering-the-emc-documentum-repository}
+# Backing up and recovering the EMC Documentum repository {#backing-up-and-recovering-the-emc-documentum-repository}
 
 This section describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
 
