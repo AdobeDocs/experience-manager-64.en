@@ -23,11 +23,11 @@ The DM-encoded renditions are stored in the proxy server and served at runtime.
 
 AEM assets provide playback support for these renditions on the client side.
 
-To view the renditions of a particular video asset, open its asset page, and click/tap the GlobalNav icon. Then, choose **Renditions** from the list.
+To view the renditions of a particular video asset, open its asset page, and tap the Global Navigation icon. Then, choose **[!UICONTROL Renditions]** from the list.
 
 ![chlimage_1-478](assets/chlimage_1-478.png)
 
-The list of video renditions are displayed in the** Renditions** panel. 
+The list of video renditions are displayed in the **[!UICONTROL Renditions]** panel. 
 
 ![chlimage_1-479](assets/chlimage_1-479.png)
 
