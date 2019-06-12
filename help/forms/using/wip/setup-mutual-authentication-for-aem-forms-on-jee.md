@@ -9,7 +9,7 @@ contentOwner: khsingh
 discoiquuid: 09311db3-34b6-4463-8a93-8382e7bba5ba
 ---
 
-# DO NOT PUBLISH Set up Mutual Authentication for AEM Forms on JEE{#do-not-publish-set-up-mutual-authentication-for-aem-forms-on-jee}
+# DO NOT PUBLISH Set up Mutual Authentication for AEM Forms on JEE {#do-not-publish-set-up-mutual-authentication-for-aem-forms-on-jee}
 
 Mutual authentication is a security process in which both the clients and server authenticate each other's identities before actual communication occurs. With mutual authentication, a connection can occur only when the client trusts the digital certificate of the server and the server trusts the certificate of the client. In this way, a client and a server are certain that they are connecting with legitimate entities and severing content for legitimate purposes. For more information about mutual authentication, see [an Introduction to Mutual Authentication](https://www.codeproject.com/Articles/326574/An-Introduction-to-Mutual-SSL-Authentication).
 
@@ -93,7 +93,7 @@ Each application server has a separate set of instructions to enable mutual auth
 
 1. Restart the JBoss application server.
 
-   After the server restarts, create a [Hybrid Domain](https://helpx.adobe.com/in/experience-manager/6-4/forms/using/admin-help/adding-domains.html#add_a_hybrid_domain). Choose the Auth Provider for the domain as **[!UICONTROL Custom]**and select **[!UICONTROL SSLMutualAuthProvider]**. In the hybrid domain, create a user with the name similar to user created in the previous step. For example, Paul Smith.
+   After the server restarts, create a [Hybrid Domain](https://helpx.adobe.com/in/experience-manager/6-4/forms/using/admin-help/adding-domains.html#add_a_hybrid_domain). Choose the Auth Provider for the domain as **[!UICONTROL Custom]** and select **[!UICONTROL SSLMutualAuthProvider]**. In the hybrid domain, create a user with the name similar to user created in the previous step. For example, Paul Smith.
 
 1. Configure certificate for the server.
 

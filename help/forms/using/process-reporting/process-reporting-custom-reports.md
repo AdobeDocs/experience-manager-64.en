@@ -10,7 +10,7 @@ topic-tags: process-reporting
 discoiquuid: c668bd53-f2d8-4f8c-83f2-be0afd65392a
 ---
 
-# Custom Reports in Process Reporting{#custom-reports-in-process-reporting}
+# Custom Reports in Process Reporting {#custom-reports-in-process-reporting}
 
 You can use REST interface of QueryBuilder or create an OSGi service using QueryBuilder API to create a custom report.
 
@@ -657,4 +657,5 @@ The prerequisites to creating a separate UI for displaying results are [Sling Ba
 Import the `sample-report-pkg-1.zip` package to integrate custom reports and UI discussed in the article to the Process management UI.
 
 [Get File](assets/sample-report-pkg-1.zip)
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -9,7 +9,7 @@ contentOwner: khsingh
 discoiquuid: da932c21-3ef2-4484-bdbc-415f5dd6caf1
 ---
 
-# DO NOT PUBLISH Extending the default meta-model{#do-not-publish-extending-the-default-meta-model}
+# DO NOT PUBLISH Extending the default meta-model {#do-not-publish-extending-the-default-meta-model}
 
 Automated Forms Conversion service identifies and extracts form objects from legacy forms. Meta-model helps the service to decide how the extracted objects are represented in an adaptive form. For example, a legacy form can have many different types of representations of a date and the meta-model helps map all the representations of date with date component of adaptive forms. Meta-model also allows the service to pre-configure validations, rules, data patterns, help text, and accessibility properties of adaptive form components.
 

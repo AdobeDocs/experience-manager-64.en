@@ -8,7 +8,7 @@ contentOwner: khsingh
 discoiquuid: 905a2c15-3f4c-47a6-bc42-a06776d66cfd
 ---
 
-# Automated Forms Conversion service{#automated-forms-conversion-service}
+# Automated Forms Conversion service {#automated-forms-conversion-service}
 
 Speed up the conversion of print forms to adaptive forms
 

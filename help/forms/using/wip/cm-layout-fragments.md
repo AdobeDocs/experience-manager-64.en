@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ef250bc5-2aac-4ab1-a1d9-71d8d98dcd18
 ---
 
-# DO NOT PUBLISH Layout Fragments{#do-not-publish-layout-fragments}
+# DO NOT PUBLISH Layout Fragments {#do-not-publish-layout-fragments}
 
 ## Layout Fragments {#layoutfragments}
 

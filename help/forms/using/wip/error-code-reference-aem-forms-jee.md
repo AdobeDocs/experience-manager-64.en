@@ -9,7 +9,7 @@ topic-tags: developer-reference
 discoiquuid: b775f65a-be1d-40e8-aa98-c2a4922f9cb2
 ---
 
-# DO NOT PUBLISH AEM Forms Error Code Reference (JEE Only){#do-not-publish-aem-forms-error-code-reference-jee-only}
+# DO NOT PUBLISH AEM Forms Error Code Reference (JEE Only)  {#do-not-publish-aem-forms-error-code-reference-jee-only}
 
 ## Application and Services Error Codes {#application-and-services-error-codes}
 

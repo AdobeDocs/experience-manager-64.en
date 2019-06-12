@@ -12,7 +12,7 @@ geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: df0d4356-6a32-463d-aca2-105f624c6350
 ---
 
-# DO NOT PUBLISH Upgrade or migrate to AEM 6.3 Forms{#do-not-publish-upgrade-or-migrate-to-aem-forms}
+# DO NOT PUBLISH Upgrade or migrate to AEM 6.3 Forms {#do-not-publish-upgrade-or-migrate-to-aem-forms}
 
 AEM 6.3 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms, documents, and correspondences. It also brings enhancements to Adobe Sign and Forms Workflow and many new features such as Data Integration. To learn about all the new capabilities and enhancements of AEM 6.3 Forms, see [New features summary document](/help/forms/using/whats-new.md.
 
