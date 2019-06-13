@@ -519,13 +519,11 @@ Read-only.
     * delete: A Boolean value that indicates whether to delete unused repository items. A value of true causes the deletion of unused nodes and properties. A value of false causes all nodes to be scanned but none are deleted.
 
 * Returned value: none
-* See also the [documentation on the Datastore](/content/docs/en/aem/6-3/deploy/upgrade/repository-consistency-checking.md#data store garbage collection).
 
 **stopDataStoreGarbageCollection** Stops a running data store garbage collection.
 
 * Arguments: none
 * Returned value: string representation of the current status
-* See also the [documentation on the Datastore](/content/docs/en/aem/6-3/deploy/upgrade/repository-consistency-checking.md#data store garbage collection).
 
 **startBackup** Backs up repository data in a ZIP file.
 

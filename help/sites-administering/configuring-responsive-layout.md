@@ -132,7 +132,7 @@ They can be defined using CRXDE Lite or XML.
 
 1. Under the breakpoints node you can create any number of breakpoints. Each definition is a single node with the following properties:
 
-    * Name: `*<descriptive name>*`
+    * Name: `<descriptive name>`
     * Type: `nt:unstructured`
     * Title: `String` * `<descriptive title seen in Emulator>`*
     * Width: `Decimal` * `<value of breakpoint>`*

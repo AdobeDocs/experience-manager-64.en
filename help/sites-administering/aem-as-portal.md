@@ -275,7 +275,7 @@ To access the portlet's authentication configuration:
 
 In default mode, all requests issued by the portlet for the AEM WCM author instance are authenticated using the same technical user, regardless of the current portal user. Technical User mode is enabled by default. You enable/disable this mode in the respective configuration screen in the OSGi management console:
 
-The technical user specified must exist on the AEM WCM author instance and on the publish instance if **Authenticate on Publish **is enabled. Be sure to give the user access privileges sufficient for authoring work.
+The technical user specified must exist on the AEM WCM author instance and on the publish instance if **Authenticate on Publish** is enabled. Be sure to give the user access privileges sufficient for authoring work.
 
 #### SSO {#sso}
 
@@ -522,7 +522,7 @@ title="{text}"/>
 
 #### Installing a Custom Layout {#installing-a-custom-layout}
 
-To install a custom layout, access the portlet’s OSGI Web console **Bundles **section and upload the bundle.
+To install a custom layout, access the portlet’s OSGI Web console **Bundles** section and upload the bundle.
 
 #### Packages {#packages}
 
@@ -711,7 +711,7 @@ Use the Portal component to add a portlet window to your web page. Use the compo
 
 1. Double-click the component to open the Portlet properties.
 1. In the **Portlet Entity** drop-down menu, select the portlet from the list.
-1. Select or clear the **Hide Title Bar **check box depending on whether you want to see the portlet's title bar.
+1. Select or clear the **Hide Title Bar** check box depending on whether you want to see the portlet's title bar.
 1. In the **Portlet Window** field, enter a unique Portlet Window ID, if desired.
 
    >[!NOTE]
