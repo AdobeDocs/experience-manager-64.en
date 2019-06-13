@@ -132,7 +132,7 @@ When you register MBeans as an OSGi service, they are automatically registered w
 
 In addition to the OSGi-related metadata, you must also provide metadata that the Aries JMX Whiteboard module requires for registering the MBean with the MBean Server:
 
-* **The name of the DynamicMBean interface: **Declare that the MBean service implements the `javax.management.DynamicMBea`n interface. This declaration notifies the Aries JMX Whiteboard module that the service is an MBean service.
+* **The name of the DynamicMBean interface:** Declare that the MBean service implements the `javax.management.DynamicMBea`n interface. This declaration notifies the Aries JMX Whiteboard module that the service is an MBean service.
 
 * **The MBean domain and key properties:** On Felix, you provide this information as a property of the MBean's OSGi service. This is the same information that you ordinarily provide to the MBean Server in a `javax.management.ObjectName` object.
 
@@ -184,7 +184,7 @@ public class ExampleMBeanImpl extends AnnotatedStandardMBean implements ExampleM
 
 To manage multiple instances of a managed service, you create multiple instances of the corresponding MBean service. Furthermore, MBean service instances should be created or removed when managed instances are started or stopped. You can create an MBean manager class to instantiate MBean services at runtime, and manage the service lifecycle.
 
-Use the BundleContext to register the MBean as an OSGi service. Include the JMX-related information in the Dictionary object that you use as an argument of the BundleContext.registerService method.
+Use the BundleContext to register the MBean as an OSGi service. Include the JMX-related information in the Dictionary object that you use as an argument of the `BundleContext.registerService` method.
 
 In the following code example, the ExampleMBean service is registered programmatically. The componentContext object is the ComponentContext, which provides access to BundleContext.
 
@@ -211,7 +211,9 @@ The MBean in this example provides information about the CQ5 Workflow models tha
 * WorkflowMBeanManager: The interface of the MBean manager class.
 * WorkflowMBeanManagerImpl: The implementation class of the MBean manager.
 
-**Note:** For simplicity, the code in this example does not perform logging or react to thrown exceptions.
+>[!NOTE]
+>
+>For simplicity, the code in this example does not perform logging or react to thrown exceptions.
 
 WorkflowMBeanManagerImpl includes a component activation method. When the component is activated, the method performs the following tasks:
 
