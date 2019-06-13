@@ -18,7 +18,7 @@ Adobe Classifications exports classifications data to [Adobe Analytics](/help/si
 To configure this:
 
 1. Navigate via **Tools, Cloudservices** to the **Adobe Analytics** section.
-1. Add a new configuration . You will see that the **Adobe Analytics Classifications** Configuration template displays below the **Adobe Analytics Framework** configuration. Supply a **Title** and **Name** as required:
+1. Add a new configuration. You will see that the **Adobe Analytics Classifications** Configuration template displays below the **Adobe Analytics Framework** configuration. Supply a **Title** and **Name** as required:
 
    ![aa-25](assets/aa-25.png)
 
@@ -51,7 +51,7 @@ A page may be 25000 in size at maximum, per definition in Adobe Classifications 
 
 To change the page size:
 
-1. Navigate to the OSGI console at **https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr **and select **Adobe AEM Classifications Exporter**.
+1. Navigate to the OSGI console at **https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr** and select **Adobe AEM Classifications Exporter**.
 
    ![aa-26](assets/aa-26.png)
 
@@ -69,9 +69,9 @@ In the default implementation SAINTDefaultTransformer, the child resources of th
 
 *Node structure:*
 
-* id-classification [nt:unstructured]
+* id-classification `nt:unstructured`
 
-    * 1 [nt:unstructured]
+    * 1 `nt:unstructured`
 
         * Product = ﻿﻿My Product Name (String)
         * Price = 120.90 (String)
