@@ -136,7 +136,7 @@ The following procedure demonstrates how to use the javascript box to customize 
    >[!CAUTION]
    >
    >This code is necessary if you want to send variables in a Adobe Analytics call that have been customized in some way that cannot be done through the basic drag&drop interface OR through inline javascript in Adobe Analytics View.  
-  
+   >
    >If the custom variables are outside of the s_doPlugins function they will be sent as *undefined *in the Adobe Analytics call
 
 1. Add your javascript code in the **s_doPlugins** function.
@@ -303,7 +303,5 @@ Use the following procedure to obtain the plugin code, store the code in the AEM
 >[!NOTE]
 >
 >When using plugins, make sure to integrate any supporting plugins as well, otherwise the plugin javascript will not recognize the calls that it makes to the functions in the supporting plugin. For example, the getPreviousValue() plugin requires the split() plugin to function correctly.  
-  
->The name of the support plugin needs to be added to** js.txt **as well.
->
-
+>  
+>The name of the support plugin needs to be added to **js.txt** as well.

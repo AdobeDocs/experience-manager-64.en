@@ -13,9 +13,9 @@ discoiquuid: adf3364c-11f1-45c6-b41d-2c7d48b626f9
 
 # Using Translator to Manage Dictionaries{#using-translator-to-manage-dictionaries}
 
-AEM provides a console for managing the various translations of texts used in component UI. This console is available at `https://<*hostname*>:<*port-number*>/libs/cq/i18n/translator.html`
+AEM provides a console for managing the various translations of texts used in component UI. This console is available at 
 
-` [http://localhost:4502/libs/cq/i18n/translator.html](http://localhost:4502/libs/cq/i18n/translator.html)`
+`https://<hostname>:<port-number>/libs/cq/i18n/translator.html`
 
 Use the translator tool to manage English strings and their translations. The dictionaries are created in the repository, for example /apps/myproject/i18n.
 
@@ -23,13 +23,13 @@ Note that the Translator tool and the dictionaries that you manage are for prese
 
 >[!CAUTION]
 >
->Only edit dictionaries that are created for your project and reside under /apps.
+>Only edit dictionaries that are created for your project and reside under `/apps`.
 >
->AEM system dictionaries are also available in this tool. Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under /libs.
+>AEM system dictionaries are also available in this tool. Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under `/libs`.
 
 >[!NOTE]
 >
->Although the Translator tool has a classic UI interface, it is used for translation of phrases regarless of the interface where those phrases are found.
+>Although the Translator tool has a classic UI interface, it is used for translation of phrases regardless of the interface where those phrases are found.
 
 The translator lists the texts used in AEM with the various language translations alongside each other:
 
@@ -49,7 +49,7 @@ It is also possible to add the i18n dictonaries to a translation project from th
 
 1. Fill the fields as required and click OK. ![chlimage_1-208](assets/chlimage_1-208.png)
 
-1. You can now click **OK **or see the Target Dictionary.
+1. You can now click **OK** or see the Target Dictionary.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Create a dictionary for managing your localized UI strings. After you create a d
 
 1. Using CRXDE Lite, add the root node ( `sling:Folder`) for your new dictionary as the structure to hold the language definitions:
 
-   ` /apps/<*projectName*>/i18n`
+   ` /apps/<projectName>/i18n`
 
    For example, `/apps/myProject/i18n`
 
@@ -83,22 +83,19 @@ Create a dictionary for managing your localized UI strings. After you create a d
 
    >[!NOTE]
    >
-
-   >
    >The translator will only save translations for languages that are actually present underneath the path (e.g. `/apps/myProject/i18n`).  
-
    >
    >Make sure that these correspond to the languages shown in the grid.
 
 ## Managing Dictionary Strings {#managing-dictionary-strings}
 
-Use the Translation tool to manage the strings in your dictionaries. You can add, modify, and remove English strings, and also provide tranlsated strings.
+Use the Translation tool to manage the strings in your dictionaries. You can add, modify, and remove English strings, and also provide translated strings.
 
 >[!CAUTION]
 >
->Only edit dictionaries that are created for your project and reside under /apps.
+>Only edit dictionaries that are created for your project and reside under `/apps`.
 >
->Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under /libs.
+>Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under `/libs`.
 
 ### Adding, Changing, and Removing Strings {#adding-changing-and-removing-strings}
 
@@ -201,9 +198,9 @@ After you add the English string to a dictionary, you can add translations of th
 
    >[!CAUTION]
    >
-   >Only edit dictionaries that are created for your project and reside under /apps.
+   >Only edit dictionaries that are created for your project and reside under `/apps`.
    >
-   >AEM system dictionaries are also available in this tool. Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under /libs.
+   >AEM system dictionaries are also available in this tool. Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under `/libs`.
 
 1. To edit the translated texts for one of the strings you can either:
 
@@ -236,7 +233,7 @@ When you export an XLIFF file and include a language, the node structure of the 
 
 Use the following procedure to export an XLIFF file for a specific language.
 
-1. Open the Translation tool. ([http://localhost:4502/libs/cq/i18n/translator.html](http://localhost:4502/libs/cq/i18n/translator.html))
+1. Open the Translation tool `http://<host>:<port>/libs/cq/i18n/translator.html`
 1. Use the Dictionaries drop-down menu to select the dictionary to export.
 1. Click Export &gt; Export Full *XX* Xliff Options, where *XX* is the two-letter language code such as DE or FR.
 
@@ -246,7 +243,7 @@ Use the following procedure to export an XLIFF file for a specific language.
 
 Use the following procedure to export all or some of only the English strings.
 
-1. Open the Translation tool. ([http://localhost:4502/libs/cq/i18n/translator.html](http://localhost:4502/libs/cq/i18n/translator.html))
+1. Open the Translation tool. `http://<host>:<port>/libs/cq/i18n/translator.html`
 1. Use the Dictionaries drop-down menu to select the dictionary to export.
 1. If your are exporting a subset of the strings, select the items in the dictionary to export. Selecting no items exports all of the items.
 1. Click Export &gt; Export Selection As Xliff (Strings Only).
@@ -256,7 +253,7 @@ Use the following procedure to export all or some of only the English strings.
 
 Import an XLIFF file into a dictionary to populate the dictionary. When the dictionary includes a translation for an English string and the XLIFF file contains a different translation for the same string, the dictionary translation is replaced.
 
-1. Open the Translation tool. ([http://localhost:4502/libs/cq/i18n/translator.html](http://localhost:4502/libs/cq/i18n/translator.html))
+1. Open the Translation tool `http://<host>:<port>/libs/cq/i18n/translator.html`
 1. Click Import &gt; XLIFF Translations.
 1. Select the file to import and click OK.
 
@@ -301,16 +298,13 @@ Use the following procedure to add or remove languages.
 
    >[!NOTE]
    >
-
-   >
    >The translator will only save translations for languages that are actually [present in the dictionary](#creating-a-dictionary) (i.e. underneath the dictionary path such as `/apps/myProject/i18n`).  
-
    >
    >Make sure that these correspond to the languages shown in the grid.
 
 ### Making Languages Available to Authors {#making-languages-available-to-authors}
 
-After defing a dictionary for a language new to your CQ instance you need to make this available for selection by the authors (for example, for use in **Preferences**):
+After defing a dictionary for a language new to your AEM instance you need to make this available for selection by the authors (for example, for use in **Preferences**):
 
 1. To change the list of available languages available in **Preferences** of the **Security** console:
 
