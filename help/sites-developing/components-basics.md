@@ -24,7 +24,7 @@ This section covers key concepts and issues as an introduction to the details ne
 
 ### Planning {#planning}
 
-Before starting to actually configure/code your component you should ask:
+Before starting to actually configure or code your component you should ask:
 
 * What exactly do you need the new component to do?
 
@@ -61,7 +61,7 @@ Before any serious discussion starts about developing components you need to kno
 
 See [UI Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md) for more details.
 
-Components can be implemented to support the touch-enabled UI, the classic UI or both. When looking at a standard instance you will also see out-of-the-box components that were originally designed for the classic UI, or the touch-enabled UI, and/or both.
+Components can be implemented to support the touch-enabled UI, the classic UI or both. When looking at a standard instance you will also see out-of-the-box components that were originally designed for the classic UI, or the touch-enabled UI, or both.
 
 For this reason we will cover the basics of both, and how to recognize them, on this page.
 
@@ -73,7 +73,7 @@ This philosophy is supported by [HTL](https://helpx.adobe.com/experience-manager
 
 ### HTL vs JSP {#htl-vs-jsp}
 
-HTL is a HTML templating language, introduced with AEM 6.0.
+HTL is a HTML templating language introduced with AEM 6.0.
 
 The discussion of whether to use [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html) or JSP (Java Server Pages) when developing your own components should be straightforward as HTL is now the recommended scripting language for AEM.
 
@@ -115,12 +115,12 @@ Use the following tools to move your components to the publish instance:
     * This is a specific type of resource that is important for content management.
     * A page corresponds to a web page holding content for your website.
 
-* Paragraph system(s):
+* Paragraph systems:
 
     * The paragraph system is a key part of a website as it manages a list of paragraphs. It is used to hold and structure the individual components that hold the actual content.
     * You can create, move, copy, and delete paragraphs in the paragraph system.
     * You can also select the components to be available for use within a specific paragraph system.
-    * There are various paragraph systems available within a standard instance (e.g. `parsys`, ` [responsivegrid](/help/sites-authoring/responsive-layout.md)`).
+    * There are various paragraph systems available within a standard instance (for example `parsys`, ` [responsivegrid](/help/sites-authoring/responsive-layout.md)`).
 
 ## Structure {#structure}
 
@@ -231,7 +231,7 @@ The icon or abbreviation for the component is defined via JCR properties of the 
 
         * Larger icons will be downsized (client-side).
 
-    * The recommended color is rgb(112, 112, 112) -&gt; #707070
+    * The recommended color is rgb(112, 112, 112) &gt; #707070
     * The background of standard component icons is transparent.
     * Only `.png` and `.svg` files are supported.
     * If importing from the file system via Eclipse plugin, filenames need to be esacaped as `_cq_icon.png` or `_cq_icon.svg` for example.
@@ -382,12 +382,7 @@ A component is a node of type `cq:Component` and has the following properties an
    <td><code>virtual</code></td> 
    <td><code>sling:Folder</code></td> 
    <td>Enables creation of virtual components. To see an example, please look at the contact component at:<br /> <code>/libs/foundation/components/profile/form/contact</code></td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><code>&lt;breadcrumb.jsp&gt;</code></td> 
    <td><code>nt:file</code><br /> </td> 
@@ -455,7 +450,7 @@ Dialog definitions are specific to the UI:
 >* The [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md) is also provided to help you extend/convert components that only have dialogs defined for the classic UI.
 >
 
-* Touch-Enabled UI ``
+* Touch-Enabled UI
 
     * `cq:dialog` ( `nt:unstructured`) nodes:
 
@@ -474,7 +469,7 @@ Dialog definitions are specific to the UI:
 
   ![screen_shot_2012-02-13at60937pm](assets/screen_shot_2012-02-13at60937pm.png)
 
-* Classic UI ``
+* Classic UI
 
     * `dialog` ( `cq:Dialog`) nodes
 
@@ -493,7 +488,7 @@ Dialog definitions are specific to the UI:
 
   ![chlimage_1-244](assets/chlimage_1-244.png)
 
-  Within a classic dialog:
+  Within a classic dialog box:
 
     * you can create the dialog as `cq:Dialog`, which will provide a single tab - as in the text component, or if you need multiple tabs, as with the textimage component, the dialog can be defined as `cq:TabPanel`.
     * a `cq:WidgetCollection` ( `items`) is used to provide a base for either input fields ( `cq:Widget`) or further tabs ( `cq:Widget`). This hierarchy can be extended.

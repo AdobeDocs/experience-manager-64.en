@@ -151,7 +151,7 @@ The following HTTP request methods apply to:
 
 ### Managing Workflow Models {#managing-workflow-models}
 
-The following HTTP request methods apply to: ``
+The following HTTP request methods apply to:
 
 `http://localhost:4502/etc/workflow/models`
 
@@ -172,7 +172,7 @@ The following HTTP request methods apply to: ``
  </tbody> 
 </table>
 
-Example: in the browser, a request to `` `http://localhost:4502/etc/workflow/models.json` generates a json response similar to the following:
+Example: in the browser, a request to `http://localhost:4502/etc/workflow/models.json` generates a json response similar to the following:
 
 ```
 [
@@ -238,7 +238,7 @@ The following HTTP request methods apply to:
 
 `http://localhost:4502*{uri}*`
 
-``Where * `{uri}`* is the path to the model node in the repository.
+Where `*{uri}*` is the path to the model node in the repository.
 
 <table> 
  <tbody> 
@@ -345,7 +345,7 @@ Example: in the browser, a request to `http://localhost:4502/var/workflow/models
 
 #### Managing a Workflow Model by its Version {#managing-a-workflow-model-by-its-version}
 
-The following HTTP request methods apply to: ``
+The following HTTP request methods apply to:
 
 `http://localhost:4502/etc/workflow/models/{id}.{version}`
 
@@ -355,7 +355,7 @@ The following HTTP request methods apply to: ``
 
 ### Managing (User) Inboxes {#managing-user-inboxes}
 
-The following HTTP request methods apply to: ``
+The following HTTP request methods apply to:
 
 `http://localhost:4502/bin/workflow/inbox`
 
@@ -636,7 +636,7 @@ wfSession.terminateWorkflow(workflow);
 
 #### Interacting with Workflow Instances - REST using curl {#interacting-with-workflow-instances-rest-using-curl}
 
-* **Starting a workflow **
+* **Starting a workflow**
 
   ```shell
   # starting a workflow
