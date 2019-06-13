@@ -57,7 +57,6 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Publishing Dynamic Media assets](publishing-dynamicmedia-assets.md)
     + [Invalidating your CDN cached content](invalidate-cdn-cached-content.md)
     + [Installing Feature Pack 18912 for bulk asset migration](bulk-ingest-migrate.md)
-    + [Video](s7-video.md)
     + [Adding Scene7 features to your page](scene7.md)
 + Extending Assets {#extending}
     + [Customizing and Extending Assets](extending-assets.md)
@@ -97,8 +96,9 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Configure asset tagging using the Smart Content Service](config-smart-tagging.md)
     + [Enabling duplicate detection](duplicate-detection.md)
     + [Enhanced sorting of assets in AEM](enhance-sort.md)
-    + [RICK BROUGH -MANAGING ASSETS Managing video assets](managing-video-assets.md)
-    + [RICK BROUGH -MANAGING ASSETS Organize digital assets](organize-assets.md)
+    + [Organize digital assets](organize-assets.md)
+    + [Video](s7-video.md)
+    + [Managing video assets](managing-video-assets.md)
 + 3D Assets {#3d}
     + [AEM 3D release notes](../release-notes/aem3d-release-notes.md)
     + [Working with 3D assets](3d-assets.md)
