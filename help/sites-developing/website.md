@@ -13,7 +13,7 @@ discoiquuid: 8d14017d-d311-45e9-8aea-4a5ca46f1a07
 
 # Create a Fully-Featured Website (JSP){#create-a-fully-featured-website-jsp}
 
->[!NOTE]
+>[!CAUTION]
 >
 >This article describes how to create a website using JSP and based on the classic UI. Adobe recommends leveraging the latest AEM technologies for your websites as described in detail in the article [Getting Started Developing AEM Sites](/help/sites-developing/getting-started.md).
 
