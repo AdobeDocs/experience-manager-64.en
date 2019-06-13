@@ -30,7 +30,7 @@ To allow communication between AEM and Adobe Stock, create an IMS configuration 
 
 ### Create an IMS configuration {#create-an-ims-configuration}
 
-1. Navigate to **[!UICONTROL AEM]** > **[!UICONTROL Tools]** > **[!UICONTROL Security]** > A **[!UICONTROL dobe IMS Configurations]**. Click **[!UICONTROL Create]** and select **[!UICONTROL Cloud Solution]** > **[!UICONTROL Adobe Stock]**.
+1. Navigate to **[!UICONTROL AEM]** > **[!UICONTROL Tools]** > **[!UICONTROL Security]** > **[!UICONTROL Adobe IMS Configurations]**. Click **[!UICONTROL Create]** and select **[!UICONTROL Cloud Solution]** > **[!UICONTROL Adobe Stock]**.
 1. Either reuse an existing certificate or select **[!UICONTROL Create new certificate]**.
 1. Click **[!UICONTROL Create certificate]**. Once created, download the public key. Click **[!UICONTROL Next]**.
 1. Provide appropriate values in the fields titled **[!UICONTROL Title]**, **[!UICONTROL Authorization Server]**, **[!UICONTROL API Key]**, **[!UICONTROL Client Secret]**, and **[!UICONTROL Payload]**. See [JWT authentication quick start](https://www.adobe.io/authentication/auth-methods.html#!adobeio/adobeio-documentation/master/auth/JWTAuthenticationQuickStart.md), for detailed information to fetch these values from Adobe I/O.
@@ -58,7 +58,7 @@ Once an Adobe Stock asset is licensed in AEM, it can be used and managed like a 
 
 ![Search for Adobe Stock assets and filter results from your AEM workspace](assets/adobe-stock-search-results-workspace.png)
 
-Search for Adobe Stock assets and filter results from your AEM workspace
+&nbsp; &nbsp; &nbsp; &nbsp; Search for Adobe Stock assets and filter results from your AEM workspace
 
 **A.** Search assets similar to the assets whose Adobe Stock ID is provided. **B.** Search assets that match your selection of shape or orientation. **C.** Search for one of more supported asset types **D.** Open or collapse the filters pane **E.** License and save the selected asset in AEM **F.** Save the asset in AEM with watermark **G.** Explore assets on Adobe Stock website that are similar to the selected asset **H.** View the selected assets on Adobe Stock website **I.** Number of selected assets from the search results **J.** Switch between Card view and List view
 
@@ -70,7 +70,7 @@ Your AEM users, can search for assets in both, AEM and Adobe Stock. When the sea
 
 * To search for assets across Adobe Stock and AEM Assets, click the search icon ![search_icon](assets/search_icon.png).
 
-Alternatively, start typing ' `Location: Adobe Stock`' in the search bar to select Adobe Stock assets.  AEM offers advanced filtering capabilities on the searched assets, allowing users to quickly zero-in on the required assets using filters, like types of supported assets, image orientation, and licensed state.
+Alternatively, start typing `Location: Adobe Stock` in the search bar to select Adobe Stock assets.  AEM offers advanced filtering capabilities on the searched assets, allowing users to quickly zero-in on the required assets using filters, such as types of supported assets, image orientation, and licensed state.
 
 >[!NOTE]
 >
