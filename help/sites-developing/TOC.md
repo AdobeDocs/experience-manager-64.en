@@ -137,13 +137,13 @@ user-guide-title: AEM 6.4 Developing User Guide
     + Client Context{#client-context}
       + [Client Context in Detail](client-context.md)
       + [Client Context Javascript API](ccjsapi.md)
-+ Extending AEM{#extendingaem}
++ Extending AEM{#extending-aem}
     + [Customizing Page Authoring](customizing-page-authoring-touch.md)
     + [Customizing the Consoles](customizing-consoles-touch.md)
     + [Customizing Views of Page Properties](page-properties-views.md)
     + [Configuring your Page for Bulk Editing of Page Properties](bulk-editing.md)
     + [Customizing and Extending Content Fragments](customizing-content-fragments.md)
-    + Extending Workflows{#workflows}
+    + Extending Workflows{#extending-workflows}
       + [Developing and Extending Workflows](workflows.md)
       + [Creating Workflow Models](workflows-models.md)
       + [Extending Workflow Functionality](workflows-customizing-extending.md)
@@ -152,16 +152,16 @@ user-guide-title: AEM 6.4 Developing User Guide
       + [Workflow Best Practices](workflows-best-practices.md)
       + [Workflow Process Reference](workflows-process-ref.md)
     + [Extending the Multi Site Manager](extending-msm.md)
-    + Tracking and Analytics{#analytics}
+    + Tracking and Analytics{#extending-analytics}
       + [Extending Event Tracking](extending-analytics.md)
       + [Adding Adobe Analytics Tracking to Components](extending-analytics-components.md)
       + [Customizing the Adobe Analytics Framework](extending-analytics-framework.md)
       + [Implementing Server-Side Page Naming for Analytics](extending-analytics-pa-naming.md)
-    + Cloud Services{#cloud-services}
+    + Cloud Services{#extending-cloud-services}
       + [Cloud Service Configurations](extending-cloud-config.md)
       + [Creating a Custom Cloud Service](extending-cloud-config-custom-cloud.md)
     + [Creating Custom Extensions](extending-campaign-extensions.md)
-    + Forms{#}
+    + Forms{#extending-forms}
       + [Creating Custom Form Mappings](extending-campaign-form-mapping.md)
       + [Creating Custom AEM Page Template with Adobe Campaign Form Components](extending-campaign-custom-template.md)
       + [Request Analysis Script](analyze-request.md)
