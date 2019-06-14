@@ -132,7 +132,7 @@ The last step consists in adapting the nodes structure of the Websites Administr
 1. Copy the node `/apps/wcm/core/content/siteadmin/grid/assets` to `/apps/wcm/core/content/siteadmin/grid/geometrixx` and changes its properties:
 
     * Remove **pageText** 
-    * Set **pathRegex** `` to `/content/geometrixx(/.*)?`
+    * Set **pathRegex** to `/content/geometrixx(/.*)?`
 
       This will make the grid configuration active for all geometrixx websites.
 

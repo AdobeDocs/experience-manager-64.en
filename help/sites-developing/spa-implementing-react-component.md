@@ -17,6 +17,11 @@ Single page applications (SPAs) can offer compelling experiences for website use
 
 The SPA authoring feature offers a comprehensive solution for supporting SPAs within AEM. This article presents an example of how to adapt a simple, existing React component to work with the AEM SPA Editor.
 
+>[!NOTE]
+>The Single-Page Application (SPA) Editor feature requires AEM 6.4 service pack 2 or newer.
+>
+>The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React or Angular).
+
 ## Introduction {#introduction}
 
 Thanks to the simple and lightweight contract that is required by AEM and established between the SPA and the SPA Editor, taking an existing Javascript application and adapting it for use with an SPA in AEM is a straightforward matter.
@@ -24,6 +29,11 @@ Thanks to the simple and lightweight contract that is required by AEM and establ
 This article illustrates the example of the weather component on the We.Retail Journal sample SPA.
 
 You should be familiar with the [structure of an SPA application for AEM](/help/sites-developing/spa-getting-started-react.md) before reading this article.
+
+>[!CAUTION]
+>This document uses the [We.Retail Journal app](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal) for demonstration purposes only. It should not be used for any project work.
+>
+>All SPA projects on AEM should be based on the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype).
 
 ## The Weather Component {#the-weather-component}
 

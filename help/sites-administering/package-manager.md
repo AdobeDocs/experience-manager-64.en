@@ -656,7 +656,7 @@ To delete a package from the Package Manager list(s):
 
 1. Click the package you want to delete so that it is highlighted and then either:
 
-    * Click **Delete **in the toolbar menu.
+    * Click **Delete** in the toolbar menu.
     * Right-click and select **Delete**.
 
    ![packagesdelete](assets/packagesdelete.png)
@@ -849,7 +849,7 @@ To upload packages your the company-internal Package Share:
 >[!CAUTION]
 >
 >To upload a package to Package Share, you first have to create a group folder named after your company on your local Package Manager. For example, geometrixx. All packages to be uploaded for sharing must be placed in this group folder.  
-
+>
 >
 >Packages in the Package Manager home list or in other folders cannot be shared.
 

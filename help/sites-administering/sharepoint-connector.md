@@ -209,7 +209,7 @@ Go to: [http://localhost:4502/system/console/bundles](http://localhost:4502/syst
 1. Search “Day JCR Connector for Microsoft Sharepoint”
 1. Click “Edit the configuration values”
 1. Set the value of ‘Sharepoint Connection Factory’ as ‘com.day.crx.spi.sharepoint.security.FormsBasedAuthenticationConnectionFactory’
-1. Click [Save]
+1. Click **Save**
 
 **Configuring Basic Authentication (Windows)**
 
@@ -219,7 +219,7 @@ Go to: [http://localhost:4502/system/console/bundles](http://localhost:4502/syst
 1. Search for **Day JCR Connector for Microsoft Sharepoint**.
 1. Click `Edit the configuration values`.
 1. Set the value of Sharepoint Connection Factory to `com.day.crx.spi.sharepoint.security.WindowsAuthenticationConnectionFactory`.
-1. Click Save.
+1. Click **Save**.
 
 Only a user who is authenticated on both AEM and SharePoint can access the SharePoint content through the connector.
 
@@ -231,7 +231,7 @@ To create a user in AEM:
 1. Click Tools.
 1. Click Security.
 1. Click Users.
-1. Click [Create User]
+1. Click **Create User**
 1. Provide the user ID (User name having access on SharePoint)
 1. Provide the corresponding password
 1. Click the Green tick symbol to create the user
@@ -239,9 +239,9 @@ To create a user in AEM:
 To add the user in the admin group:
 
 1. Go to Group Administration
-1. Click ‘a’ node
+1. Click the ‘a’ node
 1. Click ‘administrators’
-1. Type the user ID create above in the text box before [Browse] button
+1. Type the user ID create above in the text box before **Browse** button
 1. Click the Green tick symbol to add the user to admin group
 
 ### Disable Token Authentication {#disable-token-authentication}

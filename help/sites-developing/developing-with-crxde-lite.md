@@ -17,7 +17,8 @@ This section describes how to develop your AEM application using CRXDE Lite.
 
 Please refer to the overview documentation for more information on the different development environments that are available.
 
-CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser. With CRXDE Lite, you can create a project, create and edit files (like .jsp and .java), folders, templates, components, dialogs, nodes, properties and bundles while logging and integrating with SVN.  
+CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser. With CRXDE Lite, you can create a project, create and edit files (like .jsp and .java), folders, templates, components, dialogs, nodes, properties and bundles while logging and integrating with SVN.
+
 CRXDE Lite is recommended when you do not have direct access to the AEM server, when you develop an application by extending or modifying the out-of-the-box components and Java bundles or when you do not need a dedicated debugger, code completion and syntax highlighting.
 
 >[!NOTE]
@@ -173,11 +174,13 @@ The following nodes are created:
 
 * `/apps/<project-name>/install`: the compiled bundles container, containing the compiled sample project bundle.
 * `/content/<project-name>`: the content container.
-* /etc/packages/&lt;java-suffix&gt;/&lt;project-name&gt;.zip, a package wrapping all the project app and content. You can use it to rebuild the project for further deployment (e.g. to other environments) or for sharing through Package Share.
+* `/etc/packages/<java-suffix>/<project-name>.zip`, a package wrapping all the project app and content. You can use it to rebuild the project for further deployment (e.g. to other environments) or for sharing through Package Share.
 
 The structure looks as follows in CRXDE Lite with a project called **myproject** and a java package suffix called **mycompany**:
 
-![chlimage_1-239](assets/chlimage_1-239.png) ![chlimage_1-240](assets/chlimage_1-240.png) 
+![chlimage_1-239](assets/chlimage_1-239.png) 
+
+![chlimage_1-240](assets/chlimage_1-240.png) 
 
 ### Creating a Folder {#creating-a-folder}
 
@@ -217,7 +220,7 @@ You can add properties to your template: refer to the [Creating a Property](#cre
 
 ### Creating a Component {#creating-a-component}
 
-The feature described here is only available if CQ5 is installed, that is if the node type `cq:Component` is available in the repository.
+The feature described here is only available if the node type `cq:Component` is available in the repository.
 
 To create a component with CRXDE Lite:
 
@@ -408,13 +411,15 @@ To create the `HelloWorld` Java class within the Test Bundle:
 1. The `HelloWorld.java` file opens in the Edit pane.
 1. Add the following lines into `HelloWorld.java`:
 
+   ```
    package com.mycompany.test;  
   
    public class HelloWorld { 
-   public String getString(){ 
-   return "Hello World!"; 
-   } 
+     public String getString(){ 
+     return "Hello World!"; 
+     } 
    }
+   ```
 
 1. Click **Save All** to save the changes on the server.
 
@@ -437,7 +442,7 @@ To see the effect of the Test Bundle, create a component that uses the Java meth
 
 1. Edit `mycomp.jsp` and replace the code with the following lines:
 
- ```
+   ```
    <%@ page import="com.mycompany.test.HelloWorld"%><% 
    %><%@ include file="/libs/foundation/global.jsp"%><% 
    %><% HelloWorld hello = new HelloWorld();%><% 
@@ -467,14 +472,14 @@ To export a node type definition:
 
 1. Open CRXDE Lite in your browser.
 1. Select your required node.
-1. Select **Tools **then **Export Node Type**.
+1. Select **Tools** then **Export Node Type**.
 
 1. The definition, in cnd notation will be displayed in your browser. Save the information if required.
 
 To import a node type definition:
 
 1. Open CRXDE Lite in your browser.
-1. Select **Tools **then **Import Node Type...**.
+1. Select **Tools** then **Import Node Type...**.
 
 1. Enter the CND notation for the definition n the text box.
 1. Check **Allow Update** if you are updating an existing definition.
