@@ -535,7 +535,7 @@ The [Reset action is also available from the Live Copy Overview](/help/sites-adm
 
 1. Open the [Live Copy Overview](/help/sites-administering/msm-livecopy-overview.md#using-the-live-copy-overview) and select a Live Copy Page.
 1. Select **Reset** from the toolbar.
-1. Confirm the **Reset** action in the **Reset Live Copy **dialog:
+1. Confirm the **Reset** action in the **Reset Live Copy** dialog:
 
    ![chlimage_1-234](assets/chlimage_1-234.png)
 
@@ -617,7 +617,7 @@ The [Detach action is also available from the Live Copy Overview](/help/sites-ad
 
 1. Open the [Live Copy Overview](/help/sites-administering/msm-livecopy-overview.md#using-the-live-copy-overview) and select a Live Copy Page.
 1. Select **Detach** from the toolbar.
-1. Confirm the **Detach** action in the **Detach Live Copy **dialog:
+1. Confirm the **Detach** action in the **Detach Live Copy** dialog:
 
    ![chlimage_1-237](assets/chlimage_1-237.png)
 

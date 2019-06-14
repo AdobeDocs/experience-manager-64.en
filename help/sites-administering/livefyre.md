@@ -25,7 +25,7 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
 >
 >Some features of the AEM-LF package depend on Social Component Framework (SCF). If you are using the Livefyre feature pack as part of a non-communities site, you must declare *cq.social.scf* as a dependency in the author clientlibs of the website. If you are using the LF feature pack as part of a communities website, this dependency should already be declared.
 
-1. From the AEM homepage, click the **Tools **icon on the left rail.
+1. From the AEM homepage, click the **Tools** icon on the left rail.
 1. Navigate to **Deployment &gt; Packages**.
 1. In the Package Manager, scroll until you see the pre-installed Livefyre feature package, then click the package title **cq-social-livefyre-pkg-1.2.6.zip** to expand the options.
 1. Click **More &gt; Uninstall**.
@@ -53,8 +53,8 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
 
 ### Configure AEM to use Livefyre: Create a Configuration Folder {#configure-aem-to-use-livefyre-create-a-configuration-folder}
 
-1. From the AEM homepage, click the **Tools **icon in the left rail, then navigate to **General &gt; Configuration Browser**.
-1. Click **Create **to open the Create Configuration dialog.
+1. From the AEM homepage, click the **Tools** icon in the left rail, then navigate to **General &gt; Configuration Browser**.
+1. Click **Create** to open the Create Configuration dialog.
 1. Name your confguration and check the **Cloud Configurations** checkbox.   
   
    This will create a folder under **Tools &gt; Deployment &gt; Livefyre Configuration** with the name provided.
@@ -65,7 +65,7 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
 
 Configure AEM to use your organization's Livefyre license credentials, allowing communication between Livefyre and AEM.
 
-1. From the AEM homepage, click the **Tools **icon in the left rail, then navigate to **Deployment &gt; Livefyre Configuration**.
+1. From the AEM homepage, click the **Tools** icon in the left rail, then navigate to **Deployment &gt; Livefyre Configuration**.
 1. Select the configuration folder in which you want to create a new Livefyre configuration, then click **Create**.
 
    ![create-livefyre-configuration1](assets/create-livefyre-configuration1.png)
@@ -115,7 +115,7 @@ Once Livefyre is enabled for the page, containers must be configured to allow Li
 >
 >Apps requiring authentication to post do not function until authentication is configured in Customize Single Sign-on Integration.
 
-1. From the **Components **side panel in design mode, select **Livefyre **from the menu to limit the list to available Livefyre components.
+1. From the **Components** side panel in design mode, select **Livefyre** from the menu to limit the list to available Livefyre components.
 
    ![livefyre-add](assets/livefyre-add.png)
 
@@ -157,8 +157,8 @@ To import UGC into AEM Assets:
     * From Livefyre by clicking the UGC Library tab. Use the filters and search to find content from the UGC Library.
     * From Twitter and Instagram by clicking the Twitter or Instagram tab. Use the search or filters to find content.
 
-1. Select the assets you want to import. The assets you select are automatically counted and saved under the **Selected **tab.
-1. **Optional**: Click the **Selected **tab and review your selected UGC content to import.
+1. Select the assets you want to import. The assets you select are automatically counted and saved under the **Selected** tab.
+1. **Optional**: Click the **Selected** tab and review your selected UGC content to import.
 1. Click **Next**.
 
    ![livefyre-aem-import-ugc2](assets/livefyre-aem-import-ugc2.png)
@@ -178,8 +178,8 @@ To import UGC into AEM Assets:
 
    For Twitter:
 
-    * **Message Author **to send a message to the content owner requesting rights to the asset.
-    * **Manually Attribute Content Rights **to override the rights for individual assets.
+    * **Message Author** to send a message to the content owner requesting rights to the asset.
+    * **Manually Attribute Content Rights** to override the rights for individual assets.
 
 1. Click **Import**.
 

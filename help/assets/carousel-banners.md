@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4b532cd3-1561-4b5c-8b4b-420c278926f0
 ---
 
-# Carousel Banners{#carousel-banners}
+# Carousel Banners {#carousel-banners}
 
 Carousel banners enable marketers to drive conversion by easily creating interactive rotating promotional content and delivering it to any screen.
 

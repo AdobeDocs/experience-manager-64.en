@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9705a088-c982-4097-a732-7ec11dc1ad41
 ---
 
-# Best practices for organizing your digital assets for using profiles{#best-practices-for-organizing-your-digital-assets-for-using-profiles}
+# Best practices to organize digital assets to use profiles {#best-practices-for-organizing-your-digital-assets-for-using-profiles}
 
 An important concept regarding the use of profiles in AEM Assets is that they are assigned to folders. Within a profile are settings in the form of metadata profiles, along with video profiles or image profiles. These settings process the contents of a folder along with any of its sub-folders. Therefore, how you name files and folders, how you arrange sub-folders, and how you handle the files within these folders has a significant impact on how those assets are processed by a profile.
 

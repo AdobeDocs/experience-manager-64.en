@@ -4,7 +4,7 @@ seo-title: Enabling Asset Insights through DTM
 description: Learn how to use Adobe Dynamic Tag Management (DTM )to enable Asset Insights.
 seo-description: Learn how to use Adobe Dynamic Tag Management (DTM )to enable Asset Insights.
 uuid: fd548ee7-559a-4d72-8d80-af4514151ca6
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference

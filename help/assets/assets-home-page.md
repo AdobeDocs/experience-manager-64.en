@@ -4,14 +4,14 @@ seo-title: AEM Assets Home Page Experience
 description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 seo-description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 uuid: 787ebcc3-9c20-4e25-8ce5-ecba1b42d123
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: c7d6bac8-0897-4a5e-a286-823968dfb52e
 ---
 
-# AEM Assets Home Page Experience{#aem-assets-home-page-experience}
+# AEM Assets Home Page Experience {#aem-assets-home-page-experience}
 
 Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 
@@ -19,7 +19,7 @@ The Adobe Experience Manager (AEM) Assets Home page provides a rich and personal
 
 The Assets Home page is disabled by default. To enable it, perform the following steps:
 
-1. Go to Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+1. Open AEM Configuration Manager `https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr`.
 1. Open the **Day CQ DAM Event Recorder** service.
 1. Select the **Enable this service** to enable activity recording.
 

@@ -111,9 +111,9 @@ Here is a list of AEM Desktop App highlights added since AEM 6.3 was released:
 
 For easier access to the documentation and best practices, the following documentation is available:
 
-* [User Guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), aimed at end users working with the application
-* [Best Practices Guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html), aimed at end users and administrators
-* Configuration Guide, aimed at administrators setting up AEM and AEM Desktop App to work together
+* [User guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), aimed at end users working with the application
+* [Best practices guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html), aimed at end users and administrators
+* [Installation guide](https://helpx.adobe.com/experience-manager/desktop-app/install-configure-aem-desktop-app.html), aimed at administrators setting up AEM and AEM desktop app to work together
 
 ## Tiered Storage {#tiered-storage}
 
@@ -122,7 +122,7 @@ AEM 6.4 includes a set of features that support various tiered storage preferenc
 * The ability for users to select and later change storage class at will, and define rules for storage of assets from one class to another or manage the lifecycle of their assets.
 * The ability for users to lower their storage cost by selecting a different AWS or Azure.
 
-For an overview of supported platforms, please refer to the [Technical Requirements Documentation](/help/sites-deploying/technical-requirements.md).
+For an overview of supported platforms, please refer to the [Technical Requirements Documentation](../sites-deploying/technical-requirements.md).
 
 ## Closed User Group {#closed-user-group}
 
@@ -137,14 +137,14 @@ In this mode (introduced first with the release of [AEM 6.3 Feature Packs 14410 
 
 In addition, AEM 6.4 introduces new features powered by Adobe Sensei, enhancements for emerging media like VR and 3D, Dynamic Media viewers, and support for Experience Fragments in Interactive Images and Carousel Banners.
 
-### Smart Crop (Powered by Adobe Sensei) {#smart-crop-powered-by-adobe-sensei}
+### Smart Crop (powered by Adobe Sensei) {#smart-crop-powered-by-adobe-sensei}
 
 * Smart Crop automatically provides non-destructive cropping of images to preserve the point of interest for responsive design. You can preview cropped suggestions and manually adjust them, if necessary.
 * This feature also enables automated swatch generation for product imagery. Automated swatch generation helps to add color swatches, pattern swatches, or both to product images automatically.
 
-See [Image Profiles](/help/assets/image-profiles.md) documentation to learn more.
+See [Image Profiles](../assets/image-profiles.md) documentation to learn more.
 
-See also [Adding Dynamic Media Assets to Pages](/help/assets/adding-dynamic-media-assets-to-pages.md) documentation to learn more about using Smart Crop with the Dynamic Media component.
+See also [Adding Dynamic Media Assets to Pages](../assets/adding-dynamic-media-assets-to-pages.md) documentation to learn more about using Smart Crop with the Dynamic Media component.
 
 ### Smart Imaging {#smart-imaging}
 
@@ -152,12 +152,12 @@ See also [Adding Dynamic Media Assets to Pages](/help/assets/adding-dynamic-medi
 * Images are automatically converted to different formats based on browser capabilities.
 * Image quality settings are determined in the browser and applied respectively. This intelligence keeps image loading performance acceptable for limited bandwidth and slow connection speeds.
 
-See [Smart Imaging](/help/assets/imaging-faq.md) documentation to learn more.
+See [Smart Imaging](../assets/imaging-faq.md) documentation to learn more.
 
 ### Emerging Media &amp; Viewer Enhancements {#emerging-media-amp-viewer-enhancements}
 
 * New viewers are supported, providing better, immersive experiences for the user.
-* Panoramic Viewer helps engage the user and provide ability to better experience room scenes, properites, locations, and landscapes. See [Panoramic Images](/help/assets/panoramic-images.md) documentation to learn.  
+* Panoramic Viewer helps engage the user and provide ability to better experience room scenes, properites, locations, and landscapes. See [Panoramic Images](../assets/panoramic-images.md) documentation to learn.  
 
 * VR Viewer provides immersive experience for properites, locations, and landscapes.
 * Vertical Image Viewer optimized for product imagery.

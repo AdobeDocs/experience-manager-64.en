@@ -42,7 +42,7 @@ The following translation vendors provide an implementation of the new API for t
 >[!NOTE]
 >
 >To find the latest list of human and machine translation providers, have a look at these pages:  
-
+>
 >
 >* [AEM Human Translation](https://www.adobe.com/go/aem-human-translation-connectors)
 >* [AEM Machine Translation](https://www.adobe.com/go/aem-machine-translation-connectors)

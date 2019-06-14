@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 32143da1-09c8-45ce-b50d-32adf6efe383
 ---
 
-# Working with 3D assets{#working-with-d-assets}
+# Working with 3D assets {#working-with-d-assets}
 
 AEM 3D (Adobe Experience Manager 3D) lets you upload, manage, view, and render 3D content. Support for viewing and rendering is optimized for individual objects.
 

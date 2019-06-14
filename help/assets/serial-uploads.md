@@ -4,7 +4,7 @@ seo-title: Serial Uploads
 description: Learn how AEM Assets one asset at a time when assets are uploaded in bulk and the benefits of serial uploads.
 seo-description: Learn how AEM Assets one asset at a time when assets are uploaded in bulk and the benefits of serial uploads.
 uuid: b19ff287-7391-4a06-8ae5-27310e8c537a
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference

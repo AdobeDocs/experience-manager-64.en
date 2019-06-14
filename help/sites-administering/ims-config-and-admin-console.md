@@ -118,12 +118,12 @@ More information about the new group features can be found here:
 >[!NOTE]
 >
 >For more information regarding the User Sync Tool, refer to the [documentation page](https://adobe-apiplatform.github.io/user-sync.py/en/).  
-
+>
 >
 >The User Sync Tool needs to register as an Adobe I/O client UMAPI using the procedure described [here](https://adobe-apiplatform.github.io/umapi-documentation/en/UM_Authentication.html).
 >
 >The Adobe I/O Console Documentation can be found [here](https://www.adobe.io/apis/cloudplatform/console.html).   
-
+>
 >
 >The User Management API that is used by the User Sync Tool is covered at this [location](https://www.adobe.io/apis/cloudplatform/umapi-new.html).
 
@@ -197,7 +197,7 @@ Access control and permissions will continue to be managed in AEM, this can be a
 
 In the example below, we are adding synced groups to the local *Dam_Users* group as an example.
 
-Here, a user has also been assigned to a few groups in the Admin Console. ( Please note that the users and groups can be synced from LDAP using the user sync tool or created locally, please see the section **Onboarding Users to the Admin Console **above).
+Here, a user has also been assigned to a few groups in the Admin Console. ( Please note that the users and groups can be synced from LDAP using the user sync tool or created locally, please see the section **Onboarding Users to the Admin Console** above).
 
 &ast;Note that user groups only get synced when the users log in to the instance, for customers that have a large number of users and groups, a Group Sync utility can be run by AMS to pre-fetch groups for access control and permissions management described above.
 

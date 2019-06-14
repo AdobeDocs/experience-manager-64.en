@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 7787f4d8-8de1-47f8-9847-69c543110ffd
 ---
 
-# Configure AEM Assets integration with Brand Portal{#configure-aem-assets-integration-with-brand-portal}
+# Configure AEM Assets integration with Brand Portal {#configure-aem-assets-integration-with-brand-portal}
 
 Learn how to integrate AEM Assets with Brand Portal for publishing assets and collections to Brand Portal. 
 
