@@ -162,7 +162,4 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [WebDAV Access](webdav-access.md)
 + Deleted section Remove duplicates and move others to sections above {#deleted}
     + [AEM FAQs](aem-faqs.md)
-    + [REDIRECT Video Playback Configuration and Troubleshooting](troubleshoot-videos.md)
-    + [REDIRECT Monitoring and Troubleshooting Performance](monitoring-screens.md)
-    + [REDIRECT Setting up ACLs](setting-up-acls.md)
     + [Content Disposition Filter](content-disposition-filter.md)
