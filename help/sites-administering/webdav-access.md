@@ -175,7 +175,7 @@ Windows has now mapped AEM as a drive via WebDAV and you can use it as any other
 
 There are no configuration steps required to connect via WebDAV on macOS. You simply need to connect to the WebDAV server.
 
-1. Navigate to any **Finder **window and click **Go **and **Connect to Server**, or press **Command+k**.
+1. Navigate to any **Finder** window and click **Go** and **Connect to Server**, or press **Command+k**.
 1. In the **Connect to Server** window, enter the AEM location:
 
     * `http://localhost:4502`
@@ -197,7 +197,7 @@ Connecting via WebDAV on Linux doesn't require any configuration, but does invol
 To connect to AEM via WebDAV with GNOME:
 
 1. In Nautilus (file explorer), select **Places** and select **Connect to Server**.
-1. In the **Connect to Server **window, select WebDAV (HTTP) in Service Type.  
+1. In the **Connect to Server** window, select WebDAV (HTTP) in Service Type.  
 
 1. In **Server**, enter `http://localhost:4502/crx/repository/crx.default`
 
@@ -205,8 +205,8 @@ To connect to AEM via WebDAV with GNOME:
    >
    >If AEM is located on another port, use that port number instead of 4502. Also, if you are not running the content repository on your local machine, replace `localhost` with the respective server name or IP address.
 
-1. In** Folder**, enter `/dav`
-1. Enter the username `admin`*. *Adobe recommends that you use the pre-configured admin account for testing.
+1. In **Folder**, enter `/dav`
+1. Enter the username `admin`. Adobe recommends that you use the pre-configured admin account for testing.
 1. Leave the port blank and enter any name for your connection.
 1. Click **Connect**. AEM prompts you for your password.
 1. Enter the password `admin` and click **Connect**.
@@ -216,7 +216,7 @@ GNOME has now mounted AEM as a volume and you can use it like any other volume.
 #### KDE {#kde}
 
 1. Open the Network Folder wizard.
-1. Select **WebFolder **(webdav) and click Next.
+1. Select **WebFolder**(webdav) and click Next.
 1. In **Name**, type a connection name.
 1. In **User**, enter `admin.` Adobe recommends that you use the pre-configured admin account.
 1. In **Server**, enter `http://localhost:4502/crx/repository/crx.default`
