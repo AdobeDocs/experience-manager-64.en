@@ -34,8 +34,6 @@ The Pattern Detector is released separately as a [one package](https://www.adobe
 >
 >* increase the detection rate
 >* avoid any slowdowns on business critical instances  
-  
->
 >both at the same time it is recommended to run it **on staging environments** that are as close as possible to production ones in the areas of user applications, content and configurations.
 
 You can use several methods to check the Pattern Detector output:
@@ -49,7 +47,7 @@ You can use several methods to check the Pattern Detector output:
 
 * **Via a reactive text based or regular JSON interface** 
 
-* **Via a reactive JSON lines interface, **that generates a separate JSON document in each line.
+* **Via a reactive JSON lines interface**, that generates a separate JSON document in each line.
 
 Both of these methods are detailed below:
 
