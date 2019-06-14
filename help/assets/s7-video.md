@@ -1,8 +1,8 @@
 ---
 title: Video
 seo-title: Video
-description: Learn about the centralized video asset management AEM Assets where you can upload videos for auto-encoding to Scene7 and access Scene7 videos directly from AEM Assets. Scene7 video integration extends the reach of optimized video to all screens.
-seo-description: Learn about the centralized video asset management AEM Assets where you can upload videos for auto-encoding to Scene7 and access Scene7 videos directly from AEM Assets. Scene7 video integration extends the reach of optimized video to all screens.
+description: Learn about the centralized video asset management AEM Assets where you can upload videos for auto-encoding to Dynamic Media Classic and access Dynamic Media Classic videos directly from AEM Assets. Dynamic Media Classic video integration extends the reach of optimized video to all screens.
+seo-description: Learn about the centralized video asset management AEM Assets where you can upload videos for auto-encoding to Dynamic Media Classic and access Dynamic Media Classic videos directly from AEM Assets. Dynamic Media Classic video integration extends the reach of optimized video to all screens.
 uuid: 8b3423f1-d96b-44d9-bdb7-e3b77875b25d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -13,21 +13,21 @@ discoiquuid: 2685f9f3-0973-40a9-89b8-e7db0a6a75f2
 
 # Video{#video}
 
-Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Scene7 and access Scene7 videos directly from Assets for page authoring.
+Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Dynamic Media Classic (Scene7) and access Dynamic Media Classic videos directly from Assets for page authoring.
 
-Scene7 video integration extends the reach of optimized video to all screens (auto device and bandwidth detection).
+Dynamic Media Classic video integration extends the reach of optimized video to all screens (auto device and bandwidth detection).
 
-* The **Scene7 video** component automatically performs device and bandwidth detection to play the right format and right quality video across desktop, tablets and mobile.
+* The **[!UICONTROL Scene7 Video]** component automatically performs device and bandwidth detection to play the right format and right quality video across desktop, tablets and mobile.
 * Assets - You can include adaptive video sets rather than only single video assets. An adaptive video set is a container for all video renditions required to playback video seamlessly across multiple screens. An Adaptive Video Set groups versions of the same video that are encoded at different bit rates and formats such as 400 kbps, 800 kbps, and 1000 kbps. You use an Adaptive Video Set, along with S7 video component, for adaptive video streaming across multiple screens including desktop, iOS, Android, Blackberry, and Windows mobile devices. See [Scene7 documentation about adaptive video sets for more information](https://help.adobe.com/en_US/scene7/using/WS53492AE1-6029-45d8-BF80-F4B5CF33EB08.html).
 
-## About FFMPEG and Scene7 {#about-ffmpeg-and-scene}
+## About FFMPEG and Dynamic Media Classic {#about-ffmpeg-and-scene}
 
 The default video encoding process is based on using the FFMPEG-based integration with video profiles. Therefore, the out-of-the-box DAM ingestion workflow contains the following two ffmpeg-based workflow steps:
 
 * FFMPEG thumbnails
 * FFMPEG encoding
 
-Be aware that enabling and configuring the Scene7 integration does not automatically remove or deactivate these two workflow steps from the out-of-the-box DAM ingestion workflow. If you already make use of the FFMPEG-based video encoding in AEM, it is likely that you have FFMPEG installed on your authoring environments. In this case, a new video ingested using DAM would be encoded twice: once from the FFMPEG encoder and once from Scene7 integration.
+Be aware that enabling and configuring the Dynamic Media Classic integration does not automatically remove or deactivate these two workflow steps from the out-of-the-box DAM ingestion workflow. If you already make use of the FFMPEG-based video encoding in AEM, it is likely that you have FFMPEG installed on your authoring environments. In this case, a new video ingested using DAM would be encoded twice: once from the FFMPEG encoder and once from Dynamic Media Classic integration.
 
 If you have the FFMPEG-based video encoding in AEM configured and FFMPEG installed, Adobe recommends that you remove the two FFMPEG workflows from your DAM ingestion workflows.
 
@@ -45,23 +45,23 @@ Deciding where to upload your video assets depends on the following:
 * Do you need a workflow for the video asset?
 * Do you need version control for the video asset?
 
-If the answer is "yes" to either or both of these questions, then upload your video directly to Adobe DAM. If the answer is "no" to both questions, then upload your video directly to Scene7. The workflow for each scenario is described in the following section.
+If the answer is "yes" to either or both of these questions, then upload your video directly to Adobe DAM. If the answer is "no" to both questions, then upload your video directly to Dynamic Media Classic. The workflow for each scenario is described in the following section.
 
 ### If you are uploading your video directly to Adobe DAM {#if-you-are-uploading-your-video-directly-to-adobe-dam}
 
 If you need a workflow or versioning for your assets, you should upload to Adobe DAM first. The following is the recommended workflow:
 
-1. Upload the video asset to Adobe DAM and automatically encode and publish to Scene7.
+1. Upload the video asset to Adobe DAM and automatically encode and publish to Dynamic Media Classic.
 1. In AEM, access video assets in WCM in the **[!UICONTROL Movies]** tab of the Content Finder.
-1. Author with Scene7 video or foundation video component.
+1. Author with **[!UICONTROL Scene7 Video]** or **[!UICONTROL Foundation Video]** component.
 
 ### If you are uploading your video to Scene7 {#if-you-are-uploading-your-video-to-scene}
 
 If you do not need a workflow or versioning for your assets, you should upload your assets to Scene7. The following is the recommended workflow:
 
-1. In Scene7, [set up a scheduled FTP uploading and encoding to Scene7 (system automated)](https://help.adobe.com/en_US/scene7/using/WS70B173EC-4CAD-4b4c-BF9C-43A11F3A5950.html).
+1. In Dynamic Media Classic, [set up a scheduled FTP uploading and encoding to Scene7 (system automated)](https://help.adobe.com/en_US/scene7/using/WS70B173EC-4CAD-4b4c-BF9C-43A11F3A5950.html).
 1. In AEM, access video assets in WCM in the **[!UICONTROL Scene7]** tab of the Content Finder.
-1. Author with the Scene7 video component.
+1. Author with the **[!UICONTROL Scene7 Video]** component.
 
 ## Configuring Integration with Scene7 Video {#configuring-integration-with-scene-video}
 
@@ -163,17 +163,17 @@ The various video encodings are created according to the S7 encoding presets sel
 
 #### Configuring design {#configuring-design}
 
-The foundation video component must know about what video profiles to use in order to build the video sources list. You must open the video components design dialog box and configure the components design for using the new video profiles.
+The **[!UICONTROL Foundation Video]** component must know about what video profiles to use in order to build the video sources list. You must open the video components design dialog box and configure the components design for using the new video profiles.
 
 >[!NOTE]
 >
->If you use the foundation video component on a mobile page, you might need to repeat these steps on the design of the mobile page.
+>If you use the **[!UICONTROL Foundation Video]** component on a mobile page, you might need to repeat these steps on the design of the mobile page.
 
 >[!NOTE]
 >
 >Changes made to the design require activation of the design in order to take effect on publish.
 
-1. Open the foundation video component's design dialog box and change to the **[!UICONTROL Profiles]** tab. Then delete the out-of-the-box profiles and add the new S7 video profiles. The order of the profile list in the design dialog box defines the order of the video sources element when rendering.
+1. Open the **[!UICONTROL Foundation Video]** component's design dialog box and change to the **[!UICONTROL Profiles]** tab. Then delete the out-of-the-box profiles and add the new S7 video profiles. The order of the profile list in the design dialog box defines the order of the video sources element when rendering.
 1. For browsers not supporting HTML5, the video component allows to configure a Flash fallback. Open the video components design dialog box and change to the **[!UICONTROL Flash]** tab. Configure the Flash player settings and assign a fallback profile for the flash player.
 
 #### Checklist {#checklist}
@@ -181,6 +181,6 @@ The foundation video component must know about what video profiles to use in ord
 1. Create a S7 cloud config. Make sure the video encoding presets are set and the importer is running. 
 1. Create a S7 video profile for each video encoding preset selected in the cloud config.
 1. The video profiles must be activated.
-1. Configure the design of the foundation video component on your page.
+1. Configure the design of the **F[!UICONTROL oundation Video]** component on your page.
 1. Activate the design after you are done with your design changes.
 
