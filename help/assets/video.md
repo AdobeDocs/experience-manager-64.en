@@ -1,12 +1,12 @@
 ---
 title: Video
 seo-title: Video
-description: Learn how to work with video in dynamic media
-seo-description: Learn how to work with video in dynamic media
+description: Learn how to work with video in Dynamic Media
+seo-description: Learn how to work with video in Dynamic Media
 uuid: 15e89f88-2787-472d-bbb6-d370bbab9228
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: dynamic-media
+topic-tags: Dynamic-Media
 content-type: reference
 discoiquuid: b721dc7c-b056-47f5-9489-9f4db45b68a0
 ---
