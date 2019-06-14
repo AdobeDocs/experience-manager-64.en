@@ -334,7 +334,7 @@ Consider the following exceptions while choosing a platform to set up your AEM F
 1. AEM Forms on JEE doesn’t support any JDK with JBoss® other than Oracle Java™ SE.
 1. AEM Forms on JEE doesn’t support any JDK with IBM® WebSphere® other than IBM® JDK.
 1. AEM Forms on JEE doesn’t support IBM® DB2 with JBoss®.
-1. CRX-repository supports persistence of type TarMK, MongoDB, and relational databases (RDBMK). You cannot have 2 different database systems between the application server and the CRX-repository.
+1. CRX-repository supports persistence of type TarMK, MongoDB, and relational databases (RDBMK). You cannot have two different database systems between the application server and the CRX-repository. However, on an AEM Forms on JEE environment, you can use MongoMK with CRX-repository and a supported relational database with application server.
 1. AEM Forms on JEE does not support WebSphere application server on CentOS.
 1. AIX and Solaris operating systems are available only for upgrade customers.
 1. AEM Forms on JEE doesn’t support JBoss role based access control (RBAC).
