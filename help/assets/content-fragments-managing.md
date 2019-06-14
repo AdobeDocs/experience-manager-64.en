@@ -107,7 +107,6 @@ Select the fragment to reveal the toolbar with applicable actions:
   * This can also be done when [associating a collection with the fragment](content-fragments-assoc-content.md#adding-associated-content).
 
 * **Copy**/**Paste**
-
 * **Move**
 * **Quick Publish**
 * **Manage Publication**
