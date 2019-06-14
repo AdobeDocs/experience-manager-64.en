@@ -4,14 +4,14 @@ seo-title: Assets Migration Guide
 description: Describes how to bring assets into AEM, apply metadata, generate renditions, and activate them to publish instances.
 seo-description: Describes how to bring assets into AEM, apply metadata, generate renditions, and activate them to publish instances.
 uuid: 27190047-f5b5-4bfb-bf44-4df6e656247c
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: cb6ece20-f015-4e14-bc58-a9d88ab038b1
 ---
 
-# Assets Migration Guide{#assets-migration-guide}
+# Assets Migration Guide {#assets-migration-guide}
 
 When migrating assets into AEM, there are several steps to consider. Extracting assets and metadata out of their current home is outside the scope of this document as it varies widely between implementations, but this document describes how to bring these assets into AEM, apply their metadata, generate renditions, and activate them to publish instances.
 

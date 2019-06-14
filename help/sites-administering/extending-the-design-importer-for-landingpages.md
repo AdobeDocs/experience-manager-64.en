@@ -522,7 +522,7 @@ The below table briefly describes the properties:
 >
 >For example, if the default configuration is
 >
->`/\* *CQ_DESIGN_PATH *\*/ *(['"])`
+>`/\&ast *CQ_DESIGN_PATH *\*/ *(['"])`
 >
 >And you need to replace `CQ_DESIGN_PATH` with `VIPURL` in the search pattern, then your search pattern should look like this: 
 >

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 1cc84dd1-c899-409e-b514-424e1b619a3a
 ---
 
-# DO NOT PUBLISH - AEM Forms Components{#do-not-publish-aem-forms-components}
+# DO NOT PUBLISH - AEM Forms Components {#do-not-publish-aem-forms-components}
 
 The adaptive form components let you create fields in which your customers enter information. Properties of a component let you customize the usability of a component. For example, you add a text box component in your form, and it adds a text field. You can use the properties such as title, required field message, and default value to customize how a user interacts with the field and provides details.
 

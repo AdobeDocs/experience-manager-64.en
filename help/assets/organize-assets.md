@@ -4,7 +4,7 @@ seo-title: Organize Digital Assets
 description: null
 seo-description: null
 uuid: 167b74dd-eb64-4eae-ba20-17d181203493
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference

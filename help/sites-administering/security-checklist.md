@@ -78,7 +78,7 @@ For more information on changing the web console password, see [Changing the OSG
 
 #### Changing the OSGi web console admin password {#changing-the-osgi-web-console-admin-password}
 
-You must also change the password used for accessing the Web console. This is done by configuring the following properties of the [Apache Felix OSGi Management Console](/help/sites-deploying/osgi-configuration-settings.md:
+You must also change the password used for accessing the Web console. This is done by configuring the following properties of the [Apache Felix OSGi Management Console](/help/sites-deploying/osgi-configuration-settings.md):
 
 **User Name** and **Password**, the credentials for accessing the Apache Felix Web Management Console itself.  
 The password must be changed after the initial installation to ensure the security of your instance.
@@ -172,7 +172,7 @@ To configure the referrer filter service:
 
 1. Open the Apache Felix console (**Configurations**) at:
 
-   `https://<*server*>:<*port_number*>/system/console/configMgr`  
+   `https://<server>:<port_number>/system/console/configMgr`  
 
 1. Login as `admin`.
 1. In the **Configurations** menu, select:
@@ -209,7 +209,7 @@ Some OSGI settings are set by default to allow easier debugging of the applicati
 
 For each of the following services the specified settings need to be changed:
 
-* [Adobe Granite HTML Library Manager](/help/sites-deploying/osgi-configuration-settings.md:
+* [Adobe Granite HTML Library Manager](/help/sites-deploying/osgi-configuration-settings.md):
 
     * enable **Minify** (to remove CRLF and whitespace characters).
     * enable **Gzip** (to allow files to be gzipped and accessed with one request).
@@ -250,7 +250,7 @@ A denial of service (DoS) attack is an attempt to make a computer resource unava
 
 * By requesting a content page with an unlimited number of URLs, The URL can include a handle, some selectors, an extension, and a suffix - any of which can be modified.
 
-  For example, `.../en.html` can also be requested as: ``
+  For example, `.../en.html` can also be requested as:
 
     * `.../en.ExtensionDosAttack`
     * `.../en.SelectorDosAttack.html`
@@ -426,7 +426,7 @@ In AEM 6.2 and older versions, the keys are stored in the repository under the `
 The recommended way to securely replicate the keys across your instances is to only replicate this node. You can selectively replicate nodes via CRXDE Lite:
 
 1. Open CRXDE Lite by going to *https://&lt;serrveraddress&gt;:4502/crx/de/index.jsp*
-1. Select the `/etc/key` node. ``
+1. Select the `/etc/key` node.
 1. Go to the **Replication** tab.
 1. Press the **Replication** button.
 

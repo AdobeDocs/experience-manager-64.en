@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d997a268-a40a-462d-badd-94f0731f7ba4
 ---
 
-# Configuring fallback fonts{#configuring-fallback-fonts}
+# Configuring fallback fonts {#configuring-fallback-fonts}
 
 You can manually configure the FontManagerResources.properties file to map the default AEM forms fonts to fallback (or substitute) if the default fonts are not available on the server. This property file is located in the adobe-fontmanager.jar file.
 

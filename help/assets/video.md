@@ -1,12 +1,12 @@
 ---
 title: Video
 seo-title: Video
-description: Learn how to work with video in dynamic media
-seo-description: Learn how to work with video in dynamic media
+description: Learn how to work with video in Dynamic Media
+seo-description: Learn how to work with video in Dynamic Media
 uuid: 15e89f88-2787-472d-bbb6-d370bbab9228
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: dynamic-media
+topic-tags: Dynamic-Media
 content-type: reference
 discoiquuid: b721dc7c-b056-47f5-9489-9f4db45b68a0
 ---
@@ -138,7 +138,7 @@ For managing single video and Adaptive Video Sets, the following is supported:
 * Organize, browse, and search video with full metadata support for efficient management of video assets.
 * Deliver Adaptive Video Sets to the web as well as to desktops, and mobile devices, including the iPhone, iPad, Android, Blackberry, and Windows phone.
 
-Adaptive video streaming is supported on a variety of iOS platforms. See [Scene7 Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_about.html).
+Adaptive video streaming is supported on a variety of iOS platforms. See the [Adobe Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_about.html).
 
 Dynamic Media supports mobile video playback for MP4 H.264 video. You can find Blackberry devices that support this video format at the following: [Supported video formats on Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
@@ -166,7 +166,7 @@ On the playback side of the viewer, it automatically detects the browser’s vid
 
 By combining into a single player the ability to design the playback components using HTML5 and CSS, have embedded playback, and use adaptive and progressive streaming depending on the browser’s capability, you extend the reach of your rich media content to both desktop and mobile users and ensure a streamlined video experience.
 
-See also [About HTML5 Viewers](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) in the Adobe Scene7 Viewers Reference Guide.
+See also [About HTML5 Viewers](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) in the Adobe Viewers Reference Guide.
 
 ### Playback of video on desktop computers and mobile devices using the HTML5 video viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-html-video-viewer}
 
@@ -267,7 +267,7 @@ The following graphic shows the overall authoring workflow of videos that are up
 
 ## Best practices for encoding videos {#best-practices-for-encoding-videos}
 
-The **Dynamic Media Encode Video** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress). If you have enabled dynamic media and set up video cloud services, the **Dynamic Media Encode Video** workflow automatically takes effect when you upload a video. (If you are not using dynamic media, the **DAM Update Asset** workflow takes effect.)
+The **[!UICONTROL Dynamic Media Encode Video]** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress). If you have enabled Dynamic Media and set up Video Cloud services, the **[!UICONTROL Dynamic Media Encode Video]** workflow automatically takes effect when you upload a video. (If you are not using Dynamic Media, the **[!UICONTROL DAM Update Asset]** workflow takes effect.)
 
 The following are best-practice tips for encoding source video files.
 
@@ -294,7 +294,7 @@ You can obtain a file’s metadata by viewing its metadata using a video editing
 
 1. Go to this web page: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Select and download the installer for the GUI version you are using, and follow the installation instructions.
-1. After installation, either right-click the video file (Windows only) and select MediaInfo, or open MediaInfo and drag your video file into the application. You see all metadata associated with your video file, including its width, height, and fps.
+1. After installation, either right-click the video file (Windows only) and select **[!UICONTROL MediaInfo]**, or open **[!UICONTROL MediaInfo]** and drag your video file into the application. You see all metadata associated with your video file, including its width, height, and fps.
 
 ### Aspect ratio {#aspect-ratio}
 
@@ -319,17 +319,15 @@ For example, a video that is 1440 width x 1080 height has an aspect ratio of 144
 
 Bitrate is the amount of data that is encoded to make up a single second of video playback. The bitrate is measured in kilobits per second (Kbps).
 
->[!NOTE]
->
->Because all codecs use lossy compression, bitrate is the most important factor in video quality. With lossy compression, the more you compress a video file, the more the quality is degraded. For this reason, all other characteristics being equal (the resolution, frame rate, and codec), the lower the bitrate, the lower the quality of the compressed file.
+Because all codecs use lossy compression, bitrate is the most important factor in video quality. With lossy compression, the more you compress a video file, the more the quality is degraded. For this reason, all other characteristics being equal (the resolution, frame rate, and codec), the lower the bitrate, the lower the quality of the compressed file.
 
 When selecting a bitrate encoding, there are two types you can choose:
 
-* **Constant Bitrate Encoding** (CBR) - During CBR encoding, the bitrate or the number of bits per second is kept the same throughout the encoding process. CBR encoding persists the set data rate to your setting over the entire video. Also, CBR encoding does not optimize media files for quality but does save on storage space.  
+* **Constant Bitrate Encoding** (CBR) &ndash; During CBR encoding, the bitrate or the number of bits per second is kept the same throughout the encoding process. CBR encoding persists the set data rate to your setting over the entire video. Also, CBR encoding does not optimize media files for quality but does save on storage space.  
 
   Use CBR if your video contains a similar motion level throughout the entire video. CBR is most commonly used for streaming video content. See also [Using custom-added video encoding parameters](video-profiles.md#using-custom-added-video-encoding-parameters).  
 
-* **Variable Bitrate Encoding** (VBR) - VBR encoding adjusts the data rate down and to the upper limit you set, based on the data required by the compressor. This means that during a VBR encoding process the bitrate of the media file dynamically increases or decreases depending on the media files bitrate needs.  
+* **Variable Bitrate Encoding** (VBR) &ndash; VBR encoding adjusts the data rate down and to the upper limit you set, based on the data required by the compressor. This means that during a VBR encoding process the bitrate of the media file dynamically increases or decreases depending on the media files bitrate needs.  
 
   VBR takes longer to encode but produces the most favorable results; the quality of the media file is superior. VBR is most commonly used for http progressive delivery of video content.
 
@@ -360,7 +358,7 @@ Resolution and data rate are two integrally linked factors that determine video 
 
 The 640 x 480 file has four times more pixels per frame. To achieve the same data rate for these two example resolutions, you apply four times the compression to the 640 x 480 file, which can reduce the quality of the video. Therefore, a video data rate of 250 Kbps produces high-quality viewing at a 320 x 240 resolution, but not at a 640 x 480 resolution.
 
->[!TIP] In general, the higher data rate you use, the better your video looks, and the higher resolution you use, the higher data rate you need to maintain viewing quality (compared to lower resolutions).
+In general, the higher data rate you use, the better your video looks, and the higher resolution you use, the higher data rate you need to maintain viewing quality (compared to lower resolutions).
 
 Because resolution and data rate are linked, you have two options when encoding video:
 
@@ -463,7 +461,7 @@ To publish to YouTube, you need a Google account. If you have a GMAIL account th
 >
 >The following steps were accurate at the time of this writing. However, Google periodically updates their websites without notice. As such, these steps may be slightly different.
 
-To configure Google Cloud settings:
+**To configure Google Cloud settings**:
 
 1. Create a new Google account.  
 
@@ -472,23 +470,23 @@ To configure Google Cloud settings:
    If you already have a Google account, skip to the next step.
 
 1. Go to [https://cloud.google.com/](https://cloud.google.com/).
-1. On the Google Cloud Platform page, near the top, tap **Console**. You may need **Sign in** using your Google account credentials.
-1. On the Dashboard page, tap **Create Project**.
-1. In the New Project dialog box, enter in a project name.  
+1. On the Google Cloud Platform page, near the top, tap **[!UICONTROL Console]**. You may need **Sign in** using your Google account credentials.
+1. On the **[!UICONTROL Dashboard]** page, tap **[!UICONTROL Create Project]**.
+1. In the **[!UICONTROL New Project]** dialog box, enter in a project name.  
   
    Note that your project ID is based on your project name. As such, choose the project name carefully; it cannot be changed after it is created. Also, you will need to enter the same project ID again when you set up YouTube in Adobe Experience Manager later on. You may want to write down the project’s ID.
-1. Tap **Create**.  
+1. Tap **[!UICONTROL Create]**.  
 
-1. On your project’s Dashboard, in the Getting Started card, tap **Enable APIs and get credentials like keys**.
-1. Near the top of the Dashboard page, tap **Enable API**.
-1. On the Library page, under YouTube APIs, tap **YouTube Data API**.
-1. Near the top of the YouTube Data API v3 page, tap **Enable** to turn it on.
-1. To use the API, you may need credentials. If necessary, tap **Create Credentials**.
-1. From the **Where will you be calling the API from?** drop-down list, select **Web Server (e.g. node.js, Tomcat)**.
-1. Under **What data will you be accessing?** select **User data**.
-1. Tap **What credentials do I need?** button.
-1. Under the **Create an OAuth 2.0 client ID** heading, enter a unique name.
-1. In the text field under the **Authorized Javascript origins** heading, enter the following path, substituting your own domain and port number in the path, then press Enter to add the path to the list:  
+1. On your project’s **[!UICONTROL Dashboard]**, in the **[!UICONTROL Getting Started]** card, tap **[!UICONTROL Enable APIs and get credentials like keys]**.
+1. Near the top of the **[!UICONTROL Dashboard]** page, tap **[!UICONTROL Enable API]**.
+1. On the **[!UICONTROL Library]** page, under YouTube APIs, tap **[!UICONTROL YouTube Data API]**.
+1. Near the top of the **YouTube Data API v3]** page, tap **[!UICONTROL Enable]** to turn it on.
+1. To use the API, you may need credentials. If necessary, tap **[!UICONTROL Create Credentials]**.
+1. From the **[!UICONTROL Where will you be calling the API from?]** drop-down list, select **[!UICONTROL Web Server (e.g. node.js, Tomcat)]**.
+1. Under **[!UICONTROL What data will you be accessing?]** select **[!UICONTROL User data]**.
+1. Tap **[!UICONTROL What credentials do I need?]** button.
+1. Under the **[!UICONTROL Create an OAuth 2.0 client ID]** heading, enter a unique name.
+1. In the text field under the **[!UICONTROL Authorized Javascript origins]** heading, enter the following path, substituting your own domain and port number in the path, then press **[!UICONTROL Enter]** to add the path to the list:  
   
    `https://<servername.domain>:<port_number>`  
   
@@ -496,7 +494,7 @@ To configure Google Cloud settings:
 
    **Note**: The path example above is intended for illustration purposes only.
 
-1. In the text field under the **Authorized redirect URIs** heading, enter the following, substituting your own domain and port number in the path, then press Enter to add the path to the list:  
+1. In the text field under the **[!UICONTROL Authorized redirect URIs]** heading, enter the following, substituting your own domain and port number in the path, then press Enter to add the path to the list:  
   
    `https://<servername.domain>:<port#>/etc/cloudservices/youtube.youtubecredentialcallback.json`  
   
@@ -504,19 +502,19 @@ To configure Google Cloud settings:
 
    **Note**: The path example above is intended for illustration purposes only.
 
-1. Tap **Create client ID**.
-1. On the Credentials page, under the **Set up the OAuth 2.0 consent screen** heading, select the Gmail address that you are currently using.
-1. In the text field under the **Product name shown to users** heading, enter what you want to show on the consent screen.
+1. Tap **[!UICONTROL Create client ID]**.
+1. On the Credentials page, under the **[!UICONTROL Set up the OAuth 2.0 consent screen]** heading, select the Gmail address that you are currently using.
+1. In the text field under the **[!UICONTROL Product name shown to users]** heading, enter what you want to show on the consent screen.
 
    The consent screen is displayed to the AEM administrator when they authenticate to YouTube; AEM will contact YouTube for permission.
 
-1. Tap **Continue**.
-1. Under the **Download credentials** heading, tap **Download**.
+1. Tap **[!UICONTROL Continue]**.
+1. Under the **[!UICONTROL Download credentials]** heading, tap **[!UICONTROL Download]**.
 1. Save the `client_id.json` file.
 
    You will need this downloaded json file when you set up YouTube in Adobe Experience Manager later on.
 
-1. Tap **Done**.
+1. Tap **[!UICONTROL Done]**.
 
    Now you will create a YouTube channel.
 
@@ -528,13 +526,13 @@ Publishing videos to YouTube requires that you have one or more channels. If you
 >
 >Be sure you have already set up one or more channels in YouTube &ast;before&ast; you add channels under YouTube Settings in AEM (see [Setting up YouTube in AEM](#setting-up-youtube-in-aem) below). If you fail to do this, you are not given any warning of no existing channels. However, Google authentication still occurs when you add a channel, but there is not an option to choose which channel the video is sent.
 
-To create a YouTube channel:
+**To create a YouTube channel**:
 
 1. Go to [https://www.youtube.com](https://www.youtube.com/) and sign in using your Google account credentials.
-1. In the upper-right corner of the YouTube page, tap your profile picture (may also appear as a letter within a solid colored circle), then tap **YouTube settings** (round gear icon).
-1. On the Overview page, under the Additional Features heading, tap **See all my channels or create a new channel**.
-1. On the Channels page, tap **Create a new channel**.
-1. On the Brand Account page, in the Brand Account Name field, enter a business name or any other channel name you choose where you want to publish your video assets, then tap **Create**.
+1. In the upper-right corner of the YouTube page, tap your profile picture (may also appear as a letter within a solid colored circle), then tap **[!UICONTROL YouTube settings]** (round gear icon).
+1. On the **[!UICONTROL Overview]** page, under the **[!UICONTROL Additional Features]** heading, tap **[!UICONTROL See all my channels or create a new channel]**.
+1. On the **[!UICONTROL Channels]** page, tap **[!UICONTROL Create a new channel]**.
+1. On the **[!UICONTROL Brand Account]** page, in the **[!UICONTROL Brand Account Name]** field, enter a business name or any other channel name you choose where you want to publish your video assets, then tap **[!UICONTROL Create]**.
 
    Remember the name you enter here because you will need to enter it again when you setup YouTube in AEM.
 
@@ -550,56 +548,56 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
 ### Enabling the YouTube Publish replication agent {#enabling-the-youtube-publish-replication-agent}
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** &gt; **Deployment** &gt; **Replication** &gt; **Agents on Author**.
-1. On the Agents of Author page, tap **YouTube Publish (youtube)**.
-1. On the toolbar, to the right of Settings, tap **Edit**.
-1. Select the **Enabled** checkbox to turn on the replication agent.
-1. tap **OK**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Deployment &gt; Replication &gt; Agents on Author]**.
+1. On the **[!UICONTROL Agents of Author]** page, tap **[!UICONTROL YouTube Publish (youtube)]**.
+1. On the toolbar, to the right of Settings, tap **[!UICONTROL Edit]**.
+1. Select the **[!UICONTROL Enabled]** checkbox to turn on the replication agent.
+1. tap **[!UICONTROL OK]**.
 
    Now you will set up YouTube in AEM.
 
 ### Setting up YouTube in AEM {#setting-up-youtube-in-aem}
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Deployment** &gt; **Cloud Services**.
-1. Under the Third Party Services heading, under YouTube, tap **Configure now**.
-1. In the Create Configuration dialog box, enter a title (mandatory) and name (optional) in the respective fields.
-1. Tap **Create**.
-1. In the YouTube Account Settings dialog box, in the **Application Name** field, enter the Google Project ID.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Deployment &gt; Cloud Services]**.
+1. Under the **[!UICONTROL Third Party Services]** heading, under YouTube, tap **[!UICONTROL Configure now]**.
+1. In the **Create Configuration]** dialog box, enter a title (mandatory) and name (optional) in the respective fields.
+1. Tap **[!UICONTROL Create]**.
+1. In the **[!UICONTROL YouTube Account Settings]** dialog box, in the **[!UICONTROL Application Name]** field, enter the Google Project ID.
 
    You specified the project ID when you initially configured Google Cloud settings earlier. 
    
-   Leave the YouTube Account Setting dialog box open; you will return to it in a moment.
+   Leave the **[!UICONTROL YouTube Account Setting]** dialog box open; you will return to it in a moment.
 
 1. Using a plain text editor, open the JSON file that you downloaded and saved earlier in the task Configuring Google Cloud settings.
 1. Select and copy the entire JSON text.
-1. Return to the YouTube Account Settings dialog box. In the **JSON Config** field, paste the JSON text.
-1. Tap **OK**.
+1. Return to the **[!UICONTROL YouTube Account Settings]** dialog box. In the **[!UICONTROL JSON Config]** field, paste the JSON text.
+1. Tap **[!UICONTROL OK]**.
 
    You will now setup YouTube channels in AEM.
 
-1. To the right of **Available Channels**, tap **+** (plus sign icon).
-1. In the YouTube Channel Settings dialog box, in the Title field, enter the name of the channel that you created in the task **Creating a YouTube channel** earlier.
+1. To the right of **[!UICONTROL Available Channels]**, tap **[!UICONTROL +]** (plus sign icon).
+1. In the **[!UICONTROL YouTube Channel Settings]** dialog box, in the **[!UICONTROL Title]** field, enter the name of the channel that you created in the task **C[!UICONTROL reating a YouTube channel]** earlier.
 
    You can optionally add a description, if desired.
 
-1. Tap **OK**.
+1. Tap **[!UICONTROL OK]**.
 1. YouTube/Google authentication is displayed. If you are not already logged into the Google Cloud account, then skip this step.
 
     * Enter the Google username and password associated with the Google Project ID and the JSON text above.
     * Depending on how many channels your account has you see two or more items. Select a channel. Do not select the e-mail address.
-    * On the next page, tap **Accept** to allow access to this channel.
+    * On the next page, tap **[!UICONTROL Accept]** to allow access to this channel.
 
-1. Tap **Allow**.
+1. Tap **[!UICONTROL Allow**.
 
    You will now setup tags for publishing.
 
-1. **Setting up tags for publishing** - On the Cloud Services &gt; YouTube page, tap the pencil icon to edit the list of tags that you want to use.
+1. **Setting up tags for publishing** &ndash; On the **[!UICONTROL Cloud Services &gt; YouTube]** page, tap the **[!UICONTROL Pencil]** icon to edit the list of tags that you want to use.
 1. Tap the drop-down list icon (upside-down caret) to display the list of available tags in AEM.
 1. Tap one or more tags to add them.
 
-   To delete a tag you have added, select the tag, and tap **X**.
+   To delete a tag you have added, select the tag, and tap **[!UICONTROL X]**.
 
-1. When you are finished adding the tags you want, tap **OK**.  
+1. When you are finished adding the tags you want, tap **[!UICONTROL OK]**.  
 
    Now you publish videos to your YouTube channel.
 
@@ -607,70 +605,70 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
 You can automate the setting of YouTube properties on upload of your videos. You accomplish this by creating a metadata processing profile in AEM.
 
-To create the metadata processing profile, you are first going to copy values from the **Field Label**, **Map to property**, and **Choices** fields, all found in Metadata Schemas for video. Then, you will build your YouTube video metadata processing profile by adding those values to it.
+To create the metadata processing profile, you are first going to copy values from the **[!UICONTROL Field Label]**, **[!UICONTROL Map to property]**, and **[!UICONTROL Choices]** fields, all found in Metadata Schemas for video. Then, you will build your YouTube video metadata processing profile by adding those values to it.
 
-To automate the setting of default YouTube properties for your uploaded videos:
+**To optionally automate the setting of default YouTube properties for your uploaded videos**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Assets** &gt; **Metadata Schemas**.
-1. Tap **default**. (Do not add a checkmark to the selection box to the left of "default".)
-1. On the **default** page, check the box to the left of **video**, then tap **Edit**.
-1. On the Metadata Schema Editor page, tap the **Advanced** tab.
-1. Under the YouTube Publishing heading, tap **YouTube Category**. (Do not tap the YouTube Category drop-down list.)
-1. On the right side of the page, under the **Settings** tab, do the following:
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Metadata Schemas]**.
+1. Tap **[!UICONTROL default]**. (Do not add a checkmark to the selection box to the left of "default".)
+1. On the **[!UICONTROL default]** page, check the box to the left of **[!UICONTROL video]**, then tap **[!UICONTROL Edit]**.
+1. On the **[!UICONTROL Metadata Schema Editor]** page, tap the **[!UICONTROL Advanced]** tab.
+1. Under the YouTube Publishing heading, tap **[!UICONTROL YouTube Category]**. (Do not tap the YouTube Category drop-down list.)
+1. On the right side of the page, under the **[!UICONTROL Settings]** tab, do the following:
 
-    * In the **Field Label** text field, select and copy the value.
+    * In the **[!UICONTROL Field Label]** text field, select and copy the value.
 
       Paste the copied value into an open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
   
-    * In the **Map to property** text field, select and copy the value.  
+    * In the **[!UICONTROL Map to property]** text field, select and copy the value.  
 
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open. 
   
-    * Under **Choices**, select and copy the default value that you want to use (such as People & Blogs or Science & Technology).
+    * Under **[!UICONTROL Choices]**, select and copy the default value that you want to use (such as People & Blogs or Science & Technology).
   
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
-1. Under the YouTube Publishing heading, tap **YouTube Privacy**. (Do not tap the YouTube Privacy drop-down list.)
-1. On the right side of the page, under the **Settings** tab, do the following:
+1. Under the YouTube Publishing heading, tap **[!UICONTROL YouTube Privacy]**. (Do not tap the YouTube Privacy drop-down list.)
+1. On the right side of the page, under the **[!UICONTROL Settings]** tab, do the following:
 
-    * In the **Field Label** text field, select and copy the value. 
+    * In the **[!UICONTROL Field Label]** text field, select and copy the value. 
 
       Paste the copied value into an open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
-    * In the **Map to property** text field, select and copy the value.  
+    * In the **[!UICONTROL Map to property]** text field, select and copy the value.  
 
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
-    * Under **Choices**, select and copy the default value that you want to use. Notice that the Choices are grouped in pairs of two. The bottom field in the pair is the default value that you want to copy, such as public, unlisted, or private.  
+    * Under **[!UICONTROL Choices]**, select and copy the default value that you want to use. Notice that the Choices are grouped in pairs of two. The bottom field in the pair is the default value that you want to copy, such as public, unlisted, or private.  
 
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
-1. Near the upper-right corner of the Metadata Schema Editor page, tap **Cancel**.
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Assets** &gt; **Metadata Profiles**.  
+1. Near the upper-right corner of the **[!UICONTROL Metadata Schema Editor]** page, tap **[!UICONTROL Cancel]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Metadata Profiles]**.  
 
-1. On the Metadata Profiles page, near the upper-right corner of the page, tap **Create**. In the Add Metadata Profile dialog box, in the **Profile title** text field, enter the name `YouTube Video`.
-1. On the Metadata Profile Editor page, tap the **Advance** tab.
+1. On the **[!UICONTROL Metadata Profiles** page, near the upper-right corner of the page, tap **[!UICONTROL Create**. In the **[!UICONTROL Add Metadata Profile** dialog box, in the **[!UICONTROL Profile title]** text field, enter the name `YouTube Video`.
+1. On the **[!UICONTROL Metadata Profile Editor]** page, tap the **[!UICONTROL Advance]** tab.
 1. Add the copied YouTube Publishing values to the profile by doing the following:
 
-    * On the right side of the page, tap the **Build Form** tab.
-    * Drag the component labeled **Section Header** to the left and drop it in the form area.
-    * Tap **Field Label** to select the component.
-    * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Publishing`.
-    * Tap the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Publishing** heading that you just created.
-    * Tap **Field Label** to select the component.
-    * On the right side of the page, under the Settings tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
+    * On the right side of the page, tap the **[!UICONTROL Build Form]** tab.
+    * Drag the component labeled **[!UICONTROL Section Header]** to the left and drop it in the form area.
+    * Tap **[!UICONTROL Field Label]** to select the component.
+    * On the right side of the page, under the **[!UICONTROL Settings]** tab, in the **[!UICONTROL Field Label]** text field, enter `YouTube Publishing`.
+    * Tap the **[!UICONTROL Build Form]** tab, then drag the component labeled **[!UICONTROL Single Line Text]** and drop it below the **[!UICONTROL YouTube Publishing]** heading that you just created.
+    * Tap **[!UICONTROL Field Label]** to select the component.
+    * On the right side of the page, under the **[!UICONTROL Settings]** tab, paste the **[!UICONTROL YouTube Publishing]** values (**[!UICONTROL Field Label]** value and **[!UICONTROL Map to property]** value) that you copied earlier, into their respective fields on the form. Paste the **[!UICONTROL Choices]** value into the **[!UICONTROL Default Value]** field.
 
 1. Add the copied YouTube Privacy values to the profile by doing the following:
 
-    * On the right side of the page, tap the **Build Form** tab.
-    * Drag the component labeled **Section Header** to the left and drop it in the form area.
-    * Tap **Field Label** to select the component.
+    * On the right side of the page, tap the **[!UICONTROL Build Form]** tab.
+    * Drag the component labeled **[!UICONTROL Section Header]** to the left and drop it in the form area.
+    * Tap **[!UICONTROL Field Label]** to select the component.
     * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Privacy`.
-    * Tap the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Privacy** heading you just created.
-    * Tap **Field Label** to select the component.
-    * On the right side of the page, under the **Settings** tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
+    * Tap the **[!UICONTROL Build Form]** tab, then drag the component labeled **[!UICONTROL Single Line Text]** and drop it below the **[!UICONTROL YouTube Privacy]** heading you just created.
+    * Tap **[!UICONTROL Field Label]** to select the component.
+    * On the right side of the page, under the **[!UICONTROL Settings]** tab, paste the **[!UICONTROL YouTube Publishing]** values (**[!UICONTROL Field Label]** value and **[!UICONTROL Map to property]** value) that you copied earlier, into their respective fields on the form. Paste the **[!UICONTROL Choices** value into the **[!UICONTROL Default Value]** field.
 
-1. Near the upper-right corner of the page, tap **Save**.
+1. Near the upper-right corner of the page, tap **[!UICONTROL Save]**.
 1. Apply the YouTube Publishing metadata profile to the folders where you are going to upload videos. You will need to have both the Metadata Profile and the Video Profile set.
 
    See [Metadata Profiles](metadata-profiles.md) and [Video Profiles](video-profiles.md).
@@ -679,25 +677,22 @@ To automate the setting of default YouTube properties for your uploaded videos:
 
 Now you associate the tags that you added earlier to video assets. This process lets AEM know which assets to publish to your YouTube channel.
 
->[!NOTE]
->
->To publish content from YouTube, AEM uses the **Publish to YouTube** workflow, which lets you monitor progress and view any failure information.
->
->See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress).
+To publish content from YouTube, AEM uses the **[!UICONTROL Publish to YouTube]** workflow, which lets you monitor progress and view any failure information.
+See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress).
 
-To publish videos to your YouTube channel:
+**To publish videos to your YouTube channel**:
 
 1. In AEM, navigate to a video asset that you want to publish to your YouTube channel.
 1. Select the video asset.
 
    Regardless of the video asset that you select--such as the original source video or an encoded rendition of it--the original source video always gets uploaded.
 
-1. On the toolbar, tap **Properties**.
-1. In the Basic tab, under the Metadata heading, tap **Browse** to the right of the Tags field.
-1. On the Select Tags page, navigate to the tags you want to use, and then select one or more tags.
-1. In the upper-right corner of the page, tap the **Confirm** icon.
-1. In the upper-right corner of the video's properties page, tap **Save**.
-1. On the toolbar, tap **Publish** &gt; **Publish**.  
+1. On the toolbar, tap **[!UICONTROL Properties]**.
+1. In the **[!UICONTROL Basic]** tab, under the Metadata heading, tap **[!UICONTROL Browse]** to the right of the **[!UICONTROL Tags]** field.
+1. On the **[!UICONTROL Select Tags]** page, navigate to the tags you want to use, and then select one or more tags.
+1. In the upper-right corner of the page, tap the **[!UICONTROL Confirm]** icon.
+1. In the upper-right corner of the video's properties page, tap **[!UICONTROL Save]**.
+1. On the toolbar, tap **[!UICONTROL Publish &gt; Publish]**.  
   
    You can optionally verify the published video on your YouTube channel.
 
@@ -709,25 +704,23 @@ See [Monitoring video encoding and YouTube publishing progress](#monitoring-vide
 
 Publishing times can vary greatly depending on numerous factors that include the format of your master video, file size, and upload traffic. The publishing process can take anywhere from a few minutes to several hours. Also, be aware that higher resolution formats are rendered much more slowly. For example, 720p and 1080p take significantly longer to appear than 480p.
 
-After eight hours if you you still see a status message that says **Uploaded (processing, please wait)**, try removing the video from our site and uploading it again.
+After eight hours if you you still see a status message that says **[!UICONTROL Uploaded (processing, please wait)]**, try removing the video from our site and uploading it again.
 
 ### Linking YouTube URLs to your Web Application {#linking-youtube-urls-to-your-web-application}
 
 You can obtain a YouTube URL string that is generated by Dynamic Media after you publish the video. When you copy the YouTube URL, it lands on the Clipboard so you can paste it as necessary to pages in your website or application.
 
->[!NOTE]
->
->The YouTube URL is not available to copy until you have published the video asset to YouTube.
+The YouTube URL is not available to copy until you have published the video asset to YouTube.
 
-To link YouTube URLs to your web application:
+**To link YouTube URLs to your web application**:
 
 1. Navigate to the YouTube *published* video asset whose URL you want to copy, then select it.
 
    Remember that YouTube URLs are only available to copy *after* you have first *published* the video assets to YouTube.
 
-1. On the toolbar, tap **Properties**.
-1. Tap the **Advanced** tab.
-1. Under the YouTube Publishing heading, in the YouTube URL List, select and copy the URL text to your web browser to preview the asset or to add to your web content page.
+1. On the toolbar, tap **[!UICONTROL Properties]**.
+1. Tap the **[!UICONTROL Advanced]** tab.
+1. Under the **[!UICONTROL YouTube Publishing]** heading, in the **[!UICONTROL YouTube URL]** List, select and copy the URL text to your web browser to preview the asset or to add to your web content page.
 
 ### Unpublishing videos to remove them from YouTube {#unpublishing-videos-to-remove-them-from-youtube}
 
@@ -737,18 +730,15 @@ When you unpublish a video asset in AEM, the video is removed from YouTube.
 >
 >If you remove a video directly from within YouTube, AEM is unaware and continues to behave as if the video is still published to YouTube. Always unpublish a video asset from YouTube by way of AEM.
 
->[!NOTE]
->
->To remove content from YouTube, AEM uses the **Unpublish from YouTube** workflow, which lets you monitor progress and view any failure information.
->
->See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress).
+To remove content from YouTube, AEM uses the **[!UICONTROL Unpublish from YouTube]** workflow, which lets you monitor progress and view any failure information.
+See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress).
 
-To unpublish videos to remove them from YouTube:
+**To unpublish videos to remove them from YouTube**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Assets**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets]**.
 1. Navigate to the video assets that you want to unpublish from your YouTube channel.
 1. In an asset selection mode, select one or more published video assets.
-1. On the toolbar, tap **Unpublish** &gt; **Unpublish**.
+1. On the toolbar, tap **[!UICONTROL Unpublish &gt; Unpublish]**.
 
 ## Monitoring video encoding and YouTube publishing progress {#monitoring-video-encoding-and-youtube-publishing-progress}
 
@@ -760,97 +750,94 @@ To monitor progress (including failed encoding/YouTube publish):
 
 1. View video encoding progress in your assets folder:
 
-    * In card view, video encoding progress displays on the asset by percent. If there is an error, this information also displays on the asset.
+    * In **[!UICONTROL Card View]**, video encoding progress displays on the asset by percent. If there is an error, this information also displays on the asset.
 
        ![chlimage_1-429](assets/chlimage_1-429.png)
 
-    * In list view, video encoding progress displays in the **Processing Status** column. If there is an error, this message displays in that same column.
+    * In **[!UICONTROL List View]**, video encoding progress displays in the **[!UICONTROL Processing Status]** column. If there is an error, this message displays in that same column.
 
        ![chlimage_1-430](assets/chlimage_1-430.png)
 
-       This column does not display by default. To enable the column, select **View Settings** from the views drop-down menu, and add the **Processing Status** column and tap **Update**.
+       This column does not display by default. To enable the column, select **[!UICONTROL View Settings]** from the **[!UICONTROL Views]** drop-down menu, and add the **[!UICONTROL Processing Status]** column and tap **[!UICONTROL Update]**.
 
        ![chlimage_1-431](assets/chlimage_1-431.png)
 
-1. View progress in the asset details. When you tap an asset, open the drop-down menu and select **Timeline**. To narrow it down to workflow activities like encoding or YouTube publishing, select **Workflows**.
+1. View progress in the asset details. When you tap an asset, open the drop-down menu and select **[!UICONTROL Timeline]**. To narrow it down to workflow activities like encoding or YouTube publishing, select **[!UICONTROL Workflows]**.
 
    ![chlimage_1-432](assets/chlimage_1-432.png)
 
-   Any workflow information such as encoding displays in the timeline. For YouTube publish, the Workflow timeline also includes the name of the YouTube channel and the YouTube video URL. In addition, you see any failure notifications in the Workflow timeline.
+   Any workflow information such as encoding displays in the timeline. For YouTube publish, the **[!UICONTROL Workflow]** timeline also includes the name of the YouTube channel and the YouTube video URL. In addition, you see any failure notifications in the **[!UICONTROL Workflow]** timeline.
 
    >[!NOTE]
    >
-   >It may take a long time for failure/error messages to finally be recorded due to multiple workflow configurations on **retries**, **retry delay**, and **timeout** from [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr), for example:
+   >It may take a long time for failure/error messages to finally be recorded due to multiple workflow configurations on **[!UICONTROL retries]**, **[!UICONTROL retry delay]**, and **[!UICONTROL timeout]** from [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr), for example:
    >
    >* Apache Sling Job Queue Configuration
    >* Adobe Granite Workflow External Process Job Handler
    >* Granite Workflow Timeout Queue
    > 
-   >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
+   >You may adjust the **[!UICONTROL retries]**, **[!UICONTROL retry delay]**, and **[!UICONTROL timeout]** properties in these configurations.
 
-1. For workflows in progress, see Workflow Instances available from **Tools** &gt; **Workflow** &gt; **Instances**.
+1. For workflows in progress, see **Workflow Instances** available from **[!UICONTROL Tools &gt; Workflow &gt; Instances]**.
 
    >[!NOTE]
    >
-   >You may need administrative rights to access the **Tools** menu.
+   >You may need administrative rights to access the **[!UICONTROL Tools]** menu.
 
    ![chlimage_1-433](assets/chlimage_1-433.png)
 
-   Select the instance and tap **Open History**.
+   Select the instance and tap **[!UICONTROL Open History]**.
 
    ![chlimage_1-434](assets/chlimage_1-434.png)
 
-   From the Workflow Instances area, you can also suspend, terminate, or rename workflows. See [Administering workflows](/help/sites-administering/workflows-administering.md) for more information. 
+   From the **[!UICONTROL Workflow Instances]** area, you can also suspend, terminate, or rename workflows. See [Administering workflows](/help/sites-administering/workflows-administering.md) for more information. 
 
-1. For failed jobs, see Workflow Failures available from **Tools** &gt; **Workflow** &gt; **Failures**. The **Workflow Failure** lists all failed workflow activities.
+1. For failed jobs, see **Workflow Failures** available from **[!UICONTROL Tools &gt; Workflow &gt; Failures]**. The **[!UICONTROL Workflow Failure]** lists all failed workflow activities.
 
    >[!NOTE]
    >
-   >You may need administrative rights to access the **Tools** menu.
+   >You may need administrative rights to access the **[!UICONTROL Tools]** menu.
 
    ![chlimage_1-435](assets/chlimage_1-435.png)
 
    >[!NOTE]
    >
-   >It may take a long time for the error message to finally be recorded due to multiple workflow configurations on **retries**, **retry delay**, and **timeout** from [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr), for example:
+   >It may take a long time for the error message to finally be recorded due to multiple workflow configurations on **[!UICONTROL retries]**, **[!UICONTROL retry delay]**, and **[!UICONTROL timeout]** from [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr), for example:
    >
    >* Apache Sling Job Queue Configuration
    >* Adobe Granite Workflow External Process Job Handler
    >* Granite Workflow Timeout Queue
    >
-   >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
+   >You may adjust the **[!UICONTROL retries]**, **[!UICONTROL retry delay]**, and **[!UICONTROL timeout]** properties in these configurations.
 
-1. For completed workflows, see Workflow Archive available from **Tools** &gt; **Workflow** &gt; **Archive**. The **Workflow Archive** lists all completed workflow activities.
+1. For completed workflows, see **[!UICONTROL Workflow Archive]** available from **[!UICONTROL Tools &gt; Workflow &gt; Archive]**. The **[!UICONTROL Workflow Archive]** lists all completed workflow activities.
 
-   >[!NOTE]
-   >
-   >You may need administrative rights to access the **Tools** menu.
+    You may need administrative rights to access the **[!UICONTROL Tools]** menu.
 
    ![chlimage_1-436](assets/chlimage_1-436.png)
 
-1. You may receive email notifications about aborted or failed workflow jobs. These email notifications are configurable by an administrator. See [Configuring email notifications](#configuring-e-mail-notifications).
+1. You may receive email notifications about aborted or failed workflow jobs. These email notifications are configurable by an administrator.
+See [Configuring email notifications](#configuring-e-mail-notifications).
 
 #### Configuring e-mail notifications {#configuring-e-mail-notifications}
 
->[!NOTE]
->
->You may need administrative rights to access the **Tools** menu.
+You may need administrative rights to access the **[!UICONTROL Tools]** menu.
 
 How you configure notification depends on whether you want notifications for encoding jobs or YouTube publishing jobs:
 
-* For encoding jobs, you can access the configuration page for all AEM workflow email notifications at **Tools** &gt; **Operations** &gt; **Web Console** and by searching for **Day CQ Workflow Email Notification Service**. See [Configuring Email Notification in AEM](/help/sites-administering/notification.md). You can select/clear the check boxes for **Notify on Abort** or **Notify on Complete** accordingly.
+* For encoding jobs, you can access the configuration page for all AEM workflow email notifications at **[!UICONTROL Tools &gt; Operations &gt; Web Console]** and by searching for **[!UICONTROL Day CQ Workflow Email Notification Service]**. See [Configuring Email Notification in AEM](/help/sites-administering/notification.md). You can select or clear the check boxes for **[!UICONTROL Notify on Abort]** or **[!UICONTROL Notify on Complete]** accordingly.
 
 * For YouTube publishing jobs, do the following:
 
-1. In AEM, select **Tools** &gt; **Workflow** &gt; **Models**.
-1. Select the **Publish to YouTube** workflow, then tap **Edit**. 
-1. Right-click the **YouTube Upload** workflow step, then tap **Edit**. 
-1. Tap the **Arguments** tab. 
+1. In AEM, select **[!UICONTROL Tools &gt; Workflow &gt; Models]**.
+1. Select the **[!UICONTROL Publish to YouTube]** workflow, then tap **[!UICONTROL Edit]**. 
+1. Right-click the **[!UICONTROL YouTube Upload]** workflow step, then tap **[!UICONTROL Edit]**. 
+1. Tap the **[!UICONTROL Argument]s** tab. 
 1. You can select or clear the following check boxes:
 
-    * Publish Start
-    * Publish Failure
-    * Publish Completion, which includes information on channels and URLs
+    * **[!UICONTROL Publish Start]**
+    * **[!UICONTROL Publish Failure]**
+    * **[!UICONTROL Publish Completion]**, which includes information on channels and URLs
 
    Clearing a check box means that you will not receive the specified email notification from the YouTube Publish workflow.
 
@@ -860,9 +847,7 @@ How you configure notification depends on whether you want notifications for enc
 
 ## Viewing video reports {#viewing-video-reports}
 
->[!NOTE]
->
->Video reports are available when you run Dynamic Media in hybrid mode; reports are not available when you run Dynamic Media in Scene7 mode.
+Video reports are available when you run Dynamic Media &ndash; Hybrid mode; reports are not available when you run Dynamic Media &ndash; Scene7 mode.
 
 Video Reports display several aggregate metrics across a specified period of time to help you monitor that *published *individual and aggregate videos are performing as expected. The following top metrics data are aggregated for all published videos across your entire website:
 
@@ -888,20 +873,20 @@ By default, the first time you enter Video Reports, the report displays video da
 
 For video reports to work correctly, a Report Suite ID is automatically created when Dynamic Media Cloud Services is configured. At the same time, the Report Suite ID is pushed to the Publish server so that it is available for the Copy URL feature when you preview assets. However, this requires that the Publish server be already set up. If the Publish server is not set up, you can still publish to see the video report, however, you will need to return to the Dynamic Media Cloud Configuration and tap **OK**.
 
-To view video reports:
+**To view video reports**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Assets** &gt; **Video Reports**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Video Reports]**.
 1. On the Video Reports page, do one of the following:
 
-    * Near the upper-right corner, tap the **Refresh Video Report** icon.  
+    * Near the upper-right corner, tap the **[!UICONTROL Refresh Video Report]** icon.  
 
       You only need to use Refresh if the end date of the report is the current day. This ensures that you see the video tracking that has occurred since the last time you ran the report.
   
-    * Near the upper-right corner, tap the **Date Picker** icon. 
+    * Near the upper-right corner, tap the **[!UICONTROL Date Picker]** icon. 
 
-      Specify the beginning and end date range for which you want video data, and then tap **Run Report**.
+      Specify the beginning and end date range for which you want video data, and then tap **[!UICONTROL Run Report]**.
 
-   The Top Metrics group box identifies various aggregate measurements for all *published* videos across your site.
+   The **[!UICONTROL Top Metrics]** group box identifies various aggregate measurements for all *published* videos across your site.
 
 1. In the table that lists the top published videos, tap a video name to play the video and also see the video’s audience retention (drop-off) report.
 
@@ -920,7 +905,7 @@ See [Adobe Developer Connection](https://help.adobe.com/en_US/scene7/using/WSef8
 To view Video Reports based on a video viewer that you created using the Scene7 HTML5 Viewer SDK:
 
 1. Navigate to any published video asset.
-1. Near the upper-left corner of the asset's page, from the drop-down list, select **Viewers**.
+1. Near the upper-left corner of the asset's page, from the drop-down list, select **[!UICONTROL Viewers]**.
 1. Select any video viewer preset and copy the embed code.
 1. In the embed code, find the line with the following:
 
@@ -928,7 +913,7 @@ To view Video Reports based on a video viewer that you created using the Scene7 
 
    The `config2` parameter enables tracking in HTML5 Viewers. It is also a company-specific preset that contains the configuration information for Video Reporting, and for customer-specific Adobe Analytics configurations.
 
-   The correct value for the config2 parameter is found in both the **Embed Code** and in the copy **URL** function. In the URL from the copy **URL** command, the parameter to look for is `&config2=<value>` . The value is almost always `companypreset`, but in some instances it can also be `companypreset-1`, `companypreset-2`, and so forth.
+   The correct value for the config2 parameter is found in both the **[!UICONTROL Embed Code]** and in the copy **[!UICONTROL URL]** function. In the URL from the copy **[!UICONTROL URL]** command, the parameter to look for is `&config2=<value>` . The value is almost always `companypreset`, but in some instances it can also be `companypreset-1`, `companypreset-2`, and so forth.
 
 1. In your custom video viewer code, add AppMeasurementBridge .jsp to the viewer page by doing the following:
 
@@ -990,7 +975,7 @@ Dynamic Media has the capability of converting caption files to JSON (JavaScript
 
 See [Serving static (non-image) contents](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_serving_static_nonimage_contents.html) in the *Scene7 Image Serving API Help* for more information about using the JSON function in a URL.
 
-To add captions or subtitles to video:
+**To add captions or subtitles to video**:
 
 1. Use a third-party application or service to create your video caption/subtitle file.
 
@@ -1004,7 +989,7 @@ To add captions or subtitles to video:
 
    For best results, use the tool in Internet Explorer 9 or above, Google Chrome, or Safari.
 
-   In the tool, in the **Enter URL of video file** field, paste the copied URL of your video file and then tap **Load**. See [Obtaining a URL for an Asset](linking-urls-to-yourwebapplication.md#oobtaining-a-url-for-an-asset) to get the URL to the video file itself which you can then paste into the **Enter URL of video file field**. Internet Explorer, Chrome, or Safari can then natively play back the video.
+   In the tool, in the **[!UICONTROL Enter URL of video file]** field, paste the copied URL of your video file and then tap **[!UICONTROL Load]**. See [Obtaining a URL for an Asset](linking-urls-to-yourwebapplication.md#oobtaining-a-url-for-an-asset) to get the URL to the video file itself which you can then paste into the **[!UICONTROL Enter URL of video file field]**. Internet Explorer, Chrome, or Safari can then natively play back the video.
 
    Now follow the onscreen instructions from the site to author and save your WebVTT file. When you have finished, copy the caption file contents and paste it into a plain text editor and save it with a .vtt filename extension.
 
@@ -1023,13 +1008,13 @@ To add captions or subtitles to video:
 
 1. Do one of the following:
 
-    * For a pop-up video viewer experience, tap **URL**. In the URL dialog box, select and copy the URL to the Clipboard and then past the URL into a simple text editor. Append the copied URL of the video with the following syntax:  
+    * For a pop-up video viewer experience, tap **[!UICONTROL URL]**. In the URL dialog box, select and copy the URL to the Clipboard and then past the URL into a simple text editor. Append the copied URL of the video with the following syntax:  
   
       `&caption=<server_path>/is/content/<path_to_caption.vtt_file,1>`  
   
       Note the `,1` at the end of the caption path. Immediately following the .vtt filename extension in the path, you have the option to enable (turn on) or disable (turn off) the closed caption button on the video player bar by setting to `,1` or `,0`, respectively.
   
-    * For an embedded video viewer experience, tap **Embed Code**. In the Embed Code dialog box, select and copy the embed code to the Clipboard and then paste the code into a simple text editor. Append the copied embed code with the following syntax:  
+    * For an embedded video viewer experience, tap **[!UICONTROL Embed Code]**. In the Embed Code dialog box, select and copy the embed code to the Clipboard and then paste the code into a simple text editor. Append the copied embed code with the following syntax:  
   
       `videoViewer.setParam("caption","<path_to_caption.vtt_file,1>");`  
   
@@ -1077,11 +1062,9 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 1. Using a simple text editor outside AEM, create your video chapter file.
 
-   >[!NOTE]
-   >
-   >For global support of video chapters in languages other than English, be aware that the WebVTT standard requires that you create separate .vtt files and calls for each language you want to support.
+   For global support of video chapters in languages other than English, be aware that the WebVTT standard requires that you create separate .vtt files and calls for each language you want to support.
 
-1. Save the .vtt file in UTF8 encoding to avoid problems with character rendition in the chapter title text.  
+1. Save the `.vtt` file in UTF8 encoding to avoid problems with character rendition in the chapter title text.  
   
    Generally, you want to name the chapter VTT file the same name as the video file, and append it with chapters. By doing so, it can help you with automating the generation of the video URLs using your existing web content management system.
 1. In AEM, upload your WebVTT chapter file.
@@ -1136,17 +1119,17 @@ If you prefer, you can choose to upload a custom thumbnail to represent your vid
 ### Adding a video thumbnail {#adding-a-video-thumbnail}
 
 1. Navigate to an uploaded video asset that you want to add a video thumbnail.
-1. In asset selection mode either from the List View or the Card View, tap the video asset.
-1. On the toolbar, tap the **View Properties** icon (a circle with an "i" in it).
-1. On the video's Properties page, tap **Change Thumbnail**.
-1. On the Change Thumbnail page, on the toolbar, tap **Select Frame**.
+1. In asset selection mode either from the **[!UICONTROL List View]** or the **[!UICONTROL Card View]**, tap the video asset.
+1. On the toolbar, tap the **[!UICONTROL View Properties]** icon (a circle with an "i" in it).
+1. On the video's **[!UICONTROL Properties]** page, tap **[!UICONTROL Change Thumbnail]**.
+1. On the **[!UICONTROL Change Thumbnail]** page, on the toolbar, tap **[!UICONTROL Select Frame]**.
 
    Dynamic Media generates a series thumbnail images from your video, based on the default time interval or time interval you customized.
 
 1. Preview the generated thumbnail images, then select the one you want to add to your video.
-1. Tap **Save Change**.
+1. Tap **[!UICONTROL Save Change]**.
 
-   The video's thumbnail image is updated to use the thumbnail you selected. If you later decide to change the thumbnail image, you can return to the **Change Thumbnail** page and select a new one.
+   The video's thumbnail image is updated to use the thumbnail you selected. If you later decide to change the thumbnail image, you can return to the **[!UICONTROL Change Thumbnail]** page and select a new one.
 
    If you configured new default time intervals, or you uploaded a new video to replace the existing video, you will need to have Dynamic Media regenerate the thumbnails.
 
@@ -1160,21 +1143,21 @@ See [Adding a video thumbnail](#adding-a-video-thumbnail).
 
 To configure the default time interval that video thumbnails are generated,
 
-1. In AEM, tap **Tools** &gt; **General** &gt; **CRXDE Lite**.
+1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
 
 1. In the CRXDE Lite page, in the directory panel on the left, navigate t `o etc/dam/imageserver/configuration/jcr:content/settings.`
 
    if the directory panel is not visible, you may need to tap the &gt;&gt; icon to the left of the Home tab.
 
-1. On the lower-right panel, in the Properties tab, double-tap `thumbnailtime`.
+1. On the lower-right panel, in the **[!UICONTROL Properties]** tab, double-tap `thumbnailtime`.
 1. In the Edit thumbnailtime dialog box, use the text fields to enter interval values as percentages.
 
     * Tap the plus sign (+) icon to add one or more interval value fields. You may need to scroll to the bottom of the dialog box to see the icon.
     * Tap the minus sign (-) icon to the right of an interval value field to delete it from the list.
     * Tap the up arrow icon and the down arrow icon to reorder the interval values.
 
-1. Tap **OK** to return to the Properties tab.
-1. Near the upper-left corner of the CRXDE Lite page, tap **Save All**, then tap the Back Home icon in the upper-left corner to return to AEM.
+1. Tap **[!UICONTROL OK]** to return to the **[!UICONTROL Properties]** tab.
+1. Near the upper-left corner of the CRXDE Lite page, tap **[!UICONTROL Save All]**, then tap the **[!UICONTROL Back Home]** icon in the upper-left corner to return to AEM.
 
    See [Adding a video thumbnail.](#adding-a-video-thumbnail)
 
@@ -1185,12 +1168,12 @@ To configure the default time interval that video thumbnails are generated,
 >This feature is only available when you run Dynamic Media - Hybrid mode.
 
 1. Navigate to an uploaded video asset that you want to add a video thumbnail.
-1. In asset selection mode either from the List View or the Card View, tap the video asset.
-1. On the toolbar, tap the **View Properties** icon (a circle with an "i" in it).
-1. On the video's Properties page, tap **Change Thumbnail**.
-1. On the Change Thumbnail page, on the toolbar, tap **Upload New Thumbnail**.
-1. Navigate to a thumnail image you want to use, select it, then tap **Open** to begin uploading the image into AEM
-1. After the image is successfully uploaded, in the Change Thumbnail page, tap **Save Changes**.
+1. In asset selection mode either from the **[!UICONTROL List View]** or the **[!UICONTROL Card View]**, tap the video asset.
+1. On the toolbar, tap the **[!UICONTROL View Properties]** icon (a circle with an "i" in it).
+1. On the video's **[!UICONTROL Properties]** page, tap **[!UICONTROL Change Thumbnail]**.
+1. On the **[!UICONTROL Change Thumbnail]** page, on the toolbar, tap **[!UICONTROL Upload New Thumbnail]**.
+1. Navigate to a thumnail image you want to use, select it, then tap **[!UICONTROL Open]** to begin uploading the image into AEM
+1. After the image is successfully uploaded, in the **[!UICONTROL Change Thumbnail]** page, tap **[!UICONTROL Save Changes]**.
 
    The custom thumbnail is added to your video.
 

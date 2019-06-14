@@ -98,11 +98,6 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td><p>The feed importer is a framework to repeatedly import content from external sources into your repository. The idea of the feed importer is to poll a remote resource at a specified interval, to parse it, and to create nodes in the content repository that represent the content of the remote resource.</p> </td> 
   </tr> 
   <tr> 
-   <td>Importers - <a href="/help/sites-developing/site-importer.md">Site Importer</a></td> 
-   <td> </td> 
-   <td>The site importer helps you take an existing website and set up the basis for a prototype, a proof of concept project and a new development new project.</td> 
-  </tr> 
-  <tr> 
    <td><a href="/help/sites-administering/external-link-checker.md">External Linkchecker</a></td> 
    <td> </td> 
    <td>Scans all content pages within your AEM instance and checks any external links. A list of valid and invalid links displays.</td> 

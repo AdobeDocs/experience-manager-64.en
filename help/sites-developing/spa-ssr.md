@@ -107,3 +107,7 @@ For a simplistic example, please refer to the [We.Retail Journal app](https://gi
 >
 >Adobe recommends a separate Node.js instance for every AEM environment (author, publish, stage, etc.).
 
+>[!CAUTION]
+>This document uses the [We.Retail Journal app](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal) for demonstration purposes only. It should not be used for any project work.
+>
+>All SPA projects on AEM should be based on the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype).

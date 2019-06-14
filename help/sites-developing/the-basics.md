@@ -125,14 +125,14 @@ The figure below illustrates the mechanism used, which will be discussed in more
 
 ![chlimage_1-86](assets/chlimage_1-86.png)
 
-With Sling, you specify which script renders a certain entity (by setting the sling:resourceType property in the JCR node). This mechanism offers more freedom than one in which the script accesses the data entities (as an SQL statement in a PHP script would do) as a resource can have several renditions.
+With Sling, you specify which script renders a certain entity (by setting the `sling:resourceType` property in the JCR node). This mechanism offers more freedom than one in which the script accesses the data entities (as an SQL statement in a PHP script would do) as a resource can have several renditions.
 
 #### Mapping requests to resources {#mapping-requests-to-resources}
 
 The request is broken down and the necessary information extracted. The repository is searched for the requested resource (content node):
 
-* first Sling checks whether a node exists at the location specified in the request; e.g. ../content/corporate/jobs/developer.html
-* if no node is found, the extension is dropped and the search repeated; e.g. ../content/corporate/jobs/developer
+* first Sling checks whether a node exists at the location specified in the request; e.g. `../content/corporate/jobs/developer.html`
+* if no node is found, the extension is dropped and the search repeated; e.g. `../content/corporate/jobs/developer`
 * if no node is found then Sling will return the http code 404 (Not Found).
 
 Sling also allows things other than JCR nodes to be resources, but this is an advanced feature.
@@ -266,7 +266,7 @@ If you call the representation (the script) directly you hide the resource insid
 * automatic handling of http methods other than GET, including:
 
     * POST, PUT, DELETE which are handled with a sling default implementation
-    * the POST.jsp script in your sling:resourceType location
+    * the `POST.jsp` script in your sling:resourceType location
 
 * your code architecture is no longer as clean nor as clearly structured as it should be; of prime importance for large-scale development
 
@@ -376,7 +376,7 @@ A page has a hierarchy node of type cq:Page and a content node of type cq:PageCo
 
 For example, to get the name of the current page, you can use following code in your script:
 
-String pageName = currentPage.getName();
+S`tring pageName = currentPage.getName();`
 
 With currentPage being the current page object. For more information on manipulating Page objects, refer to the [Javadocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.html).
 

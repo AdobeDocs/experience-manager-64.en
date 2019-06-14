@@ -7,7 +7,7 @@ uuid: 76057e9c-63e5-415d-b1b5-bd06e8cbf245
 discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
 ---
 
-# Automated Forms Conversion service: frequently asked questions{#automated-forms-conversion-service-frequently-asked-questions}
+# Automated Forms Conversion service: frequently asked questions {#automated-forms-conversion-service-frequently-asked-questions}
 
 <!--Theses sections used to be an accordion until converted to straight Markdown. When accordions are enabled, revert-->
 

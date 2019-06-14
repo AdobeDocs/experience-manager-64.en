@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7a85e13d-4800-47c4-812a-5c6e2355298a
 ---
 
-# Configuring Business Calendars{#configuring-business-calendars}
+# Configuring Business Calendars {#configuring-business-calendars}
 
 *Business calendars* define business and non-business days (for example, statutory holidays, weekends, and company shutdown days) for your organization. When using business calendars, AEM forms skips non-business days when performing certain date calculations. In Workbench, you can specify whether to use business calendars for user-associated events such as task reminders, deadlines, and escalations or for actions not associated with users, such as Timer Events and the Wait Service.
 
@@ -23,7 +23,7 @@ For example, a task reminder is configured to occur three business days after th
 
 ## Using the default business calendar {#using-the-default-business-calendar}
 
-AEM forms provides a default business calendar (named* Built-in Calendar*) that designates Saturdays and Sundays as non-working days. If all of the users in your organization have the same non-business days, you can update the default business calendar to suit your organization. When using only the default business calendar, you do not need to enable business calendars in User Management or provide any mappings. When no other business calendars are defined, AEM forms uses the default business calendar.
+AEM forms provides a default business calendar (named *Built-in Calendar*) that designates Saturdays and Sundays as non-working days. If all of the users in your organization have the same non-business days, you can update the default business calendar to suit your organization. When using only the default business calendar, you do not need to enable business calendars in User Management or provide any mappings. When no other business calendars are defined, AEM forms uses the default business calendar.
 
 ## Setting up multiple business calendars {#setting-up-multiple-business-calendars}
 

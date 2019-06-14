@@ -11,12 +11,12 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9fd531c0-5206-4be0-a450-13e0dc806068
 ---
 
-# Managing certificates{#managing-certificates}
+# Managing certificates {#managing-certificates}
 
 Using the Trust Store Management, you can import, edit, and delete certificates that you trust on the server for validation of digital signatures and certificate authentication. You can import and export any number of certificates. After a certificate is imported, you can edit the trust settings and trust store type. Consider the following options when combining trust store types:
 
 * **Trust for Certificate Authentication with CA:** For CRL validation, also select Trust for Identity.
-* **Trust for Certificate Authentication with ICA:** Select only Trust for Identity**. **An ICA should not be trusted for Certificate Authentication. If you trust the ICA for Certificate Authentication, the ICA becomes a CA for path building. If the ICA is trusted for both Certificate Authentication and Identity, the CA vendor certificate is ignored because the ICA becomes the CA.
+* **Trust for Certificate Authentication with ICA:** Select only Trust for Identity. An ICA should not be trusted for Certificate Authentication. If you trust the ICA for Certificate Authentication, the ICA becomes a CA for path building. If the ICA is trusted for both Certificate Authentication and Identity, the CA vendor certificate is ignored because the ICA becomes the CA.
 * **Trust for OCSP Server with HTTPs:** If the OSCP respondent server resides at an HTTPs location, you must also select Trust for SSL Connections. If the OSCP respondent requires CRL validation, ensure that you also select Trust for Identity.
 * **Adobe Root:** Do not select SSL Connections or OCSP Server Trust Store Types. Adobe Root is not trusted for SSL Connections and OCSP Server. Adobe does not issue OCSP and SSL certificates. Adobe Root is implicitly trusted with an alias name="ADOBEROOT".
 

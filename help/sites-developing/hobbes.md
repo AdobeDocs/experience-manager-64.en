@@ -26,8 +26,9 @@ The AEM test framework uses Hobbes.js, a testing library written in Javascript. 
 
 When using automated tests within AEM, the following terms are important to understand:
 
-| Action |An **Action** is a specific activity on a web page such as clicking a link or a button. |
+|||
 |---|---|
+| Action |An **Action** is a specific activity on a web page such as clicking a link or a button. |
 | Test Case |A **Test Case** is a specific situation that can be made up of one or more **Actions**. |
 | Test Suite |A **Test Suite** is a group of related **Test Cases** that together test a specific use case. |
 
@@ -106,8 +107,8 @@ For full details about creating your own Test Suites, see the [Hobbes.js API doc
 
    | Name |Type |Value |
    |---|---|---|
-   | `categories` |String[] | `granite.testing.hobbes.tests` |
-   | `dependencies` |String[] | `granite.testing.hobbes.testrunner` |
+   | `categories` |`String[]` | `granite.testing.hobbes.tests` |
+   | `dependencies` |`String[]` | `granite.testing.hobbes.testrunner` |
 
    >[!NOTE]
    >

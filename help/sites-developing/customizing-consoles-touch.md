@@ -118,28 +118,28 @@ You can find the code of this page on GitHub
 
     * creating the root space definition of your new console ``; for example:
 
-        * `/apps/<*yourProject*>/admin/ext/launches`
+        * `/apps/<yourProject>/admin/ext/launches`
 
     * this can contain (according to requirements):
 
         * the corresponding [clientlibs](/help/sites-developing/clientlibs.md) for custom actions and `less`/ `css` definitions
 
-            * `/apps/<*yourProject*>/admin/ext/launches/clientlibs`
+            * `/apps/<yourProject>/admin/ext/launches/clientlibs`
 
         * components that need to be redefined/adjusted; for example, the breadcrumbs, datasource and the launch
 
-            * `/apps/<*yourProject*>/admin/ext/launches/components`
+            * `/apps/<yourProject>/admin/ext/launches/components`
 
         * the Granite UI page resource:
 
-            * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content`
+            * `/apps/<yourProject>/admin/ext/launches/content/jcr:content`
 
               property: `sling:resourceType`
 
         * the page definition of the console
 
-            * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/head`
-            * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/body`
+            * `/apps/<yourProject>/admin/ext/launches/content/jcr:content/head`
+            * `/apps/<yourProject>/admin/ext/launches/content/jcr:content/body`
 
    ![chlimage_1-236](assets/chlimage_1-236.png)
 
@@ -157,7 +157,7 @@ You can find the code of this page on GitHub
 
     * the node is:
 
-        * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/body/rail`
+        * `/apps/<yourProject>/admin/ext/launches/content/jcr:content/body/rail`
 
     * with the following properties:
 
@@ -241,7 +241,7 @@ You can find the code of this page on GitHub
 
    This can then be connected to a toolbar item on your console:
 
-   `/apps/<*yourProject*>/admin/ext/launches`
+   `/apps/<yourProject>/admin/ext/launches`
 
    For example, in selection mode:
 

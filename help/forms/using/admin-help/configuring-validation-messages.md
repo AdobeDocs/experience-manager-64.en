@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5f2f8129-e45e-4f3f-ae30-c09330d0e152
 ---
 
-# Configuring validation messages{#configuring-validation-messages}
+# Configuring validation messages {#configuring-validation-messages}
 
 For forms that are rendered as HTML, form validation errors that occur are displayed for the user. You can customize how validation messages are displayed. Depending on where the validation messages are displayed, you can also control the location of the message in the form and the size of the frame border.
 

@@ -21,7 +21,7 @@ When working with the bulk editor, there are several query parameters that you c
 
 For example if you type the following in your browser's URL:
 
-https://&lt;servername&gt;:&lt;port_number&gt;/etc/importers/bulkeditor.html?rootPath=/content/geometrixx/en&queryParams=geometrixx&initialSearch=true&hrp=true
+`https://<servername><port_number>/etc/importers/bulkeditor.html?rootPath=/content/geometrixx/en&queryParams=geometrixx&initialSearch=true&hrp=true`
 
 the bulk editor displays without the **Root Path** field as hrp=true hides the field. With the parameter hrp=false, the field is displayed (the default value).
 
@@ -164,7 +164,7 @@ The Product List component lets users display and edit a table of data. For exam
 
 With the bulk editor, you can add, modify, delete, filter, and export the rows, save modifications, and import a set of rows. Every row is stored as a node under the Product List component instance itself. Every cell is a property of each node. This is a design choice and it can easily be changed, for example, you could store nodes somewhere else in the repository. The query servlet's role is to return the list of the nodes to display; the search path is defined as a Product List instance.
 
-The source code of the Product List component is available in the repository at /apps/geometrixx/components/productlist and is composed of several parts like all CQ5 components:
+The source code of the Product List component is available in the repository at /apps/geometrixx/components/productlist and is composed of several parts like all AEM components:
 
 * HTML rendering: the rendering is done in a JSP file (/apps/geometrixx/components/productlist/productlist.jsp). The JSP reads the subnodes of the current Product List component and displays each of them as a row of an HTML table.
 * Edit dialog, which is where you define the Bulk Editor configuration. Configure the dialog to match the needs of the component: columns available and possible actions performed on the grid or on the search. See [bulk editor configuration properties](#bulk-editor-configuration-properties) for information on all of the configuration properties.

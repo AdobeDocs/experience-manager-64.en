@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 79fccce2-d090-4b50-9c58-3f2a00e651b2
 ---
 
-# System information Service APIs{#system-information-service-apis}
+# System information Service APIs {#system-information-service-apis}
 
 The system information service provides a set of REST APIs to retrieve information. The following table provides detailed information about the APIs:
 

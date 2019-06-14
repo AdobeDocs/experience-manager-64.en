@@ -37,7 +37,6 @@ AEM ships with other tools that facilitate development:
 
 * [Dialog Editor](/help/sites-developing/dialog-editor.md)
 * [Using Translator to Manage Dictionaries](/help/sites-developing/i18n-translator.md)
-* [Site Importer](/help/sites-developing/site-importer.md)
 * [Managing Packages Using Maven](/help/sites-developing/vlt-mavenplugin.md)
 * [How to Develop AEM Projects Using Eclipse](/help/sites-developing/howto-projects-eclipse.md)
 * [How to Build AEM Projects using Apache Maven](/help/sites-developing/ht-projects-maven.md)

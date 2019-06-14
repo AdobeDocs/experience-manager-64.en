@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7d0d4f96-fc72-4e2b-a2cc-5741b0a30f74
 ---
 
-# Adding, enabling, modifying, or removing endpoints{#adding-enabling-modifying-or-removing-endpoints}
+# Adding, enabling, modifying, or removing endpoints {#adding-enabling-modifying-or-removing-endpoints}
 
 ## Add an endpoint to a service {#add-an-endpoint-to-a-service}
 

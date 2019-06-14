@@ -10,7 +10,7 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: 868a9be4-50ec-4f5e-b4b9-9b8660b7b03b
 ---
 
-# DO NOT PUBLISH Use CAC cards with AEM Forms Document Security{#do-not-publish-use-cac-cards-with-aem-forms-document-security}
+# DO NOT PUBLISH Use CAC cards with AEM Forms Document Security {#do-not-publish-use-cac-cards-with-aem-forms-document-security}
 
 You can use Common Access Cards (CAC) to restrict physical access to controlled locations. Typically, these cards are of a size a credit card. These cards contain information about the holder and type of the access granted to the holder. A CAC card enables access to data or physical location only after a trusted connection is established between the card and the authenticating server.
 

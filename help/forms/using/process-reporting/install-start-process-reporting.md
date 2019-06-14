@@ -10,7 +10,7 @@ topic-tags: process-reporting
 discoiquuid: a0f81621-6ccd-46e2-85d7-2eb4ee3cdb91
 ---
 
-# Getting Started with Process Reporting{#getting-started-with-process-reporting}
+# Getting Started with Process Reporting {#getting-started-with-process-reporting}
 
 Process Reporting gives AEM Forms users the ability to query information about AEM Forms processes that are currently defined in the AEM Forms implementation. However, Process Reporting does not access data directly from the AEM Forms repository. The data is first published to the Process Reporting repository on a scheduled basis (*by the ProcessDataPublisher & ProcessDataStorage service*s). The reports and queries in Process Reporting are then generated out of the Process Reporting data published to the repository. Process Reporting is installed as part of the Forms Workflow module.
 
@@ -47,8 +47,6 @@ Perform the following steps to change the publishing schedule:
 >If you are running your AEM Forms implementation on a cluster, perform the following steps on each node of the cluster.
 
 1. Stop the AEM Forms server instance.
-1.
-
     * (For Windows) Open the `[*JBoss root*]/bin/run.conf.bat` file in an editor.
     * (For Linux, AIX and Solaris) `[*JBoss root*]/bin/run.conf.sh` file in an editor.
 
@@ -94,7 +92,7 @@ Perform the following steps to change the publishing schedule:
 
    `-Dreporting.publisher.cron = 0_0_0/5_*_*_?`
 
-1. Click **Save **and then click **Activate Changes**.  
+1. Click **Save** and then click **Activate Changes**.  
 
 1. Restart the AEM Forms server instance.
 
@@ -110,8 +108,8 @@ You can use the Administration console to configure the root (**default**: `/con
 
 #### To configure the Process Reporting repository locations {#to-configure-the-process-reporting-repository-locations}
 
-1. Log in to** Administration Console** with administrator credentials. The default URL of Administration Console is `https://[server]:[port]/adminui`
-1. Navigate to **Home** &gt;  **Services** &gt;  **Applications and Services** &gt;** Service Management** and open the **ProcessDataStorageProvider** service.
+1. Log in to **Administration Console** with administrator credentials. The default URL of Administration Console is `https://[server]:[port]/adminui`
+1. Navigate to **Home** &gt;  **Services** &gt;  **Applications and Services** &gt; **Service Management** and open the **ProcessDataStorageProvider** service.
 
    ![process-data-storage-service](assets/process-data-storage-service.png)
 
@@ -136,7 +134,7 @@ The ReportConfiguration service is used by Process Reporting for configuring the
 #### To configure the ReportingConfiguration service {#to-configure-the-reportingconfiguration-service}
 
 1. Log in to **Configuration Manager** with CRX administrator credentials. The default URL of Configuration Manager is `https://[*server*]:[*port*]/lc/system/console/configMgr`
-1. Open the **ReportingConfiguration **service. 
+1. Open the **ReportingConfiguration** service. 
 1. **Number of Records**
 
    When running a query on the repository, a result can potentially contain a large number of records. If the resultset is large, the query execution can consume server resources.
@@ -157,7 +155,7 @@ The ReportConfiguration service is used by Process Reporting for configuring the
    >
    >If you update the Root Folder option in the ProcessDataStorage configuration, you need to update the CRX Storage Path location in the ReportConfiguration service.
 
-1. Click **Save **and close **CQ Configuration Manager**.
+1. Click **Save** and close **CQ Configuration Manager**.
 
 ### ProcessDataPublisher service {#processdatapublisher-service}
 
@@ -165,7 +163,7 @@ The ProcessDataPublisher service imports process data from the AEM Forms databas
 
 #### To configure ProcessDataPublisher service &nbsp; {#to-configure-processdatapublisher-service-nbsp}
 
-1. Log in to** Administration Console** with administrator credentials.
+1. Log in to **Administration Console** with administrator credentials.
 
    The default URL is `https://[server]:port]/adminui/`.
 
@@ -239,7 +237,7 @@ Specify your credentials to log in to the Process Reporting module.
 
 ![capture](assets/capture.png)
 
-When you log in to Process Reporting, the **[!UICONTROL Home]**screen displays.
+When you log in to Process Reporting, the **[!UICONTROL Home]** screen displays.
 
 ### Process Reporting Home screen {#process-reporting-home-screen}
 
@@ -281,4 +279,4 @@ For details on the data publishing service and how to schedule this service, see
 * **[!UICONTROL **Help**]**: View the Help documentation on Process Reporting.
 * **[!UICONTROL **Logout**]**: Log out of Process Reporting
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

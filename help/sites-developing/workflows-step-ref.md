@@ -27,69 +27,67 @@ Workflow models consist of a series of steps of various types. According to the 
 
 ## Step Properties {#step-properties}
 
-Each step component has a **Step Properties** dialog that allows you to define and edit the required properties.
+Each step component has a **[!UICONTROL Step Properties]** dialog that lets you define and edit the required properties.
 
 ### Step Properties - Common tab {#step-properties-common-tab}
 
-A combination of the following properties are available for most workflow step components, on the **Common** tab of the properties dialog:
+A combination of the following properties are available for most workflow step components, on the **[!UICONTROL Common]** tab of the properties dialog:
 
-* **Title** 
+* **[!UICONTROL Title]** 
 
   The title for the step.
 
-* **Description** 
+* **[!UICONTROL Description]** 
 
   A description of the step.
 
-* **Workflow Stage** 
+* **[!UICONTROL Workflow Stage]** 
 
   A drop-down selector to apply a [Stage](/help/sites-developing/workflows.md#workflow-stages) to the step.  
 
-* **Timeout** 
+* **[!UICONTROL Timeout]** 
 
   The period after which the step will be "timed out".  
   
-  You can select between: **Off**, **Immediate**, **1h**, **6h**, **12h**, **24h**.
+  You can select between: **[!UICONTROL Off]**, **[!UICONTROL Immediate]**, **[!UICONTROL 1h]**, **[!UICONTROL 6h]**, **[!UICONTROL 12h]**, **[!UICONTROL 24h]**.
 
-* **Timeout Handler** 
+* **[!UICONTROL Timeout Handler]** 
 
   The handler which will control the workflow when the step times out; for example:  
 
   `Auto Advancer`
 
-* **Handler Advance** 
+* **[!UICONTROL Handler Advance]** 
 
   Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
 
 #### Step Properties - User/Group tab {#step-properties-user-group-tab}
 
-The following properties are available for many workflow step components, on the **User/Group** tab of the properties dialog:
+The following properties are available for many workflow step components, on the **[!UICONTROL User/Group]** tab of the properties dialog:
 
-* **Notify user via email**
+* **[!UICONTROL Notify user via email]**
 
     * You can notify participant(s) by sending them an email when the workflow reaches the step.
-    * If enabled, an email will be sent to the user defined by the property **User/Group** or to each member of the group if a group is defined.
+    * If enabled, an email will be sent to the user defined by the property **[!UICONTROL User/Group]** or to each member of the group if a group is defined.
 
-* **User/Group**
+* **[!UICONTROL User/Group]**
 
     * A drop down selection box will allow you to navigate and select a user or group. 
     * If you assign the step to a specific user, then only this user can take action on the step. 
-    * If you assign the step to an entire group, then when the workflow reaches this step all users in this group will have the action in their **Workflow Inbox**. 
+    * If you assign the step to an entire group, then when the workflow reaches this step all users in this group will have the action in their **[!UICONTROL Workflow Inbox]**. 
     * See [Participating in Workflows](/help/sites-authoring/workflows-participating.md) for more information.
 
 ## AND Split {#and-split}
 
-The **AND Split** creates a split in the workflow, after which both branches will be active. You add workflow steps to each branch as required. This step enables you to introduce multiple processing paths into the workflow. For example, you can allow certain review steps to occur in parallel, so saving time.
+The **[!UICONTROL AND Split]** creates a split in the workflow, after which both branches will be active. You add workflow steps to each branch as required. This step enables you to introduce multiple processing paths into the workflow. For example, you can allow certain review steps to occur in parallel, so saving time.
 
 ![wf-26](assets/wf-26.png) 
 
 ### AND Split - Configuration {#and-split-configuration}
 
-To configure the split:
+* Edit the **[!UICONTROL AND Split]** properties:
 
-* Edit the **AND Split Properties**:
-
-    * **Split Name**: assign a name for explanatory purposes
+    * **[!UICONTROL Split Name]**: assign a name for explanatory purposes.
     * Select the number of branches required; 2, 3, 4 or 5.
 
 * Add workflow steps to the branches as required.
@@ -98,9 +96,9 @@ To configure the split:
 
 ## Container Step {#container-step}
 
-A container step starts another workflow model that executes as a child workflow.
+A **[!UICONTROL Container]** step starts another workflow model that runs as a child workflow.
 
-This container can allow you to reuse workflow models to implement common sequences of steps. For example a translation workflow model could be used in multiple editing workflows.
+This **[!UICONTROL Container]]** lets you reuse workflow models to implement common sequences of steps. For example a translation workflow model could be used in multiple editing workflows.
 
 ![wf-28](assets/wf-28.png) 
 
@@ -108,35 +106,35 @@ This container can allow you to reuse workflow models to implement common sequen
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#step-properties-common-tab)
-* **Container**
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
+* **[!UICONTROL Container]**
 
-    * **Sub Workflow**: Select the workflow to start.
+    * **[!UICONTROL Sub Workflow]**: Select the workflow to start.
 
 ## Goto Step {#goto-step}
 
-The **Goto Step** allows you to specify the next step in the workflow model to execute, dependent on the result of an ECMAScript:
+The **[!UICONTROL Goto Step]** allows you to specify the next step in the workflow model to execute, dependent on the result of an ECMAScript:
 
-* `true`: The **Goto Step** completes and the workflow engine executes the specified step.
+* `true`: The **[!UICONTROL Goto Step]** completes and the workflow engine executes the specified step.
 
-* `false`: The **Goto Step** completes and the normal routing logic determines the next step to execute.
+* `false`: The **[!UICONTROL Goto Step]** completes and the normal routing logic determines the next step to execute.
 
-The **Goto Step** enables you to implement advanced routing structures in your workflow models. For example, to implement a loop, the **Goto Step** can be defined to execute a prior step in the workflow, with the script evaluating a loop condition.
+The **[!UICONTROL Goto Step]** enables you to implement advanced routing structures in your workflow models. For example, to implement a loop, the **[!UICONTROL Goto Step]** can be defined to execute a prior step in the workflow, with the script evaluating a loop condition.
 
 ### Goto Step - Configuration {#goto-step-configuration}
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#step-properties-common-tab)
-* **Process**
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
+* **[!UICONTROL Process]**
 
-    * **The step to go to.**: Select the step to execute.
-    * **Script Path**: The path to the ECMAScript that determines whether to execute the **Goto Step**.
-    * **Script**: The ECMAScript that determines whether to execute the **Goto Step**.
+    * **[!UICONTROL The step to go to]]**: Select the step to execute.
+    * **[!UICONTROL Script Path]**: The path to the ECMAScript that determines whether to execute the **[!UICONTROL Goto Step]**.
+    * **[!UICONTROL Script]**: The ECMAScript that determines whether to execute the **[!UICONTROL Goto Step]**.
 
 >[!CAUTION]
 >
->Specify either the **Script Path** or **Script**. Both options cannot be used at the same time. If you specify values for both properties, the step uses the **Script Path**.
+>Specify either the **[!UICONTROL Script Path]** or **[!UICONTROL Script]**. Both options cannot be used at the same time. If you specify values for both properties, the step uses the **[!UICONTROL Script Path]**.
 
 #### Simulating a for Loop {#simulating-a-for-loop}
 
@@ -145,7 +143,7 @@ Simulating a for loop requires that you maintain a count of the number of loop i
 * The count typically represents an index of items that are acted on in the workflow.
 * The count is evaluated as the exit criteria of the loop.
 
-For example, to implement a workflow that performs an action on several JCR nodes you can use a loop counter as an index for the nodes. To persist the count, store an `integer` value in the data map of the workflow instance. Use the script of the **Goto Step** to increment the count as well as to compare the count to the exit criteria.
+For example, to implement a workflow that performs an action on several JCR nodes you can use a loop counter as an index for the nodes. To persist the count, store an `integer` value in the data map of the workflow instance. Use the script of the **[!UICONTROL Goto Step]** to increment the count as well as to compare the count to the exit criteria.
 
 ```
 function check(){
@@ -173,7 +171,7 @@ function check(){
 
 ## OR Split {#or-split}
 
-The **OR Split **creates a split in the workflow, after which only one branch will be active. This step enables you to introduce conditional processing paths into your workflow. You add workflow steps to each branch as required.
+The **[!UICONTROL OR Split]** creates a split in the workflow, after which only one branch will be active. This step enables you to introduce conditional processing paths into your workflow. You add workflow steps to each branch as required.
 
 >[!NOTE]
 >
@@ -183,19 +181,17 @@ The **OR Split **creates a split in the workflow, after which only one branch wi
 
 ### OR Split - Configuration {#or-split-configuration}
 
-To configure the split:
+* Edit the **[!UICONTROL OR Split]** properties:
 
-* Edit the **OR Split Properties**:
-
-    * **Common**
+    * **[!UICONTROL Common]**
 
         * Select the number of branches required; 2, 3, 4 or 5.
 
-    * **Branch &lt;*x*&gt;**
+    * **[!UICONTROL Branch &lt;*x*&gt;]**
 
-        * **Script Path**: The path to a file that contains the script.
-        * **Script**: Add the script in the box.
-        * **Default Route**: The default branch is followed when multiple branches evaluate to true. You can specify only one branch as the default.
+        * **[!UICONTROL Script Path]**: The path to a file that contains the script.
+        * **[!UICONTROL Script]**: Add the script in the box.
+        * **[!UICONTROL Default Route]**: The default branch is followed when multiple branches evaluate to true. You can specify only one branch as the default.
 
   >[!NOTE]
   >
@@ -208,7 +204,7 @@ To configure the split:
 
   >[!CAUTION]
   >
-  >Specify either the **Script Path** or **Script**. Both options cannot be used at the same time. If you specify values for both properties, the step uses the **Script Path**.
+  >Specify either the **[!UICONTROL Script Path]** or **[!UICONTROL Script]**. Both options cannot be used at the same time. If you specify values for both properties, the step uses the **[!UICONTROL Script Path]**.
 
   >[!NOTE]
   >
@@ -220,7 +216,7 @@ To configure the split:
 
 ### Participant Step {#participant-step}
 
-A **Participant Step** enables you to assign ownership for a particular action. The workflow will only proceed when the user has manually acknowledged the step. This is used when you want someone to take an action on the workflow; for example, a review step.
+A **[!UICONTROL Participant Step]** enables you to assign ownership for a particular action. The workflow will only proceed when the user has manually acknowledged the step. This is used when you want someone to take an action on the workflow; for example, a review step.
 
 Although not directly related, user authorization must be considered when assigning an action; the user must have access to the page that is the workflow payload.
 
@@ -228,8 +224,8 @@ Although not directly related, user authorization must be considered when assign
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#step-properties-common-tab)
-* [User/Group](#step-properties-user-group-tab)
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
+* [**[!UICONTROL User/Group]**](#step-properties-user-group-tab)
 
 >[!NOTE]
 >
@@ -245,9 +241,9 @@ To configure the step, edit and use the following tabs:
 
 ### Dialog Participant Step {#dialog-participant-step}
 
-Use a **Dialog Participant Step** to collect information from the user who is assigned the work item. This step is useful for collecting small amounts of data that is used later in the workflow.
+Use a **[!UICONTROL Dialog Participant Step]** to collect information from the user who is assigned the work item. This step is useful for collecting small amounts of data that is used later in the workflow.
 
-Upon completing the step, the **Complete Work Item** dialog contains the fields that you define in your dialog. The data that is collected in the fields is stored in nodes of the workflow payload. Subsequent workflow steps can then read the value from the repository.
+Upon completing the step, the **[!UICONTROL Complete Work Item]** dialog contains the fields that you define in your dialog. The data that is collected in the fields is stored in nodes of the workflow payload. Subsequent workflow steps can then read the value from the repository.
 
 To configure the step, you specify the group or user to assign the work item to, and the path to the dialog.
 
@@ -255,15 +251,15 @@ To configure the step, you specify the group or user to assign the work item to,
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#step-properties-common-tab)
-* [User/Group](#step-properties-user-group-tab)
-* **Dialog**
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
+* [**[!UICONTROL User/Group]**](#step-properties-user-group-tab)
+* **[!UICONTROL Dialog]**
 
-    * **Dialog Path**: The path to the dialog node of the [dialog you create](#dialog-participant-step-creating-a-dialog).
+    * **[!UICONTROL Dialog Path**: The path to the dialog node of the [dialog you create](#dialog-participant-step-creating-a-dialog).
 
-#### Dialog Participant Step - Creating a dialog {#dialog-participant-step-creating-a-dialog}
+#### Dialog Participant Step &ndash; Creating a dialog{#dialog-participant-step-creating-a-dialog}
 
-To create a dialog you need to create the dialog:
+To create a dialog:
 
 * Decide where the resulting data will be [stored in the payload](#dialog-participant-step-storing-data-in-the-payload).
 * [Define the dialog; this includes defining the fields used to collect (and save) the data](#dialog-participant-step-dialog-definition).
@@ -272,7 +268,7 @@ To create a dialog you need to create the dialog:
 
 You can store widget data in the workflow payload or in the work item metadata. The format of the `name` property of the widget node determines where the data is stored.
 
-* **Store Data with the Payload**
+* **[!UICONTROL Store Data with the Payload]**
 
     * To store widget data as a property of the workflow payload, use the following format for the value of the name property of the widget node:  
 
@@ -281,7 +277,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
     * The data is stored in the `nodename` property of the payload node. If the node does not contain that property, the property is created.
     * When stored with the payload, subsequent uses of the dialog with the same payload overwrites the value of the property.
 
-* **Store Data with the Work Item**
+* **[!UICONTROL Store Data with the Work Item]**
 
     * To store widget data as a property of the work item metadata, use the following format for the value of the name property:  
 
@@ -291,7 +287,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
 #### Dialog Participant Step - Dialog Definition {#dialog-participant-step-dialog-definition}
 
-1. **Dialog Structure**
+1. **[!UICONTROL Dialog Structure]**
 
    Dialogs for Dialog Participant Steps are similar to dialogs that you create for authoring components. They are stored under:
 
@@ -316,15 +312,15 @@ You can store widget data in the workflow payload or in the work item metadata. 
    >
    >For further information see [Creating and Configuring a Dialog](/help/sites-developing/developing-components.md#creating-and-configuring-a-dialog).
 
-1. **Dialog Path Property**
+1. **[!UICONTROL Dialog Path Property]**
 
-   The **Dialog Participant Step** has the **Dialog Path** property (together with the properties of a [Participant Step](#participant-step)). The value of the **Dialog Path** property is the path to the `dialog` node of your dialog.
+   The **[!UICONTROL Dialog Participant Step]** has the **[!UICONTROL Dialog Path]** property (together with the properties of a [Participant Step](#participant-step)). The value of the **[!UICONTROL Dialog Path]** property is the path to the `dialog` node of your dialog.
 
    For example, the dialog is contained in a component named `EmailWatch` that is stored in the node:
 
    `/apps/myapp/workflows/dialogs`
 
-   For the touch-enabled UI the following value is used for the **Dialog Path** property:
+   For the touch-enabled UI the following value is used for the **[!UICONTROL Dialog Path]** property:
 
    `/apps/myapp/workflow/dialogs/EmailWatch/cq:dialog`
 
@@ -366,32 +362,32 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
 ### Dynamic Participant Step {#dynamic-participant-step}
 
-The **Dynamic Participant Step** component is similar to **[Participant Step](#participant-step)** with the difference that the participant is selected automatically at run time.
+The **[!UICONTROL Dynamic Participant Step]** component is similar to **[!UICONTROL Participant Step]** with the difference that the participant is selected automatically at run time.
 
-To configure the step, you select a **Participant Chooser** that identifies the participant to assign the work item to, together with a dialog.
+To configure the step, you select a **[!UICONTROL Participant Chooser]** that identifies the participant to assign the work item to, together with a dialog.
 
 #### Dynamic Participant Step - Configuration {#dynamic-participant-step-configuration}
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#step-properties-common-tab)
-* **Participant Chooser**
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
+* **[!UICONTROL Participant Chooser]**
 
-    * **Participant Chooser**: The name of the [participant chooser that you create](#dynamic-participant-step-developing-the-participant-chooser).
-    * **Arguments**: Any required arguments.
-    * **Email**: Whether an email notification should be sent to the user.
+    * **[!UICONTROL Participant Chooser]**: The name of the [participant chooser that you create](#dynamic-participant-step-developing-the-participant-chooser).
+    * **[!UICONTROL Arguments]**: Any required arguments.
+    * **[!UICONTROL Email]**: Whether an email notification should be sent to the user.
 
-* **Dialog**
+* **[!UICONTROL Dialog]**
 
-    * **Dialog Path**: The path to the dialog node of the [dialog you create (as with the **Dialog Participant Step**)](#dialog-participant-step-creating-a-dialog).
+    * **[!UICONTROL Dialog Path]**: The path to the dialog node of the [dialog you create (as with the **Dialog Participant Step**)](#dialog-participant-step-creating-a-dialog).
 
 #### Dynamic Participant Step - Developing the participant chooser {#dynamic-participant-step-developing-the-participant-chooser}
 
-You create the participant chooser. Therefore, you can use any selection logic or criteria. For example, your participant chooser can select the user (within a group) that has the fewest work items. You can create any number of participant choosers to use with different instances of the **Dynamic Participant Step** component in your workflow models.
+You create the participant chooser. Therefore, you can use any selection logic or criteria. For example, your participant chooser can select the user (within a group) that has the fewest work items. You can create any number of participant choosers to use with different instances of the **Dynamic Participant Step*]* component in your workflow models.
 
 Create an OSGi service or an ECMAScript that selects a user to assign the work item to.
 
-* **ECMAscript**
+* **[!UICONTROL ECMAscript]**
 
   Scripts must include a function named getParticipant that returns a user ID as a `String` value. Store your custom scripts in, for example, the `/apps/myapp/workflow/scripts` folder, or a subfolder.
 
@@ -401,7 +397,7 @@ Create an OSGi service or an ECMAScript that selects a user to assign the work i
 
   >[!CAUTION]
   >
-  >You ***must*** not change anything in the `/libs` path.
+  >You *must* not change anything in the `/libs` path.
   >
   >
   >This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).
@@ -416,13 +412,13 @@ Create an OSGi service or an ECMAScript that selects a user to assign the work i
 
   >[!NOTE]
   >
-  >The **Workflow Initiator Participant Chooser** component extends the **Dynamic Participant Step** and uses this script as the step implementation.
+  >The **[!UICONTROL Workflow Initiator Participant Chooser]** component extends the **[!UICONTROL Dynamic Participant Step]** and uses this script as the step implementation.
 
-* **OSGi service**
+* **[!UICONTROL OSGi service]**
 
   Services must implement the [com.day.cq.workflow.exec.ParticipantStepChooser](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/ParticipantStepChooser.html) interface. The interface defines the following members:
 
-    * `SERVICE_PROPERTY_LABEL` field: Use this field to specify the name of the participant chooser. The name appears in a list of available participant choosers in the **Dynamic Participant Step** properties.
+    * `SERVICE_PROPERTY_LABEL` field: Use this field to specify the name of the participant chooser. The name appears in a list of available participant choosers in the **[!UICONTROL Dynamic Participant Step]** properties.
     * `getParticipant` method: Returns the the dynamically resolved Principal id as a `String` value.
 
   >[!CAUTION]
@@ -430,13 +426,13 @@ Create an OSGi service or an ECMAScript that selects a user to assign the work i
   >The `getParticipant` method returns the the dynamically resolved Principal id. This can be either a group id or user id.
   >
   >
-  >However, a group id can only be used for a **Participant Step**, when a list of participants is returned. For a **Dynamic Participant Step** an empty list is returned and this cannot be used for delegation.
+  >However, a group id can only be used for a **[!UICONTROL Participant Step]**, when a list of participants is returned. For a **[!UICONTROL Dynamic Participant Step]** an empty list is returned and this cannot be used for delegation.
 
-  To make your implementation available to **Dynamic Participant Step** components, add your Java class to an OSGi bundle that exports the service, and deploy the bundle to the AEM server.
+  To make your implementation available to **[!UICONTROL Dynamic Participant Step]** components, add your Java class to an OSGi bundle that exports the service, and deploy the bundle to the AEM server.
 
   >[!NOTE]
   >
-  >**Random Participant Chooser** is a sample service that selects a random user ( `com.day.cq.workflow.impl.process.RandomParticipantChooser`). The **Random Participant Choose**r step component sample extends the **Dynamic Participant Step** and uses this service as the step implementation.
+  >**[!UICONTROL Random Participant Chooser]** is a sample service that selects a random user ( `com.day.cq.workflow.impl.process.RandomParticipantChooser`). The **[!UICONTROL Random Participant Chooser]** step component sample extends the **[!UICONTROL Dynamic Participant Step]** and uses this service as the step implementation.
 
 #### Dynamic Participant Step - Example Participant Chooser Service {#dynamic-participant-step-example-participant-chooser-service}
 
@@ -481,7 +477,7 @@ public class InitiatorParticipantChooser implements ParticipantStepChooser {
 }
 ```
 
-In the **Dynamic Participant Step** properties dialog, the **Participant Chooser** list includes the item `Workflow Initiator Participant Chooser (script)`, which represents this service.
+In the **[!UICONTROL Dynamic Participant Step]** properties dialog, the **[!UICONTROL Participant Chooser]** list includes the item `Workflow Initiator Participant Chooser (script)`, which represents this service.
 
 ``When the workflow model is started, the log indicates the ID of the user who initiated the workflow and who is assigned the work item. In this example, the `admin` user started the workflow.
 
@@ -489,7 +485,7 @@ In the **Dynamic Participant Step** properties dialog, the **Participant Chooser
 
 ### Form Participant Step {#form-participant-step}
 
-The **Form Participant Step** presents a form when the work item is opened. When the user fills and submits the form, the field data is stored in the nodes of the workflow payload.
+The **[!UICONTROL Form Participant Step]** presents a form when the work item is opened. When the user fills and submits the form, the field data is stored in the nodes of the workflow payload.
 
 To configure the step, you specify the group or user to assign the work item to, and the path to the form.
 
@@ -501,31 +497,31 @@ To configure the step, you specify the group or user to assign the work item to,
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#step-properties-common-tab)
-* [User/Group](#step-properties-user-group-tab)
-* **Form**
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
+* [**[!UICONTROL User/Group]**](#step-properties-user-group-tab)
+* **[!UICONTROL Form]**
 
-    * **Form Path**: The path to the [form you create](#form-participant-step-creating-the-form).
+    * **[!UICONTROL Form Path**: The path to the [form you create](#form-participant-step-creating-the-form).
 
 #### Form Participant Step - Creating the form {#form-participant-step-creating-the-form}
 
-Create a form for use with a **Form Participant Step** as normal. However, forms for a Form Participant Step must have the following configurations:
+Create a form for use with a **[!UICONTROL Form Participant Step]** as normal. However, forms for a Form Participant Step must have the following configurations:
 
-* The **Start of Form** component must have the **Action Type** property set to `Edit Workflow Controlled Resource(s)`.
+* The **[!UICONTROL Start of Form]** component must have the **[!UICONTROL Action Type]** property set to `Edit Workflow Controlled Resource(s)`.
 
-* The **Start of Form** component must have a value for the the `Form Identifier` property.
+* The **[!UICONTROL Start of Form]** component must have a value for the the `Form Identifier` property.
 
 * The form components must have the **Element Name** property set to the path of the node where the field data is stored. The path must locate a node in the workflow payload content. The value uses the following format:
 
   `./jcr:content/path_to_node`
 
-* The form must include a **Workflow Submit Button(s)** component. You do not configure any properties of the component.
+* The form must include a **[!UICONTROL Workflow Submit Button(s)]** component. You do not configure any properties of the component.
 
-The requirements of your workflow determine where you should store field data. For example, field data can be used to configure the properties of page content. The following value of an **Element Name** property stores field data as the value of the `redirectTarget` property of the `jcr:content` node:
+The requirements of your workflow determine where you should store field data. For example, field data can be used to configure the properties of page content. The following value of an **[!UICONTROL Element Name]** property stores field data as the value of the `redirectTarget` property of the `jcr:content` node:
 
 `./jcr:content/redirectTarget`
 
-In the following example, the field data is used as the content of a **Text** component on the payload page:
+In the following example, the field data is used as the content of a **[!UICONTROL Text]** component on the payload page:
 
 `./jcr:content/par/text_3/text`
 
@@ -535,7 +531,7 @@ The form can be located anywhere in the repository, however workflow users must 
 
 ### Random Participant Chooser {#random-participant-chooser}
 
-The **Random Participant Chooser** step is a participant chooser that assigns the generated work item to a user that is randomly selected from a list. 
+The **[!UICONTROL Random Participant Chooser]** step is a participant chooser that assigns the generated work item to a user that is randomly selected from a list. 
 
 ![wf-31](assets/wf-31.png) 
 
@@ -543,24 +539,24 @@ The **Random Participant Chooser** step is a participant chooser that assigns th
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#step-properties-common-tab)
-* **Arguments**
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
+* **[!UICONTROL Arguments]**
 
-    * **Participants**: Specifies the list of users available for selection. To add a user to the list, click **Add Item** and type the home path of the user node or the user ID. The order of the users does not affect the likelihood of being assigned a work item.
+    * **[!UICONTROL Participants]**: Specifies the list of users available for selection. To add a user to the list, click **[!UICONTROL Add Item]** and type the home path of the user node or the user ID. The order of the users does not affect the likelihood of being assigned a work item.
 
 ### Workflow Initiator Participant Chooser {#workflow-initiator-participant-chooser}
 
-The **Workflow Initiator Participant Chooser** step is a participant chooser that assigns the generated work item to the user who started the workflow. There are no properties to configure other than the **Common** properties.
+The **[!UICONTROL Workflow Initiator Participant Chooser]** step is a participant chooser that assigns the generated work item to the user who started the workflow. There are no properties to configure other than the **[!UICONTROL Common]** properties.
 
 #### Workflow Initiator Participant Chooser - Configuration {#workflow-initiator-participant-chooser-configuration}
 
 To configure the step, edit using the following tabs:
 
-* [Common](#step-properties-common-tab)
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
 
 ## Process Step {#process-step}
 
-A **Process Step** executes an ECMAScript or calls an OSGi service to perform automatic processing.
+A **[!UICONTROL Process Step]** runs an ECMAScript or calls an OSGi service to perform automatic processing.
 
 ![wf-32](assets/wf-32.png) 
 
@@ -568,15 +564,15 @@ A **Process Step** executes an ECMAScript or calls an OSGi service to perform au
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#step-properties-common-tab)
-* **Process**
+* [**[!UICONTROL Common]**](#step-properties-common-tab)
+* **[!UICONTROL Process]**
 
-    * **Process**: The process implementation to execute. Use the drop-down menu to select the ECMAScript or OSGi service. For information about:
+    * **[!UICONTROL Process]**: The process implementation to execute. Use the drop-down menu to select the ECMAScript or OSGi service. For information about:
 
         * The standard ECMAScripts and OSGi services, see [Built-In Processes for Process Steps](/help/sites-developing/workflows-process-ref.md).
-        * Creating ECMAScripts for a Process step, see [Implementing a Process Step with an ECMAScript](/help/sites-developing/workflows-customizing-extending.md#using-ecmascript).
-        * Creating OSGi services for a Process step, see [Implementing a Process Step with a Java Class](/help/sites-developing/workflows-customizing-extending.md#implementing-a-process-step-with-a-java-class).
+        * Creating ECMAScripts for a **[!UICONTROL Process]** step, see [Implementing a Process Step with an ECMAScript](/help/sites-developing/workflows-customizing-extending.md#using-ecmascript).
+        * Creating OSGi services for a **[!UICONTROL Process]** step, see [Implementing a Process Step with a Java Class](/help/sites-developing/workflows-customizing-extending.md#implementing-a-process-step-with-a-java-class).
 
-    * **Handler Advance**: Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
-    * **Arguments**: Arguments to be passed to the process.
+    * **[!UICONTROL Handler Advance]**: Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
+    * **[!UICONTROL Arguments]**: Arguments to be passed to the process.
 

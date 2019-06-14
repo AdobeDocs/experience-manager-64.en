@@ -4,14 +4,14 @@ seo-title: Check In and Check Out Files in Assets
 description: Learn how to check out assets for editing and check them back in after the changes are complete.
 seo-description: Learn how to check out assets for editing and check them back in after the changes are complete.
 uuid: d84850d3-fa29-47b3-ad99-151407360833
-contentOwner: User
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: e93cf898-498b-418f-a25c-be350914cc76
 ---
 
-# Check In and Check Out Files in Assets{#check-in-and-check-out-files-in-assets}
+# Check-in and check-out files in Assets {#check-in-and-check-out-files-in-assets}
 
 Adobe Experience Manager (AEM) Assets lets you check out assets for editing and check them back in after you complete making the changes. After you check out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset. Other users cannot perform any of these operations on the asset untill you check the asset back in to AEM Assets. However, they can still change the metadata for the locked asset.
 
@@ -71,4 +71,3 @@ Administrators can check in assets that are checked out by other users.
 1. From the toolbar, click/tap the **Release Lock** icon. The asset is checked back in and available for edit to other users.
 
    ![chlimage_1-477](assets/chlimage_1-477.png)
-

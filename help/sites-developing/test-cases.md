@@ -84,9 +84,9 @@ Testing is difficult (caching occurs at various levels and in various locations)
 * **Accuracy**; ensure that content updates are seen by the website visitor.
 * **Continuity**; ensure that the website is still available when one server is shut down.
 * **Clusters** Clusters are used to provide:
-* **Failover**
+    * **Failover**
   If one server fails, then other servers in the cluster will take over processing.
-* **Performance**
+    * **Performance**
   Load balancing with full failover increases the performance of a cluster.
 
 When used for a customer project the cluster must be tested to confirm correct operation of the configuration.

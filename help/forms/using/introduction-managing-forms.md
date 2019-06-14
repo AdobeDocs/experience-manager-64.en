@@ -25,7 +25,7 @@ it on a portal server for end users. You can use the AEM Forms user interface to
 
 ## Access AEM Forms components {#access-aem-forms-components}
 
-Along with options to create forms, documents, and related assets, AEM provides options to create sites, assets, manage an AEM instance, and more. You can click the ![adobeexperiencemanager](assets/adobeexperiencemanager.png) Experience Manager logo to navigate to all the available tools. Along with links to the consoles of other components, it also contains links for AEM Forms . To navigate to AEM Forms, click the Experience Manager logo ![adobeexperiencemanager](assets/adobeexperiencemanager.png) &gt; navigation ![compass](assets/compass.png) &gt; Forms. Links of the following consoles are displayed:
+Along with options to create forms, documents, and related assets, AEM provides options to create sites, assets, manage an AEM instance, and more. You can click the ![adobeexperiencemanager](assets/adobeexperiencemanager.png) Experience Manager logo to navigate to all the available tools. Along with links to the consoles of other components, it also contains links for AEM Forms . To navigate to AEM Forms, click the **Experience Manager logo** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) &gt; **navigation** ![compass](assets/compass.png) &gt; **Forms**. Links of the following consoles are displayed:
 
 * Forms & Documents  
 * Themes  
@@ -88,7 +88,7 @@ For information about creating and using data dictionaries, see creating [data d
 
 ## Accessing AEM Forms Configurations {#accessing-aem-forms-configurations}
 
-AEM tools panel contains tools for various components. To navigate to AEM Forms-specific tools, click the Experience Manager logo ![adobeexperiencemanager](assets/adobeexperiencemanager.png) &gt; tools ![hammer](assets/hammer.png) &gt; Forms. Tools to perform the following functions are displayed:
+AEM tools panel contains tools for various components. To navigate to AEM Forms-specific tools, click the **Experience Manager logo** ![adobeexperiencemanager](assets/adobeexperiencemanager.png) &gt; **tools** ![hammer](assets/hammer.png) &gt; **Forms**. Tools to perform the following functions are displayed:
 
 * **Configure Watched Folder:** An administrator can configure a network folder, known as a watched folder, so that when a user places a file (such as a PDF file) in the watched folder, a pre-configured operation is started and manipulates the file. <!-- Fix broken link For detailed information, see Create and Configure a watched folder. -->  
 

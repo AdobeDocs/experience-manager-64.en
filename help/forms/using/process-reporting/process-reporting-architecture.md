@@ -10,7 +10,7 @@ topic-tags: process-reporting
 discoiquuid: 4afc68fc-6b39-4c31-95fa-2ef3111c57da
 ---
 
-# How Process Reporting Works{#how-process-reporting-works}
+# How Process Reporting Works {#how-process-reporting-works}
 
 Process Reporting is the reporting module of the AEM Forms on JEE.
 
@@ -70,4 +70,4 @@ You can create your own custom reports and display these reports in the Custom R
 
 For the steps to create a custom report, see To create a custom report in the article [Custom Reports in Process Reporting](/help/forms/using/process-reporting/process-reporting-custom-reports.md).
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

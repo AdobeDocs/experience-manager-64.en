@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 9a2d00bb-8c0f-4b0e-859f-f6d3920754b4
 ---
 
-# DO NOT PUBLISH Themes in AEM Forms{#do-not-publish-themes-in-aem-forms}
+# DO NOT PUBLISH Themes in AEM Forms {#do-not-publish-themes-in-aem-forms}
 
 ## About themes in AEM Forms {#about-themes-in-aem-forms}
 
@@ -227,7 +227,7 @@ The Theme Editor is divided in two panels:
     * **Advanced:** Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap. 
     * **View CSS**: Lets you view CSS of the selected component
 
-  Also, in Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](/help/forms/using/wip/themes-stylize-interactive-communication.md#using-rail).
+  Also, in Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error**. These options, along with the options described above are discussed in detail [below](/help/forms/using/wip/themes-stylize-interactive-communication.md#using-rail).
 
 ![Theme editor with Rail and Canvas highlighted.](assets/themes.png) **A.** Sidebar **B.** Canvas
 
@@ -333,8 +333,6 @@ You can undo or redo the undesired changes that occur accidentally. Use the redo
 
 ![redo-undo](assets/redo-undo.png)
 
-Undo/redo buttons in Canvas
-
 Redo/undo buttons appear when you style a component in the Theme Editor.
 
 ## Using the Theme Editor {#using-the-theme-editor}
@@ -342,11 +340,9 @@ Redo/undo buttons appear when you style a component in the Theme Editor.
 The Theme Editor lets you edit a theme you created or uploaded. Navigate to **Forms & Documents &gt; Themes**, and select a theme and open it. The theme opens in the Theme Editor.
 
 As discussed above, the Theme Editor has two panels: Sidebar and Canvas.
-    [ ![theme-editor](assets/theme-editor.png)
+    ![theme-editor](assets/theme-editor.png)
 
 Customizing the success state styling of Text Box Widget component in Theme Editor. Component is selected in Canvas, and its state is selected in the sidebar. Styling options available in the sidebar are used to customize the look of a component. 
-
-](assets/theme-editor-1.png) 
 
 ### Using Canvas {#using-canvas}
 
@@ -376,8 +372,6 @@ When you select a component in the Canvas, you see the component toolbar on top 
 >The options available in the component toolbar vary based on the component you select.
 
 ![Component toolbar](assets/overlay.png)
-
-Component toolbar on the numeric box in Canvas
 
 ### Using Sidebar {#using-rail}
 
@@ -456,10 +450,8 @@ Perform the following steps to customize styling for a particular component (a n
 1. In the Theme Editor, select the numeric box in the Canvas.
 1. When you select the numeric box, you can see the component toolbar with three options:
 
-    * **Numeric Box Widget  
-      **
-    * **Field Widget  
-      **
+    * **Numeric Box Widget**
+    * **Field Widget**
     * ![](../assets/field-level.png)
 
 1. Select **Numeric Box Widget**.

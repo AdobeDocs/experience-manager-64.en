@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0cfe62b8-839e-414b-95e5-1bfce6a9d16a
 ---
 
-# Introduction to Process Reporting{#introduction-to-process-reporting}
+# Introduction to Process Reporting {#introduction-to-process-reporting}
 
  ![process-reporting](assets/process-reporting.png)
 
@@ -64,4 +64,4 @@ Process Reporing provides permission-based access to the user interface.
 
 This means only users with reporting permissions have access to the Process Reporting user interface.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

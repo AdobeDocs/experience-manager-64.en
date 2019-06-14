@@ -18,7 +18,7 @@ There are several methods available for tracking video events, 2 of which are le
 >[!NOTE]
 >
 >Before you continue, make sure that you have a **playable video** uploaded within AEM.  
-  
+> 
 >To ensure that your videos play on the page, consult **[this tutorial](/help/sites-authoring/default-components-foundation.md#video)** for information about how to transcode video files in AEM.
 
 Use the following procedure to set up a framework for video tracking using each method.
@@ -33,7 +33,7 @@ Use the following procedure to set up a framework for video tracking using each 
 
 1. [Create an Adobe Analytics configuration and framework](/help/sites-administering/adobeanalytics.md).
 
-    * The examples in the sections that follow use the name **my-sc-configuration** for the configuration and** videofw** for the framework**.**
+    * The examples in the sections that follow use the name **my-sc-configuration** for the configuration and **videofw** for the framework.
 
 1. On the framework page, select an RSID and set the usage to all. ([http://localhost:4502/cf#/etc/cloudservices/sitecatalyst/videoconf/videofw.html](http://localhost:4502/cf#/etc/cloudservices/sitecatalyst/videoconf/videofw.html))
 1. From the General component category in Sidekick, drag the Video component onto the framework.  
@@ -223,8 +223,8 @@ Calls to Adobe Analytics using the example provided should look like this when v
 
 *This is the **first call** made to Adobe Analytics containing the following values:*
 
-* *prop1 and eVar1 for eventdata.a.media.name, *
-* *props2-4, along with eVar2 and eVar3 containing contentType (video) and segment (1:O:1-4) *
+* *prop1 and eVar1 for eventdata.a.media.name,*
+* *props2-4, along with eVar2 and eVar3 containing contentType (video) and segment (1:O:1-4)*
 * *event3 which was mapped to eventdata.events.a.media.view.*
 
 ![chlimage_1-157](assets/chlimage_1-157.png)
