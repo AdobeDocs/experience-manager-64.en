@@ -125,7 +125,7 @@ The Intershop catalog can be imported into AEM, using the batch importer for Int
 The parameters used by the importer can be configured for:
 
 **Intershop Product and Catalog Importer** 
-( `com.adobe.cq.commerce.intershop.impl.importer.IntershopImporter`)
+(`com.adobe.cq.commerce.intershop.impl.importer.IntershopImporter`)
 
 ![chlimage_1-105](assets/chlimage_1-105.png)
 
@@ -140,7 +140,7 @@ The response parser can be configured to define the properties and attributes to
 The parameters used by the parser can be configured for:
 
 **Intershop JSON Parser** 
-( `com.adobe.cq.commerce.intershop.impl.importer.IntershopJSONParser`)
+(`com.adobe.cq.commerce.intershop.impl.importer.IntershopJSONParser`)
 
 ![chlimage_1-106](assets/chlimage_1-106.png)
 

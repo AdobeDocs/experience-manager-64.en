@@ -42,7 +42,7 @@ Many issues can be resolved by restructuring the content. Keep these simple rule
     * Move it to other locations, for example where access control matches the request sessions available;
     * Change the content granularity;
 
-* **Refactor your code to be a proper service **
+* **Refactor your code to be a proper service**
 
     * Move the business logic from JSP code to service. This allows different content modelling.
 
@@ -179,7 +179,7 @@ To add a mapping from your service to the corresponding System Users you need to
 
 1. Install your bundle and make sure the factory configuration has been installed. You can do this by:
 
-    * Going to the Web Console at * `https://serverhost:serveraddress/system/console/configMgr`*
+    * Going to the Web Console at *https://serverhost:serveraddress/system/console/configMgr*
     * Search for **Apache Sling Service User Mapper Service Amendment**
     * Click the link to see if the proper configuration is in place.
 

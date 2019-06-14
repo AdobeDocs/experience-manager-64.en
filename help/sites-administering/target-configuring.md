@@ -185,13 +185,13 @@ You can create multiple frameworks for a single Target configuration. Multiple f
 
    ![chlimage_1-162](assets/chlimage_1-162.png)
 
-1. Drag the Client Context component that represents the data that you want to use for mapping to the drop target. Alternatively, drag the** ContextHub Store** component to the framework.
+1. Drag the Client Context component that represents the data that you want to use for mapping to the drop target. Alternatively, drag the**ContextHub Store** component to the framework.
 
    >[!NOTE]
    >
    >When mapping, parameters are passed to an mbox via simple strings. You cannot map arrays from ContextHub.
 
-   For example, to use** Profile Data **about your site vistors to control your Target campaign, drag the **Profile Data** component to the page. The profile data variables that are available for mapping to Target parameters appear. 
+   For example, to use **Profile Data** about your site vistors to control your Target campaign, drag the **Profile Data** component to the page. The profile data variables that are available for mapping to Target parameters appear. 
 
    ![chlimage_1-163](assets/chlimage_1-163.png)
 
@@ -212,7 +212,7 @@ Associate your [AEM activities](/help/sites-authoring/activitylib.md) with your 
 >[!NOTE]
 >
 >What types of activities are available is determined by the following:  
-
+>
 >
 >* If the **xt_only** option is enabled on the Adobe Target tenant (clientcode) used on the AEM side to connect to Adobe Target, then you can create **only** XT activities in AEM.
 >
