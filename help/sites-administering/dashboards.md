@@ -18,7 +18,7 @@ When using AEM you are able of managing a lot of content of different types (e.g
 >[!NOTE]
 >
 >AEM Dashboards are created on a per user basis, so a user can only access to their own dashboard.  
-
+>
 >
 >However, [Dashboard templates](#creating-a-dashboard-template) can be used to share common configuration and Dashboard layout.
 

@@ -4,7 +4,7 @@ seo-title: Bulk Metadata Import and Export
 description: This article describes how to import and export metadata in bulk.
 seo-description: This article describes how to import and export metadata in bulk.
 uuid: 176b7b5e-a1d5-40fe-a651-bfa36c4b409a
-contentOwner: cmajumda
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 discoiquuid: f7e30ec4-62fd-43b7-a650-f61034f7a2db
@@ -14,7 +14,7 @@ discoiquuid: f7e30ec4-62fd-43b7-a650-f61034f7a2db
 
 This article describes how to import and export metadata in bulk.
 
-AEM 6.4 Assets lets you import asset metadata in bulk using a CSV file for newly uploaded assets. In addition, you can also update the metadata for assets in bulk for existing assets by importing a CSV file. You can also ingest asset metadata in bulk from third-party system in CSV format.
+AEM Assets lets you import asset metadata in bulk using a CSV file for newly uploaded assets. In addition, you can also update the metadata for assets in bulk for existing assets by importing a CSV file. You can also ingest asset metadata in bulk from third-party system in CSV format.
 
 ## Import metadata {#import-metadata}
 
@@ -58,7 +58,7 @@ In other words, you can use a single CSV file to simultaneously update the metad
 
 ## Export Metadata {#export-metadata}
 
-AEM 6.4 Assets lets you export metada for multiple assets in CSV format and reimport the metadata in a third-party system. You can also share asset metadata within project team.
+AEM Assets lets you export metada for multiple assets in CSV format and reimport the metadata in a third-party system. You can also share asset metadata within project team.
 
 The metadata is exported asynchronously and, therefore, does not impact the performance of your system. When you export metadata, AEM traverses through properties of the asset node *jcr:content/metadata* and its child nodes and exports metadata properties in a CSV file.
 

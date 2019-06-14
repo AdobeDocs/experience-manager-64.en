@@ -131,8 +131,8 @@ To run garbage collection:
 
 1. In the Apache Felix OSGi Management Console, highlight the **Main** tab and select **JMX** from the following menu.
 1. Next, search for and click the **Repository Manager** MBean (or go to `https://<host>:<port>/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Drepository+manager%2Ctype%3DRepositoryManagement`).
-1. Click** startDataStoreGC(boolean markOnly)**.
-1. enter " `true`" for the `markOnly` parameter if required:
+1. Click **startDataStoreGC(boolean markOnly)**.
+1. enter "`true`" for the `markOnly` parameter if required:
 
    | **Option** |**Description** |
    |---|---|
@@ -178,7 +178,7 @@ The curl command returns immediately.
 The data store consistency check will report any data store binaries that are missing but are still referenced. To start a consistency check, follow these steps:
 
 1. Go to the JMX console. For information on how to use the JMX console, see [this article](/help/sites-administering/jmx-console.md#using-the-jmx-console).
-1. Search for the **BlobGarbageCollection **Mbean and click it.
+1. Search for the **BlobGarbageCollection** Mbean and click it.
 1. Click the `checkConsistency()` link.
 
 After the consistency check is complete, a message will show the number of binaries reported as missing. If the number is greater than 0, check the `error.log` for more details on the missing binaries.

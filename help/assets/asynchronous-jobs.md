@@ -4,11 +4,11 @@ seo-title: Asynchronous Operations
 description: Overview of asynchronous operations in AEM Assets.
 seo-description: Know about asynchronous operations in AEM Assets.
 uuid: cc924285-fa61-462d-b542-a1442ef4f5aa
-contentOwner: cmajumda
+contentOwner: asgupta
 discoiquuid: a2ac8ea0-f154-4f03-800c-87cfee8308ea
 ---
 
-# Asynchronous Operations{#asynchronous-operations}
+# Asynchronous Operations {#asynchronous-operations}
 
 Overview of asynchronous operations in AEM Assets.
 

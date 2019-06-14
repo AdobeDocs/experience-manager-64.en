@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: e43fd002-2954-4ef1-ac2b-e8d45afa75be
 ---
 
-# Advanced configuration settings{#advanced-configuration-settings}
+# Advanced configuration settings {#advanced-configuration-settings}
 
 While the default configuration settings are appropriate for typical use cases, some situations may require you to make changes.
 
