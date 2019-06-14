@@ -10,7 +10,7 @@ topic-tags: authoring
 discoiquuid: 66495776-5faa-4e5b-a6b6-abb59f7951c0
 ---
 
-# Use Adobe Stock assets in AEM Assets{#use-adobe-stock-assets-in-aem-assets}
+# Use Adobe Stock assets in AEM Assets {#use-adobe-stock-assets-in-aem-assets}
 
 Organizations can integrate their Adobe Stock enterprise plan with AEM Assets to ensure that licensed assets are broadly available for their creative and marketing projects, with the powerful asset management capabilities of AEM.
 

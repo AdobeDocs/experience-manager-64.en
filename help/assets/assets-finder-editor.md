@@ -4,18 +4,16 @@ seo-title: Creating and Configuring Asset Share and Asset Editor pages
 description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
 seo-description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
 uuid: 2913886b-c433-47ab-8b79-8c37717176d3
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 565e307a-e42e-4967-ba72-f1c6fb078676
 ---
 
-# Creating and Configuring Asset Editor pages{#creating-and-configuring-asset-editor-pages}
+# Creating and Configuring Asset Editor pages {#creating-and-configuring-asset-editor-pages}
 
 This document describes the following:
-
-<!--> Update screenshots for branding -->
 
 * Why you would create customized Asset Editor pages.
 * How to create and customize Asset Editor pages, which are WCM pages that let you view and edit metadata as well as perform actions on the asset.

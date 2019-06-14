@@ -4,7 +4,7 @@ seo-title: Video renditions
 description: null
 seo-description: null
 uuid: a02f9ec1-30d9-4cbb-8746-8391ac614f0a
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference

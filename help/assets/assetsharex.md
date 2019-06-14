@@ -4,7 +4,7 @@ seo-title: Customizing Asset Share
 description: null
 seo-description: null
 uuid: 00f9a4f3-36d8-4703-b8d9-34bb191af918
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference

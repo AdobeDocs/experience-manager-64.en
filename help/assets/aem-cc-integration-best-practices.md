@@ -4,14 +4,14 @@ seo-title: AEM and Creative Cloud Integration Best Practices
 description: Best practices for integrating an AEM instance with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency.
 seo-description: Best practices for integrating an AEM instance with Adobe Creative Cloud.
 uuid: cc012414-83aa-4d9a-b49e-acd10cea0aad
-contentOwner: User
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: cec0308a-3e48-41a6-998f-6591f402e755
 ---
 
-# AEM and Creative Cloud Integration Best Practices{#aem-and-creative-cloud-integration-best-practices}
+# AEM and Creative Cloud Integration Best Practices {#aem-and-creative-cloud-integration-best-practices}
 
 Best practices for integrating an AEM instance with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency.
 
