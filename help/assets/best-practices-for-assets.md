@@ -4,14 +4,14 @@ seo-title: Best Practices for Assets
 description: Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.
 seo-description: Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.
 uuid: 2738ddc7-7f7c-41b5-84d9-4eecb52da1e9
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 750505d4-f31d-4ee5-bca0-96e587b06559
 ---
 
-# Best Practices for Assets{#best-practices-for-assets}
+# Best Practices for Assets {#best-practices-for-assets}
 
 Adobe Experience Manager (AEM) Assets is a crucial part of delivering high-quality digital marketing experiences that contribute to the achievement of business goals through increasing your content velocity. If you work with a large number of assets within AEM Assets or regularly/periodically upload numerous assets, including videos and dynamic media, optimizing your digital asset management experience is critical for system efficiency.
 
