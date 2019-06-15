@@ -95,15 +95,10 @@ user-guide-title: AEM 6.4 Deploying Guide
    + [Best Practices for Queries and Indexing](best-practices-for-queries-and-indexing.md)
    + [User Interface Recommendations for Customers](ui-recommendations.md)
    + [Performance & Scalability](performance.md)
-+ Deleted section Remove duplicates and move others to sections above {#deleted}
-    + [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)
-    + [Device Control Center](device-control-center.md)
 + Missing TOC files that need to be linked to - please fix {#missing}
     + [webconsole](web-console.md)
-    + [aemscreensintro](aem-screens-introduction.md)
     + [repository-restructuring-in-aem64](repository-restructuring-in-aem64.md)
     + [config-ssl](config-ssl.md)
-    + [configuring-screens-introduction](configuring-screens-introduction.md)
 
 
 <!-- 

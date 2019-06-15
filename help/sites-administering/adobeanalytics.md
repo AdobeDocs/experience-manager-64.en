@@ -31,7 +31,6 @@ The following pages help you configure the integration:
 * [Configuring Link Tracking for Adobe Analytics](/help/sites-administering/adobeanalytics-link.md)
 * [Mapping Component Data with Adobe Analytics Properties](/help/sites-administering/adobeanalytics-mapping.md)
 * [Configuring Video Tracking for Adobe Analytics](/help/sites-administering/adobeanalytics-video.md)
-* [SAINT Exporter](/help/sites-administering/adobeanalytics-saint.md)
 
 You can also use the [Opt-in wizard](/help/sites-administering/opt-in.md) to easily perform the integration.
 
