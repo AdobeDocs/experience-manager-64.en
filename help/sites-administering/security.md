@@ -464,7 +464,7 @@ To delete a user or group:
 
 1. In the **Security** console, select the user or group you want to delete. If you want to delete multiple items, Shift+click or Control+click to select them.
 1. Click **Edit,** then select Delete. AEM WCM asks whether you want to delete the user or group.
-1. Click** OK** to confirm or Cancel to cancel your action.
+1. Click **OK** to confirm or Cancel to cancel your action.
 
 ### Modifying User and Group Properties {#modifying-user-and-group-properties}
 
