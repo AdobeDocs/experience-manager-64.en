@@ -113,7 +113,7 @@ Execute detailed test plan against as defined [Upgrading Code and Customizations
 
 ### Enable Replication Agents {#enable-replication-agents}
 
-Once publish environment has been fully upgraded and validated, enable replication agents on the Author Environment. Verify that agents are able to connect to respective Publish instances. See U [pgrade Procedure](/help/sites-deploying/upgrade-procedure.md) for more details on order of events.
+Once publish environment has been fully upgraded and validated, enable replication agents on the Author Environment. Verify that agents are able to connect to respective Publish instances. See [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md) for more details on order of events.
 
 ### Enable Custom Scheduled Jobs {#enable-custom-scheduled-jobs}
 
