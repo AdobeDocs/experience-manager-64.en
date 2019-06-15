@@ -21,7 +21,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    ![chlimage_1-170](assets/chlimage_1-170.png)
 
-   Alternatively, select the asset in the UI and then click or tap the** Properties** icon from the toolbar.
+   Alternatively, select the asset in the UI and then click or tap the **Properties** icon from the toolbar.
 
    ![chlimage_1-171](assets/chlimage_1-171.png)
 
@@ -29,7 +29,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    ![chlimage_1-172](assets/chlimage_1-172.png)
 
-   To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](metadata-schemas.md#editing-metadata-schema-forms) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a **jpeg** schema under *default/image* only modifies the metadata layout (asset properties) for assets with MIME type **IMAGE/JPEG**. However, if you edit the **default** schema, your changes modify the metadata layout for all types of assets.
+   To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](metadata-schemas.md#editing-metadata-schema-forms) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a **jpeg** schema under `default/image` only modifies the metadata layout (asset properties) for assets with MIME type **IMAGE/JPEG**. However, if you edit the **default** schema, your changes modify the metadata layout for all types of assets.
 
 1. To view a list of forms/templates, click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**.
 
@@ -41,19 +41,19 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    The following child forms inherit the properties of the default form:  
 
-   i. **image**: Schema form for assets with the MIME type "image", for example, *image/jpeg*, *image/png*, and so on.  
+   i. **image**: Schema form for assets with the MIME type `image`, for example, `image/jpeg`, `image/png`, and so on.  
 
    The "image" form has the following child form templates:  
    
    a. **jpeg**: Schema form for assets with sub type jpeg.  
 
-   b. **tiff**: Schema form for the assets with sub type tiff.  
+   b. **tiff**: Schema form for the assets with sub type TIFF.  
 
-   ii. **application**: Schema form for assets with MIME type "application", for example *application*/ *pdf*, *application*/ *zip*, and so on.  
+   ii. **application**: Schema form for assets with MIME type "application", for example `application/pdf`, `application/zip`, and so on.  
    
-   a. **pdf**: Schema form for assets with sub type pdf.  
+   a. **pdf**: Schema form for assets with sub type PDF.  
 
-   iii. **video**: Schema form for assets with MIME type "video", such as *video*/ *avi*, *video*/ *mp4* and so on.
+   iii. **video**: Schema form for assets with MIME type "video", such as `video/avi`, `video/mp4` and so on.
 
     * **collection**: Schema form for collections
     * **contentfragment:** Schema form for content fragments
@@ -98,7 +98,7 @@ You can add new tabs or form items to the metadata schema form. The tabs and for
 
 ### Components within the Build Form tab {#components-within-the-build-form-tab}
 
-The **Build Form** tab lists form items that you use in your schema form. The **Settings** tab provides the attributes of each item that you select in the **Build Form** tab. The following table lists the form items available in the **Build Form** tab: 
+The **Build Form** tab lists form items that you use in your schema form. The **Settings** tab provides the attributes of each item that you select in the **Build Form** tab. The following table lists the form items available in the **Build Form** tab:
 
 <table> 
  <tbody> 
@@ -171,7 +171,7 @@ To edit the properties of a metadata component on the form, click the component 
 
 **Field Label**: The name of the metadata property that is displayed on the properties page for the asset.
 
-**Map to Property**: This property specifies the relative path/name to the asset node where it is saved in the CRX repository. It starts with "**./**" because indicating that the path is under the asset's node.
+**Map to Property**: This property specifies the relative path/name to the asset node where it is saved in the CRX repository. It starts with `./` because indicating that the path is under the asset's node.
 
 The following are the valid values for this property:
 
@@ -209,13 +209,13 @@ If you select the **Required** option, you can search for assets missing mandato
 
 ![chlimage_1-178](assets/chlimage_1-178.png)
 
-If you add the Contextual Metadata component to any tab of any schema form, the component appears as a list in the properties page of assets to which the particular  schema  is applied. The list includes all other tabs except the tab to which you applied the Contextual Metadata component. Currently, this feature provides basic functionality to control the display of metadata based on the context.
+If you add the Contextual Metadata component to any tab of any schema form, the component appears as a list in the properties page of assets to which the particular schema is applied. The list includes all other tabs except the tab to which you applied the Contextual Metadata component. Currently, this feature provides basic functionality to control the display of metadata based on the context.
 
 ![chlimage_1-179](assets/chlimage_1-179.png)
 
 To include any tab in the properties page in addition to the tab where the Contextual Metadata component is applied, select the tab from the list. The tab is added to the properties page.
 
-![chlimage_1-180](assets/chlimage_1-180.png) 
+![chlimage_1-180](assets/chlimage_1-180.png)
 
 ### Specifying properties in JSON file {#specifying-properties-in-json-file}
 
@@ -227,9 +227,9 @@ The schema editor lets you add or delete a tab. The **default** schema form incl
 
 ![chlimage_1-181](assets/chlimage_1-181.png)
 
-Click **+** to add a new tab on a schema form. By default, the new tab has the name "Unnamed-1." You can modify the name from the **Settings** tab.
+Click `+` to add a new tab on a schema form. By default, the new tab has the name `Unnamed-1`. You can modify the name from the **Settings** tab.
 
-Click **X** to delete a tab.
+Click `X` to delete a tab.
 
 ![chlimage_1-182](assets/chlimage_1-182.png) 
 
@@ -266,7 +266,7 @@ In this case, create a new node at */etc/dam/metadataeditor/mimetypemappings* in
 | **Name** |**Description** |**Type** |**Value** |
 |---|---|---|---|
 | exposedmimetype |Name of the existing form to be mapped  |String |image/jpeg |
-| mimetypes |List of MIME types that use the form defined in the **exposedmimetype** attribute |String[] |image/png |
+| mimetypes |List of MIME types that use the form defined in the `exposedmimetype` attribute |String[] |image/png |
 
 AEM Assets maps the following MIME types and schema forms:
 
@@ -286,9 +286,7 @@ AEM Assets maps the following MIME types and schema forms:
 
 ## Granting access to metadata schemas {#granting-access-to-metadata-schemas}
 
-The Metadata Schema feature is available to administrators only. However, administrators can provide access to non administrators by modifying some permissions.
-
-The non administrator should have **Create, Modify**, and **Delete** permissions on the */conf* folder.
+The Metadata Schema feature is available to administrators only. However, administrators can provide access to non-administrators by providing **Create**, **Modify**, and **Delete** permissions on the `/conf` folder.
 
 ## Applying folder-specific metadata {#applying-folder-specific-metadata}
 
@@ -333,6 +331,10 @@ If the folder has a subfolder, the assets within the subfolder inherit the metad
 ## Defining mandatory metadata {#defining-mandatory-metadata}
 
 You can define mandatory fields at a folder level, which is enforced on assets that are uploaded to the folder. If you upload assets with missing metadata for the mandatory fields defined earlier, a visual indication for missing metadata appears on the assets in the Card view.
+
+>[!NOTE]
+>
+>A metadata field can be defined as mandatory based on the value of another field. In the Cards view, AEM does not display the warning message about missing metadata for such mandatory metadata fields.
 
 1. Click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**. The **Metadata Schema Forms** page is displayed.
 1. Save the default metadata form as a custom form. For example, save it as `my_default`.

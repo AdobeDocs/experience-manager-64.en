@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: fa65084a-b69a-4ce2-8798-21ef23392964
 ---
 
-# Enabling Asset Insights through DTM{#enabling-asset-insights-through-dtm}
+# Enabling Asset Insights through DTM {#enabling-asset-insights-through-dtm}
 
 Adobe Dynamic Tag Management is a tool that activates your digital marketing tools. It is provided for free to Adobe Analytics customers.
 
@@ -20,19 +20,19 @@ Although you can customize your tracking code to enable third-party CMS solution
 Perform these steps to enable Asset Insights through DTM:
 
 1. Tap/click the AEM logo, and go to **Tools** &gt; **Assets** &gt; **Insights Configuration**.
-1. [Configure AEM instance with DTM Cloud Service](/help/sites-administering/dtm.md)
+1. [Configure AEM instance with DTM Cloud Service](../sites-administering/dtm.md)
 
-   The API token should be available once you log on to [https://dtm.adobe.com](https://dtm.adobe.com/) and visit *Account Settings* from the Profile Icon. This step is not required from the Asset Insights standpoint, because the integration of AEM Sites with Asset Insights is still in the works.
+   The API token should be available once you log on to [https://dtm.adobe.com](https://dtm.adobe.com/) and visit **Account Settings** from the Profile icon. This step is not required from the Asset Insights standpoint, because the integration of AEM Sites with Asset Insights is still in the works.
 
 1. Log on to [https://dtm.adobe.com](https://dtm.adobe.com/), and select a Company, as appropriate.
 1. Create/Open an the existing Web Property
 
     * Select the **Web Properties** tab, and then tap/click **Add Property**.
-    * Update the fields as appropriate, and tap/click **Create Property*** *(see [documentation](https://helpx.adobe.com/experience-manager/using/dtm.html)).
+    * Update the fields as appropriate, and tap/click **Create Property** (see [documentation](https://helpx.adobe.com/experience-manager/using/dtm.html)).
 
    ![chlimage_1-193](assets/chlimage_1-193.png)
 
-1. In the **Rules** tab, select **Page Load Rules** from the navigation pane and tap/click **Create New Rule***.*
+1. In the **Rules** tab, select **Page Load Rules** from the navigation pane and tap/click **Create New Rule**.
 
    ![chlimage_1-194](assets/chlimage_1-194.png)
 
@@ -45,12 +45,12 @@ Perform these steps to enable Asset Insights through DTM:
 
    >[!NOTE]
    >
-   >* AppMeasurement.js has been removed. It is expected to be available through DTM's Adobe Analytics tool.
-   >* The call to `assetAnalytics.dispatcher.init`() is removed. The function is expected to be called once DTM's Adobe Analytics tool finishes loading.
+   >* `AppMeasurement.js` has been removed. It is expected to be available through DTM's Adobe Analytics tool.
+   >* The call to `assetAnalytics.dispatcher.init()` is removed. The function is expected to be called once DTM's Adobe Analytics tool finishes loading.
    >* Depending on where Asset Insights Page Tracker is hosted (for example AEM, CDN and so on), the origin of the script source may require changes.
    >* For AEM-hosted Page Tracker, the source should point to a publish instance using the host name of the dispatcher instance.
 
-1. Either create or open an existing Adobe Analytics Tool. While creating the tool, you can set **Configuration Method** to **Automatic***.*
+1. Either create or open an existing Adobe Analytics Tool. While creating the tool, you can set **Configuration Method** to **Automatic**.
 
    ![chlimage_1-196](assets/chlimage_1-196.png)
 
@@ -60,7 +60,7 @@ Perform these steps to enable Asset Insights through DTM:
 
    ![chlimage_1-197](assets/chlimage_1-197.png)
 
-1. Expand **Customize Page Code**, and click or tap **Open Editor***.*
+1. Expand **Customize Page Code**, and click or tap **Open Editor**.
 
    ![chlimage_1-198](assets/chlimage_1-198.png)
 
@@ -103,8 +103,8 @@ Perform these steps to enable Asset Insights through DTM:
    ```
 
     * The page load rule in DTM only includes the pagetracker.js code. Any `assetAnalytics` fields are considered as overrides for default values. They are not required by default.
-    * The code calls `assetAnalytics.dispatcher.init`() after making sure that `_satellite.getToolsByType('sc')[0].getS`() is initialized and `assetAnalytics,dispatcher.init` is available. Therefore, you can skip adding it in step 11.
-    * As indicated in comments within the Insights Page Tracker code (**Tools** > **Assets** > **Insights Page Tracker**), when Page Tracker does not create an `AppMeasurement` object, the first three arguments (RSID, Tracking Server, and Visitor Namespace) are irrelevant. Empty strings are passed instead to highlight this. 
+    * The code calls `assetAnalytics.dispatcher.init()` after making sure that `_satellite.getToolsByType('sc')[0].getS()` is initialized and `assetAnalytics,dispatcher.init` is available. Therefore, you can skip adding it in step 11.
+    * As indicated in comments within the Insights Page Tracker code (**Tools** > **Assets** > **Insights Page Tracker**), when Page Tracker does not create an `AppMeasurement` object, the first three arguments (RSID, Tracking Server, and Visitor Namespace) are irrelevant. Empty strings are passed instead to highlight this.
 
       The remaining arguments correspond to what is configured in the Insights Configuration page (**Tools** &gt; **Assets** &gt;  **Insights Configuration**).
   
@@ -112,4 +112,3 @@ Perform these steps to enable Asset Insights through DTM:
 
 1. Save and close the Code Editor window, and then save the changes in the Tool configuration.
 1. In the **Approvals** tab, approve both the pending approvals. The DTM tag is ready for insertion in your web page. For details on how to insert DTM tags in web pages, see [Integrating DTM in custom page templates](https://blogs.adobe.com/experiencedelivers/experience-management/integrating-dtm-custom-aem6-page-template/).
-

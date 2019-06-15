@@ -23,32 +23,32 @@ In addition to using pre-existing editor components, Adobe Experience Manager (A
 
 The following sample pages are included in geometrixx:
 
-* Geometrixx Sample Page: **/content/geometrixx/en/press/asseteditor.html**
-* Sample Template: **/apps/geometrixx/templates/asseteditor**
-* Sample Page Component: **/apps/geometrixx/components/asseteditor**
+* Geometrixx Sample Page: `/content/geometrixx/en/press/asseteditor.html`
+* Sample Template: `/apps/geometrixx/templates/asseteditor`
+* Sample Page Component: `/apps/geometrixx/components/asseteditor`
 
 ### Configuring Clientlib {#configuring-clientlib}
 
-AEM Assets components use an extension of the WCM edit clientlib. The clientlibs are usually loaded in **init.jsp**.
+AEM Assets components use an extension of the WCM edit clientlib. The clientlibs are usually loaded in `init.jsp`.
 
-Compared to the default clientlib loading (in core's **init.jsp**), an AEM Assets template must have the following:
+Compared to the default clientlib loading (in core's `init.jsp`), an AEM Assets template must have the following:
 
-* The template must include the **cq.dam.edit** clientlib (instead of **cq.wcm.edit**).
+* The template must include the `cq.dam.edit` clientlib (instead of `cq.wcm.edit`).
 
 * The clientlib must also be included in disabled WCM mode (for example, loaded on **publish**) to be able to render the predicates, actions, and lenses.
 
-In most cases, copying the existing sample **init.jsp** (**/apps/geometrixx/components/asseteditor/init.jsp**) should meet these needs.
+In most cases, copying the existing sample `init.jsp` (`/apps/geometrixx/components/asseteditor/init.jsp`) should meet these needs.
 
 ### Configuring JS actions {#configuring-js-actions}
 
-Some of the AEM Assets components require JS functions defined in **component.js**. Copy this file to your component directory and link it.
+Some of the AEM Assets components require JS functions defined in `component.js`. Copy this file to your component directory and link it.
 
 ```xml
 <script type="text/javascript" src="<%= component.getPath() %>/component.js"></script>
 
 ```
 
-The sample loads this javascript source in **head.jsp **(**/apps/geometrixx/components/asseteditor/head.jsp**).
+The sample loads this javascript source in `head.jsp`(`/apps/geometrixx/components/asseteditor/head.jsp`).
 
 ### Additional Style Sheets {#additional-style-sheets}
 
@@ -60,7 +60,7 @@ Some of the AEM Assets components use the AEM widgets library. To be rendered pr
 
 ### Geometrixx Style Sheet {#geometrixx-style-sheet}
 
-The sample page components require that all selectors start with **.asseteditor** of **static.css** (**/etc/designs/geometrixx/static.css**). Best practice: Copy all **.asseteditor** selectors to your style sheet and adjust the rules as desired.
+The sample page components require that all selectors start with `.asseteditor` of `static.css` (`/etc/designs/geometrixx/static.css`). Best practice: Copy all `.asseteditor` selectors to your style sheet and adjust the rules as desired.
 
 ### FormChooser: Adjustments for eventually loaded Resources {#formchooser-adjustments-for-eventually-loaded-resources}
 
@@ -71,10 +71,10 @@ For example:
 * Plain form page: [http://localhost:4502/content/geometrixx/en/press/asseteditor.html](http://localhost:4502/content/geometrixx/en/press/asseteditor.html)
 * Asset loaded into the form page: [http://localhost:4502/content/dam/geometrixx/icons/diamond.png.form.html/content/geometrixx/en/press/asseteditor.html](http://localhost:4502/content/dam/geometrixx/icons/diamond.png.form.html/content/geometrixx/en/press/asseteditor.html)
 
-The sample handles in **head.jsp** (**/apps/geometrixx/components/asseteditor/head.jsp**) do the following:
+The sample handles in `head.jsp` (`/apps/geometrixx/components/asseteditor/head.jsp`) do the following:
 
 * They detect if an asset is loaded or if the plain form has to be displayed.
-* If an asset is loaded, they disable WCM mode as parsys can only be edited on a plain form page.   
+* If an asset is loaded, they disable WCM mode as parsys can only be edited on a plain form page.
 * If an asset is loaded, they use its title instead of the one on the form page.
 
 ```java
@@ -127,8 +127,8 @@ In the HTML part, use the preceding title set (either asset or page title):
 
 This example describes how to build a component that shows and displays the metadata of a loaded asset.
 
-1. Create a component folder in your projects directory, for example, **/apps/geometrixx/components/samplemeta**.
-1. Add **content.xml**:
+1. Create a component folder in your projects directory, for example, `/apps/geometrixx/components/samplemeta`.
+1. Add `content.xml` with the following snippet:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -141,7 +141,7 @@ This example describes how to build a component that shows and displays the meta
    
    ```
 
-1. Add **samplemeta.jsp**:
+1. Add `samplemeta.jsp` with the following snippet:
 
    ```xml
    <%--
@@ -200,9 +200,9 @@ This example describes how to build a component that shows and displays the meta
    
    ```
 
-1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE Lite, add a node **cq:editConfig** of primary type **cq:EditConfig**. So that you can remove paragraphs, add a multi-value property **cq:actions** with a single value of **DELETE**.  
+1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE Lite, add a node `cq:editConfig` of primary type `cq:EditConfig`. So that you can remove paragraphs, add a multi-value property `cq:actions` with a single value of `DELETE`.
 
-1. Navigate to your browser, and on your sample page (for example, **asseteditor.html**) switch to design mode and enable your new component for the paragraph system.  
+1. Navigate to your browser, and on your sample page (for example, `asseteditor.html`) switch to design mode and enable your new component for the paragraph system.  
 
 1. In **Edit** mode, the new component (for example, **Sample Metadata**) is now available in the sidekick (found in the **Asset Editor **group). Insert the component. To be able to store the metadata, it must be added to the metadata form.
 
@@ -210,19 +210,18 @@ This example describes how to build a component that shows and displays the meta
 
 You can modify the namespaces available in the [metadata form](assets-finder-editor.md#metadata-form-and-text-field-configuring-the-view-metadata-component).
 
-Currently available metadata are defined in **/libs/dam/options/metadata**:
+Currently available metadata are defined in `/libs/dam/options/metadata`:
 
 * The first level inside this directory contains the namespaces.
 * The items inside each namespace represents a metadata, such as results in a local part item.
 * The metadata content contains the information for the type and the multi-value options.
 
-The options can be overwritten in **/apps/dam/options/metadata**:
+The options can be overwritten in `/apps/dam/options/metadata`:
 
-1. Copy the directory from **/libs** to **/apps**.
+1. Copy the directory from `/libs` to `/apps`.
 
 1. Remove, modify, or add items.
 
 >[!NOTE]
 >
 >If you add new namespaces, they must be registered in your repository/CRX. Otherwise submitting the metadata form will result in an error.
-

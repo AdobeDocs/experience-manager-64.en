@@ -17,11 +17,11 @@ discoiquuid: f55e68c3-3309-4400-bef9-fd3afa6e2b5f
 
 To use Dynamic Media Classic, you need to configure the cloud configuration so that Dynamic Media Classic and AEM Assets can interact with one another. This document describes how to configure AEM and Dynamic Media Classic.
 
-For information on using all the Dynamic Media Classic components on a page and working with video, see [Using Dynamic Media Classic](/help/assets/scene7.md).
+For information on using all the Dynamic Media Classic components on a page and working with video, see [Using Dynamic Media Classic](../assets/scene7.md).
 
 >[!NOTE]
 >
->* Dynamic Media Classic's DHTML viewer platform officially reached end-of-life on January 31, 2014. For more information see the [DHTML viewer end-of-life FAQ](/help/sites-administering/dhtml-viewer-endoflifefaqs.md).
+>* Dynamic Media Classic's DHTML viewer platform officially reached end-of-life on January 31, 2014. For more information see the [DHTML viewer end-of-life FAQ](../sites-administering/dhtml-viewer-endoflifefaqs.md).
 >* Before configuring Dynamic Media Classic to work with AEM, see [Best Practices](#best-practices-for-integrating-scene-with-aem) for integrating Dynamic Media Classic with AEM.
 >* If you are using Dynamic Media Classic with a custom proxy configuration, you need to configure both HTTP Client proxy configurations as some functionalities of AEM are using the 3.x APIs and some others the 4.x APIs. 3.x is configured with [http://localhost:4502/system/console/configMgr/com.day.commons.httpclient](http://localhost:4502/system/console/configMgr/com.day.commons.httpclient) and 4.x is configured with [http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator](http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator).
 >

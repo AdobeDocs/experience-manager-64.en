@@ -12,7 +12,7 @@ discoiquuid: 31c56b65-9ee4-42a5-b1a9-3bb0a10e96a9
 duration: 10 minutes
 ---
 
-# Extending Assets Search{#extending-assets-search}
+# Extending Assets Search {#extending-assets-search}
 
 You can extend Adobe Experience Manager (AEM) Assets search capabilities. Out of the box, AEM Assets searches for assets by strings.
 
@@ -22,7 +22,7 @@ You can also add additional tabs to the AEM Assets admin panel.
 
 >[!CAUTION]
 >
->As of AEM 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](/help/release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](search-facets.md).
+>As of AEM 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](../release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](search-facets.md).
 
 ## Overlaying {#overlaying}
 
@@ -54,14 +54,14 @@ In addition to using pre-existing predicates, AEM developers can also create the
 
 Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html.
 
-The best practice is to copy an existing predicate and adjust it. Sample predicates are located in **/libs/cq/search/components/predicates**.
+The best practice is to copy an existing predicate and adjust it. Sample predicates are located in `/libs/cq/search/components/predicates`.
 
 ### Example: Build a simple property predicate {#example-build-a-simple-property-predicate}
 
 To build a property predicate:
 
-1. Create a component folder in your projects directory, for example **/apps/geometrixx/components/titlepredicate**.
-1. Add **content.xml**:
+1. Create a component folder in your projects directory, for example `/apps/geometrixx/components/titlepredicate`.
+1. Add `content.xml`:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -74,7 +74,7 @@ To build a property predicate:
    
    ```
 
-1. Add** titlepredicate.jsp**.
+1. Add `titlepredicate.jsp`.
 
    ```xml
    <%--
@@ -144,10 +144,10 @@ To build a property predicate:
    
    ```
 
-1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node **cq:editConfig** of primary type **cq:EditConfig**. So that you can remove paragraphs, add a multi-value property **cq:actions** with a single value of **DELETE**.
-1. Navigate to your browser, and on your sample page (for example, **press.html**) switch to design mode and enable your new component for the predicate paragraph system (for example, **left**).  
+1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node `cq:editConfig` of primary type `cq:EditConfig`. So that you can remove paragraphs, add a multi-value property `cq:actions` with a single value of **DELETE**.
+1. Navigate to your browser, and on your sample page (for example, `press.html`) switch to design mode and enable your new component for the predicate paragraph system (for example, **left**).  
 
-1. In **Edit** mode, the new component is now available in the sidekick (found in the **Search **group). Insert the component in the **Predicates** column and type a search word, for example, **Diamond** and click the magnifying glass to start the search.
+1. In **Edit** mode, the new component is now available in the sidekick (found in the **Search** group). Insert the component in the **Predicates** column and type a search word, for example, **Diamond** and click the magnifying glass to start the search.
 
    >[!NOTE]
    >
@@ -157,8 +157,8 @@ To build a property predicate:
 
 To build a group predicate:
 
-1. Create a component folder in your projects directory, for example **/apps/geometrixx/components/picspredicate.**
-1. Add **content.xml**:
+1. Create a component folder in your projects directory, for example `/apps/geometrixx/components/picspredicate`.
+1. Add `content.xml`:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -171,7 +171,7 @@ To build a group predicate:
    
    ```
 
-1. Add **titlepredicate.jsp**:
+1. Add `titlepredicate.jsp`:
 
    ```xml
    <%--
@@ -251,9 +251,9 @@ To build a group predicate:
 
    ```
 
-1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node **cq:editConfig** of primary type **cq:EditConfig**. So that you can remove paragraphs, add a multi-value property **cq:actions** with a single value of **DELETE**.
-1. Navigate to your browser, and on your sample page (for example, **press.html**) switch to design mode and enable your new component for the predicate paragraph system (for example, **left**).
-1. In **Edit** mode, the new component is now available in the sidekick (found in the **Search **group). Insert the component in the **Predicates** column.
+1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node `cq:editConfig` of primary type `cq:EditConfig`. So that you can remove paragraphs, add a multi-value property `cq:actions` with a single value of `DELETE`.
+1. Navigate to your browser, and on your sample page (for example, `press.html`) switch to design mode and enable your new component for the predicate paragraph system (for example, **left**).
+1. In **Edit** mode, the new component is now available in the sidekick (found in the **Search** group). Insert the component in the **Predicates** column.
 
 ### Installed Predicate Widgets {#installed-predicate-widgets}
 

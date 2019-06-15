@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 7c851395-5f10-4311-899a-e73328f57e85
 ---
 
-# Administering Assets {#administering-assets}
+# About Assets {#about-assets}
 
 Assets is a Digital Asset Management (DAM) tool that is fully integrated with the AEM platform and enables your enterprise to share and distribute digital assets. Users across an organization can manage, store, and access images, videos, documents, audio clips, and rich media such as Flash files for use on the web, in print, and for digital distribution.
 
