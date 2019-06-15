@@ -127,7 +127,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Metadata - Fragment Properties](content-fragments-metadata.md)
     + [Content Fragments - Delete Considerations](content-fragments-delete.md)
     + [Content Fragments - Markdown](content-fragments-markdown.md)
-    + [Creating translation projects for Content Fragments](creating-translation-projects-for-content-fragments.md)=
+    + [Creating translation projects for Content Fragments](creating-translation-projects-for-content-fragments.md)
 + Managing Assets {#managing}
     + [Managing Assets with the Touch-Optimized UI](managing-assets-touch-ui.md)
     + [Managing multiple assets and collections](managing-multiple-assets.md)
