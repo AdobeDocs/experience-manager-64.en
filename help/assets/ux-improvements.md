@@ -10,8 +10,6 @@ discoiquuid: 6ea2c91f-565d-47d9-a36d-f59fa82283fa
 
 # User experience enhancements in Assets{#user-experience-enhancements-in-assets}
 
-This article describes the user experience improvements in AEM 6.4 Assets.
-
 AEM 6.4 Assets includes several usability improvements that provide a seamless user experience and improves productivity. The increase in the speed with which you can create/manage your go-to-market content improves the content velocity of the business.
 
 The interface is more responsive, which helps you efficiently manage a large portfolio of assets. You can quickly search, display, sort, and smoothly scroll through a long list of items.
@@ -91,4 +89,3 @@ Depending upon the chose layout, you can open the details page for an asset in t
 Use the Previous/Next buttons to move back and forth between the assets.
 
 ![prev_next_buttons](assets/prev_next_buttons.png)
-
