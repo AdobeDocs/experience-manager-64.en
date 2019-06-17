@@ -1,5 +1,5 @@
 ---
-title: About ,anaging Dynamic Media assets
+title: About managing Dynamic Media assets
 seo-title: About managing Dynamic Media assets
 description: Learn how to work with Dynamic Media assets
 seo-description: Learn how to work with Dynamic Media assets
@@ -22,7 +22,7 @@ General information on managing assets is found in [Managing Assets with the Tou
 The following topics describe what you need to do to manage Dynamic Media assets:
 
 * [Best practices for optimizing the quality of your images](best-practices-for-optimizing-the-quality-of-your-images.md)
-* [Previewing Assets](previewing-assets.md)
+* [Previewing Dynamic Media assets](previewing-assets.md)
 * [Publishing Dynamic Media Assets](publishing-dynamicmedia-assets.md)
 * [Working with Selectors](working-with-selectors.md)
 
