@@ -1,8 +1,8 @@
 ---
-title: Managing Image Presets
-seo-title: Managing Image Presets
-description: Understand image presets and learn how to create, modify, and manage image presets
-seo-description: Understand image presets and learn how to create, modify, and manage image presets
+title: Managing Dynamic Media image presets
+seo-title: Managing Dynamic Media image presets
+description: Understand Dynamic Media image presets and learn how to create, modify, and manage image presets
+seo-description: Understand Dynamic Media image presets and learn how to create, modify, and manage image presets
 uuid: 087e6c32-82d5-4645-8dba-0a22c62f891f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -12,7 +12,7 @@ discoiquuid: e401816d-eba5-4833-a3bd-e2e45bc3b19e
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets
 ---
 
-# Managing Image Presets {#managing-image-presets}
+# Managing Dynamic Media image presets {#managing-image-presets}
 
 Image Presets enable AEM Assets to dynamically deliver images at different sizes, in different formats, or with other image properties that are generated dynamically. Each Image Preset represents a predefined collection of sizing and formatting commands for displaying images. When you create an Image Preset, you choose a size for image delivery. You also choose formatting commands so that the appearance of the image is optimized when the image is delivered for viewing.
 
@@ -26,7 +26,7 @@ This section describes how to create, modify, and generally manage image presets
 >
 >Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See [Smart Imaging](imaging-faq.md) for more information.
 
-## Understanding Image Presets {#understanding-image-presets}
+## Understanding Dynamic Media image presets {#understanding-image-presets}
 
 Like a software macro, an Image Preset is a predefined collection of sizing and formatting commands saved under a name. To understand how Image Presets work, suppose your web site requires each product image to appear in different sizes, different formats, and compression rates for desktop and mobile delivery.
 
@@ -36,7 +36,7 @@ Images that are reduced in size when they are delivered dynamically can lose sha
 
 Administrators can create Image Presets. To create an image preset, you can start from scratch or you can start from an existing one and save it under a new name.
 
-## Managing Image Presets {#managing-image-presets-1}
+## Managing Dynamic Media image presets {#managing-image-presets-1}
 
 You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **[!UICONTROL Assets &gt; Image Presets]**.
 
@@ -205,11 +205,11 @@ Thumbnail sizing is defined in the following format: **width:height:center**, fo
 
 1. Tap **[!UICONTROL Save]** to save the changes to the workflow.
 
-### Increasing or decreasing the number of image presets that display {#increasing-or-decreasing-the-number-of-image-presets-that-display}
+### Increasing or decreasing the number of Dynamic Media image presets that display {#increasing-or-decreasing-the-number-of-image-presets-that-display}
 
 Image presets you create are available as dynamic renditions when you preview assets. AEM shows a variety of dynamic renditions when viewing an assets from **[!UICONTROL Detail View &gt; Renditions]**. You can increase or decrease the limit of renditions that are displayed.
 
-**To increase or decrease the number of image presets displayed**:
+**To increase or decrease the number of Dynamic Media image presets displayed**:
 
 1. Navigate to **[!UICONTROL CRXDE Lite]** ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
 1. Navigate to the image preset listing node at `/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist`
@@ -224,9 +224,9 @@ Image presets you create are available as dynamic renditions when you preview as
 1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
 1. Tap **[!UICONTROL Save All]**.
 
-### Creating Image Presets {#creating-image-presets}
+### Creating Dynamic Media image presets {#creating-image-presets}
 
-Creating an image preset lets you apply those settings to any images when previewing or publishing.
+Creating a Dynamic Media image preset lets you apply those settings to any images when previewing or publishing.
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ See [Adobe Illustrator (AI), Postscript (EPS), and PDF file formats](#adobe-illu
 
 If you intend to support the ingestion of INDD files so that you can generate dynamic rendition of this file format, you may want to review the following information before you create image presets.  See [InDesign (INDD) file format](#indesign-indd-file-format).
 
-**To create an image preset**:
+**To create a Dynamic Media image preset**:
 
 1. In AEM, tap the AEM logo to access the global navigation console.
 1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets &gt; Image Presets]**.
@@ -255,7 +255,7 @@ If you intend to support the ingestion of INDD files so that you can generate dy
 
 1. Click **[!UICONTROL Save]**.
 
-### Creating a responsive Image Preset {#creating-a-responsive-image-preset}
+### Creating a responsive image preset {#creating-a-responsive-image-preset}
 
 To create a responsive image preset, perform the steps in [Creating Image Presets](#creating-image-presets). When entering the height and width in the **[!UICONTROL Edit Image Preset]** window, erase the values and leave them blank.
 
@@ -478,7 +478,7 @@ The following are some basic examples of what you can do with image modifiers.
 1. Select a preset, then tap **[!UICONTROL Edit]**.
 1. On the **[!UICONTROL Edit Image Presets]** page, make the changes you want, then tap **[!UICONTROL Save]**.
 
-## Publishing Image Presets {#publishing-image-presets}
+## Publishing Dynamic Media image presets {#publishing-image-presets}
 
 If you are running Dynamic Media - Hybrid mode, you must manually publish image presets.
 
@@ -493,9 +493,9 @@ If you are running Dynamic Media - Scene7 mode, image presets are automatically 
 
    ![chlimage_1-505](assets/chlimage_1-505.png)
 
-## Deleting Image Presets {#deleting-image-presets}
+## Deleting Dynamic Media image presets {#deleting-image-presets}
 
-**To delete image presets**:
+**To delete Dynamic Media image presets**:
 
 1. In AEM, tap the AEM logo to access the global navigation console.
 1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets &gt; Image Presets]**.
