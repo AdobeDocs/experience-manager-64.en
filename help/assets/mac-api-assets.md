@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 68d49096-959b-4751-abf1-23bedbaed9a0
 ---
 
-# Assets HTTP API{#assets-http-api}
+# Assets HTTP API {#assets-http-api}
 
 ## Overview {#overview}
 
@@ -45,6 +45,10 @@ Folders are like directories in tradtional filesystems. They are containers for 
 name  -- Name of the folder. This is the same as the last segment in the URL path without the extension
 title -- Optional title of the folder which can be displayed instead of its name
 ```
+
+>[!NOTE]
+>
+>Some properties of folder or asset are mapped to a different prefix. The jcr prefix of jcr:title, jcr:description, and jcr:language are replaced with dc prefix. Hence in the returned JSON, dc:title and dc:description contain the values of jcr:title and jcr:description, respectively.
 
 **Links**
 

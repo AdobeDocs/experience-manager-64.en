@@ -121,7 +121,6 @@ If using an **existing report suite**, it may be necessary to [modify the variab
 >**If using an existing report suite that already uses variables within**
 >
 >* **`evar1`** through **`evar11`**
->
 >* **`event1`** through **`event7`**
 >
 >**Then before the community site is published,** it is important to restore the pre-existing mapping by moving the AEM variables that were automatically mapped to Analytics variables when Analytics was enabled for a community site.
@@ -167,19 +166,22 @@ On the Create Configuration dialog, the values to be entered identify the config
 ![chlimage_1-266](assets/chlimage_1-266.png)
 
 * **Title** 
+
   (required) A display title for the configuration.  
 
   For example, enter *Enablement Community Analytics*
 
 * **Name** 
+
   (optional) If not specified, the name will default to a valid node name derived from the title.  
 
   For example, enter *communities*
 
 * *Template* 
+
   Select `Adobe Analytics Configuration`
 
-* Select **Create **
+* Select **Create**
 
     * launches configuration page and opens `Analytics Settings` dialog
 
@@ -190,27 +192,35 @@ The initial creation of a new Analytics configuration results in the display of 
 ![chlimage_1-267](assets/chlimage_1-267.png)
 
 * **Company** 
+
   the company that is associated with the Adobe Analytics account
 
 * **Username** 
+
   the login username for the user authorized to manage the Analytics account
 
 * **Password** 
+
   the login password for the authorized user
 
 * **Data Center** 
+
   select the Analytics data center hosting the report suite
 
 * **Do not add tracking tag to page** 
+
   leave as default (unchecked)
 
 * **Use AppMeasurement** 
+
   leave as default (unchecked)
 
 * **Do not import page impressions nightly (author)** 
+
   leave as default (unchecked)
 
 * **Do not import page impressions nightly (publish)** 
+
   leave as default (checked)
 
 To save the settings:
@@ -236,16 +246,19 @@ After successful configuration of the basic connection to Adobe Analytics, it is
 ![chlimage_1-269](assets/chlimage_1-269.png)
 
 * **Title** 
+
   (required) A display title for the framework  
   
   For example, enter *Enablement Community Framework*
 
 * **Name** 
+
   (optional) If not specified, the name will default to a valid node name derived from the title.  
 
   For example, enter *communities*
 
 * *Template* 
+
   Select `Adobe Analytics Framework`
 
 * Select **Create**
@@ -556,7 +569,6 @@ See sections:
 >**If using an existing report suite that already uses variables within**
 >
 >* **`evar1`** through **`evar11`**
->
 >* **`event1`** through **`event7`**
 >
 >**Then before the community site is published,** it is important to restore the pre-existing mapping and move the Communities AEM variables that were automatically mapped (when Analytics was enabled for the community site) to other Analytics variables. This re-mapping should be consistent across all Communities components.

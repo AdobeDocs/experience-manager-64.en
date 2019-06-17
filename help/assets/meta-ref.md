@@ -15,11 +15,6 @@ discoiquuid: 8a7dd9b0-7d41-491f-afc9-d9c59ffcb8ac
 
 The following reference includes information about a particular metadata schemata (in alphabetical order) as well as a list of properties and their definitions.
 
-## CC {#cc}
-
-| **Property** |**Description** |
-|---|---|
-| License |  |
 
 ## Dublin Core {#dublin-core}
 

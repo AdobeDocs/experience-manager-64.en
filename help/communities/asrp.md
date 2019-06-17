@@ -48,12 +48,19 @@ The [Storage Configuration console](/help/communities/srp-config.md) allows for 
 * the following information comes from the provisioning process
 
     * **Data Center URL** 
+
       pull-down to select the production data center identified by your account representative
+
     * **Default Report Suite** 
+
       enter the name of the default report suite
+
     * **Consumer Key** 
+
       enter the consumer key
+
     * **Secret** 
+    
       enter the secret
 
 * select **Submit**

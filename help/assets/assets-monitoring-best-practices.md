@@ -42,7 +42,7 @@ You should perform live monitoring during the performance testing phase of your 
 
 * Java Flight Recorder (JFR): A commercial tool from Oracle that you can use freely in non-production environments. For more details, see [How to Use Java Flight Recorder to Diagnose CQ Runtime Problems](https://cq-ops.tumblr.com/post/73865704329/how-to-use-java-flight-recorder-to-diagnose-cq).
 * AEM error.log file: You can investigate the AEM error.log file for details of errors logged in the system. Use the command `tail -F quickstart/logs/error.log` to identify errors that you should investigate.
-* [Workflow console](/help/sites-administering/workflows.md): Leverage the workflow console to monitor workflows that lag behind or get stuck.
+* [Workflow console](../sites-administering/workflows.md): Leverage the workflow console to monitor workflows that lag behind or get stuck.
 
 Typically, you use these tools together to obtain a comprehensive idea about the performance of your AEM instance.
 
