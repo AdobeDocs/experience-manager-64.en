@@ -14,7 +14,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Kickstart Guide](kickstart-for-aem-screens.md)
     + [Glossary](screens-glossary.md)
 + Administering {#administering}
-    + [administering-screens](administering-screens.md
+    + [administering-screens](administering-screens.md)
     + [Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
     + [Setting up ACLs](setting-up-acls.md)
     + [Device Registration](device-registration.md)
