@@ -50,7 +50,8 @@ Perform these steps to enable Asset Insights through DTM:
    >* Depending on where Asset Insights Page Tracker is hosted (for example AEM, CDN and so on), the origin of the script source may require changes.
    >* For AEM-hosted Page Tracker, the source should point to a publish instance using the host name of the dispatcher instance.
 
-1. Either create or open an existing Adobe Analytics Tool. While creating the tool, you can set **Configuration Method** to **Automatic**.
+
+1. Open [https://dtm.adobe.com](https://dtm.adobe.com). Click Overview in the web property and click Add Tool or open an existing Adobe Analytics Tool. While creating the tool, you can set Configuration Method to Automatic.
 
    ![chlimage_1-196](assets/chlimage_1-196.png)
 

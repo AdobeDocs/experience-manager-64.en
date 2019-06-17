@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
 ---
 
-# Managing Assets with the Touch-Optimized UI{#managing-assets-with-the-touch-optimized-ui}
+# Managing Assets with the Touch-Optimized UI {#managing-assets-with-the-touch-optimized-ui}
 
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 
@@ -20,6 +20,25 @@ This article describes how to manage and edit assets using the Adobe Experience 
 >[!CAUTION]
 >
 >See also [Managing Content Fragments](content-fragments-managing.md) assets.
+
+## Creating folders {#create-folders}
+
+When organizing a collection of assets, for example, all *Nature* images, you can create folders to keep them together. You can use folders to categorize and organize your assets. AEM Assets does not require you to organize assets in folders to work better.
+
+>[!NOTE]
+>
+>Sharing an Assets folder of the type `sling:OrderedFolder`, is not supported when sharing to Marketing Cloud.. If you want to share a folder, do not select Ordered when creating a folder.
+
+1. Navigate to the place in your digital assets folder where you want to create a new folder.
+1. In the menu, click **[!UICONTROL Create]**. Select **[!UICONTROL New Folder]**.
+1. In the **[!UICONTROL Title]** field, provide a folder name. By default, DAM uses the title that you provided as the folder name. Once the folder is created, you can override the default and specify another folder name.
+1. Click **[!UICONTROL Create]**. Your folder is displayed in the digital assets folder.
+
+![When you create a new asset folder, it is instantly displayed in the folder list.](assets/create-asset-folder.png)
+
+The following (space-separated list of) characters are not supported:
+* asset file name must not contain  * / : [ \ \ ] | # % { } ? &
+* asset folder name must not contain  * / : [ \ \ ] | # % { } ? \" . ^ ; + & \t
 
 ## Uploading assets {#uploading-assets}
 
@@ -98,6 +117,10 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
    To suit specific file naming conventions for your organization, the **[!UICONTROL Upload Assets]** dialog box lets you specify long names for the files that you upload.
 
    ![chlimage_1-9](assets/chlimage_1-9.png)
+
+   However, the following (space-separated list of) characters are not supported:
+   * asset file name must not contain  * / : [ \ \ ] | # % { } ? &
+   * asset folder name must not contain  * / : [ \ \ ] | # % { } ? \" . ^ ; + & \t
 
    In addition, the Assets UI displays the most recent asset that you upload or the folder you create first in all the views (**[!UICONTROL Card]**, **[!UICONTROL List]**, and **[!UICONTROL Column]** views).
 
@@ -698,6 +721,12 @@ The other properties and metadata information is retained. A partial copy is not
    >[!NOTE]
    >
    >You can specify the same name for the asset if there is no asset with that name at the new location. However, you should use a different name if you move the asset to a location where an asset with the same name exists. If you use the same name, the system automatically generates a variation of the name. For example if your asset has the name Square, the system generates the name Square1 for its copy.
+
+   >[!NOTE]
+   >
+   >The following (space-separated list of) characters are not supported:
+   >* asset file name must not contain  * / : [ \ \ ] | # % { } ? &
+   >* asset folder name must not contain  * / : [ \ \ ] | # % { } ? \" . ^ ; + & \t
 
 1. On the **[!UICONTROL Select Destination]** page, do one of the following:
 

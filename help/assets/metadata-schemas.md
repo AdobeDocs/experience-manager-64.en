@@ -353,3 +353,13 @@ You can define mandatory fields at a folder level, which is enforced on assets t
 
    ![chlimage_1-192](assets/chlimage_1-192.png)
 
+1. (Optional) Access http://[server]:[port]/system/console/components/. Configure and enable `com.day.cq.dam.core.impl.MissingMetadataNotificationJob` component that is disabled by default. Set a frequency at which AEM checks for the validity of metadata on the assets.
+This configuration adds a property `hasValidMetadata` to jcr:content of assets. Using this property, AEM can filter results in a search.
+
+>[!NOTE]
+>
+>If an asset is added after the scheduled check, the asset is not flagged with hasValidMetadata until  the next scheduled check. The assets does not appear in intermediate search results.
+
+>[!Caution]
+>
+>The metadata validation checks are resource intensive and may impact the performance of your system. Schedule the checks accordingly. If the server cannot cope up with the load, try disabling this job.

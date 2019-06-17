@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9248d09c-b749-4aca-9167-1707c1dd8a53
 ---
 
-# Configure the Rich Text Editor{#configure-the-rich-text-editor}
+# Configure the Rich Text Editor {#configure-the-rich-text-editor}
 
 The Rich Text Editor (RTE) provides authors with a wide range of functionality for editing their text content. Icons, selection boxes, toolbar, and menus are provided for a WYSIWYG text-editing experience.
 
@@ -21,7 +21,7 @@ The following workflow illustrates a recommended order of completing the RTE con
 
 ![Typical workflow to configure Rich Text Editor](assets/rte_workflow_v1.png)
 
-Typical workflow to configure Rich Text Editor
+**Figure:** *Typical workflow to configure Rich Text Editor*
 
 ## Understand Touch-enabled UI and Classic UI {#understand-touch-enabled-ui-and-classic-ui}
 
@@ -29,11 +29,11 @@ The Touch-enabled UI is the standard UI for AEM. Adobe introduced Touch UI with 
 
 ![Rich Text Editor toolbar in Touch-enabled UI](assets/chlimage_1-404.png)
 
-Rich Text Editor toolbar in Touch-enabled UI
+**Figure:** *Rich Text Editor toolbar in Touch-enabled UI*
 
 ![Rich Text Editor toolbar in Classic UI](assets/rtedefault.png)
 
-Rich Text Editor toolbar in Classic UI
+**Figure:** *Rich Text Editor toolbar in Classic UI*
 
 **See also**:
 
@@ -96,7 +96,7 @@ When opened (with a slow double-tap/click) the content can be edited within the 
 
 ![Inline editing with basic toolbar in Touch-enabled UI](assets/chlimage_1-405.png)
 
-Inline editing with basic toolbar in Touch-enabled UI
+**Figure:** *Inline editing with basic toolbar in Touch-enabled UI*
 
 In Classic UI, a slow double-click on the component allows inline editing and an orange outline highlights the content. If the Content Finder is open, a toolbar with the available RTE formatting options is displayed at the top of the window. If the Content Finder is not open, the formatting options are not displayed and you can do basic text edits only.
 
@@ -108,7 +108,7 @@ The dialog full screen mode provides, a detailed RTE toolbar and the options and
 
 ![The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI](assets/chlimage_1-406.png)
 
-The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI
+**Figure:** *The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI*
 
 ### Dialog editing {#dialog-editing}
 
@@ -116,11 +116,11 @@ When a component is double-clicked in Classic UI, a dialog box opens for editing
 
 ![Dialog editing mode in Touch-enabled UI](assets/dialog_editing_modetouchui.png)
 
-Dialog editing mode in Touch-enabled UI
+**Figure:** *Dialog editing mode in Touch-enabled UI*
 
 ![Dialog box in Classic UI that contains detailed toolbar for editing](assets/chlimage_1-407.png)
 
-Dialog box in Classic UI that contains detailed toolbar for editing
+**Figure:** *Dialog box in Classic UI that contains detailed toolbar for editing*
 
 ## About RTE plug-ins and the associated features {#aboutplugins}
 
@@ -272,6 +272,11 @@ When RTE is used in the touch-enabled dialog, setting the property `useFixedInli
 RTE functionalities are made available via a series of plug-ins, each with features property. You can configure the features property to enable or disable the various features of each plug-in.
 
 For detailed configurations of the RTE plug-ins, see [how to activate and configure the RTE plug-ins](/help/sites-administering/configure-rich-text-editor-plug-ins.md).
+
+
+Download this sample configuration to understand how to configure RTE. In this package all the features are enabled. 
+
+[Get File](/help/assets/assets/rte-sample-all-features-enabled-10.zip) 
 
 >[!NOTE]
 >

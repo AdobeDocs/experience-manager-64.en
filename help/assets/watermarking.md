@@ -11,11 +11,11 @@ content-type: reference
 discoiquuid: 69032497-6676-4d67-9ff2-2730c949a491
 ---
 
-# Watermarking{#watermarking}
+# Watermarking {#watermarking}
 
 Learn how to use the Watermarking feature to add a digital watermark to assets.
 
-The Watermarking feature in Adobe Experience Manager (AEM) Assets lets you add a digital watermark to assets, which helps users verify the authenticity and copyright ownership of the assets. AEM Assets supports text to be used as a watermark to watermark the web-renderable image formats, such as GIF, PNG, JPEG, and BMP.
+The Watermarking feature in Adobe Experience Manager (AEM) Assets lets you add a digital watermark to assets, which helps users verify the authenticity and copyright ownership of the assets. AEM Assets supports text to be used as a watermark on PNG and JPEG files.
 
 To be able to apply watermark on assets, add the Watermark step in the DAM Update Asset workflow.
 
