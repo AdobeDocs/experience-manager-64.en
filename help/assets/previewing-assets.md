@@ -1,8 +1,8 @@
 ---
-title: Previewing Assets
-seo-title: Previewing Assets
-description: Learn how to preview assets in dynamic media
-seo-description: Learn how to preview assets in dynamic media
+title: Previewing Dynamic Media assets
+seo-title: Previewing Dynamic Media assets
+description: Learn how to preview assets in Dynamic Media
+seo-description: Learn how to preview assets in Dynamic Media
 uuid: f0ff2fc4-a263-4dbe-ba46-b07077b49ae0
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 77296bff-8429-4240-af93-26076ae431ec
 ---
 
-# Previewing assets{#previewing-assets}
+# Previewing Dynamic Media assets{#previewing-assets}
 
-You can use **[!UICONTROL Preview]** to see how a digital asset looks when it is viewed by a customer in their own web browser. The default embedded, cross-device viewer that is assigned to the asset is used for the **[!UICONTROL Preview]**.
+You can use **[!UICONTROL Preview]** to see how a Dynamic Media digital asset looks when it is viewed by a customer in their own web browser. The default embedded, cross-device viewer that is assigned to the asset is used for the **[!UICONTROL Preview]**.
 
 A viewer is a collection of various settings or "presets," such as the viewer display size, zoom behavior, color schemes, borders, fonts, and so forth, that determine how users view rich-media assets on their computer screens and mobile devices.
 
