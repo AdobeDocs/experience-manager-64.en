@@ -11,7 +11,7 @@ topic-tags: site-features
 discoiquuid: 5a96c306-790a-4721-a146-86fbceb376db
 ---
 
-# Creating Page Templates{#creating-page-templates}
+# Creating Page Templates {#creating-page-templates}
 
 When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, any initial content, and the components that can be used.
 

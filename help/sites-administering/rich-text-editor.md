@@ -276,7 +276,7 @@ For detailed configurations of the RTE plug-ins, see [how to activate and config
 
 Download this sample configuration to understand how to configure RTE. In this package all the features are enabled. 
 
-[Get File](assets/rte-sample-all-features-enabled-10.zip) 
+[Get File](/help/assets/assets/rte-sample-all-features-enabled-10.zip) 
 
 >[!NOTE]
 >

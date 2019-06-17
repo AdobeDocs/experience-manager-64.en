@@ -31,23 +31,23 @@ The following legend describes the level of support AEM Assets offers for a feat
 
 <!-- Check this table on stage. The EPS link might cause bad table width. Consider moving EPS link outside the table. -->
 
-| Asset Management Features |||||||Dynamic Media Features |||||
-|---|---|---|---|---|---|---|---|---|---|---|---|
-|   |Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
-| Format ||||||||||||
-| PNG |x |x |x |x |x |x |x |x |x |x |x |
-| GIF |x |x |x |x |x |  |x |x |x |x |x |
-| TIFF |x |x |x |x |  |x |x |x |x |x |x |
-| JPEG |x |x |x |x |x |x |x |x |x |x |x |
-| BMP |x |x |x |x |x |  |x |  |  |  |  |
-| PNM |x |x |  |  |  |  |  |  |  |  |  |
-| PGM |x |x |  |  |  |  |  |  |  |  |  |
-| PBM |x |x |  |  |  |  |  |  |  |  |  |
-| PPM |x |x |  |  |  |  |  |  |  |  |  |
-| PSD* |x |x |x |x |  |  |x |  |  |  |  |
-| [EPS](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) |x |x |x |x |  |x |x |x |x |x |x |
-| PICT |  |  |  |  |  |  |x |  |  |  |  |
-| PSB |x  |x  |x  |x  |  |  |  |  |  |  |  |
+| Asset Management Features ||||||||Dynamic Media Features |||||
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|   |Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Insights |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
+| Format |||||||||||||
+| PNG |x |x |x |x |x |x |x |x |x |x |x |x |
+| GIF |x |x |x |x |x |  |x |x |x |x |x |x |
+| TIFF |x |x |x |x |  |x |x |x |x |x |x |x |
+| JPEG |x |x |x |x |x |x |x |x |x |x |x |x |
+| BMP |x |x |x |x |x |  |x | |x  |  |  |  |
+| PNM |x |x |  |  |  |  |x |  |  |  |  |  |
+| PGM |x |x |  |  |  |  |x |  |  |  |  |  |
+| PBM |x |x |  |  |  |  |x |  |  |  |  |  |
+| PPM |x |x |  |  |  |  |x |  |  |  |  |  |
+| PSD* |x |x |x |x |  |  |x |x |  |  |  |  |
+| [EPS](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) |x |x |x |x |  |  | |x |x |x |x |x |
+| PICT |  |  |  |  |  |  |x |x |  |  |  |  |
+| PSB |x  |x  |x  |x  |  |  |  |  |  |  |  |  |
 
 >[!NOTE]
 >

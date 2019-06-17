@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 674af52d-60de-4112-913e-6cfd2bfeceb9
 ---
 
-# Imaging Transcoding Library{#imaging-transcoding-library}
+# Imaging Transcoding Library {#imaging-transcoding-library}
 
 Adobe's Imaging Transcoding Library is a proprietary image processing solution that can perform core image-handling functions, including:
 
@@ -71,7 +71,7 @@ The command line arguments for Imaging Transcoding Library can include the follo
  -resize
 ```
 
-: `You can configure the following options for the` `-resize` `parameter:`
+You can configure the following options for the` `-resize` `parameter:`
 
 * `X`: `Works similar to AEM. For example -resize 319.`
 
@@ -89,7 +89,15 @@ The command line arguments for Imaging Transcoding Library can include the follo
 
 ## Configuring Imaging Transcoding Library {#configuring-imaging-transcoding-library}
 
-1. Configure `LD_LIBRARY_PATH`:
+1. When executing the SWitchEngine command, create a conf file to point to the libraries using the following commands: 
+    * cd /etc/ld.so.conf.d
+    * touch SWitchEngineLibs.conf
+    * vi SWitchEngineLibs.conf
+    * cat SWitchEngineLibs.conf
+       /opt/aem/author/crx-quickstart/launchpad/felix/bundle545/data/binaries
+    * ldconfig     
+     
+    Only for the bash file, configure `LD_LIBRARY_PATH` using the following steps:
 
     * `vi ~/.bash_profile`
     * Add " `export LD_LIBRARY_PATH`=**.**"
@@ -103,32 +111,7 @@ The command line arguments for Imaging Transcoding Library can include the follo
 
    If the value is not set to "." restart the session.
 
-1. Download the Imaging Transcoding Library package and install it using Crx Package Manager.
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><p><strong>Package Version</strong></p> </td> 
-   <td><p><strong>Package Share Link</strong></p> </td> 
-   <td><p><strong>Supported Platforms</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>1.4<br /> </p> </td> 
-   <td><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg">Imaging transcoding library package</a></td> 
-   <td><p>RHEL 7, CentOS7</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<!--empty table -->
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><p>TBD</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+1. Download the <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg">Imaging transcoding library package</a> (version 1.4) and install it using Crx Package Manager. Supported Platforms are RHEL7 and CentOS7.  
 
 1. Tap/click the AEM logo, and go to **Tools** &gt; **Workflow** &gt; **Models**.
 1. From the **Workflow Models** page, open the **DAM Update Asset** workflow model in edit mode.
@@ -159,7 +142,7 @@ The command line arguments for Imaging Transcoding Library can include the follo
 
    ![chlimage_1-200](assets/chlimage_1-200.png)
 
-   To generate web renditions, configure parameters in the** Web-Enabled Image** tab as depicted in the following image.
+   To generate web renditions, configure parameters in the **Web-Enabled Image** tab as depicted in the following image.
 
    ![web_enabled_imagetab](assets/web_enabled_imagetab.png)
 

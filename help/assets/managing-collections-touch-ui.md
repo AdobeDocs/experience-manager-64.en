@@ -87,18 +87,14 @@ You can drag assets from the Assets UI to a collection. You can also create a co
 
 ### Creating a smart collection {#creating-a-smart-collection}
 
-A smart collection uses a search criteria to dynamically populate assets. To create a smart collection:
+A Smart Collection uses a search criteria to dynamically populate assets. You can create a Smart Collection using only files and not folders or files and folders. 
 
-1. Navigate to the** Assets **UI, and tap/click the** Search** icon.
+To create a smart collection, follow the steps:
 
-   ![chlimage_1-110](assets/chlimage_1-110.png)
+1. Navigate to the **Assets** UI, and tap/click the **Search** icon.
 
-1. With the cursor in the Omni Search box, press the Return key. 
+1. Enter search keyword in the Omni Search box and press Enter. Tap/click the GlobalNav icon to display the Filters panel and apply a search filter from the Search panel.
 
-   ![chlimage_1-111](assets/chlimage_1-111.png)
-
-1. Tap/click the GlobalNav icon to display the Filters panel.
-1. In the Omni Search box, enter the search keywords and then select a search criteria from the Search panel. For example, to search for assets that include "Surfing" in the title, enter "Surfing" in the Omni Search box and then press Enter.
 1. From the **Files & Folders** list, select **Files**.
 
    ![files_option](assets/files_option.png)
@@ -125,10 +121,6 @@ A smart collection uses a search criteria to dynamically populate assets. To cre
    The label of the **Create Smart Selection** button changes to **Edit Smart Selection**. To edit the settings of the smart collection, select **Files** from the **Files & Folders** list. Then, tap/click the **Edit Smart Selection** button.
 
    ![chlimage_1-112](assets/chlimage_1-112.png)
-
->[!NOTE]
->
->If you make a smart collection public after upgrading from AEM 5.6.1 to AEM 6.2, it becomes available to everyone with the Owner role.
 
 ## Adding assets to a collection {#adding-assets-to-a-collection}
 

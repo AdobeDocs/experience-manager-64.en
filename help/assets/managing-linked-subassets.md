@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 91ee7ad8-e6d8-4a61-91bc-41fcaf374035
 ---
 
-# Managing Compound Assets{#managing-compound-assets}
+# Managing Compound Assets {#managing-compound-assets}
 
 Adobe Experience Manager (AEM) Assets can identify if an uploaded file contains references to assets that already exist in the repository. This feature is available for supported file formats only. If the uploaded asset contains any references to AEM assets, a bidirectional link is created between the uploaded and referenced assets.
 
@@ -79,7 +79,7 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 
 >[!NOTE]
 >
->The assets within compound assets can also be referenced based on their Document ID and Instance ID. This functionality is available with Adobe Illustrator CC and Adobe Photoshop CC versions only. For others, referencing is done on the basis of relative path of linked assets in the main compound asset as done in earlier versions of AEM.
+>The assets within compound assets can also be referenced based on their Document ID and Instance ID. This functionality is available with Adobe Illustrator and Adobe Photoshop versions only. For others, referencing is done on the basis of relative path of linked assets in the main compound asset as done in earlier versions of AEM.
 
 ## View pages of a multi-page file {#view-pages-of-a-multi-page-file}
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 750505d4-f31d-4ee5-bca0-96e587b06559
 ---
 
-# Best Practices for Assets{#best-practices-for-assets}
+# Best Practices for Assets {#best-practices-for-assets}
 
 Adobe Experience Manager (AEM) Assets is a crucial part of delivering high-quality digital marketing experiences that contribute to the achievement of business goals through increasing your content velocity. If you work with a large number of assets within AEM Assets or regularly/periodically upload numerous assets, including videos and dynamic media, optimizing your digital asset management experience is critical for system efficiency.
 
@@ -36,4 +36,4 @@ AEM Desktop App links your digital asset management (DAM) solution with your des
 * [AEM and Creative Cloud Integration Best Practices](aem-cc-integration-best-practices.md)
 You can integrate your AEM instance with Creative Cloud in multiple ways. Following some best practices to streamline your integration and asset transfer workflows helps achieve maximum efficiency. This guide includes best practices around integrating AEM Assets with Adobe Creative Cloud.
 * [AEM to Creative Cloud Folder Sharing Best Practices](aem-cc-folder-sharing-best-practices.md)
-You can configure AEM to allow users in DAM to share folders with Creative Cloud users, so they are available as shared folders in the Creative Cloud Assets service. The feature can be used to exchange files between creative teams and DAM users. This guide explains best practices for leveraging the AEM to Creative Cloud folder sharing feature.
+You can configure AEM to allow users in DAM to share folders with Creative Cloud (CC) users, so they are available as shared folders in the Creative Cloud Assets service. The feature can be used to exchange files between creative teams and DAM users. This guide explains best practices for leveraging the AEM to Creative Cloud folder sharing feature.
