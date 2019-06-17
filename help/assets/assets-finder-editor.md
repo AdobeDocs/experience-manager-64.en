@@ -4,18 +4,17 @@ seo-title: Creating and Configuring Asset Share and Asset Editor pages
 description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
 seo-description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
 uuid: 2913886b-c433-47ab-8b79-8c37717176d3
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 565e307a-e42e-4967-ba72-f1c6fb078676
 ---
 
+
 # Create and Configure Asset Editor pages {#creating-and-configuring-asset-editor-pages}
 
 This document describes the following:
-
-<!--> Update screenshots for branding -->
 
 * Why you would create customized Asset Editor pages.
 * How to create and customize Asset Editor pages, which are WCM pages that let you view and edit metadata as well as perform actions on the asset.
@@ -288,7 +287,7 @@ To add asset editor components:
 
 #### Metadata Form and Text Field - Configuring the View Metadata Component {#metadata-form-and-text-field-configuring-the-view-metadata-component}
 
-The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](/help/sites-authoring/default-components.md) for more information on working with forms.
+The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](../sites-authoring/default-components.md) for more information on working with forms.
 
 1. Create a start action by clicking **Edit** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **Metadata**. Select the Client Validation check box if you want the java-script client code for validation generated.
 
@@ -340,7 +339,7 @@ For example, if you select a sub asset, note how the component displays the appr
 
 #### Tags {#tags}
 
-The Tags component is a component where users can assign existing tags to an asset, which helps later in organization and retrieval. You can make this component read-only, so users cannot add tags, but only view them. 
+The Tags component is a component where users can assign existing tags to an asset, which helps later in organization and retrieval. You can make this component read-only, so users cannot add tags, but only view them.
 
 ![screen_shot_2012-04-23at25031pm](assets/screen_shot_2012-04-23at25031pm.png)
 
@@ -358,11 +357,11 @@ The following is a populated Tags component:
 
 #### Thumbnail {#thumbnail}
 
-The Thumbnail component is where the asset displays the selected thumbnail (for many of the formats the thumbnail is extracted automatically). In addition, the component displays the filename, and [actions that you can modify](assets-finder-editor.md#adding-asset-editor-actions). 
+The Thumbnail component is where the asset displays the selected thumbnail (for many of the formats the thumbnail is extracted automatically). In addition, the component displays the filename, and [actions that you can modify](assets-finder-editor.md#adding-asset-editor-actions).
 
 ![screen_shot_2012-04-23at25452pm](assets/screen_shot_2012-04-23at25452pm.png)
 
-Double-click the thumbnail component to open the thumbnail dialog where you can change the alt text. By default, the thumbnail alt text defaults to **Click to download** asset. 
+Double-click the thumbnail component to open the thumbnail dialog where you can change the alt text. By default, the thumbnail alt text defaults to **Click to download** asset.
 
 ![screen_shot_2012-04-23at25604pm](assets/screen_shot_2012-04-23at25604pm.png)
 
@@ -372,7 +371,7 @@ The following is an example of a populated Thumbnail component:
 
 #### Title {#title}
 
-The Title component displays the title of the asset and a description. 
+The Title component displays the title of the asset and a description.
 
 ![chlimage_1-391](assets/chlimage_1-391.png)
 
@@ -400,7 +399,7 @@ To add actions to the Asset Editor page:
 
 ![screen_shot_2012-04-23at35515pm](assets/screen_shot_2012-04-23at35515pm.png)
 
-The following actions are available: 
+The following actions are available:
 
 | **Action** |**Description** |
 |---|---|
@@ -424,10 +423,7 @@ With AEM Assets you can make changes to several assets at once. After having sel
 
 To multi-edit assets with the Asset Editor page:
 
-1. Open the Geometrixx **Press Center** page:  
-
-   `http://localhost:4502/content/geometrixx/en/company/press.html`
-
+1. Open the Geometrixx **Press Center** page at `http://localhost:4502/content/geometrixx/en/company/press.html`.
 1. Select the assets:
 
     * on Windows: `Ctrl + click` each asset.
@@ -443,7 +439,7 @@ To multi-edit assets with the Asset Editor page:
     * A tag that applies to all the assets is displayed with a normal font.
     * Metadata other than tags: the value of the field is only displayed if it is the same for all the selected assets.
 
-1. Click **Download** to download a zip file containing the assets original renditions.
+1. Click **Download** to download a ZIP file containing the assets original renditions.
 1. Click the pencil icon beside the **Tags** field to edit the tags:
 
     * A tag that does not apply to all the assets, but only to a few ones has a grey background.
@@ -451,9 +447,9 @@ To multi-edit assets with the Asset Editor page:
 
    You can:
 
-    * Click the **x** icon to remove the tag for all the assets.
-    * Click the **+** icon to add the tag to all the assets.
-    * Click the **arrow** and select a tag to add a new tag to all the assets.
+    * Click the `x` icon to remove the tag for all the assets.
+    * Click the `+` icon to add the tag to all the assets.
+    * Click the `arrow` and select a tag to add a new tag to all the assets.
 
    Click **OK** to write the changes to the form. The box beside the **Tags** field is automatically checked.  
 

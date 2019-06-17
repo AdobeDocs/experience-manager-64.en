@@ -140,7 +140,7 @@ The recommended values are :
 
 In AEM 6.3, the above 2 parameters are preconfigured OOTB, and can be persisted via the OSGi QueryEngineSettings.
 
-More information available under : https://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits
+More information available under : [https://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits](https://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits)
 
 ## Tips for Creating Efficient Indexes {#tips-for-creating-efficient-indexes}
 
@@ -378,7 +378,7 @@ The following detail possible issues together with resolutions:
 
     * `[oak:queryIndexDefinition]@reindex-async=true`
 
-* Re-index the property index asynchronously using the Web Console via the **PropertyIndexAsyncReindex**MBean; 
+* Re-index the property index asynchronously using the Web Console via the **PropertyIndexAsyncReindex** MBean; 
 
   for example, 
   
@@ -440,8 +440,6 @@ Under normal operation of AEM, for example uploading Assets via the Web UI or pr
 >***The oak-run.jar commands outlined below are fully enumerated at [https://jackrabbit.apache.org/oak/docs/query/pre-extract-text.html](https://jackrabbit.apache.org/oak/docs/query/pre-extract-text.html)***
 >
 >The above diagram and steps below serve to explain and compliment the technical text pre-extraction steps outlined in the Apache Oak documentation.
->
->* *
 
 ![Text pre-extraction process flow](assets/chlimage_1-139.png)
 
@@ -453,7 +451,7 @@ Under normal operation of AEM, for example uploading Assets via the Web UI or pr
 
 1b. List of nodes (1a) is stored to the file system as a CSV file
 
-Note the entire Node Store is traversed (as specified by the paths in the oak-run command) every time `--generate` is executed, and a **new** CSV file is created. The CSV file is **not** re-used between discrete executions of the text pre-extraction process (Steps 1 - 2)
+Note that the entire Node Store is traversed (as specified by the paths in the oak-run command) every time `--generate` is executed, and a **new** CSV file is created. The CSV file is **not** re-used between discrete executions of the text pre-extraction process (Steps 1 - 2).
 
 **Pre-extract text to file system**
 

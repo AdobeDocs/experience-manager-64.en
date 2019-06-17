@@ -337,16 +337,14 @@ The following predicates are available, dependent on the configuration:
 
 >[!NOTE]
 >
->* The common search predicates are defined in: >
->  ```>
->  >   /libs/cq/gui/components/common/admin/customsearch/searchpredicates
->  ```>
->* Search predicates related only to siteadmin (classic UI) are located under:>
->  ```>
->  >   /libs/cq/gui/components/siteadmin/admin/searchpanel/searchpredicates
->  ```>
->  These are deprecated and only available for backward compatibility.
->
+>* The common search predicates are defined in:
+>  `/libs/cq/gui/components/common/admin/customsearch/searchpredicates`
+>  
+>  
+>* Search predicates related only to siteadmin (classic UI) are located under:
+> `/libs/cq/gui/components/siteadmin/admin/searchpanel/searchpredicates`
+>   * These are deprecated and only available for backward compatibility.
+> 
 >This information is for reference only, you must not make changes to `/libs`.
 
 ### Predicate Settings {#predicate-settings}
@@ -419,8 +417,8 @@ Dependent on the predicate a selection of settings are available for configurati
    >
    >The customized configurations are stored (as appropriate) under:
    >
-   >* `/apps/cq/gui/content/facets/<*option*>`
-   >* `/apps/commerce/gui/content/facets/<*option*>`
+   >* `/apps/cq/gui/content/facets/<option>`
+   >* `/apps/commerce/gui/content/facets/<option>`
 
 ### Add/Edit a Predicate Field and Define Field Settings {#add-edit-a-predicate-field-and-define-field-settings}
 
@@ -511,7 +509,7 @@ The following example (to search according to the template used to create a page
    >
    >The recommended method for configuration and other changes is:
    >
-   >1. Recreate the required item, as it exists in `/libs`, under `/apps`. In this case from:    >
+   >1. Recreate the required item, as it exists in `/libs`, under `/apps`. In this case from:
    >1. `/libs/cq/gui/content/common/options/predicates`
    >1. Make any changes within `/apps.`
 

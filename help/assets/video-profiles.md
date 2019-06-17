@@ -20,6 +20,7 @@ The following are other factors that determine the quality of your videos:
 * **Resolution of the uploaded master video**
   
   If the MP4 video was recorded at a lower resolution, such as 240p or 360p, it cannot be streamed in high definition.
+  
 * **Video player size**  
   
   By default, the **[!UICONTROL Width]** in the Adaptive Video Encoding profile is set to **[!UICONTROL Auto]**. Again, during playback, the best quaility is used based on the size of the player.

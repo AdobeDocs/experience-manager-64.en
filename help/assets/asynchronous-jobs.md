@@ -4,20 +4,16 @@ seo-title: Asynchronous Operations
 description: Overview of asynchronous operations in AEM Assets.
 seo-description: Know about asynchronous operations in AEM Assets.
 uuid: cc924285-fa61-462d-b542-a1442ef4f5aa
-contentOwner: cmajumda
+contentOwner: asgupta
 discoiquuid: a2ac8ea0-f154-4f03-800c-87cfee8308ea
 ---
 
-# Asynchronous Operations{#asynchronous-operations}
+# Asynchronous operations {#asynchronous-operations}
 
-Overview of asynchronous operations in AEM Assets.
+To reduce adverse impact on performance, Adobe Experience Manger (AEM) Assets processes certain long-running and resource-intensive asset operations asynchronously. These operations include:
 
-To reduce adverse impact on performance, Adobe Experience Manger (AEM) Assets processes certain long-running and resource-intensive asset operations asynchronously.
-
-These operations include:
-
-* Deleting many assets
-* Moving many assets or assets with many references 
+* Deleting many assets.
+* Moving many assets or assets with many references.
 * Exporting/importing asset metadata in bulk.
 
 Asynchronous processing involves enqueuing multiple jobs and eventually running them in a serial manner subject to the availability of system resources.

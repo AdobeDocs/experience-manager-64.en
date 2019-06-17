@@ -4,7 +4,7 @@ seo-title: AEM Assets vs. AEM MediaLibrary
 description: Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two.
 seo-description: Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two.
 uuid: 61c4c12f-1d8c-4276-ab9d-3d9ed0a66542
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference

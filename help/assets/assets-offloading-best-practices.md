@@ -4,16 +4,14 @@ seo-title: Assets Offloading Best Practices
 description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
 seo-description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
 uuid: 7d08fda2-1c59-44ad-bd35-83d199642e01
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: cdb175f4-a7c6-4d9f-994a-5fc8eca51f03
 ---
 
-# Assets Offloading Best Practices{#assets-offloading-best-practices}
-
-## Overview {#overview}
+# Assets Offloading Best Practices {#assets-offloading-best-practices}
 
 Handling large files and running workflows in Adobe Experience Manager (AEM) Assets can consume considerable CPU, memory, and I/O resources. In particular, the size of assets, workflows, number of users, and frequency of asset ingestion can affect the overall system performance. The most resource-intensive operations include AEM asset ingestion and replication workflows. Intensive use of these workflows on a single AEM authoring instance can adversely impact authoring efficiency.
 
@@ -90,14 +88,14 @@ With AEM and Oak, there are several deployment scenarios possible. For Assets of
 
 ![chlimage_1-56](assets/chlimage_1-56.png)
 
-For details around configuring a datastore, see [Configuring node stores and data stores in AEM](/help/sites-deploying/data-store-config.md).
+For details around configuring a datastore, see [Configuring node stores and data stores in AEM](../sites-deploying/data-store-config.md).
 
 ### Turning off automatic agent management {#turning-off-automatic-agent-management}
 
 Adobe recommends that you turn off automatic agent management because it does not support binary-less replication and can cause confusion when setting up a new offloading topology. Moreover, it does not automatically support the forward replication flow required by binary-less replication.
 
-1. Open Configuration Manager from the URL *http://localhost:4502/system/console/configMgr*. 
-1. Open the configuration for OffloadingAgentManager (*http://localhost:4502/system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager*).
+1. Open Configuration Manager from the URL `http://localhost:4502/system/console/configMgr`.
+1. Open the configuration for `OffloadingAgentManager` (`http://localhost:4502/system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager`).
 1. Disable automatic agent management.
 
 ### Using forward replication {#using-forward-replication}
@@ -105,9 +103,9 @@ Adobe recommends that you turn off automatic agent management because it does no
 By default, offloading transport uses reverse replication to pull back the offloaded assets from the worker to the master. Reverse replication agents do not support binary-less replication. You should configure offloading to use forward replication to push the offloaded assets back from worker to master.
 
 1. If you are migrating from the default configuration using reverse replication, disable or delete all agents named " `offloading_outbox`" and " `offloading_reverse_*`" on master and worker, where &ast; represents the Sling id of the target instance.
-1. On each worker, create new forward replication agent pointing to the master. The procedure is the same as creating forward agents from master to worker. See [Creating Replication Agents For Offloading](/help/sites-deploying/offloading.md#creating-replication-agents-for-offloading) for instructions around setting up offloading replication agents.
-1. Open configuration for OffloadingDefaultTransporter (*http://localhost:4502/system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter*).
-1. Change value of the property `default.transport.agent-to-master.prefix` from *offloading_reverse* to *offloading*.
+1. On each worker, create new forward replication agent pointing to the master. The procedure is the same as creating forward agents from master to worker. See [Creating Replication Agents For Offloading](../sites-deploying/offloading.md#creating-replication-agents-for-offloading) for instructions around setting up offloading replication agents.
+1. Open configuration for `OffloadingDefaultTransporter`  (`http://localhost:4502/system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter`).
+1. Change value of the property `default.transport.agent-to-master.prefix` from `offloading_reverse` to `offloading`.
 
 ### Using shared datastore and binary-less replication between author and workers  {#using-shared-datastore-and-binary-less-replication-between-author-and-workers}
 

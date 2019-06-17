@@ -20,7 +20,7 @@ For example, you can use these mappings to:
 * Prefix all requests with `/content` so that the internal structure is hidden from the visitors to your website.
 * Define a redirect so that all requests to the `/content/en/gateway` page of your website are redirected to `https://gbiv.com/`.
 
-One possible HTTP mapping [prefixes all requests to `localhost:4503` with `/content`](#configuring-an-internal-redirect-to-content). A mapping like this could be used to hide the internal structure from the visitors to the website as it allows:
+One possible HTTP mapping [prefixes all requests to localhost:4503 with /content](#configuring-an-internal-redirect-to-content). A mapping like this could be used to hide the internal structure from the visitors to the website as it allows:
 
 `localhost:4503/content/geometrixx/en/products.html`
 
@@ -42,7 +42,7 @@ as the mapping will automatically add the prefix `/content` to `/geometrixx/en/p
 
 The mappings form two lists that the JCR Resource Resolver evaluates (top-down) to find a match.
 
-These lists can be viewed (together with configuration information) under the **JCR ResourceResolver** option of the Felix console; for example, `https://<*host*>:<*port*>/system/console/jcrresolver`:
+These lists can be viewed (together with configuration information) under the **JCR ResourceResolver** option of the Felix console; for example, `https://<host>:<port>/system/console/jcrresolver`:
 
 * Configuration 
 
@@ -72,7 +72,7 @@ will trigger the:
 
 to redirect a request:
 
-`http://localhost:4503/welcome` ``
+`http://localhost:4503/welcome`
 
 to:
 

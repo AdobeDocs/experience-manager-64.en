@@ -13,6 +13,10 @@ discoiquuid: f9bcb6eb-1df4-4709-bcec-bef0931f797a
 
 # Designs and the Designer{#designs-and-the-designer}
 
+>[!CAUTION]
+>
+>This article describes how to create a website based on the classic UI. Adobe recommends leveraging the latest AEM technologies for your websites as described in detail in the article [Getting Started Developing AEM Sites](/help/sites-developing/getting-started.md).
+
 You will need to create a design for your website and in AEM, you do so by using the Designer.
 
 >[!NOTE]

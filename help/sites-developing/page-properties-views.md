@@ -99,11 +99,10 @@ For example, by default the [**Create Page** wizard](/help/sites-authoring/manag
 
 ## Sample Configuration of Page Properties {#sample-configuration-of-page-properties}
 
-This sample demonstrates the dialog diff technique of the [Sling Resource Merger](/help/sites-developing/sling-resource-merger.md); including use of ` [sling:orderBefore](/help/sites-developing/sling-resource-merger.md#properties)`. It also illustrates use of both `cq:showOnCreate` and `cq:hideOnEdit`.
+This sample demonstrates the dialog diff technique of the [Sling Resource Merger](/help/sites-developing/sling-resource-merger.md); including use of [`sling:orderBefore`](/help/sites-developing/sling-resource-merger.md#properties). It also illustrates use of both `cq:showOnCreate` and `cq:hideOnEdit`.
 
 CODE ON GITHUB
 
 You can find the code of this page on GitHub
 
 * [Open aem-authoring-extension-page-dialog project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-authoring-extension-page-dialog)
-

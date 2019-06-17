@@ -4,14 +4,14 @@ seo-title: Processing Assets Using Media Handlers and Workflows
 description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
 seo-description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
 uuid: 4ef96bfc-d194-4aea-8d6c-ae91d04456aa
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 8cd78c84-71ba-4095-b882-90d0dc00289d
 ---
 
-# Processing Assets Using Media Handlers and Workflows{#processing-assets-using-media-handlers-and-workflows}
+# Processing Assets Using Media Handlers and Workflows {#processing-assets-using-media-handlers-and-workflows}
 
 Adobe Experience Manager (AEM) Assets comes with a set of default workflows and media handlers to process assets. The workflow defines the general tasks to be executed on the assets, then delegates the specific tasks to the media handlers, for example thumbnail generation or metadata extraction.
 
@@ -21,7 +21,7 @@ Media handlers are services inside AEM Assets that perform specific actions on a
 
 >[!NOTE]
 >
->Please refer to the [Assets Supported Formats](assets-formats.md) page for a description of all the formats supported by AEM Assets as well as features supported for each format.
+>Please refer to the [Assets supported formats](assets-formats.md) page for a description of all the formats supported by AEM Assets as well as features supported for each format.
 
 ## Default Media Handlers {#default-media-handlers}
 
@@ -108,7 +108,7 @@ It is possible to view the active media handlers:
 1. Click the link com.day.cq.dam.core.impl.store.AssetStoreImpl.
 1. A list with all the active media handlers is displayed. For example:
 
-![chlimage_1-437](assets/chlimage_1-437.png) 
+![chlimage_1-437](assets/chlimage_1-437.png)
 
 ## Using Media Handlers in Workflows to perform tasks on Assets {#using-media-handlers-in-workflows-to-perform-tasks-on-assets}
 
@@ -129,9 +129,9 @@ The media handlers can be disabled or enabled through the Apache Felix Web Manag
 To enable/disable a media handler:
 
 1. In your browser, navigate to `https://<host>:<port>/system/console/components`.
-1. Click the** Disable** button right beside the name of the media handler. For example: **com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
-1. Refresh the page: a **Disabled** icon is displayed beside the media handler.
-1. To enable the media handler, click the **Enable** button beside the name of the media handler.
+1. Click **Disable** next to the name of the media handler. For example: `com.day.cq.dam.handler.standard.mp3.Mp3Handler`.
+1. Refresh the page: an icon is displayed beside the media handler indicating it is disabled.
+1. To enable the media handler, click **Enable** next to the name of the media handler.
 
 ### Creating a new Media Handler {#creating-a-new-media-handler}
 
@@ -145,35 +145,30 @@ This class already provides an abstract service descriptor. So if you inherit fr
 
 The following methods need to be implemented:
 
-* extractMetadata(): this method extracts all available metadata.
-* getThumbnailImage(): this method creates a thumbnail image out of the passed asset.
-* getMimeTypes(): this method returns the asset mime type(s).
+* `extractMetadata()`: this method extracts all available metadata.
+* `getThumbnailImage()`: this method creates a thumbnail image out of the passed asset.
+* `getMimeTypes()`: this method returns the asset mime type(s).
 
 Here is an example template:
 
-package my.own.stuff; /&ast;&ast; &ast; @scr.component inherit="true" &ast; @scr.service &ast;/ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts }
+```
+package my.own.stuff; /** * @scr.component inherit="true" * @scr.service */ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts }
+```
 
 The interface and classes include:
 
-**com.day.cq.dam.api.handler.AssetHandler Interface**
-
-* This interface describes the service which adds support for specific mime types. Adding a new mime type requires to implement this interface. The interface contains methods for importing and exporting the specific documents, for creating thumbnails and extracting metadata.
-
-**com.day.cq.dam.core.AbstractAssetHandler Class**
-
-* This class serves as basis for all other asset handler implementations and provides common used functionality.
-
-**com.day.cq.dam.core.AbstractSubAssetHandler Class:**
-
-* This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction
-* The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behaviour: the com.day.cq.dam.core.AbstractAssetHandler Class.
-* This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to true.
+* `com.day.cq.dam.api.handler.AssetHandler` interface: This interface describes the service which adds support for specific mime types. Adding a new mime type requires to implement this interface. The interface contains methods for importing and exporting the specific documents, for creating thumbnails and extracting metadata.
+* `com.day.cq.dam.core.AbstractAssetHandler` class: This class serves as basis for all other asset handler implementations and provides common used functionality.
+* `com.day.cq.dam.core.AbstractSubAssetHandler` class: 
+  * This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction.
+  * The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behaviour: the com.day.cq.dam.core.AbstractAssetHandler Class.
+  * This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to true.
 
 The following methods need to be implemented:
 
-* extractMetadata(): this method extracts all available metadata.
-* getThumbnailImage(): this method creates a thumbnail image out of the passed asset.
-* getMimeTypes(): this method returns the asset mime type(s).
+* `extractMetadata()`: this method extracts all available metadata.
+* `getThumbnailImage()`: this method creates a thumbnail image out of the passed asset.
+* `getMimeTypes()`: this method returns the asset mime type(s).
 
 Here is an example template:
 
@@ -181,17 +176,9 @@ package my.own.stuff; /&ast;&ast; &ast; @scr.component inherit="true" &ast; @scr
 
 The interface and classes include:
 
-**com.day.cq.dam.api.handler.AssetHandler Interface**
-
-* This interface describes the service which adds support for specific mime types. Adding a new mime type requires to implement this interface. The interface contains methods for importing and exporting the specific documents, for creating thumbnails and extracting metadata.
-
-**com.day.cq.dam.core.AbstractAssetHandler Class**
-
-* This class serves as basis for all other asset handler implementations and provides common used functionality.
-
-**com.day.cq.dam.core.AbstractSubAssetHandler Class:**
-
-* This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction
+* `com.day.cq.dam.api.handler.AssetHandler` interface: This interface describes the service which adds support for specific mime types. Adding a new mime type requires to implement this interface. The interface contains methods for importing and exporting the specific documents, for creating thumbnails and extracting metadata.
+* `com.day.cq.dam.core.AbstractAssetHandler` class: This class serves as basis for all other asset handler implementations and provides common used functionality.
+* `com.day.cq.dam.core.AbstractSubAssetHandler` class: This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction.
 
 #### Example: create a specific Text Handler {#example-create-a-specific-text-handler}
 
@@ -199,7 +186,7 @@ In this section, you will create a specific Text Handler that generates thumbnai
 
 Proceed as follows:
 
-Refer to [Development Tools](/help/sites-developing/dev-tools.md) to install and set up Eclipse with a Maven plugin and for setting up the dependencies that are needed for the Maven project.
+Refer to [Development Tools](../sites-developing/dev-tools.md) to install and set up Eclipse with a Maven plugin and for setting up the dependencies that are needed for the Maven project.
 
 After you perform the following procedure, when you upload a txt file into AEM, the file's metadata are extracted and two thumbnails with a watermark are generated.
 
@@ -346,16 +333,16 @@ After you perform the following procedure, when you upload a txt file into AEM, 
     </dependencies>
    ```
 
-1. Create the package com.day.cq5.myhandler that will contain the Java classes under myBundle/src/main/java:
+1. Create the package `com.day.cq5.myhandler` that contains the Java classes under `myBundle/src/main/java`:
 
-    1. Under myBundle, right-click src/main/java, select New, then Package.
-    1. Name it com.day.cq5.myhandler and click Finish.
+    1. Under myBundle, right-click `src/main/java`, select New, then Package.
+    1. Name it `com.day.cq5.myhandler` and click Finish.
 
-1. Create the Java class MyHandler:
+1. Create the Java class `MyHandler`:
 
-    1. In Eclipse, under myBundle/src/main/java, right-click the com.day.cq5.myhandler package, select New, then Class.
+    1. In Eclipse, under `myBundle/src/main/java`, right-click the com.day.cq5.myhandler package, select New, then Class.
     1. In the dialog window, name the Java Class MyHandler and click Finish. Eclipse creates and opens the file MyHandler.java.
-    1. In MyHandler.java replace the existing code with the following and then save the changes:
+    1. In `MyHandler.java` replace the existing code with the following and then save the changes:
 
    ```java
    package com.day.cq5.myhandler; 
@@ -499,12 +486,12 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 
 1. Compile the Java class and create the bundle:
 
-    1. Right-click the myBundle project, select Run As, then Maven Install.
-    1. The bundle myBundle-0.0.1-SNAPSHOT.jar (containing the compiled class) is created under myBundle/target.
+    1. Right-click the myBundle project, select **Run As**, then **Maven Install**.
+    1. The bundle `myBundle-0.0.1-SNAPSHOT.jar` (containing the compiled class) is created under `myBundle/target`.
 
-1. In CRX Explorer, create a new node under /apps/myApp. Name = install, Type = nt:folder.
-1. Copy the bundle myBundle-0.0.1-SNAPSHOT.jar and store it under /apps/myApp/install (for example with WebDAV). The new text handler is now active in AEM.
-1. In your browser, open the Apache Felix Web Management Console. Select the Components tab and disable the default text handler com.day.cq.dam.core.impl.handler.TextHandler.
+1. In CRX Explorer, create a new node under `/apps/myApp`. Name = `install`, Type = `nt:folder`.
+1. Copy the bundle `myBundle-0.0.1-SNAPSHOT.jar` and store it under `/apps/myApp/install` (for example with WebDAV). The new text handler is now active in AEM.
+1. In your browser, open the Apache Felix Web Management Console. Select the Components tab and disable the default text handler `com.day.cq.dam.core.impl.handler.TextHandler`.
 
 ## Command Line Based Media Handler {#command-line-based-media-handler}
 
@@ -615,5 +602,4 @@ Use the following **Process Arguments** to create the web-enabled rendition usin
 
 >[!NOTE]
 >
->The **CommandLineProcess** step only applies to Assets (nodes of type dam:Asset) or descendants of an Asset.
-
+>The **CommandLineProcess** step only applies to Assets (nodes of type `dam:Asset`) or descendants of an Asset.

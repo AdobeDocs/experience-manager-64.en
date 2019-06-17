@@ -4,7 +4,7 @@ seo-title: How to edit or add metadata
 description: Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata.
 seo-description: Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata.
 uuid: 37b19dab-17cc-487e-a3fc-0098400a2ad8
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference

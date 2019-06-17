@@ -21,7 +21,7 @@ You can programmatically modify nodes and properties located within the Adobe CQ
 
 >[!NOTE]
 >
->To use the JCR API, add the jackrabbit-standalone-2.4.0.jar file to your Java application’s class path. You can obtain this JAR file from the Java JCR API web page at [https://jackrabbit.apache.org/jcr/jcr-api.html](https://jackrabbit.apache.org/jcr/jcr-api.html).
+>To use the JCR API, add the `jackrabbit-standalone-2.4.0.jar` file to your Java application’s class path. You can obtain this JAR file from the Java JCR API web page at [https://jackrabbit.apache.org/jcr/jcr-api.html](https://jackrabbit.apache.org/jcr/jcr-api.html).
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ You can programmatically modify nodes and properties located within the Adobe CQ
 
 ## Create a Repository instance {#create-a-repository-instance}
 
-Although there are different ways to connect to a repository and establish a connection, this development article uses a static method that belongs to the `org.apache.jackrabbit.commons.JcrUtils` class. The name of the method is `getRepository`. This method takes a string parameter that represents the URL of the Adobe CQ server. For example http://localhost:4503/crx/server.
+Although there are different ways to connect to a repository and establish a connection, this development article uses a static method that belongs to the `org.apache.jackrabbit.commons.JcrUtils` class. The name of the method is `getRepository`. This method takes a string parameter that represents the URL of the Adobe CQ server. For example `http://localhost:4503/crx/server`.
 
 The `getRepository`method returns a `Repository`instance, as shown in the following code example.
 
@@ -137,7 +137,7 @@ try {
 }
 ```
 
-After you run the full code example and create the nodes, you can view the new nodes in the CRXDE Lite, as shown in the following illustration.
+After you run the full code example and create the nodes, you can view the new nodes in the **[!UICONTROL CRXDE Lite]**, as shown in the following illustration.
 
 ![chlimage_1-68](assets/chlimage_1-68.png)
 

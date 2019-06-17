@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: d1f45751-1761-4d6b-b17d-110b2f1117ea
 ---
 
-# Adding Dynamic Media Assets to Pages{#adding-dynamic-media-assets-to-pages}
+# Adding Dynamic Media Assets to Pages {#adding-dynamic-media-assets-to-pages}
 
 To add the dynamic media functionality to assets you use on your websites, you can add the **Dynamic Media** or **Interactive Media** component directly on the page. You do this by entering Layout mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.
 

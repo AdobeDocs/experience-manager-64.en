@@ -4,18 +4,16 @@ seo-title: Administering Assets
 description: Learn about the activities typically performed by an AEM Assets administrator.
 seo-description: Learn about the activities typically performed by an AEM Assets administrator.
 uuid: f9c9e14c-65d1-45e5-9572-d3f908c84ea1
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 7c851395-5f10-4311-899a-e73328f57e85
 ---
 
-# Administering Assets{#administering-assets}
+# About Assets {#about-assets}
 
-<!-- Update content for branding -->
-
-Assets is a digital asset management tool that is fully integrated with the AEM platform and enables your enterprise to share and distribute digital assets. Users across an organization can manage, store, and access images, videos, documents, audio clips, and rich media such as Flash files for use on the web, in print, and for digital distribution.
+Assets is a Digital Asset Management (DAM) tool that is fully integrated with the AEM platform and enables your enterprise to share and distribute digital assets. Users across an organization can manage, store, and access images, videos, documents, audio clips, and rich media such as Flash files for use on the web, in print, and for digital distribution.
 
 The following activities are those that you typically perform as a digital asset administrator:
 

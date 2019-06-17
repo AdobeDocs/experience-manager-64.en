@@ -153,7 +153,7 @@ The parameters in the following table are common to all goals except when noted 
 
 ### build {#build}
 
-Builds a content package that is already defined on a CRX or CQ5 server.
+Builds a content package that is already defined on an AEM instance.
 
 >[!NOTE]
 >
@@ -165,7 +165,7 @@ All paramaters for the build goal are described in the [Common Parameters](#comm
 
 #### Example {#example}
 
-The following example builds the workflow-mbean package that is installed on the CQ server with the IP address 10.36.79.223. The goal is executed using the followng command:
+The following example builds the workflow-mbean package that is installed on the AEM instance with the IP address 10.36.79.223. The goal is executed using the followng command:
 
 ```shell
 mvn content-package:build
@@ -200,7 +200,7 @@ The following POM file is located in the current directory of the command line t
 
 ### install {#install}
 
-Installs a package in the CRX respository. Execution of this goal does not require a Maven project. The goal is bound to the Install phase of the Maven build lifecycle.
+Installs a package in the respository. Execution of this goal does not require a Maven project. The goal is bound to the Install phase of the Maven build lifecycle.
 
 #### Parameters {#parameters-1}
 
@@ -353,7 +353,7 @@ All parameters of the ls goal are described in the [Common Parameters](#common-p
 
 #### Example {#example-2}
 
-The following example lists the packages that are installed on the CQ server with the IP address 10.36.79.223. The goal is executed using the followng command:
+The following example lists the packages that are installed on the AEM instance with the IP address 10.36.79.223. The goal is executed using the followng command:
 
 ```shell
 mvn content-package:ls
@@ -394,7 +394,7 @@ All parameters of the rm goal are described in the [Common Parameters](#common-p
 
 #### Example {#example-3}
 
-The following example removes the workfow-mbean package that is installed on the CQ server with the IP address 10.36.79.223. The goal is executed using the followng command:
+The following example removes the workfow-mbean package that is installed on the AEM instance with the IP address 10.36.79.223. The goal is executed using the followng command:
 
 ```shell
 mvn content-package:rm
@@ -436,7 +436,7 @@ All parameters of the uninstall goal are described in the [Common Parameters](#c
 
 #### Example {#example-4}
 
-The following example uninstalls the workflow-mbean package that is installed on the CQ server with the IP address 10.36.79.223. The goal is executed using the followng command:
+The following example uninstalls the workflow-mbean package that is installed on the AEM instance with the IP address 10.36.79.223. The goal is executed using the followng command:
 
 ```shell
 mvn content-package:uninstall
@@ -664,11 +664,9 @@ The following example creates a package that contains the workflow-mbean OSGi bu
 
 `jcr_root/apps/myapp/install/workflow-mbean-0.03-SNAPSHOT.jar`
 
-``Because the goal is bound to the package build phase, the following command executes the package goal:
+Because the goal is bound to the package build phase, the following command executes the package goal:
 
-```shell
-mvn package
-```
+`mvn package`
 
 ```xml
 <project xmlns="https://maven.apache.org/POM/4.0.0" 
@@ -882,17 +880,17 @@ The following POM code adds only a thumbnail image to the package. The thumbnail
 </build>
 ```
 
-## Using Archetypes To Generate CQ Projects {#using-archetypes-to-generate-cq-projects}
+## Using Archetypes To Generate AEM Projects {#using-archetypes-to-generate-aem-projects}
 
-Several Maven archetypes are available for generating CQ projects. Use the archetype that corresponds with your development goals:
+Several Maven archetypes are available for generating AEM projects. Use the archetype that corresponds with your development goals:
 
-* A content package that installs resources for a CQ application: [simple-content-package-archetype](#simple-content-package-archetype)
+* A content package that installs resources for a AEM application: [simple-content-package-archetype](#simple-content-package-archetype)
 * A content package that includes third-party artifacts: [simple-content-package-with-embedded-archetype](#simple-content-package-with-embedded-archetype).
 * A multi-module application that accomodates the development of Java classes and unit tests: [multimodule-content-package-archetype](#multimodule-content-package-archetype).
 
 >[!NOTE]
 >
->The Apache Sling project also offers archetypes useful in CQ development. These are documented at [https://sling.apache.org/site/maven-archetypes.html](https://sling.apache.org/documentation/development/maven-archetypes.html).
+>The Apache Sling project also offers archetypes useful in AEM development. These are documented at [https://sling.apache.org/site/maven-archetypes.html](https://sling.apache.org/documentation/development/maven-archetypes.html).
 
 Each archetype generates the following items:
 
@@ -912,7 +910,7 @@ The Maven archetype plugin uses interactive mode in the shell or command prompt 
 
 **POM files**
 
-The generated POM files include commands for compiling code, creating bundles, and deploying them to CQ in packages. The `groupID`, `artifactId`, `version`, and `name` properties of the Maven project are automatically populated using the values that you provide to the Maven `archetype:generate` interactive prompt.
+The generated POM files include commands for compiling code, creating bundles, and deploying them to AEM in packages. The `groupID`, `artifactId`, `version`, and `name` properties of the Maven project are automatically populated using the values that you provide to the Maven `archetype:generate` interactive prompt.
 
 You may want to change the the following default values in the generated pom.xml file:
 
@@ -934,7 +932,7 @@ You may want to change the the following default values in the generated pom.xml
 
 ### simple-content-package-archetype {#simple-content-package-archetype}
 
-Creates a maven project that is suitable for installing resources for a simple CQ application. The folder structure is that used below the /apps folder of the CQ repository. The POM defines commands for packaging the resources that you place in the folders and installing the packages on the CQ server.
+Creates a maven project that is suitable for installing resources for a simple AEM application. The folder structure is that used below the `/apps` folder of the AEM repository. The POM defines commands for packaging the resources that you place in the folders and installing the packages on the AEM instance.
 
 **Archetype artifact properties:**
 
@@ -1047,7 +1045,7 @@ ${artifactId}
 
 ### multimodule-content-package-archetype {#multimodule-content-package-archetype}
 
-Creates a maven project that includes the folder structure for developing a CQ application and installing resources to the server.
+Creates a maven project that includes the folder structure for developing an AEM application and installing resources to the server.
 
 The `bundle` folder contains the folder structure that stores the Java and JUnit source files that you develop. The pom.xml file in this folder creates the OSGi bundle. The following values in the POM identify the artifact and the bundle:
 
@@ -1056,7 +1054,7 @@ The `bundle` folder contains the folder structure that stores the Java and JUnit
 
 `${artifactID}` and `${groupId}` are the values that you provide for these parameters when executing the archetypes.
 
-The `content` folder contains the resources that are installed to the CQ server. The value of artifactID is `${artifactID}multimodule-bundle`.
+The `content` folder contains the resources that are installed to the AEM instance. The value of artifactID is `${artifactID}multimodule-bundle`.
 
 The parent folder contains the parent POM that manages Maven plugins and dependencies.
 

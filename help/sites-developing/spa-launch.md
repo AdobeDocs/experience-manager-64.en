@@ -15,11 +15,11 @@ discoiquuid: a458cc95-cd94-4f3f-9e7b-d6a5780ec4d5
 
 Adobe Launch is the recommended way to implement Analytics, Target, and Audience Manager within Single Page Applications (SPAs).
 
->[!CAUTION]
+>[!NOTE]
 >
->The Single-Page Application (SPA) Editor feature was introduced with AEM 6.4 and is currently a release candidate. The SPA Editor will be available in [6.4 SP2](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>The Single-Page Application (SPA) Editor feature requires AEM 6.4 service pack 2 or newer.
 >
->The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React).
+>The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React or Angular).
 
 ## Tutorial {#tutorial}
 
@@ -27,8 +27,6 @@ To understand how to integrate your SPA with Adobe Launch, please see [this know
 
 >[!NOTE]
 >
->The referenced KB was created to enable Launch integration with SPAs that don't leverage the AEM SPA Editor. These methods should also allow the Launch integration to coexist with SPAs that are built to use the SPA Editor.  
-
+>The referenced KB was created to enable Launch integration with SPAs that don't leverage the AEM SPA Editor. These methods should also allow the Launch integration to coexist with SPAs that are built to use the SPA Editor. 
 >
 >Because the SPA Editor is in prerelease, the use of Redux alongside the Javascript SPA libraries has not been fully explored. Support of Redux is planned in a future release of the SPA Editor.
-

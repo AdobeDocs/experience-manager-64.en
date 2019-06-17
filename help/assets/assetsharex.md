@@ -4,7 +4,7 @@ seo-title: Customizing Asset Share
 description: null
 seo-description: null
 uuid: 00f9a4f3-36d8-4703-b8d9-34bb191af918
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
@@ -17,9 +17,9 @@ The Asset Share page is used to search for assets based on their metadata. You c
 
 ## Creating an Asset Share Template {#creating-an-asset-share-template}
 
-* Geometrixx Sample Page:** /content/geometrixx/en/press.html**
-* Sample Template:** /apps/geometrixx/templates/assetshare**
-* Sample Page Component:** /apps/geometrixx/components/assetshare**
+* Geometrixx Sample Page: `/content/geometrixx/en/press.html`
+* Sample Template: `/apps/geometrixx/templates/assetshare`
+* Sample Page Component: `/apps/geometrixx/components/assetshare`
 
 ### Configuring Clientlib {#configuring-clientlib}
 
@@ -31,7 +31,7 @@ Compared to the default clientlib loading (in core's **init.jsp**), an AEM Asset
 
 * The clientlib must also be included in disabled WCM mode (for example, loaded on **publish**) to be able to render the predicates, actions, and lenses.
 
-In most cases, copying the existing sample **init.jsp** (**/apps/geometrixx/components/assetshare/init.jsp**) should meet these needs.
+In most cases, copying the existing sample **init.jsp** (`/apps/geometrixx/components/assetshare/init.jsp`) should meet these needs.
 
 ### Additional Style Sheets {#additional-style-sheets}
 
@@ -43,11 +43,11 @@ Some of the AEM Assets components use the AEM widgets library. To be rendered pr
 
 ### Geometrixx Style Sheet {#geometrixx-style-sheet}
 
-The sample page components require all selectors to start with .**assetshare** of **static.css** (**/etc/designs/geometrixx/static.css**). Best practice: Copy all** .assetshare **selectors to your style sheet and adjust the rules as desired.
+The sample page components require all selectors to start with `.assetshare` of `static.css` (`/etc/designs/geometrixx/static.css`). Best practice: Copy all `.assetshare` selectors to your style sheet and adjust the rules as desired.
 
 ### Query Builder {#query-builder}
 
-The Geometrixx sample page includes the default AEM Assets query builder component (**/libs/dam/components/assetshare/querybuilder**) with two columns (in **/apps/geometrixx/components/assetshare/body.jsp**):
+The Geometrixx sample page includes the default AEM Assets query builder component (`/libs/dam/components/assetshare/querybuilder`) with two columns (in `/apps/geometrixx/components/assetshare/body.jsp`):
 
 * left column for predicates and actions
 * right column for the lens deck that displays the current lens
@@ -70,14 +70,14 @@ In addition to using pre-existing actions, AEM developers can also create their 
 
 Creating custom actions requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html).
 
-The best practice is to copy an existing action and adjust it. Sample actions are located in **/libs/cq/dam/assetshare/components/actions**. See also [Developing components](/help/sites-developing/developing-components-samples.md).
+The best practice is to copy an existing action and adjust it. Sample actions are located in `/libs/cq/dam/assetshare/components/actions`. See also [Developing components](../sites-developing/developing-components-samples.md).
 
 #### Example: Create a simple action {#example-create-a-simple-action}
 
 To create a custom action:
 
-1. Create a component folder in your projects directory, for example, **/apps/geometrixx/components/sampleaction.**
-1. Add **content.xml**:
+1. Create a component folder in your projects directory, for example, `/apps/geometrixx/components/sampleaction`.
+1. Add `content.xml`:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -90,7 +90,7 @@ To create a custom action:
    
    ```
 
-1. Add **sampleaction.jsp**:
+1. Add `sampleaction.jsp`:
 
    ```xml
    <%--
@@ -124,7 +124,6 @@ To create a custom action:
    
    ```
 
-1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node **cq:editConfig** of primary type **cq:EditConfig**. So that you can remove paragraphs, add a multi-value property **cq:actions** with a single value of **DELETE**.
-1. Navigate to your browser, and on your sample page (for example, **press.html**) switch to design mode and enable your new component for the predicate paragraph system (for example, **actions**).
-1. In **Edit** mode, the new component is now available in the sidekick (found in the **Asset Share **group). Insert the component in actions area.
-
+1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node `cq:editConfig` of primary type `cq:EditConfig`. So that you can remove paragraphs, add a multi-value property `cq:actions` with a single value of `DELETE`.
+1. Navigate to your browser, and on your sample page (for example, `press.html`) switch to design mode and enable your new component for the predicate paragraph system (for example, `actions`).
+1. In **Edit** mode, the new component is now available in the sidekick (found in the `Asset Share` group). Insert the component in actions area.

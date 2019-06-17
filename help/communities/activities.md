@@ -50,16 +50,12 @@ Under the **User Activities** tab, specify which activities to display:
 
 * **Max number of activities** 
   the number of activities to display
-
 * **Stream Resource Path** 
   Leave blank to default to the community site or community group. The stream resource path identifies the source of activities. Default is blank.
-
 * **Display User Activities View** 
   if checked, the activities page will include a tab which filters activities based on those generated within the community by the current member. Default is checked.
-
 * **Display All Activities View** 
   if checked, the activities page will include a tab which includes all activities generated within the community to which the current member has access. Default is checked.
-
 * **Display Following View** 
   if checked, the activities page will include a tab which filters activities based on those the current member is following. Default is checked.
 

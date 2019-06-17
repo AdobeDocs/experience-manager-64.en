@@ -4,7 +4,7 @@ seo-title: AEM and Creative Cloud Integration Best Practices
 description: Best practices for integrating an AEM instance with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency.
 seo-description: Best practices for integrating an AEM instance with Adobe Creative Cloud.
 uuid: cc012414-83aa-4d9a-b49e-acd10cea0aad
-contentOwner: User
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
@@ -45,10 +45,8 @@ The terms used in this document may have a different meaning in other contexts. 
 
 * **Work-in-progress or creative work-in-progress (WIP):** A phase in asset lifecycle where an asset undergoes multiple changes and is typically not yet ready to be shared with broader teams.
 * **Creative-ready assets:** Assets that are ready to be shared with a broader team, or have been  selected / approved  by the creative team for sharing with marketing or LOB teams.
-
 * **Asset approvals:** The approval process that runs for assets already uploaded to DAM, which typically includes brand approvals, legal approvals, and so on.
 * **Final asset:** An asset that has gone through all  approvals/metadata  tagging and is ready to be used by the broader team. Such an asset is stored in DAM and made available to all (or all interested) users. It can be used in marketing channels or by creative teams to create designs.
-
 * **Minor asset  update/change:** A quick and small change to a digital asset. It is often made in response to a retouching or minor editing request, asset review, or approval (for example, reposition, change text size, adjust saturation/brightness, color, and so on).
 * **Major asset  update/change:** A change to a digital asset that requires considerable work, and sometimes must be done over a longer period of time. It typically includes multiple changes. The asset must be saved multiple times while being updated. Major asset updates typically cause the asset to enter a WIP stage.
 * **DAM:** Digital asset management. In this document, it is synonymous with AEM Experience Manager Assets, unless specifically mentioned otherwise.
@@ -62,7 +60,6 @@ The terms used in this document may have a different meaning in other contexts. 
 The following types of integration are described in this guide:
 
 * **Integration 1 - [AEM Desktop App](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html):** Linking AEM Assets with the desktop and desktop applications directly. It uses a network share that  is  mounted on the local  filesystem,  and maps assets from DAM into virtualized folders/files on the local disk share. This type of integration requires network connection on the user's desktop and direct user access to AEM (including AEM login).
-
 * **Integration 2 - [AEM / Creative Cloud folder sharing](/help/sites-administering/creative-cloud.md):** Sharing AEM folders with Creative Cloud file storage, to let creative users access selected assets and provide new assets back into DAM. This type of integration does not require the creative user to have access / login to AEM, only their login with Adobe ID to Creative Cloud.
 
 The follow diagram depicts both types of integration and describes how they connect work and assets in DAM with user's work on desktop:
@@ -170,13 +167,11 @@ This is a brief summary of best practices for AEM & Creative Cloud Integration. 
 This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Desktop App best practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html) document for more information.
 
 * **Understand how Desktop App works:** Linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background  
-
 * **Quick access to assets on desktop:** Find your asset in Web UI and open or reveal on desktop
 * **Minor updates - save directly to DAM:** Save to the file mapped by AEM desktop app for minor asset updates
 * **Major updates - use a separate WIP folder:** copy asset to a separate WIP folder outside of the mapped areas, work there, save back to the mapped location when ready
 * **Use Folder Upload for large/hierarchical folders:** AEM Desktop App helps with uploading large/hierarchical folders in background with monitoring
 * **Use the latest version**: Always use the latest AEM Desktop App Version, it's compatible with the latest and two previous major releases of AEM  
-
 * **Mind the network:** network performance is key to AEM Desktop App performance, turn off features that might cause lots of network traffic (like thumbnails in Finder for the mapped network share).
 * **Mind the server performance:** AEM Desktop App will work better for the users if your AEM server is optimized for uploads
 * **Know how NOT to use AEM Desktop App:** examples include
@@ -302,7 +297,6 @@ In such cases, AEM Desktop App provides the easiest way of performing these oper
 Here is the flow of events depicted in the diagram:
 
 * **1:** Share the asset from DAM to desktop, or open it directly on  desktop  in the application of choice (for example, Adobe Photoshop, and so on). Check out is recommended to lock the file.
-
 * **2:** Minor update: Edit the file and save the changes.
 * Alternative flow to Step 2
 

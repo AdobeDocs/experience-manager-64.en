@@ -54,7 +54,9 @@ The eCommerce framework can be used with any eCommerce solution, the engine bein
 
 In a standard AEM installation a specific implementation is required, for example:
 
-`cq:commerceProvider = geometrixx`: geometrixx example; this includes minimal extensions to the generic API
+|||
+|-|-|
+|`cq:commerceProvider = geometrixx`|geometrixx example; this includes minimal extensions to the generic API|
 
 ### Example {#example}
 
@@ -320,8 +322,6 @@ public class AxisFilter implements VariantFilter {
         * `int CommerceSession.getQuantityBreakpoints(Product product)`
         * `String CommerceSession.getProductPrice(Product product)`
 
-  ``
-
 **Storage**
 
 * Storage
@@ -344,10 +344,6 @@ public class AxisFilter implements VariantFilter {
 **Cart and Order Data**
 
 The `CommerceSession` owns the three elements:
-
-1. Cart contents
-1. Pricing
-1. The order details
 
 1. **Cart contents**
 
@@ -507,72 +503,20 @@ public void removeVoucher(String code) throws CommerceException;
 public List<Voucher> getVouchers() throws CommerceException;
 ```
 
-This way, the 
+This way, the `CommerceSession` is responsible for checking whether a voucher exists and if it can be applied or not. This might be for vouchers that can only be applied if a certain condition is met; for example, when the total cart price is greater than $100). If a voucher cannot be applied for any reason, the `addVoucher` method will throw an exception. Also, the `CommerceSession` is responsible for updating the cart's price(s) after a voucher is added / removed.
 
-```
-CommerceSession
-```
-
-is responsible for checking whether a voucher exists and if it can be applied or not. This might be for vouchers that can only be applied if a certain condition is met; for example, when the total cart price is greater than $100). If a voucher cannot be applied for any reason, the 
-
-```
-addVoucher
-```
-
-method will throw an exception. Also, the 
-
-```
-CommerceSession
-```
-
-is responsible for updating the cart's price(s) after a voucher is added / removed.
-
-The 
-
-```
-Voucher
-```
-
-is a bean-like class that contains fields for:
+The `Voucher` is a bean-like class that contains fields for:
 
 * Voucher code
 * A short description
 * Referencing the related promotion that indicates the discount type and value
 
-The 
-
-```
-AbstractJcrCommerceSession
-```
-
-provided can apply vouchers. The vouchers returned by the class 
-
-```
-getVouchers()
-```
-
-are instances of `cq:Page` containing a jcr:content node with the following properties (amongst others):
+The `AbstractJcrCommerceSession` provided can apply vouchers. The vouchers returned by the class `getVouchers()` are instances of `cq:Page` containing a jcr:content node with the following properties (amongst others):
 
 * `sling:resourceType` (String) - this needs to be `commerce/components/voucher`
 
-  ```
-  
-  ```
-
-* 
-
-  ```
-  jcr:title
-  ```
-
-  (String) - for the voucher's description
-* 
-
-  ```
-  code
-  ```
-
-  (String) - the code the user has to enter to apply this voucher
+* `jcr:title` (String) - for the voucher's description
+* `code` (String) - the code the user has to enter to apply this voucher
 * `promotion` (String) - the promotion to be applied; e.g. `/content/campaigns/geometrixx-outdoors/article/10-bucks-off`
 
 Promotion handlers are OSGi services which modify the shopping cart. The cart will support several hooks that will be defined in the `PromotionHandler` interface.

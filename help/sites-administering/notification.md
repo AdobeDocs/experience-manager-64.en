@@ -123,7 +123,7 @@ To customize the English email template for page notification:
 The template needs to have the following format:
 
 ```
-subject=<text_1>
+ subject=<text_1>
  header=<text_2>
  message=<text_3>
  footer=<text_4>
@@ -182,7 +182,7 @@ To customize the English email template for forum notification:
 The template needs to have the following format:
 
 ```
-subject=<text_1>
+ subject=<text_1>
  header=<text_2>
  message=<text_3>
  footer=<text_4>

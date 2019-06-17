@@ -244,7 +244,7 @@ You can add multiple assets in the product component, then specify the asset tha
    >
    >You have to be at the product level, not at the variant level.
 
-1. Tap/click **View Product Data **icon with selection mode or quick actions.
+1. Tap/click **View Product Data** icon with selection mode or quick actions.
 1. Tap/click Edit icon.
 1. Scroll to **Add**.
 
@@ -303,7 +303,7 @@ The mechanism to select the image to be displayed is as follows:
 1. Navigate to your catalog.
 1. Tap/click **View Properties**.
 1. Tap/click **Edit**.
-1. Tap/click the **Assets **tab.
+1. Tap/click the **Assets** tab.
 1. Type the required **Product Asset Category**.
 1. Tap/click **Done**.
 1. [Rollout](#rolling-out-a-catalog) your changes.
@@ -324,7 +324,7 @@ The mechanism to select the image to be displayed is as follows:
 >[!NOTE]
 >
 >Often the product information is published through the pages that reference it. For instance, when publishing page X which references product Y, AEM will ask if you also want to publish product Y.  
-  
+>  
 >For special cases, AEM also supports publishing direct from the product data.
 
 1. Using the **Products** console (via **Commerce**) navigate to your product information.
@@ -649,7 +649,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 >[!NOTE]
 >
 >The orders console exposes the vendor order information, which is never published.  
-  
+>  
 >The customer order information is held in their home directories and is exposed by the Order History for their Account. This information is published along with the rest of their home directory.
 
 ### Creating Order Information {#creating-order-information}

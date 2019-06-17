@@ -4,14 +4,14 @@ seo-title: Assets Proxy Development
 description: A proxy is an AEM instance that uses proxy workers to process jobs. Learn how to configure an AEM proxy, supported operations, proxy components, and how to develop a custom proxy worker. 
 seo-description: A proxy is an AEM instance that uses proxy workers to process jobs. Learn how to configure an AEM proxy, supported operations, proxy components, and how to develop a custom proxy worker. 
 uuid: 72ceb9a5-f88a-48fe-99da-8ec10192320a
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 5332f700-0871-4ce3-945d-fc2e7b65d46e
 ---
 
-# Assets Proxy Development{#assets-proxy-development}
+# Assets Proxy Development {#assets-proxy-development}
 
 Adobe Experience Manager (AEM) Assets uses a proxy to distribute processing for certain tasks.
 
@@ -21,11 +21,7 @@ When the proxy is a separate AEM instance this helps reduce the load on the AEM 
 
 ## Proxy (HTTP Access) {#proxy-http-access}
 
-A proxy is available via the HTTP Servlet when it is configured to accept processing jobs at:
-
-`/libs/dam/cloud/proxy`
-
-This servlet creates a sling job from the posted parameters. This is then added to the proxy job queue and connected to the appropriate proxy worker.
+A proxy is available via the HTTP Servlet when it is configured to accept processing jobs at: `/libs/dam/cloud/proxy`. This servlet creates a sling job from the posted parameters. This is then added to the proxy job queue and connected to the appropriate proxy worker.
 
 ### Supported Operations {#supported-operations}
 
@@ -83,7 +79,7 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 
 ### Client API {#client-api}
 
-`[JobService](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service (`JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
+[`JobService`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html) is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service (`JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
 
 The following is an example of API usage:
 
@@ -112,21 +108,13 @@ The following is an example of API usage:
 
 >[!NOTE]
 >
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.html).
+>Reference documentation for the proxy API is available under [`com.day.cq.dam.api.proxy`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.html).
 
-Both proxy and proxy worker configurations are available via cloud services configurations as accessible from the AEM Assets **Tools** console or under:
-
-`/etc/cloudservices/proxy`
-
-Each proxy worker is expected to add a node under:
-
-`/etc/cloudservices/proxy`
-
-for worker specific configuration details (e.g. `/etc/cloudservices/proxy/workername`)
+Both proxy and proxy worker configurations are available via cloud services configurations as accessible from the AEM Assets **Tools** console or under `/etc/cloudservices/proxy`. Each proxy worker is expected to add a node under `/etc/cloudservices/proxy` for worker specific configuration details (for example, `/etc/cloudservices/proxy/workername`).
 
 >[!NOTE]
 >
->See [Indesign Server Proxy Worker configuration](indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](/help/sites-developing/extending-cloud-config.md) for more information.
+>See [Indesign Server Proxy Worker configuration](indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](../sites-developing/extending-cloud-config.md) for more information.
 
 The following is an example of API usage:
 
@@ -198,4 +186,3 @@ The following diagram and steps detail how to proceed:
 >Synchronization of Results:
 >
 >With n instances using the same proxy, the processing result stays with the proxy. It is the job of the client (AEM Author) to request the result using the same unique job id as given to the client on job creation. The proxy simply gets the job done and keeps the result ready to be requested.
-

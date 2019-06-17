@@ -77,7 +77,7 @@ To check if keep-alive works:
 * If keep-alive is working, the connection counter should never go above 5 to 10 connections. 
 * If keep-alive is not working, the connection counter increases rapidly.
 
-**Finding Lost Requests **
+**Finding Lost Requests**
 
 If you lose requests in a complex server setting, for example with a firewall and a dispatcher, you can use the proxy server to find out where the request was lost. In case of a firewall:
 

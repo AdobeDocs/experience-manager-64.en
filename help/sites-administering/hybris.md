@@ -170,7 +170,7 @@ The response parser can be configured to define the properties and attributes to
 1. Configure the OSGi bundle:
 
    **Day CQ Commerce Hybris Default Response Parser** 
-   ( `com.adobe.cq.commerce.hybris.impl.importer.DefaultResponseParser`)
+   (`com.adobe.cq.commerce.hybris.impl.importer.DefaultResponseParser`)
 
    Here you can define various options and attributes needed for loading and mapping.
 
@@ -270,7 +270,6 @@ The following properties indicate the link with hybris:
        /etc/commerce/products
    ```
 
-   ` [](http://localhost:4502/crx/de/index.jsp#/etc/commerce/products)`
 
 ### Express Update {#express-update}
 

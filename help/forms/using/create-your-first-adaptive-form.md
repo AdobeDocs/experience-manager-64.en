@@ -84,8 +84,6 @@ Goals:
 * Create and apply rules to adaptive form fields
 * Use rules to trigger form data model services to update data to database
 
-    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](apply-rules-to-adaptive-form-fields.md)
-
 ## Step 4: Style your adaptive form {#step-style-your-adaptive-form}
 
 ![09-Style-your-adaptive-form_small](assets/09-Style-your-adaptive-form_small.png)

@@ -336,7 +336,7 @@ The following web servers are supported for use with Dispatcher version 4.3.1:
 
 | Platform |Support Level |
 |---|---|
-| **Apache httpd 2.4.x** [1,2] |A: Supported |
+| **Apache httpd 2.4.x** (see also 1,2 below ) |A: Supported |
 | Microsoft IIS 10 (Internet Information Server) |A: Supported |
 | Microsoft IIS 8.5 (Internet Information Server) |A: Supported |
 

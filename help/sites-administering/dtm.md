@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: b8c7a20a-7694-4a49-b66a-060720f17dad
 ---
 
-# Integrating with Adobe Dynamic Tag Management{#integrating-with-adobe-dynamic-tag-management}
+# Integrating with Adobe Dynamic Tag Management {#integrating-with-adobe-dynamic-tag-management}
 
 Integrate [Adobe Dynamic Tag Management](https://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html) with AEM so that you can use your Dynamic Tag Management web properties to track AEM sites. Dynamic Tag Management enables marketers to manage tags for collecting data, and distribute data across digital marketing systems. For example, use Dynamic Tag Management to collect usage data for your AEM website and distribute the data for analysis in Adobe Analytics or Adobe Target.
 
