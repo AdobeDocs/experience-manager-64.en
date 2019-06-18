@@ -89,9 +89,9 @@ You can pass the following request parameters in a URL to launch the asset selec
 
    ![chlimage_1-442](assets/chlimage_1-442.png)
 
-   If you search for asssets using the OmniSearch box, you can select various filters from the **Filters** pane to refine your search.
+   If you search for asssets using the OmniSearch box, you can select various filters from the **[!UICONTROL Filters]** pane to refine your search.
 
    ![chlimage_1-443](assets/chlimage_1-443.png)
 
-1. Tap/click **Select** from the toolbar.
+1. Tap/click **[!UICONTROL Select]** from the toolbar.
 

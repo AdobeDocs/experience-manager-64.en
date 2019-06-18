@@ -23,7 +23,7 @@ See also [Installing and configuring AEM 3D](install-config-3d.md).
 
 AEM 3D lets you view and render high-quality static, stand-alone 3D models in pre-defined environments called Stages. Basically, a stage provides "lighting" for the 3D scene and the settings for rendering in a native application such as Autodesk® Maya® or Autodesk 3ds Max®. In addition, the stage can optionally include pre-defined cameras, backgrounds, and ground plane geometry.
 
-Uploaded 3D files that contain lights are assumed to be a stage. You can revert such assets to be simple 3D objects by opening the asset in the asset details page. Tap **[!UICONTROL View Properties]**, then tap the **Basic** tab. Under the Metadata heading, from the Asset Class drop-down list, select **[!UICONTROL 3D object]**.
+Uploaded 3D files that contain lights are assumed to be a stage. You can revert such assets to be simple 3D objects by opening the asset in the asset details page. Tap **[!UICONTROL View Properties]**, then tap the **[!UICONTROL Basic]** tab. Under the Metadata heading, from the Asset Class drop-down list, select **[!UICONTROL 3D object]**.
 
 When you create 3D models for use in AEM 3D, be aware of the following:
 

@@ -41,12 +41,12 @@ AEM Assets generates the following standard reports for you:
 
 AEM administrators can easily generate and customize these reports for your implementation. An administrator can follow these steps to generate a report:
 
-1. Tap/click the AEM logo, and go to **Tools** &gt; **Assets** &gt; **Reports**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Assets &gt; Reports]**.
 
    ![navigation](assets/navigation.png)
 
-1. In the Asset Reports page, tap/click **Create** from the toolbar.
-1. From the **Create Report** page, choose the report you want to create and tap/click **Next**.
+1. In the Asset Reports page, tap/click **[!UICONTROL Create]** from the toolbar.
+1. From the **[!UICONTROL Create Report page]**, choose the report you want to create and tap/click **[!UICONTROL Next]**.
 
    ![choose_report](assets/choose_report.png)
 
@@ -72,11 +72,11 @@ AEM administrators can easily generate and customize these reports for your impl
 
    Configuration fields may differ based on the type of report you create.
 
-   For example, the **Disk Usage** report provides options to include asset renditions when calculating the disk space used by assets. You can choose to include or exclude assets in subfolders for disk usage calculation.
+   For example, the **[!UICONTROL Disk Usage]** report provides options to include asset renditions when calculating the disk space used by assets. You can choose to include or exclude assets in subfolders for disk usage calculation.
 
    >[!NOTE]
    >
-   >The **Disk Usage** report does not include date range fields because it indicates current disk space usage only.
+   >The **[!UICONTROL Disk Usage]** report does not include date range fields because it indicates current disk space usage only.
 
    ![disk_usage_configuration](assets/disk_usage_configuration.png)
 
@@ -90,9 +90,9 @@ AEM administrators can easily generate and customize these reports for your impl
 
    ![link_share](assets/link_share.png)
 
-1. Tap/click **Next** from the toolbar.  
+1. Tap/click **[!UICONTROL Next]** from the toolbar.  
 
-1. In the **Configure Columns** page, some columns are selected to appear in the report by default. You can select additional columns. Deselect a selected column to exclude it in the report.
+1. In the **[!UICONTROL Configure Columns]** page, some columns are selected to appear in the report by default. You can select additional columns. Deselect a selected column to exclude it in the report.
 
    ![configure_columns](assets/configure_columns.png)
 
@@ -100,7 +100,7 @@ AEM administrators can easily generate and customize these reports for your impl
 
    ![custom_columns](assets/custom_columns.png)
 
-1. Tap/click **Create** from the toolbar. A message notifies that report generation has been initiated.
+1. Tap/click **[!UICONTROL Create]** from the toolbar. A message notifies that report generation has been initiated.
 1. In the Asset Reports page, the report generation status is based on the current state of the report job, for example Success, Failed, Queued, or Scheduled. The same status appears in the notifications inbox.
 
    To view the report page, tap/click the report link. Alternatively, select the report, and tap/click the View icon from the toolbar.
@@ -121,13 +121,13 @@ You can add custom columns to the following reports to display more data for you
 * Brand Portal publish
 * Files
 
-1. Tap/click the AEM logo, and go to **Tools** &gt; **Assets** &gt; **Reports**.
-1. In the Asset Reports page, tap/click **Create** from the toolbar.  
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Assets &gt; Reports]**.
+1. In the Asset Reports page, tap/click **[!UICONTROL Create]** from the toolbar.  
 
-1. From the **Create Report** page, choose the report you want to create and tap/click **Next**.
+1. From the **[!UICONTROL Create Report]** page, choose the report you want to create and tap/click **[!UICONTROL Next]**.
 1. Configure report details such as title, description, thumbnail, folder path, date range, and so on as applicable.  
 
-1. To display a custom column, specify the name of the column in under **Custom Columns**.
+1. To display a custom column, specify the name of the column in under **[!UICONTROL Custom Columns]**.
 
    ![custom_columns-1](assets/custom_columns-1.png)
 
@@ -139,9 +139,9 @@ You can add custom columns to the following reports to display more data for you
 
    ![property_path](assets/property_path.png)
 
-   To add more custom columns, tap/click **Add** and repeat steps 5 and 6.
+   To add more custom columns, tap/click **[!UICONTROL Add]** and repeat steps 5 and 6.
 
-1. Tap/click **Create** from the toolbar. A message notifies that report generation has been initiated.
+1. Tap/click **[!UICONTROL Create]** from the toolbar. A message notifies that report generation has been initiated.
 
 ## Configure purging service {#configure-purging-service}
 
@@ -149,7 +149,7 @@ To remove reports that you no longer require, configure the DAM Report Purge ser
 
 1. Access the web console (configuration manager) from *https://&lt;Server&gt;.&lt;Port&gt;:/system/console/configMgr*.  
 
-1. Open the **DAM Report Purge Service** configuration.  
+1. Open the **[!UICONTROL DAM Report Purge Service]** configuration.  
 
 1. Specify the frequency (time interval) for the purging service in the `scheduler.expression.name` field. You can also configure the age and the quantity threshold for reports.  
 

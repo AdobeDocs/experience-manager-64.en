@@ -34,7 +34,7 @@ The activity logs to be displayed in the timeline are fetched from the location 
 >
 >Transient workflows are not displayed in the timeline, because no history information is saved for these workflows.
 
-To view the activity stream, perform one or more of the operations on the asset, select the asset, and then choose **Timeline** from the GlobalNav list.
+To view the activity stream, perform one or more of the operations on the asset, select the asset, and then choose **[!UICONTROL Timeline]** from the GlobalNav list.
 
 ![timeline-3](assets/timeline-3.png)
 
