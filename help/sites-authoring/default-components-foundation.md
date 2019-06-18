@@ -17,9 +17,9 @@ pagetitle: Foundation Components
 
 >[!NOTE]
 >
->This section covers foundation components, which have been available with AEM for many versions and are available out-of-the-box in a standard AEM installation.
+>This section covers foundation components, which have been available with AEM for many versions and are available out-of-the-box in a standard AEM installation. However a number of the foundation components have been deprecated with AEM 6.4.
 >
->The more modern and extensible [core components](https://helpx.adobe.com/experience-manager/core-components/using/authoring.html) are also available. These are part of the [We.Retail sample content](/help/sites-developing/we-retail.md) and can also be [installed separately and used for development](https://helpx.adobe.com/experience-manager/core-components/using/using.html) by your administrator.
+>Adobe recommends leveraging the more modern and extensible [core components](https://helpx.adobe.com/experience-manager/core-components/using/authoring.html). These are part of the [We.Retail sample content](/help/sites-developing/we-retail.md) and can also be [installed separately and used for development](https://helpx.adobe.com/experience-manager/core-components/using/using.html) by your administrator.
 
 The foundation components were designed for use when authoring content for a standard web page. They form a subset of the components available out-of-the-box for a standard installation of AEM.
 
@@ -39,7 +39,6 @@ You can select a component and drag it to the required location on your page. Yo
 
 * [Configure Properties](/help/sites-authoring/editing-page-properties.md)
 * [Edit Content](/help/sites-authoring/editing-content.md)  
-
 * [Edit Content - Full Screen Mode](/help/sites-authoring/editing-content.md#edit-content-full-screen-mode)
 
 Components are sorted according to various categories called component groups including:
@@ -54,11 +53,16 @@ The General components are the basic components that you use to create content.
 
 ### Account Item {#account-item}
 
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+
 You can define a link with title and description.
 
 ![chlimage_1-191](assets/chlimage_1-191.png) 
 
 ### Adaptive Image {#adaptive-image}
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components Image Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/image.html) instead.
 
 The Adaptive Image foundation component generates images that are sized to fit the window in which the web page is opened. To use the component, you provide an image resource either from the file system or DAM. When the web page is opened, the web browser downloads a copy of the image that has been resized so that it is suitable for the current window.
 
@@ -322,6 +326,9 @@ The external application is integrated into the paragraph system of the AEM page
 
 ### Flash {#flash}
 
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+
 The Flash component lets you load a Flash movie. You can drag a flash asset from the content finder onto the component, or you can use the dialog:
 
 * **Flash**
@@ -520,6 +527,9 @@ The following example shows a **List** component the way it may display a list o
 
 ### Login {#login}
 
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+
 These provides the Username and Password fields.
 
 ![chlimage_1-197](assets/chlimage_1-197.png)
@@ -604,6 +614,9 @@ Once configured the content will appear exactly as on the source page. The fact 
 
 ### Search {#search-features}
 
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Quick Search Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/quick-search.html) instead.
+
 The Search component adds search capability to your page.
 
 You can configure:
@@ -670,6 +683,9 @@ The following example shows a search term that is misspelled and not available:
 
 ### Sitemap {#sitemap}
 
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Navigation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/navigation.html), [Language Navigation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/language-navigation.html), and [Breadcrumb Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/breadcrumb.html) instead.
+
 An automatic sitemap listing, which (with the default settings) lists all pages (as active links) in the current website. For example, an extract shows:
 
 ![dc_sitemap_use](assets/dc_sitemap_use.png)
@@ -683,6 +699,9 @@ If required you can configure:
       Path from where the listing is to start.
 
 ### Slideshow {#slideshow}
+
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Carousel Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html) instead.
 
 This component allows you to load a series of images to be displayed as a slideshow on your page.You can add or remove images and assign each a title. Under Advanced you can also specify the size of the display area.
 
@@ -709,6 +728,9 @@ The slideshow component then repeatedly displays each in sequence, for a short p
 ![dc_slideshow_use](assets/dc_slideshow_use.png) 
 
 ### Table {#table}
+
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Text Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/text.html) instead.
 
 >[!NOTE]
 >
@@ -1258,6 +1280,9 @@ The component is configured for immediate use, but you can change the configurat
 
 ### Captcha {#captcha}
 
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+
 The Captcha component requires the user to type in an alphanumeric string as displayed on screen. The string changes with each refresh.
 
 ![dc_form_captcha](assets/dc_form_captcha.png)
@@ -1279,6 +1304,9 @@ You can specify various parameters including a title, description and element na
 >See [Preloading Form Fields with Multiple Values](/help/sites-developing/developing-forms.md#preloading-form-fields-with-multiple-values).
 
 ### Credit Card Details {#credit-card-details}
+
+>[!CAUTION]
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
 
 This allows you to provide the fields needed for entering credit card details. You can configure it to specify the types of card accepted and the information required (for example, security code).
 
