@@ -38,7 +38,7 @@ To allow communication between AEM and Adobe Stock, create an IMS configuration 
 
 ### Create Adobe Stock configuration in AEM {#create-adobe-stock-configuration-in-aem}
 
-1. Navigate to AEM > **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Adobe Stock]**.
+1. Navigate to **[!UICONTROL AEM]** > **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Adobe Stock]**.
 1. Click **[!UICONTROL Create]** to create a configuration and associate it with your existing IMS Configuration. Select `PROD` as the environment parameter.
 1. In **[!UICONTROL Licensed Assets Path]** field, leave a location as is. Do not change the location where you want to store the Adobe Stock assets.
 1. Complete creation by adding all the required properties. Click **[!UICONTROL Save & Close]**.
@@ -58,7 +58,7 @@ Once an Adobe Stock asset is licensed in AEM, it can be used and managed like a 
 
 ![Search for Adobe Stock assets and filter results from your AEM workspace](assets/adobe-stock-search-results-workspace.png)
 
-&nbsp; &nbsp; &nbsp; &nbsp; Search for Adobe Stock assets and filter results from your AEM workspace
+**Figure:** *Search for Adobe Stock assets and filter results from your AEM workspace*
 
 **A.** Search assets similar to the assets whose Adobe Stock ID is provided. **B.** Search assets that match your selection of shape or orientation. **C.** Search for one of more supported asset types **D.** Open or collapse the filters pane **E.** License and save the selected asset in AEM **F.** Save the asset in AEM with watermark **G.** Explore assets on Adobe Stock website that are similar to the selected asset **H.** View the selected assets on Adobe Stock website **I.** Number of selected assets from the search results **J.** Switch between Card view and List view
 
@@ -78,7 +78,7 @@ Alternatively, start typing `Location: Adobe Stock` in the search bar to select 
 
 ![Search filters in AEM and highlighted Adobe Stock assets in search results](assets/aem-search-filters2.jpg)
 
-Search filters in AEM and highlighted Adobe Stock assets in search results
+**Figure:** *Search filters in AEM and highlighted Adobe Stock assets in search results*
 
 ### Save and view the required assets {#saveassets}
 
@@ -96,7 +96,7 @@ Users can license Adobe Stock assets by using the quota of their Adobe Stock Ent
 
 ![Dialog to license and save Adobe Stock assets in AEM Assets](assets/aem-stock_licenseandsave.jpg)
 
-Dialog to license and save Adobe Stock assets in AEM Assets
+**Figure:** *Dialog to license and save Adobe Stock assets in AEM Assets*
 
 ### Access metadata and asset properties {#access-metadata-and-asset-properties}
 
@@ -106,7 +106,7 @@ Users can see the properties for both, licensed and unlicensed assets.
 
 ![View and access metadata and license references of saved assets](assets/metadata_properties.jpg)
 
-View and access metadata and license references of saved assets
+**Figure:** *View and access metadata and license references of saved assets*
 
 ## Known limitations {#known-limitations}
 

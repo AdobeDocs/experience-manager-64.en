@@ -37,7 +37,7 @@ Adding the Dynamic Media or Interactive Media component to a page is the same as
    ![chlimage_1-537](assets/chlimage_1-537.png)
 
 1. Drag the **[!UICONTROL Dynamic Media]** or **[!UICONTROL Interactive Media]** component onto the page in the desired location.
-1. Click the blue box around the component, then tap the **Configuration** (wrench) icon.
+1. Click the blue box around the component, then tap the **[!UICONTROL Configuration]** (wrench) icon.
 1. [Edit the components](#dynamic-media-components) as necessary and click the checkmark to save changes.
 
 ## Localizing Dynamic Media Components {#localizing-dynamic-media-components}
@@ -52,7 +52,7 @@ You can localize Dynamic Media components in one of two ways:
 
   >[!NOTE]
   >
-  >Please note that not all languages available in the [!UICONTROL Language] menu currently have tokens assigned.
+  >Please note that not all languages available in the **[!UICONTROL Language]** menu currently have tokens assigned.
 
 ## Dynamic Media Components {#dynamic-media-components}
 
@@ -151,9 +151,9 @@ With viewer modifiers, you for example, can do the following:
 
 You can edit the following [!UICONTROL Advanced Settings] by clicking **[!UICONTROL Edit]** in the component.
 
-**[!UICONTROL Title** Change the title of the video.
+**[!UICONTROL Title]** Change the title of the video.
 
-**[!UICONTROL Width** and **[!UICONTROL Height]** Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.
+**[!UICONTROL Width]** and **[!UICONTROL Height]** Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.
 
 #### When working with Smart Crop {#when-working-with-smart-crop}
 
@@ -173,7 +173,7 @@ You can edit the following [!UICONTROL Dynamic Media Settings] by clicking **[!U
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-You can edit the following [!UICONTROL Advanced] settings by clicking **[!UICONTROL Edit]** in the component.
+You can edit the following **[!UICONTROL Advanced]** settings by clicking **[!UICONTROL Edit]** in the component.
 
 **[!UICONTROL Title]** Change the title of the Smart Crop image.
 
@@ -201,7 +201,7 @@ The Interactive Media component is smart&mdash;depending on whether you add an i
 
 ![chlimage_1-541](assets/chlimage_1-541.png)
 
-You can edit the following [!UICONTROL General] settings by clicking **[!UICONTROL Edit]** in the component.
+You can edit the following **[!UICONTROL General]** settings by clicking **[!UICONTROL Edit]** in the component.
 
 **[!UICONTROL Viewer preset]** Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. Viewer Presets must be published before they can be used. See Managing Viewer Presets.
 
@@ -209,7 +209,7 @@ You can edit the following [!UICONTROL General] settings by clicking **[!UICONTR
 
 **[!UICONTROL Width]** and **[!UICONTROL Height]** Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.
 
-You can edit the following [!UICONTROL Add To Cart] settings by clicking **[!UICONTROL Edit]** in the component.
+You can edit the following **[!UICONTROL Add To Cart]** settings by clicking **[!UICONTROL Edit]** in the component.
 
 **[!UICONTROL Show Product Asset]** By default, this value is selected. The product asset shows an image of the product as defined in the Commerce module. Clear the check mark to not show the product asset.
 

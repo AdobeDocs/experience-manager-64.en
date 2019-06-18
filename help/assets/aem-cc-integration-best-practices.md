@@ -36,7 +36,7 @@ You can also review the following best practices documents around specific types
 >[!NOTE]
 >
 >The article is updated as of April 2019 and covers a new native connection from Creative Cloud - Adobe Asset Link.
->AEM to Creative Cloud folder sharing is now deprecated and no longer covered in this guide. We recommend newer capabilities like Adobe Asset Link or AEM Desktop App to provide creative user with access to assets managed in AEM..
+>AEM to Creative Cloud folder sharing is now deprecated and no longer covered in this guide. We recommend newer capabilities like Adobe Asset Link or AEM Desktop App to provide creative user with access to assets managed in AEM.
 
 
 ## Terms and definitions {#terms-and-definitions}
@@ -187,7 +187,7 @@ This is a brief summary of best practices for AEM to Creative Cloud folder shari
 * **One-direction flow of assets:** folder sharing can be used to share assets to Creative Cloud, or get new assets from Creative Cloud to DAM - it won't work for modifying existing assets in DAM
 * **Volume considerations:** Share smaller number/sizes of files
 * **Avoid sharing deep hierarchies:** Sharing works recursively - you have better control over what is shared by sharing flat or shallow folders
-* **Separate folders for one-way sharing:** Use separate folders for final assets (AEM-&gt;Creative Cloud Files) and new/updated assets (Creative Cloud Files-&gt;AEM)
+* **Separate folders for one-way sharing:** Use separate folders for final assets (**[!UICONTROL AEM-&gt;Creative Cloud Files]**) and new/updated assets (**[!UICONTROL Creative Cloud Files-&gt;AEM]**)
 * **Avoid WIP in the shared folder:** Use a dedicated WIP folder in Creative Cloud Files, and copy/save finalized update back to the shared folder
 * **Start new work outside of shared folder:** When a new asset reaches "creative-ready" state, copy/save the update to the shared folder
 * **Simplify sharing structure:** Sharing with all creatives might not make sense - consider sharing with creative director / manager, and let them handle sharing with the creative team (e.g, using Creative Cloud collaboration)

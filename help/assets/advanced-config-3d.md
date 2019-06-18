@@ -34,7 +34,7 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), 
 | Path |Description |
 |---|---|
 | `/libs/settings/dam/v3D/assetTypes/*/Conversion` |Specifies the file type for the intermediate 3D format created during ingestion. Must be empty for 'fbx' and 'obj' file formats or 'fbx' for formats enabled by Maya. |
-| `/libs/settings/dam/v3D/assetTypes/*/Enabled` |Set to true or false to enable or disable this entry in the **assetTypes** list. |
+| `/libs/settings/dam/v3D/assetTypes/*/Enabled` |Set to true or false to enable or disable this entry in the **[!UICONTROL assetTypes]** list. |
 | `/libs/settings/dam/v3D/assetTypes/*/Extension` |Specify one or more comma-separated file suffixes or file extensions which are to be associated with this asset type. |
 | `/libs/settings/dam/v3D/assetTypes/*/IngestRegime` |Must be `native` for FBX and OBJ file formats and  `maya` for formats enabled by Maya. |
 | `/libs/settings/dam/v3D/assetTypes/*/MimeType` |Specifies the mime type for this asset type. For formats enabled by Maya it is recommended to use `application/x-ext`, where `ext` is the string specified as the `Extension` value. |

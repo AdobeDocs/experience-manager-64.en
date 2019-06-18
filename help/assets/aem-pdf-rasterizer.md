@@ -35,22 +35,22 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 1. Open the DAM Update Asset workflow page.
 1. Configure the following to skip the default thumbnail and web rendition generation for PDF/AI files:
 
-    * Open the **Process Thumbnails** step, and add *application/pdf* or *application/postscript* in the **Skip Mime Types** field under the **Thumbnails** tab as necessary.
+    * Open the **[!UICONTROL Thumbnail Process]** step, and add *application/pdf* or *application/postscript* in the **[!UICONTROL Skip Mime Types]** field.
 
    ![skip_mime_types-2](assets/skip_mime_types-2.png)
 
-    * In the **Web Enabled Image** tab, add *application/pdf* or *application/postscript* under **Skip List** depending upon your requirements.
+    * In the **[!UICONTROL Web Enabled Image]** tab, add *application/pdf* or *application/postscript* under **[!UICONTROL Skip List]** depending upon your requirements.
 
    ![web_enabled_imageskiplist](assets/web_enabled_imageskiplist.png)
 
-1. Open the **Rasterize PDF/AI Image Preview Rendition** step, and remove the MIME type for which you want to skip the default generation of preview image renditions. For example, remove the MIME type *application/pdf*, *application/postscript,* or *application/illustrator *from the **MIME Types** list.
+1. Open the **[!UICONTROL Rasterize PDF/AI Image Preview Rendition]** step, and remove the MIME type for which you want to skip the default generation of preview image renditions. For example, remove the MIME type *application/pdf*, *application/postscript,* or *application/illustrator* from the **[!UICONTROL MIME Types]** list.
 
    ![process_arguments](assets/process_arguments.png)
 
-1. Drag the **PDF Rasterizer Handler** step from the side panel to below the **Process Thumbnails** step.
-1. Configure the following arguments for the **PDF Rasterizer Handler** step:
+1. Drag the **[!UICONTROL PDF Rasterizer Handler]** step from the side panel to below the **[!UICONTROL Process Thumbnails]** step.
+1. Configure the following arguments for the **[!UICONTROL PDF Rasterizer Handler]** step:
 
-    * Mime Types: *application/pdf *or *application/postscript*
+    * Mime Types: *application/pdf* or *application/postscript*
     * Commands: `PDFRasterizer -d -p 1 -s 1280 -t PNG -i ${file}`
     * Add Thumbnail sizes: 319:319, 140:100, 48:48. Add custom thumbnail configuration, if necessary.
 
@@ -68,21 +68,21 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 
    `-h`: Help
 
-1. To delete intermediate renditions, select **Delete Generated Rendition**.
-1. To let PDF Rasterize generate web renditions, select **Generate Web Rendition**.
+1. To delete intermediate renditions, select **[!UICONTROL Delete Generated Rendition]**.
+1. To let PDF Rasterize generate web renditions, select **[!UICONTROL Generate Web Rendition]**.
 
    ![generate_web_renditions1](assets/generate_web_renditions1.png)
 
-1. Specify the settings in the **Web Enabled Image** tab.
+1. Specify the settings in the **[!UICONTROL Web Enabled Image]** tab.
 
    ![web_enabled_image1](assets/web_enabled_image1.png)
 
 1. Save the workflow.
-1. To enable PDF Rasterizer to process PDF pages with PDF libraries, open the **DAM Process Subasset** model from the Workflow console.
-1. From the side panel, drag the the PDF Rasterizer Handler step under the **Create Web-Enabled Image Rendition** step.
-1. Configure the following arguments for the **PDF Rasterizer Handler** step:
+1. To enable PDF Rasterizer to process PDF pages with PDF libraries, open the **[!UICONTROL DAM Process Subasset]** model from the Workflow console.
+1. From the side panel, drag the the PDF Rasterizer Handler step under the **[!UICONTROL Create Web-Enabled Image Rendition]** step.
+1. Configure the following arguments for the **[!UICONTROL PDF Rasterizer Handler]** step:
 
-    * Mime Types: *application/pdf *or *application/postscript*
+    * Mime Types: *application/pdf* or *application/postscript*
     * Commands: `PDFRasterizer -d -p 1 -s 1280 -t PNG -i ${file}`
     * Add Thumbnail sizes: 319:319, 140:100, 48:48. Add custom thumbnail configuration, if necessary.
 
@@ -100,12 +100,12 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 
    **-h**: Help
 
-1. To delete intermediate renditions, select **Delete Generated Rendition**.
-1. To let PDF Rasterize generate web renditions, select **Generate Web Rendition**.
+1. To delete intermediate renditions, select **[!UICONTROL Delete Generated Rendition]**.
+1. To let PDF Rasterize generate web renditions, select **[!UICONTROL Generate Web Rendition]**.
 
    ![generate_web_renditions](assets/generate_web_renditions.png)
 
-1. Specify the settings in the **Web Enabled Image** tab.
+1. Specify the settings in the **[!UICONTROL Web Enabled Image tab]**.
 
    ![web_enabled_image-1](assets/web_enabled_image-1.png)
 
