@@ -61,6 +61,7 @@ You can define a link with title and description.
 ![chlimage_1-191](assets/chlimage_1-191.png) 
 
 ### Adaptive Image {#adaptive-image}
+
 >[!CAUTION]
 >This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components Image Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/image.html) instead.
 
