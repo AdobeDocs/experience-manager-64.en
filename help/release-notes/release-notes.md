@@ -267,7 +267,7 @@ See [Panoramic Images](/help/assets/panoramic-images.md) documentation to learn 
 
 New integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html), a Creative Cloud application for authoring 3D experiences.
 
-See [Working with 3D assets](/help/assets/3d-assets.md) documentation to learn more.
+See [Working with 3D assets](/help/assets/assets-3d.md) documentation to learn more.
 
 ![do-not-localize/3d](assets/do-not-localize/3d.png)
 

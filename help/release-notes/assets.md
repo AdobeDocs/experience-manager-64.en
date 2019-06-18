@@ -165,4 +165,4 @@ See [Smart Imaging](../assets/imaging-faq.md) documentation to learn more.
 
 ### 3D and Integration with Dimension CC {#d-and-integration-with-dimension-cc}
 
-Integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted. To learn more, see [Working with 3D assets](../assets/3d-assets.md) documentation.
+Integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted. To learn more, see [Working with 3D assets](../assets/assets-3d.md) documentation.

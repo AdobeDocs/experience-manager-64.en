@@ -20,7 +20,7 @@ The installation and configuration of AEM 3D (version 3.0) involves the followin
 1. Configuring the 3D asset ingestion workflow and restarting AEM.
 1. Validating the setup of AEM 3D.
 
-See also [Working with 3D assets](3d-assets.md).
+See also [Working with 3D assets](assets-3d.md).
 
 See also [AEM 3D Assets release notes](/help/release-notes/aem3d-release-notes.md) for prerequisites, supported browsers, and other important release imformation.
 
