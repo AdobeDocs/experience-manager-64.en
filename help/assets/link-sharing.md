@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: e4f9827f-8283-4215-8a04-e48ecb556443
 ---
 
-# Asset link sharing{#asset-link-sharing}
+# Asset link sharing {#asset-link-sharing}
 
 This article describes how to share assets, folders, and collections within AEM Assets as a URL to external parties.
 
@@ -23,7 +23,7 @@ Adobe Experience Manager (AEM) Assets lets you share assets, folders, and collec
 
 ## Share the link  {#share-the-link}
 
-To generate the URL for assets you want to share with users, use the Link Sharing dialog.
+To generate the URL for assets you want to share with users, use the Link Sharing dialog. Users with administrator privileges or with read permissions at */var/dam/share* location are able to view the links shared with them.
 
 >[!NOTE]
 >

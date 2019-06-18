@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c80f5e74-3f78-40c0-8ab3-c3ad38251818
 ---
 
-# Organize Digital Assets{#organize-digital-assets}
+# Organize Digital Assets {#organize-digital-assets}
 
 All digital assets, metadata and content of Microsoft Office and PDF documents are extracted and made searchable. Search allows sophisticated filtering on assets and fully respects the proper permissions. Metadata is covered in detail in Metadata in Digital Asset Management.
 
@@ -23,7 +23,7 @@ When organizing a collection of assets, for example, all *Nature* images, you ca
 
 >[!NOTE]
 >
->Sharing an Assets folder of the type `sling:OrderedFolder`, is not supported. If you want to share a folder, do not select Ordered when creating a folder.
+>Sharing an Assets folder (Marketing Cloud) of the type `sling:OrderedFolder`, is not supported. If you want to share a folder, do not select Ordered when creating a folder.
 
 1. Navigate to the place in your digital assets folder where you want to create a new folder.
 1. In the menu, click **[!UICONTROL Create]**. Select **[!UICONTROL New Folder]**.

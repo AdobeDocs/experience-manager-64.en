@@ -52,7 +52,7 @@ AEM administrators can easily generate and customize these reports for your impl
 
    >[!NOTE]
    >
-   >Before you can generate an **[!UICONTROL Asset Downloaded]** report, enable the Asset Download service. From the web console ( `https://[*server name*]:[*port name*]/system/console/configMgr`), open the **[!UICONTROL Day CQ DAM Event Recorder]** configuration, and select the **[!UICONTROL Asset Downloaded (DOWNLOADED)]** option in Event Types.
+   >Before you can generate an **[!UICONTROL Asset Downloaded]** report, ensure that the Asset Download service is enabled. From the web console ( `https://[server name]:[port name]/system/console/configMgr`), open the **[!UICONTROL Day CQ DAM Event Recorder]** configuration, and select the **[!UICONTROL Asset Downloaded (DOWNLOADED)]** option in Event Types  if not already selected.
 
    >[!NOTE]
    >

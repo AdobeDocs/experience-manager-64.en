@@ -11,7 +11,8 @@ content-type: reference
 discoiquuid: 565e307a-e42e-4967-ba72-f1c6fb078676
 ---
 
-# Creating and Configuring Asset Editor pages {#creating-and-configuring-asset-editor-pages}
+
+# Create and Configure Asset Editor pages {#creating-and-configuring-asset-editor-pages}
 
 This document describes the following:
 
@@ -21,7 +22,7 @@ This document describes the following:
 
 >[!NOTE]
 >
->Asset Share is not available anymore, but a new reference implementation is available as open source project on [Package Share](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq60/product/cq-geometrixx-all-pkg).
+>Asset Share is available as an open source reference implementation. See [Asset Share Commons](https://adobe-marketing-cloud.github.io/asset-share-commons/) . It is not officially supported.
 
 ## Why Create and Configure Asset Editor Pages? {#why-create-and-configure-asset-editor-pages}
 
