@@ -26,7 +26,7 @@ This type of integration can be used in both the use cases, especially when work
 
 ## Overview {#overview}
 
-AEM to CC folder sharing relies on the server-side sharing of folders and files between AEM Assets and Creative Cloud accounts. Creative professionals, who use the Creative Cloud Desktop app on their desktops, can additionally make the shared folders available directly on their disks using Adobe CreativeSync technology.
+AEM to Creative Cloud folder sharing relies on the server-side sharing of folders and files between AEM Assets and Creative Cloud accounts. Creative professionals, who use the Creative Cloud Desktop app on their desktops, can additionally make the shared folders available directly on their disks using Adobe CreativeSync technology.
 
 The following diagram provides an overview of the integration.
 

@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 1258c866-8f04-4331-b6ba-1de6f9b51591
 ---
 
-# XMP writeback to renditions{#xmp-writeback-to-renditions}
+# XMP writeback to renditions {#xmp-writeback-to-renditions}
 
 This XMP Writeback feature in Adobe Experience Manager (AEM) Assets replicates asset metadata changes to the renditions of the asset.
 
@@ -56,6 +56,8 @@ For the XMP Writeback feature to propagate metadata to the rendition thumbnails 
 
 1. Save the changes.
 1. To regenerate the pyramid TIF renditions for Dynamic Media images with the new attributes, add the **Dynamic Media Process Image Assets** step to the DAM Metadata Writeback workflow.
+PTIFF renditions are only created and stored locally in a Dynamic Media Hybrid implementation.
+
 1. Save the workflow.
 
 The metadata changes are propagated to the renditions renditions thumbnail.140.100.png and thumbnail.319.319.png of the asset, and not the others.

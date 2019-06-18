@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5ee9d11a-85c2-440d-b487-a38d04dc040b
 ---
 
-# Data Store Garbage Collection{#data-store-garbage-collection}
+# Data Store Garbage Collection {#data-store-garbage-collection}
 
 When a conventional WCM asset is removed, the reference to the underlying data store record may be removed from the node hierarchy, but the data store record itself remains. This unreferenced data store record then becomes "garbage" that need not be retained. In instances where a number of garbage assets exist, it is beneficial to get rid of them to preserve space and to optimize backup and filesystem maintenance performance.
 
@@ -178,7 +178,9 @@ The curl command returns immediately.
 The data store consistency check will report any data store binaries that are missing but are still referenced. To start a consistency check, follow these steps:
 
 1. Go to the JMX console. For information on how to use the JMX console, see [this article](/help/sites-administering/jmx-console.md#using-the-jmx-console).
-1. Search for the **BlobGarbageCollection** Mbean and click it.
+
+1. Search for the **Blob GC** Mbean and click it.
+
 1. Click the `checkConsistency()` link.
 
 After the consistency check is complete, a message will show the number of binaries reported as missing. If the number is greater than 0, check the `error.log` for more details on the missing binaries.

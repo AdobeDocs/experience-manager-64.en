@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 616d42c8-2316-4c56-b89f-660903270620
 ---
 
-# Basic Handling{#basic-handling}
+# Basic Handling {#basic-handling}
 
 >[!NOTE]
 >

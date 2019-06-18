@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 29e0bdfa-1d49-47d9-a332-04da062d3d3f
 ---
 
-# Using the Rich Text Editor to Author Content{#using-the-rich-text-editor-to-author-content}
+# Using the Rich Text Editor to Author Content {#using-the-rich-text-editor-to-author-content}
 
 The Rich Text Editor (RTE) is a basic building block for inserting textual content into AEM. It forms the basis of various components, including:
 

@@ -48,8 +48,8 @@ To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
     </tbody>
    </table>
 
-1. Go to `https://[AEM server]:[Port]/workflow`. For example, go to `http://localhost:4502/workflow` and open the **[!UICONTROL DAM Update Asset]** workflow.
-1. Open the sample workflow **[!UICONTROL Sample DAM Update Asset With Camera RAW and DNG Handling Step]**. Using this workflow as a reference, configure the **[!UICONTROL DAM Update Asset]** workflow for AEM Assets.
+1. Access `https://[AEM server]:[Port]/workflow`. Open the **[!UICONTROL DAM Update Asset]** workflow.
+
 1. Open the **[!UICONTROL Process Thumbnails]** step.  
 
 1. Provide the following configuration in the **[!UICONTROL Thumbnails]** tab:
