@@ -19,24 +19,24 @@ If you make subsequent modifications to the original collection in AEM Assets, t
 
 >[!NOTE]
 >
->Content fragments cannot be published to the Brand Portal. Therefore, if you select content fragment(s) on AEM Author, then **Publish to Brand Portal** action is not available.
+>Content fragments cannot be published to the Brand Portal. Therefore, if you select content fragment(s) on AEM Author, then **[Publish to Brand Portal]** action is not available.
 >
 >If collections containing content fragments are published from AEM Author to Brand Portal, then all the contents of the folder except content fragments get replicated to Brand Portal interface.
 
 ## Publish a collection to Brand Portal {#publish-a-collection-to-brand-portal}
 
-1. In the AEM Assets UI, tap/click the AEM logo. Then, go to **Assets** &gt; **Collections** from the **Navigation** page.
-1. From the Collections console, select the collection you want to publish to Brand Portal.
+1. In the AEM Assets UI, tap/click the AEM logo. Then, go to **[Assets]** &gt; **[Collections]** from the **[Navigation]** page.
+2. From the Collections console, select the collection you want to publish to Brand Portal.
 
    ![select_collection](assets/select_collection.png)
 
-1. From the toolbar, tap/click **Publish to Brand Portal**.
+3. From the toolbar, tap/click **[Publish to Brand Portal]**.
 
    ![publish_to_bp_icon](assets/publish_to_bp_icon.png)
 
-1. In the confirmation dialog, tap/click **Publish**.
-1. Close the confirmation message. 
-1. Log in to Brand Portal as an administrator. The published collection is available in the Collections console.
+4. In the confirmation dialog, tap/click **[Publish]**.
+5. Close the confirmation message. 
+6. Log in to Brand Portal as an administrator. The published collection is available in the Collections console.
 
    ![published_collection](assets/published_collection.png)
 
@@ -48,10 +48,9 @@ You can unpublish collections that you publish from AEM Assets to Brand Portal. 
 
    ![select_collection-1](assets/select_collection-1.png)
 
-1. From the toolbar, tap/click the **Remove from Brand Portal** icon.
+2. From the toolbar, tap/click the **[Remove from Brand Portal]** icon.
 
    ![remove_from_bp_icon](assets/remove_from_bp_icon.png)
 
-1. In the dialog, tap/click **Unpublish**.
-1. Close the confirmation message. The collection is removed from the Brand Portal interface.
-
+3. In the dialog, tap/click **[Unpublish]**.
+4. Close the confirmation message. The collection is removed from the Brand Portal interface.
