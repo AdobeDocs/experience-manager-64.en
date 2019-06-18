@@ -68,7 +68,7 @@ Admin Tools Improvements
 
 Catalogs
 
-* Improved user experience, alignement with Templates UI. For more information, see [Catalog Producer](/help/sites-administering/catalog-producer.md).
+* Improved user experience, alignement with Templates UI. For more information, see [Catalog Producer](../sites-administering/catalog-producer.md).
 
 ## Metadata {#metadata}
 
@@ -165,4 +165,4 @@ See [Smart Imaging](../assets/imaging-faq.md) documentation to learn more.
 
 ### 3D and Integration with Dimension CC {#d-and-integration-with-dimension-cc}
 
-Integration with [Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted. To learn more, see [Working with 3D assets](/help/assets/3d-assets.md) documentation.
+Integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted. To learn more, see [Working with 3D assets](../assets/3d-assets.md) documentation.

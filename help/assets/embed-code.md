@@ -1,8 +1,8 @@
 ---
-title: Embedding the Video or Image Viewer on a Web Page
-seo-title: Embedding the Video or Image Viewer on a Web Page
-description: Learn how to embed dynamic media video or images on a web page
-seo-description: Learn how to embed dynamic media video or images on a web page
+title: Embedding the Dynamic Media Video or Image viewer on a web page
+seo-title: Embedding the Dynamic Media Video or Image viewer on a web page
+description: Learn how to embed Dynamic Media video or images on a web page
+seo-description: Learn how to embed Dynamic media video or images on a web page
 uuid: 6f786521-eb6c-4c80-8c15-9bf97b56818f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4ae76d8a-208f-4099-9f17-a94df424685e
 ---
 
-# Embedding the Video or Image Viewer on a Web Page{#embedding-the-video-or-image-viewer-on-a-web-page}
+# Embedding the Dynamic Media Video or Image viewer on a web page{#embedding-the-video-or-image-viewer-on-a-web-page}
 
 Use the **[!UICONTROL Embed Code]** feature when you want to play the video or view an asset embedded on a web page. You copy the embed code to the clipboard so you can paste it in your web pages. Editing of the code is not permitted in the **[!UICONTROL Embed Code]** dialog box.
 
@@ -31,7 +31,7 @@ See [Delivering Optimized Images for a Responsive Site.](responsive-site.md)
 >
 >See [Publishing Image Presets](managing-image-presets.md#publishing-image-presets).
 
-**To embed the video viewer or image viewer on a web page**:
+**To embed the Dynamic Media Video or Image viewer on a web page**:
 
 1. Navigate to the *published* video or image asset whose embed code you want to copy.
 

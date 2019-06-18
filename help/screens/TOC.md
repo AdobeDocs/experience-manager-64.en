@@ -14,6 +14,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Kickstart Guide](kickstart-for-aem-screens.md)
     + [Glossary](screens-glossary.md)
 + Administering {#administering}
+    + [administering-screens](administering-screens.md)
     + [Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
     + [Setting up ACLs](setting-up-acls.md)
     + [Device Registration](device-registration.md)
@@ -25,6 +26,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
     + [Author and Publish Architectural Overview](author-publish-architecture-overview.md)
 + Authoring {#authoring}
+    + [authoring-screens](authoring-screens.md)
     + [Creating and Managing Projects](creating-a-screens-project.md)
     + [Creating and Managing Channels](managing-channels.md)
     + [Creating and Managing Displays](managing-displays.md)
@@ -47,6 +49,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Using Dynamic Embedded Sequence](dynamic-embedded-sequences.md)
     + [Configuring Author and Publish](author-and-publish.md)
 + Developing {#developing}
+    + [developing-screens](developing-screens.md)
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
     + [Offline Channels](offline-channels.md)
@@ -63,7 +66,3 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
 + Release Notes {#release-notes}
     + [Release Notes for Feature Pack 201809](screens-release-notes.md)
     + [Release Notes for Feature Pack 201812](release-notes-fp-201812.md)
-+ Missing {#missing}
-    + [authoring-screens](authoring-screens.md)
-    + [developing-screens](developing-screens.md)
-    + [administering-screens](administering-screens.md)
