@@ -66,7 +66,8 @@ Components can be implemented to support the touch-enabled UI, the classic UI or
 For this reason we will cover the basics of both, and how to recognize them, on this page.
 
 >[!NOTE]
-> The c
+> Adobe recommends leveraging the touch-enabled UI to benefit from the latest technology. [AEM Modernination Tools&(moderniatzion-tools.md) can make a migration easier.
+
 ### Content Logic and Rendering Markup  {#content-logic-and-rendering-markup}
 
 It is recommended to keep the code responsible for markup and rendering separate from the code that controls the logic used to select the component's content.
