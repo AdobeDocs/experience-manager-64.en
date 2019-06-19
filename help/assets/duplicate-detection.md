@@ -15,9 +15,9 @@ discoiquuid: 3bba2c24-cae7-43e3-814f-0b703ca9d708
 
 If you attempt to upload an asset that already exists in Adobe Experience Manager (AEM) Assets, the duplicate detection feature identifies it as duplicate. Duplicate detection is disabled by default. To enable the feature, do the following steps:
 
-1. Open the **Adobe Experience Manager Web Console Configuration** page at `https://[server]:[port]/system/console/configMgr`.
-1. Edit the configuration for the servlet **Day CQ DAM Create Asset**.
-1. Select the **detect duplicate** option, and click/tap **Save**.
+1. Open the **[!UICONTROL Adobe Experience Manager Web Console Configuration]** page at `https://[server]:[port]/system/console/configMgr`.
+1. Edit the configuration for the servlet **[!UICONTROL Day CQ DAM Create Asset]**.
+1. Select the **[!UICONTROL detect duplicate]** option, and click/tap **[!UICONTROL Save]**.
 
    ![Select detect duplicate option in the servlet](assets/chlimage_1-377.png)
 
