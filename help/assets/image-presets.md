@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5c1f60ac-3741-4002-9c5d-c128f118342b
 ---
 
-# Applying Dynamic Media image presets{#applying-image-presets}
+# Applying Dynamic Media image presets {#applying-image-presets}
 
 Image Presets enable assets to dynamically deliver images at different sizes, in different formats, or with other image properties there are generated dynamically. You can choose a preset when you export images, which also reformats images to the specifications that your administrator has specified.
 

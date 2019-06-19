@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 2d406520-536f-4616-8038-7772fbc4948b
 ---
 
-# Integrating AEM Assets with InDesign Server{#integrating-aem-assets-with-indesign-server}
+# Integrating AEM Assets with InDesign Server {#integrating-aem-assets-with-indesign-server}
 
 Adobe Experience Manager (AEM) Assets uses:
 
@@ -122,7 +122,7 @@ After the setup, uploading InDesign files into AEM Assets (by any of the usual m
 
 This step controls the extraction of media from the `.indd` file.
 
-To customize, you can edit **Arguments** tab of the** Media Extraction** step.
+To customize, you can edit **[!UICONTROL Arguments]** tab of the **[!UICONTROL Media Extraction]** step.
 
 ![Media extraction arguments and script paths](assets/media_extraction_arguments_scripts.png)
 
@@ -152,7 +152,7 @@ You can configure the Process Thumbnails workflow step to generate static rendit
 
 This creates an AEM page from the extracted elements. An extraction handler is used to extract data from a rendition (currently HTML or IDML). This data is then used to create a page using the PageBuilder.
 
-To customize, you can edit the **Arguments** tab of the** Page Extraction** step.
+To customize, you can edit the **[!UICONTROL Arguments]** tab of the **Page Extraction** step.
 
 ![chlimage_1-289](assets/chlimage_1-289.png)
 
@@ -193,11 +193,11 @@ To customize, you can edit the **Arguments** tab of the** Page Extraction** step
 >
 >The worker resides on the proxy instance.
 
-1. In the Tools console, expand **Cloud Services Configurations** in the left pane. Then expand **Cloud Proxy Configuration**.  
+1. In the Tools console, expand **[!UICONTROL Cloud Services Configurations]** in the left pane. Then expand **[!UICONTROL Cloud Proxy Configuration]**.  
 
-1. Double-click the **IDS worker** to open for configuration.  
+1. Double-click the **[!UICONTROL IDS worker]** to open for configuration.  
 
-1. Click **Edit** to open the configuration dialog and define the required settings:
+1. Click **[!UICONTROL Edit]** to open the configuration dialog and define the required settings:
 
    ![proxy_idsworkerconfig](assets/proxy_idsworkerconfig.png)
 
@@ -205,15 +205,15 @@ To customize, you can edit the **Arguments** tab of the** Page Extraction** step
 
       The SOAP endpoint(s) to be used for communicating with the InDesign Server. You can add, remove and order items are required.
 
-1. Click **OK** to save.
+1. Click **[!UICONTROL OK]** to save.
 
 ### Configuring Day CQ Link Externalizer  {#configuring-day-cq-link-externalizer}
 
 If the InDesign server and AEM run on different hosts or either or both these applications do not run on default ports, configure **Day CQ Link Externalizer** to set the host name, port, and content path for the InDesign server.
 
 1. Access Configuration Manager at the URL *https://&lt;AEM server name&gt;:&lt;Port&gt;/system/console/configMgr*. 
-1. Locate the configuration **Day CQ Link Externalizer**, and click the **Edit** icon to open it.
-1. Specify the host name and context path for the Indesign server and click **Save**.
+1. Locate the configuration **[!UICONTROL Day CQ Link Externalizer]**, and click the **[!UICONTROL Edit]** icon to open it.
+1. Specify the host name and context path for the Indesign server and click **[!UICONTROL Save]**.
 
    ![chlimage_1-290](assets/chlimage_1-290.png)
 
@@ -228,7 +228,7 @@ First you need to determine the maximum number of parallel jobs ( `x`) an InDesi
 
 To configure the number of parallel IDS jobs:
 
-1. Open the **Configurations** tab of the Felix Console; for example:
+1. Open the **[!UICONTROL Configurations]** tab of the Felix Console; for example:
 
    `http://localhost:4502/system/console/configMgr`
 
@@ -238,8 +238,8 @@ To configure the number of parallel IDS jobs:
 
 1. Set:
 
-    * **Type** - `Parallel`
-    * **Maximum Parallel Jobs** - `<*x*>` (as calculated above)
+    * **[!UICONTROL Type]** - `Parallel`
+    * **[!UICONTROL Maximum Parallel Jobs]** - `<*x*>` (as calculated above)
 
 1. Save these changes.
 1. Enable multisession support for CS6 (and above) by checking the:
@@ -270,7 +270,7 @@ For InDesign server 10.0 or higher, perform the following steps to enable multi-
 
 1. Open Configuration Manager from your AEM Assets instance [https://&lt;Host Name&gt;:&lt;Port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Edit the configuration ***com.day.cq.dam.ids.impl.IDSJobProcessor.name***.
-1. Select the **ids.cc.enable** option, and click **Save**.
+1. Select the **[!UICONTROL ids.cc.enable]** option, and click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >

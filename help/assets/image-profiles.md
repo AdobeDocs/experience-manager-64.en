@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4f9301db-edf8-480b-886c-b5e8fca5bf5c
 ---
 
-# Dynamic Media image profiles{#image-profiles}
+# Dynamic Media image profiles {#image-profiles}
 
 When uploading images, you can automatically crop the image upon upload by applying an image profile to the folder.
 
