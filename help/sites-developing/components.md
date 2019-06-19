@@ -48,7 +48,6 @@ AEM comes with a variety of [out-of-the-box components](/help/sites-authoring/de
 
 * Paragraph System ( `parsys`)
 * Page ( `responsivegrid` - touch-enabled UI only)  
-
 * Text  
 * Image, with accompanying text
 * Toolbar
@@ -69,6 +68,8 @@ There are two sets of Adobe-provided AEM components available:
 >[!NOTE]
 >
 >[Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) represent the current best practices for component design and development and serve as reference implementations.
+>
+>[AEM Modernization Tools](modernization-tools.md) can help the migration to Core Components.
 
 ### Viewing Available Components {#viewing-available-components}
 
