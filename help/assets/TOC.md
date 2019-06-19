@@ -155,9 +155,9 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Private folder sharing](private-folder.md)
     + [Smart Content Service Training Guidelines](smart-tags-training-guidelines.md)
     + [Video renditions](video-renditions.md)
-+ 3D Assets {#3d}
++ 3D Assets {#three-d}
     + [AEM 3D release notes](../release-notes/aem3d-release-notes.md)
-    + [Working with 3D assets](3d-assets.md)
+    + [Working with 3D assets](assets-3d.md)
     + [Installing and configuring AEM 3D](install-config-3d.md)
     + [Advanced configuration settings](advanced-config-3d.md)
     + [Working with Adobe Dimension assets](working-dimension-assets.md)

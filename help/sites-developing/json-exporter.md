@@ -93,5 +93,5 @@ For further details see:
 * [Authoring with Content Fragments](/help/sites-authoring/content-fragments.md)
 * [Enabling JSON Export for a Component](/help/sites-developing/json-exporter-components.md)  
 
-* [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) and the [Content Fragment component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)
+* [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) and the [Content Fragment component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)
 
