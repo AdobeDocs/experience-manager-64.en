@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: bf8c6bbd-847d-43d7-9ff4-7231bfd8d107
 ---
 
-# Smart Imaging{#smart-imaging}
+# Smart Imaging {#smart-imaging}
 
 ## What is smart imaging? {#what-is-smart-imaging}
 

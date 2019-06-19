@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ec394bd3-2fa6-4f50-b974-bc10f643ecac
 ---
 
-# Delivering Dynamic Media Assets{#delivering-dynamic-media-assets}
+# Delivering Dynamic Media Assets {#delivering-dynamic-media-assets}
 
 How you can deliver your dynamic media assets - both video and images - depends on how your website is implemented.
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a8063d43-923a-42ac-9a16-0c7fadd8f73f
 ---
 
-# Working with Dynamic Media{#working-with-dynamic-media}
+# Working with Dynamic Media {#working-with-dynamic-media}
 
 [Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) helps deliver rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of master assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network.
 

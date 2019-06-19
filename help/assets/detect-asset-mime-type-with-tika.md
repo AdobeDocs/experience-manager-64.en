@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: e9e8b56f-b7fe-423d-a44e-0fa6be524858
 ---
 
-# Detecting MIME Type of Assets Using Apache Tika{#detecting-mime-type-of-assets-using-apache-tika}
+# Detecting MIME Type of Assets Using Apache Tika {#detecting-mime-type-of-assets-using-apache-tika}
 
 Normally, Adobe Experience Manager (AEM) Assets detects the MIME type of assets that you upload from their file extension.
 
@@ -24,11 +24,11 @@ This feature is disabled by default. To enable the feature, configure the **Day 
 >MIME type detection using the Apache Tika library is a resource-intensive operation.
 
 1. Go to *https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr* to open the Configuration Manager web console.
-1. From the list of services, locate **Day CQ DAM Mime Type Service** and tap/click the **Edit** icon beside it to open it in Edit mode.   
+1. From the list of services, locate **[!UICONTROL Day CQ DAM Mime Type Service]** and tap/click the **[!UICONTROL Edit]** icon beside it to open it in Edit mode.   
 
-1. Select the **Detect MIME from content** option to enable the parsing of uploaded assets to determine their MIME type while ignoring file extensions. By default, this option is unselected.
+1. Select the **[!UICONTROL Detect MIME from content]** option to enable the parsing of uploaded assets to determine their MIME type while ignoring file extensions. By default, this option is unselected.
 
    ![chlimage_1-333](assets/chlimage_1-333.png)
 
-1. Click/tap **Save** to save the changes.
+1. Click/tap **[!UICONTROL Save]** to save the changes.
 
