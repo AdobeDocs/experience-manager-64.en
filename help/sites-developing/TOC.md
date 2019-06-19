@@ -113,6 +113,7 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Understanding Content Fragments and Content Services in AEM](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-content-services-feature-video-understand.html)
 + Development Tools{#devtools}
     + [Development Tools](dev-tools.md)
+    + [AEM Modernization Tools](modernization-tools.md)
     + [Dialog Editor](dialog-editor.md)
     + [Dialog Conversion Tool](dialog-conversion.md)
     + [Developing with CRXDE Lite](developing-with-crxde-lite.md)

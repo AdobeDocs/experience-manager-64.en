@@ -73,6 +73,8 @@ Static Templates:
 >[!NOTE]
 >
 >As of AEM 6.4 the use of Static Templates is not considered a best practice. Use Editable Templates instead.
+>
+>[AEM Modernization](modernization-tools.md) tools can help you migrate from static to editable templates.
 
 ### Template Availability {#template-availability}
 

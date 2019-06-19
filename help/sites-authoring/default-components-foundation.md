@@ -1051,7 +1051,7 @@ In between the start and end of a form, you can add form components that define 
 
 >[!NOTE]
 >
->The foundation components form component only supports the use of other foundation components form components (button, text, hidden, etc.). Using [core components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) form components within a foundation component form (and vice versa) is not supported.
+>The foundation components form component only supports the use of other foundation components form components (button, text, hidden, etc.). Using [core components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) form components within a foundation component form (and vice versa) is not supported.
 
 #### Start of Form {#start-of-form}
 
