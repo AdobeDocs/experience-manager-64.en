@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 96cf7c92-af98-417f-ab60-b368e3846ef8
 ---
 
-# Metadata - Fragment Properties{#metadata-fragment-properties}
+# Metadata - Fragment Properties {#metadata-fragment-properties}
 
 >[!CAUTION]
 >
@@ -21,15 +21,15 @@ discoiquuid: 96cf7c92-af98-417f-ab60-b368e3846ef8
 
 You can view and edit the metadata (properties) for content fragments:
 
-1. In the **Assets** console navigate to the location of the content fragment.
+1. In the **[!UICONTROL Assets]** console navigate to the location of the content fragment.
 1. Either:
 
-    * Select [**View Properties** to open the dialogs](managing-assets-touch-ui.md#editing-properties). Once open for viewing you can also edit.
-    * Open the [content fragment for Edit](content-fragments-managing.md#opening-the-fragment-editor), then select **Metadata** from the side panel.
+    * Select [View Properties to open the dialogs](managing-assets-touch-ui.md#editing-properties). Once open for viewing you can also edit.
+    * Open the [content fragment for Edit](content-fragments-managing.md#opening-the-fragment-editor), then select **[!UICONTROL Metadata]** from the side panel.
 
    ![cfm-6420-06](assets/cfm-6420-06.png)
 
-1. The **Basic** tab provides options that you can view or edit:
+1. The **[!UICONTROL Basic]** tab provides options that you can view or edit:
 
     * Thumbnail, for which you can **Upload Image**
     * **Title**

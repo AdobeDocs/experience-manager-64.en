@@ -12,7 +12,7 @@ discoiquuid: 821eb27e-67c9-4589-9196-30dacb84fa59
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
 ---
 
-# Configuring Dynamic Media - Hybrid mode{#configuring-dynamic-media-hybrid-mode}
+# Configuring Dynamic Media - Hybrid mode {#configuring-dynamic-media-hybrid-mode}
 
 Dynamic Media &ndash; Hybrid needs to be enabled and configured for use. Depending on your use case, Dynamic Media has several [supported configurations](#supported-dynamic-media-configurations).
 
@@ -292,7 +292,7 @@ You need to set up replication authentication on author in order to replicate im
    * Tap **[!UICONTROL KeyStore File]**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **[!UICONTROL Open]**.
    * In the **[!UICONTROL KeyStore File Password]** field, enter the KeyStore File password. This is _not_ the KeyStore password that you created in step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
    * In the **[!UICONTROL Private Key Password]** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.
-   * In the **[!UICONTROL Private Key Alias]** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
+   * In the **[!UICONTROL Private Key Alias]** field, enter the private key alias. For example, `companyname-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
 
    ![edit_settings_fordynamic-media-replication2](assets/edit_settings_fordynamic-media-replication2.png)
 
@@ -637,7 +637,7 @@ You must publish your own default catalog settings as part of the setup process 
 
 1. In AEM, navigate to the following location in **[!UICONTROL CRXDE Lite]** (requires admin privileges):
 
-   `https://<*server*>:<*port*>/crx/de/index.jsp#/conf/global/settings/dam/dm/imageserver/`
+   `https://<server>:<port>/crx/de/index.jsp#/conf/global/settings/dam/dm/imageserver/`
 
 1. Tap the **[!UICONTROL Replication]** tab.
 1. Tap **[!UICONTROL Replicate]**.

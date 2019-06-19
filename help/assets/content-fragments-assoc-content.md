@@ -27,11 +27,11 @@ Associated content provides the connection so that assets (i.e.) can be (optiona
 
 To make the association you first need to [add your media asset(s) to a collection](managing-collections-touch-ui.md#adding-assets-to-a-collection). Once that is done you can:
 
-1. Open your fragment and select **Associated Content** from the side panel.
+1. Open your fragment and select **[!UICONTROL Associated Content]** from the side panel.
 
    ![chlimage_1-207](assets/chlimage_1-207.png)
 
-1. Select **Associate Content** or **Associate Collection** (as appropriate, depending on whether any collections have already been associated or not).
+1. Select **[!UICONTROL Associate Content]** or **[!UICONTROL Associate Collection]** (as appropriate, depending on whether any collections have already been associated or not).
 1. Select the required collection.
 
    You can optionally add the fragment itself to the selected collection; this aids tracking. 

@@ -25,11 +25,11 @@ This feature helps prevent other users from overriding the changes made by an au
 
    ![chlimage_1-468](assets/chlimage_1-468.png)
 
-1. From the toolbar, click/tap the **Checkout** icon.
+1. From the toolbar, click/tap the **[!UICONTROL Checkout]** icon.
 
    ![chlimage_1-469](assets/chlimage_1-469.png)
 
-   Observe that the **Checkout** icon toggles to the **Checkin** icon with the lock open.
+   Observe that the **[!UICONTROL Checkout]** icon toggles to the **[!UICONTROL Checkin]** icon with the lock open.
 
    ![chlimage_1-470](assets/chlimage_1-470.png)
 
@@ -41,7 +41,7 @@ This feature helps prevent other users from overriding the changes made by an au
 
    ![chlimage_1-472](assets/chlimage_1-472.png)
 
-   You can, however, click/tap the **View Properties** icon to edit the metadata for the locked asset.
+   You can, however, click/tap the **[!UICONTROL View Properties]** icon to edit the metadata for the locked asset.
 
 1. Click/tap the Edit icon to open the asset in edit mode.
 
@@ -53,7 +53,7 @@ This feature helps prevent other users from overriding the changes made by an au
 
    You can also choose to annotate or publish the asset.
 
-1. Select the edited asset from the Assets UI, and click/tap the **Checkin** icon from the toolbar.
+1. Select the edited asset from the Assets UI, and click/tap the **[!UICONTROL Checkin]** icon from the toolbar.
 
    ![chlimage_1-475](assets/chlimage_1-475.png)
 
@@ -68,6 +68,6 @@ Administrators can check in assets that are checked out by other users.
 
    ![chlimage_1-476](assets/chlimage_1-476.png)
 
-1. From the toolbar, click/tap the **Release Lock** icon. The asset is checked back in and available for edit to other users.
+1. From the toolbar, click/tap the **[!UICONTROL Release Lock]** icon. The asset is checked back in and available for edit to other users.
 
    ![chlimage_1-477](assets/chlimage_1-477.png)

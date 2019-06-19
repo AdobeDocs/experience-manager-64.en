@@ -65,7 +65,7 @@ To get you up and running quickly:
 
    In Carousels Sets, users navigate through banner images and tap hotspots or image maps to access relevant content.
 
-   To create a Carousel Set in Assets, tap **[!UICONTROL Create]**, then select **C[!UICONTROL arousel Sets]**. Add assets to slides and tap **[!UICONTROL Save]**. You can also edit the appearance and behavior of the carousel directly within the editor.
+   To create a Carousel Set in Assets, tap **[!UICONTROL Create]**, then select **[!UICONTROL arousel Sets]**. Add assets to slides and tap **[!UICONTROL Save]**. You can also edit the appearance and behavior of the carousel directly within the editor.
 
 1. [Add hotspots or image maps to an image banner.](#adding-hotspots-or-image-maps-to-an-image-banner)
 
