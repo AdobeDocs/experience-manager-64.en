@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 45e67357-4524-4d25-b5f1-21182b8e803c
 ---
 
-# Content Fragment Models{#content-fragment-models}
+# Content Fragment Models {#content-fragment-models}
 
 >[!CAUTION]
 >

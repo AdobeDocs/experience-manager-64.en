@@ -204,7 +204,7 @@ This example describes how to build a component that shows and displays the meta
 
 1. Navigate to your browser, and on your sample page (for example, `asseteditor.html`) switch to design mode and enable your new component for the paragraph system.  
 
-1. In **Edit** mode, the new component (for example, **Sample Metadata**) is now available in the sidekick (found in the **Asset Editor **group). Insert the component. To be able to store the metadata, it must be added to the metadata form.
+1. In **Edit** mode, the new component (for example, **Sample Metadata**) is now available in the sidekick (found in the **Asset Editor** group). Insert the component. To be able to store the metadata, it must be added to the metadata form.
 
 ## Modifying Metadata Options {#modifying-metadata-options}
 

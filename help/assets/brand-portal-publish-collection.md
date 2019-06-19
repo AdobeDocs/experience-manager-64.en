@@ -25,16 +25,16 @@ If you make subsequent modifications to the original collection in AEM Assets, t
 
 ## Publish a collection to Brand Portal {#publish-a-collection-to-brand-portal}
 
-1. In the AEM Assets UI, tap/click the AEM logo. Then, go to **[Assets]** &gt; **[Collections]** from the **[Navigation]** page.
+1. In the AEM Assets UI, tap/click the AEM logo. Then, go to **[!UICONTROL Assets]** &gt; **[!UICONTROL Collections]** from the **[!UICONTROL Navigation]** page.
 2. From the Collections console, select the collection you want to publish to Brand Portal.
 
    ![select_collection](assets/select_collection.png)
 
-3. From the toolbar, tap/click **[Publish to Brand Portal]**.
+3. From the toolbar, tap/click **[!UICONTROL Publish to Brand Portal]**.
 
    ![publish_to_bp_icon](assets/publish_to_bp_icon.png)
 
-4. In the confirmation dialog, tap/click **[Publish]**.
+4. In the confirmation dialog, tap/click **[!UICONTROL Publish]**.
 5. Close the confirmation message. 
 6. Log in to Brand Portal as an administrator. The published collection is available in the Collections console.
 
@@ -48,9 +48,9 @@ You can unpublish collections that you publish from AEM Assets to Brand Portal. 
 
    ![select_collection-1](assets/select_collection-1.png)
 
-2. From the toolbar, tap/click the **[Remove from Brand Portal]** icon.
+2. From the toolbar, tap/click the **[!UICONTROL Remove from Brand Portal]** icon.
 
    ![remove_from_bp_icon](assets/remove_from_bp_icon.png)
 
-3. In the dialog, tap/click **[Unpublish]**.
+3. In the dialog, tap/click **[!UICONTROL Unpublish]**.
 4. Close the confirmation message. The collection is removed from the Brand Portal interface.
