@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c8e145ad-f021-4043-8190-62151775e296
 ---
 
-# HTTP2 Delivery of Content{#http-delivery-of-content}
+# HTTP2 Delivery of Content {#http-delivery-of-content}
 
 Adobe is excited to announce the availability of HTTP/2 delivery of content with the overall benefit of improved performance.
 

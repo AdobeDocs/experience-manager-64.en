@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5a854b34-49d4-4a1d-b6b7-cdada342a2a4
 ---
 
-# Enhanced sorting of assets in AEM{#enhanced-sorting-of-assets-in-aem}
+# Enhanced sorting of assets in AEM {#enhanced-sorting-of-assets-in-aem}
 
 Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
 
@@ -77,15 +77,15 @@ You can sort search results based on the following fields:
 AEM Assets lets you chronologically sort timeline entries, such as annotations, versions, workflows, and activities.
 
 1. From the Assets UI, select an asset for which you want to display the timeline.
-1. Click/tap the GolbalNav icon and select **Timeline**.
+1. Click/tap the GolbalNav icon and select **[!UICONTROL Timeline]**.
 
    ![chlimage_1-399](assets/chlimage_1-399.png)
 
-1. In the timeline, select an entry from the list. For example, select **Comments** to display the list of annotations associated with the asset. 
+1. In the timeline, select an entry from the list. For example, select **[!UICONTROL Comments]** to display the list of annotations associated with the asset. 
 
    ![chlimage_1-400](assets/chlimage_1-400.png)
 
-1. Click/tap the **Sort** icon beside the **Date** label. Based on your selection, the annotations are listed in the chronological/reverse chronological order in which they were added to the asset.
+1. Click/tap the **[!UICONTROL Sort]** icon beside the **[!UICONTROL Date]** label. Based on your selection, the annotations are listed in the chronological/reverse chronological order in which they were added to the asset.
 
    ![chlimage_1-401](assets/chlimage_1-401.png)
 
