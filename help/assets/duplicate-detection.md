@@ -21,4 +21,4 @@ If you attempt to upload an asset that already exists in Adobe Experience Manage
 
    ![Select detect duplicate option in the servlet](assets/chlimage_1-377.png)
 
-The detect duplicate feature is now enabled in AEM Assets.
+The detect duplicate feature is now enabled in AEM Assets. When a user attempts to upload an asset that already exists, AEM checks for the conflict and indicates it. The assets are identified using SHA-1 hash stored at `jcr:content/metadata/dam:sha1`, which means duplicate assets are detected irrespective of the file names.
