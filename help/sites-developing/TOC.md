@@ -211,6 +211,3 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Responsive Design for Web Pages](responsive.md)
     + [Creating Sites for Mobile Devices](mobile.md)
     + [Emulators](emulators.md)
-+ Misc Content{#misc-content}
-    + [DO NOT PUBLISH, BUT DO NOT DELETE Customizing Content Fragment Models](customizing-content-fragment-models.md)
-    + [DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models](customizing-content-fragment-model-data-types.md)
