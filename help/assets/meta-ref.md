@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 8a7dd9b0-7d41-491f-afc9-d9c59ffcb8ac
 ---
 
-# Metadata Schemata Reference{#metadata-schemata-reference}
+# Metadata Schemata Reference {#metadata-schemata-reference}
 
 The following reference includes information about a particular metadata schemata (in alphabetical order) as well as a list of properties and their definitions.
 

@@ -101,8 +101,8 @@ The Assets HTTP API includes the following features:
 **Prerequisites**
 
 * Go to *https://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
-* Navigate to **Adobe Granite CSRF Filter**.
-* Make sure the property **Filter Methods** incudes: POST, PUT, DELETE.
+* Navigate to **[!UICONTROL Adobe Granite CSRF Filter]**.
+* Make sure the property **[!UICONTROL Filter Methods]** incudes: POST, PUT, DELETE.
 
 ### Retrieve a Folder Listing {#retrieve-a-folder-listing}
 

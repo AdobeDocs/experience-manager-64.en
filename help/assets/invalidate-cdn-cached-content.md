@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: e6c9b50b-c27c-48bf-b3c0-9994e7bf6d7e
 ---
 
-# Invalidating your CDN cached content{#invalidating-your-cdn-cached-content}
+# Invalidating your CDN cached content {#invalidating-your-cdn-cached-content}
 
 Dynamic Media assets are cached by the CDN for fast delivery. However, when you make updates to an asset, you may want those changes to take effect immediately. Invalidating your CDN (Content Delivery Network) cached content lets you quickly update assets that are delivered by Dynamic Media, instead of waiting for the cache to expire.
 
