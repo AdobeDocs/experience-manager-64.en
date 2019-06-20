@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 2685f9f3-0973-40a9-89b8-e7db0a6a75f2
 ---
 
-# Video{#video}
+# Video {#video}
 
 Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Dynamic Media Classic (Scene7) and access Dynamic Media Classic videos directly from Assets for page authoring.
 
@@ -88,7 +88,7 @@ To configure universal presets:
 
 ## Updating viewer and encoding presets {#updating-viewer-and-encoding-presets}
 
-If you need to update the viewer and encoding presets for video in AEM because the presets have been updated in Scene7, navigate to the Scene7 configuration in the cloud configuration and click **Update the viewer and encoding presets**.
+If you need to update the viewer and encoding presets for video in AEM because the presets have been updated in Scene7, navigate to the Scene7 configuration in the cloud configuration and click **[!UICONTROL Update the viewer and encoding presets]**.
 
 ![chlimage_1-364](assets/chlimage_1-364.png) 
 
@@ -181,6 +181,6 @@ The **[!UICONTROL Foundation Video]** component must know about what video profi
 1. Create a S7 cloud config. Make sure the video encoding presets are set and the importer is running. 
 1. Create a S7 video profile for each video encoding preset selected in the cloud config.
 1. The video profiles must be activated.
-1. Configure the design of the **F[!UICONTROL oundation Video]** component on your page.
+1. Configure the design of the **[!UICONTROL oundation Video]** component on your page.
 1. Activate the design after you are done with your design changes.
 

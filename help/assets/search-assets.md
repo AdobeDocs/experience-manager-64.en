@@ -10,7 +10,7 @@ topic-tags: authoring
 discoiquuid: c3899c7a-e440-4844-b31a-b09e87f3379e
 ---
 
-# Search assets in AEM{#search-assets-in-aem}
+# Search assets in AEM {#search-assets-in-aem}
 
 Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
 

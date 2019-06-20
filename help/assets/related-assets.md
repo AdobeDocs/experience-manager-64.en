@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 2bd38e3b-a244-4f18-b081-f10c4eb0149b
 ---
 
-# Related Assets{#related-assets}
+# Related Assets {#related-assets}
 
 Adobe Experience Manager (AEM) Assets lets you manually relate assets based on the needs of your organization using the Related Assets feature. For example, you can relate a license file with an asset or an image/video on a similar topic. You can relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets. For example, if you have a PDF file that is generated from an INDD file, you can relate the PDF file to its source INDD file.
 
@@ -31,36 +31,36 @@ This way, you have the flexibility to share a low resolution file (for example P
 
    ![chlimage_1-274](assets/chlimage_1-274.png)
 
-1. To relate another asset with the asset you selected, click/tap the **Relate** icon from the toolbar.
+1. To relate another asset with the asset you selected, click/tap the **[!UICONTROL Relate]** icon from the toolbar.
 
    ![chlimage_1-275](assets/chlimage_1-275.png)
 
 1. Do one of the following:
 
-    * To relate the source file for the asset, select **Source** from the list.
-    * To relate a derived file, select **Derived** from the list.
-    * To create a two-way relationship between the assets, select **Others** from the list.
+    * To relate the source file for the asset, select **[!UICONTROL Source]** from the list.
+    * To relate a derived file, select **[!UICONTROL Derived]** from the list.
+    * To create a two-way relationship between the assets, select **[!UICONTROL Others]** from the list.
 
    ![chlimage_1-276](assets/chlimage_1-276.png)
 
-1. From the **Select Asset** screen, navigate to the location of the asset you want to relate, and select it.
+1. From the **[!UICONTROL Select Asset]** screen, navigate to the location of the asset you want to relate, and select it.
 
    ![chlimage_1-277](assets/chlimage_1-277.png)
 
-1. Click/tap the **Confirm** icon.
-1. Click/tap **OK** to close the dialog. Depending on your choice of relationship in step 3, the related asset is listed under under an appropriate category in the **Related** section. For example, if the asset you related is the source file for the current asset, it is listed under **Source**.
+1. Click/tap the **[!UICONTROL Confirm]** icon.
+1. Click/tap **[!UICONTROL OK]** to close the dialog. Depending on your choice of relationship in step 3, the related asset is listed under under an appropriate category in the **[!UICONTROL Related]** section. For example, if the asset you related is the source file for the current asset, it is listed under **[!UICONTROL Source]**.
 
    ![chlimage_1-278](assets/chlimage_1-278.png)
 
-1. To unrelate an asset, click/tap the **Unrelate** icon from the toolbar.
+1. To unrelate an asset, click/tap the **[!UICONTROL Unrelate]** icon from the toolbar.
 
    ![chlimage_1-279](assets/chlimage_1-279.png)
 
-1. Select the asset(s) you want to unrelate from the **Remove Relations** dialog, and the click/tap **Unrelate**. 
+1. Select the asset(s) you want to unrelate from the **[!UICONTROL Remove Relations]** dialog, and the click/tap **[!UICONTROL Unrelate]**. 
 
    ![chlimage_1-280](assets/chlimage_1-280.png)
 
-1. Click/Tap **OK** to close the dialog. The assets for which you removed relations are deleted from the list of related assets under the **Related** section.
+1. Click/Tap **[!UICONTROL OK]** to close the dialog. The assets for which you removed relations are deleted from the list of related assets under the **[!UICONTROL Related]** section.
 
 ## Translating Related Assets {#translating-related-assets}
 
@@ -85,7 +85,7 @@ If the source file is related to another asset, AEM Assets fetches the refenced 
 
    ![chlimage_1-285](assets/chlimage_1-285.png)
 
-1. Select the asset and then click/tap **Reveal in Assets** from the toolbar to view the translation status for the asset.
+1. Select the asset and then click/tap **[!UICONTROL Reveal in Assets]** from the toolbar to view the translation status for the asset.
 
    ![chlimage_1-286](assets/chlimage_1-286.png)
 
@@ -93,7 +93,7 @@ If the source file is related to another asset, AEM Assets fetches the refenced 
 
    ![chlimage_1-287](assets/chlimage_1-287.png)
 
-1. Select the asset that is related to the source, and then click/tap **Reveal in Assets**. The translated related asset is displayed.
+1. Select the asset that is related to the source, and then click/tap **[!UICONTROL Reveal in Assets]**. The translated related asset is displayed.
 
    ![chlimage_1-288](assets/chlimage_1-288.png)
 

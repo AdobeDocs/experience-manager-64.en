@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 61f86320-71a6-4d3c-839d-155a2083d995
 ---
 
-# Preparing Assets for Translation{#preparing-assets-for-translation}
+# Preparing Assets for Translation {#preparing-assets-for-translation}
 
 Multilingual assets means assets with binaries, metadata, and tags in multiple languages. Generally, binaries, metadata, and tags for assets exist in one language, which are then translated to other languages for use in multilingual projects.
 
@@ -48,7 +48,7 @@ To create the language root, you create a folder and use an ISO language code as
 
 For example, the root page of the Italian language copy of the sample hierarchy has `it` as the Name property. The Name property is used as the name of the asset node in the repository, and therefore determines the path of the assets. (*&lt;server&gt;:&lt;port&gt;/assets.html/content/dam/it/*)
 
-1. From the Assets console, click/tap **Create** and choose **Folder** from the menu.
+1. From the Assets console, click/tap **[!UICONTROL Create]** and choose **[!UICONTROL Folder]** from the menu.
 
    ![chlimage_1-120](assets/chlimage_1-120.png)
 
@@ -56,18 +56,18 @@ For example, the root page of the Italian language copy of the sample hierarchy 
 
    ![chlimage_1-121](assets/chlimage_1-121.png)
 
-1. Click or tap** Create**. The language root is created in the Assets console.
+1. Click or tap **[!UICONTROL Create]**. The language root is created in the Assets console.
 
 ## Viewing Language Roots {#viewing-language-roots}
 
 The touch-optimized UI provides a References panel that shows a list of language roots that have been created within AEM Assets.
 
 1. In the Assets console, select the language master for which you want to create language copies.
-1. Click or tap the GlobalNav icon, and choose **References** to open the Reference pane.
+1. Click or tap the GlobalNav icon, and choose **[!UICONTROL References]** to open the Reference pane.
 
    ![chlimage_1-122](assets/chlimage_1-122.png)
 
-1. In the References pane, click or tap **Language Copies**. The Language Copies panel shows the language copies of the assets.
+1. In the References pane, click or tap **[!UICONTROL Language Copies]**. The Language Copies panel shows the language copies of the assets.
 
    ![chlimage_1-123](assets/chlimage_1-123.png)
 

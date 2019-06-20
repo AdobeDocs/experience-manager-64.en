@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 5b044519-d034-4f05-98c5-f1b299a3ea37
 ---
 
-# Rendering 3D assets{#rendering-d-assets}
+# Rendering 3D assets {#rendering-d-assets}
 
 You can render 3D assets you have manipulated and saved in AEM to create 2D images for use on your web content pages.
 
