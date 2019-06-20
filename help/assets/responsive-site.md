@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5edcc765-c374-4368-a0d9-e02a713a24f2
 ---
 
-# Delivering optimized images for a responsive site{#delivering-optimized-images-for-a-responsive-site}
+# Delivering optimized images for a responsive site {#delivering-optimized-images-for-a-responsive-site}
 
 Use the Responsive code feature when you want to share the code for responsive serving with your web developer. You copy the responsive (**[!UICONTROL RESS]**) code to the clipboard so you can share it with the web developer.
 

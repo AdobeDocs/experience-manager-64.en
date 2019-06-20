@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: fc285b25-2bce-493c-87bc-5f1a8a26eb42
 ---
 
-# Panoramic Images{#panoramic-images}
+# Panoramic Images {#panoramic-images}
 
 This section describes working with the Panoramic Image viewer to render spherical panoramic images for an immersive 360° viewing experience of a room, property, location, or landscape.
 

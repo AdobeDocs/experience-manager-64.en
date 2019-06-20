@@ -17,11 +17,11 @@ In Adobe Experience Manager (AEM) Assets, a metadata schema defines the layout o
 
 You can use the Metadata Schema Forms editor to modify existing schemas or add custom metadata schemas.
 
-1. To view the properties page for an asset, click or tap the **View Properties** icon from Quick Actions on the asset tile in Card view.
+1. To view the properties page for an asset, click or tap the **[!UICONTROL View Properties]** icon from Quick Actions on the asset tile in Card view.
 
    ![chlimage_1-170](assets/chlimage_1-170.png)
 
-   Alternatively, select the asset in the UI and then click or tap the **Properties** icon from the toolbar.
+   Alternatively, select the asset in the UI and then click or tap the **[!UICONTROL Properties]** icon from the toolbar.
 
    ![chlimage_1-171](assets/chlimage_1-171.png)
 
@@ -31,7 +31,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](metadata-schemas.md#editing-metadata-schema-forms) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a **jpeg** schema under `default/image` only modifies the metadata layout (asset properties) for assets with MIME type **IMAGE/JPEG**. However, if you edit the **default** schema, your changes modify the metadata layout for all types of assets.
 
-1. To view a list of forms/templates, click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**.
+1. To view a list of forms/templates, click the AEM logo and then navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Schemas]**.
 
    ![chlimage_1-173](assets/chlimage_1-173.png)
 
@@ -65,13 +65,13 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
 ## Adding a metadata schema form {#adding-a-metadata-schema-form}
 
-1. To add a custom template to the list, click **Create** from the toolbar.
+1. To add a custom template to the list, click **[!UICONTROL Create]** from the toolbar.
 
    >[!NOTE]
    >
    >Unedited templates have a **Lock** icon before them. If you customize any of the templates, the **Lock** icon before the template disappears.
 
-1. In the dialog, enter the title of the Schema form, and then click **Create** to complete the form creation process.
+1. In the dialog, enter the title of the Schema form, and then click **[!UICONTROL Create]** to complete the form creation process.
 
    ![chlimage_1-174](assets/chlimage_1-174.png)
 
@@ -86,11 +86,11 @@ You can map/configure these form items to a field within a metadata node in the 
 
 You can add new tabs or form items to the metadata schema form. The tabs and form items derived from the parent are in the locked state. You cannot alter them at the child level.
 
-1. In the Schema Forms page, select the check box before a form and then click the **Edit icon** on the toolbar.
+1. In the Schema Forms page, select the check box before a form and then click the **[!UICONTROL Edit]** icon on the toolbar.
 
    ![chlimage_1-175](assets/chlimage_1-175.png)
 
-1. In the **Metadata Schema Editor** page, customize the properties page of the asset by dragging one or more components from the list of component types in the **Build Form** tab to the **Basic** tab.
+1. In the **[!UICONTROL Metadata Schema Editor]** page, customize the properties page of the asset by dragging one or more components from the list of component types in the **[!UICONTROL Build Form]** tab to the **[!UICONTROL Basic]** tab.
 
    ![chlimage_1-176](assets/chlimage_1-176.png)
 
@@ -98,7 +98,7 @@ You can add new tabs or form items to the metadata schema form. The tabs and for
 
 ### Components within the Build Form tab {#components-within-the-build-form-tab}
 
-The **Build Form** tab lists form items that you use in your schema form. The **Settings** tab provides the attributes of each item that you select in the **Build Form** tab. The following table lists the form items available in the **Build Form** tab:
+The **[!UICONTROL Build Form]** tab lists form items that you use in your schema form. The **[!UICONTROL Settings]** tab provides the attributes of each item that you select in the **[!UICONTROL Build Form]** tab. The following table lists the form items available in the **[!UICONTROL Build Form]** tab:
 
 <table> 
  <tbody> 
@@ -167,7 +167,7 @@ The **Build Form** tab lists form items that you use in your schema form. The **
 
 ### Editing the metadata component {#editing-the-metadata-component}
 
-To edit the properties of a metadata component on the form, click the component and edit all or a subset of the following properties in the **Settings** tab.
+To edit the properties of a metadata component on the form, click the component and edit all or a subset of the following properties in the **[!UICONTROL Settings]** tab.
 
 **Field Label**: The name of the metadata property that is displayed on the properties page for the asset.
 
@@ -237,7 +237,7 @@ Click `X` to delete a tab.
 
 AEM lets you delete custom schema forms only. It does not let you delete the default schema forms/templates. However, you can delete any custom changes in these forms.
 
-To delete a form, select a form and click the **Delete** icon.
+To delete a form, select a form and click the **[!UICONTROL Delete]** icon.
 
 ![chlimage_1-183](assets/chlimage_1-183.png)
 
@@ -302,30 +302,30 @@ Metadata inheritance by assets is based on the schema that is applied to the fir
 
 If the folder has a subfolder, the assets within the subfolder inherit the metadata from the schema applied at the subfolder level if a different schema is applied at the subfolder level. If, however, no schema or the same schema is applied at the subfolder level, the subfolder assets inherit the metadata from the schema applied at the parent folder level.
 
-1. Click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**. The **Metadata Schema Forms** page is displayed.
-1. Select the check box before a form, for example the default metadata form, and click or tap the **Copy** icon and save it as a custom form. Specify a custom name for the form, for example `my_default`. Alternatively, you can create a custom form.
+1. Click the AEM logo and then navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
+1. Select the check box before a form, for example the default metadata form, and click or tap the **[!UICONTROL Copy]** icon and save it as a custom form. Specify a custom name for the form, for example `my_default`. Alternatively, you can create a custom form.
 
    ![chlimage_1-184](assets/chlimage_1-184.png)
 
-1. In the **Metadata Schema Forms** page, select the `my_default` form, and then click the **Edit** icon.
+1. In the **[!UICONTROL Metadata Schema Forms]** page, select the `my_default` form, and then click the **[!UICONTROL Edit]** icon.
 
    ![chlimage_1-185](assets/chlimage_1-185.png)
 
-1. In the **Metadata Schema Editor** page, add a text field to the schema form. For example add a field with the label **Category**.
+1. In the **[!UICONTROL Metadata Schema Editor]** page, add a text field to the schema form. For example add a field with the label **[!UICONTROL Category]**.
 
    ![chlimage_1-186](assets/chlimage_1-186.png)
 
-1. Click **Save**. The modified form is listed in the **Metadata Schema Forms** page.
-1. Click/tap **Apply to Folder(s)** from the toolbar to apply the custom metadata to a folder.
+1. Click **[!UICONTROL Save]**. The modified form is listed in the **[!UICONTROL Metadata Schema Forms]** page.
+1. Click/tap **[!UICONTROL Apply to Folder(s)]** from the toolbar to apply the custom metadata to a folder.
 
    ![chlimage_1-187](assets/chlimage_1-187.png)
 
-1. Select the folder on which to apply the modified schema and then click/tap **Apply**.
+1. Select the folder on which to apply the modified schema and then click/tap **[!UICONTROL Apply]**.
 
    ![chlimage_1-188](assets/chlimage_1-188.png)
 
-1. If the folder has the other metadata schema applied, a message appears warning that you are about to overwrite the existing metadata schema. Click **Overwrite**.
-1. Click **OK** to close the success message.
+1. If the folder has the other metadata schema applied, a message appears warning that you are about to overwrite the existing metadata schema. Click **[!UICONTROL Overwrite]**.
+1. Click **[!UICONTROL OK]** to close the success message.
 1. Navigate to the folder to which you applied the modified metadata schema.
 
 ## Defining mandatory metadata {#defining-mandatory-metadata}
@@ -336,7 +336,7 @@ You can define mandatory fields at a folder level, which is enforced on assets t
 >
 >A metadata field can be defined as mandatory based on the value of another field. In the Cards view, AEM does not display the warning message about missing metadata for such mandatory metadata fields.
 
-1. Click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**. The **Metadata Schema Forms** page is displayed.
+1. Click the AEM logo and then navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
 1. Save the default metadata form as a custom form. For example, save it as `my_default`.
 
    ![chlimage_1-189](assets/chlimage_1-189.png)
@@ -345,7 +345,7 @@ You can define mandatory fields at a folder level, which is enforced on assets t
 
    ![chlimage_1-190](assets/chlimage_1-190.png)
 
-1. Click **Save**. The modified form is listed in the **Metadata Schema Forms** page. Select the form and then click or tap **Apply to Folder(s)** from the toolbar to apply the custom metadata to a folder.
+1. Click **[!UICONTROL Save]**. The modified form is listed in the **[!UICONTROL Metadata Schema Forms]** page. Select the form and then click or tap **[!UICONTROL Apply to Folder(s)]** from the toolbar to apply the custom metadata to a folder.
 
    ![chlimage_1-191](assets/chlimage_1-191.png)
 

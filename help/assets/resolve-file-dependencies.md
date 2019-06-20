@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 05b7410b-82a1-4267-ac07-2edbc29e9ee8
 ---
 
-# Resolving file dependencies{#resolving-file-dependencies}
+# Resolving file dependencies {#resolving-file-dependencies}
 
 Primary 3D model file dependencies, such as texture map files, are automatically resolved where possible. This functionality is accomplished by having AEM search nearby Asset folders for files with the same names that are found in the 3D file. If one or more dependencies are unresolvable during the Creating preview processing stage, the asset's card displays the following red banner message in the **[!UICONTROL Card View]**:
 

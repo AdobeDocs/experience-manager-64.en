@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 77296bff-8429-4240-af93-26076ae431ec
 ---
 
-# Previewing Dynamic Media assets{#previewing-assets}
+# Previewing Dynamic Media assets {#previewing-assets}
 
 You can use **[!UICONTROL Preview]** to see how a Dynamic Media digital asset looks when it is viewed by a customer in their own web browser. The default embedded, cross-device viewer that is assigned to the asset is used for the **[!UICONTROL Preview]**.
 
