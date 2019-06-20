@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 22ae0d3a-083f-40e4-bf4a-7a755ae9e312
 ---
 
-# Working with Content Fragments{#working-with-content-fragments}
+# Working with Content Fragments {#working-with-content-fragments}
 
 >[!CAUTION]
 >

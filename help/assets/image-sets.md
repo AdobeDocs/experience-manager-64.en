@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: e00e7cc9-b777-4f9e-906d-824bcb2bbd41
 ---
 
-# Image Sets{#image-sets}
+# Image Sets {#image-sets}
 
 Image Sets give users an integrated viewing experience, where users can see different views of an item by clicking a thumbnail image. Image Sets let you present alternative views of an item and the viewer offers zooming tools for examining images closely.
 

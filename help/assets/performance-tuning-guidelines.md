@@ -217,23 +217,23 @@ During asset uploads, AEM's workflow creates a separate asset for each page in P
 
 To disable Sub Asset generation, do the following:
 
-1. Open the **Workflow Console** tool by going to **/libs/cq/workflow/content/console.html**
+1. Open the **[!UICONTROL Workflow Console]** tool by going to */libs/cq/workflow/content/console.html*
 
-1. Select the **Models** tab
-1. Double click the **DAM Update Asset** workflow model
-1. Delete **Process Sub Asset** step from **DAM Update Asset** workflow model.
+1. Select the **[!UICONTROL Models]** tab
+1. Double click the **[!UICONTROL DAM Update Asset]** workflow model
+1. Delete **[!UICONTROL Process Sub Asset]** step from **[!UICONTROL DAM Update Asset]** workflow model.
 
-1. Click on **Save**
+1. Click on **[!UICONTROL Save]**
 
 To disable Page Extraction:
 
-1. Open the **Workflow Console** tool by going to **/libs/cq/workflow/content/console.html**
+1. Open the **[!UICONTROL Workflow Console]** tool by going to */libs/cq/workflow/content/console.html*
 
-1. Select the **Launchers** tab
-1. Select a launcher that launches **DAM Parse Word Documents **workflow model 
-1. Click **Edit**
-1. Select **Disable**
-1. Click **OK**
+1. Select the **[!UICONTROL Launchers]** tab
+1. Select a launcher that launches **[!UICONTROL DAM Parse Word Documents]** workflow model 
+1. Click **[!UICONTROL Edit]**
+1. Select **[!UICONTROL Disable]**
+1. Click **[!UICONTROL OK]**
 1. Repeat steps 3-6 for other launcher items that use **DAM Parse Word Documents **workflow model
 
 ### XMP writeback {#xmp-writeback}
@@ -254,7 +254,7 @@ When replicating assets to a large number of publish instances, for example in a
 
 1. Choose which publish instance you want to use for chaining the replications to
 1. On that publish instance add replication agents that point to the other publish instances
-1. On each of those replication agents, enable "On Receive" on the "Triggers" tab
+1. On each of those replication agents, enable **[!UICONTROL On Receive]** on the **[!UICONTROL Triggers]** tab
 
 >[!NOTE]
 >
@@ -273,21 +273,21 @@ Some optimizations can be done on the Oak index configurations that can help imp
 Update the LuceneIndexProvider configuration:
 
 1. Navigate to /system/console/configMgrorg.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService
-1. Enable "CopyOnRead", "CopyOnWrite", and "Prefetch Index Files" in versions prior to AEM 6.2. These values are enabled by default in AEM 6.2 and later versions.
+1. Enable **[!UICONTROL CopyOnRead , CopyOnWrite , and Prefetch Index Files]** in versions prior to AEM 6.2. These values are enabled by default in AEM 6.2 and later versions.
 
 Update index configurations to improve reindexing time:
 
 1. Open CRXDe /crx/de/index.jsp and log in as an administrative user
 1. Browse to /oak:index/lucene
-1. Add a String[] property named "excludedPaths" with values "/var", "/etc/workflow/instances", and "/etc/replication"
+1. Add a String[] property named **[!UICONTROL excludedPaths]** with values "/var", "/etc/workflow/instances", and "/etc/replication"
 1. Browse to /oak:index/damAssetLucene
-1. Add a String[] property named "includedPaths" with one value "/content/dam"
+1. Add a String[] property named **[!UICONTROL includedPaths]** with one value "/content/dam"
 1. Save
 
 (AEM6.1 and 6.2 only) Update the ntBaseLucene index to improve asset delete and move performance:
 
 1. Browse to */oak:index/ntBaseLucene/indexRules/nt:base/properties*
-1. Add two nt:unstructured nodes "slingResource" and "damResolvedPath" under */oak:index/ntBaseLucene/indexRules/nt:base/properties*
+1. Add two nt:unstructured nodes **[!UICONTROL slingResource]** and **[!UICONTROL damResolvedPath]** under */oak:index/ntBaseLucene/indexRules/nt:base/properties*
 1. Set the properties below on the nodes (where ordered and propertyIndex properties are of type *Boolean*: 
 
    slingResource  
@@ -311,18 +311,18 @@ Update index configurations to improve reindexing time:
    type="String"
 
 1. On the /oak:index/ntBaseLucene node, set the property *reindex=true*
-1. Click "Save All"
+1. Click **[!UICONTROL Save All]**
 1. Monitor the error.log to see when indexing is completed: 
 
    Reindexing completed for indexes: [/oak:index/ntBaseLucene]
    
 1. You can also see that indexing is completed by refreshing the /oak:index/ntBaseLucene node in CRXDe as the reindex property would go back to false
-1. Once indexing is completed then go back to CRXDe and set the "type" property to disabled on these two indexes
+1. Once indexing is completed then go back to CRXDe and set the **[!UICONTROL type]** property to disabled on these two indexes
 
     * */oak:index/slingResource*
     * */oak:index/damResolvedPath*
 
-1. Click "Save All"
+1. Click **[!UICONTROL Save All]**
 
 Disable Lucene Text Extraction:
 

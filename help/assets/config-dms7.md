@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: cd3adbac-9868-4838-9d8a-37dde8973df4
 ---
 
-# Configuring Dynamic Media - Scene7 mode{#configuring-dynamic-media-scene-mode}
+# Configuring Dynamic Media - Scene7 mode {#configuring-dynamic-media-scene-mode}
 
 If you use Adobe Experience Manager set up for different environments, such as one for development, one for staging, and one for live production, you need to configure Dynamic Media Cloud Services for each one of those environments.
 

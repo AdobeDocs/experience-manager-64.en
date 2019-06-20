@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: da8f968b-91cc-45a8-ae4b-757b4f840b8e
 ---
 
-# Managing Content Fragments{#managing-content-fragments}
+# Managing Content Fragments {#managing-content-fragments}
 
 >[!CAUTION]
 >
@@ -37,43 +37,43 @@ Content Fragments are stored as **Assets**, so are primarily managed from the **
 
 The method of creating a content fragment is (basically) the same for both simple and structured fragments:
 
-1. Navigate to the **Assets** folder where you want to create the fragment.
-1. Select **Create**, then **Content Fragment** to open the wizard.
+1. Navigate to the **[!UICONTROL Assets]** folder where you want to create the fragment.
+1. Select **[!UICONTROL Create]**, then **[!UICONTROL Content Fragment]** to open the wizard.
 1. The first step of the wizard requires you to specify the basis of the new fragment.
 
     * This can be a:
 
-        * [Template](/help/sites-developing/content-fragment-templates.md) - for example **Simple Fragment**
+        * [Template](/help/sites-developing/content-fragment-templates.md) - for example **[!UICONTROL Simple Fragment]**
         * [Model](content-fragments-models.md) - used to create a fragment that requires structured content; for example the **Airport** model
 
     * All available templates and models are displayed.
 
-   After selection, use **Next** to proceed.
+   After selection, use **[!UICONTROL Next]** to proceed.
 
    ![cfm-6420-15](assets/cfm-6420-15.png)
 
-1. In the **Properties** step specify:
+1. In the **[!UICONTROL Properties]** step specify:
 
-    * **Basic**
+    * **[!UICONTROL Basic]**
 
-        * **Title**
+        * **[!UICONTROL Title]**
 
           The fragment title. 
 
           Mandatory.  
 
-        * **Description**
-        * **Tags**
+        * **[!UICONTROL Description]**
+        * **[!UICONTROL Tags]**
 
-    * **Advanced**
+    * **[!UICONTROL Advanced]**
 
-        * **Name**
+        * **[!UICONTROL Name]**
 
           The name; will be used to form the URL. 
 
           Mandatory; will be automatically derived from the title, but can be updated.
 
-1. Select **Create** to complete the action, then either **Open** the fragment for editing or return to the console with **Done**.
+1. Select **[!UICONTROL Create]** to complete the action, then either **Open** the fragment for editing or return to the console with **Done**.
 
 ## Actions for a Content Fragment {#actions-for-a-content-fragment}
 
@@ -86,31 +86,31 @@ In the **Assets** console a range of actions are available for your content frag
 
 Select the fragment to reveal the toolbar with applicable actions:
 
-* **Download**
+* **[!UICONTROL Download]**
 
   * Save the fragment as a ZIP file; you can define whether to include Elements, Variations, Metadata.
 
-* **Create**
-* **Checkout**
-* **Properties**
+* **[!UICONTROL Create]**
+* **[!UICONTROL Checkout]**
+* **[!UICONTROL Properties]**
 
   * Allows you to view and/or edit the fragment's metadata.
 
-* **Edit**
+* **[!UICONTROL Edit]**
 
   * Allows you to [open the fragment for editing content](content-fragments-variations.md) together with its elements, variations, associated content and metadata.
 
-* **Manage Tags**
-* **To Collection**
+* **[!UICONTROL Manage Tags]**
+* **[!UICONTROL To Collection]**
 
   * Add the fragment to a collection.
   * This can also be done when [associating a collection with the fragment](content-fragments-assoc-content.md#adding-associated-content).
 
-* **Copy**/**Paste**
-* **Move**
-* **Quick Publish**
-* **Manage Publication**
-* **Delete**
+* **[!UICONTROL Copy/Paste]**
+* **[!UICONTROL Move]**
+* **[!UICONTROL Quick Publish]**
+* **[!UICONTROL Manage Publication]**
+* **[!UICONTROL Delete]**
 
 >[!NOTE]
 >
@@ -124,11 +124,11 @@ To open your fragment for editing:
 >
 >To edit a content fragment you need [the appropriate permissions](/help/sites-developing/customizing-content-fragments.md#asset-permissions). Please contact your system administrator if you are experiencing issues.
 
-1. Use the **Assets** console to navigate to the location of your content fragment.
+1. Use the **[!UICONTROL Assets]** console to navigate to the location of your content fragment.
 1. Open the fragment for editing, by either:
 
     * Clicking/tapping on the fragment or fragment link (this is dependent on the console view).
-    * Selecting the fragment, then **Edit** from the toolbar.
+    * Selecting the fragment, then **[!UICONTROL Edit]** from the toolbar.
 
    The fragment editor will open:
 
@@ -138,7 +138,7 @@ To open your fragment for editing:
    >
    >1. A message will be shown when the fragment is already referenced on a content page.
    >
-   >2. The side panel can be hidden/shown using the **Toggle Side Panel** icon.
+   >2. The side panel can be hidden/shown using the **[!UICONTROL Toggle Side Panel]** icon.
 
 1. Navigate through the three modes using the icons in the side panel:
 
@@ -149,7 +149,7 @@ To open your fragment for editing:
 
    ![cfm-10](assets/cfm-10.png)
 
-1. After making changes, use **Save** or **Cancel** as required.
+1. After making changes, use **[!UICONTROL Save]** or **[!UICONTROL Cancel]** as required.
 
    >[!NOTE]
    >
@@ -163,7 +163,7 @@ To open your fragment for editing:
 
 The editor has two options:
 
-* **Save**
+* **[!UICONTROL Save]**
 
   Will save the latest changes and exit the editor.
 
@@ -182,7 +182,7 @@ The editor has two options:
   >
   >Please bear this in mind when using **Save** and then quickly re-entering the fragment editor to make and save further changes.
 
-* **Cancel**
+* **[!UICONTROL Cancel]**
 
   Will exit the editor without saving the latest changes.
 
@@ -203,8 +203,8 @@ While editing your content fragment AEM automatically creates versions to ensure
    >
    >`/libs/settings/dam/cfm/jcr:content/autoSaveInterval`
 
-1. If the user selects to **Cancel** the edit, the version created at the start of the editing session is restored and the token is removed to end the editing session.
-1. If the user selects to **Save** the edits, the updated elements/variations are persisted and the token is removed to end the editing session.
+1. If the user selects to **[!UICONTROL Cancel]** the edit, the version created at the start of the editing session is restored and the token is removed to end the editing session.
+1. If the user selects to **[!UICONTROL Save]** the edits, the updated elements/variations are persisted and the token is removed to end the editing session.
 
 ## Editing the Content of your Fragment {#editing-the-content-of-your-fragment}
 
@@ -303,7 +303,7 @@ You can revert to a specific version of your fragment:
 
 Content Fragments must be published for use in the publish enviroment. They can be published:
 
-* After creation; from the **Assets** console.
+* After creation; from the **[!UICONTROL Assets]** console.
 * When you [publish a page that uses the fragment](/help/sites-authoring/content-fragments.md#publishing); the fragment will be listed in the page references.
 
 >[!CAUTION]
@@ -314,17 +314,17 @@ Content Fragments must be published for use in the publish enviroment. They can 
 
 To delete a fragment:
 
-1. In the **Assets** console navigate to the location of the content fragment.
+1. In the **[!UICONTROL Assets]** console navigate to the location of the content fragment.
 1. Select the fragment.
 
    >[!NOTE]
    >
    >The **Delete** action is not available as a quick action.
 
-1. Select **Delete** from the toolbar.
-1. Confirm the **Delete** action.
+1. Select **[!UICONTROL Delete]** from the toolbar.
+1. Confirm the **[!UICONTROL Delete]** action.
 
    >[!CAUTION]
    >
-   >If the fragment is already referenced in a page you will then see a warning message and be required to confirm that you want to proceed with a **Force Delete**. The fragment, together with its content fragment component, will be deleted from any content pages.
+   >If the fragment is already referenced in a page you will then see a warning message and be required to confirm that you want to proceed with a **[!UICONTROL Force Delete]**. The fragment, together with its content fragment component, will be deleted from any content pages.
 

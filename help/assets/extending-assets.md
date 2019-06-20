@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a73b26c0-1a5f-4841-b002-bd43ff1ee766
 ---
 
-# Customizing and Extending Assets{#customizing-and-extending-assets}
+# Customizing and Extending Assets {#customizing-and-extending-assets}
 
 The Asset Editor is the primary point of access that users of a Adobe Enterprise Manager (AEM) website will use to find, view, and manipulate the digital assets in your repository.
 

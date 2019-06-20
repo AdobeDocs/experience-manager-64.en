@@ -116,12 +116,12 @@ See the following for AEM Sites 6.4 enhancements in detail:
 
 * Integrated AEM Experience Fragments with Adobe Target. Synchronizing Experience Fragments to Target will create offers in Adobe Target that can be used with Target's Visual Experience Composer to embed it in any Target enabled experience.
 * Adobe Target mbox.js version 63 now included. Adobe recommends to switch implementation to at.js.
-* at.js version 1.2.2 now included. Adobe recommends to use either Dynamic Tag Management (DTM) or [Launch by Adobe](https://www.adobe.com/enterprise/cloud-platform/launch.html) to provision at.js into the site.
+* at.js version 1.2.2 now included. Adobe recommends to use either Dynamic Tag Management (DTM) or [Adobe Experience Platform Launch](https://www.adobe.com/enterprise/cloud-platform/launch.html) to provision at.js into the site.
 
 ### AEM &amp; Adobe Analytics {#aem-amp-adobe-analytics}
 
 * s_code.js H.27.5 now included. Adobe recommends to switch implementation to AppMeasurement.js
-* AppMeasurement.js 1.8.0 now included. Adobe recommends to use either Dynamic Tag Management (DTM) or [Launch by Adobe](https://www.adobe.com/enterprise/cloud-platform/launch.html) to provision AppMeasurement.js into the site.
+* AppMeasurement.js 1.8.0 now included. Adobe recommends to use either Dynamic Tag Management (DTM) or [Adobe Experience Platform Launch](https://www.adobe.com/enterprise/cloud-platform/launch.html) to provision AppMeasurement.js into the site.
 
 ## Communities Add-On {#communities-add-on}
 

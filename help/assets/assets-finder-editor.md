@@ -55,9 +55,9 @@ To create a new Asset Share page, you can either create it when you are working 
 
 To create an new Asset Share page in the **Websites** console:
 
-1. In the **Websites** tab, navigate to the place where you want to create an asset share page and click **New**.
+1. In the **[!UICONTROL Websites]** tab, navigate to the place where you want to create an asset share page and click **[!UICONTROL New]**.
 
-1. Select the** Asset Share** page and click **Create**. The new page is created and the asset share page is listed in the **Websites** tab.
+1. Select the **[!UICONTROL Asset Share]** page and click **[!UICONTROL Create]**. The new page is created and the asset share page is listed in the **[!UICONTROL Websites]** tab.
 
 ![dam8](assets/dam8.png)
 
@@ -65,14 +65,14 @@ The basic page created using the Geometrixx DAM Asset Share template looks as fo
 
 ![screen_shot_2012-04-18at115456am](assets/screen_shot_2012-04-18at115456am.png)
 
-To customize your Asset Share page, you use elements from the sidekick and you also edit query builder properties. The page **Geometrixx Press Center** is a customized version of a page based on this template:
+To customize your Asset Share page, you use elements from the sidekick and you also edit query builder properties. The page **[!UICONTROL Geometrixx Press Center]** is a customized version of a page based on this template:
 
 ![screen_shot_2012-04-19at123048pm](assets/screen_shot_2012-04-19at123048pm.png)
 
 To create a new asset share page via the digital asset manager:
 
-1. In the digital asset manager, in **New**, select **New Asset Share**. 
-1. In the **Title**, enter the name of the asset share page. If desired, enter a name for the URL.
+1. In the digital asset manager, in **[!UICONTROL New]**, select **[!UICONTROL New Asset Share]**. 
+1. In the **[!UICONTROL Title]**, enter the name of the asset share page. If desired, enter a name for the URL.
 
    ![screen_shot_2012-04-19at23626pm](assets/screen_shot_2012-04-19at23626pm.png)
 
@@ -80,7 +80,7 @@ To create a new asset share page via the digital asset manager:
 
    ![screen_shot_2012-04-19at24114pm](assets/screen_shot_2012-04-19at24114pm.png)
 
-   By default, when you create an Asset Share page from **New**, an Asset viewer and Asset editor are automatically created for you.
+   By default, when you create an Asset Share page from **[!UICONTROL New]**, an Asset viewer and Asset editor are automatically created for you.
 
 #### Customizing Actions {#customizing-actions}
 
@@ -88,7 +88,7 @@ You can determine what actions users can perform on selected digital assets from
 
 To add actions to the Asset Share page:
 
-1. In the Asset Share page that you want to customize, click **Actions** in the sidekick.
+1. In the Asset Share page that you want to customize, click **[!UICONTROL Actions]** in the sidekick.
 
     The following actions are available: 
 
@@ -137,7 +137,7 @@ You determine how results are displayed from a predefined list of lenses.
 
 To change how search results are viewed:
 
-1. In the Asset Share page that you want to customize, click Search.
+1. In the Asset Share page that you want to customize, click **[!UICONTROL Search]**.
 
     ![chlimage_1](assets/chlimage_1.bmp)
 
@@ -164,23 +164,23 @@ The query builder lets you enter search terms and create content for the Asset S
 
 To customize the query builder:
 
-1. In the Asset Share page that you want to customize, click **Edit** in the Query Builder. By default, the **General** tab opens.
+1. In the Asset Share page that you want to customize, click **[!UICONTROL Edit]** in the Query Builder. By default, the **[!UICONTROL General]** tab opens.
 
 1. Select the number of results per page, the path of the asset editor (if you have a customized asset editor) and the Actions title.
 
     ![screen_shot_2012-04-23at15055pm](assets/screen_shot_2012-04-23at15055pm.png)
 
-1. Click the **Paths** tab. Enter a path or multiple paths that the search will run. These paths are overwritten if the user uses the Paths predicate.
+1. Click the **[!UICONTROL Paths]** tab. Enter a path or multiple paths that the search will run. These paths are overwritten if the user uses the Paths predicate.
 
     ![screen_shot_2012-04-23at15150pm](assets/screen_shot_2012-04-23at15150pm.png)
 
 1. Enter another node type, if desired.
 
-1. In the **Query Builder URL** field, you can override or wrap the query builder and enter the new servlet URLs with the existing query builder component. In the **Feed URL** field, you can override the Feed URL as well.
+1. In the **[!UICONTROL Query Builder URL]** field, you can override or wrap the query builder and enter the new servlet URLs with the existing query builder component. In the **[!UICONTROL Feed URL]** field, you can override the Feed URL as well.
 
     ![screen_shot_2012-04-23at15313pm](assets/screen_shot_2012-04-23at15313pm.png)
 
-1. In the **Text** field, enter the text you want to appear for results and page numbers of results. Click **OK** when finished making changes.
+1. In the **[!UICONTROL Text]** field, enter the text you want to appear for results and page numbers of results. Click **[!UICONTROL OK]** when finished making changes.
 
     ![screen_shot_2012-04-23at15300pm](assets/screen_shot_2012-04-23at15300pm.png)
 
@@ -190,7 +190,7 @@ AEM Assets includes a number of predicates that you can add to the Asset Share p
 
 To add predicates:
 
-1. In the Asset Share page that you want to customize, click **Search**.
+1. In the Asset Share page that you want to customize, click **[!UICONTROL Search]**.
 
     ![assetshare3](assets/assetshare3.bmp)
 
@@ -227,9 +227,9 @@ When creating the Asset Editor page, a good practice is to create the page direc
 
 To create an Asset Editor page:
 
-1. In the **Websites** tab, navigate to the place where you want to create an asset editor page and click **New**.
+1. In the **[!UICONTROL Websites]** tab, navigate to the place where you want to create an asset editor page and click **[!UICONTROL New]**.
 
-1. Select **Geometrixx Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
+1. Select **[!UICONTROL Geometrixx Asset Editor]** and click **[!UICONTROL Create]**. The new page is created and the page is listed in the **[!UICONTROL Websites]** tab.
 
 ![screen_shot_2012-04-23at15858pm](assets/screen_shot_2012-04-23at15858pm.png)
 
@@ -237,7 +237,7 @@ The basic page created using the Geometrixx Asset Editor template looks as follo
 
 ![assetshare5](assets/assetshare5.bmp)
 
-To customize your Asset Editor page, use elements from the sidekick. The Asset Editor page that is accessed from the **Geometrixx Press Center** is a customized version of a page based on this template:
+To customize your Asset Editor page, use elements from the sidekick. The Asset Editor page that is accessed from the **[!UICONTROL Geometrixx Press Center]** is a customized version of a page based on this template:
 
 ![assetshare6](assets/assetshare6.bmp)
 
@@ -247,13 +247,13 @@ After you have created the customized Asset Editor page, you need to ensure that
 
 To set the Asset Editor page:
 
-1. In the Asset Share page, click **Edit** next to the Query Builder.
+1. In the Asset Share page, click **[!UICONTROL ]****Edit** next to the Query Builder.
 
     ![screen_shot_2012-04-23at20123pm](assets/screen_shot_2012-04-23at20123pm.png)
 
-1. Click the **General** tab if it is not already selected.
+1. Click the **[!UICONTROL ]****General** tab if it is not already selected.
 
-1. In the **Path of Asset Editor** field, enter the path to the asset editor you want the Asset Share page to open assets in and click **OK**.
+1. In the **[!UICONTROL ]****Path of Asset Editor** field, enter the path to the asset editor you want the Asset Share page to open assets in and click **[!UICONTROL ]****OK**.
 
     ![screen_shot_2012-04-23at21653pm](assets/screen_shot_2012-04-23at21653pm.png)
 
@@ -263,7 +263,7 @@ You determine what functionality an asset editor has by adding components to the
 
 To add asset editor components:
 
-1. In the Asset Editor page that you want to customize, select **Asset Editor** in the sidekick. All available asset editor components are displayed.
+1. In the Asset Editor page that you want to customize, select **[!UICONTROL ]****Asset Editor** in the sidekick. All available asset editor components are displayed.
 
     >[!NOTE]
     >
@@ -287,29 +287,29 @@ To add asset editor components:
 
 #### Metadata Form and Text Field - Configuring the View Metadata Component {#metadata-form-and-text-field-configuring-the-view-metadata-component}
 
-The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](../sites-authoring/default-components.md) for more information on working with forms.
+The Metadata Form is a form that includes a start and end action. In between, you enter **[!UICONTROL ]****Text** fields. See [Forms](../sites-authoring/default-components.md) for more information on working with forms.
 
-1. Create a start action by clicking **Edit** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **Metadata**. Select the Client Validation check box if you want the java-script client code for validation generated.
+1. Create a start action by clicking **[!UICONTROL ]****Edit** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **[!UICONTROL ]****Metadata**. Select the Client Validation check box if you want the java-script client code for validation generated.
 
     ![screen_shot_2012-04-23at22911pm](assets/screen_shot_2012-04-23at22911pm.png)
 
-1. Create an End action by clicking **Edit** in the End area of the form. For example, you may want to create a **Submit** button to allow users to submit their metadata changes. Optionally, you can add a **Reset** button that resets the metadata to its original state.
+1. Create an End action by clicking **[!UICONTROL ]****Edit** in the End area of the form. For example, you may want to create a **[!UICONTROL ]****Submit** button to allow users to submit their metadata changes. Optionally, you can add a **[!UICONTROL ]****Reset** button that resets the metadata to its original state.
 
     ![screen_shot_2012-04-23at23138pm](assets/screen_shot_2012-04-23at23138pm.png)
 
-1. In between the **Form Start** and the **Form End**, drag Metadata Text Fields to the form. Users populate metadata into these text fields, which they can submit or complete another action on.
+1. In between the **[!UICONTROL ]****Form Start** and the **Form End**, drag Metadata Text Fields to the form. Users populate metadata into these text fields, which they can submit or complete another action on.
 
-1. Double-click the field name, for example, **Title** to open the metadata field and make changes. In the **General** tab of the** Edit Component** window, you define the namespace and the field label as well as type, for example, **dc:title**.
+1. Double-click the field name, for example, **Title** to open the metadata field and make changes. In the **[!UICONTROL ]****General** tab of the** Edit Component** window, you define the namespace and the field label as well as type, for example, **dc:title**.
 
     ![screen_shot_2012-04-23at23305pm](assets/screen_shot_2012-04-23at23305pm.png)
 
     See [Customizing and Extending AEM Assets](extending-assets.md) for information on modifying the namespaces available in the metadata form.
 
-1. Click the **Constraints** tab. Here you can select whether a field is required and if necessary, add any constraints.
+1. Click the **[!UICONTROL ]****Constraints** tab. Here you can select whether a field is required and if necessary, add any constraints.
 
     ![screen_shot_2012-04-23at23435pm](assets/screen_shot_2012-04-23at23435pm.png)
 
-1. Click the **Display** tab. Here, you can enter a new width and number of rows for the metadata field. Select the **Field is read only** checkbox to allow users to edit the metadata.
+1. Click the **[!UICONTROL ]****Display** tab. Here, you can enter a new width and number of rows for the metadata field. Select the **Field is read only** checkbox to allow users to edit the metadata.
 
     ![screen_shot_2012-04-23at23446pm](assets/screen_shot_2012-04-23at23446pm.png)
 
@@ -361,7 +361,7 @@ The Thumbnail component is where the asset displays the selected thumbnail (for 
 
 ![screen_shot_2012-04-23at25452pm](assets/screen_shot_2012-04-23at25452pm.png)
 
-Double-click the thumbnail component to open the thumbnail dialog where you can change the alt text. By default, the thumbnail alt text defaults to **Click to download** asset.
+Double-click the thumbnail component to open the thumbnail dialog where you can change the alt text. By default, the thumbnail alt text defaults to **[!UICONTROL Click to download]** asset.
 
 ![screen_shot_2012-04-23at25604pm](assets/screen_shot_2012-04-23at25604pm.png)
 
@@ -395,7 +395,7 @@ You can determine what actions users can perform on selected digital assets from
 
 To add actions to the Asset Editor page:
 
-1. In the Asset Editor page that you want to customize, click **Asset Editor** in the sidekick.
+1. In the Asset Editor page that you want to customize, click **[!UICONTROL Asset Editor]** in the sidekick.
 
 ![screen_shot_2012-04-23at35515pm](assets/screen_shot_2012-04-23at35515pm.png)
 
@@ -423,7 +423,7 @@ With AEM Assets you can make changes to several assets at once. After having sel
 
 To multi-edit assets with the Asset Editor page:
 
-1. Open the Geometrixx **Press Center** page at `http://localhost:4502/content/geometrixx/en/company/press.html`.
+1. Open the Geometrixx **[!UICONTROL Press Center]** page at `http://localhost:4502/content/geometrixx/en/company/press.html`.
 1. Select the assets:
 
     * on Windows: `Ctrl + click` each asset.
@@ -431,16 +431,16 @@ To multi-edit assets with the Asset Editor page:
 
    To select a range of assets: click the first asset then `Shift + click` the last asset.  
 
-1. Click **Edit Metadata** in the **Actions** field (left part of the page).  
+1. Click **[!UICONTROL Edit Metadata]** in the **Actions** field (left part of the page).  
 
-1. The Geometrixx **Press Center Asset Editor** page opens in a new tab. The metadata of the assets are displayed as follows:
+1. The Geometrixx **[!UICONTROL Press Center Asset Editor]** page opens in a new tab. The metadata of the assets are displayed as follows:
 
     * A tag, that does not apply to all the assets but only to a few ones, is displayed in italics.
     * A tag that applies to all the assets is displayed with a normal font.
     * Metadata other than tags: the value of the field is only displayed if it is the same for all the selected assets.
 
-1. Click **Download** to download a ZIP file containing the assets original renditions.
-1. Click the pencil icon beside the **Tags** field to edit the tags:
+1. Click **[!UICONTROL Download]** to download a ZIP file containing the assets original renditions.
+1. Click the pencil icon beside the **[!UICONTROL Tags]** field to edit the tags:
 
     * A tag that does not apply to all the assets, but only to a few ones has a grey background.
     * A tag that applies to all the assets has a white background.
@@ -451,7 +451,7 @@ To multi-edit assets with the Asset Editor page:
     * Click the `+` icon to add the tag to all the assets.
     * Click the `arrow` and select a tag to add a new tag to all the assets.
 
-   Click **OK** to write the changes to the form. The box beside the **Tags** field is automatically checked.  
+   Click **[!UICONTROL OK]** to write the changes to the form. The box beside the **Tags** field is automatically checked.  
 
 1. Edit the Description field. For example set it to:  
 
@@ -461,6 +461,6 @@ To multi-edit assets with the Asset Editor page:
 
    Note: the box beside the field is automatically checked when the field is edited.  
 
-1. Click **Update Metadata** to submit the form and save the changes for all the assets.  
+1. Click **[!UICONTROL ]Update Metadata** to submit the form and save the changes for all the assets.  
 
    Note: only the checked metadata are modified.

@@ -104,7 +104,7 @@ user-guide-title: AEM 6.4 Developing User Guide
         + [SPA Page Component](spa-page-component.md)
         + [Dynamic Model to Component Mapping for SPAs](spa-dynamic-model-to-component-mapping.md)
         + [SPA Model Routing](spa-routing.md)
-        + [SPA and Launch Integration](spa-launch.md)
+        + [SPA and Adobe Experience Platform Launch Integration](spa-launch.md)
         + [SPA and Server-Side Rendering](spa-ssr.md)
         + [SPA Javascript API References](spa-reference-materials.md)
     + [HTTP API](/help/assets/mac-api-assets.md)
@@ -113,6 +113,7 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Understanding Content Fragments and Content Services in AEM](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-content-services-feature-video-understand.html)
 + Development Tools{#devtools}
     + [Development Tools](dev-tools.md)
+    + [AEM Modernization Tools](modernization-tools.md)
     + [Dialog Editor](dialog-editor.md)
     + [Dialog Conversion Tool](dialog-conversion.md)
     + [Developing with CRXDE Lite](developing-with-crxde-lite.md)
@@ -210,6 +211,3 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Responsive Design for Web Pages](responsive.md)
     + [Creating Sites for Mobile Devices](mobile.md)
     + [Emulators](emulators.md)
-+ Misc Content{#misc-content}
-    + [DO NOT PUBLISH, BUT DO NOT DELETE Customizing Content Fragment Models](customizing-content-fragment-models.md)
-    + [DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models](customizing-content-fragment-model-data-types.md)

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 3d063268-17d7-4db6-8028-682537645377
 ---
 
-# Integrating AEM 3D with Autodesk Maya{#integrating-aem-d-with-autodesk-maya}
+# Integrating AEM 3D with Autodesk Maya {#integrating-aem-d-with-autodesk-maya}
 
 >[!NOTE]
 >

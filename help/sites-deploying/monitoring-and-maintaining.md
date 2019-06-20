@@ -136,9 +136,7 @@ To purge versions of a web site, proceed as follows:
 The **Dry Run** and **Purge** processes list all the nodes that have been processed. During the process, a node can have one of the following status:
 
 * `ignore (not versionnable)`: the node does not support versioning and is ignored during the process.  
-
 * `ignore (no version)`: the node does not have any version and is ignored during the process. ``
-
 * `retained`: the node is not purged.
 * `purged`: the node is purged.
 
@@ -146,7 +144,6 @@ Moreover the console provides useful information about the versions:
 
 * `V 1.0`: the version number.
 * `V 1.0.1`&ast;: the star indicates that the version is the current one.  
-
 * `Thu Mar 15 2012 08:37:32 GMT+0100`: the date of the version.
 
 In the next example:
@@ -165,7 +162,6 @@ Auditing records and log files relating to Adobe Experience Manager (AEM) can be
 AEM WCM records detailed logs. After you unpack and start Quickstart, you can find logs in:
 
 * `<cq-installation-dir>/crx-quickstart/logs/`
-
 * `<cq-installation-dir>/crx-quickstart/repository/`
 
 #### Log file rotation {#log-file-rotation}
@@ -173,7 +169,6 @@ AEM WCM records detailed logs. After you unpack and start Quickstart, you can fi
 Log file rotation refers to the process that limits the growth of file by creating new file periodically. In AEM, a log file called `error.log` will be rotated once a day according to the given rules:
 
 * The `error.log` file is renamed according to the pattern {original_filename} `.yyyy-MM-dd`. For example on July 2010 11th, the current log file is renamed `error.log-2010-07-10`, then a new `error.og` is created.  
-
 * Previous log files are not deleted, so it is your responsibility to clean old log files periodically to limit the disk usage.
 
 >[!NOTE]

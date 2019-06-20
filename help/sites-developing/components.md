@@ -48,7 +48,6 @@ AEM comes with a variety of [out-of-the-box components](/help/sites-authoring/de
 
 * Paragraph System ( `parsys`)
 * Page ( `responsivegrid` - touch-enabled UI only)  
-
 * Text  
 * Image, with accompanying text
 * Toolbar
@@ -59,7 +58,7 @@ The components provided and their usage within the [sample We.Retail websites](/
 
 There are two sets of Adobe-provided AEM components available:
 
-* [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html)
+* [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
 * [Foundation Components](/help/sites-authoring/default-components-foundation.md)
 
 **Core Components** were introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. The [We.Retail reference site](/help/sites-developing/we-retail.md) illustrates how the core components can be used and represent the current best-practices of component development.
@@ -68,7 +67,9 @@ There are two sets of Adobe-provided AEM components available:
 
 >[!NOTE]
 >
->[Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) represent the current best practices for component design and development and serve as reference implementations.
+>[Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) represent the current best practices for component design and development and serve as reference implementations.
+>
+>[AEM Modernization Tools](modernization-tools.md) can help the migration to Core Components.
 
 ### Viewing Available Components {#viewing-available-components}
 
@@ -99,7 +100,7 @@ The following pages provide more detailed information about developing these&mda
 * [Components for Content Fragments](/help/sites-developing/components-content-fragments.md)
 * [Obtaining Page Information in JSON Format](/help/sites-developing/pageinfo.md)
 * [Internationalizing Components](/help/sites-developing/i18n.md)
-* [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html)
+* [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
 * [Using Hide Conditions](/help/sites-developing/hide-conditions.md)
 * Classic UI
 

@@ -28,15 +28,15 @@ You can reference existing AEM assets from within an Adobe Illustrator file.
 1. Using [AEM Desktop App](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), mount AEM Assets repository as a drive on your local machine. Within the mounted drive, navigate to the location of the asset that you want to reference.
 1. Drag the asset from the mounted drive to the Illustrator file.
 1. Save the Illustrator file to the mounted drive, or [upload](managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
-1. After the worflow completes, go to the asset details page for the asset. The references to existing AEM assets are listed under **Dependencies** in the **References** column.
+1. After the worflow completes, go to the asset details page for the asset. The references to existing AEM assets are listed under **[!UICONTROL Dependencies]** in the **[!UICONTROL References]** column.
 
    ![chlimage_1-258](assets/chlimage_1-258.png)
 
-1. The referenced assets that appear under **Dependencies** can also be referenced by files other than the current one. To view a list of referencing files for an asset, click the asset in the under **Dependencies**.
+1. The referenced assets that appear under **[!UICONTROL Dependencies]** can also be referenced by files other than the current one. To view a list of referencing files for an asset, click the asset in the under **[!UICONTROL Dependencies]**.
 
    ![chlimage_1-259](assets/chlimage_1-259.png)
 
-1. Click the **View Properties** icon from the toolbar. In the properties page, the list of files that reference the current asset appear under the **References** column in the **Basic** tab.
+1. Click the **[!UICONTROL View Properties]** icon from the toolbar. In the properties page, the list of files that reference the current asset appear under the **[!UICONTROL References]** column in the **[!UICONTROL Basic]** tab.
 
    ![chlimage_1-260](assets/chlimage_1-260.png)
 
@@ -85,14 +85,14 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 
 The Page Viewer feature of AEM Assets lets you view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files. For InDesign, you can extract pages using InDesign server. If the previews of pages are saved during InDesign file creation , then InDesign Server is not required for page extraction.
 
-You can browse through individual pages of a file from the asset page. You can use options from the toolbar to annotate individual pages of the file. You can also use the **Page Overview** option to view all the pages simultaneously.
+You can browse through individual pages of a file from the asset page. You can use options from the toolbar to annotate individual pages of the file. You can also use the **[!UICONTROL Page Overview]** option to view all the pages simultaneously.
 
 1. Navigate to the folder in AEM Assets that contains the multi-page file.
 1. Click the asset to view its asset page.
 
    ![chlimage_1-262](assets/chlimage_1-262.png)
 
-1. Click the Global Nav icon, and then choose **Pages** from the menu.
+1. Click the Global Nav icon, and then choose **[!UICONTROL Pages]** from the menu.
 
    ![chlimage_1-263](assets/chlimage_1-263.png)
 
@@ -100,22 +100,22 @@ You can browse through individual pages of a file from the asset page. You can u
 
    ![chlimage_1-264](assets/chlimage_1-264.png)
 
-1. To annotate a page, click the **Annotate** icon from the toolbar and add a comment.
+1. To annotate a page, click the **[!UICONTROL Annotate]** icon from the toolbar and add a comment.
 
    ![chlimage_1-265](assets/chlimage_1-265.png)
 
-1. To download the file, click the **Download** icon.
+1. To download the file, click the **[!UICONTROL Download]** icon.
 
    ![chlimage_1-266](assets/chlimage_1-266.png)
 
-1. To view all pages of the file simultaneously, near the upper-right corner of the page, tap the **Page Overview** icon.
+1. To view all pages of the file simultaneously, near the upper-right corner of the page, tap the **[!UICONTROL Page Overview]** icon.
 
    ![chlimage_1-267](assets/chlimage_1-267.png)
 
-1. To view the activity stream for the file, including annotations and downloads, click the Global Navigation icon and then choose **Timeline** from the menu.
+1. To view the activity stream for the file, including annotations and downloads, click the Global Navigation icon and then choose **[!UICONTROL Timeline]** from the menu.
 
    ![chlimage_1-268](assets/chlimage_1-268.png)
 
-1. To view and edit the metadata properties of the page, click the **View Properties** icon from the toolbar.
+1. To view and edit the metadata properties of the page, click the **[!UICONTROL View Properties]** icon from the toolbar.
 
    ![chlimage_1-269](assets/chlimage_1-269.png)

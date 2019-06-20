@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 2f254541-6f9b-4f8a-9201-6c70f2d4f3b9
 ---
 
-# Interactive Videos{#interactive-videos}
+# Interactive Videos {#interactive-videos}
 
 You can easily create interactive videos that drive conversion directly from the video. Customer engagement with the video takes place in a panel alongside the video player where related service, information, or product thumbnails are scrolled into view based on what is featured in the video. Customers can tap the thumbnail and be linked directly to the service, or add the item to a shopping cart for immediate purchase, or be linked to a web page for more information.
 
@@ -376,7 +376,6 @@ After you save your interactive video, the video is immediately opened into Prev
 1. Under the **[!UICONTROL Content]** tab, tap **[!UICONTROL Select Assets]**, then browse and select all the image assets that you want to use with your video. The selected assets are added to the **[!UICONTROL Asset Selector]** panel in the **[!UICONTROL Content]** tab.  
 
 1. In the asset selector below the Content tab, do any of the following:
-
    <table> 
     <tbody> 
       <tr> 
@@ -400,7 +399,6 @@ After you save your interactive video, the video is immediately opened into Prev
 
 1. Select a single thumbnail image within one of the timeline segments, then tap the **[!UICONTROL Actions]** tab.
 1. Do any of the following:
-
    <table> 
     <tbody> 
       <tr> 
