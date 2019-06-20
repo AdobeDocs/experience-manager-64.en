@@ -114,7 +114,7 @@ It is possible to view the active media handlers:
 
 Media handlers are services that are usually used in combination with workflows.
 
-AEM has some default workflows to process assets. To view them, open the Workflow console and click the **Models** tab: the workflow titles that start with **AEM Assets** are the assets specific ones.
+AEM has some default workflows to process assets. To view them, open the Workflow console and click the **[!UICONTROL Models]** tab: the workflow titles that start with **AEM Assets** are the assets specific ones.
 
 Existing workflows can be extended and new ones can be created to process assets according to specific requirements.
 
@@ -129,9 +129,9 @@ The media handlers can be disabled or enabled through the Apache Felix Web Manag
 To enable/disable a media handler:
 
 1. In your browser, navigate to `https://<host>:<port>/system/console/components`.
-1. Click **Disable** next to the name of the media handler. For example: `com.day.cq.dam.handler.standard.mp3.Mp3Handler`.
+1. Click **[!UICONTROL Disable]** next to the name of the media handler. For example: `com.day.cq.dam.handler.standard.mp3.Mp3Handler`.
 1. Refresh the page: an icon is displayed beside the media handler indicating it is disabled.
-1. To enable the media handler, click **Enable** next to the name of the media handler.
+1. To enable the media handler, click **[!UICONTROL Enable]** next to the name of the media handler.
 
 ### Creating a new Media Handler {#creating-a-new-media-handler}
 
@@ -192,9 +192,9 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 
 1. In Eclipse, create the myBundle Maven project:
 
-    1. In the Menu bar, click File, select New, then Other... .
-    1. In the dialog, expand the Maven folder, select Maven Project and click Next.
-    1. Check the Create a simple project box and the Use default Workspace locations box, then click Next.
+    1. In the Menu bar, click **[!UICONTROL File > New > Other...]**.
+    1. In the dialog, expand the Maven folder, select Maven Project and click **[!UICONTROL Next]**.
+    1. Check the Create a simple project box and the Use default Workspace locations box, then click **[!UICONTROL Next]**.
     1. Define the Maven project:
 
         * Group Id: com.day.cq5.myhandler
@@ -202,7 +202,7 @@ After you perform the following procedure, when you upload a txt file into AEM, 
         * Name: My AEM bundle
         * Description: This is my AEM bundle
 
-    1. Click Finish.
+    1. Click **[!UICONTROL Finish]**.
 
 1. Set the Java Compiler to version 1.5:
 
@@ -213,7 +213,7 @@ After you perform the following procedure, when you upload a txt file into AEM, 
         * Generated .class files compatibility
         * Source compatibility
 
-    1. Click OK.
+    1. Click **[!UICONTROL OK]**.
     1. In the dialog window, click Yes.
 
 1. Replace the code in the pom.xml file with the following code:
@@ -486,7 +486,7 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 
 1. Compile the Java class and create the bundle:
 
-    1. Right-click the myBundle project, select **Run As**, then **Maven Install**.
+    1. Right-click the myBundle project, select **[!UICONTROL Run As]**, then **[!UICONTROL Maven Install]**.
     1. The bundle `myBundle-0.0.1-SNAPSHOT.jar` (containing the compiled class) is created under `myBundle/target`.
 
 1. In CRX Explorer, create a new node under `/apps/myApp`. Name = `install`, Type = `nt:folder`.
@@ -543,9 +543,9 @@ First install ImageMagick on the disk hosting the AEM server:
 
 Then, add the command line process step to the **DAM Update Asset workflow**:
 
-1. Go to the **Workflow** console.
-1. In the **Models** tab, edit the **DAM Update Asset** model.
-1. Change the settings of the **Web enabled rendition** step as follows:  
+1. Go to the **[!UICONTROL Workflow]** console.
+1. In the **[!UICONTROL Models]** tab, edit the **[!UICONTROL DAM Update Asset]** model.
+1. Change the settings of the **[!UICONTROL Web enabled rendition]** step as follows:  
 
    **Arguments**:
 
@@ -556,8 +556,8 @@ Then, add the command line process step to the **DAM Update Asset workflow**:
 Finally, test the modified workflow by adding a new asset to **/content/dam**:
 
 1. In the file system, get a .tiff image of your choice. Rename it to myImage.tiff and copy it to **/content/dam**, for example by using WebDAV.
-1. Go to the **CQ5 DAM** console, for example `http://localhost:4502/libs/wcm/core/content/damadmin.html`.
-1. Open the asset **myImage.tiff** and verify that the flipped image and the three thumbnails have been created.
+1. Go to the **[!UICONTROL CQ5 DAM]** console, for example `http://localhost:4502/libs/wcm/core/content/damadmin.html`.
+1. Open the asset **[!UICONTROL myImage.tiff]** and verify that the flipped image and the three thumbnails have been created.
 
 #### Configuring the CommandLineProcess Process Step {#configuring-the-commandlineprocess-process-step}
 

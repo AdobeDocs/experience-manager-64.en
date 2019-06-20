@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 599c316e-b6a7-4a28-bc4b-75d48409bde0
 ---
 
-# Mixed Media Sets{#mixed-media-sets}
+# Mixed Media Sets {#mixed-media-sets}
 
 Mixed Media Sets let you provide a mix of images, Image Sets, Spin Sets, and videos in one presentation.
 
@@ -57,7 +57,7 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 
    AEM Assets creates URL calls for Mixed Media Sets and activates them after you publish the mixed media sets. You can copy these URLs when you preview assets. Alternatively you can embed them on your web site.
 
-   Select the Mixed Media Set, then in the left rail drop-down menu, select **Viewers**.
+   Select the Mixed Media Set, then in the left rail drop-down menu, select **[!UICONTROL Viewers]**.
 
    See [Linking a Mixed Media Set to a web page](linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](embed-code.md).
 

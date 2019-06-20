@@ -10,7 +10,7 @@ topic-tags: administering
 discoiquuid: f7e30ec4-62fd-43b7-a650-f61034f7a2db
 ---
 
-# Bulk Metadata Import and Export{#bulk-metadata-import-and-export}
+# Bulk Metadata Import and Export {#bulk-metadata-import-and-export}
 
 This article describes how to import and export metadata in bulk.
 
@@ -24,9 +24,9 @@ In other words, you can use a single CSV file to simultaneously update the metad
 >
 >To be able to import metadata on custom namespaces, first register them.
 
-1. Navigate to the Assets UI, and tap/click **Create** from the toolbar.
-1. From the menu, select **Metadata**.
-1. In the **Metadata Import** page, tap/click the **Select File** button to select the CSV file with metadata values to be imported.
+1. Navigate to the Assets UI, and tap/click **[!UICONTROL Create]** from the toolbar.
+1. From the menu, select **[!UICONTROL Metadata]**.
+1. In the **[!UICONTROL Metadata Import]** page, tap/click the **[!UICONTROL Select File]** button to select the CSV file with metadata values to be imported.
 1. Specify the following configuration parameters:
 
    <table> 
@@ -54,7 +54,7 @@ In other words, you can use a single CSV file to simultaneously update the metad
     </tbody>
    </table>
 
-1. Tap/click **Import** from the toolbar. After the metadata is imported a notification is sent to your Notification inbox. Navigate to asset property page and verify whether the metadata values are correctly imported for assets.
+1. Tap/click **[!UICONTROL Import]** from the toolbar. After the metadata is imported a notification is sent to your Notification inbox. Navigate to asset property page and verify whether the metadata values are correctly imported for assets.
 
 ## Export Metadata {#export-metadata}
 
@@ -66,19 +66,19 @@ The metadata is exported asynchronously and, therefore, does not impact the perf
 
    ![select_folder](assets/select_folder.png)
 
-1. From the toolbar, select** Export metadata**.
+1. From the toolbar, select **[!UICONTROL Export metadata]**.
 
    ![export_metadata](assets/export_metadata.png)
 
-1. In the Metadata Export field, specify a name for the CSV file. To export metadata for assets in subfolders, select **Include assets in sub-folders**.
+1. In the Metadata Export field, specify a name for the CSV file. To export metadata for assets in subfolders, select **[!UICONTROL Include assets in sub-folders]**.
 
    ![export_metadata_page](assets/export_metadata_page.png)
 
 1. Select whether you want to export now or at a later date.
-1. In the **Properties to be exported** field, specify whether you want to export all or specific properties.  
+1. In the **[!UICONTROL Properties to be exported]** field, specify whether you want to export all or specific properties.  
 
-1. From the toolbar, tap/click **Export**. A message confirms that the metadata is exported. Close the message.
-1. Open the inbox nofification for the export job. To download the CSV file with the metadata, tap/click the **CSV Download** icon from the toolbar.
+1. From the toolbar, tap/click **[!UICONTROL Export]**. A message confirms that the metadata is exported. Close the message.
+1. Open the inbox nofification for the export job. To download the CSV file with the metadata, tap/click the **[!UICONTROL CSV Download]** icon from the toolbar.
 
    ![csv_download](assets/csv_download.png)
 

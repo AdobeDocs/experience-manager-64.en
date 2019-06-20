@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a8e2c376-7a53-45e2-b547-204115fe35c3
 ---
 
-# Metadata Profiles{#metadata-profiles}
+# Metadata Profiles {#metadata-profiles}
 
 A Metadata Profile lets you apply default metadata to assets within a folder. Create a Metadata Profile and apply it to a folder. Any asset that you subsequently upload to the folder inherits the default metadata that you configured in the Metadata Profile.
 

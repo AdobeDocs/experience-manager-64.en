@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: f341fae1-dda3-4917-b6db-ad02fec63702
 ---
 
-# Managing Video Assets{#managing-video-assets}
+# Managing Video Assets {#managing-video-assets}
 
 This section describes how to manage and edit video assets.
 

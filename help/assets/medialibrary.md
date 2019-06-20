@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 7d81d7fd-27d1-4d87-9248-dfcf6c52ffb3
 ---
 
-# AEM Assets vs. AEM MediaLibrary{#aem-assets-vs-aem-medialibrary}
+# AEM Assets vs. AEM MediaLibrary {#aem-assets-vs-aem-medialibrary}
 
 Adobe Experience Manager (AEM) Assets is an integral part of the AEM platform. This smooth integration is seen as a major advantage of AEM and ensures consistency in content management and high productivity for content authors.
 

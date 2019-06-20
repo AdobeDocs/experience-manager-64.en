@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a323bf5a-b5b2-4b15-bcf8-48d0fe819512
 ---
 
-# About managing Dynamic Media assets{#managing-assets}
+# About managing Dynamic Media assets {#managing-assets}
 
 Managing Dynamic Media assets&ndash;images, video, and interactive assets&ndash;after they are uploaded&ndash;involves many tasks including previewing, downloading, or publishing them.
 
