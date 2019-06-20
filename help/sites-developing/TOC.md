@@ -104,7 +104,7 @@ user-guide-title: AEM 6.4 Developing User Guide
         + [SPA Page Component](spa-page-component.md)
         + [Dynamic Model to Component Mapping for SPAs](spa-dynamic-model-to-component-mapping.md)
         + [SPA Model Routing](spa-routing.md)
-        + [SPA and Launch Integration](spa-launch.md)
+        + [SPA and Adobe Experience Platform Launch Integration](spa-launch.md)
         + [SPA and Server-Side Rendering](spa-ssr.md)
         + [SPA Javascript API References](spa-reference-materials.md)
     + [HTTP API](/help/assets/mac-api-assets.md)
