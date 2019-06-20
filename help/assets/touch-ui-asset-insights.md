@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 330bad1b-72b3-48a3-95c4-9a90a3e6c9f7
 ---
 
-# Asset Insights{#asset-insights}
+# Asset Insights {#asset-insights}
 
 Learn how the Asset Insights feature lets you track user ratings and usage statistics of assets that are used in third-party websites, marketing campaigns, and Adobe's creative solutions.
 

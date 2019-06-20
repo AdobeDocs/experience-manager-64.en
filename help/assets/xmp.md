@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 7c7a9683-9c3a-4cc6-99c2-4749aeb14aa0
 ---
 
-# XMP Metadata{#xmp-metadata}
+# XMP Metadata {#xmp-metadata}
 
 XMP (Extensible Metadata Platform) is the metadata standard used by AEM Assets for all metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
 

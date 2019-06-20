@@ -8,7 +8,7 @@ contentOwner: asgupta
 discoiquuid: a5aab094-8b2d-4a23-890f-be6f9e5137bd
 ---
 
-# Smart Content Service Training Guidelines{#smart-content-service-training-guidelines}
+# Smart Content Service Training Guidelines {#smart-content-service-training-guidelines}
 
 To be able to effectively tag your brand images, the Smart Content Service requires that the training images conform to certain guidelines.
 
