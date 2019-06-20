@@ -1,6 +1,6 @@
 ---
-title: Dynamic Media Repository Restructuring in AEM 6.4
-seo-title: Dynamic Media Repository Restructuring in AEM 6.4
+title: Dynamic Media repository restructuring in AEM 6.4
+seo-title: Dynamic Media repository restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Dynamic Media.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Dynamic Media.
 uuid: e26d61a4-47b6-493a-9ba2-4c58b200ddd9
@@ -10,7 +10,7 @@ topic-tags: repo_restructuring
 discoiquuid: 61cd5751-0dc8-48e0-873e-3a64899489bb
 ---
 
-# Dynamic Media Repository Restructuring in AEM 6.4{#dynamic-media-repository-restructuring-in-aem}
+# Dynamic Media repository restructuring in AEM 6.4{#dynamic-media-repository-restructuring-in-aem}
 
 As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the Dynamic Media Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
@@ -24,7 +24,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
 
 ## Prior to 6.5 Upgrade {#prior-to-upgrade}
 
-### Custom Adaptive Video Encoding Configurations  {#custom-adaptive-video-encoding-configurations}
+### Custom Adaptive Video encoding configurations  {#custom-adaptive-video-encoding-configurations}
 
 <table> 
  <tbody>
@@ -47,7 +47,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  </tbody>
 </table>
 
-### Dynamic Media (DMS7) Cloud Configuration {#dynamic-media-dms-cloud-configuration}
+### Dynamic Media (DMS7) Cloud configuration {#dynamic-media-dms-cloud-configuration}
 
 <table> 
  <tbody>
@@ -74,7 +74,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  </tbody>
 </table>
 
-### Dynamic Media (DM Hybrid) Cloud Service Configuration {#cloudserviceconfiguration}
+### Dynamic Media (DM Hybrid) Cloud Service configuration {#cloudserviceconfiguration}
 
 <table> 
  <tbody>
@@ -97,7 +97,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  </tbody>
 </table>
 
-### Dynamic Media - YouTube Cloud Service Configuration  {#youtubecloudserviceconfiguration}
+### Dynamic Media - YouTube Cloud Service configuration  {#youtubecloudserviceconfiguration}
 
 <table> 
  <tbody>
@@ -111,7 +111,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>1. Unpublish all videos from YouTube<br /> 2. Create the YouTube Configuration using the new TouchUI (from <code>/conf</code>) including copying all the Channels from the old location<br /> 3. Publish all videos back to YouTube.</p> <p>This will result in new YouTube URLs. If you do not unpublish prior to creating a new TouchUI YouTube config, then you will have multiple YouTube URLs listed under Properties because the recreated Channels will publish again if given the chance. This means you'll have useless URLs listed under Properties.</p> </td> 
+   <td><p>1. Unpublish all videos from YouTube<br /> 2. Create the YouTube Configuration using the new TouchUI (from <code>/conf</code>) including copying all the Channels from the old location<br /> 3. Publish all videos back to YouTube.</p> <p>This workflow results in new YouTube URLs. If you do not unpublish prior to creating a new TouchUI YouTube config, then you will have multiple YouTube URLs listed under Properties because the recreated Channels will publish again if given the chance. This means you'll have useless URLs listed under Properties.</p> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 

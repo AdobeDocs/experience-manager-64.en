@@ -18,9 +18,11 @@ Various data types are available out-of-the-box, including single-line text, mul
 
 Data types are defined by a [combination of node properties](#properties) held in [specific locations in the repository](#locations-in-the-repository). You can also create your own [data types](#creating-your-data-type) and [fieldProperties](#creating-your-own-fieldproperties-property).
 
+<!-- Please uncomment when files are used>
 >[!NOTE]
 >
 >See also [Customizing Content Fragment Models](/help/sites-developing/customizing-content-fragment-models.md).
+-->
 
 ## Locations in the Repository {#locations-in-the-repository}
 
