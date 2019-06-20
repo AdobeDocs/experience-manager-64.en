@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: d3b7133c-4a58-4c9f-a5fe-162ce4ff016b
 ---
 
-# GQL Full-text Search{#gql-full-text-search}
+# GQL Full-text Search {#gql-full-text-search}
 
 Explore the GQL full-text search feature in AEM Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
 
@@ -23,12 +23,12 @@ For example, to search for assets that have the title "Target," perform these st
 
 ## Searching Assets {#searching-assets}
 
-1. From the toolbar of the Assets user interface, click or tap the **Search** icon to display the Omnisearch box.
+1. From the toolbar of the Assets user interface, click or tap the **[!UICONTROL Search]** icon to display the Omnisearch box.
 
    ![](do-not-localize/chlimage_1.png)
 
 1. With the cursor in the Omnisearch box, press Enter.
-1. Click or tap the GlobalNav icon to display the **Filters** panel.
+1. Click or tap the GlobalNav icon to display the **[!UICONTROL Filters]** panel.
 1. In the Omni Search box, specify the value "Target." To limit your search to a specific folder, click or tap the Browse icon in the Filters panel and select the folder. In this case, the match is searched for only within the folder and the subfolders under it.
 
    >[!NOTE]
@@ -37,7 +37,7 @@ For example, to search for assets that have the title "Target," perform these st
 
    ![gql_search](assets/gql_search.png)
 
-1. Press **Enter**. The AEM Assets user interface displays only those assets whose title exactly matches "Target."
+1. Press **[!UICONTROL Enter]**. The AEM Assets user interface displays only those assets whose title exactly matches "Target."
 
 The GQL full-text search feature lets you search assets based on the following:
 
@@ -164,15 +164,15 @@ title:"Scott Reynolds" OR "John Doe"
 
 * To display assets with property values starting with a specific string (for example: title is Scott Reynolds)
 
-title:Scott&ast;
+title:"Scott"
 
 * To display assets with property values ending with a specific string (for example: title is Scott Reynolds)
 
-title:&ast;Reynolds
+title:"Reynolds"
 
 * To display assets with a property value that contains a specific string (for example: title = Basel Meeting Room)
 
-title:&ast;Meeting&ast;
+title:"Meeting";
 
 * To display assets that contain a particular string and have a specific property value (for example: search for string Adobe in assets having title=John Doe)
 
@@ -196,14 +196,14 @@ Full text search also supports operators such as -, ^, and so on. To search thes
 You can improve the relevance of keywords for particular assets to help boost searches based on the keywords. In other words, the images for which you promote specific keywords appear at the top of the search results when you search based on these keywords.
 
 1. From the Assets UI, open the properties page for the asset for which you want to promote a keyword.
-1. Switch to the **Advanced** tab and click/tap **Add** under **Elevate for search keywords**.
+1. Switch to the **[!UICONTROL Advanced]** tab and click/tap **[!UICONTROL Add]** under **[!UICONTROL Elevate for search keywords]**.
 
    ![elevate_for_search](assets/elevate_for_search.png)
 
-1. In the **Search Promote** box, specify a keyword for which you want to boost the search for the image and then click/tap **Add**. In necessary, specify multiple keywords in the same way. 
+1. In the **[!UICONTROL Search Promote]** box, specify a keyword for which you want to boost the search for the image and then click/tap **[!UICONTROL Add]**. In necessary, specify multiple keywords in the same way. 
 
    ![add_search_word](assets/add_search_word.png)
 
-1. Click/tap **Save & Close**.
+1. Click/tap **[!UICONTROL Save & Close]**.
 1. Search for the keyword using the Omnisearch box. The asset for which you promoted this keyword appears among the top search results.
 

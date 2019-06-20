@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 1cdb2dfc-623b-44cf-9a7b-98cfabbb1d0c
 ---
 
-# Variations - Authoring Fragment Content{#variations-authoring-fragment-content}
+# Variations - Authoring Fragment Content {#variations-authoring-fragment-content}
 
 >[!CAUTION]
 >
@@ -194,14 +194,14 @@ Summarizing text is designed to help users reduce the length of their text to a 
 >* [Spanish (es)](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-es)
 >
 
-1. Select **Master** or the required variation.
+1. Select **[!UICONTROL Master]** or the required variation.
 1. Open the full-screen editor.  
 
-1. Select **Summarize text** from the toolbar.
+1. Select **[!UICONTROL Summarize text]** from the toolbar.
 
    ![cf-17](assets/cf-17.png)
 
-1. Specify the target number of words and select **Start**:
+1. Specify the target number of words and select **[!UICONTROL Start]**:
 1. The original text is displayed side-by-side with the proposed summarization:
 
     * Any sentences to be eliminated are highlighted in red, with strike-through.
@@ -210,21 +210,21 @@ Summarizing text is designed to help users reduce the length of their text to a 
 
    ![cfm-6420-23](assets/cfm-6420-23.png)
 
-1. Select **Summarize** to confirm the changes.
+1. Select **[!UICONTROL Summarize]** to confirm the changes.
 
 ### Annotating a Content Fragment {#annotating-a-content-fragment}
 
 To annotate a fragment:
 
-1. Select **Master** or the required variation.
+1. Select **[!UICONTROL Master]** or the required variation.
 1. Open the full-screen editor.
-1. Select some text. The **Annotate** icon becomes available.
+1. Select some text. The **[!UICONTROL Annotate]** icon becomes available.
 
    ![cfm-6420-24](assets/cfm-6420-24.png)
 
 1. A dialog will open. Here you can enter your annotation.  
 
-1. Close the full-screen editor and **Save** the fragment.
+1. Close the full-screen editor and **[!UICONTROL Save]** the fragment.
 
 ### Viewing, Editing, Deleting Annotations {#viewing-editing-deleting-annotations}
 
@@ -238,7 +238,7 @@ Annotations:
 
 * When you delete the entire text to which the annotation was applied, the annotation is deleted as well.  
 
-* Can be listed, and deleted, by selecting the **Annotations** tab in the fragment editor.
+* Can be listed, and deleted, by selecting the **[!UICONTROL Annotations]** tab in the fragment editor.
 
   ![cfm-6420-25](assets/cfm-6420-25.png)
 
@@ -261,7 +261,7 @@ They will be added to the paragraph sequence of the fragment without any formatt
 >There are various methods of adding [images](content-fragments.md#fragments-with-visual-assets) to the fragment and/or page.
 
 1. Position the cursor at the position you want to add the image.
-1. Use the **Insert Asset** icon to open the search dialog.
+1. Use the **[!UICONTROL Insert Asset]** icon to open the search dialog.
 
    ![cf-insertasset-icon](assets/cf-insertasset-icon.png)
 
@@ -272,7 +272,7 @@ They will be added to the paragraph sequence of the fragment without any formatt
 
    Once located, select the required asset by clicking on the thumbnail.
 
-1. Use **Select** to add the asset to the paragraph system of your content fragment at the current location.
+1. Use **[!UICONTROL Select]** to add the asset to the paragraph system of your content fragment at the current location.
 
    >[!CAUTION]
    >
@@ -290,10 +290,10 @@ Variations allow you to take the **Master** content and vary it according to pur
 To create a new variation:
 
 1. Open your fragment and ensure that the side panel is visible.
-1. Select **Variations** from the icon bar in the side panel.
-1. Select **Create Variation**.
-1. A dialog will open, specify the **Title** and **Description** for the new variation.
-1. Select **Add**; the fragment **Master** will be copied to the new variation, which is now open for [editing](#editing-a-variation).
+1. Select **[!UICONTROL Variations]** from the icon bar in the side panel.
+1. Select **[!UICONTROL Create Variation]**.
+1. A dialog will open, specify the **[!UICONTROL Title]** and **[!UICONTROL Description]** for the new variation.
+1. Select **[!UICONTROL Add]**; the fragment **[!UICONTROL Master]** will be copied to the new variation, which is now open for [editing](#editing-a-variation).
 
    >[!NOTE]
    >
@@ -312,13 +312,13 @@ You can make changes to the variation content after either:
 
 To rename an existing variation:
 
-1. Open your fragment and select **Variations** from the side panel.
+1. Open your fragment and select **[!UICONTROL Variations]** from the side panel.
 1. Select the required variation.
-1. Select **Rename** from the ***Actions*** drop down.
+1. Select **[!UICONTROL Rename]** from the **[!UICONTROL Actions]** drop down.
 
-1. Enter the new **Title** and/or **Description** in the resulting dialog box.
+1. Enter the new **[!UICONTROL Title]** and/or **[!UICONTROL Description]** in the resulting dialog box.
 
-1. Confirm the **Rename** action.
+1. Confirm the **[!UICONTROL Rename]** action.
 
 >[!NOTE]
 >
@@ -328,11 +328,11 @@ To rename an existing variation:
 
 To delete an existing variation:
 
-1. Open your fragment and select **Variations** from the side panel.
+1. Open your fragment and select **[!UICONTROL Variations]** from the side panel.
 1. Select the required variation.
-1. Select **Delete** from the ***Actions*** drop down.
+1. Select **[!UICONTROL Delete]** from the **[!UICONTROL Actions]** drop down.
 
-1. Confirm the **Delete** action in the dialog.
+1. Confirm the **[!UICONTROL Delete]** action in the dialog.
 
 >[!NOTE]
 >
@@ -365,5 +365,5 @@ When editing a variation you have access to the action for synchronizing the cur
 
    ![cfm-6420-27](assets/cfm-6420-27.png)
 
-1. Select **Synchronize**, the variation will updated and shown.
+1. Select **[!UICONTROL Synchronize]**, the variation will updated and shown.
 

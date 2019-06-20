@@ -88,7 +88,9 @@ The **Content Fragment Model Editor** has two parts:
   
       `/libs/settings/dam/cfm/models/formbuilderconfig/datatypes`
   
+      <!-- Please uncomment when file is used
       This node contains all the data types currently supported in the model editor. For more information on how to configure the data types, see [Customizing Data Types for Content Fragment Models](/help/sites-developing/customizing-content-fragment-model-data-types.md).
+      -->
   
     * All rendered data types have two script tags that, when instantiated, will form the view (the component rendered on the left side) and the **Properties** tab, which defines the properties that a user can define for a given component.
 
@@ -98,7 +100,9 @@ The **Content Fragment Model Editor** has two parts:
 >
 >This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).
 
+<!-- Please uncomment when files are used
 The properties on the right side define a form that is submitted directly into JCR under `/conf`; see the path in the example [Structure of a Model](/help/sites-developing/customizing-content-fragment-models.md#structure-of-a-model).
+-->
 
 When a data type is instantiated, HTML inputs are created for every property the component needs to be rendered in a content fragment. For example, these include:
 
