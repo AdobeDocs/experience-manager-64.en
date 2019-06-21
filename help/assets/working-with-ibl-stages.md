@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 658ff671-16b9-41bd-ba24-b77a32b3346b
 ---
 
-# About working with IBL stages{#about-working-with-ibl-stages}
+# About working with IBL stages {#about-working-with-ibl-stages}
 
 AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine™ renderer and third-party renderers. You can create IBL stages with common authoring tools such as Autodesk® Maya® or Autodesk® 3ds Max®.
 

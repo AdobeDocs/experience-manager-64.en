@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 65040923-a8a8-4e27-82c0-67a04348e238
 ---
 
-# Viewing 3D assets{#viewing-d-assets}
+# Viewing 3D assets {#viewing-d-assets}
 
 This document describes both how to view 3D assets in asset details and how to view assets that are in the 3D component in sites.
 
