@@ -433,8 +433,8 @@ See [Version Purging](/help/sites-deploying/version-purging.md) for more informa
 
 **Day CQSE HTTP Service** Control the CQ Servlet Engine:
 
-* **NIO for HTTP, **Whether or not to use NIO for HTTP. Defaults to true. Only used if HTTP is enabled.
-* **Connection Timeout, **Connection timeout in milliseconds. This property applies to both HTTP and HTTPS connections. Defaults to 60 seconds.   
+* **NIO for HTTP**, Whether or not to use NIO for HTTP. Defaults to true. Only used if HTTP is enabled.
+* **Connection Timeout**, Connection timeout in milliseconds. This property applies to both HTTP and HTTPS connections. Defaults to 60 seconds.   
 
 * **Enable HTTPS,** Whether or not HTTPS is enabled. Defaults to false.
 * **Session Timeout**, Default lifetime of an HTTP session specified in minutes. If the timeout is 0 or less, sessions will never timeout. Defaults to 10 minutes.
@@ -452,7 +452,7 @@ The following properties only apply if HTTPS is enabled.
 * **Key Password**, Password to unlock the secret key in the Keystore. 
 * **Client Certificate**, Requirement for the Client to provide a valid certifcate. Defaults to none.
 
-See also [Enabling HTTP Over SSL](/help/sites-deploying/config-ssl.md) for details on the SSL-related options and a complete description on how to enable HTTPS for CQSE.
+See also [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md) for details on the SSL-related options and a complete description on how to enable HTTPS for CQSE.
 
 **CQ Rewriter HTML Parser Factory**
 

@@ -108,11 +108,15 @@ To be removed:
 [Device Control Center](device-control-center.md)
 [repository-restructuring-in-aem64](repository-restructuring-in-aem64.md)
 [Web Console] (configuring-web-console.md)
+[Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
+[Kickstart Guide](kickstart-for-aem-screens.md)
+/help/sites/deploying/using/performance-lp.md
+/help/sites-deploying/do-not-delete-performance-guidelines-pdf.md
+/help/sites-deploying/removing-the-geometrixx-sites.md
+/help/sites-deploying/consistency-check.md
 
 Redirects:
-    [(Redirect)Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
-    [(Redirect)Kickstart Guide](kickstart-for-aem-screens.md)
-    [(Redirect)Glossary](screens-glossary.md)
-    [(Redirect)What is AEM Screens?](aem-screens-introduction.md)
-    [(Enabling HTTP Over SSL)](config-ssl.md) redirect to /content/help/en/experience-manager/6-4/sites-administering/ssl-by-default
+[(Redirect)Glossary](screens-glossary.md) to /help/screens/aem-screens-introduction.md
+[(Redirect)What is AEM Screens?](aem-screens-introduction.md) redirect to /help/screens/aem-screens-introduction.md
+[(Enabling HTTP Over SSL)](config-ssl.md) redirect to /content/help/en/experience-manager/6-4/sites-administering/ssl-by-default
 -->

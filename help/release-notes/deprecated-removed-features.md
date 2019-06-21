@@ -108,6 +108,11 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><p>Support for Adobe Central Migration Bridge service has been deprecated as Adobe Central product is no longer supported.</p> </td> 
    <td> </td> 
   </tr>
+  <tr>
+   <td>Assets</td> 
+   <td><p>Assets Offloading has been deprecated starting with AEM 6.4</p> </td> 
+   <td> </td> 
+  </tr>
  </tbody>
 </table>
 
