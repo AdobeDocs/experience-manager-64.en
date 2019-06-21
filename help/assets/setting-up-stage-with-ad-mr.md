@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: da8fc33b-84ae-4ead-87bb-5a7870a38b1f
 ---
 
-# Setting up a standard stage with Autodesk Maya and Mental Ray{#setting-up-a-standard-stage-with-autodesk-maya-and-mental-ray}
+# Setting up a standard stage with Autodesk Maya and Mental Ray {#setting-up-a-standard-stage-with-autodesk-maya-and-mental-ray}
 
 1. In Maya, create a new, empty scene.
 1. Create a (temporary) reference to a representative model. Doing so helps to facilitate evaluating lighting, setting up cameras, and configuring the renderer.

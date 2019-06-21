@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: eab920f4-b56e-4ed2-9ec1-03f348810ae5
 ---
 
-# Troubleshooting Dynamic Media - Scene7 mode{#troubleshooting-dynamic-media-scene-mode}
+# Troubleshooting Dynamic Media - Scene7 mode {#troubleshooting-dynamic-media-scene-mode}
 
 The following document describes troubleshooting for Dynamic Media running **dynamicmedia_scene7** run mode.
 

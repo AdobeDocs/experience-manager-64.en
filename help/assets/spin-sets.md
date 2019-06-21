@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: afacb3ad-e4ad-4d06-a898-f3f2da8bbb64
 ---
 
-# Spin Sets{#spin-sets}
+# Spin Sets {#spin-sets}
 
 A Spin Set simulates the real-world act of turning an object to examine it. Spin Sets make it possible to view items from any angle, gaining the key visual details from any angle.
 
@@ -62,7 +62,7 @@ To get you up and running quickly with Spin Sets, follow this workflow:
 
 1. [Publish Spin Sets.](publishing-dynamicmedia-assets.md)
 
-   Publishing a Spin Set activates the **The order in which images appear in a spin set matter. Be sure to order them so that the spin is a smooth 360 degree view.URL]** and **[!UICONTROL Embed]** string. In addition, you must [publish the viewer preset](managing-viewer-presets.md). 
+   Publishing a Spin Set activates the order in which images appear in a spin set matter. Be sure to order them so that the spin is a smooth 360 degree view.**[!UICONTROL URL]** and **[!UICONTROL Embed]** string. In addition, you must [publish the viewer preset](managing-viewer-presets.md). 
 
 1. [Link URLs to your Web Application](linking-urls-to-yourwebapplication.md) or [Embed the Video or Image Viewer](embed-code.md).
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 0463205f-75f3-4e65-b9a2-8e5028c801d6
 ---
 
-# Searching Video Assets{#searching-video-assets}
+# Searching Video Assets {#searching-video-assets}
 
 To save time and effort from having to browse through potentially hundreds of videos, use keywords, file properties such as a file's type, or recently modified time stamp to quickly find your file.
 
@@ -84,7 +84,7 @@ You can search for digital assets based on one or more of the following properti
  </tbody>
 </table>
 
-1. On the **Experience Manager** page, in the left rail, tap **Assets**.
+1. On the **[!UICONTROL Experience Manager]** page, in the left rail, tap **[!UICONTROL Assets]**.
 
    If the left rail is not visible, tap the Toggle Rail icon (the lines in the icon will either be dark grey or blue).
 
@@ -106,5 +106,5 @@ You can search for digital assets based on one or more of the following properti
 
       Enter a keyword but instead of pressing Enter, expand a video or audio property list, and then set the values you want.
 
-1. (Optional) Near the bottom of the page, tap **Save Smart Collection**, enter a name for the search. Check **Public** if you want the saved search made available to other users of the Adobe Experience Manager account. Uncheck if you want the search made available only to you when you are signed in to the account. Tap **Save**.
+1. (Optional) Near the bottom of the page, tap **[!UICONTROL Save Smart Collection]**, enter a name for the search. Check **[!UICONTROL Public]** if you want the saved search made available to other users of the Adobe Experience Manager account. Uncheck if you want the search made available only to you when you are signed in to the account. Tap **[!UICONTROL Save]**.
 

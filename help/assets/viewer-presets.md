@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 82bed457-794e-4bf2-bc80-abde24fd2851
 ---
 
-# Applying Dynamic Media viewer presets{#applying-viewer-presets}
+# Applying Dynamic Media viewer presets {#applying-viewer-presets}
 
 A Viewer Preset is a collection of settings that determine how users view rich-media assets on their computer screens and mobile devices. You can apply any viewer presets created by your administrator to an asset.
 

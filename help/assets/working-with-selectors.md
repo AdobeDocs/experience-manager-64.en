@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 262eb911-3dcb-475d-b410-8bcac1347905
 ---
 
-# Working with Selectors{#working-with-selectors}
+# Working with Selectors {#working-with-selectors}
 
 When working with an Interactive Image, Interactive Video, or Carousel Banner, you select assets and you select sites and products for hotspots and image maps to link to. When working with Image Sets, Spin Sets, and Multimedia Sets, you also select assets with the Asset Selector.
 

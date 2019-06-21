@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 2847a92f-9363-48ae-95e0-94628f9ac24e
 ---
 
-# Serial Uploads{#serial-uploads}
+# Serial Uploads {#serial-uploads}
 
 Uploading numerous assets in bulk consumes significant I/O resources, which may adversely impact the performance of your AEM Assets instance. In particular, if you have a slow internet connection, the time to upload drastically increases due to a spike in disk I/O. Moreover, your web browser may introduce additional restrictions to the number of POST requests AEM Assets can handle for concurrent asset uploads. As a result, the upload operation fails or terminate prematurely. In other words, AEM assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
 
