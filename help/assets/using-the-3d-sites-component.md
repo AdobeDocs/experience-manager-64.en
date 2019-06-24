@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9017ab55-6d4a-4306-922f-223ab1b2504b
 ---
 
-# Working with the 3D Sites component{#working-with-the-d-sites-component}
+# Working with the 3D Sites component {#working-with-the-d-sites-component}
 
 AEM 3D includes an AEM Sites component that you can use to implement interactive viewing of 3D models on web pages.
 

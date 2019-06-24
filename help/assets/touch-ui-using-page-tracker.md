@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: dc819c2b-d497-472a-8435-89c8a215f207
 ---
 
-# Using Page Tracker and Embed code in web pages{#using-page-tracker-and-embed-code-in-web-pages}
+# Using Page Tracker and Embed code in web pages {#using-page-tracker-and-embed-code-in-web-pages}
 
 Page Tracker is a piece of JavaScript code that you include in third-party websites' code to enable Adobe Analytics to capture usage data around Adobe Experience Manager (AEM) assets on these websites.
 

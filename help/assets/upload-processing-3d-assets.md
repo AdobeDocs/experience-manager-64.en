@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: a0319701-21eb-4b7f-8b2e-ac81a7a75875
 ---
 
-# About the uploading and processing of 3D assets in AEM{#about-the-uploading-and-processing-of-d-assets-in-aem}
+# About the uploading and processing of 3D assets in AEM {#about-the-uploading-and-processing-of-d-assets-in-aem}
 
 Use standard upload or sync mechanisms to bring 3D assets and their associated referenced files into AEM Assets.
 

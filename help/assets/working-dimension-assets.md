@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4a601c2a-4ea1-4308-8ae8-704155f63c21
 ---
 
-# Working with Adobe Dimension assets{#working-with-adobe-dimension-assets}
+# Working with Adobe Dimension assets {#working-with-adobe-dimension-assets}
 
 The AEM 3D feature pack provides support for Adobe Dimension assets (`.dn` files) in AEM Assets , AEM Sites, and AEM Screens.
 

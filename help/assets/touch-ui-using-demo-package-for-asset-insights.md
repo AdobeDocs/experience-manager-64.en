@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9009619a-ca5e-4586-8c67-b7e72f58e2a2
 ---
 
-# Using demo package for Asset Insights{#using-demo-package-for-asset-insights}
+# Using demo package for Asset Insights {#using-demo-package-for-asset-insights}
 
 Using the demo package, you can enable Adobe Asset Insights to capture data from and generate insights for a sample web page.
 
