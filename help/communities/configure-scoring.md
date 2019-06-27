@@ -17,7 +17,7 @@ The AEM Communities scoring and badges feature provides the ability to identify 
 
 The details of setting up the feature are described at
 
-* [Communities Scoring and Badges](/help/communities/implementing-scoring.md)
+* [Communities Scoring and Badges](implementing-scoring.md)
 
 This page contains additional technical details:
 
@@ -65,13 +65,13 @@ If true, isAssigned indicates the badge was assigned for a role and the badge sh
 
 If false, is Assigned indicates the badge was awarded for an earned score and the badge should be displayed as an image.
 
-Any changes to this behavior should be made in a customized script (either override or overlay). See [Client-side Customizaton](/help/communities/client-customize.md).
+Any changes to this behavior should be made in a customized script (either override or overlay). See [Client-side Customizaton](client-customize.md).
 
 ## Debug Log for Scoring and Badging {#debug-log-for-scoring-and-badging}
 
 To help debug scoring and badging, a custom log file can be setup. The contents of this log file may then be provided to customer support if problems are encountered with the feature.
 
-For detailed instructions, visit [Create a Custom Log File](/help/sites-deploying/monitoring-and-maintaining.md#create-a-custom-log-file).
+For detailed instructions, visit [Create a Custom Log File](/../../help/sites-deploying/monitoring-and-maintaining.md#create-a-custom-log-file).
 
 To quickly setup a slinglog file:
 
@@ -112,13 +112,13 @@ To see log entries
 
 ## UGC for Scoring and Badging {#ugc-for-scoring-and-badging}
 
-It is possible to view the UGC related to scoring and badging when the chosen SRP is either JSRP or MSRP, but not ASRP. (If not familiar with these terms, see [Community Content Storage](/help/communities/working-with-srp.md) and [Storage Resource Provider Overview](/help/communities/srp.md).)
+It is possible to view the UGC related to scoring and badging when the chosen SRP is either JSRP or MSRP, but not ASRP. (If not familiar with these terms, see [Community Content Storage](working-with-srp.md) and [Storage Resource Provider Overview](srp.md).)
 
-The descriptions for accessing scoring and badging data use JSRP, as the UGC is easily accessible using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md).
+The descriptions for accessing scoring and badging data use JSRP, as the UGC is easily accessible using [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md).
 
 **JSRP on author**: experimenting in the author environment results in UGC that is only visible from the author environment.
 
-**JSRP on publish**: similarly, if testing on the publish environment, it will be necessary to access CRXDE Lite with administrative privileges on a publish instance. If the publish instance is running in [production mode](/help/sites-administering/production-ready.md) (nosamplecontent runmode), it will be necessary to [enable CRXDE Lite](/help/sites-administering/enabling-crxde-lite.md).
+**JSRP on publish**: similarly, if testing on the publish environment, it will be necessary to access CRXDE Lite with administrative privileges on a publish instance. If the publish instance is running in [production mode](/../../help/sites-administering/production-ready.md) (nosamplecontent runmode), it will be necessary to [enable CRXDE Lite](/../../help/sites-administering/enabling-crxde-lite.md).
 
 The base location of UGC on JSRP is `/content/usergenerated/asi/jcr/`.
 
@@ -129,7 +129,7 @@ The following APIs are available for use:
 * [com.adobe.cq.social.scoring.api](https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/scoring/api/package-summary.html)
 * [com.adobe.cq.social.badging.api](https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/badging/api/package-summary.html)
 
-The latest Javadocs for the installed [releases](/help/communities/deploy-communities.md#LatestReleases) are available to developers from the Adobe repository. See [Using Maven for Communities: Javadocs](/help/communities/maven.md#javadocs).
+The latest Javadocs for the installed [releases](deploy-communities.md#LatestReleases) are available to developers from the Adobe repository. See [Using Maven for Communities: Javadocs](maven.md#javadocs).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
@@ -139,7 +139,7 @@ The screen shots of repository data come from setting up scoring and badging for
 
 1. An AEM site *with *an unique id (community site created using wizard):
 
-    * using the Getting Started Tutorial (engage) site created during the [getting started tutorial](/help/communities/getting-started.md)
+    * using the Getting Started Tutorial (engage) site created during the [getting started tutorial](getting-started.md)
     * locate the forum page node
 
         * `/content/sites/engage/en/forum/jcr:content`
@@ -165,7 +165,7 @@ The screen shots of repository data come from setting up scoring and badging for
 
 1. An AEM site *without* an unique id:
 
-    * using the [Community Components guide](/help/communities/components-guide.md)
+    * using the [Community Components guide](components-guide.md)
     * locate the forum page node
 
         * `/content/community-components/en/forum/jcr:content`
@@ -263,6 +263,6 @@ Followed by the path to the user's profile, ending in a badges folder, such as
 
 To display a sorted list of members based on points:
 
-* [Leaderboard function](/help/communities/functions.md#leaderboard-function) for inclusion in a community site or group template.
-* [Leaderboard component](/help/communities/enabling-leaderboard.md), the featured component of the Leaderboard function, for page authoring.
+* [Leaderboard function](functions.md#leaderboard-function) for inclusion in a community site or group template.
+* [Leaderboard component](enabling-leaderboard.md), the featured component of the Leaderboard function, for page authoring.
 

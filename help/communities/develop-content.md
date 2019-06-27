@@ -13,8 +13,8 @@ discoiquuid: b97abfc9-62e6-470c-bb86-086e662c8091
 
 # Develop Sandbox Content{#develop-sandbox-content}
 
-**[⇐ Add Clientlibs](/help/communities/add-clientlibs.md)**
+**[⇐ Add Clientlibs](add-clientlibs.md)**
 
-At this point, it is possible to explore community features in the sandbox alongside using [We-Retail Community](/help/sites-developing/we-retail.md), the [Community Components Guide](/help/communities/components-guide.md) and [feature essentials](/help/communities/essentials.md) for reference.
+At this point, it is possible to explore community features in the sandbox alongside using [We-Retail Community](/../../help/sites-developing/we-retail.md), the [Community Components Guide](components-guide.md) and [feature essentials](essentials.md) for reference.
 
-**[⇐ Add Clientlibs](/help/communities/add-clientlibs.md)**
+**[⇐ Add Clientlibs](add-clientlibs.md)**

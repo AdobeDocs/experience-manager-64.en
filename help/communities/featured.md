@@ -17,11 +17,11 @@ discoiquuid: ee39435d-80f5-4758-ae01-1ea0d221b00b
 
 The featured content feature provides an area for signed-in site visitors (community members) in the publish environment to highlight content for
 
-* [blogs](/help/communities/blog-feature.md)
-* [calendars](/help/communities/calendar.md)
-* [forums](/help/communities/forum.md)
-* [ideas](/help/communities/ideation-feature.md)
-* [QnA](/help/communities/working-with-qna.md)
+* [blogs](blog-feature.md)
+* [calendars](calendar.md)
+* [forums](forum.md)
+* [ideas](ideation-feature.md)
+* [QnA](working-with-qna.md)
 
 Once content is flagged as featured, it will be listed within this component, which may be placed in specific landing pages or areas that easily catches the attention of community members.
 
@@ -40,9 +40,9 @@ To add a `Featured Content` component to a page in author mode, use the componen
 
 and drag it into place on a page where the featured contentshould appear.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/essentials-featured.md#essentials-for-client-side) are included, this is how the `Featured Content`component will appear:
+When the [required client-side libraries](essentials-featured.md#essentials-for-client-side) are included, this is how the `Featured Content`component will appear:
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 
@@ -83,6 +83,6 @@ The page containing the `Featured Content` component, will now include this post
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Featured Content](/help/communities/essentials-featured.md) page for developers.
+More information may be found on the [Featured Content](essentials-featured.md) page for developers.
 
-For flagging content as featured, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+For flagging content as featured, see [Moderating User Generated Content](moderate-ugc.md).

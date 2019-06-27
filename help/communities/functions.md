@@ -13,15 +13,15 @@ discoiquuid: cc993b71-e2f2-48e7-ad4e-469cb5ce2dc1
 
 # Community Functions{#community-functions}
 
-The type of features expected from a community experience are well known. Community features are available as community functions. Essentially, they are one or more pages pre-wired to implement a community feature which requires more than simply adding a component to a page in author mode. They are the building blocks used to define the structure of a [community site template](/help/communities/sites.md) from which community sites are [created](/help/communities/sites-console.md).
+The type of features expected from a community experience are well known. Community features are available as community functions. Essentially, they are one or more pages pre-wired to implement a community feature which requires more than simply adding a component to a page in author mode. They are the building blocks used to define the structure of a [community site template](sites.md) from which community sites are [created](sites-console.md).
 
-Once a community site is created, content may be added to the resulting pages using the standard [AEM authoring mode](/help/sites-authoring/editing-content.md).
+Once a community site is created, content may be added to the resulting pages using the standard [AEM authoring mode](/../../help/sites-authoring/editing-content.md).
 
 A number of community functions are immediately available as seen in the community functions console. More community functions will be delivered in future releases and custom functions may also be created.
 
 >[!NOTE]
 >
->The consoles for the creation of [community sites](/help/communities/sites-console.md), [community site templates](/help/communities/sites.md), [community group templates](/help/communities/tools-groups.md) and [community functions](/help/communities/functions.md) are for use only in the author environment.
+>The consoles for the creation of [community sites](sites-console.md), [community site templates](sites.md), [community group templates](tools-groups.md) and [community functions](functions.md) are for use only in the author environment.
 
 ## Community Functions Console {#community-functions-console}
 
@@ -33,7 +33,7 @@ In the author environment, to reach the community functions console
 
 ## Pre-built Functions {#pre-built-functions}
 
-Following is a brief description of the functions delivered with AEM Communities. Each function is comprised of one or more AEM pages containing Communities components wired together into a feature that is easily incorporated into a [community site template](/help/communities/sites.md).
+Following is a brief description of the functions delivered with AEM Communities. Each function is comprised of one or more AEM pages containing Communities components wired together into a feature that is easily incorporated into a [community site template](sites.md).
 
 A community site template provides the structure for a community site including login, user profiles, notifications, messaging, site menu, search, theming, and branding features.
 
@@ -41,7 +41,7 @@ A community site template provides the structure for a community site including 
 
 **Title **and **URL **are properties common to all community functions.
 
-When a community function is added to a community site template or added when [modifying](/help/communities/sites-console.md#modifying-site-properties) the structure of a community site, the function's dialog opens so that the Title and URL may be configured.
+When a community function is added to a community site template or added when [modifying](sites-console.md#modifying-site-properties) the structure of a community site, the function's dialog opens so that the Title and URL may be configured.
 
 #### Configuration Function Details {#configuration-function-details}
 
@@ -51,9 +51,9 @@ When a community function is added to a community site template or added when [m
   (*required*) The text which appears in the menu of features for the site
 
 * **URL** 
-  (*required*) The name used to generate the URI. The name must conform to the [naming conventions](/help/sites-developing/naming-conventions.md) imposed by AEM and JCR.
+  (*required*) The name used to generate the URI. The name must conform to the [naming conventions](/../../help/sites-developing/naming-conventions.md) imposed by AEM and JCR.
 
-For example, using the site created from following the [Getting Started](/help/communities/getting-started.md) tutorial, if
+For example, using the site created from following the [Getting Started](getting-started.md) tutorial, if
 
 * Title = Web Page
 * URL = page
@@ -66,7 +66,7 @@ and the menu link for the page appears as:
 
 ### Activity Stream Function {#activity-stream-function}
 
-The activity stream function is a page with an [Activity Streams component](/help/communities/activities.md) with all views selected (all activities, user activities, and following). See also [Activity Stream Essentials](/help/communities/essentials-activities.md) for developers.
+The activity stream function is a page with an [Activity Streams component](activities.md) with all views selected (all activities, user activities, and following). See also [Activity Stream Essentials](essentials-activities.md) for developers.
 
 When added to a template, the following dialog opens:
 
@@ -86,15 +86,15 @@ When added to a template, the following dialog opens:
 
 ### Assignments Function {#assignments-function}
 
-The assignments function is the basic feature which defines a [community site for enablement](/help/communities/overview.md#enablement-community). It allows for the assignment of enablement resources to community members. See also [Assignments Essentials](/help/communities/essentials-assignments.md) for developers.
+The assignments function is the basic feature which defines a [community site for enablement](overview.md#enablement-community). It allows for the assignment of enablement resources to community members. See also [Assignments Essentials](essentials-assignments.md) for developers.
 
-This function is available as a feature of the [enablement add-on](/help/communities/enablement.md). The enablement add-on requires additional licensing for use in a production environment.
+This function is available as a feature of the [enablement add-on](enablement.md). The enablement add-on requires additional licensing for use in a production environment.
 
 When added to a template, the only configuration is for the [Title and URL Settings](#title-and-url-settings).
 
 ### Blog Function {#blog-function}
 
-The blog function is a page with a [Blog component](/help/communities/blog-feature.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation. See also [Blog Essentials](/help/communities/blog-developer-basics.md) for developers.
+The blog function is a page with a [Blog component](blog-feature.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation. See also [Blog Essentials](blog-developer-basics.md) for developers.
 
 When added to a template, the following dialog opens:
 
@@ -102,7 +102,7 @@ When added to a template, the following dialog opens:
 
 * see [Title and URL Settings](#title-and-url-settings)
 * **Allow Privileged Members** 
-  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](/help/communities/users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
+  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the blog will include the ability for members to upload files. Default is checked.
@@ -111,11 +111,11 @@ When added to a template, the following dialog opens:
   if not checked, the blog will allow replies (comments) to an article, but replies to comments are not allowed. Default is checked.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is checked.
+  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ### Calendar Function {#calendar-function}
 
-The calendar function is a page with a [Calendar component](/help/communities/calendar.md) configured to allow tagging. See also [Calendar Essentials](/help/communities/calendar-basics-for-developers.md) for developers.
+The calendar function is a page with a [Calendar component](calendar.md) configured to allow tagging. See also [Calendar Essentials](calendar-basics-for-developers.md) for developers.
 
 When added to a template, the following dialog opens:
 
@@ -126,7 +126,7 @@ When added to a template, the following dialog opens:
   if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
 * **Allow Privileged Members** 
-  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](/help/communities/users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
+  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the blog will include the ability for members to upload files. Default is checked.
@@ -135,13 +135,13 @@ When added to a template, the following dialog opens:
   if not checked, the blog will allow replies (comments) to an article, but replies to comments are not allowed. Default is checked.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is checked.
+  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ### Catalog Function {#catalog-function}
 
-The catalog function provides the ability for [enablement community](/help/communities/overview.md#enablement-community) members to browse enablement resources which are not assigned to them. See [Tagging Enablement Resources](/help/communities/tag-resources.md) and [Catalog Essentials](/help/communities/catalog-developer-essentials.md) for developers.
+The catalog function provides the ability for [enablement community](overview.md#enablement-community) members to browse enablement resources which are not assigned to them. See [Tagging Enablement Resources](tag-resources.md) and [Catalog Essentials](catalog-developer-essentials.md) for developers.
 
-All enablement resources and learning paths for the community site will show in all catalogs if their property, ` [Show in Catalog](/help/communities/resources.md)`, is set to true. To explicitly include resources and learning paths, it is necessary to apply a [pre-filter](/help/communities/catalog-developer-essentials.md#pre-filters) to the catalog.
+All enablement resources and learning paths for the community site will show in all catalogs if their property, ` [Show in Catalog](resources.md)`, is set to true. To explicitly include resources and learning paths, it is necessary to apply a [pre-filter](catalog-developer-essentials.md#pre-filters) to the catalog.
 
 When added to a template, the configuration allows specifying tag namespace(s) used to configure the tag filter presented to site visitors:
 
@@ -157,7 +157,7 @@ When added to a template, the configuration allows specifying tag namespace(s) u
 
 ### Featured Content Function {#featured-content-function}
 
-The featured content function is a page with a [Featured Content component](/help/communities/featured.md) configured to allow comments to be added and deleted.
+The featured content function is a page with a [Featured Content component](featured.md) configured to allow comments to be added and deleted.
 
 The ability to feature content may be allowed or disallowed per component (see [Blog Function](#blog-function), [Calendar Function](#calendar-function), [Forum Function](#forum-function), [Ideation Function](#ideation-function), and [QnA Function](#qna-function)).
 
@@ -165,13 +165,13 @@ When added to a template, the only configuration is for the [Title and URL Setti
 
 ### File Library Function {#file-library-function}
 
-The file library function is a page with a [File Library component](/help/communities/file-library.md) configured to allow comments to be added and deleted.
+The file library function is a page with a [File Library component](file-library.md) configured to allow comments to be added and deleted.
 
 When added to a template, the only configuration is for the [Title and URL Settings](#title-and-url-settings).
 
 ### Forum Function {#forum-function}
 
-The forum function is a page with a [Forum component](/help/communities/forum.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation.
+The forum function is a page with a [Forum component](forum.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation.
 
 When added to a template, the following dialog opens:
 
@@ -184,7 +184,7 @@ When added to a template, the following dialog opens:
   if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
 * **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members group](/help/communities/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
+  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the forum will include the ability for members to upload files. Default is checked.
@@ -193,7 +193,7 @@ When added to a template, the following dialog opens:
   if not checked, the forum will allow comments on a topic, but replies to those comments are not allowed. Default is checked.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is checked.
+  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ### Groups Function {#groups-function}
 
@@ -205,11 +205,11 @@ When added to a template, the following dialog opens:
 
 The groups function provides the ability for community members to create sub-communities within the community site in the publish environment.
 
-Depending on [settings](/help/communities/sites-console.md#groupmanagement) when the Groups function is included in a [community site template](/help/communities/sites.md), the groups can be public or private and one or more community group templates may be configured to provide a choice of templates when the community group is actually created (such as from the publish environment). A [community group template](/help/communities/tools-groups.md) specifies which Communities features are created for the group pages, such as forums and calendars.
+Depending on [settings](sites-console.md#groupmanagement) when the Groups function is included in a [community site template](sites.md), the groups can be public or private and one or more community group templates may be configured to provide a choice of templates when the community group is actually created (such as from the publish environment). A [community group template](tools-groups.md) specifies which Communities features are created for the group pages, such as forums and calendars.
 
-When a community group is created, a member group is dynamically created for the new group, to which members can be assigned or join. For more information, see [Managing Users and User Groups](/help/communities/users.md).
+When a community group is created, a member group is dynamically created for the new group, to which members can be assigned or join. For more information, see [Managing Users and User Groups](users.md).
 
-As of Communities [feature pack 1](/help/communities/deploy-communities.md#latestfeaturepack), community groups are created in the author environment using the [Communities Sites' Groups console](/help/communities/groups.md), and may be created in the publish environment when enabled.
+As of Communities [feature pack 1](deploy-communities.md#latestfeaturepack), community groups are created in the author environment using the [Communities Sites' Groups console](groups.md), and may be created in the publish environment when enabled.
 
 When added to a template, the following dialog opens:
 
@@ -220,7 +220,7 @@ When added to a template, the following dialog opens:
   a pull-down menu that allows selection of one or more enabled group templates from which the future creator of a new community group (in the publish environment) may choose.
 
 * **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](/help/communities/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
+  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow Publish Creation** 
   If checked, it is possible for authorized community members to create a group in the publish environment. If unchecked, new groups (sub-communities) may only be created in the author environment from the Communities Sites' Groups console. 
@@ -229,7 +229,7 @@ When added to a template, the following dialog opens:
 
 ### Ideation Function {#ideation-function}
 
-The ideation function is a page with one [Ideation component](/help/communities/ideation-feature.md).
+The ideation function is a page with one [Ideation component](ideation-feature.md).
 
 When added to a template, the following dialog opens, which specifies the default Title and URL names, as well as default display settings for the template:
 
@@ -237,7 +237,7 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 * see [Title and URL Settings](#title-and-url-settings)
 * **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](/help/communities/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
+  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the idea will include the ability for members to upload files. Default is checked.
@@ -246,13 +246,13 @@ When added to a template, the following dialog opens, which specifies the defaul
   if not checked, the idea will allow replies (comments) to a topic, but replies to comments are not allowed. Default is checked.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is checked.
+  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ### Leaderboard Function {#leaderboard-function}
 
-The leaderboard function is a page with one [Leaderboard component](/help/communities/enabling-leaderboard.md).
+The leaderboard function is a page with one [Leaderboard component](enabling-leaderboard.md).
 
-**NOTE**: the Leaderboard component will need further configuration *after* a community site is created from a community template which includes the Leaderboard funciton. The Leaderboard component's [rules](/help/communities/enabling-leaderboard.md#rules-tab) will need to be specified, which depend on configuration of [scoring and badges](/help/communities/implementing-scoring.md) for the community site.
+**NOTE**: the Leaderboard component will need further configuration *after* a community site is created from a community template which includes the Leaderboard funciton. The Leaderboard component's [rules](enabling-leaderboard.md#rules-tab) will need to be specified, which depend on configuration of [scoring and badges](implementing-scoring.md) for the community site.
 
 When added to a template, the following dialog opens, which specifies the default Title and URL names, as well as default display settings for the template:
 
@@ -276,13 +276,13 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 ### Page Function {#page-function}
 
-The page function adds a blank page to the community site that it is wired into the features of the community site: login, menu, notifications, messaging, theming and branding. Content may be added to the page using the [standard AEM authoring mode](/help/sites-authoring/editing-content.md).
+The page function adds a blank page to the community site that it is wired into the features of the community site: login, menu, notifications, messaging, theming and branding. Content may be added to the page using the [standard AEM authoring mode](/../../help/sites-authoring/editing-content.md).
 
 When added to a template, the only configuration is for the [Title and URL Settings](#title-and-url-settings).
 
 ### QnA Function {#qna-function}
 
-The QnA function is a page with a [QnA component](/help/communities/working-with-qna.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation.
+The QnA function is a page with a [QnA component](working-with-qna.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation.
 
 When added to a template, the configuration allows restriction to privileged members:
 
@@ -293,7 +293,7 @@ When added to a template, the configuration allows restriction to privileged mem
   if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
 * **Allow Privileged Members** 
-  if checked, the QnA forum will only allow privileged members to post questions by allowing selection of a [privileged members group](/help/communities/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
+  if checked, the QnA forum will only allow privileged members to post questions by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the QnA forum will include the ability for members to upload files. Default is checked.
@@ -302,7 +302,7 @@ When added to a template, the configuration allows restriction to privileged mem
   if not checked, the QnA forum will allow for a comments (answers) to a posted question, but replies to answers are not allowed. Default is checked.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is checked.
+  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ## Create Community Function {#create-community-function}
 
@@ -333,9 +333,9 @@ On the `AEM Blueprint` panel, it is possible to select the blueprint which is th
 
 The community function is a mini site comprised of one or more pages, pre-wired for inclusion into a community site including login, user profiles, notifications, messaging, site menu, search, theming, and branding features. Once the function is created, it is possible to [open the function](#open-community-function) in author edit mode and customize the page and/or component settings.
 
-Since the community function is implemented as a [live copy](/help/sites-administering/msm.md#live-copies) of a [blueprint](/help/sites-administering/msm-livecopy.md#creatingablueprint), it is possible to rollout changes made to a function which affects all community site pages created from the [community site template](/help/communities/sites.md) or [community group template](/help/communities/tools-groups.md) that included the function. It is also possible to disassociate a page from its parent blueprint in order to make page-level modifications.
+Since the community function is implemented as a [live copy](/../../help/sites-administering/msm.md#live-copies) of a [blueprint](/../../help/sites-administering/msm-livecopy.md#creatingablueprint), it is possible to rollout changes made to a function which affects all community site pages created from the [community site template](sites.md) or [community group template](tools-groups.md) that included the function. It is also possible to disassociate a page from its parent blueprint in order to make page-level modifications.
 
-See also [Multi Site Manager](/help/sites-administering/msm.md).
+See also [Multi Site Manager](/../../help/sites-administering/msm.md).
 
 ### Thumbnail {#thumbnail}
 
@@ -351,13 +351,13 @@ Select the `Open Community Function` icon to enter author edit mode for authorin
 
 ### Configuring Components {#configuring-components}
 
-A community function is implemented as a Live Copy of an AEM Blueprint, details of which are documented under [Multi Site Manager](/help/sites-administering/msm.md).
+A community function is implemented as a Live Copy of an AEM Blueprint, details of which are documented under [Multi Site Manager](/../../help/sites-administering/msm.md).
 
 It is possible to not only author page content, but to configure components.
 
-If configuring a component on a page of a created community site, it may be necessary to cancel [inheritance](/help/sites-administering/msm-livecopy.md#changing-live-copy-content) in order to configure the component. Inheritance should be re-established when configuration is completed.
+If configuring a component on a page of a created community site, it may be necessary to cancel [inheritance](/../../help/sites-administering/msm-livecopy.md#changing-live-copy-content) in order to configure the component. Inheritance should be re-established when configuration is completed.
 
-For configuration details, visit [Communities Components](/help/communities/author-communities.md) for authors.
+For configuration details, visit [Communities Components](author-communities.md) for authors.
 
 ## Edit Community Function {#edit-community-function}
 

@@ -13,7 +13,7 @@ discoiquuid: bf4e7809-8def-4647-aaa6-3ac36865511f
 
 # Using Reviews and Reviews Summary (Display){#using-reviews-and-reviews-summary-display}
 
-The `Reviews`component is a composite of [ `Comments`](/help/communities/comments.md) and [ `Rating`](/help/communities/rating.md) components ready for use.
+The `Reviews`component is a composite of [ `Comments`](comments.md) and [ `Rating`](rating.md) components ready for use.
 
 The `Reviews Summary (Display)` component provides a summary of an active or closed instance of a `Reviews` component for display elsewhere on the site.
 
@@ -29,9 +29,9 @@ To add a `Reviews` component to a page in author mode, use the component browser
 
 and drag it into place on a page, such as a position relative to the feature for users to review.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews`component will appear.
+When the [required client-side libraries](reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews`component will appear.
 
 ![chlimage_1-340](assets/chlimage_1-340.png)
 
@@ -99,7 +99,7 @@ Under the **Reviews **tab, specify how reviews are handled.
 * **Allow Voting** 
   If checked, include the Voting feature for a topic. Default is unchecked.
 
-Under the **User Moderation **tab, specify how the posted reviews are managed. For more information, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+Under the **User Moderation **tab, specify how the posted reviews are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 ![chlimage_1-345](assets/chlimage_1-345.png)
 
@@ -138,9 +138,9 @@ To add a `Reviews Summary (Display)` component to a page in author mode, locate 
 
 and drag it into place on a page where a summary of an active or closed review is to be displayed.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews Summary (Display)`component will appear.
+When the [required client-side libraries](reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews Summary (Display)`component will appear.
 
 ![chlimage_1-346](assets/chlimage_1-346.png)
 
@@ -160,7 +160,7 @@ Under the **Review Summary** tab
 
 * `Review Path`
 
-  enter or browse to the placed instance of the `reviews`component to summarize, for example, if added to the Web Page of the [Geometrixx Engage site,](/help/communities/getting-started.md) the path would be:
+  enter or browse to the placed instance of the `reviews`component to summarize, for example, if added to the Web Page of the [Geometrixx Engage site,](getting-started.md) the path would be:
 
   /content/sites/engage/en/page/jcr:content/content/primary/reviews
 
@@ -174,7 +174,7 @@ The Reviews component uses the Comment System.
 
 By changing the Comment Resource Type, the comment system will no longer generate an instance of a comment using the default, but rather one that has been customized (extended) by developers.
 
-Once the custom resource types is known, enter [Design Mode](/help/sites-authoring/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
+Once the custom resource types is known, enter [Design Mode](/../../help/sites-authoring/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
 
 Under the **Resource Types **tab, specify the custom resourceType for new instances of the `Comments or Voting`components:
 
@@ -194,7 +194,7 @@ Under the **Resource Types **tab, specify the custom resourceType for new instan
 
 * **Comment System Resource Type** 
 
-  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](/help/communities/scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](/help/communities/handlebars-helpers.md#include)
+  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](handlebars-helpers.md#include)
 
 ## Site Visitor Experience {#site-visitor-experience}
 
@@ -219,8 +219,8 @@ Site visitors who are not signed in may only read posted reviews, translate them
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Review Essentials](/help/communities/reviews-basics.md) page for developers.
+More information may be found on the [Review Essentials](reviews-basics.md) page for developers.
 
-For moderation of posted comments, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+For moderation of posted comments, see [Moderating User Generated Content](moderate-ugc.md).
 
-For translation of posted comments, see [Translating User Generated Content](/help/communities/translate-ugc.md).
+For translation of posted comments, see [Translating User Generated Content](translate-ugc.md).

@@ -19,7 +19,7 @@ Overlay the comment system with a custom version by copying the minimal number o
 >
 >The contents of the /libs folder are never edited because any re-install or upgrade may delete or replace the /libs folder while the contents of the /apps folder is left untouched.
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md) on an author instance, begin by creating a path in the /apps folder which is identical to the path to the overlaid components in the /libs folder.
+Using [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md) on an author instance, begin by creating a path in the /apps folder which is identical to the path to the overlaid components in the /libs folder.
 
 The path being duplicated is
 

@@ -17,12 +17,12 @@ discoiquuid: a726c904-aadd-4678-be84-9e05808ab8be
 
 This section of the AEM Communities documentation is in addition to:
 
-* [How to Build AEM Projects using Apache Maven](/help/sites-developing/ht-projects-maven.md)
+* [How to Build AEM Projects using Apache Maven](/../../help/sites-developing/ht-projects-maven.md)
 
 There are now two "uber" artifacts that replace individual artifacts:
 
 * AEM [Communities API jar](#communities-api-jar-artifact)
-* AEM [Uber API jar](/help/sites-developing/ht-projects-maven.md#what-is-the-uberjar)
+* AEM [Uber API jar](/../../help/sites-developing/ht-projects-maven.md#what-is-the-uberjar)
 
 ## Communities API Jar Artifact {#communities-api-jar-artifact}
 
@@ -41,7 +41,7 @@ Following is an example of a GAV for the AEM Communities API jar:
 The version specified should correspond to the Communities package version installed for AEM Communities. To verify the installed version number:
 
 * login with adminstrative privileges
-* browse to [Package Manager](/help/sites-administering/package-manager.md)  
+* browse to [Package Manager](/../../help/sites-administering/package-manager.md)  
 
   for example, [http://localhost:4502/crx/packmgr/](http://localhost:4502/crx/packmgr/)
 
@@ -55,7 +55,7 @@ The version specified should correspond to the Communities package version insta
 >
 >It is recommended to keep up-to-date with the most recent Communities release. 
 >
->Visit the [Latest Releases](/help/communities/deploy-communities.md#latest-releases) section to identify the most recent version.
+>Visit the [Latest Releases](deploy-communities.md#latest-releases) section to identify the most recent version.
 
 ## Maven Dependency Example {#maven-dependency-example}
 

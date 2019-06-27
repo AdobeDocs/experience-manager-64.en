@@ -24,7 +24,7 @@ The benefits of the framework are that it is ...
 * accessible: the HTTP API supports posting from any client, including mobile apps
 * portable: integrate/embed into any webpage built on any technology
 
-Explore on an author or publish instance using the interactive [Community Components guide](/help/communities/components-guide.md).
+Explore on an author or publish instance using the interactive [Community Components guide](components-guide.md).
 
 ## Overview {#overview}
 
@@ -46,7 +46,7 @@ To customize or extend the components, you write only the overlays and extension
 
 * for Skinning
 
-    * only the [CSS needs editing](/help/communities/client-customize.md#skinning-css)
+    * only the [CSS needs editing](client-customize.md#skinning-css)
 
 * for Look and Feel
 
@@ -54,20 +54,20 @@ To customize or extend the components, you write only the overlays and extension
 
 * for Look, Feel and UX
 
-    * change the JS Template, CSS and [extend/override Javascript](/help/communities/client-customize.md#extending-javascript)
+    * change the JS Template, CSS and [extend/override Javascript](client-customize.md#extending-javascript)
 
 * to modify the information availble to the JS Template or to the GET endpoint
 
-    * extend the [SocialComponent](/help/communities/server-customize.md#socialcomponent-interface)
+    * extend the [SocialComponent](server-customize.md#socialcomponent-interface)
 
 * to add custom processing during operations
 
-    * write an [OperationExtension](/help/communities/server-customize.md#operationextension-class)
+    * write an [OperationExtension](server-customize.md#operationextension-class)
 
 * to add a new custom operation
 
-    * create a new [Sling Post Operation](/help/communities/server-customize.md#postoperation-class)
-    * use existing [OperationServices](/help/communities/server-customize.md#operationservice-class) as needed
+    * create a new [Sling Post Operation](server-customize.md#postoperation-class)
+    * use existing [OperationServices](server-customize.md#operationservice-class) as needed
     * add Javascript code to invoke your operation from the client side as needed
 
 ## Server-Side Framework {#server-side-framework}
@@ -78,9 +78,9 @@ The framework provides APIs to access functionality on the server and support in
 
 The Java APIs provide abstract classes and interfaces which are easily inherited or subclassed.
 
-The main classes are described on the [Server-side Customization](/help/communities/server-customize.md) page.
+The main classes are described on the [Server-side Customization](server-customize.md) page.
 
-Visit [Storage Resource Provider Overview](/help/communities/srp.md) to learn about working with UGC.
+Visit [Storage Resource Provider Overview](srp.md) to learn about working with UGC.
 
 ### HTTP API {#http-api}
 
@@ -118,15 +118,15 @@ There is a Sling POST:operation for every SocialComponent operation. The busines
 
 ### Storage Resource Provider (SRP) {#storage-resource-provider-srp}
 
-To learn about handling UGC stored in the [community content store](/help/communities/working-with-srp.md), see
+To learn about handling UGC stored in the [community content store](working-with-srp.md), see
 
-* [Storage Resource Provider Overview](/help/communities/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](/help/communities/srp-and-ugc.md) - SRP API utility methods and examples
-* [Accessing UGC with SRP](/help/communities/accessing-ugc-with-srp.md) - coding guidelines
+* [Storage Resource Provider Overview](srp.md) - introduction and repository usage overview
+* [SRP and UGC Essentials](srp-and-ugc.md) - SRP API utility methods and examples
+* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
 
 ### Server-side Customizations {#server-side-customizations}
 
-Visit [Server-Side Customizations](/help/communities/server-customize.md) for information on customizing the business logic and behavior of a Communities component on the server-side.
+Visit [Server-Side Customizations](server-customize.md) for information on customizing the business logic and behavior of a Communities component on the server-side.
 
 ## Handlebars JS Templating Language {#handlebars-js-templating-language}
 
@@ -134,7 +134,7 @@ One of the more noticeable changes in the new framework is the use of the [Handl
 
 HBS scripts are simple, logic-less, compile on both server and client, are easy to overlay and customize, and naturally bind with the client UX because HBS supports client side rendering.
 
-The framework provides several [Handlebars helpers](/help/communities/handlebars-helpers.md) that are useful when developing SocialComponents.
+The framework provides several [Handlebars helpers](handlebars-helpers.md) that are useful when developing SocialComponents.
 
 On the server, when Sling resolves a GET request, it identifies the script that will be used to respond to the request. If the script is an HBS template (.hbs), Sling will delegate the request to the Handlebars Engine. The Handlebars Engine will then get the SocialComponent from the appropriate SocialComponentFactory, build a context, and render the HTML.
 
@@ -150,7 +150,7 @@ HTTP access to .hbs files may not be prohibited.
 
 Most Communities components must be *added* as a Sling addressable resource. A select few of the Communities components may be *included* in a template as a non-existing resource to allow for dynamic inclusion and customization of the location at which to write user generated content (UGC).
 
-In either case, the component's [required client libraries](/help/communities/clientlibs.md) must also be present.
+In either case, the component's [required client libraries](clientlibs.md) must also be present.
 
 **Add a Component**
 
@@ -160,24 +160,24 @@ The result is a JCR child node under a par node, which is Sling addressable.
 
 **Include a Component**
 
-Including a component refers to the process of adding a reference to a ["non-existing" resource](/help/communities/srp.md#for-non-existing-resources-ners) (no JCR node) within the template, such as using a scripting language.
+Including a component refers to the process of adding a reference to a ["non-existing" resource](srp.md#for-non-existing-resources-ners) (no JCR node) within the template, such as using a scripting language.
 
 As of AEM 6.1, when a component is dynamically included instead of added, it is possible to edit the component's properties in author *design *mode.
 
 Only a select few of the AEM Communities components may be dynamically included. They are:
 
-* [comments](/help/communities/essentials-comments.md)
-* [rating](/help/communities/rating-basics.md)
-* [reviews](/help/communities/reviews-basics.md)
-* [voting](/help/communities/essentials-voting.md)
+* [comments](essentials-comments.md)
+* [rating](rating-basics.md)
+* [reviews](reviews-basics.md)
+* [voting](essentials-voting.md)
 
-The [Community Components Guide](/help/communities/components-guide.md) allows includable components to be toggled from being added to being included.
+The [Community Components Guide](components-guide.md) allows includable components to be toggled from being added to being included.
 
-**When using Handlebars** templating language, the non-existing resource is included using the [include helper](/help/communities/handlebars-helpers.md#include) by specifying its resourceType:
+**When using Handlebars** templating language, the non-existing resource is included using the [include helper](handlebars-helpers.md#include) by specifying its resourceType:
 
 `{{include this.id path="comments" resourceType="social/commons/components/hbs/comments"}}`
 
-**When using JSP**, a resource is included using the tag [cq:include](/help/sites-developing/taglib.md#lt-cq-include):
+**When using JSP**, a resource is included using the tag [cq:include](/../../help/sites-developing/taglib.md#lt-cq-include):
 
 ```
 <cq:include path="votes" 
@@ -187,11 +187,11 @@ The [Community Components Guide](/help/communities/components-guide.md) allows i
 
 >[!NOTE]
 >
->To add a component to a page dynamically, instead of adding or including it in a template, see [Component Sideloading](/help/communities/sideloading.md).
+>To add a component to a page dynamically, instead of adding or including it in a template, see [Component Sideloading](sideloading.md).
 
 ### Handlebars Helpers {#handlebars-helpers}
 
-See [SCF Handlebars Helpers](/help/communities/handlebars-helpers.md) for a list and description of custom helpers available in SCF.
+See [SCF Handlebars Helpers](handlebars-helpers.md) for a list and description of custom helpers available in SCF.
 
 ## Client-Side Framework {#client-side-framework}
 
@@ -214,24 +214,24 @@ The following are recommended conventions for defining and using CSS classes:
 
 ### Client-Side Customizations {#client-side-customizations}
 
-For customizing the appearance and behavior of a Communities component on the client-side, reference [Client-Side Customizations](/help/communities/client-customize.md), which includes information on:
+For customizing the appearance and behavior of a Communities component on the client-side, reference [Client-Side Customizations](client-customize.md), which includes information on:
 
-* [Overlays](/help/communities/client-customize.md#overlays)
-* [Extensions](/help/communities/client-customize.md#extensions)
-* [HTML Markup](/help/communities/client-customize.md#htmlmarkup)
-* [Skinning CSS](/help/communities/client-customize.md#skinning-css)
-* [Extending Javascript](/help/communities/client-customize.md#extending-javascript)** 
+* [Overlays](client-customize.md#overlays)
+* [Extensions](client-customize.md#extensions)
+* [HTML Markup](client-customize.md#htmlmarkup)
+* [Skinning CSS](client-customize.md#skinning-css)
+* [Extending Javascript](client-customize.md#extending-javascript)** 
   **
 
-* [Clientlibs for SCF](/help/communities/client-customize.md#clientlibs-for-scf)
+* [Clientlibs for SCF](client-customize.md#clientlibs-for-scf)
 
 ## Feature and Component Essentials {#feature-and-component-essentials}
 
-Essential information for developers is described in the [Feature and Component Essentials](/help/communities/essentials.md) section.
+Essential information for developers is described in the [Feature and Component Essentials](essentials.md) section.
 
-Additional developer information may be found in the [Coding Guidelines](/help/communities/code-guide.md) section.
+Additional developer information may be found in the [Coding Guidelines](code-guide.md) section.
 
 ## Troubleshooting {#troubleshooting}
 
-Common concerns and known issues are described in the [Troubleshooting](/help/communities/troubleshooting.md) section.  
+Common concerns and known issues are described in the [Troubleshooting](troubleshooting.md) section.  
 

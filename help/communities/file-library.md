@@ -30,9 +30,9 @@ To add a `File Library` component to a page in author mode, locate the component
 
 and drag it into place on a page.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/essentials-file-library.md#essentials-for-client-side) are included, this is how the `File Library` component will appear:
+When the [required client-side libraries](essentials-file-library.md#essentials-for-client-side) are included, this is how the `File Library` component will appear:
 
 ![chlimage_1-430](assets/chlimage_1-430.png)
 
@@ -80,7 +80,7 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
   If checked, the ability to voter for a file will be enabled. Default is unchecked.
 
 * **Allow Following** 
-  If checked, include the following feature for blog articles, which allows members to be [notified](/help/communities/notifications.md) of new posts. Default is unchecked.
+  If checked, include the following feature for blog articles, which allows members to be [notified](notifications.md) of new posts. Default is unchecked.
 
 * **Allow Threaded Replies** 
   If checked, allow replies to posted comments. Default is unchecked.
@@ -118,8 +118,8 @@ Under the **User Moderation** tab, configure moderation of comments, if comments
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [File Library Essentials](/help/communities/essentials-file-library.md) page for developers.
+More information may be found on the [File Library Essentials](essentials-file-library.md) page for developers.
 
-For moderation of posted topics and comments, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+For moderation of posted topics and comments, see [Moderating User Generated Content](moderate-ugc.md).
 
-For tagging posted topics and comments, see [Tagging User Generated Content](/help/communities/tag-ugc.md).
+For tagging posted topics and comments, see [Tagging User Generated Content](tag-ugc.md).

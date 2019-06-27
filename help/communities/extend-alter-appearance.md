@@ -23,7 +23,7 @@ For a simple demonstration, a visual feature, the avatar shown of the signed-in 
 
 ## Modify the HBS Scripts {#modify-the-hbs-scripts}
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
+Using [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md):
 
 * open [/apps/custom/components/comments/comment/**comment.hbs**](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comment/comment.hbs)
 
@@ -63,7 +63,7 @@ One way to do so is
 
 ## View Modified Comment on Published Sample Page {#view-modified-comment-on-published-sample-page}
 
-[Continuing the experience](/help/communities/extend-sample-page.md#publish-sample-page) on the publish instance, still signed in as the same user, it is now possible to refresh the page in the publish environment to view the modification to remove the avatar:
+[Continuing the experience](extend-sample-page.md#publish-sample-page) on the publish instance, still signed in as the same user, it is now possible to refresh the page in the publish environment to view the modification to remove the avatar:
 
 ![chlimage_1-81](assets/chlimage_1-81.png) 
 

@@ -13,7 +13,7 @@ discoiquuid: 796781e6-5cab-4ea1-b484-0945bc8febbf
 
 # Assignments Essentials{#assignments-essentials}
 
-This page provides the essential information for working with the assignments feature of [enablement community](/help/communities/overview.md#enablement-community) sites.
+This page provides the essential information for working with the assignments feature of [enablement community](overview.md#enablement-community) sites.
 
 The assignments feature is the ability to assign enablement resources and learning paths to members of enablement communities.
 
@@ -26,11 +26,11 @@ The assignments feature is the ability to assign enablement resources and learni
    <td>social/enablement/components/hbs/myassigned</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.enablement.hbs.breadcrumbs<br /> cq.social.enablement.hbs.myassigned<br /> cq.social.enablement.hbs.resource<br /> cq.social.enablement.hbs.learningpath</td> 
   </tr>
   <tr>
@@ -43,7 +43,7 @@ The assignments feature is the ability to assign enablement resources and learni
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="/help/communities/assignments.md">Assignments Feature</a></td> 
+   <td>see <a href="assignments.md">Assignments Feature</a></td> 
   </tr>
  </tbody>
 </table>
@@ -78,7 +78,7 @@ The only possible Combinations of Completion and Success Status are:
 
 ### Assignments Function {#assignments-function}
 
-A community site structure that includes the [Assignments function](/help/communities/functions.md#assignments-function), includes a configured ` [assignments](/help/communities/assignments.md)` component.
+A community site structure that includes the [Assignments function](functions.md#assignments-function), includes a configured ` [assignments](assignments.md)` component.
 
 ### Reference APIs {#reference-apis}
 

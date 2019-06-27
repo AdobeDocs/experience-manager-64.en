@@ -15,44 +15,44 @@ discoiquuid: c012d639-c6e6-4f73-bbd8-78a4baa38c17
 
 ## Overview {#overview}
 
-Tagging of enablement resources allows for filtering of resources and learning paths as members browse [catalogs](/help/communities/functions.md#catalog-function).
+Tagging of enablement resources allows for filtering of resources and learning paths as members browse [catalogs](functions.md#catalog-function).
 
 Essentially:
 
-* [create a tag namespace](/help/sites-administering/tags.md#creating-a-namespace) for each catalog
+* [create a tag namespace](/../../help/sites-administering/tags.md#creating-a-namespace) for each catalog
 
-    * [set tag permissions](/help/sites-administering/tags.md#setting-tag-permissions)
+    * [set tag permissions](/../../help/sites-administering/tags.md#setting-tag-permissions)
 
         * for community members only (closed community)
 
-            * allow read access for the [community site's member group](/help/communities/users.md#publish-group-roles)
+            * allow read access for the [community site's member group](users.md#publish-group-roles)
 
         * for any site visitor, whether signed-in or anonymous (open community)
 
             * allow read access for the `Everyone`group
 
-    * [publish the tags](/help/sites-administering/tags.md#publishing-tags)
+    * [publish the tags](/../../help/sites-administering/tags.md#publishing-tags)
 
-* [define the scope of tags for a community site](/help/communities/sites-console.md#tagging)
+* [define the scope of tags for a community site](sites-console.md#tagging)
 
-    * [configure catalogs that exist in the site's structure](/help/communities/functions.md#catalog-function)
+    * [configure catalogs that exist in the site's structure](functions.md#catalog-function)
 
         * can add tags to the catalog instance to control the list of tags presented in the UI filters
-        * can add [pre-filters](/help/communities/catalog-developer-essentials.md#pre-filters), to restrict a catalog's included resources
+        * can add [pre-filters](catalog-developer-essentials.md#pre-filters), to restrict a catalog's included resources
 
-* [publish the community site](/help/communities/sites-console.md#publishing-the-site)
-* [apply tags to enablement resources](/help/communities/resources.md#create-a-resource) so they may be categorically filtered
-* [publish the enablement resources](/help/communities/resources.md#publish)
+* [publish the community site](sites-console.md#publishing-the-site)
+* [apply tags to enablement resources](resources.md#create-a-resource) so they may be categorically filtered
+* [publish the enablement resources](resources.md#publish)
 
 ## Community Site Tags {#community-site-tags}
 
-When creating or editing a community site, the [Tagging setting](/help/communities/sites-console.md#tagging) sets the scope of tags available for features of the site by selecting a subset of existing tag namespaces.
+When creating or editing a community site, the [Tagging setting](sites-console.md#tagging) sets the scope of tags available for features of the site by selecting a subset of existing tag namespaces.
 
-While tags may be created and added to the community site at any time, it is recommended to design a taxonomy beforehand, similar to designing a database. See [Using Tags](/help/sites-authoring/tags.md).
+While tags may be created and added to the community site at any time, it is recommended to design a taxonomy beforehand, similar to designing a database. See [Using Tags](/../../help/sites-authoring/tags.md).
 
 When later adding tags to an existing community site, it is necessary to save the edit before being able to add the new tag to a catalog function in the site's structure.
 
-For a community site, after the site is published and the tags are published, it is necessary to enable read access to members of the community. See [Setting Tag Permissions](/help/sites-administering/tags.md#setting-tag-permissions).
+For a community site, after the site is published and the tags are published, it is necessary to enable read access to members of the community. See [Setting Tag Permissions](/../../help/sites-administering/tags.md#setting-tag-permissions).
 
 The following is how it appears in CRXDE when an administrator applies read permissions to `/etc/tags/ski-catalog` for the group `Community Enable Members`.
 
@@ -70,7 +70,7 @@ The Catalog function includes a tag setting which defines the tags listed in the
 
 Enablement resources and learning paths will appear in all catalog when `Show in Catalog` is checked. Adding tags to resources and learning paths will allow for pre-filtering into specific catalogs as well as filtering in the catalog UI.
 
-Restricting enablement resources and learning paths to specific catalogs is accomplished by creating [pre-filters](/help/communities/catalog-developer-essentials.md#pre-filters).
+Restricting enablement resources and learning paths to specific catalogs is accomplished by creating [pre-filters](catalog-developer-essentials.md#pre-filters).
 
 The catalog UI allows for visitors to apply a tag filter to the list of resources and learning paths that appear in that catalog.
 

@@ -16,14 +16,14 @@ pagetitle: Configuring Email
 
 AEM Communities uses email for
 
-* [Communities Notifications](/help/communities/notifications.md)
-* [Communities Subscriptions](/help/communities/subscriptions.md)
+* [Communities Notifications](notifications.md)
+* [Communities Subscriptions](subscriptions.md)
 
 By default, the email feature is not functional as it requires specification of an SMTP server and SMTP user.
 
 >[!CAUTION]
 >
->Email for notifications and subscriptions must be configured only on the [primary publisher](/help/communities/deploy-communities.md#primary-publisher).
+>Email for notifications and subscriptions must be configured only on the [primary publisher](deploy-communities.md#primary-publisher).
 
 ## Default Mail Service Configuration {#default-mail-service-configuration}
 
@@ -31,14 +31,14 @@ The default mail service is required for both notifications and subscriptions.
 
 * on the primary publisher
 * signed in with administrator privileges
-* access the [Web Console](/help/sites-deploying/configuring-osgi.md)
+* access the [Web Console](/../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
 * locate the `Day CQ Mail Service`
 * select the edit icon
 
-This is based on the documentation for [Configuring Email Notification](/help/sites-administering/notification.md), but with a difference in that the field `"From" address` is *not* required and should be left empty.
+This is based on the documentation for [Configuring Email Notification](/../../help/sites-administering/notification.md), but with a difference in that the field `"From" address` is *not* required and should be left empty.
 
 For example (filled in with values for illustrative purposes only):
 
@@ -74,7 +74,7 @@ To reach the Communities email configuration instances:
 
 * on the primary publisher
 * signed in with administrator privileges
-* access the [Web Console](/help/sites-deploying/configuring-osgi.md)
+* access the [Web Console](/../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
@@ -159,7 +159,7 @@ In order for the email to be brought into the repository, it is necessary to con
 
 Once the new polling configuration is saved, it is necessary to further modify properties of the subscription email importer in order to change the protocol from `POP3` to `emailreply`
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
+Using [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md):
 
 * on the primary publisher
 * signed in with administrator privileges

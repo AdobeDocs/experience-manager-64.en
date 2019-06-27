@@ -13,7 +13,7 @@ discoiquuid: e8f28cd5-7950-4aab-bf62-3d4ed3d33cbd
 
 # Initial Sandbox Content{#initial-sandbox-content}
 
-In this section, you create the following pages which all use the [page template](/help/communities/initial-app.md#createthepagetemplate):
+In this section, you create the following pages which all use the [page template](initial-app.md#createthepagetemplate):
 
 * SCF Sandbox Site, which will redirect to the English version of the main page
 
@@ -21,11 +21,11 @@ In this section, you create the following pages which all use the [page template
 
         * SCF Play - child of the main page on which to play
 
-Although this tutorial does not delve into [language copies](/help/sites-administering/tc-prep.md), it is designed so the root page may implement detection of the preferred language for the user through the HTML header, and redirect to the appropriate main page for the language. The convention is to use the two-letter country code for the node name of the page, e.g., "en" for English, "fr" for French, and so on.
+Although this tutorial does not delve into [language copies](/../../help/sites-administering/tc-prep.md), it is designed so the root page may implement detection of the preferred language for the user through the HTML header, and redirect to the appropriate main page for the language. The convention is to use the two-letter country code for the node name of the page, e.g., "en" for English, "fr" for French, and so on.
 
 ## Create First Pages {#create-first-pages}
 
-Now that there is a [page template](/help/communities/initial-app.md#createthepagetemplate), we can establish the root page of the website in the /content directory.
+Now that there is a [page template](initial-app.md#createthepagetemplate), we can establish the root page of the website in the /content directory.
 
 1. The standard UI currently provides blueprints for creating sites. As this tutorial is creating a simple site, the classic UI is useful.
 
@@ -33,7 +33,7 @@ Now that there is a [page template](/help/communities/initial-app.md#createthepa
 
    ![chlimage_1-36](assets/chlimage_1-36.png)
 
-   The ability to switch to the classic UI must be [enabled by an administrator](/help/sites-administering/enable-classic-ui.md).
+   The ability to switch to the classic UI must be [enabled by an administrator](/../../help/sites-administering/enable-classic-ui.md).
 
 1. From the [classic UI Welcome page](http://localhost:4502/welcome.html), select **Websites**.
 
@@ -76,7 +76,7 @@ Now that there is a [page template](/help/communities/initial-app.md#createthepa
 
 ## Add the Design Path {#add-the-design-path}
 
-When ` [/etc/designs/an-scf-sandbox](/help/communities/setup-website.md#setupthedesigntreeetcdesigns)` was created using the designs section of the Tools console, the property ``
+When ` [/etc/designs/an-scf-sandbox](setup-website.md#setupthedesigntreeetcdesigns)` was created using the designs section of the Tools console, the property ``
 
 * `cq:template="/libs/wcm/core/templates/designpage"`
 
@@ -103,5 +103,5 @@ The respository should appear as follows:
 
 >[!NOTE]
 >
->The use of cq:designPath is optional and is unrelated to the [use of clientlibs](/help/communities/develop-app.md#includeclientlibsintemplate), which are essentially required as the SCF components use [clientlibs](/help/communities/client-customize.md#clientlibs-for-scf) to manage their JS and CSS.
+>The use of cq:designPath is optional and is unrelated to the [use of clientlibs](develop-app.md#includeclientlibsintemplate), which are essentially required as the SCF components use [clientlibs](client-customize.md#clientlibs-for-scf) to manage their JS and CSS.
 

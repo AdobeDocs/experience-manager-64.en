@@ -67,13 +67,13 @@ Identify the custom template by adding a `page-template` property to the configu
 
 Be sure to** Save All** and replicate custom code to all AEM instances (custom code is not included when the community site content is published from the console).
 
-The recommended practice for replicating custom code is to [create a package](/help/sites-administering/package-manager.md#creating-a-new-package) and deploy it on all instances.
+The recommended practice for replicating custom code is to [create a package](/../../help/sites-administering/package-manager.md#creating-a-new-package) and deploy it on all instances.
 
 ## Exporting a Community Site {#exporting-a-community-site}
 
 Once a community site is created, it is possible to export the site as an AEM package stored in package manager and available for download and upload.
 
-This is available from the [Communities Sites console](/help/communities/sites-console.md#exporting-the-site).
+This is available from the [Communities Sites console](sites-console.md#exporting-the-site).
 
 Note that UGC and custom code is not included in the community site package.
 
@@ -120,11 +120,11 @@ All UGC may be removed or for a specific site, for example:
 
 * path=/content/usergenerated/asi/mongo/content/sites/engage
 
-This only removes user generated content (entered on publish) and not authored content (entered on author). Therefore, [shadow nodes](/help/communities/srp.md#shadownodes) are not affected.
+This only removes user generated content (entered on publish) and not authored content (entered on author). Therefore, [shadow nodes](srp.md#shadownodes) are not affected.
 
 ### Community User Groups {#community-user-groups}
 
-On all author and publish instances, from the [security console](/help/sites-administering/security.md), locate and remove the [user groups](/help/communities/users.md) that are:
+On all author and publish instances, from the [security console](/../../help/sites-administering/security.md), locate and remove the [user groups](users.md) that are:
 
 * prefixed with `community`
 * followed by [unique site id](#community-unique-site-id)

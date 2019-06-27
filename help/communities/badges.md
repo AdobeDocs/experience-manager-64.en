@@ -22,10 +22,10 @@ The Communities Badges console provides the ability to add custom badges which c
 Currently, badges a community member earns or is assigned will appear along with their name and avatar in the following locations:
 
 * profiles
-* [forums](/help/communities/forum.md)
-* [QnA](/help/communities/working-with-qna.md)
-* [leaderboards](/help/communities/enabling-leaderboard.md)
-* [ideation](/help/communities/ideation-feature.md)
+* [forums](forum.md)
+* [QnA](working-with-qna.md)
+* [leaderboards](enabling-leaderboard.md)
+* [ideation](ideation-feature.md)
 
 In the author environment, to reach the Badges console
 
@@ -39,7 +39,7 @@ This console displays the badges currently available and from which new badges c
 
 A badge is created by uploading a suitably small image (72dpi with a height ranging from 26-32 pixels) and providing a name. The badge image is stored in the repository at `/etc/community/badging/images` and is automatically replicated to the publish environment.
 
-If the publish environment is a farm of publishers, it is necessary to configure [user sync](/help/communities/sync.md).
+If the publish environment is a farm of publishers, it is necessary to configure [user sync](sync.md).
 
 ![chlimage_1-243](assets/chlimage_1-243.png)
 
@@ -61,6 +61,6 @@ If the publish environment is a farm of publishers, it is necessary to configure
 
 ## Additional Information {#additional-information}
 
-For details on setting up scoring and badging rules, see [Scoring and Badges](/help/communities/implementing-scoring.md).
+For details on setting up scoring and badging rules, see [Scoring and Badges](implementing-scoring.md).
 
-For managing badges for members, see [Members Console](/help/communities/members.md).
+For managing badges for members, see [Members Console](members.md).
