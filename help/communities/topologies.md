@@ -11,7 +11,7 @@ topic-tags: deploying
 discoiquuid: 46f135de-a0bf-451d-bdcc-fb29188250aa
 ---
 
-# Recommended Topologies for Communities{#recommended-topologies-for-communities}
+# Recommended Topologies for Communities {#recommended-topologies-for-communities}
 
 As of AEM Communities 6.1, a unique approach has been adopted for handling user generated content (UGC) submitted by site visitors (members) from the publish environment.
 
@@ -31,7 +31,7 @@ Requiring a common store results in the following recommended topologies.
 
 >[!NOTE]
 >
->For AEM Communities, [UGC is never replicated](working-with-srp.md#ugc-never-replicated). 
+>For AEM Communities, [UGC is never replicated](working-with-srp.md#ugc-never-replicated).
 >
 >When the deployment does not include a [common store](working-with-srp.md), UGC will be visible only on the AEM publish or author instance on which it was entered.
 
@@ -51,7 +51,7 @@ Two examples:
 
 For both, the deployment may be based on any OAK microkernel.
 
-To choose the appropriate common store, carefully consider the unique [characteristics](working-with-srp.md#srpoptionscharacteristics) of each.
+To choose the appropriate common store, carefully consider the unique [characteristics](working-with-srp.md#characteristics-of-srp-options) of each.
 
 For more details on Oak microkernals, visit [Recommended Deployments](../../help/sites-deploying/recommended-deploys.md).
 
@@ -64,66 +64,19 @@ When the topology is a publish farm, relevant topics of importance are
 
 ### Recommended: DSRP, MSRP or ASRP {#recommended-dsrp-msrp-or-asrp}
 
-<table> 
- <tbody>
-  <tr>
-   <td>MicroKernel</td> 
-   <td>SITE CONTENT<br /> REPOSITORY</td> 
-   <td>USER GENERATED CONTENT<br /> REPOSITORY</td> 
-   <td>STORAGE RESOURCE PROVIDER</td> 
-   <td>COMMON STORE </td> 
-  </tr>
-  <tr>
-   <td>any</td> 
-   <td>JCR</td> 
-   <td>MySQL</td> 
-   <td>DSRP</td> 
-   <td>Yes</td> 
-  </tr>
-  <tr>
-   <td>any</td> 
-   <td>JCR</td> 
-   <td>MongoDB</td> 
-   <td>MSRP</td> 
-   <td>Yes</td> 
-  </tr>
-  <tr>
-   <td>any</td> 
-   <td>JCR</td> 
-   <td>Adobe on-demand<br /> storage</td> 
-   <td>ASRP</td> 
-   <td>Yes</td> 
-  </tr>
- </tbody>
-</table>
+| MicroKernel | SITE CONTENTREPOSITORY | USER GENERATED CONTENTREPOSITORY | STORAGE RESOURCE PROVIDER | COMMON STORE  |
+|-------------|------------------------|----------------------------------|---------------------------|---------------|
+| any         | JCR                    | MySQL                            | DSRP                      | Yes           |
+| any         | JCR                    | MongoDB                          | MSRP                      | Yes           |
+| any         | JCR                    | Adobe on-demandstorage           | ASRP                      | Yes           |
 
 ### JSRP {#jsrp}
 
-<table> 
- <tbody>
-  <tr>
-   <td>Deployment</td> 
-   <td>SITE CONTENT<br /> REPOSITORY</td> 
-   <td>USER GENERATED CONTENT<br /> REPOSITORY</td> 
-   <td>STORAGE RESOURCE PROVIDER</td> 
-   <td>COMMON STORE </td> 
-  </tr>
-  <tr>
-   <td>TarMK Farm (default)</td> 
-   <td>JCR</td> 
-   <td>JCR</td> 
-   <td>JSRP</td> 
-   <td>No<br /> </td> 
-  </tr>
-  <tr>
-   <td>Oak Cluster</td> 
-   <td>JCR</td> 
-   <td>JCR</td> 
-   <td>JSRP</td> 
-   <td>Yes<br /> for publish environment only</td> 
-  </tr>
- </tbody>
-</table>
+
+| Deployment           | SITE CONTENTREPOSITORY | USER GENERATED CONTENTREPOSITORY | STORAGE RESOURCE PROVIDER | COMMON STORE                    |
+|----------------------|------------------------|----------------------------------|---------------------------|---------------------------------|
+| TarMK Farm (default) | JCR                    | JCR                              | JSRP                      | No                              |
+| Oak Cluster          | JCR                    | JCR                              | JSRP                      | Yesfor publish environment only |
 
 ## For Development {#for-development}
 
@@ -152,4 +105,3 @@ If choosing [ASRP](asrp.md), [DSRP](dsrp.md) or [MSRP](msrp.md) for production, 
 * [Storage Elements in AEM 6.3](../../help/sites-deploying/storage-elements-in-aem-6.md)
 
   Describes the two node storage implementations: Tar and MongoDB.
-
