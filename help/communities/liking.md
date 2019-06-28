@@ -23,9 +23,9 @@ To add a `Liking` component to a page in author mode, use the component browser 
 
 and drag it into place on a page, such as a position relative to the feature for users to like.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/essentials-liking.md#essentials-for-client-side) are included, this is how the `Liking` component will appear.
+When the [required client-side libraries](essentials-liking.md#essentials-for-client-side) are included, this is how the `Liking` component will appear.
 
 ![chlimage_1-93](assets/chlimage_1-93.png)
 
@@ -60,4 +60,4 @@ Anonymous liking is not supported. Site visitors must register (become a member)
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Liking Essentials](/help/communities/essentials-liking.md) page for developers.
+More information may be found on the [Liking Essentials](essentials-liking.md) page for developers.

@@ -26,11 +26,11 @@ In contrast to pinning a post to the top of a forum, this feature allows for con
    <td>social/commons/components/hbs/featuredcontent</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td> <i>default</i></td> 
   </tr>
   <tr>
@@ -43,13 +43,13 @@ In contrast to pinning a post to the top of a forum, this feature allows for con
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="/help/communities/featured.md">Featured Content</a></td> 
+   <td>see <a href="featured.md">Featured Content</a></td> 
   </tr>
  </tbody>
 </table>
 
-* [Client-side Customizations](/help/communities/client-customize.md)
+* [Client-side Customizations](client-customize.md)
 
 ### File Library Function {#file-library-function}
 
-A community site structure that includes the [Featured Content function](/help/communities/functions.md#featured-content-function), includes a configured `featured content` component.
+A community site structure that includes the [Featured Content function](functions.md#featured-content-function), includes a configured `featured content` component.

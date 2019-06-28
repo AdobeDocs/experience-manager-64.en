@@ -37,9 +37,9 @@ To add a `Forum` component to a page in author mode, use the component browser t
 
 and drag it into place on a page where the forum should appear.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/essentials-forum.md#essentials-for-client-side) are included, this is how the `Forum`component will appear:
+When the [required client-side libraries](essentials-forum.md#essentials-for-client-side) are included, this is how the `Forum`component will appear:
 
 ![chlimage_1-60](assets/chlimage_1-60.png)
 
@@ -72,16 +72,16 @@ Under the **Settings **tab, specify settings for topics and replies:
   If checked, allow file attachments to be added to the topic or comment. Default is unchecked.
 
 * **Allow Following** 
-  If checked, include the following feature for forum posts, which allows members to be [notified](/help/communities/notifications.md) of new posts. Default is unchecked.
+  If checked, include the following feature for forum posts, which allows members to be [notified](notifications.md) of new posts. Default is unchecked.
 
 * **Allow Pinning** 
   If checked, forum topics may be pinned to the top of the list of topics. Default is unchecked.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is unchecked.
+  if checked, the idea is able to be identified as [featured content](featured.md). Default is unchecked.
 
 * **Allow Email Subscriptions** 
-  If checked, allow members to be notified of new posts by email ([subscription](/help/communities/subscriptions.md)). Requires `Allow Following` to be checked and [email configured](/help/communities/email.md). Default is unchecked.
+  If checked, allow members to be notified of new posts by email ([subscription](subscriptions.md)). Requires `Allow Following` to be checked and [email configured](email.md). Default is unchecked.
 
 * **Max File Size** 
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
@@ -105,7 +105,7 @@ Under the **Settings **tab, specify settings for topics and replies:
   If checked, show navigational breadcrumbs on topic pages. Default is checked.
 
 * **Display Badges** 
-  If checked, display earned and assigned [badges](/help/communities/implementing-scoring.md) with a member's blog entry. Default is unchecked.
+  If checked, display earned and assigned [badges](implementing-scoring.md) with a member's blog entry. Default is unchecked.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Under the **Settings **tab, specify settings for topics and replies:
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation **tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+Under the **User Moderation **tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 * **Deny Posts** 
   If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is unchecked.
@@ -171,10 +171,10 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Forum Essentials](/help/communities/essentials-forum.md) page for developers.
+More information may be found on the [Forum Essentials](essentials-forum.md) page for developers.
 
-For moderation of posted topics and comments, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+For moderation of posted topics and comments, see [Moderating User Generated Content](moderate-ugc.md).
 
-For tagging posted topics and comments, see [Tagging User Generated Content](/help/communities/tag-ugc.md).
+For tagging posted topics and comments, see [Tagging User Generated Content](tag-ugc.md).
 
-For translation of posted topics and comments, see [Translating User Generated Content](/help/communities/translate-ugc.md).
+For translation of posted topics and comments, see [Translating User Generated Content](translate-ugc.md).

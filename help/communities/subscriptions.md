@@ -15,9 +15,9 @@ discoiquuid: 33c85af4-4c56-487a-ba60-55211cb9f72c
 
 ## Overview {#overview}
 
-As of Communities [FP1](/help/communities/deploy-communities.md#latestfeaturepack), community members may interact with the community through email using a feature referrred to as subscriptions.
+As of Communities [FP1](deploy-communities.md#latestfeaturepack), community members may interact with the community through email using a feature referrred to as subscriptions.
 
-Subscriptions are similar to [notifications](/help/communities/notifications.md) as members may subscribe when following blog articles, forum topics or QnA questions.
+Subscriptions are similar to [notifications](notifications.md) as members may subscribe when following blog articles, forum topics or QnA questions.
 
 What distinguishes subscriptions from notifications is:
 
@@ -31,11 +31,11 @@ What distinguishes subscriptions from notifications is:
 
 Email must be configured in order for subscriptions to be functional and for members to reply by email.
 
-For instructions on setting up email, see [Configuring Email](/help/communities/email.md).
+For instructions on setting up email, see [Configuring Email](email.md).
 
 **Enable Subscriptions and Follow**
 
-Components must be configured to enable subscriptions *and* following. Features that allow subscriptions are [blog](/help/communities/blog-feature.md), [forum](/help/communities/forum.md) and [QnA](/help/communities/working-with-qna.md).
+Components must be configured to enable subscriptions *and* following. Features that allow subscriptions are [blog](blog-feature.md), [forum](forum.md) and [QnA](working-with-qna.md).
 
 ## Subscriptions from Following {#subscriptions-from-following}
 
@@ -57,13 +57,13 @@ The **Follow **button will include the `Email Subscriptions` option only when a 
 
 ## Reply by Email {#reply-by-email}
 
-When email is [configured for replying by email](/help/communities/email.md#configure-polling-importer), the member who subscribed will receive an email with the posted content and a link to the online content.
+When email is [configured for replying by email](email.md#configure-polling-importer), the member who subscribed will receive an email with the posted content and a link to the online content.
 
 If they reply to the email, the content they enter in the reply will appear as content online.
 
 ![chlimage_1-6](assets/chlimage_1-6.png)
 
-The amount of time it takes for a reply to be posted is controlled by the [polling importer's update interval](/help/communities/email.md#configure-polling-importer).
+The amount of time it takes for a reply to be posted is controlled by the [polling importer's update interval](email.md#configure-polling-importer).
 
 ![chlimage_1-7](assets/chlimage_1-7.png)
 

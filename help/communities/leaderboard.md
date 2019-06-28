@@ -15,7 +15,7 @@ discoiquuid: 7449f99e-77d7-4c0f-96d5-b67d5e1f124a
 
 This page provides the essential information for working with the leaderboard feature.
 
-Prior to including the leaderboard component on a page, it is necessary to configure [Communities Scoring and Badges](/help/communities/implementing-scoring.md). See also [Scoring and Badges Essentials](/help/communities/configure-scoring.md).
+Prior to including the leaderboard component on a page, it is necessary to configure [Communities Scoring and Badges](implementing-scoring.md). See also [Scoring and Badges Essentials](configure-scoring.md).
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
@@ -26,11 +26,11 @@ Prior to including the leaderboard component on a page, it is necessary to confi
    <td>social/gamification/components/hbs/leaderboard</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.gamification.hbs.leaderboard</td> 
   </tr>
   <tr>
@@ -43,13 +43,13 @@ Prior to including the leaderboard component on a page, it is necessary to confi
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="/help/communities/enabling-leaderboard.md">Leaderboard Feature</a></td> 
+   <td>see <a href="enabling-leaderboard.md">Leaderboard Feature</a></td> 
   </tr>
  </tbody>
 </table>
 
-* [Client-side Customizations](/help/communities/client-customize.md)
+* [Client-side Customizations](client-customize.md)
 
 ### File Library Function {#file-library-function}
 
-A community site structure that includes the [Leaderboard function](/help/communities/functions.md#leaderboard-function), includes a configured `leaderboard` component.
+A community site structure that includes the [Leaderboard function](functions.md#leaderboard-function), includes a configured `leaderboard` component.

@@ -13,7 +13,7 @@ discoiquuid: 1ef15e76-fe7c-4ced-a20d-c0a9385e3ee4
 
 # Enablement Resources Console{#enablement-resources-console}
 
-For AEM Communities, the Resources console is where [Enablement Managers](/help/communities/users.md) create, manage and assign resources to members of an enablement community site.
+For AEM Communities, the Resources console is where [Enablement Managers](users.md) create, manage and assign resources to members of an enablement community site.
 
 ## Requirements {#requirements}
 
@@ -22,7 +22,7 @@ Before adding enablement resources for a community site, the AEM instances must 
 * SCORM
 * FFmpeg
 
-For details, see [Configuring Enablement](/help/communities/enablement.md).
+For details, see [Configuring Enablement](enablement.md).
 
 >[!CAUTION]
 >
@@ -30,13 +30,13 @@ For details, see [Configuring Enablement](/help/communities/enablement.md).
 
 >[!NOTE]
 >
->With the release of [AEM 6.3](/help/communities/deploy-communities.md#latestfeaturepack) and the equivalent Communities feature packs [AEM 6.2 FP3](/help/communities/deploy-communities.md#latestfeaturepack) and [AEM 6.1 FP7](https://docs.adobe.com/content/docs/en/aem/6-1/deploy/communities.html#Latest Feature Pack), the enablement feature no longer requires a [MySQL database](/help/communities/mysql.md).
+>With the release of [AEM 6.3](deploy-communities.md#latestfeaturepack) and the equivalent Communities feature packs [AEM 6.2 FP3](deploy-communities.md#latestfeaturepack) and [AEM 6.1 FP7](https://docs.adobe.com/content/docs/en/aem/6-1/deploy/communities.html#Latest Feature Pack), the enablement feature no longer requires a [MySQL database](mysql.md).
 
 ## Terminology {#terminology}
 
 ### Resource {#resource}
 
-Resources are essential to an [enablement community](/help/communities/overview.md#enablement-community). They are the materials assigned to members that enable them to improve their skills.
+Resources are essential to an [enablement community](overview.md#enablement-community). They are the materials assigned to members that enable them to improve their skills.
 
 Characteristics of a Resource:
 
@@ -56,13 +56,13 @@ A learning path is a logical set of enablement resources grouped together for ea
 
 ### Members Group {#members-group}
 
-When a community site is created, the name given to the site for the URL is used in the creation of the [site specific user groups](/help/communities/users.md) configured with various permissions for various roles. All of these automatically created groups are prefixed with `Community *<site-name>*`.
+When a community site is created, the name given to the site for the URL is used in the creation of the [site specific user groups](users.md) configured with various permissions for various roles. All of these automatically created groups are prefixed with `Community *<site-name>*`.
 
-One such user group is `Community *<site-name>* Members` group, which identifies registered users in the publish environment as community members. See the tutorial [Getting Started with AEM Communities for Enablement](/help/communities/getting-started-enablement.md) for an example.
+One such user group is `Community *<site-name>* Members` group, which identifies registered users in the publish environment as community members. See the tutorial [Getting Started with AEM Communities for Enablement](getting-started-enablement.md) for an example.
 
-For [engagement communities](/help/communities/overview.md#egagementcommunity), it is reasonable to allow site visitors to self-register or use social login, at which point they are automatically added to the members group.
+For [engagement communities](overview.md#egagementcommunity), it is reasonable to allow site visitors to self-register or use social login, at which point they are automatically added to the members group.
 
-For [enablement communities](/help/communities/overview.md#enablement-community), it is recommended to make the site private which then requires an administrator to add users to the members group.
+For [enablement communities](overview.md#enablement-community), it is recommended to make the site private which then requires an administrator to add users to the members group.
 
 ## Accessing a Community Site's Enablement Resources {#accessing-a-community-site-s-enablement-resources}
 
@@ -137,11 +137,11 @@ When the resource is part of a course, a learning path, members should only be a
 
 * **Tags** 
 
-  (*optional*) One or more tags may be chosen which associate the enablement resource with one or more catalogs. See [Tagging Enablement Resources](/help/communities/tag-resources.md).
+  (*optional*) One or more tags may be chosen which associate the enablement resource with one or more catalogs. See [Tagging Enablement Resources](tag-resources.md).
 
 * **Show in Catalog** 
 
-  When unchecked, the enablement resource will not appear in any catalog. If checked, the enablement resource will appear in all catalogs unless [pre-filtered](/help/communities/catalog-developer-essentials.md#pre-filters) or the member filters from the UI. Default is unchecked.
+  When unchecked, the enablement resource will not appear in any catalog. If checked, the enablement resource will appear in all catalogs unless [pre-filtered](catalog-developer-essentials.md#pre-filters) or the member filters from the UI. Default is unchecked.
 
 * **Description** 
 
@@ -207,7 +207,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 * **Define an External Resource** 
 
-  Enter the location where the material is to be presented. The values for the success status and score are entered manually (see [Reports](/help/communities/reports.md)). An uploaded cover image can be used to provide additional information. 
+  Enter the location where the material is to be presented. The values for the success status and score are entered manually (see [Reports](reports.md)). An uploaded cover image can be used to provide additional information. 
 
   In the dialog which opens, enter:
 
@@ -225,7 +225,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 * **Resource Cover Image** 
 
-  The cover image is an image to be displayed when the enablement resource is first viewed. For example, the cover image is displayed when a video resource is not yet playing. If a custom image is not uploaded, a default image is displayed. For video resources, it may be possible to [generate a thumbnail](/help/communities/enablement.md#ffmpeg), but only when uploaded and not when the video is referenced as an URL. For location resources, the image can be used to provide additional information. 
+  The cover image is an image to be displayed when the enablement resource is first viewed. For example, the cover image is displayed when a video resource is not yet playing. If a custom image is not uploaded, a default image is displayed. For video resources, it may be possible to [generate a thumbnail](enablement.md#ffmpeg), but only when uploaded and not when the video is referenced as an URL. For location resources, the image can be used to provide additional information. 
 
   The recommended size for the cover image is 640 x 360 px.
 
@@ -243,7 +243,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 * **Social Settings** 
 
-  These settings control whether or not learners are able to provide input regarding the enablement resource. The [moderation settings](/help/communities/sites-console.md#moderation) are those of the parent community site.
+  These settings control whether or not learners are able to provide input regarding the enablement resource. The [moderation settings](sites-console.md#moderation) are those of the parent community site.
 
     * **Allow Commenting** 
 
@@ -274,7 +274,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 ![chlimage_1-174](assets/chlimage_1-174.png)
 
 * **Add Assignees** 
-  Use the pulldown menu to select from [members](#members-group) - the users and user groups (listed in bold face) - who are to be enrolled as Learners. When members sign into the community site, the enablement resources (and learning paths) in which they are enrolled will appear on their [Assignments](/help/communities/functions.md#assignments-function) page.
+  Use the pulldown menu to select from [members](#members-group) - the users and user groups (listed in bold face) - who are to be enrolled as Learners. When members sign into the community site, the enablement resources (and learning paths) in which they are enrolled will appear on their [Assignments](functions.md#assignments-function) page.
 
 * select **Create**
 
@@ -323,11 +323,11 @@ For enablement resources included in a learning path, the assignments should onl
 
 * **Tags** 
 
-  (*optional*) One or more tags may be chosen which associate the learning path with one or more catalogs. See [Tagging Enablement Resources](/help/communities/tag-resources.md).
+  (*optional*) One or more tags may be chosen which associate the learning path with one or more catalogs. See [Tagging Enablement Resources](tag-resources.md).
 
 * **Show in Catalog** 
 
-  When unchecked, the learning path will not appear in any catalog. If checked, the learning path will appear in all catalogs unless [pre-filtered](/help/communities/catalog-developer-essentials.md#pre-filters) or the member filters from the UI. Showing the learning path in a catalog will indirectly grant READ access to all its contained resources. Default is unchecked.
+  When unchecked, the learning path will not appear in any catalog. If checked, the learning path will appear in all catalogs unless [pre-filtered](catalog-developer-essentials.md#pre-filters) or the member filters from the UI. Showing the learning path in a catalog will indirectly grant READ access to all its contained resources. Default is unchecked.
 
 * **Description** 
 
@@ -454,7 +454,7 @@ For all learning paths, it is possible to view a report based either on resource
 
 ![chlimage_1-186](assets/chlimage_1-186.png)
 
-This Report is specifically for the current enablement resource or learning path. The depth of reporting provided depends on whether or not [Adobe Analytics](/help/communities/analytics.md) is licensed and enabled for the community site. The [Timeline](#timeline), [Viewer Engagement](#viewer-engagement), and [Engagement by Device](#engagement-by-device) reports are imported from Adobe Analytics based on the [polling interval](/help/communities/analytics.md#report-importer).
+This Report is specifically for the current enablement resource or learning path. The depth of reporting provided depends on whether or not [Adobe Analytics](analytics.md) is licensed and enabled for the community site. The [Timeline](#timeline), [Viewer Engagement](#viewer-engagement), and [Engagement by Device](#engagement-by-device) reports are imported from Adobe Analytics based on the [polling interval](analytics.md#report-importer).
 
 For all enablement resources, regardless of whether or not Adobe Analytics is enabled, there are reports on [Assignee Status](#assignee-status) and [Ratings](#ratings) as well as a [Report Summary](#report-summary) table.
 
@@ -484,7 +484,7 @@ The vertical axis is the number of events.
 
 The horizontal axis is calendar time.
 
-[Adobe Analytics required](/help/communities/sites-console.md#analytics).
+[Adobe Analytics required](sites-console.md#analytics).
 
 #### Viewer Engagement {#viewer-engagement}
 
@@ -494,13 +494,13 @@ The vertical axis is the number of learners who have viewed this resource.
 
 The horizontal axis is the duration of this resource.
 
-[Marketing Cloud Org ID required](/help/communities/sites-console.md#enablement).
+[Marketing Cloud Org ID required](sites-console.md#enablement).
 
 #### Engagement by Device {#engagement-by-device}
 
 The Analytics Engagement by Device report, for video resources, describes the percentage of views that were played from desktop and from mobile.
 
-[Marketing Cloud Org ID required](/help/communities/sites-console.md#enablement).
+[Marketing Cloud Org ID required](sites-console.md#enablement).
 
 #### Assignee Status {#assignee-status}
 
