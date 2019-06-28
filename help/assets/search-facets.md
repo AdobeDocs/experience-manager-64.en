@@ -10,7 +10,7 @@ content-type: reference
 discoiquuid: 4c03f218-6c0c-4482-b10e-a6ccddb30d57
 ---
 
-# Search Facets{#search-facets}
+# Search Facets {#search-facets}
 
 Learn how to create, modify, and use search facets in AEM.
 
@@ -116,10 +116,10 @@ If you want to use an existing node, specify it using the selection dialog.
 >
 >The Options predicate is a custom wrapper that includes property predicates to demonstrate the described behavior. Currently, there is no REST endpoint available to support the functionality natively.
 
-1. Tap the AEM logo, and then go to **Tools** &gt; **General** &gt; **Search Forms**.
-1. From the **Search Forms** page, select **Assets Admin Search Rail**, then tap the Edit icon.
-1. In the **Edit Search Form** page, drag **Options Predicate** from the **Select Predicate** tab to the main pane.
-1. In the **Settings** tab, enter a label and a name for the property. For example, to search assets based on their format, specify a user-friendly name for the label, for example **File Type**. Specify the property based on which the search is to be performed in the property field, for example `jcr:content/metadata/dc:format.`
+1. Tap the AEM logo, and then go to **[!UICONTROL Tools &gt; General &gt; Search Forms]**.
+1. From the **[!UICONTROL Search Forms]** page, select **[!UICONTROL Assets Admin Search Rail]**, then tap the Edit icon.
+1. In the **[!UICONTROL Edit Search Form]** page, drag **[!UICONTROL Options Predicate]** from the **[!UICONTROL Select Predicate]** tab to the main pane.
+1. In the **[!UICONTROL Settings]** tab, enter a label and a name for the property. For example, to search assets based on their format, specify a user-friendly name for the label, for example **[!UICONTROL File Type]**. Specify the property based on which the search is to be performed in the property field, for example `jcr:content/metadata/dc:format.`
 1. Do one of the following:
 
     * In the **[!UICONTROL Property Name]** field, mention the path of the JSON file where you define the nodes for the options and specify corresponding key-value pairs.

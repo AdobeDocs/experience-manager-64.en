@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 99d7025f-d022-4213-83c0-815a4712c573
 ---
 
-# Publishing Dynamic Media Assets{#publishing-dynamic-media-assets}
+# Publishing Dynamic Media Assets {#publishing-dynamic-media-assets}
 
 You publish your Dynamic Media assets by selecting the assets and tapping **[!UICONTROL Publish]**. After your dynamic media assets are published, they are available to you for including in a web page via URL or by way of embedding.
 

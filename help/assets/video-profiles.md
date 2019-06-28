@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: b893f366-279a-4872-9413-77626d3387ea
 ---
 
-# Dynamic Media video profiles{#video-profiles}
+# Dynamic Media video profiles {#video-profiles}
 
 Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. When you encode your master videos using the Adaptive Video Encoding profile, during playback the video player automatically adjusts the quality of the video stream based on the Internet connection speed of your customers. This is known as adaptive streaming.
 

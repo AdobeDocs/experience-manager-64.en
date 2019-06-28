@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 752e521f-198f-425a-abfa-051993f9c694
 ---
 
-# Setting up an IBL stage with Autodesk Maya and Mental Ray{#setting-up-an-ibl-stage-with-autodesk-maya-and-mental-ray}
+# Setting up an IBL stage with Autodesk Maya and Mental Ray {#setting-up-an-ibl-stage-with-autodesk-maya-and-mental-ray}
 
 1. In Maya, create a new, empty scene.  
 

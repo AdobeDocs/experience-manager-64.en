@@ -36,15 +36,15 @@ When organizing a collection of assets, for example, all *Nature* images, you ca
 
 You can limit who can access certain folders in Assets by making the folder part of a closed user group (CUG). To make a folder part of a CUG:
 
-1. In Assets, right-click the folder you want to add closed user group properties for and select **Properties**.  
+1. In Assets, right-click the folder you want to add closed user group properties for and select **[!UICONTROL Properties]**.  
 
-1. Click the **CUG** tab.
+1. Click the **[!UICONTROL CUG]** tab.
 
    ![chlimage_1-248](assets/chlimage_1-248.png)
 
-1. Select the **Enabled** check box to make the folder and its assets available only to a closed user group.  
+1. Select the **[!UICONTROL Enabled]** check box to make the folder and its assets available only to a closed user group.  
 
-1. Browse to the login page, if there is one, to add that information. Add admitted groups by clicking **Add item**. If necessary, add the realm. Click **OK** to save your changes.
+1. Browse to the login page, if there is one, to add that information. Add admitted groups by clicking **[!UICONTROL Add item]**. If necessary, add the realm. Click **[!UICONTROL OK]** to save your changes.
 
 ## Use tags to organize assets {#use-tags-to-organize-assets}
 
@@ -53,8 +53,8 @@ You can use folders or tags or both to organize assets. Adding tags to assets ma
 To add tags to an asset:
 
 1. In the Digital Asset Manager, double-click the asset to open it.
-1. In the **Tags** area, click the drop-down button to reveal the available tags. Select tags as appropriate to add a tag. To delete a tag, hover the mouse over the tag and click the **x** to delete it.
-1. Click **Save** to save any tags you added.
+1. In the **[!UICONTROL Tags]** area, click the drop-down button to reveal the available tags. Select tags as appropriate to add a tag. To delete a tag, hover the mouse over the tag and click the **x** to delete it.
+1. Click **[!UICONTROL Save]** to save any tags you added.
 
 ![Apply tags to assets to organize and categorize them](assets/add-tags-to-assets.png)
 

@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 56c223ea-14b0-4679-b458-c3554e6828fb
 ---
 
-# Multilingual Assets{#multilingual-assets}
+# Multilingual Assets {#multilingual-assets}
 
 Adobe Experience Manager (AEM) Assets lets you automate translation workflows on assets (including binaries, metadata, and tags) to generate assets in other languages for use in multilingual projects.
 
