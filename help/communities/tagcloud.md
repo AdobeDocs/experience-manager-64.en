@@ -23,7 +23,7 @@ This page documents the `Social Tag Cloud` component dialog settings and describ
 
 For detailed information for developers see [Tag Essentials](tag.md).
 
-See [Administering Tags](/../../help/sites-administering/tags.md) for information about creating and managing tags, as well as to which content tags have been applied.
+See [Administering Tags](../../help/sites-administering/tags.md) for information about creating and managing tags, as well as to which content tags have been applied.
 
 ## Adding a Social Tag Cloud {#adding-a-social-tag-cloud}
 
@@ -68,7 +68,7 @@ Under the **Social Tag Cloud** tab, specify which tags to display and, if the ta
 
 ## Change Display of Social Tag Cloud {#change-display-of-social-tag-cloud}
 
-To edit the display of the **Social Tag Cloud**, enter [Design Mode](/../../help/sites-authoring/default-components-designmode.md) and double click on the placed `Social Tag Cloud` component to open a dialog with an additional tab.
+To edit the display of the **Social Tag Cloud**, enter [Design Mode](../../help/sites-authoring/default-components-designmode.md) and double click on the placed `Social Tag Cloud` component to open a dialog with an additional tab.
 
 Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A tag may be a simple tag, a single word in the default namespace, or a hierarchical taxonomy:
 

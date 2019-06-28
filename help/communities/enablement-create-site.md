@@ -39,7 +39,7 @@ On the **Site Template** step, enter a title, description, the name for the URL,
 * **Community Site Root**: (leave blank for default root `/content/sites`)  
 
 * **Cloud Configurations**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations.
-* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](/../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
+* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
 * **Community Site Name**: `enable`
 
@@ -92,7 +92,7 @@ Ensure most checkboxes are unchecked for [User Management](sites-console.md#user
 
 #### TAGGING {#tagging}
 
-The tags which may be applied to community content are controlled by selecting AEM namespaces previously defined through the [Tagging Console](/../../help/sites-administering/tags.md#tagging-console) (such as the [Tutorial namespace](enablement-setup.md#create-tutorial-tags)).
+The tags which may be applied to community content are controlled by selecting AEM namespaces previously defined through the [Tagging Console](../../help/sites-administering/tags.md#tagging-console) (such as the [Tutorial namespace](enablement-setup.md#create-tutorial-tags)).
 
 Further, selecting Tag Namespaces for the community site limits the selection presented when defining catalogs and enablement resources. See [Tagging Enablement Resources](tag-resources.md) for important information.
 
@@ -194,7 +194,7 @@ From left to right they are:
   select the world icon to publish the community site (to localhost:4503 by default)
 
 * **Export Site** 
-  select the export icon to create a package of the community site that is both stored in [package manager](/../../help/sites-administering/package-manager.md) and downloaded.  
+  select the export icon to create a package of the community site that is both stored in [package manager](../../help/sites-administering/package-manager.md) and downloaded.  
   
   Note that UGC is not included in the site package.
 
@@ -260,7 +260,7 @@ Add a `Login Page Mapping` as
 
 When working with the publish site for demonstration purposes, it might be useful to change the default home page to the new site.
 
-To do so requires using [CRX|DE](http://localhost:4503/crx/de) Lite to edit the [resource mapping](/../../help/sites-deploying/resource-mapping.md) table on publish.
+To do so requires using [CRX|DE](http://localhost:4503/crx/de) Lite to edit the [resource mapping](../../help/sites-deploying/resource-mapping.md) table on publish.
 
 To get started
 
@@ -327,7 +327,7 @@ After any modification, remember to **Save** and re-**Publish** the site.
 
 >[!NOTE]
 >
->If not familiar with AEM, view the documentation on [basic handling](/../../help/sites-authoring/basic-handling.md) and a [quick guide to authoring pages](/../../help/sites-authoring/qg-page-authoring.md).
+>If not familiar with AEM, view the documentation on [basic handling](../../help/sites-authoring/basic-handling.md) and a [quick guide to authoring pages](../../help/sites-authoring/qg-page-authoring.md).
 
 ### Add a Catalog {#add-a-catalog}
 

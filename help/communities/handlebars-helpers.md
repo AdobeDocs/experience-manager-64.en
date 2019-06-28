@@ -21,7 +21,7 @@ Handlebars Helpers (helpers) are methods callable from Handlebars scripts to fac
 
 The implementation includes a client-side and a server-side definition. It is also possible for developers to create custom helpers.
 
-The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](/../../help/sites-developing/clientlibs.md):
+The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](../../help/sites-developing/clientlibs.md):
 
 * /etc/clientlibs/social/commons/scf/helpers.js
 
@@ -204,7 +204,7 @@ A block helper that tests the current value of [WCM mode](https://helpx.adobe.co
 
 This helper overrides the Handlebars helper 'i18n'.
 
-See also [Internationalizing Strings in JavaScript Code](/../../help/sites-developing/i18n-dev.md#internationalizing-strings-in-javascript-code).
+See also [Internationalizing Strings in JavaScript Code](../../help/sites-developing/i18n-dev.md#internationalizing-strings-in-javascript-code).
 
 ### parameters {#parameters-5}
 
@@ -236,7 +236,7 @@ This allows the resource to be programmatically customized more easily than is p
 
 Only a select few of Communities components are includable. For AEM 6.1, those that are includable are [comments](essentials-comments.md), [rating](rating-basics.md), [reviews](reviews-basics.md), and [voting](essentials-voting.md).
 
-This helper, appropriate only on the server-side, provides functionality similar to [cq:include](/../../help/sites-developing/taglib.md) for JSP scripts.
+This helper, appropriate only on the server-side, provides functionality similar to [cq:include](../../help/sites-developing/taglib.md) for JSP scripts.
 
 ### parameters {#parameters-6}
 
@@ -276,7 +276,7 @@ This will include a new comments component at `this.id` + /comments
 
 A helper that includes an AEM html client library, which can be a js, a css or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the Handlebars script.
 
-This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](/../../help/sites-developing/taglib.md) for JSP scripts.
+This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](../../help/sites-developing/taglib.md) for JSP scripts.
 
 ### parameters {#parameters-7}
 
@@ -524,7 +524,7 @@ Custom helpers must be implemented on the server-side as well as the client-side
 
 ### Server-side Custom Helpers {#server-side-custom-helpers}
 
-To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](/../../help/sites-developing/the-basics.md#osgi) and install it as part of an OSGi bundle.
+To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](../../help/sites-developing/the-basics.md#osgi) and install it as part of an OSGi bundle.
 
 For example:
 

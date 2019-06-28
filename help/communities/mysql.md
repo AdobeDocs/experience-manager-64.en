@@ -197,7 +197,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 * on each author and publish AEM instance
 * signed in with administrator privileges
-* access the [web console](/../../help/sites-deploying/configuring-osgi.md)
+* access the [web console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -243,7 +243,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 * on each author and publish AEM instance
 * signed in with administrator privileges
-* access the [web console](/../../help/sites-deploying/configuring-osgi.md)
+* access the [web console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -282,7 +282,7 @@ To ensure enablement courses work correctly in all browsers, it is necessary to 
 
 * on each publish AEM instance
 * signed in with administrator privileges
-* access the [web console](/../../help/sites-deploying/configuring-osgi.md)
+* access the [web console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 

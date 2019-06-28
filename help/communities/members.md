@@ -30,7 +30,7 @@ For managing users and groups registered in the *author* environment, is is nece
 
 >[!NOTE]
 >
->With sample content deployed and enabled, many sample users exist in both the author and publish environments. These users will not be present when running with [nosamplecontent runmode](/../../help/sites-administering/production-ready.md).
+>With sample content deployed and enabled, many sample users exist in both the author and publish environments. These users will not be present when running with [nosamplecontent runmode](../../help/sites-administering/production-ready.md).
 
 ## Members Console {#members-console}
 

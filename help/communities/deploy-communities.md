@@ -15,7 +15,7 @@ discoiquuid: d0249609-2a9c-4d3b-92ee-dbc5fbdeaac6
 
 ## Prerequisites {#prerequisites}
 
-* [AEM 6.4 Platform](/../../help/sites-deploying/deploy.md)
+* [AEM 6.4 Platform](../../help/sites-deploying/deploy.md)
 
 * AEM Communities license
 
@@ -27,19 +27,19 @@ discoiquuid: d0249609-2a9c-4d3b-92ee-dbc5fbdeaac6
 
 ## Installation Checklist {#installation-checklist}
 
-**For the [AEM platform](/../../help/sites-deploying/deploy.md#what-is-aem)**
+**For the [AEM platform](../../help/sites-deploying/deploy.md#what-is-aem)**
 
 * install latest [AEM 6.4 Updates](#aem-updates)
 
 * if not using the default ports (4502, 4503), then [configure replication agents](#replication-agents-on-author)
 * [replicate the crypto key](#replicate-the-crypto-key)
-* if supporting globalization, [setup automated translation](/../../help/sites-administering/translation.md)  
+* if supporting globalization, [setup automated translation](../../help/sites-administering/translation.md)  
   
   (sample setup is provided for development)
 
 **For the [Communities capability](overview.md)**
 
-* if deploying a [publish farm](/../../help/sites-deploying/recommended-deploys.md#tarmk-farm), [identify the primary publisher](#primary-publisher)
+* if deploying a [publish farm](../../help/sites-deploying/recommended-deploys.md#tarmk-farm), [identify the primary publisher](#primary-publisher)
 
 * [enable the tunnel service](#tunnel-service-on-author)
 * [enable social login](social-login.md#adobe-granite-oauth-authentication-handler)
@@ -128,7 +128,7 @@ The necessary steps are:
 
 1. repeat steps 3 and 4 on all author and publish instances
 
-Further information on installing bundles is found on the [Web Console](/../../help/sites-deploying/configuring-web-console.md#bundles) page.
+Further information on installing bundles is found on the [Web Console](../../help/sites-deploying/configuring-web-console.md#bundles) page.
 
 #### Example: Installed MySQL Connector Bundle {#example-installed-mysql-connector-bundle}
 
@@ -181,7 +181,7 @@ As installed, all enablement activity is verbosely logged to the system console.
 
 If desired, the log level can be set to WARN for the `RusticiSoftware.*` package.
 
-For working with logs, see [Working with Audit Records and Log Files](/../../help/sites-deploying/monitoring-and-maintaining.md#working-with-audit-records-and-log-files).
+For working with logs, see [Working with Audit Records and Log Files](../../help/sites-deploying/monitoring-and-maintaining.md#working-with-audit-records-and-log-files).
 
 ### AEM Advanced MLS {#aem-advanced-mls}
 
@@ -215,7 +215,7 @@ Alternatively, accessing the package using package share from the local AEM inst
 
 Once in the local AEM instance's package repository, use package manager to install the package.
 
-For more information, visit [How to Work With Packages](/../../help/sites-administering/package-manager.md#package-share).
+For more information, visit [How to Work With Packages](../../help/sites-administering/package-manager.md#package-share).
 
 ## Recommended Deployments {#recommended-deployments}
 
@@ -248,7 +248,7 @@ Therefore, it is necessary to **edit the configuration on all secondary publish 
 For all other (secondary) publish instances in a publish farm:
 
 * sign in with administrator privileges
-* access the [web console](/../../help/sites-deploying/configuring-osgi.md)
+* access the [web console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
@@ -261,7 +261,7 @@ For all other (secondary) publish instances in a publish farm:
 
 Replication is used for site content created in the publish environment, such as community groups, as well as managing members and member groups from the author environment using the [tunnel service](#tunnel-service-on-author).
 
-For the primary publisher, ensure the [Replication Agent Config](/../../help/sites-deploying/replication.md) correctly identifies the publish server and authorized user. The default authorized user, `admin,` already has the appropriate permissions (is a member of `Communities Administrators`).
+For the primary publisher, ensure the [Replication Agent Config](../../help/sites-deploying/replication.md) correctly identifies the publish server and authorized user. The default authorized user, `admin,` already has the appropriate permissions (is a member of `Communities Administrators`).
 
 In order for some other user to have the appropriate permissions, they must be added as a member to the `administrators` user group (also a member of `Communities Administrators`).
 
@@ -306,7 +306,7 @@ To enable the tunnel service:
 
   then [configure the replication agent](#replication-agents-on-author)
 
-* access the [Web Console](/../../help/sites-deploying/configuring-osgi.md)
+* access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -369,7 +369,7 @@ Having the key material stored in the repository, as was the case for AEM 6.2 an
 
 With the key material stored in the repository, the manner for replicating the crypto key from author to other instances is as follows:
 
-Using [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md):
+Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
 * browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 * select `/etc/key`
@@ -382,7 +382,7 @@ Using [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md):
 
 #### Refresh the Granite Crypto Bundle {#refresh-the-granite-crypto-bundle}
 
-* on each publish instance, access the [Web Console](/../../help/sites-deploying/configuring-osgi.md)
+* on each publish instance, access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [https://&lt;server&gt;:&lt;port&gt;/system/console/bundles](http://localhost:4503/system/console/bundles)
 

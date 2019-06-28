@@ -17,7 +17,7 @@ discoiquuid: 0d462ad1-5619-4bb6-9609-bc8987c40a0c
 
 For development and demonstration purposes, it will be necessary to run one author and one publish instance.
 
-To do so, follow the basic AEM [Getting Started](/../../help/sites-deploying/deploy.md#getting-started) instructions, which will result in
+To do so, follow the basic AEM [Getting Started](../../help/sites-deploying/deploy.md#getting-started) instructions, which will result in
 
 * author environment on [localhost:4502](http://localhost:4502/)
 * publish environment on [localhost:4503](http://localhost:4503/)
@@ -36,7 +36,7 @@ For AEM Communities,
 
 >[!NOTE]
 >
->If not familiar with AEM, view the documentation on [basic handling](/../../help/sites-authoring/basic-handling.md) and a [quick guide to authoring pages](/../../help/sites-authoring/qg-page-authoring.md).
+>If not familiar with AEM, view the documentation on [basic handling](../../help/sites-authoring/basic-handling.md) and a [quick guide to authoring pages](../../help/sites-authoring/qg-page-authoring.md).
 
 ## Install Latest Communities Release {#install-latest-communities-release}
 
@@ -126,7 +126,7 @@ See [Social Login with Facebook and Twitter](social-login.md).
 
 Create tags to use for the engage and enablement tutorials, using the tag namespace of `Tutorial`.
 
-Use the [Tagging console](/../../help/sites-administering/tags.md#tagging-console) to create the following tags:
+Use the [Tagging console](../../help/sites-administering/tags.md#tagging-console) to create the following tags:
 
 * `Tutorial: Sports / Baseball`
 * `Tutorial: Sports / Gymnastics`
@@ -139,8 +139,8 @@ Use the [Tagging console](/../../help/sites-administering/tags.md#tagging-consol
 
 Then follow the instructions to
 
-1. [set the tag permissions](/../../help/sites-administering/tags.md#setting-tag-permissions)
-1. [publish the tags](/../../help/sites-administering/tags.md#publishing-tags)
+1. [set the tag permissions](../../help/sites-administering/tags.md#setting-tag-permissions)
+1. [publish the tags](../../help/sites-administering/tags.md#publishing-tags)
 
 Sample package of tags created for the AEM Communities Getting Started Tutorials
 
@@ -152,4 +152,4 @@ It is recommended, but optional, to set [MSRP](msrp.md) (MongoDB) as the [common
 
 For instructions visit [How to Setup MongoDB for Demo](demo-mongo.md).
 
-By default, the installation of the author and publish AEM instances result in user generated content (UGC) being stored in [JCR Tar storage](/../../help/sites-deploying/platform.md) which is accessed using [JSRP](jsrp.md). JSRP is not a common store, which means UGC is visible only on the instance on which it was entered. Typically, UGC is entered on a publish instance and would not be visible in the author environment, resulting in all moderation tasks needing to use the publish instance.
+By default, the installation of the author and publish AEM instances result in user generated content (UGC) being stored in [JCR Tar storage](../../help/sites-deploying/platform.md) which is accessed using [JSRP](jsrp.md). JSRP is not a common store, which means UGC is visible only on the instance on which it was entered. Typically, UGC is entered on a publish instance and would not be visible in the author environment, resulting in all moderation tasks needing to use the publish instance.

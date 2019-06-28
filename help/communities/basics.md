@@ -27,15 +27,15 @@ The available Communities components are listed [here](author-communities.md#ava
 
 >[!NOTE]
 >
->For general authoring information, view the [quick guide to authoring pages](/../../help/sites-authoring/qg-page-authoring.md).
+>For general authoring information, view the [quick guide to authoring pages](../../help/sites-authoring/qg-page-authoring.md).
 >
->If not familiar with AEM, view the documentation on [basic handling](/../../help/sites-authoring/basic-handling.md).
+>If not familiar with AEM, view the documentation on [basic handling](../../help/sites-authoring/basic-handling.md).
 
 ### Entering Design Mode {#entering-design-mode}
 
 If a **Communities** component is not found in the components browser (sidekick), it will be necessary to enter `Design Mode` to add other Communities components. [Required client-side libraries](#required-clientlibs) (clientlibs) may also need to be added.
 
-For details, see [Configuring Components in Design Mode](/../../help/sites-authoring/default-components-designmode.md).
+For details, see [Configuring Components in Design Mode](../../help/sites-authoring/default-components-designmode.md).
 
 Following are images of selecting a few Communities components and viewing them in the components browser:
 
@@ -47,7 +47,7 @@ The selected components are now available in the components browser:
 
 ## Required Clientlibs {#required-clientlibs}
 
-[Client-side libraries](/../../help/sites-developing/clientlibs.md) (clientlibs) are required for the proper functioning (JavaScript) and styling (CSS) of a component.
+[Client-side libraries](../../help/sites-developing/clientlibs.md) (clientlibs) are required for the proper functioning (JavaScript) and styling (CSS) of a component.
 
 When adding a Communities component to a page, if the result is an error or an unexpected appearance, the first thing to try is adding the required clientlibs for the Communities component. For details, see [Clientlibs for Communities Components](clientlibs.md).
 
@@ -71,17 +71,17 @@ Features which use tags: [catalog](catalog.md), [search](search.md), [social tag
 
 For authoring information:
 
-* [Using Tags](/../../help/sites-authoring/tags.md)
+* [Using Tags](../../help/sites-authoring/tags.md)
 
 For administrative information:
 
-* Creating tag namespaces (taxonomy): [Administering Tags](/../../help/sites-administering/tags.md)
+* Creating tag namespaces (taxonomy): [Administering Tags](../../help/sites-administering/tags.md)
 * Community Site configuration: see [TAGGING](sites-console.md#tagging)
-* [Tagging User Generated Content](/../../help/sites-authoring/tags.md)
+* [Tagging User Generated Content](../../help/sites-authoring/tags.md)
 * [Tagging Enablement Resources](tag-resources.md)
 
 For developer information:
 
-* [AEM Tagging Framework](/../../help/sites-developing/framework.md)
+* [AEM Tagging Framework](../../help/sites-developing/framework.md)
 * [Tagging Essentials](tag.md)
 

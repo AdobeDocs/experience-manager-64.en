@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ee786a5c-b985-4d78-9063-6c79ae5e13e6
 ---
 
-# Accessing UGC with SRP{#accessing-ugc-with-srp}
+# Accessing UGC with SRP {#accessing-ugc-with-srp}
 
 ## About SRP {#about-srp}
 
@@ -25,7 +25,7 @@ Before a community site is created, the [storage resource provider (SRP)](workin
 
 ## About UGC Storage {#about-ugc-storage}
 
-What is important to know about storage of UGC is, when a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's [node store](/../../help/sites-deploying/data-store-config.md) (JCR).
+What is important to know about storage of UGC is, when a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's [node store](../../help/sites-deploying/data-store-config.md) (JCR).
 
 While there may be nodes in JCR which shadow the UGC to provide useful metadata, these nodes are not to be confused with the actual UGC.
 

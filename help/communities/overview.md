@@ -66,7 +66,7 @@ The [site creation wizard](sites-console.md):
   
     * language switching: 
   
-      ability to select a language for a [multillingual site](/../../help/sites-administering/translation.md)
+      ability to select a language for a [multillingual site](../../help/sites-administering/translation.md)
   
     * administration: 
   

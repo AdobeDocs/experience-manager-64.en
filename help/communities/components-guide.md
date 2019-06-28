@@ -52,9 +52,9 @@ On author, to enter edit mode, insert either * `editor.html`* or * `cf#`* as the
 >
 >With the component page displayed in the browser, return to Edit mode in order to open the component's edit dialog.
 >
->For general authoring information, view the [quick guide to authoring pages](/../../help/sites-authoring/qg-page-authoring.md).
+>For general authoring information, view the [quick guide to authoring pages](../../help/sites-authoring/qg-page-authoring.md).
 >
->If not familiar with AEM, view the documentation on [basic handling](/../../help/sites-authoring/basic-handling.md).
+>If not familiar with AEM, view the documentation on [basic handling](../../help/sites-authoring/basic-handling.md).
 
 ### Home Page {#home-page}
 
@@ -144,7 +144,7 @@ To quickly experiment with customizations, the `scg:showIde`property must be add
 
 Using the comments component as an example, on either the author or publish instance, signed in with administrator privileges:
 
-1. browse to [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md)
+1. browse to [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md)
 
    for example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
 

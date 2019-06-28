@@ -15,7 +15,7 @@ discoiquuid: 7aa28e36-6b31-4447-b800-cab2dc78c93c
 
 Depending on each site's topology and features, the following actions may be necessary when upgrading to AEM Communities 6.4 or installing the latest feature pack.
 
-This section is specific to Communities and supplements the information provided in [Upgrading to AEM 6.4](/../../help/sites-deploying/upgrade.md) (platform).
+This section is specific to Communities and supplements the information provided in [Upgrading to AEM 6.4](../../help/sites-deploying/upgrade.md) (platform).
 
 ## Upgrading from AEM 6.1 or Later {#upgrading-from-aem-or-later}
 

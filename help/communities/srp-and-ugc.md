@@ -95,7 +95,7 @@ protected void doGet(final SlingHttpServletRequest request, final SlingHttpServl
 
 ## UGC-Related Storage Locations {#ugc-related-storage-locations}
 
-The following descriptions of storage location may be of help when developing with JSRP or perhaps MSRP. There is currently no UI to access UGC stored in ASRP, as there is for JSRP ([CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md)) and MSRP (MongoDB tools).
+The following descriptions of storage location may be of help when developing with JSRP or perhaps MSRP. There is currently no UI to access UGC stored in ASRP, as there is for JSRP ([CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md)) and MSRP (MongoDB tools).
 
 **component location**
 

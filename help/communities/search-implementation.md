@@ -15,7 +15,7 @@ discoiquuid: 300aa9f3-596f-42bc-8d46-e535f2bc4379
 
 ## Overview {#overview}
 
-The search feature is an essential feature of AEM Communities. In addition to the [AEM platform search](/../../help/sites-deploying/queries-and-indexing.md) capabilities, AEM Communities provides the [UGC search API](#ugc-search-api) for the purpose of searching user generated content (UGC). UGC has unique properties as it is entered and stored separately from other AEM content and user data.
+The search feature is an essential feature of AEM Communities. In addition to the [AEM platform search](../../help/sites-deploying/queries-and-indexing.md) capabilities, AEM Communities provides the [UGC search API](#ugc-search-api) for the purpose of searching user generated content (UGC). UGC has unique properties as it is entered and stored separately from other AEM content and user data.
 
 For Communities, the two things generally searched for are
 
@@ -66,7 +66,7 @@ When creating custom properties that are searchable, it is necessary to adhere t
 
 ### JSRP Searches {#jsrp-searches}
 
-For [JSRP](jsrp.md), UGC is stored in [Oak](/../../help/sites-deploying/platform.md) and is visible only in the repository of the AEM author or publish instance on which it was entered.
+For [JSRP](jsrp.md), UGC is stored in [Oak](../../help/sites-deploying/platform.md) and is visible only in the repository of the AEM author or publish instance on which it was entered.
 
 Since UGC is typically entered in the publish environment, for multi-publisher production systems, it is necessary to configure a [publish cluster](topologies.md), not a publish farm, so that the entered content is visible from all publishers.
 
@@ -80,14 +80,14 @@ While Oak indices are not automatically created for the AEM platform search, as 
 
 If custom properties are in use and searches are slow, then additional indices would need to be created for the custom properties to make them more performant. To maintain portability, adhere to the [naming requirements](#naming-of-custom-properties) when creating custom properties that are searchable.
 
-To modify existing indices or create custom indices, refer to [Oak Queries and Indexing](/../../help/sites-deploying/queries-and-indexing.md).
+To modify existing indices or create custom indices, refer to [Oak Queries and Indexing](../../help/sites-deploying/queries-and-indexing.md).
 
 The [Oak Index Manager](https://adobe-consulting-services.github.io/acs-aem-commons/features/oak-index-manager.html) is available from ACS AEM Commons. It provides:
 
 * a view of existing indices
 * the ability to initiate re-indexing
 
-To view the existing Oak indices in [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md), the location is:
+To view the existing Oak indices in [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md), the location is:
 
 * /oak:index/socialLucene
 

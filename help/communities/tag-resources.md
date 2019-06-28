@@ -19,9 +19,9 @@ Tagging of enablement resources allows for filtering of resources and learning p
 
 Essentially:
 
-* [create a tag namespace](/../../help/sites-administering/tags.md#creating-a-namespace) for each catalog
+* [create a tag namespace](../../help/sites-administering/tags.md#creating-a-namespace) for each catalog
 
-    * [set tag permissions](/../../help/sites-administering/tags.md#setting-tag-permissions)
+    * [set tag permissions](../../help/sites-administering/tags.md#setting-tag-permissions)
 
         * for community members only (closed community)
 
@@ -31,7 +31,7 @@ Essentially:
 
             * allow read access for the `Everyone`group
 
-    * [publish the tags](/../../help/sites-administering/tags.md#publishing-tags)
+    * [publish the tags](../../help/sites-administering/tags.md#publishing-tags)
 
 * [define the scope of tags for a community site](sites-console.md#tagging)
 
@@ -48,11 +48,11 @@ Essentially:
 
 When creating or editing a community site, the [Tagging setting](sites-console.md#tagging) sets the scope of tags available for features of the site by selecting a subset of existing tag namespaces.
 
-While tags may be created and added to the community site at any time, it is recommended to design a taxonomy beforehand, similar to designing a database. See [Using Tags](/../../help/sites-authoring/tags.md).
+While tags may be created and added to the community site at any time, it is recommended to design a taxonomy beforehand, similar to designing a database. See [Using Tags](../../help/sites-authoring/tags.md).
 
 When later adding tags to an existing community site, it is necessary to save the edit before being able to add the new tag to a catalog function in the site's structure.
 
-For a community site, after the site is published and the tags are published, it is necessary to enable read access to members of the community. See [Setting Tag Permissions](/../../help/sites-administering/tags.md#setting-tag-permissions).
+For a community site, after the site is published and the tags are published, it is necessary to enable read access to members of the community. See [Setting Tag Permissions](../../help/sites-administering/tags.md#setting-tag-permissions).
 
 The following is how it appears in CRXDE when an administrator applies read permissions to `/etc/tags/ski-catalog` for the group `Community Enable Members`.
 

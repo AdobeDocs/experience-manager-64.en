@@ -87,7 +87,7 @@ On the Site Template panel, the Title, Description, Site Root, Base Language, Na
 
   The default root is `/content/sites`, but the root may be moved to any location within the web site.
 
-* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](/../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
+* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
 * **Community Site Name**: the name of the site's root page which appears in the URL
 
@@ -212,13 +212,13 @@ The Settings panel contains several sub-panels presenting features to configure 
 >
 >**Allowing Social Logins**
 >
->While sample Facebook and Twitter configurations may exist and be selectable, for a [production environment](/../../help/sites-administering/production-ready.md), it is necessary to create custom Facebook and Twitter applications. See [Social Login with Facebook and Twitter](social-login.md).
+>While sample Facebook and Twitter configurations may exist and be selectable, for a [production environment](../../help/sites-administering/production-ready.md), it is necessary to create custom Facebook and Twitter applications. See [Social Login with Facebook and Twitter](social-login.md).
 
 #### TAGGING {#tagging}
 
 ![chlimage_1-450](assets/chlimage_1-450.png)
 
-The tags which may be applied to community content are controlled by selecting Tag Namespaces previously defined through the [Tagging Console](/../../help/sites-administering/tags.md#tagging-console).
+The tags which may be applied to community content are controlled by selecting Tag Namespaces previously defined through the [Tagging Console](../../help/sites-administering/tags.md#tagging-console).
 
 In addition, selecting tag namespaces for the community site limits the selection presented when defining catalogs and resources. See [Tagging Enablement Resources](tag-resources.md) for important information.
 
@@ -281,7 +281,7 @@ The global setting for moderating user generated content (UGC) is controlled by 
 ![chlimage_1-455](assets/chlimage_1-455.png)
 
 * **Allow Machine Translation** 
-  When checked (default is unchecked), machine translation is enabled for UGC within the site. This does not affect any other content, such as page content, even if the site is setup as a multilingual site. See [Translating User Generated Content](translate-ugc.md) for information on configuring a licensed translation service for AEM Communities. See [Translating Content for Multilingual Sites](/../../help/sites-administering/translation.md) for a complete overview.
+  When checked (default is unchecked), machine translation is enabled for UGC within the site. This does not affect any other content, such as page content, even if the site is setup as a multilingual site. See [Translating User Generated Content](translate-ugc.md) for information on configuring a licensed translation service for AEM Communities. See [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md) for a complete overview.
 
 ![chlimage_1-456](assets/chlimage_1-456.png)
 
@@ -299,7 +299,7 @@ The global setting for moderating user generated content (UGC) is controlled by 
 
 * **Choose translation provider config**
 
-  Choose a [translation integration framework](/../../help/sites-administering/tc-tic.md) created for the licensed translation provider.
+  Choose a [translation integration framework](../../help/sites-administering/tc-tic.md) created for the licensed translation provider.
 
 * **Select the translation options for your community site**
 
@@ -389,7 +389,7 @@ The content of a site may be authored with the same tools as any other AEM websi
 
 >[!NOTE]
 >
->If not familiar with AEM, view the documentation on [basic handling](/../../help/sites-authoring/basic-handling.md) and a [quick guide to authoring pages](/../../help/sites-authoring/qg-page-authoring.md).
+>If not familiar with AEM, view the documentation on [basic handling](../../help/sites-authoring/basic-handling.md) and a [quick guide to authoring pages](../../help/sites-authoring/qg-page-authoring.md).
 
 ## Modifying Site Properties {#modifying-site-properties}
 
@@ -503,7 +503,7 @@ After publishing a community site, it is necessary to individually publish each 
 
 ![chlimage_1-467](assets/chlimage_1-467.png)
 
-Select the export icon, on mouse hover over the site, to create a package of the community site that is both stored in [package manager](/../../help/sites-administering/package-manager.md) and downloaded.  
+Select the export icon, on mouse hover over the site, to create a package of the community site that is both stored in [package manager](../../help/sites-administering/package-manager.md) and downloaded.  
 Note that UGC is not included in the site package.
 
 ## Deleting the Site {#deleting-the-site}
@@ -537,13 +537,13 @@ For details, see [Managing Users and User Groups](users.md).
 
 ## Configure for Authentication Error {#configure-for-authentication-error}
 
-By default, a community site will redirect to a sample login page when the user enters the wrong credentials and fails to login. This sample login will not be present on a [production server](/../../help/sites-administering/production-ready.md).
+By default, a community site will redirect to a sample login page when the user enters the wrong credentials and fails to login. This sample login will not be present on a [production server](../../help/sites-administering/production-ready.md).
 
 To correctly redirect, once a site has been configured and pushed to publish, complete these steps to get authentication failure to redirect to the community site:
 
 * on each AEM publish instance
 * first sign in with administrator privileges
-* access the [Web Console](/../../help/sites-deploying/configuring-osgi.md)
+* access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 

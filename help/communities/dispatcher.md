@@ -47,7 +47,7 @@ When configured to support dispatcher caching, a TTL-based "max age" expiration 
 
 The OSGi configuration **ACS AEM Commons - Dispatcher Cache Control Header - Max Age** sets the expiraton of cached pages that appear under a specified path.
 
-* From the [Web Console](/../../help/sites-deploying/configuring-osgi.md)
+* From the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 

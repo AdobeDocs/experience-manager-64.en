@@ -367,7 +367,7 @@ For a **generic AEM site** that includes Communities components, but is not crea
 
 Analytics is automatically used for several Communities features.
 
-The author environment's [OSGi configuration](/../../help/sites-deploying/configuring-osgi.md), `AEM Communities Analytics Component Configuration`, provides a listing of the components that have been instrumented for Analytics. The automatic mapping of variables is determined by the components listed.
+The author environment's [OSGi configuration](../../help/sites-deploying/configuring-osgi.md), `AEM Communities Analytics Component Configuration`, provides a listing of the components that have been instrumented for Analytics. The automatic mapping of variables is determined by the components listed.
 
 If new custom components are created that are instrumented for Analytics, they should be added to this list of configured components.
 
@@ -603,7 +603,7 @@ Once the Analytics cloud service has been enabled for a community site and, if n
 
 ### Report Management {#report-management}
 
-The author and primary publisher's [OSGi configuration](/../../help/sites-deploying/configuring-osgi.md), `AEM Communities Analytics Report Management`, is used to query Analytics.
+The author and primary publisher's [OSGi configuration](../../help/sites-deploying/configuring-osgi.md), `AEM Communities Analytics Report Management`, is used to query Analytics.
 
 On author, the queries are for real time reports.
 
@@ -613,7 +613,7 @@ The query interval defaults to 10 seconds.
 
 ### Report Importer {#report-importer}
 
-Once an Analytics enabled community site has been published, the primary publisher's [OSGi configuration](/../../help/sites-deploying/configuring-osgi.md), `AEM Communities Analytics Report Importer`, may be configured to set the default polling interval for those configurations which are not individually configured in CRXDE.
+Once an Analytics enabled community site has been published, the primary publisher's [OSGi configuration](../../help/sites-deploying/configuring-osgi.md), `AEM Communities Analytics Report Importer`, may be configured to set the default polling interval for those configurations which are not individually configured in CRXDE.
 
 The polling interval controls the frequency of requests to Adobe Analytics for data to be pulled and saved into [SRP](working-with-srp.md).
 
@@ -631,7 +631,7 @@ The forum topic is presently the only example of this customization:
 
 * on the primary publisher
 * sign in with administrative privileges
-* navigate to [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md)
+* navigate to [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md)
 
     * for example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
 
@@ -663,6 +663,6 @@ Adobe Analytics provides APIs that allow you to access, export, and delete user 
 ## Resources {#resources}
 
 * Adobe Marketing Cloud: [Analytics Help and Reference](https://marketing.adobe.com/resources/help/en_US/reference/)
-* AEM: [Integrating with Adobe Analytics](/../../help/sites-administering/adobeanalytics.md)
-* AEM: [Analytics with External Providers](/../../help/sites-administering/external-providers.md)
+* AEM: [Integrating with Adobe Analytics](../../help/sites-administering/adobeanalytics.md)
+* AEM: [Analytics with External Providers](../../help/sites-administering/external-providers.md)
 

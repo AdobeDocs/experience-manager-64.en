@@ -19,7 +19,7 @@ This section of the documentation describes how to add client-side libraries (cl
 
 For basic information, visit:
 
-* [Using Client-Side Libraries](/../../help/sites-developing/clientlibs.md) which provides usage details as well as debugging tools
+* [Using Client-Side Libraries](../../help/sites-developing/clientlibs.md) which provides usage details as well as debugging tools
 * [Clientlibs for SCF](client-customize.md#clientlibs) which provides useful information when customizing SCF components
 * [Blog: AEM Client Libraries explained by example](https://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/)
 
@@ -58,7 +58,7 @@ When it is desired to add a Communities component to a page, it will be necessar
 
 Use [CRXDE|Lite](#using-crxde-lite) to modify an existing clientlibslist for a community site page.
 
-To add a clientlib for a community site using [CRXDE Lite](/../../help/sites-developing/developing-with-crxde-lite.md):
+To add a clientlib for a community site using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
 * browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 * locate the `clientlibslist` node for the page on which you wish to add the component

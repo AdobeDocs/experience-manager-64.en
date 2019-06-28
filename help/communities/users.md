@@ -60,7 +60,7 @@ The tunnel service provides this access using the replication agent on author.
 
 The [Communities Members and Groups consoles](members.md) are for the sole purpose of managing users (members) and user groups (member groups) registered only in the publish environment.
 
-To manage users and user groups registered in the author environment, use the [Security console](/../../help/sites-administering/security.md)
+To manage users and user groups registered in the author environment, use the [Security console](../../help/sites-administering/security.md)
 
 ### Author Group Roles {#author-group-roles}
 
@@ -81,7 +81,7 @@ For demonstration and development purposes, the administrators group has a membe
 
 For production environments, the default administrators group should be modified.
 
-Be sure to follow the [Security Checklist](/../../help/sites-administering/security-checklist.md).
+Be sure to follow the [Security Checklist](../../help/sites-administering/security-checklist.md).
 
 ## Publish Environment {#publish-environment}
 
@@ -253,16 +253,16 @@ Follow the same steps as creating and assigning a user to the role of [enablemen
 
 ### LDAP Integration {#ldap-integration}
 
-AEM supports the use of LDAP for authentication of users as well as creation of user accounts. This is detailed in [Configuring LDAP with AEM 6](/../../help/sites-administering/ldap-config.md).
+AEM supports the use of LDAP for authentication of users as well as creation of user accounts. This is detailed in [Configuring LDAP with AEM 6](../../help/sites-administering/ldap-config.md).
 
 Following are some configuration details specific for community members and member groups.
 
 1. configure LDAP for each AEM publish instance
-1. [the LDAP Identity Provider](/../../help/sites-administering/ldap-config.md#configuring-the-ldap-identity-provider)
+1. [the LDAP Identity Provider](../../help/sites-administering/ldap-config.md#configuring-the-ldap-identity-provider)
 
     * no special instructions
 
-1. [the Synchronization Handler](/../../help/sites-administering/ldap-config.md#configuring-the-synchronization-handler)
+1. [the Synchronization Handler](../../help/sites-administering/ldap-config.md#configuring-the-synchronization-handler)
 
     * set the following properties:
 
@@ -270,7 +270,7 @@ Following are some configuration details specific for community members and memb
         * **User Path Prefix**: `/community`
         * **Group Path Prefix**: `/community`
 
-1. [the External Login Module](/../../help/sites-administering/ldap-config.md#the-external-login-module)
+1. [the External Login Module](../../help/sites-administering/ldap-config.md#the-external-login-module)
 
     * no special instructions
 
@@ -282,7 +282,7 @@ This results in users automatically being assigned to the community site's membe
 
 When using a [publish farm](topologies.md), ensure users have the same path on each publish instance by importing the users first to one instance and [enabling user sync](sync.md) to Sling distribute the users to the other publish instances.
 
-If importing user groups, to ensure the user groups have the same path on each publish instance, import to one instance, then [create a package](/../../help/sites-administering/package-manager.md#creating-a-new-package) for export, and install that package on all other publish instances.
+If importing user groups, to ensure the user groups have the same path on each publish instance, import to one instance, then [create a package](../../help/sites-administering/package-manager.md#creating-a-new-package) for export, and install that package on all other publish instances.
 
 While the syncing of user groups through user sync will be included in a future release, presently only the *membership *of a user group will sync when user sync runs.
 
@@ -293,6 +293,6 @@ When discussing groups, there are two distinct topics:
 * **[community groups](overview.md#communitygroups)** 
   These are sub-communities which may be created in the publish environment for a community site which supports creation of community groups. Creation of a community group results in more pages added to the website and are managed in a manner similar to their parent community site. For more information visit [Community Group Essentials](essentials-groups.md) for developers and [Community Group](creating-groups.md) for authors.
 
-* **[member groups](/../../help/sites-administering/security.md)** 
+* **[member groups](../../help/sites-administering/security.md)** 
   These are groups to which members may belong and are managed through the Groups console. Much of the discussion on this page has been devoted to member groups. The member groups automatically created for a community site, which are prefixed with * `Community`*, may be referred to as a community group, therefore the context of the discussion must be considered.
 

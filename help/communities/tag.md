@@ -17,9 +17,9 @@ When AEM Communities components are configured with tagging enabled, community m
 
 The underlying infrastructure for tags applied in the publish environment is the same as for tags applied to content in the author environment, such as pages and assets:
 
-* See [Administering Tags](/../../help/sites-administering/tags.md) and [Tagging User Generated Content](tag-ugc.md) (UGC) for information about creating and managing tags.
+* See [Administering Tags](../../help/sites-administering/tags.md) and [Tagging User Generated Content](tag-ugc.md) (UGC) for information about creating and managing tags.
 
-* See [Tagging for Developers](/../../help/sites-developing/tags.md) for information about the [tagging framework](/../../help/sites-developing/framework.md) as well as including and extending tags in [custom applications](/../../help/sites-developing/building.md).
+* See [Tagging for Developers](../../help/sites-developing/tags.md) for information about the [tagging framework](../../help/sites-developing/framework.md) as well as including and extending tags in [custom applications](../../help/sites-developing/building.md).
 
 * See [Using Social Tag Cloud](tagcloud.md) for information for authors on how to add a `social tag cloud` component to a page to highlight the tags applied to UGC in the publish environment.
 
@@ -78,6 +78,6 @@ Tagging of UGC may be enabled when configuring a [community site](sites-console.
 
 ## Tag Searching {#tag-searching}
 
-As of [feature pack 1](deploy-communities.md#latestfeaturepack) (FP1), tag searching is performed using [tag titles](/../../help/sites-developing/framework.md#tag-characteristics).
+As of [feature pack 1](deploy-communities.md#latestfeaturepack) (FP1), tag searching is performed using [tag titles](../../help/sites-developing/framework.md#tag-characteristics).
 
-Prior to FP1, search was performed using [tag ids](/../../help/sites-developing/framework.md#tagid).
+Prior to FP1, search was performed using [tag ids](../../help/sites-developing/framework.md#tagid).

@@ -108,7 +108,7 @@ See [Primary Publisher](deploy-communities.md#primary-publisher) for more detail
 
 The AEM platform blocks links from other websites to prevent XSS attacks as described in
 
-* [Protect against Cross-Site Scripting (XSS)](/../../help/sites-developing/security.md#protect-against-cross-site-scripting-xss)
+* [Protect against Cross-Site Scripting (XSS)](../../help/sites-developing/security.md#protect-against-cross-site-scripting-xss)
 
 As of AEM 6.2, the modifications previously required to be made manually are included in the default AntiSamy config file.
 
