@@ -85,11 +85,11 @@ If you use ImageMagick or an affected library, Adobe recommends that you mitigat
 1. Verify that all image files begin with the expected ["magic bytes"](https://en.wikipedia.org/wiki/List_of_file_signatures) corresponding to the image file types you support before sending them to ImageMagick for processing.
 1. Use a policy file to disable the vulnerable ImageMagick coders. The global policy for ImageMagick is found at `/etc/ImageMagick`.
 
-## More like this {#more-like-this-install-imagemagick}
-
-[Best practices to process various file formats using AEM Assets](assets-file-format-best-practices.md)
-[Command-line options for ImageMagick](https://www.imagemagick.org/script/command-line-options.php)
-[Basic and advanced examples of ImageMagick usage](https://www.imagemagick.org/Usage/)
-[Assets performance tuning for ImageMagick](performance-tuning-guidelines.md)
-[Complete list of file formats supported by AEM Assets](assets-formats.md)
-[Understand file formats and memory cost of images](https://www.scantips.com/basics1d.html)
+>[!MORELIKETHIS]
+>
+>* [Best practices to process various file formats using AEM Assets](assets-file-format-best-practices.md)
+>* [Command-line options for ImageMagick](https://www.imagemagick.org/script/command-line-options.php)
+>* [Basic and advanced examples of ImageMagick usage](https://www.imagemagick.org/Usage/)
+>* [Assets performance tuning for ImageMagick](performance-tuning-guidelines.md)
+>* [Complete list of file formats supported by AEM Assets](assets-formats.md)
+>* [Understand file formats and memory cost of images](https://www.scantips.com/basics1d.html)
