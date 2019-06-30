@@ -13,7 +13,7 @@ discoiquuid: 26715b94-e2ea-4da7-a0e2-3e5a367ac1cd
 
 # Experience the Published Site{#experience-the-published-site}
 
-**[⇐ Create and Assign Enablement Resources](/help/communities/resource.md)**
+**[⇐ Create and Assign Enablement Resources](resource.md)**
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
 
@@ -24,7 +24,7 @@ Begin by browsing to the URL displayed when creating the site, but on the publis
 * author URL = [http://localhost:4502/content/sites/enable/en.html](http://localhost:4502/content/sites/enable/en.html)
 * publish URL = [http://localhost:4503/content/sites/enable/en.html](http://localhost:4503/content/sites/enable/en.html)
 
-If the [default home page was set](/help/communities/enablement-create-site.md#changethedefaulthomepage), then simply browsing to [http://localhost:4503/](http://localhost:4503/) should launch the site.
+If the [default home page was set](enablement-create-site.md#changethedefaulthomepage), then simply browsing to [http://localhost:4503/](http://localhost:4503/) should launch the site.
 
 When first arriving at the published site, the site visitor would typically not already be signed in and would be anonymous.
 
@@ -69,7 +69,7 @@ To protect your community site's content from access by anonymous users through 
 
 ## Enrolled Member {#enrolled-member}
 
-This experience relies on users `Riley Taylor` and `Sidney Croft` being [created](/help/communities/enablement-setup.md#publishcreateenablementmembers) and [assigned](/help/communities/resource.md#settings) to the *Ski Lessons* learning path through their membership in the *Community Ski Class* group.
+This experience relies on users `Riley Taylor` and `Sidney Croft` being [created](enablement-setup.md#publishcreateenablementmembers) and [assigned](resource.md#settings) to the *Ski Lessons* learning path through their membership in the *Community Ski Class* group.
 
 Login with
 
@@ -104,7 +104,7 @@ Selecting *Ski Lessons* will display the two enablement resources referenced by 
 
 Selecting *Ski Lesson 1* will open the enablement resource's details page.
 
-From the details page, the member is able to learn, [rate](/help/communities/rating.md) the lesson and add [comments](/help/communities/comments.md). Any member activity will be reflected in the What's New section of the site.
+From the details page, the member is able to learn, [rate](rating.md) the lesson and add [comments](comments.md). Any member activity will be reflected in the What's New section of the site.
 
 Interactions with the enablement resource will be noted in the Report section accessible in the author environment.
 
@@ -120,7 +120,7 @@ When a member has not been assigned enablement resources, either directly or thr
 
 ### Discussions {#discussions}
 
-In addition to rating and commenting on enablement resources ([when enabled](/help/communities/enablement-create-site.md#step33asettings)), the community site template from which `Enablement Tutorial` was created includes the [forum function](/help/communities/functions.md#forum-function) (title is `Discussions)`.
+In addition to rating and commenting on enablement resources ([when enabled](enablement-create-site.md#step33asettings)), the community site template from which `Enablement Tutorial` was created includes the [forum function](functions.md#forum-function) (title is `Discussions)`.
 
 Select the `Discussions`link and post a topic.
 
@@ -132,7 +132,7 @@ Notice, in addition to inline moderation, there are options to share the topic o
 
 ### What's New {#what-s-new}
 
-The `What's New` menu item is the title given the [activity stream function](/help/communities/functions.md#activity-stream-function) in this community site's structure.
+The `What's New` menu item is the title given the [activity stream function](functions.md#activity-stream-function) in this community site's structure.
 
 Still signed in as Sidney, select the `What's New` link to show the activity.
 
@@ -140,7 +140,7 @@ Still signed in as Sidney, select the `What's New` link to show the activity.
 
 ## Trusted Community Member {#trusted-community-member}
 
-This experience assumes ` [Quinn Harper](/help/communities/enablement-setup.md#publishcreateenablementmembers)` was assigned the roles of [moderator](/help/communities/enablement-create-site.md#moderation) and [resource contact](/help/communities/resource.md#settings).
+This experience assumes ` [Quinn Harper](enablement-setup.md#publishcreateenablementmembers)` was assigned the roles of [moderator](enablement-create-site.md#moderation) and [resource contact](resource.md#settings).
 
 Login with
 
@@ -155,7 +155,7 @@ The home page is identified by the first menu item, Assignments. Quinn is the mo
 
 ### Administration {#administration}
 
-What there is, is activity by the two learners, `Riley Taylor` and `Sidney Croft. By s`electing the `Administration`link to access the Moderation Console, Quinn is able to use the [bulk moderation console](/help/communities/moderation.md) to moderate their posts.
+What there is, is activity by the two learners, `Riley Taylor` and `Sidney Croft. By s`electing the `Administration`link to access the Moderation Console, Quinn is able to use the [bulk moderation console](moderation.md) to moderate their posts.
 
 Selecting the side-panel icon toggles open the filters used to search community content.
 
@@ -167,12 +167,12 @@ Hovering over a comment card displays moderation actions.
 
 There are two ways to access reporting on learners and enablement resources.
 
-On author, navigate to the **Communities, [Resources console](/help/communities/resources.md)**, where the enablement resources are managed, and after selecting a community site, it is possible to generate reports for
+On author, navigate to the **Communities, [Resources console](resources.md)**, where the enablement resources are managed, and after selecting a community site, it is possible to generate reports for
 
 * all enablement resources and learning paths
 * one specific enablement resource or learning path
 
-Navigate to the **Communities, [Reports console](/help/communities/reports.md)**, and generate reports according to
+Navigate to the **Communities, [Reports console](reports.md)**, and generate reports according to
 
 * assignments to enablement resources and learning paths
 * posts to a community site over a specific period
@@ -254,4 +254,4 @@ For reports on views:
 
 ![chlimage_1-446](assets/chlimage_1-446.png)
 
-**[⇐ Create and Assign Enablement Resources](/help/communities/resource.md)**
+**[⇐ Create and Assign Enablement Resources](resource.md)**

@@ -110,4 +110,4 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
 The /content directory in the respository is where the website content resides. The paths under /content comprise the paths of the URL for browser requests.
 
-*After* the [page template](/help/communities/initial-app.md#createthepagetemplate) is created as part of the initial application, the initial page content can be created based on the template.... [**⇒**](/help/communities/initial-app.md)
+*After* the [page template](initial-app.md#createthepagetemplate) is created as part of the initial application, the initial page content can be created based on the template.... [**⇒**](initial-app.md)

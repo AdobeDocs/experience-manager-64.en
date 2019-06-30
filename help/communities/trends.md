@@ -19,7 +19,7 @@ The `Community Activity List` component provides the ability to add trending inf
 
 This section of the documentation describes
 
-* adding the `Community Activity List` component to a [community site](/help/communities/overview.md#community-sites)
+* adding the `Community Activity List` component to a [community site](overview.md#community-sites)
 
 * configuration settings for the `Community Activity List` component
 
@@ -27,7 +27,7 @@ This section of the documentation describes
 
 Data for the `Community Activity List` is only available when Adobe Analytics is licensed and configured for the community site.
 
-See [Analytics Configuration for Communities Features](/help/communities/analytics.md).
+See [Analytics Configuration for Communities Features](analytics.md).
 
 ## Adding a Community Activity List to a Page {#adding-a-community-activity-list-to-a-page}
 
@@ -37,7 +37,7 @@ To add a `Community Activity List` component to a page in author mode, locate th
 
 and drag it into place on a page.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
 When first placed on a page of a community site, this is how the component appears:
 

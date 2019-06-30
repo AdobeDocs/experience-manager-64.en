@@ -69,7 +69,7 @@ To protect your community site's content from access by anonymous users through 
 
 ## Trusted Community Member {#trusted-community-member}
 
-This experience assumes [Aaron McDonald](/help/communities/tutorials.md#demo-users) was assigned the roles of [community manager and moderator](/help/communities/create-site.md#roles). If not, return to the author environment to [modify the site settings](/help/communities/sites-console.md#modifying-site-properties) and select Aaron McDonald as both community manager and moderator.
+This experience assumes [Aaron McDonald](tutorials.md#demo-users) was assigned the roles of [community manager and moderator](create-site.md#roles). If not, return to the author environment to [modify the site settings](sites-console.md#modifying-site-properties) and select Aaron McDonald as both community manager and moderator.
 
 In the upper right corner, select `Log in`, and sign with username "aaron.mcdonald@mailinator.com" and password "password". Notice the ability to sign in with Twitter or Facebook credentials.
 
@@ -79,7 +79,7 @@ Once signed in, notice there is a new menu item, `Administration`, which appears
 
 ![chlimage_1-313](assets/chlimage_1-313.png)
 
-Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](/help/communities/sites.md#edit-site-template) console or when modifying site properties in the author environment:
+Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](sites.md#edit-site-template) console or when modifying site properties in the author environment:
 
 ![chlimage_1-314](assets/chlimage_1-314.png)
 
@@ -87,8 +87,8 @@ Notice the Calendar page is the home page because the chosen Reference Site Temp
 >
 >For more information on Communities components and functions, visit
 >
->* [Communities Components](/help/communities/author-communities.md) (for authors)
->* [Component, Function, and Feature Essentials](/help/communities/essentials.md) (for developers)
+>* [Communities Components](author-communities.md) (for authors)
+>* [Component, Function, and Feature Essentials](essentials.md) (for developers)
 >
 
 ## Forum link {#forum-link}
@@ -107,7 +107,7 @@ Since Aaron is a group administrator, selecting the Groups link will allow Aaron
 
 This is an example where a group is created in the publish environment.
 
-Groups may also be created in the author environment and managed within the community site in the author environment (the [Community Groups console](/help/communities/groups.md)). The experience of [creating groups on author](/help/communities/nested-groups.md) is next in this tutorial.
+Groups may also be created in the author environment and managed within the community site in the author environment (the [Community Groups console](groups.md)). The experience of [creating groups on author](nested-groups.md) is next in this tutorial.
 
 ![chlimage_1-316](assets/chlimage_1-316.png)
 
@@ -151,7 +151,7 @@ As an example, add two n `ew groups.`
 
 * a refresh of the page may be necessary before both groups are displayed
 * this template does *not *include the groups function, so no further nesting of groups will be possible
-* on author, the [Groups console](/help/communities/groups.md) provides a third choice - a `Public Group` (optional membership)
+* on author, the [Groups console](groups.md) provides a third choice - a `Public Group` (optional membership)
 
 Once both groups are created, select the Baseball group, an open group, and notice its links:
 
@@ -161,7 +161,7 @@ The group's links are displayed below the main site's links and results in the f
 
 ![chlimage_1-319](assets/chlimage_1-319.png)
 
-On author - with administrative privileges, navigate to the [Communities Groups console](/help/communities/members.md) and add Weston McCall to the `Community Engage Gymnastics <uid> Members` group.
+On author - with administrative privileges, navigate to the [Communities Groups console](members.md) and add Weston McCall to the `Community Engage Gymnastics <uid> Members` group.
 
 Continuing on publish, log out as Aaron McDonald, and view the groups in the Sports Group as an anonymous site visitor:
 
@@ -180,13 +180,13 @@ Log in as Weston McCall (weston.mccall@dodgit.com / password), and navigate to t
 
 View the basic web page included in the site by selecting the Web Page link. The standard AEM authoring tools may be used to add content to this page in the author environment.
 
-For example, go to **author** instance, open the `engage` folder in the [Communities Sites console](/help/communities/sites-console.md), select the **Open Site** icon to enter author edit mode. Then select preview mode to select the `Web Page`link, then select edit mode to add Title and Text components. Last, re-publish either just the page or the entire site.
+For example, go to **author** instance, open the `engage` folder in the [Communities Sites console](sites-console.md), select the **Open Site** icon to enter author edit mode. Then select preview mode to select the `Web Page`link, then select edit mode to add Title and Text components. Last, re-publish either just the page or the entire site.
 
 ![chlimage_1-321](assets/chlimage_1-321.png) 
 
 ## Administration Link {#administration-link}
 
-When the community member has moderation privileges, then the Administration link will be visible and selecting it will display the community content posted and allow it to be [moderated](/help/communities/moderate-ugc.md) in a manner similar to the [moderation console](/help/communities/moderation.md) in the author environment.
+When the community member has moderation privileges, then the Administration link will be visible and selecting it will display the community content posted and allow it to be [moderated](moderate-ugc.md) in a manner similar to the [moderation console](moderation.md) in the author environment.
 
 Use the browser's back button to return to the published site. Most consoles are not accessible from global navigation in the publish environment.
 

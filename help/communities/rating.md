@@ -23,9 +23,9 @@ To add a `Rating`component to a page in author mode, locate the component
 
 and drag it into place on a page, such as a position relative to the feature for members to rate.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/rating-basics.md#essentials-for-client-side) are included, this is how the `Rating` component will appear.
+When the [required client-side libraries](rating-basics.md#essentials-for-client-side) are included, this is how the `Rating` component will appear.
 
 ![chlimage_1-493](assets/chlimage_1-493.png)
 
@@ -54,4 +54,4 @@ Anonymous posting of a rating is not supported. Site visitors must register (bec
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Rating Essentials](/help/communities/rating-basics.md) page for developers.
+More information may be found on the [Rating Essentials](rating-basics.md) page for developers.

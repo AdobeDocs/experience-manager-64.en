@@ -17,7 +17,7 @@ discoiquuid: 47201e2d-338d-40e0-af82-c681a552807b
 
 AEM Communities provides a notifications section which displays events of interest to the signed in community member.
 
-Notifications are similar to [activities](/help/communities/essentials-activities.md) and [subscriptions](/help/communities/subscriptions.md) as they may result from
+Notifications are similar to [activities](essentials-activities.md) and [subscriptions](subscriptions.md) as they may result from
 
 * the member posting content
 * the member choosing to follow another member
@@ -27,15 +27,15 @@ What distinguishes notifications from activities and subscriptions is
 
 * a link to the notifications section is always present in a community site's header
 
-    * activities require the [activity stream function](/help/communities/functions.md#activity-stream-function) to be included in the community site's structure
-    * subscriptions require [configuration of email](/help/communities/email.md)
+    * activities require the [activity stream function](functions.md#activity-stream-function) to be included in the community site's structure
+    * subscriptions require [configuration of email](email.md)
 
 * the implementation of notifications is through scalable and pluggable channels
 
     * activities are only available on the web
     * subscriptions are only available using email
 
-As of Communities [FP1](/help/communities/deploy-communities.md#latestfeaturepack), the notification channels available are
+As of Communities [FP1](deploy-communities.md#latestfeaturepack), the notification channels available are
 
 * the web channel, accessed using the `Notifications` link
 * the email channel, available when email is properly configured
@@ -48,15 +48,15 @@ Future channels are mobile and desktop.
 
 Email must be configured in order for the email channel for notifications to be functional.
 
-For instructions on setting up email, see [Configuring Email](/help/communities/analytics.md).
+For instructions on setting up email, see [Configuring Email](analytics.md).
 
 **Enable Follow**
 
-Components must be configured to enable following. Features that allow following are [blog](/help/communities/blog-feature.md), [forum](/help/communities/forum.md), [QnA](/help/communities/working-with-qna.md), [calendar](/help/communities/calendar.md), [filelibrary](/help/communities/file-library.md), and [comments](/help/communities/comments.md).
+Components must be configured to enable following. Features that allow following are [blog](blog-feature.md), [forum](forum.md), [QnA](working-with-qna.md), [calendar](calendar.md), [filelibrary](file-library.md), and [comments](comments.md).
 
 Note that
 
-* components used within community [site templates](/help/communities/sites.md) and [group templates](/help/communities/tools-groups.md) may already be configured to allow following
+* components used within community [site templates](sites.md) and [group templates](tools-groups.md) may already be configured to allow following
 
 * member profiles are already configured to allow other memebers to follow
 
@@ -87,7 +87,7 @@ The web channel is always enabled.
 
 ![chlimage_1-255](assets/chlimage_1-255.png)
 
-The email channel, which relies on proper [configuration of email](/help/communities/email.md), provides the same settings as for the web channel.
+The email channel, which relies on proper [configuration of email](email.md), provides the same settings as for the web channel.
 
 The email channel is off by default.
 
@@ -101,7 +101,7 @@ It may be turned on by a member, but still depends on email being configured.
 
 ### Web Notifications {#web-notifications}
 
-A [wizard created community site](/help/communities/sites-console.md) now includes a link to the `Notifications` feature in the site's header bar above the banner. Unlike messages, notifications are created for every community site, while messages must be enabled during the site creation process.
+A [wizard created community site](sites-console.md) now includes a link to the `Notifications` feature in the site's header bar above the banner. Unlike messages, notifications are created for every community site, while messages must be enabled during the site creation process.
 
 When visiting the published site, selecting the `Notifications` link will display all notifications for the member.
 

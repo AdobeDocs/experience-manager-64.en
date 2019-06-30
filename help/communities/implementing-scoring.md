@@ -23,9 +23,9 @@ The main aspects of scoring and badges are:
 * [assign badges](#assign-and-revoke-badges) to identify the role of a member  in  the community
 
 * [basic awarding of badges](#enable-scoring) to members to encourage their participation (quantity of content created)
-* [advanced awarding of badges](/help/communities/advanced.md) to identify members as experts (quality of content created)
+* [advanced awarding of badges](advanced.md) to identify members as experts (quality of content created)
 
-**Note** that awarding of badges is [not enabled by default](/help/communities/implementing-scoring.md#main-pars-text-237875536).
+**Note** that awarding of badges is [not enabled by default](implementing-scoring.md#main-pars-text-237875536).
 
 >[!CAUTION]
 >
@@ -45,13 +45,13 @@ Badges are differentiated in UGC as to whether they were assigned or were earned
 
 ### Badge Management UI {#badge-management-ui}
 
-The Communities [Badges console](/help/communities/badges.md) provides the ability to add custom badges which can be displayed for a member when earned (awarded) or when they take on a specific role in the community (assigned).
+The Communities [Badges console](badges.md) provides the ability to add custom badges which can be displayed for a member when earned (awarded) or when they take on a specific role in the community (assigned).
 
 ### Assigned Badges {#assigned-badges}
 
 Role-based badges are assigned by an administrator to community members based on their role in the community.
 
-Assigned (and awared) badges are stored in the selected [SRP](/help/communities/srp.md) and are not directly accessible. Until a GUI is available, the only means for assigning role-based badges is to do so with code or cURL. For cURL instructions, see the section titled [Assign and Revoke Badges](#assign-and-revoke-badges).
+Assigned (and awared) badges are stored in the selected [SRP](srp.md) and are not directly accessible. Until a GUI is available, the only means for assigning role-based badges is to do so with code or cURL. For cURL instructions, see the section titled [Assign and Revoke Badges](#assign-and-revoke-badges).
 
 Included in the release are three role-based badges:
 
@@ -102,7 +102,7 @@ Included in the release are three reward-based badges:
 
 ### Custom Badges {#custom-badges}
 
-Custom badges can be installed using the [Badges console](/help/communities/badges.md) and either assigned or specified in badging rules.
+Custom badges can be installed using the [Badges console](badges.md) and either assigned or specified in badging rules.
 
 When installed from the Badges console, custom badges are automatically replicated to the publish environment.
 
@@ -139,9 +139,9 @@ If the node is of type `cq:Page` (recommended), then, using CRXDE|Lite, add the 
 
 ### Enable Badges for Component {#enable-badges-for-component}
 
-The scoring and bading rules are in effect only for instances of components that have enabled badging by editing the component configuration in [authoring mode](/help/communities/author-communities.md).
+The scoring and bading rules are in effect only for instances of components that have enabled badging by editing the component configuration in [authoring mode](author-communities.md).
 
-A boolean property, `allowBadges`, enables/disables the display of badges for a component instance. It is configurable in the [component edit dialog](/help/communities/author-communities.md) for forum, QnA and comment components through a checkbox labeled **Display Badges**.
+A boolean property, `allowBadges`, enables/disables the display of badges for a component instance. It is configurable in the [component edit dialog](author-communities.md) for forum, QnA and comment components through a checkbox labeled **Display Badges**.
 
 #### Example: allowBadges for Forum component instance {#example-allowbadges-for-forum-component-instance}
 
@@ -258,7 +258,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
       </ul> </li> 
      <li>if "advanced", specifies the scoring engine based on quality and quantity 
       <ul> 
-       <li>requires an <a href="/help/communities/advanced.md">additional package</a></li> 
+       <li>requires an <a href="advanced.md">additional package</a></li> 
       </ul> </li> 
      <li>default is "basic"</li> 
     </ul> </td> 
@@ -268,7 +268,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
 
 ### Included Scoring Rules and Sub-Rules {#included-scoring-rules-and-sub-rules}
 
-Included in the release are two scoring rules for the [Forum Function](/help/communities/functions.md#forum-function) (one each for the Forum and Comments components of the Forum feature):
+Included in the release are two scoring rules for the [Forum Function](functions.md#forum-function) (one each for the Forum and Comments components of the Forum feature):
 
 1. /etc/community/scoring/rules/comments-scoring
 
@@ -362,7 +362,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
   <tr> 
    <td>badgingType</td> 
    <td>String</td> 
-   <td><em>(optional)</em> Identifies the scoring engine as either "basic" or "advanced". If the advanced scoring engine is desired, see <a href="/help/communities/advanced.md">Advanced Scoring and Badges</a>. The default is "basic".</td> 
+   <td><em>(optional)</em> Identifies the scoring engine as either "basic" or "advanced". If the advanced scoring engine is desired, see <a href="advanced.md">Advanced Scoring and Badges</a>. The default is "basic".</td> 
   </tr> 
   <tr> 
    <td> 
@@ -395,7 +395,7 @@ Any changes or additions made to badging rules or images made in the author envi
 
 ## Assign and Revoke Badges {#assign-and-revoke-badges}
 
-Badges may be assigned to members either using the [members console](/help/communities/members.md#badges-tab) or programmatically using cURL commands.
+Badges may be assigned to members either using the [members console](members.md#badges-tab) or programmatically using cURL commands.
 
 The following cURL commands show what is necessary for an HTTP request for assigning and revoking badges. The basic format is:
 
@@ -421,8 +421,8 @@ for example: https://&lt;server&gt;:&lt;port&gt;/home/users/community/riley/prof
 >
 >The *member-profile-url*
 >
->* may refer to an author instance if the [Tunnel Service](/help/communities/users.md#tunnel-service) is enabled
->* may be an obscure, random name - see [Security Checklist](/help/sites-administering/security-checklist.md#verify-that-you-are-not-disclosing-personally-identifiable-information-in-the-users-home-path) regarding authorizable ID
+>* may refer to an author instance if the [Tunnel Service](users.md#tunnel-service) is enabled
+>* may be an obscure, random name - see [Security Checklist](../../help/sites-administering/security-checklist.md#verify-that-you-are-not-disclosing-personally-identifiable-information-in-the-users-home-path) regarding authorizable ID
 >
 
 ### Examples: {#examples}
@@ -457,9 +457,9 @@ For the communities components delivered, the following tables describe the `ver
 
 >[!NOTE]
 >
->A new boolean property, `allowBadges`, enables/disables the display of badges for a component instance. It will be configurable in updated [component edit dialogs](/help/communities/author-communities.md) through a checkbox labeled **Display Badges**.
+>A new boolean property, `allowBadges`, enables/disables the display of badges for a component instance. It will be configurable in updated [component edit dialogs](author-communities.md) through a checkbox labeled **Display Badges**.
 
-** [Calendar Component](/help/communities/calendar.md)** 
+** [Calendar Component](calendar.md)** 
 SocialEvent `topic`= com/adobe/cq/social/calendar
 
 | **Verb** |**Description** |
@@ -469,7 +469,7 @@ SocialEvent `topic`= com/adobe/cq/social/calendar
 | UPDATE |member's calendar event or comment is edited |
 | DELETE |member's calendar event or comment is deleted |
 
-** [Comments Component](/help/communities/comments.md)** 
+** [Comments Component](comments.md)** 
 SocialEvent `topic`= com/adobe/cq/social/comment
 
 | **Verb** |**Description** |
@@ -479,7 +479,7 @@ SocialEvent `topic`= com/adobe/cq/social/comment
 | UPDATE |member's comment is edited |
 | DELETE |member's comment is deleted |
 
-** [File Library Component](/help/communities/file-library.md)** 
+** [File Library Component](file-library.md)** 
 SocialEvent `topic`= com/adobe/cq/social/fileLibrary
 
 | **Verb** |**Description** |
@@ -489,7 +489,7 @@ SocialEvent `topic`= com/adobe/cq/social/fileLibrary
 | UPDATE |member updates a folder or file |
 | DELETE |member deletes a folder or file |
 
-** [Forum Component](/help/communities/forum.md)** 
+** [Forum Component](forum.md)** 
 SocialEvent `topic`= com/adobe/cq/social/forum
 
 | **Verb** |**Description** |
@@ -499,7 +499,7 @@ SocialEvent `topic`= com/adobe/cq/social/forum
 | UPDATE |member's forum topic or reply is edited |
 | DELETE |member's forum topic or reply is deleted |
 
-** [Journal Component](/help/communities/blog-feature.md)** 
+** [Journal Component](blog-feature.md)** 
 SocialEvent `topic`= com/adobe/cq/social/journal
 
 | **Verb** |**Description** |
@@ -509,7 +509,7 @@ SocialEvent `topic`= com/adobe/cq/social/journal
 | UPDATE |member's blog article or comment is edited |
 | DELETE |member's blog article or comment is deleted |
 
-** [QnA Component](/help/communities/working-with-qna.md)** 
+** [QnA Component](working-with-qna.md)** 
 SocialEvent `topic` = com/adobe/cq/social/qna
 
 | **Verb** |**Description** |
@@ -521,7 +521,7 @@ SocialEvent `topic` = com/adobe/cq/social/qna
 | UNSELECT |member's answer is de-selected |
 | DELETE |member's QnA question or answer is deleted |
 
-** [Reviews Component](/help/communities/reviews.md)** 
+** [Reviews Component](reviews.md)** 
 SocialEvent `topic`= com/adobe/cq/social/review
 
 | **Verb** |**Description** |
@@ -530,7 +530,7 @@ SocialEvent `topic`= com/adobe/cq/social/review
 | UPDATE |member's review is edited |
 | DELETE |member's review is deleted |
 
-** [Rating Component](/help/communities/rating.md)** 
+** [Rating Component](rating.md)** 
 SocialEvent `topic`= com/adobe/cq/social/tally/rating
 
 | **Verb** |**Description** |
@@ -538,7 +538,7 @@ SocialEvent `topic`= com/adobe/cq/social/tally/rating
 | ADD RATING |member's content has been up rated |
 | REMOVE RATING |member's content has been down rated |
 
-** [Voting Component](/help/communities/voting.md)** 
+** [Voting Component](voting.md)** 
 SocialEvent `topic`= com/adobe/cq/social/tally/voting
 
 | **Verb** |**Description** |
@@ -586,7 +586,7 @@ If the feature is not working as expected, ensure the data has been correctly en
 
 ## Quick Test {#quick-test}
 
-It is possible to quickly try scoring and badging using the [Getting Started Tutorial](/help/communities/getting-started.md) (engage) site:
+It is possible to quickly try scoring and badging using the [Getting Started Tutorial](getting-started.md) (engage) site:
 
 * access CRXDE Lite on author
 * browse to the base page:
@@ -634,7 +634,7 @@ Next ensure the forum and comments components allow badges to be displayed:
 
 ![chlimage_1-371](assets/chlimage_1-371.png)
 
-Next, [republish](/help/communities/sites-console.md#publishing-the-site) the community site.
+Next, [republish](sites-console.md#publishing-the-site) the community site.
 
 Finally,
 
@@ -653,8 +653,8 @@ This should earn the community member a bronze badge visible with their forum po
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Scoring and Badges Essentials](/help/communities/configure-scoring.md) page for developers.
+More information may be found on the [Scoring and Badges Essentials](configure-scoring.md) page for developers.
 
-For information on the advanced scoring engine, see [Advanced Scoring and Badges](/help/communities/advanced.md).
+For information on the advanced scoring engine, see [Advanced Scoring and Badges](advanced.md).
 
-The configurable Leaderboard [component](/help/communities/enabling-leaderboard.md) and [function](/help/communities/functions.md#leaderboard-function) simplifies the display of members and their scores on a community site.
+The configurable Leaderboard [component](enabling-leaderboard.md) and [function](functions.md#leaderboard-function) simplifies the display of members and their scores on a community site.

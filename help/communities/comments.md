@@ -34,9 +34,9 @@ To add a `Comments`component to a page in author mode, use the component browser
 
 and drag it into place on a page, such as a position relative to the feature for users to comment on, or simply at the bottom of the page.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/essentials-comments.md#essentials-for-client-side) are included, this is how the `Comments`component will appear.
+When the [required client-side libraries](essentials-comments.md#essentials-for-client-side) are included, this is how the `Comments`component will appear.
 
 ![chlimage_1-428](assets/chlimage_1-428.png)
 
@@ -96,7 +96,7 @@ Under the **Comments **tab, specify how comments are entered by visitors.
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation **tab, specify how the posted comments are managed. For more information, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+Under the **User Moderation **tab, specify how the posted comments are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 * **Pre-Moderation** 
 
@@ -150,7 +150,7 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 
 By changing the Comment Resource Type, the comment system will no longer generate an instance of a comment using the default, but rather one that has been customized (extended) by developers.
 
-Once the custom resource types is known, enter [Design Mode](/help/sites-authoring/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
+Once the custom resource types is known, enter [Design Mode](../../help/sites-authoring/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
 
 Under the **Resource Types** tab, specify the custom resourceType for new instances of the `Comments or Voting`components:
 
@@ -170,7 +170,7 @@ Under the **Resource Types** tab, specify the custom resourceType for new instan
 
 * **Comment System Resource Type** 
 
-  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](/help/communities/scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](/help/communities/handlebars-helpers.md#include).
+  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](handlebars-helpers.md#include).
 
 ## Site Visitor Experience {#site-visitor-experience}
 
@@ -193,8 +193,8 @@ Site visitors who are not signed in may only read posted comments, translate the
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Comments Essentials](/help/communities/essentials-comments.md) page for developers.
+More information may be found on the [Comments Essentials](essentials-comments.md) page for developers.
 
-For moderation of posted comments, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+For moderation of posted comments, see [Moderating User Generated Content](moderate-ugc.md).
 
-For translation of posted comments, see [Translating User Generated Content](/help/communities/translate-ugc.md).
+For translation of posted comments, see [Translating User Generated Content](translate-ugc.md).

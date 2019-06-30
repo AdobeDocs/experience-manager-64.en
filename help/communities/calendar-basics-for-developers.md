@@ -24,11 +24,11 @@ This page provides essential information on working with the calendar feature.
    <td>social/calendar/components/hbs/calendar</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.calendar</td> 
   </tr>
   <tr>
@@ -42,12 +42,12 @@ This page provides essential information on working with the calendar feature.
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="/help/communities/calendar.md">Using Calendars</a></td> 
+   <td>see <a href="calendar.md">Using Calendars</a></td> 
   </tr>
  </tbody>
 </table>
 
-* [Client-side Customizations](/help/communities/client-customize.md)
+* [Client-side Customizations](client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -55,22 +55,22 @@ This page provides essential information on working with the calendar feature.
 
 * [Calendar Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](/help/communities/server-customize.md)
+* [Server-side Customizations](server-customize.md)
 
 ### Calendar Function {#calendar-function}
 
-A community site structure that includes the [Calendar function](/help/communities/functions.md#calendar-function) will have a configured c `alendar`component. The Calendar function supports identifying a [privileged member user group](/help/communities/users.md#privileged-members-group).
+A community site structure that includes the [Calendar function](functions.md#calendar-function) will have a configured c `alendar`component. The Calendar function supports identifying a [privileged member user group](users.md#privileged-members-group).
 
 ### Accessing Calendar Posts (UGC) {#accessing-calendar-posts-ugc}
 
-As of AEM 6.1 Communities, use of a [common store](/help/communities/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
+As of AEM 6.1 Communities, use of a [common store](working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 See:
 
-* [Storage Resource Provider Overview](/help/communities/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](/help/communities/srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](/help/communities/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](/help/communities/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](srp.md) - introduction and repository usage overview
+* [SRP and UGC Essentials](srp-and-ugc.md) - SRP utility methods and examples
+* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
 

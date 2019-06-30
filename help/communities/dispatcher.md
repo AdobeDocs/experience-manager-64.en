@@ -15,7 +15,7 @@ discoiquuid: 23745dd3-1424-4d22-8456-d2dbd42467f4
 
 ## AEM Communities {#aem-communities}
 
-For AEM Communities, it is necessary to configure the Dispatcher to ensure proper functioning of [community sites](/help/communities/overview.md#community-sites). Additional configurations are necessary when including features such as Communities enablement and social login.
+For AEM Communities, it is necessary to configure the Dispatcher to ensure proper functioning of [community sites](overview.md#community-sites). Additional configurations are necessary when including features such as Communities enablement and social login.
 
 To learn what is necessary for your particular deployment and site design
 
@@ -47,7 +47,7 @@ When configured to support dispatcher caching, a TTL-based "max age" expiration 
 
 The OSGi configuration **ACS AEM Commons - Dispatcher Cache Control Header - Max Age** sets the expiraton of cached pages that appear under a specified path.
 
-* From the [Web Console](/help/sites-deploying/configuring-osgi.md)
+* From the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
@@ -64,7 +64,7 @@ The OSGi configuration **ACS AEM Commons - Dispatcher Cache Control Header - Max
 
 ## Dispatcher Client Headers {#dispatcher-client-headers}
 
-In the /clientheaders section of `dispatcher.any`, if listing a specific set of headers, it is necessary to include `"CSRF-Token"` in order for the [Enablement feature](/help/communities/enablement.md) to work properly.
+In the /clientheaders section of `dispatcher.any`, if listing a specific set of headers, it is necessary to include `"CSRF-Token"` in order for the [Enablement feature](enablement.md) to work properly.
 
 ## Dispatcher Filters {#dispatcher-filters}
 

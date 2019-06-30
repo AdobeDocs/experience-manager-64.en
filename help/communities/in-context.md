@@ -15,11 +15,11 @@ discoiquuid: ee104f6f-123b-4a6e-9031-849fc1318cc5
 
 For AEM Communities, moderation may be performed by administrators and trusted community members directly on the published page where the community content was posted.
 
-When using a [moderation console](/help/communities/moderation.md), the information displayed for the content includes a link to the published page to allow access to additional moderation actions available when moderating in-context.
+When using a [moderation console](moderation.md), the information displayed for the content includes a link to the published page to allow access to additional moderation actions available when moderating in-context.
 
 ## Moderation Actions {#moderation-actions}
 
-Visit the moderation overview for a description of [moderation actions](/help/communities/moderate-ugc.md#moderation-actions).
+Visit the moderation overview for a description of [moderation actions](moderate-ugc.md#moderation-actions).
 
 ## Moderation UI {#moderation-ui}
 
@@ -33,13 +33,13 @@ The UI presented to the moderator on the publish instance is contained within th
 
 ## Example {#example}
 
-Using the [Geometrixx Engage](http://localhost:4503/content/sites/engage/en.html) site created when [Getting Started with AEM Communities](/help/communities/getting-started.md), it is possible to quickly setup a thread in a forum on which to experience various moderation activites in the publish environment, as seen below.
+Using the [Geometrixx Engage](http://localhost:4503/content/sites/engage/en.html) site created when [Getting Started with AEM Communities](getting-started.md), it is possible to quickly setup a thread in a forum on which to experience various moderation activites in the publish environment, as seen below.
 
 Aaron McDonald (aaron.mcdonald@mailinator.com) was identified as a a trusted community member by adding him to the community-engage-moderators group when creating the site.
 
-Rebekah Larsen (rebekah.larsen@trashymail.com) can be added as a member of community-engage-members group using the [Members console](/help/communities/members.md).
+Rebekah Larsen (rebekah.larsen@trashymail.com) can be added as a member of community-engage-members group using the [Members console](members.md).
 
-For more on community user groups, visit [Managing Users and User Groups](/help/communities/users.md).
+For more on community user groups, visit [Managing Users and User Groups](users.md).
 
 ### Create the Forum Posts {#create-the-forum-posts}
 
@@ -89,7 +89,7 @@ An anonymous site visitor may only view the forum, but my not post any content n
 
 ### New Member (#4) {#new-member}
 
-On author, log in as admin and add Boyd Larsen (boyd.larsen@dodgit.com) as a new member of community-engage-members group using the [Members console](/help/communities/members.md), then Log Out.
+On author, log in as admin and add Boyd Larsen (boyd.larsen@dodgit.com) as a new member of community-engage-members group using the [Members console](members.md), then Log Out.
 
 On publish, log in as Boyd Larsen and access the thread by selecting `Forum`, and then `Read more` for the hummingbird post.
 
@@ -116,7 +116,7 @@ Notice
 
 ![communityadmin-forum](assets/communityadmin-forum.png)
 
-Select Administration menu item to access the [moderation console](/help/communities/moderation.md) from the publish environment.
+Select Administration menu item to access the [moderation console](moderation.md) from the publish environment.
 
 Notice that, for an administrator, all moderatable content is visible, not just content from the Geometrixx Engage community site.
 
@@ -139,7 +139,7 @@ Notice
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-Select Administration menu item to access the [moderation console](/help/communities/moderation.md) from the publish environment.
+Select Administration menu item to access the [moderation console](moderation.md) from the publish environment.
 
 Notice that, for a community moderator, only moderatable content from the Geometrixx Engage community site is visible.
 

@@ -15,19 +15,19 @@ discoiquuid: 31cc7819-cc4d-4804-9fab-005d8bef0714
 
 AEM Communities helps brands create consistent experiences across digital and in-person channels by facilitating enablement across employees and customers with a catalog of enablement resources, assigned content, and dynamic recommendations—all delivered within a social community to foster engagement.
 
-Following is a tutorial on quickly setting up an [enablement community](/help/communities/overview.md#enablement-community) for demonstration or development purposes.
+Following is a tutorial on quickly setting up an [enablement community](overview.md#enablement-community) for demonstration or development purposes.
 
-For a tutorial on quickly setting up an [engagement community](/help/communities/overview.md#engagement-community), visit [Getting Started with AEM Communities](/help/communities/getting-started.md).
+For a tutorial on quickly setting up an [engagement community](overview.md#engagement-community), visit [Getting Started with AEM Communities](getting-started.md).
 
 >[!NOTE]
 >
->This tutorial assumes installation of [Communities feature pack 1](/help/communities/deploy-communities.md#latestfeaturepack) or later.
+>This tutorial assumes installation of [Communities feature pack 1](deploy-communities.md#latestfeaturepack) or later.
 
-* [Initial Setup](/help/communities/enablement-setup.md)
+* [Initial Setup](enablement-setup.md)
 
-* [Author a New Community Site for Enablement](/help/communities/enablement-create-site.md)
+* [Author a New Community Site for Enablement](enablement-create-site.md)
 
-* [Create and Assign a Resource](/help/communities/resource.md)
+* [Create and Assign a Resource](resource.md)
 
-* [Experience the Published Site](/help/communities/enablement-published-site.md)
+* [Experience the Published Site](enablement-published-site.md)
 
