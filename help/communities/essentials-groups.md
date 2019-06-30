@@ -15,7 +15,7 @@ discoiquuid: 4f85cd3c-5158-4f23-abe2-7e375fd0c8d4
 
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users from the publish and author environments.
 
-As of Communities [feature pack 1](/help/communities/deploy-communities.md#latestfeaturepack), it is possible for groups to be nested within other groups
+As of Communities [feature pack 1](deploy-communities.md#latestfeaturepack), it is possible for groups to be nested within other groups
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
@@ -28,7 +28,7 @@ As of Communities [feature pack 1](/help/communities/deploy-communities.md#lates
    <td>social/group/components/hbs/communitygroupmemberlist</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.communitygroups</td> 
   </tr>
   <tr>
@@ -41,7 +41,7 @@ As of Communities [feature pack 1](/help/communities/deploy-communities.md#lates
   </tr>
   <tr>
    <td><strong>properties</strong></td> 
-   <td>see <a href="/help/communities/creating-groups.md">Community Group</a></td> 
+   <td>see <a href="creating-groups.md">Community Group</a></td> 
   </tr>
  </tbody>
 </table>
@@ -55,7 +55,7 @@ As of Communities [feature pack 1](/help/communities/deploy-communities.md#lates
    <td>social/group/components/hbs/communitygroups</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.communitygroups</td> 
   </tr>
   <tr>
@@ -69,7 +69,7 @@ As of Communities [feature pack 1](/help/communities/deploy-communities.md#lates
  </tbody>
 </table>
 
-* [Client-side Customizations](/help/communities/client-customize.md)
+* [Client-side Customizations](client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -77,19 +77,19 @@ As of Communities [feature pack 1](/help/communities/deploy-communities.md#lates
 
 * [Community Group Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](/help/communities/server-customize.md)
+* [Server-side Customizations](server-customize.md)
 
 ### Groups Function {#groups-function}
 
-A community site structure that includes a [Groups function](/help/communities/functions.md#groups-function) will support the creation of new `community groups` from the publish and author environments. The community group created will include a `community groups member list` component that will list the members of the group.
+A community site structure that includes a [Groups function](functions.md#groups-function) will support the creation of new `community groups` from the publish and author environments. The community group created will include a `community groups member list` component that will list the members of the group.
 
-One or more [community group templates](/help/communities/tools-groups.md), which provide the design of the community group page(s), may be configured for the Groups function when the function is being added to a [community site template](/help/communities/sites.md) or nested within a community group template.
+One or more [community group templates](tools-groups.md), which provide the design of the community group page(s), may be configured for the Groups function when the function is being added to a [community site template](sites.md) or nested within a community group template.
 
-The inclusion of multiple community group templates results in a choice of design being presented to the authorized user at the time a new community group is created for the community site, as shown in the section on [community groups](/help/communities/creating-groups.md) for authors.
+The inclusion of multiple community group templates results in a choice of design being presented to the authorized user at the time a new community group is created for the community site, as shown in the section on [community groups](creating-groups.md) for authors.
 
 ### Nested Groups {#nested-groups}
 
-As of Communities [FP1](/help/communities/deploy-communities.md#latestfeaturepack), it is possible for a Groups function to be included within a group template, thus allowing for nested groups (sub-communities).
+As of Communities [FP1](deploy-communities.md#latestfeaturepack), it is possible for a Groups function to be included within a group template, thus allowing for nested groups (sub-communities).
 
 When a community site or group template includes the Groups function, it is possible to
 
@@ -100,8 +100,8 @@ When creating a group in the author environment, it is necessary to first publis
 
 ## Links and Related Information {#links-and-related-information}
 
-* [Managing Users and User Groups](/help/communities/users.md)
-* [Communities Groups Console](/help/communities/groups.md)
-* [Groups Function](/help/communities/functions.md#groups-function)
-* [Group Templates](/help/communities/tools-groups.md)
+* [Managing Users and User Groups](users.md)
+* [Communities Groups Console](groups.md)
+* [Groups Function](functions.md#groups-function)
+* [Group Templates](tools-groups.md)
 

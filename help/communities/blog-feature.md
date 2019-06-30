@@ -24,11 +24,11 @@ The blog feature provides:
 * Publish-side creation of blog articles and comments
 * Rich text editing
 * Inline images (with support for drag and drop)
-* Embedded social networking content ([oEmbed support](/help/communities/blog-developer-basics.md#allowing-rich-media))
+* Embedded social networking content ([oEmbed support](blog-developer-basics.md#allowing-rich-media))
 * Draft mode
 * Scheduled publishing
-* Compose on-behalf (a [privileged member](/help/communities/users.md#privileged-members-group) can create content on behalf of a different communty member)
-* [In-context and bulk moderation](/help/communities/moderate-ugc.md) of blog articles and comments
+* Compose on-behalf (a [privileged member](users.md#privileged-members-group) can create content on behalf of a different communty member)
+* [In-context and bulk moderation](moderate-ugc.md) of blog articles and comments
 
 This section of the documentation describes
 
@@ -50,9 +50,9 @@ If it is desired to add a blog to a page in author mode, use the component brows
 
 and drag them into place on a page where the blog should appear.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/blog-developer-basics.md#essentials-for-client-side) are included, this is how the `Blog`component will appear:
+When the [required client-side libraries](blog-developer-basics.md#essentials-for-client-side) are included, this is how the `Blog`component will appear:
 
 ![chlimage_1-147](assets/chlimage_1-147.png)
 
@@ -124,11 +124,11 @@ Under the **Settings** tab, specify the basic features of the blog:
 
 * **Allow Following** 
 
-  If checked, include the following feature for blog articles, which allows members to be [notified](/help/communities/notifications.md) of new posts. Default is unchecked.
+  If checked, include the following feature for blog articles, which allows members to be [notified](notifications.md) of new posts. Default is unchecked.
 
 * **Allow Email Subscriptions** 
 
-  If checked, allow members to be notified of new posts by email ([subscription](/help/communities/subscriptions.md)). Requires `Allow Following` to be checked and [email configured](/help/communities/email.md). Default is unchecked.
+  If checked, allow members to be notified of new posts by email ([subscription](subscriptions.md)). Requires `Allow Following` to be checked and [email configured](email.md). Default is unchecked.
 
 * **Allow Voting** 
 
@@ -136,11 +136,11 @@ Under the **Settings** tab, specify the basic features of the blog:
 
 * **Display Badges** 
 
-  If checked, display earned and assigned [badges](/help/communities/implementing-scoring.md) with a member's blog entry. Default is unchecked.
+  If checked, display earned and assigned [badges](implementing-scoring.md) with a member's blog entry. Default is unchecked.
 
 * **Allow Featured Content** 
 
-  if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is unchecked.
+  if checked, the idea is able to be identified as [featured content](featured.md). Default is unchecked.
 
 #### User Moderation tab {#user-moderation-tab}
 
@@ -246,13 +246,13 @@ The blog articles will appear under the appropriate tab (Published, Drafts or Sc
 
 #### Moderators and Administrators {#moderators-and-administrators}
 
-When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](/help/communities/moderate-ugc.md) (as permitted by the configuration of the component) on all blog articles and comments posted to a blog.
+When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](moderate-ugc.md) (as permitted by the configuration of the component) on all blog articles and comments posted to a blog.
 
 ![chlimage_1-152](assets/chlimage_1-152.png)
 
 ### Members {#members}
 
-When the signed in user is a community member or [privileged member](/help/communities/users.md#privileged-members-group) (depending on configuration), they are able to select `New Article` to create and post a new blog article.
+When the signed in user is a community member or [privileged member](users.md#privileged-members-group) (depending on configuration), they are able to select `New Article` to create and post a new blog article.
 
 Specifically, they may
 
@@ -273,10 +273,10 @@ Site visitors who are not signed in may only read posted blog articles and comme
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Blog Essentials](/help/communities/blog-developer-basics.md) page for developers.
+More information may be found on the [Blog Essentials](blog-developer-basics.md) page for developers.
 
-For moderation of blog entries and comments, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+For moderation of blog entries and comments, see [Moderating User Generated Content](moderate-ugc.md).
 
-For tagging blog entries and comments, see [Tagging User Generated Content](/help/communities/tag-ugc.md).
+For tagging blog entries and comments, see [Tagging User Generated Content](tag-ugc.md).
 
-For translation of blog entries and comments, see [Translating User Generated Content](/help/communities/translate-ugc.md).
+For translation of blog entries and comments, see [Translating User Generated Content](translate-ugc.md).

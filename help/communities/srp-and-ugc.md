@@ -15,7 +15,7 @@ discoiquuid: 0763f236-5648-49e9-8a24-dbc8f4c77ee3
 
 ## Introduction {#introduction}
 
-If unfamiliar with the storage resource provider (SRP) and its relationship to user-generated content (UGC), visit [Community Content Storage](/help/communities/working-with-srp.md) and [Storage Resource Provider Overview](/help/communities/srp.md).
+If unfamiliar with the storage resource provider (SRP) and its relationship to user-generated content (UGC), visit [Community Content Storage](working-with-srp.md) and [Storage Resource Provider Overview](srp.md).
 
 This section of the documentation provides some essential information about SRP and UGC.
 
@@ -31,13 +31,13 @@ The SRP API is not an abstract class, it is an interface. A custom implementatio
 
 The means for using the SRP API are through provided utilities, such as those found in the SocialResourceUtilities package.
 
-When upgrading from AEM 6.0 or earlier, it will be necessary to migrate UGC for all SRPs, for which an Open Source tool is available. See [Upgrading to AEM Communities 6.3](/help/communities/upgrade.md).
+When upgrading from AEM 6.0 or earlier, it will be necessary to migrate UGC for all SRPs, for which an Open Source tool is available. See [Upgrading to AEM Communities 6.3](upgrade.md).
 
 >[!NOTE]
 >
 >Historically, utilities for accessing UGC were found in the SocialUtils package, which no longer exists.
 >
->For replacement utilities, see [SocialUtils Refactoring](/help/communities/socialutils.md).
+>For replacement utilities, see [SocialUtils Refactoring](socialutils.md).
 
 ## Utility Method to Access UGC {#utility-method-to-access-ugc}
 
@@ -58,13 +58,13 @@ protected void doGet(final SlingHttpServletRequest request, final SlingHttpServl
 }
 ```
 
-For other SocialUtils replacements, see [SocialUtils Refactoring](/help/communities/socialutils.md).
+For other SocialUtils replacements, see [SocialUtils Refactoring](socialutils.md).
 
-For coding guidelines, visit [Accessing UGC with SRP](/help/communities/accessing-ugc-with-srp.md).
+For coding guidelines, visit [Accessing UGC with SRP](accessing-ugc-with-srp.md).
 
 >[!CAUTION]
 >
->The path resourceToUGCStoragePath() returns is *not *suitable for [ACL checking](/help/communities/srp.md#for-access-control-acls).
+>The path resourceToUGCStoragePath() returns is *not *suitable for [ACL checking](srp.md#for-access-control-acls).
 
 ## Utility Method to Access ACLs {#utility-method-to-access-acls}
 
@@ -95,19 +95,19 @@ protected void doGet(final SlingHttpServletRequest request, final SlingHttpServl
 
 ## UGC-Related Storage Locations {#ugc-related-storage-locations}
 
-The following descriptions of storage location may be of help when developing with JSRP or perhaps MSRP. There is currently no UI to access UGC stored in ASRP, as there is for JSRP ([CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md)) and MSRP (MongoDB tools).
+The following descriptions of storage location may be of help when developing with JSRP or perhaps MSRP. There is currently no UI to access UGC stored in ASRP, as there is for JSRP ([CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md)) and MSRP (MongoDB tools).
 
 **component location**
 
 When a member enters UGC in the publish environment, they are interacting with a component as part of an AEM site.
 
-An example of such a component is the [comments component](http://localhost:4502/content/community-components/en/comments.html) that exists in the [Community Components Guide](/help/communities/components-guide.md) site. The path to the comment node in the local repository is:
+An example of such a component is the [comments component](http://localhost:4502/content/community-components/en/comments.html) that exists in the [Community Components Guide](components-guide.md) site. The path to the comment node in the local repository is:
 
 * component path = */content/community-components/en/comments/jcr:content/content/includable/comments*
 
 **shadow node location**
 
-The creation of UGC also creates a [shadow node](/help/communities/srp.md#about-shadow-nodes-in-jcr) to which the necessary ACLs are applied. The path to the corresponding shadow node in the local repository is the result of prepending the shadow node root path to the component path:
+The creation of UGC also creates a [shadow node](srp.md#about-shadow-nodes-in-jcr) to which the necessary ACLs are applied. The path to the corresponding shadow node in the local repository is the result of prepending the shadow node root path to the component path:
 
 * root path = /content/usergenerated
 * comment shadow node = /content/usergenerated*/content/community-components/en/comments/jcr:content/content/includable/comments*
@@ -123,7 +123,7 @@ The UGC is created in neither of those locations, and should only be accessed us
 
 ## Related Information {#related-information}
 
-* [Storage Resource Provider Overview](/help/communities/srp.md) - introduction and repository usage overview
-* [Accessing UGC with SRP](/help/communities/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](/help/communities/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](srp.md) - introduction and repository usage overview
+* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
 

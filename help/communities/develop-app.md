@@ -13,7 +13,7 @@ discoiquuid: 910229a3-38b1-44f1-9c09-55f8fd6cbb1d
 
 # Develop Sandbox Application{#develop-sandbox-application}
 
-In this section, now that the template has been setup in the [initial application](/help/communities/initial-app.md) section, and the initial pages established in the [initial content](/help/communities/initial-content.md) section, the application can be developed using foundation scripts including the ability to enable authoring with Communities components. At the end of this section, the website will be functional.
+In this section, now that the template has been setup in the [initial application](initial-app.md) section, and the initial pages established in the [initial content](initial-content.md) section, the application can be developed using foundation scripts including the ability to enable authoring with Communities components. At the end of this section, the website will be functional.
 
 ## Using Foundation Page Scripts {#using-foundation-page-scripts}
 
@@ -133,7 +133,7 @@ Following is how the play page appears in the classic UI including with content 
 
 To enable Communities components for authoring, start by following these instructions:
 
-* [Accessing Communities Components](/help/communities/basics.md#accessing-communities-components)
+* [Accessing Communities Components](basics.md#accessing-communities-components)
 
 For the purposes of this sandbox, start with these **Communities **components (enable by checking the box):
 
@@ -175,4 +175,4 @@ Change the browser URL to the root page: [http://localhost:4502/editor.html/cont
 
 Once the site is published, browsing to the root page on a publish instance will redirect to the english page.  
 
-The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) .... **[⇒](/help/communities/add-clientlibs.md)** 
+The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) .... **[⇒](add-clientlibs.md)** 

@@ -15,15 +15,15 @@ discoiquuid: 4f4c73eb-281e-4dfb-9cb0-2341d5ee94ae
 
 AEM Communities allows companies to create dedicated branded community experiences from a library of site templates. Forums, groups, blogs, file sharing, calendars, activity feeds, and extended user profiles can be integrated into your website to foster interactions between propsects, customers, and companies.
 
-Following is a tutorial on quickly setting up an [engagement community](/help/communities/overview.md#engagement-community) for demonstration or development purposes.
+Following is a tutorial on quickly setting up an [engagement community](overview.md#engagement-community) for demonstration or development purposes.
 
-For a tutorial on quickly setting up an [enablement community](/help/communities/overview.md#enablement-community), visit [Getting Started with AEM Communities for Enablement](/help/communities/getting-started-enablement.md).
+For a tutorial on quickly setting up an [enablement community](overview.md#enablement-community), visit [Getting Started with AEM Communities for Enablement](getting-started-enablement.md).
 
-* [Initial Setup](/help/communities/setup.md)
+* [Initial Setup](setup.md)
 
-* [Author a New Community Site](/help/communities/create-site.md)
+* [Author a New Community Site](create-site.md)
 
-* [Experience the Published Site](/help/communities/published-site.md)
+* [Experience the Published Site](published-site.md)
 
-* [Authoring Nested Groups](/help/communities/nested-groups.md)
+* [Authoring Nested Groups](nested-groups.md)
 

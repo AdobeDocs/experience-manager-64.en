@@ -19,6 +19,7 @@ AEM Forms supports CAPTCHA in adaptive forms. You can use reCAPTCHA service by G
 
 >[!NOTE] {grayBox="true"}
 >
+>AEM Forms support only reCaptcha v2. Any other version is not supported.
 >CAPTCHA in adaptive forms is not supported in offline mode on AEM Forms app.
 
 ## Configure ReCAPTCHA service by Google {#google-recaptcha}

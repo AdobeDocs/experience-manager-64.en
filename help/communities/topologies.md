@@ -19,25 +19,25 @@ This approach is fundamentally different from the way the AEM platform handles s
 
 The AEM platform uses a node store that replicates site content from author to publish, while AEM Communities uses a single, common store for UGC that is never replicated.
 
-For the common UGC store, it is necessary to choose a [storage resource provider (SRP)](/help/communities/working-with-srp.md). The recommended choices are:
+For the common UGC store, it is necessary to choose a [storage resource provider (SRP)](working-with-srp.md). The recommended choices are:
 
-* [DSRP - Relational Database Storage Resource Provider](/help/communities/dsrp.md)
-* [MSRP - MongoDB Storage Resource Provider](/help/communities/msrp.md)
-* [ASRP - Adobe Storage Resource Provider](/help/communities/asrp.md)
+* [DSRP - Relational Database Storage Resource Provider](dsrp.md)
+* [MSRP - MongoDB Storage Resource Provider](msrp.md)
+* [ASRP - Adobe Storage Resource Provider](asrp.md)
 
-One other SRP option, [JSRP - JCR Storage Resource Provider](/help/communities/jsrp.md), does not support a common UGC store for the author and publish environments to both access.
+One other SRP option, [JSRP - JCR Storage Resource Provider](jsrp.md), does not support a common UGC store for the author and publish environments to both access.
 
 Requiring a common store results in the following recommended topologies.
 
 >[!NOTE]
 >
->For AEM Communities, [UGC is never replicated](/help/communities/working-with-srp.md#ugc-never-replicated). 
+>For AEM Communities, [UGC is never replicated](working-with-srp.md#ugc-never-replicated). 
 >
->When the deployment does not include a [common store](/help/communities/working-with-srp.md), UGC will be visible only on the AEM publish or author instance on which it was entered.
+>When the deployment does not include a [common store](working-with-srp.md), UGC will be visible only on the AEM publish or author instance on which it was entered.
 
 >[!NOTE]
 >
->For more information on the AEM platform, see [Recommended Deployments](/help/sites-deploying/recommended-deploys.md) and [Introduction to the AEM Platform](/help/sites-deploying/data-store-config.md).
+>For more information on the AEM platform, see [Recommended Deployments](../../help/sites-deploying/recommended-deploys.md) and [Introduction to the AEM Platform](../../help/sites-deploying/data-store-config.md).
 
 ## For Production {#for-production}
 
@@ -45,22 +45,22 @@ Establishing a common store for UGC is essential, and thus the underlying deploy
 
 Two examples:
 
-1) If the expected volume of UGC is high and a local MongoDB instance is possible, then the choice would be [MSRP](/help/communities/msrp.md).
+1) If the expected volume of UGC is high and a local MongoDB instance is possible, then the choice would be [MSRP](msrp.md).
 
-2) For optimal performance for page content, the choice of a [publish farm](/help/sites-deploying/recommended-deploys.md#tarmk-farm) and [ASRP](/help/communities/asrp.md) would provide optimal scaling of UGC with relatively straightforward operations.
+2) For optimal performance for page content, the choice of a [publish farm](../../help/sites-deploying/recommended-deploys.md#tarmk-farm) and [ASRP](asrp.md) would provide optimal scaling of UGC with relatively straightforward operations.
 
 For both, the deployment may be based on any OAK microkernel.
 
-To choose the appropriate common store, carefully consider the unique [characteristics](/help/communities/working-with-srp.md#srpoptionscharacteristics) of each.
+To choose the appropriate common store, carefully consider the unique [characteristics](working-with-srp.md#srpoptionscharacteristics) of each.
 
-For more details on Oak microkernals, visit [Recommended Deployments](/help/sites-deploying/recommended-deploys.md).
+For more details on Oak microkernals, visit [Recommended Deployments](../../help/sites-deploying/recommended-deploys.md).
 
 ### TarMK Publish Farm {#tarmk-publish-farm}
 
 When the topology is a publish farm, relevant topics of importance are
 
-* [User Synchronization](/help/communities/sync.md)
-* [Managing Users and User Groups](/help/communities/users.md)
+* [User Synchronization](sync.md)
+* [Managing Users and User Groups](users.md)
 
 ### Recommended: DSRP, MSRP or ASRP {#recommended-dsrp-msrp-or-asrp}
 
@@ -127,29 +127,29 @@ When the topology is a publish farm, relevant topics of importance are
 
 ## For Development {#for-development}
 
-For non-production environments, [JSRP](/help/communities/jsrp.md) provides simplicity in setting up a development environment with one author instance and one publish instance.
+For non-production environments, [JSRP](jsrp.md) provides simplicity in setting up a development environment with one author instance and one publish instance.
 
-If choosing [ASRP](/help/communities/asrp.md), [DSRP](/help/communities/dsrp.md) or [MSRP](/help/communities/msrp.md) for production, it is also possible to setup a similar development environment using Adobe on-demand storage or MongoDB. For an example, see [HowTo Setup MongoDB for Demo](/help/communities/demo-mongo.md).
+If choosing [ASRP](asrp.md), [DSRP](dsrp.md) or [MSRP](msrp.md) for production, it is also possible to setup a similar development environment using Adobe on-demand storage or MongoDB. For an example, see [HowTo Setup MongoDB for Demo](demo-mongo.md).
 
 ## References {#references}
 
-* [User Synchronization](/help/communities/sync.md)
+* [User Synchronization](sync.md)
 
   Discusses scynchronization of user data among publish farm instances.
 
-* [Managing Users and User Groups](/help/communities/users.md)
+* [Managing Users and User Groups](users.md)
 
   Discusses the roles of users and user groups in the author and publish environments.
 
-* UGC [common store](/help/communities/working-with-srp.md)
+* UGC [common store](working-with-srp.md)
 
   Describes the storage of community content separate from site content
 
-* [Node Stores and Data Stores](/help/sites-deploying/data-store-config.md)
+* [Node Stores and Data Stores](../../help/sites-deploying/data-store-config.md)
 
   Basically, site content is stored in a node store. For Assets, a data store can be configured to store binary data. For Communities, a common store must be configured to select the SRP.
 
-* [Storage Elements in AEM 6.3](/help/sites-deploying/storage-elements-in-aem-6.md)
+* [Storage Elements in AEM 6.3](../../help/sites-deploying/storage-elements-in-aem-6.md)
 
   Describes the two node storage implementations: Tar and MongoDB.
 

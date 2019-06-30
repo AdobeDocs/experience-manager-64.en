@@ -15,19 +15,19 @@ discoiquuid: a03145f7-6697-4797-b73e-6f8d241ce469
 
 As of AEM 6.1 Communities, the easiest way to create a sample page is to create a simple community site, consisting simply of a Page function.
 
-This will include a parsys component so that you can [enable components for authoring](/help/communities/basics.md#accessing-communities-components).
+This will include a parsys component so that you can [enable components for authoring](basics.md#accessing-communities-components).
 
-Another option for exploratoin with sample components is to use the features presented in the [Community Components Guide](/help/communities/components-guide.md).
+Another option for exploratoin with sample components is to use the features presented in the [Community Components Guide](components-guide.md).
 
 ## Create a Community Site {#create-a-community-site}
 
-This is very similar to creating a new site described in [Getting Started with AEM Communities](/help/communities/getting-started.md).
+This is very similar to creating a new site described in [Getting Started with AEM Communities](getting-started.md).
 
-The major difference is this tutorial will create a new community site template that only contains the [Page function](/help/communities/functions.md#page-function) in order to create a simple community site free of other features (other than the pre-wired features basic to all community sites).
+The major difference is this tutorial will create a new community site template that only contains the [Page function](functions.md#page-function) in order to create a simple community site free of other features (other than the pre-wired features basic to all community sites).
 
 ### Create New Site Template {#create-new-site-template}
 
-To get started, create a simple [community site template](/help/communities/sites.md).
+To get started, create a simple [community site template](sites.md).
 
 From global navigation on an author instance select **Tools, Communities, Site Templates**.
 
@@ -97,7 +97,7 @@ After creating the site template, from global navigation select **Communities**,
 
 ![chlimage_1-88](assets/chlimage_1-88.png)
 
-From the [community sites console](/help/communities/sites-console.md), select the publish icon to publish the site, by default to http://localhost:4503.
+From the [community sites console](sites-console.md), select the publish icon to publish the site, by default to http://localhost:4503.
 
 ## Open the Site on Author in Edit Mode {#open-the-site-on-author-in-edit-mode}
 

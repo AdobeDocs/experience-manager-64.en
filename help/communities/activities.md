@@ -32,9 +32,9 @@ If it is desired to add an `Activity Streams` component to a page in author mode
 
 and drag it into place on a page where activity streams should appear.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/essentials-activities.md#essentials-for-client-side) are included, this is how the `Activity Streams` component will appear:
+When the [required client-side libraries](essentials-activities.md#essentials-for-client-side) are included, this is how the `Activity Streams` component will appear:
 
 ![chlimage_1-195](assets/chlimage_1-195.png)
 
@@ -61,11 +61,11 @@ Under the **User Activities** tab, specify which activities to display:
 
 ## Following View {#following-view}
 
-Components must be configured to enable following. Features that allow following are [blog](/help/communities/blog-feature.md), [forum](/help/communities/forum.md), [QnA](/help/communities/working-with-qna.md), [calendar](/help/communities/calendar.md), [filelibrary](/help/communities/file-library.md), and [comments](/help/communities/comments.md).
+Components must be configured to enable following. Features that allow following are [blog](blog-feature.md), [forum](forum.md), [QnA](working-with-qna.md), [calendar](calendar.md), [filelibrary](file-library.md), and [comments](comments.md).
 
 ![chlimage_1-198](assets/chlimage_1-198.png)
 
-The **Follow **button provides a means to follow entries as activities, [notifications](/help/communities/notifications.md), and/or [subscriptions](/help/communities/subscriptions.md). Each time the **Follow **button is selected, it is possible to toggle on or off a selection. The `Email Subscriptions` selection is only present when configured.
+The **Follow **button provides a means to follow entries as activities, [notifications](notifications.md), and/or [subscriptions](subscriptions.md). Each time the **Follow **button is selected, it is possible to toggle on or off a selection. The `Email Subscriptions` selection is only present when configured.
 
 If any method of following is selected, the text of the button changes to **Following**. For convenience, it is possible to select `Unfollow All` to toggle off all methods.
 
@@ -82,4 +82,4 @@ The **Follow** button will appear
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Activity Streams Essentials](/help/communities/essentials-activities.md) page for developers.
+More information may be found on the [Activity Streams Essentials](essentials-activities.md) page for developers.

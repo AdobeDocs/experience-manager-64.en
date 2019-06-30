@@ -19,7 +19,7 @@ AEM Communities features often require site visitors to be registered and signed
 
 ### Members (Users) on Publish {#members-users-on-publish}
 
-Using the Communities Members and Groups consoles, members and member groups registered in the *publish* environment may be created and managed from the *author* environment. This is only possible when the [tunnel service](/help/communities/deploy-communities.md#tunnel-service-on-author) is enabled.
+Using the Communities Members and Groups consoles, members and member groups registered in the *publish* environment may be created and managed from the *author* environment. This is only possible when the [tunnel service](deploy-communities.md#tunnel-service-on-author) is enabled.
 
 ### Users on Author {#users-on-author}
 
@@ -30,7 +30,7 @@ For managing users and groups registered in the *author* environment, is is nece
 
 >[!NOTE]
 >
->With sample content deployed and enabled, many sample users exist in both the author and publish environments. These users will not be present when running with [nosamplecontent runmode](/help/sites-administering/production-ready.md).
+>With sample content deployed and enabled, many sample users exist in both the author and publish environments. These users will not be present when running with [nosamplecontent runmode](../../help/sites-administering/production-ready.md).
 
 ## Members Console {#members-console}
 
@@ -40,7 +40,7 @@ In the author environment, to reach the Members console for managing members reg
 
 >[!CAUTION]
 >
->It will not be possible to use the Members console if the [tunnel service](/help/communities/deploy-communities.md#tunnel-service-on-author) is not enabled.
+>It will not be possible to use the Members console if the [tunnel service](deploy-communities.md#tunnel-service-on-author) is not enabled.
 
 ![chlimage_1-119](assets/chlimage_1-119.png)
 
@@ -54,7 +54,7 @@ Select the search icon on the left side of the `Members` header to toggle the se
 
 ### Member Statistics {#member-statistics}
 
-The columns displaying `Views`, `Posts`, `Follows`and `Likes` are updated when the user is a member of one or more community sites with Adobe Analytics [enabled](/help/communities/sites-console.md#analytics).
+The columns displaying `Views`, `Posts`, `Follows`and `Likes` are updated when the user is a member of one or more community sites with Adobe Analytics [enabled](sites-console.md#analytics).
 
 ### Export CSV {#export-csv}
 
@@ -124,7 +124,7 @@ Under Account settings it is possible for a community administrator to
 
   Default depends on the configuration of contribution limits.  
 
-  See [Member Contribution Limits](/help/communities/limits.md).
+  See [Member Contribution Limits](limits.md).
 
 * **Change Password** 
 
@@ -146,13 +146,13 @@ The member may be added to one or more members groups. Begin by entering text in
 
 The `BADGES` panel provides the ability to manually assign badges as well as revoke them. The badges may be for assigned roles as well as badges typically earned.
 
-See also [Scoring and Badges](/help/communities/implementing-scoring.md).
+See also [Scoring and Badges](implementing-scoring.md).
 
 ![chlimage_1-123](assets/chlimage_1-123.png)
 
 * **add badges**
 
-    * begin typing to select from [available badges](/help/communities/badges.md). Once a badge is selected, choose each site, or all sites, on which the badge should be displayed along with the member's avatar.
+    * begin typing to select from [available badges](badges.md). Once a badge is selected, choose each site, or all sites, on which the badge should be displayed along with the member's avatar.
     * multiple badges and sites may be chosen.
 
 * **remove badges**
@@ -163,8 +163,8 @@ See also [Scoring and Badges](/help/communities/implementing-scoring.md).
 
 The Groups console, available from the author environment, allows for the creation and management of member groups registered in the publish environment. It is particularly useful for:
 
-* [privileged member groups](/help/communities/users.md#privilegedmembersgroups)
-* group-based assignment of [enablement resources](/help/communities/resources.md)
+* [privileged member groups](users.md#privilegedmembersgroups)
+* group-based assignment of [enablement resources](resources.md)
 
 To access the Groups console:
 
@@ -172,7 +172,7 @@ To access the Groups console:
 
 >[!CAUTION]
 >
->It will not be possible to use the Groups console if the [tunnel service](/help/communities/deploy-communities.md#tunnel-service-on-author) is not enabled.
+>It will not be possible to use the Groups console if the [tunnel service](deploy-communities.md#tunnel-service-on-author) is not enabled.
 
 ### Create New Group {#create-new-group}
 
@@ -202,8 +202,8 @@ The required fields for creating a new publish-side member group are:
 
 ## Authorized Administrators {#authorized-administrators}
 
-When working with members in the Communities members console, it is necessary to be signed in as a user with appropriate permissions, and for the replication agent used by the [tunnel service](/help/communities/deploy-communities.md#tunnel-service-on-author) to be correctly configured.
+When working with members in the Communities members console, it is necessary to be signed in as a user with appropriate permissions, and for the replication agent used by the [tunnel service](deploy-communities.md#tunnel-service-on-author) to be correctly configured.
 
 If not signed in as `admin`, then the signed in user must be a member of the `administrators` user group.
 
-See also [Replication Agents on Author](/help/communities/deploy-communities.md#replication-agents-on-author).
+See also [Replication Agents on Author](deploy-communities.md#replication-agents-on-author).

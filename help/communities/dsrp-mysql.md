@@ -19,8 +19,8 @@ These instructions describe how to connect to the MySQL server and establish the
 
 ## Requirements {#requirements}
 
-* [latest Communities feature pack](/help/communities/deploy-communities.md#latestfeaturepack)
-* [JDBC driver for MySQL](/help/communities/deploy-communities.md#jdbc-driver-for-mysql)
+* [latest Communities feature pack](deploy-communities.md#latestfeaturepack)
+* [JDBC driver for MySQL](deploy-communities.md#jdbc-driver-for-mysql)
 * a relational database:
 
     * [MySQL server](https://dev.mysql.com/downloads/mysql/) Community Server version 5.6 or later
@@ -165,7 +165,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 * on each author and publish AEM instance
 * signed in with administrator privileges
-* access the [web console](/help/sites-deploying/configuring-osgi.md)
+* access the [web console](../../help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
