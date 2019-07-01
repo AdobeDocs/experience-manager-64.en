@@ -24,7 +24,7 @@ On author, from global navigation
     * select the card image
     * do *not* select an icon
 
-The result is to reach the [Groups console](/help/communities/groups.md):
+The result is to reach the [Groups console](groups.md):
 
 ![chlimage_1-53](assets/chlimage_1-53.png)
 
@@ -121,7 +121,7 @@ The `arts` group should also contain a `groups` folder, but one that is empty an
 
       a secret group, visible only to invited members
 
-      as an example, invite [demo user](/help/communities/tutorials.md#demo-users) `emily.andrews@mailinator.com`
+      as an example, invite [demo user](tutorials.md#demo-users) `emily.andrews@mailinator.com`
 
 Refresh the page to see all three nested groups (sub-communities).
 
@@ -153,7 +153,7 @@ After publishing the main community site, it is necessary to
 
 ## Experience on Publish {#experience-on-publish}
 
-It is possible to experience the different groups when signed in, for example with the [demo users](/help/communities/tutorials.md#demo-users) used for
+It is possible to experience the different groups when signed in, for example with the [demo users](tutorials.md#demo-users) used for
 
 * Art/History group member: emily.andrews@mailinator.com/password
 
@@ -167,4 +167,4 @@ It is possible to experience the different groups when signed in, for example wi
     * can join restricted (open) groups
     * will not see retricted (secret) groups
 
-Access the Communities [Members and Groups consoles](/help/communities/members.md) on author to add other users to various member groups that correspond to the community groups.
+Access the Communities [Members and Groups consoles](members.md) on author to add other users to various member groups that correspond to the community groups.

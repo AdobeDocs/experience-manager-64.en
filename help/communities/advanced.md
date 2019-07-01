@@ -25,11 +25,11 @@ Therefore, the advanced scoring engine requires enough data to make analysis mea
 
 Setting up advanced scoring is virtually the same as basic scoring:
 
-* basic and advanced scoring and badging rules are [applied to content](/help/communities/implementing-scoring.md#apply-rules-to-content) in the same manner
+* basic and advanced scoring and badging rules are [applied to content](implementing-scoring.md#apply-rules-to-content) in the same manner
 
     * basic and advanced scoring and badging rules may be applied to the same content
 
-* [enabling badges for components](/help/communities/implementing-scoring.md#enable-badges-for-component) is generic
+* [enabling badges for components](implementing-scoring.md#enable-badges-for-component) is generic
 
 The differences in setting up the scoring and badging rules are:
 
@@ -56,7 +56,7 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
 ![chlimage_1-260](assets/chlimage_1-260.png)
 
 * **scoring weights** 
-  For a topic, specify the verb that should be given the highest priority when calculating the score. One or more topics may be entered, but limited to **one verb per topic**. See [Topics and Verbs](/help/communities/implementing-scoring.md#topics-and-verbs).  
+  For a topic, specify the verb that should be given the highest priority when calculating the score. One or more topics may be entered, but limited to **one verb per topic**. See [Topics and Verbs](implementing-scoring.md#topics-and-verbs).  
 
   Entered as `topic,verb` with the comma escaped. For example:  
 
@@ -93,7 +93,7 @@ A scoring rule is a set of scoring sub-rules, each of which declares the `scorin
 
 To invoke the advanced scoring engine, the `scoringType`should be set to `advanced`.
 
-See [Scoring Sub-Rules](/help/communities/implementing-scoring.md#scoring-sub-rules).
+See [Scoring Sub-Rules](implementing-scoring.md#scoring-sub-rules).
 
 ![chlimage_1-261](assets/chlimage_1-261.png)
 
@@ -111,7 +111,7 @@ If the stopwords file is missing, the advanced scoring engine will throw an erro
 
 ## Advanced Badging Rules {#advanced-badging-rules}
 
-The advanced badging rule properties differ from the [basic badging rule properties](/help/communities/implementing-scoring.md#badging-rules).
+The advanced badging rule properties differ from the [basic badging rule properties](implementing-scoring.md#badging-rules).
 
 Instead of associating points with a badge image, it is only necessary to identify the number of experts allowed and the badge image to award.
 
@@ -166,12 +166,12 @@ In order for the expert badge to appear as a reward for activity, there are two 
 
 See the basic informaton for:
 
-* [enabling badging for a component](/help/communities/implementing-scoring.md#enableforcomponent)
-* [applying rules](/help/communities/implementing-scoring.md#applytopage)
+* [enabling badging for a component](implementing-scoring.md#enableforcomponent)
+* [applying rules](implementing-scoring.md#applytopage)
 
 ### Included Scoring Rules and Sub-Rules {#included-scoring-rules-and-sub-rules}
 
-Included in the beta release are two advanced scoring rules for the [forum function](/help/communities/functions.md#forum-function) (one each for the forum and comments components of the forum feature):
+Included in the beta release are two advanced scoring rules for the [forum function](functions.md#forum-function) (one each for the forum and comments components of the forum feature):
 
 1. /etc/community/scoring/rules/adv-comments-scoring
 

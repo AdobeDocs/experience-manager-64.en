@@ -26,7 +26,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/composemessage</p> </td> 
   </tr> 
   <tr> 
-   <td> <a href="/help/communities/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -39,11 +39,11 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td>see <a href="/help/communities/configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>see <a href="configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td><strong>admin configuration</strong></td> 
-   <td><a href="/help/communities/messaging.md">Configuring Messaging</a></td> 
+   <td><a href="messaging.md">Configuring Messaging</a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/messagebox</p> </td> 
   </tr> 
   <tr> 
-   <td> <a href="/help/communities/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -70,20 +70,20 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td>see <a href="/help/communities/configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>see <a href="configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td><strong>admin configuration</strong></td> 
-   <td><a href="/help/communities/messaging.md">Configuring Messaging</a></td> 
+   <td><a href="messaging.md">Configuring Messaging</a></td> 
   </tr> 
  </tbody> 
 </table>
 
-See also [Client-side Customizations](/help/communities/client-customize.md)
+See also [Client-side Customizations](client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Configuring Messaging](/help/communities/configure-messaging.md)
+* [Configuring Messaging](configure-messaging.md)
 
 * [Messaging client APIs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/api/package-summary.html) for SCF components
 
@@ -91,7 +91,7 @@ See also [Client-side Customizations](/help/communities/client-customize.md)
 
 * [Messaging Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](/help/communities/server-customize.md)
+* [Server-side Customizations](server-customize.md)
 
 >[!CAUTION]
 >
@@ -109,7 +109,7 @@ See also [Client-side Customizations](/help/communities/client-customize.md)
 
 ### Community Site {#community-site}
 
-A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](/help/communities/sites-console.md#user-management).
+A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](sites-console.md#user-management).
 
 ### Sample Code: Message Received Notification {#sample-code-message-received-notification}
 

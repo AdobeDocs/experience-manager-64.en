@@ -13,7 +13,7 @@ discoiquuid: 4849da13-518c-40c8-b80e-1b2264d7f8f5
 
 # Overlay Comments Component{#overlay-comments-component}
 
-The intention of [overlaying](/help/communities/client-customize.md#overlays) a default component is to alter the appearance or behavior of a component globally, for all relative references to the component. It relies on the nature of sling to resolve to the /apps folder before searching in the /libs folder. Thus the path to the component is identical to the path to the default component, except it is in the /apps folder and not the /libs folder.
+The intention of [overlaying](client-customize.md#overlays) a default component is to alter the appearance or behavior of a component globally, for all relative references to the component. It relies on the nature of sling to resolve to the /apps folder before searching in the /libs folder. Thus the path to the component is identical to the path to the default component, except it is in the /apps folder and not the /libs folder.
 
 ## Example {#example}
 
@@ -21,7 +21,7 @@ Suppose you would like to modify the comment feature so it matches the design of
 
 To overlay comments you will need to:
 
-1. [Comments Page](/help/communities/overlay-create-comments-page.md)
-1. [Create Nodes](/help/communities/overlay-create-nodes.md)
-1. [Alter the Appearance](/help/communities/overlay-alter-appearance.md)
+1. [Comments Page](overlay-create-comments-page.md)
+1. [Create Nodes](overlay-create-nodes.md)
+1. [Alter the Appearance](overlay-alter-appearance.md)
 

@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 071cac6d-05c5-47ab-85bc-ead6693ca1f4
 ---
 
-# Using Voting{#using-voting}
+# Using Voting {#using-voting}
 
-The `Voting`component is a useful tool that allows community members to rate a particular piece of content, such as an answer within a QnA component. With the `Voting`component, members select up or down arrows to indicate their opinion.
+The `Voting` component is a useful tool that allows community members to rate a particular piece of content, such as an answer within a QnA component. With the `Voting` component, members select up or down arrows to indicate their opinion.
 
 ## Adding Voting to a Page {#adding-voting-to-a-page}
 
@@ -23,9 +23,9 @@ To add a `Voting` component to a page in author mode, use the component browser 
 
 and drag it into place on a page, such as a position relative to the feature for users to vote on.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/essentials-voting.md#essentials-for-client-side) are included, this is how the `Voting` component will appear.
+When the [required client-side libraries](essentials-voting.md#essentials-for-client-side) are included, this is how the `Voting` component will appear.
 
 ![chlimage_1-307](assets/chlimage_1-307.png)
 
@@ -39,13 +39,13 @@ Under the **Texts & Labels** tab, specify the properties used to record votes.
 
 ![chlimage_1-309](assets/chlimage_1-309.png)
 
-* **Positive Response Label** 
+* **Positive Response Label**
   (*Required*) The internal property name for a positive response.
 
-* **Negative Response Label** 
+* **Negative Response Label**
   (*Required*) The internal property name for a negative response.
 
-* **Tally Name** 
+* **Tally Name**
   (*Required*) The internal, identifiable property name for this instance of a voting component.
 
 ## Site Visitor Experience {#site-visitor-experience}
@@ -60,4 +60,4 @@ Anonymous voting is not supported. Site visitors must register (become a member)
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Voting Essentials](/help/communities/essentials-voting.md) page for developers.
+More information may be found on the [Voting Essentials](essentials-voting.md) page for developers.

@@ -15,7 +15,7 @@ discoiquuid: 300aa9f3-596f-42bc-8d46-e535f2bc4379
 
 ## Overview {#overview}
 
-The search feature is an essential feature of AEM Communities. In addition to the [AEM platform search](/help/sites-deploying/queries-and-indexing.md) capabilities, AEM Communities provides the [UGC search API](#ugc-search-api) for the purpose of searching user generated content (UGC). UGC has unique properties as it is entered and stored separately from other AEM content and user data.
+The search feature is an essential feature of AEM Communities. In addition to the [AEM platform search](../../help/sites-deploying/queries-and-indexing.md) capabilities, AEM Communities provides the [UGC search API](#ugc-search-api) for the purpose of searching user generated content (UGC). UGC has unique properties as it is entered and stored separately from other AEM content and user data.
 
 For Communities, the two things generally searched for are
 
@@ -31,19 +31,19 @@ This section of the documentation is of interest to developers who are creating 
 
 ## Security and Shadow Nodes {#security-and-shadow-nodes}
 
-For a custom component, it is necessary to use the [SocialResourceUtilities](/help/communities/socialutils.md#socialresourceutilities-package) methods. The utility methods that create and search for UGC will establish the required [shadow nodes](/help/communities/srp.md#about-shadow-nodes-in-jcr) and ensure the member has the correct permissions for the request.
+For a custom component, it is necessary to use the [SocialResourceUtilities](socialutils.md#socialresourceutilities-package) methods. The utility methods that create and search for UGC will establish the required [shadow nodes](srp.md#about-shadow-nodes-in-jcr) and ensure the member has the correct permissions for the request.
 
 What is not managed through the SRP utilities are properties related to moderation.
 
-See [SRP and UGC Essentials](/help/communities/srp-and-ugc.md) for information regarding utility methods used to access UGC and ACL shadow nodes.
+See [SRP and UGC Essentials](srp-and-ugc.md) for information regarding utility methods used to access UGC and ACL shadow nodes.
 
 ## UGC Search API {#ugc-search-api}
 
-The [UGC common store](/help/communities/working-with-srp.md) is provided by one of a variety of storage resource providers (SRPs), each possibly having a different native query language. Therefore, regardless of the SRP chosen, custom code should use methods from the [UGC API package](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary.html) (*com.adobe.cq.social.ugc.api*) which will invoke the query language appropriate for the chosen SRP.
+The [UGC common store](working-with-srp.md) is provided by one of a variety of storage resource providers (SRPs), each possibly having a different native query language. Therefore, regardless of the SRP chosen, custom code should use methods from the [UGC API package](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary.html) (*com.adobe.cq.social.ugc.api*) which will invoke the query language appropriate for the chosen SRP.
 
 ### ASRP Searches {#asrp-searches}
 
-For [ASRP](/help/communities/asrp.md), UGC is stored in the Adobe cloud. While UGC is not visible in CRX, [moderation](/help/communities/moderate-ugc.md) is available from both the author and publish environments. The use of the [UGC search API](#ugc-search-api) works for ASRP the same as for other SRPs.
+For [ASRP](asrp.md), UGC is stored in the Adobe cloud. While UGC is not visible in CRX, [moderation](moderate-ugc.md) is available from both the author and publish environments. The use of the [UGC search API](#ugc-search-api) works for ASRP the same as for other SRPs.
 
 Tools do not currently exist for managing ASRP searches.
 
@@ -51,14 +51,14 @@ When creating custom properties that are searchable, it is necessary to adhere t
 
 ### MSRP Searches {#msrp-searches}
 
-For [MSRP](/help/communities/msrp.md), UGC is stored in MongoDB configured to use Solr for searching. UGC will not be visible in CRX, but [moderation](/help/communities/moderate-ugc.md) is available from both the author and publish environments.
+For [MSRP](msrp.md), UGC is stored in MongoDB configured to use Solr for searching. UGC will not be visible in CRX, but [moderation](moderate-ugc.md) is available from both the author and publish environments.
 
 Regarding MSRP and Solr:
 
 * the embedded Solr for the AEM platform is not used for MSRP
 * if using a remote Solr for the AEM platform, it may be shared with MSRP, but they should use different collections
 * Solr may be configured for standard search or for multilingual search (MLS)
-* for configuration details, see [Solr Configuration](/help/communities/msrp.md#solr-configuration) for MSRP
+* for configuration details, see [Solr Configuration](msrp.md#solr-configuration) for MSRP
 
 Custom search features should use the [UGC search API](#ugc-search-api).
 
@@ -66,11 +66,11 @@ When creating custom properties that are searchable, it is necessary to adhere t
 
 ### JSRP Searches {#jsrp-searches}
 
-For [JSRP](/help/communities/jsrp.md), UGC is stored in [Oak](/help/sites-deploying/platform.md) and is visible only in the repository of the AEM author or publish instance on which it was entered.
+For [JSRP](jsrp.md), UGC is stored in [Oak](../../help/sites-deploying/platform.md) and is visible only in the repository of the AEM author or publish instance on which it was entered.
 
-Since UGC is typically entered in the publish environment, for multi-publisher production systems, it is necessary to configure a [publish cluster](/help/communities/topologies.md), not a publish farm, so that the entered content is visible from all publishers.
+Since UGC is typically entered in the publish environment, for multi-publisher production systems, it is necessary to configure a [publish cluster](topologies.md), not a publish farm, so that the entered content is visible from all publishers.
 
-For JSRP, UGC entered in the publish environment will never be visible in the author environment. Thus all [moderation](/help/communities/moderate-ugc.md) tasks take place in the publish environment.
+For JSRP, UGC entered in the publish environment will never be visible in the author environment. Thus all [moderation](moderate-ugc.md) tasks take place in the publish environment.
 
 Custom search features should use the [UGC search API](#ugc-search-api).
 
@@ -80,14 +80,14 @@ While Oak indices are not automatically created for the AEM platform search, as 
 
 If custom properties are in use and searches are slow, then additional indices would need to be created for the custom properties to make them more performant. To maintain portability, adhere to the [naming requirements](#naming-of-custom-properties) when creating custom properties that are searchable.
 
-To modify existing indices or create custom indices, refer to [Oak Queries and Indexing](/help/sites-deploying/queries-and-indexing.md).
+To modify existing indices or create custom indices, refer to [Oak Queries and Indexing](../../help/sites-deploying/queries-and-indexing.md).
 
 The [Oak Index Manager](https://adobe-consulting-services.github.io/acs-aem-commons/features/oak-index-manager.html) is available from ACS AEM Commons. It provides:
 
 * a view of existing indices
 * the ability to initiate re-indexing
 
-To view the existing Oak indices in [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md), the location is:
+To view the existing Oak indices in [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md), the location is:
 
 * /oak:index/socialLucene
 
@@ -160,7 +160,7 @@ Solr is an example of a query language which uses a schema.
 
 ## Filters {#filters}
 
-Components which include the [comment system](/help/communities/essentials-comments.md) support the filter parameter addition to their endpoints.
+Components which include the [comment system](essentials-comments.md) support the filter parameter addition to their endpoints.
 
 The filter syntax for AND and OR logic is expressed as follows (shown before being URL encoded):
 
@@ -172,7 +172,7 @@ The filter syntax for AND and OR logic is expressed as follows (shown before bei
 
     * filter = name eq 'Jackson'&filter=message eq 'testing'
 
-The default implementation of the [Search component](/help/communities/search.md) uses this syntax as can be seen in the URL that opens the Search Results page in the [Community Components guide](/help/communities/components-guide.md). To experiment, browse to [http://localhost:4503/content/community-components/en/search.html](http://localhost:4503/content/community-components/en/search.html).
+The default implementation of the [Search component](search.md) uses this syntax as can be seen in the URL that opens the Search Results page in the [Community Components guide](components-guide.md). To experiment, browse to [http://localhost:4503/content/community-components/en/search.html](http://localhost:4503/content/community-components/en/search.html).
 
 Filter operators are:
 
@@ -227,9 +227,9 @@ The value of the `q` parameter is the query. Once the URL encoding is decoded, t
 
 ## Related Resources {#related-resources}
 
-* [Community Content Storage](/help/communities/working-with-srp.md) - discusses the available SRP choices for a UGC common store
-* [Storage Resource Provider Overview](/help/communities/srp.md) - introduction and repository usage overview
-* [Accessing UGC with SRP](/help/communities/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](/help/communities/socialutils.md) - utility methods for SRP that replace SocialUtils
-* [Search and Search Results components](/help/communities/search.md) - adding UGC search feature to a template
+* [Community Content Storage](working-with-srp.md) - discusses the available SRP choices for a UGC common store
+* [Storage Resource Provider Overview](srp.md) - introduction and repository usage overview
+* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](socialutils.md) - utility methods for SRP that replace SocialUtils
+* [Search and Search Results components](search.md) - adding UGC search feature to a template
 

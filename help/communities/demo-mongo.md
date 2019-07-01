@@ -15,7 +15,7 @@ discoiquuid: 0b126218-b142-4d33-a28c-a91ab4fe99ac
 
 ## Introduction {#introduction}
 
-This tutorial describes how to setup [MSRP](/help/communities/msrp.md) for* one author *instance and *one publish* instance.
+This tutorial describes how to setup [MSRP](msrp.md) for* one author *instance and *one publish* instance.
 
 With this setup, the community content is accessible from both author and publish environments without needing to forward or reverse replicate user generated content (UGC).
 
@@ -105,8 +105,8 @@ The following commands are an example of setting up a replica set with 3 nodes o
 
 To configure a Solr collection for MSRP for demo, there are two decisions to be made (select the links to main documentation for details):
 
-1. run Solr in standalone or [SolrCloud mode](/help/communities/msrp.md#solrcloudmode)
-1. install [standard](/help/communities/msrp.md#installingstandardmls) or [advanced](/help/communities/msrp.md#installingadvancedmls) multilingual search (MLS)
+1. run Solr in standalone or [SolrCloud mode](msrp.md#solrcloudmode)
+1. install [standard](msrp.md#installingstandardmls) or [advanced](msrp.md#installingadvancedmls) multilingual search (MLS)
 
 ### Standalone Solr {#standalone-solr}
 
@@ -139,7 +139,7 @@ Launch the author and publish AEM instances, if necessary.
 
 If AEM was running before MongoDB was started, then the AEM instances will need to be restarted.
 
-Follow the instructions on the main documentation page: [MSRP - MongoDB Common Store](/help/communities/msrp.md)
+Follow the instructions on the main documentation page: [MSRP - MongoDB Common Store](msrp.md)
 
 ## Test {#test}
 
@@ -178,7 +178,7 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
 1. Make sure MSRP has been configured to be the default provider:
 
-    * On all author and publish AEM instances, revisit the [Storage Configuration console](/help/communities/srp-config.md)
+    * On all author and publish AEM instances, revisit the [Storage Configuration console](srp-config.md)
 
     or check the AEM repository:
 

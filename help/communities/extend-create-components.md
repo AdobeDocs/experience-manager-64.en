@@ -99,7 +99,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 
 ### Copy and Modify the Default HBS Scripts {#copy-and-modify-the-default-hbs-scripts}
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
+Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
 * copy **comments.hbs**
 
@@ -137,7 +137,7 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 
 To avoid having to explicitly include this client library, the categories value for the default comment system's clientlib could be used ( `cq.social.author.hbs.comments`), but then this clientlib would be included for all instances of the default component as well.
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
+Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
 * select `/apps/custom/components/comments` node
 * select **Create Node**

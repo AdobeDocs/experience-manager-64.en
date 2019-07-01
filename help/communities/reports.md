@@ -19,11 +19,11 @@ For AEM Communities, there are various reports that may be accessed in several w
 
 In general, the various reports are:
 
-* [Assignments Report](#assignments-report) - for an [enablement community](/help/communities/overview.md#enablement-community), provides an overview of learners' progress on their assignments, including an associated score if implementing the SCORM standard
+* [Assignments Report](#assignments-report) - for an [enablement community](overview.md#enablement-community), provides an overview of learners' progress on their assignments, including an associated score if implementing the SCORM standard
 * [Views Report](#views-report) - provides a chart of views of content by community members and site visitors for any community site
 * [Posts Report](#posts-report) - provides a chart of various types of posts by community members to any community site
 
-When [Adobe Analytics is enabled](/help/communities/sites-console.md#analytics), reports will include the number of views, plays, comments and ratings for each enablement resource over time
+When [Adobe Analytics is enabled](sites-console.md#analytics), reports will include the number of views, plays, comments and ratings for each enablement resource over time
 
 Tabular reports can be exported in .csv format for subsequent processing.
 
@@ -72,7 +72,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
         * number of comments made
         * star rating given
 
-For more details, see [Reports section](/help/communities/resources.md#report) of the Resources console.
+For more details, see [Reports section](resources.md#report) of the Resources console.
 
 ## Assignments Report {#assignments-report}
 

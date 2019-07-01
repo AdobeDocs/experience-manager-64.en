@@ -24,11 +24,11 @@ This page provides the essential information for working with the ideation featu
    <td>social/ideation/components/hbs/ideation</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.voting<br /> cq.social.hbs.liking<br /> cq.social.hbs.ideation</td> 
   </tr>
   <tr>
@@ -41,13 +41,13 @@ This page provides the essential information for working with the ideation featu
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="/help/communities/ideation-feature.md">Ideation Feature</a></td> 
+   <td>see <a href="ideation-feature.md">Ideation Feature</a></td> 
   </tr>
  </tbody>
 </table>
 
-* [Client-side Customizations](/help/communities/client-customize.md)
+* [Client-side Customizations](client-customize.md)
 
 ### Ideation Function {#ideation-function}
 
-A community site structure that includes the [Ideation function](/help/communities/functions.md#ideation-function), includes a configured `ideation` component.
+A community site structure that includes the [Ideation function](functions.md#ideation-function), includes a configured `ideation` component.

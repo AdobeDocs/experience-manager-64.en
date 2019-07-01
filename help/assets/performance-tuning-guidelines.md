@@ -207,9 +207,17 @@ If you customize the DAM Update Asset workflow to generate renditions using Imag
 
 In addition, set the path of ImageMagick's temporary folder in the *configure.xml* file (or by setting the environment variable `MAGIC_TEMPORARY_PATH`) to a disk partition that has sufficient space and IOPS.
 
+>[!CAUTION]
+>
+>A mis-configuration can make your server unstable if ImageMagick uses all the available disk space. The policy changes required to process large files using ImageMagick may impact the AEM performance. For more information, see [install and configure ImageMagick](best-practices-for-imagemagick.md).
+
 >[!NOTE]
 >
 >The ImageMagick policy.xml and configure.xml files may be found under /usr/lib64/ImageMagick-&ast;/config/ instead of /etc/ImageMagick/. Refer to the [ImageMagick documentation](https://www.imagemagick.org/script/resources.php) for details on the configuration file locations.
+
+>[!NOTE]
+>
+>If you are using AEM on Adobe Managed Services (AMS), reach out to Adobe Support if you plan to process lots of large PSD or PSB files.
 
 #### Sub-asset generation and page extraction {#sub-asset-generation-and-page-extraction}
 

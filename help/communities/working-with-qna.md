@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: bbbe32bb-9d97-461e-822f-a7ddc6c9f9ef
 ---
 
-# Q&A Forum Feature{#q-a-forum-feature}
+# Q&A Forum Feature {#q-a-forum-feature}
 
 ## Introduction {#introduction}
 
@@ -38,9 +38,9 @@ To add a `QnA` component to a page in author mode, use the component browser to 
 
 and drag it into place on a page where the QnA forum should appear.
 
-For necessary information, visit [Communities Components Basics](/help/communities/basics.md).
+For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](/help/communities/qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear:
+When the [required client-side libraries](qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear:
 
 ![chlimage_1-280](assets/chlimage_1-280.png)
 
@@ -52,111 +52,111 @@ Select the placed `QnA` component to access and select the `Configure` icon whic
 
 #### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify settings for topics (questions) and replies (answers):
+Under the **Settings** tab, specify settings for topics (questions) and replies (answers):
 
-* **Topics Per Page** 
+* **Topics Per Page**
   Defines the number of questions/posts shown per page. Default is 10.
 
-* **Moderated** 
+* **Moderated**
   If checked, posting of topics and comments must be approved before they will appear on a publish site. Default is unchecked.
 
-* **Closed** 
+* **Closed**
   If checked, the forum is closed to new questions and comments. Default is unchecked.
 
-* **Rich Text Editor** 
+* **Rich Text Editor**
   If checked, topics and comments may be entered with markup. Default is unchecked.
 
-* **Allow Tagging** 
+* **Allow Tagging**
   If checked, allow members to add tag labels to their post (see **Tag field** tab). Default is unchecked.
 
-* **Allow File Uploads** 
+* **Allow File Uploads**
   If checked, allow file attachments to be added to the question or comment. Default is unchecked.
 
-* **Max File Size** 
+* **Max File Size**
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
-* **Allowed File Types** 
+* **Allowed File Types**
   Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
 
-* **Max Attach Image File Size** 
+* **Max Attach Image File Size**
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152 (2 Mb).
 
-* **Allow Following** 
-  If checked, include the following feature for forum posts, which allows members to be [notified](/help/communities/notifications.md) of new posts. Default is unchecked.
+* **Allow Following**
+  If checked, include the following feature for forum posts, which allows members to be [notified](notifications.md) of new posts. Default is unchecked.
 
-* **Allow Pinning** 
+* **Allow Pinning**
   If checked, forum topics may be pinned to the top of the list of topics. Default is unchecked.
 
-* **Allow Email Subscriptions** 
-  If checked, allow members to be notified of new posts by email ([subscription](/help/communities/subscriptions.md)). Requires `Allow Following` to be checked and [email configured](/help/communities/email.md). Default is unchecked.
+* **Allow Email Subscriptions**
+  If checked, allow members to be notified of new posts by email ([subscription](subscriptions.md)). Requires `Allow Following` to be checked and [email configured](email.md). Default is unchecked.
 
-* **Allow Replies** 
+* **Allow Replies**
   If checked, allow replies to comments posted to the question. Default is unchecked.
 
-* **Allow Users to Delete Comments and Topics** 
+* **Allow Users to Delete Comments and Topics**
   If checked, allow members to delete the comments and questions they posted. Default is unchecked.
 
-* **Allow Voting** 
+* **Allow Voting**
   If checked, include the Voting feature with a question. Default is unchecked.
 
-* **Move Selected Answer To The Top** 
+* **Move Selected Answer To The Top**
   If checked, first answer shown is a selected answer. Default is checked.
 
-* **Display Badges** 
-  If checked, display earned and assigned [badges](/help/communities/implementing-scoring.md) with a member's blog entry. Default is unchecked.
+* **Display Badges**
+  If checked, display earned and assigned [badges](implementing-scoring.md) with a member's blog entry. Default is unchecked.
 
-* **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](/help/communities/featured.md). Default is unchecked.
+* **Allow Featured Content**
+  if checked, the idea is able to be identified as [featured content](featured.md). Default is unchecked.
 
 #### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation **tab, specify how the posted topics (quetions) and answers (user generated content) are managed. For more information, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+Under the **User Moderation** tab, specify how the posted topics (quetions) and answers (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
-* **Deny Answers** 
+* **Deny Answers**
   If checked, trusted member moderators will be allowed to deny posted answers and prevent the answer from appearing on the public Q&A forum. Default is unchecked.
 
-* **Close / Reopen Topics** 
+* **Close / Reopen Topics**
   If checked, trusted member moderators may close a question (topic) to further edits and answers, and may also reopen a question. Default is unchecked.
 
-* **Move Topics** 
+* **Move Topics**
   If checked, allow publish-side moderators to move questions. Default is unchecked.
 
-* **Flag Posts** 
+* **Flag Posts**
   If checked, allow members to flag others' questions or answers as inappropriate. Default is unchecked.
 
-* **Flag Reason List** 
+* **Flag Reason List**
   If checked, allow members to choose, from a drop-down list, their reason for flagging a question or answer as inappropriate. Default is unchecked.
 
-* **Custom Flag Reason** 
+* **Custom Flag Reason**
   If checked, allow members to enter their own reason for flagging a question or answer as inappropriate. Default is unchecked.
 
-* **Moderation Threshold** 
+* **Moderation Threshold**
   Enter the number of times a question or answer has to be flagged by members before moderators are notified. Default is 1 ( one time).
 
-* **Flagging Limit** 
+* **Flagging Limit**
   Enter the number of times a question or answer has to be flagged before it is hidden from public view. If set to -1, the flagged question or answer is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.
 
 #### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings **tab, are limited according to namespaces chosen.
+Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
 
-* **Allowed Namespaces** 
+* **Allowed Namespaces**
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
 
-* **Suggestion Limit** 
+* **Suggestion Limit**
   Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of **-**1 means no limits. Default is 0.
 
 #### Sort Settings tab {#sort-settings-tab}
 
-Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
+Under the **Sort Settings** tab, specify how the posted comments are sorted when displayed.
 
-* **Sort By** 
+* **Sort By**
   Check all allowed sort selections: `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
 
-* **Set as Default** 
+* **Set as Default**
   Pull down to select one of the checked sort options to appear as the default. Default is `Newest`.
 
-* **Select Time Options for Analytics Sorting** 
+* **Select Time Options for Analytics Sorting**
   Pull down to select one of `All, Last 24 Hours, Last 7 Days, Last 30 Days`. Default is `All`.
 
 ## Site Visitor Experience {#site-visitor-experience}
@@ -190,8 +190,8 @@ Site visitors who are not signed in may only read posted questions and answers, 
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [QnA Essentials](/help/communities/qna-essentials.md) page for developers.
+More information may be found on the [QnA Essentials](qna-essentials.md) page for developers.
 
-For moderation of posted topics and comments, see [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+For moderation of posted topics and comments, see [Moderating User Generated Content](moderate-ugc.md).
 
-For tagging posted topics and comments, see [Tagging User Generated Content](/help/communities/tag-ugc.md).
+For tagging posted topics and comments, see [Tagging User Generated Content](tag-ugc.md).

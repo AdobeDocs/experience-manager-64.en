@@ -17,7 +17,7 @@ discoiquuid: 86349e4d-29ff-4baa-9fcd-c0ab1f0753e9
 
 When AEM Communities is configured to use ASRP as its common store, user generated content (UGC) is accessible from all author and publish instances without the need for synchronization nor replication.
 
-See also [Characteristics of SRP Options](/help/communities/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](/help/communities/topologies.md).
+See also [Characteristics of SRP Options](working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](topologies.md).
 
 ## Requirements {#requirements}
 
@@ -36,7 +36,7 @@ The consumer and secret keys are shared across all report suites for a company. 
 
 ### Select ASRP {#select-asrp}
 
-The [Storage Configuration console](/help/communities/srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
+The [Storage Configuration console](srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
 
 **On author**,
 
@@ -81,11 +81,11 @@ After submitting the configuration, test the connection:
 
 The Consumer Key and Secret Key are encrypted. In order for the keys to be encrypted/decrypted properly, the master Granite Crypto key must be the same on all AEM instances.
 
-Follow the instructions at [Replicate the Crypto Key](/help/communities/deploy-communities.md#replicate-the-crypto-key).
+Follow the instructions at [Replicate the Crypto Key](deploy-communities.md#replicate-the-crypto-key).
 
 ### Externalize Links {#externalize-links}
 
-For correct profile and profile image links, be sure to properly [Configure the Link Externalizer](/help/sites-developing/externalizer.md).
+For correct profile and profile image links, be sure to properly [Configure the Link Externalizer](../../help/sites-developing/externalizer.md).
 
 Be sure to set the domains to be URLs that are routable from the Data Center URL (ASRP endpoint).
 
@@ -114,24 +114,24 @@ To make the identical configuration available in the publish environment:
 
 >[!CAUTION]
 >
->If you enable ASRP on a published community site, any UGC already stored in [JCR](/help/communities/jsrp.md)will no longer be visible as there is no synchronization of data between on-premise storage and cloud storage.
+>If you enable ASRP on a published community site, any UGC already stored in [JCR](jsrp.md)will no longer be visible as there is no synchronization of data between on-premise storage and cloud storage.
 
-**`AEM Communities Extension`**was previously introduced in AEM 6.0 social communities as a cloud service. As of AEM 6.1 Communities, no cloud configuration is necessary, simply select ASRP from the [storage configuration console](/help/communities/srp-config.md).
+**`AEM Communities Extension`**was previously introduced in AEM 6.0 social communities as a cloud service. As of AEM 6.1 Communities, no cloud configuration is necessary, simply select ASRP from the [storage configuration console](srp-config.md).
 
-Due to the new storage structure, it is necessary to follow the [upgrade](/help/communities/upgrade.md#adobe-cloud-storage) instructions when upgrading from social communities to Communities.
+Due to the new storage structure, it is necessary to follow the [upgrade](upgrade.md#adobe-cloud-storage) instructions when upgrading from social communities to Communities.
 
 ## Managing User Data {#managing-user-data}
 
 For information regarding *users*, *user profiles* and *user groups*, often entered in the publish environment, visit
 
-* [User Synchronization](/help/communities/sync.md)
-* [Managing Users and User Groups](/help/communities/users.md)
+* [User Synchronization](sync.md)
+* [Managing Users and User Groups](users.md)
 
 ## Troubleshooting {#troubleshooting}
 
 ### UGC Disappears after Upgrade {#ugc-disappears-after-upgrade}
 
-If upgrading from an exisitng AEM 6.0 social community site, be sure to follow the [upgrade instructions](/help/communities/upgrade.md#adobe-cloud-storage), else UGC will *appear* to be lost.
+If upgrading from an exisitng AEM 6.0 social community site, be sure to follow the [upgrade instructions](upgrade.md#adobe-cloud-storage), else UGC will *appear* to be lost.
 
 ### Authentication Errors {#authentication-errors}
 

@@ -17,26 +17,26 @@ discoiquuid: 0225a543-0fad-488b-8b0b-8b3512d44fbe
 
 A Rich Text Editor (RTE) provides the ability to enter text with markup.
 
-For Communities components, while similar to the [rich text editor in the author environment](/help/sites-authoring/rich-text-editor.md), it affects text entered in the publish environment.
+For Communities components, while similar to the [rich text editor in the author environment](../../help/sites-authoring/rich-text-editor.md), it affects text entered in the publish environment.
 
 ![chlimage_1-410](assets/chlimage_1-410.png) 
 
 ## Enabling Rich Text Editor {#enabling-rich-text-editor}
 
-Communities components that allow user generated content (UGC) can be enabled to allow RTE. Depending on whether the component was added to a page or included within a [function](/help/communities/functions.md), RTE may or may not be enabled by default.
+Communities components that allow user generated content (UGC) can be enabled to allow RTE. Depending on whether the component was added to a page or included within a [function](functions.md), RTE may or may not be enabled by default.
 
-If not enabled, simply enter [author edit mode](/help/communities/sites-console.md#authoring-site-content), select the component for edit, and select the `Rich Text Editor` checkbox.
+If not enabled, simply enter [author edit mode](sites-console.md#authoring-site-content), select the component for edit, and select the `Rich Text Editor` checkbox.
 
 RTE is available for the following Communities components:
 
-* [blog](/help/communities/blog-feature.md)
-* [calendar](/help/communities/calendar.md)
-* [comments](/help/communities/comments.md)
-* [filelibrary](/help/communities/file-library.md)
-* [forum](/help/communities/forum.md)
-* [messaging](/help/communities/configure-messaging.md)
-* [QnA](/help/communities/working-with-qna.md)
-* [reviews](/help/communities/reviews.md)
+* [blog](blog-feature.md)
+* [calendar](calendar.md)
+* [comments](comments.md)
+* [filelibrary](file-library.md)
+* [forum](forum.md)
+* [messaging](configure-messaging.md)
+* [QnA](working-with-qna.md)
+* [reviews](reviews.md)
 
 ## Customization {#customization}
 

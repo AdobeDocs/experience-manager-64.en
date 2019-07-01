@@ -20,11 +20,11 @@ On author, to access the Communities tools console:
 
 ![chlimage_1-129](assets/chlimage_1-129.png)
 
-* [Site Templates](/help/communities/sites.md) - console for site template creation and management
-* [Group Templates](/help/communities/tools-groups.md)- console for group template creation and management
-* [Community Functions](/help/communities/functions.md)- console for community function creation and management
-* [Storage Configuration](/help/communities/srp-config.md) - console for configuration and selection of the [default SRP](/help/communities/working-with-srp.md)
+* [Site Templates](sites.md) - console for site template creation and management
+* [Group Templates](tools-groups.md)- console for group template creation and management
+* [Community Functions](functions.md)- console for community function creation and management
+* [Storage Configuration](srp-config.md) - console for configuration and selection of the [default SRP](working-with-srp.md)
 
-* [Component Guide](/help/communities/components-guide.md) - opens an interactive site that allows for experimentation with how the SCF components work and how they can be configured or customized.
-* [Badges](/help/communities/badges.md) - console from where custom badges can be added for use in [scoring and badging rules](/help/communities/implementing-scoring.md)
+* [Component Guide](components-guide.md) - opens an interactive site that allows for experimentation with how the SCF components work and how they can be configured or customized.
+* [Badges](badges.md) - console from where custom badges can be added for use in [scoring and badging rules](implementing-scoring.md)
 

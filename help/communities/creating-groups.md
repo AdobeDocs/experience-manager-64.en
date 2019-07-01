@@ -15,17 +15,17 @@ discoiquuid: 868a3d5d-d505-4ce5-8776-5bbe68a30ccb
 
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users (community members and authors) from the publish and author environments.
 
-This ability is present when the [groups function](/help/communities/functions.md#groups-function) is present in the [community site](/help/communities/sites-console.md) structure.
+This ability is present when the [groups function](functions.md#groups-function) is present in the [community site](sites-console.md) structure.
 
-A [community group template](/help/communities/tools-groups.md) provides the design of the community group page when a community group is dynamically created.
+A [community group template](tools-groups.md) provides the design of the community group page when a community group is dynamically created.
 
 One or more group templates are selected for the groups function when the function is added to a community site's structure or to a community site template. This list of group templates is presented to the member or author who dynamically creates a new group from within the community site.
 
 ## Creating a New Group {#creating-a-new-group}
 
-The ability to create a new community group relies on the existance of a community site which includes the groups function, such as one created from the ` [Reference Site Template](/help/communities/sites.md)`.
+The ability to create a new community group relies on the existance of a community site which includes the groups function, such as one created from the ` [Reference Site Template](sites.md)`.
 
-The examples that follow use the community site created from the `Reference Site Template` as described in the [Getting Started with AEM Communities](/help/communities/getting-started.md) tutorial.
+The examples that follow use the community site created from the `Reference Site Template` as described in the [Getting Started with AEM Communities](getting-started.md) tutorial.
 
 This is the page that loads on publish when the **Groups **menu item is selected:
 
@@ -79,6 +79,6 @@ The `Community Group Member List` component is intended for use by developers of
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Community Group Essentials](/help/communities/essentials-groups.md) page for developers.
+More information may be found on the [Community Group Essentials](essentials-groups.md) page for developers.
 
-For other information related to community groups, visit [Managing Users and User Groups](/help/communities/users.md).
+For other information related to community groups, visit [Managing Users and User Groups](users.md).
