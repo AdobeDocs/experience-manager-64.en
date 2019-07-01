@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: bfaf80c5-448b-47fb-9f22-57ee0eb169b2
 ---
 
-# Translating User Generated Content{#translating-user-generated-content}
+# Translating User Generated Content {#translating-user-generated-content}
 
 The translation feature for AEM Communities extends the concept of [translating page content](../../help/sites-administering/translation.md) to the user generated content (UGC) posted to community sites using [social component framework (SCF) components](scf.md).
 
@@ -43,7 +43,7 @@ When [creating a community site](sites-console.md), the default translation serv
 >
 >The default translation service is for demonstration only.
 >
->For a production system, a licensed translation service is required. If not licensed, the default translation service should be [turned off](../../help/sites-administering/tc-msconf.md#turning-off-translation).
+>For a production system, a licensed translation service is required. If not licensed, the default translation service should be [turned off](../../help/sites-administering/tc-msconf.md#microsoft-translator-trial-license-geometrixx-outdoors).
 
 ## Global Translation of UGC {#global-translation-of-ugc}
 
@@ -59,7 +59,7 @@ For example, if a forum was established on the base site, language copies create
 >
 >Any UGC which existed prior to global translation is no longer visible.
 >
->While the UGC is still in the [common store](working-with-srp.md), it is located under the language-specific UGC location, while new content, added after global translation was configured, is being retrieved from the global shared store location. 
+>While the UGC is still in the [common store](working-with-srp.md), it is located under the language-specific UGC location, while new content, added after global translation was configured, is being retrieved from the global shared store location.
 >
 >There is no migration tool for moving or merging language-specific content into the global shared store.
 
@@ -87,13 +87,13 @@ To create a new Translation Integration, which integrates a Translation Service 
 
 ![chlimage_1-67](assets/chlimage_1-67.png)
 
-* **Parent Configuration** 
+* **Parent Configuration**
   (required)Typically leave as default. Default is `/etc/cloudservices/translation`.
 
-* **Title** 
+* **Title**
   (required) Enter a display title of your choosing. No default value.
 
-* **Name** 
+* **Name**
   (optional) Enter a name for the configuration. Default is a node name based on the Title.
 
 * select **Create**
@@ -106,18 +106,14 @@ For detailed instructions visit [Creating a Translation Integration Configuratio
 
 * **Sites** tab: can leave as defaults
 * **Communities** tab:
-
-    * **Translation Provider** 
-
-      Select the translation provider from the drop down list. Default is `microsoft`, the trial service.
+  * **Translation Provider**
+    Select the translation provider from the drop down list. Default is `microsoft`, the trial service.
   
-    * **Content Category** 
-
-      Select a category that describes the content being translated. Default is `General.`
+  * **Content Category**
+    Select a category that describes the content being translated. Default is `General.`
   
-    * **Choose A Locale...** 
-
-      (Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](sites-console.md#translation) for the website. Choosing `No Common Store` will disable global translation. By default, global translation is disabled.
+  * **Choose A Locale...**
+    (Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](sites-console.md#translation) for the website. Choosing `No Common Store` will disable global translation. By default, global translation is disabled.
 
 * **Assets** tab: can leave as defaults
 * select **OK**
