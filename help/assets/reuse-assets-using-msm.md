@@ -19,7 +19,7 @@ Multi Site Manager (MSM) functionality in Adobe Experience Manager (AEM) enables
 
 To use MSM for Assets, install at least Service Pack 1. For more information, see the [release notes](/help/release-notes/assets.md).
 
-## Understand the benefits and the concepts {understand-benefits-concepts}
+## Understand the benefits and the concepts {#understand-benefits-concepts}
 
 ### How it works {#how-it-works}
 
