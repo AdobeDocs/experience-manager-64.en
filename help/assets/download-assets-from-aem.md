@@ -5,6 +5,7 @@ description:  Learn how to download assets from AEM and enable or disable the do
 seo-description:  Learn how to download assets from AEM and enable or disable the download functionality.
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
+mini-toc-levels: 2
 ---
 
 # Download assets from AEM {#download-assets-from-aem}
@@ -60,7 +61,7 @@ The `Asset Download Servlet` can be disabled on an AEM Publish instances by upda
 
    ```/0100 { /type "deny" /url "*.assetdownload.zip/assets.zip*" }```
 
-1. You can also manually disable the OSGi component on a Publish instance, by navigating to the OSGi Console at `<aem-host>/system/console/components`. Locate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet` and click **[UICONTROL Disable]**.
+1. You can manually disable the OSGi component on a Publish instance, by navigating to the OSGi Console at `<aem-host>/system/console/components`. Locate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet` and click **[UICONTROL Disable]**.
 
 >[!MORELIKETHIS]
 >
