@@ -1,11 +1,12 @@
 ---
 title: Reuse assets using MSM for Assets
 seo-title: Reuse assets using MSM for Assets
-description: Use assets that stay in synchronization with a master copy by using MSM for Assets functionality. With a few clicks rollout updates to multiple assets on multiple pages.
-seo-description: Use assets that stay in synchronization with a master copy by using MSM for Assets functionality. With a few clicks rollout updates to multiple assets on multiple pages.
+description: Use assets across multiple pages/folders that are derived from and linked to parent assets. The assets stay in sync with a master copy and with a few clicks, receive the updates from parent assets.
+seo-description: Use assets across multiple pages/folders that are derived from and linked to parent assets. The assets stay in sync with a master copy and with a few clicks, receive the updates from parent assets.
 contentOwner: asgupta
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
+mini-toc-levels: 1
 ---
 
 # Reuse assets using MSM for Assets {#reuse-assets-using-msm-for-assets}
