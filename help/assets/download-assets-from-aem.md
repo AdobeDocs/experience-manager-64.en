@@ -47,7 +47,7 @@ See [UICONTROL Run Modes] for more information on defining configuration propert
 1. In the config folder, create a new file of type `nt:file` named `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet.config`.
 1. Populate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet.config` with the following. Sets a maximum size (in bytes) for the download as value of `asset.download.prezip.maxcontentsize`. The below sample configures the maximum size of the ZIP download to not exceed 100 kB.
 
-```
+``` 
 enabled=B"true"
 asset.download.prezip.maxcontentsize=I"102400"
 ```
@@ -57,9 +57,9 @@ asset.download.prezip.maxcontentsize=I"102400"
 The `Asset Download Servlet` can be disabled on an AEM Publish instances by updating the dispatcher configuration to block any asset download requests. The servlet can also be manually disabled via the OSGi console directly.
 
 1. To block asset download requests via a dispatcher configuration edit the `dispatcher.any` configuration and add a new rule to the filter section.
-   
+
    ```/0100 { /type "deny" /url "*.assetdownload.zip/assets.zip*" }```
-   
+
 1. You can also manually disable the OSGi component on a Publish instance, by navigating to the OSGi Console at `<aem-host>/system/console/components`. Locate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet` and click **[UICONTROL Disable]**.
 
 >[!MORELIKETHIS]
