@@ -29,7 +29,7 @@ For details regarding the use of SRP for UGC, see [Storage Resource Provider Ove
 
 >[!CAUTION]
 >
->As of AEM 6.1, [UGC is never replicated](#ugc-never-replicated). 
+>As of AEM 6.1, [UGC is never replicated](#ugc-never-replicated).
 >
 >When the deployment does not include a common store, such as the default [JSRP](topologies.md#jsrp) topology, UGC will be visible only on the AEM publish or author instance on which it was entered. Only if the topology includes a publish cluster will the UGC be visible on any publish instance.
 
