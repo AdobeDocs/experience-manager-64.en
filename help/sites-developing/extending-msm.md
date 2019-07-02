@@ -658,9 +658,8 @@ When `cq-msm-lockable` has been defined, breaking/closing the chain will interac
   * **Relative** (e.g. `myProperty` or `./myProperty`)
 
     * it will add and remove the property from `cq:propertyInheritanceCancelled`.
-    * MSM does not operate with deep properties (e.g. `./image/fileReference`), even though the dialog’s logic does. If the chain is opened a rollout of the page will overwrite `./image/fileReference`, as the rollout of the `image` node will not "walk" up to the parent node to check `cq:propertyInheritanceCancelled`.
 
-    * **Absolute** (e.g. `/image`)
+  * **Absolute** (e.g. `/image`)
 
     * breaking the chain will cancel inheritance by adding the `cq:LiveSyncCancelled` mixin to `./image` and setting `cq:isCancelledForChildren` to `true`.
     * closing the chain will revert inheritance.
