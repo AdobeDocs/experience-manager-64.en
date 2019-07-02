@@ -11,7 +11,7 @@ topic-tags: deploying
 discoiquuid: 7aa28e36-6b31-4447-b800-cab2dc78c93c
 ---
 
-# Upgrading to AEM 6.4 Communities{#upgrading-to-aem-communities}
+# Upgrading to AEM 6.4 Communities {#upgrading-to-aem-communities}
 
 Depending on each site's topology and features, the following actions may be necessary when upgrading to AEM Communities 6.4 or installing the latest feature pack.
 
@@ -21,11 +21,11 @@ This section is specific to Communities and supplements the information provided
 
 ### Reindex Solr {#reindex-solr}
 
-When installing a new Communities feature pack on a deployment configured with MSRP, it will be necessary to
+When installing a new Communities feature pack on a deployment configured with MSRP, it will be necessary to:
 
 1. install the [latest feature pack](deploy-communities.md#latestfeaturepack)
-1. install the [latest Solr config files](msrp.md#upgrading)
-1. reindex MSRP 
+2. install the [latest Solr config files](msrp.md#upgrading)
+3. reindex MSRP
 
    see section [MSRP Reindex Tool](msrp.md#msrp-reindex-tool)
 
@@ -47,19 +47,15 @@ Thus, there is the ability to instruct ASRP to use `AEM 6.0 compatability-mode` 
 
 For all AEM 6.3 author and publish instances
 
-* sign in with administrator privileges
-* configure [ASRP](asrp.md)
-* follow these steps to make pre-existing UGC visible:
-
-    * browse to the web console
-
-        * for example, [https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr)
-
-    * locate **AEM Communities Utilities** configuration
-    * select to expand config panel
-
-        * *uncheck* **`Cloud Storage`**
-        * select **Save**
+1. sign in with administrator privileges
+2. configure [ASRP](asrp.md)
+3. follow these steps to make pre-existing UGC visible:
+  i. browse to the web console, for example
+   [https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr)
+  ii. locate **AEM Communities Utilities** configuration
+  iii. select to expand config panel
+    * *uncheck* **`Cloud Storage`**
+    * select **Save**
 
 ![chlimage_1-126](assets/chlimage_1-126.png) 
 

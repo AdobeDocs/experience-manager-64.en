@@ -46,7 +46,7 @@ The names of the groups are generated from the name given the site during [commu
 
 For example, if the site name were "*engage*" for a site titled "We.Retail Engage", then one of the user groups created would be:
 
-* Community *Engage *Members
+* Community *Engage* Members
 
 ## Author Environment {#author-environment}
 
@@ -68,9 +68,9 @@ To manage users and user groups registered in the author environment, use the [S
 |---|---|
 | administrators |The administrators group consists of system administrators who have all the abilities of a Community Administrator as well as the ability to manage the Community Administrators group. |
 | Community Administrators |The Community Administrators group automatically becomes a member of all community sites and any community groups created on the site. An initial member of the Community Administrators group is the administrators group. In the author environment, Community Administrators are able to create community sites, manage sites, manage members (they can ban members from the community), and moderate content. |
-| Community &lt;*site name&gt; *Sitecontentmanager |The Community Site Content Manager is able to perform traditional AEM authoring, content creation, and modifying pages for a community site. |
+| Community &lt;*site name*&gt; Sitecontentmanager |The Community Site Content Manager is able to perform traditional AEM authoring, content creation, and modifying pages for a community site. |
 | Community Enablement Managers |The Community Enablement Managers group consists of users who are available for assignment to manage a community site's Enablement Managers group. |
-| Community &lt;*site name&gt; *Siteenablementmanagers |The Community Site Enablement Managers group consists of users who have been assigned to manage a community site's enablement [resources](resources.md). |
+| Community &lt;*site name* &gt; Siteenablementmanagers |The Community Site Enablement Managers group consists of users who have been assigned to manage a community site's enablement [resources](resources.md). |
 | None |An anonymous site visitor may not access the author environment. |
 
 ### System Administrators {#system-administrators}
@@ -90,14 +90,12 @@ Be sure to follow the [Security Checklist](../../help/sites-administering/securi
 In the publish environment, depending on the [settings](sites-console.md#user-management) of the community site, a site visitor may become a community member
 
 * when the community site is private (closed):
-
-    * by invitation
-    * by actions of an administrator
+  * by invitation
+  * by actions of an administrator
 
 * when the community site is public (open):
-
-    * by self-registration
-    * by social login with Facebook and Twitter
+  * by self-registration
+  * by social login with Facebook and Twitter
 
 >[!NOTE]
 >
@@ -107,10 +105,10 @@ In the publish environment, depending on the [settings](sites-console.md#user-ma
 
 | If Member of Group... |Primary Role |
 |---|---|
-| Community &lt;*site name&gt; *Members |A community site member is a registered user. They may login, modify their profile, join an open community group, post content to the community, send messages to other members, and follow site activities. |
-| Community &lt;*site name&gt; *Moderators |A community site moderator is a trusted community member who is able to moderate UGC either in bulk, using the moderation console, or in-context, on the page where the content is posted. |
-| Community &lt;*site name&gt; *&lt;*group name*&gt; Members |A community group member is a community member who has either joined an open community group or has been invited to a closed community group. They have the abilities of a member for that community group within the site. |
-| Community &lt;*site name&gt; *Groupadministrators |A community site group administrator is a trusted community member who is assigned to create and manage sub-communities (groups) within a community site. Included is the ability to provide in-context moderation.  |
+| Community &lt;*site name*&gt; Members |A community site member is a registered user. They may login, modify their profile, join an open community group, post content to the community, send messages to other members, and follow site activities. |
+| Community &lt;*site name*&gt; Moderators |A community site moderator is a trusted community member who is able to moderate UGC either in bulk, using the moderation console, or in-context, on the page where the content is posted. |
+| Community &lt;*site name*&gt; &lt;*group name*&gt; Members |A community group member is a community member who has either joined an open community group or has been invited to a closed community group. They have the abilities of a member for that community group within the site. |
+| Community &lt;*site name*&gt; Groupadministrators |A community site group administrator is a trusted community member who is assigned to create and manage sub-communities (groups) within a community site. Included is the ability to provide in-context moderation.  |
 | *Privileged Members Security Group* |A manually created and maintained user group for the purpose of restricting content creation. See [Privileged Members Group](#privileged-members-group). |
 | None |An anonymous site visitor, who discovers the site, may view and search community sites that allow anonymous access. In order to participate and post content, the user must self-register (if allowed) and become a community member. |
 
@@ -164,8 +162,8 @@ To give read privileges for custom member paths, on all publish instances set AC
   jcr:primaryType="rep:GrantACE"
   rep:principalName="everyone"
   rep:privileges="{Name}[jcr:read]" >
-  <rep:restrictions 
-    jcr:primaryType="rep:Restrictions" 
+  <rep:restrictions
+    jcr:primaryType="rep:Restrictions"
     rep:glob="*/profile*" />
 </allow>
 ```
@@ -183,31 +181,10 @@ To give the proper privileges for custom member group paths, such as /home/group
 
 There are four separate consoles available only in the author environment:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>console</strong></td> 
-   <td>Tools, Security,<br /> Users</td> 
-   <td>Tools, Security,<br /> Groups</td> 
-   <td>Communities,<br /> Members</td> 
-   <td>Communities,<br /> Groups</td> 
-  </tr> 
-  <tr> 
-   <td><strong>manages</strong></td> 
-   <td>users on author</td> 
-   <td>user groups on author</td> 
-   <td>members on publish</td> 
-   <td>member groups on publish</td> 
-  </tr> 
-  <tr> 
-   <td><strong>requires</strong></td> 
-   <td>admin permission</td> 
-   <td>admin permission</td> 
-   <td>admin permission,<br /> tunnel service,<br /> user sync for publish farm</td> 
-   <td>admin permission,<br /> tunnel service,<br /> user sync for publish farm</td> 
-  </tr> 
- </tbody> 
-</table>
+| console  | Tools, Security, Users | Tools, Security, Groups | Communities, Members                                        | Communities, Groups                                         |
+|----------|-----------------------|------------------------|------------------------------------------------------------|------------------------------------------------------------|
+| manages  | users on author       | user groups on author  | members on publish                                         | member groups on publish                                   |
+| requires | admin permission      | admin permission       | admin permission, tunnel service, user sync for publish farm | admin permission, tunnel service, user sync for publish farm |
 
 ### Community Enablement Manager Role {#community-enablement-manager-role}
 
@@ -217,31 +194,26 @@ Only users who are members of the global `Community Enablement Managers` group m
 
 To create a user who may be assigned the role of `Community Site Enablement Manager`, use the classic UI security console in order to specify the path:
 
-* on an author instance
-* signed in with administrator privileges
-* browse to the classic UI security console
+On an author instance:
 
-    * for example, [http://localhost:4502/useradmin](http://localhost:4502/useradmin)
+1. Signed in with administrator privileges, browse to the classic UI security console.
+    For example, [http://localhost:4502/useradmin](http://localhost:4502/useradmin)
 
-* from the Edit menu, select **Create User**
-* fill in the `Create User` dialog
-
+2. From the Edit menu, select **Create User**.
+3. Fill in the `Create User` dialog.
     * path must be `/home/users/community`
-
-* select **Create**
+4. Select **Create**
 
 ![chlimage_1-130](assets/chlimage_1-130.png)
 
-* In the left pane:
-
-    * search for the newly created user and select to display in the right pane
+* In the left pane, search for the newly created user and select to display in the right pane.
 
 ![chlimage_1-131](assets/chlimage_1-131.png)
 
 In the left pane:
 
-* clear the search box and select **Hide Users**
-* locate and drag `community-enablementmanagers` to the **Groups **tab of the new user displayed in the right pane
+1. clear the search box and select **Hide Users**
+2. locate and drag `community-enablementmanagers` to the **Groups** tab of the new user displayed in the right pane
 
 ![chlimage_1-132](assets/chlimage_1-132.png) 
 
@@ -258,19 +230,19 @@ AEM supports the use of LDAP for authentication of users as well as creation of 
 Following are some configuration details specific for community members and member groups.
 
 1. configure LDAP for each AEM publish instance
-1. [the LDAP Identity Provider](../../help/sites-administering/ldap-config.md#configuring-the-ldap-identity-provider)
+2. [the LDAP Identity Provider](../../help/sites-administering/ldap-config.md#configuring-the-ldap-identity-provider)
 
     * no special instructions
 
-1. [the Synchronization Handler](../../help/sites-administering/ldap-config.md#configuring-the-synchronization-handler)
+3. [the Synchronization Handler](../../help/sites-administering/ldap-config.md#configuring-the-synchronization-handler)
 
     * set the following properties:
 
-        * **User auto membership**&ast;: `community-*<site name>-<uid>*-members`
+        * **User auto membership**&ast;: `community-<site name>-<uid>-members`
         * **User Path Prefix**: `/community`
         * **Group Path Prefix**: `/community`
 
-1. [the External Login Module](../../help/sites-administering/ldap-config.md#the-external-login-module)
+4. [the External Login Module](../../help/sites-administering/ldap-config.md#the-external-login-module)
 
     * no special instructions
 
@@ -290,9 +262,8 @@ While the syncing of user groups through user sync will be included in a future 
 
 When discussing groups, there are two distinct topics:
 
-* **[community groups](overview.md#communitygroups)** 
-  These are sub-communities which may be created in the publish environment for a community site which supports creation of community groups. Creation of a community group results in more pages added to the website and are managed in a manner similar to their parent community site. For more information visit [Community Group Essentials](essentials-groups.md) for developers and [Community Group](creating-groups.md) for authors.
+* **[community groups](overview.md#communitygroups)**
+  Community groups are the sub-communities which may be created in the publish environment for a community site which supports creation of community groups. Creation of a community group results in more pages added to the website and are managed in a manner similar to their parent community site. For more information visit [Community Group Essentials](essentials-groups.md) for developers and [Community Group](creating-groups.md) for authors.
 
-* **[member groups](../../help/sites-administering/security.md)** 
-  These are groups to which members may belong and are managed through the Groups console. Much of the discussion on this page has been devoted to member groups. The member groups automatically created for a community site, which are prefixed with * `Community`*, may be referred to as a community group, therefore the context of the discussion must be considered.
-
+* **[member groups](../../help/sites-administering/security.md)**
+  Member groups are the groups to which members may belong and are managed through the Groups console. Much of the discussion on this page has been devoted to member groups. The member groups automatically created for a community site, which are prefixed with *`Community`*, may be referred to as a community group, therefore the context of the discussion must be considered.
