@@ -105,6 +105,7 @@ Disk space for installation:
 >You must have Administrative privileges to install Workbench. If you are installing using a non-administrator account, the installer will prompt you for the credentials for an appropriate account.
 
 ### Supported Platforms {#supported-platforms}
+
 See the complete list of supported platforms for Workbench at [AEM Forms Supported Platforms](http://adobe.com/go/learn_aemforms_supportedplatforms_65).
 
 ## Designer installation considerations {#designer-installation-considerations}
@@ -132,16 +133,19 @@ Different versions of Designer can coexist on the same system, for example Desig
 </table>
 
 ### To uninstall Designer (stand-alone) {#uninstall-designer-standalone}
+
 1. Go to **Control Panel > Programs > Programs and Features**
 1. In the Currently installed programs list, select **Adobe Designer**.
 1. Click **Uninstall** and then click **Yes**.
 
 ### To uninstall Designer (stand-alone) on Windows 10 {#uninstall-designer-standalone-windows10}
+
 1. Go to **Control Panel > Programs > Programs and Features**
 1. In the Currently installed programs list, select **Adobe Designer**.
 1. Click **Uninstall** and then click **Yes**.
 
 ### To uninstall Designer included with Acrobat Pro or Acrobat Pro Extended {#uninstall-designer-included-with-acrobatpro-or-acrobatextended}
+
 1. Go to **Control Panel > Programs > Programs and Features**
 1. In the Currently installed programs list, select **Adobe Acrobat Pro** or **Adobe Acrobat Pro Extended**.
 1. Click **Change** and then click **Next**.
@@ -150,6 +154,7 @@ Different versions of Designer can coexist on the same system, for example Desig
 1. Click **Update** and then click **Finish**
 
 ### To uninstall Designer included with Acrobat Pro or Acrobat Pro Extended on Windows 10 {#uninstall-designer-included-with-acrobatpro-or-acrobatextended-windows10}
+
 1. Go to **Control Panel > Programs > Programs and Features**
 1. In the Currently installed programs list, select **Adobe Acrobat Pro** or **Adobe Acrobat Pro Extended**.
 1. Click **Change** and then click **Next**.
