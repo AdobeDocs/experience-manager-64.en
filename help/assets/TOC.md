@@ -22,6 +22,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Activity stream in timeline](activity-stream.md)
     + [Applying Workflows to Assets](assets-workflow.md)
     + [Adding image maps](image-maps.md)
+    + [Reuse assets using MSM](reuse-assets-using-msm.md)
 + Dynamic Media{#dynamic}
     + [Setting up Dynamic Media](administering-dynamic-media.md)
     + [Working with Dynamic Media](dynamic-media.md)
