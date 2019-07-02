@@ -45,7 +45,7 @@ The resources in this table can help you learn more about and get started using 
   </tr> 
   <tr> 
    <td><p>Other services and products that integrate with AEM Forms</p> </td> 
-   <td><p>[http://www.adobe.com/](http://www.adobe.com/)<br /> <br /> </p> </td> 
+   <td><p><a href="http://www.adobe.com/">www.adobe.com</a><br /> <br /> </p> </td> 
   </tr> 
   <tr> 
    <td><p>Patch updates, technical notes, and additional information on this product version</p> </td> 
