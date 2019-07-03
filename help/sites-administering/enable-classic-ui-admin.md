@@ -39,11 +39,11 @@ In this example, we are re-enabling the Classic UI for the Sites console.
    * **Overlay Location**: `/apps/`
    * **Match Node Types**: active (select the checkbox)
  
-2. Add the following boolean property to the overlaid node:
+1. Add the following boolean property to the overlaid node:
 
    `enableDesktopOnly = {Boolean}true`
 
-3. The **Classic UI** option is again available as a popover option in the admin console.
+1. The **Classic UI** option is again available as a popover option in the admin console.
 
    ![screen_shot_2018-03-23at111924](assets/screen_shot_2018-03-23at111924.png)
 

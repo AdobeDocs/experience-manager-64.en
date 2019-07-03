@@ -33,11 +33,11 @@ To re-enable the option **Open in Classic UI** in the **Page Information** menu,
     * **Overlay Location**: `/apps/`
     * **Match Node Types**: active (select the checkbox)
 
-2. Add the following multi-value text property to the overlaid node:
+1. Add the following multi-value text property to the overlaid node:
 
    `sling:hideProperties = ["granite:hidden"]`
 
-3. The **Open in Classic UI** option is again available in the **Page Information** menu when editing pages.
+1. The **Open in Classic UI** option is again available in the **Page Information** menu when editing pages.
 
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
