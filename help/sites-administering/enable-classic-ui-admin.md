@@ -34,6 +34,7 @@ In this example, we are re-enabling the Classic UI for the Sites console.
    `/libs/cq/core/content/nav/sites`
 
 1. Create an overlay using the **Overlay Node** option; for example:
+
    *  **Path**: `/apps/cq/core/content/nav/sites`
    * **Overlay Location**: `/apps/`
    * **Match Node Types**: active (select the checkbox)

@@ -28,6 +28,7 @@ To re-enable the option **Open in Classic UI** in the **Page Information** menu,
    `http://localhost:4502/crx/de/index.jsp#/libs/wcm/core/content/editor/jcr%3Acontent/content/items/content/header/items/headerbar/items/pageinfopopover/items/list/items/classicui](http://localhost:4502/crx/de/index.jsp#/libs/wcm/core/content/editor/jcr%3Acontent/content/items/content/header/items/headerbar/items/pageinfopopover/items/list/items/classicui`
 
 1. Create an overlay using the **Overlay Node** option; for example:
+   
     * **Path**: `/apps/wcm/core/content/editor/jcr:content/content/items/content/header/items/headerbar/items/pageinfopopover/items/list/items/classicui`
     * **Overlay Location**: `/apps/`
     * **Match Node Types**: active (select the checkbox)
