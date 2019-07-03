@@ -169,7 +169,7 @@ This chapter describes how to install Workbench.
 
 ### Installing and running Workbench {#installing-and-running-workbench}
 
-Before you install Workbench, you must ensure that your environment includes the software and hardware required to run it (See section: ***Before You Install***).
+Before you install Workbench, you must ensure that your environment includes the software and hardware required to run it (See section: **Before You Install**).
 
 **To install and run Workbench:**
 
@@ -217,7 +217,7 @@ AEM Forms Update 1 and LiveCycle ES2 processes can be upgraded to AEM Forms appl
 You can optionally add the Workbench feature to Eclipse. You can add Workbench after you have installed Workbench. For example, for JBoss the following location contains the file:
 
 * Workbench_DVD/additional/eclipse
-  Download and install Eclipse 3.6 from <a href="www.eclipse.org/downloads/">www.eclipse.org/downloads/</a>.
+  Download and install Eclipse 3.6 from <a href="https://www.eclipse.org/downloads/">www.eclipse.org/downloads</a>.
 
 ### Configuring Eclipse update feature for Workbench {#configuring-eclipse-update-feature-for-workbench}
 
@@ -233,11 +233,11 @@ Workbench supports the update feature to ensure you are using the most updated E
    <td><p>Eclipse 3.6.x</p> </td> 
    <td><p>
    
-   * Graphical Editing Framework GEF [org.eclipse.gef.feature.group]: This is contained in the 'Graphical Modeling Framework SDK' [org.eclipse.gmf.sdk.feature.group]
+* Graphical Editing Framework GEF [org.eclipse.gef.feature.group]: This is contained in the 'Graphical Modeling Framework SDK' [org.eclipse.gmf.sdk.feature.group]
 
-   * WST XML Core [org.eclipse.wst.xml_core.feature.feature.group]: This is contained in the 'Eclipse XML Editors and Tools' [org.eclipse.wst.xml_ui.feature.feature.group]
+* WST XML Core [org.eclipse.wst.xml_core.feature.feature.group]: This is contained in the 'Eclipse XML Editors and Tools' [org.eclipse.wst.xml_ui.feature.feature.group]
 
-   * Plug-in 'org.apache.commons.lang_2.3.0' [n/a]: This is contained in the 'Mylyn Task List (Required)' [org.eclipse.mylyn_feature.feature.group]
+* Plug-in 'org.apache.commons.lang_2.3.0' [n/a]: This is contained in the 'Mylyn Task List (Required)' [org.eclipse.mylyn_feature.feature.group]
    </p> </td> 
   </tbody>
   </table>
@@ -254,7 +254,7 @@ Workbench supports the update feature to ensure you are using the most updated E
 
    >[!NOTE]
    >
-   >The Adobe AEM Forms Discovery Plug-in for Flash Builder enables you to quickly build Adobe Flex and AIR applications that invoke a service that is part of AEM Forms through its remoting endpoints. Information about how to install and update the plug-in is available on the Adobe web site at <a href="www.adobe.com/go/learn_flex4_sdp_en">www.adobe.com/go/learn_flex4_sdp_en</a>.
+   >The Adobe AEM Forms Discovery Plug-in for Flash Builder enables you to quickly build Adobe Flex and AIR applications that invoke a service that is part of AEM Forms through its remoting endpoints. Information about how to install and update the plug-in is available on the Adobe web site at **Link Required**.
 
 ### Configuring and logging to server {#configuring-and-logging-server}
 
@@ -298,7 +298,7 @@ Ensure that you connect to HTTPS by using the name that is specified in the cert
 
 1. Close and restart Workbench to apply changes.
 
-###Configuring cache settings for dynamically generated templates {configuring-cache-settings-for-dynamically-generated-templates}
+### Configuring cache settings for dynamically generated templates {#configuring-cache-settings-for-dynamically-generated-templates}
 
 The following aspects of cache operation should be considered if your application generates unique templates on the fly by automatically updating XFA content. In effect, each transaction uses a new, unique template.
 
@@ -324,15 +324,17 @@ When using the new APIs, the template is passed as a document object, which is h
 
 For passivated documents in which the UUID and content root serve as the cache key, consider the following aspects:
 * The cache is not created for passivated input templates with no UUID.
-*	If more than one passivated input template having the same UUID and content root are passed, then the same cache is overwritten. 
+* If more than one passivated input template having the same UUID and content root are passed, then the same cache is overwritten.
 
 For non-passivated documents in which the filename and content root serve as the cache key, consider the following aspect:
-* For non-passivated input templates, caching depends on the content root and filename from which the document was generated. The same cache will be used only for requests with the same content root and template filename.
+* For non-passivated input templates, caching depends on the content root and filename from which the document was generated.
+The same cache will be used only for requests with the same content root and template filename.
 The following best practices will ensure that the cache does not grow endlessly when dynamically generated templates are passed to the Forms service:
   * Strip the UUID or pass the same UUID in all dynamically generated templates.
   * Generate the document either from template bytes or from the same filename on disk.
 
 ### Uninstalling Workbench {#uninstalling-workbench}
+
 Use the Add or Remove Programs function in the Control Panel to start the Uninstaller. The Workbench and Designer applications have separate uninstall programs.
 
 ## Configuring AEM Forms XDC Editor {#configuring-aem-forms-xdc-editor}
