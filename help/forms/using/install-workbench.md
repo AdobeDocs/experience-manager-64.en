@@ -217,7 +217,7 @@ AEM Forms Update 1 and LiveCycle ES2 processes can be upgraded to AEM Forms appl
 You can optionally add the Workbench feature to Eclipse. You can add Workbench after you have installed Workbench. For example, for JBoss the following location contains the file:
 
 * Workbench_DVD/additional/eclipse
-  Download and install Eclipse 3.6 from <a href="www.eclipse.org/downloads/">www.eclipse.org/downloads/</a>.
+  Download and install Eclipse 3.6 from <a href="https://www.eclipse.org/downloads/">www.eclipse.org/downloads</a>.
 
 ### Configuring Eclipse update feature for Workbench {#configuring-eclipse-update-feature-for-workbench}
 
@@ -254,7 +254,7 @@ Workbench supports the update feature to ensure you are using the most updated E
 
    >[!NOTE]
    >
-   >The Adobe AEM Forms Discovery Plug-in for Flash Builder enables you to quickly build Adobe Flex and AIR applications that invoke a service that is part of AEM Forms through its remoting endpoints. Information about how to install and update the plug-in is available on the Adobe web site at <a href="www.adobe.com/go/learn_flex4_sdp_en">www.adobe.com/go/learn_flex4_sdp_en</a>.
+   >The Adobe AEM Forms Discovery Plug-in for Flash Builder enables you to quickly build Adobe Flex and AIR applications that invoke a service that is part of AEM Forms through its remoting endpoints. Information about how to install and update the plug-in is available on the Adobe web site at **Link Required**.
 
 ### Configuring and logging to server {#configuring-and-logging-server}
 
