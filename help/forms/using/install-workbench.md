@@ -169,7 +169,7 @@ This chapter describes how to install Workbench.
 
 ### Installing and running Workbench {#installing-and-running-workbench}
 
-Before you install Workbench, you must ensure that your environment includes the software and hardware required to run it (See section: ***Before You Install***).
+Before you install Workbench, you must ensure that your environment includes the software and hardware required to run it (See section: **Before You Install**).
 
 **To install and run Workbench:**
 
