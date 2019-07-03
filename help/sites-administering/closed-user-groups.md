@@ -755,6 +755,17 @@ This has been adjusted to make the reference to `CugSupport` optional in order t
 >
 >By default, the **Adobe Granite HTTP Header Authentication Handler** is only configured in publish run mode with the “Disable Login Page” ( `auth.http.nologin`) option enabled.
 
+### AEM LiveCopy {#aem-livecopy}
+
+Configuring CUGs in conjuction with LiveCopy is represented in the repository by the addition of one extra node and one extra property as follows:
+
+   * `/content/we-retail/us/en/blueprint/rep:cugPolicy`
+   * `/content/we-retail/us/en/LiveCopy@granite:loginPath`
+
+Both of these elements are created under the `cq:Page`. With the current design, MSM only handles nodes and properties that are under the `cq:PageContent` (`jcr:content`) node.
+
+Therefore, CUG groups cannot be rolled back from a blueprint to a Live Copy. Please plan accordingly around this when setting up a Live Copy.
+
 ## Changes with the New CUG Implementation {#changes-with-the-new-cug-implementation}
 
 The aim of this section is to provide an overview of the changes made to the CUG feature as well as a comparison between the old and the new implementation. It lists the changes affecting the way CUG support is configured and describes how and by whom CUGs are managed in the repository content.
