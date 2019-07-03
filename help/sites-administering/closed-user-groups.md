@@ -759,8 +759,8 @@ This has been adjusted to make the reference to `CugSupport` optional in order t
 
 Configuring CUGs in conjuction with LiveCopy is represented in the repository by the addition of one extra node and one extra property as follows:
 
-   * `/content/we-retail/us/en/blueprint/rep:cugPolicy`
-   * `/content/we-retail/us/en/LiveCopy@granite:loginPath`
+* `/content/we-retail/us/en/blueprint/rep:cugPolicy`
+* `/content/we-retail/us/en/LiveCopy@granite:loginPath`
 
 Both of these elements are created under the `cq:Page`. With the current design, MSM only handles nodes and properties that are under the `cq:PageContent` (`jcr:content`) node.
 
