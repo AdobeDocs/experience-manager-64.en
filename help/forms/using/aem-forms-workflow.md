@@ -61,8 +61,8 @@ The example creates a workflow model a mortgage application to be filled by a fr
 [Get File](assets/example-mortgage-loan-application.zip)
 
 1. Open the Workflow Models console. The default URL is `https://[Server]:[port]/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`
-1. Select **Create**, then **Create Model**. The Add Workflow Model dialog appears.
-1. Enter the **Title **and **Name **(optional). For example, a mortgage application. Tap **Done**.
+1. Select **[!UICONTROL Create]**, then **[!UICONTROL Create Model]**. The Add Workflow Model dialog appears.
+1. Enter the **[!UICONTROL Title]** and **[!UICONTROL Name]** (optional). For example, a mortgage application. Tap **[!UICONTROL Done]**.
 1. Select the newly created workflow model and tap **Edit. **Now, you can add workflow steps to build business logic. When you first create a workflow model, it contains:
 
     * The steps: Flow Start and Flow End. These steps represent the beginning and end of the workflow. These steps are required and cannot be edited or removed.
@@ -76,9 +76,9 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
 1. Create workflow stages. A workflow can have multiple stages. These stages are displayed in the AEM Inbox and report progress of the workflow.
 
-   To define a stage, tap the ![info-circle](assets/info-circle.png) icon to open workflow model properties, open the **Stages** tab, add stages for the workflow model, and tap **Save & Close**. For the example mortgage application, create stages: loan request, loan request status, to be signed documents, and signed loan document.
+   To define a stage, tap the ![info-circle](assets/info-circle.png) icon to open workflow model properties, open the **[!UICONTROL Stages]** tab, add stages for the workflow model, and tap **[!UICONTROL Save & Close]**. For the example mortgage application, create stages: loan request, loan request status, to be signed documents, and signed loan document.
 
-1. Drag-and-drop the **Assign Task** steps browser to the workflow model. Make it the first step of the model.
+1. Drag-and-drop the **[!UICONTROL Assign Task]** steps browser to the workflow model. Make it the first step of the model.
 
    The assign task component assigns the task, created by workflow, to a user or group. Along with assigning the task, you can use the component to specify an adaptive form or a non-interactive PDF for the task. The adaptive form is required to accept input from users and non-interactive PDF or a read-only adaptive form is used for review only workflows.
 
@@ -86,7 +86,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    ![workflow-editor](assets/workflow-editor.png)
 
-   For the mortgage application example **,** configure the assign task step to use a Read-only adaptive form and display PDF Document once the task is complete. Also, select to user group allowed to approve the loan request. On the **Actions** tab, disable the **Submit** option. Specify a **Route Variable**. For example, actionTaken. Also, add the Approve and Reject routes. The routes are displayed as separate actions (buttons) in AEM Inbox. The workflow selects a branch based on the action (button) a user taps.
+   For the mortgage application example, configure the assign task step to use a Read-only adaptive form and display PDF Document once the task is complete. Also, select to user group allowed to approve the loan request. On the **[!UICONTROL Actions]** tab, disable the **[!UICONTROL Submit]** option. Specify a **[!UICONTROL Route Variable]**. For example, actionTaken. Also, add the Approve and Reject routes. The routes are displayed as separate actions (buttons) in AEM Inbox. The workflow selects a branch based on the action (button) a user taps.
 
    You can import the example package, available for download in the starting of the section, for the complete set of values of all the fields of the assign task step configured for example mortgage application.
 
@@ -96,7 +96,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    **Code snippet for Branch 1**
 
-   When a user taps **Approve** in AEM Inbox, Branch 1 is activated.
+   When a user taps **[!UICONTROL Approve]** in AEM Inbox, Branch 1 is activated.
 
    ```
    function check(){
@@ -108,7 +108,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    **Code snippet for Branch 2**
 
-   When a user taps **Reject** in AEM Inbox, Branch 2 is activated.
+   When a user taps **[!UICONTROL Reject]** in AEM Inbox, Branch 2 is activated.
 
    ```
    function check(){
@@ -137,7 +137,7 @@ The application is the adaptive form associated with the workflow. When an appli
 >You must be a member of the fd-administrator group to be able to create and manage workflow applications.
 
 1. On your AEM author instance, go to ![tools](assets/tools.png) > **[!UICONTROL Forms]** > **[!UICONTROL Manage Workflow Application]** and taps **[!UICONTROL Create]**.
-1. In the Create Workflow Application window, provide inputs for the following fields, and taps **Create**. A new application is created and is listed in the Workflow Applications screen.
+1. In the Create Workflow Application window, provide inputs for the following fields, and tap **[!UICONTROL Create]**. A new application is created and is listed in the Workflow Applications screen.
 
 <table> 
  <tbody> 
@@ -210,7 +210,7 @@ The AEM Forms app syncs with an AEM Forms server and allows you to make changes 
 
 ### Submitting an adaptive form {#af}
 
-You can configure the submit actions of an adaptive form to start a workflow on submission of the adaptive form. Adaptive forms provides the **Invoke an AEM Workflow** submit action to start a workflow on submission of an adaptive form. For detailed information about the submit action, see [Configuring the Submit action](/help/forms/using/configuring-submit-actions.md). To submit an Adaptive form through the AEM Forms app, enable Sync With AEM Forms App in the adaptive form properties.
+You can configure the submit actions of an adaptive form to start a workflow on submission of the adaptive form. Adaptive forms provides the **[!UICONTROL Invoke an AEM Workflow]** submit action to start a workflow on submission of an adaptive form. For detailed information about the submit action, see [Configuring the Submit action](/help/forms/using/configuring-submit-actions.md). To submit an Adaptive form through the AEM Forms app, enable Sync With AEM Forms App in the adaptive form properties.
 
 You can configure an adaptive form to sync, submit, and trigger a workflow from AEM Forms app. For details, see [working with a form](/help/forms/using/working-with-form.md).
 
@@ -250,7 +250,7 @@ An administrator (a member of fd-administrators group) can configure a network f
  </tbody> 
 </table>
 
-1. Tap **Advanced**. Specify a value for the following field and taps **Create**. The Watched Folder is configured to launch a workflow. Now, whenever a file is placed in the input directory of the Watched Folder, the specified workflow is triggered. 
+1. Tap **[!UICONTROL Advanced]**. Specify a value for the following field and tap **[!UICONTROL Create]**. The Watched Folder is configured to launch a workflow. Now, whenever a file is placed in the input directory of the Watched Folder, the specified workflow is triggered. 
 
    | Field |Description |
    |---|---|
