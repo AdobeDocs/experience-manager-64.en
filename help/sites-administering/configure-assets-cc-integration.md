@@ -4,14 +4,14 @@ seo-title: Configure AEM Assets integration with Marketing Cloud and Creative Cl
 description: Learn how to configure AEM Assets integration with Experience Cloud and Creative Cloud.
 seo-description: Learn how to configure AEM Assets integration with Experience Cloud and Creative Cloud.
 uuid: 73f90846-71d0-4f72-8784-dc877e0e9c41
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: c2f190af-656e-4435-9f44-2698d41c4ad1
 ---
 
-# Configure AEM Assets integration with Experience Cloud and Creative Cloud{#configure-aem-assets-integration-with-experience-cloud-and-creative-cloud}
+# Configure AEM Assets integration with Experience Cloud and Creative Cloud {#configure-aem-assets-integration-with-experience-cloud-and-creative-cloud}
 
 If you are an Adobe Experience Cloud customer, you can synchronize your assets within Adobe Experience Manager (AEM) Assets with Adobe Creative Cloud, and vice versa. You can also synchronize your assets with Experience Cloud and vice versa. You can set up this synchronization through Adobe I/O.
 
@@ -74,11 +74,7 @@ Flow of data when AEM Assets and Creative Cloud are integrated
 
 1. In the **[!UICONTROL Create Configuration]** dialog, specify a title and name for the new configuration and click **[!UICONTROL Create]**.
 
-   ![Name a new configuration to integrate AEM Assets and CC](assets/chlimage_1-290.png)
-
-1. In the **[!UICONTROL Adobe Marketing Cloud DAM Synchronisation]** dialog, specify the name of your organization in the **[!UICONTROL Tenant]** field.
-
-   The **[!UICONTROL Tenant]** field is the technical name of the organization. You are using the display name. In other words, the **[!UICONTROL Tenant]** field has the first part of the domain name. If you provide the display name, synchronization works in one direction only.
+   ![Name a new configuration to integrate AEM Assets and CC](assets/cloudservices_configure_mc.png)
 
 1. In the **[!UICONTROL Tenant URL]** field, specify the URL for AEM Assets.
 
@@ -89,15 +85,15 @@ Flow of data when AEM Assets and Creative Cloud are integrated
    >1. Navigate to **Tools &gt; Cloud Services &gt; Legacy Cloud Services**.
    >1. Under Adobe Marketing Cloud, click **Show Configurations**. 
    >1. Select the configuration that was created while setting up the AEM-MAC-CC sync. 
-   >1. Edit the cloudservice configuration and replace **marketing.adobe.com** in Tenant URL field to **experiencecloud.adobe.com**. 
-   >1. Save the configuration. 
+   >1. Edit the cloudservice configuration and replace **marketing.adobe.com** in Tenant URL field to **experiencecloud.adobe.com**.
+   >1. Save the configuration.
    >1. Test the mac-sync replication agents.
 
 1. In the **[!UICONTROL Client ID]** field, paste the application ID you copied at the end of the procedure [Create an application](/help/sites-administering/configure-assets-cc-integration.md#create-an-application).
 
-   ![Provide the application ID values required to integrate AEM Assets and Creative Cloud](assets/chlimage_1-291.png)
+   ![Provide the application ID values required to integrate AEM Assets and Creative Cloud](assets/cloudservices_tenant_info.png)
 
-1. Under **[!UICONTROL Synchronization]** select **[!UICONTROL Enabled]**to enable synchronization and click **[!UICONTROL OK]**.
+1. Under **[!UICONTROL Synchronization]** select **[!UICONTROL Enabled]** to enable synchronization and click **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
@@ -151,9 +147,9 @@ Flow of data when AEM Assets and Creative Cloud are integrated
 
    >[!NOTE]
    >
-   >Sharing an Assets folder of the type `sling:OrderedFolder`, is not supported. If you want to share a folder, when creating it in AEM Assets, do not select the **[!UICONTROL Ordered]** option.
+   >Sharing an Assets folder of the type `sling:OrderedFolder`, is not supported  in the context of sharing in Adobe Marketing Cloud. If you want to share a folder, when creating it in AEM Assets, do not select the **[!UICONTROL Ordered]** option.
 
-1. Refresh the AEM Assets UI. The folder you created in the Assets console of your local AEM Assets instance is copied to the Marketing Cloud UI. The asset that you upload to the folder in AEM Assets appears in the copy of the folder in Marketing Cloud after it is processed by the AEM server.
+1. Refresh the AEM Assets user interface. The folder you created in the Assets console of your local AEM Assets instance is copied to the Marketing Cloud UI. The asset that you upload to the folder in AEM Assets appears in the copy of the folder in Marketing Cloud after it is processed by the AEM server.
 1. You can also upload an asset in the replicated copy of the folder in Marketing Cloud. After it is processed, the asset appears in the shared folder in AEM Assets.
 
 ## Exchange assets between AEM Assets and Creative Cloud {#exchange-assets-between-aem-assets-and-creative-cloud}
@@ -176,10 +172,7 @@ The AEM Assets-Marketing Cloud synchronization is designed in a way that the use
 
 For example, if an asset is uploaded from an AEM Assets (on premises) instance, the changes to the asset from this instance are propagated to the Marketing Cloud instance. However, the changes done from the Marketing Cloud instance to the same asset aren’t propagated to the AEM instance and vice versa for asset uploaded from Marketing Cloud.
 
-## Additional resources {#additional-resources}
-
-When you are done configuring the integration, understand the best practices of usage at the following links:
-
-* [AEM and Creative Cloud Integration Best Practices](/help/assets/aem-cc-integration-best-practices.md)
-* [AEM to Creative Cloud Folder Sharing Best Practices](/help/assets/aem-cc-folder-sharing-best-practices.md)
-
+>[!MORELIKETHIS]
+>
+>* [AEM and Creative Cloud Integration Best Practices](../assets/aem-cc-integration-best-practices.md)
+>* [AEM to Creative Cloud Folder Sharing Best Practices](../assets/aem-cc-folder-sharing-best-practices.md)
