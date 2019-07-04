@@ -23,7 +23,11 @@ In the list, select and open the **Configure HTTPS** alert:
 
 ![chlimage_1-341](assets/chlimage_1-341.png)
 
-A service user called **ssl-service **has been created for this feature. Once you open the alert, you will be guided through the follwing configuration wizard:
+>[NOTE!]
+>
+>If the **Configure HTTPS** alert is not present in the Inbox, you can navigate directly to the HTTPS Wizard by going to *<http://serveraddress:serverport/libs/granite/security/content/sslConfig.html?item=configuration%2fconfiguressl&_charset_=utf-8>*
+
+A service user called **ssl-service** has been created for this feature. Once you open the alert, you will be guided through the follwing configuration wizard:
 
 1. First, set up the Store Credentials. These are the credentials for the **ssl-service** system user's key store that will contain the private key and trust store for the HTTPS listener.
 
