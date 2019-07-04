@@ -33,10 +33,12 @@ In this example, we are re-enabling the Classic UI for the Sites console.
 
    `/libs/cq/core/content/nav/sites`
 
-1. Using the **Overlay Node** option, create an overlay for the selected node under `/apps` as follows:
+1. Create an overlay using the **Overlay Node** option; for example:
 
-   `/apps/cq/core/content/nav/sites`
-
+   *  **Path**: `/apps/cq/core/content/nav/sites`
+   * **Overlay Location**: `/apps/`
+   * **Match Node Types**: active (select the checkbox)
+ 
 1. Add the following boolean property to the overlaid node:
 
    `enableDesktopOnly = {Boolean}true`
