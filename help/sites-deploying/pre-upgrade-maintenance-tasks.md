@@ -310,8 +310,10 @@ In order to prevent this from happening, you need to upgrade the schema by follo
 
 1. Shut down the AEM instance that needs to be upgraded.
 1. Upgrade the database schema. Please consult the documentation for your database type in order to see what is the tooling you need to use in order to achieve this.
-1. Proceed with upgrading AEM.
 
+    For more information on how Oak handles schema upgrades, see [this page on the Apache website](https://jackrabbit.apache.org/oak/docs/nodestore/document/rdb-document-store.html#upgrade).
+
+1. Proceed with upgrading AEM.
 
 ## Rotate Log Files {#rotate-log-files}
 
