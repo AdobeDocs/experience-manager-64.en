@@ -145,7 +145,7 @@ Select the source asset or folder, open the left rail, and click **[!UICONTROL R
 
 ![Actions and information available in the References rail for the selected source](assets/lc_referencerail_source.png)
 
-For a specific live copy, click Edit Live Copy to suspend relationship or change rollout configuration.
+For a specific live copy, click **[UICONTROL Edit Live Copy]** to suspend relationship or change rollout configuration.
 
 ![Suspend relationship or change rollout configuration of a specific live copy](assets/lc_edit_referencerail.png)
 
@@ -242,7 +242,7 @@ Alternatively, you can quickly detach multiple assets in a live copy folder from
 If you have multiple assets in a live copy folder, initiating actions on each asset can be tedious. You can quickly initiate the basic actions on many assets from Live Copy Console. The above methods continue to work for individual assets.
 
 1. Select a source folder. Click **[!UICONTROL Properties]** from the toolbar. Alternatively, use the keyboard shortcut p.
-1. Click Live Copy Source. Click **[!UICONTROL Live Copy Overview]** to open the console.
+1. Click Live Copy Source. To open the console, click **[!UICONTROL Live Copy Overview]**.
 1. In this dashboard, select a live copy asset from a live copy folder. Click the desired actions from the toolbar. The actions available are **[!UICONTROL Edit]**, **[!UICONTROL Synchronize]**, **[!UICONTROL Reset]**, **[!UICONTROL Suspend]**, and **[!UICONTROL Detach]**. You can quickly initiate these actions on any asset in any number of live copy folders that are in a live relationship with the selected source folder.
 ![Easily update many assets in live copy folders from the Live Copy Overview console](assets/lc_console_update_assets.png)
 
