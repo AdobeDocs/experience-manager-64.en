@@ -24,3 +24,15 @@ You can also assign a higher rank to a tag to increase its relevence with respec
 1. Click/tap **[!UICONTROL Save]**, and then click/tap **[!UICONTROL OK]** to close the Success dialog.
 1. Navigate to the properties page for the image. Observe that the tag you promoted is assigned a high relevance and, therefore, appears higher in the search results.
 
+## Understand AEM search results with smart tags {#understand-search-results-with-smart-tags}
+
+By default, AEM search combines the search terms with an `AND` clause. Using smart tags does not change this default behavior. Using smart tags adds an additional `OR` clause to find any of the search terms in the applies smart tags. For example, consider searching for `woman running`. Assets with just `woman` or just `running` keyword in the metadata do not appear in the search results by default. However, an asset tagged with either `woman` or `running` using smart taggs appears in such a search query. So the search results are a combination of,
+
+* assets with both keywords, `woman` and `running` in the metadata.
+* assets smart tagged with either of the keywords.
+
+The search results that match all search terms in metadata fields are displayed first, followed by the search results that match any of the search terms in the smart tags. In the above example, the approximate order of display of search results is:
+
+1. matches of `woman running` in the various metadata fields.
+1. matches of `woman running` in smart tags.
+1. matches of `woman` or of `running` in smart tags.
