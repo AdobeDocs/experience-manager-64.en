@@ -113,8 +113,6 @@ These adhere to the requirements:
 
 ![](assets/chlimage_1-185.png)  
 
-[Get File](assets/graniteui.pdf)
-
 The Granite UI:
 
 * Uses the RESTful architecture of Sling
@@ -279,8 +277,6 @@ Implementation:
 * Components can be customize
 
 ## Coral UI {#coral-ui}
-
-[Get File](assets/coralui.pdf)
 
 Coral UI (CUI) is an implementation of Adobe's visual style for the touch-enabled UI, that has been designed to provide consistency in the user experience across multiple products. Coral UI provides everything you need to adopt the visual style used on the authoring environment.
 
