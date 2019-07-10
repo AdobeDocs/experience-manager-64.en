@@ -45,40 +45,10 @@ Alternatively, SSR can be implemented so that the Node.js server is responsible 
 
 Both models are valid and supported by AEM. However, one should consider the advantages and disadvantages of each before implementing a particular model.
 
-<table> 
- <tbody>
-  <tr>
-   <th><strong>Bootstrapping</strong></th> 
-   <th><strong>Advantages</strong></th> 
-   <th><strong>Disadvantages</strong></th> 
-  </tr>
-  <tr>
-   <th><strong>via AEM</strong><br /> </th> 
-   <td>
-    <ul> 
-     <li>AEM manages injecting libraries where needed</li> 
-     <li>Resources only need to be maintained on AEM<br /> </li> 
-    </ul> </td> 
-   <td>
-    <ul> 
-     <li>Possibly unfamiliar to SPA developer<br /> </li> 
-    </ul> </td> 
-  </tr>
-  <tr>
-   <th><strong>via Node.js</strong></th> 
-   <td>
-    <ul> 
-     <li>More familiar to SPA developers<br /> </li> 
-    </ul> </td> 
-   <td>
-    <ul> 
-     <li>Clientlib resources required by the application such as CSS and JavaScript will need to be made available by the AEM developer via the <code><a href="/help/sites-developing/clientlibs.md#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet">allowProxy</a></code> property<br /> </li> 
-     <li>Resources must be synched between AEM and the Node.js server</li> 
-     <li>To enable authoring of the SPA, a proxy server for the Node.js instance may be necessary</li> 
-    </ul> </td> 
-  </tr>
- </tbody>
-</table>
+|Bootstrapping|Advantages|Disadvantages|
+|-|-|-|
+|via AEM|AEM manages injecting libraries where needed<br>Resources only need to be maintained on AEM|Possibly unfamiliar to SPA developer|
+|via Node.js|More familiar to SPA developers|Clientlib resources required by the application such as CSS and JavaScript will need to be made available by the AEM developer via the [`allowProxy` property](/help/sites-developing/clientlibs.md#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet)<br>Resources must be synched between AEM and the Node.js server<br>To enable authoring of the SPA, a proxy server for the Node.js instance may be necessary|
 
 ## Planning for SSR {#planning-for-ssr}
 
