@@ -13,9 +13,9 @@ discoiquuid: 30d25772-0df7-468e-bcbd-c6fb2e962662
 
 # SPA and Server-Side Rendering{#spa-and-server-side-rendering}
 
->[!CAUTION]
+>[!NOTE]
 >
->Although the Single-Page Application (SPA) Editor is available as part of the [We.Retail Journal](https://github.com/adobe/aem-sample-we-retail-journal) sample content (requires [AEM 6.4 service pack 2](/help/release-notes/sp-release-notes.md)), its server side rendering features as described in this document are still considered a technical preview, available for testing and feedback but not intended for production roll out.
+>AEM 6.4.5.0 or later is required to use the SPA server side rendering features as described in this document.
 
 ## Overview {#overview}
 
