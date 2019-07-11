@@ -108,14 +108,14 @@ The trend in recent years has been to remove these in an effort to make URLs mor
 
 AEM provides us with two options when writing servlets:
 
-* **bin** servlets
-* **Sling** servlets
+* bin servlets
+* Sling servlets
 
 The following examples illustrate how to register servlets that follow both of these patterns as well as the benefit gained by using Sling servlets.
 
 #### Bin servlets (one level down) {#bin-servlets-one-level-down}
 
-**Bin** servlets follow the pattern that many developers are used to from J2EE programming. The servlet is registered at a specific path, which in the case of AEM is usually under `/bin`, and you extract the needed request parameters from the query string.
+Bin servlets follow the pattern that many developers are used to from J2EE programming. The servlet is registered at a specific path, which in the case of AEM is usually under `/bin`, and you extract the needed request parameters from the query string.
 
 The SCR annotation for this type of servlet would look something like this:
 
@@ -143,7 +143,7 @@ There are a few points to be considered with this approach:
 
 #### Sling servlets (one level down) {#sling-servlets-one-level-down}
 
-**Sling** servlets let you register your servlet in the opposite manner. Rather than addressing a servlet and specifying the content you would like the servlet to render based on the query parameters, you address the content that you want and specify the servlet that should render the content based on Sling selectors.
+Sling servlets let you register your servlet in the opposite manner. Rather than addressing a servlet and specifying the content you would like the servlet to render based on the query parameters, you address the content that you want and specify the servlet that should render the content based on Sling selectors.
 
 The SCR annotation for this type of servlet would look something like this:
 
@@ -177,7 +177,7 @@ This section reviews the options available in AEM for managing these URLs and pr
 
 #### Vanity URLs {#vanity-urls}
 
-If an author wants a page to be accessible from a second location for promotional purposes, AEM's vanity URLs, defined on a page-by-page basis, might be useful. To add a vanity URL for a page, navigate to it in the **Sites** console and edit the page properties. At the bottom of the **Basic** tab, you see a section where vanity URLs can be added. Keep in mind that having the page accessible via more than one URL will fragment the SEO value of the page, so a canonical URL tag should be added to the page to avoid this issue.
+If an author wants a page to be accessible from a second location for promotional purposes, AEM's vanity URLs, defined on a page-by-page basis, might be useful. To add a vanity URL for a page, navigate to it in the **[!UICONTROL Sites]** console and edit the page properties. At the bottom of the **[!UICONTROL Basic]** tab, you see a section where vanity URLs can be added. Keep in mind that having the page accessible via more than one URL will fragment the SEO value of the page, so a canonical URL tag should be added to the page to avoid this issue.
 
 #### Localized page names {#localized-page-names}
 
@@ -223,13 +223,13 @@ In a standard AEM installation:
   
   **Apache Sling Resource Resolver Factory**
 
-  ( `org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl`)
+  (`org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl`)
 
 * the property:
   
   **Mapping Location**
   
-  ( `resource.resolver.map.location`)
+  (`resource.resolver.map.location`)
 
 * defaults to:
   
@@ -375,6 +375,7 @@ To programmatically generate a sitemap, register a Sling Servlet listening for a
 >[!NOTE]
 >
 >You can register a Sling Servlet to listen for the selector `sitemap` with the extension `xml`. This will cause the servlet to process the request any time a URL is requested that ends in:  
+>
 >`/<*path-to*>/page.sitemap.xml`
 >
 >You can then get the requested resource from the request and generate a sitemap from that point in the content tree by using the JCR APIs.
