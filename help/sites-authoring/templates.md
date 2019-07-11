@@ -34,6 +34,10 @@ For detailed information about how editable templates work at a technical level,
 
 >[!NOTE]
 >
+>AEM 6.4.5.0 or later is required to use editable templates with the [SPA Editor](/help/sites-developing/spa-overview.md).
+
+>[!NOTE]
+>
 >The **Template Editor** does not support targeting directly on the template level. Pages created based on an editable template can be targeted, but the templates themselves can not be.
 
 >[!CAUTION]
