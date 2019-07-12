@@ -76,6 +76,10 @@ Blacklist filtering lets you import all XMP metadata properties except the prope
 
 Whitelist filtering of XMP metadata resolves this issue by letting you define the XMP properties to be imported. This way, other/unknown XMP properties are ignored. You can add some of these properties to the blacklist filter for backward compatibility.
 
+>[!NOTE]
+>
+>Filtering works only for the properties derived from XMP sources in asset binaries. For the properties derived from non-XMP sources, such as EXIF and IPTC formats, the filtering does not work. For example, the date of asset creation is stored in property named `CreateDate` in EXIF TIFF. AEM stories this value in the metadata field named `exif:DateTimeOriginal`. As the source is a non-XMP source, filtering does not work on this property.
+
 1. Open Configuration Manager from *https://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 1. Open the **[!UICONTROL Adobe CQ DAM XmpFilter]** configuration.
 1. To apply whitelist filtering, select **[!UICONTROL Apply Whitelist to XMP Properties]**, and specify the properties to be imported in the **[!UICONTROL Whitelisted XML Names for XMP filtering]** box.
