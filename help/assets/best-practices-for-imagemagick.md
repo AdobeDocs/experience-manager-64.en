@@ -17,6 +17,12 @@ ImageMagick is a software plug-in to create, edit, compose, or convert bitmap im
 
 Use the Adobe Experience Manager (AEM) media handler from the command line to process images through ImageMagick. To work with various file formats using ImageMagick, see [Assets file formats best practices](assets-file-format-best-practices.md). To know about all supported file formats, see [Assets supported formats](assets-formats.md).
 
+To process large files using ImageMagick, consider higher than usual memory requirements, potential changes required to IM policies, and the overall impact on the performance. The memory requirements are dependent on various factors like resolution, bit depth, color profile, and file format. If you intend to process very large files using ImageMagick, properly benchmark the AEM server. Some helpful resources are provided at the end.
+
+>[!NOTE]
+>
+>If you are using AEM on Adobe Managed Services (AMS), reach out to Adobe Support if you plan to process lots of large PSD or PSB files.
+
 ## Installing ImageMagick {#installing-imagemagick}
 
 Multiple versions of ImageMagic installation files are available for various operating systems. Use the appropriate version for your operating system.
@@ -79,3 +85,11 @@ If you use ImageMagick or an affected library, Adobe recommends that you mitigat
 1. Verify that all image files begin with the expected ["magic bytes"](https://en.wikipedia.org/wiki/List_of_file_signatures) corresponding to the image file types you support before sending them to ImageMagick for processing.
 1. Use a policy file to disable the vulnerable ImageMagick coders. The global policy for ImageMagick is found at `/etc/ImageMagick`.
 
+>[!MORELIKETHIS]
+>
+>* [Best practices to process various file formats using AEM Assets](assets-file-format-best-practices.md)
+>* [Command-line options for ImageMagick](https://www.imagemagick.org/script/command-line-options.php)
+>* [Basic and advanced examples of ImageMagick usage](https://www.imagemagick.org/Usage/)
+>* [Assets performance tuning for ImageMagick](performance-tuning-guidelines.md)
+>* [Complete list of file formats supported by AEM Assets](assets-formats.md)
+>* [Understand file formats and memory cost of images](https://www.scantips.com/basics1d.html)
