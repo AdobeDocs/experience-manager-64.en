@@ -10,7 +10,7 @@ topic-tags: publish
 discoiquuid: da96d3d8-a338-470a-8d20-55ea39bd15bf
 ---
 
-# Sample for integrating drafts & submissions component with database{#sample-for-integrating-drafts-submissions-component-with-database}
+# Sample for integrating drafts & submissions component with database {#sample-for-integrating-drafts-submissions-component-with-database}
 
 ## Sample overview {#sample-overview}
 
@@ -35,12 +35,13 @@ Perform the following steps, on all the author and publish instances, to install
    [Get File](assets/aem-fp-db-integration-sample-pkg-6.1.2.zip)
 
 1. Go to AEM package manager at https://[*host*]:[*port*]/crx/packmgr/.
-1. Click **Upload Package**.  
+1. Click **[!UICONTROL Upload Package]**.  
 
-1. Browse to select the **aem-fp-db-integration-sample-pkg-6.1.2.zip** package and click **OK**.
-1. Click **Install** to next to the package to install the package.
-1. Go to AEM Web Console Configuration page at https://[*host*]:[*port*]/system/console/configMgr.
-1. Click to open **Forms Portal Draft and Submission Configuration** in edit mode.  
+1. Browse to select the **aem-fp-db-integration-sample-pkg-6.1.2.zip** package and click **[!UICONTROL OK]**.
+1. Click **[!UICONTROL Install]** to next to the package to install the package.
+1. Go to **[!UICONTROL AEM Web Console Configuration]**
+ page at https://[*host*]:[*port*]/system/console/configMgr.
+1. Click to open **[!UICONTROL Forms Portal Draft and Submission Configuration]** in edit mode.  
 
 1. Specify the values for properties as described in the following table:
 
@@ -76,7 +77,7 @@ Perform the following steps, on all the author and publish instances, to install
 
    **Note**: If you change the table names, provide them in the Form Portal configuration.
 
-1. Leave other configurations as is and click **Save**.  
+1. Leave other configurations as is and click **[!UICONTROL Save]**.  
 
 1. The database connection can be done via Apache Sling Connection Pooled Data Source.
 1. For Apache Sling connection, find and click to open **[!UICONTROL Apache Sling Connection Pooled DataSource]** in edit mode in the Web Console Configuration. Specify the values for properties as described in the following table:
@@ -156,7 +157,7 @@ Perform the following steps, on all the author and publish instances, to install
    > * Point your author and publish instances to use same database. Value of the JDBC connection URI field must be same for all the author and publish instances.
    >
 
-1. Leave other configurations as is and click **Save**.  
+1. Leave other configurations as is and click **[!UICONTROL Save]**.  
 
 1. If you already have a table in the database schema, skip to the next step.
 
@@ -178,8 +179,7 @@ Perform the following steps, on all the author and publish instances, to install
    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
    ```
 
-   **SQL statement for metadata table  
-   **
+   **SQL statement for metadata table**
 
    ```sql
    CREATE TABLE `metadata` ( 
@@ -220,8 +220,7 @@ Perform the following steps, on all the author and publish instances, to install
    
    ```
 
-   **SQL statement for additionalmetadatatable  
-   **
+   **SQL statement for additionalmetadatatable**
 
    ```sql
    CREATE TABLE `additionalmetadatatable` (
@@ -300,14 +299,14 @@ The sample implementation is now configured, which you can use to list your draf
 
 Perform the following steps,on all the author and publish instances, to install the mysql-connector-java-5.1.39-bin.jar file:
 
-1. Navigate to https://[server]:[port]/system/console/depfinder and search for com.mysql.jdbc package.
+1. Navigate to `https://[server]:[port]/system/console/depfinder` and search for com.mysql.jdbc package.
 1. In the Exported by column, check if the package is exported by any bundle.
 
    Proceed if the package is not exported by any bundle.
 
-1. Navigate to https://[server]:[port]/system/console/bundles and click **Install/Update**.
-1. Click **Choose File** and browse to select the mysql-connector-java-5.1.39-bin.jar file. Also, select **Start Bundle** and **Refresh Packages** checkboxes.
-1. Click **Install or Update**. Once complete, restart the server.
+1. Navigate to `https://[server]:[port]/system/console/bundles` and click **[!UICONTROL Install/Update]**.
+1. Click **[!UICONTROL Choose File]** and browse to select the mysql-connector-java-5.1.39-bin.jar file. Also, select **[!UICONTROL Start Bundle]** and **[!UICONTROL Refresh Packages]** checkboxes.
+1. Click **[!UICONTROL Install or Update]**. Once complete, restart the server.
 1. (*Windows only*) Turn off the system firewall for your operating system.
 
 ## Sample code for forms portal data and metadata service {#sample-code-for-forms-portal-data-and-metadata-service}
@@ -320,14 +319,14 @@ The following zip contains `FormsPortalSampleDataServiceImpl` and `FormsPortalSa
 
 Database implementation of Forms Portal uses additional metadata table. The table has a composite primary key based on Key and id columns of the table. MySQL allows primary keys up to the length of 255 characters. You can use the following client-side validation script to verify the length of filename attached to the file widget. The validation is run when a file is attached. The script provided in the following procedure displays a message, when the filename is larger than 150 (including extension). You can modify the script to check it for a different number of characters.
 
-Perform the following steps to create [a client library](../../sites/developing/using/clientlibs.md) and use the script:
+Perform the following steps to create [a client library](/help/sites-developing/clientlibs.md) and use the script:
 
 1. Log in to CRXDE and navigate to /etc/clientlibs/
 1. Create a node of type **cq:ClientLibraryFolder** and provide name of the node. For example, `validation`.
 
-   Click **Save All**.
+   Click **[!UICONTROL Save All]**.
 
-1. Right-click the node, click **create new file**, and create a file with extension .txt. For example, `js.txt`Add the following code to the newly created .txt file and click **Save All**.
+1. Right-click the node, click **[!UICONTROL create new file]**, and create a file with extension .txt. For example, `js.txt`Add the following code to the newly created .txt file and click **[!UICONTROL Save All]**.
 
    ```
    #base=util 
@@ -336,9 +335,9 @@ Perform the following steps to create [a client library](../../sites/developing/
 
    In the above code, `util` is the name of the folder and `util.js` name of the file in the `util` folder. The `util` folder and `util.js` file are created in suceeeding steps.
 
-1. Right-click the `cq:ClientLibraryFolder` node created in step 2, select Create > Create Folder. Create a folder named `util`. Click **Save All**. Right-click the `util` folder, select Create > Create File. Create a file named `util.js`. Click **Save All**.  
+1. Right-click the `cq:ClientLibraryFolder` node created in step 2, select Create > Create Folder. Create a folder named `util`. Click **[!UICONTROL Save All]**. Right-click the `util` folder, select Create > Create File. Create a file named `util.js`. Click **[!UICONTROL Save All]**.  
 
-1. Add the following code to util.js file and click **Save All**. The code validate length of the file name.
+1. Add the following code to util.js file and click **[!UICONTROL Save All]**. The code validate length of the file name.
 
    ```
    /*
@@ -396,15 +395,15 @@ Perform the following steps to create [a client library](../../sites/developing/
    >
    >The script is for out of the box (OOTB) attachment widget component. If you have customized the OOTB attachment widget then change the above script to incorporate respective changes.
 
-1. Add the following property to the folder created in step 2 and click **Save All**.
+1. Add the following property to the folder created in step 2 and click **[!UICONTROL Save All]**.
 
-    * **Name:** categories
+    * **[!UICONTROL Name:]** categories
 
-    * **Type:** String
+    * **[!UICONTROL Type:]** String
 
-    * **Value:** fp.validation
+    * **[!UICONTROL Value:]** fp.validation
 
-    * **multi option:** Enabled
+    * **[!UICONTROL multi option:]** Enabled
 
 1. Navigate to `/libs/fd/af/runtime/clientlibs/guideRuntime`and append the `fp.validation` value to the **embed **property.  
 
@@ -414,5 +413,5 @@ Perform the following steps to create [a client library](../../sites/developing/
    >
    >If you are using custom client libraries instead of of the guideRuntime and guideRuntimeWithXfa client libraries, use the category name to embed the client library created in this procedure to your custom libraries loaded at runtime.
 
-1. Click **Save All.** Now, when the filename is larger than 150 (including extension) characters a message is displayed.
+1. Click **[!UICONTROL Save All.]** Now, when the filename is larger than 150 (including extension) characters a message is displayed.
 

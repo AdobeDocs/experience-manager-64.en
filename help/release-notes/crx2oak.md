@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: cfdaceac-a5b3-4070-ad4c-f1457b1e2e4b
 ---
 
-# CRX2OAK Migration Tool{#crx-oak-migration-tool}
+# CRX2OAK Migration Tool {#crx-oak-migration-tool}
 
 ## List of Changes and Fixes {#list-of-changes-and-fixes}
 

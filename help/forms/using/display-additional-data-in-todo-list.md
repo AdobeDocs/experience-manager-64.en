@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: b74a0933-2b96-4a88-9995-6fb21df141aa
 ---
 
-# Displaying additional data in ToDo list{#displaying-additional-data-in-todo-list}
+# Displaying additional data in ToDo list {#displaying-additional-data-in-todo-list}
 
 By default, the AEM Forms workspace To-do list displays the task display name and description. However, you can add other information such as creation date, deadline date. You can also add icons and change the style of the display.
 
@@ -22,11 +22,11 @@ This article details the steps to add information to display for each task in th
 
 You can add the information available in `task.json` sent by the server. The information can be added as plain text or you can use styles to format the information.
 
-For more information about the JSON Object description, see [this](../../forms/using/html-workspace-json-object-description.md) article.
+For more information about the JSON Object description, see [this](/help/forms/using/html-workspace-json-object-description.md) article.
 
 ## Displaying information on a task {#displaying-information-on-a-task}
 
-1. Follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md).
+1. Follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 1. To display additional information for a task, the corresponding key-value pairs must be added within the task block of `translation.json`.
 
    For example change `/apps/ws/locales/en-US/translation.json` for English:
@@ -150,4 +150,4 @@ Finally, you need to include an entry in the dev package for each property that 
    
    ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

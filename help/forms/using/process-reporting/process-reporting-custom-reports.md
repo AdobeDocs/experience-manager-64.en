@@ -10,7 +10,7 @@ topic-tags: process-reporting
 discoiquuid: c668bd53-f2d8-4f8c-83f2-be0afd65392a
 ---
 
-# Custom Reports in Process Reporting{#custom-reports-in-process-reporting}
+# Custom Reports in Process Reporting {#custom-reports-in-process-reporting}
 
 You can use REST interface of QueryBuilder or create an OSGi service using QueryBuilder API to create a custom report.
 
@@ -18,7 +18,7 @@ You can use REST interface of QueryBuilder or create an OSGi service using Query
 
 Before adding any custom report, perform the following template procedure:
 
-1. Data used in custom reports must be available in Process Reporting. To ensure the availability of data, schedule a cron job or use ** [Sync](https://helpx.adobe.com/livecycle/help/process-reporting/install-start-process-reporting.html#Process%20Reporting%20Home%20screen)** option on the Process Reporting UI.
+1. Data used in custom reports must be available in Process Reporting. To ensure the availability of data, schedule a cron job or use **[Sync](https://helpx.adobe.com/livecycle/help/process-reporting/install-start-process-reporting.html#Process%20Reporting%20Home%20screen)** option on the Process Reporting UI.
 1. The URL request (encapsulating the desired query) must return an appropriate query result object. To create a query, you can use REST interface of [QueryBuilder](https://docs.adobe.com/docs/en/cq/current/dam/customizing_and_extendingcq5dam/query_builder.html) to create an OSGi service using QueryBuilder API. You can create dynamic or static queries.  
 
 1. Create a custom user interface to display the results. You can create a stand-alone user interface or integrate result with existing Process Reporting UI.
@@ -27,7 +27,7 @@ Before adding any custom report, perform the following template procedure:
 
 CRX QueryBuilder REST interface exposes the functionality of the Asset Share Query Builder through a Java API and a REST API. Learn how to use [CRX QueryBuilder REST interface](https://docs.adobe.com/docs/en/cq/current/dam/customizing_and_extendingcq5dam/query_builder.html), before performing the following steps:
 
-1. Browse to the URL https://[server]:[port]/lc/bin/querybuilder.json  
+1. Browse to the URL `https://[server]:[port]/lc/bin/querybuilder.json`
 
 1. Create a query based on the Process Reporting storage node structure and node properties.
 
@@ -470,14 +470,14 @@ response.setCharacterEncoding("utf-8");
                     processName = "All";
                 }
             %>
-            var lineSeprator = "<td class='seprator'>----------------</td>";
+            var lineSeprator = "<td>----------------</td>";
             var tableEnder = "<tr>" + lineSeprator + lineSeprator + lineSeprator + "</tr>";
  
-            var tableColHeader = "<td class='colHead colNum'>Running</td>";
-            tableColHeader += "<td class='colHead  colNum'>Complete</td></tr>";
+            var tableColHeader = "<td>Running</td>";
+            tableColHeader += "<td>Complete</td></tr>";
             tableColHeader += tableEnder;
  
-            var monthly = "<table><tr><td class='colHead colStr'>Month</td>";
+            var monthly = "<table><tr><td>Month</td>";
             monthly += tableColHeader;
  
             <%
@@ -487,16 +487,16 @@ response.setCharacterEncoding("utf-8");
                     Long[] frequencies = monthlyMap.get(key);
             %>
  
-            monthly += "<tr><td class='colStr'> <%= key %> </td>";
-            monthly += "<td class='colNum'> <%= frequencies[0] %> </td>";
-            monthly += "<td class='colNum'> <%= frequencies[1] %> </td></tr>";
+            monthly += "<tr><td> <%= key %> </td>";
+            monthly += "<td> <%= frequencies[0] %> </td>";
+            monthly += "<td> <%= frequencies[1] %> </td></tr>";
             <%
                 }
             %>
  
             monthly += tableEnder;
  
-            var quaterly = "<table><tr><td class='colHead colStr'>Quater</td>";
+            var quaterly = "<table><tr><td>Quater</td>";
             quaterly += tableColHeader;
  
             <%
@@ -506,16 +506,16 @@ response.setCharacterEncoding("utf-8");
                     Long[] frequencies = quaterMap.get(key);
             %>
  
-            quaterly += "<tr><td class='colStr'> <%= key %> </td>";
-            quaterly += "<td class='colNum'> <%= frequencies[0] %> </td>";
-            quaterly += "<td class='colNum'> <%= frequencies[1] %> </td></tr>";
+            quaterly += "<tr><td> <%= key %> </td>";
+            quaterly += "<td> <%= frequencies[0] %> </td>";
+            quaterly += "<td> <%= frequencies[1] %> </td></tr>";
             <%
                 }
             %>
  
             quaterly += tableEnder;
  
-            var yearly = "<table><tr><td class='colHead colStr'>Year</td>";
+            var yearly = "<table><tr><td>Year</td>";
             yearly += tableColHeader;
  
             <%
@@ -525,9 +525,9 @@ response.setCharacterEncoding("utf-8");
                     Long[] frequencies = yearMap.get(key);
             %>
  
-            yearly += "<tr><td class='colStr'> <%= key %> </td>";
-            yearly += "<td class='colNum'> <%= frequencies[0] %> </td>";
-            yearly += "<td class='colNum'> <%= frequencies[1] %> </td></tr>";
+            yearly += "<tr><td> <%= key %> </td>";
+            yearly += "<td> <%= frequencies[0] %> </td>";
+            yearly += "<td> <%= frequencies[1] %> </td></tr>";
             <%
                 }
             %>
@@ -632,12 +632,11 @@ The prerequisites to creating a separate UI for displaying results are [Sling Ba
 1. Create a separate UI as described in [Creating a separate UI](#creating-a-separate-ui-nbsp) section.
 1. Create a child `nt:unstructured` node at the `/content/process-reporting-runtime/custom-reports` node for every pluggable report.
 
-    * **id **- Specifies unique identification number of the report.
-    * **name **- Specifies the name of the report. The name is displayed in the UI.
-    * **link **- Specifies relative link to the renderer of the separate UI. The link is created Step 1.
-    * **description **- Specifies the one line description the report. You can leave the description field empty.  
-    
-    * **icon **- Specifies the image to pictorially represent the report. You can leave the icon field empty.
+    * **id**- Specifies unique identification number of the report.
+    * **name**- Specifies the name of the report. The name is displayed in the UI.
+    * **link**- Specifies relative link to the renderer of the separate UI. The link is created Step 1.
+    * **description**- Specifies the one line description the report. You can leave the description field empty. 
+    * **icon**- Specifies the image to pictorially represent the report. You can leave the icon field empty.
 
    ![Properties of node ](assets/nodeproperties.png)
 
@@ -658,4 +657,5 @@ The prerequisites to creating a separate UI for displaying results are [Sling Ba
 Import the `sample-report-pkg-1.zip` package to integrate custom reports and UI discussed in the article to the Process management UI.
 
 [Get File](assets/sample-report-pkg-1.zip)
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

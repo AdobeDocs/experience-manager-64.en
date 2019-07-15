@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 2a8f4380-8d0f-4354-b2da-4e0c02a545e3
 ---
 
-# Create new folders to categorize forms{#create-new-folders-to-categorize-forms}
+# Create new folders to categorize forms {#create-new-folders-to-categorize-forms}
 
 You can organize your assets better using folders. Since AEM Forms supports several types of assets—form templates, PDFs, documents, resources, and adaptive forms, with various metadata—you can use folders to categorize your forms based on the desired criteria.
 
@@ -20,15 +20,13 @@ AEM Forms lets you change the title of a folder. The title is not the same as th
 
 You can create a folder in AEM Forms in one of the following ways:
 
-* Upload a ZIP file containing assets in the desired folder structure (See, [Getting XDP and PDF documents in AEM Forms](../../forms/using/get-xdp-pdf-documents-aem.md))  
+* Upload a ZIP file containing assets in the desired folder structure (See, [Getting XDP and PDF documents in AEM Forms](/help/forms/using/get-xdp-pdf-documents-aem.md))  
 
 * Create a new empty folder
 
-1. Log in to the AEM Forms user interface at `https://<server>:<port>/aem/forms.html`.  
-   ``
+1. Log in to the AEM Forms user interface at `https://<server>:<port>/aem/forms.html`. 
 1. Navigate to the location under which you want to create a folder.  
-
-1. Click the ![](assets/aem6forms_add.png) icon in the toolbar and then select **[!UICONTROL Create Folder]**.  
+1. Click the ![aem6forms_add](assets/aem6forms_add.png) icon in the toolbar and then select **[!UICONTROL Create Folder]**.  
 
 1. Enter the following details:
 
@@ -39,18 +37,16 @@ You can create a folder in AEM Forms in one of the following ways:
    >
    >By default, the value of name field is automatically populated from the title. The name can only contain alphanumeric characters, or the hyphen (-) and underscore (_) special characters. Any other special characters entered in the title are automatically replaced with a hyphen and you are prompted to confirm the new name. You can choose to continue with suggested name or edit it further.
 
-1. Click **[!UICONTROL Submit]****.**
+1. Click **[!UICONTROL Submit].**
 
    A new folder with the title you defined is displayed at the current location in the asset listing.
 
-   If a folder exists with the name specified, the submission fails with an error. You can view the error message by hovering over the error ![](assets/aem6forms_error_alert.png) icon that appears beside the name field.
+   If a folder exists with the name specified, the submission fails with an error. You can view the error message by hovering over the error ![aem6forms_error_alert](assets/aem6forms_error_alert.png) icon that appears beside the name field.
 
-### Edit the folder title <br> {#edit-the-folder-title-br}
+### Edit the folder title {#edit-the-folder-title-br}
 
 1. Select the folder whose title you want to edit.
-1. Click the edit ![](assets/aem6forms_edit.png) icon in the toolbar.  
-
-1. Enter the new title. The text field is prepopulated with the current value of folder title. You can change it to a new value.  
-
-1. Click **[!UICONTROL Submit]****.**
+1. Click the edit ![aem6forms_edit](assets/aem6forms_edit.png) icon in the toolbar.  
+1. Enter the new title. The text field is prepopulated with the current value of folder title. You can change it to a new value. 
+1. Click **[!UICONTROL Submit].**
 

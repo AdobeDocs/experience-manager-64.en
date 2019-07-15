@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: e4ca8188-fb9a-44bf-8437-a98abaa7521a
 ---
 
-# Changing the locale of AEM Forms workspace user interface{#changing-the-locale-of-aem-forms-workspace-user-interface}
+# Changing the locale of AEM Forms workspace user interface {#changing-the-locale-of-aem-forms-workspace-user-interface}
 
 AEM Forms workspace provides out of the box support for English, French, German, and Japanese languages. It also provides capability to localize AEM Forms workspace user interface to any other language.
 
@@ -21,29 +21,31 @@ To localize AEM Forms workspace user interface to language of your choice:
 * Localize collapsed categories, queues, and processes.
 * Localize Date Picker
 
-Before performing above steps, ensure that you follow the steps listed at [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md).
+Before performing above steps, ensure that you follow the steps listed at [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 
 >[!NOTE]
 >
->To change the language of the login screen of AEM Forms workspace, see [Creating a new login screen](../../forms/using/creating-new-login-screen.md).
+>To change the language of the login screen of AEM Forms workspace, see [Creating a new login screen](/help/forms/using/creating-new-login-screen.md).
 
 ## Localizing text {#localizing-text}
 
 Perform the following steps to add support for a language *New* and the browser locale code *nw*.
 
-1. Log in to CRXDE Lite.  
+1. Log in to CRXDE Lite. 
+
    The default URL of CRXDE Lite is `https://[server]:[port]/lc/crx/de/index.jsp`.
+
 1. Navigate to the location `apps/ws/locales` and create a new folder `nw.`
-1. Copy the file `translation.json`from the location `/apps/ws/locales/en-US` to location `/apps/ws/locales/nw` .
+1. Copy the file `translation.json`from the location `/apps/ws/locales/en-US` to location `/apps/ws/locales/nw`.
 1. Navigate to `/apps/ws/locales/nw` and open `translation.json` for editing. Make locale-specific changes to the translation.json file.
 
    The following examples contain the translation.json file for English and French locales of AEM Forms workspace.
 
-   ![](assets/translation_json_in_en.png) ![](assets/translation_json_in_fr.png)
+   ![translation_json_in_en](assets/translation_json_in_en.png) ![translation_json_in_fr](assets/translation_json_in_fr.png)
 
 ## Localizing collapsed categories, queues, and processes {#localizing-collapsed-categories-queues-and-processes}
 
-AEM Forms workspace uses images to display headers of categories, queues, and processes. You require development package to localize these headers. For detailed information about creating development package, see [Building AEM Forms workspace code.](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
+AEM Forms workspace uses images to display headers of categories, queues, and processes. You require development package to localize these headers. For detailed information about creating development package, see [Building AEM Forms workspace code.](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
 
 In the following steps, it is assumed that the new localized image files are *Categories_nw.png*, *Queue_nw.png*, and *Processes_nw.png*. The recommended width of the images is 19px.
 
@@ -51,12 +53,12 @@ In the following steps, it is assumed that the new localized image files are *Ca
 >
 >To find the browser language locale code of your browser. Open `https://[server]:[port]/lc/libs/ws/Locale.html`.
 
-![](assets/collapsing_panels_image.png)
+![collapsing_panels_image](assets/collapsing_panels_image.png)
 
 Perform the following steps to localize the images:
 
 1. Using a WebDAV client, place the image files in the */apps/ws/images* folder.
-1. Navigate to* /apps/ws/css*. Open *newStyle.css* for editing and add the following entries:
+1. Navigate to */apps/ws/css*. Open *newStyle.css* for editing and add the following entries:
 
    ```
    #categoryListBar .content.nw {
@@ -72,7 +74,7 @@ Perform the following steps to localize the images:
    }
    ```
 
-1. Perform all the semantic changes listed in the [Workspace Customization](../../forms/using/introduction-customizing-html-workspace.md) article.
+1. Perform all the semantic changes listed in the [Workspace Customization](/help/forms/using/introduction-customizing-html-workspace.md) article.
 1. Navigate to the *js/runtime/utility* folder and open the* usersession.js* file for editing.
 1. Locate the code listed in orignal code block and add condition *lang !== 'nw'* to the if statement:
 
@@ -103,7 +105,7 @@ Perform the following steps to localize the images:
 
 ## Localizing Date Picker {#localizing-date-picker}
 
-You require development package to localize the *datepicker *API. For detailed information about creating development package, see [Building AEM Forms workspace code](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3).
+You require development package to localize the *datepicker *API. For detailed information about creating development package, see [Building AEM Forms workspace code](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3).
 
 1. Download and extract the [jQuery UI Package](https://jqueryui.com/download/all/), navigate to *&lt;extracted jquery UI package&gt;*\jquery-ui-1.10.2.zip\jquery-ui-1.10.2\ui\i18n.
 1. Copy the jquery.ui.datepicker-nw.js file for locale code nw to apps/ws/js/libs/jqueryui and make locale specific changes to the file. 
@@ -191,4 +193,4 @@ You require development package to localize the *datepicker *API. For detailed i
    }
    ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

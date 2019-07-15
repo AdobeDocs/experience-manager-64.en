@@ -8,7 +8,7 @@ topic-tags: Security
 discoiquuid: b1bd04bf-0d6d-4e6b-8c7c-eafd1a24b5fe
 ---
 
-# Hardening and Securing AEM forms on OSGi environment{#hardening-and-securing-aem-forms-on-osgi-environment}
+# Hardening and Securing AEM forms on OSGi environment {#hardening-and-securing-aem-forms-on-osgi-environment}
 
 Learn recommendations and best practices for securing AEM Forms on OSGi server.
 
@@ -23,7 +23,7 @@ The article is intended for consultants, security specialists, systems architect
 
 The following image displays components and protocols that are used in a typical AEM Forms deployment, including the appropriate firewall topology:
 
-![](assets/typical-architecture.png)
+![typical-architecture](assets/typical-architecture.png)
 
 AEM Forms is highly customizable and can work in many different environments. Some of the recommendations might not be applicable to your organization.
 
@@ -42,7 +42,7 @@ You can configure an external firewall to allow a certain AEM Forms URLs to acce
 <table> 
  <tbody>
   <tr>
-   <td width="50%">Component</td> 
+   <td>Component</td> 
    <td>URI</td> 
   </tr>
   <tr>
@@ -96,7 +96,7 @@ You can configure the internal firewall to allow certain AEM Forms components (F
 <table> 
  <tbody>
   <tr>
-   <td width="50%">Host<br /> </td> 
+   <td>Host<br /> </td> 
    <td>URI</td> 
   </tr>
   <tr>
@@ -118,9 +118,9 @@ You can configure the internal firewall to allow certain AEM Forms components (F
 
 By default, assets available on the publish nodes are accessible to everyone. Read-only access is enabled for all the assets. It is required to enable anonymous access. If you plan to restrict form view and submit access only to authenticated users, then use a common group to allow only authenticated users to have read-only access to the assets available on the publish nodes. The following locations/directories contain forms assets which require hardening (read only access for authenticated users):
 
-* /content/&#42;
-* /etc.clientlibs/fd/&#42;
-* /libs/fd/&#42;
+* /content/&ast;
+* /etc.clientlibs/fd/&ast;
+* /libs/fd/&ast;
 
 ## Securely handle forms data  {#securely-handle-forms-data}
 
@@ -138,7 +138,7 @@ By default, forms portal submit action of adaptive forms saves data in the local
 
 You can configure the storage service to send over-the-wire to the processing cluster without saving anything locally on the publish node. The processing cluster resides in a secure zone behind the private firewall and data remains safe.
 
-Use the credentials of processing server for AEM DS settings service to post data from the publish node to the processing server. It is recommended to use credentials of a restricted non-administrative user with read-write access to repository of processing server. For more information, see [Configuring storage services for drafts and submissions](../../forms/using/configuring-draft-submission-storage.md).
+Use the credentials of processing server for AEM DS settings service to post data from the publish node to the processing server. It is recommended to use credentials of a restricted non-administrative user with read-write access to repository of processing server. For more information, see [Configuring storage services for drafts and submissions](/help/forms/using/configuring-draft-submission-storage.md).
 
 ### Secure data handled by form data model (FDM) {#secure-data-handled-by-form-data-model-fdm}
 
@@ -191,4 +191,4 @@ A processing cluster runs in the author mode but do not use it for development a
 
 ### USE AEM best practices to secure an AEM Forms environment {#use-aem-best-practices-to-secure-an-aem-forms-environment}
 
-This document provide instructions specific to AEM Forms environment. You should take to ensure that your underlying AEM installation is secure when deployed. For detailed instructions, see [AEM Security Checklist](../../sites/administering/using/security-checklist.md) documentation.****
+This document provide instructions specific to AEM Forms environment. You should take to ensure that your underlying AEM installation is secure when deployed. For detailed instructions, see [AEM Security Checklist](/help/sites-administering/security-checklist.md) documentation.

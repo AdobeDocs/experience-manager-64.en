@@ -10,13 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d433956c-bffa-493d-be8a-a4091b27314d
 ---
 
-# DO NOT PUBLISH - Submitting and storing content in JCR repository{#do-not-publish-submitting-and-storing-content-in-jcr-repository}
+# DO NOT PUBLISH - Submitting and storing content in JCR repository {#do-not-publish-submitting-and-storing-content-in-jcr-repository}
 
 Adaptive forms provides several out-of-the-box submit actions for submitting form data to different endpoints or workflows. This article discusses how you can use the Store content (deprecated) submit action to store form data in JCR repository. Also, it discusses how Store PDF (deprecated) submit action works.
 
 >[!NOTE]
 >
->In a production environment, it is recommended not to store submitted form data in AEM repository. Submit actions such as Store Content (deprecated), Store PDF (deprecated), and Forms Portal store form data in AEM repository. These submit actions are meant only for demonstration purposes. Instead in a production environment, you must write a custom submit action that stores forms data in a more secure storage like your enterprise database. For more information, see [Writing custom Submit action for adaptive forms](../../../forms/using/custom-submit-action-form.md).
+>In a production environment, it is recommended not to store submitted form data in AEM repository. Submit actions such as Store Content (deprecated), Store PDF (deprecated), and Forms Portal store form data in AEM repository. These submit actions are meant only for demonstration purposes. Instead in a production environment, you must write a custom submit action that stores forms data in a more secure storage like your enterprise database. For more information, see [Writing custom Submit action for adaptive forms](/help/forms/using/custom-submit-action-form.md).
 
 ## Storing content in the JCR repository {#storing-content-in-the-jcr-repository}
 
@@ -28,11 +28,11 @@ Once the data is stored, the user is redirected to the configured Thank you page
 
 ![Node Structure of submitted form data ](assets/crxstorewithfa.png)
 
-Node Structure of submitted form data 
+**Figure:** *Node Structure of submitted form data* 
 
 ![Properties of the node created for form submission](assets/crxsubmitprop.png)
 
-Node Properties
+**Figure:** *Node Properties*
 
 ### Configuring store content path {#configuring-store-content-path}
 
@@ -40,7 +40,7 @@ The Store content (deprecated) submit action requires you to configure the store
 
 ![Configuration for Store content path submit action](assets/path1.png)
 
-Configuration for Store content path submit action
+**Figure:** *Configuration for Store content path submit action*
 
 #### Specifications of store content path {#specifications-of-store-content-path}
 
@@ -55,11 +55,11 @@ Consider the following when configuring the store content path:
 
 ![Store path node configured for store content submit action](assets/slingfolder.png)
 
-Store path node
+**Figure:** *Store path node*
 
 ![ACL for store path node configured for store content submit action](assets/access.png)
 
-ACL for store path node
+**Figure:** *ACL for store path node*
 
 >[!NOTE]
 >

@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6ebb6420-68b6-4abc-b298-c252db038416
 ---
 
-# Configuring storage services for drafts and submissions{#configuring-storage-services-for-drafts-and-submissions}
+# Configuring storage services for drafts and submissions {#configuring-storage-services-for-drafts-and-submissions}
 
 ## Overview {#overview}
 
@@ -30,7 +30,7 @@ In addition to above mentioned default approach, an alternative implementation i
 >
 >When you use the Forms Portal submit action or enable the Store data in forms portal option in adaptive form, the form data is stored in AEM repository. In a production environment, it is recommended not to store draft or submitted form data in AEM repository. Instead, you must integrate the drafts and submission component with a secure storage like enterprise database to store drafts and submitted forms data. 
 >
->For more information, see [Sample for integrating drafts & submissions component with database](../../forms/using/integrate-draft-submission-database.md).
+>For more information, see [Sample for integrating drafts & submissions component with database](/help/forms/using/integrate-draft-submission-database.md).
 
 ## Configuring Forms Portal drafts and submissions services {#configuring-forms-portal-drafts-and-submissions-services}
 
@@ -43,9 +43,6 @@ Specify the values for properties based on your requirements as described below:
 Data is reverse replicated to configured author instance.
 
 <table> 
- <tbody>
-  <tr></tr>
- </tbody>
  <tbody>
   <tr>
    <th>Property</th> 
@@ -76,9 +73,6 @@ Data is pushed directly to configured remote instance
 
 <table> 
  <tbody>
-  <tr></tr>
- </tbody>
- <tbody>
   <tr>
    <th>Property</th> 
    <th>Value</th> 
@@ -108,5 +102,5 @@ In the AEM Web Console Configuration ( `https://[*host*]:[*port*]/system/console
 
 >[!NOTE]
 >
->A sample implementation is also provided for storing user data in a database. To understand how to configure data and metadata services to store user data in an external database, see [Sample for integrating drafts & submissions component with database](../../forms/using/integrate-draft-submission-database.md).
+>A sample implementation is also provided for storing user data in a database. To understand how to configure data and metadata services to store user data in an external database, see [Sample for integrating drafts & submissions component with database](/help/forms/using/integrate-draft-submission-database.md).
 

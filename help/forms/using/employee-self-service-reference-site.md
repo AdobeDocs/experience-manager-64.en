@@ -9,11 +9,11 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d2695f71-5126-477c-ae6b-a964fb55728b
 ---
 
-# Employee self-service reference site walkthrough{#employee-self-service-reference-site-walkthrough}
+# Employee self-service reference site walkthrough {#employee-self-service-reference-site-walkthrough}
 
 ## Prerequisite {#prerequisite}
 
-Set up the reference sites as described in [Set up and configure AEM Forms reference sites](../../forms/using/setup-reference-sites.md).
+Set up the reference sites as described in [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).
 
 ## Overview {#overview}
 
@@ -35,19 +35,17 @@ The Compliance department at Sarah's organization has asked employees to submit 
 
 Sarah goes to her organization's portal, logs in, and clicks Employee to access the employee dashboard. She finds Conflict of Interest questionnaire on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
-![](assets/we-finance-home.png)
+![we-finance-home](assets/we-finance-home.png)
+**Figure:** *Organization portal*
 
-Organization portal
-
-![](assets/employee-dashboard.png)
-
-Employee dashboard
+![employee-dashboard](assets/employee-dashboard.png)
+**Figure:** *Employee dashboard*
 
 Sarah navigates the form using the Next button and reads through the Introduction and Definition sections. She responds to the questions in the Questions section. Finally, she signs and submits the questionnaire.
 
 The organization portal and questionnaire are responsive and mobile-friendly. The following workflow shows how Sarah navigates through and submits the questionnaire on her mobile device.
 
-![](assets/conflict-form-on-mobile.png)
+![conflict-form-on-mobile](assets/conflict-form-on-mobile.png)
 
 **How it works**
 
@@ -63,19 +61,17 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/self-ser
 
 The Conflict of Interest questionnaire submitted by Sarah is assigned to Gloria Rios for review. Gloria works as a Compliance Officer in the organization. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the questionnaire submitted by Sarah and completes the task.
 
-![](assets/conflict-inbox.png)
+![conflict-inbox](assets/conflict-inbox.png)
+**Figure:** *Gloria's inbox*
 
-Gloria's inbox
-
-![](assets/conflict-approved.png)
-
-Open task
+![conflict-approved](assets/conflict-approved.png)
+**Figure:** *Open task*
 
 **How it works**
 
 The submit action in the Conflict of Interest questionnaire triggers a workflow that creates a task in Gloria's inbox for approval. Review the Forms Workflow at `https://[authorHost]:[authorPort]/editor.html/conf/global/settings/workflow/models/we-finance/employee/self-service/we-finance-employee-conflict-of-interest.html`
 
-![](assets/employee-self-service-reference-site.png)
+![employee-self-service-reference-site](assets/employee-self-service-reference-site.png)
 
 **See it yourself**
 
@@ -89,17 +85,15 @@ Sarah travels a lot for business and requires a corporate credit card to pay her
 
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds Corporate Card application on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
-![](assets/we-finance-home-1.png)
+![we-finance-home-1](assets/we-finance-home-1.png)
+**Figure:** *Organization portal*
 
-Organization portal
-
-![](assets/employee-dashboard-1.png)
-
-Employee dashboard
+![employee-dashboard-1](assets/employee-dashboard-1.png)
+**Figure:** *Employee dashboard*
 
 She clicks **[!UICONTROL Apply]** on the Corporate Card application. A single-page application opens. She fills all the details and clicks **[!UICONTROL Apply]** to submit the application.
 
-![](assets/card-form.png)
+![card-form](assets/card-form.png)
 
 **How it works**
 
@@ -116,19 +110,17 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/self-ser
 
 The Corporate Card application submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 
-![](assets/corporate-card-inbox.png)
+![corporate-card-inbox](assets/corporate-card-inbox.png)
+**Figure:** *Gloria's inbox*
 
-Gloria's inbox
-
-![](assets/corporate-card-approved.png)
-
-Open task
+![corporate-card-approved](assets/corporate-card-approved.png)
+**Figure:** *Open task*
 
 **How it works**
 
 The submission workflow in the Corporate Card application triggers a Forms workflow that creates a task in Gloria's inbox for approval. Review the Forms Workflow at `https://[authorHost]:[authorPort]/editor.html/conf/global/settings/workflow/models/we-finance/employee/self-service/we-finance-employee-corporate-card.html`
 
-![](assets/corporate-card-workflow-model.png)
+![corporate-card-workflow-model](assets/corporate-card-workflow-model.png)
 
 **See it yourself**
 
@@ -142,19 +134,17 @@ As Sarah spends during business travels, she needs to submit expense reports for
 
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds Expense Report application on the employee dashboard and clicks **[!UICONTROL Apply]**. 
 
-![](assets/we-finance-home-2.png)
+![we-finance-home-2](assets/we-finance-home-2.png)
+**Figure:** *Organization portal*
 
-Organization portal
-
-![](assets/employee-dashboard-2.png)
-
-Employee dashboard
+![employee-dashboard-2](assets/employee-dashboard-2.png)
+**Figure:** *Employee dashboard*
 
 She clicks **[!UICONTROL Apply]** on the Expense Report application. An application form opens, which has two tabs - Report Name and Report Details. The **+** icon in the Report Details tab allows her to add more than expenditures in one report.
 
 The organization portal and applications are responsive and mobile-friendly. The following workflow shows how Sarah navigates through and submits the expense report on her mobile device.
 
-![](assets/expense-report-on-mobile.png)
+![expense-report-on-mobile](assets/expense-report-on-mobile.png)
 
 **How it works**
 
@@ -170,19 +160,17 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/self-ser
 
 The expense report submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 
-![](assets/expense-report-inbox.png)
+![expense-report-inbox](assets/expense-report-inbox.png)
+**Figure:** *Gloria's inbox*
 
-Gloria's inbox
-
-![](assets/expense-report-approved.png)
-
-Open task
+![expense-report-approved](assets/expense-report-approved.png)
+**Figure:** *Open task*
 
 **How it works**
 
 The submission workflow in the Expense Report application triggers a Forms workflow that creates a task in Gloria's inbox for approval. Review the Forms Workflow at `https://[authorHost]:[authorPort]/editor.html/conf/global/settings/workflow/models/we-finance/employee/self-service/we-finance-employee-expense-report-workflow.html`
 
-![](assets/corporate-card-expense-report-workflow-model.png)
+![corporate-card-expense-report-workflow-model](assets/corporate-card-expense-report-workflow-model.png)
 
 **See it yourself**
 
@@ -196,19 +184,17 @@ Sarah is planning a family vacation next month and wants to apply for a week's l
 
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds leave application on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
-![](assets/we-finance-home-3.png)
+![we-finance-home-3](assets/we-finance-home-3.png)
+**Figure:** *Organization portal*
 
-Organization portal
-
-![](assets/employee-dashboard-3.png)
-
-Employee dashboard
+![employee-dashboard-3](assets/employee-dashboard-3.png)
+**Figure:** *Employee dashboard*
 
 The leave application opens with Sarah's name and employee ID prefilled in the form. It also displays her leave balance and history. She fills in the leave details and submits the application for approval.
 
 The organization portal and applications are responsive and mobile-friendly. The following workflow shows how Sarah navigates through and submits the application on her mobile device.
 
-![](assets/leave-form-on-mobile.png)
+![leave-form-on-mobile](assets/leave-form-on-mobile.png)
 
 **How it works**
 
@@ -230,19 +216,17 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/self-ser
 
 The leave application submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 
-![](assets/leave-inbox.png)
+![leave-inbox](assets/leave-inbox.png)
+**Figure:** *Gloria's inbox*
 
-Gloria's inbox
-
-![](assets/leave-approved.png)
-
-Open task
+![leave-approved](assets/leave-approved.png)
+**Figure:** *Open task*
 
 **How it works**
 
 The submission workflow in the leave application triggers a Forms workflow that creates a task in Gloria's inbox for approval. Review the Forms Workflow at `https://[authorHost]:[authorPort]/editor.html/conf/global/settings/workflow/models/we-finance/employee/self-service/we-finance-employee-leave-application.html`
 
-![](assets/corporate-card-leave-application-workflow-model.png)
+![corporate-card-leave-application-workflow-model](assets/corporate-card-leave-application-workflow-model.png)
 
 **See it yourself**
 

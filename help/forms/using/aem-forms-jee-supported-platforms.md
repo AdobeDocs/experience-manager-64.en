@@ -10,7 +10,7 @@ geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 1b9f8d98-e7e8-4b9b-a0df-52ccba324da3
 ---
 
-# Supported Platforms for AEM Forms on JEE{#supported-platforms-for-aem-forms-on-jee}
+# Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
 
 ## Supported Platforms {#supported-platforms}
 
@@ -22,7 +22,7 @@ This document lists the supported client and server platforms for AEM Forms on J
 
 >[!NOTE]
 >
->* For a complete list of exceptions to supported server platforms, see [Exceptions to supported server platforms](../../forms/using/aem-forms-jee-supported-platforms.md#p-exceptions-to-supported-server-platforms-p).
+>* For a complete list of exceptions to supported server platforms, see [Exceptions to supported server platforms](/help/forms/using/aem-forms-jee-supported-platforms.md#p-exceptions-to-supported-server-platforms-p).
 >* AEM Forms on JEE supports only English, French, German, and Japanese versions of the supported operating systems and applications.
 >
 
@@ -187,22 +187,22 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
   <tr> 
    <td>MySQL</td> 
    <td><p>MySQL Connector/J 5.7</p> <p>mysql-connector-java-5.1.30-bin.jar(version 5.1.30)</p> </td> 
-   <td valign="top"><p>Supplied with AEM Forms on JEE installation</p> </td> 
+   <td><p>Supplied with AEM Forms on JEE installation</p> </td> 
   </tr> 
   <tr> 
    <td>Microsoft SQL Server<br /> </td> 
    <td><p>Microsoft® SQL Server JDBC driver 6.2.1.0<br /> </p> <p>sqljdbc6.jar</p> </td> 
-   <td valign="top"><p>Supplied with AEM Forms on JEE installation.</p> </td> 
+   <td><p>Supplied with AEM Forms on JEE installation.</p> </td> 
   </tr> 
   <tr> 
    <td>Oracle</td> 
    <td><p>Oracle Database 12.1.0.2.0 JDBC driver</p> <p>ojdbc7.jar (version 12.1.0.2.0)<br /> </p> </td> 
-   <td valign="top"><p>Supplied with AEM Forms on JEE installation.</p> </td> 
+   <td><p>Supplied with AEM Forms on JEE installation.</p> </td> 
   </tr> 
   <tr> 
    <td>IBM DB2</td> 
    <td><p>IBM® DB2 Universal JDBC driver 4.16.53 (db2jcc4.jar)</p> </td> 
-   <td valign="top"><p>Download the driver from <a href="https://www-01.ibm.com/support/docview.wss?uid=swg21363866" target="_blank">IBM Website</a></p> </td> 
+   <td><p>Download the driver from <a href="https://www-01.ibm.com/support/docview.wss?uid=swg21363866" target="_blank">IBM Website</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,14 +212,14 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="25%"><p><strong> Platform</strong></p> </td> 
-   <td valign="top" width="25%"><p><strong>Support Level</strong></p> </td> 
-   <td valign="top" width="25%"><p><strong>Supported Patch Definitions</strong></p> </td> 
+   <td><p><strong> Platform</strong></p> </td> 
+   <td><p><strong>Support Level</strong></p> </td> 
+   <td><p><strong>Supported Patch Definitions</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Oracle WebLogic Server 12.2.1 (12c R2) <sup>[1] [2] [4] [8]</sup></p> </td> 
-   <td valign="top"><p>A: Supported</p> </td> 
-   <td valign="top" width="401"><p>Service pack and critical updates</p> </td> 
+   <td><p>Oracle WebLogic Server 12.2.1 (12c R2) <sup>[1] [2] [4] [8]</sup></p> </td> 
+   <td><p>A: Supported</p> </td> 
+   <td><p>Service pack and critical updates</p> </td> 
   </tr> 
   <tr> 
    <td>IBM® WebSphere® Application Server 9.0 <sup>[2] [6]</sup><br /> </td> 
@@ -227,9 +227,9 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
    <td>Service pack and critical updates</td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>JBoss® Enterprise Application Platform (EAP) 7.0.6 <sup>[1] [4] [5] [7] [8][11]</sup></p> </td> 
-   <td valign="top"><p>A: Supported</p> </td> 
-   <td valign="top" width="401"><p>Patches and cumulative patches for the supported EAP version<br /> </p> </td> 
+   <td><p>JBoss® Enterprise Application Platform (EAP) 7.0.6 <sup>[1] [4] [5] [7] [8][11]</sup></p> </td> 
+   <td><p>A: Supported</p> </td> 
+   <td><p>Patches and cumulative patches for the supported EAP version<br /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -246,7 +246,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
  <tbody> 
   <tr> 
    <th><p><strong> Platform</strong></p> </th> 
-   <th width="30%"><p><strong>Support level</strong></p> </th> 
+   <th><p><strong>Support level</strong></p> </th> 
    <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
@@ -267,12 +267,12 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
   <tr> 
    <td><p>Red Hat Enterprise Linux 7 (Kernel 3.x)</p> </td> 
    <td><p>A: Supported</p> </td> 
-   <td valign="top"><p>Minor releases, cumulative updates, and critical updates</p> </td> 
+   <td><p>Minor releases, cumulative updates, and critical updates</p> </td> 
   </tr> 
   <tr> 
    <td><p>SUSE® Linux® Enterprise Server 12</p> </td> 
    <td><p>A: Supported</p> </td> 
-   <td valign="top"><p>Service packs, cumulative patches, and critical security updates</p> </td> 
+   <td><p>Service packs, cumulative patches, and critical security updates</p> </td> 
   </tr> 
   <tr> 
    <td>Oracle Linux® 7 Update 3</td> 
@@ -305,14 +305,14 @@ You can run AEM Forms on JEE on a physical machine or a virtual environment. How
 <table> 
  <tbody> 
   <tr> 
-   <th width="40%"><p><strong>Platform (Base Version)</strong></p> </th> 
+   <th><p><strong>Platform (Base Version)</strong></p> </th> 
    <th>Support Level</th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
-   <td width="40%"><p>Microsoft® Windows® 10</p> </td> 
+   <td><p>Microsoft® Windows® 10</p> </td> 
    <td>E: Expected to work</td> 
-   <td valign="middle" width="40%"><p>Service pack and critical updates</p> </td> 
+   <td><p>Service pack and critical updates</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -334,7 +334,7 @@ Consider the following exceptions while choosing a platform to set up your AEM F
 1. AEM Forms on JEE doesn’t support any JDK with JBoss® other than Oracle Java™ SE.
 1. AEM Forms on JEE doesn’t support any JDK with IBM® WebSphere® other than IBM® JDK.
 1. AEM Forms on JEE doesn’t support IBM® DB2 with JBoss®.
-1. CRX-repository supports persistence of type TarMK, MongoDB, and relational databases (RDBMK). You cannot have 2 different database systems between the application server and the CRX-repository.
+1. CRX-repository supports persistence of type TarMK, MongoDB, and relational databases (RDBMK). You cannot have two different database systems between the application server and the CRX-repository. However, on an AEM Forms on JEE environment, you can use MongoMK with CRX-repository and a supported relational database with application server.
 1. AEM Forms on JEE does not support WebSphere application server on CentOS.
 1. AIX and Solaris operating systems are available only for upgrade customers.
 1. AEM Forms on JEE doesn’t support JBoss role based access control (RBAC).
@@ -342,8 +342,8 @@ Consider the following exceptions while choosing a platform to set up your AEM F
 In addition, consider the following points while choosing software for Adobe AEM Forms on JEE deployments:
 
 * AEM Forms on JEE supports updates, patches, and fix packs on top of the specified major and minor version of supported software. However, update to the next major or minor version is not supported unless specified.
-* Cluster-based installations do not support TarMK persistence. For information about supported persistence, see [Choosing a persistence type for an AEM Forms installation](../../forms/using/choosing-persistence-type-for-aem-forms.md).
-* AEM Forms on JEE supports various third-party software as per our [Third-party software support Policy](../../forms/using/aem-forms-jee-supported-platforms.md#p-third-party-patch-support-policy-p).
+* Cluster-based installations do not support TarMK persistence. For information about supported persistence, see [Choosing a persistence type for an AEM Forms installation](/help/forms/using/choosing-persistence-type-for-aem-forms.md).
+* AEM Forms on JEE supports various third-party software as per our [Third-party software support Policy](/help/forms/using/aem-forms-jee-supported-platforms.md#p-third-party-patch-support-policy-p).
 * AEM Forms on JEE supports platforms as per the support provided by third-party vendors. Some combinations may not be allowed by third-party vendors. For example, many vendors have not certified their application servers with IBM® DB2. As a result, AEM Forms on JEE also doesn’t support these combinations. To ensure that you choose the supported software versions, check the support matrix for the third-party vendors as well.  
 * AEM Forms on JEE does not support TarMK Cold Standby.
 * AEM Forms on JEE does not support vertical clustering.
@@ -355,8 +355,8 @@ In addition, consider the following points while choosing software for Adobe AEM
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="52%"><p><strong>Product (Base Version)</strong></p> </th> 
-   <th valign="middle" width="47%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Product (Base Version)</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
    <td>Oracle Unified Directory (OUD) 11g Release 2</td> 
@@ -367,20 +367,20 @@ In addition, consider the following points while choosing software for Adobe AEM
    <td>Maintenance release and fix packs</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="52%"><p>Microsoft® Active Directory 2012</p> </td> 
-   <td valign="top" width="47%"><p>Updates provided with operating system</p> </td> 
+   <td><p>Microsoft® Active Directory 2012</p> </td> 
+   <td><p>Updates provided with operating system</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="52%"><p>Microsoft Active Directory Lightweight Directory Services 2012</p> </td> 
-   <td valign="top" width="47%"><p>Updates provided with operating system</p> </td> 
+   <td><p>Microsoft Active Directory Lightweight Directory Services 2012</p> </td> 
+   <td><p>Updates provided with operating system</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="52%"><p>IBM® Tivoli Directory Server 6.4</p> </td> 
-   <td valign="top" width="47%"><p>Feature packs and interim fixes</p> </td> 
+   <td><p>IBM® Tivoli Directory Server 6.4</p> </td> 
+   <td><p>Feature packs and interim fixes</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="52%">IBM Lotus Domino 8.5.0</td> 
-   <td valign="top" width="47%">Maintenance release and fix packs</td> 
+   <td>IBM Lotus Domino 8.5.0</td> 
+   <td>Maintenance release and fix packs</td> 
   </tr> 
   <tr> 
    <td>Novell eDirectory 8.8.7</td> 
@@ -440,8 +440,8 @@ AEM Forms App now supports the Apache Cordova. Following are the platform-specif
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="35%"><p><strong>Product</strong></p> </th> 
-   <th valign="middle" width="64%"><p><strong>Supported Formats for Conversion to PDF</strong></p> </th> 
+   <th><p><strong>Product</strong></p> </th> 
+   <th><p><strong>Supported Formats for Conversion to PDF</strong></p> </th> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html">Acrobat 2017 classic track</a></td> 
@@ -564,8 +564,7 @@ The following subsystems of AEM Forms are not [508](https://www.section508.gov/)
 For additional reuirements see:
 
 * [System requirements for a single-server AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_single_63)
-* [System requirements for a clustered AEM Forms on JEE deployment  
-  ](https://www.adobe.com/go/learn_aemforms_sysreq_cluster_63)
+* [System requirements for a clustered AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_cluster_63)
 
 ## Supported Clients for AEM Forms on JEE {#supported-clients-for-aem-forms-on-jee}
 
@@ -578,8 +577,8 @@ For additional reuirements see:
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="40%"><p><strong>Platform</strong></p> </th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Platform</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
    <td><p>Microsoft® Windows® 10</p> <p>(Enterprise, Pro, Basic)</p> </td> 
@@ -617,8 +616,8 @@ For additional reuirements see:
 
 * Microsoft® Windows® 2012 Server R2, Microsoft® Windows® 2016 Server, Microsoft Windows 10
 
-  * 1 GHz or faster processor with support for PAE, NX, and SSE2.  
-  * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS  
+  * 1 GHz or faster processor with support for PAE, NX, and SSE2.
+  * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS 
   * 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
 
 * Graphics memory - 128 MB of GPU (256 MB recommended)
@@ -634,8 +633,8 @@ For additional reuirements see:
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="40%"><p><strong>Acrobat and Adobe Reader (Base)</strong></p> </th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Acrobat and Adobe Reader (Base)</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
    <td>Acrobat 2017 (Classic track)</td> 
@@ -677,7 +676,7 @@ For additional reuirements see:
   <tr> 
    <td><p>Google Chrome 46+</p> </td> 
    <td><p>A: Supported</p> </td> 
-   <td valign="top"><p>All updates</p> </td> 
+   <td><p>All updates</p> </td> 
   </tr> 
   <tr> 
    <td>Apple Safari 11.x</td> 
@@ -687,7 +686,7 @@ For additional reuirements see:
   <tr> 
    <td><p>Google Chrome and Firefox on MAC OS X</p> </td> 
    <td><p>A: Supported</p> </td> 
-   <td valign="top"><p>All updates</p> </td> 
+   <td><p>All updates</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -710,12 +709,12 @@ For additional reuirements see:
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="40%"><p><strong>Browser (Base)</strong></p> </th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Browser (Base)</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
-   <td valign="middle" width="40%"><p>Chrome on Android™ 4.1.2 and above</p> </td> 
-   <td valign="middle" width="40%"><p>All updates</p> </td> 
+   <td><p>Chrome on Android™ 4.1.2 and above</p> </td> 
+   <td><p>All updates</p> </td> 
   </tr> 
   <tr> 
    <td>Safari on iOS 11.0 and above</td> 
@@ -758,12 +757,12 @@ AEM Forms app is available on the following platforms:
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="40%"><p><strong>Flash Player (Base)</strong></p> </th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Flash Player (Base)</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
-   <td valign="middle" width="40%"><p>Flash Player latest version</p> </td> 
-   <td valign="middle" width="40%"><p>Minor versions and updates</p> </td> 
+   <td><p>Flash Player latest version</p> </td> 
+   <td><p>Minor versions and updates</p> </td> 
   </tr> 
  </tbody> 
 </table>

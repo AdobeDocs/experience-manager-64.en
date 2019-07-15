@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e5398abd-f62c-485d-9f4b-a316c0de2b6b
 ---
 
-# Configuring caching for Output {#configuring-caching-for-output}
+# Configuring caching for Output  {#configuring-caching-for-output}
 
 The Output service merges XML form data with a form design created in Designer to create a document output stream in various formats.
 
@@ -25,7 +25,7 @@ The Output service caches the following items:
 Output stores the cache in two locations:
 
 * **in memory:** Items are stored in memory for quick access. The in-memory cache has a limited size and is deleted when you restart the server.
-* **on disk:** Items are stored in the server’s file system. The disk cache has a larger capacity than the in-memory cache and it is retained when you restart the server. The location of the disk cache depends on your application server. For information on changing the location of the disk cache, see [Specify file locations for Output](../../../forms/using/admin-help/specify-file-locations-output.md#specify-file-locations-for-output).
+* **on disk:** Items are stored in the server’s file system. The disk cache has a larger capacity than the in-memory cache and it is retained when you restart the server. The location of the disk cache depends on your application server. For information on changing the location of the disk cache, see [Specify file locations for Output](/help/forms/using/admin-help/specify-file-locations-output.md#specify-file-locations-for-output).
 
 ## Specifying the cache mode {#specifying-the-cache-mode}
 
@@ -34,7 +34,7 @@ Output supports two modes of caching:
 * unconditional
 * using the cache check point
 
-If you switch between cache modes, restart the Output service for the change to take effect. To restart this service, either use Workbench or see [Start or stop the services associated with AEM forms modules](../../../forms/using/admin-help/starting-stopping-services.md#start-or-stop-the-services-associated-with-aem-forms-modules) for instructions.
+If you switch between cache modes, restart the Output service for the change to take effect. To restart this service, either use Workbench or see [Start or stop the services associated with AEM forms modules](/help/forms/using/admin-help/starting-stopping-services.md#start-or-stop-the-services-associated-with-aem-forms-modules) for instructions.
 
 The cache check point time is reset automatically when you switch between modes.
 
@@ -84,7 +84,7 @@ To access these settings, in administration console, click Services &gt; output.
 
 ### Specifying global cache settings {#specifying-global-cache-settings}
 
-The settings in the **Global Cache Settings** area affect all types of caches. If you change either of these settings, restart the Output service for the change to take effect. To restart this service, either use Workbench or see [Start or stop the services associated with AEM forms modules](../../../forms/using/admin-help/starting-stopping-services.md#start-or-stop-the-services-associated-with-aem-forms-modules) for instructions.
+The settings in the **Global Cache Settings** area affect all types of caches. If you change either of these settings, restart the Output service for the change to take effect. To restart this service, either use Workbench or see [Start or stop the services associated with AEM forms modules](/help/forms/using/admin-help/starting-stopping-services.md#start-or-stop-the-services-associated-with-aem-forms-modules) for instructions.
 
 **Max Cache Document Size (KB):** The maximum size, in kilobytes, of a form design or other resource that can be stored in any in-memory cache. This is a global setting that applies to all in-memory caches. If resource is larger than this value, it is not cached in memory. The default value is 1024 kilobytes. This setting does not affect the disk cache.
 
@@ -94,7 +94,7 @@ The settings in the **Global Cache Settings** area affect all types of caches. I
 
 When the Output service receives a render request, it retrieves the form design from the repository or from an HTTP source and caches it. This caching improves performance because for subsequent render requests, the Output service retrieves the form design from the cache instead of from the repository.
 
-The Output service always caches form designs on disk. If form designs are stored on the server, those files are considered the disk cache. The Output service also caches form designs in memory, according to the setting in the **In Memory Template Cache** area. If you change any of these settings, restart the Output service for the change to take effect. To restart this service, either use Workbench or see [Start or stop the services associated with AEM forms modules](../../../forms/using/admin-help/starting-stopping-services.md#start-or-stop-the-services-associated-with-aem-forms-modules) for instructions.
+The Output service always caches form designs on disk. If form designs are stored on the server, those files are considered the disk cache. The Output service also caches form designs in memory, according to the setting in the **In Memory Template Cache** area. If you change any of these settings, restart the Output service for the change to take effect. To restart this service, either use Workbench or see [Start or stop the services associated with AEM forms modules](/help/forms/using/admin-help/starting-stopping-services.md#start-or-stop-the-services-associated-with-aem-forms-modules) for instructions.
 
 **Template Configuration Cache Size:** The maximum number of template configuration objects to keep in memory. The default value is 100. It is recommended that you set this value greater than or equal to the Template Cache Size value. This setting does not affect the disk cache.
 

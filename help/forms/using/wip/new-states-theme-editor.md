@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 43402f0e-8ecf-4679-9d3f-e182388a7046
 ---
 
-# DO NOT PUBLISH - New states in Theme Editor{#do-not-publish-new-states-in-theme-editor}
+# DO NOT PUBLISH - New states in Theme Editor {#do-not-publish-new-states-in-theme-editor}
 
 An AEM Forms component contains states that let you define its behavior when a user interacts with it in the rendered form. Standard states are focus, disabled, hover, error, and success. These states correspond to [UI element states in CSS](https://www.w3.org/TR/2001/CR-css3-selectors-20011113/#UIstates). When you open the structure of a component, you can find these states in the cq:styleConfig node. For example, in the text box component, states fall under c `q:styleConfig > items > field > items > widgetAndText > states`. Similarly, you can specify states when you create your component or customize a component.
 
@@ -33,13 +33,9 @@ When you create or customize a component, it is stored in the `/apps` folder in 
 
    The properties of the footer node are specified as:  
 
-   [ ![Footer node properties](assets/footer-node-properties.png)
+    ![Footer node properties](assets/footer-node-properties.png)
 
-   Click to enlarge
-
-   ](assets/footer-node-properties-1.png)
-
-1. In CRXDE, click **Save All** above the address bar.
+1. In CRXDE, click **[!UICONTROL Save All]** above the address bar.
 
 To verify that you can style the component with new states, edit a theme in which your custom component is included as a selector.
 

@@ -11,11 +11,11 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 525c4afc-e109-4546-b78c-1efee63edc43
 ---
 
-# Considerations when running AdministrationConsole{#considerations-when-running-administrationconsole}
+# Considerations when running Administration Console {#considerations-when-running-administrationconsole}
 
 These are some things to consider when running Administration Console:
 
-* If you access administration console using the URL https://*[hostname]*:*[port]*/adminui, the specified host name cannot contain underscore characters. Otherwise, links to some areas of the administration console may not work properly.
+* If you access administration console using the URL `https://*[hostname]*:*[port]*/adminui`, the specified host name cannot contain underscore characters. Otherwise, links to some areas of the administration console may not work properly.
 * If you run administration console in Windows Explorer on a Japanese OS, you may encouter these problems:
 
     * Clicking a link returns you to the login page instead of to the expected link.

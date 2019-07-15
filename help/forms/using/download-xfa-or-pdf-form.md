@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 6699e0e7-fd42-41ae-86a2-3b940d905111
 ---
 
-# Download an XFA or a PDF form template{#download-an-xfa-or-a-pdf-form-template}
+# Download an XFA or a PDF form template {#download-an-xfa-or-a-pdf-form-template}
 
 The download operation, as the name implies, lets you export forms from the repository to the local system. In combination with the upload operation, this operation helps you migrate your forms from one repository to another.
 
@@ -30,7 +30,7 @@ Aside from these assets, you can download the `Resource` type of asset if it is 
 
 1. Navigate to the location of the asset you want to download.  
 
-1. Select the asset. Click the **[!UICONTROL Download]** ![](assets/aem6forms_download.png) icon in the toolbar.
+1. Select the asset. Click the **[!UICONTROL Download]** ![aem6forms_download](assets/aem6forms_download.png) icon in the toolbar.
 
    >[!NOTE]
    >

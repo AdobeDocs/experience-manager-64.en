@@ -59,12 +59,12 @@ The following table specifies the feature support provided for HTML5 forms and P
   </tr>
   <tr>
    <td>XFA Script API</td> 
-   <td>Supports the most commonly used XFA script constructs. For details list of supported constructs, see <a href="../../forms/using/scripting-support.md">scripting support</a>.</td> 
+   <td>Supports the most commonly used XFA script constructs. For details list of supported constructs, see <a href="/help/forms/using/scripting-support.md">scripting support</a>.</td> 
    <td>Supports all XFA script constructs.</td> 
   </tr>
   <tr>
    <td>Acrobat Script APIs </td> 
-   <td>HTML5 forms support most commonly used APIs. For details, see <a href="../../forms/using/scripting-support.md">scripting support</a>.</td> 
+   <td>HTML5 forms support most commonly used APIs. For details, see <a href="/help/forms/using/scripting-support.md">scripting support</a>.</td> 
    <td>If the PDF file is opened inside Acrobat or Reader, it also supports all the script APIs that Acrobat provides.</td> 
   </tr>
   <tr>
@@ -75,6 +75,6 @@ The following table specifies the feature support provided for HTML5 forms and P
  </tbody>
 </table>
 
-Follow the best practices to enable a form template for HTML5 renditions and ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent. For detailed list of best practices, see [Best practices to design an HTML5 form.](../../forms/using/best-practices-for-html5-forms.md)
+Follow the best practices to enable a form template for HTML5 renditions and ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent. For detailed list of best practices, see [Best practices to design an HTML5 form.](/help/forms/using/best-practices-for-html5-forms.md)
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

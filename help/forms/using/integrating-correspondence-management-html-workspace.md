@@ -9,7 +9,7 @@ topic-tags: forms-workspace
 discoiquuid: f2bde2e8-da95-48ac-a652-85ead87f2cd3
 ---
 
-# Integrating third-party applications in AEM Forms workspace{#integrating-third-party-applications-in-aem-forms-workspace}
+# Integrating third-party applications in AEM Forms workspace {#integrating-third-party-applications-in-aem-forms-workspace}
 
 AEM Forms workspace supports the management of task assignment and completion activities for forms and documents. These forms and documents can be XDP Forms, Flex® forms, or Guides (deprecated) that have been rendered in XDP, PDF, HTML, or Flex formats.
 
@@ -19,7 +19,7 @@ As an example, let us consider Correspondence Management as the sample candidate
 
 ## Create Correspondence Management assets {#create-correspondence-management-assets}
 
-Start by creating a sample Correspondence Management template that is rendered in AEM Forms workspace. For more details, see [Create a letter template](../../forms/using/create-letter.md).
+Start by creating a sample Correspondence Management template that is rendered in AEM Forms workspace. For more details, see [Create a letter template](/help/forms/using/create-letter.md).
 
 Access the Correspondence Management template at its URL to verify if the Correspondence Management template can be rendered successfully. The URL has a pattern similar to `https://[server]:[port]/lc/content/cm/createcorrespondence.html?cmLetterId=encodedLetterId&cmUseTestData=1&cmPreview=0;`
 
@@ -32,7 +32,7 @@ Before executing these steps, ensure that you are a member of the following grou
 * cm-agent-users
 * Workspace Users
 
-For more information, see [Add and configure users](../../forms/using/admin-help/adding-configuring-users.md).
+For more information, see [Add and configure users](/help/forms/using/admin-help/adding-configuring-users.md).
 
 Use the following steps to create a task to render and submit a letter in AEM Workspace:
 
@@ -43,11 +43,11 @@ Use the following steps to create a task to render and submit a letter in AEM Wo
 
     1. In Presentation Data, select Use A CRX Asset.
     
-       ![](assets/useacrxasset.png)
+       ![useacrxasset](assets/useacrxasset.png)
 
     1. Browse for an asset. In the Select Form Asset dialog, the Letters tab lists all the letters on the server.
     
-       ![](assets/lettertab.png)
+       ![lettertab](assets/lettertab.png)
 
     1. Select the appropriate letter and click **OK**.
 
@@ -96,15 +96,15 @@ Use the following steps to create a task to render and submit a letter in AEM Wo
    ```
 
    [Get File](assets/dscsample.zip)
-   Download DSC: A sample DSC is available in the DSCSample.zip file attached above. Download and unzip the DSCSample.zip file. Before you use the DSC service, you need to configure it. For information, see [Configure the DSC Service](../../forms/using/add-action-button-in-create-correspondence-ui.md#p-configure-the-dsc-service-p).
+   Download DSC: A sample DSC is available in the DSCSample.zip file attached above. Download and unzip the DSCSample.zip file. Before you use the DSC service, you need to configure it. For information, see [Configure the DSC Service](/help/forms/using/add-action-button-in-create-correspondence-ui.md#p-configure-the-dsc-service-p).
 
    In the Define Activity dialog, select the appropriate activity such as getLetterInstanceInfo and click **OK**.
 
 1. Deploy the application. If prompted check-in and save the assets.
-1. Log in to the AEM forms workspace at https://[server]:[port]/lc/content/ws.
+1. Log in to the AEM forms workspace at `https://[server]:[port]/lc/content/ws`.
 1. Open the task you had added, CMRenderer. The Correspondence Management letter appears.
 
-   ![](assets/cminworkspace.png)
+   ![cminworkspace](assets/cminworkspace.png)
 
 1. Fill in the required data and submit the letter. The window closes. In this process, the task gets assigned to the user specified in the workflow in step 9.
 
@@ -112,4 +112,4 @@ Use the following steps to create a task to render and submit a letter in AEM Wo
    >
    >The Submit button is not enabled until all the required variables in the letter are filled in.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

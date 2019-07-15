@@ -10,11 +10,11 @@ topic-tags: forms-app
 discoiquuid: cdce7a6a-2bbf-492f-bf91-5b8f07d02207
 ---
 
-# Opening a task{#opening-a-task}
+# Opening a task {#opening-a-task}
 
-If the AEM Forms app syncs with an AEM Forms server, you can work with tasks assigned to you. Tasks are steps in the Workflow defined in workbench or in the AEM workflow editor. For example, see [Conard gets the assessment task in the Geometrixx Gov reference site](../../forms/using/gov-reference-site-walkthrough.md#conard-assessment-task). You can make changes to any task that is currently assigned to you. All the tasks are available in the Task tab. Tasks saved as drafts remain in tasks tab.
+If the AEM Forms app syncs with an AEM Forms server, you can work with tasks assigned to you. Tasks are steps in the Workflow defined in workbench or in the AEM workflow editor. For example, see [Conard gets the assessment task in the Geometrixx Gov reference site](/help/forms/using/gov-reference-site-walkthrough.md#conard-assessment-task). You can make changes to any task that is currently assigned to you. All the tasks are available in the Task tab. Tasks saved as drafts remain in tasks tab.
 
-Other forms are saved as draft in the Drafts tab. See [Saving a draft](../../forms/using/save-as-draft.md).
+Other forms are saved as draft in the Drafts tab. See [Saving a draft](/help/forms/using/save-as-draft.md).
 
 **To open a task**
 
@@ -31,7 +31,7 @@ Other forms are saved as draft in the Drafts tab. See [Saving a draft](../../for
 
 **To open an application**
 
-1. Tap on the **application **in the **Forms **tab.
+1. Tap on the **application** in the **Forms** tab.
 
    When you select an application, the description of the application, is displayed below the application name. After the description the user action / actions associated with the application are displayed.
 
@@ -42,4 +42,4 @@ Other forms are saved as draft in the Drafts tab. See [Saving a draft](../../for
 
    You can tap **View Summary** to view additional instructions specified for the application.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

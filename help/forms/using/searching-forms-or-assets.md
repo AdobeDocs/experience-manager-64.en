@@ -10,19 +10,19 @@ topic-tags: forms-manager
 discoiquuid: f7f19679-cfc2-4ac0-9a26-685fad09276f
 ---
 
-# Searching for forms and assets{#searching-for-forms-and-assets}
+# Searching for forms and assets {#searching-for-forms-and-assets}
 
 You can search for your forms or form assets, using a text string or text string along with wildcards. You can also narrow your search using the criteria available in various categories in the Search panel.
 
 When you select one or more criteria and also specify a text string, the intersection of the text and criteria are returned as search results. The search results are as good as the form and asset metadata provided.
 
-Click ![](assets/aem6forms_search.png), to show or hide the search panel.
+Click ![aem6forms_search](assets/aem6forms_search.png), to show or hide the search panel.
 
 ## Basic search {#basic-search}
 
 A basic search is the default search, run without specifying any filters. A full text search on metadata properties is conducted by AEM Forms.
 
-To run a basic search, enter the search query in the text field and hit return. You can also enter the wildcard character (&#42;) to match any number of characters.
+To run a basic search, enter the search query in the text field and hit return. You can also enter the wildcard character (&ast;) to match any number of characters.
 
 Adobe Experience Manager searches for the entered text in metadata properties and returns the corresponding results. If you type more than one word, the search operation matches the complete text for searching.
 
@@ -32,7 +32,7 @@ Note the following points about the basic search:
 * If you type more than one word, the search operation matches the complete text for searching.
 * Search is not case sensitive. For example, when you type `geometrixx`, assets with titles `Geometrixx`, `GEOMETRIXX`, and `GeoMetRixx` are displayed in the search results.
 
-* Partial matches of a word are not supported. To search by using partial strings, use &#42; wildcard. However, if the search query matches a complete word, the corresponding form or asset is displayed.
+* Partial matches of a word are not supported. To search by using partial strings, use &ast; wildcard. However, if the search query matches a complete word, the corresponding form or asset is displayed.
 * Extra spaces are respected and are not trimmed during search. For example, `My form` is not the same search query as `My form`.
 
 * If the data and display values of the fields in metadata properties are different, you cannot use display values as search parameters. For example, you cannot search based on a status, such as Modified or Published, since these properties are stored in a different format.
@@ -42,8 +42,6 @@ Note the following points about the basic search:
 In the search criteria, besides the query you can specify some search parameters to make the basic search more efficient and focused.
 
 ![Search field and parameters or filters for AEM form and asset search](assets/search_forms_assets.png)
-
-Search field and parameters or filters for AEM form and asset search
 
 ### Asset Path {#asset-path}
 

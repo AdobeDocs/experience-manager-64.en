@@ -11,7 +11,7 @@ topic-tags: coding
 discoiquuid: 18a320b4-dce6-4c50-8864-644b0b2d6644
 ---
 
-# Invoking Human-Centric Long-Lived Processes{#invoking-human-centric-long-lived-processes}
+# Invoking Human-Centric Long-Lived Processes {#invoking-human-centric-long-lived-processes}
 
 You can programmatically invoke human-centric long-lived processes that were created in Workbench using these client applications:
 
@@ -107,8 +107,8 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **Create a web project**
 
-1. Start Eclipse and click **File **&gt; **New Project**.
-1. In the **New Project** dialog box, select **Web **&gt;** Dynamic Web Project**.
+1. Start Eclipse and click **File** &gt;  **New Project**.
+1. In the **New Project** dialog box, select **Web** &gt; **Dynamic Web Project**.
 1. Type `InvokePreLoanProcess` for the name of your project and then click **Finish**.
 
 **Add required JAR files to your project**
@@ -119,7 +119,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **Add a Java servlet to your project**
 
-1. From the Project Explorer window, right-click the `InvokePreLoanProcess` project and select **New **&gt; **Other**. 
+1. From the Project Explorer window, right-click the `InvokePreLoanProcess` project and select **New** &gt;  **Other**. 
 1. Expand the **Web** folder, select **Servlet**, and then click **Next**. 
 1. In the Create Servlet dialog box, type `SubmitXML` for the name of the servlet and then click **Finish**.
 
@@ -127,7 +127,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 1. From the Project Explorer window, right-click the `InvokePreLoanProcess` project and select **New** &gt; **Other**. 
 1. Expand the **Web** folder, select **HTML**, and click **Next**. 
-1. In the New HTML****dialog box, type `index.html` for the filename and then click **Finish**.
+1. In the New HTML dialog box, type `index.html` for the filename and then click **Finish**.
 
 >[!NOTE]
 >
@@ -376,10 +376,10 @@ The following HTML code represents the index.html file that was created during s
  <table> 
      <TBODY> 
          <TR> 
-             <TD width="172"><img src="financeCorpLogo.jpg" width="172" height="62"></TD> 
-             <TD width="314"><FONT size="+2"><strong>Java Loan Application Page</strong></FONT></TD> 
-             <TD width="10"> </TD> 
-             <TD width="123"> </TD> 
+             <td><img src="financeCorpLogo.jpg" width="172" height="62"></TD> 
+             <td><FONT size="+2"><strong>Java Loan Application Page</strong></FONT></TD> 
+             <td> </TD> 
+             <td> </TD> 
          </TR> 
           
      </TBODY> 
@@ -388,20 +388,20 @@ The following HTML code represents the index.html file that was created during s
         <table> 
           <TBODY> 
                 <TR> 
-                      <TD width="114"><LABEL for="name">Name: </LABEL></TD> 
-                  <TD width="166"><INPUT type="text" name="name"></TD> 
-                  <TD width="267"><input type="submit" value="Submit Application"></TD> 
+                      <td><LABEL for="name">Name: </LABEL></TD> 
+                  <td><INPUT type="text" name="name"></TD> 
+                  <td><input type="submit" value="Submit Application"></TD> 
                   </TR> 
             <TR> 
-                  <TD width="114"> <LABEL for="phone">Phone/Email: </LABEL></TD> 
-              <TD width="166"><INPUT type="text" name="phone"></TD> 
-                  <TD width="267"></TD> 
+                  <td> <LABEL for="phone">Phone/Email: </LABEL></TD> 
+              <td><INPUT type="text" name="phone"></TD> 
+                  <td></TD> 
               </TR> 
   
             <TR> 
-                  <TD width="114"><LABEL for="amount">Amount: </LABEL></TD> 
-              <TD width="166"><INPUT type="text" name="amount"></TD> 
-                 <TD width="267"></TD> 
+                  <td><LABEL for="amount">Amount: </LABEL></TD> 
+              <td><INPUT type="text" name="amount"></TD> 
+                 <td></TD> 
              </TR> 
           </TBODY> 
  </TABLE> 
@@ -422,7 +422,7 @@ The following illustration shows the Eclipse project’s content, which is packa
 
 **Package a web application to a WAR file:**
 
-1. From the **Project Explorer** window, right-click the `InvokePreLoanProcess` project and select **Export **&gt;** WAR file**.
+1. From the **Project Explorer** window, right-click the `InvokePreLoanProcess` project and select **Export** &gt; **WAR file**.
 1. In the **Web module** text box, type `InvokePreLoanProcess` for the name of the Java project. 
 1. In the **Destination** text box, type `PreLoanProcess.war`**for the**filename, specify the location for your WAR file, and then click Finish.
 
@@ -518,34 +518,34 @@ The following table lists the controls that are part of this ASP.NET application
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e14504" valign="top" width="NaN%"><p>Control name</p></th> 
-   <th class="cellrowborder" id="d19e14507" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Control name</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>TextBoxName</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>Specifies the customer’s first and last name. </p></td> 
+   <td><p>TextBoxName</p></td> 
+   <td><p>Specifies the customer’s first and last name. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>TextBoxPhone</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>Specifies the customer’s phone or email address. </p></td> 
+   <td><p>TextBoxPhone</p></td> 
+   <td><p>Specifies the customer’s phone or email address. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>TextBoxAmount</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>Specifies the loan amount.</p></td> 
+   <td><p>TextBoxAmount</p></td> 
+   <td><p>Specifies the loan amount.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>Button1</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>Represents the Submit Application button.</p></td> 
+   <td><p>Button1</p></td> 
+   <td><p>Represents the Submit Application button.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>LabelJobID</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>A Label control that specifies the value of the invocation identifier value.</p></td> 
+   <td><p>LabelJobID</p></td> 
+   <td><p>A Label control that specifies the value of the invocation identifier value.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>LabelStatus</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>A Label control that specifies the value of the job status. This value is retrieved by invoking the Job Manager service. </p></td> 
+   <td><p>LabelStatus</p></td> 
+   <td><p>A Label control that specifies the value of the job status. This value is retrieved by invoking the Job Manager service. </p></td> 
   </tr> 
  </tbody> 
 </table>

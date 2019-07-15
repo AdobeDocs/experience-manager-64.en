@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 2ad227de-68a8-446f-8c4f-a33a6f95bec8
 ---
 
-# Dynamically Creating DDX Documents{#dynamically-creating-ddx-documents}
+# Dynamically Creating DDX Documents {#dynamically-creating-ddx-documents}
 
 You can dynamically create a DDX document that can be used to perform an Assembler operation. Dynamically creating a DDX document enables you to use values in the DDX document that are obtained during run-time. To dynamically create a DDX document, use classes that belong to the programming language that you are using. For example, if you are developing your client application using Java, use classes that belong to the `org.w3c.dom.*`package. Likewise, if you are using Microsoft .NET, use classes that belong to the `System.Xml` namespace.
 
@@ -93,15 +93,13 @@ All disassembled PDF documents are returned within a collection object. Iterate 
 
 **See also**
 
-[Dynamically create a DDX document using the Java API](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-create-a-ddx-document-using-the-java-api)
+[Dynamically create a DDX document using the Java API](/help/forms/developing/dynamically-creating-ddx-documents.md#dynamically-create-a-ddx-document-using-the-java-api)
 
-[Dynamically create a DDX document using the web service API](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-create-a-ddx-document-using-the-web-service-api)
+[Dynamically create a DDX document using the web service API](/help/forms/developing/dynamically-creating-ddx-documents.md#dynamically-create-a-ddx-document-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
-
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 [Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents.md#programmatically-disassembling-pdf-documents)
 
@@ -125,11 +123,13 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
     * Call the `DocumentBuilder` object’s `newDocument` method to instantiate a `org.w3c.dom.Document` object.
     * Create the DDX document’s root element by invoking the `org.w3c.dom.Document` object’s `createElement` method. This method creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, set a value for the child element by calling its `setAttribute` method. Finally, append the element to the header element by calling the header element’s `appendChild` method, and pass the child element object as an argument. The following lines of code show this application logic:
       ` Element root = (Element)document.createElement("DDX");  root.setAttribute("xmlns","https://ns.adobe.com/DDX/1.0/");  document.appendChild(root);`
-    
+  
     * Create the `PDFsFromBookmarks` element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Set a value for the `PDFsFromBookmarks` element by calling its `setAttribute` method. Append the `PDFsFromBookmarks` element to the `DDX` element by calling the DDX element’s `appendChild` method. Pass the `PDFsFromBookmarks` element object as an argument. The following lines of code show this application logic:
+
       ` Element PDFsFromBookmarks = (Element)document.createElement("PDFsFromBookmarks");  PDFsFromBookmarks.setAttribute("prefix","stmt");  root.appendChild(PDFsFromBookmarks);`
-    
+  
     * Create a `PDF` element by calling the `Document` object’s `createElement` method. Pass a string value that represents the element’s name. Cast the return value to `Element`. Set a value for the `PDF` element by calling its `setAttribute` method. Append the `PDF` element to the `PDFsFromBookmarks` element by calling the `PDFsFromBookmarks` element’s `appendChild` method. Pass the `PDF` element object as an argument. The following lines of code shows this application logic:
+
       ` Element PDF = (Element)document.createElement("PDF");  PDF.setAttribute("source","AssemblerResultPDF.pdf");  PDFsFromBookmarks.appendChild(PDF);`
 
 1. Convert the DDX document.
@@ -179,8 +179,6 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
 
 **See also**
 
-[Dynamically Creating DDX Documents](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-creating-ddx-documents)
-
 [Quick Start (SOAP mode): Dynamically creating a DDX document using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-dynamically-creating-a-ddx-document-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
@@ -216,12 +214,15 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
 
     * Create a `System.Xml.XmlElement` object by using its constructor.
     * Create the DDX document’s root element by invoking the `XmlElement` object’s `CreateElement` method. This method creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `CreateElement` method. Set a value for the DDX element by calling its `SetAttribute` method. Finally, append the element to the DDX document by calling the `XmlElement` object’s `AppendChild` method. Pass the DDX object as an argument. The following lines of code show this application logic:
+
       ` System.Xml.XmlElement root = ddx.CreateElement("DDX");  root.SetAttribute("xmlns", "https://ns.adobe.com/DDX/1.0/");  ddx.AppendChild(root);`
-    
+  
     * Create the DDX document’s `PDFsFromBookmarks` element by calling the `XmlElement` object’s `CreateElement` method. Pass a string value representing the name of the element to the `CreateElement` method. Next, set a value for the element by calling its `SetAttribute` method. Append the `PDFsFromBookmarks` element to the root element by calling the `DDX` element’s `AppendChild` method. Pass the `PDFsFromBookmarks` element object as an argument. The following lines of code show this application logic:
+
       ` XmlElement PDFsFromBookmarks = ddx.CreateElement("PDFsFromBookmarks");  PDFsFromBookmarks.SetAttribute("prefix", "stmt");  root.AppendChild(PDFsFromBookmarks);`
-    
+  
     * Create the DDX document’s `PDF` element by calling the `XmlElement` object’s `CreateElement` method. Pass a string value representing the name of the element to the `CreateElement` method. Next, set a value for the child element by calling its `SetAttribute` method. Append the `PDF` element to the `PDFsFromBookmarks` element by calling the `PDFsFromBookmarks` element’s `AppendChild` method. Pass the `PDF` element object as an argument. The following lines of code shows this application logic:
+
       ` XmlElement PDF = ddx.CreateElement("PDF");  PDF.SetAttribute("source", "AssemblerResultPDF.pdf");  PDFsFromBookmarks.AppendChild(PDF);`
 
 1. Convert the DDX document.
@@ -229,8 +230,9 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
     * Create a `System.IO.MemoryStream` object by using its constructor.
     * Populate the `MemoryStream` object with the DDX document by using the `XmlElement` object that represents the DDX document. Invoke the `XmlElement` object’s `Save` method and pass the `MemoryStream` object.
     * Create a byte array and populate it with data located in the `MemoryStream` object. The following code shows this application logic:
+  
       ` int bufLen = Convert.ToInt32(stream.Length);  byte[] byteArray = new byte[bufLen];  stream.Position = 0;  int count = stream.Read(byteArray, 0, bufLen);`
-    
+  
     * Create a `BLOB` object. Assign the byte array to the `BLOB` object’s `MTOM` field.
 
 1. Reference a PDF document to disassemble.
@@ -265,8 +267,6 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
     * Extract the binary data that represents the PDF document by accessing its `BLOB` object’s `MTOM` property. This returns an array of bytes that you can write out to a PDF file.
 
 **See also**
-
-[Dynamically Creating DDX Documents](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-creating-ddx-documents)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 

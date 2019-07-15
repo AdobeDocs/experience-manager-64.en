@@ -10,18 +10,18 @@ topic-tags: forms-workspace
 discoiquuid: 16e57cf6-aaa1-406d-a6ad-71ec60b15386
 ---
 
-# Customizing the task details page{#customizing-the-task-details-page}
+# Customizing the task details page {#customizing-the-task-details-page}
 
 The task details page contains information about a task and its processes. However, you can customize the task details page to add or delete information.
 
 You can add the following information to the task details page:
 
-* Information available in the JSON object of a task (Task section in [AEM Forms workspace JSON Object Description](../../forms/using/html-workspace-json-object-description.md))
-* Information available in the JSON object of a process instance (Process instance section in [AEM Forms workspace JSON Object Description](../../forms/using/html-workspace-json-object-description.md))
+* Information available in the JSON object of a task (Task section in [AEM Forms workspace JSON Object Description](/help/forms/using/html-workspace-json-object-description.md))
+* Information available in the JSON object of a process instance (Process instance section in [AEM Forms workspace JSON Object Description](/help/forms/using/html-workspace-json-object-description.md))
 
 To customize the task details page:
 
-1. Follow [Generic steps for AEM Forms workspace customization.](../../forms/using/generic-steps-html-workspace-customization.md)
+1. Follow [Generic steps for AEM Forms workspace customization.](/help/forms/using/generic-steps-html-workspace-customization.md)
 1. To show any additional information, add corresponding key-value pairs to the `translation.json` file at `todo`block > `details`block > `app`block > [ `required`block].
 
    The [ `required`block] refers to available blocks, such as the task block for task information, process block for process information, and currentpendingtask block for pending tasks information.
@@ -80,6 +80,6 @@ To customize the task details page:
 >
 >To customize the task details page with tasks created in the **Start Process **tab of AEM Forms workspace, add the new information to `/apps/ws/js/runtime/templates/startprocess.html`.
 >
->To add new styles for the information added in the details page, modify the CSS file by using the *User interface changes* section in [Workspace Customization](../../forms/using/changing-locale-user-interface.md#main-pars-header-3).
+>To add new styles for the information added in the details page, modify the CSS file by using the *User interface changes* section in [Workspace Customization](/help/forms/using/changing-locale-user-interface.md#main-pars-header-3).
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

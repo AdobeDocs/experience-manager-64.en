@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 437e6581-4eb1-4fbd-a6da-86b9c90cec89
 ---
 
-# Creating custom adaptive form themes{#creating-custom-adaptive-form-themes}
+# Creating custom adaptive form themes {#creating-custom-adaptive-form-themes}
 
 >[!CAUTION]
 >
->AEM Forms provide the [Theme Editor](../../forms/using/themes.md) capability to create and modify adaptive forms [themes](../../forms/using/themes.md). Peform the steps listed in this article, only if you have upgraded from a version that does not have [Theme Editor](../../forms/using/themes.md) and you have an existing investment in themes created using Less/CSS files (pre-theme editor method).
+>AEM Forms provide the [Theme Editor](/help/forms/using/themes.md) capability to create and modify adaptive forms [themes](/help/forms/using/themes.md). Peform the steps listed in this article, only if you have upgraded from a version that does not have [Theme Editor](/help/forms/using/themes.md) and you have an existing investment in themes created using Less/CSS files (pre-theme editor method).
 
 ## Prerequisites {#prerequisites}
 
 * Knowledge of the LESS (Leaner CSS) framework
 * How to create a client library in Adobe Experience Manager
-* [Creating an adaptive form template](../../forms/using/custom-adaptive-forms-templates.md) for using the theme you create
+* [Creating an adaptive form template](/help/forms/using/custom-adaptive-forms-templates.md) for using the theme you create
 
 ## Adaptive form theme {#adaptive-form-theme}
 
@@ -39,8 +39,7 @@ You create an **adaptive template** and apply the theme to the template. You the
 >If you follow these steps using the names, the resultant template should appear similar to the following snapshot:
 
 ![Forest themed Adaptive Form snapshot](assets/thumbnail.png)
-
-Forest Theme Sample
+**Figure:** *Forest Theme Sample*
 
 1. Create a node of type `cq:ClientLibraryFolder` under the `/apps`node.
 
@@ -56,8 +55,9 @@ Forest Theme Sample
 
 1. Add two folders, `less` and `css`, and a file `css.txt` to the node created in step 1:
 
-    * `less` folder: Contains the `less` variable files in which you define the `less` variables and `less mixins` that are used to manage the .css styles.  
-      This folder consists of `less` variable files, `less` mixin files, `less` files defining styles using mixins and variables. And all these less files are then imported in styles.less.  
+    * `less` folder: Contains the `less` variable files in which you define the `less` variables and `less mixins` that are used to manage the .css styles.
+
+      This folder consists of `less` variable files, `less` mixin files, `less` files defining styles using mixins and variables. And all these less files are then imported in styles.less. 
     
     * `css`folder: Contains the .css files in which you define the static styles to be used in the theme.
 
@@ -90,8 +90,9 @@ Forest Theme Sample
 
    To override the `less`variables:
 
-    1. Import default adaptive form variables:  
-       `/apps/clientlibs/fd/af/guidetheme/common/less/globalvariables.less/apps/clientlibs/fd/af/guidetheme/common/less/layoutvariables.less`  
+    1. Import default adaptive form variables:
+
+       `/apps/clientlibs/fd/af/guidetheme/common/less/globalvariables.less/apps/clientlibs/fd/af/guidetheme/common/less/layoutvariables.less` 
     
     1. Then import the less file that includes overridden variables.
 
@@ -189,15 +190,11 @@ Forest Theme Sample
    >
    >The styles.less file is not mandatory. This means that you do not need to create this file, if you have not defined any custom styles, variables, or mixins.
    >
-   >
    >However, if you do not create a style.less file, in the css.txt file, you need to uncomment the following line:
-   >
    >
    >**`#base=less`**
    >
-   >
    >And comment the following line:
-   >
    >
    >**`styles.less`**
 
@@ -205,7 +202,7 @@ Forest Theme Sample
 
 After you have created an adaptive form theme, perform the following steps to use this theme in an adaptive form:
 
-1. To include the theme created in [to create an adaptive form theme](../../forms/using/creating-custom-adaptive-form-themes.md#p-to-create-an-adaptive-form-theme-p) section, create a custom page of type `cq:Component`.
+1. To include the theme created in [to create an adaptive form theme](/help/forms/using/creating-custom-adaptive-form-themes.md#p-to-create-an-adaptive-form-theme-p) section, create a custom page of type `cq:Component`.
 
    For example, `/apps/myAfCustomizations/myAfPages/forestPage`
 

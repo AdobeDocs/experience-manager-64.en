@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: c429d6e1-7847-43c8-bf75-cb0078dbb9d5
 ---
 
-# Determining Whether Documents Are PDF/A-Compliant{#determining-whether-documents-are-pdf-a-compliant}
+# Determining Whether Documents Are PDF/A-Compliant {#determining-whether-documents-are-pdf-a-compliant}
 
 You can determine whether a PDF document is PDF/A-compliant by using the Assembler service. A PDF/A document exists as an archival format meant for long-term preservation of the document’s content. The fonts are embedded within the document, and the file is uncompressed. As a result, a PDF/A document is typically larger than a standard PDF document. Also, a PDF/A document does not contain audio and video content.
 
@@ -103,15 +103,15 @@ Save the XML document as an XML file so that you can open the file and view the 
 
 **See also**
 
-[Determine whether a document is PDF/A compliant using the Java API](/help/forms/developing/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determine-whether-a-document-is-pdf-a-compliant-using-the-java-api)
+[Determine whether a document is PDF/A compliant using the Java API](/help/forms/developing/determining-whether-documents-pdf-a.md#determine-whether-a-document-is-pdf-a-compliant-using-the-java-api)
 
-[Determine whether a document is PDF/A compliant using the web service API](/help/forms/developing/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determine-whether-a-document-is-pdf-a-compliant-using-the-web-service-api)
+[Determine whether a document is PDF/A compliant using the web service API](/help/forms/developing/determining-whether-documents-pdf-a.md#determine-whether-a-document-is-pdf-a-compliant-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md) 
 
 ## Determine whether a document is PDF/A compliant using the Java API {#determine-whether-a-document-is-pdf-a-compliant-using-the-java-api}
 
@@ -165,8 +165,6 @@ Determine whether a PDF document is PDF/A-compliant by using the Assembler Servi
     * Invoke the `com.adobe.idp.Document` object’s `copyToFile` method to extract the XML document. Ensure that you save the XML data as an XML file.
 
 **See also**
-
-[Determining Whether Documents Are PDF/A- Compliant](/help/forms/developing/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determining-whether-documents-are-pdf-a-compliant)
 
 [Quick Start (SOAP mode): Determining whether a document is PDF/A compliant using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-determining-whether-a-document-is-pdf-a-compliant-using-the-java-api) (SOAP mode)
 
@@ -244,7 +242,5 @@ Determine whether a PDF document is PDF/A-compliant by using the Assembler Servi
     * Extract the binary data that represents the XML data by accessing its `BLOB` object's `MTOM` field. This field stores an array of bytes that you can write out to as a XML file.
 
 **See also**
-
-[Determining Whether Documents Are PDF/A- Compliant](/help/forms/developing/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determining-whether-documents-are-pdf-a-compliant)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

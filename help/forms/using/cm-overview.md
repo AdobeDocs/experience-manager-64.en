@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: 1291b395-a981-4ef9-b4f0-c0d3026c5f19
 ---
 
-# Correspondence Management Overview{#correspondence-management-overview}
+# Correspondence Management Overview {#correspondence-management-overview}
 
 ## Introduction {#introduction}
 
@@ -40,5 +40,5 @@ It improves customer engagement, enabling you to:
 
 * Add interactive technologies to enable a two-way channel, reducing paper submissions
 * Protect sensitive information with built-in, end-to-end document security
-* Send correspondence via customer’s preferred communication channel, whether electronic, mail, mobile, or fax
+* Send correspondence via customer’s preferred communication channel, whether electronic, mail, mobile, or fax.
 

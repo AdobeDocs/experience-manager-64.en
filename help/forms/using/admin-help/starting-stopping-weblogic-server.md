@@ -11,33 +11,33 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c908d064-6596-473a-b218-22a2496c83f7
 ---
 
-# Starting and stopping WebLogic Server{#starting-and-stopping-weblogic-server}
+# Starting and stopping WebLogic Server {#starting-and-stopping-weblogic-server}
 
 Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. Ensure that WebLogic Server is stopped or running, depending on the task you are performing.
 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e28849" valign="top" width="NaN%"><p>Activity</p></th> 
-   <th class="cellrowborder" id="d19e28852" valign="top" width="NaN%"><p>Required WebLogic state</p></th> 
+   <th><p>Activity</p></th> 
+   <th><p>Required WebLogic state</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28849 " valign="top" width="NaN%"><p>Creating a WebLogic domain</p></td> 
-   <td class="cellrowborder" headers="d19e28852 " valign="top" width="NaN%"><p>Stopped</p></td> 
+   <td><p>Creating a WebLogic domain</p></td> 
+   <td><p>Stopped</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28849 " valign="top" width="NaN%"><p>Creating a WebLogic managed server</p></td> 
-   <td class="cellrowborder" headers="d19e28852 " valign="top" width="NaN%"><p>Running</p></td> 
+   <td><p>Creating a WebLogic managed server</p></td> 
+   <td><p>Running</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28849 " valign="top" width="NaN%"><p>Increasing the server thread count</p></td> 
-   <td class="cellrowborder" headers="d19e28852 " valign="top" width="NaN%"><p>Running</p></td> 
+   <td><p>Increasing the server thread count</p></td> 
+   <td><p>Running</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28849 " valign="top" width="NaN%"><p>Deploying AEM forms products</p></td> 
-   <td class="cellrowborder" headers="d19e28852 " valign="top" width="NaN%"><p>Running</p></td> 
+   <td><p>Deploying AEM forms products</p></td> 
+   <td><p>Running</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,12 +69,12 @@ The WebLogic Server administration console is no longer available, and the comma
 
 ## Start WebLogic administration console {#start-weblogic-administration-console}
 
-1. If WebLogic Admin Server is not already running, from a command prompt, go to the *[appserver root]*\user_projects\domains\*[domainname] *directory, and enter the following command:
+1. If WebLogic Admin Server is not already running, from a command prompt, go to the *[appserver root]\user_projects\domains\[domainname]* directory, and enter the following command:
 
     * (Windows) `startWebLogic.cmd`
     * (Linux, UNIX) ./ `startWebLogic.sh`
 
-1. Access WebLogic Server administration console by typing `https://*[host name]*:`*[Port]* `/console` in the URL line of a web browser, where *[Port]* is the non-secure listening port. By default, this port value is 7001.
+1. Access WebLogic Server administration console by typing `https://*[host name]:`[Port] `/console` in the URL line of a web browser, where *[Port]* is the non-secure listening port. By default, this port value is 7001.
 1. On the login screen, type your administrator user name and password, and click Log In.
 
 ## Start Node Manager {#start-node-manager}

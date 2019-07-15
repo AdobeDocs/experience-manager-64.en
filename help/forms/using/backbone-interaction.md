@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: d363eec3-172b-413e-9743-ed51804ea1e9
 ---
 
-# Backbone interaction{#backbone-interaction}
+# Backbone interaction {#backbone-interaction}
 
 Backbone is a library that helps in creating and following MVC architecture in web applications. The basic idea of Backbone is to organize your interface into logical views, backed by models, each of which can be updated independently when the model changes, without having to redraw the page. For more information about Backbone, see [https://backbonejs.org](https://backbonejs.org/).
 
@@ -53,4 +53,4 @@ An example:
 1. Another view, task details view listens to this event from task model.
 1. Task details view then changes the task details template to display the rendered task (form, details, attachments, notes, and so on) to the user.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

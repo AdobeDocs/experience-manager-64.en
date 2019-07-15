@@ -10,18 +10,18 @@ topic-tags: forms-app
 discoiquuid: 2f45a965-590b-43b1-95c6-df4b74ad15b9
 ---
 
-# Troubleshoot AEM Forms app{#troubleshoot-aem-forms-app}
+# Troubleshoot AEM Forms app {#troubleshoot-aem-forms-app}
 
 This article describes the error messages that might be displayed while building AEM Forms app and the steps to resolve them.
 
 The sections in this article include:
 
-* [Attachment loss for iOS users](../../forms/using/issues-aem-forms-app.md#attachment-loss-for-ios-users)
-* [HTML5 form drafts submitted by workspace users are not visible on the portal](../../forms/using/issues-aem-forms-app.md#html-form-drafts-submitted-by-workspace-users-are-not-visible-on-the-portal)
-* [HTML5 forms (not cached) fail to load in AEM Forms app](../../forms/using/issues-aem-forms-app.md#html-forms-not-cached-fail-to-load-in-aem-forms-app)
-* [AEM Forms do not sync on Windows](../../forms/using/issues-aem-forms-app.md#aem-forms-do-not-sync-on-windows)
-* [Unsupported version of Gradle](../../forms/using/issues-aem-forms-app.md#unsupported-version-of-gradle)
-* [Gradle and Android Gradle plug-in compatibility issues](../../forms/using/issues-aem-forms-app.md#gradle-and-android-gradle-plug-in-compatibility-issues)
+* [Attachment loss for iOS users](/help/forms/using/issues-aem-forms-app.md#attachment-loss-for-ios-users)
+* [HTML5 form drafts submitted by workspace users are not visible on the portal](/help/forms/using/issues-aem-forms-app.md#html-form-drafts-submitted-by-workspace-users-are-not-visible-on-the-portal)
+* [HTML5 forms (not cached) fail to load in AEM Forms app](/help/forms/using/issues-aem-forms-app.md#html-forms-not-cached-fail-to-load-in-aem-forms-app)
+* [AEM Forms do not sync on Windows](/help/forms/using/issues-aem-forms-app.md#aem-forms-do-not-sync-on-windows)
+* [Unsupported version of Gradle](/help/forms/using/issues-aem-forms-app.md#unsupported-version-of-gradle)
+* [Gradle and Android Gradle plug-in compatibility issues](/help/forms/using/issues-aem-forms-app.md#gradle-and-android-gradle-plug-in-compatibility-issues)
 
 ## Attachment loss for iOS users {#attachment-loss-for-ios-users}
 
@@ -29,7 +29,8 @@ AEM Forms app for iOS configured to sync with AEM Forms on OSGi supports only fi
 
 1. On the connected server, navigate to **Adobe Experience Manager &gt; Tools &gt; Operations &gt; Web Console**.
 1. Find and click **Adaptive Form Configuration Service**.
-1. In the Adaptive Form Configuration Service dialog, enable **Make File Names Unique**.   
+1. In the Adaptive Form Configuration Service dialog, enable **Make File Names Unique**. 
+
    If **Make File Names Unique** setting is disabled, users experience data loss if they try to submit adaptive forms with multiple attachments.
 
 1. Click **Save**.
@@ -38,16 +39,16 @@ AEM Forms app for iOS configured to sync with AEM Forms on OSGi supports only fi
 
 For HTML5 forms enabled in AEM Forms app with **Save as Draft** HTML Render Profile, the saved drafts are not visible to workspace users. To view saved drafts of HTML5 forms submitted by workspace users on the portal, perform the following steps:
 
-1. Open CRXDE and login with administrator credentials.   
+1. Open CRXDE and login with administrator credentials. 
+
    URL: `https://<server>:<port>/lc/crx/de/index.jsp`
 
 1. In the root path of the CRXDE, in the Access Control List under Access Control, click **+**.
 1. In the **Add New Entry** dialog, click the group search button in the Principal field.
 1. In the Name field of the Select Principal dialog, type `PERM_WORKSPACE_USER` and click **Search**. 
-
 1. Select `PERM_WORKSPACE_USER` group in the Select Principal dialog and click **OK**.
+1. In the Add New Entry dialog, `PERM_WORKSPACE_USER` group is selected in the Principal field. 
 
-1. In the Add New Entry dialog, `PERM_WORKSPACE_USER` group is selected in the Principal field.   
    Enable `jcr:read` privileges for the user group.  
 
 1. Click **OK**.
@@ -79,9 +80,9 @@ Modify the path of the form and its resources to reduce the number of characters
 
 The error message is displayed when you build AEM Forms app in Android Studio. The issue occurs due to unsupported version of Gradle supported on the system.
 
-**Resolution:** Click **Fix Gradle wrapper and re-import project **to resolve the issue.
+**Resolution:** Click **Fix Gradle wrapper and re-import project** to resolve the issue.
 
-![](assets/gradle_unsupported_version.png) 
+![gradle_unsupported_version](assets/gradle_unsupported_version.png) 
 
 ## Gradle and Android Gradle plug-in compatibility issues {#gradle-and-android-gradle-plug-in-compatibility-issues}
 
@@ -89,13 +90,13 @@ The error message is displayed when you build AEM Forms app in Android Studio. T
 
 The error message is displayed when you select **Build APK** option from the **Build** menu on the Android Studio user interface. 
 
-![](assets/gradle_plugin_compatibility.png)
+![gradle_plugin_compatibility](assets/gradle_plugin_compatibility.png)
 
-**Resolution:** Open **Gradle Scripts** &gt; **gradle-wrapper.properties** file and edit the **distributionUrl **property.
+**Resolution:** Open **Gradle Scripts** &gt; **gradle-wrapper.properties** file and edit the **distributionUrl** property.
 
 For example, the Android Studio console recommends downgrading the Gradle version to 3.5. Edit the version in **distributionUrl **of** gradle-wrapper.properties** file.
 
-Select **Build** &gt; **Build APK **again** **to resolve the error and generate the .apk file.
+Select **Build** &gt; **Build APK** again to resolve the error and generate the .apk file.
 
-![](assets/gradle_wrapper_properties.png)
+![gradle_wrapper_properties](assets/gradle_wrapper_properties.png)
 

@@ -10,16 +10,16 @@ topic-tags: interactive-communications
 discoiquuid: 565bfb42-6099-49f4-83ba-b1f0c129aab7
 ---
 
-# Introduction to Interactive Communication authoring UI{#introduction-to-interactive-communication-authoring-ui}
+# Introduction to Interactive Communication authoring UI {#introduction-to-interactive-communication-authoring-ui}
 
 An introduction to the various user interface elements you can use to author Interactive Communication
 
-The user interface for authoring [Interactive Communication](../../forms/using/interactive-communications-overview.md) is intuitive and provides the following for authoring print and web channel of the Interactive Communication:
+The user interface for authoring [Interactive Communication](/help/forms/using/interactive-communications-overview.md) is intuitive and provides the following for authoring print and web channel of the Interactive Communication:
 
 * WYSIWYG drag-and-drop document editor
 * Integrated repository for assets - the assets uploaded to and created on the server are available in the Asset browser of Interactive Communication authoring interface
 
-When you [create a new or edit an existing Interactive Communication](../../forms/using/create-interactive-communication.md), you use the following user interface elements:
+When you [create a new or edit an existing Interactive Communication](/help/forms/using/create-interactive-communication.md), you use the following user interface elements:
 
 * [Sidebar](#sidebar)
 * [Page toolbar](#page-toolbar)  
@@ -31,33 +31,37 @@ When you [create a new or edit an existing Interactive Communication](../../form
 
 **A.** Sidebar **B.** Page toolbar **C.** Content area
 
-## Sidebar {##sidebar}
+## Sidebar {#sidebar}
 
-[ ![Sidebar](assets/sidebar-comps.png)
+![Sidebar](assets/sidebar-comps.png)
 
-Click to enlarge
+[Click to enlarge](assets/sidebar-comps-1.png) 
 
-](assets/sidebar-comps-1.png) **A.** Channel browser **B.** Content browser **C.** Properties browser **D.** Asset browser **E.** Components browser **F.** Data Sources browser - Data Model **G.** Data Sources browser - Master Content
+**A.** Channel browser **B.** Content browser **C.** Properties browser **D.** Asset browser **E.** Components browser **F.** Data Sources browser - Data Model **G.** Data Sources browser - Master Content
 
 The sidebar includes the following:
 
-* **Channel browser  
-  **
+* **Channel browser**
 
-The Channel browser helps you switch between the print and web channels of the Interactive Communication. Based on the channel you have selected in the channel browser, the browsers, such as Content and Components display the options.
+  The Channel browser helps you switch between the print and web channels of the Interactive Communication. Based on the channel you have selected in the channel browser, the browsers, such as Content and Components display the options.
 
-* **Content** **browser** 
+* **Content browser** 
+
   In the content browser, you can see object hierarchy of the document for the selected channel. Author can navigate to specific component by tapping that element in Document Object Tree. Author can search objects in the web channel and rearrange them from this tree.
 
-* **Properties browser  
-  **Lets you edit the properties of a component. Properties change according to the component. For example, to see properties of the document container:  
-  Select a component, then tap ![](assets/field-level.png) &gt; **Document Container**, and then tap ![](assets/cmppr.png).
+* **Properties browser**
 
-* **Assets** **browser** 
+  Lets you edit the properties of a component. Properties change according to the component. For example, to see properties of the document container:
+
+  Select a component, then tap ![field-level](assets/field-level.png) &gt; **Document Container**, and then tap ![cmppr](assets/cmppr.png).
+
+* **Assets browser** 
+
   Segregates different types of content such as layout fragments, images, documents, pages, videos. Author can drag-and-drop assets into the Interactive Communication. 
 
 * **Components browser** 
-  Includes components that you can use to build the print and web channels of a document. You can drag components to the Interactive Communication to add elements, and configure added element as per the requirements. The following table describes the components listed in Components browser for print and web channels**:**
+
+  Includes components that you can use to build the print and web channels of a document. You can drag components to the Interactive Communication to add elements, and configure added element as per the requirements. The following table describes the components listed in Components browser for print and web channels:
 
 | **Component** |**Print Channel** |**Web Channel** |**Functionality** |
 |---|---|---|---|
@@ -65,28 +69,28 @@ The Channel browser helps you switch between the print and web channels of the I
 | Document Fragment |✓ |✓ |Allows you to add a reusable component, text, list, or condition, to an Interactive Communication. The reusable component you add to an Interactive Communication could be either form data model-based or without a form data model. |
 | Image |✓ |✓ |Allows you to insert an image. |
 | Panel |-  |✓ |The Panel component is a placeholder for grouping other components together and controls how a group of components are laid out in an Interactive Communication. A panel component also allows you to make a group of components repeatable for the end user, such as in multiple entries required for filling in educational credentials. It is also a good practice to use a panel each for a tab of an Interactive Communication with multiple tabs. |
-| Table  |&#42; |✓ |Adds a table that lets you organize data in rows and columns.  |
-| Target Area |&#42;&#42; |✓ |Inserts a target area in a web channel to organize the web-channel-specific components. |
+| Table  |&ast; |✓ |Adds a table that lets you organize data in rows and columns.  |
+| Target Area |&ast;&ast; |✓ |Inserts a target area in a web channel to organize the web-channel-specific components. |
 | Text  |- |✓ |Adds text to the web channel of an Interactive Communication. Text can make use of form data model objects to make the content dynamic. |
 
-&#42; Use Layout Fragments in the Print channel to add tables.
+&ast; Use Layout Fragments in the Print channel to add tables.
 
-&#42;&#42; In the Print channel, target areas are predefined in the XDP/print template. You cannot add new target areas using the Interactive Communication authoring UI.
+&ast;&ast; In the Print channel, target areas are predefined in the XDP/print template. You cannot add new target areas using the Interactive Communication authoring UI.
 
-* **Data Sources Browser** 
+* **Data Sources Browser**
+
   Data Sources Browser displays the available data sources in the form data model you selected while creating the Interactive Communication.
 
 ### Key points for working with components {#key-points-for-working-with-components}
 
 Key points when working with interactive communication components are as follows:
 
-* Each component has associated properties that control its appearance and functionality. To configure the properties of a component, tap the component and tap ![](assets/cmppr.png) to open the component properties in the Properties browser.
-* A component is identified with its element name. When you tap ![](assets/cmppr.png), you can change the name of the component by changing the Element Name field value in the properties browser. The Element Name field accepts letters, numbers, hyphens (-), and underscores (_) only. Other special characters are not allowed, and element name should begin with a letter. 
+* Each component has associated properties that control its appearance and functionality. To configure the properties of a component, tap the component and tap ![cmppr](assets/cmppr.png) to open the component properties in the Properties browser.
+* A component is identified with its element name. When you tap ![cmppr](assets/cmppr.png), you can change the name of the component by changing the Element Name field value in the properties browser. The Element Name field accepts letters, numbers, hyphens (-), and underscores (_) only. Other special characters are not allowed, and element name should begin with a letter. 
 * You can modify the Title property of an Interactive Communication component inline in the editor without opening the Properties browser as long as the title is visible on the Interactive Communication. To do so:
 
-    1. Tap to select a component that has a Title property and whose Hide title property is disabled.  
-    1. Tap ![](assets/aem_6_3_edit.png) to make the title editable.  
-    
+    1. Tap to select a component that has a Title property and whose Hide title property is disabled. 
+    1. Tap ![aem_6_3_edit](assets/aem_6_3_edit.png) to make the title editable.
     1. Modify the title and tap the Return key or tap anywhere outside the component to save the changes. Tap the Esc key to discard the changes.
 
 ## Component toolbar {#component-toolbar}
@@ -127,9 +131,9 @@ J. **More**: Provides more options to work with the selected component.
 
 The Page toolbar on the top provides options that let you preview the Interactive Communication and change its properties. You can preview the Interactive Communication when you author it, and make changes accordingly. In the page toolbar, you see:
 
-* Toggle Side Panel ![](assets/toggle-side-panel.png): Lets you show or hide Sidebar.
-* Page information ![](assets/pageinformationad.png): Lets you view page properties.
-* Emulator ![](assets/ruler.png): Lets you emulate the look of your Interactive Communication for different display sizes such as tablets and phones.
+* Toggle Side Panel ![toggle-side-panel](assets/toggle-side-panel.png): Lets you show or hide Sidebar.
+* Page information ![pageinformationad](assets/pageinformationad.png): Lets you view page properties.
+* Emulator ![ruler](assets/ruler.png): Lets you emulate the look of your Interactive Communication for different display sizes such as tablets and phones.
 * Edit: Lets you select other modes such as: Edit, Style, Developer, and Design.
 
     * Edit: Lets you edit the properties of the Interactive Communication and its components. For example, adding a component, dropping an image, and specifying mandatory fields. 

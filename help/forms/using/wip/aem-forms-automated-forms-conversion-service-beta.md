@@ -8,7 +8,7 @@ contentOwner: vishgupt
 discoiquuid: 78ad3714-e0de-4c12-aea2-6f0ec5a83002
 ---
 
-# AEM Forms Automated Forms Conversion service prerelease notes{#aem-forms-automated-forms-conversion-service-prerelease-notes}
+# AEM Forms Automated Forms Conversion service prerelease notes {#aem-forms-automated-forms-conversion-service-prerelease-notes}
 
 Welcome to the AEM Automated Forms Conversion prerelease program. Read on for resources and instructions to get started and make the best of the prerelease program.
 
@@ -72,30 +72,32 @@ See the following documentation resources for detailed information about using A
 
 | Document |Coverage |
 |---|---|
-| [Automated Forms Conversion service](../../../forms/using/wip/introduction-to-automated-form-conversion-service.md) | 
+| [Automated Forms Conversion service](/help/forms/using/wip/introduction-to-automated-form-conversion-service.md) | 
 Introduction to the Automated Forms Conversion service and conversion workflow   |
-| [Best practices and considerations](../../../forms/using/wip/styles-and-pattern--considerations-and-best-practices-.md) |Patterns and styles of form fields to consider before starting the conversion |
-| [Configure the Automated Forms Conversion service](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md) |Prerequisites and steps to install and configure the Automated Forms Conversion service |
-| [Use Automated Forms Conversion service](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md) |Steps to run the Automated Forms Conversion service  |
-| [Review and correct converted adaptive forms](../../../forms/using/wip/review-correct-ui-edited.md) |Use Review and Correct editor to review and make corrections to converted adaptive forms  |
-| [Frequently asked questions](../../../forms/using/wip/automated-forms-conversion-service-frequently-asked-questions.md) |List of frequently asked questions |
+| [Best practices and considerations](/help/forms/using/wip/styles-and-pattern--considerations-and-best-practices-.md) |Patterns and styles of form fields to consider before starting the conversion |
+| [Configure the Automated Forms Conversion service](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md) |Prerequisites and steps to install and configure the Automated Forms Conversion service |
+| [Use Automated Forms Conversion service](/help/forms/using/wip/convert-existing-forms-to-adaptive-forms.md) |Steps to run the Automated Forms Conversion service  |
+| [Review and correct converted adaptive forms](/help/forms/using/wip/review-correct-ui-edited.md) |Use Review and Correct editor to review and make corrections to converted adaptive forms  |
+| [Frequently asked questions](/help/forms/using/wip/automated-forms-conversion-service-frequently-asked-questions.md) |List of frequently asked questions |
 
 ## Known issues and workarounds {#known-issues-and-workarounds}
 
 Before you begin using AEM Forms Automated Forms Conversion service, review the following known issues and available workarounds.
 
-* [Source folder](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#upload-pdf-forms-to-your-aem-forms-server) should not have more than 15 forms and 50 pages in total. The size of the source folder should not exceed 10 MB. Do not create sub-folders in the source folder. 
+* [Source folder](/help/forms/using/wip/convert-existing-forms-to-adaptive-forms.md#upload-pdf-forms-to-your-aem-forms-server) should not have more than 15 forms and 50 pages in total. The size of the source folder should not exceed 10 MB. Do not create sub-folders in the source folder. 
 * PDF Forms with the dynamic layout, dotted outline, and filled or colored fields are not supported.
 * Images and text inside the images are not identified. Manually add images to converted forms.  
-* Only simple tables, with empty fields, proper headers, and clear boundaries are supported. Complex tables like borderless tables, nested tables, table with colored rows, and tables with placeholder values are not supported. Use [adaptive form editor](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/review-correct-ui-edited.html#main-pars_header_1182718738) to add or modify complex tables, after the conversion.  
+* Only simple tables, with empty fields, proper headers, and clear boundaries are supported. Complex tables like borderless tables, nested tables, table with colored rows, and tables with placeholder values are not supported. Use [adaptive form editor](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/review-correct-ui-edited.html#main-pars_header_1182718738) to add or modify complex tables, after the conversion.
+
+<!--fix above link-->
 
 * Review and Correct editor does not support form fragments and tables. Use [adaptive form editor](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/review-correct-ui-edited.html#main-pars_header_1182718738) to fix conversions that had the **Extract Fragment** or **Existing Fragments** option enabled during conversions and fix table-related issues.  
 
 * Review and Correct editor does not have undo action. The Save button saves the changes permanently.
-* Some form objects are easily visible to the human eye but are [difficult to identify for the service](../../../forms/using/wip/styles-and-pattern--considerations-and-best-practices-.md). Use [Review and correct editor](../../../forms/using/wip/review-correct-ui-edited.md) to identify and convert such form objects.
+* Some form objects are easily visible to the human eye but are [difficult to identify for the service](/help/forms/using/wip/styles-and-pattern--considerations-and-best-practices-.md). Use [Review and correct editor](/help/forms/using/wip/review-correct-ui-edited.md) to identify and convert such form objects.
 
 * When a choice group is deleted and manually recognized/drawn in Review and Correct editor, the text of the choice group are not extracted. Draw the field or text component to extract the text.
-* When the source document is a dynamic XFA (.XDP) and it [defines behavior of XFA properties in an adaptive form](../../../forms/using/xfa-api-supported-in-adaptive-form.md#supportedxfaelementsandtheirmappinginadaptiveformsbr), then the following are not supported:
+* When the source document is a dynamic XFA (.XDP) and it [defines behavior of XFA properties in an adaptive form](/help/forms/using/xfa-api-supported-in-adaptive-form.md#supportedxfaelementsandtheirmappinginadaptiveformsbr), then the following are not supported:
 
     * XFA-based scripts of source documents are ported to output adaptive forms.
     * Presence property of source document is not honored. For example, a field in source document is marked hidden and a script makes the field visible, then the field remains visible in the output adaptive form.

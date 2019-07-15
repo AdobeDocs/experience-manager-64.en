@@ -19,7 +19,7 @@ On the Adobe PDF Settings page, you can do the following tasks:
 
 * View the predefined PDF settings. (See [About the predefined PDF settings](configuring-pdf-settings.md#about-the-predefined-pdf-settings).)
 * Create a PDF setting or edit one that you created previously. (See [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).)
-* Specify default PDF settings. (See [Change the default settings](../../../forms/using/admin-help/configuring-file-type-settings.md#change-the-default-settings))
+* Specify default PDF settings. (See [Change the default settings](/help/forms/using/admin-help/configuring-file-type-settings.md#change-the-default-settings))
 * Upload a PDF settings file to the server. (See [Upload PDF settings](configuring-pdf-settings.md#upload-pdf-settings).)
 * Delete customized PDF settings. (See [Delete PDF settings](configuring-pdf-settings.md#delete-pdf-settings).)
 * Upload and download prologue and epilogue files. (See [Uploading and downloading prologue and epilogue files](configuring-pdf-settings.md#uploading-and-downloading-prologue-and-epilogue-files).)
@@ -133,40 +133,40 @@ Use the general options to specify the version of Acrobat to use for file compat
    <th><p>Acrobat 7 (PDF 1.6) and Acrobat 8 (PDF 1.7)</p> </th> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>Can be opened with Acrobat 3.0 and Acrobat Reader 3.0 and later.</p> </td> 
-   <td valign="top" width="NaN%"><p>Can be opened with Acrobat 3.0 and Acrobat Reader 3.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
-   <td valign="top" width="NaN%"><p>Most can be opened with Acrobat 4 and Acrobat Reader 4.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
-   <td valign="top" width="NaN%"><p>Most can be opened with Acrobat 4 and Acrobat Reader 4.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
+   <td><p>Can be opened with Acrobat 3.0 and Acrobat Reader 3.0 and later.</p> </td> 
+   <td><p>Can be opened with Acrobat 3.0 and Acrobat Reader 3.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
+   <td><p>Most can be opened with Acrobat 4 and Acrobat Reader 4.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
+   <td><p>Most can be opened with Acrobat 4 and Acrobat Reader 4.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>Cannot contain artwork that uses live transparency effects. Any transparency must be flattened before converting to PDF 1.3.</p> </td> 
-   <td valign="top" width="NaN%"><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
-   <td valign="top" width="NaN%"><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
-   <td valign="top" width="NaN%"><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
+   <td><p>Cannot contain artwork that uses live transparency effects. Any transparency must be flattened before converting to PDF 1.3.</p> </td> 
+   <td><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
+   <td><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
+   <td><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>Layers are not supported.</p> </td> 
-   <td valign="top" width="NaN%"><p>Layers are not supported.</p> </td> 
-   <td valign="top" width="NaN%"><p>Preserves layers when you create PDF files from applications that support the generation of layered PDF documents, such as Adobe Illustrator® CS or Adobe InDesign® CS and later.</p> </td> 
-   <td valign="top" width="NaN%"><p>Preserves layers when you create PDF files from applications that support the generation of layered PDF documents, such as Illustrator CS or InDesign CS and later.</p> </td> 
+   <td><p>Layers are not supported.</p> </td> 
+   <td><p>Layers are not supported.</p> </td> 
+   <td><p>Preserves layers when you create PDF files from applications that support the generation of layered PDF documents, such as Adobe Illustrator® CS or Adobe InDesign® CS and later.</p> </td> 
+   <td><p>Preserves layers when you create PDF files from applications that support the generation of layered PDF documents, such as Illustrator CS or InDesign CS and later.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>DeviceN color space with 8 colorants is supported.</p> </td> 
-   <td valign="top" width="NaN%"><p>DeviceN color space with 8 colorants is supported.</p> </td> 
-   <td valign="top" width="NaN%"><p>DeviceN color space with up to 31 colorants is supported.</p> </td> 
-   <td valign="top" width="NaN%"><p>DeviceN color space with up to 31 colorants is supported.</p> </td> 
+   <td><p>DeviceN color space with 8 colorants is supported.</p> </td> 
+   <td><p>DeviceN color space with 8 colorants is supported.</p> </td> 
+   <td><p>DeviceN color space with up to 31 colorants is supported.</p> </td> 
+   <td><p>DeviceN color space with up to 31 colorants is supported.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>Multibyte fonts can be embedded. (Distiller converts the fonts when embedding.)</p> </td> 
-   <td valign="top" width="NaN%"><p>Multibyte fonts can be embedded.</p> </td> 
-   <td valign="top" width="NaN%"><p>Multibyte fonts can be embedded.</p> </td> 
-   <td valign="top" width="NaN%"><p>Multibyte fonts can be embedded.</p> </td> 
+   <td><p>Multibyte fonts can be embedded. (Distiller converts the fonts when embedding.)</p> </td> 
+   <td><p>Multibyte fonts can be embedded.</p> </td> 
+   <td><p>Multibyte fonts can be embedded.</p> </td> 
+   <td><p>Multibyte fonts can be embedded.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>40-bit RC4 security is supported.</p> </td> 
-   <td valign="top" width="NaN%"><p>128-bit RC4 security is supported.</p> </td> 
-   <td valign="top" width="NaN%"><p>128-bit RC4 security is supported.</p> </td> 
-   <td valign="top" width="NaN%"><p>128-bit RC4 and 128-bit AES (Advanced Encryption Standard) security supported.</p> </td> 
+   <td><p>40-bit RC4 security is supported.</p> </td> 
+   <td><p>128-bit RC4 security is supported.</p> </td> 
+   <td><p>128-bit RC4 security is supported.</p> </td> 
+   <td><p>128-bit RC4 and 128-bit AES (Advanced Encryption Standard) security supported.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -231,24 +231,24 @@ This table shows contains types of printers and their resolution measured in dpi
    <th><p>Image resolution</p> </th> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>300 dpi (laser printer)</p> </td> 
-   <td valign="top" width="NaN%"><p>60 lpi</p> </td> 
-   <td valign="top" width="NaN%"><p>120 ppi</p> </td> 
+   <td><p>300 dpi (laser printer)</p> </td> 
+   <td><p>60 lpi</p> </td> 
+   <td><p>120 ppi</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>600 dpi (laser printer)</p> </td> 
-   <td valign="top" width="NaN%"><p>85 lpi</p> </td> 
-   <td valign="top" width="NaN%"><p>170 ppi</p> </td> 
+   <td><p>600 dpi (laser printer)</p> </td> 
+   <td><p>85 lpi</p> </td> 
+   <td><p>170 ppi</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>1200 dpi (imagesetter)</p> </td> 
-   <td valign="top" width="NaN%"><p>120 lpi</p> </td> 
-   <td valign="top" width="NaN%"><p>240 ppi</p> </td> 
+   <td><p>1200 dpi (imagesetter)</p> </td> 
+   <td><p>120 lpi</p> </td> 
+   <td><p>240 ppi</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>2400 dpi (imagesetter)</p> </td> 
-   <td valign="top" width="NaN%"><p>150 lpi</p> </td> 
-   <td valign="top" width="NaN%"><p>300 ppi</p> </td> 
+   <td><p>2400 dpi (imagesetter)</p> </td> 
+   <td><p>150 lpi</p> </td> 
+   <td><p>300 ppi</p> </td> 
   </tr> 
  </tbody> 
 </table>

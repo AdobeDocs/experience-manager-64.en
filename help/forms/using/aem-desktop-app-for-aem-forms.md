@@ -11,7 +11,7 @@ discoiquuid: c30332b6-e012-442d-8e84-28832c116c7b
 noindex: true
 ---
 
-# AEM Desktop App for AEM Forms{#aem-desktop-app-for-aem-forms}
+# AEM Desktop App for AEM Forms {#aem-desktop-app-for-aem-forms}
 
 AEM Desktop App lets you map the Adobe Experience Manager (AEM) Assets repository and AEM Forms binary files to a network directory on your system. You can view the synced assets and binary files in a file explorer and use various apps to edit the files as desired. Apart from viewing the files, you can also create, upload, and delete the binary files. You can also open, edit, and save files directly from software. For example, you can directly open and edit an XDP file from Designer. The changes that you make to the assets locally are reflected in AEM Assets repository and AEM Forms UI.
 
@@ -30,9 +30,9 @@ You can use the app to sync AEM Forms binary files of following type Form Templa
 AEM Desktop App uses WebDAV protocol on Microsoft Windows and SMB1 on Mac OS X to connect to an AEM Forms server. Out of the box, AEM Forms server is not enabled to sync binary files and other assets with a WebDAV or SMB client. Perform the following steps to enable AEM Forms for AEM Desktop App:
 
 1. Log in to AEM Forms as an administrator.
-1. In the author instance, click ** ![](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![](assets/hammer.png) &gt; Deployment &gt; Operations &gt; Web Console. **The Web Console opens in a new window.
-1. In Web Console Window, locate and open the **FormsManager AddOn Configuration** option.
-1. In the FormsManager AddOn Configuration dialog, deselect the** Asynchronously Sync Resources** check box, and click **Save**.
+1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png) **[!UICONTROL Adobe Experience Manager &gt; Tools** ![hammer](assets/hammer.png) **&gt; Deployment &gt; Operations &gt; Web Console]**. The Web Console opens in a new window.
+1. In Web Console Window, locate and open the **[!UICONTROL FormsManager AddOn Configuration]** option.
+1. In the FormsManager AddOn Configuration dialog, deselect the **[!UICONTROL Asynchronously Sync Resources]** check box, and click **[!UICONTROL Save]**.
 1. Restart the AEM Forms server. After the restart, AEM Forms server is enabled to accept and share content with AEM Desktop App.
 1. Open the app and connect to AEM Forms server.
 

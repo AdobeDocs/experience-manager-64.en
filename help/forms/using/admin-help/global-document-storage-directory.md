@@ -17,48 +17,48 @@ The *global document storage (GDS)* directory is a directory used to store long-
 
 Long-lived files may contain sensitive user information. This information may require special credentials when accessed by using the AEM forms APIs or user interfaces. It is important that the GDS directory is properly secured through the operating system. Only the administrator account that is used to run the application server should have read/write access to the GDS directory.
 
-In addition to selecting a secure, highly available directory for GDS, you can also choose to enable document storage in the database. Notice that even with using the AEM forms database for document storage, AEM forms still requires the GDS directory. (See [Backup options when database is used for document storage](../../../forms/using/admin-help/files-back-recover.md#backup-options-when-database-is-used-for-document-storage).)
+In addition to selecting a secure, highly available directory for GDS, you can also choose to enable document storage in the database. Notice that even with using the AEM forms database for document storage, AEM forms still requires the GDS directory. (See [Backup options when database is used for document storage](/help/forms/using/admin-help/files-back-recover.md#backup-options-when-database-is-used-for-document-storage).)
 
 AEM forms application data resides in the GDS directory and the AEM forms database. The following table describes the data and its locations.
 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e29288" valign="top" width="NaN%"><p>AEM forms Data</p></th> 
-   <th class="cellrowborder" id="d19e29291" valign="top" width="NaN%"><p>Database</p></th> 
-   <th class="cellrowborder" id="d19e29294" valign="top" width="NaN%"><p>GDS</p></th> 
+   <th><p>AEM forms Data</p></th> 
+   <th><p>Database</p></th> 
+   <th><p>GDS</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Application data (users, roles, processes, policies, endpoints, events, and so on.)</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>Yes</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>No</p></td> 
+   <td><p>Application data (users, roles, processes, policies, endpoints, events, and so on.)</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Deployed service containers</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>Yes</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>No</p></td> 
+   <td><p>Deployed service containers</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Document Manager </p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>No</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>Yes</p></td> 
+   <td><p>Document Manager </p></td> 
+   <td><p>No</p></td> 
+   <td><p>Yes</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Forms Repository</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>Yes</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>No</p></td> 
+   <td><p>Forms Repository</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>System configuration</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>Yes</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>No</p></td> 
+   <td><p>System configuration</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Watched folders</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>No</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>Yes</p></td> 
+   <td><p>Watched folders</p></td> 
+   <td><p>No</p></td> 
+   <td><p>Yes</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,9 +67,9 @@ AEM forms application data resides in the GDS directory and the AEM forms databa
 
 The location of the GDS directory can be configured manually during the AEM forms installation process. If the location setting remains empty during installation, the location defaults to a directory under the application server installation as follows:
 
-* (JBoss) *[appserver root]*/server/*[type]*/svcnative/DocumentStorage
-* (WebLogic) *[appserverdomain]*/*[server]*/adobe/DocumentServer/DocumentStorage
-* (WebSphere) *[appserver root]*/installedApps/adobe/*[server]*/DocumentStorage
+* (JBoss) `*[appserver root]*/server/*[type]*/svcnative/DocumentStorage`
+* (WebLogic) `*[appserverdomain]*/*[server]*/adobe/DocumentServer/DocumentStorage`
+* (WebSphere) `*[appserver root]*/installedApps/adobe/*[server]*/DocumentStorage`
 
 ## Change the default GDS location {#change-the-default-gds-location}
 

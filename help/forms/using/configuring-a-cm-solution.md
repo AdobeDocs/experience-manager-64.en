@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 186ca75c-638b-4057-826e-cd5d56aa0397
 ---
 
-# Configuring a Correspondence Management solution{#configuring-a-correspondence-management-solution}
+# Configuring a Correspondence Management solution {#configuring-a-correspondence-management-solution}
 
 ## Defining author instance URL for VersionRestoreManagerImpl {#defining-author-instance-url-for-versionrestoremanagerimpl}
 
@@ -20,7 +20,8 @@ Use the following steps to define an author instance URL for the author instance
 1. Find and click the **[!UICONTROL Edit]** icon next to the **[!UICONTROL com.adobe.livecycle.content.activate.impl.VersionRestoreManagerImpl.name]** setting.
 1. In the **[!UICONTROL VersionRestoreManager Author URL]** field, specify the URL of Author instance of VersionRestoreManager.
 
-   **URL string**:  
+   **URL string**:
+
    `https://<hostname>:<port>:/libs/fd/fdm/content/crud/lc.content.remote.activate.VersionRestoreManager`
 
    >[!NOTE]
@@ -39,7 +40,8 @@ Follow these steps the define the Publish instance URL for public instance activ
 
     * **Load Balancer URL (Recommended)**: Provide load balancer URL, If you have a webserver acting as load balancer in front of publish farm (multiple non-clustered publish instances).
     * **Publish instance URL**: Provide any publish instance URL, If you have a single publish instance or the webserver fronting the publish farm is not accessible from the author environment due to any restrictions. In case, the specified publish instance is down, there is a fallback mechanism to deal with on the author side.
-    * **URL string**:   
+    * **URL string**: 
+    
       `https://<hostname>:<port>:/libs/fd/fdm/content/crud/lc.content.remote.activate.activationManager`
 
 1. Click **[!UICONTROL Save]**.

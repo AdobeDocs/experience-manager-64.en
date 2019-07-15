@@ -10,7 +10,7 @@ topic-tags: Configuration
 discoiquuid: 6b31397a-fb06-4043-9368-59fb4fce8afa
 ---
 
-# Configure Microsoft Dynamics 365 for the home mortgage workflow of the We.Finance reference site{#configure-microsoft-dynamics-for-the-home-mortgage-workflow-of-the-we-finance-reference-site}
+# Configure Microsoft Dynamics 365 for the home mortgage workflow of the We.Finance reference site {#configure-microsoft-dynamics-for-the-home-mortgage-workflow-of-the-we-finance-reference-site}
 
 Learn how to leverage the Microsoft® Dynamics 365 services through adaptive forms for the home mortgage workflow of the We.Finance Reference site
 
@@ -18,13 +18,13 @@ Learn how to leverage the Microsoft® Dynamics 365 services through adaptive for
 
 Microsoft® Dynamics 365 is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases.
 
-AEM Forms provides a cloud service to integrate Dynamics 365 with [Forms Data Integration](../../forms/using/data-integration.md) module. The scenario [Home Mortgage application walkthrough with Microsoft® Dynamics](../../forms/using/finance-reference-site-walkthrough.md#home-mortgage-application-walkthrough-with-microsoft-dynamics) showcases how a customer uses the We.Finance reference site to apply for a loan when the site is using Microsoft® Dynamics for Forms Data Integration. Before you can use the Home Mortgage application walkthrough with Microsoft® Dynamics scenario, you need to configure Microsoft® Dynamics 365 to be used with the We.Finance reference site.
+AEM Forms provides a cloud service to integrate Dynamics 365 with [Forms Data Integration](/help/forms/using/data-integration.md) module. The scenario [Home Mortgage application walkthrough with Microsoft® Dynamics](/help/forms/using/finance-reference-site-walkthrough.md#home-mortgage-application-walkthrough-with-microsoft-dynamics) showcases how a customer uses the We.Finance reference site to apply for a loan when the site is using Microsoft® Dynamics for Forms Data Integration. Before you can use the Home Mortgage application walkthrough with Microsoft® Dynamics scenario, you need to configure Microsoft® Dynamics 365 to be used with the We.Finance reference site.
 
 ## Prerequisites {#prerequisites}
 
 Before you begin to set up and configure Dynamics 365, ensure that you have:
 
-* [Set up and configure AEM Forms reference sites](../../forms/using/setup-reference-sites.md).  
+* [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).  
 
 * AEM 6.3 Forms Service Pack 1 and later
 * Microsoft® Dynamics 365 account
@@ -40,13 +40,13 @@ Before you begin to set up and configure Dynamics 365, ensure that you have:
 1. Scroll down to the Home Mortgage Calculator.
 1. Highlight the right column's (calculator's) panel and tap to display the pop-up menu. In the pop-up menu, tap Configure. The Edit AEM Forms Container dialog appears.
 
-   ![](assets/calculatorconfigurepanel.png)
+   ![calculatorconfigurepanel](assets/calculatorconfigurepanel.png)
 
 1. In the Edit AEM Forms Container dialog, browse the asset path and select home-mortgage-calculator at the following path and tap **Confirm**:
 
    formsanddocuments/We.Finance/MS Dynamics/ 
 
-   ![](assets/selectassetpath.png)
+   ![selectassetpath](assets/selectassetpath.png)
 
 1. Tap **Done**.
 1. Publish the edited page.
@@ -59,15 +59,15 @@ Before you begin to set up and configure Dynamics 365, ensure that you have:
 
     1. Download the package from:
 
-       https://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip
-    
+       `https://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip`
+   
     1. Import the solution package to Microsoft® Dynamics instance. In your Microsoft® Dynamics instance, go to **Settings** &gt; **Solutions** and then tap **Import**.
 
 1. To set up user contact details used in the refsite, import the Sarah Rose Contact.CSV package to your Microsoft® Dynamics instance:
 
     1. Download the package from:
 
-       https://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/Sarah%20Rose%20Contact.csv
+       `https://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/Sarah%20Rose%20Contact.csv`
 
     1. Import the package to your Microsoft® Dynamics instance. In your Microsoft® Dynamics instance, go to **Sales** &gt; **Contacts** and then tap **Import Data**.
 

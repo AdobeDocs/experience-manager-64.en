@@ -11,27 +11,27 @@ topic-tags: interactive-communications
 discoiquuid: 43362643-69cd-4006-a613-f998c79eeddc
 ---
 
-# Embed an adaptive form or interactive communication in AEM sites page{#embed-an-adaptive-form-or-interactive-communication-in-aem-sites-page}
+# Embed an adaptive form or interactive communication in AEM sites page {#embed-an-adaptive-form-or-interactive-communication-in-aem-sites-page}
 
 ## Overview {#overview}
 
 AEM Forms allows form developers to seamlessly embed adaptive forms and interactive communications in an AEM Sites page or a web page hosted outside AEM. The embedded adaptive form and interactive communication is fully functional and users can fill and submit the form without leaving the page. It helps user remain in context of other elements on the web page and simultaneously interact with the form or interactive communication.
 
-For information about embedding an adaptive form in an external web page, see [Embed adaptive form in external web page](../../forms/using/embed-adaptive-form-external-web-page.md).
+For information about embedding an adaptive form in an external web page, see [Embed adaptive form in external web page](/help/forms/using/embed-adaptive-form-external-web-page.md).
 
 In AEM Sites page, you can add an adaptive form or interactive communication using:
 
-* ** [AEM Forms Container component](../../forms/using/embed-adaptive-form-aem-sites.md#af-component)** 
+* **[AEM Forms Container component](/help/forms/using/embed-adaptive-form-aem-sites.md#af-component)** 
   AEM Forms provides a component that you can add to your site pages. The AEM Forms Container component lets you embed an adaptive form and interactive communication.  
 
-* ** [Asset browser](../../forms/using/embed-adaptive-form-aem-sites.md#asset-browser)** 
+* **[Asset browser](/help/forms/using/embed-adaptive-form-aem-sites.md#asset-browser)** 
   All the forms and interactive communications you create are available under Assets. You can drag-drop the form as an asset on your page.
 
 ## Prerequisites {#prerequisites}
 
-To embed an adaptive form or interactive communication in an AEM sites page that uses an editable template, ensure that the AEM Form component is configured as an allowed component in the associated template. For more information, see **Policy & Properties (Layout Container)** section in [Creating Page Templates](../../sites/authoring/using/templates.md).
+To embed an adaptive form or interactive communication in an AEM sites page that uses an editable template, ensure that the AEM Form component is configured as an allowed component in the associated template. For more information, see **Policy & Properties (Layout Container)** section in [Creating Page Templates](/help/sites-authoring/templates.md).
 
-In case of a Sites page using a static template, you need to configure it in the paragraph system of the site page. See [Configuring Components in Design Mode](../../sites/authoring/using/default-components-designmode.md) for more information.
+In case of a Sites page using a static template, you need to configure it in the paragraph system of the site page. See [Configuring Components in Design Mode](/help/sites-authoring/default-components-designmode.md) for more information.
 
 ## Embedding an adaptive form or interactive communication {#af-component}
 
@@ -46,11 +46,10 @@ To embed an adaptive form or interactive communication using AEM Forms Container
    >
    >Multiple AEM Forms Container components on a page are not supported.
 
-1. Tap the embedded AEM Forms Container component in the sites page, and then tap ![](assets/settings_icon.png) on the action bar. The **Edit AEM Forms Container **dialog opens.
+1. Tap the embedded AEM Forms Container component in the sites page, and then tap ![settings_icon](assets/settings_icon.png) on the action bar. The **[!UICONTROL Edit AEM Forms Container]** dialog opens.
 1. In the Edit AEM Forms Container dialog, specify the following.
 
-    * **Asset Type:** Select the type of asset to embed. The options are adaptive form and interactive communication  
-    
+    * **Asset Type:** Select the type of asset to embed. The options are adaptive form and interactive communication 
     * **Asset Path**: Browse and select the adaptive form or interactive communication to embed. It is auto-populated if you dropped it from the Assets browser.
     * (Adaptive form only) **Post Submission**: Select the action to trigger on form submission. You can choose to show a thank you message or a thank you page.
 
@@ -58,8 +57,7 @@ To embed an adaptive form or interactive communication using AEM Forms Container
         * **Thank You Page**: Browse and select the page to display on form submission. This option is available only when you choose to show a thank you page.
         * **Refresh Page on Submission**: Enable to refresh the page containing the embedded adaptive form to show the thank you page. Otherwise, the thank you page replaces the adaptive form in the AEM Forms container, without refreshing the page. This option is available only when you choose to show a thank you page.
 
-    * **Theme**: Select a theme that defines styling for components of your adaptive form or interactive communication. Styling includes appearance properties such as font style, background color, dimensions, and alignment.  
-    
+    * **Theme**: Select a theme that defines styling for components of your adaptive form or interactive communication. Styling includes appearance properties such as font style, background color, dimensions, and alignment.
     * **Height**: Specify the height of the container. Leave it blank to automatically resize the container.
     * **CSS Client library**: Specify path to a CSS client library.
 
@@ -80,7 +78,7 @@ AEM sites page maintains a reference to the adaptive form and interactive commun
 To modify any configuration or property of the embedded adaptive form and interactive communication, do one of the following.
 
 * Open the original form in adaptive forms or interactive communication in respective editors and modify them.
-* Tap the adaptive form or interactive communication from within the site page in edit mode and then tap **Edit in a new window**. The original form opens in edit mode that you can modify.
+* Tap the adaptive form or interactive communication from within the site page in edit mode and then tap **[!UICONTROL Edit in a new window]**. The original form opens in edit mode that you can modify.
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a4fb1a11-8fe3-4092-a036-1c079aea1250
 ---
 
-# Creating and managing policy sets{#creating-and-managing-policy-sets}
+# Creating and managing policy sets {#creating-and-managing-policy-sets}
 
 Policy sets are used to group policies that have a common business purpose. Policy sets can be made available to a subset of users in the system.
 
@@ -44,7 +44,7 @@ Global Policy Set is the only default policy set that is created upon installati
 During policy set creation, you can use the Back button to return to the previous screen and the Save button to save your policy set at any time.
 
 1. On the document security, page, click Policies, click the Policy Sets tab, and then click New.
-1. In the Name box, type a name for the policy set, optionally type a Description, and then click Next. The name cannot contain a colon (:).
+1. In the Name box, type a name for the policy set, optionally type a Description, and then click Next. The name cannot contain a colon **:**.
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ During policy set creation, you can use the Back button to return to the previou
 
 1. Click Save.
 
-You can now add policies to your policy set. (See [Creating and editing policies](../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies).)
+You can now add policies to your policy set. (See [Creating and editing policies](/help/forms/using/admin-help/creating-policies.md#creating-and-editing-policies).)
 
 ## Edit a policy set {#edit-a-policy-set}
 
@@ -98,7 +98,7 @@ You can now add policies to your policy set. (See [Creating and editing policies
 1. On the Policies tab, search for policies to add to the policy set and create new policies:
 
     * To search for a policy, select Policy ID or Policy Name, type the corresponding value, select the number of items to display, and click Find. 
-    * For details about creating a new policy, see [Creating and editing policies](../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies).
+    * For details about creating a new policy, see [Creating and editing policies](/help/forms/using/admin-help/creating-policies.md#creating-and-editing-policies).
 
 ## Delete a policy set {#delete-a-policy-set}
 

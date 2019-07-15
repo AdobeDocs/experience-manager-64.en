@@ -9,7 +9,7 @@ topic-tags: integration
 discoiquuid: 1dafd400-16c0-416d-9e81-7bf53b761f98
 ---
 
-# Configure data sources{#configure-data-sources}
+# Configure data sources {#configure-data-sources}
 
 Learn how to configure different types of data sources and leverage to create form data models.
 
@@ -29,7 +29,7 @@ Data integration supports OAuth2.0, Basic Authentication, and API Key authentica
 
 You can configure relational databases using AEM Web Console Configuration. Do the following:
 
-1. Go to AEM web console at https://[server]:[host]/system/console/configMgr.
+1. Go to AEM web console at `https://[server]:[host]/system/console/configMgr`.
 1. Look for **[!UICONTROL Apache Sling Connection Pooled DataSource]** configuration. Tap to open the configuration in edit mode.
 1. In the configuration dialog, specify the details for the database you want to configure, such as:
 
@@ -43,13 +43,9 @@ You can configure relational databases using AEM Web Console Configuration. Do t
    >
    >Ensure that you encrypt sensitive information like passwords before configuring the data source. To encrypt:
    >
-   >    
-   >    
-   >    1. Go to https://[server]:[port]/system/console/crypto.
-   >    1. In the **[!UICONTROL Plain Text]** field, specify the password or any string to encrypt and click **[!UICONTROL Protect]**.
-   >    
-   >    
-   >    
+   >1. Go to `https://[server]:[port]/system/console/crypto`.
+   >1. In the **[!UICONTROL Plain Text]** field, specify the password or any string to encrypt and click **[!UICONTROL Protect]**.
+   >
    >The encrypted text appears in the Protected Text field that you can specify in the configuration.
 
 1. Enable **[!UICONTROL Test on Borrow]** or **[!UICONTROL Test on Return]** to specify that the objects are validated before being borrowed or returned from and to the pool, respectively.
@@ -64,7 +60,7 @@ You can configure relational databases using AEM Web Console Configuration. Do t
 
 You can configure AEM user profile using User Profile Connector configuration in AEM Web Console. Do the following:
 
-1. Go to AEM web console at https://[server]:[host]/system/console/configMgr.
+1. Go to AEM web console at `https://[server]:[host]/system/console/configMgr`.
 1. Look for **[!UICONTROL AEM Forms Data Integrations - User Profile Connector Configuration]** and tap to open the configuration in edit mode.
 1. In the User Profile Connector Configuration dialog, you can add, remove, or update user profile properties. The specified properties will be available for use in form data model. Use the following format to specify user profile properties:
 
@@ -77,7 +73,7 @@ You can configure AEM user profile using User Profile Connector configuration in
 
    >[!NOTE] {grayBox="true"}
    >
-   >The **&#42;** in the above example denotes all nodes under the `profile/empLocation/` node in AEM user profile in CRXDE structure. It means that the form data model can access the `city` property of type `string` present in any node under the `profile/empLocation/` node. However, the nodes that contain the specified property must follow a consistent structure.
+   >The **&ast;** in the above example denotes all nodes under the `profile/empLocation/` node in AEM user profile in CRXDE structure. It means that the form data model can access the `city` property of type `string` present in any node under the `profile/empLocation/` node. However, the nodes that contain the specified property must follow a consistent structure.
 
 1. Tap **[!UICONTROL Save]** to save the configuration.
 
@@ -93,9 +89,7 @@ To configure the folder for cloud service configurations:
 1. Do the following to enable the global folder for cloud configurations or skip this step to create and configure another folder for cloud service configurations.
 
     1. In the **[!UICONTROL Configuration Browser]**, select the `global` folder and tap **[!UICONTROL Properties]**.
-    
     1. In the **[!UICONTROL Configuration Properties]** dialog, enable **[!UICONTROL Cloud Configurations]**.
-    
     1. Tap **[!UICONTROL Save & Close]** to save the configuration and exit the dialog.
 
 1. In the **[!UICONTROL Configuration Browser]**, tap **[!UICONTROL Create]**.
@@ -110,7 +104,7 @@ Do the following to configure RESTful services:
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](/help/forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL RESTful Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following details for the RESTful service:
@@ -126,7 +120,7 @@ SOAP-based web services are described using [Web Services Description Language (
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](/help/forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL SOAP Web Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following for the SOAP web service:
@@ -142,11 +136,11 @@ An OData service is identified by its service root URL. To configure an OData se
 
 >[!NOTE]
 >
->For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](../../forms/using/ms-dynamics-odata-configuration.md).
+>For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](/help/forms/using/ms-dynamics-odata-configuration.md).
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](/help/forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL OData Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following details for the OData service:
@@ -162,4 +156,4 @@ An OData service is identified by its service root URL. To configure an OData se
 
 ## Next steps {#next-steps}
 
-You have configured the data sources. Next you can create a form data model or if you have already created a form data model without a data source, you can associate it with the data sources you just configured. See [Create form data model](../../forms/using/create-form-data-models.md) for details.
+You have configured the data sources. Next you can create a form data model or if you have already created a form data model without a data source, you can associate it with the data sources you just configured. See [Create form data model](/help/forms/using/create-form-data-models.md) for details.

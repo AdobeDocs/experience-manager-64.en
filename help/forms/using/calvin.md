@@ -11,13 +11,13 @@ topic-tags: develop
 discoiquuid: 2daf95b6-bf72-4191-bdb7-e17e76b166f3
 ---
 
-# Automate testing of adaptive forms{#automate-testing-of-adaptive-forms}
+# Automate testing of adaptive forms {#automate-testing-of-adaptive-forms}
 
 ## Overview {#overview}
 
 Adaptive forms are integral to your customer interactions. It is important to test your adaptive forms with every change you make in them, such as while rolling out a new fix pack or changing a rule in the form. However, functional testing adaptive forms and every field in them may be tedious.
 
-Calvin allows you to automate testing of your adaptive forms in the web browser. Calvin utilizes [Hobbes](../../sites/developing/using/hobbes.md)'s user interface for running the tests and provides the following tools:
+Calvin allows you to automate testing of your adaptive forms in the web browser. Calvin utilizes [Hobbes](/help/sites-developing/hobbes.md)'s user interface for running the tests and provides the following tools:
 
 * A JavaScript API for creating tests.
 * A user interface for running tests.
@@ -48,29 +48,29 @@ Using Calvin, you can create test cases in CRXDE and run UI tests directly in th
     </ul> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="221"><p>Expression Rules</p> <p> </p> </td> 
-   <td valign="top" width="221"> 
+   <td><p>Expression Rules</p> <p> </p> </td> 
+   <td> 
     <ul> 
      <li>Are the expressions associated with form objects, such as calculate, visible, execute scripts after exiting a field, being executed after performing the relevant UI operations?<br /> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="221">Validations</td> 
-   <td valign="top" width="221"> 
+   <td>Validations</td> 
+   <td> 
     <ul> 
      <li>Are field validations executing as expected after performing the operations?</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="221"><p>Lazy Loading</p> <p> </p> </td> 
-   <td valign="top" width="221"> 
+   <td><p>Lazy Loading</p> <p> </p> </td> 
+   <td> 
     <ul> 
      <li>On click of tabs (or any navigation item of a panel), is the HTML being fetched from server as per lazy loading configuration?</li> 
-    </ul> <h1> </h1> </td> 
+    </ul></td> 
   </tr> 
   <tr> 
-   <td valign="top" width="221"><p>UI Interaction</p> </td> 
-   <td valign="top" width="221"> 
+   <td><p>UI Interaction</p> </td> 
+   <td> 
     <ul> 
      <li><a href="https://helpx.adobe.com/aem-forms/6-3/calvin-sdk-javascript-api/calvin.html#toc2__anchor" target="_blank">Testing UI interaction with Adaptive Form objects</a></li> 
     </ul> </td> 
@@ -91,11 +91,11 @@ Before using this article to create your test cases, you need to know the follow
 The following example walks you through creation of a test suite for testing multiple adaptive forms. You need to create a separate test case for each form that you need to test. By following steps similar to the following ones and modifying the JavaScript code in step 11, you can create your own test suite to test your adaptive forms.
 
 1. Go to CRXDE Lite in your web browser: `https://[server]:[port]/crx/de`.
-1. Right-click the /etc/clientlibs subfolder and click **Create** &gt; **Create Node**. Enter a name (here afTestRegistration), specify the type of node as cq:ClientLibraryFolder, and click **OK.**
+1. Right-click the /etc/clientlibs subfolder and click **[!UICONTROL Create** &gt; **Create Node]**. Enter a name (here afTestRegistration), specify the type of node as cq:ClientLibraryFolder, and click **[!UICONTROL OK]**.
 
    The clientlibs folder contains the registration aspect of your application (JS and Init). It is recommended that you register all Hobbes test suites objects specific to a form in the clientlibs folder.
 
-1. Specify the following property values in the newly created node (here afTestRegistration) and then click** Save All**. These properties help Hobbes recognize the folder as a test. To reuse this client library as a dependency in other client libraries, name it as granite.testing.calvin.tests. 
+1. Specify the following property values in the newly created node (here afTestRegistration) and then click **[!UICONTROL Save All]**. These properties help Hobbes recognize the folder as a test. To reuse this client library as a dependency in other client libraries, name it as granite.testing.calvin.tests. 
 
 <table> 
  <tbody> 
@@ -105,14 +105,14 @@ The following example walks you through creation of a test suite for testing mul
    <td>Value</td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>categories</p> </td> 
-   <td valign="top"><p>String[]</p> </td> 
-   <td valign="top"><p>granite.testing.hobbes.tests, granite.testing.calvin.tests</p> </td> 
+   <td><p>categories</p> </td> 
+   <td><p>String[]</p> </td> 
+   <td><p>granite.testing.hobbes.tests, granite.testing.calvin.tests</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>dependencies</p> </td> 
-   <td valign="top"><p>String[]</p> </td> 
-   <td valign="top"><p>granite.testing.hobbes.testrunner, granite.testing.calvin, apps.testframework.all</p> </td> 
+   <td><p>dependencies</p> </td> 
+   <td><p>String[]</p> </td> 
+   <td><p>granite.testing.hobbes.testrunner, granite.testing.calvin, apps.testframework.all</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,9 +121,9 @@ The following example walks you through creation of a test suite for testing mul
    >
    >The granite.testing.calvin.af clientlib contains all the adaptive forms APIs. These APIs are part of the calvin namespace.
 
-   ![](assets/1_aftestregistration.png)
+   ![1_aftestregistration](assets/1_aftestregistration.png)
 
-1. Right-click the test node (here **afTestRegistration)** and then click **Create** &gt; **Create File**. Name the file js.txt and click **OK**.
+1. Right-click the test node (here **afTestRegistration)** and then click **[!UICONTROL Create** &gt; **Create File]**. Name the file js.txt and click **[!UICONTROL OK]**.
 1. In the js.txt file, add the following text:
 
    ```
@@ -132,9 +132,9 @@ The following example walks you through creation of a test suite for testing mul
    
    ```
 
-1. Click **Save All** and then close the js.txt file.
-1. Right-click the test node (here **afTestRegistration)** and click **Create** &gt; **Create File**. Name the file init.js and click **OK**.
-1. Copy the following code to the init.js file and click **Save All**:
+1. Click **[!UICONTROL Save All]** and then close the js.txt file.
+1. Right-click the test node (here **afTestRegistration)** and click **[!UICONTROL Create** &gt; **Create File]**. Name the file init.js and click **[!UICONTROL OK]**.
+1. Copy the following code to the init.js file and click **[!UICONTROL Save All]**:
 
    ```
    (function(window, hobs) {
@@ -152,7 +152,7 @@ The following example walks you through creation of a test suite for testing mul
 
    The above code creates a test suite named **Adaptive Form - Demo Test**. To create a test suite with a different name, change the name accordingly.
 
-1. Click **Create** > **Create Node** to create a node under the clientlib folder for each form that you want to test. This example uses a node named **testForm **to test an adaptive form named **testForm** `.`Specify the following properties and click **OK**:
+1. Click **[!UICONTROL Create** > **Create Node]** to create a node under the clientlib folder for each form that you want to test. This example uses a node named **testForm **to test an adaptive form named **testForm** `.`Specify the following properties and click **[!UICONTROL OK]**:
 
     * Name: testForm (your form name)
     * Type: cq:ClientLibraryFolder
@@ -168,9 +168,9 @@ The following example walks you through creation of a test suite for testing mul
    >
    >This example uses a dependency on the client lib granite.testing.calvin.tests for better management. This example also adds a client lib category, "granite.testing.hobbes.tests.testForm" to reuse this client lib, if necessary.
 
-   ![](assets/2_testformproperties.png)
+   ![2_testformproperties](assets/2_testformproperties.png)
 
-1. Right-click the folder you have created for the test form (here testForm) and select **Create** &gt; **Create File**. Name the file scriptingTest.js and add the following code to the file and click **Save All.**
+1. Right-click the folder you have created for the test form (here testForm) and select **[!UICONTROL Create** &gt; **Create File]**. Name the file scriptingTest.js and add the following code to the file and click **[!UICONTROL Save All.]**
 
    To use the following code to test another adaptive form, change the path and name of the form in **navigateTo** (lines 11, 36, and 62) and the respective test cases. For more information on APIs for testing different aspects of forms and form objects, see [Calvin APIs](https://helpx.adobe.com/aem-forms/6-3/calvin-sdk-javascript-api/calvin.html).
 
@@ -267,7 +267,7 @@ The following example walks you through creation of a test suite for testing mul
    
    ```
 
-   The test case is created. Proceed to run the test case to test adaptive forms through Hobbes. For steps for running the test cases, see [Executing Tests in Testing Your UI Using Automated Tests](../../sites/developing/using/hobbes.md).
+   The test case is created. Proceed to run the test case to test adaptive forms through Hobbes. For steps for running the test cases, see [Executing Tests in Testing Your UI Using Automated Tests](/help/sites-developing/hobbes.md).
 
 You can also install the package in the attached file SampleTestPackage.zip to achieve the same results as by the steps explained in Example: Create a test suite for an adaptive form using Hobbes as testing framework.
 
@@ -279,29 +279,29 @@ You can also install the package in the attached file SampleTestPackage.zip to a
 
 Tests Suites can be run individually. When you run a Test Suite, the page changes as the Test Cases and their Actions are executed and the results appear after completion of the test. Icons indicate the results.
 
-A checkmark icon indicates a passed test: ![](assets/checkmark.png)
+A checkmark icon indicates a passed test: ![checkmark](assets/checkmark.png)
 
-An "X" icon indicates a failed test: ![](assets/cross.png)
+An "X" icon indicates a failed test: ![cross](assets/cross.png)
 
 To run a Test Suite:
 
 1. In the Tests panel, click or tap the name of the Test Case that you want to run to expand the deatils of the Actions.
 
-   ![](assets/1_tapnameoftestcase.png)
+   ![1_tapnameoftestcase](assets/1_tapnameoftestcase.png)
 
-1. Click or tap the Run tests button. ![](assets/runtestcase.png)
+1. Click or tap the Run tests button. ![runtestcase](assets/runtestcase.png)
 
-   ![](assets/2_clickrun.png)
+   ![2_clickrun](assets/2_clickrun.png)
 
 1. The placeholder is replaced with page content as the test executes.
 
-   ![](assets/3_pagecontent.png)
+   ![3_pagecontent](assets/3_pagecontent.png)
 
 1. Review the results of the Test Case by tapping or clicking the description to open the Result panel. Tapping or clicking the name of your Test Case in the Result panel shows all details.
 
-   ![](assets/4_reviewresults.png)
+   ![4_reviewresults](assets/4_reviewresults.png)
 
-The steps for testing your AEM adaptive forms are similar to steps for testing your AEM UI. For more information on testing your adaptive forms, see the following topics in [Testing Your UI](https://helpx.adobe.com//experience-manager/6-3/sites/developing/using/hobbes.html):
+The steps for testing your AEM adaptive forms are similar to steps for testing your AEM UI. For more information on testing your adaptive forms, see the following topics in [Testing Your UI](https://helpx.adobe.com//experience-manager/6-3/sites-developing/hobbes.html):
 
 * Viewing Test Suites
 * Running Multiple Tests
@@ -315,20 +315,20 @@ The steps for testing your AEM adaptive forms are similar to steps for testing y
    <td><strong>Description</strong></td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>Test suite</p> </td> 
-   <td valign="top" width="315"><p>A test suite is a collection of related test cases.</p> </td> 
+   <td><p>Test suite</p> </td> 
+   <td><p>A test suite is a collection of related test cases.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>Test case</p> </td> 
-   <td valign="top" width="315"><p>A test case represents a task that a user performs using your UI. Add test cases to your test suite to test the activities that users perform.</p> </td> 
+   <td><p>Test case</p> </td> 
+   <td><p>A test case represents a task that a user performs using your UI. Add test cases to your test suite to test the activities that users perform.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>Actions</p> </td> 
-   <td valign="top" width="315"><p>Actions are methods that perform a gesture in the UI, such as clicking a button or filling an input box with a value.</p> <p>The methods of the hobs.actions.Asserts, hobs.actions.Core and hobs.utils.af classes are actions that you can use in your tests. All actions execute synchronously.</p> </td> 
+   <td><p>Actions</p> </td> 
+   <td><p>Actions are methods that perform a gesture in the UI, such as clicking a button or filling an input box with a value.</p> <p>The methods of the hobs.actions.Asserts, hobs.actions.Core and hobs.utils.af classes are actions that you can use in your tests. All actions execute synchronously.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>Author or publish environment</p> </td> 
-   <td valign="top" width="315"><p>In general, forms can either be tested in author or publish environment. In case of publish environment, by default, the access to execute the test is restricted. This is because all the client libraries related to test runner lies inside the /libs in the JCR structure.</p> </td> 
+   <td><p>Author or publish environment</p> </td> 
+   <td><p>In general, forms can either be tested in author or publish environment. In case of publish environment, by default, the access to execute the test is restricted. This is because all the client libraries related to test runner lies inside the /libs in the JCR structure.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -49,7 +49,7 @@ You can enter specific attributes to perform a detailed search. A detailed searc
 1. To add or remove rows, click More Filters or Fewer Filters. You can have from one to four rows.
 1. Click Search. The Process Instance page appears, listing the found instances.
 
-[About process instance statuses](../../../forms/using/admin-help/processes.md#about-process-instance-statuses)
+[About process instance statuses](/help/forms/using/admin-help/processes.md#about-process-instance-statuses)
 
 ## Perform a combined search for a process {#perform-a-combined-search-for-a-process}
 

@@ -8,7 +8,7 @@ topic-tags: installing
 discoiquuid: 674c6b68-8a04-4cd3-a63e-9968ca686948
 ---
 
-# Install and configure Interactive Communications{#install-and-configure-interactive-communications}
+# Install and configure Interactive Communications {#install-and-configure-interactive-communications}
 
 ## Introduction {#introduction}
 
@@ -16,15 +16,15 @@ AEM Form has a capability to centralize creation, assembly, management and deliv
 
 You can use the interactive communication capability to produce communication in multiple formats. For example, web and PDF. You can integrate interactive communication with AEM Workflow to process and deliver the assembled communication to customers on the channel of their choice. For example, sending a communication to end user through email.
 
-If you are upgrading from a previous version and have already invested in correspondence management, you can install the [compatibility package](../../forms/using/installing-configuring-intreactive-communication-correspondence-management.md#install-compatibility-package) to continue using correspondence management. For information about the differences between interactive communication and correspondence management, see [Interactive Communication Overview](../../forms/using/interactive-communications-overview.md#interactive-communications-vs-correspondence-management).
+If you are upgrading from a previous version and have already invested in correspondence management, you can install the [compatibility package](/help/forms/using/installing-configuring-intreactive-communication-correspondence-management.md#install-compatibility-package) to continue using correspondence management. For information about the differences between interactive communication and correspondence management, see [Interactive Communication Overview](/help/forms/using/interactive-communications-overview.md#interactive-communications-vs-correspondence-management).
 
-AEM Forms is a powerful enterprise-class platform. Interactive communication is only one of the capability of AEM Forms. For the complete list of capabilities, see [Introduction to AEM Forms](../../forms/using/introduction-aem-forms.md).
+AEM Forms is a powerful enterprise-class platform. Interactive communication is only one of the capability of AEM Forms. For the complete list of capabilities, see [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md).
 
 ## Deployment Topology {#deployment-topology}
 
-AEM Forms add-on package is an application deployed onto AEM. You require only a minimum of one AEM Author and Processing instance to run the Interactive Communications capability. The following topology is indicative topology to run AEM Forms Interactive Communications, Correspondence Management, AEM Forms data capture, and Forms-Centric workflow on OSGi capabilities. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](../../forms/using/aem-forms-architecture-deployment.md).
+AEM Forms add-on package is an application deployed onto AEM. You require only a minimum of one AEM Author and Processing instance to run the Interactive Communications capability. The following topology is indicative topology to run AEM Forms Interactive Communications, Correspondence Management, AEM Forms data capture, and Forms-Centric workflow on OSGi capabilities. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](/help/forms/using/aem-forms-architecture-deployment.md).
 
-![](assets/recommended-topology.png)
+![recommended-topology](assets/recommended-topology.png)
 
 AEM Forms Interactive Communications run admin, authoring, and agent user interfaces on the Author instances of AEM Forms. The Publish instances host final version of interactive communications which are ready for consumption by end-users.
 
@@ -32,14 +32,13 @@ AEM Forms Interactive Communications run admin, authoring, and agent user interf
 
 Before you begin to install and configure interactive communication and correspondence management capabilities of AEM Forms, ensure that:
 
-* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](../../sites/deploying/using/technical-requirements.md).  
+* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites-deploying/technical-requirements.md).  
 
 * Installation path of the AEM instance does not contain white-spaces.
 * An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least one AEM instances (Author or Processing) to run AEM Forms interactive communication and correspondence management capabilities:
 
     * **Author**: An AEM instance used to create, upload, and edit content and to administer the website. Once content is ready to go live, it is replicated to the publish instance.
-    * **Processing:** A processing instance is a [hardened AEM Author](../../forms/using/hardening-securing-aem-forms-environment.md) instance. You can set up an Author instance and harden it after performing the installation.   
-    
+    * **Processing:** A processing instance is a [hardened AEM Author](/help/forms/using/hardening-securing-aem-forms-environment.md) instance. You can set up an Author instance and harden it after performing the installation. 
     * **Publish**: An AEM instance that serves the published content to the public over the Internet or an internal network.
 
 * Memory requirements are met. AEM Forms add-on package requires:
@@ -123,7 +122,7 @@ Perform the following steps on all the Author and Publish instances to boot dele
 
 Perform the following steps on all the Author and Publish instances to whitelist the package:
 
-1. Open AEM Configuration Manager in a browser window. The default URL is https://[server]:[port]/system/console/configMgr.
+1. Open AEM Configuration Manager in a browser window. The default URL is `https://[server]:[port]/system/console/configMgr`.
 1. Search and open **Deserialization Firewall Configuration**.
 1. Add the **sun.util.calendar **package to the **whitelist **field. Click Save.
 1. Repeat steps 1-3 on all the Author and Publish instances.
@@ -155,13 +154,13 @@ Dispatcher is caching and load balancing tool for AEM. AEM Dispatcher also helps
 
 1. Configure the referrer filter service:
 
-   Log in to the Apache Felix configuration manager as an administrator. The Default URL of the configuration manager is https://[server]:[port_number]/system/console/configMgr. In the **Configurations **menu, select the **Apache Sling Referrer Filter** option. In the Allow Hosts field, enter host name of the dispatcher to allow it as a referrer and click **Save**. The format of the entry is https://[server]:[port].
+   Log in to the Apache Felix configuration manager as an administrator. The Default URL of the configuration manager is `https://[server]:[port_number]/system/console/configMgr`. In the **Configurations** menu, select the **Apache Sling Referrer Filter** option. In the Allow Hosts field, enter host name of the dispatcher to allow it as a referrer and click **Save**. The format of the entry is `https://[server]:[port]`.
 
 #### Integrate Adobe Target {#integrate-adobe-target}
 
 Your customers are likely to abandon an interactive communication if the experience it delivers is not engaging. While it is frustrating for the customers, it can also upturn the support volume and cost for your organization. It is critical and challenging to identify and provide the right customer experience that increases the conversion rate. AEM forms holds the key to this problem.
 
-AEM forms integrates with Adobe Target, an Adobe Marketing Cloud solution, to deliver personalized and engaging customer experiences across multiple digital channels. To use Adobe Target to personalize an interactive communication, [Integrate Adobe Target with AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#setupandintegratetargetinaemforms).
+AEM forms integrates with Adobe Target, an Adobe Marketing Cloud solution, to deliver personalized and engaging customer experiences across multiple digital channels. To use Adobe Target to personalize an interactive communication, [Integrate Adobe Target with AEM Forms](/help/forms/using/ab-testing-adaptive-forms.md#setupandintegratetargetinaemforms).
 
 #### Configure SSL communcation for Form Data Model  {#configure-ssl-communcation-for-form-data-model}
 
@@ -173,9 +172,9 @@ You can enable SSL communication for Form Data Model. To enable SSL communicatio
 
 You have configured an environment to use interactive communication and correspondence management capabilities. Now, the steps towards using the capability are:
 
-* [Correspondence management overview](../../forms/using/interactive-communications-overview.md)  
+* [Correspondence management overview](/help/forms/using/interactive-communications-overview.md)  
 
-* [Create an interactive communication](../../forms/using/create-interactive-communication.md)  
+* [Create an interactive communication](/help/forms/using/create-interactive-communication.md)  
 
-* [Create a correspondence management letter](../../forms/using/create-letter.md)
+* [Create a correspondence management letter](/help/forms/using/create-letter.md)
 

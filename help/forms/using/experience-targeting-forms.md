@@ -10,13 +10,13 @@ topic-tags: integrations
 discoiquuid: 6cf54a08-d429-4a58-8429-a1cb784448d1
 ---
 
-# Create targeted experiences in AEM Forms{#create-targeted-experiences-in-aem-forms}
+# Create targeted experiences in AEM Forms {#create-targeted-experiences-in-aem-forms}
 
 ## Integrate Adobe Target with AEM Forms {#integrate-adobe-target-with-aem-forms}
 
 Adobe Target integrated with AEM lets you create experiences customized for a target audience. With Adobe Target, you can create A/B tests, measure user response, and generate customized web content for targeted users. You can integrate Adobe Target with AEM Forms to target image components of adaptive forms and interactive communications.
 
-Configure Adobe Target in AEM to use it with adaptive forms and interactive communications, see [Creating a Target Configuration in AEM](../../sites/administering/using/target.md) and [Add a Framework](../../sites/administering/using/target.md).
+Configure Adobe Target in AEM to use it with adaptive forms and interactive communications, see [Creating a Target Configuration in AEM](/help/sites-administering/target.md) and [Add a Framework](/help/sites-administering/target.md).
 
 >[!NOTE]
 >
@@ -28,17 +28,20 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
    `https://<hostname>:<port>/libs/cq/personalization/touch-ui/content/v2/activities.html`
 
-1. In the Activities page, tap **Create > Create Brand**. `` 
-1. You are asked to choose a template and enter properties.  
+1. In the Activities page, tap **Create > Create Brand**. 
+1. You are asked to choose a template and enter properties.
+
    Select a template, tap **Next.** Enter the title of your brand in the Properties section, and tap **Create.** 
    Your brand is now listed in the Activities page. 
+
 1. Tap your brand in the Activities page. 
-1. In Master Area of your brand, tap **Create &gt;** **Create Activity**.  
+1. In Master Area of your brand, tap **Create** &gt; **Create Activity**. 
+
    When you create an activity, you specify its details, target, and settings.
 
    The Details section includes name, targeting engine, and objective. When you select Adobe Target as the targeting engine, you get Target cloud configuration option enabled. Choose your Target cloud configuration, choose Activity type, provide the objective of the activity, and tap **Next**. Interactive Communication supports only Experience Targeting Activity type.
 
-   The Target section lets you add audience experience and name it. Click **Add Experience** to enable the **Select Audience** and **Name Experience** options. Tap **Select Audience **to see a list of audiences and their source. Select an audience from the Audience Name list. Tap **Add Experience** to name the experience, and tap **Next**.
+   The Target section lets you add audience experience and name it. Click **Add Experience** to enable the **Select Audience** and **Name Experience** options. Tap **Select Audience** to see a list of audiences and their source. Select an audience from the Audience Name list. Tap **Add Experience** to name the experience, and tap **Next**.
 
    The Goals & Settings section lets you schedule and prioritize your activity. Set the start date, end date, and priority of the activity, goal metric, additional metric and tap **Save**.
 
@@ -50,7 +53,7 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
 1. To enable target, edit the .jsp file to include client libraries that your adaptive forms template uses.
 
-   For example, in the out-of-the-box implementation, click **Tools **&gt; **CRXDE Lite**.
+   For example, in the out-of-the-box implementation, click **Tools** &gt;  **CRXDE Lite**.
 
    In the CRXDE Lite address bar, type /libs/fd/af/components/page/base/head.jsp to edit the head.jsp file.
 
@@ -64,11 +67,11 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
 1. To enable target framework for adaptive forms, navigate to your form or interactive communication, and open it in edit mode.
 
-   To open a form or interactive communication in edit mode, tap **Select, **and then tap **Open**.
+   To open a form or interactive communication in edit mode, tap **Select** and then tap **Open**.
 
    Alternatively, four buttons appear when you move your pointer over the form or interactive communication icon without selecting it. You can tap the **Edit** button that appears, to open the form in edit mode. 
 
-1. In the page toolbar, tap **Page Information** ![](assets/theme-options.png) &gt; **Open Properties**. 
+1. In the page toolbar, tap **Page Information** ![theme-options](assets/theme-options.png) > **Open Properties**. 
 1. In the General tab, choose a configuration for the **Adobe Target** field. Tap **Save & Close**.
 
 ## Applying created activity to an adaptive form image or an interactive communication image {#applying-created-activity-to-an-adaptive-form-image-or-an-interactive-communication-image}
@@ -82,9 +85,9 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
    >AEM Forms supports targeting only image components. Ensure that the panel hosting the image component does not contain any other component and the number of columns for the panel are set to 1.
 
 1. Switch from **Edit **to **Targeting **mode. The option to switch modes is near the Top-Right corner. 
-1. Select a **BRAND**, select **ACTIVITY**, and tap **Start Targeting**. The **Audiences **menu appears on right side of the editor. 
+1. Select a **BRAND**, select **ACTIVITY**, and tap **Start Targeting**. The **Audiences** menu appears on right side of the editor. 
 
-   ![](assets/targeting-menu.png)
+   ![targeting-menu](assets/targeting-menu.png)
 
 1. Select an audience from the **Audiences** menu and tap the image to target. A menu appears. In the menu, tap **Target**. Tap the image and tap **Configure**. In the properties window, select the image to display for the selected audience. Repeat the step for all the audiences. The experience targeting is enabled for the image in the interactive communication or adaptive form.
 

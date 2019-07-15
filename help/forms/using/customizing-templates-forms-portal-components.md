@@ -10,11 +10,11 @@ topic-tags: customization
 discoiquuid: 842d3a5a-8e09-4a21-b9a2-a8f4f5b699bd
 ---
 
-# Customizing templates for forms portal components{#customizing-templates-for-forms-portal-components}
+# Customizing templates for forms portal components {#customizing-templates-for-forms-portal-components}
 
 ## Prerequisites {#prerequisites}
 
-[Managing form metadata](../../forms/using/manage-form-metadata.md)
+[Managing form metadata](/help/forms/using/manage-form-metadata.md)
 
 Working knowledge of HTML and CSS
 
@@ -95,19 +95,21 @@ Various Forms Portal components provide exclusive sets of OOTB metadata that you
 * **description**: Description of the form
 * **formUrl**: URL to render the form as HTML
 * **pdfUrl**: URL to render the form as PDF
-* **assetType**: Type of the asset. Valid values include **Form**,** PDF Form**,** Print Form**, and **Adaptive Form**
+* **assetType**: Type of the asset. Valid values include **Form**, **PDF Form**, **Print Form**, and **Adaptive Form**
+* **htmlStyle** & **pdfStyle**: Display style for HTML and PDF icons respectively used for rendering. Valid values are “**__FP_display_none**” or **blank**
 
-* **htmlStyle **& **pdfStyle**: Display style for HTML and PDF icons respectively used for rendering. Valid values are “**__FP_display_none**” or **blank  
-  ***Note: Remember to use the __FP_display_none class in your custom style sheet*
+  *Note: Remember to use the __FP_display_none class in your custom style sheet*
 
 * **downloadUrl**: URL to download an asset.
 
 Support for localization, sorting, and using configuration properties on the user interface (Search & Lister Only):
 
-1. **Localization Support**: To localize any static text use the attribute **${localize-***YOUR_TEXT***} **and make the localized value available, if doesn't exist already.  
+1. **Localization Support**: To localize any static text use the attribute **${localize-***YOUR_TEXT***}** and make the localized value available, if doesn't exist already. 
+
    *In the example discussed, the attributes ${localize-Apply} and ${localize-Download} are used to localize the Apply and Download text.*
 
-1. **Support for Sorting**: Click the HTML element to sort search results. To implement sorting in a tabled layout, add the "data-sortKey" attribute on the particular table header. In addition, add its value as the metadata for which you want to sort.  
+1. **Support for Sorting**: Click the HTML element to sort search results. To implement sorting in a tabled layout, add the "data-sortKey" attribute on the particular table header. In addition, add its value as the metadata for which you want to sort. 
+
    For example, for the "Title" header in the grid view, the value of the "data-sortKey" header is "title". Click the heading to sort the values in a particular column.
 
 1. **Using configuration properties**: The Search & Lister component has several configurations that you can use on the user interface. For example, to display HTML ToolTip text saved through the edit dialog, use the **${config-htmlLinkText} attribute. **Similarly, for PDF tool tip text, use the** ${config-pdfLinkText}** attribute.
@@ -137,7 +139,7 @@ Support for localization, sorting, and using configuration properties on the use
 
 *Note:*
 
-1. For the delete option in the Drafts section under the Drafts & Submissions component, name the CSS class "__FP_deleteDraft." In addition, include the attribute "draftID" with the value **${draftID}**, which is** **the draft id of corresponding draft.
+1. For the delete option in the Drafts section under the Drafts & Submissions component, name the CSS class "__FP_deleteDraft." In addition, include the attribute "draftID" with the value **${draftID}**, which is the draft id of corresponding draft.
 
 1. While creating links to open drafts and submissions, you can specify **${path}.html **as the value of the **href** attribute for the anchor tag.
 
@@ -145,13 +147,13 @@ Support for localization, sorting, and using configuration properties on the use
 
 ***A**. *Container element
 
-***B.*** "path"** **metadata with a fixed hierarchy to obtain the thumbnail stored for each form.
+***B.*** "path" metadata with a fixed hierarchy to obtain the thumbnail stored for each form.
 
 **C. **Data-repeatable attribute used for the template section for each form
 
 ***D.** *To localize "Apply" string
 
-***E.** *Using the configuration property pdfLinkText** **
+***E.** *Using the configuration property pdfLinkText 
 
 ***F.*** Using the "pdfUrl" metadata
 

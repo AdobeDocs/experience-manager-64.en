@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5a289186-bd55-4aec-a252-7507585a788b
 ---
 
-# Copyright, Licenses and Disclaimers{#copyright-licenses-and-disclaimers}
+# Copyright, Licenses and Disclaimers {#copyright-licenses-and-disclaimers}
 
 For further information see:
 

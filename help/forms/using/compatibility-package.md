@@ -12,7 +12,7 @@ geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 38a80992-2eda-4535-89af-0de34b1a9686
 ---
 
-# Compatibility Package{#compatibility-package}
+# Install compatibility Package {#compatibility-package}
 
 Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages
 
@@ -27,22 +27,22 @@ The AEMFD Compatibility package allows you to use the following assets from AEM 
 * Data dictionaries
 * Adaptive forms deprecated templates and pages
 
-For more information, see [Assets made compatible with AEM Forms 6.4 by installing the Compatibility package](../../forms/using/compatibility-package.md#assetsmadecompatible).
+For more information, see [Assets made compatible with AEM Forms 6.4 by installing the Compatibility package](/help/forms/using/compatibility-package.md#assetsmadecompatible).
 
 ## Add support for AEM Forms 6.3 and 6.2 assets in AEM Forms 6.4 {#add-support-for-aem-forms-and-assets-in-aem-forms}
 
 After performing an upgrade, do the following to install the AEMFD compatibility package and make your assets compatible with 6.4:
 
-Ensure that you have [AEM Compatibility package](../../sites/deploying/using/backward-compatibility.md) pre-installed.
+Ensure that you have [AEM Compatibility package](/help/sites-deploying/backward-compatibility.md) pre-installed.
 
 1. Install the [Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT).
 
-   For more information on uploading and installing the package, see [How to work with packages](../../sites/administering/using/package-manager.md).
+   For more information on uploading and installing the package, see [How to work with packages](/help/sites-administering/package-manager.md).
 
 1. After the logs are stabilized, restart the server. 
 1. Use the migration utility for making your assets compatible with 6.4.
 
-   For more information, see [migration utility](../../forms/using/migration-utility.md).
+   For more information, see [migration utility](/help/forms/using/migration-utility.md).
 
 ## Assets made compatible with AEM Forms 6.4 by installing the Compatibility package {#assetsmadecompatible}
 
@@ -50,8 +50,8 @@ By installing the Compatibility package, you can make the following assets and t
 
 * Correspondence Management Assets from AEM 6.3 and earlier
 
-    * [Letters](../../forms/using/create-letter.md)
-    * [Data Dictionaries](../../forms/using/data-dictionary.md)
+    * [Letters](/help/forms/using/create-letter.md)
+    * [Data Dictionaries](/help/forms/using/data-dictionary.md)
     * Document Fragments
 
 * Adaptive form deprecated templates

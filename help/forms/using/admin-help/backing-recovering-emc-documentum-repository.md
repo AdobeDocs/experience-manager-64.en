@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f146202f-25f1-46a0-9943-c483f5f09f9f
 ---
 
-# Backing up and recovering the EMC Documentum repository{#backing-up-and-recovering-the-emc-documentum-repository}
+# Backing up and recovering the EMC Documentum repository {#backing-up-and-recovering-the-emc-documentum-repository}
 
 This section describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
 
@@ -230,7 +230,7 @@ A device is added to which the backed up files will be saved. You can add multip
 
 ## Back up the EMC Documentum Content Server {#back-up-the-emc-documentum-content-server}
 
-Perform the following tasks after you complete a full backup of your AEM forms data. (See [Backing up the AEM forms data](../../../forms/using/admin-help/backing-aem-forms-data.md#backing-up-the-aem-forms-data).)
+Perform the following tasks after you complete a full backup of your AEM forms data. (See [Backing up the AEM forms data](/help/forms/using/admin-help/backing-aem-forms-data.md#backing-up-the-aem-forms-data).)
 
 >[!NOTE]
 >
@@ -245,7 +245,7 @@ Perform the following tasks after you complete a full backup of your AEM forms d
 
 ## Restore the EMC Documentum Content Server {#restore-the-emc-documentum-content-server}
 
-Perform the following tasks before you restore your AEM forms data. (See [Recovering the AEM forms data](../../../forms/using/admin-help/recovering-aem-forms-data.md#recovering-the-aem-forms-data).)
+Perform the following tasks before you restore your AEM forms data. (See [Recovering the AEM forms data](/help/forms/using/admin-help/recovering-aem-forms-data.md#recovering-the-aem-forms-data).)
 
 >[!NOTE]
 >

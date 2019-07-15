@@ -12,23 +12,23 @@ topic-tags: operations
 discoiquuid: 0ed1f69d-c212-4d47-a572-ae030f2983fc
 ---
 
-# Assembling Multiple XDP Fragments{#assembling-multiple-xdp-fragments}
+# Assembling Multiple XDP Fragments {#assembling-multiple-xdp-fragments}
 
 You can assemble multiple XDP fragments into a single XDP document. For example, consider XDP fragments where each XDP file contains one or more subforms used to create a health form. The following illustration shows the outline view (represents the tuc018_template_flowed.xdp file used in the *Assembling multiple XDP fragments* quick start): 
 
-![](assets/am_am_forma.png)
+![am_am_forma](assets/am_am_forma.png)
 
 The following illustration shows the patient section (represents the tuc018_contact.xdp file used in the *Assembling multiple XDP fragments* quick start): 
 
-![](assets/am_am_formb.png)
+![am_am_formb](assets/am_am_formb.png)
 
 The following illustration shows the patient health section (represents the tuc018_patient.xdp file used in the *Assembling multiple XDP fragments* quick start): 
 
-![](assets/am_am_formc.png)
+![am_am_formc](assets/am_am_formc.png)
 
 This fragment contains two subforms named *subPatientPhysical* and *subPatientHealth*. Both of these sub forms are referenced in the DDX document that is passed to the Assembler service. Using the Assembler service, you can combine all of these XDP fragments into a single XDP document, as shown in the following illustration. 
 
-![](assets/am_am_formd.png)
+![am_am_formd](assets/am_am_formd.png)
 
 The following DDX document assembles multiple XDP fragments into an XDP document.
 
@@ -144,9 +144,9 @@ An assembled XDP document is returned within a collection object. Iterate throug
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents.md)
 
-[Creating PDF Documents Using Fragments](/help/forms/developing/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating-pdf-documents-using-fragments)
+[Creating PDF Documents Using Fragments](/help/forms/developing/creating-document-output-streams.md)
 
 ## Assemble multiple XDP fragments using the Java API {#assemble-multiple-xdp-fragments-using-the-java-api}
 

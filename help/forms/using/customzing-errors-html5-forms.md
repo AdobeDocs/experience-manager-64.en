@@ -9,7 +9,7 @@ topic-tags: customization
 discoiquuid: 44e49789-9075-41b3-bce8-03e8efce2d5a
 ---
 
-# Customizing error messages for HTML5 forms{#customizing-error-messages-for-html-forms}
+# Customizing error messages for HTML5 forms {#customizing-error-messages-for-html-forms}
 
 In HTML5 forms, out of the box, the error messages and warnings have a fixed position and appearance (font and color), the error is displayed only for a selected field, and only one error is displayed.
 
@@ -82,7 +82,8 @@ Ue the attached package to simultaneously display error messages for all the fie
 
 1. Navigate to the etc\clientlibs\mf-custom-error-manager\CustomErrorManager\css folder.  
 
-1. Open the file sample.css for editing.The css file contains 2 ids- #customError, #customWarning. You can use these ids to change various properties such as color, font size etc.  
+1. Open the file sample.css for editing.The css file contains 2 ids- #customError, #customWarning. You can use these ids to change various properties such as color, font size etc.
+
    Use the following code to change font size and color of error/warning messages.
 
    ```

@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9f400560-8152-4d07-a946-e514e9b9cedf
 ---
 
-# Forms-centric workflows on OSGi | Handling user data{#forms-centric-workflows-on-osgi-handling-user-data}
+# Forms-centric workflows on OSGi | Handling user data {#forms-centric-workflows-on-osgi-handling-user-data}
 
 Forms-centric AEM workflows enable you to automate real-world Forms-centric business processes. Workflows consist of a series of steps that execute in an order specified in the associated workflow model. Each step performs a specific action such as assigning a task to a user or sending an email message. Workflows can interact with assets in the repository, user accounts, and services. Therefore, workflows can coordinate complicated activities that involve any aspect of Experience Manager.
 
@@ -21,7 +21,7 @@ A forms-centric workflow can be triggered or launched through any of the followi
 * Using a watched folder
 * Submitting an interactive communication or a letter
 
-For more information about Forms-centric AEM workflows and capabilities, see [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md).
+For more information about Forms-centric AEM workflows and capabilities, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
 
 ## User data and data stores {#user-data-and-data-stores}
 
@@ -72,7 +72,7 @@ However, you cannot identify or the results may be ambiguous when identifying wo
 * **Workflow triggered through a watched folder**: A workflow instance cannot be identified using its initiator if the workflow is triggered by a watched folder. In this case, the user information is encoded in the stored data.
 * **Workflow initiated from publish AEM instance**: All workflow instances are created using a service user when adaptive forms, interactive communications, or letters are submitted from AEM publish instance. In these cases, the user name of the logged-in user is not captured in the workflow instance data.
 
-### Access user data {##access}
+### Access user data {#access}
 
 To identify and access user data stored for a workflow instance, perform the following steps:
 
@@ -84,25 +84,25 @@ To identify and access user data stored for a workflow instance, perform the fol
 
     * Execute the following if the workflow initiator is known:
 
-   `SELECT &#42; FROM [cq:Workflow] AS s WHERE ISDESCENDANTNODE([path-to-workflow-instances]) and s.[initiator]='*initiator-ID*'`
+   `SELECT &ast; FROM [cq:Workflow] AS s WHERE ISDESCENDANTNODE([path-to-workflow-instances]) and s.[initiator]='*initiator-ID*'`
 
     * Execute the following if the user whose data you are finding is the current workflow assignee:
 
-   `SELECT &#42; FROM [cq:WorkItem] AS s WHERE ISDESCENDANTNODE([path-to-workflow-instances]) and s.[assignee]='*assignee-id*'`
+   `SELECT &ast; FROM [cq:WorkItem] AS s WHERE ISDESCENDANTNODE([path-to-workflow-instances]) and s.[assignee]='*assignee-id*'`
 
    The query returns the location of all workflow instances for the specified workflow initiator or the current workflow assignee.
 
    For example, the following query returns two workflow instances path from the `/var/workflow/instances` node whose workflow initiator is `srose`.
 
-   ![](assets/workflow-instance.png)
+   ![workflow-instance](assets/workflow-instance.png)
 
 1. Go to a workflow instance path returned by the query. The status property displays the current status of the workflow instance.
 
-   ![](assets/status.png)
+   ![status](assets/status.png)
 
 1. In the workflow instance node, navigate to `data/payload/`. The `path` property stores the path to the payload for the workflow instance. You can navigate to the path to access data stored in the payload. 
 
-   ![](assets/payload-path.png)
+   ![payload-path](assets/payload-path.png)
 
 1. Navigate to the locations for drafts and history for the workflow instance.
 
@@ -122,7 +122,7 @@ To identify and access user data stored for a workflow instance, perform the fol
 
 You must be an AEM administrator to delete user data from workflow instances by performing the following steps:
 
-1. Follow the instructions in [Access user data](../../forms/using/forms-workflow-osgi-handling-user-data.md#access) and take note of the following:
+1. Follow the instructions in [Access user data](/help/forms/using/forms-workflow-osgi-handling-user-data.md#access) and take note of the following:
 
     * Paths to workflow instances associated with the user
     * Status of the workflow instances
@@ -135,7 +135,7 @@ You must be an AEM administrator to delete user data from workflow instances by 
     1. Navigate to **[!UICONTROL Tools > Workflow> Instances]**.
     1. Select relevant workflow instances for the user and tap **[!UICONTROL Terminate]** to terminate running instances.
 
-   For more information about working with workflow instances, see [Administering Workflow Instances](../../sites/administering/using/workflows-administering.md).
+   For more information about working with workflow instances, see [Administering Workflow Instances](/help/sites-administering/workflows-administering.md).
 
 1. Go to CRXDE Lite console, navigate to the payload path for a workflow instance, and delete the `payload` node.
 1. Navigate to the drafts path for a workflow instance, and delete the `draft` node.
@@ -151,7 +151,7 @@ You must be an AEM administrator to delete user data from workflow instances by 
 
 You can also use APIs to access and remove nodes and properties. See the following docs for more information.
 
-* [How to programmatically access the AEM JCR](../../sites/developing/using/access-jcr.md)
+* [How to programmatically access the AEM JCR](/help/sites-developing/access-jcr.md)
 * [Removing Nodes and Properties](https://docs.adobe.com/docs/en/spec/jcr/2.0/10_Writing.html#10.9%20Removing%20Nodes%20and%20Properties)
-* [API reference](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/javadoc/overview-summary.html)
+* [API reference](https://helpx.adobe.com/experience-manager/6-3/sites-developing/reference-materials/javadoc/overview-summary.html)
 

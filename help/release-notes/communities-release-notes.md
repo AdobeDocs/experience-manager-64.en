@@ -11,11 +11,11 @@ content-type: reference
 discoiquuid: 55a0b70e-5212-408b-8560-6e758bd8bb10
 ---
 
-# AEM Communities Release Notes{#aem-communities-release-notes}
+# AEM Communities Release Notes {#aem-communities-release-notes}
 
-This section provides information on the improvements to AEM Communities since the 6.3 release. To learn about the new features in greater detail, see [What's New in AEM 6.4 Communities](/communities/using/whats-new-aem-communities.html?cq_ck=1522837662674).
+This section provides information on the improvements to AEM Communities since the 6.3 release. To learn about the new features in greater detail, see [What's New in AEM 6.4 Communities](/help/communities/whats-new-aem-communities.md).
 
-To obtain the latest release, see the [Deploying Communities](../communities/using/deploy-communities.md#latest-releases) section of the documentation.
+To obtain the latest release, see the [Deploying Communities](/help/communities/deploy-communities.md#latest-releases) section of the documentation.
 
 ## Main improvements {#main-improvements}
 
@@ -63,7 +63,7 @@ Note: all these features are also available for 6.3. Please check the AEM Commun
 
 ## Select Features {#select-features}
 
-Expert Scoring ( *Powered by Sensei*) - is used to enable gamification, which is an effective way of encouraging and rewarding valuable community behavior. It can also be used to identify experts for recommendation or marketing purposes.  
+Expert Scoring (*Powered by Sensei*) - is used to enable gamification, which is an effective way of encouraging and rewarding valuable community behavior. It can also be used to identify experts for recommendation or marketing purposes.  
 
 ## Demonstrations {#demonstrations}
 

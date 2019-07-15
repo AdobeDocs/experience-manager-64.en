@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 2e783745-c986-45ba-8e65-7437d114ca38
 ---
 
-# Importing and Exporting Data{#importing-and-exporting-data}
+# Importing and Exporting Data {#importing-and-exporting-data}
 
 ## About the Form Data Integration Service {#about-the-form-data-integration-service}
 
@@ -40,7 +40,7 @@ You can import form data into interactive PDF forms by using the Form Data Integ
 
 To import data into a form created in Designer, you must reference a valid XDP XML data source. Consider the following example mortgage application form. 
 
-![](assets/ie_ie_loanformdata.png)
+![ie_ie_loanformdata](assets/ie_ie_loanformdata.png)
 
 In order to import data values into this form, you must have a valid XDP XML data source that corresponds to the form. You cannot use an arbitrary XML data source to import data into a form using the Form Data Integration service. The difference between an arbitrary XML data source and an XDP XML data source is that an XDP data source conforms to the XML Forms Architecture (XFA). The following XML represents an XDP XML data source that corresponds to the example mortgage application form.
 

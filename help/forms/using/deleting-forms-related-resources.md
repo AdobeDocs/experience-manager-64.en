@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: c8519eec-f841-4867-baa9-a9e03042755e
 ---
 
-# Deleting forms and related resources{#deleting-forms-and-related-resources}
+# Deleting forms and related resources {#deleting-forms-and-related-resources}
 
 You can delete the forms and assets to remove these assets from the repository. Delete operation works on all asset types and folders.
 
@@ -19,7 +19,7 @@ If you delete an asset from the Author instance, the asset is also deleted from 
 ## How to delete a form {#how-to-delete-a-form}
 
 1. Log in to the AEM Forms user interface, by accessing `https://[hostname]:[portport]/aem/forms.html.`
-1. Navigate to and select the form you want to delete. Click Delete ![](assets/aem6forms_delete2.png) from the toolbar and confirm the delete operation.
+1. Navigate to and select the form you want to delete. Click Delete ![aem6forms_delete2](assets/aem6forms_delete2.png) from the toolbar and confirm the delete operation.
 
    >[!NOTE]
    >
@@ -39,6 +39,6 @@ If you delete an asset from the Author instance, the asset is also deleted from 
 
 In AEM Forms, an XFA form template can be referred by an adaptive form or another XFA form template. Also, a template can refer to a resource or another XFA template.
 
-It is not advisable to delete an XFA form that is being referred by an adaptive form, as it can corrupt the adaptive form. When an adaptive form refers to an XFA form, their fields are bound. After XFA deletion, the adaptive form cannot synchronize its fields with the XFA fields and displays an error message for such fields. To know more about the impact of referenced XFA deletion and about dirty AFs, see [Updating referenced XFA forms](../../forms/using/get-xdp-pdf-documents-aem.md#p-updating-referenced-xfa-forms-p).
+It is not advisable to delete an XFA form that is being referred by an adaptive form, as it can corrupt the adaptive form. When an adaptive form refers to an XFA form, their fields are bound. After XFA deletion, the adaptive form cannot synchronize its fields with the XFA fields and displays an error message for such fields. To know more about the impact of referenced XFA deletion and about dirty AFs, see [Updating referenced XFA forms](/help/forms/using/get-xdp-pdf-documents-aem.md#p-updating-referenced-xfa-forms-p).
 
 To delete such an XFA form, update the adaptive form and remove the bindings with the XFA fields.

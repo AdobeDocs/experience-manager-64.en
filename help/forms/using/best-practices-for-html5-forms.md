@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a5eba237-3aad-497a-8f77-061d5d3df371
 ---
 
-# Best practices for HTML5 forms{#best-practices-for-html-forms}
+# Best practices for HTML5 forms  {#best-practices-for-html-forms}
 
 Tune your XFA-based HTML5 Forms for best performance.
 
@@ -38,8 +38,8 @@ An HTML5 form can contain multiple external resources, such as image, JavaScript
 
 Hence, reducing the size of the external resources and using only absolutely required resources is the preferred method of improving the performance of the forms. You can perform the following optimizations on an XFA form to reduce the size of external resources of a form:
 
-* Use [compressed images](best-practices-for-optimizing-the-quality-of-your-images.md). It reduces the network activity and amount of memory required to render a form. Therefore, the form load time decreases substantially.
-* Use the minify option in AEM Configuration Manager (Day CQ HTML Library Manager) to compress JavaScript and CSS files. For details, see [OSGi Configuration Settings](../../sites/deploying/using/osgi-configuration-settings.md).
+* Use [compressed images](/help/assets/best-practices-for-optimizing-the-quality-of-your-images.md). It reduces the network activity and amount of memory required to render a form. Therefore, the form load time decreases substantially.
+* Use the minify option in AEM Configuration Manager (Day CQ HTML Library Manager) to compress JavaScript and CSS files. For details, see [OSGi Configuration Settings](/help/sites-deploying/osgi-configuration-settings.md).
 * Enable web compression. It reduces the size of the requests and responses originated from a form. For details, see [Performance tuning of AEM forms server](https://helpx.adobe.com/aem-forms/6-3/performance-tuning-aem-forms.html).
 
 ## Keep the interest alive, show only required fields  {#keep-the-interest-alive-show-only-required-fields}
@@ -67,13 +67,13 @@ An XFA form can have a large number of sections dedicated only for Document of R
 
 Adobe Experience Manager (AEM) forms can help you transform complex transactions into simple, delightful digital experiences. However, it requires concerted effort to develop efficient and productive forms. In addition to HTML5 Forms, here are some recommended reads for general AEM best practices:
 
-* [Best practices for Deploying and maintaining AEM](../../sites/deploying/using/best-practices.md)
-* [Best practices for Authoring content](../../sites/authoring/using/best-practices.md)
-* [Best practices for Administering AEM](../../sites/administering/using/administer-best-practices.md)
-* [Best practices for Developing solutions](../../sites/developing/using/best-practices.md)
-* [Best practices for working with adaptive forms](../../forms/using/adaptive-forms-best-practices.md)
+* [Best practices for Deploying and maintaining AEM](/help/sites-deploying/best-practices.md)
+* [Best practices for Authoring content](/help/sites-authoring/best-practices.md)
+* [Best practices for Administering AEM](/help/sites-administering/administer-best-practices.md)
+* [Best practices for Developing solutions](/help/sites-developing/best-practices.md)
+* [Best practices for working with adaptive forms](/help/forms/using/adaptive-forms-best-practices.md)
 
 ## Quick reference card {#quick-reference-card}
 
 You can print following card (Click card to download a high-resolution version) and keep it on your desk for a quick reference:
-[ ![HTML5 Forms best practices quick reference card](do-not-localize/best-practices_reference_card.png)](assets/html5_forms_best_practices_reference_card.pdf)  
+    [ ![HTML5 Forms best practices quick reference card](do-not-localize/best-practices_reference_card.png)](assets/html5_forms_best_practices_reference_card.pdf)  

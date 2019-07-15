@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c187daa4-41b7-47dc-9669-d7120850cafd
 ---
 
-# Configuring SSL for JBoss Application Server{#configuring-ssl-for-jboss-application-server}
+# Configuring SSL for JBoss Application Server {#configuring-ssl-for-jboss-application-server}
 
 To configure SSL on JBoss Application Server, you need an SSL credential for authentication. You can use the Java keytool to create a credential or request and import a credential from a certificate authority (CA). You must then enable SSL on JBoss.
 
@@ -36,31 +36,27 @@ In this procedure:
 
    >[!NOTE]
    >
-   >The `keystore_password`* entered at this step may be the same password (key_password) that you entered in step 1, or it may be different. *
+   >The `keystore_password` *ntered at this step may be the same password (key_password) that you entered in step 1, or it may be different.*
 
 1. Copy the *keystorename*.keystore to the *[appserver root]*/server/*[type]*/conf directory by typing one of the following commands:
 
     * (Windows Single Server) `copy`*keystorename* `.keystore`*[appserver root]* `\standalone\configuration`
-    
     * (Windows Server Cluster) copy *keystorename*.keystore *[appserver root]*\domain\configuration
-
     * (Linux Single Server) `cp`*keystorename* `.keystore`*[appserver root]* `/standalone/configuration`
+    * (Linux Server Cluster)
     
-    * (Linux Server Cluster)    
-    
-      ```    
+      ``` 
       cp <em>keystorename</em>.keystore<em>[appserver root]</em>/domain/configuration
       
       ```
 
 1. Export the certificate file by typing the following command:
 
-    * ``(Single Server) keytool -export -alias "LC Cert" -file LC_cert.cer -keystore [appserver root]/standalone/configuration/keystorename.keystore  
-    
+    * ``(Single Server) keytool -export -alias "LC Cert" -file LC_cert.cer -keystore [appserver root]/standalone/configuration/keystorename.keystore
     * (Server Cluster) keytool -export -alias *"LC Cert"* -file *LC_cert*.cer -keystore *[appserver root]*/domain/configuration/*keystorename*.keystore
 
 1. Enter the *keystore_password* when prompted for a password.
-1. Copy the LC_cert.cer file to the *[appserver root] \conf *directory by typing the following command:
+1. Copy the LC_cert.cer file to the *[appserver root] \conf* directory by typing the following command:
 
     * (Windows Single Server) copy LC_cert.cer [appserver root]\standalone\configuration
     * (Windows Server Cluster) copy LC_cert.cer [appserver root]\domain\configuration
@@ -72,7 +68,7 @@ In this procedure:
     * `keytool -printcert -v -file [appserver root]\standalone\configuration\LC_cert.cer`
     * 
     
-      ```    
+      ``` 
       keytool -printcert -v -file [appserver root]\domain\configuration\LC_cert.cer
       
       ```
@@ -99,9 +95,7 @@ In this procedure:
 
     * Server Cluster - [appserver root]/domain/configuration/domain_&lt;dbname&gt;.xml
 
-1.
-
-    * **For single server,** in the lc_&lt;dbaname/tunkey&gt;.xml file, add the following after &lt;security-realms&gt; section:
+1. * **For single server,** in the lc_&lt;dbaname/tunkey&gt;.xml file, add the following after &lt;security-realms&gt; section:
 
    ```as3
    <security-realm name="SSLRealm">
@@ -208,13 +202,8 @@ In this procedure:
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * Replace [JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
-   >    * The imported CA signed certificate will replace a self-signed public certificate if it exists.
-   >    
-   >
+   >* Replace [JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
+   >* The imported CA signed certificate will replace a self-signed public certificate if it exists.
 
 1. Complete steps 13 - 18 of Create an SSL credential.
 

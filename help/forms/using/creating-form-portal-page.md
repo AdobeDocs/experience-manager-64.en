@@ -10,13 +10,13 @@ topic-tags: publish
 discoiquuid: 7387dfe8-0029-4ad0-b319-fc519928318b
 ---
 
-# Creating a forms portal page{#creating-a-forms-portal-page}
+# Creating a forms portal page {#creating-a-forms-portal-page}
 
-Forms portal components equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM). For a quick overview of forms portal, see [Introduction to publishing forms on a portal](../../forms/using/introduction-publishing-forms.md).
+Forms portal components equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM). For a quick overview of forms portal, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
 ## Prerequisites {#prerequisites}
 
-Forms portal components are not available for use by default. Ensure that the following forms portal component categories are enabled as described in [Enabling forms portal components](../../forms/using/enabling-forms-portal-components.md).
+Forms portal components are not available for use by default. Ensure that the following forms portal component categories are enabled as described in [Enabling forms portal components](/help/forms/using/enabling-forms-portal-components.md).
 
 **Document Services** Includes Search & Lister, Link, and Drafts and Submissions components.
 
@@ -25,8 +25,7 @@ Forms portal components are not available for use by default. Ensure that the fo
 Once they are enabled on an AEM sites page, these component categories are available for use in the component browser.
 
 ![AEM Forms portal components in component browser](assets/component-categories.png)
-
-Forms portal component categories
+**Figure:** *Forms portal component categories*
 
 ## Search &amp; Lister Component {#search-amp-lister-component}
 
@@ -38,20 +37,18 @@ The Search & Lister component, available under Document Services component categ
 You can drag-drop the Search & Lister component from the Document Services component category in the components browser onto the page. The component, when added, looks similar to the following.
 
 ![Search & Lister Component in a page](assets/fp-grid-viw.png)
-
-Search & Lister Component in a page with Grid layout
+**Figure:** *Search & Lister Component in a page with Grid layout*
 
 ### List pane {#list-pane}
 
 The List pane is an area where your forms are listed. The Search & Lister component provides various configuration options that you can use to control the display of forms in the List pane.
 
-To configure the List pane, tap the Search and Lister component and then tap ![](assets/settings_icon.png). The **[!UICONTROL ** Edit Component**]** dialog opens. 
+To configure the List pane, tap the Search and Lister component and then tap ![settings_icon](assets/settings_icon.png). The **[!UICONTROL Edit Component]** dialog opens. 
 
 ![List pane in edit mode](assets/edit-list.png)
+**Figure:** *List pane in edit mode*
 
-List pane in edit mode
-
-The **Edit **dialog includes several tabs that provide configuration options described in the table below. Tap **OK **to save the configuration, when done.
+The **[!UICONTROL Edit]** dialog includes several tabs that provide configuration options described in the table below. Tap **[!UICONTROL OK]** to save the configuration, when done.
 
 <table> 
  <tbody> 
@@ -63,10 +60,10 @@ The **Edit **dialog includes several tabs that provide configuration options des
   <tr> 
    <td><span class="uicontrol"><strong>Asset Folders</strong></span></td> 
    <td>Add Item</td> 
-   <td>Configures the folders where assets are uploaded using AEM Forms UI. By default, it lists all uploaded assets. For more information about AEM Forms UI, see <a href="../../forms/using/introduction-managing-forms.md" target="_blank">Introduction to managing forms</a>.</td> 
+   <td>Configures the folders where assets are uploaded using AEM Forms UI. By default, it lists all uploaded assets. For more information about AEM Forms UI, see <a href="/help/forms/using/introduction-managing-forms.md" target="_blank">Introduction to managing forms</a>.</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><p style="text-align: left;"><span class="uicontrol"><strong>Display</strong></span></p> </td> 
+   <td><p><span class="uicontrol"><strong>Display</strong></span></p> </td> 
    <td>Title Text</td> 
    <td>Title for the Search &amp; Lister component. The default title is <strong>Forms Portal.</strong></td> 
   </tr> 
@@ -155,8 +152,7 @@ The Search pane lets you add the Date Predicate, Full Text Predicate, Properties
 **Tip:** *You can control the list of forms displayed on your forms portal based on a preset criteria and hide the search functionality for end users. To control the list of forms, use the Predicate components to apply search filters. You can also specify the default filter values and disable the search from the Display tab of the Edit Component dialog.*
 
 ![Search Panel with Date, Full Text, Properties, and Tags Predicate](assets/search-with-predicates.png)
-
-Search Panel with Date, Full Text, Properties, and Tags Predicate
+**Figure:** *Search Panel with Date, Full Text, Properties, and Tags Predicate*
 
 #### Date Predicate {#date-predicate}
 
@@ -164,16 +160,16 @@ The Date Predicate component, when added, enables search on the listed forms tha
 
 To configure the Date Predicate component:
 
-1. Tap the component and then tap ![](assets/settings_icon.png). The Edit dialog opens.
+1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The Edit dialog opens.
 1. Specify the following:
 
-    * **Type:** The only option available is **Last Modified Date**
-    * **Text:** Label or caption for the Date Predicate Component. The default value is **Last Modified Date.**
-    * **Start Date Label:** Label or caption of start date field
-    * **End Date Label:** Label or caption for end date field
-    * **Hide:** To enforce default date filter to list forms
+    * **[!UICONTROL Type:]** The only option available is **[!UICONTROL Last Modified Date]**.
+    * **[!UICONTROL Text:]** Label or caption for the Date Predicate Component. The default value is **[!UICONTROL Last Modified Date]**.
+    * **[!UICONTROL Start Date Label:]** Label or caption of start date field.
+    * **[!UICONTROL End Date Label:]** Label or caption for end date field.
+    * **[!UICONTROL Hide:]** To enforce default date filter to list forms.
 
-1. Tap **OK**
+1. Tap **[!UICONTROL OK]**.
 
 #### Full Text Predicate {#full-text-predicate}
 
@@ -181,9 +177,9 @@ The Full Text Predicate component implements full text search on form data, such
 
 To configure the Full Text Predicate component:
 
-1. Tap the component and then tap ![](assets/settings_icon.png). The Edit dialog opens.
-1. Specify the title in the **Main Title **field.
-1. Tap **Ok**
+1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The Edit dialog opens.
+1. Specify the title in the **[!UICONTROL Main Title]** field.
+1. Tap **[!UICONTROL Ok]**.
 
 #### Properties Predicate {#properties-predicate}
 
@@ -191,15 +187,16 @@ The Properties Predicate component implements searching of forms based on form p
 
 To configure the Properties Predicate component:
 
-1. Tap the component and then tap ![](assets/settings_icon.png). The Edit dialog opens.
-1. In the General tab, specify the search label. The default value is **Properties** 
+1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The **[!UICONTROL Edit dialog]** opens.
+1. In the **[!UICONTROL General]** tab, specify the search label. The default value is **[!UICONTROL Properties]**.
 
-1. In the Options tab, tap **Add Item.**
+1. In the **[!UICONTROL Options]** tab, tap **[!UICONTROL Add Item]**.
 1. Select a property from the drop-down list and specify a search label for it in the field below the drop-down list.  
-1. Repeat step 4 to add more properties. You can also specify a default filter value to list forms based on the specified criteria and hide the property for search by end users. Select the Hide checkbox for a property and specify the default filter value.  
+1. Repeat step 4 to add more properties. You can also specify a default filter value to list forms based on the specified criteria and hide the property for search by end users. Select the Hide checkbox for a property and specify the default filter value.
+
    For example, if you want to display forms that contain "Travel" in their titles, select Hide next to the Title property. In addition, specify Travel in default filter value text box.  
 
-1. Tap **OK**
+1. Tap **[!UICONTROL OK]**.
 
 #### Tags Predicate {#tags-predicate}
 
@@ -207,20 +204,20 @@ The Tags Predicate component implements searching of forms based on tags defined
 
 To configure the Tags Predicate component:
 
-1. Tap the component and then tap ![](assets/settings_icon.png). The Edit dialog opens.
+1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The **[!UICONTROL Edit dialog]** opens.
 1. Tap the down-arrow button next to the Tags field.  
-1. Select appropriate tags
-1. Tap **OK**
+1. Select appropriate tags.
+1. Tap **[!UICONTROL OK]**.
 
 The selected tags appear in the Search pane along with the check boxes for selection. Users can now narrow down their search based on the tags.
 
-## List forms on a page <br> {#list-forms-on-a-page-br}
+## List forms on a page {#list-forms-on-a-page-br}
 
-To list forms on a page, add the ****[!UICONTROL Search & Lister]****Component to the page and configure the ****[!UICONTROL List Pane]****. To enable the end users to search forms with date, text, and tags, add a ****[!UICONTROL Search Pane]**** component.
+To list forms on a page, add the **[!UICONTROL Search & Lister]** Component to the page and configure the **[!UICONTROL List Pane]**. To enable the end users to search forms with date, text, and tags, add a **[!UICONTROL Search Pane]** component.
 
-To link a form from anywhere on the page, use the Link component. For more information about link component, see [Embedding link component in a page](../../forms/using/embedding-link-component-page.md).
+To link a form from anywhere on the page, use the Link component. For more information about link component, see [Embedding link component in a page](/help/forms/using/embedding-link-component-page.md).
 
-To list the forms that are in a draft state and the forms which are already submitted, use the **[!UICONTROL **Drafts and Submissions**]** component. For more information, see [Customizing Drafts and Submissions component](../../forms/using/draft-submission-component.md).
+To list the forms that are in a draft state and the forms which are already submitted, use the **[!UICONTROL **Drafts and Submissions**]** component. For more information, see [Customizing Drafts and Submissions component](/help/forms/using/draft-submission-component.md).
 
 ## Mobile device friendliness {#mobile-device-friendliness}
 
@@ -229,13 +226,12 @@ Forms Portal Search & Lister component is mobile device friendly and adapts acco
 The following image depicts the Search & Lister component when opened on a mobile device:
 
 ![Screenshot of the Search and Lister component](assets/search_lister.png)
+**Figure:** *Search & Lister component*
 
-Search & Lister component
+## Customizing a forms portal page {#customizing-a-forms-portal-page-br}
 
-## Customizing a forms portal page <br> {#customizing-a-forms-portal-page-br}
+You can customize a forms portal page to provide a distinct appearance to the page. You can also add metadata to improve search experience, change layout of the page, and add custom CSS styles. For more information, see [Customizing templates for Forms Portal Components](/help/forms/using/customizing-templates-forms-portal-components.md).
 
-You can customize a forms portal page to provide a distinct appearance to the page. You can also add metadata to improve search experience, change layout of the page, and add custom CSS styles. For more information, see [Customizing templates for Forms Portal Components](../../forms/using/customizing-templates-forms-portal-components.md).
+AEM Forms UI allows you to add custom metadata to forms. Custom metadata is useful in providing a listing and searching forms experience to the end users. For more information about Custom metadata, see [Customizing templates for Forms Portal Components](/help/forms/using/customizing-templates-forms-portal-components.md).
 
-AEM Forms UI allows you to add custom metadata to forms. Custom metadata is useful in providing a listing and searching forms experience to the end users. For more information about Custom metadata, see [Customizing templates for Forms Portal Components](../../forms/using/customizing-templates-forms-portal-components.md).
-
-Out of the box, forms portal provides rendering actions. You can customize forms portal to add more actions. For detailed information, see [Adding custom action on form lister items.](../../forms/using/add-custom-action-form-lister.md)
+Out of the box, forms portal provides rendering actions. You can customize forms portal to add more actions. For detailed information, see [Adding custom action on form lister items.](/help/forms/using/add-custom-action-form-lister.md)

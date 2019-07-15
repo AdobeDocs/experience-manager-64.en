@@ -10,17 +10,17 @@ topic-tags: integrations
 discoiquuid: a9045816-cae7-42cf-a734-6c3a25d0f522
 ---
 
-# View and understand AEM Forms analytics reports{#view-and-understand-aem-forms-analytics-reports}
+# View and understand AEM Forms analytics reports {#view-and-understand-aem-forms-analytics-reports}
 
 Adobe Experience Manager Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.
 
 ## Setting up analytics {#setting-up-analytics}
 
-The analytics feature in AEM Forms is available as part of the AEM Forms add-on package. For information about installing the add-on package, see [Installing and configuring AEM Forms](../../forms/using/installing-configuring-aem-forms-osgi.md).
+The analytics feature in AEM Forms is available as part of the AEM Forms add-on package. For information about installing the add-on package, see [Installing and configuring AEM Forms](/help/forms/using/installing-configuring-aem-forms-osgi.md).
 
 In addition to the add-on package, you need an Adobe Analytics account. For information about the solution, see [Adobe Analytics](https://www.adobe.com/solutions/digital-analytics.html).
 
-Once you have the AEM Forms add-on package and an Adobe Analytics account, integrate Adobe Analytics account with AEM Forms and enable tracking on your forms or documents as described in [Configure analytics and reports](../../forms/using/configure-analytics-forms-documents.md).
+Once you have the AEM Forms add-on package and an Adobe Analytics account, integrate Adobe Analytics account with AEM Forms and enable tracking on your forms or documents as described in [Configure analytics and reports](/help/forms/using/configure-analytics-forms-documents.md).
 
 ## How user interaction information is recorded {#how-user-interaction-information-is-recorded}
 
@@ -44,13 +44,13 @@ When a user interacts with the form, the interactions are recorded and sent to A
 
 Perform the following steps to view analytics reports:
 
-1. Log in to the AEM portal at https://[hostname]:[port]
+1. Log in to the AEM portal at `https://[hostname]:[port]`
 1. Click **Forms &gt; Forms & Documents**.  
 
 1. Select the form for which you want to view the analytics reports.
 1. Select **More &gt; Analytics Reports**.
 
-![](assets/analyticsreport.png)
+![analyticsreport](assets/analyticsreport.png)
 
 **A.** Analytics Report command
 
@@ -66,7 +66,7 @@ By default, the analytics report for the last seven days is displayed. You can v
 >
 >The options such as Last 7 days and Last 15 days do not include data for the day you are generating the analytics report. To include the present day's data, you need to specify the date range including the present day and then run the report.
 
-![](assets/date-range.png) 
+![date-range](assets/date-range.png) 
 
 ## Conversions graph for adaptive and HTML5 forms {#conversions-graph-for-adaptive-and-html-forms}
 
@@ -76,7 +76,7 @@ The form-level conversions graph gives you an insight into how the form is perfo
 * **Visitors**: The number of visitors to the form
 * **Submissions**: Number of times the form is submitted
 
-![](assets/conversion-graph.png) 
+![conversion-graph](assets/conversion-graph.png) 
 
 ## Analytics report for adaptive and HTML5 forms {#analytics-report-for-adaptive-and-html-forms}
 
@@ -140,4 +140,4 @@ Once a filter is applied:
 
 If you have A/B testing enabled and set up for the form, the report page has a drop-down you can use to display the A/B testing report. A/B testing report displays the comparative performance of two versions of the form as you have set up.
 
-For more information on A/B testing, see [Create and manage A/B test for adaptive forms](../../forms/using/ab-testing-adaptive-forms.md). 
+For more information on A/B testing, see [Create and manage A/B test for adaptive forms](/help/forms/using/ab-testing-adaptive-forms.md). 

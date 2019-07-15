@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 95804bff-9e6f-4807-aae4-790bd9e7cb57
 ---
 
-# Managing Users{#managing-users}
+# Managing Users {#managing-users}
 
 **About User Management**
 
@@ -39,37 +39,37 @@ User Management provides built-in authentication functionality, and also provide
 
 The following diagram shows the interaction among an end user attempting to log in, User Management, and the authentication provider.
 
-![](assets/mu_mu_umauth_process.png)
+![mu_mu_umauth_process](assets/mu_mu_umauth_process.png)
 
 The following table describes each step of the authentication process. 
 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e69785" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e69788" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>A user attempts to log into a service that invokes User Management. The user specifies a user name and password. </p></td> 
+   <td><p>1</p></td> 
+   <td><p>A user attempts to log into a service that invokes User Management. The user specifies a user name and password. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>User Management sends the user name and password, as well as configuration information, to the authentication provider.</p></td> 
+   <td><p>2</p></td> 
+   <td><p>User Management sends the user name and password, as well as configuration information, to the authentication provider.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>The authentication provider connects to the user store and authenticates the user.</p></td> 
+   <td><p>3</p></td> 
+   <td><p>The authentication provider connects to the user store and authenticates the user.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>The authentication provider returns the results to User Management.</p></td> 
+   <td><p>4</p></td> 
+   <td><p>The authentication provider returns the results to User Management.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>5</p></td> 
-   <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>User Management either lets the user log in or denies access to the product.</p></td> 
+   <td><p>5</p></td> 
+   <td><p>User Management either lets the user log in or denies access to the product.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -262,7 +262,7 @@ Add users by using the Directory Manager Service API (web service):
 
 ## Deleting Users {#deleting-users}
 
-You can use the Directory Manager Service API (Java and web service) to programmatically delete users from AEM Forms. After you delete a user, the user can no longer be used to perform a service operation that requires a user. For example, you cannot assign a task to a deleted user. (See [Assigning Tasks](/help/forms/developing/processes-tasks.md#assigning-tasks).)
+You can use the Directory Manager Service API (Java and web service) to programmatically delete users from AEM Forms. After you delete a user, the user can no longer be used to perform a service operation that requires a user. For example, you cannot assign a task to a deleted user.
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -722,33 +722,33 @@ If the authentication is successful, the application accesses a secured enterpri
 
 The following diagram shows the application’s logic flow.
 
-![](assets/au_au_umauth_process.png)
+![au_au_umauth_process](assets/au_au_umauth_process.png)
 
 The following table describes the steps in this diagram
 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e71891" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e71894" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e71891 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e71894 " valign="top" width="NaN%"><p>The user accesses a web site and specifies a user name and password. This information is submitted to a J2EE application server hosting AEM Forms.</p></td> 
+   <td><p>1</p></td> 
+   <td><p>The user accesses a web site and specifies a user name and password. This information is submitted to a J2EE application server hosting AEM Forms.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e71891 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e71894 " valign="top" width="NaN%"><p>The user credentials are authenticated with the Authentication Manager service. If the user credentials are valid, the workflow proceeds to step 3. Otherwise, a message is sent to the user stating that the user is not an authorized user.</p></td> 
+   <td><p>2</p></td> 
+   <td><p>The user credentials are authenticated with the Authentication Manager service. If the user credentials are valid, the workflow proceeds to step 3. Otherwise, a message is sent to the user stating that the user is not an authorized user.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e71891 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e71894 " valign="top" width="NaN%"><p>User information and a form design are retrieved from a secured enterprise database. </p></td> 
+   <td><p>3</p></td> 
+   <td><p>User information and a form design are retrieved from a secured enterprise database. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e71891 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e71894 " valign="top" width="NaN%"><p>User information is merged with a form design and the form is rendered to the user. </p></td> 
+   <td><p>4</p></td> 
+   <td><p>User information is merged with a form design and the form is rendered to the user. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -848,33 +848,33 @@ You can programmatically synchronize users by using the User Management API. Whe
 
 The following diagram shows AEM Forms synchronizing with a user respository.
 
-![](assets/ps_ps_umauth_sync.png)
+![ps_ps_umauth_sync](assets/ps_ps_umauth_sync.png)
 
 The following table describes the steps in this diagram
 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e72202" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e72205" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e72202 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e72205 " valign="top" width="NaN%"><p>A client application requests that AEM Forms performs a synchronization operation.</p></td> 
+   <td><p>1</p></td> 
+   <td><p>A client application requests that AEM Forms performs a synchronization operation.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e72202 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e72205 " valign="top" width="NaN%"><p>AEM Forms performs a synchronization operation.</p></td> 
+   <td><p>2</p></td> 
+   <td><p>AEM Forms performs a synchronization operation.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e72202 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e72205 " valign="top" width="NaN%"><p>User information is updated.</p></td> 
+   <td><p>3</p></td> 
+   <td><p>User information is updated.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e72202 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e72205 " valign="top" width="NaN%"><p>A user is able to view the updated user information. </p></td> 
+   <td><p>4</p></td> 
+   <td><p>A user is able to view the updated user information. </p></td> 
   </tr> 
  </tbody> 
 </table>

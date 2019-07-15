@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: 637342e8-fbdd-4cda-b175-56a805b3b480
 ---
 
-# Post processing of letters and interactive communications{#post-processing-of-letters-and-interactive-communications}
+# Post processing of letters and interactive communications {#post-processing-of-letters-and-interactive-communications}
 
 ## Post Processing {#post-processing}
 
@@ -20,11 +20,11 @@ Agents can associate and execute post processing workflows on letters and intrea
 
 To associate post processes with letters or interactive communications, you first need to set up the post processes. Two types of workflows can be executed on submitted letters:
 
-1. **Forms Workflow:** These are the AEM Forms on JEE process management workflows. Instructions for setting up [Forms Workflow](../../forms/using/submit-letter-topostprocess.md#main-pars-header-3).
+1. **Forms Workflow:** These are the AEM Forms on JEE process management workflows. Instructions for setting up [Forms Workflow](/help/forms/using/submit-letter-topostprocess.md#main-pars-header-3).
 
-1. **AEM Workflow:** AEM workflows can also be used as post processes for submitted letters. Instructions for setting up [AEM Workflow](../../forms/using/aem-forms-workflow.md).
+1. **AEM Workflow:** AEM workflows can also be used as post processes for submitted letters. Instructions for setting up [AEM Workflow](/help/forms/using/aem-forms-workflow.md).
 
-## Forms Workflow {##formsworkflow}
+## Forms Workflow {#formsworkflow}
 
 1. In AEM, open Adobe Experience Manager Web Console Configuration for your server using the following URL: `https://<server>:<port>/<contextpath>/system/console/configMgr`
 
@@ -64,7 +64,7 @@ To associate post processes with letters or interactive communications, you firs
 
 1. login to `http://localhost:publishport/aem/forms`.
 1. Navigate to **[!UICONTROL Letters]** to view the published letter that is available on the publish instance.
-1. Configure the AEM DS Settings. See [Configuring AEM DS settings](../../forms/using/configuring-the-processing-server-url-.md).
+1. Configure the AEM DS Settings. See [Configuring AEM DS settings](/help/forms/using/configuring-the-processing-server-url-.md).
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ In the CCR user interface, complete the following steps to associate a post proc
 1. Tap **Save**.
 1. After configuring the letter with the Post Process, publish the letter and optionally on the publish instance, specify the processing URL in AEM DS Settings service. This ensures that the post process is run on the processing instance.
 
-## Reload a draft letter instance&nbsp; {##reloaddraft}
+## Reload a draft letter instance&nbsp; {#reloaddraft}
 
 A draft letter instance can be reloaded in user interface by using the following url:
 
@@ -124,4 +124,4 @@ A draft letter instance can be reloaded in user interface by using the following
 
 LetterInstaceID: The unique ID of the submitted letter instance.
 
-For more information on saving a draft letter, see [Saving drafts and submitting letter instances](../../forms/using/create-correspondence.md#savingdrafts).
+For more information on saving a draft letter, see [Saving drafts and submitting letter instances](/help/forms/using/create-correspondence.md#savingdrafts).

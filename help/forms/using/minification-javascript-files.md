@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: c88a3013-5da2-4b09-9f29-ac1fb00822ec
 ---
 
-# Minification of the JavaScript files{#minification-of-the-javascript-files}
+# Minification of the JavaScript files {#minification-of-the-javascript-files}
 
 Minification removes from the source code the redundant characters, such as white space, new line, and comments. This improves the performance by reducing the size of the code. While minification does not impact the functionality, it reduces the readability of the code.
 
@@ -21,7 +21,7 @@ To generate minified code for semantic changes follow these steps.
 
    >[!NOTE]
    >
-   >See [Introduction to Customizing AEM Forms workspace](../../forms/using/introduction-customizing-html-workspace.md) for more details about the packages.
+   >See [Introduction to Customizing AEM Forms workspace](/help/forms/using/introduction-customizing-html-workspace.md) for more details about the packages.
 
 1. Update paths in `main.js` located under client-html/src/main/webapp/js, for added/updated models/views.
 
@@ -69,4 +69,4 @@ To generate minified code for semantic changes follow these steps.
 >
 >If you minify, upgrade is impacted.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

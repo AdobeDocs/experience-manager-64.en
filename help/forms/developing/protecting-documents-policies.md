@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 9b1d2bf3-f28c-41b2-9026-1f3311556422
 ---
 
-# Protecting Documents with Policies{#protecting-documents-with-policies}
+# Protecting Documents with Policies {#protecting-documents-with-policies}
 
 **About the Document Security Service**
 
@@ -311,7 +311,7 @@ Create a policy by using the Document Security API (web service):
    >
    >When creating a policy and you specify a policy set, ensure that you specify an existing policy set. If you specify a policy set that does not exist, then an exception is thrown.
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Creating a policy using the web service API”
 * “Quick Start (SwaRef): Creating a policy using the web service API”
@@ -395,7 +395,7 @@ Modify an existing policy by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see theQuick Start(SOAP mode): Modifying a policy using the Java API in *[API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*.
+For code examples using the Document Security service, see the Quick Start(SOAP mode): Modifying a policy using the Java API section.
 
 ### Modify existing policies using the web service API {#modify-existing-policies-using-the-web-service-api}
 
@@ -440,7 +440,7 @@ Modify an existing policy by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Modifying a policy using the web service API”
 * “Quick Start (SwaRef): Modifying a policy using the web service API”
@@ -496,7 +496,7 @@ Delete a policy by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Deleting a policy using the Java API”
 
@@ -535,7 +535,7 @@ Delete a policy by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Deleting a policy using the web service API”
 * “Quick Start (SwaRef): Deleting a policy using the web service API”
@@ -631,7 +631,7 @@ Apply a policy to a PDF document by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (EJB mode): Applying a policy to a PDF document using the Java API”
 * “Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API”
@@ -702,7 +702,7 @@ Apply a policy to a PDF document by using the Document Security API (web service
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Applying a policy to a PDF document using the web service API”
 * “Quick Start (SwaRef): Applying a policy to a PDF document using the web service API ”
@@ -783,7 +783,7 @@ Remove a policy from a policy-protected PDF document by using the Document Secur
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Removing a policy from a PDF document using the Java API”
 
@@ -833,7 +833,7 @@ Remove a policy from a policy-protected PDF document using the Document Security
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Removing a policy from a PDF document using the web service API ”
 * “Quick Start (SwaRef): Removing a policy from a PDF document using the web service API”
@@ -926,7 +926,7 @@ Revoke access to a policy-protected PDF document by using the Document Security 
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Revoking a document using the Java API”
 
@@ -975,7 +975,7 @@ Revoke access to a policy-protected PDF document by using the Document Security 
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Revoking a document using the web service API”
 * “Quick Start (SwaRef): Revoking a document using the web service API”
@@ -1058,7 +1058,7 @@ Reinstate access to a revoked document by using the Document Security API (Java)
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Reinstating access to a revoked document using the web service API”
 
@@ -1103,7 +1103,7 @@ Reinstate access to a revoked document using the Document Security API (web serv
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Reinstating access to a revoked document using the web service API”
 * “Quick Start (SwaRef): Reinstating access to a revoked document using the web service API”
@@ -1192,7 +1192,7 @@ Inspect a policy-protected PDF document by using the Document Security Service A
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Inspecting policy protected PDF documents using the Java API”
 
@@ -1240,7 +1240,7 @@ Inspect a policy-protected PDF document by using the Document Security Service A
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Inspecting policy protected PDF documents using the web service API”
 * “Quick Start (SwaRef): Inspecting policy protected PDF documents using the web service API”
@@ -1294,71 +1294,71 @@ The following table lists key and value pairs that are required when creating a 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e49370" valign="top" width="NaN%"><p>Key Name</p></th> 
-   <th class="cellrowborder" id="d19e49373" valign="top" width="NaN%"><p>Description</p></th> 
-   <th class="cellrowborder" id="d19e49376" valign="top" width="NaN%"><p>Value</p></th> 
+   <th><p>Key Name</p></th> 
+   <th><p>Description</p></th> 
+   <th><p>Value</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:IS_USERNAME_ENABLED</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies if the user name of the user opening the document is part of the watermark.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_USERNAME_ENABLED</code></p></td> 
+   <td><p>Specifies if the user name of the user opening the document is part of the watermark.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:IS_USERID_ENABLED</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies if the identification of the user opening the document is part of the watermark.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_USERID_ENABLED</code></p></td> 
+   <td><p>Specifies if the identification of the user opening the document is part of the watermark.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:IS_CURRENTDATE_ENABLED</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies if the current date is part of the watermark.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_CURRENTDATE_ENABLED</code></p></td> 
+   <td><p>Specifies if the current date is part of the watermark.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:IS_CUSTOMTEXT_ENABLED</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>If this value is true, then the value of the custom text must be specified using <span class="code">WaterBackCmd:SRCTEXT</span>.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_CUSTOMTEXT_ENABLED</code></p></td> 
+   <td><p>If this value is true, then the value of the custom text must be specified using <code>WaterBackCmd:SRCTEXT</code>.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:OPACITY</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the opacity of the watermark. The default value is 0.5 if it is not specified.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>A value between 0.0 and 1.0.</p></td> 
+   <td><p><code>WaterBackCmd:OPACITY</code></p></td> 
+   <td><p>Specifies the opacity of the watermark. The default value is 0.5 if it is not specified.</p></td> 
+   <td><p>A value between 0.0 and 1.0.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:ROTATION</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the rotation of the watermark. The default value is 0 degrees.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>A value between 0 and 359.</p></td> 
+   <td><p><code>WaterBackCmd:ROTATION</code></p></td> 
+   <td><p>Specifies the rotation of the watermark. The default value is 0 degrees.</p></td> 
+   <td><p>A value between 0 and 359.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:SCALE</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>If this value is specified, then <span class="code">WaterBackCmd:IS_SIZE_ENABLED</span> must be present and the value must be true. If this attribute is not specified, the default behavior is fit to page.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>A value greater than 0.0 and less than or equal to 1.0.</p></td> 
+   <td><p><code>WaterBackCmd:SCALE</code></p></td> 
+   <td><p>If this value is specified, then <code>WaterBackCmd:IS_SIZE_ENABLED</code> must be present and the value must be true. If this attribute is not specified, the default behavior is fit to page.</p></td> 
+   <td><p>A value greater than 0.0 and less than or equal to 1.0.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:HORIZ_ALIGN</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the watermark’s horizontal alignment. The default value is center.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>left, center, or right</p></td> 
+   <td><p><code>WaterBackCmd:HORIZ_ALIGN</code></p></td> 
+   <td><p>Specifies the watermark’s horizontal alignment. The default value is center.</p></td> 
+   <td><p>left, center, or right</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:VERT_ALIGN</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the watermark’s vertical alignment. The default value is center.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>top, center, or bottom</p></td> 
+   <td><p><code>WaterBackCmd:VERT_ALIGN</code></p></td> 
+   <td><p>Specifies the watermark’s vertical alignment. The default value is center.</p></td> 
+   <td><p>top, center, or bottom</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:IS_USE_BACKGROUND</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies if the watermark is a background. The default value is false.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_USE_BACKGROUND</code></p></td> 
+   <td><p>Specifies if the watermark is a background. The default value is false.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:IS_SIZE_ENABLED</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>True if a custom scale is specified. If this value is true, SCALE must also be specified. If this value is false, then the default is fit to page.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_SIZE_ENABLED</code></p></td> 
+   <td><p>True if a custom scale is specified. If this value is true, SCALE must also be specified. If this value is false, then the default is fit to page.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><span class="code">WaterBackCmd:SRCTEXT</span></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the custom text for a watermark. If this value is present, then <span class="code">WaterBackCmd:IS_CUSTOMTEXT_ENABLED</span> must also be present and set to true.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:SRCTEXT</code></p></td> 
+   <td><p>Specifies the custom text for a watermark. If this value is present, then <code>WaterBackCmd:IS_CUSTOMTEXT_ENABLED</code> must also be present and set to true.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1412,7 +1412,7 @@ Create a watermark by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Creating a watermark using the Java API”
 
@@ -1459,7 +1459,7 @@ Create a watermark by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Creating a watermark using the web service API”
 * “Quick Start (SwaRef): Creating a watermark using the web service API”
@@ -1561,7 +1561,7 @@ Modify a watermark by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the Quick Start(SOAP mode): Modifying a watermark using the Java API in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*
+For code examples using the Document Security service, see the Quick Start(SOAP mode): Modifying a watermark using the Java API section.
 
 ### Modify watermarks using the web service API {#modify-watermarks-using-the-web-service-api}
 
@@ -1607,7 +1607,7 @@ Modify a watermark by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (MTOM): Modifying a watermark using the web service API”
 
@@ -1687,7 +1687,7 @@ Search for events by using the Rights Management API (Java):
 
 **Code examples**
 
-For code examples using the Rights Management service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Rights Management service, see the following Quick Starts:
 
 * “Quick Start (SOAP): Searching for events using the Java API”
 
@@ -1729,198 +1729,198 @@ Search for events by using the Rights Management API (web service):
     <table> 
     <thead align="left"> 
     <tr> 
-    <th class="cellrowborder" id="d19e50725" valign="top" width="NaN%"><p>Event type</p></th> 
-    <th class="cellrowborder" id="d19e50728" valign="top" width="NaN%"><p>Value</p></th> 
+    <th><p>Event type</p></th> 
+    <th><p>Value</p></th> 
     </tr> 
     </thead> 
     <tbody> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ALL_EVENTS</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>999</p></td> 
+    <td><p><code>ALL_EVENTS</code></p></td> 
+    <td><p>999</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_CHANGE_PASSWORD_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1000</p></td> 
+    <td><p><code>USER_CHANGE_PASSWORD_EVENT</code></p></td> 
+    <td><p>1000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_REGISTER_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1001</p></td> 
+    <td><p><code>USER_REGISTER_EVENT</code></p></td> 
+    <td><p>1001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_PREREGISTER_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1002</p></td> 
+    <td><p><code>USER_PREREGISTER_EVENT</code></p></td> 
+    <td><p>1002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_ACTIVATE_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1003</p></td> 
+    <td><p><code>USER_ACTIVATE_EVENT</code></p></td> 
+    <td><p>1003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_DEACTIVATE_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1004</p></td> 
+    <td><p><code>USER_DEACTIVATE_EVENT</code></p></td> 
+    <td><p>1004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_AUTHENTICATE_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1005</p></td> 
+    <td><p><code>USER_AUTHENTICATE_EVENT</code></p></td> 
+    <td><p>1005</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_AUTHENTICATE_DENY_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1006</p></td> 
+    <td><p><code>USER_AUTHENTICATE_DENY_EVENT </code></p></td> 
+    <td><p>1006</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_ACCOUNT_LOCK_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1007</p></td> 
+    <td><p><code>USER_ACCOUNT_LOCK_EVENT</code></p></td> 
+    <td><p>1007</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_DELETE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1008</p></td> 
+    <td><p><code>USER_DELETE_EVENT </code></p></td> 
+    <td><p>1008</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_UPDATE_PROFILE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1009</p></td> 
+    <td><p><code>USER_UPDATE_PROFILE_EVENT </code></p></td> 
+    <td><p>1009</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_VIEW_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2000</p></td> 
+    <td><p><code>DOCUMENT_VIEW_EVENT </code></p></td> 
+    <td><p>2000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_PRINT_LOW_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2001</p></td> 
+    <td><p><code>DOCUMENT_PRINT_LOW_EVENT </code></p></td> 
+    <td><p>2001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_PRINT_HIGH_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2002</p></td> 
+    <td><p><code>DOCUMENT_PRINT_HIGH_EVENT </code></p></td> 
+    <td><p>2002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SIGN_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2003</p></td> 
+    <td><p><code>DOCUMENT_SIGN_EVENT </code></p></td> 
+    <td><p>2003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_ADD_ANNOTATION_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2004</p></td> 
+    <td><p><code>DOCUMENT_ADD_ANNOTATION_EVENT </code></p></td> 
+    <td><p>2004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_FORM_FILL_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2005</p></td> 
+    <td><p><code>DOCUMENT_FORM_FILL_EVENT </code></p></td> 
+    <td><p>2005</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CLOSE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2006</p></td> 
+    <td><p><code>DOCUMENT_CLOSE_EVENT </code></p></td> 
+    <td><p>2006</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_MODIFY_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2007</p></td> 
+    <td><p><code>DOCUMENT_MODIFY_EVENT </code></p></td> 
+    <td><p>2007</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CHANGE_SECURITY_HANDLER_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2008</p></td> 
+    <td><p><code>DOCUMENT_CHANGE_SECURITY_HANDLER_EVENT </code></p></td> 
+    <td><p>2008</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SWITCH_POLICY_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2009</p></td> 
+    <td><p><code>DOCUMENT_SWITCH_POLICY_EVENT </code></p></td> 
+    <td><p>2009</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_REVOKE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2010</p></td> 
+    <td><p><code>DOCUMENT_REVOKE_EVENT </code></p></td> 
+    <td><p>2010</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_UNREVOKE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2011</p></td> 
+    <td><p><code>$1</code></p></td> 
+    <td><p>2011</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SECURE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2012</p></td> 
+    <td><p><code>DOCUMENT_SECURE_EVENT </code></p></td> 
+    <td><p>2012</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_UNKNOWN_CLIENT_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2013</p></td> 
+    <td><p><code>DOCUMENT_UNKNOWN_CLIENT_EVENT </code></p></td> 
+    <td><p>2013</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CHANGE_REVOKE_URL_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2014</p></td> 
+    <td><p><code>DOCUMENT_CHANGE_REVOKE_URL_EVENT </code></p></td> 
+    <td><p>2014</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CHANGE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3000</p></td> 
+    <td><p><code>POLICY_CHANGE_EVENT </code></p></td> 
+    <td><p>3000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_ENABLE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3001</p></td> 
+    <td><p><code>POLICY_ENABLE_EVENT </code></p></td> 
+    <td><p>3001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_DISABLE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3002</p></td> 
+    <td><p><code>POLICY_DISABLE_EVENT </code></p></td> 
+    <td><p>3002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CREATE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3003</p></td> 
+    <td><p><code>POLICY_CREATE_EVENT </code></p></td> 
+    <td><p>3003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_DELETE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3004</p></td> 
+    <td><p><code>POLICY_DELETE_EVENT </code></p></td> 
+    <td><p>3004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CHANGE_OWNER_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3005</p></td> 
+    <td><p><code>POLICY_CHANGE_OWNER_EVENT </code></p></td> 
+    <td><p>3005</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_CLIENT_SYNC_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4000</p></td> 
+    <td><p><code>SERVER_CLIENT_SYNC_EVENT </code></p></td> 
+    <td><p>4000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_SYNC_DIR_INFO_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4001</p></td> 
+    <td><p><code>SERVER_SYNC_DIR_INFO_EVENT </code></p></td> 
+    <td><p>4001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_SYNC_DIR_COMPLETE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4002</p></td> 
+    <td><p><code>SERVER_SYNC_DIR_COMPLETE_EVENT </code></p></td> 
+    <td><p>4002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_VERSION_MISMATCH_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4003</p></td> 
+    <td><p><code>SERVER_VERSION_MISMATCH_EVENT </code></p></td> 
+    <td><p>4003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_CONFIG_CHANGE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4004</p></td> 
+    <td><p><code>SERVER_CONFIG_CHANGE_EVENT </code></p></td> 
+    <td><p>4004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_ENABLE_OFFLINE_ACCESS_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4005</p></td> 
+    <td><p><code>SERVER_ENABLE_OFFLINE_ACCESS_EVENT </code></p></td> 
+    <td><p>4005</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_ADD_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5000</p></td> 
+    <td><p><code>ADMIN_ADD_EVENT </code></p></td> 
+    <td><p>5000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_DELETE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5001</p></td> 
+    <td><p><code>ADMIN_DELETE_EVENT </code></p></td> 
+    <td><p>5001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_EDIT_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5002</p></td> 
+    <td><p><code>ADMIN_EDIT_EVENT </code></p></td> 
+    <td><p>5002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_ACTIVATE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5003</p></td> 
+    <td><p><code>ADMIN_ACTIVATE_EVENT </code></p></td> 
+    <td><p>5003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_DEACTIVATE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5004</p></td> 
+    <td><p><code>ADMIN_DEACTIVATE_EVENT </code></p></td> 
+    <td><p>5004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ERROR_DIRECTORY_SERVICE_EVENT </span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>6000</p></td> 
+    <td><p><code>ERROR_DIRECTORY_SERVICE_EVENT </code></p></td> 
+    <td><p>6000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">CREATED_POLICYSET_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7000</p></td> 
+    <td><p><code>CREATED_POLICYSET_EVENT</code></p></td> 
+    <td><p>7000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DELETED_POLICYSET_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7001</p></td> 
+    <td><p><code>DELETED_POLICYSET_EVENT</code></p></td> 
+    <td><p>7001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">MODIFIED_POLICYSET_EVENT</span></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7002</p></td> 
+    <td><p><code>MODIFIED_POLICYSET_EVENT</code></p></td> 
+    <td><p>7002</p></td> 
     </tr> 
     </tbody> 
     </table>
@@ -1931,7 +1931,7 @@ Search for events by using the Rights Management API (web service):
 
 **Code examples**
 
-For code examples using the Rights Management service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Rights Management service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Searching for events using the web service API”
 * “Quick Start (SwaRef): Searching for events using the web service API”
@@ -2031,7 +2031,7 @@ Apply a policy to a Word document by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (SOAP mode): Applying a policy to a Word document using the Java API”
 
@@ -2095,7 +2095,7 @@ Apply a policy to a Word document by using the Document Security API (web servic
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (MTOM): Applying a policy to a Word document using the web service API ”
 
@@ -2175,7 +2175,7 @@ Remove a policy from a policy-protected Word document by using the Document Secu
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (SOAP mode): Removing a policy from a Word document using the Java API ”
 
@@ -2225,7 +2225,7 @@ Remove a policy from a policy-protected Word document by using the Document Secu
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in *[API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (MTOM): Removing a policy from a Word document using the web service API”
 

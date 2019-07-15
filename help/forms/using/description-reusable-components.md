@@ -11,29 +11,29 @@ topic-tags: forms-workspace
 discoiquuid: d3facd17-ceb0-4799-8cd9-ff9e81e09793
 ---
 
-# Description of reusable components{#description-of-reusable-components}
+# Description of reusable components {#description-of-reusable-components}
 
-AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html-ws-components-web.md) components which are organized in a specific [folder structure](../../forms/using/folder-structure.md) in CRX™. Each component has model, view, and template file at location specified in the folder structure, JavaScript™ dependencies on other component files, events listened by the component and JavaScript objects which trigger these events in AEM Forms workspace. The complete list of reusable components with constituent filenames and dependencies is given here.
+AEM Forms workspace is composed of [reusable](/help/forms/using/integrating-html-ws-components-web.md) components which are organized in a specific [folder structure](/help/forms/using/folder-structure.md) in CRX™. Each component has model, view, and template file at location specified in the folder structure, JavaScript™ dependencies on other component files, events listened by the component and JavaScript objects which trigger these events in AEM Forms workspace. The complete list of reusable components with constituent filenames and dependencies is given here.
 
 ## TaskList {#tasklist}
 
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tasklist.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>tasklist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tasklist.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>tasklist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tasklist.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>tasklist.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Requires components</p></td> 
+   <td> 
     <ul> 
      <li><p>UserSearch</p></li> 
      <li><p>Task</p></li> 
@@ -41,16 +41,16 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p></td> 
+   <td> 
     <ul> 
      <li><p>task model</p></li> 
      <li><p>teamtask model</p></li> 
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>filterSelected - tasklist model</p></li> 
      <li><p>remove - tasklist model</p></li> 
@@ -69,32 +69,32 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>task.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>task.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>task.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>task.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>task.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>task.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p></td> 
+   <td> 
     <ul> 
      <li><p>tasklist model</p></li> 
      <li><p>taskactions utility</p></li> 
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>submitComplete - task model</p></li> 
      <li><p>Reject - task model</p></li> 
@@ -112,28 +112,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tasklist.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>tasklist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>filterlist.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>filterlist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>filterlist.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>filterlist.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>fetched - tasklist model </p></li> 
      <li><p>remove - tasklist model </p></li> 
@@ -150,20 +150,20 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>filter.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>filter.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>filter.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>filter.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p> </td> 
+   <td> 
     <ul> 
      <li><p>Field: queue: { name, qid, isDefault, type}</p> </li> 
      <li><p>Field: query: string</p> </li> 
@@ -173,8 +173,8 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Events listened</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -184,28 +184,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tasklist.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>tasklist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>teamqueues.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>teamqueues.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>teamqueues.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>teamqueues.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>fetched - tasklist model </p></li> 
      <li><p>remove - tasklist model </p></li> 
@@ -221,24 +221,24 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>teamfilter.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>teamfilter.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>teamfilter.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>teamfilter.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p> </td> 
+   <td> 
     <ul> 
      <li><p>Extends : filter view</p> </li> 
      <li><p>Field : queue :{ name, qid, isDefault, type }</p> </li> 
@@ -249,8 +249,8 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Events listened</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -264,24 +264,24 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tasklist.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>tasklist.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>taskdetails.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>taskdetails.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>taskdetails.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>taskdetails.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Most of the Utility classes</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>Most of the Utility classes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p> </td> 
+   <td> 
     <ul> 
      <li><p>processinstancehistory.html</p> </li> 
      <li><p>formrendering utility</p> </li> 
@@ -292,8 +292,8 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td> 
     <ul> 
      <li><p>forwarded - task model</p> </li> 
      <li><p>shared - task model</p> </li> 
@@ -322,32 +322,32 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>categorylist.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>categorylist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>categorylist.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>categorylist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>startprocess.html (in the route folder)</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>startprocess.html (in the route folder)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Category</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>Category</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p></td> 
+   <td> 
     <ul> 
      <li><p>favoritecategoryfactory model</p></li> 
      <li><p>allcategoryfactory model</p></li> 
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>allStartpointsFetched - categorylist model </p></li> 
      <li><p>add - categorylist model </p></li> 
@@ -365,32 +365,32 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>category.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>category.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>category.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>category.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>category.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>category.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p></td> 
+   <td> 
     <ul> 
      <li><p>categorylist model</p></li> 
      <li><p>startpointlist model</p></li> 
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>changed - category model </p></li> 
      <li><p>childrenFetched - category model </p></li> 
@@ -405,24 +405,24 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>categorylist.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>categorylist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>startpointlist.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>startpointlist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>startprocess.html (in the route folder)</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>startprocess.html (in the route folder)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p></td> 
+   <td> 
     <ul> 
      <li><p>category model</p></li> 
      <li><p>favoritecategoryfactory model</p></li> 
@@ -437,8 +437,8 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>category:selected - categorylist model </p></li> 
      <li><p>allStartpointsFetched - categorylist model </p></li> 
@@ -456,28 +456,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>startpoint.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>startpoint.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>startpoint.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>startpoint.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>startpoint.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>startpoint.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>task model</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>task model</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>change - startpoint model </p></td> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td><p>change - startpoint model </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -487,28 +487,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>categorylist.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>categorylist.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>startprocess.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>startprocess.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>startprocess.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>startprocess.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Requires components</p> </td> 
+   <td> 
     <ul> 
      <li><p>Most of the Utility classes</p> </li> 
      <li><p>UserSearch</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p> </td> 
+   <td> 
     <ul> 
      <li><p>category model</p> </li> 
      <li><p>favoritecategoryfactory model</p> </li> 
@@ -520,8 +520,8 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td> 
     <ul> 
      <li><p>category:selected - categorylist model</p> </li> 
      <li><p>change:invokedTask - startpointlist model</p> </li> 
@@ -550,28 +550,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processnamelist.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>processnamelist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processnamelist.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>processnamelist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tracking.html (in the route folder)</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>tracking.html (in the route folder)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processname model</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>processname model</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>add - processnamelist model </p></li> 
      <li><p>fetched:processnames - processnamelist model </p></li> 
@@ -590,28 +590,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processname.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>processname.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processname (in processnamelist.js)</p></td> 
+   <td><p>View</p></td> 
+   <td><p>processname (in processnamelist.js)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processname.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>processname.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processinstancelist model</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>processinstancelist model</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>change - processname model </p></td> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td><p>change - processname model </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -621,28 +621,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processnamelist.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>processnamelist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processinstancelist.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>processinstancelist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tracking.html (in the route folder)</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>tracking.html (in the route folder)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processname model</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>processname model</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>processname:selected - processnamelist model </p></li> 
      <li><p>processname:instancesfetched - processnamelist model </p></li> 
@@ -660,28 +660,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processinstance.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>processinstance.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processname inside processnamelist.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>processname inside processnamelist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processinstance.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>processinstance.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tasklist model</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>tasklist model</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>change - processinstance model </p></td> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td><p>change - processinstance model </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -691,32 +691,32 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processnamelist.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>processnamelist.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processinstancehistory.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>processinstancehistory.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>processinstancehistory.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>processinstancehistory.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>JS dependencies</p></td> 
+   <td> 
     <ul> 
      <li><p>processname model</p></li> 
      <li><p>history utility</p></li> 
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>processname:selected - processnamelist model </p></li> 
      <li><p>processinstance:selected - processinstancelist model </p></li> 
@@ -735,28 +735,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>outofoffice.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>outofoffice.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>outofoffice.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>outofoffice.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>outofoffice.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>outofoffice.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>UserSearch</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>UserSearch</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>usersearch view</p> </td> 
+   <td><p>JS dependencies</p> </td> 
+   <td><p>usersearch view</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td> 
     <ul> 
      <li><p>outOfOfficeSettingsFetched - outofoffice model</p> </li> 
      <li><p>outOfOfficeSettingsSaved - outofoffice model</p> </li> 
@@ -776,28 +776,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>sharequeue.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>sharequeue.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>sharequeue.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>sharequeue.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>sharequeue.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>sharequeue.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>UserSearch</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>UserSearch</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>usersearch view</p> </td> 
+   <td><p>JS dependencies</p> </td> 
+   <td><p>usersearch view</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td> 
     <ul> 
      <li><p>queueAccessGranted - sharequeue model</p> </li> 
      <li><p>queueAccessRequested - sharequeue model</p> </li> 
@@ -820,28 +820,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>uisettings.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>uisettings.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>uisettings.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>uisettings.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>uisettings.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>uisettings.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td> 
     <ul> 
      <li><p>preferencesFetched - uisettings model </p></li> 
      <li><p>settingUpdated - uisettings model </p></li> 
@@ -859,28 +859,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>appnavigation.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>appnavigation.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>appnavigation.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>appnavigation.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>appnavigation.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>appnavigation.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Events listened</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -894,28 +894,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>userinfo.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>userinfo.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>userinfo.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>userinfo.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>userinfo.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>userinfo.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>JS dependencies</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td> 
     <ul> 
      <li>userImageUrlFetched - userinfo model</li> 
      <li>sessionRenewed - userinfo model <br /> </li> 
@@ -934,28 +934,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>wserror.js</p></td> 
+   <td><p>Model</p></td> 
+   <td><p>wserror.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>wserror.js</p></td> 
+   <td><p>View</p></td> 
+   <td><p>wserror.js</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>wserror.html</p></td> 
+   <td><p>Template</p></td> 
+   <td><p>wserror.html</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>Requires components</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p></td> 
+   <td><p>JS dependencies</p></td> 
+   <td><p>NA</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p></td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>newWsError - wserror model </p></td> 
+   <td><p>Events listened (Event name - Trigger)</p></td> 
+   <td><p>newWsError - wserror model </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -965,28 +965,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>usersearch.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>usersearch.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>usersearch.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>usersearch.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>usersearch.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>usersearch.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>JS dependencies</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td> 
     <ul> 
      <li>principalSearched - principalsearch model</li> 
      <li>outOfOfficeInfoFetched - usersearch model</li> 
@@ -1000,28 +1000,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplate.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>searchtemplate.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplate (in searchtemplatelist.js) </p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>searchtemplate (in searchtemplatelist.js) </p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplate.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>searchtemplate.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>JS dependencies</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>templateFetched- searchtemplate model</p> </td> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td><p>templateFetched- searchtemplate model</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1031,28 +1031,28 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplatelist.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>searchtemplatelist.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplatelist.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>searchtemplatelist.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>tracking.html (in the route folder)</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>tracking.html (in the route folder)</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplate model</p> </td> 
+   <td><p>JS dependencies</p> </td> 
+   <td><p>searchtemplate model</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>change - searchtemplatelist model</p> </td> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td><p>change - searchtemplatelist model</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1062,30 +1062,30 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 <table> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplatelist.js</p> </td> 
+   <td><p>Model</p> </td> 
+   <td><p>searchtemplatelist.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplatedetails.js</p> </td> 
+   <td><p>View</p> </td> 
+   <td><p>searchtemplatedetails.js</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Template</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchtemplatedetails.html</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>searchtemplatedetails.html</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Requires components</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>NA</p> </td> 
+   <td><p>Requires components</p> </td> 
+   <td><p>NA</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>JS dependencies</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%">NA<br /> </td> 
+   <td><p>JS dependencies</p> </td> 
+   <td>NA<br /> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Events listened (Event name - Trigger)</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>searchTemplate:selected - searchtemplate model</p> </td> 
+   <td><p>Events listened (Event name - Trigger)</p> </td> 
+   <td><p>searchTemplate:selected - searchtemplate model</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

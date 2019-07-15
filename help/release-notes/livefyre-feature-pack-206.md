@@ -8,7 +8,7 @@ contentOwner: alba
 discoiquuid: d445bcfb-7712-472f-bfb4-a8811c2bc4f1
 ---
 
-# Livefyre Feature Pack 2.0.6 Release Notes{#livefyre-feature-pack-release-notes}
+# Livefyre Feature Pack 2.0.6 Release Notes {#livefyre-feature-pack-release-notes}
 
 ## Release Information {#release-information}
 
@@ -47,7 +47,7 @@ discoiquuid: d445bcfb-7712-472f-bfb4-a8811c2bc4f1
 
 ## What is included in Livefyre Feature Pack 2.0.6 {#what-is-included-in-livefyre-feature-pack}
 
-This package integrates Livefyre's industry leading curation capabilities with your AEM instance, allowing you to publish valuable user-generated content (UGC) from social networks to your site in minutes. There are 3 different components to this package:
+This package integrates Livefyre's industry leading curation capabilities with your AEM instance, allowing you to publish valuable user-generated content (UGC) from social networks to your site in minutes. There are three different components to this package:
 
 **Import UGC Content into AEM Assets**
 
@@ -66,7 +66,7 @@ This package integrates Livefyre's industry leading curation capabilities with y
 * Seamlessly integrate your existing product catalogue into Livefyre to drive user engagement and conversion in your sites, as well as delivering shoppable UGC experiences.
 * Edit or delete items in your AEM Commerce Product Catalog and automatically update changes in Livefyre.
 
-For help with installation, see [Integrating with Livefyre](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html).
+For help with installation, see [Integrating with Livefyre](https://https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html).
 
 ### Additional Release Information {#additional-release-information}
 
@@ -79,7 +79,7 @@ Due to updates affecting the aggregation of content from Instagram non-business 
 #### New feature or improvement {#new-feature-or-improvement}
 
 * Added the ability to search UGC before setting up rights request social accounts in Livefyre. You must setup social accounts to request rights, or override the rights request if you own the content. 
-* Instagram and Twitter [UGC rights request workflow](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html) has been updated to comply with latest APIs.
+* Instagram and Twitter [UGC rights request workflow](https://https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html) has been updated to comply with latest APIs.
 * Rights status and appropriate actions are now displayed on the rights request screen.
 
 #### Bug fixes {#bug-fixes}

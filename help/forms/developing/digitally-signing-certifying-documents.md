@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: 42de04bf-25e4-4478-a411-38671ed871ae
 ---
 
-# Digitally Signing and Certifying Documents{#digitally-signing-and-certifying-documents}
+# Digitally Signing and Certifying Documents {#digitally-signing-and-certifying-documents}
 
 **About the Signature Service**
 
@@ -921,7 +921,7 @@ Digitally sign an interactive form by using the Forms and Signature API (Java):
         * A `java.util.HashMap` object that stores file attachments. This is an optional parameter and you can specify `null` if you do not want to attach files to the form.
 
       The `renderPDFForm2` method returns a `FormsResult` object that contains a form data stream 
-    
+
     * Retrieve the PDF form by invoking the `FormsResult` object’s `getOutputContent` method. This method returns a `com.adobe.idp.Document` object that represents the interactive form.
 
 1. Sign the interactive form
@@ -1280,7 +1280,7 @@ Digital signatures can be verified to ensure that a signed PDF document was not 
 
 Assume that the identity of the signer is unknown. When you open the PDF document in Acrobat, a warning message states that the signer’s identity is unknown, as shown in the following illustration. 
 
-![](assets/vd_vd_verifysig.png)
+![vd_vd_verifysig](assets/vd_vd_verifysig.png)
 
 Likewise, when you programmatically verify a digital signature, you can determine the status of the signer’s identity. For example, if you verify the digital signature in the document shown in the previous illustration, the result would be that the signer’s identity is unknown.
 

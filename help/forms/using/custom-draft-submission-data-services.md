@@ -10,7 +10,7 @@ topic-tags: customization
 discoiquuid: 602fd6a9-9a65-411c-8475-a4082a3fdee0
 ---
 
-# Customizing Draft and Submission data services{#customizing-draft-and-submission-data-services}
+# Customizing Draft and Submission data services {#customizing-draft-and-submission-data-services}
 
 ## Overview {#overview}
 
@@ -20,14 +20,14 @@ By default, AEM Forms stores the user data associated with the draft and submiss
 
 However, AEM Forms portal components provides data services that allow you to customize the implementation of storing user data for drafts and submissions. For example, you can store the data in a data store currently implemented in your organization.
 
-To customize the storage of user data, you need to implement the [Draft Data](../../forms/using/custom-draft-submission-data-services.md#p-draft-data-service-p) and [Submission Data](../../forms/using/custom-draft-submission-data-services.md#p-submission-data-service-p) services.
+To customize the storage of user data, you need to implement the [Draft Data](/help/forms/using/custom-draft-submission-data-services.md#p-draft-data-service-p) and [Submission Data](/help/forms/using/custom-draft-submission-data-services.md#p-submission-data-service-p) services.
 
 ## Prerequisites {#prerequisites}
 
-* Enable [Forms portal components](../../forms/using/enabling-forms-portal-components.md) 
-* Create a [forms portal page](../../forms/using/creating-form-portal-page.md) 
-* Enable [adaptive forms for forms portal](../../forms/using/draft-submission-component.md)
-* Learn [implementation details of custom storage](../../forms/using/draft-submission-component.md#customizing-the-storage)
+* Enable [Forms portal components](/help/forms/using/enabling-forms-portal-components.md) 
+* Create a [forms portal page](/help/forms/using/creating-form-portal-page.md) 
+* Enable [adaptive forms for forms portal](/help/forms/using/draft-submission-component.md)
+* Learn [implementation details of custom storage](/help/forms/using/draft-submission-component.md#customizing-the-storage)
 
 ## Draft data service {#draft-data-service}
 

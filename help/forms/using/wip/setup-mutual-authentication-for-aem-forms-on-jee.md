@@ -9,7 +9,7 @@ contentOwner: khsingh
 discoiquuid: 09311db3-34b6-4463-8a93-8382e7bba5ba
 ---
 
-# DO NOT PUBLISH Set up Mutual Authentication for AEM Forms on JEE{#do-not-publish-set-up-mutual-authentication-for-aem-forms-on-jee}
+# DO NOT PUBLISH Set up Mutual Authentication for AEM Forms on JEE {#do-not-publish-set-up-mutual-authentication-for-aem-forms-on-jee}
 
 Mutual authentication is a security process in which both the clients and server authenticate each other's identities before actual communication occurs. With mutual authentication, a connection can occur only when the client trusts the digital certificate of the server and the server trusts the certificate of the client. In this way, a client and a server are certain that they are connecting with legitimate entities and severing content for legitimate purposes. For more information about mutual authentication, see [an Introduction to Mutual Authentication](https://www.codeproject.com/Articles/326574/An-Introduction-to-Mutual-SSL-Authentication).
 
@@ -26,7 +26,7 @@ You can use mutual authentication in AEM Form to:
 
 Configure application server and AEM Forms on JEE server to provide secure logging and secure communication between AEM Forms, Adobe Acrobat, Acrobat Reader, and Microsoft office.
 
-* [Configure application server](../../../forms/using/wip/setup-mutual-authentication-for-aem-forms-on-jee.md#configure-application-server)
+* [Configure application server](/help/forms/using/wip/setup-mutual-authentication-for-aem-forms-on-jee.md#configure-application-server)
 * [Configure AEM Forms on JEE server](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html#p-livecycle-server-configuration-p)
 
 Perform the following additional configurations to enable authenticate via a system user certificate instead of a pre-configured user name and password for Microsoft SharePoint, authenticate users using CAC cards, allow indexing protected documents, securely logging in to AEM Forms Workbench:
@@ -40,7 +40,7 @@ Perform the following additional configurations to enable authenticate via a sys
 
 Before you start,
 
-* Obtain certificates from a trusted certifying authority (CA) or create [self-signed the certificates](../../../forms/using/wip/setup-mutual-authentication-for-aem-forms-on-jee.md#use-openssl-to-create-and-sign-certificates). These certificates are required to identify the server and clients in a mutual authentication environment.  
+* Obtain certificates from a trusted certifying authority (CA) or create [self-signed the certificates](/help/forms/using/wip/setup-mutual-authentication-for-aem-forms-on-jee.md#use-openssl-to-create-and-sign-certificates). These certificates are required to identify the server and clients in a mutual authentication environment.  
 
 * Create and deploy the custom user management auth provider (AuthProvider) SPI to enable mutual authentication on the AEM Forms server. For detailed instructions, see [Server Configuration](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html#p-livecycle-server-configuration-p).
 
@@ -93,7 +93,7 @@ Each application server has a separate set of instructions to enable mutual auth
 
 1. Restart the JBoss application server.
 
-   After the server restarts, create a [Hybrid Domain](https://helpx.adobe.com/in/experience-manager/6-4/forms/using/admin-help/adding-domains.html#add_a_hybrid_domain). Choose the Auth Provider for the domain as **[!UICONTROL Custom]**and select **[!UICONTROL SSLMutualAuthProvider]**. In the hybrid domain, create a user with the name similar to user created in the previous step. For example, Paul Smith.
+   After the server restarts, create a [Hybrid Domain](https://helpx.adobe.com/in/experience-manager/6-4/forms/using/admin-help/adding-domains.html#add_a_hybrid_domain). Choose the Auth Provider for the domain as **[!UICONTROL Custom]** and select **[!UICONTROL SSLMutualAuthProvider]**. In the hybrid domain, create a user with the name similar to user created in the previous step. For example, Paul Smith.
 
 1. Configure certificate for the server.
 
@@ -101,7 +101,7 @@ Each application server has a separate set of instructions to enable mutual auth
 
 1. Add certificates to AEM truststore and keystore:
 
-    1. Login to https://[server]:[port]/lc/libs/granite/security/content/useradmin.html as an administrator.
+    1. Login to `https://[server]:[port]/lc/libs/granite/security/content/useradmin.html` as an administrator.
     1. Tap **[!UICONTROL Administrator]**. The **Edit User Settings** page opens.
     1. Tap **[!UICONTROL Create trustStore]** and set an access password for trustStore. For more information, see [Add the IdP Certificate to the AEM TrustStore](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/saml-2-0-authenticationhandler.html#add-the-idp-certificate-to-the-aem-truststore).
     1. Tap **[!UICONTROL Create keyStore]** and set a password for keyStore. For more information, see [Add the Service Provider key and certificate chain to the AEM keystore](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/saml-2-0-authenticationhandler.html#add-the-service-provider-key-and-certificate-chain-to-the-aem-keystore).

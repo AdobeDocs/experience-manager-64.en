@@ -20,8 +20,8 @@ Perform the following steps to enable AEM to search document security protected 
 ## Before you start {#before-you-start}
 
 * Install and configure AEM Forms document security.
-* Add package sun.util.calendar to the whitelist of the **Deserialization Firewall Configuration.** The configuration is listed at https://[server]:[port]/system/console/configMgr.
-* Ensure that all AEM bundles are up and running. The bundles are listed at https://[server]:[port]/system/console/bundles. If all the bundles are not active, wait, and check the status of the bundles after for a few minutes.
+* Add package sun.util.calendar to the whitelist of the **Deserialization Firewall Configuration.** The configuration is listed at `https://[server]:[port]/system/console/configMgr`.
+* Ensure that all AEM bundles are up and running. The bundles are listed at `https://[server]:[port]/system/console/bundles`. If all the bundles are not active, wait, and check the status of the bundles after for a few minutes.
 
 ## Establish a secure connection within AEM Forms workflow (AEM Forms on JEE) {#establish-a-secure-connection-within-aem-forms-workflow-aem-forms-on-jee}
 
@@ -36,7 +36,6 @@ A secure connection enables  seamless  flow of information between AEM Forms on 
 1. Search and open the AEM Forms Client SDK Bundle. Specify value for the following properties:
 
     * **Server URL:** Specify HTTP URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE  keystore  file&gt; parameter.
-    
     * **Service Name**: Add the RightsManagementService to the list of specified services.
     * **Username:** Specify username of the AEM Forms on JEE account to use to initiate calls from AEM Forms on JEE server. The account specified must have permissions to invoke Document services on the AEM Forms on JEE server.
     * **Password**: Specify password of the AEM Forms on JEE account mentioned in the Username field.
@@ -50,16 +49,11 @@ A secure connection enables  seamless  flow of information between AEM Forms on 
 1. Search and open the AEM Forms Client SDK Bundle. Specify value for the following properties:
 
     * **Server URL:** Specify HTTPS URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE  keystore  file&gt; parameter.
-    
     * **Enable 2-way SSL**: Enable the Enable 2-way SSL option.
     * **KeyStore File URL**: Specify the URL of the  keystore  file.
-    
-    * **TrustStore  FIle  URL**: Specify the URL of the  truststore  file.  
-    
-    * **KeyStore Password**: Specify the password for the  keystore  file.  
-    
-    * **TrustStorePassword**: Specify the password for the  truststore  file.  
-    
+    * **TrustStore  FIle  URL**: Specify the URL of the  truststore  file.
+    * **KeyStore Password**: Specify the password for the  keystore  file. 
+    * **TrustStorePassword**: Specify the password for the  truststore  file.
     * **Service Name**: Add the RightsManagementService to the list of specified services.
 
    Click **Save**. AEM is enabled to search document security protected PDF and Microsoft Office documents

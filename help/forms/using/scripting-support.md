@@ -11,7 +11,7 @@ topic-tags: hTML5_forms
 discoiquuid: 4ef78c8c-783f-4aac-a499-692cd4acef75
 ---
 
-# Scripting support for HTML5 forms{#scripting-support-for-html-forms}
+# Scripting support for HTML5 forms {#scripting-support-for-html-forms}
 
 JavaScript, FormCalc properties, and methods supported in HTML5 forms are as listed below:
 
@@ -25,23 +25,23 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th>Exception</th> 
   </tr> 
   <tr> 
-   <td width="30%"><span class="code">prevText </span></td> 
-   <td width="40%">Specifies the content of the field before it changes in response to the actions of a user. This value can be recalled, similar to an undo feature.</td> 
-   <td><p>Does not work for drop-downs and list boxes. <span class="code">PrevText </span>does not work correctly for the following cases:</p> 
+   <td><code>prevText</code></td> 
+   <td>Specifies the content of the field before it changes in response to the actions of a user. This value can be recalled, similar to an undo feature.</td> 
+   <td><p>Does not work for drop-downs and list boxes. <code>PrevText </code>does not work correctly for the following cases:</p> 
     <ul> 
      <li>On typing some special character keys (for example $, (,), &amp;, @, and more) in Numeric fields on the iPad, and </li> 
      <li>For the Date field (when date is entered through calendar).<br /> </li> 
     </ul> <p>Setting value through script is not supported.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">target</span></td> 
+   <td><code>target</code></td> 
    <td>Specifies the object upon which the event is acting.</td> 
    <td>Setting value through script is not supported.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">newtext</span></td> 
+   <td><code>newtext</code></td> 
    <td>Specifies the content of the field after it changes in response to user actions.</td> 
-   <td><p>The <span class="code">newText</span> property does not work properly for following cases :</p> 
+   <td><p>The <code>newText</code> property does not work properly for following cases :</p> 
     <ul> 
      <li>On selecting-replacing texts</li> 
      <li>On deleting, copying, and pasting texts.</li> 
@@ -88,67 +88,67 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th>Exception</th> 
   </tr> 
   <tr> 
-   <td width="30%"><span class="code">apptype</span></td> 
-   <td width="40%">Returns the application type of the host. Available only for client applications.</td> 
-   <td>Returns <span class="code">HTML 5</span>.</td> 
+   <td><code>apptype</code></td> 
+   <td>Returns the application type of the host. Available only for client applications.</td> 
+   <td>Returns <code>HTML 5</code>.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">name</span></td> 
+   <td><code>name</code></td> 
    <td>Returns the name of the current application.</td> 
-   <td>Returns the browser name and its version. For example, in Chrome browser, the value returned is <span class="code">Chrome &lt;version&gt;. </span></td> 
+   <td>Returns the browser name and its version. For example, in Chrome browser, the value returned is <code>Chrome &lt;version&gt;.</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">numPages</span></td> 
+   <td><code>numPages</code></td> 
    <td>Returns the number of pages in the document.</td> 
    <td>Pagination policy of HTML5 forms is not identical to PDF forms pagination policy. So the numPages API can return a different values in both the cases.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">platform</span></td> 
+   <td><code>platform</code></td> 
    <td>Returns a string representing the platform of the computer running the script.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">title</span></td> 
+   <td><code>title</code></td> 
    <td>Specifies the title of the document. It is available only for client applications.</td> 
    <td>It returns title of HTML document in form, rather than the form metadata title as in the case of PDF Forms.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">version</span></td> 
+   <td><code>version</code></td> 
    <td>Returns a string representing the version number of the current application.</td> 
    <td>It returns the version of the form.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">calculationsEnabled</span></td> 
+   <td><code>calculationsEnabled</code></td> 
    <td>Specifies whether calculate scripts will execute.<br /> </td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">validationsEnabled</span></td> 
+   <td><code>validationsEnabled</code></td> 
    <td>Specifies whether validation scripts will execute.<br /> </td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">pageUp</span></td> 
+   <td><code>pageUp</code></td> 
    <td>Goes to the previous page.</td> 
    <td>HTML5 forms do not follow the same pagination policy as PDF Form, so the previous page of an HTML5 form is different from previous page of a PDF Form.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">pageDown</span></td> 
+   <td><code>pageDown</code></td> 
    <td>Moves to the next page of a form. Use the pageDown method at runtime.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">setFocus</span></td> 
+   <td><code>setFocus</code></td> 
    <td>Sets the keyboard focus to the field specified. The field is specified as an object, or by the SOM expression of the field. It is available only for client applications.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">resetdata</span></td> 
+   <td><code>resetdata</code></td> 
    <td>Resets the fields to their default values within a document.</td> 
    <td>Clears all data in a form with merged data, rather than restoring it to default values.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">messageBox</span></td> 
+   <td><code>messageBox</code></td> 
    <td>Displays a dialog box on the screen. It is available only for client applications</td> 
    <td>Message box of type Yes/No is converted to OK/Cancel. Message box with three buttons is not supported.</td> 
   </tr> 
@@ -170,132 +170,132 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th><strong><span>Exception</span></strong></th> 
   </tr> 
   <tr> 
-   <td width="30%"><span class="code">presence</span></td> 
-   <td width="40%">Controls the participation of the associated object in different phases of processing. If the object is a container, the contents of the container inherit whatever restrictions this control applies.</td> 
+   <td><code>presence</code></td> 
+   <td>Controls the participation of the associated object in different phases of processing. If the object is a container, the contents of the container inherit whatever restrictions this control applies.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">access</span></td> 
+   <td><code>access</code></td> 
    <td>Controls user access to the contents.</td> 
    <td>Does not work for the exclusion group. Moreover, HTML5 forms gives same treatment to non-interactive and protected objects.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">name</span></td> 
+   <td><code>name</code></td> 
    <td>An identifier that is used to identify this element in script expressions.</td> 
    <td>HTML5 forms do not allow setting name property for objects. It is read-only property for HTML5 forms.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">value</span></td> 
+   <td><code>value</code></td> 
    <td>A content element that encloses a single unit of data content.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">rawValue</span></td> 
+   <td><code>rawValue</code></td> 
    <td>Specifies the unformatted value for this field.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">formattedValue</span></td> 
+   <td><code>formattedValue</code></td> 
    <td>Specifies the formatted value for this field.</td> 
-   <td>Setting <span class="code">formattedValue</span> through script is not supported.</td> 
+   <td>Setting <code>formattedValue</code> through script is not supported.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">editValue</span></td> 
+   <td><code>editValue</code></td> 
    <td>Specifies the edit value for this field.</td> 
-   <td>Setting <span class="code">editValue </span>through script is not supported.</td> 
+   <td>Setting <code>editValue </code>through script is not supported.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">formatMessage</span></td> 
+   <td><code>formatMessage</code></td> 
    <td>Specifies the format validation message string for this field.</td> 
-   <td>Setting <span class="code">formatMessage </span>through script is not supported.</td> 
+   <td>Setting <code>formatMessage </code>through script is not supported.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">fillcolor</span></td> 
+   <td><code>fillcolor</code></td> 
    <td>Specifies the background color value for this field. You need to set the border.fill.presence property to visible separately.</td> 
    <td>It does not correctly return default color of the field.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">border</span></td> 
+   <td><code>border</code></td> 
    <td>The border object describes the border surrounding an object.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">ui</span></td> 
+   <td><code>ui</code></td> 
    <td>The ui object encloses the user interface description of a form object.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">mandatory</span></td> 
+   <td><code>mandatory</code></td> 
    <td>Specifies the nullTest value for the field.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">borderColor</span></td> 
+   <td><code>borderColor</code></td> 
    <td>Specifies the border color value for this field. You need to set the border.edge.presence property to visible separately.</td> 
    <td>It does not correctly return default border color of the field.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">length</span></td> 
+   <td><code>length</code></td> 
    <td>The number of items in the list.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">addItem</span></td> 
+   <td><code>addItem</code></td> 
    <td>Adds new items to the current field.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">clearItem</span></td> 
+   <td><code>clearItem</code></td> 
    <td>Removes all the items from the field.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">boundItem</span></td> 
+   <td><code>boundItem</code></td> 
    <td>Gets the bound value of a specific display item of a drop-down list or list box.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">execCalculate</span></td> 
+   <td><code>execCalculate</code></td> 
    <td>Executes the calculate script of the field.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">execValidate</span></td> 
+   <td><code>execValidate</code></td> 
    <td>Executes the validate script of the field.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">execEvent</span></td> 
+   <td><code>execEvent</code></td> 
    <td>Executes the event script of the object.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">getItemState</span></td> 
+   <td><code>getItemState</code></td> 
    <td>Returns the selection state of the specified item</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">setItemState</span></td> 
+   <td><code>setItemState</code></td> 
    <td>Sets the selection state of the specified item.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">getDisplayItem</span></td> 
+   <td><code>getDisplayItem</code></td> 
    <td>Retrieves the item display text for the specified item index.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">getSaveItem</span></td> 
+   <td><code>getSaveItem</code></td> 
    <td>Retrieves the data value for the specified item index.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">deleteItem</span></td> 
+   <td><code>deleteItem</code></td> 
    <td>Deletes the item at the specified index.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
-   <td><span class="code">setItems</span></td> 
+   <td><code>setItems</code></td> 
    <td>Sets the specified items in the current field. It replaces pre-existing items.</td> 
    <td>None</td> 
   </tr> 
@@ -391,6 +391,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 | Property |Description |Exception |
 |---|---|---|
+| NA | NA | NA |
 
 ## Subform {#subform}
 
@@ -402,8 +403,8 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th>Exception</th> 
   </tr> 
   <tr> 
-   <td width="30%">instanceIndex</td> 
-   <td width="40%">Specifies the index of the object, relative to the other instantiated instances.</td> 
+   <td>instanceIndex</td> 
+   <td>Specifies the index of the object, relative to the other instantiated instances.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
@@ -504,8 +505,8 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="30%">name</td> 
-   <td width="40%">Specifies the name of this node.</td> 
+   <td>name</td> 
+   <td>Specifies the name of this node.</td> 
    <td>Setting the name using scripts is not allowed in HTML.</td> 
   </tr> 
   <tr> 
@@ -1083,7 +1084,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
   <tr> 
    <td>pagecontent</td> 
    <td>Retrieves types of form design objects from a specified page of a form.</td> 
-   <td style="text-align: center;">None</td> 
+   <td>None</td> 
   </tr> 
   <tr> 
    <td>absPageCount</td> 
@@ -1114,9 +1115,9 @@ FormCalc is an XFA-specific language for creating e-form centric logic and calcu
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;" width="30%"><strong>Category </strong></td> 
-   <td style="text-align: center;" width="40%"><strong>Description </strong></td> 
-   <td style="text-align: center;"><strong>Sample </strong></td> 
+   <td><strong>Category </strong></td> 
+   <td><strong>Description </strong></td> 
+   <td><strong>Sample </strong></td> 
   </tr> 
   <tr> 
    <td>Simple Expression</td> 
@@ -1347,4 +1348,4 @@ The following client sided XFA events are supported:
 >
 >HTML5 forms are rendered on the client-side (browser). It is recomended to use client side **validate **and **calculate **scripts instead of server-sided scripts.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

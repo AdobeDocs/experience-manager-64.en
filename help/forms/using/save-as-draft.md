@@ -10,16 +10,16 @@ topic-tags: forms-app
 discoiquuid: 9950288c-b5a2-4945-afad-be9ce2abc8e9
 ---
 
-# Saving a task or form as a draft{#saving-a-task-or-form-as-a-draft}
+# Saving a task or form as a draft {#saving-a-task-or-form-as-a-draft}
 
 The save as draft option saves a snapshot of a task or form along with the data filled in the associated form. You can also create a draft from a template. The drafts are saved in the mobile device, and synced with Adobe Experience Manager Forms server for a later retrieval.
 
-You can [update the form](../../forms/using/working-with-form.md), [annotate it](../../forms/using/add-attachments.md) with photographs, and scribble notes. As you continue to update a form, it is recommended to save it as a draft. For situations, where you decide to submit a filled form at a later point in time, saving it as a draft is helpful.
+You can [update the form](/help/forms/using/working-with-form.md), [annotate it](/help/forms/using/add-attachments.md) with photographs, and scribble notes. As you continue to update a form, it is recommended to save it as a draft. For situations, where you decide to submit a filled form at a later point in time, saving it as a draft is helpful.
 
-To enable save as draft feature for forms saved on forms portal, see [Saving an HTML5 form as a draft](../../forms/using/saving-html5-form-draft.md).   
-To configure submission of adaptive forms, see [Drafts and submissions component](../../forms/using/draft-submission-component.md). (Not valid for forms synced with AEM Forms JEE server.)
+To enable save as draft feature for forms saved on forms portal, see [Saving an HTML5 form as a draft](/help/forms/using/saving-html5-form-draft.md).   
+To configure submission of adaptive forms, see [Drafts and submissions component](/help/forms/using/draft-submission-component.md). (Not valid for forms synced with AEM Forms JEE server.)
 
-To create a draft, open the form and tap the **Save as Draft** ![](assets/save-as-draft.png). Provide the name of the draft and tap **Save**. The draft is saved in the Drafts folder and synced with the server. It is saved in the Outbox folder if the app is offline.
+To create a draft, open the form and tap the **Save as Draft** ![save-as-draft](assets/save-as-draft.png). Provide the name of the draft and tap **Save**. The draft is saved in the Drafts folder and synced with the server. It is saved in the Outbox folder if the app is offline.
 
 If you update the corresponding form afterwards, the changes are reflected immediately. On synchronizing the AEM Forms app with AEM Forms server, the draft is uploaded to AEM Forms server. In addition, the draft is moved from the Outbox to the Tasks or Drafts folder. An edit icon appears next to it.
 
@@ -37,7 +37,7 @@ Perform the following steps to delete a draft:
 
 1. In the AEM Forms app, navigate to **Forms.**
 1. Select **Drafts** from the drop-down next to Search. 
-1. A form with the edit icon ![](assets/edit-draft-app.png) denotes a draft. Tap the horizontal ellipsis next to the draft. 
+1. A form with the edit icon ![edit-draft-app](assets/edit-draft-app.png) denotes a draft. Tap the horizontal ellipsis next to the draft. 
 1. In the options that appear when you tap the horizontal ellipsis, tap **Delete Draft**.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

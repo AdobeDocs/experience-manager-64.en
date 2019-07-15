@@ -10,11 +10,11 @@ topic-tags: forms-workspace
 discoiquuid: ac0a281f-f589-4a70-9bc7-1a23e054b02f
 ---
 
-# Customizing tabs for a task{#customizing-tabs-for-a-task}
+# Customizing tabs for a task {#customizing-tabs-for-a-task}
 
 You can customize tab names for the `Start Process` component in the `Start Process` Uber view and the `Task Details` component in the `ToDo` Uber view.
 
-1. Follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md).
+1. Follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 1. Change the value of `tabname`in the `translation.json` file.
 
    For example, change `/apps/ws/locales/en-US/translation.json` for English to the following.
@@ -47,4 +47,4 @@ You can customize tab names for the `Start Process` component in the `Start Proc
    >
    >Add corresponding key-value pair for all supported languages.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

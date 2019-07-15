@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 12da2a9b-4009-496e-953f-c2ae0352f59f
 ---
 
-# Application Manager Service JavaAPI Quick Start(SOAP){#application-manager-service-javaapi-quick-start-soap}
+# Application Manager Service JavaAPI Quick Start (SOAP) {#application-manager-service-javaapi-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the Application Manager service.
 
@@ -37,22 +37,22 @@ The following Java code example imports an application based on an existing LCA 
      * in the class path: 
      * 1. adobe-livecycle-client.jar 
      * 2. adobe-usermanager-client.jar 
-    * 3. activation.jar (required for SOAP mode) 
-    * 4. axis.jar (required for SOAP mode) 
-    * 5. commons-codec-1.3.jar (required for SOAP mode) 
-    * 6. commons-collections-3.2.jar  (required for SOAP mode) 
-    * 7. commons-discovery.jar (required for SOAP mode) 
-    * 8. commons-logging.jar (required for SOAP mode) 
-    * 9. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
-    * 10. jaxen-1.1-beta-9.jar (required for SOAP mode) 
-    * 11. jaxrpc.jar (required for SOAP mode) 
-    * 12. log4j.jar (required for SOAP mode) 
-    * 13. mail.jar (required for SOAP mode) 
-    * 14. saaj.jar (required for SOAP mode) 
-    * 15. wsdl4j.jar (required for SOAP mode) 
-    * 16. xalan.jar (required for SOAP mode) 
-    * 17. xbean.jar (required for SOAP mode) 
-    * 18. xercesImpl.jar (required for SOAP mode) 
+     * 3. activation.jar (required for SOAP mode) 
+     * 4. axis.jar (required for SOAP mode) 
+     * 5. commons-codec-1.3.jar (required for SOAP mode) 
+     * 6. commons-collections-3.2.jar  (required for SOAP mode) 
+     * 7. commons-discovery.jar (required for SOAP mode) 
+     * 8. commons-logging.jar (required for SOAP mode) 
+     * 9. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
+     * 10. jaxen-1.1-beta-9.jar (required for SOAP mode) 
+     * 11. jaxrpc.jar (required for SOAP mode) 
+     * 12. log4j.jar (required for SOAP mode) 
+     * 13. mail.jar (required for SOAP mode) 
+     * 14. saaj.jar (required for SOAP mode) 
+     * 15. wsdl4j.jar (required for SOAP mode) 
+     * 16. xalan.jar (required for SOAP mode) 
+     * 17. xbean.jar (required for SOAP mode) 
+     * 18. xercesImpl.jar (required for SOAP mode) 
      * 19. adobe-workflow-client-sdk.jar 
      * 20. adobe-applicationmanager-client-sdk.jar 
       
@@ -139,22 +139,22 @@ The following Java code example removes an application named *EncryptDocument*.
      * in the class path: 
      * 1. adobe-livecycle-client.jar 
      * 2. adobe-usermanager-client.jar 
-    * 3. activation.jar (required for SOAP mode) 
-    * 4. axis.jar (required for SOAP mode) 
-    * 5. commons-codec-1.3.jar (required for SOAP mode) 
-    * 6. commons-collections-3.2.jar  (required for SOAP mode) 
-    * 7. commons-discovery.jar (required for SOAP mode) 
-    * 8. commons-logging.jar (required for SOAP mode) 
-    * 9. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
-    * 10. jaxen-1.1-beta-9.jar (required for SOAP mode) 
-    * 11. jaxrpc.jar (required for SOAP mode) 
-    * 12. log4j.jar (required for SOAP mode) 
-    * 13. mail.jar (required for SOAP mode) 
-    * 14. saaj.jar (required for SOAP mode) 
-    * 15. wsdl4j.jar (required for SOAP mode) 
-    * 16. xalan.jar (required for SOAP mode) 
-    * 17. xbean.jar (required for SOAP mode) 
-    * 18. xercesImpl.jar (required for SOAP mode) 
+     * 3. activation.jar (required for SOAP mode) 
+     * 4. axis.jar (required for SOAP mode) 
+     * 5. commons-codec-1.3.jar (required for SOAP mode) 
+     * 6. commons-collections-3.2.jar  (required for SOAP mode) 
+     * 7. commons-discovery.jar (required for SOAP mode) 
+     * 8. commons-logging.jar (required for SOAP mode) 
+     * 9. dom3-xml-apis-2.5.0.jar (required for SOAP mode) 
+     * 10. jaxen-1.1-beta-9.jar (required for SOAP mode) 
+     * 11. jaxrpc.jar (required for SOAP mode) 
+     * 12. log4j.jar (required for SOAP mode) 
+     * 13. mail.jar (required for SOAP mode) 
+     * 14. saaj.jar (required for SOAP mode) 
+     * 15. wsdl4j.jar (required for SOAP mode) 
+     * 16. xalan.jar (required for SOAP mode) 
+     * 17. xbean.jar (required for SOAP mode) 
+     * 18. xercesImpl.jar (required for SOAP mode) 
      * 19. adobe-workflow-client-sdk.jar 
      * 20. adobe-applicationmanager-client-sdk.jar 
      * 

@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: f8749793-e53f-4812-a093-8278f480e6a8
 ---
 
-# Rendering Forms{#rendering-forms}
+# Rendering Forms {#rendering-forms}
 
 ## Rendering Forms {#rendering-forms}
 
@@ -24,31 +24,31 @@ When an end-user requests a form, a client application sends the request to the 
 
 Depending upon the type of client application, you can write the form to a client web browser or save the form as a PDF file. A web-based application can write the form to web browser. A desktop application can save the form as a PDF file. To demonstrate how to write out to a web browser and to a PDF file, the quick starts located in the *Rendering Forms* section are organized in the following manner:
 
-* The Java API strongly typed (SOAP mode) examples are a Java servlet. [](../../forms/developing/creating-web-applications-renders-forms.md)
+* The Java API strongly typed (SOAP mode) examples are a Java servlet.
 * The web service (Java Base64) examples are a Java servlet.
 * The web service (MTOM) examples are a console application (not all quick starts have a MTOM example).
 
-  ***Note**: For information about creating a web application that uses java servlets to invoke the Forms service, see [Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms).*
+  ***Note**: For information about creating a web application that uses java servlets to invoke the Forms service, see [Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md).*
 
   You can pass a form design (an XDP file) or a PDF document to the Forms service using one of two ways:
 
 * You can reference the form design using a URL value. This approach involves using a `URLSpec` object. The content root is passed to the Forms service using the `URLSpec` object’s `setContentRootURI` method. The Form design name ( `formQuery`) is passed as a separate parameter. The two values are concatenated to get the absolute reference to the form design. (Most of the quick starts located in the *Rendering Forms* section use this approach.)
-* You can pass a `com.adobe.idp.Document` that contains the form design to the Forms service. Two new methods named `renderPDFForm2` and `renderHTMLForm2` accept a `com.adobe.idp.Document` object that contains a form design. (See [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service).)
+* You can pass a `com.adobe.idp.Document` that contains the form design to the Forms service. Two new methods named `renderPDFForm2` and `renderHTMLForm2` accept a `com.adobe.idp.Document` object that contains a form design. (See [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service).)
 
-  You can accomplish these tasks using the Forms service:
+You can accomplish these tasks using the Forms service:
 
-* Render interactive PDF forms. (See [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms).)
-* Render forms at the client. (See [Rendering Forms at the Client](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering-forms-at-the-client).)
-* Render forms based on fragments. (See [Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering-forms-based-on-fragments).)
-* Render rights-enabled forms. (See [Rendering Rights-Enabled Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering.md#rendering-rights-enabled-forms).)
-* Render forms as HTML. (See [Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html).)
-* Rendering HTML Forms Using Custom CSS Files ([Rendering HTML Forms Using Custom CSS Files](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-using-custom.md#rendering-html-forms-using-custom-css-files).)
-* Handle submitted forms. (See [Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling-submitted-forms).)
-* Creating PDF Documents with Submitted XML Data. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating-pdf-documents-with-submitted-xml-data).)
-* Prepopulate forms. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts).)
-* Passing Documents. (See [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service).)
-* Calculate form data. (See [Calculating Form Data](/help/forms/developing/rendering-forms-rendering-forms calculating-form-data-calculating-form calculating-form-data-calculating-form.md#calculating-form-data).)
-* Optimize an application. (See [Optimizing the Performance of the Forms Service](/help/forms/developing/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing.md#optimizing-the-performance-of-the-forms-service).)
+* Render interactive PDF forms. (See [Rendering Interactive PDF Forms](/help/forms/developing/rendering-interactive-pdf-forms.md).)
+* Render forms at the client. (See [Rendering Forms at the Client](/help/forms/developing/rendering-forms-client.md).)
+* Render forms based on fragments. (See [Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-based-fragments.md).)
+* Render rights-enabled forms. (See [Rendering Rights-Enabled Forms](/help/forms/developing/rendering-rights-enabled-forms.md).)
+* Render forms as HTML. (See [Rendering Forms as HTML](/help/forms/developing/rendering-forms-html.md).)
+* Rendering HTML Forms Using Custom CSS Files ([Rendering HTML Forms Using Custom CSS Files](/help/forms/developing/rendering-html-forms-using-custom.md).)
+* Handle submitted forms. (See [Handling Submitted Forms](/help/forms/developing/handling-submitted-forms.md).)
+* Creating PDF Documents with Submitted XML Data. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/creating-pdf-documents-submitted-xml.md).)
+* Prepopulate forms. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/prepopulating-forms-flowable-layouts.md).)
+* Passing Documents. (See [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service).)
+* Calculate form data. (See [Calculating Form Data](/help/forms/developing/calculating-form-data.md).)
+* Optimize an application. (See [Optimizing the Performance of the Forms Service](/help/forms/developing/optimizing-performance-forms-service.md).)
 
   ***Tip**: The Adobe Developer web site contains the following article that discusses how to create a ASP.NET application that invokes the Forms service and renders forms. See [Creating form rendering ASP.NET applications](https://www.adobe.com/devnet/livecycle/articles/asp_net.html).*
 

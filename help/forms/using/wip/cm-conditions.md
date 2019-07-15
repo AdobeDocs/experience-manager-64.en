@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b5c2f6bf-d8a3-4fbd-bcf6-04ab4994379a
 ---
 
-# DO NOT PUBLISH Conditions{#do-not-publish-conditions}
+# DO NOT PUBLISH Conditions {#do-not-publish-conditions}
 
 ## Conditions {#conditions}
 
@@ -19,7 +19,7 @@ Based on the options you choose, either only the first expression that is found 
 
 ### Implementing conditions {#implementing-conditions}
 
-The Condition Editor comes with an [Expression Builder](../../../forms/using/expression-builder.md) user interface that supports creating expressions using both multiple placeholders and Data Dictionary elements. You can use common operands and local / global functions in such expressions. Each expression can be associated with some content and optionally there could be a default section if none of the expressions evaluates to true. All expressions are evaluated in the sequence in which they are defined and the first expressions returning true is selected and its associated content is returned by that conditional module.
+The Condition Editor comes with an [Expression Builder](/help/forms/using/expression-builder.md) user interface that supports creating expressions using both multiple placeholders and Data Dictionary elements. You can use common operands and local / global functions in such expressions. Each expression can be associated with some content and optionally there could be a default section if none of the expressions evaluates to true. All expressions are evaluated in the sequence in which they are defined and the first expressions returning true is selected and its associated content is returned by that conditional module.
 
 For example, if the terms and conditions text in a letter differs depending which state the customer is in, and the data dictionary contains an element called “state”, then you could add the condition as follows:  
 • state = NY, select T&C_NY text paragraph  
@@ -46,9 +46,9 @@ The Condition editor enables you to specify a default condition. If the value of
 1. You can select the following options to specify how the condition behaves at runtime:
 
     * **Disable Multiple Results Evaluation\Enable Multiple Results Evaluation**: When this option is enabled (appears as “Enable Multiple…”), all the conditions are evaluated and the result is the sum of all the true conditions. If this option is disabled (appears as "Disable Multiple...") then only the first condition that is found to be true is evaluated and becomes the output of the condition.
-    * **Page Break**: Select this option ( ![](assets/break.png)) to add a page break between the modules of the conditions. When this option is not selected ( ![](assets/nobreak.png)), if a condition is overflowing to the next page, the whole condition is shifted to the next page instead of breaking in the page between the condition.
+    * **Page Break**: Select this option ( ![break](assets/break.png)) to add a page break between the modules of the conditions. When this option is not selected ( ![nobreak](assets/nobreak.png)), if a condition is overflowing to the next page, the whole condition is shifted to the next page instead of breaking in the page between the condition.
 
-1. To change the order of the assets within the condition, tap and hold the arrows icon ( ![](assets/dragndrop.png) ) and drag-and-drop. When the user opens a letter template in the Create Correspondence user interface, the content is assembled in the order you defined here.
+1. To change the order of the assets within the condition, tap and hold the arrows icon ( ![dragndrop](assets/dragndrop.png) ) and drag-and-drop. When the user opens a letter template in the Create Correspondence user interface, the content is assembled in the order you defined here.
 1. Tap **Delete** to delete the row. If you tap Delete for the default row, only clears the asset information.
 1. Tap **Copy** to duplicate a row.
 1. Tap **Edit** to change the asset or edit the expression.
@@ -56,7 +56,7 @@ The Condition editor enables you to specify a default condition. If the value of
    Further:
 
     * To update the asset, tap the folder icon under Asset column.
-    * To open the Expression Builder to insert an expression, tap the folder icon under the Expression column. For more information on Expression Builder, see [Expression Builder](../../../forms/using/expression-builder.md).
+    * To open the Expression Builder to insert an expression, tap the folder icon under the Expression column. For more information on Expression Builder, see [Expression Builder](/help/forms/using/expression-builder.md).
 
 ### Best practices/tips and tricks {#best-practices-tips-and-tricks}
 

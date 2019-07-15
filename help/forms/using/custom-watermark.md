@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: a09e2c83-083d-427a-8336-0567e00c5712
 ---
 
-# Custom watermark in letter PDF preview{#custom-watermark-in-letter-pdf-preview}
+# Custom watermark in letter PDF preview {#custom-watermark-in-letter-pdf-preview}
 
 ## Overview {#overview}
 
@@ -18,9 +18,9 @@ In the Create Correspondence UI, agent users preview the correspondence in final
 
 To prevent unauthorized use of this data, organizations can impose a watermark on the preview PDF. The default watermark is "PREVIEW", which appears across the PDF.
 
-To enable the watermark in preview PDF, select the **[!UICONTROL Apply Watermark]** During Preview option in **[!UICONTROL Correspondence Management Configurations]** at https://[server]:[port]/system/console/configMgr.
+To enable the watermark in preview PDF, select the **[!UICONTROL Apply Watermark]** During Preview option in **[!UICONTROL Correspondence Management Configurations]** at `https://[server]:[port]/system/console/configMgr`.
 
-![](assets/default-watermark.png)
+![default-watermark](assets/default-watermark.png)
 
 You can use the following steps to customize the text and appearance of the watermark:
 
@@ -45,14 +45,10 @@ You can use the following steps to customize the text and appearance of the wate
        >
        >Do not make changes in the /libs branch. Any changes you do make may be lost, because this branch is liable to changes whenever you:
        >
-       >    
-       >    
-       >    * Upgrade on your instance
-       >    * Apply a hot fix
-       >    * Install a feature pack
-       >    
-       >
-
+       >* Upgrade on your instance
+       >* Apply a hot fix
+       >* Install a feature pack
+   
     1. Click **OK** and then click **Save All**. The **[!UICONTROL previewwatermark]** folder is created in the specified path.
 
 1. Copy and paste the ddx file from "/libs/fd/cm/configFiles/previewwatermark" folder to "/apps/fd/cm/configFiles/previewwatermark" folder and click **[!UICONTROL Save All]**.

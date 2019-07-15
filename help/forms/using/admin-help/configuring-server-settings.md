@@ -11,13 +11,13 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e047a95e-0acb-438a-8d27-f005c0adc508
 ---
 
-# Configuring Server Settings{#configuring-server-settings}
+# Configuring Server Settings {#configuring-server-settings}
 
 The Server Settings page provides access to various settings for forms workflow:
 
 * **Email settings** that enable outgoing email messages, along with the email server settings used for those messages. (See [Configuring email settings](configuring-server-settings.md#configuring-email-settings).)
-* **Task notification settings **that enable, disable, or modify the messages sent in email notifications to end users and groups regarding their tasks. (See [Configuring notifications for users and groups](configuring-server-settings.md#configuring-notifications-for-users-and-groups).)
-* **Administrator notification settings **that enable, disable, or modify the messages sent in email notifications for administrative tasks. (See [Configuring notifications for administrators](configuring-server-settings.md#configuring-notifications-for-administrators).)
+* **Task notification settings** that enable, disable, or modify the messages sent in email notifications to end users and groups regarding their tasks. (See [Configuring notifications for users and groups](configuring-server-settings.md#configuring-notifications-for-users-and-groups).)
+* **Administrator notification settings** that enable, disable, or modify the messages sent in email notifications for administrative tasks. (See [Configuring notifications for administrators](configuring-server-settings.md#configuring-notifications-for-administrators).)
 
 ## Configuring email settings {#configuring-email-settings}
 
@@ -25,7 +25,7 @@ You can specify an email account for the forms server, through which it sends em
 
 To enable the sending of email messages between AEM forms and users, configure the outgoing email settings on the Email Settings page. Outgoing email must use an SMTP server.
 
-To enable AEM forms to receive and handle incoming email messages from users, create an email endpoint for the Complete Task service. (See [Create an Email endpoint for the Complete Task service](../../../forms/using/admin-help/configuring-email-endpoints.md#create-an-email-endpoint-for-the-complete-task-service)).
+To enable AEM forms to receive and handle incoming email messages from users, create an email endpoint for the Complete Task service. (See [Create an Email endpoint for the Complete Task service](/help/forms/using/admin-help/configuring-email-endpoints.md#create-an-email-endpoint-for-the-complete-task-service)).
 
 If your processes are designed and implemented without requiring email, you do not have to configure any of the options on the Email Settings page.
 
@@ -53,7 +53,7 @@ If your processes are designed and implemented without requiring email, you do n
 >
 >The Flex Workspace is deprecated for AEM forms release.
 
-By default, the emails sent out by AEM forms contain links to (Deprecated for AEM forms on JEE) Flex Workspace. You can configure AEM forms to send out emails with links to AEM Forms Workspace. To know more about the benefits of AEM Forms Workspace over (Deprecated for AEM forms on JEE) Flex Workspace, see [this](../../../forms/using/features-html-workspace-available-flex.md) article.
+By default, the emails sent out by AEM forms contain links to (Deprecated for AEM forms on JEE) Flex Workspace. You can configure AEM forms to send out emails with links to AEM Forms Workspace. To know more about the benefits of AEM Forms Workspace over (Deprecated for AEM forms on JEE) Flex Workspace, see [this](/help/forms/using/features-html-workspace-available-flex.md) article.
 
 1. In administration console, click Home &gt; Services &gt; forms workflow &gt; Server Settings &gt; Task Notifications.
 1. Open task assignment template.
@@ -207,43 +207,43 @@ The Variable Picker list provides useful variables that you can drag-and-drop in
 
 For reminders, task assignments, and deadlines for users and groups, you can use the following variables in the Subject and Notification Template boxes:
 
-**@@description@@** The contents of the Description property, as defined in the user step (start point, Assign Task operation, or Assign Multiple Tasks operation) of the process in Workbench.
+**description** The contents of the Description property, as defined in the user step (start point, Assign Task operation, or Assign Multiple Tasks operation) of the process in Workbench.
 
-**@@instructions@@** The contents of the Task Instructions property, as defined in the user step of the process in Workbench.
+**instructions** The contents of the Task Instructions property, as defined in the user step of the process in Workbench.
 
-**@@notification-host@@** The host name of the AEM forms application server .
+**notification-host** The host name of the AEM forms application server .
 
-**@@process-name@@** The name of the process.
+**process-name** The name of the process.
 
-**@@operation-name@@** The name of the step.
+**operation-name** The name of the step.
 
-**@@taskid@@** The unique identifier for the current task.
+**taskid** The unique identifier for the current task.
 
-**@@actions@@** Produces a numbered list of valid routes (for example, Approve, Reject) that the recipient can click.
+**actions** Produces a numbered list of valid routes (for example, Approve, Reject) that the recipient can click.
 
 In addition, for group reminders, group task assignments and group deadlines, you can also use:
 
-**@@group-name@@** The name of the group that is assigned the work item.
+**group-name** The name of the group that is assigned the work item.
 
-***Note**: If a variable has no value, nothing is returned.*
+**Note**: *If a variable has no value, nothing is returned.*
 
 For stalled branches, you can use the following variables in the Subject and Notification Template boxes:
 
-**@@branch-id@@** The branch identifier.
+**branch-id** The branch identifier.
 
-**@@process-id@@** The process instance identifier.
+**process-id** The process instance identifier.
 
-**@@notification-host@@** The host name of the AEM forms application server .
+**notification-host** The host name of the AEM forms application server .
 
 For stalled operations, you can use the following variables in the Subject and Notification Template boxes:
 
-**@@action-id@@** The operation identifier.
+**action-id** The operation identifier.
 
-**@@branch-id@@** The branch identifier.
+**branch-id** The branch identifier.
 
-**@@process-id@@** The process instance identifier.
+**process-id** The process instance identifier.
 
-**@@notification-host@@** The host name of the AEM forms application server .
+**notification-host** The host name of the AEM forms application server .
 
 ### Using a variable in the Subject box {#using-a-variable-in-the-subject-box}
 

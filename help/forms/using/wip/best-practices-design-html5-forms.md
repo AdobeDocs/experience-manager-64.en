@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 80c2efed-4383-405d-90c2-82c0d450c139
 ---
 
-# DO NOT PUBLISH - Best practices for designing HTML5 forms{#do-not-publish-best-practices-for-designing-html-forms}
+# DO NOT PUBLISH - Best practices for designing HTML5 forms {#do-not-publish-best-practices-for-designing-html-forms}
 
 This article lists some of the best practices for enabling a form template for HTML5 renditions. By following these guidelines, form developers can ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent.
 
@@ -23,8 +23,8 @@ This article lists some of the best practices for enabling a form template for H
 
 ## Scripting {#scripting}
 
-HTML5 forms contain a client-side XFA scripting library that supports form logic execution in both the scripting languages that the Adobe XFA Implementation supports: JavaScript and FormCalc. This library includes implementation for most of the commonly used APIs on the **client side**. The list of supported APIs and Events can be found [here](../../../forms/using/scripting-support.md). If you need APIs that are not implemented yet, you can mark your script to **run at server. **HTML5 forms also support **Web Service** invocation from the client. The service runs on the server.
+HTML5 forms contain a client-side XFA scripting library that supports form logic execution in both the scripting languages that the Adobe XFA Implementation supports: JavaScript and FormCalc. This library includes implementation for most of the commonly used APIs on the **client side**. The list of supported APIs and Events can be found [here](/help/forms/using/scripting-support.md). If you need APIs that are not implemented yet, you can mark your script to run at server. **HTML5 forms also support Web Service** invocation from the client. The service runs on the server.
 
-HTML5 forms and PDF forms support different set of features. For the complete list of features, see [Feature differentiation between HTML5 forms and PDF Forms.](../../../forms/using/feature-differentiation-html5-forms-pdf-forms.md)
+HTML5 forms and PDF forms support different set of features. For the complete list of features, see [Feature differentiation between HTML5 forms and PDF Forms.](/help/forms/using/feature-differentiation-html5-forms-pdf-forms.md)
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

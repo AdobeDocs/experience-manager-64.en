@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: a80254a2-245c-48fa-b460-958eeda085af
 ---
 
-# Customize text editor{#customize-text-editor}
+# Customize text editor {#customize-text-editor}
 
 ## Overview {#overview}
 
@@ -47,7 +47,7 @@ To customize fonts by editing the tbxeditor-config.xml file, do the following:
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
        ![Overlay node](assets/2-2.png)
 
@@ -181,7 +181,7 @@ After you have made changes to fonts in the tbxeditor-config.xml file in CRX and
 
 For example, the Sazanami Mincho Medium font added in the [Customize fonts by editing the tbxeditor-config.xml file in CRX](#customizefonts) procedure appears in the text editor UI as following:
 
-![](assets/sazanamiminchointext.png)
+![sazanamiminchointext](assets/sazanamiminchointext.png)
 
 >[!NOTE]
 >

@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 940e45b4-dbf1-4207-bd4a-cf677d645fb4
 ---
 
-# Displaying components based on the template used{#displaying-components-based-on-the-template-used}
+# Displaying components based on the template used {#displaying-components-based-on-the-template-used}
 
-When a form author creates an adaptive form using a [template](../../forms/using/template-editor.md), the form author can see and use specific components based on template policy. You can specify a template content policy that lets you choose a group of components that the form author sees at the time of form authoring.
+When a form author creates an adaptive form using a [template](/help/forms/using/template-editor.md), the form author can see and use specific components based on template policy. You can specify a template content policy that lets you choose a group of components that the form author sees at the time of form authoring.
 
 ## Changing the content policy of a template {#changing-the-content-policy-of-a-template}
 
@@ -21,8 +21,10 @@ When you create a template, it is created under `/conf` in the content repositor
   
 Perform the following steps to show the components in the sidebar based on the content policy of a template:
 
-1. Open CRXDE lite.   
+1. Open CRXDE lite. 
+
    URL: `https://<server>:<port>/crx/de/index.jsp`
+   
 1. In CRXDE, navigate to the folder in which the template is created.
 
    For example: `/conf/<your-folder>/`

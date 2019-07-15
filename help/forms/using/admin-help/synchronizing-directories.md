@@ -49,7 +49,7 @@ User Management performs the following steps when delta directory synchronizatio
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Under Delta Synch, select the check box and click Save.
-1. Edit the directory settings for each of the enterprise domains that will use the delta directory synchronization feature. On the User Settings and Group Settings pages, locate the Modify Timestamp setting and enter `modify TimeStamp` as the value. For details about editing enterprise domains, see [Editing and converting existing domains](../../../forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains).
+1. Edit the directory settings for each of the enterprise domains that will use the delta directory synchronization feature. On the User Settings and Group Settings pages, locate the Modify Timestamp setting and enter `modify TimeStamp` as the value. For details about editing enterprise domains, see [Editing and converting existing domains](/help/forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains).
 
 ## Enable or disable detailed logging during synchronization {#enable-or-disable-detailed-logging-during-synchronization}
 
@@ -65,7 +65,7 @@ You can configure User Management to periodically check for any failed directory
 1. In administration console, click Settings &gt; User Management &gt; Configuration &gt; Configure Advanced System Attributes.
 1. Under Synch Finisher Cron Expression, enter a cron expression that represents the interval at which User Management retries failed synchronizations. The cron expression usage is based on the Quartz open source job-scheduling system, version 1.4.0.
 
-   The default is 0 0/13 &#42; ? &#42; &#42;, which means the check occurs every 13 minutes.
+   The default is 0 0/13 &ast; ? &ast; , which means the check occurs every 13 minutes.
 
 ## Manually synchronize directories {#manually-synchronize-directories}
 

@@ -10,11 +10,11 @@ topic-tags: hTML5_forms
 discoiquuid: 2791c9a1-38a2-4154-8bea-2f7c564b46c8
 ---
 
-# HTML5 forms service proxy{#html-forms-service-proxy}
+# HTML5 forms service proxy {#html-forms-service-proxy}
 
 HTML5 forms Service Proxy is a configuration to register a proxy for the submission service. To configure Service Proxy, specify the URL of submission service through request parameter *submissionServiceProxy*.
 
-## Benefits of Service Proxy <br> {#benefits-of-service-proxy-br}
+## Benefits of Service Proxy {#benefits-of-service-proxy-br}
 
 The service proxy eliminates following:
 
@@ -23,7 +23,7 @@ The service proxy eliminates following:
 * The submission is two-step process. To submit the form data, submission requires at least two journeys to server. Thus, increases load on the server.  
 * HTML5 forms send data in the POST request instead of PDF request. For workflow involving both PDF and HTML5 forms, two different methods of processing the submissions are required.
 
-## Topologies <br> {#topologies-br}
+## Topologies {#topologies-br}
 
 HTML5 forms can use following topologies to connect to the AEM servers.
 
@@ -43,40 +43,40 @@ The scripts marked to run on the server are known as server-sided scripts. The f
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="126"><p><strong>Parameter</strong></p> </td> 
-   <td valign="top" width="505"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Parameter</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>activity</p> </td> 
-   <td valign="top" width="505"><p>Activity contains the events that trigger the request. Such as click, exit or change</p> </td> 
+   <td><p>activity</p> </td> 
+   <td><p>Activity contains the events that trigger the request. Such as click, exit or change</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>contextSom</p> </td> 
-   <td valign="top" width="505"><p>contextSom contains SOM expression of the object where events are executed.</p> </td> 
+   <td><p>contextSom</p> </td> 
+   <td><p>contextSom contains SOM expression of the object where events are executed.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>Template</p> </td> 
-   <td valign="top" width="505"><p>Template contains the template used to render the form.</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>Template contains the template used to render the form.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>contentRoot</p> </td> 
-   <td valign="top" width="505"><p>contentRoot contains the template root directory used to render the form.</p> </td> 
+   <td><p>contentRoot</p> </td> 
+   <td><p>contentRoot contains the template root directory used to render the form.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>Data</p> </td> 
-   <td valign="top" width="505"><p>Data contains bata bytes used to render the form.</p> </td> 
+   <td><p>Data</p> </td> 
+   <td><p>Data contains bata bytes used to render the form.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>formDom</p> </td> 
-   <td valign="top" width="505"><p>formDom contains DOM of the HTML5 form in JSON format.</p> </td> 
+   <td><p>formDom</p> </td> 
+   <td><p>formDom contains DOM of the HTML5 form in JSON format.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>packet</p> </td> 
-   <td valign="top" width="505"><p>packet is specified as form.</p> </td> 
+   <td><p>packet</p> </td> 
+   <td><p>packet is specified as form.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>debugDir</p> </td> 
-   <td valign="top" width="505"><p>debugDir contains the debug directory used to render the form.</p> </td> 
+   <td><p>debugDir</p> </td> 
+   <td><p>debugDir contains the debug directory used to render the form.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,32 +88,32 @@ On clicking the submit button, HTML5 forms send data to the server. The followin
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="319"><p><strong>Parameter</strong></p> </td> 
-   <td valign="top" width="319"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Parameter</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="319"><p>Template</p> </td> 
-   <td valign="top" width="319"><p>Template used to render the form.</p> </td> 
+   <td><p>Template</p> </td> 
+   <td><p>Template used to render the form.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="319"><p>contentRoot</p> </td> 
-   <td valign="top" width="319"><p>template root directory used to render the form.</p> </td> 
+   <td><p>contentRoot</p> </td> 
+   <td><p>template root directory used to render the form.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="319"><p>Data</p> </td> 
-   <td valign="top" width="319"><p>bata bytes used to render the form.</p> </td> 
+   <td><p>Data</p> </td> 
+   <td><p>bata bytes used to render the form.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="319"><p>formDom</p> </td> 
-   <td valign="top" width="319"><p>DOM of the HTML5 form in JSON format.</p> </td> 
+   <td><p>formDom</p> </td> 
+   <td><p>DOM of the HTML5 form in JSON format.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="319"><p>submiturl</p> </td> 
-   <td valign="top" width="319"><p>The URL where data XML is posted.</p> </td> 
+   <td><p>submiturl</p> </td> 
+   <td><p>The URL where data XML is posted.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="319"><p>debugDir</p> </td> 
-   <td valign="top" width="319"><p>The debug directory used to render the form.</p> </td> 
+   <td><p>debugDir</p> </td> 
+   <td><p>The debug directory used to render the form.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,4 +129,4 @@ The submit service proxy selects a topology if the submiturl is present in the r
 
 * Before sending data (POST request) to a server, HTML5 forms verify connectivity and availability of the server. To verify connectivity and availability, HTML forms send an empty head request to the server. If the server is available, HTML5 form sends data (POST request) to the server. If the server is not available, an error message, *Could’t connect to the server,* is displayed. The advance detection prevents users from the hassle of refilling the form. The proxy servlet handles head request and does not throw exception.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

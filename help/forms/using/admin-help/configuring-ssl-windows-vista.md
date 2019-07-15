@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 667645a0-53d0-4f9b-a0ba-cc7e366a23a1
 ---
 
-# Configuring SSL on Windows Vista{#configuring-ssl-on-windows-vista}
+# Configuring SSL on Windows Vista {#configuring-ssl-on-windows-vista}
 
 To configure SSL on Windows Vista™, you need an SSL certificate with RSA keys for authentication. You can use the Java keytool to create the certificate.
 

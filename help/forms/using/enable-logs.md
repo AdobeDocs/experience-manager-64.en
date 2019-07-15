@@ -11,7 +11,7 @@ topic-tags: hTML5_forms
 discoiquuid: 23bc7cd2-7d06-4ef8-977a-778e290daef9
 ---
 
-# Enable logging for HTML5 forms{#enable-logging-for-html-forms}
+# Enable logging for HTML5 forms {#enable-logging-for-html-forms}
 
 You can configure the logger utility to start creating logs for HTML5 forms. The logger utility has various levels, you can set a level as per your requirements. HTML5 forms has server and client components. You can configure logs for both the components.
 
@@ -19,7 +19,7 @@ You can configure the logger utility to start creating logs for HTML5 forms. The
 
 Perform the following steps to configure server-side logs:
 
-1. Go to https://[server]:[port]/system/console/configMgr. Locate and open the *Apace Sling logging logger configuration* option. A dialog box appears: 
+1. Go to `https://[server]:[port]/system/console/configMgr`. Locate and open the *Apace Sling logging logger configuration* option. A dialog box appears: 
 
    ![ Apace Sling logging logger configuration option dialog box](assets/logconfig.png)
 
@@ -190,7 +190,7 @@ To change the location and name of the log file:
 1. Log in to Configuration Manager as an administrator. The default URL of Configuration Manager is `https://[*Server*]:[*Port*]/system/console/configMgr`. 
 1. Click **Apache Sling Logging Logger Configuration**. A dialog box appears.
 
-   ![](assets/logconfig-1.png)
+   ![logconfig-1](assets/logconfig-1.png)
 
 1. Change the **Log Level** to Debug.  
 
@@ -202,4 +202,4 @@ To change the location and name of the log file:
 
 1. Change the **Logger** to **HTMLFormsPerfLogger** and click **Save**.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

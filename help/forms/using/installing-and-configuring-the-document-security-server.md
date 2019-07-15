@@ -8,7 +8,7 @@ contentOwner: khsingh
 discoiquuid: 600d13e7-6655-41c5-aab4-c8e9e2a8d14f
 ---
 
-# Installing and configuring the document security server{#installing-and-configuring-the-document-security-server}
+# Installing and configuring the document security server {#installing-and-configuring-the-document-security-server}
 
 Use document security to safely distribute any information that you have saved in a supported format. Only authorized users can access protected documents. 
 
@@ -18,11 +18,13 @@ You can protect documents by using policies. The confidentiality settings you sp
 
 The policies are stored on Document Security server; you apply the policies to documents through your client application. When you apply a policy to a document, the confidentiality settings specified in the policy protect the information that the document contains. You can distribute the policy-protected document to recipients who are authorized by the policy.
 
-Document security also provides clients, viewers, and indexers to protect documents, view protected documents, and index protected documents. For detailed information about document security, see [about document security](../../forms/using/admin-help/document-security.md).
+Document security also provides clients, viewers, and indexers to protect documents, view protected documents, and index protected documents. For detailed information about document security, see [about document security](/help/forms/using/admin-help/document-security.md).
 
 ## Deployment Topology  {#deployment-topology}
 
 The document security capability is available only in AEM Forms on JEE. You require a single instance of AEM Forms on JEE. You can also create a cluster or farm of AEM Forms servers, if necessary. The following topology is indicative topology to run the document security capability. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/aem-forms-architecture-deployment.html).
+
+<!--fix above link-->
 
 ![](do-not-localize/document-security-server_topology.png)
 
@@ -35,7 +37,7 @@ The following diagram shows the typical architecture for AEM Forms Document Secu
 Perform the following steps to install and configure AEM Forms on JEE:
 
 1. Download the AEM 6.4 Forms on JEE installer from the [Adobe Licensing Website (LWS)](https://licensing.adobe.com/). You require a valid Maintenance & Support contract to download the installer.
-1. Read the [AEM Forms on JEE Supported Platforms document](../../forms/using/aem-forms-jee-supported-platforms.md) and ensure that have the software, hardware, operating systems, application server, databases, JDKs, and other infrastructure ready to install AEM Forms on JEE.
+1. Read the [AEM Forms on JEE Supported Platforms document](/help/forms/using/aem-forms-jee-supported-platforms.md) and ensure that have the software, hardware, operating systems, application server, databases, JDKs, and other infrastructure ready to install AEM Forms on JEE.
 1. (Non-Turnkey installs only) Read the [Preparing to install AEM Forms single server](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64) or [Preparing to install AEM Forms server cluster](https://www.adobe.com/go/learn_aemforms_prepareInstallcluster_64) and ready your environment to install and configure AEM Forms on JEE.
 1. Depending on your environment and application server, choose one of the following documents and follow the instructions to complete the installation
 
@@ -56,4 +58,5 @@ Perform the following steps to install and configure AEM Forms on JEE:
 * [Configure client and server options](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/configuring-client-server-options.html)
 * [Create and managing policies](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/creating-policies.html)
 * [Create and managing policy sets](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/creating-policy-sets.html)
-<!-- Fix broken link * Working with document security -->
+
+<!-- Fix broken links above * Working with document security -->

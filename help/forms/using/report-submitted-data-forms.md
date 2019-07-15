@@ -11,15 +11,15 @@ topic-tags: developer-reference
 discoiquuid: 9457effd-3595-452f-a976-ad9eda6dc909
 ---
 
-# APIs to work with submitted forms on forms portal{#apis-to-work-with-submitted-forms-on-forms-portal}
+# APIs to work with submitted forms on forms portal {#apis-to-work-with-submitted-forms-on-forms-portal}
 
 AEM Forms provides APIs that you can use to query forms data submitted through forms portal. In addition, you can post comments or update properties of submitted forms using the APIs explained in this document.
 
 >[!NOTE]
 >
->Users who will invoke the APIs must be added to the reviewers group as described in [Associating submission reviewers to a form](../../forms/using/adding-reviewers-form.md).
+>Users who will invoke the APIs must be added to the reviewers group as described in [Associating submission reviewers to a form](/help/forms/using/adding-reviewers-form.md).
 
-## GET /content/forms/portal/submission.review.json?func=getFormsForSubmissionReview <br> {#get-content-forms-portal-submission-review-json-func-getformsforsubmissionreview-br}
+## GET /content/forms/portal/submission.review.json?func=getFormsForSubmissionReview {#get-content-forms-portal-submission-review-json-func-getformsforsubmissionreview-br}
 
 Returns a list of all eligible forms.
 
@@ -68,31 +68,31 @@ Specify the following parameters in the request URL:
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">formPath</span></td> 
+   <td><code>formPath</code></td> 
    <td>Specifies the CRX repository path where the form resides. If you do not specify the form path, it returns an empty response.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">offset</span><br /> (optional)</td> 
+   <td><code>offset</code><br /> (optional)</td> 
    <td>Specifies the starting point in the index of the results set. The default value is <strong>0</strong>.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">limit</span><br /> (optional)</td> 
+   <td><code>limit</code><br /> (optional)</td> 
    <td>Limits the number of results. The default value is <strong>30</strong>.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">orderby</span> <br /> (optional)</td> 
+   <td><code>orderby</code> <br /> (optional)</td> 
    <td>Specifies the property for sorting results. The default value is <strong>jcr:lastModified</strong>, which sorts results based on the last modified time.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">sort</span> <br /> (optional)</td> 
-   <td>Specifies the order for sorting results. The default value is <strong>desc</strong>, which sorts results in descending order. You can specify <span class="code">asc</span> to sort results in ascending order.</td> 
+   <td><code>sort</code> <br /> (optional)</td> 
+   <td>Specifies the order for sorting results. The default value is <strong>desc</strong>, which sorts results in descending order. You can specify <code>asc</code> to sort results in ascending order.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">cutPoints</span> <br /> (optional)</td> 
-   <td>Specifies a comma-separated list of form properties to be included in results. The default properties are:<br /> <span class="code">formName</span>, <span class="code">formPath</span>, <span class="code">submitID</span>, <span class="code">formType</span>, <span class="code">jcr:lastModified</span>, <span class="code">owner</span></td> 
+   <td><code>cutPoints</code> <br /> (optional)</td> 
+   <td>Specifies a comma-separated list of form properties to be included in results. The default properties are:<br /> <code>formName</code>, <code>formPath</code>, <code>submitID</code>, <code>formType</code>, <code>jcr:lastModified</code>, <code>owner</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">search</span> <br /> (optional)</td> 
+   <td><code>search</code> <br /> (optional)</td> 
    <td>Searches the specified value in form properties and returns forms with matching values. The default value is <strong>""</strong>.</td> 
   </tr> 
  </tbody> 
@@ -123,7 +123,7 @@ https://[host]:[port]/content/forms/portal/submission.review.json?func=getAllSub
 {"total":1,"items":[{"formName":"form2","formPath":"/content/dam/formsanddocuments/forms-review/form2","submitID":"1403037413508500","formType":"af","jcr:lastModified":"2015-11-05T17:52:32.243+05:30","owner":"admin"}]}
 ```
 
-## POST /content/forms/portal/submission.review.json?func=addComment <br> {#post-content-forms-portal-submission-review-json-func-addcomment-br}
+## POST /content/forms/portal/submission.review.json?func=addComment {#post-content-forms-portal-submission-review-json-func-addcomment-br}
 
 Adds a comment to the specified submission instance.
 
@@ -192,7 +192,7 @@ https://[host]:[port]/content/forms/portal/submission.review.json?func=getCommen
 [{"owner":"fr1","comment":"API test comment","time":1446726988250}]
 ```
 
-## POST /content/forms/portal/submission.review.json?func=updateSubmission <br> {#post-content-forms-portal-submission-review-json-func-updatesubmission-br}
+## POST /content/forms/portal/submission.review.json?func=updateSubmission {#post-content-forms-portal-submission-review-json-func-updatesubmission-br}
 
 Updates the value of the specified property of the specified submitted form instance.
 

@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: bdd9bb56-14f6-448b-be4a-7c11f670e901
 ---
 
-# Convert PDF Service Java API QuickStart(SOAP){#convert-pdf-service-java-api-quickstart-soap}
+# Convert PDF Service Java API Quick Start (SOAP) {#convert-pdf-service-java-api-quickstart-soap}
 
 The following Quick Starts are available for the Convert PDF service API.
 
@@ -149,7 +149,7 @@ The following Java code example converts a PDF document called *Loan.pdf* to a s
      * 1. adobe-convertpdf-client.jar 
      * 2. adobe-livecycle-client.jar 
      * 3. adobe-usermanager-client.jar 
-    * 4. activation.jar (required for SOAP mode) 
+     * 4. activation.jar (required for SOAP mode) 
      * 5. axis.jar (required for SOAP mode) 
      * 6. commons-codec-1.3.jar (required for SOAP mode) 
      * 7.  commons-collections-3.1.jar  (required for SOAP mode) 

@@ -10,13 +10,13 @@ topic-tags: Configuration
 discoiquuid: 7e404b45-1302-4dd1-b3c9-3f47fedb5f94
 ---
 
-# Connecting AEM Forms with Adobe LiveCycle{#connecting-aem-forms-with-adobe-livecycle}
+# Connecting AEM Forms with Adobe LiveCycle {#connecting-aem-forms-with-adobe-livecycle}
 
 Adobe Experience Manager (AEM) LiveCycle connector enables seamless invocation of Adobe LiveCycle ES4 Document Services from within AEM web apps and workflows. LiveCycle provides a rich client SDK, which allows client applications to start LiveCycle services using Java APIs. AEM LiveCycle Connector simplifies using these APIs within the OSGi environment.
 
-## Connecting AEM server to Adobe LiveCycle <br> {#connecting-aem-server-to-adobe-livecycle-br}
+## Connecting AEM server to Adobe LiveCycle {#connecting-aem-server-to-adobe-livecycle}
 
-AEM LiveCycle Connector is part of the [AEM Forms add-on package](../../forms/using/installing-configuring-aem-forms-osgi.md). After installing the AEM Forms add-on package, perform the following steps to add details of LiveCycle server to AEM Web Console.
+AEM LiveCycle Connector is part of the [AEM Forms add-on package](/help/forms/using/installing-configuring-aem-forms-osgi.md). After installing the AEM Forms add-on package, perform the following steps to add details of LiveCycle server to AEM Web Console.
 
 1. In AEM web console configuration manager, locate the Adobe LiveCycle Client SDK configuration component.
 1. Click the component to edit the configuration server URL, user name, and password.
@@ -33,8 +33,8 @@ Although the properties are self explanatory, the important ones are as follows:
 
   option.
 
-* **Username **- Specifies user name of the account which is used to establish communication between AEM and LiveCycle. The account is a LiveCycle user account who has the permissions to start Document Services.
-* **Password **- Specifies the password.
+* **Username**- Specifies user name of the account which is used to establish communication between AEM and LiveCycle. The account is a LiveCycle user account who has the permissions to start Document Services.
+* **Password**- Specifies the password.
 * **Service Name** - Specifies the services which are started using the user credentials provided in Username and Password fields. By default, no credentials are passed while starting LiveCycle services.
 
 ## Starting document services {#starting-document-services}
@@ -47,7 +47,7 @@ Client applications can programmatically start LiveCycle services using a Java A
 
 AEM LiveCycle Connector simplifies the flow by exposing these client instances as OSGi services that can be accessed using standard OSGi means. The LiveCycle connector provides the following features:
 
-* Client instances as OSGi Service: The clients packaged as OSGI bundles are listed in the [Document Services list](../../forms/using/aem-livecycle-connector.md#p-document-services-list-p) section. Each client jar registers the client instance as OSGi service with the OSGi Service Registry.
+* Client instances as OSGi Service: The clients packaged as OSGI bundles are listed in the [Document Services list](/help/forms/using/aem-livecycle-connector.md#p-document-services-list-p) section. Each client jar registers the client instance as OSGi service with the OSGi Service Registry.
 * User Credential Propagation: The connection details required to connect to LiveCycle server are managed at a central place.
 * ServiceClientFactory Service: To start the processes, client application can access the ServiceClientFactory instance.
 
@@ -75,7 +75,7 @@ To start an exposed service from within AEM, perform the following steps:
    </dependency>
    ```
 
-   To start a service, add corresponding Maven dependency for the service. For the list of dependencies, see [Document Service List](../../forms/using/aem-livecycle-connector.md#p-document-services-list-p). For example, for the Generate PDF service add the following dependency:
+   To start a service, add corresponding Maven dependency for the service. For the list of dependencies, see [Document Service List](/help/forms/using/aem-livecycle-connector.md#p-document-services-list-p). For example, for the Generate PDF service add the following dependency:
 
    ```xml
    <dependency>
@@ -486,4 +486,4 @@ The following services are available:
 </dependency>
 ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

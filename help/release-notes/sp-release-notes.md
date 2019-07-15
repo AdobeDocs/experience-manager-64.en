@@ -39,7 +39,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 ## List of changes {#list-of-changes}
 
-### Assets {#assets}
+### Assets {#assets-changes}
 
 * Assets with an apostrophe in the filename do not sync to Dynamic Media. NPR-29538: Hotfix for CQ-4270592
 * Updated DAM DMGateway interface for S3 multipart support. NPR-29740: Hotfix for CQ-4226303
@@ -76,7 +76,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * Query limit related issues with Asset reports after upgrade to AEM 6.4.3. NPR-28588: Hotfix for CQ-4262022, CQ-4260697
 * The download functionality leverages AEM Assets via assetdownload servlet allowing anonymous users to download all assets. NPR-27315, Hotfix for CQ-4254732
 
-### Sites {#sites}
+### Sites {#sites-changes}
 
 * JCR complaint tag name should be auto-populated based on tag title. NPR-28990: Hotfix for CQ-4199411
 * Cancel inheritance button is not visible on some of the fields added in the page properties. NPR-29079: Hotfix for CQ-4265686
@@ -106,7 +106,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * Cannot bulk add a tag to pages with existing different tags. NPR-28729: Hotfix for CQ-4262922
 * Scheduled Activation icon is not showing in the site admin. NPR-28725: Hotfix for CQ-4263917
 
-### Replication {#replication}
+### Replication {#replication-changes}
 
 * Sensitive information disclosure vulnerability in Replication Agent component. NPR-29612, NPR-24951: Hotfix for GRANITE-25070
 * User-provided data is not escaped on output in the cq/replication/components/agent component, resulting in a stored Cross-site scripting (XSS) vulnerability. Hotfix for CQ-4266263
@@ -119,17 +119,17 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 * AEM Community reports do not show in AEM author instance. Hotfix for CQ-4266294
 
-### Platform {#platform}
+### Platform {#platform-changes}
 
 * Cross-site scripting (XSS) in package manager while installing a package. NPR-29734, NPR-29713, NPR-29630: Hotfix for GRANITE-26161, GRANITE-
 * Multiple stored and reflected Cross-site scripting (XSS) in CRXDE Lite. NPR-29634: Hotfix for GRANITE-26049
 * Login functionality for Package Share uses GET request rather than POST request, causing the password to be visible under the network tab. NPR-29631: Hotfix for GRANITE-26048
 
-### Felix {#felix}
+### Felix {#felix-changes}
 
 * Cross-site scripting (XSS) observed in system console. The page gets loaded and pop up comes over when mouse is hovered over text field. NPR-29853, NPR-29633: Hotfix for GRANITE-26188, GRANITE-26050
 
-### Granite {#granite}
+### Granite {#granite-changes}
 
 * Apache Sling Logging Logger Configuration does not filter the injected script.  NPR-29775: Hotfix for GRANITE-26051
 
@@ -140,25 +140,25 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * Visitors and members, with no moderator privileges, can see unapproved/pending posts by pasting the URL. NPR-29726: Hotfix for CQ-4271124, CQ-4271441
 * High response time up to 40-50 seconds is observed on user sign-in for Community. NPR-29678: Hotfix for CQ-4269444
 
-### Translation {#translation}
+### Translation {#translation-changes}
 
 * Users without translation feature access on navigation should not be able to access its subpages. NPR-29644: Hotfix for CQ-4269979
 * User permissions not upheld as wizard allows the creation of the translation copy in a read-only location. NPR-29375: Hotfix for CQ-4265877
 
-### UI - Foundation {#ui-foundation}
+### UI - Foundation {#ui-foundation-changes}
 
 * Increased the pagination limit of  the search result to 100 pages for card view and 200 for the list view. NPR-29332: Hotfix for GRANITE-24644
 * Due to lazy loading of tags, nothing is displayed on the collection page. NPR-29267: Hotfix for GRANITE-24902
 * Changing the pagination limit to 100 instead of 40 triggers an extra lazy load without pagination request. NPR-29246: Hotfix for GRANITE-25027
 * AEM granite password field is not getting populated after encryption. NPR-29245: Hotfix for GRANITE-24908
 
-### Integration {#integration}
+### Integration {#integration-changes}
 
 * An exception message is shown when trying to edit and save the AEM launch configuration. NPR-29086: Hotfix for CQ-4266153
 * BrightEdge credentials fail with connection error.  NPR-29167: Hotfix for CQ-4265872
 * The inherited from checkbox appearing at the root level in Cloud Service Configs should be removed. NPR-27856:  Hotfix for CQ-4259676
 
-### Sling {#sling}
+### Sling {#sling-changes}
 
 * HTTP connection timeout is not being read from the configurations. NPR-29264: Hotfix for SLING-7902
 * JCR installer writeback causes the OSGi configuration to use invalid format and block the redeployment. NPR-29027: Hotfix for CQ-4264694
@@ -242,11 +242,11 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 * Added PDF/UA support to XML Forms Architecture (XFA) forms generated using Designer and Output Service. NPR-23022
 
-#### Forms - Workflow {forms-workflow}
+#### Forms - Workflow {#forms-new-workflow}
 
 * Submissions from workspace fail with Umlaut character. NPR-29087: Hotfix for CQ-4263172
 
-## Feature Packs Included {#feature-packs-included}
+## Feature Packs Included {#feature-packs-included-sites}
 
 >[!NOTE]
 >
@@ -1627,6 +1627,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 >
 >For successful installation of AEM 6.4.5.0 on the instance, it is strongly recommended to upgrade the version of com.adobe.granite.oak.s3connector to 1.8.3 for the customers who are on the older version of s3 connector.
 >The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html](https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html).
+
 >Download the latest version of com.adobe.granite.oak.s3connector from: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/)
 
 >[!CAUTION]
@@ -1649,7 +1650,6 @@ Perform the following steps to install the Service Pack on an existing AEM 6.4 i
 
 1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.5.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.5.0).  
    (search for "AEM-6.4.5.0" to find it)  
-
 1. Install the downloaded package using Package Manager.
 
 >[!NOTE]
@@ -1658,7 +1658,7 @@ Perform the following steps to install the Service Pack on an existing AEM 6.4 i
 >
 >Therefore, it is recommended to wait for error logs to stabilize before accessing the instance. The user has to wait for specific logs related to uninstallation of updater bundle before being ensured that the installations is successful. It generally happens on Safari but can intermittently happen on any browser.
 
-### Automatic installation {#automatic-installation}
+### Automatic installation {#auto-installation}
 
 There are two ways to automatically install AEM 6.4.5.0 into a running instance:
 
@@ -1670,13 +1670,13 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 >
 >AEM 6.4.5.0 does not support Bootstrap installation.
 
-### Validate installation {#validate-installation}
+### Validate installation {#validate-install}
 
 1. The Product Information page (*/system/console/  productinfo *) should now show the updated version string "Adobe Experience Manager, Version 6.4.5.0" under Installed Products.
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
 1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.11 or higher (Use Web Console: /system/console/bundles).
 
-To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites/deploying/using/technical-requirements.md).
+To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](/help/sites-deploying/technical-requirements.md).
 
 >[!Note]
 >On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-4 Installed successfully."**
@@ -1691,7 +1691,7 @@ which will copy new viewer presets to /conf location.
 
 ### Install AEM forms add-on package {#install-aem-forms-add-on-package}
 
-#### Install AEM forms add-on {##installaemformsaddon}
+#### Install AEM forms add-on {#installaemformsaddon}
 
 >[!NOTE]
 >
@@ -1739,11 +1739,11 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 The Uber Jar for AEM 6.4.5.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.5/).
 
-To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites/developing/using/ht-projects-maven.md) and include the following dependency in your project POM:
+To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](/help/sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
 ```shell
 <dependency>
-      <groupId>com.adobe.aem</groupId>
+      <code>com.adobe.aem</groupId>
       <artifactId>uber-jar</artifactId>
       <version>6.4.5</version>
       <classifier>apis</classifier>
@@ -1798,16 +1798,15 @@ List of Content Packages included in AEM 6.4.5.0
 
 ## Helpful resources {#helpful-resources}
 
-* [AEM 6.4 release notes](../release-notes.md)
+* [AEM 6.4 release notes](/help/release-notes/release-notes.md)
 * [AEM product page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM developer support](https://docs.adobe.com/content/ddc/en.html)
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Subscribe](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) to [Adobe Priority Product Updates](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
+* Subscribe to [Adobe Priority Product Updates](https://www.adobe.com/subscription/priority-product-update.html)
 
-## Restricted Sites {#restricted-sites}
+## Restricted Sites {#restricted-sites-new}
 
 These sites are only available to customers. If you are a customer and need access, please contact your Adobe account manager.
 
 * [Product download at licensing.adobe.com](https://licensing.adobe.com/)
 * [Contact customer support](https://daycare.day.com/)
-

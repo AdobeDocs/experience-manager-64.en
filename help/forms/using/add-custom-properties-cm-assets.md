@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 601108d8-f432-4a6b-9ec9-831cf054e52f
 ---
 
-# Add custom properties to Correspondence Management assets{#add-custom-properties-to-correspondence-management-assets}
+# Add custom properties to Correspondence Management assets {#add-custom-properties-to-correspondence-management-assets}
 
 ## Overview {#overview}
 
@@ -53,7 +53,7 @@ Complete the following steps to add a custom property to all the asset types and
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
        ![Overlay node](assets/cmmetapropertiesoverlaynode.png)
 
@@ -107,8 +107,10 @@ This scenario shows how you can add a custom property to all the asset types and
 
    `/libs/fd/cm/ma/gui/content/cmmetadataproperties/commonproperties/col1/items`
 
-1. Under the newly created overlay node (/apps/fd/cm/ma/gui/content/cmmetadataproperties/commonproperties/col1/items)  
+1. Under the newly created overlay node (/apps/fd/cm/ma/gui/content/cmmetadataproperties/commonproperties/col1/items) 
+
    Create a node for each of the properties (fields) for which you need to create a drop-down (here `geographicallocation`) of the type nt:unstructured. 
+
 1. Add the following properties to the node (here geographicallocation) and click **Save All**:
 
    |Name|Type|Value|
@@ -129,11 +131,11 @@ This scenario shows how you can add a custom property to all the asset types and
        |text|String|This is the value of the drop-down option that is visible to the user. Keep it blank for the blank (default) value or enter the value, such as **International** or **Within US**.|
        |value|String|Value stored in CRXDE for the text. Enter any unique keyword.|
 
-       ![](assets/customizationdropdownvaluescrxde.png)
+       ![customizationdropdownvaluescrxde](assets/customizationdropdownvaluescrxde.png)
 
 The custom drop-down appears as the following in asset properties:
 
-![](assets/drop-down_customization.png) 
+![drop-down_customization](assets/drop-down_customization.png) 
 
 ### Scenario: Common tab for all asset types {#scenario-common-tab-for-all-asset-types}
 
@@ -158,11 +160,12 @@ Using the following procedure, you can add a tab with a field to all your assets
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
-       ![Overlay folder structure created in CRX](assets/cmmetadatapropertiesappsfolder.png)    
+       ![Overlay folder structure created in CRX](assets/cmmetadatapropertiesappsfolder.png)
+       
        Click **Save All**.
 
 1. Under the cmmetadataproperties folder, add a node for creating a custom tab for all the assets (Example: commontab) using the following steps:
@@ -260,7 +263,7 @@ Using the following procedure, you can add a tab with a field to all your assets
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder is created. Click **Save All**.
 
@@ -331,7 +334,7 @@ To add a property to an asset type, complete the following steps:
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
@@ -433,7 +436,7 @@ By default, the custom properties added to new tabs are visible only on the prop
 
    **Location:** /apps/
 
-   **Match** **Node Types:** Selected
+   **Match Node Types:** Selected
 
    Depending on the type of asset, following needs to be the path:
 
@@ -479,7 +482,7 @@ By default, the custom properties added to new tabs are visible only on the prop
    </tbody> 
    </table>
 
-   ![](assets/customfieldappearinginmainproperties.png)
+   ![customfieldappearinginmainproperties](assets/customfieldappearinginmainproperties.png)
 
    Custom property, Language, appearing in the UI for creating a letter
 
@@ -506,7 +509,7 @@ Complete the following steps to display the custom property in the Correspondenc
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
@@ -545,7 +548,7 @@ Complete the following steps to display the custom property in the Correspondenc
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
@@ -615,7 +618,7 @@ Complete the following steps to display the custom property in the Correspondenc
 
    For example, using the Scenario: Adding custom properties for specific asset types you add a custom property to text assets, you can enter custom properties to text assets only. If, however, you display that custom property in the UI, the column appears for all asset types. 
 
-   ![](assets/custompropertyinlistview.png)
+   ![custompropertyinlistview](assets/custompropertyinlistview.png)
 
 1. (Optional) By default the new column appears as the last column in the UI. To make the column appear at a specific position, add the following property to the column node:
 
@@ -686,7 +689,7 @@ To allow indexing of custom properties, complete the following steps:
     1. Click the new node you have created (here location). CRX displays the node's properties. 
     1. Add the following properties to the node (here location):
 
-       | **Name ** |**Type** |**Value** |
+       | **Name** |**Type** |**Value** |
        |---|---|---|
        | analyzed |String |true |
        | name |String |extendedProperties/location (or the name of the property you want to add to search) |
@@ -718,7 +721,7 @@ To allow indexing of custom properties, complete the following steps:
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.  
 
@@ -753,7 +756,7 @@ To allow indexing of custom properties, complete the following steps:
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.  
 

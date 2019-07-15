@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 342f111e-f15a-4f9a-8993-f90760363c02
 ---
 
-# DO NOT PUBLISH Role based user interface in Correspondence Management{#do-not-publish-role-based-user-interface-in-correspondence-management}
+# DO NOT PUBLISH Role based user interface in Correspondence Management {#do-not-publish-role-based-user-interface-in-correspondence-management}
 
 In AEM, the Admin can provide role-based access to different user groups perform various actions on different resources. For example, the funtionality to create or edit data dictionaries could be available only to users in a specific user group while other users could only view and user the data dictionaries.
 
@@ -18,13 +18,13 @@ The AEM interface displays the options, such as to create or edit an asset type,
 
 Although CRX allows you to configure the access rights for both user and groups accounts, this article is about role or user group based access rights.
 
-For more information on groups, permissions, access control lists, and managing users and groups, see [User Administration and Security](../../sites/administering/using/security.md).
+For more information on groups, permissions, access control lists, and managing users and groups, see [User Administration and Security](/help/sites-administering/security.md).
 
 ## Managing Permissions {#managing-permissions}
 
 1. Ensure that the user for which you want to manage the permissions is added to the relevant user group.
 
-   For example, the user John Doe is added to the groups `agents` and `cm-creditcard`. For more information, see Adding Users or Groups to a Group. For more information, see [Managing Users and User Groups](../../communities/using/users.md).
+   For example, the user John Doe is added to the groups `agents` and `cm-creditcard`. For more information, see Adding Users or Groups to a Group. For more information, see [Managing Users and User Groups](/help/communities/users.md).
 
    ![]()
 
@@ -36,7 +36,7 @@ For more information on groups, permissions, access control lists, and managing 
 
     1. From the Welcome screen or various locations in AEM, click the security icon:  
 
-    1. Navigate directly to https://[server]:[port]/useradmin. Be sure you log into AEM as an administrator.
+    1. Navigate directly to `https://[server]:[port]/useradmin`. Be sure you log into AEM as an administrator.
 
        ![]()
 
@@ -52,7 +52,7 @@ For more information on groups, permissions, access control lists, and managing 
 
    Select the check box in the Member column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.
 
-   ![](assets/useradmin-creditcard.png)
+   ![useradmin-creditcard](assets/useradmin-creditcard.png)
 
    >[!NOTE]
    >

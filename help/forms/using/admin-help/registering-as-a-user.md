@@ -10,7 +10,7 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: 26e11ef4-9f8f-4b0b-b035-a498fd7d65ef
 ---
 
-# Registering as a User{#registering-as-a-user}
+# Registering as a User {#registering-as-a-user}
 
 You can use policy-protected documents that you receive from an document security user, even if you are external to the user’s organization. To use a policy-protected document, you must register with document security. If you were not previously invited to register, document security initiates the registration process when these events occur:
 

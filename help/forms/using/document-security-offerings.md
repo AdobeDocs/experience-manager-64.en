@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8e7a8481-b8cd-4f2b-b9d2-7a8132f1d3f6
 ---
 
-# Document security offerings{#document-security-offerings}
+# Document security offerings {#document-security-offerings}
 
 Adobe Experience Manager Forms document security ensures that only authorized users can use your documents. Using document security, you can safely distribute any information that you have saved in a supported format. Supported file formats include Adobe Portable Document Format (PDF) and Microsoft Word, Excel, and PowerPoint files.
 
@@ -37,7 +37,7 @@ The server is included in AEM Forms Document Security add-on offering. You can c
 
 AEM Forms Document Security provides various tools to apply security policies. You can choose a tool as per your requirements and specifications.
 
-![](assets/document-security-offerings.png)
+![document-security-offerings](assets/document-security-offerings.png)
 
 You can use Document Security SDK, Adobe Acrobat, Document Security Extension for Microsoft Office, or Portable Protection Library to apply and track the security policies:
 

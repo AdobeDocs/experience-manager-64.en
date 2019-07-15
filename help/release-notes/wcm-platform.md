@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 ---
 
-# AEM Foundation & Repository{#aem-foundation-repository}
+# AEM Foundation & Repository {#aem-foundation-repository}
 
 ## List of changes {#list-of-changes}
 
@@ -33,7 +33,7 @@ discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 
 >[!CAUTION]
 >
->* The new version of the Oak Segment Tar present since AEM 6.3 requires a repository migration. This step is mandatory if you are upgrading from an older version of TarMK or want to switch the new Segment Tar from another type of persistence. For more information on what the benefits of the new Segment Tar are, see the [Migrating to Oak Segment Tar FAQ](../sites/deploying/using/revision-cleanup.md#migrating-to-oak-segment-tar).
+>* The new version of the Oak Segment Tar present since AEM 6.3 requires a repository migration. This step is mandatory if you are upgrading from an older version of TarMK or want to switch the new Segment Tar from another type of persistence. For more information on what the benefits of the new Segment Tar are, see the [Migrating to Oak Segment Tar FAQ](/help/sites-deploying/revision-cleanup.md#migrating-to-oak-segment-tar).
 >
 
 ### Search &amp; Indexing {#search-amp-indexing}
@@ -62,7 +62,7 @@ discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 
 >[!CAUTION]
 >
->* Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated [Read more](../sites/deploying/using/ui-recommendations.md).
+>* Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated [Read more](/help/sites-deploying/ui-recommendations.md).
 >
 
 ### Content Distribution {#content-distribution}
@@ -77,7 +77,7 @@ discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 * New Health Checks:
 
     * Detect large Lucene indexes
-    * Async indexing health  
+    * Async indexing health
     * Large Lucene Indexes
     * Query Performance
     * Query Traversal Limits
@@ -100,8 +100,8 @@ discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 * Backward Compatibility: Backward compatible features in 6.4, helps your custom code remain compatible in most cases and reduces upgrade effort.
 * Upgrade Complexity Assessment: New Pattern detector tool to assess the complexity of your upgrades.
 * Sustainable Upgrades: API surface and Content Classification introduced to help you easily follow best practices for an efficient and seamless upgrade to the next version throughout your development cycle.
-* Repository Restructuring: Significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices. [Read more.](../sites/deploying/using/repository-restructuring-in-aem64.md)
-* Please see the [Upgrade documentation](../sites/deploying/using/upgrade.md) for more details on these features.
+* Repository Restructuring: Significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices. [Read more.](/help/sites-deploying/repository-restructuring-in-aem64.md)
+* Please see the [Upgrade documentation](/help/sites-deploying/upgrade.md) for more details on these features.
 
 ### Cloud Services {#cloud-services}
 

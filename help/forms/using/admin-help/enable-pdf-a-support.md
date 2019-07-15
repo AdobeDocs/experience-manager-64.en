@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 17a6397b-0089-4fd1-b44a-686fdf60d7a9
 ---
 
-# Enable PDF/A support{#enable-pdf-a-support}
+# Enable PDF/A support {#enable-pdf-a-support}
 
 PDF Generator supports the creation of PDF/A-compliant files from Microsoft Excel, Microsoft PowerPoint, and Microsoft Word files.
 

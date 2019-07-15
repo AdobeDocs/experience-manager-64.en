@@ -11,7 +11,7 @@ topic-tags: coding
 discoiquuid: 0ff30df7-b3ad-4c34-9644-87c689acc294
 ---
 
-# Creating Flash Builder applicationsthat perform SSO authentication using HTTP tokens{#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens}
+# Creating Flash Builder applications that perform SSO authentication using HTTP tokens {#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens}
 
 You can create a client application using Flash Builder that performs single-sign on (SSO) authentication using HTTP tokens. Assume, for example, that you create a web-based application using Flash Builder. Next assume that the application contains different views, where each view invokes a different AEM Forms operation. Instead of authenticating a user for each Forms operation, you can create a login page that lets a user authenticate once. Once authenticated, a user is able to invoke multiple operations without having to authenticate again. For example, if a user has logged into Workspace (or another Forms application), the user would not need to authenticate again.
 
@@ -23,7 +23,7 @@ Although the client application contains required application logic to perform S
 
 The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, is invoked after a user is authenticated using SSO. (For information about this process such as its input and output values, see [Short lived process example](/help/forms/developing/aem-forms-processes.md).)
 
-![](assets/cf_cf_encryptdocumentprocess2.png)
+![cf_cf_encryptdocumentprocess2](assets/cf_cf_encryptdocumentprocess2.png)
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ On receiving this request, the User Manager security servlet deletes the `lcAuth
 
 To demonstrate how to create a client application that performs SSO authentication, an example client application is created. The following illustration shows the steps that the client application performs to authenticate a user using SSO.
 
-![](assets/cf_cf_flexsso.png)
+![cf_cf_flexsso](assets/cf_cf_flexsso.png)
 
 The previous illustration describes the application flow that occurs when the client application starts.
 
@@ -117,7 +117,7 @@ The client application consists of the following files:
 
 The following illustration provides a visual representation of the client application. 
 
-![](assets/cf_cf_sso_project.png)
+![cf_cf_sso_project](assets/cf_cf_sso_project.png)
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ topic-tags: operations
 discoiquuid: d816bf2e-5236-4084-b7c4-c32b72cdff97
 ---
 
-# Working with PDF Utilities{#working-with-pdf-utilities}
+# Working with PDF Utilities {#working-with-pdf-utilities}
 
 **About the PDF Utilities Service**
 
@@ -496,4 +496,4 @@ Sanitize documents by using the PDF Utilities API (Java):
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)S
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)

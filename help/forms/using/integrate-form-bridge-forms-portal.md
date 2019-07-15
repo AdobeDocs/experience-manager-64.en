@@ -10,9 +10,9 @@ topic-tags: hTML5_forms
 discoiquuid: e0608649-bd49-4f40-bc1b-821c9b208883
 ---
 
-# Integrating Form Bridge with custom portal for HTML5 forms{#integrating-form-bridge-with-custom-portal-for-html-forms}
+# Integrating Form Bridge with custom portal for HTML5 forms {#integrating-form-bridge-with-custom-portal-for-html-forms}
 
-FormBridge is a HTML5 forms bridge API that allows you to interact with a form. For the FormBridge API reference, see [FormBridge API reference](../../forms/using/form-bridge-apis.md).
+FormBridge is a HTML5 forms bridge API that allows you to interact with a form. For the FormBridge API reference, see [FormBridge API reference](/help/forms/using/form-bridge-apis.md).
 
 You can use the FormBridge API to get or set the values of form fields from the HTML page and submit the form. For example, you can use API to build a wizard-like experience.
 
@@ -20,14 +20,13 @@ An existing HTML application can leverage the FormBridge API to interact with a 
 
 ## Integrating HTML5 forms to a web page {#integrating-html-forms-to-a-web-page}
 
-1. **Choose a Profile or create a Profile  
-   **
+1. **Choose a Profile or create a Profile**
 
     1. In the CRX DE interface, navigate to: `https://[server]:[port]/crx/de`.
     1. Log in with administrator credentials.
     1. Create a profile or choose an existing profile.
 
-       For details on how to create a profile, see [Creating a new Profile](../../forms/using/custom-profile.md).
+       For details on how to create a profile, see [Creating a new Profile](/help/forms/using/custom-profile.md).
 
 1. **Modify the HTML Profile**
 
@@ -72,16 +71,13 @@ An existing HTML application can leverage the FormBridge API to interact with a 
    >
    >The **line 9**, contains additional JSP reference for CSS styles and JavaScript files to design the page.
    >
-   >
    >The &lt;div id="rightdiv"&gt; tag on **line 18** contains the HTML snippet of the XFA form.
-   >
    >
    >The page is styled into two containers: **left** and **right**. The right container has the form. The left container has two input fields and part of the external HTML page.
    >
-   >
    >The following screen shot shows how the form displays in a browser.
 
-   ![](assets/portal.jpg)
+   ![portal](assets/portal.jpg)
 
    The left side is part of the **HTML page**. The right side containing the fields is the **xfa form**.
 
@@ -89,7 +85,7 @@ An existing HTML application can leverage the FormBridge API to interact with a 
 
    The following is a sample script you can add to set values in a form field.
 
-   For example, if you want to set the **EmployeeName **using the values in the Fields **First Name** and **Last Name**, call the **window.formBridge.setFieldValue** function.
+   For example, if you want to set the **EmployeeName** using the values in the Fields **First Name** and **Last Name**, call the **window.formBridge.setFieldValue** function.
 
    Similarly, you can read the value by calling **window.formBridge.getFieldValue **API.
 
@@ -104,4 +100,4 @@ An existing HTML application can leverage the FormBridge API to interact with a 
            });
    ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

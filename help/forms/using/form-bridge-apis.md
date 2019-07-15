@@ -10,7 +10,7 @@ topic-tags: developer-reference
 discoiquuid: c05c9911-7c49-4342-89de-61b8b9953c83
 ---
 
-# Form Bridge APIs for HTML5 forms{#form-bridge-apis-for-html-forms}
+# Form Bridge APIs for HTML5 forms {#form-bridge-apis-for-html-forms}
 
 You can use the Form Bridge APIs to open a communication channel between an XFA-based HTML5 forms and your applications. The Form Bridge APIs provides a **connect** API to create the connection.
 
@@ -47,7 +47,7 @@ Returns the version number of the Scripting library
 **isConnected()** Checks if Form State has been initialized
 
 * **Input**: None
-* **Output:** **True **if the XFA Form State has been initialized
+* **Output**: **True** if the XFA Form State has been initialized
 
 * **Errors**: None
 
@@ -67,14 +67,10 @@ Returns the version number of the Scripting library
 
     * **options:** JavaScript Object containing following properties:
 
-        * **Error**: Error Handler Function  
-        
+        * **Error**: Error Handler Function
         * **success**: Success handler function. This function is passed an object containing XML in *data* property.
-        
         * **context**: The object to which the context (this) of the *success* function is set
-        
         * **validationChecker**: Function to call to check validation errors received from the server. Validation function is passed an array of error strings.
-
         * **formState**: The JSON state of the XFA Form for which data XML has to be returned. If not specified, it returns the data XML for the currently rendered form.
 
 * **Output:** None
@@ -86,13 +82,15 @@ Returns the version number of the Scripting library
 
     * **configName:** Name of the configuration to override
 
-        * **widgetConfig:** Allows the user to override the default widgets in the form with custom widgets. The configuration is overridden as follows:  
-          *formBridge.registerConfig("widgetConfig":{/&#42;configuration&#42;/})*
+        * **widgetConfig:** Allows the user to override the default widgets in the form with custom widgets. The configuration is overridden as follows:
+
+          *formBridge.registerConfig("widgetConfig":{/&ast;configuration&ast;/})*
         
-        * ***pagingConfig:** Allows the user to override the default behavior of rendering only the first page. The configuration is overridden as follows:  
-          **window.formBridge.registerConfig("pagingConfig":{pagingDisabled: <true | false>, shrinkPageDisabled: <true | false> }). *
+        * ***pagingConfig:** Allows the user to override the default behavior of rendering only the first page. The configuration is overridden as follows: 
+
+          *window.formBridge.registerConfig("pagingConfig":{pagingDisabled: <true | false>, shrinkPageDisabled: <true | false> }).*
         
-        * ****LoggingConfig:** Allows the user to override the level of logging, disable logging for a category, or whether to display the logs console or send to server. The configuration can be overridden as follows:**
+        * **LoggingConfig:** Allows the user to override the level of logging, disable logging for a category, or whether to display the logs console or send to server. The configuration can be overridden as follows:**
         * *formBridge.registerConfig{  
           **"LoggerConfig" : {  
         * *{  
@@ -156,8 +154,7 @@ Returns the version number of the Scripting library
 
         * **Error**: Error Handler Function
         * **success**: Success handler function
-        * **context**: The object to which the context (this) of the *success *function are set
-        
+        * **context**: The object to which the context (this) of the *success* function are set
         * **formState**: JSON state of the form. The form is restored to the JSON state..
 
 * **Output:** None
@@ -204,8 +201,7 @@ if(a.errors) {
 
 * **Input:**
 
-    * **som:** Array containing Som expressions for the fields  
-    
+    * **som:** Array containing Som expressions for the fields
     * **property**: Name of the property whose value is required
 
 * **Output:** Object containing the result as Array in *data *property
@@ -216,10 +212,8 @@ if(a.errors) {
 
 * **Input:**
 
-    * **som:** Array** **containing** **Som expressions of the fields whose value has to be set  
-    
-    * **property**: Property whose value has to be set  
-    
+    * **som:** Array containing Som expressions of the fields whose value has to be set
+    * **property**: Property whose value has to be set
     * **value:** Array containing values of the given property for fields specified in Som expressions
 
 * **Output:** None
@@ -259,4 +253,4 @@ if(a.errors) {
   }
 ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

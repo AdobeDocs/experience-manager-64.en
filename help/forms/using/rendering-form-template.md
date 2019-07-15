@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: cb75b826-d044-44be-b364-790c046513e0
 ---
 
-# Rendering form template for HTML5 forms{#rendering-form-template-for-html-forms}
+# Rendering form template for HTML5 forms {#rendering-form-template-for-html-forms}
 
 ## Render Endpoint {#render-endpoint}
 
@@ -62,7 +62,7 @@ The request parameters supported while rendering form as HTML are:
 
 | Parameter  |Description |
 |---|---|
-| dataRef |This parameter specifies** absolute path **of the data file that is merged with the template. This parameter can be a URL to a rest service returning the data in xml format. |
+| dataRef |This parameter specifies **absolute path** of the data file that is merged with the template. This parameter can be a URL to a rest service returning the data in xml format. |
 | data |This parameter specifies the UTF-8 encoded data bytes that are merged with the template. If this parameter is specified, the HTML5 form ignores dataRef parameter. |
 
 ### Passing the render parameter {#passing-the-render-parameter}
@@ -77,6 +77,6 @@ HTML5 forms support three methods for passing the render parameters. You can pas
 
 ### Submit Parameters {#submit-parameters}
 
-HTML5 forms submit data; execute server-sided scripts and web-services on AEM servers. For detailed information on parameters used to execute server-sided scripts and web-services on AEM servers, see [HTML5 forms Service Proxy](../../forms/using/service-proxy.md).
+HTML5 forms submit data; execute server-sided scripts and web-services on AEM servers. For detailed information on parameters used to execute server-sided scripts and web-services on AEM servers, see [HTML5 forms Service Proxy](/help/forms/using/service-proxy.md).
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
