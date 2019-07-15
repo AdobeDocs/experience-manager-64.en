@@ -1775,7 +1775,7 @@ The following errors & warning may occur during installation of AEM 6.4.5.0 and 
 
 ## Resolved Issues {#resolved-issues}
 
-### AEM 6.4.4.0 {aem-6440}
+### AEM 6.4.4.0 {#aem-6440}
 
 * No resource found error is observed on importing/exporting metadata. CQ-4253263
 * Unable to edit any image component and page properties after applying 6.4.3.0 on top of 6.4.2.0. CQ-4260316 & CQ-4260441
