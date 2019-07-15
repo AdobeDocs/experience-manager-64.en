@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 30312159-58a5-4781-b554-29dcbce696cb
 ---
 
-# Configuring Out of Office Settings{#configuring-out-of-office-settings}
+# Configuring Out of Office Settings {#configuring-out-of-office-settings}
 
 The Out of Office feature enables users or administrators to specify when a user will be out of the office and unable to complete tasks assigned by AEM forms. While a user is set to Out of Office, their tasks are assigned to one or more designated users. Users can change their Out of Office settings in Workspace or administrators can change the settings on a user’s behalf in forms workflow.
 

@@ -12,7 +12,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 70559a94-42ea-411a-a32f-5f38bc17ff96
 ---
 
-# Microsoft SQL Server database: Fine-tuning the configuration{#microsoft-sql-server-database-fine-tuning-the-configuration}
+# Microsoft SQL Server database: Fine-tuning the configuration {#microsoft-sql-server-database-fine-tuning-the-configuration}
 
 You should change the default configuration settings when using Microsoft SQL Server. Right-click the local server in Oracle Enterprise Manager to access the properties dialog box.
 

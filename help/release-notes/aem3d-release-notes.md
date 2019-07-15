@@ -12,21 +12,21 @@ topic-tags: 3D
 discoiquuid: 9789d031-fb7e-415a-a9c3-8b8fde978238
 ---
 
-# AEM 3D Release Notes{#aem-d-release-notes}
+# AEM 3D Release Notes {#aem-d-release-notes}
 
 AEM-6.4-DynamicMedia-3D version 3.1.0 (October 10, 2018)
 
 The AEM 3D feature pack enables support for 3D content in AEM Assets. It provides capabilities to upload, manage, preview, and render 3D assets. Support for viewing and rendering is optimized for individual objects (rather than complex scenes with multiple objects).
 
-AEM 3D supports Adobe Dimension (Dn) and glTF asset types. The implementation for these asset types is substantially different from that for traditional 3D types described in this documentation. See [Working with Adobe Dimension assets](../assets/using/working-dimension-assets.md).
+AEM 3D supports Adobe Dimension (Dn) and glTF asset types. The implementation for these asset types is substantially different from that for traditional 3D types described in this documentation. See [Working with Adobe Dimension assets](/help/assets/working-dimension-assets.md).
 
 Also included are server-side integrations with Autodesk® Maya® (Windows only). When you install and configure Maya on the same server as AEM you enable support for native Maya file formats, including high-quality rendering with the NVIDIA® mental ray® Standalone plug-in for Maya. Installing and configuring 3ds Max on the server enables support for the native .max file format.
 
-See [Integrating with Autodesk Maya](../assets/using/integrate-maya-with-3d.md).
+See [Integrating with Autodesk Maya](/help/assets/integrate-maya-with-3d.md).
 
-See also [Installing and configuring AEM 3D Assets](../assets/using/install-config-3d.md) and [Advanced configuration settings](../assets/using/advanced-config-3d.md).
+See also [Installing and configuring AEM 3D Assets](/help/assets/install-config-3d.md) and [Advanced configuration settings](/help/assets/advanced-config-3d.md).
 
-See also [Working with 3D assets](../assets/using/3d-assets.md).
+See also [Working with 3D assets](/help/assets/assets-3d.md).
 
 ## System requirements {#system-requirements}
 
@@ -55,15 +55,16 @@ Other browsers may not support interactive viewing of 3D content in AEM. Only Go
 * CPU - 3D processing and rendering is very demanding on a computer's CPU. As such, a contemporary server with a minimum of eight CPU cores is recommended.
 * Memory - A minimum of 32 GB is recommended.
 * Mass storage - High bandwidth SSD storage is recommended.  
+
   On upload, 3D assets are converted to a proprietary format for fast, interactive viewing. Depending on the type of 3D asset, storage space of 2-3x the size of the uploaded 3D asset is required.
 
-See also [Working with 3D assets](../assets/using/3d-assets.md).
+See also [Working with 3D assets](/help/assets/assets-3d.md).
 
 ## Installing and configuring AEM 3D {#installing-and-configuring-aem-d}
 
-See [Installing and configuring AEM 3D](../assets/using/install-config-3d.md).
+See [Installing and configuring AEM 3D](/help/assets/install-config-3d.md).
 
-See also [Integrating AEM 3D with Autodesk Maya](../assets/using/integrate-maya-with-3d.md) and [Integrating AEM 3D with Autodesk 3ds Max](../assets/using/integrating-aem-3d-with-autodesk-3ds-max.md).
+See also [Integrating AEM 3D with Autodesk Maya](/help/assets/integrate-maya-with-3d.md) and [Integrating AEM 3D with Autodesk 3ds Max](/help/assets/integrating-aem-3d-with-autodesk-3ds-max.md).
 
 ## Supported 3D File Formats {#supported-d-file-formats}
 
@@ -109,25 +110,25 @@ See also [Integrating AEM 3D with Autodesk Maya](../assets/using/integrate-maya-
    <td>MA, MB</td> 
    <td>Native Autodesk Maya</td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="../assets/using/integrate-maya-with-3d.md" target="_blank">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md" target="_blank">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>JT</td> 
    <td>Siemens PLM Open CAD</td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="../assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>*</td> 
-   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="../assets/using/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
+   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="/help/assets/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="../assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>MAX</td> 
    <td>Native Autodesk 3ds Max</td> 
    <td>Windows only</td> 
-   <td>Autodesk 3ds Max is required on the author node to enable this file format. See <a href="../assets/using/integrating-aem-3d-with-autodesk-3ds-max.md">Integrating AEM 3D with Autodesk 3ds Max</a>.</td> 
+   <td>Autodesk 3ds Max is required on the author node to enable this file format. See <a href="/help/assets/integrating-aem-3d-with-autodesk-3ds-max.md">Integrating AEM 3D with Autodesk 3ds Max</a>.</td> 
   </tr>
  </tbody>
 </table>
@@ -160,11 +161,11 @@ Version 3.1
 ### Compatibility {#compatibility}
 
 * **Running as a Windows service is not supported (Windows only)** - This may work but it has not been tested.
-* **Dynamic Media** ( `dynamicmedia-scene7` mode)** - **Compatibility of AEM3D with the new Dynamic Media solution released with AEM 6.4 is not yet fully verified. If Dynamic Media and AEM3D is deployed together, it is recommended that you place 3D assets and their dependencies only in an area of the AEM Assets repository that is not assigned to Dynamic Media. This recommendation is especially important for 32-bit TIFF files which are required for 3D Stages but are not supported by Dynamic Media.
+* **Dynamic Media** ( `dynamicmedia-scene7` mode) - Compatibility of AEM3D with the new Dynamic Media solution released with AEM 6.4 is not yet fully verified. If Dynamic Media and AEM3D is deployed together, it is recommended that you place 3D assets and their dependencies only in an area of the AEM Assets repository that is not assigned to Dynamic Media. This recommendation is especially important for 32-bit TIFF files which are required for 3D Stages but are not supported by Dynamic Media.
 
 ### General {#general}
 
-* **Resolve Dependencies** **shortcut** - This shortcut is available in the Card View on 3D assets. Asset cards in the Card View show the "Unresolved Dependencies" banner. The shortcut opens the **Basic Properties** tab instead of the **Dependencies** tab. Workaround: manually navigate to the Dependencies tab.
+* **Resolve Dependencies shortcut** - This shortcut is available in the Card View on 3D assets. Asset cards in the Card View show the "Unresolved Dependencies" banner. The shortcut opens the **Basic Properties** tab instead of the **Dependencies** tab. Workaround: manually navigate to the Dependencies tab.
 
 * **Stage selector not available** - 3D assets that include lights are automatically tagged by AEM as 3D stages. No Stages selector is available for stages in the Detail view. To mark a 3D asset as a 3D object, navigate to **Basic Properties**, change **Asset Class** to **3D Object**, then click **Save**.
 
@@ -183,16 +184,16 @@ Version 3.1
 
 ### Automatic dependency resolution {#automatic-dependency-resolution}
 
-* ****Unresolved file dependencies after upload**** - When 3D assets and their dependents are uploaded with the same upload operation, it is possible that some dependents are not resolved automatically. This issue is more likely to occur if the dependent files are large. To correct this issue, access the **Properties/Dependencies** page of the asset that shows unresolved dependents after upload. The previously unresolved dependents should now be shown. Click **Save** to finalize the asset. To prevent this issue in the future, you can upload all dependents in a separate transaction before you upload the 3D objects.
+* **Unresolved file dependencies after upload** - When 3D assets and their dependents are uploaded with the same upload operation, it is possible that some dependents are not resolved automatically. This issue is more likely to occur if the dependent files are large. To correct this issue, access the **Properties/Dependencies** page of the asset that shows unresolved dependents after upload. The previously unresolved dependents should now be shown. Click **Save** to finalize the asset. To prevent this issue in the future, you can upload all dependents in a separate transaction before you upload the 3D objects.
 
 * **Case-sensitivity** - Automatic dependency resolution attempts to match file names in a case-sensitive fashion. For example, if the original dependency found in the 3D asset is `image.jpg`, the dependency resolves to an asset named `Image.jpg`, `image.JPG`, or any other case variation.
 
 ### 3D stages {#d-stages}
 
-* ****Thumbnails for stages - ****The auto-generated thumbnails for stages may not represent the stage accurately.
+* **Thumbnails for stages** - The auto-generated thumbnails for stages may not represent the stage accurately.
 * **Stage geometry for non-IBL stages** - The Rapid Refine renderer does not render geometry from stages with non-IBL lighting, including backgrounds and ground planes. Such geometry still displays reasonably in the asset Detail view (3D preview).  
 
-* ****FBX stages with IBL lighting**** - You can upload FBX stages with IBL lighting. However, the FBX format does not have provisions to transfer the IBL image name. As such, file dependency resolution fails. The IBL image must be assigned manually to the stage after upload. You can assign the same 32-bit TIFF image to the three dependencies which are **Diffuse Lighting Environment Image**, **Reflection Envrionment Image**, and **Background Envrionment Image**, or different images may be assigned.  
+* **FBX stages with IBL lighting** - You can upload FBX stages with IBL lighting. However, the FBX format does not have provisions to transfer the IBL image name. As such, file dependency resolution fails. The IBL image must be assigned manually to the stage after upload. You can assign the same 32-bit TIFF image to the three dependencies which are **Diffuse Lighting Environment Image**, **Reflection Envrionment Image**, and **Background Envrionment Image**, or different images may be assigned.  
 
 * **Background image of IBL stages** - For some IBL scenes, the background image may have poor quality such as being too bright or too blurry. To maximize the visual quality of the image background of IBL stages, Adobe recommends that you prepare a separate high-resolution 8-bit JPEG image and attach it to the IBL stage as the **Background Environment Image**.
 
@@ -211,5 +212,5 @@ Version 3.1
 
 * **3D Component configuration** - You must install the 3D Feature Pack on all active Publish nodes and each node must be configured with **CRXDE Lite** to the same configuration options at `/libs/settings/dam/v3D/WebGLSites`.
 
-* **Missing textures, background, or lighting after publishing - **The **Publish** mechanism in AEM Sites automatically publishes the page's primary dependencies, including the 3D model and the 3D stage referenced by the 3D component. 3D stages and 3D models typically depend on secondary assets for IBL images and texture maps, which the Sites Publish mechanism does not publish automatically. Workaround: publish all 3D assets from Assets prior to publishing the web page from Sites. Doing so ensures that all dependencies for 3D assets are available on the Publish nodes.
+* **Missing textures, background, or lighting after publishing** - The **Publish** mechanism in AEM Sites automatically publishes the page's primary dependencies, including the 3D model and the 3D stage referenced by the 3D component. 3D stages and 3D models typically depend on secondary assets for IBL images and texture maps, which the Sites Publish mechanism does not publish automatically. Workaround: publish all 3D assets from Assets prior to publishing the web page from Sites. Doing so ensures that all dependencies for 3D assets are available on the Publish nodes.
 

@@ -11,11 +11,11 @@ topic-tags: forms-workspace
 discoiquuid: 487e3966-443a-408e-b5af-899fcba6fca6
 ---
 
-# Changing the font on the interface{#changing-the-font-on-the-interface}
+# Changing the font on the interface {#changing-the-font-on-the-interface}
 
 You can change the font displayed in AEM Forms workspace. Fonts used in a specific section of the user interface are defined in the corresponding section of the style sheet. You can change the fonts on the user interface selectively.
 
-Follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md) and depending on your requirements, follow the steps for customizing CSS, HTML, or both.
+Follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md) and depending on your requirements, follow the steps for customizing CSS, HTML, or both.
 
 1. Change or add the font-family in an existing style.  
 1. Change or add the font-family inline for the HTML element.
@@ -70,12 +70,10 @@ As an example, to change the font of the top navigation bar anchor text to Couri
 
 1. Relaunch the workspace and clear the browser cache for the changes to be visible.
 
-![](assets/change_font_before.png)
+![change_font_before](assets/change_font_before.png)
+**Figure:** *Top navigation bar before font customization*
 
-Top navigation bar before font customization
+![change_font_after](assets/change_font_after.png)
+**Figure:** *Top navigation bar after font customization of first tab*
 
-![](assets/change_font_after.png)
-
-Top navigation bar after font customization of first tab
-
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

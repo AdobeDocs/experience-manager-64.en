@@ -10,13 +10,13 @@ topic-tags: customization
 discoiquuid: c6115b64-e06f-4b5e-b7f9-876553c7627f
 ---
 
-# Creating a custom adaptive form template{#creating-a-custom-adaptive-form-template}
+# Creating a custom adaptive form template {#creating-a-custom-adaptive-form-template}
 
 ## Prerequisites {#prerequisites}
 
-* Understanding of AEM [Page Template](../../sites/authoring/using/templates.md) and [Adaptive Form Authoring](https://helpx.adobe.com/aem-forms/6-1/introduction-forms-authoring.html)
+* Understanding of AEM [Page Template](/help/sites-authoring/templates.md) and [Adaptive Form Authoring](https://helpx.adobe.com/aem-forms/6-1/introduction-forms-authoring.html)
 
-* Understanding of AEM [Client Side Libraries](../../sites/developing/using/clientlibs.md)
+* Understanding of AEM [Client Side Libraries](/help/sites-developing/clientlibs.md)
 
 ## Adaptive form template {#adaptive-form-template}
 
@@ -30,7 +30,7 @@ AEM QuickStart provides the following adaptive form templates:
 
 * Basic: Lets you create a multi-tab adaptive form using a tabs-on-left layout, where you can visit tabs in any random order.
 * Basic wiith Adobe Sign: Lets you create a form with mulitple tabs and wizard. It uses a tabs-on-left layout that lets you visit tabs in any order. It uses Adobe Document Cloud esign services for signing and verification.  
-* Blank Template: Lets you create a form without any header, footer, and initial content. You can add components such as text boxes, buttons, and images. The blank template lets you create a form that you can [embed in AEM Site pages](../../forms/using/embed-adaptive-form-aem-sites.md).
+* Blank Template: Lets you create a form without any header, footer, and initial content. You can add components such as text boxes, buttons, and images. The blank template lets you create a form that you can [embed in AEM Site pages](/help/forms/using/embed-adaptive-form-aem-sites.md).
 
 These templates have the `sling:resourceType` property set to the corresponding page component. The page component renders the CQ page, containing adaptive form container, which in turn renders adaptive form.
 
@@ -39,24 +39,24 @@ The following table enumerates the association between templates and page compon
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="75"><p><strong>Template</strong></p> </td> 
-   <td valign="top" width="150"><p><strong>Page Component</strong></p> </td> 
+   <td><p><strong>Template</strong></p> </td> 
+   <td><p><strong>Page Component</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="75"><p>/libs/fd/af/templates/surveyTemplate</p> </td> 
-   <td valign="top" width="150"><p>/libs/fd/af/components/page/survey</p> </td> 
+   <td><p>/libs/fd/af/templates/surveyTemplate</p> </td> 
+   <td><p>/libs/fd/af/components/page/survey</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="75"><p>/libs/fd/af/templates/simpleEnrollmentTemplate</p> </td> 
-   <td valign="top" width="150"><p>/libs/fd/af/components/page/base</p> </td> 
+   <td><p>/libs/fd/af/templates/simpleEnrollmentTemplate</p> </td> 
+   <td><p>/libs/fd/af/components/page/base</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="75"><p>/libs/fd/af/templates/tabbedEnrollmentTemplate</p> </td> 
-   <td valign="top" width="100"><p>/libs/fd/af/components/page/tabbedenrollment</p> </td> 
+   <td><p>/libs/fd/af/templates/tabbedEnrollmentTemplate</p> </td> 
+   <td><p>/libs/fd/af/components/page/tabbedenrollment</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="75"><p>/libs/fd/afaddon/templates/advancedEnrollmentTemplate</p> </td> 
-   <td valign="top" width="100"><p>/libs/fd/afaddon/components/page/advancedenrollment</p> </td> 
+   <td><p>/libs/fd/afaddon/templates/advancedEnrollmentTemplate</p> </td> 
+   <td><p>/libs/fd/afaddon/components/page/advancedenrollment</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ You can specify the structure and initial content of an adaptive form using Temp
 * Specify a theme.
 * Specify actions such as submit, reset, and navigate.
 
-For more informtion, see [Template Editor](../../forms/using/template-editor.md).
+For more informtion, see [Template Editor](/help/forms/using/template-editor.md).
 
 ## Creating an adaptive form template from CRXDE {#creating-an-adaptive-form-template-from-crxde}
 

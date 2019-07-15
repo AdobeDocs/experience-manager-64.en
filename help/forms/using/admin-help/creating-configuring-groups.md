@@ -17,7 +17,7 @@ Creating groups of users lets you assign roles to the group instead of to indivi
 
 Two different types of groups are available. You can manually create a group and add users and other groups to it. You can also create dynamic groups that automatically include all users who meet a specified set of rules.
 
-Users may experience a slower response time if they belong to many groups (for example, 500 or more) or if the groups are nested deeply (for example, 30 levels). If you are experiencing this problem, you can configure AEM forms to pre-fetch information from certain domains. (See [Configure AEM forms to prefetch domain information](../../../forms/using/admin-help/configure-aem-forms-prefetch-domain.md#configure-aem-forms-to-prefetch-domain-information).)
+Users may experience a slower response time if they belong to many groups (for example, 500 or more) or if the groups are nested deeply (for example, 30 levels). If you are experiencing this problem, you can configure AEM forms to pre-fetch information from certain domains. (See [Configure AEM forms to prefetch domain information](/help/forms/using/admin-help/configure-aem-forms-prefetch-domain.md#configure-aem-forms-to-prefetch-domain-information).)
 
 ## Create a group manually {#create-a-group-manually}
 

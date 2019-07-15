@@ -10,22 +10,24 @@ topic-tags: forms-app
 discoiquuid: fabc981e-0c9e-4157-b0a1-0c13717fb6cd
 ---
 
-# Set up the Android studio project and build the Android app{#set-up-the-android-studio-project-and-build-the-android-app}
+# Set up the Android studio project and build the Android app {#set-up-the-android-studio-project-and-build-the-android-app}
 
-| This article is for building the AEM Forms App 6.3.1.1 and later versions. For building an app from source code of source code of the AEM Forms App 6.3, see [Set up the Eclipse project and build the Android™ app](../../forms/using/setup-eclipse-project-build-installer.md). |
+| This article is for building the AEM Forms App 6.3.1.1 and later versions. For building an app from source code of source code of the AEM Forms App 6.3, see [Set up the Eclipse project and build the Android™ app](/help/forms/using/setup-eclipse-project-build-installer.md). |
 |---|
 
 AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build a custom AEM Forms app. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip` is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on package share.
 
 To get the AEM Forms app source, perform the following steps:
 
-1. Navigate to package share  
+1. Navigate to package share 
+
    URL: `https://<server>:<port>/crx/packageshare`.
 
 1. Download the source package. When you download the package, it is added in your AEM Forms package manager.
 1. After it is downloaded, navigate to: `https://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
 
-1. To download the source-code archive, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.   
+1. To download the source-code archive, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.  
+
    The source package is downloaded on your device.
 
 The following image displays the extracted contents of the `adobe-lc-mobileworkspace-src-<version>.zip`.
@@ -36,7 +38,7 @@ The following image displays the directory structure of the `android`folder in t
 
 ![Directory structure of the android folder in src](assets/android-folder.png) 
 
-## Build standard AEM Forms app <br> {#set-up-the-xcode-project}
+## Build standard AEM Forms app {#set-up-the-xcode-project}
 
 1. Perform the following steps to set up a project in Android™ Studio and provide a signing identity:
 
@@ -83,15 +85,15 @@ The following image displays the directory structure of the `android`folder in t
 
 1. After the project is imported, a pop-up appears with option to update the Android™ plugin Gradle. Click the appropriate button depending on your requirement.
 
-   ![](assets/dontremindmeagainforthisproject.png)
+   ![dontremindmeagainforthisproject](assets/dontremindmeagainforthisproject.png)
 
 1. After successful gradle build, the following screen appears. Connect the appropriate device or emulator with the system and click **[!UICONTROL Run Android™]**.  
 
-   ![](assets/gradleconsole.png)
+   ![gradleconsole](assets/gradleconsole.png)
 
 1. Android™ Studio displays the connected devices and available emulators. Select the device on which you want to run the application and then click **OK**.  
 
-   ![](assets/connecteddevice.png)
+   ![connecteddevice](assets/connecteddevice.png)
 
 After you have built the project, you can choose to install the app using Android™ Debug Bridge or Android™ Studio.
 
@@ -103,4 +105,4 @@ You can install the application on an Android™ device via the [Android™ Debu
 
 **For Windows® users**: `adb install %HOMEPATH%\Projects\[your-project]\adobe-lc-mobileworkspace-src-[version]\android\build\outputs\apk\android-debug.apk`
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

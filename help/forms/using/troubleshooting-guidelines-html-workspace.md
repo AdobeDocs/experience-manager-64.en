@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: 5dae9ed9-77a3-44f5-a94d-ca5c355c8730
 ---
 
-# Troubleshooting guidelines for AEM Forms workspace{#troubleshooting-guidelines-for-aem-forms-workspace}
+# Troubleshooting guidelines for AEM Forms workspace {#troubleshooting-guidelines-for-aem-forms-workspace}
 
 This article discusses how to debug AEM Forms workspace by enabling logging and by using debugger in a browser. It also explains some common issues that you can encounter when using AEM Forms workspace and their workarounds.
 
@@ -53,84 +53,84 @@ In AEM Forms workspace:
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="213"><p>allcategoryModel</p> </td> 
-   <td valign="top" width="213"><p>processinstanceModel</p> </td> 
-   <td valign="top" width="213"><p>tasklistModel</p> </td> 
+   <td><p>allcategoryModel</p> </td> 
+   <td><p>processinstanceModel</p> </td> 
+   <td><p>tasklistModel</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>appnavigationModel</p> </td> 
-   <td valign="top" width="213"><p>processInstanceView</p> </td> 
-   <td valign="top" width="213"><p>tasklistView</p> </td> 
+   <td><p>appnavigationModel</p> </td> 
+   <td><p>processInstanceView</p> </td> 
+   <td><p>tasklistView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>appnavigationView</p> </td> 
-   <td valign="top" width="213"><p>processnamelistModel</p> </td> 
-   <td valign="top" width="213"><p>taskModel</p> </td> 
+   <td><p>appnavigationView</p> </td> 
+   <td><p>processnamelistModel</p> </td> 
+   <td><p>taskModel</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>categorylistModel</p> </td> 
-   <td valign="top" width="213"><p>processnamelistView</p> </td> 
-   <td valign="top" width="213"><p>taskView</p> </td> 
+   <td><p>categorylistModel</p> </td> 
+   <td><p>processnamelistView</p> </td> 
+   <td><p>taskView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>categorylistView</p> </td> 
-   <td valign="top" width="213"><p>processnameModel</p> </td> 
-   <td valign="top" width="213"><p>teamqueuesView</p> </td> 
+   <td><p>categorylistView</p> </td> 
+   <td><p>processnameModel</p> </td> 
+   <td><p>teamqueuesView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>categoryModel</p> </td> 
-   <td valign="top" width="213"><p>processnameView</p> </td> 
-   <td valign="top" width="213"><p>todoView</p> </td> 
+   <td><p>categoryModel</p> </td> 
+   <td><p>processnameView</p> </td> 
+   <td><p>todoView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>categoryView</p> </td> 
-   <td valign="top" width="213"><p>searchtemplatedetailsView</p> </td> 
-   <td valign="top" width="213"><p>trackingView</p> </td> 
+   <td><p>categoryView</p> </td> 
+   <td><p>searchtemplatedetailsView</p> </td> 
+   <td><p>trackingView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>favoritecategoryModel</p> </td> 
-   <td valign="top" width="213"><p>sharequeueModel</p> </td> 
-   <td valign="top" width="213"><p>uisettingsModel</p> </td> 
+   <td><p>favoritecategoryModel</p> </td> 
+   <td><p>sharequeueModel</p> </td> 
+   <td><p>uisettingsModel</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>filterlistView</p> </td> 
-   <td valign="top" width="213"><p>sharequeueView</p> </td> 
-   <td valign="top" width="213"><p>uisettingsView</p> </td> 
+   <td><p>filterlistView</p> </td> 
+   <td><p>sharequeueView</p> </td> 
+   <td><p>uisettingsView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>filterView</p> </td> 
-   <td valign="top" width="213"><p>startpointlistModel</p> </td> 
-   <td valign="top" width="213"><p>userinfoModel</p> </td> 
+   <td><p>filterView</p> </td> 
+   <td><p>startpointlistModel</p> </td> 
+   <td><p>userinfoModel</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>outofofficeModel</p> </td> 
-   <td valign="top" width="213"><p>startpointlistView</p> </td> 
-   <td valign="top" width="213"><p>userinfoView</p> </td> 
+   <td><p>outofofficeModel</p> </td> 
+   <td><p>startpointlistView</p> </td> 
+   <td><p>userinfoView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>outofofficeView</p> </td> 
-   <td valign="top" width="213"><p>startpointModel</p> </td> 
-   <td valign="top" width="213"><p>usersearchModel</p> </td> 
+   <td><p>outofofficeView</p> </td> 
+   <td><p>startpointModel</p> </td> 
+   <td><p>usersearchModel</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>preferencesView</p> </td> 
-   <td valign="top" width="213"><p>startpointView</p> </td> 
-   <td valign="top" width="213"><p>usersearchView</p> </td> 
+   <td><p>preferencesView</p> </td> 
+   <td><p>startpointView</p> </td> 
+   <td><p>usersearchView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>processinstancehistoryView</p> </td> 
-   <td valign="top" width="213"><p>startProcessView</p> </td> 
-   <td valign="top" width="213"><p>wserrorModel</p> </td> 
+   <td><p>processinstancehistoryView</p> </td> 
+   <td><p>startProcessView</p> </td> 
+   <td><p>wserrorModel</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>processinstancelistModel</p> </td> 
-   <td valign="top" width="213"><p>startprocessView</p> </td> 
-   <td valign="top" width="213"><p>wserrorView</p> </td> 
+   <td><p>processinstancelistModel</p> </td> 
+   <td><p>startprocessView</p> </td> 
+   <td><p>wserrorView</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="213"><p>processinstancelistView</p> </td> 
-   <td valign="top" width="213"><p>taskdetailsView</p> </td> 
-   <td valign="top" width="213"><p>wsmessageView</p> </td> 
+   <td><p>processinstancelistView</p> </td> 
+   <td><p>taskdetailsView</p> </td> 
+   <td><p>wsmessageView</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -189,4 +189,4 @@ Scripts and styles can be debugged in different browsers.
 
    When designing forms, when you use Process Properties, it adds a Submit button inside the form. When rendered as a PDF in AEM Forms workspace, the Submit button is not visible to the end user. However, when rendering as an HTML form in AEM Forms workspace, the Submit button is visible to the end user. Clicking on this Submit button inside the form does not initiate any action. Clicking on the Submit button at the bottom of the AEM Forms workspace, outside the form, completes the task.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

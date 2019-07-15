@@ -11,18 +11,18 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: bd648c38-731b-420e-973d-a4728b69868e
 ---
 
-# General AEM Forms settings{#general-aem-forms-settings}
+# General AEM Forms settings {#general-aem-forms-settings}
 
 The Core Configurations page in administration console provides settings that can help improve system performance. After configuring or updating these settings, restart your application server.
 
-For information about enabling safe backup mode, see [Enabling and disabling safe backup mode](../../../forms/using/admin-help/enabling-disabling-safe-backup-mode.md#enabling-and-disabling-safe-backup-mode).
+For information about enabling safe backup mode, see [Enabling and disabling safe backup mode](/help/forms/using/admin-help/enabling-disabling-safe-backup-mode.md#enabling-and-disabling-safe-backup-mode).
 
 >[!NOTE]
 >
 >The files in the temp directory and the long-lived documents in the global document storage (GDS) root directory may contain sensitive user information, such as information that requires special credentials when accessed by using the APIs or user interfaces. Therefore, it is important that this directory is properly secured by using whatever methods are available to the operating system. It is recommended that only the operating system account that is used to run the application server has read and write access to this directory.
 
-1. In administration console, click Settings &gt; Core System Settings &gt; Configurations.
-1. On the Core Configurations page, change the options as required and click OK. For details about the options, see [Core Configurations options](configure-general-aem-forms-settings.md#core-configurations-options).
+1. In administration console, click **[!UICONTROL Settings &gt; Core System Settings &gt; Configurations]**.
+1. On the Core Configurations page, change the options as required and click **[!UICONTROL OK]**. For details about the options, see [Core Configurations options](configure-general-aem-forms-settings.md#core-configurations-options).
 
 ## Core Configurations options {#core-configurations-options}
 
@@ -42,9 +42,9 @@ For information about enabling safe backup mode, see [Enabling and disabling saf
 
 If you do not specify a GDS root directory, the directory defaults to an application server directory:
 
-* *[JBOSS_HOME]*/server/<server>/svcnative/DocumentStorage
-* *[WEBSPHERE_HOME]*/installedApps/adobe/*[server]*/DocumentStorage
-* *[WEBLOGIC_HOME]*/user_projects/<domain>/*[server]*/adobe/AEMformsserver/DocumentStorage
+* `*[JBOSS_HOME]*/server/<server>/svcnative/DocumentStorage`
+* `*[WEBSPHERE_HOME]*/installedApps/adobe/*[server]*/DocumentStorage`
+* `*[WEBLOGIC_HOME]*/user_projects/<domain>/*[server]*/adobe/AEMformsserver/DocumentStorage`
 
 ***Note**: Changing the value of the GDS root directory setting should be done with special care. The GDS directory is used to store both long-lived files used within a process as well as critical AEM forms product components. Changing the location of the GDS directory is a major system change. Incorrectly configuring the location of the GDS directory will render AEM forms inoperative and may require a complete reinstallation of AEM forms. If you specify a new location for the GDS directory, the application server needs to be shut down and the data migrated before the server can be restarted. The system administrator must move all files from the old location to the new location but keep the internal directory structure.*
 
@@ -58,7 +58,7 @@ For additional information about the GDS directory, see [Preparing to Install AE
 
 ***note**: Fonts are picked from the Windows system font cache and a system restart is required to update the cache. After specifying the Customer font directory, ensure that you restart the system on which AEM forms is installed.*
 
-**Location of the System Fonts directory** Type the path to the fonts directory that your operating system provided. Multiple directories can be added, separated by a semicolon (;).
+**Location of the System Fonts directory** Type the path to the fonts directory that your operating system provided. Multiple directories can be added, separated by a semicolon **;**.
 
 **Location of Data Services Configuration file** Specifies the location of the services-config.xml file. By default, this file is embedded in the adobe-core-appserver.ear file and is not user-accessible. A copy of the default services-config.xml file is located in [aem-forms root]\sdk\misc\DataServices\Server-Configuration. If you changed this file and moved it, type the new location in this field.
 

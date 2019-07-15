@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 99da0d37-726e-42b9-b98a-5dd6c2165af6
 ---
 
-# Getting XDP and PDF documents in AEM Forms{#getting-xdp-and-pdf-documents-in-aem-forms}
+# Getting XDP and PDF documents in AEM Forms {#getting-xdp-and-pdf-documents-in-aem-forms}
 
 ## Overview {#overview}
 
@@ -60,7 +60,7 @@ AEM Forms server allows you to run JavaScript code. A malicious JavaScript code 
 
 The protected mode is on, by default. If necessary, you can disable the protected mode:
 
-1. Log in to AEM Web Console as an administrator. The URL is https://[server]:[port]/system/console/configMgr
+1. Log in to AEM Web Console as an administrator. The URL is `https://[server]:[port]/system/console/configMgr`
 1. Open Mobile Forms Configurations for editing.
 1. Deselect the Protected Mode option and click **Save**. The protected mode is disabled.
 
@@ -68,11 +68,12 @@ The protected mode is on, by default. If necessary, you can disable the protecte
 
 In AEM Forms, an XFA form template can be referred by an adaptive form or another XFA form template. Also, a template can refer to a resource or another XFA template.
 
-An adaptive form referring to an XFA have its fields bound with the fields available in the XFA. On updating a form template, the associated adaptive form attempts to synchronize with the XFA. For more details, see [Synchronizing adaptive forms with the associated XFA](../../forms/using/synchronizing-adaptive-forms-xfa.md).
+An adaptive form referring to an XFA have its fields bound with the fields available in the XFA. On updating a form template, the associated adaptive form attempts to synchronize with the XFA. For more details, see [Synchronizing adaptive forms with the associated XFA](/help/forms/using/synchronizing-adaptive-forms-xfa.md).
 
 Removing a form template corrupts the dependent adaptive form or form template. Such an adaptive form is sometimes informally referred to as a dirty form. In AEM Forms user interface, you can find the dirty forms in the following two ways.
 
-* A warning icon is displayed on the adaptive form thumbnail in asset listing and the following message is displayed when you hover the pointer over the warning icon.  
+* A warning icon is displayed on the adaptive form thumbnail in asset listing and the following message is displayed when you hover the pointer over the warning icon.
+
   `Schema/Form Template for this adaptive form has been updated so please go to Authoring mode and rebase it with new version.`
 
 ![Warning for an out of sync adaptive form after updating the associated XFA](assets/dirtyaf.png)

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c332985b-4556-4056-961a-fce2356da88d
 ---
 
-# Strategy for backup and restore in a clustered environment{#strategy-for-backup-and-restore-in-a-clustered-environment}
+# Strategy for backup and restore in a clustered environment {#strategy-for-backup-and-restore-in-a-clustered-environment}
 
 >[!NOTE]
 >
@@ -38,8 +38,8 @@ This topic discusses the following strategies to back up any AEM forms clustered
 
 ### Offline backup with downtime {#offline-backup-with-downtime}
 
-1. Shut down the entire cluster and related services. (see [Starting and stopping services](../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services))
-1. On any node, back up the database, GDS, and Connectors. (see [Files to back up and recover](../../../forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover))
+1. Shut down the entire cluster and related services. (see [Starting and stopping services](/help/forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services))
+1. On any node, back up the database, GDS, and Connectors. (see [Files to back up and recover](/help/forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover))
 1. Perform the following steps to back up AEM repository offline:
 
     1. For each cluster node, back up the file that contains the cluster node id. 
@@ -53,12 +53,12 @@ This topic discusses the following strategies to back up any AEM forms clustered
 
 ### Offline backup with no downtime {#offline-backup-with-no-downtime}
 
-1. Enter the rolling backup mode. (see [Entering the backup modes](../../../forms/using/admin-help/backing-aem-forms-data.md#entering-the-backup-modes))
+1. Enter the rolling backup mode. (see [Entering the backup modes](/help/forms/using/admin-help/backing-aem-forms-data.md#entering-the-backup-modes))
 
    Note that we need to leave the rolling backup mode after a recovery.
 
-1. Shut down any of the slave nodes of the cluster with respect to AEM. (see [Starting and stopping services](../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services))
-1. On any node, back up the database, GDS, and Connectors. (see [Files to back up and recover](../../../forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover)) 
+1. Shut down any of the slave nodes of the cluster with respect to AEM. (see [Starting and stopping services](/help/forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services))
+1. On any node, back up the database, GDS, and Connectors. (see [Files to back up and recover](/help/forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover)) 
 1. Perform the following steps to back up AEM repository offline:
 
     1. For each cluster node, back up the file that contains the cluster node id. 
@@ -72,12 +72,12 @@ This topic discusses the following strategies to back up any AEM forms clustered
 
 ### Online Backup with no downtime but delay in response {#online-backup-with-no-downtime-but-delay-in-response}
 
-1. Enter the rolling backup mode. (see [Entering the backup modes](../../../forms/using/admin-help/backing-aem-forms-data.md#entering-the-backup-modes))
+1. Enter the rolling backup mode. (see [Entering the backup modes](/help/forms/using/admin-help/backing-aem-forms-data.md#entering-the-backup-modes))
 
    Note that you need to leave the rolling backup mode after a recovery.
 
-1. Shut down any of the slave nodes of the cluster with respect to AEM. (see [Starting and stopping services](../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services))
-1. On any node, back up the database, GDS, and Connectors. (see [Files to back up and recover](../../../forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover)) 
+1. Shut down any of the slave nodes of the cluster with respect to AEM. (see [Starting and stopping services](/help/forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services))
+1. On any node, back up the database, GDS, and Connectors. (see [Files to back up and recover](/help/forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover)) 
 1. Perform the following steps to back up AEM repository online:
 
     1. For each cluster node, back up the file that contains the cluster_node.id. 
@@ -128,7 +128,7 @@ In case the entire cluster fails due to failures like database crash, you need t
     1. Delete the file clusterNode/revision.log on the node.
     1. Delete the .lock on the node, if exists.
     1. Delete the repository/system.id on the node, if exists.
-    1. Delete the files &#42;&#42;/listener.properties on the node, if exist.
+    1. Delete the files &ast;&ast;/listener.properties on the node, if exist.
     1. Restore repository/cluster_node.id for individual cluster nodes.
 
 >[!NOTE]
@@ -158,7 +158,7 @@ In case the entire cluster fails due to failures like database crash, you need t
     1. Delete the file clusterNode/revision.log on all cluster nodes.
     1. Delete the .lock on all cluster nodes, if exists.
     1. Delete the repository/system.id all cluster nodes, if exists.
-    1. Delete the files &#42;&#42;/listener.properties on all cluster nodes, if exist.
+    1. Delete the files &ast;&ast;/listener.properties on all cluster nodes, if exist.
     1. Restore repository/cluster_node.id for individual cluster nodes.
 
 >[!NOTE]

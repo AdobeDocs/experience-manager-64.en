@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: c142d7b3-301b-447c-a715-452c905565d1
 ---
 
-# Generate HTML5 preview of an XDP form{#generate-html-preview-of-an-xdp-form}
+# Generate HTML5 preview of an XDP form {#generate-html-preview-of-an-xdp-form}
 
 While designing a form in AEM Forms Designer, besides previewing the PDF rendition of a form, you can also preview an HTML5 rendition of it. You can use the **Preview HTML** tab to preview a form as it would appear in a browser.
 
@@ -23,8 +23,10 @@ To enable Designer to generate HTML preview of XDP forms, perform the following 
 
 ### Configure Apache Sling Authentication Service {#configure-apache-sling-authentication-service}
 
-1. Go to https://[*server*]:[*port*]/system/console/configMgr on AEM Forms running on OSGi or   
+1. Go to https://[*server*]:[*port*]/system/console/configMgr on AEM Forms running on OSGi or  
+
    https://[*server*]:[*port*]/lc/system/console/configMgr on AEM Forms running on JEE.
+
 1. Locate and click **Apache Sling Authentication Service** configuration to open it in edit mode.  
 
 1. Depending on whether you are running AEM Forms on OSGi or JEE, add the following in the **Authentication Requirements** field:
@@ -48,11 +50,11 @@ To enable Designer to generate HTML preview of XDP forms, perform the following 
 
 ### Disable protected mode {#disable-protected-mode}
 
-The [protected mode](../../forms/using/get-xdp-pdf-documents-aem.md) is on, by default. Keep it enabled for the production environments. You can disable it for a development environment to preview HTML5 Forms in desinger. Perform the following steps to disable it:
+The [protected mode](/help/forms/using/get-xdp-pdf-documents-aem.md) is on, by default. Keep it enabled for the production environments. You can disable it for a development environment to preview HTML5 Forms in desinger. Perform the following steps to disable it:
 
 1. Log in to AEM Web Console as an administrator.
 
-    * URL for AEM Forms on OSGi is https://[server]:[port]/system/console/configMgr  
+    * URL for AEM Forms on OSGi is https://[server]:[port]/system/console/configMgr 
     * URL for AEM Forms on JEE is https://[*server*]:[*port*]/lc/system/console/configMgr
 
 1. Open **[!UICONTROL Mobile Forms Configurations]** for editing.
@@ -60,16 +62,14 @@ The [protected mode](../../forms/using/get-xdp-pdf-documents-aem.md) is on, by d
 
 ### Provide details of AEM Forms server {#provide-details-of-aem-forms-server}
 
-1. In Designer, go to **Tools **&gt; **Options**.
+1. In Designer, go to **Tools** &gt;  **Options**.
 1. In the Options window, select **Server Options** page, provide the following details, and click **OK**.
 
-    * **Server URL**: AEM Forms server URL.  
-    
+    * **Server URL**: AEM Forms server URL.
     * **HTTP port number**: AEM server port. The default value is 4502.
     * **HTML Preview Context:** Path of the profile for rendering XFA forms. The following default profiles are used to preview the form in Designer. However, you can also specify path to a custom profile.
 
-        * `/content/xfaforms/profiles/default.html` (AEM Forms on OSGi)  
-        
+        * `/content/xfaforms/profiles/default.html` (AEM Forms on OSGi)
         * `/lc/content/xfaforms/profiles/default.html` (AEM Forms on JEE)
 
     * **Forms Manager Context:** Context path at which Forms Manager UI is deployed. The default values are:

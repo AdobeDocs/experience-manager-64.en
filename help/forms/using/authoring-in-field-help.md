@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 893a72c7-d68f-464f-9765-ec2272189e58
 ---
 
-# Authoring in-context help for form fields{#authoring-in-context-help-for-form-fields}
+# Authoring in-context help for form fields {#authoring-in-context-help-for-form-fields}
 
 ## Introduction {#introduction}
 
@@ -21,8 +21,8 @@ This article discusses how form authors can add in-context help while authoring 
 
 You can specify in-context help using the following options in the Help Content section of the properties tab in the sidebar.
 
-* [Short description](../../forms/using/authoring-in-field-help.md#p-short-description-p)
-* [Long description](../../forms/using/authoring-in-field-help.md#p-long-description-p)
+* [Short description](/help/forms/using/authoring-in-field-help.md#p-short-description-p)
+* [Long description](/help/forms/using/authoring-in-field-help.md#p-long-description-p)
 
 ![In-context help for form fields](assets/descriptions.png)
 

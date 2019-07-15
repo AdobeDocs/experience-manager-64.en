@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e87c7379-28ed-4fda-aef1-970d2b54f30d
 ---
 
-# Basics of configuring forms{#basics-of-configuring-forms}
+# Basics of configuring forms {#basics-of-configuring-forms}
 
 The Forms service enables you to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors develop a single form design that the Forms service renders in various formats:
 
@@ -23,4 +23,4 @@ For additional information about the Forms service, see [Services Reference](htt
 
 Using the Forms page in administration console, you can configure the behavior of the Forms service. These settings apply to all invocations of the service. Any parameters sent through the AEM forms SDK override the settings set in administration console; however, they affect only that particular invocation.
 
-After you change the Forms settings in administration console, click Save. You do not need to restart the server for the changes to take effect. However, you may need to stop and restart the Forms service when configuring cache mode settings. (See [Starting and stopping services](../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services).)
+After you change the Forms settings in administration console, click Save. You do not need to restart the server for the changes to take effect. However, you may need to stop and restart the Forms service when configuring cache mode settings. (See [Starting and stopping services](/help/forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services).)

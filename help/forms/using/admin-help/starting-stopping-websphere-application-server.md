@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: bcd16691-67ab-4694-9e6b-c9d3e0c7bf0b
 ---
 
-# Starting and stopping WebSphere Application Server{#starting-and-stopping-websphere-application-server}
+# Starting and stopping WebSphere Application Server {#starting-and-stopping-websphere-application-server}
 
 Several procedures require you to stop or start the instance of WebSphere where you want to deploy AEM forms products. If you are unsure whether the application server has started, you can first view the status of WebSphere Application Server.
 

@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 110c86ea-9bd8-4018-bfcc-ca33e6b3f3ba
 ---
 
-# Prepare and send Interactive Communication using the Agent UI{#prepare-and-send-interactive-communication-using-the-agent-ui}
+# Prepare and send Interactive Communication using the Agent UI {#prepare-and-send-interactive-communication-using-the-agent-ui}
 
 The Agent UI allows the agents to prepare and send Interactive Communication to the post process. The Agent makes the required modifications as allowed, and submits the Interactive Communication to a post process, such as email or print.
 
@@ -32,17 +32,17 @@ While preparing the Interactive Communication using the Agent UI, the agent mana
    >
    >Agent UI works only if the selected Interactive Communication has a print channel.
 
-   ![](assets/openagentiui.png)
+   ![openagentiui](assets/openagentiui.png)
 
    Based on the Interactive Communication's content and properties, the agent UI appears with the following three tabs: Data, Content, and Attachment. 
 
-   ![](assets/agentuitabs.png)
+   ![agentuitabs](assets/agentuitabs.png)
 
    Proceed to entering data, managing the content, and managing the attachments.
 
 ### Enter Data {#enter-data}
 
-1. In the Data tab, enter the data for variables, form data model properties, and print template (XDP) fields, as required. Fill up all the mandatory fields marked with an asterisk (&#42;) to enable the **Submit** button.
+1. In the Data tab, enter the data for variables, form data model properties, and print template (XDP) fields, as required. Fill up all the mandatory fields marked with an asterisk (&ast;) to enable the **Submit** button.
 
    Tap a data field value in the Interactive Communication preview to highlight the corresponding data field in the Data tab or vice versa.
 
@@ -52,34 +52,33 @@ In the Content tab, manage the content such as document fragments and content va
 
 1. Select **[!UICONTROL Content]**. The content tab of the Interactive Communication appears.
 
-   ![](assets/agentuicontenttab.png)
+   ![agentuicontenttab](assets/agentuicontenttab.png)
 
 1. Edit the document fragments, as required, in the Content tab. To bring focus to the relevant fragment in the content hierarchy, you can either tap the relevant line or paragraph in the Interactive Communication preview or tap the fragment directly in the Content hierarchy.
 
    For example, the document fragment with the line "Make a payment online now ... " is selected in the preview in the below graphic and the same document fragment has got selected in the Content tab. 
 
-   ![](assets/contentmodulefocus.png)
+   ![contentmodulefocus](assets/contentmodulefocus.png)
 
-   In the Content or Data tab, by tapping Highlight Selected Modules In Content ( ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/HighlightSelectedModulesinContentCCR.png)) on upper left of the preview, you can disable or enable functionality to go to the document fragment when the relevant text, paragraph, or data field is tapped/selected in the preview.
+   In the Content or Data tab, by tapping Highlight Selected Modules In Content ( ![highlightselectedmodulesincontentccr](assets/highlightselectedmodulesincontentccr.png)) on upper left of the preview, you can disable or enable functionality to go to the document fragment when the relevant text, paragraph, or data field is tapped/selected in the preview.
 
-   The fragments that are allowed to be edited by the agent while creating the Interactive Communication have the Edit Selected Content ( ![](assets/iconeditselectedcontent.png)) icon. Tap the Edit Selected Content icon to launch the fragment in edit mode and make changes in it. Use the following options for formatting and managing text:
+   The fragments that are allowed to be edited by the agent while creating the Interactive Communication have the Edit Selected Content ( ![iconeditselectedcontent](assets/iconeditselectedcontent.png)) icon. Tap the Edit Selected Content icon to launch the fragment in edit mode and make changes in it. Use the following options for formatting and managing text:
 
     * [Formatting options](#formattingtext)
 
-        * [Copy paste formatted text from other applications](#pasteformattedtext)  
-        
+        * [Copy paste formatted text from other applications](#pasteformattedtext)
         * [Highlight parts of text](#highlightemphasize)
 
     * [Special characters](#specialcharacters)
-    * [Keyboard shortcuts](../../forms/using/keyboard-shortcuts.md)
+    * [Keyboard shortcuts](/help/forms/using/keyboard-shortcuts.md)
 
    For more information on the actions available for various document fragments in the Agent user interface, see [Actions and info available in the Agent user interface](#actionsagentui).
 
-1. To add a page break to the print output of the Interactive Communication, place the cursor where you want to insert a page break and select Page Break Before or Page Break After ( ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/PageBreakBeforeAfter.png)).
+1. To add a page break to the print output of the Interactive Communication, place the cursor where you want to insert a page break and select Page Break Before or Page Break After ( ![pagebreakbeforeafter](assets/pagebreakbeforeafter.png)).
 
    An explicit page break placeholder gets inserted in the Interactive Communication. To view how an explicit page break affects the Interactive Communication, see the print preview. 
 
-   ![](assets/explicitpagebreak.png)
+   ![explicitpagebreak](assets/explicitpagebreak.png)
 
    Proceed to managing the attachments of the Interactive Communication.
 
@@ -89,9 +88,9 @@ In the Content tab, manage the content such as document fragments and content va
 
    You can choose not to submit an attachment along with the Interactive Communication by tapping the view icon and you can tap the cross in the attachment to delete it (if the agent is allowed to delete or hide the attachment) from the Interactive Communication. For the attachments specified as mandatory while creating the Interactive Communication, the View and Delete icons are disabled. 
 
-   ![](assets/attachmentsagentui.png)
+   ![attachmentsagentui](assets/attachmentsagentui.png)
 
-1. Tap the Library Access ( ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/LibraryAccess.png)) icon to access Content Library to insert DAM assets as attachments.
+1. Tap the Library Access ( ![libraryaccess](assets/libraryaccess.png)) icon to access Content Library to insert DAM assets as attachments.
 
    >[!NOTE]
    >
@@ -106,7 +105,7 @@ In the Content tab, manage the content such as document fragments and content va
 
 While editing a text fragment in the agent UI, the toolbar changes depending on the type of edits you choose to make: Font, Paragraph, or List:
 
-![](assets/typeofformattingtoolbar.png) ![Font toolbar](do-not-localize/fonttoolbar.png)
+![typeofformattingtoolbar](assets/typeofformattingtoolbar.png) ![Font toolbar](do-not-localize/fonttoolbar.png)
 
 Font toolbar
 
@@ -122,15 +121,15 @@ List toolbar
 
 To highlight\emphasize parts of text in an editable fragment, select the text and tap Highlight Color.
 
-![](assets/highlighttextagentui.png) 
+![highlighttextagentui](assets/highlighttextagentui.png) 
 
 ### Paste formatted text {#pasteformattedtext}
 
-![](assets/pastedtext.png) 
+![pastedtext](assets/pastedtext.png) 
 
-### Insert special characters in text {##specialcharacters}
+### Insert special characters in text {#specialcharacters}
 
-The Agent UI has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](../../forms/using/custom-special-characters.md).
+The Agent UI has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md).
 
 #### Attachment delivery {#attachmentdelivery}
 
@@ -150,7 +149,7 @@ The Agent UI has built in support for 210 special characters. The admin can [add
 * **Indent**: Increase or decrease indent of a document fragment. 
 * **Page Break After **(applicable for child fragments of target area): Inserts page break after the document fragment.
 
-![](assets/docfragoptions.png)
+![docfragoptions](assets/docfragoptions.png)
 
 * Edit (text fragments only): Open rich text editor for editing the text document fragment. For more information, see [Formatting text](#formattingtext).  
 
@@ -159,7 +158,7 @@ The Agent UI has built in support for 210 special characters. The admin can [add
 
 ### List document fragments {#list-document-fragments}
 
-![](assets/listoptions.png)
+![listoptions](assets/listoptions.png)
 
 * Insert Blank Line: Inserts new blank line.
 * Selection (eye icon): Includes\excludes document fragment from the Interactive Communication.  

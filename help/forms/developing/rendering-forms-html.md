@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 669ede46-ea55-444b-a23f-23a86e5aff8e
 ---
 
-# Rendering Forms as HTML{#rendering-forms-as-html}
+# Rendering Forms as HTML {#rendering-forms-as-html}
 
 The Forms service renders forms as HTML in response to an HTTP request from a web browser. A benefit of rendering a form as HTML is that the computer on which the client web browser is located does not require Adobe Reader, Acrobat, or Flash Player (for form Guides (deprecated)).
 
@@ -171,7 +171,7 @@ You cannot sign an HTML form that contains a digital signature field if the form
 * StaticHTML
 * NoScriptXHTML
 
-For information about digitally signing a document, see [Digitally Signing and Certifying Documents](/help/forms/developing/digitally-signing-certifying-documents-digitally digitally-signing-certifying-documents-digitally.md#digitally-signing-and-certifying-documents).
+For information about digitally signing a document, see [Digitally Signing and Certifying Documents](/help/forms/developing/digitally-signing-certifying-documents.md)
 
 ## Rendering an accessibility guidelines-compliant XHTML form {#rendering-an-accessibility-guidelines-compliant-xhtml-form}
 
@@ -237,9 +237,9 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 **See also**
 
-[Render a form as HTML using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#render-a-form-as-html-using-the-java-api)
+[Render a form as HTML using the Java API](#render-a-form-as-html-using-the-java-api)
 
-[Render a form as HTML using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#render-a-form-as-html-using-the-web-service-api)
+[Render a form as HTML using the web service API](#render-a-form-as-html-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -247,11 +247,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-interactive-pdf-forms.md)
 
-[Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering-html-forms-with-custom-toolbars)
+[Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-html-forms-custom-toolbars.md)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
 ## Render a form as HTML using the Java API {#render-a-form-as-html-using-the-java-api}
 
@@ -303,7 +303,7 @@ Render an HTML form by using the Forms API (Java):
 
 **See also**
 
-[Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html)
+[Rendering Forms as HTML](#rendering-forms-as-html)
 
 [Quick Start (SOAP mode): Rendering an HTML form using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-rendering-an-html-form-using-the-java-api)
 
@@ -367,7 +367,7 @@ Render an HTML form by using the Forms API (web service):
 
 **See also**
 
-[Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html)
+[Rendering Forms as HTML](#rendering-forms-as-html)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 

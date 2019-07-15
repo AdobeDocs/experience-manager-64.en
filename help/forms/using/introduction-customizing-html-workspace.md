@@ -11,13 +11,11 @@ topic-tags: forms-workspace
 discoiquuid: 80a70f5c-dcc4-425f-9971-9e0feec094d6
 ---
 
-# Introduction to Customizing AEM form workspace{#introduction-to-customizing-aem-form-workspace}
+# Introduction to Customizing AEM form workspace {#introduction-to-customizing-aem-form-workspace}
 
 AEM form workspace provides capabilities to modify the presentation semantics and functionality of its interface. The types of customizations to change the style, layout, formatting, branding, and core functionality are described below.
 
-![](assets/cu_customized_workspace_example.png)
-
-An example of a customized workspace
+![cu_customized_workspace_example](assets/cu_customized_workspace_example.png)
 
 ## Types of customizations {#types-of-customizations}
 
@@ -31,7 +29,7 @@ AEM Forms workspace supports a wide variety of customizations to update the layo
 
 You can change the appearance, layout, and other presentation semantics of AEM Forms workspace. Change workspace by customizing the CSS, HTML templates, and JavaScript™ files. All the default files are provided in the default installation.
 
-The most commonly applicable steps are covered in [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md). For specific examples of such customizations, including the detailed steps, see the related articles at the end of this article.
+The most commonly applicable steps are covered in [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md). For specific examples of such customizations, including the detailed steps, see the related articles at the end of this article.
 
 #### Understanding the style sheet {#understanding-the-style-sheet}
 
@@ -42,72 +40,72 @@ To customize the workspace, it is recommended that you make yourself familiar wi
 <table> 
  <tbody> 
   <tr> 
-   <th class="cellrowborder" valign="top" width="NaN%"><p>CSS element</p> </th> 
-   <th class="cellrowborder" valign="top" width="NaN%"><p>User interface component modified</p> </th> 
+   <th><p>CSS element</p> </th> 
+   <th><p>User interface component modified</p> </th> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>#header</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Header of the AEM Forms workspace</p> </td> 
+   <td><p>#header</p> </td> 
+   <td><p>Header of the AEM Forms workspace</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.categoryList</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Category list</p> </td> 
+   <td><p>.categoryList</p> </td> 
+   <td><p>Category list</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.categoryList .header</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Header of category list</p> </td> 
+   <td><p>.categoryList .header</p> </td> 
+   <td><p>Header of category list</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.categories, .filters</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Space below category list</p> </td> 
+   <td><p>.categories, .filters</p> </td> 
+   <td><p>Space below category list</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.category, .filter</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Category</p> </td> 
+   <td><p>.category, .filter</p> </td> 
+   <td><p>Category</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.category:hover, .category.selected, .filter:hover, .filter.selected</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Selected category and mouse over style of category</p> </td> 
+   <td><p>.category:hover, .category.selected, .filter:hover, .filter.selected</p> </td> 
+   <td><p>Selected category and mouse over style of category</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>categoryListBar .tool, categoryListBar .content</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Start process page (closed Category list)</p> </td> 
+   <td><p>categoryListBar .tool, categoryListBar .content</p> </td> 
+   <td><p>Start process page (closed Category list)</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>filterListBar .tool, filterListBar .content</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>To Do page (closed Filter list)</p> </td> 
+   <td><p>filterListBar .tool, filterListBar .content</p> </td> 
+   <td><p>To Do page (closed Filter list)</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>processNameListBar .tool, processNameListBar .content</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Tracking page (closed Process name list)</p> </td> 
+   <td><p>processNameListBar .tool, processNameListBar .content</p> </td> 
+   <td><p>Tracking page (closed Process name list)</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.startPointList, .tasklist</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>The startpoint list or the task list</p> </td> 
+   <td><p>.startPointList, .tasklist</p> </td> 
+   <td><p>The startpoint list or the task list</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.startPointList .header, .tasklist .header</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>The header of a startpoint list or a task list</p> </td> 
+   <td><p>.startPointList .header, .tasklist .header</p> </td> 
+   <td><p>The header of a startpoint list or a task list</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.startpoint.selected, .task.selected</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>The selected startpoint or task</p> </td> 
+   <td><p>.startpoint.selected, .task.selected</p> </td> 
+   <td><p>The selected startpoint or task</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.startpoint.selected .description, .task.selected .description</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Description of the selected startpoint or task</p> </td> 
+   <td><p>.startpoint.selected .description, .task.selected .description</p> </td> 
+   <td><p>Description of the selected startpoint or task</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>#taskarea</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>The Task area</p> </td> 
+   <td><p>#taskarea</p> </td> 
+   <td><p>The Task area</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>#header .dropdown</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>User dropdown in header</p> </td> 
+   <td><p>#header .dropdown</p> </td> 
+   <td><p>User dropdown in header</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e178 " valign="top" width="NaN%"><p>.sortDrop dd ul</p> </td> 
-   <td class="cellrowborder" headers="d19e181 " valign="top" width="NaN%"><p>Sort task dropdown</p> </td> 
+   <td><p>.sortDrop dd ul</p> </td> 
+   <td><p>Sort task dropdown</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -122,11 +120,11 @@ The top-level steps for CSS customization are:
 * Add style items to this CSS. See Understanding CSS Styles for more information.
 * Update its references in `html.jsp`.
 
-For the exact steps to do these customizations, see [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md). The CSS file shipped with AEM Forms workspace is at /libs/ws/css/. For CSS-related customizations, use the [Ship Package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p). For specific examples of CSS-related customizations, see the related Help topics at the end of this article.
+For the exact steps to do these customizations, see [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md). The CSS file shipped with AEM Forms workspace is at /libs/ws/css/. For CSS-related customizations, use the [Ship Package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p). For specific examples of CSS-related customizations, see the related Help topics at the end of this article.
 
 #### Image {#image}
 
-You can customize the AEM Forms workspace to add avatars of users or to add the logo of your organization. For these customizations, use [Ship Package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p).
+You can customize the AEM Forms workspace to add avatars of users or to add the logo of your organization. For these customizations, use [Ship Package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p).
 
 The top-level steps for customizations to the images are:
 
@@ -135,7 +133,7 @@ The top-level steps for customizations to the images are:
 * Add new styles corresponding to the added images.
 * Link to the new CSS file in `html.jsp` file.
 
-To get started with customizing the images in AEM Forms workspace, follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md). For specific examples of image-related customizations, see the related Help topics at the end of this article.
+To get started with customizing the images in AEM Forms workspace, follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md). For specific examples of image-related customizations, see the related Help topics at the end of this article.
 
 #### HTML template {#html-template}
 
@@ -147,7 +145,7 @@ The top-level steps for customizations to the HTML template are:
 * Add new templates in user-defined folder.
 * Make relevant updates to the copied files like, the path of the new template.
 
-For specific examples of such customizations, see the Help topics provided at the end of this article. Choose between the [Ship Package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p) or the [Dev Package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p), depending on the template to be customized.
+For specific examples of such customizations, see the Help topics provided at the end of this article. Choose between the [Ship Package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p) or the [Dev Package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p), depending on the template to be customized.
 
 ### Semantic changes {#semantic-changes}
 
@@ -160,13 +158,13 @@ The top-level steps to do semantic changes to modify the functionality of AEM Fo
 * Make relevant updates like updating paths of newly added models and views in the default JavaScript files.
 * Minify the package to optimize the performance.
 
-For more conceptual information about the components that are part of the source code, see the [Description of reusable components](../../forms/using/description-reusable-components.md). For these customizations, use the Dev Package.
+For more conceptual information about the components that are part of the source code, see the [Description of reusable components](/help/forms/using/description-reusable-components.md). For these customizations, use the Dev Package.
 
 ### Reusable components {#reusable-components}
 
 As AEM Forms workspace is a component-based software, it can be easily customized and reused. You can easily integrate the workspace components with your web applications.
 
-For more conceptual information, see the [Description of reusable components](../../forms/using/description-reusable-components.md) and for instruction about using the components, see [Integrating AEM Forms workspace components in web applications](../../forms/using/description-reusable-components.md).
+For more conceptual information, see the [Description of reusable components](/help/forms/using/description-reusable-components.md) and for instruction about using the components, see [Integrating AEM Forms workspace components in web applications](/help/forms/using/description-reusable-components.md).
 
 ## Building AEM Forms workspace&nbsp;code {#building-html-workspace-code}
 
@@ -176,7 +174,7 @@ The package contains the source code of AEM Forms workspace. The package is avai
 
 It is primarily meant for customizations, as it provides the capability to generate:
 
-* CRX packages for Ship, Debug, and Dev profiles (mentioned below in [CRX packages](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p)).
+* CRX packages for Ship, Debug, and Dev profiles (mentioned below in [CRX packages](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p)).
 * Minified version of customized code (for semantic changes).
 
 #### WS content {#ws-content}
@@ -231,7 +229,7 @@ CRX package can be deployed on the CRX™ repository. It is available at `[*LC r
 
 This package can be built using the three profiles described below.
 
-| **Profile ** |**Description ** |**Usage ** |
+| **Profile**|**Description**|**Usage**|
 |---|---|---|
 | Ship profile |This profile creates a CRX package of the smallest possible size using minification. This package is the most efficient. All the JavaScript™ files are combined and minified into a single JS file. |Use this profile when no further semantic changes are required in JS files. |
 | Debug profile |This profile creates a moderately efficient CRX package. The size of the package is slightly more than the package created using Ship profile. This package has most of the JavaScript files combined into a single JS file. |Use this profile for debugging. |
@@ -376,4 +374,4 @@ mvn clean -P Dev install on client-pkg
 * content.xml
 * _rep_policy.xml
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

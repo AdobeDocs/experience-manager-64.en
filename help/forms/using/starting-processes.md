@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: c9d3f369-3744-41d5-b340-390ab7e03f36
 ---
 
-# Starting processes{#starting-processes}
+# Starting processes {#starting-processes}
 
 AEM Forms workspace organizes processes by the categories that the administrator or process designer sets up. You can also place processes that you use frequently into your Favorites category so that you can find them quickly.
 
@@ -73,7 +73,7 @@ You can add multiple notes, edit the written notes, and delete them. Each note h
 * Read/Delete
 * No Access
 
-1. Open a task and click the **Notes **tab, if the process allows it.
+1. Open a task and click the **Notes** tab, if the process allows it.
 1. Type a title for the note in the **Title** box, and type the text of the note in the **Note** box.
 1. Select the **Permissions** level for the note for other users who participate in the process.
 1. Click **OK**. A text file that contains your note is attached to the form. You can update a note by clicking it and directly modifying the text. You can delete a note by clicking the **Delete** button ![Image of a trash can](assets/icondelete.png) beside the note.
@@ -88,7 +88,7 @@ You can also add your comments about the attachment. You can set one of the foll
 * Read/Delete
 * No Access
 
-1. Click the **Attachments **tab and select **Attachment**.
+1. Click the **Attachments** tab and select **Attachment**.
 1. Click **Browse** to select the file to attach.
 1. Select the **Permissions** level for the attachment for other users who participate in the process. If you select **Read**, other users can save the file locally. If you select one of the edit permissions, other users can also upload a new file to replace your attachment.
 1. Click **OK**. The file is attached to the form. You can delete a file by clicking the **Delete** button ![Image of a trash can](assets/icondelete.png) beside the attachment.
@@ -99,7 +99,7 @@ If you must complete and submit a form later, you can save a draft copy of a for
 
 After you reopen and submit a draft form, the draft is removed from the Drafts category.
 
-Also, you can configure workspace to auto-save the information entered by a user as a draft. For more information, see [Managing Preferences](../../forms/using/getting-started-livecycle-html-workspace.md).
+Also, you can configure workspace to auto-save the information entered by a user as a draft. For more information, see [Managing Preferences](/help/forms/using/getting-started-livecycle-html-workspace.md).
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ Also, you can configure workspace to auto-save the information entered by a user
 
 ### Save a draft copy {#save-a-draft-copy}
 
-1. Click **Save **in the lower-left corner of any tab. The form is added to the Drafts category on your To-do page. All changes that you made to the form are saved.
+1. Click **Save** in the lower-left corner of any tab. The form is added to the Drafts category on your To-do page. All changes that you made to the form are saved.
 
 ### Reopen a draft copy {#reopen-a-draft-copy}
 
@@ -121,8 +121,8 @@ You can add any process to your Favorites category. By setting favorites, you ca
 
 >[!NOTE]
 >
->If you usually start processes when you use AEM Forms workspace, you can set the Start Location preference to automatically display the Favorites category when you start AEM Forms workspace. For more details, see Managing Preferences in [Getting started with AEM Forms workspace](../../forms/using/getting-started-livecycle-html-workspace.md).
+>If you usually start processes when you use AEM Forms workspace, you can set the Start Location preference to automatically display the Favorites category when you start AEM Forms workspace. For more details, see Managing Preferences in [Getting started with AEM Forms workspace](/help/forms/using/getting-started-livecycle-html-workspace.md).
 
 To mark a process as favorite, select the task in its category, and click the hollow star. The star turns golden. To unmark a process as a favorite, click the golden star again.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

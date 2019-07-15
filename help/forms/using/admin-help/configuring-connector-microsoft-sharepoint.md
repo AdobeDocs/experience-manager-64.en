@@ -11,14 +11,14 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0ec881c9-8dcc-4847-9edf-24d9e6c4a7ea
 ---
 
-# Configuring Connector for Microsoft SharePoint{#configuring-connector-for-microsoft-sharepoint}
+# Configuring Connector for Microsoft SharePoint {#configuring-connector-for-microsoft-sharepoint}
 
 Connector for Microsoft SharePoint enables communication between AEM forms and Microsoft SharePoint. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 1. In administration console, click Services &gt; Connector for Microsoft SharePoint.
 1. Specify the following settings for your SharePoint Server:
 
-   **SharePoint Server Host Name:** The host name port number of the web application on the SharePoint server, in the format [hostname]:[port].
+   **SharePoint Server Host Name:** The host name port number of the web application on the SharePoint server, in the format `[hostname]:[port]`.
 
    **User Name:** The user account used to connect to the SharePoint server.
 

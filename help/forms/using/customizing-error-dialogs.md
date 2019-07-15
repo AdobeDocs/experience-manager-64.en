@@ -10,9 +10,9 @@ topic-tags: forms-workspace
 discoiquuid: f547c0c1-3917-4092-9d63-c1b3aaefcef0
 ---
 
-# Customizing error dialogs{#customizing-error-dialogs}
+# Customizing error dialogs {#customizing-error-dialogs}
 
-AEM Forms workspace allows you to customize error dialogs. Perform the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md) followed by the steps below to customize error dialogs.
+AEM Forms workspace allows you to customize error dialogs. Perform the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md) followed by the steps below to customize error dialogs.
 
 ## Customizing Text {#customizing-text}
 
@@ -218,8 +218,7 @@ AEM Forms workspace allows you to customize error dialogs. Perform the [Generic 
 
 ## Examples {#examples}
 
-* **To customize the error dialog, change:  
-  **
+* **To customize the error dialog, change:**
 
 ```css
 
@@ -280,4 +279,4 @@ To
 }
 ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

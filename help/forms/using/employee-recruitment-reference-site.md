@@ -9,11 +9,11 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5f04b13e-ea40-4c86-9168-e020c52435a2
 ---
 
-# Employee recruitment reference site walkthrough{#employee-recruitment-reference-site-walkthrough}
+# Employee recruitment reference site walkthrough {#employee-recruitment-reference-site-walkthrough}
 
 ## Prerequisite {#prerequisite}
 
-Set up the reference sites as described in [Set up and configure AEM Forms reference sites](../../forms/using/setup-reference-sites.md).
+Set up the reference sites as described in [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).
 
 ## Overview {#overview}
 
@@ -45,13 +45,13 @@ These workflows are created in AEM and can be found at:
 
 Following is the model of the We Finance Employee Recruiting workflow followed in this document.
 
-![](assets/we-finance-employee-recruiting-workflow.png)
+![we-finance-employee-recruiting-workflow](assets/we-finance-employee-recruiting-workflow.png)
 
 #### We Finance Employee Recruiting Post Interview workflow {#we-finance-employee-recruiting-post-interview-workflow}
 
 Following is the model of the We Finance Employee Post Interview Recruiting workflow followed in this document.
 
-![](assets/we-finance-employee-recruiting-post-interview-workflow.png)
+![we-finance-employee-recruiting-post-interview-workflow](assets/we-finance-employee-recruiting-post-interview-workflow.png)
 
 ### Personas {#personas}
 
@@ -66,17 +66,17 @@ The scenario involves the following personas:
 
 Sarah Rose is looking for a job opportunity in the organization. She visits their web portal and explores the job openings listed on the Career page. She finds a matching job listing and applies for it.
 
-![](assets/home-page.png)
+![home-page](assets/home-page.png)
 
 We.Finance home page
 
-![](assets/career-page.png)
+![career-page](assets/career-page.png)
 
 We.Finance career page
 
 Sarah clicks Apply on a job posting. The job application form opens. She fills all the details in the application and submits it.
 
-![](assets/job-application-form.png)
+![job-application-form](assets/job-application-form.png)
 
 ### How it works {#how-it-works}
 
@@ -92,11 +92,11 @@ Ensure that you specify a valid email ID in the application as any communication
 
 The organization receives the job application submitted by Sarah. John Jacobs, a recruiter, is assigned the task to review Sarah's profile. He reviews the task in his AEM Inbox, finds the profile matching the job requirement, and clicks Shortlist. Sarah's profile is forwarded to Gloria Rios, the hiring manager, for her approval. 
 
-![](assets/jjacobs-inbox-1.png)
+![jjacobs-inbox-1](assets/jjacobs-inbox-1.png)
 
 John's AEM Inbox
 
-![](assets/candidate-shortlist.png)
+![candidate-shortlist](assets/candidate-shortlist.png)
 
 John Jacobs shortlists Sarah Rose's profile for the hiring manager's screening
 
@@ -112,11 +112,11 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/login.ht
 
 Gloria, the hiring manager, receives the shortlisted profile as a task in her AEM Inbox. She reviews it and approves the candidate, Sarah Rose, for the interview. 
 
-![](assets/gloriainbox.png)
+![gloriainbox](assets/gloriainbox.png)
 
 Gloria's AEM inbox
 
-![](assets/gloriaschedulesinterview.png)
+![gloriaschedulesinterview](assets/gloriaschedulesinterview.png)
 
 Gloria approves Sarah Rose for an interview
 
@@ -134,11 +134,11 @@ Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/login.ht
 
 John Doe receives the task of scheduling an interview in his inbox. John Doe selects and opens the task and fixes the interview date and time, location, and the HR person responsible for the interview as John Jacob. John Doe clicks Send Invitation Email. An email is sent to Sarah and a task is assigned to Gloria, the hiring manager, for interviewing Sarah. 
 
-![](assets/johnjacobsaeminbox.png)
+![johnjacobsaeminbox](assets/johnjacobsaeminbox.png)
 
 John Doe's AEM inbox
 
-![](assets/johndoescheduleinterview.png)
+![johndoescheduleinterview](assets/johndoescheduleinterview.png)
 
 John Doe schedules the interview and sends the details to Sarah Rose
 
@@ -146,7 +146,7 @@ John Doe schedules the interview and sends the details to Sarah Rose
 
 Sarah Rose receives the email with interview schedule, venue, and other details. She clicks Accept to signify that she is OK with the interview schedule and venue. As guided by the precise information, Sarah makes it to the interviews.
 
-![](assets/sarahroseinterviewemail.png)
+![sarahroseinterviewemail](assets/sarahroseinterviewemail.png)
 
 Sarah Rose receives the interview schedule
 
@@ -154,11 +154,11 @@ Sarah Rose receives the interview schedule
 
 After Sarah Rose goes through the interviews and clears them, Gloria Rios, the Hiring Manager, opens the Candidate Selection task from her inbox and clicks Select. Gloria Rios's decision is conveyed to the HR person, John Doe, for further processing.
 
-![](assets/gloriariosinboxoffer.png)
+![gloriariosinboxoffer](assets/gloriariosinboxoffer.png)
 
 Gloria's AEM inbox
 
-![](assets/gloriariosselectcandidate.png)
+![gloriariosselectcandidate](assets/gloriariosselectcandidate.png)
 
 Gloria Rios selects Sarah Rose after the interviews
 
@@ -166,7 +166,7 @@ Gloria Rios selects Sarah Rose after the interviews
 
 Before asking a candidate to join the organization, her background needs to be checked. John Doe opens and reviews the selected applicant's details and finds that some of her employment and education details are not filled in as yet. John Doe clicks Need More Information. 
 
-![](assets/johndoeinbox.png) ![](assets/johndoeneedmoreinformation.png)
+![johndoeinbox](assets/johndoeinbox.png) ![johndoeneedmoreinformation](assets/johndoeneedmoreinformation.png)
 
 John Doe requests more information from Sarah Rose about her education and work experience
 
@@ -174,17 +174,17 @@ John Doe requests more information from Sarah Rose about her education and work 
 
 Sarah Rose receives an email notifying her that further information is required for processing her employment application. The email includes a link to the form for filling up the required information. 
 
-![](assets/sarahroseemailmoredetails.png)
+![sarahroseemailmoredetails](assets/sarahroseemailmoredetails.png)
 
 Sarah Rose receives an email notifying that further information is required for processing her employment application
 
 Sarah clicks the Provide Details link in the email. A form appears. Sarah fills up the required education and employment details as requested by John Doe and clicks Submit.
 
-![](assets/additionalinformation1.png)
+![additionalinformation1](assets/additionalinformation1.png)
 
 Sarah opens the additional information form by clicking the link in the email
 
-![](assets/additionalinformation2.png)
+![additionalinformation2](assets/additionalinformation2.png)
 
 Sarah fills up additional information as requested by John Doe and clicks Submit
 
@@ -192,11 +192,11 @@ Sarah fills up additional information as requested by John Doe and clicks Submit
 
 John Doe selects the candidate review request and opens it. John Doe finds that Sarah has filled up all the information as required. After reviewing the application, John Doe clicks Approve. On approval by John Doe, the request to perform a background check on Sarah Rose is forwarded to John Jacobs.
 
-![](assets/johndoeadditionainformationinbox.png)
+![johndoeadditionainformationinbox](assets/johndoeadditionainformationinbox.png)
 
 John Doe's AEM Inbox
 
-![](assets/johndoeadditionalinformationreview-copy.png)
+![johndoeadditionalinformationreview-copy](assets/johndoeadditionalinformationreview-copy.png)
 
 John Doe reviews the additional information provided by Sarah and approves it
 
@@ -204,11 +204,11 @@ John Doe reviews the additional information provided by Sarah and approves it
 
 John Jacobs sees the background check request in his inbox. John Jacobs opens the task and reviews the information provided by Sarah Rose. After performing a background check, John Jacobs clicks Go Ahead to signify that the background check has been successful.
 
-![](assets/johnjacobsbackgroundcheckinbox.png)
+![johnjacobsbackgroundcheckinbox](assets/johnjacobsbackgroundcheckinbox.png)
 
 John Jacobs's AEM inbox
 
-![](assets/johnjacobsbackgroundcheckgoahead.png)
+![johnjacobsbackgroundcheckgoahead](assets/johnjacobsbackgroundcheckgoahead.png)
 
 After performing the background check, John Jacobs clicks Go Ahead
 
@@ -216,11 +216,11 @@ After performing the background check, John Jacobs clicks Go Ahead
 
 John Doe receives a request in his AEM inbox for sending the joining letter. John opens the request and views the details. John Doe attaches the joining letter PDF and then clicks Attach & Send Joining Letter.
 
-![](assets/johndoejoiningletterinbox.png)
+![johndoejoiningletterinbox](assets/johndoejoiningletterinbox.png)
 
 John Doe's AEM inbox
 
-![](assets/johndoejoiningletterattachandsend.png)
+![johndoejoiningletterattachandsend](assets/johndoejoiningletterattachandsend.png)
 
 John Doe sends out the joining letter for signing
 
@@ -228,17 +228,17 @@ John Doe sends out the joining letter for signing
 
 Sarah Rose receives the joining letter for signing. Sarah clicks Click Here To Review And Sign Joining Letter. The joining letter PDF opens with a field to sign the document.
 
-![](assets/sarahrosejoiningletteremail.png)
+![sarahrosejoiningletteremail](assets/sarahrosejoiningletteremail.png)
 
 Sarah Rose receives the joining letter for signing
 
 Sarah can choose either to type in, use draw to handwrite, insert an image of signature, or use her mobile's touchscreen to draw her signature. Sarah types in her name, clicks Click To Sign, and dwonloads the signed copy of the joining letter. 
 
-![](assets/sarahrosejoininglettersign.png)
+![sarahrosejoininglettersign](assets/sarahrosejoininglettersign.png)
 
 Sarah types in her name to sign the joining letter
 
-![](assets/sarahrosejoininglettersign2.png)
+![sarahrosejoininglettersign2](assets/sarahrosejoininglettersign2.png)
 
 Sarah clicks Click To Sign to complete signing the joining letter
 

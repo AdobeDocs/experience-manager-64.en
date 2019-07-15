@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 4e093114-219b-4018-9530-9002eb665448
 ---
 
-# Recovering the AEM forms data{#recovering-the-aem-forms-data}
+# Recovering the AEM forms data {#recovering-the-aem-forms-data}
 
-This section describes the steps required to recover the AEM forms data. Also see [Special considerations for backup and recovery](../../../forms/using/admin-help/backup-recovery-strategy-aem-forms.md#special-considerations-for-backup-and-recovery).
+This section describes the steps required to recover the AEM forms data. Also see [Special considerations for backup and recovery](/help/forms/using/admin-help/backup-recovery-strategy-aem-forms.md#special-considerations-for-backup-and-recovery).
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
 1. If necessary, re-create the physical system from a system image. For example, this step may not be necessary if the reason for recovery is a faulty database server.
 1. Apply patches or updates to AEM forms that were applied since the image was made. This information was recorded in the backup procedure. AEM forms must be patched to the same patch level as it was when the system was backed up.
 1. (WebSphere Application Server) If you are recovering to a new instance of WebSphere Application Server, run the restoreConfig.bat/sh command.
-1. Recover the AEM forms database by first running a database restore operation using the database backup files and then applying the transaction redo logs to the recovered database. (See [AEM forms database](../../../forms/using/admin-help/files-back-recover.md#aem-forms-database).) For more information, see one of these knowledge base articles:
+1. Recover the AEM forms database by first running a database restore operation using the database backup files and then applying the transaction redo logs to the recovered database. (See [AEM forms database](/help/forms/using/admin-help/files-back-recover.md#aem-forms-database).) For more information, see one of these knowledge base articles:
 
     * [Oracle Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403624)
     * [MySQL Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403625)
@@ -63,17 +63,17 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
    >
    >If the /restore directory already exists, back it up and then delete it before you rename the /backup directory that contains the latest data.
 
-    * (JBoss) Rename *[appserver root]*/server/*[server]*/svcnative/DocumentStorage/backup to:
+    * (JBoss) Rename `[appserver root]/server/[server]/svcnative/DocumentStorage/backup` to:
 
-      *[appserver root]*/server/*[server]*/svcnative/DocumentStorage/restore.
+      `[appserver root]/server/[server]/svcnative/DocumentStorage/restore`.
     
-    * (WebLogic) Rename *[appserverdomain]*/*[server]*/adobe/AEMformsserver/DocumentStorage/backup to:
+    * (WebLogic) Rename `[appserverdomain]/[server]/adobe/AEMformsserver/DocumentStorage/backup` to:
 
-      *[appserverdomain]*/*[server]*/adobe/AEMformsserver/DocumentStorage/restore.
+      `[appserverdomain]/[server]/adobe/AEMformsserver/DocumentStorage/restore`.
     
-    * (WebSphere) Rename *[appserver root]*/installedApps/adobe/*[server]*/DocumentStorage/backup to:
+    * (WebSphere) Rename `[appserver root]/installedApps/adobe/[server]/DocumentStorage/backup` to:
 
-      *[appserver root]*/installedApps/adobe/*[server]*/DocumentStorage/restore.
+      `[appserver root]/installedApps/adobe/[server]/DocumentStorage/restore`.
 
 1. Recover the Content Storage Root directory by first deleting the contents of the Content Storage Root directory on the existing installation of AEM forms and then recovering the contents by following the tasks for either stand-alone or clustered environments:
 
@@ -99,14 +99,14 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
     
     * **Clustered**
 
-      For restoration in a clustered environment, see [Strategy for backup and restore in a clustered environment](../../../forms/using/admin-help/strategy-backup-restore-clustered-environment.md#strategy-for-backup-and-restore-in-a-clustered-environment).
+      For restoration in a clustered environment, see [Strategy for backup and restore in a clustered environment](/help/forms/using/admin-help/strategy-backup-restore-clustered-environment.md#strategy-for-backup-and-restore-in-a-clustered-environment).
 
 1. Delete any AEM forms temporary files that were created in the java.io.temp directory or in the Adobe temp directory.
-1. Start AEM forms (see [Starting and stopping services](../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services))<!-- BROKEN LINK and the application server(s) (see [Maintaining the Application Server](/forms/using/admin-help/topics/maintaining-the-application-server.md))-->.
+1. Start AEM forms (see [Starting and stopping services](/help/forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services))<!-- BROKEN LINK and the application server(s) (see [Maintaining the Application Server](/forms/using/admin-help/topics/maintaining-the-application-server.md))-->.
 
 ## Changing the GDS location during recovery {#changing-the-gds-location-during-recovery}
 
-If your GDS is restored to a location other than where it was originally, run the LCSetGDS script to set the GDS to the new location. The script is in the `[*aem-forms root]*\sdk\misc\Foundation\SetGDSCommandline` folder. The script takes two parameters, `defaultGDS` and `newGDS`. See the `ReadMe.txt` file in the same folder for instructions on how to run the script.
+If your GDS is restored to a location other than where it was originally, run the LCSetGDS script to set the GDS to the new location. The script is in the `[aem-forms root]\sdk\misc\Foundation\SetGDSCommandline` folder. The script takes two parameters, `defaultGDS` and `newGDS`. See the `ReadMe.txt` file in the same folder for instructions on how to run the script.
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ If your GDS is restored to a location other than where it was originally, run th
 
 >[!NOTE]
 >
->This circumstance is the only one under which you should use this script to change the GDS location. To change the GDS location while AEM forms is running, use Administration Console. (See [Configure general AEM forms settings](../../../forms/using/admin-help/configure-general-aem-forms-settings.md#configure-general-aem-forms-settings)*.) *
+>This circumstance is the only one under which you should use this script to change the GDS location. To change the GDS location while AEM forms is running, use Administration Console. (See [Configure general AEM forms settings](/help/forms/using/admin-help/configure-general-aem-forms-settings.md#configure-general-aem-forms-settings).)
 
 >[!NOTE]
 >

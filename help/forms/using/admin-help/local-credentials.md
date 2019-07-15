@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 598a9a03-3773-4620-8867-1f754d8ca031
 ---
 
-# Managing local credentials{#managing-local-credentials}
+# Managing local credentials {#managing-local-credentials}
 
 Local credentials are private key credentials hosted in Trust Store Management. A *local credential* identifies where a user’s DES credential is stored. Using Trust Store Management, you can import and manage your local credentials by using, for example, existing PFX files so that you can import, edit, and delete local credentials.
 
@@ -19,7 +19,7 @@ AEM forms supports RSA and DSA credentials up to 4096 bits in standard PKCS12 fo
 
 You can import and export any number of credentials. If you want to replace an expired credential using the same alias, delete the credential and then import the new credential with the same alias.
 
-For information and instructions related to Acrobat Reader DC extensions, see [Configuring credentials for use with Acrobat Reader DC extensions](../../../forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md#configuring-credentials-for-use-with-acrobat-reader-dc-extensions).
+For information and instructions related to Acrobat Reader DC extensions, see [Configuring credentials for use with Acrobat Reader DC extensions](/help/forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md#configuring-credentials-for-use-with-acrobat-reader-dc-extensions).
 
 ## Import a credential {#import-a-credential}
 

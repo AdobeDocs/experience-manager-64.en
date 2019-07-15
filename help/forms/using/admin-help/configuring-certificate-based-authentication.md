@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d958ae65-3008-4d68-9e11-4346e149827f
 ---
 
-# Configuring certificate-based authentication{#configuring-certificate-based-authentication}
+# Configuring certificate-based authentication {#configuring-certificate-based-authentication}
 
 User Management usually performs authentication by using a user name and password. User Management also supports certificate-based authentication, which you can use to authenticate users through Acrobat or to authenticate users programmatically. For details about authenticating users programmatically, see [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63).
 
@@ -19,7 +19,7 @@ To use certificate-based authentication, import a Certificate Authority (CA) cer
 
 ## Import the CA certificate {#import-the-ca-certificate}
 
-When importing the certificate, select the Trust for Certificate Authentication and Trust for Identity options, and any other options that you require. For details about importing certificates, see [Managing certificates](../../../forms/using/admin-help/certificates.md#managing-certificates).
+When importing the certificate, select the Trust for Certificate Authentication and Trust for Identity options, and any other options that you require. For details about importing certificates, see [Managing certificates](/help/forms/using/admin-help/certificates.md#managing-certificates).
 
 ## Configuring certificate mapping {#configuring-certificate-mapping}
 
@@ -51,7 +51,7 @@ When you test a certificate, User Management uploads the certificate checks to e
    You can use the following characters in the regex:
 
     * . (any character) 
-    * &#42; (0 or more occurrences)
+    * &ast; (0 or more occurrences)
     * () (specify the group in brackets)
     * \ (used to escape a regex character to a regular character)
     * $n (used to refer to the nth group)
@@ -60,21 +60,21 @@ When you test a certificate, User Management uploads the certificate checks to e
 
     * To extract "Alex Pink" from "Alex Pink (Authentication)"
 
-      **Regex:** (.&#42;) \(Authentication\) 
+      **Regex:** (.&ast;) \(Authentication\) 
     
     * To extract "Alex Pink" from "Alex (Authentication) Pink"
 
-      **Regex:** (.&#42;)\(Authentication\) (.&#42;)
+      **Regex:** (.&ast;)\(Authentication\) (.&ast;)
     
     * To extract "Pink Alex" from "Alex (Authentication) Pink"
 
-      **Regex:** (.&#42;)\(Authentication\) (.&#42;)
+      **Regex:** (.&ast;)\(Authentication\) (.&ast;)
 
       Custom Order: $2 $1 (return second group, concatenated to first group, captured by whitespace character)
     
     * To extract "apink@sampleorg.com" from "smtp:apink@sampleorg.com"
 
-      **Regex:** smtp:(.&#42;)
+      **Regex:** smtp:(.&ast;)
 
    For details on using regular expressions, see [Java tutorial about regular expressions](https://java.sun.com/docs/books/tutorial/essential/regex/). 
 

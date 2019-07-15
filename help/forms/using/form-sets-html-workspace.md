@@ -11,22 +11,22 @@ topic-tags: forms-workspace
 discoiquuid: c1793e2e-413c-4b6f-b96b-09e011f06263
 ---
 
-# Working with Formsets in AEM Forms workspace{#working-with-formsets-in-aem-forms-workspace}
+# Working with Formsets in AEM Forms workspace {#working-with-formsets-in-aem-forms-workspace}
 
-A formset is a collection of HTML5 forms grouped and presented as a single set of forms to end users. When end users start filling a formset, they are seamlessly transitioned from one form to another. The set of forms can then be submitted in just one click. For more info on formsets and how to set them up, see [Formset in AEM Forms](../../forms/using/formset-in-aem-forms.md).
+A formset is a collection of HTML5 forms grouped and presented as a single set of forms to end users. When end users start filling a formset, they are seamlessly transitioned from one form to another. The set of forms can then be submitted in just one click. For more info on formsets and how to set them up, see [Formset in AEM Forms](/help/forms/using/formset-in-aem-forms.md).
 
 AEM Forms workspace supports formsets. With formsets, multiple forms related to a service or process can be grouped to automate a business process and presented to the end users. In such a scenario, the users can fill the whole set as one and there is no need to file, submit, and track individual forms or processes.
 
-## Attaching a formset to startpoint in an AEM Forms workspace app <br> {#attaching-a-formset-to-startpoint-in-an-aem-forms-workspace-app-br}
+## Attaching a formset to startpoint in an AEM Forms workspace app {#attaching-a-formset-to-startpoint-in-an-aem-forms-workspace-app-br}
 
 1. Create the business process workflow in Workbench. For more information, see [Workbench help](https://www.adobe.com/go/learn_aemforms_workbench_63).
 1. From the process properties of the startpoint, select **Use A CRX Asset** in Presentation & Data.
 
-   ![](assets/1-1.png)
+   ![1-1](assets/1-1.png)
 
-1. Click ![](assets/browse.png) (Browse) next to the CRX asset path. The Select Form Asset dialog appears.
+1. Click ![browse](assets/browse.png) (Browse) next to the CRX asset path. The Select Form Asset dialog appears.
 
-   ![](assets/2.png)
+   ![2](assets/2.png)
 
 1. Click the **Formset** tab, select the relevant formset from the list, and then click **OK**.  
 
@@ -46,7 +46,7 @@ The operations supported on formset through the AEM Forms workspace are:
 * Add Notes
 * Move between forms in a formset using Back or Next buttons
 
-![](assets/3-1.png)
+![3-1](assets/3-1.png)
 
 >[!NOTE]
 >

@@ -8,29 +8,29 @@ topic-tags: installing
 discoiquuid: b53eae8c-16ba-47e7-9421-7c33e141d268
 ---
 
-# Installing and configuring document services{#installing-and-configuring-document-services}
+# Installing and configuring document services {#installing-and-configuring-document-services}
 
 ## Introduction {#introduction}
 
 AEM Forms provides a set of OSGi services to accomplish different document level operations, for example, services to create, assemble, distribute, and archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms. These services are included in AEM Forms add-on package. Collectively, these services are known as document services. The list of available document services and their major capabilities is as below:
 
-Enables you to combine, rearrange, and augment PDF and XDP documents and obtain information about PDF documents. It also helps convert and validate PDF documents to PDF/A standard, transforms PDF forms, XML forms, and PDF forms to PDF/A-1b, PDF/A-2b, and PDFA/A-3b. For more information, see [Assembler Service](../../forms/using/assembler-service.md).
+Enables you to combine, rearrange, and augment PDF and XDP documents and obtain information about PDF documents. It also helps convert and validate PDF documents to PDF/A standard, transforms PDF forms, XML forms, and PDF forms to PDF/A-1b, PDF/A-2b, and PDFA/A-3b. For more information, see [Assembler Service](/help/forms/using/assembler-service.md).
 
-Enables you to convert PDF documents to PostScript or image files (JPEG, JPEG 2000, PNG, and TIFF). For more information, see [ConvertPDF Service](../../forms/using/using-convertpdf-service.md).
+Enables you to convert PDF documents to PostScript or image files (JPEG, JPEG 2000, PNG, and TIFF). For more information, see [ConvertPDF Service](/help/forms/using/using-convertpdf-service.md).
 
-Enables you to extract data from electronic images of barcodes. The service accepts TIFF and PDF files that include one or more barcodes as input and extracts the barcode data. For more information, see [Barcoded Forms Service](../../forms/using/using-barcoded-forms-service.md).
+Enables you to extract data from electronic images of barcodes. The service accepts TIFF and PDF files that include one or more barcodes as input and extracts the barcode data. For more information, see [Barcoded Forms Service](/help/forms/using/using-barcoded-forms-service.md).
 
-Enables you to encrypt and decrypt documents, extend the functionality of Adobe Reader with additional usage rights, and add digital signatures to your documents. The Doc Assurance service contains three services: signature, encryption, and reader extension. For more information, see [DocAssurance Service](../../forms/using/overview-aem-document-services.md).
+Enables you to encrypt and decrypt documents, extend the functionality of Adobe Reader with additional usage rights, and add digital signatures to your documents. The Doc Assurance service contains three services: signature, encryption, and reader extension. For more information, see [DocAssurance Service](/help/forms/using/overview-aem-document-services.md).
 
-Enables you to encrypt and decrypt documents. When a document is encrypted, its contents become unreadable. An authorized user can decrypt the document to obtain access to its contents. For more information, see [Encryption Service](../../forms/using/overview-aem-document-services.md#p-encryption-service-p).
+Enables you to encrypt and decrypt documents. When a document is encrypted, its contents become unreadable. An authorized user can decrypt the document to obtain access to its contents. For more information, see [Encryption Service](/help/forms/using/overview-aem-document-services.md#p-encryption-service-p).
 
-Lets you create interactive data capture client applications that validate, process, transform, and deliver forms that are typically created in Forms Designer. The Forms service renders any form design that you develop to PDF documents. For more information, see [Forms Service](../../forms/using/forms-service.md).
+Lets you create interactive data capture client applications that validate, process, transform, and deliver forms that are typically created in Forms Designer. The Forms service renders any form design that you develop to PDF documents. For more information, see [Forms Service](/help/forms/using/forms-service.md).
 
-Enables you to create documents in different formats, including PDF, laser printer formats, and label printer formats. Laser printer formats are PostScript and Printer Control Language (PCL). For more information, see [Output Service](../../forms/using/output-service.md).
+Enables you to create documents in different formats, including PDF, laser printer formats, and label printer formats. Laser printer formats are PostScript and Printer Control Language (PCL). For more information, see [Output Service](/help/forms/using/output-service.md).
 
-The PDF Generator service provides APIs to converts native file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents. For more information, see [PDF Generator Service](../../forms/using/aem-document-services-programmatically.md#main-pars-header-27).
+The PDF Generator service provides APIs to converts native file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents. For more information, see [PDF Generator Service](/help/forms/using/aem-document-services-programmatically.md#main-pars-header-27).
 
-Enables your organization to easily share interactive PDF documents by extending the functionality of Adobe Reader with additional usage rights. The service activates features that are not available when a PDF document is opened using Adobe Reader, such as adding comments to a document, filling forms, and saving the document. For more information, see [Reader Extension Service](../../forms/using/overview-aem-document-services.md#p-reader-extension-service-p).
+Enables your organization to easily share interactive PDF documents by extending the functionality of Adobe Reader with additional usage rights. The service activates features that are not available when a PDF document is opened using Adobe Reader, such as adding comments to a document, filling forms, and saving the document. For more information, see [Reader Extension Service](/help/forms/using/overview-aem-document-services.md#p-reader-extension-service-p).
 
 Lets you work with digital signatures and documents on the AEM server. For example, the Signature service is typically used in the following situations:
 
@@ -38,13 +38,13 @@ Lets you work with digital signatures and documents on the AEM server. For examp
 * The AEM server validates a signature that was added to a form by using Acrobat or Adobe Reader.
 * The AEM server signs a form on behalf of a public notary.
 
-The signature service accesses certificates and credentials that are stored in the trust store. For more information, see [Signature Service](../../forms/using/aem-document-services-programmatically.md).
+The signature service accesses certificates and credentials that are stored in the trust store. For more information, see [Signature Service](/help/forms/using/aem-document-services-programmatically.md).
 
-AEM Forms is a powerful enterprise-class platform and the document services is only one of the capability of AEM Forms. For the complete list of capabilities, see [Introduction to AEM Forms](../../forms/using/introduction-aem-forms.md).
+AEM Forms is a powerful enterprise-class platform and the document services is only one of the capability of AEM Forms. For the complete list of capabilities, see [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md).
 
 ## Deployment Topology {#deployment-topology}
 
-AEM Forms add-on package is an application deployed onto AEM. Generally, you require only one AEM instance (author or publish) to run AEM Forms document services. The following topology is recommended to run AEM Forms document services. For detailed information about topologies, see [Architecture and deployment topologies for AEM Forms](../../forms/using/aem-forms-architecture-deployment.md).
+AEM Forms add-on package is an application deployed onto AEM. Generally, you require only one AEM instance (author or publish) to run AEM Forms document services. The following topology is recommended to run AEM Forms document services. For detailed information about topologies, see [Architecture and deployment topologies for AEM Forms](/help/forms/using/aem-forms-architecture-deployment.md).
 
 ![](do-not-localize/document-services.png)
 
@@ -56,7 +56,7 @@ AEM Forms add-on package is an application deployed onto AEM. Generally, you req
 
 Before you begin to install and configure AEM Forms document services, ensure that:
 
-* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](../../sites/deploying/using/technical-requirements.md).  
+* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites-deploying/technical-requirements.md).  
 
 * Installation path of the AEM instance does not contain white-spaces.
 * An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. Generally, you require only one AEM instance (author or publish) to run AEM Forms document services:
@@ -71,10 +71,8 @@ Before you begin to install and configure AEM Forms document services, ensure th
 
 * Client software required for PDF generator to perform conversion on Microsoft Windows and Linux are installed:
 
-    * **Microsoft Windows**: Install [Microsoft Office](../../forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)or [Apache OpenOffice   
-      ](../../forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)
-    
-    * **Linux**: Install [Apache OpenOffice](../../forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)
+    * **Microsoft Windows**: Install [Microsoft Office](/help/forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)or [Apache OpenOffice](/help/forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)
+    * **Linux**: Install [Apache OpenOffice](/help/forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)
 
 >[!NOTE]
 >
@@ -87,19 +85,19 @@ If you are using the UNIX-based operating system, install the following packages
 <table> 
  <tbody> 
   <tr> 
-   <td width="25%"> 
+   <td> 
     <ul> 
      <li>expat</li> 
     </ul> </td> 
-   <td width="25%"> 
+   <td> 
     <ul> 
      <li>libxcb</li> 
     </ul> </td> 
-   <td width="25%"> 
+   <td> 
     <ul> 
      <li>freetype</li> 
     </ul> </td> 
-   <td width="25%"> 
+   <td> 
     <ul> 
      <li>libXau</li> 
     </ul> </td> 
@@ -203,34 +201,34 @@ Set environment variables for 32-bit and 64-bit Java Development Kit, third-part
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top"><p><strong>Application</strong></p> </td> 
-   <td valign="top"><p><strong>Environment variable</strong></p> </td> 
-   <td valign="top"><p><strong>Example</strong></p> </td> 
+   <td><p><strong>Application</strong></p> </td> 
+   <td><p><strong>Environment variable</strong></p> </td> 
+   <td><p><strong>Example</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p><strong>JDK (64-bit)</strong></p> </td> 
-   <td valign="top"><p>JAVA_HOME</p> </td> 
-   <td valign="top"><p>C:\Program Files\Java\jdk1.8.0_74</p> </td> 
+   <td><p><strong>JDK (64-bit)</strong></p> </td> 
+   <td><p>JAVA_HOME</p> </td> 
+   <td><p>C:\Program Files\Java\jdk1.8.0_74</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p><strong>JDK (32-bit)</strong></p> </td> 
-   <td valign="top"><p>JAVA_HOME_32</p> </td> 
-   <td valign="top"><p>C:\Program Files (x86)\Java\jdk1.8.0_74</p> </td> 
+   <td><p><strong>JDK (32-bit)</strong></p> </td> 
+   <td><p>JAVA_HOME_32</p> </td> 
+   <td><p>C:\Program Files (x86)\Java\jdk1.8.0_74</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p><strong>Adobe Acrobat</strong></p> </td> 
-   <td valign="top"><p>Acrobat_PATH</p> </td> 
-   <td valign="top"><p>C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Acrobat.exe</p> </td> 
+   <td><p><strong>Adobe Acrobat</strong></p> </td> 
+   <td><p>Acrobat_PATH</p> </td> 
+   <td><p>C:\Program Files (x86)\Adobe\Acrobat 2015\Acrobat\Acrobat.exe</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p><strong>Notepad</strong></p> </td> 
-   <td valign="top"><p>Notepad_PATH</p> </td> 
-   <td valign="top"><p>C:\WINDOWS\notepad.exe<br /> <strong></strong></p> </td> 
+   <td><p><strong>Notepad</strong></p> </td> 
+   <td><p>Notepad_PATH</p> </td> 
+   <td><p>C:\WINDOWS\notepad.exe<br /> <strong></strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p><strong>OpenOffice</strong></p> </td> 
-   <td valign="top"><p>OpenOffice_PATH</p> </td> 
-   <td valign="top"><p>C:\Program Files (x86)\OpenOffice.org4</p> </td> 
+   <td><p><strong>OpenOffice</strong></p> </td> 
+   <td><p>OpenOffice_PATH</p> </td> 
+   <td><p>C:\Program Files (x86)\OpenOffice.org4</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -283,9 +281,9 @@ Set environment variables for 32-bit and 64-bit Java Development Kit, third-part
 
 If you are running Microsoft Windows Server, configure the Ink and Handwriting service. The service is required to open Microsoft PowerPoint files which use inking capabilities of Microsoft Office:
 
-1. Open the Server Manager. Click the **Server Manager** icon on the Quick Launch tray.
-1. Click **Add Features** in the **Features** menu. Select the **Ink and Handwriting Services** check box. 
-1. **Select Features** dialog box with **Ink and Handwriting Services** selected. Click **Install **and the service is installed.
+1. Open the Server Manager. Click the **[!UICONTROL Server Manager]** icon on the Quick Launch tray.
+1. Click **[!UICONTROL Add Features]** in the **[!UICONTROL Features]** menu. Select the **[!UICONTROL Ink and Handwriting Services]** check box. 
+1. **[!UICONTROL Select Features]** dialog box with **[!UICONTROL Ink and Handwriting Services]** selected. Click **[!UICONTROL Install]** and the service is installed.
 
 ### Configure the file block settings for Microsoft Office {#configure-the-file-block-settings-for-microsoft-office}
 
@@ -293,16 +291,16 @@ Change the Microsoft Office trust center settings to enable the PDF Generator se
 
 1. Open a Microsoft Office application. For example, Microsoft Word. Navigate to **[!UICONTROL File]**> **[!UICONTROL Options]**. The options dialog box appears.  
 
-1. Click **Trust Center**, and click **Trust Center Settings**.
-1. In the **Trust Center settings**, click **File Block Settings**.
-1. In the** File Type** list, deselect **Open **for the file type that the PDF Generator service should be allowed to convert to PDF documents.
+1. Click **[!UICONTROL Trust Center]**, and click **[!UICONTROL Trust Center Settings]**.
+1. In the **[!UICONTROL Trust Center settings]**, click **[!UICONTROL File Block Settings]**.
+1. In the **[!UICONTROL File Type]** list, deselect **[!UICONTROL Open]** for the file type that the PDF Generator service should be allowed to convert to PDF documents.
 
 ### Grant the Replace a process level token privilege {#grant-the-replace-a-process-level-token-privilege}
 
 The user account used to start the application server requires the **Replace a process level token** privilege. The local system account has the **Replace a process level token** privilege by default. For the servers running with a user of the Local Administrators group, the privilege must be granted explicitly. Perform the following steps to grant the privilege:
 
-1. Open the Group Policy Editor for Microsoft Windows. To open the Group Policy Editor, click **Start**, type **gpedit.msc** in the Start Search box, and click **Group Policy Editor**.
-1. Navigate to **Local Computer Policy** &gt; **Computer Configuration** &gt; **Windows Settings** &gt; **Security Settings** &gt; **Local Policies** &gt; **User Rights Assignment** and edit the **Replace a process level token** policy and include the Administrators group.
+1. Open the Group Policy Editor for Microsoft Windows. To open the Group Policy Editor, click **[!UICONTROL Start]**, type **gpedit.msc** in the Start Search box, and click **[!UICONTROL Group Policy Editor]**.
+1. Navigate to **[!UICONTROL Local Computer Policy** &gt; **Computer Configuration** &gt; **Windows Settings** &gt; **Security Settings** &gt; **Local Policies** &gt; **User Rights Assignment]** and edit the **[!UICONTROL Replace a process level token]** policy and include the Administrators group.
 1. Add the user to the Replace a Process Level Token entry.
 
 #### Enable the PDF Generator service for non-administrators {#enable-the-pdf-generator-service-for-non-administrators}
@@ -316,8 +314,8 @@ You can enable a non-administrator user to use the PDF Generator service. Normal
 
 ### Disable User Account Control (UAC) {#disable-user-account-control-uac}
 
-1. To access the System Configuration Utility, go to **Start &gt; Run **and then enter **MSCONFIG.** 
-1. Click the **Tools **tab and scroll down and select **Change UAC Settings**. Click **Launch **to run the command in a new window.
+1. To access the System Configuration Utility, go to **[!UICONTROL Start &gt; Run]** and then enter **[!UICONTROL MSCONFIG]**. 
+1. Click the **[!UICONTROL Tools]** tab and scroll down and select **[!UICONTROL Change UAC Settings]**. Click **[!UICONTROL Launch]** to run the command in a new window.
 1. Adjust the slider to the Never notify level. When finished, close the command window and close the System Configuration window.
 1. Verify that registry setting for UAC is set to 0 (zero). Perform the following steps to verify:
 
@@ -369,13 +367,13 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 
 1. Log in to the [AEM server](http://localhost:4502) as an administrator and open [package share](http://localhost:4502/crx/packageshare). You require an Adobe ID to log in to the package share.  
 
-1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search **AEM 6.4 Forms add-on packages**, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded **appears next to the package.
+1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search **[!UICONTROL AEM 6.4 Forms add-on packages]**, click the package applicable to your operating system, and click **[!UICONTROL Download]**. Read and accept the license agreement and click **[!UICONTROL OK]**. The download starts. Once downloaded, the word **[!UICONTROL Downloaded]** appears next to the package.
 
    You can also use the version number to search an add-on package. For version number of the latest package, see the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
 
-1. After the download completes, click **Downloaded**. You are redirected to package manager. In the package manager, search the downloaded package, and click **Install**.
+1. After the download completes, click **[!UICONTROL Downloaded]**. You are redirected to package manager. In the package manager, search the downloaded package, and click **[!UICONTROL Install]**.
 
-   If you manually download the package via the direct link listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article, log in to the package manager, click **Upload Package**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **Install.**
+   If you manually download the package via the direct link listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article, log in to the package manager, click **[!UICONTROL Upload Package]**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **[!UICONTROL Install]**.
 
 1. After the package is installed, you are prompted to restart the AEM instance. **Do not immediately stop the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the [AEM-Installation-Directory]/crx-quickstart/logs/error.log file and the log is stable.
 
@@ -399,7 +397,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 ### Configuring the font manager service  {#configuring-the-font-manager-service}
 
 1. Log in to [AEM Configuration Manager](http://localhost:4502/system/console/configMgr) as an administrator. 
-1. Locate and open the **CQ-DAM-Handler-Gibson Font Managers** service. Specify the path of the System Fonts, Adobe Server Fonts, and Customer Fonts directories. Click **Save**.
+1. Locate and open the **[!UICONTROL CQ-DAM-Handler-Gibson Font Managers]** service. Specify the path of the System Fonts, Adobe Server Fonts, and Customer Fonts directories. Click **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
@@ -411,19 +409,19 @@ A local user account is required to run the PDF Generator service. For steps to 
 
 1. Open the [AEM Forms PDF Generator Configuration](http://localhost:4502/libs/fd/pdfg/config/ui.html) page.
 
-1. In the **User Accounts** tab, provide credentials of a local user account, and click **Submit**. If Microsoft Windows prompts, allow access to the user. When added successfully, the configured user is displayed under the **Your user accounts** section in the **User Accounts** tab.
+1. In the **[!UICONTROL User Accounts]** tab, provide credentials of a local user account, and click **[!UICONTROL Submit]**. If Microsoft Windows prompts, allow access to the user. When added successfully, the configured user is displayed under the **[!UICONTROL Your user accounts]** section in the **[!UICONTROL User Accounts]** tab.
 
 ### Configure the time-out settings {#configure-the-time-out-settings}
 
-1. In [AEM configuration manager](http://localhost:4502/system/console/configMgr), locate and open the **Jacorb ORB Provider** service.
+1. In [AEM configuration manager](http://localhost:4502/system/console/configMgr), locate and open the **[!UICONTROL Jacorb ORB Provider]** service.
 
-   Add the following to the **[!UICONTROL Custom Properties.name]**field and click **Save**. It sets the pending reply timeout (also known as, CORBA client timeout) to 600 seconds.
+   Add the following to the **[!UICONTROL Custom Properties.name]** field and click **[!UICONTROL Save]**. It sets the pending reply timeout (also known as, CORBA client timeout) to 600 seconds.
 
    `jacorb.connection.client.pending_reply_timeout=600000`
 
-1. Log in to the AEM author instance and navigate to **Adobe Experience Manager** &gt; **Tools**&gt;** Forms &gt; Configure PDF Generator**. The default URL is http://localhost:4502/libs/fd/pdfg/config/ui.html.
+1. Log in to the AEM author instance and navigate to **[!UICONTROL Adobe Experience Manager** &gt; **Tools**&gt;**Forms &gt; Configure PDF Generator]**. The default URL is http://localhost:4502/libs/fd/pdfg/config/ui.html.
 
-   Open the **General Configuration** tab and modify the value of the following fields for your environment:
+   Open the **[!UICONTROL General Configuration]** tab and modify the value of the following fields for your environment:
 
 <table> 
  <tbody> 
@@ -454,7 +452,7 @@ A local user account is required to run the PDF Generator service. For steps to 
 
 On Microsoft Windows, the PDF Generator service uses Adobe Acrobat to convert supported file formats to a PDF document. Perform the following steps to configure Adobe Acrobat for the PDF Generator service:
 
-1. Open Acrobat and select **[!UICONTROL Edit]**> **[!UICONTROL Preferences]**> **[!UICONTROL Updater]**. In Check for updates, deselect **Automatically install updates**, and click **OK**. Close Acrobat.
+1. Open Acrobat and select **[!UICONTROL Edit]**> **[!UICONTROL Preferences]**> **[!UICONTROL Updater]**. In Check for updates, deselect **[!UICONTROL Automatically install updates]**, and click **[!UICONTROL OK]**. Close Acrobat.
 1. Double-click a PDF document on your system. When Acrobat starts for the first time, the dialog boxes for Sign-in, Welcome screen, and EULA appear. Dismiss these dialog boxes for all the users configured to use PDF Generator. 
 1. Run the PDF Generator utility batch file to configure Acrobat for the PDF Generator service:
 
@@ -492,24 +490,18 @@ The default primary route for HTML to PDF conversion is Webkit. To change the co
 
 The DocAssurance service can apply usage rights to PDF documents. To apply usage rights to PDF documents, configure the certificates:
 
-1. Log in to AEM Author instance as an administrator. Go to Tools &gt; Operations &gt; Security &gt; Users.
-1. Click the **name** field of the user account. The **Edit User Settings** page opens. On the AEM Author instance, certificates reside in a KeyStore. If you have not created a KeyStore earlier, click **Create KeyStore** and set a new password for the KeyStore. If the server already contains a KeyStore, skip this step.
-1. On the **Edit User Settings** page, click **Manage KeyStore**. On KeyStore Management dialog, expand the **Add Private Key from Key Store file** option and provide an alias. The alias is used to perform the Reader Extensions operation. 
-1. To upload the certificate file, click **Select Key Store File** and upload a &lt;filename&gt;.pfx file.
+1. Log in to AEM Author instance as an administrator. Go to **[!UICONTROL Tools &gt; Operations &gt; Security &gt; Users]**.
+1. Click the **[!UICONTROL name]** field of the user account. The **[!UICONTROL Edit User Settings]** page opens. On the AEM Author instance, certificates reside in a KeyStore. If you have not created a KeyStore earlier, click **[!UICONTROL Create KeyStore]** and set a new password for the KeyStore. If the server already contains a KeyStore, skip this step.
+1. On the **[!UICONTROL Edit User Settings]** page, click **[!UICONTROL Manage KeyStore]**. On KeyStore Management dialog, expand the **[!UICONTROL Add Private Key from Key Store file]** option and provide an alias. The alias is used to perform the Reader Extensions operation. 
+1. To upload the certificate file, click **[!UICONTROL Select Key Store File]** and upload a &lt;filename&gt;.pfx file.
 
-   Add the **Key Store Password**,** Private Key Password**, and **Private Key Alias **that is associated with the certificate to the respective fields. Click **Submit**.
+   Add the **[!UICONTROL Key Store Password]**, **[!UICONTROL Private Key Password]**, and **[!UICONTROL Private Key Alias]** that is associated with the certificate to the respective fields. Click **[!UICONTROL Submit]**.
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
-   >    * In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
-   >    
-   >    * In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
-   >    
-   >
+   >* To determine the **[!UICONTROL Private Key Alias]** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
+   >* In the **[!UICONTROL Key Store Password]** and **[!UICONTROL Private Key Password]** fields, specify the password provided with the certificate file.
+   >* In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
 
 ### Enable AES-256 {#enable-aes}
 
@@ -517,7 +509,7 @@ To use AES 256 encryption for PDF files, obtain and install the Java Cryptograph
 
 The Assembler service depends on the Reader Extensions service, Signature service, Forms service, and Output service. Perform the following steps to verify that the required services are up and running:
 
-1. Log in to URL https://[server]:[port]&gt;/system/console/bundles as an administrator.
+1. Log in to URL `https://[server]:[port]/system/console/bundles` as an administrator.
 1. Search the following service and ensure that the services are up and running:
 
 <table> 
@@ -567,7 +559,7 @@ The Assembler service depends on the Reader Extensions service, Signature servic
 
 You have a working AEM Forms document services environment. You can use document services through:
 
-* [Form centric workflows on OSGi](../../forms/using/aem-forms-workflow.md)
-* [Watched Folders](../../forms/using/watched-folder-in-aem-forms.md)
-* [Document services APIs](../../forms/using/aem-document-services-programmatically.md)
+* [Form centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md)
+* [Watched Folders](/help/forms/using/watched-folder-in-aem-forms.md)
+* [Document services APIs](/help/forms/using/aem-document-services-programmatically.md)
 

@@ -8,7 +8,7 @@ uuid: 1b863d8c-3d71-44b1-9aa9-e8b3711a91b7
 discoiquuid: 797c956d-7e23-412d-8eba-933e2feb58b8
 ---
 
-# Forms-centric workflow on OSGi - Step Reference{#forms-centric-workflow-on-osgi-step-reference}
+# Forms-centric workflow on OSGi - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
 
 ## Forms Workflow Steps {#forms-workflow-steps}
 
@@ -35,16 +35,16 @@ You can also use the component to control the behavior of the task. For example,
 * **Highlight the action and comment from the last task in Task Details:** Select this option to display the last action that was taken and comment received on the task details section of a task.
 * **Type:** Choose the type of document to be filled when the workflow is started. You can choose an adaptive form, read-only adaptive form, or a non-interactive PDF document.
 * **Resolve form path using**: Specify the adaptive form for the workflow model. You can specify an absolute path of an adaptive form, a payload, or a variable that contains the path of the adaptive form. For example, when a workflow is initiated on submission of an adaptive form the submitting adaptive form serves as a payload.   
-  The **Resolve form path using **option is available only when you choose an adaptive form or read-only adaptive form in the **Type **field. 
+  The **Resolve form path using** option is available only when you choose an adaptive form or read-only adaptive form in the **Type **field. 
 
 * **PDF Path:** Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based adaptive forms for using the PDF Path option.
 * **For completed task, render the adaptive form as**: When a task is marked complete, you can render the adaptive form as a read-only adaptive form or a PDF document. You require a Document of Record option enabled or form template based adaptive forms for rendering the adaptive form as Document of Record.
-* **Information to be pre-populated:** The following fields listed below serve as inputs to the task:** **
+* **Information to be pre-populated:** The following fields listed below serve as inputs to the task: 
 
     * **Data File Path:** Path of input data file (.json or .xml). The path is always relative to the payload. For example, the file contains the data submitted for the form through an AEM Inbox application. An example path is [Payload_Directory]/workflow/data.
     * **Attachment Path:** Attachments available at the location are attached to the form associated with the task. The path is always relative to the payload. An example path is [Payload_Directory]/attachments/
 
-* **Submitted information:** The following fields listed below serve as output locations to the task:** **
+* **Submitted information:** The following fields listed below serve as output locations to the task: 
 
     * **Data File Path:** Path of data file (.json or .xml). The data file contains information submitted through the associated form. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/data, where data is a file.
     * **Attachment Path:** Path to save the form attachments provide in a task.
@@ -59,7 +59,7 @@ You can also use the component to control the behavior of the task. For example,
 
 * **User or Group:** The task is assigned to selected user or group. The option is available when the **To a specific user or group option** is selected in the Assign options field. The field lists all the users and groups of the workflow-users group.
 
-* **Notify Assignee by Email:** Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user. Before using the option, enable the notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](../../../forms/using/aem-forms-workflow.md)
+* **Notify Assignee by Email:** Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user. Before using the option, enable the notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](/help/forms/using/aem-forms-workflow.md)
 
 * **HTML Email Template**: Select email template for the notification email. To edit a template, modify the file located at /libs/fd/dashboard/templates/email/htmlEmailTemplate.txt in crx-repository.
 * **Allow Delegation To:** AEM Inbox provides an option to the logged in user to delegate the assigned workflow to another user. You are allowed to delegate within the same group or to the workflow user of another group. If the task is assigned to a single user and the **allow delegation to members of the assignee group** option is selected, then it is not possible to delegate the task to another user or group.
@@ -83,7 +83,7 @@ You can also use the component to control the behavior of the task. For example,
 
 Use the email step to send an email, for example an email with a document of record, link of an adaptive form, link of an interactive communication, or with an attached PDF document. Send Email step supports [HTML email](https://en.wikipedia.org/wiki/HTML_email). HTML emails are responsive and adapt to the recipients' email client and screen size. You can use an HTML email template to define appearance, color-scheme, and behavior of the of the email.
 
-The email step uses Day CQ Mail Service to send emails. Before using the email step, ensure that the [email service](../../../forms/using/aem-forms-workflow.md) is configured. The email step has the following properties:
+The email step uses Day CQ Mail Service to send emails. Before using the email step, ensure that the [email service](/help/forms/using/aem-forms-workflow.md) is configured. The email step has the following properties:
 
 **Title:** Title of the step helps identify the step in the workflow editor.
 
@@ -99,11 +99,11 @@ The email step uses Day CQ Mail Service to send emails. Before using the email s
 
 * **Workflow Metadata:** Use the option when the value to use is saved in a workflow metadata property. After selecting the option, enter the metadata property name in the empty text box below the Workflow Metadata option. For example, emailAddress.
 * **Asset URL:** Use the option to embed a web link of an interactive communication to the email. After selecting the option, browse and choose the interactive communication to embed. The asset can reside on the author or the publish server.
-* **Image:** Use the option to embed an image to the email. After selecting the option, browse and choose the image. The image option is available only for the image tags (&lt;img src="&#42;"/&gt;) available in the email template.
+* **Image:** Use the option to embed an image to the email. After selecting the option, browse and choose the image. The image option is available only for the image tags (&lt;img src="&ast;"/&gt;) available in the email template.
 
-**Sender’s / Recipient's Email Address:** Select the **Literal **option to manually specify an email address or select the ** Retrieve from Workflow metadata** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the** Retrieve from Workflow metadata** option.
+**Sender’s / Recipient's Email Address:** Select the **Literal** option to manually specify an email address or select the **Retrieve from Workflow metadata** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the **Retrieve from Workflow metadata** option.
 
-**File Attachment Path:** The asset available at the specified location is attached to the email. The path of the asset can be relative to the payload or absolute path. An example path is [Payload_Directory]/attachments/
+**File Attachment Path:** The asset available at the specified location is attached to the email. The path of the asset can be relative to the payload or absolute path. An example path is `[Payload_Directory]/attachments/`
 
 **File Name:** Name of the email attachment file. The Email Step changes the original file name of the attachment to the specified file name. The name can be specified manually or retrieved from a workflow metadata property. Use the **Literal** option when you know the exact value to specify. Use the **Retrieve from a Workflow Metadata** option when the value to use is saved in a workflow metadata property.
 
@@ -127,7 +127,7 @@ If you specify the path of a folder, for example, attachments, all the files dir
 
 ## Invoke Form Data Model Service step {#invoke-form-data-model-service-step}
 
-You can use [AEM Forms Data Integration](../../../forms/using/data-integration.md) to configure and connect to disparate data sources. These data sources can be a database, web service, REST service, OData service, and CRM solution. AEM Forms Data Integration allows you to create a form data model encompassing various services to perform data retrieval, addition, updating operations on the configured database. You can use the **Invoke Data Model Service step** to select a form data model (FDM) and use the services of the FDM to retrieve, update, or add data to disparate data sources.
+You can use [AEM Forms Data Integration](/help/forms/using/data-integration.md) to configure and connect to disparate data sources. These data sources can be a database, web service, REST service, OData service, and CRM solution. AEM Forms Data Integration allows you to create a form data model encompassing various services to perform data retrieval, addition, updating operations on the configured database. You can use the **Invoke Data Model Service step** to select a form data model (FDM) and use the services of the FDM to retrieve, update, or add data to disparate data sources.
 
 To explain inputs for fields of the step, the following database table and JSON file are used as an example :
 
@@ -199,7 +199,7 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
     * **Map input fields from input JSON:** Specify path of a JSON file to obtain input value of some service arguments from the JSON file. Path of the JSON file can be relative to the payload or an absolute path.
 
 * **Input for services &gt; Provide input data using a JSON file:** Select the option to obtain values for all the arguments from a JSON file.
-* **Input JSON File Path**:**** Path of the JSON file containing values for all the service arguments. Path of the JSON file can be** relative to the payload** or an** absolute path**.
+* **Input JSON File Path**: Path of the JSON file containing values for all the service arguments. Path of the JSON file can be **relative to the payload** or an **absolute path**.
 
 * **JSON Dot Notation:** Leave the field blank to use all the objects of the specified JSON file as input for service arguments. To read a specific JSON object from the specified JSON file as input for service arguments, specify dot notation for the JSON object, for example, If you have a JSON similar to the one listed at the start of the section, specify insurance.customerDetails to provide all the details of a customer as input to the service.
 * **Output of service &gt; Map and write output values to metadata:** Select the option to save the output values as properties of the workflow instance metadata node in crx-repository. Specify the name of the metadata property and select the corresponding service output attribute to be mapped with metadata property, for example, map the phone_number returned by output service with the phone_number property of workflow metadata.
@@ -212,10 +212,10 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 
 * **Agreement Name:** Specify the title of the agreement. The agreement name becomes part of the subject and body text of the email sent to the signers.
 * **Locale:** Specify the language for the email and verification options.
-* **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](../../../forms/using/adobe-sign-integration-adaptive-forms.md). 
+* **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md). 
 
 * **Document to be Signed:** You can choose a document from a location relative to the payload, use payload as the document, or specify an absolute path of the document.
-* **Days Until Deadline:** A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field.** **The number of days are counted after the documented is assigned to a user for signing.
+* **Days Until Deadline:** A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field. The number of days are counted after the documented is assigned to a user for signing.
 
 * **Reminder Email Frequency:** You can send a reminder email at daily or weekly interval. The week is counted from the day the documented is assigned to a user for signing.
 * **Signature Process:** You can choose to sign a document in a sequential or a parallel order. In sequential order, one signer receives the document at a time for signing. After the first signer completes signing the document, then the document is sent to the second signer, and so on. In parallel order, multiple signers can sign a document at a time.  

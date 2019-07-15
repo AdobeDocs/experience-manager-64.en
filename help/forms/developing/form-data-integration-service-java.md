@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 91b738ec-aa00-4f05-bf42-2574ced8d993
 ---
 
-# Form Data Integration Service JavaAPI Quick Start(SOAP){#form-data-integration-service-javaapi-quick-start-soap}
+# Form Data Integration Service Java API Quick Start (SOAP) {#form-data-integration-service-javaapi-quick-start-soap}
 
 The following Quick Starts are available for the Form Data Integration service.
 

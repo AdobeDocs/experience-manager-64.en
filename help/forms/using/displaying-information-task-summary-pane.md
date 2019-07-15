@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: 90d0f584-b598-4b21-85d7-31da5f13d404
 ---
 
-# Displaying information in the Task Summary pane{#displaying-information-in-the-task-summary-pane}
+# Displaying information in the Task Summary pane {#displaying-information-in-the-task-summary-pane}
 
 When you open a task in AEM Forms workspace, a Task Summary pane can display a summary of the task. This additional and relevant information for a task adds more value for the end-user of AEM Forms workspace.
 
@@ -28,9 +28,7 @@ AEM Forms workspace allows you to display a web page of your choice in the Task 
 
     * Log in to CRXDE Lite environment at `https://[server]:[port]/lc/crx/de`.
     * `Create a node`**SampleSummary** ` under `/content` with type `nt:unstructured`. In the properties of this node, add `sling:resourceType` of type String and value `SampleSummary`. In the Access Control List of this node, add an entry for `PERM_WORKSPACE_USER` allowing `jcr:read` privileges.`
-    
     * `Create a folder`**SampleSummary** under `/apps`. In the Access Control List of `/apps/SampleSummary`, add an entry for `PERM_WORKSPACE_USER` allowing `jcr:readprivileges`.
-    
     * `Create a file `html.esp` at `/apps/SampleSummary`. For example, add the following lines in `html.esp`.`
 
    ```
@@ -49,4 +47,4 @@ AEM Forms workspace allows you to display a web page of your choice in the Task 
     * Set the value of task summary url as `/lc/content/SampleSummary.html` in Assign Task step.
     * When the task associated with this Assign Task step is opened in AEM Forms workspace, the `html.esp` at `/apps/SampleSummary` is rendered in task summary pane.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

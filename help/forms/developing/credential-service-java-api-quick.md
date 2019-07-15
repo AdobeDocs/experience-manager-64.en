@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: b624e255-ae71-4d9c-8554-d48f3e77b799
 ---
 
-# Credential Service Java API QuickStart(SOAP){#credential-service-java-api-quickstart-soap}
+# Credential Service Java API Quick Start (SOAP) {#credential-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Credential service.
 

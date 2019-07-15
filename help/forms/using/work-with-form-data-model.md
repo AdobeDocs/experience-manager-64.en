@@ -9,7 +9,7 @@ topic-tags: integration
 discoiquuid: 2ee45ac0-bc15-403a-93fc-c8592afb967d
 ---
 
-# Work with form data model{#work-with-form-data-model}
+# Work with form data model {#work-with-form-data-model}
 
 Data Integration provides form data model editor to configure and work with form data models.
 
@@ -19,9 +19,9 @@ Form data model editor provides an intuitive user interface and tools for editin
 
 If you are new to Forms data integration and have not configured a data source or created a form data model, see the following topics:
 
-* [AEM Forms Data Integration](../../forms/using/data-integration.md)
-* [Configure data sources](../../forms/using/configure-data-sources.md)
-* [Create form data model](../../forms/using/create-form-data-models.md)
+* [AEM Forms Data Integration](/help/forms/using/data-integration.md)
+* [Configure data sources](/help/forms/using/configure-data-sources.md)
+* [Create form data model](/help/forms/using/create-form-data-models.md)
 
 Read on for details about various tasks and configurations you can perform using the form data model editor.
 
@@ -41,15 +41,11 @@ To add data model objects and services:
 1. In the Data Sources pane, expand data sources to view available data model objects and services.
 1. Select data model objects and services you want to add to the form data model and tap **[!UICONTROL Add Selected]**.
 
-   ![](assets/selected-objects.png)
-
-   Selected data model objects and services
+   ![selected-objects](assets/selected-objects.png)
 
    The Model tab displays a graphical representation of all data model objects and their properties added to the form data model. Each data model object is represented by a box in the form data model.
 
-   ![](assets/model-tab.png)
-
-   Model tab displays added data model objects
+   ![model-tab](assets/model-tab.png)
 
    >[!NOTE] {grayBox="true"}
    >
@@ -57,9 +53,7 @@ To add data model objects and services:
 
    The Services tab lists added services.
 
-   ![](assets/services-tab.png)
-
-   Services tab displays data model services
+   ![services-tab](assets/services-tab.png)
 
    >[!NOTE]
    >
@@ -69,7 +63,7 @@ To add data model objects and services:
 
    >[!NOTE] {grayBox="true"}
    >
-   >You can invoke services that you configured in the Services tab of a form data model using the adaptive form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in adaptive form rules, see Invoke Services and Set Value Of rules in [rule editor](../../forms/using/rule-editor.md).
+   >You can invoke services that you configured in the Services tab of a form data model using the adaptive form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in adaptive form rules, see Invoke Services and Set Value Of rules in [rule editor](/help/forms/using/rule-editor.md).
 
 ## Create data model objects and child properties {#create-data-model-objects-and-child-properties}
 
@@ -83,7 +77,7 @@ To create a data model object without data sources:
 1. Tap **[!UICONTROL Create Entity]**.
 1. In the Create data Model dialog, specify a name for the data model object and tap **[!UICONTROL Add]**. A data model object is added to the form data model. Note that the newly added data model object is not bound to a data source and does not have any properties as shown in the following image. 
 
-   ![](assets/new-entity.png)
+   ![new-entity](assets/new-entity.png)
 
 Next, you can add child properties in unbound data model objects.
 
@@ -102,22 +96,22 @@ To create a child property:
 
 1. Tap **[!UICONTROL Done]** to save the child property and tap **[!UICONTROL Save]** to save the form data model.. The child property is now added to the data model object.
 
-After you have created data model objects and properties, you can continue to create adaptive forms and interactive communications based on the form data model. Later, when you have data sources available and configured, you can bind the form data model with data sources. The binding will automatically get updated in associated adaptive forms and interactive communications. For more information about creating adaptive forms and interactive communications using form data model, see [Use form data model](../../forms/using/using-form-data-model.md).
+After you have created data model objects and properties, you can continue to create adaptive forms and interactive communications based on the form data model. Later, when you have data sources available and configured, you can bind the form data model with data sources. The binding will automatically get updated in associated adaptive forms and interactive communications. For more information about creating adaptive forms and interactive communications using form data model, see [Use form data model](/help/forms/using/using-form-data-model.md).
 
 ### Bind data model objects and properties {#bind-data-model-objects-and-properties}
 
-When the data sources you want to integrate with the form data model are available, you can add them to the form data model as described in [Update data sources](../../forms/using/create-form-data-models.md#update). Then, do the following to bind the unbound data model objects and properties:
+When the data sources you want to integrate with the form data model are available, you can add them to the form data model as described in [Update data sources](/help/forms/using/create-form-data-models.md#update). Then, do the following to bind the unbound data model objects and properties:
 
 1. In the form data model, select the unbound data source that you want to bind with a data source.
 1. Tap **[!UICONTROL Edit Properties]**. 
 1. In the **[!UICONTROL Edit Properties]** pane, tap the browse icon next to the **[!UICONTROL Binding]** field. It opens the **[!UICONTROL Select Object]** dialog that lists data sources added in the form data model.
 
-   ![](assets/select-object.png)
+   ![select-object](assets/select-object.png)
 
 1. Expand the data sources tree and select a data model object to bind with and tap the tick icon.
 1. Tap **[!UICONTROL Done]** to save the properties and then tap **[!UICONTROL Save]** to save the form data model. The data model object is now bound with a data source. Notice the data model object is no longer marked Unbound. 
 
-   ![](assets/bound-model-object.png)
+   ![bound-model-object](assets/bound-model-object.png)
 
 ## Configure services {#configure-services}
 
@@ -125,20 +119,19 @@ To read and write data for a data model object, do the following to configure re
 
 1. Select the check box at the top of a data model object to select it and tap **[!UICONTROL Edit Properties]**.
 
-   ![](assets/edit-properties.png)
+   ![edit-properties](assets/edit-properties.png)
 
    Edit properties to configure read and write services for a data model object
 
    The Edit Properties dialog opens.
 
-   ![](assets/edit-properties-2.png)
+   ![edit-properties-2](assets/edit-properties-2.png)
 
    Edit Properties dialog
 
    >[!NOTE]
    >
    >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. When you add an OData service datasource to a Form Data Model, there is a service available in Form Data Model for all navigation properties in a data model object. You can use this service to read the navigation properties of the corresponding data model object. 
-   >
    >
    >For more information using the service, see [Working with navigation properties of OData services](#navigation-properties-odata).
 
@@ -148,17 +141,17 @@ To read and write data for a data model object, do the following to configure re
 
 1. Select Read and Write services for the selected data model objects. The arguments for the services appear.
 
-   ![](assets/read-write-services.png)
+   ![read-write-services](assets/read-write-services.png)
 
    Read and write services configured for employee data source
 
-1. Tap ![](assets/aem_6_3_edit.png) for the read service argument to bind the argument to a User Profile Attribute, Request Attribute, or Literal value and specify the binding value. It binds the service argument to the specified binding attribute or literal value, which is passed to the service as an argument to fetch details associated with the specified value from the data source.
+1. Tap ![aem_6_3_edit](assets/aem_6_3_edit.png) for the read service argument to bind the argument to a User Profile Attribute, Request Attribute, or Literal value and specify the binding value. It binds the service argument to the specified binding attribute or literal value, which is passed to the service as an argument to fetch details associated with the specified value from the data source.
 
    In this example, the `id` argument will take the value of the `empid` attribute of the user profile and pass it as an argument to the read service. It will read and return values of associated properties from the `employee` data model object for the specified `empid`. So, if you specify 00250 in the `empid` field in the form, the read service will read details of the employee with 00250 employee id.
 
    In addition, you can make an argument mandatory or optional.
 
-   ![](assets/edit-argument.png)
+   ![edit-argument](assets/edit-argument.png)
 
    Binding the id argument to empid attribute of AEM User Profile
 
@@ -178,7 +171,7 @@ To add an association:
 
 1. Select the check box at the top of a data model object to select it and tap **[!UICONTROL Add Association]**. The Add Association dialog opens.
 
-   ![](assets/add-association.png)
+   ![add-association](assets/add-association.png)
 
    >[!NOTE]
    >
@@ -186,7 +179,7 @@ To add an association:
 
    The Add Association dialog opens.
 
-   ![](assets/add-association-2.png)
+   ![add-association-2](assets/add-association-2.png)
 
    Add Association dialog
 
@@ -199,13 +192,13 @@ To add an association:
 
    In the following example, the default argument for the read service of the Dependents data model object is `dependentid`.
 
-   ![](assets/add-association-example.png)
+   ![add-association-example](assets/add-association-example.png)
 
    Default argument for Dependents read service is dependentid
 
    However, the argument must be a common property between the associating data model object, which in this example is `Employeeid`. Therefore, the `Employeeid` argument must be bound to the `id` property of the Employee data model object to fetch the associated dependents details from the Dependents data model object.
 
-   ![](assets/add-association-example-2.png)
+   ![add-association-example-2](assets/add-association-example-2.png)
 
    Updated argument and binding
 
@@ -220,7 +213,7 @@ To add an association:
 >
 >You can edit an association by selecting the checkbox against it and tap **[!UICONTROL Edit Association]**.
 
-![](assets/added-association.png) 
+![added-association](assets/added-association.png) 
 
 ## Edit properties {#properties}
 
@@ -235,7 +228,7 @@ To edit properties:
     * **Property**: Specify the type, sub-type, and format for the property. You can also specify if the selected property is the primary key for the data model object.
     * **Service**: Specify the input model object, output type, and arguments for the service. For a Get service, you can specify if it is expected to return an array.
 
-   ![](assets/edit-properties-service.png)
+   ![edit-properties-service](assets/edit-properties-service.png)
 
    Edit Properties dialog for a get service
 
@@ -250,11 +243,11 @@ For example, you can create a computed property **FullName** whose value is a re
 1. Create a new property with the name `FullName` whose data type is String.
 1. Enable **[!UICONTROL Computed]**and tap **[!UICONTROL Done]**to create the property.
 
-   ![](assets/computed.png)
+   ![computed](assets/computed.png)
 
    The FullName computed property gets created. Notice the icon next to the property to depict a computed property.
 
-   ![](assets/computed-prop.png)
+   ![computed-prop](assets/computed-prop.png)
 
 1. Select the FullName property and tap **[!UICONTROL Edit Rule]**. A rule editor window opens.
 1. In the rule editor window, tap **[!UICONTROL Create]**. A **[!UICONTROL Set Value]** rule window opens.
@@ -265,7 +258,7 @@ For example, you can create a computed property **FullName** whose value is a re
 
    Tap **[!UICONTROL Done]** and then tap **[!UICONTROL Close]** to close the rule editor window. The rule looks similar to the following.
 
-   ![](assets/rule.png)
+   ![rule](assets/rule.png)
 
 1. On the form data model, tap **[!UICONTROL Save]**. The computed property is configured.
 
@@ -305,23 +298,23 @@ When you configure an OData service in a Form Data Model, all navigation propert
 
 The following highlights the `GET LINK of Person /People` service in the Form Data Model, which is a combined service for the three navigation properties in the `Person` entity of the TripPin OData service. 
 
-![](assets/nav-prop-service.png)
+![nav-prop-service](assets/nav-prop-service.png)
 
 Once you add the `GET LINK` service to the Services tab in the Form Data Model, you can edit the properties to choose the output model object and the navigation property to use in the service. For example, the following `GET LINK of Person /People` service in the following example uses Trip as the output model object and the navigation property as Trips.
 
-![](assets/edit-prop-nav-prop.png)
+![edit-prop-nav-prop](assets/edit-prop-nav-prop.png)
 
 >[!NOTE]
 >
->The values available in the **Default Value** field of the **NavigationPropertyName** argument depend on the state of the **Return array?** toggle button. When it is enabled, it shows navigation properties of Collection type.
+>The values available in the **[!UICONTROL Default Value]** field of the **NavigationPropertyName** argument depend on the state of the **[!UICONTROL Return array?]** toggle button. When it is enabled, it shows navigation properties of Collection type.
 
-In this example, you can also choose the output model object as Person and navigation property argument as Friends or BestFriend (depending on whether **Return array?** is enabled or disabled).
+In this example, you can also choose the output model object as Person and navigation property argument as Friends or BestFriend (depending on whether **[!UICONTROL Return array?]** is enabled or disabled).
 
-![](assets/edit-prop-nav-prop2.png)
+![edit-prop-nav-prop2](assets/edit-prop-nav-prop2.png)
 
-Similarly, you can choose a `GET LINK` service and configure its navigation properties when adding associations in the Form Data Model. However, to be able to select a navigation property, ensure that the **[!UICONTROL Binding To field]** is set to **Literal**.
+Similarly, you can choose a `GET LINK` service and configure its navigation properties when adding associations in the Form Data Model. However, to be able to select a navigation property, ensure that the **[!UICONTROL Binding To field]** is set to **[!UICONTROL Literal]**.
 
-![](assets/add-association-nav-prop.png) 
+![add-association-nav-prop](assets/add-association-nav-prop.png) 
 
 ## Generate and edit sample data {#sample}
 
@@ -331,11 +324,11 @@ Do the following to generate and edit sample data:
 
 1. Open a form data model and tap **[!UICONTROL Edit Sample Data]**. It generates and displays the sample data in Edit Sample Data window.
 
-   ![](assets/sample-data.png)
+   ![sample-data](assets/sample-data.png)
 
 1. In **[!UICONTROL Edit Sample Data]** window, edit data, as required, and tap **[!UICONTROL Save]**.
 
-Next, you can use the sample data to prefill and test interactive communications based on the form data model. For more information, see [Use form data model](../../forms/using/using-form-data-model.md).
+Next, you can use the sample data to prefill and test interactive communications based on the form data model. For more information, see [Use form data model](/help/forms/using/using-form-data-model.md).
 
 ## Test data model objects and services {#test-data-model-objects-and-services}
 
@@ -345,16 +338,16 @@ Your form data model is configured but before putting it in use, you may want to
 
    The Test Form Data Model window opens.
 
-   ![](assets/test-data-model.png)
+   ![test-data-model](assets/test-data-model.png)
 
 1. In the Test Form Data Model window, select the data model object or service to test from the Input pane.  
 
 1. Specify an argument value in the test code and tap **[!UICONTROL Test]**. A successful test returns the output in the Output pane.
 
-   ![](assets/test-data-model-2.png)
+   ![test-data-model-2](assets/test-data-model-2.png)
 
 Similarly, you can test other data model objects and services in the form data model.
 
 ## Next steps {#next-steps}
 
-You have a working form data model that is now ready for use in adaptive forms and interactive communications workflows. For more information, see [Use form data model](../../forms/using/using-form-data-model.md).
+You have a working form data model that is now ready for use in adaptive forms and interactive communications workflows. For more information, see [Use form data model](/help/forms/using/using-form-data-model.md).

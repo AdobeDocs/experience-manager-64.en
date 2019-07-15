@@ -58,7 +58,7 @@ If you are using Edge as browser:
 * **Tooling - CRX DE Lite:** Node property not displayed after renaming the node (GRANITE-7160)
 * **UI:** Pulldown "more..." doesn't showing all elements when opened at a popover element on IE and Firefox (GRANITE-16326)
 * **UI:** Info tooltip gets hidden when using fixed columns layout with 2 side-by-side columns (GRANITE-16869)
-* **UI:** Unhandled error when impersonating as a user that does not exist (GRANITE-23228). Workaround by [implementing an error handler](../sites/developing/using/customizing-errorhandler-pages.md) to customize error message.  
+* **UI:** Unhandled error when impersonating as a user that does not exist (GRANITE-23228). Workaround by [implementing an error handler](/help/sites-developing/customizing-errorhandler-pages.md) to customize error message.  
 
 * **Omnisearch:** Searches with backslash cause exception (GRANITE-11769)
 * **Omnisearch:** Open "View Settings" in list view cause search filter to change (GRANITE-16524)
@@ -71,15 +71,15 @@ If you are using Edge as browser:
 
 * **UI**: Asset UI hangs after Copy-Paste and Select-All (CQ-4236142)
 * **UI**: Unable to Move assets after lazy loading (CQ-4236134)
-* **Search**:** **In Classic UI, Tags are not visible in Search (CQ-4235239)
+* **Search**: In Classic UI, Tags are not visible in Search (CQ-4235239)
 
-* **Reports**:** **Error in Asset Modification Report creation (CQ-4239744)
+* **Reports**: Error in Asset Modification Report creation (CQ-4239744)
 
-* **Reports**:** **Scheduled, regular Asset report generation fails inconsistently (some reports remain queued) (CQ-4239089)
+* **Reports**: Scheduled, regular Asset report generation fails inconsistently (some reports remain queued) (CQ-4239089)
 
-* **Metadata**:** **On adding multi value text field to Asset schema, required field cascading rule doesn’t work (CQ-4239333)
+* **Metadata**: On adding multi value text field to Asset schema, required field cascading rule doesn’t work (CQ-4239333)
 
-* **BrandPortal**:** **Publish to BrandPortal is not working for collections (CQ-4238731)
+* **BrandPortal**: Publish to BrandPortal is not working for collections (CQ-4238731)
 
 * **Upload**: When uploading assets with special characters in the file name, the validation error message about the unallowed characters is not displayed for each assets. While it is displayed for only the first asset, the interface clearly indicates to the user that the file name of the provided asset are not allowed. (CQ-4256876)
 
@@ -118,8 +118,8 @@ If you are using Edge as browser:
 /libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices/  
 wsdlauthenticationsettings/items/fixedcolumns/items/container/items/wsdl/items/  
 selectAuthentication/items/custom.  
-2. Update the value of the value property to the same as the value of the text property.  
-3. Click Save All to save the configuration.
+1. Update the value of the value property to the same as the value of the text property.  
+1. Click Save All to save the configuration.
 
 (Ref# CQ-4238462)
 

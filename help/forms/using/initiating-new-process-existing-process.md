@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 4d55a100-1876-41f0-a06f-7a009c934f3d
 ---
 
-# Initiating a new process with existing process data in AEM Forms workspace{#initiating-a-new-process-with-existing-process-data-in-aem-forms-workspace}
+# Initiating a new process with existing process data in AEM Forms workspace {#initiating-a-new-process-with-existing-process-data-in-aem-forms-workspace}
 
 You can initiate a new process using the data of an existing process data. The need to initiate a new process from existing process data arises when we have to use the same form frequently with few changes in content like that of paid-time-off forms. This feature saves time and effort of users especially when the process has long form to fill.
 
@@ -22,7 +22,7 @@ Following are the steps to initiate a new process from existing process data:-
     * In Tracking, select a search template to display a list of process instances. Select the instance whose data you want to use.
     * In the **[!UICONTROL To-Do]** tab, select the task. Click the **[!UICONTROL History]** tab, and select the task that initiated the process instance.
 
-   ![](assets/start3.png) ![](assets/start1.png)
+   ![start3](assets/start3.png) ![start1](assets/start1.png)
 
 1. In the Task action toolbar, click **[!UICONTROL Start]**. An Adaptive Form for the new process instance is displayed with prefilled data.  
 

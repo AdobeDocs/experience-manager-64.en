@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 85d655bb-1b6b-4b4d-ae39-eca3ef9b7fd7
 ---
 
-# Enabling multi-threaded file conversions{#enabling-multi-threaded-file-conversions}
+# Enabling multi-threaded file conversions {#enabling-multi-threaded-file-conversions}
 
 PDF Generator provides the ability to enable multi-threaded file conversions for certain types of files. Multi-threaded file conversion improves the performance of PDF Generator by allowing it to perform multiple conversions at the same time.
 

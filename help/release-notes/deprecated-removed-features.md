@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 15819d42-4897-40fa-a013-e019d1580fa2
 ---
 
-# Deprecated and Removed Features{#deprecated-and-removed-features}
+# Deprecated and Removed Features {#deprecated-and-removed-features}
 
 Adobe constantly evaluates product capabilities, to over time reinvent or replace older features with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
@@ -108,6 +108,11 @@ Customers are advised to review if they make use of the feature/capability in th
    <td><p>Support for Adobe Central Migration Bridge service has been deprecated as Adobe Central product is no longer supported.</p> </td> 
    <td> </td> 
   </tr>
+  <tr>
+   <td>Assets</td> 
+   <td><p>Assets Offloading has been deprecated starting with AEM 6.4</p> </td> 
+   <td> </td> 
+  </tr>
  </tbody>
 </table>
 
@@ -119,7 +124,7 @@ This section lists features and capabilities that have been removed from AEM 6.4
  <tbody>
   <tr>
    <td><strong>Area</strong></td> 
-   <td width="40%"><strong>Feature</strong></td> 
+   <td><strong>Feature</strong></td> 
    <td><strong>Replacement</strong></td> 
   </tr>
   <tr>
@@ -199,7 +204,7 @@ This section is used to pre-announce changes in future release, that are not dep
   <tr>
    <td>Foundation</td> 
    <td>UI Framework</td> 
-   <td>Adobe is planning to deprecate the Coral UI 2 components in 2019. Coral UI 3 was introduced with AEM 6.2, and AEM 6.4 is fully based on Coral 3. Adobe recommends customers and partners that have build custom UIs with Coral 2 to refactored them to Coral 3. Adobe is providing a tool to convert Coral 2 dialogs to Coral 3 - <a href="../sites/developing/using/dialog-conversion.md">Read more</a>.</td> 
+   <td>Adobe is planning to deprecate the Coral UI 2 components in 2019. Coral UI 3 was introduced with AEM 6.2, and AEM 6.4 is fully based on Coral 3. Adobe recommends customers and partners that have build custom UIs with Coral 2 to refactored them to Coral 3. Adobe is providing a tool to convert Coral 2 dialogs to Coral 3 - <a href="/help/sites-developing/dialog-conversion.md">Read more</a>.</td> 
   </tr>
  </tbody>
 </table>

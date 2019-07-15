@@ -11,7 +11,7 @@ topic-tags: forms-app
 discoiquuid: c72f608e-052a-4bf9-b7bc-ddf57483af35
 ---
 
-# Theme Customization{#theme-customization}
+# Theme Customization {#theme-customization}
 
 You can customize the HTML code and CSS file to provide a distinct organization-specific look and feel to AEM Forms app. For example, you can change the background color and height of tasks or Startpoints. The following example provides instructions to change:
 
@@ -29,8 +29,8 @@ You can customize the HTML code and CSS file to provide a distinct organization-
 
 1. Navigate to the templates folder.
 
-    * In Xcode, navigate to the **Capture &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; templates**folder.
-    * In Eclipse, navigate to the** assets &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; templates**folder.
+    * In Xcode, navigate to the **Capture &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; templates** folder.
+    * In Eclipse, navigate to the **assets &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; templates** folder.
     * In Visual Studio, navigate to the **MWSWindows &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; templates** folder.
 
 1. Open the `template.html` file for editing.
@@ -68,8 +68,7 @@ You can customize the HTML code and CSS file to provide a distinct organization-
 
 1. Navigate to the css folder.
 
-    * In Xcode, navigate to **Capture &gt; www &gt; wsmobile &gt; css**.  
-    
+    * In Xcode, navigate to **Capture &gt; www &gt; wsmobile &gt; css**.
     * In Eclipse, navigate to **assets &gt; www &gt; wsmobile &gt; css**.
     * In Visual Studio, navigate to **MWSWindows &gt; www &gt; wsmobile &gt; css**.
 
@@ -81,4 +80,4 @@ You can customize the HTML code and CSS file to provide a distinct organization-
 
    The AEM Forms app now displays instructions instead of description.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

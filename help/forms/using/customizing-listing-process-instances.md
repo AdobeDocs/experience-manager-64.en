@@ -10,7 +10,7 @@ topic-tags: forms-workspace
 discoiquuid: 40d7d43f-ee0a-4e34-ae93-20c9c940f76b
 ---
 
-# Customizing the listing of process instances{#customizing-the-listing-of-process-instances}
+# Customizing the listing of process instances {#customizing-the-listing-of-process-instances}
 
 The process instance list is displayed in the Tracking tab of AEM Forms workspace.
 
@@ -19,8 +19,8 @@ In the process instance list, for each process instance, AEM Forms workspace sho
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr> 
   <tr> 
    <td>description</td> 
@@ -65,7 +65,7 @@ In the process instance list, for each process instance, AEM Forms workspace sho
 
 To display the `description` property of the process instance in the process instance card, perform the following steps.
 
-1. Follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md).
+1. Follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 1. Do the following:
 
     1. Copy /libs/ws/js/runtime/templates/processinstance.html to/apps/ws/js/runtime/templates/, if it does not exist. Click **Save All**.
@@ -91,4 +91,4 @@ To display the `description` property of the process instance in the process ins
    }
    ```
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

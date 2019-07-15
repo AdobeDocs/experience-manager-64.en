@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: f29b089e-8902-4744-81c5-15ee41ba8069
 ---
 
-# Creating Web Applications thatRenders Forms{#creating-web-applications-thatrenders-forms}
+# Creating Web Applications that Renders Forms {#creating-web-applications-thatrenders-forms}
 
 ## Creating Web Applications that Renders Forms {#creating-web-applications-that-renders-forms}
 
@@ -20,21 +20,21 @@ You can create a web-based application that uses Java servlets to invoke the For
 
 >[!NOTE]
 >
->This section describes how to create a web-based application that uses a Java servlet that invokes the Forms service and renders forms-based on fragments. (See [Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering-forms-based-on-fragments).)
+>This section describes how to create a web-based application that uses a Java servlet that invokes the Forms service and renders forms-based on fragments. (See [Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-based-fragments.md).)
 
 Using a Java servlet, you can write a form to a client web browser so that a customer can view and enter data into the form. After populating the form with data, the web user clicks a submit button located on the form to send information back to the Java servlet, where the data can be retrieved and processed. For example, the data can be sent to another process.
 
 This section discusses how to create a web-based application that enables the user to select either American-based form data or Canadian-based form data, as shown in the following illustration. 
 
-![](assets/cw_cw_fragmentwebclient.png)
+![cw_cw_fragmentwebclient](assets/cw_cw_fragmentwebclient.png)
 
 The form that is rendered is a form that is based on fragments. That is, if the user selects American data, then the returned form uses fragments based on American data. For example, the footer of the form contains an American address, as shown in the following illustration. 
 
-![](assets/cw_cw_fragementformfooter.png)
+![cw_cw_fragementformfooter](assets/cw_cw_fragementformfooter.png)
 
 Likewise, if the user selects Canadian data, then the returned form contains a Canadian address, as shown in the following illustration. 
 
-![](assets/cw_cw_fragementformfootercnd.png)
+![cw_cw_fragementformfootercnd](assets/cw_cw_fragementformfootercnd.png)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ This section uses sample files that can be located in the following location:
 
 where &lt;*install directory*&gt; is the installation path. For the purposes of the client application, the Purchase Order Dynamic.xdp file was copied from this installation location and deployed to a Forms application named *Applications/FormsApplication*. The Purchase Order Dynamic.xdp file is placed in a folder named FormsFolder. Likewise, the fragments are placed in folder named Fragments, as shown in the following illustration.
 
-![](assets/cw_cw_fragmentsrepository.png)
+![cw_cw_fragmentsrepository](assets/cw_cw_fragmentsrepository.png)
 
 To access the Purchase Order Dynamic.xdp form design, specify `Applications/FormsApplication/1.0/FormsFolder/Purchase Order Dynamic.xdp` as the form name (the first parameter passed to the `renderPDFForm` method) and `repository:///` as the content root URI value.
 
@@ -88,8 +88,8 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **To create a web project:**
 
-1. Start Eclipse and click **File **&gt; **New Project**.
-1. In the **New Project** dialog box, select **Web **&gt;** Dynamic Web Project**.
+1. Start Eclipse and click **File** &gt;  **New Project**.
+1. In the **New Project** dialog box, select **Web** &gt; **Dynamic Web Project**.
 1. Type `FragmentsWebApplication` for the name of your project and then click **Finish**.
 
 **To add required JAR files to your project:**
@@ -100,7 +100,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **To add a Java servlet to your project:**
 
-1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New **&gt; **Other**. 
+1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New** &gt;  **Other**. 
 1. Expand the **Web** folder, select **Servlet**, and then click **Next**. 
 1. In the Create Servlet dialog box, type `RenderFormFragment` for the name of the servlet and then click **Finish**.
 
@@ -112,7 +112,8 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 >[!NOTE]
 >
->For information about creating the HTML page that invokes the `RenderFormFragment` Java servlet, see [Creating the web page](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms.md#creating-the-web-page).
+>For information about creating the HTML page that invokes the `RenderFormFragment` Java servlet, see 
+[Creating the web page](/help/forms/developing/rendering-forms.md#creating-the-web-page).
 
 ### Creating Java application logic for the servlet {#creating-java-application-logic-for-the-servlet}
 
@@ -322,7 +323,7 @@ The Java servlet captures the data that is posted from the HTML page by using th
              }
 ```
 
-The following HTML code is located in the index.html file that was created during setup of the development environment. (See [Creating a web project](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms.md#creating-a-web-project).)
+The following HTML code is located in the index.html file that was created during setup of the development environment. (See [Creating a web project](/help/forms/developing/rendering-forms.md#creating-a-web-project).) 
 
 ```as3
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
@@ -336,7 +337,7 @@ The following HTML code is located in the index.html file that was created durin
  <form name="myform" action="https://[server]:[port]/FragmentsWebApplication/RenderFormFragment" method="post"> 
       <table> 
       <tr> 
-        <th width="344" scope="col">Forms Fragment Web Client</th> 
+        <th>Forms Fragment Web Client</th> 
       </tr> 
       <tr> 
         <td> 
@@ -370,7 +371,7 @@ To deploy the Java servlet that invokes the Forms service, package your web appl
 
 **To package a web application to a WAR file:**
 
-1. From the **Project Explorer** window, right-click the `FragmentsWebApplication` project and select **Export **&gt;** WAR file**.
+1. From the **Project Explorer** window, right-click the `FragmentsWebApplication` project and select **Export** &gt; **WAR file**.
 1. In the **Web module** text box, type `FragmentsWebApplication` for the name of the Java project. 
 1. In the **Destination** text box, type `FragmentsWebApplication.war`**for the**file name, specify the location for your WAR file, and then click Finish.
 

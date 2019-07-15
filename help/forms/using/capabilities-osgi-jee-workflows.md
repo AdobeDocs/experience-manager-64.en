@@ -9,7 +9,7 @@ topic-tags: publish
 discoiquuid: 4c7ba430-25b2-4ba2-a5eb-4edaed0d599a
 ---
 
-# Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows {#actions-and-capabilities-of-form-centric-aem-workflows-on-osgi-and-aem-forms-jee-workflows}
+# Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows  {#actions-and-capabilities-of-form-centric-aem-workflows-on-osgi-and-aem-forms-jee-workflows}
 
 ## AEM Inbox and HTML Workspace {#aem-inbox-and-html-workspace}
 
@@ -314,72 +314,72 @@ Form-centric AEM Workflows on OSGi and AEM Forms JEE Workflows (AEM Forms on JEE
  </tbody>
 </table>
 
-1. You can use Form-centric AEM Workflows on OSGi to sign an already filled adaptive form. Form-centric AEM Workflows on OSGi supports out of the form signing. The [in-form signing](../../forms/using/working-with-adobe-sign.md#create-in-form-signing-experience) experience is not supported.   
+1. You can use Form-centric AEM Workflows on OSGi to sign an already filled adaptive form. Form-centric AEM Workflows on OSGi supports out of the form signing. The [in-form signing](/help/forms/using/working-with-adobe-sign.md#create-in-form-signing-experience) experience is not supported.   
 
 1. You require access to AEM Inbox to run and monitor AEM Forms OSGi AEM Workflows and HTML Workspace to run and monitor AEM Forms JEE Workflows.  
 1. Native AEM Forms Document Services are available for both Form-centric AEM Workflows on OSGi and AEM Forms on JEE Workflows. AEM Workflow uses native document services for Form-centric AEM Workflows on OSGi and AEM Forms JEE (Process Management) Workflows.
 1. AEM Forms JEE Workflows can only render an adaptive form. It does not support rendering an adaptive form as a PDF document.
-1. AEM forms JEE Workflows do not have a separate step for Adobe Sign. You require an Adobe Sign enabled adaptive form for AEM forms JEE Workflows. For more details, see [Adobe Sign documentation](../../forms/using/working-with-adobe-sign.md#add-and-configure-the-signature-step-component).
-1. You can use the [Invoke Form Data Model Service](../../forms/using/aem-forms-workflow-step-reference.md#p-invoke-form-data-model-service-step-p) step to invoke a web-service service and post or retrieve data from a third-party application. 
-1. You can use the [Send Email](../../forms/using/aem-forms-workflow-step-reference.md#send-email-step) step to send emails.
+1. AEM forms JEE Workflows do not have a separate step for Adobe Sign. You require an Adobe Sign enabled adaptive form for AEM forms JEE Workflows. For more details, see [Adobe Sign documentation](/help/forms/using/working-with-adobe-sign.md#add-and-configure-the-signature-step-component).
+1. You can use the [Invoke Form Data Model Service](/help/forms/using/aem-forms-workflow-step-reference.md#p-invoke-form-data-model-service-step-p) step to invoke a web-service service and post or retrieve data from a third-party application. 
+1. You can use the [Send Email](/help/forms/using/aem-forms-workflow-step-reference.md#send-email-step) step to send emails.
 
 ## Differences between AEM Inbox and AEM Forms app features {#differences-between-aem-inbox-and-aem-forms-app-features}
 
-Two of the prominent ways to launch a Forms-centric workflow are using [AEM Inbox](../../forms/using/manage-applications-inbox.md) and AEM Forms app. The capabilities of AEM Inbox and AEM Forms app, however, differ. AEM Inbox works only with [Forms-centric workflows](../../forms/using/aem-forms-workflow.md) while the AEM Forms app works with both Forms-centric workflows as well as process management.
+Two of the prominent ways to launch a Forms-centric workflow are using [AEM Inbox](/help/forms/using/manage-applications-inbox.md) and AEM Forms app. The capabilities of AEM Inbox and AEM Forms app, however, differ. AEM Inbox works only with [Forms-centric workflows](/help/forms/using/aem-forms-workflow.md) while the AEM Forms app works with both Forms-centric workflows as well as process management.
 
 The following table lists the capabilities of AEM Inbox and AEM Forms app:
 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="69"><p><strong>Actions</strong></p> </td> 
-   <td valign="top" width="61"><p><strong>AEM Inbox</strong></p> </td> 
-   <td valign="top" width="64"><p><strong>AEM Forms App</strong></p> </td> 
+   <td><p><strong>Actions</strong></p> </td> 
+   <td><p><strong>AEM Inbox</strong></p> </td> 
+   <td><p><strong>AEM Forms App</strong></p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Starting a form application</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Starting a form application</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Submitting tasks</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Submitting tasks</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Delegating tasks</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Not Supported</p> </td> 
+   <td><p>Delegating tasks</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Not Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Tracking tasks history and task summary</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Not Supported</p> </td> 
+   <td><p>Tracking tasks history and task summary</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Not Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Adding task level attachments</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Adding task level attachments</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Viewing task level attachments</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Viewing task level attachments</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Adding field level attachments</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Adding field level attachments</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Displaying the calendar view</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Not Supported</p> </td> 
+   <td><p>Displaying the calendar view</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Not Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Adding comments</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Adding comments</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
  </tbody>
 </table>

@@ -9,5 +9,5 @@ contentOwner: khsingh
 discoiquuid: 4292d632-0ce3-48be-898b-de358cc27019
 ---
 
-# DO NOT PUBLISH WIP - Work in progress{#do-not-publish-wip-work-in-progress}
+# DO NOT PUBLISH WIP - Work in progress {#do-not-publish-wip-work-in-progress}
 

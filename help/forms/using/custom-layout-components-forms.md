@@ -10,11 +10,11 @@ topic-tags: customization
 discoiquuid: 102718cb-592a-4a5c-89a6-ad4d56f3d547
 ---
 
-# Creating custom layout components for adaptive forms{#creating-custom-layout-components-for-adaptive-forms}
+# Creating custom layout components for adaptive forms {#creating-custom-layout-components-for-adaptive-forms}
 
 ## Prerequisite {#prerequisite}
 
-Knowledge of layouts, which enables you to create/use a custom layout. See [Changing Panel Layout](../../forms/using/layout-capabilities-adaptive-forms.md).
+Knowledge of layouts, which enables you to create/use a custom layout. See [Changing Panel Layout](/help/forms/using/layout-capabilities-adaptive-forms.md).
 
 ## Adaptive Form Panel Layout component {#adaptive-form-panel-layout-component}
 
@@ -26,11 +26,7 @@ The Adaptive Form Panel Layout component controls the way adaptive form componen
 1. Copy a panel layout from the location `/libs/fd/af/layouts/panel` (for example, `tabbedPanelLayout`) to `/apps` (for example, `/apps/af-custom-layout`).
 1. Rename the layout you copied to `customPanelLayout`. Change the properties of the nodes `qtip` and `jcr:description`. For example, change them to `Custom layout - Toggle tabs`.
 
-   |  
-   qtip   |
-   |---|
-
-   ![Custom Panel Layout CRX DE Snapshot](assets/custom.png)
+![Custom Panel Layout CRX DE Snapshot](assets/custom.png)
 
    >[!NOTE]
    >

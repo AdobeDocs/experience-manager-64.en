@@ -10,15 +10,15 @@ topic-tags: hTML5_forms
 discoiquuid: 445e24af-cd1a-414d-bd01-9feb6631bbef
 ---
 
-# Saving an HTML5 form as a draft{#saving-an-html-form-as-a-draft}
+# Saving an HTML5 form as a draft {#saving-an-html-form-as-a-draft}
 
 You can save an HTML5 form as a draft and resume filling the form at a later stage. Forms Portal allows any user to save and restore an HTML5 form. To enable the Save as Draft functionality, add the following configurations to the profile node:
 
 ## Custom Profile to allow Save as Draft feature {#custom-profile-to-allow-save-as-draft-feature}
 
-Out of the box, AEM Forms provide a **Save as Draft** profile. You can render a form with the Save as Draft profile to enable draft functionality for an HTML5 form. You can specify HTML render profile for a form in [Forms Manager](../../forms/using/introduction-managing-forms.md).
+Out of the box, AEM Forms provide a **Save as Draft** profile. You can render a form with the Save as Draft profile to enable draft functionality for an HTML5 form. You can specify HTML render profile for a form in [Forms Manager](/help/forms/using/introduction-managing-forms.md).
 
-To enable Save as Draft functionality for your existing [custom profile](../../forms/using/custom-profile.md), add the following properties to your custom profile node: 
+To enable Save as Draft functionality for your existing [custom profile](/help/forms/using/custom-profile.md), add the following properties to your custom profile node: 
 
 <table> 
  <tbody> 
@@ -45,7 +45,7 @@ To enable Save as Draft functionality for your existing [custom profile](../../f
 
 ## Drafts storage and listing {#drafts-storage-and-listing}
 
-After enabling Save as Draft functionality for a form; when the form is saved, it is listed in the [Drafts and Submission component](../../forms/using/draft-submission-component.md). You can retrieve and start filling the saved form form the Draft and Submission component.
+After enabling Save as Draft functionality for a form; when the form is saved, it is listed in the [Drafts and Submission component](/help/forms/using/draft-submission-component.md). You can retrieve and start filling the saved form form the Draft and Submission component.
 
 To enable forms listing for the Draft and Submission component, add the following property to the profile node: 
 
@@ -66,4 +66,4 @@ To enable forms listing for the Draft and Submission component, add the followin
  </tbody> 
 </table>
 
-By default, AEM Forms stores the user data associated with the draft and submission of a form in the /content/forms/fp node on the Publish instance. You can add your custom storage provider, for details see [Custom storage for Drafts and Submissions component](../../forms/using/adding-custom-storage-provider-forms.md).
+By default, AEM Forms stores the user data associated with the draft and submission of a form in the /content/forms/fp node on the Publish instance. You can add your custom storage provider, for details see [Custom storage for Drafts and Submissions component](/help/forms/using/adding-custom-storage-provider-forms.md).

@@ -10,7 +10,7 @@ topic-tags: publish
 discoiquuid: 515ceaf6-c132-4e1a-b3c6-5d2c1ccffa7c
 ---
 
-# Listing forms on a web page using APIs{#listing-forms-on-a-web-page-using-apis}
+# Listing forms on a web page using APIs {#listing-forms-on-a-web-page-using-apis}
 
 AEM Forms provides a REST-based search API that web developers can use to query and retrieve a set of forms that meets the search criteria. You can use APIs to search forms based on various filters. The response object contains form attributes, properties, and render end points of forms.
 
@@ -21,22 +21,22 @@ To search forms using the REST API, send a GET request to the server at `https:/
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Attribute name<br /> </strong></td> 
-   <td style="text-align: center;"><strong>Description<br /> </strong></td> 
+   <td><strong>Attribute name<br /> </strong></td> 
+   <td><strong>Description<br /> </strong></td> 
   </tr> 
   <tr> 
    <td>func<br /> </td> 
-   <td><p>Specifies the function to call. To search forms, set value of the <span class="code">func </span>attribute to <span class="code">searchForms</span>.</p> <p>For example, <code class="code">
+   <td><p>Specifies the function to call. To search forms, set value of the <code>func </code>attribute to <code>searchForms</code>.</p> <p>For example, <code class="code">
        URLParameterBuilder entityBuilder=new URLParameterBuilder ();
        entityBuilder.add("func", "searchForms");</code></p> <p><strong>Note:</strong> <em>This parameter is mandatory.</em><br /> </p> </td> 
   </tr> 
   <tr> 
    <td>appPath<br /> </td> 
-   <td><p style="word-break: break-word;">Specifies the application path to search for forms. By default, the appPath attribute searches all the applications available at the root node level.<br /> </p> <p style="word-break: break-word;">You can specify multiple application paths in a single search query. Separate multiple paths with pipe (|) character. </p> </td> 
+   <td><p>Specifies the application path to search for forms. By default, the appPath attribute searches all the applications available at the root node level.<br /> </p> <p>You can specify multiple application paths in a single search query. Separate multiple paths with pipe (|) character. </p> </td> 
   </tr> 
   <tr> 
    <td>cutPoints<br /> </td> 
-   <td><p style="word-break: break-word;">Specifies the properties to fetch with the assets. You can use asterisk (*) to fetch all the properties at once. Use the pipe (|) operator to specify multiple properties. </p> <p style="word-break: break-word;">For example, <span class="code">cutPoints=propertyName1|propertyName2|propertyName3</span></p> <p style="word-break: break-word;"><strong>Note</strong>: </p> 
+   <td><p>Specifies the properties to fetch with the assets. You can use asterisk (*) to fetch all the properties at once. Use the pipe (|) operator to specify multiple properties. </p> <p>For example, <code>cutPoints=propertyName1|propertyName2|propertyName3</code></p> <p><strong>Note</strong>: </p> 
     <ul> 
      <li><em>Properties such as id, path, and name are always fetched. </em></li> 
      <li><em>Every asset has a different set of properties. Properties such as formUrl, pdfUrl, and guideUrl do not depend on the cutpoints attribute. These properties depend on the asset type and are fetched accordingly. </em></li> 
@@ -65,11 +65,11 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>statements</td> 
-   <td><p style="word-break: break-word;">Specifies the list of statements. The queries are executes on the list of the statements specified in the JSON format. </p> <p style="word-break: break-word;">For example,</p> <p style="word-break: break-word;"><code class="code">JSONArray statementArray=new JSONArray();
+   <td><p>Specifies the list of statements. The queries are executes on the list of the statements specified in the JSON format. </p> <p>For example,</p> <p><code class="code">JSONArray statementArray=new JSONArray();
        JSONObject statement=new JSONObject();
        statement.put("name", "title");
        statement.put("value", "SimpleSurveyAF");
-       statement.put("operator", "EQ"); statementArray.put(statement);</code></p> <p style="word-break: break-word;">In the above example, </p> 
+       statement.put("operator", "EQ"); statementArray.put(statement);</code></p> <p>In the above example, </p> 
     <ul> 
      <li><strong>name</strong>: specifies the name of the property to search for.</li> 
      <li><strong>value</strong>: specifies the value of the property to search for.</li> 
@@ -92,7 +92,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>orderings<br /> </td> 
-   <td><p style="word-break: break-word;">Specifies the order criteria for the search results. The criteria is defined in the JSON format. You can sort search results on more than one field. The results are sorted in the order as the fields appear in the query.</p> <p style="word-break: break-word;">For example,</p> <p style="word-break: break-word;">To retrieve query results ordered by title property in the ascending order, add following parameter: </p> <p style="word-break: break-word;"><code class="code">JSONArray orderingsArray=new JSONArray();
+   <td><p>Specifies the order criteria for the search results. The criteria is defined in the JSON format. You can sort search results on more than one field. The results are sorted in the order as the fields appear in the query.</p> <p>For example,</p> <p>To retrieve query results ordered by title property in the ascending order, add following parameter: </p> <p><code class="code">JSONArray orderingsArray=new JSONArray();
        JSONObject orderings=new JSONObject();
        orderings.put("name", "title");
        orderings.put("criteria", "ASC");
@@ -109,7 +109,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>includeXdp</td> 
-   <td>Specifies whether to retrieve the binary content or not. The <span class="code">includeXdp</span> attribute is applicable for assets of type <span class="code">FORM</span>, <span class="code">PDFFORM</span>, and <span class="code">PRINTFORM</span>.</td> 
+   <td>Specifies whether to retrieve the binary content or not. The <code>includeXdp</code> attribute is applicable for assets of type <code>FORM</code>, <code>PDFFORM</code>, and <code>PRINTFORM</code>.</td> 
   </tr> 
   <tr> 
    <td>assetType</td> 

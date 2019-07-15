@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a62b68b4-7735-49b1-8938-f0d9e4c4a051
 ---
 
-# IBM DB2 database: Running commands for regular maintenance{#ibm-db-database-running-commands-for-regular-maintenance}
+# IBM DB2 database: Running commands for regular maintenance {#ibm-db-database-running-commands-for-regular-maintenance}
 
 The following IBM DB2 commands are recommended for regular maintenance of your AEM forms database. For detailed information about maintenance and performance tuning for your DB2 database, see *IBM DB2 Administration Guide*.
 
@@ -35,7 +35,7 @@ Run the `runstats` command on the following AEM forms database tables and indexe
 
 >[!NOTE]
 >
->The `*runstats*` command needs to be run only during the first database synchronization. However, it must be run twice during that process: once during the synchronization of Users and Groups and then during the synchronization of Group Members. Ensure that the script executes completely each time you run it.
+>The `runstats` command needs to be run only during the first database synchronization. However, it must be run twice during that process: once during the synchronization of Users and Groups and then during the synchronization of Group Members. Ensure that the script executes completely each time you run it.
 
 For correct syntax and usage, see the database manufacturer’s documentation. Below, `<schema>` is used to denote the schema that is associated with your DB2 user name. If you have a simple default DB2 installation, this is the database schema name.
 

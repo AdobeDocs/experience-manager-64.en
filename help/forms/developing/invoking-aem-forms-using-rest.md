@@ -11,7 +11,7 @@ topic-tags: coding
 discoiquuid: df7b60bb-4897-479e-a05e-1b1e9429ed87
 ---
 
-# Invoking AEM Forms using REST Requests{#invoking-aem-forms-using-rest-requests}
+# Invoking AEM Forms using REST Requests {#invoking-aem-forms-using-rest-requests}
 
 Processes created in Workbench can be configured so that you can invoke them through Representational State Transfer (REST) requests. REST requests are sent from HTML pages. That is, you can invoke a Forms process directly from a web page using a REST request. For example, you can open a new instance of a web page. Then you can invoke a Forms process and load a rendered PDF document with data that was sent in an HTTP POST request.
 
@@ -74,7 +74,7 @@ The following data types are supported when invoking AEM Forms services using RE
 
   The following example is an XML message returned by a service that has a single output parameter named *list*, which is a list of integers.
   ` <result>   <list>12345</list>   . . .   <list>67890</list>  </result>`An output map parameter is represented in the resultant XML message as a series of XML elements with one element for each record in the map. Every element is given the same name as the map record’s key. The value of each element is either a text representation of the map record’s value (if the map consists of records with a string value) or a URL pointing to the Document’s content (if the map consists of records with the `com.adobe.idp.Document` value). Below is an example of an XML message returned by a service that has a single output parameter named `map`. This parameter value is a map consisting of records that associate letters with `com.adobe.idp.Document` objects. 
-  ` <result>   <A>http://localhost:8080/DocumentManager/docm123/4567</A>   . . .   <Z>http://localhost:8080/DocumentManager/docm987/6543</Z>  </result>  `
+  ` <result>   http://localhost:8080/DocumentManager/docm123/4567   . . .   <Z>http://localhost:8080/DocumentManager/docm987/6543</Z>  </result>  `
 
 ## Asynchronous invocations {#asynchronous-invocations}
 

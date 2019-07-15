@@ -11,7 +11,7 @@ topic-tags: forms-workspace
 discoiquuid: 788c427f-190f-4580-9efd-6a4c4a008837
 ---
 
-# Updating the link to the documentation{#updating-the-link-to-the-documentation}
+# Updating the link to the documentation {#updating-the-link-to-the-documentation}
 
 You can access the default help content for AEM Forms workspace by selecting **Help &gt; Workspace Help**. It points to the online documentation on Adobe's website. However, you can update it to point to any other URL.
 
@@ -20,7 +20,7 @@ Consider the following use cases where you may want to change the default help U
 * For providing localized help in a language of your choice.
 * For providing customized help content for your customized workspace.
 
-To update the URL of the online documentation, follow the [Generic Steps of customization](../../forms/using/generic-steps-html-workspace-customization.md) and then the following steps.
+To update the URL of the online documentation, follow the [Generic Steps of customization](/help/forms/using/generic-steps-html-workspace-customization.md) and then the following steps.
 
 1. Copy the `userinfo.html` file from `/libs/ws/js/runtime/templates` to `/apps/ws/js/runtime/templates`.
 1. Change:
@@ -46,4 +46,4 @@ To update the URL of the online documentation, follow the [Generic Steps of cust
     1. Open /apps/ws/js/registry.js for editing.
     1. Search and replace `text!/lc/libs/ws/js/runtime/templates/userinfo.html` with `text!/lc/apps/ws/js/runtime/templates/userinfo.html`.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

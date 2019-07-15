@@ -11,12 +11,12 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 986d16fc-4c81-4785-b1f3-fe8bd7ff669e
 ---
 
-# Basics of managing certificates and credentials{#basics-of-managing-certificates-and-credentials}
+# Basics of managing certificates and credentials {#basics-of-managing-certificates-and-credentials}
 
 A *credential* contains your private key information needed for signing or identifying documents. A *certificate* is public key information that you configure for trust. AEM forms uses certificates and credentials for several purposes:
 
-* Acrobat Reader DC extensions uses a credential to enable Adobe Reader usage rights in PDF documents. (See [Configuring credentials for use with Acrobat Reader DC extensions](../../../forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md#configuring-credentials-for-use-with-acrobat-reader-dc-extensions).)
-* You can configure Rights Management to display credentials for use in Acrobat only from trusted issuers. (See [Configure Rights Management display settings](../../../forms/using/admin-help/configuring-client-server-options.md#configure-document-security-display-settings).) The Common Name (CN) must be present in the certificate.
+* Acrobat Reader DC extensions uses a credential to enable Adobe Reader usage rights in PDF documents. (See [Configuring credentials for use with Acrobat Reader DC extensions](/help/forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md#configuring-credentials-for-use-with-acrobat-reader-dc-extensions).)
+* You can configure Rights Management to display credentials for use in Acrobat only from trusted issuers. (See [Configure Rights Management display settings](/help/forms/using/admin-help/configuring-client-server-options.md#configure-document-security-display-settings).) The Common Name (CN) must be present in the certificate.
 * The Signature service accesses certificates and credentials. For details on the Signature service, see [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 **Generating a pair key**

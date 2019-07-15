@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1f15f028-aa81-478e-97eb-f83a4dc0418c
 ---
 
-# Configuring directories{#configuring-directories}
+# Configuring directories {#configuring-directories}
 
 For each enterprise domain you configure, specify the directories that the authentication provider queries for user information. You can configure multiple directories for a domain.
 
@@ -84,7 +84,7 @@ When you add a directory to a domain, specify the following directory settings.
 
 **User:** Authentication is required. In the Name box, specify the name of the user record that can access the directory. It is best to enter the full distinguished name (DN) of the user account, such as cn=Jane Doe, ou=user, dc=can, dc=com. In the Password box, specify the associated password. These settings are required when you select User as the Binding option.
 
-**Name:** Name that can be used to connect to the LDAP database when anonymous access is not enabled. For Active Directory 2003, specify [domain name]\[userid]. For Sun™ One, eDirectory or IBM Tivoli Directory Server, specify the fully qualified name of the user, such as uid=lcuser,ou=it,o=company.com.
+**Name:** Name that can be used to connect to the LDAP database when anonymous access is not enabled. For Active Directory 2003, specify `[domain name]\[userid]`. For Sun™ One, eDirectory or IBM Tivoli Directory Server, specify the fully qualified name of the user, such as uid=lcuser,ou=it,o=company.com.
 
 **Password:** Password that corresponds with the name you specified to connect to the LDAP database when anonymous access is not enabled.
 
@@ -108,7 +108,7 @@ If you selected the Enable referral option in the Directory settings, set the Ba
 
 ***Note**: Do not include the user’s DN in this setting. To synchronize a particular user, use the Search Filter setting.*
 
-Although Base DN is a mandatory setting in administration console, some directory servers such as IBM Domino Enterprise Server may require an empty BaseDN. To specify an empty Base DN, export the config.xml file, edit the setting in the config.xml file, and then reimport it. (See [Importing and exporting the configuration file](../../../forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
+Although Base DN is a mandatory setting in administration console, some directory servers such as IBM Domino Enterprise Server may require an empty BaseDN. To specify an empty Base DN, export the config.xml file, edit the setting in the config.xml file, and then reimport it. (See [Importing and exporting the configuration file](/help/forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
 
 **Search Filter:** (Mandatory) The search filter to use to find the record that is associated with the user. You can perform a one-level search or a sub-level search. (See Search Filter Syntax or RFC 2254.) Additional information for the Microsoft AD schema, see Active Directory Schema.
 
@@ -160,7 +160,7 @@ The amount of space used to display the name of the business calendar key in the
 
 **Base DN:** (Mandatory) Base distinguished name of the directory.
 
-Although Base DN is a mandatory setting in administration console, some directory servers such as IBM Domino Enterprise Server require an empty BaseDN. To specify an empty Base DN, export the config.xml file, edit the setting in the config.xml file, and then reimport it. (See [Importing and exporting the configuration file](../../../forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
+Although Base DN is a mandatory setting in administration console, some directory servers such as IBM Domino Enterprise Server require an empty BaseDN. To specify an empty Base DN, export the config.xml file, edit the setting in the config.xml file, and then reimport it. (See [Importing and exporting the configuration file](/help/forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
 
 **Search Filter:** (Mandatory) The search filter to use to find the record that is associated with the group. You can perform a one-level search or a sub-level search.
 

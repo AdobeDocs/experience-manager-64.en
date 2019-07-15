@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9c4f8e1e-c2f7-4648-9a2a-104bd540a47a
 ---
 
-# Enabling online commenting for Adobe Reader web browser plug-in{#enabling-online-commenting-for-adobe-reader-web-browser-plug-in}
+# Enabling online commenting for Adobe Reader web browser plug-in {#enabling-online-commenting-for-adobe-reader-web-browser-plug-in}
 
 To enable the Comment and Markup toolbar in a PDF file that is viewed by using the Adobe Reader web browser plug-in, a collaboration back end must be in place, such as a review server. If a collaboration back end is not available, you must save the PDF file to your computer, review and mark up the file in Adobe Reader, and send it back to the originator.
 

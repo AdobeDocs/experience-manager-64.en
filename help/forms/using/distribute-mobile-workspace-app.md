@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: 5756cb52-dd47-4277-981c-fd0af9a20638
 ---
 
-# Distribute AEM Forms app{#distribute-aem-forms-app}
+# Distribute AEM Forms app {#distribute-aem-forms-app}
 
 Mobile Device Management (MDM) enables the large-scale deployment of apps on mobile devices.
 
@@ -29,16 +29,16 @@ An MDM solution along with Mobile Application Management, allows you to manage i
 
 The MDM administrator can upload both ipa and apk files to the MDM server and control the users who can access the ipa or apk files. The administrator can also control the profile setting corresponding to each application.
 
-## Profile settings affecting the AEM Forms app <br> {#profile-settings-affecting-the-aem-forms-app-br}
+## Profile settings affecting the AEM Forms app {#profile-settings-affecting-the-aem-forms-app-br}
 
 The following Profile settings on your device will affect the functioning of the AEM Forms app on you device:
 
 * **Allow use of camera** in the **Device functionality** section
 
-If you disable **Allow use of camera**, the camera feature of the [Photograph annotation](../../forms/using/add-attachments.md) will not function. You need to enable this option to use the camera in the app.
+If you disable **Allow use of camera**, the camera feature of the [Photograph annotation](/help/forms/using/add-attachments.md) will not function. You need to enable this option to use the camera in the app.
 
 * **Require passcode on device** in the Passcode policies section
 
 To enable **encryption of application data**, you are recommended to enable the **passcode** on your device. If passcode is not set on device, application data stored on the device is not encrypted.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -11,7 +11,7 @@ topic-tags: hTML5_forms
 discoiquuid: a8d986ab-2a4c-488b-957e-4606f7391bd3
 ---
 
-# Creating CSS styles for HTML5 forms{#creating-css-styles-for-html-forms}
+# Creating CSS styles for HTML5 forms {#creating-css-styles-for-html-forms}
 
 HTML5 rendition of a XFA-based form template consists of several HTML elements. These elements are arranged in an order. Every element has well-defined CSS classes. You can use these CSS class to select and change the appearance of an element.
 
@@ -71,47 +71,47 @@ Besides the type and name class, the field component also contains an additional
   <tr> 
    <td><strong>Component</strong></td> 
    <td><strong>Type</strong></td> 
-   <td style="text-align: center;"><strong>Name</strong></td> 
+   <td><strong>Name</strong></td> 
   </tr> 
   <tr> 
    <td>Page</td> 
    <td>page</td> 
-   <td style="text-align: center;">User-defined name<br /> or<br /> Page&lt;pageNumber&gt; (default)</td> 
+   <td>User-defined name<br /> or<br /> Page&lt;pageNumber&gt; (default)</td> 
   </tr> 
   <tr> 
    <td>Content Area</td> 
    <td>contentarea</td> 
-   <td style="text-align: center;">User-defined name</td> 
+   <td>User-defined name</td> 
   </tr> 
   <tr> 
    <td>Subform</td> 
    <td>subform</td> 
-   <td style="text-align: center;">User-defined name</td> 
+   <td>User-defined name</td> 
   </tr> 
   <tr> 
    <td>Exclusion Group</td> 
    <td>exclgroup</td> 
-   <td style="text-align: center;">User-defined name</td> 
+   <td>User-defined name</td> 
   </tr> 
   <tr> 
    <td>Draw</td> 
    <td>draw</td> 
-   <td style="text-align: center;">User-defined name</td> 
+   <td>User-defined name</td> 
   </tr> 
   <tr> 
    <td>Field</td> 
    <td>field</td> 
-   <td style="text-align: center;">User-defined name</td> 
+   <td>User-defined name</td> 
   </tr> 
   <tr> 
    <td>Caption</td> 
    <td>caption</td> 
-   <td style="text-align: center;">NA</td> 
+   <td>NA</td> 
   </tr> 
   <tr> 
    <td>Widget</td> 
    <td>widget</td> 
-   <td style="text-align: center;">The widget developer defines it (For user-defined widgets see the table in the following section)</td> 
+   <td>The widget developer defines it (For user-defined widgets see the table in the following section)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,11 +125,11 @@ Every field has an associated widget representing the UI element. The classes of
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Field Type</strong></td> 
-   <td style="text-align: center;"><strong>Subtype</strong></td> 
-   <td style="text-align: center;"><strong>Widget Name</strong></td> 
-   <td style="text-align: center;"><strong>Widget Type</strong></td> 
-   <td style="text-align: center;"><strong>HTML UI Tag</strong></td> 
+   <td><strong>Field Type</strong></td> 
+   <td><strong>Subtype</strong></td> 
+   <td><strong>Widget Name</strong></td> 
+   <td><strong>Widget Type</strong></td> 
+   <td><strong>HTML UI Tag</strong></td> 
   </tr> 
   <tr> 
    <td>Button<br type="_moz" /> </td> 
@@ -245,4 +245,4 @@ When the validation of a field results in a warning, an inline warning is displa
 
 When validation for a field fails, the style of the widget changes. This style change is done by applying a CSS class **widgetError **on the widget component. To modify the default styling, override the **widgetError** class.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

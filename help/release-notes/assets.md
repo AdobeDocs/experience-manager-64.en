@@ -11,44 +11,42 @@ content-type: reference
 discoiquuid: 397b3267-1437-4263-963c-9d68ccc928ab
 ---
 
-# AEM Assets Release Notes{#aem-assets-release-notes}
+# AEM Assets Release Notes {#aem-assets-release-notes}
 
-Release notes specific to Adobe Experience Manager 6.4 Assets.
-
-Here are the key features and highlights of the AEM 6.4 Assets release.
+The key features, highlights, and enhancements done in AEM 6.4 Assets are covered in these release notes. For detailed information, follow the provided links.
 
 ## Adobe Asset Link {#adobe-asset-link}
 
-Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise, providing a connection to AEM Assets directly from Photoshop, Illustrator, and InDesign—without leaving their tools of choice.  
+Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise, providing a connection to AEM Assets directly from Photoshop, Illustrator, and InDesign — without leaving their tools of choice.  
 
-To learn more about the capability, prerequisites, and how to access it, see the [Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) page.  
+To learn more about the capability, prerequisites, and how to access it, see the [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) page.  
 
 ## Enhanced Smart Tags (powered by Adobe Sensei) {#enhanced-smart-tags-powered-by-adobe-sensei}
 
-AEM 6.4 introduces Artificial Intelligence based Enhanced Smart Tags capability in addition to Smart Tags which was launched in 6.3.
+AEM 6.4 introduces Artificial Intelligence based Enhanced Smart Tags capability in addition to Smart Tags that was launched in 6.3.
 
-* Smart Content Service learns customer's business taxonomy and uses it to automatically tag digital assets with customer relevant tags in addition to generic tags. It improves asset discoverability significantly and reduces time to market. 
+* Smart Content Service learns customer's business taxonomy and uses it to automatically tag digital assets with customer relevant tags in addition to generic tags. It improves asset discoverability significantly and reduces time to market.
 * Adobe Sensei powers the Smart Content Service, which enables you to train the image recognition algorithm on your business taxonomy. This content intelligence is then used to apply relevant tags on similar assets.
 
-AEM Assets Enhanced Smart Tags requires the [latest service pack of AEM 6.4](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
+To use AEM Assets Enhanced Smart Tags, install the [latest service pack of AEM 6.4](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
 
 ## Smart Translation Search (powered by Adobe Sensei) {#smart-translation-search-powered-by-adobe-sensei}
 
-AEM 6.4 introduces Smart Translation Search capability to support multi lingual search scenarios. Customers with globally distributed teams across multiple locales now have access to search in different languages without having to go through costly and time-consuming translation workflows.
+AEM 6.4 introduces Smart Translation Search capability to support multilingual search scenarios. Customers with globally distributed teams across multiple locales now have access to search in different languages without having to go through costly and time-consuming translation workflows.
 
-* Search query is translated without manual intervention
-* Has support for Smart Tags, which are generated in English, but are machine translated to others language 
-* Multi-lingual search is built using open source library Apache Joshua, which supports more than 50 languages.
+* Search query is translated without manual intervention.
+* Has support for Smart Tags, which are generated in English, but are machine translated to others language.
+* Multilingual search is built using open source library Apache Joshua that supports more than 50 languages.
 
 ## User Experience {#user-experience}
 
-AEM 6.4 delivers significant user experience improvents in areas of browse, search, multi page assets and admin tools. Details below:
+AEM 6.4 delivers significant user experience improvements in areas of browse, search, multi page assets and admin tools. Details below:
 
 Browse Improvements
 
 * New Content Tree rail to quickly navigate an asset hierarchy. In combination with the list view, this restores the Classic UI interaction model to browse asset hierarchies.
 * New Keyboard Shortcuts such as (m) for Move operation, (p) for navigation to properties page, (ctrl+c) for copy operation and many more.
-* Improved scrolling, lazy loading experience in card and list view for browsing large number of assets. 
+* Improved scrolling, lazy loading experience in card and list view for browsing large number of assets.
 * Improved Card View with support for different sized cards based on view setting.
 * Improved asset detail experience with ability to view, navigate to “previous” or "next" asset along with number of assets, current asset.
 
@@ -70,7 +68,7 @@ Admin Tools Improvements
 
 Catalogs
 
-* Improved user experience, alignement with Templates UI. For more information, see [Catalog Producer](../sites/administering/using/catalog-producer.md).
+* Improved user experience, alignement with Templates UI. For more information, see [Catalog Producer](../sites-administering/catalog-producer.md).
 
 ## Metadata {#metadata}
 
@@ -113,9 +111,9 @@ Here is a list of AEM Desktop App highlights added since AEM 6.3 was released:
 
 For easier access to the documentation and best practices, the following documentation is available:
 
-* [User Guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), aimed at end users working with the application
-* [Best Practices Guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html), aimed at end users and administrators
-* Configuration Guide, aimed at administrators setting up AEM and AEM Desktop App to work together
+* [User guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), aimed at end users working with the application
+* [Best practices guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html), aimed at end users and administrators
+* [Installation guide](https://helpx.adobe.com/experience-manager/desktop-app/install-configure-aem-desktop-app.html), aimed at administrators setting up AEM and AEM desktop app to work together
 
 ## Tiered Storage {#tiered-storage}
 
@@ -124,29 +122,29 @@ AEM 6.4 includes a set of features that support various tiered storage preferenc
 * The ability for users to select and later change storage class at will, and define rules for storage of assets from one class to another or manage the lifecycle of their assets.
 * The ability for users to lower their storage cost by selecting a different AWS or Azure.
 
-For an overview of supported platforms, please refer to the [Technical Requirements Documentation](../sites/deploying/using/technical-requirements.md).
+For an overview of supported platforms, please refer to the [Technical Requirements Documentation](../sites-deploying/technical-requirements.md).
 
 ## Closed User Group {#closed-user-group}
 
-* In AEM 6.4, Closed User Group or CUG provides a way to restrict folder access on publish instance, it’s a touch UI option to add principals through folder properties page at the folder level and are applied to all folder and subfolders/assets inside. 
+* In AEM 6.4, Closed User Group or CUG provides a way to restrict folder access on publish instance, it’s a touch UI option to add principals through folder properties page at the folder level and are applied to all folder and subfolders/assets inside.
 * In publish mode, if a CUG is configured and authorization enabled om a folder, users are redirected to a login page when they try to access the folder. Therefore, authorized users can access the folder and its assets only after successful login. Hence, CUG restricts read access to a given tree in the content repository for everyone except selected principals.
 
 ## Dynamic Media add-on {#dynamic-media-add-on}
 
 Dynamic Media in 6.4 supports a new mode - where master asset is uploaded and managed with AEM Assets web UI, and dynamic renditions and other dynamic media features are handled in the background by the Dynamic Media cloud delivery service.
 
-In this new mode (introduced first with the release of AEM 6.3 Feature Packs 14410 and 18912), users benefit from end-to-end asset management and dynamic media features using the modern AEM Assets web UI, and still leverage the delivery services that are backwards compatible with Dynamic Media Classic (Scene7)—including delivery URLs, which are unchanged.
+In this mode (introduced first with the release of [AEM 6.3 Feature Packs 14410 and 18912](https://helpx.adobe.com/experience-manager/6-3/release-notes/dynamic-media-featurepack-14410.html)), users benefit from end-to-end asset management and dynamic media features using the modern AEM Assets web UI, and still leverage the delivery services that are backwards compatible with Dynamic Media Classic (Scene7)—including delivery URLs, which are unchanged.
 
 In addition, AEM 6.4 introduces new features powered by Adobe Sensei, enhancements for emerging media like VR and 3D, Dynamic Media viewers, and support for Experience Fragments in Interactive Images and Carousel Banners.
 
-### Smart Crop (Powered by Adobe Sensei) {#smart-crop-powered-by-adobe-sensei}
+### Smart Crop (powered by Adobe Sensei) {#smart-crop-powered-by-adobe-sensei}
 
-* Smart Crop automatically provides non-destructive cropping of images to preserve the point of interest for responsive design. You can preview cropped suggestions and manually adjust them, if necessary.   
+* Smart Crop automatically provides non-destructive cropping of images to preserve the point of interest for responsive design. You can preview cropped suggestions and manually adjust them, if necessary.
 * This feature also enables automated swatch generation for product imagery. Automated swatch generation helps to add color swatches, pattern swatches, or both to product images automatically.
 
-See [Image Profiles](../assets/using/image-profiles.md) documentation to learn more.
+See [Image Profiles](../assets/image-profiles.md) documentation to learn more.
 
-See also [Adding Dynamic Media Assets to Pages](../assets/using/adding-dynamic-media-assets-to-pages.md) documentation to learn more about using Smart Crop with the Dynamic Media component.
+See also [Adding Dynamic Media Assets to Pages](../assets/adding-dynamic-media-assets-to-pages.md) documentation to learn more about using Smart Crop with the Dynamic Media component.
 
 ### Smart Imaging {#smart-imaging}
 
@@ -154,12 +152,12 @@ See also [Adding Dynamic Media Assets to Pages](../assets/using/adding-dynamic-m
 * Images are automatically converted to different formats based on browser capabilities.
 * Image quality settings are determined in the browser and applied respectively. This intelligence keeps image loading performance acceptable for limited bandwidth and slow connection speeds.
 
-See [Smart Imaging](../assets/using/imaging-faq.md) documentation to learn more.
+See [Smart Imaging](../assets/imaging-faq.md) documentation to learn more.
 
 ### Emerging Media &amp; Viewer Enhancements {#emerging-media-amp-viewer-enhancements}
 
 * New viewers are supported, providing better, immersive experiences for the user.
-* Panoramic Viewer helps engage the user and provide ability to better experience room scenes, properites, locations, and landscapes. See [Panoramic Images](../assets/using/panoramic-images.md) documentation to learn.  
+* Panoramic Viewer helps engage the user and provide ability to better experience room scenes, properites, locations, and landscapes. See [Panoramic Images](../assets/panoramic-images.md) documentation to learn.  
 
 * VR Viewer provides immersive experience for properites, locations, and landscapes.
 * Vertical Image Viewer optimized for product imagery.
@@ -167,6 +165,4 @@ See [Smart Imaging](../assets/using/imaging-faq.md) documentation to learn more.
 
 ### 3D and Integration with Dimension CC {#d-and-integration-with-dimension-cc}
 
-Integration with [Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted.
-
-See [Working with 3D assets](../assets/using/3d-assets.md) documentation to learn more.
+Integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted. To learn more, see [Working with 3D assets](../assets/assets-3d.md) documentation.

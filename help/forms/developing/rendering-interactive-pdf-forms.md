@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 3cb307ec-9b7b-4f03-b860-48553ccee746
 ---
 
-# Rendering Interactive PDF Forms{#rendering-interactive-pdf-forms}
+# Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms}
 
 ## Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms}
 
@@ -26,37 +26,37 @@ The Forms service renders interactive PDF forms to client devices, typically web
 
 A sample loan application is introduced to demonstrate how the Forms service uses interactive forms to collect information from users. This application lets a user fill in a form with data required to secure a loan and then submits data to the Forms service. The following diagram shows the loan application’s logic flow.
 
-![](assets/ri_ri_finsrv_loanapp_v1.png)
+![ri_ri_finsrv_loanapp_v1](assets/ri_ri_finsrv_loanapp_v1.png)
 
 The following table describes the steps in this diagram.
 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e61770" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e61773" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">GetLoanForm</span> Java Servlet is invoked from an HTML page. </p></td> 
+   <td><p>1</p></td> 
+   <td><p>The <code>GetLoanForm</code> Java Servlet is invoked from an HTML page. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">GetLoanForm</span> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Render an interactive PDF form using the Java API</a>.)</p></td> 
+   <td><p>2</p></td> 
+   <td><p>The <code>GetLoanForm</code> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Render an interactive PDF form using the Java API</a>.)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>After the user fills the loan form and clicks the submit button, data is submitted to the <span class="code">HandleData</span> Java Servlet. (See <i>“Loan form”</i>.)</p></td> 
+   <td><p>3</p></td> 
+   <td><p>After the user fills the loan form and clicks the submit button, data is submitted to the <code>HandleData</code> Java Servlet. (See <i>“Loan form”</i>.)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">HandleData</span> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Handling Submitted Forms</a>.)</p></td> 
+   <td><p>4</p></td> 
+   <td><p>The <code>HandleData</code> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Handling Submitted Forms</a>.)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>5</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>A confirmation form is rendered back to the web browser. Data such as the user’s first and last name is merged with the form before it is rendered. (See <a href="/help/forms/developing/prepopulating-forms-flowable-layouts.md">Prepopulating Forms with Flowable Layouts</a>.)</p></td> 
+   <td><p>5</p></td> 
+   <td><p>A confirmation form is rendered back to the web browser. Data such as the user’s first and last name is merged with the form before it is rendered. (See <a href="/help/forms/developing/prepopulating-forms-flowable-layouts.md">Prepopulating Forms with Flowable Layouts</a>.)</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,15 +65,15 @@ The following table describes the steps in this diagram.
 
 This interactive loan form is rendered by the sample loan application’s `GetLoanForm` Java Servlet.
 
-![](assets/ri_ri_loanform.png)
+![ri_ri_loanform](assets/ri_ri_loanform.png)
 
 **Confirmation form**
 
 This form is rendered by the sample loan application’s `HandleData` Java Servlet.
 
-![](assets/ri_ri_confirm.png)
+![ri_ri_confirm](assets/ri_ri_confirm.png)
 
-The `HandleData` Java Servlet prepopulates this form with the user’s first and last name as well as the amount. After the form is prepopulated, it is sent to the client web browser. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts).)
+The `HandleData` Java Servlet prepopulates this form with the user’s first and last name as well as the amount. After the form is prepopulated, it is sent to the client web browser. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/prepopulating-forms-flowable-layouts.md).)
 
 **Java Servlets**
 
@@ -122,7 +122,7 @@ Before you can programmatically perform a Forms service Client API operation, yo
 
 You can specify URI values that are required by the Forms service to render a form. A form design that is saved as part of a Forms application can be referenced by using the content root URI value `repository:///`. For example, consider the following form design named *Loan.xdp* located within a Forms application named *FormsApplication*:
 
-![](assets/ri_ri_formrepository.png)
+![ri_ri_formrepository](assets/ri_ri_formrepository.png)
 
 To access this form design, specify `Applications/FormsApplication/1.0/FormsFolder/Loan.xdp` as the form name (the first parameter passed to the `renderPDFForm` method) and `repository:///` as the content root URI value.
 
@@ -147,11 +147,11 @@ When you render an interactive form, you can define URI values such as the targe
 
 If the target URL is defined within the form design, do not override it with the Forms service Client API. That is, setting the target URL using the Forms API resets the specified URL in the form design to the one specified using the API. If you wish to submit the PDF form to the target URL specified in the form design, then programmatically set the target URL to an empty string.
 
-If you have a form that contains a submit button and a calculate button (with a corresponding script that runs at the server), you can programmatically define the URL to where the form is sent to execute the script. Use the submit button on the form design to specify the URL to where form data is posted. (See [Calculating Form Data](/help/forms/developing/rendering-forms-rendering-forms calculating-form-data-calculating-form calculating-form-data-calculating-form.md#calculating-form-data).)
+If you have a form that contains a submit button and a calculate button (with a corresponding script that runs at the server), you can programmatically define the URL to where the form is sent to execute the script. Use the submit button on the form design to specify the URL to where form data is posted. (See [Calculating Form Data](/help/forms/developing/calculating-form-data.md).)
 
 >[!NOTE]
 >
->Instead of specifying a URL value to reference a XDP file, you can also pass a `com.adobe.idp.Document` instance to the Forms service. The `com.adobe.idp.Document` instance contains a form design. (See [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service).)
+>Instead of specifying a URL value to reference a XDP file, you can also pass a `com.adobe.idp.Document` instance to the Forms service. The `com.adobe.idp.Document` instance contains a form design. (See [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service).)
 
 **Attach files to the form**
 

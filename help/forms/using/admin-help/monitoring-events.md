@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 379957bf-0634-4182-b269-1b010da4c90f
 ---
 
-# Monitoring events{#monitoring-events}
+# Monitoring events {#monitoring-events}
 
 When the auditing capability is enabled, document security enables you to monitor certain types of events. The events that you can see depend on your role:
 
@@ -23,11 +23,11 @@ When the auditing capability is enabled, document security enables you to monito
 
 ***Note**: Events that are performed on a copy of a policy-protected document are also tracked as events on the original protected document.*
 
-(See [Event auditing options](../../../forms/using/admin-help/configuring-client-server-options.md#event-auditing-options).)
+(See [Event auditing options](/help/forms/using/admin-help/configuring-client-server-options.md#event-auditing-options).)
 
 A failed event is recorded if an unauthorized user attempts to view a document or attempts to log in using an incorrect user name or password.
 
-***Note**: Failed anonymous access events for documents may be logged if a policy is edited to remove anonymous access. When an authorized recipient attempts to access a document that the edited policy protects, anonymous access is still attempted but will fail. *
+**Note**: *Failed anonymous access events for documents may be logged if a policy is edited to remove anonymous access. When an authorized recipient attempts to access a document that the edited policy protects, anonymous access is still attempted but will fail.*
 
 If a policy allows anonymous user access but the administrator later turns off anonymous access for document security, anonymous access will fail for documents protected with the policy and the event will not be logged.
 
@@ -37,9 +37,9 @@ These setup requirements must be met for event auditing to take place:
 
 * The system or administrator must enable the auditing capability for the server.
 
-  (See [Configuring event auditing and privacy settings](../../../forms/using/admin-help/configuring-client-server-options.md#configuring-event-auditing-and-privacy-settings).)
+  (See [Configuring event auditing and privacy settings](/help/forms/using/admin-help/configuring-client-server-options.md#configuring-event-auditing-and-privacy-settings).)
 
-* The policy you use to protect the document must have auditing enabled. (See [Creating and editing policies](../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies).)
+* The policy you use to protect the document must have auditing enabled. (See [Creating and editing policies](/help/forms/using/admin-help/creating-policies.md#creating-and-editing-policies).)
 
 ## Search for an event {#search-for-an-event}
 
@@ -70,7 +70,7 @@ You can search for events on the Events page by using a combination of event sea
 1. On the document security page, click Events.
 1. In the Find list, select the search criteria you want to use. Depending on your selection in the Find list, a second list is displayed that provides additional search criteria. If applicable, in the text box, type the search criteria.
 
-   For more details about the specific event types, see [Event auditing options](../../../forms/using/admin-help/configuring-client-server-options.md#event-auditing-options). 
+   For more details about the specific event types, see [Event auditing options](/help/forms/using/admin-help/configuring-client-server-options.md#event-auditing-options). 
 
 1. In the User list, select the user type who performed the event:
 

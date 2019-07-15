@@ -11,13 +11,13 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a1070d9e-fb7c-4134-b6d5-ffa2d3e9718d
 ---
 
-# Creating adaptive forms using XML Schema{#creating-adaptive-forms-using-xml-schema}
+# Creating adaptive forms using XML Schema {#creating-adaptive-forms-using-xml-schema}
 
 ## Prerequisites {#prerequisites}
 
 Authoring an adaptive form using an XML schema as its form model requires basic understanding of XML schemas. Also, it is recommended to read through the following content before this article.
 
-* [Creating an adaptive form](../../forms/using/creating-adaptive-form.md)
+* [Creating an adaptive form](/help/forms/using/creating-adaptive-form.md)
 * [XML schema](https://www.w3.org/TR/xmlschema-2/)
 
 ## Using an XML schema as form model {#using-an-xml-schema-as-form-model}
@@ -41,18 +41,18 @@ This mapping of XML elements with adaptive form components is as follows:
    <th><strong>Adaptive form component</strong></th> 
   </tr> 
   <tr> 
-   <td><span class="code">xs:string</span></td> 
+   <td><code>xs:string</code></td> 
    <td>Text box</td> 
   </tr> 
   <tr> 
-   <td><span class="code">xs:boolean</span></td> 
+   <td><code>xs:boolean</code></td> 
    <td>Check box</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li><span class="code">xs:unsignedInt</span></li> 
-     <li><span class="code">xs:xs:int</span></li> 
+     <li><code>xs:unsignedInt</code></li> 
+     <li><code>xs:xs:int</code></li> 
      <li><code class="code">xs:decimal 
         </code></li> 
      <li>All types of numerical values</li> 
@@ -60,7 +60,7 @@ This mapping of XML elements with adaptive form components is as follows:
    <td>Numeric box</td> 
   </tr> 
   <tr> 
-   <td><span class="code">xs:date</span></td> 
+   <td><code>xs:date</code></td> 
    <td>Date picker</td> 
   </tr> 
   <tr> 
@@ -135,17 +135,17 @@ You can add the following attributes to XML Schema elements to add special prope
    <th><strong>Supported in </strong></th> 
   </tr> 
   <tr> 
-   <td><span class="code">use=required </span></td> 
+   <td><code>use=required </code></td> 
    <td>Marks a field mandatory<br /> </td> 
    <td>Attribute</td> 
   </tr> 
   <tr> 
-   <td><span class="code">default="default value"</span></td> 
+   <td><code>default="default value"</code></td> 
    <td>Adds a default value</td> 
    <td>Element and attribute</td> 
   </tr> 
   <tr> 
-   <td><span class="code">minOccurs="3"</span></td> 
+   <td><code>minOccurs="3"</code></td> 
    <td><p>Specifies minimum occurrences</p> <p>(For repeatable subforms (complex types))</p> </td> 
    <td>Element (complex type)</td> 
   </tr> 
@@ -174,26 +174,26 @@ You can add the following restrictions to XML schema elements to limit the value
 <table> 
  <tbody> 
   <tr> 
-   <td width="21%"><p><strong> Schema property</strong></p> </td> 
-   <td valign="top" width="14%"><p><strong>Data Type</strong></p> </td> 
-   <td width="41%"><p><strong>Description</strong></p> </td> 
-   <td width="22%"><p><strong>Component</strong></p> </td> 
+   <td><p><strong> Schema property</strong></p> </td> 
+   <td><p><strong>Data Type</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Component</strong></p> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">totalDigits</span></p> </td> 
-   <td valign="top" width="14%"><p>String</p> </td> 
-   <td width="41%"><p>Specifies the maximum number of digits allowed in a component. The number of digits specified must be greater than zero.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>totalDigits</code></p> </td> 
+   <td><p>String</p> </td> 
+   <td><p>Specifies the maximum number of digits allowed in a component. The number of digits specified must be greater than zero.</p> </td> 
+   <td> 
     <ul> 
      <li>Numeric box</li> 
      <li>Numeric Stepper</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">maximum</span></p> </td> 
-   <td valign="top" width="14%"><p>String</p> </td> 
-   <td width="41%"><p>Specifies the upper bound for numeric values and dates. By default, the maximum value is included.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>maximum</code></p> </td> 
+   <td><p>String</p> </td> 
+   <td><p>Specifies the upper bound for numeric values and dates. By default, the maximum value is included.</p> </td> 
+   <td> 
     <ul> 
      <li>Numeric box</li> 
      <li>Numeric Stepper<br /> </li> 
@@ -201,10 +201,10 @@ You can add the following restrictions to XML schema elements to limit the value
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">minimum</span></p> </td> 
-   <td valign="top" width="14%"><p>String</p> </td> 
-   <td width="41%"><p>Specifies the lower bound for numeric values and dates. By default, the minimum value is included.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>minimum</code></p> </td> 
+   <td><p>String</p> </td> 
+   <td><p>Specifies the lower bound for numeric values and dates. By default, the minimum value is included.</p> </td> 
+   <td> 
     <ul> 
      <li>Numeric box</li> 
      <li>Numeric Stepper</li> 
@@ -212,10 +212,10 @@ You can add the following restrictions to XML schema elements to limit the value
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">exclusiveMaximum</span></p> </td> 
-   <td valign="top" width="14%"><p>Boolean</p> </td> 
-   <td width="41%"><p>If true, the numeric value or date specified in the component of the form must be less than the numeric value or date specified for the maximum property.</p> <p>If false, the numeric value or date specified in the component of the form must be less than or equal to the numeric value or date specified for the maximum property.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>exclusiveMaximum</code></p> </td> 
+   <td><p>Boolean</p> </td> 
+   <td><p>If true, the numeric value or date specified in the component of the form must be less than the numeric value or date specified for the maximum property.</p> <p>If false, the numeric value or date specified in the component of the form must be less than or equal to the numeric value or date specified for the maximum property.</p> </td> 
+   <td> 
     <ul> 
      <li>Numeric box</li> 
      <li>Numeric Stepper</li> 
@@ -223,10 +223,10 @@ You can add the following restrictions to XML schema elements to limit the value
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">exclusiveMinimum</span></p> </td> 
-   <td valign="top" width="14%"><p>Boolean</p> </td> 
-   <td width="41%"><p>If true, the numeric value or date specified in the component of the form must be greater than the numeric value or date specified for the minimum property.</p> <p>If false, the numeric value or date specified in the component of the form must be greater than or equal to the numeric value or date specified for the minimum property.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>exclusiveMinimum</code></p> </td> 
+   <td><p>Boolean</p> </td> 
+   <td><p>If true, the numeric value or date specified in the component of the form must be greater than the numeric value or date specified for the minimum property.</p> <p>If false, the numeric value or date specified in the component of the form must be greater than or equal to the numeric value or date specified for the minimum property.</p> </td> 
+   <td> 
     <ul> 
      <li>Numeric box</li> 
      <li>Numeric Stepper</li> 
@@ -234,46 +234,46 @@ You can add the following restrictions to XML schema elements to limit the value
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">minLength</span></p> </td> 
-   <td valign="top" width="14%"><p>String</p> </td> 
-   <td width="41%"><p>Specifies the minimum number of characters allowed in a component. The minimum length must be equal to or greater than zero.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>minLength</code></p> </td> 
+   <td><p>String</p> </td> 
+   <td><p>Specifies the minimum number of characters allowed in a component. The minimum length must be equal to or greater than zero.</p> </td> 
+   <td> 
     <ul> 
      <li>Text box</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">maxLength</span></p> </td> 
-   <td valign="top" width="14%"><p>String</p> </td> 
-   <td width="41%"><p>Specifies the maximum number of characters allowed in a component. The maximum length must be greater than zero.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>maxLength</code></p> </td> 
+   <td><p>String</p> </td> 
+   <td><p>Specifies the maximum number of characters allowed in a component. The maximum length must be greater than zero.</p> </td> 
+   <td> 
     <ul> 
      <li>Text box</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">length</span></p> </td> 
-   <td valign="top" width="14%"><p>String</p> </td> 
-   <td width="41%"><p>Specifies the exact number of characters allowed in a component. The length must be equal to or greater than zero.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>length</code></p> </td> 
+   <td><p>String</p> </td> 
+   <td><p>Specifies the exact number of characters allowed in a component. The length must be equal to or greater than zero.</p> </td> 
+   <td> 
     <ul> 
      <li>Text box</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">fractionDigits</span></p> </td> 
-   <td valign="top" width="14%"><p>String</p> </td> 
-   <td width="41%"><p>Specifies the maximum number of decimal places allowed in a component. The fractionDigits must be equal to or greater than zero.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>fractionDigits</code></p> </td> 
+   <td><p>String</p> </td> 
+   <td><p>Specifies the maximum number of decimal places allowed in a component. The fractionDigits must be equal to or greater than zero.</p> </td> 
+   <td> 
     <ul> 
      <li> Numeric Box with data type float or decimal</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="21%"><p><span class="code">pattern</span></p> </td> 
-   <td valign="top" width="14%"><p>String</p> </td> 
-   <td width="41%"><p>Specifies the sequence of the characters. A component accepts the characters if the characters conform to specified pattern.</p> <p>The pattern property maps to the validation pattern of the corresponding adaptive form component.</p> </td> 
-   <td width="22%"> 
+   <td><p><code>pattern</code></p> </td> 
+   <td><p>String</p> </td> 
+   <td><p>Specifies the sequence of the characters. A component accepts the characters if the characters conform to specified pattern.</p> <p>The pattern property maps to the validation pattern of the corresponding adaptive form component.</p> </td> 
+   <td> 
     <ul> 
      <li>All adaptive forms components which are mapped to an XSD schema </li> 
     </ul> </td> 

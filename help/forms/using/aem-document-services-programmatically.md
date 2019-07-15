@@ -10,13 +10,13 @@ topic-tags: document_services
 discoiquuid: 32118d3b-54d0-4283-b489-780bdcbfc8d2
 ---
 
-# Using AEM Document Services Programmatically{#using-aem-document-services-programmatically}
+# Using AEM Document Services Programmatically {#using-aem-document-services-programmatically}
 
-Client classes required to build Maven Projects using AEM Document Services are available in the [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar. For information around maven projects, see [how to build your AEM project using Maven](../../sites/developing/using/ht-projects-maven.md).
+Client classes required to build Maven Projects using AEM Document Services are available in the [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar. For information around maven projects, see [how to build your AEM project using Maven](/help/sites-developing/ht-projects-maven.md).
 
 >[!NOTE]
 >
->Before using the DocAssurance service APIs, [configure the DocAssurance service](../../forms/using/install-configure-document-services.md).
+>Before using the DocAssurance service APIs, [configure the DocAssurance service](/help/forms/using/install-configure-document-services.md).
 
 ## DocAssurance Service {#docassurance-service}
 
@@ -28,31 +28,31 @@ The DocAssurance service includes the following services:
 
 You can perform the following operations using the DocAssurance service:
 
-* [Add Invisible Signature](../../forms/using/aem-document-services-programmatically.md#p-adding-an-invisible-signature-field-p)  
+* [Add Invisible Signature](/help/forms/using/aem-document-services-programmatically.md#p-adding-an-invisible-signature-field-p)  
 
-* [Add Signature Field](../../forms/using/aem-document-services-programmatically.md#p-adding-a-signature-field-nbsp-p)
-* [Apply Document TimeStamp](../../forms/using/aem-document-services-programmatically.md#apply-document-timestamp)  
+* [Add Signature Field](/help/forms/using/aem-document-services-programmatically.md#p-adding-a-signature-field-nbsp-p)
+* [Apply Document TimeStamp](/help/forms/using/aem-document-services-programmatically.md#apply-document-timestamp)  
 
-* [Get Signature](../../forms/using/aem-document-services-programmatically.md#p-getting-signature-p)
-* [Get Signature Field List](../../forms/using/aem-document-services-programmatically.md#p-getting-signature-field-list-nbsp-p)
-* [Modify Signature Fields](../../forms/using/aem-document-services-programmatically.md#p-modifying-signature-fields-nbsp-p)  
+* [Get Signature](/help/forms/using/aem-document-services-programmatically.md#p-getting-signature-p)
+* [Get Signature Field List](/help/forms/using/aem-document-services-programmatically.md#p-getting-signature-field-list-nbsp-p)
+* [Modify Signature Fields](/help/forms/using/aem-document-services-programmatically.md#p-modifying-signature-fields-nbsp-p)  
 
-* [Secure Document](../../forms/using/aem-document-services-programmatically.md#p-securing-documents-p)  
+* [Secure Document](/help/forms/using/aem-document-services-programmatically.md#p-securing-documents-p)  
 
-* [Get Credential Usage Rights](../../forms/using/aem-document-services-programmatically.md#p-getting-credential-usage-rights-p)  
+* [Get Credential Usage Rights](/help/forms/using/aem-document-services-programmatically.md#p-getting-credential-usage-rights-p)  
 
-* [Get Document Usage Rights](../../forms/using/aem-document-services-programmatically.md#p-getting-document-usage-rights-p)  
+* [Get Document Usage Rights](/help/forms/using/aem-document-services-programmatically.md#p-getting-document-usage-rights-p)  
 
-* [Remove Usage Rights](../../forms/using/aem-document-services-programmatically.md#p-removing-usage-rights-p)
-* [Verify Digital Signatures](../../forms/using/aem-document-services-programmatically.md#p-verifying-digital-signatures-p)
-* [Verify Multiple Digital Signatures](../../forms/using/aem-document-services-programmatically.md#p-verifying-multiple-digital-signatures-p)
-* [Remove Digital Signatures](../../forms/using/aem-document-services-programmatically.md#p-removing-digital-signatures-p)  
+* [Remove Usage Rights](/help/forms/using/aem-document-services-programmatically.md#p-removing-usage-rights-p)
+* [Verify Digital Signatures](/help/forms/using/aem-document-services-programmatically.md#p-verifying-digital-signatures-p)
+* [Verify Multiple Digital Signatures](/help/forms/using/aem-document-services-programmatically.md#p-verifying-multiple-digital-signatures-p)
+* [Remove Digital Signatures](/help/forms/using/aem-document-services-programmatically.md#p-removing-digital-signatures-p)  
 
-* [Get Certifying Signature Field](../../forms/using/aem-document-services-programmatically.md#p-getting-certifying-signature-field-p)
-* [Get PDF Encryption Type](../../forms/using/aem-document-services-programmatically.md#p-getting-pdf-encryption-type-p)
-* [Remove Password Encryption](../../forms/using/aem-document-services-programmatically.md#p-removing-password-encryption-from-pdf-p)  
+* [Get Certifying Signature Field](/help/forms/using/aem-document-services-programmatically.md#p-getting-certifying-signature-field-p)
+* [Get PDF Encryption Type](/help/forms/using/aem-document-services-programmatically.md#p-getting-pdf-encryption-type-p)
+* [Remove Password Encryption](/help/forms/using/aem-document-services-programmatically.md#p-removing-password-encryption-from-pdf-p)  
 
-* [Remove Certificate Encryption](../../forms/using/aem-document-services-programmatically.md#p-removing-certificate-encryption-p)
+* [Remove Certificate Encryption](/help/forms/using/aem-document-services-programmatically.md#p-removing-certificate-encryption-p)
 
 >[!NOTE]
 >
@@ -73,23 +73,23 @@ Digital signatures appear in signature fields, which are form fields that contai
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span></td> 
+   <td><code>inDoc</code></td> 
    <td>Document object containing PDF.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">signatureFieldName</span><br /> </td> 
+   <td><code>signatureFieldName</code><br /> </td> 
    <td>The name of the signature field. This parameter is mandatory and cannot have null as a value.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">fieldMDPOptionsSpec</span></td> 
-   <td>A <span class="code">FieldMDPOptionSpec</span> object that specifies the PDF document fields that are locked after the signature field is signed. This parameter is optional and can accept null value.</td> 
+   <td><code>fieldMDPOptionsSpec</code></td> 
+   <td>A <code>FieldMDPOptionSpec</code> object that specifies the PDF document fields that are locked after the signature field is signed. This parameter is optional and can accept null value.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">seedValueOptionsSpec</span></td> 
-   <td>A <span class="code">SeedValueOptions</span> object that specifies the various seed values for the field. T This parameter is optional and can accept null value.<span class="acrolinxCursorMarker"></span></td> 
+   <td><code>seedValueOptionsSpec</code></td> 
+   <td>A <code>SeedValueOptions</code> object that specifies the various seed values for the field. T This parameter is optional and can accept null value.<span class="acrolinxCursorMarker"></span></td> 
   </tr> 
   <tr> 
-   <td><span class="code">unlockOptions</span></td> 
+   <td><code>unlockOptions</code></td> 
    <td>Includes the parameters require to unlock an encrypted file, This parameter is required only for the encrypted files.</td> 
   </tr> 
  </tbody> 
@@ -254,31 +254,31 @@ public Document addSignatureField(Document inDoc,
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span></td> 
+   <td><code>inDoc</code></td> 
    <td>Document object containing PDF</td> 
   </tr> 
   <tr> 
-   <td><span class="code">signatureFieldName</span></td> 
+   <td><code>signatureFieldName</code></td> 
    <td>Name of the signature field. This parameter is mandatory and cannot accept a null value.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">pageNumber</span></td> 
+   <td><code>pageNumber</code></td> 
    <td>The page number on which the signature field is added. Valid values are 1 to the number of pages contained within the document. This parameter is mandatory and cannot accept a null value.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">positionRectangle</span></td> 
-   <td>A <span class="code">PositionRectangle object</span> that specifies the position for the signature field. This parameter is mandatory and cannot accept a null value. If the specified rectangle does not lie at least partially on the crop box of the specified page, an <span class="code">InvalidArgumentException</span> is thrown. Also, neither the height or width of the specified rectangle can be 0 or negative. Lower left X or lower left Y coordinates can be 0 or greater but not negative, and are relative to the crop box of the page.</td> 
+   <td><code>positionRectangle</code></td> 
+   <td>A <code>PositionRectangle object</code> that specifies the position for the signature field. This parameter is mandatory and cannot accept a null value. If the specified rectangle does not lie at least partially on the crop box of the specified page, an <code>InvalidArgumentException</code> is thrown. Also, neither the height or width of the specified rectangle can be 0 or negative. Lower left X or lower left Y coordinates can be 0 or greater but not negative, and are relative to the crop box of the page.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">fieldMDPOptionsSpec</span></td> 
-   <td>A <span class="code">FieldMDPOptionSpec</span> object that specifies the PDF document fields that are locked after the signature field is signed. This is an optional parameter and can be null.</td> 
+   <td><code>fieldMDPOptionsSpec</code></td> 
+   <td>A <code>FieldMDPOptionSpec</code> object that specifies the PDF document fields that are locked after the signature field is signed. This is an optional parameter and can be null.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">seedValueOptionsSpec</span></td> 
-   <td>A <span class="code">SeedValueOptions</span> object that specifies the various seed values for the field. This is an optional parameter and can be null.</td> 
+   <td><code>seedValueOptionsSpec</code></td> 
+   <td>A <code>SeedValueOptions</code> object that specifies the various seed values for the field. This is an optional parameter and can be null.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">unlockOptions</span></td> 
+   <td><code>unlockOptions</code></td> 
    <td>Includes the parameters required to unlock an encrypted file. This parameter is required only for the encypted files.</td> 
   </tr> 
  </tbody> 
@@ -425,23 +425,23 @@ You can programmatically timestamp a document as per [PAdES 4](https://en.wikipe
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">doc</span><br /> </td> 
+   <td><code>doc</code><br /> </td> 
    <td>Document object containing PDF.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">VerificationTime</span></td> 
+   <td><code>VerificationTime</code></td> 
    <td>The time at which the signature should be validated<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">ValidationPreferences</span> </td> 
+   <td><code>ValidationPreferences</code> </td> 
    <td>Preferences to control validation configurations.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">ResourceResolver</span></td> 
+   <td><code>ResourceResolver</code></td> 
    <td>Resource resolver to the granite trust store.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">UnlockOptions</span></td> 
+   <td><code>UnlockOptions</code></td> 
    <td>Includes the parameters require to unlock an encrypted file. This is required only if the file is encrypted.</td> 
   </tr> 
  </tbody> 
@@ -632,15 +632,15 @@ You can retrieve the names of all signature fields that are located in a PDF doc
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">doc</span><br /> </td> 
+   <td><code>doc</code><br /> </td> 
    <td>Document object containing PDF.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">signatureFieldName</span></td> 
-   <td>The name of the signature field that contains a signature. Specify the fully qualified name of the signature field. When using a PDF document that is based on an XFA form, then the partial name of the signature field can be used. For example, <span class="code">form1[0].#subform[1].SignatureField3[3]</span> can be specified as <span class="code">SignatureField3[3]</span>.</td> 
+   <td><code>signatureFieldName</code></td> 
+   <td>The name of the signature field that contains a signature. Specify the fully qualified name of the signature field. When using a PDF document that is based on an XFA form, then the partial name of the signature field can be used. For example, <code>form1[0].#subform[1].SignatureField3[3]</code> can be specified as <code>SignatureField3[3]</code>.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">UnlockOptions</span></td> 
+   <td><code>UnlockOptions</code></td> 
    <td>Includes the parameters require to unlock an encrypted file. This is required only if the file is encrypted.</td> 
   </tr> 
  </tbody> 
@@ -876,19 +876,19 @@ By modifying an existing signature field, you can edit the PDF document to refle
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span></td> 
+   <td><code>inDoc</code></td> 
    <td>Document object containing PDF</td> 
   </tr> 
   <tr> 
-   <td><span class="code">signatureFieldName</span></td> 
+   <td><code>signatureFieldName</code></td> 
    <td>The name of the signature field. This parameter is mandatory and cannot accept a null value.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">pdfSignatureFieldProperties</span></td> 
-   <td>Object that specifies information about the <span class="code">PDFSeedValueOptionSpec</span> and <span class="code">FieldMDPOptionSpec</span> values of the signature field.</td> 
+   <td><code>pdfSignatureFieldProperties</code></td> 
+   <td>Object that specifies information about the <code>PDFSeedValueOptionSpec</code> and <code>FieldMDPOptionSpec</code> values of the signature field.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">unlockOptions</span></td> 
+   <td><code>unlockOptions</code></td> 
    <td>Includes the parameters require to unlock an encrypted file. This is required only if the file is encrypted.</td> 
   </tr> 
  </tbody> 
@@ -1048,23 +1048,23 @@ secureDocument(Document inDoc, EncryptionOptions encryptionOptions,
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>Document input PDF document<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">encryptionOptions</span><br /> </td> 
+   <td><code>encryptionOptions</code><br /> </td> 
    <td>Includes the arguments required for Encrypting a PDF document<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">signatureOptions</span></td> 
+   <td><code>signatureOptions</code></td> 
    <td>Includes the options required for Signing/Certifying a PDF document</td> 
   </tr> 
   <tr> 
-   <td><span class="code">readerExtensionOptions</span></td> 
+   <td><code>readerExtensionOptions</code></td> 
    <td>Includes the options required for Reader Extending a PDF document</td> 
   </tr> 
   <tr> 
-   <td><span class="code">unlockOptions</span></td> 
+   <td><code>unlockOptions</code></td> 
    <td>Includes the parameters require to unlock an encrypted file, This is required only if the file is encrypted.<br /> </td> 
   </tr> 
  </tbody> 
@@ -1374,7 +1374,7 @@ The public key is stored in the user's certificate that must be available to rec
 
 ***Note**:* *Before you can digitally sign a PDF document, you must ensure that you add the credential in AEM Keystore. The credential is the private key used for signing*.
 
-***Note:*** AEM Forms also supports * [CAdES](https://en.wikipedia.org/wiki/CAdES_%28computing%29)* specification for digitally signing PDF documents.
+***Note:*** AEM Forms also supports *[CAdES](https://en.wikipedia.org/wiki/CAdES_%28computing%29)* specification for digitally signing PDF documents.
 
 **Certifying PDF Documents**
 
@@ -1417,23 +1417,23 @@ secureDocument(Document inDoc,
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>Document input PDF Document<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">encryptionOptions</span><br /> </td> 
+   <td><code>encryptionOptions</code><br /> </td> 
    <td>Includes the arguments required for Encrypting a PDF Doc<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">signatureOptions</span></td> 
+   <td><code>signatureOptions</code></td> 
    <td>Includes the options required for Signing/Certifying a PDF Doc</td> 
   </tr> 
   <tr> 
-   <td><span class="code">readerExtensionOptions</span></td> 
+   <td><code>readerExtensionOptions</code></td> 
    <td>Includes the options required for Reader Extending a PDF Doc</td> 
   </tr> 
   <tr> 
-   <td><span class="code">unlockOptions</span></td> 
+   <td><code>unlockOptions</code></td> 
    <td>Includes the parameters require to unlock an encrypted file, This is required only if the file is encrypted.<br /> </td> 
   </tr> 
  </tbody> 
@@ -2079,11 +2079,11 @@ To fetch usage rights information of the credential specified by the given `cred
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">credentialAlias</span><br /> </td> 
-   <td>The <span class="code">credentialAlias</span> that specifies the credential.<br /> </td> 
+   <td><code>credentialAlias</code><br /> </td> 
+   <td>The <code>credentialAlias</code> that specifies the credential.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">credentialPassword</span><br /> </td> 
+   <td><code>credentialPassword</code><br /> </td> 
    <td>The password of the credential if the credential is encrypted, null needs to be used if the credential is not encrypted.<br /> </td> 
   </tr> 
  </tbody> 
@@ -2170,7 +2170,7 @@ To fetch usage rights information for a given document, call this API from withi
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDocument</span><br /> </td> 
+   <td><code>inDocument</code><br /> </td> 
    <td>The document to fetch usage rights information from<br /> </td> 
   </tr> 
  </tbody> 
@@ -2288,11 +2288,11 @@ You can remove the usage rights for a document by calling the `removeUsageRights
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDocument</span><br /> </td> 
+   <td><code>inDocument</code><br /> </td> 
    <td>The document to remove usage rights from.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">unlockOptions</span><br /> </td> 
+   <td><code>unlockOptions</code><br /> </td> 
    <td>Includes the parameters require to unlock an encrypted file. This is required only if the file is encrypted.<br /> </td> 
   </tr> 
  </tbody> 
@@ -2415,7 +2415,7 @@ Digital signatures can be verified to ensure that a signed PDF document was not 
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>Document object containing PDF<br /> </td> 
   </tr> 
   <tr> 
@@ -2424,19 +2424,19 @@ Digital signatures can be verified to ensure that a signed PDF document was not 
    <td>The name of the signature field to be validated. either fully qualified name or partial name can be given<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">revocationCheckStyle</span></td> 
+   <td><code>revocationCheckStyle</code></td> 
    <td>The option to govern the revocation checking of the certificates encountered during validation</td> 
   </tr> 
   <tr> 
-   <td><span class="code">verificationTime</span></td> 
+   <td><code>verificationTime</code></td> 
    <td>The time at which the signature should be validated</td> 
   </tr> 
   <tr> 
-   <td><span class="code">dssPrefs</span></td> 
-   <td>Preferences to control various validation configurations. For an encrypted document, set unlock options by using <span class="code">setUnlockOptions()</span></td> 
+   <td><code>dssPrefs</code></td> 
+   <td>Preferences to control various validation configurations. For an encrypted document, set unlock options by using <code>setUnlockOptions()</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">resourceResolver</span></td> 
+   <td><code>resourceResolver</code></td> 
    <td>Resource resolver to the granite trust store</td> 
   </tr> 
  </tbody> 
@@ -2733,23 +2733,23 @@ AEM lets you verify digital signatures in PDF documents. A PDF document can cont
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>Document object containing PDF<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">revocationCheckStyle</span></td> 
+   <td><code>revocationCheckStyle</code></td> 
    <td>The option to govern the revocation checking of the certificates encountered during validation</td> 
   </tr> 
   <tr> 
-   <td><span class="code">verificationTime</span></td> 
+   <td><code>verificationTime</code></td> 
    <td>The time at which the signature should be validated</td> 
   </tr> 
   <tr> 
-   <td><span class="code">dssPrefs</span></td> 
-   <td>Preferences to control various validation configurations. For an encrypted document, set unlock options by using <span class="code">setUnlockOptions()</span></td> 
+   <td><code>dssPrefs</code></td> 
+   <td>Preferences to control various validation configurations. For an encrypted document, set unlock options by using <code>setUnlockOptions()</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">resourceResolver</span></td> 
+   <td><code>resourceResolver</code></td> 
    <td>Resource resolver to the granite trust store</td> 
   </tr> 
  </tbody> 
@@ -3031,15 +3031,15 @@ You can apply a new digital signature to a signature field only after you remove
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>Document object containing PDF<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">signatureFieldName</span></td> 
+   <td><code>signatureFieldName</code></td> 
    <td>The name of the signature field<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">unlockOptions</span><br /> </td> 
+   <td><code>unlockOptions</code><br /> </td> 
    <td>Includes the parameters require to unlock an encrypted file, This is required only if the file is encrypted<br /> </td> 
   </tr> 
  </tbody> 
@@ -3152,11 +3152,11 @@ You can retrieve the names of all signature fields that are located in a PDF doc
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>Document object containing PDF.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">UnlockOptions</span></td> 
+   <td><code>UnlockOptions</code></td> 
    <td>UnlockOptions includes the parameters require to unlock an encrypted file. This is required only if the file is encrypted.</td> 
   </tr> 
  </tbody> 
@@ -3272,7 +3272,7 @@ You can retrieve the names of all signature fields that are located in a PDF doc
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>A document supplied as input. It may or may not be encrypted.<br /> </td> 
   </tr> 
  </tbody> 
@@ -3389,11 +3389,11 @@ Remove password-based encryption from a PDF document to let users open the PDF d
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>Document supplied as input. It must be password protected.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">password</span><br /> </td> 
+   <td><code>password</code><br /> </td> 
    <td>Either a document open or permission password to be used for removing security from the document.<br /> </td> 
   </tr> 
  </tbody> 
@@ -3488,15 +3488,15 @@ You can remove certificate-based encryption from a PDF document so that users ca
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">inDoc</span><br /> </td> 
+   <td><code>inDoc</code><br /> </td> 
    <td>A Document object that represents the certificate-encrypted PDF document.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">alias</span><br /> </td> 
+   <td><code>alias</code><br /> </td> 
    <td>The alias that corresponds to the key in Granite Trust Store that is used to remove certificate-based encryption from the PDF document.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">ResourceResolver</span></td> 
+   <td><code>ResourceResolver</code></td> 
    <td>ResourceResolver to access the key store of the particular user to fetch the Credential.</td> 
   </tr> 
  </tbody> 
@@ -3599,17 +3599,17 @@ public class RemovePKIEncryption {
 
 The Output service provides APIs to render an XDP file in .pdf, .pcl, .zpl, and .ps formats. The service supports following APIs:
 
-* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data stored on a network location, local file system, or HTTP location as literal values.  
+* **[generatePDFOutput](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data stored on a network location, local file system, or HTTP location as literal values.  
 
-* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data that are stored in an application.
-* ** [generatePDFOutputBatch](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutputbatch-p):** Merges a form design with data to create a PDF document. Optionally, generates a metadata file for each record or saves the output to a PDF file.
-* ** [generatePrintedOutput](../../forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, or ZPL output from a form design and data file stored on a network location, local file system, or HTTP location as literal values.  
+* **[generatePDFOutput](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data that are stored in an application.
+* **[generatePDFOutputBatch](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutputbatch-p):** Merges a form design with data to create a PDF document. Optionally, generates a metadata file for each record or saves the output to a PDF file.
+* **[generatePrintedOutput](/help/forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, or ZPL output from a form design and data file stored on a network location, local file system, or HTTP location as literal values.  
 
-* ** [generatePrintedOutput](../../forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, and ZPL output from a form design and data file that are stored in an application.
+* **[generatePrintedOutput](/help/forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, and ZPL output from a form design and data file that are stored in an application.
 
 ### generatePDFOutput {#generatepdfoutput}
 
-The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generates a metadata file for each record or saves the output to a PDF file. Use the generatePDFOutput API for the form designs or data that are stored on a network location, local file system, or HTTP location as literal values. If the form design and XML data are stored in an application, use the [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p) API.
+The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generates a metadata file for each record or saves the output to a PDF file. Use the generatePDFOutput API for the form designs or data that are stored on a network location, local file system, or HTTP location as literal values. If the form design and XML data are stored in an application, use the [generatePDFOutput](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p) API.
 
 **Syntax:** `Document generatePDFOutput(String uriOrFileName, Document data, PDFOutputOptions options);`
 
@@ -3716,7 +3716,7 @@ try {
 
 ### generatePDFOutput {#generatepdfoutput-1}
 
-The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generate a metadata file for each record or save the output to a PDF file. Use the generatePrintedOutput API for the form designs or data that are stored in an application. If the form design and XML data are stored in on a network location, locally, or an HTTP location as literal values, use the [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p) API.
+The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generate a metadata file for each record or save the output to a PDF file. Use the generatePrintedOutput API for the form designs or data that are stored in an application. If the form design and XML data are stored in on a network location, locally, or an HTTP location as literal values, use the [generatePDFOutput](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p) API.
 
 **Syntax:** `Document generatePDFOutput(Document inputdocument, Document data, PDFOutputOptions options)`
 
@@ -3852,7 +3852,7 @@ Merges a form design with data to create a PDF document. Optionally, generates a
   </tr> 
   <tr> 
    <td>batchOptions</td> 
-   <td>Specifies the value of the variable <span class="code">generateManyFiles</span>. Set the generateManyFiles flag to generate multiple files. The options parameter accepts object of type BatchOptions.</td> 
+   <td>Specifies the value of the variable <code>generateManyFiles</code>. Set the generateManyFiles flag to generate multiple files. The options parameter accepts object of type BatchOptions.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -4258,8 +4258,8 @@ String outputFolder="C:/Output";
 
 The Forms service provides APIs to import and export data to and from an interactive PDF form. An interactive PDF form is a PDF document that contains one or more fields used to display and collect information from the users. The service supports following APIs:
 
-* ** [exportData](../../forms/using/aem-document-services-programmatically.md#p-exportdata-p):** exports data from a PDF form.
-* ** [importData](../../forms/using/aem-document-services-programmatically.md#p-importdata-p):** imports data into an interactive PDF Form.
+* **[exportData](/help/forms/using/aem-document-services-programmatically.md#p-exportdata-p):** exports data from a PDF form.
+* **[importData](/help/forms/using/aem-document-services-programmatically.md#p-importdata-p):** imports data into an interactive PDF Form.
 
 ### exportData {#exportdata}
 
@@ -4444,34 +4444,34 @@ The GeneratePDFService provides APIs to convert various file formats such as .do
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;" width="40%"><strong>API</strong></td> 
-   <td style="text-align: center;" valign="top" width="98"><p><strong>Microsoft Windows </strong></p> </td> 
-   <td style="text-align: center;"><strong>Linux </strong></td> 
+   <td><strong>API</strong></td> 
+   <td><p><strong>Microsoft Windows </strong></p> </td> 
+   <td><strong>Linux </strong></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">createPDF</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
+   <td>createPDF</td> 
+   <td><strong>✓</strong></td> 
+   <td><strong>✓</strong></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">exportPDF</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
+   <td>exportPDF</td> 
+   <td><strong>✓</strong></td> 
+   <td><strong>✓</strong></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">optimizePDF</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;">✖</td> 
+   <td>optimizePDF</td> 
+   <td><strong>✓</strong></td> 
+   <td>✖</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">exportPDF</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;">✖</td> 
+   <td>exportPDF</td> 
+   <td><strong>✓</strong></td> 
+   <td>✖</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">OCR PDF (searchable PDF)</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;">✖</td> 
+   <td>OCR PDF (searchable PDF)</td> 
+   <td><strong>✓</strong></td> 
+   <td>✖</td> 
   </tr> 
  </tbody> 
 </table>

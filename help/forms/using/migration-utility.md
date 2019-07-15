@@ -13,9 +13,9 @@ content-strategy: max-2018
 discoiquuid: a8b1f7df-e36f-4d02-883a-72120fea7046
 ---
 
-# Migrate AEM Forms assets and documents{#migrate-aem-forms-assets-and-documents}
+# Migrate AEM Forms assets and documents {#migrate-aem-forms-assets-and-documents}
 
-The Migration utility converts the [Adaptive Forms assets](../../forms/using/introduction-forms-authoring.md), [cloud configrurations](../../sites/developing/using/extending-cloud-config.md), and [Correspondence Management assets](../../forms/using/cm-overview.md) from the format used in the earlier versions to the format used in AEM 6.4 Forms. When you run migration utility, the following are migrated:
+The Migration utility converts the [Adaptive Forms assets](/help/forms/using/introduction-forms-authoring.md), [cloud configrurations](/help/sites-developing/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in AEM 6.4 Forms. When you run migration utility, the following are migrated:
 
 * Custom components for adaptive forms
 * Adaptive forms and correspondence management Templates
@@ -28,7 +28,7 @@ The Migration utility converts the [Adaptive Forms assets](../../forms/using/int
 
 ## Approach to migration {#approach-to-migration}
 
-You can [upgrade](../../forms/using/upgrade.md) to the latest version of AEM Forms 6.4 from AEM Forms 6.3 or 6.2 or perform a fresh installation. Depending on whether you upgraded your previous installation or performed a fresh install, you need to do one of the following:
+You can [upgrade](/help/forms/using/upgrade.md) to the latest version of AEM Forms 6.4 from AEM Forms 6.3 or 6.2 or perform a fresh installation. Depending on whether you upgraded your previous installation or performed a fresh install, you need to do one of the following:
 
 **In case of in-place upgrade**
 
@@ -40,9 +40,9 @@ Then you need to update the assets and documents by [running the Migration utili
 
 If it is an out of place (fresh) installation, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT) (includes the Correspondence Management Compatibility package).
 
-Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](../../sites/deploying/using/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
+Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](/help/sites-deploying/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
 
-## Read before you proceed with the migration {##prerequisites}
+## Read before you proceed with the migration {#prerequisites}
 
 For Correspondence Management assets:
 
@@ -65,7 +65,7 @@ For Correspondence Management assets:
 
 Run the Migration utility before making any changes in the assets or creating assets. We recommend that you do not run the utility after making any changes or creating assets. Make sure that the Correspondence Management or Adaptive Forms Assets user interface is not open while the migration process is running.
 
-When you run the Migration Utility for the first time, a log is created with the following path and name: \[aem-installation-directory]\cq-quickstart\logs\aem-forms-migration.log. This log keeps getting updated with Correspondence Management and Adaptive Forms migration info, such as moving of assets.
+When you run the Migration Utility for the first time, a log is created with the following path and name: `\[aem-installation-directory]\cq-quickstart\logs\aem-forms-migration.log`. This log keeps getting updated with Correspondence Management and Adaptive Forms migration info, such as moving of assets.
 
 >[!NOTE]
 >
@@ -80,13 +80,13 @@ When you run the Migration Utility for the first time, a log is created with the
    The browser displays four options:
 
     * AEM Forms Assets Migration
-    * Adaptive Forms Custom Components Migration  
+    * Adaptive Forms Custom Components Migration 
     * Adaptive Forms Templates Migration
     * AEM Forms Cloud Configurations Migration
 
 1. Do the following to perform the migration:
 
-    * To migrate **assets**, tap AEM Forms Assets Migration, and in the next screen, tap **Start** **Migration**. The following get migrated:
+    * To migrate **assets**, tap AEM Forms Assets Migration, and in the next screen, tap **Start Migration**. The following get migrated:
 
         * Adaptive forms
         * Document fragments
@@ -94,40 +94,27 @@ When you run the Migration Utility for the first time, a log is created with the
         * Letters
         * Data dictionaries
 
-   >[!NOTE]
-   >
-   >During assets migration, you may find warning messages such as “Conflict found for…”. Such messages indicate that rules for some of the components in adaptive forms could not be migrated. For example, if the component had an event which had both rules and scripts, if rules occur after any script none of the rules for the component are migrated. However, such rules can be migrated by opening the rule editor in adaptive form authoring.
-   >
-   >
-   >These components can be migrated by opening them in Rule Editor in Adaptive Forms editor. 
-   >
-   >    
-   >    
-   >    * To migrate rules and scripts (not required if upgrading from 6.3) in custom components, tap Adaptive Forms Custom Components Migration, and in the next screen, tap Start Migration. The following get migrated:    >    
-   >        
-   >        
-   >        * Rules and Scripts created using rule editor (6.1 FP1 and later)
-   >        * Scripts created using the Script tab in the UI of 6.1 and earlier  
-   >        
-   >        
-   >    * To migrate templates (not required if upgrading from 6.3), tap Adaptive Forms Template Migration, and in the next screen, tap Start Migration. The following get migrated:  
-   >    
-   >        
-   >        
-   >        * Old templates - the adaptive forms templates created under /apps using AEM 6.1 Forms or earlier. This includes the scripts that were defined in the template components.
-   >        * New templates - Adaptive forms templates created using template editor under /conf. This includes migration of rules and scripts created using the rule editor.
-   >        
-   >        
-   >    
-   >    
-   >
+    >[!NOTE]
+    >
+    >During assets migration, you may find warning messages such as “Conflict found for…”. Such messages indicate that rules for some of the components in adaptive forms could not be migrated. For example, if the component had an event which had both rules and scripts, if rules occur after any script none of the rules for the component are migrated. However, such rules can be migrated by opening the rule editor in adaptive form authoring.
+    >
+    >These components can be migrated by opening them in Rule Editor in Adaptive Forms editor. 
+    >
+    >* To migrate rules and scripts (not required if upgrading from 6.3) in custom components, tap Adaptive Forms Custom Components Migration, and in the next screen, tap Start Migration. The following get migrated:
+    >
+    >  * Rules and Scripts created using rule editor (6.1 FP1 and later)
+    >  * Scripts created using the Script tab in the UI of 6.1 and earlier 
+    >* To migrate templates (not required if upgrading from 6.3), tap Adaptive Forms Template Migration, and in the next screen, tap Start Migration. The following get migrated:
+    >
+    >  * Old templates - the adaptive forms templates created under /apps using AEM 6.1 Forms or earlier. This includes the scripts that were defined in the template components.
+    >  * New templates - Adaptive forms templates created using template editor under /conf. This includes migration of rules and scripts created using the rule editor.
 
-    * To migrate adaptive form custom components, tap **Adaptive Forms Custom Components Migration** and in the Custom Components Migration page, tap **Start** **Migration**. The following get migrated:
+    * To migrate adaptive form custom components, tap **Adaptive Forms Custom Components Migration** and in the Custom Components Migration page, tap **Start Migration**. The following get migrated:
 
         * Custom components written for Adaptive Forms
         * Component overlays, if any.
 
-    * To migrate adaptive form templates, tap **Adaptive Forms Template Migration **and in the Custom Components Migration page, tap **Start** **Migration**. The following get migrated:
+    * To migrate adaptive form templates, tap **Adaptive Forms Template Migration** and in the Custom Components Migration page, tap **Start Migration**. The following get migrated:
 
         * Adaptive form templates created under /apps or /conf using AEM Template Editor.
 
@@ -142,17 +129,17 @@ When you run the Migration Utility for the first time, a log is created with the
 
     * Recaptcha
 
-        * Source path: /etc/cloudservices/recaptcha  
+        * Source path: /etc/cloudservices/recaptcha 
         * Target path: /conf/global/settings/cloudconfigs/recaptcha
 
     * Adobe Sign
 
-        * Source path: /etc/cloudservices/echosign  
+        * Source path: /etc/cloudservices/echosign 
         * Target path: /conf/global/settings/cloudconfigs/echosign
 
     * Typekit cloud services
 
-        * Source path: /etc/cloudservices/typekit  
+        * Source path: /etc/cloudservices/typekit 
         * Target path: /conf/global/settings/cloudconfigs/typekit
 
    The browser window displays the following as the migration process takes place:
@@ -174,15 +161,15 @@ When you run the Migration Utility for the first time, a log is created with the
 
 ### Housekeeping tasks after running the migration utility {#housekeepingtasks}
 
-After running the Migration utility, take care of the following housekeeping tasks: [](../../forms/using/import-export-forms-templates.md)
+After running the Migration utility, take care of the following housekeeping tasks:
 
 1. Ensure that XFA version of layouts and fragment layouts is 3.3 or later. If you are using layouts and fragment layouts of an older version, then there could be issues in rendering the letter. To update version of an older XFA to the latest version, complete the following steps:
 
-    1. [Download the XFA as a zip file](../../forms/using/import-export-forms-templates.md#p-import-and-export-assets-in-correspondence-management-p) from the Forms user interface. 
+    1. [Download the XFA as a zip file](/help/forms/using/import-export-forms-templates.md#p-import-and-export-assets-in-correspondence-management-p) from the Forms user interface. 
     1. Extract the file.
     1. Open the XFA file in the latest Designer and save it. The version of the XFA gets updated to the latest one.
     1. Upload the XFA in the Forms user interface.
 
 1. Publish all the assets that were published in the previous system before migration. The migration utility updates the assets only on the author instance and to update the assets on the publish instance (s) you need to publish the assets.
-1. In AEM Forms 6.4, some of the rights of the forms users groups are changed. If you want any of your users to be able to upload XDPs and Adaptive Forms containing scripts or use code editor, you need to add them to forms-power-users group. Similarly, template-authors can no longer use the code editor in Rule Editor. For users to be able to use code editor, add them to af-template-script-writers group. For instructions on adding users to groups, see [Managing Users and User Groups](../../communities/using/users.md).
+1. In AEM Forms 6.4, some of the rights of the forms users groups are changed. If you want any of your users to be able to upload XDPs and Adaptive Forms containing scripts or use code editor, you need to add them to forms-power-users group. Similarly, template-authors can no longer use the code editor in Rule Editor. For users to be able to use code editor, add them to af-template-script-writers group. For instructions on adding users to groups, see [Managing Users and User Groups](/help/communities/users.md).
 

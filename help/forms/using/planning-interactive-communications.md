@@ -9,14 +9,13 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 75b2d424-91d3-45b4-a5d7-fb49ab558582
 ---
 
-# Tutorial: Plan the Interactive Communication{#tutorial-plan-the-interactive-communication}
+# Tutorial: Plan the Interactive Communication {#tutorial-plan-the-interactive-communication}
 
 Plan the anatomy for your Interactive Communication
 
- ![](assets/02-create-adaptive-form-main-image.png)
+ ![02-create-adaptive-form-main-image](assets/02-create-adaptive-form-main-image.png)
 
-| This tutorial is a step in the [Create your first Interactive Communication](../../forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
-|---|
+This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
 The first step in planning an Interactive Communication is to finalize the content of the Interactive Communication. Subject matter experts from departments such as legal, finance, support, or marketing can help you in finalizing the content. After the content is finalized, you must analyze it to identify the various asset types that are required to create the Interactive Communication.
 
@@ -36,7 +35,7 @@ An interactive communication includes the following elements:
 
 ## Anatomy of the Interactive Communication {#anatomy-of-the-interactive-communication}
 
-Once you have finalized the content and elements that are used to create your Interactive Communication, you can create an anatomy of the Interactive Communication. The anatomy must have the details listed in the [Planning Considerations](../../forms/using/planning-interactive-communications.md#planning-considerations) section. Based on our use case, the following is an example of an anatomy of the monthly bill that a telecom operator sends to its customers.
+Once you have finalized the content and elements that are used to create your Interactive Communication, you can create an anatomy of the Interactive Communication. The anatomy must have the details listed in the [Planning Considerations](/help/forms/using/planning-interactive-communications.md#planning-considerations) section. Based on our use case, the following is an example of an anatomy of the monthly bill that a telecom operator sends to its customers.
 
 Placeholder for the anatomy video
 
@@ -48,7 +47,7 @@ The anatomy includes data with the following modes of input:
 * Conditional data
 * Images
 
-In each section, the text in bold represents static text. The database includes customer, bills, and calls tables. A form data model can receive data from any of these tables. For more information, see [Create form data model](../../forms/using/create-form-data-model0.md).
+In each section, the text in bold represents static text. The database includes customer, bills, and calls tables. A form data model can receive data from any of these tables. For more information, see [Create form data model](/help/forms/using/create-form-data-model0.md).
 
 The following table illustrates the data source for each field in the anatomy of Interactive Communication:
 

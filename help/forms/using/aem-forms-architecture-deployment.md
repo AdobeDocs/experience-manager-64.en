@@ -11,13 +11,13 @@ geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 0156b5c3-3bef-4213-9ada-c7b6ae96ada4
 ---
 
-# Architecture and deployment topologies for AEM Forms{#architecture-and-deployment-topologies-for-aem-forms}
+# Architecture and deployment topologies for AEM Forms {#architecture-and-deployment-topologies-for-aem-forms}
 
 ## Architecture {#architecture}
 
 AEM Forms is an application deployed into AEM as an AEM package. The package is known as AEM Forms add-on package. The AEM Forms add-on package contains both services (API providers), which are deployed into the AEM OSGi container, and servlets or JSPs (providing both front-end and REST API functionality) managed by the AEM Sling framework. The following diagram depicts this set-up:
 
-![](assets/architecture.png)
+![architecture](assets/architecture.png)
 
 The architecture for AEM Forms includes the following components:
 
@@ -29,7 +29,7 @@ The architecture for AEM Forms includes the following components:
     * **Form rendition and submission frontend**: An end user facing interface for use by the end users of the AEM Forms (for example, citizens accessing a government website). This provides form rendition (display form in a web browser) and submission functionalities.
     * **REST APIs**: JSPs and servlets export a subset of forms services for remote consumption by HTTP-based clients, such as the forms mobile SDK.
 
-**AEM Forms on OSGi:** An AEM Forms on OSGi environment is standard AEM Author or AEM Publish with AEM Forms package deployed on it. You can run AEM Forms on OSGi in a [single server environment, Farm, and clustered setups](../../sites/deploying/using/recommended-deploys.md). Cluster setup is available only for AEM Author instances.
+**AEM Forms on OSGi:** An AEM Forms on OSGi environment is standard AEM Author or AEM Publish with AEM Forms package deployed on it. You can run AEM Forms on OSGi in a [single server environment, Farm, and clustered setups](/help/sites-deploying/recommended-deploys.md). Cluster setup is available only for AEM Author instances.
 
 **AEM Forms on JEE:** AEM Forms on JEE is AEM Forms server running on JEE stack. It has AEM Author with AEM Forms add-on packages and additional AEM Forms JEE capabilities co-deployed on a single JEE stack running on an application server. You can run AEM Forms on JEE in single-server and clustered setups. AEM Forms on JEE is required only to run document security, process management, and for LiveCycle customers upgrading to AEM Forms. Here are a few additional scenarios to use AEM Forms on JEE:
 
@@ -43,13 +43,13 @@ AEM Forms on JEE also includes provides following supporting services to the AEM
 
 AEM Forms authoring user interface does not support creating Document of Record (DOR), PDF Forms, and HTML5 Forms. Such assets are designed using the stand-alone Forms Designer application and uploaded individually to AEM Forms Manager. Alternatively, for AEM Forms on JEE, forms can be designed as application (in AEM Forms Workbench) assets and deployed into AEM Forms on JEE server.
 
-AEM Forms on OSGi and AEM Forms on JEE both have workflow capabilities. You can rapidly build and deploy basic workflows for various tasks on the AEM forms on OSGi, without having to install the full-fledged Process Management capability of AEM Forms on JEE. There is some difference in the [features of Form-centric workflow on AEM Forms on OSGi and Process Management capability of AEM Forms on JEE](../../forms/using/capabilities-osgi-jee-workflows.md). The development and management of Form-centric workflows on AEM Forms on OSGi uses the familiar AEM Workflow and AEM Inbox capabilities.
+AEM Forms on OSGi and AEM Forms on JEE both have workflow capabilities. You can rapidly build and deploy basic workflows for various tasks on the AEM forms on OSGi, without having to install the full-fledged Process Management capability of AEM Forms on JEE. There is some difference in the [features of Form-centric workflow on AEM Forms on OSGi and Process Management capability of AEM Forms on JEE](/help/forms/using/capabilities-osgi-jee-workflows.md). The development and management of Form-centric workflows on AEM Forms on OSGi uses the familiar AEM Workflow and AEM Inbox capabilities.
 
 ## Terminologies {#terminologies}
 
 The following image displays various AEM Form server configurations and their components that are used in a typical AEM Forms deployment:
 
-![](assets/aem_forms_-_recommendedtopology.png)
+![aem_forms_-_recommendedtopology](assets/aem_forms_-_recommendedtopology.png)
 
 **Author:** An author instance is an AEM Forms server running in the standard Author run mode. It can be AEM Forms on JEE or AEM Forms on OSGi environment. It is intended for internal users, forms and interactive communication designers, and developers. It enables the following functionalities:
 
@@ -59,7 +59,7 @@ The following image displays various AEM Form server configurations and their co
 **Publish:** A publish instance is an AEM Forms server running in the standard Publish run mode. Publish instances are intended for end users of form-based applications, for example, users accessing a public website and submitting forms. It enables the following functionalities:
 
 * Rendering and submitting Forms for end users.
-* Transporting of raw submitted form data to processing instances for further processing and storage in the final system-of-record. The default implementation provided in AEM Forms achieves this using the reverse-replication capabilities of AEM. An alternative implementation is also available for directly pushing the form data to processing servers instead of saving it locally first (the latter being a pre-requisite for reverse-replication to activate). Customers having concerns about storage of potentially sensitive data on publish instances can go in for this [alternative implementation](../../forms/using/configuring-draft-submission-storage.md), since processing instances typically lie in a more secure zone.
+* Transporting of raw submitted form data to processing instances for further processing and storage in the final system-of-record. The default implementation provided in AEM Forms achieves this using the reverse-replication capabilities of AEM. An alternative implementation is also available for directly pushing the form data to processing servers instead of saving it locally first (the latter being a pre-requisite for reverse-replication to activate). Customers having concerns about storage of potentially sensitive data on publish instances can go in for this [alternative implementation](/help/forms/using/configuring-draft-submission-storage.md), since processing instances typically lie in a more secure zone.
 * Rendering and submitting interactive communications and letters: An interactive communication and letter are rendered on publish instances and corresponding data is submitted to processing instances for storage and post-processing. The data can either be saved locally on a publish instance and reverse-replicated to a processing instance (the default option) later, or pushed directly to processing instance without saving on the publish instance. The latter implementation is useful for security-conscious customers.
 
 **Processing:** An instance of AEM Forms running in Author run mode with no users assigned to the forms-manager group. You can deploy AEM Forms on JEE or AEM Forms on OSGi as a processing instance. The users are not assigned to ensure that form authoring and management activities are not performed on the Processing instance and occur only on the Author instance. A Processing instance enables the following functionalities:
@@ -85,7 +85,7 @@ AEM Forms customers planning to use only document services or document security 
 
 Although, AEM Forms allows you to set up and run all the functionalities from a single server, yet, you should do capacity planning, load balancing, and set up dedicated servers for specific capabilities in a production environment. For example, for an environment using the PDF Generator service to convert thousands of pages a day and add digital signatures to limit access to documents, set up separate AEM Forms servers for the PDF Generator service and digital signature capabilities. It helps provide optimum performance and scale the servers independent of each other.
 
-![](assets/basic-features.png)
+![basic-features](assets/basic-features.png)
 
 ### Topology for using AEM Forms process management {#topology-for-using-aem-forms-process-management}
 
@@ -95,7 +95,7 @@ If you are upgrading from LiveCycle ES4, this topology closely mirrors with what
 
 Form data store is a third-party data store used for storing final processed data of forms and interactive communications. This is an optional element in the topology. You can also choose to set up a processing instance and use its repository as the final system-of-record system, if necessary.
 
-![](assets/topology_for_usinghtmlworkspaceandformsapp.png)
+![topology_for_usinghtmlworkspaceandformsapp](assets/topology_for_usinghtmlworkspaceandformsapp.png)
 
 The topology is recommended to the customers planning to use AEM Forms on JEE server for process management capabilities (HTML Workspace) without using any post-processing, adaptive forms, HTML5 forms, and interactive communication capabilities.
 
@@ -103,7 +103,7 @@ The topology is recommended to the customers planning to use AEM Forms on JEE se
 
 AEM Forms customers planning to use AEM Forms data capture capabilities, for example, adaptive forms, HTML5 Forms, PDF Forms, can have a topology similar to the one displayed below. This topology is also recommended for using interactive communication capabilities of AEM Forms.
 
-![](assets/topology-for-using-forms-osgi-modules.png)
+![topology-for-using-forms-osgi-modules](assets/topology-for-using-forms-osgi-modules.png)
 
 You can make the following changes/customizations to the above-suggested topology:
 
@@ -118,13 +118,13 @@ You can make the following changes/customizations to the above-suggested topolog
 
 AEM Forms customers planning to use AEM Forms data capture capabilities, for example, adaptive forms, HTML5 Forms, PDF Forms, can have a topology similar to the one displayed below. This topology is also recommended for using interactive communications and Forms-Centric Workflows on OSGi capability, for example, for using AEM Inbox and AEM Forms App for business process workflows.
 
-![](assets/interactive-use-cases-af-cm-osgi-workflow.png)
+![interactive-use-cases-af-cm-osgi-workflow](assets/interactive-use-cases-af-cm-osgi-workflow.png)
 
 ### Topology for using watched folder capabilities for offline batch processing {#topology-for-using-watched-folder-capabilities-for-offline-batch-processing}
 
 AEM Forms customers planning to use Watched Folders for batch processing can have a topology similar to the one displayed below. The topology displays a clustered environment but you decide to use a single instance or a farm of AEM Forms servers depending on the load. The third-party data source is your own system-of-record. It acts as an input source for Watched Folders. The topology also displays output in the form of a printed file. You can also store the output content to a file-system, send via email, and use other custom methods to consume output.
 
-![](assets/offline-batch-processing-via-watched-folders.png)
+![offline-batch-processing-via-watched-folders](assets/offline-batch-processing-via-watched-folders.png)
 
 ### Topology for using document services capabilities for offline API-based processing {#topology-for-using-document-services-capabilities-for-offline-api-based-processing}
 
@@ -132,5 +132,5 @@ AEM Forms customers planning to use only document services capability can have a
 
 Although AEM Forms allows you to set up and run all the functionalities from a single server, you should do capacity planning, load balancing, and set up dedicated servers for specific capabilities in a production environment. For example, for an environment using the PDF Generator service to convert thousands of pages a day and multiple adaptive forms to capture data, set up separate AEM Forms servers for the PDF Generator service and adaptive forms capabilities. It helps provide optimum performance and scale the servers independent of each other.
 
-![](assets/offline-api-based-processing.png)
+![offline-api-based-processing](assets/offline-api-based-processing.png)
 

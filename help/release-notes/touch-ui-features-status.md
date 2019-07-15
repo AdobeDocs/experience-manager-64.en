@@ -11,11 +11,11 @@ content-type: reference
 discoiquuid: 482b5eb0-1b15-4f10-a9d8-3b72dd74acf8
 ---
 
-# Touch UI Feature Status{#touch-ui-feature-status}
+# Touch UI Feature Status {#touch-ui-feature-status}
 
 >[!CAUTION]
 >
->With version 6.4 of AEM, the [Classic UI is deprecated](../release-notes/deprecated-removed-features.md). Adobe does not plan to make further enhancements to the Classic UI and users are encouraged to leverage the powerful new features available under the touch-enabled UI.
+>With version 6.4 of AEM, the [Classic UI is deprecated](/help/release-notes/deprecated-removed-features.md). Adobe does not plan to make further enhancements to the Classic UI and users are encouraged to leverage the powerful new features available under the touch-enabled UI.
 
 Starting with version 6.0, AEM introduced a new user interface referred to as the "touch-enabled UI" (also known simply as "touch UI") that is aligned to the Adobe Marketing Cloud and to the overall Adobe user interface guidelines. With near feature partity reached, this has become the standard UI in AEM with the legacy, desktop-oriented interface referred to as "classic UI."
 
@@ -23,7 +23,7 @@ While most capabilities are present in the touch-enabled UI, there are features 
 
 The following list shows the current status of the capabilities as implemented in AEM 6.4.
 
-For recommendations for customers that upgrade to AEM 6.4, please see [User Interface Recommendations for Customers](../sites/deploying/using/ui-recommendations.md) for details.
+For recommendations for customers that upgrade to AEM 6.4, please see [User Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md) for details.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ This is a list of capabilities the classic UI Site Admin ( `/siteadmin`) has and
   <tr>
    <td>Navigate Site Hierarchy</td> 
    <td>Complete<br /> </td> 
-   <td>AEM 6.4 introduced a <a href="../sites/authoring/using/basic-handling.md#content-tree">content tree view</a>.</td> 
+   <td>AEM 6.4 introduced a <a href="/help/sites-authoring/basic-handling.md#content-tree">content tree view</a>.</td> 
   </tr>
   <tr>
    <td>Start Workflow</td> 
@@ -86,11 +86,6 @@ This is a list of capabilities the classic UI Site Admin ( `/siteadmin`) has and
   </tr>
   <tr>
    <td>Create folder</td> 
-   <td>Complete</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>Show References</td> 
    <td>Complete</td> 
    <td> </td> 
   </tr>
@@ -336,47 +331,47 @@ This is a list of capabilities the classic UI Page Editor ( `/cf#`) has and the 
   <tr>
    <td>Copy Page</td> 
    <td>Removed<br /> </td> 
-   <td>Use Site Admin to <a href="../sites/authoring/using/managing-pages.md#copying-and-pasting-a-page">copy pages</a>.<br /> </td> 
+   <td>Use Site Admin to <a href="/help/sites-authoring/managing-pages.md#copying-and-pasting-a-page">copy pages</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Move Page</td> 
    <td>Removed</td> 
-   <td>Use Site Admin to <a href="../sites/authoring/using/managing-pages.md#moving-or-renaming-a-page">move pages</a>.<br /> </td> 
+   <td>Use Site Admin to <a href="/help/sites-authoring/managing-pages.md#moving-or-renaming-a-page">move pages</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Delete Page</td> 
    <td>Removed</td> 
-   <td>Use Site Admin to <a href="../sites/authoring/using/managing-pages.md#deleting-a-page">delete pages</a>.<br /> </td> 
+   <td>Use Site Admin to <a href="/help/sites-authoring/managing-pages.md#deleting-a-page">delete pages</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Show References</td> 
    <td>Removed</td> 
-   <td>Use Site Admin to <a href="../sites/authoring/using/author-environment-tools.md#references">see the detailed reference list</a>.<br /> </td> 
+   <td>Use Site Admin to <a href="/help/sites-authoring/author-environment-tools.md#references">see the detailed reference list</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Audit Log</td> 
    <td>Removed</td> 
-   <td>Use Site Admin and <a href="../sites/authoring/using/author-environment-tools.md#events-timeline">open activity rail</a>.<br /> </td> 
+   <td>Use Site Admin and <a href="/help/sites-authoring/author-environment-tools.md#events-timeline">open activity rail</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Create Version</td> 
    <td>Removed</td> 
-   <td>Use Site Admin to <a href="../sites/authoring/using/working-with-page-versions.md#creating-a-new-version">create new versions</a>.<br /> </td> 
+   <td>Use Site Admin to <a href="/help/sites-authoring/working-with-page-versions.md#creating-a-new-version">create new versions</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Restore Version</td> 
    <td>Removed</td> 
-   <td>Use Site Admin to <a href="../sites/authoring/using/working-with-page-versions.md#reverting-to-a-page-version">restore versions</a>.</td> 
+   <td>Use Site Admin to <a href="/help/sites-authoring/working-with-page-versions.md#reverting-to-a-page-version">restore versions</a>.</td> 
   </tr>
   <tr>
    <td>Switch Launches</td> 
    <td>Removed</td> 
-   <td>Use Site Admin to <a href="../sites/authoring/using/launches-promoting.md">switch between launches</a>.<br /> </td> 
+   <td>Use Site Admin to <a href="/help/sites-authoring/launches-promoting.md">switch between launches</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Translate Page</td> 
    <td>Removed</td> 
-   <td>Use Site Admin to <a href="../sites/administering/using/tc-manage.md">add page to translation projects</a>.<br /> </td> 
+   <td>Use Site Admin to <a href="/help/sites-administering/tc-manage.md">add page to translation projects</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Timewarp (choose date/time and browse site as it then looked)<br /> </td> 
@@ -391,7 +386,7 @@ This is a list of capabilities the classic UI Page Editor ( `/cf#`) has and the 
   <tr>
    <td>Client Context UI<br /> </td> 
    <td>Replaced</td> 
-   <td>Use the <a href="../sites/authoring/using/ch-previewing.md">ContextHub</a> UI going forward.</td> 
+   <td>Use the <a href="/help/sites-authoring/ch-previewing.md">ContextHub</a> UI going forward.</td> 
   </tr>
   <tr>
    <td>Content Finder for the various media types<br /> </td> 
@@ -450,7 +445,7 @@ This is a list of capabilities the classic UI Text, Table, and Image Editor have
   <tr>
    <td>Enable/disable RTE Plug-ins</td> 
    <td>Complete<br /> </td> 
-   <td>Can be done using the <a href="../sites/authoring/using/templates.md">Template Editor</a>.</td> 
+   <td>Can be done using the <a href="/help/sites-authoring/templates.md">Template Editor</a>.</td> 
   </tr>
   <tr>
    <td>Use RTE for Plain-text</td> 
@@ -555,7 +550,7 @@ This is a list of capabilities the classic UI Text, Table, and Image Editor have
   <tr>
    <td>Enable/disable IPE Plug-ins</td> 
    <td>Complete</td> 
-   <td>There is now a UI in the <a href="../sites/authoring/using/templates.md">Template Editor</a>.</td> 
+   <td>There is now a UI in the <a href="/help/sites-authoring/templates.md">Template Editor</a>.</td> 
   </tr>
   <tr>
    <td>IPE Plug-in: Crop</td> 
@@ -604,7 +599,7 @@ This is a list of various tools the classic UI have and the status in the touch-
   <tr>
    <td>Task Management</td> 
    <td>Replaced</td> 
-   <td>6.0 introduced <a href="../sites/authoring/using/projects.md">Projects &amp; Tasks</a>.<br /> </td> 
+   <td>6.0 introduced <a href="/help/sites-authoring/projects.md">Projects &amp; Tasks</a>.<br /> </td> 
   </tr>
   <tr>
    <td>Workflow Inbox<br /> </td> 
@@ -612,7 +607,7 @@ This is a list of various tools the classic UI have and the status in the touch-
    <td> </td> 
   </tr>
   <tr>
-   <td>Workflow to Page Template Configuration (<span class="code">/etc/workflow/wcm/templates.html</span>)</td> 
+   <td>Workflow to Page Template Configuration (<code>/etc/workflow/wcm/templates.html</code>)</td> 
    <td>Missing<br /> </td> 
    <td>Use Classic UI.</td> 
   </tr>
@@ -642,17 +637,17 @@ This is a list of various tools the classic UI have and the status in the touch-
    <td>For advanced permission editing use Classic UI.<br /> </td> 
   </tr>
   <tr>
-   <td>Purge Versions (<span class="code">/etc/versioning/purge.html</span>)</td> 
+   <td>Purge Versions (<code>/etc/versioning/purge.html</code>)</td> 
    <td>Missing</td> 
    <td>Use Classic UI.</td> 
   </tr>
   <tr>
-   <td>External Link Checker (<span class="code">/etc/linkchecker.html</span>)</td> 
+   <td>External Link Checker (<code>/etc/linkchecker.html</code>)</td> 
    <td>Missing</td> 
    <td>Use Classic UI.<br /> </td> 
   </tr>
   <tr>
-   <td>Bulk Editor (<span class="code">/etc/importers/bulkeditor.html</span>)</td> 
+   <td>Bulk Editor (<code>/etc/importers/bulkeditor.html</code>)</td> 
    <td>Missing<br /> </td> 
    <td>Use Classic UI.</td> 
   </tr>

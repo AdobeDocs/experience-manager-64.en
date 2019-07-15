@@ -11,9 +11,9 @@ topic-tags: forms-app
 discoiquuid: dae1ce32-702e-4cf0-b3c6-976551208d09
 ---
 
-# Synchronizing the app{#synchronizing-the-app}
+# Synchronizing the app {#synchronizing-the-app}
 
-## Synchronizing the app {#synchronizing-the-app}
+## Synchronizing the app {#synchronizing-the-app-1}
 
 The forms in your app are downloaded from the AEM Forms server. The forms are downloaded under Tasks and Forms tabs. Drafts created from forms are downloaded in the drafts tab, and drafts created from tasks are downloaded in the tasks tab. For a standalone form on OSGi server, forms and drafts are downloaded in Forms and Draft tabs respectively.
 
@@ -23,7 +23,7 @@ When you are online with the AEM Forms server, by default, your app is synchroni
 
 **To synchronize the app manually**
 
-Tap the Synchronize button ![](assets/sync-app.png) at the lower-right corner of the home screen.
+Tap the Synchronize button ![sync-app](assets/sync-app.png) at the lower-right corner of the home screen.
 
 **To alter the synchronization frequency**
 
@@ -42,4 +42,4 @@ Tap the Synchronize button ![](assets/sync-app.png) at the lower-right corner of
 * The syncSubmittedTask() and syncSavedTask() function perform operations on individual tasks.
 * The call to the processOfflineSubmittedSavedTasks() function is initiated by the task list component after a user selects to synchronize offline state to the server or an automatic sync by the background thread.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

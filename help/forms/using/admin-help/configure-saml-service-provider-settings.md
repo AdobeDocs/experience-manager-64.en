@@ -22,7 +22,7 @@ For an explanation of SAML, see [Security Assertion Markup Language (SAML) V2.0 
 1. In the Service Provider Base URL box, type the base URL for your forms server (for example, `https://AEMformsserver:8080`).
 1. (Optional) To enable AEM forms to send signed authentication requests to the IDP, perform the following tasks:
 
-    * Use Trust Manager to import a credential in PKCS #12 format with Document Signing Credential selected as the Trust Store Type. (See [Managing local credentials](../../../forms/using/admin-help/local-credentials.md#managing-local-credentials).)
+    * Use Trust Manager to import a credential in PKCS #12 format with Document Signing Credential selected as the Trust Store Type. (See [Managing local credentials](/help/forms/using/admin-help/local-credentials.md#managing-local-credentials).)
     * In the Service Provider Credential Key Alias list, select the alias you assigned to the credential in Trust Store.
     * Click Export to save the URL contents to a file and then import that file into your IDP.
 
@@ -44,12 +44,16 @@ For an explanation of SAML, see [Security Assertion Markup Language (SAML) V2.0 
 1. (Optional) In Custom Properties, specify additional properties. The additional properties are name=value pairs separated by new lines.
 
     * You can configure AEM forms to issue a SAML assertion for a validity period that matches the validity period of a third-party assertion. To honor the third-party SAML assertion timeout, add the following line in Custom Properties:
+
       `saml.sp.honour.idp.assertion.expiry=true`
     
     * Add the following custom property for using RelayState to determine the URL where the user will be redirected after successful authentication.
+
       `saml.sp.use.relaystate=true`
     
-    * Add the following custom property to configure the URL for the custom Java Server Pages (JSP), which will be used to render the registered list of identity providers. If you have not deployed a custom web application, it will use the default User Management page to render the list. `saml.sp.discovery.url=/custom/custom.jsp`
+    * Add the following custom property to configure the URL for the custom Java Server Pages (JSP), which will be used to render the registered list of identity providers. If you have not deployed a custom web application, it will use the default User Management page to render the list. 
+    
+    `saml.sp.discovery.url=/custom/custom.jsp`
 
 1. Click Save.
 

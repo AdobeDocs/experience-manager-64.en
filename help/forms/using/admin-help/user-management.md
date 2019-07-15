@@ -11,19 +11,19 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 10e6177a-8228-4515-aba9-bbe59bede449
 ---
 
-# User Management{#user-management}
+# User Management {#user-management}
 
 User Management allows you to enable single sign-on (SSO) between AEM forms modules and Netegrity SiteMinder-protected applications by using Security Assertion Markup Language (SAML). When SSO is implemented, the AEM forms user login pages are not required and are not displayed if the user is already authenticated through the company portal.
 
-For information about improving the database and directory sync performance for DB2, see [IBM DB2 database: Running commands for regular maintenance](../../../forms/using/admin-help/ibm-db2-database-running-commands.md#ibm-db2-database-running-commands-for-regular-maintenance).
+For information about improving the database and directory sync performance for DB2, see [IBM DB2 database: Running commands for regular maintenance](/help/forms/using/admin-help/ibm-db2-database-running-commands.md#ibm-db2-database-running-commands-for-regular-maintenance).
 
 ## Configuring User Management for an SSL-enabled LDAP server {#configuring-user-management-for-an-ssl-enabled-ldap-server}
 
-If you have an SSL-enabled LDAP server, configure User Management to work with it. (See [Configure User Management for an SSL-enabled LDAP server](../../../forms/using/admin-help/configure-user-management-ssl-enabled.md#configure-user-management-for-an-ssl-enabled-ldap-server).)
+If you have an SSL-enabled LDAP server, configure User Management to work with it. (See [Configure User Management for an SSL-enabled LDAP server](/help/forms/using/admin-help/configure-user-management-ssl-enabled.md#configure-user-management-for-an-ssl-enabled-ldap-server).)
 
 ## Setting user privileges for use with Document Security {#setting-user-privileges-for-use-with-document-security}
 
-Create an administrator user who has the appropriate privileges for creating users and groups. If your AEM forms environment includes Document Security, grant the privilege to manage invited and local users to a user who will be the administrator for these users. Also assign the administration console User role to provide the user with access to administration console. (See [Creating and configuring roles](../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).)
+Create an administrator user who has the appropriate privileges for creating users and groups. If your AEM forms environment includes Document Security, grant the privilege to manage invited and local users to a user who will be the administrator for these users. Also assign the administration console User role to provide the user with access to administration console. (See [Creating and configuring roles](/help/forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).)
 
 To view users and groups in selected domains during policy user searches, a super administrator or policy set administrator must select and add domains (created in User Management) to the visible user and group list for each policy set created.
 

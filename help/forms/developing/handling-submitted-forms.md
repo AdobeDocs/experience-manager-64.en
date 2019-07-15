@@ -12,39 +12,39 @@ topic-tags: operations
 discoiquuid: 3d838027-6bde-4a71-a428-4d5102f7d799
 ---
 
-# Handling Submitted Forms{#handling-submitted-forms}
+# Handling Submitted Forms {#handling-submitted-forms}
 
 ## Handling Submitted Forms {#handling-submitted-forms}
 
 Web-based applications that enable a user to fill in interactive forms require the data to be submitted back to the server. Using the Forms service, you can retrieve the data that the user entered into an interactive form. After you retrieve the data, you can process the data to meet your business requirements. For example, you can store the data in a database, send the data to another application, send the data to another service, merge the data in a form design, display the data in a web browser, and so on.
 
-Form data is submitted to the Forms service as either XML or PDF data, which is an option that is set in Designer. A form that is submitted as XML enables you to extract individual field data values. That is, you can extract the value of each form field that the user entered into the form. A form that is submitted as PDF data is binary data, not XML data. You can save the form as a PDF file, or send the form to another service. If you want to extract data from a form submitted as XML and then use the form data to create a PDF document, invoke another AEM Forms operation. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating-pdf-documents-with-submitted-xml-data))
+Form data is submitted to the Forms service as either XML or PDF data, which is an option that is set in Designer. A form that is submitted as XML enables you to extract individual field data values. That is, you can extract the value of each form field that the user entered into the form. A form that is submitted as PDF data is binary data, not XML data. You can save the form as a PDF file, or send the form to another service. If you want to extract data from a form submitted as XML and then use the form data to create a PDF document, invoke another AEM Forms operation. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/creating-pdf-documents-submitted-xml.md))
 
 The following diagram shows data being submitted to a Java Servlet named `HandleData` from an interactive form displayed in a web browser.
 
-![](assets/hs_hs_handlesubmit.png)
+![hs_hs_handlesubmit](assets/hs_hs_handlesubmit.png)
 
 The following table explains the steps in the diagram.
 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e67713" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e67716" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>A user fills in an interactive form and clicks the form’s Submit button.</p></td> 
+   <td><p>1</p></td> 
+   <td><p>A user fills in an interactive form and clicks the form’s Submit button.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>Data is submitted to the <span class="code">HandleData</span> Java Servlet as XML data.</p></td> 
+   <td><p>2</p></td> 
+   <td><p>Data is submitted to the <code>HandleData</code> Java Servlet as XML data.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>The <span class="code">HandleData</span> Java Servlet contains application logic to retrieve the data.</p></td> 
+   <td><p>3</p></td> 
+   <td><p>The <code>HandleData</code> Java Servlet contains application logic to retrieve the data.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,11 +53,11 @@ The following table explains the steps in the diagram.
 
 When form data is submitted as XML, you can retrieve XML data that represents the submitted data. All form fields appear as nodes in an XML schema. The node values correspond to the values that the user filled in. Consider a loan form where each field in the form appears as a node within the XML data. The value of each node corresponds to the value that a user fills in. Assume a user fills the loan form with data shown in the following form.
 
-![](assets/hs_hs_loanformdata.png)
+![hs_hs_loanformdata](assets/hs_hs_loanformdata.png)
 
 The following illustration shows corresponding XML data that is retrieved by using the Forms service Client API.
 
-![](assets/hs_hs_loandata.png)
+![hs_hs_loandata](assets/hs_hs_loandata.png)
 
 The fields in the loan form. These values can be retrieved
 using Java XML classes.
@@ -70,33 +70,33 @@ using Java XML classes.
 
 Consider a web application that invokes the Forms service. After the Forms service renders an interactive PDF form to a client web browser, the user fills in the form and submits it back as PDF data. When the Forms service receives the PDF data, it can send the PDF data to another service or save it as a PDF file. The following diagram shows the application’s logic flow.
 
-![](assets/hs_hs_savingforms.png)
+![hs_hs_savingforms](assets/hs_hs_savingforms.png)
 
 The following table describes the steps in this diagram.
 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e67796" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e67799" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>A web page contains a link that accesses a Java Servlet that invokes the Forms service.</p></td> 
+   <td><p>1</p></td> 
+   <td><p>A web page contains a link that accesses a Java Servlet that invokes the Forms service.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The Forms service renders an interactive PDF form to the client web browser.</p></td> 
+   <td><p>2</p></td> 
+   <td><p>The Forms service renders an interactive PDF form to the client web browser.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The user fills in an interactive form and clicks a submit button. The form is submitted back to the Forms service as PDF data. This option is set in Designer.</p></td> 
+   <td><p>3</p></td> 
+   <td><p>The user fills in an interactive form and clicks a submit button. The form is submitted back to the Forms service as PDF data. This option is set in Designer.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The Forms service saves the PDF data as a PDF file. </p></td> 
+   <td><p>4</p></td> 
+   <td><p>The Forms service saves the PDF data as a PDF file. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,19 +177,15 @@ Depending on the content type of the submitted data, you can extract individual 
 
 **See also**
 
-[Handle submitted forms using the Java API](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted.md#handle-submitted-forms-using-the-java-api)
-
-[Handle submitted PDF data using the web service API](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted.md#handle-submitted-pdf-data-using-the-web-service-api)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
+[Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
 ### Handle submitted forms using the Java API {#handle-submitted-forms-using-the-java-api}
 
@@ -221,7 +217,7 @@ Handle a submitted form by using the Forms API (Java):
         * A `RenderOptionsSpec` object that stores run-time options.
 
       The `processFormSubmission` method returns a `FormsResult` object containing the results of the form submission.
-    
+
     * Determine whether the Forms service is finished processing the form data by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `0`, the data is ready to be processed.
 
 1. Determine if the form submission contains file attachments
@@ -251,8 +247,6 @@ Handle a submitted form by using the Forms API (Java):
         * Populate the PDF file by invoking the `com.adobe.idp.Document` object’s `copyToFile` method and passing the `java.io.File` object.
 
 **See also**
-
-[Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling-submitted-forms)
 
 [Quick Start (SOAP mode): Handling PDF forms submitted as XML using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-handling-pdf-forms-submitted-as-xml-using-the-java-api)
 
@@ -301,7 +295,7 @@ Handle a submitted form by using the Forms API (web service):
         * An empty `FormsResultHolder` object that is populated by the method with the form that is submitted.
 
       The `processFormSubmission` method populates the `FormsResultHolder` parameter with the results of the form submission.
-    
+
     * Determine whether the Forms service is finished processing the form data by invoking the `FormsResult` object’s `getAction` method. If this method returns the value `0`, the form data is ready to be processed. You can get a `FormsResult` object by getting the value of the `FormsResultHolder` object’s `value` data member.
 
 1. Determine if the form submission contains file attachments
@@ -329,7 +323,5 @@ Handle a submitted form by using the Forms API (web service):
         * Populate the PDF file by invoking the `java.io.FileOutputStream` object’s `write` method and passing the byte array.
 
 **See also**
-
-[Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling-submitted-forms)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

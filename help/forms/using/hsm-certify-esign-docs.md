@@ -11,7 +11,7 @@ topic-tags: document_services
 discoiquuid: 536bcba4-b754-4799-b0d2-88960cc4c44a
 ---
 
-# Use HSM to digitally sign or certify documents{#use-hsm-to-digitally-sign-or-certify-documents}
+# Use HSM to digitally sign or certify documents {#use-hsm-to-digitally-sign-or-certify-documents}
 
 Hardware security modules (HSM) and etokens are dedicated, hardened, and tamper-resistance computing devices designed to securely manage, process, and store digital keys. These devices are directly attached to a computer or a network server.
 
@@ -22,7 +22,7 @@ Adobe Experience Manager Forms can use credentials stored on an HSM or etoken to
 1. Create an alias for the HSM or etoken device in AEM Web Console.
 1. Use the DocAssurance Service APIs to sign or certify the documents with digital keys stored on the device.
 
-## Before you configure the HSM or etoken devices with AEM Forms <br> {#configurehsmetoken}
+## Before you configure the HSM or etoken devices with AEM Forms {#configurehsmetoken}
 
 * Install [AEM Forms add-on](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) package.
 * Install and configure HSM or etoken client software on the same computer as AEM server. The client software is required to communicate with the HSM and etoken devices.
@@ -63,14 +63,14 @@ Perform the following steps to setup certificates:
 
 1. Log in to AEM Author instance as an administrator.  
 
-1. Click** Adobe Experience Manager** on Global Navigation Bar. Go to **Tools **&gt; **Security **&gt; **Users**. 
+1. Click** Adobe Experience Manager** on Global Navigation Bar. Go to **Tools** &gt;  **Security** &gt;  **Users**. 
 1. Click the **name** field of the user account. The **Edit User Settings** page opens. 
 1. On the AEM Author instance, certificates reside in a KeyStore. If you have not created a KeyStore earlier, click **Create KeyStore** and set a new password for the KeyStore. If the server already contains a KeyStore, skip this step.  
 
 1. On the **Edit User Settings** page, click **Manage KeyStore**.  
 
 1. On KeyStore Management dialog, expand the **Add Private Key from Key Store file** option and provide an alias. The alias is used to perform the Reader Extensions operation.
-1. To upload the certificate file, click **Select Key Store File** and upload a <filename> `.pfx` file. 
+1. To upload the certificate file, click **Select Key Store File** and upload a `.pfx` file. 
 1. Add the **Key Store Password**,** Private Key Password**, and **Private Key Alias **that is associated with the certificate to the respective fields. Click **Submit**.
 
    >[!NOTE]
@@ -89,7 +89,7 @@ Perform the following steps to setup certificates:
 >
 >On moving to production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential.
 
-## Create an alias for the device <br> {#configuredeviceinaemconsole}
+## Create an alias for the device {#configuredeviceinaemconsole}
 
 The alias contains all the parameters that an HSM or etoken requires. Perform the instructions listed below to create an alias for each HSM or etoken credential that eSign or Digital Signatures uses :
 
@@ -99,8 +99,9 @@ The alias contains all the parameters that an HSM or etoken requires. Perform th
     * **Credential Alias**: Specify a string used to identify the alias. This value is used as a property for some Digital Signatures operations, such as the Sign Signature Field operation. 
     * **DLL Path**: Specify the fully qualified path of your HSM or etoken client library on the server. For example, C:\Program Files\LunaSA\cryptoki.dll. In a clustered environment, this path must be identical for all servers in the cluster.
     * **HSM Pin**: Specify the password required to access the device key. 
-    * **HSM Slot Id**: Specify a slot identifier of type integer. The slot ID is set on a client-by-client basis. If you register a second machine to a different partition (for example, HSMPART2 on the same HSM device), then slot 1 is associated with the HSMPART2 partition for the client.** 
-      Note:** *While configuring Etoken, specify a numeric value for the HSM Slot Id field. A numeric value is required to get the Signatures operations working.* 
+    * **HSM Slot Id**: Specify a slot identifier of type integer. The slot ID is set on a client-by-client basis. If you register a second machine to a different partition (for example, HSMPART2 on the same HSM device), then slot 1 is associated with the HSMPART2 partition for the client.
+    
+    **Note:** *While configuring Etoken, specify a numeric value for the HSM Slot Id field. A numeric value is required to get the Signatures operations working.* 
     
     * **Certificate SHA1**: Specify SHA1 value (thumbprint) of the public key (.cer) file for the credential you are using. Ensure that there are no spaces used in the SHA1 value. If you are using a physical certificate, then it is not required.
     * **HSM Device Type**: Select the manufacturer of the HSM (Luna or other) or eToken device.
@@ -408,4 +409,4 @@ If you have upgraded from AEM 6.0 Form or AEM 6.1 Forms, and you were using the 
 
 ```
 
-For detailed information about APIs and sample code of the DocAssurance service, see [Using AEM Document Services Programmatically](../../forms/using/aem-document-services-programmatically.md).
+For detailed information about APIs and sample code of the DocAssurance service, see [Using AEM Document Services Programmatically](/help/forms/using/aem-document-services-programmatically.md).

@@ -11,7 +11,7 @@ topic-tags: develop
 discoiquuid: 2ec2a75e-4191-4660-a6f2-26cc667720b3
 ---
 
-# Application Manager Client JavaAPI Quick Start(SOAP){#application-manager-client-javaapi-quick-start-soap}
+# Application Manager Client JavaAPI Quick Start (SOAP) {#application-manager-client-javaapi-quick-start-soap}
 
 The following Java API Quick Start(SOAP) are available for the Application Manager Client.
 
@@ -469,7 +469,9 @@ The following Java code example gets the applications using the Java API.
  * <install directory>/sdk/client-libs/thirdparty 
  * 
  * 
- */ package com.adobe.idp.dsc.applicationmanager; 
+ */ 
+
+package com.adobe.idp.dsc.applicationmanager; 
  
 import java.io.FileInputStream; 
 import java.util.List; 
@@ -667,7 +669,7 @@ The following Java code example is for prevewing AEM Forms and later application
  * 
  * SOAP required JAR files are located in the following path: 
  * <install directory>/sdk/client-libs/thirdparty 
-*/ 
+ */ 
 package com.adobe.idp.dsc.applicationmanager; 
 import java.io.FileInputStream; 
 import java.util.Properties; 

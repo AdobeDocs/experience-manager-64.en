@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2d6f90bb-62f7-4805-9250-1b913fe7d2b3
 ---
 
-# Overview of Workspace{#overview-of-workspace}
+# Overview of Workspace {#overview-of-workspace}
 
 Workspace lets users start, participate in, and track business processes.
 

@@ -10,7 +10,7 @@ topic-tags: correspondence-management
 discoiquuid: b35ea921-182f-4371-90f6-482d22694b42
 ---
 
-# Add custom action to the Asset Listing view{#add-custom-action-to-the-asset-listing-view}
+# Add custom action to the Asset Listing view {#add-custom-action-to-the-asset-listing-view}
 
 ## Overview {#overview}
 
@@ -41,7 +41,7 @@ To customize Correspondence Management to allow your users to download a flat PD
 
 1. In the apps folder, create a folder named items with path/structure similar to the items folder located in selection folder using the following steps:
 
-    1. Right-click the **items** folder at the following path and select **Overlay Node**:
+    1. Right-click the **[!UICONTROL items]** folder at the following path and select **[!UICONTROL Overlay Node]**:
 
        `/libs/fd/cm/ma/gui/content/cmassets/jcr:content/body/content/header/items/selection/items`
 
@@ -56,30 +56,30 @@ To customize Correspondence Management to allow your users to download a flat PD
 
     1. Ensure that the Overlay Node dialog has the following values:
 
-       **Path:** /libs/fd/cm/ma/gui/content/cmassets/jcr:content/body/content/header/items/selection/items
+       **[!UICONTROL Path:]** /libs/fd/cm/ma/gui/content/cmassets/jcr:content/body/content/header/items/selection/items
 
-       **Location:** /apps/
+       **[!UICONTROL Location:]** /apps/
 
-       **Match Node Types:** Selected
+       **[!UICONTROL Match Node Types:]** Selected
 
        ![Overlay node](assets/2_createnodedownloadflatpdf.png)
 
-    1. Click **OK**. The folder structure is created in the apps folder.
+    1. Click **[!UICONTROL OK]**. The folder structure is created in the apps folder.
 
-       Click **Save All**.
+       Click **[!UICONTROL Save All]**.
 
 1. Under the newly created items folder, add a node for the custom button/action in a particular asset (Example: downloadFlatPDF) using the following steps:
 
-    1. Right-click the **items** folder and select **Create** &gt; **Create Node**.  
+    1. Right-click the **[!UICONTROL items]** folder and select **[!UICONTROL Create** &gt; **Create Node]**.  
 
-    1. Ensure that the Create Node dialog has the following values and click **OK**:
+    1. Ensure that the Create Node dialog has the following values and click **[!UICONTROL OK]**:
 
-       **Name:** downloadFlatPDF (or the name you want to give to this property)
+       **[!UICONTROL Name:]** downloadFlatPDF (or the name you want to give to this property)
 
-       **Type:** nt:unstructured
+       **[!UICONTROL Type:]** nt:unstructured
 
     1. Click the new node you have created (here downloadFlatPDF). CRX displays the node's properties.
-    1. Add the following properties to the node (here downloadFlatPDF) and click **Save All**:
+    1. Add the following properties to the node (here downloadFlatPDF) and click **[!UICONTROL Save All]**:
 
     <table> 
     <tbody> 
@@ -133,23 +133,23 @@ To customize Correspondence Management to allow your users to download a flat PD
 
 1. In the apps folder, create a folder named js with path/structure similar to the items folder located in admin folder using the following steps:
 
-    1. Right-click the **js** folder at the following path and select **Overlay Node**: ``
+    1. Right-click the **[!UICONTROL js]** folder at the following path and select **[!UICONTROL Overlay Node]**: ``
 
        `/libs/fd/cm/ma/gui/components/admin/clientlibs/admin/js`
 
     1. Ensure that the Overlay Node dialog has the following values:
 
-       **Path:** /libs/fd/cm/ma/gui/components/admin/clientlibs/admin/js
+       **[!UICONTROL Path:]** /libs/fd/cm/ma/gui/components/admin/clientlibs/admin/js
 
-       **Location:** /apps/
+       **[!UICONTROL Location:]** /apps/
 
-       **Match Node Types:** Selected
+       **[!UICONTROL Match Node Types:]** Selected
 
-    1. Click **OK**. The folder structure is created in the apps folder. Click **Save All**.
+    1. Click **[!UICONTROL OK]**. The folder structure is created in the apps folder. Click **[!UICONTROL Save All]**.
 
 1. In the js folder, create a file named formaction.js with the code for action handling of the button using the following steps:
 
-    1. Right-click the **js** folder at the following path and select **Create &gt; Create File**:
+    1. Right-click the **[!UICONTROL js]** folder at the following path and select **[!UICONTROL Create &gt; Create File]**:
 
        `/apps/fd/cm/ma/gui/components/admin/clientlibs/admin/js`
 
@@ -160,7 +160,7 @@ To customize Correspondence Management to allow your users to download a flat PD
 
        `/libs/fd/cm/ma/gui/components/admin/clientlibs/admin/js/formaction.js`
 
-       Then append the following code at the end in the formaction.js file (under the /apps branch) and click **Save All**:
+       Then append the following code at the end in the formaction.js file (under the /apps branch) and click **[!UICONTROL Save All]**:
 
        ```    
        /* Action url for xml file to be added.*/
@@ -223,35 +223,35 @@ To customize Correspondence Management to allow your users to download a flat PD
 
 1. In the apps folder, create a folder named items with path/structure similar to the items folder located in actionhandlers folder using the following steps:
 
-    1. Right-click the **items** folder at the following path and select **Overlay Node**:
+    1. Right-click the **[!UICONTROL items]** folder at the following path and select **[!UICONTROL Overlay Node]**:
 
        `/libs/fd/cm/ma/gui/content/commons/actionhandlers/items/`
 
     1. Ensure that the Overlay Node dialog has the following values:
 
-       **Path:** /libs/fd/cm/ma/gui/content/commons/actionhandlers/items/
+       **[!UICONTROL Path:]** /libs/fd/cm/ma/gui/content/commons/actionhandlers/items/
 
-       **Location:** /apps/
+       **[!UICONTROL Location:]** /apps/
 
-       **Match Node Types:** Selected
+       **[!UICONTROL Match Node Types:]** Selected
 
-    1. Click **OK**. The folder structure is created in the apps folder.  
+    1. Click **[!UICONTROL OK]**. The folder structure is created in the apps folder.  
 
-    1. Click **Save All**.
+    1. Click **[!UICONTROL Save All]**.
 
 1. Under the newly created items node, add a node for the custom button/action in a particular asset (Example: letterpdfdownloader) using the following steps:
 
-    1. Right click the items folder and select **Create &gt; Create Node**.  
+    1. Right click the items folder and select **[!UICONTROL Create &gt; Create Node]**.  
 
-    1. Ensure that the Create Node dialog has the following values and click **OK**:
+    1. Ensure that the Create Node dialog has the following values and click **[!UICONTROL OK]**:
 
-       **Name:** letterpdfdownloader (Or the name you want to give to this property - must be unique. If you use a different name here, also specify the same in the formaction.js file's ACTION_URL variable.)
+       **[!UICONTROL Name:]** letterpdfdownloader (Or the name you want to give to this property - must be unique. If you use a different name here, also specify the same in the formaction.js file's ACTION_URL variable.)
 
-       **Type:** nt:unstructured
+       **[!UICONTROL Type:]** nt:unstructured
 
     1. Click the new node you have created (here downloadFlatPDF). CRX displays the node's properties.   
 
-    1. Add the following property to the node (here letterpdfdownloader) and click **Save All**:
+    1. Add the following property to the node (here letterpdfdownloader) and click **[!UICONTROL Save All]**:
 
        | **Name** |**Type** |**Value** |
        |---|---|---|
@@ -261,18 +261,18 @@ To customize Correspondence Management to allow your users to download a flat PD
 
    /apps/fd/cm/ma/gui/components/admin/clientlibs/admin
 
-    1. Right-click the **admin** folder at the following path and select **Create &gt; Create File**:
+    1. Right-click the **[!UICONTROL admin]** folder at the following path and select **[!UICONTROL Create &gt; Create File]**:
 
        /apps/fd/cm/ma/gui/components/admin/clientlibs/admin
 
        Name the file as POST.jsp. (The filename needs to be POST.jsp only.)
     
-    1. Double-click the **POST.jsp** file to open it in CRX. 
-    1. Add the following code to POST.jsp file and click **Save All**:
+    1. Double-click the **[!UICONTROL POST.jsp]** file to open it in CRX. 
+    1. Add the following code to POST.jsp file and click **[!UICONTROL Save All]**:
 
        This code is specific to the letter render service. For any other asset, add that asset's java libraries to this code. For more information on AEM Forms APIs, see [AEM Forms API](https://adobe.com/go/learn_aemforms_javadocs_63_en).
 
-       For more information on AEM libraries, see AEM [Components](../../sites/developing/using/components.md).
+       For more information on AEM libraries, see AEM [Components](/help/sites-developing/components.md).
 
        ```xml
        /*Import libraries. Here we are downloading letter flat pdf with input xml data so we require letterRender Api. For any other Module functionality we need to first import that library. */            
@@ -345,8 +345,8 @@ After you have added custom functionality to download flat PDF of your letters, 
 
 1. Go to `https://[server]:[port]/[ContextPath]/projects.html` and log in.  
 
-1. Select **Forms &gt; Letters**. Correspondence Management lists the letters available in the system.
-1. Click **Select** and then click a letter to select it.
+1. Select **[!UICONTROL Forms &gt; Letters]**. Correspondence Management lists the letters available in the system.
+1. Click **[!UICONTROL Select]** and then click a letter to select it.
 1. Select **More &gt; &lt;Download Flat PDF&gt; **(The custom functionality created using the instructions this article). Download Letter as PDF dialog appears.
 
    The menu item name, functionality, and alt-text is according to the customization created in [Scenario: Add a command to the Letters list user interface to download flat PDF version of a letter.](#addcommandtoletters)
@@ -357,7 +357,7 @@ After you have added custom functionality to download flat PDF of your letters, 
 
    >[!NOTE]
    >
-   >Before downloading the letter as a flat PDF, you can create the XML file with the data in the letter using the **Create Report** option.
+   >Before downloading the letter as a flat PDF, you can create the XML file with the data in the letter using the **[!UICONTROL Create Report]** option.
 
    ![Download letter as PDF](assets/6_downloadflatpdf.png)
 

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e25c1b35-73eb-4353-8e39-a2d4cdccd101
 ---
 
-# Importing and exporting PDF Generator configuration files{#importing-and-exporting-pdf-generator-configuration-files}
+# Importing and exporting PDF Generator configuration files {#importing-and-exporting-pdf-generator-configuration-files}
 
 The configuration file contains the PDF Generator conversion information, including the PDF, file type, and security settings.
 

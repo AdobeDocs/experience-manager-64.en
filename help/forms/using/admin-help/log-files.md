@@ -11,11 +11,11 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: cf140483-470f-4bff-8870-304207508aab
 ---
 
-# Log files{#log-files}
+# Log files {#log-files}
 
 Events such as run-time or startup errors are recorded to the application server log files. If you have any problems deploying to the application server, you can use the log files to help you find the problem. You can open the log files using any text editor.
 
-(JBoss) The following log files are located in the *[appserver root]*/server/*[server]*/log directory:
+(JBoss) The following log files are located in the `*[appserver root]*/server/*[server]*/log` directory:
 
 * boot.log
 * server.log.*[yyyy-mm-dd]*

@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 52187196-b091-4683-85ae-cc7c250dee54
 ---
 
-# Backing up the AEM forms data{#backing-up-the-aem-forms-data}
+# Backing up the AEM forms data {#backing-up-the-aem-forms-data}
 
 This section describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
 
@@ -36,15 +36,15 @@ If the database is running in a logging mode, as described in the previous secti
 You must put AEM forms in either the safe backup (snapshot) mode or the rolling backup (continuous coverage) mode. Before you set AEM forms to enter either of the backup modes, ensure the following:
 
 * Verify the system version and record the patches or updates that were applied since the last complete system image backup was performed.
-* If you are using either rolling or snapshot mode backups, ensure that your database is configured with the correct log settings to allow for hot backups of the database. (See [AEM forms database](../../../forms/using/admin-help/files-back-recover.md#aem-forms-database).)
+* If you are using either rolling or snapshot mode backups, ensure that your database is configured with the correct log settings to allow for hot backups of the database. (See [AEM forms database](/help/forms/using/admin-help/files-back-recover.md#aem-forms-database).)
 
 In addition to these, observe the following guidelines for the backup/restore process.
 
-* Back up the GDS directory by using an available operating system or a third-party backup utility. (See [GDS location](../../../forms/using/admin-help/files-back-recover.md#gds-location).)
-* (Optional) Back up the Content Storage Root directory by using an available operating system or a third-party backup and utility. (See [Content Storage Root location (stand-alone environment)](../../../forms/using/admin-help/files-back-recover.md#content-storage-root-location-stand-alone-environment) or [Content Storage Root location (clustered environment)](../../../forms/using/admin-help/files-back-recover.md#content-storage-root-location-clustered-environment).)
+* Back up the GDS directory by using an available operating system or a third-party backup utility. (See [GDS location](/help/forms/using/admin-help/files-back-recover.md#gds-location).)
+* (Optional) Back up the Content Storage Root directory by using an available operating system or a third-party backup and utility. (See [Content Storage Root location (stand-alone environment)](/help/forms/using/admin-help/files-back-recover.md#content-storage-root-location-stand-alone-environment) or [Content Storage Root location (clustered environment)](/help/forms/using/admin-help/files-back-recover.md#content-storage-root-location-clustered-environment).)
 * Back up   author  and publish instances (  crx -repository backup).
 
-  To back up the Correspondence Management Solution environment, perform the steps on the author and publish instances as described in [Backup and Restore](../../../sites/administering/using/backup-and-restore.md).
+  To back up the Correspondence Management Solution environment, perform the steps on the author and publish instances as described in [Backup and Restore](/help/sites-administering/backup-and-restore.md).
 
   Consider the following points when backing up the author and publish instances:
 
@@ -53,7 +53,7 @@ In addition to these, observe the following guidelines for the backup/restore pr
     * Workbench developers can continue to work on their processes locally. They should not deploy any new processes during the backup phase.
     * The decision about the length of each backup session (for rolling backup mode) should be based on the total time taken to back up all the data in AEM forms (DB,GDS, AEM repository, and any other additional custom data).
 
-You should back up the AEM forms database, including any transaction logs. (See [AEM forms database](../../../forms/using/admin-help/files-back-recover.md#aem-forms-database).) For more information, see the appropriate knowledge base article for your database:
+You should back up the AEM forms database, including any transaction logs. (See [AEM forms database](/help/forms/using/admin-help/files-back-recover.md#aem-forms-database).) For more information, see the appropriate knowledge base article for your database:
 
 * [Oracle Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403624)
 * [MySQL Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403625)

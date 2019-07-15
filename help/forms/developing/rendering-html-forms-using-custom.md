@@ -12,7 +12,7 @@ topic-tags: operations
 discoiquuid: 8fe7c072-7df0-44b7-92d0-bf39dc1e688a
 ---
 
-# Rendering HTML Forms Using Custom CSS Files{#rendering-html-forms-using-custom-css-files}
+# Rendering HTML Forms Using Custom CSS Files {#rendering-html-forms-using-custom-css-files}
 
 ## Rendering HTML Forms Using Custom CSS Files {#rendering-html-forms-using-custom-css-files}
 
@@ -32,7 +32,7 @@ You can retrieve a sample CSS file by using the FormsIVS application. Upload the
 
 >[!NOTE]
 >
->Before rendering an HTML form that uses a custom CSS file, it is important that you have a solid understanding of rendering HTML forms. (See [Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html).)
+>Before rendering an HTML form that uses a custom CSS file, it is important that you have a solid understanding of rendering HTML forms. (See [Rendering Forms as HTML](/help/forms/developing/rendering-forms-html.md).)
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 **See also**
 
-[Render an HTML form that uses a CSS file using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-using-custom rendering-html-forms-using-custom.md#render-an-html-form-that-uses-a-css-file-using-the-java-api)
+[Render an HTML form that uses a CSS file using the Java API](#render-an-html-form-that-uses-a-css-file-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -80,11 +80,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-interactive-pdf-forms.md)
 
-[Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html)
+[Rendering Forms as HTML](/help/forms/developing/rendering-forms-html.md)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
 ### Render an HTML form that uses a CSS file using the Java API {#render-an-html-form-that-uses-a-css-file-using-the-java-api}
 
@@ -130,7 +130,7 @@ Render an HTML form that uses a custom CSS file by using the Forms API (Java):
 
 **See also**
 
-[Rendering HTML Forms Using Custom CSS Files](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-using-custom.md#rendering-html-forms-using-custom-css-files)
+[Rendering HTML Forms Using Custom CSS Files](#rendering-html-forms-using-custom-css-files)
 
 [Quick Start (SOAP mode): Rendering an HTML form that uses a CSS file using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-rendering-an-html-form-that-uses-a-css-file-using-the-java-api)
 
@@ -188,6 +188,6 @@ Render an HTML form that uses a custom CSS file by using the Forms API (web serv
 
 **See also**
 
-[Rendering HTML Forms Using Custom CSS Files](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-using-custom.md#rendering-html-forms-using-custom-css-files)
+[Rendering HTML Forms Using Custom CSS Files](#rendering-html-forms-using-custom-css-files)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

@@ -11,11 +11,11 @@ content-type: reference
 discoiquuid: d12b594b-4ac1-4569-87a8-a0993af9163b
 ---
 
-# Feature Packs{#feature-packs}
+# Feature Packs {#feature-packs}
 
 Release notes listing all the Feature Packs available for  to Adobe Experience Manager 6.4.
 
-Adobe Experience Manager (AEM) 6.4 provides updates to add fuctionality to the product using feature packs.
+Adobe Experience Manager (AEM) 6.4 provides updates to add functionality to the product using feature packs.
 
 >[!NOTE]
 >

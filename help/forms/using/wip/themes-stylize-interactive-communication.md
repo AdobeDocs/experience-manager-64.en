@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 9a2d00bb-8c0f-4b0e-859f-f6d3920754b4
 ---
 
-# DO NOT PUBLISH Themes in AEM Forms{#do-not-publish-themes-in-aem-forms}
+# DO NOT PUBLISH Themes in AEM Forms {#do-not-publish-themes-in-aem-forms}
 
 ## About themes in AEM Forms {#about-themes-in-aem-forms}
 
@@ -25,7 +25,7 @@ Use forms manager to:
 * Download/upload an existing theme
 * Manage dependency for the theme
 
-AEM Forms ship with form templates that are associated with themes. These themes are available to customers out-of-the-box. Themes available to customers are: Survey Theme, Simple Enrolment Theme, Advanced Enrolment Theme, and Canvas Theme corresponding to the [form templates](../../../forms/using/template-editor.md). You can use them to style components in your forms, and customize the appearance of your form. You cannot edit the out-of-the-box themes. For more information on how to get more themes, see [Reference Themes](../../../forms/using/reference-themes.md).
+AEM Forms ship with form templates that are associated with themes. These themes are available to customers out-of-the-box. Themes available to customers are: Survey Theme, Simple Enrolment Theme, Advanced Enrolment Theme, and Canvas Theme corresponding to the [form templates](/help/forms/using/template-editor.md). You can use them to style components in your forms, and customize the appearance of your form. You cannot edit the out-of-the-box themes. For more information on how to get more themes, see [Reference Themes](/help/forms/using/reference-themes.md).
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ To upload a theme:
 1. In the File Upload prompt, browse and select a theme package on your computer and click **Upload**.  
    The uploaded theme is available in the themes page.
 
-See [Importing and exporting assets to AEM Forms](../../../forms/using/import-export-forms-templates.md).
+See [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md).
 
 ### Metadata of a theme {#metadata-of-a-theme}
 
@@ -175,7 +175,7 @@ List of meta-properties of a theme (found in properties page of a theme).
      <li>The user-defined repository path within '/etc' where the clientlibs corresponding to this theme are stored.</li> 
      <li>Default value - '/etc/clientlibs/fd/themes' + relative path of theme asset.</li> 
      <li>If the location does not exist, the folder hierarchy is auto-generated.</li> 
-     <li>When this value is changed, the clientlib node structure is moved to the new location entered.<br /> <em><strong>Note:</strong> If you change default clientlib location, in the CRXDE repository assign <span class="code">crx:replicate, rep:write, rep:glob:*, rep:itemNames:: js.txt, jcr:read </span>to <span class="code">forms-users</span> and <span class="code">crx:replicate</span>, <span class="code">jcr:read </span>to <span class="code">fd-service</span> in the new location. Also attach another ACL by adding <span class="kbd">deny jcr:addChildNodes</span> for <span class="code">forms-user</span></em></li> 
+     <li>When this value is changed, the clientlib node structure is moved to the new location entered.<br /> <em><strong>Note:</strong> If you change default clientlib location, in the CRXDE repository assign <code>crx:replicate, rep:write, rep:glob:*, rep:itemNames:: js.txt, jcr:read </code>to <code>forms-users</code> and <code>crx:replicate</code>, <code>jcr:read </code>to <code>fd-service</code> in the new location. Also attach another ACL by adding <span class="kbd">deny jcr:addChildNodes</span> for <code>forms-user</code></em></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -203,7 +203,7 @@ The Theme Editor lets you customize styles of the components styled in a theme. 
 
 The Theme Editor is divided in two panels:
 
-* **Canvas** - Appears on the right side. It shows a sample adaptive form in which all styling changes reflect instantly. You can also select objects directly from the canvas to look up styles associated with them, and to edit these styles. A device resolution ruler on the top governs the Canvas. Selecting a resolution breakpoint from the ruler shows the preview of the sample form for the respective resolution. Canvas is discussed in detail [below](../../../forms/using/wip/themes-stylize-interactive-communication.md#using-canvas).
+* **Canvas** - Appears on the right side. It shows a sample adaptive form in which all styling changes reflect instantly. You can also select objects directly from the canvas to look up styles associated with them, and to edit these styles. A device resolution ruler on the top governs the Canvas. Selecting a resolution breakpoint from the ruler shows the preview of the sample form for the respective resolution. Canvas is discussed in detail [below](/help/forms/using/wip/themes-stylize-interactive-communication.md#using-canvas).
 
 * **Sidebar**- Appears on the left side. It has the following items:
 
@@ -227,7 +227,7 @@ The Theme Editor is divided in two panels:
     * **Advanced:** Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap. 
     * **View CSS**: Lets you view CSS of the selected component
 
-  Also, in Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](../../../forms/using/wip/themes-stylize-interactive-communication.md#using-rail).
+  Also, in Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error**. These options, along with the options described above are discussed in detail [below](/help/forms/using/wip/themes-stylize-interactive-communication.md#using-rail).
 
 ![Theme editor with Rail and Canvas highlighted.](assets/themes.png) **A.** Sidebar **B.** Canvas
 
@@ -245,7 +245,7 @@ Certain components like text box, numeric box, radio button, and check box are c
 
 Click **EXPAND ALL** in the sidebar to view, select, and style categorized components that are not visible upfront.
 
-### Styling panel layouts <br> {#styling-panel-layouts-br}
+### Styling panel layouts {#styling-panel-layouts-br}
 
 Themes in AEM Forms support styling of elements in the layout of panels in your forms. Styling of elements in out-of-the-box layouts and custom layouts is supported.
 
@@ -268,7 +268,7 @@ Styling custom layouts from the Theme Editor involves:
 * Defining the CSS properties that can be applied on these components
 * Define the styling for these components interactively from the user interface
 
-### Different styles for different screen sizes <br> {#different-styles-for-different-screen-sizes-br}
+### Different styles for different screen sizes {#different-styles-for-different-screen-sizes-br}
 
 Desktop and mobile layouts can have slightly or entirely different styles. For mobile devices, tablet and phone share similar layouts except for component sizes.
 
@@ -286,7 +286,7 @@ When you select a component in the Canvas, its styling properties are listed in 
 
 Theme editor caches upto 10 styles applied to a component. You can use the cached styles with other component of a theme. Recently-used styles are available right below the selected component in sidebar as a list box. Initially, the recently-used styles list is empty. 
 
-![](assets/asset-library.png)
+![asset-library](assets/asset-library.png)
 
 As you style a component, the styles are cached and listed in the list box. In this example, the label of the text box is styled to change the font size and color. You can follow similar steps for choosing an image or changing colors to style a component. Observe how the style is cached and listed in the list box when the field label styling is changed. 
 
@@ -294,7 +294,7 @@ As you style a component, the styles are cached and listed in the list box. In t
 
 In this example, style for the field label is changed, and when Responsive Panel Description is selected for style, a list entry is added in the asset library. The entry in the asset library can be used to change the style for Responsive Panel Description.
 
-When a style is added in the asset library, it is available for other themes and in the [style mode](../../../forms/using/inline-style-adaptive-forms.md) of the form editor. Similarly, when you use the style mode of the form editor to style a component, the style is cached and is available in themes.
+When a style is added in the asset library, it is available for other themes and in the [style mode](/help/forms/using/inline-style-adaptive-forms.md) of the form editor. Similarly, when you use the style mode of the form editor to style a component, the style is cached and is available in themes.
 
 The plus button against the asset library lets you permanently save the style with a name of that you provide. The plus button saves the style even if you do not click the Save button in the sidebar to apply the style to a component. The plus button to save a style for later use is not available in the style mode. 
 
@@ -302,9 +302,7 @@ The plus button against the asset library lets you permanently save the style wi
 
 When you provide a custom name for a style, the style is tied to a theme and is no longer available to other themes. To delete a saved style:
 
-1. On the CANVAS toolbar, click **Theme Options ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/6-2/theme-options.png)
-
-   **&gt;** Manage Styles.**
+1. On the CANVAS toolbar, click **Theme Options** ![](../assets/theme-options.png) > **Manage Styles**.
 1. In the Manage Styles dialog, select a saved style, click **Delete**. 
 
    ![Delete the saved style](assets/manage-styles.png)
@@ -323,19 +321,17 @@ When you create a theme, it is created with a form that is shipped with the Them
 
 To replace the current form in Theme Editor Canvas:
 
-1. In the THEME EDITOR panel, click **Theme Options** ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/6-2/theme-options.png) &gt; **Configure**. 
+1. In the THEME EDITOR panel, click **Theme Options** ![](../assets/theme-options.png) > **Configure**. 
 
-1. In the Edit Configuration dialog, click **Browse** ![](assets/browse.png).
+1. In the Edit Configuration dialog, click **Browse** ![browse](assets/browse.png).
 
-1. In the Select Path screen, select your form and click **Confirm ** ![](../assets/check-button.png).
+1. In the Select Path screen, select your form and click **Confirm** ![](../assets/check-button.png).
 
 ### Redo/Undo {#redo-undo}
 
 You can undo or redo the undesired changes that occur accidentally. Use the redo/undo buttons in the Canvas. 
 
-![](assets/redo-undo.png)
-
-Undo/redo buttons in Canvas
+![redo-undo](assets/redo-undo.png)
 
 Redo/undo buttons appear when you style a component in the Theme Editor.
 
@@ -344,11 +340,9 @@ Redo/undo buttons appear when you style a component in the Theme Editor.
 The Theme Editor lets you edit a theme you created or uploaded. Navigate to **Forms & Documents &gt; Themes**, and select a theme and open it. The theme opens in the Theme Editor.
 
 As discussed above, the Theme Editor has two panels: Sidebar and Canvas.
-[ ![](assets/theme-editor.png)
+    ![theme-editor](assets/theme-editor.png)
 
 Customizing the success state styling of Text Box Widget component in Theme Editor. Component is selected in Canvas, and its state is selected in the sidebar. Styling options available in the sidebar are used to customize the look of a component. 
-
-](assets/theme-editor-1.png) 
 
 ### Using Canvas {#using-canvas}
 
@@ -356,7 +350,7 @@ The theme is either created using the out-of-the-box form, or using a form of yo
 
 In the Canvas toolbar, you see:
 
-* **Toggle Side Panel ** ![](../assets/toggle-side-panel.png): Lets you show or hide sidebar.
+* **Toggle Side Panel** ![](../assets/toggle-side-panel.png): Lets you show or hide sidebar.
 
 * **Theme Options** ![](../assets/theme-options.png): Provides three options
 
@@ -364,7 +358,7 @@ In the Canvas toolbar, you see:
     * View Theme CSS: Lets you view the CSS generated by the Theme Editor, for the selected theme.
     * Help: Runs an image guided tour of the Theme Editor.
 
-* **Emulator ** ![](assets/ruler.png): Lets you emulate and specify the look of your theme for different display sizes. A display size is treated as a breakpoint in the emulator. You can select a breakpoint and specify a style for it. For example, Desktop and Tablet are two breakpoints. You can specify different styles for each breakpoint.
+* **Emulator** ![ruler](assets/ruler.png): Lets you emulate and specify the look of your theme for different display sizes. A display size is treated as a breakpoint in the emulator. You can select a breakpoint and specify a style for it. For example, Desktop and Tablet are two breakpoints. You can specify different styles for each breakpoint.
 
 When you select a component in the Canvas, you see the component toolbar on top of it. The component toolbar lets you select components, or switch to generic components. For example, you select a numeric text box in a panel. You see the following options in the component toolbar:
 
@@ -378,8 +372,6 @@ When you select a component in the Canvas, you see the component toolbar on top 
 >The options available in the component toolbar vary based on the component you select.
 
 ![Component toolbar](assets/overlay.png)
-
-Component toolbar on the numeric box in Canvas
 
 ### Using Sidebar {#using-rail}
 
@@ -403,8 +395,8 @@ Options for customizing state styles vary for different components.
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Use</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Use</strong></td> 
   </tr> 
   <tr> 
    <td><p>Dimensions &amp; Position</p> </td> 
@@ -430,7 +422,7 @@ Options for customizing state styles vary for different components.
    <td><p>Advanced</p> </td> 
    <td><p>Lets you add:</p> 
     <ul> 
-     <li>Properties for <span class="code">::before</span> and <span class="code">::after</span> pseudo elements to add content after or before default content in the selector, and style it.<br /> See <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">CSS Pseudo-elements</a>.</li> 
+     <li>Properties for <code>::before</code> and <code>::after</code> pseudo elements to add content after or before default content in the selector, and style it.<br /> See <a href="https://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank">CSS Pseudo-elements</a>.</li> 
      <li>Custom CSS code inline to a component and write custom selectors. </li> 
     </ul> <p>When you add a custom CSS code, it overrides the customization you added using the options in the sidebar. </p> </td> 
   </tr> 
@@ -458,10 +450,8 @@ Perform the following steps to customize styling for a particular component (a n
 1. In the Theme Editor, select the numeric box in the Canvas.
 1. When you select the numeric box, you can see the component toolbar with three options:
 
-    * **Numeric Box Widget  
-      **
-    * **Field Widget  
-      **
+    * **Numeric Box Widget**
+    * **Field Widget**
     * ![](../assets/field-level.png)
 
 1. Select **Numeric Box Widget**.
@@ -488,7 +478,7 @@ To simulate behavior of states other than error and success, use Preview mode. T
 
 ### Styling layouts for smaller displays {#styling-layouts-for-smaller-displays}
 
-Use ruler in Canvas to select breakpoints for devices with smaller displays. Click emulator ![](assets/ruler.png) in Canvas to view ruler and breakpoints. The breakpoints let you preview a form for display sizes pertaining to different devices such as phones and tablets. Multiple display sizes are supported in Theme Editor.
+Use ruler in Canvas to select breakpoints for devices with smaller displays. Click emulator ![ruler](assets/ruler.png) in Canvas to view ruler and breakpoints. The breakpoints let you preview a form for display sizes pertaining to different devices such as phones and tablets. Multiple display sizes are supported in Theme Editor.
 
 To style components for different breakpoints:
 
@@ -505,8 +495,8 @@ You can now use fonts available in a web-service in an adaptive form. Out-of-the
 
 Perform the following steps to configure Typekit in AEM:
 
-1. In the author instance, click ** ![](../assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![](../assets/hammer.png) &gt; Deployment &gt; Cloud Services**.
-1. On the **Cloud Services** page, navigate to **Third Party Services **&gt; **Typekit,** and click **Configure Now** under Typekit. If a configuration is already available, click the **+** button to create a new instance. 
+1. In the author instance, click ![](../assets/adobeexperiencemanager.png)**Adobe Experience Manager** &gt; **Tools** ![](../assets/hammer.png) &gt; **Deployment** &gt; **Cloud Services**.
+1. On the **Cloud Services** page, navigate to **Third Party Services** &gt;  **Typekit,** and click **Configure Now** under Typekit. If a configuration is already available, click the **+** button to create a new instance. 
 1. On the **Create Configuration** dialog, specify a title for the configuration and click **Create**.
 
    You are redirected to the configuration page.
@@ -525,10 +515,10 @@ Perform the following steps to configure a theme to use the TypeKit configuratio
 
 You can use the theme configuration service to add more fonts to the theme editor. Perform the following steps to add fonts:
 
-1. Log in to AEM Web Console with administrative privileges. URL for the AEM Web Console is https://[server]:[port]/system/console/configMgr.
+1. Log in to AEM Web Console with administrative privileges. URL for the AEM Web Console is `https://[server]:[port]/system/console/configMgr`.
 1. Open **Adaptive Form Theme Configuration Service**. 
 
-   ![](assets/theme-config.png)
+   ![theme-config](assets/theme-config.png)
 
 1. Click +, specify the name of the font, and click **Save**. The font is added and available in theme editor.
 
@@ -544,7 +534,7 @@ In addition to the theme configuration option, you can also add your font from t
 
 When you select a font, it is added under the font family list. You can use the Mask option in theme editor to disable or enable the listed fonts.
 
-![](assets/multi-fonts.jpg)
+![multi-fonts](assets/multi-fonts.jpg)
 
 You can see the component font change.
 
@@ -552,7 +542,7 @@ The Font Family field supports multiple fonts. When you type a font, browser loo
 
 #### Mask styles applied in theme editor {#mask-styles-applied-in-theme-editor}
 
-You can mask styles applied in a theme. In the theme editor sidebar, you can use the ![](assets/toggle_eye.png)icon to disable an applied style. For example, if you change dimensions of a component in a form, then you can use the mask button on the left of a property to disable it. When you save a theme, the selected masking options are retained.
+You can mask styles applied in a theme. In the theme editor sidebar, you can use the ![toggle_eye](assets/toggle_eye.png)icon to disable an applied style. For example, if you change dimensions of a component in a form, then you can use the mask button on the left of a property to disable it. When you save a theme, the selected masking options are retained.
 
 ![Mask option available in theme editor sidebar](assets/mask-styles.png)
 
@@ -560,7 +550,7 @@ The example below shows masked and unmasked styles in a theme.
 
 ![Masked and unmasked stylings](assets/mask2.png) 
 
-## Applying a theme to a form <br> {#applying-a-theme-to-a-form-br}
+## Applying a theme to a form {#applying-a-theme-to-a-form-br}
 
 To apply a theme to an adaptive form:
 
@@ -629,12 +619,12 @@ You can see the generated CSS using the following options:
 
 * **View CSS** option in the sidebar: When you select a component in the Theme, you can see the VIEW CSS option in the sidebar. It shows the generated CSS, including CSS for `::before` and `::after` pseudo elements.
 
-* **View Theme CSS** option in the canvas toolbar: In the Canvas Toolbar, click ** ![](../assets/theme-options.png) &gt; View Theme CSS**. You can see the entire theme CSS generated from the properties you define in the Theme Editor.
+* **View Theme CSS** option in the canvas toolbar: In the Canvas Toolbar, click ![](../assets/theme-options.png) &gt; View Theme CSS**. You can see the entire theme CSS generated from the properties you define in the Theme Editor.
 
 ## Troubleshooting, recommendations, and best practices {#troubleshooting-recommendations-and-best-practices}
 
 * **Avoiding assets from another Theme  
-  **When you edit a theme, you can browse and add assets (such as images) from other themes. For example, you are editing the background of a page. For example, when you select **Page ![](assets/edit-button.png)&gt; Background &gt; Add &gt; Image**, you see a dialog that lets you browse and add images in other theme. 
+  **When you edit a theme, you can browse and add assets (such as images) from other themes. For example, you are editing the background of a page. For example, when you select **Page ![edit-button](assets/edit-button.png)&gt; Background &gt; Add &gt; Image**, you see a dialog that lets you browse and add images in other theme. 
 
 * You can face issues with your current theme if an asset is added from another theme, and the other theme is moved or deleted. It is recommended that you avoid browsing and adding assets from other themes.  
 * **Using base clientlib, theme editor, and inline styling **
@@ -656,10 +646,10 @@ You can see the generated CSS using the following options:
       The Theme Editor lets you create themes to style your form. You can specify styling of components in a theme, that enable consistency in look and feel among multiple forms you develop. Specifying styling information in a theme, and then applying the theme to a form is recommended.   
     
     * **Inline styling:** 
-      You can style components using the Style mode in form editor when you work with a form. Using style mode to change form component styling overrides the styling specified in the theme. If you want to change styling for certain components of a particular form, see [Inline styling of adaptive form components](../../../forms/using/inline-style-adaptive-forms.md).
+      You can style components using the Style mode in form editor when you work with a form. Using style mode to change form component styling overrides the styling specified in the theme. If you want to change styling for certain components of a particular form, see [Inline styling of adaptive form components](/help/forms/using/inline-style-adaptive-forms.md).
 
 * **Using client-side libraries** 
-  If you want to create client libraries to import styling information, see [Using Client Side Libraries](../../../sites/developing/using/clientlibs.md). After you create a client library, you can import it in your theme using the steps mentioned above. 
+  If you want to create client libraries to import styling information, see [Using Client Side Libraries](/help/sites-developing/clientlibs.md). After you create a client library, you can import it in your theme using the steps mentioned above. 
 
 * **Changing container panel layout width  
   **Changing container panel layout width is not recommended. When you specify width of a container panel, it becomes static and does not adapt to different displays.

@@ -10,7 +10,7 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: 868a9be4-50ec-4f5e-b4b9-9b8660b7b03b
 ---
 
-# DO NOT PUBLISH Use CAC cards with AEM Forms Document Security{#do-not-publish-use-cac-cards-with-aem-forms-document-security}
+# DO NOT PUBLISH Use CAC cards with AEM Forms Document Security {#do-not-publish-use-cac-cards-with-aem-forms-document-security}
 
 You can use Common Access Cards (CAC) to restrict physical access to controlled locations. Typically, these cards are of a size a credit card. These cards contain information about the holder and type of the access granted to the holder. A CAC card enables access to data or physical location only after a trusted connection is established between the card and the authenticating server.
 
@@ -40,8 +40,8 @@ The only difference between mutual authentication, CAC cards, and HSM based auth
 
 1. Enable [Mutual Authentication](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html) on AEM Forms server. Setup the following while enabling mutual authentication:
 
-    1. Create a [Hybrid domain](../../../forms/using/admin-help/editing-converting-existing-domains.md#main-pars-heading-1) and add a [hybrid authentication provider](../../../forms/using/admin-help/configuring-authentication-providers.md). If you are using Adobe-user-manager-ssl-dsc.jar for [extended authentication](../../../forms/using/admin-help/configuring-client-server-options.md#server-configuration-settings), create users with User ID identical to cn (common name) mentioned in the client certificate available on CAC cards. 
-    1. Add [server's private key certificate](../../../forms/using/admin-help/local-credentials.md) in the keystore of server and [client's public key certificate](../../../forms/using/admin-help/certificates.md) in the truststore of the server.
+    1. Create a [Hybrid domain](/help/forms/using/admin-help/editing-converting-existing-domains.md#main-pars-heading-1) and add a [hybrid authentication provider](/help/forms/using/admin-help/configuring-authentication-providers.md). If you are using Adobe-user-manager-ssl-dsc.jar for [extended authentication](/help/forms/using/admin-help/configuring-client-server-options.md#server-configuration-settings), create users with User ID identical to cn (common name) mentioned in the client certificate available on CAC cards. 
+    1. Add [server's private key certificate](/help/forms/using/admin-help/local-credentials.md) in the keystore of server and [client's public key certificate](/help/forms/using/admin-help/certificates.md) in the truststore of the server.
     1. Create a truststore at client and add server public key certificate in the truststore of client. If you are using Microsoft Windows, you can use Windows Truststore. On linux, you have to create a truststore.  
 
     1. Create a Java_Home environment variable on the client machine. Set the environment variable to use the /bin folder of Java development Kit (JDK) installed on the client machine.
@@ -49,18 +49,12 @@ The only difference between mutual authentication, CAC cards, and HSM based auth
 
        >[!NOTE]
        >
+       >* Ensure that the version of the files matches the version of JDK installed on the client machine.
+       >* If you are using IBM JDK, add the following to the [JAVA_HOME]\jre\lib\security\java.security file:
        >
-       >    
-       >    
-       >    * Ensure that the version of the files matches the version of JDK installed on the client machine.
-       >    * If you are using IBM JDK, add the following to the [JAVA_HOME]\jre\lib\security\java.security file:
-       >    
-       >    
        >ssl.SocketFactory.provider=
        >
-       >
        >ssl.ServerSocketFactory.provider=
-       >
        >
        >jdk.tls.disabledAlgorithms=SSLv3
 
@@ -82,7 +76,7 @@ To successfully invoke an AEM Forms Document Security service with CAC cards aut
 * **DSC_PKCS11_LIBRARY_PATH**: Specifies path to the library or .dll file of CAC card reader software.
 * **DSC_PKCS11_SLOT_ID** (Optional): Specifies a slot number of the CAC card to read. A CAC card can have multiple slots and every slot can have multiple client private key certificates.
 * **DSC_PKCS11_PIN**: Specifies pkcs11 pin/password for CAC card authentication.
-* **DSC_PKCS11_CERT_LIST_CALLBACK_CLASS **(Optional)**:** If your pkcs11 card can have multiple certificates, you can use the option to display a popup to the user to select a certificate.
+* **DSC_PKCS11_CERT_LIST_CALLBACK_CLASS **(Optional): If your pkcs11 card can have multiple certificates, you can use the option to display a popup to the user to select a certificate.
 
 ### Client Truststore properties {#client-truststore-properties}
 

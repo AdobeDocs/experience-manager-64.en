@@ -10,7 +10,7 @@ topic-tags: forms-manager
 discoiquuid: 28549db2-e2f2-4a25-b0b1-785237d9d941
 ---
 
-# Manage form metadata{#manage-form-metadata}
+# Manage form metadata {#manage-form-metadata}
 
 ## Overview&nbsp; {#overview-nbsp}
 
@@ -18,7 +18,7 @@ Metadata allows for easier categorization and organization of assets and helps u
 
 AEM Forms, by default, provides a defined set of metadata for each asset type. Beyond the default metadata, you can add custom metadata to each of the asset types. AEM Forms also provides you with the right means of creating, managing, and exchanging all this metadata efficiently for your forms.
 
-If you're a developer or a site owner, you can customize Forms Portal, the end-user interface for AEM Forms to reflect the metadata you're using in your organization. For more information abouts Forms Portal, see [Introduction to publishing forms on a portal](../../forms/using/introduction-publishing-forms.md).
+If you're a developer or a site owner, you can customize Forms Portal, the end-user interface for AEM Forms to reflect the metadata you're using in your organization. For more information abouts Forms Portal, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
 ## Metadata in AEM Forms&nbsp; {#metadata-in-aem-forms-nbsp}
 
@@ -174,21 +174,21 @@ Assets have existing property values, which can be viewed in read-only mode. Thi
 
 1. Open the properties page using one of the following ways:
 
-    1. Click the View Properties ![](assets/e_reviewmode_properties_n.png) icon from Quick Actions.
+    1. Click the View Properties ![e_reviewmode_properties_n](assets/e_reviewmode_properties_n.png) icon from Quick Actions.
 
        >[!NOTE]
        >
        >Quick Actions are the action items that get displayed over a thumbnail on mouse hover.
 
-    1. Select the form and click the View Properties ![](assets/e_reviewmode_properties_n.png) icon that appears in the toolbar.
-    1. Navigate to the form details page by clicking the form thumbnail when not in the selection mode. Now, click the ![](assets/aem6forms_eye_viewon.png) eye icon on the upper right, and then click Properties in the list beneath it.
+    1. Select the form and click the View Properties ![e_reviewmode_properties_n](assets/e_reviewmode_properties_n.png) icon that appears in the toolbar.
+    1. Navigate to the form details page by clicking the form thumbnail when not in the selection mode. Now, click the ![aem6forms_eye_viewon](assets/aem6forms_eye_viewon.png) eye icon on the upper right, and then click Properties in the list beneath it.
 
 1. The property page that opens displays a schema containing only those metadata properties that hold some value.
 
    The properties page has a toolbar containing two action icons:
 
-    * Edit: ![](assets/aem6forms_edit.png) Edit the metadata property values
-    * View: ![](assets/aem6forms_eye_viewon.png) Navigate to the form details page, which opens the form in the preview mode.
+    * Edit: ![aem6forms_edit](assets/aem6forms_edit.png) Edit the metadata property values
+    * View: ![aem6forms_eye_viewon](assets/aem6forms_eye_viewon.png) Navigate to the form details page, which opens the form in the preview mode.
 
    The content portion is divided in two parts:
 
@@ -203,7 +203,7 @@ You can edit the value of existing metadata properties or add new values to an e
 
 1. Follow the steps mentioned in the previous section to open the properties page where existing metadata of the selected form can be viewed.  
 
-1. From the toolbar, click the edit icon ![](assets/aem6forms_edit.png) to change the mode of the page from read-only to read/write.  
+1. From the toolbar, click the edit icon ![aem6forms_edit](assets/aem6forms_edit.png) to change the mode of the page from read-only to read/write.  
 
 1. The properties page that opens holds a schema that contains a mix of editable input fields and static text.  
 
@@ -213,8 +213,8 @@ You can edit the value of existing metadata properties or add new values to an e
 
    This page has a toolbar containing two action icons different from those in view mode:
 
-    * Cancel: ![](assets/aem6forms_close.svg_w24.png) Cancel any changes made to metadata property values so far
-    * Done: ![](assets/aem6forms_check.png) Save all the changes made to metadata property values so far
+    * Cancel: ![aem6forms_close](assets/aem6forms_close.svg_w24.png) Cancel any changes made to metadata property values so far
+    * Done: ![aem6forms_check](assets/aem6forms_check.png) Save all the changes made to metadata property values so far
 
    Both these actions direct the user back to read-only mode of the properties page containing the updated values.
 
@@ -244,7 +244,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 1. Navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. 
 
-1. Click **[!UICONTROL forms]**** **from the listed schema forms.  
+1. Click **[!UICONTROL forms]** from the listed schema forms.  
 
 1. From the list that opens, click the asset type for which you want to add custom metadata.
 
@@ -254,13 +254,13 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 1. Any asset type clicked opens a list containing the `extendedmetadata` option. Edit this schema.  
 
-1. Select the checkbox beside `extendedmetadata` and then click the edit ![](assets/aem6forms_edit.png) icon that appears in the toolbar.  
+1. Select the checkbox beside `extendedmetadata` and then click the edit ![aem6forms_edit](assets/aem6forms_edit.png) icon that appears in the toolbar.  
 
 1. AEM Forms opens the metadata schema editor/form builder of the selected asset type (in this case adaptive form).
 
    ![Metadata schema editor for Adaptive Form type](assets/metadata-schema-editor-for-adaptive-form-type.png)
 
-   Metadata editor
+   [Click to enlarge](assets/metadata-schema-editor-for-adaptive-form-type.png)
 
     1. The left panel contains tabbed sections where the fields are placed and the right panel displays all the available UI components and the properties of the field selected from the left panel.  
 
@@ -295,7 +295,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
     1. Fill other settings based on requirement. For example: select the Required option if you want to make the field mandatory.  
 
-    1. To delete a field you added, select the field and then click the delete ![](assets/delete-1.png) icon.
+    1. To delete a field you added, select the field and then click the delete ![delete-1](assets/delete-1.png) icon.
 
 1. If necessary, follow steps 1-3 to add another property.
 1. Click **Done **after making all the changes.

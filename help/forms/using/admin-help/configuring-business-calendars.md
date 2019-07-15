@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7a85e13d-4800-47c4-812a-5c6e2355298a
 ---
 
-# Configuring Business Calendars{#configuring-business-calendars}
+# Configuring Business Calendars {#configuring-business-calendars}
 
 *Business calendars* define business and non-business days (for example, statutory holidays, weekends, and company shutdown days) for your organization. When using business calendars, AEM forms skips non-business days when performing certain date calculations. In Workbench, you can specify whether to use business calendars for user-associated events such as task reminders, deadlines, and escalations or for actions not associated with users, such as Timer Events and the Wait Service.
 
@@ -23,7 +23,7 @@ For example, a task reminder is configured to occur three business days after th
 
 ## Using the default business calendar {#using-the-default-business-calendar}
 
-AEM forms provides a default business calendar (named* Built-in Calendar*) that designates Saturdays and Sundays as non-working days. If all of the users in your organization have the same non-business days, you can update the default business calendar to suit your organization. When using only the default business calendar, you do not need to enable business calendars in User Management or provide any mappings. When no other business calendars are defined, AEM forms uses the default business calendar.
+AEM forms provides a default business calendar (named *Built-in Calendar*) that designates Saturdays and Sundays as non-working days. If all of the users in your organization have the same non-business days, you can update the default business calendar to suit your organization. When using only the default business calendar, you do not need to enable business calendars in User Management or provide any mappings. When no other business calendars are defined, AEM forms uses the default business calendar.
 
 ## Setting up multiple business calendars {#setting-up-multiple-business-calendars}
 
@@ -39,11 +39,11 @@ If some of the users in your organization have different non-business days, you 
 
    **Business calendar keys:** You can assign a business calendar to a user based on a business calendar key, which is a setting specified in User Management. You then map the business calendar key to a business calendar in forms workflow.
 
-   The way that you assign business calendar keys to users depends on whether you are using an enterprise, local, or hybrid domain. For details on setting up domains, see [Adding domains](../../../forms/using/admin-help/adding-domains.md#adding-domains).
+   The way that you assign business calendar keys to users depends on whether you are using an enterprise, local, or hybrid domain. For details on setting up domains, see [Adding domains](/help/forms/using/admin-help/adding-domains.md#adding-domains).
 
-   If you are using a local or hybrid domain, information about users is stored only in the User Management database. To set the business calendar key for these users, enter a string in the Business Calendar Key field when adding or editing a user in User Management. (See [Adding and configuring users](../../../forms/using/admin-help/adding-configuring-users.md#adding-and-configuring-users).) You then map the business calendar keys (the strings) to business calendars in forms workflow. (See [Mapping users and groups to a business calendar](configuring-business-calendars.md#mapping-users-and-groups-to-a-business-calendar).)
+   If you are using a local or hybrid domain, information about users is stored only in the User Management database. To set the business calendar key for these users, enter a string in the Business Calendar Key field when adding or editing a user in User Management. (See [Adding and configuring users](/help/forms/using/admin-help/adding-configuring-users.md#adding-and-configuring-users).) You then map the business calendar keys (the strings) to business calendars in forms workflow. (See [Mapping users and groups to a business calendar](configuring-business-calendars.md#mapping-users-and-groups-to-a-business-calendar).)
 
-   If you are using an enterprise domain, information about users resides in a third-party storage system, such as an LDAP directory, which User Management synchronizes with the User Management database. This allows you to map a business calendar key to a field in the LDAP directory. For example, if each user record in your directory contains a "country" field, and you want to assign business calendars based on the country where the user is located, specify the "country" field name in the Business Calendar Key field when specifying the user settings for the directory. (See [Configuring directories](../../../forms/using/admin-help/configuring-directories.md#configuring-directories).) You can then map the business calendar keys (the values defined for the "country" field in the LDAP directory) to business calendars in forms workflow. (See [Mapping users and groups to a business calendar](configuring-business-calendars.md#mapping-users-and-groups-to-a-business-calendar).)
+   If you are using an enterprise domain, information about users resides in a third-party storage system, such as an LDAP directory, which User Management synchronizes with the User Management database. This allows you to map a business calendar key to a field in the LDAP directory. For example, if each user record in your directory contains a "country" field, and you want to assign business calendars based on the country where the user is located, specify the "country" field name in the Business Calendar Key field when specifying the user settings for the directory. (See [Configuring directories](/help/forms/using/admin-help/configuring-directories.md#configuring-directories).) You can then map the business calendar keys (the values defined for the "country" field in the LDAP directory) to business calendars in forms workflow. (See [Mapping users and groups to a business calendar](configuring-business-calendars.md#mapping-users-and-groups-to-a-business-calendar).)
 
 1. In forms workflow, define a calendar for each set of users who share the same non-business days. (See [Create or update a business calendar](configuring-business-calendars.md#create-or-update-a-business-calendar).)
 1. In forms workflow, map the business calendar keys or group memberships for each calendar. (See [Mapping users and groups to a business calendar](configuring-business-calendars.md#mapping-users-and-groups-to-a-business-calendar).)
@@ -62,7 +62,7 @@ If your organization contains different sets of users who have different non-bus
 >If you do not create a new business calendar, then the default calendar will be used.
 
 1. In administration console, click Services &gt; Forms workflow &gt; Business Calendars.
-1. To add a new business calendar, click ![](assets/bus_cal_plus.png). The text *New Calendar* appears in the drop-down list. Select the text and type another name for your calendar.
+1. To add a new business calendar, click ![bus_cal_plus](assets/bus_cal_plus.png). The text *New Calendar* appears in the drop-down list. Select the text and type another name for your calendar.
 
    To edit an existing business calendar, select it from the drop-down list.
 
@@ -75,7 +75,7 @@ If your organization contains different sets of users who have different non-bus
 
 1. In the calendar on the left, double-click any other non-business days, such as holidays. You cannot select days in the past. The non-business days that you select appear in a list on the right, with the date appearing twice on one line. Select the date on the left to type name or description for the non-business day.
 
-   To remove a non-business day from the list, click ![](assets/bus_cal_trash.png) beside the day.
+   To remove a non-business day from the list, click ![bus_cal_trash](assets/bus_cal_trash.png) beside the day.
 
 1. [Optional] If this calendar is to be the default calendar, select Default Calendar. The default calendar is used when no other calendar mapping exists for user-associated events or no business calendar is specified for the Timer Event or the Wait Service. You cannot delete the default calendar.
 1. When you have finished defining the non-business days, select Calendar Enabled to make it active, and then click Save.
@@ -107,7 +107,7 @@ There are two methods that you can use to associate a business calendar with a u
 
 1. In administration console, click Services &gt; forms workflow &gt; Business Calendars, and then click the Mapping tab.
 1. In the The System Will Use list, select Groups Defined By The Directory Server. 
-1. On the Mapping tab, select Display Directory Service Groups. A list displays, containing the groups that have been defined in User Management. (See [Directory settings](../../../forms/using/admin-help/configuring-directories.md#directory-settings).)
+1. On the Mapping tab, select Display Directory Service Groups. A list displays, containing the groups that have been defined in User Management. (See [Directory settings](/help/forms/using/admin-help/configuring-directories.md#directory-settings).)
 
    >[!NOTE]
    >

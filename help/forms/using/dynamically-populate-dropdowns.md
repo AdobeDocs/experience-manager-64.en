@@ -10,14 +10,14 @@ topic-tags: customization
 discoiquuid: 49453dda-7b05-4470-866e-1946bff70f27
 ---
 
-# Dynamically populating drop-down lists {#dynamically-populating-drop-down-lists}
+# Dynamically populating drop-down lists  {#dynamically-populating-drop-down-lists}
 
 ## Prerequisites {#prerequisites}
 
 * [Creating OSGI bundles](https://helpx.adobe.com/experience-manager/using/creating-osgi-bundles-digital-marketing.html)
-* [Developing AEM components](../../sites/developing/using/components.md)
-* [Creating adaptive form](../../forms/using/creating-adaptive-form.md)
-* [Authoring adaptive form](../../forms/using/introduction-forms-authoring.md)
+* [Developing AEM components](/help/sites-developing/components.md)
+* [Creating adaptive form](/help/forms/using/creating-adaptive-form.md)
+* [Authoring adaptive form](/help/forms/using/introduction-forms-authoring.md)
 
 ## Procedure to dynamically populate drop-down lists {#procedure-to-dynamically-populate-drop-down-lists}
 

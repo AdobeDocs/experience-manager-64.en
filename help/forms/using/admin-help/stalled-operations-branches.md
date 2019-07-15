@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8c2567f3-7220-436a-b9f2-2824a98c1ccc
 ---
 
-# Working with stalled operations and branches{#working-with-stalled-operations-and-branches}
+# Working with stalled operations and branches {#working-with-stalled-operations-and-branches}
 
 The Stalled Operations page and the Stalled Branches page show the processes that have stalled. A process can stall when an error occurs during or after the execution of an operation or because of a deliberate stall operation in the process:
 
@@ -77,4 +77,4 @@ When this situation occurs, the state of the process and task does not change at
 
 If the escalation user is deleted before the task is generated (before the Assign Task operation executes), the process stalls or the InvalidPrincipal exception event is thrown.
 
-To prevent this problem, when you delete a user, search for tasks belonging to that user and deal with them accordingly. (See [Working with tasks](../../../forms/using/admin-help/tasks.md#working-with-tasks).)
+To prevent this problem, when you delete a user, search for tasks belonging to that user and deal with them accordingly. (See [Working with tasks](/help/forms/using/admin-help/tasks.md#working-with-tasks).)

@@ -12,11 +12,11 @@ topic-tags: operations
 discoiquuid: ebe8136b-2a79-4035-b9d5-aa70a5bbd4af
 ---
 
-# Programmatically Assembling PDF Documents{#programmatically-assembling-pdf-documents}
+# Programmatically Assembling PDF Documents {#programmatically-assembling-pdf-documents}
 
 You can use the Assembler Service API to assemble multiple PDF documents into a single PDF document. The following illustration shows three PDF documents being merged into a single PDF document. 
 
-![](assets/pa_pa_document_assembly.png)
+![pa_pa_document_assembly](assets/pa_pa_document_assembly.png)
 
 To assemble two or more PDF documents into a single PDF document, you need a DDX document. A DDX document describes the PDF document that the Assembler service produces. That is, the DDX document instructs the Assembler service what actions to perform.
 
@@ -115,41 +115,37 @@ The following table summarizes some of the key values and object types that can 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e105266" valign="top" width="NaN%"><p>Key value</p></th> 
-   <th class="cellrowborder" id="d19e105269" valign="top" width="NaN%"><p>Object type</p></th> 
-   <th class="cellrowborder" id="d19e105272" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Key value</p></th> 
+   <th><p>Object type</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code"><i>documentName</i></span></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">com.adobe.idp.Document</span></p></td> 
-   <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains the resultant documents that are specified in a DDX resultant element</p></td> 
+   <td><p><code><i>documentName</i></code></p></td> 
+   <td><p><code>com.adobe.idp.Document</code></p></td> 
+   <td><p>Contains the resultant documents that are specified in a DDX resultant element</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code"><i>documentName</i></span></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">Exception</span></p></td> 
-   <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains any exception for the document</p></td> 
+   <td><p><code><i>documentName</i></code></p></td> 
+   <td><p><code>Exception</code></p></td> 
+   <td><p>Contains any exception for the document</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code">OutputMapConstants.LOG_NAME</span></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">com.adobe.idp.Documen</span></p></td> 
-   <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains the job log</p></td> 
+   <td><p><code>OutputMapConstants.LOG_NAME</code></p></td> 
+   <td><p><code>com.adobe.idp.Documen</code></p></td> 
+   <td><p>Contains the job log</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 **See also**
 
-[Assemble PDF documents using the Java API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble-pdf-documents-using-the-java-api)
-
-[Assemble PDF documents using the web service API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble-pdf-documents-using-the-web-service-api)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically-disassembling-pdf-documents)
+[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents.md#programmatically-disassembling-pdf-documents)
 
 ## Assemble PDF documents using the Java API {#assemble-pdf-documents-using-the-java-api}
 
@@ -207,8 +203,6 @@ Assemble a PDF document by using the Assembler Service API (Java):
    >If `*LOG_LEVEL*` was set to produce a log, you can extract the log by using the `*AssemblerResult*` object's `*getJobLog*` method.
 
 **See also**
-
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 [Quick Start (SOAP mode): Assembling a PDF document using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-a-pdf-document-using-the-java-api)
 
@@ -290,7 +284,5 @@ Assemble PDF documents by using the Assembler Service API (web service):
    >If `LOG_LEVEL` was set to produce a log, you can extract the log by getting the value of the `AssemblerResult` object's `jobLog` data member.
 
 **See also**
-
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

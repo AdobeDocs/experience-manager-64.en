@@ -10,11 +10,11 @@ topic-tags: hTML5_forms
 discoiquuid: 9cd22244-9aa6-4b5f-96cf-c9cb3d6f9c8a
 ---
 
-# Creating a custom profile for HTML5 forms{#creating-a-custom-profile-for-html-forms}
+# Creating a custom profile for HTML5 forms {#creating-a-custom-profile-for-html-forms}
 
 A profile is a resource node in [Apache Sling](https://sling.apache.org/). It represents custom version of HTML5 forms rendition service. You can use the HTML5 forms Rendition service to customize appearance, behavior, and interactions of the HTML5 forms. A profile node exists in the `/content` folder in the JCR repository. You can place the node directly under the `/content` folder or any subfolder of the `/content` folder.
 
-The profile node has the **sling:resourceSuperType **property and the default value is **xfaforms/profile**. The render script for the node is at /libs/xfaforms/profile.
+The profile node has the **sling:resourceSuperType** property and the default value is **xfaforms/profile**. The render script for the node is at /libs/xfaforms/profile.
 
 The Sling scripts are JSP scripts. These JSP scripts serve as containers for putting together the HTML for requested form and the required JS / CSS artifacts. These Sling scripts are also referred as **Profile Renderer scripts. **The profile renderer calls the Forms OSGi service to render the requested form.
 
@@ -22,7 +22,7 @@ The profile script is in html.jsp and html.POST.jsp for GET and POST requests. Y
 
 A profile contains various modules. The modules are formRuntime.jsp, config.jsp, toolbar.jsp, formBody.jsp, nav_footer.jsp, and footer.jsp.
 
-## formRuntime.jsp <br> {#formruntime-jsp-br}
+## formRuntime.jsp {#formruntime-jsp-br}
 
 The formRuntime.jsp modules contains references of the client libraries. It also depicts methods to extract locale information from the request and include the localized messages in the request. You can include own custom javascript libs or styles in the formRuntime.jsp.
 
@@ -74,8 +74,8 @@ After creating a custom profile, add render information to this profile. On rece
 1. Paste **html.jsp** node into the `/apps/hrform/demo` folder created above with same name **html.jsp** and click **Save**.
 1. If you have any other components of profile script, follow step 1-6 to copy the components in /apps/hrform/demo folder.  
 
-1. To verify that th profile is created, open URL https://[server]:[port]/content/xfaforms/profiles/hrform.html
+1. To verify that th profile is created, open URL `https://[server]:[port]/content/xfaforms/profiles/hrform.html`
 
-To verify your forms, [Import your forms](../../forms/using/get-xdp-pdf-documents-aem.md) from your local file system to AEM Forms and [preview the form](../../forms/using/previewing-forms.md) on AEM server author instance.
+To verify your forms, [Import your forms](/help/forms/using/get-xdp-pdf-documents-aem.md) from your local file system to AEM Forms and [preview the form](/help/forms/using/previewing-forms.md) on AEM server author instance.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

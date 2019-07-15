@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e80c3f98-baa1-45bc-b713-51a2eb5ec165
 ---
 
-# Just-in-time user provisioning{#just-in-time-user-provisioning}
+# Just-in-time user provisioning {#just-in-time-user-provisioning}
 
 AEM forms supports just-in-time provisioning of users that don’t yet exist in User Management. With just-in-time provisioning, users are automatically added to User Management after their credentials are successfully authenticated. In addition, relevant roles and groups are assigned dynamically to the new user.
 

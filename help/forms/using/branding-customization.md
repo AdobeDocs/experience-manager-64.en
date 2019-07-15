@@ -11,7 +11,7 @@ topic-tags: forms-app
 discoiquuid: f6440a36-719a-4f89-b7db-1af918a3469a
 ---
 
-# Branding Customization{#branding-customization}
+# Branding Customization {#branding-customization}
 
 You can customize the application icon, application name, launch images, and login page to provide a distinct organization-specific appearance to AEM Forms app. For example, you can change the images to use logos from your organization. The AEM Forms app supports the following customizations:
 
@@ -33,11 +33,10 @@ Perform the following steps to customize the default app icon and the launch ima
 #### For iOS {#for-ios}
 
 1. Open the `Capture.xcodeproj` project in Xcode.
-1. (***For customizing icon***) In the navigator view of Capture, navigate to **Capture &gt; Capture &gt; Supporting Files &gt; Capture-info.plist**. Click the drop-down next to the Icon files. Specify the name of the icon file (.png) and upload the file at **Capture &gt; Capture &gt; Resources &gt; icons**. Currently supported dimesions are: 29x29, 50x50, 58x58, 72x72, 100x100, and 144x144.
+1. (***For customizing icon***) In the navigator view of Capture, navigate to **[!UICONTROL Capture &gt; Capture &gt; Supporting Files &gt; Capture-info.plist]**. Click the drop-down next to the Icon files. Specify the name of the icon file (.png) and upload the file at **[!UICONTROL Capture &gt; Capture &gt; Resources &gt; icons]**. Currently supported dimesions are: 29x29, 50x50, 58x58, 72x72, 100x100, and 144x144.
 1. (***For customizing launch images***) Ensure that the filenames of your images are:
 
     * For portrait: `Default-Portrait~ipad.png` and `Default-Portrait@2x~ipad.png`
-    
     * For landscape: `Default-Landscape~ipad.png` and `Default-Landscape@2x~ipad.png`
 
    Upload them to the Capture project to replace existing files in the project.
@@ -89,12 +88,13 @@ Perform the following steps to customize the default app icon and the launch ima
 ### For iOS {#for-ios-1}
 
 1. Open the `Capture.xcodeproj` project in Xcode.
-1. In the navigator view of Capture, navigate to **Capture &gt; Capture &gt; Supporting Files &gt; InfoPlist.strings**.   
+1. In the navigator view of Capture, navigate to **[!UICONTROL Capture &gt; Capture &gt; Supporting Files &gt; InfoPlist.strings]**. 
+
    Update the value for the `CFBundleDisplayName` attribute to a name you want to display for the app.  
 
 1. Build and run AEM Forms app on iOS device or iOS simulator.
 
-   For details on building the app for iOS, see [Set up the Xcode project and build the iOS app](../../forms/using/setup-xcode-project-build-installer.md).
+   For details on building the app for iOS, see [Set up the Xcode project and build the iOS app](/help/forms/using/setup-xcode-project-build-installer.md).
 
 ### For Android {#for-android-1}
 
@@ -105,7 +105,7 @@ Perform the following steps to customize the default app icon and the launch ima
 1. Update the value for the key `app_name`.
 1. Rebuild the AEM Forms app.
 
-   For details on building the app for Android, see [Set up the Eclipse project and build the Android app](../../forms/using/setup-eclipse-project-build-installer.md).
+   For details on building the app for Android, see [Set up the Eclipse project and build the Android app](/help/forms/using/setup-eclipse-project-build-installer.md).
 
 ### For Windows {#for-windows-1}
 
@@ -116,7 +116,7 @@ Perform the following steps to customize the default app icon and the launch ima
 1. Update the value in the `<name>...</name>` tag.
 1. Rebuild the AEM Forms app.
 
-   For details on building the app for Windows, see [Set up the Visual Studio project and build the Windows app](../../forms/using/setup-visual-studio-project-build-installer.md).
+   For details on building the app for Windows, see [Set up the Visual Studio project and build the Windows app](/help/forms/using/setup-visual-studio-project-build-installer.md).
 
 ## Customizing images on the login page {#customizing-images-on-the-login-page}
 
@@ -129,19 +129,19 @@ Ensure that you have following images:
 <table> 
  <tbody> 
   <tr> 
-   <th class="row-nocellborder" valign="top" width="NaN%"><p>Description</p> </th> 
-   <th class="row-nocellborder" valign="top" width="NaN%"><p>Size</p> </th> 
-   <th class="cellrowborder" valign="top" width="NaN%"><p>Filename</p> </th> 
+   <th><p>Description</p> </th> 
+   <th><p>Size</p> </th> 
+   <th><p>Filename</p> </th> 
   </tr> 
   <tr> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>Logo</p> </td> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>72 x 72 pixel</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>LC-logo.png</p> </td> 
+   <td><p>Logo</p> </td> 
+   <td><p>72 x 72 pixel</p> </td> 
+   <td><p>LC-logo.png</p> </td> 
   </tr> 
   <tr> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>Background image (Portrait)</p> </td> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>1280 x 989 pixel</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Landing_bg.jpeg</p> </td> 
+   <td><p>Background image (Portrait)</p> </td> 
+   <td><p>1280 x 989 pixel</p> </td> 
+   <td><p>Landing_bg.jpeg</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -184,14 +184,14 @@ Ensure that you have following image:
 <table> 
  <tbody> 
   <tr> 
-   <th class="row-nocellborder" valign="top" width="NaN%"><p>Description</p> </th> 
-   <th class="row-nocellborder" valign="top" width="NaN%"><p>Size</p> </th> 
-   <th class="cellrowborder" valign="top" width="NaN%"><p>Filename</p> </th> 
+   <th><p>Description</p> </th> 
+   <th><p>Size</p> </th> 
+   <th><p>Filename</p> </th> 
   </tr> 
   <tr> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>Logo</p> </td> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>72 x 72 pixel</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>aem_icon.png</p> </td> 
+   <td><p>Logo</p> </td> 
+   <td><p>72 x 72 pixel</p> </td> 
+   <td><p>aem_icon.png</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -220,4 +220,4 @@ Ensure that you have following image:
 1. To change the logo, replace the default `aem_icon.png` file with the custom `aem_icon.png` file.
 1. Build and run AEM Forms app on Windows device.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

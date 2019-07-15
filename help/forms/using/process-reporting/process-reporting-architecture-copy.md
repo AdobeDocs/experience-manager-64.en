@@ -10,7 +10,7 @@ topic-tags: process-reporting
 discoiquuid: a1af9920-5d2a-462f-bdee-ccec4c047c5b
 ---
 
-# How Process Reporting Works{#how-process-reporting-works}
+# How Process Reporting Works {#how-process-reporting-works}
 
 Process Reporting is the reporting module of the AEM Forms on JEE.
 
@@ -20,15 +20,15 @@ Process Reporting uses the embedded Process Reporting repository to publish Form
 
 Process Reporting consists of the following modules:
 
-* [ProcessDataPublisher service](../../../forms/using/process-reporting/process-reporting-architecture.md#p-processdatapublisher-service-br-p)
-* [ProcessDataStorage service](../../../forms/using/process-reporting/process-reporting-architecture.md#p-processdatastorageprovider-service-br-p)
-* [OSGi service](../../../forms/using/process-reporting/process-reporting-architecture.md#p-osgi-service-br-p)
-* [Query Data servlet](../../../forms/using/process-reporting/process-reporting-architecture.md#p-querydataservlet-service-br-p)
-* [Process Reporting user interface](../../../forms/using/process-reporting/process-reporting-architecture.md#p-process-reporting-user-interface-br-p)
+* [ProcessDataPublisher service](/help/forms/using/process-reporting/process-reporting-architecture.md#p-processdatapublisher-service-br-p)
+* [ProcessDataStorage service](/help/forms/using/process-reporting/process-reporting-architecture.md#p-processdatastorageprovider-service-br-p)
+* [OSGi service](/help/forms/using/process-reporting/process-reporting-architecture.md#p-osgi-service-br-p)
+* [Query Data servlet](/help/forms/using/process-reporting/process-reporting-architecture.md#p-querydataservlet-service-br-p)
+* [Process Reporting user interface](/help/forms/using/process-reporting/process-reporting-architecture.md#p-process-reporting-user-interface-br-p)
 
 ## Process Reporting architecture {#process-reporting-architecture-br}
 
-![](assets/processreportingarchitecture.png)
+![processreportingarchitecture](assets/processreportingarchitecture.png)
 
 ## Process Reporting modules {#process-reporting-modules}
 
@@ -36,13 +36,13 @@ Process Reporting consists of the following modules:
 
 The ProcessDataPublisher server runs periodically on the AEM Forms database and extracts the data that has changed since the last run of the service. It then publishes the data to the Process Data Storage service.
 
-For details on configuring the service, see [Configure ProcessDataPublisher service](../../../forms/using/process-reporting/install-start-process-reporting.md#p-reportconfiguration-service-p).
+For details on configuring the service, see [Configure ProcessDataPublisher service](/help/forms/using/process-reporting/install-start-process-reporting.md#p-reportconfiguration-service-p).
 
 ### ProcessDataStorageProvider service {#processdatastorageprovider-service-br}
 
 The ProcessDataStorageProvider service receives process data from the ProcessDataPublisher service and saves the data to the Process Reporting repository.
 
-For details on configuring the service, see [Configure ProcessDataStorageProvider service](../../../forms/using/process-reporting/install-start-process-reporting.md#p-to-configure-the-process-reporting-repository-locations-p).
+For details on configuring the service, see [Configure ProcessDataStorageProvider service](/help/forms/using/process-reporting/install-start-process-reporting.md#p-to-configure-the-process-reporting-repository-locations-p).
 
 ### OSGi service {#osgi-service-br}
 
@@ -68,6 +68,6 @@ The service then uses OSGi services to obtain the relevant reporting data, proce
 
 You can create your own custom reports and display these reports in the Custom Reports tab of the Process Reporting user interface.
 
-For the steps to create a custom report, see To create a custom report in the article [Custom Reports in Process Reporting](../../../forms/using/process-reporting/process-reporting-custom-reports.md).
+For the steps to create a custom report, see To create a custom report in the article [Custom Reports in Process Reporting](/help/forms/using/process-reporting/process-reporting-custom-reports.md).
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
