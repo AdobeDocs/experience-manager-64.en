@@ -25,7 +25,7 @@ The best thing to do is [visit the AEM Community today and see what's going on.]
 
 The AEM community team is continually producing 'how to' guides and code samples to help Experience Manager developers and users get to grips with the solution. [Here is our full list of practical articles and code samples.](https://helpx.adobe.com/experience-manager/topics/how-to.html)
 
-## Ask the community expert sessions & GEMS {#gems}
+## Ask the community expert sessions and GEMS {#gems}
 
 The AEM Community holds regular events to help educate members on techniques and best practices. You can attend these live webcasts or play them back at your leisure. We have Expert events and also feature overviews and what's new recordings.
 

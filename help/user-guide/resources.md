@@ -18,7 +18,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 * [AEM 6.4 Training Videos](https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html)
 * [AEM Tutorials](https://helpx.adobe.com/experience-manager/tutorials.html)
 
-## Classes & Certification {#classes-and-certification}
+## Classes and Certification {#classes-and-certification}
 
 [Expand your learning with in-person and virtual class offerings.](https://training.adobe.com/training/courses.html#solution=adobeExperienceManager)
 

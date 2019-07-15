@@ -34,7 +34,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 Support delegates can get assisted support via:
 
 * Web: Experience Manager Support Portal
-* Phone: 1-800-497-0335 (US & Canada).
+* Phone: 1-800-497-0335 (US and Canada).
 * [Get phone numbers for other regions.](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)
 
 >[!NOTE]

@@ -34,7 +34,7 @@ The AEM Community is constantly producing example workflows, tutorials and conte
 
 AEM has many uses in organizations and is broad enough to deliver functionality across a company. If you're looking to dig into first steps, you can visit our Getting Started Guides:
 
-* [AEM Platform & Sites Getting Started](/help/sites-deploying/deploy.md#getting-started)
+* [AEM Platform and Sites Getting Started](/help/sites-deploying/deploy.md#getting-started)
 * [AEM Forms Getting Started](/help/forms/using/introduction-aem-forms.md)
 * [AEM Mobile Getting Started](/help/mobile/getting-started-aem-mobile.md)
 * [AEM Communities Getting Started](/help/communities/getting-started.md)

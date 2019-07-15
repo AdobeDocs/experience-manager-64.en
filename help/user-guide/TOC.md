@@ -11,7 +11,7 @@ user-guide-title: AEM 6.4 User Guide
   + [AEM Capabilities User Guides](capabilities.md)
   + [AEM Implementation User Guides](implementation.md)
   + [AEM Resources](resources.md)
-+ Troubleshooting & Help{#troubleshooting}
++ Troubleshooting and Help{#troubleshooting}
   + [Resources for New AEM Users](new.md)
   + [Learn About AEM Capabilities](learn.md)
   + [Best Practices, How-To, and Trainings](best-practice.md)

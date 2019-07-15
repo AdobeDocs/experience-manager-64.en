@@ -53,6 +53,6 @@ We also have documentation for older versions of Adobe Experience Manager. You c
 You can find all the release notes for AEM here:
 
 * [AEM 6.4 Release Notes](/help/release-notes/home.md)
-* [List of Removed & Deprecated Features in AEM 6.4](/help/release-notes/deprecated-removed-features.md)
+* [List of Removed and Deprecated Features in AEM 6.4](/help/release-notes/deprecated-removed-features.md)
 
 If you have questions you can reach out to our [AEM Community team](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html) or ask us on Twitter [@AdobeExpCare](https://twitter.com/adobeexpcare).
