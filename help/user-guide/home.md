@@ -21,7 +21,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 * [AEM Implementation User Guides](implementation.md)
 * [AEM Resources](resources.md)
 
-## Troubleshooting & Help {#troubleshooting-and-help}
+## Troubleshooting and Help {#troubleshooting-and-help}
 
 * [New to AEM](new.md)
 * [Learn about AEM capabilities](learn.md)
