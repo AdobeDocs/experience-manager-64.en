@@ -180,7 +180,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 * Opening the permissions tab in Coral2 implementation do not show the buttons. Hotfix for CQ-4269419
 
-### WCM - MSM {#wcm-admin}
+### WCM - MSM {#wcm-msm}
 
 * Deleting a child node in the live copy should detach the liveRelationship. Hotfix for CQ-4270395
 * Upgrade to AEM 6.4.3 makes Multi-Site Manager take a long time to roll out. Hotfix for CQ-4271410
@@ -197,7 +197,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 >[!NOTE]
 >
->AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](../release-notes/sp-release-notes.md#main-pars-title-850454434) and [Install AEM Forms JEE installer](../release-notes/sp-release-notes.md#forms-jee-installer).
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](#install-aem-forms-jee-installer) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
 
 ### Forms add-on package {#forms-add-on-package}
 
@@ -851,7 +851,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
   <li>Publish later functionality for AEM to Brand Portal replication. NPR-25911: Hotfix for CQ-109139</li> 
   <li>Publishing and un-publishing the private collection by non-admin users results in a NPE. NPR-25906: Hotfix for CQ-4250594</li> 
   <li>Disable publish of content fragment and forms schemas to Brand Portal. NPR-24176, NPR-26004: Hotfix for CQ-4251592, CQ-4252026</li> 
-  <li>[Dynamic Media] Updated DM viewers to 5.10.1 release which enables check for duplicate names on Image Preset page. Refer to <a href="../release-notes/sp-release-notes.md#update-dynamic-media-viewers">Update Dynamic Media Viewers (5.10.1)</a>. NPR-24403: Hotfix for CQ-4247554</li> 
+  <li>[Dynamic Media] Updated DM viewers to 5.10.1 release which enables check for duplicate names on Image Preset page. Refer to Update Dynamic Media Viewers (5.10.1)</a>. NPR-24403: Hotfix for CQ-4247554</li> 
   <li>Javascript error in browser console in column view on selecting an asset or folder. NPR-25939: Hotfix for CQ-4250228</li> 
   <li>[Column view] Unable to identify tasks as the key file shows up as blank white entry. NPR-25903: Hotfix for CQ-4246307</li> 
  </ul> 
@@ -1099,7 +1099,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
  </ul> 
  <h4>Forms - Workflow</h4> 
  <ul> 
-  <li>[HTML Workspace] When a user claims a task, count of queue is refreshed for that particular user but not for other users unless the page is refreshed. This issue has been fixed by a new property. To configure this new property to your AEM instance, refer to <a href="../release-notes/sp-release-notes.md#configuration-settings-required-for-npr">Configuration Settings</a>. NPR-24536: Hotfix for CQ-4233665</li> 
+  <li>[HTML Workspace] When a user claims a task, count of queue is refreshed for that particular user but not for other users unless the page is refreshed. This issue has been fixed by a new property. To configure this new property to your AEM instance, refer to its Configuration Settings</a>. NPR-24536: Hotfix for CQ-4233665</li> 
   <li>Unable to load large form in the AEM Forms App on 6.4. NPR-24463: Hotfix for CQ-4245091</li> 
   <li>Issue in Mobile Workspace App when trying to view the shared task. NPR-25177: Hotfix for CQ-4248733</li> 
   <li>Inconsistent validation Behavior between Web and APK. NPR-25670: Hotfix for CQ-4248178</li> 
@@ -1190,7 +1190,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
   <li style="font-size: 16px;">Added <a href="https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-assets-adobe-stock.html">integration with Adobe Stock</a> so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see <a href="https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html">https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html</a>. NPR-15779: Hotfix for CQ-30857</li> 
   <li>Added support for dynamic conditional metaschema. For more information, see <a href="../assets/cascading-metadata.md">Cascading Metadata</a>. NPR-25189: Hotfix for CQ-4237413</li> 
   <li>Enabled "Asset Download" option on Content Fragments. For more information, see <a href="../assets/asset-reports.md">Asset Reports</a>. NPR-25186: Hotfix for CQ-4237410</li> 
-  <li>Ability to set a metadata schema for asset folders. For more information, see <a href="../assets/folder-metadata-schema.md">Folder Metadata Schema</a> and refer to its <a href="../release-notes/sp-release-notes.md#configuration-settings-required-for-npr">Configuration Settings</a> post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574</li> 
+  <li>Ability to set a metadata schema for asset folders. For more information, see <a href="../assets/folder-metadata-schema.md">Folder Metadata Schema</a> and refer to its Configuration Settings post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574</li> 
  </ul> 
  <h4>Sites</h4> 
  <ul> 
