@@ -56,4 +56,3 @@ To understand more on the other two roles and responsibilities for creating an A
 
 * [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/aem-mobile-on-demand.md)
 * [Authoring AEM Content for AEM Mobile On-Demand Services App](/help/mobile/mobile-apps-ondemand.md)
-
