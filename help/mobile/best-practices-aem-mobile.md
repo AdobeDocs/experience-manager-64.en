@@ -31,7 +31,7 @@ Building an AEM Mobile On-Demand Services App is different than building an app 
 
 * Templates which use plugin functionality should be written in such a way that they are still authorable in the browser, without the plugin bridge being present.
 
-For example, make sure to wait for the *deviceready* function before attempting to access a plugin's API.
+  * For example, make sure to wait for the *deviceready* function before attempting to access a plugin's API.
 
 ## Guidelines for AEM Developers {#guidelines-for-aem-developers}
 
@@ -41,12 +41,12 @@ The following guidelines will help experienced AEM developers for sites, who wan
 
 * Prefer multiple component script files over a single monolithic one
 
-    * A number of empty extension points are provided, such as *customheaderlibs.html* and *customfooterlibs.html, *which allow the developer to change the page template while duplicating as little core code as possible
-    * Templates can then be extended and customized via Sling's *sling:resourceSuperType* mechanism
+  * A number of empty extension points are provided, such as *customheaderlibs.html* and *customfooterlibs.html*, which allow the developer to change the page template while duplicating as little core code as possible
+  * Templates can then be extended and customized via Sling's *sling:resourceSuperType* mechanism
 
 * Prefer Sightly/HTL over JSP as the templating language
 
-    * Using this encourages a separation of code from markup, offers built in XSS protection, and has a more familiar syntax
+  * Using this encourages a separation of code from markup, offers built in XSS protection, and has a more familiar syntax
 
 **Optimize for on-device performance**
 
@@ -84,4 +84,3 @@ To understand more on the other two roles and responsibilities, see the resource
 
 * [Administrator](/help/mobile/aem-mobile.md)
 * [Author](/help/mobile/aem-mobile-on-demand.md)
-
