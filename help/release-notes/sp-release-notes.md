@@ -824,8 +824,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
   <li>Introduced <tt>foundation- 
     <g class="gr_ gr_59 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="59" id="59">
       workflowstatus 
-    </g></tt> 
-   <g class="gr_ gr_59 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling" data-gr-id="59" id="59">
+    </g></tt>
      component 
    </g>.</li> 
   <li>Updated GCC to 
@@ -1676,7 +1675,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
 1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.11 or higher (Use Web Console: /system/console/bundles).
 
-To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](/help/sites-deploying/technical-requirements.md).
+To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites-deploying/technical-requirements.md).
 
 >[!Note]
 >On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-4 Installed successfully."**
