@@ -50,7 +50,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * When using the search filter to save a Smart Collection, the click action on the panel does not maintain focus. NPR-29000:  Hotfix for CQ-4240323
 * Moving a folder allows the creation of a folder with mixed-case or uppercase names. NPR-28945: Hotfix for CQ-4265234
 * Blank results displayed in Omnisearch if collection name has space. NPR-29001: Hotfix for CQ-4236729
-* Renaming a file using some unsupported special characters like ampersand (&) creates an invalid folder. NPR-29196: Hotfix for CQ-4265037
+* Renaming a file using some unsupported special characters like ampersand (&amp;) creates an invalid folder. NPR-29196: Hotfix for CQ-4265037
 * DAM Extract Archive for zip file functionality is broken. NPR-29187: Hotfix for CQ-4254421
 * Metadata import should allow importing metadata without registering namespaces. NPR-29425, NPR-28132: Hotfix for CQ-4269445
 * Saving metadata changes do not work for assets whose name contain a quote character. NPR-29395: Hotfix for CQ-4254305
@@ -212,7 +212,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * SOAP Webservice request is malformed within AEM Forms. NPR-29013: Hotfix for CQ-4265443
 * No error message is displayed while testing SOAP service, in case of an incorrect date value. Hotfix for CQ-4265445
 
-#### Forms - Interactive Communication & Forms - Correspondence Management {#forms-interactive-communication-correspondence-management}
+#### Forms - Interactive Communication &amp; Forms - Correspondence Management {#forms-interactive-communication-correspondence-management}
 
 * Create Correspondence UI (CCR UI) fails to handle a float number.  NPR-29210: Hotfix for CQ-4254201
 * The tooltip set on a variable is not visible on the Create Correspondence UI (CCR UI). NPR-29739: Hotfix for CQ-4250533
@@ -335,7 +335,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
   <h3>Commerce</h3>
   <ul>
     <li>Unable to select catalog if there are more than 20 catalogs in a folder. NPR-27649: Hotfix for CQ-4258119</li>
-    <li>Commerce wizards & properties views are broken due to header.referer missing. Hotfix for CQ-4261122</li>
+    <li>Commerce wizards &amp; properties views are broken due to header.referer missing. Hotfix for CQ-4261122</li>
   </ul>
   <h3>Campaign - Targeting</h3>
   <ul>
@@ -397,7 +397,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
   <h3>Translation</h3>
   <ul>
     <li>Provide support for Microsoft Translator Text API v3. NPR-28366: Hotfix for CQ-4249755</li>
-    <li>jcr:language & cq:language are not automatically updated in the Translated Language. NPR-28338: Hotfix for CQ-4256046</li>
+    <li>jcr:language &amp; cq:language are not automatically updated in the Translated Language. NPR-28338: Hotfix for CQ-4256046</li>
     <li>Cyclic references cause StackOverflowError when creating language copy. NPR-27596: Hotfix for CQ-4255621</li>
     <li>In a multi-language translation project, clicking save and close results in subsequent pages added to the project results in new projects being created instead of new translation jobs being created in existing project. NPR-28219, NPR-28236: Hotfix for CQ-4261276, CQ-4260731</li>
     <li>Error String too long when adding content fragment with bulk data due to limitation on the number of characters allowed. NPR-28722: Hotfix for CQ-4262362</li>
@@ -481,7 +481,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 <ul>
   <li>Added support to replace usage of handlebars client library with underscore in Forms Manager's start review wizard and move asset wizard. NPR-27643: Hotfix for CQ-4246536.</li>
   <li>One bundle remains in installed state after installing Forms Management package on release/640 branch. Hotfix for CQ-4265410</li>
-  <li>Forms submitted with attachments in them are not appearing in workflow with submit action "Invoke AEM Forms Workflow" & enable portal submit checked . Hotfix for CQ-4263110</li>
+  <li>Forms submitted with attachments in them are not appearing in workflow with submit action "Invoke AEM Forms Workflow" and enable portal submit checked . Hotfix for CQ-4263110</li>
 </ul>
 <h4>Forms - Backend Integration</h4>
 <ul>
@@ -644,7 +644,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
   <li>Only 10 groups are listed in enablement resources page even if pagination is enabled for group listing. NPR-26934: Hotfix for CQ-4252985</li>
   <li>Option to enable/disable search for Scheduled Post in journal component is provided in ConfigMgr, and SearchScheduledPosts job is optimized. NPR-26923: Hotfix for CQ-4250463</li>
   <li>Search by keywords in address does not work in calendar component page when AEM community is set to work with DSRP. NPR-26737: Hotfix for CQ-4258493</li>
-  <li>Implemented direct link to the comment instead of the main post in a comment's detail, for moderation UI & enablement resources. NPR-26704: Hotfix for CQ-4251381</li>
+  <li>Implemented direct link to the comment instead of the main post in a comment's detail, for moderation UI and enablement resources. NPR-26704: Hotfix for CQ-4251381</li>
   <li>Content moderated through multi-selection on moderation console does not appear on Activity Stream. NPR-26695: Hotfix for CQ-4253244</li>
   <li>Search with First Name and Last Name in To field of Communities Messaging does not return the expected result. NPR-26385: Hotfix for CQ-4248673</li>
   <li>Error observed when uploading an attachment other than image (for example .pdf) in Forum. NPR-27360: Hotfix for CQ-4257753</li>
@@ -1658,7 +1658,7 @@ There are two ways to automatically install AEM 6.4.5.0 into a running instance:
 
 A. Place the package into ..*/crx-quickstart/install* folder while the server is running. The package gets installed automatically.
 
-B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/en/crx/2-3/how_to/package_manager.html) - make sure you use cmd=install&recursive=true - so the nested package  are  installed.
+B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/en/crx/2-3/how_to/package_manager.html) - make sure you use `cmd=install&recursive=true` - so the nested package are installed.
 
 >[!NOTE]
 >
@@ -1756,7 +1756,7 @@ This section lists features and capabilities that have been removed or deprecate
 
 ## Known Issues {#known-issues}
 
-The following errors & warning may occur during installation of AEM 6.4.5.0 and can be safely ignored as they do not impact your AEM instance :
+The following errors and warnings may occur during installation of AEM 6.4.5.0 and can be safely ignored as they do not impact your AEM instance:
 
 * Errors as create component instance and Service factory returned null occurs due to repository restart:
 
