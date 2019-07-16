@@ -32,8 +32,8 @@ It is also cumulative which means that 6.4.5.0 includes all AEM 6.4 service pack
 Some of the key highlights of AEM 6.4.5.0 are:
 
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.13.
-* Added socket timeout & connection timeout in Brand Portal replication agents.
-* [Omnisearch enhancements] Increased the pagination limit of the search result to 100 pages.
+* Added socket timeout and connection timeout in Brand Portal replication agents.
+* Omnisearch enhancements - Increased the pagination limit of the search result to 100 pages.
 * Disabled `AssetDownloadServlet` OSGi component by default on AEM publish instances. For more information, see [Download assets from AEM](https://helpx.adobe.com/experience-manager/6-4/assets/using/download-assets-from-aem.html).
 * Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/reuse-assets-using-msm.html).
 
