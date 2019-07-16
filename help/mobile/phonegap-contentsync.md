@@ -32,7 +32,7 @@ The Content Sync framework creates an archive file that contains the web content
 The following sequence of steps illustrates a typical use case for Content Sync:
 
 1. The AEM developer creates a Content Sync configuration that specifies the content to include.
-1. The Content Sync framework collects and caches the content. 
+1. The Content Sync framework collects and caches the content.
 1. On a mobile device, the mobile application is started and requests content from the server, which is delivered in a ZIP file.
 1. The client unpacks the ZIP content to the local file system. The folder structure in the ZIP file simulates the paths that a client (e.g. a browser) would normally request from the server.
 1. The client opens the content in an embedded browser or uses it in some other way.
@@ -83,7 +83,7 @@ If you are [configuring in the repository](/help/sites-deploying/configuring-osg
 To configure download access for a specific Content Sync configuration, add the following property to the `cq:ContentSyncConfig` node:
 
 * Name: authorizable
-* Type: String 
+* Type: String
 * Value: The name of the user or group that can download.
 
 For example, your app enables users to install updates directly from Content Sync. To enable all users to download the update, you set the value of the authorizable property to `everyone`.
@@ -99,7 +99,7 @@ You can override the default user and specify a user or group that upates a spec
 To override the default user, specify a user or group that performs updates for a specific Content Sync configuration by adding the following property to the cq:ContentSyncConfig node:
 
 * Name: updateuser
-* Type: String 
+* Type: String
 * Value: The name of the user or group that can performs the updates.
 
 If the cq:ContentSyncConfig node has no updateuser property, the default anonymous user updates the cache.
@@ -237,9 +237,9 @@ The console can be accessed at:
 
 `http://localhost:4502/libs/cq/contentsync/content/console.html`
 
-It looks as follows: 
+It looks as follows:
 
-![chlimage_1-132](assets/chlimage_1-132.png) 
+![chlimage_1-132](assets/chlimage_1-132.png)
 
 ### Extending the Content Sync framework {#extending-the-content-sync-framework}
 
@@ -323,10 +323,10 @@ public class LogoUpdateHandler implements ContentUpdateHandler {
         img.setSelector("img");
 
         try {
-            if(img.getLastModified() == null || lastUpdated < img.getLastModified().getTime().getTime()) { 
+            if(img.getLastModified() == null || lastUpdated < img.getLastModified().getTime().getTime()) {
                 String src = img.getSrc();
                 String parentPath = configCacheRoot + Text.getRelativeParent(src, 1);
- 
+
                 Node parent = JcrUtil.createPath(parentPath, "sling:Folder", admin);
                 Node image = resolver.getResource(resource.getPath() + "/image").adaptTo(Node.class);
                 JcrUtil.copy(image, parent, Text.getName(src));
@@ -380,4 +380,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 
 * [Authoring for Adobe PhoneGap Enterprise with AEM](/help/mobile/phonegap.md)
 * [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/administer-phonegap.md)
-
