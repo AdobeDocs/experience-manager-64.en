@@ -31,6 +31,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Best Practices](best-practices-aem-mobile.md)
   + [Creating Article Export Configuration](creating-article-export-configuration.md)
   + [Mobile with Content Sync](mobile-ondemand-contentsync.md)
+  + [Using Content Properties to Export Content](on-demand-content-properties-exporting.md)  
 + Administering On-Demand Services App {#administering}
   + [AEM Mobile On-Demand](aem-mobile.md)
   + [AEM Mobile SetUp](aem-mobile-setup.md)
@@ -76,7 +77,6 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Rendering and Delivery](rendering-and-delivery.md)
   + [App Templates and Components](app-templates-and-components1.md)
   + [Building Mobile Applications](building-app-mobile-phonegap.md)
-  + [Using Content Properties to Export Content](on-demand-content-properties-exporting.md)
   + [PhoneGap](developing-in-phonegap.md)
   + [Configure Your Users and User Groups](configure-users-groups.md)
   + [Managing Articles](mobile-on-demand-managing-articles.md)
@@ -93,7 +93,6 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Push Notifications](phonegap-push-notifications.md)
   + [Manage App Tile](phonegap-app-details-tile.md)
   + [Track App Performance with Adobe Mobile Analytics](phonegap-intro-to-app-analytics.md)
-  + [Getting Started with AEM Mobile](getting-started-aem-mobile.md)
   + [Creating Article Export Configuration](creating-article-export-configuration.md)
   + [Authoring Mobile Applications](phonegap-authoring-apps.md)
   + [Content Services](developing-content-services.md)
