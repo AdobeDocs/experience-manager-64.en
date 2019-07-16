@@ -39,13 +39,9 @@ Members of the app-author group are responsible for authoring AEM mobile applica
 
    ![chlimage_1-167](assets/chlimage_1-167.png)
 
-   Add app-authors to the Authors group
-
 1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](http://localhost:4502/libs/granite/security/content/useradmin.md).
 
    ![chlimage_1-168](assets/chlimage_1-168.png)
-
-   Edit user groups
 
 1. The following allows you to add to AEM's Content Authors Group:
 
@@ -97,7 +93,7 @@ Members of the app-admins group can author application content with the same per
 
    >[!CAUTION]
    >
-   >/var/contentsync access is denied OOTB. 
+   >/var/contentsync access is denied OOTB.
    >
    >Omitting the READ permission can result in empty update packages being built and replicated.
 
@@ -114,4 +110,3 @@ To understand more on the other two roles and responsibilities for creating an A
 
 * [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/aem-mobile-on-demand.md)
 * [Authoring AEM Content for AEM Mobile On-Demand Services App](/help/mobile/mobile-apps-ondemand.md)
-

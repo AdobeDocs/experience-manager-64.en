@@ -71,7 +71,7 @@ Use the built in AEM drag and drop editor to add or change an article. Component
 The workflow to edit a collection:
 
 1. From Mobile, choose your Mobile On-Demand app from the catalog.
-1. Select an AEM sourced article from the** Manage Collections** tile.
+1. Select an AEM sourced article from the **Manage Collections** tile.
 1. Click the highlighted collection from the list view to open it in the content editor.
 1. Use the content editor to drag collection content (manuscripts, images, text, etc).
 
@@ -115,8 +115,6 @@ The general workflow to delete a collection:
 1. Click **Delete**.
 1. Your collection is now removed from the list.
 
-1.
-
 ## Adding Content to Collections {#adding-content-to-collections}
 
 Collections are essentially a category of related content. They gather content such as articles, banners together into packages that define the navigation structure of your application. Collections can be nested.
@@ -135,8 +133,6 @@ Collections are essentially a category of related content: They gather content s
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
-1.
-
 ### The Next Steps {#the-next-steps}
 
 One you learn about managing collections, see
@@ -146,4 +142,3 @@ One you learn about managing collections, see
 * [Uploading Shared Resources](/help/mobile/mobile-on-demand-shared-resources.md)
 * [Publishing/Unpublishing the Content](/help/mobile/mobile-on-demand-publishing-unpublishing.md)
 * [Previewing with Preflight](/help/mobile/aem-mobile-manage-ondemand-services.md)
-

@@ -132,6 +132,14 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    If you cancel the upload operation before the files are uploaded, AEM Assets stops uploading the current file and refreshes the content. However, files that are already uploaded are not deleted.
 
+### Serial uploads {#serial-uploads}
+
+Uploading numerous assets in bulk consumes significant I/O resources, which may adversely impact the performance of your AEM Assets instance. In particular, if you have a slow internet connection, the time to upload drastically increases due to a spike in disk I/O. Moreover, your web browser may introduce additional restrictions to the number of POST requests AEM Assets can handle for concurrent asset uploads. As a result, the upload operation fails or terminate prematurely. In other words, AEM assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
+
+To overcome this situation, AEM Assets ingests one asset at a time (serial upload) during a bulk upload operation, instead of the concurrently ingesting all the assets.
+
+Serial uploading of assets is enabled by default. To disable the feature and allow concurrent uploading, overlay the `fileupload` node in CRXDe and set the value of the `parallelUploads` property to `true`.
+
 ### Uploading assets using FTP {#uploading-assets-using-ftp}
 
 Dynamic Media enables batch uploading of assets by way of FTP server. If you intend to upload large assets ( &gt; 1 GB) or upload entire folders and subfolders, you should use FTP. You can even set up FTP upload to occur on a recurring scheduled basis.
@@ -593,6 +601,24 @@ See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](co
 If you upload numerous assets, I/O calls to the AEM server increases drastically, which reduces upload efficiency and can even cause it to time out. AEM Assets supports streamed uploading of assets. Streamed uploading reduces disk I/O during the upload operation by avoiding asset storage in a temporary folder on the server before copying it to the repository. Instead, the data is transferred directly to the repository. This way, the time to upload large assets and the possibility of timeouts is reduced. Streamed upload is enabled by default in AEM Assets.
 
 Streaming upload is disabled for AEM running on JEE server with servlet-api version less than 3.1.
+
+### Extract ZIP archive containing assets {#extract-zip-archive-containing-assets}
+
+You can upload ZIP archives just like any other supported asset. The same file name rules apply to ZIP files. AEM allows you to extract a ZIP archive to a DAM location.
+
+Select one ZIP archive at a time, click **[!UICONTROL Extract Archive]**, and select a destination folder. Select an option to handle conflicts, if any. If the assets in the ZIP file already exist in the destination folder, you can select one of these options: skip extraction, replace existing files, keep both assets by renaming, or create new version.
+
+After the extraction is complete, AEM notifies you in the notification area. While AEM extracts the ZIP, you can go back to your work without interuppting the extraction.
+
+![Notification of ZIP extraction](assets/zip_extract_notification.png)
+
+Some limitations of the feature are:
+
+* If a folder by the same name exists at the destination, the assets from the ZIP file are extracted in the existing folder.
+
+* If you cancel the extraction, the already extracted assets are not deleted.
+
+* You cannot select two ZIP files at the same time and extract them. You can only extract one ZIP archive at a time.
 
 ## Previewing assets {#previewing-assets}
 

@@ -210,7 +210,7 @@ Below are the parameters you can use in order to change the various settings in 
 
 * `-F "certificateFile=@localhost.crt"` - specify the certificate;  
 
-* `-F "httpsHostName=host.example.com"`- specify the hostname;
+* `-F "httpsHostname=host.example.com"`- specify the hostname;
 * `-F "httpsPort=8443"` - the port the HTTPS listener will work on.
 
 >[!NOTE]
@@ -222,7 +222,7 @@ Below are the parameters you can use in order to change the various settings in 
 >A correct cURL post command should look like this:
 
 ```shell
-curl -u user:password -F "keystorePassword=password" -F "keystorePasswordConfirm=password" -F "truststorePassword=password" -F "truststorePasswordConfirm=password" -F "privatekeyFile=@localhostprivate.der" -F "certificateFile=@localhost.crt" -F "httpsHostName=host.example.com" -F "httpsPort=8443" https://host:port/libs/granite/security/post/sslSetup.html
+curl -u user:password -F "keystorePassword=password" -F "keystorePasswordConfirm=password" -F "truststorePassword=password" -F "truststorePasswordConfirm=password" -F "privatekeyFile=@localhostprivate.der" -F "certificateFile=@localhost.crt" -F "httpsHostname=host.example.com" -F "httpsPort=8443" https://host:port/libs/granite/security/post/sslSetup.html
 ```
 
 #### Multiple certificates using cURL {#multiple-certificates-using-curl}

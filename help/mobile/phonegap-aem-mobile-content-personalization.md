@@ -53,7 +53,7 @@ It is suggested that as part of the users and group setup that the target-activi
 
 To get targeted content working for mobile applications there are two services that need to be configured: The Adobe Target Service and the Adobe Mobile Services service. The Adobe Target Service provides the engine for processing client requests and returning the personalized content. The Adobe Mobile Services service provides the connection between the Adobe services and the mobile application via the ADBMobileConfig.json file which is consumed by the AMS Cordova plugin. From the AEM Mobile Dashboard you can configure your application by adding the two services.
 
-From the AEM Mobile Dashboard locate the Manage Cloud Services and click the + button. 
+From the AEM Mobile Dashboard locate the Manage Cloud Services and click the + button.
 
 ![chlimage_1-38](assets/chlimage_1-38.png)
 
@@ -67,9 +67,9 @@ From the Select a Configuration dropdown you can either create a new configurati
 >
 >The cloud service that gets created is automatically associated with the mobile application via the wizard. The cq:cloudserviceconfigs property value gets set on the jcr:content node of the apps group node. For the hybrid app sample it gets set on /content/mobileapps/hybrid-reference-app/jcr:content with the value pointing to the automatically generated framework node located at /etc/cloudservices/testandtarget/adobe-target---aem-apps/framework. The framework node has two properties set by default, gender and age. The framework is only used by AEM previewing and does not have any impact on the device.
 
-After completion of the wizard the Manage Cloud Service tile will contain the Target cloud service, however it contains a warning about a missing Adobe Mobile Service account. 
+After completion of the wizard the Manage Cloud Service tile will contain the Target cloud service, however it contains a warning about a missing Adobe Mobile Service account.
 
-![chlimage_1-40](assets/chlimage_1-40.png) 
+![chlimage_1-40](assets/chlimage_1-40.png)
 
 ### Adobe Mobile Services {#adobe-mobile-services}
 
@@ -77,7 +77,7 @@ It is necessary to link a Adobe Mobile Services (AMS) account to the application
 
 ### Client Code {#client-code}
 
-To login to the AMS services visit [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/), select the mobile application and click the settings. Locate the SDK Target Options field and place the client code into the field and click Save. 
+To login to the AMS services visit [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/), select the mobile application and click the settings. Locate the SDK Target Options field and place the client code into the field and click Save.
 
 ![chlimage_1-41](assets/chlimage_1-41.png)
 
@@ -85,7 +85,7 @@ Now that the client code has been associated with the mobile application, when t
 
 ### Adobe Mobile Service Cloud Service {#adobe-mobile-service-cloud-service}
 
-Now that AMS has been configured, it's time to associate the mobile application in the Adobe Mobile Dashboard. From the AEM Mobile Dashboard locate the Manage Cloud Services and click the + button. 
+Now that AMS has been configured, it's time to associate the mobile application in the Adobe Mobile Dashboard. From the AEM Mobile Dashboard locate the Manage Cloud Services and click the + button.
 
 ![chlimage_1-42](assets/chlimage_1-42.png)
 
@@ -97,7 +97,7 @@ From the Create or Select wizard step select the Mobile Service dropdown and sel
 
 Returning back to the Mobile Dashboard the Manage Cloud Services tile will contain the AMS cloud service. You will also note that the Analyze Metrics tile will be populated with lifecycle reports.
 
-![chlimage_1-44](assets/chlimage_1-44.png) 
+![chlimage_1-44](assets/chlimage_1-44.png)
 
 ## For Authors {#for-authors}
 
@@ -198,69 +198,69 @@ Examples of head.html and body.html can be found in the [AEM Mobile Hybrid Refer
 
 When the content author has finished creating content for the mobile application the next step is to download the source and build the application, or stage the content to be published. There are a number of steps that the developer is involved with to make this happen. To aid in rendering the content AEM Mobile utilizes content sync handlers to render and package the content. A new content sync handler has been introduced for the Personalization use case to render targeted content. The 'mobileappoffers' handler knows how to render the associated target offers that have been created by the content author. The mobileappoffers handler extends the abstract pages update handler therefore, many of the properties are similar. The details of the mobileappoffers handler has the following properties.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Property</strong></td> 
-   <td><strong>Value</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>rewrite</td> 
-   <td>+ relativeParentPath<p> - "/"</p> </td> 
-   <td>The rewrite property identifies how paths within the content should be rewritten.</td> 
-  </tr> 
-  <tr> 
-   <td>includedPageTypes</td> 
-   <td><p>"cq/personalization/components/teaserpage",</p> <p>"cq/personalization/components/offerproxy"</p> </td> 
-   <td>The includePageTypes property is optional, defaulting to pages that have resource types of cq/personalization/components/teaserpage and cq/personalization/components/offerproxy. These two resource types are the default resource types used when content is targeted. If additional resource types need to be supported they should be added to the list of includePageTypes.</td> 
-  </tr> 
-  <tr> 
-   <td>locationRoot</td> 
-   <td>/content/mobileapps/&lt;app&gt;</td> 
-   <td>The location of the App.</td> 
-  </tr> 
-  <tr> 
-   <td>type</td> 
-   <td>mobileappoffers</td> 
-   <td>The name of the handler being mobileappoffers.</td> 
-  </tr> 
-  <tr> 
-   <td>selector</td> 
-   <td>tandt</td> 
-   <td>The tandt selector is used to render the targeted content. </td> 
-  </tr> 
-  <tr> 
-   <td>targetRootDirectory</td> 
-   <td>www</td> 
-   <td>The root directory where to persist the rendered content.</td> 
-  </tr> 
-  <tr> 
-   <td>includeImages</td> 
-   <td>true | false</td> 
-   <td>If true any images included in the offer will be rendered. If false images will be skipped.</td> 
-  </tr> 
-  <tr> 
-   <td>includeVideos</td> 
-   <td>true | false</td> 
-   <td>If true any videos included in the offer will be rendered. If false videos will be skipped.</td> 
-  </tr> 
-  <tr> 
-   <td>path</td> 
-   <td>/content/campaigns/&lt;brand&gt;</td> 
-   <td>Points to the campaign's brand which the offers participate in. Currently all offers must come from the same campaign.</td> 
-  </tr> 
-  <tr> 
-   <td>deep</td> 
-   <td>true | false</td> 
-   <td>If true recursively render all child pages, if false do not recurse. </td> 
-  </tr> 
-  <tr> 
-   <td>extension</td> 
-   <td>html</td> 
-   <td>Sets the extension for the resource being rendered. Set to html such that the pages have a .html extension.</td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <td><strong>Property</strong></td>
+   <td><strong>Value</strong></td>
+   <td><strong>Description</strong></td>
+  </tr>
+  <tr>
+   <td>rewrite</td>
+   <td>+ relativeParentPath<p> - "/"</p> </td>
+   <td>The rewrite property identifies how paths within the content should be rewritten.</td>
+  </tr>
+  <tr>
+   <td>includedPageTypes</td>
+   <td><p>"cq/personalization/components/teaserpage",</p> <p>"cq/personalization/components/offerproxy"</p> </td>
+   <td>The includePageTypes property is optional, defaulting to pages that have resource types of cq/personalization/components/teaserpage and cq/personalization/components/offerproxy. These two resource types are the default resource types used when content is targeted. If additional resource types need to be supported they should be added to the list of includePageTypes.</td>
+  </tr>
+  <tr>
+   <td>locationRoot</td>
+   <td>/content/mobileapps/&lt;app&gt;</td>
+   <td>The location of the App.</td>
+  </tr>
+  <tr>
+   <td>type</td>
+   <td>mobileappoffers</td>
+   <td>The name of the handler being mobileappoffers.</td>
+  </tr>
+  <tr>
+   <td>selector</td>
+   <td>tandt</td>
+   <td>The tandt selector is used to render the targeted content. </td>
+  </tr>
+  <tr>
+   <td>targetRootDirectory</td>
+   <td>www</td>
+   <td>The root directory where to persist the rendered content.</td>
+  </tr>
+  <tr>
+   <td>includeImages</td>
+   <td>true | false</td>
+   <td>If true any images included in the offer will be rendered. If false images will be skipped.</td>
+  </tr>
+  <tr>
+   <td>includeVideos</td>
+   <td>true | false</td>
+   <td>If true any videos included in the offer will be rendered. If false videos will be skipped.</td>
+  </tr>
+  <tr>
+   <td>path</td>
+   <td>/content/campaigns/&lt;brand&gt;</td>
+   <td>Points to the campaign's brand which the offers participate in. Currently all offers must come from the same campaign.</td>
+  </tr>
+  <tr>
+   <td>deep</td>
+   <td>true | false</td>
+   <td>If true recursively render all child pages, if false do not recurse. </td>
+  </tr>
+  <tr>
+   <td>extension</td>
+   <td>html</td>
+   <td>Sets the extension for the resource being rendered. Set to html such that the pages have a .html extension.</td>
+  </tr>
+ </tbody>
 </table>
 
 >[!NOTE]

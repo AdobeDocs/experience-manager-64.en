@@ -9,7 +9,7 @@ user-guide-title: AEM 6.4 Forms User Guide
 + Release Notes/New Features {#release-notes-new-features}
   + [AEM Forms releases and available packages](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
   + [New features summary | AEM 6.4 Forms](using/whats-new.md)
-  + [AEM Forms Release Notes](../../help/release-notes/forms.md)
+  + [Release Notes](../../help/release-notes/forms.md)
   + [Features deprecated in AEM Forms 6.4](../../help/release-notes/deprecated-removed-features.md) 
 + Getting Started {#getting-started}
   + [Introduction to AEM Forms](using/introduction-aem-forms.md)

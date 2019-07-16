@@ -66,19 +66,19 @@ Experience Fragments should be used:
 
 To create an Experience Fragment:
 
-1. Select Experience Fragments from the Global Navigation.
+1. Select **[!UICONTROL Experience Fragments]** from the Global Navigation.
 
    ![screen_shot_2018-04-05at92221am1](assets/screen_shot_2018-04-05at92221am1.png)
 
-1. Select **Create**. You can create **Folders** and/or **Experience Fragments**.
+1. Select **[!UICONTROL Create]**. You can create **[!UICONTROL Folders]** and/or **[!UICONTROL Experience Fragments]**.
 
    Creating folders allows you to create a meaningful structure for your Experience Fragments.
 
    ![xf-authoring-01](assets/xf-authoring-01.png)
 
-1. From the required folder, select **Create** then **Experience Fragment** to open the **Create Experience Fragment** wizard.
+1. From the required folder, select **[!UICONTROL Create]** then **[!UICONTROL Experience Fragment]** to open the **[!UICONTROL Create Experience Fragment]** wizard.
 
-   Select the required **Template**, then **Next**:
+   Select the required **[!UICONTROL Template]**, then **[!UICONTROL Next]**:
 
    ![xf-authoring-02](assets/xf-authoring-02.png)
 
@@ -107,18 +107,18 @@ To create an Experience Fragment:
    >
    >    Add the template details manually in `cq:allowedTemplates` on the `/content/experience-fragment` node.
 
-1. Enter the **Properties** for your **Experience Fragment**.
+1. Enter the **[!UICONTROL Properties]** for your Experience Fragment.
 
-   A **Title** is mandatory. If the **Name** is left blank it will be derived from the **Title**.
+   A **[!UICONTROL Title]** is mandatory. If the **[!UICONTROL Name]** is left blank it will be derived from the **[!UICONTROL Title]**.
 
    ![xf-authoring-03](assets/xf-authoring-03.png)
 
-1. Click **Create**.
+1. Click **[!UICONTROL Create]**.
 
    A message will be displayed. Select:
 
-    * **Done** to return to the console 
-    * **Open** to open the fragment editor
+    * **[!UICONTROL Done]** to return to the console 
+    * **[!UICONTROL Open]** to open the fragment editor
 
 ## Editing your Experience Fragment {#editing-your-experience-fragment}
 
@@ -126,13 +126,13 @@ The Experience Fragment Editor offers you similar capabilities to the normal pag
 
 The following example procedure illustrates how to create a teaser for a product:
 
-1. Drag and drop a **Category Teaser** from the [Components Browser](/help/sites-authoring/author-environment-tools.md#components-browser).
+1. Drag and drop a **[!UICONTROL Category Teaser]** from the [Components Browser](/help/sites-authoring/author-environment-tools.md#components-browser).
 
    ![xf-authoring-04](assets/xf-authoring-04.png)
 
-1. Select **[Configure](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste)** from the component toolbar.
-1. Add the **Asset** and define the **Properties** as required.
-1. Confirm the definitions with **Done** (tick icon).
+1. Select **[!UICONTROL Configure](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste)** from the component toolbar.
+1. Add the **[!UICONTROL Asset]** and define the **[!UICONTROL Properties]** as required.
+1. Confirm the definitions with **[!UICONTROL Done]** (tick icon).
 1. Add more components as required.
 
 ## Creating An Experience Fragment Variation {#creating-an-experience-fragment-variation}
@@ -140,26 +140,26 @@ The following example procedure illustrates how to create a teaser for a product
 You can create variations of your Experience Fragment, depending on your needs:
 
 1. Open your fragment for [editing](/help/sites-authoring/experience-fragments.md#editing-your-experience-fragment).
-1. Open the **Variations** tab.
+1. Open the **[!UICONTROL Variations]** tab.
 
    ![xf-authoring-06](assets/xf-authoring-06.png)
 
 1. **Create** allows you to create:
 
-    * **Variation**
-    * **Variation as live-copy**.
+    * **[!UICONTROL Variation]**
+    * **[!UICONTROL Variation as live-copy]**.
 
 1. Define the required properties:
 
-    * **Template**
-    * **Title**
-    * **Name**; if left blank it will be derived from the Title
-    * **Description**
-    * **Variation tags**
+    * **[!UICONTROL Template]**
+    * **[!UICONTROL Title]**
+    * **[!UICONTROL Name]**; if left blank it will be derived from the Title
+    * **[!UICONTROL Description]**
+    * **[!UICONTROL Variation tags]**
 
    ![xf-authoring-07](assets/xf-authoring-07.png)
 
-1. Confirm with **Done** (tick icon), the new variation will be shown in the panel:
+1. Confirm with **[!UICONTROL Done]** (tick icon), the new variation will be shown in the panel:
 
    ![xf-authoring-08](assets/xf-authoring-08.png)
 
@@ -178,7 +178,7 @@ You can now use your Experience Fragment when authoring your pages:
 1. Add the actual Experience Fragment to the component instance; either:
 
     * Drag the required fragment from the Assets Browser and drop onto the component 
-    * Select **Configure** from the component toolbar and specify the fragment to use, confirm with **Done** (tick)
+    * Select **[!UICONTROL Configure]** from the component toolbar and specify the fragment to use, confirm with **Done** (tick)
 
    ![xf-authoring-10](assets/xf-authoring-10.png)
 
@@ -198,7 +198,7 @@ To create a new Building Block:
 
    ![xf-authoring-12](assets/xf-authoring-12.png)
 
-1. From the components toolbar, select **Convert to building block**:
+1. From the components toolbar, select **[!UICONTROL Convert to building block]**:
 
    ![xf-authoring-13-icon](assets/xf-authoring-13-icon.png)
 
@@ -206,7 +206,7 @@ To create a new Building Block:
 
    ![xf-authoring-13](assets/xf-authoring-13.png)
 
-1. Enter the name of the **Building Block**, and confirm with **Convert**:
+1. Enter the name of the **[!UICONTROL Building Block]**, and confirm with **[!UICONTROL Convert]**:
 
    ![xf-authoring-14](assets/xf-authoring-14.png)
 
@@ -216,7 +216,7 @@ To create a new Building Block:
 
 ### Managing a Building Block {#managing-a-building-block}
 
-Your building block is visible in the **Building Blocks** tab. For each block, the following actions are available:
+Your building block is visible in the **[!UICONTROL Building Blocks]** tab. For each block, the following actions are available:
 
 * Go to master: open the master variation in a new tab  
 * Rename   

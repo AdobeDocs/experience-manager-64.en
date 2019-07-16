@@ -39,7 +39,7 @@ App definitions are a way to identify what spaces and other configurations are a
 
 Once you are familiar with App Definitions, learn more about the following authoring resources:
 
-* [Import an existing hybrid app](/help/mobile/phonegap-import-hybrid-app.md)
+* [Import an existing hybrid app](/help/mobile/phonegap-adding-content-to-imported-app.md)
 * [Create a New App using Create App Wizard](/help/mobile/phonegap-create-new-app.md)
 * [Content Services](/help/mobile/develop-content-as-a-service.md)
 
