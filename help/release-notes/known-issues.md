@@ -114,12 +114,12 @@ If you are using Edge as browser:
 
 * Authentication configurations for SOAP-based web services are not visible and thus cannot be configured in cloud services. To resolve the issue:
 
-1. In CRXDE Lite console, go to the following node.  
-/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices/  
-wsdlauthenticationsettings/items/fixedcolumns/items/container/items/wsdl/items/  
-selectAuthentication/items/custom.  
-1. Update the value of the value property to the same as the value of the text property.  
-1. Click Save All to save the configuration.
+    1. In CRXDE Lite console, go to the following node.  
+    /libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices/  
+    wsdlauthenticationsettings/items/fixedcolumns/items/container/items/wsdl/items/  
+    selectAuthentication/items/custom.  
+    1. Update the value of the value property to the same as the value of the text property.  
+    1. Click Save All to save the configuration.
 
 (Ref# CQ-4238462)
 
