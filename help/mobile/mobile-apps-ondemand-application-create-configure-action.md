@@ -32,7 +32,7 @@ The details of your app can be viewed in the Dashboard or AEM Mobile Control Cen
 **To create an on-demand app:**
 
 1. Select **Mobile** from the side rail.
-1. Select **Apps **from the Navigation.
+1. Select **Apps** from the Navigation.
 1. Click **Create** and select **App** from the drop down.
 1. Choose the Mobile app template and click **Next**.
 1. Enter app properties such as **Title**, **Name**, **Description**.
@@ -50,7 +50,7 @@ The details of your app can be viewed in the Dashboard or AEM Mobile Control Cen
 
 App templates provide an easy way to leverage existing designs created by devlopers, used for the creation of new apps within AEM.
 
-What is an app template? Think of it as a collection of page templates and components that represent a baseline or foundation of an app.   
+What is an app template? Think of it as a collection of page templates and components that represent a baseline or foundation of an app.
 When creating a new app based on the template of another app, you will get an app that has a starting point representative of the app in which it was created from.
 
 You must have an existing mobile app template (or an app installed that has an app template) to make use of this feature.
@@ -77,4 +77,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 
 * [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/aem-mobile-on-demand.md)
 * [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/aem-mobile.md)
-

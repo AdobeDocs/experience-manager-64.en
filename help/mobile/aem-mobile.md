@@ -39,10 +39,10 @@ An AEM administrator is responsible for the following tasks while creating an ap
 
 * [Setting up AEM Mobile](/help/mobile/aem-mobile-setup.md), that covers
 
-    * AEM Mobile Provisioning
-    * Creating Projects for AEM Mobile
-    * Configuring an AEM Mobile Connector
-    * Adding AEM Mobile User Roles and Assigning Permissions
+  * AEM Mobile Provisioning
+  * Creating Projects for AEM Mobile
+  * Configuring an AEM Mobile Connector
+  * Adding AEM Mobile User Roles and Assigning Permissions
 
 * [Configuring your User and User Groups](/help/mobile/aem-mobile-configure-users.md)
 * [Previewing with Preflight](/help/mobile/aem-mobile-manage-ondemand-services.md)
@@ -54,4 +54,3 @@ To understand more on the other two roles and responsibilities for creating an A
 
 * [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/aem-mobile-on-demand.md)
 * [Authoring AEM Content for AEM Mobile On-Demand Services App](/help/mobile/mobile-apps-ondemand.md)
-

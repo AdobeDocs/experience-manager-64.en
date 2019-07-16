@@ -25,8 +25,6 @@ You can push a remote build to [https://build.phonegap.com](https://build.phoneg
 
 ![PhoneGap Build Tile](assets/chlimage_1-60.png)
 
-AEM Command Center PhoneGap Build Tile
-
 ## Configuring the Cloud Service {#configuring-the-cloud-service}
 
 In order to take advantage of PhoneGap Build you need to configure the AEM PhoneGap Build Cloud Service with your PhoneGap Build account information.
@@ -89,7 +87,7 @@ Once you have installed the pre-requisites, give it a simple test by creating a 
 ```xml
 phonegap create myApp
 cd myApp
-phonegap run ios (or android, ...) 
+phonegap run ios (or android, ...)
 ```
 
 >[!NOTE]
@@ -98,7 +96,7 @@ phonegap run ios (or android, ...)
 
 Once you have verified that the above works, use the **PhoneGap Build** Tile to **Download Source**. Save and unzip the file onto your local system. Once that is done:
 
-* navigate to that saved file (folder) 
+* navigate to that saved file (folder)
 * run 'phonegap run ios' (or android, etc)
 
 ### Additional Resources {#additional-resources}
@@ -107,4 +105,3 @@ To learn about the roles and responsibilities of an Author and Developer, see th
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/developing-in-phonegap.md)
 * [Authoring for Adobe PhoneGap Enterprise in AEM](/help/mobile/phonegap.md)
-
