@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 User Guide
 
 # AEM 6.4 User Guide {#user-guide}
 
++ [AEM 6.4 User Guide Hub](home.md)
 + User Guides and Resources{#user-guides}
   + [AEM Capabilities User Guides](capabilities.md)
   + [AEM Implementation User Guides](implementation.md)
