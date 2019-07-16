@@ -23,7 +23,7 @@ Finally, administrators strategically publish the updated app content.
 
 >[!NOTE]
 >
->**Prerequisite**: 
+>**Prerequisite**:
 >
 >In [Deploying and Maintaining](/help/sites-deploying/deploy.md), developers became familiar with AEM's system of components and templates.
 
@@ -31,7 +31,7 @@ Finally, administrators strategically publish the updated app content.
 
 >[!CAUTION]
 >
->If you are not using an out-of-the-box app template, in order to enable new app content to be published OTA, you need to configure a Content Sync handler. 
+>If you are not using an out-of-the-box app template, in order to enable new app content to be published OTA, you need to configure a Content Sync handler.
 >
 >See [Mobile with Content Sync](/help/mobile/phonegap-contentsync.md) in Developer's section for more details.
 
@@ -101,4 +101,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/developing-in-phonegap.md)
 * [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/administer-phonegap.md)
-

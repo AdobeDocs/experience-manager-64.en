@@ -121,10 +121,6 @@ The general workflow to delete a banner:
 1. Click **Delete**.
 1. Your banner is now removed from the list.
 
-1.
-
-1.
-
 ### The Next Steps {#the-next-steps}
 
 One you learn about managing banners, see
@@ -134,4 +130,3 @@ One you learn about managing banners, see
 * [Uploading Shared Resources](/help/mobile/mobile-on-demand-shared-resources.md)
 * [Publishing/Unpublishing the Content](/help/mobile/mobile-on-demand-publishing-unpublishing.md)
 * [Previewing with Preflight](/help/mobile/aem-mobile-manage-ondemand-services.md)
-
