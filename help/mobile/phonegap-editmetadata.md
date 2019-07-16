@@ -87,4 +87,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/developing-in-phonegap.md)
 * [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/administer-phonegap.md)
-
