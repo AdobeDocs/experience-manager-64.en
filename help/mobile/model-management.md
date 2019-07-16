@@ -45,7 +45,7 @@ Models are used to determine how entities are created. They define what is avail
 >A model exists outside of an app as more than one app can use it. 
 >
 
-See **[Models](/help/mobile/working-with-a-model.md)** to create and manage models in the dashboard and repository.
+See **[Models](/help/mobile/administer-mobile-apps.md)** to create and manage models in the dashboard and repository.
 
 ### Entities in Content Model {#entities-in-content-model}
 

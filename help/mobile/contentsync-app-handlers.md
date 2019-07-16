@@ -40,13 +40,13 @@ The following lists out-of-the-box app handlers:
 
 * ***includeImages - Boolean*** - Optional boolean property determining if images should be included. The default value is *true*.
 
-    * By default, only image components with a resource type of foundation/components/image are considered for inclusion.
+  * By default, only image components with a resource type of foundation/components/image are considered for inclusion.
 
 * ***includeVideos - Boolean*** - Optional boolean property determine if videos should be include. The default value is *true*.
 
-* ***includeModifiedPagesOnly - Boolean* -** If false or omitted render all pages and check updates in rendering. If true, base diffs on changes to a pages lastModified.
-* ***+* *rewrite (node)*** 
-  ** *- relativeParentPath - String* **- the path to write all other paths relative to.
+* ***includeModifiedPagesOnly - Boolean*** - If false or omitted render all pages and check updates in rendering. If true, base diffs on changes to a pages lastModified.
+* ***+ rewrite (node)***
+   ***- relativeParentPath - String*** - the path to write all other paths relative to.
 
 >[!NOTE]
 >
@@ -141,13 +141,13 @@ Non-AEM properties in the cloud service's jcr:content node are extracted and add
 
 AEM properties are those that are name-spaced with "cq", "sling" or "jcr". Other properties  may be excluded using the "excludeProperties" property on the content-sync config node.
 
-* ***type - String* - **notificationsconfig
+* ***type - String*** - notificationsconfig
 * ***excludeProperties - String[]*** - properties  to be excluded
 
 **contentsyncconfigcontent** Collects content from an existing ContentSync config.
 
-* ***type - String* - **contentsyncconfigcontent
-* ***path** - **String** *- Path to one of:
+* ***type - String*** - contentsyncconfigcontent
+* ***path - String*** - Path to one of:
 
     * another ContentSync config
     * to a Content Package (will be use its phonegap-exportTemplate property to find its ContentSync config)
@@ -156,7 +156,7 @@ AEM properties are those that are name-spaced with "cq", "sling" or "jcr". Other
 * ***autoCreateFirstUpdateBeforeImport - Boolean*** - if true, create an initial **update** in the target config before importing if once does not exist already
 
 * ***autoFillBeforeImport - Boolean*** - if true, update/fill the target config before importing
-* ***configSuffix - String* - **a string to append to the path indicated on the "phonegap-exportTemplate" property of app-content. This can be used to distinguish different export templates. For example, this property can be set to **"-dev"** to indicate that *"/../../../appconfig-dev"* should be used (as opposed to *"/../../../appconfig"*).
+* ***configSuffix - String*** - a string to append to the path indicated on the "phonegap-exportTemplate" property of app-content. This can be used to distinguish different export templates. For example, this property can be set to **"-dev"** to indicate that *"/../../../appconfig-dev"* should be used (as opposed to *"/../../../appconfig"*).
 
 **app-assets** Includes all assets associated with an app instance. This handler will include any assets found under the specified path along with any assets referenced by an app instance's appAssetPath property.
 
@@ -171,12 +171,12 @@ The mobileappsoffers handler exends the mobileappspages handler and adds the fol
 * ***locationRoot - String*** - specify the location of the mobile application
 * ***includePageTypes - String*** - defaults to support cq/personalization/components/teaserpage and cq/personalization/components/offerproxy
 * ***selector - String*** - should be set to tandt 
-* ***path - String* **- the path to the campaign's brand
+* ***path - String***- the path to the campaign's brand
 
 **mobileappconfig** The mobileappconfig content sync handler provide a way to inject JSON data into the MobileAppsConfig.json. To register a provider class developers will add their MobileAppsInfoProvider class with the list of providers. The handler will iterate over the list of MobileAppsInfoProviders and allow the provider to inject data into the resulting json file. The list of properties which this handler supports are:
 
 * ***path** - **String*** - the path to an app instance node with pge-type=app-instance or a RT that extends /libs/mobileapps/core/components/instance
-* ***providers - String []*** - the list of fully qualified MobileAppsInfoProviders
+* ***providers - String*** `[]` - the list of fully qualified MobileAppsInfoProviders
 * ***targetRootDirectory - String*** - the directory where to write the MobileAppsConfig.json file to.
 * **fileName - String** - optional name of the file to write the JSON to, defaults to MobileAppsConfig.json
 
@@ -186,7 +186,7 @@ It is possible to have multiple mobileappconfig handlers configured each with a 
 
 **Steps for Checking Integrity** Clear cache
 
-* 
+* Clear cache
 * Run your handler (cache updated)
 * Run your handler again (cache should not be updated)
 
