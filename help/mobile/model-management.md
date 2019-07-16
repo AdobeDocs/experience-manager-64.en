@@ -42,7 +42,7 @@ Models are used to determine how entities are created. They define what is avail
 
 >[!NOTE]
 >
->A model exists outside of an app as more than one app can use it. 
+>A model exists outside of an app as more than one app can use it.
 >
 
 See **[Models](/help/mobile/administer-mobile-apps.md)** to create and manage models in the dashboard and repository.

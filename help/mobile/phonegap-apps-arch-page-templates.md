@@ -136,7 +136,7 @@ The controller.js.jsp script generates the controller fragment for each page. Th
 .controller('<c:out value="${controllerNameStripped}"/>', ['$scope', '$http',
     function($scope, $http) {
         var data = $http.get('<c:out value="${relativeResourcePath}"/>.angular.json' + cacheKiller);
- 
+
         // component fragments which consume the contents of `data` go here
     }
 ])
@@ -189,7 +189,7 @@ Note the GUID '24BA22ED-7D06-4330-B7EB-F6FC73251CA3' in the path.
 
 As a PhoneGap developer, the content that you are concerned with is located below the www directory. To access the app assets, use relative paths.
 
-To compound the issue, your PhoneGap application uses the single page app (SPA) pattern so that the base URI (excluding the hash) never changes. Therefore, every asset, template, or script that you reference **must be relative to your top-level page. **The top level page initializes the Angular routing and controllers by virtue of `*<name>*.angular-app-module.js` and `*<name>*.angular-app-controllers.js`. This page should be the closest page to the root of the repository that *does not *extend a sling:redirect.
+To compound the issue, your PhoneGap application uses the single page app (SPA) pattern so that the base URI (excluding the hash) never changes. Therefore, every asset, template, or script that you reference **must be relative to your top-level page. **The top level page initializes the Angular routing and controllers by virtue of `<name>.angular-app-module.js` and `<name>.angular-app-controllers.js`. This page should be the closest page to the root of the repository that *does not *extend a sling:redirect.
 
 Several helper methods are available for dealing with relative paths:
 
@@ -219,7 +219,7 @@ Alternatively, if `$scope.wcmMode == false`, each navigation event results in a 
 
 ### Component Script Details {#component-script-details}
 
-![chlimage_1-51](assets/chlimage_1-51.png) 
+![chlimage_1-51](assets/chlimage_1-51.png)
 
 ### ng-component.jsp {#ng-component-jsp}
 
@@ -324,29 +324,29 @@ This strategy does not require that you bundle and install the plugins to AEM ea
 
 Include other hooks as required. The following hooks are available (as provided by the Phonegap sample hello world app):
 
-* after_build 
+* after_build
 * before_build
-* after_compile 
+* after_compile
 * before_compile
-* after_docs 
+* after_docs
 * before_docs
-* after_emulate 
+* after_emulate
 * before_emulate
-* after_platform_add 
+* after_platform_add
 * before_platform_add
-* after_platform_ls 
+* after_platform_ls
 * before_platform_ls
-* after_platform_rm 
+* after_platform_rm
 * before_platform_rm
-* after_plugin_add 
+* after_plugin_add
 * before_plugin_add
-* after_plugin_ls 
+* after_plugin_ls
 * before_plugin_ls
-* after_plugin_rm 
+* after_plugin_rm
 * before_plugin_rm
-* after_prepare 
+* after_prepare
 * before_prepare
-* after_run 
+* after_run
 * before_run
 
 ### platforms/ {#platforms}

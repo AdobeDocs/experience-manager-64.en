@@ -36,7 +36,7 @@ See the following resources to get started:
 * [Editing App Metadata](/help/mobile/phonegap-editmetadata.md)
 * [App definitions](/help/mobile/phonegap-app-definitions.md)
 * [Creating a new AEM Mobile app using create wizard](/help/mobile/phonegap-create-new-app.md)
-* [Import an existing hybrid app](/help/mobile/phonegap-import-hybrid-app.md)
+* [Import an existing hybrid app](/help/mobile/phonegap-adding-content-to-imported-app.md)
 
 To learn about **Content Services**, see [Content Services Overview](/help/mobile/develop-content-as-a-service.md) to get started.
 

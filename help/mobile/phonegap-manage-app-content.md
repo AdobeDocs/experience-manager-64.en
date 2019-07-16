@@ -93,7 +93,7 @@ Once you have learnt about Creating and Managing App Content in the application 
 * [Editing App Metadata](/help/mobile/phonegap-editmetadata.md)
 * [App Definitions](/help/mobile/phonegap-app-definitions.md)
 * [Creating a New App using Create App Wizard](/help/mobile/phonegap-create-new-app.md)
-* [Import an Existing Hybrid App](/help/mobile/phonegap-import-hybrid-app.md)
+* [Import an Existing Hybrid App](/help/mobile/phonegap-adding-content-to-imported-app.md)
 
 ### Additional Resources {#additional-resources}
 
