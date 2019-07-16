@@ -33,7 +33,7 @@ An ***AEM Author* (or *Marketer*)** uses custom-developed or out-of-the-box temp
 
 An AEM author is responsible for the following tasks while creating an app using AEM Mobile On Demand Services.
 
-**Authoring AEM Content for AEM Mobile On-Demand Services App **involves following actions:
+**Authoring AEM Content for AEM Mobile On-Demand Services App** involves following actions:
 
 * [AEM Mobile Application Dashboard](/help/mobile/mobile-apps-ondemand-application-dashboard.md)
 * [Application Create and Configuration Actions](/help/mobile/mobile-apps-ondemand-application-create-configure-action.md)

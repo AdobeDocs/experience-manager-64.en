@@ -66,18 +66,18 @@ The content fragments enable:
 
 1. Open your page for editing.  
 
-1. Add the **Content Fragment** component; from either the **Components** browser or **Insert New Component**.  
+1. Add the **[!UICONTROL Content Fragment]** component; from either the **[!UICONTROL Components]** browser or **[!UICONTROL Insert New Component]**.  
 
 1. You can either:
 
-    * Open the **Assets** browser and filter for **Content Fragments** (the default is Images). Then drag the required fragment onto the component instance.
-    * Select the content fragment component, then **Configure** from the toolbar. In the dialog you can open the selection dialog to browse and select the required **Content Fragment**.
+    * Open the **[!UICONTROL Assets]** browser and filter for **[!UICONTROL Content Fragments]** (the default is Images). Then drag the required fragment onto the component instance.
+    * Select the content fragment component, then **[!UICONTROL Configure]** from the toolbar. In the dialog you can open the selection dialog to browse and select the required **[!UICONTROL Content Fragment]**.
 
    >[!NOTE]
    >
    >An alternative method is to drag a specific content fragment directly onto the page. This will automatically create the associated component (Content Fragment).
 
-1. Initially the content from the **Main** Element and **Master** (variation) will be shown. You can [select other elements and/or variations](#selecting-the-element-or-variation) as required.
+1. Initially the content from the **[!UICONTROL Main]** Element and **[!UICONTROL Master]** (variation) will be shown. You can [select other elements and/or variations](#selecting-the-element-or-variation) as required.
 
    ![cfm-6420-01](assets/cfm-6420-01.png)
 
@@ -90,46 +90,45 @@ The content fragments enable:
 
 ## Selecting the Element or Variation {#selecting-the-element-or-variation}
 
-Open the fragment's **Configuration** dialog to configure the fragment for use on the current page. The dialog can depend on the component used.
+Open the fragment's **[!UICONTROL Configuration]** dialog to configure the fragment for use on the current page. The dialog can depend on the component used.
 
 In the appropriate configuration dialog you can select the available parameters, including:
 
-* **Content Fragment**
+* **[!UICONTROL Content Fragment]**
 
   Specify the fragment to be used.
 
-* **Display Mode**:
+* **[!UICONTROL Display Mode]**:
 
-    * **Single Text Element** 
-    * **Multiple Element**
+    * **[!UICONTROL Single Text Element]** 
+    * **[!UICONTROL Multiple Element]**
 
-* **Element**
+* **[!UICONTROL Element]**
 
-    * The default **Main** will always be available.
+    * The default **[!UICONTROL Main]** will always be available.
     * A selection will be available if the fragment was created with an appropriate template.
 
   >[!NOTE]
   >
   >The elements available depend on the template used.
 
-* 
-  **Variation**
+* **[!UICONTROL Variation]**
 
-    * The default **Master** will always be available.
+    * The default **[!UICONTROL Master]** will always be available.
     * A selection will be available if variations were created for the fragment.
 
-* **Paragraphs**: specify the range of paragraph(s) to include:
+* **[!UICONTROL Paragraphs]**: specify the range of paragraph(s) to include:
 
-    * **All**
-    * **Range**: for example, `1`, `3-5`, `9-*`
+    * **[!UICONTROL All]**
+    * **[!UICONTROL Range]**: for example, `1`, `3-5`, `9-*`
 
-        * **Handle headings as their own paragraphs**
+        * **[!UICONTROL Handle headings as their own paragraphs]**
 
-* **Handle headings as their own paragraphs**
+* **[!UICONTROL Handle headings as their own paragraphs]**
 
 ## Quick Connection to Fragment Editor {#quick-connection-to-fragment-editor}
 
-You can open the fragment source for editing (the asset) using the **Edit** icon on the component toolbar. This will allow you to [edit and manage the content fragment](/help/assets/content-fragments.md).
+You can open the fragment source for editing (the asset) using the **[!UICONTROL Edit]** icon on the component toolbar. This will allow you to [edit and manage the content fragment](/help/assets/content-fragments.md).
 
 >[!CAUTION]
 >
@@ -137,7 +136,7 @@ You can open the fragment source for editing (the asset) using the **Edit** icon
 
 ## Adding In-Between Content {#adding-in-between-content}
 
-When a specific content fragment is added to the page, there is a **Drag components here** placeholder between each HTML paragraph (and at the top/bottom) of the fragment.
+When a specific content fragment is added to the page, there is a **[!UICONTROL Drag components here]** placeholder between each HTML paragraph (and at the top/bottom) of the fragment.
 
 This allows you to add extra content [in-between (i.e. in-between content)](/help/assets/content-fragments.md#in-between-content-when-page-authoring-with-content-fragments) the fragment content (at any of the available points), without having to change the root fragment.
 
@@ -180,9 +179,9 @@ If you have [associated content](/help/assets/content-fragments-assoc-content.md
 
 >[!NOTE]
 >
->If you have multiple content fragments on the one page, the **Associated Content** tab will show assets appropriate to all fragments.
+>If you have multiple content fragments on the one page, the **[!UICONTROL Associated Content]** tab will show assets appropriate to all fragments.
 
-Once you have added a fragment with associated content to your page a new tab (**Associated Content**) is opened in the side panel.
+Once you have added a fragment with associated content to your page a new tab (**[!UICONTROL Associated Content]**) is opened in the side panel.
 
 From here you can drag the assets to the required location (either to an existing component or to the required position where the appropriate component will be created):
 

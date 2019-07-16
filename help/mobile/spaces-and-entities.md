@@ -69,7 +69,7 @@ You can view properties of the space, delete the space, or publish the space and
 
 >[!NOTE]
 >
->You can **Unpublish **a Space, which removes the space from the publish instance.
+>You can **Unpublish** a Space, which removes the space from the publish instance.
 >
 >The following image illustrates the actions that can be performed, after you publish the space.
 
@@ -89,7 +89,7 @@ Spaces can include folders to help further organize space's content and assets. 
 
    ![chlimage_1-88](assets/chlimage_1-88.png)
 
-1. Click **Create **to create the folder in a space
+1. Click **Create** to create the folder in a space
 
 ## Language Copy {#language-copy}
 
@@ -168,7 +168,7 @@ If entity children, which are other entities, are gathered for data modeling, th
    >
    >See [Creating a Model](/help/mobile/administer-mobile-apps.md), to create your custom entity.
 
-1. Enter a **Title**,** Name**, **Description**, and** Tags** for the entity. Click **Create**.
+1. Enter a **Title**, **Name**, **Description**, and **Tags** for the entity. Click **Create**.
 
    ![chlimage_1-94](assets/chlimage_1-94.png)
 
@@ -218,7 +218,7 @@ If entity children, which are other entities, are gathered for data modeling, th
 
    ![chlimage_1-102](assets/chlimage_1-102.png)
 
-   You can edit the title, description, tags and add the assets to your entity. 
+   You can edit the title, description, tags and add the assets to your entity.
 
    ![chlimage_1-103](assets/chlimage_1-103.png)
 
@@ -241,4 +241,3 @@ You have the option of choosing **Publish Tree** or **Quick Publish** to publish
    **Or**,
 
    Click **Quick Publish** to publish that specific entity.
-

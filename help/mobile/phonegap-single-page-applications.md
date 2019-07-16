@@ -62,7 +62,7 @@ For a more complex controller example, open up the ng-template-page controller.j
         var sku = $routeParams.id;
         var productPath = '/' + sku.substring(0, 2) + '/' + sku.substring(0, 4) + '/' + sku;
         var data = $http.get('home/products' + productPath + '.angular.json' + cacheKiller);
- 
+
         /* ng-product component controller (path: content-par/ng-product) */
         data.then(function(response) {
             $scope.contentparngproduct = response.data["content-par/ng-product"].items;
