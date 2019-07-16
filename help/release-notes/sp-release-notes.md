@@ -258,7 +258,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 ## Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
 
-<details> 
+<details>
  <summary>AEM 6.4.4.0</summary> 
 <p>AEM 6.4.4.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in <strong>April 2018.</strong></p> 
  <p>It is also cumulative which means that 6.4.4.0 includes all AEM 6.4 service packs release before it.</p> 
