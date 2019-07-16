@@ -822,11 +822,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
      ui 
    </g> to 1.12.1</li> 
   <li>Introduced <tt>foundation- 
-    <g class="gr_ gr_59 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="59" id="59">
-      workflowstatus 
-    </g></tt>
-     component 
-   </g>.</li> 
+    <g>workflowstatus component</g></tt></li> 
   <li>Updated GCC to 
    <g class="gr_ gr_60 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" data-gr-id="60" id="60">
      latest 
@@ -1626,7 +1622,6 @@ Some of the key highlights of AEM 6.4.5.0 are:
 >
 >For successful installation of AEM 6.4.5.0 on the instance, it is strongly recommended to upgrade the version of com.adobe.granite.oak.s3connector to 1.8.3 for the customers who are on the older version of s3 connector.
 >The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html](https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html).
-
 >Download the latest version of com.adobe.granite.oak.s3connector from: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/)
 
 >[!CAUTION]
@@ -1647,8 +1642,9 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 Perform the following steps to install the Service Pack on an existing AEM 6.4 instance:
 
-1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.5.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.5.0).  
-   (search for "AEM-6.4.5.0" to find it)  
+1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.5.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.5.0).
+
+   (search for "AEM-6.4.5.0" to find it) 
 1. Install the downloaded package using Package Manager.
 
 >[!NOTE]
