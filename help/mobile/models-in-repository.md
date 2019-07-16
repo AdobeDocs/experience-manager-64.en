@@ -78,7 +78,7 @@ You can start creating models once all the desired model types and data types ha
 
 Creating a model consists of picking an allowed model type based on the current configuration and then providing a title and description.
 
-To learn about creating and managing a model from the dashboard, see [Creating a Model](/help/mobile/working-with-a-model.md) under authoring section for Mobile Apps.
+To learn about creating and managing a model from the dashboard, see [Creating a Model](/help/mobile/administer-mobile-apps.md) under authoring section for Mobile Apps.
 
 ### Properties of a Model {#properties-of-a-model}
 
@@ -109,7 +109,7 @@ When the scaffolding for the model is located the model editor will render whate
 >
 >All models are Templates, so they follow all AEM Templating rules. This allows using properties such as *allowedParents*and *allowedChildren* properties. These are effective while creating new Entities based on a model. The template rules will ensure entities can only be based on certain models depending on their hierarchy.
 >
->To learn about editing a model from the dashboard, see [Creating a Model](/help/mobile/working-with-a-model.md) under authoring section for Mobile Apps.
+>To learn about editing a model from the dashboard, see [Creating a Model](/help/mobile/administer-mobile-apps.md) under authoring section for Mobile Apps.
 
 ### System Models {#system-models}
 
@@ -129,5 +129,4 @@ Asset List: List of paths from Assets. Each asset will added as a child entity n
 
 >[!NOTE]
 >
->To learn more about using these templates for creating models from the dashboard, see [Creating a Model](/help/mobile/working-with-a-model.md) under authoring section for Mobile Apps.
-
+>To learn more about using these templates for creating models from the dashboard, see [Creating a Model](/help/mobile/administer-mobile-apps.md) under authoring section for Mobile Apps.

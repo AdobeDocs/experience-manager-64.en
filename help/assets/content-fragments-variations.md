@@ -350,20 +350,22 @@ When editing a variation you have access to the action for synchronizing the cur
 >
 >Only the current element of the variation will be synchronized.
 >
+>Synchronization only works on the **Multi line text** data-type.
+>
 >Transferring changes *from a variation to **Master*** is not available as an option.
 
 1. Open your content fragment in the fragment editor. Ensure that the **Master** has been edited.
-1. Select a specific variation, then the appropriate synchronization action from either:
+2. Select a specific variation, then the appropriate synchronization action from either:
 
     * the **Actions** drop down selector - **Select current element with master** 
     * the toolbar of the full-screen editor - **Sync with master**
 
-1. Master and the variation will be shown side-by-side:
+3. Master and the variation will be shown side-by-side:
 
     * green indicates content added (to the variation)
     * red indicates content removed (from the variation)
 
    ![cfm-6420-27](assets/cfm-6420-27.png)
 
-1. Select **[!UICONTROL Synchronize]**, the variation will updated and shown.
+4. Select **[!UICONTROL Synchronize]**, the variation will updated and shown.
 

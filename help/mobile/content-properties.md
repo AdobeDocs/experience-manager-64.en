@@ -48,7 +48,6 @@ The following tables describe the content properties and nodes.
 |dps-internalKeywords|String[]||
 |dps-importance|String[]|Importance from {"low", "normal", "high"}|
 
-
 ### Articles {#articles}
 
 | **Property Name** |**Type** |**Defaults or Expected Values** |
@@ -107,4 +106,3 @@ The following tables describe the content properties and nodes.
 |Node Name|Type|Defaults of Expected Values|Description|
 |--- |--- |--- |--- |
 |background-image|jcr:primaryType=nt:unstructured <br> sling:resourceType=foundation/components/image|||
-
