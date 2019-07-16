@@ -56,4 +56,3 @@ See [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/
 >[!NOTE]
 >
 >Using hybrid mobile technologies, you can create rich mobile applications that *run offline and online* with AEM Mobile in fact, many customers choose to create apps that check for when they're online or offline and behave accordingly.
-
