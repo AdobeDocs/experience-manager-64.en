@@ -1798,7 +1798,7 @@ List of Content Packages included in AEM 6.4.5.0
 
 ## Helpful resources {#helpful-resources}
 
-* [AEM 6.4 release notes](/help/release-notes/release-notes.md)
+* [AEM 6.4 release notes](../release-notes/release-notes.md)
 * [AEM product page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM developer support](https://docs.adobe.com/content/ddc/en.html)
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
