@@ -851,7 +851,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
   <li>Publish later functionality for AEM to Brand Portal replication. NPR-25911: Hotfix for CQ-109139</li> 
   <li>Publishing and un-publishing the private collection by non-admin users results in a NPE. NPR-25906: Hotfix for CQ-4250594</li> 
   <li>Disable publish of content fragment and forms schemas to Brand Portal. NPR-24176, NPR-26004: Hotfix for CQ-4251592, CQ-4252026</li> 
-  <li>[Dynamic Media] Updated DM viewers to 5.10.1 release which enables check for duplicate names on Image Preset page. Refer to Update Dynamic Media Viewers (5.10.1)</a>. NPR-24403: Hotfix for CQ-4247554</li> 
+  <li>[Dynamic Media] Updated DM viewers to 5.10.1 release which enables check for duplicate names on Image Preset page. Refer to <a href="#Dynamic">Update Dynamic Media Viewers (5.10.1)</a>. NPR-24403: Hotfix for CQ-4247554</li> 
   <li>Javascript error in browser console in column view on selecting an asset or folder. NPR-25939: Hotfix for CQ-4250228</li> 
   <li>[Column view] Unable to identify tasks as the key file shows up as blank white entry. NPR-25903: Hotfix for CQ-4246307</li> 
  </ul> 
@@ -1682,7 +1682,7 @@ To determine the certified platform for running with this release of AEM Sites a
 
 ### Update Dynamic Media Viewers (5.10.1) {#update-dynamic-media-viewers}
 
-AEM 6.4.5.0 contains new version of Dynamic Media viewers (5.10.1) which enables check for duplicate names on Image Preset page. Dynamic Media customers are advised to run the following command to bring out of the box viewer presets to an up-to-date state.
+<p id="Dynamic">AEM 6.4.5.0 contains new version of Dynamic Media viewers (5.10.1) which enables check for duplicate names on Image Preset page. Dynamic Media customers are advised to run the following command to bring out of the box viewer presets to an up-to-date state.</p>
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
 
