@@ -821,8 +821,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
    <g class="gr_ gr_58 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="58" id="58">
      ui 
    </g> to 1.12.1</li> 
-  <li>Introduced <tt>foundation- 
-    <g>workflowstatus component</g></tt></li> 
+  <li>Introduced foundation-workflowstatus component</li> 
   <li>Updated GCC to 
    <g class="gr_ gr_60 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" data-gr-id="60" id="60">
      latest 
