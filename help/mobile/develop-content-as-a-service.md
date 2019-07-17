@@ -22,7 +22,7 @@ This includes using assets, site content, CaaS content (over-the-air) content, a
 
 >[!NOTE]
 >
->**Over-the-Air Content **can come from any of the above via ContentSync handlers. It can be used to batch package and delivery via zips as well as maintain updates or those packages.
+>**Over-the-Air Content** can come from any of the above via ContentSync handlers. It can be used to batch package and delivery via zips as well as maintain updates or those packages.
 
 There are three main types of material that Content Services deliver:
 
