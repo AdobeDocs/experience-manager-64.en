@@ -30,7 +30,7 @@ AEM integrates with the Adobe **[PhoneGap Build service](https://build.phonegap.
 
 **Adobe ContentSync** enables users to easily download page and content updates Over-the-Air (OTA) to their devices without having to re-install the application or download from the appStore, Google Play, or other app sources.
 
-**Adobe Analytics **is fully integrated into AEM apps and allows detailed tracking of distribution, geolocation, operating systems, devices, click-streams, iBeacon tracking and more.
+**Adobe Analytics** is fully integrated into AEM apps and allows detailed tracking of distribution, geolocation, operating systems, devices, click-streams, iBeacon tracking and more.
 
 ## Creating Apps {#creating-apps}
 
@@ -41,7 +41,7 @@ The readme for the Starter Kit Git repository includes a tutorial for using the 
 * Customize the branding
 * Maven sample build and deployment targets
 * Source control repository configuration
-* Install and deploy into local or remote AEM instances 
+* Install and deploy into local or remote AEM instances
 * Uninstall from AEM
 
 >[!NOTE]
@@ -52,16 +52,18 @@ The readme for the Starter Kit Git repository includes a tutorial for using the 
 
 IOS developers should be aware of an open issue with Cordova apps running on iOS 9. This issue prevents requests from being made to insecure hosts (such as *http://localhost:4502*). This issue will be resolved with an upcoming release of cordova-ios (consumed by the Cordova CLI), but in the meantime there are two workarounds available:
 
-1. As an immediate workaround, you can still use any of the iOS 8.&ast; simulators without issue. 
+1. As an immediate workaround, you can still use any of the iOS 8 simulators without issue.
 1. If you must use iOS 9, your apps -Info.plist (found after running `cordova platform add ios` in “&lt;app root&gt;/platforms/ios/&lt;app name&gt;/&lt;app name&gt;-Info.plist”) file can be manually edited to include the following property:
 
-*&lt;key&gt;NSAppTransportSecurity&lt;/key&gt; *
+```
+<key>NSAppTransportSecurity</key>
 
-*&lt;dict&gt;*
+<dict>
 
-*&lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt; &lt;true/&gt; *
+<key>NSAllowsArbitraryLoads</key> <true/>
 
-*&lt;/dict*&gt;
+</dict>
+```
 
 >[!NOTE]
 >
@@ -89,4 +91,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 
 * [Authoring for Adobe PhoneGap Enterprise with AEM](/help/mobile/phonegap.md)
 * [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/administer-phonegap.md)
-

@@ -602,6 +602,24 @@ If you upload numerous assets, I/O calls to the AEM server increases drastically
 
 Streaming upload is disabled for AEM running on JEE server with servlet-api version less than 3.1.
 
+### Extract ZIP archive containing assets {#extract-zip-archive-containing-assets}
+
+You can upload ZIP archives just like any other supported asset. The same file name rules apply to ZIP files. AEM allows you to extract a ZIP archive to a DAM location.
+
+Select one ZIP archive at a time, click **[!UICONTROL Extract Archive]**, and select a destination folder. Select an option to handle conflicts, if any. If the assets in the ZIP file already exist in the destination folder, you can select one of these options: skip extraction, replace existing files, keep both assets by renaming, or create new version.
+
+After the extraction is complete, AEM notifies you in the notification area. While AEM extracts the ZIP, you can go back to your work without interuppting the extraction.
+
+![Notification of ZIP extraction](assets/zip_extract_notification.png)
+
+Some limitations of the feature are:
+
+* If a folder by the same name exists at the destination, the assets from the ZIP file are extracted in the existing folder.
+
+* If you cancel the extraction, the already extracted assets are not deleted.
+
+* You cannot select two ZIP files at the same time and extract them. You can only extract one ZIP archive at a time.
+
 ## Previewing assets {#previewing-assets}
 
 See also [Previewing Dynamic Media Assets.](previewing-assets.md)
