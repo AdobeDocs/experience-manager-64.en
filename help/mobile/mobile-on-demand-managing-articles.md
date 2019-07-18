@@ -76,7 +76,7 @@ Use the built in AEM drag and drop editor to add or change an article. Component
 The workflow to edit an article:
 
 1. From Mobile, choose your Mobile On-Demand app from the catalog.
-1. Select an AEM sourced article from the** Manage Articles** tile.
+1. Select an AEM sourced article from the **Manage Articles** tile.
 1. Click the highlighted article from the list view to open it in the content editor.
 1. Use the content editor to drag article content (manuscripts, images, text, etc).
 
@@ -133,8 +133,3 @@ One you learn about managing articles, see
 * [Uploading Shared Resources](/help/mobile/mobile-on-demand-shared-resources.md)
 * [Publishing/Unpublishing the Content](/help/mobile/mobile-on-demand-publishing-unpublishing.md)
 * [Previewing with Preflight](/help/mobile/aem-mobile-manage-ondemand-services.md)
-
-1.
-
-1.
-
