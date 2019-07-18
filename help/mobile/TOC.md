@@ -51,7 +51,6 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Managing Collections](mobile-on-demand-managing-collections.md) 
 + Authoring Adobe PhoneGap Enterprise {#author-phonegap}
   + [PhoneGap](phonegap.md)
-  + [Import an existing hybrid app](phonegap-import-hybrid-app.md)
   + [Editing App Metadata](phonegap-editmetadata.md)
   + [App definitions](phonegap-app-definitions.md)
   + [Creating and Managing App Content](phonegap-manage-app-content.md)
