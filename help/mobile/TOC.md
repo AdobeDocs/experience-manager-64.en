@@ -120,7 +120,6 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Creating and Adding Templates and Components](mobile-ondemand-app-templates.md)
   + [Access Device Features](phonegap-access-device-features.md)
   + [Add Adobe Analytics to your Mobile Application](phonegap-add-analytics-to-apps.md)
-  + [PhoneGap](phonegap.md)
   + [Push Notifications](phonegap-push-notifications.md)
   + [Track App Performance with Adobe Mobile Analytics](phonegap-intro-to-app-analytics.md)
   + [Creating Article Export Configuration](creating-article-export-configuration.md)
