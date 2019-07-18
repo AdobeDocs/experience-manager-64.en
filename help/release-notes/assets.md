@@ -17,13 +17,13 @@ The key features, highlights, and enhancements done in AEM 6.4 Assets are covere
 
 ## Adobe Asset Link {#adobe-asset-link}
 
-Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise, providing a connection to AEM Assets directly from Photoshop, Illustrator, and InDesign — without leaving their tools of choice.  
+Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise, providing a connection to AEM Assets directly from Adobe Photoshop, Adobe Illustrator, or Adobe InDesign — without leaving these tools.  
 
 To learn more about the capability, prerequisites, and how to access it, see the [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) page.  
 
 ## Enhanced Smart Tags (powered by Adobe Sensei) {#enhanced-smart-tags-powered-by-adobe-sensei}
 
-AEM 6.4 introduces Artificial Intelligence based Enhanced Smart Tags capability in addition to Smart Tags that was launched in 6.3.
+AEM 6.4 introduces artificial intelligence based Enhanced Smart Tags capability in addition to Smart Tags that was launched in AEM 6.3.
 
 * Smart Content Service learns customer's business taxonomy and uses it to automatically tag digital assets with customer relevant tags in addition to generic tags. It improves asset discoverability significantly and reduces time to market.
 * Adobe Sensei powers the Smart Content Service, which enables you to train the image recognition algorithm on your business taxonomy. This content intelligence is then used to apply relevant tags on similar assets.
@@ -34,15 +34,15 @@ To use AEM Assets Enhanced Smart Tags, install the [latest service pack of AEM 6
 
 AEM 6.4 introduces Smart Translation Search capability to support multilingual search scenarios. Customers with globally distributed teams across multiple locales now have access to search in different languages without having to go through costly and time-consuming translation workflows.
 
-* Search query is translated without manual intervention.
-* Has support for Smart Tags, which are generated in English, but are machine translated to others language.
+* Search query is translated without amy manual intervention.
+* Smart Tags are generated in English and are machine-translated to others languages.
 * Multilingual search is built using open source library Apache Joshua that supports more than 50 languages.
 
 ## User Experience {#user-experience}
 
-AEM 6.4 delivers significant user experience improvements in areas of browse, search, multi page assets and admin tools. Details below:
+AEM 6.4 delivers significant user experience improvements in areas of browse, search, multi-page assets and administration tools. Details below:
 
-Browse Improvements
+Browse improvements
 
 * New Content Tree rail to quickly navigate an asset hierarchy. In combination with the list view, this restores the Classic UI interaction model to browse asset hierarchies.
 * New Keyboard Shortcuts such as (m) for Move operation, (p) for navigation to properties page, (ctrl+c) for copy operation and many more.
@@ -50,25 +50,25 @@ Browse Improvements
 * Improved Card View with support for different sized cards based on view setting.
 * Improved asset detail experience with ability to view, navigate to “previous” or "next" asset along with number of assets, current asset.
 
-Search Improvements
+Search improvements
 
 * New Search back button with ability to navigate to a search item and come back to same position in search results without running the search query again.
 * New Search results count to display number of search results.
 * Improved File Type Search Filter with ability to filter search results based on fine grained mime types such as .jpg, .png, and .psd compared to earlier Image, Document, Multimedia options.
 * Improved search filters with accurate time stamps instead of previous time slider functionality.
 
-Multi-Page Assets Improvements
+Multi-page assets improvements
 
 * Improved multi page assets browsing experience with reduced number of clicks.
 * Improved comments and annotations support with all of them collated at asset level rather than page level.
 
-Admin Tools Improvements
+Admin tools improvements
 
 * Improved Property picker in Admin tools for Metadata, Search and Reports with Type ahead and browsing capability to simplify admin experience.
 
 Catalogs
 
-* Improved user experience, alignement with Templates UI. For more information, see [Catalog Producer](../sites-administering/catalog-producer.md).
+* Improved user experience, alignement with Templates user interface. For more information, see [Catalog Producer](../sites-administering/catalog-producer.md).
 
 ## Metadata {#metadata}
 
@@ -80,10 +80,10 @@ AEM 6.4 includes multiple advanced metadata management capabilities to manage me
 
 ## Reports {#reports}
 
-AEM 6.4 delivers significant Asset Reporting enhancements:
+AEM 6.4 delivers significant Asset reporting enhancements:
 
 * New enterprise-level, scalable (for large repositories) reports framework applying Sling jobs for asynchronously processing report requests. You can schedule report at a specific date and time. You can also add custom columns to a report.
-* New OOTB reports most commonly asked by customers such as Disk Usage, Files, Link Shares, Publish to Brand Portal, Smart Tags Training.
+* New OOTB reports most commonly asked by customers such as Disk Usage, Files, Link Shares, Publish to Brand Portal, and Smart Tags Training.
 * New Reports creation and management UI with fine grained options, ability to access archived reports, see report run status (success, failed, queued, and so on).
 
 ## Brand Portal {#brand-portal}
@@ -97,16 +97,16 @@ AEM 6.4 delivers significant Asset Reporting enhancements:
 * **Reporting improvements**: Three OOTB reports are available: downloads, publish and link-shares.
 * **DRM-based restrictions**: After a licensed asset expires, it is no longer available for download from Brand Portal.
 
-## AEM Desktop App {#aem-desktop-app}
+## AEM desktop app {#aem-desktop-app}
 
-AEM Desktop App has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM Desktop App is provided in a dedicated [AEM Desktop App release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.  
-Here is a list of AEM Desktop App highlights added since AEM 6.3 was released:
+AEM Desktop App has been updated to version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM Desktop App release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.  
+Here is a list of AEM desktop app highlights since AEM 6.3 was released:
 
 * Ability to upload hierarchical folders in the background.
 * UI to monitor asset uploads in the background.
 * Caching improvements, including a UI to manage caching parameters.
 * Broader support for AEM authentication configurations (SAML/SSO) and network proxy.
-* Supportability: easy access to logs from a UI.
+* Supportability: easy access to logs from user interface.
 * Improved stability and fixes for customer issues.
 
 For easier access to the documentation and best practices, the following documentation is available:
@@ -154,7 +154,7 @@ See also [Adding Dynamic Media Assets to Pages](../assets/adding-dynamic-media-a
 
 See [Smart Imaging](../assets/imaging-faq.md) documentation to learn more.
 
-### Emerging Media &amp; Viewer Enhancements {#emerging-media-amp-viewer-enhancements}
+### Emerging Media and Viewer Enhancements {#emerging-media-amp-viewer-enhancements}
 
 * New viewers are supported, providing better, immersive experiences for the user.
 * Panoramic Viewer helps engage the user and provide ability to better experience room scenes, properites, locations, and landscapes. See [Panoramic Images](../assets/panoramic-images.md) documentation to learn.  
@@ -163,6 +163,6 @@ See [Smart Imaging](../assets/imaging-faq.md) documentation to learn more.
 * Vertical Image Viewer optimized for product imagery.
 * Keyboard accessibility improvements.
 
-### 3D and Integration with Dimension CC {#d-and-integration-with-dimension-cc}
+### 3D and integration with Dimension CC {#d-and-integration-with-dimension-cc}
 
 Integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted. To learn more, see [Working with 3D assets](../assets/assets-3d.md) documentation.
