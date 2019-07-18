@@ -104,7 +104,6 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Developing Mobile Applications in AEM](developing-mobile-applications.md)
   + [Managing Collections](mobile-on-demand-managing-collections.md)
   + [Managing Articles](mobile-on-demand-managing-articles.md)
-  + [Import an existing hybrid app](phonegap-import-hybrid-app.md)
   + [AEM Mobile content personalization](phonegap-aem-mobile-content-personalization.md)
   + [Page Templates for Mobile Apps](phonegap-apps-arch-page-templates.md)
   + [Structure an App](phonegap-structure-an-app.md)
