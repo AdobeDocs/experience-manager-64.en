@@ -29,7 +29,7 @@ App definitions are a way to identify what spaces and other configurations are a
 
    ![chlimage_1-170](assets/chlimage_1-170.png)
 
-1. Choose **Apps** from **Mobile **and click **Create.**
+1. Choose **Apps** from **Mobile** and click **Create.**
 
    Choose **App** to and enter details to create your your new app.
 

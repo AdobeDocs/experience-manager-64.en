@@ -54,7 +54,7 @@ To specify the content of the Content Sync ZIP file, add child nodes to the cq:C
 * `path`: The location of the content.
 * `type`: The name of the configuration type to use for processing the content. Several types are available and are described in section *Configuration Types*.
 
-See *Example Content Sync Configuration *for more information.  
+See *Example Content Sync Configuration* for more information.  
 
 After you create the Content Sync configuration, it appears in the Content Sync console.  
 
@@ -113,7 +113,7 @@ Processing can range from rendering simple JSON to fully fledged rendering of pa
 
 * **path** - If the path points to a single file, only the file is copied. If it points to a folder (this includes page nodes), all files and folders below will be copied.
 
-**content** Render content using standard Sling request processing.
+**content** Render content using standard [Sling request processing](/help/sites-developing/the-basics.md#sling-request-processing).
 
 * **path** - Path to resource that should be output.
 * **extension** - Extension that should be used in the request. Common examples are *html* and *json*, but any other extension is possible.
@@ -211,7 +211,7 @@ The listing below shows an example configuration for Content Sync.
 
 **etc.designs.default and etc.designs.mobile** The first two entries of the configuration should be quite obvious. As we are going to include a number of mobile pages, we need the related design files below /etc/designs. And since there is no extra processing required, copy is sufficient.
 
-**events.plist** This entry is a bit special. As mentioned in the introduction, the application should provide a map view with markers of the events' locations. We are going to provide the necessary location information as a separate file in PLIST format. For this to work, the event list component that is used on the index page, has a script called plist.jsp. This script is executed when the component's resource is requested with the .plist extension. As usual, the components path is given in the path property and the type is set to content, because we want to leverage Sling request processing.
+**events.plist** This entry is a bit special. As mentioned in the introduction, the application should provide a map view with markers of the events' locations. We are going to provide the necessary location information as a separate file in PLIST format. For this to work, the event list component that is used on the index page, has a script called plist.jsp. This script is executed when the component's resource is requested with the .plist extension. As usual, the components path is given in the path property and the type is set to content, because we want to leverage [Sling request processing](/help/sites-developing/the-basics.md#sling-request-processing).
 
 **events.touch.html** Next comes the actual pages that will be shown in the app. The path property is set to the events' root page. All event pages below that page will also be included, because the deep property defaults to true. We use pages as configuration type, so that any images or other files that may be referenced from an image or download component on a page, will be included. In addition, setting the touch selector gives us a mobile version of the pages. The configuration in the feature pack contains more entries of this kind, but they are left out for simplicity here.
 
