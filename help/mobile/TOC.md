@@ -14,6 +14,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Mobile-Apps](mobile-apps.md)
   + [Mobile Apps](develop-mobile-apps.md)
   + [AEM Adobe PhoneGap](getting-started-aem-mobile-phonegap.md)
+  + [AEM Mobile - GDPR Readiness](aem-mobile-gdpr-compliance.md)
 + Authoring On-Demand Services App {#authoring}
   + [Mobile On-Demand](mobile-apps-ondemand.md)
   + [Managing Content](mobile-apps-ondemand-manage-content-ondemand.md)
@@ -24,8 +25,10 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Uploading Shared Resources](mobile-on-demand-shared-resources.md)
   + [Cloud Configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
   + [Managing Banners](mobile-on-demand-managing-banners.md)  
+  + [Managing Content](mobile-apps-ondemand-manage-content-ondemand.md)
 + Developing On-Demand Services App {#developing}
   + [App Templates and Components](app-templates-and-components1.md)
+  + [AEM Mobile On-Demand](aem-mobile-on-demand.md)
   + [Content Properties and Nodes](content-properties.md)
   + [Creating Shared Resources Export Configuration](creating-shared-resources-export-configuration.md)
   + [Best Practices](best-practices-aem-mobile.md)
@@ -33,6 +36,10 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Mobile with Content Sync](mobile-ondemand-contentsync.md)
   + [Page Templates for Mobile Apps](apps-architecture.md)
   + [Using Content Properties to Export Content](on-demand-content-properties-exporting.md)  
+  + [Using Content Properties to Export Content](on-demand-content-properties-exporting.md)
+  + [Page Templates for Mobile Apps](apps-architecture.md)
+  + [Content Services](developing-content-services.md)
+  + [Content Delivery](develop-content-as-a-service.md)
 + Administering On-Demand Services App {#administering}
   + [AEM Mobile On-Demand](aem-mobile.md)
   + [AEM Mobile SetUp](aem-mobile-setup.md)
@@ -41,7 +48,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Mobile Apps](administer-mobile-apps.md)
   + [Models Overview](model-management.md)
   + [Spaces and Entities](spaces-and-entities.md)
-  + [Managing Collections](mobile-on-demand-managing-collections.md)  
+  + [Managing Collections](mobile-on-demand-managing-collections.md) 
 + Authoring Adobe PhoneGap Enterprise {#author-phonegap}
   + [PhoneGap](phonegap.md)
   + [Import an existing hybrid app](phonegap-import-hybrid-app.md)
@@ -52,6 +59,8 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Authoring Mobile Applications](phonegap-authoring-apps.md)
   + [Manage App Tile](phonegap-app-details-tile.md)
   + [AEM Mobile content personalization](phonegap-aem-mobile-content-personalization.md)  
+  + [Manage App Tile](phonegap-app-details-tile.md)
+  + [Authoring Mobile Applications](phonegap-authoring-apps.md)
 + Developing Adobe PhoneGap Enterprise {#developphonegap}
   + [PhoneGap](developing-in-phonegap.md)
   + [Building Mobile Applications](building-app-mobile-phonegap.md)
@@ -59,16 +68,25 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Developing Mobile Applications in AEM](developing-mobile-applications.md)
   + [Mobile with Content Sync](phonegap-contentsync.md)
   + [The Anatomy of an App](phonegap-apps-arch.md)
+  + [Developing Apps with PhoneGap CLI](phonegap-apps-pg-cli.md)
   + [Out of the Box App Handlers](contentsync-app-handlers.md)  
   + [Creating and Editing Apps Using the Apps Console](phonegap-apps-console.md)
   + [Is your hybrid app ready for AEM Mobile?](phonegap-adding-content-to-imported-app.md)
   + [Developing Apps with PhoneGap CLI](phonegap-apps-pg-cli.md)
   + [Access Device Features](phonegap-access-device-features.md)
   + [Add Adobe Analytics to your Mobile Application](phonegap-add-analytics-to-apps.md)
+  + [Access Device Features](phonegap-access-device-features.md)
   + [Page Templates for Mobile Apps](phonegap-apps-arch-page-templates.md)
+  + [Configuring Adobe Target Cloud Service](aem-mobile-configuring-cloud-service.md)
   + [Single Page Applications](phonegap-single-page-applications.md)
+  + [Models in Repository](models-in-repository.md)
+  + [Rendering and Delivery](rendering-and-delivery.md)
+  + [Creating and Adding Templates and Components](mobile-ondemand-app-templates.md)
+  + [Add Adobe Analytics to your Mobile Application](phonegap-add-analytics-to-apps.md)
   + [Starting AEM PhoneGap](starting-aem-phonegap-app.md)
-  + [Testing Mobile Apps](develop-mobile-apps-testing.md)  
+  + [Testing Mobile Apps](develop-mobile-apps-testing.md)
+  + [Structure an App](phonegap-structure-an-app.md)
+  + [Track App Performance with Adobe Mobile Analytics](phonegap-intro-to-app-analytics.md)
 + Administering Adobe PhoneGap Enterprise {#administering-phonegap}
   + [Mobile Quickstart](phonegap-mobile-quickstart.md)
   + [Administering Content for Adobe PhoneGap Enterprise with AEM](administer-phonegap.md)
@@ -138,3 +156,4 @@ commented out [Cloud Configuration](mobile-on-demand-associating-an-On-Demand-ap
 
 -->
   
+
