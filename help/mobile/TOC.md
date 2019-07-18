@@ -142,16 +142,3 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
   + [App definitions](phonegap-app-definitions.md)
   + [AEM Mobile On-Demand](getting-started-aem-mobile-on-demand.md)
-<!--
-
-we deleted these two above due to bug workaround 
-
-third item under Authoring On-Demand Services App {#authoring}
-commented out [Cloud Configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
-
-below [Configure your Adobe PhoneGap Build Cloud Service](configure-phonegap-build-cloud.md)
-commented out [Cloud Configuration](mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
-
--->
-  
-
