@@ -33,11 +33,11 @@ To get started with AEM Mobile set up, you need to:
 
 * **Generate the Device ID and Device Token**: Once you have received your API key, you can generate the device id and device token. Go to [https://aex.aemmobile.adobe.com](https://aex.aemmobile.adobe.com/) and do the following:
 
-    * Provide the API Key
-    * Login with an Adobe ID that you have added to an AEM Mobile project with following permissions (see below steps to create project)
+  * Provide the API Key
+  * Login with an Adobe ID that you have added to an AEM Mobile project with following permissions (see below steps to create project)
 
-        * Administration &gt; Manage Projects and Users
-        * Content &gt; Add & Edit Content, Delete Content, View Content, Publish Content
+    * Administration &gt; Manage Projects and Users
+    * Content &gt; Add & Edit Content, Delete Content, View Content, Publish Content
 
 If all conditions are met, a Device ID and Device Token will be generated.
 
@@ -76,17 +76,17 @@ You must complete the configuration steps in order for the AEM Mobile integratio
 
 1. Edit ***Experience Manager Mobile On-demand Services Client***
 
-    1. [**Mandatory**] Enter required fields:
+    1. **(Mandatory)** Enter required fields:
 
         1. Client ID.
         1. Client Secret.
 
-    1. [**Optional**] Edit existing values.
+    1. **(Optional)** Edit existing values.
 
 1. Save the changes.
 1. Here is an example configuration:
 
-![chlimage_1-53](assets/chlimage_1-53.png) 
+![chlimage_1-53](assets/chlimage_1-53.png)
 
 ### Configuring AEM Mobile On-Demand Services CloudService {#configuring-aem-mobile-on-demand-services-cloudservice}
 
@@ -94,14 +94,14 @@ You must complete the configuration steps in order for the AEM Mobile integratio
 
     1. AEM &gt; Tools &gt; Deployment&gt; [CloudServices](http://localhost:4502/libs/cq/core/content/tools/cloudservices.html). Scroll or search for ***Adobe Experience Manager Mobile On-demand Services***
 
-1. Select ***Configure now*** or ***Show Configurations*** and select the add new configuration icon 
+1. Select ***Configure now*** or ***Show Configurations*** and select the add new configuration icon
 
 1. Create a new configuration
 
-    1. Enter a Title and Name 
-    1. Enter Device Id 
+    1. Enter a Title and Name
+    1. Enter Device Id
     1. Enter Device Token
-    1. Select ***Test Device Configuration*** to validate entered values 
+    1. Select ***Test Device Configuration*** to validate entered values
     1. Select Ok
 
 ## Adding AEM Mobile User Roles and Assigning Permissions {#adding-aem-mobile-user-roles-and-assigning-permissions}
@@ -134,4 +134,3 @@ To understand more on the other two roles and responsibilities for creating an A
 >[!NOTE]
 >
 >To preview the app contents, including browse pages and articles, see [Previewing with Preflight](/help/mobile/aem-mobile-manage-ondemand-services.md).
-

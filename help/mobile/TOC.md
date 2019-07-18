@@ -14,13 +14,16 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Mobile-Apps](mobile-apps.md)
   + [Mobile Apps](develop-mobile-apps.md)
   + [AEM Adobe PhoneGap](getting-started-aem-mobile-phonegap.md)
-+ Authoring On-Demand Services App {#authoring} 
++ Authoring On-Demand Services App {#authoring}
   + [Mobile On-Demand](mobile-apps-ondemand.md)
   + [Managing Content](mobile-apps-ondemand-manage-content-ondemand.md)
   + [Publish UnPublish Content](mobile-on-demand-publishing-unpublishing.md)
   + [AEM Mobile Application Dashboard](mobile-apps-ondemand-application-dashboard.md)
   + [Application Create and Configuration Actions](mobile-apps-ondemand-application-create-configure-action.md)
   + [Managing Articles](mobile-on-demand-managing-articles.md)
+  + [Uploading Shared Resources](mobile-on-demand-shared-resources.md)
+  + [Cloud Configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
+  + [Managing Banners](mobile-on-demand-managing-banners.md)  
 + Developing On-Demand Services App {#developing}
   + [App Templates and Components](app-templates-and-components1.md)
   + [Content Properties and Nodes](content-properties.md)
@@ -29,12 +32,16 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Creating Article Export Configuration](creating-article-export-configuration.md)
   + [Mobile with Content Sync](mobile-ondemand-contentsync.md)
   + [Page Templates for Mobile Apps](apps-architecture.md)
+  + [Using Content Properties to Export Content](on-demand-content-properties-exporting.md)  
 + Administering On-Demand Services App {#administering}
   + [AEM Mobile On-Demand](aem-mobile.md)
   + [AEM Mobile SetUp](aem-mobile-setup.md)
   + [Configure Your Users and User Groups](aem-mobile-configure-users.md)
   + [Previewing with Preflight](aem-mobile-manage-ondemand-services.md)
   + [Mobile Apps](administer-mobile-apps.md)
+  + [Models Overview](model-management.md)
+  + [Spaces and Entities](spaces-and-entities.md)
+  + [Managing Collections](mobile-on-demand-managing-collections.md)  
 + Authoring Adobe PhoneGap Enterprise {#author-phonegap}
   + [PhoneGap](phonegap.md)
   + [Import an existing hybrid app](phonegap-import-hybrid-app.md)
@@ -44,6 +51,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Creating a new AEM Mobile app using create wizard](phonegap-create-new-app.md)
   + [Authoring Mobile Applications](phonegap-authoring-apps.md)
   + [Manage App Tile](phonegap-app-details-tile.md)
+  + [AEM Mobile content personalization](phonegap-aem-mobile-content-personalization.md)  
 + Developing Adobe PhoneGap Enterprise {#developphonegap}
   + [PhoneGap](developing-in-phonegap.md)
   + [Building Mobile Applications](building-app-mobile-phonegap.md)
@@ -57,6 +65,10 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Developing Apps with PhoneGap CLI](phonegap-apps-pg-cli.md)
   + [Access Device Features](phonegap-access-device-features.md)
   + [Add Adobe Analytics to your Mobile Application](phonegap-add-analytics-to-apps.md)
+  + [Page Templates for Mobile Apps](phonegap-apps-arch-page-templates.md)
+  + [Single Page Applications](phonegap-single-page-applications.md)
+  + [Starting AEM PhoneGap](starting-aem-phonegap-app.md)
+  + [Testing Mobile Apps](develop-mobile-apps-testing.md)  
 + Administering Adobe PhoneGap Enterprise {#administering-phonegap}
   + [Mobile Quickstart](phonegap-mobile-quickstart.md)
   + [Administering Content for Adobe PhoneGap Enterprise with AEM](administer-phonegap.md)
@@ -89,21 +101,31 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Spaces and Entities](spaces-and-entities.md)
   + [Setting Your Referrer Filter to Allow Empty](setting-referrer-filter-empty.md)
   + [Previewing with Preflight](aem-mobile-manage-ondemand-services.md)
+  + [PhoneGap](developing-in-phonegap.md)
+  + [Configure Your Users and User Groups](configure-users-groups.md)
+  + [Managing Articles](mobile-on-demand-managing-articles.md)
+  + [Configure your Adobe Mobile Services Cloud Service](configure-adobe-mobile-cloud-service.md)
+  + [Page Templates for Mobile Apps](apps-architecture.md)
+  + [Managing Content](mobile-apps-ondemand-manage-content-ondemand.md)
+  + [Mobile with Content Sync](mobile-ondemand-contentsync.md)
+  + [Structure an App](phonegap-structure-an-app.md)
+  + [AEM Mobile Application Dashboard](mobile-apps-ondemand-application-dashboard.md)
+  + [Creating and Adding Templates and Components](mobile-ondemand-app-templates.md)
+  + [Access Device Features](phonegap-access-device-features.md)
+  + [Add Adobe Analytics to your Mobile Application](phonegap-add-analytics-to-apps.md)
+  + [PhoneGap](phonegap.md)
   + [Push Notifications](phonegap-push-notifications.md)
   + [Track App Performance with Adobe Mobile Analytics](phonegap-intro-to-app-analytics.md)
-  + [Getting Started with AEM Mobile](getting-started-aem-mobile.md)
-  + [Uploading Shared Resources](mobile-on-demand-shared-resources.md)
   + [Creating Article Export Configuration](creating-article-export-configuration.md)
   + [Content Services](developing-content-services.md)
   + [The Anatomy of an App](phonegap-apps-arch.md)
   + [AEM Mobile On-Demand](aem-mobile-on-demand.md)
-  + [Content Properties and Nodes](content-properties.md)
-  + [Mobile On-Demand](mobile-apps-ondemand.md)
   + [Content Delivery](develop-content-as-a-service.md)
   + [Creating and Managing App Content](phonegap-manage-app-content.md)
 + Missing - should be either not linked to if removed or kept in TOC {#missing}
   + [mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
-
+  + [App definitions](phonegap-app-definitions.md)
+  + [AEM Mobile On-Demand](getting-started-aem-mobile-on-demand.md)
 <!--
 
 we deleted these two above due to bug workaround 
@@ -113,4 +135,6 @@ commented out [Cloud Configuration](mobile-on-demand-associating-an-on-demand-ap
 
 below [Configure your Adobe PhoneGap Build Cloud Service](configure-phonegap-build-cloud.md)
 commented out [Cloud Configuration](mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
+
 -->
+  

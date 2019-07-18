@@ -155,7 +155,7 @@ Once you have learnt about Managing App Tile in the application dashboard, see t
 * [Editing App Metadata](/help/mobile/phonegap-editmetadata.md)
 * [App Definitions](/help/mobile/phonegap-app-definitions.md)
 * [Creating a New App using Create App Wizard](/help/mobile/phonegap-create-new-app.md)
-* [Import an Existing Hybrid App](/help/mobile/phonegap-import-hybrid-app.md)
+* [Import an Existing Hybrid App](/help/mobile/phonegap-adding-content-to-imported-app.md)
 * [Content Services](/help/mobile/develop-content-as-a-service.md)
 
 ### Additional Resources {#additional-resources}
