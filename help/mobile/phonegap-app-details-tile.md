@@ -37,10 +37,12 @@ Each mobile application platform describes what data is collected, targeting eac
 
 Platforms displayed is driven by the PhoneGap config.xml content:
 
-&lt;widget&gt;  
-&lt;gap:platform name="ios"/&gt;  
-&lt;gap:platform name="android"/&gt;  
-&lt;/widget&gt;
+```xml
+<widget>  
+<gap:platform name="ios"/>  
+<gap:platform name="android"/>  
+</widget>
+```
 
 Each vendor application store, such as Apple App Store or Google Play Store, for example, requires one or more screenshots of your mobile application in order to display your application details to customers. These screenshots can have strict requirements around dimensions and content (basically they must truly represent the application). AEM Apps provides support for selecting and managing these screenshots for the supported platforms and view port dimensions as required by each vendor's application store.
 
