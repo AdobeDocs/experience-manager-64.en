@@ -3,6 +3,7 @@ cloud: experience-cloud
 product: Adobe Experience Manager
 audience: end-user
 user-guide-title: AEM 6.4 User Guide
+contentOwner: Chris Bohnert
 ---
 
 # AEM 6.4 User Guide {#user-guide}
