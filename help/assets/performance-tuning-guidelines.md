@@ -258,6 +258,8 @@ XMP writeback updates the original asset whenever metadata is modified in AEM, w
 
 The outcomes listed consume considerable resources. Therefore, Adobe recommends [disabling XMP Writeback](https://helpx.adobe.com/experience-manager/kb/disable-xmp-writeback.html), if it is not required.
 
+Importing a large amount of metadata can result in resource-intensive XMP writeback activity if run workflows flag is checked. Plan such an import during lean server usage so that performance for other users is not impacted.
+
 ## Replication {#replication}
 
 When replicating assets to a large number of publish instances, for example in a Sites implementation, Adobe recommends you use chain replication. In this case, the author instance replicates to a single publish instance which in turn replicates to the other publish instances, freeing up the author instance.

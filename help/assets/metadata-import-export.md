@@ -18,7 +18,7 @@ AEM Assets lets you import asset metadata in bulk using a CSV file for newly upl
 
 ## Import metadata {#import-metadata}
 
-In other words, you can use a single CSV file to simultaneously update the metadata for multiple assets simultaneously. The operation is asynchronous. and, therefore, does not impede your system performance.
+In other words, you can use a single CSV file to simultaneously update the metadata for multiple assets simultaneously. The operation is asynchronous. and, therefore, does not impede your system performance. Importing a large amount of metadata can result in resource-intensive XMP writeback activity if run workflows flag is checked. Plan such an import during lean server usage so that performance for other users is not impacted.
 
 >[!NOTE]
 >
