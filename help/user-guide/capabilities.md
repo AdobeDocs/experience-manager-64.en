@@ -7,7 +7,7 @@ contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 ---
 
-# AEM 6.4 Capabilities User Guide {#aem-64-capabilities-user-guide}
+# AEM 6.4 Capabilities User Guides {#aem-64-capabilities-user-guides}
 
 ## AEM Foundation {#aem-foundation}
 
