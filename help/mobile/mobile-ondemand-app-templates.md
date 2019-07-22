@@ -45,7 +45,7 @@ Once you create an app using this template, you can add articles, banners, and c
 
 >[!NOTE]
 >
->Alternatively, you can also select a sample app template, for example ***We.Unlimited ***app, made available to you by an AEM developer. If you use this sample template for your app, you get some sample articles and collections to work on. You will have the option of using the sample templates and components, customizing the existing ones, or creating new ones for your app.
+>Alternatively, you can also select a sample app template, for example **We.Unlimited** app, made available to you by an AEM developer. If you use this sample template for your app, you get some sample articles and collections to work on. You will have the option of using the sample templates and components, customizing the existing ones, or creating new ones for your app.
 
 >[!CAUTION]
 >
