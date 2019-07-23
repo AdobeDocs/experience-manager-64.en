@@ -54,7 +54,7 @@ Moderation:
 
 Overall compatibility with foundational changes in AEM 6.4.
 
-Note: all these features are also available for 6.3. Please check the AEM Communities release notes for [6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html).
+Note: all these features are also available for AEM 6.3. Please check the AEM Communities release notes for [6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html).
 
 ## Known Issues {#known-issues}
 
