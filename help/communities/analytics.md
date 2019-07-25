@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 36ea97a4-4e13-4e89-866b-495f3c30cb94
 ---
 
-# Analytics Configuration for Communities Features{#analytics-configuration-for-communities-features}
+# Analytics Configuration for Communities Features {#analytics-configuration-for-communities-features}
 
 ## Overview {#overview}
 
@@ -24,15 +24,13 @@ For example, when a member of an enablement community site views a video resourc
 Further, analytics is necessary for:
 
 * in the publish environment:
-
-    * reporting on community [trends](trends.md)
-    * allow site visitors to sort by "most viewed", "most active", "most liked"
-    * view counts on UGC lists
+  * reporting on community [trends](trends.md)
+  * allow site visitors to sort by "most viewed", "most active", "most liked"
+  * view counts on UGC lists
 
 * in the author environment:
-
-    * display of participation data in the [members management console](members.md) (views, posts, follows, likes)
-    * trend summary, video heartbeat and videio device for enablement resource [reports](reports.md)
+  * display of participation data in the [members management console](members.md) (views, posts, follows, likes)
+  * trend summary, video heartbeat and videio device for enablement resource [reports](reports.md)
 
 Supported Communities features include:
 
@@ -46,14 +44,14 @@ Supported Communities features include:
 This section of the documentation describes how to connect an Analytics report suite with Communities features. The basic steps are:
 
 1. [Replicate the crypto key](#replicate-the-crypto-key) to ensure encryption/decryption occurs correctly on all AEM instances
-1. Prepare an Adobe Analytics [report suite](#adobe-analytics-report-suite-for-video-reporting)
-1. Create an AEM Analytics [cloud service](#aem-analytics-cloud-service-configuration) and [framework](#aem-analytics-framework-configuration)
+2. Prepare an Adobe Analytics [report suite](#adobe-analytics-report-suite-for-video-reporting)
+3. Create an AEM Analytics [cloud service](#aem-analytics-cloud-service-configuration) and [framework](#aem-analytics-framework-configuration)
 
-1. [Enable Analytics](#enable-analytics-for-a-community-site) for a community site
-1. [**Verify**](#verify-analytics-to-aem-variable-mapping) Analytics to AEM variable mapping
-1. Identify [primary publisher](#primary-publisher)
-1. [Publish](#publish-community-site-and-analytics-cloud-service) the community site
-1. Configure [import of report data](#obtaining-reports-from-analytics) from Adobe Analytics to the community site
+4. [Enable Analytics](#enable-analytics-for-a-community-site) for a community site
+5. [**Verify**](#verify-analytics-to-aem-variable-mapping) Analytics to AEM variable mapping
+6. Identify [primary publisher](#primary-publisher)
+7. [Publish](#publish-community-site-and-analytics-cloud-service) the community site
+8. Configure [import of report data](#obtaining-reports-from-analytics) from Adobe Analytics to the community site
 
 ## Prerequisites {#prerequisites}
 
@@ -87,30 +85,22 @@ Using the Adobe Marketing Cloud's [Report Suite Manager](https://marketing.adobe
 By signing in to [Adobe Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) with [Company Name and Username](analytics.md#prerequisites), it is possible to configure a new or existing report suite to have:
 
 * [11 Conversion Variables](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) (evars)
-
-    * **`evar1`** through **`evar11`** enabled
-    * can repurpose (rename) existing evars or create new ones to use for Communities features
+  * **`evar1`** through **`evar11`** enabled
+  * can repurpose (rename) existing evars or create new ones to use for Communities features
 
 * [7 Success Events](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) (events)
-
-    * **`event1`** through **`event7`** enabled
-    * type **`Counter`**
-
-        * not **`Counter (no subrelations)`**
-
-    * can repurpose (rename) existing events or create new ones to use for Communities features
+  * **`event1`** through **`event7`** enabled
+  * type **`Counter`**
+    * not **`Counter (no subrelations)`**
+  * can repurpose (rename) existing events or create new ones to use for Communities features
 
 * [Video Management](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html)
-
-    * Video Reporting console
-
-        * enable `Video Core`
-        * select Save
-
-    * Video Core measurement console
-
-        * select `Use Solution Variables`
-        * select Save
+  * Video Reporting console
+    * enable `Video Core`
+    * select Save
+  * Video Core measurement console
+    * select `Use Solution Variables`
+    * select Save
 
 If using a **new report suite**, be aware that a new report suite may only have 4 evars and 6 event variables, while 11 evars and 7 event vars are required for Communities.
 
@@ -165,25 +155,24 @@ On the Create Configuration dialog, the values to be entered identify the config
 
 ![chlimage_1-266](assets/chlimage_1-266.png)
 
-* **Title** 
+* **Title**
 
   (required) A display title for the configuration.  
 
   For example, enter *Enablement Community Analytics*
 
-* **Name** 
+* **Name**
 
   (optional) If not specified, the name will default to a valid node name derived from the title.  
 
   For example, enter *communities*
 
-* *Template* 
+* *Template*
 
   Select `Adobe Analytics Configuration`
 
 * Select **Create**
-
-    * launches configuration page and opens `Analytics Settings` dialog
+  * launches configuration page and opens `Analytics Settings` dialog
 
 ### Analytics Settings Dialog {#analytics-settings-dialog}
 
@@ -191,51 +180,48 @@ The initial creation of a new Analytics configuration results in the display of 
 
 ![chlimage_1-267](assets/chlimage_1-267.png)
 
-* **Company** 
+* **Company**
 
   the company that is associated with the Adobe Analytics account
 
-* **Username** 
+* **Username**
 
   the login username for the user authorized to manage the Analytics account
 
-* **Password** 
+* **Password**
 
   the login password for the authorized user
 
-* **Data Center** 
+* **Data Center**
 
   select the Analytics data center hosting the report suite
 
-* **Do not add tracking tag to page** 
+* **Do not add tracking tag to page**
 
   leave as default (unchecked)
 
-* **Use AppMeasurement** 
+* **Use AppMeasurement**
 
   leave as default (unchecked)
 
-* **Do not import page impressions nightly (author)** 
+* **Do not import page impressions nightly (author)**
 
   leave as default (unchecked)
 
-* **Do not import page impressions nightly (publish)** 
+* **Do not import page impressions nightly (publish)**
 
   leave as default (checked)
 
 To save the settings:
 
 * select **Connect to Analytics**
-
-    * if not successful,
-
-        * verify entries do not contain leading spaces
-        * try a different data center
-        * contact your account representative
-
+  * if not successful,
+    * verify entries do not contain leading spaces
+    * try a different data center
+    * contact your account representative
 * select **OK**
 
-![chlimage_1-268](assets/chlimage_1-268.png) 
+![chlimage_1-268](assets/chlimage_1-268.png)
 
 ### Create Framework {#create-framework}
 
@@ -245,19 +231,19 @@ After successful configuration of the basic connection to Adobe Analytics, it is
 
 ![chlimage_1-269](assets/chlimage_1-269.png)
 
-* **Title** 
+* **Title**
 
   (required) A display title for the framework  
   
   For example, enter *Enablement Community Framework*
 
-* **Name** 
+* **Name**
 
   (optional) If not specified, the name will default to a valid node name derived from the title.  
 
   For example, enter *communities*
 
-* *Template* 
+* *Template*
 
   Select `Adobe Analytics Framework`
 
@@ -284,21 +270,21 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
 
 ![chlimage_1-271](assets/chlimage_1-271.png)
 
-1. Select **Add Item +** 
+1. Select **Add Item +**
    two drop down boxes appear
 
-1. choose a `Report suite`  
+2. choose a `Report suite`  
 
    the report suites associated with the Company account should be available for selection
 
-1. Select **Yes** in the dialog that opens:
+3. Select **Yes** in the dialog that opens:
 
-   ```
+   ```text
    Load default server settings?
     Do you want to load the default server settings and overwrite current values in the Server section?
    ```
 
-1. choose a `Run Mode`  
+4. choose a `Run Mode`  
 
    choose **publish**
 
@@ -314,10 +300,8 @@ To add the Analytics cloud service while [creating a new community site](sites-c
 
 * in step 3
 * under the [ANALYTICS tab](sites-console.md#analytics):
-
-    * check the **Enable Analytics** checkbox
-    * choose the framework from the drop-down box
-
+  * check the **Enable Analytics** checkbox
+  * choose the framework from the drop-down box
 * Optionally, return to the Analytics framework configuration to adjust the variable mappings.
 
 ### Enable for Existing Community Site {#enable-for-existing-community-site}
@@ -328,10 +312,8 @@ To add the Analytics cloud service to an [existing community site](sites-console
 * select the community site's Edit Site icon
 * select the SETTINGS
 * in the Analytics section:
-
-    * check the **Enable Analytics** checkbox
-    * choose the framework from the drop-down box
-
+  * check the **Enable Analytics** checkbox
+  * choose the framework from the drop-down box
 * Optionally, return to the Analytics framework configuration to adjust the variable mappings.
 
 ### Enable for Customized Sites {#enable-for-customized-sites}
@@ -342,9 +324,9 @@ In order for Analytics tracking and import to work properly for a community site
 # present in default sitepage.hbs
 # only one scf-js-site-title class should be included
 # this example sets it to be hidden as it serves no visual purpose
-<div 
-    class="navbar-brand scf-js-site-title" 
-    href="{{siteUrl}}.html" 
+<div
+    class="navbar-brand scf-js-site-title"
+    href="{{siteUrl}}.html"
     style="visibility: hidden;"
 >
 </div>
@@ -355,9 +337,9 @@ For a **customized community site** that overlays the `sitepage.hbs` script, ens
 For a **generic AEM site** that includes Communities components, but is not created with the [site creation wizard](sites-console.md), it is necessary to add the element. The value of the href should be the path to the site. For example, if the site path is `/content/my/company/en`, then use:
 
 ```xml
-<div 
-    class="navbar-brand scf-js-site-title" 
-    href="/content/my/company/en.html" 
+<div
+    class="navbar-brand scf-js-site-title"
+    href="/content/my/company/en.html"
     style="visibility: hidden;"
 >
 </div>
@@ -389,127 +371,16 @@ Following is an example of default mappings after following the [getting started
 
 #### Map of eVars sent with each event {#map-of-evars-sent-with-each-event}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong> </strong></td> 
-   <td><strong>Enablement<br /> Resource<br /> Type</strong></td> 
-   <td><strong>Site<br /> Title</strong></td> 
-   <td><strong>Function<br /> Type</strong></td> 
-   <td><strong>Group<br /> Title</strong></td> 
-   <td><strong>Group<br /> Path</strong></td> 
-   <td><strong>UGC<br /> Type</strong></td> 
-   <td><strong>UGC<br /> Title</strong></td> 
-   <td><strong>User<br /> (Member)</strong></td> 
-   <td><strong>UGC<br /> Path</strong></td> 
-   <td><strong>Site<br /> Path</strong></td> 
-  </tr> 
-  <tr> 
-   <td><strong> </strong></td> 
-   <td><strong>eVar1</strong></td> 
-   <td><strong>eVar2</strong></td> 
-   <td><strong>eVar3</strong></td> 
-   <td><strong>eVar4</strong></td> 
-   <td><strong>eVar5</strong></td> 
-   <td><strong>eVar6</strong></td> 
-   <td><strong>eVar7</strong></td> 
-   <td><strong>eVar8</strong></td> 
-   <td><strong>eVar9</strong></td> 
-   <td><strong>eVar10</strong></td> 
-  </tr> 
-  <tr> 
-   <td><strong>event1<br /> Resource Play</strong></td> 
-   <td><i>(a)</i></td> 
-   <td><i>-</i></td> 
-   <td><i>-</i></td> 
-   <td><i>-</i></td> 
-   <td><i>-</i></td> 
-   <td><i>-</i></td> 
-   <td><i>-</i></td> 
-   <td><i>-</i></td> 
-   <td><i>(i)</i></td> 
-   <td><i>-</i></td> 
-  </tr> 
-  <tr> 
-   <td><strong>event2<br /> SCFView</strong></td> 
-   <td><i>(a)</i></td> 
-   <td><i>(b)</i></td> 
-   <td><i>(c)</i></td> 
-   <td><i>(d)</i></td> 
-   <td><i>(e)</i></td> 
-   <td><i>(f)</i></td> 
-   <td><i>(g)</i></td> 
-   <td><i>(h)</i></td> 
-   <td><i>(i)</i></td> 
-   <td><i>(j)</i></td> 
-  </tr> 
-  <tr> 
-   <td><strong>event3<br /> SCFCreate (Post)</strong></td> 
-   <td><i>-</i></td> 
-   <td><i>(b)</i></td> 
-   <td><i>(c)</i></td> 
-   <td><i>(d)</i></td> 
-   <td><i>(e)</i></td> 
-   <td><i>(f)</i></td> 
-   <td><i>(g)</i></td> 
-   <td><i>(h)</i></td> 
-   <td><i>(i)</i></td> 
-   <td><i>(j)</i></td> 
-  </tr> 
-  <tr> 
-   <td><strong>event4<br /> SCFFollow</strong></td> 
-   <td><i>-</i></td> 
-   <td><i>(b)</i></td> 
-   <td><i>(c)</i></td> 
-   <td><i>(d)</i></td> 
-   <td><i>(e)</i></td> 
-   <td><i>(f)</i></td> 
-   <td><i>(g)</i></td> 
-   <td><i>(h)</i></td> 
-   <td><i>(i)</i></td> 
-   <td><i>(j)</i></td> 
-  </tr> 
-  <tr> 
-   <td><strong>event5<br /> SCFVoteUp</strong></td> 
-   <td><i>-</i></td> 
-   <td><i>(b)</i></td> 
-   <td><i>(c)</i></td> 
-   <td><i>(d)</i></td> 
-   <td><i>(e)</i></td> 
-   <td><i>(f)</i></td> 
-   <td><i>(g)</i></td> 
-   <td><i>(h)</i></td> 
-   <td><i>(i)</i></td> 
-   <td><i>(j)</i></td> 
-  </tr> 
-  <tr> 
-   <td><strong>event6<br /> SCFVoteDown</strong></td> 
-   <td><i>-</i></td> 
-   <td><i>(b)</i></td> 
-   <td><i>(c)</i></td> 
-   <td><i>(d)</i></td> 
-   <td><i>(e)</i></td> 
-   <td><i>(f)</i></td> 
-   <td><i>(g)</i></td> 
-   <td><i>(h)</i></td> 
-   <td><i>(i)</i></td> 
-   <td><i>(j)</i></td> 
-  </tr> 
-  <tr> 
-   <td><strong>event7<br /> SCFRate</strong></td> 
-   <td><i>-</i></td> 
-   <td><i>(b)</i></td> 
-   <td><i>(c)</i></td> 
-   <td><i>(d)</i></td> 
-   <td><i>(e)</i></td> 
-   <td><i>(f)</i></td> 
-   <td><i>(g)</i></td> 
-   <td><i>(h)</i></td> 
-   <td><i>(i)</i></td> 
-   <td><i>(j)</i></td> 
-  </tr> 
- </tbody> 
-</table>
+|                        | Enablement Resource Type | Site Title | Function Type | Group Title | Group Path | UGC Type | UGC Title | User (Member) | UGC Path | Site Path |
+|------------------------|------------------------|-----------|--------------|------------|-----------|---------|----------|--------------|---------|----------|
+|                        | **eVar1** | **eVar2** | **eVar3** | **eVar4** | **eVar5** | **eVar6** | **eVar7** | **eVar8** | **eVar9** | **eVar10** |
+| event1Resource Play    | (a)                    | -         | -            | -          | -         | -       | -        | -            | (i)     | -        |
+| event2SCFView          | (a)                    | (b)       | (c)          | (d)        | (e)       | (f)     | (g)      | (h)          | (i)     | (j)      |
+| event3SCFCreate (Post) | -                      | (b)       | (c)          | (d)        | (e)       | (f)     | (g)      | (h)          | (i)     | (j)      |
+| event4SCFFollow        | -                      | (b)       | (c)          | (d)        | (e)       | (f)     | (g)      | (h)          | (i)     | (j)      |
+| event5SCFVoteUp        | -                      | (b)       | (c)          | (d)        | (e)       | (f)     | (g)      | (h)          | (i)     | (j)      |
+| event6SCFVoteDown      | -                      | (b)       | (c)          | (d)        | (e)       | (f)     | (g)      | (h)          | (i)     | (j)      |
+| event7SCFRate          | -                      | (b)       | (c)          | (d)        | (e)       | (f)     | (g)      | (h)          | (i)     | (j)      |
 
 **Examples for eVar values:**
 

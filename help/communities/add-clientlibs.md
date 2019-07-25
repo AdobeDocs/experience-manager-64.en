@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c84040b0-7850-4960-b676-ffa0a74c8cb2
 ---
 
-# Add Clientlibs{#add-clientlibs}
+# Add Clientlibs {#add-clientlibs}
 
 ## Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
 
@@ -21,12 +21,12 @@ The `categories`property value given to this client library is the identifier us
 
 1. using **CRXDE Lite**, expand `/etc/designs`
 
-1. right click on `an-scf-sandbox` and select `Create Node`
+2. right click on `an-scf-sandbox` and select `Create Node`
 
     * Name: `clientlibs`
     * Type: `cq:ClientLibraryFolder`
 
-1. click **OK**
+3. click **OK**
 
 ![chlimage_1-220](assets/chlimage_1-220.png)
 
@@ -41,13 +41,11 @@ In the **Properties** tab for the new `clientlibs` node, enter the **`categories
 Note: prefacing the categories value with 'apps.' is a convention to identify the 'owning application' as being in the /apps folder, not /libs.  IMPORTANT: Add placeholder `js.tx`t and**`css.tx`**t files. (It's not officially a cq:ClientLibraryFolder without them.)
 
 1. right click on **`/etc/designs/an-scf-sandbox/clientlibs`**
-1. select** Create File...**
-1. enter** Name:** `css.txt`
-
-1. select** Create File... **
-1. enter **Name:** `js.txt`
-
-1. click **Save All**
+2. select **Create File...**
+3. enter **Name:** `css.txt`
+4. select ** Create File... **
+5. enter **Name:** `js.txt`
+6. click **Save All**
 
 ![chlimage_1-221](assets/chlimage_1-221.png)
 
@@ -81,19 +79,19 @@ In this case, we're including them all, and so would prefer the more basic SCF c
 * Name: **`embed`**
 * Type: **`String`**
 * click **`Multi`**
-* Value: **`cq.social.scf`** 
+* Value: **`cq.social.scf`**
 
   *&lt;enter&gt; will pop up a dialog*  
 
   *click **[+]** after each entry to add the following clientlib categories:*
 
-    * **`cq.ckeditor`**
-    * **`cq.social.author.hbs.comments`**
-    * **`cq.social.author.hbs.forum`**
-    * **`cq.social.author.hbs.rating`**
-    * **`cq.social.author.hbs.reviews`**
-    * **`cq.social.author.hbs.voting`**
-    * click **OK**
+  * **`cq.ckeditor`**
+  * **`cq.social.author.hbs.comments`**
+  * **`cq.social.author.hbs.forum`**
+  * **`cq.social.author.hbs.rating`**
+  * **`cq.social.author.hbs.reviews`**
+  * **`cq.social.author.hbs.voting`**
+  * click **OK**
 
 * click **Save All**
 
@@ -120,15 +118,15 @@ The include statement belongs in the <head> section of the <html> script. The de
 **Copy headlibs.jsp and include clientlibs:**
 
 1. using **CRXDE Lite**, select **`/libs/foundation/components/page/headlibs.jsp`**
-1. right click and select **Copy** (or select Copy from the tool bar)
-1. select **`/apps/an-scf-sandbox/components/playpage`**
-1. right click and select **Paste** (or select Paste from the tool bar)
-1. double click on **`headlibs.jsp`** to open it
-1. append the following line to the end of the file
+2. right click and select **Copy** (or select Copy from the tool bar)
+3. select **`/apps/an-scf-sandbox/components/playpage`**
+4. right click and select **Paste** (or select Paste from the tool bar)
+5. double click on **`headlibs.jsp`** to open it
+6. append the following line to the end of the file
 
    **`<ui:includeClientLib categories="apps.an-scf-sandbox"/>`**
 
-1. click **Save All**
+7. click **Save All**
 
 ```xml
 <%@ page session="false" %><%
@@ -145,7 +143,7 @@ Load your website in the browser and see if the background is not a shade of blu
 
 [http://localhost:4502/content/an-scf-sandbox/en/play.html](http://localhost:4502/content/an-scf-sandbox/en/play.html)
 
-![chlimage_1-226](assets/chlimage_1-226.png) 
+![chlimage_1-226](assets/chlimage_1-226.png)
 
 ## Saving Your Work So Far {#saving-your-work-so-far}
 
@@ -155,30 +153,26 @@ This package exists on the [Create a Sample Page](create-sample-page.md) tutoria
 
 To create a package:
 
-* from CRXDE Lite click the [Package icon](http://localhost:4502/crx/packmgr/) 
+* from CRXDE Lite click the [Package icon](http://localhost:4502/crx/packmgr/)
 * click **Create Package**
-
-    * Package Name: an-scf-sandbox-minimal-pkg
-    * Version: 0.1
-    * Group: &lt;leave as default&gt;
-    * click **OK**
+  * Package Name: an-scf-sandbox-minimal-pkg
+  * Version: 0.1
+  * Group: &lt;leave as default&gt;
+  * click **OK**
 
 * click **Edit**
-
-    * select **Filters **tab
-
-        * click **Add filter**
-        * Root Path: &lt;browse to** /apps/an-scf-sandbox**&gt;
-        * click **Done**
-        * click **Add filter**
-        * Root Path: &lt;browse to **/etc/designs/an-scf-sandbox**&gt;
-        * click **Done**
-        * click **Add filter**
-        * Root Path: &lt;browse to **/content/an-scf-sandbox**&gt;
-        * click **Done**
-
+  * select **Filters **tab
+    * click **Add filter**
+    * Root Path: &lt;browse to **/apps/an-scf-sandbox**&gt;
+    * click **Done**
+    * click **Add filter**
+    * Root Path: &lt;browse to **/etc/designs/an-scf-sandbox**&gt;
+    * click **Done**
+    * click **Add filter**
+    * Root Path: &lt;browse to **/content/an-scf-sandbox**&gt;
+    * click **Done**
     * click **Save**
 
 * click **Build**
 
-Now you can select **Download** to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox. 
+Now you can select **Download** to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.
