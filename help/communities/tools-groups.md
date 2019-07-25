@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a862756-58e8-47c0-a4b4-5d4aaac021e4
 ---
 
-# Group Templates{#group-templates}
+# Group Templates {#group-templates}
 
 The Group Templates console is very similar to the [Site Templates](sites.md) console. Both are blueprints for a set of pre-wired pages and features which form a community site. The difference is that a site template is for the main community and a group template is for a community group, a sub-community nested within the main community.
 
@@ -29,7 +29,7 @@ At the moment the action is taken to create a new community group, the group's t
 
 In the author environment, to reach the groups templates console
 
-* from global navigation: **Tools, Communities, Group Templates**
+* from global navigation: **Tools | Communities | Group Templates**
 
 This console displays the templates from which a [community site](sites-console.md) can be created and allows new group templates to be created.
 
@@ -47,13 +47,13 @@ This will bring up the Site Editor panel which contains 3 sub-panels:
 
 On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
-* **New Group Template Name ** 
+* **New Group Template Name**
   the template name id
 
-* **Description** 
+* **Description**
   the template description
 
-* **Disabled/Enabled** 
+* **Disabled/Enabled**
   a toggle switch controlling whether the template is referenceable
 
 ### Thumbnail {#thumbnail}
@@ -82,7 +82,7 @@ Continue dragging and dropping any other community functions desired for a sub-c
 
 ![dragfunctions](assets/dragfunctions.png)
 
-Once all desired functions have been dropped into the template builder area and configured, select **Save **in the upper right hand corner.
+Once all desired functions have been dropped into the template builder area and configured, select **Save** in the upper right hand corner.
 
 ## Edit Group Template {#edit-group-template}
 
@@ -90,4 +90,4 @@ When viewing community groups in the main [Group Templates console](#group-templ
 
 Editing a group template will not affect community sites already created from the template. It is possible to directly [edit a community site](sites-console.md#modify-structure)'s structure instead.
 
-This process provides the same panels as [creating a group template](#creategrouptemplate).
+This process provides the same panels as [creating a group template](#create-goup-template).

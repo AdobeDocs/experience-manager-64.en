@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ccabf301-b417-48aa-8501-8360fd9f3e36
 ---
 
-# Members & Groups Management Consoles{#members-groups-management-consoles}
+# Members & Groups Management Consoles {#members-groups-management-consoles}
 
 ## Overview {#overview}
 
@@ -74,30 +74,30 @@ Select `Create Member` in order to create a user in the publish environment.
 
 Most fields are optional fields the member can later fill-in on their profile.
 
-* **ID** 
+* **ID**
   (*required*) The authorizable ID is the member's sign-in ID.  
 
   By default, the ID is set to the value of the required email address.  
 
   *Once created, the ID may not be modified.*
 
-* **Email Address** 
+* **Email Address**
   (*required*) The member's email address.  
 
-  The member may change their email address when updating their profile. 
+  The member may change their email address when updating their profile.
 
   If the ID defaulted to the email address, the ID will *not* change when the email address is changed.
 
-* **Password** 
+* **Password**
   (*required*) The sign-in password.
 
-* **Retype Password** 
+* **Retype Password**
   (*required*) Re-enter the password for verification.
 
-* **Add Member to Sites** 
+* **Add Member to Sites**
   (*optional*) Select from existing community sites in order to add the member to the community site's members group.
 
-* **Add Member to Groups** 
+* **Add Member to Groups**
   (*optional*) Select from existing member groups in order to add the member to that group.
 
 * select **Save**
@@ -107,18 +107,17 @@ Most fields are optional fields the member can later fill-in on their profile.
 Under Account settings it is possible for a community administrator to
 
 * **Status**
+  * Banned  
 
-    * Banned  
+    A member is unable to sign in, preventing them from viewing pages or participating in activities which require sign in. They may still anonymously visit an open community site.
 
-      A member is unable to sign in, preventing them from viewing pages or participating in activities which require sign in. They may still anonymously visit an open community site.
+  * Not Banned  
 
-    * Not Banned  
-
-      A member has full access to the community site.
+    A member has full access to the community site.
 
   Default is `Not Banned`.
 
-* **Contribution Limits** 
+* **Contribution Limits**
 
   If checked, the member's ability to post content is limited. 
 
@@ -126,7 +125,7 @@ Under Account settings it is possible for a community administrator to
 
   See [Member Contribution Limits](limits.md).
 
-* **Change Password** 
+* **Change Password**
 
   A link that is present when modifying an existing member. Provides the ability for a community administrator to reset a password for a member.
 
@@ -152,12 +151,12 @@ See also [Scoring and Badges](implementing-scoring.md).
 
 * **add badges**
 
-    * begin typing to select from [available badges](badges.md). Once a badge is selected, choose each site, or all sites, on which the badge should be displayed along with the member's avatar.
-    * multiple badges and sites may be chosen.
+  * begin typing to select from [available badges](badges.md). Once a badge is selected, choose each site, or all sites, on which the badge should be displayed along with the member's avatar.
+  * multiple badges and sites may be chosen.
 
 * **remove badges**
 
-    * select the trash can icon next to a badge to remove it
+  * select the trash can icon next to a badge to remove it
 
 ## Groups Console {#groups-console}
 
@@ -182,20 +181,20 @@ Select `Add Group` in order to create a group in the publish environment.
 
 The required fields for creating a new publish-side member group are:
 
-* **ID** 
+* **ID**
   (*required*) The group unique ID.  
 
   *Once created, the ID may not be modified.*
 
-* **Name** 
-  (*optional*) The display name for the group. 
-   
+* **Name**
+  (*optional*) The display name for the group.
+
   The default value is the ID.
 
-* **Description** 
+* **Description**
   (*optional*) A description of the group's purpose and permissions.
 
-* **Add Members To Group** 
+* **Add Members To Group**
   (*optional*) Select publish-side members to be included as initial members of the group.
 
 * select **Save**
