@@ -42,9 +42,9 @@ When messaging is enabled for a community site, it is completely setup with no f
 
 ### Configuring Message List (messagebox) {#configuring-message-list-messagebox}
 
-In order to modify the configuration of the list of messages for **Inbox**, **Sent Items**, and **Trash **pages of the messaging feature, open the site in [author edit mode](sites-console.md#authoring-site-content).
+In order to modify the configuration of the list of messages for **Inbox**, **Sent Items**, and **Trash** pages of the messaging feature, open the site in [author edit mode](sites-console.md#authoring-site-content).
 
-In `Preview`mode, select the **Messages **link to open the main messaging page. Then select either **Inbox**, **Sent Items **or **Trash **in order to configure the component for that message list.
+In `Preview`mode, select the **Messages** link to open the main messaging page. Then select either **Inbox**, **Sent Items** or **Trash** in order to configure the component for that message list.
 
 In `Edit` mode, select the component on the page.
 
@@ -63,10 +63,10 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
 ![chlimage_1-398](assets/chlimage_1-398.png)
 
 * **Service selector** 
-  (*Required*) Set this to the value of the property**`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](messaging.md#messaging-operations-service).
+  (*Required*) Set this to the value of the property **`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](messaging.md#messaging-operations-service).
 
 * **Compose Page** 
-  (*Required*) The page to open when a member clicks on the **`Reply`**button. The target page should contain the **Compose Message** form.
+  (*Required*) The page to open when a member clicks on the **`Reply`** button. The target page should contain the **Compose Message** form.
 
 * **Reply/View as Resource** 
   If checked, the Reply URL and View URL will reference a resource, else data is passed as query parameters in the URL.
@@ -78,7 +78,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
   If checked, this Message List component displays only messages flagged as deleted (trash).
 
 * **Folder Paths** 
-  (*Required*) Referencing the values set for **inbox.path.name** and **sentitems.path.name **in the [AEM Communities Messaging Operations Service](messaging.md#messaging-operations-service). When configuring for an `Inbox`, add one entry using the value of **inbox.path.name**. When configuring for an `Outbox`, add one entry using the value of **sentitems.path.name**. When configuring for `Trash`, add two entries with both values.
+  (*Required*) Referencing the values set for **inbox.path.name** and **sentitems.path.name** in the [AEM Communities Messaging Operations Service](messaging.md#messaging-operations-service). When configuring for an `Inbox`, add one entry using the value of **inbox.path.name**. When configuring for an `Outbox`, add one entry using the value of **sentitems.path.name**. When configuring for `Trash`, add two entries with both values.
 
 #### Display tab {#display-tab}
 
@@ -94,7 +94,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
   If checked, displays a `Delete`button allowing a message to be marked as read. Will duplicate the delete functionality if **`Message Options`** is also checked.
 
 * **Message Options** 
-  If checked, displays **`Reply`**, **`Reply All`**, **`Forward`**and **`Delete`**buttons allowing a message to be resent or deleted. Will duplicate the delete functionality if **`Delete Button`** is also checked.
+  If checked, displays **`Reply`**, **`Reply All`**, **`Forward`** and **`Delete`** buttons allowing a message to be resent or deleted. Will duplicate the delete functionality if **`Delete Button`** is also checked.
 
 * **Messages Per Page** 
   The number specified is the maximum number of messages displayed per page in a pagination scheme. If no number is specified (left blank), then all messages are displayed and there is no pagination.
@@ -103,13 +103,13 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
   Provide timestamp patterns for one or more languages. Default is for en, de, fr, it, es, ja, zh_CN, ko_KR.
 
 * **Display User** 
-  Choose either **`Sender`**or **`Recipients`**to determine whether to display the Sender or Recipients.
+  Choose either **`Sender`** or **`Recipients`** to determine whether to display the Sender or Recipients.
 
 ### Configuring Compose Message {#configuring-compose-message}
 
 In order to modify the configuration of the compose message page, open the site in [author edit mode](sites-console.md#authoring-site-content).
 
-In `Preview`mode, select the **Messages **link to open the main messaging page. Then select the New Message button to open the `Compose Message` page..
+In `Preview`mode, select the **Messages** link to open the main messaging page. Then select the New Message button to open the `Compose Message` page..
 
 In `Edit` mode, select the main component on the page containing the Message body.
 
@@ -140,7 +140,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
   The maximum number of characters allowed in the Content field. For example, 10000. Default is no limit.
 
 * **Service selector** 
-  (*Required*) Set this to the value of the property**`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](messaging.md#messaging-operations-service).
+  (*Required*) Set this to the value of the property **`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](messaging.md#messaging-operations-service).
 
 #### Display tab {#display-tab-1}
 

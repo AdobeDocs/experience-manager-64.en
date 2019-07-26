@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4f4c73eb-281e-4dfb-9cb0-2341d5ee94ae
 ---
 
-# Getting Started with AEM Communities{#getting-started-with-aem-communities}
+# Getting Started with AEM Communities {#getting-started-with-aem-communities}
 
 AEM Communities allows companies to create dedicated branded community experiences from a library of site templates. Forums, groups, blogs, file sharing, calendars, activity feeds, and extended user profiles can be integrated into your website to foster interactions between propsects, customers, and companies.
 

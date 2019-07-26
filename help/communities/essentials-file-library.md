@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9019b967-fff8-4dda-bc5a-fd4a3e14a4ef
 ---
 
-# File Library Essentials{#file-library-essentials}
+# File Library Essentials {#file-library-essentials}
 
 This page provides the essential information for working with the file library feature.
 
@@ -41,7 +41,7 @@ This page provides the essential information for working with the file library f
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="file-library.md">File Library Feature</a></td> 
+   <td>See <a href="file-library.md">File Library Feature</a></td> 
   </tr>
  </tbody>
 </table>

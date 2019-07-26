@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: f8d85d72-0215-4680-a334-e37a530fba58
 ---
 
-# Social Graph Essentials{#social-graph-essentials}
+# Social Graph Essentials {#social-graph-essentials}
 
 The ability for a Community member to follow [activities](essentials-activities.md) as well as be followed is established through two components:
 
@@ -47,7 +47,7 @@ The `following`component lists the members that are either following the current
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="socialgraph.md">Using Social Graph</a></td> 
+   <td>See <a href="socialgraph.md">Using Social Graph</a></td> 
   </tr>
   <tr>
    <td><strong> optional<br /> property</strong></td> 

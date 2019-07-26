@@ -11,21 +11,21 @@ content-type: reference
 discoiquuid: 0b126218-b142-4d33-a28c-a91ab4fe99ac
 ---
 
-# How to Setup MongoDB for Demo{#how-to-setup-mongodb-for-demo}
+# How to Setup MongoDB for Demo {#how-to-setup-mongodb-for-demo}
 
 ## Introduction {#introduction}
 
-This tutorial describes how to setup [MSRP](msrp.md) for* one author *instance and *one publish* instance.
+This tutorial describes how to setup [MSRP](msrp.md) for *one author* instance and *one publish* instance.
 
 With this setup, the community content is accessible from both author and publish environments without needing to forward or reverse replicate user generated content (UGC).
 
-This configuration is suitable for* non-production* environments such as for development and/or demonstration.
+This configuration is suitable for *non-production* environments such as for development and/or demonstration.
 
 **A *production* environment should:**
 
-* run MongoDB with a replica set
-* use SolrCloud
-* contain multiple publisher instances
+* Run MongoDB with a replica set
+* Use SolrCloud
+* Contain multiple publisher instances
 
 ## MongoDB {#mongodb}
 
@@ -33,25 +33,25 @@ This configuration is suitable for* non-production* environments such as for dev
 
 * Download MongoDB from [https://www.mongodb.org/](https://www.mongodb.org/)
 
-    * choice of OS:
+    * Choice of OS:
 
         * Linux
         * Mac 10.8
         * Windows 7
 
-    * choice of version:
+    * Choice of version:
 
-        * at a minimum, use version 2.6
+        * At a minimum, use version 2.6
 
 * Basic configuration
 
-    * follow the MongoDB install instructions
-    * configure for mongod
+    * Follow the MongoDB install instructions
+    * Configure for mongod
 
-        * no need to configure mongos or sharding
+        * No need to configure mongos or sharding
 
-    * the installed MongoDB folder will be referred to as &lt;mongo-install&gt;
-    * the defined data directory path will be referred to as &lt;mongo-dbpath&gt;
+    * The installed MongoDB folder will be referred to as &lt;mongo-install&gt;
+    * The defined data directory path will be referred to as &lt;mongo-dbpath&gt;
 
 * MongoDB may run on same host as AEM or run remotely
 
@@ -91,22 +91,22 @@ The following commands are an example of setting up a replica set with 3 nodes o
 
 * Download Solr from [Apache Lucene](https://archive.apache.org/dist/lucene/solr/):
 
-    * suitable for any OS 
-    * use version 4.10 or version 5
+    * Suitable for any OS 
+    * Use version 4.10 or version 5
     * Solr requires Java 1.7 or greater
 
 * Basic configuration
 
-    * follow 'example' Solr setup
-    * no service is needed
-    * the installed Solr folder will be referred to as &lt;solr-install&gt;
+    * Follow 'example' Solr setup
+    * No service is needed
+    * The installed Solr folder will be referred to as &lt;solr-install&gt;
 
 ### Configure Solr for AEM Communities {#configure-solr-for-aem-communities}
 
 To configure a Solr collection for MSRP for demo, there are two decisions to be made (select the links to main documentation for details):
 
-1. run Solr in standalone or [SolrCloud mode](msrp.md#solrcloudmode)
-1. install [standard](msrp.md#installingstandardmls) or [advanced](msrp.md#installingadvancedmls) multilingual search (MLS)
+1. Run Solr in standalone or [SolrCloud mode](msrp.md#solrcloudmode)
+1. Install [standard](msrp.md#installingstandardmls) or [advanced](msrp.md#installingadvancedmls) multilingual search (MLS)
 
 ### Standalone Solr {#standalone-solr}
 
@@ -145,9 +145,9 @@ Follow the instructions on the main documentation page: [MSRP - MongoDB Common S
 
 To test and verify the MongoDB common store, post a comment on the publish instance and view it on the author instance, as well as view the UGC in MongoDB and Solr:
 
-1. on the publish instance, browse to the [Community Components Guide](http://localhost:4503/content/community-components/en/comments.html) page and select the Comments component.
-1. sign in to post a comment:
-1. enter text in the comment text entry box and click **Post**
+1. On the publish instance, browse to the [Community Components Guide](http://localhost:4503/content/community-components/en/comments.html) page and select the Comments component.
+1. Sign in to post a comment:
+1. Enter text in the comment text entry box and click **Post**
 
    ![chlimage_1-191](assets/chlimage_1-191.png)
 
@@ -157,11 +157,11 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
    Note: while there are JCR nodes under the *asipath *on author, these are for the SCF framework. The actual UGC is not in JCR, it is in the MongoDB.
 
-1. view the UGC in mongodb (communities &gt; Collections &gt; content)
+1. View the UGC in mongodb (communities &gt; Collections &gt; content)
 
    ![chlimage_1-193](assets/chlimage_1-193.png)
 
-1. view the UGC in Solr:
+1. View the UGC in Solr:
 
     * browse to Solr dashboard: [http://localhost:8983/solr/](http://localhost:8983/solr/)
     * user 'core selector' to select 'collection1'
@@ -182,7 +182,7 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
     or check the AEM repository:
 
-    * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
+    * In JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
         * does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
         * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider

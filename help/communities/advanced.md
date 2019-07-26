@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 42fb3c50-8728-4897-ade9-6b839294a10e
 ---
 
-# Advanced Scoring and Badges{#advanced-scoring-and-badges}
+# Advanced Scoring and Badges {#advanced-scoring-and-badges}
 
 ## Overview {#overview}
 
@@ -55,7 +55,7 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
 
 ![chlimage_1-260](assets/chlimage_1-260.png)
 
-* **scoring weights** 
+* **Scoring weights** 
   For a topic, specify the verb that should be given the highest priority when calculating the score. One or more topics may be entered, but limited to **one verb per topic**. See [Topics and Verbs](implementing-scoring.md#topics-and-verbs).  
 
   Entered as `topic,verb` with the comma escaped. For example:  
@@ -64,17 +64,17 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
 
   Default is set to the ADD verb for QnA and forum components.
 
-* **scoring range** 
+* **Scoring range** 
   The range for advanced scores is defined by this value (maximum possible score) and 0 (lowest possible score.  
 
   Default value is 100 so that scoring range is 0-100.
 
-* **entity decay time interval** 
+* **Entity decay time interval** 
   This parameter represents the number of hours after which all entity scores are decayed. This is required to no longer include old content in scores for a community site.  
 
   Default value is 216000 hours (~24 years).
 
-* **scoring growth rate** 
+* **Scoring growth rate** 
   This specifies the score. between 0 and scoring range, beyond which growth slows to limit the number of experts.  
 
   Default value is 50.
@@ -87,7 +87,7 @@ In advanced scoring, the quantity needed is constantly adjusting based on the am
 
 If a member earned an expert badge on a topic which is no longer active, there is a possiblity they will lose their badge due to decay over time.
 
-### scoringType {#scoringtype}
+### ScoringType {#scoringtype}
 
 A scoring rule is a set of scoring sub-rules, each of which declares the `scoringType`.
 
@@ -97,7 +97,7 @@ See [Scoring Sub-Rules](implementing-scoring.md#scoring-sub-rules).
 
 ![chlimage_1-261](assets/chlimage_1-261.png)
 
-### stopwords {#stopwords}
+### Stopwords {#stopwords}
 
 The advanced scoring package installs a configuration folder that contains a stopwords file:
 

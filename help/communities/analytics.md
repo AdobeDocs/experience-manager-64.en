@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 36ea97a4-4e13-4e89-866b-495f3c30cb94
 ---
 
-# Analytics Configuration for Communities Features{#analytics-configuration-for-communities-features}
+# Analytics Configuration for Communities Features {#analytics-configuration-for-communities-features}
 
 ## Overview {#overview}
 
@@ -50,7 +50,7 @@ This section of the documentation describes how to connect an Analytics report s
 1. Create an AEM Analytics [cloud service](#aem-analytics-cloud-service-configuration) and [framework](#aem-analytics-framework-configuration)
 
 1. [Enable Analytics](#enable-analytics-for-a-community-site) for a community site
-1. [**Verify**](#verify-analytics-to-aem-variable-mapping) Analytics to AEM variable mapping
+1. [Verify](#verify-analytics-to-aem-variable-mapping) Analytics to AEM variable mapping
 1. Identify [primary publisher](#primary-publisher)
 1. [Publish](#publish-community-site-and-analytics-cloud-service) the community site
 1. Configure [import of report data](#obtaining-reports-from-analytics) from Adobe Analytics to the community site
@@ -151,15 +151,15 @@ If not enabled, the video heartbeat code is never instantiated and only the vide
 
 To create a new Analytics Integration, which integrates Adobe Analytics with the AEM community site, using the standard UI on the author instance:
 
-* from global navigation: **Tools, Deployment, Cloud Services**
-* scroll down to **Adobe Analytics**
-* select either **Configure Now** or **Show Configurations**
+* From global navigation: **Tools, Deployment, Cloud Services**
+* Scroll down to **Adobe Analytics**
+* Select either **Configure Now** or **Show Configurations**
 
 ![chlimage_1-265](assets/chlimage_1-265.png) 
 
 ### Create Configuration Dialog {#create-configuration-dialog}
 
-* select **[+]** icon next to **Available Configurations** to create a new configuration
+* Select **[+]** icon next to **Available Configurations** to create a new configuration
 
 On the Create Configuration dialog, the values to be entered identify the configuration.
 
@@ -177,7 +177,7 @@ On the Create Configuration dialog, the values to be entered identify the config
 
   For example, enter *communities*
 
-* *Template* 
+* **Template** 
 
   Select `Adobe Analytics Configuration`
 
@@ -225,7 +225,7 @@ The initial creation of a new Analytics configuration results in the display of 
 
 To save the settings:
 
-* select **Connect to Analytics**
+* Select **Connect to Analytics**
 
     * if not successful,
 
@@ -233,7 +233,7 @@ To save the settings:
         * try a different data center
         * contact your account representative
 
-* select **OK**
+* Select **OK**
 
 ![chlimage_1-268](assets/chlimage_1-268.png) 
 
@@ -241,7 +241,7 @@ To save the settings:
 
 After successful configuration of the basic connection to Adobe Analytics, it is necessary to create or edit a framework for the community site. The purpose of the framework is to map Communities feature (AEM) variables to Analytics (report suite) variables.
 
-* select `[+]` icon next to **Available Frameworks** to create a new framework
+* Select `[+]` icon next to **Available Frameworks** to create a new framework
 
 ![chlimage_1-269](assets/chlimage_1-269.png)
 
@@ -287,7 +287,7 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
 1. Select **Add Item +** 
    two drop down boxes appear
 
-1. choose a `Report suite`  
+1. Choose a `Report suite`  
 
    the report suites associated with the Company account should be available for selection
 
@@ -298,9 +298,9 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
     Do you want to load the default server settings and overwrite current values in the Server section?
    ```
 
-1. choose a `Run Mode`  
+1. Choose a `Run Mode`  
 
-   choose **publish**
+   Choose **publish**
 
 ![chlimage_1-272](assets/chlimage_1-272.png)
 
@@ -312,8 +312,8 @@ The Analytic cloud service and framework are now complete. The Mappings will be 
 
 To add the Analytics cloud service while [creating a new community site](sites-console.md):
 
-* in step 3
-* under the [ANALYTICS tab](sites-console.md#analytics):
+* In step 3
+* Under the [ANALYTICS tab](sites-console.md#analytics):
 
     * check the **Enable Analytics** checkbox
     * choose the framework from the drop-down box
@@ -324,13 +324,13 @@ To add the Analytics cloud service while [creating a new community site](sites-c
 
 To add the Analytics cloud service to an [existing community site](sites-console.md#modifying-site-properties):
 
-* navigate to the **Communities, Sites** console
-* select the community site's Edit Site icon
-* select the SETTINGS
-* in the Analytics section:
+* Navigate to the **Communities, Sites** console
+* Select the community site's Edit Site icon
+* Select the SETTINGS
+* In the Analytics section:
 
-    * check the **Enable Analytics** checkbox
-    * choose the framework from the drop-down box
+    * Check the **Enable Analytics** checkbox
+    * Choose the framework from the drop-down box
 
 * Optionally, return to the Analytics framework configuration to adjust the variable mappings.
 
@@ -513,19 +513,19 @@ Following is an example of default mappings after following the [getting started
 
 **Examples for eVar values:**
 
-* *(a) [MIME type](https://www.iana.org/assignments/media-types)*: video/mp4
-* *(b) [community site title](sites-console.md#step13asitetemplate)*: Geometrixx Communities
-* *(c) [community function name](functions.md)*: Forum
-* *(d) [community group name](creating-groups.md#creating-a-new-group)*: Hiking
-* *(e) path to community group content*: /content/sites/communities/en/groups/hiking
-* *(f) [UGC component resourceType](essentials.md)*: social/forum/components/hbs/topic
-* *(g) UGC component title*: Hiking Topics
-* *(h) login (authorizableId)*: aaron.mcdonald@mailinator.com
-* *(i) SRP path to UGC*: /content/usergenerated/asi/.../forum/jmtz-topic3  
+* * [MIME type](https://www.iana.org/assignments/media-types)*: video/mp4
+* * [community site title](sites-console.md#step13asitetemplate)*: Geometrixx Communities
+* * [community function name](functions.md)*: Forum
+* * [community group name](creating-groups.md#creating-a-new-group)*: Hiking
+* * path to community group content*: /content/sites/communities/en/groups/hiking
+* * [UGC component resourceType](essentials.md)*: social/forum/components/hbs/topic
+* * UGC component title*: Hiking Topics
+* * login (authorizableId)*: aaron.mcdonald@mailinator.com
+* * SRP path to UGC*: /content/usergenerated/asi/.../forum/jmtz-topic3  
 
   or *path of component to follow*: /content/sites/communities/en/jcr:content/content/primary/forum
 
-* *(j) path to community site content*: /content/sites/community/en
+* * path to community site content*: /content/sites/community/en
 
 ### Modifying Analytics Variable Mapping {#modifying-analytics-variable-mapping}
 
@@ -629,30 +629,30 @@ Presently, to customize the metrics to track, nodes are created in the repositor
 
 The forum topic is presently the only example of this customization:
 
-* on the primary publisher
-* sign in with administrative privileges
+* On the primary publisher
+* Sign in with administrative privileges
 * navigate to [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md)
 
-    * for example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
+    * For example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
 
-* under the jcr:content node of the language root
+* Under the jcr:content node of the language root
 
-    * for example, `/content/sites/engage/en/jcr:content`
+    * For example, `/content/sites/engage/en/jcr:content`
 
-* navigate to the component configured for Analytics reporting
+* Navigate to the component configured for Analytics reporting
 
-    * for example, `analytics/reportConfigs/social_forum_components_hbs_topic`
+    * For example, `analytics/reportConfigs/social_forum_components_hbs_topic`
 
-* notice the time periods created
+* Notice the time periods created
 
     * `last30Days`
     * `last90Days`
     * `thisYear`
 
-* notice the `total`node
+* Notice the `total`node
 
-    * modifying the **`interval`**property will override the Report Importer interval
-    * the value is in seconds, and is set to 4 hours (14400 seconds)
+    * Modifying the **`interval`**property will override the Report Importer interval
+    * The value is in seconds, and is set to 4 hours (14400 seconds)
 
 ![chlimage_1-279](assets/chlimage_1-279.png) 
 

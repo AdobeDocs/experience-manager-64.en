@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 1e96d388-8517-4a84-bb0a-d49567eb4bdf
 ---
 
-# Leaderboard Feature{#leaderboard-feature}
+# Leaderboard Feature {#leaderboard-feature}
 
 ## Introduction {#introduction}
 
@@ -21,9 +21,9 @@ Prior to including the leaderboard component on a page, it is necessary to confi
 
 This section of the documentation describes
 
-* adding the `Leaderboard` component to a [community site](overview.md#community-sites)
+* Adding the `Leaderboard` component to a [community site](overview.md#community-sites)
 
-* configuration settings for the `Leaderboard` component
+* Configuration settings for the `Leaderboard` component
 
 ## Adding a Leaderboard to a Page {#adding-a-leaderboard-to-a-page}
 
@@ -31,7 +31,7 @@ To add a `Leaderboard` component to a page in author mode, locate the component
 
 * `Communities / Leaderboard`
 
-and drag it into place on a page.
+And drag it into place on a page.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -47,7 +47,7 @@ Select the placed `Leaderboard` component to access and select the `Configure` i
 
 ### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify what information related to the member is displayed:
+Under the **Settings** tab, specify what information related to the member is displayed:
 
 * **Display Name** 
   A descriptive name to display for the board, reflecting the rules selected for displaying badges and scores.

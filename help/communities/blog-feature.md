@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: d5519211-8a04-4699-97bc-e162ec0f3781
 ---
 
-# Blog Feature{#blog-feature}
+# Blog Feature {#blog-feature}
 
 ## Introduction {#introduction}
 
@@ -32,8 +32,8 @@ The blog feature provides:
 
 This section of the documentation describes
 
-* adding the blog feature to an AEM site
-* configuration settings for blog components
+* Adding the blog feature to an AEM site
+* Configuration settings for blog components
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ If it is desired to add a blog to a page in author mode, use the component brows
 * `Communities / Blog`
 * `Communities / Blog Sidebar`
 
-and drag them into place on a page where the blog should appear.
+And drag them into place on a page where the blog should appear.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -156,7 +156,7 @@ Under the **User Moderation** tab, specify the moderation settings:
 
 * **Flag Posts** 
 
-  If checked, allow members to flag others' topics or comments as inappropriate. Default is unchecked**.** 
+  If checked, allow members to flag others' topics or comments as inappropriate. Default is unchecked. 
 
 * **Flag Reason List** 
 
@@ -164,7 +164,7 @@ Under the **User Moderation** tab, specify the moderation settings:
 
 * **Custom Flag Reason** 
 
-  If checked, allow members to enter their own reason for flagging a topic or comment as inappropriate. Default is unchecked**.** 
+  If checked, allow members to enter their own reason for flagging a topic or comment as inappropriate. Default is unchecked.
 
 * **Moderation Threshold** 
 
@@ -254,14 +254,14 @@ When the signed in user has moderator or administrator privileges, they are able
 
 When the signed in user is a community member or [privileged member](users.md#privileged-members-group) (depending on configuration), they are able to select `New Article` to create and post a new blog article.
 
-Specifically, they may
+Specifically, they may:
 
-* create a new blog article
-* post a new blog article on behalf of another member
-* post a comment to a blog article
-* edit their own blog article or comment
-* delete their own blog article or comment
-* flag others' blog articles or comments
+* Create a new blog article
+* Post a new blog article on behalf of another member
+* Post a comment to a blog article
+* Edit their own blog article or comment
+* Delete their own blog article or comment
+* Flag others' blog articles or comments
 
 ![chlimage_1-153](assets/chlimage_1-153.png) ![chlimage_1-154](assets/chlimage_1-154.png)
 

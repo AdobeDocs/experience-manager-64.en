@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ccaebb4c-cc1c-4ee7-b080-99667f348427
 ---
 
-# Activity Streams Feature{#activity-streams-feature}
+# Activity Streams Feature {#activity-streams-feature}
 
 ## Introduction {#introduction}
 
@@ -65,7 +65,7 @@ Components must be configured to enable following. Features that allow following
 
 ![chlimage_1-198](assets/chlimage_1-198.png)
 
-The **Follow **button provides a means to follow entries as activities, [notifications](notifications.md), and/or [subscriptions](subscriptions.md). Each time the **Follow **button is selected, it is possible to toggle on or off a selection. The `Email Subscriptions` selection is only present when configured.
+The **Follow** button provides a means to follow entries as activities, [notifications](notifications.md), and/or [subscriptions](subscriptions.md). Each time the **Follow** button is selected, it is possible to toggle on or off a selection. The `Email Subscriptions` selection is only present when configured.
 
 If any method of following is selected, the text of the button changes to **Following**. For convenience, it is possible to select `Unfollow All` to toggle off all methods.
 

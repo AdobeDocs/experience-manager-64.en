@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 24b6d1d2-c118-4a25-959f-2783961c4ae3
 ---
 
-# Client-side Customization{#client-side-customization}
+# Client-side Customization {#client-side-customization}
 
 | **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
@@ -29,7 +29,7 @@ Two major approaches are to overlay or extend a component.
 
 Overlaying a component is a method of making modifications to a default component and affecting all instances which use the default.
 
-The overlay is accomplished by modifying a copy of the default component in the /**apps **directory, rather than modifying the original component in the /**libs** directory. The component is constructed with an identical relative path, except 'libs' is replaced with 'apps'.
+The overlay is accomplished by modifying a copy of the default component in the /**apps** directory, rather than modifying the original component in the /**libs** directory. The component is constructed with an identical relative path, except 'libs' is replaced with 'apps'.
 
 The /apps directory is the first place searched to resolve requests, and if not found, the default version located in the/libs directory is used.
 
@@ -106,11 +106,11 @@ The custom styles will now override the default framework styles and the compone
 
 To extend a components Javascript implementation, you need only
 
-1. create a component for you app with a jcr:resourceSuperType set to the value of the extended component's jcr:resourceType, e.g. social/forum/components/hbs/forum
-1. examine the default SCF component's Javascript to determine what methods need to be registered using SCF.registerComponent()
-1. either copy the extended component's Javascript or start from scratch
-1. extend the method  
-1. use SCF.registerComponent() to register all methods with either the defaults or the customized objects and views.
+1. Create a component for you app with a jcr:resourceSuperType set to the value of the extended component's jcr:resourceType, e.g. social/forum/components/hbs/forum
+1. Examine the default SCF component's Javascript to determine what methods need to be registered using SCF.registerComponent()
+1. Either copy the extended component's Javascript or start from scratch
+1. Extend the method  
+1. Use SCF.registerComponent() to register all methods with either the defaults or the customized objects and views.
 
 ### forum.js: Sample Extension of Forum - HBS  {#forum-js-sample-extension-of-forum-hbs}
 
@@ -158,14 +158,14 @@ The clientlibs for SCF follow a very specific naming pattern for two variants, w
 
 The complete (non-author) clientlibs include dependencies and are convenient for including with ui:includeClientLib.
 
-These versions are found in
+These versions are found in:
 
 * /etc/clientlibs/social/hbs/&lt;component name&gt;
 
-For example
+For example:
 
-* client folder node: /etc/clientlibs/social/hbs/forum 
-* categories property: cq.social.hbs.forum
+* Client folder node: /etc/clientlibs/social/hbs/forum 
+* Categories property: cq.social.hbs.forum
 
 The [Community Components guide](components-guide.md) lists the complete clientlibs required for each SCF component.
 
@@ -181,10 +181,10 @@ These versions are found in the SCF libs folder:
 
 * /libs/social/&lt;feature&gt;/components/hbs/&lt;component name&gt;/clientlibs
 
-For example
+For example:
 
-* client folder node: /libs/social/forum/hbs/forum/clientlibs 
-* categories property: cq.social.author.hbs.forum
+* Client folder node: /libs/social/forum/hbs/forum/clientlibs 
+* Categories property: cq.social.author.hbs.forum
 
 Note: while author clientlibs never embed other libraries, they do list their dependencies. When embedded in other libraries, the dependencies are not automatically pulled in and must be embedded as well.
 

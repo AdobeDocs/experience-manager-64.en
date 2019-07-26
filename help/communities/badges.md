@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4194278f-5127-4105-b181-60961c7a1def
 ---
 
-# Badges Console{#badges-console}
+# Badges Console {#badges-console}
 
 ## About Badges {#about-badges}
 
@@ -21,15 +21,15 @@ The Communities Badges console provides the ability to add custom badges which c
 
 Currently, badges a community member earns or is assigned will appear along with their name and avatar in the following locations:
 
-* profiles
-* [forums](forum.md)
+* Profiles
+* [Forums](forum.md)
 * [QnA](working-with-qna.md)
-* [leaderboards](enabling-leaderboard.md)
-* [ideation](ideation-feature.md)
+* [Leaderboards](enabling-leaderboard.md)
+* [Ideation](ideation-feature.md)
 
 In the author environment, to reach the Badges console
 
-* from global navigation: **Tools, Communities, Badges**
+* From global navigation: **Tools, Communities, Badges**
 
 This console displays the badges currently available and from which new badges can be added.
 

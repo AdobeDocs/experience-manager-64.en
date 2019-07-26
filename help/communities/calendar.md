@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 8b8e74c5-8b65-4117-9ef0-da9d9e47191f
 ---
 
-# Calendar Feature{#calendar-feature}
+# Calendar Feature {#calendar-feature}
 
 ## Introduction {#introduction}
 
@@ -28,7 +28,7 @@ To add a `Calendar` component to a page in author mode, use the component browse
 
 * `Communities / Calendar`
 
-and drag it into place on a page, such as a position relative to the feature for users to review.
+And drag it into place on a page, such as a position relative to the feature for users to review.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -44,7 +44,7 @@ Select the placed `Calendar`component to access and select the `Configure` icon 
 
 #### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify whether or not to allow tags to be applied to calendar entries.
+Under the **Settings** tab, specify whether or not to allow tags to be applied to calendar entries.
 
 * **Events Per Page** 
 
@@ -112,7 +112,7 @@ Under the **Settings **tab, specify whether or not to allow tags to be applied t
 
 * **Allow Featured Content** 
 
-  if checked, the idea is able to be identified as [featured content](featured.md). Default is unchecked.
+  If checked, the idea is able to be identified as [featured content](featured.md). Default is unchecked.
 
 Under the **User Moderation** tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
@@ -148,15 +148,15 @@ Under the **User Moderation** tab, specify how the posted topics and replies (us
 
 #### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings **tab, are limited according to namespaces chosen.
+Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
 
 * **Allowed Namespaces** 
 
-  Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
+  Relevant if `Allow Tagging` is checked under the **Settings** tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
 
 * **Suggestion Limit** 
 
-  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is **-**1 (no limits).
+  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is **-** 1 (no limits).
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 
 #### Translation tab {#translation-tab}
 
-Under the **Translation **tab, if translation is enabled for the community site, translation may be set to translate the entire thread (event and comments) instead of specific posts.
+Under the **Translation** tab, if translation is enabled for the community site, translation may be set to translate the entire thread (event and comments) instead of specific posts.
 
 * **Translate All** 
 
@@ -190,11 +190,11 @@ When the signed in user is a community member or [privileged member](users.md#pr
 
 Specifically, they may
 
-* create a new calendar event
-* post a comment to a calendar event
-* edit their own calendar event or comment
-* delete their own calendar event or comment
-* flag others' calendar events or comments
+* Create a new calendar event
+* Post a comment to a calendar event
+* Edit their own calendar event or comment
+* Delete their own calendar event or comment
+* Flag others' calendar events or comments
 
 ![chlimage_1-116](assets/chlimage_1-116.png) ![chlimage_1-117](assets/chlimage_1-117.png)
 
