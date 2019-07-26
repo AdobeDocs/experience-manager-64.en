@@ -1,6 +1,6 @@
 ---
-title: DO NOT PUBLISH Create your first adaptive form
-seo-title: DO NOT PUBLISH Create your first adaptive form
+title: Create your first adaptive form
+seo-title: Create your first adaptive form
 description: Learn to create business class, interactive, and responsive forms. 
 seo-description: Learn to create business class, interactive, and responsive forms. 
 page-status-flag: de-activated
@@ -9,7 +9,7 @@ topic-tags: introduction
 discoiquuid: 4e247e70-c50a-4571-8ac1-fbbb07100262
 ---
 
-# DO NOT PUBLISH Create your first adaptive form {#do-not-publish-create-your-first-adaptive-form}
+# Create your first adaptive form {#do-not-publish-create-your-first-adaptive-form}
 
  ![01-create-first-adaptive-form-hero-image](assets/01-create-first-adaptive-form-hero-image.png)
 

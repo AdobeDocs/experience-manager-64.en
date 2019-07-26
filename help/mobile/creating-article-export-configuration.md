@@ -47,7 +47,7 @@ The ContentSync configuration found at **&lt;dps-exportTemplate&gt;/dps-article&
 To view sample shared resource, see the steps below:
 
 1. Open CRXDE Lite on your AEM server.
-1. Browse to this path * [/etc/contentsync/templates/dps-we-unlimited-app/dps-article](http://localhost:4502/crx/de/index.jsp#/etc/contentsync/templates/dps-we-unlimited-app/dps-article)*, to view the sample shared resources.
+1. Browse to this path [/etc/contentsync/templates/dps-we-unlimited-app/dps-article](http://localhost:4502/crx/de/index.jsp#/etc/contentsync/templates/dps-we-unlimited-app/dps-article), to view the sample shared resources.
 
    You can view all the properties required for creating your shared resources as shown in the figure below:
 

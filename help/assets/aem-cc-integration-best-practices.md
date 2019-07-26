@@ -83,13 +83,13 @@ The following table provides a concise summary of when to use which solution or 
    <th>Other Solutions</th> 
   </tr> 
   <tr> 
-   <td>Share smaller number <a href="/help/assets/aem-cc-integration-best-practices.md#main-pars-text-541977675">[1]</a> of DAM assets with Creative user</td> 
+   <td>Share smaller number [1] of DAM assets with Creative user</td> 
    <td>✔✔</td> 
    <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Share larger number <a href="/help/assets/aem-cc-integration-best-practices.md#main-pars-text-541977675">[2]</a> of DAM assets with Creative user</td> 
+   <td>Share larger number [2] of DAM assets with Creative user</td> 
    <td>✔✔</td> 
    <td>✘</td> 
    <td><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="/help/assets/assets-finder-editor.md">Asset Share</a></p> </td> 
@@ -113,7 +113,7 @@ The following table provides a concise summary of when to use which solution or 
    <td><a href="/help/assets/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></td> 
   </tr> 
   <tr> 
-   <td>Save larger number of assets to DAM <a href="/help/assets/aem-cc-integration-best-practices.md#main-pars-text-541977675">[3]</a></td> 
+   <td>Save larger number of assets to DAM [3]</td> 
    <td>✔✔</td> 
    <td>✘</td> 
    <td><p><a href="/help/assets/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></p> <p>Custom script / tool </p> </td> 

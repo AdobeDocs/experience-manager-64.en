@@ -47,6 +47,7 @@ For an overview and getting started tutorials, visit:
     * [Component Guide](components-guide.md)
     * [Badges](badges.md)
 
+
 ### User Generated Content {#user-generated-content}
 
 A major feature of AEM Communities is the generation of user generated content (UGC) by signed in site visitors (members). To learn more about working with UGC visit:
@@ -97,4 +98,3 @@ See the deployment page for other Communities specific information, such as for 
 * Visit [Developing Communities](communities.md) to learn about the social component framework (SCF) and customizing Communities components and features.
 
 * Visit [Authoring Communities Components](author-communities.md) to learn how to author with and configure Communities components.
-

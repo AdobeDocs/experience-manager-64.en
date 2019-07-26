@@ -40,7 +40,7 @@ Adobe Mobile Analytics SDK provides the following:
 
 This section describes how [AEM Developers](#developers) can then learn how to instrument AEM Mobile apps with analytics tracking.
 
-Finally, [AEM Administrators](#administrators)* *learn to:
+Finally, [AEM Administrators](#administrators) learn to:
 
 * create a cloud service to Adobe Mobile Services
 * create a mobile service config and associate a report suite
@@ -70,7 +70,7 @@ To begin, click on the '+' button on the Manage Cloud Services tile in the dashb
 
 ![chlimage_1-126](assets/chlimage_1-126.png)
 
-Upon clicking the '**+**' button, the **Add Cloud Service **wizard will be displayed.
+Upon clicking the '**+**' button, the **Add Cloud Service** wizard will be displayed.
 
 ![chlimage_1-127](assets/chlimage_1-127.png)
 

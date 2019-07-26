@@ -69,7 +69,7 @@ Mobile applications are based on a blueprint that defines a page structure and p
 * **Description:** A description of the application.
 * **Server URL:** The URL that provides Over-the-Air (OTA) content updates to the application. The default value is the publish server URL of the instance that is used to create an application (taken from the externalizer service). Note, this must be a publish server instance rather than an author, which requires authentication.
 
-You can also provide an image file to use as the application thumbnail, select the PhoneGap Build configuration to use, and select the Mobile App analytics configuration to use. This image is only used as a thumbnail to represent your mobile application within the mobile apps console in Experience Manager. 
+You can also provide an image file to use as the application thumbnail, select the PhoneGap Build configuration to use, and select the Mobile App analytics configuration to use. This image is only used as a thumbnail to represent your mobile application within the mobile apps console in Experience Manager.
 
 Additional (and optional) tabs exist for build cloud service and integrating the Adobe Mobile Services SDK plug-in into your app.
 
@@ -138,7 +138,7 @@ After you create a mobile application, you can change the properties.
 After you create the mobile application, add content that is used as the application UI.
 
 1. On the rail, click or tap Apps.
-1. Click or tap the application, then click or tap English. 
+1. Click or tap the application, then click or tap English.
 1. Edit the Home page, or add child pages as required.
 
 ### Moving Content to Mobile Applications {#moving-content-to-mobile-applications}
@@ -159,7 +159,7 @@ Content Sync also tracks when the updates occur. With this information, Content 
 Perform the following procedure on the instance where you want to update the cache. For example, if your application requests updates from the publish instance, perform the procedure on the publish instance.
 
 1. On the rail, click or tap Apps, then click or tap your application.
-1. Select the splash page, and then click or tap the Update Cache icon. 
+1. Select the splash page, and then click or tap the Update Cache icon.
 
    ![](do-not-localize/chlimage_1-14.png)
 
@@ -167,7 +167,7 @@ Perform the following procedure on the instance where you want to update the cac
 
 This is a feature that is available with Apps 6.1 Feature Pack 2 and provides an easy way to leverage existing app templates for the creation of new apps within AEM.
 
-What is an app template? Think of it as a collection of page templates and components that represent a baseline or foundation of an app.   
+What is an app template? Think of it as a collection of page templates and components that represent a baseline or foundation of an app.
 When creating a new app based on the template of another app, you will get an app that has a starting point representative of the app in which it was created from.
 
 You must have an existing mobile app template (or an app installed that has an app template) to make use of this feature.
@@ -186,7 +186,7 @@ Steps to creating a new app based on an app template:
 
 ![chlimage_1-2](assets/chlimage_1-2.jpeg)
 
-1. Click Next. 
+1. Click Next.
 1. Provide an App Id and Title, however you might want to also include a Name and a Description.
 
     1. Additionally, you can provide a PNG (supported PhoneGap icon format) as an icon by browsing AEM assets.
@@ -194,7 +194,7 @@ Steps to creating a new app based on an app template:
 
 ![chlimage_1-150](assets/chlimage_1-150.png)
 
-1. Click the create button, you will be presented with 2 options, either Done (go back to Apps catalog view) or Manage App (opens the app dashboard). 
+1. Click the create button, you will be presented with 2 options, either Done (go back to Apps catalog view) or Manage App (opens the app dashboard).
 1. Once created, you should see the new app listed in the App catalog:
 
 ![chlimage_1-3](assets/chlimage_1-3.jpeg)
@@ -218,10 +218,10 @@ Each page of the mobile app includes the following features:
 * A back button for returning to the parent page. Note that the back button does not appear on the Home page.
 * An expandible rail that offers a menu of commands and links:
 
-    * Open the Locations page.
-    * Open the Cart.
-    * Log in.
-    * Update the application.
+  * Open the Locations page.
+  * Open the Cart.
+  * Log in.
+  * Update the application.
 
 * The paragraph system, for adding components and creating content.
 
@@ -241,7 +241,7 @@ The Gear page provides users with access to product pages. A Menu list component
 * Gender
 * Activity
 
-Each category page uses the same content structure as the Gear page. The carousel provides access to child pages which are subcategories of products. The subcategory pages contain product listings that provide links to product pages. 
+Each category page uses the same content structure as the Gear page. The carousel provides access to child pages which are subcategories of products. The subcategory pages contain product listings that provide links to product pages.
 
 ### The Products Page - Geometrixx Mobile App {#the-products-page-geometrixx-mobile-app}
 
@@ -352,4 +352,3 @@ The component requires that the repository contains location information for eac
 Enables you to add side-by-side components to a page.
 
 ![chlimage_1-153](assets/chlimage_1-153.png)
-

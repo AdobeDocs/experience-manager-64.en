@@ -45,7 +45,6 @@ The general workflow to publish/unpublish an article:
 
 ![chlimage_1-9](assets/chlimage_1-9.gif)
 
-
 ### The Next Steps {#the-next-steps}
 
 Once you have learned about creating and publishing content, See
@@ -56,4 +55,3 @@ Once you have learned about creating and publishing content, See
 Or still need to learn about the authoring topics, See
 
 [Authoring AEM Content for AEM Mobile On-Demand Services Apps](/help/mobile/mobile-apps-ondemand.md)
-

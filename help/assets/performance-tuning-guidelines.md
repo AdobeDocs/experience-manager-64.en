@@ -219,6 +219,8 @@ In addition, set the path of ImageMagick's temporary folder in the *configure.xm
 >
 >If you are using AEM on Adobe Managed Services (AMS), reach out to Adobe Support if you plan to process lots of large PSD or PSB files.
 
+<!-- 
+
 #### Sub-asset generation and page extraction {#sub-asset-generation-and-page-extraction}
 
 During asset uploads, AEM's workflow creates a separate asset for each page in PDF and Office documents. Each of these pages is an asset by itself, which consumes additional disk space, requires versioning and additional workflow processing. If you do not require separate pages, disable Sub Asset Generation and Page Extraction.
@@ -242,7 +244,9 @@ To disable Page Extraction:
 1. Click **[!UICONTROL Edit]**
 1. Select **[!UICONTROL Disable]**
 1. Click **[!UICONTROL OK]**
-1. Repeat steps 3-6 for other launcher items that use **DAM Parse Word Documents **workflow model
+1. Repeat steps 3-6 for other launcher items that use **DAM Parse Word Documents **workflow model 
+
+-->
 
 ### XMP writeback {#xmp-writeback}
 
@@ -253,6 +257,8 @@ XMP writeback updates the original asset whenever metadata is modified in AEM, w
 * DAM Update Asset is run against the asset
 
 The outcomes listed consume considerable resources. Therefore, Adobe recommends [disabling XMP Writeback](https://helpx.adobe.com/experience-manager/kb/disable-xmp-writeback.html), if it is not required.
+
+Importing a large amount of metadata can result in resource-intensive XMP writeback activity if run workflows flag is checked. Plan such an import during lean server usage so that performance for other users is not impacted.
 
 ## Replication {#replication}
 

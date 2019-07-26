@@ -56,7 +56,7 @@ While an AEM Administrator will:
 
 #### Using the Apple Push Notification Service (APNS) {#using-the-apple-push-notification-service-apns}
 
-Go to the Apple page [here](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)to become familiar with the Apple Push Notification Service.
+Go to the Apple page [here](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html) to become familiar with the Apple Push Notification Service.
 
 To use APNS you will need a **Certificate** file (a .cer file), a push **Private Key** (a .p12 file) and a **Private Key Password** from Apple. Instructions on how to do that can be found [here](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ProvisioningDevelopment.html).
 
@@ -66,9 +66,9 @@ To use APNS you will need a **Certificate** file (a .cer file), a push **Private
 >
 >Google is replacing GCM with a similar service called Firebase Cloud Messaging (FCM). For more information on FCM, click [here](https://developers.google.com/cloud-messaging/faq).
 
-Go to the Google page [here](https://developer.android.com/google/gcm/index.html)to become familiar with Google Cloud Messaging for Android.
+Go to the Google page [here](https://developer.android.com/google/gcm/index.html) to become familiar with Google Cloud Messaging for Android.
 
-You will need to follow the steps [here](https://developer.android.com/google/gcm/gs.html)to **Create a Google API project**, **Enable the GCM Service**, and **Obtain an API Key**. You will need the **API Key** to send push notifications to Android devices. Also, record your **Project Number**, which is also sometimes called a **GCM Sender Id**.
+You will need to follow the steps [here](https://developer.android.com/google/gcm/gs.html) to **Create a Google API project**, **Enable the GCM Service**, and **Obtain an API Key**. You will need the **API Key** to send push notifications to Android devices. Also, record your **Project Number**, which is also sometimes called a **GCM Sender Id**.
 
 The following steps shows a different method of creating GCM API Keys:
 
@@ -290,7 +290,7 @@ To create a new notification and send it, follow these steps.
 1. Send the notification
 
     * In the Apps dashboard, find the Push Notifications tile.
-    * Select the notification, or click on the details button on the bottom right (`**. . .**`), to show the list of notifications. This list also indicates if a notification is ready to be sent, has already been sent, or if an error occurred during sending.
+    * Select the notification, or click on the details button on the bottom right (. . .), to show the list of notifications. This list also indicates if a notification is ready to be sent, has already been sent, or if an error occurred during sending.
     * Select the checkbox for one notification (only) and click the "Send Notification" button above the list. You will have one chance to "Cancel" or "Send" the notification on the dialog that appears.
 
 1. Dealing with the results
@@ -354,9 +354,9 @@ Once the **Push Notifications** tile displays in your dashboard, use the create 
 
    >[!NOTE]
    >
-   >*The Link Button Text is limited to 20 characters. *
+   >The Link Button Text is limited to 20 characters. 
    >
-   >*If the end user doesn't have the latest version of the application and the linked path isn't available, confirming the action of the deep link will bring the user to the main page of the app. *
+   >If the end user doesn't have the latest version of the application and the linked path isn't available, confirming the action of the deep link will bring the user to the main page of the app. 
 
 1. Enter the **Text Details** in the **Create Notification Wizard** and click **Create**.
 

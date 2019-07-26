@@ -48,7 +48,7 @@ To configure the List pane, tap the Search and Lister component and then tap ![s
 ![List pane in edit mode](assets/edit-list.png)
 **Figure:** *List pane in edit mode*
 
-The **Edit **dialog includes several tabs that provide configuration options described in the table below. Tap **OK **to save the configuration, when done.
+The **[!UICONTROL Edit]** dialog includes several tabs that provide configuration options described in the table below. Tap **[!UICONTROL OK]** to save the configuration, when done.
 
 <table> 
  <tbody> 
@@ -163,13 +163,13 @@ To configure the Date Predicate component:
 1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The Edit dialog opens.
 1. Specify the following:
 
-    * **Type:** The only option available is **Last Modified Date**
-    * **Text:** Label or caption for the Date Predicate Component. The default value is **Last Modified Date.**
-    * **Start Date Label:** Label or caption of start date field
-    * **End Date Label:** Label or caption for end date field
-    * **Hide:** To enforce default date filter to list forms
+    * **[!UICONTROL Type:]** The only option available is **[!UICONTROL Last Modified Date]**.
+    * **[!UICONTROL Text:]** Label or caption for the Date Predicate Component. The default value is **[!UICONTROL Last Modified Date]**.
+    * **[!UICONTROL Start Date Label:]** Label or caption of start date field.
+    * **[!UICONTROL End Date Label:]** Label or caption for end date field.
+    * **[!UICONTROL Hide:]** To enforce default date filter to list forms.
 
-1. Tap **OK**
+1. Tap **[!UICONTROL OK]**.
 
 #### Full Text Predicate {#full-text-predicate}
 
@@ -178,8 +178,8 @@ The Full Text Predicate component implements full text search on form data, such
 To configure the Full Text Predicate component:
 
 1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The Edit dialog opens.
-1. Specify the title in the **Main Title **field.
-1. Tap **Ok**
+1. Specify the title in the **[!UICONTROL Main Title]** field.
+1. Tap **[!UICONTROL Ok]**.
 
 #### Properties Predicate {#properties-predicate}
 
@@ -187,16 +187,16 @@ The Properties Predicate component implements searching of forms based on form p
 
 To configure the Properties Predicate component:
 
-1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The Edit dialog opens.
-1. In the General tab, specify the search label. The default value is **Properties** 
+1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The **[!UICONTROL Edit dialog]** opens.
+1. In the **[!UICONTROL General]** tab, specify the search label. The default value is **[!UICONTROL Properties]**.
 
-1. In the Options tab, tap **Add Item.**
+1. In the **[!UICONTROL Options]** tab, tap **[!UICONTROL Add Item]**.
 1. Select a property from the drop-down list and specify a search label for it in the field below the drop-down list.  
 1. Repeat step 4 to add more properties. You can also specify a default filter value to list forms based on the specified criteria and hide the property for search by end users. Select the Hide checkbox for a property and specify the default filter value.
 
    For example, if you want to display forms that contain "Travel" in their titles, select Hide next to the Title property. In addition, specify Travel in default filter value text box.  
 
-1. Tap **OK**
+1. Tap **[!UICONTROL OK]**.
 
 #### Tags Predicate {#tags-predicate}
 
@@ -204,10 +204,10 @@ The Tags Predicate component implements searching of forms based on tags defined
 
 To configure the Tags Predicate component:
 
-1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The Edit dialog opens.
+1. Tap the component and then tap ![settings_icon](assets/settings_icon.png). The **[!UICONTROL Edit dialog]** opens.
 1. Tap the down-arrow button next to the Tags field.  
-1. Select appropriate tags
-1. Tap **OK**
+1. Select appropriate tags.
+1. Tap **[!UICONTROL OK]**.
 
 The selected tags appear in the Search pane along with the check boxes for selection. Users can now narrow down their search based on the tags.
 

@@ -62,7 +62,7 @@ Open the following URL on the publish instance to trigger a newsletter email. En
 
 ### Sarah finds the offer interesting and chooses to apply {#sarah-finds-the-offer-interesting-and-chooses-to-apply}
 
-Sarah decides to apply for the credit card and taps **Apply Now** button on the email. It takes Sarah to the credit card application on We.Finance portal. The application form is organized in sections using a card layout.
+Sarah decides to apply for the credit card and taps **[!UICONTROL Apply Now]** button on the email. It takes Sarah to the credit card application on We.Finance portal. The application form is organized in sections using a card layout.
 
 Sarah selects a credit card from the available options and clicks **[!UICONTROL Continue]**.
 
@@ -89,7 +89,7 @@ If Sarah is accessing the credit card application from her mobile device, the re
 
 ### How it works {#a-how-it-works}
 
-The **Apply Now** button directs Sarah to the credit card application. The application is an adaptive form, which you can review in the authoring instances at `https://[host]:[Port]/editor.html/content/forms/af/we-finance/cc-app.html`.
+The **[!UICONTROL Apply Now]** button directs Sarah to the credit card application. The application is an adaptive form, which you can review in the authoring instances at `https://[host]:[Port]/editor.html/content/forms/af/we-finance/cc-app.html`.
 
 Some of the key features you can review in the adaptive form are:
 
@@ -115,7 +115,7 @@ Also, see the following documentation for more information about features used i
 
 ### See it yourself {#a-see-it-yourself}
 
-When logged in as Sarah Rose, click the **Apply now** button on the credit card application. Fill in some details, explore various adaptive form components, and click **Save my progress** to receive an email with a **Resume** button that links to the draft application. Ensure that you specify your email ID in the application form to receive the email.
+When logged in as Sarah Rose, click the **[!UICONTROL Apply now]** button on the credit card application. Fill in some details, explore various adaptive form components, and click **[!UICONTROL Save my progress]** to receive an email with a **[!UICONTROL Resume]** button that links to the draft application. Ensure that you specify your email ID in the application form to receive the email.
 
 Review the We.Finance Theme available at:
 
@@ -127,11 +127,11 @@ You can review the We.Finance Template at:
 
 ### Sarah resumes and submits the application {#sarah-resumes-and-submits-the-application}
 
-Sarah comes back later and finds an email from We.Finance. She clicks the **Resume** button in the email that takes her to her draft credit card application. The information that she filled earlier comes prepopulated. She fills the remaining application form, signs the application, and submits it.
+Sarah comes back later and finds an email from We.Finance. She clicks the **[!UICONTROL Resume]** button in the email that takes her to her draft credit card application. The information that she filled earlier comes prepopulated. She fills the remaining application form, signs the application, and submits it.
 
 ![resume-1](assets/resume-1.png)
 
-Alternatively, she can access her draft application under **My Forms** on We.Finance home page.
+Alternatively, she can access her draft application under **[!UICONTROL My Forms]** on We.Finance home page.
 
 ![portal-drafts](assets/portal-drafts.png) 
 
@@ -161,7 +161,7 @@ The following image depicts the AEM workflow that processes the credit card appl
 
 #### See it yourself {#see-it-yourself-2}
 
-You can access AEM inbox for the we.finance site at https://<*hostname*>:<*PublishPort*>/content/we-finance/global/en.html. On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios, and approve the credit card application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](/help/forms/using/manage-applications-inbox.md).
+You can access AEM inbox for the we.finance site at https://<*hostname*>:<*PublishPort*>/content/we-finance/global/en.html. On the page, tap **[!UICONTROL Sign In]**, select the **[!UICONTROL Login as representative]** checkbox, log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios, and approve the credit card application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](/help/forms/using/manage-applications-inbox.md).
 
 ![inbox-1](assets/inbox-1.png)
 
@@ -189,7 +189,7 @@ The add-on card application is an embedded adaptive form in the welcome kit inte
 
 #### See it yourself {#see-it-yourself-3}
 
-Click the Resume button in the email that you received in the previous step. It opens the draft application. Fill in all the details and submit the application. You will then receive a welcome kit. Review the welcome kit.
+Click the **[!UICONTROL Resume]** button in the email that you received in the previous step. It opens the draft application. Fill in all the details and submit the application. You will then receive a welcome kit. Review the welcome kit.
 
 You can also view the welcome kit at the following URL:
 
@@ -253,10 +253,10 @@ The performance metrics for the credit card application form are tracked using A
 
 For you to view and explore the analytics report, we are providing seed data for the credit card application in the reference site. Before you use seed data, see [Configure Analytics](/help/forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
 
-1. Go to **Forms & Documents** UI at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
+1. Go to **[!UICONTROL Forms & Documents]** UI at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 
-1. Click to open the **We.Finance** Folder.
-1. Select **Application for Credit Card** adaptive form, and then in the toolbar, click **[!UICONTROL Enable Analytics]**.
+1. Click to open the **[!UICONTROL We.Finance]** Folder.
+1. Select **[!UICONTROL Application for Credit Card]** adaptive form, and then in the toolbar, click **[!UICONTROL Enable Analytics]**.
 
 1. Select the adaptive form again and click **[!UICONTROL Analytics Report]** in the toolbar to generate the report. You will see a a blank report initially.
 
@@ -279,15 +279,15 @@ To configure Target in AEM Forms server, see [Set up and integrate Target in AEM
 
 Perform the following steps to experience the creation of A/B test for We.Finance credit card application form:
 
-1. Go to **Forms & Documents** at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
+1. Go to **[!UICONTROL Forms & Documents]** at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 
-1. Click to open the **We.Finance** folder.
-1. Select **Application for Credit Card** adaptive form.
-1. Click **More** in toolbar and select **Configure A/B Testing**. The Configure A/B testing page opens.  
+1. Click to open the **[!UICONTROL We.Finance]** folder.
+1. Select **[!UICONTROL Application for Credit Card]** adaptive form.
+1. Click **[!UICONTROL More]** in toolbar and select **[!UICONTROL Configure A/B Testing]**. The Configure A/B testing page opens.  
 
-1. Specify an **Activity Name**.
+1. Specify an **[!UICONTROL Activity Name]**.
 1. From the Audience drop-down list, select an audience to whom you want to serve different experiences of the form. For example, **Visitors Using Chrome**.
-1. In the **Experience Distribution** fields for experiences A and B, specify the distribution, in terms of percentage, to determine the distribution of experiences among the total audience. For example, if you specify 40, 60 for experiences A and B, respectively, the experience A will be served to the 40% of the audience and the remaining 60% will see the experience B.
+1. In the **[!UICONTROL Experience Distribution]** fields for experiences A and B, specify the distribution, in terms of percentage, to determine the distribution of experiences among the total audience. For example, if you specify 40, 60 for experiences A and B, respectively, the experience A will be served to the 40% of the audience and the remaining 60% will see the experience B.
 1. Click **Configure**. A dialog appears to confirm the creation of the A/B test.
 1. Click **Done**.
 1. Select the **Application for Credit Card** form and click **Edit**. It gives the option to open one of the experiences. Click **Experience B**. The form opens in the edit mode.

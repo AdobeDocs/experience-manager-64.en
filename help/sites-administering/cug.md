@@ -75,6 +75,12 @@ To apply the CUG to a page:
 
    ![screenshot_2018-10-30at163003](assets/screenshot_2018-10-30at163003.png)
 
+   >[NOTE!]
+   >
+   > Note that CUGs in the Permissions tab cannot be rolled back from Blueprints to Live Copies. Please plan around this when configuring Live Copy.
+   >
+   > For more information, see [this page](closed-user-groups.md#aem-livecopy).
+
 1. Look for and add your CUG in the following window - in this case add the group named **cug_access**. Finally, press **Save**.
 1. Click **Enabled** to define that this page (and any child pages) belong to a CUG.
 1. Specify the **Login Page** that members of the group will use; for example:
