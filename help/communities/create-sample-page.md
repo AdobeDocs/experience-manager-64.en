@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: a03145f7-6697-4797-b73e-6f8d241ce469
 ---
 
-# Create a Sample Page{#create-a-sample-page}
+# Create a Sample Page {#create-a-sample-page}
 
 As of AEM 6.1 Communities, the easiest way to create a sample page is to create a simple community site, consisting simply of a Page function.
 
@@ -33,7 +33,7 @@ From global navigation on an author instance select **Tools, Communities, Site T
 
 ![chlimage_1-82](assets/chlimage_1-82.png)
 
-* select `Create button`
+* Select `Create button`
 * BASIC INFO
 
     * `Name`: Single Page Template
@@ -44,16 +44,16 @@ From global navigation on an author instance select **Tools, Communities, Site T
 
 * STRUCTURE
 
-    * drag a `Page`function to the Template Builder
-    * for Configuration Function Details, enter
+    * Drag a `Page` function to the Template Builder
+    * For Configuration Function Details, enter
 
         * `Title`: Single Page
         * `URL`: page
 
 ![chlimage_1-84](assets/chlimage_1-84.png)
 
-* select **`Save`**for the configuration
-* select **`Save`**for the site template
+* Select **`Save`** for the configuration
+* Select **`Save`** for the site template
 
 ### Create New Community Site {#create-new-community-site}
 
@@ -63,13 +63,13 @@ After creating the site template, from global navigation select **Communities**,
 
 ![chlimage_1-85](assets/chlimage_1-85.png)
 
-* select**`Create`** `icon`
+* Select **`Create`** icon
 
-* step `1 - Site Template`
+* Step `1 - Site Template`
 
     * `Title`: Simple Community Site
     * `Description`: A Community Site consisiting of a single page for experimentation.
-    * `Community Site Root:* (leave blank)*`
+    * `Community Site Root: (leave blank)`
     * `Community Site Base Language: English`
     * `Name`: sample
 
@@ -79,17 +79,17 @@ After creating the site template, from global navigation select **Communities**,
 
 ![chlimage_1-86](assets/chlimage_1-86.png)
 
-* select `Next`
-* step `2 - Design`
+* Select `Next`
+* Step `2 - Design`
 
-    * select any design
+    * Select any design
 
-* select `Next`
-* select `Next`  
+* Select `Next`
+* Select `Next`  
 
-  (accept all default Settings)
+  (Accept all default Settings)
 
-* select `Create`
+* Select `Create`
 
 ![chlimage_1-87](assets/chlimage_1-87.png)
 

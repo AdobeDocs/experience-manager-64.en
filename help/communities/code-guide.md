@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 244cd43c-a573-495d-b80c-b97ba9d19b75
 ---
 
-# Coding Guidelines{#coding-guidelines}
+# Coding Guidelines {#coding-guidelines}
 
 ## Guidelines, Tips and Tricks {#guidelines-tips-and-tricks}
 

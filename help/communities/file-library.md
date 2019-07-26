@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: cdcae09f-c3cb-471e-863f-b33130e9df0f
 ---
 
-# File Library Feature{#file-library-feature}
+# File Library Feature {#file-library-feature}
 
 ## Introduction {#introduction}
 
@@ -19,8 +19,8 @@ The file library feature provides a place for signed-in site visitors (community
 
 This section of the documentation describes
 
-* adding the file library feature to an AEM site
-* configuration settings for the `File Library` component
+* Adding the file library feature to an AEM site
+* Configuration settings for the `File Library` component
 
 ## Adding a File Library to a Page {#adding-a-file-library-to-a-page}
 
@@ -28,7 +28,7 @@ To add a `File Library` component to a page in author mode, locate the component
 
 * `Communities / File Library`
 
-and drag it into place on a page.
+And drag it into place on a page.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -44,7 +44,7 @@ Select the placed `File Library` component to access and select the `Configure` 
 
 ### Comments tab {#comments-tab}
 
-Under the **Comments **tab, specify if and how comments for uploaded files appear:
+Under the **Comments** tab, specify if and how comments for uploaded files appear:
 
 * **Allow Comments on Files** 
   If checked, allow comments on uploaded files. Default is unchecked.

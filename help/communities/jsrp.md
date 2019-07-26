@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: f5316a73-84e2-4a18-98c1-a384eeaa77cf
 ---
 
-# JSRP - JCR Storage Resource Provider{#jsrp-jcr-storage-resource-provider}
+# JSRP - JCR Storage Resource Provider {#jsrp-jcr-storage-resource-provider}
 
 ## About JSRP {#about-jsrp}
 

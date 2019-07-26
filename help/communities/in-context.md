@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ee104f6f-123b-4a6e-9031-849fc1318cc5
 ---
 
-# In-Context Moderation{#in-context-moderation}
+# In-Context Moderation {#in-context-moderation}
 
 For AEM Communities, moderation may be performed by administrators and trusted community members directly on the published page where the community content was posted.
 
@@ -25,11 +25,11 @@ Visit the moderation overview for a description of [moderation actions](moderate
 
 The UI presented to the moderator on the publish instance is contained within the dialog for posting and managing user generated content (UGC). The elements of the UI are determined by the status of the site visitor - whether they are...
 
-1. the member who posted the content  
-1. a trusted member moderator  
-1. an administrator  
-1. signed in, but neither an administrator, moderator, nor author of the content  
-1. not signed in
+1. The member who posted the content  
+1. A trusted member moderator  
+1. An administrator  
+1. Signed in, but neither an administrator, moderator, nor author of the content  
+1. Not signed in
 
 ## Example {#example}
 
@@ -45,39 +45,39 @@ For more on community user groups, visit [Managing Users and User Groups](users.
 
 * Log In as Rebekah Larsen (rebekah.larsen@trashymail.com)
 
-    * select Forum
-    * select New Post
-    * enter the Subject  
+    * Select Forum
+    * Select New Post
+    * Enter the Subject  
 
       When to change the nectar in Humming Bird Feeder
 
-    * enter the body text  
+    * Enter the body text  
 
       I haven't had much success when I hang a hummingbird feeder up every year. Seems they come a day or two then that is it. I change it once a week is that too long? Do I need to change it sooner?
-    * select Post
-    * select Log Out
+    * Select Post
+    * Select Log Out
 
 * Log In as Aaron McDonald (aaron.mcdonald@mailinator.com)
 
-    * select Forum
-    * for the Hummingbird Topic, select Read More
-    * enter the comment for Post Reply  
+    * Select Forum
+    * For the Hummingbird Topic, select Read More
+    * Enter the comment for Post Reply  
 
       I change mine once a week and I get them from May til October.
 
-    * select Reply
-    * select Log Out
+    * Select Reply
+    * Select Log Out
 
 * Log In as Andrew Schaeffer (andrew.schaeffer@trashymail.com)
 
-    * select Forum
-    * for the Hummingbird Topic, select Read More
-    * enter the comment for Post Reply  
+    * Select Forum
+    * For the Hummingbird Topic, select Read More
+    * Enter the comment for Post Reply  
 
       I sell nectar and feeders - visit https://my.viral.url/
 
-    * select Reply
-    * select Log Out
+    * Select Reply
+    * Select Log Out
 
 ### Anonymous Site Visitor (#5) {#anonymous-site-visitor}
 
@@ -111,8 +111,8 @@ Log In as an Administrator (admin) and access the thread by selecting Forum, and
 
 Notice
 
-* admin can Flag, Delete, Edit, Deny, Cut, Close, Pin, Feature
-* admin may select Administration to access the moderation console
+* Admin can Flag, Delete, Edit, Deny, Cut, Close, Pin, Feature
+* Admin may select Administration to access the moderation console
 
 ![communityadmin-forum](assets/communityadmin-forum.png)
 

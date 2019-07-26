@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4f85cd3c-5158-4f23-abe2-7e375fd0c8d4
 ---
 
-# Community Group Essentials{#community-group-essentials}
+# Community Group Essentials {#community-group-essentials}
 
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users from the publish and author environments.
 
@@ -41,7 +41,7 @@ As of Communities [feature pack 1](deploy-communities.md#latestfeaturepack), it 
   </tr>
   <tr>
    <td><strong>properties</strong></td> 
-   <td>see <a href="creating-groups.md">Community Group</a></td> 
+   <td>See <a href="creating-groups.md">Community Group</a></td> 
   </tr>
  </tbody>
 </table>
@@ -93,8 +93,8 @@ As of Communities [FP1](deploy-communities.md#latestfeaturepack), it is possible
 
 When a community site or group template includes the Groups function, it is possible to
 
-* create a sub-community in the author environment
-* create a group in the publish environment, when configured to allow it
+* Create a sub-community in the author environment
+* Create a group in the publish environment, when configured to allow it
 
 When creating a group in the author environment, it is necessary to first publish the community site, and then to publish the group. Publishing the community site will publish the pages of the group, without creating the sub-community's member groups to which ACLs are set. Thus, a restricted (secret) group may be visible until the group is explicitly published.
 
