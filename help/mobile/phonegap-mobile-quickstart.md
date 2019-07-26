@@ -22,4 +22,3 @@ discoiquuid: 2de6bafb-47cf-4aca-84a3-0cace2858d5c
 >[!CAUTION]
 >
 >The AEM Verify App has been deprecated. The App has been removed from the Apple AppStore and Android PlayStore.
-

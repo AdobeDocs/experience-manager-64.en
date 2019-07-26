@@ -269,6 +269,8 @@ You can find the code of this page on GitHub
 
    Using properties on this node you can define the `groups` allowed to perform the specific action; for example, `administrators`
 
+<!-- Needs a review by Engineering -->
+<!--
 ## Remove Access to Navigation Option on Rail {#remove-access-to-navigation-option-on-rail}
 
 1. You can rename a navigation entry in the rail by overlaying the required entry from under:
@@ -306,7 +308,10 @@ You can find the code of this page on GitHub
 
 * [Open aem-admin-extension-new-console project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console/archive/master.zip)
+-->
 
+<!-- Needs a review by Engineering -->
+<!--
 ## Restrict Access to Navigation Option on Rail {#restrict-access-to-navigation-option-on-rail}
 
 You can restrict access to a navigation option using ACLs:
@@ -329,6 +334,7 @@ You can restrict access to a navigation option using ACLs:
     * `commerce`
     * `tools`
     * `communities`
+-->
  
 ## Customizing Columns in the List View {#customizing-columns-in-the-list-view}
 

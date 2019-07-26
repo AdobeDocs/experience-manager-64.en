@@ -27,6 +27,10 @@ With editable templates, the pieces that make a page are isolated within compone
 
 >[!NOTE]
 >
+>AEM 6.4.5.0 or later is required to use editable templates with the [SPA Editor](/help/sites-developing/spa-overview.md).
+
+>[!NOTE]
+>
 >[Static templates](/help/sites-developing/page-templates-static.md) are also available.
 
 This document:

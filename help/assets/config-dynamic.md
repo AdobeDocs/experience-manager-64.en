@@ -123,15 +123,6 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
      <li><a href="#delivering-assets">Deliver assets.</a></li> 
     </ol> </td> 
   </tr> 
-  <tr> 
-   <td>Asset Share: Download Dynamic image Renditions </td> 
-   <td>Dynamic Media generates image renditions on-the-fly without incurring any additional storage. You can use Asset Share in conjunction with Dynamic Media to download image renditions for different formats, sizes, quality, and so on.<br /> </td> 
-   <td> 
-    <ol> 
-     <li>On AEM <strong>publish</strong> node for Asset Share, <a href="#enabling-dynamic-media">enable dynamic media</a>.</li> 
-     <li><a href="#configuring-dynamic-media-image-server-settings">Configure Dynamic Media Image Server settings</a>.</li> 
-    </ol> </td> 
-  </tr> 
  </tbody> 
 </table>
 

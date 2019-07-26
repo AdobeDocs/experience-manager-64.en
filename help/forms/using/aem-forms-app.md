@@ -52,12 +52,12 @@ The forms are downloaded on your app, and are available offline. For example, yo
 
 To sync your form in AEM Forms app:
 
-1. In author instance, select a form, and click **View Properties**.  
+1. In author instance, select a form, and click **[!UICONTROL View Properties]**.  
 
-1. In the properties page, click **Advanced.**
-1. Under Advanced, enable option: **Sync with AEM Forms App, **and tap **Save**.
+1. In the properties page, click **[!UICONTROL Advanced]**.
+1. Under Advanced, enable option: **[!UICONTROL Sync with AEM Forms App]** and tap **[!UICONTROL Save]**.
 
-When the form is published, the app syncs with the server and fetches the form. To sync multiple forms, in the author instance, select multiple forms in forms manager and tap **Sync with AEM Forms App**.
+When the form is published, the app syncs with the server and fetches the form. To sync multiple forms, in the author instance, select multiple forms in forms manager and tap **[!UICONTROL Sync with AEM Forms App]**.
 
 ## Mobile device support {#mobile-device-support}
 
@@ -89,7 +89,7 @@ With AEM Forms server without AEM Forms workflow, a form enabled for syncing in 
 
 You can synchronize your app with the AEM Forms Workflow server and can work on tasks and forms on your mobile device.
 
-A task on the mobile device contains an adaptive form, HTML5 form, or a form set and can also contain attachments and [summary URL](/help/forms/using/getting-task-variables-summary-url.md). By default, tasks assigned to you are placed in the **Tasks** folder. When working on a task, you can change the task and save a draft copy of task on the AEM Forms server.
+A task on the mobile device contains an adaptive form, HTML5 form, or a form set and can also contain attachments and [summary URL](/help/forms/using/getting-task-variables-summary-url.md). By default, tasks assigned to you are placed in the **[!UICONTROL Tasks]** folder. When working on a task, you can change the task and save a draft copy of task on the AEM Forms server.
 
 A form on the mobile device can be an adaptive form or a mobile form. Forms enabled for syncing in the forms app are available in the Forms folder. You can sync forms enabled in AEM Forms server without AEM Forms workflow (AEM Forms on OSGi).
 
@@ -108,7 +108,7 @@ For details, see [Working in the offline mode](/help/forms/using/work-offline-mo
 
 You can add the following attachments to a form on your mobile device
 
-* **Notes **- You can use the Notes feature to add a freehand scribble or a text note in your form. For details, see [Adding a note](/help/forms/using/add-attachments.md#adding-a-note).  
+* **Notes**- You can use the Notes feature to add a freehand scribble or a text note in your form. For details, see [Adding a note](/help/forms/using/add-attachments.md#adding-a-note).  
 
 * **Picture**- The AEM Forms app includes a feature that uses the camera functionality or the gallery of your mobile device. Using the photograph attachment, you can add a photograph with the associated form. For details, see [Adding a photograph](/help/forms/using/add-attachments.md#adding-a-photograph).
 

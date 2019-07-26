@@ -25,7 +25,7 @@ The `categories`property value given to this client library is the identifier us
 
     * Name: `clientlibs`
     * Type: `cq:ClientLibraryFolder`
-
+    
 1. Click **OK**
 
 ![chlimage_1-220](assets/chlimage_1-220.png)
@@ -39,6 +39,7 @@ In the **Properties** tab for the new `clientlibs` node, enter the **`categories
 * Click **Save All**
 
 Note: prefacing the categories value with 'apps.' is a convention to identify the 'owning application' as being in the /apps folder, not /libs.  IMPORTANT: Add placeholder `js.txt` and `css.txt` files. (It's not officially a cq:ClientLibraryFolder without them.)
+
 
 1. Right click on **`/etc/designs/an-scf-sandbox/clientlibs`**
 1. Select **Create File...**
@@ -80,6 +81,7 @@ In this case, we're including them all, and so would prefer the more basic SCF c
 
 * Name: **`embed`**
 * Type: **`String`**
+
 * Click **`Multi`**
 * Value: **`cq.social.scf`** 
 
@@ -87,13 +89,13 @@ In this case, we're including them all, and so would prefer the more basic SCF c
 
   *Click **[+]** after each entry to add the following clientlib categories:*
 
-    * **`cq.ckeditor`**
-    * **`cq.social.author.hbs.comments`**
-    * **`cq.social.author.hbs.forum`**
-    * **`cq.social.author.hbs.rating`**
-    * **`cq.social.author.hbs.reviews`**
-    * **`cq.social.author.hbs.voting`**
-    * click **OK**
+  * **`cq.ckeditor`**
+  * **`cq.social.author.hbs.comments`**
+  * **`cq.social.author.hbs.forum`**
+  * **`cq.social.author.hbs.rating`**
+  * **`cq.social.author.hbs.reviews`**
+  * **`cq.social.author.hbs.voting`**
+  * click **OK**
 
 * Click **Save All**
 
@@ -130,6 +132,7 @@ The include statement belongs in the <head> section of the <html> script. The de
 
 1. Click **Save All**
 
+
 ```xml
 <%@ page session="false" %><%
 %><%@include file="/libs/foundation/global.jsp" %><%
@@ -145,7 +148,7 @@ Load your website in the browser and see if the background is not a shade of blu
 
 [http://localhost:4502/content/an-scf-sandbox/en/play.html](http://localhost:4502/content/an-scf-sandbox/en/play.html)
 
-![chlimage_1-226](assets/chlimage_1-226.png) 
+![chlimage_1-226](assets/chlimage_1-226.png)
 
 ## Saving Your Work So Far {#saving-your-work-so-far}
 
@@ -154,6 +157,7 @@ At this point, there exists a minimalist sandbox, and it might be worth saving a
 This package exists on the [Create a Sample Page](create-sample-page.md) tutorial for those who can't wait to just jump in and start playing!...
 
 To create a package:
+
 
 * From CRXDE Lite click the [Package icon](http://localhost:4502/crx/packmgr/) 
 * Click **Create Package**
@@ -181,4 +185,4 @@ To create a package:
 
 * Click **Build**
 
-Now you can select **Download** to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox. 
+Now you can select **Download** to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.

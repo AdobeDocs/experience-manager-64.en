@@ -27,6 +27,8 @@ Before beginning your upgrade, it is important to follow these maintenance tasks
 * [Disable Custom Scheduled Jobs](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#disable-custom-scheduled-jobs)
 * [Execute Offline Revision Cleanup](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#execute-offline-revision-cleanup)
 * [Execute Datastore Garbage Collection](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#execute-datastore-garbage-collection)
+* [Upgrade the Database Schema If Needed](pre-upgrade-maintenance-tasks.md#upgrade-the-database-schema-if-needed)
+* [Delete Users that Might Hinder the Upgrade](pre-upgrade-maintenance-tasks.md#delete-users-that-might-hinder-the-upgrade)
 * [Rotate Log Files](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#rotate-log-files)
 
 ## Ensure Sufficient Disk Space {#ensure-sufficient-disk-space}
@@ -298,6 +300,51 @@ If using TarMK, you should execute Offline Revision Cleanup before upgrading. Th
 >This step is only necessary for instances running crx3
 
 After running revision cleanup on CRX3 instances, you should run Datastore Garbage Collection to remove any unreferenced blobs in the data store. For instructions, see the documentation on [Data Store Garbage Collection](/help/sites-administering/data-store-garbage-collection.md).
+
+## Delete Users that Might Hinder the Upgrade {#delete-users-that-might-hinder-the-upgrade}
+
+>[!NOTE]
+>
+>This pre-upgrade maintenance task is only necessary if:
+>
+> * You are upgrading from AEM versions older than AEM 6.3
+> * You encounter any of the errors mentioned below during the upgrade.
+
+There are exceptional cases when service users might end up in an older AEM versions being improperly tagged as regular users.
+
+If this happens, the upgrade will fail with a message like this one:
+
+`ERROR [Apache Sling Repository Startup Thread] com.adobe.granite.repository.impl.SlingRepositoryManager Exception in a SlingRepositoryInitializer, SlingRepository service registration aborted
+java.lang.RuntimeException: Unable to create service user [communities-utility-reader]:java.lang.RuntimeException: Existing user communities-utility-reader is not a service user.`
+
+In order to work around this issue, make sure you do the following:
+
+In order to work around this issue, make sure you do the following:
+
+* Detach the instance from production traffic
+* Create a backup of the user(s) causing the problem. You can do this via Package Manager. For more information, see [How to Work with Packages](/help/sites-administering/package-manager.md).
+* Delete the user(s) causing the problem. Below is a list of users that might fall  under this category:
+  * dynamic-media-replication
+  * communities-ugc-writer
+  * communities-utility-reader
+  * communities-user-admin
+  * oauthservice
+  * sling-scripting
+
+## Upgrade the Database Schema If Needed {#upgrade-the-database-schema-if-needed}
+
+Usually, the underlying Apache Oak stack AEM uses for persistence will take care of upgrading the database schema if needed.
+
+However, cases might arise when the schema cannot be upgraded automatically. These are mostly high security environments where the database is running under a user with very limited priviledges. If this happens, AEM will continue to use the old schema.
+
+In order to prevent this from happening, you need to upgrade the schema by following the below procedure:
+
+1. Shut down the AEM instance that needs to be upgraded.
+1. Upgrade the database schema. Please consult the documentation for your database type in order to see what is the tooling you need to use in order to achieve this.
+
+    For more information on how Oak handles schema upgrades, see [this page on the Apache website](https://jackrabbit.apache.org/oak/docs/nodestore/document/rdb-document-store.html#upgrade).
+
+1. Proceed with upgrading AEM.
 
 ## Rotate Log Files {#rotate-log-files}
 

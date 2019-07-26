@@ -18,18 +18,19 @@ User and group information is maintained in a third-party storage system, such a
 
 When you create users, you can add the them to groups and assign roles to the them.
 
-1. In administration console, click Settings &gt; User Management &gt; Users and Groups, and click New User.
-1. Under General Settings, provide information as required, and then click Next. For details about the settings, see [User settings](adding-configuring-users.md#user-settings).
-1. (Optional) To add the user to a group, click Find Groups, and do these tasks:
+1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Users and Groups]**, and click **[!UICONTROL New User]**.
+.
+1. Under **[!UICONTROL General Settings]**, provide information as required, and then click **[!UICONTROL Next]**. For details about the settings, see [User settings](adding-configuring-users.md#user-settings).
+1. (Optional) To add the user to a group, click **[!UICONTROL Find Groups]**, and do these tasks:
 
-    * In the Find box, type all or part of the group name.
-    * Select the domain to search, select the number of items to display, and click Find.
-    * (Optional) To view group details, select the group name, and then click OK to return to the search results page.
-    * Select the check box for the group and click OK.
-    * Click Next.
+    * In the **[!UICONTROL Find]** box, type all or part of the group name.
+    * Select the domain to search, select the number of items to display, and click **[!UICONTROL Find]**.
+    * (Optional) To view group details, select the group name, and then click **[!UICONTROL OK]** to return to the search results page.
+    * Select the check box for the group and click **[!UICONTROL OK]**.
+    * Click **[!UICONTROL Next]**.
 
-1. (Optional) To assign roles to the user, click Find Roles, select the check box for the roles to assign, and then click OK.
-1. Click Finish.
+1. (Optional) To assign roles to the user, click **[!UICONTROL Find Roles]**, select the check box for the roles to assign, and then click **[!UICONTROL OK]**.
+1. Click **[!UICONTROL Finish]**.
 
    >[!NOTE]
    >
@@ -103,49 +104,49 @@ Avoid creating user names that begin with a number sign (#). Performing task sea
 
 ## Change the password for a local user {#change-the-password-for-a-local-user}
 
-1. In administration console, click Settings &gt; User Management &gt; Users and Groups.
-1. Specify information to narrow the search for a particular user and click Find. The results of the search are listed at the bottom of the page. You can sort the list by clicking any of the column headings.
-1. Click the name of the user and then click Change Password.
-1. Type and confirm the new password, and then click OK. The password must be a minimum of eight characters.
+1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Users and Groups]**.
+1. Specify information to narrow the search for a particular user and click **[!UICONTROL Find]**. The results of the search are listed at the bottom of the page. You can sort the list by clicking any of the column headings.
+1. Click the name of the user and then click **[!UICONTROL Change Password]**.
+1. Type and confirm the new password, and then click **[!UICONTROL OK]**. The password must be a minimum of eight characters.
 
 ## Edit a user’s properties {#edit-a-user-s-properties}
 
-1. In administration console, click Settings &gt; User Management &gt; Users and Groups.
+1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Users and Groups]**.
 1. To find the user to edit, do these tasks:
 
-    * In the Find box, type your search criteria. 
-    * In the Using list, select Name, Email, or User ID. 
-    * In the In list, select Users. 
-    * Select the domain, select the number of items to display, and then click Find.
+    * In the **[!UICONTROL Find]** box, type your search criteria. 
+    * In the **[!UICONTROL Using]** list, select **[!UICONTROL Name]**, **[!UICONTROL Email]**, or **[!UICONTROL User ID]**. 
+    * In the **[!UICONTROL In list]**, select **[!UICONTROL Users]**. 
+    * Select the domain, select the number of items to display, and then click **[!UICONTROL Find]**.
 
 1. Click the user to edit.
-1. For a user who is part of a local or hybrid domain, on the Detail tab, edit the General Settings and Login Settings, and click Save. For details about the settings, see [User settings](adding-configuring-users.md#user-settings). You cannot edit the general and login settings for a user who belongs to an enterprise domain.
-1. To edit the group settings for the user, click the Group Membership tab and do these tasks:
+1. For a user who is part of a local or hybrid domain, on the **[!UICONTROL Detail]** tab, edit the **[!UICONTROL General Settings]** and **[!UICONTROL Login Settings]**, and click **[!UICONTROL Save]**. For details about the settings, see [User settings](adding-configuring-users.md#user-settings). You cannot edit the general and login settings for a user who belongs to an enterprise domain.
+1. To edit the group settings for the user, click the **[!UICONTROL Group Membership]** tab and do these tasks:
 
-    * Click Find Group and complete the search information. 
-    * To add the user to a new group, select the check box for the group, click OK, and then click Save.
+    * Click **[!UICONTROL Find Group]** and complete the search information. 
+    * To add the user to a new group, select the check box for the group, click **[!UICONTROL OK]**, and then click **[!UICONTROL Save]**.
 
       ***Note**: Local users cannot be added to directory groups. However, directory users can be added to local groups.*
     
-    * To remove the user from a group, select the check box for the group, click Delete, and then click Save.
+    * To remove the user from a group, select the check box for the group, click **[!UICONTROL Delete]**, and then click **[!UICONTROL Save]**.
 
-1. To edit the user’s roles, click the Role Assignments tab and do these tasks:
+1. To edit the user’s roles, click the **[!UICONTROL Role Assignments]** tab and do these tasks:
 
-    * To display a list of roles, click Find Roles. 
-    * To add a role, select the check box for the role, click OK, and then click Save.
-    * To remove a role, select the check box for the role, click Unassign, and then click Save.
+    * To display a list of roles, click **[!UICONTROL Find Roles]**. 
+    * To add a role, select the check box for the role, click **[!UICONTROL OK]**, and then click **[!UICONTROL Save]**.
+    * To remove a role, select the check box for the role, click **[!UICONTROL Unassign]**, and then click **[!UICONTROL Save]**.
 
 ## Delete a user {#delete-a-user}
 
-1. In administration console, click Settings &gt; User Management &gt; Users and Groups.
+1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Users and Groups]**.
 1. To find the user to delete, do these tasks:
 
-    * In the Find box, type your search criteria. 
-    * In the Using list, select Name, Email, or User ID. 
-    * In the In list, select Users. 
-    * Select the domain, select the number of items to display, and then click Find.
+    * In the **[!UICONTROL Find]** box, type your search criteria. 
+    * In the **[!UICONTROL Using]** list, select **[!UICONTROL Name]**, **[!UICONTROL Email]**, or **[!UICONTROL User ID]**. 
+    * In the **[!UICONTROL In list]**, select **[!UICONTROL Users]**. 
+    * Select the domain, select the number of items to display, and then click **[!UICONTROL Find]**.
 
-1. Select the check box for the user, click Delete, and then click OK.
+1. Select the check box for the user, click **[!UICONTROL Delete]**, and then click **[!UICONTROL OK]**.
 
 >[!NOTE]
 >

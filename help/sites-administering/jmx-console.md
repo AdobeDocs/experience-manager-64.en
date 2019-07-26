@@ -21,9 +21,9 @@ For information about creating MBeans to manage your services using the JMX Cons
 
 ## Workflow Maintenance {#workflow-maintenance}
 
-Operations for administering running, completed, and failed workflow instances.
+Operations for administering running, completed, stale, and failed workflow instances.
 
-* Domain: com.adobe.granite.worflow
+* Domain: com.adobe.granite.workflow
 * Type: Maintenance
 
 >[!NOTE]
@@ -75,7 +75,9 @@ Operations for administering running, completed, and failed workflow instances.
 
 * Arguments:
 
-    * model: The ID of the model to query. To see a count of failed workflow instances for all workflow models, specify no value. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
+    * model: The ID of the model to query. To see a count of failed workflow instances for all workflow models, specify no value. The ID is the path to the model node, for example:
+
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
 
 * Returned value: The number of failed workflow instances.
 
@@ -90,7 +92,9 @@ Operations for administering running, completed, and failed workflow instances.
 
     * Restart the instance: (Optional) Specify a value of `true` to restart the instances after they are terminated. The default value of `false` causes no restarting of terminated workflow instances.
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
-    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the failed instances of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
+    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the failed instances of all workflow models. The ID is the path to the model node, for example:
+
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
 
 * Returned value: Tablular data about the instances that are terminated, containing the following columns:
 
@@ -106,7 +110,9 @@ Operations for administering running, completed, and failed workflow instances.
 * Arguments:
 
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
-    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the failed work items of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
+    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the failed work items of all workflow models. The ID is the path to the model node, for example:
+
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
 
 * Returned value: Tablular data about the failed work items that are retried, including the following columns:
 
@@ -121,7 +127,9 @@ Operations for administering running, completed, and failed workflow instances.
 
 * Arguments:
 
-    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the workflow instances of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`. 
+    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the workflow instances of all workflow models. The ID is the path to the model node, for example:
+  
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
     * Number of days since workflow started: The age of the workflow instances to purge, in days.
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
 
@@ -138,7 +146,9 @@ Operations for administering running, completed, and failed workflow instances.
 
 * Arguments:
 
-    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the workflow instances of all workflow models. The ID is the path to the model node, for example /etc/workflow/models/dam/update_asset/jcr:content/model.
+    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the workflow instances of all workflow models. The ID is the path to the model node, for example:
+
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
 
 * Returned value: The number of stale workflow instances.
 
@@ -146,7 +156,9 @@ Operations for administering running, completed, and failed workflow instances.
 
 * Arguments:
 
-    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the stale instances of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`. 
+    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the stale instances of all workflow models. The ID is the path to the model node, for example:
+
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
 
 * Returned value: A list of workflow instances that are restarted.
@@ -160,7 +172,9 @@ Operations for administering running, completed, and failed workflow instances.
 
 * Arguments:
 
-    * Model: (Optional) The ID of the model for which the number of running instances is returned. Specify no model to return the number of running instances of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
+    * Model: (Optional) The ID of the model for which the number of running instances is returned. Specify no model to return the number of running instances of all workflow models. The ID is the path to the model node, for example:
+
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
 
 * Returned value: The number of running workflow instances.
 
@@ -168,7 +182,9 @@ Operations for administering running, completed, and failed workflow instances.
 
 * Arguments:
 
-    * Model: (Optional) The ID of the model for which the number of completed instances is returned. Specify no model to return the number of completed instances of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`.
+    * Model: (Optional) The ID of the model for which the number of completed instances is returned. Specify no model to return the number of completed instances of all workflow models. The ID is the path to the model node, for example:
+
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
 
 * Returned value: The number of completed workflow instances.
 
@@ -176,7 +192,9 @@ Operations for administering running, completed, and failed workflow instances.
 
 * Arguments:
 
-    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the workflow instances of all workflow models. The ID is the path to the model node, for example `/etc/workflow/models/dam/update_asset/jcr:content/model`. 
+    * Model: (Optional) The ID of the model to which the operation is applied. Specify no model to apply the operation to the workflow instances of all workflow models. The ID is the path to the model node, for example:
+
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
     * Number of days since workflow has been completed: The number of days that the workflow instances have been in the completed state.
     * Dry run: (Optional) Specify a value of `true` to see the results of the operation without actually performing the operation. The default value of `false` causes the operation to be performed.
 
@@ -223,7 +241,7 @@ Information about the CRX repository
    <th>Value</th> 
   </tr> 
   <tr> 
-   <td>options.node.and.property.with.same.name.supported</td> 
+   <td>option.node.and.property.with.same.name.supported</td> 
    <td>Indicates whether a node and a property of the node can have the same name. true indicates same names are supported, false indicates it is not supported. </td> 
   </tr> 
   <tr> 
@@ -863,9 +881,9 @@ MBeans that are deployed with an OSGi service expose service attributes and oper
 The main page of the JMX console includes a table of services. Each row in the table represents a service that is exposed by an MBean.
 
 1. Open the Web Console and click the JMX tab. ([http://localhost:4502/system/console/jmx](http://localhost:4502/system/console/jmx))
-1. Click a cell value for a service to see the attributes and operations for the service.
-1. To change an attribute value, click the value, specify the value in the dialog box that appears, and click Save.
-1. To invoke a service operation, click the operation name, specify argument values in the dialog box that appears, and click Invoke.
+2. Click a cell value for a service to see the attributes and operations for the service.
+3. To change an attribute value, click the value, specify the value in the dialog box that appears, and click Save.
+4. To invoke a service operation, click the operation name, specify argument values in the dialog box that appears, and click Invoke.
 
 ## Using External JMX Applications for Monitoring {#using-external-jmx-applications-for-monitoring}
 

@@ -37,7 +37,7 @@ Additional (and optional) tabs exist for build cloud service and integrating the
 
 App templates provide an easy way to leverage existing designs created by devlopers, used for the creation of new apps within AEM.
 
-What is an app template? Think of it as a collection of page templates and components that represent a baseline or foundation of an app.   
+What is an app template? Think of it as a collection of page templates and components that represent a baseline or foundation of an app.
 When creating a new app based on the template of another app, you will get an app that has a starting point representative of the app in which it was created from.
 
 You must have an existing mobile app template (or an app installed that has an app template) to make use of this feature.
@@ -57,7 +57,7 @@ Select an app template made available to you by an AEM developer. See [Structure
 
 Fill out your new app's details as needed including optionally changing its thumbnail image. These values can be edited later from the **Manage App** tile.
 
-![chlimage_1-160](assets/chlimage_1-160.png) 
+![chlimage_1-160](assets/chlimage_1-160.png)
 
 ## The Next Steps {#the-next-steps}
 
@@ -66,7 +66,7 @@ See the following resources to learn more about other authoring roles:
 * [The Manage App Tile](/help/mobile/phonegap-app-details-tile.md)
 * [Editing App Metadata](/help/mobile/phonegap-editmetadata.md)
 * [App Definitions](/help/mobile/phonegap-app-definitions.md)
-* [Import an Existing Hybrid App](/help/mobile/phonegap-import-hybrid-app.md)
+* [Import an Existing Hybrid App](/help/mobile/phonegap-adding-content-to-imported-app.md)
 * [Content Services](/help/mobile/develop-content-as-a-service.md)
 
 ## Additional Resources {#additional-resources}
@@ -75,4 +75,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/developing-in-phonegap.md)
 * [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/administer-phonegap.md)
-
