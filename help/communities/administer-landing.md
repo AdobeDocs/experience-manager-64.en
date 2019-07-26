@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 8799386a-c3b8-43cf-9f71-580ff2a81abc
 ---
 
-# Communities Sites{#communities-sites}
+# Communities Sites {#communities-sites}
 
 This section is for those who administer AEM Communities and assumes familiarity with AEM Communities features.
 
@@ -28,24 +28,20 @@ For an overview and getting started tutorials, visit:
 ### Communities Site Creation and Management {#communities-site-creation-and-management}
 
 * Communities [consoles](consoles.md)
-
-    * * [Sites](sites-console.md)*
-
-        * * [Groups (sub-communities)](groups.md)*
-
-    * * [Moderation](moderation.md)*
-    * * [Members and Groups Management](members.md)*
-    * * [Enablement Resources](resources.md)*
-    * * [Reports](reports.md)*
+  * *[Sites](sites-console.md)*
+    * *[Groups (sub-communities)](groups.md)*
+  * *[Moderation](moderation.md)*
+  * *[Members and Groups Management](members.md)*
+  * *[Enablement Resources](resources.md)*
+  * *[Reports](reports.md)*
 
 * Communities [*tools*](tools.md):
-
-    * * [Site Templates](sites.md)*
-    * * [Group Templates](tools-groups.md)*
-    * * [Community Functions](functions.md)*
-    * * [Storage Configuration](srp-config.md)*
-    * * [Component Guide](components-guide.md)*
-    * * [Badges](badges.md)*
+  * *[Site Templates](sites.md)*
+  * *[Group Templates](tools-groups.md)*
+  * *[Community Functions](functions.md)*
+  * *[Storage Configuration](srp-config.md)*
+  * *[Component Guide](components-guide.md)*
+  * *[Badges](badges.md)*
 
 ### User Generated Content {#user-generated-content}
 
@@ -97,4 +93,3 @@ See the deployment page for other Communities specific information, such as for 
 * Visit [Developing Communities](communities.md) to learn about the social component framework (SCF) and customizing Communities components and features.
 
 * Visit [Authoring Communities Components](author-communities.md) to learn how to author with and configure Communities components.
-

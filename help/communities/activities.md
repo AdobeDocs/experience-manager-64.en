@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ccaebb4c-cc1c-4ee7-b080-99667f348427
 ---
 
-# Activity Streams Feature{#activity-streams-feature}
+# Activity Streams Feature {#activity-streams-feature}
 
 ## Introduction {#introduction}
 
@@ -73,12 +73,10 @@ The **Follow** button will appear
 
 * when viewing another member's profile
 * on a main feature page, such as forums, QnA, and blogs
-
-    * follows all activity for that general feature
+  * follows all activity for that general feature
 
 * for a specific entry, such as a forum topic, QnA question, or blog article
-
-    * follows all activity for that specific entry
+  * follows all activity for that specific entry
 
 ## Additional Information {#additional-information}
 
