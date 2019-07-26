@@ -287,11 +287,7 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
 
 1. Select **Add Item +** two drop down boxes appear
 1. Choose a `Report suite` the report suites associated with the Company account should be available for selection
-1. Select **Yes** in the dialog that opens:
-   ```
-   Load default server settings?
-    Do you want to load the default server settings and overwrite current values in the Server section?
-   ```
+1. Select **Yes** in the dialog that opens: ```Load default server settings? Do you want to load the default server settings and overwrite current values in the Server section?```
 1. Choose a `Run Mode`  
    Choose **publish**
 
