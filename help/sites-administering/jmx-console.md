@@ -174,7 +174,7 @@ Operations for administering running, completed, stale, and failed workflow inst
 
     * Model: (Optional) The ID of the model for which the number of running instances is returned. Specify no model to return the number of running instances of all workflow models. The ID is the path to the model node, for example:
 
-      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`.
+      `/conf/global/settings/workflow/models/dam/update_asset/jcr:content/model`
 
 * Returned value: The number of running workflow instances.
 
