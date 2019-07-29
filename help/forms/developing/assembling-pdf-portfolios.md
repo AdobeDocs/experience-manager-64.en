@@ -114,9 +114,9 @@ A PDF Portfolio is returned within a collection object. Iterate through the coll
 
 **See also**
 
-[Assemble a PDF Portfolio using the Java API](/help/forms/developing/assembling-pdf-portfolios.md#assemble-a-pdf-portfolio-using-the-java-api) 
+[Assemble a PDF Portfolio using the Java API](#assemble-a-pdf-portfolio-using-the-java-api) 
 
-[Assemble a PDF Portfolio using the web service API](/help/forms/developing/assembling-pdf-portfolios.md##assemble-a-pdf-portfolio-using-the-web-service-api)
+[Assemble a PDF Portfolio using the web service API](#assemble-a-pdf-portfolio-using-the-web-service-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -176,8 +176,6 @@ Assemble a PDF Portfolio by using the Assembler Service API (Java):
     * Invoke the `com.adobe.idp.Document` object’s `copyToFile` method to extract the PDF Portfolio.
 
 **See also**
-
-[Assembling PDF Portfolios](/help/forms/developing/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assembling-pdf-portfolios)
 
 [Quick Start (SOAP mode): Assembling PDF Portfolios using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-pdf-portfolios-using-the-java-api)
 
