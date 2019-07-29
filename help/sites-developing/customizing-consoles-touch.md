@@ -184,7 +184,7 @@ You can customize the default view (column, card, list) for a console:
 
    The first entry will be the default.
 
-   The nodes available correlate to the view options in the rail:
+   The nodes available correlate to the view options available:
 
     * `column`
     * `card`
