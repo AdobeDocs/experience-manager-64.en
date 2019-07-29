@@ -50,13 +50,13 @@ where:
 The following table lists service WSDL definitions (assuming that AEM Forms is deployed on the local host and the post is 8080).
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Service</p></th> 
    <th><p>WSDL definition</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Assembler</p></td> 
    <td><p><code>http://localhost:8080/soap/services/ AssemblerService?wsdl</code></p></td> 
