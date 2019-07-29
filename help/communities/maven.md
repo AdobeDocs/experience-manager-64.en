@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a726c904-aadd-4678-be84-9e05808ab8be
 ---
 
-# Using Maven for Communities{#using-maven-for-communities}
+# Using Maven for Communities {#using-maven-for-communities}
 
 ## Overview {#overview}
 
@@ -40,16 +40,13 @@ Following is an example of a GAV for the AEM Communities API jar:
 
 The version specified should correspond to the Communities package version installed for AEM Communities. To verify the installed version number:
 
-* login with adminstrative privileges
-* browse to [Package Manager](../../help/sites-administering/package-manager.md)  
-
-  for example, [http://localhost:4502/crx/packmgr/](http://localhost:4502/crx/packmgr/)
-
-* locate the package *cq-socialcommunities-pkg-1.x.xxx*
-* extract the version from the package name
-
-    * first version for AEM 6.3 is version 1.11.170
-    * feature packs will be versions 1.12.xxx
+* Login with adminstrative privileges
+* Browse to [Package Manager](../../help/sites-administering/package-manager.md)  
+  For example, [http://localhost:4502/crx/packmgr/](http://localhost:4502/crx/packmgr/)
+* Locate the package *cq-socialcommunities-pkg-1.x.xxx*
+* Extract the version from the package name
+    * First version for AEM 6.3 is version 1.11.170
+    * Feature packs will be versions 1.12.xxx
 
 >[!NOTE]
 >

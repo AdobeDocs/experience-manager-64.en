@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 32b56b48-75cb-4cc9-a077-10e335f01a35
 ---
 
-# Communities User Synchronization{#communities-user-synchronization}
+# Communities User Synchronization {#communities-user-synchronization}
 
 ## Introduction {#introduction}
 
-In AEM Communities, from the publish environment (depending on permissions configured), *site visitors *may become *members*, create *user groups*, and edit their *member profile*.
+In AEM Communities, from the publish environment (depending on permissions configured), *site visitors* may become *members*, create *user groups*, and edit their *member profile*.
 
 *User data* is a term used to refer to *users*, *user profiles* and *user groups*.
 
-*Members *is a term used to refer to *users *registered in the publish environment, as opposed to users registered in the author environment.
+*Members* is a term used to refer to *users* registered in the publish environment, as opposed to users registered in the author environment.
 
 For more information regarding user data, visit [Managing Users and User Groups](users.md).
 
@@ -43,9 +43,9 @@ For detailed, step-by-step instructions, on how to enable synchronization across
 
 ![sling-dist-workflow](assets/sling-dist-workflow.png)
 
-&ast; **vlt  package**: is a zip file of all the changes done on a publisher, which need to be distributed across publishers. Changes on a publisher generate events that are picked by the change event listener. This creates a vlt package that contains all the changes.
+* **VLT  package**: is a zip file of all the changes done on a publisher, which need to be distributed across publishers. Changes on a publisher generate events that are picked by the change event listener. This creates a vlt package that contains all the changes.
 
-&ast;&ast; **distribution package**: contains distribution information for Sling. That is information about where the content needs to be distributed, and when was it distributed last.
+* **Distribution package**: contains distribution information for Sling. That is information about where the content needs to be distributed, and when was it distributed last.
 
 ## What Happens When ... {#what-happens-when}
 
@@ -57,7 +57,7 @@ On author, when a community site is published from the [Communities Sites consol
 
 By design, users and profiles created in the publish environment (such as by self-registration, social-login, LDAP authentication) do not appear in the author environment.
 
-When the topology is a [publish farm](topologies.md) and user sync has been correctly configured, the *user *and *user profile* is synchronized across the publish farm using Sling distribution.
+When the topology is a [publish farm](topologies.md) and user sync has been correctly configured, the *user* and *user profile* is synchronized across the publish farm using Sling distribution.
 
 ### New Community Group is created on Publish {#new-community-group-is-created-on-publish}
 
@@ -316,7 +316,7 @@ Repeat these steps until all publish instances have an unique Sling ID.
 ### Vault Package Builder Factory {#vault-package-builder-factory}
 
 For updates to sync properly, it is necessary to modify the vault package builder for user sync.  
-In **/home/users**, a **&ast;/rep:cache **node is created. It is a cache which is used to find that if we query on the principal name of a node then this cache can be used directly.
+In **/home/users**, a **/rep:cache** node is created. It is a cache which is used to find that if we query on the principal name of a node then this cache can be used directly.
 
 User synchronization can stop if `rep:cache `nodes are synced across publishers.
 
@@ -334,10 +334,10 @@ On each AEM publish instance:
     * `/home/users|-.\*/.tokens`
     * `/home/users|**+**.\*/rep:cache`
 1.  Policy handling
-    *  to overwrite existing rep `:policy` nodes with new ones, add a third Package Filter:  
+    *  To overwrite existing rep `:policy` nodes with new ones, add a third Package Filter:  
 
        `/home/users|**+**.\*/rep:policy`
-    *  to prevent policies from being distributed, set  
+    *  To prevent policies from being distributed, set  
 
        Acl Handling: IGNORE
 

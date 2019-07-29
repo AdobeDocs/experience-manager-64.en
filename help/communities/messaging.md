@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5cb571ae-eeb5-4943-a6b8-92e346e85be2
 ---
 
-# Configuring Messaging{#configuring-messaging}
+# Configuring Messaging {#configuring-messaging}
 
 ## Overview {#overview}
 
@@ -44,19 +44,19 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 * **Message Fields Whitelist** 
   Specifies the properties of the Compose Message component users can edit and persist. If new form elements are added, then the element id would need to be added if desired to be stored in SRP. Default is two entries: *subject* and *content*.
 
-* **message box size limit** 
-  The maximum number of bytes in each user's message box. Default is *1073741824 *(1 GB).
+* **Message box size limit** 
+  The maximum number of bytes in each user's message box. Default is *1073741824* (1 GB).
 
-* **message count limit** 
+* **Message count limit** 
   The total number of messages allowed per user. A value of -1 indicates an unlimited number of messages is allowed, subject to the message box size limit. Default is *10000* (10k).
 
-* **notify delivery failure** 
+* **Notify delivery failure** 
   If checked, notify sender if message delivery fails to some recipients. Default is *checked*.
 
-* **failure delivery sender id** 
+* **Failure delivery sender id** 
   Name of sender which appears in delivery failed message. Default is *failureNotifier*.
 
-* **failure message template path** 
+* **Failure message template path** 
   Absolute path to the delivery failed message template root. Default is */etc/notification/messaging/default*.
 
 * **maxRetries.name** 
@@ -65,7 +65,7 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 * **minWaitBetweenRetries.name** 
   Number of seconds to wait between attempts to resend message upon failure to send. Default is *100 *(seconds).
 
-* **count update pool size** 
+* **Count update pool size** 
   Number of concurrent threads used for count update. Default is *10*.
 
 * **inbox.path.name** 

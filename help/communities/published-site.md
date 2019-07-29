@@ -11,14 +11,14 @@ content-type: reference
 discoiquuid: 4dc54701-68b9-49dd-a212-b0b53330c1c0
 ---
 
-# Experience the Published Site{#experience-the-published-site}
+# Experience the Published Site {#experience-the-published-site}
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
 
 Now that the newly created communities site has been published, browse to the URL displayed when creating the site, but on the publish server, e.g.
 
-* author URL = http://localhost:4502/content/sites/engage/en.html
-* publish URL = http://localhost:4503/content/sites/engage/en.html
+* Author URL = http://localhost:4502/content/sites/engage/en.html
+* Publish URL = http://localhost:4503/content/sites/engage/en.html
 
 To minimize confusion as to which member is signed in on author and publish, it is suggested to use different browsers for each instance.
 
@@ -33,10 +33,10 @@ When first arriving at the published site, the site visitor would typically not 
 An anonymous site visitor sees the following in the UI:
 
 * Title of the site. Which is Getting Started Tutorial
-* no profile link
-* no messages link
-* no notifications link
-* search field
+* No profile link
+* No messages link
+* No notifications link
+* Sarch field
 * Log in link
 * The brand banner
 * Menu links for the components included in the Reference Site Template
@@ -59,12 +59,12 @@ To protect your community site's content from access by anonymous users through 
 
    ![site-authentication](assets/site-authentication.png)
 
-1. Go to **Advanced **tab.
+1. Go to **Advanced** tab.
 
    ![page-properties](assets/page-properties.png)
 
 1. Enable **Authentication Requirement**.
-1. Add the path of the login page. For example,** /content/......./GetStarted**.
+1. Add the path of the login page. For example, **/content/......./GetStarted**.
 1. Publish the page.
 
 ## Trusted Community Member {#trusted-community-member}
@@ -113,19 +113,15 @@ Groups may also be created in the author environment and managed within the comm
 
 Create a Reference Group:
 
-1. select **New Group**
+1. Select **New Group**
 1. **Settings tab**
-
     * Group Name: `Sports`
     * Description: `A parent group for various sporting groups`
     * Group URL Name: `sports`
     * select `Open Group` (allow any community member to participate by joining)
-
 1. **Template tab**
-
-    * select `Reference Group` (contains a groups function in its structure to allow nested groups)
-
-1. select **Create Group**
+    * Select `Reference Group` (contains a groups function in its structure to allow nested groups)
+1. Select **Create Group**
 
 ![chlimage_1-317](assets/chlimage_1-317.png)
 
@@ -137,26 +133,20 @@ The second set of links, beginning with `Blog`, belong to the currently selected
 
 As an example, add two n `ew groups.`
 
-* one named `Baseball`
+* One named `Baseball`
+    * Leave it set as an `Open Group` (required membership)
+    * On Templates tab, select `Conversational Group`
+* One named `Gymnastics`
+    * Change its setting to `Member Only Group` (restricted membership)
+    * On Templates tab, select `Conversational Group`
 
-    * leave it set as an `Open Group` (required membership)
-    * on Templates tab, select `Conversational Group`
+**Notice**:
 
-* one named `Gymnastics`
+* A refresh of the page may be necessary before both groups are displayed
+* This template does *not *include the groups function, so no further nesting of groups will be possible
+* On author, the [Groups console](groups.md) provides a third choice - a `Public Group` (optional membership)
 
-    * change its setting to `Member Only Group` (restricted membership)
-    * on Templates tab, select `Conversational Group`
-
-**Notice **:
-
-* a refresh of the page may be necessary before both groups are displayed
-* this template does *not *include the groups function, so no further nesting of groups will be possible
-* on author, the [Groups console](groups.md) provides a third choice - a `Public Group` (optional membership)
-
-Once both groups are created, select the Baseball group, an open group, and notice its links:
-
-`Discussions` `What's New` `Members`
-
+Once both groups are created, select the Baseball group, an open group, and notice its links: `Discussions` `What's New` `Members`
 The group's links are displayed below the main site's links and results in the following display:
 
 ![chlimage_1-319](assets/chlimage_1-319.png)
@@ -165,10 +155,10 @@ On author - with administrative privileges, navigate to the [Communities Groups 
 
 Continuing on publish, log out as Aaron McDonald, and view the groups in the Sports Group as an anonymous site visitor:
 
-* from home page 
-* select `Groups`link
-* select `Sports`link
-* select the Sports' `Groups`link
+* From home page 
+* Select `Groups`link
+* Select `Sports`link
+* Select the Sports' `Groups`link
 
 Only the Baseball group will be visible.
 
@@ -197,7 +187,7 @@ Use the browser's back button to return to the published site. Most consoles are
 After logging out, it is possible to create a new user registration.
 
 * select `Log In`
-* select `Sign up for a new account`
+* Select `Sign up for a new account`
 
 ![chlimage_1-323](assets/chlimage_1-323.png) ![chlimage_1-324](assets/chlimage_1-324.png)
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a862756-58e8-47c0-a4b4-5d4aaac021e4
 ---
 
-# Group Templates{#group-templates}
+# Group Templates {#group-templates}
 
 The Group Templates console is very similar to the [Site Templates](sites.md) console. Both are blueprints for a set of pre-wired pages and features which form a community site. The difference is that a site template is for the main community and a group template is for a community group, a sub-community nested within the main community.
 
@@ -29,7 +29,7 @@ At the moment the action is taken to create a new community group, the group's t
 
 In the author environment, to reach the groups templates console
 
-* from global navigation: **Tools, Communities, Group Templates**
+* From global navigation: **Tools, Communities, Group Templates**
 
 This console displays the templates from which a [community site](sites-console.md) can be created and allows new group templates to be created.
 
@@ -47,14 +47,14 @@ This will bring up the Site Editor panel which contains 3 sub-panels:
 
 On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
-* **New Group Template Name ** 
-  the template name id
+* **New Group Template Name** 
+  The template name id
 
 * **Description** 
-  the template description
+  The template description
 
 * **Disabled/Enabled** 
-  a toggle switch controlling whether the template is referenceable
+  A toggle switch controlling whether the template is referenceable
 
 ### Thumbnail {#thumbnail}
 

@@ -11,21 +11,18 @@ content-type: reference
 discoiquuid: d18c0ece-4c4f-499c-ac94-a9aaa7f883c4
 ---
 
-# Setup Website Structure{#setup-website-structure}
+# Setup Website Structure {#setup-website-structure}
 
 To setup your website, the instructions below describe the folders to create in the following locations:
 
 * **/apps**/an-scf-sandbox
-
-  this is where custom applications and templates reside
+  This is where custom applications and templates reside
 
 * **/etc/designs**/an-scf-sandbox
-
-  this is where downloadable design elements reside
+  This is where downloadable design elements reside
 
 * **/content**/an-scf-sandbox
-
-  this is where the downloadable web pages reside
+  This is where the downloadable web pages reside
 
 The code in this tutorial will rely on the main folder name being the same for the application, design, and content. If you choose some other name for your website, then always replace **an-scf-sandbox **with the name you have chosen.
 
@@ -33,9 +30,9 @@ The code in this tutorial will rely on the main folder name being the same for t
 >
 >About names:
 >
->* the names seen in CRXDE are node names which form the path to addressable content
->* node names may contain spaces, but when used in an URI, the space must be encoded either as '%20' or '+'
->* node names may contain hyphens and underscores, but they must be encoded when referenced as a package name within a Java file. Both hyphens and underscores are escaped with underscore followed by their unicode value: 
+>* The names seen in CRXDE are node names which form the path to addressable content
+>* Node names may contain spaces, but when used in an URI, the space must be encoded either as '%20' or '+'
+>* Node names may contain hyphens and underscores, but they must be encoded when referenced as a package name within a Java file. Both hyphens and underscores are escaped with underscore followed by their unicode value: 
 >
 >  * hyphen becomes '_002d'  
 >  * underscore becomes '_005f'
@@ -50,27 +47,27 @@ The /apps directory is protected and not publicly accessible as are the /content
 
    Using **CRXDE Lite**, in the explorer pane
 
-    1. select the **`/apps`** folder
-    1. right-click **Create**... or pull down the **Create...** menu
-    1. select **Create Folder...** .
-    1. in the **Create Folder** dialog, enter **an-scf-sandbox**
-    1. click **OK**
+    1. Select the **`/apps`** folder
+    1. Right-click **Create**... or pull down the **Create...** menu
+    1. Select **Create Folder...** .
+    1. In the **Create Folder** dialog, enter **an-scf-sandbox**
+    1. Click **OK**
 
 1. Create **components** subfolder.
 
-    1. select the **/apps/an-scf-sandbox** folder
-    1. click **Create** &gt; **Create Folder**
-    1. in the **Create Folder** dialog, enter **components**
-    1. click **OK**
+    1. Select the **/apps/an-scf-sandbox** folder
+    1. Click **Create** &gt; **Create Folder**
+    1. In the **Create Folder** dialog, enter **components**
+    1. Click **OK**
 
 1. Create **templates** subfolder.
 
-    1. select the **/apps/an-scf-sandbox** folder
-    1. click **Create** &gt; **Create Folder**
-    1. in the **Create Folder** dialog, enter **templates**
-    1. click **OK**
-    1. re-select **/apps/an-scf-sandbox**
-    1. select **Save All**
+    1. Select the **/apps/an-scf-sandbox** folder
+    1. Click **Create** &gt; **Create Folder**
+    1. In the **Create Folder** dialog, enter **templates**
+    1. Click **OK**
+    1. Re-select **/apps/an-scf-sandbox**
+    1. Select **Save All**
 
    As with any editing process, save often. If you run into problems with entering data, it may be either because your login has timed out or you need to save previous edits.
 
@@ -92,7 +89,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
     * Title: **An SCF Sandbox**
     * Name: **an-scf-sandbox**
-    * select **Design Page Template**
+    * Select **Design Page Template**
 
    Click **Create**
 
@@ -100,7 +97,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
 1. Refresh the explorer pane if "An SCF Sandbox" folder does not appear.  
 
-1. Return to CRXDE Lite (http://localhost:4502/crx/de) and expand /etc/designs to see the node named "an-scf-sandbox".
+1. Return to CRXDE Lite (http:// localhost:4502/crx/de) and expand /etc/designs to see the node named "an-scf-sandbox".
 
    In the right, lower pane of CRXDE, you can view the Properties tab, Access Control tab and Replication tab to see what was defined using the Design Page Template.
 
