@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 6c405543-e339-4916-aa0f-b61d0b798cf3
 ---
 
-# Moderation Console{#moderation-console}
+# Moderation Console {#moderation-console}
 
 In AEM Communities, bulk [moderation of community content](moderate-ugc.md) is possible from both the author and publish environments by administrators and community moderators (trusted community members assigned as moderators).
 
@@ -24,11 +24,10 @@ From the Moderation console, administrators and community moderators will have a
 For more detailed information visit [Managing Users and User Groups](users.md).
 
 The Moderation console supports:
-
-* performing moderation tasks in bulk
-* searching UGC
-* viewing UGC details
-* viewing UGC author details
+* Performing moderation tasks in bulk
+* Searching UGC
+* Viewing UGC details
+* Viewing UGC author details
 
 Only when signed in as an administrator, or a member with ` [moderator permissions](in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed.
 
@@ -46,7 +45,7 @@ By selecting the Administration link, the Moderation console appears:
 
 In the author environment, to reach the Moderation console
 
-* from global navigation: **Navigation, Communities, Moderation**
+* From global navigation: **Navigation, Communities, Moderation**
 
 Only when signed in as an administrator, or as a member with ` [moderator permissions](in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed. The only community content displayed is that which the signed in member is permitted to moderate.
 
@@ -60,9 +59,9 @@ Only when signed in as an administrator, or as a member with ` [moderator permis
 
 Setting aside the left navigation rail (which appears on author, but not on publish), the moderation UI has following main areas:
 
-* **[top navigation bar](#top-navigation-bar)**
-* **[toolbar](#toolbar)** 
-* **[content area](#content-area)**
+* **[Top navigation bar](#top-navigation-bar)**
+* **[Toolbar](#toolbar)** 
+* **[Content area](#content-area)**
 
 ### Top Navigation Bar {#top-navigation-bar}
 
@@ -72,16 +71,14 @@ The top navigation bar is constant for all consoles. For more information, see [
 
 The toolbar, located beneath the top navigation bar, provides the following toggle switch on the left side:
 
-* [Filter rail](moderation.md#filter-rail)
-
-  opens a rail which allows a choice of properties on which to filter the content.
+* [Filter rail](moderation.md#filter-rail) opens a rail which allows a choice of properties on which to filter the content.
 
 The toolbar, located beneath the top navigation bar, provides the following toggle switch on the left side:
 
 ![toggleswitch](assets/toggleswitch.png)
 
 [Filter rail](moderation.md#filter-rail)  
-opens a rail, on selecting Search, which allows a choice of properties on which to filter the content.
+Opens a rail, on selecting Search, which allows a choice of properties on which to filter the content.
 
 ![filterrail](assets/filterrail.png)
 
@@ -89,15 +86,15 @@ opens a rail, on selecting Search, which allows a choice of properties on which 
 
 The content area contains information for posted UGC:
 
-* the UGC posted
-* member name
-* member avatar
-* location of the post
-* when it was posted
-* number of replies to the post
+* The UGC posted
+* Member name
+* Member avatar
+* Location of the post
+* When it was posted
+* Number of replies to the post
 * [sentiment](moderate-ugc.md#sentiment) associated with the post
-* if approved, a checkmark is displayed
-* if there is an attachment, a paperclip is displayed
+* If approved, a checkmark is displayed
+* If there is an attachment, a paperclip is displayed
 
 >[!NOTE]
 >
@@ -171,21 +168,19 @@ Content Type limits the referenced UGC displayed to posts of the selected resour
 
 To add additional resources on which to filter:
 
-* on an author instance
-* sign in as administrator
-* open [Web Console](http://localhost:4502/system/console/configMgr)
-* locate `AEM Communities Moderation Dashboard Filters`
-* select the configuration to open in edit mode
-* enter the ResourceType of a component on which to filter
-
-    * for example, to filter on included Voting components, enter:
-   
+* On an author instance
+* Sign in as administrator
+* Open [Web Console](http://localhost:4502/system/console/configMgr)
+* Locate `AEM Communities Moderation Dashboard Filters`
+* Select the configuration to open in edit mode
+* Enter the ResourceType of a component on which to filter
+    * For example, to filter on included Voting components, enter:    
       `Voting=social/tally/components/hbs/voting`
 
 ![chlimage_1-475](assets/chlimage_1-475.png)
 
-* select Save
-* refresh the Communities - Moderation console
+* Select Save
+* Refresh the Communities - Moderation console
 
 The result is a new selectable filter for `Voting`under the `Content Type` filter group.
 
@@ -257,22 +252,22 @@ The icons allowing these actions only appear on the toolbar when multiple posts 
 
 In single selection mode, it is possible to
 
-* view user details by selecting the user's name
-* view the post in-context by selecting the link to the post
+* View user details by selecting the user's name
+* View the post in-context by selecting the link to the post
 * [Reply](#reply)
 * [Allow](#allow)
 * [Deny](#deny)
 * [Delete](#delete)
 * [Close](#close)
-* view [Moderation History](#moderation-history)
+* View [Moderation History](#moderation-history)
 * [View Details](#viewdetails)
 
 Present on the card view above the moderation action icons is the text of the post and below is data indicating
 
-* if has replies, and if so, preceded by the number of replies
-* if has been flagged
-* if has been approved
-* when the UGC was posted
+* If has replies, and if so, preceded by the number of replies
+* If has been flagged
+* If has been approved
+* When the UGC was posted
 
 ![singleselectmode](assets/singleselectmode.png)
 

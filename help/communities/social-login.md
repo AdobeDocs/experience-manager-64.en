@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c0a71870-8f95-40c8-9ffd-b7af49723288
 ---
 
-# Social Login with Facebook and Twitter{#social-login-with-facebook-and-twitter}
+# Social Login with Facebook and Twitter {#social-login-with-facebook-and-twitter}
 
 Social login is the capability to present a site visitor the option to sign in with their Facebook or Twitter account. Therefore, including permitted Facebook or Twitter data in their AEM member profile.
 
@@ -25,7 +25,7 @@ While the we-retail sample provides sample Facebook and Twitter apps and cloud s
 
 The required steps are:
 
-1. [**Enable **OAuth authentication](#adobe-granite-oauth-authentication-handler) on all AEM publish instances. 
+1. [Enable OAuth authentication](#adobe-granite-oauth-authentication-handler) on all AEM publish instances. 
 
    Without OAuth enabled, attempts to log in fail.
 
@@ -33,23 +33,23 @@ The required steps are:
 
     * To support log in with Facebook:
 
-        * create a [Facebook app](#create-a-facebook-app).
-        * create and publish a [Facebook Connect cloud service](#create-a-facebook-connect-cloud-service).
+        * Create a [Facebook app](#create-a-facebook-app).
+        * Create and publish a [Facebook Connect cloud service](#create-a-facebook-connect-cloud-service).
 
     * To support log in with Twitter:
 
-        * create a [Twitter app](#create-a-twitter-app).
-        * create and publish a [Twitter Connect cloud service](#create-a-twitter-connect-cloud-service).
+        * Create a [Twitter app](#create-a-twitter-app).
+        * Create and publish a [Twitter Connect cloud service](#create-a-twitter-connect-cloud-service).
 
 1. [**Enable** social login](#enable-social-login) for a community site.
 
 There are two basic concepts:
 
-1. **scope** (permissions) specifies the data the app is allowed to request.
+1. **Scope** (permissions) specifies the data the app is allowed to request.
 
     * The Facebook and Twitter [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-application-and-provider) instances, by default, include the basic app permissions within their scope.
 
-1. **fields** (params) specifies the actual data requested using URL parameters.
+1. **Fields** (params) specifies the actual data requested using URL parameters.
 
     * These fields are specified in [AEM Communities Facebook OAuth Provider](#aem-communities-facebook-oauth-provider) and [AEM Communities Twitter OAuth Provider](#aem-communities-twitter-oauth-provider).
     * The default fields are sufficient for most use cases but can be modified.
@@ -76,16 +76,12 @@ To create Facebook application, follow Facebook's instructions at [https://devel
 In general, as of Facebook API v2.7:
 
 * *Add a New Facebook App:*
-
-    * for *Platform*, choose Website
-
-        * for *Site URL* - enter `  https://<server>:<port>.`
-
-    * for *Display Name* - enter a title for use as the Title of the Facebook connect service.
-    * for *Category*, recommended choosing *Apps for Pages,* but can be anything.
+    * For *Platform*, choose Website
+        * For *Site URL*, enter `  https://<server>:<port>.`
+    * For *Display Name*, enter a title for use as the Title of the Facebook connect service.
+    * For *Category*, recommended choosing *Apps for Pages,* but can be anything.
     * *Add  Product:  Facebook Login*
-
-        * for *Valid OAuth redirect URIs* - enter `  https://<server>:<port>.`
+        * For *Valid OAuth redirect URIs*, enter `  https://<server>:<port>.`
 
 >[!NOTE]
 >
@@ -138,7 +134,7 @@ This provider will require editing to:
 * Allow user updates 
 * Add additional fields [within scope](#adobe-granite-oauth-application-and-provider)
 
-    * not all fields permitted by default are included by default.
+    * Not all fields permitted by default are included by default.
 
 If editing is necessary, on each AEM publish instance:
 
@@ -151,11 +147,11 @@ If editing is necessary, on each AEM publish instance:
 
     * **OAuth Provider ID** 
   
-      (*Required*)  Default  value is * soco -facebook*. Do not edit.
+      (*Required*)  Default  value is *soco -facebook*. Do not edit.
   
     * **Cloud Service Config** 
   
-      Default value is */etc/  cloudservices /  facebookconnect *. Do not edit.
+      Default value is */etc/  cloudservices /  facebookconnect*. Do not edit.
   
     * **OAuth Provider Service Config** 
   
@@ -198,8 +194,8 @@ If editing is necessary, on each AEM publish instance:
 
 The next steps are the same for both Facebook and Twitter:
 
-* [publish the cloud service configurations](#publishcloudservices)
-* [enable for a community site](#enable-social-login)
+* [Publish the cloud service configurations](#publishcloudservices)
+* [Enable for a community site](#enable-social-login)
 
 ## Twitter Login {#twitter-login}
 
@@ -228,11 +224,11 @@ In general:
 
 In the Twitter application management's permissions section:
 
-* **Access**: select '  Read only '.
+* **Access**: Select '  Read only '.
 
     * Other options are not supported
 
-* **Additional Permissions**: optionally choose 'Request email addresses from users'.
+* **Additional Permissions**: Optionally choose 'Request email addresses from users'.
 
     * If not selected, the user profile in AEM will not include their email address.
     * Twitter's instructions note additional steps to take.
@@ -294,9 +290,9 @@ If editing is necessary, on each AEM publish instance:
 
    ![twitteroauth_png](assets/twitteroauth_png.png)
 
-    * **OAuth Provider ID **(*Required*) 
+    * **OAuth Provider ID** (*Required*) 
 
-      The default value is * soco -twitter*. Do not edit.
+      The default value is *soco -twitter*. Do not edit.
   
     * **Cloud Service Config** 
 
@@ -320,8 +316,8 @@ If editing is necessary, on each AEM publish instance:
 
 The next steps are the same for both Facebook and Twitter:
 
-* [publish the cloud service configurations](#publishcloudservices)
-* [enable for a community site](#enable-social-login)
+* [Publish the cloud service configurations](#publishcloudservices)
+* [Enable for a community site](#enable-social-login)
 
 ## Enable Social Login {#enable-social-login}
 
@@ -335,26 +331,23 @@ Once a cloud service is configured, it may be enabled for the relevant Social Lo
 
    ![managesites_png](assets/managesites_png.png)
 
-1. On Settings tab, enable **Social Logins **and Save.
+1. On Settings tab, enable **Social Logins** and Save.
 
    ![usermgmt_png](assets/usermgmt_png.png)
 
 ## Test Social Login {#test-social-login}
 
-* ensure [Adobe Granite OAuth Authentication Handler](#adobe-granite-oauth-authentication-handler) has been enabled on all publish instances
-* ensure the cloud services have been published
-* ensure the community site has been published
-* launch the published site in a browser 
-
-  for example, http://localhost:4503/content/sites/engage/en.html
-
-* select **Login In**
-* select either **Sign in with Facebook **or **Sign in with Twitter**
-
-* if not already logged into Facebook or Twitter, log in with the appropriate credentials
-* it may be necessary to grant permission depending on the dialog displayed by the Facebook or Twitter app
-* notice that the toolbar at the top of the page is updated to reflect the successful login
-* select **Profile**: the Profile page displays the user's avatar image, first name, and last name. It also displays the information from the Facebook or Twitter profile according to the fields/params permitted.
+* Ensure [Adobe Granite OAuth Authentication Handler](#adobe-granite-oauth-authentication-handler) has been enabled on all publish instances
+* Ensure the cloud services have been published
+* Ensure the community site has been published
+* Launch the published site in a browser 
+  For example, http://localhost:4503/content/sites/engage/en.html
+* Select **Login In**
+* Select either **Sign in with Facebook** or **Sign in with Twitter**
+* If not already logged into Facebook or Twitter, log in with the appropriate credentials
+* It may be necessary to grant permission depending on the dialog displayed by the Facebook or Twitter app
+* Notice that the toolbar at the top of the page is updated to reflect the successful login
+* Select **Profile**: the Profile page displays the user's avatar image, first name, and last name. It also displays the information from the Facebook or Twitter profile according to the fields/params permitted.
 
 ## AEM Platform OAuth Configurations {#aem-platform-oauth-configurations}
 
@@ -364,15 +357,12 @@ The `Adobe Granite OAuth Authentication Handler` is not enabled by default and *
 
 To enable the authentication handler on publish, simply open the OSGi config and save it:
 
-* sign in with administrator privileges
-* navigate to the [Web Console](../../help/sites-deploying/configuring-osgi.md) 
-
-  for example, http://localhost:4503/system/console/configMgr
-
+* Sign in with administrator privileges
+* Navigate to the [Web Console](../../help/sites-deploying/configuring-osgi.md) 
+  For example, http://localhost:4503/system/console/configMgr
 * Locate `Adobe Granite OAuth Authentication Handler`
-* select to open the configuration for edit
-
-* select **Save**
+* Select to open the configuration for edit
+* Select **Save**
 
 ![chlimage_1-489](assets/chlimage_1-489.png)
 
@@ -384,7 +374,7 @@ To enable the authentication handler on publish, simply open the OSGi config and
 
 ### Adobe Granite OAuth Application and Provider {#adobe-granite-oauth-application-and-provider}
 
-When a cloud service for Facebook or Twitter is created, an instance of `*Adobe Granite OAuth Authentication Handler*` is created.
+When a cloud service for Facebook or Twitter is created, an instance of `Adobe Granite OAuth Authentication Handler` is created.
 
 To locate the created instance for a Facebook or Twitter app:
 
@@ -451,27 +441,27 @@ On an author instance, signed in with administrative privileges:
 1. From global navigation: select **Tools, [CRX/DE Lite](../../help/sites-developing/developing-with-crxde-lite.md).**
 1. Create an index named ntBaseLucene-oauth from a copy of ntBaseLucene:
 
-    * under node /oak:index
-    * select node ntBaseLucene
-    * select **Copy**
-    * select /oak:index
-    * select **Paste**
-    * rename Copy of ntBaseLucene to ntBaseLucene-oauth
+    * Under node /oak:index
+    * Select node ntBaseLucene
+    * Select **Copy**
+    * Select /oak:index
+    * Select **Paste**
+    * Rename Copy of ntBaseLucene to ntBaseLucene-oauth
 
 1. Modify the properties of node ntBaseLucene-oauth:
 
     * **indexPath**: /oak:index/ntBaseLucene-oauth
-    * **name**: oauthid-123**&ast;**
+    * **name**: oauthid-123****
     * **reindex**: true
     * **reindexCount**: 1
 
 1. Under node /oak:index/ntBaseLucene-oauth/indexRules/nt:base/properties:
 
     * Delete all child nodes, except for cqTags.
-    * Rename cqTags to oauthid-123**&ast;.**
-    * Modify the properties of node oauthid-123**&ast;**:
+    * Rename cqTags to oauthid-123****
+    * Modify the properties of node oauthid-123****
 
-        * **name**: oauthid-123**&ast;**
+        * **name**: oauthid-123****
 
     * Select **Save All.**
 

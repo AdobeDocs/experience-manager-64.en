@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: b3cb8f12-197e-4f5e-bd7d-70b55e76b0ca
 ---
 
-# Create Comments Page{#create-comments-page}
+# Create Comments Page {#create-comments-page}
 
 **[⇐ Overlay Comments Component](overlay-comments.md) [Create Nodes ⇒](overlay-create-nodes.md)**
 

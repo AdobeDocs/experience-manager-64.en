@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 0225a543-0fad-488b-8b0b-8b3512d44fbe
 ---
 
-# Rich Text Editor Essentials{#rich-text-editor-essentials}
+# Rich Text Editor Essentials {#rich-text-editor-essentials}
 
 ## Overview {#overview}
 
@@ -29,14 +29,14 @@ If not enabled, simply enter [author edit mode](sites-console.md#authoring-site-
 
 RTE is available for the following Communities components:
 
-* [blog](blog-feature.md)
-* [calendar](calendar.md)
-* [comments](comments.md)
-* [filelibrary](file-library.md)
-* [forum](forum.md)
-* [messaging](configure-messaging.md)
+* [Blog](blog-feature.md)
+* [Calendar](calendar.md)
+* [Comments](comments.md)
+* [Filelibrary](file-library.md)
+* [Forum](forum.md)
+* [Messaging](configure-messaging.md)
 * [QnA](working-with-qna.md)
-* [reviews](reviews.md)
+* [Reviews](reviews.md)
 
 ## Customization {#customization}
 
@@ -54,11 +54,9 @@ Due to security concerns, the hyperlink options are not included in the set of r
 
 To add the hyperlink options to the toolbar:
 
-* add a toolbar named " `links`"
-
+* Add a toolbar named " `links`"
     * `{ name: 'links', items: [ 'Link','Unlink','Anchor' ] }`
-
-* select **Save All**
+* Select **Save All**
 
 #### /libs/clientlibs/social/commons/scf/ckrte.js {#libs-clientlibs-social-commons-scf-ckrte-js}
 
