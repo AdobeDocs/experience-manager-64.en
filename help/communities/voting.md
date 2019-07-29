@@ -17,11 +17,7 @@ The `Voting` component is a useful tool that allows community members to rate a 
 
 ## Adding Voting to a Page {#adding-voting-to-a-page}
 
-To add a `Voting` component to a page in author mode, use the component browser to locate
-
-* `Communities / Voting`
-
-and drag it into place on a page, such as a position relative to the feature for users to vote on.
+To add a `Voting` component to a page in author mode, use the component browser to locate `Communities / Voting` and drag it into place on a page, such as a position relative to the feature for users to vote on.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 

@@ -23,9 +23,9 @@ This section is specific to Communities and supplements the information provided
 
 When installing a new Communities feature pack on a deployment configured with MSRP, it will be necessary to:
 
-1. install the [latest feature pack](deploy-communities.md#latestfeaturepack)
-2. install the [latest Solr config files](msrp.md#upgrading)
-3. reindex MSRP
+1. Install the [latest feature pack](deploy-communities.md#latestfeaturepack)
+2. Install the [latest Solr config files](msrp.md#upgrading)
+3. Reindex MSRP
 
    see section [MSRP Reindex Tool](msrp.md#msrp-reindex-tool)
 
@@ -47,15 +47,15 @@ Thus, there is the ability to instruct ASRP to use `AEM 6.0 compatability-mode` 
 
 For all AEM 6.3 author and publish instances
 
-1. sign in with administrator privileges
-2. configure [ASRP](asrp.md)
-3. follow these steps to make pre-existing UGC visible:
-  i. browse to the web console, for example
+1. Sign in with administrator privileges
+2. Configure [ASRP](asrp.md)
+3. Follow these steps to make pre-existing UGC visible:
+  i. Browse to the web console, for example
    [https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr)
-  ii. locate **AEM Communities Utilities** configuration
-  iii. select to expand config panel
-    * *uncheck* **`Cloud Storage`**
-    * select **Save**
+  ii. Locate **AEM Communities Utilities** configuration
+  iii. Select to expand config panel
+    * *Uncheck* **`Cloud Storage`**
+    * Select **Save**
 
 ![chlimage_1-126](assets/chlimage_1-126.png) 
 

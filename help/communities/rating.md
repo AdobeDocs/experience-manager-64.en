@@ -11,17 +11,13 @@ content-type: reference
 discoiquuid: a0e5491e-66bc-47b0-94a5-45a02bc558da
 ---
 
-# Using Ratings{#using-ratings}
+# Using Ratings {#using-ratings}
 
 The `Rating`component is used standalone or in conjunction with other Communities features. This component allows signed-in community members to express their opinions by rating content.
 
 ## Adding a Rating to a Page {#adding-a-rating-to-a-page}
 
-To add a `Rating`component to a page in author mode, locate the component
-
-* `Communities / Rating`
-
-and drag it into place on a page, such as a position relative to the feature for members to rate.
+To add a `Rating`component to a page in author mode, locate the component `Communities / Rating` and drag it into place on a page, such as a position relative to the feature for members to rate.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -39,7 +35,7 @@ Under the **Texts & Labels** tab you specify the internal identifier for the Rat
 
 ![chlimage_1-495](assets/chlimage_1-495.png)
 
-* **Tally Name** 
+**Tally Name** 
   (*Required*) A simple name for the `Rating`which uniquely identifies this instance. Must be a valid node name for the repository.
 
 ## Site Visitor Experience {#site-visitor-experience}

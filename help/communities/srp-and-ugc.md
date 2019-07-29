@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 0763f236-5648-49e9-8a24-dbc8f4c77ee3
 ---
 
-# SRP and UGC Essentials{#srp-and-ugc-essentials}
+# SRP and UGC Essentials {#srp-and-ugc-essentials}
 
 ## Introduction {#introduction}
 
@@ -103,27 +103,27 @@ When a member enters UGC in the publish environment, they are interacting with a
 
 An example of such a component is the [comments component](http://localhost:4502/content/community-components/en/comments.html) that exists in the [Community Components Guide](components-guide.md) site. The path to the comment node in the local repository is:
 
-* component path = */content/community-components/en/comments/jcr:content/content/includable/comments*
+* Component path = */content/community-components/en/comments/jcr:content/content/includable/comments*
 
 **shadow node location**
 
 The creation of UGC also creates a [shadow node](srp.md#about-shadow-nodes-in-jcr) to which the necessary ACLs are applied. The path to the corresponding shadow node in the local repository is the result of prepending the shadow node root path to the component path:
 
-* root path = /content/usergenerated
-* comment shadow node = /content/usergenerated*/content/community-components/en/comments/jcr:content/content/includable/comments*
+* Root path = /content/usergenerated
+* Comment shadow node = /content/usergenerated/content/community-components/en/comments/jcr:content/content/includable/comments
 
 **UGC location**
 
 The UGC is created in neither of those locations, and should only be accessed using an [utility method](#utility-method-to-access-ugc) which invokes the SRP API.
 
-* root path = /content/usergenerated/asi/*&lt;srp-choice&gt;*
-* UGC node for JSRP = /content/usergenerated/asi/jcr*/content/community-components/en/comments/jcr:content/content/includable/comments*/srzd-let_it_be_
+* Root path = /content/usergenerated/asi/srp-choice
+* UGC node for JSRP = /content/usergenerated/asi/jcr/content/community-components/en/comments/jcr:content/content/includable/comments/srzd-let_it_be_
 
-*Be aware*, for JSRP, the UGC node will *only *be present on the AEM instance (either author or publish) on which it was entered. If entered on a publish instance, moderation will not be possible from the moderation console on author.
+*Be aware*, for JSRP, the UGC node will *only* be present on the AEM instance (either author or publish) on which it was entered. If entered on a publish instance, moderation will not be possible from the moderation console on author.
 
 ## Related Information {#related-information}
 
-* [Storage Resource Provider Overview](srp.md) - introduction and repository usage overview
+* [Storage Resource Provider Overview](srp.md) - Introduction and repository usage overview
 * [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [SocialUtils Refactoring](socialutils.md) - Mapping deprecated utility methods to current SRP utility methods
 
