@@ -37,7 +37,7 @@ The following table describes the steps in this diagram.
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>1</p></td> 
    <td><p>The <code>GetLoanForm</code> Java Servlet is invoked from an HTML page. </p></td> 

@@ -33,7 +33,7 @@ The following table explains the steps in the diagram.
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>1</p></td> 
    <td><p>A user fills in an interactive form and clicks the form’s Submit button.</p></td> 
@@ -81,7 +81,7 @@ The following table describes the steps in this diagram.
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>1</p></td> 
    <td><p>A web page contains a link that accesses a Java Servlet that invokes the Forms service.</p></td> 

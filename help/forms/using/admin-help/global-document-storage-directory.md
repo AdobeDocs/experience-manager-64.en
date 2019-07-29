@@ -29,7 +29,7 @@ AEM forms application data resides in the GDS directory and the AEM forms databa
    <th><p>GDS</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>Application data (users, roles, processes, policies, endpoints, events, and so on.)</p></td> 
    <td><p>Yes</p></td> 

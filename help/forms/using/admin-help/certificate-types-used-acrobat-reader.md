@@ -51,7 +51,7 @@ The following table lists the certificate profiles that you may encounter when a
    <th><p>Deployment type</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>P1</p></td> 
    <td><p>SAP Production</p></td> 
@@ -164,7 +164,7 @@ The permitted Acrobat Reader DC extensions usage rights consist of one or more s
    <th><p>Capability enabled in Adobe Reader when viewing a rights-enabled PDF document</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>FormFillInAndSave</p></td> 
    <td><p>Fill in form fields and save files locally.</p></td> 

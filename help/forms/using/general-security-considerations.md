@@ -40,7 +40,7 @@ For security information about operating systems that AEM Forms on JEE supports,
    <th><p>Security Resource</p> </th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>IBM® AIX® 7.2</p> </td> 
    <td><p><a href="https://www.ibm.com/support/knowledgecenter/ssw_aix_72/com.ibm.aix.security/security-kickoff.htm" target="_blank">IBM AIX Security Benefits</a></p> </td> 
@@ -93,7 +93,7 @@ For security information about application servers that AEM Forms on JEE support
    <th><p>Security Resource</p> </th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>Oracle WebLogic®</p> </td> 
    <td><p>Search for Understanding WebLogic Security at <a href="https://download.oracle.com/docs/">https://download.oracle.com/docs/</a>.</p> </td> 
@@ -127,7 +127,7 @@ For security information about databases that AEM Forms on JEE supports, see the
    <th><p>Security Resource</p> </th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>IBM DB2® 11.1</p> </td> 
    <td><p><a href="https://www-01.ibm.com/software/data/db2/library/">DB2 Product Family Library</a></p> </td> 
@@ -156,7 +156,7 @@ This table describes the default ports that are required to be open during your 
    <th><p>Port number</p> </th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>JBoss</p> </td> 
    <td><p>8080</p> </td> 

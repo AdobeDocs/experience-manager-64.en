@@ -1299,7 +1299,7 @@ The following table lists key and value pairs that are required when creating a 
    <th><p>Value</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p><code>WaterBackCmd:IS_USERNAME_ENABLED</code></p></td> 
    <td><p>Specifies if the user name of the user opening the document is part of the watermark.</p></td> 
@@ -1733,7 +1733,7 @@ Search for events by using the Rights Management API (web service):
     <th><p>Value</p></th> 
     </tr> 
     </thead> 
-    <tbody align="left"> 
+    <tbody>
     <tr> 
     <td><p><code>ALL_EVENTS</code></p></td> 
     <td><p>999</p></td> 

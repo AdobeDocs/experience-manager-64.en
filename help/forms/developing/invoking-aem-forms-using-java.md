@@ -73,7 +73,7 @@ The following table lists the JAR files that are required to invoke AEM Forms se
    <th><p>Location</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>adobe-livecycle-client.jar</p></td> 
    <td><p>Must always be included in a Java client application’s class path.</p></td> 
@@ -886,7 +886,7 @@ Determine the MIME type of a `com.adobe.idp.Document` object by invoking the `co
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p><code>application/pdf</code></p></td> 
    <td><p>PDF document</p></td> 

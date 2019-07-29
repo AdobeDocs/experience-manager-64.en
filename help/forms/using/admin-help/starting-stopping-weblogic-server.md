@@ -22,7 +22,7 @@ Several procedures require you to start or stop the instance of WebLogic Server 
    <th><p>Required WebLogic state</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>Creating a WebLogic domain</p></td> 
    <td><p>Stopped</p></td> 

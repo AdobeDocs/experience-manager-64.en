@@ -120,7 +120,7 @@ The following table summarizes some of the key values and object types that can 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p><code><i>documentName</i></code></p></td> 
    <td><p><code>com.adobe.idp.Document</code></p></td> 

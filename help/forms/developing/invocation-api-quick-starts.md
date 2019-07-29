@@ -24,7 +24,7 @@ The following Quick Starts are available for programmatically invoking AEM Forms
    <th><p>Web service API</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p><a href="/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes">Invoking Human-Centric Long-Lived Processes</a></p></td> 
    <td><p><a href="/help/forms/developing/invoking-human-centric-long-lived.md#invoking-a-long-lived-process-using-remoting">Invoking a long-lived process using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 

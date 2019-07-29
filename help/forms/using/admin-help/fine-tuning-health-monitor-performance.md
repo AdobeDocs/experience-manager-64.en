@@ -23,7 +23,7 @@ Collecting the system statistics that populate Health Monitor has some impact on
    <th><p>Default value</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>adobe.healthmonitor.enabled</p></td> 
    <td><p>Turn on or off Health Monitor thread</p></td> 

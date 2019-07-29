@@ -1420,7 +1420,7 @@ To retrieve a document to print, you use the `generatePrintedOutput` method. The
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>DPL </p></td> 
    <td><p>Creates a dpl203.xdc by default or custom xdc output stream.</p></td> 

@@ -32,7 +32,7 @@ The keytool command is typically located in the Java jre/bin directory and must 
    <th><p>Option value</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>-alias</p></td> 
    <td><p>The alias of the keystore.</p></td> 

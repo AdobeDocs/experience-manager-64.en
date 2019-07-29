@@ -50,7 +50,7 @@ The following table describes each step of the authentication process.
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>1</p></td> 
    <td><p>A user attempts to log into a service that invokes User Management. The user specifies a user name and password. </p></td> 
@@ -733,7 +733,7 @@ The following table describes the steps in this diagram
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>1</p></td> 
    <td><p>The user accesses a web site and specifies a user name and password. This information is submitted to a J2EE application server hosting AEM Forms.</p></td> 
@@ -859,7 +859,7 @@ The following table describes the steps in this diagram
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>1</p></td> 
    <td><p>A client application requests that AEM Forms performs a synchronization operation.</p></td> 

@@ -522,7 +522,7 @@ The following table lists the controls that are part of this ASP.NET application
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left"> 
+ <tbody>
   <tr> 
    <td><p>TextBoxName</p></td> 
    <td><p>Specifies the customer’s first and last name. </p></td> 
