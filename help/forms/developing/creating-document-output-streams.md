@@ -1414,13 +1414,13 @@ Another limitation of sending a PDF document to a printer is that it just prints
 To retrieve a document to print, you use the `generatePrintedOutput` method. The following table specifies content types that are set for a given print stream when using the `generatePrintedOutput` method.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Print format </p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>DPL </p></td> 
    <td><p>Creates a dpl203.xdc by default or custom xdc output stream.</p></td> 

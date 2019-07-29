@@ -19,13 +19,13 @@ AEM Forms services located in the service container (including standard servces 
 The following table describes the different ways in which you can programmatically invoke AEM Forms services. 
 
 <table>
- <thead align="left">
+ <thead>
   <tr>
    <th><p>Invocation method</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody>
+ <tbody align="left">
   <tr>
    <td><p>Remote integration</p></td> 
    <td><p>Remote integration provides the ability for Flex clients to invoke service operations. (See <a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting">Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting</a>.)</p></td> 

@@ -27,13 +27,13 @@ The following diagram shows data being submitted to a Java Servlet named `Handle
 The following table explains the steps in the diagram.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>1</p></td> 
    <td><p>A user fills in an interactive form and clicks the form’s Submit button.</p></td> 
@@ -75,13 +75,13 @@ Consider a web application that invokes the Forms service. After the Forms servi
 The following table describes the steps in this diagram.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>1</p></td> 
    <td><p>A web page contains a link that accesses a Java Servlet that invokes the Forms service.</p></td> 

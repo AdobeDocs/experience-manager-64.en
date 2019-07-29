@@ -31,13 +31,13 @@ A sample loan application is introduced to demonstrate how the Forms service use
 The following table describes the steps in this diagram.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>1</p></td> 
    <td><p>The <code>GetLoanForm</code> Java Servlet is invoked from an HTML page. </p></td> 

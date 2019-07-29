@@ -44,13 +44,13 @@ The following diagram shows the interaction among an end user attempting to log 
 The following table describes each step of the authentication process. 
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>1</p></td> 
    <td><p>A user attempts to log into a service that invokes User Management. The user specifies a user name and password. </p></td> 
@@ -727,13 +727,13 @@ The following diagram shows the application’s logic flow.
 The following table describes the steps in this diagram
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>1</p></td> 
    <td><p>The user accesses a web site and specifies a user name and password. This information is submitted to a J2EE application server hosting AEM Forms.</p></td> 
@@ -853,13 +853,13 @@ The following diagram shows AEM Forms synchronizing with a user respository.
 The following table describes the steps in this diagram
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>1</p></td> 
    <td><p>A client application requests that AEM Forms performs a synchronization operation.</p></td> 

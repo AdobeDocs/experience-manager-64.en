@@ -66,14 +66,14 @@ To programmatically invoke a AEM Forms service by using the Java API, include re
 The following table lists the JAR files that are required to invoke AEM Forms services.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>File</p></th> 
    <th><p>Description</p></th> 
    <th><p>Location</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>adobe-livecycle-client.jar</p></td> 
    <td><p>Must always be included in a Java client application’s class path.</p></td> 
@@ -217,13 +217,13 @@ The following table lists the JAR files that are required to invoke AEM Forms se
 The following table lists the JAR files that are dependant upon the connection mode and the J2EE application server on which AEM Forms is deployed.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>File</p> </th> 
    <th><p>Description</p> </th> 
    <th><p>Location</p> </th> 
   </tr> 
- </thead> 
+ </thead align="left"> 
  <tbody> 
   <tr> 
    <td> 
@@ -282,14 +282,14 @@ The following table lists the JAR files that are dependant upon the connection m
 The following table specifies invoking scenarios and lists the required JAR files to successfully invoke AEM Forms.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Services</p> </th> 
    <th><p>Invocation mode</p> </th> 
    <th><p>J2EE application server</p> </th> 
    <th><p>Required JAR files</p> </th> 
   </tr> 
- </thead> 
+ </thead align="left"> 
  <tbody> 
   <tr> 
    <td><p>Forms service</p> </td> 
@@ -880,13 +880,13 @@ The following code example copies the contents of a `com.adobe.idp.Document` obj
 Determine the MIME type of a `com.adobe.idp.Document` object by invoking the `com.adobe.idp.Document` object’s `getContentType` method. This method returns a string value that specifies the content type of the `com.adobe.idp.Document` object. The following table describes the different content types that AEM Forms returns.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>MIME type</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p><code>application/pdf</code></p></td> 
    <td><p>PDF document</p></td> 

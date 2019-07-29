@@ -262,13 +262,13 @@ AEM Forms services that return a large amount of binary data use the Document/BL
 The following table lists Java data types and shows the corresponding web service data type.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Java data type</p></th> 
    <th><p>Web service data type</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p><code>java.lang.byte[]</code></p></td> 
    <td><p><code>xsd:base64Binary</code></p></td> 

@@ -588,14 +588,15 @@ If WinID is able to extract the dialog contents such as the text, sub-windows, w
 This table lists the type of information used in printing native file formats.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Information type</p></th> 
    <th><p>Description</p></th> 
    <th><p>Modifying/creating entries related to native files </p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <thead> 
+ <tbody align="left" > 
   <tr> 
    <td><p>Administrative settings </p></td> 
    <td><p>Includes PDF settings, security settings, and file type settings. </p><p>File type settings associate file name extensions with the corresponding native applications. File type settings also specify native application settings used to print native files. </p></td> 

@@ -32,13 +32,13 @@ The following diagram shows the application’s logic flow.
 The following table describes the steps in this diagram.
 
 <table> 
- <thead align="left"> 
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <thead> 
+ <tbody align="left"> 
   <tr> 
    <td><p>1</p></td> 
    <td><p>The <code>GetLoanForm</code> Java Servlet is invoked from the HTML start page. </p></td> 

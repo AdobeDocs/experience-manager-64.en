@@ -34,13 +34,13 @@ When securing your operating system, carefully consider implementing the measure
 For security information about operating systems that AEM Forms on JEE supports, see the resources in the table:
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Operating System</p> </th> 
    <th><p>Security Resource</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>IBM® AIX® 7.2</p> </td> 
    <td><p><a href="https://www.ibm.com/support/knowledgecenter/ssw_aix_72/com.ibm.aix.security/security-kickoff.htm" target="_blank">IBM AIX Security Benefits</a></p> </td> 
@@ -87,13 +87,13 @@ When securing your application server, carefully consider implementing the measu
 For security information about application servers that AEM Forms on JEE supports, see the resources in this table.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Application Server</p> </th> 
    <th><p>Security Resource</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Oracle WebLogic®</p> </td> 
    <td><p>Search for Understanding WebLogic Security at <a href="https://download.oracle.com/docs/">https://download.oracle.com/docs/</a>.</p> </td> 
@@ -121,13 +121,13 @@ When securing your database, consider implementing the measures described by you
 For security information about databases that AEM Forms on JEE supports, see the resources in this table.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Database</p> </th> 
    <th><p>Security Resource</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>IBM DB2® 11.1</p> </td> 
    <td><p><a href="https://www-01.ibm.com/software/data/db2/library/">DB2 Product Family Library</a></p> </td> 
@@ -150,13 +150,13 @@ For security information about databases that AEM Forms on JEE supports, see the
 This table describes the default ports that are required to be open during your AEM Forms on JEE configuration process. If you are connecting over https, adjust your port information and IP addresses accordingly. For more information about configuring ports, see the *Installing and Deploying AEM Forms on JEE* document for your application server.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Product or service</p> </th> 
    <th><p>Port number</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>JBoss</p> </td> 
    <td><p>8080</p> </td> 

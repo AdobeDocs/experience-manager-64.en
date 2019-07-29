@@ -38,13 +38,13 @@ AEM forms administrators can use Health Monitor to check Work Manager statistics
 You can configure throttling for Work Manager, so that work items are scheduled only when there are enough memory resources available. You configure throttling by setting the following JVM options in your application server. 
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Property</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><code> adobe.work-manager.queue-refill-interval</code></td> 
    <td><p>Specifies the time interval, in milliseconds, that Work Manager uses when checking for new items in its queue.</p><p>The value for this option is an integer. The default value is <code>1000</code> milliseconds (1 second). </p><p>If the volume of asynchronous invocations is low, you can increase this value. For example, you could increase it to somewhere between 2000 and 5000 (2 to 5 seconds). </p><p>If the volume of asynchronous invocations is high, the default value should be sufficient, but you can use a lower value if necessary. Decreasing this value too much (for example, below 50, which results in a poll frequency of 20 times per second) causes a substantial overhead on the system.</p></td> 

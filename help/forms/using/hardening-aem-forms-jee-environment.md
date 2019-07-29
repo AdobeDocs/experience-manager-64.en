@@ -43,13 +43,13 @@ Network security vulnerabilities are among the first threats to any Internet-fac
 The following table describes common processes that reduce network security vulnerabilities.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Issue</p> </th> 
    <th><p>Description</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Demilitarized zones (DMZs)</p> </td> 
    <td><p>Deploy forms servers within a demilitarized zone (DMZ). Segmentation should exist in at least two levels with the application server used to run AEM Forms on JEE placed behind the inner firewall. Separate the external network from the DMZ that contains the web servers, which in turn must be separated from the internal network. Use firewalls to implement the layers of separation. Categorize and control the traffic that passes through each network layer to ensure that only the absolute minimum of required data is allowed.</p> </td> 
@@ -79,13 +79,13 @@ The following table describes common processes that reduce network security vuln
 The following table describes some potential approaches to minimizing security vulnerabilities found in the operating system.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Issue</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Security patches</p></td> 
    <td><p>There is an increased risk that an unauthorized user may gain access to the application server if vendor security patches and upgrades are not applied in a timely fashion. Test security patches before you apply them to production servers.</p><p>Also, create policies and procedures to check for and install patches on a regular basis.</p></td> 
@@ -108,13 +108,13 @@ For additional security information for your operating system, see [“Operating
 This section describes techniques you can use during the AEM Forms installation process to reduce security vulnerabilities. In some cases, these techniques use options that are part of the installation process. The following table describes these techniques.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Issue</p> </th> 
    <th><p>Description</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Privileges</p> </td> 
    <td><p>Use the least number of privileges necessary to install the software. Log in to your computer by using an account that is not in the Administrators group. On Windows, you can use the Run As command to run the AEM Forms on JEE installer as an administrative user. On UNIX and Linux systems, use a command such as <code>sudo</code> to install the software.</p> </td> 
@@ -299,13 +299,13 @@ Web Service Definition Language (WSDL) generation should be enabled only for dev
 The following table describes some techniques for securing your application server after the AEM Forms on JEE application is installed.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Issue</p> </th> 
    <th><p>Description</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Application server administrative console</p> </td> 
    <td><p>After you install, configure, and deploy AEM Forms on JEE on your application server, you should disable access to the application server administrative consoles. See your application server documentation for details.</p> </td> 
@@ -414,13 +414,13 @@ You can use auditing to detect many types of attacks, including these:
 This table describes auditing and logging techniques you can use to reduce your server’s vulnerabilities.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Issue</p> </th> 
    <th><p>Description</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Log file ACLs</p> </td> 
    <td><p>Set appropriate AEM Forms on JEE log file access control lists (ACLs).</p> <p>Setting the appropriate credentials helps prevent attackers from deleting the files.</p> <p>The security permissions on the log file directory should be Full Control for Administrators and SYSTEM groups. The AEM Forms user account should have Read and Write permissions only.</p> </td> 
@@ -447,7 +447,7 @@ The following application root URLs for each AEM Forms on JEE web application. Y
 Certain URLs are highlighted as end-user-facing web applications. You should avoid exposing other URLs for Configuration Manager for access to external users through the reverse proxy.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Root URL</p> </th> 
    <th><p>Purpose and/or associated web application</p> </th> 
@@ -455,7 +455,7 @@ Certain URLs are highlighted as end-user-facing web applications. You should avo
    <th><p>End-user access</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>/ReaderExtensions/*</p> </td> 
    <td><p>Acrobat Reader DC extensions end-user web application for applying usage rights to PDF documents</p> </td> 
@@ -777,13 +777,13 @@ This section describes the protocols and ports that are required by AEM Forms on
 When you configure a secure network architecture as described in the previous section, the following network protocols are required for interaction between AEM Forms on JEE and other systems in your enterprise network.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Protocol</p> </th> 
    <th><p>Use</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>HTTP</p> </td> 
    <td> 
@@ -861,13 +861,13 @@ This section describes the default ports (and alternate configuration ranges) fo
 **JBoss ports**
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Purpose</p> </th> 
    <th><p>Port</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Access to web applications</p> </td> 
    <td><p>[JBOSS_Root]/standalone/configuration/lc_[database].xml</p> <p>HTTP/1.1 Connector port 8080</p> <p>AJP 1.3 Connector port 8009</p> <p>SSL/TLS Connector port 8443</p> </td> 
@@ -882,13 +882,13 @@ This section describes the default ports (and alternate configuration ranges) fo
 **WebLogic ports**
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Purpose</p> </th> 
    <th><p>Port</p> </th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p>Access to web applications</p> </td> 
    <td> 

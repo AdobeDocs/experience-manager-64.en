@@ -1292,14 +1292,14 @@ To create a new watermark, you must set watermark attributes. The name attribute
 The following table lists key and value pairs that are required when creating a watermark using web services. 
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Key Name</p></th> 
    <th><p>Description</p></th> 
    <th><p>Value</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody align="left"> 
   <tr> 
    <td><p><code>WaterBackCmd:IS_USERNAME_ENABLED</code></p></td> 
    <td><p>Specifies if the user name of the user opening the document is part of the watermark.</p></td> 
@@ -1727,13 +1727,13 @@ Search for events by using the Rights Management API (web service):
     * Set the event to search for by assigning a string value to the `EventSpec` object’s `eventCode` data member. The following table lists the numeric values that you can assign to this property:
 
     <table> 
-    <thead align="left"> 
+    <thead> 
     <tr> 
     <th><p>Event type</p></th> 
     <th><p>Value</p></th> 
     </tr> 
     </thead> 
-    <tbody> 
+    <tbody align="left"> 
     <tr> 
     <td><p><code>ALL_EVENTS</code></p></td> 
     <td><p>999</p></td> 
