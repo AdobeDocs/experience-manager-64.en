@@ -43,7 +43,7 @@ The Adobe Developer website contains the following articles that discuss invokin
 
 [Invoking AEM Forms using Web Services](/help/forms/developing/invoking-aem-forms-using-web.md)
 
-[Setting connection properties](invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](#setting-connection-properties)
 
 [Passing data to AEM Forms services using the Java API](invoking-aem-forms-using-java.md#passing-data-to-aem-forms-services-using-the-java-api)
 
