@@ -27,17 +27,13 @@ To not display the avatar next to each posted comment:
 1. Open the overlaid `comment.hbs`
     * Double-click on node  `comment.hbs`in `/apps/social/commons/components/hbs/comments/comment folder`
 1. Find the following lines and either delete or comment them out:
-```xml
-  <aside class="scf-comment-author">
-        <img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>
-```
+`xml <aside class="scf-comment-author">
+        <img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>`
 
 Either delete the lines, or surround them with '&lt;!--' and '--&gt;' to comment them out. Also, the characters 'xxx' are being added as a visual indicator of where the avatar would have been.
-```xml
-   <!-- do not display avatar with comment
+`xml <!-- do not display avatar with comment
     <aside class="scf-comment-author">
-        <img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>
-```
+        <img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>`
 
 ## Replicate the Overlay {#replicate-the-overlay}
 
