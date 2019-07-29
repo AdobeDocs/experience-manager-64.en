@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: d355a3ee-c8a8-4a07-8d28-d1a99bda315c
 ---
 
-# Tag Essentials{#tag-essentials}
+# Tag Essentials {#tag-essentials}
 
 When AEM Communities components are configured with tagging enabled, community members are able to tag the content they post in the publish environment.
 
@@ -27,10 +27,10 @@ The underlying infrastructure for tags applied in the publish environment is the
 
 Tagging of UGC may be enabled when configuring a [community site](sites-console.md#tagging) or one of the following features:
 
-* [blog](blog-feature.md)
-* [calendar](calendar.md)
-* [file library](file-library.md)
-* [forum](forum.md)
+* [Blog](blog-feature.md)
+* [Calendar](calendar.md)
+* [File library](file-library.md)
+* [Forum](forum.md)
 * [QnA](working-with-qna.md)
 
 ## Essentials for Client-Side {#essentials-for-client-side}
@@ -61,7 +61,7 @@ Tagging of UGC may be enabled when configuring a [community site](sites-console.
   </tr>
   <tr>
    <td><strong>properties</strong></td> 
-   <td>see <a href="tagcloud.md">Using Social Tag Cloud</a></td> 
+   <td>See <a href="tagcloud.md">Using Social Tag Cloud</a></td> 
   </tr>
  </tbody>
 </table>

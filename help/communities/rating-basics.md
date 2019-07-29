@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 7dc3ef57-05c3-45d4-ace3-bb3ba6ea768b
 ---
 
-# Rating Essentials{#rating-essentials}
+# Rating Essentials {#rating-essentials}
 
 The rating component, a [tally](tally.md) subclass, allows signed in community members to rate a feature on the website.
 
@@ -45,7 +45,7 @@ Anonymous posting of a rating is not supported. Site visitors must register and 
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td><p>see <a href="rating.md">Using Rating</a></p> </td> 
+   <td><p>See <a href="rating.md">Using Rating</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

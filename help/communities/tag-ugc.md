@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 1cc8ce66-2c03-44e4-9ddd-8d6944d85c99
 ---
 
-# Tagging User Generated Content{#tagging-user-generated-content}
+# Tagging User Generated Content {#tagging-user-generated-content}
 
 ## Overview {#overview}
 

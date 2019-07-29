@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: e228f1db-91ea-4ec3-86da-06d89d74bc72
 ---
 
-# Solr Configuration for SRP{#solr-configuration-for-srp}
+# Solr Configuration for SRP {#solr-configuration-for-srp}
 
 ## Solr for AEM Platform {#solr-for-aem-platform}
 
@@ -25,16 +25,16 @@ For production environments, [SolrCloud mode](#solrcloud-mode) provides improved
 
 Download and install Apache Solr:
 
-* [version 4.10](https://archive.apache.org/dist/lucene/solr/4.10.4/) or [version 5](https://archive.apache.org/dist/lucene/solr/5.5.3/)
+* [Version 4.10](https://archive.apache.org/dist/lucene/solr/4.10.4/) or [version 5](https://archive.apache.org/dist/lucene/solr/5.5.3/)
 
 * Solr requires Java 1.7 or greater
-* no service is needed
-* choice of run modes:
+* No service is needed
+* Choice of run modes:
 
-    * standalone mode
+    * Standalone mode
     * [SolrCloud mode](#solrcloud-mode) (recommended for production environments)
 
-* choice of Multilingual Search (MLS)
+* Choice of Multilingual Search (MLS)
 
     * [Installing Standard MLS](#installing-standard-mls)
     * [Installing Advanced MLS](#installing-advanced-mls)
@@ -46,7 +46,7 @@ Download and install Apache Solr:
 The recommendation is to follow the SolrCloud instructions to install:
 
 * 3 SolrCloud nodes on same server
-* an external Apache ZooKeeper
+* An external Apache ZooKeeper
 
 It is also recommended to configure JVM to tune memory usage and garbage collection.
 
@@ -81,10 +81,10 @@ Reference:
 
 Usage:  
 ./bin/solr create \  
--c *mycollection-name *\  
+-c *mycollection-name*\  
 -d *config-dir* \  
 -n *myconfig-name* \  
--p *port *\  
+-p *port*\  
 -s *number-of-shards* \  
 -rf *number-of-replicas*
 
@@ -119,7 +119,7 @@ Advanced MLS includes enhancements for content search for the following language
 * German: added decompounder
 * French: added elision handling
 * Chinese (Simplified): added a smarter tokenizer
-* various languages: added a stemmer, stop word list, and a normalizer.
+* Various languages: added a stemmer, stop word list, and a normalizer.
 
 In all, the following 33 languages are supported in Advanced MLS.
 
@@ -138,7 +138,7 @@ In all, the following 33 languages are supported in Advanced MLS.
 
 #### Comparison of AEM 6.1 Solr search, Standard MLS and Advanced MLS {#comparison-of-aem-solr-search-standard-mls-and-advanced-mls}
 
-**Note **: AEM 6.1 refers to AEM 6.1 Communities FP3 and earlier.
+**Note**: AEM 6.1 refers to AEM 6.1 Communities FP3 and earlier.
 
 ![chlimage_1-283](assets/chlimage_1-283.png) 
 
@@ -149,45 +149,42 @@ For the SRP collection (either MSRP or DSRP), to support Standard Multilingual S
 * **schema.xml**
 * **solrconfig.xml**
 
-standard MLS files (schema.xml, solrconfig.xml) for Solr 4.10
+Standard MLS files (schema.xml, solrconfig.xml) for Solr 4.10
 
-standard MLS files (schema.xml, solrconfig.xml) for Solr 5
+Standard MLS files (schema.xml, solrconfig.xml) for Solr 5
 
 The Standard MLS files are stored in the AEM repository.
 
-**Note **: While the Solr files are stored in the msrp/ folder, they are also for DSRP (no changes necessary).
+**Note**: While the Solr files are stored in the msrp/ folder, they are also for DSRP (no changes necessary).
 
 **Download instructions**: replace *solrX *with *solr4 *or *solr5 *as appropriate
 
-1. using CRXDE|Lite, locate
+1. Using CRXDE|Lite, locate
 
     * /libs/social/config/datastore/msrp/*solrX*/**schema.xml**
     * /libs/social/config/datastore/msrp/*solrX*/**solrconfig.xml**
+ 
+1. Download to local server on which Solr is deployed
 
-1. 
-1. download to local server on which Solr is deployed
+    * Locate the `jcr:content` node's `jcr:data` property
+    * Select `view` to start the download
+    * Ensure the files are saved with the appropriate names and encoding (UTF8)
 
-    * locate the `jcr:content` node's `jcr:data` property
-    * select `view` to start the download
-    * ensure the files are saved with the appropriate names and encoding (UTF8)
-
-1. follow the installation instructions for either standalone or SolrCloud mode
+1. Follow the installation instructions for either standalone or SolrCloud mode
 
 #### SolrCloud Mode - Standard MLS {#solrcloud-mode-standard-mls}
 
 1. Install and configure Solr in SolrCloud mode
 1. Prepare a new configuration:
 
-    1. create *new-config-dir* 
+    1. Create *new-config-dir* such as *solr-install-dir*/myconfig/
 
-       such as *solr-install-dir*/myconfig/
+    1. Copy the contents of the existing Solr configuration directory to *new-config-dir*
 
-    1. copy the contents of the existing Solr configuration directory to *new-config-dir*
+        * For Solr4: copy *solr-install-dir*/example/solr/collection1/conf/&ast;
+        * For Solr5: copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&ast;
 
-        * for Solr4: copy *solr-install-dir*/example/solr/collection1/conf/&ast;
-        * for Solr5: copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&ast;
-
-    1. copy the downloaded **schema.xml** and **solrconfig.xml** to *new-config-dir* to overwrite existing files
+    1. Copy the downloaded **schema.xml** and **solrconfig.xml** to *new-config-dir* to overwrite existing files
 
 1. [Upload the new configuration](#upload-a-configuration-to-zookeeper) to ZooKeeper
 1. [Create a collection](#create-a-collection) specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.
@@ -205,8 +202,8 @@ The Standard MLS files are stored in the AEM repository.
 
 1. Backup **schema.xml** and **solrconfig.xml** in the Solr config dir, such as:
 
-    * for Solr4: *solr-install-dir*/example/solr/collection1/conf/
-    * created for Solr5: *solr-install-dir*/server/solr/collection1/conf/
+    * For Solr4: *solr-install-dir*/example/solr/collection1/conf/
+    * Created for Solr5: *solr-install-dir*/server/solr/collection1/conf/
 
 1. Copy the downloaded **schema.xml** and **solrconfig.xml** to that same directory
 
@@ -221,8 +218,8 @@ To obtain the Advanced MLS package, see [AEM Advanced MLS](deploy-communities.md
 
 To get started with the install for either SolrCloud or standalone mode:
 
-* download AEM-SOLR-MLS zip archive to server hosting Solr
-* unpack the archive
+* Download AEM-SOLR-MLS zip archive to server hosting Solr
+* Unpack the archive
 
 #### SolrCloud Mode - Advanced MLS {#solrcloud-mode-advanced-mls}
 
@@ -233,47 +230,45 @@ Installation instructions - note the few differences for Solr4 and Solr5:
 
     * **schema.xml**
     * **solrconfig.xml**
-    * **stopwords/ **folder
-    * **profiles/ **folder
+    * **stopwords/** folder
+    * **profiles/** folder
     * **extra-libs/** folder
 
 1. Prepare a new configuration:
 
-    1. create a *new-config-dir*
+    1. Create a *new-config-dir*
 
-        * such as *solr-install-dir*/myconfig/
-        * create subfolders stopwords/ and lang/
+        * Such as *solr-install-dir*/myconfig/
+        * Create subfolders stopwords/ and lang/
 
-    1. copy the contents of the existing Solr config dir to *new-config-dir*
+    1. Copy the contents of the existing Solr config dir to *new-config-dir*
 
-        * for Solr4: copy *solr-install-dir*/example/solr/collection1/conf/&ast;
-        * for Solr5: copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&ast;
+        * For Solr4: Copy *solr-install-dir*/example/solr/collection1/conf/&ast;
+        * For Solr5: Copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&ast;
 
-    1. copy the extracted **schema.xml** and **solrconfig.xml** to *new-config-dir* to overwrite existing files
-    1. for Solr5: copy *solr_install_dir*/server/solr/configsets/sample_techproducts_configs/conf/lang/&ast;.txt" to *new-config-dir*/lang/
-    1. copy the extracted **stopwords/** folder to *new-config-dir*
-
-        * resulting in *new-config-dir*/stopwords/&ast;.txt
+    1. Copy the extracted **schema.xml** and **solrconfig.xml** to *new-config-dir* to overwrite existing files
+    1. For Solr5: Copy *solr_install_dir*/server/solr/configsets/sample_techproducts_configs/conf/lang/&ast;.txt" to *new-config-dir*/lang/
+    1. Copy the extracted **stopwords/** folder to *new-config-dir* resulting in *new-config-dir*/stopwords/&ast;.txt
 
 1. [Upload the new configuration](#upload-a-configuration-to-zookeeper) to ZooKeeper
 1. Copy the new **profiles/** folder ...
 
-    * for Solr4: copy to each node's resources/ folder
-    * for Solr5: copy to each Solr installation's server/resources/ folder. If all nodes are in the same Solr install directory, then this step is performed only once.
+    * For Solr4: Copy to each node's resources/ folder
+    * For Solr5: Copy to each Solr installation's server/resources/ folder. If all nodes are in the same Solr install directory, then this step is performed only once.
 
-1. Create a** lib/** folder in the solr-home directory (contains solr.xml) of each node in SolrCloud. Copy jars from the following locations to the new lib/ folder on each node:
+1. Create a **lib/** folder in the solr-home directory (contains solr.xml) of each node in SolrCloud. Copy jars from the following locations to the new lib/ folder on each node:
 
     * **extra-libs/** extracted from the advanced MLS package
-    * *solr-install-dir*/contrib/extraction/lib/&ast;.jar
-    * *solr-install-dir*/dist/solr-cell-&ast;.jar
-    * *solr-install-dir*/contrib/clustering/lib/&ast;.jar
-    * *solr-install-dir*/dist/solr-clustering-&ast;.jar
-    * *solr-install-dir*/contrib/langid/lib/&ast;.jar
-    * *solr-install-dir*/dist/solr-langid-&ast;.jar
-    * *solr-install-dir*/contrib/velocity/lib/&ast;.jar
-    * *solr-install-dir*/dist/solr-velocity-&ast;.jar
-    * *solr-install-dir*/contrib/analysis-extras/lib/&ast;.jar
-    * *solr-install-dir*/contrib/analysis-extras/lucene-libs/&ast;.jar
+    * *solr-install-dir/contrib/extraction/lib/*.jar
+    * *solr-install-dir/dist/solr-cell*.jar
+    * *solr-install-dir/contrib/clustering/lib/*.jar
+    * *solr-install-dir/dist/solr-clustering*.jar
+    * *solr-install-dir/contrib/langid/lib/*.jar
+    * *solr-install-dir/dist/solr-langid*.jar
+    * *solr-install-dir/contrib/velocity/lib/*.jar
+    * *solr-install-dir/dist/solr-velocity*.jar
+    * *solr-install-dir/contrib/analysis-extras/lib/*.jar
+    * *solr-install-dir/contrib/analysis-extras/lucene-libs/*.jar
 
 1. [Create a collection](#create-a-collection) specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.
 1. If the configuration name was *not* provided during creation of the collection, [link this newly created collection](#link-a-collection-to-a-configuration-set) with the configuration uploaded to ZooKeeper
@@ -301,15 +296,15 @@ After the contents of the package have been extracted to the server hosting the 
 
     * -c collectionpath 
 
-      collection path in solr
+      Collection path in solr
 
     * --help 
 
-      print command line options
+      Print command line options
 
     * -v [4|5] 
 
-      set version for solr
+      Set version for solr
 
 * Example for Solr 4.10.4:
 
@@ -321,7 +316,7 @@ After the contents of the package have been extracted to the server hosting the 
 
 **Note**:
 
-* the install script will back-up schema.xml and solrconfig.xml before installing new versions by appending ".orig"
+* The install script will back-up schema.xml and solrconfig.xml before installing new versions by appending ".orig"
 
 ### About solrconfig.xml {#about-solrconfig-xml}
 

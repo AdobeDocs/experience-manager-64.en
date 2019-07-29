@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 47201e2d-338d-40e0-af82-c681a552807b
 ---
 
-# Communities Notifications{#communities-notifications}
+# Communities Notifications {#communities-notifications}
 
 ## Overview {#overview}
 
@@ -19,26 +19,23 @@ AEM Communities provides a notifications section which displays events of intere
 
 Notifications are similar to [activities](essentials-activities.md) and [subscriptions](subscriptions.md) as they may result from
 
-* the member posting content
-* the member choosing to follow another member
-* the member choosing to follow specific topics, articles and other threads of content
+* The member posting content
+* The member choosing to follow another member
+* The member choosing to follow specific topics, articles and other threads of content
 
 What distinguishes notifications from activities and subscriptions is
 
-* a link to the notifications section is always present in a community site's header
-
-    * activities require the [activity stream function](functions.md#activity-stream-function) to be included in the community site's structure
-    * subscriptions require [configuration of email](email.md)
-
-* the implementation of notifications is through scalable and pluggable channels
-
-    * activities are only available on the web
-    * subscriptions are only available using email
+* A link to the notifications section is always present in a community site's header
+    * Activities require the [activity stream function](functions.md#activity-stream-function) to be included in the community site's structure
+    * Subscriptions require [configuration of email](email.md)
+* The implementation of notifications is through scalable and pluggable channels
+    * Activities are only available on the web
+    * Subscriptions are only available using email
 
 As of Communities [FP1](deploy-communities.md#latestfeaturepack), the notification channels available are
 
-* the web channel, accessed using the `Notifications` link
-* the email channel, available when email is properly configured
+* The web channel, accessed using the `Notifications` link
+* The email channel, available when email is properly configured
 
 Future channels are mobile and desktop.
 
@@ -56,9 +53,9 @@ Components must be configured to enable following. Features that allow following
 
 Note that
 
-* components used within community [site templates](sites.md) and [group templates](tools-groups.md) may already be configured to allow following
+* Components used within community [site templates](sites.md) and [group templates](tools-groups.md) may already be configured to allow following
 
-* member profiles are already configured to allow other memebers to follow
+* Member profiles are already configured to allow other memebers to follow
 
 ## Notifications from Following {#notifications-from-following}
 
@@ -68,16 +65,13 @@ The **Follow **button provides a means to follow entries as activities, subscrip
 
 If any method of following is selected, the text of the button changes to **Following**. For convenience, it is possible to select `Unfollow All` to toggle off all methods.
 
-The **Follow **button will appear
+The **Follow** button will appear
 
-* when viewing another member's profile
-* on a main feature page, such as forums, QnA, and blogs
-
-    * follows all activity for that general feature
-
-* for a specific entry, such as a forum topic, QnA question, or blog article
-
-    * follows all activity for that specific entry
+* When viewing another member's profile
+* On a main feature page, such as forums, QnA, and blogs
+    * Follows all activity for that general feature
+* For a specific entry, such as a forum topic, QnA question, or blog article
+    * Follows all activity for that specific entry
 
 ## Managing Notification Settings {#managing-notification-settings}
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 3acac082-efbe-4995-b374-851cb9aaf62d
 ---
 
-# Search Feature{#search-feature}
+# Search Feature {#search-feature}
 
 The search feature works with various other features, such as forums, to provide the ability to search for content.
 
@@ -27,11 +27,7 @@ The search feature may be used with any other feature which allows site visitors
 
 ### Add Search to a Page {#add-search-to-a-page}
 
-To add a `Search` component to a page in author mode, use the component browser to locate
-
-* `Communities / Search`
-
-and drag it into place on a page. Use of `Search`requires a second page for the `Search Results.`
+To add a `Search` component to a page in author mode, use the component browser to locate `Communities / Search` and drag it into place on a page. Use of `Search` requires a second page for the `Search Results.`
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -45,7 +41,7 @@ Select the placed `Search` component to access and select the `Configure` icon w
 
 ![chlimage_1-374](assets/chlimage_1-374.png)
 
-Under the **Search Settings **tab, specify how what paths are are search when a query is entered by a visitor.
+Under the **Search Settings** tab, specify how what paths are are search when a query is entered by a visitor.
 
 ![chlimage_1-375](assets/chlimage_1-375.png)
 
@@ -81,7 +77,7 @@ Select the placed `Search Results` component to access and select the `Configure
 
 ![chlimage_1-377](assets/chlimage_1-377.png)
 
-Under the **Search Result Settings **tab, it is possible to specify what paths are included in the search when a query is entered by a visitor.
+Under the **Search Result Settings** tab, it is possible to specify what paths are included in the search when a query is entered by a visitor.
 
 ![chlimage_1-378](assets/chlimage_1-378.png)
 

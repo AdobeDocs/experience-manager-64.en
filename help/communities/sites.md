@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 202d7dba-2b34-431d-b10f-87775632807f
 ---
 
-# Site Templates{#site-templates}
+# Site Templates {#site-templates}
 
 The Site Templates console is very similar to the [Group Templates](tools-groups.md) console, which is focused on functions of interest to Community groups.
 
@@ -23,7 +23,7 @@ The Site Templates console is very similar to the [Group Templates](tools-groups
 
 In the author environment, to reach the community sites console
 
-* from global navigation: **Tools, Communities, Site Templates**
+* From global navigation: **Tools, Communities, Site Templates**
 
 This console displays the templates from which a [community site](sites-console.md) can be created and allows new site templates to be created.
 
@@ -41,14 +41,14 @@ This will bring up the Site Editor panel which contains 3 sub-panels:
 
 On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
-* **Community Site Template Name ** 
-  the template name id
+* **Community Site Template Name** 
+  The template name id
 
 * **Community Site Template Description** 
-  the template description
+  The template description
 
 * **Disabled/Enabled** 
-  a toggle switch controlling whether the template is referenceable
+  A toggle switch controlling whether the template is referenceable
 
 ### Thumbnail {#thumbnail}
 
