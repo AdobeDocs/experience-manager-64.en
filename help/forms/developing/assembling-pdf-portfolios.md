@@ -246,7 +246,7 @@ Assemble a PDF Portfolio by using the Assembler Service API (web service):
 
 1. Save the assembled portfolio.
 
-   To obtain the newly created PDF Portfolio, perform the following actions:
+   To obtain the newly created PDF Portfolio,perform the following actions:
 
     * Access the `AssemblerResult` object’s `documents` field, which is a `Map` object that contains the resultant PDF documents.
     * Iterate through the `Map` object to obtain each resultant document. Then, cast that array member’s `value` to a `BLOB`.
