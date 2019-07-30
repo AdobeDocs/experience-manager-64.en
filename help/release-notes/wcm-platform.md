@@ -100,7 +100,7 @@ discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 * Backward Compatibility: Backward compatible features in 6.4, helps your custom code remain compatible in most cases and reduces upgrade effort.
 * Upgrade Complexity Assessment: New Pattern detector tool to assess the complexity of your upgrades.
 * Sustainable Upgrades: API surface and Content Classification introduced to help you easily follow best practices for an efficient and seamless upgrade to the next version throughout your development cycle.
-* Repository Restructuring: Significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices. [Read more.](/help/sites-deploying/repository-restructuring-in-aem64.md)
+* Repository Restructuring: Significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices. [Read more.](/help/sites-deploying/repository-restructuring.md)
 * Please see the [Upgrade documentation](/help/sites-deploying/upgrade.md) for more details on these features.
 
 ### Cloud Services {#cloud-services}
