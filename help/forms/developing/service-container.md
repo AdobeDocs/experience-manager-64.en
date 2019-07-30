@@ -25,7 +25,7 @@ The following table describes the different ways in which you can programmatical
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody align="left">
+ <tbody>
   <tr>
    <td><p>Remote integration</p></td> 
    <td><p>Remote integration provides the ability for Flex clients to invoke service operations. (See <a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting">Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting</a>.)</p></td> 

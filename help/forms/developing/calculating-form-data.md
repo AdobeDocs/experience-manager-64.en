@@ -36,8 +36,7 @@ The following table describes the steps in this diagram.
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
- </thead> 
- <thead> 
+ </thead>
  <tbody>
   <tr> 
    <td><p>1</p></td> 

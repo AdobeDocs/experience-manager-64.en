@@ -14,7 +14,7 @@ discoiquuid: 3cb307ec-9b7b-4f03-b860-48553ccee746
 
 # Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms}
 
-## Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms}
+## Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms-inner}
 
 The Forms service renders interactive PDF forms to client devices, typically web browsers, to collect information from users. After an interactive form is rendered, a user can enter data into form fields and click a submit button located on the form to send information back to the Forms service. Adobe Reader or Acrobat must be installed on the computer hosting the client web browser in order for an interactive PDF form to be visible.
 
@@ -44,7 +44,7 @@ The following table describes the steps in this diagram.
   </tr> 
   <tr> 
    <td><p>2</p></td> 
-   <td><p>The <code>GetLoanForm</code> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Render an interactive PDF form using the Java API</a>.)</p></td> 
+   <td><p>The <code>GetLoanForm</code> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="#render-an-interactive-pdf-form-using-the-java-api">Render an interactive PDF form using the Java API</a>.)</p></td> 
   </tr> 
   <tr> 
    <td><p>3</p></td> 
@@ -52,7 +52,7 @@ The following table describes the steps in this diagram.
   </tr> 
   <tr> 
    <td><p>4</p></td> 
-   <td><p>The <code>HandleData</code> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Handling Submitted Forms</a>.)</p></td> 
+   <td><p>The <code>HandleData</code> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="help\forms\developing\handling-submitted-forms.md#handling-submitted-forms">Handling Submitted Forms</a>.)</p></td> 
   </tr> 
   <tr> 
    <td><p>5</p></td> 

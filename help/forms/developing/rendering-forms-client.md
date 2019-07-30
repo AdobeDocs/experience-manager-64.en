@@ -14,7 +14,7 @@ discoiquuid: 08d36e9f-cafc-478e-9781-8fc29ac6262e
 
 # Rendering Forms at the Client {#rendering-forms-at-the-client}
 
-## Rendering Forms at the Client {#rendering-forms-at-the-client}
+## Rendering Forms at the Client {#rendering-forms-at-the-client-inner}
 
 You can optimize the delivery of PDF content and improve the Forms service’s ability to handle network load by using the client-side rendering capability of Acrobat or Adobe Reader. This process is known as rendering a form at the client. To render a form at the client, the client device (typically a web browser) must use Acrobat 7.0 or Adobe Reader 7.0 or later.
 

@@ -595,7 +595,6 @@ This table lists the type of information used in printing native file formats.
    <th><p>Modifying/creating entries related to native files </p></th> 
   </tr> 
  </thead> 
- <thead> 
  <tbody align="left" > 
   <tr> 
    <td><p>Administrative settings </p></td> 

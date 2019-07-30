@@ -14,7 +14,7 @@ discoiquuid: f8749793-e53f-4812-a093-8278f480e6a8
 
 # Rendering Forms {#rendering-forms}
 
-## Rendering Forms {#rendering-forms}
+## Rendering Forms {#rendering-forms-inner}
 
 **About the Forms service**
 
