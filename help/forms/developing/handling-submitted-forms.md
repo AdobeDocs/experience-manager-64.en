@@ -29,7 +29,7 @@ The following table explains the steps in the diagram.
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
-  </tr> 
+  </tr>
  </thead> 
  <tbody>
   <tr> 
