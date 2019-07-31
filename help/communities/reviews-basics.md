@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 62669a9d-2107-4644-a4bf-143d0ac148b3
 ---
 
-# Reviews Essentials{#reviews-essentials}
+# Reviews Essentials {#reviews-essentials}
 
 This feature consists of two components that work together: reviews and review summary.
 
@@ -47,7 +47,7 @@ Anonymous posting of a review is not supported. Site visitors must register and 
   </tr>
   <tr>
    <td><strong>properties</strong></td> 
-   <td>see <a href="reviews.md">Using Reviews</a></td> 
+   <td>See <a href="reviews.md">Using Reviews</a></td> 
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ Anonymous posting of a review is not supported. Site visitors must register and 
 |  [**clientllibs**](client-customize.md#clientlibs-for-scf) |cq.social.hbs.reviews |
 |  **templates** | /libs/social/reviews/components/hbs/summary/summary.hbs |
 |  **css** | /libs/social/reviews/components/hbs/reviews/clientlibs/review.css |
-| **properties** |see [Using Reviews](reviews.md) |
+| **properties** |See [Using Reviews](reviews.md) |
 
 * [Client-side Customizations](client-customize.md)
 

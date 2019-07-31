@@ -120,7 +120,7 @@ For more information, please visit [this documentation page](/help/sites-deployi
 
 * [Backward Compatibility](/help/sites-deploying/backward-compatibility.md): Backward compatible features in 6.4, helps your custom code remain compatible in most cases and reduces upgrade effort.
 * [Upgrade Complexity Assessment](/help/sites-deploying/pattern-detector.md): New Pattern Detector tool to assess the complexity of your upgrades, before you upgrade.
-* [Repository Restructuring](/help/sites-deploying/repository-restructuring-in-aem64.md): significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices
+* [Repository Restructuring](/help/sites-deploying/repository-restructuring.md): significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices
 * For more general information regarding Upgrades, please see the [this page](/help/sites-deploying/upgrade.md) for more details.
 
 ### Experience Manager Sites {#experience-manager-sites}

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ceace3aa-78a5-485e-b519-630479e087d8
 ---
 
-# QnA Essentials{#qna-essentials}
+# QnA Essentials {#qna-essentials}
 
 This page provides the essential information for working with the questions and answers (QnA) forum feature.
 
@@ -41,7 +41,7 @@ This page provides the essential information for working with the questions and 
   </tr>
   <tr>
    <td> properties</td> 
-   <td>see <a href="working-with-qna.md">Q&amp;A Forum Feature</a></td> 
+   <td>See <a href="working-with-qna.md">Q&amp;A Forum Feature</a></td> 
   </tr>
  </tbody>
 </table>

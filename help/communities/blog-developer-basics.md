@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: de8d0e6d-827b-45fe-a538-d3fe1dec8427
 ---
 
-# Blog Essentials{#blog-essentials}
+# Blog Essentials {#blog-essentials}
 
 As of AEM 6.1 Communities, a blog is a community activity. Blog articles are now posted from the publish environment, where previously, blog articles could only be created in the author environment and published .
 
@@ -112,7 +112,5 @@ The AEM platform blocks links from other websites to prevent XSS attacks as desc
 
 As of AEM 6.2, the modifications previously required to be made manually are included in the default AntiSamy config file.
 
-Rich media is embeded in a blog article by selecting the `Embed Media from External Sites` icon:
-
-![chlimage_1-471](assets/chlimage_1-471.png)
+Rich media is embeded in a blog article by selecting the `Embed Media from External Sites` icon:  ![chlimage_1-471](assets/chlimage_1-471.png)
 

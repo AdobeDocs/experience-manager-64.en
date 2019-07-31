@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: dcde4e03-78ab-4779-96a1-05ac41f14701
 ---
 
-# Using Liking{#using-liking}
+# Using Liking {#using-liking}
 
 The `Liking`component is a useful tool that allows users to express an opinion about a particular piece of content, such as an comment within a forum. With the `Liking`component, members select the heart icon to indicate a positive opinion.
 
@@ -35,7 +35,7 @@ Select the placed `Liking` component to access and select the `Configure` icon w
 
 ![chlimage_1-94](assets/chlimage_1-94.png)
 
-Under the **Texts & Labels **tab, specify the properties used to record likes.
+Under the **Texts & Labels** tab, specify the properties used to record likes.
 
 ![chlimage_1-95](assets/chlimage_1-95.png)
 

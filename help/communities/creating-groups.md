@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 868a3d5d-d505-4ce5-8776-5bbe68a30ccb
 ---
 
-# Community Groups{#community-groups}
+# Community Groups {#community-groups}
 
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users (community members and authors) from the publish and author environments.
 
@@ -27,13 +27,13 @@ The ability to create a new community group relies on the existance of a communi
 
 The examples that follow use the community site created from the `Reference Site Template` as described in the [Getting Started with AEM Communities](getting-started.md) tutorial.
 
-This is the page that loads on publish when the **Groups **menu item is selected:
+This is the page that loads on publish when the **Groups** menu item is selected:
 
 ![chlimage_1-236](assets/chlimage_1-236.png)
 
 When you select the **New Group** icon, an edit dialog opens up.
 
-Under the **Settings **tab, you provide the basic features of the group:
+Under the **Settings** tab, you provide the basic features of the group:
 
 ![chlimage_1-237](assets/chlimage_1-237.png)
 
@@ -55,11 +55,11 @@ Under the **Settings **tab, you provide the basic features of the group:
 * **Member Only Group** 
   Selecting `Member Only Group` indicates only members of the group may view the content, and will de-select `Open Group`.
 
-Under the **Template **tab is the ability to select from the list of community group templates that were specified when the groups function was included in the community site's structure or in a community site template.
+Under the **Template** tab is the ability to select from the list of community group templates that were specified when the groups function was included in the community site's structure or in a community site template.
 
 ![chlimage_1-238](assets/chlimage_1-238.png)
 
-Under the **Image **tab is the ability to upload an image to display for the group on the community site's Groups page. The default style sheet will size the image to 170 x 90 pixels.
+Under the **Image** tab is the ability to upload an image to display for the group on the community site's Groups page. The default style sheet will size the image to 170 x 90 pixels.
 
 ![chlimage_1-239](assets/chlimage_1-239.png)
 

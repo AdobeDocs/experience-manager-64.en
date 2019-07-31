@@ -44,8 +44,8 @@ The issue is that the format string for com.day.cq.commons.date.RelativeTimeForm
 
 Thus, any code using RelativeTimeFormat() API would need to change
 
-* from: final RelativeTimeFormat fmt = new RelativeTimeFormat("r a", resourceBundle);
-* to: final RelativeTimeFormat fmt = new RelativeTimeFormat("r", resourceBundle);
+* From: final RelativeTimeFormat fmt = new RelativeTimeFormat("r a", resourceBundle);
+* To: final RelativeTimeFormat fmt = new RelativeTimeFormat("r", resourceBundle);
 
 The failure is different on author and publish. On author it fails silently and simply does not display the forum topics. On publish it throws up the error on the page.
 

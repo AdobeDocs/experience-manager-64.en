@@ -11,13 +11,13 @@ content-type: reference
 discoiquuid: 765a3d9b-4552-403e-872c-fdf684ac271d
 ---
 
-# Configuring Enablement Features{#configuring-enablement-features}
+# Configuring Enablement Features {#configuring-enablement-features}
 
 ## Overview {#overview}
 
 The enablement features provide the ability to create [enablement communities](overview.md#enablement-community).
 
-* This feature requires additional licensing for use in a production environment.*
+* This feature requires additional licensing for use in a production environment.
 
 Use of the enablement features requires the following:
 
@@ -53,19 +53,19 @@ Each step links to documentation which provides the necessary details.
 **On all author/publish instances:**
 
 1. **[install JDBC driver for MySQL](deploy-communities.md#jdbc-driver-for-mysql)** 
-use Web Console (bundles): *http://localhost:4502/system/console/bundles* 
-install *before* installing SCORM package
+Use Web Console (bundles): *http://localhost:4502/system/console/bundles* 
+Install *before* installing SCORM package
 
 1. **[install SCORM package](deploy-communities.md#scorm-package)** 
-use Package Manager: *http://localhost:4502/crx/packmgr/*
+Use Package Manager: *http://localhost:4502/crx/packmgr/*
 
 **On any server:**
 
 1. **[install MySQL, MySQL Workbench](mysql.md)**
 
 1. **[install MySQL databases](mysql.md#database-setup)** 
-execute SQL scripts downloaded from author instance  
-use MySQL Workbench
+Execute SQL scripts downloaded from author instance  
+Use MySQL Workbench
 
 **On same server hosting author instance:**
 
@@ -74,29 +74,29 @@ use MySQL Workbench
 **On all author/publish instances:**
 
 1. **[configure JDBC Connections pool](mysql.md#configure-jdbc-connections)** 
-use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
+Use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
 
 1. **[configure SCORM engine service](mysql.md#aem-communities-scormengine-service)** 
-use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
+Use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
 
 1. **[configure CSRF filters](mysql.md#adobe-granite-csrf-filter)** 
-use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
+Use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
 
 **On author instance:**
 
 1. (*optional*) **[configure Analytics service](analytics.md)** 
-use Tools, Deployment, Cloud Services console: *http://localhost:4502/etc/cloudservices/sitecatalyst.html*
+Use Tools, Deployment, Cloud Services console: *http://localhost:4502/etc/cloudservices/sitecatalyst.html*
 
 1. **[configure FFmpeg](ffmpeg.md#configure-ffmpeg-transcoding-service)** 
-use Workflow/Models console
+Use Workflow/Models console
 
 1. **[enable Tunnel Service](deploy-communities.md#tunnel-service-on-author)** 
-use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
+Use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
 
-1. **[create Community administrators](users.md#creating-community-members)** for author environment use classic-UI Security console: *http://localhost:4502/useradmin* 
+1. **[create Community administrators](users.md#creating-community-members)** For author environment use classic-UI Security console: *http://localhost:4502/useradmin* 
  create user(s) with path = /home/users/community  
 
-    * add members(s) to the following groups: 
+    * Add members(s) to the following groups: 
   
       * Community Enablement Managers 
       * Communities Administrators

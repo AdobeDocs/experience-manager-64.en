@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ccabf301-b417-48aa-8501-8360fd9f3e36
 ---
 
-# Members & Groups Management Consoles{#members-groups-management-consoles}
+# Members & Groups Management Consoles {#members-groups-management-consoles}
 
 ## Overview {#overview}
 
@@ -36,7 +36,7 @@ For managing users and groups registered in the *author* environment, is is nece
 
 In the author environment, to reach the Members console for managing members registered in the publish environment:
 
-* from global navigation: **Navigation, Communities, Members**
+* From global navigation: **Navigation, Communities, Members**
 
 >[!CAUTION]
 >
@@ -100,7 +100,7 @@ Most fields are optional fields the member can later fill-in on their profile.
 * **Add Member to Groups** 
   (*optional*) Select from existing member groups in order to add the member to that group.
 
-* select **Save**
+* Select **Save**
 
 ### GENERAL - Account settings {#general-account-settings}
 
@@ -150,25 +150,20 @@ See also [Scoring and Badges](implementing-scoring.md).
 
 ![chlimage_1-123](assets/chlimage_1-123.png)
 
-* **add badges**
-
-    * begin typing to select from [available badges](badges.md). Once a badge is selected, choose each site, or all sites, on which the badge should be displayed along with the member's avatar.
-    * multiple badges and sites may be chosen.
-
-* **remove badges**
-
-    * select the trash can icon next to a badge to remove it
+* **Add badges**
+    * Begin typing to select from [available badges](badges.md). Once a badge is selected, choose each site, or all sites, on which the badge should be displayed along with the member's avatar.
+    * Multiple badges and sites may be chosen.
+* **Remove badges**
+    * Select the trash can icon next to a badge to remove it
 
 ## Groups Console {#groups-console}
 
 The Groups console, available from the author environment, allows for the creation and management of member groups registered in the publish environment. It is particularly useful for:
-
-* [privileged member groups](users.md#privilegedmembersgroups)
-* group-based assignment of [enablement resources](resources.md)
+* [Privileged member groups](users.md#privilegedmembersgroups)
+* Group-based assignment of [enablement resources](resources.md)
 
 To access the Groups console:
-
-* from global navigation: **Navigation, Communities, Groups**
+* From global navigation: **Navigation, Communities, Groups**
 
 >[!CAUTION]
 >
@@ -198,7 +193,7 @@ The required fields for creating a new publish-side member group are:
 * **Add Members To Group** 
   (*optional*) Select publish-side members to be included as initial members of the group.
 
-* select **Save**
+* Select **Save**
 
 ## Authorized Administrators {#authorized-administrators}
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 0ce57ab1-e4c6-4c38-963d-556eef8757f2
 ---
 
-# Using Social Graph{#using-social-graph}
+# Using Social Graph {#using-social-graph}
 
 ## Introduction {#introduction}
 
@@ -23,11 +23,7 @@ The `Following`component simply lists the members that are either following the 
 
 ## Adding Following to a Page {#adding-following-to-a-page}
 
-If it is desired to add a `Following`component to a page in author mode, locate the component
-
-* `Communities / Following`
-
-and drag it into place on a page where the social graph should appear.
+If it is desired to add a `Following`component to a page in author mode, locate the component `Communities / Following` and drag it into place on a page where the social graph should appear.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 

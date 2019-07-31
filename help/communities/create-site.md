@@ -11,20 +11,20 @@ content-type: reference
 discoiquuid: bf182bb7-e305-45be-aadb-d71efd70f8cb
 ---
 
-# Author a New Community Site{#author-a-new-community-site}
+# Author a New Community Site {#author-a-new-community-site}
 
 ## Create a New Community Site {#create-a-new-community-site}
 
 Use the author instance to create a new community site
 
-* sign in with administrator privileges
-* from global navigation: **Navigation, Communities, Sites**
+* Sign in with administrator privileges
+* From global navigation: **Navigation, Communities, Sites**
 
 The Communities Sites console provides a wizard to guide one through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
 
 To get started creating a new community site:
 
-* select the `Create`button
+* Select the `Create` button
 
 ![createcommunitysite](assets/createcommunitysite.png) 
 
@@ -45,10 +45,10 @@ On the [Site Template step](sites-console.md#step2013asitetemplate), enter a tit
 
 * **Community Site Name**: engage
 
-    * double-check the name as it is not easily changed after the site is created
-    * the initial URL will be displayed underneath the Community Site Name
-    * for a valid URL, append a base language code + ".html"
-    * *for example*, http://localhost:4502/content/sites/ `engage/en.html`
+    * Double-check the name as it is not easily changed after the site is created
+    * The initial URL will be displayed underneath the Community Site Name
+    * For a valid URL, append a base language code + ".html"
+    * *For example*, http://localhost:4502/content/sites/ `engage/en.html`
 
 * **Template**: pull down to choose `Reference Site`
 
@@ -82,11 +82,11 @@ Visit the [Getting Started with AEM Communities for Enablement](getting-started-
 
 Check all checkboxes for [User Management](sites-console.md#user-management)
 
-* to allow site visitors to self-register
-* to allow site visitors to vew the site without signing in
-* to allow members to send and receive messages from other community members
-* to allow signing-in with Facebook instead of registering and creating a profile
-* to allow signing-in with Twitter instead of registering and creating a profile
+* To allow site visitors to self-register
+* To allow site visitors to vew the site without signing in
+* To allow members to send and receive messages from other community members
+* To allow signing-in with Facebook instead of registering and creating a profile
+* To allow signing-in with Twitter instead of registering and creating a profile
 
 >[!NOTE]
 >
@@ -100,8 +100,8 @@ The tags which may be applied to community content are controlled by selecting A
 
 Finding namespaces is easy using type-ahead search. For example,
 
-* type 'tut'
-* select `Tutorial`
+* Type 'tut'
+* Select `Tutorial`
 
 ![chlimage_1-355](assets/chlimage_1-355.png) 
 
@@ -113,8 +113,8 @@ To let a community member (or group of members) experience the site as the commu
 
 For example,
 
-* type "q"
-* select [Quinn Harper](enablement-setup.md#publishcreateenablementmembers)
+* Type "q"
+* Select [Quinn Harper](enablement-setup.md#publishcreateenablementmembers)
 
 >[!NOTE]
 >
@@ -140,12 +140,12 @@ See [Analytics Configuration for Communities Features](analytics.md).
 
 The [Translation settings](sites-console.md#translation) specify the base language for the site as well as whether or not UGC may be translated and into which language, if so.
 
-* check **Allow Machine Translation**
-* leave default languages selected for translation by the default Machine Translation service
-* leave default translation provider and config
-* there's no need for a global store because there are no language copies
-* select **Translate entire page**
-* leave default persistence option
+* Check **Allow Machine Translation**
+* Leave default languages selected for translation by the default Machine Translation service
+* Leave default translation provider and config
+* There's no need for a global store because there are no language copies
+* Select **Translate entire page**
+* Leave default persistence option
 
 ![chlimage_1-358](assets/chlimage_1-358.png) 
 
@@ -272,12 +272,12 @@ To do so requires using [CRXDE](http://localhost:4503/crx/de) Lite to edit the [
 
 To get started
 
-1. on publish, sign in with administrator privileges
-1. browse to [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
-1. in the project browser, expand `/etc/map`
-1. select the `http` node
+1. On publish, sign in with administrator privileges
+1. Browse to [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
+1. In the project browser, expand `/etc/map`
+1. Select the `http` node
 
-    * select **Create Node**
+    * Select **Create Node**
 
         * **Name** localhost.4503
           
@@ -285,9 +285,9 @@ To get started
         
         * **Type** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
 
-1. with newly created `localhost.4503` node selected
+1. With newly created `localhost.4503` node selected
 
-    * add property
+    * Add property
 
         * **Name** sling:match
         * **Type** String
@@ -295,17 +295,17 @@ To get started
 
           (must end with '$' char)
 
-    * add property
+    * Add property
 
         * **Name** sling:internalRedirect
         * **Type** String
         * **Value** /content/sites/engage/en.html
 
-1. select **Save All**
-1. (optional) delete the browsing history
-1. browse to http://localhost:4503/
+1. Select **Save All**
+1. (optional) Delete the browsing history
+1. Browse to http://localhost:4503/
 
-    * arrive at http://localhost:4503/content/sites/engage/en.html
+    * Arrive at http://localhost:4503/content/sites/engage/en.html
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 8cc04993-4021-4cb7-b973-5afc4da1ed11
 ---
 
-# Activity Stream Essentials{#activity-stream-essentials}
+# Activity Stream Essentials {#activity-stream-essentials}
 
 The activities of a signed in community member, such as posting to a forum or blog, is collected into a stream which may be filtered and displayed in various ways through configuration of the activity streams component.
 
@@ -27,7 +27,7 @@ A member my follow an activity stream, by either following another individual or
 
 A *news feed* is a merging of the activity streams being followed by a member into a single stream.
 
-A * [social graph](essentials-socialgraph.md)* captures the following relationships of one member to another.
+A [social graph](essentials-socialgraph.md) captures the following relationships of one member to another.
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
@@ -55,7 +55,7 @@ A * [social graph](essentials-socialgraph.md)* captures the following relationsh
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="activities.md">Activity Streams Feature</a></td> 
+   <td>See <a href="activities.md">Activity Streams Feature</a></td> 
   </tr>
  </tbody>
 </table>

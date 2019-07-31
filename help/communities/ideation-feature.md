@@ -11,29 +11,25 @@ content-type: reference
 discoiquuid: 7c0a9120-2edb-431b-b460-68398832d5ec
 ---
 
-# Ideation Feature{#ideation-feature}
+# Ideation Feature {#ideation-feature}
 
 ## Introduction {#introduction}
 
 The ideation feature provides an area for signed-in site visitors (community members) in the publish environment to:
 
-* create ideas to share with the community
-* view and comment on ideas
-* follow an idea
-* vote on an idea
+* Create ideas to share with the community
+* View and comment on ideas
+* Follow an idea
+* Vote on an idea
 
 This section of the documentation describes
 
-* adding the ideation feature to an AEM site
-* configuration settings for the Ideation component
+* Adding the ideation feature to an AEM site
+* Configuration settings for the Ideation component
 
 ## Adding a Ideation to a Page {#adding-a-ideation-to-a-page}
 
-To add a `Ideation` component to a page in author mode, use the component browser to locate
-
-* `Communities / Ideation`
-
-and drag it into place on a page where the idea should appear.
+To add a `Ideation` component to a page in author mode, use the component browser to locate `Communities / Ideation` and drag it into place on a page where the idea should appear.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -49,7 +45,7 @@ Select the placed `Ideation` component to access and select the `Configure` icon
 
 ### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify settings for ideas and comments:
+Under the **Settings** tab, specify settings for ideas and comments:
 
 * **Ideation Title** 
   The display title for the idea. Default is `Ideation`.
@@ -107,7 +103,7 @@ Under the **Settings **tab, specify settings for ideas and comments:
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation **tab, specify how the posted ideas and comments (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
+Under the **User Moderation** tab, specify how the posted ideas and comments (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 * **Deny Posts** 
   If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is unchecked.
@@ -132,17 +128,17 @@ Under the **User Moderation **tab, specify how the posted ideas and comments (us
 
 ### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings **tab, are limited according to namespaces chosen.
+Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
 
 * **Allowed Namespaces** 
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
 
 * **Suggestion Limit** 
-  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of **-**1 means no limit. Default is 0.
+  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of **-** 1 means no limit. Default is 0.
 
 ### Sort Settings tab {#sort-settings-tab}
 
-Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
+Under the **Sort Settings** tab, specify how the posted comments are sorted when displayed.
 
 * **Sort By** 
   Check all allowed sort selections: `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.

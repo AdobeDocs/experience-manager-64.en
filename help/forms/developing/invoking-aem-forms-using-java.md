@@ -37,19 +37,19 @@ The Adobe Developer website contains the following articles that discuss invokin
 
 **See also**
 
-[Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
+[Including AEM Forms Java library files](#including-aem-forms-java-library-files)
 
 [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#main-pars-text-0)
 
 [Invoking AEM Forms using Web Services](/help/forms/developing/invoking-aem-forms-using-web.md)
 
-[Setting connection properties](invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](#setting-connection-properties)
 
-[Passing data to AEM Forms services using the Java API](invoking-aem-forms-using-java.md#passing-data-to-aem-forms-services-using-the-java-api)
+[Passing data to AEM Forms services using the Java API](#passing-data-to-aem-forms-services-using-the-java-api)
 
-[Invoking a service using a Java client library](invoking-aem-forms-using-java.md#invoking-a-service-using-a-java-client-library)
+[Invoking a service using a Java client library](#invoking-a-service-using-a-java-client-library)
 
-[Invoking a short-lived process using the Invocation API](invoking-aem-forms-using-java.md#invoking-a-short-lived-process-using-the-invocation-api)
+[Invoking a short-lived process using the Invocation API](#invoking-a-short-lived-process-using-the-invocation-api)
 
 [Creating a Java web application that invokes a human-centric long-lived process](/help/forms/developing/invoking-human-centric-long-lived.md)
 
@@ -1067,4 +1067,3 @@ Invoke the `MyApplication/EncryptDocument` short-lived process using the Java in
 [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking-human-centric-long-lived-processes)
 
 [Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
-

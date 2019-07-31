@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4ade0d6b-041e-4a2f-98f8-3b8fcae0fb29
 ---
 
-# SocialUtils Refactoring{#socialutils-refactoring}
+# SocialUtils Refactoring {#socialutils-refactoring}
 
 ## SocialUtils Package Deprecated {#socialutils-package-deprecated}
 
