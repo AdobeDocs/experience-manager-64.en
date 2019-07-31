@@ -78,7 +78,7 @@ The Forms service creates a form data stream that you must write to the client w
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service)
+[Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md)
 
 [Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 

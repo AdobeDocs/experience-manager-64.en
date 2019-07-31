@@ -52,7 +52,7 @@ The following table describes the steps in this diagram.
   </tr> 
   <tr> 
    <td><p>4</p></td> 
-   <td><p>The <code>HandleData</code> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="help\forms\developing\handling-submitted-forms.md#handling-submitted-forms">Handling Submitted Forms</a>.)</p></td> 
+   <td><p>The <code>HandleData</code> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/handling-submitted-forms.md#handling-submitted-forms">Handling Submitted Forms</a>.)</p></td> 
   </tr> 
   <tr> 
    <td><p>5</p></td> 
@@ -151,7 +151,7 @@ If you have a form that contains a submit button and a calculate button (with a 
 
 >[!NOTE]
 >
->Instead of specifying a URL value to reference a XDP file, you can also pass a `com.adobe.idp.Document` instance to the Forms service. The `com.adobe.idp.Document` instance contains a form design. (See [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service).)
+>Instead of specifying a URL value to reference a XDP file, you can also pass a `com.adobe.idp.Document` instance to the Forms service. The `com.adobe.idp.Document` instance contains a form design. (See [Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md).)
 
 **Attach files to the form**
 
