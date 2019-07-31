@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 796781e6-5cab-4ea1-b484-0945bc8febbf
 ---
 
-# Assignments Essentials{#assignments-essentials}
+# Assignments Essentials {#assignments-essentials}
 
 This page provides the essential information for working with the assignments feature of [enablement community](overview.md#enablement-community) sites.
 
@@ -43,7 +43,7 @@ The assignments feature is the ability to assign enablement resources and learni
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="assignments.md">Assignments Feature</a></td> 
+   <td>See <a href="assignments.md">Assignments Feature</a></td> 
   </tr>
  </tbody>
 </table>

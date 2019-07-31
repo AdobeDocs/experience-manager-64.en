@@ -17,26 +17,22 @@ discoiquuid: bbbe32bb-9d97-461e-822f-a7ddc6c9f9ef
 
 The QnA (questions and answers) forum feature provides an area for community members to ask and answer questions:
 
-* create new questions
-* inline images (with support for drag and drop)
-* view and answer questions
-* search for a question
-* help moderate the QnA content
-* identify best answers
-* move QnA questions from one page to another
+* Create new questions
+* Inline images (with support for drag and drop)
+* View and answer questions
+* Search for a question
+* Help moderate the QnA content
+* Identify best answers
+* Move QnA questions from one page to another
 
 This section of the documentation describes
 
-* adding the QnA forum feature to an AEM site
-* configuration settings for the `QnA`component
+* Adding the QnA forum feature to an AEM site
+* Configuration settings for the `QnA`component
 
 ## Adding a Q&A Forum to a Page {#adding-a-q-a-forum-to-a-page}
 
-To add a `QnA` component to a page in author mode, use the component browser to locate
-
-* `Communities / QnA`
-
-and drag it into place on a page where the QnA forum should appear.
+To add a `QnA` component to a page in author mode, use the component browser to locate `Communities / QnA` and drag it into place on a page where the QnA forum should appear.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -179,10 +175,10 @@ They also have the ability to identify answers.
 
 When the site visitor is signed in, depending on the configuration, they may
 
-* post a new question
-* edit or delete questions they authored
-* may also flag others' questions or answers
-* may identify answers for questions they authored
+* Post a new question
+* Edit or delete questions they authored
+* May also flag others' questions or answers
+* May identify answers for questions they authored
 
 ### Anonymous {#anonymous}
 

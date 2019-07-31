@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: d87dd787-d39a-43c5-9e65-09ee2107e60d
 ---
 
-# Using Polls{#using-polls}
+# Using Polls {#using-polls}
 
 The `Poll` component supports asking a question and providing a choice of answers from which users can choose.
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 1a947a06-6a5c-4be9-b2fa-e5fa809ff3b8
 ---
 
-# Voting Essentials{#voting-essentials}
+# Voting Essentials {#voting-essentials}
 
 The voting component, a [tally](tally.md) subclass, is a useful tool that allows members to rate a particular piece of content by simply selecting up or down arrows to indicate their opinion.
 
@@ -45,7 +45,7 @@ Anonymous posting of a vote is not supported. Site visitors must register and si
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td><p>see <a href="voting.md">Using Voting</a></p> </td> 
+   <td><p>See <a href="voting.md">Using Voting</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

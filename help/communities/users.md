@@ -11,16 +11,16 @@ content-type: reference
 discoiquuid: 774c2553-b629-456b-afa7-5713490f4a0a
 ---
 
-# Managing Users and User Groups{#managing-users-and-user-groups}
+# Managing Users and User Groups {#managing-users-and-user-groups}
 
 ## Overview {#overview}
 
-In AEM Communities, in the publish environment, users can self-register and edit their* *profiles. Given the appropriate permissions, they may also
+In AEM Communities, in the publish environment, users can self-register and edit their profiles. Given the appropriate permissions, they may also
 
-* create sub-communities within the community site (see [community groups](creating-groups.md))
-* [moderate](moderation.md) user generated content (UGC)
-* be [enablement resource](resources.md) contacts
-* be [privileged](#privileged-members-group) to create entries for blogs, calendars, QnA, and forums
+* Create sub-communities within the community site (see [community groups](creating-groups.md))
+* [Moderate](moderation.md) user generated content (UGC)
+* Be [enablement resource](resources.md) contacts
+* Be [privileged](#privileged-members-group) to create entries for blogs, calendars, QnA, and forums
 
 Users registered in the publish environment are generally referred to as *community members (members)* to distinguish them from *users *in the author environment.
 
@@ -56,7 +56,7 @@ When using the author environment to [create sites](sites-console.md), [modify s
 
 The tunnel service provides this access using the replication agent on author.
 
-* for details, see [configuration instructions](deploy-communities.md#tunnel-service-on-author) on the deployment page
+* For details, see [configuration instructions](deploy-communities.md#tunnel-service-on-author) on the deployment page
 
 The [Communities Members and Groups consoles](members.md) are for the sole purpose of managing users (members) and user groups (member groups) registered only in the publish environment.
 
@@ -89,13 +89,13 @@ Be sure to follow the [Security Checklist](../../help/sites-administering/securi
 
 In the publish environment, depending on the [settings](sites-console.md#user-management) of the community site, a site visitor may become a community member
 
-* when the community site is private (closed):
-  * by invitation
-  * by actions of an administrator
+* When the community site is private (closed):
+  * By invitation
+  * By actions of an administrator
 
-* when the community site is public (open):
-  * by self-registration
-  * by social login with Facebook and Twitter
+* When the community site is public (open):
+  * By self-registration
+  * By social login with Facebook and Twitter
 
 >[!NOTE]
 >
@@ -130,9 +130,9 @@ After a privileged members group is created, and with the [tunnel service enable
 
 The community functions which allow specification of one or more privileged members groups are:
 
-* [blog function](functions.md#blog-function) - to restrict creation of new articles
-* [calendar function](functions.md#calendar-function) - to restrict creation of new events
-* [forum function](functions.md#forum-function) - to restrict creation of new topics
+* [Blog function](functions.md#blog-function) - to restrict creation of new articles
+* [Calendar function](functions.md#calendar-function) - to restrict creation of new events
+* [Forum function](functions.md#forum-function) - to restrict creation of new topics
 * [QnA function](functions.md#qna-function) - to restrict creation of new questions
 
 When a community function is not secured (no privileged members group assigned), then all community site members are allowed to create feature content (articles, events, topics, questions).
@@ -201,7 +201,7 @@ On an author instance:
 
 2. From the Edit menu, select **Create User**.
 3. Fill in the `Create User` dialog.
-    * path must be `/home/users/community`
+    * Path must be `/home/users/community`
 4. Select **Create**
 
 ![chlimage_1-130](assets/chlimage_1-130.png)
@@ -212,8 +212,8 @@ On an author instance:
 
 In the left pane:
 
-1. clear the search box and select **Hide Users**
-2. locate and drag `community-enablementmanagers` to the **Groups** tab of the new user displayed in the right pane
+1. Clear the search box and select **Hide Users**
+2. Locate and drag `community-enablementmanagers` to the **Groups** tab of the new user displayed in the right pane
 
 ![chlimage_1-132](assets/chlimage_1-132.png) 
 
@@ -229,26 +229,26 @@ AEM supports the use of LDAP for authentication of users as well as creation of 
 
 Following are some configuration details specific for community members and member groups.
 
-1. configure LDAP for each AEM publish instance
-2. [the LDAP Identity Provider](../../help/sites-administering/ldap-config.md#configuring-the-ldap-identity-provider)
+1. Configure LDAP for each AEM publish instance
+2. [The LDAP Identity Provider](../../help/sites-administering/ldap-config.md#configuring-the-ldap-identity-provider)
 
-    * no special instructions
+    * No special instructions
 
-3. [the Synchronization Handler](../../help/sites-administering/ldap-config.md#configuring-the-synchronization-handler)
+3. [The Synchronization Handler](../../help/sites-administering/ldap-config.md#configuring-the-synchronization-handler)
 
-    * set the following properties:
+    * Set the following properties:
 
         * **User auto membership**&ast;: `community-<site name>-<uid>-members`
         * **User Path Prefix**: `/community`
         * **Group Path Prefix**: `/community`
 
-4. [the External Login Module](../../help/sites-administering/ldap-config.md#the-external-login-module)
+4. [The External Login Module](../../help/sites-administering/ldap-config.md#the-external-login-module)
 
     * no special instructions
 
 This results in users automatically being assigned to the community site's members group and the repository location being `/home/users/community` and `/home/groups/community`, so that they inherit the appropriate permissions to see one another's profile.
 
-&ast; The `User auto membership` value should be the `rep:authorizableId` property, not the `givenName` (display name) from the profile.
+* The `User auto membership` value should be the `rep:authorizableId` property, not the `givenName` (display name) from the profile.
 
 ## Synchronizing Users Among AEM Instances {#synchronizing-users-among-aem-instances}
 
@@ -262,8 +262,8 @@ While the syncing of user groups through user sync will be included in a future 
 
 When discussing groups, there are two distinct topics:
 
-* **[community groups](overview.md#communitygroups)**
+* **[Community groups](overview.md#communitygroups)**
   Community groups are the sub-communities which may be created in the publish environment for a community site which supports creation of community groups. Creation of a community group results in more pages added to the website and are managed in a manner similar to their parent community site. For more information visit [Community Group Essentials](essentials-groups.md) for developers and [Community Group](creating-groups.md) for authors.
 
-* **[member groups](../../help/sites-administering/security.md)**
+* **[Member groups](../../help/sites-administering/security.md)**
   Member groups are the groups to which members may belong and are managed through the Groups console. Much of the discussion on this page has been devoted to member groups. The member groups automatically created for a community site, which are prefixed with *`Community`*, may be referred to as a community group, therefore the context of the discussion must be considered.

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4785c3f2-c25f-47c4-9ecd-09aa49afd4d3
 ---
 
-# Poll Essentials{#poll-essentials}
+# Poll Essentials {#poll-essentials}
 
 The poll component is a subclass of [tally](tally.md).
 
