@@ -14,6 +14,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Mobile Apps](mobile-apps.md)
   + [AEM Adobe PhoneGap](getting-started-aem-mobile-phonegap.md)
   + [AEM Mobile - GDPR Readiness](aem-mobile-gdpr-compliance.md)
+  + [Develop Mobile Apps](develop-mobile-apps.md) 
 + Authoring On-Demand Services App {#authoring}
   + [Mobile On-Demand](mobile-apps-ondemand.md)
   + [Managing Content](mobile-apps-ondemand-manage-content-ondemand.md)
@@ -34,7 +35,10 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Creating Article Export Configuration](creating-article-export-configuration.md)
   + [Mobile with Content Sync](mobile-ondemand-contentsync.md)
   + [Page Templates for Mobile Apps](apps-architecture.md)
-  + [Using Content Properties to Export Content](on-demand-content-properties-exporting.md)  
+  + [Using Content Properties to Export Content](on-demand-content-properties-exporting.md) 
+  + [Rendering and Delivery](rendering-and-delivery.md)
+  + [Content Services](developing-content-services.md)
+  + [Content Delivery](develop-content-as-a-service.md)
 + Administering On-Demand Services App {#administering}
   + [AEM Mobile On-Demand](aem-mobile.md)
   + [AEM Mobile SetUp](aem-mobile-setup.md)
@@ -81,11 +85,3 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Setting Your Referrer Filter to Allow Empty](setting-referrer-filter-empty.md)
   + [Configure your Adobe Mobile Services Cloud Service](configure-adobe-mobile-cloud-service.md)
   + [Configure Your Users and User Groups](configure-users-groups.md)
-+ Deleted section Remove duplicates and move others to sections above {#deleted}
-  + [Rendering and Delivery](rendering-and-delivery.md)
-  + [Content Services](developing-content-services.md)
-  + [Content Delivery](develop-content-as-a-service.md)
-  + [Mobile Apps](develop-mobile-apps.md)
-+ Missing - should be either not linked to if removed or kept in TOC {#missing}
-  + [mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
-  + [App definitions](phonegap-app-definitions.md)
