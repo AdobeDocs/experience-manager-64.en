@@ -24,7 +24,7 @@ You can programmatically retrieve Loan.xdp from Content Services (deprecated) (d
 >
 >For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
-### Summary of steps {#summary-of-steps}
+## Summary of steps {#summary-of-steps}
 
 To pass a document obtained from Content Services (deprecated) (deprecated) to the Forms service, perform the following tasks:
 
@@ -66,7 +66,7 @@ Depending on the type of client application, you can write the form to a client 
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-### Pass documents to the Forms Service using the Java API {#pass-documents-to-the-forms-service-using-the-java-api}
+## Pass documents to the Forms Service using the Java API {#pass-documents-to-the-forms-service-using-the-java-api}
 
 Pass a document obtained from Content Services (deprecated) by using the Forms service and Content Services (deprecated) API (Java):
 
@@ -120,7 +120,7 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-### Pass documents to the Forms Service using the web service API {#pass-documents-to-the-forms-service-using-the-web-service-api}
+## Pass documents to the Forms Service using the web service API {#pass-documents-to-the-forms-service-using-the-web-service-api}
 
 Pass a document obtained from Content Services (deprecated) by using the Forms service and Content Services (deprecated) API (web service):
 

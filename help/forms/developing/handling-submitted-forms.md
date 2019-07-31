@@ -47,7 +47,7 @@ The following table explains the steps in the diagram.
  </tbody> 
 </table>
 
-### Handling submitted XML data {#handling-submitted-xml-data}
+## Handling submitted XML data {#handling-submitted-xml-data}
 
 When form data is submitted as XML, you can retrieve XML data that represents the submitted data. All form fields appear as nodes in an XML schema. The node values correspond to the values that the user filled in. Consider a loan form where each field in the form appears as a node within the XML data. The value of each node corresponds to the value that a user fills in. Assume a user fills the loan form with data shown in the following form.
 
@@ -64,7 +64,7 @@ using Java XML classes.
 >
 >The form design must be configured correctly in Designer for data to be submitted as XML data. To properly configure the form design to submit XML data, ensure that the Submit button that is located on the form design is set to submit XML data. For information about setting the Submit button to submit XML data, see [AEM Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63).
 
-### Handling submitted PDF data {#handling-submitted-pdf-data}
+## Handling submitted PDF data {#handling-submitted-pdf-data}
 
 Consider a web application that invokes the Forms service. After the Forms service renders an interactive PDF form to a client web browser, the user fills in the form and submits it back as PDF data. When the Forms service receives the PDF data, it can send the PDF data to another service or save it as a PDF file. The following diagram shows the application’s logic flow.
 
@@ -99,7 +99,7 @@ The following table describes the steps in this diagram.
  </tbody> 
 </table>
 
-### Handling submitted URL UTF-16 data {#handling-submitted-url-utf-16-data}
+## Handling submitted URL UTF-16 data {#handling-submitted-url-utf-16-data}
 
 If form data is submitted as URL UTF-16 data, the client computer requires Adobe Reader or Acrobat 8.1 or later. Also if the form design contains a submit button that has URL-encoded Data (HTTP Post) and the data encoding option is UTF-16, the form design must be modified in a text editor such as Notepad. You can set the encoding option to either `UTF-16LE` or `UTF-16BE` for the submit button. Designer does not provide this functionality.
 
@@ -107,7 +107,7 @@ If form data is submitted as URL UTF-16 data, the client computer requires Adobe
 >
 >For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
-### Summary of steps {#summary-of-steps}
+## Summary of steps {#summary-of-steps}
 
 To handle submitted forms, perform the following tasks:
 
@@ -185,7 +185,7 @@ Depending on the content type of the submitted data, you can extract individual 
 
 [Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
-### Handle submitted forms using the Java API {#handle-submitted-forms-using-the-java-api}
+## Handle submitted forms using the Java API {#handle-submitted-forms-using-the-java-api}
 
 Handle a submitted form by using the Forms API (Java):
 
@@ -256,7 +256,7 @@ Handle a submitted form by using the Forms API (Java):
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-### Handle submitted PDF data using the web service API {#handle-submitted-pdf-data-using-the-web-service-api}
+## Handle submitted PDF data using the web service API {#handle-submitted-pdf-data-using-the-web-service-api}
 
 Handle a submitted form by using the Forms API (web service):
 
