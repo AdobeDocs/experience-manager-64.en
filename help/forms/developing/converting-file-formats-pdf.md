@@ -595,7 +595,7 @@ This table lists the type of information used in printing native file formats.
    <th><p>Modifying/creating entries related to native files </p></th> 
   </tr> 
  </thead> 
- <tbody align="left" > 
+ <tbody> 
   <tr> 
    <td><p>Administrative settings </p></td> 
    <td><p>Includes PDF settings, security settings, and file type settings. </p><p>File type settings associate file name extensions with the corresponding native applications. File type settings also specify native application settings used to print native files. </p></td> 
