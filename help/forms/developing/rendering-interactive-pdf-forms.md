@@ -14,8 +14,6 @@ discoiquuid: 3cb307ec-9b7b-4f03-b860-48553ccee746
 
 # Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms}
 
-## Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms-inner}
-
 The Forms service renders interactive PDF forms to client devices, typically web browsers, to collect information from users. After an interactive form is rendered, a user can enter data into form fields and click a submit button located on the form to send information back to the Forms service. Adobe Reader or Acrobat must be installed on the computer hosting the client web browser in order for an interactive PDF form to be visible.
 
 >[!NOTE]
@@ -73,7 +71,7 @@ This form is rendered by the sample loan application’s `HandleData` Java Servl
 
 ![ri_ri_confirm](assets/ri_ri_confirm.png)
 
-The `HandleData` Java Servlet prepopulates this form with the user’s first and last name as well as the amount. After the form is prepopulated, it is sent to the client web browser. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/prepopulating-forms-flowable-layouts.md).)
+The `HandleData` Java Servlet prepopulates this form with the user’s first and last name as well as the amount. After the form is prepopulated, it is sent to the client web browser. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/prepopulating-forms-flowable-layouts.md))
 
 **Java Servlets**
 
