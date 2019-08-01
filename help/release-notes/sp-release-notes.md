@@ -256,7 +256,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 * Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/reuse-assets-using-msm.html). NPR-26450: Hotfix for CQ-4259922
 
-## Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
+### Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
 
 #### AEM 6.4.4.0
 
