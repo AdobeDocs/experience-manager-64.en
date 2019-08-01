@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
-legacypath: /content/docs/en/aem/6-1/release-notes-sp1
 ---
 
 # AEM 6.4 Service Pack Release Notes {#aem-service-pack-release-notes}
