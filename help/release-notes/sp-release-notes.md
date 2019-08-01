@@ -32,8 +32,8 @@ It is also cumulative which means that 6.4.5.0 includes all AEM 6.4 service pack
 Some of the key highlights of AEM 6.4.5.0 are:
 
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.13.
-* Added socket timeout & connection timeout in Brand Portal replication agents.
-* [Omnisearch enhancements] Increased the pagination limit of the search result to 100 pages.
+* Added socket timeout and connection timeout in Brand Portal replication agents.
+* Omnisearch enhancements - Increased the pagination limit of the search result to 100 pages.
 * Disabled `AssetDownloadServlet` OSGi component by default on AEM publish instances. For more information, see [Download assets from AEM](https://helpx.adobe.com/experience-manager/6-4/assets/using/download-assets-from-aem.html).
 * Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/reuse-assets-using-msm.html).
 
@@ -50,7 +50,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * When using the search filter to save a Smart Collection, the click action on the panel does not maintain focus. NPR-29000:  Hotfix for CQ-4240323
 * Moving a folder allows the creation of a folder with mixed-case or uppercase names. NPR-28945: Hotfix for CQ-4265234
 * Blank results displayed in Omnisearch if collection name has space. NPR-29001: Hotfix for CQ-4236729
-* Renaming a file using some unsupported special characters like ampersand (&) creates an invalid folder. NPR-29196: Hotfix for CQ-4265037
+* Renaming a file using some unsupported special characters like ampersand (&amp;) creates an invalid folder. NPR-29196: Hotfix for CQ-4265037
 * DAM Extract Archive for zip file functionality is broken. NPR-29187: Hotfix for CQ-4254421
 * Metadata import should allow importing metadata without registering namespaces. NPR-29425, NPR-28132: Hotfix for CQ-4269445
 * Saving metadata changes do not work for assets whose name contain a quote character. NPR-29395: Hotfix for CQ-4254305
@@ -212,7 +212,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * SOAP Webservice request is malformed within AEM Forms. NPR-29013: Hotfix for CQ-4265443
 * No error message is displayed while testing SOAP service, in case of an incorrect date value. Hotfix for CQ-4265445
 
-#### Forms - Interactive Communication & Forms - Correspondence Management {#forms-interactive-communication-correspondence-management}
+#### Forms - Interactive Communication &amp; Forms - Correspondence Management {#forms-interactive-communication-correspondence-management}
 
 * Create Correspondence UI (CCR UI) fails to handle a float number.  NPR-29210: Hotfix for CQ-4254201
 * The tooltip set on a variable is not visible on the Create Correspondence UI (CCR UI). NPR-29739: Hotfix for CQ-4250533
@@ -982,7 +982,6 @@ Some of the key highlights of AEM 6.4.2.0 are:
 * Fixed that when creating translation project for multiple languages, all the pages for the same language get added to the same job. NPR-25091: Hotfix for CQ-4246112 
 * Fixed that in some cases, translation job only list the top 40 pages. NPR-25974: Hotfix for CQ-4248661 
 * *xed that DataPicker component (Coral2) not changing the year. NPR-24466: Hotfix for Granite-21893 
-  
  
  **UI - Foundation**
   
@@ -1083,7 +1082,7 @@ The key highlights for AEM 6.4.2.0 forms are:
   
 **Forms - Workflow**
   
-* [HTML Workspace] When a user claims a task, count of queue is refreshed for that particular user but not for other users unless the page is refreshed. This issue has been fixed by a new property. To configure this new property to your AEM instance, refer to its Configuration Settings. NPR-24536: Hotfix for CQ-4233665 
+* [HTML Workspace] When a user claims a task, count of queue is refreshed for that particular user but not for other users unless the page is refreshed. This issue has been fixed by a new property. To configure this new property to your AEM instance, refer to its Configuration Settings. NPR-24536: Hotfix for CQ-4233665
 * Unable to load large form in the AEM Forms App on 6.4. NPR-24463: Hotfix for CQ-4245091
 * Issue in Mobile Workspace App when trying to view the shared task. NPR-25177: Hotfix for CQ-4248733
 * Inconsistent validation Behavior between Web and APK. NPR-25670: Hotfix for CQ-4248178
@@ -1609,7 +1608,6 @@ List of Content Packages included in AEM 6.4.1.0
 >
 >For successful installation of AEM 6.4.5.0 on the instance, it is strongly recommended to upgrade the version of com.adobe.granite.oak.s3connector to 1.8.3 for the customers who are on the older version of s3 connector.
 >The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html](https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html).
-
 >Download the latest version of com.adobe.granite.oak.s3connector from: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/)
 
 >[!CAUTION]
@@ -1630,8 +1628,9 @@ List of Content Packages included in AEM 6.4.1.0
 
 Perform the following steps to install the Service Pack on an existing AEM 6.4 instance:
 
-1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.5.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.5.0).  
-   (search for "AEM-6.4.5.0" to find it)  
+1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.5.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.5.0).
+
+   (search for "AEM-6.4.5.0" to find it) 
 1. Install the downloaded package using Package Manager.
 
 >[!NOTE]
@@ -1646,7 +1645,7 @@ There are two ways to automatically install AEM 6.4.5.0 into a running instance:
 
 A. Place the package into ..*/crx-quickstart/install* folder while the server is running. The package gets installed automatically.
 
-B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/en/crx/2-3/how_to/package_manager.html) - make sure you use cmd=install&recursive=true - so the nested package  are  installed.
+B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/en/crx/2-3/how_to/package_manager.html) - make sure you use `cmd=install&recursive=true` - so the nested package are installed.
 
 >[!NOTE]
 >
@@ -1744,7 +1743,7 @@ This section lists features and capabilities that have been removed or deprecate
 
 ### Known Issues {#known-issues}
 
-The following errors & warning may occur during installation of AEM 6.4.5.0 and can be safely ignored as they do not impact your AEM instance :
+The following errors and warnings may occur during installation of AEM 6.4.5.0 and can be safely ignored as they do not impact your AEM instance:
 
 * Errors as create component instance and Service factory returned null occurs due to repository restart:
 

@@ -36,7 +36,7 @@ These questions should be answered during your automated and manual testing.
 
 Some degree of automated testing should be performed to cover the variety of screen sizes, memory constraints, input methods, and operating systems. Not only does it cover much of the test cases, but it can speed up regression testing when new features or devices are introduced. Ideally, your automation tools should reduce or limit duplication of effort. Use tools or frameworks so that your testing effort is applicable across all platforms. The following chart shows a simplified structure of a testing environment for both web-based UI testing and mobile app testing. The left side of the chart shows a series of Selenium nodes with browsers. SeleniumGrid can farm out common, web-based UI tests to any of these nodes. The Selenium hub can also connect to Appium for cross-platform app testing. Only shown are simulators, but you can incorporate adb, for Android, and Xcode utilities for iOS devices. Links are provided later in this document where you can find specific details for the tools mentioned.
 
-![chlimage_1](assets/chlimage_1.jpeg) 
+![chlimage_1](assets/chlimage_1.jpeg)
 
 ## Manual testing {#manual-testing}
 
@@ -46,12 +46,12 @@ In addition to automated testing, your app should go through a cycle of manual t
 * test against a large pool of devices (ideally real devices, but simulators/emulators if real devices are not available),
 * provide informative feedback:
 
-    * crash reports, 
-    * analytics/tracking, 
-    * usability, 
-    * areas of attention, 
-    * performance, 
-    * data/power consumption, etc.
+  * crash reports,
+  * analytics/tracking,
+  * usability,
+  * areas of attention,
+  * performance,
+  * data/power consumption, etc.
 
 ## Tools {#tools}
 

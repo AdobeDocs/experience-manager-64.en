@@ -15,31 +15,6 @@ discoiquuid: 7c851395-5f10-4311-899a-e73328f57e85
 
 Assets is a Digital Asset Management (DAM) tool that is fully integrated with the AEM platform and enables your enterprise to share and distribute digital assets. Users across an organization can manage, store, and access images, videos, documents, audio clips, and rich media such as Flash files for use on the web, in print, and for digital distribution.
 
-The following activities are those that you typically perform as a digital asset administrator:
-
-* [AEM Assets vs. AEM MediaLibrary](medialibrary.md)
-* [Assets Supported Formats](assets-formats.md)
-* [Integrating AEM Assets with InDesign Server](indesign.md)
-* [Managing Metadata for Digital Assets](metadata.md)
-* [Search Facets](search-facets.md)
-* [Camera Raw Support](camera-raw.md)
-* [Metadata Schemas](metadata-schemas.md)
-* [Profiles for Processing Metadata, Images, and Videos](processing-profiles.md)
-* [XMP writeback to renditions](xmp-writeback.md)
-* [Watermarking](watermarking.md)
-* [Asset link sharing](link-sharing.md)
-* [Best Practices for Assets](best-practices-for-assets.md)
-* [Detecting MIME Type of Assets Using Apache Tika](detect-asset-mime-type-with-tika.md)
-* [Configuring Asset Upload Restrictions](configuring-asset-upload-restrictions.md)
-* [Using PDF Rasterizer](aem-pdf-rasterizer.md)
-* [Multi-tenancy for Collections, Snippets, and Snippet TemplatesAsset Templates](multi-tenancy.md)
-* [Support for IPTC Metadata](iptc-support.md)
-* [Imaging Transcoding Library](imaging-transcoding-library.md)
-* [Serial Uploads](serial-uploads.md)
-* [Digital Rights Management in Assets](drm.md)
-
-For supported file formats, see [Assets Supported Formats](assets-formats.md).
-
 ## What is Digital Asset Management? {#what-is-digital-asset-management}
 
 Assets provides enterprise-wide sharing and distribution of an organization’s key digital assets. Users across an organization can store, manage, and access digital assets such as images, graphics, audio, video, and documents through a Web interface (or a CIFS or WebDAV folder).

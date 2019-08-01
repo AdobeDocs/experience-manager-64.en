@@ -30,7 +30,7 @@ The following diagram shows the rendering of content services.
 
 ## Requesting JSON {#requesting-json}
 
-Use **&lt;RESOURCE&gt;.caas[.&lt;EXPORT-CONFIG][.&lt;DEPTH-INT&gt;].json** to request JSON.
+Use **<RESOURCE.caas[.<EXPORT-CONFIG][.&lt;DEPTH-INT&gt;].json** to request JSON.
 
 <table> 
  <tbody> 
@@ -169,7 +169,7 @@ Content Services include two export configurations:
 
 Content Services default export configuration will be applied if a config is specified in the requested URI.
 
-**&lt;RESOURCE&gt;.caas[.&lt;DEPTH-INT&gt;].json**
+&lt;RESOURCE&gt;.caas[.&lt;DEPTH-INT&gt;].json
 
 <table> 
  <tbody> 
@@ -216,7 +216,7 @@ Content Services default export configuration will be applied if a config is spe
 
 This configuration extend the default to include grouping children under a child node.
 
-**&lt;SITE_PAGE&gt;.caas.page[.&lt;DEPTH-INT&gt;].json**
+&lt;SITE_PAGE&gt;.caas.page[.&lt;DEPTH-INT&gt;].json
 
 ### Additional Resources {#additional-resources}
 
