@@ -11,27 +11,22 @@ content-type: reference
 discoiquuid: 8fe97181-600e-42ac-af25-d5d4db248740
 ---
 
-# Create and Assign Enablement Resources{#create-and-assign-enablement-resources}
+# Create and Assign Enablement Resources {#create-and-assign-enablement-resources}
 
 ## Add an Enablement Resource {#add-an-enablement-resource}
 
 To add an enablement resource to the new community site:
 
-* on the author instance
-
-    * for example, [http://localhost:4502/](http://localhost:4503/)
-
-* sign in as a system administrator
-* from global navigation, select **Communities, [Resources](resources.md)**
-
-![chlimage_1-199](assets/chlimage_1-199.png) ![chlimage_1-200](assets/chlimage_1-200.png)
-
-* select the community site to which enablement resources are being added
-
-    * select `Enablement Tutorial`
-
-* from the menu, select **+ Create**
-* select **Resource**
+* On the author instance
+    * For example, [http://localhost:4502/](http://localhost:4503/)
+* Sign in as a system administrator
+* From global navigation, select **Communities, [Resources](resources.md)**
+![chlimage_1-199](assets/chlimage_1-199.png) 
+![chlimage_1-200](assets/chlimage_1-200.png)
+* Select the community site to which enablement resources are being added
+    * Select `Enablement Tutorial`
+* From the menu, select **+ Create**
+* Select **Resource**
 
 ![chlimage_1-201](assets/chlimage_1-201.png) 
 
@@ -40,19 +35,13 @@ To add an enablement resource to the new community site:
 Fill in the basic information for the Resource:
 
 * **Site Name**:
-
   set to the name of the selected community site: Enablement Tutorial
-
 * **Resource Name&ast;**: Ski Lesson 1
 * **Tags**: Tutorial: Sports / Skiing
 * **Show in Catalog**: On
 * **Description**: Sliding on snow for beginners
-* **Add Image**:
-
-  add an image to represent the Resource to the member in their Assignments view
-
+* **Add Image**: Add an image to represent the Resource to the member in their Assignments view
 ![chlimage_1-202](assets/chlimage_1-202.png)
-
 * select **Next**
 
 ### Add Content {#add-content}
@@ -73,24 +62,17 @@ Upload a Resource. If a video resource, either upload a custom image to display 
 
 * **Social Settings** 
   Leave default settings to experience commenting and rating of enablement resources by learners.
-
 * **Due Date** 
   *(Optional)* A date by which the assignment should be completed may be selected.
-
 * **Resource Author** 
   *(Optional)* Leave blank.
-
 * **Resource Contact&ast;** 
   *(Required)* Use the pulldown menu to select member `Quinn Harper`.
-
 * **Resource Expert** 
   *(Optional)* Leave blank.
-
 **Note**: if users or groups are not visible, check that they were added to the `Community Enable Members` group and *Saved* on the publish instance.
-
 ![chlimage_1-206](assets/chlimage_1-206.png)
-
-* select **Next**
+* Select **Next**
 
 ### Assignments {#assignments}
 
@@ -99,7 +81,7 @@ Upload a Resource. If a video resource, either upload a custom image to display 
 
 ![chlimage_1-207](assets/chlimage_1-207.png)
 
-* select **Create**
+* Select **Create**
 
 ![chlimage_1-208](assets/chlimage_1-208.png)
 
@@ -111,7 +93,7 @@ To upload a new version of the enablement resource, it is recommended to create 
 
 Before Enrollees are able to see the assigned Resourse, it must be published:
 
-* select the world `Publish`icon
+* Select the world `Publish`icon
 
 Activation is confirmed with a success message:
 
@@ -123,7 +105,7 @@ Repeat the steps above to create and publish a second related enablement resourc
 
 ![chlimage_1-210](assets/chlimage_1-210.png)
 
-**Publish **the second Resource.
+**Publish** the second Resource.
 
 Return to the Enablement Tutorial listing of it's Resources.
 
@@ -135,8 +117,8 @@ Return to the Enablement Tutorial listing of it's Resources.
 
 A learning path is a logical grouping of enablement resources which form a course.
 
-* from the Resources console, select **+ Create**
-* select **Learning Path**
+* From the Resources console, select **+ Create**
+* Select **Learning Path**
 
 ![chlimage_1-212](assets/chlimage_1-212.png)
 
@@ -149,27 +131,27 @@ Add the **Basic Info**:
 
 ![chlimage_1-213](assets/chlimage_1-213.png)
 
-* select **Next**
+* Select **Next**
 
 Skip the next panel as there are no prerequisite learning paths to add.
 
-* select **Next**
+* Select **Next**
 
 On the Add Resources panel
 
-* select **+ Add Resources** to select the 2 ski lessions resources to add to the learning path
+* Select **+ Add Resources** to select the 2 ski lessions resources to add to the learning path
 
-  Note: only **published** Resources will be selectable.
+  Note: Only **published** Resources will be selectable.
 
 >[!NOTE]
 >
 >You can only select the resources available at the same level as the learning path. For example, for a learning path created in a group only the group level resources are available; for a learning path created in a community site the resources in that site are available for adding to the learning path.
 
-* select **Submit.**
+* Select **Submit.**
 
 ![chlimage_1-214](assets/chlimage_1-214.png) ![chlimage_1-215](assets/chlimage_1-215.png)
 
-* select **Next**
+* Select **Next**
 
 ![chlimage_1-216](assets/chlimage_1-216.png)
 
@@ -179,7 +161,7 @@ On the Add Resources panel
 * **Learning Path Contact&ast;** 
   *(Required)* Use the pulldown menu to select member `Quinn Harper`.
 
-* select **Create**
+* Select **Create**
 
 ![chlimage_1-217](assets/chlimage_1-217.png)
 

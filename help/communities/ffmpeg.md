@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 739ec991-552b-42cd-85cd-984d1c9fe8fd
 ---
 
-# FFmpeg for Communities{#ffmpeg-for-communities}
+# FFmpeg for Communities {#ffmpeg-for-communities}
 
 ## Overview {#overview}
 
@@ -30,8 +30,6 @@ FFmpeg should be installed on the server(s) hosting the AEM *author* instance(s)
 
 1. Install FFmpeg following instructions for the OS.
 
-    *
-
 1. Make sure the FFmpeg executable is set in your system path.  
 
    You should be able to run FFmpeg from any directory in your system.
@@ -46,25 +44,25 @@ As the transcodings are CPU intensive, it is recommended to modify the list of t
 
 To modify the DAM Update Asset workflow, and in this example, to turn off transcoding:
 
-* sign into the author instance with administrative privileges
-* from global navigation: **Tools, Workflow, Models**
-* locate **DAM Update Asset**
-* double-click to open the workflow for edit in the Classic UI 
+* Sign into the author instance with administrative privileges
+* From global navigation: **Tools, Workflow, Models**
+* Locate **DAM Update Asset**
+* Double-click to open the workflow for edit in the Classic UI 
 
-  resulting location: [http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html](http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html)
+  Resulting location: [http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html](http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html)
 
-* double-click the **FFmpeg transcoding** step to access the Step Properties dialog
-* under the `Process` tab:
+* Double-click the **FFmpeg transcoding** step to access the Step Properties dialog
+* Under the `Process` tab:
 
-    * **Arugments**: clear all entries to disable transcoding  
+    * **Arugments**: Clear all entries to disable transcoding  
 
-      default values: `profile:firefoxhq,profile:hq,profile:flv,profile:iehq`
+      Default values: `profile:firefoxhq,profile:hq,profile:flv,profile:iehq`
 
 ![chlimage_1-372](assets/chlimage_1-372.png)
 
-* select **OK** to close the `Step Properties` dialog
+* Select **OK** to close the `Step Properties` dialog
 
-* select **Save** to save the `DAM Update Asset` workflow  
+* Select **Save** to save the `DAM Update Asset` workflow  
 
   (upper left corner)
 

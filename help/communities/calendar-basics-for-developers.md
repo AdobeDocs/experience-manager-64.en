@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 88932a3c-ba7f-47ba-9e0b-206755c2d42e
 ---
 
-# Calendar Essentials{#calendar-essentials}
+# Calendar Essentials {#calendar-essentials}
 
 This page provides essential information on working with the calendar feature.
 

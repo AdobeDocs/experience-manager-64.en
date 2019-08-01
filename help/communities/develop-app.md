@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 910229a3-38b1-44f1-9c09-55f8fd6cbb1d
 ---
 
-# Develop Sandbox Application{#develop-sandbox-application}
+# Develop Sandbox Application {#develop-sandbox-application}
 
 In this section, now that the template has been setup in the [initial application](initial-app.md) section, and the initial pages established in the [initial content](initial-content.md) section, the application can be developed using foundation scripts including the ability to enable authoring with Communities components. At the end of this section, the website will be functional.
 
@@ -27,18 +27,18 @@ Using CRXDE Lite:
 
 <!--Resolve steps below-->
 
-1.
+
 
     * Name: **`sling:resourceSuperType`**
     * Type: **`String`**
     * Value: **`foundation/components/page`**
 
-1. Click the green** [+] Add**
-1. click **Save All**
+1. Click the green **[+] Add**
+1. Click **Save All**
 
 ![chlimage_1-231](assets/chlimage_1-231.png) 
 
-### head and body scripts {#head-and-body-scripts}
+### Head and body scripts {#head-and-body-scripts}
 
 1. In **CRXDE Lite** explorer pane, navigate to `/apps/an-scf-sandbox/components/playpage` and double-click the file `playpage.jsp` to open it in the edit pane.
 
@@ -135,7 +135,7 @@ To enable Communities components for authoring, start by following these instruc
 
 * [Accessing Communities Components](basics.md#accessing-communities-components)
 
-For the purposes of this sandbox, start with these **Communities **components (enable by checking the box):
+For the purposes of this sandbox, start with these **Communities** components (enable by checking the box):
 
 * Comments 
 * Forum
@@ -164,14 +164,14 @@ In this simple example, the root page is being statically set to redirect to the
 
 Change the browser URL to the root page: [http://localhost:4502/editor.html/content/an-scf-sandbox.html](https://locahost:4502/editor.html/content/an-scf-sandbox.html)
 
-* select the Page Information icon
-* select **Open Properties**
-* on the ADVANCED tab
+* Select the Page Information icon
+* Select **Open Properties**
+* On the ADVANCED tab
 
-    * for the Redirect entry, browse to **Websites &gt; SCF Sandbox Site &gt; SCF Sandbox**
-    * click **OK**
+    * For the Redirect entry, browse to **Websites &gt; SCF Sandbox Site &gt; SCF Sandbox**
+    * Click **OK**
 
-* click **OK**
+* Click **OK**
 
 Once the site is published, browsing to the root page on a publish instance will redirect to the english page.  
 

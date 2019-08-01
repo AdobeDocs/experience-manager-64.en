@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 63abeda4-6ea1-4b45-b188-f9c6b44ca0cd
 ---
 
-# Storage Resource Provider Overview{#storage-resource-provider-overview}
+# Storage Resource Provider Overview {#storage-resource-provider-overview}
 
 ## Introduction {#introduction}
 
@@ -30,8 +30,8 @@ All SCF components are implemented using the SRP API, allowing code to be develo
 See also:
 
 * [SRP and UGC Essentials](srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - Coding guidelines
+* [SocialUtils Refactoring](socialutils.md) - Mapping deprecated utility methods to current SRP utility methods
 
 ## About the Repository {#about-the-repository}
 
@@ -47,7 +47,7 @@ One implementation of JCR is the AEM repository, OAK.
 
 Both JCR and OAK are typically used to refer to the AEM repository.
 
-After developing site content in the private author environment, it must by copied to the public publish environment. This is often done through an operation called * [replication](deploy-communities.md#replication-agents-on-author)*. This happens under control of the author/developer/administrator.
+After developing site content in the private author environment, it must by copied to the public publish environment. This is often done through an operation called *[replication](deploy-communities.md#replication-agents-on-author)*. This happens under control of the author/developer/administrator.
 
 For UGC, the content is entered by registered site visitors (community members) in the public publish environment. This happens randomly.
 
@@ -128,11 +128,11 @@ Shadow nodes provide a Sling addressable location in the repository.
 
 Following is an example of a shadow node, using the [Comments component](http://localhost:4502/content/community-components/en/comments.html) in the [Community Components Guide](components-guide.md):
 
-* the component exists in the local repository at:
+* The component exists in the local repository at:
 
   /content/community-components/en/comments/jcr:content/content/includable/comments
-* 
-* the corresponding shadow node exists in the local repository at:
+
+* The corresponding shadow node exists in the local repository at:
 
   /content/usergenerated/content/community-components/en/comments/jcr:content/content/includable/comments
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: b074ebfa-2894-4a2d-aa8e-28168049971a
 ---
 
-# Using Comments{#using-comments}
+# Using Comments {#using-comments}
 
 ## Introduction {#introduction}
 
@@ -19,8 +19,8 @@ The comments feature is used to allow signed-in site visitors (members) to share
 
 This section of the documentation describes
 
-* adding `Comments`to a page
-* configuration settings for the `Comments`component
+* Adding `Comments`to a page
+* Configuration settings for the `Comments`component
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ To add a `Comments`component to a page in author mode, use the component browser
 
 * `Communities / Comments`
 
-and drag it into place on a page, such as a position relative to the feature for users to comment on, or simply at the bottom of the page.
+And drag it into place on a page, such as a position relative to the feature for users to comment on, or simply at the bottom of the page.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -52,7 +52,7 @@ Select the placed `Comments` component to access and select the `Configure` icon
 
 ### Comments tab {#comments-tab}
 
-Under the **Comments **tab, specify how comments are entered by visitors.
+Under the **Comments** tab, specify how comments are entered by visitors.
 
 * **Allow replies** 
 
@@ -96,7 +96,7 @@ Under the **Comments **tab, specify how comments are entered by visitors.
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation **tab, specify how the posted comments are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
+Under the **User Moderation** tab, specify how the posted comments are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 * **Pre-Moderation** 
 
@@ -136,7 +136,7 @@ Under the **User Moderation **tab, specify how the posted comments are managed. 
 
 ### Sort Settings tab {#sort-settings-tab}
 
-Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
+Under the **Sort Settings** tab, specify how the posted comments are sorted when displayed.
 
 * **Sort Field** 
 
@@ -182,10 +182,10 @@ When the signed in user has moderator or administrator privileges, they are able
 
 When the site visitor is signed in, depending on the configuration, they may
 
-* post a new comment
-* edit their own comment
-* delete their own comment
-* flag others' comments
+* Post a new comment
+* Edit their own comment
+* Delete their own comment
+* Flag others' comments
 
 ### Anonymous {#anonymous}
 

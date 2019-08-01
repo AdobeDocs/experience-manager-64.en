@@ -89,6 +89,12 @@ After activating a plug-in, follow these guidelines to configure the `features` 
  </tbody> 
 </table>
 
+## Understand the findreplace plug-in {#understand--findreplace-plugin}
+
+The `findreplace` plug-in does not need any configuration. It works as expected, out of the box.
+
+The find and replace dialog becomes transparent when find is clicked and becomes opaque when replace is clicked. This allows the author to review the text that the author will replace. If users click replace all, the dialog closes and displays the number of replacements made.
+
 ## Configure the paste modes {#pastemodes}
 
 When using RTE, authors can paste content in one of the following three modes:

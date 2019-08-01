@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 86349e4d-29ff-4baa-9fcd-c0ab1f0753e9
 ---
 
-# ASRP - Adobe Storage Resource Provider{#asrp-adobe-storage-resource-provider}
+# ASRP - Adobe Storage Resource Provider {#asrp-adobe-storage-resource-provider}
 
 ## About ASRP {#about-asrp}
 
@@ -38,44 +38,44 @@ The consumer and secret keys are shared across all report suites for a company. 
 
 The [Storage Configuration console](srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
 
-**On author**,
+**On author**:
 
-* from global navigation: **Tools, Communities, Storage Configuration**
+* From global navigation: **Tools, Communities, Storage Configuration**
 
 ![chlimage_1-310](assets/chlimage_1-310.png)
 
-* select **Adobe Storage Resource Provider (ASRP)**
-* the following information comes from the provisioning process
+* Select **Adobe Storage Resource Provider (ASRP)**
+* The following information comes from the provisioning process
 
     * **Data Center URL** 
 
-      pull-down to select the production data center identified by your account representative
+      Pull-down to select the production data center identified by your account representative
 
     * **Default Report Suite** 
 
-      enter the name of the default report suite
+      Enter the name of the default report suite
 
     * **Consumer Key** 
 
-      enter the consumer key
+      Enter the consumer key
 
     * **Secret** 
     
-      enter the secret
+      Enter the secret
 
-* select **Submit**
+* Select **Submit**
 
 Prepare the publish instances:
 
-* [replicate the crypto key](#replicate-the-crypto-key)
-* [replicate the configuration](#publishing-the-configuration)
+* [Replicate the crypto key](#replicate-the-crypto-key)
+* [Replicate the configuration](#publishing-the-configuration)
 
 After submitting the configuration, test the connection:
 
-* select **Test Config** 
+* Select **Test Config** 
   for each author and publish instance, test the connection to the data center from the Storage Configuration console
 
-* finally, ensure that the site URLs for profile data are routable from the Data Center by [externalizing links](#externalize-links).
+* Finally, ensure that the site URLs for profile data are routable from the Data Center by [externalizing links](#externalize-links).
 
 ### Replicate the Crypto Key {#replicate-the-crypto-key}
 
@@ -99,24 +99,24 @@ ASRP must be identified as the common store on all author and publish instances.
 
 To make the identical configuration available in the publish environment:
 
-* on author:
+* **On author**:
 
-    * navigate from main menu to `Tools > Operations > Replication`
-    * select **Activate Tree**
+    * Navigate from main menu to `Tools > Operations > Replication`
+    * Select **Activate Tree**
     * **Start Path:**
 
-        * browse to `/etc/socialconfig/srpc/`
+        * Browse to `/etc/socialconfig/srpc/`
 
-    * uncheck **Only Modified**
-    * select **Activate**
+    * Uncheck **Only Modified**
+    * Select **Activate**
 
 ## Upgrading from AEM 6.0 {#upgrading-from-aem}
 
 >[!CAUTION]
 >
->If you enable ASRP on a published community site, any UGC already stored in [JCR](jsrp.md)will no longer be visible as there is no synchronization of data between on-premise storage and cloud storage.
+>If you enable ASRP on a published community site, any UGC already stored in [JCR](jsrp.md) will no longer be visible as there is no synchronization of data between on-premise storage and cloud storage.
 
-**`AEM Communities Extension`**was previously introduced in AEM 6.0 social communities as a cloud service. As of AEM 6.1 Communities, no cloud configuration is necessary, simply select ASRP from the [storage configuration console](srp-config.md).
+**`AEM Communities Extension`** was previously introduced in AEM 6.0 social communities as a cloud service. As of AEM 6.1 Communities, no cloud configuration is necessary, simply select ASRP from the [storage configuration console](srp-config.md).
 
 Due to the new storage structure, it is necessary to follow the [upgrade](upgrade.md#adobe-cloud-storage) instructions when upgrading from social communities to Communities.
 
@@ -153,6 +153,6 @@ On all author and publish AEM instances, revisit the Storage Configuration conso
 
 * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
-    * does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
-    * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define ASRP to be the default provider
+    * Does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
+    * If the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define ASRP to be the default provider
 

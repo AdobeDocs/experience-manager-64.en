@@ -95,10 +95,6 @@ user-guide-title: AEM 6.4 Deploying Guide
    + [Best Practices for Queries and Indexing](best-practices-for-queries-and-indexing.md)
    + [User Interface Recommendations for Customers](ui-recommendations.md)
    + [Performance & Scalability](performance.md)
-+ Missing TOC files that need to be linked to - please fix {#missing}
-    + [webconsole](web-console.md)
-    + [repository-restructuring-in-aem64](repository-restructuring-in-aem64.md)
-    + [config-ssl](config-ssl.md)
 
 
 <!-- 

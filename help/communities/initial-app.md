@@ -69,7 +69,7 @@ In this exercise, all pages are based on one simple template.
 
    Click **Next** in the **Allowed Children** panels.
 
-   click **OK**.
+   Click **OK**.
 
 1. Once you click OK and finish creating the template, you will notice red triangles showing in the corners of the Properties tab values for the new `playpage`template. These red triangles indicate edits which have not been saved.
 
@@ -100,8 +100,8 @@ Create the *component* that defines the content and renders any pages created ba
 
 1. Click **Next** until the **Allowed Children** panel of the dialog appears
 
-    * click **OK**
-    * click **Save All**
+    * Click **OK**
+    * Click **Save All**
 
 1. Verify that the path to the component and the resourceType for the template match.
 

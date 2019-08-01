@@ -11,14 +11,14 @@ content-type: reference
 discoiquuid: 5ac2fcef-05b8-46f7-9a15-997cdd79a3db
 ---
 
-# Communities Sites Console{#communities-sites-console}
+# Communities Sites Console {#communities-sites-console}
 
-The Communities Sites console provides access to
+The Communities Sites console provides access to:
 
-* site creation
-* site editing
-* site management
-* [creating and editing nested groups](groups.md) (sub-communities)
+* Site creation
+* Site editing
+* Site management
+* [Creating and editing nested groups](groups.md) (sub-communities)
 
 See [Getting Started with AEM Communities](getting-started.md) to experience how quickly a community site can be created in the author environment, as well as how to create community groups from the author and publish environments.
 
@@ -28,32 +28,32 @@ See [Getting Started with AEM Communities](getting-started.md) to experience how
 
 ## Prerequisites {#prerequisites}
 
-Before creating a community site, it is *required* to
+Before creating a community site, it is *required* to:
 
-* ensure one or more publish instances are running
-* enable the [tunnel service](deploy-communities.md#tunnel-service-on-author) to manage members and member groups
-* identify the [primary publisher](deploy-communities.md#primary-publisher)
-* [configure replication](deploy-communities.md#replication-agents-on-author) when primary publisher port is not the default (4503)
+* Ensure one or more publish instances are running
+* Enable the [tunnel service](deploy-communities.md#tunnel-service-on-author) to manage members and member groups
+* Identify the [primary publisher](deploy-communities.md#primary-publisher)
+* [Configure replication](deploy-communities.md#replication-agents-on-author) when primary publisher port is not the default (4503)
 
 Best practice, to ensure the site is prepared to support many features, is to take the following steps:
 
-* install the [latest feature pack](deploy-communities.md#latestfeaturepack)
-* enable [Adobe Analytics](analytics.md) for AEM Communities
-* configure [email](email.md)
-* identify [Community Administrators](users.md#creating-community-members)
-* [enable OAuth handler](social-login.md#adobe-granite-oauth-authentication-handler) for social login
+* Install the [latest feature pack](deploy-communities.md#latestfeaturepack)
+* Enable [Adobe Analytics](analytics.md) for AEM Communities
+* Configure [email](email.md)
+* Identify [Community Administrators](users.md#creating-community-members)
+* [Enable OAuth handler](social-login.md#adobe-granite-oauth-authentication-handler) for social login
 
 ## Accessing Communities Sites Console {#accessing-communities-sites-console}
 
-In the author environment, to reach the Communities Sites console
+In the author environment, to reach the Communities Sites console:
 
-* from global navigation:** Communities, Sites**
+* From global navigation: **Communities, Sites**
 
 The Communities Sites console displays any existing community sites. From this console, community sites may be created, edited, managed and deleted.
 
-To create a new community site, select the **Create **icon.
+To create a new community site, select the **Create** icon.
 
-To access an existing community site, for the purpose of authoring, modifying, publishing, exporting, or adding a nested group, select the site's folder icon.
+To access an existing community site, for the purpose of authoring, modifying, publishing, exporting, or adding a nested group, select the sites' folder icon.
 
 For example, the following image shows the main Communities Sites console displaying the folders for two community sites: [enable](getting-started-enablement.md) and [engage](getting-started.md):
 
@@ -67,7 +67,7 @@ Every site created includes a login feature as site visitors are required to sig
 
 The process is launched by selecting the `Create` button located at the top of the Communities Sites console.
 
-The creation process is a series of steps presented as panels containing a set of features to be configured (presented as sub-panels). It is possible to move forward to the **Next **step or **Back **to the previous step before committing the site in the final step.
+The creation process is a series of steps presented as panels containing a set of features to be configured (presented as sub-panels). It is possible to move forward to the **Next** step or **Back** to the previous step before committing the site in the final step.
 
 ### Step 1: Site Template {#step-site-template}
 
@@ -75,29 +75,29 @@ The creation process is a series of steps presented as panels containing a set o
 
 On the Site Template panel, the Title, Description, Site Root, Base Language, Name and Site Template are specified:
 
-* **Community Site Title**: a display title for the site. 
+* **Community Site Title**: A display title for the site. 
 
   The title appears on the published site as well as in the site admin UI.
 
-* **Community Site Description**: a description of the site. 
+* **Community Site Description**: A description of the site. 
 
   The description does not appear on the published site.
 
-* **Community Site Root**: the root path to the site.  
+* **Community Site Root**: The root path to the site.  
 
   The default root is `/content/sites`, but the root may be moved to any location within the web site.
 
 * **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
-* **Community Site Name**: the name of the site's root page which appears in the URL
+* **Community Site Name**: The name of the site's root page which appears in the URL
 
-    * double-check the name as it is not easily changed after the site is created
-    * the base URL ( `https://*server:port/site root/site name*)` will be displayed underneath the `Community Site Name`
-    * for a valid URL, append a base language code + ".html" 
+    * Double-check the name as it is not easily changed after the site is created
+    * The base URL ( `https://*server:port/site root/site name*)` will be displayed underneath the `Community Site Name`
+    * For a valid URL, append a base language code + ".html" 
 
-      *for example*, `http://localhost:4502/content/sites/mysight/en.html`
+      *For example*, `http://localhost:4502/content/sites/mysight/en.html`
 
-* **Community Site Template** menu: use the pull down menu to choose an available [community site template](tools.md).
+* **Community Site Template** menu: Use the pull down menu to choose an available [community site template](tools.md).
 
 Select **Next**
 
@@ -125,12 +125,12 @@ The image should be sized to be as wide as the expected display of the page in t
 
 When creating or selecting an image, keep in mind:
 
-* the image height will be cropped to 120 pixels measured from the top edge of the image
-* the image is pinned to the left edge of the browser window
-* there is no resizing of the image, such that when the image width is...
+* The image height will be cropped to 120 pixels measured from the top edge of the image
+* The image is pinned to the left edge of the browser window
+* There is no resizing of the image, such that when the image width is...
 
-    * less than the browser's width, the image will repeat horizontally
-    * greater than the browser's width, the image will appear to be cropped
+    * Less than the browser's width, the image will repeat horizontally
+    * Greater than the browser's width, the image will appear to be cropped
 
 Select **Next**.
 
@@ -222,7 +222,7 @@ The tags which may be applied to community content are controlled by selecting T
 
 In addition, selecting tag namespaces for the community site limits the selection presented when defining catalogs and resources. See [Tagging Enablement Resources](tag-resources.md) for important information.
 
-* text search box: start typing to identify tags allowed to be used on the site
+* Text search box: start typing to identify tags allowed to be used on the site
 
 #### ROLES {#roles}
 
@@ -362,10 +362,10 @@ Once **Create** is selected and started, the process of creating the site cannot
 
 Once the site is created:
 
-* changing the url (node name) is not supported
-* future changes to the community site template will not affect the created community site
-* disabling the community site template will not affect the created community site
-* it is possible to edit the [STRUCTURE](#modify-structure) of a community site by modifying its properties
+* Changing the url (node name) is not supported
+* Future changes to the community site template will not affect the created community site
+* Disabling the community site template will not affect the created community site
+* It is possible to edit the [STRUCTURE](#modify-structure) of a community site by modifying its properties
 
 ![chlimage_1-458](assets/chlimage_1-458.png)
 
@@ -418,8 +418,8 @@ Instead, the [STRUCTURE](#modify-structure) of the community site may be modifie
 
 The STRUCTURE panel allows the modification of the structure initially created from the selected community site template. From the panel, it is possible to
 
-* drag-and-drop additional [community functions](functions.md) into the site structure
-* on an instance of a community function in the site structure:
+* Drag-and-drop additional [community functions](functions.md) into the site structure
+* On an instance of a community function in the site structure:
 
     * **`gear icon`** 
 
@@ -441,13 +441,13 @@ The STRUCTURE panel allows the modification of the structure initially created f
 
 >[!CAUTION]
 >
->&ast; While the display title may be changed without side-effects, it is not recommended to edit the URL name of a community function belonging to a community site.
+>While the display title may be changed without side-effects, it is not recommended to edit the URL name of a community function belonging to a community site.
 >
 >For example, renaming the URL will not move existing UGC, thus having the effect of 'losing' UGC.
 
 >[!CAUTION]
 >
->The groups function must *not *be the *first nor the only* function in the site structure.
+>The groups function must *not* be the *first nor the only* function in the site structure.
 >
 >Any other function, such as the [page function](functions.md#page-function), must be included and listed first.
 
@@ -461,8 +461,7 @@ The DESIGN panel allows a new theme to be applied:
 
 * [Community Site Theme](#community-site-theme)
 * [Community Site Branding](#community-site-branding)
-
-    * scroll to the bottom of the panel to change the brand image
+    * Scroll to the bottom of the panel to change the brand image
 
 ### Modify Settings {#modify-settings}
 
@@ -520,8 +519,8 @@ The name created for the member groups includes the *site-name* given the site i
 
 For example, if the name were "engage" for a site titled "Getting Started Tutorial", then the user group for moderators would be:
 
-* title: Community Engage Moderators
-* name: community-*engage-uid*-moderators
+* Title: Community Engage Moderators
+* Name: community-*engage-uid*-moderators
 
 Notice that any members assigned roles as moderators or group administrators while creating the site, will be assigned to the appropriate group as well as assigned to the members group. These groups and member assignments are created on publish when the new site is published.
 
@@ -541,15 +540,14 @@ By default, a community site will redirect to a sample login page when the user 
 
 To correctly redirect, once a site has been configured and pushed to publish, complete these steps to get authentication failure to redirect to the community site:
 
-* on each AEM publish instance
-* first sign in with administrator privileges
-* access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
+* On each AEM publish instance
+* First sign in with administrator privileges
+* Access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
+    * For example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
-
-* locate `Adobe Granite Login Selector Authentication Handler`
-* select the `pencil`icon to open the configuration for edit
-* enter a **Login Page Mappings** as follows: 
+* Locate `Adobe Granite Login Selector Authentication Handler`
+* Select the `pencil`icon to open the configuration for edit
+* Enter a **Login Page Mappings** as follows: 
 
   /content/sites/*&lt;site-name&gt;*/path/to/login/page:/content/sites/*&lt;site-name&gt;* 
 
@@ -565,14 +563,13 @@ To correctly redirect, once a site has been configured and pushed to publish, co
 
 On the same AEM publish instance configured with a login page mapping for the community site:
 
-* browse to the community site home page
+* Browse to the community site home page
+    * For example, [http://localhost:4503/content/sites/engage/en.html](http://localhost:4503/content/sites/engage/en.html)
 
-    * for example, [http://localhost:4503/content/sites/engage/en.html](http://localhost:4503/content/sites/engage/en.html)
-
-* select Log Out
-* select Log In
-* enter obviously incorrect credentials, such as username "x" and password "x"
-* the login page should be displayed with an "invalid login" error
+* Select Log Out
+* Select Log In
+* Enter obviously incorrect credentials, such as username "x" and password "x"
+* The login page should be displayed with an "invalid login" error
 
 ![chlimage_1-469](assets/chlimage_1-469.png) 
 

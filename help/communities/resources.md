@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 1ef15e76-fe7c-4ced-a20d-c0a9385e3ee4
 ---
 
-# Enablement Resources Console{#enablement-resources-console}
+# Enablement Resources Console {#enablement-resources-console}
 
 For AEM Communities, the Resources console is where [Enablement Managers](users.md) create, manage and assign resources to members of an enablement community site.
 
@@ -40,15 +40,13 @@ Resources are essential to an [enablement community](overview.md#enablement-comm
 
 Characteristics of a Resource:
 
-* may be of type
-
-    * image (JPG, PNG, GIF, BMP)
-    * video (MP4)
-    * flash (SWF)
-    * document (PDF)
-    * or quiz (SCORM)
-
-* may be referenced from one or more learning paths
+* May be of type
+    * Image (JPG, PNG, GIF, BMP)
+    * Video (MP4)
+    * Flash (SWF)
+    * Document (PDF)
+    * Quiz (SCORM)
+* May be referenced from one or more learning paths
 
 ### Learning Path {#learning-path}
 
@@ -70,7 +68,7 @@ For [enablement communities](overview.md#enablement-community), it is recommende
 
 In the author environment, to reach the Resources console
 
-* from global navigation: **Navigation, Communities, Resources**
+* From global navigation: **Navigation, Communities, Resources**
 
 ![chlimage_1-163](assets/chlimage_1-163.png) 
 
@@ -104,16 +102,16 @@ To select multiple enablement resources, select the first by hovering over the c
 
 To add a new enablement resource to the community site
 
-* select the `Create` icon
-* from the sub-menu which displays, select `Resource`
+* Select the `Create` icon
+* From the sub-menu which displays, select `Resource`
 
 This launches a step-by-step process of
 
-* describing the resource (name, card image and text)
-* selecting the resource content
-* selecting a cover image for the resource
-* identifying resource contacts
-* assigning resources to members
+* Describing the resource (name, card image and text)
+* Selecting the resource content
+* Selecting a cover image for the resource
+* Identifying resource contacts
+* Assigning resources to members
 
 When the resource is part of a course, a learning path, members should only be assigned to the learning path. Assignments may be added after the enablement resource has been created.
 
@@ -288,18 +286,18 @@ Successful creation of the enablement resource returns to the Resources console 
 
 To add a new learning path to the community site
 
-* select the `Create` icon
-* from the sub-menu which displays, select `Learning Path`
+* Select the `Create` icon
+* From the sub-menu which displays, select `Learning Path`
 
 This launches a step-by-step process of
 
-* identifying the learning path
-* providing a card image to represent the learning path to the learners
-* referencing the enablement resources to include in the learning path
-* optionally ordering the resources
-* optionally identifying prerequisite learning paths
-* identifying a learning path contact
-* enrolling members
+* Identifying the learning path
+* Providing a card image to represent the learning path to the learners
+* Referencing the enablement resources to include in the learning path
+* Optionally ordering the resources
+* Optionally identifying prerequisite learning paths
+* Identifying a learning path contact
+* Enrolling members
 
 For enablement resources included in a learning path, the assignments should only be made for the learning path and not for the individual resources.
 
@@ -386,7 +384,7 @@ For enablement resources included in a learning path, the assignments should onl
 
   *(Required)* A person the member can contact regarding the learning path. Use the pulldown menu to select from the users who are members of the community site's [members group](#members-group).
 
-* select **Create**
+* Select **Create**
 
 >[!NOTE]
 >
@@ -398,9 +396,9 @@ For enablement resources included in a learning path, the assignments should onl
 
 To manage a single enablement resource
 
-* from the Resources console
-* select the community site which contains the resource
-* select the resource
+* From the Resources console
+* Select the community site which contains the resource
+* Select the resource
 
 For the selected enablement resource, it is possible to:
 
@@ -432,9 +430,9 @@ By selecting the trashcan icon, the enablement resource will be `Delete`d after 
 
 Before learners are able to see an assigned enablement resourse, it must be published:
 
-* select the world icon to `Publish`
-* in the dialog which pops up, select **Publish **again
-* select **Close**
+* Select the world icon to `Publish`
+* In the dialog which pops up, select **Publish **again
+* Select **Close**
 
 Even though the dialog states the action is queued, it often is published immediately.
 
@@ -466,19 +464,19 @@ The Analytics Timeline report shows when events occur over time for this enablem
 
 * **Views** 
 
-  a view is when a learner visits the resource details page
+  A view is when a learner visits the resource details page
 
 * **Plays** 
 
-  a play is when alLearner interacts with the resource, such as playing a video or opening a PDF
+  A play is when alLearner interacts with the resource, such as playing a video or opening a PDF
 
 * **Ratings** 
 
-  a rating is when a learner assigns a star rating to a resource
+  A rating is when a learner assigns a star rating to a resource
 
 * **Comments** 
 
-  a comment is when alLearner adds a comment
+  A comment is when alLearner adds a comment
 
 The vertical axis is the number of events.
 
@@ -518,34 +516,29 @@ The Ratings report is based on the number of learners who have rated the enablem
 
 For an enablement resource, the Report Summary is a table listing
 
-* each learner who has interacted with the resource
-
-    * their status
-    * whether they were assigned the resource
-
-        * as opposed to their finding the resource in a catalog
-
-    * number of comments posted
-    * the rating given, if any
+* Each learner who has interacted with the resource
+    * Their status
+    * Whether they were assigned the resource
+        * As opposed to their finding the resource in a catalog
+    * Number of comments posted
+    * The rating given, if any
 
 For a learning path Resource Report, the Report Summary is a table listing
 
-* each resource included in the learning path
-
-    * publish status
-    * number of views
-    * number of plays
-    * average rating
-    * format
-    * size
-    * community site name
+* Each resource included in the learning path
+    * Publish status
+    * Number of views
+    * Number of plays
+    * Average rating
+    * Format
+    * Size
+    * Community site name
 
 For a learning path User Report, the Report Summary is a table listing
 
-* each learner who is assigned to the learning path
-
-    * number of Resources completed
-    * their status
+* Each learner who is assigned to the learning path
+    * Number of Resources completed
+    * Their status
 
 It is possible to adjust the display of the table by selecting columns using the `Show / hide columns` selector.
 

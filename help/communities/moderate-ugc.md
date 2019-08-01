@@ -11,28 +11,27 @@ content-type: reference
 discoiquuid: d11b8fc8-5e98-4a77-a536-d445ac88e1b3
 ---
 
-# Moderating Community Content{#moderating-community-content}
+# Moderating Community Content {#moderating-community-content}
 
 ## Overview {#overview}
 
 Community content, also known as user generated content (UGC), is created when a member (signed in site visitor) posts content from a published community site through interaction with one of the following community components:
 
-* [blog](blog-feature.md): members post a blog article or comment
-* [calendar](calendar.md): members post a calendar event or comment
-* [comments](comments.md): members post a comment or reply to a comment  
-
-* [forum](forum.md): members post a new topic or reply to a topic
-* [ideation](ideation-feature.md): members post an idea or comment
+* [Blog](blog-feature.md): members post a blog article or comment
+* [Calendar](calendar.md): members post a calendar event or comment
+* [Comments](comments.md): members post a comment or reply to a comment  
+* [Forum](forum.md): members post a new topic or reply to a topic
+* [Ideation](ideation-feature.md): members post an idea or comment
 * [QnA](working-with-qna.md): members create a question or answer a question
-* [reviews](reviews.md): members post a comment when rating an item
+* [Reviews](reviews.md): members post a comment when rating an item
 
 Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments:
 
-* [bulk moderation console](moderation.md) 
+* [Bulk moderation console](moderation.md) 
 
   The Moderation console is accessible by administrators and [community moderators](users.md) in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a [common store](working-with-srp.md).
 
-* [in-context moderation](in-context.md)
+* [In-context moderation](in-context.md)
 
   Moderation in the publish environment may be performed by administrators and community moderators directly on the page where the content was posted.
 
@@ -41,24 +40,15 @@ Moderation of UGC is useful for recognizing positive contributions as well as li
 The actions which can be performed on posted content (UGC) varies depending on the user identity and the environment. The table below uses the following terminology to describe the various roles according to user identity:
 
 * `Admin`  
-
-  a user who is a member of [community-administrators](users.md) group
-
+  A user who is a member of [community-administrators](users.md) group
 * `Moderator` 
-
-  a member of a [community moderators](users.md#publishenvironmentusersandgroups) group (has [moderator permissions](in-context.md#moderatorpermissions))
-
+  A member of a [community moderators](users.md#publishenvironmentusersandgroups) group (has [moderator permissions](in-context.md#moderatorpermissions))
 * `Creator`  
-
-  the user who posted the content
-
+  The user who posted the content
 * `Member`  
-
-  a signed-in user without special permissions
-
+  A signed-in user without special permissions
 * `Visitor` 
- 
-  an anonymous user
+  An anonymous user
 
 <table> 
  <tbody>
@@ -185,13 +175,11 @@ The Allow action is an option for UGC that has been Flagged, Denied or has not b
 
 When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a [community site](sites-console.md), checking the box ` [Content is Premoderated](sites-console.md#moderation)` will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog:
 
-* [comments](comments.md) and [reviews](reviews.md)
+* [Comments](comments.md) and [reviews](reviews.md)
 
   on **User Moderation** tab, check **Pre-Moderation**
 
-* [forum](forum.md), [ideation](ideation-feature.md), [QnA](working-with-qna.md), and [calendar](calendar.md)
-
-  on **Settings** tab, check **Moderated**
+* [Forum](forum.md), [ideation](ideation-feature.md), [QnA](working-with-qna.md), and [calendar](calendar.md) on **Settings** tab, check **Moderated**
 
 ### Spam Detection {#spam-detection}
 
@@ -255,11 +243,11 @@ The **sentimentprocess.name** may also be modifed to reference the location of a
 
 To configure sentiment and watchwords:
 
-* on an author instance
-* sign in as administrator
-* open [Web Console](http://localhost:4502/system/console/configMgr)
-* locate `sentimentprocess.name`
-* select the configuration to open in edit mode
+* On an author instance
+* Sign in as administrator
+* Open [Web Console](http://localhost:4502/system/console/configMgr)
+* Locate `sentimentprocess.name`
+* Select the configuration to open in edit mode
 
 ![sentimentprocess](assets/sentimentprocess.png)
 

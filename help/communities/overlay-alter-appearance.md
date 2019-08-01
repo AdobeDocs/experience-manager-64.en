@@ -19,34 +19,21 @@ The comment.hbs script is responsible for creating the overall HTML for each com
 
 To not display the avatar next to each posted comment:
 
-1. copy `comment.hbs`from `libs`to `apps`
-
-    1. select `/libs/social/commons/components/hbs/comments/comment/comment.hbs`
-    1. select **Copy**
-    1. select `/apps/social/commons/components/hbs/comments/comment`
-    1. select **Paste**
-
-1. open the overlaid `comment.hbs`
-
-    * double-click on node  `comment.hbs`in `/apps/social/commons/components/hbs/comments/comment folder`
-
-1. find the following lines and either delete or comment them out:
-
-```xml
-  <aside class="scf-comment-author">
-        <img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>
-
-```
+1. Copy `comment.hbs`from `libs`to `apps`
+    1. Select `/libs/social/commons/components/hbs/comments/comment/comment.hbs`
+    1. Select **Copy**
+    1. Select `/apps/social/commons/components/hbs/comments/comment`
+    1. Select **Paste**
+1. Open the overlaid `comment.hbs`
+    * Double-click on node  `comment.hbs`in `/apps/social/commons/components/hbs/comments/comment folder`
+1. Find the following lines and either delete or comment them out:
+`xml <aside class="scf-comment-author">
+        <img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>`
 
 Either delete the lines, or surround them with '&lt;!--' and '--&gt;' to comment them out. Also, the characters 'xxx' are being added as a visual indicator of where the avatar would have been.
-
-```xml
-   xxx
-   <!-- do not display avatar with comment
+`xml <!-- do not display avatar with comment
     <aside class="scf-comment-author">
-        <img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>
-
-```
+        <img class="scf-comment-avatar {{#if topLevel}}withTopLevel{{/if}}" src="{{author.avatarUrl}}"></img>`
 
 ## Replicate the Overlay {#replicate-the-overlay}
 

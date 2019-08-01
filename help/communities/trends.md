@@ -19,9 +19,9 @@ The `Community Activity List` component provides the ability to add trending inf
 
 This section of the documentation describes
 
-* adding the `Community Activity List` component to a [community site](overview.md#community-sites)
+* Adding the `Community Activity List` component to a [community site](overview.md#community-sites)
 
-* configuration settings for the `Community Activity List` component
+* Configuration settings for the `Community Activity List` component
 
 ## Requirement {#requirement}
 
@@ -31,11 +31,7 @@ See [Analytics Configuration for Communities Features](analytics.md).
 
 ## Adding a Community Activity List to a Page {#adding-a-community-activity-list-to-a-page}
 
-To add a `Community Activity List` component to a page in author mode, locate the component
-
-* `Communities / Community Activity List`
-
-and drag it into place on a page.
+To add a `Community Activity List` component to a page in author mode, locate the component `Communities / Community Activity List` and drag it into place on a page.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 

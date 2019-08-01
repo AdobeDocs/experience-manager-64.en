@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: dc149196-fa56-494e-975c-b11ca1ef193b
 ---
 
-# Communities Components{#communities-components}
+# Communities Components {#communities-components}
 
 ## Introduction {#introduction}
 

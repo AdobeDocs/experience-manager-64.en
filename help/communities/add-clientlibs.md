@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c84040b0-7850-4960-b676-ffa0a74c8cb2
 ---
 
-# Add Clientlibs{#add-clientlibs}
+# Add Clientlibs {#add-clientlibs}
 
 ## Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
 
@@ -19,35 +19,36 @@ Create a ClientLibraryFolder named `clientlibs`which will contain the JS and CSS
 
 The `categories`property value given to this client library is the identifier used to directly include this clientlib from a content page or to embed it in other clientlibs.
 
-1. using **CRXDE Lite**, expand `/etc/designs`
+1. Using **CRXDE Lite**, expand `/etc/designs`
 
-1. right click on `an-scf-sandbox` and select `Create Node`
+1. Right click on `an-scf-sandbox` and select `Create Node`
 
     * Name: `clientlibs`
     * Type: `cq:ClientLibraryFolder`
-
-1. click **OK**
+    
+1. Click **OK**
 
 ![chlimage_1-220](assets/chlimage_1-220.png)
 
-In the **Properties** tab for the new `clientlibs` node, enter the **`categories`**property:
+In the **Properties** tab for the new `clientlibs` node, enter the **`categories`** property:
 
 * Name: **categories**
 * Type: **String**
 * Value: **apps.an-scf-sandbox**
-* click **Add**
-* click **Save All**
+* Click **Add**
+* Click **Save All**
 
-Note: prefacing the categories value with 'apps.' is a convention to identify the 'owning application' as being in the /apps folder, not /libs.  IMPORTANT: Add placeholder `js.tx`t and**`css.tx`**t files. (It's not officially a cq:ClientLibraryFolder without them.)
+Note: prefacing the categories value with 'apps.' is a convention to identify the 'owning application' as being in the /apps folder, not /libs.  IMPORTANT: Add placeholder `js.txt` and `css.txt` files. (It's not officially a cq:ClientLibraryFolder without them.)
 
-1. right click on **`/etc/designs/an-scf-sandbox/clientlibs`**
-1. select** Create File...**
-1. enter** Name:** `css.txt`
 
-1. select** Create File... **
-1. enter **Name:** `js.txt`
+1. Right click on **`/etc/designs/an-scf-sandbox/clientlibs`**
+1. Select **Create File...**
+1. Enter **Name:** `css.txt`
 
-1. click **Save All**
+1. Select **Create File...**
+1. Enter **Name:** `js.txt`
+
+1. Click **Save All**
 
 ![chlimage_1-221](assets/chlimage_1-221.png)
 
@@ -80,22 +81,23 @@ In this case, we're including them all, and so would prefer the more basic SCF c
 
 * Name: **`embed`**
 * Type: **`String`**
-* click **`Multi`**
+
+* Click **`Multi`**
 * Value: **`cq.social.scf`** 
 
   *&lt;enter&gt; will pop up a dialog*  
 
-  *click **[+]** after each entry to add the following clientlib categories:*
+  *Click **[+]** after each entry to add the following clientlib categories:*
 
-    * **`cq.ckeditor`**
-    * **`cq.social.author.hbs.comments`**
-    * **`cq.social.author.hbs.forum`**
-    * **`cq.social.author.hbs.rating`**
-    * **`cq.social.author.hbs.reviews`**
-    * **`cq.social.author.hbs.voting`**
-    * click **OK**
+  * **`cq.ckeditor`**
+  * **`cq.social.author.hbs.comments`**
+  * **`cq.social.author.hbs.forum`**
+  * **`cq.social.author.hbs.rating`**
+  * **`cq.social.author.hbs.reviews`**
+  * **`cq.social.author.hbs.voting`**
+  * click **OK**
 
-* click **Save All**
+* Click **Save All**
 
 ![chlimage_1-222](assets/chlimage_1-222.png)
 
@@ -119,16 +121,17 @@ The include statement belongs in the <head> section of the <html> script. The de
 
 **Copy headlibs.jsp and include clientlibs:**
 
-1. using **CRXDE Lite**, select **`/libs/foundation/components/page/headlibs.jsp`**
-1. right click and select **Copy** (or select Copy from the tool bar)
-1. select **`/apps/an-scf-sandbox/components/playpage`**
-1. right click and select **Paste** (or select Paste from the tool bar)
-1. double click on **`headlibs.jsp`** to open it
-1. append the following line to the end of the file
+1. Using **CRXDE Lite**, select **`/libs/foundation/components/page/headlibs.jsp`**
+1. Right click and select **Copy** (or select Copy from the tool bar)
+1. Select **`/apps/an-scf-sandbox/components/playpage`**
+1. Right click and select **Paste** (or select Paste from the tool bar)
+1. Double click on **`headlibs.jsp`** to open it
+1. Append the following line to the end of the file
 
    **`<ui:includeClientLib categories="apps.an-scf-sandbox"/>`**
 
-1. click **Save All**
+1. Click **Save All**
+
 
 ```xml
 <%@ page session="false" %><%
@@ -145,7 +148,7 @@ Load your website in the browser and see if the background is not a shade of blu
 
 [http://localhost:4502/content/an-scf-sandbox/en/play.html](http://localhost:4502/content/an-scf-sandbox/en/play.html)
 
-![chlimage_1-226](assets/chlimage_1-226.png) 
+![chlimage_1-226](assets/chlimage_1-226.png)
 
 ## Saving Your Work So Far {#saving-your-work-so-far}
 
@@ -155,30 +158,31 @@ This package exists on the [Create a Sample Page](create-sample-page.md) tutoria
 
 To create a package:
 
-* from CRXDE Lite click the [Package icon](http://localhost:4502/crx/packmgr/) 
-* click **Create Package**
+
+* From CRXDE Lite click the [Package icon](http://localhost:4502/crx/packmgr/) 
+* Click **Create Package**
 
     * Package Name: an-scf-sandbox-minimal-pkg
     * Version: 0.1
     * Group: &lt;leave as default&gt;
     * click **OK**
 
-* click **Edit**
+* Click **Edit**
 
-    * select **Filters **tab
+    * select **Filters** tab
 
-        * click **Add filter**
+        * Click **Add filter**
         * Root Path: &lt;browse to** /apps/an-scf-sandbox**&gt;
-        * click **Done**
-        * click **Add filter**
+        * Click **Done**
+        * Click **Add filter**
         * Root Path: &lt;browse to **/etc/designs/an-scf-sandbox**&gt;
-        * click **Done**
-        * click **Add filter**
+        * Click **Done**
+        * Click **Add filter**
         * Root Path: &lt;browse to **/content/an-scf-sandbox**&gt;
-        * click **Done**
+        * Click **Done**
 
-    * click **Save**
+    * Click **Save**
 
-* click **Build**
+* Click **Build**
 
-Now you can select **Download** to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox. 
+Now you can select **Download** to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.

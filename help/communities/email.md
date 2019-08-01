@@ -12,7 +12,7 @@ discoiquuid: b4d38e45-eaa0-4ace-a885-a2e84fdfd5a1
 pagetitle: Configuring Email
 ---
 
-# Configuring Email{#configuring-email}
+# Configuring Email {#configuring-email}
 
 AEM Communities uses email for
 
@@ -29,14 +29,14 @@ By default, the email feature is not functional as it requires specification of 
 
 The default mail service is required for both notifications and subscriptions.
 
-* on the primary publisher
-* signed in with administrator privileges
-* access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
+* On the primary publisher
+* Signed in with administrator privileges
+* Access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
+    * For example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
-* locate the `Day CQ Mail Service`
-* select the edit icon
+* Locate the `Day CQ Mail Service`
+* Select the edit icon
 
 This is based on the documentation for [Configuring Email Notification](../../help/sites-administering/notification.md), but with a difference in that the field `"From" address` is *not* required and should be left empty.
 
@@ -72,13 +72,13 @@ Only the instance for subscriptions needs to be further configured when allowing
 
 To reach the Communities email configuration instances:
 
-* on the primary publisher
-* signed in with administrator privileges
-* access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
+* On the primary publisher
+* Signed in with administrator privileges
+* Access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
+    * For example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
-* locate `AEM Communities Email Reply Configuration`
+* Locate `AEM Communities Email Reply Configuration`
 
 ![chlimage_1-99](assets/chlimage_1-99.png) 
 
@@ -88,11 +88,11 @@ The instance of `AEM Communities Email Reply Configuration` OSGi config with the
 
 This configuration should not be altered.
 
-* locate the `AEM Communities Email Reply Configuration`
-* select the edit icon
-* verify the **Name** is `email`
+* Locate the `AEM Communities Email Reply Configuration`
+* Select the edit icon
+* Verify the **Name** is `email`
 
-* verify **Create post from reply email** is `unchecked`
+* Verify **Create post from reply email** is `unchecked`
 
 ![chlimage_1-100](assets/chlimage_1-100.png) 
 
@@ -100,13 +100,13 @@ This configuration should not be altered.
 
 For Communities subscriptions, it is possible to enable or disable the ability for a member to post content by replying to an email.
 
-* locate the `AEM Communities Email Reply Configuration`
-* select the edit icon
-* verify the **Name** is `subscriptions-email`
+* Locate the `AEM Communities Email Reply Configuration`
+* Select the edit icon
+* Verify the **Name** is `subscriptions-email`
 
 ![chlimage_1-101](assets/chlimage_1-101.png)
 
-* **Name **: *(required)* `subscriptions-email`. Do Not Edit.
+* **Name** : *(required)* `subscriptions-email`. Do Not Edit.
 
 * **Create post from reply email**: If checked, recipient of subscription email may post content by sending a reply. Default is checked.
 * **Add tracked id to header**: Default is `Reply-To`.
@@ -132,11 +132,11 @@ In order for the email to be brought into the repository, it is necessary to con
 
 ### Add New Polling Importer {#add-new-polling-importer}
 
-* on the primary publisher
-* signed in with administrator privileges
-* browse to the polling importer console
-    for example, [http://localhost:4503/etc/importers/polling.html](http://localhost:4503/etc/importers/polling.html)
-* select **Add**
+* On the primary publisher
+* Signed in with administrator privileges
+* Browse to the polling importer console
+    For example, [http://localhost:4503/etc/importers/polling.html](http://localhost:4503/etc/importers/polling.html)
+* Select **Add**
 
 ![chlimage_1-102](assets/chlimage_1-102.png)
 
@@ -161,11 +161,11 @@ Once the new polling configuration is saved, it is necessary to further modify p
 
 Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
-* on the primary publisher
-* signed in with administrator privileges
-* browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de/index.jsp#/etc/importers/polling](http://localhost:4503/crx/de/index.jsp#/etc/importers/polling)
-* select the newly created configuration
-* modify the following properties
+* On the primary publisher
+* Signed in with administrator privileges
+* Browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de/index.jsp#/etc/importers/polling](http://localhost:4503/crx/de/index.jsp#/etc/importers/polling)
+* Select the newly created configuration
+* Modify the following properties
 
     * **feedType**: replace `pop3s` with **`emailreply`**
     * **source**: replace source's protocol `pop3s://` with **`emailreply://`**
@@ -174,5 +174,5 @@ Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
 The red triangles indicate the modified properties. Be sure to save the changes:
 
-* select **Save All**
+* Select **Save All**
 
