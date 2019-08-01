@@ -32,6 +32,7 @@ The following diagram shows the application’s logic flow.
 The following table describes the steps in this diagram.
 
 <table> 
+ <thead>
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
