@@ -258,7 +258,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 
 ### Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
 
-#### AEM 6.4.4.0 {#6440}
+#### AEM 6.4.4.0 {#aem-6440}
 
 AEM 6.4.4.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in **April 2018.**
 
@@ -541,7 +541,7 @@ List of Content Packages included in AEM 6.4.4.0
 
 [Get File](assets/osgi_package_6_440.txt)
 
-#### AEM 6.4.3.0 {#6430}
+#### AEM 6.4.3.0 {#aem-6430}
 
 AEM 6.4.3.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in April 2018.
 
@@ -795,7 +795,7 @@ List of Content Packages included in AEM 6.4.3.0
 
 [Get File](assets/6.4.3.0_OSGI.txt)
  
-#### AEM 6.4.2.0 {#6420}
+#### AEM 6.4.2.0 {#aem-6420}
 
 AEM 6.4.2.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in **April 2018.**
 It is also cumulative which means that 6.4.2.0 includes all AEM 6.4 service packs release before it.
@@ -1194,7 +1194,7 @@ List of Content Packages included in AEM 6.4.2.0
 
 [Get File](assets/6_4_2_0content-package-list.txt)
  
-#### AEM 6.4.1.0 {#6410}
+#### AEM 6.4.1.0 {#aem-6410}
 
 AEM 6.4.1.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in April 2018.
 
