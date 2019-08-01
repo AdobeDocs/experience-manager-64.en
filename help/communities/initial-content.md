@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: e8f28cd5-7950-4aab-bf62-3d4ed3d33cbd
 ---
 
-# Initial Sandbox Content{#initial-sandbox-content}
+# Initial Sandbox Content {#initial-sandbox-content}
 
 In this section, you create the following pages which all use the [page template](initial-app.md#createthepagetemplate):
 
 * SCF Sandbox Site, which will redirect to the English version of the main page
 
-    * SCF Sandbox - the main page for the English version of the site
+    * SCF Sandbox - The main page for the English version of the site
 
-        * SCF Play - child of the main page on which to play
+        * SCF Play - Child of the main page on which to play
 
 Although this tutorial does not delve into [language copies](../../help/sites-administering/tc-prep.md), it is designed so the root page may implement detection of the preferred language for the user through the HTML header, and redirect to the appropriate main page for the language. The convention is to use the two-letter country code for the node name of the page, e.g., "en" for English, "fr" for French, and so on.
 
@@ -41,14 +41,14 @@ Now that there is a [page template](initial-app.md#createthepagetemplate), we ca
 
    Alternatively, access the classic UI for Websites directly by browsing to [/siteadmin.](http://localhost:4502/siteadmin)
 
-1. In the explorer pane, select **Websites **and then in the toolbar select **New &gt; New Page**.
+1. In the explorer pane, select **Websites** and then in the toolbar select **New &gt; New Page**.
 
-   In the** Create Page** dialog, enter the following:
+   In the **Create Page** dialog, enter the following:
 
     * Title: **SCF Sandbox Site**
     * Name: **an-scf-sandbox**
-    * select **An SCF Sandbox Play Template**
-    * click **Create**
+    * Select **An SCF Sandbox Play Template**
+    * Click **Create**
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
@@ -56,15 +56,15 @@ Now that there is a [page template](initial-app.md#createthepagetemplate), we ca
 
     * Title: **SCF Sandbox**
     * Name: **en**
-    * select **An SCF Sandbox Play Template**
-    * click **Create**
+    * Select **An SCF Sandbox Play Template**
+    * Click **Create**
 
-1. In the explorer pane, select the page you just created, **/Websites/SCF Sandbox Site/SCF Sandbox**, and click **New** &gt;** New Page:**
+1. In the explorer pane, select the page you just created, **/Websites/SCF Sandbox Site/SCF Sandbox**, and click **New** &gt; **New Page:**
 
     * Title: **SCF Play**
     * Name: **play**
-    * select **An SCF Sandbox Play Template**
-    * click **Create**
+    * Select **An SCF Sandbox Play Template**
+    * Click **Create**
 
 1. This is how the website now appears in the Websites console. Notice that child pages of the item selected in the explorer pane are displayed in the right pane where they can be managed.
 
@@ -84,20 +84,18 @@ was defined, which provides the optional ability to reference design assets in a
 
 * &lt;% String favIcon = currentDesign.getPath() + "/favicon.ico"; %&gt;
 
-1. 
-1.
 
     * Name: **cq:designPath**
     * Type: **String **
     * Value: **/etc/designs/an-scf-sandbox**
 
-1. Click the green **[+] Add**
+* Click the green **[+] Add**
 
 The respository should appear as follows:  
 
 ![chlimage_1-41](assets/chlimage_1-41.png)
 
-* click** Save All**
+* Click **Save All**
 
 [ Trouble saving? Re-login! ]
 

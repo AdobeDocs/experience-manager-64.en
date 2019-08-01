@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: bf4e7809-8def-4647-aaa6-3ac36865511f
 ---
 
-# Using Reviews and Reviews Summary (Display){#using-reviews-and-reviews-summary-display}
+# Using Reviews and Reviews Summary (Display) {#using-reviews-and-reviews-summary-display}
 
 The `Reviews`component is a composite of [ `Comments`](comments.md) and [ `Rating`](rating.md) components ready for use.
 
@@ -23,11 +23,7 @@ The `Reviews Summary (Display)` component provides a summary of an active or clo
 
 ## Adding a Review to a Page {#adding-a-review-to-a-page}
 
-To add a `Reviews` component to a page in author mode, use the component browser to locate
-
-* `Communities / Reviews`
-
-and drag it into place on a page, such as a position relative to the feature for users to review.
+To add a `Reviews` component to a page in author mode, use the component browser to locate `Communities / Reviews` and drag it into place on a page, such as a position relative to the feature for users to review.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -41,7 +37,7 @@ Select the placed `Reviews` component to access and select the `Configure` icon 
 
 ![chlimage_1-341](assets/chlimage_1-341.png)
 
-Under the **Allowed Ratings **tab, specify the complete list of ratings to be shown to members. The first rating should be an overall/general rating, as it is the rating which provides the average rating for the `Review Summary (Display)` component. The next two ratings in the default configuration should be given a different title, other than "Subrating 1" or "Subrating 2".
+Under the **Allowed Ratings** tab, specify the complete list of ratings to be shown to members. The first rating should be an overall/general rating, as it is the rating which provides the average rating for the `Review Summary (Display)` component. The next two ratings in the default configuration should be given a different title, other than "Subrating 1" or "Subrating 2".
 
 ![chlimage_1-342](assets/chlimage_1-342.png)
 
@@ -53,7 +49,7 @@ Under the **Allowed Ratings **tab, specify the complete list of ratings to be sh
 
   Click **Add Item** to add another rating choice.
 
-Under the **Required Ratings **tab, re-enter items from the list of **Allowed Ratings** that are required to be rated. If an item is only specified on the Allowed Ratings tab, it may be left unmarked when submitted by the member.
+Under the **Required Ratings** tab, re-enter items from the list of **Allowed Ratings** that are required to be rated. If an item is only specified on the Allowed Ratings tab, it may be left unmarked when submitted by the member.
 
 On the website, required ratings are marked with an asterisk. If an item is required and left unmarked, a message is displayed to the member and the submission is denied until all required ratings are marked.
 
@@ -99,7 +95,7 @@ Under the **Reviews **tab, specify how reviews are handled.
 * **Allow Voting** 
   If checked, include the Voting feature for a topic. Default is unchecked.
 
-Under the **User Moderation **tab, specify how the posted reviews are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
+Under the **User Moderation** tab, specify how the posted reviews are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 ![chlimage_1-345](assets/chlimage_1-345.png)
 
@@ -206,10 +202,10 @@ When the signed in user has moderator or administrator privileges, they are able
 
 When the site visitor is signed in, depending on the configuration, they may
 
-* post a new review
-* edit their own review
-* delete their own review
-* flag others' review comments
+* Post a new review
+* Edit their own review
+* Delete their own review
+* Flag others' review comments
 
 Only one rating per member is allowed. The member may change their rating at any time.
 

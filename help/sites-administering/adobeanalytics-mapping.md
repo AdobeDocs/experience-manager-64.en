@@ -21,7 +21,7 @@ When the **AEM view** is open the Analytics variables appear in the content find
 
 ![aa-12](assets/aa-12.png)
 
-You can map the same **Analytics variable** with multiple CQ variables. You can also map multiple Analytics variables with the same **CQ variable**.
+You can map multiple Analytics variables with the same **CQ variable**.
 
 ![chlimage_1-155](assets/chlimage_1-155.png)
 

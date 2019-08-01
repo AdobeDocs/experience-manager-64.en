@@ -11,7 +11,7 @@ topic-tags: deploying
 discoiquuid: 23745dd3-1424-4d22-8456-d2dbd42467f4
 ---
 
-# Configuring Dispatcher for Communities{#configuring-dispatcher-for-communities}
+# Configuring Dispatcher for Communities {#configuring-dispatcher-for-communities}
 
 ## AEM Communities {#aem-communities}
 
@@ -19,7 +19,7 @@ For AEM Communities, it is necessary to configure the Dispatcher to ensure prope
 
 To learn what is necessary for your particular deployment and site design
 
-* please contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* Contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 
 See also the main [Dispatcher documentation](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html).
 
@@ -49,18 +49,18 @@ The OSGi configuration **ACS AEM Commons - Dispatcher Cache Control Header - Max
 
 * From the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
+    * For example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
-* locate `ACS AEM Commons - Dispatcher Cache Control Header - Max Age`
-* select the '+' icon to create a new connection configuration
+* Locate `ACS AEM Commons - Dispatcher Cache Control Header - Max Age`
+* Select the '+' icon to create a new connection configuration
 
 ![chlimage_1-339](assets/chlimage_1-339.png)
 
 * **Filter Patterns** 
-  *(required) * One or more paths to community pages. For example, `/content/sites/engage/(.*)`.
+  *(required)* One or more paths to community pages. For example, `/content/sites/engage/(.*)`.
 
 * **Cache-Control Max Age** 
-  *(required) *The max age (in seconds) to add to the Cache Controll header. The value must be greater than zero (0).
+  *(required)* The max age (in seconds) to add to the Cache Controll header. The value must be greater than zero (0).
 
 ## Dispatcher Client Headers {#dispatcher-client-headers}
 

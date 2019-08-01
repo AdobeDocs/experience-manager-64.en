@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: aff8b79f-dd4e-486e-9d59-5d09dfe34f27
 ---
 
-# Author a New Community Site for Enablement{#author-a-new-community-site-for-enablement}
+# Author a New Community Site for Enablement {#author-a-new-community-site-for-enablement}
 
 ## Create Community Site {#create-community-site}
 
@@ -21,10 +21,10 @@ To get started creating a new community site:
 
 Using the [author instance](http://localhost:4502/)
 
-* sign in with administrator privileges
-* navigate to **Communities, Sites**
+* Sign in with administrator privileges
+* Navigate to **Communities, Sites**
 
-* select **Create**
+* Select **Create**
 
 ### Step 1: Site Template {#step-site-template}
 
@@ -82,11 +82,11 @@ A community site is private when anonymous site visitors are denied access, may 
 
 Ensure most checkboxes are unchecked for [User Management](sites-console.md#user-management):
 
-* do NOT allow site visitors to self-register
-* do NOT allow anonymous site visitors to view the site
-* optional whether or not to allow messaging among community members
-* do NOT allow login with Facebook
-* do NOT allow login with Twitter
+* Do NOT allow site visitors to self-register
+* Do NOT allow anonymous site visitors to view the site
+* Optional whether or not to allow messaging among community members
+* Do NOT allow login with Facebook
+* Do NOT allow login with Twitter
 
 ![chlimage_1-285](assets/chlimage_1-285.png)
 
@@ -98,8 +98,8 @@ Further, selecting Tag Namespaces for the community site limits the selection pr
 
 Finding namespaces is easy using type-ahead search. For example,
 
-* type 'tut'
-* select `Tutorial`
+* Type 'tut'
+* Select `Tutorial`
 
 ![chlimage_1-286](assets/chlimage_1-286.png)
 
@@ -111,8 +111,8 @@ To let a community member (or group of members) experience the site as the commu
 
 For example,
 
-* type "q"
-* select [Quinn Harper](enablement-setup.md#publishcreateenablementmembers)
+* Type "q"
+* Select [Quinn Harper](enablement-setup.md#publishcreateenablementmembers)
 
 >[!NOTE]
 >
@@ -138,8 +138,8 @@ The selection seen in the screenshot, `Communities`, is the framework example fr
 
 The [Translation settings](sites-console.md#translation) specify whether or not UGC may be translated and into which language, if so.
 
-* check **Allow Machine Translation**
-* use the default settings
+* Check **Allow Machine Translation**
+* Use the default settings
 
 ![chlimage_1-289](assets/chlimage_1-289.png)
 
@@ -150,8 +150,8 @@ For an enablement community, it is necessary to identify one or more Community E
 * **Enablement Managers** 
   (required) Members of the `Community Enablement Managers` group are available to be selected to manage this community site.
 
-    * type "s"
-    * select `Sirius Nilson`
+    * Type "s"
+    * Select `Sirius Nilson`
 
 * **Marketing Cloud Org Id** 
   (optional) The ID for an Adobe Analytics account which is necessary when including [Video Heartbeat Analytics](analytics.md#video-heartbeat-analytics) in the enablement reporting.
@@ -185,16 +185,16 @@ On selecting the ellipses icon (More Actions icon), Export Site and Delete Site 
 From left to right they are:
 
 * **Open Site** 
-  select the pencil icon to open the community site in author edit mode, to add and/or configure page components
+  Select the pencil icon to open the community site in author edit mode, to add and/or configure page components
 
 * **Edit Site** 
-  select the properties icon to open the community site for modification of properties, such as the title or to change the theme
+  Select the properties icon to open the community site for modification of properties, such as the title or to change the theme
 
 * **Publish Site** 
-  select the world icon to publish the community site (to localhost:4503 by default)
+  Select the world icon to publish the community site (to localhost:4503 by default)
 
 * **Export Site** 
-  select the export icon to create a package of the community site that is both stored in [package manager](../../help/sites-administering/package-manager.md) and downloaded.  
+  Select the export icon to create a package of the community site that is both stored in [package manager](../../help/sites-administering/package-manager.md) and downloaded.  
   
   Note that UGC is not included in the site package.
 
@@ -231,12 +231,12 @@ Using the Community Groups console, members can be added individually or added t
 
 In this example, the group `Community Ski Class` is added as a member of the group `Community Enable Members` as well as member `Quinn Harper`.
 
-* navigate to **Communities, Groups** console
-* select *Community Enable Members * group
-* enter 'ski' into the **Add Members To Group** search box
-* select *Community Ski Class* (group of learners)
-* enter 'quinn' into the search box
-* select *Quinn Harper* (enablement resource contact)
+* Navigate to **Communities, Groups** console
+* Select *Community Enable Members* group
+* Enter 'ski' into the **Add Members To Group** search box
+* Select *Community Ski Class* (group of learners)
+* Enter 'quinn' into the search box
+* Select *Quinn Harper* (enablement resource contact)
 
 * select **Save**
 
@@ -264,42 +264,42 @@ To do so requires using [CRX|DE](http://localhost:4503/crx/de) Lite to edit the 
 
 To get started
 
-1. on publish, access CRXDE and sign in with administrator privileges
+1. On publish, access CRXDE and sign in with administrator privileges
 
-    * for example, browse to [http://localhost:4503/crx/de](http://localhost:4503/crx/de) and login with `admin/admin`
+    * For example, browse to [http://localhost:4503/crx/de](http://localhost:4503/crx/de) and login with `admin/admin`
 
-1. in the project browser, expand `/etc/map`
-1. select the `http` node
+1. In the project browser, expand `/etc/map`
+1. Select the `http` node
 
-    * select **Create Node**
+    * Select **Create Node**
 
         * **Name** localhost.4503  
 
-          (do *not* use `:`)
+          (Do *not* use `:`)
 
         * **Type** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
 
-1. with newly created `localhost.4503` node selected
+1. With newly created `localhost.4503` node selected
 
-    * add property
+    * Add property
 
         * **Name** sling:match
         * **Type** String
         * **Value** localhost.4503/\$ 
 
-          (must end with '$' char)
+          (Must end with '$' char)
 
-    * add property
+    * Add property
 
         * **Name** sling:internalRedirect
         * **Type** String
         * **Value** /content/sites/enable/en.html
 
-1. select **Save All**
-1. (optional) delete the browsing history
-1. browse to http://localhost:4503/
+1. Select **Save All**
+1. (optional) Delete the browsing history
+1. Browse to http://localhost:4503/
 
-    * arrive at http://localhost:4503/content/sites/enable/en.html
+    * Arrive at http://localhost:4503/content/sites/enable/en.html
 
 >[!NOTE]
 >
@@ -346,7 +346,7 @@ Select the STRUCTURE panel to add a Catalog or modify an existing Catalog:
 * **URL**: `catalog`
 
 * **Select All Namespaces**: leave as default.
-* select **Save**
+* Select **Save**
 
 ![chlimage_1-299](assets/chlimage_1-299.png)
 

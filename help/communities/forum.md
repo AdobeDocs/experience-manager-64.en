@@ -11,23 +11,23 @@ content-type: reference
 discoiquuid: 3495f983-d71e-4704-be4e-8a42a63f72db
 ---
 
-# Forum Feature{#forum-feature}
+# Forum Feature {#forum-feature}
 
 ## Introduction {#introduction}
 
 The forum feature provides an area for signed-in site visitors (community members) in the publish environment to:
 
-* create new topics
-* view and reply to topics
-* follow a topic
-* search a forum
-* help moderate the forum content
-* move forum topics from one page to another
+* Create new topics
+* View and reply to topics
+* Follow a topic
+* Search a forum
+* Help moderate the forum content
+* Move forum topics from one page to another
 
 This section of the documentation describes
 
-* adding the forum feature to an AEM site
-* configuration settings for the `Forum`component
+* Adding the forum feature to an AEM site
+* Configuration settings for the `Forum`component
 
 ## Adding a Forum to a Page {#adding-a-forum-to-a-page}
 
@@ -35,7 +35,7 @@ To add a `Forum` component to a page in author mode, use the component browser t
 
 * `Communities / Forum`
 
-and drag it into place on a page where the forum should appear.
+And drag it into place on a page where the forum should appear.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -51,7 +51,7 @@ Select the placed `Forum` component to access and select the `Configure` icon wh
 
 ### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify settings for topics and replies:
+Under the **Settings** tab, specify settings for topics and replies:
 
 * **Topics Per Page** 
   Defines the number of topics/posts shown per page. Default is 10.
@@ -113,7 +113,7 @@ Under the **Settings **tab, specify settings for topics and replies:
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation **tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
+Under the **User Moderation** tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 * **Deny Posts** 
   If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is unchecked.
@@ -141,24 +141,24 @@ Under the **User Moderation **tab, specify how the posted topics and replies (us
 
 ### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings **tab, are limited according to namespaces chosen.
+Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
 
 * **Allowed Namespaces** 
-  Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
+  Relevant if `Allow Tagging` is checked under the **Settings** tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
 
 * **Suggestion Limit** 
-  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is **-**1 (no limits).
+  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is **-** 1 (no limits).
 
 ### Translation tab {#translation-tab}
 
-Under the **Translation **tab, if translation is enabled for the community site, translation may be set to translate the entire topic or selected posts.
+Under the **Translation** tab, if translation is enabled for the community site, translation may be set to translate the entire topic or selected posts.
 
 * **Translate All** 
   If checked, the forum thread is translated into the user's preferred language. Default is unchecked.
 
 ### Sort Settings tab {#sort-settings-tab}
 
-Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
+Under the **Sort Settings** tab, specify how the posted comments are sorted when displayed.
 
 * **Sort By** 
   Check all allowed sort selections: `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.

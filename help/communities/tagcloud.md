@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 23a5a65e-774d-4789-9659-09e8be0c2bcd
 ---
 
-# Using Social Tag Cloud{#using-social-tag-cloud}
+# Using Social Tag Cloud {#using-social-tag-cloud}
 
 ## Introduction {#introduction}
 
@@ -27,11 +27,7 @@ See [Administering Tags](../../help/sites-administering/tags.md) for information
 
 ## Adding a Social Tag Cloud {#adding-a-social-tag-cloud}
 
-To add a `Social Tag Cloud` component to a page in author mode, use the component browser to locate
-
-* `Communities / Social Tag Cloud`
-
-and drag it into place on a page where the tag cloud should appear.
+To add a `Social Tag Cloud` component to a page in author mode, use the component browser to locate `Communities / Social Tag Cloud` and drag it into place on a page where the tag cloud should appear.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -64,7 +60,7 @@ Under the **Social Tag Cloud** tab, specify which tags to display and, if the ta
   If checked, the tags are displayed in the tag cloud as plain text. If unchecked, the tags are displayed as active links which search on all content to which that tag is applied. Default is unchecked and requires the **Search Result Path** to be set.
 
 * **Search Result Path** 
-  The path to a page on which a `Search Result` component has been placed, configured to reference UGC which includes the UGC path specified by the **Page **setting.
+  The path to a page on which a `Search Result` component has been placed, configured to reference UGC which includes the UGC path specified by the **Page** setting.
 
 ## Change Display of Social Tag Cloud {#change-display-of-social-tag-cloud}
 
@@ -79,8 +75,8 @@ Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A t
 
   For example:
 
-    * checked: `Geometrixx Media: Gadgets / Cars`
-    * unchecked: `Cars`
+    * Checked: `Geometrixx Media: Gadgets / Cars`
+    * Unchecked: `Cars`
 
   There is no difference for a simple tag.
 
@@ -93,10 +89,10 @@ Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A t
 
   `Geometrixx Media: Gadgets / Cars` 
 
-  there are 3 tags which can be applied: `Geometrixx Media (the namespace)`, `Gadgets`, and `Cars`
+  There are 3 tags which can be applied: `Geometrixx Media (the namespace)`, `Gadgets`, and `Cars`
 
-    * checked: only `Cars` will display, if applied
-    * unchecked: `Geometrixx Media` and `Gadgets`as well as `Cars` will display, if applied
+    * Checked: only `Cars` will display, if applied
+    * Unchecked: `Geometrixx Media` and `Gadgets`as well as `Cars` will display, if applied
 
   A simple tag is a leaf tag. 
   

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 059c5bbe-07eb-4873-8157-2196df887b27
 ---
 
-# Forum Essentials{#forum-essentials}
+# Forum Essentials {#forum-essentials}
 
 This page provides the essential information for working with the forum feature.
 
@@ -41,7 +41,7 @@ This page provides the essential information for working with the forum feature.
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="forum.md">Forum Feature</a></td> 
+   <td>See <a href="forum.md">Forum Feature</a></td> 
   </tr>
  </tbody>
 </table>

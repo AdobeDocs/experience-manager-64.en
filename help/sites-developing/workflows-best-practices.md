@@ -86,7 +86,7 @@ Definitions of workflow models, launchers, scripts and notifications are held in
 
 >[!NOTE]
 >
->See also [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring-in-aem64.md).
+>See also [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md).
 
 #### Locations - Workflow Models {#locations-workflow-models}
 
@@ -314,7 +314,7 @@ When upgrading your instance:
 
 >[!NOTE]
 >
->See also [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring-in-aem64.md).
+>See also [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md).
 
 ## System Tools {#system-tools}
 

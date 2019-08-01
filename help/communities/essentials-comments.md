@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 18f54a1c-52aa-414d-b494-1f19b5c10345
 ---
 
-# Comments Essentials{#comments-essentials}
+# Comments Essentials {#comments-essentials}
 
 This page provides the essentials of working with the comment system (comments component) and options for managing the user generated content (UGC) produced when members post comments or replies.
 
@@ -43,7 +43,7 @@ The comments component establishes a comment system such that each individual po
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td> see <a href="comments.md">Using Comments</a></td> 
+   <td> See <a href="comments.md">Using Comments</a></td> 
   </tr>
  </tbody>
 </table>
@@ -90,8 +90,8 @@ As of AEM 6.1 Communities, use of a [common store](working-with-srp.md) for UGC 
 
 See:
 
-* [Storage Resource Provider Overview](srp.md) - introduction and repository usage overview
+* [Storage Resource Provider Overview](srp.md) - Introduction and repository usage overview
 * [SRP and UGC Essentials](srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - Coding guidelines
+* [SocialUtils Refactoring](socialutils.md) - Mapping deprecated utility methods to current SRP utility methods
 
