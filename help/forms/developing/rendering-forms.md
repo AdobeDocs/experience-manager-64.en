@@ -31,7 +31,7 @@ Depending upon the type of client application, you can write the form to a clien
   You can pass a form design (an XDP file) or a PDF document to the Forms service using one of two ways:
 
 * You can reference the form design using a URL value. This approach involves using a `URLSpec` object. The content root is passed to the Forms service using the `URLSpec` object’s `setContentRootURI` method. The Form design name ( `formQuery`) is passed as a separate parameter. The two values are concatenated to get the absolute reference to the form design. (Most of the quick starts located in the *Rendering Forms* section use this approach.)
-* You can pass a `com.adobe.idp.Document` that contains the form design to the Forms service. Two new methods named `renderPDFForm2` and `renderHTMLForm2` accept a `com.adobe.idp.Document` object that contains a form design. (See [Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md.)
+* You can pass a `com.adobe.idp.Document` that contains the form design to the Forms service. Two new methods named `renderPDFForm2` and `renderHTMLForm2` accept a `com.adobe.idp.Document` object that contains a form design. (See [Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md)
 
 You can accomplish these tasks using the Forms service:
 
@@ -44,7 +44,7 @@ You can accomplish these tasks using the Forms service:
 * Handle submitted forms. (See [Handling Submitted Forms](/help/forms/developing/handling-submitted-forms.md).)
 * Creating PDF Documents with Submitted XML Data. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/creating-pdf-documents-submitted-xml.md).)
 * Prepopulate forms. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/prepopulating-forms-flowable-layouts.md).)
-* Passing Documents. (See [Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md.)
+* Passing Documents. (See [Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md)
 * Calculate form data. (See [Calculating Form Data](/help/forms/developing/calculating-form-data.md).)
 * Optimize an application. (See [Optimizing the Performance of the Forms Service](/help/forms/developing/optimizing-performance-forms-service.md).)
 
