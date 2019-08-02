@@ -25,14 +25,14 @@ Then, configure WebLogic so that it uses the Custom Identity keystore and Custom
 The keytool command is typically located in the Java jre/bin directory and must include several options and option values, which are listed in the following table.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Keytool option</p></th> 
    <th><p>Description</p></th> 
    <th><p>Option value</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>-alias</p></td> 
    <td><p>The alias of the keystore.</p></td> 

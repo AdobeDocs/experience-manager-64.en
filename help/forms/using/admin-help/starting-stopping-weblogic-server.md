@@ -16,13 +16,13 @@ discoiquuid: c908d064-6596-473a-b218-22a2496c83f7
 Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. Ensure that WebLogic Server is stopped or running, depending on the task you are performing.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Activity</p></th> 
    <th><p>Required WebLogic state</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>Creating a WebLogic domain</p></td> 
    <td><p>Stopped</p></td> 

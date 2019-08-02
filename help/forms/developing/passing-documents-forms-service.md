@@ -14,8 +14,6 @@ discoiquuid: e23de3c3-f8a0-459f-801e-a0942fb1c6aa
 
 # Passing Documents to the Forms Service {#passing-documents-to-the-formsservice}
 
-## Passing Documents to the Forms Service {#passing-documents-to-the-forms-service}
-
 The AEM Forms service renders interactive PDF forms to client devices, typically web browsers, to collect information from users. An interactive PDF form is based on a form design that is typically saved as an XDP file and created in Designer. As of AEM Forms, you can pass a `com.adobe.idp.Document` object that contains the form design to the Forms service. The Forms service then renders the form design located in the `com.adobe.idp.Document` object.
 
 An advantage of passing a `com.adobe.idp.Document` object to the Forms service is that other service operations return a `com.adobe.idp.Document` instance. That is, you can get a `com.adobe.idp.Document` instance from another service operation and render it. For example, assume that an XDP file is stored in a Content Services (deprecated) node named `/Company Home/Form Designs`, as shown in the following illustration.
@@ -26,7 +24,7 @@ You can programmatically retrieve Loan.xdp from Content Services (deprecated) (d
 >
 >For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
-### Summary of steps {#summary-of-steps}
+## Summary of steps {#summary-of-steps}
 
 To pass a document obtained from Content Services (deprecated) (deprecated) to the Forms service, perform the following tasks:
 
@@ -68,7 +66,7 @@ Depending on the type of client application, you can write the form to a client 
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-### Pass documents to the Forms Service using the Java API {#pass-documents-to-the-forms-service-using-the-java-api}
+## Pass documents to the Forms Service using the Java API {#pass-documents-to-the-forms-service-using-the-java-api}
 
 Pass a document obtained from Content Services (deprecated) by using the Forms service and Content Services (deprecated) API (Java):
 
@@ -122,7 +120,7 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-### Pass documents to the Forms Service using the web service API {#pass-documents-to-the-forms-service-using-the-web-service-api}
+## Pass documents to the Forms Service using the web service API {#pass-documents-to-the-forms-service-using-the-web-service-api}
 
 Pass a document obtained from Content Services (deprecated) by using the Forms service and Content Services (deprecated) API (web service):
 
@@ -191,6 +189,6 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
     * Create a `System.IO.BinaryWriter` object by invoking its constructor and passing the `System.IO.FileStream` object.
     * Write the contents of the byte array to a PDF file by invoking the `System.IO.BinaryWriter` object’s `Write` method and passing the byte array.
 
-**See also**
+**See also** 
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

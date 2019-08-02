@@ -16,14 +16,14 @@ discoiquuid: b8f8bddc-0d38-4d5e-b33f-978f04bc16c6
 Collecting the system statistics that populate Health Monitor has some impact on the performance of your AEM forms environment. This impact can be controlled by setting the Java options listed below in your application server.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Property</p></th> 
    <th><p>Purpose</p></th> 
    <th><p>Default value</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>adobe.healthmonitor.enabled</p></td> 
    <td><p>Turn on or off Health Monitor thread</p></td> 

@@ -516,13 +516,13 @@ The following illustration shows the ASP.NET application
 The following table lists the controls that are part of this ASP.NET application. 
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Control name</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>TextBoxName</p></td> 
    <td><p>Specifies the customer’s first and last name. </p></td> 
