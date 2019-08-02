@@ -14,8 +14,6 @@ discoiquuid: ddbb2b82-4c57-4845-a5be-2435902d312b
 
 # Rendering Forms By Value {#rendering-forms-by-value}
 
-## Rendering Forms by Value {#rendering-forms-by-value}
-
 Typically, a form design that is created in Designer is passed by reference to the Forms service. Form designs can be large and, as a result, it is more efficient to pass them by reference to avoid having to marshal form design bytes by value. The Forms service can also cache the form design so that when cached, it does not have to continually read the form design.
 
 If a form design contains a UUID attribute, then it is cached. The UUID value is unique for all form designs and is used to uniquely identify a form. When rendering a form by value, the form should only be cached when it is used repeatedly. However, if the form is not used repeatedly and has to be unique, you can avoid caching the form using caching options that are set using the AEM Forms API.
@@ -40,7 +38,7 @@ The following limitations apply when a form design is passed by value:
 >
 >For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
-### Summary of steps {#summary-of-steps}
+## Summary of steps {#summary-of-steps}
 
 To render a form by value, perform the following steps:
 
@@ -90,11 +88,11 @@ When the Forms service renders a form by value, it returns a form data stream th
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service)
+[Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md)
 
 [Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
-### Render a form by value using the Java API {#render-a-form-by-value-using-the-java-api}
+## Render a form by value using the Java API {#render-a-form-by-value-using-the-java-api}
 
 Render a form by value using the Forms API (Java):
 
@@ -145,7 +143,7 @@ Render a form by value using the Forms API (Java):
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-### Render a form by value using the web service API {#render-a-form-by-value-using-the-web-service-api}
+## Render a form by value using the web service API {#render-a-form-by-value-using-the-web-service-api}
 
 Render a form by value by using the Forms API (web service):
 

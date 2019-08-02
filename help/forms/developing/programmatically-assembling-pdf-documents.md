@@ -113,14 +113,14 @@ The Assembler service returns a `java.util.Map` object, which can be obtained fr
 The following table summarizes some of the key values and object types that can be located in the returned `java.util.Map` object. 
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Key value</p></th> 
    <th><p>Object type</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p><code><i>documentName</i></code></p></td> 
    <td><p><code>com.adobe.idp.Document</code></p></td> 

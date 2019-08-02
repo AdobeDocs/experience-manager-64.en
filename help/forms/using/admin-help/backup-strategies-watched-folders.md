@@ -38,7 +38,7 @@ This content describes the watched folder file manipulation process. It is impor
 The following table describes the file manipulation of five sample files (file1, file2, file3, file4, file5) throughout the process. In the table, the x axis represents time, such as Time 1 or T1, and the y axis represents folders within the watched folder hierarchy, such as Input.
 
 <table>
- <thead align="left">
+ <thead>
   <tr>
    <th><p>Folder</p></th> 
    <th><p>T1</p></th> 

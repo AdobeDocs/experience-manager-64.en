@@ -891,7 +891,7 @@ The Customer service exposes an operation named `createCustomer`. This discussio
 The following table lists the controls that are part of this client application. 
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Control name</p></th> 
    <th><p>Description</p></th> 

@@ -43,7 +43,7 @@ The string contains the following elements:
 The following table lists the certificate profiles that you may encounter when analyzing Acrobat Reader DC extensions certificates.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Profile code</p></th> 
    <th><p>Type</p></th> 
@@ -51,7 +51,7 @@ The following table lists the certificate profiles that you may encounter when a
    <th><p>Deployment type</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>P1</p></td> 
    <td><p>SAP Production</p></td> 
@@ -158,13 +158,13 @@ If online commenting is required in a non-collaborative environment, contact Ado
 The permitted Acrobat Reader DC extensions usage rights consist of one or more specific elements. These elements are used in different combinations to achieve varieties of licensed product functionality. 
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Usage rights element</p></th> 
    <th><p>Capability enabled in Adobe Reader when viewing a rights-enabled PDF document</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>FormFillInAndSave</p></td> 
    <td><p>Fill in form fields and save files locally.</p></td> 
