@@ -280,10 +280,9 @@ You can add custom MIME types for unsupported formats in AEM Assets. To ensure t
 
 1. Type `false` in the field (or select `false` from the drop-down list).
 
-
+    ![falsevaluefield](help/assets/assets/2019-08-02_16-60-30.png)
 
 1. Near the upper-left corner of the CRXDE Lite page, click **[UICONTROL Save All]**.
-
 
 
 #### Creating batch set presets to auto-generate Image Sets and Spin Sets {#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets}
