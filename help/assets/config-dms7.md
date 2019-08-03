@@ -137,6 +137,7 @@ Setup and configuration tasks include the following:
 * [Configuring application general settings](#configuring-application-general-settings)
 * [Configuring color management](#configuring-color-management)
 * [Configuring asset processing](#configuring-asset-processing)
+* [Adding custom MIME types for unsupported formats](#adding-custom-mime-types-for-unsupported-formats)
 * [Creating batch set presets to auto-generate Image Sets and Spin Sets](#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets)
 
 #### Publishing setup for Image Server {#publishing-setup-for-image-server}
@@ -242,6 +243,48 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
     * On the menu bar of the CRXDE Lite page, tap **[!UICONTROL Save All]**.
 
 1. In the upper-left corner of the page, tap **[!UICONTROL CRXDE Lite]** to return to AEM.
+
+#### Adding custom MIME types for unsupported formats {#adding-custom-mime-types-for-unsupported-formats}
+
+You can add custom MIME types for unsupported formats in AEM Assets. To ensure that any new node you add in CRXDE Lite is not deleted by AEM, you must ensure that you move the MIME type before **[UICONTROL image_]** and its enabled value is set to **[UICONTROL false]**.
+
+**To add custom MIME types for unsupported formats**:
+
+1. From AEM, click **[UICONTROL Tools > Operations > Web Console]**.
+
+1. A new browser tab opens to the **[UICONTROL Adobe Experience Manager Web Console Configuration]** page.
+
+1. On the page, scroll down to the name **[UICONTROL Adobe CQ Scene7 Asset MIME type Service]**. To the right of the name, tap **[UICONTROL Edit the configuration values]** (pencil icon).
+
+1. On the Adobe CQ Scene7 Asset MIME type Service page, click any plus sign icon <+>. The location in the table where you click the plus sign to add the new mime type is trivial.
+
+1. Type `DWG=image/vnd.dwg` in the empty text field that you just added.
+
+    Note that the example `DWG=image/vnd.dwg` is for illustration purposes only. The MIME type that you add here can be any other unsupported format.
+
+1. In the lower-right corner of the page, click **[UICONTROL Save]**.
+
+    At this point, you can close the browser tab that has the open Adobe Experience Manager Web Console Configuration page.
+
+1. Return to the browser tab that has your open AEM console.
+
+1. From AEM, click **[UICONTROL Tools > General > CRXDE Lite]**.
+
+1. In the left rail, navigate to the following:
+
+    `conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`
+
+1. Drag the mime type `image_vnd.dwg` and drop it directly above `image_` in the tree.
+
+1. With the mime type `image_vnd.dwg` still selected in the tree, from the **[UICONTROL Properties]** tab, in the **[UICONTROL enabled]** row, under the **[UICONTROL Value]** column header, double-click the value to open the **[UICONTROL Value]** drop-down list.
+
+1. Type `false` in the field (or select `false` from the drop-down list).
+
+
+
+1. Near the upper-left corner of the CRXDE Lite page, click **[UICONTROL Save All]**.
+
+
 
 #### Creating batch set presets to auto-generate Image Sets and Spin Sets {#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets}
 
