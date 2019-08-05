@@ -2615,7 +2615,7 @@ The following Java quick start renders an interactive PDF form that is based on 
 
 ## Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API {#quick-start-soap-mode-passing-documents-to-the-forms-service-using-the-java-api}
 
-The following Java quick start retrieves the file Loan.xdp from Content Services (deprecated). This XDP file is located in the space `/Company Home/Form Designs`. The XDP file is returned in a `com.adobe.idp.Document` instance. The `com.adobe.idp.Document` instance is passed to the Forms service. The interactive form is written to a client web browser. (See [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service).)
+The following Java quick start retrieves the file Loan.xdp from Content Services (deprecated). This XDP file is located in the space `/Company Home/Form Designs`. The XDP file is returned in a `com.adobe.idp.Document` instance. The `com.adobe.idp.Document` instance is passed to the Forms service. The interactive form is written to a client web browser. (See [Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md).)
 
 ```as3
  /* 

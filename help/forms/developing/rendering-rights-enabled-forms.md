@@ -14,8 +14,6 @@ discoiquuid: d4c2b2f0-613a-409d-b39b-8e37fdb96eea
 
 # Rendering Rights-Enabled Forms {#rendering-rights-enabled-forms}
 
-## Rendering Rights- Enabled Forms {#rendering-rights-enabled-forms}
-
 The Forms service can render forms that have usage rights applied to them. Usage rights pertain to functionality that is available by default in Acrobat but not in Adobe Reader, such as the ability to add comments to a form or to fill in form fields and save the form. Forms that have usage rights applied to them are called rights-enabled forms. A user who opens a rights-enabled form in Adobe Reader can perform operations that are enabled for that form.
 
 In order to apply usage rights to a form, the Acrobat Reader DC extensions service must be part of your AEM forms installation. Also, you must have a valid credential that enables you to apply usage rights to PDF documents. That is, you must properly configure the Acrobat Reader DC extensions service before you can render a rights-enabled form. (See [About the Acrobat Reader DC extensions Service](/help/forms/developing/assigning-usage-rights.md#about-the-acrobat-reader-dc-extensions-service).)
@@ -32,7 +30,7 @@ In order to apply usage rights to a form, the Acrobat Reader DC extensions servi
 >
 >For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
-### Summary of steps {#summary-of-steps}
+## Summary of steps {#summary-of-steps}
 
 To render a rights-enabled form, perform the following tasks:
 
@@ -82,7 +80,7 @@ When the Forms service renders a rights-enabled form, it returns a form data str
 
 [Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
-#### Render rights-enabled forms using the Java API {#render-rights-enabled-forms-using-the-java-api}
+### Render rights-enabled forms using the Java API {#render-rights-enabled-forms-using-the-java-api}
 
 Render a rights-enabled form by using the Forms API (Java):
 
@@ -135,7 +133,7 @@ Render a rights-enabled form by using the Forms API (Java):
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-### Render rights-enabled forms using the web service API {#render-rights-enabled-forms-using-the-web-service-api}
+## Render rights-enabled forms using the web service API {#render-rights-enabled-forms-using-the-web-service-api}
 
 Render a rights-enabled form by using the Forms API (web service):
 

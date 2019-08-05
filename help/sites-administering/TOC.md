@@ -26,6 +26,7 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Language Copy Wizard](tc-wizard.md)
     + [Translation Enhancements](tc-enhancements.md)
     + [Translation Best Practices](tc-bp.md)
+    + [AEM FAQs](aem-faqs.md)
 + Operations {#operations}
     + [Dashboards](dashboards.md)
     + [Operations Dashboard](operations-dashboard.md)
@@ -81,6 +82,7 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Service Users in AEM](security-service-users.md)
     + [Encryption Support for Configuration Properties](encryption-support-for-configuration-properties.md)
     + [Handling GDPR Requests for the AEM Foundation](handling-gdpr-requests-for-aem-platform.md)
+    + [Content Disposition Filter](content-disposition-filter.md)
 + Personalization {#personalization}
     + [Personalization](personalization.md)
     + [Configuring ContextHub](contexthub-config.md)
@@ -160,6 +162,3 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Classic UI Tagging Console](classic-console.md)
     + [Content Management for Screens](content-management-screens.md)
     + [WebDAV Access](webdav-access.md)
-+ Deleted section Remove duplicates and move others to sections above {#deleted}
-    + [AEM FAQs](aem-faqs.md)
-    + [Content Disposition Filter](content-disposition-filter.md)

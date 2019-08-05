@@ -18,7 +18,7 @@ Forms workflow lets users design, manage, and optimize human-centric processes. 
 On each Forms workflow page in administration console, you can perform a different set of tasks, as outlined in this table.
 
 <table>
- <thead align="left">
+ <thead>
   <tr>
    <th><p>Page</p></th> 
    <th><p>Tasks</p></th> 
