@@ -71,13 +71,13 @@ To add a clientlib for a community site using [CRXDE Lite](../../help/sites-deve
     * Select its `Value` to access the String array dialog
 
         * Scroll down if necessary
-        * Select + to enter a new client library
+        * Select `+` to enter a new client library
 
             * Repeat to add more client libraries
 
-        * Select **OK**
+        * Select **[!UICONTROL OK]**
 
-    * Select **Save All**
+    * Select **[!UICONTROL Save All]**
 
 >[!NOTE]
 >

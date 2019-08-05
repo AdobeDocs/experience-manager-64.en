@@ -29,10 +29,10 @@ The Community Components site is accessed by browsing to
 
 Interactions with the Communities components will vary depending on:
 
-* the server (author or publish)
-* whether or not the site visitor is signed in
-* if signed in, the privileges assigned to the member
-* whether or not the default SRP, [JSRP](jsrp.md), is in use
+* The server (author or publish)
+* Whether or not the site visitor is signed in
+* If signed in, the privileges assigned to the member
+* Whether or not the default SRP, [JSRP](jsrp.md), is in use
 
 On author, to enter edit mode, insert either `editor.html` or `cf#` as the first path segment after the server name:
 
@@ -126,7 +126,7 @@ For more information, visit [Clientlibs for Communities Components](clientlibs.m
 
 ## Impersonation {#impersonation}
 
-On the author instance, where one is often signed in as an administrator or developer, in order to experience the component logged in as another user, use the text box to the left of the **Impersonate** button to either type in the username or select from the pull down list, and then click the button. Click Revert to signout and end the impersonation.
+On the author instance, where one is often signed in as an administrator or developer, in order to experience the component logged in as another user, use the text box to the left of the **[!UICONTROL Impersonate]** button to either type in the username or select from the pull down list, and then click the button. Click Revert to signout and end the impersonation.
 
 The publish instance does not need to impersonate. Simply use the Login/Logout link to impersonate various users, such as the [demo users](tutorials.md#demo-users).
 
@@ -154,11 +154,11 @@ Using the comments component as an example, on either the author or publish inst
 
 1. Add a property
 
-    * **Name** scg:showIde
-    * **Type** String
-    * **Value** true
+    * **Name** `scg:showIde`
+    * **Type** `String`
+    * **Value** `true`
 
-1. Select **Save All**
+1. Select **[!UICONTROL Save All]**
 1. Reload the Comments page in the guide 
    
    [http://localhost:4503/content/community-components/en/comments.html](http://localhost:4503/content/community-components/en/comments.html)
