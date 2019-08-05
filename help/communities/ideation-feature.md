@@ -45,7 +45,7 @@ Select the placed `Ideation` component to access and select the `Configure` icon
 
 ### Settings tab {#settings-tab}
 
-Under the **Settings** tab, specify settings for ideas and comments:
+Under the **[!UICONTROL Settings]** tab, specify settings for ideas and comments:
 
 * **Ideation Title** 
   The display title for the idea. Default is `Ideation`.
@@ -103,7 +103,7 @@ Under the **Settings** tab, specify settings for ideas and comments:
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation** tab, specify how the posted ideas and comments (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
+Under the **[!UICONTROL User Moderation]** tab, specify how the posted ideas and comments (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 * **Deny Posts** 
   If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is unchecked.
@@ -128,7 +128,7 @@ Under the **User Moderation** tab, specify how the posted ideas and comments (us
 
 ### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
+Under the **[!UICONTROL Tag field]** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
 
 * **Allowed Namespaces** 
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
@@ -138,7 +138,7 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 
 ### Sort Settings tab {#sort-settings-tab}
 
-Under the **Sort Settings** tab, specify how the posted comments are sorted when displayed.
+Under the **[!UICONTROL Sort Settings]** tab, specify how the posted comments are sorted when displayed.
 
 * **Sort By** 
   Check all allowed sort selections: `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
