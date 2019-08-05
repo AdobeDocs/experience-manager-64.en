@@ -150,15 +150,15 @@ If not enabled, the video heartbeat code is never instantiated and only the vide
 
 To create a new Analytics Integration, which integrates Adobe Analytics with the AEM community site, using the standard UI on the author instance:
 
-* From global navigation: **Tools, Deployment, Cloud Services**
-* Scroll down to **Adobe Analytics**
-* Select either **Configure Now** or **Show Configurations**
+* From global navigation: **[!UICONTROL Tools > Deployment > Cloud Services]**
+* Scroll down to **[!UICONTROL Adobe Analytics]**
+* Select either **[!UICONTROL Configure Now]** or **[!UICONTROL Show Configurations]**
 
 ![chlimage_1-265](assets/chlimage_1-265.png) 
 
 ### Create Configuration Dialog {#create-configuration-dialog}
 
-* Select **[+]** icon next to **Available Configurations** to create a new configuration
+* Select `[+]` icon next to **[!UICONTROL Available Configurations]** to create a new configuration
 
 On the Create Configuration dialog, the values to be entered identify the configuration.
 
@@ -166,13 +166,13 @@ On the Create Configuration dialog, the values to be entered identify the config
 
 * **Title**
 
-  (required) A display title for the configuration.  
+  (Required) A display title for the configuration.  
 
   For example, enter *Enablement Community Analytics*
 
 * **Name**
 
-  (optional) If not specified, the name will default to a valid node name derived from the title.  
+  (Optional) If not specified, the name will default to a valid node name derived from the title.  
 
   For example, enter *communities*
 
@@ -181,8 +181,8 @@ On the Create Configuration dialog, the values to be entered identify the config
 
   Select `Adobe Analytics Configuration`
 
-* Select **Create**
-  * launches configuration page and opens `Analytics Settings` dialog
+* Select **[!UICONTROL Create]**
+  * Launches configuration page and opens `Analytics Settings` dialog
 
 ### Analytics Settings Dialog {#analytics-settings-dialog}
 
@@ -225,7 +225,7 @@ The initial creation of a new Analytics configuration results in the display of 
 To save the settings:
 
 
-* Select **Connect to Analytics**
+* Select **[!UICONTROL Connect to Analytics]**
 
     * If not successful,
 
@@ -233,7 +233,7 @@ To save the settings:
         * Try a different data center
         * Contact your account representative
 
-* Select **OK**
+* Select **[!UICONTROL OK]**
 
 
 ![chlimage_1-268](assets/chlimage_1-268.png)
@@ -242,27 +242,27 @@ To save the settings:
 
 After successful configuration of the basic connection to Adobe Analytics, it is necessary to create or edit a framework for the community site. The purpose of the framework is to map Communities feature (AEM) variables to Analytics (report suite) variables.
 
-* Select `[+]` icon next to **Available Frameworks** to create a new framework
+* Select `[+]` icon next to **[!UICONTROL Available Frameworks]** to create a new framework
 
 ![chlimage_1-269](assets/chlimage_1-269.png)
 
 * **Title**
 
-  (required) A display title for the framework  
+  (Required) A display title for the framework  
   
   For example, enter *Enablement Community Framework*
 
 * **Name**
 
-  (optional) If not specified, the name will default to a valid node name derived from the title.  
+  (Optional) If not specified, the name will default to a valid node name derived from the title.  
 
   For example, enter *communities*
 
-* *Template*
+* **Template**
 
   Select `Adobe Analytics Framework`
 
-* Select **Create**
+* Select **[!UICONTROL Create]**
 
 Creating the Analytics Framework opens the framework for configuration.
 
@@ -285,11 +285,11 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
 
 ![chlimage_1-271](assets/chlimage_1-271.png)
 
-1. Select **Add Item +** two drop down boxes appear
+1. Select **[!UICONTROL Add Item +]** two drop down boxes appear
 1. Choose a `Report suite` the report suites associated with the Company account should be available for selection
-1. Select **Yes** in the dialog that opens: ```Load default server settings? Do you want to load the default server settings and overwrite current values in the Server section?```
+1. Select **[!UICONTROL Yes]** in the dialog that opens: ```Load default server settings? Do you want to load the default server settings and overwrite current values in the Server section?```
 1. Choose a `Run Mode`  
-   Choose **publish**
+   Choose **[!UICONTROL publish]**
 
 ![chlimage_1-272](assets/chlimage_1-272.png)
 
@@ -305,7 +305,7 @@ To add the Analytics cloud service while [creating a new community site](sites-c
 * In step 3
 * Under the [ANALYTICS tab](sites-console.md#analytics):
 
-    * Check the **Enable Analytics** checkbox
+    * Check the **[!UICONTROL Enable Analytics]** checkbox
     * Choose the framework from the drop-down box
 
 * Optionally, return to the Analytics framework configuration to adjust the variable mappings.
@@ -315,12 +315,12 @@ To add the Analytics cloud service while [creating a new community site](sites-c
 To add the Analytics cloud service to an [existing community site](sites-console.md#modifying-site-properties):
 
 
-* Navigate to the **Communities, Sites** console
+* Navigate to the **[!UICONTROL Communities > Sites]** console
 * Select the community site's Edit Site icon
 * Select the SETTINGS
 * In the Analytics section:
 
-    * Check the **Enable Analytics** checkbox
+    * Check the **[!UICONTROL Enable Analytics]** checkbox
     * Choose the framework from the drop-down box
 
 
@@ -394,16 +394,16 @@ Following is an example of default mappings after following the [getting started
 
 **Examples for eVar values:**
 
-* * [MIME type](https://www.iana.org/assignments/media-types): video/mp4
-* * [community site title](sites-console.md#step13asitetemplate): Geometrixx Communities
-* * [community function name](functions.md): Forum
-* * [community group name](creating-groups.md#creating-a-new-group): Hiking
-* * path to community group content: /content/sites/communities/en/groups/hiking
-* * [UGC component resourceType](essentials.md): social/forum/components/hbs/topic
-* * UGC component title: Hiking Topics
-* * login (authorizableId): aaron.mcdonald@mailinator.com
-* * SRP path to UGC: /content/usergenerated/asi/.../forum/jmtz-topic3 or *path of component to follow*: /content/sites/communities/en/jcr:content/content/primary/forum
-* * path to community site content: /content/sites/community/en
+* [MIME type](https://www.iana.org/assignments/media-types): video/mp4
+* [Community site title](sites-console.md#step13asitetemplate): Geometrixx Communities
+* [Community function name](functions.md): Forum
+* [Community group name](creating-groups.md#creating-a-new-group): Hiking
+* Path to community group content: /content/sites/communities/en/groups/hiking
+* [UGC component resourceType](essentials.md): social/forum/components/hbs/topic
+* UGC component title: Hiking Topics
+* Login (authorizable Id): aaron.mcdonald@mailinator.com
+* SRP path to UGC: /content/usergenerated/asi/.../forum/jmtz-topic3 or *path of component to follow*: /content/sites/communities/en/jcr:content/content/primary/forum
+* Path to community site content: /content/sites/community/en
 
 ### Modifying Analytics Variable Mapping {#modifying-analytics-variable-mapping}
 
@@ -509,11 +509,11 @@ The forum topic is presently the only example of this customization:
 
 * On the primary publisher
 * Sign in with administrative privileges
-* navigate to [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md)
+* Navigate to [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md)
 
     * For example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
 
-* Under the jcr:content node of the language root
+* Under the `jcr:content` node of the language root
 
     * For example, `/content/sites/engage/en/jcr:content`
 
