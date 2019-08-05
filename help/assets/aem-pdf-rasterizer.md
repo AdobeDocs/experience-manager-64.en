@@ -19,13 +19,13 @@ Sometimes, when you upload large, content-intensive PDF or AI files to Adobe Exp
 
 Adobe recommends using the PDF Rasterizer library for the following:
 
-* Heavy, content intensive AI/PDF files
-* AI/PDF files with thumbnails not generated out of the box
-* AI files with Pantone Matching System (PMS) colors
+* Heavy, content intensive AI/PDF files.
+* AI/PDF files with thumbnails not generated out of the box.
+* AI files with Pantone Matching System (PMS) colors.
 
 Thumbnails and previews generated using PDF Rasterizer are better in quality compared to out-of-the-box output and, therefore, provide consistent viewing experience across devices. The Adobe PDF Rasterizer library does not support any color space conversion. It always outputs to RGB irrespective of the color space of the source file.
 
-1. Install the PDF Rasterizer package on your AEM instance from [Package Share](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/day/packages/cq640/product/assets/aem-assets-pdf-rasterizer-pkg).
+1. Install the PDF Rasterizer package on your AEM instance from [Package Share](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/product/assets/aem-assets-pdf-rasterizer-pkg).
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 1. From the side panel, drag the the PDF Rasterizer Handler step under the **[!UICONTROL Create Web-Enabled Image Rendition]** step.
 1. Configure the following arguments for the **[!UICONTROL PDF Rasterizer Handler]** step:
 
-    * Mime Types: *application/pdf* or *application/postscript*
+    * Mime Types: `application/pdf` or `application/postscript`
     * Commands: `PDFRasterizer -d -p 1 -s 1280 -t PNG -i ${file}`
     * Add Thumbnail sizes: 319:319, 140:100, 48:48. Add custom thumbnail configuration, if necessary.
 
@@ -90,7 +90,7 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 
    **-d**: Flag to enable smooth rendering of text, vector artwork, and images. Creates better quality images. However, including this parameter causes the command to run slowly and increase the size of images.
 
-   **-p**: Page number. Default value is all pages. '*' denotes all pages.
+   **-p**: Page number. Default value is all pages. An asterisk `*` denotes all pages.
 
    **-s**: Maximum image dimension (height or width). This is converted to DPI for each page. If pages are of different size, each page can potentially scale by different amount. The default is actual page size.
 
@@ -111,4 +111,3 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 
 1. Save the workflow.
 1. Upload a PDF or AI file to AEM Assets. PDF Rasterizer generates the thumbnails and web renditions for the file.
-

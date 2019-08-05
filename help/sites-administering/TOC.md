@@ -26,6 +26,7 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Language Copy Wizard](tc-wizard.md)
     + [Translation Enhancements](tc-enhancements.md)
     + [Translation Best Practices](tc-bp.md)
+    + [AEM FAQs](aem-faqs.md)
 + Operations {#operations}
     + [Dashboards](dashboards.md)
     + [Operations Dashboard](operations-dashboard.md)
@@ -161,5 +162,3 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Classic UI Tagging Console](classic-console.md)
     + [Content Management for Screens](content-management-screens.md)
     + [WebDAV Access](webdav-access.md)
-+ Deleted section Remove duplicates and move others to sections above {#deleted}
-    + [AEM FAQs](aem-faqs.md)
