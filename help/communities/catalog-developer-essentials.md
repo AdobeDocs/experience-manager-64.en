@@ -47,7 +47,7 @@ See [Tagging Enablement Resources](tag-resources.md).
   </tr> 
   <tr> 
    <td><strong> properties</strong></td> 
-   <td>see <a href="catalog.md">Catalog Feature</a></td> 
+   <td>See <a href="catalog.md">Catalog Feature</a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,12 +76,12 @@ Using the example of the [Enablement Tutorial](getting-started-enablement.md):
 * Add a child filters node
 
     * Select the `catalog`node
-    * Select **Create Node**
+    * Select **[!UICONTROL Create Node]**
 
         * Name: `filters`
         * Type: `nt:unstructured`
 
-    * Select **Save All**
+    * Select **[!UICONTROL Save All]**
 
 * Add `se_resource-tags` property to the `filters` node
 
@@ -91,10 +91,10 @@ Using the example of the [Enablement Tutorial](getting-started-enablement.md):
         * Name: `se_resource-tags`
         * Type: String
         * Value: *&lt;enter a [TagID](#pre-filter-tagids)&gt;*
-        * Select **Multi**
-        * Select **Add**
+        * Select **[!UICONTROL Multi]**
+        * Select **[!UICONTROL Add]**
 
-            * In popup dialog, select '+' to add additional pre-filter TagIDs
+            * In popup dialog, select `+` to add additional pre-filter TagIDs
 
 * Re-publish the community site
 

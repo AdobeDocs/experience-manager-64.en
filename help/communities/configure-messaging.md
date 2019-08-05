@@ -19,13 +19,13 @@ This feature may be included when a [community site](overview.md#communitiessite
 
 The messaging features provides the ability to:
 
-* send a message to one or more community members
-* send a message to a community member group
-* send a message with attachments
-* forward a message
-* reply to a message
-* delete a message
-* restore a deleted message
+* Send a message to one or more community members
+* Send a message to a community member group
+* Send a message with attachments
+* Forward a message
+* Reply to a message
+* Delete a message
+* Restore a deleted message
 
 In order to enable and modify the messaging feature, visit
 
@@ -44,7 +44,7 @@ When messaging is enabled for a community site, it is completely setup with no f
 
 In order to modify the configuration of the list of messages for **Inbox**, **Sent Items**, and **Trash** pages of the messaging feature, open the site in [author edit mode](sites-console.md#authoring-site-content).
 
-In `Preview`mode, select the **Messages** link to open the main messaging page. Then select either **Inbox**, **Sent Items** or **Trash** in order to configure the component for that message list.
+In `Preview` mode, select the **[!UICONTROL Messages]** link to open the main messaging page. Then select either **[!UICONTROL Inbox, Sent Items, or Trash]** in order to configure the component for that message list.
 
 In `Edit` mode, select the component on the page.
 

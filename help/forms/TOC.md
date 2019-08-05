@@ -11,9 +11,9 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [New features summary](using/whats-new.md)
 + Getting Started {#getting-started}
   + [Introduction to AEM Forms](using/introduction-aem-forms.md)
-  + [Introduction to managing forms](using/introduction-managing-forms.md)
   + [Introduction to authoring adaptive forms](using/introduction-forms-authoring.md)
   + [Introduction to Interactive Communications](using/interactive-communications-overview.md)
+  + [Introduction to managing forms](using/introduction-managing-forms.md)
   + Tutorial: Create your First Adaptive Form {#create-first-adaptive-form}
     + [Tutorial: Create your first adaptive form](using/create-your-first-adaptive-form.md)
     + [Tutorial: Create an adaptive form](using/create-adaptive-form.md)
@@ -64,13 +64,13 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Configuring the Connector for Microsoft SharePoint](http://help.adobe.com/en_US/AEMForms/6.1/SharePointConfig/index.html)
     + [Connecting AEM Forms with Adobe LiveCycle](using/aem-livecycle-connector.md)
     + [Configuring AEM Forms to submit form data to an AEM Forms on JEE process](using/submit-form-data-livecycle-process.md)
-+ Upgrade {#upgrade-aem-forms}  
++ Upgrade AEM Forms {#upgrade-aem-forms}  
   + [Available upgrade paths](using/upgrade.md)  
-  + Upgrade to AEM Forms on OSGi {#aem-forms-osgi-upgrade}
+  + Upgrade AEM Forms on OSGi {#aem-forms-osgi-upgrade}
     + [Upgrade to AEM 6.4 forms on OSGi](using/upgrade-forms-osgi.md)
     + [Install Compatibility Package](using/compatibility-package.md)
     + [Migrate AEM Forms assets and documents](using/migration-utility.md)  
-  + Upgrade to AEM Forms on JEE {#aem-forms-jee-upgrade}  
+  + Upgrade AEM Forms on JEE {#aem-forms-jee-upgrade}  
     + [Prepare to upgrade AEM Forms](http://www.adobe.com/go/learn_aemforms_prepareupgrade_64)
     + [Upgrade checklist and planning](http://www.adobe.com/go/learn_aemforms_upgrade_checklist_64)
     + [Upgrade to AEM 6.4 forms on JEE](using/upgrade-forms-jee.md)
