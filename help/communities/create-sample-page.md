@@ -29,7 +29,7 @@ The major difference is this tutorial will create a new community site template 
 
 To get started, create a simple [community site template](sites.md).
 
-From global navigation on an author instance select **Tools, Communities, Site Templates**.
+From global navigation on an author instance select **[!UICONTROL Tools > Communities > Site Templates]**.
 
 ![chlimage_1-82](assets/chlimage_1-82.png)
 
@@ -59,7 +59,7 @@ From global navigation on an author instance select **Tools, Communities, Site T
 
 Now create a new community site based on the simple site template.
 
-After creating the site template, from global navigation select **Communities**, **Sites**.
+After creating the site template, from global navigation select **[!UICONTROL Communities > Sites]**.
 
 ![chlimage_1-85](assets/chlimage_1-85.png)
 

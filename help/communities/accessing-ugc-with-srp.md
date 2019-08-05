@@ -42,19 +42,19 @@ Methods specific to JCR should avoided.
 Methods to use:
 
 * Sling API (Sling Resource)
-  * do not assume there are JCR nodes
+  * Do not assume there are JCR nodes
 
 * OSGi Events
-  * do not assume there are JCR events
+  * Do not assume there are JCR events
 
-* [SocialResourceUtilities](socialutils.md#socialresourceutilities-package)
-* [SCFUtilities](socialutils.md#scfutilities-package)
+* [Social Resource Utilities](socialutils.md#socialresourceutilities-package)
+* [SCF Utilities](socialutils.md#scfutilities-package)
 
 Methods to avoid:
 
 * Node API
 * JCR events
-* workflow launchers (which use JCR events)
+* Workflow launchers (which use JCR events)
 
 ### Use Search Collections {#use-search-collections}
 
