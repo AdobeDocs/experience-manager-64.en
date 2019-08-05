@@ -68,4 +68,4 @@ To access the various Communities consoles, from global navigation select **navi
 
 ## Tools Console {#tools-console}
 
-To access [Communities Tools](tools.md) (formerly the administration console), from global navigation: **Tools, Communities**
+To access [Communities Tools](tools.md) (formerly the administration console), from global navigation: **[!UICONTROL Tools > Communities]**
