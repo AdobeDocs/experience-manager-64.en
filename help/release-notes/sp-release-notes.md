@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
-legacypath: /content/docs/en/aem/6-1/release-notes-sp1
 ---
 
 # AEM 6.4 Service Pack Release Notes {#aem-service-pack-release-notes}
@@ -1374,7 +1373,7 @@ List of Content Packages included in AEM 6.4.1.0
 >[!NOTE]
 >
 >For successful installation of AEM 6.4.4.0 on the instance, it is strongly recommended to upgrade the version of com.adobe.granite.oak.s3connector to 1.8.3 for the customers who are on the older version of s3 connector.
->The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/in/experience-manager/6-4/sites-deploying/data-store-config.html](https://helpx.adobe.com/in/experience-manager/6-4/sites-deploying/data-store-config.html).
+>The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/experience-manager/6-4/sites-deploying/data-store-config.html](https://helpx.adobe.com/experience-manager/6-4/sites-deploying/data-store-config.html).
 >Download the latest version of com.adobe.granite.oak.s3connector from: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/)
 
 >[!CAUTION]

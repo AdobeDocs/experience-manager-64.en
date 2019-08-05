@@ -27,19 +27,15 @@ discoiquuid: 2be468e7-2b4e-4e04-881b-b9bdd1f55e57
   </tr>
   <tr>
    <th>Type</th> 
-   <td>Major Release</td> 
+   <td>Major release</td> 
   </tr>
   <tr>
    <th>General availability date</th> 
    <td>April 4, 2018<br /> </td> 
   </tr>
   <tr>
-   <th>Recommended Updates</th> 
-   <td>See <a href="https://helpx.adobe.com/experience-manager/aem-releases-updates.html">AEM Releases and Updates</a></td> 
-  </tr>
-  <tr>
-   <th>Feature Packs</th> 
-   <td>For a list of available Feature Packs visit <a href="feature-packs-release-notes.md">AEM 6.4 Feature Packs</a></td> 
+   <th>Recommended updates</th> 
+   <td>See <a href="https://helpx.adobe.com/experience-manager/aem-releases-updates.html">AEM releases and updates</a></td> 
   </tr>
  </tbody>
 </table>
