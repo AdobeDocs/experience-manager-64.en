@@ -252,15 +252,25 @@ You can add custom MIME types for unsupported formats in AEM Assets. To ensure t
 
 1. From AEM, click **[UICONTROL Tools > Operations > Web Console]**.
 
+    ![webconsole](assets/2019-08-02_16-13-14.png)
+
 1. A new browser tab opens to the **[UICONTROL Adobe Experience Manager Web Console Configuration]** page.
+
+    ![webconsole](assets/2019-08-02_16-17-29.png)
 
 1. On the page, scroll down to the name **[UICONTROL Adobe CQ Scene7 Asset MIME type Service]**. To the right of the name, tap **[UICONTROL Edit the configuration values]** (pencil icon).
 
+    ![edit](assets/2019-08-02_16-44-56.png)
+
 1. On the Adobe CQ Scene7 Asset MIME type Service page, click any plus sign icon <+>. The location in the table where you click the plus sign to add the new mime type is trivial.
+
+    ![plussign](assets/2019-08-02_16-27-27.png)
 
 1. Type `DWG=image/vnd.dwg` in the empty text field that you just added.
 
     Note that the example `DWG=image/vnd.dwg` is for illustration purposes only. The MIME type that you add here can be any other unsupported format.
+
+    ![dwg](assets/2019-08-02_16-36-36.png)
 
 1. In the lower-right corner of the page, click **[UICONTROL Save]**.
 
@@ -270,15 +280,21 @@ You can add custom MIME types for unsupported formats in AEM Assets. To ensure t
 
 1. From AEM, click **[UICONTROL Tools > General > CRXDE Lite]**.
 
+    ![crxdelite](assets/2019-08-02_16-55-41.png)
+
 1. In the left rail, navigate to the following:
 
     `conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`
 
 1. Drag the mime type `image_vnd.dwg` and drop it directly above `image_` in the tree.
 
+    ![drag](assets/CRXDELite_CQDOC-14627.png)
+
 1. With the mime type `image_vnd.dwg` still selected in the tree, from the **[UICONTROL Properties]** tab, in the **[UICONTROL enabled]** row, under the **[UICONTROL Value]** column header, double-click the value to open the **[UICONTROL Value]** drop-down list.
 
 1. Type `false` in the field (or select `false` from the drop-down list).
+
+    ![falsevalue](assets/2019-08-02_16_60_30.png)
 
 1. Near the upper-left corner of the CRXDE Lite page, click **[UICONTROL Save All]**.
 
