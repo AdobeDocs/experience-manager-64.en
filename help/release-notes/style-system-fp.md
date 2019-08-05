@@ -64,7 +64,7 @@ Style system demo package
 
 [Get File](/help/sites-authoring/assets/package_-_style_systemdemo.zip)
 
-The following sections [As a Content Author](/help/release-notes/style-system-fp.md#as-a-content-author) and [As a Template Author](#as-a-template-author) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
+The following sections [As a Content Author](#as-a-content-author) and [As a Template Author](#as-a-template-author) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
 
 If you wish to use the style system for your own components follow these steps:
 
@@ -85,7 +85,7 @@ If you wish to use the style system for your own components follow these steps:
 
    >[!NOTE]
    >
-   >In this example, the **Layout** styles (**Block** and **Grid**) are mutually exclusive, while the **Display** options (**Image** or **Date**) can be combined. This can be [configured in the template as the template author](/help/release-notes/style-system-fp.md#as-a-template-author).
+   >In this example, the **Layout** styles (**Block** and **Grid**) are mutually exclusive, while the **Display** options (**Image** or **Date**) can be combined. This can be [configured in the template as the template author](#as-a-template-author).
 
 ### As a Template Author {#as-a-template-author}
 
