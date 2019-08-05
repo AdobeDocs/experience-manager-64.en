@@ -157,7 +157,7 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
    Note: while there are JCR nodes under the *asipath *on author, these are for the SCF framework. The actual UGC is not in JCR, it is in the MongoDB.
 
-1. View the UGC in mongodb (communities &gt; Collections &gt; content)
+1. View the UGC in mongodb **[!UICONTROL Communities &gt; Collections &gt; Content]**
 
    ![chlimage_1-193](assets/chlimage_1-193.png)
 
