@@ -47,7 +47,7 @@ Notice this  home page  shows four menu items: `Assignments, Ski Catalog, What's
 
 ### Prevent anonymous access on JCR {#prevent-anonymous-access-on-jcr}
 
-A known limitation exposes the community site content to anonymous visitors through  jcr  content and  json , though **allow anonymous access** is disabled for the site's content. However, this behavior can be controlled using Sling Restrictions as a workaround.
+A known limitation exposes the community site content to anonymous visitors through  jcr  content and  json , though **[!UICONTROL allow anonymous access]** is disabled for the site's content. However, this behavior can be controlled using Sling Restrictions as a workaround.
 
 To protect your community site's content from access by anonymous users through  jcr  content and  json , follow these steps:
 
@@ -57,16 +57,16 @@ To protect your community site's content from access by anonymous users through 
    >
    >Do not go to the localized site.
 
-1. Go to **Page Properties**.
+1. Go to **[!UICONTROL Page Properties]**.
 
    ![page-properties-1](assets/page-properties-1.png)
 
-1. Go to **Advanced** tab.
-1. Enable **Authentication Requirement**.
+1. Go to **[!UICONTROL Advanced]** tab.
+1. Enable **[!UICONTROL Authentication Requirement]**.
 
    ![site-authentication-1](assets/site-authentication-1.png)
 
-1. Add the path of the login page. For example, **/content/......./GetStarted**.
+1. Add the path of the login page. For example, `/content/......./GetStarted`.
 1. Publish the page.
 
 ## Enrolled Member {#enrolled-member}
@@ -75,8 +75,8 @@ This experience relies on users `Riley Taylor` and `Sidney Croft` being [created
 
 Login with
 
-* Username: riley
-* Password: password
+* `Username: riley`
+* `Password: password`
 
 If the user profile was not created through self-registration, the very first time a member signs in, their Profile page is displayed so they may verify and modify it as necessary.
 
@@ -146,8 +146,8 @@ This experience assumes ` [Quinn Harper](enablement-setup.md#publishcreateenable
 
 Login with
 
-* Username: quinn
-* Password: password
+* `Username: quinn`
+* `Password: password`
 
 Once signed in, notice there is a new menu item, `Administration`, which appears because the member was given the role of moderator. 
 
@@ -197,7 +197,7 @@ With a little activity and interaction with the Resources on publish, viewing th
 
 * On author
 * Sign in with administrative privileges
-* Navigate from the main menu to **Communities &gt; Resources**
+* Navigate from the main menu to **[!UICONTROL Communities &gt; Resources]**
 * Select the `Enablement Tutorial` site
 * Select the `Report`icon for a summary of all Resources
 * Select a Resource and then the `Report`icon for a report on that Resource
@@ -210,7 +210,7 @@ Notice that it is likely too soon to show data from Adobe Analytics, which can t
 
 #### Ski Lessons User Report {#ski-lessons-user-report}
 
-* Select **Communities**, **Resources**
+* Select **[!UICONTROL Communities > Resources]**
 
 * Open card `Enablement Tutorial`
 * Open card `Ski Lessons`
@@ -230,14 +230,14 @@ For reports on assignments:
 
 * On author
 * Sign in with administrative privileges
-* Navigate to **Communities, Reports, Assignments Report**
-* Select a **Site** from the pull-down menu (select `Enablement Tutorial`)
+* Navigate to **[!UICONTROL Communities > Reports > Assignments Report]**
+* Select a **[!UICONTROL Site]** from the pull-down menu (select `Enablement Tutorial`)
 
-* Select **Group** (select `Community Ski Class`)
+* Select **[!UICONTROL Group]** (select `Community Ski Class`)
 
-* Select an **Assignment** (select `Ski Lessons`)
+* Select an **[!UICONTROL Assignment]** (select `Ski Lessons`)
 
-* Select **Generate**
+* Select **[!UICONTROL Generate]**
 
 ![chlimage_1-445](assets/chlimage_1-445.png)
 
@@ -245,14 +245,14 @@ For reports on views:
 
 * On author
 * Sign in with administrative privileges
-* Navigate to **Communities, Reports, Views Report**
-* Select a **Site** from the pull-down menu (select `Enablement Tutorial`)
+* Navigate to **[!UICONTROL Communities > Reports > Views Report]**
+* Select a **[!UICONTROL ]Site** from the pull-down menu (select `Enablement Tutorial`)
 
-* Select **Content Type** (select `all`)
+* Select **[!UICONTROL Content Type]** (select `all`)
 
-* Select a **date range** (select `Last 7 days`)
+* Select a **[!UICONTROL date range]** (select `Last 7 days`)
 
-* Select **Generate**
+* Select **[!UICONTROL Generate]**
 
 ![chlimage_1-446](assets/chlimage_1-446.png)
 

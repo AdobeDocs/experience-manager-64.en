@@ -595,25 +595,25 @@ It is possible to quickly try scoring and badging using the [Getting Started Tut
 
     * **Name**: `badgingRules`
     * **Type**: `String`
-    * Select **Multi**
-    * Select **Add**
+    * Select **[!UICONTROL Multi]**
+    * Select **[!UICONTROL Add]**
     * Enter `/etc/community/badging/rules/forums-badging`
-    * Select **+**
+    * Select `+`
     * Enter `/etc/community/badging/rules/comments-badging`
-    * Select **OK**
+    * Select **[!UICONTROL OK]**
 
 * Add the scoringRules property:
 
     * **Name**: `scoringRules`
     * **Type**: `String`
-    * Select **Multi**
-    * select **Add**
+    * Select **[!UICONTROL Multi]**
+    * Select **[!UICONTROL Add]**
     * Enter `/etc/community/scoring/rules/forums-scoring`
-    * Select **+**
+    * Select `+`
     * Enter `/etc/community/scoring/rules/comments-scoring`
-    * Select **OK**
+    * Select **[!UICONTROL OK]**
 
-* Select **Save All**
+* Select **[!UICONTROL Save All]**
 
 ![chlimage_1-370](assets/chlimage_1-370.png)
 

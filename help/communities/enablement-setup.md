@@ -160,7 +160,7 @@ A fourth user is created in the author environment and assigned the roles of Com
     * riley
     * sidney
 
-* Select **Save**
+* Select **[!UICONTROL Save]**
 
 ### Community Ski Class properties {#community-ski-class-properties}
 
@@ -186,8 +186,8 @@ Create a user on *author*, who is assigned the role of Community Administrator:
 
     * For example, username 'admin' / password 'admin'
 
-* From the main console, navigate to **Tools, Operations, Security, Users**
-* From the **Edit **menu, select **Add User**
+* From the main console, navigate to **[!UICONTROL Tools, Operations > Security > Users]**
+* From the **[!UICONTROL Edit]** menu, select **[!UICONTROL Add User]**
 
 * In the `Create New User` dialog enter
 
@@ -207,7 +207,7 @@ Scroll down to `Add User to Groups`:
     * Select `Community Administrators`
     * Select `Community Enablement Managers`
 
-* Select **Save**
+* Select **[!UICONTROL Save]**
 
 ![chlimage_1-419](assets/chlimage_1-419.png)
 

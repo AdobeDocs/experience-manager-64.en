@@ -43,7 +43,7 @@ Several facets of community groups are:
 To access the Groups console:
 
 * On author, sign in with administrator privileges
-* From global navigation: **Communities, Sites**
+* From global navigation: **[!UICONTROL Communities > Sites]**
 * Select an existing community site folder to open it
 * Select an instance of a community site within the folder
 
@@ -52,7 +52,7 @@ To access the Groups console:
 
 ![chlimage_1-133](assets/chlimage_1-133.png)
 
-Select the **Groups folder** to open it.
+Select the **[!UICONTROL Groups folder]** to open it.
 
 When opened, all existing groups, whether created on author or publish, are displayed.
 
@@ -60,7 +60,7 @@ From this Groups console, it is possible to author new groups.
 
 ![chlimage_1-134](assets/chlimage_1-134.png)
 
-* Select **Create Group** button
+* Select **[!UICONTROL Create Group]** button
 
 ### Step 1: Community Group Template {#step-community-group-template}
 
