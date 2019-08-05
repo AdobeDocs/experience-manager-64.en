@@ -27,43 +27,43 @@ The ability to create a new community group relies on the existance of a communi
 
 The examples that follow use the community site created from the `Reference Site Template` as described in the [Getting Started with AEM Communities](getting-started.md) tutorial.
 
-This is the page that loads on publish when the **Groups** menu item is selected:
+This is the page that loads on publish when the **[!UICONTROL Groups]** menu item is selected:
 
 ![chlimage_1-236](assets/chlimage_1-236.png)
 
-When you select the **New Group** icon, an edit dialog opens up.
+When you select the **[!UICONTROL New Group]** icon, an edit dialog opens up.
 
-Under the **Settings** tab, you provide the basic features of the group:
+Under the **[!UICONTROL Settings]** tab, you provide the basic features of the group:
 
 ![chlimage_1-237](assets/chlimage_1-237.png)
 
-* **Group Name** 
+* **[!UICONTROL Group Name]** 
   The title of the group to display on the community site.
 
-* **Description** 
+* **[!UICONTROL Description]** 
   A description of the group to display on the community site.
 
-* **Invite** 
+* **[!UICONTROL Invite]** 
   A list of members to invite to join the group. Type-ahead search will provide suggestions of community members to invite.
 
-* **Group URL Name** 
+* **[!UICONTROL Group URL Name]** 
   The name for the group page that becomes part of the URL.
 
-* **Open Group** 
+* **[!UICONTROL Open Group]** 
   Selecting `Open Group` indicates any anonymous site visitor may view the content, and will de-select `Member Only Group`.
 
-* **Member Only Group** 
+* **[!UICONTROL Member Only Group]** 
   Selecting `Member Only Group` indicates only members of the group may view the content, and will de-select `Open Group`.
 
-Under the **Template** tab is the ability to select from the list of community group templates that were specified when the groups function was included in the community site's structure or in a community site template.
+Under the **[!UICONTROL Template]** tab is the ability to select from the list of community group templates that were specified when the groups function was included in the community site's structure or in a community site template.
 
 ![chlimage_1-238](assets/chlimage_1-238.png)
 
-Under the **Image** tab is the ability to upload an image to display for the group on the community site's Groups page. The default style sheet will size the image to 170 x 90 pixels.
+Under the **[!UICONTROL Image]** tab is the ability to upload an image to display for the group on the community site's Groups page. The default style sheet will size the image to 170 x 90 pixels.
 
 ![chlimage_1-239](assets/chlimage_1-239.png)
 
-By selecting the **Create Group** button, the pages for the group are created based on the chosen template, and a user group is created for membership and the Groups page will be updated to show the new sub-community.
+By selecting the **[!UICONTROL Create Group]** button, the pages for the group are created based on the chosen template, and a user group is created for membership and the Groups page will be updated to show the new sub-community.
 
 For example, the Groups page with a new sub-community titled "Focus Group", for which an image thumbnail was uploaded, will appear as follows (still signed in as a community group administrator):
 

@@ -168,12 +168,12 @@ Existing SCORM installations can be upgraded to [**cq-social-scorm-package, vers
 1. Install the **[cq-social-scorm-package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg).**
 1. Download the package from `/libs/social/config/scorm/ScormEngine.zip` and extract the same.
 1. Go to **Installer** folder of the extracted directory.
-1. Update **SystemDatabaseConnectionString** with your `scorm db connection url` in file **EngineInstall.xml**.  
+1. Update `SystemDatabaseConnectionString` with your `scorm db connection url` in file **[!UICONTROL EngineInstall.xml]**.  
 1. Run mysql schema upgrade tool in Installer folder with the command:
 
     `java -Dlogback.configurationFile=logback.xml -cp "lib/*" RusticiSoftware.ScormContentPlayer.Logic.Upgrade.ConsoleApp EngineInstall.xml`
 1. Monitor `engine_upgrade.log` file for any kind of error and schema upgrade status.
-1. Add `/content/communities/scorm/RecordResults` in **Excluded Paths** property in CSRF filter from `https://<hostname>:<port>/system/console/configMgr` on publishers.
+1. Add `/content/communities/scorm/RecordResults` in **[!UICONTROL Excluded Paths]** property in CSRF filter from `https://<hostname>:<port>/system/console/configMgr` on publishers.
 
 ### SCORM Logging {#scorm-logging}
 
@@ -206,8 +206,8 @@ The links to packages on this page require no running instance of AEM as they ar
 
 To install the packages visible in `adobeaemcloud.com` on a local AEM instance, the package must first be downloaded to a local disk:
 
-* Select the **Assets** tab
-* Select **download to disk**
+* Select the **[!UICONTROL Assets]** tab
+* Select **[!UICONTROL download to disk]**
 
 On the local AEM instance, use package manager (for example [http://localhost:4502/crx/packmgr/](http://localhost:4502/crx/packmgr/)), to upload to the local AEM's package repository.
 
@@ -254,8 +254,8 @@ For all other (secondary) publish instances in a publish farm:
 
 * Locate the `AEM Communities Publisher Configuration`
 * Select the edit icon
-* Uncheck the **Primary Publisher** box
-* Select **Save**
+* Uncheck the **[!UICONTROL Primary Publisher]** box
+* Select **[!UICONTROL Save]**
 
 ### Replication Agents on Author {#replication-agents-on-author}
 
@@ -269,7 +269,7 @@ There are two replication agents in the author environment that need the transpo
 
 * Access the Replication console on author
 
-    * From global navigation: **Tools, Deployment, Replication, Agents on author**
+    * From global navigation: **[!UICONTROL Tools > Deployment > Replication > Agents on author]**
 
 * Follow the same procecure for both agents:
 
@@ -277,10 +277,10 @@ There are two replication agents in the author environment that need the transpo
     * **Reverse Replication Agent (publish reverse)**
 
         1. Select the agent
-        1. Select **edit**
-        1. Select the **Transport** tab
-        1. If not port `4503`, edit the **URI** to specify the correct port
-        1. If not user `admin`, edit the **User** and **Password** to specify a member of the `administrators` user group
+        1. Select **[!UICONTROL edit]**
+        1. Select the **[!UICONTROL Transport]** tab
+        1. If not port `4503`, edit the **[!UICONTROL URI]** to specify the correct port
+        1. If not user `admin`, edit the **[!UICONTROL User]** and **[!UICONTROL Password]** to specify a member of the `administrators` user group
 
 The following images show the results of changing the port from 4503 to 6103 by:
 
@@ -312,8 +312,8 @@ To enable the tunnel service:
 
 * Locate the `AEM Communities Publish Tunnel Service`
 * Select the edit icon
-* Check the **enable** box
-* Select **Save**
+* Check the **[!UICONTROL enable]** box
+* Select **[!UICONTROL Save]**
 
 ![chlimage_1-414](assets/chlimage_1-414.png) 
 
@@ -387,7 +387,7 @@ Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
     * For example, [https://&lt;server&gt;:&lt;port&gt;/system/console/bundles](http://localhost:4503/system/console/bundles)
 
 * Locate `Adobe Granite Crypto Support` bundle (com.adobe.granite.crypto)
-* Select **Refresh**
+* Select **[!UICONTROL Refresh]**
 
 ![chlimage_1-416](assets/chlimage_1-416.png)
 

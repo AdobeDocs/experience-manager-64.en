@@ -136,7 +136,7 @@ In order for the email to be brought into the repository, it is necessary to con
 * Signed in with administrator privileges
 * Browse to the polling importer console
     For example, [http://localhost:4503/etc/importers/polling.html](http://localhost:4503/etc/importers/polling.html)
-* Select **Add**
+* Select **[!UICONTROL Add]**
 
 ![chlimage_1-102](assets/chlimage_1-102.png)
 
@@ -153,7 +153,7 @@ In order for the email to be brought into the repository, it is necessary to con
 
 * **Password**: *(optional)*
 
-* Select **OK**
+* Select **[!UICONTROL OK]**
 
 ### Adjust Protocol for New Polling Importer {#adjust-protocol-for-new-polling-importer}
 
@@ -174,5 +174,5 @@ Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
 The red triangles indicate the modified properties. Be sure to save the changes:
 
-* Select **Save All**
+* Select **[!UICONTROL Save All]**
 
