@@ -82,7 +82,7 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 
 **Notes**:
 
-* The default port is 3306
+* The default port is `3306`
 * The `Connection Name` chosen is entered as the `datasource` name in [JDBC OSGi configuration](#configure-jdbc-connections)
 
 #### Successful Connection {#successful-connection}
@@ -182,17 +182,17 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 * Access the [web console](../../help/sites-deploying/configuring-osgi.md)
     * For example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 * Locate the `Day Commons JDBC Connections Pool`
-* Select the '+' icon to create a new configuration
+* Select the `+` icon to create a new configuration
 
 ![chlimage_1-336](assets/chlimage_1-336.png)
 
 * Enter the following values:
-    * **JDBC driver class**: com.mysql.jdbc.Driver
-    * **JDBC connection URI**: jdbc:mysql://localhost:3306/aem63reporting specify server in place of localhost if MySQL server is not the same as 'this' AEM server 
+    * **JDBC driver class**: `com.mysql.jdbc.Driver`
+    * **JDBC connection URI**: `jdbc:mysql://localhost:3306/aem63reporting` specify server in place of localhost if MySQL server is not the same as 'this' AEM server 
     * **Username**: Root or enter the configured Username for the MySQL server, if not 'root'
     * **Password**: Clear this field if no password set for MySQL, else enter the configured password for the MySQL Username
     * **Datasource name**: Name entered for the [MySQL connection](#new-connection-settings), for example, 'enablement'
-* Select **Save**
+* Select **[!UICONTROL Save]**
 
 ## Configure Scorm {#configure-scorm}
 
@@ -214,14 +214,14 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 * Select the edit icon
 ![chlimage_1-337](assets/chlimage_1-337.png)
 * Verify the following parameter values are consistent with the [JDBC Connection](#configurejdbcconnectionspool) config:
-    * **JDBC connection URI**: jdbc:mysql://localhost:3306/ScormEngineDB *ScormEngineDB* is the default database name in the SQL scripts
+    * **JDBC connection URI**: `jdbc:mysql://localhost:3306/ScormEngineDB` *ScormEngineDB* is the default database name in the SQL scripts
     * **Username**: Root or enter the configured Username for the MySQL server, if not 'root'
     * **Password**: Clear this field if no password set for MySQL, else enter the configured password for the MySQL Username 
 * Regarding the following parameter:
     * **Scorm User Password**: DO NOT EDIT 
   
       For internal use only. It is for a special service user used by AEM Communities to communicate with the scorm engine.
-* Select **Save**
+* Select **[!UICONTROL Save]**
 
 ### Adobe Granite CSRF Filter {#adobe-granite-csrf-filter}
 
@@ -236,5 +236,5 @@ To ensure enablement courses work correctly in all browsers, it is necessary to 
 ![chlimage_1-338](assets/chlimage_1-338.png)
 * Select the `[+]` icon to add a Safe User Agent
 * Enter `Mozilla/*`
-* Select **Save**
+* Select **[!UICONTROL Save]**
 

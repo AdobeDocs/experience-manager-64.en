@@ -23,4 +23,4 @@ The underlying CRX platform must be able to distinguish between an actual unders
 
 For example, if the repository path is **/apps/my-example/component/info/Info.java**, the package name should be `java package apps.my_002dexample.component.info;`
 
-Notice that an underscore must similarly be escaped, such that '_' becomes '_005f'.
+Notice that an underscore must similarly be escaped, such that `_` becomes `_005f`.
