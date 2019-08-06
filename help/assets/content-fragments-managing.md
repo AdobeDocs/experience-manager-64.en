@@ -114,7 +114,7 @@ Select the fragment to reveal the toolbar with applicable actions:
 
 >[!NOTE]
 >
->Many of these are [standard actions for Assets](managing-assets-touch-ui.md) and/or the [Desktop App](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html).
+>Many of these are [standard actions for Assets](managing-assets-touch-ui.md) and/or the [desktop app](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html).
 
 ## Opening the Fragment Editor {#opening-the-fragment-editor}
 

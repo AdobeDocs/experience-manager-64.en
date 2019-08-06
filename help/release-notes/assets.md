@@ -99,7 +99,7 @@ AEM 6.4 delivers significant Asset reporting enhancements:
 
 ## AEM desktop app {#aem-desktop-app}
 
-AEM Desktop App has been updated to version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM Desktop App release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.  
+AEM desktop app is updated to version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.  
 Here is a list of AEM desktop app highlights since AEM 6.3 was released:
 
 * Ability to upload hierarchical folders in the background.

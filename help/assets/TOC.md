@@ -9,10 +9,10 @@ user-guide-title: AEM 6.4 Assets User Guide
 
 + [Assets user guide](home.md)
 + [AEM 6.4 Assets release notes](../release-notes/assets.md)
-+ [About Digital Asset Management solution and AEM Assets](assets.md)
++ [About DAM](assets.md)
 + [User experience improvements](ux-improvements.md)
 + [Best practices for assets](best-practices-for-assets.md)
-+ Using AEM Assets {#using}
++ Use AEM Assets {#using}
     + [AEM Assets home page experience](assets-home-page.md)
     + [Search assets in AEM](search-assets.md)
     + [GQL full-text search](gql-search.md)
@@ -62,7 +62,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Invalidating your CDN cached content](invalidate-cdn-cached-content.md)
     + [Installing Feature Pack 18912 for bulk asset migration](bulk-ingest-migrate.md)
     + [Working with Selectors](working-with-selectors.md)
-+ Extending Assets {#extending}
++ Extend Assets {#extending}
     + [Customizing and Extending Assets](extending-assets.md)
     + [Processing Assets using media handlers and workflows](media-handlers.md)
     + [Extending Assets Search](searchx.md)
@@ -71,7 +71,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Extending Asset Editor](asseteditorx.md)
     + [Assets HTTP API](mac-api-assets.md)
     + [Assets Proxy Development](proxy.md)
-+ Administering Assets {#administer}
++ Administer Assets {#administer}
     + [Assets supported formats](assets-formats.md)
     + [Search facets](search-facets.md)
     + [Managing Metadata for assets](metadata.md)
@@ -128,7 +128,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Content Fragments - Delete Considerations](content-fragments-delete.md)
     + [Content Fragments - Markdown](content-fragments-markdown.md)
     + [Creating translation projects for Content Fragments](creating-translation-projects-for-content-fragments.md)
-+ Managing Assets {#managing}
++ Manage Assets {#managing}
     + [Managing Assets with the Touch-Optimized UI](managing-assets-touch-ui.md)
     + [Managing multiple assets and collections](managing-multiple-assets.md)
     + [Asset selector](asset-selector.md)
