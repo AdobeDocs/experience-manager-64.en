@@ -30,8 +30,8 @@ Whenever AEM Assets processes an operation asynchronously, you receive a notific
 
 To view the status of the asynchronous operations in detail, navigate to the **Async Job Status** page.
 
-1. Tap/click the AEM logo, and go **[!UICONTROL ]****Assets** &gt; **Jobs**.
-1. In the **[!UICONTROL ]****Async Job Status** page, review the details of the operations.
+1. Tap/click the AEM logo, and go **[!UICONTROL Assets]** &gt; **Jobs**.
+1. In the **[!UICONTROL Async Job Status]** page, review the details of the operations.
 
    ![job_status](assets/job_status.png)
 
