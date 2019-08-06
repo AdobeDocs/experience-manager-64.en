@@ -23,50 +23,50 @@ Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md) on
 
 The path being duplicated is
 
-* /libs/social/commons/components/hbs/comments/comment
+* `/libs/social/commons/components/hbs/comments/comment`
 
 Some nodes in the path are folders and some are components.
 
 1. Browse to [http://localhost:4502/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp)
 1. Create `/apps/social` (if it does not already exist)
     * Select `/apps` node
-    * **Create &gt; Folder ...**
+    * **[!UICONTROL Create &gt; Folder ...]**
         * Enter Name: `social`
-1. `select social`node
-    * **Create &gt; Folder...**
+1. Select `social` node
+    * **[!UICONTROL Create &gt; Folder...]**
         * Enter Name: `commons`
-1. Select `commons`node
-    * **Create &gt; Folder...**
+1. Select `commons` node
+    * **[!UICONTROL Create &gt; Folder...]**
         * Enter Name: `components`
 1. Select `components` node
-    * **Create &gt; Folder..**.
+    * **[!UICONTROL Create &gt; Folder..]**.
         * Enter Name: `hbs`
-1. Select `hbs`node
-    * **Create &gt; Create Component...**
+1. Select `hbs` node
+    * **[!UICONTROL Create &gt; Create Component...]**
         * Enter Label: `comments`
         * Enter Title: `Comments`
         * Enter Description: `List of comments without showing avatars`
         * Super Type: `social/commons/components/comments`
         * Enter Group: `Communities`
-        * Click **Next** until **OK**
-1. Select `comments`node
+        * Click **[!UICONTROL Next]** until **[!UICONTROL OK]**
+1. Select `comments` node
 
-    * **Create &gt; Create Component...**
+    * **[!UICONTROL Create &gt; Create Component...]**
 
-        * enter Label: `comment`
-        * enter Title: `Comment`
-        * enter Description: `A comment instance without avatars`
+        * Enter Label: `comment`
+        * Enter Title: `Comment`
+        * Enter Description: `A comment instance without avatars`
         * Super Type: `social/commons/components/comments/comment`
-        * enter Group: `.hidden`
-        * click **Next** until **OK**
-    * Select **Save All**
+        * Enter Group: `.hidden`
+        * Click **[!UICONTROL Next]** until **[!UICONTROL OK]**
+    * Select **[!UICONTROL Save All]**
 1. Delete the default `comments.jsp`
     * Select node `/apps/social/commons/components/hbs/comments/comments.jsp`
-    * Select **Delete**
+    * Select **[!UICONTROL Delete]**
 1. Delete the default comment.jsp
     * select node `/apps/social/commons/components/hbs/comments/comment/comment.jsp`
-    * Select **Delete**
-    * Select **Save All**
+    * Select **[!UICONTROL Delete]**
+    * Select **[!UICONTROL Save All]**
 
 >[!NOTE]
 >
@@ -81,12 +81,12 @@ The overlay's own `Type`(property `sling:resourceType`) must be a relative self-
 * Type: `String`
 * Value: `social/commons/components/hbs/comments`
 
-1. Select the green **[+] Add**
+1. Select the green `[+] Add`
     * Name: `sling:resourceType`
     * Type: `String`
     * Value: `social/commons/components/hbs/comments/comment`
-1. Select the green **[+] Add**
-   * Select **Save All**
+1. Select the green `[+] Add`
+   * Select **[!UICONTROL Save All]**
 
 ![chlimage_1-4](assets/chlimage_1-4.png) 
 
