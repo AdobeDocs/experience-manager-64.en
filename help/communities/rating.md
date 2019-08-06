@@ -31,11 +31,11 @@ Select the placed `Rating` component to access and select the `Configure` icon w
 
 ![chlimage_1-494](assets/chlimage_1-494.png)
 
-Under the **Texts & Labels** tab you specify the internal identifier for the Rating.
+Under the **[!UICONTROL Texts & Labels]** tab you specify the internal identifier for the Rating.
 
 ![chlimage_1-495](assets/chlimage_1-495.png)
 
-**Tally Name** 
+**[!UICONTROL Tally Name]** 
   (*Required*) A simple name for the `Rating`which uniquely identifies this instance. Must be a valid node name for the repository.
 
 ## Site Visitor Experience {#site-visitor-experience}

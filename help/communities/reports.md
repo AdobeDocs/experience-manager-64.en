@@ -31,23 +31,23 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
 ### Reports for Community Sites {#reports-for-community-sites}
 
-* From global navigation: **Navigation**, **Communities, Reports**
+* From global navigation: **[!UICONTROL Navigation > Communities > Reports]**
 * Choose from
-    * **Assignments Report**
+    * **[!UICONTROL Assignments Report]**
         * Generate a report for selected Community Site, User or Group, and Assignment
-    * **Posts Report**
+    * **[!UICONTROL Posts Report]**
         * Generate a report for selected Community Site, Content Type, and Time Period
-    * **Views Report**
+    * **[!UICONTROL Views Report]**
         * Generate a report for selected Community Site, Content Type, and Time Period
 ![chlimage_1-156](assets/chlimage_1-156.png)
 
 ### Reports for Enablement Resources and Learning Paths {#reports-for-enablement-resources-and-learning-paths}
 
-* From global navigation: **Navigation**, **Communities, Resources**
+* From global navigation: **[!UICONTROL Navigation > Communities > Resources]**
 * Select an existing enablement community site
-    * Select **Report** icon to generate reports which cover all enablement resources
+    * Select **[!UICONTROL Report]** icon to generate reports which cover all enablement resources
     * Select an enablement learning path
-    * Select **Report** icon to generate reports for
+    * Select **[!UICONTROL Report]** icon to generate reports for
         * The included enablement resources
         * The learners assigned to the learning path
 * These reports provide:
@@ -70,16 +70,16 @@ The report provides information on their progress as well as any comments or rat
 
 Select the criteria for the report:
 
-* **Site** 
+* **[!UICONTROL Site]** 
   Select an enablement community site
-* **User or Group** 
+* **[!UICONTROL User or Group]** 
   * Select User to generate a report for one learner
   * Select Group to generate a report for a group of learners
   The tunnel service will access members and member groups from the publish environment
-* **Assignment** 
+* **[!UICONTROL Assignment]** 
   Choose from among the enablement resources assigned to the selected learner(s)
 
-Select **Generate** to create the report:
+Select **[!UICONTROL Generate]** to create the report:
 
 ![chlimage_1-158](assets/chlimage_1-158.png)
 
@@ -91,9 +91,9 @@ The Views console allows reports to be generated on page views by community feat
 
 Select the criteria for the report:
 
-* **Site** 
+* **[!UICONTROL Site]** 
   Select a community site
-* **Content Type** 
+* **[!UICONTROL Content Type]** 
   May choose All content or select one of the features present on the site
 * Time frame 
   Select one of:
@@ -102,7 +102,7 @@ Select the criteria for the report:
     * Last 90 days
     * Last year
 
-Select **Generate** to create the report:
+Select **[!UICONTROL Generate]** to create the report:
 
 ![chlimage_1-160](assets/chlimage_1-160.png)
 
@@ -114,9 +114,9 @@ The Posts console allows reports to be generate on number of posts to community 
 
 Select the criteria for the report:
 
-* **Site** 
+* **[!UICONTROL Site]** 
   Select a community site
-* **Content Type** 
+* **[!UICONTROL Content Type]** 
   May choose All content or select one of the features present on the site
 * Time frame 
   Select one of:
@@ -125,7 +125,7 @@ Select the criteria for the report:
     * Last 90 days
     * Last year
 
-Select **Generate** to create the report:
+Select **[!UICONTROL Generate]** to create the report:
 
 ![chlimage_1-162](assets/chlimage_1-162.png)
 

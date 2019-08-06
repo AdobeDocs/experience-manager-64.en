@@ -70,52 +70,52 @@ In the author environment, the global navigation console provides access to the 
 
 * [Sites](sites-console.md) console
 
-    * site creation
-    * site editing
-    * site management
+    * Site creation
+    * Site editing
+    * Site management
     * [Community Groups](groups.md) console
 
 * [Moderation](moderation.md) console
 
-    * common bulk moderation UI for author and publish environments
-    * new filtering criteria
+    * Common bulk moderation UI for author and publish environments
+    * New filtering criteria
 
 * [Members and Groups](members.md) management consoles
 
-    * provides the ability to create and manage publish-side users (members) from the author environment
-    * provides ability to ban members
-    * provides the ability to create and manage publish-side user groups (member groups) from the author environment
+    * Provides the ability to create and manage publish-side users (members) from the author environment
+    * Provides ability to ban members
+    * Provides the ability to create and manage publish-side user groups (member groups) from the author environment
 
 * [Reports](reports.md) console
 
-    * provides the ability to generate reports on assignments, posts and views
+    * Provides the ability to generate reports on assignments, posts and views
 
 * [Resources](resources.md) console
 
-    * provides the ability to create enablement resources and learning paths
-    * provides access to reports on enablement resources and learning paths
+    * Provides the ability to create enablement resources and learning paths
+    * Provides access to reports on enablement resources and learning paths
 
 The global tools console provides access to the following Communities tools:
 
 * [Site Templates](tools.md#sitetemplatesconsole) console
 
-    * create and manage community site templates
+    * Create and manage community site templates
 
 * [Group Templates](tools.md#grouptemplatesconsole) console
 
-    * create and manage community group templates
+    * Create and manage community group templates
 
 * [Community Functions](tools.md#communityfunctionsconsole) console
 
-    * create and manage community functions
+    * Create and manage community functions
 
 * [Storage Configuration](tools.md#storageconfiguratonconsole) console
 
-    * select and configure the [common store](working-with-srp.md) for the site
+    * Select and configure the [common store](working-with-srp.md) for the site
 
 * [Component Guide](components-guide.md)
 
-    * a sample site, [Community Components](http://localhost:4502/editor.html/content/community-components/en.html), that provides a sample of all Communities components with their default configuration and the ability to experiment with them
+    * A sample site, [Community Components](http://localhost:4502/editor.html/content/community-components/en.html), that provides a sample of all Communities components with their default configuration and the ability to experiment with them
 
 ## Community Site Templates {#community-site-templates}
 
