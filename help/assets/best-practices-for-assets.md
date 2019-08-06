@@ -32,8 +32,8 @@ When handling AEM instances, understanding the network topology is important to 
 After your AEM instance is deployed, you should monitor certain tasks and the system in general to ensure system integrity and efficiency of operations. The Monitoring guide includes best practices for monitoring various aspects of your system.
 * [Assets Offloading guide](assets-offloading-best-practices.md)
 Handling large files and running workflows in AEM Assets can consume considerable CPU, memory, and I/O resources. Offloading these tasks can reduce CPU, memory, and IO overheads. The Assets offloading guide includes recommended use cases and best practices for Assets offloading.
-* [AEM Desktop App Best Practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html)
-AEM Desktop App links your digital asset management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. Desktop App's easy-to-use workflow is enabled using network share technology that desktop operating systems provide. This guide explains key capabilities and recommended use of AEM Desktop App.
+* [AEM desktop app Best Practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html)
+AEM desktop app links your digital asset management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. Desktop app's easy-to-use workflow is enabled using network share technology that desktop operating systems provide. This guide explains key capabilities and recommended use of AEM desktop app.
 * [AEM and Creative Cloud Integration Best Practices](aem-cc-integration-best-practices.md)
 You can integrate your AEM instance with Creative Cloud in multiple ways. Following some best practices to streamline your integration and asset transfer workflows helps achieve maximum efficiency. This guide includes best practices around integrating AEM Assets with Adobe Creative Cloud.
 * [AEM to Creative Cloud Folder Sharing Best Practices](aem-cc-folder-sharing-best-practices.md)

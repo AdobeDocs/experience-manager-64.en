@@ -205,9 +205,9 @@ To learn more about this capability, prerequisites, and how to access it, see [A
 
 ![adobe_asset_link](assets/adobe_asset_link.png)
 
-**AEM Desktop App**
+**AEM desktop app**
 
-AEM Desktop App has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM Desktop App is provided in a dedicated [AEM Desktop App release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.
+AEM desktop app has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.
 
 Improvements introduced since the AEM 6.3 release include the ability to upload hierarchical folders in the background, a new UI to monitor asset background operations, enhanced caching, networking and login, as well as overall stability improvements. The documentation also includes a [best practices guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html).
 
@@ -322,7 +322,7 @@ This process of prioritization has yielded more than 500 customer focused change
 
 **Assets**
 
-* Adobe Experience Manager Desktop App ([read more](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html) and [download](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html))
+* Adobe Experience Manager desktop app ([read more](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html) and [download](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html))
 
 * Package to add enhanced PDF Rasterizer ([read more](/help/assets/aem-pdf-rasterizer.md) and [download](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/assets/aem-assets-pdf-rasterizer-pkg))
 
