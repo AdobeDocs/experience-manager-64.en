@@ -89,7 +89,7 @@ The [Oak Index Manager](https://adobe-consulting-services.github.io/acs-aem-comm
 
 To view the existing Oak indices in [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md), the location is:
 
-* /oak:index/socialLucene
+* `/oak:index/socialLucene`
 
 ![chlimage_1-235](assets/chlimage_1-235.png) 
 
@@ -166,11 +166,11 @@ The filter syntax for AND and OR logic is expressed as follows (shown before bei
 
 * To specify OR use one filter param with comma separated values:
 
-    * filter=name eq 'Jennifer',name eq 'Jen'
+    * `filter=name eq 'Jennifer',name eq 'Jen'`
 
 * To specify AND use multiple filter params:
 
-    * filter = name eq 'Jackson'&filter=message eq 'testing'
+    * `filter = name eq 'Jackson'&filter=message eq 'testing'`
 
 The default implementation of the [Search component](search.md) uses this syntax as can be seen in the URL that opens the Search Results page in the [Community Components guide](components-guide.md). To experiment, browse to [http://localhost:4503/content/community-components/en/search.html](http://localhost:4503/content/community-components/en/search.html).
 
@@ -218,7 +218,7 @@ To help troubleshoot problems with a Solr query, enable DEBUG logging for
 
 The actual Solr query will be displayed URL encoded in the debug log:
 
-Query to solr is: sort=timestamp+desc&bl=en&pl=en&start=0&rows=10 **[!UICONTROL &q=%2Btitle_t:(*hello*)+%2Bprovider_id:\/content/usergenerated/asi/mongo/content/*+%2Bresource_type_s:*]**&df=provider_id&trf=verbatim&fq={!cost%3D100}report_suite:mongo
+Query to solr is: `sort=timestamp+desc&bl=en&pl=en&start=0&rows=10 &q=%2Btitle_t:(hello)+%2Bprovider_id:\/content/usergenerated/asi/mongo/content/+%2Bresource_type_s:&df=provider_id&trf=verbatim&fq={!cost%3D100}report_suite:mongo`
 
 The value of the `q` parameter is the query. Once the URL encoding is decoded, the query can be passed to the Solr Admin Query tool for further debugging.
 

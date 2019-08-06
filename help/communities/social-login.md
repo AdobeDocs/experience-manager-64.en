@@ -87,20 +87,20 @@ In general, as of Facebook API v2.7:
 >
 >For development, http://localhost:4503 will work.
 
-Once the application has been created, locate the **App ID** and **App Secret** settings. This information is required for configuring the [Facebook cloud service](#createafacebookcloudservice).
+Once the application has been created, locate the **[!UICONTROL App ID]** and **[!UICONTROL App Secret]** settings. This information is required for configuring the [Facebook cloud service](#createafacebookcloudservice).
 
 ### Create a Facebook Connect Cloud Service {#create-a-facebook-connect-cloud-service}
 
 The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe.com/content/help/en/experience-manager/6-4/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance, instantiated by creating a cloud service configuration, identifies the Facebook application and the member group(s) to which the new users are added.
 
 1. On the AEM author instance, sign in with administrator privileges.
-1. From global navigation, select **Tools, Cloud Services, Facebook Social login configuration.**
-1. Select the configuration **context path**. 
+1. From global navigation, select **[!UICONTROL Tools > Cloud Services > Facebook Social login configuration]**.
+1. Select the configuration **[!UICONTROL context path]**. 
 
-   **Context path** should be the same as the cloud configuration path that you have selected while creating/editing a community site.
+   **[!UICONTROL Context path]** should be the same as the cloud configuration path that you have selected while creating/editing a community site.
 
 1. Check if your context path is enabled to create cloud services below it.
-1. Go to **Tools, General, Configuration Browser.** Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
+1. Go to **[!UICONTROL Tools > General > Configuration Browser]**. Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
 
    ![config-propertiespng](assets/config-propertiespng.png)
 
@@ -108,20 +108,20 @@ The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe
 
    ![fbsocialloginconfigpng](assets/fbsocialloginconfigpng.png)
 
-    * **Title** (*Required*) Enter a display title that identifies the Facebook App. It is recommended to use the same name entered as the *Display Name* for the Facebook app.
-    * **App ID/API Key** (*Required*) Enter the ***App ID*** for the Facebook App. This identifies the [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance created from the dialog.
-    * **App Secret** (*Required*) Enter the ***App Secret*** for the Facebook App.
-    * **Create Users** If checked, logging in with a Facebook account will create an AEM user entry and add them as a member to the selected user group(s).  Default  is checked (strongly recommended).
-    * **Mask User IDs:** Leave deselected.
-    * **Scope Email:** email id of  user  should be fetched from Facebook.
-    * **Add to User Groups** select Add User Group to choose one or more [member groups](https://helpx.adobe.com/experience-manager/6-3/communities/using/users.html) for the community site to which users will be added.
+    * **[!UICONTROL Title]** (*Required*) Enter a display title that identifies the Facebook App. It is recommended to use the same name entered as the *Display Name* for the Facebook app.
+    * **[!UICONTROL App ID/API Key]** (*Required*) Enter the ***App ID*** for the Facebook App. This identifies the [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance created from the dialog.
+    * **[!UICONTROL App Secret]** (*Required*) Enter the ***App Secret*** for the Facebook App.
+    * **[!UICONTROL Create Users]** If checked, logging in with a Facebook account will create an AEM user entry and add them as a member to the selected user group(s).  Default  is checked (strongly recommended).
+    * **[!UICONTROL Mask User IDs]**: Leave deselected.
+    * **[!UICONTROL Scope Email]**: email id of  user  should be fetched from Facebook.
+    * **[!UICONTROL Add to User Groups]** select Add User Group to choose one or more [member groups](https://helpx.adobe.com/experience-manager/6-3/communities/using/users.html) for the community site to which users will be added.
 
    >[!NOTE]
    >
    >Groups may be added or removed at any time. But existing  users's  memberships won't be affected. Auto membership only applies to new users being created  post  this field update. For Sites where anonymous users are disabled, chose to add users to corresponding community-members group meant for that closed community site.
 
-    * Select **SAVE.**
-    * **Publish.**
+    * Select **[!UICONTROL SAVE]**.
+    * **[!UICONTROL Publish]**.
 
 The result is an [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#adobe-granite-oauth-application-and-provider) instance which does not require further modification unless adding additional scope (permissions). The default scope is the standard permissions for Facebook login. If additional scope is desired, it is necessary to edit the OSGI configuration directly. If there are modifications done directly via system/console, avoid editing your cloud service configurations from touch UI to avoid overwriting.
 
@@ -145,31 +145,31 @@ If editing is necessary, on each AEM publish instance:
 
    ![fboauthprov_png](assets/fboauthprov_png.png)
 
-    * **OAuth Provider ID** 
+    * **[!UICONTROL OAuth Provider ID]** 
   
       (*Required*)  Default  value is *soco -facebook*. Do not edit.
   
-    * **Cloud Service Config** 
+    * **[!UICONTROL Cloud Service Config]** 
   
       Default value is */etc/  cloudservices /  facebookconnect*. Do not edit.
   
-    * **OAuth Provider Service Config** 
+    * **[!UICONTROL OAuth Provider Service Config]** 
   
       Default value is */apps/social/facebookprovider/config/*. Do not edit.
   
-    * **Enable Tags** 
+    * **[!UICONTROL Enable Tags]** 
   
       Do not Edit. 
 
-    * **User Path** 
+    * **[!UICONTROL User Path]** 
   
       Location in the repository where user data is stored. For a community site, to ensure permissions for members to view one another's profile, the path should be the default */home/users/community*.
   
-    * **Enable fields** 
+    * **[!UICONTROL Enable fields]** 
 
       If checked, the Fields listed are specified on the request to Facebook for user authentication and information. The default is deselected.
   
-    * **Fields** 
+    * **[!UICONTROL Fields]** 
 
       When Fields are enabled, the following fields are included when calling the Facebook Graph API. The fields must be allowed within the scope defined in the cloud service configuration. Additional fields may require approval by Facebook. Reference the Facebook Login Permissions section of the Facebook documentation. The default fields added as parameters are:
 
@@ -187,7 +187,7 @@ If editing is necessary, on each AEM publish instance:
 
    If any field is added or changed, update the corresponding Default Sync handler configuration to correct the mapping.
 
-    * **Update User** 
+    * **[!UICONTROL Update User]** 
       If checked, refreshes user data in the repository on each login to reflect profile changes or additional data requested. Default is deselected.
 
 #### Next Steps {#next-steps}
@@ -218,17 +218,17 @@ In general:
    >
    >For development, https://127.0.0.1/ will work.
 
-1. Once the application has been created, locate the **Consumer (API) Key** and **Consumer (API) Secret**. This information will be needed for configuring the [Twitter cloud service](#createatwittercloudservice).
+1. Once the application has been created, locate the **[!UICONTROL Consumer (API) Key]** and **[!UICONTROL Consumer (API) Secret]**. This information will be needed for configuring the [Twitter cloud service](#createatwittercloudservice).
 
 #### Permissions {#permissions}
 
 In the Twitter application management's permissions section:
 
-* **Access**: Select '  Read only '.
+* **[!UICONTROL Access]**: Select `Read only`.
 
     * Other options are not supported
 
-* **Additional Permissions**: Optionally choose 'Request email addresses from users'.
+* **[!UICONTROL Additional Permissions]**: Optionally choose `Request email addresses from users`.
 
     * If not selected, the user profile in AEM will not include their email address.
     * Twitter's instructions note additional steps to take.
@@ -240,13 +240,13 @@ The only REST request made for social login is to *[GET account/verify credentia
 The [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-application-and-provider) instance, instantiated by creating a cloud service configuration, identifies the Twitter application and the member group(s) to which the new users are added.
 
 1. On the author instance, sign in with administrator privileges.
-1. From global navigation, select **Tools, Cloud Services, Twitter Social login configuration.**
-1. Choose the **context path** configuration.
+1. From global navigation, select **[!UICONTROL Tools > Cloud Services > Twitter Social login configuration]**.
+1. Choose the **[!UICONTROL context path]** configuration.
 
    The Context path should be the same as the cloud configuration path that you selected while creating/editing a community site.
 
 1. Check if your context path is enabled to create cloud services below it.
-1. Go to **Tools, General, Configuration Browser.** Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
+1. Go to **[!UICONTROL Tools > General > Configuration Browser]**. Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
 
    ![twitterconfigproppng](assets/twitterconfigproppng.png)
 
@@ -254,23 +254,23 @@ The [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-applicat
 
    ![twittersocialloginpng](assets/twittersocialloginpng.png)
 
-    * **Title** (*Required*) Enter a display title that identifies the Twitter App. It is recommended to use the same name entered as the *Display Name* for the Twitter app.
+    * **[!UICONTROL Title]** (*Required*) Enter a display title that identifies the Twitter App. It is recommended to use the same name entered as the *Display Name* for the Twitter app.
 
-    * **Consumer Key** (*Required*) Enter the **Consumer (API) Key** for the Twitter app. This identifies the [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance created from the dialog.
+    * **[!UICONTROL Consumer Key]** (*Required*) Enter the **Consumer (API) Key** for the Twitter app. This identifies the [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance created from the dialog.
 
-    * **Consumer Secret** (*Required*) Enter the ***Consumer(API) Secret*** for the Twitter App.
+    * **[!UICONTROL Consumer Secret]** (*Required*) Enter the ***Consumer(API) Secret*** for the Twitter App.
 
-    * **Create Users** If checked, logging in with a Twitter account will create an AEM user entry and add them as a member to the selected user group(s). Default is checked (strongly recommended).
+    * **[!UICONTROL Create Users]** If checked, logging in with a Twitter account will create an AEM user entry and add them as a member to the selected user group(s). Default is checked (strongly recommended).
 
-    * **Mask User IDs** Leave deselected.
+    * **[!UICONTROL Mask User IDs]** Leave deselected.
 
-    * **Add to User Groups** select Add User Group to choose one or more [member groups](https://helpx.adobe.com/experience-manager/6-3/communities/using/users.html) for the community site to which users will be added.
+    * **[!UICONTROL Add to User Groups]** select Add User Group to choose one or more [member groups](https://helpx.adobe.com/experience-manager/6-3/communities/using/users.html) for the community site to which users will be added.
 
    >[!NOTE]
    >
    >Groups may be added or removed at any time. But existing users' memberships won't be affected. Auto membership only applies to new users being created post this field update. For Sites where anonymous users are disabled, add users to corresponding community-members group meant for that closed community site.
 
-1. Select **SAVE**, and **Publish**.
+1. Select **[!UICONTROL SAVE]** and **[!UICONTROL Publish]**.
 
 The result is an [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#adobe-granite-oauth-application-and-provider) instance which does not require further modification. The default scope is the standard permissions for Twitter login.
 
@@ -290,25 +290,25 @@ If editing is necessary, on each AEM publish instance:
 
    ![twitteroauth_png](assets/twitteroauth_png.png)
 
-    * **OAuth Provider ID** (*Required*) 
+    * **[!UICONTROL OAuth Provider ID]** (*Required*) 
 
       The default value is *soco -twitter*. Do not edit.
   
-    * **Cloud Service Config** 
+    * **[!UICONTROL Cloud Service Config]** 
 
       The default value is *conf.* Do not edit.
   
-    * **OAuth Provider Service Config** 
+    * **[!UICONTROL OAuth Provider Service Config]** 
 
       The default value is */apps/social/twitterprovider/config/*. Do not edit.
 
-    * **User Path** 
+    * **[!UICONTROL User Path]** 
 
       Location in the repository where user data is stored. For a community site, to ensure permissions for members to view one another's profile, the path should be the default */home/users/community*.
   
-    * **Enable Params** do not edit
-    * **URL Parameters** do not edit
-    * **Update User** 
+    * **[!UICONTROL Enable Params]** do not edit
+    * **[!UICONTROL URL Parameters]** do not edit
+    * **[!UICONTROL Update User]** 
   
       If checked, refreshes user data in the repository on each login to reflect profile changes or additional data requested. The default is deselected.
 
@@ -331,7 +331,7 @@ Once a cloud service is configured, it may be enabled for the relevant Social Lo
 
    ![managesites_png](assets/managesites_png.png)
 
-1. On Settings tab, enable **Social Logins** and Save.
+1. On Settings tab, enable **[!UICONTROL Social Logins]** and Save.
 
    ![usermgmt_png](assets/usermgmt_png.png)
 
@@ -342,12 +342,12 @@ Once a cloud service is configured, it may be enabled for the relevant Social Lo
 * Ensure the community site has been published
 * Launch the published site in a browser 
   For example, http://localhost:4503/content/sites/engage/en.html
-* Select **Login In**
-* Select either **Sign in with Facebook** or **Sign in with Twitter**
+* Select **[!UICONTROL Login In]**
+* Select either **[!UICONTROL Sign in with Facebook]** or **[!UICONTROL Sign in with Twitter]**
 * If not already logged into Facebook or Twitter, log in with the appropriate credentials
 * It may be necessary to grant permission depending on the dialog displayed by the Facebook or Twitter app
 * Notice that the toolbar at the top of the page is updated to reflect the successful login
-* Select **Profile**: the Profile page displays the user's avatar image, first name, and last name. It also displays the information from the Facebook or Twitter profile according to the fields/params permitted.
+* Select **[!UICONTROL Profile]**: the Profile page displays the user's avatar image, first name, and last name. It also displays the information from the Facebook or Twitter profile according to the fields/params permitted.
 
 ## AEM Platform OAuth Configurations {#aem-platform-oauth-configurations}
 
@@ -362,7 +362,7 @@ To enable the authentication handler on publish, simply open the OSGi config and
   For example, http://localhost:4503/system/console/configMgr
 * Locate `Adobe Granite OAuth Authentication Handler`
 * Select to open the configuration for edit
-* Select **Save**
+* Select **[!UICONTROL Save]**
 
 ![chlimage_1-489](assets/chlimage_1-489.png)
 
@@ -385,37 +385,37 @@ To locate the created instance for a Facebook or Twitter app:
 
 1. Locate Adobe Granite OAuth Application and Provider.
 
-    * Locate the instance where ***Client ID*** matches the ***App ID***
+    * Locate the instance where **[!UICONTROL Client ID]** matches the **[!UICONTROL App ID]**
 
    ![chlimage_1-491](assets/chlimage_1-491.png)
 
    Except the following properties, leave the other properties of the config  unaltered:
 
-    * **Config ID** 
+    * **[!UICONTROL Config ID]** 
   
       (*Required*) OAuth configuration IDs must be unique. Auto-generated when cloud service is created.
   
-    * **Client ID** 
+    * **[!UICONTROL Client ID]** 
   
       (*Required*) The application ID provided when the cloud service was created.
   
-    * **Client Secret** 
+    * **[!UICONTROL Client Secret]** 
   
       (*Required*) The application secret provided when the cloud service was created.
   
-    * **Scope** 
+    * **[!UICONTROL Scope]** 
   
       (*Optional*) Additional scope for what is permitted can be asked  from  the provider. The default scope covers the permissions necessary for providing social authentication and profile data.
   
-    * **Provider ID** 
+    * **[!UICONTROL Provider ID]** 
   
       (*Required*) The provider ID for AEM Communities is set when the cloud service was created. Do not edit. For Facebook Connect, the value is *soco -facebook*. For Twitter Connect, the value is *soco -twitter*.
   
-    * **Groups** 
+    * **[!UICONTROL Groups]** 
   
       (*Recommended*) One or more member groups to which created users are added. For AEM Communities, it is recommended to list the member group for the community site.
   
-    * **Callback URL** 
+    * **[!UICONTROL Callback URL]** 
   
       (*Optional*) URL configured with the OAuth providers to redirect the client back. Use a relative  url  to use the host of the original request. Leave empty to use the originally requested URL instead. Suffix "/callback/j_security_check" is automatically appended to this  url .
 
@@ -443,17 +443,17 @@ On an author instance, signed in with administrative privileges:
 
     * Under node /oak:index
     * Select node ntBaseLucene
-    * Select **Copy**
-    * Select /oak:index
-    * Select **Paste**
+    * Select **[!UICONTROL Copy]**
+    * Select `/oak:index`
+    * Select **[!UICONTROL Paste]**
     * Rename Copy of ntBaseLucene to ntBaseLucene-oauth
 
 1. Modify the properties of node ntBaseLucene-oauth:
 
-    * **indexPath**: /oak:index/ntBaseLucene-oauth
-    * **name**: oauthid-123****
-    * **reindex**: true
-    * **reindexCount**: 1
+    * **[!UICONTROL indexPath]**: /oak:index/ntBaseLucene-oauth
+    * **[!UICONTROL name]**: oauthid-123****
+    * **[!UICONTROL reindex]**: true
+    * **[!UICONTROL reindexCount]**: 1
 
 1. Under node /oak:index/ntBaseLucene-oauth/indexRules/nt:base/properties:
 
@@ -461,9 +461,9 @@ On an author instance, signed in with administrative privileges:
     * Rename cqTags to oauthid-123****
     * Modify the properties of node oauthid-123****
 
-        * **name**: oauthid-123****
+        * **[!UICONTROL name]**: oauthid-123****
 
-    * Select **Save All.**
+    * Select **[!UICONTROL Save All]**.
 
 **&ast;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](social-login.md#adobe-granite-oauth-application-and-provider)configuration.
 

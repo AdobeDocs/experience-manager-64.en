@@ -157,7 +157,7 @@ The Standard MLS files are stored in the AEM repository.
 
 **Note**: While the Solr files are stored in the msrp/ folder, they are also for DSRP (no changes necessary).
 
-**Download instructions**: replace *solrX *with *solr4 *or *solr5 *as appropriate
+**Download instructions**: replace `solrX` with `solr4` or `solr5` as appropriate
 
 1. Using CRXDE|Lite, locate
 

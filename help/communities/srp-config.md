@@ -28,7 +28,7 @@ For a discussion of storage options and deployment topologies, visit
 
 In the author environment, to reach the storage configuration console
 
-* From global navigation: **Tools, Communities, Storage Configuration**
+* From global navigation: **[!UICONTROL Tools > Communities > Storage Configuration]**
 
 To select a storage option other than the default JCR:
 
@@ -39,7 +39,7 @@ To select a storage option other than the default JCR:
     * See details for [selecting DSRP](dsrp.md#select-dsrp)
     * See details for [selecting ASRP](asrp.md#select-asrp)
 
-* Select **Submit**
+* Select **[!UICONTROL Submit]**
 
 ### About JCR Storage {#about-jcr-storage}
 
