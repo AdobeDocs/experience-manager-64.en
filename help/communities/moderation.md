@@ -45,7 +45,7 @@ By selecting the Administration link, the Moderation console appears:
 
 In the author environment, to reach the Moderation console
 
-* From global navigation: **Navigation, Communities, Moderation**
+* From global navigation: **[!UICONTROL Navigation > Communities > Moderation]**
 
 Only when signed in as an administrator, or as a member with ` [moderator permissions](in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed. The only community content displayed is that which the signed in member is permitted to moderate.
 
@@ -92,7 +92,7 @@ The content area contains information for posted UGC:
 * Location of the post
 * When it was posted
 * Number of replies to the post
-* [sentiment](moderate-ugc.md#sentiment) associated with the post
+* [Sentiment](moderate-ugc.md#sentiment) associated with the post
 * If approved, a checkmark is displayed
 * If there is an attachment, a paperclip is displayed
 
@@ -200,7 +200,7 @@ Status limits the referenced UGC displayed to posts of the selected status, whic
 
 Flagging limits the referenced UGC displayed to posts which are flagged or hidden.
 
-Once a piece of content is flagged, it remains flagged until you unflag that single piece of content by selecting the **Flag** button once again. Note that there are no flagging levels, such as important or followup.
+Once a piece of content is flagged, it remains flagged until you unflag that single piece of content by selecting the **[!UICONTROL Flag]** button once again. Note that there are no flagging levels, such as important or followup.
 
 ![chlimage_1-476](assets/chlimage_1-476.png)
 

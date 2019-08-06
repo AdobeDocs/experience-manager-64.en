@@ -48,30 +48,30 @@ The [Storage Configuration console](srp-config.md) allows for the selection of t
 
 On author, to access the Storage Configuration console:
 
-* From global navigation: **Tools, Communities, Storage Configuration**
+* From global navigation: **[!UICONTROL Tools > Communities > Storage Configuration]**
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 
-* Select **MongoDB Storage Resource Provider (MSRP)**
-* **mongoDB Configuration**
+* Select **[!UICONTROL MongoDB Storage Resource Provider (MSRP)]**
+* **[!UICONTROL mongoDB Configuration]**
 
-    * **mongoDB URI**
+    * **[!UICONTROL mongoDB URI]**
   
       *default*: mongodb://localhost/?maxPoolSize=10&waitQueueMultiple=5&readPreference=secondaryPreferred
   
-    * **mongoDB Database** 
+    * **[!UICONTROL mongoDB Database]** 
   
       *default*: communities
   
-    * **mongoDB UGC Collection** 
+    * **[!UICONTROL mongoDB UGC Collection]** 
 
       *default*: content
   
-    * **mongoDB Attachment Collection** 
+    * **[!UICONTROL mongoDB Attachment Collection]** 
   
       *default*: attachments
 
-* **SolrConfiguration**
+* **[!UICONTROL SolrConfiguration]**
 
     * **[Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
 
@@ -79,14 +79,14 @@ On author, to access the Storage Configuration console:
       For a ZooKeeper Ensemble, enter comma-separated `HOST:PORT` values, such as *host1:2181,host2:2181* 
       Leave blank if running Solr in standalone mode using the internal ZooKeeper.  
       *Default*: *&lt;blank&gt;*
-    * **Solr URL** 
+    * **[!UICONTROL Solr URL]** 
       The URL used to communicate with Solr in standalone mode. 
       Leave blank if running in SolrCloud mode.  
       *Default*: https://127.0.0.1:8983/solr/
-    * **Solr Collection** 
+    * **[!UICONTROL Solr Collection]** 
       The Solr collection name.  
       *Default*: collection1
-* Select **Submit**
+* Select **[!UICONTROL Submit]**
 
 >[!NOTE]
 >
@@ -138,11 +138,11 @@ MSRP must be identified as the common store on all author and publish instances.
 To make the identical configuration available in the publish environment:
 
 * On author:
-    * Navigate from main menu to `Tools > Operations > Replication`
-    * Select **Activate Tree**
-    * **Start Path:**
+    * Navigate from main menu to **[!UICONTROL Tools > Operations > Replication]**
+    * Select **[!UICONTROL Activate Tree]**
+    * **[!UICONTROL Start Path]**:
         * Browse to `/etc/socialconfig/srpc/`
-    * Select **Activate**
+    * Select **[!UICONTROL Activate]**
 
 ## Managing User Data {#managing-user-data}
 
