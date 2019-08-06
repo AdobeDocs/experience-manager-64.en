@@ -101,7 +101,7 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 >
 >Each time a `Messaging Operations Service` configuration is opened for edit, if `allowedAttachmentTypes.name` had been removed, an empty entry is re-added to make the property configurable. A single empty entry effectively disables file attachments.
 >
->To allow all file extensions, except for those blacklisted, use the '**-**' icon to (again) remove the single empty entry before clicking **Save**.
+>To allow all file extensions, except for those blacklisted, use the '**-**' icon to (again) remove the single empty entry before clicking **[!UICONTROL Save]**.
 
 ## Troubleshooting {#troubleshooting}
 
