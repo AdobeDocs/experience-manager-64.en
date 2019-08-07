@@ -130,10 +130,10 @@ For example, `community-engage-x0e11-members`.
 
 From the main console:
 
-* Select **Assets**
-* Enter **Select** mode
+* Select **[!UICONTROL Assets]**
+* Enter **[!UICONTROL Select]** mode
 * Select folder named with the [unique site Id](#community-unique-site-id)
-* Select **Delete** (may need to select from **More...**)
+* Select **[!UICONTROL Delete]** (may need to select from **[!UICONTROL More...]**)
 
 ### Database Records {#database-records}
 
