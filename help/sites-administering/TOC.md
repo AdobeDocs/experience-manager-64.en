@@ -96,13 +96,9 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [eCommerce](ecommerce.md)
     + [Concepts](concepts.md)
     + [Administering generic eCommerce](generic.md)
-    + [Intershop](intershop.md)
-    + [IBM Websphere Commerce](ibm-websphere.md)
     + [Magento](magento.md)
-    + [Elastic Path](elasticpath.md)
     + [hybris](hybris.md)
     + [Demandware](demandware.md)
-    + [Digital River](digital-river.md)
     + [AEM Commerce - GDPR Readiness](gdpr-compliance-commerce.md)
 + Integration {#integration}
     + [Integrating with Third-Party Services](third-party-services.md)
