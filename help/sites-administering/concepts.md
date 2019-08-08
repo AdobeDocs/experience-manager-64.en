@@ -117,7 +117,6 @@ AEM eCommerce is implemented with an eCommerce engine:
 
 * The eCommerce integration framework has been built to allow you to easily integrate an eCommerce engine with AEM. The purpose built eCommerce engine controls product data, shopping carts, checkout and order fulfillment, while AEM controls the data display and marketing campaigns.
 
-  [A reference site has already been implemented using hybris](/help/sites-administering/hybris.md).
 
 >[!NOTE]
 >
@@ -222,7 +221,7 @@ Product data can be:
 * maintained directly in AEM (generic).  
 * maintained in the eCommerce engine and made available in AEM.
 
-  Depending on the data type it is [synchronized](#catalog-maintenance-data-synchronization) as necessary, or accessed directly; for example, highly volatile and critial data such as product prices are retrieved from the ecommerce engine (e.g. hybris) on every page request to ensure they are always up-to-date.
+  Depending on the data type it is [synchronized](#catalog-maintenance-data-synchronization) as necessary, or accessed directly; for example, highly volatile and critial data such as product prices are retrieved from the ecommerce engine on every page request to ensure they are always up-to-date.
 
 In either case, when the product data has been entered/imported into AEM it can be seen from the **Products** console. Here the card and list views of a product show information such as:
 
@@ -330,7 +329,7 @@ When using an eCommerce engine the product data is maintained there and needs to
 
 This can depend on the type of data:
 
-* A [periodic synchronization is used together with a data feed of changes](/help/sites-developing/hybris.md#product-synchronization-and-publishing). 
+* A [periodic synchronization is used together with a data feed of changes](/help/sites-developing/sap-commerce-cloud.md#product-synchronization-and-publishing). 
 
   In addition to this, you can select specific updates for an express update.
 
@@ -871,5 +870,5 @@ If you require a more thorough implementation, you can either:
 * Extend the default search component with the functionality you need.
 * Implement the search method in your `CommerceService` and then use the eCommerce search component on your search page.
 
-When using an eCommerce engine, the eCommerce search API can be fully implemented in the eCommerce engine solution (e.g. hybris), so you can use the eCommerce search component that is provided out-of-the-box. The faceted search allows you to search either JCR and/or the engine:  
+When using an eCommerce engine, the eCommerce search API can be fully implemented in the eCommerce engine solution, so you can use the eCommerce search component that is provided out-of-the-box. The faceted search allows you to search either JCR and/or the engine:  
 
