@@ -29,21 +29,13 @@ This means that:
 
 >[!NOTE]
 >
->The eCommerce framework can be used with any eCommerce solution; including:
+>The eCommerce framework can be used with:
 >
->* [hybris](https://www.hybris.com/) - see [AEM with hybris](/help/sites-administering/hybris.md)
+>* [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
 >
->* [IBM](https://www.ibm.com/software/websphere) - see [AEM with IBM Websphere Commerce](/help/sites-administering/ibm-websphere.md)
+>* [SAP Commerce Cloud](/help/sites-administering/sap-commerce-cloud.md)
 >
->* [Elastic Path](https://www.elasticpath.com/) - see [AEM with Elastic Path](/help/sites-administering/elasticpath.md)
->
->* [Intershop](https://www.intershop.com/) - see [AEM with Intershop](/help/sites-administering/intershop.md)
->
->* [Demandware](https://www.demandware.com/) - see [AEM with Demandware](/help/sites-administering/demandware.md)
->
->* [Agility Multichannel](https://www.agilitymultichannel.com) - see [Agility PIM and AEM](https://www.agilitymultichannel.com/adobe)
->
->* [Infield Design](http://www.infielddesign.com/technology/adobe-experience-manager/) - see [AEM eCommerce With Magento](http://www.infielddesign.com/technology/adobe-experience-manager/magento)
+>* [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce) 
 >
 
 >[!NOTE]
