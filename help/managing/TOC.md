@@ -22,5 +22,3 @@ user-guide-title: AEM 6.4 Managing User Guide
   + [Quick Guide to WCAG 2.0](qg-wcag.md)
 + General Data Protection Regulation {#general-data-protection-regulation}
   + [GDPR Readiness](gdpr-compliance.md)
-+ Deleted section Remove duplicates and move others to sections above {#deleted}
-  + [Managing AEM Projects - Further Reference](manage-reference.md)
