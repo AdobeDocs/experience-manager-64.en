@@ -52,7 +52,7 @@ On the [Site Template step](sites-console.md#step2013asitetemplate), enter a tit
 
 * **Template**: pull down to choose `Reference Site`
 
-Select **[!UICONTROL ]Next**
+Select **[!UICONTROL Next]**
 
 ### Step 2: Design {#step-design}
 
@@ -159,7 +159,7 @@ Select **[!UICONTROL Next]**.
 
 ### Step 4: Create Communities Site {#step-create-communities-site}
 
-Select **[!UICONTROL ]Create.**
+Select **[!UICONTROL Create]**.
 
 ![chlimage_1-359](assets/chlimage_1-359.png)
 
@@ -197,7 +197,7 @@ From left to right they are:
 
 * **Delete Site**  
   
-  select the delete icon to delete the community site from within **[!UICONTROL Communities &gt; Sites console]**. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
+  select the delete icon to delete the community site from within **[!UICONTROL Communities > Sites console]**. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
 
 ![siteactions-1](assets/siteactions-1.png)
 
@@ -207,7 +207,7 @@ From left to right they are:
 >
 >On the author instance, from the main menu
 >
->1. Navigate to **[!UICONTROL Tools &gt; Operations &gt; Replication]** menu
+>1. Navigate to **[!UICONTROL Tools > Operations > Replication]** menu
 >1. Select **[!UICONTROL Agents on author]**
 >1. Select **[!UICONTROL Default Agent (publish)]**
 >1. Next to **[!UICONTROL Settings]** select **[!UICONTROL Edit]**

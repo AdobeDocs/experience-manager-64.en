@@ -165,7 +165,7 @@ Change the browser URL to the root page: [http://localhost:4502/editor.html/cont
 * Select **[!UICONTROL Open Properties]**
 * On the ADVANCED tab
 
-    * For the Redirect entry, browse to **[!UICONTROL Websites &gt; SCF Sandbox Site &gt; SCF Sandbox]**
+    * For the Redirect entry, browse to **[!UICONTROL Websites > SCF Sandbox Site > SCF Sandbox]**
     * Click **[!UICONTROL OK]**
 
 * Click **[!UICONTROL OK]**

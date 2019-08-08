@@ -18,7 +18,7 @@ Adobe Stock service provides designers and businesses with access to millions of
 
 ## Prerequisites {#prerequisites}
 
-The integration requires an [enterprise Adobe Stock plan](https://landing.adobe.com/en/na/products/creative-cloud/ctir-4625-stock-for-enterprise/index.html) and AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](../release-notes/sp-release-notes.md).
+The integration requires an [enterprise Adobe Stock plan](https://landing.adobe.com/en/na/products/creative-cloud/ctir-4625-stock-for-enterprise/index.html) and AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](/help/release-notes/sp-release-notes.md).
 
 ## Integrate AEM and Adobe Stock {#integrate-aem-and-adobe-stock}
 
@@ -130,5 +130,4 @@ When a user updates a license reference field, the license reference information
 
 [Adobe Stock enterprise plan help](https://helpx.adobe.com/enterprise/using/adobe-stock-enterprise.html)
 
-[Adobe Stock FAQ](https://helpx.adobe.com/stock/faq.html)  
-
+[Adobe Stock FAQ](https://helpx.adobe.com/stock/faq.html)
