@@ -45,7 +45,7 @@ These consoles are very similar to the Communities Sites console.
     * Additional Available Community Group Language(s):use the pull down menu to select the available community group language(s). The menu displays all the language(s) in which the parent community site is created. Users can select among these languages to create groups in multiple locales in this single step. Same group gets created in multiple specified languages in the Groups console of the respective community sites.
     * Community Group Name: arts
     * Template: pull down to select `Reference Group`
-    * `select Next`
+    * Select `Next`
 ![parenttonestedgroup](assets/parenttonestedgroup.png)
 
 Continue through the other panels with these settings:
@@ -59,8 +59,8 @@ Continue through the other panels with these settings:
     * **Membership**
         * use default `Optional Membership`
     * **Thumbnail**
-        * `*optional*`
-    * `select Next`
+        * `optional`
+    * Select `Next`
 * Select **[!UICONTROL Create]**
 
 ### Nesting Groups within Arts Group {#nesting-groups-within-arts-group}

@@ -27,7 +27,7 @@ In this exercise, all pages are based on one simple template.
 1. In the explorer pane of CRXDE Lite
 
     * select `/apps/an-scf-sandbox/templates` 
-    * **[!UICONTROL Create &gt; > Create Template]**
+    * **[!UICONTROL Create > Create Template]**
 
 1. In the Create Template dialog, type the following values and then click **[!UICONTROL Next]**:
 
@@ -81,7 +81,7 @@ In this exercise, all pages are based on one simple template.
 
 Create the *component* that defines the content and renders any pages created based on the [playpage template](#createthepagetemplate).
 
-1. In CRXDE Lite, right-click **`/apps/an-scf-sandbox/components`** and click **[!UICONTROL Create &gt; Component]**.
+1. In CRXDE Lite, right-click **`/apps/an-scf-sandbox/components`** and click **[!UICONTROL Create > Component]**.
 1. By setting the node's name (Label) to *playpage*, the path to the component is  
 
    `/apps/an-scf-sandbox/components/playpage` 

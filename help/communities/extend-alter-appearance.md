@@ -55,7 +55,7 @@ One way to do so is
 
 * From the main menu
 
-    * Select **[!UICONTROL Tools &gt; Operations &gt; Replication]**
+    * Select **[!UICONTROL Tools > Operations > Replication]**
     * Select `Activate Tree`
     * Set `Start Path`: to `/apps/custom`
     * Uncheck `Only Modified`
