@@ -55,16 +55,16 @@ To protect your community site's content from access by anonymous users through 
    >
    >Do not go to the localized site.
 
-1. Go to **Page Properties**.
+1. Go to **[!UICONTROL Page Properties]**.
 
    ![site-authentication](assets/site-authentication.png)
 
-1. Go to **Advanced** tab.
+1. Go to **[!UICONTROL Advanced]** tab.
 
    ![page-properties](assets/page-properties.png)
 
-1. Enable **Authentication Requirement**.
-1. Add the path of the login page. For example, **/content/......./GetStarted**.
+1. Enable **[!UICONTROL Authentication Requirement]**.
+1. Add the path of the login page. For example, `/content/......./GetStarted`.
 1. Publish the page.
 
 ## Trusted Community Member {#trusted-community-member}
@@ -113,15 +113,15 @@ Groups may also be created in the author environment and managed within the comm
 
 Create a Reference Group:
 
-1. Select **New Group**
-1. **Settings tab**
+1. Select **[!UICONTROL New Group]**
+1. **[!UICONTROL Settings tab]**
     * Group Name: `Sports`
     * Description: `A parent group for various sporting groups`
     * Group URL Name: `sports`
     * select `Open Group` (allow any community member to participate by joining)
-1. **Template tab**
+1. **[!UICONTROL Template tab]**
     * Select `Reference Group` (contains a groups function in its structure to allow nested groups)
-1. Select **Create Group**
+1. Select **[!UICONTROL Create Group]**
 
 ![chlimage_1-317](assets/chlimage_1-317.png)
 
@@ -186,7 +186,7 @@ Use the browser's back button to return to the published site. Most consoles are
 
 After logging out, it is possible to create a new user registration.
 
-* select `Log In`
+* Select `Log In`
 * Select `Sign up for a new account`
 
 ![chlimage_1-323](assets/chlimage_1-323.png) ![chlimage_1-324](assets/chlimage_1-324.png)

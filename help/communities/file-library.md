@@ -28,7 +28,7 @@ To add a `File Library` component to a page in author mode, locate the component
 
 * `Communities / File Library`
 
-And drag it into place on a page.
+and drag it into place on a page.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -44,7 +44,7 @@ Select the placed `File Library` component to access and select the `Configure` 
 
 ### Comments tab {#comments-tab}
 
-Under the **Comments** tab, specify if and how comments for uploaded files appear:
+Under the **[!UICONTROL Comments]** tab, specify if and how comments for uploaded files appear:
 
 * **Allow Comments on Files** 
   If checked, allow comments on uploaded files. Default is unchecked.
@@ -87,7 +87,7 @@ Under the **Comments** tab, specify if and how comments for uploaded files appea
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation** tab, configure moderation of comments, if comments are allowed:
+Under the **[!UICONTROL User Moderation]** tab, configure moderation of comments, if comments are allowed:
 
 * **Pre-Moderation** 
   If checked, comments must be approved before they will appear on a publish site. Default is unchecked.

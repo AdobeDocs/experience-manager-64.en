@@ -122,19 +122,19 @@ To try the server-side sample script, you will need a development environment an
 1. Login as an administrator to ` [CRXDE|Lite](http://localhost:4502/crx/de)`
 1. Create a `bundle node`in `/apps/engage/install` with arbitrary names, such as
 
-    * Symbolic Name: com.engage.media.social.messaging.MessagingNotification
-    * Name: Getting Started Tutorial Message Notificaton 
-    * Description: a sample service for sending an email notification to users when they receive a message
-    * Package: com.engage.media.social.messaging.notification
+    * **[!UICONTROL Symbolic Name]**: com.engage.media.social.messaging.MessagingNotification
+    * **[!UICONTROL Name]**: Getting Started Tutorial Message Notificaton 
+    * **[!UICONTROL Description]**: a sample service for sending an email notification to users when they receive a message
+    * **[!UICONTROL Package]**: `com.engage.media.social.messaging.notification`
 
-1. Navigate to /apps/engage/install/com.engage.media.social.messaging.MessagingNotification/src/main/java/com/engage/media/social/messaging/notification
+1. Navigate to `/apps/engage/install/com.engage.media.social.messaging.MessagingNotification/src/main/java/com/engage/media/social/messaging/notification`
 
-    1. Delete the Activator.java class automatically created
-    1. Create class MessageEventHandler.java
-    1. Copy/paste the code below into MessageEventHandler.java
+    1. Delete the `Activator.java` class automatically created
+    1. Create class `MessageEventHandler.java`
+    1. Copy/paste the code below into `MessageEventHandler.java`
 
 1. click **Save All**
-1. Navigate to /apps/engage/install/com.engage.media.social.messaging.MessagingNotification/com.engage.media.social.messaging.MessagingNotification.bnd and add all the import statements as written in the MessageEventHandler.java code.
+1. Navigate to `/apps/engage/install/com.engage.media.social.messaging.MessagingNotification/com.engage.media.social.messaging.MessagingNotification.bnd` and add all the import statements as written in the `MessageEventHandler.java` code.
 1. Build the bundle
 1. Ensure `Day CQ Mail Service`OSGi service is configured
 1. Login as one demo user and send email to another

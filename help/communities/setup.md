@@ -86,17 +86,17 @@ Create a user on *author*, who is assigned the role of Community Administrator:
 
     * For example, username 'admin' / password 'admin'
 
-* From the main console, navigate to **Tools, Operations, Security, Users**
-* From the **Edit **menu, select **Add User**
+* From the main console, navigate to **[!UICONTROL Tools > Operations > Security > Users]**
+* From the **[!UICONTROL ]Edit** menu, select **[!UICONTROL Add User]**
 
 * In the `Create New User` dialog enter
 
-    * **ID&ast;**: sirius
-    * **Emai Address**: sirius.nilson@mailinator.com
-    * **Password&ast;**: password
-    * **Confirm Password&ast;**: password
-    * **First Name**: Sirius
-    * **Last Name&ast;**: Nilson
+    * **[!UICONTROL ID&ast;]**: sirius
+    * **[!UICONTROL Emai Address]**: sirius.nilson@mailinator.com
+    * **[!UICONTROL Password&ast;]**: password
+    * **[!UICONTROL Confirm Password&ast;]**: password
+    * **[!UICONTROL First Name]**: Sirius
+    * **[!UICONTROL Last Name&ast;]**: Nilson
 
 ### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
 
@@ -107,7 +107,7 @@ Scroll down to `Add User to Groups`:
     * Select `Community Administrators`
     * Select `Community Enablement Managers`
 
-* Select **Save**
+* Select **[!UICONTROL Save]**
 
 ![chlimage_1-301](assets/chlimage_1-301.png)
 

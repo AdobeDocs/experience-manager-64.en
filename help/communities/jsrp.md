@@ -31,12 +31,12 @@ The [Storage Configuration console](srp-config.md) allows for the selection of t
 
 In the author environment, to reach the Storage Configuration console
 
-* From global navigation: **Tools, Communities, Storage Configuration**
+* From global navigation: **[!UICONTROL Tools > Communities > Storage Configuration]**
 
 ![chlimage_1-234](assets/chlimage_1-234.png)
 
-* Select **JCR Storage Resource Provider (JSRP)**
-* Select **Submit**
+* Select **[!UICONTROL JCR Storage Resource Provider (JSRP)]**
+* Select **[!UICONTROL Submit]**
 
 ### Publishing the Configuration {#publishing-the-configuration}
 
@@ -44,13 +44,13 @@ While JSRP is the default configuration, to ensure the identical configuration i
 
 * On author:
 
-    * From global navigation: **Tools, Deployment, Replication**
-    * Select **Activate Tree**
-    * **Start Path:**
+    * From global navigation: **[!UICONTROL Tools > Deployment > Replication]**
+    * Select **[!UICONTROL Activate Tree]**
+    * **[!UICONTROL Start Path]**:
 
         * Browse to `/etc/socialconfig/srpc/`
 
-    * Select **Activate**
+    * Select **[!UICONTROL Activate]**
 
 ## Managing User Data {#managing-user-data}
 

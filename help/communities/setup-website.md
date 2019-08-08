@@ -15,16 +15,16 @@ discoiquuid: d18c0ece-4c4f-499c-ac94-a9aaa7f883c4
 
 To setup your website, the instructions below describe the folders to create in the following locations:
 
-* **/apps**/an-scf-sandbox
+* `/apps/an-scf-sandbox`
   This is where custom applications and templates reside
 
-* **/etc/designs**/an-scf-sandbox
+* `/etc/designs/an-scf-sandbox`
   This is where downloadable design elements reside
 
-* **/content**/an-scf-sandbox
+* `/content/an-scf-sandbox`
   This is where the downloadable web pages reside
 
-The code in this tutorial will rely on the main folder name being the same for the application, design, and content. If you choose some other name for your website, then always replace **an-scf-sandbox **with the name you have chosen.
+The code in this tutorial will rely on the main folder name being the same for the application, design, and content. If you choose some other name for your website, then always replace `an-scf-sandbox` with the name you have chosen.
 
 >[!NOTE]
 >
@@ -43,31 +43,31 @@ The /apps directory in the repository contains the code with implements the beha
 
 The /apps directory is protected and not publicly accessible as are the /content and /etc/designs directories.
 
-1. Create **/apps/an-scf-sandbox** folder.
+1. Create `/apps/an-scf-sandbox` folder.
 
-   Using **CRXDE Lite**, in the explorer pane
+   Using **[!UICONTROL CRXDE Lite]**, in the explorer pane
 
-    1. Select the **`/apps`** folder
-    1. Right-click **Create**... or pull down the **Create...** menu
-    1. Select **Create Folder...** .
-    1. In the **Create Folder** dialog, enter **an-scf-sandbox**
-    1. Click **OK**
+    1. Select the `/apps` folder
+    1. Right-click **[!UICONTROL Create]**... or pull down the **[!UICONTROL Create...]** menu
+    1. Select **[!UICONTROL Create Folder...]** .
+    1. In the **[!UICONTROL Create Folder]** dialog, enter `an-scf-sandbox`
+    1. Click **[!UICONTROL OK]**
 
-1. Create **components** subfolder.
+1. Create **[!UICONTROL components]** subfolder.
 
-    1. Select the **/apps/an-scf-sandbox** folder
-    1. Click **Create** &gt; **Create Folder**
-    1. In the **Create Folder** dialog, enter **components**
-    1. Click **OK**
+    1. Select the `/apps/an-scf-sandbox` folder
+    1. Click **[!UICONTROL Create &gt; Create Folder]**
+    1. In the **[!UICONTROL Create Folder]** dialog, enter **[!UICONTROL components]**
+    1. Click **[!UICONTROL OK]**
 
-1. Create **templates** subfolder.
+1. Create **[!UICONTROL ]templates** subfolder.
 
-    1. Select the **/apps/an-scf-sandbox** folder
-    1. Click **Create** &gt; **Create Folder**
-    1. In the **Create Folder** dialog, enter **templates**
-    1. Click **OK**
-    1. Re-select **/apps/an-scf-sandbox**
-    1. Select **Save All**
+    1. Select the `/apps/an-scf-sandbox` folder
+    1. Click **[!UICONTROL Create &gt; Create Folder]**
+    1. In the **[!UICONTROL Create Folder]** dialog, enter **[!UICONTROL templates]**
+    1. Click **[!UICONTROL OK]**
+    1. Re-select `/apps/an-scf-sandbox`
+    1. Select **[!UICONTROL Save All]**
 
    As with any editing process, save often. If you run into problems with entering data, it may be either because your login has timed out or you need to save previous edits.
 
@@ -83,7 +83,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
    Note: If you use CRXDE Lite to create a Node of type `cq:Page`, the Access Control and Replication would not be set to default settings for a page.
 
-1. In the explorer pane, select the **Designs **folder and then click **New &gt; New Page**.
+1. In the explorer pane, select the **[!UICONTROL Designs]** folder and then click **[!UICONTROL New &gt; New Page]**.
 
    Enter:
 
@@ -91,7 +91,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
     * Name: **an-scf-sandbox**
     * Select **Design Page Template**
 
-   Click **Create**
+   Click **[!UICONTROL Create]**
 
    ![chlimage_1-45](assets/chlimage_1-45.png)
 

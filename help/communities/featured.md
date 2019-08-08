@@ -38,7 +38,7 @@ To add a `Featured Content` component to a page in author mode, use the componen
 
 * `Communities / Featured Content`
 
-And drag it into place on a page where the featured contentshould appear.
+and drag it into place on a page where the featured contentshould appear.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -54,15 +54,15 @@ Select the placed `Featured Content` component to access and select the `Configu
 
 ### Settings tab {#settings-tab}
 
-Under the **Settings** tab, identify the content to feature:
+Under the **[!UICONTROL Settings]** tab, identify the content to feature:
 
-* **Display Name** 
+* **[!UICONTROL Display Name]** 
   The title for the list of featured content. For example `Featured Questions` or `Featured Ideas`. Default is `Featured Content` if left empty.
 
-* **Location of the Featured Content** 
+* **[!UICONTROL Location of the Featured Content]** 
   *(Required)* Browse to the page containing the content that may be feature (components of that page must be configured to Allow Featured Content). For example, `/content/sites/engage/en/forum`
 
-* **Display Limit** 
+* **[!UICONTROL Display Limit]** 
   The maximum number of featured content to display. Default is 5.
 
 ## Site Visitor Experience {#site-visitor-experience}

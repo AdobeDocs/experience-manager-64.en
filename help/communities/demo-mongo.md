@@ -147,7 +147,7 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
 1. On the publish instance, browse to the [Community Components Guide](http://localhost:4503/content/community-components/en/comments.html) page and select the Comments component.
 1. Sign in to post a comment:
-1. Enter text in the comment text entry box and click **Post**
+1. Enter text in the comment text entry box and click **[!UICONTROL Post]**
 
    ![chlimage_1-191](assets/chlimage_1-191.png)
 
@@ -155,18 +155,18 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
    ![chlimage_1-192](assets/chlimage_1-192.png)
 
-   Note: while there are JCR nodes under the *asipath *on author, these are for the SCF framework. The actual UGC is not in JCR, it is in the MongoDB.
+   Note: while there are JCR nodes under the *asipath* on author, these are for the SCF framework. The actual UGC is not in JCR, it is in the MongoDB.
 
-1. View the UGC in mongodb (communities &gt; Collections &gt; content)
+1. View the UGC in mongodb **[!UICONTROL Communities &gt; Collections &gt; Content]**
 
    ![chlimage_1-193](assets/chlimage_1-193.png)
 
 1. View the UGC in Solr:
 
-    * browse to Solr dashboard: [http://localhost:8983/solr/](http://localhost:8983/solr/)
-    * user 'core selector' to select 'collection1'
-    * select `Query`
-    * select `Execute Query`
+    * Browse to Solr dashboard: [http://localhost:8983/solr/](http://localhost:8983/solr/)
+    * User `core selector` to select `collection1`
+    * Select `Query`
+    * Select `Execute Query`
 
    ![chlimage_1-194](assets/chlimage_1-194.png)
 
@@ -184,7 +184,7 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
     * In JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
-        * does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
-        * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider
+        * Does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
+        * If the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider
 
 1. Make sure AEM was restarted after MSRP selected.

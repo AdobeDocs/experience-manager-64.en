@@ -4,7 +4,7 @@ seo-title: AEM Forms
 description: Release notes specific to Adobe Experience Manager 6.3 Forms.
 seo-description: Release notes specific to Adobe Experience Manager 6.3 Forms.
 uuid: 317770c9-bb59-4bdf-8a14-be265e8f5f81
-contentOwner: Guillaume Carlino
+contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
@@ -55,4 +55,3 @@ This section provides highlights of the AEM 6.4 Forms release. A detailed descri
 ## Single-hop upgrade from LiveCycle to Experience Manager Forms 6.4 {#single-hop-upgrade-from-livecycle-to-experience-manager-forms}
 
 * Upgrade directly from LiveCycle ES4 to AEM 6.4 Forms JEE
-

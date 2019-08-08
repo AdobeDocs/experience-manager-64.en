@@ -1210,7 +1210,7 @@ The following are scenarios where you create versions:
 
 * You modify an image in a different application and upload to AEM Assets. A version of the image is created so your original image is not overwritten.
 * You edit the metadata of an asset.
-* You use AEM Desktop App to checkout an existing asset and save your changes. A new version is created everytime the asset is saved.
+* You use AEM desktop app to checkout an existing asset and save your changes. A new version is created everytime the asset is saved.
 
 You can also enable automatic versioning through a workflow. When you create a version for an asset, the metadata and renditions are saved along with the version. Renditions are rendered alternatives of the same images, for example, a PNG rendition of an uploaded JPEG file.
 

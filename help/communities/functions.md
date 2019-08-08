@@ -27,7 +27,7 @@ A number of community functions are immediately available as seen in the communi
 
 In the author environment, to reach the community functions console
 
-* From global navigation: **Tools, Communities, Community Functions**
+* From global navigation: **[!UICONTROL Tools > Communities > Community Functions]**
 
 ![chlimage_1-379](assets/chlimage_1-379.png)
 

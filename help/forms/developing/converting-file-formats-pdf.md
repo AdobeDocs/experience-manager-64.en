@@ -588,7 +588,7 @@ If WinID is able to extract the dialog contents such as the text, sub-windows, w
 This table lists the type of information used in printing native file formats.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Information type</p></th> 
    <th><p>Description</p></th> 

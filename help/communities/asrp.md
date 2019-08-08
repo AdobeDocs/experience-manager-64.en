@@ -40,30 +40,30 @@ The [Storage Configuration console](srp-config.md) allows for the selection of t
 
 **On author**:
 
-* From global navigation: **Tools, Communities, Storage Configuration**
+* From global navigation: **[!UICONTROL Tools > Communities > Storage Configuration]**
 
 ![chlimage_1-310](assets/chlimage_1-310.png)
 
-* Select **Adobe Storage Resource Provider (ASRP)**
+* Select **[!UICONTROL Adobe Storage Resource Provider (ASRP)]**
 * The following information comes from the provisioning process
 
-    * **Data Center URL** 
+    * **[!UICONTROL Data Center URL]** 
 
       Pull-down to select the production data center identified by your account representative
 
-    * **Default Report Suite** 
+    * **[!UICONTROL Default Report Suite]** 
 
       Enter the name of the default report suite
 
-    * **Consumer Key** 
+    * **[!UICONTROL Consumer Key]** 
 
       Enter the consumer key
 
-    * **Secret** 
+    * **[!UICONTROL Secret]** 
     
-      Enter the secret
+      Enter the secret key
 
-* Select **Submit**
+* Select **[!UICONTROL Submit]**
 
 Prepare the publish instances:
 
@@ -72,7 +72,7 @@ Prepare the publish instances:
 
 After submitting the configuration, test the connection:
 
-* Select **Test Config** 
+* Select **[!UICONTROL Test Config]** 
   for each author and publish instance, test the connection to the data center from the Storage Configuration console
 
 * Finally, ensure that the site URLs for profile data are routable from the Data Center by [externalizing links](#externalize-links).
@@ -101,14 +101,14 @@ To make the identical configuration available in the publish environment:
 
 * **On author**:
 
-    * Navigate from main menu to `Tools > Operations > Replication`
-    * Select **Activate Tree**
-    * **Start Path:**
+    * Navigate from main menu to **[!UICONTROL Tools > Operations > Replication]**
+    * Select **[!UICONTROL Activate Tree]**
+    * **[!UICONTROL Start Path]**:
 
         * Browse to `/etc/socialconfig/srpc/`
 
-    * Uncheck **Only Modified**
-    * Select **Activate**
+    * Uncheck **[!UICONTROL Only Modified]**
+    * Select **[!UICONTROL Activate]**
 
 ## Upgrading from AEM 6.0 {#upgrading-from-aem}
 
@@ -151,7 +151,7 @@ Make sure ASRP has been configured to be the default provider by checking the co
 
 On all author and publish AEM instances, revisit the Storage Configuration console or check the AEM repository:
 
-* in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
+* In JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
     * Does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
     * If the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define ASRP to be the default provider
