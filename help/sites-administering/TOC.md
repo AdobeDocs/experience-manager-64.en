@@ -96,9 +96,9 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [eCommerce](ecommerce.md)
     + [Concepts](concepts.md)
     + [Administering generic eCommerce](generic.md)
-    + [Magento](magento.md)
-    + [hybris](hybris.md)
-    + [Demandware](demandware.md)
+    + [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
+    + [SAP Commerce Cloud](sap-commerce-cloud.md)
+    + [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce)
     + [AEM Commerce - GDPR Readiness](gdpr-compliance-commerce.md)
 + Integration {#integration}
     + [Integrating with Third-Party Services](third-party-services.md)
