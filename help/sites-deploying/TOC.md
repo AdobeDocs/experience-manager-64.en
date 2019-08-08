@@ -83,7 +83,7 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [SAP Commerce Cloud](sap-commerce-cloud.md)
     + [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce)
     + [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
-  + Best Practices {#practices}
++ Best Practices {#practices}
    + [Deploying Best Practices](best-practices.md)
    + [Performance Tree](performance-tree.md)
    + [Best Practices for Performance Testing](best-practices-for-performance-testing.md)
