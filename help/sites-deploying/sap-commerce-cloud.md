@@ -52,7 +52,7 @@ The hybris extension of the eCommerce Integration Framework has been updated to 
 
 To install eCommerce functionality you need:
 
-* Your hybris server, available from [hybris](#configureandbuildthehybrisserver).
+* Your hybris server
 * AEM eCommerce framework:
 
     * this is part of a standard AEM installation
