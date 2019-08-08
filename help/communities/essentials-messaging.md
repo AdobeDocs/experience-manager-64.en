@@ -133,7 +133,7 @@ To try the server-side sample script, you will need a development environment an
     1. Create class `MessageEventHandler.java`
     1. Copy/paste the code below into `MessageEventHandler.java`
 
-1. click **Save All**
+1. Click **[!UICONTROL Save All]**
 1. Navigate to `/apps/engage/install/com.engage.media.social.messaging.MessagingNotification/com.engage.media.social.messaging.MessagingNotification.bnd` and add all the import statements as written in the `MessageEventHandler.java` code.
 1. Build the bundle
 1. Ensure `Day CQ Mail Service`OSGi service is configured

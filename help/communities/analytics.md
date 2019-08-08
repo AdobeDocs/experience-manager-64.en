@@ -164,20 +164,20 @@ On the Create Configuration dialog, the values to be entered identify the config
 
 ![chlimage_1-266](assets/chlimage_1-266.png)
 
-* **Title**
+* **[!UICONTROL Title]**
 
   (Required) A display title for the configuration.  
 
   For example, enter *Enablement Community Analytics*
 
-* **Name**
+* **[!UICONTROL Name]**
 
   (Optional) If not specified, the name will default to a valid node name derived from the title.  
 
   For example, enter *communities*
 
 
-* **Template** 
+* **[!UICONTROL Template]** 
 
   Select `Adobe Analytics Configuration`
 
@@ -190,35 +190,35 @@ The initial creation of a new Analytics configuration results in the display of 
 
 ![chlimage_1-267](assets/chlimage_1-267.png)
 
-* **Company**
+* **[!UICONTROL Company]**
 
   The company that is associated with the Adobe Analytics account
 
-* **Username**
+* **[!UICONTROL Username]**
 
   The login username for the user authorized to manage the Analytics account
 
-* **Password**
+* **[!UICONTROL Password]**
 
   The login password for the authorized user
 
-* **Data Center**
+* **[!UICONTROL Data Center]**
 
   Select the Analytics data center hosting the report suite
 
-* **Do not add tracking tag to page**
+* **[!UICONTROL Do not add tracking tag to page]**
 
   Leave as default (unchecked)
 
-* **Use AppMeasurement**
+* **[!UICONTROL Use AppMeasurement]**
 
   Leave as default (unchecked)
 
-* **Do not import page impressions nightly (author)**
+* **[!UICONTROL Do not import page impressions nightly (author)]**
 
   Leave as default (unchecked)
 
-* **Do not import page impressions nightly (publish)**
+* **[!UICONTROL Do not import page impressions nightly (publish)]**
 
   Leave as default (checked)
 
@@ -246,19 +246,19 @@ After successful configuration of the basic connection to Adobe Analytics, it is
 
 ![chlimage_1-269](assets/chlimage_1-269.png)
 
-* **Title**
+* **[!UICONTROL Title]**
 
   (Required) A display title for the framework  
   
   For example, enter *Enablement Community Framework*
 
-* **Name**
+* **[!UICONTROL Name]**
 
   (Optional) If not specified, the name will default to a valid node name derived from the title.  
 
   For example, enter *communities*
 
-* **Template**
+* **[!UICONTROL Template]**
 
   Select `Adobe Analytics Framework`
 
