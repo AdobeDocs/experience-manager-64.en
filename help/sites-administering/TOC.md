@@ -92,10 +92,10 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Configuring Segmentation](campaign-segmentation.md)
     + [Extending and Configuring the Design Importer for Landing Pages](extending-the-design-importer-for-landingpages.md)
     + [Integrating Landing Pages with Adobe Analytics](integrating-landing-pages-with-adobe-analytics.md)
-+ eCommerce {#ecommmerce}
++ eCommerce {#ecommerce}
     + [eCommerce](ecommerce.md)
     + [Concepts](concepts.md)
-    + [Administering generic eCommerce](generic.md)
+    + [Administering Generic eCommerce](generic.md)
     + [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
     + [SAP Commerce Cloud](sap-commerce-cloud.md)
     + [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce)
