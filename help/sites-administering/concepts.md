@@ -38,10 +38,6 @@ This means that:
 >* [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce) 
 >
 
->[!NOTE]
->
->Some others are currently under development, for example [inRiver](https://inriver.com) is developing an extension to AEM.
-
 >[!CAUTION]
 >
 >The [eCommerce integration framework](https://www.adobe.com/solutions/web-experience-management/commerce.html) is an AEM Add-On.
