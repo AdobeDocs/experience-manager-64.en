@@ -56,14 +56,14 @@ The /apps directory is protected and not publicly accessible as are the /content
 1. Create **[!UICONTROL components]** subfolder.
 
     1. Select the `/apps/an-scf-sandbox` folder
-    1. Click **[!UICONTROL Create &gt; Create Folder]**
+    1. Click **[!UICONTROL Create > Create Folder]**
     1. In the **[!UICONTROL Create Folder]** dialog, enter **[!UICONTROL components]**
     1. Click **[!UICONTROL OK]**
 
 1. Create **[!UICONTROL ]templates** subfolder.
 
     1. Select the `/apps/an-scf-sandbox` folder
-    1. Click **[!UICONTROL Create &gt; Create Folder]**
+    1. Click **[!UICONTROL Create > Create Folder]**
     1. In the **[!UICONTROL Create Folder]** dialog, enter **[!UICONTROL templates]**
     1. Click **[!UICONTROL OK]**
     1. Re-select `/apps/an-scf-sandbox`
@@ -83,7 +83,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
    Note: If you use CRXDE Lite to create a Node of type `cq:Page`, the Access Control and Replication would not be set to default settings for a page.
 
-1. In the explorer pane, select the **[!UICONTROL Designs]** folder and then click **[!UICONTROL New &gt; New Page]**.
+1. In the explorer pane, select the **[!UICONTROL Designs]** folder and then click **[!UICONTROL New > New Page]**.
 
    Enter:
 

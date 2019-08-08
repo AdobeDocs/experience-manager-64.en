@@ -41,7 +41,7 @@ Now that there is a [page template](initial-app.md#createthepagetemplate), we ca
 
    Alternatively, access the classic UI for Websites directly by browsing to [/siteadmin.](http://localhost:4502/siteadmin)
 
-1. In the explorer pane, select **[!UICONTROL Websites]** and then in the toolbar select **[!UICONTROL New &gt; New Page]**.
+1. In the explorer pane, select **[!UICONTROL Websites]** and then in the toolbar select **[!UICONTROL New > New Page]**.
 
    In the **[!UICONTROL Create Page]** dialog, enter the following:
 
@@ -52,14 +52,14 @@ Now that there is a [page template](initial-app.md#createthepagetemplate), we ca
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 
-1. In the explorer pane, select the page you just created, `/Websites/SCF Sandbox Site`, and click **[!UICONTROL ]New** &gt;** New Page:**
+1. In the explorer pane, select the page you just created, `/Websites/SCF Sandbox Site`, and click **[!UICONTROL New > New Page]**:
 
     * Title: `SCF Sandbox`
     * Name: `en`
     * Select **[!UICONTROL ]An SCF Sandbox Play Template**
     * Click **[!UICONTROL ]Create**
 
-1. In the explorer pane, select the page you just created, `/Websites/SCF Sandbox Site/SCF Sandbox`, and click **[!UICONTROL New &gt; New Page]**
+1. In the explorer pane, select the page you just created, `/Websites/SCF Sandbox Site/SCF Sandbox`, and click **[!UICONTROL New > New Page]**
 
     * Title: `SCF Play`
     * Name: `play`
