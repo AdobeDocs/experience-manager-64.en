@@ -1762,7 +1762,7 @@ The following errors and warnings may occur during installation of AEM 6.4.5.0 a
 To workaround this issue: 
   * Go to Package Manager  
   * Reinstall package "cq-ui-wcm-admin-content-1.0.1004.zip"
-  * Recompile all JSPs (http://<AEM HOST>:<AEM PORT/system/console/slingjsp) OR Restart the instance.
+  * Recompile all JSPs `(http://<AEM HOST>:<AEM PORT/system/console/slingjsp)` OR Restart the instance.
 
 ### OSGi bundles and Content Packages included {#osgi-bundles-and-content-packages-included}
 
