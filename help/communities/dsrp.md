@@ -62,13 +62,13 @@ On author, to access the Storage Configuration console
 * Select **[!UICONTROL Database Storage Resource Provider (DSRP)]**
 * **Database Configuration**
 
-    * **JDBC datasource name** 
+    * **[!UICONTROL JDBC datasource name]** 
 
       Name given to MySQL connection must be the same as entered in [JDBC OSGi configuration](dsrp-mysql.md#configurejdbcconnections)  
 
       *default*: communities
   
-    * **Database name** 
+    * **[!UICONTROL Database name]** 
 
       Name given to schema in [init_schema.sql](dsrp-mysql.md#obtain-the-sql-script) script 
 
@@ -82,11 +82,11 @@ On author, to access the Storage Configuration console
   
       *default*: *&lt;blank&gt;*
   
-    * **Solr URL** 
+    * **[!UICONTROL Solr URL]** 
 
       *default*: https://127.0.0.1:8983/solr/
   
-    * **Solr Collection** 
+    * **[!UICONTROL Solr Collection]** 
 
       *default*: collection1
 
