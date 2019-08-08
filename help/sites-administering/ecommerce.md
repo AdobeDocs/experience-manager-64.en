@@ -19,6 +19,8 @@ discoiquuid: 68799110-8183-40fe-be4f-2a7c7a7b3018
 * [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce)
 * [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
 
+Adobe provides two versions of the Commerce Integration Framework:
+
 |                         | CIF on-prem                                                                                                                                                                                            | CIF Cloud                                                                                                              |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Supported AEM versions  | AEM on-prem or AMS 6.x                                                                                                                                                                                 | AEM AMS 6.4 and 6.5                                                                                                    |
