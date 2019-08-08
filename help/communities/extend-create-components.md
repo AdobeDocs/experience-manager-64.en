@@ -46,7 +46,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 
 1. Select the `/apps/custom/components` node
 
-    * **[!UICONTROL Create &gt; Component...]**
+    * **[!UICONTROL Create > Component...]**
 
         * **Label**: *comments*
         * **Title**: *Alt Comments*
@@ -76,7 +76,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 1. Navigate to the `/apps/custom/components/comments` node
 1. Right-click the node
 
-    * Select **[!UICONTROL Create &gt; Component...]**
+    * Select **[!UICONTROL Create > Component...]**
 
         * **Label**: *comment*
         * **Title**: *Alt Comment*
@@ -195,7 +195,7 @@ One way to do so is
 
 * From global navigation
 
-    * Select **[!UICONTROL Tools &gt; Deployment &gt; Replication]**
+    * Select **[!UICONTROL Tools > Deployment > Replication]**
     * Select `Activate Tree`
     * Set `Start Path`: to `/apps/custom`
     * Uncheck `Only Modified`

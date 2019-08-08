@@ -197,7 +197,7 @@ With a little activity and interaction with the Resources on publish, viewing th
 
 * On author
 * Sign in with administrative privileges
-* Navigate from the main menu to **[!UICONTROL Communities &gt; Resources]**
+* Navigate from the main menu to **[!UICONTROL Communities > Resources]**
 * Select the `Enablement Tutorial` site
 * Select the `Report`icon for a summary of all Resources
 * Select a Resource and then the `Report`icon for a report on that Resource
