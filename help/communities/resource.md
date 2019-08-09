@@ -20,7 +20,7 @@ To add an enablement resource to the new community site:
 * On the author instance
     * For example, [http://localhost:4502/](http://localhost:4503/)
 * Sign in as a system administrator
-* From global navigation, select **Communities, [Resources](resources.md)**
+* From global navigation, select **Communities > [Resources](resources.md)**
 ![chlimage_1-199](assets/chlimage_1-199.png) 
 ![chlimage_1-200](assets/chlimage_1-200.png)
 * Select the community site to which enablement resources are being added
