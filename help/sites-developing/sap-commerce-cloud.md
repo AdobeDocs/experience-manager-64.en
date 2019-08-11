@@ -1,8 +1,8 @@
 ---
-title: Developing with hybris
-seo-title: Developing with hybris
-description: The hybris integration framework includes an integration layer with an API
-seo-description: The hybris integration framework includes an integration layer with an API
+title: Developing with SAP Commerce Cloud
+seo-title: Developing with SAP Commerce Cloud
+description: The SAP Commerce Cloud integration framework includes an integration layer with an API
+seo-description: The SAP Commerce Cloud integration framework includes an integration layer with an API
 uuid: a780dd17-027a-4a61-af8f-3e2f600524c7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
@@ -11,7 +11,7 @@ topic-tags: platform
 discoiquuid: 96dc0c1a-b21d-480a-addf-c3d0348bd3ad
 ---
 
-# Developing with hybris{#developing-with-hybris}
+# Developing with SAP Commerce Cloud{#developing-with-sap-commerce-cloud}
 
 >[!NOTE]
 >

@@ -25,7 +25,7 @@ For a simple demonstration, a visual feature, the avatar shown of the signed-in 
 
 Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
-* Open [/apps/custom/components/comments/comment/**comment.hbs**](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comment/comment.hbs)
+* Open [/apps/custom/components/comments/comment/comment.hbs](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comment/comment.hbs)
 
     * Comment out the tag which includes the avatar for a comment post (~ line 21):
 
@@ -35,7 +35,7 @@ Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
        -->
       ```
 
-* Open [/apps/custom/components/comments/**comments.hbs**](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comments.hbs)
+* Open [/apps/custom/components/comments/comments.hbs](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comments.hbs)
 
     * Comment out the tag which includes the avatar for the next comment entry (~ line 44):
 
@@ -55,11 +55,11 @@ One way to do so is
 
 * From the main menu
 
-    * Select **Tools &gt; Operations &gt; Replication**
+    * Select **[!UICONTROL Tools > Operations > Replication]**
     * Select `Activate Tree`
     * Set `Start Path`: to `/apps/custom`
     * Uncheck `Only Modified`
-    * Select `Activate`button
+    * Select `Activate` button
 
 ## View Modified Comment on Published Sample Page {#view-modified-comment-on-published-sample-page}
 

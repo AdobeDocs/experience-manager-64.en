@@ -56,7 +56,7 @@ To add the hyperlink options to the toolbar:
 
 * Add a toolbar named " `links`"
     * `{ name: 'links', items: [ 'Link','Unlink','Anchor' ] }`
-* Select **Save All**
+* Select **[!UICONTROL Save All]**
 
 #### /libs/clientlibs/social/commons/scf/ckrte.js {#libs-clientlibs-social-commons-scf-ckrte-js}
 

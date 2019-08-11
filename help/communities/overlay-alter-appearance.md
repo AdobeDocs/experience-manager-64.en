@@ -21,9 +21,9 @@ To not display the avatar next to each posted comment:
 
 1. Copy `comment.hbs`from `libs`to `apps`
     1. Select `/libs/social/commons/components/hbs/comments/comment/comment.hbs`
-    1. Select **Copy**
+    1. Select **[!UICONTROL Copy]**
     1. Select `/apps/social/commons/components/hbs/comments/comment`
-    1. Select **Paste**
+    1. Select **[!UICONTROL Paste]**
 1. Open the overlaid `comment.hbs`
     * Double-click on node  `comment.hbs`in `/apps/social/commons/components/hbs/comments/comment folder`
 1. Find the following lines and either delete or comment them out:
@@ -43,9 +43,9 @@ Push the overlaid comments component to the publish instance using the Replicati
 >
 >A more robust form of replication would be to create a package in Package Manager and [activate](../../help/sites-administering/package-manager.md#replicating-packages) it. A package can be exported and archived.
 
-From the global navigation, select **Tools, Deployment, Replication** and then **Activate Tree**.
+From the global navigation, select **[!UICONTROL Tools > Deployment > Replication]** and then **[!UICONTROL Activate Tree]**.
 
-For the Start Path enter `/apps/social/commons` and select **Activate**.
+For the Start Path enter `/apps/social/commons` and select **[!UICONTROL Activate]**.
 
 ![chlimage_1-42](assets/chlimage_1-42.png) 
 

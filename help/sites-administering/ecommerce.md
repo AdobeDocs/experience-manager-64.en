@@ -15,17 +15,22 @@ discoiquuid: 68799110-8183-40fe-be4f-2a7c7a7b3018
 
 * [Concepts](/help/sites-administering/concepts.md)
 * [Administering (generic)](/help/sites-administering/generic.md)
-* [hybris](/help/sites-administering/hybris.md)
-* [Elastic Path](/help/sites-administering/elasticpath.md)
-* [Intershop](/help/sites-administering/intershop.md)
-* [IBM Websphere Commerce](/help/sites-administering/ibm-websphere.md)
-* [Demandware](/help/sites-administering/demandware.md)
-* [Magento](/help/sites-administering/magento.md)
-* [Digital River](/help/sites-administering/digital-river.md)
+* [SAP Commerce Cloud](/help/sites-administering/sap-commerce-cloud.md)
+* [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce)
+* [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
 
->[!NOTE]
->
->The connectors for AEM 6.4 are still under development.
+Adobe provides two versions of the Commerce Integration Framework:
+
+|                         | CIF on-prem                                                                                                                                                                                            | CIF Cloud                                                                                                              |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| Supported AEM versions  | AEM on-prem or AMS 6.x                                                                                                                                                                                 | AEM AMS 6.4 and 6.5                                                                                                    |
+| Back-end                | - AEM, Java <br> - Monolithic integration, pre-build mapping (template)<br> - JCR repository                                                                                                                    | - Magento <br>- Java and Javascript <br>- No Commerce data stored in JCR repository                                            |
+| Front-end               | AEM server-side rendered pages                                                                                                                                                                         | Mixed page application (hybrid rendering)                                                                              |
+| Product catalog         | - Product importer, editor, caching in AEM <br>- Regular catalogs with AEM or proxy pages                                                                                                                  | - No product import <br>- Generic templates <br>- On-demand data via connector                                                 |
+| Scalability             | - Can support up to a few million products (depends on the use-case) <br> - Caching on Dispatcher                                                                                                           | - No volume limitation <br>- Caching on Dispatcher or CDN                                                                  |
+| Standardized data model | No                                                                                                                                                                                                     | Yes, Magento GraphQL schema                                                                                            |
+| Availability            | Yes:<br> - SAP Commerce Cloud (Extension updated to support AEM 6.4 and Hybris 5 (default) and maintains compatibility with Hybris 4 <br>- Salesforce Commerce Cloud (Connector open-sourced to support AEM 6.4) | Yes via open source via GitHub. <br> Magento Commerce (Supports Magento 2.3.2 (default) and compatible with Magento 2.3.1). |
+| When to use             | Limited use-cases: For scenarios where small, static catalogs may need to be imported                                                                                                                  | Preferred solution in most use-cases                                                                                   |
 
 eCommerce, together with Product Information Management (PIM), handles the activities of a website focused on selling products via an online store:
 
