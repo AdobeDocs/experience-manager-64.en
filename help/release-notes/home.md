@@ -7,12 +7,11 @@ seo-description: The AEM Release Notes cover important information about the lat
 
 # AEM 6.4 Release Notes
 
-The AEM Release Notes cover important information about the latest release of AEM, including what's new, supported platforms, deprecated and removed features, and known issues. 
+The AEM Release Notes cover important information about the latest release of AEM, including what's new, supported platforms, deprecated and removed features, and known issues.
 
 ## Key AEM articles
 
-* [Getting Started with AEM](https://helpx.adobe.com/experience-manager/get-started.html)
-* [AEM 6.4 Release Notes](/help/release-notes/home.md)
+* [Get started with AEM](https://helpx.adobe.com/experience-manager/get-started.html)
 * [Recent Documentation Updates](https://helpx.adobe.com/experience-manager/documentation-updates.html)
 * [AEM Security Checklist](/help/sites-administering/security-checklist.md)
 
@@ -20,8 +19,7 @@ The AEM Release Notes cover important information about the latest release of AE
 
 | User Guide | Description |
 |--- |---|
-| [Release Notes](/help/release-notes/home.md)| Provides important information about the latest release of AEM, including what's new, supported platforms, deprecated and removed features, and known issues |
-| [Assets User Guide](/help/assets/home.md) | Learn how to create, manage, deliver, and optimize digital assets. |
+| [Assets User Guide](/help/assets/home.md) | Create, manage, deliver, and optimize digital assets. |
 | [Forms User Guide](/help/forms/home.md) | This guide describes how to create, manage, publish, and update digital forms.|
 | [Communities User Guide](/help/communities/home.md) | Create online experiences such as forums, user groups, learning resources, and other social features.  |
 | [Administering Guide](/help/sites-administering/home.md) | Understand how to administer AEM |
@@ -44,3 +42,9 @@ The AEM Release Notes cover important information about the latest release of AE
 * [GDPR Readiness](/help/managing/gdpr-compliance.md)
 * [Experience League](https://guided.adobe.com/?promoid=K42KVXHD&mv=other#solutions/experience-manager)
 * [AEM Community Forum](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
+
+## Copyright, licenses, and disclaimers {#copyright-licenses-and-disclaimers}
+
+For further information see [https://www.adobe.com/legal/terms/enterprise-licensing.html](https://www.adobe.com/legal/terms/enterprise-licensing.html)
+
+Notice of third party licenses: [https://www.adobe.com/products/eula/third_party/](https://www.adobe.com/products/eula/third_party/)

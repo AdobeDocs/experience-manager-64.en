@@ -60,7 +60,7 @@ user-guide-title: AEM 6.4 Developing User Guide
     + eCommerce{#ecommerce}
       + [eCommerce](ecommerce.md)
       + [Developing (generic)](generic.md)
-      + [Developing with hybris](hybris.md)
+      + [Developing with SAP Commerce Cloud](sap-commerce-cloud.md)
 + Components{#components}
     + [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
     + [Style System](/help/sites-authoring/style-system.md)

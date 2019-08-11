@@ -1,8 +1,8 @@
 ---
 title: CRX2OAK Migration Tool
 seo-title: CRX2OAK Migration Tool
-description: Release notes specific to the Adobe Experience Manager 6.3 CRX2OAK Migration tool.
-seo-description: Release notes specific to the Adobe Experience Manager 6.3 CRX2OAK Migration tool.
+description: Release notes specific to the Adobe Experience Manager 6.4 CRX2OAK Migration tool.
+seo-description: Release notes specific to the Adobe Experience Manager 6.4 CRX2OAK Migration tool.
 uuid: 1b582faf-2dc6-41a2-9419-7e82347f9d6c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
@@ -61,4 +61,3 @@ discoiquuid: cfdaceac-a5b3-4070-ad4c-f1457b1e2e4b
 * Support for multiple LDAP servers in crx2oak (GRANITE-9917)  
 * Enforce check for max node name length (OAK-3111)  
 * Support S3DataSource as the migration source (OAK-3685)
-

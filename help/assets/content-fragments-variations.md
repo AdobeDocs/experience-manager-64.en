@@ -15,7 +15,7 @@ discoiquuid: 1cdb2dfc-623b-44cf-9a7b-98cfabbb1d0c
 
 >[!CAUTION]
 >
->Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](/help/release-notes/sp-release-notes.md).
+>Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../release-notes/sp-release-notes.md).
 
 [Variations](content-fragments.md#constituent-parts-of-a-content-fragment) are a significant feature of content fragments, as they allow you to create and edit copies of the master content for use on specific channels, and/or scenarios.
 

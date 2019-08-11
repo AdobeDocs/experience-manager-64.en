@@ -18,7 +18,7 @@ Adobe Stock service provides designers and businesses with access to millions of
 
 ## Prerequisites {#prerequisites}
 
-The integration requires an [enterprise Adobe Stock plan](https://landing.adobe.com/en/na/products/creative-cloud/ctir-4625-stock-for-enterprise/index.html) and AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](../release-notes/sp-release-notes.md).
+The integration requires an [enterprise Adobe Stock plan](https://landing.adobe.com/en/na/products/creative-cloud/ctir-4625-stock-for-enterprise/index.html) and AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](/help/release-notes/sp-release-notes.md).
 
 ## Integrate AEM and Adobe Stock {#integrate-aem-and-adobe-stock}
 
@@ -46,7 +46,7 @@ To allow communication between AEM and Adobe Stock, create an IMS configuration 
 
 >[!NOTE]
 >
->If there are multiple Adobe Stock Configurations, select the desired configuration in User Preferences panel ( **[!UICONTROL AEM]**> **[!UICONTROL User Icon]** > **[!UICONTROL User Preferences]** > **[!UICONTROL Stock Configuration]**).
+>If there are multiple Adobe Stock Configurations, select the desired configuration in User Preferences panel (**[!UICONTROL AEM]** > **[!UICONTROL User Icon]** > **[!UICONTROL User Preferences]** > **[!UICONTROL Stock Configuration]**).
 
 ## Use and manage Adobe Stock assets in AEM {#use-and-manage-adobe-stock-assets-in-aem}
 
@@ -54,7 +54,7 @@ Using this capability, organizations can allow its users to work using Adobe Sto
 
 Using this capability, organizations can allow its users to work using Adobe Stock assets in AEM Assets. From within the AEM user interface, users can search Adobe Stock assets and license the required assets.
 
-Once an Adobe Stock asset is licensed in AEM, it can be used and managed like a typical asset. In AEM, the users can search and preview the assets; copy and publish the assets; share the assets on Brand Portal; access and use the assets via AEM Desktop App; and so on.
+Once an Adobe Stock asset is licensed in AEM, it can be used and managed like a typical asset. In AEM, the users can search and preview the assets; copy and publish the assets; share the assets on Brand Portal; access and use the assets via AEM desktop app; and so on.
 
 ![Search for Adobe Stock assets and filter results from your AEM workspace](assets/adobe-stock-search-results-workspace.png)
 
@@ -64,7 +64,7 @@ Once an Adobe Stock asset is licensed in AEM, it can be used and managed like a 
 
 ### Find assets {#find-assets}
 
-Your AEM users, can search for assets in both, AEM and Adobe Stock. When the search location is not limited to Adobe Stock, the search results from AEM and Adobe Stock are displayed in separate areas.
+Your AEM users, can search for assets in both, AEM and Adobe Stock. When the search location is not limited to Adobe Stock, the search results from AEM and Adobe Stock are displayed.
 
 * To search for Adobe Stock assets, click **[!UICONTROL Navigation]** > **[!UICONTROL Assets]** > **[!UICONTROL Search Adobe Stock]**.  
 
@@ -130,5 +130,4 @@ When a user updates a license reference field, the license reference information
 
 [Adobe Stock enterprise plan help](https://helpx.adobe.com/enterprise/using/adobe-stock-enterprise.html)
 
-[Adobe Stock FAQ](https://helpx.adobe.com/stock/faq.html)  
-
+[Adobe Stock FAQ](https://helpx.adobe.com/stock/faq.html)

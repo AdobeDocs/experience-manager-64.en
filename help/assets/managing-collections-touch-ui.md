@@ -301,9 +301,8 @@ You can run a workflow for the assets within a collection. If the collection con
 1. Enter a title for the workflow, and tap/click **[!UICONTROL Start]**.
 1. In the dialog, tap/click **[!UICONTROL Proceed]**. The workflow runs on all the assets in the collection.
 
-## See also {#see-also}
-
-* [Configure AEM Assets email notifications](/help/sites-administering/notification.md#assetsconfig)
-* [Edit metadata properties of multiple Collections](managing-multiple-assets.md)
-* [Create a review task for Collections](bulk-approval.md)
-
+>[!MORELIKETHIS]
+>
+>* [Configure AEM Assets email notifications](/help/sites-administering/notification.md#assetsconfig)
+>* [Edit metadata properties of multiple Collections](managing-multiple-assets.md)
+>* [Create a review task for Collections](bulk-approval.md)

@@ -310,4 +310,3 @@ AEM Forms can be set up using any combination of supported operating systems, ap
 </table>
 
 1. AIX and Solaris operating systems are available only for upgrade customers.
-

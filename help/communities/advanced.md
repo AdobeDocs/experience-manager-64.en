@@ -51,7 +51,7 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
 
 ![chlimage_1-260](assets/chlimage_1-260.png)
 
-* **Scoring weights** 
+* **[!UICONTROL Scoring weights]** 
   For a topic, specify the verb that should be given the highest priority when calculating the score. One or more topics may be entered, but limited to **one verb per topic**. See [Topics and Verbs](implementing-scoring.md#topics-and-verbs).  
 
   Entered as `topic,verb` with the comma escaped. For example:  
@@ -61,21 +61,21 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
   Default is set to the ADD verb for QnA and forum components.
 
 
-* **Scoring range** 
+* **[!UICONTROL Scoring range]** 
 
   The range for advanced scores is defined by this value (maximum possible score) and 0 (lowest possible score.  
 
   Default value is 100 so that scoring range is 0-100.
 
 
-* **Entity decay time interval** 
+* **[!UICONTROL Entity decay time interval]** 
 
   This parameter represents the number of hours after which all entity scores are decayed. This is required to no longer include old content in scores for a community site.  
 
   Default value is 216000 hours (~24 years).
 
 
-* **Scoring growth rate** 
+* **[!UICONTROL Scoring growth rate]** 
 
   This specifies the score. between 0 and scoring range, beyond which growth slows to limit the number of experts.  
 

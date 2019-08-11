@@ -41,11 +41,11 @@ Select the placed `Social Tag Cloud` component to access and select the `Configu
 
 ![chlimage_1-304](assets/chlimage_1-304.png)
 
-Under the **Social Tag Cloud** tab, specify which tags to display and, if the tags are active links, the location of the page for search results.:
+Under the **[!UICONTROL Social Tag Cloud]** tab, specify which tags to display and, if the tags are active links, the location of the page for search results.:
 
 ![chlimage_1-305](assets/chlimage_1-305.png)
 
-* **Social Tags to Display** 
+* **[!UICONTROL Social Tags to Display]** 
   Identify which UGC tags to display. The pull-down options are
 
     * `From page and child pages`
@@ -53,24 +53,24 @@ Under the **Social Tag Cloud** tab, specify which tags to display and, if the ta
 
   The default is `From page and child pages`, where "page" refers to the **Page** setting below.
 
-* **Page** 
+* **[!UICONTROL Page]** 
   (required if not `All tags)` The path to the UGC for a page. Default is the current page if left blank.
 
-* **No links on tags** 
-  If checked, the tags are displayed in the tag cloud as plain text. If unchecked, the tags are displayed as active links which search on all content to which that tag is applied. Default is unchecked and requires the **Search Result Path** to be set.
+* **[!UICONTROL No links on tags]** 
+  If checked, the tags are displayed in the tag cloud as plain text. If unchecked, the tags are displayed as active links which search on all content to which that tag is applied. Default is unchecked and requires the **[!UICONTROL Search Result Path]** to be set.
 
-* **Search Result Path** 
+* **[!UICONTROL Search Result Path]** 
   The path to a page on which a `Search Result` component has been placed, configured to reference UGC which includes the UGC path specified by the **Page** setting.
 
 ## Change Display of Social Tag Cloud {#change-display-of-social-tag-cloud}
 
 To edit the display of the **Social Tag Cloud**, enter [Design Mode](../../help/sites-authoring/default-components-designmode.md) and double click on the placed `Social Tag Cloud` component to open a dialog with an additional tab.
 
-Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A tag may be a simple tag, a single word in the default namespace, or a hierarchical taxonomy:
+Using the **[!UICONTROL Social Tag Cloud (Design)]** tab, specify how tags are displayed. A tag may be a simple tag, a single word in the default namespace, or a hierarchical taxonomy:
 
 ![chlimage_1-306](assets/chlimage_1-306.png)
 
-* **Show full title paths** 
+* **[!UICONTROL Show full title paths]** 
   If checked, shows the titles for the parent tags and namespace for each applied tag. 
 
   For example:
@@ -82,7 +82,7 @@ Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A t
 
   Default is unchecked.
 
-* **Show only leaf tags** 
+* **[!UICONTROL Show only leaf tags]** 
   If checked, shows only applied tags which contain no other tags.
 
   For example, given the TagID of
@@ -98,10 +98,10 @@ Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A t
   
   Default is unchecked.
 
-* **Link Template** 
+* **[!UICONTROL Link Template]** 
   A template, other than a default, used to display the links in a tag cloud, when links are enabled through the component edit dialog.
 
-* **Same size for all tags** 
+* **[!UICONTROL Same size for all tags]** 
   If checked, all words in the tag cloud are styled the same. If unchecked, words are styled differently according to their usage. Default is unchecked.
 
 ## Additional Information {#additional-information}

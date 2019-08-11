@@ -41,16 +41,16 @@ On the **Site Template** step, enter a title, description, the name for the URL,
 * **Cloud Configurations**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations.
 * **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
-* **Community Site Name**: `enable`
+* **[!UICONTROL Community Site Name]**: `enable`
 
     * the initial URL will be displayed underneath the Community Site Name
     * for a valid URL, append a base language code + ".html"  
 
       *for example*, http://localhost:4502/content/sites/ `enable/en.html`
 
-* **Reference Site Template**: pull down to choose `Reference Structured Learning Site Template`
+* **[!UICONTROL Reference Site Template]**: pull down to choose `Reference Structured Learning Site Template`
 
-Select **[!UICONTROL ]Next**
+Select **[!UICONTROL Next]**
 
 ### Step 2: Design {#step-design}
 
@@ -147,13 +147,13 @@ The [Translation settings](sites-console.md#translation) specify whether or not 
 
 For an enablement community, it is necessary to identify one or more Community Enablement Managers.
 
-* **Enablement Managers** 
+* **[!UICONTROL Enablement Managers]** 
   (required) Members of the `Community Enablement Managers` group are available to be selected to manage this community site.
 
     * Type "s"
     * Select `Sirius Nilson`
 
-* **Marketing Cloud Org Id** 
+* **[!UICONTROL Marketing Cloud Org Id]** 
   (optional) The ID for an Adobe Analytics account which is necessary when including [Video Heartbeat Analytics](analytics.md#video-heartbeat-analytics) in the enablement reporting.
 
 ![chlimage_1-290](assets/chlimage_1-290.png)
@@ -354,6 +354,6 @@ Use the Position Icon to move the Catalog function to the second position, after
 
 ![chlimage_1-300](assets/chlimage_1-300.png)
 
-Select **Save** in the upper right corner to save the changes to the community site.
+Select **[!UICONTROL Save]** in the upper right corner to save the changes to the community site.
 
 Then re-**Publish** the site.

@@ -134,7 +134,7 @@ You can configure the following options for the` `-resize` `parameter:`
     1. `SWitchEngine -input ${file} -destMime PNG -resize 48 -output ${directory}cq5dam.thumbnail.48.48.png`
     1. `SWitchEngine -input ${file} -destMime PNG -resize 140x100 -output ${directory}cq5dam.thumbnail.140.100.png`
     1. `SWitchEngine -input ${file} -destMime PNG -resize 319 -output ${directory}cq5dam.thumbnail.319.319.png`
-    1. `SWitchEngine -input ${file} -destMime JPEG -resize 1280 -preserveCMYK -output ${directory}cq5dam.thumbnail.1280.1280.jpg`
+    1. `SWitchEngine -input ${file} -destMime JPEG -resize 1280 -preserveCMYK -output ${directory}cq5dam.web.1280.1280.jpeg`
 
    ![chlimage_1-199](assets/chlimage_1-199.png)
 
@@ -147,4 +147,3 @@ You can configure the following options for the` `-resize` `parameter:`
    ![web_enabled_imagetab](assets/web_enabled_imagetab.png)
 
 1. Save the workflow.
-

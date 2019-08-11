@@ -34,25 +34,25 @@ To get started creating a new community site:
 
 On the [Site Template step](sites-console.md#step2013asitetemplate), enter a title, description, the name for the URL, and select a community site template, for example:
 
-* **Community Site Title**: `Getting Started Tutorial`
+* **[!UICONTROL Community Site Title]**: `Getting Started Tutorial`
 
-* **Community Site Description**: `A site for engaging with the community.`  
+* **[!UICONTROL Community Site Description]**: `A site for engaging with the community.`  
 
-* **Community Site Root**: (leave blank for default root `/content/sites`)  
+* **[!UICONTROL Community Site Root]**: (leave blank for default root `/content/sites`)  
 
-* **Cloud Configurations**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations. 
-* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.
+* **[!UICONTROL Cloud Configurations]**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations. 
+* **[!UICONTROL Community Site Base Language]**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.
 
-* **Community Site Name**: engage
+* **[!UICONTROL Community Site Name]**: engage
 
     * Double-check the name as it is not easily changed after the site is created
     * The initial URL will be displayed underneath the Community Site Name
     * For a valid URL, append a base language code + ".html"
     * *For example*, http://localhost:4502/content/sites/ `engage/en.html`
 
-* **Template**: pull down to choose `Reference Site`
+* **[!UICONTROL Template]**: pull down to choose `Reference Site`
 
-Select **[!UICONTROL ]Next**
+Select **[!UICONTROL Next]**
 
 ### Step 2: Design {#step-design}
 
@@ -159,7 +159,7 @@ Select **[!UICONTROL Next]**.
 
 ### Step 4: Create Communities Site {#step-create-communities-site}
 
-Select **[!UICONTROL ]Create.**
+Select **[!UICONTROL Create]**.
 
 ![chlimage_1-359](assets/chlimage_1-359.png)
 
@@ -197,7 +197,7 @@ From left to right they are:
 
 * **Delete Site**  
   
-  select the delete icon to delete the community site from within **[!UICONTROL Communities &gt; Sites console]**. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
+  select the delete icon to delete the community site from within **[!UICONTROL Communities > Sites console]**. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
 
 ![siteactions-1](assets/siteactions-1.png)
 
@@ -207,7 +207,7 @@ From left to right they are:
 >
 >On the author instance, from the main menu
 >
->1. Navigate to **[!UICONTROL Tools &gt; Operations &gt; Replication]** menu
+>1. Navigate to **[!UICONTROL Tools > Operations > Replication]** menu
 >1. Select **[!UICONTROL Agents on author]**
 >1. Select **[!UICONTROL Default Agent (publish)]**
 >1. Next to **[!UICONTROL Settings]** select **[!UICONTROL Edit]**

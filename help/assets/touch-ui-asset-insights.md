@@ -21,7 +21,11 @@ Assets Insights captures user activity details, such as the number of times an a
 
 For Assets Insights to capture usage statistics for assets from a website, you must include the embed code for the asset in the website code.
 
-To let Asset Insights display usage statistics for assets, first configure the feature to fetch reporting data from Adobe Analytics. For details, see [Configuring Asset Insights](touch-ui-configuring-asset-insights.md).
+To let Asset Insights display usage statistics for assets, first configure the feature to fetch reporting data from Adobe Analytics. For details, see [Configure Asset Insights](touch-ui-configuring-asset-insights.md).
+
+>[!NOTE]
+>
+>Insights are supported and provided only for images.
 
 ## Viewing statistics for an asset {#viewing-statistics-for-an-asset}
 

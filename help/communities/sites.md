@@ -23,7 +23,7 @@ The Site Templates console is very similar to the [Group Templates](tools-groups
 
 In the author environment, to reach the community sites console
 
-* From global navigation: **Tools, Communities, Site Templates**
+* From global navigation: **[!UICONTROL Tools > Communities > Site Templates]**
 
 This console displays the templates from which a [community site](sites-console.md) can be created and allows new site templates to be created.
 
@@ -41,13 +41,13 @@ This will bring up the Site Editor panel which contains 3 sub-panels:
 
 On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
-* **Community Site Template Name** 
+* **[!UICONTROL Community Site Template Name]** 
   The template name id
 
-* **Community Site Template Description** 
+* **[!UICONTROL Community Site Template Description]** 
   The template description
 
-* **Disabled/Enabled** 
+* **[!UICONTROL Disabled/Enabled]** 
   A toggle switch controlling whether the template is referenceable
 
 ### Thumbnail {#thumbnail}
@@ -70,7 +70,7 @@ The page function provides an empty page. The groups function provides the abili
 
 >[!CAUTION]
 >
->The groups function must *not *be the *first nor the only* function in the site structure.
+>The groups function must *not* be the *first nor the only* function in the site structure.
 >
 >Any other function, such as the [page function](functions.md#page-function), must be included and listed first.
 
@@ -82,7 +82,7 @@ When including a groups function in the site template, the configuration require
 
 >[!CAUTION]
 >
->The Groups function must *not *be the *first nor the only* function in the site structure.
+>The Groups function must *not* be the *first nor the only* function in the site structure.
 
 ![chlimage_1-23](assets/chlimage_1-23.png)
 

@@ -177,9 +177,9 @@ When UGC is premoderated, the post will not appear on the published site until a
 
 * [Comments](comments.md) and [reviews](reviews.md)
 
-  on **User Moderation** tab, check **Pre-Moderation**
+  on **[!UICONTROL User Moderation]** tab, check **[!UICONTROL Pre-Moderation]**
 
-* [Forum](forum.md), [ideation](ideation-feature.md), [QnA](working-with-qna.md), and [calendar](calendar.md) on **Settings** tab, check **Moderated**
+* [Forum](forum.md), [ideation](ideation-feature.md), [QnA](working-with-qna.md), and [calendar](calendar.md) on **[!UICONTROL Settings]** tab, check **[!UICONTROL Moderated]**
 
 ### Spam Detection {#spam-detection}
 
@@ -197,10 +197,10 @@ Moderator can see such a post and mark the same to allow or deny from appearing 
 
 To enable spam detection engine, follow these steps:
 
-1. Open [Web Console](http://localhost:4502/system/console/configMgr), by going to /system/console/configMgr.
+1. Open [Web Console](http://localhost:4502/system/console/configMgr), by going to `/system/console/configMgr`.
 
-1. Locate **AEM Communities Auto Moderation** configuration, and edit it.
-1. Add the "SpamProcess" entry.
+1. Locate **[!UICONTROL AEM Communities Auto Moderation]** configuration, and edit it.
+1. Add the `SpamProcess` entry.
 
 ![spamprocess](assets/spamprocess.png)
 

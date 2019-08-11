@@ -65,7 +65,7 @@ This section appears below the Welcome section and displays out-of-the-box widge
 * Recent
 * Discover
 
-**Activity**: Under this section, the **My Activity **widget displays recent activities performed by the logged-in user with assets (including assets without renditions), for example asset uploads, downloads, asset creation, edits, comments, annotations, and shares.
+**Activity**: Under this section, the **My Activity** widget displays recent activities performed by the logged-in user with assets (including assets without renditions), for example asset uploads, downloads, asset creation, edits, comments, annotations, and shares.
 
 **Recent**: The **Recently Viewed** widget under this section displays recently accessed entities by the logged-in user, including folders, collections, and projects.
 
