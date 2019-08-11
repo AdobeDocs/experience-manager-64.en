@@ -660,4 +660,3 @@ user-guide-title: AEM 6.4 Forms User Guide
       + [Programmatically Managing Endpoints](developing/programmatically-endpoints.md)
       + [Programmatically managing the Preferences Nodes](developing/programmatically-preferences-nodes.md)
       + [Protecting Documents with Policies](developing/protecting-documents-policies.md)
-      + [Validate a DDX document using the web service API](developing/validate-ddx-document-using-web.md)
