@@ -176,7 +176,6 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Creating and managing reviews for assets in forms](using/create-reviews-forms.md)
   + [Configuring AEM Forms to submit form data to an AEM Forms on JEE process](using/submit-form-data-livecycle-process.md)  
 + Interactive Communications {#interactive-communications}
-  + [Interactive Communications Overview](using/interactive-communications-overview.md)
   + [Introduction to Interactive Communication authoring UI](using/introduction-interactive-communication-authoring.md)
   + [Create an Interactive Communication](using/create-interactive-communication.md)
   + [Using charts in Interactive Communications](using/chart-component-interactive-communications.md)
@@ -266,7 +265,6 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Adding attachments](using/add-attachments.md)
   + [Working in the offline mode](using/work-offline-mode.md)
   + [Updating general settings](using/update-general-settings.md)
-  + []
   + [Troubleshoot AEM Forms app](using/issues-aem-forms-app.md)  
 + HTML5 Forms {#html5-forms}
   + [Introduction to HTML5 forms](using/introduction.md)
@@ -343,7 +341,6 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Use custom email templates in an Assign Task step](using/use-custom-email-template-assign-task-step.md)
   + [Configuring watched folder endpoints](using/admin-help/configuring-watched-folder-endpoints.md)
   + [Use metadata in an email notification](using/use-metadata-in-email-notifications.md)
-  + [Forms-centric workflows on OSGi | Handling user data](using/forms-workflow-osgi-handling-user-data.md)
 + Forms Portal {#use-forms-portal}
   + [Customizing templates for forms portal components](using/customizing-templates-forms-portal-components.md)
   + [Enabling forms portal components](using/enabling-forms-portal-components.md)
@@ -380,7 +377,6 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Enable AEM to search document security protected PDF and Microsoft Office documents](using/enable-search-for-drm-protected-pdf-and-office-documents-in-aem.md)
   + [Protect a document on behalf of another user](using/protect-document-on-behalf-of-another-user.md)
 + Forms Designer {#use-forms-designer}
-  + [Installing and configuring Designer](using/installing-configuring-designer.md)
   + [Using Designer](http://www.adobe.com/go/learn_aemforms_designer_64)
   + [Designer quick start tutorials](http://www.adobe.com/go/learn_aemforms_designer_quick_start_64)
   + [Designer samples](http://www.adobe.com/go/learn_aemforms_designer_samples_64)
