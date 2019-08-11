@@ -48,10 +48,12 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Supported platforms for AEM forms on OSGi](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)
     + [Install and configure document services](using/install-configure-document-services.md)
     + [Install and configure data capture capabilities](using/installing-configuring-aem-forms-osgi.md)
+    + [Install and Configure Forms-centric workflow on OSGi](using/installing-configuring-forms-centric-workflow-on-osgi.md)
     + [Install and configure Interactive Communications](using/installing-configuring-intreactive-communication-correspondence-management.md)  
   + Install AEM Forms on JEE {#jee-installation}
     + [Supported platforms for AEM forms on JEE](using/aem-forms-jee-supported-platforms.md)
     + [Install and deploy AEM Forms on JEE using JBoss turnkey](http://www.adobe.com/go/learn_aemforms_installTurnkey_64)
+    + [Installing and configuring only document security server](using/installing-and-configuring-the-document-security-server.md)
     + [Prepare to install AEM Forms single server](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64)
     + [Install and deploying AEM Forms on JEE for JBoss](http://www.adobe.com/go/learn_aemforms_installJBoss_64)
     + [Install and deploying AEM Forms on JEE for WebLogic](http://www.adobe.com/go/learn_aemforms_installWebLogic_64)
@@ -235,6 +237,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Managing tasks in an organizational hierarchy using Manager View](using/tasks-organizational-hierarchy-using-manager.md)
   + [Starting processes](using/starting-processes.md)
   + [Tracking processes](using/tracking-processes.md)
+  + [Single Sign On and timeout handlers](using/single-sign-timeout-handlers.md)
   + [Using an adaptive form in HTML Workspace](using/using-adaptive-form-html-workspace.md)
   + [Integrating AEM forms workspace with Microsoft Office SharePoint Server](using/integrating-aem-forms-workspace-with-microsoft-office-sharepoint-server.md)
   + [Working with To-do lists](using/todo-lists.md)
@@ -245,6 +248,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Set up the Xcode project and build the iOS app](using/setup-xcode-project-build-installer.md)
   + [Building a secure AEM Forms app for iOS](using/building-secure-mobile-workspace-app.md)
   + [Set up the Visual Studio project and build the Windows app](using/setup-visual-studio-project-build-installer.md)
+  + [Set up the Android studio project and build the Android app](using/setup-android-studio-project-build-installer.md)
   + [Build the AEM Forms Android app](using/setup-eclipse-project-build-installer.md)
   + [Distribute AEM Forms app](using/distribute-mobile-workspace-app.md)
   + [Gesture customization](using/gesture-customization.md)
@@ -262,6 +266,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Adding attachments](using/add-attachments.md)
   + [Working in the offline mode](using/work-offline-mode.md)
   + [Updating general settings](using/update-general-settings.md)
+  + []
   + [Troubleshoot AEM Forms app](using/issues-aem-forms-app.md)  
 + HTML5 Forms {#html5-forms}
   + [Introduction to HTML5 forms](using/introduction.md)
@@ -373,6 +378,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Enable AEM to search document security protected PDF documents](using/enable-search-for-drm-protected-pdf-documents-in-aem.md)
   + [Reader extending policy-protected PDF documents using Portable Protection Library](using/reader-extending-policy-protected-pdf-documents-using-ppl.md)
   + [Enable AEM to search document security protected PDF and Microsoft Office documents](using/enable-search-for-drm-protected-pdf-and-office-documents-in-aem.md)
+  + [Protect a document on behalf of another user](using/protect-document-on-behalf-of-another-user.md)
 + Forms Designer {#use-forms-designer}
   + [Installing and configuring Designer](using/installing-configuring-designer.md)
   + [Using Designer](http://www.adobe.com/go/learn_aemforms_designer_64)
