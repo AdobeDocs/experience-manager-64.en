@@ -34,6 +34,9 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [We.Finance reference site walkthrough](using/finance-reference-site-walkthrough.md)
     + [We.Gov reference site walkthrough](using/gov-reference-site-walkthrough.md)
     + [Employee self-service reference site walkthrough](/help/forms/using/employee-self-service-reference-site.md)
+    + [Employee recruitment reference site walkthrough](/help/forms/using/employee-recruitment-reference-site.md)
+    + [We.Finance Auto Insurance Renewal reference site](/help/forms/using/finance-auto-insurance-renewal-reference-site-walkthrough.md)
+    + [We.Gov reference site FOIA walkthrough](/help/forms/using/gov-reference-site-foia-walkthrough.md)
     + [Reference adaptive form fragments](using/reference-adaptive-form-fragments.md)
     + [Reference Themes](using/reference-themes.md)
     + [Reference letter templates](using/reference-cm-layout-templates.md)
@@ -87,6 +90,7 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for WebSphere](http://www.adobe.com/go/learn_aemforms_upgradeWebSphere_64)
     + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebSphere](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-turnkey-livecycle.pdf)
 + Manage AEM Forms {#manage-administer-aem-forms}  
+  + [AEM Forms on OSGi Groups and Privileges](using/forms-groups-privileges-tasks.md)
   + [Create new folders to categorize forms](using/creating-new-folders-categorize-forms.md)
   + [Searching for forms and assets](using/searching-forms-or-assets.md)  
   + [Manage form metadata](using/manage-form-metadata.md)  
