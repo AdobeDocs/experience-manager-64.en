@@ -105,6 +105,10 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Document Security](/help/forms/using/document-security-handling-user-data.md)
   + Hardening AEM Forms Environment {#hardening-aem-forms-environment}
     + [Hardening and Securing AEM forms on OSGi environment](using/hardening-securing-aem-forms-environment.md)  
+    + [General Security Considerations for AEM Forms on JEE](using/general-security-considerations.md)
+    + [Hardening Your AEM Forms on JEE Environment](using/hardening-aem-forms-jee-environment.md)
+    + [Configuring Secure Administration Settings for AEM Forms on JEE](using/configuring-secure-administration-settings-aem.md)
+    
 + Form Data Model {#form-data-model}
   + [Introduction to AEM Forms Data Integration](using/data-integration.md)
   + [Configure data sources](using/configure-data-sources.md)
