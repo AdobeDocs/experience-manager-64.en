@@ -487,14 +487,15 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Specifying security settings](/help/forms/using/admin-help/specifying-security-settings.md)
     + [Configuring validation messages](/help/forms/using/admin-help/configuring-validation-messages.md)
   + Configuring Output {#configure-output}
+    + [Overview of output service](/help/forms/using/admin-help/overview-8.md)
     + [Change the character set](/help/forms/using/admin-help/change-character-set.md)
     + [Specify XCI configuration options](/help/forms/using/admin-help/specify-xci-configuration-options.md)
     + [Configuring caching for Output](/help/forms/using/admin-help/configuring-caching-output.md)
     + [Specify file locations for Output](/help/forms/using/admin-help/specify-file-locations-output.md)
     + [Make fonts available](/help/forms/using/admin-help/make-fonts-available.md)
     + [Specify fonts to embed](/help/forms/using/admin-help/specify-fonts-embed.md)
-    + [Overview of output service](/help/forms/using/admin-help/overview-8.md)
     + [Specify security settings](/help/forms/using/admin-help/specify-security-settings.md)
+    + [Change the character set](/help/forms/using/admin-help/change-character-set.md)
   + Configuring forms workflow{#configure-forms-workflow}
     + [About administration and process terminology](/help/forms/using/admin-help/administration-process-terminology.md)
     + [Managing Processes](/help/forms/using/admin-help/processes.md)
@@ -552,7 +553,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + System information service {#system-information-service}
     + [Set up the System information service](/help/forms/using/admin-help/set-system-information-service.md)
     + [System information Service APIs](/help/forms/using/admin-help/system-information-service-apis.md)
-+ Administrator help for AEM Forms on JEE {#process-reporting}
++ Process-Reporting {#process-reporting}
   +[Introduction to Process Reporting](/help/forms/using/process-reporting/introduction-process-reporting.md)
   +[Getting Started with Process Reporting](/help/forms/using/process-reporting/install-start-process-reporting.md)
   +[How Process Reporting Works](/help/forms/using/process-reporting/process-reporting-architecture.md)
@@ -661,4 +662,3 @@ user-guide-title: AEM 6.4 Forms User Guide
       + [Programmatically managing the Preferences Nodes](developing/programmatically-preferences-nodes.md)
       + [Protecting Documents with Policies](developing/protecting-documents-policies.md)
       + [Validate a DDX document using theweb service API](developing/validate-ddx-document-using-web.md)
-      + 
