@@ -606,11 +606,12 @@ user-guide-title: AEM 6.4 Forms User Guide
     + Invoking AEM Forms on JEE using APIs {#invoking-aem-forms-jee-apis}
       + [Invoking AEM Forms using REST Requests](developing/invoking-aem-forms-using-rest.md)
       + [Invoking AEM Forms using Remoting](developing/invoking-aem-forms-using-remoting.md)
-      + [Invoking AEM Forms using Web Services](developing/invoking-aem-forms-using-web.md)
+      + [Invoking AEM Forms using Web Services](developing/invoking-human-centric-long-lived.md)
       + [Invoking AEM Forms using the JavaAPI](developing/invoking-aem-forms-using-java.md)
       + [Invoking Human-Centric Long-Lived Processes](developing/invoking-human-centric-long-lived.md)
       + [Creating Flash Builder applicationsthat perform SSO authentication using HTTP tokens](developing/creating-flash-builder-applications-perform.md)
     + Performing Service Operations using APIs {#performing-service-operations-using-apis}
+      + [Performing Service Operations Using APIs](developing/performing-service-operations-using-apis.md)
       + [Rendering Forms](developing/rendering-forms.md)
       + [Assembling PDF Documents](developing/assembling-pdf-documents.md)
       + [Programmatically Assembling PDF Documents](developing/programmatically-assembling-pdf-documents.md)
@@ -626,7 +627,7 @@ user-guide-title: AEM 6.4 Forms User Guide
       + [Calculating Form Data](developing/calculating-form-data.md)
       + [Creating Web Applications thatRenders Forms](developing/creating-web-applications-renders-forms.md)
       + [Creating PDF Documents with SubmittedXML Data](developing/creating-pdf-documents-submitted-xml.md)
-      +[Disassemble a PDF document using the web service API](developing/disassemble-pdf-document-using-web.md)
+      + [Disassemble a PDF document using the web service API](developing/disassemble-pdf-document-using-web.md)
       + [Determining Whether Documents Are PDF/A-Compliant](developing/determining-whether-documents-pdf-a.md)
       + [Dynamically Creating DDX Documents](developing/dynamically-creating-ddx-documents.md)
       + [Handling Submitted Forms](developing/handling-submitted-forms.md)
@@ -649,7 +650,6 @@ user-guide-title: AEM 6.4 Forms User Guide
       + [Encrypting and Decrypting PDF Documents](developing/encrypting-decrypting-pdf-documents.md)
       + [Importing and Exporting Data](developing/importing-exporting-data.md)
       + [Managing Users](developing/users.md)
-      + [Performing Service Operations Using APIs](developing/performing-service-operations-using-apis.md)
       + [Working with AEM Forms Repository](developing/aem-forms-repository.md)
       + [Working with barcoded forms](developing/barcoded-forms.md)
       + [Working with Credentials](developing/credentials.md)
@@ -660,3 +660,5 @@ user-guide-title: AEM 6.4 Forms User Guide
       + [Programmatically Managing Endpoints](developing/programmatically-endpoints.md)
       + [Programmatically managing the Preferences Nodes](developing/programmatically-preferences-nodes.md)
       + [Protecting Documents with Policies](developing/protecting-documents-policies.md)
+      + [Validate a DDX document using theweb service API](developing/validate-ddx-document-using-web.md)
+      + 
