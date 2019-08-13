@@ -93,7 +93,7 @@ Adobe Experience Manager operates with the following versions of the Java Virtua
    <td>Support Level<br /> </td> 
   </tr> 
   <tr> 
-   <td>Oralce Java SE 11 JDK [1]</td> 
+   <td>Oracle Java SE 11 JDK [1]</td> 
    <td>Z: Not supported </td> 
   </tr> 
   <tr> 
