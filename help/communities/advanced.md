@@ -25,21 +25,21 @@ Therefore, the advanced scoring engine requires enough data to make analysis mea
 
 Setting up advanced scoring is virtually the same as basic scoring:
 
-* basic and advanced scoring and badging rules are [applied to content](implementing-scoring.md#apply-rules-to-content) in the same manner
-  * basic and advanced scoring and badging rules may be applied to the same content
-* [enabling badges for components](implementing-scoring.md#enable-badges-for-component) is generic
+* Basic and advanced scoring and badging rules are [applied to content](implementing-scoring.md#apply-rules-to-content) in the same manner
+  * Basic and advanced scoring and badging rules may be applied to the same content
+* [Enabling badges for components](implementing-scoring.md#enable-badges-for-component) is generic
 
 The differences in setting up the scoring and badging rules are:
 
-* configurable advanced scoring engine
-* advanced scoring rules:
-  * scoringType set to 'advanced'
-  * requires stopwords
+* Configurable advanced scoring engine
+* Advanced scoring rules:
+  * `scoringType` set to **[!UICONTROL advanced]**
+  * Requires stopwords
 
-* advanced badging rules:
-  * badgingType set to 'advanced'
-  * badgingLevels set to number of expert levels to award
-  * requires badgingPaths array of badges instead of thresholds array mapping points to badges
+* Advanced badging rules:
+  * `badgingType` set to **[!UICONTROL advanced]**
+  * `badgingLevels` set to number of expert levels to award
+  * Requires `badgingPaths` array of badges instead of thresholds array mapping points to badges
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
 
 ![chlimage_1-260](assets/chlimage_1-260.png)
 
-* **Scoring weights** 
+* **[!UICONTROL Scoring weights]** 
   For a topic, specify the verb that should be given the highest priority when calculating the score. One or more topics may be entered, but limited to **one verb per topic**. See [Topics and Verbs](implementing-scoring.md#topics-and-verbs).  
 
   Entered as `topic,verb` with the comma escaped. For example:  
@@ -61,21 +61,21 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
   Default is set to the ADD verb for QnA and forum components.
 
 
-* **Scoring range** 
+* **[!UICONTROL Scoring range]** 
 
   The range for advanced scores is defined by this value (maximum possible score) and 0 (lowest possible score.  
 
   Default value is 100 so that scoring range is 0-100.
 
 
-* **Entity decay time interval** 
+* **[!UICONTROL Entity decay time interval]** 
 
   This parameter represents the number of hours after which all entity scores are decayed. This is required to no longer include old content in scores for a community site.  
 
   Default value is 216000 hours (~24 years).
 
 
-* **Scoring growth rate** 
+* **[!UICONTROL Scoring growth rate]** 
 
   This specifies the score. between 0 and scoring range, beyond which growth slows to limit the number of experts.  
 
@@ -103,7 +103,7 @@ See [Scoring Sub-Rules](implementing-scoring.md#scoring-sub-rules).
 
 The advanced scoring package installs a configuration folder that contains a stopwords file:
 
-* /etc/community/scoring/configuration/stopwords
+* `/etc/community/scoring/configuration/stopwords`
 
 The advanced scoring algorithm uses the list of words contained in the stopwords file to identify common English words that are ignored during content processing.
 
@@ -121,10 +121,10 @@ Instead of associating points with a badge image, it is only necessary to identi
 
 | **Property**      | **Type**     | **Value Description**                                                                                                                                                                                                                                                                                                                                                              |
 |---------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| badgingPath   | String[] | (required) A multi-value string of badge images up to the number of badgingLevels. The badge image paths must be ordered so the first is awarded to the highest expert. If there are less badges than indicated by badgingLevels, the last badge in the array fills out the rest of the array. Example entry:/etc/community/badging/images/expert-badge/jcr:content/expert.png |
-| badgingLevels | Long     | (optional) Specifies the levels of expertise to be awarded. For example, if there should be an expert and an almost expert (two badges), then the value should be set to 2. The badgingLevel should correspond with the number of expert-related badge images listed for the badgingPath property. Default is 1.                                                               |
-| badgingType   | String   | (required) Identifies the scoring engine as either "basic" or "advanced". Set to "advanced" else the default is "basic".                                                                                                                                                                                                                                                       |
-| scoringRules  | String[] | (optional) A multi-value string to restrict the badging rule to scoring events identified by the scoring rule(s) listed.Example entry:/etc/community/scoring/rules/adv-comments-scoringDefault is no restriction.                                                                                                                                                              |
+| badgingPath   | String[] | (Required) A multi-value string of badge images up to the number of badgingLevels. The badge image paths must be ordered so the first is awarded to the highest expert. If there are less badges than indicated by badgingLevels, the last badge in the array fills out the rest of the array. Example entry:/etc/community/badging/images/expert-badge/jcr:content/expert.png |
+| badgingLevels | Long     | (Optional) Specifies the levels of expertise to be awarded. For example, if there should be an expert and an almost expert (two badges), then the value should be set to 2. The badgingLevel should correspond with the number of expert-related badge images listed for the badgingPath property. Default is 1.                                                               |
+| badgingType   | String   | (Required) Identifies the scoring engine as either "basic" or "advanced". Set to "advanced" else the default is "basic".                                                                                                                                                                                                                                                       |
+| scoringRules  | String[] | (Optional) A multi-value string to restrict the badging rule to scoring events identified by the scoring rule(s) listed.Example entry:/etc/community/scoring/rules/adv-comments-scoringDefault is no restriction.                                                                                                                                                              |
 You can now import Markdown table code directly using File/Paste table data... dialog.
 
 ## Included Rules and Badge {#included-rules-and-badge}
@@ -146,8 +146,8 @@ In order for the expert badge to appear as a reward for activity, there are two 
 
 See the basic informaton for:
 
-* [enabling badging for a component](implementing-scoring.md#enableforcomponent)
-* [applying rules](implementing-scoring.md#applytopage)
+* [Enabling badging for a component](implementing-scoring.md#enableforcomponent)
+* [Applying rules](implementing-scoring.md#applytopage)
 
 ### Included Scoring Rules and Sub-Rules {#included-scoring-rules-and-sub-rules}
 
@@ -155,7 +155,7 @@ Included in the beta release are two advanced scoring rules for the [forum funct
 
 1. /etc/community/scoring/rules/adv-comments-scoring
 
-    * subRules`[]` =  
+    * `subRules[]` =  
 
       /etc/community/scoring/rules/sub-rules/adv-comments-rule  
 
@@ -165,7 +165,7 @@ Included in the beta release are two advanced scoring rules for the [forum funct
 
 2. /etc/community/scoring/rules/adv-forums-scoring
 
-    * subRules`[]` =  
+    * `subRules[]` =  
 
       /etc/community/scoring/rules/sub-rules/adv-forums-rule  
 
@@ -175,7 +175,7 @@ Included in the beta release are two advanced scoring rules for the [forum funct
 
 **Notes:**
 
-* both `rules`and `sub-rules` nodes are of type cq:Page
+* Both `rules`and `sub-rules` nodes are of type `cq:Page`
 * `subRules` is an attribute of type String[] on the rule's `jcr:content` node
 * `sub-rules` may be shared among various scoring rules
 * `rules` should be located in a repository location with read permission for everyone
@@ -190,6 +190,6 @@ Included in the release are two advanced badging rules that correspond to the [a
 
 **Notes:**
 
-* `rules` nodes are of type cq:Page
+* `rules` nodes are of type `cq:Page`
 * `rules`should be located in a repository location with read permission for everyone
   * rule names must be unique regardless of location

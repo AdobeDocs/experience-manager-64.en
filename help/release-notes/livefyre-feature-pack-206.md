@@ -1,9 +1,10 @@
 ---
 title: Livefyre Feature Pack 2.0.6 Release Notes
 seo-title: Livefyre Feature Pack 2.0.6 Release Notes
-description: null
-seo-description: null
+description: Livefyre Feature Pack 2.0.6 Release Notes
+seo-description: Livefyre Feature Pack 2.0.6 Release Notes
 uuid: 81ee0527-72c3-4530-80f1-c802ddbe62d0
+products: SG_EXPERIENCEMANAGER/6.4
 contentOwner: alba
 discoiquuid: d445bcfb-7712-472f-bfb4-a8811c2bc4f1
 ---

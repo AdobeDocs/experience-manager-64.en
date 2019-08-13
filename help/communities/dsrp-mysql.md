@@ -77,7 +77,7 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 
 ### New Connection Settings {#new-connection-settings}
 
-1. Select the '+' icon to the right of `MySQL Connections`.
+1. Select the `+` icon to the right of `MySQL Connections`.
 1. In the dialog `Setup New Connection`, enter values appropriate for your platform  
 
    For demonstration purposes, with the author AEM instance and MySQL on the same server:
@@ -86,14 +86,14 @@ When the MySQL Workbench is first launched, unless already in use for other purp
     * Connection Method: `Standard (TCP/IP)`
     * Hostname: `127.0.0.1`
     * Username: `root`
-    * Password: `*no password by default*`
-    * Default Schema: `*leave blank*`
+    * Password: `no password by default`
+    * Default Schema: `leave blank`
 
 1. Select `Test Connection` to verify the connection to the running MySQL service
 
 **Notes**:
 
-* The default port is 3306
+* The default port is `3306`
 * The Connection Name chosen is entered as the datasource name in [JDBC OSGi configuration](#configurejdbcconnections)
 
 #### New Communities Connection {#new-communities-connection}
@@ -170,29 +170,29 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
     * For example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
 * Locate the `Day Commons JDBC Connections Pool`
-* Select the '+' icon to create a new connection configuration
+* Select the `+` icon to create a new connection configuration
 
 ![chlimage_1-111](assets/chlimage_1-111.png)
 
 * Enter the following values:
 
-    * **JDBC driver class**: com.mysql.jdbc.Driver
-    * **JDBC connection URI**: jdbc:mysql://localhost:3306/communities?characterEncoding=UTF-8  
+    * **[!UICONTROL JDBC driver class]**: `com.mysql.jdbc.Driver`
+    * **[!UICONTROL JDBC connection URI]**: `jdbc:mysql://localhost:3306/communities?characterEncoding=UTF-8`  
 
       Specify server in place of localhost if MySQL server is not the same as 'this' AEM server  
 
       *communities* is the default database (schema) name
   
-    * **Username**: root  
+    * **[!UICONTROL Username]**: `root`
 
       Or enter the configured Username for the MySQL server, if not 'root'
     
-    * **Password**:   
+    * **[!UICONTROL Password]**:   
 
       Clear this field if no password set for MySQL, 
     
       else enter the configured password for the MySQL Username
-    * **Datasource name**: name entered for the [MySQL connection](#new-connection-settings), for example, 'communities'
+    * **[!UICONTROL Datasource name]**: name entered for the [MySQL connection](#new-connection-settings), for example, 'communities'
 
-* Select **Save**
+* Select **[!UICONTROL Save]**
 

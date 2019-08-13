@@ -1,6 +1,6 @@
 ---
-title: Administering generic eCommerce
-seo-title: Administering generic eCommerce
+title: Administering Generic eCommerce
+seo-title: Administering Generic eCommerce
 description: The AEM generic solution provides methods of managing the commerce information held within the repository.
 seo-description: The AEM generic solution provides methods of managing the commerce information held within the repository.
 uuid: 8af6933a-2dee-4b73-bc15-71b8394d082f
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ad80505f-116e-43f1-8d93-ffe6e8b1ac46
 ---
 
-# Administering generic eCommerce{#administering-generic-ecommerce}
+# Administering Generic eCommerce{#administering-generic-ecommerce}
 
 The AEM generic solution provides methods of managing the commerce information held within the repository (as opposed to using an external ecommerce engine). This includes:
 

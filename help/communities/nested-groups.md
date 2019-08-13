@@ -17,9 +17,9 @@ discoiquuid: 955a1876-4882-4926-82e9-846bc8bb332c
 
 On author, from global navigation
 
-* Select **Communities, Sites**
-* Select **engage folder** to open it
-* Select the card for the **Getting Started Tutorial**  English site
+* Select **[!UICONTROL Communities > Sites]**
+* Select **[!UICONTROL engage folder]** to open it
+* Select the card for the **[!UICONTROL Getting Started Tutorial]**  English site
     * Select the card image
     * Do *not* select an icon
 
@@ -37,7 +37,7 @@ This group can be created because the site structure for engage includes a group
 
 These consoles are very similar to the Communities Sites console.
 
-* Select **Create Group**
+* Select **[!UICONTROL Create Group]**
 * `1 Community Group Template`:
     * Community Group Title: Arts
     * Community Group Description: A parent group for various arts groups.
@@ -45,23 +45,23 @@ These consoles are very similar to the Communities Sites console.
     * Additional Available Community Group Language(s):use the pull down menu to select the available community group language(s). The menu displays all the language(s) in which the parent community site is created. Users can select among these languages to create groups in multiple locales in this single step. Same group gets created in multiple specified languages in the Groups console of the respective community sites.
     * Community Group Name: arts
     * Template: pull down to select `Reference Group`
-    * `select Next`
+    * Select `Next`
 ![parenttonestedgroup](assets/parenttonestedgroup.png)
 
 Continue through the other panels with these settings:
 
 * **2 Design**
     * You can change the design or allow to default to parent site's design
-    * Select **Next**
+    * Select **[!UICONTROL Next]**
 * **3 Settings**
     * **Moderation**
         * Leave empty (inherit from parent site)
     * **Membership**
         * use default `Optional Membership`
     * **Thumbnail**
-        * `*optional*`
-    * `select Next`
-* Select **Create**
+        * `optional`
+    * Select `Next`
+* Select **[!UICONTROL Create]**
 
 ### Nesting Groups within Arts Group {#nesting-groups-within-arts-group}
 
@@ -106,11 +106,11 @@ Refresh the page to see all three nested groups (sub-communities).
 
 If necessary, to navigate to the nested groups from the Communities Sites console:
 
-* Select engage folder
-* Select Getting Started Tutorial card
-* Select Groups folder
-* Select arts card
-* Select Groups folder
+* Select **[!UICONTROL engage folder]**
+* Select **[!UICONTROL Getting Started Tutorial]** card
+* Select **[!UICONTROL Groups folder]**
+* Select **[!UICONTROL arts card]**
+* Select **[!UICONTROL Groups folder]**
 
 ![chlimage_1-57](assets/chlimage_1-57.png)
 

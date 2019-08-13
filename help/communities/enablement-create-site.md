@@ -22,9 +22,9 @@ To get started creating a new community site:
 Using the [author instance](http://localhost:4502/)
 
 * Sign in with administrator privileges
-* Navigate to **Communities, Sites**
+* Navigate to **[!UICONTROL Communities > Sites]**
 
-* Select **Create**
+* Select **[!UICONTROL Create]**
 
 ### Step 1: Site Template {#step-site-template}
 
@@ -41,16 +41,16 @@ On the **Site Template** step, enter a title, description, the name for the URL,
 * **Cloud Configurations**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations.
 * **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
-* **Community Site Name**: `enable`
+* **[!UICONTROL Community Site Name]**: `enable`
 
     * the initial URL will be displayed underneath the Community Site Name
     * for a valid URL, append a base language code + ".html"  
 
       *for example*, http://localhost:4502/content/sites/ `enable/en.html`
 
-* **Reference Site Template**: pull down to choose `Reference Structured Learning Site Template`
+* **[!UICONTROL Reference Site Template]**: pull down to choose `Reference Structured Learning Site Template`
 
-Select **Next**
+Select **[!UICONTROL Next]**
 
 ### Step 2: Design {#step-design}
 
@@ -68,7 +68,7 @@ Select the desired style to apply to the template. When selected, the theme will
 
 ![chlimage_1-284](assets/chlimage_1-284.png) ![chlimage_1](assets/chlimage_1.jpeg)
 
-Select **Next**.
+Select **[!UICONTROL Next]**.
 
 ### Step 3: Settings {#step-settings}
 
@@ -138,7 +138,7 @@ The selection seen in the screenshot, `Communities`, is the framework example fr
 
 The [Translation settings](sites-console.md#translation) specify whether or not UGC may be translated and into which language, if so.
 
-* Check **Allow Machine Translation**
+* Check **[!UICONTROL Allow Machine Translation]**
 * Use the default settings
 
 ![chlimage_1-289](assets/chlimage_1-289.png)
@@ -147,22 +147,22 @@ The [Translation settings](sites-console.md#translation) specify whether or not 
 
 For an enablement community, it is necessary to identify one or more Community Enablement Managers.
 
-* **Enablement Managers** 
+* **[!UICONTROL Enablement Managers]** 
   (required) Members of the `Community Enablement Managers` group are available to be selected to manage this community site.
 
     * Type "s"
     * Select `Sirius Nilson`
 
-* **Marketing Cloud Org Id** 
+* **[!UICONTROL Marketing Cloud Org Id]** 
   (optional) The ID for an Adobe Analytics account which is necessary when including [Video Heartbeat Analytics](analytics.md#video-heartbeat-analytics) in the enablement reporting.
 
 ![chlimage_1-290](assets/chlimage_1-290.png)
 
-Select **Next**.
+Select **[!UICONTROL Next]**.
 
 ### Step 4: Create Community Site {#step-create-community-site}
 
-Select **Create.**
+Select **[!UICONTROL Create]**.
 
 ![chlimage_1-291](assets/chlimage_1-291.png)
 
@@ -231,14 +231,14 @@ Using the Community Groups console, members can be added individually or added t
 
 In this example, the group `Community Ski Class` is added as a member of the group `Community Enable Members` as well as member `Quinn Harper`.
 
-* Navigate to **Communities, Groups** console
-* Select *Community Enable Members* group
-* Enter 'ski' into the **Add Members To Group** search box
-* Select *Community Ski Class* (group of learners)
-* Enter 'quinn' into the search box
-* Select *Quinn Harper* (enablement resource contact)
+* Navigate to **[!UICONTROL Communities > Groups]** console
+* Select **[!UICONTROL Community Enable Members]** group
+* Enter `ski` into the **[!UICONTROL Add Members To Group]** search box
+* Select **[!UICONTROL Community Ski Class]** (group of learners)
+* Enter `quinn` into the search box
+* Select **[!UICONTROL Quinn Harper]** (enablement resource contact)
 
-* select **Save**
+* Select **[!UICONTROL Save]**
 
 ![chlimage_1-295](assets/chlimage_1-295.png)
 
@@ -271,7 +271,7 @@ To get started
 1. In the project browser, expand `/etc/map`
 1. Select the `http` node
 
-    * Select **Create Node**
+    * Select **[!UICONTROL Create Node]**
 
         * **Name** localhost.4503  
 
@@ -295,7 +295,7 @@ To get started
         * **Type** String
         * **Value** /content/sites/enable/en.html
 
-1. Select **Save All**
+1. Select **[!UICONTROL Save All]**
 1. (optional) Delete the browsing history
 1. Browse to http://localhost:4503/
 
@@ -303,7 +303,7 @@ To get started
 
 >[!NOTE]
 >
->To disable, simply prepend the `sling:match` property value with an 'x' - `xlocalhost.4503/$` - and **Save All**.
+>To disable, simply prepend the `sling:match` property value with an 'x' - `xlocalhost.4503/$` - and **[!UICONTROL Save All]**.
 
 ![chlimage_1-297](assets/chlimage_1-297.png)
 
@@ -337,7 +337,7 @@ If not, the catalog function can easily be added. This would allow other members
 
 If the site structure does already contain the catalog feature, its Title can be changed.
 
-To modify the site's structure, navigate to the **Communities, Sites** console, open the `enable` folder, and select the **Edit Site** icon to access the properties of `Enablement Tutorial`.
+To modify the site's structure, navigate to the **[!UICONTROL Communities, Sites]** console, open the `enable` folder, and select the **Edit Site** icon to access the properties of `Enablement Tutorial`.
 
 Select the STRUCTURE panel to add a Catalog or modify an existing Catalog:
 
@@ -346,7 +346,7 @@ Select the STRUCTURE panel to add a Catalog or modify an existing Catalog:
 * **URL**: `catalog`
 
 * **Select All Namespaces**: leave as default.
-* Select **Save**
+* Select **[!UICONTROL Save]**
 
 ![chlimage_1-299](assets/chlimage_1-299.png)
 
@@ -354,6 +354,6 @@ Use the Position Icon to move the Catalog function to the second position, after
 
 ![chlimage_1-300](assets/chlimage_1-300.png)
 
-Select **Save** in the upper right corner to save the changes to the community site.
+Select **[!UICONTROL Save]** in the upper right corner to save the changes to the community site.
 
 Then re-**Publish** the site.

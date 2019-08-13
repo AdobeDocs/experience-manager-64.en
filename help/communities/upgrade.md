@@ -52,10 +52,10 @@ For all AEM 6.3 author and publish instances
 3. Follow these steps to make pre-existing UGC visible:
   i. Browse to the web console, for example
    [https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr)
-  ii. Locate **AEM Communities Utilities** configuration
+  ii. Locate **[!UICONTROL AEM Communities Utilities]** configuration
   iii. Select to expand config panel
     * *Uncheck* **`Cloud Storage`**
-    * Select **Save**
+    * Select **[!UICONTROL Save]**
 
 ![chlimage_1-126](assets/chlimage_1-126.png) 
 

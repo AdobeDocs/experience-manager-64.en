@@ -199,10 +199,10 @@ On an author instance:
 1. Signed in with administrator privileges, browse to the classic UI security console.
     For example, [http://localhost:4502/useradmin](http://localhost:4502/useradmin)
 
-2. From the Edit menu, select **Create User**.
+2. From the Edit menu, select **[!UICONTROL Create User]**.
 3. Fill in the `Create User` dialog.
     * Path must be `/home/users/community`
-4. Select **Create**
+4. Select **[!UICONTROL Create]**
 
 ![chlimage_1-130](assets/chlimage_1-130.png)
 
@@ -212,8 +212,8 @@ On an author instance:
 
 In the left pane:
 
-1. Clear the search box and select **Hide Users**
-2. Locate and drag `community-enablementmanagers` to the **Groups** tab of the new user displayed in the right pane
+1. Clear the search box and select **[!UICONTROL Hide Users]**
+2. Locate and drag `community-enablementmanagers` to the **[!UICONTROL Groups]** tab of the new user displayed in the right pane
 
 ![chlimage_1-132](assets/chlimage_1-132.png) 
 
@@ -238,9 +238,9 @@ Following are some configuration details specific for community members and memb
 
     * Set the following properties:
 
-        * **User auto membership**&ast;: `community-<site name>-<uid>-members`
-        * **User Path Prefix**: `/community`
-        * **Group Path Prefix**: `/community`
+        * **[!UICONTROL User auto membership]**: `community-<site name>-<uid>-members`
+        * **[!UICONTROL User Path Prefix]**: `/community`
+        * **[!UICONTROL Group Path Prefix]**: `/community`
 
 4. [The External Login Module](../../help/sites-administering/ldap-config.md#the-external-login-module)
 

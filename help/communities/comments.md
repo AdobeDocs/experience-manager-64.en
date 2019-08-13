@@ -32,7 +32,7 @@ To add a `Comments`component to a page in author mode, use the component browser
 
 * `Communities / Comments`
 
-And drag it into place on a page, such as a position relative to the feature for users to comment on, or simply at the bottom of the page.
+and drag it into place on a page, such as a position relative to the feature for users to comment on, or simply at the bottom of the page.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -52,97 +52,97 @@ Select the placed `Comments` component to access and select the `Configure` icon
 
 ### Comments tab {#comments-tab}
 
-Under the **Comments** tab, specify how comments are entered by visitors.
+Under the **[!UICONTROL Comments]** tab, specify how comments are entered by visitors.
 
-* **Allow replies** 
+* **[!UICONTROL Allow replies]** 
 
   If checked, allows members to reply to existing comments. Default is unchecked.
 
-* **Comments Per Page** 
+* **[!UICONTROL Comments Per Page]** 
 
   Limits the number of comments shown per page as well as the number of replies shown. Default is 10.
 
-* **Allow File Uploads** 
+* **[!UICONTROL Allow File Uploads]** 
 
   If checked, the option to upload a file will be presented with the text entry box. Default is unchecked.
 
-* **Max File Size** 
+* **[!UICONTROL Max File Size]** 
 
   Relevant only if Allow File Uploads is checked. This value will limit the uploaded file size. Default limit is 10 MB.
 
-* **Max Message Length** 
+* **[!UICONTROL Max Message Length]** 
 
   Maximum number of characters that may be entered into the text box. Default is 4096 characters.
 
-* **Allowed File Types** 
+* **[!UICONTROL Allowed File Types]** 
 
   Relevant only if Allow File Uploads is checked. A comma separated list of file extensions with the "dot" separator. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specified, then those not specified will not be allowed. Default is none specified such that all file types are allowed.
 
-* **Rich Text Editor** 
+* **[!UICONTROL Rich Text Editor]** 
 
   If checked, comments may be entered with markup. Default is unchecked.
 
-* **Allow Voting** 
+* **[!UICONTROL Allow Voting]** 
 
   If checked, the option to vote up or down will be presented with the text entry box. Default is unchecked.
 
-* **Allow Following** 
+* **[!UICONTROL Allow Following]** 
 
   If checked, allow members to follow comments. Default is unchecked.
 
-* **Display Badges** 
+* **[!UICONTROL Display Badges]** 
 
   If checked, allow earned and awarded badges to be displayed. Default is unchecked.
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation** tab, specify how the posted comments are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
+Under the **[!UICONTROL User Moderation]** tab, specify how the posted comments are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
-* **Pre-Moderation** 
+* **[!UICONTROL Pre-Moderation]** 
 
   If checked, comments must be approved before they will appear on a publish site. Default is unchecked.
 
-* **Delete Comments** 
+* **[!UICONTROL Delete Comments]** 
 
   If checked, the member who posted the comment is provided the ability to delete it. Default is unchecked.
 
-* **Deny Comments** 
+* **[!UICONTROL Deny Comments]** 
 
   If checked, allow moderators to deny comments. Default is unchecked.
 
-* **Close/Reopen Comments** 
+* **[!UICONTROL Close/Reopen Comments]** 
 
   If checked, allow moderators to close and reopen comments. Default is unchecked.
 
-* **Flag Comments** 
+* **[!UICONTROL Flag Comments]** 
 
   If checked, allow members to flag comments as inappropriate. Default is unchecked.
 
-* **Flag Reason List** 
+* **[!UICONTROL Flag Reason List]** 
 
   If checked, allow members to choose, from a drop-down list, their reason for flagging a comment as inappropriate. Default is unchecked.
 
-* **Custom Flag Reason** 
+* **[!UICONTROL Custom Flag Reason]** 
 
   If checked, allow members to enter their own reason for flagging a comment as inappropriate. Default is unchecked.
 
-* **Moderation Threshold** 
+* **[!UICONTROL Moderation Threshold]** 
 
   Enter the number of times a comment has to be flagged by members before moderators are notified. Default is one time (1).
 
-* **Flagging Limit** 
+* **[!UICONTROL Flagging Limit]** 
 
-  Enter the number of times a comment has to be flagged before it is hidden from public view. This number must be greater than or equal to the **Moderation Threshold**. Default is 5.
+  Enter the number of times a comment has to be flagged before it is hidden from public view. This number must be greater than or equal to the **[!UICONTROL Moderation Threshold]**. Default is 5.
 
 ### Sort Settings tab {#sort-settings-tab}
 
-Under the **Sort Settings** tab, specify how the posted comments are sorted when displayed.
+Under the **[!UICONTROL Sort Settings]** tab, specify how the posted comments are sorted when displayed.
 
-* **Sort Field** 
+* **[!UICONTROL Sort Field]** 
 
   Pull down to select one of `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed`, or `Most Liked`.
 
-* **Sort Order** 
+* **[!UICONTROL Sort Order]** 
 
   Pull down to select one of `Ascending` or `Descending`.
 
@@ -152,23 +152,23 @@ By changing the Comment Resource Type, the comment system will no longer generat
 
 Once the custom resource types is known, enter [Design Mode](../../help/sites-authoring/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
 
-Under the **Resource Types** tab, specify the custom resourceType for new instances of the `Comments or Voting`components:
+Under the **[!UICONTROL Resource Types]** tab, specify the custom resourceType for new instances of the `Comments or Voting`components:
 
 ![chlimage_1-429](assets/chlimage_1-429.png)
 
-* **Comment Resource Type** 
+* **[!UICONTROL Comment Resource Type]** 
 
   Navigate to the resourceType of an extended `comment`component (single comment) in /apps. For example, `/apps/social/commons/components/hbs/comments/comment`
 
   This resource will identify the resourceType of the UGC created when a visitor posts a comment.
 
-* **Voting Resource Type** 
+* **[!UICONTROL Voting Resource Type]** 
 
   Navigate to the resourceType of an extended `voting`component in /apps. For example, `/apps/social/components/hbs/voting`
   
   This resource will identify the resource type of the UGC created when a visitor posts a vote.
 
-* **Comment System Resource Type** 
+* **[!UICONTROL Comment System Resource Type]** 
 
   Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](handlebars-helpers.md#include).
 

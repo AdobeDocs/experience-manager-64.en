@@ -51,7 +51,7 @@ To create a new Asset Share page, you can either create it when you are working 
 
 >[!NOTE]
 >
->By default, when you create an Asset Share page from **New **in the digital asset manager, an Asset viewer and Asset editor are automatically created for you.
+>By default, when you create an Asset Share page from **New** in the digital asset manager, an Asset viewer and Asset editor are automatically created for you.
 
 To create an new Asset Share page in the **Websites** console:
 

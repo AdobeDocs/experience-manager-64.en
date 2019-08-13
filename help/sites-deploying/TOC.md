@@ -78,16 +78,11 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Forms Repository Restructuring in AEM 6.4](forms-repository-restructuring-in-aem-6-4.md)
     + [E-Commerce Repository Restructuring in AEM 6.4](ecommerce-repository-restructuring-in-aem-6-4.md)
     + [Repository Restructuring for AEM Communities in 6.4](communities-repository-restructuring-in-aem-6-4.md)
-+ eCommerce Connectors {#ecommerce}
++ eCommerce {#ecommerce}
     + [eCommerce Overview](ecommerce.md)
-    + [hybris](hybris.md)
-    + [Intershop](intershop.md)
-    + [Elastic Path](elasticpath.md)
-    + [Magento](magento.md)
-    + [Salesforce Commerce Cloud](demandware.md)
-    + [IBM Websphere Commerce](ibm-websphere.md)
-    + [IBM Websphere Setup](setup.md)
-    + [Digital River](digital-river.md)
+    + [SAP Commerce Cloud](sap-commerce-cloud.md)
+    + [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce)
+    + [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
 + Best Practices {#practices}
    + [Deploying Best Practices](best-practices.md)
    + [Performance Tree](performance-tree.md)

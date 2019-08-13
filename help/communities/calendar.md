@@ -17,10 +17,10 @@ discoiquuid: 8b8e74c5-8b65-4117-9ef0-da9d9e47191f
 
 The calendar feature supports providing community event information in a calendar format either to all site visitors or only signed in site visitors (community members), while only authorized members may add events.
 
-This section of the documentation describes
+This section of the documentation describes:
 
-* adding the calendar feature to an AEM site
-* configuration settings for `Calendar`components
+* Adding the calendar feature to an AEM site
+* Configuration settings for `Calendar`components
 
 ## Adding a Calendar to a Page {#adding-a-calendar-to-a-page}
 
@@ -28,7 +28,7 @@ To add a `Calendar` component to a page in author mode, use the component browse
 
 * `Communities / Calendar`
 
-And drag it into place on a page, such as a position relative to the feature for users to review.
+and drag it into place on a page, such as a position relative to the feature for users to review.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
@@ -44,119 +44,119 @@ Select the placed `Calendar`component to access and select the `Configure` icon 
 
 #### Settings tab {#settings-tab}
 
-Under the **Settings** tab, specify whether or not to allow tags to be applied to calendar entries.
+Under the **[!UICONTROL Settings]** tab, specify whether or not to allow tags to be applied to calendar entries.
 
-* **Events Per Page** 
+* **[!UICONTROL Events Per Page]** 
 
   Defines the number of evens shown per page. Default is 10.
 
-* **Moderated** 
+* **[!UICONTROL Moderated]** 
 
   If checked, posting of calendar events and comments must be approved before they will appear on a publish site. Default is unchecked.
 
-* **Closed** 
+* **[!UICONTROL Closed]** 
 
   If checked, the calendar is closed to new event entries and comments. Default is unchecked.
 
-* **Rich Text Editor** 
+* **[!UICONTROL Rich Text Editor]** 
 
   If checked, calendar events and comments may be entered with markup. Default is checked.
 
-* **Allow Tagging** 
+* **[!UICONTROL Allow Tagging]** 
 
   If checked, allow members to add tag labels to the events they post (see **Tag field** tab). Default is checked.
 
-* **Allow File Uploads** 
+* **[!UICONTROL Allow File Uploads]** 
 
   If checked, allow file attachments to be added to a calendar event or comment. Default is checked.
 
-* **Allow Following** 
+* **[!UICONTROL Allow Following]** 
 
   If checked, allow members to follow events posted to the calendar. Default is checked.
 
-* **Max File Size** 
+* **[!UICONTROL Max File Size]** 
 
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
-* **Allowed File Types** 
+* **[!UICONTROL Allowed File Types]** 
 
   Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
 
-* **Max Attach Image File Size** 
+* **[!UICONTROL ]Max Attach Image File Size** 
 
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152 (2 Mb).
 
-* **Allowed Cover Image Types** 
+* **[!UICONTROL Allowed Cover Image Types]** 
 
   A comma separated list of image file extensions with the "dot" separater. Default is `.jpg,.jpeg,.png,.gif,.bmp`.
 
-* **Allow Threaded Replies** 
+* **[!UICONTROL Allow Threaded Replies]** 
 
   If checked, allow replies to comments posted to the calendar event. Default is checked.
 
-* **Allow Users to Delete Comments and Events** 
+* **[!UICONTROL Allow Users to Delete Comments and Events]** 
 
   If checked, allow members to delete the comments and calendar events they posted. Default is checked.
 
-* **Allow Voting** 
+* **[!UICONTROL Allow Voting]** 
 
   If checked, include the Voting feature with a calendar event. Default is checked.
 
-* **Show Breadcrumbs** 
+* **[!UICONTROL Show Breadcrumbs]** 
 
   Show breadcrumbs on event page. Default is checked.
 
-* **Date Range Filter** 
+* **[!UICONTROL Date Range Filter]** 
 
   Defines the number of days added to the current date in order to compute the "To" value of the calendar event listing page filter. Default number is 30.
 
-* **Allow Featured Content** 
+* **[!UICONTROL Allow Featured Content]** 
 
   If checked, the idea is able to be identified as [featured content](featured.md). Default is unchecked.
 
-Under the **User Moderation** tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
+Under the **[!UICONTROL User Moderation]** tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
 #### User Moderation tab {#user-moderation-tab}
 
-* **Deny Posts** 
+* **[!UICONTROL Deny Posts]** 
 
   If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is checked.  
 
-* **Close/Reopen Events** 
+* **[!UICONTROL Close/Reopen Events]** 
 
   If checked, trusted member moderators may close an event to further edits and comments, and may also reopen an event. Default is checked.  
 
-* **Flag Posts** 
+* **[!UICONTROL Flag Posts]** 
 
-  If checked, allow members to flag others' events or comments as inappropriate. Default is checked**.** 
+  If checked, allow members to flag others' events or comments as inappropriate. Default is checked. 
 
-* **Flag Reason List** 
+* **[!UICONTROL Flag Reason List]** 
 
   If checked, allow members to choose, from a drop-down list, their reason for flagging an event or comment as inappropriate. Default is unchecked.  
 
-* **Custom Flag Reason** 
+* **[!UICONTROL Custom Flag Reason]** 
 
-  If checked, allow members to enter their own reason for flagging an event or comment as inappropriate. Default is unchecked**.** 
+  If checked, allow members to enter their own reason for flagging an event or comment as inappropriate. Default is unchecked. 
 
-* **Moderation Threshold** 
+* **[!UICONTROL Moderation Threshold]** 
 
   Enter the number of times an event or comment has to be flagged by members before moderators are notified. Default is 1 ( one time).
 
-* **Flagging Limit** 
+* **[!UICONTROL Flagging Limit]** 
 
   Enter the number of times an event or comment has to be flagged before it is hidden from public view. If set to -1, the flagged topic or comment is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.
 
 #### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
+Under the **[!UICONTROL Tag field]** tab, the tags which may be applied, if allowed under the **[!UICONTROL Settings]** tab, are limited according to namespaces chosen.
 
-* **Allowed Namespaces** 
+* **[!UICONTROL Allowed Namespaces]** 
 
-  Relevant if `Allow Tagging` is checked under the **Settings** tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
+  Relevant if `Allow Tagging` is checked under the **[!UICONTROL Settings]** tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
 
-* **Suggestion Limit** 
+* **[!UICONTROL Suggestion Limit]** 
 
-  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is **-** 1 (no limits).
+  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is `-1` (no limits).
 
 >[!NOTE]
 >
@@ -164,9 +164,9 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 
 #### Translation tab {#translation-tab}
 
-Under the **Translation** tab, if translation is enabled for the community site, translation may be set to translate the entire thread (event and comments) instead of specific posts.
+Under the **[!UICONTROL Translation]** tab, if translation is enabled for the community site, translation may be set to translate the entire thread (event and comments) instead of specific posts.
 
-* **Translate All** 
+* **[!UICONTROL Translate All]** 
 
   If checked, the event and comments are translated into the user's preferred language. Default is checked.
 

@@ -1,24 +1,24 @@
 ---
-title: hybris
-seo-title: hybris
-description: Learn how to deploy eCommerce with hybris.
-seo-description: Learn how to deploy eCommerce with hybris.
+title: SAP Commerce Cloud
+seo-title: SAP Commerce Cloud
+description: Learn how to deploy eCommerce with SAP Commerce Cloud.
+seo-description: Learn how to deploy eCommerce with SAP Commerce Cloud.
 uuid: a16ae42b-9c33-4da8-a130-52b72a779ec7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
 discoiquuid: 44dfa10f-497e-473f-95d4-8dccae7ebf8e
-pagetitle: Deploying eCommerce with hybris
+pagetitle: Deploying eCommerce with SAP Commerce Cloud
 ---
 
-# hybris{#hybris}
+# SAP Commerce Cloud{#sap-commerce-cloud}
 
 >[!NOTE]
 >
 >This page contains links to the hybris website. For certain pages you will need an account to login.
 
-## Deploying eCommerce with hybris {#deploying-ecommerce-with-hybris}
+## Deploying eCommerce with SAP Commerce Cloud {#deploying-ecommerce-with-sap-commerce-cloud}
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ This is available under the English (US) branch ( `/content/geometrixx-outdoors/
 
 ### Technical Requirements - hybris Server {#technical-requirements-hybris-server}
 
-The hybris extension of the eCommerce Integration Framework has been updated to support Hybris 5 (as default), while maintaining backward compatibility with [Hybris 4](/help/sites-developing/hybris.md#developing-for-hybris).
+The hybris extension of the eCommerce Integration Framework has been updated to support Hybris 5 (as default), while maintaining backward compatibility with [Hybris 4](/help/sites-developing/sap-commerce-cloud.md#developing-for-hybris).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ The hybris extension of the eCommerce Integration Framework has been updated to 
 
 To install eCommerce functionality you need:
 
-* Your hybris server, available from [hybris](#configureandbuildthehybrisserver).
+* Your hybris server
 * AEM eCommerce framework:
 
     * this is part of a standard AEM installation

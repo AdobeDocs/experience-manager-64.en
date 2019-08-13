@@ -51,24 +51,24 @@ On author, to access the Storage Configuration console
 * Sign in with administrator privileges
 * From the **main menu**
 
-    * Select **Tools** (from the left hand pane)
-    * Select **Communities**
-    * Select **Storage Configuration**
+    * Select **[!UICONTROL Tools]** (from the left hand pane)
+    * Select **[!UICONTROL Communities]**
+    * Select **[!UICONTROL Storage Configuration]**
 
         * As an example, the resulting location is: [http://localhost:4502/communities/admin/defaultsrp](http://localhost:4502/communities/admin/defaultsrp)
 
 ![chlimage_1-128](assets/chlimage_1-128.png)
 
-* Select **Database Storage Resource Provider (DSRP)**
+* Select **[!UICONTROL Database Storage Resource Provider (DSRP)]**
 * **Database Configuration**
 
-    * **JDBC datasource name** 
+    * **[!UICONTROL JDBC datasource name]** 
 
       Name given to MySQL connection must be the same as entered in [JDBC OSGi configuration](dsrp-mysql.md#configurejdbcconnections)  
 
       *default*: communities
   
-    * **Database name** 
+    * **[!UICONTROL Database name]** 
 
       Name given to schema in [init_schema.sql](dsrp-mysql.md#obtain-the-sql-script) script 
 
@@ -82,15 +82,15 @@ On author, to access the Storage Configuration console
   
       *default*: *&lt;blank&gt;*
   
-    * **Solr URL** 
+    * **[!UICONTROL Solr URL]** 
 
       *default*: https://127.0.0.1:8983/solr/
   
-    * **Solr Collection** 
+    * **[!UICONTROL Solr Collection]** 
 
       *default*: collection1
 
-* Select **Submit**
+* Select **[!UICONTROL Submit]**
 
 ## Publishing the Configuration {#publishing-the-configuration}
 
@@ -100,14 +100,14 @@ To make the identical configuration available in the publish environment:
 
 * On author:
 
-    * Navigate from main menu to `Tools > Operations > Replication`
-    * Double-click **Activate Tree**
+    * Navigate from main menu to **[!UICONTROL Tools > Operations > Replication]**
+    * Double-click **[!UICONTROL ]Activate Tree**
     * **Start Path:**
 
         * Browse to `/etc/socialconfig/srpc/`
 
-    * Ensure *Only Modified* is not selected.
-    * Select **Activate**
+    * Ensure `Only Modified` is not selected.
+    * Select **[!UICONTROL Activate]**
 
 ## Managing User Data {#managing-user-data}
 

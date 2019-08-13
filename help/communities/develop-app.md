@@ -26,15 +26,12 @@ The first step is to add a resource super type property to the `/apps/an-scf-san
 Using CRXDE Lite:
 
 <!--Resolve steps below-->
+    * Name: `sling:resourceSuperType`
+    * Type: `String`
+    * Value: `foundation/components/page`
 
-
-
-    * Name: **`sling:resourceSuperType`**
-    * Type: **`String`**
-    * Value: **`foundation/components/page`**
-
-1. Click the green **[+] Add**
-1. Click **Save All**
+1. Click the green **[!UICONTROL [+] Add]**
+1. Click **[!UICONTROL Save All]**
 
 ![chlimage_1-231](assets/chlimage_1-231.png) 
 
@@ -91,7 +88,7 @@ Using CRXDE Lite:
 
         * Name: **body.jsp**
 
-    1. click **Save All**
+    1. Click **[!UICONTROL Save All]**
 
    Open `/apps/an-scf-sandbox/components/playpage/body.jsp` and paste in the following text:  
 
@@ -111,7 +108,7 @@ Using CRXDE Lite:
    </body>
    ```
 
-1. Click **Save All**
+1. Click **[!UICONTROL Save All]**
 
 **View the page in a browser in edit mode:**
 
@@ -144,7 +141,7 @@ For the purposes of this sandbox, start with these **Communities** components (e
 * Reviews Summary (Display)
 * Voting
 
-In addition, choose **General** components, such as
+In addition, choose **[!UICONTROL General]** components, such as
 
 * Image
 * Table
@@ -165,13 +162,13 @@ In this simple example, the root page is being statically set to redirect to the
 Change the browser URL to the root page: [http://localhost:4502/editor.html/content/an-scf-sandbox.html](https://locahost:4502/editor.html/content/an-scf-sandbox.html)
 
 * Select the Page Information icon
-* Select **Open Properties**
+* Select **[!UICONTROL Open Properties]**
 * On the ADVANCED tab
 
-    * For the Redirect entry, browse to **Websites &gt; SCF Sandbox Site &gt; SCF Sandbox**
-    * Click **OK**
+    * For the Redirect entry, browse to **[!UICONTROL Websites > SCF Sandbox Site > SCF Sandbox]**
+    * Click **[!UICONTROL OK]**
 
-* Click **OK**
+* Click **[!UICONTROL OK]**
 
 Once the site is published, browsing to the root page on a publish instance will redirect to the english page.  
 

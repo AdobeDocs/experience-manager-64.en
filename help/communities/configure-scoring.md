@@ -75,23 +75,23 @@ For detailed instructions, visit [Create a Custom Log File](../../help/sites-dep
 
 To quickly setup a slinglog file:
 
-1. Access the **Adobe Experience Manager Web Console Log Support**, for example
+1. Access the **[!UICONTROL Adobe Experience Manager Web Console Log Support]**, for example
 
     * http://localhost:4502/system/console/slinglog
 
-1. Select **Add new logger**
+1. Select **[!UICONTROL Add new logger]**
 
-    1. Select `DEBUG`for **Log Level**
-    1. Enter a name for **Log File**, for example
+    1. Select `DEBUG` for **[!UICONTROL Log Level]**
+    1. Enter a name for **[!UICONTROL Log File]**, for example
 
         * logs/scoring-debug.log
 
-    1. Enter two **Logger **(class) entries (using `+` icon)
+    1. Enter two **[!UICONTROL Logger]** (class) entries (using `+` icon)
 
         * `com.adobe.cq.social.scoring`
         * `com.adobe.cq.social.badging`
 
-    1. Select **Save**
+    1. Select **[!UICONTROL Save]**
 
 ![chlimage_1-248](assets/chlimage_1-248.png)
 
@@ -99,8 +99,8 @@ To see log entries:
 
 * From the Web Console
 
-    * Under the **Status** menu
-    * Select **Log Files**
+    * Under the **[!UICONTROL Status]** menu
+    * Select **[!UICONTROL Log Files]**
     * Search for your Log File name, such as `scoring-debug`
 
 * On the server's local disk
@@ -210,7 +210,7 @@ As a user has earned two bronze badges and has been awarded a moderator badge, t
 >This example does not follow these best practices:
 >
 >* scoring rule names should be globally unique; they should not end with the same name.  
->  An example of what *not *to do:  
+>  An example of what *not* to do:  
 >  /etc/community/scoring/rules/site1/forums-scoring  
 >  /etc/community/scoring/rules/site2/forums-scoring
 >

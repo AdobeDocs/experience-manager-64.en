@@ -45,24 +45,22 @@ As the transcodings are CPU intensive, it is recommended to modify the list of t
 To modify the DAM Update Asset workflow, and in this example, to turn off transcoding:
 
 * Sign into the author instance with administrative privileges
-* From global navigation: **Tools, Workflow, Models**
-* Locate **DAM Update Asset**
+* From global navigation: **[!UICONTROL Tools > Workflow > Models]**
+* Locate **[!UICONTROL DAM Update Asset]**
 * Double-click to open the workflow for edit in the Classic UI 
 
   Resulting location: [http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html](http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html)
 
-* Double-click the **FFmpeg transcoding** step to access the Step Properties dialog
-* Under the `Process` tab:
+* Double-click the **[!UICONTROL FFmpeg transcoding]** step to access the Step Properties dialog
+* Under the **[!UICONTROL Process]** tab:
 
-    * **Arugments**: Clear all entries to disable transcoding  
-
-      Default values: `profile:firefoxhq,profile:hq,profile:flv,profile:iehq`
+    * **[!UICONTROL Arugments]**: Clear all entries to disable transcoding Default values: `profile:firefoxhq,profile:hq,profile:flv,profile:iehq`
 
 ![chlimage_1-372](assets/chlimage_1-372.png)
 
-* Select **OK** to close the `Step Properties` dialog
+* Select **[!UICONTROL OK]** to close the `Step Properties` dialog
 
-* Select **Save** to save the `DAM Update Asset` workflow  
+* Select **[!UICONTROL Save]** to save the `DAM Update Asset` workflow  
 
   (upper left corner)
 

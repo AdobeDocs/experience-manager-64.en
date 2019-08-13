@@ -22,11 +22,11 @@ AEM Communities enables community administrators to create groups and sub-groups
 
 ### Create multi-locale groups in single step {#create-multi-locale-groups-in-single-step}
 
-As part of a community site, multi-lingual groups can be created in single operation. **Additional Available Community Group Language(s)** field in **Community Group Template** page, which is available while creating a [new community group](groups.md) within a community site, makes this feasible.
+As part of a community site, multi-lingual groups can be created in single operation. **[!UICONTROL Additional Available Community Group Language(s)]** field in **[!UICONTROL Community Group Template]** page, which is available while creating a [new community group](groups.md) within a community site, makes this feasible.
 
 ![multilingualgroup-1](assets/multilingualgroup-1.png)
 
-To create such groups, users can simply navigate to Group Collection of the desired communities site from the Sites console. Create a group, and specify the desired languages in **Additional Available Community Group Language(s)** field of **Community Group Template** page.
+To create such groups, users can simply navigate to Group Collection of the desired communities site from the Sites console. Create a group, and specify the desired languages in **[!UICONTROL Additional Available Community Group Language(s)]** field of **[!UICONTROL Community Group Template]** page.
 
 ### Delete community groups from groups console {#delete-community-groups-from-groups-console}
 
@@ -74,7 +74,7 @@ AEM 6.4 Communities provides site management enhancements, which ensure that num
 
 ### Create multi locale community sites in one step {#create-multi-locale-community-sites-in-one-step}
 
-AEM Communities allows creating a [multi-lingual community sites](create-site.md) in single operation. This is possible due to the availability of multiple languages to select from in **Community Site Base Language** field in **Site Template** page, while creating a new community site from the sites console.
+AEM Communities allows creating a [multi-lingual community sites](create-site.md) in single operation. This is possible due to the availability of multiple languages to select from in **[!UICONTROL Community Site Base Language]** field in **[!UICONTROL Site Template]** page, while creating a new community site from the sites console.
 
 ![multilocalesite](assets/multilocalesite.png)
 

@@ -44,25 +44,25 @@ To reach this OSGi configuration:
 
 ![chlimage_1-127](assets/chlimage_1-127.png)
 
-* **Automatically Apply UGC Contribution Limits** 
+* **[!UICONTROL Automatically Apply UGC Contribution Limits]** 
 
   If checked, automatically set contribution limits on users when they register as community members. This is reflected in the community member's profile and may be enabled/disabled from the [members console](members.md). New members with an email address from a white listed domain are never constrained. 
 
   Default is unchecked.
 
-* **UGC Limit** 
+* **[!UICONTROL UGC Limit]** 
 
   Maximum number of contributions.
 
   Default is 10 posts.
 
-* **UGC Limit Frequency** 
+* **[!UICONTROL UGC Limit Frequency]** 
 
   The time period constraining the UGC limit.  
 
   Default is 60 minutes.
 
-* **Domains** 
+* **[!UICONTROL Domains]** 
 
   A white list of one or more email domains. Select the + icon to make addtional entries. 
 
@@ -70,7 +70,7 @@ To reach this OSGi configuration:
 
   Default is an empty white list.
 
-* **Messaging Recipients** 
+* **[!UICONTROL Messaging Recipients]** 
 
   List of one or more authorizable IDs of members able to modify the contribution limits for members. Select the + icon to make addtional entries.  
 

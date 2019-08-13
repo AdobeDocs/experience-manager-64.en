@@ -43,9 +43,9 @@ By default, the AEM Assets Touch UI does not let you upload any assets that are 
 
 To configure a higher file size limit, perform the following steps in the `/apps` directory.
 
-1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
+1. In AEM, tap **[!UICONTROL Tools]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL CRXDE Lite]**.
 1. In the **[!UICONTROL CRXDE Lite]** page, in the directory window on the left, navigate to `/libs/dam/gui/content/assets/jcr:content/actions/secondary/create/items/fileupload`. To see the directory window, touch `>>` icon.
-1. From the toolbar, tap the **[!UICONTROL Overlay Node…]** button. Alternatively, select **[!UICONTROL Overlay Node...]** from the context menu.
+1. From the toolbar, tap **[!UICONTROL Overlay Node]**. Alternatively, select **[!UICONTROL Overlay Node]** from the context menu.
 1. In the **[!UICONTROL Overlay Node]** dialog, tap **[!UICONTROL OK]**.
 
    ![chlimage_1-203](assets/chlimage_1-203.png)

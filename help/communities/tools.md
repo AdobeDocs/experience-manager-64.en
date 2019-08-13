@@ -16,7 +16,7 @@ pagetitle: Communities Tools
 
 On author, to access the Communities tools console:
 
-* From global navigation: **Tools, Communities**
+* From global navigation: **[!UICONTROL Tools > Communities]**
 
 ![chlimage_1-129](assets/chlimage_1-129.png)
 
