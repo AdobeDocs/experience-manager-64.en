@@ -36,7 +36,7 @@ If the criteria are not met, then a TarMK active/standby deployment is recommend
 
 ### Minimal MongoDB Deployment for AEM {#minimal-mongodb-deployment-for-aem}
 
-Below is a minimal deployment for AEM on MongoDB. For simplicity, SSL termination and HTTP Proxy components have been generalised. It consists of a single MongoBD replica set, with one primary and two secondaries. 
+Below is a minimal deployment for AEM on MongoDB. For simplicity, SSL termination and HTTP Proxy components have been generalised. It consists of a single MongoBD replica set, with one primary and two secondaries.
 
 ![chlimage_1-94](assets/chlimage_1-94.png)
 
@@ -251,8 +251,8 @@ MongoDB runs on a number of operating systems including a wide variety of Linux 
 * Turn off transparent hugepages and defrag. See [Transparent Huge Pages Settings](https://docs.mongodb.com/manual/tutorial/transparent-huge-pages/) for more information.
 * [Adjust the readahead settings](https://docs.mongodb.com/manual/administration/production-notes/#readahead) on the devices storing your database files to suit your use case.
 
-    * For the MMAPv1 storage engine, if your working set is bigger that the available RAM, and the document access pattern is random, consider lowering the readahead to 32 or 16. Evaluate different settings to find an optimal value that maximizes the resident memory and lowers the number of page faults.
-    * For the WiredTiger storage engine, set readahead to 0 regardless of storage media type (spinning, SSD, etc.). In general, use the recommended readahead setting unless testing shows a measurable, repeatable, and reliable benefit in a higher readahead value. [MongoDB Professional Support](https://docs.mongodb.com/manual/administration/production-notes/#readahead) can provide advice and guidance on non-zero readahead configurations.
+  * For the MMAPv1 storage engine, if your working set is bigger that the available RAM, and the document access pattern is random, consider lowering the readahead to 32 or 16. Evaluate different settings to find an optimal value that maximizes the resident memory and lowers the number of page faults.
+  * For the WiredTiger storage engine, set readahead to 0 regardless of storage media type (spinning, SSD, etc.). In general, use the recommended readahead setting unless testing shows a measurable, repeatable, and reliable benefit in a higher readahead value. [MongoDB Professional Support](https://docs.mongodb.com/manual/administration/production-notes/#readahead) can provide advice and guidance on non-zero readahead configurations.
 
 * Disable the tuned tool if you are running RHEL 7 / CentOS 7 in a virtual environment.
 * When RHEL 7 / CentOS 7 run in a virtual environment, the tuned tool automatically invokes a performance profile derived from performance throughput, which automatically sets the readahead settings to 4MB. This can negatively impact performance.
@@ -265,9 +265,9 @@ MongoDB runs on a number of operating systems including a wide variety of Linux 
 * Use noatime for the [dbPath](https://docs.mongodb.com/manual/reference/configuration-options/#storage.dbPath) mount point.
 * Configure sufficient file handles (fs.file-max), kernel pid limit (kernel.pid_max), and maximum threads per process (kernel.threads-max) for your deployment. For large systems, the following values provide a good starting point:
 
-    * fs.file-max value of 98000,
-    * kernel.pid_max value of 64000,
-    * andkernel.threads-max value of 64000
+  * fs.file-max value of 98000,
+  * kernel.pid_max value of 64000,
+  * andkernel.threads-max value of 64000
 
 * Ensure that your system has swap space configured. Refer to your operating system’s documentation for details on appropriate sizing.
 * Ensure that the system default TCP keepalive is set correctly. A value of 300 often provides better performance for replica sets and sharded clusters. See: [Does TCP keepalive time affect MongoDB Deployments?](https://docs.mongodb.com/manual/faq/diagnostics/#faq-keepalive) in the Frequently Asked Questions for more information.
@@ -386,10 +386,6 @@ If the `mongod` process is started from a location other than the `/etc/init.d` 
 >For more information on the NUMA policies available, consult the [numactl documentation](https://linux.die.net/man/8/numactl).
 
 The MongoDB process will behave differently under different allocation policies:
-
-```
-
-```
 
 * `-membind=<nodes>`
 
@@ -683,6 +679,16 @@ For generic information on MongoDB performance, see [Analyzing MongoDB Performan
 
 ## Known Limitations {#known-limitations}
 
+### Concurrent Installations {#concurrent-installations}
+
 While concurrent use of multiple AEM instances with a single database is supported by MongoMK, concurrent installations are not.
 
 In order work around this, make sure you run the installation with a single member first, and add the other ones after the first has finished installing.
+
+### Page Name Length {#page-name-length}
+
+If AEM is running on a MongoMK persistence manager deployment, [page names are limited to 150 characters](/help/sites-authoring/managing-pages.md#page-name-restrictions-and-best-practices).
+
+>[!NOTE]
+>
+>[Please refer to the MongoDB documentation](https://docs.mongodb.com/manual/reference/limits/) to make yourself familiar with the known limitations and thresholds of MongoDB itself as well.
