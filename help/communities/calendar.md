@@ -128,7 +128,7 @@ Under the **[!UICONTROL User Moderation]** tab, specify how the posted topics an
 
 * **[!UICONTROL Flag Posts]** 
 
-  If checked, allow members to flag others' events or comments as inappropriate. Default is checked**.** 
+  If checked, allow members to flag others' events or comments as inappropriate. Default is checked. 
 
 * **[!UICONTROL Flag Reason List]** 
 
@@ -136,7 +136,7 @@ Under the **[!UICONTROL User Moderation]** tab, specify how the posted topics an
 
 * **[!UICONTROL Custom Flag Reason]** 
 
-  If checked, allow members to enter their own reason for flagging an event or comment as inappropriate. Default is unchecked**.** 
+  If checked, allow members to enter their own reason for flagging an event or comment as inappropriate. Default is unchecked. 
 
 * **[!UICONTROL Moderation Threshold]** 
 

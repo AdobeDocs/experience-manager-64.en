@@ -86,8 +86,8 @@ When the MySQL Workbench is first launched, unless already in use for other purp
     * Connection Method: `Standard (TCP/IP)`
     * Hostname: `127.0.0.1`
     * Username: `root`
-    * Password: `*no password by default*`
-    * Default Schema: `*leave blank*`
+    * Password: `no password by default`
+    * Default Schema: `leave blank`
 
 1. Select `Test Connection` to verify the connection to the running MySQL service
 
@@ -176,23 +176,23 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 * Enter the following values:
 
-    * **JDBC driver class**: `com.mysql.jdbc.Driver`
-    * **JDBC connection URI**: `jdbc:mysql://localhost:3306/communities?characterEncoding=UTF-8`  
+    * **[!UICONTROL JDBC driver class]**: `com.mysql.jdbc.Driver`
+    * **[!UICONTROL JDBC connection URI]**: `jdbc:mysql://localhost:3306/communities?characterEncoding=UTF-8`  
 
       Specify server in place of localhost if MySQL server is not the same as 'this' AEM server  
 
       *communities* is the default database (schema) name
   
-    * **Username**: `root`
+    * **[!UICONTROL Username]**: `root`
 
       Or enter the configured Username for the MySQL server, if not 'root'
     
-    * **Password**:   
+    * **[!UICONTROL Password]**:   
 
       Clear this field if no password set for MySQL, 
     
       else enter the configured password for the MySQL Username
-    * **Datasource name**: name entered for the [MySQL connection](#new-connection-settings), for example, 'communities'
+    * **[!UICONTROL Datasource name]**: name entered for the [MySQL connection](#new-connection-settings), for example, 'communities'
 
 * Select **[!UICONTROL Save]**
 

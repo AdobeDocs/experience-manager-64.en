@@ -69,34 +69,34 @@ To create a new Translation Integration, which integrates a Translation Service 
 
 * Sign in as an administrator
 * From the [main menu](http://localhost:4502/)
-* Select **Tools**
-* Select **Operations**
-* Select **Cloud**
-* Select **Cloud Services**
-* Scroll down to **Translation Integration**
+* Select **[!UICONTROL Tools]**
+* Select **[!UICONTROL Operations]**
+* Select **[!UICONTROL Cloud]**
+* Select **[!UICONTROL Cloud Services]**
+* Scroll down to **[!UICONTROL Translation Integration]**
 
 ![chlimage_1-65](assets/chlimage_1-65.png)
 
-* Select **Show Configurations**
+* Select **[!UICONTROL Show Configurations]**
 
 ![chlimage_1-66](assets/chlimage_1-66.png)
 
-* Select **[+]** icon next to **Available Configurations** to create a new configuration
+* Select `[+]` icon next to **[!UICONTROL Available Configurations]** to create a new configuration
 
 #### Create Configuration Dialog {#create-configuration-dialog}
 
 ![chlimage_1-67](assets/chlimage_1-67.png)
 
-* **Parent Configuration**
+* **[!UICONTROL Parent Configuration]**
   (Required) Typically leave as default. Default is `/etc/cloudservices/translation`.
 
-* **Title**
+* **[!UICONTROL Title]**
   (Required) Enter a display title of your choosing. No default value.
 
-* **Name**
+* **[!UICONTROL Name]**
   (Optional) Enter a name for the configuration. Default is a node name based on the Title.
 
-* Select **Create**
+* Select **[!UICONTROL Create]**
 
 #### Translation Config Dialog {#translation-config-dialog}
 
@@ -104,19 +104,19 @@ To create a new Translation Integration, which integrates a Translation Service 
 
 For detailed instructions visit [Creating a Translation Integration Configuration](../../help/sites-administering/tc-tic.md#creating-a-translation-integration-configuration)
 
-* **Sites** tab: can leave as defaults
-* **Communities** tab:
-  * **Translation Provider**
+* **[!UICONTROL Sites]** tab: can leave as defaults
+* **[!UICONTROL Communities]** tab:
+  * **[!UICONTROL Translation Provider]**
     Select the translation provider from the drop down list. Default is `microsoft`, the trial service.
   
-  * **Content Category**
+  * **[!UICONTROL Content Category]**
     Select a category that describes the content being translated. Default is `General.`
   
-  * **Choose A Locale...**
+  * **[!UICONTROL Choose A Locale...]**
     (Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](sites-console.md#translation) for the website. Choosing `No Common Store` will disable global translation. By default, global translation is disabled.
 
-* **Assets** tab: can leave as defaults
-* Select **OK**
+* **[!UICONTROL Assets]** tab: can leave as defaults
+* Select **[!UICONTROL OK]**
 
 #### Activation {#activation}
 

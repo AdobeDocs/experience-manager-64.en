@@ -1,5 +1,0 @@
-# ignore all MacOS finder temp files
-*.DS_Store
- 
-# ignore .gitignore file itself
-.gitignore
