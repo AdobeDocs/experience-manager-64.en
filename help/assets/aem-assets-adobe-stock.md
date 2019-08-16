@@ -50,8 +50,6 @@ To allow communication between AEM and Adobe Stock, create an IMS configuration 
 
 ## Use and manage Adobe Stock assets in AEM {#use-and-manage-adobe-stock-assets-in-aem}
 
-Using this capability, organizations can allow its users to work using Adobe Stock assets in AEM Assets.
-
 Using this capability, organizations can allow its users to work using Adobe Stock assets in AEM Assets. From within the AEM user interface, users can search Adobe Stock assets and license the required assets.
 
 Once an Adobe Stock asset is licensed in AEM, it can be used and managed like a typical asset. In AEM, the users can search and preview the assets; copy and publish the assets; share the assets on Brand Portal; access and use the assets via AEM desktop app; and so on.
