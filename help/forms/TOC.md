@@ -608,7 +608,6 @@ user-guide-title: AEM 6.4 Forms User Guide
       + [Invoking AEM Forms using Remoting](developing/invoking-aem-forms-using-remoting.md)
       + [Invoking AEM Forms using Web Services](developing/invoking-human-centric-long-lived.md)
       + [Invoking AEM Forms using the JavaAPI](developing/invoking-aem-forms-using-java.md)
-      + [Invoking Human-Centric Long-Lived Processes](developing/invoking-human-centric-long-lived.md)
       + [Creating Flash Builder applicationsthat perform SSO authentication using HTTP tokens](developing/creating-flash-builder-applications-perform.md)
     + Performing Service Operations using APIs {#performing-service-operations-using-apis}
       + [Performing Service Operations Using APIs](developing/performing-service-operations-using-apis.md)
