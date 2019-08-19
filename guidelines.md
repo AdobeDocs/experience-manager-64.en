@@ -20,9 +20,11 @@ Contributions that do not meet these standards may be rejected.
 
 AEM documentation covers standard use cases. Use cases beyond the scope of standard installation and usage of the product are not part of AEM documentation.
 
-### We do not document bugs or their workarounds.
+### We do not generally document bugs or their workarounds.
 
-Because AEM documentation covers standard use cases, bugs, those effects caused by bugs, and workarounds for bugs are not documented.
+AEM documentation covers standard use cases. For this reason, bugs, effects caused by bugs, and workarounds for bugs are not generally not documented.
+
+Exceptions to this rule apply to the release notes where known issues can be listed with possible solutions that have been approved by AEM Product Management.
 
 ### Documentation contributions are not for answering technical questions.
 
