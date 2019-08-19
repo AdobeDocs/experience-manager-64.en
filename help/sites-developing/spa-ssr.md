@@ -23,6 +23,19 @@ Single page applications (SPAs) can offer the user a rich, dynamic experience th
 
 However this can lead to longer initial load times, especially if the SPA is large and rich in its content. In order to optimize load times, some of the content can be rendered server-side. Using server side rendering (SSR) can accelerate the initial load of the page and then pass further rendering on to the client.
 
+## When to Use SSR {#when-to-use-ssr}
+
+SSR is not required on all projects. Althgouh AEM fully support JS SSR for SPA, Adobe does not recommend implementing it systematically for every project.
+
+When deciding to implement SSR you must first estimate what additional complexity, effort, and cost adding SSR realistically represents for the project, including the long term maintenance. An SSR architecture should be chosen only when the added value clearly exceeds the estimated costs.
+
+SSR usually provides some value when there is a clear "yes" to either of the following questions:
+
+* **SEO:** Is SSR still actually required for your site to be properly indexed by the search engines that bring traffic? Keep in mind that the main search engine crawlers now evaluate JS.
+* **Page Speed:** Does SSR provide a measurable speed improvement in real-life environments and add to the overall user experience?
+
+Only when one of these two questions are answered with a clear "yes" for your project does Adobe recommend implementing SSR. The following sections describe how to do this using Node.js.
+
 ## AEM-Driven Communication Flow {#aem-driven-communication-flow}
 
 When using SSR, the [component interaction workflow](/help/sites-developing/spa-overview.md#workflow) of SPAs in AEM includes a phase in which the initial content of the app is generated on a Node.js server.
