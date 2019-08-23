@@ -552,14 +552,14 @@ user-guide-title: AEM 6.4 Forms User Guide
   + System information service {#system-information-service}
     + [Set up the System information service](/help/forms/using/admin-help/set-system-information-service.md)
     + [System information Service APIs](/help/forms/using/admin-help/system-information-service-apis.md)
-+ Process-Reporting {#process-reporting}
-  +[Introduction to Process Reporting](/help/forms/using/process-reporting/introduction-process-reporting.md)
-  +[Getting Started with Process Reporting](/help/forms/using/process-reporting/install-start-process-reporting.md)
-  +[How Process Reporting Works](/help/forms/using/process-reporting/process-reporting-architecture.md)
-  +[Pre-defined reports in Process Reporting](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md)
-  +[Custom Reports in Process Reporting](/help/forms/using/process-reporting/process-reporting-custom-reports.md)
-  +[Ad-hoc Queries in Process Reporting](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md)
-  +[Troubleshooting Process Reporting ](/help/forms/using/process-reporting/troubleshooting-process-management.md)
++ Process Reporting {#process-reporting}
+  + [Introduction to Process Reporting](/help/forms/using/process-reporting/introduction-process-reporting.md)
+  + [Getting Started with Process Reporting](/help/forms/using/process-reporting/install-start-process-reporting.md)
+  + [How Process Reporting Works](/help/forms/using/process-reporting/process-reporting-architecture.md)
+  + [Pre-defined reports in Process Reporting](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md)
+  + [Custom Reports in Process Reporting](/help/forms/using/process-reporting/process-reporting-custom-reports.md)
+  + [Ad-hoc Queries in Process Reporting](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md)
+  + [Troubleshooting Process Reporting](/help/forms/using/process-reporting/troubleshooting-process-management.md)
 + Developer Reference {#developer-reference}
   + [Developer basics](https://docs.adobe.com/content/help/en/experience-manager-64/developing/home.html)
   + [HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)
