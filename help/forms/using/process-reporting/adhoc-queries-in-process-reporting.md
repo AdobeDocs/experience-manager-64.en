@@ -60,7 +60,7 @@ You use Process/Task Search to define filters for querying process/task instance
    **To define a filter**
 
     1. Select a field.
-    
+
        ![filter_field](assets/filter_field.png)
 
        >[!NOTE]
@@ -68,7 +68,7 @@ You use Process/Task Search to define filters for querying process/task instance
        >The field list contains the fields that are specific to AEM Forms process/task.
 
     1. Select a condition.
-    
+
        ![filter_condition](assets/filter_condition.png)
 
        >[!NOTE]
@@ -76,7 +76,7 @@ You use Process/Task Search to define filters for querying process/task instance
        >The conditions listed depend on the attribute that is selected for filtering.
 
     1. Enter a value.
-    
+
        ![filter_value](assets/filter_value.png)
 
     1. To add another filter to the query, click **Add **(+) on the right of the filter row.
@@ -132,7 +132,7 @@ Use the options in the **My Filters** panel to **Add** ![lc_pr_add_filter](asset
     * **Task ID**: The ID of the task. The field is hyperlinked. If you click a task ID in this field, you are redirected to the **[!UICONTROL Task Details]** panel for the task.  
     * **Initiator**: The AEM Forms user who started the process instance  
     * **Created Time**: The date and time when the process instance started  
-    
+
     * **Completed Time**: The date and time when the process instance completed
     * **Duration**: The duration from start to completion of the process instance
     * **Status**: The current status of the process instance.
