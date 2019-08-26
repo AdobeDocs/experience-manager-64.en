@@ -12,7 +12,8 @@ discoiquuid: fabc981e-0c9e-4157-b0a1-0c13717fb6cd
 
 # Set up the Android studio project and build the Android app {#set-up-the-android-studio-project-and-build-the-android-app}
 
-| This article is for building the AEM Forms App 6.3.1.1 and later versions. For building an app from source code of source code of the AEM Forms App 6.3, see [Set up the Eclipse project and build the Android™ app](/help/forms/using/setup-eclipse-project-build-installer.md). |
+| This article is for building the AEM Forms App 6.3.1.1 and later versions. For building an app from source code of source code of the AEM Forms App 6.3, see [Set up the Eclips
+e project and build the Android™ app](/help/forms/using/setup-eclipse-project-build-installer.md). |
 |---|
 
 AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build a custom AEM Forms app. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip` is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on package share.

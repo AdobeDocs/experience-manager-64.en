@@ -12,8 +12,6 @@ discoiquuid: 812f9212-2732-4966-a7fa-389aa2332c7e
 
 # Ad-hoc Queries in Process Reporting {#ad-hoc-queries-in-process-reporting}
 
-## Ad-hoc queries in Process Reporting {#ad-hoc-queries-in-process-reporting}
-
 Ad-hoc queries in Process Reporting allow you to create custom queries that you can use to search for process and task details of the AEM Forms process instances defiend in your AEM Forms environment.
 
 Also, ad hoc queries can be defined using process and task property filters. These filters can then be saved and used to run the reports later.
@@ -26,7 +24,7 @@ Also, ad hoc queries can be defined using process and task property filters. The
 
 **Task Details**: View details of a task instance by specifying the task ID.
 
-### Processes and Tasks {#processes-and-tasks}
+## Processes and Tasks {#processes-and-tasks}
 
 The steps that you follow to create filters and run queries for process details are the same as that for tasks.
 

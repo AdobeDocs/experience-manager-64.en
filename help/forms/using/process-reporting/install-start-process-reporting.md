@@ -249,11 +249,11 @@ The tree view consists of the following top-level items:
 
 **Reports:** This item contains the out-of-the-box reports that ship with Process Reporting.
 
-For details on the pre-defined reports, see [Pre-defined Reports in Process Reporting](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md).
+For details on the pre-defined reports, see [Pre-defined Reports in Process Reporting](pre-defined-reports-in-process-reporting.md).
 
 **Adhoc Queries:** This item contains options to perform filter-based search for processes and tasks.
 
-For details on ad-hoc queries, see [Ad-hoc Queries in Process Reporting](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md).
+For details on ad-hoc queries, see [Ad-hoc Queries in Process Reporting](adhoc-queries-in-process-reporting.md).
 
 **Custom:** The Custom node displays custom reports that you create.
 
