@@ -1,6 +1,6 @@
 # Contribute article
 
-We welcome content contributions from our community and Adobe employees outside the documentation teams. 
+We welcome content contributions from our community and Adobe employees outside the documentation teams.
 
 ## Adobe Open Source Code of Conduct
 
