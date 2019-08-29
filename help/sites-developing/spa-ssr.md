@@ -34,7 +34,7 @@ SSR usually provides some value when there is a clear "yes" to either of the fol
 * **SEO:** Is SSR still actually required for your site to be properly indexed by the search engines that bring traffic? Keep in mind that the main search engine crawlers now evaluate JS.
 * **Page Speed:** Does SSR provide a measurable speed improvement in real-life environments and add to the overall user experience?
 
-Only when one of these two questions are answered with a clear "yes" for your project does Adobe recommend implementing SSR. The following sections describe how to do this using Adobe I/O.
+Only when one at least one of these two questions are answered with a clear "yes" for your project does Adobe recommend implementing SSR. The following sections describe how to do this using Adobe I/O Runtime.
 
 ## Adobe I/O Runtime {#adobe-io-runtime}
 
@@ -48,7 +48,7 @@ For more information on Adobe I/O Runtime, please see
 The following secitons detail how Adobe I/O Runtime can be used to implement SSR for your SPA in two different models:
 
 * [AEM-Driven Communication Flow](#aem-driven-communication-flow)
-* [Adobe I/O-Driven Communication Flow](#adobe-io-driven-communication-flow)
+* [Adobe I/O-Runtime Driven Communication Flow](#adobe-io-driven-communication-flow)
 
 >[!NOTE]
 >
