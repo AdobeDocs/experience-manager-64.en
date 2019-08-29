@@ -40,18 +40,19 @@ Only when one of these two questions are answered with a clear "yes" for your pr
 
 If you are [confident that your project requires the implementation of SSR](#when-to-use-ssr), Adobe's recommended solution is to use Adobe I/O Runtime.
 
-For an overview of Adobe I/O Runtime, please see
+For more information on Adobe I/O Runtime, please see
 
-* [https://www.adobe.io/apis/experienceplatform/runtime.html](https://www.adobe.io/apis/experienceplatform/runtime.html)
-
-For detailed documentation on the Adobe I/O Runtime platofrm please see
-
-* [https://www.adobe.io/apis/experienceplatform/runtime/docs.html](https://www.adobe.io/apis/experienceplatform/runtime/docs.html)
+* [https://www.adobe.io/apis/experienceplatform/runtime.html](https://www.adobe.io/apis/experienceplatform/runtime.html) - for an overview of the service
+* [https://www.adobe.io/apis/experienceplatform/runtime/docs.html](https://www.adobe.io/apis/experienceplatform/runtime/docs.html) - for detailed documentation on the platform
 
 The following secitons detail how Adobe I/O Runtime can be used to implement SSR for your SPA in two different models:
 
 * [AEM-Driven Communication Flow](#aem-driven-communication-flow)
 * [Adobe I/O-Driven Communication Flow](#adobe-io-driven-communication-flow)
+
+>[!NOTE]
+>
+>Adobe recommends a separate Adobe I/O Runtime instance for every AEM environment (author, publish, stage, etc.).
 
 ## AEM-Driven Communication Flow {#aem-driven-communication-flow}
 
@@ -60,13 +61,13 @@ When using SSR, the [component interaction workflow](/help/sites-developing/spa-
 1. The browser requests the SSR content from AEM.
 1. AEM posts the model to Adobe I/O Runtime.
 1. Adobe I/O Runtime returns the generated content  
-1. AEM serves the HTML returned by Adobe I/O via the HTL template of the backend page component.
+1. AEM serves the HTML returned by Adobe I/O Runtime via the HTL template of the backend page component.
 
 ![server-side-rendering-cms-drivenaemnode](assets/server-side-rendering-cms-drivenaemnode-adobeio.png)
 
 ### Adobe I/O Runtime-Driven Communication Flow {#adobe-io-driven-communication-flow}
 
-The previous section describes the standard and recommended implementation of server side rendering with regards to SPAs in AEM, where AEM performs the bootstrapping and serving of content.
+The section [AEM-Driven Communication Flow](#aem-driven-communication-flow) describes the standard and recommended implementation of server side rendering with regards to SPAs in AEM, where AEM performs the bootstrapping and serving of content.
 
 Alternatively, SSR can be implemented so that Adobe I/O Runtime is responsible for the bootstrapping, effectively reversing the communication flow.
 
@@ -87,7 +88,7 @@ As you consider implementing server side rendering for your SPA, you need to rev
 
 SPA components could be rendered by the client (in the browser) or server side. When rendered server side, browser properties such as window size and location are not present. Therefore SPA components should be isomorphic, making no assumption about where they will be rendered.
 
-To leverage SSR, you will need to deploy your code in AEM as well as on Adobe I/O Runtime. Adobe I/O Runtime is responsible for the server side rendering. Most of the code will be the same, however server-specific tasks will differ.
+To leverage SSR, you will need to deploy your code in AEM as well as on Adobe I/O Runtime, which is responsible for the server side rendering. Most of the code will be the same, however server-specific tasks will differ.
 
 ## SSR for SPAs in AEM {#ssr-for-spas-in-aem}
 
@@ -100,19 +101,20 @@ Just as AEM supports the Angular and React SPA frameworks out-of-the box, server
 
 For a simplistic example, please refer to the [We.Retail Journal app](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal). It renders the entire application server side. Although this is not a real-world example, it does illustrate what is needed to implement SSR.
 
->[!NOTE]
->
->Adobe recommends a separate Adobe I/O Runtime instance for every AEM environment (author, publish, stage, etc.).
-
 >[!CAUTION]
->This document uses the [We.Retail Journal app](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal) for demonstration purposes only. It should not be used for any project work.
->
+>The [We.Retail Journal app](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal) is for demonstration purposes only and therefore uses Node.js as a simple example instead of the recommended Adobe I/O Runtime. This example should not be used for any project work.
+
+>[!NOTE]
 >All SPA projects on AEM should be based on the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype).
 
 ## Using Node.js {#using-node-js}
 
-Adobe I/O Runtime is the recommended solution for implementing SSR for SPAs in AEM. 
+Adobe I/O Runtime is the recommended solution for implementing SSR for SPAs in AEM.
 
 For on-premesis AEM instances, it is also possible to implement SSR using a custom Node.js instance in the same way as described above. Although this is supported by Adobe, it is not recommended.
 
 Node.js is not supported for Adobe-hosted AEM instances.
+
+>[!NOTE]
+>
+>If SSR must be implemented via Node.js, Adobe recommends a separate Node.js instance for every AEM environment (author, publish, stage, etc.).
