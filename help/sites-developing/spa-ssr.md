@@ -62,7 +62,7 @@ When using SSR, the [component interaction workflow](/help/sites-developing/spa-
 1. Adobe I/O Runtime returns the generated content  
 1. AEM serves the HTML returned by Adobe I/O via the HTL template of the backend page component.
 
-![server-side-rendering-cms-drivenaemnode](assets/server-side-rendering-cms-drivenaemnode.png)
+![server-side-rendering-cms-drivenaemnode](assets/server-side-rendering-cms-drivenaemnode-adobeio.png)
 
 ### Adobe I/O Runtime-Driven Communication Flow {#adobe-io-driven-communication-flow}
 
