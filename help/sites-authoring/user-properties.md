@@ -63,7 +63,7 @@ Each user can set certain properties for himself or herself.
 
 * **Show desktop actions for Assets**
 
-  This option requires the Assets companion app or Create Cloud desktop app.
+  This option requires AEM desktop app to use.
 
 * **Annotation Color**
 
