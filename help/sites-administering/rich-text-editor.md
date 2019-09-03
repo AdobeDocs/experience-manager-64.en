@@ -444,7 +444,7 @@ AEM RTE capability has the following limitations:
 >[!MORELIKETHIS]
 >
 >* [Configure RTE plug-ins](configure-rich-text-editor-plug-ins.md)
->* [Use Rich Text Editor for authoring](..\sites-authoring\rich-text-editor.md)
+>* [Use Rich Text Editor for authoring](../sites-authoring/rich-text-editor.md)
 >* [Configure RTE for accessible sites](rte-accessible-content.md)
->* [Touch UI and Classic UI feature parity](..\release-notes\touch-ui-features-status.md)
+>* [Touch UI and Classic UI feature parity](../release-notes/touch-ui-features-status.md)
 >* [Tutorial sample to create composite multifield component](https://experience-aem.blogspot.com/2019/05/aem-65-touchui-composite-multifield-with-coral3-rte-rich-text.html)
