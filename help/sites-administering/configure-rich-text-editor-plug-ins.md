@@ -12,7 +12,7 @@ discoiquuid: e0328f9c-26c6-4c40-8594-3190c38cebd8
 noindex: true
 ---
 
-# Configure the Rich Text Editor plug-ins{#configure-the-rich-text-editor-plug-ins}
+# Configure the Rich Text Editor plug-ins {#configure-the-rich-text-editor-plug-ins}
 
 RTE functionalities are made available via a series of plug-ins, each with features property. You can configure the features property to enable or disable, one or more RTE features. This article describes how to specifically configure the RTE plug-ins.
 
