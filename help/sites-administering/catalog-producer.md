@@ -87,6 +87,10 @@ Catalog Producer uses product information management (PIM) data to map product p
 
 1. Tap/click **Next**. To add an existing InDesign file as a cover page, tap/click **Browse** beside the **Choose Cover Page** box, and specify the path for the cover page template.
 1. Tap/click **Save**, and then tap/click **Done** to close the confirmation dialog.
+On selecting the **Done** option, a dialog box opens to select whether you want .pdf rendition.
+![export to pdf](assets/CatalogPDF.png)
+ If Acrobat(PDF) option is selected, a pdf rendition is created in  **/jcr:content/renditions** in addition to indesign rendition. You can download all the renditions by selecting "Renditions" checkbox in download dialog.
+
 1. To generate a preview for the catalog you created, select it in the **Catalogs** console, and then click the **Preview** icon from the toolbar.
 
    ![chlimage_1-119](assets/chlimage_1-119.png)

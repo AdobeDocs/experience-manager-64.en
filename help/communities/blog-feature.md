@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: d5519211-8a04-4699-97bc-e162ec0f3781
 ---
 
-# Blog Feature{#blog-feature}
+# Blog Feature {#blog-feature}
 
 ## Introduction {#introduction}
 
@@ -64,16 +64,35 @@ And how the `Blog Sidebar` will appear:
 
 Select the placed `Blog` component to access and select the `Configure` icon which opens the edit dialog.
 
-![chlimage_1-149](assets/chlimage_1-149.png) ![chlimage_1-150](assets/chlimage_1-150.png)
+![configure icon](assets/chlimage_1-149.png) ![Blog settings](assets/Blog-configure.png)
 
 #### Settings tab {#settings-tab}
 
 Under the **Settings** tab, specify the basic features of the blog:
 
+* **Allow Attachment Thumbnail**
+If checked, a thumbnail of the attached image is created.
+* **Max Attach Thumbnail Size**
+Maximum size (in pixels) of the attachment thumbnail image. The default value is 800 x 800. 
+* **Min Image Size for Thumbnail**
+Minimum size (in bytes) of image for generating thumbnail for inline images. The default value is 100000bytes (100kb).
+* **Max Thumbnail Size**
+Maximum size (in pixels) of the thumbnail image for inline image. The default value is 800 x 800.
+* **Allow Privileged Members**
+If checked, only Privileged members are allowed to create content.
+* **Allowed Privileged Members**
+Add the privileged members allowed to create content.
+* **Block User Generated Content in Author Edit Mode**
+If enabled, blocks User Generated Content while editing in Author Mode.
+
 * **Journal Title** 
 
   The blog title to display on the page.
 
+  >
+  >Note:
+  >The Journal Title is used to automatically create URL for the blog. Maximum 50 characters (with 5 characters additional for uniqueness) are used from the journal title you specify here to create URL for the blog.
+  
 * **Journal Description** 
 
   The blog description.
