@@ -114,9 +114,9 @@ For more information on the Interactive Communication authoring interface, see [
 
 1. To set up binding of variables, tap a variable and select ![configure_icon](assets/configure_icon.png) (Configure) and then set up the binding properties in the Properties panel in the sidebar.
 
-    * **None**: Agent will fill in the value for the variable.
-    * **Text Fragment**: If selected, you can browse and select a text document fragment whose content is rendered in the field. Only those text document fragments can be bound to variables that have no variables within. 
-    * **Data Model Object**: Select a form data model property whose value is populated in the field.
+    * **[!UICONTROL None]**: Agent will fill in the value for the variable.
+    * **[!UICONTROL Text Fragment]**: If selected, you can browse and select a text document fragment whose content is rendered in the field. Only those text document fragments can be bound to variables that have no variables within. 
+    * **[!UICONTROL Data Model Object]**: Select a form data model property whose value is populated in the field.
 
    You can also choose to configure the relevant text document fragment. The Properties panel displays the list of variables in the text document fragment. You can tap ![edit](assets/edit.png) (Edit) next to a variable name to display that variable's settings for editing.
 
@@ -166,7 +166,7 @@ For more information on the Interactive Communication authoring interface, see [
 
 ## Preview the Interactive Communication {#previewic}
 
-You can use the **Preview option** to evaluate appearance of the Interactive Communication. The web channel of Interactive Communication also provides an option to Emulate experience of an Interactive Communication for various devices. For example, iPhone, iPad, and Desktop. You can use both **Preview** and **Emulator** ![ruler](assets/ruler.png) options in conjunction with each other to preview the web outputs for devices of different screen sizes. The sample data in the preview is populated from the specified forms data model.
+You can use the **[!UICONTROL Preview]** option to evaluate appearance of the Interactive Communication. The web channel of Interactive Communication also provides an option to Emulate experience of an Interactive Communication for various devices. For example, iPhone, iPad, and Desktop. You can use both **[!UICONTROL Preview]** and **[!UICONTROL Emulator]** ![ruler](assets/ruler.png) options in conjunction with each other to preview the web outputs for devices of different screen sizes. The sample data in the preview is populated from the specified forms data model.
 
 1. Select the (print or web) channel to preview and tap preview. The Interactive Communication appears.
 
@@ -186,7 +186,7 @@ Further, you can [Prepare and send Interactive Communication using the Agent UI]
 
 In the Print channel, you can configure the attachments and library access to allow the Agent manage attachments in the Agent UI for the Interactive Communication:
 
-1. In the Print channel, highlight the Document Container and tap **Properties**.
+1. In the Print channel, highlight the Document Container and tap **[!UICONTROL Properties]**.
 
    ![documentcontainerproperties](assets/documentcontainerproperties.png)
 
@@ -194,7 +194,7 @@ In the Print channel, you can configure the attachments and library access to al
 
    ![propertiesattachments](assets/propertiesattachments.png)
 
-1. Expand **Attachments** and specify the following properties:
+1. Expand **[!UICONTROL Attachments]** and specify the following properties:
 
     * **[!UICONTROL Allow Library Access]**: Select to enable library access for the agent in the Agent UI. If enabled, the Agent can add files from the library while preparing the Interactive Communication.
     * **[!UICONTROL Allow Re-Ordering Of Attachments]**: Select to enable the Agent to re-order the attachments with the Interactive Communication.

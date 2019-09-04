@@ -132,6 +132,14 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    If you cancel the upload operation before the files are uploaded, AEM Assets stops uploading the current file and refreshes the content. However, files that are already uploaded are not deleted.
 
+### Serial uploads {#serial-uploads}
+
+Uploading numerous assets in bulk consumes significant I/O resources, which may adversely impact the performance of your AEM Assets instance. In particular, if you have a slow internet connection, the time to upload drastically increases due to a spike in disk I/O. Moreover, your web browser may introduce additional restrictions to the number of POST requests AEM Assets can handle for concurrent asset uploads. As a result, the upload operation fails or terminate prematurely. In other words, AEM assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
+
+To overcome this situation, AEM Assets ingests one asset at a time (serial upload) during a bulk upload operation, instead of the concurrently ingesting all the assets.
+
+Serial uploading of assets is enabled by default. To disable the feature and allow concurrent uploading, overlay the `fileupload` node in CRXDe and set the value of the `parallelUploads` property to `true`.
+
 ### Uploading assets using FTP {#uploading-assets-using-ftp}
 
 Dynamic Media enables batch uploading of assets by way of FTP server. If you intend to upload large assets ( &gt; 1 GB) or upload entire folders and subfolders, you should use FTP. You can even set up FTP upload to occur on a recurring scheduled basis.
@@ -852,86 +860,7 @@ You require delete permissions on dam/asset to be able to delete an asset. If yo
 
 ## Downloading assets {#downloading-assets}
 
-You can download assets including static and dynamic renditions. Alternatively, you can send emails with links to assets directly from AEM Assets. Downloaded assets are bundled in a ZIP file. The compressed ZIP file has a maximum file size of 1 GB for the export job. You are allowed a maximum of 500 total assets per export job.
-
->[!NOTE]
->
->Recipients of emails must be members of the `dam-users` group to access the ZIP download link in the email message. To be able to download the assets, the members must have permissions to launch workflows that trigger downloading of assets.
-
-The following are the **[!UICONTROL Export/Download]** options. Dynamic renditions are unique to Dynamic Media and let you generate renditions on-the-fly in addition to the asset you selected - that option is only available if you have dynamic media enabled.
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Assets</strong></td> 
-   <td>Select this to download the asset in its original form without any renditions. </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Renditions</strong></td> 
-   <td><p>A rendition is the binary representation of an asset. Assets have a primary representation - that of the uploaded file. They can have any number of representations.</p> <p>With this option, you can select the renditions you want downloaded. The renditions available depend on the asset you select. </p> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Dynamic Renditions</strong></td> 
-   <td><p>A dynamic rendition generates other renditions on-the-fly. When you select this option, you also select the renditions you want to create dynamically by selecting from the <a href="image-presets.md">Image Preset</a> list.</p> <p>In addition, you can select the size and unit of measurement, format, color space, resolution, and any image modifiers (for example to invert the image)</p> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Email</strong></td> 
-   <td><p>An email notification is sent to the user. Standard emails templates are available at the following locations:</p> 
-    <ul> 
-     <li><em>/libs/settings/dam/workflow/notification/email/downloadasset</em></li> 
-     <li><em>/libs/settings/dam/workflow/notification/email/transientworkflowcompleted</em></li> 
-    </ul> <p>Templates that you customize during deployment should be present at these locations:</p> 
-    <ul> 
-     <li><em>/apps/settings/dam/workflow/notification/email/downloadasset</em></li> 
-     <li><em>/apps/settings/dam/workflow/notification/email/transientworkflowcompleted</em></li> 
-    </ul> <p>You can store tenant-specific custom templates at these locations:</p> 
-    <ul> 
-     <li><em>/conf/&lt;tenant_specific_config_root&gt;/settings/dam/workflow/notification/email/downloadasset</em></li> 
-     <li><em>/conf/&lt;tenant_specific_config_root&gt;/settings/dam/workflow/notification/email/transientworkflowcompleted</em></li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Create separate folder for each asset</strong></td> 
-   <td>Select this to preserve the folder hierarchy while downloading assets. By default, the folder hierarchy is ignored and all assets are downloaded in one folder in your local system. </td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->The following asset types cannot be downloaded:
->
->* Image Sets
->* Spin Sets
->* Mixed Media Sets
->* Carousel Sets
->
-
-**To download assets**:
-
-1. Navigate to the location of the asset(s) you want to download and select the asset(s).
-1. Tap the **[!UICONTROL Download]** icon from the toolbar to download the required asset.
-
-   ![download_icon](assets/download_icon.png)
-
-1. In the dialog box, specify your download options.
-
-   ![chlimage_1-20](assets/chlimage_1-20.png)
-
-    * **[!UICONTROL Cancel]** to stop the download.
-    * **[!UICONTROL Renditions]** to download the renditions of the asset.
-
-        * This option is available only if the asset has renditions.
-
-    * **[!UICONTROL Subassets]** to download the subassets along with the asset.
-
-        * This option is displayed only if the asset includes subassets.
-
-   When you select a folder to download, the complete asset hierarchy under the folder is downloaded. To include each asset you download (including assets in child folders nested under the parent folder) in an individual folder, select **[!UICONTROL Create separate folder for each asset]**.
-
->[!NOTE]
->
->See also [Downloading DRM assets](drm.md).
+See [Download assets from AEM](download-assets-from-aem.md)
 
 ## Publishing assets {#publishing-assets}
 

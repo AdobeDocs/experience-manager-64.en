@@ -29,4 +29,4 @@ To understand how to integrate your SPA with Adobe Experience Platform Launch, p
 >
 >The referenced KB was created to enable Adobe Experience Platform Launch integration with SPAs that don't leverage the AEM SPA Editor. These methods should also allow the Adobe Experience Platform Launch integration to coexist with SPAs that are built to use the SPA Editor. 
 >
->Because the SPA Editor is in prerelease, the use of Redux alongside the Javascript SPA libraries has not been fully explored. Support of Redux is planned in a future release of the SPA Editor.
+>The use of Redux alongside the Javascript SPA libraries has not been fully explored. Support of Redux is planned in a future release of the SPA Editor.

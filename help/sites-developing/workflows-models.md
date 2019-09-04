@@ -187,6 +187,24 @@ You can create a [Transient](/help/sites-developing/workflows.md#transient-workf
 >
 >When you run a workflow in [transient](/help/sites-developing/workflows.md#transient-workflows) mode AEM does not store any workflow history. Therefore, [Timeline](/help/sites-authoring/basic-handling.md#timeline) does not display any information related to that workflow. [](/help/sites-authoring/basic-handling.md#timeline)
 
+### Make workflow models available in Touch UI {#make-workflow-models-available-in-touchui}
+
+If a workflow model that is present in Classic UI but is missing in the selection popup menu in **[!UICONTROL Timeline]** rail of Touch UI, then follow the configuration to make it available. The following steps illustrates using the AEM Assets workflow models called **[!UICONTROL Request for Activation]** and **[!UICONTROL Request for Deactivation]**.
+
+1. Confirm that the model is not available in Touch-enabled UI. Access an asset using `/assets.html/content/dam` path. Select the asset. Open **[!UICONTROL Timeline]** in left rail. Click **[!UICONTROL Start Workflow]** and notice that **[!UICONTROL Request for Activation]** and **[!UICONTROL Request for Deactivation]** models are not present in the popup list.
+
+1. Click **[!UICONTROL Tools > General > Tagging]**. Select **[!UICONTROL Workflow]**.
+
+1. Click **[!UICONTROL Create > Create Tag]**. Set **[!UICONTROL Title]** as `DAM` and **[!UICONTROL Name]** as `dam`. Click **[!UICONTROL Submit]**.
+![Create tag in workflow model](assets/workflow_create_tag.png)
+
+1. Click **[!UICONTROL Tools > Workflow > Models]**. Select **[!UICONTROL Request for Activation]** (or **[!UICONTROL Request for Deactivation]**). Click **[!UICONTROL Edit]**.
+
+1. In the sidekick, go to **[!UICONTROL Page]** tab. Open **[!UICONTROL Page Properties]**.
+
+1. Add `Workflow : DAM` to **[!UICONTROL Tags/Keywords]** field. Click **[!UICONTROL OK]**. Click **[!UICONTROL Save]**.
+![Edit Page Properties of Model](assets/workflow_model_edit_activation1.png)
+
 ### Configuring a Workflow for Multi Resource Support {#configuring-a-workflow-for-multi-resource-support}
 
 You can configure a workflow model for [Multi Resource Support](/help/sites-developing/workflows.md#multi-resource-support) when creating a new model, or by editing an existing one:
