@@ -22,5 +22,3 @@ user-guide-title: AEM 6.4 Release Notes
 + [CRX2OAK Migration Tool](crx2oak.md)
 + [Smart Content Service Release Notes](smart-content-service-release-notes.md)
 + [Livefyre Feature Pack 2.0.6 Release Notes](livefyre-feature-pack-206.md)
-+ [Documentation Updates](documentation-updates.md)
-+ [Previous Documentation Updates](previous-documentation-updates.md)
