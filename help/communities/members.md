@@ -71,6 +71,7 @@ Select `Create Member` in order to create a user in the publish environment.
 ![chlimage_1-122](assets/chlimage_1-122.png)
 
 ### GENERAL - Member Details {#general-member-details}
+
 Most fields are optional fields the member can later fill-in on their profile.
 
 * **[!UICONTROL ID]**
