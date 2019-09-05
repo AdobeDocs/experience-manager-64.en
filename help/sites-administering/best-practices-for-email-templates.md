@@ -22,6 +22,16 @@ Use these best practices when creating your own newsletter.
 
 >[!NOTE]
 >
+>All campaign content should be created under a `master` page of type `cq/personalization/components/ambitpage`. For example if you are planning a campaign structure is something like:
+>
+>* `/content/campaigns/teasers/en/campaign-promotion-global`
+>
+>You should make sure it resides under a master page:
+>
+>* `/content/campaigns/teasers/master/en/campaign-promotion-global`
+
+>[!NOTE]
+>
 >When creating a mail template for Adobe Campaign, you must include the property **acMapping** with the value **mapRecipient** in the **jcr:content** node of the template, or you will not be able to select the Adobe Campaign template in **Page Properties** of AEM (field is disabled).
 
 ## Template/page component {#template-page-component}
