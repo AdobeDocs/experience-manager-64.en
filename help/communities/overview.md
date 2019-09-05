@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 418cc919-0ae3-4c6c-8566-7e9a206f02a8
 ---
 
-# AEM Communities Overview{#aem-communities-overview}
+# AEM Communities Overview {#aem-communities-overview}
 
 Adobe Experience Manager (AEM) Communities provides the ability to quickly create an on-premise community site that has improved performance, improved site management, and encourages the conversion of site visitors to valuable community members.
 
@@ -31,56 +31,24 @@ A community site is an AEM Site created using a simple wizard that results in a 
 
 The [site creation wizard](sites-console.md):
 
-* assembles features of the site, based on the selected [community site template](sites.md) which is
-
-    * built from [community functions](#community-functions)
-    * optional [community groups](#communitygroups) feature
-
-* uses settings to configure:
-
-    * moderation
-    * login
-    * translation
-
-* provides essential features:
-
-    * responsive design:
-
-      uses [Twitter Bootstrap themes](https://getbootstrap.com)
-
-    * login:
-
-      self-registration, [social login](social-login.md), user profiles
-
-    * notifications:
-
-      members see events of relevance to them
-
-    * messaging:
-
-      members may send or receive messages within the community site
-
-    * search:
-
-      ability to search within the community site
-  
-    * language switching: 
-  
-      ability to select a language for a [multillingual site](../../help/sites-administering/translation.md)
-  
-    * administration: 
-  
-      access for authorized members to moderate and manage users within the community site
-
-* eliminates many page-level authoring steps:
-
-    * branding: 
-  
-      optional upload of a banner image for display on all pages of the community site
-  
-    * navigation menu: 
-  
-      navigation links are provided for the features included in the community site template
+* Assembles features of the site, based on the selected [community site template](sites.md) which is
+    * Built from [community functions](#community-functions)
+    * Optional [community groups](#communitygroups) feature
+* Uses settings to configure:
+    * Moderation
+    * Login
+    * Translation
+* Provides essential features:
+    * Responsive design: Uses [Twitter Bootstrap themes](https://getbootstrap.com)
+    * Login: Self-registration, [social login](social-login.md), user profiles
+    * Notifications: Members see events of relevance to them
+    * Messaging: Members may send or receive messages within the community site
+    * Search: Ability to search within the community site
+    * Language switching: Ability to select a language for a [multillingual site](../../help/sites-administering/translation.md)
+    * Administration: Access for authorized members to moderate and manage users within the community site
+* Eliminates many page-level authoring steps:
+    * Branding: Optional upload of a banner image for display on all pages of the community site
+    * Navigation menu: Navigation links are provided for the features included in the community site template
 
 To experience the ease of quickly creating a new community site, visit [Getting Started with AEM Communities](getting-started.md).
 
@@ -93,9 +61,7 @@ Community content is easily accessed through the storage resource provider (SRP)
 To learn more about community content persistence and recommended deployments visit:
 
 * [Community Content Storage](working-with-srp.md): discusses the available SRP storage options for UGC
-* 
 * [Recommended Topologies](topologies.md): discusses topologies based on use case and SRP choice
-* 
 * [Upgrading to AEM 6.3 Communities](upgrade.md): provides useful information regarding UGC when moving to AEM 6.3.
 
 ## Communities Consoles {#communities-consoles}
@@ -104,52 +70,52 @@ In the author environment, the global navigation console provides access to the 
 
 * [Sites](sites-console.md) console
 
-    * site creation
-    * site editing
-    * site management
+    * Site creation
+    * Site editing
+    * Site management
     * [Community Groups](groups.md) console
 
 * [Moderation](moderation.md) console
 
-    * common bulk moderation UI for author and publish environments
-    * new filtering criteria
+    * Common bulk moderation UI for author and publish environments
+    * New filtering criteria
 
 * [Members and Groups](members.md) management consoles
 
-    * provides the ability to create and manage publish-side users (members) from the author environment
-    * provides ability to ban members
-    * provides the ability to create and manage publish-side user groups (member groups) from the author environment
+    * Provides the ability to create and manage publish-side users (members) from the author environment
+    * Provides ability to ban members
+    * Provides the ability to create and manage publish-side user groups (member groups) from the author environment
 
 * [Reports](reports.md) console
 
-    * provides the ability to generate reports on assignments, posts and views
+    * Provides the ability to generate reports on assignments, posts and views
 
 * [Resources](resources.md) console
 
-    * provides the ability to create enablement resources and learning paths
-    * provides access to reports on enablement resources and learning paths
+    * Provides the ability to create enablement resources and learning paths
+    * Provides access to reports on enablement resources and learning paths
 
 The global tools console provides access to the following Communities tools:
 
 * [Site Templates](tools.md#sitetemplatesconsole) console
 
-    * create and manage community site templates
+    * Create and manage community site templates
 
 * [Group Templates](tools.md#grouptemplatesconsole) console
 
-    * create and manage community group templates
+    * Create and manage community group templates
 
 * [Community Functions](tools.md#communityfunctionsconsole) console
 
-    * create and manage community functions
+    * Create and manage community functions
 
 * [Storage Configuration](tools.md#storageconfiguratonconsole) console
 
-    * select and configure the [common store](working-with-srp.md) for the site
+    * Select and configure the [common store](working-with-srp.md) for the site
 
 * [Component Guide](components-guide.md)
 
-    * a sample site, [Community Components](http://localhost:4502/editor.html/content/community-components/en.html), that provides a sample of all Communities components with their default configuration and the ability to experiment with them
+    * A sample site, [Community Components](http://localhost:4502/editor.html/content/community-components/en.html), that provides a sample of all Communities components with their default configuration and the ability to experiment with them
 
 ## Community Site Templates {#community-site-templates}
 
@@ -195,21 +161,21 @@ An engagement community is a community site focused on engaging customers to inf
 
 Features of an engagement community may include:
 
-* login
-* messaging
-* forums
-* comments
-* reviews
-* ratings
-* voting
-* blogs
-* groups
-* calendars
-* translation
-* moderation
-* notifications
-* scoring and badges
-* analytics reporting
+* Login
+* Messaging
+* Forums
+* Comments
+* Reviews
+* Ratings
+* Voting
+* Blogs
+* Groups
+* Calendars
+* Translation
+* Moderation
+* Notifications
+* Scoring and badges
+* Analytics reporting
 
 To experience the ease of quickly creating a new engagement community, visit [Getting Started with AEM Communities](getting-started.md).
 
@@ -219,12 +185,12 @@ An enablement community is a community site that includes features for online le
 
 Features of an enablement community may include:
 
-* all the features of an [engagement community](#engagement-community)
-* ability to assign content and learning resources to members and member groups
-* supports SCORM content, like quizzes and tests
-* tracking of assignments completion
-* access to reporting and analytics
-* the ability to have a conversation about a learning resource through forums, messaging, comments and ratings
+* All the features of an [engagement community](#engagement-community)
+* Ability to assign content and learning resources to members and member groups
+* Supports SCORM content, like quizzes and tests
+* Tracking of assignments completion
+* Access to reporting and analytics
+* The ability to have a conversation about a learning resource through forums, messaging, comments and ratings
 
 An enablement community may be created when the [Enablement add-on is configured](enablement.md), which requires additional licensing for use in a production environment. An enablement community site will include the [assignments function](#community-functions).
 
@@ -236,11 +202,9 @@ The [AEM Demo Machine](https://github.com/Adobe-Marketing-Cloud/aem-demo-machine
 
 The AEM Demo Machine consists of
 
-* a [graphical user interface](https://github.com/Adobe-Marketing-Cloud/aem-demo-machine/wiki/User%20Interface)
+* A [graphical user interface](https://github.com/Adobe-Marketing-Cloud/aem-demo-machine/wiki/User%20Interface)
 * Apache ANT scripts with configurable [properties](https://github.com/Adobe-Marketing-Cloud/aem-demo-machine/wiki/Properties) and [targets](https://github.com/Adobe-Marketing-Cloud/aem-demo-machine/wiki/Command%20Line)
-
-* packages to install
-
+* Packages to install
 The AEM Demo Machine was tested successfully with CQ 5.5, CQ 5.6.1, AEM 6.0, AEM 6.1, AEM 6.2 and AEM 6.3 on Windows, MacOS and Linux.
 
 The AEM Demo Machine requires a valid AEM license.

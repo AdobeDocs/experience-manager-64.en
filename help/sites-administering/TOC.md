@@ -26,6 +26,7 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Language Copy Wizard](tc-wizard.md)
     + [Translation Enhancements](tc-enhancements.md)
     + [Translation Best Practices](tc-bp.md)
+    + [AEM FAQs](aem-faqs.md)
 + Operations {#operations}
     + [Dashboards](dashboards.md)
     + [Operations Dashboard](operations-dashboard.md)
@@ -81,6 +82,7 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Service Users in AEM](security-service-users.md)
     + [Encryption Support for Configuration Properties](encryption-support-for-configuration-properties.md)
     + [Handling GDPR Requests for the AEM Foundation](handling-gdpr-requests-for-aem-platform.md)
+    + [Content Disposition Filter](content-disposition-filter.md)
 + Personalization {#personalization}
     + [Personalization](personalization.md)
     + [Configuring ContextHub](contexthub-config.md)
@@ -90,17 +92,13 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Configuring Segmentation](campaign-segmentation.md)
     + [Extending and Configuring the Design Importer for Landing Pages](extending-the-design-importer-for-landingpages.md)
     + [Integrating Landing Pages with Adobe Analytics](integrating-landing-pages-with-adobe-analytics.md)
-+ eCommerce {#ecommmerce}
++ eCommerce {#ecommerce}
     + [eCommerce](ecommerce.md)
     + [Concepts](concepts.md)
-    + [Administering generic eCommerce](generic.md)
-    + [Intershop](intershop.md)
-    + [IBM Websphere Commerce](ibm-websphere.md)
-    + [Magento](magento.md)
-    + [Elastic Path](elasticpath.md)
-    + [hybris](hybris.md)
-    + [Demandware](demandware.md)
-    + [Digital River](digital-river.md)
+    + [Administering Generic eCommerce](generic.md)
+    + [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
+    + [SAP Commerce Cloud](sap-commerce-cloud.md)
+    + [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce)
     + [AEM Commerce - GDPR Readiness](gdpr-compliance-commerce.md)
 + Integration {#integration}
     + [Integrating with Third-Party Services](third-party-services.md)
@@ -160,6 +158,3 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Classic UI Tagging Console](classic-console.md)
     + [Content Management for Screens](content-management-screens.md)
     + [WebDAV Access](webdav-access.md)
-+ Deleted section Remove duplicates and move others to sections above {#deleted}
-    + [AEM FAQs](aem-faqs.md)
-    + [Content Disposition Filter](content-disposition-filter.md)

@@ -12,7 +12,7 @@ discoiquuid: f176c42b-b16b-42c9-af22-4b6421de5a90
 pagetitle: Liking Essentials
 ---
 
-# Liking Essentials{#liking-essentials}
+# Liking Essentials {#liking-essentials}
 
 The liking component, a [tally](tally.md) subclass, is a useful tool that allows members to express a positive opinion about a particular piece of content by simply selecting the heart icon.
 
@@ -46,7 +46,7 @@ Anonymous posting of a like is not supported. Site visitors must register and si
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td><p>see <a href="liking.md">Using Liking</a></p> </td> 
+   <td><p>See <a href="liking.md">Using Liking</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

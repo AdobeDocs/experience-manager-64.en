@@ -14,7 +14,7 @@ discoiquuid: a65c5303-0ebd-43a9-a777-401042d8fcad
 
 # Rendering Forms Based on Fragments {#rendering-forms-based-on-fragments}
 
-## Rendering Forms Based on Fragments {#rendering-forms-based-on-fragments}
+## Rendering Forms Based on Fragments {#rendering-forms-based-on-fragments-inner}
 
 The Forms service can render forms that are based on fragments that you create using Designer. A *fragment* is a reusable part of a form and is saved as a separate XDP file that can be inserted into multiple form designs. For example, a fragment can include an address block or legal text.
 

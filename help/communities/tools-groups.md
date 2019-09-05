@@ -29,7 +29,7 @@ At the moment the action is taken to create a new community group, the group's t
 
 In the author environment, to reach the groups templates console
 
-* from global navigation: **Tools | Communities | Group Templates**
+* From global navigation: **[!UICONTROL Tools > Communities > Group Templates]**
 
 This console displays the templates from which a [community site](sites-console.md) can be created and allows new group templates to be created.
 
@@ -37,7 +37,7 @@ This console displays the templates from which a [community site](sites-console.
 
 ## Create Goup Template {#create-goup-template}
 
-To get started creating a new group template, select `Create`
+To get started creating a new group template, select **[!UICONTROL Create]**
 
 This will bring up the Site Editor panel which contains 3 sub-panels:
 
@@ -47,14 +47,14 @@ This will bring up the Site Editor panel which contains 3 sub-panels:
 
 On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
-* **New Group Template Name**
-  the template name id
+* **[!UICONTROL New Group Template Name]** 
+  The template name id
 
-* **Description**
-  the template description
+* **[!UICONTROL Description]** 
+  The template description
 
-* **Disabled/Enabled**
-  a toggle switch controlling whether the template is referenceable
+* **[!UICONTROL Disabled/Enabled]** 
+  A toggle switch controlling whether the template is referenceable
 
 ### Thumbnail {#thumbnail}
 
@@ -82,7 +82,7 @@ Continue dragging and dropping any other community functions desired for a sub-c
 
 ![dragfunctions](assets/dragfunctions.png)
 
-Once all desired functions have been dropped into the template builder area and configured, select **Save** in the upper right hand corner.
+Once all desired functions have been dropped into the template builder area and configured, select **[!UICONTROL Save]** in the upper right hand corner.
 
 ## Edit Group Template {#edit-group-template}
 

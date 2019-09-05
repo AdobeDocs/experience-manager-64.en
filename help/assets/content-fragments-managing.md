@@ -17,7 +17,7 @@ discoiquuid: da8f968b-91cc-45a8-ae4b-757b4f840b8e
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](/help/release-notes/sp-release-notes.md).
 
-Content Fragments are stored as **Assets**, so are primarily managed from the **Assets** console.
+Content Fragments are stored as **[!UICONTROL Assets]**, so are primarily managed from the **[!UICONTROL Assets]** console.
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ The method of creating a content fragment is (basically) the same for both simpl
 
           Mandatory; will be automatically derived from the title, but can be updated.
 
-1. Select **[!UICONTROL Create]** to complete the action, then either **Open** the fragment for editing or return to the console with **Done**.
+1. Select **[!UICONTROL Create]** to complete the action, then either **[!UICONTROL Open]** the fragment for editing or return to the console with **[!UICONTROL Done]**.
 
 ## Actions for a Content Fragment {#actions-for-a-content-fragment}
 
-In the **Assets** console a range of actions are available for your content fragments, either:
+In the **[!UICONTROL Assets]** console a range of actions are available for your content fragments, either:
 
 * From the toolbar; after selection of your fragment all appropriate actions are available.
 * As [quick actions](/help/sites-authoring/basic-handling.md#quick-actions); a subset of actions available for the individual fragment cards.
@@ -114,7 +114,7 @@ Select the fragment to reveal the toolbar with applicable actions:
 
 >[!NOTE]
 >
->Many of these are [standard actions for Assets](managing-assets-touch-ui.md) and/or the [Desktop App](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html).
+>Many of these are [standard actions for Assets](managing-assets-touch-ui.md) and/or the [desktop app](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html).
 
 ## Opening the Fragment Editor {#opening-the-fragment-editor}
 
@@ -153,7 +153,7 @@ To open your fragment for editing:
 
    >[!NOTE]
    >
-   >Both **Save** and **Cancel** will exit the editor - see [Save, Cancel and Versions](#save-cancel-and-versions) for full information on how both options operate for content fragments.
+   >Both **[!UICONTROL Save]** and **[!UICONTROL Cancel]** will exit the editor - see [Save, Cancel and Versions](#save-cancel-and-versions) for full information on how both options operate for content fragments.
 
 ## Save, Cancel and Versions {#save-cancel-and-versions}
 
@@ -173,20 +173,20 @@ The editor has two options:
 
   >[!NOTE]
   >
-  >It is possible to remain in the editor, making a series of changes, before selecting **Save**.
+  >It is possible to remain in the editor, making a series of changes, before selecting **[!UICONTROL Save]**.
 
   >[!CAUTION]
   >
-  >In addition to simply saving your changes, **Save** also updates any references and ensures that the dispatcher is flushed as required. These changes can take time to process. Due to this, there can be a performance impact on a large/complex/heavily-loaded system.
+  >In addition to simply saving your changes, **[!UICONTROL Save]** also updates any references and ensures that the dispatcher is flushed as required. These changes can take time to process. Due to this, there can be a performance impact on a large/complex/heavily-loaded system.
   >
   >
-  >Please bear this in mind when using **Save** and then quickly re-entering the fragment editor to make and save further changes.
+  >Please bear this in mind when using **[!UICONTROL Save]** and then quickly re-entering the fragment editor to make and save further changes.
 
 * **[!UICONTROL Cancel]**
 
   Will exit the editor without saving the latest changes.
 
-While editing your content fragment AEM automatically creates versions to ensure that prior content can be restored if you **Cancel** your changes:
+While editing your content fragment AEM automatically creates versions to ensure that prior content can be restored if you **[!UICONTROL Cancel]** your changes:
 
 1. When a content fragment is opened for editing AEM checks for the existence of the cookie-based token that indicates whether an *editing session* exists:
 
@@ -220,7 +220,7 @@ You can also [associate content](content-fragments-assoc-content.md) with a frag
 
 ## Viewing and Editing the Metadata (Properties) of your Fragment {#viewing-and-editing-the-metadata-properties-of-your-fragment}
 
-You can view, and edit, the properties of a fragment using the [Metadata](content-fragments-metadata.md) tab.
+You can view, and edit, the properties of a fragment using the [!UICONTROL Metadata](content-fragments-metadata.md) tab.
 
 ## Timeline for Content Fragments {#timeline-for-content-fragments}
 
@@ -229,14 +229,14 @@ In addition to the standard options, [Timeline](managing-assets-touch-ui.md#time
 * View information about versions, comments, and annotations
 * Actions for Versions
 
-    * **[Revert to this Version](#reverting-to-a-version)** (select an existing fragment, then a specific version)
-    * **[Compare to Current](#comparing-fragment-versions)** (select an existing fragment, then a specific version)
-    * Add a **Label** and/or **Comment** (select an existing fragment, then a specific version)
-    * **Save as Version** (select an existing fragment, then the up arrow at the bottom of Timeline)
+    * **[!UICONTROL Revert to this Version](#reverting-to-a-version)** (select an existing fragment, then a specific version)
+    * **[!UICONTROL Compare to Current](#comparing-fragment-versions)** (select an existing fragment, then a specific version)
+    * Add a **[!UICONTROL Label]** and/or **[!UICONTROL Comment]** (select an existing fragment, then a specific version)
+    * **[!UICONTROL Save as Version]** (select an existing fragment, then the up arrow at the bottom of Timeline)
 
 * Actions for Annotations
 
-    * **Delete**
+    * **[!UICONTROL Delete]**
 
 >[!NOTE]
 >
@@ -257,11 +257,11 @@ For example:
 
 ## Comparing Fragment Versions {#comparing-fragment-versions}
 
-The **Compare to Current** action is available from the [Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#timeline-for-content-fragments) after you have selected a specific version.
+The **[!UICONTROL Compare to Current]** action is available from the [!UICONTROL Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#timeline-for-content-fragments) after you have selected a specific version.
 
 This will open:
 
-* the **Current** (latest) version (left)  
+* the **[!UICONTROL Current]** (latest) version (left)  
 
 * the selected version **v&lt;*x.y*&gt;** (right)
 
@@ -274,8 +274,8 @@ They will be shown side-by-side, where:
     * Replaced text - blue
 
 * The full-screen icon allows you to open either version on its own; then toggle back to the parallel view
-* You can **Revert** to the specific version
-* **Done** will return you to the console
+* You can **[!UICONTROL Revert]** to the specific version
+* **[!UICONTROL Done]** will return you to the console
 
 >[!NOTE]
 >
@@ -287,11 +287,11 @@ They will be shown side-by-side, where:
 
 You can revert to a specific version of your fragment:
 
-* Directly from the [Timeline](content-fragments-managing.md#timeline-for-content-fragments).
+* Directly from the [!UICONTROL Timeline](content-fragments-managing.md#timeline-for-content-fragments).
 
-  Select the required version, then the **Revert to this Version** action.
+  Select the required version, then the **[!UICONTROL Revert to this Version]** action.
 
-* While [comparing a version to the current version](content-fragments-managing.md#comparing-fragment-versions) you can **Revert** to the selected version.
+* While [comparing a version to the current version](content-fragments-managing.md#comparing-fragment-versions) you can **[!UICONTROL Revert]** to the selected version.
 
 ## Publishing and Referencing a Fragment {#publishing-and-referencing-a-fragment}
 
@@ -319,7 +319,7 @@ To delete a fragment:
 
    >[!NOTE]
    >
-   >The **Delete** action is not available as a quick action.
+   >The **[!UICONTROL Delete]** action is not available as a quick action.
 
 1. Select **[!UICONTROL Delete]** from the toolbar.
 1. Confirm the **[!UICONTROL Delete]** action.

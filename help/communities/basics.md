@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 21714581-7645-4b47-a9b0-9f1424013240
 ---
 
-# Communities Components Basics{#communities-components-basics}
+# Communities Components Basics {#communities-components-basics}
 
 ## Overview {#overview}
 
@@ -51,11 +51,11 @@ The selected components are now available in the components browser:
 
 When adding a Communities component to a page, if the result is an error or an unexpected appearance, the first thing to try is adding the required clientlibs for the Communities component. For details, see [Clientlibs for Communities Components](clientlibs.md).
 
-### Example: initially placed reviews without client libraries ... {#example-initially-placed-reviews-without-client-libraries}
+### Example: Initially placed reviews without client libraries... {#example-initially-placed-reviews-without-client-libraries}
 
 ![chlimage_1-426](assets/chlimage_1-426.png)
 
-### ... and with client libraries {#and-with-client-libraries}
+### ... And with client libraries {#and-with-client-libraries}
 
 ![chlimage_1-427](assets/chlimage_1-427.png)
 

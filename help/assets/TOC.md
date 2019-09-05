@@ -9,10 +9,10 @@ user-guide-title: AEM 6.4 Assets User Guide
 
 + [Assets user guide](home.md)
 + [AEM 6.4 Assets release notes](../release-notes/assets.md)
-+ [About Digital Asset Management solution and AEM Assets](assets.md)
++ [About DAM](assets.md)
 + [User experience improvements](ux-improvements.md)
 + [Best practices for assets](best-practices-for-assets.md)
-+ Using AEM Assets {#using}
++ Use AEM Assets {#using}
     + [AEM Assets home page experience](assets-home-page.md)
     + [Search assets in AEM](search-assets.md)
     + [GQL full-text search](gql-search.md)
@@ -38,6 +38,8 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Dynamic Media Video Profiles](video-profiles.md)
     + [Dynamic Media Image Profiles](image-profiles.md)
     + [Smart Imaging](imaging-faq.md)
+    + [Video](s7-video.md)
+    + [Adding Scene7 features to your page](scene7.md)
     + [HTTP2 delivery of content](http2.md)
     + [Delivering Dynamic Media assets](delivering-dynamic-media-assets.md)
     + [Activating hotlink protection in Dynamic Media](hotlink-protection.md)
@@ -60,17 +62,16 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Invalidating your CDN cached content](invalidate-cdn-cached-content.md)
     + [Installing Feature Pack 18912 for bulk asset migration](bulk-ingest-migrate.md)
     + [Working with Selectors](working-with-selectors.md)
-+ Extending Assets {#extending}
++ Extend Assets {#extending}
     + [Customizing and Extending Assets](extending-assets.md)
     + [Processing Assets using media handlers and workflows](media-handlers.md)
     + [Extending Assets Search](searchx.md)
     + [Install and configure ImageMagick to work with AEM Assets](best-practices-for-imagemagick.md)
     + [Integrating Assets with Activity Stream](extending-activity-stream.md)
     + [Extending Asset Editor](asseteditorx.md)
-    + [Customizing Asset Share](assetsharex.md)
     + [Assets HTTP API](mac-api-assets.md)
     + [Assets Proxy Development](proxy.md)
-+ Administering Assets {#administer}
++ Administer Assets {#administer}
     + [Assets supported formats](assets-formats.md)
     + [Search facets](search-facets.md)
     + [Managing Metadata for assets](metadata.md)
@@ -107,7 +108,6 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Support for IPTC Metadata](iptc-support.md)
     + [Metadata Schemas](metadata-schemas.md)
     + [Multi-tenancy for Collections, Snippets, and Snippet Templates](multi-tenancy.md)
-    + [Serial uploads](serial-uploads.md)
     + [Watermarking](watermarking.md)
     + [Bulk Metadata Import and Export](metadata-import-export.md)
     + [Asset Templates](asset-templates.md)
@@ -128,7 +128,7 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Content Fragments - Delete Considerations](content-fragments-delete.md)
     + [Content Fragments - Markdown](content-fragments-markdown.md)
     + [Creating translation projects for Content Fragments](creating-translation-projects-for-content-fragments.md)
-+ Managing Assets {#managing}
++ Manage Assets {#managing}
     + [Managing Assets with the Touch-Optimized UI](managing-assets-touch-ui.md)
     + [Managing multiple assets and collections](managing-multiple-assets.md)
     + [Asset selector](asset-selector.md)
@@ -138,11 +138,10 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Enabling duplicate detection](duplicate-detection.md)
     + [Enhanced sorting of assets in AEM](enhance-sort.md)
     + [Organize digital assets](organize-assets.md)
-    + [Video](s7-video.md)
-    + [Adding Scene7 features to your page](scene7.md)
     + [Managing video assets](managing-video-assets.md)
     + [Creating Translation Projects](translation-projects.md)
     + [Preparing Assets for Translation](preparing-assets-for-translation.md)
+    + [Download assets from AEM](download-assets-from-aem.md)
     + [Asynchronous Operations](asynchronous-jobs.md)
     + [Lightbox](touch-ui-light-box.md)
     + [Enabling Asset Insights through DTM](touch-ui-using-dtm-for-asset-insights.md)

@@ -15,7 +15,7 @@ discoiquuid: 1cdb2dfc-623b-44cf-9a7b-98cfabbb1d0c
 
 >[!CAUTION]
 >
->Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](/help/release-notes/sp-release-notes.md).
+>Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../release-notes/sp-release-notes.md).
 
 [Variations](content-fragments.md#constituent-parts-of-a-content-fragment) are a significant feature of content fragments, as they allow you to create and edit copies of the master content for use on specific channels, and/or scenarios.
 
@@ -350,20 +350,22 @@ When editing a variation you have access to the action for synchronizing the cur
 >
 >Only the current element of the variation will be synchronized.
 >
+>Synchronization only works on the **Multi line text** data-type.
+>
 >Transferring changes *from a variation to **Master*** is not available as an option.
 
 1. Open your content fragment in the fragment editor. Ensure that the **Master** has been edited.
-1. Select a specific variation, then the appropriate synchronization action from either:
+2. Select a specific variation, then the appropriate synchronization action from either:
 
     * the **Actions** drop down selector - **Select current element with master** 
     * the toolbar of the full-screen editor - **Sync with master**
 
-1. Master and the variation will be shown side-by-side:
+3. Master and the variation will be shown side-by-side:
 
     * green indicates content added (to the variation)
     * red indicates content removed (from the variation)
 
    ![cfm-6420-27](assets/cfm-6420-27.png)
 
-1. Select **[!UICONTROL Synchronize]**, the variation will updated and shown.
+4. Select **[!UICONTROL Synchronize]**, the variation will updated and shown.
 

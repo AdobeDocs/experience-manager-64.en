@@ -35,7 +35,7 @@ Enabling the HTTPS transport layer on both author and publish instances is manda
 
 >[!NOTE]
 >
->See the [Enabling HTTP Over SSL](/help/sites-deploying/config-ssl.md) section for more information.
+>See the [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md) section for more information.
 
 ### Install Security Hotfixes {#install-security-hotfixes}
 

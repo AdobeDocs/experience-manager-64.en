@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 33c85af4-4c56-487a-ba60-55211cb9f72c
 ---
 
-# Communities Subscriptions{#communities-subscriptions}
+# Communities Subscriptions {#communities-subscriptions}
 
 ## Overview {#overview}
 
@@ -21,9 +21,9 @@ Subscriptions are similar to [notifications](notifications.md) as members may su
 
 What distinguishes subscriptions from notifications is:
 
-* members may not subscribe when following other members
-* the only action for members to take is to select `Email Subscriptions` when following
-* when email reply is configured, members may effectively post content by simply replying to the received email
+* Members may not subscribe when following other members
+* The only action for members to take is to select `Email Subscriptions` when following
+* When email reply is configured, members may effectively post content by simply replying to the received email
 
 ### Requirements {#requirements}
 
@@ -41,19 +41,19 @@ Components must be configured to enable subscriptions *and* following. Features 
 
 ![chlimage_1-5](assets/chlimage_1-5.png)
 
-The **Follow **button provides a means to follow entries as activities, subscriptions and/or notifications. Each time the **Follow **button is selected, it is possible to toggle on or off a selection.
+The **Follow** button provides a means to follow entries as activities, subscriptions and/or notifications. Each time the **Follow** button is selected, it is possible to toggle on or off a selection.
 
 If any method of following is selected, the text of the button changes to **Following**. For convenience, it is possible to select `Unfollow All` to toggle off all methods.
 
-The **Follow **button will include the `Email Subscriptions` option only when a forum, QnA, or blog is configured to enable email subscriptions. This button will appear
+The **Follow** button will include the `Email Subscriptions` option only when a forum, QnA, or blog is configured to enable email subscriptions. This button will appear
 
-* on the main feature page for the enabled forum, QnA, or blog
+* On the main feature page for the enabled forum, QnA, or blog
 
-    * will send an email for all activity under that feature
+    * Will send an email for all activity under that feature
 
-* for a specific entry, such as a forum topic, QnA question, or blog article
+* For a specific entry, such as a forum topic, QnA question, or blog article
 
-    * will send an email when there is activity for that specific entry
+    * Will send an email when there is activity for that specific entry
 
 ## Reply by Email {#reply-by-email}
 

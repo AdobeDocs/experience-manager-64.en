@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 1e96d388-8517-4a84-bb0a-d49567eb4bdf
 ---
 
-# Leaderboard Feature{#leaderboard-feature}
+# Leaderboard Feature {#leaderboard-feature}
 
 ## Introduction {#introduction}
 
@@ -21,9 +21,9 @@ Prior to including the leaderboard component on a page, it is necessary to confi
 
 This section of the documentation describes
 
-* adding the `Leaderboard` component to a [community site](overview.md#community-sites)
+* Adding the `Leaderboard` component to a [community site](overview.md#community-sites)
 
-* configuration settings for the `Leaderboard` component
+* Configuration settings for the `Leaderboard` component
 
 ## Adding a Leaderboard to a Page {#adding-a-leaderboard-to-a-page}
 
@@ -47,42 +47,43 @@ Select the placed `Leaderboard` component to access and select the `Configure` i
 
 ### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify what information related to the member is displayed:
+Under the **[!UICONTROL Settings]** tab, specify what information related to the member is displayed:
 
-* **Display Name** 
+* **[!UICONTROL Display Name]** 
   A descriptive name to display for the board, reflecting the rules selected for displaying badges and scores.
 
   Default is `Leaderboard`, if nothing entered.
 
-* **Badge** 
+* **[!UICONTROL Badge]** 
   If checked, a column for badge icons is included in the leaderboard.  
 
   Default is unchecked.
 
-* **Badge Name** 
+* **[!UICONTROL Badge Name]** 
   If checked, a column for the badge name is included in the leaderboard.  
 
   Default is unchecked.
 
-* **Use Avatar** 
+* **[!UICONTROL Use Avatar]** 
   If checked, the member's avatar image is included in the leaderboard, next to their name link to their member profile.  
 
   Default is unchecked.
 
 ### Rules tab {#rules-tab}
 
-Under the **Rules** tab, the community site, and its scoring and badging rules
+Under the **[!UICONTROL Rules]** tab, the community site, and its scoring and badging rules
 
-* **Rule Location** 
+* **[!UICONTROL Rule Location]** 
   (required) Location where the Scoring/Badging rule is configured.
 
-* **Scoring Rule** 
+* **[!UICONTROL Scoring Rule]** 
   (required) Specific rule generating the scores to display.
 
-* **Badging Rule** 
+* **[!UICONTROL Badging Rule]** 
   (required) Specific rule generating the badge to display.
 
-* **Display Limit**Number of members to display per page.  
+* **[!UICONTROL Display Limit]**
+Number of members to display per page.  
 
   Default is 10.
 
@@ -92,7 +93,7 @@ This leaderboard reports results from applying basic scoring rules.
 
 Leaderboard component configuration:
 
-* Settings tab:
+* **[!UICONTROL Settings]** tab:
 
     * Display Name = `Participation Board`
     * `checked`:
@@ -101,7 +102,7 @@ Leaderboard component configuration:
         * Badge Name
         * Use Avatar
 
-* Rules tab:
+* **[!UICONTROL Rules]** tab:
 
     * Rule Location = `/content/sites/communities/jcr:content`
     * Scoring Rule = `/etc/community/scoring/rules/forums-scoring`
@@ -116,7 +117,7 @@ This leaderboard reports results from applying advanced scoring rules.
 
 Leaderboard component configuration:
 
-* Settings tab:
+* **[!UICONTROL Settings]** tab:
 
     * Display Name = `Expertise Board`
     * `checked`:
@@ -124,7 +125,7 @@ Leaderboard component configuration:
         * Badge
         * Use Avatar
 
-* Rules tab:
+* **[!UICONTROL Rules]** tab:
 
     * Rule Location = `/content/sites/communities/jcr:content`
     * Scoring Rule = `/etc/community/scoring/rules/adv-forums-scoring`

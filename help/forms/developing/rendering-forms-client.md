@@ -14,7 +14,7 @@ discoiquuid: 08d36e9f-cafc-478e-9781-8fc29ac6262e
 
 # Rendering Forms at the Client {#rendering-forms-at-the-client}
 
-## Rendering Forms at the Client {#rendering-forms-at-the-client}
+## Rendering Forms at the Client {#rendering-forms-at-the-client-inner}
 
 You can optimize the delivery of PDF content and improve the Forms service’s ability to handle network load by using the client-side rendering capability of Acrobat or Adobe Reader. This process is known as rendering a form at the client. To render a form at the client, the client device (typically a web browser) must use Acrobat 7.0 or Adobe Reader 7.0 or later.
 
@@ -78,7 +78,7 @@ The Forms service creates a form data stream that you must write to the client w
 
 [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms.md#passing-documents-to-the-forms-service)
+[Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md)
 
 [Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 

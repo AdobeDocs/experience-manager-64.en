@@ -11,7 +11,9 @@ content-type: reference
 discoiquuid: e1b5c25d-cbdd-421c-b81a-feb6039610a3
 ---
 
-# Create An SCF Sandbox{#create-an-scf-sandbox}
+
+# Create An SCF Sandbox {#create-an-scf-sandbox}
+
 
 As of AEM 6.1 Communities, the easiest way to quickly create a sandbox is to create a community site. See [Getting Started with AEM Communities](getting-started.md).
 
@@ -44,10 +46,10 @@ This tutorial assumes you have one AEM author and one AEM publish instance insta
 
 Following are some helpful links for developers new to the AEM platform:
 
-* [Getting Started](../../help/sites-deploying/deploy.md#getting-started) - for deploying AEM instances
+* [Getting Started](../../help/sites-deploying/deploy.md#getting-started) - For deploying AEM instances
 
-    * [The Basics](../../help/sites-developing/the-basics.md) - for developers of websites and features
-    * [First Steps for Authors](../../help/sites-authoring/first-steps.md) - for authoring page content
+    * [The Basics](../../help/sites-developing/the-basics.md) - For developers of websites and features
+    * [First Steps for Authors](../../help/sites-authoring/first-steps.md) - For authoring page content
 
 ## Using CRXDE Lite Development Environment {#using-crxde-lite-development-environment}
 
@@ -55,24 +57,25 @@ AEM developers spend much of their time in the [CRXDE Lite](../../help/sites-dev
 
 After signing in with administrative privileges, there are various ways to access CRXDE Lite:
 
-1. From global navigation, select **navigation**, **Tools**, **CRXDE Lite**.
+1. From global navigation, select navigation **[!UICONTROL Tools > CRXDE Lite]**.
 
    ![chlimage_1-350](assets/chlimage_1-350.png)
 
-1. From the [classic UI wecome page](http://localhost:4502/welcome.html), scroll down and click **CRXDE Lite** in the right panel.
+2. From the [classic UI welcome page](http://localhost:4502/welcome.html), scroll down and click **[!UICONTROL CRXDE Lite]** in the right panel.
 
    ![chlimage_1-351](assets/chlimage_1-351.png)
 
-1. Browse directly to `CRXDE Lite`: `<server>:<port>/crx/de`
+3. Browse directly to `CRXDE Lite`: `<server>:<port>/crx/de`
 
    For example, on a local author instance: ` [http://localhost:4502/crx/de](http://localhost:4502/crx/de)`
 
 To work with CRXDE Lite, you must sign in with developer or administrator priveleges. For the default localhost instance, you can login with
 
-* username: admin
-* password: admin
+* `username: admin`
+* `password: admin`
 
-***Be aware** *that this login will timeout and you will need to re-login periodically using the pull down on the right end of the CRXDe Lite tool bar.
+
+**Be aware** that this login will timeout and you will need to re-login periodically using the pull down on the right end of the CRXDe Lite tool bar.
 
 If not logged in, you will be unable to navigate the JCR repository or perform any edit/save operations.
 

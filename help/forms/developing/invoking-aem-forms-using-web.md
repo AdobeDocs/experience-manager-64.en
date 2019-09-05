@@ -24,13 +24,13 @@ AEM Forms services are exposed over the SOAP protocol and are WSI Basic Profile 
 
 AEM Forms supports the following web service standards:
 
-* **Encoding**: Supports only document and literal encoding (which is the preferred encoding according to the WSI Basic Profile). (See [Invoking AEM Forms using Base64 encoding](invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).)
-* **MTOM**: Represents a way to encode attachments with SOAP requests. (See [Invoking AEM Forms using MTOM](invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom).)
-* **SwaRef**: Represents another way to encode attachments with SOAP requests. (See [Invoking AEM Forms using SwaRef](invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref).)
-* **SOAP with attachments**: Supports both MIME and DIME (Direct Internet Message Encapsulation). These protocols are standard ways of sending attachments over SOAP. Microsoft Visual Studio .NET applications use DIME. (See [Invoking AEM Forms using Base64 encoding](invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).)
+* **Encoding**: Supports only document and literal encoding (which is the preferred encoding according to the WSI Basic Profile). (See [Invoking AEM Forms using Base64 encoding](#invoking-aem-forms-using-base64-encoding).)
+* **MTOM**: Represents a way to encode attachments with SOAP requests. (See [Invoking AEM Forms using MTOM](#invoking-aem-forms-using-mtom).)
+* **SwaRef**: Represents another way to encode attachments with SOAP requests. (See [Invoking AEM Forms using SwaRef](#invoking-aem-forms-using-swaref).)
+* **SOAP with attachments**: Supports both MIME and DIME (Direct Internet Message Encapsulation). These protocols are standard ways of sending attachments over SOAP. Microsoft Visual Studio .NET applications use DIME. (See [Invoking AEM Forms using Base64 encoding](#invoking-aem-forms-using-base64-encoding).)
 * **WS-Security**: Supports a user name password token profile, which is a standard way of sending user names and passwords as part of the WS Security SOAP header. AEM Forms also supports HTTP basic authentication. (See [Passing credentials using WS-Security headers](https://www.adobe.com/devnet/livecycle/articles/passing_credentials.html).)
 
-To invoke AEM Forms services using a web service, typically you create a proxy library that consumes the service WSDL. The *Invoking AEM Forms using Web Services* section uses JAX-WS to create Java proxy classes to invoke services. (See [Creating Java proxy classes using JAX-WS](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-jax-ws).)
+To invoke AEM Forms services using a web service, typically you create a proxy library that consumes the service WSDL. The *Invoking AEM Forms using Web Services* section uses JAX-WS to create Java proxy classes to invoke services. (See [Creating Java proxy classes using JAX-WS](#creating-java-proxy-classes-using-jax-ws).)
 
 You can retrieve a service WDSL by specifying the following URL definition (items in brackets are optional):
 
@@ -50,13 +50,13 @@ where:
 The following table lists service WSDL definitions (assuming that AEM Forms is deployed on the local host and the post is 8080).
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Service</p></th> 
    <th><p>WSDL definition</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>Assembler</p></td> 
    <td><p><code>http://localhost:8080/soap/services/ AssemblerService?wsdl</code></p></td> 
@@ -158,7 +158,7 @@ You must specify the Application name and the Process name within the WSDL defin
 
 **Accessing new functionality using web services**
 
-New AEM Forms service functionality can be accessed using web services. For example, in AEM Forms, the ability to encode attachments using MTOM is introduced. (See [Invoking AEM Forms using MTOM](invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom).)
+New AEM Forms service functionality can be accessed using web services. For example, in AEM Forms, the ability to encode attachments using MTOM is introduced. (See [Invoking AEM Forms using MTOM](#invoking-aem-forms-using-mtom).)
 
 To access new functionality introduced in AEM Forms, specify the `lc_version` attribute in the WSDL definition. For example, to access new service functionality (including MTOM support), specify the following WSDL definition:
 
@@ -207,11 +207,11 @@ If an AEM Forms service operation requires a `BLOB` type as an input value, crea
 
 Assign values to fields that belong to the `BLOB` instance as follows:
 
-* **Base64**: To pass data as text encoded in a Base64 format, set the data in the `BLOB.binaryData` field and set the data type in the MIME format (for example `application/pdf`) in the `BLOB.contentType` field. (See [Invoking AEM Forms using Base64 encoding](invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).)
-* **MTOM**: To pass binary data in an MTOM attachment, set the data in the `BLOB.MTOM` field. This setting attaches the data to the SOAP request using the Java JAX-WS framework or the SOAP framework's native API. (See [Invoking AEM Forms using MTOM](invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom).)
-* **SwaRef**: To pass binary data in an WS-I SwaRef attachment, set the data in the `BLOB.swaRef` field. This setting attaches the data to the SOAP request using the Java JAX-WS framework. (See [Invoking AEM Forms using SwaRef](invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref).)
-* **MIME or DIME attachment**: To pass data in a MIME or DIME attachment, attach the data to the SOAP request using the SOAP framework's native API. Set the attachment identifier in the `BLOB.attachmentID` field. (See [Invoking AEM Forms using Base64 encoding](invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).)
-* **Remote URL**: If data is hosted on a web server and accessible over an HTTP URL, set the HTTP URL in the `BLOB.remoteURL` field. (See [Invoking AEM Forms using BLOB data over HTTP](invoking-aem-forms-using-web.md#invoking-aem-forms-using-blob-data-over-http).)
+* **Base64**: To pass data as text encoded in a Base64 format, set the data in the `BLOB.binaryData` field and set the data type in the MIME format (for example `application/pdf`) in the `BLOB.contentType` field. (See [Invoking AEM Forms using Base64 encoding](#invoking-aem-forms-using-base64-encoding).)
+* **MTOM**: To pass binary data in an MTOM attachment, set the data in the `BLOB.MTOM` field. This setting attaches the data to the SOAP request using the Java JAX-WS framework or the SOAP framework's native API. (See [Invoking AEM Forms using MTOM](#invoking-aem-forms-using-mtom).)
+* **SwaRef**: To pass binary data in an WS-I SwaRef attachment, set the data in the `BLOB.swaRef` field. This setting attaches the data to the SOAP request using the Java JAX-WS framework. (See [Invoking AEM Forms using SwaRef](#invoking-aem-forms-using-swaref).)
+* **MIME or DIME attachment**: To pass data in a MIME or DIME attachment, attach the data to the SOAP request using the SOAP framework's native API. Set the attachment identifier in the `BLOB.attachmentID` field. (See [Invoking AEM Forms using Base64 encoding](#invoking-aem-forms-using-base64-encoding).)
+* **Remote URL**: If data is hosted on a web server and accessible over an HTTP URL, set the HTTP URL in the `BLOB.remoteURL` field. (See [Invoking AEM Forms using BLOB data over HTTP](#invoking-aem-forms-using-blob-data-over-http).)
 
 **Accessing data in BLOB objects returned from services**
 
@@ -262,13 +262,13 @@ AEM Forms services that return a large amount of binary data use the Document/BL
 The following table lists Java data types and shows the corresponding web service data type.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Java data type</p></th> 
    <th><p>Web service data type</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p><code>java.lang.byte[]</code></p></td> 
    <td><p><code>xsd:base64Binary</code></p></td> 
@@ -451,17 +451,17 @@ You can use JAX-WS to convert a Forms service WSDL to Java proxy classes. These 
 
    >[!NOTE]
    >
-   >All Java web service quick starts (except for the Forms service) located in Programming with AEM forms create Java proxy files using JAX-WS. In addition, all Java web service quick starts, use SwaRef. (See [Invoking AEM Forms using SwaRef](invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref).)
+   >All Java web service quick starts (except for the Forms service) located in Programming with AEM forms create Java proxy files using JAX-WS. In addition, all Java web service quick starts, use SwaRef. (See [Invoking AEM Forms using SwaRef](#invoking-aem-forms-using-swaref).)
 
 **See also**
 
-[Creating Java proxy classes using Apache Axis](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-apache-axis)
+[Creating Java proxy classes using Apache Axis](#creating-java-proxy-classes-using-apache-axis)
 
-[Invoking AEM Forms using Base64 encoding](invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
+[Invoking AEM Forms using Base64 encoding](#invoking-aem-forms-using-base64-encoding)
 
-[Invoking AEM Forms using BLOB data over HTTP](invoking-aem-forms-using-web.md#invoking-aem-forms-using-blob-data-over-http)
+[Invoking AEM Forms using BLOB data over HTTP](#invoking-aem-forms-using-blob-data-over-http)
 
-[Invoking AEM Forms using SwaRef](invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
+[Invoking AEM Forms using SwaRef](#invoking-aem-forms-using-swaref)
 
 ## Creating Java proxy classes using Apache Axis {#creating-java-proxy-classes-using-apache-axis}
 
@@ -561,11 +561,11 @@ You can generate Axis Java library files by performing the following steps:
 
 **See also**
 
-[Creating Java proxy classes using JAX-WS](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-jax-ws)
+[Creating Java proxy classes using JAX-WS](#creating-java-proxy-classes-using-jax-ws)
 
-[Invoking AEM Forms using Base64 encoding](invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
+[Invoking AEM Forms using Base64 encoding](#invoking-aem-forms-using-base64-encoding)
 
-[Invoking AEM Forms using BLOB data over HTTP](invoking-aem-forms-using-web.md#invoking-aem-forms-using-blob-data-over-http)
+[Invoking AEM Forms using BLOB data over HTTP](#invoking-aem-forms-using-blob-data-over-http)
 
 ## Invoking AEM Forms using Base64 encoding {#invoking-aem-forms-using-base64-encoding}
 
@@ -717,7 +717,7 @@ You can invoke an AEM Forms service using Java proxy classes and Base64. To invo
 
 [Quick Start: Invoking a service using Java proxy files and Base64 encoding](/help/forms/developing/invocation-api-quick-starts.md#quick-start-invoking-a-service-using-java-proxy-files-and-base64-encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](invoking-aem-forms-using-web.md#creating-a-net-client-assembly-that-uses-base64-encoding)
+[Creating a .NET client assembly that uses Base64 encoding](#creating-a-net-client-assembly-that-uses-base64-encoding)
 
 ## Invoking AEM Forms using MTOM {#invoking-aem-forms-using-mtom}
 
@@ -829,7 +829,7 @@ Consider the `MyApplication/EncryptDocument` process that accepts an unsecured P
 
 [Quick Start: Invoking a service using MTOM in a .NET project](/help/forms/developing/invocation-api-quick-starts.md#quick-start-invoking-a-service-using-mtom-in-a-net-project)
 
-[Accessing multiple services using web services](invoking-aem-forms-using-web.md#accessing-multiple-services-using-web-services)
+[Accessing multiple services using web services](#accessing-multiple-services-using-web-services)
 
 [Creating an ASP.NET web application that invokes a human-centric long-lived process](/help/forms/developing/invoking-human-centric-long-lived.md#creating-an-asp-net-web-application-that-invokes-a-human-centric-long-lived-process)
 
@@ -864,7 +864,7 @@ To invoke the `MyApplication/EncryptDocument` process by using Java proxy files 
     https://hiro-xp:8080/soap/services/MyApplication/EncryptDocument?WSDL&lc_version=9.0.1
    ```
 
-   For information, see [Creating Java proxy classes using JAX-WS](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-jax-ws).
+   For information, see [Creating Java proxy classes using JAX-WS](#creating-java-proxy-classes-using-jax-ws).
 
    >[!NOTE]
    >
@@ -935,11 +935,11 @@ When this process is invoked, it performs the following actions:
 
 >[!NOTE]
 >
->It is recommended that you be familiar with Invoking AEM Forms using SOAP. (See [Invoking AEM Forms using Web Services](invoking-aem-forms-using-web.md#invoking-aem-forms-using-web-services).)
+>It is recommended that you be familiar with Invoking AEM Forms using SOAP. (See [Invoking AEM Forms using Web Services](#invoking-aem-forms-using-web-services).)
 
 ### Creating a .NET client assembly that uses data over HTTP {#creating-a-net-client-assembly-that-uses-data-over-http}
 
-To create a client assembly that uses data over HTTP, follow the process specified in [Invoking AEM Forms using Base64 encoding](invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding). However, amend the URL in the proxy class to include `?blob=http` instead of `?blob=base64`. This action ensures that data is passed over HTTP. In the proxy class, locate the following line of code:
+To create a client assembly that uses data over HTTP, follow the process specified in [Invoking AEM Forms using Base64 encoding](#invoking-aem-forms-using-base64-encoding). However, amend the URL in the proxy class to include `?blob=http` instead of `?blob=base64`. This action ensures that data is passed over HTTP. In the proxy class, locate the following line of code:
 
 ```as3
  "http://localhost:8080/soap/services/MyApplication/EncryptDocument";
@@ -987,7 +987,7 @@ You can invoke an AEM Forms service using Java proxy classes and BLOB data over 
     https://hiro-xp:8080/soap/services/MyApplication/EncryptDocument?WSDL&lc_version=9.0.1
    ```
 
-   For information, see [Creating Java proxy classes using JAX-WS](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-jax-ws).
+   For information, see [Creating Java proxy classes using JAX-WS](#creating-java-proxy-classes-using-jax-ws).
 
    >[!NOTE]
    >
@@ -1044,7 +1044,7 @@ This process is not based on an existing AEM Forms process. To follow along with
 
 >[!NOTE]
 >
->Invoking AEM Forms service operations using DIME is deprecated. It is recommended that you use MTOM. (See [Invoking AEM Forms using MTOM](invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom).)
+>Invoking AEM Forms service operations using DIME is deprecated. It is recommended that you use MTOM. (See [Invoking AEM Forms using MTOM](#invoking-aem-forms-using-mtom).)
 
 ### Creating a .NET project that uses DIME {#creating-a-net-project-that-uses-dime}
 
@@ -1122,13 +1122,13 @@ You can invoke a Forms service using DIME. Consider the `MyApplication/EncryptDo
 
 ### Creating Apache Axis Java proxy classes that use DIME {#creating-apache-axis-java-proxy-classes-that-use-dime}
 
-You can use the Apache Axis WSDL2Java tool to convert a service WSDL into Java proxy classes so that you can invoke service operations. Using Apache Ant, you can generate Axis library files from a AEM Forms service WSDL that lets you invoke the service. (See [Creating Java proxy classes using Apache Axis](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-apache-axis).)
+You can use the Apache Axis WSDL2Java tool to convert a service WSDL into Java proxy classes so that you can invoke service operations. Using Apache Ant, you can generate Axis library files from a AEM Forms service WSDL that lets you invoke the service. (See [Creating Java proxy classes using Apache Axis](#creating-java-proxy-classes-using-apache-axis).)
 
 The Apache Axis WSDL2Java tool generates JAVA files that contain methods that are used to send SOAP requests to a service. SOAP requests received by a service are decoded by the Axis-generated libraries and turned back into the methods and arguments.
 
 To invoke the `MyApplication/EncryptDocument` service (which was built in Workbench) using Axis-generated library files and DIME, perform the following steps:
 
-1. Create Java proxy classes that consume the `MyApplication/EncryptDocument` service WSDL using Apache Axis. (See [Creating Java proxy classes using Apache Axis](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-apache-axis).)
+1. Create Java proxy classes that consume the `MyApplication/EncryptDocument` service WSDL using Apache Axis. (See [Creating Java proxy classes using Apache Axis](#creating-java-proxy-classes-using-apache-axis).)
 1. Include the Java proxy classes into your class path. 
 1. Create a `MyApplicationEncryptDocumentServiceLocator` object by using its constructor. 
 1. Create a `URL` object by using its constructor and passing a string value that specifies the AEM Forms service WSDL definition. Ensure that you specify `?blob=dime` at the end of the SOAP endpoint URL. For example, use
@@ -1242,7 +1242,7 @@ Next, use that SAML assertion to invoke any service that requires authentication
 
 ### Using Apache Axis classes and SAML-based authentication {#using-apache-axis-classes-and-saml-based-authentication}
 
-You can invoke an AEM Forms service by Java proxy classes that were created using the Axis library. (See [Creating Java proxy classes using Apache Axis](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-apache-axis).)
+You can invoke an AEM Forms service by Java proxy classes that were created using the Axis library. (See [Creating Java proxy classes using Apache Axis](#creating-java-proxy-classes-using-apache-axis).)
 
 When using AXIS that uses SAML-based authentication, register the request and response handler with Axis. Apache Axis invokes the handler before sending an invocation request to AEM Forms. To register a handler, create a Java class that extends `org.apache.axis.handlers.BasicHandler`.
 
@@ -1334,7 +1334,7 @@ The following code example invokes an AEM Forms service using SAML-based authent
 
 ### Using a .NET client assembly and SAML-based authentication {#using-a-net-client-assembly-and-saml-based-authentication}
 
-You can invoke a Forms service by using a .NET client assembly and SAML-based authentication. To do so, you must use the Web Service Enhancements 3.0 (WSE). For information about creating a .NET client assembly that uses WSE, see [Creating a .NET project that uses DIME](invoking-aem-forms-using-web.md#creating-a-net-project-that-uses-dime).
+You can invoke a Forms service by using a .NET client assembly and SAML-based authentication. To do so, you must use the Web Service Enhancements 3.0 (WSE). For information about creating a .NET client assembly that uses WSE, see [Creating a .NET project that uses DIME](#creating-a-net-project-that-uses-dime).
 
 >[!NOTE]
 >
@@ -1488,7 +1488,7 @@ If you attempt to asynchronously invoke an AEM Forms service operation, such as 
  </bindings>
 ```
 
-Use this XML file when creating Java proxy files by using JAX-WS. (See [Creating Java proxy classes using JAX-WS](invoking-aem-forms-using-web.md#creating-java-proxy-classes-using-jax-ws).)
+Use this XML file when creating Java proxy files by using JAX-WS. (See [Creating Java proxy classes using JAX-WS](#creating-java-proxy-classes-using-jax-ws).)
 
 Reference this XML file when executing the JAX-WS tool (wsimport.exe) by using the - `b` command line option. Update the `wsdlLocation` element in the binding XML file to specify the URL of AEM Forms.
 

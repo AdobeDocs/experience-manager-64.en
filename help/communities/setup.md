@@ -19,20 +19,20 @@ For development and demonstration purposes, it will be necessary to run one auth
 
 To do so, follow the basic AEM [Getting Started](../../help/sites-deploying/deploy.md#getting-started) instructions, which will result in
 
-* author environment on [localhost:4502](http://localhost:4502/)
-* publish environment on [localhost:4503](http://localhost:4503/)
+* Author environment on [localhost:4502](http://localhost:4502/)
+* Publish environment on [localhost:4503](http://localhost:4503/)
 
 For AEM Communities,
 
-* the author environment is for
+* The author environment is for
 
-    * development of sites, templates and components
-    * administrative and configuration tasks
+    * Development of sites, templates and components
+    * Administrative and configuration tasks
 
-* the publish environment is for
+* The publish environment is for
 
-    * the community experience of posting and moderating content
-    * creating community groups, members and member groups
+    * The community experience of posting and moderating content
+    * Creating community groups, members and member groups
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ See [Configuring Email](email.md).
 
 When creating a community site in the author environment, the tunnel service makes possible the ability to assign roles to trusted community members registered in the publish environment. The tunnel service also allows access to community members from the [Members and Groups consoles](members.md) in the author environment.
 
-The convention is for members and member groups created in the publish environment to *not *be recreated in the author environment. For more information see [Managing Users and User Groups](users.md).
+The convention is for members and member groups created in the publish environment to *not* be recreated in the author environment. For more information see [Managing Users and User Groups](users.md).
 
 For simple instructions to enable the tunnel service on an **author** instance, see [Tunnel Service](deploy-communities.md#tunnel-service-on-author).
 
@@ -78,36 +78,36 @@ Members of the Community Administrators group are able to create community sites
 
 Create a user on *author*, who is assigned the role of Community Administrator:
 
-* on the author instance
+* On the author instance
 
-    * for example, [http://localhost:4502/](http://localhost:4503/)
+    * For example, [http://localhost:4502/](http://localhost:4503/)
 
-* sign in with administrator privileges
+* Sign in with administrator privileges
 
-    * for example, username 'admin' / password 'admin'
+    * For example, username 'admin' / password 'admin'
 
-* from the main console, navigate to **Tools, Operations, Security, Users**
-* from the **Edit **menu, select **Add User**
+* From the main console, navigate to **[!UICONTROL Tools > Operations > Security > Users]**
+* From the **[!UICONTROL ]Edit** menu, select **[!UICONTROL Add User]**
 
-* in the `Create New User` dialog enter
+* In the `Create New User` dialog enter
 
-    * **ID&ast;**: sirius
-    * **Emai Address**: sirius.nilson@mailinator.com
-    * **Password&ast;**: password
-    * **Confirm Password&ast;**: password
-    * **First Name**: Sirius
-    * **Last Name&ast;**: Nilson
+    * **[!UICONTROL ID&ast;]**: sirius
+    * **[!UICONTROL Emai Address]**: sirius.nilson@mailinator.com
+    * **[!UICONTROL Password&ast;]**: password
+    * **[!UICONTROL Confirm Password&ast;]**: password
+    * **[!UICONTROL First Name]**: Sirius
+    * **[!UICONTROL Last Name&ast;]**: Nilson
 
 ### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
 
 Scroll down to `Add User to Groups`:
 
-* enter 'C' to search
+* Enter 'C' to search
 
-    * select `Community Administrators`
-    * select `Community Enablement Managers`
+    * Select `Community Administrators`
+    * Select `Community Enablement Managers`
 
-* select **Save**
+* Select **[!UICONTROL Save]**
 
 ![chlimage_1-301](assets/chlimage_1-301.png)
 
@@ -115,8 +115,8 @@ Scroll down to `Add User to Groups`:
 
 Before the demonstration versions of social login with Facebook and Twitter may be used, it is necessary to
 
-1. install a fix pack or [latest feature pack](deploy-communities.md#latestfeaturepack) (for March 2017 Facebook API changes)
-1. [enable the OAuth provider](social-login.md#adobe-granite-oauth-authentication-handler) in the publish environment
+1. Install a fix pack or [latest feature pack](deploy-communities.md#latestfeaturepack) (for March 2017 Facebook API changes)
+1. [Enable the OAuth provider](social-login.md#adobe-granite-oauth-authentication-handler) in the publish environment
 
 For production servers, it is necessary to create the cloud services necessary to provide social login.
 
@@ -139,8 +139,8 @@ Use the [Tagging console](../../help/sites-administering/tags.md#tagging-console
 
 Then follow the instructions to
 
-1. [set the tag permissions](../../help/sites-administering/tags.md#setting-tag-permissions)
-1. [publish the tags](../../help/sites-administering/tags.md#publishing-tags)
+1. [Set the tag permissions](../../help/sites-administering/tags.md#setting-tag-permissions)
+1. [Publish the tags](../../help/sites-administering/tags.md#publishing-tags)
 
 Sample package of tags created for the AEM Communities Getting Started Tutorials
 

@@ -27,7 +27,7 @@ Using Dispatcher 4.1.6 or later will resolve this issue.
 
 If a forum was created on CQ 5.4 and topics posted, and then the site was upgraded to AEM 5.6.1 or later, attempting to view the existing posts may result in an error on the page:
 
-illegal pattern character "'a'  
+illegal pattern character 'a'  
 Cannot serve request to /content/demoforums/forum-test.html on this server
 
 And the logs contain the following:
@@ -37,15 +37,14 @@ And the logs contain the following:
 org.apache.sling.api.scripting.ScriptEvaluationException: 
 at org.apache.sling.scripting.core.impl.DefaultSlingScript.call(DefaultSlingScript.java:388)
 at org.apache.sling.scripting.core.impl.DefaultSlingScript.eval(DefaultSlingScript.java:171)
-
 ```
 
 The issue is that the format string for com.day.cq.commons.date.RelativeTimeFormat was changed between 5.4 and 5.5 such that the "a" for "ago" is no longer accepted.
 
 Thus, any code using RelativeTimeFormat() API would need to change
 
-* from: final RelativeTimeFormat fmt = new RelativeTimeFormat("r a", resourceBundle);
-* to: final RelativeTimeFormat fmt = new RelativeTimeFormat("r", resourceBundle);
+* From: `final RelativeTimeFormat fmt = new RelativeTimeFormat("r a", resourceBundle);`
+* To: `final RelativeTimeFormat fmt = new RelativeTimeFormat("r", resourceBundle);`
 
 The failure is different on author and publish. On author it fails silently and simply does not display the forum topics. On publish it throws up the error on the page.
 

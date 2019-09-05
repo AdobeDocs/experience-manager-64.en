@@ -38,12 +38,11 @@ For details regarding the use of SRP for UGC, see [Storage Resource Provider Ove
 [ASRP - Adobe Storage Resource Provider](asrp.md)  
 With this option, the UGC is persisted remotely in a cloud service hosted and managed by Adobe. It requires an additional license and working with an account representative to provision the account for that specific license.
 
-* requires an associated cloud service provided and supported by Adobe to store community content
-* requires choice of a datacenter in a specific geography (US, EMEA, APAC)
-
-* requires all programmatic access to UGC be through the SRP API
-* suitable for TarMK publish farm
-* suitable when there is no intent to invest in local storage
+* Requires an associated cloud service provided and supported by Adobe to store community content
+* Requires choice of a datacenter in a specific geography (US, EMEA, APAC)
+* Requires all programmatic access to UGC be through the SRP API
+* Suitable for TarMK publish farm
+* Suitable when there is no intent to invest in local storage
 
 >[!NOTE]
 >
@@ -52,37 +51,31 @@ With this option, the UGC is persisted remotely in a cloud service hosted and ma
 [MSRP - MongoDB Storage Resource Provider](msrp.md)  
 With this option, the UGC is persisted directly in a local MongoDB instance.
 
-* requires a local, licensed install of MongoDB to store community content
-* requires a local install of Apache Solr
-* requires all programmatic access to UGC be through the SRP API
-* suitable for an existing TarMK publish farm
-* suitable for a MongoMK or RdbMK cluster
-* suitable when expecting large volumes of community content
+* Requires a local, licensed install of MongoDB to store community content
+* Requires a local install of Apache Solr
+* Requires all programmatic access to UGC be through the SRP API
+* Suitable for an existing TarMK publish farm
+* Suitable for a MongoMK or RdbMK cluster
+* Suitable when expecting large volumes of community content
 
 [DSRP - Relational Database Storage Resource Provider](dsrp.md)  
 With this option, the UGC is persisted directly in a local MySQL database instance.
 
-* requires a local install of MySQL to store community content
-* requires a local install of Apache Solr
-* requires all programmatic access to UGC be through the SRP API
-* suitable for an existing TarMK publish farm
-* suitable for a MongoMK or RdbMK cluster
-* suitable when expecting large volumes of community content
+* Requires a local install of MySQL to store community content
+* Requires a local install of Apache Solr
+* Requires all programmatic access to UGC be through the SRP API
+* Suitable for an existing TarMK publish farm
+* Suitable for a MongoMK or RdbMK cluster
+* Suitable when expecting large volumes of community content
 
 [JSRP - JCR Storage Resource Provider](jsrp.md)  
 With the default option, there is no common store. The UGC is persisted only in the same JCR repository as the AEM instance in which it was entered.
 
-* stores community content in the JCR repository of the AEM author or publish instance to which it was posted
-* requires all programmatic access to UGC be through the SRP API
-* requires a publish cluster if more than one publish instance is deployed
-
-  (there is no replication mechanism among publish instances in a TarMK farm)
-
-* moderation is performed only in the publish environment
-
-  (there is no reverse/forward replication mechanism between author and publish)
-  
-* generally best for development, demonstrations, and training
+* Stores community content in the JCR repository of the AEM author or publish instance to which it was posted
+* Requires all programmatic access to UGC be through the SRP API
+* Requires a publish cluster if more than one publish instance is deployed (there is no replication mechanism among publish instances in a TarMK farm)
+* Moderation is performed only in the publish environment  (there is no reverse/forward replication mechanism between author and publish)  
+* Generally best for development, demonstrations, and training
 
 ## Configuring SRP {#configuring-srp}
 

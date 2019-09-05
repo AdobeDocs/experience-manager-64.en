@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 7449f99e-77d7-4c0f-96d5-b67d5e1f124a
 ---
 
-# Leaderboard Essentials{#leaderboard-essentials}
+# Leaderboard Essentials {#leaderboard-essentials}
 
 This page provides the essential information for working with the leaderboard feature.
 
@@ -43,7 +43,7 @@ Prior to including the leaderboard component on a page, it is necessary to confi
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="enabling-leaderboard.md">Leaderboard Feature</a></td> 
+   <td>See <a href="enabling-leaderboard.md">Leaderboard Feature</a></td> 
   </tr>
  </tbody>
 </table>

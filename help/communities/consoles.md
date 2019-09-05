@@ -11,17 +11,17 @@ content-type: reference
 discoiquuid: 5fa9ee8b-5893-4ae9-a986-bfdbb00f355f
 ---
 
-# Communities Consoles{#communities-consoles}
+# Communities Consoles {#communities-consoles}
 
 The AEM Communities consoles, available in the author environment from the global navigation panel, provides access to administrative tasks such as
 
-* [creating a community site](sites-console.md)
-* adding [groups](groups.md) nested within the site
-* managing [community site templates](sites.md)
-* managing [community members](members.md)
-* [moderating](moderate-ugc.md) user generated content (UGC)
-* create [custom badges](badges.md)
-* configuring the [default storage for UGC](srp-config.md)
+* [Creating a community site](sites-console.md)
+* Adding [groups](groups.md) nested within the site
+* Managing [community site templates](sites.md)
+* Managing [community members](members.md)
+* [Moderating](moderate-ugc.md) user generated content (UGC)
+* Create [custom badges](badges.md)
+* Configuring the [default storage for UGC](srp-config.md)
 
 When [UGC storage](working-with-srp.md) is configured to be a common store shared by author and publish environments, the [moderation console](moderation.md), available from both author and publish environments, operates on a solitary instance of UGC.
 
@@ -37,8 +37,8 @@ In the author environment, after signing in with administrator privileges, the `
 
 Select the `Adobe Experience Manager` icon in the upper left corner to open the global navigation panel and access to two icons:
 
-* [navigation console](#navigation-console)
-* [tools console](tools.md)
+* [Navigation console](#navigation-console)
+* [Tools console](tools.md)
 
 ## Navigation console {#navigation-console}
 
@@ -68,4 +68,4 @@ To access the various Communities consoles, from global navigation select **navi
 
 ## Tools Console {#tools-console}
 
-To access [Communities Tools](tools.md) (formerly the administration console), from global navigation: **Tools, Communities**
+To access [Communities Tools](tools.md) (formerly the administration console), from global navigation: **[!UICONTROL Tools > Communities]**

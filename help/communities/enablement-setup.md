@@ -24,18 +24,18 @@ Follow the basic AEM [Getting Started](../../help/sites-deploying/deploy.md#gett
 
 For AEM Communities,
 
-* the author environment is for
+* The author environment is for
 
-    * development of sites, templates, components, enablement resources and learning paths
-    * assignment of members and groups of members to enablement resources and learning paths
-    * generating reports on assignments, views, and posts
-    * administrative and configuration tasks
+    * Development of sites, templates, components, enablement resources and learning paths
+    * Assignment of members and groups of members to enablement resources and learning paths
+    * Generating reports on assignments, views, and posts
+    * Administrative and configuration tasks
 
-* the publish environment is for
+* The publish environment is for
 
-    * learning/training based on topics managed by the Enablement Manager
-    * commenting and rating enablement resources and learning paths
-    * getting in touch with the resource contacts
+    * Learning/training based on topics managed by the Enablement Manager
+    * Commenting and rating enablement resources and learning paths
+    * Getting in touch with the resource contacts
 
 >[!NOTE]
 >
@@ -90,8 +90,8 @@ Use the [Tagging console](../../help/sites-administering/tags.md#tagging-console
 
 Then follow the instructions to
 
-1. [set the tag permissions](../../help/sites-administering/tags.md#setting-tag-permissions)
-1. [publish the tags](../../help/sites-administering/tags.md#publishing-tags)
+1. [Set the tag permissions](../../help/sites-administering/tags.md#setting-tag-permissions)
+1. [Publish the tags](../../help/sites-administering/tags.md#publishing-tags)
 
 Sample package of tags created for the AEM Communities Getting Started Tutorials
 
@@ -120,8 +120,8 @@ A fourth user is created in the author environment and assigned the roles of Com
 [Create a member](members.md#create-new-member) who will be added to a group of Learners - the Community Ski Class group.
 
 * **ID**: riley
-* **Email **: riley.taylor@mailinator.com
-* **Password **: password
+* **Email**: riley.taylor@mailinator.com
+* **Password**: password
 * **Confirm Password**: password
 * **First Name**: Riley
 * **Last Name**: Taylor
@@ -131,36 +131,36 @@ A fourth user is created in the author environment and assigned the roles of Com
 [Create a second member](members.md#create-new-member) who will be added to the Community Ski Class group.
 
 * **ID**: sidney
-* **Email **: sidney.croft@mailinator.com
-* **Password **: password
+* **Email**: sidney.croft@mailinator.com
+* **Password**: password
 * **Confirm Password**: password
 * **First Name**: Sidney
-* **Last Name **: Croft
+* **Last Name**: Croft
 
 ### Quinn Harper - Enablement Resource Contact and Moderator {#quinn-harper-enablement-resource-contact-and-moderator}
 
 [Create a member](members.md#create-new-member) who will be added to the Community Site's member group once the site has been created. This membership will allow the member to be assigned as the enablement [Resource Contact](resources.md#settings) when an enablement resource is created for the site.
 
 * **ID**: quinn
-* **Email **: quinn.harper@mailinator.com
-* **Password **: password
+* **Email**: quinn.harper@mailinator.com
+* **Password**: password
 * **Confirm Password**: password
 * **First Name**: Quinn
-* **Last Name **: Harper
+* **Last Name**: Harper
 
 ### Add a User Group - Community Ski Class {#add-a-user-group-community-ski-class}
 
 [Add a new group](members.md#create-new-group) named Community Ski Class.
 
-* **ID **: community-ski-class
+* **ID**: community-ski-class
 * **Name**: Community Ski Class
-* **Description **: a sample group for assigning enablement resources
-* **Add Members To Group** - add:
+* **Description**: a sample group for assigning enablement resources
+* **Add Members To Group** 'add':
 
     * riley
     * sidney
 
-* select **Save**
+* Select **[!UICONTROL Save]**
 
 ### Community Ski Class properties {#community-ski-class-properties}
 
@@ -178,18 +178,18 @@ Members of the Community Administrators group are able to create community sites
 
 Create a user on *author*, who is assigned the role of Community Administrator:
 
-* on the author instance
+* On the author instance
 
-    * for example, [http://localhost:4502/](http://localhost:4503/)
+    * For example, [http://localhost:4502/](http://localhost:4503/)
 
-* sign in with administrator privileges
+* Sign in with administrator privileges
 
-    * for example, username 'admin' / password 'admin'
+    * For example, username 'admin' / password 'admin'
 
-* from the main console, navigate to **Tools, Operations, Security, Users**
-* from the **Edit **menu, select **Add User**
+* From the main console, navigate to **[!UICONTROL Tools, Operations > Security > Users]**
+* From the **[!UICONTROL Edit]** menu, select **[!UICONTROL Add User]**
 
-* in the `Create New User` dialog enter
+* In the `Create New User` dialog enter
 
     * **ID&ast;**: sirius
     * **Emai Address**: sirius.nilson@mailinator.com
@@ -202,12 +202,12 @@ Create a user on *author*, who is assigned the role of Community Administrator:
 
 Scroll down to `Add User to Groups`:
 
-* enter 'C' to search
+* Enter 'C' to search
 
-    * select `Community Administrators`
-    * select `Community Enablement Managers`
+    * Select `Community Administrators`
+    * Select `Community Enablement Managers`
 
-* select **Save**
+* Select **[!UICONTROL Save]**
 
 ![chlimage_1-419](assets/chlimage_1-419.png)
 
