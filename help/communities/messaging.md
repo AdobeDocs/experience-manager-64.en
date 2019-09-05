@@ -89,12 +89,10 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 * **[!UICONTROL allowedAttachmentTypes.name]** 
   **(*Action Required*)** A whitelist of file extensions, the opposite of the blacklist. To allow all file extensions, except for those blacklisted, use the '**-**' icon to remove the single empty entry.
 
-* **[!UICONTROL serviceSelector.name]** 
-  (*Required*) An absolute path (endpoint) through which the service is invoked (a virtual resource). The root of the path chosen must be one included in the *Execution Paths* configuration setting of OSGi config [ `Apache Sling Servlet/Script Resolver and Error Handler`](http://localhost:4502/system/console/configMgr/org.apache.sling.servlets.resolver.SlingServletResolver), such as `/bin/`, `/apps/`, and `/services/`. To select this configuration for a site's messaging feature, this endpoint is provided as the **`Service selector`** value for the `Message List and Compose Message components` (see [Message Feature](configure-messaging.md)).  
-  
-  The default is */bin/messaging* .
+* **[!UICONTROL serviceSelector.name]**
+  (*Required*) An absolute path (endpoint) through which the service is invoked (a virtual resource). The root of the path chosen must be one included in the *Execution Paths* configuration setting of OSGi config [ `Apache Sling Servlet/Script Resolver and Error Handler`](http://localhost:4502/system/console/configMgr/org.apache.sling.servlets.resolver.SlingServletResolver), such as `/bin/`, `/apps/`, and `/services/`. To select this configuration for a site's messaging feature, this endpoint is provided as the **`Service selector`** value for the `Message List and Compose Message components` (see [Message Feature](configure-messaging.md)). The default is */bin/messaging* .
 
-* **[!UICONTROL fieldWhitelist.name]** 
+* **[!UICONTROL fieldWhitelist.name]**
   Use **Message Fields Whitelist**.
 
 >[!CAUTION]
@@ -109,4 +107,4 @@ One way to troubleshoot problems is to enable [debugging messages in the log.](.
 
 See also [Loggers and Writers for Individual Services](../../help/sites-deploying/configure-logging.md#loggers-and-writers-for-individual-services).
 
-The package to monitor is `com.adobe.cq.social.messaging`. 
+The package to monitor is `com.adobe.cq.social.messaging`.
