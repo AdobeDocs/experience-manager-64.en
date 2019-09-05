@@ -90,4 +90,4 @@ When viewing community groups in the main [Group Templates console](#group-templ
 
 Editing a group template will not affect community sites already created from the template. It is possible to directly [edit a community site](sites-console.md#modify-structure)'s structure instead.
 
-This process provides the same panels as [creating a group template](#creategrouptemplate).
+This process provides the same panels as [creating a group template](#create-goup-template).
