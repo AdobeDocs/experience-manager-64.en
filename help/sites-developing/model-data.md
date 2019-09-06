@@ -21,7 +21,7 @@ David was co-founder and CTO of Day Software AG, a leading provider of global co
 
 Further updates can also be seen on [https://wiki.apache.org/jackrabbit/DavidsModel](https://wiki.apache.org/jackrabbit/DavidsModel).
 
-### Introduction from David {#introduction-from-david}
+## Introduction from David {#introduction-from-david}
 
 In various discussions I found that developers are somewhat at unease with the features and functionalities presented by JCR when it comes to content modeling. There is no guide and very little experience yet on how to model content in a repository and why one content model is better than the other.
 
@@ -31,13 +31,13 @@ I would like to start filling this void by expressing my personal opinions on ho
 
 >[!NOTE]
 >
->*Disclaimer*: These guidelines express my personal, sometimes controversial views. I am looking forward to debate these guidelines and refine them.
+>Disclaimer: These guidelines express my personal, sometimes controversial views. I am looking forward to debate these guidelines and refine them.
 
-### Seven Simple Rules {#seven-simple-rules}
+## Seven Simple Rules {#seven-simple-rules}
 
-#### Rule #1: Data first, structure later. Maybe. {#rule-data-first-structure-later-maybe}
+### Rule #1: Data first, structure later. Maybe. {#rule-data-first-structure-later-maybe}
 
-**Explanation**
+#### Explanation {€explanation-1}
 
 I recommend not to worry about a declared data structure in an ERD sense. Initially.
 
@@ -51,13 +51,13 @@ There is an implicit contract about structure that your application inherently u
 
 Further data constraints like mandatory or type and value constraints should only be applied where required for data integrity reasons.
 
-**Example**
+#### Example {#example-1}
 
 The above example of using a `lastModified` Date property on for example "blog post" node, really does not mean that there is a need for a special nodetype. I would definitely use `nt:unstructured` for my blog post nodes at least initially. Since in my blogging application all I am going to do is to display the lastModified date anyway (possibly "order by" it) I barely care if it is a Date at all. Since I implicitly trust my blog-writing application to put a "date" there anyway, there really is no need to declare the presence of a `lastModified` date in the form a of nodetype.
 
-#### Rule #2: Drive the content hierarchy, don't let it happen. {#rule-drive-the-content-hierarchy-don-t-let-it-happen}
+### Rule #2: Drive the content hierarchy, don't let it happen. {#rule-drive-the-content-hierarchy-don-t-let-it-happen}
 
-**Explanation**
+#### Explanation {€explanation-2}
 
 The content hierarchy is a very valuable asset. So don't just let it happen, design it. If you don't have a "good", human-readable name for a node, that's probably something that you should reconsider. Arbitrary numbers are hardly ever a "good name".
 
@@ -73,7 +73,7 @@ Personally I prefer hierarchy conventions over the nodetyping system in a lot of
 >
 >See [How much data can CRX handle?](https://helpx.adobe.com/experience-manager/kb/CrxLimitation.html) for more information.
 
-**Example**
+#### Example {#example-2}
 
 I would model a simple blogging system as follows. Please note that initially I don't even care about the respective nodetypes that I use at this point.
 
@@ -93,9 +93,9 @@ What may be unexpected initially is why I wouldn't store the "comments" with the
 
 Using the above content model I can easily allow the "anonymous" user to "create" comments, but keep the anonymous user on a read-only basis for the rest of the workspace.
 
-#### Rule #3: Workspaces are for clone(), merge() and update(). {#rule-workspaces-are-for-clone-merge-and-update}
+### Rule #3: Workspaces are for clone(), merge() and update(). {#rule-workspaces-are-for-clone-merge-and-update}
 
-**Explanation**
+#### Explanation {€explanation-3}
 
 If you don't use `clone()`, `merge()` or `update()` methods in your application a single workspace is probably the way to go.
 
@@ -111,7 +111,7 @@ Workspaces should not be used for access control. Visibility of content for a pa
 
 Workspaces are the boundary for references and query.
 
-**Example**
+#### Example {#example-3}
 
 Use workspaces for things like:
 
@@ -124,9 +124,9 @@ Do not use workspaces for things like:
 * distinct content for different target audiences like public, private, local, ...
 * mail-inboxes for different users
 
-#### Rule #4: Beware of Same Name Siblings. {#rule-beware-of-same-name-siblings}
+### Rule #4: Beware of Same Name Siblings. {#rule-beware-of-same-name-siblings}
 
-**Explanation**
+#### Explanation {€explanation-4}
 
 While Same Name Siblings (SNS) have been introduced into the spec to allow compatibility with data structures that are designed for and expressed through XML and therefore are extremely valuable to JCR, SNS come with a substantial overhead and complexity for the repository.
 
@@ -134,7 +134,7 @@ Any path into the content repository that contains an SNS in one of its path seg
 
 For import of XML or interaction with existing XML SNS maybe necessary and useful but I have never used SNS, and never will in my "green field" data models.
 
-**Example**
+#### Example {#example-4}
 
 Use
 
@@ -150,15 +150,15 @@ instead of
 /content/blog[1]/post[2]
 ```
 
-#### Rule #5: References considered harmful. {#rule-references-considered-harmful}
+### Rule #5: References considered harmful. {#rule-references-considered-harmful}
 
-**Explanation**
+#### Explanation {€explanation-5}
 
 References imply referential integrity. I find it important to understand that references do not just add additional cost for the repository managing the referential integrity, but they also are costly from a content flexibility perspective.
 
 Personally I make sure I only ever use references when I really cannot deal with a dangling reference and otherwise use a path, a name or a string UUID to refer to another node.
 
-**Example**
+#### Example {#example-5}
 
 Let's assume I allow "references" from a document (a) to another document (b). If I model this relation using reference properties this means that the two documents are linked on a repository level. I cannot export/import document (a) individually, since the reference property's target may not exist. Other operations like merge, update, restore or clone are affected as well.
 
@@ -166,9 +166,9 @@ So I would either model those references as "weak-references" (in JCR v1.0 this 
 
 I think there are use cases where a system really can't work if a reference is dangling, but I just can't come up with a good "real" yet simple example from my direct experience.
 
-#### Rule #6: Files are files. {#rule-files-are-files}
+### Rule #6: Files are files. {#rule-files-are-files}
 
-**Explanation**
+#### Explanation {€explanation-6}
 
 If a content model exposes something that even remotely *smells* like a file or a folder I try to use (or extend from) `nt:file`, `nt:folder` and `nt:resource`.
 
@@ -178,7 +178,7 @@ I think as good rule of thumb one could use the following: If you need to store 
 
 If you need to add meta information for your resource, let's say an "author" or a "description" property, extend `nt:resource` not the `nt:file`. I rarely extend nt:file and frequently extend `nt:resource`.
 
-**Example**
+#### Example {#example-6}
 
 Let's assume that someone would like to upload an image to a blog entry at:
 
@@ -196,9 +196,9 @@ While there certainly are good use cases to use just a binary property (let's sa
 /content/myblog/posts/iphone_shipping/attachments/front.jpg/jcr:content [nt:resource]
 ```
 
-#### Rule #7: IDs are evil. {#rule-ids-are-evil}
+### Rule #7: IDs are evil. {#rule-ids-are-evil}
 
-**Explanation**
+#### Explanation {€explanation-7}
 
 In relational databases IDs are a necessary means to express relations, so people tend to use them in content models as well. Mostly for the wrong reasons through.
 
@@ -212,7 +212,7 @@ More importantly, it is **mix**:referenceable which means that it can be applied
 
 So let's say just because you would like to be able to potentially reference a node of type "Document" does not mean that your "Document" nodetype has to extend from mix:referenceable in a static fashion since it can be added to any instance of the "Document" dynamically.
 
-**Example**
+#### Example {#example-7}
 
 Use:
 
