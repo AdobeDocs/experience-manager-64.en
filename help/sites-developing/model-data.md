@@ -37,7 +37,7 @@ I would like to start filling this void by expressing my personal opinions on ho
 
 ### Rule #1: Data first, structure later. Maybe. {#rule-data-first-structure-later-maybe}
 
-#### Explanation {€explanation-1}
+#### Explanation {#explanation-1}
 
 I recommend not to worry about a declared data structure in an ERD sense. Initially.
 
@@ -57,7 +57,7 @@ The above example of using a `lastModified` Date property on for example "blog p
 
 ### Rule #2: Drive the content hierarchy, don't let it happen. {#rule-drive-the-content-hierarchy-don-t-let-it-happen}
 
-#### Explanation {€explanation-2}
+#### Explanation {#explanation-2}
 
 The content hierarchy is a very valuable asset. So don't just let it happen, design it. If you don't have a "good", human-readable name for a node, that's probably something that you should reconsider. Arbitrary numbers are hardly ever a "good name".
 
@@ -95,7 +95,7 @@ Using the above content model I can easily allow the "anonymous" user to "create
 
 ### Rule #3: Workspaces are for clone(), merge() and update(). {#rule-workspaces-are-for-clone-merge-and-update}
 
-#### Explanation {€explanation-3}
+#### Explanation {#explanation-3}
 
 If you don't use `clone()`, `merge()` or `update()` methods in your application a single workspace is probably the way to go.
 
@@ -126,7 +126,7 @@ Do not use workspaces for things like:
 
 ### Rule #4: Beware of Same Name Siblings. {#rule-beware-of-same-name-siblings}
 
-#### Explanation {€explanation-4}
+#### Explanation {#explanation-4}
 
 While Same Name Siblings (SNS) have been introduced into the spec to allow compatibility with data structures that are designed for and expressed through XML and therefore are extremely valuable to JCR, SNS come with a substantial overhead and complexity for the repository.
 
@@ -152,7 +152,7 @@ instead of
 
 ### Rule #5: References considered harmful. {#rule-references-considered-harmful}
 
-#### Explanation {€explanation-5}
+#### Explanation {#explanation-5}
 
 References imply referential integrity. I find it important to understand that references do not just add additional cost for the repository managing the referential integrity, but they also are costly from a content flexibility perspective.
 
@@ -168,7 +168,7 @@ I think there are use cases where a system really can't work if a reference is d
 
 ### Rule #6: Files are files. {#rule-files-are-files}
 
-#### Explanation {€explanation-6}
+#### Explanation {#explanation-6}
 
 If a content model exposes something that even remotely *smells* like a file or a folder I try to use (or extend from) `nt:file`, `nt:folder` and `nt:resource`.
 
@@ -198,7 +198,7 @@ While there certainly are good use cases to use just a binary property (let's sa
 
 ### Rule #7: IDs are evil. {#rule-ids-are-evil}
 
-#### Explanation {€explanation-7}
+#### Explanation {#explanation-7}
 
 In relational databases IDs are a necessary means to express relations, so people tend to use them in content models as well. Mostly for the wrong reasons through.
 
