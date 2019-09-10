@@ -69,7 +69,7 @@ The following image displays various AEM Form server configurations and their co
 
     >[!NOTE]
     >
-    > Adobe recommends to use a 3rd party data store to save final processed data instead of using the repository of pubish instance.
+    > Adobe recommends to use a 3rd party data store to save final processed data instead of using the repository of publish instance.
 
 * **Storage and post-processing of correspondence data arriving from a Publish instance:** AEM workflows perform the optional post-processing of the corresponding letter definitions. These workflows can save the final processed data into a suitable external data stores.  
 
