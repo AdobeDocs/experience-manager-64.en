@@ -65,7 +65,7 @@ Adobe Illustrator's file format is a variant of PDF. The main differences, in th
 * Adobe Illustrator documents consist of a single page with multiple layers. Each layer is extracted as a PNG sub-asset under the main Illustrator asset.
 * PDF documents consist of one or more pages. Each page is extracted as a single page PDF sub-asset under the main multi-page PDF document.
 
-The sub-assets are created by the `Create Sub Asset process` component within the overall `DAM Update Asset` workflow. To see this process component within the workflow, tap **[!UICONTROL Tools &gt; Workflow &gt; Models &gt; DAM Update Asset &gt; Edit]**.
+The sub-assets are created by the `Create Sub Asset process` component within the overall `DAM Update Asset` workflow. To see this process component within the workflow, tap **[!UICONTROL Tools > Workflow > Models > DAM Update Asset > Edit]**.
 
 See also [Viewing pages of a multi-page file](/help/assets/managing-linked-subassets.md#view-pages-of-a-multi-page-file).  
   
