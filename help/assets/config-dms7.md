@@ -583,13 +583,13 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 #### Customizing asset filters for replication {#customizing-asset-filters-for-replication}
 
 1. In AEM, tap the AEM logo to access the global navigation console and tap the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL General &gt; CRXDE Lite]**.
-1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
+1. In the left folder tree, navigate to `/etc/replication/agents.author/publish/jcr:content/damRenditionFilters` to review the filters.
 
    ![chlimage_1-2](assets/chlimage_1-2.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
-   In the left rail, expand **[!UICONTROL content > dam > <`locate_your_asset`&gt; &gt; jcr:content &gt; metadata]**, and then in the table, locate **[!UICONTROL dc:format]**.
+   In the left rail, expand **[!UICONTROL content > dam > <`locate_your_asset`> > jcr:content > metadata]**, and then in the table, locate **[!UICONTROL dc:format]**.
 
    The following graphic is an example of an asset's path to dc:format.
 
