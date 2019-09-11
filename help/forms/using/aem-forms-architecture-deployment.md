@@ -65,7 +65,12 @@ The following image displays various AEM Form server configurations and their co
 **Processing:** An instance of AEM Forms running in Author run mode with no users assigned to the forms-manager group. You can deploy AEM Forms on JEE or AEM Forms on OSGi as a processing instance. The users are not assigned to ensure that form authoring and management activities are not performed on the Processing instance and occur only on the Author instance. A Processing instance enables the following functionalities:
 
 * **Processing of raw form data arriving from a Publish instance:** This is achieved primarily on a Processing instance via AEM workflows which trigger when the data arrives. The workflows can use the Form Data Model step provided out-of-the-box to archive the data or document to a suitable data store.
-* **Secure storage of form data**: Processing provides a behind-the-firewall repository for raw form data which is isolated from users. Neither form designers on the Author instance nor end users on the Publish instance can access this repository. It also serves as a secure repository for the final processed data, if the customer chooses not to use a separate third-party data store.
+* **Secure storage of form data**: Processing provides a behind-the-firewall repository for raw form data which is isolated from users. Neither form designers on the Author instance nor end users on the Publish instance can access this repository. 
+
+    >[!NOTE]
+    >
+    > Adobe recommends to use a 3rd party data store to save final processed data instead of using the repository of publish instance.
+
 * **Storage and post-processing of correspondence data arriving from a Publish instance:** AEM workflows perform the optional post-processing of the corresponding letter definitions. These workflows can save the final processed data into a suitable external data stores.  
 
 * **HTML Workspace hosting**: A processing instance hosts the frontend for HTML Workspace. HTML workspace provides the UI for associated task/group assignment for review and approval processes.

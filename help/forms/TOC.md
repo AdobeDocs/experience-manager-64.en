@@ -20,7 +20,7 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Tutorial: Create your first adaptive form](using/create-your-first-adaptive-form.md)
     + [Tutorial: Create an adaptive form](using/create-adaptive-form.md)
     + [Tutorial: Create form data model](using/create-form-data-model.md)
-    + [Tutorial: Create form data model](using/apply-rules-to-adaptive-form-fields.md)
+    + [Tutorial: Apply rules to adaptive form fields l](using/apply-rules-to-adaptive-form-fields.md)
     + [Tutorial: Style your adpative form](using/style-your-adaptive-form.md)
   + Tutorial: Create your First Interactive Communication {#create-first-interactive-communication}
     + [Tutorial: Create your first Interactive Communication](using/create-your-first-interactive-communication.md)
