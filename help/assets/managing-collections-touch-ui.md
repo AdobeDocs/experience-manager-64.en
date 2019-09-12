@@ -206,17 +206,13 @@ Within a collection, AEM Asset search is restricted to assets (and their tags an
 You can edit collection settings, such as title and description, or to add members to a collection.
 
 1. Select a collection, and tap/click the **[!UICONTROL Settings]** icon in the toolbar. Alternatively, use the **[!UICONTROL Settings]** quick action from the collection thumbnail.
-1. Modify the collection settings in the **[!UICONTROL Collection Settings]** page. For example, modify the collection title, descriptions, members, and permissions as discussed in [Adding Collections](#creating-a-collection).   
+1. Modify the collection settings in the **[!UICONTROL Collection Settings]** page. For example, modify the collection title, descriptions, members, and permissions as discussed in [Adding Collections](#creating-a-collection).
 
-1. Tap/click **[!UICONTROL Save]** to save the changes.
-
-   ![chlimage_1-115](assets/chlimage_1-115.png)
+1. To save the changes, tap/click **[!UICONTROL Save]**.
 
 ## Deleting a collection {#deleting-a-collection}
 
 1. From the Collections console, select one or more collections and tap/click the **[!UICONTROL Delete]** icon in the toolbar.
-
-   ![chlimage_1-116](assets/chlimage_1-116.png)
 
 1. In the dialog, tap/click **[!UICONTROL Delete]** to confirm the delete action.
 

@@ -34,7 +34,7 @@ The following are the Export/Download options. Dynamic renditions are unique to 
 
 The option renditions option is available if the asset has any renditions. The subassets option is available if the asset includes subassets.
 
-When you select a folder to download, the complete asset hierarchy under the folder is downloaded. To include each asset you download (including assets in child folders nested under the parent folder) in an individual folder, select **[UICONTROL Create separate folder for each asset]**.
+When you select a folder to download, the complete asset hierarchy under the folder is downloaded. To include each asset you download (including assets in child folders nested under the parent folder) in an individual folder, select **[!UICONTROL Create separate folder for each asset]**.
 
 ## Enable asset download servlet {#enable-asset-download-servlet}
 
@@ -44,7 +44,7 @@ To allow downloading assets from your DAM, say when using something like Asset S
 
 1. Create a folder with a naming convention that targets the publish runmode, that is `config.publish`:
 `/apps/<your-app-name>/config.publish`
-See [UICONTROL Run Modes] for more information on defining configuration properties for a run mode.
+See [!UICONTROL Run Modes] for more information on defining configuration properties for a run mode.
 1. In the config folder, create a new file of type `nt:file` named `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet.config`.
 1. Populate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet.config` with the following. Sets a maximum size (in bytes) for the download as value of `asset.download.prezip.maxcontentsize`. The below sample configures the maximum size of the ZIP download to not exceed 100 kB.
 
@@ -61,7 +61,7 @@ The `Asset Download Servlet` can be disabled on an AEM Publish instances by upda
 
    ```/0100 { /type "deny" /url "*.assetdownload.zip/assets.zip*" }```
 
-1. You can manually disable the OSGi component on a Publish instance, by navigating to the OSGi Console at `<aem-host>/system/console/components`. Locate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet` and click **[UICONTROL Disable]**.
+1. You can manually disable the OSGi component on a Publish instance, by navigating to the OSGi Console at `<aem-host>/system/console/components`. Locate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet` and click **[!UICONTROL Disable]**.
 
 >[!MORELIKETHIS]
 >

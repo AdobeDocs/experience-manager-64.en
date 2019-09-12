@@ -96,7 +96,7 @@ Perform the following steps to change the publishing schedule:
 
 1. Restart the AEM Forms server instance.
 
-![processdatapublisherservice](assets/processdatapublisherservice.png) 
+![processdatapublisherservice](assets/processdatapublisherservice.png)
 
 ### ProcessDataStorage service {#processdatastorage-service}
 
@@ -134,7 +134,7 @@ The ReportConfiguration service is used by Process Reporting for configuring the
 #### To configure the ReportingConfiguration service {#to-configure-the-reportingconfiguration-service}
 
 1. Log in to **Configuration Manager** with CRX administrator credentials. The default URL of Configuration Manager is `https://[*server*]:[*port*]/lc/system/console/configMgr`
-1. Open the **ReportingConfiguration** service. 
+1. Open the **ReportingConfiguration** service.
 1. **Number of Records**
 
    When running a query on the repository, a result can potentially contain a large number of records. If the resultset is large, the query execution can consume server resources.
@@ -249,11 +249,11 @@ The tree view consists of the following top-level items:
 
 **Reports:** This item contains the out-of-the-box reports that ship with Process Reporting.
 
-For details on the pre-defined reports, see [Pre-defined Reports in Process Reporting](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md).
+For details on the pre-defined reports, see [Pre-defined Reports in Process Reporting](pre-defined-reports-in-process-reporting.md).
 
 **Adhoc Queries:** This item contains options to perform filter-based search for processes and tasks.
 
-For details on ad-hoc queries, see [Ad-hoc Queries in Process Reporting](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md).
+For details on ad-hoc queries, see [Ad-hoc Queries in Process Reporting](adhoc-queries-in-process-reporting.md).
 
 **Custom:** The Custom node displays custom reports that you create.
 

@@ -488,20 +488,33 @@ The default primary route for HTML to PDF conversion is Webkit. To change the co
 
 ### Set up certificates for Reader extension and encryption service {#set-up-certificates-for-reader-extension-and-encryption-service}
 
-The DocAssurance service can apply usage rights to PDF documents. To apply usage rights to PDF documents, configure the certificates:
+The DocAssurance service can apply usage rights to PDF documents. To apply usage rights to PDF documents, configure the certificates.
 
-1. Log in to AEM Author instance as an administrator. Go to **[!UICONTROL Tools &gt; Operations &gt; Security &gt; Users]**.
-1. Click the **[!UICONTROL name]** field of the user account. The **[!UICONTROL Edit User Settings]** page opens. On the AEM Author instance, certificates reside in a KeyStore. If you have not created a KeyStore earlier, click **[!UICONTROL Create KeyStore]** and set a new password for the KeyStore. If the server already contains a KeyStore, skip this step.
-1. On the **[!UICONTROL Edit User Settings]** page, click **[!UICONTROL Manage KeyStore]**. On KeyStore Management dialog, expand the **[!UICONTROL Add Private Key from Key Store file]** option and provide an alias. The alias is used to perform the Reader Extensions operation. 
+Before setting up the certificates, ensure that you have a:
+
+* Certificate file (.pfx).
+
+* Private Key password provided with the certificate.
+
+* Private Key Alias. You can execute the Java keytool command to view the Private Key Alias:
+keytool -list -v -keystore [keystore-file] -storetype pkcs12
+
+* Keystore file password. If you are using Adobe's Reader Extensions certificate, the Keystore file password is always the same as Private Key password.
+
+Perform the following steps to configure the certificates:
+
+1. Log in to AEM Author instance as an administrator. Go to **[!UICONTROL Tools &gt; Security &gt; Users]**.
+1. Click the **[!UICONTROL name]** field of the user account. The **[!UICONTROL Edit User Settings]** page opens. On the AEM Author instance, certificates reside in a KeyStore. If you have not created a KeyStore earlier, click **[!UICONTROL Create KeyStore]** and set a new password for the KeyStore. If the server already contains a KeyStore, skip this step.  If you are using Adobe's Reader Extensions certificate, the Keystore file password is always the same as Private Key password.
+1. On the **[!UICONTROL Edit User Settings]** page, select the **[!UICONTROL KeyStore]** tab. Expand the **[!UICONTROL Add Private Key from Key Store file]** option and provide an alias. The alias is used to perform the Reader Extensions operation. 
 1. To upload the certificate file, click **[!UICONTROL Select Key Store File]** and upload a &lt;filename&gt;.pfx file.
 
    Add the **[!UICONTROL Key Store Password]**, **[!UICONTROL Private Key Password]**, and **[!UICONTROL Private Key Alias]** that is associated with the certificate to the respective fields. Click **[!UICONTROL Submit]**.
 
    >[!NOTE]
    >
-   >* To determine the **[!UICONTROL Private Key Alias]** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
-   >* In the **[!UICONTROL Key Store Password]** and **[!UICONTROL Private Key Password]** fields, specify the password provided with the certificate file.
-   >* In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
+      >* In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential.
+
+1. Click **[!UICONTROL Save & Close]** on the **[!UICONTROL Edit User Settings]** page.
 
 ### Enable AES-256 {#enable-aes}
 

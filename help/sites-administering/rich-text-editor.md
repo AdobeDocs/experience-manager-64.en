@@ -431,8 +431,20 @@ The above options can be used to extend and customize your own RTE. For example,
 
 ## Known limitations {#known-limitations}
 
-* **Use only in AEM components** - RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](../sites-developing/page-properties-views.md) and [Scaffolding](../sites-authoring/scaffolding.md) on Touch-enabled UI.
+AEM RTE capability has the following limitations:
 
-* **Does not work with Hybrid devices** - AEM does not work on [Hybrid devices](../release-notes/known-issues.md)
+* RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](../sites-developing/page-properties-views.md) and [Scaffolding](../sites-authoring/scaffolding.md) on Touch-enabled UI.
 
-* **Configuration node cannot be named config** - Do not name the RTE configuration node `config`. Otherwise, the RTE configuration takes effect for only the administrators and not for the users in the group `content-author`.
+* AEM does not work on [Hybrid devices](../release-notes/known-issues.md).
+
+* Do not name the RTE configuration node `config`. Otherwise, the RTE configuration takes effect for only the administrators and not for the users in the group `content-author`.
+
+* RTE does not support inline frame or iframe to embed content.
+
+>[!MORELIKETHIS]
+>
+>* [Configure RTE plug-ins](configure-rich-text-editor-plug-ins.md)
+>* [Use Rich Text Editor for authoring](../sites-authoring/rich-text-editor.md)
+>* [Configure RTE for accessible sites](rte-accessible-content.md)
+>* [Touch UI and Classic UI feature parity](../release-notes/touch-ui-features-status.md)
+>* [Tutorial sample to create composite multifield component](https://experience-aem.blogspot.com/2019/05/aem-65-touchui-composite-multifield-with-coral3-rte-rich-text.html)

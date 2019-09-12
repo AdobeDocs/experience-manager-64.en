@@ -342,3 +342,11 @@ Avoid using AEM desktop app to manage assets directly in the network share of AE
 Neither AEM desktop app nor AEM to Creative Cloud folders sharing  were  built to support migration of assets from existing systems or large volumes of assets stored on servers. Due to the large volumes of assets to be ingested, and additional requirements around metadata mapping, transformation, and ingestion, migrations should be handled using different tools and approaches.
 
 Please refer to the [Migration Guide](assets-migration-guide.md) to see how to plan and execute asset migrations.
+
+>[!MORELIKETHIS]
+>
+>* [Adobe Asset Link](https://helpx.adobe.com/in/enterprise/using/adobe-asset-link.html)
+>* [AEM desktop app best practices](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/archive/best-practices-for-v1.html)
+>* [AEM Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal.html)
+>* [AEM and Adobe Stock integration](aem-assets-adobe-stock.md)
+>* [AEM to Creative Cloud folder sharing best practices](aem-cc-folder-sharing-best-practices.md)

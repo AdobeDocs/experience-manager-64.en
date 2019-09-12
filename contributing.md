@@ -1,53 +1,63 @@
-# Contributing
+# Contributing to Adobe Experience Manager Documentation
 
-Thanks for choosing to contribute!
+Thank you for choosing to contribute to Adobe Experience Manager documentation! We welcome content contributions from our community and Adobe employees outside the documentation teams.
 
-The following are a set of guidelines to follow when contributing to this project.
+This file describes how you can contribute as well as points out the guidelines to follow when making your contributions.
 
-## Code Of Conduct
+## Adobe Open Source Code of Conduct
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
-you are expected to uphold this code. Please report unacceptable behavior to
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md). By contributing to AEM documentation, you agree to adhere to this code of conduct. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Contributor Guide Documentation
+## Guidelines for Contributing to AEM Documentation
 
-See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+While we welcome any contributions to improve AEM documentation, we do ask that contributions adhere to certain guidelines and standards. Please review the [Guidelines for Contributing to AEM Documentation](guidelines.md) for more information.
 
-## Have A Question?
+## How to Contribute
 
-Start by filing an issue. The existing committers on this project work to reach
-consensus around project direction and issue solutions within issue threads
-(when appropriate).
+How you contribute depends on who you are and the sort of changes you'd like to contribute:
+
+### Create an Issue
+
+Do you have a suggestion, observation about the current docs, or question the way something is described? File an issue. Issues are also excellent if you have something to contirbute, but don't feel comfortable editing the docs or making a pull request yourself.
+
+### Minor Changes
+
+To submit minor updates, click the **Edit** link in an article, which opens the source article in GitHub. Use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
+
+Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
+
+### Major Changes or New Articles from Community Members
+
+If you're part of the Adobe community and want to create an article or submit major changes, click the **Issues** tab in the GitHub repository to submit an issue. This submission starts a conversation with the documentation team. You will need to work with the writer (or other Adobe employee) to publish new content.
+
+If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). You must complete the online form before we can review your pull request.
+
+### Major Changes from Adobe Employees
+
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution, and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`.
+
+Adobe employees from other parts of the Adobe world should use the public repo for minor updates.
 
 ## Contributor License Agreement
 
-All third-party contributions to this project must be accompanied by a signed contributor
-license agreement. This gives Adobe permission to redistribute your contributions
-as part of the project. [Sign our CLA](https://opensource.adobe.com/cla.html). You
-only need to submit an Adobe CLA one time, so if you have submitted one previously,
-you are good to go!
+All third-party contributions to this project must be accompanied by a signed contributor license agreement. This gives Adobe permission to redistribute your contributions as part of the project. [Sign our CLA.](https://opensource.adobe.com/cla.html) You only need to submit an Adobe CLA one time, so if you have submitted one previously, you are good to go!
 
-## Code Reviews
+## Tools and Setup
 
-All submissions should come in the form of pull requests and need to be reviewed
-by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-<!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
-submitting a pull request!
--->
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for an overview of how to use the GitHub authoring platform.
 
-## From Contributor To Committer
+## How to Use Markdown to Format Your Topic
 
-We love contributions from our community! If you'd like to go a step beyond contributor
-and become a committer with full write access and a say in the project, you must
-be invited to the project. The existing committers employ an internal nomination
-process that must reach lazy consensus (silence is approval) before invitations
-are issued. If you feel you are qualified and want to get more deeply involved,
-feel free to reach out to existing committers to have a conversation about that.
+All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
 
-## Security Issues
+* [Markdown basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-Security issues shouldn't be reported on this issue tracker. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+## Labels
+
+In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
+
+* **Change sent to author**: The author has been notified of the pending pull request.
+* **ready-to-merge**: Ready for review by our pull request review team.

@@ -74,31 +74,27 @@ Select `Create Member` in order to create a user in the publish environment.
 
 Most fields are optional fields the member can later fill-in on their profile.
 
-* **[!UICONTROL ID]** 
-  (*required*) The authorizable ID is the member's sign-in ID.  
-
-  By default, the ID is set to the value of the required email address.  
-
-  *Once created, the ID may not be modified.*
+* **[!UICONTROL ID]**
+(*required*) The authorizable ID is the member's sign-in ID.
+By default, the ID is set to the value of the required email address.
+*Once created, the ID may not be modified.*
 
 * **[!UICONTROL Email Address]** 
-  (*required*) The member's email address.  
-
-  The member may change their email address when updating their profile. 
-
-  If the ID defaulted to the email address, the ID will *not* change when the email address is changed.
+(*required*) The member's email address.
+The member may change their email address when updating their profile.I
+If the ID defaulted to the email address, the ID will *not* change when the email address is changed.
 
 * **[!UICONTROL Password]** 
-  (*required*) The sign-in password.
+(*required*) The sign-in password.
 
 * **[!UICONTROL Retype Password]** 
-  (*required*) Re-enter the password for verification.
+(*required*) Re-enter the password for verification.
 
 * **[!UICONTROL Add Member to Sites]** 
-  (*optional*) Select from existing community sites in order to add the member to the community site's members group.
+(*optional*) Select from existing community sites in order to add the member to the community site's members group.
 
 * **[!UICONTROL Add Member to Groups]** 
-  (*optional*) Select from existing member groups in order to add the member to that group.
+ (*optional*) Select from existing member groups in order to add the member to that group.
 
 * Select **[!UICONTROL Save]**
 
@@ -107,28 +103,21 @@ Most fields are optional fields the member can later fill-in on their profile.
 Under Account settings it is possible for a community administrator to
 
 * **[!UICONTROL Status]**
+  * Banned  
+    A member is unable to sign in, preventing them from viewing pages or participating in activities which require sign in. They may still anonymously visit an open community site.
 
-    * Banned  
-
-      A member is unable to sign in, preventing them from viewing pages or participating in activities which require sign in. They may still anonymously visit an open community site.
-
-    * Not Banned  
-
-      A member has full access to the community site.
+  * Not Banned
+    A member has full access to the community site.
 
   Default is `Not Banned`.
 
-* **[!UICONTROL Contribution Limits]** 
-
-  If checked, the member's ability to post content is limited. 
-
-  Default depends on the configuration of contribution limits.  
-
+* **[!UICONTROL Contribution Limits]**
+  If checked, the member's ability to post content is limited.
+  Default depends on the configuration of contribution limits.
   See [Member Contribution Limits](limits.md).
 
 * **[!UICONTROL Change Password]** 
-
-  A link that is present when modifying an existing member. Provides the ability for a community administrator to reset a password for a member.
+A link that is present when modifying an existing member. Provides the ability for a community administrator to reset a password for a member.
 
 ### GENERAL - Photo {#general-photo}
 
@@ -178,9 +167,8 @@ Select `Add Group` in order to create a group in the publish environment.
 The required fields for creating a new publish-side member group are:
 
 * **[!UICONTROL ID]** 
-  (*required*) The group unique ID.  
-
-  *Once created, the ID may not be modified.*
+(*required*) The group unique ID.
+*Once created, the ID may not be modified.*
 
 * **[!UICONTROL Name]** 
   (*optional*) The display name for the group. 

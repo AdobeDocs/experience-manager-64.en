@@ -12,8 +12,6 @@ discoiquuid: 6320c632-c7ec-4e56-9d12-cd27e3e9306e
 
 # Pre-defined reports in Process Reporting {#pre-defined-reports-in-process-reporting}
 
-## Pre-defined Reports in Process Reporting {#pre-defined-reports-in-process-reporting}
-
 AEM Forms Process Reporting ships with the following *out-of-the-box* reports:
 
 * **[Long Running Processes](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#p-long-running-processes-p)**: A report of all AEM Forms processes that took more than a specified time to complete  
