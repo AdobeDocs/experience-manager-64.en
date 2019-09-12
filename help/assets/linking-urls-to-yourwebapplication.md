@@ -110,13 +110,13 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
           For example, `https://aem.com/is/content/adobe/image.gif`.
 
-    * click **[!UICONTROL Asset &gt; Dynamic Renditions]**, then tap a dynamic rendition of the static asset and copy the URL.  
+    * click **[!UICONTROL Asset > Dynamic Renditions]**, then tap a dynamic rendition of the static asset and copy the URL.  
 
       Change the copied URL to use `is/content` in the path instead of `is/image/`.
 
 ## Obtaining a video URL for a published video rendition {#obtaining-a-video-url-for-a-published-video-rendition}
 
-1. In AEM, navigate to **[!UICONTROL Tools &gt; Deployment &gt; Cloud &gt; Cloud Services]**.
+1. In AEM, navigate to **[!UICONTROL Tools > Deployment > Cloud > Cloud Services]**.
 1. On the **[!UICONTROL Cloud Services]** page, scroll down to the **[!UICONTROL Dynamic Media Cloud Services]** heading, then tap **[!UICONTROL Show Configurations]**.
 1. Under **[!UICONTROL Available Configurations]**, tap the name of the configuration you want.  
 
@@ -132,7 +132,7 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
    For example, if the registration ID was `87654321|MyCompany`, the customer name would be `MyCompany`.
 
-1. Near the upper-left corner of the page, tap **[!UICONTROL Cloud Services**, then tap the AEM icon and navigate to **[!UICONTROL General &gt; CRXDE Lite]**.
+1. Near the upper-left corner of the page, tap **[!UICONTROL Cloud Services**, then tap the AEM icon and navigate to **[!UICONTROL General > CRXDE Lite]**.
 1. Copy down the entire video rendition path from the JCR (Java Content Repository).
 
    For example, the video's rendition path may appear similar to the following:
@@ -153,7 +153,7 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
 ## Obtaining a video URL for adaptive streaming (HLS) {#obtaining-a-video-url-for-adaptive-streaming-hls}
 
-1. In AEM, navigate to **[!UICONTROL Tools &gt; Deployment &gt; Cloud &gt; Cloud Services]**.
+1. In AEM, navigate to **[!UICONTROL Tools > Deployment > Cloud > Cloud Services]**.
 1. On the **[!UICONTROL Cloud Services]** page, scroll down to the **[!UICONTROL Dynamic Media Cloud Services]** heading, then tap **[!UICONTROL Show Configurations]**.
 1. Under **[!UICONTROL Available Configurations]**, tap the name of the configuration you want.
 1. On the **[!UICONTROL Dynamic Media Cloud Services Settings]** page, do the following:

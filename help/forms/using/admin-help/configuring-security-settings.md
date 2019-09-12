@@ -110,7 +110,7 @@ These options configure the permissions:
 
 You can delete a security setting if it is no longer required. However, preconfigured security settings cannot be deleted.
 
-1. In administration console, click **[!UICONTROL Services &gt; PDF Generator &gt; Security Settings]**.
+1. In administration console, click **[!UICONTROL Services > PDF Generator > Security Settings]**.
 1. Select the check box beside the setting to delete. You can select multiple settings.
 1. Click **[!UICONTROL Delete]** and on the **[!UICONTROL Delete Confirmation]** page, click **[!UICONTROL Delete]** again.
 

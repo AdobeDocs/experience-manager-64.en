@@ -70,7 +70,7 @@ To customize Correspondence Management to allow your users to download a flat PD
 
 1. Under the newly created items folder, add a node for the custom button/action in a particular asset (Example: downloadFlatPDF) using the following steps:
 
-    1. Right-click the **[!UICONTROL items]** folder and select **[!UICONTROL Create** &gt; **Create Node]**.  
+    1. Right-click the **[!UICONTROL items]** folder and select **[!UICONTROL Create** > **Create Node]**.  
 
     1. Ensure that the Create Node dialog has the following values and click **[!UICONTROL OK]**:
 
@@ -149,7 +149,7 @@ To customize Correspondence Management to allow your users to download a flat PD
 
 1. In the js folder, create a file named formaction.js with the code for action handling of the button using the following steps:
 
-    1. Right-click the **[!UICONTROL js]** folder at the following path and select **[!UICONTROL Create &gt; Create File]**:
+    1. Right-click the **[!UICONTROL js]** folder at the following path and select **[!UICONTROL Create > Create File]**:
 
        `/apps/fd/cm/ma/gui/components/admin/clientlibs/admin/js`
 
@@ -241,7 +241,7 @@ To customize Correspondence Management to allow your users to download a flat PD
 
 1. Under the newly created items node, add a node for the custom button/action in a particular asset (Example: letterpdfdownloader) using the following steps:
 
-    1. Right click the items folder and select **[!UICONTROL Create &gt; Create Node]**.  
+    1. Right click the items folder and select **[!UICONTROL Create > Create Node]**.  
 
     1. Ensure that the Create Node dialog has the following values and click **[!UICONTROL OK]**:
 
@@ -261,7 +261,7 @@ To customize Correspondence Management to allow your users to download a flat PD
 
    /apps/fd/cm/ma/gui/components/admin/clientlibs/admin
 
-    1. Right-click the **[!UICONTROL admin]** folder at the following path and select **[!UICONTROL Create &gt; Create File]**:
+    1. Right-click the **[!UICONTROL admin]** folder at the following path and select **[!UICONTROL Create > Create File]**:
 
        /apps/fd/cm/ma/gui/components/admin/clientlibs/admin
 
@@ -345,7 +345,7 @@ After you have added custom functionality to download flat PDF of your letters, 
 
 1. Go to `https://[server]:[port]/[ContextPath]/projects.html` and log in.  
 
-1. Select **[!UICONTROL Forms &gt; Letters]**. Correspondence Management lists the letters available in the system.
+1. Select **[!UICONTROL Forms > Letters]**. Correspondence Management lists the letters available in the system.
 1. Click **[!UICONTROL Select]** and then click a letter to select it.
 1. Select **More &gt; &lt;Download Flat PDF&gt; **(The custom functionality created using the instructions this article). Download Letter as PDF dialog appears.
 

@@ -99,7 +99,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 **To create Dynamic Media image profiles**:
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
 1. Tap **[!UICONTROL Create]** to add a new image profile.
 1. Enter a profile name, and values for unsharp mask, crop, or swatch, or both.
 
@@ -113,7 +113,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 ## Editing or deleting Dynamic Media image profiles {#editing-or-deleting-image-profiles}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
 1. Select the image profile you want to edit or remove. To edit it, select **[!UICONTROL Edit Image Processing Profile]**. To remove it, select **[!UICONTROL Delete Image Processing Profile]**.
 
    ![chlimage_1-254](assets/chlimage_1-254.png)
@@ -140,7 +140,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 #### Applying Dynamic Media image profiles to folders from Profiles user interface {#applying-image-profiles-to-folders-from-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
 1. Select the image profile that you want to apply to a folder or multiple folders.
 
    ![chlimage_1-255](assets/chlimage_1-255.png)
@@ -261,7 +261,7 @@ You can remove an image profile from a folder from within the **[!UICONTROL Tool
 
 ### Removing Dynamic Media image profiles from folders by way of Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
 1. Select the image profile that you want to remove from a folder or multiple folders.
 1. Tap **[!UICONTROL Remove Processing Profile from Folder(s)]** and select the folder or multiple folders you want use to remove the profile from and tap **[!UICONTROL Remove]**.
 

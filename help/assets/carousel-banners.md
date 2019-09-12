@@ -183,7 +183,7 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
 
 **To create a Carousel Set**:
 
-1. In Assets, navigate to the folder where you want to create the Carousel Set and tap **[!UICONTROL Create &gt; Carousel Set]**.
+1. In Assets, navigate to the folder where you want to create the Carousel Set and tap **[!UICONTROL Create > Carousel Set]**.
 1. On the **[!UICONTROL Carousel Banner Editor]** page, tap **[!UICONTROL Tap to open Asset Selector]** to select the image for your first slide.
 
    On the **[!UICONTROL Carousel Banner Editor]** page, do either one of the following:

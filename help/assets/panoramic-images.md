@@ -41,7 +41,7 @@ For the Panoramic Image viewer to work properly within AEM, you must synchronize
 
 1. [Log into your instance of Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.  
 
-1. Near the upper-right corner of the page, click **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**.
+1. Near the upper-right corner of the page, click **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**.
 1. On the **[!UICONTROL Image Server Publish]** page, from the **[!UICONTROL Publish Context]** drop-down menu near the top, select **[!UICONTROL Image Serving]**.  
 
 1. On the same **[!UICONTROL Image Server Publish]** page, locate the heading **[!UICONTROL Request Attributes]**.
@@ -72,7 +72,7 @@ If you dropped an image into the **[!UICONTROL Panoramic Media]** component in y
 
 * For an *Invalid lock* on the asset or *Parsing error* displayed on the page, check **[!UICONTROL Request Obfuscation Mode]** and **[!UICONTROL Request Locking Mode]** to ensure they are disabled.
 * For a tainted canvas error, setup a **[!UICONTROL Rule Set Definition File Path and Invalidate CTN]** for the previous requests for the image asset.
-* If image quality becomes very low after an image request with sizing above the supported limit, check that the **[!UICONTROL JPEG Encoding Attributes &gt; Quality]** setting is not empty. A typical setting for the **[!UICONTROL Quality]** field is `95`. You can find the setting on the **[!UICONTROL Image Server Publish]** page. To access the page, see [Configuring Dynamic Media Classic](#configuring-dynamic-media-classic-scene).
+* If image quality becomes very low after an image request with sizing above the supported limit, check that the **[!UICONTROL JPEG Encoding Attributes > Quality]** setting is not empty. A typical setting for the **[!UICONTROL Quality]** field is `95`. You can find the setting on the **[!UICONTROL Image Server Publish]** page. To access the page, see [Configuring Dynamic Media Classic](#configuring-dynamic-media-classic-scene).
 
 ## Previewing Panoramic Images {#previewing-panoramic-images}
 

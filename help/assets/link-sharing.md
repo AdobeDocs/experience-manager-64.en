@@ -129,7 +129,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 
 ## Configure Day CQ mail service {#configure-day-cq-mail-service}
 
-1. Click or tap the AEM logo, and then navigate to **[!UICONTROL Tools &gt; Operations &gt;  Web Console]**.
+1. Click or tap the AEM logo, and then navigate to **[!UICONTROL Tools > Operations >  Web Console]**.
 1. From the list of services, locate **[!UICONTROL Day CQ Mail Service]**.
 1. Click the **[!UICONTROL Edit]** icon beside the service, and configure the following parameters for **[!UICONTROL Day CQ Mail Service]** with the details mentioned against their names:
 
@@ -146,7 +146,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 
 When you download assets from the link shared using the Link Sharing feature, AEM compresses the entire asset hierarchy from the repository and then returns the asset in a ZIP file. However, in the absence of limits to the amount of data that can be compressed in a ZIP file, huge amounts of data is subjected to compression, which causes out of memory errors in JVM. To secure the system from a potential denial of service attack due to this situation, configure the maximum size using the **[!UICONTROL Max Content Size (uncompressed)]** parameter for Day CQ DAM Adhoc Asset Share Proxy Servlet in Configuration Manager. If uncompressed size of the asset exceeds the configured value, asset download requests are rejected. The default value is 100 MB.
 
-1. Click/Tap the AEM logo and then go to **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
+1. Click/Tap the AEM logo and then go to **[!UICONTROL Tools > Operations > Web Console]**.
 1. From the web console, locate the **[!UICONTROL Day CQ DAM Adhoc Asset Share Proxy Servlet]** configuration.
 1. Open the **[!UICONTROL Day CQ DAM Adhoc Asset Share Proxy Servlet]** configuration in edit mode, and modify the value of the **[!UICONTROL Max Content Size (uncompressed)]** parameter.
 
