@@ -15,7 +15,7 @@ discoiquuid: 533ad3f7-3905-420d-8bb9-8ae8f14fb28e
 
 Use the Configure Advanced System Attributes page to modify certain settings in the configuration file without the need to export, edit, and import the file. (See [Importing and exporting the configuration file](/help/forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
 
-1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Configuration &gt; Configure Advanced System Attributes]**.
+1. In administration console, click **[!UICONTROL Settings > User Management > Configuration > Configure Advanced System Attributes]**.
 1. (Optional) Change any of the following session attributes:
 
    **Session Timeout Limit (Minutes):** The amount of time, in minutes, before a user is automatically logged out of the system. By default, AEM forms components such as Workbench time out after two hours, regardless of activity or inactivity, and the user must log in again. Valid values are `1` to `1440`. The default value is `120` (2 hours). This setting updates the `SAML/Producer/assertionValidityInMinutes` entry key in the configuration file.

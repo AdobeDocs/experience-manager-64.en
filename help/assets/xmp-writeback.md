@@ -46,7 +46,7 @@ To let the XMP Writeback feature propagate metadata changes to select renditions
 
 For the XMP Writeback feature to propagate metadata to the rendition thumbnails 140.100.png and 319.319.png, perform these steps.
 
-1. Tap/click the AEM logo, and then navigate to **[!UICONTROL Tools &gt; Workflow &gt; Models]**.
+1. Tap/click the AEM logo, and then navigate to **[!UICONTROL Tools > Workflow > Models]**.
 1. From the Models page, open the **DAM Metadata Writeback** workflow model.
 1. In the **[!UICONTROL DAM Metadata Writeback]** properties page, open the **[!UICONTROL XMP Writeback Process]** step.
 1. In the Step Properties dialog box, tap/click the **[!UICONTROL Process]** tab.

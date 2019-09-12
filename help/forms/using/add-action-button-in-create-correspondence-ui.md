@@ -209,7 +209,7 @@ Handling the action/button on clicking action/button includes logic for:
 
 1. In the js folder, create a file named ccrcustomization.js with the code for action handling of the button using the following steps:
 
-    1. Right-click the **[!UICONTROL js]** folder at the following path and select **[!UICONTROL Create &gt; Create File]**:
+    1. Right-click the **[!UICONTROL js]** folder at the following path and select **[!UICONTROL Create > Create File]**:
 
        `/apps/fd/cm/ccr/gui/components/admin/clientlibs/ccrui/js`
 
@@ -356,7 +356,7 @@ The required LiveCycle process that enables email service process.
 
 1. Log in as Administrator to Livecycle Server adminui at `https:/[lc server]/:[lc port]/adminui`.  
 
-1. Navigate to **[!UICONTROL Home &gt; Services &gt; Applications and Services &gt; Application Management]**.  
+1. Navigate to **[!UICONTROL Home > Services > Applications and Services > Application Management]**.  
 
 1. If SendLetterForReview application is already present, skip the remaining steps in this procedure, otherwise continue to the next steps.
 
@@ -391,7 +391,7 @@ In this scenario, for Correspondence Management to be able to send an email, con
 
 1. Log in with Admin credentials to Livecycle Server adminui at `https:/[lc server]:[lc port]/adminui`.  
 
-1. Navigate to **[!UICONTROL Home &gt; Services &gt; Applications and Services &gt; Service Management]**.  
+1. Navigate to **[!UICONTROL Home > Services > Applications and Services > Service Management]**.  
 
 1. Locate and click **[!UICONTROL EmailService]**.  
 
@@ -427,7 +427,7 @@ For more information, see [Connecting AEM Forms with Adobe LiveCycle](/help/form
 DSCSample.jar file uses the renderLetter API to render letter as PDF bytes from XML data that C give as input. For more Information about the renderLetter and other APIs, see [Letter Render Service](https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html).
 
 1. Start Workbench and log in.
-1. Select **[!UICONTROL Window &gt; Show Views &gt; Components]**. The Components view gets added to Workbench ES2.  
+1. Select **[!UICONTROL Window > Show Views > Components]**. The Components view gets added to Workbench ES2.  
 
 1. Right-click **[!UICONTROL Components]** and select **[!UICONTROL Install Component]**.  
 

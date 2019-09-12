@@ -33,7 +33,7 @@ Collections are of the following types, based on the way they collate assets:
 To open the **Collections** console:
 
 1. Tap or click the AEM logo.
-1. From the Navigation page, go to **[!UICONTROL Assets &gt;  Collections]**. The **[!UICONTROL Collections]** console is displayed.
+1. From the Navigation page, go to **[!UICONTROL Assets >  Collections]**. The **[!UICONTROL Collections]** console is displayed.
 
 ## Creating a collection {#creating-a-collection}
 

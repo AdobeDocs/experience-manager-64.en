@@ -90,7 +90,7 @@ Once this option is selected for a folder, AEM runs a training workflow automati
 
 You can train the Smart Content Service whenever required from the Workflow console.
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Workflow &gt; Models]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
 1. From the **[!UICONTROL Workflow Models]** page, select the **[!UICONTROL Smart Tags Training]** workflow and then tap/click **[!UICONTROL Start Workflow]** from the toolbar.
 1. In the **[!UICONTROL Run Workflow]** dialog, browse to the payload folder that includes the tagged assets for training the service.
 1. Specify a title for the workflow and a add a comment. Then, tap/click **[!UICONTROL Run]**. The assets and tags are submitted for training.
@@ -105,7 +105,7 @@ You can train the Smart Content Service whenever required from the Workflow cons
 
 To check whether the Smart Content Service is trained on your tags in the training set of assets, review the training workflow report from the Reports console.
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Assets &gt; Reports]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Assets > Reports]**.
 1. In the **[!UICONTROL Asset Reports]** page, tap/click **[!UICONTROL Create]**.
 1. Select the **[!UICONTROL Smart Tags Training]** report, and then tap/click **[!UICONTROL Next]** from the toolbar.
 1. Specify a title and description for the report. Under **[!UICONTROL Schedule Report]**, leave the **[!UICONTROL Now]** option selected. If you want to schedule the report for later, select **[!UICONTROL Later]** and specify a date and time. Then, tap/click **[!UICONTROL Create]** from the toolbar.
@@ -147,7 +147,7 @@ You can trigger the tagging workflow from the following to instantly tag your as
 
 #### Tagging assets from the Workflow console {#tagging-assets-from-the-workflow-console}
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Workflow &gt; Models]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
 1. From the **[!UICONTROL Workflow Models]** page, select the **[!UICONTROL DAM Smart Tags Assets]** workflow and then tap/click **[!UICONTROL Start Workflow]** from the toolbar.
 
    ![dam_smart_tag_workflow](assets/dam_smart_tag_workflow.png)

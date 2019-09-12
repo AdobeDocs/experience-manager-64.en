@@ -25,8 +25,8 @@ To associate a reviewer group with a form, edit the metadata schema of adaptive 
 
 To edit metadata schema:
 
-1. In the author mode, under Experience Manager, click **[!UICONTROL Tools** &gt; **Assets** &gt; **Metadata Schemas]**.
-1. In the Schema Forms page, navigate to **[!UICONTROL Forms** &gt; **Forms Authored in AEM]**.
+1. In the author mode, under Experience Manager, click **[!UICONTROL Tools > Assets > Metadata Schemas]**.
+1. In the Schema Forms page, navigate to **[!UICONTROL Forms > Forms Authored in AEM]**.
 
    The url of the page is:
 
@@ -52,13 +52,13 @@ User groups let you associate different sets of submission reviewers with differ
 
 Before you perform the following steps, see [Prerequisite](/help/forms/using/adding-reviewers-form.md#prerequisite).
 
-To create a group and add members to it, navigate to **[!UICONTROL Tools** &gt; **Operations** &gt; **Security** &gt; **Groups]**.  
+To create a group and add members to it, navigate to **[!UICONTROL Tools > Operations > Security > Groups]**.  
 For more information, see [User Administration and Services](/help/sites-administering/security.md).   
 Ensure that you add the group you create as a member of the out-of-the-box user group: **forms-submission-reviewers**. This user group is shipped with AEM Forms, and it ensures that users are added as submission reviewers.
 
 To associate user groups with an adaptive form:
 
-1. In the authoring mode, navigate to **[!UICONTROL Forms** &gt; **Forms & Documents]**.
+1. In the authoring mode, navigate to **[!UICONTROL Forms > Forms & Documents]**.
 1. Use the **[!UICONTROL Select]** option to select an adaptive form, and click **[!UICONTROL View Properties]**. 
 1. In the Properties window of the form, click **[!UICONTROL Edit]**, and then click **[!UICONTROL ADVANCED]**. 
 1. Enter the group in the submission reviewer group field, and click **[!UICONTROL Done]**.

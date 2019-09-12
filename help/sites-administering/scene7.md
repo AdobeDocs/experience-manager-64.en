@@ -297,7 +297,7 @@ A cloud configuration defines the mapping between a Dynamic Media Classic folder
 
 To configure AEM to be able to publish assets to Dynamic Media Classic:
 
-1. Tap the AEM icon and navigate to **[!UICONTROL Deployment &gt; Cloud Services]** to access Adobe Dynamic Media Classic.  
+1. Tap the AEM icon and navigate to **[!UICONTROL Deployment > Cloud Services]** to access Adobe Dynamic Media Classic.  
 
 1. Tap **[!UICONTROL Configure now]**.
 
@@ -341,7 +341,7 @@ You must enable the Adobe CQ Dynamic Media Classic Dam Listener, which is disabl
 
 To enable it:
 
-1. Tap the [!UICONTROL Tools] icon, then navigate to **[!UICONTROL Operations &gt; Web Console]**. The Web console opens.
+1. Tap the [!UICONTROL Tools] icon, then navigate to **[!UICONTROL Operations > Web Console]**. The Web console opens.
 1. Navigate to **[!UICONTROL Adobe CQ Dynamic Media Classic Dam Listener]** and select the **[!UICONTROL Enabled]** check box. 
 
    ![chlimage_1-299](assets/chlimage_1-299.png)
@@ -376,7 +376,7 @@ When an asset is added into AEM Assets, it is automatically uploaded and publish
 
 To configure autouploading from AEM Assets:
 
-1. Tap the AEM icon and navigate to **[!UICONTROL Deployment &gt; Cloud Services]** then, under the Dynamic Media heading, under Available Configurations, tap **[!UICONTROL dms7 (Dynamic Media]**)
+1. Tap the AEM icon and navigate to **[!UICONTROL Deployment > Cloud Services]** then, under the Dynamic Media heading, under Available Configurations, tap **[!UICONTROL dms7 (Dynamic Media]**)
 1. Tap the **[!UICONTROL Advanced]** tab, select the **[!UICONTROL Enable Automatic Upload]** check box, then tap **[!UICONTROL OK]**. You now need to configure the DAM Asset workflow to include uploading to Dynamic Media Classic.
 
    >[!NOTE]
@@ -439,7 +439,7 @@ If you use this feature, please note the following limitations:
 
 To set the state of assets pushed to Dynamic Media Classic as unpublished:
 
-1. Tap the AEM icon and navigate to **[!UICONTROL Deployment &gt; Cloud Services]**, tap **[!UICONTROL Dynamic Media Classic]**, and select your configuration in Dynamic Media Classic.
+1. Tap the AEM icon and navigate to **[!UICONTROL Deployment > Cloud Services]**, tap **[!UICONTROL Dynamic Media Classic]**, and select your configuration in Dynamic Media Classic.
 1. Tap the **[!UICONTROL Advanced]** tab. In the **[!UICONTROL Enable Secure View]** drop-down menu, select **[!UICONTROL Upon AEM Publish Activation]** to push assets to Dynamic Media Classic without publishing. (By default, this value is set to **[!UICONTROL Immediately]**, where Dynamic Media Classic assets are published immediately.)
 
    See [Dynamic Media Classic documentation](https://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html) for more information on testing assets before making them public.
@@ -497,7 +497,7 @@ Only one Dynamic Media Classic configuration can be marked as default at a given
 
 To configure the default configuration:
 
-1. Tap the AEM icon and navigate to **[!UICONTROL Deployment &gt; Cloud Services]**, tap **[!UICONTROL Dynamic Media Classic]**, and select your configuration in Dynamic Media Classic.
+1. Tap the AEM icon and navigate to **[!UICONTROL Deployment > Cloud Services]**, tap **[!UICONTROL Dynamic Media Classic]**, and select your configuration in Dynamic Media Classic.
 1. Tap **[!UICONTROL Edit]** to open the configuration.  
 
 1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Default Configuration]** check box to make this the default company and root path that appears in the Dynamic Media Classic content browser.
@@ -514,7 +514,7 @@ You can configure the folder that assets are uploaded to in Dynamic Media Classi
 
 To configure the adhoc folder:
 
-1. Tap the AEM icon and navigate to **[!UICONTROL Deployment &gt; Cloud Services]**, tap **[!UICONTROL Dynamic Media Classic]**, and select your configuration in Dynamic Media Classic.
+1. Tap the AEM icon and navigate to **[!UICONTROL Deployment > Cloud Services]**, tap **[!UICONTROL Dynamic Media Classic]**, and select your configuration in Dynamic Media Classic.
 1. Tap **[!UICONTROL Edit]** to open the configuration.  
 
 1. Tap the **[!UICONTROL Advanced]** tab. In the **[!UICONTROL Ad-hoc Folder]** field, you can modify the **Ad-hoc** folder. By default, it is the **name_of_the_company/CQ5_adhoc**.
@@ -533,7 +533,7 @@ Specifically, you configure the accepted file format by MIME type in the OSGi (O
 
 **To enable MIME type-based assets:**
 
-1. Tap the AEM icon and navigate to **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
+1. Tap the AEM icon and navigate to **[!UICONTROL Tools > Operations > Web Console]**.
 1. In the Adobe Experience Manager Web Console Configuration panel, on the **[!UICONTROL OSGi]** menu, tap **[!UICONTROL Configuration]**.
 1. Under the Name column, find and tap **[!UICONTROL Adobe CQ Dynamic Media Classic Asset MIME type Service]** to edit the configuration.
 1. In the Mime Type Mapping area, tap any plus sign (+) to add a MIME type.
