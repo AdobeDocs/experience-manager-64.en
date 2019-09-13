@@ -37,8 +37,8 @@ When organizing a collection of assets, for example, all *Nature* images, you ca
 ![When you create a new asset folder, it is instantly displayed in the folder list.](assets/create-asset-folder.png)
 
 The following (space-separated list of) characters are not supported:
-* asset file name must not contain  * / : [ \ \ ] | # % { } ? &
-* asset folder name must not contain  * / : [ \ \ ] | # % { } ? \" . ^ ; + & \t
+* asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
+* asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 
 ## Uploading assets {#uploading-assets}
 
@@ -131,6 +131,14 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    If you cancel the upload operation before the files are uploaded, AEM Assets stops uploading the current file and refreshes the content. However, files that are already uploaded are not deleted.
+
+### Serial uploads {#serial-uploads}
+
+Uploading numerous assets in bulk consumes significant I/O resources, which may adversely impact the performance of your AEM Assets instance. In particular, if you have a slow internet connection, the time to upload drastically increases due to a spike in disk I/O. Moreover, your web browser may introduce additional restrictions to the number of POST requests AEM Assets can handle for concurrent asset uploads. As a result, the upload operation fails or terminate prematurely. In other words, AEM assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
+
+To overcome this situation, AEM Assets ingests one asset at a time (serial upload) during a bulk upload operation, instead of the concurrently ingesting all the assets.
+
+Serial uploading of assets is enabled by default. To disable the feature and allow concurrent uploading, overlay the `fileupload` node in CRXDe and set the value of the `parallelUploads` property to `true`.
 
 ### Uploading assets using FTP {#uploading-assets-using-ftp}
 
@@ -594,6 +602,24 @@ If you upload numerous assets, I/O calls to the AEM server increases drastically
 
 Streaming upload is disabled for AEM running on JEE server with servlet-api version less than 3.1.
 
+### Extract ZIP archive containing assets {#extract-zip-archive-containing-assets}
+
+You can upload ZIP archives just like any other supported asset. The same file name rules apply to ZIP files. AEM allows you to extract a ZIP archive to a DAM location.
+
+Select one ZIP archive at a time, click **[!UICONTROL Extract Archive]**, and select a destination folder. Select an option to handle conflicts, if any. If the assets in the ZIP file already exist in the destination folder, you can select one of these options: skip extraction, replace existing files, keep both assets by renaming, or create new version.
+
+After the extraction is complete, AEM notifies you in the notification area. While AEM extracts the ZIP, you can go back to your work without interuppting the extraction.
+
+![Notification of ZIP extraction](assets/zip_extract_notification.png)
+
+Some limitations of the feature are:
+
+* If a folder by the same name exists at the destination, the assets from the ZIP file are extracted in the existing folder.
+
+* If you cancel the extraction, the already extracted assets are not deleted.
+
+* You cannot select two ZIP files at the same time and extract them. You can only extract one ZIP archive at a time.
+
 ## Previewing assets {#previewing-assets}
 
 See also [Previewing Dynamic Media Assets.](previewing-assets.md)
@@ -725,8 +751,8 @@ The other properties and metadata information is retained. A partial copy is not
    >[!NOTE]
    >
    >The following (space-separated list of) characters are not supported:
-   >* asset file name must not contain  * / : [ \ \ ] | # % { } ? &
-   >* asset folder name must not contain  * / : [ \ \ ] | # % { } ? \" . ^ ; + & \t
+   >* asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
+   >* asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 
 1. On the **[!UICONTROL Select Destination]** page, do one of the following:
 
@@ -748,7 +774,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. You can add or remove renditions for an asset, except the original. Navigate to the location of the asset for which you want to add or remove renditions.  
 
-1. Tap the asset to open its asset page. 
+1. Tap the asset to open its asset page.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
 
@@ -965,7 +991,7 @@ Image editing is supported for files that have the following formats:
 
 For some components, **[!UICONTROL Full Screen]** mode has additional options available.
 
-To edit a `.TXT` file, set **[!UICONTROL Day CQ Link Externalizer]** from within Configuration Manager.
+To edit a TXT file, set **[!UICONTROL Day CQ Link Externalizer]** from within Configuration Manager.
 
 You can also add image maps using the image editor. For details, see [Adding Image Maps](image-maps.md).
 
@@ -1014,7 +1040,7 @@ The **[!UICONTROL Timeline]** lets you view various events for a selected item, 
 
 In the [Collections console](managing-collections-touch-ui.md#navigating-the-collections-console), the **[!UICONTROL Show All]** list provides options to view comments and workflows only. Moreover, the timeline is displayed only for top-level collections that are listed in the console. It is not displayed if you navigate inside any of the collections.
 
-**[!UICONTROL Timeline]** contains several [options specific to content fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
+**[!UICONTROL Timeline]** contains several [options specific to Content Fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md#aem-6-4-2-0) or later.
 
 **To use Timeline**:
 
@@ -1033,7 +1059,7 @@ Annotations are comments or explanatory notes added to images or videos. Annotat
 
 Video annotations are only supported on browsers with HTML5-compatible video formats. Video formats that AEM Assets supports depend on the browser.
 
-For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
+For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md#aem-6-4-2-0) or later.
 
 You can add multiple annotations, before you save them.
 
@@ -1059,11 +1085,11 @@ You can also add annotations to a collection. However, if a collection contains 
 
    >[!NOTE]
    >
-   >For a non-administrator user, suggestions appear only if the user has Read permissions at `/home` in CRX-De.
+   >For a non-administrator user, suggestions appear only if the user has Read permissions at `/home` in CRXDE.
 
    ![chlimage_1-31](assets/chlimage_1-31.png)
 
-1. After adding the annotation, tap **[!UICONTROL Add]** to save it. A notification for the annotation is sent to Aaron. 
+1. After adding the annotation, tap **[!UICONTROL Add]** to save it. A notification for the annotation is sent to Aaron.
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
@@ -1184,7 +1210,7 @@ The following are scenarios where you create versions:
 
 * You modify an image in a different application and upload to AEM Assets. A version of the image is created so your original image is not overwritten.
 * You edit the metadata of an asset.
-* You use AEM Desktop App to checkout an existing asset and save your changes. A new version is created everytime the asset is saved.
+* You use AEM desktop app to checkout an existing asset and save your changes. A new version is created everytime the asset is saved.
 
 You can also enable automatic versioning through a workflow. When you create a version for an asset, the metadata and renditions are saved along with the version. Renditions are rendered alternatives of the same images, for example, a PNG rendition of an uploaded JPEG file.
 

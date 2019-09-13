@@ -30,8 +30,8 @@ Whenever AEM Assets processes an operation asynchronously, you receive a notific
 
 To view the status of the asynchronous operations in detail, navigate to the **Async Job Status** page.
 
-1. Tap/click the AEM logo, and go **[!UICONTROL ]****Assets** &gt; **Jobs**.
-1. In the **[!UICONTROL ]****Async Job Status** page, review the details of the operations.
+1. Tap/click the AEM logo, and go **[!UICONTROL Assets > Jobs]**.
+1. In the **[!UICONTROL Async Job Status]** page, review the details of the operations.
 
    ![job_status](assets/job_status.png)
 
@@ -69,7 +69,7 @@ AEM Assets runs a purge job everyday at 1:00 AM to delete completed asynchronous
 
 You can modify the schedule for the purge job and the duration for which details of completed jobs are retained before they are deleted. You can also configure the maximum number of completed jobs for which details are retained at any point of time.
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Operations > Web Console]**.
 1. Open the **[!UICONTROL Adobe CQ DAM Async Jobs Purge Scheduled]** job.
 1. Specify the threshold number of days after which completed jobs are deleted and the maximum number of jobs for which details are retained in history.
 
@@ -85,7 +85,7 @@ You can configure the threshold number of assets or references for AEM Assets to
 
 If the number of assets or folders to be deleted exceed the threshold number, the delete operation is performed asynchronously.
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Operations > Web Console]**.
 1. From the web console, open the **[!UICONTROL Async Delete Operation Job Processing]** configuration.
 1. In the **[!UICONTROL Threshold number of assets]** box, specify the threshold number of assets/folders for asynchronous processing of delete operations.
 
@@ -97,7 +97,7 @@ If the number of assets or folders to be deleted exceed the threshold number, th
 
 If the number of assets/folders or references to be moved exceed the threshold number, the move operation is performed asynchronously.
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Operations > Web Console]**.
 1. From the web console, open the **[!UICONTROL Async Move Operation Job Processing]** configuration.
 1. In the **[!UICONTROL Threshold number of assets/references]** box, specify the threshold number of assets/folders or references for asynchronous processing of move operations.
 

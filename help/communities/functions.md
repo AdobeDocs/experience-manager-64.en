@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: cc993b71-e2f2-48e7-ad4e-469cb5ce2dc1
 ---
 
-# Community Functions{#community-functions}
+# Community Functions {#community-functions}
 
 The type of features expected from a community experience are well known. Community features are available as community functions. Essentially, they are one or more pages pre-wired to implement a community feature which requires more than simply adding a component to a page in author mode. They are the building blocks used to define the structure of a [community site template](sites.md) from which community sites are [created](sites-console.md).
 
@@ -27,7 +27,7 @@ A number of community functions are immediately available as seen in the communi
 
 In the author environment, to reach the community functions console
 
-* from global navigation: **Tools, Communities, Community Functions**
+* From global navigation: **[!UICONTROL Tools > Communities > Community Functions]**
 
 ![chlimage_1-379](assets/chlimage_1-379.png)
 
@@ -39,7 +39,7 @@ A community site template provides the structure for a community site including 
 
 ### Title and URL Settings {#title-and-url-settings}
 
-**Title **and **URL **are properties common to all community functions.
+**Title** and **URL** are properties common to all community functions.
 
 When a community function is added to a community site template or added when [modifying](sites-console.md#modifying-site-properties) the structure of a community site, the function's dialog opens so that the Title and URL may be configured.
 
@@ -47,10 +47,10 @@ When a community function is added to a community site template or added when [m
 
 ![chlimage_1-380](assets/chlimage_1-380.png)
 
-* **Title** 
+* **[!UICONTROL Title]** 
   (*required*) The text which appears in the menu of features for the site
 
-* **URL** 
+* **[!UICONTROL URL]** 
   (*required*) The name used to generate the URI. The name must conform to the [naming conventions](../../help/sites-developing/naming-conventions.md) imposed by AEM and JCR.
 
 For example, using the site created from following the [Getting Started](getting-started.md) tutorial, if
@@ -58,9 +58,7 @@ For example, using the site created from following the [Getting Started](getting
 * Title = Web Page
 * URL = page
 
-then the URL to the page is http://localhost:4503/content/sites/engage/en/**page**.html
-
-and the menu link for the page appears as:
+Then the URL to the page is http://local_host:4503/content/sites/engage/en/page.html and the menu link for the page appears as:
 
 ![chlimage_1-381](assets/chlimage_1-381.png)
 
@@ -74,15 +72,15 @@ When added to a template, the following dialog opens:
 
 ![chlimage_1-382](assets/chlimage_1-382.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Show "My Activities" view** 
-  if checked, the Activities page will include a tab which filters activities based on those generated within the community by the current member. Default is checked.
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Show "My Activities" view]** 
+  If checked, the Activities page will include a tab which filters activities based on those generated within the community by the current member. Default is checked.
 
-* **Show "All Activities" view** 
-  if checked, the Activities page will include a tab which includes all activities generated within the community to which the current member has access. Default is checked.
+* **[!UICONTROL Show "All Activities" view]** 
+  If checked, the Activities page will include a tab which includes all activities generated within the community to which the current member has access. Default is checked.
 
-* **Show "News Feed" view** 
-  if checked, the Activities page will include a tab which filters activities based on those the current member is following. Default is checked.
+* **[!UICONTROL Show "News Feed" view]** 
+  If checked, the Activities page will include a tab which filters activities based on those the current member is following. Default is checked.
 
 ### Assignments Function {#assignments-function}
 
@@ -100,18 +98,18 @@ When added to a template, the following dialog opens:
 
 ![chlimage_1-383](assets/chlimage_1-383.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Allow Privileged Members** 
-  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Allow Privileged Members]** 
+  If checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
 
-* **Allow File Uploads** 
-  if checked, the blog will include the ability for members to upload files. Default is checked.
+* **[!UICONTROL Allow File Uploads]** 
+  If checked, the blog will include the ability for members to upload files. Default is checked.
 
-* **Allow Threaded Replies** 
-  if not checked, the blog will allow replies (comments) to an article, but replies to comments are not allowed. Default is checked.
+* **[!UICONTROL Allow Threaded Replies]** 
+  If not checked, the blog will allow replies (comments) to an article, but replies to comments are not allowed. Default is checked.
 
-* **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
+* **[!UICONTROL Allow Featured Content]** 
+  If checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ### Calendar Function {#calendar-function}
 
@@ -121,21 +119,21 @@ When added to a template, the following dialog opens:
 
 ![chlimage_1-384](assets/chlimage_1-384.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Allow Pinning** 
-  if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Allow Pinning]** 
+  If checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
-* **Allow Privileged Members** 
-  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
+* **[!UICONTROL Allow Privileged Members]** 
+  If checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
 
-* **Allow File Uploads** 
-  if checked, the blog will include the ability for members to upload files. Default is checked.
+* **[!UICONTROL Allow File Uploads]** 
+  If checked, the blog will include the ability for members to upload files. Default is checked.
 
-* **Allow Threaded Replies** 
-  if not checked, the blog will allow replies (comments) to an article, but replies to comments are not allowed. Default is checked.
+* **[!UICONTROL Allow Threaded Replies]** 
+  If not checked, the blog will allow replies (comments) to an article, but replies to comments are not allowed. Default is checked.
 
-* **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
+* **[!UICONTROL Allow Featured Content]** 
+  If checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ### Catalog Function {#catalog-function}
 
@@ -147,8 +145,8 @@ When added to a template, the configuration allows specifying tag namespace(s) u
 
 ![catalogfunc](assets/catalogfunc.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Select All Namespaces**
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Select All Namespaces]**
 
   * The selected tag namespaces define which tags are selectable by visitors for filtering the list of enablement resources listed in the catalog.
   * If checked, all tag namespaces allowed for the community site are available. 
@@ -179,27 +177,27 @@ When added to a template, the following dialog opens:
 
 ![chlimage_1-385](assets/chlimage_1-385.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Allow Pinning** 
-  if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Allow Pinning]** 
+  If checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
-* **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
+* **[!UICONTROL Allow Privileged Members]** 
+  If checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
-* **Allow File Uploads** 
-  if checked, the forum will include the ability for members to upload files. Default is checked.
+* **[!UICONTROL Allow File Uploads]** 
+  If checked, the forum will include the ability for members to upload files. Default is checked.
 
-* **Allow Threaded Replies** 
-  if not checked, the forum will allow comments on a topic, but replies to those comments are not allowed. Default is checked.
+* **[!UICONTROL Allow Threaded Replies]** 
+  If not checked, the forum will allow comments on a topic, but replies to those comments are not allowed. Default is checked.
 
-* **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
+* **[!UICONTROL Allow Featured Content]** 
+  If checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ### Groups Function {#groups-function}
 
 >[!CAUTION]
 >
->The groups function must *not *be the *first nor the only* function in a site's structure or in a community site template.
+>The groups function must *not* be the *first nor the only* function in a site's structure or in a community site template.
 >
 >Any other function, such as the [page function](#page-function), must be included and listed first.
 
@@ -215,14 +213,14 @@ When added to a template, the following dialog opens:
 
 ![chlimage_1-386](assets/chlimage_1-386.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Select Group Templates** 
-  a pull-down menu that allows selection of one or more enabled group templates from which the future creator of a new community group (in the publish environment) may choose.
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Select Group Templates]** 
+  A pull-down menu that allows selection of one or more enabled group templates from which the future creator of a new community group (in the publish environment) may choose.
 
-* **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
+* **[!UICONTROL Allow Privileged Members]** 
+  If checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
-* **Allow Publish Creation** 
+* **[!UICONTROL Allow Publish Creation]** 
   If checked, it is possible for authorized community members to create a group in the publish environment. If unchecked, new groups (sub-communities) may only be created in the author environment from the Communities Sites' Groups console. 
 
   Default is `checked`.
@@ -235,18 +233,18 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 ![chlimage_1-387](assets/chlimage_1-387.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Allow Privileged Members]** 
+  If checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
-* **Allow File Uploads** 
-  if checked, the idea will include the ability for members to upload files. Default is checked.
+* **[!UICONTROL Allow File Uploads]** 
+  If checked, the idea will include the ability for members to upload files. Default is checked.
 
-* **Allow Threaded Replies** 
-  if not checked, the idea will allow replies (comments) to a topic, but replies to comments are not allowed. Default is checked.
+* **[!UICONTROL Allow Threaded Replies]** 
+  If not checked, the idea will allow replies (comments) to a topic, but replies to comments are not allowed. Default is checked.
 
-* **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
+* **[!UICONTROL Allow Featured Content]** 
+  If checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ### Leaderboard Function {#leaderboard-function}
 
@@ -258,18 +256,18 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 ![chlimage_1-388](assets/chlimage_1-388.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Display Badge** 
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Display Badge]** 
   If checked, a column for badge icons is included in the leaderboard. 
 
   Default is unchecked.
 
-* **Display Badge Name** 
+* **[!UICONTROL Display Badge Name]** 
   If checked, a column for the badge name is included in the leaderboard.  
 
   Default is unchecked.
 
-* **Display Avatar** 
+* **[!UICONTROL Display Avatar]** 
   If checked, the member's avatar image is included in the leaderboard, next to their name link to their member profile.  
   
   Default is unchecked.
@@ -288,21 +286,21 @@ When added to a template, the configuration allows restriction to privileged mem
 
 ![chlimage_1-389](assets/chlimage_1-389.png)
 
-* see [Title and URL Settings](#title-and-url-settings)
-* **Allow Pinning** 
-  if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
+* See [Title and URL Settings](#title-and-url-settings)
+* **[!UICONTROL Allow Pinning]** 
+  If checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
-* **Allow Privileged Members** 
-  if checked, the QnA forum will only allow privileged members to post questions by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
+* **[!UICONTROL Allow Privileged Members]** 
+  If checked, the QnA forum will only allow privileged members to post questions by allowing selection of a [privileged members group](users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
-* **Allow File Uploads** 
-  if checked, the QnA forum will include the ability for members to upload files. Default is checked.
+* **[!UICONTROL Allow File Uploads]** 
+  If checked, the QnA forum will include the ability for members to upload files. Default is checked.
 
-* **Allow Threaded Replies** 
-  if not checked, the QnA forum will allow for a comments (answers) to a posted question, but replies to answers are not allowed. Default is checked.
+* **[!UICONTROL Allow Threaded Replies]** 
+  If not checked, the QnA forum will allow for a comments (answers) to a posted question, but replies to answers are not allowed. Default is checked.
 
-* **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
+* **[!UICONTROL Allow Featured Content]** 
+  If checked, the idea is able to be identified as [featured content](featured.md). Default is checked.
 
 ## Create Community Function {#create-community-function}
 
@@ -316,14 +314,14 @@ The ability to create a community function is reached by selecting the `Create C
 
 On the Community Function Name panel, a name, description and whether the function is enabled or disabled are configured:
 
-* **Community Function Name ** 
-  the function name used for display and storage
+* **[!UICONTROL Community Function Name]** 
+  The function name used for display and storage
 
-* **Community Function Description ** 
-  the function description for display
+* **[!UICONTROL Community Function Description]** 
+  The function description for display
 
-* **Disabled/Enabled ** 
-  a toggle switch controlling whether the function is referenceable
+* **[!UICONTROL Disabled/Enabled]** 
+  A toggle switch controlling whether the function is referenceable
 
 ### AEM Blueprint {#aem-blueprint}
 

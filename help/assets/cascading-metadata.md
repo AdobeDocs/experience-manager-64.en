@@ -47,6 +47,10 @@ Irrespective of the asset type chosen, display the copyright information as a re
 
    ![add_tab](assets/add_tab.png)
 
+1. Add a Dropdown field for asset type. Specify a name and property path in the **[!UICONTROL Settings]** tab. Add an optional description.
+
+   ![asset_type_field](assets/asset_type_field.png)
+
 1. Key-values pairs are the options provided to a form-user. You can provide the key-value pairs either manually or from a JSON file.
 
     * To specify the values manually, select **[!UICONTROL Add Manually]**, and tap/click **[!UICONTROL Add Choice]** and specify the option text and value. For example, specify Video, PDF, Word, and Image asset types.
@@ -60,9 +64,9 @@ Irrespective of the asset type chosen, display the copyright information as a re
    >
    >When you add a JSON file, the key-value pairs are not displayed in the metadata schema editor but are available in the published form.
 
-1. Add a Dropdown field for asset type. Specify a name and property path in the **[!UICONTROL Settings]** tab. Add an optional description.
-
-   ![asset_type_field](assets/asset_type_field.png)
+   >[!NOTE]
+   >
+   >When adding choices, if you click the Dropdown field, the interface is distorted and the delete icon for the choices stops working. When adding the choices to the dropdown, do not click back on the dropdown till you save the changes. If you face this issue, save the schema and open it again to continue editing.
 
 1. (Optional) Add the other required fields. For example, format, codec, and duration for the asset type video.
 

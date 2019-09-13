@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: eb8fd2b3-0a31-425e-b0f1-38f09e1106df
 ---
 
-# Messaging Essentials{#messaging-essentials}
+# Messaging Essentials {#messaging-essentials}
 
 This page documents the details of working with using the Messaging component to include a messaging feature on a website.
 
@@ -70,7 +70,7 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td>see <a href="configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>See <a href="configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td><strong>admin configuration</strong></td> 
@@ -119,26 +119,26 @@ The following example is of an event handler which listens for the `message sent
 
 To try the server-side sample script, you will need a development environment and the ability to build an OSGi bundle.
 
-1. login as an administrator to ` [CRXDE|Lite](http://localhost:4502/crx/de)`
-1. create a `bundle node`in `/apps/engage/install` with arbitrary names, such as
+1. Login as an administrator to ` [CRXDE|Lite](http://localhost:4502/crx/de)`
+1. Create a `bundle node`in `/apps/engage/install` with arbitrary names, such as
 
-    * Symbolic Name: com.engage.media.social.messaging.MessagingNotification
-    * Name: Getting Started Tutorial Message Notificaton 
-    * Description: a sample service for sending an email notification to users when they receive a message
-    * Package: com.engage.media.social.messaging.notification
+    * **[!UICONTROL Symbolic Name]**: com.engage.media.social.messaging.MessagingNotification
+    * **[!UICONTROL Name]**: Getting Started Tutorial Message Notificaton 
+    * **[!UICONTROL Description]**: a sample service for sending an email notification to users when they receive a message
+    * **[!UICONTROL Package]**: `com.engage.media.social.messaging.notification`
 
-1. navigate to /apps/engage/install/com.engage.media.social.messaging.MessagingNotification/src/main/java/com/engage/media/social/messaging/notification
+1. Navigate to `/apps/engage/install/com.engage.media.social.messaging.MessagingNotification/src/main/java/com/engage/media/social/messaging/notification`
 
-    1. delete the Activator.java class automatically created
-    1. create class MessageEventHandler.java
-    1. copy/paste the code below into MessageEventHandler.java
+    1. Delete the `Activator.java` class automatically created
+    1. Create class `MessageEventHandler.java`
+    1. Copy/paste the code below into `MessageEventHandler.java`
 
-1. click **Save All**
-1. navigate to /apps/engage/install/com.engage.media.social.messaging.MessagingNotification/com.engage.media.social.messaging.MessagingNotification.bnd and add all the import statements as written in the MessageEventHandler.java code.
-1. build the bundle
-1. ensure `Day CQ Mail Service`OSGi service is configured
-1. login as one demo user and send email to another
-1. the recipient should receive an email regarding a new message
+1. Click **[!UICONTROL Save All]**
+1. Navigate to `/apps/engage/install/com.engage.media.social.messaging.MessagingNotification/com.engage.media.social.messaging.MessagingNotification.bnd` and add all the import statements as written in the `MessageEventHandler.java` code.
+1. Build the bundle
+1. Ensure `Day CQ Mail Service`OSGi service is configured
+1. Login as one demo user and send email to another
+1. The recipient should receive an email regarding a new message
 
 #### MessageEventHandler.java {#messageeventhandler-java}
 

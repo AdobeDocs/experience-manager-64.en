@@ -11,20 +11,20 @@ content-type: reference
 discoiquuid: bf182bb7-e305-45be-aadb-d71efd70f8cb
 ---
 
-# Author a New Community Site{#author-a-new-community-site}
+# Author a New Community Site {#author-a-new-community-site}
 
 ## Create a New Community Site {#create-a-new-community-site}
 
 Use the author instance to create a new community site
 
-* sign in with administrator privileges
-* from global navigation: **Navigation, Communities, Sites**
+* Sign in with administrator privileges
+* From global navigation: **[!UICONTROL Navigation > Communities > Sites]**
 
 The Communities Sites console provides a wizard to guide one through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
 
 To get started creating a new community site:
 
-* select the `Create`button
+* Select the `Create` button
 
 ![createcommunitysite](assets/createcommunitysite.png) 
 
@@ -34,25 +34,25 @@ To get started creating a new community site:
 
 On the [Site Template step](sites-console.md#step2013asitetemplate), enter a title, description, the name for the URL, and select a community site template, for example:
 
-* **Community Site Title**: `Getting Started Tutorial`
+* **[!UICONTROL Community Site Title]**: `Getting Started Tutorial`
 
-* **Community Site Description**: `A site for engaging with the community.`  
+* **[!UICONTROL Community Site Description]**: `A site for engaging with the community.`  
 
-* **Community Site Root**: (leave blank for default root `/content/sites`)  
+* **[!UICONTROL Community Site Root]**: (leave blank for default root `/content/sites`)  
 
-* **Cloud Configurations**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations. 
-* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.
+* **[!UICONTROL Cloud Configurations]**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations. 
+* **[!UICONTROL Community Site Base Language]**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../help/sites-administering/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.
 
-* **Community Site Name**: engage
+* **[!UICONTROL Community Site Name]**: engage
 
-    * double-check the name as it is not easily changed after the site is created
-    * the initial URL will be displayed underneath the Community Site Name
-    * for a valid URL, append a base language code + ".html"
-    * *for example*, http://localhost:4502/content/sites/ `engage/en.html`
+    * Double-check the name as it is not easily changed after the site is created
+    * The initial URL will be displayed underneath the Community Site Name
+    * For a valid URL, append a base language code + ".html"
+    * *For example*, http://localhost:4502/content/sites/ `engage/en.html`
 
-* **Template**: pull down to choose `Reference Site`
+* **[!UICONTROL Template]**: pull down to choose `Reference Site`
 
-Select **Next**
+Select **[!UICONTROL Next]**
 
 ### Step 2: Design {#step-design}
 
@@ -66,11 +66,11 @@ Select the desired style to apply to the template. When selected, the theme will
 
 #### COMMUNITY SITE BRANDING {#community-site-branding}
 
-(optional) Upload a banner image to display across the site pages. The banner is pinned to the left edge of the browser, between the community site header and menu (navigation links). The banner height is cropped to 120 pixels. There is no resizing of the banner to fit the width of the browser and 120 pixel height.
+(Optional) Upload a banner image to display across the site pages. The banner is pinned to the left edge of the browser, between the community site header and menu (navigation links). The banner height is cropped to 120 pixels. There is no resizing of the banner to fit the width of the browser and 120 pixel height.
 
 ![chlimage_1-353](assets/chlimage_1-353.png) ![chlimage_1-354](assets/chlimage_1-354.png)
 
-Select **Next**.
+Select **[!UICONTROL Next]**.
 
 ### Step 3: Settings {#step-settings}
 
@@ -82,11 +82,11 @@ Visit the [Getting Started with AEM Communities for Enablement](getting-started-
 
 Check all checkboxes for [User Management](sites-console.md#user-management)
 
-* to allow site visitors to self-register
-* to allow site visitors to vew the site without signing in
-* to allow members to send and receive messages from other community members
-* to allow signing-in with Facebook instead of registering and creating a profile
-* to allow signing-in with Twitter instead of registering and creating a profile
+* To allow site visitors to self-register
+* To allow site visitors to vew the site without signing in
+* To allow members to send and receive messages from other community members
+* To allow signing-in with Facebook instead of registering and creating a profile
+* To allow signing-in with Twitter instead of registering and creating a profile
 
 >[!NOTE]
 >
@@ -100,8 +100,8 @@ The tags which may be applied to community content are controlled by selecting A
 
 Finding namespaces is easy using type-ahead search. For example,
 
-* type 'tut'
-* select `Tutorial`
+* Type 'tut'
+* Select `Tutorial`
 
 ![chlimage_1-355](assets/chlimage_1-355.png) 
 
@@ -113,8 +113,8 @@ To let a community member (or group of members) experience the site as the commu
 
 For example,
 
-* type "q"
-* select [Quinn Harper](enablement-setup.md#publishcreateenablementmembers)
+* Type "q"
+* Select [Quinn Harper](enablement-setup.md#publishcreateenablementmembers)
 
 >[!NOTE]
 >
@@ -140,12 +140,12 @@ See [Analytics Configuration for Communities Features](analytics.md).
 
 The [Translation settings](sites-console.md#translation) specify the base language for the site as well as whether or not UGC may be translated and into which language, if so.
 
-* check **Allow Machine Translation**
-* leave default languages selected for translation by the default Machine Translation service
-* leave default translation provider and config
-* there's no need for a global store because there are no language copies
-* select **Translate entire page**
-* leave default persistence option
+* Check **[!UICONTROL Allow Machine Translation]**
+* Leave default languages selected for translation by the default Machine Translation service
+* Leave default translation provider and config
+* There's no need for a global store because there are no language copies
+* Select **[!UICONTROL Translate entire page]**
+* Leave default persistence option
 
 ![chlimage_1-358](assets/chlimage_1-358.png) 
 
@@ -155,11 +155,11 @@ Leave empty when creating an engagement community.
 
 For a similar tutorial to quickly create an [enablement community](overview.md#enablement-community), see [Getting Started with AEM Communities for Enablement](getting-started-enablement.md).
 
-Select **Next**.
+Select **[!UICONTROL Next]**.
 
 ### Step 4: Create Communities Site {#step-create-communities-site}
 
-Select **Create.**
+Select **[!UICONTROL Create]**.
 
 ![chlimage_1-359](assets/chlimage_1-359.png)
 
@@ -182,22 +182,22 @@ On selecting the fourth ellipses icon (More Actions), Export Site and Delete Sit
 From left to right they are:
 
 * **Open Site** 
-  select the pencil icon to open the community site in author edit mode, to add and/or configure page components
+  Select the pencil icon to open the community site in author edit mode, to add and/or configure page components
 
 * **Edit Site** 
-  select the properties icon to open the community site for modification of properties, such as the title or to change the theme
+  Select the properties icon to open the community site for modification of properties, such as the title or to change the theme
 
 * **Publish Site** 
-  select the world icon to publish the community site (for example if your publish server is running on your local machine, then to localhost:4503 by default)  
+  Select the world icon to publish the community site (for example if your publish server is running on your local machine, then to localhost:4503 by default)  
 
 * **Export Site** 
-  select the export icon to create a package of the community site that is both stored in [package manager](../../help/sites-administering/package-manager.md) and downloaded.
+  Select the export icon to create a package of the community site that is both stored in [package manager](../../help/sites-administering/package-manager.md) and downloaded.
 
   Note that UGC is not included in the site package.
 
 * **Delete Site**  
   
-  select the delete icon to delete the community site from within Communities &gt; Sites console. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
+  select the delete icon to delete the community site from within **[!UICONTROL Communities > Sites console]**. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
 
 ![siteactions-1](assets/siteactions-1.png)
 
@@ -207,17 +207,17 @@ From left to right they are:
 >
 >On the author instance, from the main menu
 >
->1. navigate to Tools &gt; Operations &gt; Replication menu
->1. select "Agents on author"
->1. select "Default Agent (publish)"
->1. next to "Settings" select "Edit"
->1. in pop up dialog for Agent Settings, select Transport tab
->1. in URI, change the port number, 4503, to the desired port number 
+>1. Navigate to **[!UICONTROL Tools > Operations > Replication]** menu
+>1. Select **[!UICONTROL Agents on author]**
+>1. Select **[!UICONTROL Default Agent (publish)]**
+>1. Next to **[!UICONTROL Settings]** select **[!UICONTROL Edit]**
+>1. In pop up dialog for Agent Settings, select Transport tab
+>1. In URI, change the port number, 4503, to the desired port number 
 >
->for example, to use port 6103: `http://localhost:6103/bin/receive?sling:authRequestLogin=1`
+>For example, to use port 6103: `http://localhost:6103/bin/receive?sling:authRequestLogin=1`
 >
->1. select "OK"
->1. (optional) select 'Clear' or 'Force Retry' to reset the replication queue
+>1. Select **[!UICONTROL OK]**
+>1. (Optional) Select `Clear` or `Force Retry` to reset the replication queue
 
 ### Select Publish {#select-publish}
 
@@ -270,24 +270,24 @@ When working with the publish site for demonstration purposes, it might be usefu
 
 To do so requires using [CRXDE](http://localhost:4503/crx/de) Lite to edit the [resource mapping](../../help/sites-deploying/resource-mapping.md) table on publish.
 
-To get started
+To get started:
 
-1. on publish, sign in with administrator privileges
-1. browse to [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
-1. in the project browser, expand `/etc/map`
-1. select the `http` node
+1. On publish, sign in with administrator privileges
+1. Browse to [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
+1. In the project browser, expand `/etc/map`
+1. Select the `http` node
 
-    * select **Create Node**
+    * Select **[!UICONTROL Create Node]**
 
         * **Name** localhost.4503
           
-          (do *not* use ':')
+          (do *not* use `:`)
         
         * **Type** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
 
-1. with newly created `localhost.4503` node selected
+1. With newly created `localhost.4503` node selected
 
-    * add property
+    * Add property
 
         * **Name** sling:match
         * **Type** String
@@ -295,21 +295,21 @@ To get started
 
           (must end with '$' char)
 
-    * add property
+    * Add property
 
         * **Name** sling:internalRedirect
         * **Type** String
         * **Value** /content/sites/engage/en.html
 
-1. select **Save All**
-1. (optional) delete the browsing history
-1. browse to http://localhost:4503/
+1. Select **[!UICONTROL Save All]**
+1. (optional) Delete the browsing history
+1. Browse to http://localhost:4503/
 
-    * arrive at http://localhost:4503/content/sites/engage/en.html
+    * Arrive at http://localhost:4503/content/sites/engage/en.html
 
 >[!NOTE]
 >
->To disable, simply prepend the `sling:match` property value with an 'x' - `xlocalhost.4503/$` - and **Save All**.
+>To disable, simply prepend the `sling:match` property value with an 'x' - `xlocalhost.4503/$` - and **[!UICONTROL Save All]**.
 
 ![chlimage_1-364](assets/chlimage_1-364.png) 
 
@@ -329,7 +329,7 @@ After the site has been initially created, authors may use the [Open Site icon](
 
 In addition, administrators may use the [Edit Site icon](sites-console.md#modifying-site-properties) to modify properties of the site, such as the title.
 
-After any modification, remember to **Save** and re-**Publish** the site.
+After any modification, remember to **save** and **re-publish** the site.
 
 >[!NOTE]
 >

@@ -24,6 +24,3 @@ If you do not intend to use the Applicaiton Viewer to review applications within
 Within your running Author instance of AEM, navigate to: [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for 'Apache Sling Referrer Filter'. Click to edit the referrer filter and check the 'allow empty' checkbox (see image below). Next hit the save button and close the browser page.
 
 ![Referrer Filter settings](assets/chlimage_1-106.png)
-
-Referrer Filter settings
-

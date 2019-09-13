@@ -17,7 +17,7 @@ Forms enables you to control whether external entities in XML inputs are resolve
 
 **Prevent the processing of XML data files that contain references to external entities**
 
-1. In administration console, click **[!UICONTROL Services &gt; Forms]**.
+1. In administration console, click **[!UICONTROL Services > Forms]**.
 1. Clear the Resolve External Entities check box.
 1. Click **[!UICONTROL Save]**.
 

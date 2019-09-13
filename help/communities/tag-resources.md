@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c012d639-c6e6-4f73-bbd8-78a4baa38c17
 ---
 
-# Tagging Enablement Resources{#tagging-enablement-resources}
+# Tagging Enablement Resources {#tagging-enablement-resources}
 
 ## Overview {#overview}
 
@@ -19,30 +19,30 @@ Tagging of enablement resources allows for filtering of resources and learning p
 
 Essentially:
 
-* [create a tag namespace](../../help/sites-administering/tags.md#creating-a-namespace) for each catalog
+* [Create a tag namespace](../../help/sites-administering/tags.md#creating-a-namespace) for each catalog
 
-    * [set tag permissions](../../help/sites-administering/tags.md#setting-tag-permissions)
+    * [Set tag permissions](../../help/sites-administering/tags.md#setting-tag-permissions)
 
-        * for community members only (closed community)
+        * For community members only (closed community)
 
-            * allow read access for the [community site's member group](users.md#publish-group-roles)
+            * Allow read access for the [community site's member group](users.md#publish-group-roles)
 
-        * for any site visitor, whether signed-in or anonymous (open community)
+        * For any site visitor, whether signed-in or anonymous (open community)
 
-            * allow read access for the `Everyone`group
+            * Allow read access for the `Everyone`group
 
-    * [publish the tags](../../help/sites-administering/tags.md#publishing-tags)
+    * [Publish the tags](../../help/sites-administering/tags.md#publishing-tags)
 
-* [define the scope of tags for a community site](sites-console.md#tagging)
+* [Define the scope of tags for a community site](sites-console.md#tagging)
 
-    * [configure catalogs that exist in the site's structure](functions.md#catalog-function)
+    * [Configure catalogs that exist in the site's structure](functions.md#catalog-function)
 
-        * can add tags to the catalog instance to control the list of tags presented in the UI filters
-        * can add [pre-filters](catalog-developer-essentials.md#pre-filters), to restrict a catalog's included resources
+        * Can add tags to the catalog instance to control the list of tags presented in the UI filters
+        * Can add [pre-filters](catalog-developer-essentials.md#pre-filters), to restrict a catalog's included resources
 
-* [publish the community site](sites-console.md#publishing-the-site)
-* [apply tags to enablement resources](resources.md#create-a-resource) so they may be categorically filtered
-* [publish the enablement resources](resources.md#publish)
+* [Publish the community site](sites-console.md#publishing-the-site)
+* [Apply tags to enablement resources](resources.md#create-a-resource) so they may be categorically filtered
+* [Publish the enablement resources](resources.md#publish)
 
 ## Community Site Tags {#community-site-tags}
 

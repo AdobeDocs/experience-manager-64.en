@@ -68,9 +68,9 @@ After you have installed AEM, access the CRXDE Lite development environment by c
 
 Use CRXDE Lite to create the mywebsite application structure in the repository:
 
-1. In the tree on the left side of CRXDE Lite, right-click the **`/apps`** folder and click **[!UICONTROL Create &gt; Create Folder]**. In the **Create Folder** dialog, type `mywebsite` as the folder name and click **[!UICONTROL OK**.
-1. Right-click the `/apps/mywebsite` folder and click **[!UICONTROL Create &gt; Create Folder]**. In the **[!UICONTROL Create Folder]** dialog, type `components` as the folder name and click **[!UICONTROL OK]**.
-1. Right-click the `/apps/mywebsite` folder and click **[!UICONTROL Create &gt; Create Folder]**. In the **[!UICONTROL Create Folder]** dialog, type `templates` as the folder name and click **[!UICONTROL OK]**.
+1. In the tree on the left side of CRXDE Lite, right-click the **`/apps`** folder and click **[!UICONTROL Create > Create Folder]**. In the **Create Folder** dialog, type `mywebsite` as the folder name and click **[!UICONTROL OK**.
+1. Right-click the `/apps/mywebsite` folder and click **[!UICONTROL Create > Create Folder]**. In the **[!UICONTROL Create Folder]** dialog, type `components` as the folder name and click **[!UICONTROL OK]**.
+1. Right-click the `/apps/mywebsite` folder and click **[!UICONTROL Create > Create Folder]**. In the **[!UICONTROL Create Folder]** dialog, type `templates` as the folder name and click **[!UICONTROL OK]**.
 
    The structure in the tree should now look something like this:
 
@@ -94,7 +94,7 @@ Sample static.css file and images
 
    ![chlimage_1-102](assets/chlimage_1-102.png)
 
-1. In the folder tree, select the **[!UICONTROL Designs]** folder and then click **[!UICONTROL New &gt; New Page]**. Type `mywebsite` as the title and click **[!UICONTROL Create]**.  
+1. In the folder tree, select the **[!UICONTROL Designs]** folder and then click **[!UICONTROL New > New Page]**. Type `mywebsite` as the title and click **[!UICONTROL Create]**.  
 
 1. If the mywebsite item does not appear in the table, refresh the tree or the table.  
 
@@ -116,7 +116,7 @@ Create a template to use as the basis of the web pages of your site.
 
 A template defines the default content of a new page. Complex websites may use several templates for creating the different types of pages in the site. In this exercise, all pages are based on one simple template.
 
-1. In the folder tree of CRXDE Lite, right-click `/apps/mywebsite/templates` and click **[!UICONTROL Create &gt; Create Template]**.  
+1. In the folder tree of CRXDE Lite, right-click `/apps/mywebsite/templates` and click **[!UICONTROL Create > Create Template]**.  
 
 1. In the Create Template dialog, type the following values and then click **[!UICONTROL Next]**:
 
@@ -147,7 +147,7 @@ A template defines the default content of a new page. Complex websites may use s
 
 Create the *component* that defines the content and renders the pages that use the contentpage template. The location of the component must correspond with the value of the Resource Type property of the contentpage template.
 
-1. In CRXDE Lite, right-click `/apps/mywebsite/components` and click **[!UICONTROL Create &gt; Component]**.
+1. In CRXDE Lite, right-click `/apps/mywebsite/components` and click **[!UICONTROL Create > Component]**.
 1. In the **[!UICONTROL Create Component]** dialog, type the following property values:
 
     * **[!UICONTROL Label]**: contentpage
@@ -215,7 +215,7 @@ In this section, you create the following pages which all use the contentpage te
 
    ![chlimage_1-109](assets/chlimage_1-109.png)
 
-1. In the folder tree, select the **[!UICONTROL Websites]** folder and then click **[!UICONTROL New &gt; New Page]**.
+1. In the folder tree, select the **[!UICONTROL Websites]** folder and then click **[!UICONTROL New > New Page]**.
 1. In the **[!UICONTROL Create Page]** window, enter the following:
 
     * **[!UICONTROL Title]**: `My Website`
@@ -224,26 +224,26 @@ In this section, you create the following pages which all use the contentpage te
 
    ![chlimage_1-110](assets/chlimage_1-110.png)
 
-1. Click **[!UICONTROL Create]**. In the folder tree, select the `/Websites/My Website` page and click **[!UICONTROL New &gt; New Page]**.
+1. Click **[!UICONTROL Create]**. In the folder tree, select the `/Websites/My Website` page and click **[!UICONTROL New > New Page]**.
 1. In the **[!UICONTROL Create Page]** dialog, enter the following property values and then click Create:
 
     * **[!UICONTROL Title]**: English
     * **[!UICONTROL Name]**: en
     * Select the **[!UICONTROL My Website Content Page Template]**
 
-1. In the folder tree, select the `/Websites/My Website/English` page and click **[!UICONTROL New &gt; New Page]**.
+1. In the folder tree, select the `/Websites/My Website/English` page and click **[!UICONTROL New > New Page]**.
 1. In the **[!UICONTROL Create Page]** dialog, enter the following property values and then click **[!UICONTROL Create]**:
 
     * **[!UICONTROL Title]**: Products
     * Select the **[!UICONTROL My Website Content Page Template]**
 
-1. In the folder tree, select the `/Websites/My Website/English` page and click **[!UICONTROL New &gt; New Page]**.
+1. In the folder tree, select the `/Websites/My Website/English` page and click **[!UICONTROL New > New Page]**.
 1. In the **[!UICONTROL Create Page]** dialog, enter the following property values and then click **[!UICONTROL Create]**:
 
     * **Title**: Services
     * Select the **[!UICONTROL My Website Content Page Template]**
 
-1. In the folder tree, select the `/Websites/My Website/English` page and click **[!UICONTROL New &gt; New Page]**. 
+1. In the folder tree, select the `/Websites/My Website/English` page and click **[!UICONTROL New > New Page]**. 
 1. In the **[!UICONTROL Create Page]** dialog, enter the following property values and then click **[!UICONTROL Create]**:
 
     * **Title**: Customers
@@ -506,7 +506,7 @@ In this exercise, Sling matches these URLs to the /apps/mywebsite/components/con
    ```
 
 1. Save the changes.
-1. Right-click the `/apps/mywebsite/components/contentpage` node and click **[!UICONTROL Create &gt; Create File]**.
+1. Right-click the `/apps/mywebsite/components/contentpage` node and click **[!UICONTROL Create > Create File]**.
 1. In the **[!UICONTROL Create File]** window, as **[!UICONTROL Name]**, type `navimage.png.java`.
 
    The .java file name extension indicates to Sling that the Apache Sling Scripting Java Support should be used to compile the script and create a servlet.
@@ -647,7 +647,7 @@ Create the listchildren component that generates a list of page links that inclu
 
 Create two pages located below the **[!UICONTROL Products]** page. For each page, which describe two specific products, you set a title, a description, and a date.
 
-1. In the folder tree of the **[!UICONTROL Websites]** page, select the **[!UICONTROL Websites/My Website/English/Products]** item and click **[!UICONTROL New &gt; New Page]**.
+1. In the folder tree of the **[!UICONTROL Websites]** page, select the **[!UICONTROL Websites/My Website/English/Products]** item and click **[!UICONTROL New > New Page]**.
 1. In the dialog enter the following property values and then click **[!UICONTROL Create]**:
 
     * **[!UICONTROL Title]**: Product 1.
@@ -750,7 +750,7 @@ Create the dialog that is used to configure the listchildren component propertie
 
 1. Create the dialog node under the listchildren component:
 
-    1. In CRXDE Lite, right-click the `/apps/mywebsite/components/listchildren`node and click **[!UICONTROL Create &gt; Create Dialog]**.
+    1. In CRXDE Lite, right-click the `/apps/mywebsite/components/listchildren`node and click **[!UICONTROL Create > Create Dialog]**.
     1. In the dialog, enter the following property values and click OK
 
         * **[!UICONTROL Label]**: `dialog`
@@ -767,7 +767,7 @@ Create the dialog that is used to configure the listchildren component propertie
 
    ![chlimage_1-117](assets/chlimage_1-117.png)
 
-1. Select the **tab1** node and click **[!UICONTROL Create &gt; Create Node]**, enter the following property values, and click **[!UICONTROL OK]**:
+1. Select the **tab1** node and click **[!UICONTROL Create > Create Node]**, enter the following property values, and click **[!UICONTROL OK]**:
 
     * **[!UICONTROL Name]**: items
     * **[!UICONTROL Type]**: cq:WidgetCollection
@@ -901,7 +901,7 @@ Create the dialog for configuring your logo component in Design mode. Design-mod
 
 1. Create the dialog node under the logo component:
 
-    1. Right-click the `/apps/mywebsite/components/logo` node and click **[!UICONTROL Create &gt; Create Dialog]**.
+    1. Right-click the `/apps/mywebsite/components/logo` node and click **[!UICONTROL Create > Create Dialog]**.
     1. Type the following property values and then click **[!UICONTROL OK]**:
 
         * **[!UICONTROL Label]** `design_dialog` 
@@ -924,7 +924,7 @@ Create the dialog for configuring your logo component in Design mode. Design-mod
 
 Create the script that retrieves the logo image and writes it to the page.
 
-1. Right-click the logo component node and click **[!UICONTROL Create &gt; Create File]** to create the script file named img.GET.java.
+1. Right-click the logo component node and click **[!UICONTROL Create > Create File]** to create the script file named img.GET.java.
 1. Open the file, copy the following code into the file, and then click **[!UICONTROL Save All]**:
 
 ```java
@@ -1228,7 +1228,7 @@ You have several options, in edit mode as well as design mode.
    <cq:include path="toolbar" resourceType="foundation/components/toolbar"/>
    ```
 
-1. In the folder tree of the AEM Websites page, select `Websites/My Website/English`, then click **[!UICONTROL New &gt; New Page]**. Specify the following property values and click Create:
+1. In the folder tree of the AEM Websites page, select `Websites/My Website/English`, then click **[!UICONTROL New > New Page]**. Specify the following property values and click Create:
 
     * **[!UICONTROL Title]**: Toolbar
     * Select **[!UICONTROL My Website Content Page Template]**

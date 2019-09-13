@@ -25,7 +25,7 @@ From there, publishing, previewing, and managing content becomes possible. You c
 
 >[!CAUTION]
 >
->Before you start configuring cloud configuration for your On-Demand app, you must be familiar with AEM Mobile Provisioning and Configuring AEM Mobile On-Demand Services Client. 
+>Before you start configuring cloud configuration for your On-Demand app, you must be familiar with AEM Mobile Provisioning and Configuring AEM Mobile On-Demand Services Client.
 >
 >For details, See [Setting up AEM Mobile On-Demand Services](/help/mobile/aem-mobile-setup.md) in the Administering section.
 
@@ -78,4 +78,3 @@ Once you have configured cloud configuration for your app, See the following res
 * [Uploading Shared Resources](/help/mobile/mobile-on-demand-shared-resources.md)
 * [Publishing/Unpublishing the Content](/help/mobile/mobile-on-demand-publishing-unpublishing.md)
 * [Previewing with Preflight](/help/mobile/aem-mobile-manage-ondemand-services.md)
-

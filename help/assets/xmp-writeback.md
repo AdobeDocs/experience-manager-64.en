@@ -46,7 +46,7 @@ To let the XMP Writeback feature propagate metadata changes to select renditions
 
 For the XMP Writeback feature to propagate metadata to the rendition thumbnails 140.100.png and 319.319.png, perform these steps.
 
-1. Tap/click the AEM logo, and then navigate to **[!UICONTROL Tools &gt; Workflow &gt; Models]**.
+1. Tap/click the AEM logo, and then navigate to **[!UICONTROL Tools > Workflow > Models]**.
 1. From the Models page, open the **DAM Metadata Writeback** workflow model.
 1. In the **[!UICONTROL DAM Metadata Writeback]** properties page, open the **[!UICONTROL XMP Writeback Process]** step.
 1. In the Step Properties dialog box, tap/click the **[!UICONTROL Process]** tab.
@@ -75,6 +75,10 @@ AEM Assets supports both blacklist and whitelist filtering of properties/nodes f
 Blacklist filtering lets you import all XMP metadata properties except the properties that are specified for exclusion. However, for asset types such as INDD files that have huge amounts of XMP metadata (for example 1000 nodes with 10,000 properties), the names of nodes to be filtered are not always known in advance. If blacklist filtering allows a large number of assets with numerous XMP metadata to be imported, the AEM instance/cluster can encounter stability issues, for example clogged observation queues.
 
 Whitelist filtering of XMP metadata resolves this issue by letting you define the XMP properties to be imported. This way, other/unknown XMP properties are ignored. You can add some of these properties to the blacklist filter for backward compatibility.
+
+>[!NOTE]
+>
+>Filtering works only for the properties derived from XMP sources in asset binaries. For the properties derived from non-XMP sources, such as EXIF and IPTC formats, the filtering does not work. For example, the date of asset creation is stored in property named `CreateDate` in EXIF TIFF. AEM stories this value in the metadata field named `exif:DateTimeOriginal`. As the source is a non-XMP source, filtering does not work on this property.
 
 1. Open Configuration Manager from *https://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 1. Open the **[!UICONTROL Adobe CQ DAM XmpFilter]** configuration.

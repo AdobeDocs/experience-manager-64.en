@@ -432,10 +432,6 @@ secretKey="28932hfjlkwdo8fufsdfas\=\="
 
 ## Data store garbage collection {#data-store-garbage-collection}
 
->[!NOTE]
->
->This feature is only available in AEM 6.1 running on Apache Oak versions 1.2.x and higher.
-
 The data store garbage collection process is used to remove any unused files in the data store, thus freeing up valuable disk space in the process.
 
 You can run data store garbage collection by:

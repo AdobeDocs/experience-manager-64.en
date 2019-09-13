@@ -15,19 +15,15 @@ discoiquuid: 68d49096-959b-4751-abf1-23bedbaed9a0
 
 ## Overview {#overview}
 
-The Assets HTTP API is a specific part of the general Marketing Cloud API. For general documentation, see Marketing Cloud API user documentation.
-
-The Assets HTTP API is exposed at */api/assets*, and allows for create-read-update-delete (CRUD) operations on Assets, including binary, metadata, renditions, and comments.
-
-## Current implementation {#current-implementation}
-
-The Assets HTTP API was first introduced with Adobe Experience Manager (AEM) Assets 6.1.
+The Assets HTTP API is a specific part of the general Marketing Cloud API. For general documentation, see Marketing Cloud API user documentation. The Assets HTTP API is available at `/api/assets`, and allows for create-read-update-delete (CRUD) operations on Assets, including binary, metadata, renditions, and comments.
 
 To access the API:
 
-1. Start AEM
-1. Open the API Service Document at `https://<*hostname*>:<*port*>/api.json`
-1. Follow the Assets service link.
+1. Open the API service document at `http://[hostname]:[port]/api.json`.
+
+1. Follow the Assets service link  leading to `http://[hostname]:[server]/api/assets.json`.
+
+The API's response is a JSON for some mime types and a response code for all mime types. The JSON response is optional and may not be available, for example for PDF files. Rely on the response code for further analysis or actions.
 
 ## Data model {#data-model}
 
@@ -48,7 +44,7 @@ title -- Optional title of the folder which can be displayed instead of its name
 
 >[!NOTE]
 >
->Some properties of folder or asset are mapped to a different prefix. The jcr prefix of jcr:title, jcr:description, and jcr:language are replaced with dc prefix. Hence in the returned JSON, dc:title and dc:description contain the values of jcr:title and jcr:description, respectively.
+>Some properties of folder or asset are mapped to a different prefix. The JCR prefix of `jcr:title`, `jcr:description`, and `jcr:language` are replaced with `dc` prefix. Hence in the returned JSON, `dc:title` and `dc:description` contain the values of `jcr:title` and `jcr:description`, respectively.
 
 **Links**
 

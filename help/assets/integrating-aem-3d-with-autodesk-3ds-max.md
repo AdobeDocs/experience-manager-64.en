@@ -33,7 +33,7 @@ See also [Integrating AEM 3D with AutoDesk Maya](integrate-maya-with-3d.md).
    >
    >To avoid access denied issues, install 3ds Max using the same admin user account as AEM.
 
-1. In 3ds Max, click **[!UICONTROL Customize &gt; Plug-in Manager]**.
+1. In 3ds Max, click **[!UICONTROL Customize > Plug-in Manager]**.
 
    Locate `FBXMAX.DLU` and verify that its **[!UICONTROL Status]** is **[!UICONTROL loaded**.
 

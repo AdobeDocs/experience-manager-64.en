@@ -15,6 +15,10 @@ discoiquuid: a1ab5083-12a2-4ea4-bc47-8c6cc5671b26
 
 Adobe Experience Manager (AEM) Assets fetches usage data around AEM assets used by third-party websites from Adobe Analytics. To enable Asset Insights to retrieve this data and generate insights, first configure the feature to integrate with Adobe Analytics.
 
+>[!NOTE]
+>
+>Insights are only supported and provided for images.
+
 1. In AEM, click **[!UICONTROL Tools > Assets]**.
 
    ![chlimage_1-210](assets/chlimage_1-210.png)

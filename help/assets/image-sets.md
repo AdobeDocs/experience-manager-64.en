@@ -41,7 +41,7 @@ To get you up and running quickly:
 
    In Image Sets, users click thumbnail images in the Image Set Viewer.
 
-   To create an Image Set in Assets, tap **[!UICONTROL Create &gt; Image Sets]**. Then, add images and tap **[!UICONTROL Save]**.
+   To create an Image Set in Assets, tap **[!UICONTROL Create > Image Sets]**. Then, add images and tap **[!UICONTROL Save]**.
 
    You can also create image sets automatically through [batch set presets](/help/assets/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets). 
    
@@ -55,7 +55,7 @@ To get you up and running quickly:
 
    Administrators can create or modify Image **[!UICONTROL Set Viewer Presets]**. To see your image set with a viewer preset, select the image set, and in the left-rail drop-down menu, select **[!UICONTROL Viewers]**.
 
-   See **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]** to create or edit viewer presets.
+   See **[!UICONTROL Tools > Assets > Viewer Presets]** to create or edit viewer presets.
 
 1. (Optional) [Viewing Image Sets](image-sets.md#viewing-image-sets) that were created using batch set presets. 
 1. [Preview Image Sets.](previewing-assets.md)

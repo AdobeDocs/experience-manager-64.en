@@ -40,11 +40,9 @@ Once you configure and associate your app to a Cloud Configuration, you can uplo
 Follow these steps to upload your shared resources for an article:
 
 1. Select the article from **Manage Articles** tile.
-1. Click **Upload Shared Resources **to upload your shared HTML resources.
+1. Click **Upload Shared Resources** to upload your shared HTML resources.
 
    ![chlimage_1-133](assets/chlimage_1-133.png)
-
-1.
 
 ### The Next Step {#the-next-step}
 
@@ -56,4 +54,3 @@ Once you have learnt about creating and publishing content, See
 Or still need to learn about the authoring topics, See
 
 [Authoring AEM Content for AEM Mobile On-Demand Services Apps](/help/mobile/mobile-apps-ondemand.md)
-

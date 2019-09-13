@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5271feb9-70c6-4c82-8ac7-34a63d80e3aa
 ---
 
-# Naming Conventions{#naming-conventions}
+# Naming Conventions {#naming-conventions}
 
 ## Hyphens in Java Package Name {#hyphens-in-java-package-name}
 
@@ -21,14 +21,6 @@ While using hyphens in the names of repository items is a recommended practice i
 
 The underlying CRX platform must be able to distinguish between an actual underscore '_' and a hyphen '-'. Thus, in JCR, the hyphen must be replaced with its unicode value (u002d) and escaped with an underscore '_'.
 
-For example, if the repository path is
+For example, if the repository path is **/apps/my-example/component/info/Info.java**, the package name should be `java package apps.my_002dexample.component.info;`
 
-**/apps/my-example/component/info/Info.java**
-
-the package name should be
-
-```java
-  package apps.my_002dexample.component.info;
-```
-
-Notice that an underscore must similarly be escaped, such that '_' becomes '_005f'.
+Notice that an underscore must similarly be escaped, such that `_` becomes `_005f`.

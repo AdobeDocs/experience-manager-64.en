@@ -15,11 +15,11 @@ discoiquuid: 2ec2a75e-4191-4660-a6f2-26cc667720b3
 
 The following Java API Quick Start(SOAP) are available for the Application Manager Client.
 
-[Quick Start (SOAP mode): Creating AEM Forms Application Version using the Java API](application-manager-client-java-api.md#quick-start-soap-mode-creating-application-version-using-the-java-api)
+[Quick Start (SOAP mode): Creating Application Version using the Java API](#quick-start-soap-mode-creating-application-version-using-the-java-api)
 
-[Quick Start (SOAP mode): Exporting applications using the Java API](application-manager-client-java-api.md#quick-start-soap-mode-exporting-applications-using-the-java-api)
+[Quick Start (SOAP mode): Exporting applications using the Java API](#quick-start-soap-mode-exporting-applications-using-the-java-api)
 
-[Quick Start (SOAP mode): Importing applications using the Java API](application-manager-client-java-api.md#quick-start-soap-mode-importing-applications-using-the-java-api)
+[Quick Start (SOAP mode): Importing applications using the Java API](#quick-start-soap-mode-importing-applications-using-the-java-api)
 
 [Quick Start (SOAP mode): Getting a AEM Forms Application using the Java API](application-manager-client-java-api.md#quick-start-soap-mode-getting-a-application-using-the-java-api)
 

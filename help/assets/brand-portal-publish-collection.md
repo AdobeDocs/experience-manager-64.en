@@ -25,7 +25,7 @@ If you make subsequent modifications to the original collection in AEM Assets, t
 
 ## Publish a collection to Brand Portal {#publish-a-collection-to-brand-portal}
 
-1. In the AEM Assets UI, tap/click the AEM logo. Then, go to **[!UICONTROL Assets]** &gt; **[!UICONTROL Collections]** from the **[!UICONTROL Navigation]** page.
+1. In the AEM Assets UI, tap/click the AEM logo. Then, go to **[!UICONTROL Assets > Collections]** from the **[!UICONTROL Navigation]** page.
 2. From the Collections console, select the collection you want to publish to Brand Portal.
 
    ![select_collection](assets/select_collection.png)

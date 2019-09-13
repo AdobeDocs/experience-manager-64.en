@@ -17,13 +17,13 @@ The translation feature for AEM Communities extends the concept of [translating 
 
 The translation of UGC enables site visitors and members to experience a global community by removing language barriers.
 
-As an example, suppose
+As an example, suppose,
 
-* a member from France posts a recipe in French to the community forum of a multinational cooking website
-* another member from Japan uses the translation feature to trigger the translation of the recipe from French into Japanese
-* after reading the recipe in Japanese, the member from Japan then posts a comment in Japanese
-* the member from France uses the translation feature to translate the Japanese comment into French
-* global communication!
+* A member from France posts a recipe in French to the community forum of a multinational cooking website
+* Another member from Japan uses the translation feature to trigger the translation of the recipe from French into Japanese
+* After reading the recipe in Japanese, the member from Japan then posts a comment in Japanese
+* The member from France uses the translation feature to translate the Japanese comment into French
+* Global communication!
 
 ## Overview {#overview}
 
@@ -67,36 +67,36 @@ For example, if a forum was established on the base site, language copies create
 
 To create a new Translation Integration, which integrates a Translation Service connector with the web site on the author instance:
 
-* sign in as an administrator
-* from the [main menu](http://localhost:4502/)
-* select **Tools**
-* select **Operations**
-* select **Cloud**
-* select **Cloud Services**
-* scroll down to **Translation Integration**
+* Sign in as an administrator
+* From the [main menu](http://localhost:4502/)
+* Select **[!UICONTROL Tools]**
+* Select **[!UICONTROL Operations]**
+* Select **[!UICONTROL Cloud]**
+* Select **[!UICONTROL Cloud Services]**
+* Scroll down to **[!UICONTROL Translation Integration]**
 
 ![chlimage_1-65](assets/chlimage_1-65.png)
 
-* select **Show Configurations**
+* Select **[!UICONTROL Show Configurations]**
 
 ![chlimage_1-66](assets/chlimage_1-66.png)
 
-* select **[+]** icon next to **Available Configurations** to create a new configuration
+* Select `[+]` icon next to **[!UICONTROL Available Configurations]** to create a new configuration
 
 #### Create Configuration Dialog {#create-configuration-dialog}
 
 ![chlimage_1-67](assets/chlimage_1-67.png)
 
-* **Parent Configuration**
-  (required)Typically leave as default. Default is `/etc/cloudservices/translation`.
+* **[!UICONTROL Parent Configuration]**
+  (Required) Typically leave as default. Default is `/etc/cloudservices/translation`.
 
-* **Title**
-  (required) Enter a display title of your choosing. No default value.
+* **[!UICONTROL Title]**
+  (Required) Enter a display title of your choosing. No default value.
 
-* **Name**
-  (optional) Enter a name for the configuration. Default is a node name based on the Title.
+* **[!UICONTROL Name]**
+  (Optional) Enter a name for the configuration. Default is a node name based on the Title.
 
-* select **Create**
+* Select **[!UICONTROL Create]**
 
 #### Translation Config Dialog {#translation-config-dialog}
 
@@ -104,19 +104,19 @@ To create a new Translation Integration, which integrates a Translation Service 
 
 For detailed instructions visit [Creating a Translation Integration Configuration](../../help/sites-administering/tc-tic.md#creating-a-translation-integration-configuration)
 
-* **Sites** tab: can leave as defaults
-* **Communities** tab:
-  * **Translation Provider**
+* **[!UICONTROL Sites]** tab: can leave as defaults
+* **[!UICONTROL Communities]** tab:
+  * **[!UICONTROL Translation Provider]**
     Select the translation provider from the drop down list. Default is `microsoft`, the trial service.
   
-  * **Content Category**
+  * **[!UICONTROL Content Category]**
     Select a category that describes the content being translated. Default is `General.`
   
-  * **Choose A Locale...**
+  * **[!UICONTROL Choose A Locale...]**
     (Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](sites-console.md#translation) for the website. Choosing `No Common Store` will disable global translation. By default, global translation is disabled.
 
-* **Assets** tab: can leave as defaults
-* select **OK**
+* **[!UICONTROL Assets]** tab: can leave as defaults
+* Select **[!UICONTROL OK]**
 
 #### Activation {#activation}
 

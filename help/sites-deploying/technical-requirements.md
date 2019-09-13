@@ -93,7 +93,7 @@ Adobe Experience Manager operates with the following versions of the Java Virtua
    <td>Support Level<br /> </td> 
   </tr> 
   <tr> 
-   <td>Oralce Java SE 11 JDK [1]</td> 
+   <td>Oracle Java SE 11 JDK [1]</td> 
    <td>Z: Not supported </td> 
   </tr> 
   <tr> 
@@ -645,7 +645,3 @@ The AEM Screens Player Version 3.3.x supports following operating systems:
 * Google Android 5.1.1 with updated Android System WebView Version 52+  
 * Apple iOS 10.3+
 * Apple macOS 10.12+
-
-### Copyright, Licenses and Disclaimers {#copyright-licenses-and-disclaimers}
-
-[Copyright, Licenses and Disclaimers](/help/release-notes/licenses.md)

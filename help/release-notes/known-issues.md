@@ -1,8 +1,8 @@
 ---
-title: Known Issues
-seo-title: Known Issues
-description: Release notes specific to the Known Issues with Adobe Experience Manager 6.3.
-seo-description: Release notes specific to the Known Issues with Adobe Experience Manager 6.3.
+title: Known Issues in AEM 6.4
+seo-title: Known Issues in AEM 6.4
+description: Known Issues in Adobe Experience Manager 6.4
+seo-description: Known Issues in Adobe Experience Manager 6.4.
 uuid: 1733f15e-9c4f-4db3-98ee-25c2ea606f0d
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
@@ -13,34 +13,30 @@ discoiquuid: 266634ab-21d3-4aac-acfa-b799a7485507
 
 # Known Issues {#known-issues}
 
-This page keeps a list of known issues from Adobe Experience Manager 6.4 that was released in April 2018. The list is split into known issues that are resolved via Service Pack or Hotfixs and issues that are still open.
-
-Please [contact support](https://helpx.adobe.com/support/experience-manager.html) if you need more information about the known issues.
+This page keeps a list of known issues Adobe Experience Manager 6.4 released on April 2018. For more information about known issues, [contact support](https://helpx.adobe.com/support/experience-manager.html).
 
 ## Hybrid Devices {#hybrid-devices}
 
-Hybrid Devices are not supported. Various issues can be encountered when using such devices. However, these procedures will solve most of the issues:
+Hybrid Devices are not supported. Various issues can be encountered when using such devices. The following suggested procedures help resolve many issues:
 
-If you are using Chrome as browser:  
-* Type chrome://flags/ in the address bar and press Enter.  
-* Click on Enable touch events &gt; Disabled.  
-* Restart the browser (all tabs and windows).  
+If you are using Google Chrome as browser:
+* Type `chrome://flags/` in the address bar and press Enter.
+* Click on Enable touch events &gt; Disabled.
+* Restart the browser (all tabs and windows).
   
-If you are using Firefox as browser:  
-* Type about:config in the address bar and press Enter.  
-* Filter the settings to dom.w3c.  
-* Make sure that the settings are 0 and false.  
-* Restart Browser.
+If you are using Mozilla Firefox as browser:
+* Type `about:config` in the address bar and press Enter.
+* Filter the settings to `dom.w3c`.
+* Ensure that the settings are `0` and `false`.
+* Restart the browser.
 
-If you are using Edge as browser:
+If you are using Microsoft Edge as browser:
 
-* Type about:flags in the address bar and press Enter.  
-* Scroll down to Experimental features then Touch.  
-* Click on option called "Enable touch events".  
-* Select Always Off.  
-* Restart Browser.
-
->[!VIDEO](https://vimeo.com/)
+* Type `about:flags` in the address bar and press Return.
+* Scroll to Experimental features then **[UICONTROL Touch]**.
+* Click **[UICONTROL Enable touch events]**.
+* Select **[UICONTROL Always Off]**.
+* Restart the browser.
 
 ## Platform {#platform}
 
@@ -69,9 +65,13 @@ If you are using Edge as browser:
 
 ## Assets {#assets}
 
-* **UI**: Asset UI hangs after Copy-Paste and Select-All (CQ-4236142)
+* **Search**: Search does not return any results if the search string starts with a whitespace [OAK-4786](https://issues.apache.org/jira/browse/OAK-4786)
+
+* **Search**: In Classic UI and Tags are not visible in Search (CQ-4235239)
+
+* **UI**: Asset UI becomes unresponsive after Copy-Paste and Select-All (CQ-4236142)
+
 * **UI**: Unable to Move assets after lazy loading (CQ-4236134)
-* **Search**: In Classic UI, Tags are not visible in Search (CQ-4235239)
 
 * **Reports**: Error in Asset Modification Report creation (CQ-4239744)
 
@@ -86,6 +86,7 @@ If you are using Edge as browser:
 ## Communities {#communities}
 
 * **Moderation** - Not able to delete parent post as a single delete operation from the bulk moderation UI (CQ-4236797)
+
 * **Console** - Forgot Username or Password link is redirecting to the Login Page instead of the corresponding password retrieval form (CQ-4237682)
 
 ## Forms {#forms}
@@ -96,9 +97,9 @@ If you are using Edge as browser:
 
 ### Interactive Communications
 
-* The Agent UI takes a while to load Interactive Communications that include chart or image elements. (Ref# CQ-4236630)
-* The data display format in print preview is dd-mm-yyyy while in the web preview is dd-mmm-yy (Ref# CQ-4237045)  
-* The Interactive Communication Web channel supports only ordered and unordered lists. In list document fragments, compound listing and indentation are not supported for Web channel of the Interactive Communication. (Ref# CQ-4233672)
+* The Agent UI takes a while to load Interactive Communications that include chart or image elements. (CQ-4236630)
+* The data display format in print preview is dd-mm-yyyy while in the web preview is `dd-mmm-yy` (CQ-4237045)  
+* The Interactive Communication Web channel supports only ordered and unordered lists. In list document fragments, compound listing and indentation are not supported for Web channel of the Interactive Communication. (CQ-4233672)
 * The following issues are observed when web channel syncs with print channel:
 
     * Web channel take a while to sync when switching from print channel for the first time.
@@ -108,20 +109,20 @@ If you are using Edge as browser:
     * Cannot add components or assets at any location other than at the bottom of a web channel communication. To place it at another location, add a panel at the bottom of web channel and reorder using the content tree.
     * Can move content into inherited target area of web channel without removing the live copy inheritance.
 
-(Ref# CQ-4239780)
+(CQ-4239780)
 
 ### Data integration
 
 * Authentication configurations for SOAP-based web services are not visible and thus cannot be configured in cloud services. To resolve the issue:
 
-1. In CRXDE Lite console, go to the following node.  
-/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices/  
-wsdlauthenticationsettings/items/fixedcolumns/items/container/items/wsdl/items/  
-selectAuthentication/items/custom.  
-1. Update the value of the value property to the same as the value of the text property.  
-1. Click Save All to save the configuration.
+    1. In CRXDE Lite console, go to the following node.  
+    /libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices/  
+    wsdlauthenticationsettings/items/fixedcolumns/items/container/items/wsdl/items/  
+    selectAuthentication/items/custom.  
+    1. Update the value of the value property to the same as the value of the text property.  
+    1. Click Save All to save the configuration.
 
-(Ref# CQ-4238462)
+(CQ-4238462)
 
 ### Adobe Sign integration
 
@@ -132,4 +133,3 @@ selectAuthentication/items/custom.
 * The Chart component in adaptive forms takes more space than it normally does.
 * An exception is returned when saving properties for adaptive forms, adaptive form fragments, or interactive communications in Forms Manager UI.
 * The specified maximum number of characters for an adaptive form text box is not honored on Android 6.0 Samsung devices. (Ref# CQ-4235205)
-

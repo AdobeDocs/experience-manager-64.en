@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 25b7ac08-6cdc-4dd5-a756-d6169b86f9ab
 ---
 
-# OSGi Events for Communities Components{#osgi-events-for-communities-components}
+# OSGi Events for Communities Components {#osgi-events-for-communities-components}
 
 ## Overview {#overview}
 
@@ -23,7 +23,7 @@ For the Communities components delivered in the release, the following tables de
 
 ## Topics and Verbs {#topics-and-verbs}
 
-** [Calendar Component](calendar-basics-for-developers.md)** 
+[Calendar Component](calendar-basics-for-developers.md) 
 SocialEvent `topic`= com/adobe/cq/social/calendar
 
 | **Verb** |**Description** |
@@ -33,7 +33,7 @@ SocialEvent `topic`= com/adobe/cq/social/calendar
 | UPDATE |member's calendar event or comment is edited |
 | DELETE |member's calendar event or comment is deleted |
 
-** [Comments Component](essentials-comments.md)** 
+[Comments Component](essentials-comments.md) 
 SocialEvent `topic`= com/adobe/cq/social/comment
 
 | **Verb** |**Description** |
@@ -43,7 +43,7 @@ SocialEvent `topic`= com/adobe/cq/social/comment
 | UPDATE |member's comment is edited |
 | DELETE |member's comment is deleted |
 
-** [File Library Component](essentials-file-library.md)** 
+[File Library Component](essentials-file-library.md)
 SocialEvent `topic`= com/adobe/cq/social/fileLibrary
 
 | **Verb** |**Description** |
@@ -53,7 +53,7 @@ SocialEvent `topic`= com/adobe/cq/social/fileLibrary
 | UPDATE |member updates a folder or file |
 | DELETE |member deletes a folder or file |
 
-** [Forum Component](essentials-forum.md)** 
+[Forum Component](essentials-forum.md) 
 SocialEvent `topic`= com/adobe/cq/social/forum
 
 | **Verb** |**Description** |
@@ -63,7 +63,7 @@ SocialEvent `topic`= com/adobe/cq/social/forum
 | UPDATE |member's forum topic or reply is edited |
 | DELETE |member's forum topic or reply is deleted |
 
-** [Journal Component](blog-developer-basics.md)** 
+[Journal Component](blog-developer-basics.md) 
 SocialEvent `topic`= com/adobe/cq/social/journal
 
 | **Verb** |**Description** |
@@ -73,7 +73,7 @@ SocialEvent `topic`= com/adobe/cq/social/journal
 | UPDATE |member's blog article or comment is edited |
 | DELETE |member's blog article or comment is deleted |
 
-** [QnA Component](qna-essentials.md)** 
+[QnA Component](qna-essentials.md) 
 SocialEvent `topic` = com/adobe/cq/social/qna
 
 | **Verb** |**Description** |
@@ -85,7 +85,7 @@ SocialEvent `topic` = com/adobe/cq/social/qna
 | UNSELECT |member's answer is de-selected |
 | DELETE |member's QnA question or answer is deleted |
 
-** [Reviews Component](reviews-basics.md)** 
+[Reviews Component](reviews-basics.md) 
 SocialEvent `topic`= com/adobe/cq/social/review
 
 | **Verb** |**Description** |
@@ -94,7 +94,7 @@ SocialEvent `topic`= com/adobe/cq/social/review
 | UPDATE |member's review is edited |
 | DELETE |member's review is deleted |
 
-** [Rating Component](rating-basics.md)** 
+[Rating Component](rating-basics.md) 
 SocialEvent `topic`= com/adobe/cq/social/tally
 
 | **Verb** |**Description** |
@@ -102,7 +102,7 @@ SocialEvent `topic`= com/adobe/cq/social/tally
 | ADD RATING |member's content has been up rated |
 | REMOVE RATING |member's content has been down rated |
 
-**[Voting Component](essentials-voting.md)** 
+[Voting Component](essentials-voting.md) 
 SocialEvent `topic`= com/adobe/cq/social/tally
 
 | **Verb** |**Description** |

@@ -23,7 +23,7 @@ You must enable the 3D component in the page before you can place it on a page. 
 
 **Adding the 3D component to the page template**:
 
-1. Navigate to **[!UICONTROL Tools &gt; General &gt; Templates]**.  
+1. Navigate to **[!UICONTROL Tools > General > Templates]**.  
 
 1. Navigate to the page template that you want to enable the 3D component in and select the template.  
 

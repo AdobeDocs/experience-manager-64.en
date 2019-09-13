@@ -46,7 +46,7 @@ To use HTTP/2, you must meet the following requirements:
 
   To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
 
-  Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labelled **Published Server Name**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
+  Click **[!UICONTROL Setup > Application Setup > General Settings]**. Look for the field labelled **Published Server Name**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
 
 ## What is the process for enabling HTTP/2 for my Dynamic Media Classic account? {#what-is-the-process-for-enabling-http-for-my-scene-account}
 
@@ -59,7 +59,7 @@ You must initiate an Adobe Technical Support (`s7support@adobe.com`) request to 
 
      To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
 
-     Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labelled **[!UICONTROL Published Server Name]**.
+     Click **[!UICONTROL Setup > Application Setup > General Settings]**. Look for the field labelled **[!UICONTROL Published Server Name]**.
 
      * Verify that you use secure HTTPS for rich media requests.
      * Verify you are using the CDN through Adobe and not managed with a direct relationship.
@@ -67,7 +67,7 @@ You must initiate an Adobe Technical Support (`s7support@adobe.com`) request to 
 
      To find your domains, [log into your instance of Scene7 Publishing System](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.
 
-     Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labelled **[!UICONTROL Published Server Name]**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
+     Click **[!UICONTROL Setup > Application Setup > General Settings]**. Look for the field labelled **[!UICONTROL Published Server Name]**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
 
      1. Technical Support adds you to the HTTP/2 customer waitlist based on the order in which requests were submitted.
      1. When Adobe is ready to handle your request, Support will contact you to coordinate the transition and set a target date.

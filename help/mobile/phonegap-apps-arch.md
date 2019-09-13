@@ -40,7 +40,7 @@ Determines the name of the application using the `applicationName` property, and
 
 Includes head.jsp and body.jsp.
 
-#### head.jsp {#head-jsp}
+### head.jsp {#head-jsp}
 
 Writes out the `<head>` element of the app page.
 
@@ -350,13 +350,13 @@ Include other hooks as required. The following hooks are available (as provided 
 
 #### platforms/ {#platforms}
 
-This directory is empty until you execute the `phonegap run *<platform>*` command on the project. Currently, `*<platform>*` can be either `ios` or `android`.
+This directory is empty until you execute the `phonegap run <platform>` command on the project. Currently, `<platform>` can be either `ios` or `android`.
 
 After you build the app for a specific platform, the corresponding directory is created and it contains the platform-specific app code.
 
 #### plugins/ {#plugins}
 
-The plugins directory is populated by each plugin listed in the `.cordova/hooks/before_platform_add/install_plugins.js` file after you execute the `phonegap run *<platform>*` command. The directory is initially empty.
+The plugins directory is populated by each plugin listed in the `.cordova/hooks/before_platform_add/install_plugins.js` file after you execute the `phonegap run <platform>` command. The directory is initially empty.
 
 #### www/ {#www}
 

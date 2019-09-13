@@ -21,7 +21,11 @@ Assets Insights captures user activity details, such as the number of times an a
 
 For Assets Insights to capture usage statistics for assets from a website, you must include the embed code for the asset in the website code.
 
-To let Asset Insights display usage statistics for assets, first configure the feature to fetch reporting data from Adobe Analytics. For details, see [Configuring Asset Insights](touch-ui-configuring-asset-insights.md).
+To let Asset Insights display usage statistics for assets, first configure the feature to fetch reporting data from Adobe Analytics. For details, see [Configure Asset Insights](touch-ui-configuring-asset-insights.md).
+
+>[!NOTE]
+>
+>Insights are supported and provided only for images.
 
 ## Viewing statistics for an asset {#viewing-statistics-for-an-asset}
 
@@ -72,7 +76,7 @@ You can view scores of all assets within a folder simultaneously using **[!UICON
 
 Asset Insights fetches usage data for assets from Adobe Analytics report suites in a periodic manner. By default, Asset Insights runs a background job every 24 hours at 2 AM to the fetch data. However, you can modify both the frequency and the time by configuring the **[!UICONTROL Adobe CQ DAM Asset Performance Report Sync Job]** service from the web console.
 
-1. Tap the AEM logo, and go to **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
+1. Tap the AEM logo, and go to **[!UICONTROL Tools > Operations > Web Console]**.
 1. Open the **[!UICONTROL Adobe CQ DAM Asset Performance Report Sync Job]** service configuration.
 
    ![chlimage_1-304](assets/chlimage_1-304.png)

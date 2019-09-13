@@ -19,7 +19,7 @@ AEM Forms services located in the service container (including standard servces 
 The following table describes the different ways in which you can programmatically invoke AEM Forms services. 
 
 <table>
- <thead align="left">
+ <thead>
   <tr>
    <th><p>Invocation method</p></th> 
    <th><p>Description</p></th> 

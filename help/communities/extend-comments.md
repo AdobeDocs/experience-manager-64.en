@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a07a4690-0e47-4a76-84cb-96abdc70b835
 ---
 
-# Extend Comments Component{#extend-comments-component}
+# Extend Comments Component {#extend-comments-component}
 
 The intention of [extending](client-customize.md#extensions) a default component is to alter the appearance or behavior of a component for specific uses.
 

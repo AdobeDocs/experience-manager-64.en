@@ -22,7 +22,7 @@ You can create an adaptive form fragment from scratch or save a panel in an exis
 ### Create fragment from scratch {#create-fragment-from-scratch}
 
 1. Log into AEM Forms author instance at https://[*hostname*]:[*port*]/aem/forms.html.
-1. Click **[!UICONTROL Create &gt; Adaptive Form Fragment]**.
+1. Click **[!UICONTROL Create > Adaptive Form Fragment]**.
 1. Specify title, name, description, and tags for the fragment.
 
    >[!NOTE]
@@ -125,7 +125,7 @@ The adaptive form fragment is inserted by reference in the adaptive form and is 
 
 ### Embed a fragment in adaptive form {#embed-a-fragment-in-adaptive-form}
 
-You can choose to embed an adaptive form fragment in an adaptive form by clicking **[!UICONTROL Embed Asset: &lt;*fragmentName*&gt;]** button on the panel toolbar of the added fragment, as shown in the following example image.
+You can choose to embed an adaptive form fragment in an adaptive form by clicking **[!UICONTROL Embed Asset: *fragmentName*]** button on the panel toolbar of the added fragment, as shown in the following example image.
 
 ![Embed a form fragment in adaptive form](assets/embed-fragment.png)
 

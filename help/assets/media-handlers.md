@@ -104,8 +104,8 @@ All the handlers perform the following tasks:
 
 It is possible to view the active media handlers:
 
-1. In your browser, navigate to http://localhost:4502/system/console/components.
-1. Click the link com.day.cq.dam.core.impl.store.AssetStoreImpl.
+1. In your browser, navigate to `http://localhost:4502/system/console/components`.
+1. Click the link `com.day.cq.dam.core.impl.store.AssetStoreImpl`.
 1. A list with all the active media handlers is displayed. For example:
 
 ![chlimage_1-437](assets/chlimage_1-437.png)
@@ -114,7 +114,7 @@ It is possible to view the active media handlers:
 
 Media handlers are services that are usually used in combination with workflows.
 
-AEM has some default workflows to process assets. To view them, open the Workflow console and click the **[!UICONTROL Models]** tab: the workflow titles that start with **AEM Assets** are the assets specific ones.
+AEM has some default workflows to process assets. To view them, open the Workflow console and click the **[!UICONTROL Models]** tab: the workflow titles that start with AEM Assets are the assets specific ones.
 
 Existing workflows can be extended and new ones can be created to process assets according to specific requirements.
 

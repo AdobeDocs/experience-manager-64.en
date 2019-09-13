@@ -15,6 +15,6 @@ discoiquuid: 7d06f20d-0fbd-447c-8c78-bf6ce0ceed31
 
 On the Preferences page, you can control the number of services, endpoints, categories, and archives that are displayed on each of the Applications and Services web pages.
 
-1. In administration console, **[!UICONTROL click Services &gt; Applications and Services &gt; Preferences]**.
+1. In administration console, **[!UICONTROL click Services > Applications and Services > Preferences]**.
 1. On the Preferences page, type the number of services, endpoints, categories, and archives that can be displayed on each page, and then click **[!UICONTROL Save]**.
 

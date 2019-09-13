@@ -11,7 +11,9 @@ content-type: reference
 discoiquuid: 26715b94-e2ea-4da7-a0e2-3e5a367ac1cd
 ---
 
-# Experience the Published Site{#experience-the-published-site}
+
+# Experience the Published Site {#experience-the-published-site}
+
 
 **[⇐ Create and Assign Enablement Resources](resource.md)**
 
@@ -45,7 +47,7 @@ Notice this  home page  shows four menu items: `Assignments, Ski Catalog, What's
 
 ### Prevent anonymous access on JCR {#prevent-anonymous-access-on-jcr}
 
-A known limitation exposes the community site content to anonymous visitors through  jcr  content and  json , though **allow anonymous access** is disabled for the site's content. However, this behavior can be controlled using Sling Restrictions as a workaround.
+A known limitation exposes the community site content to anonymous visitors through  jcr  content and  json , though **[!UICONTROL allow anonymous access]** is disabled for the site's content. However, this behavior can be controlled using Sling Restrictions as a workaround.
 
 To protect your community site's content from access by anonymous users through  jcr  content and  json , follow these steps:
 
@@ -55,16 +57,16 @@ To protect your community site's content from access by anonymous users through 
    >
    >Do not go to the localized site.
 
-1. Go to **Page Properties**.
+1. Go to **[!UICONTROL Page Properties]**.
 
    ![page-properties-1](assets/page-properties-1.png)
 
-1. Go to **Advanced** tab.
-1. Enable **Authentication Requirement**.
+1. Go to **[!UICONTROL Advanced]** tab.
+1. Enable **[!UICONTROL Authentication Requirement]**.
 
    ![site-authentication-1](assets/site-authentication-1.png)
 
-1. Add the path of the login page. For example, **/content/......./GetStarted**.
+1. Add the path of the login page. For example, `/content/......./GetStarted`.
 1. Publish the page.
 
 ## Enrolled Member {#enrolled-member}
@@ -73,8 +75,8 @@ This experience relies on users `Riley Taylor` and `Sidney Croft` being [created
 
 Login with
 
-* username: riley
-* password: password
+* `Username: riley`
+* `Password: password`
 
 If the user profile was not created through self-registration, the very first time a member signs in, their Profile page is displayed so they may verify and modify it as necessary.
 
@@ -88,10 +90,10 @@ The Assignments page is where the member is shown all of the learning paths and 
 
 Each assignment provides basic information as to
 
-* the type of Assignment
-* whether it is a new Assignment
-* the name
-* details relevant for the type of Assignment
+* The type of Assignment
+* Whether it is a new Assignment
+* The name
+* Details relevant for the type of Assignment
 * Assignment contact, expert, and author (if provided)
 
 The type of Assignment is indicated by an icon in the upper left corner of the card. The image of a road is for a learning path with the number of included enablement resources.
@@ -144,8 +146,8 @@ This experience assumes ` [Quinn Harper](enablement-setup.md#publishcreateenable
 
 Login with
 
-* username: quinn
-* password: password
+* `Username: quinn`
+* `Password: password`
 
 Once signed in, notice there is a new menu item, `Administration`, which appears because the member was given the role of moderator. 
 
@@ -169,16 +171,16 @@ There are two ways to access reporting on learners and enablement resources.
 
 On author, navigate to the **Communities, [Resources console](resources.md)**, where the enablement resources are managed, and after selecting a community site, it is possible to generate reports for
 
-* all enablement resources and learning paths
-* one specific enablement resource or learning path
+* All enablement resources and learning paths
+* One specific enablement resource or learning path
 
 Navigate to the **Communities, [Reports console](reports.md)**, and generate reports according to
 
-* assignments to enablement resources and learning paths
-* posts to a community site over a specific period
-* views (site visits) of a community site over a specific period
+* Assignments to enablement resources and learning paths
+* Posts to a community site over a specific period
+* Views (site visits) of a community site over a specific period
 
-* posts and views may be to all content, or to specific content:
+* Posts and views may be to all content, or to specific content:
 
     * Forum
     * Forum Topic
@@ -193,12 +195,12 @@ Navigate to the **Communities, [Reports console](reports.md)**, and generate rep
 
 With a little activity and interaction with the Resources on publish, viewing the reports on author is worth a look.
 
-* on author
-* sign in with administrative privileges
-* navigate from the main menu to **Communities &gt; Resources**
-* select the `Enablement Tutorial` site
-* select the `Report`icon for a summary of all Resources
-* select a Resource and then the `Report`icon for a report on that Resource
+* On author
+* Sign in with administrative privileges
+* Navigate from the main menu to **[!UICONTROL Communities > Resources]**
+* Select the `Enablement Tutorial` site
+* Select the `Report`icon for a summary of all Resources
+* Select a Resource and then the `Report`icon for a report on that Resource
 
 Notice that it is likely too soon to show data from Adobe Analytics, which can take from 1 to 12 hours to appear. However, basic SCORM reporting is already available.
 
@@ -208,10 +210,10 @@ Notice that it is likely too soon to show data from Adobe Analytics, which can t
 
 #### Ski Lessons User Report {#ski-lessons-user-report}
 
-* select **Communities**, **Resources**
+* Select **[!UICONTROL Communities > Resources]**
 
-* open card `Enablement Tutorial`
-* open card `Ski Lessons`
+* Open card `Enablement Tutorial`
+* Open card `Ski Lessons`
 * `select Report, User Report`
 
 ![chlimage_1-444](assets/chlimage_1-444.png) 
@@ -226,31 +228,31 @@ The Reports console allows for generation of reports on
 
 For reports on assignments:
 
-* on author
-* sign in with administrative privileges
-* navigate to **Communities, Reports, Assignments Report**
-* select a **Site **from the pull-down menu (select `Enablement Tutorial`)
+* On author
+* Sign in with administrative privileges
+* Navigate to **[!UICONTROL Communities > Reports > Assignments Report]**
+* Select a **[!UICONTROL Site]** from the pull-down menu (select `Enablement Tutorial`)
 
-* select **Group** (select `Community Ski Class`)
+* Select **[!UICONTROL Group]** (select `Community Ski Class`)
 
-* select an **Assignment **(select `Ski Lessons`)
+* Select an **[!UICONTROL Assignment]** (select `Ski Lessons`)
 
-* select **Generate**
+* Select **[!UICONTROL Generate]**
 
 ![chlimage_1-445](assets/chlimage_1-445.png)
 
 For reports on views:
 
-* on author
-* sign in with administrative privileges
-* navigate to **Communities, Reports, Views Report**
-* select a **Site **from the pull-down menu (select `Enablement Tutorial`)
+* On author
+* Sign in with administrative privileges
+* Navigate to **[!UICONTROL Communities > Reports > Views Report]**
+* Select a **[!UICONTROL ]Site** from the pull-down menu (select `Enablement Tutorial`)
 
-* select **Content Type** (select `all`)
+* Select **[!UICONTROL Content Type]** (select `all`)
 
-* select a **date range** (select `Last 7 days`)
+* Select a **[!UICONTROL date range]** (select `Last 7 days`)
 
-* select **Generate**
+* Select **[!UICONTROL Generate]**
 
 ![chlimage_1-446](assets/chlimage_1-446.png)
 

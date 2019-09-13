@@ -20,8 +20,8 @@ All AEM Communities components and features are built on the [social component f
 Before a community site is created, the [storage resource provider (SRP)](working-with-srp.md) must be configured to select an implementation consistent with the underlying [topology](topologies.md). The SRP implementations are based on three storage options:
 
 1. [ASRP](asrp.md) - Adobe on-demand storage
-1. [MSRP](msrp.md) - MongoDB
-1. [JSRP](jsrp.md) - JCR
+2. [MSRP](msrp.md) - MongoDB
+3. [JSRP](jsrp.md) - JCR
 
 ## About UGC Storage {#about-ugc-storage}
 
@@ -42,21 +42,19 @@ Methods specific to JCR should avoided.
 Methods to use:
 
 * Sling API (Sling Resource)
-
-    * do not assume there are JCR nodes
+  * Do not assume there are JCR nodes
 
 * OSGi Events
+  * Do not assume there are JCR events
 
-    * do not assume there are JCR events
-
-* [SocialResourceUtilities](socialutils.md#socialresourceutilities-package)
-* [SCFUtilities](socialutils.md#scfutilities-package)
+* [Social Resource Utilities](socialutils.md#socialresourceutilities-package)
+* [SCF Utilities](socialutils.md#scfutilities-package)
 
 Methods to avoid:
 
 * Node API
 * JCR events
-* workflow launchers (which use JCR events)
+* Workflow launchers (which use JCR events)
 
 ### Use Search Collections {#use-search-collections}
 
@@ -71,4 +69,3 @@ For more information, see [Search Essentials](search-implementation.md).
 * [SRP and UGC Essentials](srp-and-ugc.md) - SRP utility methods and examples
 * [Search Essentials](search-implementation.md) - essential information for searching UGC
 * [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
-

@@ -339,19 +339,13 @@ For best authoring experience:
 </uiSettings>
 ```
 
-Different UI settings are used for the inline mode and full screen mode. The toolbar property is used to specify the buttons of the toolbar.
+Different UI settings are used for the inline mode and full screen mode. The toolbar property is used to specify the buttons of the toolbar. For example, if the button is itself a feature (for example, `Bold`), it is specified as `PluginName#FeatureName` (for example, `links#modifylink`). If the button is a popover (containing some features of a plug-in), it is specified as `#PluginName` (for example, `#format`). Separators ( | ) between a group of buttons can be specified with '-'.
 
-For example, if the button is itself a feature (for example, Bold), it is specified as 'PluginName#FeatureName' (for example, links#modifylink).
-
-If the button is a popover (containing some features of a plug-in), it is specified as '#PluginName' (for example, #format).
-
-Separators ( | ) between a group of buttons can be specified with '-'.
-
-The pop-up node under inline or full-screen mode contains a list of the popovers being used. Each child node under the 'popovers' node is named after the plug-in (for example, format). It has a property 'items' containing a list of features of the plug-in (for example, format#bold).
+The pop-up node under inline or full-screen mode contains a list of the popovers being used. Each child node under the `popovers` node is named after the plug-in (for example, `format`). It has a property `items` containing a list of features of the plug-in (for example, `format#bold`).
 
 ## RTE user interface settings and content policies {#rtecontentpolicies}
 
-Administrators can control the RTE options using content policies, say instead of doing the configuration as described above. Content policies define the design properties of a component when used as part of an [editable template](/help/sites-authoring/templates.md). For example, if a text component that uses the RTE is used with an editable template, the content policy can define that the bold option be available and a few paragraph formatting options be available. Content policies are reusable and can be applied across multiple templates.
+Administrators can control the RTE options using content policies, say instead of doing the configuration as described above. Content policies define the design properties of a component when used as part of an [editable template](../sites-authoring/templates.md). For example, if a text component that uses the RTE is used with an editable template, the content policy can define that the bold option be available and a few paragraph formatting options be available. Content policies are reusable and can be applied across multiple templates.
 
 AEM 6.4 Service Pack 3 onwards, the available options in the RTE flow downstream from the user interface configurations to the content policies.
 
@@ -437,9 +431,20 @@ The above options can be used to extend and customize your own RTE. For example,
 
 ## Known limitations {#known-limitations}
 
-* **Use only in AEM components** - RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](/help/sites-developing/page-properties-views.md) and [Scaffolding](/help/sites-authoring/scaffolding.md) on Touch-enabled UI.
+AEM RTE capability has the following limitations:
 
-* **Does not work with Hybrid devices** - AEM does not work on [Hybrid devices](/help/release-notes/known-issues.md)
+* RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](../sites-developing/page-properties-views.md) and [Scaffolding](../sites-authoring/scaffolding.md) on Touch-enabled UI.
 
-* **Configuration node cannot be named config** - Do not name the RTE configuration node `config`. Otherwise, the RTE configuration takes effect for only the administrators and not for the users in the group `content-author`.
+* AEM does not work on [Hybrid devices](../release-notes/known-issues.md).
 
+* Do not name the RTE configuration node `config`. Otherwise, the RTE configuration takes effect for only the administrators and not for the users in the group `content-author`.
+
+* RTE does not support inline frame or iframe to embed content.
+
+>[!MORELIKETHIS]
+>
+>* [Configure RTE plug-ins](configure-rich-text-editor-plug-ins.md)
+>* [Use Rich Text Editor for authoring](../sites-authoring/rich-text-editor.md)
+>* [Configure RTE for accessible sites](rte-accessible-content.md)
+>* [Touch UI and Classic UI feature parity](../release-notes/touch-ui-features-status.md)
+>* [Tutorial sample to create composite multifield component](https://experience-aem.blogspot.com/2019/05/aem-65-touchui-composite-multifield-with-coral3-rte-rich-text.html)

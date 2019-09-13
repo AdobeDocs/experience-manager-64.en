@@ -17,30 +17,26 @@ discoiquuid: bbbe32bb-9d97-461e-822f-a7ddc6c9f9ef
 
 The QnA (questions and answers) forum feature provides an area for community members to ask and answer questions:
 
-* create new questions
-* inline images (with support for drag and drop)
-* view and answer questions
-* search for a question
-* help moderate the QnA content
-* identify best answers
-* move QnA questions from one page to another
+* Create new questions
+* Inline images (with support for drag and drop)
+* View and answer questions
+* Search for a question
+* Help moderate the QnA content
+* Identify best answers
+* Move QnA questions from one page to another
 
 This section of the documentation describes
 
-* adding the QnA forum feature to an AEM site
-* configuration settings for the `QnA`component
+* Adding the QnA forum feature to an AEM site
+* Configuration settings for the `QnA`component
 
 ## Adding a Q&A Forum to a Page {#adding-a-q-a-forum-to-a-page}
 
-To add a `QnA` component to a page in author mode, use the component browser to locate
-
-* `Communities / QnA`
-
-and drag it into place on a page where the QnA forum should appear.
+To add a `QnA` component to a page in author mode, use the component browser to locate `Communities / QnA` and drag it into place on a page where the QnA forum should appear.
 
 For necessary information, visit [Communities Components Basics](basics.md).
 
-When the [required client-side libraries](qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear:
+When the [required client-side libraries](qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA` component will appear:
 
 ![chlimage_1-280](assets/chlimage_1-280.png)
 
@@ -52,111 +48,111 @@ Select the placed `QnA` component to access and select the `Configure` icon whic
 
 #### Settings tab {#settings-tab}
 
-Under the **Settings** tab, specify settings for topics (questions) and replies (answers):
+Under the **[!UICONTROL Settings]** tab, specify settings for topics (questions) and replies (answers):
 
-* **Topics Per Page**
+* **[!UICONTROL Topics Per Page]**
   Defines the number of questions/posts shown per page. Default is 10.
 
-* **Moderated**
+* **[!UICONTROL Moderated]**
   If checked, posting of topics and comments must be approved before they will appear on a publish site. Default is unchecked.
 
-* **Closed**
+* **[!UICONTROL Closed]**
   If checked, the forum is closed to new questions and comments. Default is unchecked.
 
-* **Rich Text Editor**
+* **[!UICONTROL Rich Text Editor]**
   If checked, topics and comments may be entered with markup. Default is unchecked.
 
-* **Allow Tagging**
-  If checked, allow members to add tag labels to their post (see **Tag field** tab). Default is unchecked.
+* **[!UICONTROL Allow Tagging]**
+  If checked, allow members to add tag labels to their post (see **[!UICONTROL Tag field]** tab). Default is unchecked.
 
-* **Allow File Uploads**
+* **[!UICONTROL Allow File Uploads]**
   If checked, allow file attachments to be added to the question or comment. Default is unchecked.
 
-* **Max File Size**
+* **[!UICONTROL Max File Size]**
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
-* **Allowed File Types**
+* **[!UICONTROL Allowed File Types]**
   Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
 
-* **Max Attach Image File Size**
+* **[!UICONTROL Max Attach Image File Size]**
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152 (2 Mb).
 
-* **Allow Following**
+* **[!UICONTROL Allow Following]**
   If checked, include the following feature for forum posts, which allows members to be [notified](notifications.md) of new posts. Default is unchecked.
 
-* **Allow Pinning**
+* **[!UICONTROL Allow Pinning]**
   If checked, forum topics may be pinned to the top of the list of topics. Default is unchecked.
 
-* **Allow Email Subscriptions**
+* **[!UICONTROL Allow Email Subscriptions]**
   If checked, allow members to be notified of new posts by email ([subscription](subscriptions.md)). Requires `Allow Following` to be checked and [email configured](email.md). Default is unchecked.
 
-* **Allow Replies**
+* **[!UICONTROL Allow Replies]**
   If checked, allow replies to comments posted to the question. Default is unchecked.
 
-* **Allow Users to Delete Comments and Topics**
+* **[!UICONTROL Allow Users to Delete Comments and Topics]**
   If checked, allow members to delete the comments and questions they posted. Default is unchecked.
 
-* **Allow Voting**
+* **[!UICONTROL Allow Voting]**
   If checked, include the Voting feature with a question. Default is unchecked.
 
-* **Move Selected Answer To The Top**
+* **[!UICONTROL Move Selected Answer To The Top]**
   If checked, first answer shown is a selected answer. Default is checked.
 
-* **Display Badges**
+* **[!UICONTROL Display Badges]**
   If checked, display earned and assigned [badges](implementing-scoring.md) with a member's blog entry. Default is unchecked.
 
-* **Allow Featured Content**
+* **[!UICONTROL Allow Featured Content]**
   if checked, the idea is able to be identified as [featured content](featured.md). Default is unchecked.
 
 #### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation** tab, specify how the posted topics (quetions) and answers (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
+Under the **[!UICONTROL User Moderation]** tab, specify how the posted topics (quetions) and answers (user generated content) are managed. For more information, see [Moderating User Generated Content](moderate-ugc.md).
 
-* **Deny Answers**
+* **[!UICONTROL Deny Answers]**
   If checked, trusted member moderators will be allowed to deny posted answers and prevent the answer from appearing on the public Q&A forum. Default is unchecked.
 
-* **Close / Reopen Topics**
+* **[!UICONTROL Close / Reopen Topics]**
   If checked, trusted member moderators may close a question (topic) to further edits and answers, and may also reopen a question. Default is unchecked.
 
-* **Move Topics**
+* **[!UICONTROL Move Topics]**
   If checked, allow publish-side moderators to move questions. Default is unchecked.
 
-* **Flag Posts**
+* **[!UICONTROL Flag Posts]**
   If checked, allow members to flag others' questions or answers as inappropriate. Default is unchecked.
 
-* **Flag Reason List**
+* **[!UICONTROL Flag Reason List]**
   If checked, allow members to choose, from a drop-down list, their reason for flagging a question or answer as inappropriate. Default is unchecked.
 
-* **Custom Flag Reason**
+* **[!UICONTROL Custom Flag Reason]**
   If checked, allow members to enter their own reason for flagging a question or answer as inappropriate. Default is unchecked.
 
-* **Moderation Threshold**
+* **[!UICONTROL Moderation Threshold]**
   Enter the number of times a question or answer has to be flagged by members before moderators are notified. Default is 1 ( one time).
 
-* **Flagging Limit**
+* **[!UICONTROL Flagging Limit]**
   Enter the number of times a question or answer has to be flagged before it is hidden from public view. If set to -1, the flagged question or answer is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.
 
 #### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
+Under the **[!UICONTROL Tag field]** tab, the tags which may be applied, if allowed under the **[!UICONTROL Settings]** tab, are limited according to namespaces chosen.
 
-* **Allowed Namespaces**
+* **[!UICONTROL Allowed Namespaces]**
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
 
-* **Suggestion Limit**
-  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of **-**1 means no limits. Default is 0.
+* **[!UICONTROL Suggestion Limit]**
+  Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of `-1` means no limits. Default is 0.
 
 #### Sort Settings tab {#sort-settings-tab}
 
-Under the **Sort Settings** tab, specify how the posted comments are sorted when displayed.
+Under the **[!UICONTROL Sort Settings]** tab, specify how the posted comments are sorted when displayed.
 
-* **Sort By**
+* **[!UICONTROL Sort By]**
   Check all allowed sort selections: `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
 
-* **Set as Default**
+* **[!UICONTROL Set as Default]**
   Pull down to select one of the checked sort options to appear as the default. Default is `Newest`.
 
-* **Select Time Options for Analytics Sorting**
+* **[!UICONTROL Select Time Options for Analytics Sorting]**
   Pull down to select one of `All, Last 24 Hours, Last 7 Days, Last 30 Days`. Default is `All`.
 
 ## Site Visitor Experience {#site-visitor-experience}
@@ -179,10 +175,10 @@ They also have the ability to identify answers.
 
 When the site visitor is signed in, depending on the configuration, they may
 
-* post a new question
-* edit or delete questions they authored
-* may also flag others' questions or answers
-* may identify answers for questions they authored
+* Post a new question
+* Edit or delete questions they authored
+* May also flag others' questions or answers
+* May identify answers for questions they authored
 
 ### Anonymous {#anonymous}
 

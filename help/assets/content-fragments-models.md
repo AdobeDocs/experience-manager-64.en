@@ -14,7 +14,7 @@ discoiquuid: 45e67357-4524-4d25-b5f1-21182b8e803c
 
 >[!CAUTION]
 >
->Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](/help/release-notes/sp-release-notes.md).
+>Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../release-notes/sp-release-notes.md).
 
 Content Fragment Models define the structure of content for your [content fragments](content-fragments.md).
 
@@ -22,7 +22,7 @@ Content Fragment Models define the structure of content for your [content fragme
 
 >[!CAUTION]
 >
->If you do not enable **Content Fragment Models**, the **Create** option will not be available for creating new models.
+>If you do not enable **[!UICONTROL Content Fragment Models]**, the **[!UICONTROL Create]** option will not be available for creating new models.
 
 To enable content fragment models you need to:
 
@@ -46,9 +46,9 @@ To [create a new Content Fragment Model](#creating-a-content-fragment-model) you
 
 ### Apply the Configuration to your Assets Folder {#apply-the-configuration-to-your-assets-folder}
 
-When the configuration **global** is enabled for content fragment models, then any models that users create can be used in any Assets folder.
+When the configuration **[!UICONTROL global]** is enabled for content fragment models, then any models that users create can be used in any Assets folder.
 
-To use other configurations (i.e. excluding global) with a comparable Assets folder, then you have to define the connection. This is done using **Configuration** in the **Cloud Services** tab of the **Folder Properties** of the appropriate folder.
+To use other configurations (i.e. excluding global) with a comparable Assets folder, then you have to define the connection. This is done using **[!UICONTROL Configuration]** in the **[!UICONTROL Cloud Services]** tab of the **[!UICONTROL Folder Properties]** of the appropriate folder.
 
 ## Creating a Content Fragment Model {#creating-a-content-fragment-model}
 
@@ -77,16 +77,16 @@ The content fragment model effectively defines the structure of the resulting co
 1. Navigate to **[!UICONTROL Tools]**, **[!UICONTROL Assets]**, then open **[!UICONTROL Content Fragment Models]**.  
 
 1. Navigate to the folder holding your content fragment model.
-1. Open the required model for **Edit**; use either the quick action, or select the model and then the action from the toolbar.
+1. Open the required model for **[!UICONTROL Edit]**; use either the quick action, or select the model and then the action from the toolbar.
 
    Once open the model editor shows:
 
     * left: fields already defined
-    * right: **Data Types** available for creating fields (and **Properties** for use once fields have been created)
+    * right: **[!UICONTROL Data Types]** available for creating fields (and **[!UICONTROL Properties]** for use once fields have been created)
 
    >[!NOTE]
    >
-   >When a field as **Required**, the **Label** indicated in the left pane will be marked with an asterix (**&ast;**).
+   >When a field is **Required**, the **Label** indicated in the left pane will be marked with an asterix (**&ast;**).
 
    ![cfm-6420-12](assets/cfm-6420-12.png)
 
