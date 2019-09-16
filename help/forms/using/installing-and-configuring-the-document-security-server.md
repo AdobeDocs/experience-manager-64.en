@@ -58,5 +58,3 @@ Perform the following steps to install and configure AEM Forms on JEE:
 * [Configure client and server options](/help/forms/using/admin-help/configuring-client-server-options.md)
 * [Create and managing policies](/help/forms/using/admin-help/creating-policies.md)
 * [Create and managing policy sets](/help/forms/using/admin-help/creating-policy-sets.md)
-
-<!-- Fix broken links above * Working with document security -->
