@@ -35,7 +35,7 @@ To view the status of the asynchronous operations in detail, navigate to the **A
 
    ![job_status](assets/job_status.png)
 
-   To ascertain the progress of a particular operation, see the value in the **[!UICONTROL ]****Status** column. Depending upon the progress, one of the following statuses is displayed:
+   To ascertain the progress of a particular operation, see the value in the **[!UICONTROL Status]** column. Depending upon the progress, one of the following statuses is displayed:
 
    **Active**: The operation is being processed
 
@@ -45,11 +45,11 @@ To view the status of the asynchronous operations in detail, navigate to the **A
 
    **Scheduled**: The operation is scheduled for processing a later time
 
-1. To stop an active operation, select it from the list and tap/click the **[!UICONTROL ]****Stop** icon from the toolbar.
+1. To stop an active operation, select it from the list and tap/click the **[!UICONTROL Stop]** icon from the toolbar.
 
    ![stop_icon](assets/stop_icon.png)
 
-1. To view extra details, for example description and logs, select the operation and tap/click the **[!UICONTROL ]****Open** icon from the toolbar.
+1. To view extra details, for example description and logs, select the operation and tap/click the **[!UICONTROL Open]** icon from the toolbar.
 
    ![open_icon](assets/open_icon.png)
 
@@ -57,7 +57,7 @@ To view the status of the asynchronous operations in detail, navigate to the **A
 
    ![job_details](assets/job_details.png)
 
-1. To delete the operation from the list, select **[!UICONTROL ]****Delete** from the toolbar. To download the details in a CSV file, tap/click the **[!UICONTROL ]****Download** icon.
+1. To delete the operation from the list, select **[!UICONTROL Delete]** from the toolbar. To download the details in a CSV file, tap/click the **[!UICONTROL Download]** icon.
 
    >[!NOTE]
    >
