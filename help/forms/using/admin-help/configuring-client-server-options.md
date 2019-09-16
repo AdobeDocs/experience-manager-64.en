@@ -1,4 +1,4 @@
----
+ ---
 title: Configuring client and server options
 seo-title: Configuring client and server options
 description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
