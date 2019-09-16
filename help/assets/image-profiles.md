@@ -169,7 +169,7 @@ In addition to applying a profile to a folder, you can also apply one globally s
 
     * Navigate to CRXDE Lite to the following node: `/content/dam/jcr:content`.
 
-      Add the property `imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/&lt;name of image profile&gt;` and tap **[!UICONTROL Save All]**. 
+      Add the property `imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/<name of image profile>` and tap **[!UICONTROL Save All]**.
 
       ![configure_image_profiles](assets/configure_image_profiles.png)
 
