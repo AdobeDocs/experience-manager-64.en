@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 982eddba-2350-40e7-8a42-db02d28cf133
 ---
 
-# DO NOT PUBLISH Tutorial: Apply rules to adaptive form fields {#do-not-publish-tutorial-apply-rules-to-adaptive-form-fields}
+# Tutorial: Apply rules to adaptive form fields {#tutorial-apply-rules-to-adaptive-form-fields}
 
  ![06-apply-rules-to-adaptive-form_main](assets/06-apply-rules-to-adaptive-form_main.png)
 

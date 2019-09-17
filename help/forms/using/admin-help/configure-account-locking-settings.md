@@ -17,7 +17,7 @@ When you add a domain, specify whether to enable account locking. When the Enabl
 
 Use settings on the Domain Management page to specify the maximum number of authentication failures and the length of time that accounts are locked. These settings apply to all domains that have account locking enabled.
 
-1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Domain Management]**.
+1. In administration console, click **[!UICONTROL Settings > User Management > Domain Management]**.
 1. In the Maximum Consecutive Authentication Failures box, enter the number of consecutive times a user can unsuccessfully attempt to log in before their account is locked. The default value is 20.
 1. In the Unlock The Account After (Minutes) box, enter the number of minutes that the user account is locked. After the specified number of minutes, the user can attempt to log in again. The default value is 30.
 1. Click **[!UICONTROL Save]**.

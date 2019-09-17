@@ -187,7 +187,7 @@ This is a brief summary of best practices for AEM to Creative Cloud folder shari
 * **One-direction flow of assets:** folder sharing can be used to share assets to Creative Cloud, or get new assets from Creative Cloud to DAM - it won't work for modifying existing assets in DAM
 * **Volume considerations:** Share smaller number/sizes of files
 * **Avoid sharing deep hierarchies:** Sharing works recursively - you have better control over what is shared by sharing flat or shallow folders
-* **Separate folders for one-way sharing:** Use separate folders for final assets (**[!UICONTROL AEM-&gt;Creative Cloud Files]**) and new/updated assets (**[!UICONTROL Creative Cloud Files-&gt;AEM]**)
+* **Separate folders for one-way sharing:** Use separate folders for final assets (**[!UICONTROL AEM > Creative Cloud Files]**) and new/updated assets (**[!UICONTROL Creative Cloud Files > AEM]**)
 * **Avoid WIP in the shared folder:** Use a dedicated WIP folder in Creative Cloud Files, and copy/save finalized update back to the shared folder
 * **Start new work outside of shared folder:** When a new asset reaches "creative-ready" state, copy/save the update to the shared folder
 * **Simplify sharing structure:** Sharing with all creatives might not make sense - consider sharing with creative director / manager, and let them handle sharing with the creative team (e.g, using Creative Cloud collaboration)
@@ -342,3 +342,11 @@ Avoid using AEM desktop app to manage assets directly in the network share of AE
 Neither AEM desktop app nor AEM to Creative Cloud folders sharing  were  built to support migration of assets from existing systems or large volumes of assets stored on servers. Due to the large volumes of assets to be ingested, and additional requirements around metadata mapping, transformation, and ingestion, migrations should be handled using different tools and approaches.
 
 Please refer to the [Migration Guide](assets-migration-guide.md) to see how to plan and execute asset migrations.
+
+>[!MORELIKETHIS]
+>
+>* [Adobe Asset Link](https://helpx.adobe.com/in/enterprise/using/adobe-asset-link.html)
+>* [AEM desktop app best practices](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/archive/best-practices-for-v1.html)
+>* [AEM Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal.html)
+>* [AEM and Adobe Stock integration](aem-assets-adobe-stock.md)
+>* [AEM to Creative Cloud folder sharing best practices](aem-cc-folder-sharing-best-practices.md)

@@ -52,7 +52,7 @@ If the content fragment includes a collection, the assets within the collection 
 
 To be able to translate content fragments that include mixed media, first edit the default translation framework to enable the translation of inline assets and collections associated with content fragments.
 
-1. Click/tap the AEM logo, and navigate to **[!UICONTROL Tools &gt; Deployment &gt; Cloud Services]**.
+1. Click/tap the AEM logo, and navigate to **[!UICONTROL Tools > Deployment > Cloud Services]**.
 1. Locate **[!UICONTROL Translation Integration]** under **[!UICONTROL Adobe Marketing Cloud]**, and click/tap **[!UICONTROL Show Configurations]**. 
 
    ![chlimage_1-444](assets/chlimage_1-444.png)

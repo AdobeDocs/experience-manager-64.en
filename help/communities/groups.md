@@ -66,18 +66,18 @@ From this Groups console, it is possible to author new groups.
 
 ![multilingualgroup](assets/multilingualgroup.png)
 
-* **Community Group Title**: A display title for the group.
+* **[!UICONTROL Community Group Title]**: A display title for the group.
 
   The title appears on the published site for the group.
 
-* **Community Group Description**: A description of the group.
-* **Community Group Root**: The root path to the group. 
+* **[!UICONTROL Community Group Description]**: A description of the group.
+* **[!UICONTROL Community Group Root]**: The root path to the group. 
 
   The default root is the parent site, but the root may be moved to any location within the web site. It is not recommended to change it.
 
-* **Additional Available Community Group Languages(s)** menu: Use the pull down menu to select the available community group language(s). The menu displays all the language(s) in which the parent community site is created. Users can select among these languages to create groups in multiple locales in this single step. Same group gets created in multiple specified languages in the Groups console of the respective community sites.  
+* **[!UICONTROL Additional Available Community Group Languages(s)]** menu: Use the pull down menu to select the available community group language(s). The menu displays all the language(s) in which the parent community site is created. Users can select among these languages to create groups in multiple locales in this single step. Same group gets created in multiple specified languages in the Groups console of the respective community sites.  
 
-* **Community Group Name**: The name of the group's root page which appears in the URL
+* **[!UICONTROL Community Group Name]**: The name of the group's root page which appears in the URL
 
     * Double-check the name as it is not easily changed after the group is created
     * The base URL will be displayed underneath the `Community Group Name`
@@ -85,7 +85,7 @@ From this Groups console, it is possible to author new groups.
 
       *For example*, `http://localhost:4502/content/sites/mysight/en/mygroup.html`
 
-* **Community Group Template** menu: use the pull down menu to choose an available [community group template](tools.md).
+* **[!UICONTROL Community Group Template]** menu: use the pull down menu to choose an available [community group template](tools.md).
 
 ### Step 2: Design {#step-design}
 

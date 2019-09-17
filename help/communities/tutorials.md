@@ -55,7 +55,7 @@ Sample code is available in the [Adobe Marketing Cloud GitHub](https://github.co
 
 The Geometrixx samples package includes demo users. There is often a difference in experience between being a visitor (not logged in) or a member (logged in) and, as long as the Geometrixx samples packages remain installed, you may use these users to simulate a logged in state when exploring with the [Community Components guide](components-guide.md).
 
-For a full list of the demo users, navigate using the Rail to **Tools** &gt; **Operations** &gt; **Security** &gt; **Users**. Or use the Classic UI [security console](http://localhost:4502/useradmin) for managing users and groups.
+For a full list of the demo users, navigate using the Rail to **[!UICONTROL Tools > Operations > Security > Users]**. Or use the Classic UI [security console](http://localhost:4502/useradmin) for managing users and groups.
 
 If a [community ste has been created](getting-started.md), it is possible to assign demo users to its [community user groups](users.md).
 

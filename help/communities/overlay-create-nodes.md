@@ -30,19 +30,19 @@ Some nodes in the path are folders and some are components.
 1. Browse to [http://localhost:4502/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp)
 1. Create `/apps/social` (if it does not already exist)
     * Select `/apps` node
-    * **[!UICONTROL Create &gt; Folder ...]**
+    * **[!UICONTROL Create > Folder ...]**
         * Enter Name: `social`
 1. Select `social` node
-    * **[!UICONTROL Create &gt; Folder...]**
+    * **[!UICONTROL Create > Folder...]**
         * Enter Name: `commons`
 1. Select `commons` node
-    * **[!UICONTROL Create &gt; Folder...]**
+    * **[!UICONTROL Create > Folder...]**
         * Enter Name: `components`
 1. Select `components` node
-    * **[!UICONTROL Create &gt; Folder..]**.
+    * **[!UICONTROL Create > Folder..]**.
         * Enter Name: `hbs`
 1. Select `hbs` node
-    * **[!UICONTROL Create &gt; Create Component...]**
+    * **[!UICONTROL Create > Create Component...]**
         * Enter Label: `comments`
         * Enter Title: `Comments`
         * Enter Description: `List of comments without showing avatars`
@@ -51,7 +51,7 @@ Some nodes in the path are folders and some are components.
         * Click **[!UICONTROL Next]** until **[!UICONTROL OK]**
 1. Select `comments` node
 
-    * **[!UICONTROL Create &gt; Create Component...]**
+    * **[!UICONTROL Create > Create Component...]**
 
         * Enter Label: `comment`
         * Enter Title: `Comment`

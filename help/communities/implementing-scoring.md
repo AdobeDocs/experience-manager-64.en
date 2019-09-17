@@ -178,7 +178,7 @@ Scores are stored in SRP.
 >
 >Scoring rule names should be globally unique; they should not end with the same name.
 >
->An example of what *not *to do:  
+>An example of what *not* to do:  
 >/etc/community/scoring/rules/site1/forums-scoring  
 >/etc/community/scoring/rules/site2/forums-scoring
 

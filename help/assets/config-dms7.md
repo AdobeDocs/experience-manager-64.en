@@ -75,7 +75,7 @@ See [Installing feature pack 18912 for bulk asset migration](bulk-ingest-migrate
 
 To configure dynamic media cloud services:
 
-1. In AEM, tap the AEM logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services &gt; Dynamic Media Configuration]**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services > Dynamic Media Configuration]**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, tap **[!UICONTROL global]** (do not tap or select the folder icon to the left of [!UICONTROL global]), then tap **[!UICONTROL Create]**.
 1. On the Create Dynamic Media Configuration page, enter a title, the Dynamic Media account email address, password, then select your region. These are provided to you by Adobe in the provisioning email. Please contact support if you did not receive this.
 
@@ -106,7 +106,7 @@ To configure dynamic media cloud services:
 1. To securely preview Dynamic Media content before it gets published, you will need to "whitelist" the AEM author instance to connect to Dynamic Media:
 
     * Log on to your Dynamic Media Classic account: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html). Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
-    * On the navigation bar near the top right of the page, tap **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**.
+    * On the navigation bar near the top right of the page, tap **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**.
     * On the Image Server Publish page, in the Publish Context drop-down list, select **[!UICONTROL Test Image Serving]**.
     * For the Client Address Filter, tap **[!UICONTROL Add]**.
     * Select the check box to enable (turn on) the address, and then enter the IP address of the AEM Author instance (not Dispatcher IP).
@@ -144,7 +144,7 @@ Setup and configuration tasks include the following:
 
 The Publish Setup settings determine how assets are delivered by default from Dynamic Media. If no setting is specified, Dynamic Media delivers an asset according to the default settings defined in Publish Setup. For example, a request to deliver an image that does not include a resolution attribute yields an image with the Default Object Resolution setting.
 
-To configure Publish Setup: in Dynamic Media Classic, tap **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**.
+To configure Publish Setup: in Dynamic Media Classic, tap **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**.
 
 The Image Server screen establishes default settings for delivering images. See the UI screen for description of each setting.
 
@@ -158,7 +158,7 @@ The Image Server screen establishes default settings for delivering images. See 
 
 #### Configuring application general settings {#configuring-application-general-settings}
 
-To open the Application General Settings page, in Dynamic Media Classic Global Navigation bar, tap **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.
+To open the Application General Settings page, in Dynamic Media Classic Global Navigation bar, tap **[!UICONTROL Setup > Application Setup > General Settings]**.
 
 **[!UICONTROL Servers]** - On account provisioning, Dynamic Media automatically provides the assigned servers for your company. These servers are used to construct URL strings for your web site and applications. These URL calls are specific to your account. Do not change any of the server names unless explicitly instructed to do so by AEM support.
 
@@ -185,7 +185,7 @@ Dynamic media color management lets you color correct assets. With color correct
 
 To configure the default color properties to enable color correction when requesting images:
 
-1. [Log into Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials provided during provisioning. Navigate to **[!UICONTROL Setup &gt; Application Setup]**.
+1. [Log into Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials provided during provisioning. Navigate to **[!UICONTROL Setup > Application Setup]**.
 1. Expand the **[!UICONTROL Publish Setup]** area and select **[!UICONTROL Image Server]**. Set **[!UICONTROL Publish Context]** to **[!UICONTROL Image Serving]** when setting defaults for publish instances. 
 1. Scroll to the property you need to change, for example a property in the **[!UICONTROL Color Management Attributes]** area.
 
@@ -224,7 +224,7 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 **To configure asset processing**:
 
-1. In AEM, tap the AEM logo to access the global navigation console, then tap the Tools (hammer) icon and navigate to **[!UICONTROL General &gt; CRXDE Lite]**.
+1. In AEM, tap the AEM logo to access the global navigation console, then tap the Tools (hammer) icon and navigate to **[!UICONTROL General > CRXDE Lite]**.
 1. In the left rail, navigate to the following:
 
    `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`
@@ -323,7 +323,7 @@ Two elements are available for definition, **[!UICONTROL Match]** and **[!UICONT
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup &gt; Application Setup &gt; Batch Set Presets &gt; Default Naming].**
+1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup > Application Setup > Batch Set Presets > Default Naming].**
 1. Select **[!UICONTROL View Form]** or **[!UICONTROL View Code]** to specify how you want to view and enter information about each element.
 
    You can select the View Code check box to view the regular expression value building alongside your form selections. You are able to enter or alter these values to help define the elements of the naming convention, if the form view limits you for any reason. If your values are unable to be parsed in the form view, the form fields become inactive.
@@ -357,7 +357,7 @@ You can use either the form field method to define a batch set preset or the cod
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup &gt; Application Setup &gt; Batch Set Presets &gt; Batch Set Preset].**
+1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup > Application Setup > Batch Set Presets > Batch Set Preset].**
 
    Note that [!UICONTROL View Form], as set in the upper-right corner of the [!UICONTROL Details] page, is the default view.
 
@@ -366,7 +366,7 @@ You can use either the form field method to define a batch set preset or the cod
 1. In the **[!UICONTROL Batch Set Type]** drop-down menu, select a preset type.
 1. Do one of the following:
 
-    * If you are using a default naming convention that you previously set up under **[!UICONTROL Application Setup &gt; Batch Set Presets &gt; Default Naming]**, expand **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Default]**.
+    * If you are using a default naming convention that you previously set up under **[!UICONTROL Application Setup > Batch Set Presets > Default Naming]**, expand **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Default]**.
     * To define a new naming convention as you set up the preset, **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Custom]**.
 
 1. For Sequence order, define the order in which images are displayed after the set is grouped together in Dynamic Media.
@@ -412,7 +412,7 @@ When the Spin Set is uploaded and published, you activate the name of the 2D Spi
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup &gt; Application Setup &gt; Batch Set Presets &gt; Batch Set Preset]**.
+1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup > Application Setup > Batch Set Presets > Batch Set Preset]**.
 
    Note that [!UICONTROL View Form], as set in the upper-right corner of the [!UICONTROL Details] page, is the default view.
 
@@ -582,14 +582,14 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
 #### Customizing asset filters for replication {#customizing-asset-filters-for-replication}
 
-1. In AEM, tap the AEM logo to access the global navigation console and tap the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL General &gt; CRXDE Lite]**.
-1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
+1. In AEM, tap the AEM logo to access the global navigation console and tap the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL General > CRXDE Lite]**.
+1. In the left folder tree, navigate to `/etc/replication/agents.author/publish/jcr:content/damRenditionFilters` to review the filters.
 
    ![chlimage_1-2](assets/chlimage_1-2.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
-   In the left rail, expand **[!UICONTROL content > dam > <`locate_your_asset`&gt; &gt; jcr:content &gt; metadata]**, and then in the table, locate **[!UICONTROL dc:format]**.
+   In the left rail, expand **[!UICONTROL content > dam > <`locate_your_asset`> > jcr:content > metadata]**, and then in the table, locate **[!UICONTROL dc:format]**.
 
    The following graphic is an example of an asset's path to dc:format.
 

@@ -194,7 +194,7 @@ After you save the viewer preset, it is automatically activated (turned on) on t
 
 **To create an Interactive Image viewer preset**:
 
-1. In the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]**.
+1. In the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 1. Near the upper-right corner of the page, tap **[!UICONTROL Create]**.
 1. In the **[!UICONTROL New Viewer Preset]** dialog box, type a name to describe the interactive banner viewer preset.  
 

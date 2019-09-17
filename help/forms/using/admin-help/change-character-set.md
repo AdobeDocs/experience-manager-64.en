@@ -15,7 +15,7 @@ discoiquuid: 811b31f8-5465-4fb2-b1f9-513936041771
 
 You can specify the character set used to encode the output stream.
 
-1. In administration console, click **[!UICONTROL Services &gt; output]**.
+1. In administration console, click **[!UICONTROL Services > output]**.
 1. Under Internationalization, in the Character Set list, select a character set. This setting is dependent on the `TransformationFormat` and `PrintFormat` specified through the API. To specify a character set other than those listed, select Custom and specify an encoding value in the box that is displayed.
 
    If `TransformationFormat` is PDF and PDF/A or `PrintFormat` is PCL, PostScript, Zebra label, IPL, DPL, TPCL, GenericColorPCL, or GenericPSLevel3, only specific character sets are supported.

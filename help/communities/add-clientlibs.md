@@ -185,4 +185,4 @@ To create a package:
 
 * Click **[!UICONTROL Build]**
 
-Now you can select **[!UICONTROL Download]** to save it to disk and **[!UICONTROL Upload Package]** elsewhere, as well as select **[!UICONTROL More &gt; Replicate]** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.
+Now you can select **[!UICONTROL Download]** to save it to disk and **[!UICONTROL Upload Package]** elsewhere, as well as select **[!UICONTROL More > Replicate]** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.

@@ -53,7 +53,7 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
    ![chlimage_1-252](assets/chlimage_1-252.png)
 
-2. Navigate to **[!UICONTROL Cloud Services]** &gt; **[!UICONTROL Legacy Cloud Services]**.
+2. Navigate to **[!UICONTROL Cloud Services > Legacy Cloud Services]**.
 
    ![cloudservices](assets/cloudservices.png)
 
@@ -100,7 +100,7 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
    ![chlimage_1-253](assets/chlimage_1-253.png)
 
-2. Navigate to **[!UICONTROL Deployment]** &gt; **[!UICONTROL Replication]**.
+2. Navigate to **[!UICONTROL Deployment > Replication]**.
 
    ![deploymentreplication](assets/deploymentreplication.png)
 

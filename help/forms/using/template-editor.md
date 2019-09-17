@@ -22,7 +22,7 @@ For example, you want all form authors to have certain text boxes, navigation bu
 
 ## Working with templates {#working-with-templates}
 
-You can access template editor from the Tools menu by navigating to **[!UICONTROL Adobe Experience Manager &gt; Tools &gt; Templates]**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](/help/sites-developing/page-templates-editable.md).
+You can access template editor from the Tools menu by navigating to **[!UICONTROL Adobe Experience Manager > Tools > Templates]**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](/help/sites-developing/page-templates-editable.md).
 
 Once you tap to open a folder, you will find a Create button that allows creating a new template for adaptive forms.
 
@@ -101,7 +101,7 @@ For example, you add the header component in the template. When you select the c
 
 When the Initial Content option is selected, the Adaptive Form Container of the template opens like an adaptive form for editing. Like authoring an adaptive form, you can specify initial settings, such as selecting a theme and submit actions.
 
-Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png)**[!UICONTROL &gt; Initial Content]**. 
+Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png)**[!UICONTROL > Initial Content]**. 
 
     [ ![Initial Content layer in Template Editor](assets/initial-content-layer.png)
 
@@ -151,7 +151,7 @@ After you have added fields, you can add buttons such as Submit and Reset.
 
 When you create a template, it is added as a draft. Enable the template to use it for creating adaptive forms. To enable a template:
 
-1. Navigate to **[!UICONTROL Adobe Experience Manager &gt; Tools &gt; Templates]**, and open the folder in which you have created the template.  
+1. Navigate to **[!UICONTROL Adobe Experience Manager > Tools > Templates]**, and open the folder in which you have created the template.  
 
 1. The template you have created is marked as Draft.  
 1. Select the template and tap **[!UICONTROL Enable]** in the toolbar.
@@ -172,7 +172,7 @@ You can create custom templates for adaptive forms to define basic structure and
 
 Perform the following steps to show and hide templates:
 
-1. Log in to AEM Forms author instance and navigate to **[!UICONTROL Tools** &gt; **Operations** &gt; **Web Console]**.
+1. Log in to AEM Forms author instance and navigate to **[!UICONTROL Tools > Operations > Web Console]**.
 
    >[!NOTE]
    >

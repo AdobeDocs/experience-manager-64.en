@@ -394,5 +394,5 @@ To minimize latency and achieve high throughput through efficient CPU utilizatio
 * Configure workflow and version purging
 * Optimize Lucene index configuration in versions prior to 6.2
 * Optimize indexes with the latest service packs and hotfixes. Check with Adobe Support for any additional index optimizations that may be available.
-* Use guessTotal to optimize query performance
-
+* Use `guessTotal` to optimize query performance.
+* If you configure AEM to detect file types from the content of the files (by configuring [!UICONTROL Day CQ DAM Mime Type Service] in the [!UICONTROL AEM Web Console]), upload many files in bulk during non-peak hours as the operation is resource-intensive.

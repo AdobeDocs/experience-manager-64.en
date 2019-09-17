@@ -29,26 +29,14 @@ This means that:
 
 >[!NOTE]
 >
->The eCommerce framework can be used with any eCommerce solution; including:
+>The eCommerce framework can be used with:
 >
->* [hybris](https://www.hybris.com/) - see [AEM with hybris](/help/sites-administering/hybris.md)
+>* [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
 >
->* [IBM](https://www.ibm.com/software/websphere) - see [AEM with IBM Websphere Commerce](/help/sites-administering/ibm-websphere.md)
+>* [SAP Commerce Cloud](/help/sites-administering/sap-commerce-cloud.md)
 >
->* [Elastic Path](https://www.elasticpath.com/) - see [AEM with Elastic Path](/help/sites-administering/elasticpath.md)
+>* [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce) 
 >
->* [Intershop](https://www.intershop.com/) - see [AEM with Intershop](/help/sites-administering/intershop.md)
->
->* [Demandware](https://www.demandware.com/) - see [AEM with Demandware](/help/sites-administering/demandware.md)
->
->* [Agility Multichannel](https://www.agilitymultichannel.com) - see [Agility PIM and AEM](https://www.agilitymultichannel.com/adobe)
->
->* [Infield Design](http://www.infielddesign.com/technology/adobe-experience-manager/) - see [AEM eCommerce With Magento](http://www.infielddesign.com/technology/adobe-experience-manager/magento)
->
-
->[!NOTE]
->
->Some others are currently under development, for example [inRiver](https://inriver.com) is developing an extension to AEM.
 
 >[!CAUTION]
 >
@@ -129,7 +117,6 @@ AEM eCommerce is implemented with an eCommerce engine:
 
 * The eCommerce integration framework has been built to allow you to easily integrate an eCommerce engine with AEM. The purpose built eCommerce engine controls product data, shopping carts, checkout and order fulfillment, while AEM controls the data display and marketing campaigns.
 
-  [A reference site has already been implemented using hybris](/help/sites-administering/hybris.md).
 
 >[!NOTE]
 >
@@ -234,7 +221,7 @@ Product data can be:
 * maintained directly in AEM (generic).  
 * maintained in the eCommerce engine and made available in AEM.
 
-  Depending on the data type it is [synchronized](#catalog-maintenance-data-synchronization) as necessary, or accessed directly; for example, highly volatile and critial data such as product prices are retrieved from the ecommerce engine (e.g. hybris) on every page request to ensure they are always up-to-date.
+  Depending on the data type it is [synchronized](#catalog-maintenance-data-synchronization) as necessary, or accessed directly; for example, highly volatile and critial data such as product prices are retrieved from the ecommerce engine on every page request to ensure they are always up-to-date.
 
 In either case, when the product data has been entered/imported into AEM it can be seen from the **Products** console. Here the card and list views of a product show information such as:
 
@@ -342,7 +329,7 @@ When using an eCommerce engine the product data is maintained there and needs to
 
 This can depend on the type of data:
 
-* A [periodic synchronization is used together with a data feed of changes](/help/sites-developing/hybris.md#product-synchronization-and-publishing). 
+* A [periodic synchronization is used together with a data feed of changes](/help/sites-developing/sap-commerce-cloud.md#product-synchronization-and-publishing). 
 
   In addition to this, you can select specific updates for an express update.
 
@@ -883,5 +870,5 @@ If you require a more thorough implementation, you can either:
 * Extend the default search component with the functionality you need.
 * Implement the search method in your `CommerceService` and then use the eCommerce search component on your search page.
 
-When using an eCommerce engine, the eCommerce search API can be fully implemented in the eCommerce engine solution (e.g. hybris), so you can use the eCommerce search component that is provided out-of-the-box. The faceted search allows you to search either JCR and/or the engine:  
+When using an eCommerce engine, the eCommerce search API can be fully implemented in the eCommerce engine solution, so you can use the eCommerce search component that is provided out-of-the-box. The faceted search allows you to search either JCR and/or the engine:  
 

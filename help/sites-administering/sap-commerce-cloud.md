@@ -1,8 +1,8 @@
 ---
-title: hybris
-seo-title: hybris
-description: Learn how to use AEM with hybris.
-seo-description: Learn how to use AEM with hybris.
+title: SAP Commerce Cloud
+seo-title: SAP Commerce Cloud
+description: Learn how to use AEM with SAP Commerce Cloud.
+seo-description: Learn how to use AEM with SAP Commerce Cloud.
 uuid: cee1a781-fcba-461e-a0a4-c561a1dbcbf3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
@@ -12,7 +12,7 @@ discoiquuid: 9474519d-14cc-49e0-a81d-9319966fd1f6
 pagetitle: Administering hybris
 ---
 
-# hybris{#hybris}
+# SAP Commerce Cloud{#sap-commerce-cloud}
 
 After installation you can configure your instance:
 

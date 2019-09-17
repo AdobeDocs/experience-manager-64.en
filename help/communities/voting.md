@@ -31,17 +31,17 @@ Select the placed `Voting` component to access and select the `Configure` icon w
 
 ![chlimage_1-308](assets/chlimage_1-308.png)
 
-Under the **Texts & Labels** tab, specify the properties used to record votes.
+Under the **[!UICONTROL Texts & Labels]** tab, specify the properties used to record votes.
 
 ![chlimage_1-309](assets/chlimage_1-309.png)
 
-* **Positive Response Label**
+* **[!UICONTROL Positive Response Label]**
   (*Required*) The internal property name for a positive response.
 
-* **Negative Response Label**
+* **[!UICONTROL Negative Response Label]**
   (*Required*) The internal property name for a negative response.
 
-* **Tally Name**
+* **[!UICONTROL Tally Name]**
   (*Required*) The internal, identifiable property name for this instance of a voting component.
 
 ## Site Visitor Experience {#site-visitor-experience}

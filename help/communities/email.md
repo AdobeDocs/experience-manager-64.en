@@ -44,17 +44,17 @@ For example (filled in with values for illustrative purposes only):
 
 ![chlimage_1-98](assets/chlimage_1-98.png)
 
-* **SMTP server host name:** *(required)* The SMTP server to use.
+* **[!UICONTROL SMTP server host name]**: *(required)* The SMTP server to use.
 
-* **SMTP server port** *(required)* The SMTP server port must be 25 or higher.
+* **[!UICONTROL SMTP server port]** *(required)* The SMTP server port must be 25 or higher.
 
-* **SMTP user:** *(required)* The SMTP user.
+* **[!UICONTROL SMTP user]**: *(required)* The SMTP user.
 
-* **SMTP password:** *(required)* The SMTP user's password.
+* **[!UICONTROL SMTP password]**: *(required)* The SMTP user's password.
 
-* **"From" address:** Leave empty
-* **SMTP use SSL:** If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
-* **Debug email:** If checked, enables logging of SMTP server interactions.
+* **[!UICONTROL "From" address]**: Leave empty
+* **[!UICONTROL SMTP use SSL]**: If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
+* **[!UICONTROL Debug email]**: If checked, enables logging of SMTP server interactions.
 
 ## AEM Communities Email Configuration {#aem-communities-email-configuration}
 
@@ -106,25 +106,25 @@ For Communities subscriptions, it is possible to enable or disable the ability f
 
 ![chlimage_1-101](assets/chlimage_1-101.png)
 
-* **Name** : *(required)* `subscriptions-email`. Do Not Edit.
+* **[!UICONTROL Name]** : *(required)* `subscriptions-email`. Do Not Edit.
 
-* **Create post from reply email**: If checked, recipient of subscription email may post content by sending a reply. Default is checked.
-* **Add tracked id to header**: Default is `Reply-To`.
+* **[!UICONTROL Create post from reply email]**: If checked, recipient of subscription email may post content by sending a reply. Default is checked.
+* **[!UICONTROL Add tracked id to header]**: Default is `Reply-To`.
 
-* **Maximum length of Subject**: If tracker id is added to subject line, this is the maximum length of subject, excluding tracked id, after which it will be trimmed. Note that this should be as small as possible to avoid tracked id information from being lost. Default is 200.
-* **Email "From" address**: *(required)* Address that notification email would be delivered from. Likely the same **SMTP user** specified for the [default mail service](#configuredefaultmailservice). Default is `no-reply@example.com`.
+* **[!UICONTROL Maximum length of Subject]**: If tracker id is added to subject line, this is the maximum length of subject, excluding tracked id, after which it will be trimmed. Note that this should be as small as possible to avoid tracked id information from being lost. Default is 200.
+* **[!UICONTROL Email "From" address]**: *(required)* Address that notification email would be delivered from. Likely the same **SMTP user** specified for the [default mail service](#configuredefaultmailservice). Default is `no-reply@example.com`.
 
-* **Reply-to-Delimiter**: If tracker id is added to Reply-to header, this delimiter will be used. Default is `+` (plus sign).
+* **[!UICONTROL Reply-to-Delimiter]**: If tracker id is added to Reply-to header, this delimiter will be used. Default is `+` (plus sign).
 
-* **Tracker Id prefix in subject**: If tracker id is added to subject line, this prefix will be used. Default is `post#`.
+* **[!UICONTROL Tracker Id prefix in subject]**: If tracker id is added to subject line, this prefix will be used. Default is `post#`.
 
-* **Tracker id prefix in message body**: If tracker id is added to message body, this prefix will be used. Default is `Please do not remove this:`.
+* **[!UICONTROL Tracker id prefix in message body]**: If tracker id is added to message body, this prefix will be used. Default is `Please do not remove this:`.
 
-* **Email as HTML**: If checked, Content-Type of email will be set as `"text/html;charset=utf-8"`. Default is checked.
+* **[!UICONTROL Email as HTML]**: If checked, Content-Type of email will be set as `"text/html;charset=utf-8"`. Default is checked.
 
-* **Default user name**: This name will be used for no name users. Default is `no-reply@example.com`.
+* **[!UICONTROL Default user name]**: This name will be used for no name users. Default is `no-reply@example.com`.
 
-* **Templates root path**: The email is built using template stored at this root path. Default is `/etc/community/templates/subscriptions-email`.
+* **[!UICONTROL Templates root path]**: The email is built using template stored at this root path. Default is `/etc/community/templates/subscriptions-email`.
 
 ## Configure Polling Importer {#configure-polling-importer}
 
@@ -140,18 +140,18 @@ In order for the email to be brought into the repository, it is necessary to con
 
 ![chlimage_1-102](assets/chlimage_1-102.png)
 
-* **Type**: *(required)* Pull down to select `POP3 (over SSL).`
+* **[!UICONTROL Type]**: *(required)* Pull down to select `POP3 (over SSL).`
 
-* **URL**: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-emailgmail.com&password=****`
+* **[!UICONTROL URL]**: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-emailgmail.com&password=****`
 
-* **Import to Path&ast;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails` 
+* **[!UICONTROL Import to Path]**&ast;: *(required)* Set to `/content/usergenerated/mailFolder/postEmails` 
   by browsing to the `postEmails`folder and select **OK**
 
-* **Update Interval in Seconds**: *(optional)* The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.
+* **[!UICONTROL Update Interval in Seconds]**: *(optional)* The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.
 
-* **Login**: *(optional)* 
+* **[!UICONTROL Login]**: *(optional)* 
 
-* **Password**: *(optional)*
+* **[!UICONTROL Password]**: *(optional)*
 
 * Select **[!UICONTROL OK]**
 

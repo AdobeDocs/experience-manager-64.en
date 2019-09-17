@@ -218,7 +218,7 @@ You can configure an adaptive form to sync, submit, and trigger a workflow from 
 
 An administrator (a member of fd-administrators group) can configure a network folder to run a pre-configured workflow when a user places a file (such as a PDF file) in the folder. After the workflow completes, it can save the result file to a specified output folder. Such a folder is known as [Watched Folder](/help/forms/using/watched-folder-in-aem-forms.md). Perform the following procedure to configure a watched folder to launch a workflow:
 
-1. On your AEM author instance, go to ![tools](assets/tools.png) **> **[!UICONTROL Forms]**&gt; Configure Watched Folder.** A list of already configured watched folders is displayed.
+1. On your AEM author instance, go to ![tools](assets/tools.png) **[!UICONTROL Forms > Configure Watched Folder]**. A list of already configured watched folders is displayed.
 1. Tap **[!UICONTROL New]**. A list of fields is displayed. Specify a value for the following fields to configure a Watched Folder for a workflow:
 
 <table> 

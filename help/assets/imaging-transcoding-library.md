@@ -113,7 +113,7 @@ You can configure the following options for the` `-resize` `parameter:`
 
 1. Download the <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg">Imaging transcoding library package</a> (version 1.4) and install it using Crx Package Manager. Supported Platforms are RHEL7 and CentOS7.  
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Workflow &gt; Models]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
 1. From the **[!UICONTROL Workflow Models]** page, open the **[!UICONTROL DAM Update Asset]** workflow model in edit mode.
 1. Open the **[!UICONTROL Process Thumbnails]** workflow process step. In the **[!UICONTROL Thumbnails]** tab, add the MIME types for which you want to skip the default thumbnail generation process in the **[!UICONTROL Skip Mime Types]** list. For example, if you want to create thumbnails for a JPEG image using Imaging Transcoding Library, specify `skip:image/jpeg` in the Skip Mime Types field.
 
