@@ -251,7 +251,7 @@ After you have configured the replication agent, you need to [validate and test 
 >
 >An image that requires more than the maximum memory limit will be rejected.
 >
->To change the memory limit for PTIFF creation, navigate to **[!UICONTROL Tools &gt; Operations &gt; Web Console &gt; Adobe CQ Scene7 PTiffManager]** and change the **[!UICONTROL maxMemory]** value.
+>To change the memory limit for PTIFF creation, navigate to **[!UICONTROL Tools > Operations > Web Console > Adobe CQ Scene7 PTiffManager]** and change the **[!UICONTROL maxMemory]** value.
 
 ### Setting up Authentication {#setting-up-authentication}
 
@@ -260,7 +260,7 @@ You need to set up replication authentication on author in order to replicate im
 **To set up authentication**:
 
 1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account. 
-1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools &gt;  Security &gt; Users]**.
+1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools > Security > Users]**.
 1. On the User Management page, navigate to the **[!UICONTROL dynamic-media-replication]** user, then tap to open.
 
    ![dm-replication](assets/dm-replication.png)
@@ -293,7 +293,7 @@ You need to set up replication authentication on author in order to replicate im
 
 ### Configuring the Replication Agent {#configuring-the-replication-agent}
 
-1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools &gt;  Deployment &gt; Replication &gt; Agents on author]**.
+1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools > Deployment > Replication > Agents on author]**.
 1. On the Agents on author page, tap **[!UICONTROL Dynamic Media Hybrid Image Replication (s7delivery)]**.
 1. Tap **[!UICONTROL Edit]**.
 1. Tap the **[!UICONTROL Settings]** tab, then enter the following:
@@ -452,7 +452,7 @@ Replicate log example:
 
 **Solution:**
 
-1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
+1. In AEM, tap **[!UICONTROL Tools >  General > CRXDE Lite]**.
 
    `localhost:4502/crx/de/index.jsp`
 
@@ -477,7 +477,7 @@ Be sure you have already done the following prior to beginning this test:
 
 To test your configuration:
 
-1. Upload an image asset. (In Assets, tap **[!UICONTROL Create &gt; Files]** and select the file.)
+1. Upload an image asset. (In Assets, tap **[!UICONTROL Create > Files]** and select the file.)
 1. Wait for the workflow to finish.
 1. Publish the image asset. (Select the asset and tap **[!UICONTROL Quick Publish]**.)
 1. Navigate to the renditions for that image by opening the image, and tapping **[!UICONTROL Renditions]**.
@@ -502,7 +502,7 @@ As part of the configuration, you need to enter a registration ID, video service
 
 **To configure dynamic media cloud services**:
 
-1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; Cloud Services &gt; Dynamic Media Configuration (Pre-6.3)]**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools > Cloud Services > Dynamic Media Configuration (Pre-6.3)]**.
 1. On the **[!UICONTROL Dynamic Media Configuration Browser]** page, in the left pane, select **[!UICONTROL global]**, then tap **[!UICONTROL Create]**.
 1. In the **[!UICONTROL Create Dynamic Media Configuration]** dialog box, in the **[!UICONTROL Title]** field, type a title.
 1. If you are configuring Dynamic Media for video,
@@ -583,7 +583,7 @@ Make sure that the Video Analytics preset package from the first Author node is 
 
     * **Check the Video Analytics preset through the Video Reporting tool in AEM**
 
-      Tap **[!UICONTROL Tools &gt; Assets &gt; Video Reporting]** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
+      Tap **[!UICONTROL Tools > Assets > Video Reporting]** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
   
       If you see the following error message, the report suite is available, but unpopulated. This error is correct--and desired--in a new installation before the system collects any data.
 
@@ -708,12 +708,12 @@ If you are using Dynamic Media for 1) imaging in production _or_ 2) imaging and 
 
 If you are using Dynamic Media for video-only, follow these steps to set up asset filters for replication:
 
-1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; Deployment &gt; Replication &gt; Agents on author]**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools > Deployment > Replication > Agents on author]**.
 1. On the Agents on author page, tap **[!UICONTROL Default Agent (publish)]**.
 1. Tap **[!UICONTROL Edit]**.
 1. In the **[!UICONTROL Agent Settings]** dialog box, in the [!UICONTROL Settings] tab, check **[!UICONTROL Enabled]** to turn on the agent.
 1. Tap **[!UICONTROL OK]**.
-1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
+1. In AEM, tap **[!UICONTROL Tools > General > CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters`
 1. Locate [!UICONTROL filter-video], right-click it and select **[!UICONTROL Copy]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/publish`
@@ -725,12 +725,12 @@ This sets up the AEM publish instance to deliver the video poster image as well 
 
 If you are using Dynamic Media for imaging in non-production deployments, follow these steps to set up asset filters for replication:
 
-1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; Deployment &gt; Replication &gt; Agents on author]**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools > Deployment > Replication > Agents on author]**.
 1. On the Agents on author page, tap **[!UICONTROL Default Agent (publish)]**.
 1. Tap **[!UICONTROL Edit]**.
 1. In the **[!UICONTROL Agent Settings]** dialog box, in the **[!UICONTROL Settings]** tab, check **[!UICONTROL Enabled]** to turn on the agent.
 1. Tap **[!UICONTROL OK]**.
-1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
+1. In AEM, tap **[!UICONTROL Tools > General > CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters`
 
    ![image-2018-01-16-10-22-40-410](assets/image-2018-01-16-10-22-40-410.png)
@@ -754,14 +754,14 @@ This sets up the AEM publish instance to deliver the images to your non-producti
 
 To optionally customize asset filters for replication:
 
-1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap **[!UICONTROL Tools > General > CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
    ![chlimage_1-511](assets/chlimage_1-511.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
-   In the left rail, expand **[!UICONTROL content > dam > <`locate_your_asset`&gt; &gt; jcr:content &gt; metadata]**, and then in the table, locate `dc:format`.
+   In the left rail, expand **[!UICONTROL content > dam > <`locate_your_asset`> > jcr:content > metadata]**, and then in the table, locate `dc:format`.
 
    The following graphic is an example of an asset's path to `dc:format`.
 
@@ -798,7 +798,7 @@ To optionally customize asset filters for replication:
  </tbody> 
 </table>
 
-   Navigate to `content/dam/<locate_your_asset&gt;/jcr:content/renditions`.
+   Navigate to `content/dam/<locate_your_asset>/jcr:content/renditions`.
 
    The following graphic is an example of an asset's renditions.
 
@@ -820,8 +820,8 @@ Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 
 
 **To configure Dynamic Media Image Server settings**:
 
-1. In the upper-left corner of AEM, tap **[!UICONTROL Adobe Experience Manager]** to access the global navigation console, then tap **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
-1. On the **[!UICONTROL Adobe Experience Manager Web Console Configuration]** page, tap **[!UICONTROL OSGi &gt; Configuration]** to list all the bundles that are currently running within AEM.
+1. In the upper-left corner of AEM, tap **[!UICONTROL Adobe Experience Manager]** to access the global navigation console, then tap **[!UICONTROL Tools > Operations > Web Console]**.
+1. On the **[!UICONTROL Adobe Experience Manager Web Console Configuration]** page, tap **[!UICONTROL OSGi > Configuration]** to list all the bundles that are currently running within AEM.
 
    The Dynamic Media Delivery Servers are found under the following names in the list:
 
@@ -894,7 +894,7 @@ Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 
 
 The default manifest lets you configure the defaults that are used to generate the Dynamic Media Delivery responses. You can fine tune quality (JPEG quality, resolution, resampling mode), caching (expiration), and prevent the rendering of images that are too large (defaultpix, defaultthumbpix, maxpix).
 
-The location of the default manifest configuration is taken from the **[!UICONTROL Catalog root]** default value of the **[!UICONTROL Adobe CQ Scene7 PlatformServer]** bundle. By default this value is located at the following path within **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**:
+The location of the default manifest configuration is taken from the **[!UICONTROL Catalog root]** default value of the **[!UICONTROL Adobe CQ Scene7 PlatformServer]** bundle. By default this value is located at the following path within **[!UICONTROL Tools > General > CRXDE Lite]**:
 
 `/conf/global/settings/dam/dm/imageserver/`
 
@@ -1003,7 +1003,7 @@ After you install the feature pack, you need to configure the appropriate defaul
 
 **To configure the default color profiles**:
 
-1. In **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**, navigate to `/conf/global/settings/dam/dm/imageserver/configuration/settings` which contains the default Adobe Color Profiles.
+1. In **[!UICONTROL Tools > General > CRXDE Lite]**, navigate to `/conf/global/settings/dam/dm/imageserver/configuration/settings` which contains the default Adobe Color Profiles.
 
    ![chlimage_1-514](assets/chlimage_1-514.png)
 

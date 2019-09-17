@@ -92,7 +92,7 @@ The following table identifies best practice encoding profiles for adaptive vide
 
 Dynamic Media already comes with a predefined Adaptive Video Encoding profile&ndash;a group of video upload settings for MP4 H.264&ndash;that is optimized for the best viewing experience. You can use this profile when you upload your videos.
 
-However, if this predefined profile does not meet your needs, you can choose to create your own adaptive video encoding profile. When you use the setting **[!UICONTROL Encode for adaptive streaming]**&ndash;*a best practice*&ndash;all encoding presets that you add to the profile are validated to ensure that all videos have the same aspect ratio. In addition, the encoded videos are treated as a multi-bitrate set for streaming.
+However, if this predefined profile does not meet your needs, you can choose to create your own adaptive video encoding profile. When you use the setting **[!UICONTROL Encode for adaptive streaming]**&ndash;*a best practice*&ndash; all encoding presets that you add to the profile are validated to ensure that all videos have the same aspect ratio. In addition, the encoded videos are treated as a multi-bitrate set for streaming.
 
 When you create the video encoding profile, you will notice that most encoding options are pre-populated with recommended default settings to help you. However, if you select a value other than the recommended default, be aware that it may result in poor video quality during playback and other performance issues.
 
@@ -119,7 +119,7 @@ When you are done creating the video profile, you apply it to a folder or multip
 
 **To create a Dynamic Media video encoding profile for adaptive streaming**:
 
-1. Tap or click the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Video Profiles]**.
+1. Tap or click the AEM logo and navigate to **[!UICONTROL Tools > Assets > Video Profiles]**.
 1. Tap **[!UICONTROL Create]** to add a new video profile.  
 
 1. Enter a name and description for the profile.
@@ -169,7 +169,7 @@ When you are done creating the video profile, you apply it to a folder or multip
 
 **To create a Dynamic Media video encoding profile for progressive streaming:**
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Video Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Video Profiles]**.
 1. Tap **[!UICONTROL Create]** to add a new video profile.
 1. Enter a name and description for the profile.
 1. Clear the **[!UICONTROL Encode for adaptive streaming]** check box.
@@ -199,7 +199,7 @@ You can edit an existing video encoding profile to take advantage of advanced vi
 
 **To use custom-added video encoding parameters**:
 
-1. Tap the AEM logo, then navigate to **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
+1. Tap the AEM logo, then navigate to **[!UICONTROL Tools > General > CRXDE Lite]**.
 1. From the **[!UICONTROL CRXDE Lite]** page, in the **[!UICONTROL Explorer]** panel on the left, navigate to the following:
 
    `/conf/global/settings/dam/dm/presets/video/*name_of_video_encoding_profile_to_edit*`
@@ -271,7 +271,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 **To edit a Dynamic Media video encoding profile**:
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Video Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Video Profiles]**.
 1. On the **[!UICONTROL Video Profiles]** page, check one video profile name.
 1. On the toolbar, tap **[!UICONTROL Edit]**.
 1. On the **[!UICONTROL Video Encoding Profile]** page, edit the name and description, as desired.
@@ -287,7 +287,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 ### Copying a Dynamic Media video encoding profile {#copying-a-video-encoding-profile}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Video Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Video Profiles]**.
 1. On the **[!UICONTROL Video Profiles]** page, check one video profile name.
 1. On the toolbar, tap **[!UICONTROL Copy]**.
 1. On the **[!UICONTROL Video Encoding Profile]** page, enter a new name for the profile.
@@ -302,7 +302,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 ### Deleting a Dynamic Media video encoding profile {#deleting-a-video-encoding-profile}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Video Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Video Profiles]**.
 1. On the **[!UICONTROL Video Profiles]** page, check one or more video profile names.
 1. On the toolbar, tap **[!UICONTROL Delete]**.
 1. Tap **[!UICONTROL OK]**.
@@ -327,7 +327,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 #### Applying Dynamic Media video profiles to folders from Profiles user interface {#applying-video-profiles-to-folders-from-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Video Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Video Profiles]**.
 1. Select the video profile that you want to apply to a folder or multiple folders.
 1. Tap **[!UICONTROL Apply Profile to Folder(s)]** and select the folder or multiple folders you want use to receive the newly uploaded assets and tap **[!UICONTROL Apply]**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
@@ -359,7 +359,7 @@ You can remove a video profile from a folder from within the **[!UICONTROL Tools
 
 ### Removing Dynamic Media video profiles from folders by way of Profiles user interface {#removing-video-profiles-from-folders-via-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Video Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Video Profiles]**.
 1. Select the video profile that you want to remove from a folder or multiple folders.
 1. Tap **[!UICONTROL Remove Profile from Folder(s)]** and select the folder or multiple folders you want use to remove the profile from and tap **[!UICONTROL Remove]**.
 
