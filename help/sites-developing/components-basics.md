@@ -28,35 +28,35 @@ Before starting to actually configure or code your component you should ask:
 
 * What exactly do you need the new component to do?
 
-    * A clear specification helps at all stages of development, testing and handover.
+  * A clear specification helps at all stages of development, testing and handover.
 
       Details may change over time, but the specification can be updated (though changes should be documented too).
 
 * Do you need to create your component from scratch, or can you inherit the basics from an existing component?
 
-    * There is no need to reinvent the wheel.
-    * There are several mechanisms provided by AEM to allow you to inherit and extend details from another component definition including override, overlay, and the [Sling Resource Merger](/help/sites-developing/sling-resource-merger.md).
+  * There is no need to reinvent the wheel.
+  * There are several mechanisms provided by AEM to allow you to inherit and extend details from another component definition including override, overlay, and the [Sling Resource Merger](/help/sites-developing/sling-resource-merger.md).
 
 * Will your component require logic to select/manipulate the content?
 
-    * Logic should be kept separate from the user interface layer. HTL is designed to help ensure this happens.
+  * Logic should be kept separate from the user interface layer. HTL is designed to help ensure this happens.
 
 * Will your component need CSS formatting?
 
-    * CSS formatting should be kept separate from the component definitions. Define conventions for naming your HTML elements so that you can modify them through external CSS files.
+  * CSS formatting should be kept separate from the component definitions. Define conventions for naming your HTML elements so that you can modify them through external CSS files.
 
 * What security aspects should I take into consideration?
 
-    * See [Security Checklist - Development Best Practices](/help/sites-administering/security-checklist.md#development-best-practices) for further details.
+  * See [Security Checklist - Development Best Practices](/help/sites-administering/security-checklist.md#development-best-practices) for further details.
 
 ### Touch-Enabled vs Classic UI {#touch-enabled-vs-classic-ui}
 
 Before any serious discussion starts about developing components you need to know which UI your authors will be using:
 
-* **Touch-Enabled UI** 
+* **Touch-Enabled UI**
   [The standard user interface](/help/sites-developing/touch-ui-concepts.md) that was introduced in AEM 5.6.0 as a preview and extended in 6.x. It is based on the unified user experience for the Adobe Marketing Cloud, using the underlying technologies of [Coral UI](/help/sites-developing/touch-ui-concepts.md#coral-ui) and [Granite UI](/help/sites-developing/touch-ui-concepts.md#granite-ui).  
 
-* **Classic UI** 
+* **Classic UI**
   User interface based on ExtJS technology that was introduced with CQ 5.1.
 
 See [UI Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md) for more details.
@@ -114,16 +114,16 @@ Use the following tools to move your components to the publish instance:
 
 * Page:
 
-    * AEM has the *page* component ( `cq:Page`).
-    * This is a specific type of resource that is important for content management.
+  * AEM has the *page* component ( `cq:Page`).
+  * This is a specific type of resource that is important for content management.
     * A page corresponds to a web page holding content for your website.
 
 * Paragraph systems:
 
-    * The paragraph system is a key part of a website as it manages a list of paragraphs. It is used to hold and structure the individual components that hold the actual content.
-    * You can create, move, copy, and delete paragraphs in the paragraph system.
-    * You can also select the components to be available for use within a specific paragraph system.
-    * There are various paragraph systems available within a standard instance (for example `parsys`, ` [responsivegrid](/help/sites-authoring/responsive-layout.md)`).
+  * The paragraph system is a key part of a website as it manages a list of paragraphs. It is used to hold and structure the individual components that hold the actual content.
+  * You can create, move, copy, and delete paragraphs in the paragraph system.
+  * You can also select the components to be available for use within a specific paragraph system.
+  * There are various paragraph systems available within a standard instance (for example `parsys`, ` [responsivegrid](/help/sites-authoring/responsive-layout.md)`).
 
 ## Structure {#structure}
 
@@ -155,26 +155,26 @@ The definition of a component can be broken down as follows:
 * AEM components are based on [Sling](https://sling.apache.org/documentation.html).
 * AEM components are (usually) located under:
 
-    * HTL: `/libs/wcm/foundation/components` 
-    * JSP: `/libs/foundation/components`
+  * HTL: `/libs/wcm/foundation/components` 
+  * JSP: `/libs/foundation/components`
 
 * Project/Site specific components are (usually) located under:
 
-    * `/apps/<myApp>/components`
+  * `/apps/<myApp>/components`
 
 * AEM standard components are defined as `cq:Component` and have the key elements:
 
-    * jcr properties: 
+  * jcr properties: 
 
-      A list of jcr properties; these are variable and some may be optional though the basic structure of a component node, its properties and subnodes are defined by the `cq:Component` definition
+    A list of jcr properties; these are variable and some may be optional though the basic structure of a component node, its properties and subnodes are defined by the `cq:Component` definition
 
-    * Resources: 
+  * Resources: 
 
-      These define static elements used by the component.
+    These define static elements used by the component.
 
-    * Scripts: 
+   * Scripts: 
 
-      Are used to implement the behavior of the resulting instance of the component.
+    Are used to implement the behavior of the resulting instance of the component.
 
 * **Root Node**:
 
@@ -182,33 +182,33 @@ The definition of a component can be broken down as follows:
 
 * **Vital Properties**:
 
-    * `jcr:title` - Component title; for example, used as a label when the component is listed in the components browser or sidekick.
-    * `jcr:description` - Description for the component; can be used as mouse-over hint in the components browser or sidekick.
-    * Classic UI:
+  * `jcr:title` - Component title; for example, used as a label when the component is listed in the components browser or sidekick.
+  * `jcr:description` - Description for the component; can be used as mouse-over hint in the components browser or sidekick.
+  * Classic UI:
 
-        * `icon.png` - Icon for this component.
-        * `thumbnail.png` - Image shown if this component is listed within the paragraph system.
+      * `icon.png` - Icon for this component.
+      * `thumbnail.png` - Image shown if this component is listed within the paragraph system.
 
-    * Touch UI
+  * Touch UI
 
-        * See the section [Component Icon in Touch UI](/help/sites-developing/components-basics.md#component-icon-in-touch-ui) for details.
+      * See the section [Component Icon in Touch UI](/help/sites-developing/components-basics.md#component-icon-in-touch-ui) for details.
 
 * **Vital Child Nodes**:
 
-    * `cq:editConfig (cq:EditConfig)` - Defines the edit properties of the component and enables the component to appear in the Components browser or Sidekick.
+  * `cq:editConfig (cq:EditConfig)` - Defines the edit properties of the component and enables the component to appear in the Components browser or Sidekick.
 
-      Note: if the component has a dialog, it will automatically appear in the Components browser or Sidekick, even if the cq:editConfig does not exist.
+    Note: if the component has a dialog, it will automatically appear in the Components browser or Sidekick, even if the cq:editConfig does not exist.
 
-    * `cq:childEditConfig (cq:EditConfig)` - Controls author UI aspects for child components that do not define their own `cq:editConfig`. 
-    * Touch-Enabled UI:
+  * `cq:childEditConfig (cq:EditConfig)` - Controls author UI aspects for child components that do not define their own `cq:editConfig`. 
+  * Touch-Enabled UI:
 
-        * `cq:dialog` ( `nt:unstructured`) - Dialog for this component. Defines the interface allowing the user to configure the component and/or edit content. 
-        * `cq:design_dialog` ( `nt:unstructured`) - Design editing for this component
+      * `cq:dialog` ( `nt:unstructured`) - Dialog for this component. Defines the interface allowing the user to configure the component and/or edit content. 
+      * `cq:design_dialog` ( `nt:unstructured`) - Design editing for this component
 
-    * Classic UI:
+  * Classic UI:
 
-        * `dialog` ( `cq:Dialog`) - Dialog for this component. Defines the interface allowing the user to configure the component and/or edit content. 
-        * `design_dialog` ( `cq:Dialog`) - Design editing for this component.
+      * `dialog` ( `cq:Dialog`) - Dialog for this component. Defines the interface allowing the user to configure the component and/or edit content. 
+      * `design_dialog` ( `cq:Dialog`) - Design editing for this component.
 
 #### Component Icon in Touch UI {#component-icon-in-touch-ui}
 
@@ -288,7 +288,7 @@ A component is a node of type `cq:Component` and has the following properties an
   </tr> 
   <tr> 
    <td><code>cq:isContainer</code></td> 
-   <td><code>String</code></td> 
+   <td><code>Boolean</code></td> 
    <td>Indicates whether the component is a container component and therefore can contain other components such as a paragraph system.</td> 
   </tr> 
   <tr> 
