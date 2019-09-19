@@ -1,13 +1,12 @@
 ---
 title: AEM 6.4 Service Pack Release Notes
 seo-title: AEM 6.4 Service Pack Release Notes
-description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 6.
-seo-description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 6.
+description: Release notes specific to Adobe Experience Manager 6.4 Service Packs.
+seo-description: Release notes specific to Adobe Experience Manager 6.4 Service Packs.
 uuid: 49a710a8-7cd5-47de-9a96-7af7f3c00dfc
-contentOwner: User
+contentOwner: dekalra
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
-content-type: reference
 discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 ---
 
@@ -39,7 +38,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 
 ### Assets {#assets}
 
-* Asset share link of a folder with space and "&" character in the name displays blank gray cards for some assets. NPR-29934: Hotfix for CQ-4270187
+* Asset share link of a folder with space and `&` character in the name displays blank gray cards for some assets. NPR-29934: Hotfix for CQ-4270187
 * DAM Workflow crashes while creating MP4 assets for AEM. NPR-30031: Hotfix for CQ-4271352
 * Adobe Smart Tag connectivity issue through Datapower. NPR-30026: Hotfix for CQ-4269457
 * PDF cannot be found using OmniSearch. NPR-30046: Hotfix for GRANITE-26290
@@ -58,7 +57,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 ### Sites {#sites}
 
 * pageinfo.json requests are extremely slow and take too long to load. NPR-29709: Hotfix for CQ-4269560
-* 'onTime' or 'offTime' metadata properties saved on assets are not recalled if the AEM server gets restarted. NPR-30413: Hotfix for CQ-4272784
+* `onTime` or `offTime` metadata properties saved on assets are not recalled if the AEM server gets restarted. NPR-30413: Hotfix for CQ-4272784
 * Due to incorrect behavior of ConfigPostProcessor class, suspending parent page removes cq: LiveRelationship mixing type from the child page. NPR-30536, NPR-30510: Hotfix for CQ-4254113
 * Cross-site scripting (XSS) on the at Start workflow dialog in Campaign editing page. NPR-29747: Hotfix for CQ-4271067
 * [Classic UI] The Workflow lock stage disables the workflow tab until the lock is released. NPR-30356: Hotfix for CQ-4237557
