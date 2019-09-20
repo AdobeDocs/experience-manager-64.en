@@ -1890,7 +1890,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 ### Uber Jar {#uber-jar}
 
-The Uber Jar for AEM 6.4.6.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.6/).
+The Uber Jar for AEM 6.4.5.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.5/).
 
 To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
