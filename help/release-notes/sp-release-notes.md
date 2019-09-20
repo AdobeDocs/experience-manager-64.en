@@ -126,9 +126,16 @@ Some of the key highlights of AEM 6.4.6.0 are:
 
 ### Forms {#forms}
 
+<!--
 >[!NOTE]
 >
->AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](#install-aem-forms-jee-installer) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
+
+-->
+
+>[!NOTE]
+>
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package).
 
 ### Forms add-on package {#forms-add-on-package}
 
@@ -151,6 +158,8 @@ Some of the key highlights of AEM 6.4.6.0 are:
 #### HTML5 Forms {#html5-forms}
 
 * When using NonVisual Desktop Access in Browse mode to read an HTML5 form, the Chrome browser reads "graphic" before each Scalable Vector Graphic (SVG) in the form design. NPR-30450: Hotfix for CQ-4274732
+
+<!--
 
 ### Forms JEE installer {#forms-jee-installer}
 
@@ -175,6 +184,8 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * Connection error while trying to convert Word document to PDF on Windows Server 2016. NPR-30597: Hotfix for CQ-4275652
 * Permission denied exception when trying to use the HTML to PDF backend service via the "phantomjs" library. NPR-30456: Hotfix for CQ-4258077
 * maxReuseCount for HTML to PDF service is not shown with JBoss Management Console. NPR-30303, NPR-30135: Hotfix for CQ-4273763
+
+-->
 
 ### Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
 
@@ -1843,6 +1854,8 @@ which will copy new viewer presets to /conf location.
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.
 1. Install the forms add-on package as described in [Installing AEM forms add-on packages](https://helpx.adobe.com/experience-manager/6-4/forms/using/installing-configuring-aem-forms-osgi.html#InstallAEMFormsaddonpackage).
 
+<!--
+
 ### Install AEM Forms JEE installer {#install-aem-forms-jee-installer}
 
 >[!NOTE]
@@ -1850,6 +1863,8 @@ which will copy new viewer presets to /conf location.
 >Skip if you are not using AEM Forms on JEE. Fixes in AEM Forms JEE are delivered through a separate installer.
 
 For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0009](https://helpx.adobe.com/aem-forms/quick-fixes/6-4/jee-patch-0009.html).
+
+-->
 
 #### Configuration settings required for NPR-21268 {#configuration-settings-required-for-npr}
 
@@ -1875,7 +1890,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 ### Uber Jar {#uber-jar}
 
-The Uber Jar for AEM 6.4.6.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.5/).
+The Uber Jar for AEM 6.4.6.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.6/).
 
 To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
