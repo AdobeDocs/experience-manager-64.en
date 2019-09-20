@@ -1900,16 +1900,27 @@ This section lists features and capabilities that have been removed or deprecate
 
 ### Known Issues {#known-issues}
 
-The following errors and warnings may occur during installation of AEM 6.4.6.0 and can be safely ignored as they do not impact your AEM instance:
+* After installing the service pack 6.4.6, you may see multiple entries for `Apache Commons Codec` in the `system/console`bundles. To resolve this, execute the following command. 
+`sh removing-commons.codec-1.11.0.sh <host> <port> <username> <password>`
+For example:
+`sh removing-commons.codec-1.11.0.sh or1010050214114 4502 admin admin`
 
-* Errors as create component instance and Service factory returned null occurs due to repository restart:
+  The script removes all entries of `Apache Commons Codec` but except the latest version, which is greater than 1.11.0.
 
-    * com.day.cq.cq-personalization [com.day.cq.personalization.impl.DefaultProfileProvider(938)] Cannot create component instance due to failure to bind reference profileManager
-    * org.apache.sling.commons.scheduler FrameworkEvent ERROR (org.osgi.framework.ServiceException: Service factory returned null. (Component: com.day.cq.tagging.impl.TagGarbageCollector (1687)))
+  > [Note]
+  >
+  > Ensure that the username and password provided in the command must be of the user who installed the service pack.
 
-* `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)]` : Timeout waiting for reg change to complete unregistered.
-* `com.adobe.granite.maintenance.impl.TaskScheduler` No maintenance windows found at granite/operations/maintenance
-* `com.adobe.cq.com.adobe.cq.ui.commons bundle com.adobe.cq.com.adobe.cq.ui.commons:1.2.28 (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)]`: The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).
+* The following errors and warnings may occur during installation of AEM 6.4.6.0 and can be safely ignored as they do not impact your AEM instance:
+
+  * Errors as create component instance and Service factory returned null occurs due to repository restart:
+
+      * com.day.cq.cq-personalization [com.day.cq.personalization.impl.DefaultProfileProvider(938)] Cannot create component instance due to failure to bind reference profileManager
+      * org.apache.sling.commons.scheduler FrameworkEvent ERROR (org.osgi.framework.ServiceException: Service factory returned null. (Component: com.day.cq.tagging.impl.TagGarbageCollector (1687)))
+
+  * `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)]` : Timeout waiting for reg change to complete unregistered.
+  * `com.adobe.granite.maintenance.impl.TaskScheduler` No maintenance windows found at granite/operations/maintenance
+  * `com.adobe.cq.com.adobe.cq.ui.commons bundle com.adobe.cq.com.adobe.cq.ui.commons:1.2.28 (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)]`: The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).
 
 ### Resolved Issues {#resolved-issues}
 
