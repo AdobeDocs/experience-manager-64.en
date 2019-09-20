@@ -1925,7 +1925,7 @@ This section lists features and capabilities that have been removed or deprecate
 
   The command retains the latest version (greater than 1.11.0) of `Apache Commons Codec` and removes other entries.
 
-  > [Note]
+  > [!Note]
   >
   > Ensure that the username and password provided in the command must be of the user who installed the service pack.
 
