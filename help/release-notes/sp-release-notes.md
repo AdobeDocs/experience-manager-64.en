@@ -1900,12 +1900,15 @@ This section lists features and capabilities that have been removed or deprecate
 
 ### Known Issues {#known-issues}
 
-* After installing the service pack 6.4.6, you may see multiple entries for `Apache Commons Codec` in the `system/console`bundles. To resolve this, execute the following command. 
-`sh removing-commons.codec-1.11.0.sh <host> <port> <username> <password>`
-For example:
-`sh removing-commons.codec-1.11.0.sh or1010050214114 4502 admin admin`
+* After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this, execute the following command:
 
-  The script removes all entries of `Apache Commons Codec` but except the latest version, which is greater than 1.11.0.
+  `sh removing-commons.codec-1.11.0.sh <host> <port> <username> <password>`
+
+  For example:
+
+  `sh removing-commons.codec-1.11.0.sh or1010050214114 4502 admin admin`
+
+  The command retains the latest version (greater than 1.11.0) of `Apache Commons Codec` and removes other entries.
 
   > [Note]
   >
