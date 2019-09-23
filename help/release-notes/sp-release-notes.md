@@ -1771,11 +1771,15 @@ List of Content Packages included in AEM 6.4.1.0
 
 #### Setup requirements {#setup-requirements}
 
+<!--
+
 >[!NOTE]
 >
 >For successful installation of AEM 6.4.6.0 on the instance, it is strongly recommended to upgrade the version of com.adobe.granite.oak.s3connector to 1.8.4 for the customers who are on the older version of s3 connector.
 >The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html](https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html).
 >Download the latest version of com.adobe.granite.oak.s3connector from: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/)
+
+-->
 
 >[!CAUTION]
 >
@@ -1914,19 +1918,11 @@ This section lists features and capabilities that have been removed or deprecate
 
 ### Known Issues {#known-issues}
 
-* After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this, execute the following command:
+* After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this execute the following command:
 
   `sh removing-commons.codec-1.11.0.sh <host> <port> <username> <password>`
 
-  For example:
-
-  `sh removing-commons.codec-1.11.0.sh or1010050214114 4502 admin admin`
-
   The command retains the latest version (greater than 1.11.0) of `Apache Commons Codec` and removes other entries.
-
-  > [!Note]
-  >
-  > Ensure that the username and password provided in the command must be of the user who installed the service pack.
 
 * The following errors and warnings may occur during installation of AEM 6.4.6.0 and can be safely ignored as they do not impact your AEM instance:
 
