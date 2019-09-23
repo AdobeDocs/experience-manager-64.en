@@ -48,15 +48,14 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * (Touch UI) During the manage publication wizard, assets are added to the replication queue after the pages are added, hence causing some of the assets to appear after a few seconds. NPR-29985: Hotfix for CQ-4270724
 * Sorting search query by relevance returns InDesign documents along with InDesign templates. Hotfix for CQ-4273864
 * If the user has an uppercase email id, users are not able to check-in for those assets which have been previously checked out. Hotfix for CQ-4276575
-* FPO Selector based redirect does not work for non-ASCII characters and special characters. Hotfix for CQ-4276420
-* Configuring Dynamic Media Cloud Services in DMHybrid mode results in multiple empty report suites created in Analytics with no report suite id stored on AEM resulting in report suite duplication. Hotfix for CQ-4276855
+* Configuring Dynamic Media Cloud Services in `DMHybrid` mode results in multiple empty report suites created in Analytics with no report suite id stored on AEM resulting in report suite duplication. Hotfix for CQ-4276855
 * Warning dialog does not appear while promoting in "Managed Tag" page. Hotfix for CQ-4252851
 * When using the carousel for managing tags, the navigation button does not work. Hotfix for CQ-4275499
-* Bulk Move Asset functionality is broken resulting in non-movement of assets. Hotfix for CQ-4272987
+* Bulk move asset functionality is broken resulting in non-movement of assets. Hotfix for CQ-4272987
 
 ### Sites {#sites}
 
-* pageinfo.json requests are extremely slow and take too long to load. NPR-29709: Hotfix for CQ-4269560
+* `pageinfo.json` requests are extremely slow and take too long to load. NPR-29709: Hotfix for CQ-4269560
 * `onTime` or `offTime` metadata properties saved on assets are not recalled if the AEM server gets restarted. NPR-30413: Hotfix for CQ-4272784
 * Due to incorrect behavior of ConfigPostProcessor class, suspending parent page removes cq: LiveRelationship mixing type from the child page. NPR-30536, NPR-30510: Hotfix for CQ-4254113
 * Cross-site scripting (XSS) on the at Start workflow dialog in Campaign editing page. NPR-29747: Hotfix for CQ-4271067
@@ -145,7 +144,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 
 * Special characters such as less-than (<), greater-than (>) and ampersand (&) get encoded in the Agent UI. NPR-30410: Hotfix for CQ-4273887
 * When triggering text fragment containing Data Dictionary values, the Agent UI becomes unresponsive. NPR-30098, NPR-30083: Hotfix for CQ-4272204
-* Create Correspondence UI (CCR UI) fails intermittently with error variable [object Object]. NPR-29983: Hotfix for CQ-4273874
+* Create Correspondence UI (CCR UI) fails intermittently with error variable (object Object). NPR-29983: Hotfix for CQ-4273874
 * Letter draft reload fails with an exception when the description of Document Fragments contain special characters like less-than (<), greater-than (>) and ampersand (&) in properties. NPR-29930: Hotfix for CQ-4252762
 
 #### HTML5 Forms {#html5-forms}
@@ -439,7 +438,7 @@ Some of the key highlights of AEM 6.4.4.0 are:
   
 * Migrate of ACP and Stock Integration to AEM 6.4.4.0 NPR-27632
 * Publish later empty asset folder with sub-folders makes the sub-folders disappear. NPR-27558: Hotfix for CQ-4254701
-* Addition of Single non-namespaced String[] property causes incomplete XMP writeback. NPR-26805: Hotfix for CQ-4254142
+* Addition of Single non-namespaced String\[\] property causes incomplete XMP writeback. NPR-26805: Hotfix for CQ-4254142
 * After rasterizing the input pdf, the output produced has missing images. NPR-27929: Hotfix for CTG-4150481
 * Move Asset Wizard is showing an incorrect count of Referencing pages for published pages. NPR-27833: Hotfix for CQ-4258014
 * AssetPicker search only the first tag to filter the result when filtering with tags. NPR-27778: Hotfix for CQ-4257705
@@ -576,7 +575,7 @@ Some of the key highlights of AEM 6.4.4.0 are:
   
 **Integration**
   
-* com.day.cq.personalization.impl.TeaserResourceEventHandler goes into an infinite loop and causes updates to nodes on publish instances. NPR-28561: Hotfix for CQ-4263096
+* `com.day.cq.personalization.impl.TeaserResourceEventHandler` goes into an infinite loop and causes updates to nodes on publish instances. NPR-28561: Hotfix for CQ-4263096
 * The cq:actions are not taken in consideration for a targeted component. NPR-27616: Hotfix for CQ-4257497
 * LiveCopy inheritance cancellation does not work properly on targeted containers. NPR-28129: Hotfix for CQ-4259813
 * (Cloud Service Configs) The "inherited from" checkbox appearing at the root level should be removed. NPR-27856:  Hotfix for CQ-4259676
@@ -1338,7 +1337,7 @@ The key highlights for AEM 6.4.2.0 forms are:
   
 * Allow editing a content fragment without delete permissions. For more information, see [Customizing and Extending Content Fragments](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/customizing-content-fragments.html#AssetPermissions). NPR-25793: Hotfix for CQ-4248750 
 * Added the capability to annotate Content Fragments. For more information, see [Variations-Authoring Fragments](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments-variations.html#AnnotatingaContentFragment). NPR-25188: Hotfix for CQ-4235336 
-* Versioning: Compare Content Fragments Side-by-Side. For more information, see [Managing Content Fragments](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments-managing.html#ComparingFragmentVersions). NPR-25187: Hotfix for CQ-4237412 
+* Versioning: Compare Content Fragments Side-by-Side. For more information, see [Managing Content Fragments](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments-managing.html#ComparingFragmentVersions). NPR-25187: Hotfix for CQ-4237412
 * Image Editor enhancements backported to AEM 6.4.2.0. For more information, see [Image Editor](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html). NPR-24467 
   
 **OSGI Bundles and Content Packages Included**
@@ -1591,15 +1590,15 @@ The key highlights for AEM Forms are:
 **Backend Integration**
   
 * An error is generated when providing null as a value to an optional field. NPR-24397
-* WSDL invoking is failing when element has different namespace other than global namespace. NPR-24281 
-* [FDM WSDL] Getting DermisException: Excepted list data in case of property type array. NPR-24265 
-* [FDM WSDL] Getting DermisException: java.lang.Exception: createSOAPParam: Invalid Params. NPR-24264 
-* [FDM Client SDK] Unable to do testing of pre/post preprocessor and custom submit action. Hotfix for CQ-4238469 
-* Fixes for Javadoc issues in Dermis. Hotfix for CQ-4244250 
-* Enhanced input in Web Services Description Language (WSDL). Hotfix for CQ-4244133 
+* WSDL invoking is failing when element has different namespace other than global namespace. NPR-24281
+* (FDM WSDL) Getting DermisException: Excepted list data in case of property type array. NPR-24265
+* (FDM WSDL) Getting DermisException: java.lang.Exception: createSOAPParam: Invalid Params. NPR-24264
+* (FDM Client SDK) Unable to do testing of pre/post preprocessor and custom submit action. Hotfix for CQ-4238469
+* Fixes for Javadoc issues in Dermis. Hotfix for CQ-4244250
+* Enhanced input in Web Services Description Language (WSDL). Hotfix for CQ-4244133
 * Basic authentication testing for WSDL results in different error for same configuration in AEM 6.3 and AEM 6.4. Hotfix for CQ-4244132
 * Request to include ValueUtil in client-sdk and javadocs. Hotfix for CQ-4242803
-* [FDM Cloud Config] Unable to configure SOAP based Authentication from cloud configuration. Hotfix for CQ-4238462
+* (FDM Cloud Config) Unable to configure SOAP based Authentication from cloud configuration. Hotfix for CQ-4238462
 * Dermis - Add missing packages in Javadocs. Hotfix for CQ-4242815
 * WSDLInvokerParams to be included in Forms Add-On client sdk. NPR-23381: Hotfix for CQ-4240233 
   
@@ -1610,11 +1609,11 @@ The key highlights for AEM Forms are:
 * Test case for deep copy of guideContext. Hotfix for CQ-4242924
 * Proof type field is missing on executing the UAT3 on latest upgraded server. Hotfix for CQ-4243120
 * On upgraded server, the submitted form is missing the State/Province/Region and Country values that were present on pre-upgrade server. Hotfix for CQ-4241444
-* [ExpressionEditor] Error while navigating to Verify stage during form submission. Hotfix for CQ-4241384
+* (ExpressionEditor) Error while navigating to Verify stage during form submission. Hotfix for CQ-4241384
 * Values are missing in verify stage on pre-upgrade and upgraded server for submitted form. Hotfix for CQ-4241896
 * Quit and save button at the bottom of the page are not working. Hotfix for CQ-4240112
 * Contact number missing on the upgraded set-up. Hotfix for CQ-4239870
-* Under “ACTION TAKEN” section in Dispute Type tab , “Additional documents to support my claim” has additional field Proof Type Saved “in it. Hotfix for CQ-4239873
+* Under `ACTION TAKEN` section in Dispute Type tab , “Additional documents to support my claim” has additional field Proof Type Saved “in it. Hotfix for CQ-4239873
 * "Error in getDataAPI" erorr encountered at verifyPdf stage. Hotfix for CQ-4239865
 * Errors in migration logs for author and publish instance. Hotfix for CQ-4239365
 * Errors in migration logs for author and publish instance. Hotfix for CQ-4239635
@@ -1622,15 +1621,15 @@ The key highlights for AEM Forms are:
 * State field is not being populated in Mobile form rendition. Hotfix for CQ-4240597
 * Remove reference usage of components in templates from anti-pattern list. Hotfix for CQ-4239217
 * HTML5 Numeric Box set as a Float or Decimal gives different validation results in different browsers. NPR-23528: Hotfix for CQ-4244097
-* [Image upload] Image not getting displayed in DOR preview. Hotfix for CQ-4243178
+* (Image upload) Image not getting displayed in DOR preview. Hotfix for CQ-4243178
 * JEE server throws an error on trying to submit the Adaptive Form with ‘Email PDF’ and ‘Include attachments’. Hotfix for CQ-4239894
 * Chart is not plotted at runtime using table/panel. Hotfix for CQ-4240010
 * Adaptive Form submission is not working and no change in transaction count due to failure of submission. Hotfix for CQ-4246125
-* [Image choice] Document of record options are not visible. Hotfix for CQ-4236976
+* (Image choice) Document of record options are not visible. Hotfix for CQ-4236976
 * Template editor UI is not stable. Hotfix for CQ-4241497
 * AFs are not shown using assets tab of side panel while is shown using browse option for AEM form component property dialog. Hotfix for CQ-4236751
 * Workflow ID generated for form conversion should be available in generated Adaptive Form. Hotfix for CQ-4240014
-* Unable to select template to create a page in sites on Direct Upgrade: Livecycle to 6.4 server. Hotfix for CQ-4241300 
+* Unable to select template to create a page in sites on Direct Upgrade: Livecycle to 6.4 server. Hotfix for CQ-4241300
   
 **Assembler Service**
   
@@ -1653,7 +1652,7 @@ The key highlights for AEM Forms are:
 * The guideContext should be formed by deep copying the fields as guideContext contains customPropertyMap that itself is an object. Hotfix for CQ-4240126
 * Error when trying to save a form. Hotfix for CQ-4240763
 * The entry for saved and submitted forms is getting populated in crx/de despite we have DB configuration given in Forms Portal Draft and Submission Configuration. Hotfix for CQ-4240726
-* [Search &amp; Lister] Advanced search title fixed value should work as contain rather than equal. Hotfix for CQ-4245499
+* (Search &amp; Lister) Advanced search title fixed value should work as contain rather than equal. Hotfix for CQ-4245499
   
 **Mobile Forms**
   
@@ -1663,12 +1662,12 @@ The key highlights for AEM Forms are:
   
 **AEM Forms App**
   
-* [Windows App] Unable to render the form. Hotfix for CQ-4238005
+* (Windows App) Unable to render the form. Hotfix for CQ-4238005
   
 **Workflow OSGI**
   
 * Transaction logging in Workflow Assign Task. Hotfix for CQ-4244440 
-* [FDM Step] Unable to use values from workflow metadata when an Assign Task step is inserted between the process step and fdm step. Hotfix for CQ-4241472
+* (FDM Step) Unable to use values from workflow metadata when an Assign Task step is inserted between the process step and fdm step. Hotfix for CQ-4241472
 * Delegation of assign task does not work in Forms Integration in OSGI Workflows. NPR-23709: Hotfix for CQ-4243700
 * (Workflow Model Editor) Some Workflow Models are not editable via the ClassicUI WF model editor. Hotfix for CQ-4241151
   
@@ -1679,10 +1678,10 @@ The key highlights for AEM Forms are:
 * (IC Editor) Default rows to be set to 1 for Table components. Hotfix for CQ-4244848
 * Target Area to remain visible even after the content has been dragged and dropped on it. Hotfix for CQ-4244534
 * Web channel do not recognize tabs space in Text Document Fragments. Hotfix for CQ-4244481
-* [Print channel] Document (IC) rendition should be logged as a transaction using Transaction Recording Service. Hotfix for CQ-4245335
+* (Print channel) Document (IC) rendition should be logged as a transaction using Transaction Recording Service. Hotfix for CQ-4245335
 * (Web channel) Document (IC) rendition should be logged as a transaction using Transaction Recording Service. Hotfix for CQ-4245334
 * Document Container Search or the Data Model Tree search must be unified to the Asset filter search. Hotfix for CQ-4242305
-* [Document Fragment] The indentation property indents the text by how much units cannot be comprehended. Hotfix for CQ-4241082, CQ-4240643
+* (Document Fragment) The indentation property indents the text by how much units cannot be comprehended. Hotfix for CQ-4241082, CQ-4240643
 * (IC Editor) The Edit Fragment icon on document fragment's tile listed under Assets tab is not very easily discoverable and understandable. Hotfix for CQ-4241047
 * Allow anonymous access to IC Anonymous inaccessible client library. Hotfix for CQ-4245588
 * (Web channel) Data does not resolve in any of the table in web preview and is shown as blank. Hotfix for CQ-4244476
@@ -1721,7 +1720,7 @@ The key highlights for AEM Forms are:
 **Process Management**
   
 * (HTML Workspace) Process Startpoints are not sorted in alphanumerical order. Hotfix for CQ-4239629
-* [HTML workspace] Prepare data call coming up twice when draft is opened the first time. Hotfix for CQ-4243280
+* (HTML workspace) Prepare data call coming up twice when draft is opened the first time. Hotfix for CQ-4243280
 * (HTML Workspace) Prepare Data process gets triggered while closing a form. Hotfix for CQ-4239456
 * Work space hangs when traversed between two tasks. Hotfix for CQ-4237125
   
@@ -1761,11 +1760,15 @@ List of Content Packages included in AEM 6.4.1.0
 
 #### Setup requirements {#setup-requirements}
 
+<!--
+
 >[!NOTE]
 >
 >For successful installation of AEM 6.4.6.0 on the instance, it is strongly recommended to upgrade the version of com.adobe.granite.oak.s3connector to 1.8.4 for the customers who are on the older version of s3 connector.
 >The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html](https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html).
 >Download the latest version of com.adobe.granite.oak.s3connector from: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/)
+
+-->
 
 >[!CAUTION]
 >
@@ -1900,25 +1903,17 @@ This section lists features and capabilities that have been removed or deprecate
 
 ### Known Issues {#known-issues}
 
-* After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this, execute the following command:
+* After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this execute the following command:
 
   `sh removing-commons.codec-1.11.0.sh <host> <port> <username> <password>`
 
-  For example:
-
-  `sh removing-commons.codec-1.11.0.sh or1010050214114 4502 admin admin`
-
   The command retains the latest version (greater than 1.11.0) of `Apache Commons Codec` and removes other entries.
-
-  > [Note]
-  >
-  > Ensure that the username and password provided in the command must be of the user who installed the service pack.
 
 * The following errors and warnings may occur during installation of AEM 6.4.6.0 and can be safely ignored as they do not impact your AEM instance:
 
   * Errors as create component instance and Service factory returned null occurs due to repository restart:
 
-      * com.day.cq.cq-personalization [com.day.cq.personalization.impl.DefaultProfileProvider(938)] Cannot create component instance due to failure to bind reference profileManager
+      * com.day.cq.cq-personalization \[com.day.cq.personalization.impl.DefaultProfileProvider(938)\] Cannot create component instance due to failure to bind reference profileManager
       * org.apache.sling.commons.scheduler FrameworkEvent ERROR (org.osgi.framework.ServiceException: Service factory returned null. (Component: com.day.cq.tagging.impl.TagGarbageCollector (1687)))
 
   * `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)]` : Timeout waiting for reg change to complete unregistered.
