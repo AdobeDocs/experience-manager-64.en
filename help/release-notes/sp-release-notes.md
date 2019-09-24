@@ -858,7 +858,7 @@ Unable to edit tags via tagging. NPR-26957: Hotfix for CQ-4254858
 * Modifications in AEM experiences created through the targeting engine are not published. NPR-24869: Hotfix for CQ-4247832
 * Cannot create multiple activities and experiences if their names include Japanese characters. NPR-27271: Hotfix for CQ-4256857
 * Update Launch API endpoint. NPR-26790: Hotfix for CQ-4254380
-* (Personalization)   BrandsRetriever walks the entire tree. NPR-27060: Hotfix for CQ-4255790
+* (Personalization) BrandsRetriever walks the entire tree. NPR-27060: Hotfix for CQ-4255790
 
 **WCM - Admin UI**
 
@@ -1423,12 +1423,12 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 * TargetContentImpl makes AEM sluggish during long running queries. NPR-22359: Hotfix for CQ-4236907 
 * Target engine (mbox.js, at.js) does not use mangled URLs and uses URLs containing colons which might fail with certain deployments. NPR-22434: Hotfix for CQ-4237854  
 * In Target mode, Authors can modify a component inherited from the blueprint without cancelling the inheritance. NPR-22865: Hotfix for CQ-4237907 
-* (Personalization)   Icons are deformed when switching to Card view. NPR-23373, NPR-23374: Hotfix for CQ-4240018, CQ-4240019 
-* (Personalization)   Audience console does not show nt:folder types. NPR-23375: Hotfix for CQ-4242293 
+* (Personalization) Icons are deformed when switching to Card view. NPR-23373, NPR-23374: Hotfix for CQ-4240018, CQ-4240019 
+* (Personalization) Audience console does not show nt:folder types. NPR-23375: Hotfix for CQ-4242293 
 * When a component is targeted on publish instance, flickering appears showing the default experience before the targeted one. NPR-23415: Hotfix for CQ-4242038 
 * (Adobe IMS Console) AccessTokenProvider OSGi service configuration reappears after deletion. NPR-23520: Hotfix for CQ-4208250 
 * Configuration reference replication fails with intermediate folder structure. NPR-23485: Hotfix for CQ-4242751 
-* (Personalization)   clientlib blocked by the proxy servlet. NPR-23521: Hotfix for CQ-4240995 
+* (Personalization) clientlib blocked by the proxy servlet. NPR-23521: Hotfix for CQ-4240995 
 * (Adobe IMS Console) Registered Cloud Solutions do not get picked up in configuration wizard. NPR-23977: Hotfix for CQ-4244549 
 * Infinite loop when loading targeted content on pages without an HTML extension. NPR-23522: Hotfix for CQ-4223600 
 * Activation fails for a page with inherited Dynamic Tag Management configuration references. NPR-23485: Hotfix for CQ-4242751 
@@ -1481,7 +1481,7 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
   
 **WCM - Translation**
   
-* [Reference Panel] Translation jobs are not getting executed during project creation. Hotfix for CQ-4245327
+* (Reference Panel) Translation jobs are not getting executed during project creation. Hotfix for CQ-4245327
   
 **WCM - MSM**
   
@@ -1508,10 +1508,10 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 **DAM - General**
   
 * Closing the detail view of an asset returns to incorrect search result page. Hotfix for CQ-4240960
-* [Camera Raw] Image adjust option is missing. Hotfix for CQ-4246121
+* (Camera Raw) Image adjust option is missing. Hotfix for CQ-4246121
 * IndexOutOfBoundsException: OOTB Asset Modification report. Hotfix for CQ-4239744
 * Remove confidence score from report csv. Hotfix for CQ-4241491 
-Link share email delivery broken for non "admin" sender. Hotfix for CQ-4240357
+* Link share email delivery broken for non "admin" sender. Hotfix for CQ-4240357
 * Fixing IT failures. Hotfix for CQ-4249891 
   
 **DAM - Brand Portal**
@@ -1530,8 +1530,8 @@ Link share email delivery broken for non "admin" sender. Hotfix for CQ-4240357
 * (DMS7) Editing remote sets in AEM are not overwritten in Scene7. Hotfix for CQ-4243430
 * Verification of 6.4 SP1 build on DM Hybrid. Hotfix for CQ-4244623
 * (DMS7-UA) When clicking the Embed button for a published Video Asset, nothing appears to happen. The Embed dialog is expected to display with HTML code. Hotfix for CQ-4245237
-* [DM Hybrid] Copy URL for published Video Assets or Mixed Media Sets gets “[[object Object]” in the URL dialog. Hotfix for CQ-4245236, CQ-4245451
-* (DMHybrid)(REGR) Video's Details View page does not contain the preview of the Video Asset show and outputs an error message to the console. Hotfix for CQ-4244320
+* (DM Hybrid) Copy URL for published Video Assets or Mixed Media Sets gets “[[object Object]” in the URL dialog. Hotfix for CQ-4245236, CQ-4245451
+* (DMHybrid) Video's Details View page does not contain the preview of the Video Asset show and outputs an error message to the console. Hotfix for CQ-4244320
 * Automatic S7 Encoding of we.retail content. Hotfix for CQ-4242253
 * Pre-Upgrade Video Processing Presets cannot have a new Video Encoding Preset added nor edit the existing Encoding Presets. Hotfix for CQ-4240407
 * Pre-Upgrade Image Presets are shown as Unpublished on Renditions page and does not yield URL. Hotfix for CQ-4240406
