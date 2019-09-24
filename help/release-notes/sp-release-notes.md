@@ -1555,7 +1555,7 @@ Link share email delivery broken for non "admin" sender. Hotfix for CQ-4240357
 * (DMS7) Cloud Configuration: Unable to sync new content with Scene7 after updating to SP1. Hotfix for CQ-4244437
 * (DMHybrid) Color profiles and catalog settings are not registering in a debug_info=catalog call. Hotfix for CQ-4242346
 * Add color profiles to the customer settings on delivery servers. Hotfix for CQ-4241818, CQ-4241819
-* (DMHybrid)[0dt] After 6.3 &amp;gt; 6.4 upgrade, catalog settings are moved to the incorrect node. Hotfix for CQ-4239974, CQ-4239975
+* (DMHybrid) After 6.3 &amp;gt; 6.4 upgrade, catalog settings are moved to the incorrect node. Hotfix for CQ-4239974, CQ-4239975
 * (DMHybrid) pushviewerpresets script does not create the nodes needed to modify catalog settings. Hotfix for CQ-4240076
 * When using the “Format” drop-down selection and selecting either PNG or JPG formats, the downloaded file is shown as oversaturated and darker than the original asset. Hotfix for CQ-4240073
 * (DMS7) Remove the MIME Type mapping: image_x-eps. Hotfix for CQ-4240394
