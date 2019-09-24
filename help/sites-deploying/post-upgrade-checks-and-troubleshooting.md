@@ -125,7 +125,7 @@ This section contains some issue scenarios one might face along the upgrade proc
 
 These scenarios should help to track down the root cause of issues related to upgrade and should help to identify project or product specific issues.
 
-### Recreating the Dynamic Media Cloud Configuration after upgrading (#dynamic-media-cloud-configuration)
+### Recreating the Dynamic Media Cloud Configuration after upgrading {#dynamic-media-cloud-configuration}
 
 After upgrading to AEM 6.4 from an earlier version, the Dynamic Media Cloud Configuration from earlier settings may become inaccessible from the AEM 6.4 TouchUI. To resolve this issue, use CRXDE Lite to remove the earlier settings, then create a new Dynamic Media Cloud Configuration. See also [Dynamic Media repository restructuring in AEM 6.4](/help/sites-deploying/dynamicmedia-repository-restructuring-in-aem-6-4.md).
 
