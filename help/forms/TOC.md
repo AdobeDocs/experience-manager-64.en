@@ -154,7 +154,6 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Adaptive forms rule editor](using/rule-editor.md)
   + [API to invoke form data model service from adaptive forms](using/invoke-form-data-model-services.md)
   + [Asynchronous submission of adaptive forms](using/asynchronous-submissions-adaptive-forms.md)
-  + [Standard validation error messages for adaptive forms](using/standard-validation-error-messages-adaptive-forms.md)
   + [Create an adaptive form using a set of adaptive forms](using/create-adaptive-form-using-adaptive-form-set.md)  
   + [Adaptive Form Templates](using/template-editor.md)
   + [Adaptive Form Expressions](using/adaptive-form-expressions.md)
