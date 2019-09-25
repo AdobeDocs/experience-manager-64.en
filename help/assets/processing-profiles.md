@@ -33,7 +33,7 @@ See also [Best practices for organizing your digital assets for using processing
 >
 >The same is true even when you move assets between two folders that have the same profile assigned to it.
 
-## How to reprocess assets in a folder after you have edited its processing profile {#reprocessing-assets}
+## Reprocessing assets in a folder after you have edited its processing profile {#reprocessing-assets}
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ For example, suppose you created an Image profile and assigned it to a folder. A
 **To reprocess assets in a folder after you have edited its processing profile**:
 1. In AEM, from the Assets page, navigate to a folder of assets that has a processing profile assigned to it and for which you want to apply the **Scene7: Reprocess Asset** workflow,
 
-    Folders that have a processing profile already assigned to it are indicated by the display of the profile's name directly below the folder name. 
+    Folders that have a processing profile already assigned to it are indicated by the display of the profile's name directly below the folder name in Card View. 
 
 1. Select the folder.
 
@@ -57,16 +57,19 @@ For example, suppose you created an Image profile and assigned it to a folder. A
 1. Near the upper-left corner of the page, from the drop-down list, click **[UICONTROL Timeline]**.
 1. Near the lower-left corner of the page, to the right of the Comment field, click the carat icon  ( **^** ) .
 
-![Reprocess assets workflow 1](/help/assets/assets/reprocess-assets1.png)
+    ![Reprocess assets workflow 1](/help/assets/assets/reprocess-assets1.png)
 
 1. Click **[UICONTROL Start Workflow]**.
 1. From the **[UICONTROL Start Workflow]** drop-down list, choose **[UICONTROL Scene7: Reprocess Assets]**.
 1. (Optional) In the **[UICONTROL Enter title of workflow]** text field, enter a name for the workflow. You can use the name to reference the workflow instance, if necessary.
+
+    ![Reprocess assets 2](/help/assets/assets/reprocess-assets2.png)
+
 1. Click **[UICONTROL Start]**, then click **[UICONTROL Confirm]**.
 
-![Reprocess assets 2](/help/assets/assets/reprocess-assets2.png)
+    To monitor the workflow or check its progress, from the AEM main console page, click **[UICONTROL Tools > Workflow]**. On the Workflow Instances page, select a workflow. On the menu bar, click **Open History**. You can also terminate, suspend, or rename a selected workflow from the same Workflow Instances page.
 
-### Adjusting the batch size of the reprocess workflow {#adjusting-load}
+<!--### Adjusting the batch size of the reprocess workflow {#adjusting-load}
 
 The default batch size in the reprocessing workflow is 50 assets per job. However, you can use CRXDE Lite to adjust that default for several hundred assets. A maximum size setting of up to 1000 assets is permitted per reprocessing workflow job.
 
@@ -81,4 +84,4 @@ The default batch size in the reprocessing workflow is 50 assets per job. Howeve
 1. On the right side of the CRXDE Lite page, in the lower portion, double-click the Value field for the **[UICONTROL metaData]** row.
 1. Set a new default value (50-1000) for the batch size.
 1. On the menu bar of the CRXDE Lite page, tap **[!UICONTROL Save All]**.
-1. In the upper-left corner of the page, tap **[!UICONTROL CRXDE Lite]** to return to the main AEM console.
+1. In the upper-left corner of the page, tap **[!UICONTROL CRXDE Lite]** to return to the main AEM console.-->
