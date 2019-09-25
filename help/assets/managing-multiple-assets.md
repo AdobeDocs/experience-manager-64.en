@@ -73,8 +73,8 @@ To customize the metadata properties page, including adding, modifying, deleting
 
 ## Configure limit for bulk metadata update {#configure-limit-for-bulk-metadata-update}
 
-By default, you can update metadata for 10000 assets in one attempt. To prevent DOS like situation, AEM limits the number of parameters supported in a Sling request. To change the limit, access **[!UICONTROL Tools > Operations > Web Console]** and change the value of [!UICONTROL Maximum POST Parameters] in [!UICONTROL Apache Sling Request Parameter Handling] OSGi configuration.
-
-If you attempt to edit the metadata of more than the allowed number of assets in one go, AEM generates the following warning in the logs:
+To prevent DOS like situation, AEM limits the number of parameters supported in a Sling request. When updating metadata of many assets in one go, you may reach the limit and the metadata does not get updated for more assets. AEM generates the following warning in the logs:
 
 `org.apache.sling.engine.impl.parameters.Util Too many name/value pairs, stopped processing after 10000 entries`
+
+To change the limit, access **[!UICONTROL Tools > Operations > Web Console]** and change the value of [!UICONTROL Maximum POST Parameters] in [!UICONTROL Apache Sling Request Parameter Handling] OSGi configuration.
