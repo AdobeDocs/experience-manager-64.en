@@ -65,7 +65,7 @@ For example, suppose you created an Image profile and assigned it to a folder. A
 
     ![Reprocess assets 2](/help/assets/assets/reprocess-assets2.png)
 
-1. Click **UICONTROL Start**, then click **Confirm**.
+1. Click **Start**, then click **Confirm**.
 
     To monitor the workflow or check its progress, from the AEM main console page, click **Tools > Workflow**. On the Workflow Instances page, select a workflow. On the menu bar, click **Open History**. You can also terminate, suspend, or rename a selected workflow from the same Workflow Instances page.
 
