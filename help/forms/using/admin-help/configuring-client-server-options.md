@@ -1,6 +1,6 @@
- ---
+---
 title: Configuring client and server options
-seo-title: Configuring client and server options
+seo-title: Configuring client and server optionsn
 description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
 seo-description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
 uuid: 1f9f9886-726e-4fad-9ff8-0ff11eef653e
@@ -11,14 +11,12 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0f069fbc-10c2-403e-9419-5e9920035d75
 ---
 
-# Configuring client and server options{#configuring-client-and-server-options}
-
-## Configure the document security server {#configure-the-document-security-server}
+# Configure the document security server {#configure-the-document-security-server}
 
 1. In administration console, click Services &gt; document security &gt; Configuration &gt; Server Configuration.
 1. Configure the settings and click OK.
 
-### Server configuration settings {#server-configuration-settings}
+## Server configuration settings {#server-configuration-settings}
 
 **Base URL:** The base document security URL, containing the server name and port. Information appended to the base creates connection URLs. For example, /edc/Main.do is appended to access the web pages. Users also respond to external user registration invitations through this URL.
 
