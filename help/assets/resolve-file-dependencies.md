@@ -40,7 +40,7 @@ Primary 3D model file dependencies, such as texture map files, are automatically
         1. Note the missing paths and file names.
         1. Near the upper-right corner of the properties page, tap **[!UICONTROL Close]**.
 
-   After the files are uploaded return to **[!UICONTROL View Properties &gt; Dependencies]** page. The newly uploaded asset are now properly listed as referenced assets.
+   After the files are uploaded return to **[!UICONTROL View Properties > Dependencies]** page. The newly uploaded asset are now properly listed as referenced assets.
 
     * **Ignore the dependencies**. 
 

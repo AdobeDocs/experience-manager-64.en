@@ -31,7 +31,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](metadata-schemas.md#editing-metadata-schema-forms) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a **jpeg** schema under `default/image` only modifies the metadata layout (asset properties) for assets with MIME type **IMAGE/JPEG**. However, if you edit the **default** schema, your changes modify the metadata layout for all types of assets.
 
-1. To view a list of forms/templates, click the AEM logo and then navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Schemas]**.
+1. To view a list of forms/templates, click the AEM logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**.
 
    ![chlimage_1-173](assets/chlimage_1-173.png)
 
@@ -302,7 +302,7 @@ Metadata inheritance by assets is based on the schema that is applied to the fir
 
 If the folder has a subfolder, the assets within the subfolder inherit the metadata from the schema applied at the subfolder level if a different schema is applied at the subfolder level. If, however, no schema or the same schema is applied at the subfolder level, the subfolder assets inherit the metadata from the schema applied at the parent folder level.
 
-1. Click the AEM logo and then navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
+1. Click the AEM logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
 1. Select the check box before a form, for example the default metadata form, and click or tap the **[!UICONTROL Copy]** icon and save it as a custom form. Specify a custom name for the form, for example `my_default`. Alternatively, you can create a custom form.
 
    ![chlimage_1-184](assets/chlimage_1-184.png)
@@ -336,7 +336,7 @@ You can define mandatory fields at a folder level, which is enforced on assets t
 >
 >A metadata field can be defined as mandatory based on the value of another field. In the Cards view, AEM does not display the warning message about missing metadata for such mandatory metadata fields.
 
-1. Click the AEM logo and then navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
+1. Click the AEM logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
 1. Save the default metadata form as a custom form. For example, save it as `my_default`.
 
    ![chlimage_1-189](assets/chlimage_1-189.png)

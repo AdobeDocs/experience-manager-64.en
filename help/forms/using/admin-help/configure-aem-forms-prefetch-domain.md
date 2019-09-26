@@ -15,7 +15,7 @@ discoiquuid: f9a3f897-90c6-4942-8a86-aae510298f2a
 
 Users may experience a slower response time if they belong to many groups (for example, 500 or more) or if the groups are nested deeply (for example, 30 levels). If you are experiencing this problem, you can configure AEM forms to prefetch information from certain domains.
 
-1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Configuration &gt; Import And Export Configuration Files]**.
+1. In administration console, click **[!UICONTROL Settings > User Management > Configuration > Import And Export Configuration Files]**.
 1. To export the current configuration setting to a file, click **[!UICONTROL Export]** and save the configuration file in another location.
 1. Add the following node (marked in bold):
 
@@ -36,6 +36,6 @@ Users may experience a slower response time if they belong to many groups (for e
 
    In this example, multiple domains are configured for prefetch. The domain names are separated by a "/". This is shown in the example above with *Domain_Name1*, *Domain_Name2*, and *Domain_Name3*.
 
-1. To import the updated file, in User Management, click **[!UICONTROL Configuration &gt; Import And Export Configuration Files]**.
+1. To import the updated file, in User Management, click **[!UICONTROL Configuration > Import And Export Configuration Files]**.
 1. Click **[!UICONTROL Browse]** to find the file, click Import, and then click **[!UICONTROL OK]**.
 

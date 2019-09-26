@@ -18,7 +18,7 @@ User and group information is maintained in a third-party storage system, such a
 
 When you create users, you can add the them to groups and assign roles to the them.
 
-1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Users and Groups]**, and click **[!UICONTROL New User]**.
+1. In administration console, click **[!UICONTROL Settings > User Management > Users and Groups]**, and click **[!UICONTROL New User]**.
 .
 1. Under **[!UICONTROL General Settings]**, provide information as required, and then click **[!UICONTROL Next]**. For details about the settings, see [User settings](adding-configuring-users.md#user-settings).
 1. (Optional) To add the user to a group, click **[!UICONTROL Find Groups]**, and do these tasks:
@@ -104,14 +104,14 @@ Avoid creating user names that begin with a number sign (#). Performing task sea
 
 ## Change the password for a local user {#change-the-password-for-a-local-user}
 
-1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Users and Groups]**.
+1. In administration console, click **[!UICONTROL Settings > User Management > Users and Groups]**.
 1. Specify information to narrow the search for a particular user and click **[!UICONTROL Find]**. The results of the search are listed at the bottom of the page. You can sort the list by clicking any of the column headings.
 1. Click the name of the user and then click **[!UICONTROL Change Password]**.
 1. Type and confirm the new password, and then click **[!UICONTROL OK]**. The password must be a minimum of eight characters.
 
 ## Edit a user’s properties {#edit-a-user-s-properties}
 
-1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Users and Groups]**.
+1. In administration console, click **[!UICONTROL Settings > User Management > Users and Groups]**.
 1. To find the user to edit, do these tasks:
 
     * In the **[!UICONTROL Find]** box, type your search criteria. 
@@ -138,7 +138,7 @@ Avoid creating user names that begin with a number sign (#). Performing task sea
 
 ## Delete a user {#delete-a-user}
 
-1. In administration console, click **[!UICONTROL Settings &gt; User Management &gt; Users and Groups]**.
+1. In administration console, click **[!UICONTROL Settings > User Management > Users and Groups]**.
 1. To find the user to delete, do these tasks:
 
     * In the **[!UICONTROL Find]** box, type your search criteria. 

@@ -190,7 +190,7 @@ The methods to add validations on a field are:
 
 ### Required {#required}
 
-To make a component mandatory, in the **[!UICONTROL Edit]** dialog of the component, you can select option **[!UICONTROL Title and Text &gt; Required]**. You can also add the appropriate **required message** (optional) as well. .
+To make a component mandatory, in the **[!UICONTROL Edit]** dialog of the component, you can select option **[!UICONTROL Title and Text > Required]**. You can also add the appropriate **required message** (optional) as well. .
 
 ### Validation Patterns {#validation-patterns}
 

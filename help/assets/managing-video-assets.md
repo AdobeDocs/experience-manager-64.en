@@ -43,7 +43,7 @@ By default, the AEM Assets Touch UI does not let you upload any assets that are 
 
 To configure a higher file size limit, perform the following steps in the `/apps` directory.
 
-1. In AEM, tap **[!UICONTROL Tools]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL CRXDE Lite]**.
+1. In AEM, tap **[!UICONTROL Tools > General > CRXDE Lite]**.
 1. In the **[!UICONTROL CRXDE Lite]** page, in the directory window on the left, navigate to `/libs/dam/gui/content/assets/jcr:content/actions/secondary/create/items/fileupload`. To see the directory window, touch `>>` icon.
 1. From the toolbar, tap **[!UICONTROL Overlay Node]**. Alternatively, select **[!UICONTROL Overlay Node]** from the context menu.
 1. In the **[!UICONTROL Overlay Node]** dialog, tap **[!UICONTROL OK]**.
@@ -56,11 +56,11 @@ To configure a higher file size limit, perform the following steps in the `/apps
    `{sizeLimit : "32212254720"}`
 
 1. From the toolbar, tap **[!UICONTROL Save All]**.
-1. In AEM, tap **[!UICONTROL Tools &gt; Operations &gt; Web Console]**.
+1. In AEM, tap **[!UICONTROL Tools > Operations > Web Console]**.
 1. On the **[!UICONTROL Adobe Experience Manager Web Console Bundles]** page, under the **[!UICONTROL Name]** column of the table, locate and tap **[!UICONTROL Adobe Granite Workflow External Process Job Handler]**.
 1. In the **[!UICONTROL Adobe Granite Workflow External Process Job Handler]** page, set the seconds for both **[!UICONTROL Default Timeout]** and **[!UICONTROL Max Timeout]** fields to `18000` (five hours).
 1. Tap **[!UICONTROL Save]**.
-1. In AEM, tap **[!UICONTROL Tools &gt; Workflow &gt; Models]**.
+1. In AEM, tap **[!UICONTROL Tools > Workflow > Models]**.
 1. On the **[!UICONTROL Workflow Models]** page, select **[!UICONTROL Dynamic Media Encode Video]**, then tap **[!UICONTROL Edit]**.
 1. On the **[!UICONTROL Workflow]** page, double-tap the **[!UICONTROL Dynamic Media Video Service Process]** component.
 1. In the **[!UICONTROL Step Properties]** dialog box, under the **[!UICONTROL Common]** tab, expand **[!UICONTROL Advanced Settings]**.

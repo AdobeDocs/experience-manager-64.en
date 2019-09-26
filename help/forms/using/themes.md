@@ -34,7 +34,7 @@ Perform the following steps to create a theme:
 
 1. Click **[!UICONTROL Adobe Experience Manager]**, click **[!UICONTROL Forms]**, and then click **[!UICONTROL Themes]**.
 
-1. In the Themes page, click **[!UICONTROL Create &gt; Theme]**. 
+1. In the Themes page, click **[!UICONTROL Create > Theme]**. 
 
    A wizard to create a theme is launched. 
 
@@ -69,7 +69,7 @@ To upload a theme:
 
 1. Click **[!UICONTROL Adobe Experience Manager]**, click **[!UICONTROL Forms]**, and then click **[!UICONTROL Themes]**.
 
-1. In the Themes page, click **[!UICONTROL Create &gt; File Upload]**.
+1. In the Themes page, click **[!UICONTROL Create > File Upload]**.
 1. In the File Upload prompt, browse and select a theme package on your computer and click **[!UICONTROL Upload]**.
 
    The uploaded theme is available in the themes page.
@@ -314,7 +314,7 @@ When you create a theme, it is created with a form that is shipped with the Them
 
 To replace the current form or interactive communication in Theme Editor Canvas:
 
-1. In the THEME EDITOR panel, click **[!UICONTROL Theme Options]** ![theme-options](assets/theme-options.png) **[!UICONTROL &gt; Configure]**. 
+1. In the THEME EDITOR panel, click **[!UICONTROL Theme Options]** ![theme-options](assets/theme-options.png) **[!UICONTROL > Configure]**. 
 
 1. In the General tab, browse and select a form or interactive communication for the **[!UICONTROL Adaptive Form/Document]** field.
 
@@ -330,7 +330,7 @@ Redo/undo buttons appear when you style a component in the Theme Editor.
 
 ## Using the Theme Editor {#using-the-theme-editor}
 
-The Theme Editor lets you edit a theme you created or uploaded. Navigate to **[!UICONTROL Forms & Documents &gt; Themes]**, and select a theme and open it. The theme opens in the Theme Editor.
+The Theme Editor lets you edit a theme you created or uploaded. Navigate to **[!UICONTROL Forms & Documents > Themes]**, and select a theme and open it. The theme opens in the Theme Editor.
 
 As discussed above, the Theme Editor has two panels: Sidebar and Canvas.
     ![theme-editor](assets/theme-editor.png)
@@ -499,8 +499,8 @@ You can now use fonts available in a web-service in an adaptive form or interact
 
 Perform the following steps to configure Typekit in AEM:
 
-1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)**[!UICONTROL Adobe Experience Manager &gt; Tools]** ![hammer](assets/hammer.png) **[!UICONTROL &gt; Deployment &gt; Cloud Services]**.
-1. On the **[!UICONTROL Cloud Services]** page, navigate to **[!UICONTROL Third Party Services** &gt;  **Typekit,]** and click **[!UICONTROL Configure Now]** under Typekit. If a configuration is already available, click the **+** button to create a new instance. 
+1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)**[!UICONTROL Adobe Experience Manager > Tools]** ![hammer](assets/hammer.png) **[!UICONTROL > Deployment > Cloud Services]**.
+1. On the **[!UICONTROL Cloud Services]** page, navigate to **[!UICONTROL Third Party Services** >  **Typekit,]** and click **[!UICONTROL Configure Now]** under Typekit. If a configuration is already available, click the **+** button to create a new instance. 
 1. On the **[!UICONTROL Create Configuration]** dialog, specify a title for the configuration and click **[!UICONTROL Create]**.
 
    You are redirected to the configuration page.
@@ -593,7 +593,7 @@ With AEM Forms, along with default out-of-the-box canvas theme, there are many o
 
 To copy a theme, perform the following steps:
 
-1. In authoring instance, navigate to **[!UICONTROL Adobe Experience Manager &gt; Forms &gt; Themes]**. 
+1. In authoring instance, navigate to **[!UICONTROL Adobe Experience Manager > Forms > Themes]**. 
 1. Open the Theme Library folder. 
 1. In the Theme Library folder, hover pointer over the corresponding out-of-the-box theme and tap **[!UICONTROL Copy]**.
 1. Paste the copied theme outside the Theme Library folder. 
@@ -637,7 +637,7 @@ You can see the generated CSS using the following options:
 
 * **Avoiding assets from another Theme** 
 
-  When you edit a theme, you can browse and add assets (such as images) from other themes. For example, you are editing the background of a page. For example, when you select **[!UICONTROL Page]** ![edit-button](assets/edit-button.png)&gt; **[!UICONTROL Background &gt; Add &gt; Image]**, you see a dialog that lets you browse and add images in other theme. 
+  When you edit a theme, you can browse and add assets (such as images) from other themes. For example, you are editing the background of a page. For example, when you select **[!UICONTROL Page]** ![edit-button](assets/edit-button.png)&gt; **[!UICONTROL Background > Add > Image]**, you see a dialog that lets you browse and add images in other theme. 
 
 * You can face issues with your current theme if an asset is added from another theme, and the other theme is moved or deleted. It is recommended that you avoid browsing and adding assets from other themes.  
 
@@ -647,7 +647,7 @@ You can see the generated CSS using the following options:
 
       Base client library contains styling information. To use styling information in client-side libraries in themes.
 
-        1. Navigate to **[!UICONTROL Experience Manager &gt; Forms &gt; Themes]**. 
+        1. Navigate to **[!UICONTROL Experience Manager > Forms > Themes]**. 
         1. In the Themes page, select a theme and click **[!UICONTROL View Properties]**.
         1. In the Properties page that opens, click **[!UICONTROL Advanced]**.
         1. In the Advanced tab, in the Clientlib Location field, browse and select the client-library you want to use. 

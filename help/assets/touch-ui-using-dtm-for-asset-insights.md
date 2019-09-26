@@ -19,7 +19,7 @@ Although you can customize your tracking code to enable third-party CMS solution
 
 Perform these steps to enable Asset Insights through DTM:
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Assets &gt; Insights Configuration]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Assets > Insights Configuration]**.
 1. [Configure AEM instance with DTM Cloud Service](../sites-administering/dtm.md)
 
    The API token should be available once you log on to [https://dtm.adobe.com](https://dtm.adobe.com/) and visit **[!UICONTROL Account Settings]** from the Profile icon. This step is not required from the Asset Insights standpoint, because the integration of AEM Sites with Asset Insights is still in the works.
@@ -40,7 +40,7 @@ Perform these steps to enable Asset Insights through DTM:
 
    ![chlimage_1-195](assets/chlimage_1-195.png)
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Assets]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Assets]**.
 1. Tap/click **[!UICONTROL Insights Page Tracker]**, copy the tracker code, and then paste it in the Script dialog you opened in step 6. Save the changes.
 
    >[!NOTE]
@@ -107,7 +107,7 @@ Perform these steps to enable Asset Insights through DTM:
     * The code calls `assetAnalytics.dispatcher.init()` after making sure that `_satellite.getToolsByType('sc')[0].getS()` is initialized and `assetAnalytics,dispatcher.init` is available. Therefore, you can skip adding it in step 11.
     * As indicated in comments within the Insights Page Tracker code (**[!UICONTROL Tools > Assets > Insights Page Tracker]**), when Page Tracker does not create an `AppMeasurement` object, the first three arguments (RSID, Tracking Server, and Visitor Namespace) are irrelevant. Empty strings are passed instead to highlight this.
 
-      The remaining arguments correspond to what is configured in the Insights Configuration page (**[!UICONTROL Tools &gt; Assets &gt;  Insights Configuration]**).
+      The remaining arguments correspond to what is configured in the Insights Configuration page (**[!UICONTROL Tools > Assets > Insights Configuration]**).
   
     * The AppMeasurement object is retrieved by querying `satelliteLib` for all available SiteCatalyst engines. If multiple tags are configured, change the index of the array selector appropriately. Entries in the array are ordered as per SiteCatalyst tools available in the DTM interface.
 

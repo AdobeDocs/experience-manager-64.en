@@ -33,7 +33,7 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 
 1. [Create Mixed Media Sets.](#creating-mixed-media-sets)
 
-   To create a Mixed Media Set, from the **[!UICONTROL Assets]** page, tap **[!UICONTROL Create &gt; Mixed Media Set]**, then name the set. Choose the assets, then choose the order that the images appear.
+   To create a Mixed Media Set, from the **[!UICONTROL Assets]** page, tap **[!UICONTROL Create > Mixed Media Set]**, then name the set. Choose the assets, then choose the order that the images appear.
 
    See [Working with Selectors.](working-with-selectors.md)
 
@@ -41,7 +41,7 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 
    Administrators can create or modify Mixed Media Set Viewer Presets. To see your mixed media with a viewer preset, select the mixed media set, and in the left-rail drop-down menu, select **[!UICONTROL Viewers]**.
 
-   See **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]** to create or edit viewer presets.
+   See **[!UICONTROL Tools > Assets > Viewer Presets]** to create or edit viewer presets.
 
    See [Adding and editing viewer presets.](managing-viewer-presets.md)
 

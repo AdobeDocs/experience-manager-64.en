@@ -291,7 +291,7 @@ Some best practices and key points to remember when working with adaptive form c
 * Specify values for Radio Button and Check Box items in `{value}={text}` format in component properties.
 * The File attachment component, by default, allows a user to attach only one file. However, you can configure the component properties to support multiple attachments. In addition, if a user attaches multiple files with the same filename, the attachments can cause some issues. Therefore, it is recommended to associate a unique identifier for each submitted attachment at form submission. To do so:
 
-    1. On your AEM Forms server, navigate to **[!UICONTROL Adobe Experience Manager &gt; Tools &gt; Operations &gt; Web Console]**.
+    1. On your AEM Forms server, navigate to **[!UICONTROL Adobe Experience Manager > Tools > Operations > Web Console]**.
     1. Find and tap **[!UICONTROL Adaptive Forms Configuration Service]**.
     1. In the Adaptive Forms Configuration Service dialog, enable **[!UICONTROL Make File Names Unique]**. By default, it is disabled.
 

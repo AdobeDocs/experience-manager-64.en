@@ -1,13 +1,11 @@
 ---
-title: Managing Multiple Assets and Collections
-seo-title: Managing Multiple Assets and Collections
-description: Learn how to edit the metadata of multiple assets and collections simultaneously to quickly propagate common metadata changes.
-seo-description: Learn how to edit the metadata of multiple assets and collections in bulk.
+title: Bulk edit metadata of multiple assets and collections
+seo-title: Bulk edit metadata of multiple assets and collections
+description: Learn how to edit the metadata of many assets and collections simultaneously to quickly propagate common metadata changes.
+seo-description: Learn how to edit the metadata of many assets and collections in bulk.
 uuid: 115a6e39-2f1b-4d07-bec6-30b149524a60
-contentOwner: msm-service
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
 discoiquuid: 5ca217a3-3806-4647-800c-2e3658df00b8
 ---
 
@@ -23,6 +21,10 @@ Use the properties page to perform metadata changes on multiple assets or collec
 * Add or modify tags
 
 To customize the metadata properties page, including adding, modifying, deleting metadata properties, use the Schema editor.
+
+>[!NOTE]
+>
+>The bulk editing methods work for assets available in a folder or a collection. For the assets that are available across folders or match a common criteria, it is possible to update the metadata in bulk from asset search results.
 
 ## Editing metadata properties of multiple assets {#editing-metadata-properties-of-multiple-assets}
 
@@ -46,11 +48,9 @@ To customize the metadata properties page, including adding, modifying, deleting
 1. Save the changes.
 1. To append the new metadata with the existing metadata in fields that contain multiple values, select **[!UICONTROL Append mode]**. If you do not select this option, the new metadata replaces the existing metadata in the fields. Tap/click **[!UICONTROL Submit]**.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >For single-value fields, the new metadata is not appended to the existing value in the field even if you select **[!UICONTROL Append mode]**.
-
-   ![chlimage_1-402](assets/chlimage_1-402.png)
 
 ## Editing metadata properties of multiple collections {#editing-metadata-properties-of-multiple-collections}
 
@@ -71,3 +71,10 @@ To customize the metadata properties page, including adding, modifying, deleting
 
 1. Save the changes.
 
+## Configure limit for bulk metadata update {#configure-limit-for-bulk-metadata-update}
+
+To prevent DOS like situation, AEM limits the number of parameters supported in a Sling request. When updating metadata of many assets in one go, you may reach the limit and the metadata does not get updated for more assets. AEM generates the following warning in the logs:
+
+`org.apache.sling.engine.impl.parameters.Util Too many name/value pairs, stopped processing after 10000 entries`
+
+To change the limit, access **[!UICONTROL Tools > Operations > Web Console]** and change the value of [!UICONTROL Maximum POST Parameters] in [!UICONTROL Apache Sling Request Parameter Handling] OSGi configuration.

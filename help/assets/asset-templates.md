@@ -167,13 +167,13 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
 ## Merge Collateral {#merge-collateral}
 
-1. Click or tap the AEM logo, and then click/tap **[!UICONTROL ]****Assets** on the Navigation page.
-1. From the options, choose **[!UICONTROL ]****Templates**.
-1. Click/tap **[!UICONTROL ]****Create** and the choose **[!UICONTROL ]****Merge** from the menu.
+1. Click or tap **[!UICONTROL Tools > Assets]**.
+1. From the options, choose **[!UICONTROL Templates]**.
+1. Click/tap **[!UICONTROL Create]** and the choose **[!UICONTROL Merge]** from the menu.
 
    ![chlimage_1-325](assets/chlimage_1-325.png)
 
-1. From the Template Merge page, click/tap the Merge icon. 
+1. From the Template Merge page, click/tap the Merge icon.
 
    ![chlimage_1-326](assets/chlimage_1-326.png)
 

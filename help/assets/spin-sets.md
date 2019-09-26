@@ -35,7 +35,7 @@ To get you up and running quickly with Spin Sets, follow this workflow:
 
 1. [Create Spin Sets.](#creating-spin-sets)
 
-   To create a Spin Set, select **[!UICONTROL Create &gt; Spin Set]** and then name the set, choose the assets, then sort the images in the order they will appear.
+   To create a Spin Set, select **[!UICONTROL Create > Spin Set]** and then name the set, choose the assets, then sort the images in the order they will appear.
 
    See [Working with Selectors](working-with-selectors.md).
 
@@ -48,7 +48,7 @@ To get you up and running quickly with Spin Sets, follow this workflow:
 
    Administrators can create or modify Spin Set Viewer presets. To see your Spin Set with a Viewer preset, select the Spin Set, and in the left-rail drop-down menu, select **[!UICONTROL Viewers]**.
 
-   See **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]** to create or edit viewer presets.
+   See **[!UICONTROL Tools > Assets > Viewer Presets]** to create or edit viewer presets.
 
    See [Adding and editing viewer presets.](managing-viewer-presets.md)
 

@@ -38,7 +38,7 @@ Administrators can create Image Presets. To create an image preset, you can star
 
 ## Managing Dynamic Media image presets {#managing-image-presets-1}
 
-You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **[!UICONTROL Assets &gt; Image Presets]**.
+You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **[!UICONTROL Assets > Image Presets]**.
 
 ![chlimage_1-494](assets/chlimage_1-494.png)
 
@@ -90,7 +90,7 @@ To use Dynamic Media to preview and generate dynamic renditions for AI, EPS or P
 
 You access **[!UICONTROL Rasterize PDF/AI Image Preview Rendition]** process component options by way of the **[!UICONTROL DAM Update Asset]** workflow.
 
-Tap on Adobe Experience Manager in the upper left, navigate to **[!UICONTROL Tools &gt; Workflow &gt; Models]**. On the **[!UICONTROL Workflow Models]** page, select **[!UICONTROL DAM Update Asset]**, then on the toolbar tap **[!UICONTROL Edit]**. On the **[!UICONTROL DAM Update Asset workflow]** page, double-tap the **[!UICONTROL Rasterize PDF/AI Image Preview Rendition]** process component to open its **[!UICONTROL Step Properties]** dialog box.
+Tap on Adobe Experience Manager in the upper left, navigate to **[!UICONTROL Tools > Workflow > Models]**. On the **[!UICONTROL Workflow Models]** page, select **[!UICONTROL DAM Update Asset]**, then on the toolbar tap **[!UICONTROL Edit]**. On the **[!UICONTROL DAM Update Asset workflow]** page, double-tap the **[!UICONTROL Rasterize PDF/AI Image Preview Rendition]** process component to open its **[!UICONTROL Step Properties]** dialog box.
 
 ### Rasterize PDF/AI image preview rendition options {#rasterize-pdf-ai-image-preview-rendition-options}
 
@@ -192,7 +192,7 @@ Thumbnail sizing is defined in the following format: **width:height:center**, fo
 
 **To configure thumbnail size**:
 
-1. Tap **[!UICONTROL Tools &gt; Workflow &gt; Models &gt; DAM Update Asset &gt; Edit]**.
+1. Tap **[!UICONTROL Tools > Workflow > Models > DAM Update Asset > Edit]**.
 1. Tap the **[!UICONTROL Dynamic Media Process Image Assets]** step, then tap the **[!UICONTROL Thumbnails]** tab. Change the thumbnail size, as needed, then tap **[!UICONTROL OK]**.
 
    ![step_properties_thumbnailarguments](assets/step_properties_thumbnailarguments.png)
@@ -207,7 +207,7 @@ Thumbnail sizing is defined in the following format: **width:height:center**, fo
 
 ### Increasing or decreasing the number of Dynamic Media image presets that display {#increasing-or-decreasing-the-number-of-image-presets-that-display}
 
-Image presets you create are available as dynamic renditions when you preview assets. AEM shows a variety of dynamic renditions when viewing an assets from **[!UICONTROL Detail View &gt; Renditions]**. You can increase or decrease the limit of renditions that are displayed.
+Image presets you create are available as dynamic renditions when you preview assets. AEM shows a variety of dynamic renditions when viewing an assets from **[!UICONTROL Detail View > Renditions]**. You can increase or decrease the limit of renditions that are displayed.
 
 **To increase or decrease the number of Dynamic Media image presets displayed**:
 
@@ -240,7 +240,7 @@ If you intend to support the ingestion of INDD files so that you can generate dy
 **To create a Dynamic Media image preset**:
 
 1. In AEM, tap the AEM logo to access the global navigation console.
-1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets &gt; Image Presets]**.
+1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets > Image Presets]**.
 1. Tap **[!UICONTROL Create]**.
 
    ![chlimage_1-496](assets/chlimage_1-496.png)
@@ -471,7 +471,7 @@ The following are some basic examples of what you can do with image modifiers.
 **To edit image presets**:
 
 1. In AEM, tap the AEM logo to access the global navigation console.
-1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets &gt; Image Presets]**.
+1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets > Image Presets]**.
 
    ![chlimage_1-504](assets/chlimage_1-504.png)
 
@@ -487,7 +487,7 @@ If you are running Dynamic Media - Scene7 mode, image presets are automatically 
 **To publish image presets in Dynamic Media - Hybrid mode**:
 
 1. In AEM, tap the AEM logo to access the global navigation console.
-1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets &gt; Image Presets]**.
+1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets > Image Presets]**.
 1. Select the image preset or multiple image presets from the list of image presets, then tap **[!UICONTROL Publish]**.
 1. After the image preset is published, the status changes from unpublished to published.
 
@@ -498,6 +498,6 @@ If you are running Dynamic Media - Scene7 mode, image presets are automatically 
 **To delete Dynamic Media image presets**:
 
 1. In AEM, tap the AEM logo to access the global navigation console.
-1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets &gt; Image Presets]**.
+1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets > Image Presets]**.
 1. Select a preset, then tap **[!UICONTROL Delete]**. Dynamic Media confirms that you want to delete it. Tap **[!UICONTROL Delete]**.
 

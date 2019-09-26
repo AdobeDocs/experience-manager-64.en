@@ -187,7 +187,7 @@ The **[!UICONTROL OR Split]** creates a split in the workflow, after which only 
 
         * Select the number of branches required; 2, 3, 4 or 5.
 
-    * **[!UICONTROL Branch &lt;*x*&gt;]**
+    * **[!UICONTROL Branch : *x*>]**
 
         * **[!UICONTROL Script Path]**: The path to a file that contains the script.
         * **[!UICONTROL Script]**: Add the script in the box.

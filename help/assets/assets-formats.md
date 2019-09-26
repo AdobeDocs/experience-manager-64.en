@@ -1080,3 +1080,4 @@ See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](.
  </tbody>
 </table>
 
+By default, AEM detects the file type using the file extension. AEM can detect it from the contents of the files. For latter, select [!UICONTROL Detect MIME from content] option in [!UICONTROL Day CQ DAM Mime Type Service] in the [!UICONTROL AEM Web Console].
