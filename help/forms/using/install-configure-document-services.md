@@ -486,13 +486,13 @@ The default primary route for HTML to PDF conversion is Webkit. To change the co
 
 1. In the **[!UICONTROL General Configuration]** tab, select the preferred conversion route from the **[!UICONTROL Primary Route for HTML to PDF conversions]** drop-down.
 
-### Intialize Global Trust Store
+### Intialize Global Trust Store{#intialize-global-trust-store}
+
 Using the Trust Store Management, you can import, edit, and delete certificates that you trust on the server for validation of digital signatures and certificate authentication. You can import and export any number of certificates. After a certificate is imported, you can edit the trust settings and trust store type. Perform the following steps to initialize a trust store:
 
 1. Log in to AEM Forms instance as an administrator.  
-1. Go to  **[!UICONTROL Tools]** >  **[!UICONTROL Security]** >  **[!UICONTROL Trust Store]**. 
+1. Go to  **[!UICONTROL Tools]** >  **[!UICONTROL Security]** >  **[!UICONTROL Trust Store]**.
 1. Click  **[!UICONTROL Create TrustStore]**. Set password and tap **[!UICONTROL Save]**.
-
 
 ### Set up certificates for Reader extension and encryption service {#set-up-certificates-for-reader-extension-and-encryption-service}
 
