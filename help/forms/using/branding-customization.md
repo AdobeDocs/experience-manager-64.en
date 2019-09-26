@@ -33,7 +33,7 @@ Perform the following steps to customize the default app icon and the launch ima
 #### For iOS {#for-ios}
 
 1. Open the `Capture.xcodeproj` project in Xcode.
-1. (***For customizing icon***) In the navigator view of Capture, navigate to **[!UICONTROL Capture &gt; Capture &gt; Supporting Files &gt; Capture-info.plist]**. Click the drop-down next to the Icon files. Specify the name of the icon file (.png) and upload the file at **[!UICONTROL Capture &gt; Capture &gt; Resources &gt; icons]**. Currently supported dimesions are: 29x29, 50x50, 58x58, 72x72, 100x100, and 144x144.
+1. (***For customizing icon***) In the navigator view of Capture, navigate to **[!UICONTROL Capture > Capture > Supporting Files > Capture-info.plist]**. Click the drop-down next to the Icon files. Specify the name of the icon file (.png) and upload the file at **[!UICONTROL Capture > Capture > Resources > icons]**. Currently supported dimesions are: 29x29, 50x50, 58x58, 72x72, 100x100, and 144x144.
 1. (***For customizing launch images***) Ensure that the filenames of your images are:
 
     * For portrait: `Default-Portrait~ipad.png` and `Default-Portrait@2x~ipad.png`
@@ -88,7 +88,7 @@ Perform the following steps to customize the default app icon and the launch ima
 ### For iOS {#for-ios-1}
 
 1. Open the `Capture.xcodeproj` project in Xcode.
-1. In the navigator view of Capture, navigate to **[!UICONTROL Capture &gt; Capture &gt; Supporting Files &gt; InfoPlist.strings]**. 
+1. In the navigator view of Capture, navigate to **[!UICONTROL Capture > Capture > Supporting Files > InfoPlist.strings]**. 
 
    Update the value for the `CFBundleDisplayName` attribute to a name you want to display for the app.  
 

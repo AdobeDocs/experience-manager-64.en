@@ -41,7 +41,7 @@ AEM Assets generates the following standard reports for you:
 
 AEM administrators can easily generate and customize these reports for your implementation. An administrator can follow these steps to generate a report:
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Assets &gt; Reports]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Assets > Reports]**.
 
    ![navigation](assets/navigation.png)
 
@@ -121,7 +121,7 @@ You can add custom columns to the following reports to display more data for you
 * Brand Portal publish
 * Files
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools &gt; Assets &gt; Reports]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Assets > Reports]**.
 1. In the Asset Reports page, tap/click **[!UICONTROL Create]** from the toolbar.  
 
 1. From the **[!UICONTROL Create Report]** page, choose the report you want to create and tap/click **[!UICONTROL Next]**.

@@ -37,7 +37,7 @@ See also [Keyboard accessiblity and navigation](https://marketing.adobe.com/reso
 
 ## Managing Dynamic Media viewer presets {#managing-presets}
 
-You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM by tapping **[!UICONTROL Tools  &gt; Assets &gt; Viewer Presets]**.
+You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM by tapping **[!UICONTROL Tools > Assets > Viewer Presets]**.
 
 ![tools-assets](assets/tools-assets.png)
 
@@ -344,7 +344,7 @@ The following table identifies the mobile viewer gestures that are supported on 
 
 ## Increasing the number of Dynamic Media viewer presets that display {#increasing-the-number-of-viewer-presets-that-display}
 
-AEM shows a wide variety viewer presets when viewing an assets from **[!UICONTROL Detail View &gt; Viewers]**. You can increase or decrease the number of viewers that display.
+AEM shows a wide variety viewer presets when viewing an assets from **[!UICONTROL Detail View > Viewers]**. You can increase or decrease the number of viewers that display.
 
 **To increase the number of Dynamic Media viewer presets that display**:
 
@@ -375,7 +375,7 @@ See [Special considerations for creating a Carousel Banner Viewer preset](#speci
 
 **To create a new Dynamic Media viewer preset**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 
    ![viewerpresets](assets/viewerpresets.png)
 
@@ -393,9 +393,9 @@ See [Special considerations for creating a Carousel Banner Viewer preset](#speci
 
     * In the **[!UICONTROL Selected Type]** pull-down menu, select a component whose visual design you want to customize. Alternatively, you can tap any visual element in the viewer to select it for configuration.  
   
-      The visual editor lets you see what effect a certain property has on a style. Just set or adjust any property to instantly see what effect it has on the viewer using the sample to the left of the editor.   
+      The visual editor lets you see what effect a certain property has on a style. Just set or adjust any property to instantly see what effect it has on the viewer using the sample to the left of the editor.
   
-      The CSS styling properties for each type of viewer preset are described in the any "Customizing *&lt;viewer_name&gt;* Viewer" Help topic in the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/). 
+      The CSS styling properties for each type of viewer preset are described in the any "Customizing *&lt;viewer_name&gt;* Viewer" Help topic in the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
   
       For example, if you are creating a viewer preset of the type `Mixed_Media`, see [Customizing Mixed Media Viewer](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_mixedmedia_viewer_customizingviewer.html) for a list and description of each property. 
 
@@ -505,7 +505,7 @@ The Viewer Presets that are available in the user interface depends on which one
 
 **To activate or deactivate Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 1. On the **[!UICONTROL Viewer Preset]** page, under the **[!UICONTROL State]** column header, tap the toggle to activate or deactivate a viewer preset.
 
    Viewer presets that are activated have the toggle appear on the right, inside a blue box; deactivated viewer presets have the toggle appear on the left, inside a light grey box.
@@ -522,7 +522,7 @@ See also [Previewing Assets](previewing-assets.md).
 
 **To publish Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 1. Select one or more viewer presets that you want to publish.
 1. On the toolbar, tap the **[!UICONTROL Publish]** icon.
 
@@ -530,7 +530,7 @@ See also [Previewing Assets](previewing-assets.md).
 
 **To sort Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) **[!UICONTROL &gt; Assets &gt; Viewer Presets]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) **[!UICONTROL > Assets > Viewer Presets]**.
 1. Click **[!UICONTROL Preset Title]**, **[!UICONTROL Type]**, **[!UICONTROL Published]**, or **[!UICONTROL State]** to sort by that column heading. For example, click **[!UICONTROL Type]** to sort the viewer preset types in alphabetical or reverse-alphabetical order.
 
 ## Editing Dynamic Media viewer presets {#editing-viewer-presets}
@@ -539,7 +539,7 @@ Be aware that editing any *predefined, out-of-the-box viewer presets* is not a s
 
 **To edit Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 1. Select a preset by checking the box to the left of the viewer preset title.
 1. On the toolbar, tap **[!UICONTROL Edit]**.
 1. On the **[!UICONTROL Edit Viewer Preset]** page make the changes you want to the viewer preset.
@@ -554,7 +554,7 @@ You can delete Viewer Presets that you have created and added to Dynamic Media.
 
 **To delete custom Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Viewer Presets]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 1. On the **[!UICONTROL Viewer Presets]** page, check a **[!UICONTROL Preset Title]**, and then tap the **[!UICONTROL Trash]** icon.
 1. Tap **[!UICONTROL Delete]**.
 

@@ -51,7 +51,7 @@ Some nodes in the path are folders and some are components.
         * Click **[!UICONTROL Next]** until **[!UICONTROL OK]**
 1. Select `comments` node
 
-    * **[!UICONTROL Create &gt; Create Component...]**
+    * **[!UICONTROL Create > Create Component...]**
 
         * Enter Label: `comment`
         * Enter Title: `Comment`

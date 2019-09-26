@@ -17,7 +17,7 @@ While the default configuration settings are appropriate for typical use cases, 
 
 The following advanced configuration settings apply to the integration of AEM 3D for both Maya and non-Maya deployments.
 
-All settings are accessed using **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**).
+All settings are accessed using **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**).
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ All settings are accessed using **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; 
 
 ## Asset Types Configuration {#asset-types-configuration}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | Path |Description |
 |---|---|
@@ -41,7 +41,7 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), 
 
 ## Ingestion Configuration {#ingestion-configuration}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 <table> 
  <tbody> 
@@ -96,7 +96,7 @@ Values for the following settings are provided by your Adobe account manager, pr
 
 ## Common processing settings {#common-processing-settings}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | **Path** |**Description** |
 |---|---|
@@ -106,7 +106,7 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), 
 
 ## Renderer Configuration {#renderer-configuration}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | **Path** |**Description** |
 |---|---|
@@ -117,7 +117,7 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), 
 
 ## 3D Asset preview settings {#d-asset-preview-settings}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | Path |Description |
 |---|---|
@@ -132,7 +132,7 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), 
 
 ## 3D Sites component settings {#d-sites-component-settings}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | Path |Description |
 |---|---|

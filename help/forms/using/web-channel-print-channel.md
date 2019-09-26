@@ -53,7 +53,7 @@ To author a web channel template Complete the following steps:
 
 1. Navigate to the appropriate template folder and create a web template.
 
-    1. Navigate to the appropriate template folder by selecting **[!UICONTROL Tools]** > **[!UICONTROL Templates]** &gt; [Folder].
+    1. Navigate to the appropriate template folder by selecting **[!UICONTROL Tools]** > **[!UICONTROL Templates > Folder]**.
     1. Tap **[!UICONTROL Create]**.
     1. Select **[!UICONTROL Interactive Communication - Web Channel]** and tap **[!UICONTROL Next]**. 
     1. Enter a Template title and description and then tap **[!UICONTROL Create]**.

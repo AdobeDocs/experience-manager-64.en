@@ -28,7 +28,7 @@ You can also import and delete certificates using the Trust Manager API. For det
 
 ## Import a certificate {#import-a-certificate}
 
-1. In administration console, click **[!UICONTROL Settings &gt;Trust Store Management &gt; Certificates]**.
+1. In administration console, click **[!UICONTROL Settings > Trust Store Management > Certificates]**.
 1. Click Import and, under Trust Store Type, select one of these options:
 
     * **Trust for SSL Connections:** Specifies that AEM forms can use certificates to connect to external systems over SSL. 
@@ -47,13 +47,13 @@ You can also import and delete certificates using the Trust Manager API. For det
 
 ## Export a certificate {#export-a-certificate}
 
-1. In administration console, click **[!UICONTROL Settings &gt;Trust Store Management &gt; Certificates]**. 
+1. In administration console, click **[!UICONTROL Settings > Trust Store Management > Certificates]**. 
 1. Click the alias name of the certificate to export. The **[!UICONTROL Certificate Details]** page is displayed.
 1. Click **[!UICONTROL Export]**, follow the directions to export the certificate, and then click **[!UICONTROL OK]**.
 
 ## Edit a certificate’s trust settings and trust store type {#edit-a-certificate-s-trust-settings-and-trust-store-type}
 
-1. In administration console, click **[!UICONTROL Settings &gt;Trust Store Management &gt; Certificates]**.
+1. In administration console, click **[!UICONTROL Settings > Trust Store Management > Certificates]**.
 1. Click the alias name of the certificate to edit.
 1. Click **[!UICONTROL Update Certificate]**.
 1. To change the Alias name of the certificate, type a new name in the Alias box.
@@ -62,6 +62,6 @@ You can also import and delete certificates using the Trust Manager API. For det
 
 ## Delete a certificate {#delete-a-certificate}
 
-1. In administration console, click **[!UICONTROL Settings &gt;Trust Store Management &gt; Certificates]**.
+1. In administration console, click **[!UICONTROL Settings > Trust Store Management > Certificates]**.
 1. Select the check boxes for the certificates to delete, click **[!UICONTROL Delete]**, and then click **[!UICONTROL OK]**.
 

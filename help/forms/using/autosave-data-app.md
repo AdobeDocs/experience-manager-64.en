@@ -29,7 +29,7 @@ You can specify the intervals after which the app saves the entered data.
 
 Perform the following steps to use the autosave feature in AEM Forms app:
 
-1. Log in to the app, and navigate to **[!UICONTROL Settings &gt; General]**.
+1. Log in to the app, and navigate to **[!UICONTROL Settings > General]**.
 1. In the General screen, use the **[!UICONTROL Autosave Frequency]** option to select the intervals at which you want the app to save the entered data. 
     [ ![Setting autosave frequency](assets/using-autosave-freq-07.png)](assets/using-autosave-freq-07-1.png)
 

@@ -17,7 +17,7 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
 ## Adding a metadata profile {#adding-a-metadata-profile}
 
-1. Tap or click the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Profiles]**, and then tap **[!UICONTROL Create]**.
+1. Tap or click the AEM logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**, and then tap **[!UICONTROL Create]**.
 1. Enter a title for the Metadata Profile, for example Sample Metadata, and click **[!UICONTROL Submit]**. The **[!UICONTROL Edit Form]** for the Metadata Profile is displayed. 
 
    ![chlimage_1-480](assets/chlimage_1-480.png)
@@ -155,7 +155,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 #### Applying metadata profiles to folders from Profiles user interface {#applying-metadata-profiles-to-folders-from-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**.
 1. Select the metadata profile that you want to apply to a folder or multiple folders.
 
    ![chlimage_1-490](assets/chlimage_1-490.png)
@@ -199,7 +199,7 @@ You can remove a metadata profile from a folder from within the **[!UICONTROL To
 
 To remove a metadata profile from folders via Profiles user interface:
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Metadata Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**.
 1. Select the metadata profile that you want to remove from a folder or multiple folders.
 1. Tap **[!UICONTROL Remove Metadata Profile from Folder(s)]** and select the folder or multiple folders you want use to remove a profile from, then tap **[!UICONTROL Done]**.
 

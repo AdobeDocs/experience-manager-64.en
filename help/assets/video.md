@@ -548,7 +548,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
 ### Enabling the YouTube Publish replication agent {#enabling-the-youtube-publish-replication-agent}
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Deployment &gt; Replication &gt; Agents on Author]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Deployment > Replication > Agents on Author]**.
 1. On the **[!UICONTROL Agents of Author]** page, tap **[!UICONTROL YouTube Publish (youtube)]**.
 1. On the toolbar, to the right of Settings, tap **[!UICONTROL Edit]**.
 1. Select the **[!UICONTROL Enabled]** checkbox to turn on the replication agent.
@@ -558,7 +558,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
 ### Setting up YouTube in AEM {#setting-up-youtube-in-aem}
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Deployment &gt; Cloud Services]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Deployment > Cloud Services]**.
 1. Under the **[!UICONTROL Third Party Services]** heading, under YouTube, tap **[!UICONTROL Configure now]**.
 1. In the **Create Configuration]** dialog box, enter a title (mandatory) and name (optional) in the respective fields.
 1. Tap **[!UICONTROL Create]**.
@@ -591,7 +591,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
    You will now setup tags for publishing.
 
-1. **Setting up tags for publishing** &ndash; On the **[!UICONTROL Cloud Services &gt; YouTube]** page, tap the **[!UICONTROL Pencil]** icon to edit the list of tags that you want to use.
+1. **Setting up tags for publishing** &ndash; On the **[!UICONTROL Cloud Services > YouTube]** page, tap the **[!UICONTROL Pencil]** icon to edit the list of tags that you want to use.
 1. Tap the drop-down list icon (upside-down caret) to display the list of available tags in AEM.
 1. Tap one or more tags to add them.
 
@@ -609,7 +609,7 @@ To create the metadata processing profile, you are first going to copy values fr
 
 **To optionally automate the setting of default YouTube properties for your uploaded videos**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Metadata Schemas]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Metadata Schemas]**.
 1. Tap **[!UICONTROL default]**. (Do not add a checkmark to the selection box to the left of "default".)
 1. On the **[!UICONTROL default]** page, check the box to the left of **[!UICONTROL video]**, then tap **[!UICONTROL Edit]**.
 1. On the **[!UICONTROL Metadata Schema Editor]** page, tap the **[!UICONTROL Advanced]** tab.
@@ -644,7 +644,7 @@ To create the metadata processing profile, you are first going to copy values fr
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
 1. Near the upper-right corner of the **[!UICONTROL Metadata Schema Editor]** page, tap **[!UICONTROL Cancel]**.
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Metadata Profiles]**.  
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Metadata Profiles]**.  
 
 1. On the **[!UICONTROL Metadata Profiles** page, near the upper-right corner of the page, tap **[!UICONTROL Create**. In the **[!UICONTROL Add Metadata Profile** dialog box, in the **[!UICONTROL Profile title]** text field, enter the name `YouTube Video`.
 1. On the **[!UICONTROL Metadata Profile Editor]** page, tap the **[!UICONTROL Advance]** tab.
@@ -692,7 +692,7 @@ See [Monitoring video encoding and YouTube publishing progress](#monitoring-vide
 1. On the **[!UICONTROL Select Tags]** page, navigate to the tags you want to use, and then select one or more tags.
 1. In the upper-right corner of the page, tap the **[!UICONTROL Confirm]** icon.
 1. In the upper-right corner of the video's properties page, tap **[!UICONTROL Save]**.
-1. On the toolbar, tap **[!UICONTROL Publish &gt; Publish]**.  
+1. On the toolbar, tap **[!UICONTROL Publish > Publish]**.  
   
    You can optionally verify the published video on your YouTube channel.
 
@@ -735,10 +735,10 @@ See [Monitoring video encoding and YouTube publishing progress](#monitoring-vide
 
 **To unpublish videos to remove them from YouTube**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets]**.
 1. Navigate to the video assets that you want to unpublish from your YouTube channel.
 1. In an asset selection mode, select one or more published video assets.
-1. On the toolbar, tap **[!UICONTROL Unpublish &gt; Unpublish]**.
+1. On the toolbar, tap **[!UICONTROL Unpublish > Unpublish]**.
 
 ## Monitoring video encoding and YouTube publishing progress {#monitoring-video-encoding-and-youtube-publishing-progress}
 
@@ -778,7 +778,7 @@ To monitor progress (including failed encoding/YouTube publish):
    > 
    >You may adjust the **[!UICONTROL retries]**, **[!UICONTROL retry delay]**, and **[!UICONTROL timeout]** properties in these configurations.
 
-1. For workflows in progress, see **Workflow Instances** available from **[!UICONTROL Tools &gt; Workflow &gt; Instances]**.
+1. For workflows in progress, see **Workflow Instances** available from **[!UICONTROL Tools > Workflow > Instances]**.
 
    >[!NOTE]
    >
@@ -792,7 +792,7 @@ To monitor progress (including failed encoding/YouTube publish):
 
    From the **[!UICONTROL Workflow Instances]** area, you can also suspend, terminate, or rename workflows. See [Administering workflows](/help/sites-administering/workflows-administering.md) for more information. 
 
-1. For failed jobs, see **Workflow Failures** available from **[!UICONTROL Tools &gt; Workflow &gt; Failures]**. The **[!UICONTROL Workflow Failure]** lists all failed workflow activities.
+1. For failed jobs, see **Workflow Failures** available from **[!UICONTROL Tools > Workflow > Failures]**. The **[!UICONTROL Workflow Failure]** lists all failed workflow activities.
 
    >[!NOTE]
    >
@@ -810,7 +810,7 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may adjust the **[!UICONTROL retries]**, **[!UICONTROL retry delay]**, and **[!UICONTROL timeout]** properties in these configurations.
 
-1. For completed workflows, see **[!UICONTROL Workflow Archive]** available from **[!UICONTROL Tools &gt; Workflow &gt; Archive]**. The **[!UICONTROL Workflow Archive]** lists all completed workflow activities.
+1. For completed workflows, see **[!UICONTROL Workflow Archive]** available from **[!UICONTROL Tools > Workflow > Archive]**. The **[!UICONTROL Workflow Archive]** lists all completed workflow activities.
 
     You may need administrative rights to access the **[!UICONTROL Tools]** menu.
 
@@ -825,11 +825,11 @@ You may need administrative rights to access the **[!UICONTROL Tools]** menu.
 
 How you configure notification depends on whether you want notifications for encoding jobs or YouTube publishing jobs:
 
-* For encoding jobs, you can access the configuration page for all AEM workflow email notifications at **[!UICONTROL Tools &gt; Operations &gt; Web Console]** and by searching for **[!UICONTROL Day CQ Workflow Email Notification Service]**. See [Configuring Email Notification in AEM](/help/sites-administering/notification.md). You can select or clear the check boxes for **[!UICONTROL Notify on Abort]** or **[!UICONTROL Notify on Complete]** accordingly.
+* For encoding jobs, you can access the configuration page for all AEM workflow email notifications at **[!UICONTROL Tools > Operations > Web Console]** and by searching for **[!UICONTROL Day CQ Workflow Email Notification Service]**. See [Configuring Email Notification in AEM](/help/sites-administering/notification.md). You can select or clear the check boxes for **[!UICONTROL Notify on Abort]** or **[!UICONTROL Notify on Complete]** accordingly.
 
 * For YouTube publishing jobs, do the following:
 
-1. In AEM, select **[!UICONTROL Tools &gt; Workflow &gt; Models]**.
+1. In AEM, select **[!UICONTROL Tools > Workflow > Models]**.
 1. Select the **[!UICONTROL Publish to YouTube]** workflow, then tap **[!UICONTROL Edit]**. 
 1. Right-click the **[!UICONTROL YouTube Upload]** workflow step, then tap **[!UICONTROL Edit]**. 
 1. Tap the **[!UICONTROL Argument]s** tab. 
@@ -875,7 +875,7 @@ For video reports to work correctly, a Report Suite ID is automatically created 
 
 **To view video reports**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools &gt; Assets &gt; Video Reports]**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Video Reports]**.
 1. On the Video Reports page, do one of the following:
 
     * Near the upper-right corner, tap the **[!UICONTROL Refresh Video Report]** icon.  
@@ -1143,7 +1143,7 @@ See [Adding a video thumbnail](#adding-a-video-thumbnail).
 
 To configure the default time interval that video thumbnails are generated,
 
-1. In AEM, tap **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
+1. In AEM, tap **[!UICONTROL Tools > General > CRXDE Lite]**.
 
 1. In the CRXDE Lite page, in the directory panel on the left, navigate t `o etc/dam/imageserver/configuration/jcr:content/settings.`
 
