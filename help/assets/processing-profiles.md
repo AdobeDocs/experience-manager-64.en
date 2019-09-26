@@ -54,20 +54,20 @@ For example, suppose you created an Image profile and assigned it to a folder. A
     
     If there are one or more sub-folders with assets under the main selected folder, the workflow will reprocess every asset in the folder tree.
 
-1. Near the upper-left corner of the page, from the drop-down list, click **[UICONTROL Timeline]**.
+1. Near the upper-left corner of the page, from the drop-down list, click **Timeline**.
 1. Near the lower-left corner of the page, to the right of the Comment field, click the carat icon  ( **^** ) .
 
     ![Reprocess assets workflow 1](/help/assets/assets/reprocess-assets1.png)
 
-1. Click **[UICONTROL Start Workflow]**.
-1. From the **[UICONTROL Start Workflow]** drop-down list, choose **[UICONTROL Scene7: Reprocess Assets]**.
-1. (Optional) In the **[UICONTROL Enter title of workflow]** text field, enter a name for the workflow. You can use the name to reference the workflow instance, if necessary.
+1. Click **Start Workflow**.
+1. From the **Start Workflow** drop-down list, choose **Scene7: Reprocess Assets**.
+1. (Optional) In the **Enter title of workflow** text field, enter a name for the workflow. You can use the name to reference the workflow instance, if necessary.
 
     ![Reprocess assets 2](/help/assets/assets/reprocess-assets2.png)
 
-1. Click **[UICONTROL Start]**, then click **[UICONTROL Confirm]**.
+1. Click **UICONTROL Start**, then click **Confirm**.
 
-    To monitor the workflow or check its progress, from the AEM main console page, click **[UICONTROL Tools > Workflow]**. On the Workflow Instances page, select a workflow. On the menu bar, click **Open History**. You can also terminate, suspend, or rename a selected workflow from the same Workflow Instances page.
+    To monitor the workflow or check its progress, from the AEM main console page, click **Tools > Workflow**. On the Workflow Instances page, select a workflow. On the menu bar, click **Open History**. You can also terminate, suspend, or rename a selected workflow from the same Workflow Instances page.
 
 <!--### Adjusting the batch size of the reprocess workflow {#adjusting-load}
 
