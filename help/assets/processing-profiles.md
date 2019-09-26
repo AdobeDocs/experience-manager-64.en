@@ -48,11 +48,12 @@ For example, suppose you created an Image profile and assigned it to a folder. A
 
     Folders that have a processing profile already assigned to it are indicated by the display of the profile's name directly below the folder name in Card View. 
 
-1. Select the folder.
+1. Select a folder.
 
-    If desired, you can select multiple folders. The folders must have a processing profile assigned to it. Also, the folders can either have the same profile assigned to them, or they can have different profiles. The reprocessing workflow will apply the updated profile to the selected folders, regardless of the profile that was assign to them previously.
-    
-    If there are one or more sub-folders with assets under the main selected folder, the workflow will reprocess every asset in the folder tree.
+    * The folder must have a metadata, image, or video processing profile assigned to it.
+    * The workflow considers all files in the selected folder, recursively.
+    * If there are one or more sub-folders with assets in the main selected folder, the workflow will reprocess every asset in the folder hierarchy.
+    * The folder hierarchy can contain up to 1000 assets. If the folder hierarchy contains more than 1000 assets, the reprocess workflow will not trigger and run.
 
 1. Near the upper-left corner of the page, from the drop-down list, click **Timeline**.
 1. Near the lower-left corner of the page, to the right of the Comment field, click the carat icon  ( **^** ) .
