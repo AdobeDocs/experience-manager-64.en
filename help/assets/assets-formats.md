@@ -6,8 +6,6 @@ seo-description: List of file formats supported by AEM Assets and features suppo
 uuid: 56debf26-d67f-4bca-933c-5eb4ec9d2865
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 8519f029-3dd1-4325-9758-e6b5b530a0ee
 ---
 
@@ -464,12 +462,21 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 | .mts |AVCHD |H264/AVC |  |
 | .mkv |Matroska |H264/AVC |  |
 | .r3d .rm |Red Raw Video |MJPEG 2000 |  |
-| .ram .rm |RealVideo |**UNSUPPORTED** |Real G2 (RV20), Real 8 (RV30), Real 10 (RV40) |
+| .ram .rm |RealVideo | Unsupported |Real G2 (RV20), Real 8 (RV30), Real 10 (RV40) |
 | .flac |Native Flac |Free lossless audio codec |  |
 | .mj2 |Motion JPEG2000 |Motion JPEG 2000 codec |  |
 
 ## Supported Archive Formats {#supported-archive-formats}
 
+| Formats | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media delivery |
+|---|---|---|---|---|---|---|
+| TGZ | x | x | x | x | x | |
+| JAR | x | x | x | x | x | |
+| RAR | x | x | x | x | x | |
+| TAR | x | x | x | x | x | |
+| ZIP* | x | x | x | x | x | x |
+
+<!--
 <table> 
  <tbody>
   <tr>
@@ -538,7 +545,9 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
  </tbody>
 </table>
 
-**\*** The ZIP archives created using Deflate64 algorithm have limited support in AEM. Archive and unarchive operations are not supported. However, operations like uploading, browsing, and downloading are supported.
+-->
+
+**\*** The ZIP archives created using the `Deflate64` algorithm have limited support in AEM. Archive and unarchive operations are not supported. Operations, such as, uploading, browsing, and downloading are supported.
 
 ## Other Supported Formats {#other-supported-formats}
 
