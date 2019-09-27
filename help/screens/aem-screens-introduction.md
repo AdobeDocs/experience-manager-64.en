@@ -13,7 +13,7 @@ discoiquuid: 920e9702-82f7-4495-a84e-22a1c8b0d559
 
 # What is AEM Screens? {#what-is-aem-screens}
 
-**AEM (Adobe Experience Manager) Screens** - *a Digital Signage Solution *that allows you to publish dynamic and interactive digital experiences and interactions involving different types of screens in conjunction with a comprehensive digital marketing platform.
+**AEM (Adobe Experience Manager) Screens** - *a Digital Signage Solution* that allows you to publish dynamic and interactive digital experiences and interactions involving different types of screens in conjunction with a comprehensive digital marketing platform.
 
 Get up and running with a simple digital signage experience, using [Kickstart for AEM Screens](kickstart-for-aem-screens.md).
 
@@ -53,6 +53,20 @@ The following figure defines the personas and their roles for AEM Screens.
 >
 >*Additionally, to view different responsibilies as per the roles, click the personas mentioned above.*
 
+## Pre-requisite Knowledge {#prerequisite-knowledge}
+
+Before you start working on a Digital Signage project using AEM Screens, Adobe Experience Manager (AEM) knowledge is required and should be completed prior to working on an AEM Screens Project.
+
+Refer to the following tutorials and resources to learn Adobe Experience Manager 6.4 and 6.5:
+
+* **[Adobe Experience Manager Getting Started](https://helpx.adobe.com/experience-manager/get-started.html)**: Discover getting started articles and video tutorials for Adobe Experience Manager.
+* **[AEM 6.5 Tutorials and Videos](https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html)**: A collection of tutorials and videos highlighting both new and updated capabilities for AEM Sites, Assets, Forms, Screens, and Foundation with the release of AEM 6.5.
+* **[AEM Core Concepts](https://docs.adobe.com/content/help/en/experience-manager-64/developing/introduction/the-basics.html)**: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM.
+
+## Guided Implementation Essentials {#implementation-essentials}
+
+Follow the guided learning path AEM Screens Implementation Essentials, that covers foundational as well as advanced features supported in AEM Screens.
+
 While creating a new project, different functions may overlap depending on your organizational and business requirements. You can refer to the following resources for detailed step-by-step functions that will allow you to create and manage AEM Screens project:
 
 1. [Install and Configure Screens](configuring-screens-introduction.md)
@@ -67,6 +81,7 @@ While creating a new project, different functions may overlap depending on your 
 1. [AEM Screens Player](working-with-screens-player.md)  
 1. [Troubleshoot Device Control Center](monitoring-screens.md)
 
+
 ### Related Resources {#related-resources}
 
-View [Understanding AEM Screens](screens-concepts-feature-video-understand.md), as an additional resource including videos to introduce different areas of an AEM Screens project.  
+View [Understanding AEM Screens](screens-concepts-feature-video-understand.md), as an additional resource including videos to introduce different areas of an AEM Screens project.
