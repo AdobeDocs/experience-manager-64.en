@@ -46,11 +46,11 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select the Adobe Experience Manager link (top left) and then **Screens**. Alternatively, you can ﻿go directly to: [http://localhost:4502/screens.html/content/screens](http://localhost:4502/screens.html/content/screens).
     1. Click **Create** to create a new Screens project (see the figure below).
     1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
-    1. Enter the title as *Test_Project *and click **Create**.
+    1. Enter the title as **Test_Project** and click **Create**.
 
    ![chlimage_1-64](assets/chlimage_1-64.png)
 
-   Once the project is created, it brings you back to the Screens Project console. You can now select your project. In a project, there are five kind of folders namely **Schedules**,** Locations**,** Applications**,** Devices** and **Channels**, as shown in the figure below.
+   Once the project is created, it brings you back to the Screens Project console. You can now select your project. In a project, there are five kind of folders namely **Schedules**, **Locations**, **Applications**, **Devices** and **Channels**, as shown in the figure below.
 
    >[!NOTE]
    >
@@ -66,10 +66,10 @@ The following steps allow you to create a sample project for Screens and publish
 
    Follow the steps below to create a new channel for your project:
 
-    1. Navigate to the *Test_Project* you created and select the **Channels** folder.
-    1. Click** Create** from the action bar (see the figure below). A wizard will open.
-    1. Choose the **Sequence Channel **and click **Next**.
-    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
+    1. Navigate to the **Test_Project** you created and select the **Channels** folder.
+    1. Click **Create** from the action bar (see the figure below). A wizard will open.
+    1. Choose the **Sequence Channel** and click **Next**.
+    1. Enter the **Name** and **Title** as **TestChannel** and click **Create**.
 
    ![screen_shot_2019-03-04at90236am](assets/screen_shot_2019-03-04at90236am.png)
 
@@ -86,7 +86,7 @@ The following steps allow you to create a sample project for Screens and publish
    Follow the steps below to add content to the channel (*TestChannel*) in your project:
 
     1. Navigate to the *Test_Project* you created and select the **Channels** folder.
-    1. Click **Edit** from the action bar (see the figure below). The editor for the* TestChannel* opens.
+    1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
     1. Click the icon that toggles side panel on left hand side of the action bar to open the assets and components.
     1. Drag and drop the components you want to add to your channel.
 
@@ -123,7 +123,7 @@ The following steps allow you to create a sample project for Screens and publish
 
     1. Navigate to the location where you want to create your display (*Test_Projec*t --&gt; **Locations** --&gt; *TestLocation)* as shown in the figure above and selct *TestLocation*.
     1. Click** Create **from the action bar. 
-    1. Select **Display **from the **Create** wizard and click **Next**.
+    1. Select **Display** from the **Create** wizard and click **Next**.
     1. Enter **Title** for your display location (enter the title as *TestDisplay*).
     1. Click **Create**.
 
@@ -159,10 +159,10 @@ The following steps allow you to create a sample project for Screens and publish
     1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
     1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS & SCHEDULES** panel, as shown in the figure below. **Channel Assignment** dialog box opens.
     1. Select **Reference Channel** by **path**.
-    1. Select the** Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**. The **Channel Role** will be automatically populated with the channel name. 
+    1. Select the **Channel Path** (*Test_Project* --&gt; *Channels* --&gt; *TestChannel* ) in the **Channel**. The **Channel Role** will be automatically populated with the channel name. 
     1. Select the **Priority** for this channel as *1*.
-    1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
-    1. Enter **Schedule **and select the dates in **active from** and **active until**. *(You need to fill these fields only if you want the channel to display for a particular interval of time.)* 
+    1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
+    1. Enter **Schedule** and select the dates in **active from** and **active until**. *(You need to fill these fields only if you want the channel to display for a particular interval of time.)*
     1. Click **Save**.
 
    The channel is assigned and added to the panel.
