@@ -58,7 +58,7 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 
    ![chlimage_1-14](assets/chlimage_1-14.png)
 
-   [UICONTROL Stage Selector] icon
+   [!UICONTROL Stage Selector] icon
 
 1. On the **[!UICONTROL Render]** drop-down list on the left side of the asset details page, select a renderer.
 
@@ -70,7 +70,7 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 
     * In the **[!UICONTROL Width and Height]** fields, enter the pixel width and height that you want your image rendered.
     * In the **[!UICONTROL Image Name]** field, enter the name of the rendered image.
-    * In the **[!UICONTROL Export Path]** field, enter the path where you want the rendered image stored. Or, tap the **[UICONTROL Browse]** icon and navigate to a location.
+    * In the **[!UICONTROL Export Path]** field, enter the path where you want the rendered image stored. Or, tap the **[!UICONTROL Browse]** icon and navigate to a location.
     * (Optional) Select or deselect the **[!UICONTROL Overwrite existing image]** check box.
 
 1. Near the upper-right corner of the asset details page, tap the **[!UICONTROL Camera Selector]** icon. Select a camera view that you want to apply to the rendered image.

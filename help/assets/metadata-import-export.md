@@ -35,7 +35,7 @@ The metadata import is asynchronous and does not impede the system performance. 
     </tr>
     <tr>
     <td><p>Field Separator</p> </td> 
-    <td><p>Default value is Comma. You can specify any other character.</p> </td> 
+    <td><p>Default value is comma. You can specify any other character.</p> </td> 
     </tr>
     <tr>
     <td><p>Multi value Delimiter</p> </td> 
@@ -53,6 +53,9 @@ The metadata import is asynchronous and does not impede the system performance. 
    </table>
 
 1. Tap/click **[!UICONTROL Import]** from the toolbar. After the metadata is imported, a notification is sent to your Notification inbox. Navigate to asset property page and verify whether the metadata values are correctly imported for assets.
+
+<!-- TBD: Format characters in the table using backticks and add UICONTROL after table is converted to MD
+-->
 
 ## Export Metadata {#export-metadata}
 

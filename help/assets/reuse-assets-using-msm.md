@@ -147,7 +147,7 @@ Select the source asset or folder, open the left rail, and click **[!UICONTROL R
 
 ![Actions and information available in the References rail for the selected source](assets/lc_referencerail_source.png)
 
-For a specific live copy, click **[UICONTROL Edit Live Copy]** to suspend relationship or change rollout configuration.
+For a specific live copy, click **[!UICONTROL Edit Live Copy]** to suspend relationship or change rollout configuration.
 
 ![Suspend relationship or change rollout configuration of a specific live copy](assets/lc_edit_referencerail.png)
 

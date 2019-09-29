@@ -19,7 +19,6 @@ Depending upon how you have positioned AEM Assets for your organization and the 
 
 After reviewing the following guides, you will have the knowledge and tools to build and manage an enterprise asset management system that meets your needs.
 
-
 * [Assets Performance Tuning guide](performance-tuning-guidelines.md)
 Includes a set of best practices that can be followed at any point in your implementation, even after you go live, to ensure that you get the most out of your system.
 * [Assets Sizing guide](assets-sizing-guide.md)

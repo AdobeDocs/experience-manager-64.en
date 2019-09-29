@@ -27,6 +27,9 @@ Media handlers are services inside AEM Assets that perform specific actions on a
 
 The following media handlers are available within AEM Assets and handle the most common MIME types:
 
+<!-- TBD: Apply correct formatting once table is moved to MD.
+-->
+
 <table> 
  <tbody> 
   <tr> 
@@ -118,9 +121,7 @@ AEM has some default workflows to process assets. To view them, open the Workflo
 
 Existing workflows can be extended and new ones can be created to process assets according to specific requirements.
 
-The following example shows how to enhance the AEM Assets Synchronization workflow so that sub-assets are generated for all assets except PDF documents.
-
-The workflow will look as follows:
+The following example shows how to enhance the **[!UICONTROL AEM Assets Synchronization]** workflow so that sub-assets are generated for all assets except PDF documents.
 
 ### Disabling/Enabling a Media Handler {#disabling-enabling-a-media-handler}
 
@@ -139,15 +140,15 @@ To support a new media type or to execute specific tasks on an asset, it is nece
 
 #### Important Classes and Interfaces {#important-classes-and-interfaces}
 
-The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behaviour: the com.day.cq.dam.core.AbstractAssetHandler Class.
+The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behavior: the `com.day.cq.dam.core.AbstractAssetHandler` class.
 
-This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to true.
+This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to `true`.
 
-The following methods need to be implemented:
+Implement the following methods:
 
-* `extractMetadata()`: this method extracts all available metadata.
-* `getThumbnailImage()`: this method creates a thumbnail image out of the passed asset.
-* `getMimeTypes()`: this method returns the asset mime type(s).
+* `extractMetadata()`: extracts all available metadata.
+* `getThumbnailImage()`: creates a thumbnail image out of the passed asset.
+* `getMimeTypes()`: returns the asset MIME types.
 
 Here is an example template:
 
@@ -190,9 +191,9 @@ Refer to [Development Tools](../sites-developing/dev-tools.md) to install and se
 
 After you perform the following procedure, when you upload a txt file into AEM, the file's metadata are extracted and two thumbnails with a watermark are generated.
 
-1. In Eclipse, create the myBundle Maven project:
+1. In Eclipse, create `myBundle` Maven project:
 
-    1. In the Menu bar, click **[!UICONTROL File > New > Other...]**.
+    1. In the Menu bar, click **[!UICONTROL File > New > Other]**.
     1. In the dialog, expand the Maven folder, select Maven Project and click **[!UICONTROL Next]**.
     1. Check the Create a simple project box and the Use default Workspace locations box, then click **[!UICONTROL Next]**.
     1. Define the Maven project:
@@ -206,15 +207,14 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 
 1. Set the Java Compiler to version 1.5:
 
-    1. Right-click the myBundle project, select Properties.
+    1. Right-click the `myBundle` project, select Properties.
     1. Select Java Compiler and set following properties to 1.5:
 
         * Compiler compliance level
         * Generated .class files compatibility
         * Source compatibility
 
-    1. Click **[!UICONTROL OK]**.
-    1. In the dialog window, click Yes.
+    1. Click **[!UICONTROL OK]**. In the dialog window, click Yes.
 
 1. Replace the code in the pom.xml file with the following code:
 
@@ -340,7 +340,7 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 
 1. Create the Java class `MyHandler`:
 
-    1. In Eclipse, under `myBundle/src/main/java`, right-click the com.day.cq5.myhandler package, select New, then Class.
+    1. In Eclipse, under `myBundle/src/main/java`, right-click the `com.day.cq5.myhandler` package, select New, then Class.
     1. In the dialog window, name the Java Class MyHandler and click Finish. Eclipse creates and opens the file MyHandler.java.
     1. In `MyHandler.java` replace the existing code with the following and then save the changes:
 
@@ -495,12 +495,11 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 
 ## Command Line Based Media Handler {#command-line-based-media-handler}
 
-AEM enables you to run any command-line tool within a workflow to convert assets (like for example ImageMagick) and to add the new rendition to the asset. You only need to install the command-line tool on the disk hosting the AEM server and to add and configure a process step to the workflow. The invoked process, called `CommandLineProcess`, also enables to filter according to specific mime-types and to create multiple thumbnails based on the new rendition.
+AEM enables you to run any command-line tool within a workflow to convert assets (such as ImageMagick) and to add the new rendition to the asset. You only need to install the command-line tool on the disk hosting the AEM server and to add and configure a process step to the workflow. The invoked process, called `CommandLineProcess`, also enables to filter according to specific MIME types and to create multiple thumbnails based on the new rendition.
 
 The following conversions can be automatically run and stored within AEM Assets:
 
 * EPS and AI transformation using [ImageMagick](https://www.imagemagick.org/script/index.php) and [Ghostscript](https://www.ghostscript.com/)
-
 * FLV video transcoding using [FFmpeg](https://ffmpeg.org/)
 * MP3 encoding using [LAME](http://lame.sourceforge.net/)
 * Audio processing using [SOX](http://sox.sourceforge.net/)
@@ -541,7 +540,7 @@ First install ImageMagick on the disk hosting the AEM server:
 
    A flipped image is added to the directory.
 
-Then, add the command line process step to the **DAM Update Asset workflow**:
+Then, add the command line process step to the **[!UICONTROL DAM Update Asset]** workflow:
 
 1. Go to the **[!UICONTROL Workflow]** console.
 1. In the **[!UICONTROL Models]** tab, edit the **[!UICONTROL DAM Update Asset]** model.
@@ -553,9 +552,9 @@ Then, add the command line process step to the **DAM Update Asset workflow**:
 
 1. Save the workflow.
 
-Finally, test the modified workflow by adding a new asset to **/content/dam**:
+To test the modified workflow, add an asset to `/content/dam`.
 
-1. In the file system, get a .tiff image of your choice. Rename it to myImage.tiff and copy it to **/content/dam**, for example by using WebDAV.
+1. In the file system, get a .tiff image of your choice. Rename it to `myImage.tiff` and copy it to `/content/dam`, for example by using WebDAV.
 1. Go to the **[!UICONTROL CQ5 DAM]** console, for example `http://localhost:4502/libs/wcm/core/content/damadmin.html`.
 1. Open the asset **[!UICONTROL myImage.tiff]** and verify that the flipped image and the three thumbnails have been created.
 
