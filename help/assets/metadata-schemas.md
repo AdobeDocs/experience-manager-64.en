@@ -6,8 +6,6 @@ seo-description: Metadata schema defines the layout of the properties page and t
 uuid: cadbdc1c-8a57-48c1-aec8-e03d714c6384
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: c4c16dac-0f71-459a-8a19-a46a81eecc65
 ---
 
@@ -94,7 +92,7 @@ You can add new tabs or form items to the metadata schema form. The tabs and for
 
    ![chlimage_1-176](assets/chlimage_1-176.png)
 
-1. To configure a component, select it and modify its properties in the** Settings **tab.
+1. To configure a component, select it and modify its properties in the **[!UICONTROL Settings]** tab.
 
 ### Components within the Build Form tab {#components-within-the-build-form-tab}
 

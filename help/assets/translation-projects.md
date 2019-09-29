@@ -6,8 +6,6 @@ seo-description: Learn how to create translation projects in AEM.
 uuid: 9d360f6b-584f-4bd1-afb9-cd32aa8db0b9
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: managing-assets
-content-type: reference
 discoiquuid: 914d1248-aa7c-4191-ade2-7cb19e95cd35
 ---
 
@@ -56,11 +54,11 @@ Use the **Create structure only** option to create a target folder hierarchy wit
 
    ![chlimage_1-59](assets/chlimage_1-59.png)
 
-1. From the** Project** list, choose **[!UICONTROL Create structure only]**.
+1. From the **[!UICONTROL Project]** list, choose **[!UICONTROL Create structure only]**.
 
    ![chlimage_1-60](assets/chlimage_1-60.png)
 
-1. Click/tap** Create**. The new structure for the target language is listed under **[!UICONTROL Language Copies]**.
+1. Click/tap **[!UICONTROL Create]**. The new structure for the target language is listed under **[!UICONTROL Language Copies]**.
 
    ![chlimage_1-61](assets/chlimage_1-61.png)
 
@@ -154,7 +152,7 @@ If you use this option, the translation workflow runs for assets that you add to
 
    ![chlimage_1-78](assets/chlimage_1-78.png)
 
-1. Click/tap **[!UICONTROL Create]**. The assets to be translated are added to the target folder. The updated folder is listed under the **Language Copies **section.
+1. Click/tap **[!UICONTROL Create]**. The assets to be translated are added to the target folder. The updated folder is listed under the **[!UICONTROL Language Copies]** section.
 
    ![chlimage_1-79](assets/chlimage_1-79.png)
 

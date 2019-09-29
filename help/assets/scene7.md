@@ -219,7 +219,7 @@ To link a field to a client context value, tap **[!UICONTROL Select]** to open t
 
 ![chlimage_1-236](assets/chlimage_1-236.png)
 
-The text reflects the name of the currently logged in user. You can reset the text back to the original value by clicking **Reset **next to the field.
+The text reflects the name of the currently logged in user. You can reset the text back to the original value by clicking **[!UICONTROL Reset]** next to the field.
 
 ![chlimage_1-237](assets/chlimage_1-237.png) 
 
