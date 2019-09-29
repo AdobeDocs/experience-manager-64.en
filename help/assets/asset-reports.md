@@ -6,8 +6,6 @@ seo-description: Know about the various types of asset reports you can generate 
 uuid: 55657e05-1c1b-4cc7-a5bb-a11b3f97c854
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
 discoiquuid: d403ed1b-ac6b-4b01-9e67-958edeed80a4
 ---
 
@@ -52,7 +50,7 @@ AEM administrators can easily generate and customize these reports for your impl
 
    >[!NOTE]
    >
-   >Before you can generate an **[!UICONTROL Asset Downloaded]** report, ensure that the Asset Download service is enabled. From the web console ( `https://[server name]:[port name]/system/console/configMgr`), open the **[!UICONTROL Day CQ DAM Event Recorder]** configuration, and select the **[!UICONTROL Asset Downloaded (DOWNLOADED)]** option in Event Types  if not already selected.
+   >Before you can generate an **[!UICONTROL Asset Downloaded]** report, ensure that the Asset Download service is enabled. From the web console (`https://[server name]:[port name]/system/console/configMgr`), open the **[!UICONTROL Day CQ DAM Event Recorder]** configuration, and select the **[!UICONTROL Asset Downloaded (DOWNLOADED)]** option in Event Types  if not already selected.
 
    >[!NOTE]
    >
@@ -80,7 +78,7 @@ AEM administrators can easily generate and customize these reports for your impl
 
    ![disk_usage_configuration](assets/disk_usage_configuration.png)
 
-   When you create the **Files** report, you can include/exclude subfolders. However, you cannot include asset renditions for this report.
+   When you create the **[!UICONTROL Files]** report, you can include/exclude subfolders. However, you cannot include asset renditions for this report.
 
    ![files_report](assets/files_report.png)
 
@@ -154,4 +152,3 @@ To remove reports that you no longer require, configure the DAM Report Purge ser
 1. Specify the frequency (time interval) for the purging service in the `scheduler.expression.name` field. You can also configure the age and the quantity threshold for reports.  
 
 1. Save the changes.
-

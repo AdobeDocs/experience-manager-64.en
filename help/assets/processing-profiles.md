@@ -82,7 +82,7 @@ The default batch size in the reprocessing workflow is 50 assets per job. Howeve
 
    `/conf/global/settings/workflow/models/scene7_reprocess_assets/jcr:content/flow/reprocess/metaData`
 
-1. On the right side of the CRXDE Lite page, in the lower portion, double-click the Value field for the **[UICONTROL metaData]** row.
+1. On the right side of the CRXDE Lite page, in the lower portion, double-click the Value field for the **[!UICONTROL metaData]** row.
 1. Set a new default value (50-1000) for the batch size.
 1. On the menu bar of the CRXDE Lite page, tap **[!UICONTROL Save All]**.
 1. In the upper-left corner of the page, tap **[!UICONTROL CRXDE Lite]** to return to the main AEM console.-->

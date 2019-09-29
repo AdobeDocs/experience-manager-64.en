@@ -1,13 +1,11 @@
 ---
-title: Managing assets with the Touch-optimized UI
-seo-title: Managing Assets with the Touch-optimized UI
+title: Manage assets in AEM Assets
+seo-title: Manage assets in AEM Assets
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 seo-description: Learn how to upload, manage, and edit assets using the touch-optimized user interface
 uuid: f148c913-7b44-4285-8db9-138f959c4899
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
 discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
 ---
 
@@ -15,7 +13,7 @@ discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
 
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 
-This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface (UI). For elementary knowledge about the UI, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md).
+This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface. For an elementary knowledge about the user interface, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md).
 
 >[!CAUTION]
 >
@@ -23,7 +21,7 @@ This article describes how to manage and edit assets using the Adobe Experience 
 
 ## Creating folders {#create-folders}
 
-When organizing a collection of assets, for example, all *Nature* images, you can create folders to keep them together. You can use folders to categorize and organize your assets. AEM Assets does not require you to organize assets in folders to work better.
+When organizing a collection of assets, for example, all `Nature` images, you can create folders to keep them together. You can use folders to categorize and organize your assets. AEM Assets does not require you to organize assets in folders to work better.
 
 >[!NOTE]
 >
@@ -52,19 +50,19 @@ You can choose to upload assets to folders with or without a processing profile 
 
 For folders that have a processing profile assigned, the profile name appears on the thumbnail in the card view. In the list view, the profile name appears in the **Processing Profile** column. See [Processing Profiles](processing-profiles.md).
 
-Before uploading an asset, ensure that it is in a [format](assets-formats.md) that AEM Assets supports.
+Before uploading an asset, ensure that it is in a [supported format](assets-formats.md).
 
 **To upload assets**:
 
-1. In the Assets UI, navigate to the location where you want to add digital assets.
+1. In the Assets web interface, navigate to the location where you want to add digital assets.
 1. To upload the assets, do one of the following:
 
     * On the toolbar, tap the **[!UICONTROL Create]** icon. Then, on the menu, then tap **[!UICONTROL Files]**. You can rename the file in the presented dialog if needed.
-    * In a browser that supports HTML5, drag the assets directly on the Assets UI. The dialog to rename file is not displayed.
+    * In a browser that supports HTML5, drag the assets directly on the interface. The dialog to rename file is not displayed.
 
    ![create_menu](assets/create_menu.png)
 
-   To select multiple files, press the Ctrl/Command key and select the assets in the file picker dialog. If using an iPad, you can only select one file at a time.
+   To select multiple files, press the Ctrl/Command key and select the assets in the file picker dialog. From an iPad, you can only select one file at a time.
 
    You can pause the uploading of large assets (greater than 500 MB) and resume it later from the same page. Tap the **[!UICONTROL Pause]** icon beside progress bar that appears when the uploading starts.
 
@@ -76,21 +74,21 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    To modify the size limit, configure the `chunkUploadMinFileSize` property of the `fileupload`node in the CRX repository.
 
-   When you click the **[!UICONTROL Pause]** icon, it toggles to a **[!UICONTROL Play]** icon. To resume uploading, click the **[!UICONTROL Play]** icon. 
+   When you click the **[!UICONTROL Pause]** icon, it toggles to a **[!UICONTROL Play]** icon. To resume uploading, click the **[!UICONTROL Play]** icon.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-   To cancel an ongoing upload, click the **[!UICONTROL X]** button beside the progress bar. When you cancel the upload operation, AEM Assets deletes the partially uploaded portion of the asset.
+   To cancel an ongoing upload, click the `X` button beside the progress bar. When you cancel the upload operation, AEM Assets deletes the partially uploaded portion of the asset.
 
    The ability to resume uploading is especially helpful in low-bandwidth scenarios and network glitches, where it takes a long time to upload a large asset. You can pause the upload operation and continue later when the situation improves. When you resume, uploading starts from the point where you paused it.
 
    During the upload operation, AEM saves the portions of the asset being uploaded as chunks of data in the CRX repository. When the upload completes, AEM consolidates these chunks into a single block of data in the repository.
 
-   To configure the cleanup task for the unfinished chunk upload jobs, go to `https://[*server*]:[*port*]/system/console/configMgr/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask`.
+   To configure the cleanup task for the unfinished chunk upload jobs, go to `https://[aem_server]:[port]/system/console/configMgr/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask`.
 
    If you upload an asset with the same name as that of an asset already available at the location where you are uploading the asset, a warning dialog is displayed.
 
-   You can choose to replace an existing asset, create another version, or keep both by renaming the new asset that is uploaded. If you replace an existing asset, the metadata for the asset and any prior modifications (for example annotations, croppings, and so on) you made to the existing asset are deleted. If you choose to keep both assets, the new asset is renamed with the number 1 appended to its name.
+   You can choose to replace an existing asset, create another version, or keep both by renaming the new asset that is uploaded. If you replace an existing asset, the metadata for the asset and any prior modifications and history (for example annotations, croppings, and so on) are deleted. If you choose to keep both assets, the new asset is renamed.
 
    ![chlimage_1-7](assets/chlimage_1-7.png)
 
@@ -98,9 +96,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
    >
    >When you select **[!UICONTROL Replace]** in the **[!UICONTROL Name Conflict]** dialog box, the asset ID is regenerated for the new asset. This ID is different from the ID of the previous asset.
    >
-   >If **[!UICONTROL Asset Insights]** is enabled to track impressions/clicks with Adobe Analytics, this regenerated asset ID invalidates the data-captured for the asset on Analytics.
-   >
-   >A similar situation may occur if content packages of Assets created with AEM 6.1 (or earlier versions) are installed on an AEM 6.2 instance.
+   >If **[!UICONTROL Asset Insights]** is enabled to track impressions/clicks with Adobe Analytics, this regenerated asset ID invalidates the data-captured for the asset on Adobe Analytics.
 
    If the asset you upload exists in AEM Assets, the **[!UICONTROL Duplicates Detected]** dialog box warns that you are attempting to upload a duplicate asset. The dialog appears only if the SHA 1 checksum value of the binary of the existing asset matches the checksum value of the asset you upload. In this case, the names of assets are immaterial. In other words, the dialog can even appear for assets that have different names if the SHA 1 values for their binaries are the same.
 
@@ -119,14 +115,12 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
    ![chlimage_1-9](assets/chlimage_1-9.png)
 
    However, the following (space-separated list of) characters are not supported:
-   * asset file name must not contain  * / : [ \ \ ] | # % { } ? &
-   * asset folder name must not contain  * / : [ \ \ ] | # % { } ? \" . ^ ; + & \t
+   * asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
+   * asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 
-   In addition, the Assets UI displays the most recent asset that you upload or the folder you create first in all the views (**[!UICONTROL Card]**, **[!UICONTROL List]**, and **[!UICONTROL Column]** views).
+   In addition, the Assets interface displays the most recent asset that you upload or the folder you create first in all the views (**[!UICONTROL Card view]**, **[!UICONTROL List view]**, and **[!UICONTROL Column view]**).
 
-   Often, while uploading large assets or multiple assets simultaneously, visual indicators in the UI enable you to assess the progress and performance of the upload operation.
-
-   The **[!UICONTROL Upload Progress]** dialog box in AEM Assets displays the count of successfully uploaded files and the files that failed to upload.
+   Often, while uploading large assets or multiple assets simultaneously, visual indicators enable you to assess the progress. The **[!UICONTROL Upload Progress]** dialog box displays the count of successfully uploaded files and the files that failed to upload.
 
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
@@ -134,7 +128,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
 ### Serial uploads {#serial-uploads}
 
-Uploading numerous assets in bulk consumes significant I/O resources, which may adversely impact the performance of your AEM Assets instance. In particular, if you have a slow internet connection, the time to upload drastically increases due to a spike in disk I/O. Moreover, your web browser may introduce additional restrictions to the number of POST requests AEM Assets can handle for concurrent asset uploads. As a result, the upload operation fails or terminate prematurely. In other words, AEM assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
+Uploading numerous assets in bulk consumes significant system resources, which can adversely impact the performance of your AEM deployment. Potential bottlenecks can be your Internet connection, read-write operations on disk, web browser limitations on the number of POST requests on concurrent asset upload. Bulk upload operation can fails or terminate prematurely. In other words, AEM assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
 
 To overcome this situation, AEM Assets ingests one asset at a time (serial upload) during a bulk upload operation, instead of the concurrently ingesting all the assets.
 
@@ -142,7 +136,7 @@ Serial uploading of assets is enabled by default. To disable the feature and all
 
 ### Uploading assets using FTP {#uploading-assets-using-ftp}
 
-Dynamic Media enables batch uploading of assets by way of FTP server. If you intend to upload large assets ( &gt; 1 GB) or upload entire folders and subfolders, you should use FTP. You can even set up FTP upload to occur on a recurring scheduled basis.
+Dynamic Media enables batch uploading of assets by way of FTP server. If you intend to upload large assets (&gt;1 GB) or upload entire folders and subfolders, you should use FTP. You can even set up FTP upload to occur on a recurring scheduled basis.
 
 >[!NOTE]
 >
@@ -150,12 +144,12 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 
 >[!NOTE]
 >
->To upload assets by way of FTP in Dynamic Media - Scene7 mode, you must install feature pack 18912 on your AEM author instances. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
+>To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
 If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**
 
-1. Using your choice of FTP client, log in to the FTP server using the FTP user name and password that you received from the provisioning email. In the FTP client, upload files or folders to the FTP server. 
+1. Using your choice of FTP client, log in to the FTP server using the FTP user name and password that you received from the provisioning email. In the FTP client, upload files or folders to the FTP server.
 1. [Log in to Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials received from the provisioning email. On the Global Navigation Bar, tap **[!UICONTROL Upload]**.  
 
 1. On the **[!UICONTROL Upload]** page, near the upper-left corner, tap the **[!UICONTROL Via FTP]** tab.
@@ -168,7 +162,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
    >
    >When you upload assets by way of FTP, the upload job options you set in Dynamic Media Classic (Scene7) take precedent over asset processing parameters set in AEM.
 
-1. In the lower-right corner of the **[!UICONTROL Upload Job Options]** dialog box, tap **[!UICONTROL Save]** 
+1. In the lower-right corner of the **[!UICONTROL Upload Job Options]** dialog box, tap **[!UICONTROL Save]**.
 1. In the lower-right corner of the **[!UICONTROL Upload]** page, tap **[!UICONTROL Submit Upload]**.
 
    To view the progress of the upload, on the Global Navigation Bar, tap **[!UICONTROL Jobs]**. The **[!UICONTROL Jobs]** page displays the progress of the upload. You can continue working in AEM and return to the Jobs page in Dynamic Media Classic at any time to review an in-progress job.  
@@ -176,6 +170,9 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
    To cancel an upload job in progress, tap **[!UICONTROL Cancel]** next to the **[!UICONTROL Duration]** time.
 
 #### Upload Job Options {#upload-job-options}
+
+<!-- TBD: After converting this HTML table to MD table, add UICONTROL.
+-->
 
 <table> 
  <tbody> 
@@ -207,7 +204,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
   <tr> 
    <td>Job Options<br /> </td> 
    <td> </td> 
-   <td><p>Tap Job Options to open the Upload Job Options dialog box and choose options that affect the entire upload job. These options are the same for all file types.</p> <p>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose **Setup** &gt; **Application Setup**. Tap the **Default Upload Options** button to open the Upload Job Options dialog box. </p> </td> 
+   <td><p>Tap Job Options to open the Upload Job Options dialog box and choose options that affect the entire upload job. These options are the same for all file types.</p> <p>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose Setup &gt; Application Setup. Tap the Default Upload Options button to open the Upload Job Options dialog box. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -741,7 +738,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. In the **[!UICONTROL Move Assets]** wizard, do one of the following:
 
-    * Specify the name for the asset after it is moved. Then tap **[!UICONTROL Next]** to proceed. 
+    * Specify the name for the asset after it is moved. Then tap **[!UICONTROL Next]** to proceed.
     * Tap **[!UICONTROL Cancel]** to stop the process.
 
    >[!NOTE]
