@@ -204,7 +204,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
   <tr> 
    <td>Job Options<br /> </td> 
    <td> </td> 
-   <td><p>Tap Job Options to open the Upload Job Options dialog box and choose options that affect the entire upload job. These options are the same for all file types.</p> <p>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose Setup &gt; Application Setup. Tap the Default Upload Options button to open the Upload Job Options dialog box. </p> </td> 
+   <td><p>Tap Job Options to open the Upload Job Options dialog box and choose options that affect the entire upload job. These options are the same for all file types.</p> <p>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose Setup &gt; Application Setup. Tap the Default Upload Options button to open the Upload Job Options dialog box. </p> </td>
   </tr> 
   <tr> 
    <td> </td> 

@@ -30,7 +30,7 @@ For an expired asset, a flag on the card indicates that it has expired.
 
 **List view**
 
-For expired assets, the **Status** column displays the **Expired **banner.
+For expired assets, the **[!UICONTROL Status]** column displays the **[!UICONTROL Expired]** banner.
 
 ![expired_flag_list](assets/expired_flag_list.png)
 
@@ -38,10 +38,10 @@ You can view the expiration status of an asset in the timeline. Select the asset
 
 ![chlimage_1-144](assets/chlimage_1-144.png)
 
-You can also view the expiration status of assets in the **References **rail. It manages asset expiration statuses and relationships between compound assets and referenced subassets, collections, and projects.
+You can also view the expiration status of assets in the **[!UICONTROL References]** rail. It manages asset expiration statuses and relationships between compound assets and referenced subassets, collections, and projects.
 
 1. Navigate to the asset for which you want to view referencing web pages and compound assets.
-1. Select the asset, and click/tap the **[!UICONTROL GlobalNav]** icon.
+1. Select the asset, and click/tap the global navigation icon.
 
    ![chlimage_1-145](assets/chlimage_1-145.png)
 

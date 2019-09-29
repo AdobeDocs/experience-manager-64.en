@@ -6,8 +6,6 @@ seo-description: Learn about various media handlers and how to use them in workf
 uuid: 4ef96bfc-d194-4aea-8d6c-ae91d04456aa
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: extending-assets
-content-type: reference
 discoiquuid: 8cd78c84-71ba-4095-b882-90d0dc00289d
 ---
 
@@ -152,9 +150,7 @@ Implement the following methods:
 
 Here is an example template:
 
-```
-package my.own.stuff; /** * @scr.component inherit="true" * @scr.service */ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts }
-```
+`package my.own.stuff; /** * @scr.component inherit="true" * @scr.service */ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts } `
 
 The interface and classes include:
 
