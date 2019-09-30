@@ -21,8 +21,8 @@ Adobe Experience Manager (AEM) Content Fragments allow you to design, create, cu
 
 Content fragments can also be delivered in JSON format, using the Sling Model (JSON) export capabilities of AEM core components. This form of delivery:
 
-* Enables you to use the component to manage which elements of a fragment to deliver
-* Allows bulk-delivery, by adding multiple content fragment core components on the page being used for API delivery
+* enables you to use the component to manage which elements of a fragment to deliver
+* allows bulk-delivery, by adding multiple content fragment core components on the page being used for API delivery
 
 This and the following pages cover the tasks for creating, configuring and maintaining your content fragments:
 
@@ -32,7 +32,7 @@ This and the following pages cover the tasks for creating, configuring and maint
 
 * [Variations - Authoring Fragment Content](content-fragments-variations.md) - author the fragment content and create variations of the Master  
 
-* [Markdown](content-fragments-markdown.md) - using Markdown syntax for your fragment  
+* [Markdown](content-fragments-markdown.md) - using markdown syntax for your fragment  
 
 * [Using Associated Content](content-fragments-assoc-content.md) - adding associated content  
 
@@ -44,8 +44,8 @@ This and the following pages cover the tasks for creating, configuring and maint
 
 The number of communication channels is increasing annually. Typically channels refer to the delivery mechanism, either as the:
 
-* Physical channel, for example desktop or mobile.
-* Form of delivery in a physical channel, for example the "product detail page" and "product category page" for desktop or "mobile web" and "mobile app" for mobile.
+* Physical channel; e.g. desktop, mobile.
+* Form of delivery in a physical channel; e.g. the "product detail page", "product category page" for desktop, or "mobile web", "mobile app" for mobile.
 
 However, you (probably) do not want to use exactly the same content for all channels - you need to optimize your content according to the specific channel.
 
@@ -130,7 +130,7 @@ Content Fragments are a content structure that:
 * Can [contain, or be connected to, images](#fragments-with-visual-assets).
 * Can use [in-between content](#in-between-content-when-page-authoring-with-content-fragments) when referenced on a page.  
 
-* Are independent from the delivery mechanism, that is, page and channel.
+* Are independent from the delivery mechanism (i.e. page, channel).
 
 ### Fragments with Visual Assets {#fragments-with-visual-assets}
 
@@ -284,7 +284,7 @@ To create, edit and use content fragments you also need:
 
     * Instrumental to delivering the fragment in HTML and/or JSON format.
     * Required to [reference the fragment on a page](/help/sites-authoring/content-fragments.md).
-    * Responsible for layout and delivery of a fragment, that is, channels.
+    * Responsible for layout and delivery of a fragment; i.e. channels.
     * Fragments need one or more dedicated components to define layout and deliver some or all elements/variations and associated content.
     * Dragging a fragment onto a page in authoring will automatically associate the required component.
 
