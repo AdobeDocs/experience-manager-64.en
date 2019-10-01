@@ -1037,7 +1037,7 @@ The **[!UICONTROL Timeline]** lets you view various events for a selected item, 
 
 In the [Collections console](managing-collections-touch-ui.md#navigating-the-collections-console), the **[!UICONTROL Show All]** list provides options to view comments and workflows only. Moreover, the timeline is displayed only for top-level collections that are listed in the console. It is not displayed if you navigate inside any of the collections.
 
-**[!UICONTROL Timeline]** contains several [options specific to Content Fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md#aem-6-4-2-0) or later.
+**[!UICONTROL Timeline]** contains several [options specific to Content Fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
 
 **To use Timeline**:
 
@@ -1056,7 +1056,7 @@ Annotations are comments or explanatory notes added to images or videos. Annotat
 
 Video annotations are only supported on browsers with HTML5-compatible video formats. Video formats that AEM Assets supports depend on the browser.
 
-For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md#aem-6-4-2-0) or later.
+For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
 
 You can add multiple annotations, before you save them.
 
