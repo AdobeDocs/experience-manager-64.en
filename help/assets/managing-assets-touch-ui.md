@@ -32,8 +32,6 @@ When organizing a collection of assets, for example, all `Nature` images, you ca
 1. In the **[!UICONTROL Title]** field, provide a folder name. By default, DAM uses the title that you provided as the folder name. Once the folder is created, you can override the default and specify another folder name.
 1. Click **[!UICONTROL Create]**. Your folder is displayed in the digital assets folder.
 
-![When you create a new asset folder, it is instantly displayed in the folder list.](assets/create-asset-folder.png)
-
 The following (space-separated list of) characters are not supported:
 * asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
 * asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
