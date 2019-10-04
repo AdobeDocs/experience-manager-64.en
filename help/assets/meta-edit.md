@@ -6,8 +6,6 @@ seo-description: Learn about asset metadata in AEM Assets an various ways by whi
 uuid: 37b19dab-17cc-487e-a3fc-0098400a2ad8
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 7d731038-13a3-4ff9-b9f0-ec0c54b94c73
 ---
 
@@ -25,15 +23,13 @@ To edit metadata:
 
     * From the Assets UI, select the asset and click/tap the **[!UICONTROL View Properties]** icon from the toolbar.
     * From the asset thumbnail, select the **[!UICONTROL View Properties]** quick action.
-    * From the asset page, click/tap the **[!UICONTROL View Properties]** icon from the toolbar.
-
-   ![chlimage_1-168](assets/chlimage_1-168.png)
+    * From the asset page, click/tap the **[!UICONTROL View Properties]** icon ![chlimage_1-168](assets/chlimage_1-168.png) from the toolbar.
 
    The asset page displays all of the asset's metadata. This metadata was automatically extracted when it was uploaded (ingested) into AEM Assets.
 
    ![chlimage_1-169](assets/chlimage_1-169.png)
 
-1. Make edits to the metadata under the various tabs, as required, and when completed, click/tap **[!UICONTROL Save]** from the toolbar to save your changes. Click/tap **[!UICONTROL Close]** to return to the Assets UI.
+1. Make edits to the metadata under the various tabs, as required, and when completed, click/tap **[!UICONTROL Save]** from the toolbar to save your changes. Click/tap **[!UICONTROL Close]** to return to the Assets web interface.
 
    >[!NOTE]
    >
@@ -56,4 +52,3 @@ You can add your own namespaces within AEM. Just as there are predefined namespa
 
 1. To add a namespace, click or tap **[!UICONTROL New]** at the bottom.
 1. Specify a custom namespace in the XML namespace convention (Specify the id in the form of a URI and an associated prefix for the id), and click or tap **[!UICONTROL Save]**.
-
