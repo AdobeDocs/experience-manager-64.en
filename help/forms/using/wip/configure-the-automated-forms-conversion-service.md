@@ -8,7 +8,7 @@ contentOwner: khsingh
 discoiquuid: bc18da7d-9350-4856-8f1d-9061018ae64f
 ---
 
-# Configure the Automated Forms Conversion service{#configure-the-automated-forms-conversion-service}
+# Configure the Automated Forms Conversion service {#configure-the-automated-forms-conversion-service}
 
 Ready your AEM instance to use Automated Forms Conversion service
 
@@ -29,7 +29,7 @@ An AEM instance contains basic forms capabilities. Install AEM Forms add-on pack
 
 1. Open the [AEM Forms Automated Forms Conversion Service Prerelease](/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) Program article, locate, and download the AEM Forms add-on package. 
 1. Log in to AEM instance as an administrator and open the Package Manager. The default URL is [https://&lt;server&gt;:4502/crx/packmgr/index.jsp](https://%3Cserver%3E:4502/crx/packmgr/index.jsp).
-1. Click **Upload Package**, select the AEM Forms Automated Forms Conversion service package, and click **Upload**. After the package is uploaded, click package name, and click **Install**. The package is installed.
+1. Click **[!UICONTROL Upload Package]**, select the AEM Forms Automated Forms Conversion service package, and click **[!UICONTROL Upload]**. After the package is uploaded, click package name, and click **[!UICONTROL Install]**. The package is installed.
 
 ## Download and install Conversion Manager package  {#download-and-install-conversion-manager-package}
 
@@ -37,7 +37,7 @@ Conversion Manager package provides AEM cloud service configurations and Review 
 
 1. Open the [AEM Forms Automated Forms Conversion Service Prerelease](/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) Program article, locate, and download the AEM Forms Automated Forms Conversion service package. 
 1. Log in to AEM instance as an administrator and open the Package Manager. The default URL is [https://&lt;server&gt;:4502/crx/packmgr/index.jsp](https://%3Cserver%3E:4502/crx/packmgr/index.jsp).
-1. Click **Upload Package**, select the AEM Forms Automated Forms Conversion service package, and click **Upload**. After the package is uploaded, click package name, and click **Install**. The package is installed.
+1. Click **[!UICONTROL Upload Package]**, select the AEM Forms Automated Forms Conversion service package, and click **[!UICONTROL Upload]**. After the package is uploaded, click package name, and click **[!UICONTROL Install]**. The package is installed.
 
 ## Configure email notification {#configure-email-notification}
 
@@ -95,7 +95,7 @@ Create a cloud service configuration to connect your AEM Instance to the convers
 
    ![service-configuration-basic](assets/service-configuration-basic.png)
 
-1. In the **[!UICONTROL Advanced]**tab of the **[!UICONTROL Create Automated Forms Conversion Configuration]** page, specify value for the following field:
+1. In the **[!UICONTROL Advanced]** tab of the **[!UICONTROL Create Automated Forms Conversion Configuration]** page, specify value for the following field:
 
    | Field |Description |
    |---|---|

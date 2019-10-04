@@ -49,7 +49,7 @@ To configure AEM to integrate with Salesforce:
    >The new configuration redirects to a new page: **http://localhost:4502/etc/cloudservices/salesforce/developer.html**. This is the exact same value that you need to specify in the Callback URL while createing the remote access application in Salesforce. These values must match.
 
 1. Log in to your salesforce account (or if you do not have one, create one at [https://developer.force.com](https://developer.force.com).)
-1. In Salesforce, navigate to **Create** &gt; **Apps **to get to **Connected Apps** (in former versions of salesforce, the workflow was **Deploy** &gt; **Remote Access**). 
+1. In Salesforce, navigate to **Create** &gt; **Apps** to get to **Connected Apps** (in former versions of salesforce, the workflow was **Deploy** &gt; **Remote Access**). 
 1. Click **New** to connect AEM with Salesforce. 
 
    ![chlimage_1-85](assets/chlimage_1-85.png)
@@ -60,7 +60,7 @@ To configure AEM to integrate with Salesforce:
 
    ![chlimage_1-86](assets/chlimage_1-86.png)
 
-1. Click **Save** to save the salesforce configuration. Salesforce creates a **consumer key **and **consumer secret**, which you need for AEM configuration.
+1. Click **Save** to save the salesforce configuration. Salesforce creates a **consumer key** and **consumer secret**, which you need for AEM configuration.
 
    ![chlimage_1-87](assets/chlimage_1-87.png)
 
@@ -95,7 +95,7 @@ If you want to export an AEM user as a salesforce lead, you need to configure th
 
 To export AEM users as Salesforce leads:
 
-1. Navigate to the Salesforce workflow at `http://localhost:4502/workflow` by right-clicking the workflow** Salesforce.com Export** and clicking **Start**.
+1. Navigate to the Salesforce workflow at `http://localhost:4502/workflow` by right-clicking the workflow **Salesforce.com Export** and clicking **Start**.
 
    ![chlimage_1-90](assets/chlimage_1-90.png)
 
@@ -188,7 +188,7 @@ You can load user data from Salesforce in the Client Context to use for personal
 
    ![chlimage_1-26](assets/chlimage_1-26.jpeg)
 
-1. Drag the **Salesforce Profile Data **component to the client context.
+1. Drag the **Salesforce Profile Data** component to the client context.
 
    ![chlimage_1-27](assets/chlimage_1-27.jpeg)
 

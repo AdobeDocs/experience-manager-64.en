@@ -7,7 +7,7 @@ uuid: 76057e9c-63e5-415d-b1b5-bd06e8cbf245
 discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
 ---
 
-# Automated Forms Conversion service: frequently asked questions{#automated-forms-conversion-service-frequently-asked-questions}
+# Automated Forms Conversion service: frequently asked questions {#automated-forms-conversion-service-frequently-asked-questions}
 
 <!--Theses sections used to be an accordion until converted to straight Markdown. When accordions are enabled, revert-->
 
@@ -15,11 +15,9 @@ discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
 
 *   The service can convert non-interactive PDF forms into adaptive forms. It has limited support for AcroForms and XFA-based PDF forms. The service does not support scanned forms.  
     
-*   The service converts only English-languag forms to adaptive forms. You can translate converted adaptive forms to another language using [AEM translation workflow](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/using-aem-translation-workflow-to-localize-adaptive-forms.html).
+*   The service converts only English-languag forms to adaptive forms. You can translate converted adaptive forms to another language using AEM translation workflow.
 
 We are regularly adding support for other source types. Keep the [What’s supported](/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) section on your watchlist for a regular update on newly added features and capabilities.
-
-<!--fix above link with chl-author-preview. Also, wip reference -->
 
 **Can the service produce an XDP instead of an adaptive form?**
 

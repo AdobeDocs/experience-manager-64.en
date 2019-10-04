@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 5b044519-d034-4f05-98c5-f1b299a3ea37
 ---
 
-# Rendering 3D assets{#rendering-d-assets}
+# Rendering 3D assets {#rendering-d-assets}
 
 You can render 3D assets you have manipulated and saved in AEM to create 2D images for use on your web content pages.
 
@@ -37,29 +37,29 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 >
 >A 3D asset is always rendered with the original materials, regardless of what materials are shown in the AEM 3D interactive view. This functionality applies to both the built-in Rapid Refine renderer and all native renderers.
 
-To render 3D assets:
+**To render 3D assets**:
 
 1. Open a 3D asset for viewing.
 
    See [Viewing 3D assets](viewing-3d-assets.md).
 
-1. From **Adobe Experience Manager**, on the **Navigation **page, tap **Assets**.
-1. Near the upper-right corner of the page, from the View drop-down list, tap **Card View**.
+1. From Adobe Experience Manager, on the **[!UICONTROL Navigation]** page, tap **[!UICONTROL Assets]**.
+1. Near the upper-right corner of the page, from the **[!UICONTROL View]** drop-down list, tap **[!UICONTROL Card View]**.
 1. Navigate to a 3D object that you want to render.
 1. Tap the card of the 3D object to open it in the asset details page.
-1. Near the upper-left corner of the page, tap the drop-down list, then select **Render**.
+1. Near the upper-left corner of the page, tap the drop-down list, then select **[!UICONTROL Render]**.
 
    ![chlimage_1-369](assets/chlimage_1-369.png)
 
-1. Near the upper-right corner of the asset details page, tap the Stage Selector icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
+1. Near the upper-right corner of the asset details page, tap the **[!UICONTROL Stage Selector]** icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
 
    See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
    ![chlimage_1-370](assets/chlimage_1-370.png)
 
-   Stage Selector icon
+   **[!UICONTROL Stage Selector]** icon
 
-1. On the Render drop-down list on the left side of the asset details page, select a renderer.
+1. On the **[!UICONTROL Render]** drop-down list on the left side of the asset details page, select a renderer.
 
    The default **Rapid Refine** renderer is always available. If the stage you selected is a native format, the corresponding third-party renderer is also made available in the list for you to select.
 
@@ -67,20 +67,20 @@ To render 3D assets:
 
 1. Do the following:
 
-    * In the Width and Height fields, enter the pixel width and height that you want your image rendered.
-    * In the Image Name field, enter the name of the rendered image.
-    * In the Export Path field, enter the path where you want the rendered image stored. Or, tap the Browse icon and navigate to a location.
-    * (Optional) Select or deselect the **Overwrite existing image** check box.
+    * In the **[!UICONTROL Width]** and **[!UICONTROL Height]** fields, enter the pixel width and height that you want your image rendered.
+    * In the **[!UICONTROL Image Name]** field, enter the name of the rendered image.
+    * In the **[!UICONTROL Export Path]** field, enter the path where you want the rendered image stored. Or, tap the **[!UICONTROL Browse]** icon and navigate to a location.
+    * (Optional) Select or deselect the **[!UICONTROL Overwrite existing imag]e** check box.
 
-1. Near the upper-right corner of the asset details page, tap the Camera Selector icon. Select a camera view that you want to apply to the rendered image.
+1. Near the upper-right corner of the asset details page, tap the **[!UICONTROL Camera Selector]** icon. Select a camera view that you want to apply to the rendered image.
 
    Left and right bars or top and bottom bars are a visual indicator as to which parts of the view will be rendered. When the camera is provided by the selected stage, you can select a pre-defined camera.
 
    ![chlimage_1-371](assets/chlimage_1-371.png)
 
-   Camera Selector icon
+   **[!UICONTROL Camera Selector]** icon
 
-1. Tap **Start Render** to begin the rendering process.
+1. Tap **[!UICONTROL Start Render]** to begin the rendering process.
 
    A message is temporarily displayed to indicate that rendering has started. For convenience, this message also includes a link to the selected Output Folder so you can navigate to it directly.
 

@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: f564759f-fb56-4f70-a7b1-286a223755c6
 ---
 
-# User and UGC Management Service in AEM Communities{#user-and-ugc-management-service-in-aem-communities}
+# User and UGC Management Service in AEM Communities {#user-and-ugc-management-service-in-aem-communities}
 
 AEM Communities exposes APIs out-of-the-box to manage user profiles and bulk manage user generated content (UGC). Once enabled, the **UserUgcManagement** service allows the privileged users (community administrators and moderators) to disable user profiles, and bulk delete or bulk export UGC for specific users. These APIs also enable controllers and processors of customer data to comply with the European Union's General Data Protection Regulations (GDPR) and other GDPR inspired privacy mandates.
 
@@ -19,17 +19,19 @@ For further information see the [GDPR page at the Adobe Privacy Center](https://
 
 >[!NOTE]
 >
->If you configured [Adobe Analytics in AEM Communities](/help/communities/analytics.md) site, the captured user data is sent to Adobe Analytics server. Adobe Analytics provides APIs that allow you to access, export, and delete user data and comply with GDPR. For more information, see [Submit Access and Delete Requests](https://marketing.adobe.com/resources/help/en_US/analytics/gdpr/gdpr_submit_access_delete.html).
+>If you configured [Adobe Analytics in AEM Communities](analytics.md) site, the captured user data is sent to Adobe Analytics server. Adobe Analytics provides APIs that allow you to access, export, and delete user data and comply with GDPR. For more information, see [Submit Access and Delete Requests](https://marketing.adobe.com/resources/help/en_US/analytics/gdpr/gdpr_submit_access_delete.html).
 
-To put these APIs to use, you need to enable the **/services/social/ugcmanagement** endpoint by activating the UserUgcManagement service. To activate this service, install the [sample servlet](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet) available on [GitHub.com](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet). Then, hit the endpoint on publish instance of your communities site with appropriate parameters using an http request, similar to
+To put these APIs to use, you need to enable the `/services/social/ugcmanagement` endpoint by activating the UserUgcManagement service. To activate this service, install the [sample servlet](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet) available on [GitHub.com](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet). Then, hit the endpoint on publish instance of your communities site with appropriate parameters using an http request, similar to the following:
 
-**http://localhost:port/services/social/ugcmanagement?user=&lt;authorizable ID&gt;&operation=&lt;getUgc&gt;**. However, you can also build a UI (user interface) to manage user profiles and user generated content in system.
+`http://localhost:port/services/social/ugcmanagement?user=<authorizable ID>&operation<getUgc>`
+
+However, you can also build a UI (user interface) to manage user profiles and user generated content in system.
 
 These APIs enable perform the following functions.
 
 ## Retrieve the UGC of a user {#retrieve-the-ugc-of-a-user}
 
-**getUserUgc(ResourceResolver resourceResolver, String user, OutputStream outputStream)** helps export all the UGC of a user from the system.
+`getUserUgc(ResourceResolver resourceResolver, String user, OutputStream outputStream)` helps export all the UGC of a user from the system.
 
 * **user**: authorizable ID of a user.
 * **outputStream**: result is returned as output stream, which is a zip file including the user generated content (as json file) and attachments (which include images or videos uploaded by the user).
@@ -75,4 +77,3 @@ For example, to delete the profile of a user having authorizable ID weston.mccal
 >[!NOTE]
 >
 >deleteUserAccount() API only disables a user profile in the system and removes the UGC. However, to delete a user profile from the system, navigate to **CRXDE Lite**: [https://&lt;server&gt;/crx/de](http://localhost:4502/crx/de), locate the user node and delete it.
-

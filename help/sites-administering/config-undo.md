@@ -13,7 +13,7 @@ discoiquuid: 3cc7efc5-bcb2-41c9-b78b-308f6b7a298e
 
 # Configuring Undo for Page Editing{#configuring-undo-for-page-editing}
 
-The [OSGi service](/help/sites-deploying/configuring-osgi.md) **Day CQ WCM Undo Configuration** ( `com.day.cq.wcm.undo.UndoConfigService`) exposes several properties that control the behavior of the undo and redo commands for editing pages.
+The [OSGi service](/help/sites-deploying/configuring-osgi.md)  **Day CQ WCM Undo Configuration** ( `com.day.cq.wcm.undo.UndoConfigService`) exposes several properties that control the behavior of the undo and redo commands for editing pages.
 
 ## Default Configuration {#default-configuration}
 

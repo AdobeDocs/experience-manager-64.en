@@ -11,11 +11,11 @@ content-type: reference
 discoiquuid: df5416ec-5c63-481b-99ed-9e5a91df2432
 ---
 
-# Server-side Customization{#server-side-customization}
+# Server-side Customization {#server-side-customization}
 
-| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Client-side Customization ⇒](/help/communities/client-customize.md)** |
+| **[⇐ Feature Essentials](essentials.md)** |**[Client-side Customization ⇒](client-customize.md)** |
 |---|---|
-|   |**[SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
+|   |**[SCF Handlebars Helpers ⇒](handlebars-helpers.md)** |
 
 ## Java APIs {#java-apis}
 
@@ -47,7 +47,7 @@ A SocialComponentFactory is an OSGi service and has access to other OSGi service
 
 All SocialComponentFactory classes must implement the interface `com.adobe.cq.social.scf.SocialComponentFactory`
 
-&ast; An implementation of SocialComponentFactory.getPriority() method should return the highest value in order for the factory to be used for the given resourceType as returned by getResourceType().
+An implementation of SocialComponentFactory.getPriority() method should return the highest value in order for the factory to be used for the given resourceType as returned by getResourceType().
 
 ### SocialComponentFactoryManager Interface {#socialcomponentfactorymanager-interface}
 
@@ -100,12 +100,9 @@ The social component framework recommends that the business logic responsible fo
 All `OperationService`classes extend `AbstractOperationService`, allowing additional extensions which can hook into the operation being performed. Each operation in the service is represented by a `SocialOperation`class. The `OperationExtensions`class can be invoked during operation execution by calling the methods
 
 * `performBeforeActions()`
-
-  allows for pre-checks/pre-processing and validations
-
+  Allows for pre-checks/pre-processing and validations
 * `performAfterActions()`
-
-  allows for further modification of resources or invoking custom events, workflows, etc
+  Allows for further modification of resources or invoking custom events, workflows, etc
 
 #### OperationExtension Class {#operationextension-class}
 
@@ -117,11 +114,11 @@ Sample code is available in the [Adobe Marketing Cloud GitHub](https://github.co
 
 ## Best Practices {#best-practices}
 
-View the [Coding Guidelines](/help/communities/code-guide.md) section for various coding guidelines and best practices for AEM Communities developers.
+View the [Coding Guidelines](code-guide.md) section for various coding guidelines and best practices for AEM Communities developers.
 
-See also [Storage Resource Provider (SRP) for UGC](/help/communities/srp.md) to learn about accessing user generated content.
+See also [Storage Resource Provider (SRP) for UGC](srp.md) to learn about accessing user generated content.
 
-| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Client-side Customization ⇒](/help/communities/client-customize.md)** |
+| **[⇐ Feature Essentials](essentials.md)** |**[Client-side Customization ⇒](client-customize.md)** |
 |---|---|
-|   |**[SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
+|   |**[SCF Handlebars Helpers ⇒](handlebars-helpers.md)** |
 

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: bde54663-9050-4a5a-93cb-7cd84ac7f071
 ---
 
-# Markdown{#markdown}
+# Markdown {#markdown}
 
 >[!CAUTION]
 >
@@ -135,8 +135,10 @@ You can create both ordered and unordered lists.
 
 To create an unordered list, use the &ast; symbol before the items in the list. For example:
 
+&nbsp;&nbsp;&nbsp;&nbsp;`* item in list`
+
 &nbsp;&nbsp;&nbsp;&nbsp;`* item in list`  
-&nbsp;&nbsp;&nbsp;&nbsp;`* item in list`  
+
 &nbsp;&nbsp;&nbsp;&nbsp;`* item in list`
 
 To create an ordered list, add the numbers, followed by a period, before each item in the list. For example:

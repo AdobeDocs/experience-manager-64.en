@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5434df9c-ecf6-450a-aa7e-d9ab69b66fe6
 ---
 
-# Change the order of evaluation for authentication{#change-the-order-of-evaluation-for-authentication}
+# Change the order of evaluation for authentication {#change-the-order-of-evaluation-for-authentication}
 
 If you configured multiple authentication providers, you can change the order in which AEM forms evaluates them for authentication. The order of the authentication providers that are listed in the config.xml file determines the order of evaluation for authentication.
 

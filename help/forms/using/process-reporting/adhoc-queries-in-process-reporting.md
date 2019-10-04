@@ -10,9 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 812f9212-2732-4966-a7fa-389aa2332c7e
 ---
 
-# Ad-hoc Queries in Process Reporting{#ad-hoc-queries-in-process-reporting}
-
-## Ad-hoc queries in Process Reporting {#ad-hoc-queries-in-process-reporting}
+# Ad-hoc Queries in Process Reporting {#ad-hoc-queries-in-process-reporting}
 
 Ad-hoc queries in Process Reporting allow you to create custom queries that you can use to search for process and task details of the AEM Forms process instances defiend in your AEM Forms environment.
 
@@ -26,7 +24,7 @@ Also, ad hoc queries can be defined using process and task property filters. The
 
 **Task Details**: View details of a task instance by specifying the task ID.
 
-### Processes and Tasks {#processes-and-tasks}
+## Processes and Tasks {#processes-and-tasks}
 
 The steps that you follow to create filters and run queries for process details are the same as that for tasks.
 
@@ -51,7 +49,7 @@ You use Process/Task Search to define filters for querying process/task instance
    ![my_filters_panel](assets/my_filters_panel.png)
 
 1. To execute an existing query, you simply click the query in the **My Filters** panel.
-1. To create a query, click **Add **(+).
+1. To create a query, click **Add** (+).
 
    The **Create Filter** panel displays.
 
@@ -62,7 +60,7 @@ You use Process/Task Search to define filters for querying process/task instance
    **To define a filter**
 
     1. Select a field.
-    
+
        ![filter_field](assets/filter_field.png)
 
        >[!NOTE]
@@ -70,7 +68,7 @@ You use Process/Task Search to define filters for querying process/task instance
        >The field list contains the fields that are specific to AEM Forms process/task.
 
     1. Select a condition.
-    
+
        ![filter_condition](assets/filter_condition.png)
 
        >[!NOTE]
@@ -78,7 +76,7 @@ You use Process/Task Search to define filters for querying process/task instance
        >The conditions listed depend on the attribute that is selected for filtering.
 
     1. Enter a value.
-    
+
        ![filter_value](assets/filter_value.png)
 
     1. To add another filter to the query, click **Add **(+) on the right of the filter row.
@@ -103,8 +101,8 @@ Use the options in the **My Filters** panel to **Add** ![lc_pr_add_filter](asset
 
 ### To execute a Search query {#to-execute-a-search-query}
 
-1. To execute a query, click the filter in the **My Filters** panel or click the **Run **button if you are creating or editing a filter.
-1. The results of the query display in the **Report **panel of the **Process Reporting** window.
+1. To execute a query, click the filter in the **My Filters** panel or click the **Run** button if you are creating or editing a filter.
+1. The results of the query display in the **Report** panel of the **Process Reporting** window.
 
    ![process_search_result](assets/process_search_result.png)
 
@@ -112,9 +110,9 @@ Use the options in the **My Filters** panel to **Add** ![lc_pr_add_filter](asset
 
    ![process_result_pgn](assets/process_result_pgn.png)
 
-   In the **Display **drop-down list, choose the number of results to be displayed per page.
+   In the **Display** drop-down list, choose the number of results to be displayed per page.
 
-   In the **Page **text box, enter a page number to go directly to that page.
+   In the **Page** text box, enter a page number to go directly to that page.
 
 1. The following fields are displayed in a Process Search result:
 
@@ -134,7 +132,7 @@ Use the options in the **My Filters** panel to **Add** ![lc_pr_add_filter](asset
     * **Task ID**: The ID of the task. The field is hyperlinked. If you click a task ID in this field, you are redirected to the **[!UICONTROL Task Details]** panel for the task.  
     * **Initiator**: The AEM Forms user who started the process instance  
     * **Created Time**: The date and time when the process instance started  
-    
+
     * **Completed Time**: The date and time when the process instance completed
     * **Duration**: The duration from start to completion of the process instance
     * **Status**: The current status of the process instance.
@@ -145,8 +143,8 @@ Use the options in the **My Filters** panel to **Add** ![lc_pr_add_filter](asset
 
    ![task_search_result](assets/task_search_result.png)
 
-1. Click the rail button ![lc_pr_rail_button](assets/lc_pr_rail_button.png) on the upper-left to collapse the **My Filters** pane and expands the space available for the **Report **panel.
-1. Use the options in the upper right corner of the **Report **panel to perform operations on the query result.
+1. Click the rail button ![lc_pr_rail_button](assets/lc_pr_rail_button.png) on the upper-left to collapse the **My Filters** pane and expands the space available for the **Report** panel.
+1. Use the options in the upper right corner of the **Report** panel to perform operations on the query result.
 
     * **Refresh**: Refreshes the report with latest data lying in the storage  
     * **Export to CSV**: Export the report data to a comma-separated file.
@@ -267,4 +265,4 @@ You can view the details of a specific AEM Forms process/task:
 
    For a task, the query result displays the details the forms contained in the task.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

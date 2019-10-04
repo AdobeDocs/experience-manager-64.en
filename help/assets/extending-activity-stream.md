@@ -4,14 +4,14 @@ seo-title: Integrating Assets with Activity Stream
 description: Describes the recording capabilities of AEM and how to configure AEM to record specific events.
 seo-description: Describes the recording capabilities of AEM and how to configure AEM to record specific events.
 uuid: 95f58e89-45c0-4643-8671-f1b819c08c87
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 4b945204-f141-4656-a122-1334822e6d02
 ---
 
-# Integrating Assets with Activity Stream{#integrating-assets-with-activity-stream}
+# Integrating Assets with Activity Stream {#integrating-assets-with-activity-stream}
 
 Adobe Experience Manager (AEM) Assets users perform many actions like creating, uploading and deleting Assets. These actions can be recorded so you are able to provide an history of what has been done by a user. This section describes the recording capabilities of AEM and how to configure AEM in order to record specific events.
 
@@ -43,17 +43,17 @@ The following events can be configured to be recorded:
 
 The [Web console](/help/sites-deploying/configuring-osgi.md) provides access to the AEM Assets Event Recorder tuning. To configure the AEM Assets Event Recorder, proceed as follows:
 
-1. Navigate to the **Web console** 
+1. Navigate to the **[!UICONTROL Web console]** 
 
-1. Click **Configuration**.  
+1. Click **[!UICONTROL Configuration]**.  
 
-1. Double click **Day CQ DAM Event Recorder**.  
+1. Double click **[!UICONTROL Day CQ DAM Event Recorder]**.  
 
-1. Check **Enables this service**.  
+1. Check **[!UICONTROL Enables this service]**.  
 
-1. Check which **Event Types** you want to be recorded in the user activity stream.  
+1. Check which **[!UICONTROL Event Types]** you want to be recorded in the user activity stream.  
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 ## Reading recorded events {#reading-recorded-events}
 

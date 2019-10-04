@@ -496,6 +496,10 @@ Access to the pages used to configure the replication agents can be controlled b
 
 ### Configuring your Replication Agents from CRXDE Lite {#configuring-your-replication-agents-from-crxde-lite}
 
+>[NOTE!]
+>
+>The creation of replication agents is only supported in the `/etc/replication` repository location. This is needed in order for the associated ACLs to be properly handled. Creating a replication agent in another location of the tree might lead to unauthorized access.
+
 Various parameters of your replication agents can be configured using CRXDE Lite.
 
 If you navigate to `/etc/replication` you can see the following three nodes:

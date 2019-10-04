@@ -22,14 +22,14 @@ In addition to selecting a secure, highly available directory for GDS, you can a
 AEM forms application data resides in the GDS directory and the AEM forms database. The following table describes the data and its locations.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>AEM forms Data</p></th> 
    <th><p>Database</p></th> 
    <th><p>GDS</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>Application data (users, roles, processes, policies, endpoints, events, and so on.)</p></td> 
    <td><p>Yes</p></td> 

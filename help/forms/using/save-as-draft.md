@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: 9950288c-b5a2-4945-afad-be9ce2abc8e9
 ---
 
-# Saving a task or form as a draft{#saving-a-task-or-form-as-a-draft}
+# Saving a task or form as a draft {#saving-a-task-or-form-as-a-draft}
 
 The save as draft option saves a snapshot of a task or form along with the data filled in the associated form. You can also create a draft from a template. The drafts are saved in the mobile device, and synced with Adobe Experience Manager Forms server for a later retrieval.
 
@@ -40,4 +40,4 @@ Perform the following steps to delete a draft:
 1. A form with the edit icon ![edit-draft-app](assets/edit-draft-app.png) denotes a draft. Tap the horizontal ellipsis next to the draft. 
 1. In the options that appear when you tap the horizontal ellipsis, tap **Delete Draft**.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

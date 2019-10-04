@@ -4,14 +4,14 @@ seo-title: Multilingual Assets
 description: Learn how to automate workflows for translating assets, including binaries, metadata, and tags into multiple languages.
 seo-description: Learn how to automate workflows for translating assets, including binaries, metadata, and tags into multiple languages.
 uuid: 38bb06f6-058b-4b22-871a-bcf028d334a7
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 56c223ea-14b0-4679-b458-c3554e6828fb
 ---
 
-# Multilingual Assets{#multilingual-assets}
+# Multilingual Assets {#multilingual-assets}
 
 Adobe Experience Manager (AEM) Assets lets you automate translation workflows on assets (including binaries, metadata, and tags) to generate assets in other languages for use in multilingual projects.
 

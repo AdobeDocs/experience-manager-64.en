@@ -22,7 +22,7 @@ This document lists the supported client and server platforms for AEM Forms on J
 
 >[!NOTE]
 >
->* For a complete list of exceptions to supported server platforms, see [Exceptions to supported server platforms](/help/forms/using/aem-forms-jee-supported-platforms.md#p-exceptions-to-supported-server-platforms-p).
+>* For a complete list of exceptions to supported server platforms, see [Exceptions to supported server platforms](#exceptions-to-supported-server-platforms).
 >* AEM Forms on JEE supports only English, French, German, and Japanese versions of the supported operating systems and applications.
 >
 
@@ -115,7 +115,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
    <td>Supported</td> 
   </tr> 
   <tr> 
-   <td><p>Oracle Database 12c</p> </td> 
+   <td><p>Oracle Database 12c Release 1</p> </td> 
    <td><p>Repository Microkernel</p> </td> 
    <td><p>Supported</p> </td> 
   </tr> 
@@ -155,7 +155,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
    <td>Supported</td> 
   </tr> 
   <tr> 
-   <td><p>Oracle Database 12c</p> </td> 
+   <td><p>Oracle Database 12c Release 1</p> </td> 
    <td><p>Repository Microkernel</p> </td> 
    <td><p>Supported</p> </td> 
    <td><p>Supported</p> </td> 
@@ -334,7 +334,7 @@ Consider the following exceptions while choosing a platform to set up your AEM F
 1. AEM Forms on JEE doesn’t support any JDK with JBoss® other than Oracle Java™ SE.
 1. AEM Forms on JEE doesn’t support any JDK with IBM® WebSphere® other than IBM® JDK.
 1. AEM Forms on JEE doesn’t support IBM® DB2 with JBoss®.
-1. CRX-repository supports persistence of type TarMK, MongoDB, and relational databases (RDBMK). You cannot have 2 different database systems between the application server and the CRX-repository.
+1. CRX-repository supports persistence of type TarMK, MongoDB, and relational databases (RDBMK). You cannot have two different database systems between the application server and the CRX-repository. However, on an AEM Forms on JEE environment, you can use MongoMK with CRX-repository and a supported relational database with application server.
 1. AEM Forms on JEE does not support WebSphere application server on CentOS.
 1. AIX and Solaris operating systems are available only for upgrade customers.
 1. AEM Forms on JEE doesn’t support JBoss role based access control (RBAC).
@@ -343,7 +343,7 @@ In addition, consider the following points while choosing software for Adobe AEM
 
 * AEM Forms on JEE supports updates, patches, and fix packs on top of the specified major and minor version of supported software. However, update to the next major or minor version is not supported unless specified.
 * Cluster-based installations do not support TarMK persistence. For information about supported persistence, see [Choosing a persistence type for an AEM Forms installation](/help/forms/using/choosing-persistence-type-for-aem-forms.md).
-* AEM Forms on JEE supports various third-party software as per our [Third-party software support Policy](/help/forms/using/aem-forms-jee-supported-platforms.md#p-third-party-patch-support-policy-p).
+* AEM Forms on JEE supports various third-party software as per our [Third-party software support Policy](#third-party-patch-support-policy).
 * AEM Forms on JEE supports platforms as per the support provided by third-party vendors. Some combinations may not be allowed by third-party vendors. For example, many vendors have not certified their application servers with IBM® DB2. As a result, AEM Forms on JEE also doesn’t support these combinations. To ensure that you choose the supported software versions, check the support matrix for the third-party vendors as well.  
 * AEM Forms on JEE does not support TarMK Cold Standby.
 * AEM Forms on JEE does not support vertical clustering.
@@ -461,11 +461,11 @@ AEM Forms App now supports the Apache Cordova. Following are the platform-specif
   </tr> 
   <tr> 
    <td>Microsoft® Office Visio 2013</td> 
-   <td>VSD</td> 
+   <td>VSD, VSDX</td> 
   </tr> 
   <tr> 
    <td>Microsoft® Office Visio 2016</td> 
-   <td>VSD</td> 
+   <td>VSD, VSDX</td> 
   </tr> 
   <tr> 
    <td>Microsoft® Publisher 2013</td> 
@@ -563,8 +563,8 @@ The following subsystems of AEM Forms are not [508](https://www.section508.gov/)
 
 For additional reuirements see:
 
-* [System requirements for a single-server AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_single_63)
-* [System requirements for a clustered AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_cluster_63)
+* [System requirements for a single-server AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_single_64)
+* [System requirements for a clustered AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_cluster_64)
 
 ## Supported Clients for AEM Forms on JEE {#supported-clients-for-aem-forms-on-jee}
 
@@ -659,11 +659,6 @@ For additional reuirements see:
    <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
-   <td><p>Windows® Internet Explorer 11</p> </td> 
-   <td><p>A: Supported</p> </td> 
-   <td><p>Service packs and updates</p> </td> 
-  </tr> 
-  <tr> 
    <td><p>Microsoft Edge</p> </td> 
    <td><p>A: Supported</p> </td> 
    <td><p>Service packs and updates</p> </td> 
@@ -696,13 +691,7 @@ For additional reuirements see:
 >Some browser-related exceptions for desktops are as follows:
 >
 >* Most modern browsers no longer support NPAPI-based plug-ins. For information about how it impacts AEM Forms applications and workflows, see [Discontinuation of NPAPI browser plugins and its impact](https://helpx.adobe.com/aem-forms/kb/discontinuation-of-npapi-plugins-impact-on-aem-forms.html).
->* Safari is supported only on Macintosh OS X.  
->* AEM Forms on JEE UIs support only the desktop mode in Internet Explorer 11. App mode is not supported.
->* Workspace supports Safari 5.1 on Macintosh OS X 10.6 and 10.7 with Acrobat DC or later versions. For more information about Safari 5.1 compatibility with Adobe Reader, Acrobat, see [https://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html](https://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html).
->* Administration Console is not supported on Safari.
->* Correspondence Management does not support Windows® Internet Explorer 9.0 for AEM 6.1 forms.
->* Forms portal supports JAWS 14.0 screen reader software on Internet Explorer 11 for accessibility.
->
+>* Safari is supported only on Macintosh OS X.
 
 #### Mobile clients {#mobile-clients}
 
@@ -748,7 +737,7 @@ AEM Forms app is available on the following platforms:
 
 | **Platform** |**Supported Devices** |
 |---|---|
-| Apple iOS |Apple iPhone, iPad, iPad Air, and iPad mini running iOS 10 and above. |
+| Apple iOS |Apple iPhone, iPad, iPad Air, and iPad mini running iOS 11 and above. |
 | Google Android |Android 4.4 (Andoird Kit Kat) and above *[API Level 19 and above]*. AEM Forms app is certified on 7- and 10-inch Samsung Galaxy tablets and 7-inch Google Nexus tablet and popular smartphones. |
 | Microsoft Windows |Microsoft Surface devices, tablets, laptops, and desktops running Microsoft Windows 10 operating system. |
 
@@ -783,7 +772,7 @@ Also, AEM Forms on JEE supports updates, patches, and fix packs on top of the sp
 
 ## Third-party patch support policy {#third-party-patch-support-policy}
 
-The third-party software requirements for AEM Forms on JEE are documented in the “System Requirements” section of their respective product documents. All documentation can be accessed from [https://adobe.com/go/learn_aemforms_documentation_63](https://adobe.com/go/learn_aemforms_documentation_63) .
+The third-party software requirements for AEM Forms on JEE are documented in the “System Requirements” section of their respective product documents. All documentation can be accessed from [https://adobe.com/go/learn_aemforms_documentation_64](https://adobe.com/go/learn_aemforms_documentation_64) .
 
 AEM Forms on JEE’s third-party reference platforms state the specific patch level of third-party infrastructure that was current during the development and release of AEM Forms on JEE, and from the minimum patch/service pack level of the infrastructure supported by that version of AEM Forms on JEE.
 

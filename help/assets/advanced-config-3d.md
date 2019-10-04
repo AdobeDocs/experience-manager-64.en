@@ -11,13 +11,13 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: e43fd002-2954-4ef1-ac2b-e8d45afa75be
 ---
 
-# Advanced configuration settings{#advanced-configuration-settings}
+# Advanced configuration settings {#advanced-configuration-settings}
 
 While the default configuration settings are appropriate for typical use cases, some situations may require you to make changes.
 
 The following advanced configuration settings apply to the integration of AEM 3D for both Maya and non-Maya deployments.
 
-All settings are accessed using **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**).
+All settings are accessed using **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**).
 
 >[!NOTE]
 >
@@ -29,19 +29,19 @@ All settings are accessed using **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; 
 
 ## Asset Types Configuration {#asset-types-configuration}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | Path |Description |
 |---|---|
 | `/libs/settings/dam/v3D/assetTypes/*/Conversion` |Specifies the file type for the intermediate 3D format created during ingestion. Must be empty for 'fbx' and 'obj' file formats or 'fbx' for formats enabled by Maya. |
-| `/libs/settings/dam/v3D/assetTypes/*/Enabled` |Set to true or false to enable or disable this entry in the **assetTypes** list. |
+| `/libs/settings/dam/v3D/assetTypes/*/Enabled` |Set to true or false to enable or disable this entry in the **[!UICONTROL assetTypes]** list. |
 | `/libs/settings/dam/v3D/assetTypes/*/Extension` |Specify one or more comma-separated file suffixes or file extensions which are to be associated with this asset type. |
 | `/libs/settings/dam/v3D/assetTypes/*/IngestRegime` |Must be `native` for FBX and OBJ file formats and  `maya` for formats enabled by Maya. |
 | `/libs/settings/dam/v3D/assetTypes/*/MimeType` |Specifies the mime type for this asset type. For formats enabled by Maya it is recommended to use `application/x-ext`, where `ext` is the string specified as the `Extension` value. |
 
 ## Ingestion Configuration {#ingestion-configuration}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 <table> 
  <tbody> 
@@ -96,7 +96,7 @@ Values for the following settings are provided by your Adobe account manager, pr
 
 ## Common processing settings {#common-processing-settings}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | **Path** |**Description** |
 |---|---|
@@ -106,7 +106,7 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), 
 
 ## Renderer Configuration {#renderer-configuration}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | **Path** |**Description** |
 |---|---|
@@ -117,7 +117,7 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), 
 
 ## 3D Asset preview settings {#d-asset-preview-settings}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | Path |Description |
 |---|---|
@@ -132,7 +132,7 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), 
 
 ## 3D Sites component settings {#d-sites-component-settings}
 
-In **CRXDE Lite** in AEM (**[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**), access the following configurations:
+In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access the following configurations:
 
 | Path |Description |
 |---|---|

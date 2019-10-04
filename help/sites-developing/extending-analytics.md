@@ -22,7 +22,6 @@ AEM Analytics allows you to track user interaction on your website. As a develop
 >[!NOTE]
 >
 >This information is basically generic, but it uses [Adobe Analytics](/help/sites-administering/adobeanalytics.md) for specific examples.  
-
 >
 >For general information on developing components and dialog boxes, see [Developing Components](/help/sites-developing/components.md).
 
@@ -63,7 +62,7 @@ To track events that occur after a page is loaded (such as user interactions), u
 
 * `CQ_Analytics.record({event: 'eventName', values: { valueName: 'VALUE' }, collect: false, options: { obj: this, defaultLinkType: 'X' }, componentPath: '<%=resource.getResourceType()%>'})`
 
-Where ``
+Where
 
 * `events` is either a string or a string array (for multiple events).  
 

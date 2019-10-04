@@ -4,14 +4,14 @@ seo-title: Adding Image Maps
 description: Learn how to add hyperlinked image maps to image assets.
 seo-description: Learn how to add hyperlinked image maps to image assets.
 uuid: 83694f01-5e3d-445b-921b-c06562086a00
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: da4157a7-4a24-446f-8136-171add5ca96f
 ---
 
-# Adding Image Maps{#adding-image-maps}
+# Adding Image Maps {#adding-image-maps}
 
 Learn how to add hyperlinked image maps to image assets.
 

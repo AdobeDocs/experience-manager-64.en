@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 22ae0d3a-083f-40e4-bf4a-7a755ae9e312
 ---
 
-# Working with Content Fragments{#working-with-content-fragments}
+# Working with Content Fragments {#working-with-content-fragments}
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ AEM Content Services are designed to generalize the description and delivery of 
 They provide the delivery of content to channels that are not traditional AEM web pages, using standardized methods that can be consumed by any client. These channels can include:
 
 * Single Page Applications
-* Native Mobile Applications 
+* Native Mobile Applications
 * other channels and touch-points external to AEM
 
 Delivery is made in JSON format.
@@ -284,7 +284,7 @@ To create, edit and use content fragments you also need:
 
     * Instrumental to delivering the fragment in HTML and/or JSON format.
     * Required to [reference the fragment on a page](/help/sites-authoring/content-fragments.md).
-    * Responsible for layout and delivery of a fragment; i.e. channels. 
+    * Responsible for layout and delivery of a fragment; i.e. channels.
     * Fragments need one or more dedicated components to define layout and deliver some or all elements/variations and associated content.
     * Dragging a fragment onto a page in authoring will automatically associate the required component.
 

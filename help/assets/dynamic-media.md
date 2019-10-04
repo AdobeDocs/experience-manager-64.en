@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a8063d43-923a-42ac-9a16-0c7fadd8f73f
 ---
 
-# Working with Dynamic Media{#working-with-dynamic-media}
+# Working with Dynamic Media {#working-with-dynamic-media}
 
 [Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) helps deliver rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of master assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network.
 
@@ -76,11 +76,10 @@ Dynamic media enabled assets include `pyramid.tiffs`.
 
 ### Asset views change {#asset-views-change}
 
-With Dynamic Media enabled, you can zoom in and out by clicking the **[!UICONTROL +]** and **[!UICONTROL -]** buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:
+With Dynamic Media enabled, you can zoom in and out by clicking the `+` and `-` buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:
 
 ![chlimage_1-361](assets/chlimage_1-361.png)
 
 With Dynamic Media disabled you can zoom in and out and revert to the original size:
 
 ![chlimage_1-362](assets/chlimage_1-362.png)
-

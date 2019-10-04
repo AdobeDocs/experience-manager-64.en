@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9fda71e4-78a1-4581-9d02-bf06a75c3bcb
 ---
 
-# Enabling and disabling safe backup mode{#enabling-and-disabling-safe-backup-mode}
+# Enabling and disabling safe backup mode {#enabling-and-disabling-safe-backup-mode}
 
 On the Backup Settings page, you can operate AEM forms in safe backup mode so that you can reliably back up your database and Global Document Storage (GDS) (GDS) directory.
 

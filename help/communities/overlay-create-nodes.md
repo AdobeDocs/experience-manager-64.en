@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: cd4f53ee-537b-4f10-a64f-474ba2c44576
 ---
 
-# Create Nodes{#create-nodes}
+# Create Nodes {#create-nodes}
 
 Overlay the comment system with a custom version by copying the minimal number of files necessary from /libs into /apps and modifying them in /apps.
 
@@ -19,75 +19,54 @@ Overlay the comment system with a custom version by copying the minimal number o
 >
 >The contents of the /libs folder are never edited because any re-install or upgrade may delete or replace the /libs folder while the contents of the /apps folder is left untouched.
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md) on an author instance, begin by creating a path in the /apps folder which is identical to the path to the overlaid components in the /libs folder.
+Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md) on an author instance, begin by creating a path in the /apps folder which is identical to the path to the overlaid components in the /libs folder.
 
 The path being duplicated is
 
-* /libs/social/commons/components/hbs/comments/comment
+* `/libs/social/commons/components/hbs/comments/comment`
 
 Some nodes in the path are folders and some are components.
 
-1. browse to [http://localhost:4502/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp)
-1. create `/apps/social` (if it does not already exist)
-
-    * select `/apps` node
-    * **Create &gt; Folder ...**
-
-        * enter Name: `social`
-
-1. `select social`node
-
-    * **Create &gt; Folder...**
-
-        * enter Name: `commons`
-
-1. select `commons`node
-
-    * **Create &gt; Folder...**
-
-        * enter Name: `components`
-
-1. select `components` node
-
-    * **Create &gt; Folder..**.
-
-        * enter Name: `hbs`
-
-1. select `hbs`node
-
-    * **Create &gt; Create Component...**
-
-        * enter Label: `comments`
-        * enter Title: `Comments`
-        * enter Description: `List of comments without showing avatars`
+1. Browse to [http://localhost:4502/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp)
+1. Create `/apps/social` (if it does not already exist)
+    * Select `/apps` node
+    * **[!UICONTROL Create > Folder ...]**
+        * Enter Name: `social`
+1. Select `social` node
+    * **[!UICONTROL Create > Folder...]**
+        * Enter Name: `commons`
+1. Select `commons` node
+    * **[!UICONTROL Create > Folder...]**
+        * Enter Name: `components`
+1. Select `components` node
+    * **[!UICONTROL Create > Folder..]**.
+        * Enter Name: `hbs`
+1. Select `hbs` node
+    * **[!UICONTROL Create > Create Component...]**
+        * Enter Label: `comments`
+        * Enter Title: `Comments`
+        * Enter Description: `List of comments without showing avatars`
         * Super Type: `social/commons/components/comments`
-        * enter Group: `Communities`
-        * click **Next** until **OK**
+        * Enter Group: `Communities`
+        * Click **[!UICONTROL Next]** until **[!UICONTROL OK]**
+1. Select `comments` node
 
-1. select `comments`node
+    * **[!UICONTROL Create > Create Component...]**
 
-    * **Create &gt; Create Component...**
-
-        * enter Label: `comment`
-        * enter Title: `Comment`
-        * enter Description: `A comment instance without avatars`
+        * Enter Label: `comment`
+        * Enter Title: `Comment`
+        * Enter Description: `A comment instance without avatars`
         * Super Type: `social/commons/components/comments/comment`
-        * enter Group: `.hidden`
-        * click **Next** until **OK**
-
-* select **Save All**
-
-1. delete the default `comments.jsp`
-
-    * select node `/apps/social/commons/components/hbs/comments/comments.jsp`
-    * select **Delete**
-
-1. delete the default comment.jsp
-
+        * Enter Group: `.hidden`
+        * Click **[!UICONTROL Next]** until **[!UICONTROL OK]**
+    * Select **[!UICONTROL Save All]**
+1. Delete the default `comments.jsp`
+    * Select node `/apps/social/commons/components/hbs/comments/comments.jsp`
+    * Select **[!UICONTROL Delete]**
+1. Delete the default comment.jsp
     * select node `/apps/social/commons/components/hbs/comments/comment/comment.jsp`
-    * select **Delete**
-
-* select **Save All**
+    * Select **[!UICONTROL Delete]**
+    * Select **[!UICONTROL Save All]**
 
 >[!NOTE]
 >
@@ -98,25 +77,16 @@ Some nodes in the path are folders and some are components.
 >
 
 The overlay's own `Type`(property `sling:resourceType`) must be a relative self-reference so that any content not found in /apps is then looked for in /libs.
+* Name: `sling:resourceType`
+* Type: `String`
+* Value: `social/commons/components/hbs/comments`
 
-1. 
-1.
-
-    * Name: `sling:resourceType`
-    * Type: `String`
-    * Value: `social/commons/components/hbs/comments`
-
-1. select the green **[+] Add**
-1. 
-1.
-
+1. Select the green `[+] Add`
     * Name: `sling:resourceType`
     * Type: `String`
     * Value: `social/commons/components/hbs/comments/comment`
-
-1. select the green **[+] Add**
-
-* select **Save All**
+1. Select the green `[+] Add`
+   * Select **[!UICONTROL Save All]**
 
 ![chlimage_1-4](assets/chlimage_1-4.png) 
 

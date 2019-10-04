@@ -11,26 +11,25 @@ content-type: reference
 discoiquuid: 6c405543-e339-4916-aa0f-b61d0b798cf3
 ---
 
-# Moderation Console{#moderation-console}
+# Moderation Console {#moderation-console}
 
-In AEM Communities, bulk [moderation of community content](/help/communities/moderate-ugc.md) is possible from both the author and publish environments by administrators and community moderators (trusted community members assigned as moderators).
+In AEM Communities, bulk [moderation of community content](moderate-ugc.md) is possible from both the author and publish environments by administrators and community moderators (trusted community members assigned as moderators).
 
-Administrators and community moderators may also perform [in-context moderation](/help/communities/in-context.md) in the publish environment.
+Administrators and community moderators may also perform [in-context moderation](in-context.md) in the publish environment.
 
-A feature of all [community sites](/help/communities/sites-console.md) is an `Administration`menu item available to users who sign in with administrative privileges. The `Administration`link provides access to the Moderation console.
+A feature of all [community sites](sites-console.md) is an `Administration`menu item available to users who sign in with administrative privileges. The `Administration`link provides access to the Moderation console.
 
 From the Moderation console, administrators and community moderators will have access to all user generated content (UGC) for which they have permission to moderate. If permitted to moderate multiple sites, it is possible to view posts across all sites or filter by selected communities sites.
 
-For more detailed information visit [Managing Users and User Groups](/help/communities/users.md).
+For more detailed information visit [Managing Users and User Groups](users.md).
 
 The Moderation console supports:
+* Performing moderation tasks in bulk
+* Searching UGC
+* Viewing UGC details
+* Viewing UGC author details
 
-* performing moderation tasks in bulk
-* searching UGC
-* viewing UGC details
-* viewing UGC author details
-
-Only when signed in as an administrator, or a member with ` [moderator permissions](/help/communities/in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed.
+Only when signed in as an administrator, or a member with ` [moderator permissions](in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed.
 
 ## Publish Environment Access {#publish-environment-access}
 
@@ -46,13 +45,13 @@ By selecting the Administration link, the Moderation console appears:
 
 In the author environment, to reach the Moderation console
 
-* from global navigation: **Navigation, Communities, Moderation**
+* From global navigation: **[!UICONTROL Navigation > Communities > Moderation]**
 
-Only when signed in as an administrator, or as a member with ` [moderator permissions](/help/communities/in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed. The only community content displayed is that which the signed in member is permitted to moderate.
+Only when signed in as an administrator, or as a member with ` [moderator permissions](in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed. The only community content displayed is that which the signed in member is permitted to moderate.
 
 >[!NOTE]
 >
->UGC from the publish environment will only be visible on author if the chosen SRP implements a common store. For example, by default the storage is JSRP, which is not a common store for author and publish. See [Community Content Storage](/help/communities/working-with-srp.md).
+>UGC from the publish environment will only be visible on author if the chosen SRP implements a common store. For example, by default the storage is JSRP, which is not a common store for author and publish. See [Community Content Storage](working-with-srp.md).
 
 ![moderationconsoleauthor](assets/moderationconsoleauthor.png)
 
@@ -60,28 +59,26 @@ Only when signed in as an administrator, or as a member with ` [moderator permis
 
 Setting aside the left navigation rail (which appears on author, but not on publish), the moderation UI has following main areas:
 
-* **[top navigation bar](#top-navigation-bar)**
-* **[toolbar](#toolbar)** 
-* **[content area](#content-area)**
+* **[Top navigation bar](#top-navigation-bar)**
+* **[Toolbar](#toolbar)** 
+* **[Content area](#content-area)**
 
 ### Top Navigation Bar {#top-navigation-bar}
 
-The top navigation bar is constant for all consoles. For more information, see [Basic Handling](/help/sites-authoring/basic-handling.md).
+The top navigation bar is constant for all consoles. For more information, see [Basic Handling](../../help/sites-authoring/basic-handling.md).
 
 ### Toolbar {#toolbar}
 
 The toolbar, located beneath the top navigation bar, provides the following toggle switch on the left side:
 
-* [Filter rail](/help/communities/moderation.md#filter-rail)
-
-  opens a rail which allows a choice of properties on which to filter the content.
+* [Filter rail](moderation.md#filter-rail) opens a rail which allows a choice of properties on which to filter the content.
 
 The toolbar, located beneath the top navigation bar, provides the following toggle switch on the left side:
 
 ![toggleswitch](assets/toggleswitch.png)
 
-[Filter rail](/help/communities/moderation.md#filter-rail)  
-opens a rail, on selecting Search, which allows a choice of properties on which to filter the content.
+[Filter rail](moderation.md#filter-rail)  
+Opens a rail, on selecting Search, which allows a choice of properties on which to filter the content.
 
 ![filterrail](assets/filterrail.png)
 
@@ -89,15 +86,15 @@ opens a rail, on selecting Search, which allows a choice of properties on which 
 
 The content area contains information for posted UGC:
 
-* the UGC posted
-* member name
-* member avatar
-* location of the post
-* when it was posted
-* number of replies to the post
-* [sentiment](/help/communities/moderate-ugc.md#sentiment) associated with the post
-* if approved, a checkmark is displayed
-* if there is an attachment, a paperclip is displayed
+* The UGC posted
+* Member name
+* Member avatar
+* Location of the post
+* When it was posted
+* Number of replies to the post
+* [Sentiment](moderate-ugc.md#sentiment) associated with the post
+* If approved, a checkmark is displayed
+* If there is an attachment, a paperclip is displayed
 
 >[!NOTE]
 >
@@ -143,7 +140,7 @@ Site limits the referenced UGC displayed to posts to selected community sites. I
 
 >[!NOTE]
 >
->When the bulk moderation console is accessed by an administrator, all references to UGC are shown, including sites not created with the [site creation wizard](/help/communities/sites-console.md), such as the Geometrixx samples.
+>When the bulk moderation console is accessed by an administrator, all references to UGC are shown, including sites not created with the [site creation wizard](sites-console.md), such as the Geometrixx samples.
 >
 >When the bulk moderation console is accessed on publish by a trusted community member, then only references to UGC created for community sites the member is authorized to moderate are shown, and may be filtered with the Site filter.
 
@@ -171,21 +168,19 @@ Content Type limits the referenced UGC displayed to posts of the selected resour
 
 To add additional resources on which to filter:
 
-* on an author instance
-* sign in as administrator
-* open [Web Console](http://localhost:4502/system/console/configMgr)
-* locate `AEM Communities Moderation Dashboard Filters`
-* select the configuration to open in edit mode
-* enter the ResourceType of a component on which to filter
-
-    * for example, to filter on included Voting components, enter:
-   
+* On an author instance
+* Sign in as administrator
+* Open [Web Console](http://localhost:4502/system/console/configMgr)
+* Locate `AEM Communities Moderation Dashboard Filters`
+* Select the configuration to open in edit mode
+* Enter the ResourceType of a component on which to filter
+    * For example, to filter on included Voting components, enter:    
       `Voting=social/tally/components/hbs/voting`
 
 ![chlimage_1-475](assets/chlimage_1-475.png)
 
-* select Save
-* refresh the Communities - Moderation console
+* Select Save
+* Refresh the Communities - Moderation console
 
 The result is a new selectable filter for `Voting`under the `Content Type` filter group.
 
@@ -205,7 +200,7 @@ Status limits the referenced UGC displayed to posts of the selected status, whic
 
 Flagging limits the referenced UGC displayed to posts which are flagged or hidden.
 
-Once a piece of content is flagged, it remains flagged until you unflag that single piece of content by selecting the **Flag** button once again. Note that there are no flagging levels, such as important or followup.
+Once a piece of content is flagged, it remains flagged until you unflag that single piece of content by selecting the **[!UICONTROL Flag]** button once again. Note that there are no flagging levels, such as important or followup.
 
 ![chlimage_1-476](assets/chlimage_1-476.png)
 
@@ -223,13 +218,13 @@ Posted In The Last limits the referenced UGC displayed to posts made in the last
 
 #### Sentiment {#sentiment}
 
-[Sentiment](/help/communities/moderate-ugc.md#sentiment) limits the referenced UGC displayed to posts with a sentiment value that is either positive, negative or neutral.
+[Sentiment](moderate-ugc.md#sentiment) limits the referenced UGC displayed to posts with a sentiment value that is either positive, negative or neutral.
 
 ![chlimage_1-479](assets/chlimage_1-479.png)
 
 ## Moderation Actions {#moderation-actions}
 
-[Moderation actions](/help/communities/moderate-ugc.md#moderation-actions) can be performed on one or more selections made in the content area or when viewing content detail.
+[Moderation actions](moderate-ugc.md#moderation-actions) can be performed on one or more selections made in the content area or when viewing content detail.
 
 To bulk-moderate the posts, in the content area click the Select ( ![selecticon](assets/selecticon.png)) icon on a post, which appears on hovering over it with the mouse (desktop) or pressing and holding a finger on the post (mobile). By doing this, you enter the multi-select mode and can now select the subsequent posts to be bulk moderated by simply clicking them. Use the buttons displayed on the toolbar to perform moderation actions on the selected posts. All the actions will prompt for confirmation.
 
@@ -257,22 +252,22 @@ The icons allowing these actions only appear on the toolbar when multiple posts 
 
 In single selection mode, it is possible to
 
-* view user details by selecting the user's name
-* view the post in-context by selecting the link to the post
+* View user details by selecting the user's name
+* View the post in-context by selecting the link to the post
 * [Reply](#reply)
 * [Allow](#allow)
 * [Deny](#deny)
 * [Delete](#delete)
 * [Close](#close)
-* view [Moderation History](#moderation-history)
+* View [Moderation History](#moderation-history)
 * [View Details](#viewdetails)
 
 Present on the card view above the moderation action icons is the text of the post and below is data indicating
 
-* if has replies, and if so, preceded by the number of replies
-* if has been flagged
-* if has been approved
-* when the UGC was posted
+* If has replies, and if so, preceded by the number of replies
+* If has been flagged
+* If has been approved
+* When the UGC was posted
 
 ![singleselectmode](assets/singleselectmode.png)
 

@@ -4,14 +4,14 @@ seo-title: Best Practices for Assets
 description: Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.
 seo-description: Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.
 uuid: 2738ddc7-7f7c-41b5-84d9-4eecb52da1e9
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 750505d4-f31d-4ee5-bca0-96e587b06559
 ---
 
-# Best Practices for Assets{#best-practices-for-assets}
+# Best Practices for Assets {#best-practices-for-assets}
 
 Adobe Experience Manager (AEM) Assets is a crucial part of delivering high-quality digital marketing experiences that contribute to the achievement of business goals through increasing your content velocity. If you work with a large number of assets within AEM Assets or regularly/periodically upload numerous assets, including videos and dynamic media, optimizing your digital asset management experience is critical for system efficiency.
 
@@ -31,9 +31,9 @@ When handling AEM instances, understanding the network topology is important to 
 After your AEM instance is deployed, you should monitor certain tasks and the system in general to ensure system integrity and efficiency of operations. The Monitoring guide includes best practices for monitoring various aspects of your system.
 * [Assets Offloading guide](assets-offloading-best-practices.md)
 Handling large files and running workflows in AEM Assets can consume considerable CPU, memory, and I/O resources. Offloading these tasks can reduce CPU, memory, and IO overheads. The Assets offloading guide includes recommended use cases and best practices for Assets offloading.
-* [AEM Desktop App Best Practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html)
-AEM Desktop App links your digital asset management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. Desktop App's easy-to-use workflow is enabled using network share technology that desktop operating systems provide. This guide explains key capabilities and recommended use of AEM Desktop App.
+* [AEM desktop app Best Practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html)
+AEM desktop app links your digital asset management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. Desktop app's easy-to-use workflow is enabled using network share technology that desktop operating systems provide. This guide explains key capabilities and recommended use of AEM desktop app.
 * [AEM and Creative Cloud Integration Best Practices](aem-cc-integration-best-practices.md)
 You can integrate your AEM instance with Creative Cloud in multiple ways. Following some best practices to streamline your integration and asset transfer workflows helps achieve maximum efficiency. This guide includes best practices around integrating AEM Assets with Adobe Creative Cloud.
-* [AEM to Creative Cloud Folder Sharing Best Practices](aem-cc-folder-sharing-best-practices.md)
-You can configure AEM to allow users in DAM to share folders with Creative Cloud users, so they are available as shared folders in the Creative Cloud Assets service. The feature can be used to exchange files between creative teams and DAM users. This guide explains best practices for leveraging the AEM to Creative Cloud folder sharing feature.
+* (Deprecated) [AEM to Creative Cloud Folder Sharing Best Practices](aem-cc-folder-sharing-best-practices.md)
+You can configure AEM to allow users in DAM to share folders with Creative Cloud (CC) users, so they are available as shared folders in the Creative Cloud Assets service. The feature can be used to exchange files between creative teams and DAM users. This guide explains best practices for leveraging the AEM to Creative Cloud folder sharing feature.

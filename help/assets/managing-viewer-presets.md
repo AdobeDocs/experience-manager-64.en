@@ -1,8 +1,8 @@
 ---
-title: Managing Viewer Presets
-seo-title: Managing Viewer Presets
-description: How to create and manage viewer presets
-seo-description: How to create and manage viewer presets
+title: Managing Dynamic Media viewer presets
+seo-title: Managing Dynamic Media viewer presets
+description: How to create and manage Dynamic Media viewer presets
+seo-description: How to create and manage Dynamic Media viewer presets
 uuid: 31ef7a4e-2053-43b5-ac6c-cdc4b30c3914
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -12,9 +12,9 @@ discoiquuid: e78bb08a-a923-4399-b3f7-13aa4b7994d5
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer-presets
 ---
 
-# Managing Viewer Presets {#managing-viewer-presets}
+# Managing Dynamic Media viewer presets {#managing-viewer-presets}
 
-A Viewer Preset is a collection of settings that determine how users view rich-media assets on their computer screens and mobile devices. If you are an administrator, you can create Viewer Presets. Settings are available for an array of viewer configuration options. For example, you can change the viewer display size or zoom behavior.
+A Dynamic Media viewer preset is a collection of settings that determine how users view rich-media assets on their computer screens and mobile devices. If you are an administrator, you can create Viewer Presets. Settings are available for an array of viewer configuration options. For example, you can change the viewer display size or zoom behavior.
 
 For instructions on creating and customizing your own HTML5 viewer presets, see the *Adobe Scene7 HTML5 Viewer SDK*. The SDK is available on the IS publish server embedded in the SDK itself. Each library version has its own SDK documentation included.
 
@@ -35,9 +35,9 @@ All out-of-the-box viewers support keyboard accessibility.
 
 See also [Keyboard accessiblity and navigation](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_keyboard_accessibility.html).
 
-## Managing presets {#managing-presets}
+## Managing Dynamic Media viewer presets {#managing-presets}
 
-You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM by tapping **Tools** (hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
+You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM by tapping **[!UICONTROL Tools > Assets > Viewer Presets]**.
 
 ![tools-assets](assets/tools-assets.png)
 
@@ -47,7 +47,7 @@ You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM
 
 ## Viewer support for responsive designed web pages {#viewer-support-for-responsive-designed-web-pages}
 
-Different web pages have different needs. For example, sometimes you want a web page that provides a link that opens the HTML5 Viewer in a separate browser window. In other cases, it may be necessary to embed the HTML5 Viewer directly on the hosting page. In the latter case, the web page may have a static layout. Or, it may be "responsive" and display differently on different devices or for different browser window sizes. To accommodate these needs, all the pre-defined, out-of-the-box HTML5 Viewers that come with Dynamic Media support both static web pages and responsive designed web pages.
+Different web pages have different needs. For example, sometimes you want a web page that provides a link that opens the HTML5 Viewer in a separate browser window. In other cases, it may be necessary to embed the HTML5 Viewer directly on the hosting page. In the latter case, the web page may have a static layout. Or, it may be *responsive* and display differently on different devices or for different browser window sizes. To accommodate these needs, all the pre-defined, out-of-the-box HTML5 Viewers that come with Dynamic Media support both static web pages and responsive designed web pages.
 
 See [Responsive Image library](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html) in the *Scene7 Image Serving API Help* for more information on how to embed responsive viewers onto your web pages.
 
@@ -56,7 +56,7 @@ See [Responsive Image library](https://marketing.adobe.com/resources/help/en_US/
 >Please note that you must publish all out-of-the-box viewers before you first use them.  
 >See [Publishing Viewer Presets.](#publishing-viewer-presets)
 
-## Viewer Preset system compatibility  {#viewer-preset-system-compatibility}
+## Viewer preset system compatibility  {#viewer-preset-system-compatibility}
 
 All out-of-the-box Viewer Presets that come with Dynamic Media are fully compatible with the following systems:
 
@@ -67,7 +67,7 @@ All out-of-the-box Viewer Presets that come with Dynamic Media are fully compati
 * Android Tablet
 * For video, additional support for MP4 playback is provided for [Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb_media_support_at_a_glance.html#kba1328730952678) and [Windows Phone](https://msdn.microsoft.com/library/windows/apps/ff462087%28v=vs.105%29.aspx).
 
-### Rich Media Types for Viewer Presets {#rich-media-types-for-viewer-presets}
+### Rich media types for viewer presets {#rich-media-types-for-viewer-presets}
 
 Administrators can add and customize the following rich media types when creating new viewer presets.
 
@@ -132,22 +132,22 @@ Administrators can add and customize the following rich media types when creatin
  </tbody> 
 </table>
 
-## List of out-of-the-box Viewer Presets {#list-of-out-of-the-box-viewer-presets}
+## List of out-of-the-box viewer presets {#list-of-out-of-the-box-viewer-presets}
 
-The following table identifies all pre-defined, out-of-box Viewer Presets that come with Dynamic Media.
+The following table identifies all pre-defined, out-of-box viewer presets that come with Dynamic Media.
 
 See also [Viewers Reference Library Examples](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) and [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 For information about supported web browser and operating system versions for Viewers, you can review the Viewers Release Notes.
 
-See "Viewers release notes" in the table of contents of the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+See *Viewers release notes* in the table of contents of the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
 
 >[!NOTE]
 >
 >All out-of-the-box viewer presets in Dynamic Media come already activated (on), but you must publish them.  
 >See [Publishing Viewer Presets](#publishing-viewer-presets).
 >
->Any new viewer presets that you create and add must be both activated *and *published.  
+>Any new viewer presets that you create and add must be both activated *and* published.  
 >See [Activating or Deactivating Viewer Presets](#activating-or-deactivating-viewer-presets) and [Publishing Viewer Presets](#publishing-viewer-presets).
 
 <table> 
@@ -342,30 +342,30 @@ The following table identifies the mobile viewer gestures that are supported on 
  </tbody> 
 </table>
 
-## Increasing the number of viewer presets that display {#increasing-the-number-of-viewer-presets-that-display}
+## Increasing the number of Dynamic Media viewer presets that display {#increasing-the-number-of-viewer-presets-that-display}
 
-AEM shows a wide variety viewer presets when viewing an assets from **Detail View** &gt; **Viewers**. You can increase or decrease the number of viewers that display.
+AEM shows a wide variety viewer presets when viewing an assets from **[!UICONTROL Detail View > Viewers]**. You can increase or decrease the number of viewers that display.
 
-**To increase the number of viewer presets displayed**:
+**To increase the number of Dynamic Media viewer presets that display**:
 
-1. Navigate to CRXDE Lite ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
-1. Navigate to the viewer preset listing node at **/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist**
+1. Navigate to **[!UICONTROL CRXDE Lite]** ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
+1. Navigate to the viewer preset listing node at `/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist`
 
    ![chlimage_1-221](assets/chlimage_1-221.png)
 
-1. In the **limit** property, change the **Value**, which is set to 15 by default, to the desired number.
-1. Navigate to the viewer preset datasource at **/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist/datasource**
+1. In the **[!UICONTROL limit]** property, change the **[!UICONTROL Value]**, which is set to 15 by default, to the desired number.
+1. Navigate to the viewer preset datasource at `/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist/datasource`
 
    ![chlimage_1-222](assets/chlimage_1-222.png)
 
-1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
-1. Tap or click **Save All**.
+1. In the **[!UICONTROL limit]** property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
+1. Tap **[!UICONTROL Save All]**.
 
-## Creating a New Viewer Preset {#creating-a-new-viewer-preset}
+## Creating a new Dynamic Media viewer preset {#creating-a-new-viewer-preset}
 
 Creating viewer presets lets you apply various settings to view and interact with assets. However, you do not need to create new viewer presets. If you prefer, you can use the default, out-of-the-box viewer presets that already come with AEM Assets.
 
-If you choose to create a new viewer preset, after you save it, the viewer's state is automatically activated (set to **On**) in the Viewer Presets page. This state means that it is visible in the Dynamic Media component and the Interactive Media component and whenever you preview an image or video.
+If you choose to create a new viewer preset, after you save it, the viewer's state is automatically activated (set to **On**) in the **[!UICONTROL Viewer Presets]** page. This state means that it is visible in the **[!UICONTROL Dynamic Media]** component and the **[!UICONTROL Interactive Media]** component and whenever you preview an image or video.
 
 Some viewer presets have exclusive settings that can affect the use and overall behavior of the viewer. Depending on the viewer preset you are creating, you may want to be aware of these special considerations.
 
@@ -373,33 +373,33 @@ See [Special considerations for creating an Interactive Viewer preset](#special-
 
 See [Special considerations for creating a Carousel Banner Viewer preset](#special-considerations-for-creating-a-carousel-banner-viewer-preset).
 
-To create a new viewer preset:
+**To create a new Dynamic Media viewer preset**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools **(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 
    ![viewerpresets](assets/viewerpresets.png)
 
-1. On the Viewer Presets page, on the toolbar, tap **Create**.
-1. In the **New Viewer Preset** dialog box, in the **Preset Name** field, enter the name of the new preset. Choose a name carefully--they are not editable after you tap **Create**.
+1. On the **[!UICONTROL Viewer Presets]** page, on the toolbar, tap **[!UICONTROL Create]**.
+1. In the **[!UICONTROL New Viewer Preset]** dialog box, in the **[!UICONTROL Preset Name]** field, enter the name of the new preset. Choose a name carefully--they are not editable after you tap **[!UICONTROL Create]**.
 
-   When you save the preset later in these steps, the name appears on the Viewer Presets page under the Preset Title column header.
+   When you save the preset later in these steps, the name appears on the Viewer Presets page under the **[!UICONTROL Preset Title]** column header.
 
-1. On the Rich Media Type drop-down menu, select the type of viewer preset you want to create, then in the upper-right corner of the page, tap **Create**.
+1. On the **[!UICONTROL Rich Media Type]** drop-down menu, select the type of viewer preset you want to create, then in the upper-right corner of the page, tap **[!UICONTROL Create]**.
 
    See [Rich Media Types for Viewer Presets](#rich-media-types-for-viewer-presets).
 
-1. On the Edit Viewer Preset page, tap the **Appearance **tab.
+1. On the **Edit Viewer Preset** page, tap the **[!UICONTROL Appearance]** tab.
 1. Do one of the following:
 
-    * In the **Selected Type** pull-down menu, select a component whose visual design you want to customize. Alternatively, you can tap or click any visual element in the viewer to select it for configuration.  
+    * In the **[!UICONTROL Selected Type]** pull-down menu, select a component whose visual design you want to customize. Alternatively, you can tap any visual element in the viewer to select it for configuration.  
   
-      The visual editor lets you see what effect a certain property has on a style. Just set or adjust any property to instantly see what effect it has on the viewer using the sample to the left of the editor.   
+      The visual editor lets you see what effect a certain property has on a style. Just set or adjust any property to instantly see what effect it has on the viewer using the sample to the left of the editor.
   
-      The CSS styling properties for each type of viewer preset are described in the any "Customizing *`<viewer name>`* Viewer" Help topic in the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/). 
+      The CSS styling properties for each type of viewer preset are described in the any "Customizing *&lt;viewer_name&gt;* Viewer" Help topic in the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
   
       For example, if you are creating a viewer preset of the type `Mixed_Media`, see [Customizing Mixed Media Viewer](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_mixedmedia_viewer_customizingviewer.html) for a list and description of each property. 
 
-    * If you have defined style settings in a separate CSS file, you can upload the CSS file to AEM Assets. Tap **Import CSS** below the Selected Type pull-down menu (you may need to scroll the visual editor up to see it) to find the uploaded CSS file and associate it with the viewer preset.  
+    * If you have defined style settings in a separate CSS file, you can upload the CSS file to AEM Assets. Tap **[!UICONTROL Import CSS]** below the **[!UICONTROL Selected Type]** pull-down menu (you may need to scroll the visual editor up to see it) to find the uploaded CSS file and associate it with the viewer preset.  
   
       When you import a CSS file, the visual editor checks to see if the CSS uses the correct viewer markers. For example, if you are creating a Zoom viewer, all the CSS rules you import must be defined using its viewer class name `.s7mixedmediaviewer` defined on a parent viewer element.  
   
@@ -407,7 +407,7 @@ To create a new viewer preset:
 
    >[!NOTE]
    >
-   >If you prefer to edit the CSS directly in its raw form, tap **Show/Hide CSS** below the Selected Type pull-down menu (you may need to scroll the visual editor up to see it).
+   >If you prefer to edit the CSS directly in its raw form, tap **[!UICONTROL Show/Hide CSS]** below the **[!UICONTROL Selected Type]** pull-down menu (you may need to scroll the visual editor up to see it).
    >
    >Like the visual editor, when you make a change to a property directly in the CSS, you can instantly see what effect it has on the viewer sample. And, that same property is automatically updated at the same time in the visual editor. As such, you can use the raw CSS editor, or the visual editor, or use both interchangeably.
 
@@ -415,9 +415,9 @@ To create a new viewer preset:
    >
    >For button artwork, choose the 2x image and upload high resolution art work. When working with interactive images and shoppable banners, you can also select from a variety of out-of-the-box hotspot buttons.
 
-1. (Optional) Near the top of the Edit Viewer Preset page, tap **Desktop**, **Tablet**, or **Phone** to uniquely define visual styles for different device and screen types.
-1. On the Edit Viewer Preset page, tap the **Behavior** tab. Alternatively, you can tap or click any visual element in the viewer to select it for configuration.
-1. From the **Selected Type** pull-down menu, select a component whose behaviors you want to change.
+1. (Optional) Near the top of the **[!UICONTROL Edit Viewer Preset]** page, tap **[!UICONTROL Desktop]**, **[!UICONTROL Tablet]**, or **[!UICONTROL Phone]** to uniquely define visual styles for different device and screen types.
+1. On the **[!UICONTROL Edit Viewer Preset]** page, tap the **Behavior** tab. Alternatively, you can tap or click any visual element in the viewer to select it for configuration.
+1. From the **[!UICONTROL Selected Type]** pull-down menu, select a component whose behaviors you want to change.
 
    Many components in the visual editor have a detailed description associated with it. These descriptions appear within blue boxes when you expand a component to reveal its associated parameters.
 
@@ -427,9 +427,9 @@ To create a new viewer preset:
    >
    >**If you are using a touch device, such as a phone or tablet...**
    >
-   >After you type a value in the text field, tap elsewhere in the user interface to submit the change and close the virtual keyboard. If you tap Enter, no action occurs.
+   >After you type a value in the text field, tap elsewhere in the user interface to submit the change and close the virtual keyboard. If you tap **[!UICONTROL Enter]**, no action occurs.
 
-1. Near the upper-right corner of the page, tap **Save**.
+1. Near the upper-right corner of the page, tap **[!UICONTROL Save]**.
 1. Publish your new viewer preset. You must publish the preset before you can use it on your website.
 
    See [Publishing Viewer Presets](#publishing-viewer-presets).
@@ -438,7 +438,7 @@ To create a new viewer preset:
 
 **About Display Modes for image thumbnails in the panel**
 
-When you create or edit an Interactive Video viewer preset, you have the choice of which Display Mode setting to use when you select `InteractiveSwatches` from the Selected Component pull-down menu under the **Behavior **tab. The display mode you choose affects how and when thumbnails appear while the video is playing. You can choose either a `segment`display mode (default) or a `continuous`display mode.
+When you create or edit an Interactive Video viewer preset, you have the choice of which **[!UICONTROL Display Mode]** setting to use when you select `InteractiveSwatches` from the **[!UICONTROL Selected Component]** pull-down menu under the **[!UICONTROL Behavior]** tab. The display mode you choose affects how and when thumbnails appear while the video is playing. You can choose either a `segment`display mode (default) or a `continuous`display mode.
 
 <table> 
  <tbody> 
@@ -461,11 +461,11 @@ When you create or edit an Interactive Video viewer preset, you have the choice 
 
 The auto scroll behavior of thumbnails in the Interactive Video viewer functions independently of the display mode that you chose.
 
-When you create or edit an interactive video viewer preset, you access Auto Scroll from the Behavior tab. In the Behavior tab, from the **Selected Components** drop-down menu, tap **InteractiveSwatches**. The Auto Scroll check box is listed below the IS Command text field.
+When you create or edit an interactive video viewer preset, you access **[!UICONTROL Auto Scroll]** from the **[!UICONTROL Behavior]** tab. In the Behavior tab, from the **[!UICONTROL Selected Components]** drop-down menu, tap **[!UICONTROL InteractiveSwatches]**. The **[!UICONTROL Auto Scroll]** check box is listed below the IS Command text field.
 
-If you disable Auto Scroll (clear the check box) in the viewer preset, during video playback by the user, the panel only displays the first thumbnail image for the entire length of the video. However, a user can manually scroll through the thumbnails using the up and down arrow icons, if desired.
+If you disable **[!UICONTROL Auto Scroll]** (clear the check box) in the viewer preset, during video playback by the user, the panel only displays the first thumbnail image for the entire length of the video. However, a user can manually scroll through the thumbnails using the up and down arrow icons, if desired.
 
-When you enable (select) Auto Scroll in the viewer preset, during video playback, thumbnail images assigned to a video segment scroll into view at the start of a segment. There are instances, however, where certain thumbnails within a segment display twice as long as other thumbnails before or after it. This behavior occurs because the number of thumbnails in a segment is greater than the number that are visible in the panel, and are not evenly divisible.
+When you enable (select) **[!UICONTROL Auto Scroll]** in the viewer preset, during video playback, thumbnail images assigned to a video segment scroll into view at the start of a segment. There are instances, however, where certain thumbnails within a segment display twice as long as other thumbnails before or after it. This behavior occurs because the number of thumbnails in a segment is greater than the number that are visible in the panel, and are not evenly divisible.
 
 To illustrate, suppose you have one 30 second video segment. And, there are a total of nine thumbnails to display over the 30 seconds. Your browser is sized in such a way that there are four visible thumbnail positions in the display panel. The 30 second video time segment is divided into three sub-segments. The following table shows the breakdown of which thumbnails are displayed for a given time sub-segment:
 
@@ -491,28 +491,28 @@ The logic that the viewer uses for how many thumbnails are displayed in the pane
 
   Using the example in the table above, 30 seconds / 3 video sub-segments = 10 second display of each video sub-segment.
 
-### Special considerations for creating a Carousel Banner Viewer preset {#special-considerations-for-creating-a-carousel-banner-viewer-preset}
+### Special considerations for creating a Carousel Banner viewer preset {#special-considerations-for-creating-a-carousel-banner-viewer-preset}
 
 When creating Carousel Banner viewer presets, changing the style of hotspots can be accessed as follows:
 
 |  |**Description** |**Actions** |
 |---|---|---|
-| **Hotspot Icon** |Change the icon used for hotspot  |To change the hotspot icon image, in the **Appearance** tab, in **Selected Component**, click or tap **ImageMapEffect**. Under **Icon**, select **Background** and in the **Image** field navigate to the background image you want. |
+| **Hotspot Icon** |Change the icon used for hotspot  |To change the hotspot icon image, in the **[!UICONTROL Appearance]** tab, in **[!UICONTROL Selected Component]**, tap **[!UICONTROL ImageMapEffect]**. Under **[!UICONTROL Icon]**, select **[!UICONTROL Background]** and in the **[!UICONTROL Image]** field navigate to the background image you want. |
 
-## Activating or Deactivating Viewer Presets {#activating-or-deactivating-viewer-presets}
+## Activating or deactivating Dynamic Media viewer presets {#activating-or-deactivating-viewer-presets}
 
-The Viewer Presets that are available in the user interface depends on which ones are active in Author mode. By default, a viewer preset is "On" after you create it. If you toggle the preset off, you will not see it in Author mode. If the preset is published. it will always be published regardless of whether it is toggled on or off. You may want to deactivate viewer presets if the list becomes too unwieldy or you do not want a viewer preset made available to use.
+The Viewer Presets that are available in the user interface depends on which ones are active in Author mode. By default, a viewer preset is *On* after you create it. If you toggle the preset off, you will not see it in Author mode. If the preset is published. it will always be published regardless of whether it is toggled on or off. You may want to deactivate viwer presets if the list becomes too unwieldy or you do not want a viewer preset made available to use.
 
-To activate or deactivate viewer presets:
+**To activate or deactivate Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools**(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
-1. On the Viewer Preset page, under the **State** column header, tap the toggle to activate or deactivate a viewer preset.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
+1. On the **[!UICONTROL Viewer Preset]** page, under the **[!UICONTROL State]** column header, tap the toggle to activate or deactivate a viewer preset.
 
    Viewer presets that are activated have the toggle appear on the right, inside a blue box; deactivated viewer presets have the toggle appear on the left, inside a light grey box.
 
-## Publishing Viewer Presets {#publishing-viewer-presets}
+## Publishing Dynamic Media viewer presets {#publishing-viewer-presets}
 
-Activating (or turning "On") the state of a viewer preset means that it is visible in the Dynamic Media component, the Interactive Media component, and whenever you view an asset.
+Activating (or turning *On*) the state of a viewer preset means that it is visible in the Dynamic Media component, the Interactive Media component, and whenever you view an asset.
 
 However, to deliver an asset with a viewer preset, the viewer preset must be published as well. All viewer presets must be activated *and* published to obtain URL or embed code for an asset. You must activate and publish all out-of-the-box viewer presets that come with Dynamic Media. Custom viewer presets that you create and add are auto-activated, but must also be published.
 
@@ -520,61 +520,61 @@ See [Activating or Deactivating Viewer Presets](#activating-or-deactivating-view
 
 See also [Previewing Assets](previewing-assets.md).
 
-To publish viewer presets:
+**To publish Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools **(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 1. Select one or more viewer presets that you want to publish.
-1. On the toolbar, tap the **Publish** icon.
+1. On the toolbar, tap the **[!UICONTROL Publish]** icon.
 
-## Sorting Viewer Presets {#sorting-viewer-presets}
+## Sorting Dynamic Media viewer presets {#sorting-viewer-presets}
 
-To sort viewer presets:
+**To sort Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools **(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
-1. Click **Preset Title**, **Type**, **Published**, or **State** to sort by that column heading. For example, click **Type** to sort the viewer preset types in alphabetical or reverse-alphabetical order.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) **[!UICONTROL > Assets > Viewer Presets]**.
+1. Click **[!UICONTROL Preset Title]**, **[!UICONTROL Type]**, **[!UICONTROL Published]**, or **[!UICONTROL State]** to sort by that column heading. For example, click **[!UICONTROL Type]** to sort the viewer preset types in alphabetical or reverse-alphabetical order.
 
-## Editing Viewer Presets {#editing-viewer-presets}
+## Editing Dynamic Media viewer presets {#editing-viewer-presets}
 
 Be aware that editing any *predefined, out-of-the-box viewer presets* is not a supported scenario. If you edit an out-of-the-box viewer preset, you are prompted to save it with a new name.
 
-To edit Viewer Presets:
+**To edit Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools**(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
 1. Select a preset by checking the box to the left of the viewer preset title.
-1. On the toolbar, tap or click **Edit**.
-1. On the **Edit Viewer Preset** page make the changes you want to the viewer preset.
+1. On the toolbar, tap **[!UICONTROL Edit]**.
+1. On the **[!UICONTROL Edit Viewer Preset]** page make the changes you want to the viewer preset.
 1. Do one of the following:
 
-    * Tap **Save** to save your changes and return to the Viewer Preset page.
-    * Tap **Cancel** to void any changes you made and return to the Viewer Preset page.
+    * Tap **[!UICONTROL Save]** to save your changes and return to the **[!UICONTROL Viewer Preset]** page.
+    * Tap **[!UICONTROL Cancel]** to void any changes you made and return to the **[!UICONTROL Viewer Preset]** page.
 
-## Deleting custom Viewer Presets {#deleting-custom-viewer-presets}
+## Deleting custom Dynamic Media viewer presets {#deleting-custom-viewer-presets}
 
 You can delete Viewer Presets that you have created and added to Dynamic Media.
 
-To delete custom Viewer Presets:
+**To delete custom Dynamic Media viewer presets**:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools**(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
-1. On the Viewer Presets page, check a Preset Title, and then tap the **Trash** icon.
-1. Tap **Delete**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Viewer Presets]**.
+1. On the **[!UICONTROL Viewer Presets]** page, check a **[!UICONTROL Preset Title]**, and then tap the **[!UICONTROL Trash]** icon.
+1. Tap **[!UICONTROL Delete]**.
 
-## Applying a Viewer Preset to an asset {#applying-a-viewer-preset-to-an-asset}
+## Applying a Dynamic Media viewer preset to an asset {#applying-a-viewer-preset-to-an-asset}
 
-If you have already published both the asset and the selected viewer, the **URL** and **Embed** buttons appear after you select a viewer preset.
+If you have already published both the asset and the selected viewer, the **[!UICONTROL URL]** and **[!UICONTROL Embed]** buttons appear after you select a viewer preset.
 
-To apply a Viewer Preset to an asset:
+**To apply a Dynamic Media viewer preset to an asset**:
 
-1. Open the asset and near the upper-left corner of the page, tap the drop-down menu, then select **Viewers**.
+1. Open the asset and near the upper-left corner of the page, tap the drop-down menu, then select **[!UICONTROL Viewers]**.
 
    >[!NOTE]
    >
-   >If you have already published both the asset and the selected viewer, the **URL** and **Embed** buttons appear after you select a viewer preset.
+   >If you have already published both the asset and the selected viewer, the **[!UICONTROL URL]** and **[!UICONTROL Embed]** buttons appear after you select a viewer preset.
 
 1. Select a viewer preset from the left pane to apply it to the asset.
 
    You can [copy the URL to share](linking-urls-to-yourwebapplication.md) with other users.
 
-## Delivering Assets with Viewer Presets {#delivering-assets-with-viewer-presets}
+## Delivering assets with Dynamic Media viewer presets {#delivering-assets-with-viewer-presets}
 
 To get the URLs for Viewer Presets, see [Linking URLs to your Web application](linking-urls-to-yourwebapplication.md). See also [Embedding the Video Viewer on a Web Page](embed-code.md).
 

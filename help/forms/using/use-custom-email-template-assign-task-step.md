@@ -8,7 +8,7 @@ topic-tags: publish
 discoiquuid: c447fc39-c0f3-4932-ac6c-465d1fb83f8c
 ---
 
-# Use custom email templates in an Assign Task step{#use-custom-email-templates-in-an-assign-task-step}
+# Use custom email templates in an Assign Task step {#use-custom-email-templates-in-an-assign-task-step}
 
 Custom email templates for forms workflow email notifications 
 
@@ -60,12 +60,12 @@ Out of the box, AEM Forms provides a template for email notifications. The templ
 
 Out of the box, Assign task step is configured to use the default template, htmlEmailTemplate.txt. You can choose to use a custom template. To change the template:
 
-1. Open the Assign Task step.  
+1. Open the **[!UICONTROL Assign Task]** step.  
 
-1. Navigate to Assignee &gt; HTML Email Template.  
+1. Navigate to **[!UICONTROL Assignee &gt; HTML Email Template]**.  
 
 1. Select the newly created HTML Email Template.  
 
-1. Click OK. The template is changed.
+1. Click **[!UICONTROL OK]**. The template is changed.
 
 An email notification also uses [metadata](/help/forms/using/use-metadata-in-email-notifications.md). For example, due date, priority, workflow name, and more. You can also configure the template to use [custom metadata](/help/forms/using/use-metadata-in-email-notifications.md#using-custom-metadata-in-an-email-notification). 

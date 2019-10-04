@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 3d063268-17d7-4db6-8028-682537645377
 ---
 
-# Integrating AEM 3D with Autodesk Maya{#integrating-aem-d-with-autodesk-maya}
+# Integrating AEM 3D with Autodesk Maya {#integrating-aem-d-with-autodesk-maya}
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ See also [Integrating AEM 3D with AutoDesk 3ds Max](integrating-aem-3d-with-auto
 
 1. Add the path to the Maya executable folder to the Windows PATH environment variable.
 
-   For example, on Windows Server 2012, tap **[!UICONTROL Start &gt; Control Panel &gt; System and Security &gt; System &gt; Advanced System Settings &gt; Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
+   For example, on Windows Server 2012, tap **[!UICONTROL Start > Control Panel > System and Security > System > Advanced System Settings > Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
 
    ![chlimage_1-53](assets/chlimage_1-53.png)
 
@@ -53,7 +53,7 @@ See also [Integrating AEM 3D with AutoDesk 3ds Max](integrating-aem-3d-with-auto
    ![image2018-6-22_12-42-7](assets/image2018-6-22_12-42-7.png)
 
 1. To enable the JT (Siemens PLM Open CAD) file format, navigate to `/libs/settings/dam/v3D/assetTypes/jt` and set the **[!UICONTROL Enabled]** property to `true`.
-1. In AEM, enable Maya as a renderer. Begin by navigating to **[!UICONTROL Tools &gt; General &gt; CRXDE Lite]**.
+1. In AEM, enable Maya as a renderer. Begin by navigating to **[!UICONTROL Tools > General > CRXDE Lite]**.
 1. From the **[!UICONTROL CRXDE Lite]** page, in the left panel, navigate to the following:
 
    `/libs/settings/dam/v3D/renderers/maya`

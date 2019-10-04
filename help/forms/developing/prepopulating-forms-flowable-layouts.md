@@ -11,9 +11,9 @@ topic-tags: operations
 discoiquuid: 30a12fc6-07b8-4c7c-b9e2-caa2bec0ac48
 ---
 
-# Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts}
+# Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts1}
 
-## Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts}
+## Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts2}
 
 Prepopulating forms displays data to users within a rendered form. For example, assume a user logs in to a website with a user name and password. If authentication is successful, the client application queries a database for user information. The data is merged into the form and then the form is rendered to the user. As a result, the user is able to view personalized data within the form.
 
@@ -61,13 +61,13 @@ Consider a web-based application, such as an online store. After an online shopp
 The following table describes the steps in this diagram.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>1</p></td> 
    <td><p>A user purchases items from a web-based online store. </p></td> 

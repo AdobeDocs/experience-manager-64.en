@@ -91,7 +91,7 @@ Before using this article to create your test cases, you need to know the follow
 The following example walks you through creation of a test suite for testing multiple adaptive forms. You need to create a separate test case for each form that you need to test. By following steps similar to the following ones and modifying the JavaScript code in step 11, you can create your own test suite to test your adaptive forms.
 
 1. Go to CRXDE Lite in your web browser: `https://[server]:[port]/crx/de`.
-1. Right-click the /etc/clientlibs subfolder and click **[!UICONTROL Create** &gt; **Create Node]**. Enter a name (here afTestRegistration), specify the type of node as cq:ClientLibraryFolder, and click **[!UICONTROL OK]**.
+1. Right-click the /etc/clientlibs subfolder and click **[!UICONTROL Create > Create Node]**. Enter a name (here afTestRegistration), specify the type of node as cq:ClientLibraryFolder, and click **[!UICONTROL OK]**.
 
    The clientlibs folder contains the registration aspect of your application (JS and Init). It is recommended that you register all Hobbes test suites objects specific to a form in the clientlibs folder.
 
@@ -123,7 +123,7 @@ The following example walks you through creation of a test suite for testing mul
 
    ![1_aftestregistration](assets/1_aftestregistration.png)
 
-1. Right-click the test node (here **afTestRegistration)** and then click **[!UICONTROL Create** &gt; **Create File]**. Name the file js.txt and click **[!UICONTROL OK]**.
+1. Right-click the test node (here **afTestRegistration)** and then click **[!UICONTROL Create > Create File]**. Name the file js.txt and click **[!UICONTROL OK]**.
 1. In the js.txt file, add the following text:
 
    ```
@@ -133,7 +133,7 @@ The following example walks you through creation of a test suite for testing mul
    ```
 
 1. Click **[!UICONTROL Save All]** and then close the js.txt file.
-1. Right-click the test node (here **afTestRegistration)** and click **[!UICONTROL Create** &gt; **Create File]**. Name the file init.js and click **[!UICONTROL OK]**.
+1. Right-click the test node (here **afTestRegistration)** and click **[!UICONTROL Create > Create File]**. Name the file init.js and click **[!UICONTROL OK]**.
 1. Copy the following code to the init.js file and click **[!UICONTROL Save All]**:
 
    ```
@@ -170,7 +170,7 @@ The following example walks you through creation of a test suite for testing mul
 
    ![2_testformproperties](assets/2_testformproperties.png)
 
-1. Right-click the folder you have created for the test form (here testForm) and select **[!UICONTROL Create** &gt; **Create File]**. Name the file scriptingTest.js and add the following code to the file and click **[!UICONTROL Save All.]**
+1. Right-click the folder you have created for the test form (here testForm) and select **[!UICONTROL Create > Create File]**. Name the file scriptingTest.js and add the following code to the file and click **[!UICONTROL Save All.]**
 
    To use the following code to test another adaptive form, change the path and name of the form in **navigateTo** (lines 11, 36, and 62) and the respective test cases. For more information on APIs for testing different aspects of forms and form objects, see [Calvin APIs](https://helpx.adobe.com/aem-forms/6-3/calvin-sdk-javascript-api/calvin.html).
 

@@ -14,8 +14,6 @@ discoiquuid: 8fe7c072-7df0-44b7-92d0-bf39dc1e688a
 
 # Rendering HTML Forms Using Custom CSS Files {#rendering-html-forms-using-custom-css-files}
 
-## Rendering HTML Forms Using Custom CSS Files {#rendering-html-forms-using-custom-css-files}
-
 The Forms service renders HTML forms in response to an HTTP request from a web browser. When rendering an HTML form, the Forms service can reference a custom CSS file. You can create a custom CSS file to meet your business requirements and reference that CSS file when using the Forms service to render HTML forms.
 
 The Forms service silently parses the custom CSS file. That is, the Forms service does not report errors that may be encountered if the custom CSS file does not comply with CSS standards. In this situation, the Forms service ignores the style and continues with the remaining styles located in the CSS file.
@@ -38,7 +36,7 @@ You can retrieve a sample CSS file by using the FormsIVS application. Upload the
 >
 >For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
-### Summary of steps {#summary-of-steps}
+## Summary of steps {#summary-of-steps}
 
 To render an HTML form that uses a CSS file, perform the following tasks:
 
@@ -86,7 +84,7 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Creating Web Applications that Renders Forms](/help/forms/developing/creating-web-applications-renders-forms.md)
 
-### Render an HTML form that uses a CSS file using the Java API {#render-an-html-form-that-uses-a-css-file-using-the-java-api}
+## Render an HTML form that uses a CSS file using the Java API {#render-an-html-form-that-uses-a-css-file-using-the-java-api}
 
 Render an HTML form that uses a custom CSS file by using the Forms API (Java):
 
@@ -138,7 +136,7 @@ Render an HTML form that uses a custom CSS file by using the Forms API (Java):
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-### Render an HTML form that uses a CSS file using the web service API {#render-an-html-form-that-uses-a-css-file-using-the-web-service-api}
+## Render an HTML form that uses a CSS file using the web service API {#render-an-html-form-that-uses-a-css-file-using-the-web-service-api}
 
 Render an HTML form that uses a custom CSS file by using the Forms API (web service):
 

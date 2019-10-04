@@ -10,9 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6320c632-c7ec-4e56-9d12-cd27e3e9306e
 ---
 
-# Pre-defined reports in Process Reporting{#pre-defined-reports-in-process-reporting}
-
-## Pre-defined Reports in Process Reporting {#pre-defined-reports-in-process-reporting}
+# Pre-defined reports in Process Reporting {#pre-defined-reports-in-process-reporting}
 
 AEM Forms Process Reporting ships with the following *out-of-the-box* reports:
 
@@ -61,7 +59,7 @@ The Process Duration report displays the number of instances of a Forms process 
 
 ### To execute a Process Duration report {#to-execute-a-process-duration-report-br}
 
-1. To view the pre-defined reports in Process Reporting, on the **Process Reporting** tree view, click the **Reports **node.
+1. To view the pre-defined reports in Process Reporting, on the **Process Reporting** tree view, click the **Reports** node.
 1. Click the **Processes Duration** report node.
 
    ![process_duration_node](assets/process_duration_node.png)
@@ -72,15 +70,15 @@ The Process Duration report displays the number of instances of a Forms process 
 
    Parameters:
 
-    * **Select Process **(*mandatory*): Select an AEM Forms process.
+    * **Select Process** (*mandatory*): Select an AEM Forms process.
 
-1. Click **Go **to execute the report.
+1. Click **Go** to execute the report.
 
    The report displays in the **Report** panel on the right of the Process Reporting window.
 
    ![process_duration_report](assets/process_duration_report.png)
 
-   Use the options in the upper right corner of the **Report **panel to perform the following operations on the report.
+   Use the options in the upper right corner of the **Report** panel to perform the following operations on the report.
 
     * **Refresh**: Refreshes the report with latest data lying in the storage
     * **Change legend color**: Select and change the color of the report legend
@@ -92,7 +90,7 @@ The Workflow Volume report displays the number of currently running and complete
 
 ### To execute a Workflow Volume report {#to-execute-a-workflow-volume-report-br}
 
-1. To view the pre-defined reports in Process Reporting, on the **Process Reporting **tree view, click the **Reports **node.
+1. To view the pre-defined reports in Process Reporting, on the **Process Reporting** tree view, click the **Reports** node.
 1. Click the **Workflow Volume** report node.
 
    ![workflow_volume_node](assets/workflow_volume_node.png)
@@ -109,14 +107,14 @@ The Workflow Volume report displays the number of currently running and complete
 
 1. Click **Go** to execute the report.
 
-   The report displays in the **Report **panel on the right of the **Process Reporting** window.
+   The report displays in the **Report** panel on the right of the **Process Reporting** window.
 
    ![workflow_volume_report](assets/workflow_volume_report.png)
 
-   Use the options in the upper right corner of the **Report **panel to perform the following operations on the report.
+   Use the options in the upper right corner of the **Report** panel to perform the following operations on the report.
 
     * **Refresh**: Refreshes the report with latest data lying in the storage
     * **Change legend color**: Select and change the color of the report legend
     * **Export to CSV**: Export and download the data from the report to a comma-separated file
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

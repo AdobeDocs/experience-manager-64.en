@@ -10,7 +10,7 @@ topic-tags: introduction
 discoiquuid: 2feb4a9c-57ad-4c6b-a572-0047bc409bbb
 ---
 
-# Set up and configure AEM Forms reference sites{#set-up-and-configure-aem-forms-reference-sites}
+# Set up and configure AEM Forms reference sites {#set-up-and-configure-aem-forms-reference-sites}
 
 AEM Forms provides reference site implementation to demonstrate how AEM Forms helps Financial Services Industry and Government organizations in transforming their complex transactions into simple and engaging digital experiences anywhere, anytime, on any device.
 
@@ -158,7 +158,7 @@ In AEM, the **Externalizer** is an OSGI service that allows you to programmatica
 Perform the following steps on both author and publish instances:
 
 1. Go to OSGi Configuration at https://&lt;*hostname&gt;*:&lt;*port&gt;*/system/console/configMgr.
-1. Find and tap **Day CQ Link Externalizer** configuration.
+1. Find and tap **[!UICONTROL Day CQ Link Externalizer]** configuration.
 
    The Day CQ Link Externalizer dialog opens for editing the configuration.
    
@@ -168,7 +168,7 @@ Perform the following steps on both author and publish instances:
     * On the publish instance, specify both the author and publish URLs.
 
 1. On both author and publish instances, ensure that the local server URL is specified in the Domains field.
-1. Tap **Save**. Wait for a while for all services to restart.
+1. Tap **[!UICONTROL Save]**. Wait for a while for all services to restart.
 
 ## Configure Day CQ Mail Service {#cqmail}
 
@@ -177,9 +177,9 @@ Reference site implementation requires emails to be sent to sample users when th
 Perform the following steps to configure mail service on the publish instance:
 
 1. Go to OSGi Configuration at https://&lt;*hostname&gt;*:&lt;*port&gt;*/system/console/configMgr.
-1. Find and tap **Day CQ Mail Service** to open it for configuration.
+1. Find and tap **[!UICONTROL Day CQ Mail Service]** to open it for configuration.
 1. Provide SMTP server hostname and port values.
-1. Tap **Save.**
+1. Tap **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -234,13 +234,13 @@ The home mortgage application and auto insurance application reference sites are
 To import the custom entity for auto insurance application:
 
 1. Download the **WeFinanceAutoInsurance_1_0.zip** solution package from `https://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/auto-insurance/ms-dynamics/WeFinanceAutoInsurance_1_0.zip` on your AEM author instance.
-1. In your Microsoft Dynamics instance, go to **Settings &gt; Solutions** and click **Import**. Select and import the package.
+1. In your Microsoft Dynamics instance, go to **[!UICONTROL Settings &gt; Solutions]** and click **[!UICONTROL Import]**. Select and import the package.
 
 To import the custom entity for auto insurance application:
 
-1. Download the** AEMFormsFSIRefsite_1_0.zip** package from https://[author]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip. Select and import the package.  
+1. Download the **AEMFormsFSIRefsite_1_0.zip** package from https://[author]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip. Select and import the package.  
 
-1. In your Microsoft Dynamics instance, go to **Settings &gt; Solutions** and click **Import**. Select and import the package.
+1. In your Microsoft Dynamics instance, go to **[!UICONTROL Settings &gt; Solutions]** and click **[!UICONTROL Import]**. Select and import the package.
 
 To import the customer and insurance policy records:
 
@@ -252,21 +252,21 @@ To import the customer and insurance policy records:
 
 1. In your Microsoft Dynamics instance, do the following:
 
-    * Go to **Sales** &gt;  **We.Finance Customers** and click **Import**. 
-    * Go to **Sales** &gt;  **We.Finance Auto Insurance** and click **Import**. 
-    * Go to **Sales** &gt;  **We.Finance Home Mortgage **and click **Import**.
+    * Go to **[!UICONTROL Sales** &gt;  **We.Finance Customers]** and click **[!UICONTROL Import]**.
+    * Go to **[!UICONTROL Sales** &gt;  **We.Finance Auto Insurance]** and click **[!UICONTROL Import]**.
+    * Go to **[!UICONTROL Sales** &gt;  **We.Finance Home Mortgage]**  and click **[!UICONTROL Import]**.
 
 ## Configure OAuth cloud service for Microsoft Dynamics {#configure-oauth-cloud-service-for-microsoft-dynamics}
 
 Configure the OAuth cloud service in AEM Forms to enable communication between AEM Forms and Microsoft Dynamics. Perform the following steps to configure the OAuth Cloud Service on AEM author and publish instances:
 
-1. On AEM author instance, go to **Tools** &gt;  **Cloud Services** &gt; **Data Sources** &gt; **global**. Tap **Refsite Dynamics Integration** icon and tap Properties. 
-1. Go to Microsoft Azure Active Directory account. Add the copied cloud service configuration URL in the **Reply URL** setting for your registered application. Save the configuration.
-1. In the Authentication Settings tab, specify **Service Root**, **Client Id**, **Client Secret**, and **Resource URL** for your Microsoft Dynamics instance. Click **Connect to OAuth** that redirects to the Microsoft Dynamics login page.
-1. Provide your login credentials. Once logged in, you are redirected to the AEM Forms cloud service configuration page. Click **Save & Close**. The cloud service configuration is saved. 
-1. Go to **Forms** &gt;  **Data Integrations** &gt; **We.Finance**. Select Auto Insurance (Dynamics) and click Edit. Microsoft Dynamics entities are listed under the Data Sources tab. Wait until all entities are fetched from Microsoft Dynamics and listed under the data sources tab.
-1. Select the **AutoInsuranceRenewal entity** and click **Test Model Object**. In the input request section, specify the value for customer ID as “900001” and click **Test**. The Output section displays the records fetched from Microsoft Dynamics for customer ID 900001.
-1. In the input request section, specify the value for customer ID as “900001” and click **Test**. The Output section displays the records fetched from Microsoft Dynamics for customer ID 900001.
+1. On AEM author instance, go to **[!UICONTROL Tools** &gt;  **Cloud Services** &gt; **Data Sources** &gt; **global]**. Tap **[!UICONTROL Refsite Dynamics Integration]** icon and tap **[!UICONTROL Properties]**. 
+1. Go to Microsoft Azure Active Directory account. Add the copied cloud service configuration URL in the **[!UICONTROL Reply URL]** setting for your registered application. Save the configuration.
+1. In the Authentication Settings tab, specify **[!UICONTROL Service Root]**, **[!UICONTROL Client Id]**, **[!UICONTROL Client Secret]**, and **[!UICONTROL Resource URL]** for your Microsoft Dynamics instance. Click **[!UICONTROL Connect to OAuth]** that redirects to the Microsoft Dynamics login page.
+1. Provide your login credentials. Once logged in, you are redirected to the AEM Forms cloud service configuration page. Click **[!UICONTROL Save & Close]**. The cloud service configuration is saved. 
+1. Go to **[!UICONTROL Forms** &gt;  **Data Integrations** &gt; **We.Finance]**. Select Auto Insurance (Dynamics) and click Edit. Microsoft Dynamics entities are listed under the Data Sources tab. Wait until all entities are fetched from Microsoft Dynamics and listed under the data sources tab.
+1. Select the **[!UICONTROL AutoInsuranceRenewal entity]** and click **[!UICONTROL Test Model Object]**. In the input request section, specify the value for customer ID as “900001” and click **[!UICONTROL Test]**. The Output section displays the records fetched from Microsoft Dynamics for customer ID 900001.
+1. In the input request section, specify the value for customer ID as “900001” and click **[!UICONTROL Test]**. The Output section displays the records fetched from Microsoft Dynamics for customer ID 900001.
 1. Repeat steps 1-6 on the publish instance.
 
 ## Configure Adobe Sign Scheduler {#scheduler}
@@ -287,7 +287,7 @@ Do the following on both author and publish instances:
 
 Do the following on both author and publish instances:
 
-1. Go to **Tools** &gt;  **Cloud Services** &gt; **Adobe Sign** &gt; **global**. Select **AEM Forms Reference Site Sign** and tap Properties.
+1. Go to **[!UICONTROL Tools** &gt;  **Cloud Services** &gt; **Adobe Sign** &gt; **global]**. Select **[!UICONTROL AEM Forms Reference Site Sign]** and tap **[!UICONTROL Properties]**.
 
    >[!CAUTION]
    >
@@ -314,7 +314,7 @@ Do the following on both author and publish instances:
 1. Navigate to **/conf/global/settings/cloudconfigs/fdm/roi-rest/jcr:content/swaggerFile** and open the swagger file.
 1. Update the host and port settings as per your environment.
 1. Save the settings.
-1. (**Author instance only**) Go to **Tools** > **Cloud Services** > **Data Sources** > **global.** Select **roi-rest** and tap **Properties.** Tap **Authentication Settings** and set **Authentication Type** to **Basic Authentication**. Specify `admin`/ `admin`as the username/password to access the service. Tap **Save & Close**.
+1. (**Author instance only**) Go to **[!UICONTROL Tools** > **Cloud Services** > **Data Sources** > **global]**. Select **[!UICONTROL roi-rest]** and tap **[!UICONTROL Properties]**. Tap **[!UICONTROL Authentication Settings]** and set **[!UICONTROL Authentication Type]** to **[!UICONTROL Basic Authentication]**. Specify `admin`/ `admin`as the username/password to access the service. Tap **[!UICONTROL Save & Close]**.
 
 ## Integrate with Marketing Cloud {#integrate-with-marketing-cloud}
 

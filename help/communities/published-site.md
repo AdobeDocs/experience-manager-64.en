@@ -11,14 +11,14 @@ content-type: reference
 discoiquuid: 4dc54701-68b9-49dd-a212-b0b53330c1c0
 ---
 
-# Experience the Published Site{#experience-the-published-site}
+# Experience the Published Site {#experience-the-published-site}
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
 
 Now that the newly created communities site has been published, browse to the URL displayed when creating the site, but on the publish server, e.g.
 
-* author URL = http://localhost:4502/content/sites/engage/en.html
-* publish URL = http://localhost:4503/content/sites/engage/en.html
+* Author URL = http://localhost:4502/content/sites/engage/en.html
+* Publish URL = http://localhost:4503/content/sites/engage/en.html
 
 To minimize confusion as to which member is signed in on author and publish, it is suggested to use different browsers for each instance.
 
@@ -33,10 +33,10 @@ When first arriving at the published site, the site visitor would typically not 
 An anonymous site visitor sees the following in the UI:
 
 * Title of the site. Which is Getting Started Tutorial
-* no profile link
-* no messages link
-* no notifications link
-* search field
+* No profile link
+* No messages link
+* No notifications link
+* Sarch field
 * Log in link
 * The brand banner
 * Menu links for the components included in the Reference Site Template
@@ -55,21 +55,21 @@ To protect your community site's content from access by anonymous users through 
    >
    >Do not go to the localized site.
 
-1. Go to **Page Properties**.
+1. Go to **[!UICONTROL Page Properties]**.
 
    ![site-authentication](assets/site-authentication.png)
 
-1. Go to **Advanced **tab.
+1. Go to **[!UICONTROL Advanced]** tab.
 
    ![page-properties](assets/page-properties.png)
 
-1. Enable **Authentication Requirement**.
-1. Add the path of the login page. For example,** /content/......./GetStarted**.
+1. Enable **[!UICONTROL Authentication Requirement]**.
+1. Add the path of the login page. For example, `/content/......./GetStarted`.
 1. Publish the page.
 
 ## Trusted Community Member {#trusted-community-member}
 
-This experience assumes [Aaron McDonald](/help/communities/tutorials.md#demo-users) was assigned the roles of [community manager and moderator](/help/communities/create-site.md#roles). If not, return to the author environment to [modify the site settings](/help/communities/sites-console.md#modifying-site-properties) and select Aaron McDonald as both community manager and moderator.
+This experience assumes [Aaron McDonald](tutorials.md#demo-users) was assigned the roles of [community manager and moderator](create-site.md#roles). If not, return to the author environment to [modify the site settings](sites-console.md#modifying-site-properties) and select Aaron McDonald as both community manager and moderator.
 
 In the upper right corner, select `Log in`, and sign with username "aaron.mcdonald@mailinator.com" and password "password". Notice the ability to sign in with Twitter or Facebook credentials.
 
@@ -79,7 +79,7 @@ Once signed in, notice there is a new menu item, `Administration`, which appears
 
 ![chlimage_1-313](assets/chlimage_1-313.png)
 
-Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](/help/communities/sites.md#edit-site-template) console or when modifying site properties in the author environment:
+Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](sites.md#edit-site-template) console or when modifying site properties in the author environment:
 
 ![chlimage_1-314](assets/chlimage_1-314.png)
 
@@ -87,8 +87,8 @@ Notice the Calendar page is the home page because the chosen Reference Site Temp
 >
 >For more information on Communities components and functions, visit
 >
->* [Communities Components](/help/communities/author-communities.md) (for authors)
->* [Component, Function, and Feature Essentials](/help/communities/essentials.md) (for developers)
+>* [Communities Components](author-communities.md) (for authors)
+>* [Component, Function, and Feature Essentials](essentials.md) (for developers)
 >
 
 ## Forum link {#forum-link}
@@ -107,25 +107,21 @@ Since Aaron is a group administrator, selecting the Groups link will allow Aaron
 
 This is an example where a group is created in the publish environment.
 
-Groups may also be created in the author environment and managed within the community site in the author environment (the [Community Groups console](/help/communities/groups.md)). The experience of [creating groups on author](/help/communities/nested-groups.md) is next in this tutorial.
+Groups may also be created in the author environment and managed within the community site in the author environment (the [Community Groups console](groups.md)). The experience of [creating groups on author](nested-groups.md) is next in this tutorial.
 
 ![chlimage_1-316](assets/chlimage_1-316.png)
 
 Create a Reference Group:
 
-1. select **New Group**
-1. **Settings tab**
-
+1. Select **[!UICONTROL New Group]**
+1. **[!UICONTROL Settings tab]**
     * Group Name: `Sports`
     * Description: `A parent group for various sporting groups`
     * Group URL Name: `sports`
     * select `Open Group` (allow any community member to participate by joining)
-
-1. **Template tab**
-
-    * select `Reference Group` (contains a groups function in its structure to allow nested groups)
-
-1. select **Create Group**
+1. **[!UICONTROL Template tab]**
+    * Select `Reference Group` (contains a groups function in its structure to allow nested groups)
+1. Select **[!UICONTROL Create Group]**
 
 ![chlimage_1-317](assets/chlimage_1-317.png)
 
@@ -137,38 +133,32 @@ The second set of links, beginning with `Blog`, belong to the currently selected
 
 As an example, add two n `ew groups.`
 
-* one named `Baseball`
+* One named `Baseball`
+    * Leave it set as an `Open Group` (required membership)
+    * On Templates tab, select `Conversational Group`
+* One named `Gymnastics`
+    * Change its setting to `Member Only Group` (restricted membership)
+    * On Templates tab, select `Conversational Group`
 
-    * leave it set as an `Open Group` (required membership)
-    * on Templates tab, select `Conversational Group`
+**Notice**:
 
-* one named `Gymnastics`
+* A refresh of the page may be necessary before both groups are displayed
+* This template does *not *include the groups function, so no further nesting of groups will be possible
+* On author, the [Groups console](groups.md) provides a third choice - a `Public Group` (optional membership)
 
-    * change its setting to `Member Only Group` (restricted membership)
-    * on Templates tab, select `Conversational Group`
-
-**Notice **:
-
-* a refresh of the page may be necessary before both groups are displayed
-* this template does *not *include the groups function, so no further nesting of groups will be possible
-* on author, the [Groups console](/help/communities/groups.md) provides a third choice - a `Public Group` (optional membership)
-
-Once both groups are created, select the Baseball group, an open group, and notice its links:
-
-`Discussions` `What's New` `Members`
-
+Once both groups are created, select the Baseball group, an open group, and notice its links: `Discussions` `What's New` `Members`
 The group's links are displayed below the main site's links and results in the following display:
 
 ![chlimage_1-319](assets/chlimage_1-319.png)
 
-On author - with administrative privileges, navigate to the [Communities Groups console](/help/communities/members.md) and add Weston McCall to the `Community Engage Gymnastics <uid> Members` group.
+On author - with administrative privileges, navigate to the [Communities Groups console](members.md) and add Weston McCall to the `Community Engage Gymnastics <uid> Members` group.
 
 Continuing on publish, log out as Aaron McDonald, and view the groups in the Sports Group as an anonymous site visitor:
 
-* from home page 
-* select `Groups`link
-* select `Sports`link
-* select the Sports' `Groups`link
+* From home page 
+* Select `Groups`link
+* Select `Sports`link
+* Select the Sports' `Groups`link
 
 Only the Baseball group will be visible.
 
@@ -180,13 +170,13 @@ Log in as Weston McCall (weston.mccall@dodgit.com / password), and navigate to t
 
 View the basic web page included in the site by selecting the Web Page link. The standard AEM authoring tools may be used to add content to this page in the author environment.
 
-For example, go to **author** instance, open the `engage` folder in the [Communities Sites console](/help/communities/sites-console.md), select the **Open Site** icon to enter author edit mode. Then select preview mode to select the `Web Page`link, then select edit mode to add Title and Text components. Last, re-publish either just the page or the entire site.
+For example, go to **author** instance, open the `engage` folder in the [Communities Sites console](sites-console.md), select the **Open Site** icon to enter author edit mode. Then select preview mode to select the `Web Page`link, then select edit mode to add Title and Text components. Last, re-publish either just the page or the entire site.
 
 ![chlimage_1-321](assets/chlimage_1-321.png) 
 
 ## Administration Link {#administration-link}
 
-When the community member has moderation privileges, then the Administration link will be visible and selecting it will display the community content posted and allow it to be [moderated](/help/communities/moderate-ugc.md) in a manner similar to the [moderation console](/help/communities/moderation.md) in the author environment.
+When the community member has moderation privileges, then the Administration link will be visible and selecting it will display the community content posted and allow it to be [moderated](moderate-ugc.md) in a manner similar to the [moderation console](moderation.md) in the author environment.
 
 Use the browser's back button to return to the published site. Most consoles are not accessible from global navigation in the publish environment.
 
@@ -196,8 +186,8 @@ Use the browser's back button to return to the published site. Most consoles are
 
 After logging out, it is possible to create a new user registration.
 
-* select `Log In`
-* select `Sign up for a new account`
+* Select `Log In`
+* Select `Sign up for a new account`
 
 ![chlimage_1-323](assets/chlimage_1-323.png) ![chlimage_1-324](assets/chlimage_1-324.png)
 

@@ -11,11 +11,11 @@ content-type: reference
 discoiquuid: 24b6d1d2-c118-4a25-959f-2783961c4ae3
 ---
 
-# Client-side Customization{#client-side-customization}
+# Client-side Customization {#client-side-customization}
 
-| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Server-side Customization ⇒](/help/communities/server-customize.md)** |
+| **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
-|   |**[SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
+|   |**[SCF Handlebars Helpers ⇒](handlebars-helpers.md)** |
 
 To customize the appearance and/or behavior of an AEM Communities component on the client-side, there are several approaches.
 
@@ -29,7 +29,7 @@ Two major approaches are to overlay or extend a component.
 
 Overlaying a component is a method of making modifications to a default component and affecting all instances which use the default.
 
-The overlay is accomplished by modifying a copy of the default component in the /**apps **directory, rather than modifying the original component in the /**libs** directory. The component is constructed with an identical relative path, except 'libs' is replaced with 'apps'.
+The overlay is accomplished by modifying a copy of the default component in the /**apps** directory, rather than modifying the original component in the /**libs** directory. The component is constructed with an identical relative path, except 'libs' is replaced with 'apps'.
 
 The /apps directory is the first place searched to resolve requests, and if not found, the default version located in the/libs directory is used.
 
@@ -37,7 +37,7 @@ The default component in the /libs directory must never be modified as future pa
 
 This is different from [extending](#extensions) a default component where the desire is to make modifications for a specific use, creating an unique path to the component and relying on referencing the original default component in the /libs directory as the super resource type.
 
-For a quick example of overlaying the comments component, try the [Overlay Comments Component tutorial](/help/communities/overlay-comments.md).
+For a quick example of overlaying the comments component, try the [Overlay Comments Component tutorial](overlay-comments.md).
 
 ## Extensions {#extensions}
 
@@ -45,7 +45,7 @@ Extending (overriding) a component is a method of making modifications for a spe
 
 This is different from [overlaying](#overlays) the default component where the nature of Sling resolves relative references to the apps/ folder before searching in the libs/ folder, thus a component's design or behavior is modified globally.
 
-For a quick example of extending the comments component, try the [Extend Comments Component tutorial](/help/communities/extend-comments.md).
+For a quick example of extending the comments component, try the [Extend Comments Component tutorial](extend-comments.md).
 
 ## Javascript Binding {#javascript-binding}
 
@@ -90,7 +90,7 @@ To skin a component:
 1. Identify the elements that you want to change (example - composer area, toolbar buttons, message font, etc).
 1. Identify the CSS class/rules that affect these elements.
 1. Create a stylesheet file (.css).
-1. Include the stylesheet in a client library folder ([clientlibs](#clientlibs-for-scf)) for your site and make sure it is included from your templates and pages with [ui:includeClientLib](/help/sites-developing/clientlibs.md).
+1. Include the stylesheet in a client library folder ([clientlibs](#clientlibs-for-scf)) for your site and make sure it is included from your templates and pages with [ui:includeClientLib](../../help/sites-developing/clientlibs.md).
 
 1. Redefine the CSS classes and rules that you have identified (#2) in your style sheet and add styles.
 
@@ -106,11 +106,11 @@ The custom styles will now override the default framework styles and the compone
 
 To extend a components Javascript implementation, you need only
 
-1. create a component for you app with a jcr:resourceSuperType set to the value of the extended component's jcr:resourceType, e.g. social/forum/components/hbs/forum
-1. examine the default SCF component's Javascript to determine what methods need to be registered using SCF.registerComponent()
-1. either copy the extended component's Javascript or start from scratch
-1. extend the method  
-1. use SCF.registerComponent() to register all methods with either the defaults or the customized objects and views.
+1. Create a component for you app with a jcr:resourceSuperType set to the value of the extended component's jcr:resourceType, e.g. social/forum/components/hbs/forum
+1. Examine the default SCF component's Javascript to determine what methods need to be registered using SCF.registerComponent()
+1. Either copy the extended component's Javascript or start from scratch
+1. Extend the method  
+1. Use SCF.registerComponent() to register all methods with either the defaults or the customized objects and views.
 
 ### forum.js: Sample Extension of Forum - HBS  {#forum-js-sample-extension-of-forum-hbs}
 
@@ -145,7 +145,7 @@ Script tags in SCF scripts should not be removed when overlaying or overriding c
 
 ## Clientlibs for SCF {#clientlibs-for-scf}
 
-The use of [client-side libraries](/help/sites-developing/clientlibs.md) (clientlibs), provides a means of organizing and optimizing the Javascript and CSS used to render content on the client.
+The use of [client-side libraries](../../help/sites-developing/clientlibs.md) (clientlibs), provides a means of organizing and optimizing the Javascript and CSS used to render content on the client.
 
 The clientlibs for SCF follow a very specific naming pattern for two variants, which vary only by the presence of 'author' in the category name:
 
@@ -158,18 +158,18 @@ The clientlibs for SCF follow a very specific naming pattern for two variants, w
 
 The complete (non-author) clientlibs include dependencies and are convenient for including with ui:includeClientLib.
 
-These versions are found in
+These versions are found in:
 
 * /etc/clientlibs/social/hbs/&lt;component name&gt;
 
-For example
+For example:
 
-* client folder node: /etc/clientlibs/social/hbs/forum 
-* categories property: cq.social.hbs.forum
+* Client folder node: /etc/clientlibs/social/hbs/forum 
+* Categories property: cq.social.hbs.forum
 
-The [Community Components guide](/help/communities/components-guide.md) lists the complete clientlibs required for each SCF component.
+The [Community Components guide](components-guide.md) lists the complete clientlibs required for each SCF component.
 
-[Clientlibs for Communities Components](/help/communities/clientlibs.md) describes how to add clientlibs to a page.
+[Clientlibs for Communities Components](clientlibs.md) describes how to add clientlibs to a page.
 
 ### Author Clientlibs {#author-clientlibs}
 
@@ -181,14 +181,14 @@ These versions are found in the SCF libs folder:
 
 * /libs/social/&lt;feature&gt;/components/hbs/&lt;component name&gt;/clientlibs
 
-For example
+For example:
 
-* client folder node: /libs/social/forum/hbs/forum/clientlibs 
-* categories property: cq.social.author.hbs.forum
+* Client folder node: /libs/social/forum/hbs/forum/clientlibs 
+* Categories property: cq.social.author.hbs.forum
 
 Note: while author clientlibs never embed other libraries, they do list their dependencies. When embedded in other libraries, the dependencies are not automatically pulled in and must be embedded as well.
 
-The required author clientlibs can be identified by inserting "author" into the clientlibs listed for each SCF component in the [Community Components guide](/help/communities/components-guide.md).
+The required author clientlibs can be identified by inserting "author" into the clientlibs listed for each SCF component in the [Community Components guide](components-guide.md).
 
 ### Usage Considerations {#usage-considerations}
 
@@ -198,7 +198,7 @@ Every site is different in how they manage client libraries. Various factors inc
 * Short Time to First Page: Maybe the desire is for the first page to load quickly. In this case, the Javascript is in multiple small files to be referenced only where needed.
 * A balance between first page load and subsequent downloads.
 
-| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Server-side Customization ⇒](/help/communities/server-customize.md)** |
+| **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
-|   |**[SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
+|   |**[SCF Handlebars Helpers ⇒](handlebars-helpers.md)** |
 

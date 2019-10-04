@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a9cb5294-e5ab-445b-b7c2-ffeecda91c50
 ---
 
-# Component Sideloading{#component-sideloading}
+# Component Sideloading {#component-sideloading}
 
 ## Overview {#overview}
 
@@ -25,21 +25,18 @@ When a page is designed to sideload Communities components, it is possible to ca
 
 The steps to dynamically add SCF components are:
 
-1) [add the component to the DOM](#dynamically-add-component-to-dom)
+1. [Add the component to the DOM](#dynamically-add-component-to-dom)
 
-2) [sideload the component](#sideload-by-invoking-scf) using one of two methods:
+1. [Sideload the component](#sideload-by-invoking-scf) using one of two methods:
 
-* [dynamic inclusion](#dynamic-inclusion)
-
-    * boostrap all dynamically added components
-
-* [dynamic loading](#dynamic-loading)
-
-    * add one specific component on-demand
+* [Dynamic inclusion](#dynamic-inclusion)
+    * Boostrap all dynamically added components
+* [Dynamic loading](#dynamic-loading)
+    * Add one specific component on-demand
 
 >[!NOTE]
 >
->Sideloading of [non-existing resources](/help/communities/scf.md#add-or-include-a-communities-component) is not supported.
+>Sideloading of [non-existing resources](scf.md#add-or-include-a-communities-component) is not supported.
 
 ## Dynamically Add Component to DOM {#dynamically-add-component-to-dom}
 
@@ -50,10 +47,10 @@ When adding the SCF component, the most common tag to use is the DIV tag, but ot
 Whatever tag is used, at a minimum, the element must conform to the normal SCF root element pattern by containing these two attributes:
 
 * **data-component-id** 
-  the effective path to the added component
+  The effective path to the added component
 
 * **data-scf-component** 
-  the resourceType of the component
+  The resourceType of the component
 
 Following is one example of an added comments component:
 

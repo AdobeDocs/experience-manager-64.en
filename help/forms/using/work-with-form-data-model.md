@@ -9,7 +9,7 @@ topic-tags: integration
 discoiquuid: 2ee45ac0-bc15-403a-93fc-c8592afb967d
 ---
 
-# Work with form data model{#work-with-form-data-model}
+# Work with form data model {#work-with-form-data-model}
 
 Data Integration provides form data model editor to configure and work with form data models.
 
@@ -43,13 +43,9 @@ To add data model objects and services:
 
    ![selected-objects](assets/selected-objects.png)
 
-   Selected data model objects and services
-
    The Model tab displays a graphical representation of all data model objects and their properties added to the form data model. Each data model object is represented by a box in the form data model.
 
    ![model-tab](assets/model-tab.png)
-
-   Model tab displays added data model objects
 
    >[!NOTE] {grayBox="true"}
    >
@@ -58,8 +54,6 @@ To add data model objects and services:
    The Services tab lists added services.
 
    ![services-tab](assets/services-tab.png)
-
-   Services tab displays data model services
 
    >[!NOTE]
    >
@@ -312,13 +306,13 @@ Once you add the `GET LINK` service to the Services tab in the Form Data Model, 
 
 >[!NOTE]
 >
->The values available in the **Default Value** field of the **NavigationPropertyName** argument depend on the state of the **Return array?** toggle button. When it is enabled, it shows navigation properties of Collection type.
+>The values available in the **[!UICONTROL Default Value]** field of the **NavigationPropertyName** argument depend on the state of the **[!UICONTROL Return array?]** toggle button. When it is enabled, it shows navigation properties of Collection type.
 
-In this example, you can also choose the output model object as Person and navigation property argument as Friends or BestFriend (depending on whether **Return array?** is enabled or disabled).
+In this example, you can also choose the output model object as Person and navigation property argument as Friends or BestFriend (depending on whether **[!UICONTROL Return array?]** is enabled or disabled).
 
 ![edit-prop-nav-prop2](assets/edit-prop-nav-prop2.png)
 
-Similarly, you can choose a `GET LINK` service and configure its navigation properties when adding associations in the Form Data Model. However, to be able to select a navigation property, ensure that the **[!UICONTROL Binding To field]** is set to **Literal**.
+Similarly, you can choose a `GET LINK` service and configure its navigation properties when adding associations in the Form Data Model. However, to be able to select a navigation property, ensure that the **[!UICONTROL Binding To field]** is set to **[!UICONTROL Literal]**.
 
 ![add-association-nav-prop](assets/add-association-nav-prop.png) 
 

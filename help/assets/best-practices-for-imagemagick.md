@@ -11,11 +11,17 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: f18ccd41-2db3-47b2-9462-29723c7ed9ab
 ---
 
-# Install and configure ImageMagick to work with AEM Assets{#install-and-configure-imagemagick-to-work-with-aem-assets}
+# Install and configure ImageMagick to work with AEM Assets {#install-and-configure-imagemagick-to-work-with-aem-assets}
 
 ImageMagick is a software plug-in to create, edit, compose, or convert bitmap images. It can read and write images in various formats (over 200) including PNG, JPEG, JPEG-2000, GIF, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG. Use ImageMagick to resize, flip, mirror, rotate, distort, shear, and transform images. You can also adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses, and curves using ImageMagick.
 
 Use the Adobe Experience Manager (AEM) media handler from the command line to process images through ImageMagick. To work with various file formats using ImageMagick, see [Assets file formats best practices](assets-file-format-best-practices.md). To know about all supported file formats, see [Assets supported formats](assets-formats.md).
+
+To process large files using ImageMagick, consider higher than usual memory requirements, potential changes required to IM policies, and the overall impact on the performance. The memory requirements are dependent on various factors like resolution, bit depth, color profile, and file format. If you intend to process very large files using ImageMagick, properly benchmark the AEM server. Some helpful resources are provided at the end.
+
+>[!NOTE]
+>
+>If you are using AEM on Adobe Managed Services (AMS), reach out to Adobe Support if you plan to process lots of large PSD or PSB files.
 
 ## Installing ImageMagick {#installing-imagemagick}
 
@@ -45,7 +51,7 @@ You can set up the command line process step for your particular use case. Perfo
 
    ![select_flags](assets/select_flags.png)
 
-1. In the **[!UICONTROL Web Enabled Image]** tab, specify the details for the rendition with dimensions 1280x1280 pixels. In addition, specify i*mage/jpeg* in the **[!UICONTROL **Mimetype**]**box.
+1. In the **[!UICONTROL Web Enabled Image]** tab, specify the details for the rendition with dimensions 1280x1280 pixels. In addition, specify i*mage/jpeg* in the **[!UICONTROL Mimetype]** box.
 
    ![web_enabled_image](assets/web_enabled_image.png)
 
@@ -79,3 +85,11 @@ If you use ImageMagick or an affected library, Adobe recommends that you mitigat
 1. Verify that all image files begin with the expected ["magic bytes"](https://en.wikipedia.org/wiki/List_of_file_signatures) corresponding to the image file types you support before sending them to ImageMagick for processing.
 1. Use a policy file to disable the vulnerable ImageMagick coders. The global policy for ImageMagick is found at `/etc/ImageMagick`.
 
+>[!MORELIKETHIS]
+>
+>* [Best practices to process various file formats using AEM Assets](assets-file-format-best-practices.md)
+>* [Command-line options for ImageMagick](https://www.imagemagick.org/script/command-line-options.php)
+>* [Basic and advanced examples of ImageMagick usage](https://www.imagemagick.org/Usage/)
+>* [Assets performance tuning for ImageMagick](performance-tuning-guidelines.md)
+>* [Complete list of file formats supported by AEM Assets](assets-formats.md)
+>* [Understand file formats and memory cost of images](https://www.scantips.com/basics1d.html)

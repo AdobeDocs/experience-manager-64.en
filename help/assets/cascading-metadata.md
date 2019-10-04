@@ -4,13 +4,13 @@ seo-title: Cascading Metadata
 description: This article describes how to define cascading metadata for assets.
 seo-description: How to define cascading metadata for assets.
 uuid: 97a9e1da-41de-4405-a725-f264ee71637c
-contentOwner: cmajumda
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 discoiquuid: f14881fd-ffff-4652-a798-0c68dd424119
 ---
 
-# Cascading Metadata{#cascading-metadata}
+# Cascading Metadata {#cascading-metadata}
 
 This article describes how to define cascading metadata for assets.
 
@@ -47,6 +47,10 @@ Irrespective of the asset type chosen, display the copyright information as a re
 
    ![add_tab](assets/add_tab.png)
 
+1. Add a Dropdown field for asset type. Specify a name and property path in the **[!UICONTROL Settings]** tab. Add an optional description.
+
+   ![asset_type_field](assets/asset_type_field.png)
+
 1. Key-values pairs are the options provided to a form-user. You can provide the key-value pairs either manually or from a JSON file.
 
     * To specify the values manually, select **[!UICONTROL Add Manually]**, and tap/click **[!UICONTROL Add Choice]** and specify the option text and value. For example, specify Video, PDF, Word, and Image asset types.
@@ -60,9 +64,9 @@ Irrespective of the asset type chosen, display the copyright information as a re
    >
    >When you add a JSON file, the key-value pairs are not displayed in the metadata schema editor but are available in the published form.
 
-1. Add a Dropdown field for asset type. Specify a name and property path in the **[!UICONTROL Settings]** tab. Add an optional description.
-
-   ![asset_type_field](assets/asset_type_field.png)
+   >[!NOTE]
+   >
+   >When adding choices, if you click the Dropdown field, the interface is distorted and the delete icon for the choices stops working. When adding the choices to the dropdown, do not click back on the dropdown till you save the changes. If you face this issue, save the schema and open it again to continue editing.
 
 1. (Optional) Add the other required fields. For example, format, codec, and duration for the asset type video.
 
@@ -105,9 +109,9 @@ Irrespective of the asset type chosen, display the copyright information as a re
 
    ![Cascading metadata for Video asset](assets/video_asset.png)
 
-   Cascading metadata for Video asset
+   **Figure:** *Cascading metadata for Video asset*
 
    ![Cascading metadata for document asset](assets/doc_type_fields.png)
 
-   Cascading metadata for document asset
+   **Figure:** *Cascading metadata for document asset*
 

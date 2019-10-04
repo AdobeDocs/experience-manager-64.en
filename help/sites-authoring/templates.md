@@ -11,7 +11,7 @@ topic-tags: site-features
 discoiquuid: 5a96c306-790a-4721-a146-86fbceb376db
 ---
 
-# Creating Page Templates{#creating-page-templates}
+# Creating Page Templates {#creating-page-templates}
 
 When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, any initial content, and the components that can be used.
 
@@ -31,6 +31,10 @@ The **Template Editor** allows template authors to:
 This document explains how a **template author** can use the template console and editor to create and manage editable templates.
 
 For detailed information about how editable templates work at a technical level, please see the developer document [Page Templates - Editable](/help/sites-developing/page-templates-editable.md) for more information.
+
+>[!NOTE]
+>
+>AEM 6.4.5.0 or later is required to use editable templates with the [SPA Editor](/help/sites-developing/spa-overview.md).
 
 >[!NOTE]
 >

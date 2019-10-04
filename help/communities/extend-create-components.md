@@ -11,12 +11,12 @@ content-type: reference
 discoiquuid: 83c4f18a-d7d6-4090-88c7-41a9075153b5
 ---
 
-# Create the Components{#create-the-components}
+# Create the Components {#create-the-components}
 
 The example of extending components uses the comment system, which is actually composed of two components
 
-* comments - the encompassing comment system which is the component placed on a page
-* comment - the component which captures an instance of a posted comment
+* Comments - The encompassing comment system which is the component placed on a page
+* Comment - The component which captures an instance of a posted comment
 
 Both components needs to be put in place, especially if customizing the appearance of a posted comment.  
 
@@ -28,25 +28,25 @@ Both components needs to be put in place, especially if customizing the appearan
 
 ## Create the Comments Component {#create-the-comments-component}
 
-These directions specify a **Group **value other than *.hidden* so the component may be made available from the component browser (sidekick).
+These directions specify a **Group** value other than `.hidden` so the component may be made available from the component browser (sidekick).
 
 The deletion of the auto-created JSP file is because the default HBS file will be used instead.
 
 1. Browse to **CRXDE|Lite** ([http://localhost:4502/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp))
 
-1. create a location for custom applications:
+1. Create a location for custom applications:
 
-    * select the **/apps** node
+    * Select the `/apps` node
 
-        * **Create Folder** named **custom**
+        * **Create Folder** named **[!UICONTROL custom]**
 
-    * select the **/apps/custom** node
+    * Select the `/apps/custom` node
 
-        * **Create Folder** named **components**
+        * **Create Folder** named **[!UICONTROL components]**
 
-1. select the **/apps/custom/components** node
+1. Select the `/apps/custom/components` node
 
-    * **Create &gt; Component...**
+    * **[!UICONTROL Create > Component...]**
 
         * **Label**: *comments*
         * **Title**: *Alt Comments*
@@ -54,110 +54,110 @@ The deletion of the auto-created JSP file is because the default HBS file will b
         * **Super Type**: *social/commons/components/hbs/comments*
         * **Group**: *Custom*
 
-    * Select **Next**
-    * Select **Next**
-    * Select **Next**
-    * Select **OK**
+    * Select **[!UICONTROL Next]**
+    * Select **[!UICONTROL Next]**
+    * Select **[!UICONTROL Next]**
+    * Select **[!UICONTROL OK]**
 
-1. Expand the node just created: **/apps/custom/components/comments**
-1. Select **Save All**
-1. Right-click **comments.jsp**
-1. Select **Delete**
-1. Select **Save All**
+1. Expand the node just created: `/apps/custom/components/comments`
+1. Select **[!UICONTROL Save All]**
+1. Right-click `comments.jsp`
+1. Select **[!UICONTROL Delete]**
+1. Select **[!UICONTROL Save All]**
 
 ![chlimage_1-70](assets/chlimage_1-70.png) 
 
 ### Create the Child Comment Component {#create-the-child-comment-component}
 
-These directions set **Group** to *.hidden* as only the parent component should be included within a page.
+These directions set **Group** to `.hidden` as only the parent component should be included within a page.
 
 The deletion of the auto-created JSP file is because the default HBS file will be used instead.
 
-1. Navigate to the **/apps/custom/components/comments** node
+1. Navigate to the `/apps/custom/components/comments` node
 1. Right-click the node
 
-    * Select **Create &gt; Component...**
+    * Select **[!UICONTROL Create > Component...]**
 
         * **Label**: *comment*
         * **Title**: *Alt Comment*
         * **Description**: *Alternative comment style*
         * **Super Type**: *social/commons/components/hbs/comments/comment*
-        * **Group**: *.hidden*
+        * **Group**: `*.hidden*`
 
-    * Select **Next**
-    * Select **Next**
-    * Select **Next**
-    * Select **OK**
+    * Select **[!UICONTROL Next]**
+    * Select **[!UICONTROL Next]**
+    * Select **[!UICONTROL Next]**
+    * Select **[!UICONTROL OK]**
 
-1. Expand the node just created: **/apps/custom/components/comments/comment**
-1. Select **Save All**
-1. Right-click **comment.jsp**
-1. Select **Delete**
-1. Select **Save All**
+1. Expand the node just created: `/apps/custom/components/comments/comment`
+1. Select **[!UICONTROL Save All]**
+1. Right-click `comment.jsp`
+1. Select **[!UICONTROL Delete]**
+1. Select **[!UICONTROL Save All]**
 
 ![chlimage_1-71](assets/chlimage_1-71.png) ![chlimage_1-72](assets/chlimage_1-72.png) 
 
 ### Copy and Modify the Default HBS Scripts {#copy-and-modify-the-default-hbs-scripts}
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
+Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
-* copy **comments.hbs**
+* Copy `comments.hbs`
 
-    * from [/libs/social/commons/components/hbs/comments](http://localhost:4502/crx/de/index.jsp#/libs/social/commons/components/hbs/comments)
-    * to [/apps/custom/components/comments](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments)
+    * From [/libs/social/commons/components/hbs/comments](http://localhost:4502/crx/de/index.jsp#/libs/social/commons/components/hbs/comments)
+    * To [/apps/custom/components/comments](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments)
 
-* edit **comments.hbs** to:
+* Edit `comments.hbs` to:
 
-    * change the value of the `data-scf-component` attribute (~line 20):
+    * Change the value of the `data-scf-component` attribute (~line 20):
 
-        * from `social/commons/components/hbs/comments`
-        * to `/apps/custom/components/comments`
+        * From `social/commons/components/hbs/comments`
+        * To `/apps/custom/components/comments`
 
-    * modify to include the custom comment component (~line 75):
+    * Modify to include the custom comment component (~line 75):
 
-        * replace ` `{{include this resourceType='social/commons/components/hbs/comments/comment'}}``
-        * with ` `{{include this resourceType='/apps/custom/components/comments/comment'}}``
+        * Replace `{{include this resourceType='social/commons/components/hbs/comments/comment'}}`
+        * With `{{include this resourceType='/apps/custom/components/comments/comment'}}`
 
-* copy **comment.hbs**
+* Copy `comment.hbs`
 
-    * from [/libs/social/commons/components/hbs/comments/comment](http://localhost:4502/crx/de/index.jsp#/libs/social/commons/components/hbs/comments/comment)
-    * to [/apps/custom/components/comments/comment](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comment)
+    * From [/libs/social/commons/components/hbs/comments/comment](http://localhost:4502/crx/de/index.jsp#/libs/social/commons/components/hbs/comments/comment)
+    * To [/apps/custom/components/comments/comment](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comment)
 
-* edit **comment.hbs** to:
+* Edit `comment.hbs` to:
 
-    * change the value of the data-scf-component attribute (~ line 19)
+    * Change the value of the data-scf-component attribute (~ line 19)
 
-        * from `social/commons/components/hbs/comments/comment`
-        * to /apps/ `custom/components/comments/comment`
+        * From `social/commons/components/hbs/comments/comment`
+        * To `/apps/custom/components/comments/comment`
 
-* select `/apps/custom` node
-* select **Save All**
+* Select `/apps/custom` node
+* Select **[!UICONTROL Save All]**
 
 ## Create a Client Library Folder {#create-a-client-library-folder}
 
 To avoid having to explicitly include this client library, the categories value for the default comment system's clientlib could be used ( `cq.social.author.hbs.comments`), but then this clientlib would be included for all instances of the default component as well.
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
+Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
-* select `/apps/custom/components/comments` node
-* select **Create Node**
+* Select `/apps/custom/components/comments` node
+* Select **[!UICONTROL Create Node]**
 
     * **Name**: `clientlibs`
     * **Type**: `cq:ClientLibraryFolder`
-    * add to **Properties** tab:
+    * Add to **[!UICONTROL Properties]** tab:
 
         * **Name** `categories` **Type** `String` **Value** `cq.social.author.hbs.comments` `Multi`
         * **Name** `dependencies` **Type** `String` **Value** `cq.social.scf` `Multi`
 
-* select **Save All**
-* with `/apps/custom/components/comments/clientlib`s node selected, create 3 files:
+* Select **[!UICONTROL Save All]**
+* With `/apps/custom/components/comments/clientlib`s node selected, create 3 files:
 
     * **Name**: `css.txt`
     * **Name**: `js.txt`
     * **Name**: customcommentsystem.js
 
-* enter 'customcommentsystem.js' as the content of `js.txt`
-* select **Save All**
+* Enter 'customcommentsystem.js' as the content of `js.txt`
+* Select **[!UICONTROL Save All]**
 
 ![chlimage_1-73](assets/chlimage_1-73.png) 
 
@@ -185,7 +185,7 @@ Enter the following text as the content of `customcommentsystem.js`:
 })($CQ, _, Backbone, SCF);
 ```
 
-* select **Save All**
+* Select **[!UICONTROL Save All]**
 
 ## Publish the App {#publish-the-app}
 
@@ -193,11 +193,11 @@ In order to experience the extended component in the publish environment, it is 
 
 One way to do so is
 
-* from global navigation
+* From global navigation
 
-    * select **Tools &gt; Deployment &gt; Replication**
-    * select `Activate Tree`
-    * set `Start Path`: to `/apps/custom`
-    * uncheck `Only Modified`
-    * select `Activate`button
+    * Select **[!UICONTROL Tools > Deployment > Replication]**
+    * Select `Activate Tree`
+    * Set `Start Path`: to `/apps/custom`
+    * Uncheck `Only Modified`
+    * Select `Activate`button
 

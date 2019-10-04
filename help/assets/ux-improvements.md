@@ -8,9 +8,7 @@ contentOwner: asgupta
 discoiquuid: 6ea2c91f-565d-47d9-a36d-f59fa82283fa
 ---
 
-# User experience enhancements in Assets{#user-experience-enhancements-in-assets}
-
-This article describes the user experience improvements in AEM 6.4 Assets.
+# User experience enhancements in Assets {#user-experience-enhancements-in-assets}
 
 AEM 6.4 Assets includes several usability improvements that provide a seamless user experience and improves productivity. The increase in the speed with which you can create/manage your go-to-market content improves the content velocity of the business.
 
@@ -30,11 +28,11 @@ Depending upon the device you use and the amount of detail you require, you can 
 
 To resize thumbnails in the Card view, perform these steps:
 
-1. Tap/click the Layout icon from the toolbar, and then choose the **View Settings** option.
+1. Tap/click the Layout icon from the toolbar, and then choose the **[!UICONTROL View Settings]** option.
 
    ![view_settings](assets/view_settings.png)
 
-1. From the **View Settings** dialog, select the desired thumbnail size, and then tap/click **Update**.
+1. From the **[!UICONTROL View Settings]** dialog, select the desired thumbnail size, and then tap/click **[!UICONTROL Update]**.
 
    ![view_settings_dialog](assets/view_settings_dialog.png)
 
@@ -52,13 +50,13 @@ In the List view, the first column now displays the filenames of assets by defau
 
 ![list_view](assets/list_view.png)
 
-You can choose to configure the amount of detail you want to display. Tap/click the Layout icon, choose the **View Settings** option, and specify the columns you want displayed in the **View Settings** dialog.
+You can choose to configure the amount of detail you want to display. Tap/click the Layout icon, choose the **[!UICONTROL View Settings]** option, and specify the columns you want displayed in the **[!UICONTROL View Settings]** dialog.
 
 ![view_settings_dialoglistview](assets/view_settings_dialoglistview.png)
 
 ## Column view improvements {#column-view-improvements}
 
-In addition to Card and List views, you can now navigate to the details page of an asset from the Column view. Select an asset from the Column view, and then tap/click **More Details** under the asset snapshot.
+In addition to Card and List views, you can now navigate to the details page of an asset from the Column view. Select an asset from the Column view, and then tap/click **[!UICONTROL More Details]** under the asset snapshot.
 
 ![more_details](assets/more_details.png)
 
@@ -91,4 +89,3 @@ Depending upon the chose layout, you can open the details page for an asset in t
 Use the Previous/Next buttons to move back and forth between the assets.
 
 ![prev_next_buttons](assets/prev_next_buttons.png)
-

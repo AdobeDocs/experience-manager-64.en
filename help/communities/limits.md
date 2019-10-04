@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: d855aac2-f34d-402f-9dc3-c7ad494b45f2
 ---
 
-# Member Contribution Limits{#member-contribution-limits}
+# Member Contribution Limits {#member-contribution-limits}
 
 ## Overview {#overview}
 
@@ -19,7 +19,7 @@ The contribution limits feature provides the ability to limit the contributions 
 
 When a member is limited, any post that exceeds the allowed number of contributions will result in an alert that the limit was exceeded and the post is rejected. The community member may then go to the community message center and contact a community manager who can remove the limits if appropriate.
 
-Contribution limits may be enabled individually from the [Members console](/help/communities/members.md) and/or configured to be automatically enabled when site visitors become new members.
+Contribution limits may be enabled individually from the [Members console](members.md) and/or configured to be automatically enabled when site visitors become new members.
 
 Using the Members console, contribution limits can be proactively removed for a member by a community manager at any time, or reactively removed when a member sends a message to a community manager making such a request.
 
@@ -27,42 +27,42 @@ Using the Members console, contribution limits can be proactively removed for a 
 
 This OSGi configuration
 
-* defines the characteristics of the contribution limits (number of posts within a time period)
-* identifies who the member will be able to message when the limit has been reached
-* identifies domains that need never be constrained
+* Defines the characteristics of the contribution limits (number of posts within a time period)
+* Identifies who the member will be able to message when the limit has been reached
+* Identifies domains that need never be constrained
 
 To reach this OSGi configuration:
 
-* on the primary publisher
-* sign in with administrator privileges
-* access the [Web Console](/help/sites-deploying/configuring-osgi.md)
+* On the primary publisher
+* Sign in with administrator privileges
+* Access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
+    * For example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
-* locate `AEM Communities User Generated Content Contribution Limits Configuration`
-* select the edit icon
+* Locate `AEM Communities User Generated Content Contribution Limits Configuration`
+* Select the edit icon
 
 ![chlimage_1-127](assets/chlimage_1-127.png)
 
-* **Automatically Apply UGC Contribution Limits** 
+* **[!UICONTROL Automatically Apply UGC Contribution Limits]** 
 
-  If checked, automatically set contribution limits on users when they register as community members. This is reflected in the community member's profile and may be enabled/disabled from the [members console](/help/communities/members.md). New members with an email address from a white listed domain are never constrained. 
+  If checked, automatically set contribution limits on users when they register as community members. This is reflected in the community member's profile and may be enabled/disabled from the [members console](members.md). New members with an email address from a white listed domain are never constrained. 
 
   Default is unchecked.
 
-* **UGC Limit** 
+* **[!UICONTROL UGC Limit]** 
 
   Maximum number of contributions.
 
   Default is 10 posts.
 
-* **UGC Limit Frequency** 
+* **[!UICONTROL UGC Limit Frequency]** 
 
   The time period constraining the UGC limit.  
 
   Default is 60 minutes.
 
-* **Domains** 
+* **[!UICONTROL Domains]** 
 
   A white list of one or more email domains. Select the + icon to make addtional entries. 
 
@@ -70,7 +70,7 @@ To reach this OSGi configuration:
 
   Default is an empty white list.
 
-* **Messaging Recipients** 
+* **[!UICONTROL Messaging Recipients]** 
 
   List of one or more authorizable IDs of members able to modify the contribution limits for members. Select the + icon to make addtional entries.  
 

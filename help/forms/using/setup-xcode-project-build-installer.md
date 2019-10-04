@@ -10,7 +10,7 @@ topic-tags: forms-app
 discoiquuid: 2dec23f7-6cca-4cc9-a78a-acd23ae7da5f
 ---
 
-# Set up the Xcode project and build the iOS app{#set-up-the-xcode-project-and-build-the-ios-app}
+# Set up the Xcode project and build the iOS app {#set-up-the-xcode-project-and-build-the-ios-app}
 
 AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build custom AEM Forms app. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip` is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on package share.
 
@@ -70,7 +70,7 @@ For detailed information about Code Signing and adding devices to the iOS Provis
 1. Extract the archive in the `[*User_Home*]/Projects/[your-project]`directory.
 1. Navigate to the ` [*User_Home*]/Projects/ `[your-project]`/adobe-lc-mobileworkspace-src-[version]/ios` directory.
 1. Open the `AEM Forms.xcodeproj` project in Xcode.
-1. Click **AEM Forms**, under **TARGETS**, select **AEM Forms**. Select the **Build Settings **tab, locate the **Code Signing Entitlement** section, and in Debug and Release fields do one of the following:
+1. Click **AEM Forms**, under **TARGETS**, select **AEM Forms**. Select the **Build Settings** tab, locate the **Code Signing Entitlement** section, and in Debug and Release fields do one of the following:
 
     * Leave the fields unspecified to build a standard Mobile Workspace app
     * Specify the fields to as explained in [Building a Secure AEM Forms app for iOS](/help/forms/using/building-secure-mobile-workspace-app.md) to build a secure AEM Forms app.
@@ -119,7 +119,7 @@ For detailed information about Code Signing and adding devices to the iOS Provis
    >
    >This step is required only if AEM Forms app needs to connect to a server that does not follow App Transport Security requirements.
 
-1. Under **PROJECT**, select **AEM Forms **and ensure that the appropriate signature is selected for **Code Signing Identity**, **Debug**, **Release** and **Any iOS SDK**.
+1. Under **PROJECT**, select **AEM Forms** and ensure that the appropriate signature is selected for **Code Signing Identity**, **Debug**, **Release** and **Any iOS SDK**.
 1. Connect a provisioned iPad to a Mac machine. 
 1. Select the provisioned device for the **AEM Forms **project.
 
@@ -158,4 +158,4 @@ You need to archive the Xcode project to build the installer (an .ipa file) and 
 1. Replace all the spaces in the URL of your .ipa file with %20.
 1. Save and close the `AEM Forms-info.plist` file.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

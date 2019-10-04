@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: eb8fd2b3-0a31-425e-b0f1-38f09e1106df
 ---
 
-# Messaging Essentials{#messaging-essentials}
+# Messaging Essentials {#messaging-essentials}
 
 This page documents the details of working with using the Messaging component to include a messaging feature on a website.
 
@@ -26,7 +26,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/composemessage</p> </td> 
   </tr> 
   <tr> 
-   <td> <a href="/help/communities/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -39,11 +39,11 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td>see <a href="/help/communities/configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>see <a href="configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td><strong>admin configuration</strong></td> 
-   <td><a href="/help/communities/messaging.md">Configuring Messaging</a></td> 
+   <td><a href="messaging.md">Configuring Messaging</a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/messagebox</p> </td> 
   </tr> 
   <tr> 
-   <td> <a href="/help/communities/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -70,20 +70,20 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td>see <a href="/help/communities/configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>See <a href="configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td><strong>admin configuration</strong></td> 
-   <td><a href="/help/communities/messaging.md">Configuring Messaging</a></td> 
+   <td><a href="messaging.md">Configuring Messaging</a></td> 
   </tr> 
  </tbody> 
 </table>
 
-See also [Client-side Customizations](/help/communities/client-customize.md)
+See also [Client-side Customizations](client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Configuring Messaging](/help/communities/configure-messaging.md)
+* [Configuring Messaging](configure-messaging.md)
 
 * [Messaging client APIs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/api/package-summary.html) for SCF components
 
@@ -91,7 +91,7 @@ See also [Client-side Customizations](/help/communities/client-customize.md)
 
 * [Messaging Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](/help/communities/server-customize.md)
+* [Server-side Customizations](server-customize.md)
 
 >[!CAUTION]
 >
@@ -109,7 +109,7 @@ See also [Client-side Customizations](/help/communities/client-customize.md)
 
 ### Community Site {#community-site}
 
-A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](/help/communities/sites-console.md#user-management).
+A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](sites-console.md#user-management).
 
 ### Sample Code: Message Received Notification {#sample-code-message-received-notification}
 
@@ -119,26 +119,26 @@ The following example is of an event handler which listens for the `message sent
 
 To try the server-side sample script, you will need a development environment and the ability to build an OSGi bundle.
 
-1. login as an administrator to ` [CRXDE|Lite](http://localhost:4502/crx/de)`
-1. create a `bundle node`in `/apps/engage/install` with arbitrary names, such as
+1. Login as an administrator to ` [CRXDE|Lite](http://localhost:4502/crx/de)`
+1. Create a `bundle node`in `/apps/engage/install` with arbitrary names, such as
 
-    * Symbolic Name: com.engage.media.social.messaging.MessagingNotification
-    * Name: Getting Started Tutorial Message Notificaton 
-    * Description: a sample service for sending an email notification to users when they receive a message
-    * Package: com.engage.media.social.messaging.notification
+    * **[!UICONTROL Symbolic Name]**: com.engage.media.social.messaging.MessagingNotification
+    * **[!UICONTROL Name]**: Getting Started Tutorial Message Notificaton 
+    * **[!UICONTROL Description]**: a sample service for sending an email notification to users when they receive a message
+    * **[!UICONTROL Package]**: `com.engage.media.social.messaging.notification`
 
-1. navigate to /apps/engage/install/com.engage.media.social.messaging.MessagingNotification/src/main/java/com/engage/media/social/messaging/notification
+1. Navigate to `/apps/engage/install/com.engage.media.social.messaging.MessagingNotification/src/main/java/com/engage/media/social/messaging/notification`
 
-    1. delete the Activator.java class automatically created
-    1. create class MessageEventHandler.java
-    1. copy/paste the code below into MessageEventHandler.java
+    1. Delete the `Activator.java` class automatically created
+    1. Create class `MessageEventHandler.java`
+    1. Copy/paste the code below into `MessageEventHandler.java`
 
-1. click **Save All**
-1. navigate to /apps/engage/install/com.engage.media.social.messaging.MessagingNotification/com.engage.media.social.messaging.MessagingNotification.bnd and add all the import statements as written in the MessageEventHandler.java code.
-1. build the bundle
-1. ensure `Day CQ Mail Service`OSGi service is configured
-1. login as one demo user and send email to another
-1. the recipient should receive an email regarding a new message
+1. Click **[!UICONTROL Save All]**
+1. Navigate to `/apps/engage/install/com.engage.media.social.messaging.MessagingNotification/com.engage.media.social.messaging.MessagingNotification.bnd` and add all the import statements as written in the `MessageEventHandler.java` code.
+1. Build the bundle
+1. Ensure `Day CQ Mail Service`OSGi service is configured
+1. Login as one demo user and send email to another
+1. The recipient should receive an email regarding a new message
 
 #### MessageEventHandler.java {#messageeventhandler-java}
 

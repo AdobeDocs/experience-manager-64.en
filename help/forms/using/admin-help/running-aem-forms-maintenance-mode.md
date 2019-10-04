@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 94047c12-ba3d-457a-954f-e035c7cc3ecd
 ---
 
-# Running AEM forms in maintenance mode{#running-aem-forms-in-maintenance-mode}
+# Running AEM forms in maintenance mode {#running-aem-forms-in-maintenance-mode}
 
 Maintenance mode is useful when performing tasks such as patching a DSC, upgrading AEM forms, or applying a service pack.
 

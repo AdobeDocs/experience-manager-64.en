@@ -1,8 +1,8 @@
 ---
-title: Applying Image Presets
-seo-title: Applying Image Presets
-description: Learn how to apply image presets in dynamic media
-seo-description: Learn how to apply image presets in dynamic media
+title: Applying Dynamic Media image presets
+seo-title: Applying Dynamic Media image presets
+description: Learn how to apply image presets in Dynamic Media
+seo-description: Learn how to apply image presets in Dynamic Media
 uuid: 8bafcbd0-6df0-4d5b-b2f7-116ddb4ec060
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5c1f60ac-3741-4002-9c5d-c128f118342b
 ---
 
-# Applying Image Presets{#applying-image-presets}
+# Applying Dynamic Media image presets {#applying-image-presets}
 
 Image Presets enable assets to dynamically deliver images at different sizes, in different formats, or with other image properties there are generated dynamically. You can choose a preset when you export images, which also reformats images to the specifications that your administrator has specified.
 
@@ -25,7 +25,7 @@ This section describes how to use image presets. [Administrators can create and 
 
 You can apply an image preset to an image anytime you preview it.
 
-**To apply an image presets**:
+**To apply Dynamic Media image presets**:
 
 1. Open the asset and in the left rail, tap the drop-down menu, then tap **[!UICONTROL Renditions]**.
 

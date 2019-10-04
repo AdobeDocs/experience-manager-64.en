@@ -81,8 +81,8 @@ To configure an AEM external account:
 
    ![chlimage_1-124](assets/chlimage_1-124.png)
 
-1. Select the default **aemInstance** external account or create a new one by clicking the **Create **button.
-1. Select **Adobe Experience Manager **in the **Type **field and enter the access parameters used for your AEM authoring instance: server address, account name and password.
+1. Select the default **aemInstance** external account or create a new one by clicking the **Create** button.
+1. Select **Adobe Experience Manager**i n the **Type** field and enter the access parameters used for your AEM authoring instance: server address, account name and password.
 
    >[!NOTE]
    >
@@ -92,11 +92,11 @@ To configure an AEM external account:
 
 ### Verifying the AEMResourceTypeFilter option {#verifying-the-aemresourcetypefilter-option}
 
-The **AEMResourceTypeFilter **option is used to filter types of AEM resources that can be used in Adobe Campaign. This allows Adobe Campaign to retrieve AEM contents that are specifically designed to be used in Adobe Campaign only.
+The **AEMResourceTypeFilter** option is used to filter types of AEM resources that can be used in Adobe Campaign. This allows Adobe Campaign to retrieve AEM contents that are specifically designed to be used in Adobe Campaign only.
 
 This option comes pre-configured; however, if you change this option, it may lead to a non-functioning integration.
 
-To verify the **AEMResourceTypeFilter **option is configured:
+To verify the **AEMResourceTypeFilter** option is configured:
 
 1. Go to **Administration** &gt; **Application settings** &gt; **Options**.
 1. In the list, you can ensure that the **AEMResourceTypeFilter** option is listed and that the paths are correct.
@@ -115,7 +115,7 @@ To create an AEM-specific email delivery template:
 
 1. In the properties **Content** section, change the **Content source** to **Adobe Experience Manager**. Then select the external account that was previously created and click **Confirm**.
 
-   Save your modifications by clicking **Confirm **and clicking **Save.**
+   Save your modifications by clicking **Confirm** and clicking **Save.**
 
    Email deliveries created from this template will have the AEM content feature enabled.
 
@@ -194,7 +194,7 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 
 You need to [configure the externalizer](/help/sites-developing/externalizer.md) in AEM on your author instance. The Externalizer is an OSGi service that lets you transform a resource path into an external and absolute URL. This service provides a central place to configure those external URLs and build them.
 
-See [Configure the externalizer](/help/sites-developing/externalizer.md) for general instructions. For the Adobe Campaign integration, make sure you configure the publish server at `https://*<host>:<port>*/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl` not point to `localhost:4503` but to a server that is reachable by the Adobe Campaign console.
+See [Configure the externalizer](/help/sites-developing/externalizer.md) for general instructions. For the Adobe Campaign integration, make sure you configure the publish server at `https://<host>:<port>/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl` not point to `localhost:4503` but to a server that is reachable by the Adobe Campaign console.
 
 If it points to `localhost:4503` or another server that Adobe Campaign cannot reach, your images will not appear on the Adobe Campaign console.
 

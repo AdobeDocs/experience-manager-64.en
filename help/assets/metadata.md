@@ -4,14 +4,12 @@ seo-title: Managing Metadata for Digital Assets
 description: Learn about the types of metadata an how AEM Assets helps manage metadata for assets to allow easier categorization and organization of assets. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata.
 seo-description: Learn about the types of metadata an how AEM Assets helps manage metadata for assets to allow easier categorization and organization of assets. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata.
 uuid: 29215e51-b315-440a-9480-5b5a0ee76547
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 7acc1cab-d167-4299-bd13-8eb800a1112e
 ---
 
-# Managing Metadata for Digital Assets{#managing-metadata-for-digital-assets}
+# Managing Metadata for Digital Assets {#managing-metadata-for-digital-assets}
 
 Adobe Experience Manager (AEM) Assets keeps metadata for every asset. This allows for a easier categorization and organization of assets and it helps people who are looking for a specific asset. With the ability to extract metadata from files uploaded to AEM Assets, metadata management integrates with the creative workflow. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata. Finally AEM Assets end-user interface, the [DAM Finder](/help/sites-classic-ui-authoring/manage-assets-classic-using-share-page.md) can be [customized by site owners and developers](extending-assets.md)to reflect the metadata you are using in your organization.
 
@@ -155,7 +153,7 @@ The metadata schemata supported are listed in the following section.
 >
 >If you find that you have a lot of application-specific metadata in your assets, you can create a workflow step that changes the application-specific property to a standard one.
 
-* acdsee - metadata managed by the ACDSee program [https://www.acdsee.com/](https://www.acdsee.com/)
+* acdsee - metadata managed by the ACDSee program [www.acdsee.com/](https://www.acdsee.com/)
 * album - Adobe Photoshop Album
 * cq - used by AEM Assets
 * dam - used by AEM Assets
@@ -172,7 +170,7 @@ The metadata schemata supported are listed in the following section.
 * cc - creative commons
 * xmpRights
 * plus - Picture Licensing Universal System - https://www.useplus.com/
-* prism - https://www.idealliance.org/prism-metadata Publishing Requirements for Industry Standard Metadata 
+* prism - https://www.idealliance.org/prism-metadata Publishing Requirements for Industry Standard Metadata
 * prl - Prism Rights Language
 * pur - Prism Usage Rights
 * xmpPlus - integration of PLUS with XMP
@@ -181,13 +179,13 @@ The metadata schemata supported are listed in the following section.
 
 * exif - lots of technical information from camera, including GPS position
 * crs - photoshop camera raw
-* Iptc4xmpCore & iptc4xmpExt
+* Iptc4xmpCore and iptc4xmpExt
 * TIFF - image metadata (not only for TIFF images)
 
 ### Print-Specific Metadata {#print-specific-metadata}
 
-* pdf & pdfx - Adobe PDF and third-party applications
-* prism - https://www.prismstandard.org Publishing Requirements for Industry Standard Metadata
+* pdf and pdfx - Adobe PDF and third-party applications
+* prism - [www.prismstandard.org](https://www.prismstandard.org) Publishing Requirements for Industry Standard Metadata
 * xmp
 * xmpPG - xmp for paged text
 

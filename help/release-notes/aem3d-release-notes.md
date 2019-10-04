@@ -26,7 +26,7 @@ See [Integrating with Autodesk Maya](/help/assets/integrate-maya-with-3d.md).
 
 See also [Installing and configuring AEM 3D Assets](/help/assets/install-config-3d.md) and [Advanced configuration settings](/help/assets/advanced-config-3d.md).
 
-See also [Working with 3D assets](/help/assets/3d-assets.md).
+See also [Working with 3D assets](/help/assets/assets-3d.md).
 
 ## System requirements {#system-requirements}
 
@@ -58,7 +58,7 @@ Other browsers may not support interactive viewing of 3D content in AEM. Only Go
 
   On upload, 3D assets are converted to a proprietary format for fast, interactive viewing. Depending on the type of 3D asset, storage space of 2-3x the size of the uploaded 3D asset is required.
 
-See also [Working with 3D assets](/help/assets/3d-assets.md).
+See also [Working with 3D assets](/help/assets/assets-3d.md).
 
 ## Installing and configuring AEM 3D {#installing-and-configuring-aem-d}
 

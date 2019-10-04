@@ -1,25 +1,40 @@
 ---
-title: Managing assets with the Touch-optimized UI
-seo-title: Managing Assets with the Touch-optimized UI
+title: Manage assets in AEM Assets
+seo-title: Manage assets in AEM Assets
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 seo-description: Learn how to upload, manage, and edit assets using the touch-optimized user interface
 uuid: f148c913-7b44-4285-8db9-138f959c4899
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
 discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
 ---
 
-# Managing Assets with the Touch-Optimized UI{#managing-assets-with-the-touch-optimized-ui}
+# Managing Assets with the Touch-Optimized UI {#managing-assets-with-the-touch-optimized-ui}
 
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 
-This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface (UI). For elementary knowledge about the UI, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md).
+This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface. For an elementary knowledge about the user interface, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md).
 
 >[!CAUTION]
 >
 >See also [Managing Content Fragments](content-fragments-managing.md) assets.
+
+## Creating folders {#create-folders}
+
+When organizing a collection of assets, for example, all `Nature` images, you can create folders to keep them together. You can use folders to categorize and organize your assets. AEM Assets does not require you to organize assets in folders to work better.
+
+>[!NOTE]
+>
+>Sharing an Assets folder of the type `sling:OrderedFolder`, is not supported when sharing to Marketing Cloud.. If you want to share a folder, do not select Ordered when creating a folder.
+
+1. Navigate to the place in your digital assets folder where you want to create a new folder.
+1. In the menu, click **[!UICONTROL Create]**. Select **[!UICONTROL New Folder]**.
+1. In the **[!UICONTROL Title]** field, provide a folder name. By default, DAM uses the title that you provided as the folder name. Once the folder is created, you can override the default and specify another folder name.
+1. Click **[!UICONTROL Create]**. Your folder is displayed in the digital assets folder.
+
+The following (space-separated list of) characters are not supported:
+* asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
+* asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 
 ## Uploading assets {#uploading-assets}
 
@@ -33,19 +48,19 @@ You can choose to upload assets to folders with or without a processing profile 
 
 For folders that have a processing profile assigned, the profile name appears on the thumbnail in the card view. In the list view, the profile name appears in the **Processing Profile** column. See [Processing Profiles](processing-profiles.md).
 
-Before uploading an asset, ensure that it is in a [format](assets-formats.md) that AEM Assets supports.
+Before uploading an asset, ensure that it is in a [supported format](assets-formats.md).
 
 **To upload assets**:
 
-1. In the Assets UI, navigate to the location where you want to add digital assets.
+1. In the Assets web interface, navigate to the location where you want to add digital assets.
 1. To upload the assets, do one of the following:
 
     * On the toolbar, tap the **[!UICONTROL Create]** icon. Then, on the menu, then tap **[!UICONTROL Files]**. You can rename the file in the presented dialog if needed.
-    * In a browser that supports HTML5, drag the assets directly on the Assets UI. The dialog to rename file is not displayed.
+    * In a browser that supports HTML5, drag the assets directly on the interface. The dialog to rename file is not displayed.
 
    ![create_menu](assets/create_menu.png)
 
-   To select multiple files, press the Ctrl/Command key and select the assets in the file picker dialog. If using an iPad, you can only select one file at a time.
+   To select multiple files, press the Ctrl/Command key and select the assets in the file picker dialog. From an iPad, you can only select one file at a time.
 
    You can pause the uploading of large assets (greater than 500 MB) and resume it later from the same page. Tap the **[!UICONTROL Pause]** icon beside progress bar that appears when the uploading starts.
 
@@ -57,21 +72,21 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    To modify the size limit, configure the `chunkUploadMinFileSize` property of the `fileupload`node in the CRX repository.
 
-   When you click the **[!UICONTROL Pause]** icon, it toggles to a **[!UICONTROL Play]** icon. To resume uploading, click the **[!UICONTROL Play]** icon. 
+   When you click the **[!UICONTROL Pause]** icon, it toggles to a **[!UICONTROL Play]** icon. To resume uploading, click the **[!UICONTROL Play]** icon.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-   To cancel an ongoing upload, click the **[!UICONTROL X]** button beside the progress bar. When you cancel the upload operation, AEM Assets deletes the partially uploaded portion of the asset.
+   To cancel an ongoing upload, click the `X` button beside the progress bar. When you cancel the upload operation, AEM Assets deletes the partially uploaded portion of the asset.
 
    The ability to resume uploading is especially helpful in low-bandwidth scenarios and network glitches, where it takes a long time to upload a large asset. You can pause the upload operation and continue later when the situation improves. When you resume, uploading starts from the point where you paused it.
 
    During the upload operation, AEM saves the portions of the asset being uploaded as chunks of data in the CRX repository. When the upload completes, AEM consolidates these chunks into a single block of data in the repository.
 
-   To configure the cleanup task for the unfinished chunk upload jobs, go to `https://[*server*]:[*port*]/system/console/configMgr/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask`.
+   To configure the cleanup task for the unfinished chunk upload jobs, go to `https://[aem_server]:[port]/system/console/configMgr/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask`.
 
    If you upload an asset with the same name as that of an asset already available at the location where you are uploading the asset, a warning dialog is displayed.
 
-   You can choose to replace an existing asset, create another version, or keep both by renaming the new asset that is uploaded. If you replace an existing asset, the metadata for the asset and any prior modifications (for example annotations, croppings, and so on) you made to the existing asset are deleted. If you choose to keep both assets, the new asset is renamed with the number 1 appended to its name.
+   You can choose to replace an existing asset, create another version, or keep both by renaming the new asset that is uploaded. If you replace an existing asset, the metadata for the asset and any prior modifications and history (for example annotations, croppings, and so on) are deleted. If you choose to keep both assets, the new asset is renamed.
 
    ![chlimage_1-7](assets/chlimage_1-7.png)
 
@@ -79,9 +94,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
    >
    >When you select **[!UICONTROL Replace]** in the **[!UICONTROL Name Conflict]** dialog box, the asset ID is regenerated for the new asset. This ID is different from the ID of the previous asset.
    >
-   >If **[!UICONTROL Asset Insights]** is enabled to track impressions/clicks with Adobe Analytics, this regenerated asset ID invalidates the data-captured for the asset on Analytics.
-   >
-   >A similar situation may occur if content packages of Assets created with AEM 6.1 (or earlier versions) are installed on an AEM 6.2 instance.
+   >If **[!UICONTROL Asset Insights]** is enabled to track impressions/clicks with Adobe Analytics, this regenerated asset ID invalidates the data-captured for the asset on Adobe Analytics.
 
    If the asset you upload exists in AEM Assets, the **[!UICONTROL Duplicates Detected]** dialog box warns that you are attempting to upload a duplicate asset. The dialog appears only if the SHA 1 checksum value of the binary of the existing asset matches the checksum value of the asset you upload. In this case, the names of assets are immaterial. In other words, the dialog can even appear for assets that have different names if the SHA 1 values for their binaries are the same.
 
@@ -99,19 +112,29 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 
    ![chlimage_1-9](assets/chlimage_1-9.png)
 
-   In addition, the Assets UI displays the most recent asset that you upload or the folder you create first in all the views (**[!UICONTROL Card]**, **[!UICONTROL List]**, and **[!UICONTROL Column]** views).
+   However, the following (space-separated list of) characters are not supported:
+   * asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
+   * asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 
-   Often, while uploading large assets or multiple assets simultaneously, visual indicators in the UI enable you to assess the progress and performance of the upload operation.
+   In addition, the Assets interface displays the most recent asset that you upload or the folder you create first in all the views (**[!UICONTROL Card view]**, **[!UICONTROL List view]**, and **[!UICONTROL Column view]**).
 
-   The **[!UICONTROL Upload Progress]** dialog box in AEM Assets displays the count of successfully uploaded files and the files that failed to upload.
+   Often, while uploading large assets or multiple assets simultaneously, visual indicators enable you to assess the progress. The **[!UICONTROL Upload Progress]** dialog box displays the count of successfully uploaded files and the files that failed to upload.
 
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    If you cancel the upload operation before the files are uploaded, AEM Assets stops uploading the current file and refreshes the content. However, files that are already uploaded are not deleted.
 
+### Serial uploads {#serial-uploads}
+
+Uploading numerous assets in bulk consumes significant system resources, which can adversely impact the performance of your AEM deployment. Potential bottlenecks can be your Internet connection, read-write operations on disk, web browser limitations on the number of POST requests on concurrent asset upload. Bulk upload operation can fails or terminate prematurely. In other words, AEM assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
+
+To overcome this situation, AEM Assets ingests one asset at a time (serial upload) during a bulk upload operation, instead of the concurrently ingesting all the assets.
+
+Serial uploading of assets is enabled by default. To disable the feature and allow concurrent uploading, overlay the `fileupload` node in CRXDe and set the value of the `parallelUploads` property to `true`.
+
 ### Uploading assets using FTP {#uploading-assets-using-ftp}
 
-Dynamic Media enables batch uploading of assets by way of FTP server. If you intend to upload large assets ( &gt; 1 GB) or upload entire folders and subfolders, you should use FTP. You can even set up FTP upload to occur on a recurring scheduled basis.
+Dynamic Media enables batch uploading of assets by way of FTP server. If you intend to upload large assets (&gt;1 GB) or upload entire folders and subfolders, you should use FTP. You can even set up FTP upload to occur on a recurring scheduled basis.
 
 >[!NOTE]
 >
@@ -119,12 +142,12 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 
 >[!NOTE]
 >
->To upload assets by way of FTP in Dynamic Media - Scene7 mode, you must install feature pack 18912 on your AEM author instances. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
+>To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
 If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**
 
-1. Using your choice of FTP client, log in to the FTP server using the FTP user name and password that you received from the provisioning email. In the FTP client, upload files or folders to the FTP server. 
+1. Using your choice of FTP client, log in to the FTP server using the FTP user name and password that you received from the provisioning email. In the FTP client, upload files or folders to the FTP server.
 1. [Log in to Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials received from the provisioning email. On the Global Navigation Bar, tap **[!UICONTROL Upload]**.  
 
 1. On the **[!UICONTROL Upload]** page, near the upper-left corner, tap the **[!UICONTROL Via FTP]** tab.
@@ -137,7 +160,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
    >
    >When you upload assets by way of FTP, the upload job options you set in Dynamic Media Classic (Scene7) take precedent over asset processing parameters set in AEM.
 
-1. In the lower-right corner of the **[!UICONTROL Upload Job Options]** dialog box, tap **[!UICONTROL Save]** 
+1. In the lower-right corner of the **[!UICONTROL Upload Job Options]** dialog box, tap **[!UICONTROL Save]**.
 1. In the lower-right corner of the **[!UICONTROL Upload]** page, tap **[!UICONTROL Submit Upload]**.
 
    To view the progress of the upload, on the Global Navigation Bar, tap **[!UICONTROL Jobs]**. The **[!UICONTROL Jobs]** page displays the progress of the upload. You can continue working in AEM and return to the Jobs page in Dynamic Media Classic at any time to review an in-progress job.  
@@ -145,6 +168,9 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
    To cancel an upload job in progress, tap **[!UICONTROL Cancel]** next to the **[!UICONTROL Duration]** time.
 
 #### Upload Job Options {#upload-job-options}
+
+<!-- TBD: After converting this HTML table to MD table, add UICONTROL.
+-->
 
 <table> 
  <tbody> 
@@ -176,7 +202,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
   <tr> 
    <td>Job Options<br /> </td> 
    <td> </td> 
-   <td><p>Tap Job Options to open the Upload Job Options dialog box and choose options that affect the entire upload job. These options are the same for all file types.</p> <p>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose **Setup** &gt; **Application Setup**. Tap the **Default Upload Options** button to open the Upload Job Options dialog box. </p> </td> 
+   <td><p>Tap Job Options to open the Upload Job Options dialog box and choose options that affect the entire upload job. These options are the same for all file types.</p> <p>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose Setup &gt; Application Setup. Tap the Default Upload Options button to open the Upload Job Options dialog box. </p> </td>
   </tr> 
   <tr> 
    <td> </td> 
@@ -571,6 +597,24 @@ If you upload numerous assets, I/O calls to the AEM server increases drastically
 
 Streaming upload is disabled for AEM running on JEE server with servlet-api version less than 3.1.
 
+### Extract ZIP archive containing assets {#extract-zip-archive-containing-assets}
+
+You can upload ZIP archives just like any other supported asset. The same file name rules apply to ZIP files. AEM allows you to extract a ZIP archive to a DAM location.
+
+Select one ZIP archive at a time, click **[!UICONTROL Extract Archive]**, and select a destination folder. Select an option to handle conflicts, if any. If the assets in the ZIP file already exist in the destination folder, you can select one of these options: skip extraction, replace existing files, keep both assets by renaming, or create new version.
+
+After the extraction is complete, AEM notifies you in the notification area. While AEM extracts the ZIP, you can go back to your work without interuppting the extraction.
+
+![Notification of ZIP extraction](assets/zip_extract_notification.png)
+
+Some limitations of the feature are:
+
+* If a folder by the same name exists at the destination, the assets from the ZIP file are extracted in the existing folder.
+
+* If you cancel the extraction, the already extracted assets are not deleted.
+
+* You cannot select two ZIP files at the same time and extract them. You can only extract one ZIP archive at a time.
+
 ## Previewing assets {#previewing-assets}
 
 See also [Previewing Dynamic Media Assets.](previewing-assets.md)
@@ -582,7 +626,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. In the preview mode, zoom options are available for [supported Image types](assets-formats.md#supported-raster-image-formats) (with interactive editing).
 
-   To zoom into an asset, tap **+** (or tap the magnifying glass on the asset). To zoom out, tap **-**. When you zoom in, you can look closely at any area of the image by panning. The **[!UICONTROL Reset Zoom]** arrow brings you back to the original view.
+   To zoom into an asset, tap **[!UICONTROL +]** (or tap the magnifying glass on the asset). To zoom out, tap **[!UICONTROL -]**. When you zoom in, you can look closely at any area of the image by panning. The **[!UICONTROL Reset Zoom]** arrow brings you back to the original view.
 
    ![uploadicon](assets/uploadicon.png)
 
@@ -692,12 +736,18 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. In the **[!UICONTROL Move Assets]** wizard, do one of the following:
 
-    * Specify the name for the asset after it is moved. Then tap **[!UICONTROL Next]** to proceed. 
+    * Specify the name for the asset after it is moved. Then tap **[!UICONTROL Next]** to proceed.
     * Tap **[!UICONTROL Cancel]** to stop the process.
 
    >[!NOTE]
    >
    >You can specify the same name for the asset if there is no asset with that name at the new location. However, you should use a different name if you move the asset to a location where an asset with the same name exists. If you use the same name, the system automatically generates a variation of the name. For example if your asset has the name Square, the system generates the name Square1 for its copy.
+
+   >[!NOTE]
+   >
+   >The following (space-separated list of) characters are not supported:
+   >* asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
+   >* asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 
 1. On the **[!UICONTROL Select Destination]** page, do one of the following:
 
@@ -719,7 +769,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. You can add or remove renditions for an asset, except the original. Navigate to the location of the asset for which you want to add or remove renditions.  
 
-1. Tap the asset to open its asset page. 
+1. Tap the asset to open its asset page.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
 
@@ -823,86 +873,7 @@ You require delete permissions on dam/asset to be able to delete an asset. If yo
 
 ## Downloading assets {#downloading-assets}
 
-You can download assets including static and dynamic renditions. Alternatively, you can send emails with links to assets directly from AEM Assets. Downloaded assets are bundled in a ZIP file. The compressed ZIP file has a maximum file size of 1 GB for the export job. You are allowed a maximum of 500 total assets per export job.
-
->[!NOTE]
->
->Recipients of emails must be members of the `dam-users` group to access the ZIP download link in the email message. To be able to download the assets, the members must have permissions to launch workflows that trigger downloading of assets.
-
-The following are the **[!UICONTROL Export/Download]** options. Dynamic renditions are unique to Dynamic Media and let you generate renditions on-the-fly in addition to the asset you selected - that option is only available if you have dynamic media enabled.
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Assets</strong></td> 
-   <td>Select this to download the asset in its original form without any renditions. </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Renditions</strong></td> 
-   <td><p>A rendition is the binary representation of an asset. Assets have a primary representation - that of the uploaded file. They can have any number of representations.</p> <p>With this option, you can select the renditions you want downloaded. The renditions available depend on the asset you select. </p> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Dynamic Renditions</strong></td> 
-   <td><p>A dynamic rendition generates other renditions on-the-fly. When you select this option, you also select the renditions you want to create dynamically by selecting from the <a href="image-presets.md">Image Preset</a> list.</p> <p>In addition, you can select the size and unit of measurement, format, color space, resolution, and any image modifiers (for example to invert the image)</p> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Email</strong></td> 
-   <td><p>An email notification is sent to the user. Standard emails templates are available at the following locations:</p> 
-    <ul> 
-     <li><em>/libs/settings/dam/workflow/notification/email/downloadasset</em></li> 
-     <li><em>/libs/settings/dam/workflow/notification/email/transientworkflowcompleted</em></li> 
-    </ul> <p>Templates that you customize during deployment should be present at these locations:</p> 
-    <ul> 
-     <li><em>/apps/settings/dam/workflow/notification/email/downloadasset</em></li> 
-     <li><em>/apps/settings/dam/workflow/notification/email/transientworkflowcompleted</em></li> 
-    </ul> <p>You can store tenant-specific custom templates at these locations:</p> 
-    <ul> 
-     <li><em>/conf/&lt;tenant_specific_config_root&gt;/settings/dam/workflow/notification/email/downloadasset</em></li> 
-     <li><em>/conf/&lt;tenant_specific_config_root&gt;/settings/dam/workflow/notification/email/transientworkflowcompleted</em></li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Create separate folder for each asset</strong></td> 
-   <td>Select this to preserve the folder hierarchy while downloading assets. By default, the folder hierarchy is ignored and all assets are downloaded in one folder in your local system. </td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->The following asset types cannot be downloaded:
->
->* Image Sets
->* Spin Sets
->* Mixed Media Sets
->* Carousel Sets
->
-
-**To download assets**:
-
-1. Navigate to the location of the asset(s) you want to download and select the asset(s).
-1. Tap the **[!UICONTROL Download]** icon from the toolbar to download the required asset.
-
-   ![download_icon](assets/download_icon.png)
-
-1. In the dialog box, specify your download options.
-
-   ![chlimage_1-20](assets/chlimage_1-20.png)
-
-    * **[!UICONTROL Cancel]** to stop the download.
-    * **[!UICONTROL Renditions]** to download the renditions of the asset.
-
-        * This option is available only if the asset has renditions.
-
-    * **[!UICONTROL Subassets]** to download the subassets along with the asset.
-
-        * This option is displayed only if the asset includes subassets.
-
-   When you select a folder to download, the complete asset hierarchy under the folder is downloaded. To include each asset you download (including assets in child folders nested under the parent folder) in an individual folder, select **[!UICONTROL Create separate folder for each asset]**.
-
->[!NOTE]
->
->See also [Downloading DRM assets](drm.md).
+See [Download assets from AEM](download-assets-from-aem.md)
 
 ## Publishing assets {#publishing-assets}
 
@@ -1015,7 +986,7 @@ Image editing is supported for files that have the following formats:
 
 For some components, **[!UICONTROL Full Screen]** mode has additional options available.
 
-To edit a `.TXT` file, set **[!UICONTROL Day CQ Link Externalizer]** from within Configuration Manager.
+To edit a TXT file, set **[!UICONTROL Day CQ Link Externalizer]** from within Configuration Manager.
 
 You can also add image maps using the image editor. For details, see [Adding Image Maps](image-maps.md).
 
@@ -1064,7 +1035,7 @@ The **[!UICONTROL Timeline]** lets you view various events for a selected item, 
 
 In the [Collections console](managing-collections-touch-ui.md#navigating-the-collections-console), the **[!UICONTROL Show All]** list provides options to view comments and workflows only. Moreover, the timeline is displayed only for top-level collections that are listed in the console. It is not displayed if you navigate inside any of the collections.
 
-**[!UICONTROL Timeline]** contains several [options specific to content fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
+**[!UICONTROL Timeline]** contains several [options specific to Content Fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
 
 **To use Timeline**:
 
@@ -1083,7 +1054,7 @@ Annotations are comments or explanatory notes added to images or videos. Annotat
 
 Video annotations are only supported on browsers with HTML5-compatible video formats. Video formats that AEM Assets supports depend on the browser.
 
-For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
+For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
 
 You can add multiple annotations, before you save them.
 
@@ -1109,11 +1080,11 @@ You can also add annotations to a collection. However, if a collection contains 
 
    >[!NOTE]
    >
-   >For a non-administrator user, suggestions appear only if the user has Read permissions at `/home` in CRX-De.
+   >For a non-administrator user, suggestions appear only if the user has Read permissions at `/home` in CRXDE.
 
    ![chlimage_1-31](assets/chlimage_1-31.png)
 
-1. After adding the annotation, tap **[!UICONTROL Add]** to save it. A notification for the annotation is sent to Aaron. 
+1. After adding the annotation, tap **[!UICONTROL Add]** to save it. A notification for the annotation is sent to Aaron.
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
@@ -1234,7 +1205,7 @@ The following are scenarios where you create versions:
 
 * You modify an image in a different application and upload to AEM Assets. A version of the image is created so your original image is not overwritten.
 * You edit the metadata of an asset.
-* You use AEM Desktop App to checkout an existing asset and save your changes. A new version is created everytime the asset is saved.
+* You use AEM desktop app to checkout an existing asset and save your changes. A new version is created everytime the asset is saved.
 
 You can also enable automatic versioning through a workflow. When you create a version for an asset, the metadata and renditions are saved along with the version. Renditions are rendered alternatives of the same images, for example, a PNG rendition of an uploaded JPEG file.
 

@@ -9,7 +9,7 @@ contentOwner: vishabgu
 discoiquuid: e974bb2a-f0c8-41f9-9b84-312e8257e814
 ---
 
-# Review and Correct Converted Adaptive Forms{#review-and-correct-converted-adaptive-forms}
+# Review and Correct Converted Adaptive Forms {#review-and-correct-converted-adaptive-forms}
 
 Review and correct the adaptive forms converted by the Automated Forms Conversion service.
 
@@ -91,7 +91,7 @@ You can see from the illustration that the section **Date of birth** is a **date
 
 **To add a new component:**
 
-1. Tap **[!UICONTROL Add]**dropdown > **[!UICONTROL Field]**.
+1. Tap **[!UICONTROL Add]** dropdown > **[!UICONTROL Field]**.
 
    ![img3](assets/img3.png)
 
@@ -103,15 +103,15 @@ You can see from the illustration that the section **Date of birth** is a **date
 
    ![img4](assets/img4.png)
 
-   In this example, the **[!UICONTROL **Title**]**content is extracted correctly but the field type is identified incorrectly as **Text** that requires to be changed to **Date **type.
+   In this example, the **[!UICONTROL Title]** content is extracted correctly but the field type is identified incorrectly as **Text** that requires to be changed to **Date** type.
 
    **To modify the properties:**
 
-   In **[!UICONTROL **Properties**]**view, select **[!UICONTROL **Type**]**as **[!UICONTROL **Date**]**from the dropdown. The change of field type is reflected on the print form.
+   In **[!UICONTROL **Properties**]** view, select **[!UICONTROL Type]** as **[!UICONTROL Date]** from the dropdown. The change of field type is reflected on the print form.
 
    ![img5](assets/img5.png)
 
-1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
+1. Tap **[!UICONTROL Save]** button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
 
 ### Transform component {#transform-component}
 
@@ -135,7 +135,7 @@ You can see from the illustration that the section **Gender** is a multiple-choi
 
 **To transform a component and its relative content and properties:**
 
-1. Tap **[!UICONTROL Change]**to **dropdown > **[!UICONTROL Choice Group]**.
+1. Tap **[!UICONTROL Change]** to dropdown > **[!UICONTROL Choice Group]**.
 
    ![img7](assets/img7.png)
 
@@ -147,11 +147,11 @@ You can see from the illustration that the section **Gender** is a multiple-choi
 
    **To modify the properties:**
 
-   In **[!UICONTROL **Properties**]**view, modify the **[!UICONTROL **Title**]**and add **[!UICONTROL Options]** for the **Gender** component.
+   In **[!UICONTROL Properties]** view, modify the **[!UICONTROL Title]** and add **[!UICONTROL Options]** for the **Gender** component.
 
    ![img8](assets/img8.png)
 
-1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
+1. Tap **[!UICONTROL Save]** button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
 
 ### Delete component {#delete-component}
 
@@ -159,7 +159,7 @@ There is a possibility that the transformation results for a component are not a
 
 **To delete an existing component:**
 
-1. Select the component and tap **[!UICONTROL **Delete**]**button.
+1. Select the component and tap **[!UICONTROL Delete]** button.
 
    ![img10](assets/img10.png)
 
@@ -179,7 +179,7 @@ To merge the relative component within the panel, you must ungroup the panel and
 
 **To ungroup and group the relative component:**
 
-1. Select the panel and tap **[!UICONTROL Ungroup]**button. The panel definition, child components relationship, and the panel properties are deleted.
+1. Select the panel and tap **[!UICONTROL Ungroup]** button. The panel definition, child components relationship, and the panel properties are deleted.
 
    ![img13](assets/img13.png)
 

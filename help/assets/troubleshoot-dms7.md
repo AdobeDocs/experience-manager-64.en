@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: eab920f4-b56e-4ed2-9ec1-03f348810ae5
 ---
 
-# Troubleshooting Dynamic Media - Scene7 mode{#troubleshooting-dynamic-media-scene-mode}
+# Troubleshooting Dynamic Media - Scene7 mode {#troubleshooting-dynamic-media-scene-mode}
 
 The following document describes troubleshooting for Dynamic Media running **dynamicmedia_scene7** run mode.
 
@@ -19,51 +19,51 @@ The following document describes troubleshooting for Dynamic Media running **dyn
 
 Ensure that Dynamic Media has been set up properly by doing the following:
 
-* Start up command contains the **-r dynamicmedia_scene7** runmode argument.
+* Start up command contains the `-r dynamicmedia_scene7` runmode argument.
 * Any AEM 6.4 cumulative fix packs (CFPs) have been installed first *before* any available Dynamic Media Feature Packs.
 * Optional Feature Pack 18912 is installed.
 
   This optional feature pack is for FTP support or if you are migrating assets to Dynamic Media from Dynamic Media Classic (Scene7).
 
-* Navigate to the Cloud Services user interface and confirm that the provisioned account appears under **Available Configurations**.
-* Ensure that the** Dynamic Media Asset Activation (scene7)** replication agent is enabled.
+* Navigate to the Cloud Services user interface and confirm that the provisioned account appears under **[!UICONTROL Available Configurations]**.
+* Ensure that the **[!UICONTROL Dynamic Media Asset Activation (scene7)]** replication agent is enabled.
 
-  This replication agent is found under Agents on Author.
+  This replication agent is found under **[!UICONTROL Agents]** on Author.
 
-## General (All Assets) {#general-all-assets}
+## General (all assets) {#general-all-assets}
 
 The following are some general tips and tricks for all assets.
 
-### Asset Synchronization Status Properties {#asset-synchronization-status-properties}
+### Asset synchronization status properties {#asset-synchronization-status-properties}
 
 The following asset properties can be reviewed in CRXDE Lite to confirm the successful synchronization of the asset from AEM to Dynamic Media:
 
 | **Property** |**Example** |**Description** |
 |---|---|---|
-| `<object_node>/jcr:content/metadata/dam:scene7ID` |`**a|364266**` |General indicator that node is linked to Dynamic Media. |
-| `<object_node>/jcr:content/metadata/dam:scene7FileStatus` |**PublishComplete** or error text | Status of upload of asset to Dynamic Media. |
-| `<object_node>/jcr:content/metadata/dam:scene7File`  |**myCompany/myAssetID** |Must be populated in order to generate URLs to remote asset of Dynamic Media. |
-| `<object_node>/jcr:content/dam:lastSyncStatus` |`**success**` or `**failed:<error text>**` |Synchronization status of sets (spin sets, image sets, and so on), image presets, viewer presets, image map updates for an asset, or images that were edited. |
+| `<object_node>/jcr:content/metadata/dam:scene7ID` |`a|364266` |General indicator that node is linked to Dynamic Media. |
+| `<object_node>/jcr:content/metadata/dam:scene7FileStatus` |**[!UICONTROL PublishComplete]** or error text | Status of upload of asset to Dynamic Media. |
+| `<object_node>/jcr:content/metadata/dam:scene7File`  |`myCompany/myAssetID` |Must be populated in order to generate URLs to remote asset of Dynamic Media. |
+| `<object_node>/jcr:content/dam:lastSyncStatus` |`success` or `failed:<error text>` |Synchronization status of sets (spin sets, image sets, and so on), image presets, viewer presets, image map updates for an asset, or images that were edited. |
 
 ### Synchronization Logging {#synchronization-logging}
 
-Synchronization errors and issues are logged in **error.log** (AEM server directory** /crx-quickstart/logs/**). Sufficient logging is available to determine the root cause of most issues, however you can increase the logging to DEBUG on the ***com.adobe.cq.dam.ips ***package through the Sling Console ([http://localhost:4502/system/console/slinglog](http://localhost:4502/system/console/slinglog)) to gather more information.
+Synchronization errors and issues are logged in `error.log` (AEM server directory `/crx-quickstart/logs/`). Sufficient logging is available to determine the root cause of most issues, however you can increase the logging to DEBUG on the `com.adobe.cq.dam.ips` package through the Sling Console ([http://localhost:4502/system/console/slinglog](http://localhost:4502/system/console/slinglog)) to gather more information.
 
-### Move, Copy, Delete {#move-copy-delete}
+### Move, Copy, or Delete {#move-copy-delete}
 
 Before performing a Move, Copy, or Delete operation, do the following:
 
-* For images and videos, confirm that a **&lt;object_node&gt;/jcr:content/metadata/dam:scene7ID** value exists before performing move, copy, or delete operations. 
+* For images and videos, confirm that a `<object_node>/jcr:content/metadata/dam:scene7ID` value exists before performing move, copy, or delete operations. 
 * For image and viewer presets, confirm that an `https://<server>/crx/de/index.jsp#/etc/dam/presets/viewer/testpreset/jcr%3Acontent/metadata` value exists before performing move, copy, or delete operations.
 * If above metadata value is missing, you need to re-upload assets before move, copy, or delete operations.
 
-### Version Control {#version-control}
+### Version control {#version-control}
 
-When replacing an existing Dynamic Media asset (same name and location), you have the option to keep both assets or replace/create a version:
+When replacing an existing Dynamic Media asset (same name and location), you have the option to keep both assets or replace or create a version:
 
-* Keeping both will create a new asset with a unique name for the published asset URL; for example, **image.jpg** is the original asset and **image1.jpg** is the newly uploaded asset.
+* Keeping both will create a new asset with a unique name for the published asset URL. For example, **[!UICONTROL image.jpg]** is the original asset and **[!UICONTROL image1.jpg]** is the newly uploaded asset.
 
-* Creating a version is not supported in Dynamic Media - Scene7 mode delivery. The new version will replace the existing asset in delivery.
+* Creating a version is not supported in Dynamic Media - Scene7 mode delivery. The new version replaces the existing asset in delivery.
 
 ## Images and Sets {#images-and-sets}
 

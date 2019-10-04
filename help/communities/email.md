@@ -12,49 +12,49 @@ discoiquuid: b4d38e45-eaa0-4ace-a885-a2e84fdfd5a1
 pagetitle: Configuring Email
 ---
 
-# Configuring Email{#configuring-email}
+# Configuring Email {#configuring-email}
 
 AEM Communities uses email for
 
-* [Communities Notifications](/help/communities/notifications.md)
-* [Communities Subscriptions](/help/communities/subscriptions.md)
+* [Communities Notifications](notifications.md)
+* [Communities Subscriptions](subscriptions.md)
 
 By default, the email feature is not functional as it requires specification of an SMTP server and SMTP user.
 
 >[!CAUTION]
 >
->Email for notifications and subscriptions must be configured only on the [primary publisher](/help/communities/deploy-communities.md#primary-publisher).
+>Email for notifications and subscriptions must be configured only on the [primary publisher](deploy-communities.md#primary-publisher).
 
 ## Default Mail Service Configuration {#default-mail-service-configuration}
 
 The default mail service is required for both notifications and subscriptions.
 
-* on the primary publisher
-* signed in with administrator privileges
-* access the [Web Console](/help/sites-deploying/configuring-osgi.md)
+* On the primary publisher
+* Signed in with administrator privileges
+* Access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
+    * For example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
-* locate the `Day CQ Mail Service`
-* select the edit icon
+* Locate the `Day CQ Mail Service`
+* Select the edit icon
 
-This is based on the documentation for [Configuring Email Notification](/help/sites-administering/notification.md), but with a difference in that the field `"From" address` is *not* required and should be left empty.
+This is based on the documentation for [Configuring Email Notification](../../help/sites-administering/notification.md), but with a difference in that the field `"From" address` is *not* required and should be left empty.
 
 For example (filled in with values for illustrative purposes only):
 
 ![chlimage_1-98](assets/chlimage_1-98.png)
 
-* **SMTP server host name:** *(required)* The SMTP server to use.
+* **[!UICONTROL SMTP server host name]**: *(required)* The SMTP server to use.
 
-* **SMTP server port** *(required)* The SMTP server port must be 25 or higher.
+* **[!UICONTROL SMTP server port]** *(required)* The SMTP server port must be 25 or higher.
 
-* **SMTP user:** *(required)* The SMTP user.
+* **[!UICONTROL SMTP user]**: *(required)* The SMTP user.
 
-* **SMTP password:** *(required)* The SMTP user's password.
+* **[!UICONTROL SMTP password]**: *(required)* The SMTP user's password.
 
-* **"From" address:** Leave empty
-* **SMTP use SSL:** If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
-* **Debug email:** If checked, enables logging of SMTP server interactions.
+* **[!UICONTROL "From" address]**: Leave empty
+* **[!UICONTROL SMTP use SSL]**: If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
+* **[!UICONTROL Debug email]**: If checked, enables logging of SMTP server interactions.
 
 ## AEM Communities Email Configuration {#aem-communities-email-configuration}
 
@@ -72,13 +72,13 @@ Only the instance for subscriptions needs to be further configured when allowing
 
 To reach the Communities email configuration instances:
 
-* on the primary publisher
-* signed in with administrator privileges
-* access the [Web Console](/help/sites-deploying/configuring-osgi.md)
+* On the primary publisher
+* Signed in with administrator privileges
+* Access the [Web Console](../../help/sites-deploying/configuring-osgi.md)
 
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
+    * For example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
-* locate `AEM Communities Email Reply Configuration`
+* Locate `AEM Communities Email Reply Configuration`
 
 ![chlimage_1-99](assets/chlimage_1-99.png) 
 
@@ -88,11 +88,11 @@ The instance of `AEM Communities Email Reply Configuration` OSGi config with the
 
 This configuration should not be altered.
 
-* locate the `AEM Communities Email Reply Configuration`
-* select the edit icon
-* verify the **Name** is `email`
+* Locate the `AEM Communities Email Reply Configuration`
+* Select the edit icon
+* Verify the **Name** is `email`
 
-* verify **Create post from reply email** is `unchecked`
+* Verify **Create post from reply email** is `unchecked`
 
 ![chlimage_1-100](assets/chlimage_1-100.png) 
 
@@ -100,31 +100,31 @@ This configuration should not be altered.
 
 For Communities subscriptions, it is possible to enable or disable the ability for a member to post content by replying to an email.
 
-* locate the `AEM Communities Email Reply Configuration`
-* select the edit icon
-* verify the **Name** is `subscriptions-email`
+* Locate the `AEM Communities Email Reply Configuration`
+* Select the edit icon
+* Verify the **Name** is `subscriptions-email`
 
 ![chlimage_1-101](assets/chlimage_1-101.png)
 
-* **Name **: *(required)* `subscriptions-email`. Do Not Edit.
+* **[!UICONTROL Name]** : *(required)* `subscriptions-email`. Do Not Edit.
 
-* **Create post from reply email**: If checked, recipient of subscription email may post content by sending a reply. Default is checked.
-* **Add tracked id to header**: Default is `Reply-To`.
+* **[!UICONTROL Create post from reply email]**: If checked, recipient of subscription email may post content by sending a reply. Default is checked.
+* **[!UICONTROL Add tracked id to header]**: Default is `Reply-To`.
 
-* **Maximum length of Subject**: If tracker id is added to subject line, this is the maximum length of subject, excluding tracked id, after which it will be trimmed. Note that this should be as small as possible to avoid tracked id information from being lost. Default is 200.
-* **Email "From" address**: *(required)* Address that notification email would be delivered from. Likely the same **SMTP user** specified for the [default mail service](#configuredefaultmailservice). Default is `no-reply@example.com`.
+* **[!UICONTROL Maximum length of Subject]**: If tracker id is added to subject line, this is the maximum length of subject, excluding tracked id, after which it will be trimmed. Note that this should be as small as possible to avoid tracked id information from being lost. Default is 200.
+* **[!UICONTROL Email "From" address]**: *(required)* Address that notification email would be delivered from. Likely the same **SMTP user** specified for the [default mail service](#configuredefaultmailservice). Default is `no-reply@example.com`.
 
-* **Reply-to-Delimiter**: If tracker id is added to Reply-to header, this delimiter will be used. Default is `+` (plus sign).
+* **[!UICONTROL Reply-to-Delimiter]**: If tracker id is added to Reply-to header, this delimiter will be used. Default is `+` (plus sign).
 
-* **Tracker Id prefix in subject**: If tracker id is added to subject line, this prefix will be used. Default is `post#`.
+* **[!UICONTROL Tracker Id prefix in subject]**: If tracker id is added to subject line, this prefix will be used. Default is `post#`.
 
-* **Tracker id prefix in message body**: If tracker id is added to message body, this prefix will be used. Default is `Please do not remove this:`.
+* **[!UICONTROL Tracker id prefix in message body]**: If tracker id is added to message body, this prefix will be used. Default is `Please do not remove this:`.
 
-* **Email as HTML**: If checked, Content-Type of email will be set as `"text/html;charset=utf-8"`. Default is checked.
+* **[!UICONTROL Email as HTML]**: If checked, Content-Type of email will be set as `"text/html;charset=utf-8"`. Default is checked.
 
-* **Default user name**: This name will be used for no name users. Default is `no-reply@example.com`.
+* **[!UICONTROL Default user name]**: This name will be used for no name users. Default is `no-reply@example.com`.
 
-* **Templates root path**: The email is built using template stored at this root path. Default is `/etc/community/templates/subscriptions-email`.
+* **[!UICONTROL Templates root path]**: The email is built using template stored at this root path. Default is `/etc/community/templates/subscriptions-email`.
 
 ## Configure Polling Importer {#configure-polling-importer}
 
@@ -132,40 +132,40 @@ In order for the email to be brought into the repository, it is necessary to con
 
 ### Add New Polling Importer {#add-new-polling-importer}
 
-* on the primary publisher
-* signed in with administrator privileges
-* browse to the polling importer console
-    for example, [http://localhost:4503/etc/importers/polling.html](http://localhost:4503/etc/importers/polling.html)
-* select **Add**
+* On the primary publisher
+* Signed in with administrator privileges
+* Browse to the polling importer console
+    For example, [http://localhost:4503/etc/importers/polling.html](http://localhost:4503/etc/importers/polling.html)
+* Select **[!UICONTROL Add]**
 
 ![chlimage_1-102](assets/chlimage_1-102.png)
 
-* **Type**: *(required)* Pull down to select `POP3 (over SSL).`
+* **[!UICONTROL Type]**: *(required)* Pull down to select `POP3 (over SSL).`
 
-* **URL**: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-emailgmail.com&password=****`
+* **[!UICONTROL URL]**: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-emailgmail.com&password=****`
 
-* **Import to Path&ast;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails` 
+* **[!UICONTROL Import to Path]**&ast;: *(required)* Set to `/content/usergenerated/mailFolder/postEmails` 
   by browsing to the `postEmails`folder and select **OK**
 
-* **Update Interval in Seconds**: *(optional)* The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.
+* **[!UICONTROL Update Interval in Seconds]**: *(optional)* The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.
 
-* **Login**: *(optional)* 
+* **[!UICONTROL Login]**: *(optional)* 
 
-* **Password**: *(optional)*
+* **[!UICONTROL Password]**: *(optional)*
 
-* Select **OK**
+* Select **[!UICONTROL OK]**
 
 ### Adjust Protocol for New Polling Importer {#adjust-protocol-for-new-polling-importer}
 
 Once the new polling configuration is saved, it is necessary to further modify properties of the subscription email importer in order to change the protocol from `POP3` to `emailreply`
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
+Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
-* on the primary publisher
-* signed in with administrator privileges
-* browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de/index.jsp#/etc/importers/polling](http://localhost:4503/crx/de/index.jsp#/etc/importers/polling)
-* select the newly created configuration
-* modify the following properties
+* On the primary publisher
+* Signed in with administrator privileges
+* Browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de/index.jsp#/etc/importers/polling](http://localhost:4503/crx/de/index.jsp#/etc/importers/polling)
+* Select the newly created configuration
+* Modify the following properties
 
     * **feedType**: replace `pop3s` with **`emailreply`**
     * **source**: replace source's protocol `pop3s://` with **`emailreply://`**
@@ -174,5 +174,5 @@ Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 
 The red triangles indicate the modified properties. Be sure to save the changes:
 
-* select **Save All**
+* Select **[!UICONTROL Save All]**
 

@@ -4,14 +4,14 @@ seo-title: Creating Translation Projects for Content Fragments
 description: Learn how to translate content fragments.
 seo-description: Learn how to translate content fragments.
 uuid: 23176e70-4003-453c-af25-6499a5ed3f6d
-contentOwner: Guillaume Carlino
+contentOwner: heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: d2decc31-a04b-4a8e-bb19-65f21cf7107e
 ---
 
-# Creating Translation Projects for Content Fragments{#creating-translation-projects-for-content-fragments}
+# Creating Translation Projects for Content Fragments {#creating-translation-projects-for-content-fragments}
 
 In addition to assets, Adobe Experience Manager (AEM) Assets supports language copy workflows for [content fragments](content-fragments.md) (including variations). No additional optimization is required to run language copy workflows on content fragments. In each workflow, the entire content fragment is sent for translation.
 
@@ -52,20 +52,20 @@ If the content fragment includes a collection, the assets within the collection 
 
 To be able to translate content fragments that include mixed media, first edit the default translation framework to enable the translation of inline assets and collections associated with content fragments.
 
-1. Click/tap the AEM logo, and navigate to **Tools** &gt; **Deployment** &gt; **Cloud Services**.
-1. Locate **Translation Integration** under **Adobe Marketing Cloud**, and click/tap **Show Configurations**. 
+1. Click/tap the AEM logo, and navigate to **[!UICONTROL Tools > Deployment > Cloud Services]**.
+1. Locate **[!UICONTROL Translation Integration]** under **[!UICONTROL Adobe Marketing Cloud]**, and click/tap **[!UICONTROL Show Configurations]**. 
 
    ![chlimage_1-444](assets/chlimage_1-444.png)
 
-1. From the list of available configurations, click/tap **Default configuration (Translation Integration configuration)** to open the **Default configuration** page.
+1. From the list of available configurations, click/tap **[!UICONTROL Default configuration (Translation Integration configuration)]** to open the **[!UICONTROL Default configuration]** page.
 
    ![chlimage_1-445](assets/chlimage_1-445.png)
 
-1. Click **Edit** from the toolbar to display the **Translation Config** dialog.
+1. Click **[!UICONTROL Edit]** from the toolbar to display the **[!UICONTROL Translation Config]** dialog.
 
    ![chlimage_1-446](assets/chlimage_1-446.png)
 
-1. Navigate to the **Assets** tab, and choose **Inline Media Assets and Associated Collections** from the **Translate Content Fragment Assets** list. Click/tap **OK** to save the changes.
+1. Navigate to the **[!UICONTROL Assets]** tab, and choose **[!UICONTROL Inline Media Assets and Associated Collections]** from the **[!UICONTROL Translate Content Fragment Assets]** list. Click/tap **[!UICONTROL OK]** to save the changes.
 
    ![chlimage_1-447](assets/chlimage_1-447.png)
 
@@ -73,7 +73,7 @@ To be able to translate content fragments that include mixed media, first edit t
 
    ![chlimage_1-448](assets/chlimage_1-448.png)
 
-1. Click/tap the **Insert Asset** icon.
+1. Click/tap the **[!UICONTROL Insert Asset]** icon.
 
    ![chlimage_1-449](assets/chlimage_1-449.png)
 
@@ -81,44 +81,44 @@ To be able to translate content fragments that include mixed media, first edit t
 
    ![chlimage_1-450](assets/chlimage_1-450.png)
 
-1. Click/tap the **Associate Content** icon.
+1. Click/tap the **[!UICONTROL Associate Content]** icon.
 
    ![chlimage_1-451](assets/chlimage_1-451.png)
 
-1. Click/tap **Associate Content**.
+1. Click/tap **[!UICONTROL Associate Content]**.
 
    ![chlimage_1-452](assets/chlimage_1-452.png)
 
-1. Select a collection and include it into the content fragment. Click/tap **Save**.
+1. Select a collection and include it into the content fragment. Click/tap **[!UICONTROL Save]**.
 
    ![chlimage_1-453](assets/chlimage_1-453.png)
 
-1. Select the content fragment, and click/tap the **GlobalNav** icon.
-1. Select **References** from the menu to display the **References** pane.
+1. Select the content fragment, and click/tap the **[!UICONTROL GlobalNav]** icon.
+1. Select **[!UICONTROL References]** from the menu to display the **[!UICONTROL References]** pane.
 
    ![chlimage_1-454](assets/chlimage_1-454.png)
 
-1. Click/tap **Language Copies** under **Copies** to display the language copies.
+1. Click/tap **[!UICONTROL Language Copies]** under **[!UICONTROL Copies]** to display the language copies.
 
    ![chlimage_1-455](assets/chlimage_1-455.png)
 
-1. Click/tap **Create & Translate** from at the bottom of the panel to display the **Create & Translate** dialog.
+1. Click/tap **[!UICONTROL Create & Translate]** from at the bottom of the panel to display the **[!UICONTROL Create & Translate]** dialog.
 
    ![chlimage_1-456](assets/chlimage_1-456.png)
 
-1. Select the target language from the **Target Languages** list.
+1. Select the target language from the **[!UICONTROL Target Languages]** list.
 
    ![chlimage_1-457](assets/chlimage_1-457.png)
 
-1. Select the translation project type from the **Project** list.
+1. Select the translation project type from the **[!UICONTROL Project]** list.
 
    ![chlimage_1-458](assets/chlimage_1-458.png)
 
-1. Specify the title of the project in the **Project Title** box and then click/tap **Create**.
+1. Specify the title of the project in the **[!UICONTROL Project Title]** box and then click/tap **Create**.
 
    ![chlimage_1-459](assets/chlimage_1-459.png)
 
-1. Navigate to the **Projects** console, and open the project folder for the translation project you created.
+1. Navigate to the **[!UICONTROL Projects]** console, and open the project folder for the translation project you created.
 
    ![chlimage_1-460](assets/chlimage_1-460.png)
 
@@ -127,7 +127,7 @@ To be able to translate content fragments that include mixed media, first edit t
    ![chlimage_1-461](assets/chlimage_1-461.png)
 
 1. From the Translation Job tile, verify the number of assets to be translated.
-1. From the **Translation Job** tile, start the translation job.
+1. From the **[!UICONTROL Translation Job]** tile, start the translation job.
 
    ![chlimage_1-462](assets/chlimage_1-462.png)
 

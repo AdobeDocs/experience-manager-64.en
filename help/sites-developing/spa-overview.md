@@ -198,9 +198,6 @@ Additional SPA frameworks can be implemented to work with the AEM SPA Editor SDK
 
 The AEM SPA Editor SDK was introduced with AEM 6.4 service pack 2. It is fully supported by Adobe, and as a new feature it continues to be enhanced and expanded. The following AEM features are not yet covered by the SPA Editor:
 
-* Server-Side Rendering is currently a tech preview that is being finalized for the session-less use-case.
-* Template Editor  
-* MSM unlocking of components
 * Target mode
 * ContextHub
 * Inline image editing
@@ -208,3 +205,6 @@ The AEM SPA Editor SDK was introduced with AEM 6.4 service pack 2. It is fully s
 * Style System
 * Undo / Redo
 * Page diff and Time Warp
+* Features performing HTML rewriting server-side such as Link Checker, CDN rewriter service, URL shortening etc.
+* Developer mode
+* Launch

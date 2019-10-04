@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 18f54a1c-52aa-414d-b494-1f19b5c10345
 ---
 
-# Comments Essentials{#comments-essentials}
+# Comments Essentials {#comments-essentials}
 
 This page provides the essentials of working with the comment system (comments component) and options for managing the user generated content (UGC) produced when members post comments or replies.
 
@@ -26,11 +26,11 @@ The comments component establishes a comment system such that each individual po
    <td> social/commons/components/hbs/comments</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr>
   <tr>
-   <td> <a href="/help/communities/client-customize.md#clientlibs-for-scf"><strong>Clientlibs</strong></a></td> 
+   <td> <a href="client-customize.md#clientlibs-for-scf"><strong>Clientlibs</strong></a></td> 
    <td>cq.ckeditor<br /> cq.social.hbs.comments<br /> cq.social.hbs.voting</td> 
   </tr>
   <tr>
@@ -43,12 +43,12 @@ The comments component establishes a comment system such that each individual po
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td> see <a href="/help/communities/comments.md">Using Comments</a></td> 
+   <td> See <a href="comments.md">Using Comments</a></td> 
   </tr>
  </tbody>
 </table>
 
-[Client-side Customizations](/help/communities/client-customize.md)
+[Client-side Customizations](client-customize.md)
 
 ### One Instance Per Page {#one-instance-per-page}
 
@@ -56,12 +56,12 @@ Pagination and the use of URLs for caching and linking require that the URL be u
 
 Other features already include the comment system. These are:
 
-* [Blog](/help/communities/blog-developer-basics.md)
-* [Calendar](/help/communities/calendar-basics-for-developers.md)
-* [File Library](/help/communities/essentials-file-library.md)
-* [Forum](/help/communities/essentials-forum.md)
-* [QnA](/help/communities/qna-essentials.md)
-* [Reviews](/help/communities/reviews-basics.md)
+* [Blog](blog-developer-basics.md)
+* [Calendar](calendar-basics-for-developers.md)
+* [File Library](essentials-file-library.md)
+* [Forum](essentials-forum.md)
+* [QnA](qna-essentials.md)
+* [Reviews](reviews-basics.md)
 
 ### Flag Reason List {#flag-reason-list}
 
@@ -77,21 +77,21 @@ This applies to any component which extends a comment system.
 
 * [Comments Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/comments/endpoints/package-summary.html)
 
-* [Server-side Customizations](/help/communities/server-customize.md)
+* [Server-side Customizations](server-customize.md)
 
 ### Accessing Posted Comments (UGC) {#accessing-posted-comments-ugc}
 
 UGC should be moderated using one of the standard methods for moderation.  
-See [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+See [Moderating User Generated Content](moderate-ugc.md).
 
-As of AEM 6.1 Communities, use of a [common store](/help/communities/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
+As of AEM 6.1 Communities, use of a [common store](working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 See:
 
-* [Storage Resource Provider Overview](/help/communities/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](/help/communities/srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](/help/communities/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](/help/communities/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](srp.md) - Introduction and repository usage overview
+* [SRP and UGC Essentials](srp-and-ugc.md) - SRP utility methods and examples
+* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - Coding guidelines
+* [SocialUtils Refactoring](socialutils.md) - Mapping deprecated utility methods to current SRP utility methods
 

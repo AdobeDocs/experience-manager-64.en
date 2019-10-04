@@ -11,25 +11,25 @@ content-type: reference
 discoiquuid: 8b6c1697-d693-41f4-8337-f41658465107
 ---
 
-# SCF Handlebars Helpers{#scf-handlebars-helpers}
+# SCF Handlebars Helpers {#scf-handlebars-helpers}
 
-| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Server-side Customization ⇒](/help/communities/server-customize.md)** |
+| **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
-|   |**[Client-side Customization ⇒](/help/communities/client-customize.md)** |
+|   |**[Client-side Customization ⇒](client-customize.md)** |
 
 Handlebars Helpers (helpers) are methods callable from Handlebars scripts to facilitate working with SCF components.
 
 The implementation includes a client-side and a server-side definition. It is also possible for developers to create custom helpers.
 
-The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](/help/sites-developing/clientlibs.md):
+The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](../../help/sites-developing/clientlibs.md):
 
 * /etc/clientlibs/social/commons/scf/helpers.js
 
 >[!NOTE]
 >
->Be sure to install the [latest Communities feature pack](/help/communities/deploy-communities.md#latestfeaturepack).
+>Be sure to install the [latest Communities feature pack](deploy-communities.md#latestfeaturepack).
 
-## abbreviate {#abbreviate}
+## Abbreviate {#abbreviate}
 
 A helper to return an abbreviated string conforming to the maxWords and maxLength properties.
 
@@ -39,25 +39,25 @@ First, the context is trimmed to maxLength, and then the context is sliced into 
 
 If safeString is set to true, then the returned string is a SafeString.
 
-### parameters {#parameters}
+### Parameters {#parameters}
 
 * **context**: String  
 
   (optional) Default is the empty string
 
-* **maxLength**: number  
+* **maxLength**: Number  
 
   (optional) Default is the length of the context.
 
-* **maxWords**: number  
+* **maxWords**: Number  
 
   (optional) Default is the number of words in the trimmed string.
 
-* **safeString**: boolean  
+* **safeString**: Boolean  
 
   (optional) Returns a Handlebars.SafeString() if true. Default is false.
 
-### examples {#examples}
+### Examples {#examples}
 
 ```
 {{abbreviate subject maxWords=2}}
@@ -83,17 +83,17 @@ Then abbreviate would return
 */
 ```
 
-## content-loadmore {#content-loadmore}
+## Content-loadmore {#content-loadmore}
 
 A helper to add two spans under a div, one for the full text and the other for the less text, with the ability to toggle between the two views.
 
-### parameters {#parameters-1}
+### Parameters {#parameters-1}
 
 * **context**: String  
 
   (optional) Default is the empty string.  
 
-* **numChars**: number 
+* **numChars**: Number 
 
   (optional) The number of characters to display when not displaying full text. Default is 100.
 
@@ -105,11 +105,11 @@ A helper to add two spans under a div, one for the full text and the other for t
 
   (optional) The text to display indicating there is hidden text. Default is "...".
 
-* **safeString**: boolean 
+* **safeString**: Boolean 
 
   (optional) Boolean value indicating whether or not to apply Handlebars.SafeString() before returning the result. Default is false.
 
-### example {#example}
+### Example {#example}
 
 ```
 {{content-loadmore  context numChars=32  moreText="go on"  ellipsesText="..." }}
@@ -123,13 +123,13 @@ Then content-loadmore would return
 */
 ```
 
-## dateUtil {#dateutil}
+## DateUtil {#dateutil}
 
 A helper to return a formatted date string.
 
-### parameters {#parameters-2}
+### Parameters {#parameters-2}
 
-* **context**: number  
+* **context**: Number  
 
   (optional) a millisecond value offset from January 1, 1970 (epoch). Default is the current date.
 
@@ -137,7 +137,7 @@ A helper to return a formatted date string.
 
   (optional) The date format to apply. Default is "YYYY-MM-DDTHH:mm:ss.sssZ" and the result appears as "2015-03-18T18:17:13-07:00"
 
-### examples {#examples-1}
+### Examples {#examples-1}
 
 ```
 {{dateUtil this.memberSince format="dd MMM yyyy, hh:mm"}}
@@ -151,11 +151,11 @@ A helper to return a formatted date string.
 // returns "03-18-2015"
 ```
 
-## equals {#equals}
+## Equals {#equals}
 
 A helper to return content depending on an equality conditional.
 
-### parameters {#parameters-3}
+### Parameters {#parameters-3}
 
 * **lvalue**: String  
 
@@ -165,7 +165,7 @@ A helper to return content depending on an equality conditional.
 
   The right-hand value to compare
 
-### example {#example-1}
+### Example {#example-1}
 
 ```
 {{#equals  value "some-value"}}
@@ -176,11 +176,11 @@ A helper to return content depending on an equality conditional.
 
 ```
 
-## if-wcm-mode {#if-wcm-mode}
+## If-wcm-mode {#if-wcm-mode}
 
 A block helper that tests the current value of [WCM mode](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) against a string separated list of modes.
 
-### parameters {#parameters-4}
+### Parameters {#parameters-4}
 
 * **context**: String  
 
@@ -190,7 +190,7 @@ A block helper that tests the current value of [WCM mode](https://helpx.adobe.co
 
   (optional) A comma separated list of [WCM modes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) to test if set.
 
-### example {#example-2}
+### Example {#example-2}
 
 ```xml
 {{#if-wcm-mode mode="DESIGN, EDIT"}}
@@ -204,9 +204,9 @@ A block helper that tests the current value of [WCM mode](https://helpx.adobe.co
 
 This helper overrides the Handlebars helper 'i18n'.
 
-See also [Internationalizing Strings in JavaScript Code](/help/sites-developing/i18n-dev.md#internationalizing-strings-in-javascript-code).
+See also [Internationalizing Strings in JavaScript Code](../../help/sites-developing/i18n-dev.md#internationalizing-strings-in-javascript-code).
 
-### parameters {#parameters-5}
+### Parameters {#parameters-5}
 
 * **context**: String  
 
@@ -220,7 +220,7 @@ See also [Internationalizing Strings in JavaScript Code](/help/sites-developing/
 
   (optional) A translation hint
 
-### example {#example-3}
+### Example {#example-3}
 
 ```
 {{i18n "hello"}}
@@ -228,17 +228,17 @@ See also [Internationalizing Strings in JavaScript Code](/help/sites-developing/
 
 ```
 
-## include {#include}
+## Include {#include}
 
 A helper to include a component as a non-existing resource in a template.
 
-This allows the resource to be programmatically customized more easily than is possible for a resource added as a JCR node. See [Add or Include a Communities Component](/help/communities/scf.md#add-or-include-a-communities-component).
+This allows the resource to be programmatically customized more easily than is possible for a resource added as a JCR node. See [Add or Include a Communities Component](scf.md#add-or-include-a-communities-component).
 
-Only a select few of Communities components are includable. For AEM 6.1, those that are includable are [comments](/help/communities/essentials-comments.md), [rating](/help/communities/rating-basics.md), [reviews](/help/communities/reviews-basics.md), and [voting](/help/communities/essentials-voting.md).
+Only a select few of Communities components are includable. For AEM 6.1, those that are includable are [comments](essentials-comments.md), [rating](rating-basics.md), [reviews](reviews-basics.md), and [voting](essentials-voting.md).
 
-This helper, appropriate only on the server-side, provides functionality similar to [cq:include](/help/sites-developing/taglib.md) for JSP scripts.
+This helper, appropriate only on the server-side, provides functionality similar to [cq:include](../../help/sites-developing/taglib.md) for JSP scripts.
 
-### parameters {#parameters-6}
+### Parameters {#parameters-6}
 
 * **context**: String or object 
 
@@ -260,11 +260,11 @@ This helper, appropriate only on the server-side, provides functionality similar
 
   (required) The path to the resource. If path is relative, a context must be provided, else the empty string is returned.
 
-* **authoringDisabled**: boolean 
+* **authoringDisabled**: Boolean 
 
   (optional) Default is false. For internal use only.
 
-### example {#example-4}
+### Example {#example-4}
 
 ```
 {{include this.id path="comments" resourceType="social/commons/components/hbs/comments"}}
@@ -272,13 +272,13 @@ This helper, appropriate only on the server-side, provides functionality similar
 
 This will include a new comments component at `this.id` + /comments
 
-## includeClientLib {#includeclientlib}
+## IncludeClientLib {#includeclientlib}
 
 A helper that includes an AEM html client library, which can be a js, a css or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the Handlebars script.
 
-This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](/help/sites-developing/taglib.md) for JSP scripts.
+This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](../../help/sites-developing/taglib.md) for JSP scripts.
 
-### parameters {#parameters-7}
+### Parameters {#parameters-7}
 
 * **categories**: String 
 
@@ -296,7 +296,7 @@ This helper, appropriate only on the server-side, provides functionality similar
 
   (optional) A list of comma-separated client lib categories. This will include all CSS libraries for the given categories.
 
-### examples {#examples-2}
+### Examples {#examples-2}
 
 ```
 // all: js + theme (theme-js + css) 
@@ -336,7 +336,7 @@ This helper, appropriate only on the server-side, provides functionality similar
     <link href="/etc/clientlibs/social/hbs/comments.css" rel="stylesheet" type="text/css">
 ```
 
-## pretty-time {#pretty-time}
+## Pretty-time {#pretty-time}
 
 A helper to display how much time has passed up to a cutoff point, after which a regular date format is displayed.
 
@@ -345,17 +345,17 @@ For example:
 * 12 hours ago
 * 7 days ago
 
-### parameters {#parameters-8}
+### Parameters {#parameters-8}
 
-* **context**: number 
+* **context**: Number 
 
   A time in the past to compare to 'now'. Time is expressed as a millisecond value offset from January 1, 1970 (epoch).
 
-* **daysCutoff**: number  
+* **daysCutoff**: Number  
 
   The number of days ago before switching to an actual date. Default is 60.
 
-### example {#example-5}
+### Example {#example-5}
 
 ```
 {{pretty-time this.published daysCutoff=7}}
@@ -371,73 +371,73 @@ Depending on how long in the past, may return
 */
 ```
 
-## xss-html {#xss-html}
+## Xss-html {#xss-html}
 
 A helper that encodes a source string for HTML element content to help guard against XSS.
 
 NOTE: this is not a validator and is not to be used for writing attribute values.
 
-### parameters {#parameters-9}
+### Parameters {#parameters-9}
 
 * **context**: object 
 
   the HTML to encode
 
-### example {#example-6}
+### Example {#example-6}
 
 ```
 <p>{{xss-html forum-ugc}}</p>
 ```
 
-## xss-htmlAttr {#xss-htmlattr}
+## Xss-htmlAttr {#xss-htmlattr}
 
 A helper that encodes a source string for writing to an HTML attribute value to help guard against XSS.
 
 NOTE: this is not a validator and is not to be used for writing actionalable attributes (href, src, event handlers).
 
-### parameters {#parameters-10}
+### Parameters {#parameters-10}
 
-* **context**: object  
+* **context**: Object  
 
-  the HTML to encode
+  The HTML to encode
 
-### example {#example-7}
+### Example {#example-7}
 
 ```
 <div id={{xss-htmlAttr id}} />
 ```
 
-## xss-jsString {#xss-jsstring}
+## Xss-jsString {#xss-jsstring}
 
 A helper that encodes a source string for writing to JavaScript string content to help guard against XSS.
 
 NOTE: this is not a validator and is not to be used for writing to arbitrary JavaScript.
 
-### parameters {#parameters-11}
+### Parameters {#parameters-11}
 
-* **context**: object 
+* **context**: Object 
 
-  the HTML to encode
+  The HTML to encode
 
-### example {#example-8}
+### Example {#example-8}
 
 ```
 var input = {{xss-jsString topic-title}}
 ```
 
-## xss-validHref {#xss-validhref}
+## Xss-validHref {#xss-validhref}
 
 A helper that sanitizes an URL for writing as an HTML href or srce attribute value to help guard against XSS.
 
 NOTE: this may return an empty string
 
-### parameters {#parameters-12}
+### Parameters {#parameters-12}
 
-* **context**: object  
+* **context**: Object  
 
-  the URL to sanitize
+  The URL to sanitize
 
-### example {#example-9}
+### Example {#example-9}
 
 ```
 <a href="{{xss-validHref url}}">my link</a>
@@ -459,10 +459,10 @@ A quick overview of helper functions from [Handlebars.js documentation](https://
 
 * Handlebars provides a final parameter to helpers named 'options'. The special object 'options' includes
 
-    * optional private data (options.data)
-    * optional key-value properties from the call (options.hash)
-    * ability to invoke itself (options.fn()) 
-    * ability to invoke the inverse of itself (options.inverse())
+    * Optional private data (options.data)
+    * Optional key-value properties from the call (options.hash)
+    * Ability to invoke itself (options.fn()) 
+    * Ability to invoke the inverse of itself (options.inverse())
 
 * It is recommended that the HTML String content returned from a helper is a SafeString.
 
@@ -524,7 +524,7 @@ Custom helpers must be implemented on the server-side as well as the client-side
 
 ### Server-side Custom Helpers {#server-side-custom-helpers}
 
-To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](/help/sites-developing/the-basics.md#osgi) and install it as part of an OSGi bundle.
+To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](../../help/sites-developing/the-basics.md#osgi) and install it as part of an OSGi bundle.
 
 For example:
 
@@ -595,13 +595,13 @@ function(Handlebars, SCF, $CQ) {
 The custom client-side helpers must be added to a custom client library.  
 The clientlib must:
 
-* include a dependency on `cq.social.scf`
-* load after Handlebars has been loaded
-* be [included](/help/communities/clientlibs.md)
+* Include a dependency on `cq.social.scf`
+* Load after Handlebars has been loaded
+* Be [included](clientlibs.md)
 
 Note: the SCF helpers are defined in `/etc/clientlibs/social/commons/scf/helpers.js`.
 
-| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Server-side Customization ⇒](/help/communities/server-customize.md)** |
+| **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
-|   |**[Client-side Customization ⇒](/help/communities/client-customize.md)** |
+|   |**[Client-side Customization ⇒](client-customize.md)** |
 

@@ -4,14 +4,14 @@ seo-title: AEM Assets Home Page Experience
 description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 seo-description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 uuid: 787ebcc3-9c20-4e25-8ce5-ecba1b42d123
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: c7d6bac8-0897-4a5e-a286-823968dfb52e
 ---
 
-# AEM Assets Home Page Experience{#aem-assets-home-page-experience}
+# AEM Assets Home Page Experience {#aem-assets-home-page-experience}
 
 Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 
@@ -19,9 +19,9 @@ The Adobe Experience Manager (AEM) Assets Home page provides a rich and personal
 
 The Assets Home page is disabled by default. To enable it, perform the following steps:
 
-1. Go to Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+1. Open AEM Configuration Manager `https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr`.
 1. Open the **Day CQ DAM Event Recorder** service.
-1. Select the **Enable this service** to enable activity recording.
+1. Select the **[!UICONTROL Enable this service]** to enable activity recording.
 
    ![chlimage_1-250](assets/chlimage_1-250.png)
 
@@ -31,12 +31,12 @@ The Assets Home page is disabled by default. To enable it, perform the following
    >
    >Enabling the Asset viewed, Projects viewed, and Collections viewed options, significantly increases the number of recorded events.
 
-1. Open the **DAM Asset Home Page Feature Flag** service from Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
-1. Select the **isEnabled.name** option to enable the Assets Home page feature. Save the changes.
+1. Open the **[!UICONTROL DAM Asset Home Page Feature Flag]** service from Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+1. Select the **[!UICONTROL isEnabled.name]** option to enable the Assets Home page feature. Save the changes.
 
    ![chlimage_1-251](assets/chlimage_1-251.png)
 
-1. Open the **User Preferences** dialog, and select **Enable Assets Home Page**. Save the changes.
+1. Open the **[!UICONTROL User Preferences]** dialog, and select **[!UICONTROL Enable Assets Home Page]**. Save the changes.
 
    ![user_preferences](assets/user_preferences.png)
 
@@ -44,7 +44,7 @@ After enabling the Assets Home page, navigate to the Assets user interface eithe
 
 ![home_page](assets/home_page.png)
 
-Tap/click the **Click here to configure your experience** link to add your username, background image, and profile image.
+Tap/click the **[!UICONTROL Click here to configure your experience link]** to add your username, background image, and profile image.
 
 The Assets Home page includes the following sections:
 
@@ -65,11 +65,11 @@ This section appears below the Welcome section and displays out-of-the-box widge
 * Recent
 * Discover
 
-**Activity**: Under this section, the **My Activity **widget displays recent activities performed by the logged-in user with assets (including assets without renditions), for example asset uploads, downloads, asset creation, edits, comments, annotations, and shares.
+**Activity**: Under this section, the **My Activity** widget displays recent activities performed by the logged-in user with assets (including assets without renditions), for example asset uploads, downloads, asset creation, edits, comments, annotations, and shares.
 
-**Recent**: The **Recently Viewed **widget under this section displays recently accessed entities by the logged-in user, including folders, collections, and projects.
+**Recent**: The **Recently Viewed** widget under this section displays recently accessed entities by the logged-in user, including folders, collections, and projects.
 
-**Discover**: The **New **widget under this section displays the assets and renditions recently uploaded to the AEM Assets instance.
+**Discover**: The **New** widget under this section displays the assets and renditions recently uploaded to the AEM Assets instance.
 
 To enable purging of user activity data, enable the **DAM Event Purge Service** from Configuration Manager. After you enable this service, activities of the logged-in user that exceed a specified number are deleted by the system.
 

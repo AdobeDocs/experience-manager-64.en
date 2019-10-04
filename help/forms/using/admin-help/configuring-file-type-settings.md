@@ -10,7 +10,7 @@ content-type: reference
 discoiquuid: ab19b248-8931-4cf6-b6a5-fb7b067c4a49
 ---
 
-# Configuring file type settings{#configuring-file-type-settings}
+# Configuring file type settings {#configuring-file-type-settings}
 
 In PDF Generator, you can set up the application settings for supported file types. On Windows, you can set up the application settings for each supported file type. On UNIX and Linux, you can set up the application settings for HTML-to-PDF and OpenOffice.
 
@@ -73,7 +73,7 @@ Create or edit a file type setting to specify how the application handles the co
 
    [Other applications’ settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings.md#other-applications-settings-windows-only)
 
-   To go to another section, click its link on the web page or use the **[!UICONTROL Next]**or **[!UICONTROL Previous]** buttons.
+   To go to another section, click its link on the web page or use the **[!UICONTROL Next]** or **[!UICONTROL Previous]** buttons.
 
 1. After you complete all the sections, click **[!UICONTROL Save]** or **[!UICONTROL Save As]** and provide a name for the setting.
 
@@ -602,7 +602,7 @@ You can also specify how forms are submitted. The options are XML, FDF, PDF, or 
 
 **Export Automatically Inserted Blank Pages**: When this option is selected, automatically inserted blank pages are included in the generated PDF document. This is useful if you are printing a PDF document double-sided. For example, a book may be configured so that the first page of chapter always starts on an odd-numbered page. If the previous chapter ends on an odd-numbered page, OpenOffice insets a blank even-numbered page. This option controls whether to include that even-numbered page in the generated PDF.
 
-## Other applications’ settings (Windows only) {#other-applications-settings-windows-only}
+## Other application settings (Windows only) {#other-applications-settings-windows-only}
 
 You cannot change the settings for other applications through administration console; they display the filename extensions for the supported file types. For instructions about accessing these settings, see [Create or edit file type settings](https://help.adobe.com/en_US/AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e42.2.html).
 

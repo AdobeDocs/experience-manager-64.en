@@ -190,21 +190,21 @@ The methods to add validations on a field are:
 
 ### Required {#required}
 
-To make a component mandatory, in the **Edit **dialog of the component, you can select option **Title and Text &gt; Required**. You can also add the appropriate **required message** (optional) as well. .
+To make a component mandatory, in the **[!UICONTROL Edit]** dialog of the component, you can select option **[!UICONTROL Title and Text > Required]**. You can also add the appropriate **required message** (optional) as well. .
 
 ### Validation Patterns {#validation-patterns}
 
-There are multiple out of the box validation patterns available for a field. To select a validation pattern, in the **Edit **dialog of the component, locate the **Patterns **section and select **patterns**. You can create your own custom validation pattern in a **Pattern **text box. The validation status is returned **True **only if the data filled is compliant to the validation pattern, else **False **is returned. To write your own custom validation pattern, see [Picture clause support for HTML5 forms](/help/forms/using/picture-clause-support.md).
+There are multiple out of the box validation patterns available for a field. To select a validation pattern, in the **[!UICONTROL Edit]** dialog of the component, locate the **[!UICONTROL Patterns]** section and select **[!UICONTROL patterns]**. You can create your own custom validation pattern in a **Pattern **text box. The validation status is returned **True **only if the data filled is compliant to the validation pattern, else **False **is returned. To write your own custom validation pattern, see [Picture clause support for HTML5 forms](/help/forms/using/picture-clause-support.md).
 
 ### Validation Expressions {#validation-expressions}
 
-The validation of a field can also be computed using expressions on different fields. These expressions are written inside **Validation Script** field of the **Script** tab of **Edit** dialog of the component. The validation status of a field depends upon the value that the expression returns. For information on how to write such expressions, see [Validate Expression](/help/forms/using/adaptive-form-expressions.md#p-validate-expression-p).
+The validation of a field can also be computed using expressions on different fields. These expressions are written inside **[!UICONTROL Validation Script]** field of the **[!UICONTROL Script]** tab of **[!UICONTROL Edit]** dialog of the component. The validation status of a field depends upon the value that the expression returns. For information on how to write such expressions, see [Validate Expression](/help/forms/using/adaptive-form-expressions.md#p-validate-expression-p).
 
 ## Additional Information {#additional-information}
 
 ### Using Field Display Format {#using-field-display-format}
 
-Display Format can be used to display the data in different formats. For example, you can use the display format to display a telephone number with hyphens, format ZIP code, or date picker. These display patterns can be selected from the **Patterns** section of the Edit dialog of a component. You can write custom display patterns similar to the validation patterns mentioned above.
+Display Format can be used to display the data in different formats. For example, you can use the display format to display a telephone number with hyphens, format ZIP code, or date picker. These display patterns can be selected from the **[!UICONTROL Patterns]** section of the **[!UICONTROL Edit]** dialog of a component. You can write custom display patterns similar to the validation patterns mentioned above.
 
 ### GuideBridge - APIs and Events {#guidebridge-apis-and-events}
 

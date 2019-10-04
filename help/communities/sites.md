@@ -11,21 +11,21 @@ content-type: reference
 discoiquuid: 202d7dba-2b34-431d-b10f-87775632807f
 ---
 
-# Site Templates{#site-templates}
+# Site Templates {#site-templates}
 
-The Site Templates console is very similar to the [Group Templates](/help/communities/tools-groups.md) console, which is focused on functions of interest to Community groups.
+The Site Templates console is very similar to the [Group Templates](tools-groups.md) console, which is focused on functions of interest to Community groups.
 
 >[!NOTE]
 >
->The consoles for the creation of [community sites](/help/communities/sites-console.md), [community site templates](/help/communities/sites.md), [community group templates](/help/communities/tools-groups.md) and [community functions](/help/communities/functions.md) are for use only in the author environment.
+>The consoles for the creation of [community sites](sites-console.md), [community site templates](sites.md), [community group templates](tools-groups.md) and [community functions](functions.md) are for use only in the author environment.
 
 ## Site Templates Console {#site-templates-console}
 
 In the author environment, to reach the community sites console
 
-* from global navigation: **Tools, Communities, Site Templates**
+* From global navigation: **[!UICONTROL Tools > Communities > Site Templates]**
 
-This console displays the templates from which a [community site](/help/communities/sites-console.md) can be created and allows new site templates to be created.
+This console displays the templates from which a [community site](sites-console.md) can be created and allows new site templates to be created.
 
 ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -41,14 +41,14 @@ This will bring up the Site Editor panel which contains 3 sub-panels:
 
 On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
-* **Community Site Template Name ** 
-  the template name id
+* **[!UICONTROL Community Site Template Name]** 
+  The template name id
 
-* **Community Site Template Description** 
-  the template description
+* **[!UICONTROL Community Site Template Description]** 
+  The template description
 
-* **Disabled/Enabled** 
-  a toggle switch controlling whether the template is referenceable
+* **[!UICONTROL Disabled/Enabled]** 
+  A toggle switch controlling whether the template is referenceable
 
 ### Thumbnail {#thumbnail}
 
@@ -62,7 +62,7 @@ On the Basic Info panel, a name, description and whether the template is enabled
 
 To add community functions, drag from the right side to the left in the order the site menu links should appear. Styles will be applied to the template during creation of the site.
 
-For example, if you want a home page, drag the Page function from the library and drop under the template builder. This will result in the page configuration dialog opening. See the [functions console](/help/communities/functions.md) for information about the configuration dialogs.
+For example, if you want a home page, drag the Page function from the library and drop under the template builder. This will result in the page configuration dialog opening. See the [functions console](functions.md) for information about the configuration dialogs.
 
 Continue dragging and dropping any other community functions desired for a community site based on this template.
 
@@ -70,9 +70,9 @@ The page function provides an empty page. The groups function provides the abili
 
 >[!CAUTION]
 >
->The groups function must *not *be the *first nor the only* function in the site structure.
+>The groups function must *not* be the *first nor the only* function in the site structure.
 >
->Any other function, such as the [page function](/help/communities/functions.md#page-function), must be included and listed first.
+>Any other function, such as the [page function](functions.md#page-function), must be included and listed first.
 
 ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -82,7 +82,7 @@ When including a groups function in the site template, the configuration require
 
 >[!CAUTION]
 >
->The Groups function must *not *be the *first nor the only* function in the site structure.
+>The Groups function must *not* be the *first nor the only* function in the site structure.
 
 ![chlimage_1-23](assets/chlimage_1-23.png)
 

@@ -50,7 +50,7 @@ Do the following to set the Reply URL for registered Microsoft Dynamics applicat
 >
 >Use this procedure only while integrating AEM Forms with online Microsoft Dynamics server.
 
-1. Go to Microsoft Azure Active Directory account and add the following cloud service configuration URL in **Reply URLs** settings for your registered application:
+1. Go to Microsoft Azure Active Directory account and add the following cloud service configuration URL in **[!UICONTROL Reply URLs]** settings for your registered application:
 
    `https://[server]:[port]/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html`
 
@@ -96,8 +96,7 @@ Do the following to register an OAuth client on Active Directory Federation Serv
     * `redirect-uri` is the URL to the Microsoft Dynamics OData cloud service on AEM Forms. The default cloud service installed with the AEM Forms package is deployed at the following URL:
 
       ``` 
-      https://[<em>server</em>]:[<em>port</em>]/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/
-       cloudservices.html/conf/global/ms-dynamics-odata-cloud-service.html
+      http://[server]:[port]/libs/fd/fdm/gui/components/admin/fdmcloudservice/createcloudconfigwizard/cloudservices.html
       ```
 
 1. Run the following command to grant access on AD FS machine:
@@ -117,11 +116,11 @@ The **MS Dynamics OData Cloud Service (OData Service)** configuration comes with
 1. Navigate to **[!UICONTROL Tools > Cloud Services > Data Sources]**, and tap the `global` configuration folder.
 1. Select **[!UICONTROL MS Dynamics OData Cloud Service (OData Service)]** configuration and tap **[!UICONTROL Properties]**. The cloud service configuration property dialog opens.
 
-   In the **Authentication Settings** tab:
+   In the **[!UICONTROL Authentication Settings]** tab:
 
-    1. Enter the value for the **Service Root** field. Go to the Dynamics instance and navigate to **Developer Resources** to view the value for the Service Root field. For example, https://&lt;tenant-name&gt;/api/data/v9.1/
-    1. Replace the default values in the **Client Id** (also referred to as **Application ID**), **Client Secret**, **OAuth URL**, **Refresh Token URL**, **Access Token URL**, and **Resource** fields with values from your Microsoft Dynamics service configuration. It is mandatory to specify the dynamics instance URL in the **Resource** field to configure Microsoft Dynamics with a form data model. Use the Service Root URL to derive the dynamics instance URL. For example, [https://org.crm.dynamics.com](https://org.crm.dynamics.com/). 
-    1. Specify **openid** in the **Authorization Scope** field for authorization process on Microsoft Dynamics.
+    1. Enter the value for the **[!UICONTROL Service Root]** field. Go to the Dynamics instance and navigate to **[!UICONTROL Developer Resources]** to view the value for the Service Root field. For example, https://&lt;tenant-name&gt;/api/data/v9.1/
+    1. Replace the default values in the **[!UICONTROL Client Id]** (also referred to as **[!UICONTROL Application ID]**), **[!UICONTROL Client Secret]**, **[!UICONTROL OAuth URL]**, **[!UICONTROL Refresh Token URL]**, **[!UICONTROL Access Token URL]**, and **[!UICONTROL Resource]** fields with values from your Microsoft Dynamics service configuration. It is mandatory to specify the dynamics instance URL in the **[!UICONTROL Resource]** field to configure Microsoft Dynamics with a form data model. Use the Service Root URL to derive the dynamics instance URL. For example, [https://org.crm.dynamics.com](https://org.crm.dynamics.com/). 
+    1. Specify **[!UICONTROL openid]** in the **[!UICONTROL Authorization Scope]** field for authorization process on Microsoft Dynamics.
 
    ![dynamics_authentication_settings](assets/dynamics_authentication_settings.png)
 
@@ -138,7 +137,7 @@ When you install the AEM Forms package, a form data model,** Microsoft Dynamics 
 
 On opening the form data model for the first time, it connects to the configured Microsoft Dynamics service and fetches entities from your Microsoft Dynamics instance. The "contact" and "lead" entities from Microsoft Dynamics are already added in the form data model.
 
-To review the form data model, go to **[!UICONTROL Forms > Data Integrations]**. Select **Microsoft Dynamics FDM** and click **Edit** to open the form data model in edit mode. Alternatively, you can open the form data model directly from the following URL:
+To review the form data model, go to **[!UICONTROL Forms > Data Integrations]**. Select **[!UICONTROL Microsoft Dynamics FDM]** and click **[!UICONTROL Edit]** to open the form data model in edit mode. Alternatively, you can open the form data model directly from the following URL:
 
 `https://[*server*]:[*port*]/aem/fdm/editor.html/content/dam/formsanddocuments-fdm/ms-dynamics-fdm`
 

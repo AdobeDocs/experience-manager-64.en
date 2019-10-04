@@ -4,14 +4,12 @@ seo-title: Processing Assets Using Media Handlers and Workflows
 description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
 seo-description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
 uuid: 4ef96bfc-d194-4aea-8d6c-ae91d04456aa
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: extending-assets
-content-type: reference
 discoiquuid: 8cd78c84-71ba-4095-b882-90d0dc00289d
 ---
 
-# Processing Assets Using Media Handlers and Workflows{#processing-assets-using-media-handlers-and-workflows}
+# Processing Assets Using Media Handlers and Workflows {#processing-assets-using-media-handlers-and-workflows}
 
 Adobe Experience Manager (AEM) Assets comes with a set of default workflows and media handlers to process assets. The workflow defines the general tasks to be executed on the assets, then delegates the specific tasks to the media handlers, for example thumbnail generation or metadata extraction.
 
@@ -21,11 +19,14 @@ Media handlers are services inside AEM Assets that perform specific actions on a
 
 >[!NOTE]
 >
->Please refer to the [Assets Supported Formats](assets-formats.md) page for a description of all the formats supported by AEM Assets as well as features supported for each format.
+>Please refer to the [Assets supported formats](assets-formats.md) page for a description of all the formats supported by AEM Assets as well as features supported for each format.
 
 ## Default Media Handlers {#default-media-handlers}
 
 The following media handlers are available within AEM Assets and handle the most common MIME types:
+
+<!-- TBD: Apply correct formatting once table is moved to MD.
+-->
 
 <table> 
  <tbody> 
@@ -104,23 +105,21 @@ All the handlers perform the following tasks:
 
 It is possible to view the active media handlers:
 
-1. In your browser, navigate to http://localhost:4502/system/console/components.
-1. Click the link com.day.cq.dam.core.impl.store.AssetStoreImpl.
+1. In your browser, navigate to `http://localhost:4502/system/console/components`.
+1. Click the link `com.day.cq.dam.core.impl.store.AssetStoreImpl`.
 1. A list with all the active media handlers is displayed. For example:
 
-![chlimage_1-437](assets/chlimage_1-437.png) 
+![chlimage_1-437](assets/chlimage_1-437.png)
 
 ## Using Media Handlers in Workflows to perform tasks on Assets {#using-media-handlers-in-workflows-to-perform-tasks-on-assets}
 
 Media handlers are services that are usually used in combination with workflows.
 
-AEM has some default workflows to process assets. To view them, open the Workflow console and click the **Models** tab: the workflow titles that start with **AEM Assets** are the assets specific ones.
+AEM has some default workflows to process assets. To view them, open the Workflow console and click the **[!UICONTROL Models]** tab: the workflow titles that start with AEM Assets are the assets specific ones.
 
 Existing workflows can be extended and new ones can be created to process assets according to specific requirements.
 
-The following example shows how to enhance the AEM Assets Synchronization workflow so that sub-assets are generated for all assets except PDF documents.
-
-The workflow will look as follows:
+The following example shows how to enhance the **[!UICONTROL AEM Assets Synchronization]** workflow so that sub-assets are generated for all assets except PDF documents.
 
 ### Disabling/Enabling a Media Handler {#disabling-enabling-a-media-handler}
 
@@ -129,9 +128,9 @@ The media handlers can be disabled or enabled through the Apache Felix Web Manag
 To enable/disable a media handler:
 
 1. In your browser, navigate to `https://<host>:<port>/system/console/components`.
-1. Click the** Disable** button right beside the name of the media handler. For example: **com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
-1. Refresh the page: a **Disabled** icon is displayed beside the media handler.
-1. To enable the media handler, click the **Enable** button beside the name of the media handler.
+1. Click **[!UICONTROL Disable]** next to the name of the media handler. For example: `com.day.cq.dam.handler.standard.mp3.Mp3Handler`.
+1. Refresh the page: an icon is displayed beside the media handler indicating it is disabled.
+1. To enable the media handler, click **[!UICONTROL Enable]** next to the name of the media handler.
 
 ### Creating a new Media Handler {#creating-a-new-media-handler}
 
@@ -139,15 +138,34 @@ To support a new media type or to execute specific tasks on an asset, it is nece
 
 #### Important Classes and Interfaces {#important-classes-and-interfaces}
 
-The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behaviour: the com.day.cq.dam.core.AbstractAssetHandler Class.
+The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behavior: the `com.day.cq.dam.core.AbstractAssetHandler` class.
 
-This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to true.
+This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to `true`.
+
+Implement the following methods:
+
+* `extractMetadata()`: extracts all available metadata.
+* `getThumbnailImage()`: creates a thumbnail image out of the passed asset.
+* `getMimeTypes()`: returns the asset MIME types.
+
+Here is an example template:
+
+`package my.own.stuff; /** * @scr.component inherit="true" * @scr.service */ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts } `
+
+The interface and classes include:
+
+* `com.day.cq.dam.api.handler.AssetHandler` interface: This interface describes the service which adds support for specific mime types. Adding a new mime type requires to implement this interface. The interface contains methods for importing and exporting the specific documents, for creating thumbnails and extracting metadata.
+* `com.day.cq.dam.core.AbstractAssetHandler` class: This class serves as basis for all other asset handler implementations and provides common used functionality.
+* `com.day.cq.dam.core.AbstractSubAssetHandler` class: 
+  * This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction.
+  * The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behaviour: the com.day.cq.dam.core.AbstractAssetHandler Class.
+  * This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to true.
 
 The following methods need to be implemented:
 
-* extractMetadata(): this method extracts all available metadata.
-* getThumbnailImage(): this method creates a thumbnail image out of the passed asset.
-* getMimeTypes(): this method returns the asset mime type(s).
+* `extractMetadata()`: this method extracts all available metadata.
+* `getThumbnailImage()`: this method creates a thumbnail image out of the passed asset.
+* `getMimeTypes()`: this method returns the asset mime type(s).
 
 Here is an example template:
 
@@ -155,43 +173,9 @@ package my.own.stuff; /&ast;&ast; &ast; @scr.component inherit="true" &ast; @scr
 
 The interface and classes include:
 
-**com.day.cq.dam.api.handler.AssetHandler Interface**
-
-* This interface describes the service which adds support for specific mime types. Adding a new mime type requires to implement this interface. The interface contains methods for importing and exporting the specific documents, for creating thumbnails and extracting metadata.
-
-**com.day.cq.dam.core.AbstractAssetHandler Class**
-
-* This class serves as basis for all other asset handler implementations and provides common used functionality.
-
-**com.day.cq.dam.core.AbstractSubAssetHandler Class:**
-
-* This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction
-* The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behaviour: the com.day.cq.dam.core.AbstractAssetHandler Class.
-* This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to true.
-
-The following methods need to be implemented:
-
-* extractMetadata(): this method extracts all available metadata.
-* getThumbnailImage(): this method creates a thumbnail image out of the passed asset.
-* getMimeTypes(): this method returns the asset mime type(s).
-
-Here is an example template:
-
-package my.own.stuff; /&ast;&ast; &ast; @scr.component inherit="true" &ast; @scr.service &ast;/ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts }
-
-The interface and classes include:
-
-**com.day.cq.dam.api.handler.AssetHandler Interface**
-
-* This interface describes the service which adds support for specific mime types. Adding a new mime type requires to implement this interface. The interface contains methods for importing and exporting the specific documents, for creating thumbnails and extracting metadata.
-
-**com.day.cq.dam.core.AbstractAssetHandler Class**
-
-* This class serves as basis for all other asset handler implementations and provides common used functionality.
-
-**com.day.cq.dam.core.AbstractSubAssetHandler Class:**
-
-* This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction
+* `com.day.cq.dam.api.handler.AssetHandler` interface: This interface describes the service which adds support for specific mime types. Adding a new mime type requires to implement this interface. The interface contains methods for importing and exporting the specific documents, for creating thumbnails and extracting metadata.
+* `com.day.cq.dam.core.AbstractAssetHandler` class: This class serves as basis for all other asset handler implementations and provides common used functionality.
+* `com.day.cq.dam.core.AbstractSubAssetHandler` class: This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction.
 
 #### Example: create a specific Text Handler {#example-create-a-specific-text-handler}
 
@@ -199,15 +183,15 @@ In this section, you will create a specific Text Handler that generates thumbnai
 
 Proceed as follows:
 
-Refer to [Development Tools](/help/sites-developing/dev-tools.md) to install and set up Eclipse with a Maven plugin and for setting up the dependencies that are needed for the Maven project.
+Refer to [Development Tools](../sites-developing/dev-tools.md) to install and set up Eclipse with a Maven plugin and for setting up the dependencies that are needed for the Maven project.
 
 After you perform the following procedure, when you upload a txt file into AEM, the file's metadata are extracted and two thumbnails with a watermark are generated.
 
-1. In Eclipse, create the myBundle Maven project:
+1. In Eclipse, create `myBundle` Maven project:
 
-    1. In the Menu bar, click File, select New, then Other... .
-    1. In the dialog, expand the Maven folder, select Maven Project and click Next.
-    1. Check the Create a simple project box and the Use default Workspace locations box, then click Next.
+    1. In the Menu bar, click **[!UICONTROL File > New > Other]**.
+    1. In the dialog, expand the Maven folder, select Maven Project and click **[!UICONTROL Next]**.
+    1. Check the Create a simple project box and the Use default Workspace locations box, then click **[!UICONTROL Next]**.
     1. Define the Maven project:
 
         * Group Id: com.day.cq5.myhandler
@@ -215,19 +199,18 @@ After you perform the following procedure, when you upload a txt file into AEM, 
         * Name: My AEM bundle
         * Description: This is my AEM bundle
 
-    1. Click Finish.
+    1. Click **[!UICONTROL Finish]**.
 
 1. Set the Java Compiler to version 1.5:
 
-    1. Right-click the myBundle project, select Properties.
+    1. Right-click the `myBundle` project, select Properties.
     1. Select Java Compiler and set following properties to 1.5:
 
         * Compiler compliance level
         * Generated .class files compatibility
         * Source compatibility
 
-    1. Click OK.
-    1. In the dialog window, click Yes.
+    1. Click **[!UICONTROL OK]**. In the dialog window, click Yes.
 
 1. Replace the code in the pom.xml file with the following code:
 
@@ -346,16 +329,16 @@ After you perform the following procedure, when you upload a txt file into AEM, 
     </dependencies>
    ```
 
-1. Create the package com.day.cq5.myhandler that will contain the Java classes under myBundle/src/main/java:
+1. Create the package `com.day.cq5.myhandler` that contains the Java classes under `myBundle/src/main/java`:
 
-    1. Under myBundle, right-click src/main/java, select New, then Package.
-    1. Name it com.day.cq5.myhandler and click Finish.
+    1. Under myBundle, right-click `src/main/java`, select New, then Package.
+    1. Name it `com.day.cq5.myhandler` and click Finish.
 
-1. Create the Java class MyHandler:
+1. Create the Java class `MyHandler`:
 
-    1. In Eclipse, under myBundle/src/main/java, right-click the com.day.cq5.myhandler package, select New, then Class.
+    1. In Eclipse, under `myBundle/src/main/java`, right-click the `com.day.cq5.myhandler` package, select New, then Class.
     1. In the dialog window, name the Java Class MyHandler and click Finish. Eclipse creates and opens the file MyHandler.java.
-    1. In MyHandler.java replace the existing code with the following and then save the changes:
+    1. In `MyHandler.java` replace the existing code with the following and then save the changes:
 
    ```java
    package com.day.cq5.myhandler; 
@@ -499,21 +482,20 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 
 1. Compile the Java class and create the bundle:
 
-    1. Right-click the myBundle project, select Run As, then Maven Install.
-    1. The bundle myBundle-0.0.1-SNAPSHOT.jar (containing the compiled class) is created under myBundle/target.
+    1. Right-click the myBundle project, select **[!UICONTROL Run As]**, then **[!UICONTROL Maven Install]**.
+    1. The bundle `myBundle-0.0.1-SNAPSHOT.jar` (containing the compiled class) is created under `myBundle/target`.
 
-1. In CRX Explorer, create a new node under /apps/myApp. Name = install, Type = nt:folder.
-1. Copy the bundle myBundle-0.0.1-SNAPSHOT.jar and store it under /apps/myApp/install (for example with WebDAV). The new text handler is now active in AEM.
-1. In your browser, open the Apache Felix Web Management Console. Select the Components tab and disable the default text handler com.day.cq.dam.core.impl.handler.TextHandler.
+1. In CRX Explorer, create a new node under `/apps/myApp`. Name = `install`, Type = `nt:folder`.
+1. Copy the bundle `myBundle-0.0.1-SNAPSHOT.jar` and store it under `/apps/myApp/install` (for example with WebDAV). The new text handler is now active in AEM.
+1. In your browser, open the Apache Felix Web Management Console. Select the Components tab and disable the default text handler `com.day.cq.dam.core.impl.handler.TextHandler`.
 
 ## Command Line Based Media Handler {#command-line-based-media-handler}
 
-AEM enables you to run any command-line tool within a workflow to convert assets (like for example ImageMagick) and to add the new rendition to the asset. You only need to install the command-line tool on the disk hosting the AEM server and to add and configure a process step to the workflow. The invoked process, called `CommandLineProcess`, also enables to filter according to specific mime-types and to create multiple thumbnails based on the new rendition.
+AEM enables you to run any command-line tool within a workflow to convert assets (such as ImageMagick) and to add the new rendition to the asset. You only need to install the command-line tool on the disk hosting the AEM server and to add and configure a process step to the workflow. The invoked process, called `CommandLineProcess`, also enables to filter according to specific MIME types and to create multiple thumbnails based on the new rendition.
 
 The following conversions can be automatically run and stored within AEM Assets:
 
 * EPS and AI transformation using [ImageMagick](https://www.imagemagick.org/script/index.php) and [Ghostscript](https://www.ghostscript.com/)
-
 * FLV video transcoding using [FFmpeg](https://ffmpeg.org/)
 * MP3 encoding using [LAME](http://lame.sourceforge.net/)
 * Audio processing using [SOX](http://sox.sourceforge.net/)
@@ -554,11 +536,11 @@ First install ImageMagick on the disk hosting the AEM server:
 
    A flipped image is added to the directory.
 
-Then, add the command line process step to the **DAM Update Asset workflow**:
+Then, add the command line process step to the **[!UICONTROL DAM Update Asset]** workflow:
 
-1. Go to the **Workflow** console.
-1. In the **Models** tab, edit the **DAM Update Asset** model.
-1. Change the settings of the **Web enabled rendition** step as follows:  
+1. Go to the **[!UICONTROL Workflow]** console.
+1. In the **[!UICONTROL Models]** tab, edit the **[!UICONTROL DAM Update Asset]** model.
+1. Change the settings of the **[!UICONTROL Web enabled rendition]** step as follows:  
 
    **Arguments**:
 
@@ -566,11 +548,11 @@ Then, add the command line process step to the **DAM Update Asset workflow**:
 
 1. Save the workflow.
 
-Finally, test the modified workflow by adding a new asset to **/content/dam**:
+To test the modified workflow, add an asset to `/content/dam`.
 
-1. In the file system, get a .tiff image of your choice. Rename it to myImage.tiff and copy it to **/content/dam**, for example by using WebDAV.
-1. Go to the **CQ5 DAM** console, for example `http://localhost:4502/libs/wcm/core/content/damadmin.html`.
-1. Open the asset **myImage.tiff** and verify that the flipped image and the three thumbnails have been created.
+1. In the file system, get a .tiff image of your choice. Rename it to `myImage.tiff` and copy it to `/content/dam`, for example by using WebDAV.
+1. Go to the **[!UICONTROL CQ5 DAM]** console, for example `http://localhost:4502/libs/wcm/core/content/damadmin.html`.
+1. Open the asset **[!UICONTROL myImage.tiff]** and verify that the flipped image and the three thumbnails have been created.
 
 #### Configuring the CommandLineProcess Process Step {#configuring-the-commandlineprocess-process-step}
 
@@ -615,5 +597,4 @@ Use the following **Process Arguments** to create the web-enabled rendition usin
 
 >[!NOTE]
 >
->The **CommandLineProcess** step only applies to Assets (nodes of type dam:Asset) or descendants of an Asset.
-
+>The **CommandLineProcess** step only applies to Assets (nodes of type `dam:Asset`) or descendants of an Asset.

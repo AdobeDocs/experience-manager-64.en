@@ -11,7 +11,7 @@ topic-tags: forms-app
 discoiquuid: dae1ce32-702e-4cf0-b3c6-976551208d09
 ---
 
-# Synchronizing the app{#synchronizing-the-app}
+# Synchronizing the app {#synchronizing-the-app}
 
 ## Synchronizing the app {#synchronizing-the-app-1}
 
@@ -42,4 +42,4 @@ Tap the Synchronize button ![sync-app](assets/sync-app.png) at the lower-right c
 * The syncSubmittedTask() and syncSavedTask() function perform operations on individual tasks.
 * The call to the processOfflineSubmittedSavedTasks() function is initiated by the task list component after a user selects to synchronize offline state to the server or an automatic sync by the background thread.
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

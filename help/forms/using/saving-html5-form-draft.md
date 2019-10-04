@@ -10,7 +10,7 @@ topic-tags: hTML5_forms
 discoiquuid: 445e24af-cd1a-414d-bd01-9feb6631bbef
 ---
 
-# Saving an HTML5 form as a draft{#saving-an-html-form-as-a-draft}
+# Saving an HTML5 form as a draft {#saving-an-html-form-as-a-draft}
 
 You can save an HTML5 form as a draft and resume filling the form at a later stage. Forms Portal allows any user to save and restore an HTML5 form. To enable the Save as Draft functionality, add the following configurations to the profile node:
 

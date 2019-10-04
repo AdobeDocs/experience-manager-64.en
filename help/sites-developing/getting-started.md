@@ -32,7 +32,7 @@ The tutorial implementation leverages many powerful features of AEM. The site wi
 * [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html)
 * [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * [Touch UI](/help/sites-developing/touch-ui-concepts.md)
-* [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html)
+* [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
 * [Editable Templates](/help/sites-developing/page-templates-editable.md)
 
 Please progress through the tutorial before diving into the above concepts in detail.

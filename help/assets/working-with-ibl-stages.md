@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 658ff671-16b9-41bd-ba24-b77a32b3346b
 ---
 
-# About working with IBL stages{#about-working-with-ibl-stages}
+# About working with IBL stages {#about-working-with-ibl-stages}
 
 AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine™ renderer and third-party renderers. You can create IBL stages with common authoring tools such as Autodesk® Maya® or Autodesk® 3ds Max®.
 
@@ -21,16 +21,16 @@ Images used for image-based lighting should have HDR (High Dynamic Range) for be
 
 Currently, AEM 3D only supports 32-bit TIFFs. If necessary, use Adobe Photoshop or a similar tool to convert the HDR image to a TIFF using the following settings in the Adobe Photoshop TIFF Export dialog box:
 
-* Bit depth - 32-bit (Float)
-* Pixel Order - Interleaved (RGBRGB)
-* Image Compression - LZW
-* Byte Order - IBM PC
+* **[!UICONTROL Bit depth]** - 32-bit (Float)
+* **[!UICONTROL Pixel Order]** - Interleaved (RGBRGB)
+* **[!UICONTROL Image Compression]** - LZW
+* **[!UICONTROL Byte Order** - IBM PC
 
 While a single HDR image is often sufficient for IBL stages, AEM 3D provides additional control over IBL effects by allowing up to three separate images:
 
-* **Diffuse Lighting Environment Image** - This type of image should be an HDR image, but can be relatively small, as the image will be heavily filtered prior to using it for diffuse lighting.
-* **Reflection Environment Image** - This type of image is used to create reflections in object surfaces. It can be a standard 8-bit RGB image of a size and resolution that provides the desired quality and sharpness of reflections. If an HDR image is specified, AEM 3D converts it to 8-bit RGB prior to using a proprietary algorithm.
-* **Background Environment Image** - This type of image is used as a background. It can be a standard 8-bit RGB image and should have a size/resolution/level of detail desired for the stage background. If an HDR image is specified, AEM 3D converts it to 8-bit RGB using a proprietary algorithm. ``
+* **Diffuse Lighting Environment Image** &ndash; This type of image should be an HDR image, but can be relatively small, as the image will be heavily filtered prior to using it for diffuse lighting.
+* **Reflection Environment Image** &ndash; This type of image is used to create reflections in object surfaces. It can be a standard 8-bit RGB image of a size and resolution that provides the desired quality and sharpness of reflections. If an HDR image is specified, AEM 3D converts it to 8-bit RGB prior to using a proprietary algorithm.
+* **Background Environment Image** &ndash; This type of image is used as a background. It can be a standard 8-bit RGB image and should have a size/resolution/level of detail desired for the stage background. If an HDR image is specified, AEM 3D converts it to 8-bit RGB using a proprietary algorithm. ``
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ You can fine-tune the appearance of the IBL stage with the following stage prope
 
 IBL stages use spherical background images that are 20 meters diameter by default. Such stages work well for objects up to 10 meters. However, if you are showing larger objects, you can increase the spherical background diameter of an IBL stage.
 
-To increase the spherical background diameter of an IBL stage:
+**To increase the spherical background diameter of an IBL stage**:
 
 1. In CRXDE Lite, navigate to the stage whose spherical background diameter you want to increase. For example,
 
@@ -87,7 +87,5 @@ To increase the spherical background diameter of an IBL stage:
 
    For example, a jet plane model that is 20 meters long displays well if `dam:gPlaneRadius=20000`.
 
-1. Near the upper-left corner of the CRXDE Lite page, tap or click **Save All**.  
-
-1. Step text
+1. Near the upper-left corner of the CRXDE Lite page, tap **[!UICONTROL Save All]**.
 

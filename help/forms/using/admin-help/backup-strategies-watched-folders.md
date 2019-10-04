@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6f775933-e989-4456-ad01-9bdf5dee3dad
 ---
 
-# Backup strategies for watched folders{#backup-strategies-for-watched-folders}
+# Backup strategies for watched folders {#backup-strategies-for-watched-folders}
 
 This content describes how watched folders are affected by different backup and recovery scenarios, the limitations and outcomes of these scenarios, and how to minimize data loss.
 
@@ -38,7 +38,7 @@ This content describes the watched folder file manipulation process. It is impor
 The following table describes the file manipulation of five sample files (file1, file2, file3, file4, file5) throughout the process. In the table, the x axis represents time, such as Time 1 or T1, and the y axis represents folders within the watched folder hierarchy, such as Input.
 
 <table>
- <thead align="left">
+ <thead>
   <tr>
    <th><p>Folder</p></th> 
    <th><p>T1</p></th> 
@@ -108,13 +108,13 @@ The following text describes file manipulation for each time:
 
 **T1:** The four sample files are placed in the input folder.
 
-**T2:**The service operation moves file1 into the stage folder for manipulation.
+**T2:** The service operation moves file1 into the stage folder for manipulation.
 
 **T3:** The service operation moves file2 into the stage folder for manipulation. It places the results of file1 in the output folder, and it moves file1 to the preserve folder.
 
-**T4:**The service operation places file3 in the stage folder for manipulation. It places the results of file2 in the output folder, and it places file2 in the preserve folder.
+**T4:** The service operation places file3 in the stage folder for manipulation. It places the results of file2 in the output folder, and it places file2 in the preserve folder.
 
-**T5:**The service operation places file4 in the stage folder for manipulation. The manipulation of file3 fails, and the service operation places it in the failure folder.
+**T5:** The service operation places file4 in the stage folder for manipulation. The manipulation of file3 fails, and the service operation places it in the failure folder.
 
 **T6:** The service operation places file5 in the input folder. It places the results of file4 in the output folder, places file4 in the preserve folder.
 
@@ -162,7 +162,7 @@ The following strategies can minimize output and input folder data loss when res
 
   If files are in Stage 1, they will be manipulated. If files are in Stage 2 or 3, place them in the input folder for manipulation to take place again.
 
-  ***Note**: If manipulation of a file occurs more than once, data loss will be prevented but results may be duplicated. *
+  **Note**: If manipulation of a file occurs more than once, data loss will be prevented but results may be duplicated. *
 
 ## Conclusion {#conclusion}
 

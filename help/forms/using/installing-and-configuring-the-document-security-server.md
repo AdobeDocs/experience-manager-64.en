@@ -22,7 +22,7 @@ Document security also provides clients, viewers, and indexers to protect docume
 
 ## Deployment Topology  {#deployment-topology}
 
-The document security capability is available only in AEM Forms on JEE. You require a single instance of AEM Forms on JEE. You can also create a cluster or farm of AEM Forms servers, if necessary. The following topology is indicative topology to run the document security capability. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/aem-forms-architecture-deployment.html).
+The document security capability is available only in AEM Forms on JEE. You require a single instance of AEM Forms on JEE. You can also create a cluster or farm of AEM Forms servers, if necessary. The following topology is indicative topology to run the document security capability. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](aem-forms-architecture-deployment.md).
 
 <!--fix above link-->
 
@@ -55,8 +55,6 @@ Perform the following steps to install and configure AEM Forms on JEE:
 
 ## Next Steps {#next-steps}
 
-* [Configure client and server options](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/configuring-client-server-options.html)
-* [Create and managing policies](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/creating-policies.html)
-* [Create and managing policy sets](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/creating-policy-sets.html)
-
-<!-- Fix broken links above * Working with document security -->
+* [Configure client and server options](/help/forms/using/admin-help/configuring-client-server-options.md)
+* [Create and managing policies](/help/forms/using/admin-help/creating-policies.md)
+* [Create and managing policy sets](/help/forms/using/admin-help/creating-policy-sets.md)

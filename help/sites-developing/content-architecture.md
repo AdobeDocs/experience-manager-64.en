@@ -17,13 +17,13 @@ discoiquuid: ca46b74c-6114-458b-98c0-2a93abffcdc3
 
 David’s Model was written by David Nuescheler years ago, but the ideas hold true today. The main tenets of David’s Model are as follows:
 
-* Data first, structure later. Maybe.
+* Data comes first, structure later. Maybe.
 * Drive the content hierarchy, don’t let it happen.
-* Workspaces are for clone(), merge() and update().
+* Workspaces are for `clone()`, `merge()`, and `update()`.
 * Beware of same name siblings.
 * References are considered harmful.
 * Files are files are files.
-* ID’s are evil.
+* IDs are evil.
 
 David’s Model can be found on the Jackrabbit wiki at [https://wiki.apache.org/jackrabbit/DavidsModel](https://wiki.apache.org/jackrabbit/DavidsModel).
 

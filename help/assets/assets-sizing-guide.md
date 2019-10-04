@@ -4,14 +4,14 @@ seo-title: Assets Sizing Guide
 description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
 seo-description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
 uuid: f847c07d-2a38-427a-9c38-8cdca3a1210c
-contentOwner: Chiradeep Majumdar
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 82c1725e-a092-42e2-a43b-72f2af3a8e04
 ---
 
-# Assets Sizing Guide{#assets-sizing-guide}
+# Assets Sizing Guide {#assets-sizing-guide}
 
 When sizing the environment for an Adobe Experience Manager (AEM) Assets implementation, it is important to ensure that there are sufficient resources available in terms of disk, CPU, memory, IO, and network throughput. Sizing many of these resources requires an understanding of how many assets are being loaded into the system. If a better metric is not available, you can divide the size of the existing library by the age of the library to find the rate at which assets are created.
 
@@ -130,13 +130,13 @@ In addition, you can edit the threshold size property of the `com.day.cq.dam.com
 
 ## Maximum Number of Assets {#maximum-number-of-assets}
 
-Currently, Adobe has not tested the system for loading greater than 8 million assets. There are limitations both on the number of documents that can exist in an Oak repository and the number of files that can exist in a datastore.
+<!-- Currently, Adobe has not tested the system for loading greater than 8 million assets. There are limitations both on the number of documents that can exist in an Oak repository and the number of files that can exist in a datastore.
 
-While the limit for the number of nodes in a repository has not been determined, assuming each asset generates roughly 30 nodes, putting the 8 million asset test at 240 million nodes from the assets alone. This does not include audit logs, archived workflows, or versions.
+While the limit for the number of nodes in a repository has not been determined, assuming each asset generates roughly 30 nodes, putting the 8 million asset test at 240 million nodes from the assets alone. This does not include audit logs, archived workflows, or versions. -->
 
 The limit to the number of files that can exist in a datastore can be 2.1 billion due to filesystem limitations. It is likely that the repository encounters problems due to large number of nodes long before reaching the datastore limit.
 
-If the renditions are incorrectly generated, use the Camera Raw library. However, in this case, the longest side of the image should not be greater than 65000 pixels. In addition, the image should not contain more than 512 MP (512 &ast; 1024 &ast; 1024 pixels)'.* *The size of the asset is inconsequential.
+If the renditions are incorrectly generated, use the Camera Raw library. However, in this case, the longest side of the image should not be greater than 65000 pixels. In addition, the image should not contain more than 512 MP (512 &ast; 1024 &ast; 1024 pixels)'. *The size of the asset is inconsequential*.
 
 It is difficult to accurately estimate the size of the TIFF file supported out-of-the-box (OOTB) with a specific heap for AEM because additional factors, such as pixel size influence processing. It is possible that AEM can process a file of size of 255 MB OOTB, but cannot process a file size of 18 MB bacause the latter comprises of an unusually higher number pixels compared to the former.
 

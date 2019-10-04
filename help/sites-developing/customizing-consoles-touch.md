@@ -58,6 +58,8 @@ For example, the following locations within the `/libs` structure can be overlai
 
     * `/libs/wcm/core/content`
 
+<!-- Needs a review by Engineering -->
+<!--
 * secondary (inner) rails; for example:
 
     * `/libs/wcm/core/content/search`
@@ -80,10 +82,13 @@ For example, the following locations within the `/libs` structure can be overlai
 
     * `/libs/wcm/core/content/sites/jcr:content/body/content/content/items/childpages`
 
+-->
 >[!NOTE]
 >
 >See the Knowledge Base article, [Troubleshooting AEM TouchUI issues](https://helpx.adobe.com/experience-manager/kb/troubleshooting-aem-touchui-issues.html), for further tips and tools.
 
+<!-- Needs a review by Engineering -->
+<!--
 ## Code Samples {#code-samples}
 
 Various packages have been made available on Github. These provide code samples related to the tasks covered on this page.
@@ -109,7 +114,10 @@ You can find the code of this page on GitHub
 
 * [Open aem-admin-extension-customize-sites project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites/archive/master.zip)
+-->
 
+<!-- Needs a review by Engineering -->
+<!--
 ## Create a Custom Console {#create-a-custom-console}
 
 1. You can create a custom console with related actions; for example, Launches at the top level (below Sites):
@@ -118,28 +126,28 @@ You can find the code of this page on GitHub
 
     * creating the root space definition of your new console ``; for example:
 
-        * `/apps/<*yourProject*>/admin/ext/launches`
+        * `/apps/<yourProject>/admin/ext/launches`
 
     * this can contain (according to requirements):
 
         * the corresponding [clientlibs](/help/sites-developing/clientlibs.md) for custom actions and `less`/ `css` definitions
 
-            * `/apps/<*yourProject*>/admin/ext/launches/clientlibs`
+            * `/apps/<yourProject>/admin/ext/launches/clientlibs`
 
         * components that need to be redefined/adjusted; for example, the breadcrumbs, datasource and the launch
 
-            * `/apps/<*yourProject*>/admin/ext/launches/components`
+            * `/apps/<yourProject>/admin/ext/launches/components`
 
         * the Granite UI page resource:
 
-            * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content`
+            * `/apps/<yourProject>/admin/ext/launches/content/jcr:content`
 
               property: `sling:resourceType`
 
         * the page definition of the console
 
-            * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/head`
-            * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/body`
+            * `/apps/<yourProject>/admin/ext/launches/content/jcr:content/head`
+            * `/apps/<yourProject>/admin/ext/launches/content/jcr:content/body`
 
    ![chlimage_1-236](assets/chlimage_1-236.png)
 
@@ -157,13 +165,14 @@ You can find the code of this page on GitHub
 
     * the node is:
 
-        * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/body/rail`
+        * `/apps/<yourProject>/admin/ext/launches/content/jcr:content/body/rail`
 
     * with the following properties:
 
         * `currentId` = `cq-launches`
         * `sling:resourceType` = `granite/ui/components/endor/navcolumns`
         * `srcPath` = `cq/core/content/nav`
+-->
 
 ## Customizing the Default View for a Console {#customizing-the-default-view-for-a-console}
 
@@ -175,7 +184,7 @@ You can customize the default view (column, card, list) for a console:
 
    The first entry will be the default.
 
-   The nodes available correlate to the view options in the rail:
+   The nodes available correlate to the view options available:
 
     * `column`
     * `card`
@@ -191,6 +200,8 @@ You can customize the default view (column, card, list) for a console:
     * **Type**: `String`
     * **Value**: `column`
 
+<!-- Needs a review by Engineering -->
+<!--
 `aem-admin-extension-customize-sites` is a sample package showing how to customize an existing AEM 6 admin console. This package provides updates to Sites administration:
 
 CODE ON GITHUB
@@ -199,7 +210,10 @@ You can find the code of this page on GitHub
 
 * [Open aem-admin-extension-customize-sites project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites/archive/master.zip)
+-->
 
+<!-- Needs a review by Engineering -->
+<!--
 ### Add New Navigation Option to Rail {#add-new-navigation-option-to-rail}
 
 1. You can add a navigation entry in the rail (for example, a [custom console](#create-a-custom-console) such as Launches).
@@ -232,6 +246,7 @@ You can find the code of this page on GitHub
           for example: the same value as the `currentId` property on:
 
           `/apps/<yourProject>/admin/ext/launches/content/jcr:content/body/rail`
+-->
 
 ## Add New Action to the Toolbar {#add-new-action-to-the-toolbar}
 
@@ -241,7 +256,7 @@ You can find the code of this page on GitHub
 
    This can then be connected to a toolbar item on your console:
 
-   `/apps/<*yourProject*>/admin/ext/launches`
+   `/apps/<yourProject>/admin/ext/launches`
 
    For example, in selection mode:
 
@@ -269,6 +284,8 @@ You can find the code of this page on GitHub
 
    Using properties on this node you can define the `groups` allowed to perform the specific action; for example, `administrators`
 
+<!-- Needs a review by Engineering -->
+<!--
 ## Remove Access to Navigation Option on Rail {#remove-access-to-navigation-option-on-rail}
 
 1. You can rename a navigation entry in the rail by overlaying the required entry from under:
@@ -306,7 +323,10 @@ You can find the code of this page on GitHub
 
 * [Open aem-admin-extension-new-console project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console/archive/master.zip)
+-->
 
+<!-- Needs a review by Engineering -->
+<!--
 ## Restrict Access to Navigation Option on Rail {#restrict-access-to-navigation-option-on-rail}
 
 You can restrict access to a navigation option using ACLs:
@@ -329,6 +349,7 @@ You can restrict access to a navigation option using ACLs:
     * `commerce`
     * `tools`
     * `communities`
+-->
  
 ## Customizing Columns in the List View {#customizing-columns-in-the-list-view}
 
@@ -336,12 +357,15 @@ You can restrict access to a navigation option using ACLs:
 >
 >This feature is optimized for columns of text fields; for other data types it is possible to overlay `cq/gui/components/siteadmin/admin/listview/columns/analyticscolumnrenderer` in `/apps`.
 
+<!-- Needs a review by Engineering -->
+<!--
 CODE ON GITHUB
 
 You can find the code of this page on GitHub
 
 * [Open aem-sites-extension-listview-columns project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-sites-extension-listview-columns)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-sites-extension-listview-columns/archive/master.zip)
+-->
 
 To customize the columns in the list view:
 

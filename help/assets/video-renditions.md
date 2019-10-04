@@ -4,14 +4,14 @@ seo-title: Video renditions
 description: null
 seo-description: null
 uuid: a02f9ec1-30d9-4cbb-8746-8391ac614f0a
-contentOwner: Guillaume Carlino
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 1601b473-7227-4a56-bb7c-289de2987e4b
 ---
 
-# Video renditions{#video-renditions}
+# Video renditions {#video-renditions}
 
 Adobe Experience Manager (AEM) Assets generates video renditions for video assets of various formats including OGG, FLV, and so on.
 
@@ -23,11 +23,11 @@ The DM-encoded renditions are stored in the proxy server and served at runtime.
 
 AEM assets provide playback support for these renditions on the client side.
 
-To view the renditions of a particular video asset, open its asset page, and click/tap the GlobalNav icon. Then, choose **Renditions** from the list.
+To view the renditions of a particular video asset, open its asset page, and tap the Global Navigation icon. Then, choose **[!UICONTROL Renditions]** from the list.
 
 ![chlimage_1-478](assets/chlimage_1-478.png)
 
-The list of video renditions are displayed in the** Renditions** panel. 
+The list of video renditions are displayed in the **[!UICONTROL Renditions]** panel. 
 
 ![chlimage_1-479](assets/chlimage_1-479.png)
 

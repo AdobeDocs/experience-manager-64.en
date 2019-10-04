@@ -11,13 +11,13 @@ content-type: reference
 discoiquuid: b3cb8f12-197e-4f5e-bd7d-70b55e76b0ca
 ---
 
-# Create Comments Page{#create-comments-page}
+# Create Comments Page {#create-comments-page}
 
-**[⇐ Overlay Comments Component](/help/communities/overlay-comments.md) [Create Nodes ⇒](/help/communities/overlay-create-nodes.md)**
+**[⇐ Overlay Comments Component](overlay-comments.md) [Create Nodes ⇒](overlay-create-nodes.md)**
 
 ## Comments Page {#comments-page}
 
-The [Community Components guide](/help/communities/components-guide.md) provides the ability to easily experience overlaying the comments component.
+The [Community Components guide](components-guide.md) provides the ability to easily experience overlaying the comments component.
 
 View the page on the author instance:
 
@@ -25,4 +25,4 @@ View the page on the author instance:
 
 ![chlimage_1-125](assets/chlimage_1-125.png)
 
-**[⇐ Overlay Comments Component](/help/communities/overlay-comments.md) [Create Nodes ⇒](/help/communities/overlay-create-nodes.md)**
+**[⇐ Overlay Comments Component](overlay-comments.md) [Create Nodes ⇒](overlay-create-nodes.md)**

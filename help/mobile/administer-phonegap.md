@@ -44,4 +44,3 @@ To learn about the roles and responsibilities of an Author and Developer, see th
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/developing-in-phonegap.md)
 * [Authoring for Adobe PhoneGap Enterprise in AEM](/help/mobile/phonegap.md)
-

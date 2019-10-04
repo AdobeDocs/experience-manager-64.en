@@ -90,11 +90,6 @@ This is a list of capabilities the classic UI Site Admin ( `/siteadmin`) has and
    <td> </td> 
   </tr>
   <tr>
-   <td>Show References</td> 
-   <td>Complete</td> 
-   <td> </td> 
-  </tr>
-  <tr>
    <td>Show Publication Status</td> 
    <td>Mostly</td> 
    <td> </td> 

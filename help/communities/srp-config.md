@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 71fac7e9-814a-48b5-b816-9bdcb2a05190
 ---
 
-# Storage Configuration{#storage-configuration}
+# Storage Configuration {#storage-configuration}
 
 Storage configuration is the means of identifying the storage chosen for community content, also known as user generated content (UGC).
 
@@ -19,8 +19,8 @@ This setting informs the AEM Communities code as to which implementation of the 
 
 For a discussion of storage options and deployment topologies, visit
 
-* [Community Content Store](/help/communities/working-with-srp.md)
-* [Recommended Topologies](/help/communities/topologies.md)
+* [Community Content Store](working-with-srp.md)
+* [Recommended Topologies](topologies.md)
 
 ## Storage Configuration Console {#storage-configuration-console}
 
@@ -28,28 +28,28 @@ For a discussion of storage options and deployment topologies, visit
 
 In the author environment, to reach the storage configuration console
 
-* from global navigation: **Tools, Communities, Storage Configuration**
+* From global navigation: **[!UICONTROL Tools > Communities > Storage Configuration]**
 
 To select a storage option other than the default JCR:
 
 * select an option
-* configure appropriately
+* Configure appropriately
 
-    * see details for [selecting MSRP](/help/communities/msrp.md#select-msrp)
-    * see details for [selecting DSRP](/help/communities/dsrp.md#select-dsrp)
-    * see details for [selecting ASRP](/help/communities/asrp.md#select-asrp)
+    * See details for [selecting MSRP](msrp.md#select-msrp)
+    * See details for [selecting DSRP](dsrp.md#select-dsrp)
+    * See details for [selecting ASRP](asrp.md#select-asrp)
 
-* select **Submit**
+* Select **[!UICONTROL Submit]**
 
 ### About JCR Storage {#about-jcr-storage}
 
 Be aware that if no selection is made, the default is the AEM repository, JCR.
 
-JCR is *not *a common store shared by the author and publish environments. Community content will be visible only from the author or publish environment in which it was created.
+JCR is *not* a common store shared by the author and publish environments. Community content will be visible only from the author or publish environment in which it was created.
 
-Visit [JCR Store](/help/communities/jsrp.md) for additional information.
+Visit [JCR Store](jsrp.md) for additional information.
 
 >[!NOTE]
 >
->The absence of the node `srpc`under `/etc/socialconfig` indicates the default [JCR store](/help/communities/jsrp.md).
+>The absence of the node `srpc`under `/etc/socialconfig` indicates the default [JCR store](jsrp.md).
 

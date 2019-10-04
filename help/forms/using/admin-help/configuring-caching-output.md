@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e5398abd-f62c-485d-9f4b-a316c0de2b6b
 ---
 
-# Configuring caching for Output {#configuring-caching-for-output}
+# Configuring caching for Output  {#configuring-caching-for-output}
 
 The Output service merges XML form data with a form design created in Designer to create a document output stream in various formats.
 

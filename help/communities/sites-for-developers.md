@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: dc7a085e-d6de-4bc8-bd7e-6b43f8d172d2
 ---
 
-# Community Site Essentials{#community-site-essentials}
+# Community Site Essentials {#community-site-essentials}
 
 ## Custom Site Template {#custom-site-template}
 
@@ -19,10 +19,10 @@ A custom site template may be specified separately for each language copy of a c
 
 To do so,
 
-* create a custom template
-* overlay the default site template path
-* add the custom template to the overlay path
-* specify the custom template by adding a `page-template` property to the `configuration` node
+* Create a custom template
+* Overlay the default site template path
+* Add the custom template to the overlay path
+* Specify the custom template by adding a `page-template` property to the `configuration` node
 
 **Default template**:
 
@@ -32,15 +32,15 @@ To do so,
 
 /**apps**/social/console/components/hbs/sitepage/**&lt;*template-name*&gt;**.hbs
 
-** Property**: page-template  
-** Type**: String  
-** Value**: &lt;*template-name*&gt; (no extension)
+**Property**: page-template  
+**Type**: String  
+**Value**: &lt;*template-name*&gt; (no extension)
 
 **Configuration node**:
 
 /content/&lt;*community site path*&gt;/&lt;*lang*&gt;/configuration
 
-for example: /content/sites/engage/en/configuration
+For example: /content/sites/engage/en/configuration
 
 >[!NOTE]
 >
@@ -65,15 +65,15 @@ Identify the custom template by adding a `page-template` property to the configu
 
 ![chlimage_1-80](assets/chlimage_1-80.png)
 
-Be sure to** Save All** and replicate custom code to all AEM instances (custom code is not included when the community site content is published from the console).
+Be sure to **Save All** and replicate custom code to all AEM instances (custom code is not included when the community site content is published from the console).
 
-The recommended practice for replicating custom code is to [create a package](/help/sites-administering/package-manager.md#creating-a-new-package) and deploy it on all instances.
+The recommended practice for replicating custom code is to [create a package](../../help/sites-administering/package-manager.md#creating-a-new-package) and deploy it on all instances.
 
 ## Exporting a Community Site {#exporting-a-community-site}
 
 Once a community site is created, it is possible to export the site as an AEM package stored in package manager and available for download and upload.
 
-This is available from the [Communities Sites console](/help/communities/sites-console.md#exporting-the-site).
+This is available from the [Communities Sites console](sites-console.md#exporting-the-site).
 
 Note that UGC and custom code is not included in the community site package.
 
@@ -84,25 +84,20 @@ To export UGC, use the [AEM Communities UGC Migration Tool](https://github.com/A
 As of AEM Communities 6.3 Service Pack 1, Delete Site icon appears on hovering over the community site from Communities &gt; Sites console. During development, if it is desired to delete a community site and start fresh, you can use this functionality. Deleting a community site, removes the following items associated with that site:
 
 * [UGC](#user-generated-content)
-* [user groups](#community-user-groups)
-* [assets](#enablement-assets)
-* [database records](#database-records)
+* [User groups](#community-user-groups)
+* [Assets](#enablement-assets)
+* [Database records](#database-records)
 
 ### Community Unique Site ID {#community-unique-site-id}
 
 To identify the unique site ID associated with the community site, using CRXDE:
 
-* navigate to the language root of the site, such as
+* Navigate to the language root of the site, such as `/content/sites/*<site name>*/en/rep:policy`
 
-  `/content/sites/*<site name>*/en/rep:policy`
+* Find the `allow<#>` node with a `rep:principalName` in this format `rep:principalName = *community-enable-nrh9h-members*`
 
-* find the `allow<#>` node with a `rep:principalName` in this format:
-
-    * `rep:principalName = *community-enable-nrh9h-members*`
-
-* the site ID is the 3rd component of `rep:principalName`
-
-  for example, if `rep:principalName = community-enable-nrh9h-members`
+* The site ID is the 3rd component of `rep:principalName`
+  For example, if `rep:principalName = community-enable-nrh9h-members`
 
     * **site name** = *enable*
     * **site ID** = *nrh9h*
@@ -120,14 +115,14 @@ All UGC may be removed or for a specific site, for example:
 
 * path=/content/usergenerated/asi/mongo/content/sites/engage
 
-This only removes user generated content (entered on publish) and not authored content (entered on author). Therefore, [shadow nodes](/help/communities/srp.md#shadownodes) are not affected.
+This only removes user generated content (entered on publish) and not authored content (entered on author). Therefore, [shadow nodes](srp.md#shadownodes) are not affected.
 
 ### Community User Groups {#community-user-groups}
 
-On all author and publish instances, from the [security console](/help/sites-administering/security.md), locate and remove the [user groups](/help/communities/users.md) that are:
+On all author and publish instances, from the [security console](../../help/sites-administering/security.md), locate and remove the [user groups](users.md) that are:
 
-* prefixed with `community`
-* followed by [unique site id](#community-unique-site-id)
+* Prefixed with `community`
+* Followed by [unique site id](#community-unique-site-id)
 
 For example, `community-engage-x0e11-members`.
 
@@ -135,10 +130,10 @@ For example, `community-engage-x0e11-members`.
 
 From the main console:
 
-* select **Assets**
-* enter **Select** mode
-* select folder named with the [unique site Id](#community-unique-site-id)
-* select **Delete** (may need to select from **More...**)
+* Select **[!UICONTROL Assets]**
+* Enter **[!UICONTROL Select]** mode
+* Select folder named with the [unique site Id](#community-unique-site-id)
+* Select **[!UICONTROL Delete]** (may need to select from **[!UICONTROL More...]**)
 
 ### Database Records {#database-records}
 

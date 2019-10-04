@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: f5316a73-84e2-4a18-98c1-a384eeaa77cf
 ---
 
-# JSRP - JCR Storage Resource Provider{#jsrp-jcr-storage-resource-provider}
+# JSRP - JCR Storage Resource Provider {#jsrp-jcr-storage-resource-provider}
 
 ## About JSRP {#about-jsrp}
 
@@ -19,7 +19,7 @@ When AEM Communities uses JSRP as its storage option (the default), community co
 
 Because of the simplicity of deployment, JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance.
 
-See also [Characteristics of SRP Options](/help/communities/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](/help/communities/topologies.md).
+See also [Characteristics of SRP Options](working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](topologies.md).
 
 ## Configuration {#configuration}
 
@@ -27,37 +27,37 @@ See also [Characteristics of SRP Options](/help/communities/working-with-srp.md#
 
 By default, JSRP is the storage option for UGC.
 
-The [Storage Configuration console](/help/communities/srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
+The [Storage Configuration console](srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
 
 In the author environment, to reach the Storage Configuration console
 
-* from global navigation: **Tools, Communities, Storage Configuration**
+* From global navigation: **[!UICONTROL Tools > Communities > Storage Configuration]**
 
 ![chlimage_1-234](assets/chlimage_1-234.png)
 
-* select **JCR Storage Resource Provider (JSRP)**
-* select **Submit**
+* Select **[!UICONTROL JCR Storage Resource Provider (JSRP)]**
+* Select **[!UICONTROL Submit]**
 
 ### Publishing the Configuration {#publishing-the-configuration}
 
 While JSRP is the default configuration, to ensure the identical configuration is set in the publish environment:
 
-* on author:
+* On author:
 
-    * from global navigation: **Tools, Deployment, Replication**
-    * select **Activate Tree**
-    * **Start Path:**
+    * From global navigation: **[!UICONTROL Tools > Deployment > Replication]**
+    * Select **[!UICONTROL Activate Tree]**
+    * **[!UICONTROL Start Path]**:
 
-        * browse to `/etc/socialconfig/srpc/`
+        * Browse to `/etc/socialconfig/srpc/`
 
-    * select **Activate**
+    * Select **[!UICONTROL Activate]**
 
 ## Managing User Data {#managing-user-data}
 
 For information regarding *users*, *user profiles* and *user groups*, often entered in the publish environment, visit
 
-* [User Synchronization](/help/communities/sync.md)
-* [Managing Users and User Groups](/help/communities/users.md)
+* [User Synchronization](sync.md)
+* [Managing Users and User Groups](users.md)
 
 ## Troubleshooting {#troubleshooting}
 
@@ -69,8 +69,8 @@ On all author and publish AEM instances, revisit the Storage Configuration conso
 
 * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
-    * does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
-    * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define JSRP to be the default provider
+    * Does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
+    * If the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define JSRP to be the default provider
 
 ### UGC Not Visible on Author Instance {#ugc-not-visible-on-author-instance}
 

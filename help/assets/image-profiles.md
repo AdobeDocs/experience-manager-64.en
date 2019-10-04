@@ -1,6 +1,6 @@
 ---
-title: Image Profiles
-seo-title: Image Profiles
+title: Dynamic Media image profiles
+seo-title: Dynamic Media image profiles
 description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 seo-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 uuid: 9049fab9-d2be-4118-8684-ce58f3c8c16a
@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 4f9301db-edf8-480b-886c-b5e8fca5bf5c
 ---
 
-# Image Profiles{#image-profiles}
+# Dynamic Media image profiles {#image-profiles}
 
-When uploading images, you can automatically crop the image upon upload by applying an Image Profile to the folder.
+When uploading images, you can automatically crop the image upon upload by applying an image profile to the folder.
 
 >[!NOTE]
 >
 >Smart Crop is available only in Dynamic Media - Scene7 mode.
 
-## Crop Options {#crop-options}
+## Crop options {#crop-options}
 
 You have two image cropping options to choose from and an option for automating the creation of color and image swatches.
 
@@ -93,13 +93,13 @@ In **Unsharp Mask**, you have the following filtering options:
 
 Sharpening is described in [Sharpening Images](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
 
-## Creating image profiles {#creating-image-profiles}
+## Creating Dynamic Media image profiles {#creating-image-profiles}
 
 To define advanced processing parameters for other asset types, see [Configuring Asset Processing](config-dms7.md#configuring-asset-processing).
 
-**To create image profiles**:
+**To create Dynamic Media image profiles**:
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
 1. Tap **[!UICONTROL Create]** to add a new image profile.
 1. Enter a profile name, and values for unsharp mask, crop, or swatch, or both.
 
@@ -111,16 +111,16 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 1. Tap **[!UICONTROL Save]**. The newly created profile appears in the list of available profiles.
 
-## Editing or deleting image profiles {#editing-or-deleting-image-profiles}
+## Editing or deleting Dynamic Media image profiles {#editing-or-deleting-image-profiles}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
 1. Select the image profile you want to edit or remove. To edit it, select **[!UICONTROL Edit Image Processing Profile]**. To remove it, select **[!UICONTROL Delete Image Processing Profile]**.
 
    ![chlimage_1-254](assets/chlimage_1-254.png)
 
 1. If editing, save the changes. If deleting, confirm that you want to remove the profile.
 
-## Applying an image profile to folders {#applying-an-image-profile-to-folders}
+## Applying a Dynamic Media image profile to folders {#applying-an-image-profile-to-folders}
 
 When you assign an image profile to a folder, any subfolders automatically inherit the profile from its parent folder. This means that you can assign only one image profile to a folder. As such, consider carefully the folder structure of where you upload, store, use, and archive assets.
 
@@ -132,22 +132,22 @@ When you add smart crop to an existing image profile, you need to re-trigger the
 
 You can apply image profiles to specific folders or globally to all assets.
 
-### Applying image profiles to specific folders {#applying-image-profiles-to-specific-folders}
+### Applying Dynamic Media image profiles to specific folders {#applying-image-profiles-to-specific-folders}
 
 You can apply an image profile to a folder from within the **[!UICONTROL Tools]** menu or if you are in the folder, from **[!UICONTROL Properties]**. This section describes how to apply image profiles to folders both ways.
 
 Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-#### Applying image profiles to folders from Profiles user interface {#applying-image-profiles-to-folders-from-profiles-user-interface}
+#### Applying Dynamic Media image profiles to folders from Profiles user interface {#applying-image-profiles-to-folders-from-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
 1. Select the image profile that you want to apply to a folder or multiple folders.
 
    ![chlimage_1-255](assets/chlimage_1-255.png)
 
 1. Tap **[!UICONTROL Apply Processing Profile to Folder(s)]** and select the folder or multiple folders you want use to receive the newly uploaded assets and tap/click **[!UICONTROL Apply]**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-#### Applying image profiles to folders from Properties {#applying-image-profiles-to-folders-from-properties}
+#### Applying Dynamic Media image profiles to folders from Properties {#applying-image-profiles-to-folders-from-properties}
 
 1. Tap the AEM logo and navigate to **[!UICONTROL Assets]** and then to the folder that you want to apply an image profile to.
 1. On the folder, tap the check mark to select it and then tap **[!UICONTROL Properties]**.
@@ -155,11 +155,11 @@ Folders that have a profile already assigned to it are indicated by the display 
 
    ![chlimage_1-256](assets/chlimage_1-256.png)
 
-### Applying an image profile globally {#applying-an-image-profile-globally}
+### Applying an Dynamic Media image profile globally {#applying-an-image-profile-globally}
 
 In addition to applying a profile to a folder, you can also apply one globally so that any content uploaded into AEM assets in any folder has the selected profile applied.
 
-**To apply an image profile globally**:
+**To apply an Dynamic Media image profile globally**:
 
 1. Do one of the following:
 
@@ -169,7 +169,7 @@ In addition to applying a profile to a folder, you can also apply one globally s
 
     * Navigate to CRXDE Lite to the following node: `/content/dam/jcr:content`.
 
-      Add the property `imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/&lt;name of image profile&gt;` and tap **[!UICONTROL Save All]**. 
+      Add the property `imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/<name of image profile>` and tap **[!UICONTROL Save All]**.
 
       ![configure_image_profiles](assets/configure_image_profiles.png)
 
@@ -186,6 +186,8 @@ After you edit a smart crop and save, the change is propagated everywhere you us
 You can re-run smart crop to generate the additional crops again, if required.
 
 See also [Editing the smart crop or smart swatch of multiple images](#editing-the-smart-crop-or-smart-swatch-of-multiple-images).
+
+**To edit the smart crop or smart swatch of a single image**:
 
 1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**, then to the folder that has a smart crop or smart swatch image profile applied to it.  
 
@@ -209,6 +211,8 @@ After you apply an image profile&mdash;containing Smart Crop&mdash;to a folder, 
 After you edit a smart crop and save, the change is propagated everywhere you use the crop for the specific images.
 
 You can re-run smart crop to generate the additional crops again, if required.
+
+**To edit the smart crop or smart swatch of multiple images**:
 
 1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**, then to a folder that has a smart crop or smart swatch image profile applied to it.
 1. On the folder, tap the **[!UICONTROL More Actions]** (...) icon, then tap **[!UICONTROL Smart Crop]**.  
@@ -255,15 +259,15 @@ When you remove an image profile from a folder, any subfolders automatically inh
 
 You can remove an image profile from a folder from within the **[!UICONTROL Tools]** menu or if you are in the folder, from **[!UICONTROL Properties]**. This section describes how to remove image profiles from folders both ways.
 
-### Removing image profiles from folders via Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
+### Removing Dynamic Media image profiles from folders by way of Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools &gt; Assets &gt; Image Profiles]**.
+1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
 1. Select the image profile that you want to remove from a folder or multiple folders.
 1. Tap **[!UICONTROL Remove Processing Profile from Folder(s)]** and select the folder or multiple folders you want use to remove the profile from and tap **[!UICONTROL Remove]**.
 
     You can confirm that the image profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-### Removing image profiles from folders by way of Properties {#removing-image-profiles-from-folders-via-properties}
+### Removing Dynamic Media image profiles from folders by way of Properties {#removing-image-profiles-from-folders-via-properties}
 
 1. Tap the AEM logo and navigate **[!UICONTROL Assets]** and then to the folder that you want to remove an image profile from.
 1. On the folder, tap the check mark to select it, then tap **[!UICONTROL Properties]**.

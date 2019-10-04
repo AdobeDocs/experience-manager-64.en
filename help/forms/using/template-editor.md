@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 155aaf96-1e9c-4e73-8e43-d96878d69b16
 ---
 
-# Adaptive Form Templates{#adaptive-form-templates}
+# Adaptive Form Templates {#adaptive-form-templates}
 
 When you author a form, you add fields and components to define form structure, content, and actions in the editor. You add fields and components in the `guideRootPanel` of the form container. With Template Editor, you can create a template that contains basic structure and initial content that authors can use to create forms.
 
@@ -22,7 +22,7 @@ For example, you want all form authors to have certain text boxes, navigation bu
 
 ## Working with templates {#working-with-templates}
 
-You can access template editor from the Tools menu by navigating to **Adobe Experience Manager &gt; Tools &gt; Templates**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](/help/sites-developing/page-templates-editable.md).
+You can access template editor from the Tools menu by navigating to **[!UICONTROL Adobe Experience Manager > Tools > Templates]**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](/help/sites-developing/page-templates-editable.md).
 
 Once you tap to open a folder, you will find a Create button that allows creating a new template for adaptive forms.
 
@@ -30,14 +30,13 @@ Once you tap to open a folder, you will find a Create button that allows creatin
 
 After you have created a folder, open the folder and perform the following steps to create a template:
 
-1. In the Template console, tap **Create** inside the folder you have created.
-1. In the Pick a Template Type section, select **Adaptive Form Template **and tap **Next**.
-
-1. In the Template Details section, provide a Template Title and tap **Create**.
+1. In the Template console, tap **[!UICONTROL Create]** inside the folder you have created.
+1. In the Pick a Template Type section, select **[!UICONTROL Adaptive Form Template]** and tap **[!UICONTROL Next]**.
+1. In the Template Details section, provide a Template Title and tap **[!UICONTROL Create]**.
 
    You can provide a description and thumbnail that you can see when you can select the created template at the time of form authoring.
 
-1. Tap **Done** to return to the console, or tap **Open** to open the template in the editor.
+1. Tap **[!UICONTROL Done]** to return to the console, or tap **[!UICONTROL Open]** to open the template in the editor.
 
 ### Template editor UI {#template-editor-ui}
 
@@ -76,7 +75,7 @@ When you select the structure layer in the Template Editor, you can see the layo
 
 ![Layout container in the structure layer](assets/header-layer-selector.png)
 
-Layout containers in the structure layer
+**Figure:** *Layout containers in the structure layer*
 
 **A.** Layout container for Header component **B.** Layout container for Footer component
 
@@ -86,7 +85,7 @@ Similarly, when you drag-drop the footer component in the layout container below
 
 ![Header and footer added in the Structure layer](assets/header-and-footer.png)
 
-Header and footer added in the Structure layer
+**Figure:** *Header and footer added in the Structure layer*
 
 #### Locking/unlocking components in the structure layer {#locking-unlocking-components-in-the-structure-layer}
 
@@ -102,7 +101,8 @@ For example, you add the header component in the template. When you select the c
 
 When the Initial Content option is selected, the Adaptive Form Container of the template opens like an adaptive form for editing. Like authoring an adaptive form, you can specify initial settings, such as selecting a theme and submit actions.
 
-Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png)**&gt; Initial Content**. 
+Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png)**[!UICONTROL > Initial Content]**. 
+
     [ ![Initial Content layer in Template Editor](assets/initial-content-layer.png)
 
 Initial Content layer in Template Editor showing Adaptive Form Container selected for specifying properties.
@@ -126,7 +126,7 @@ You have added a logo, provided a title, and added a footer in the structure lay
 
 Change the layer from Structure to Initial Content, and start adding content to the form. To create a tabbed structure, add a child Panel in the guideRootPanel of the Adaptive Form container. To add a panel:
 
-* You can add a panel by tapping the **+** button when you select the **Drag components here **option. 
+* You can add a panel by tapping the **+** button when you select the **Drag components here** option. 
 
 * You can drag-drop the panel component from the components browser in the sidebar. 
 * You can add child panel of the `guideRootPanel` from the component toolbar.
@@ -139,9 +139,9 @@ To create the General Information and Professional Information tabs, add two pan
 
 Adding fields in the template
 
-](assets/template-edit-initial-content-1.png) After you add panels and structure them as tabs, you can add fields inside the tabs. When you select a tab in the editor, you can see the **Drag components here** option. You can drag-drop components such as text-boxes, list items, and buttons. You can drag-drop components from the components browser in the sidebar.
+](assets/template-edit-initial-content-1.png) After you add panels and structure them as tabs, you can add fields inside the tabs. When you select a tab in the editor, you can see the **[!UICONTROL Drag components here]** option. You can drag-drop components such as text-boxes, list items, and buttons. You can drag-drop components from the components browser in the sidebar.
 
-Each component has properties that enhance data capturing and manipulation. For example, you can enable the **Required field** property of a component. Your authors can specify a message that your customers see when they skip filling a required field. Specify the message in **Required Field Message** property.
+Each component has properties that enhance data capturing and manipulation. For example, you can enable the **[!UICONTROL Required field]** property of a component. Your authors can specify a message that your customers see when they skip filling a required field. Specify the message in **[!UICONTROL Required Field Message]** property.
 
 In the example template, Name, Phone number, and Date of birth fields are added in the General Information tab. In the Professional Information tab, Currently employed, employment type, Educational qualification fields are added.
 
@@ -151,10 +151,10 @@ After you have added fields, you can add buttons such as Submit and Reset.
 
 When you create a template, it is added as a draft. Enable the template to use it for creating adaptive forms. To enable a template:
 
-1. Navigate to **Adobe Experience Manager &gt; Tools &gt; Templates**, and open the folder in which you have created the template.  
+1. Navigate to **[!UICONTROL Adobe Experience Manager > Tools > Templates]**, and open the folder in which you have created the template.  
 
 1. The template you have created is marked as Draft.  
-1. Select the template and tap **Enable** in the toolbar.
+1. Select the template and tap **[!UICONTROL Enable]** in the toolbar.
 
    When you create an adaptive form, you can see the template listed when you are asked to choose a template.
 
@@ -172,18 +172,18 @@ You can create custom templates for adaptive forms to define basic structure and
 
 Perform the following steps to show and hide templates:
 
-1. Log in to AEM Forms author instance and navigate to **Tools** &gt; **Operations** &gt; **Web Console**.
+1. Log in to AEM Forms author instance and navigate to **[!UICONTROL Tools > Operations > Web Console]**.
 
    >[!NOTE]
    >
    >The URL of AEM web console is `https://[server]:[port]/system/console/configMgr`
 
-1. Locate and open the **FormsManager Configuration** settings:
+1. Locate and open the **[!UICONTROL FormsManager Configuration]** settings:
 
     * To show or hide out of the box adaptive forms template, check or uncheck the **Include Out of the box AF and AD Templates **option.
-    * To show or hide out of the box adaptive form templates that were added in AEM 6.0 Forms or AEM 6.1 Forms releases but are now deprecated, check or uncheck the **Include AEM 6.0 AF Templates **option. If this option is checked, in order to take effect, it requires the **Include Out of the box AF and AD Templates** configuration to be enabled.
+    * To show or hide out of the box adaptive form templates that were added in AEM 6.0 Forms or AEM 6.1 Forms releases but are now deprecated, check or uncheck the **Include AEM 6.0 AF Templates **option. If this option is checked, in order to take effect, it requires the **[!UICONTROL Include Out of the box AF and AD Templates]** configuration to be enabled.
 
-1. Click **Save**. The display options for the out of the box templates are changed.
+1. Click **[!UICONTROL Save]**. The display options for the out of the box templates are changed.
 
 ## Recommendations {#recommendations}
 

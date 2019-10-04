@@ -58,6 +58,7 @@ There are two image sharpening methods that you can use:
         * **[!UICONTROL radius]** (0-250, width of the "sharpening lines" drawn around the sharpened object, as measured in pixels.)
 
           Keep in mind that the parameters radius and amount work against each other. Reducing radius can be compensated by increasing amount. Radius allows finer control as a lower value sharpens only the edge pixels, whereas a higher value sharpens a wider band of pixels.
+          
         * **[!UICONTROL threshold]** (0-255, sensitivity of effect.)
 
           This parameter determines how different the sharpened pixels must be from the surrounding area before they are considered edge pixels and the filter sharpens them. The **[!UICONTROL threshold]** parameter helps to avoid over-sharpening areas with similar colors, such as skin tones. For example, a threshold value of 12 ignores slight variations in skin tone brightness to avoid adding "noise", while still adding edge contrast to high contrast areas, such as where eyelashes meet skin.

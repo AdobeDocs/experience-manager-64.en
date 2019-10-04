@@ -29,11 +29,11 @@ If your project uses any form of development iteration (involving multiple relea
 * the results seen for tests repeated in various iterations. 
 * that priority tests and tests on basic features are repeated at regular intervals.
 
-## Tester 
+## Tester
 
 At some point you can assign either the appropriate test team, or a specific test person (possibly dependent on availability and/or experience).
 
-## Summary or Overview** 
+## Summary or Overview
 
 For reporting purposes you will want to provide an overview of the testing results:
 

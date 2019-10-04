@@ -70,7 +70,7 @@ For example, a custom pag component can include a page property that authors use
 
 ### Implementing an Analytics Page Name Provider Service {#implementing-an-analytics-page-name-provider-service}
 
-Implement the `com.day.cq.analytics.sitecatalyst.AnalyticsPageNameProvider` interface as an OSGi service to customize the logic that retrieves the s.pageName property value. The Sites page analytics and Content Insight use the service to retrieve report data from Analytics.
+Implement the `com.day.cq.analytics.sitecatalyst.AnalyticsPageNameProvider` interface as an OSGi service to customize the logic that retrieves the `s.pageName` property value. The Sites page analytics and Content Insight use the service to retrieve report data from Analytics.
 
 The AnalyticsPageNameProvider interface defines two methods that you must implement:
 
@@ -92,7 +92,7 @@ The class also provides a setter for the page name.
 The following example `AnalyticsPageNameProvider` implementation supports a custom page component:
 
 * The component extends the foundation page component.
-* The dialog includes a field that authors use to specify the value of the `s.pageName` property.
+* The dialog box includes a field that authors use to specify the value of the `s.pageName` property.
 * The property value is stored in the pageName property of the `jcr:content`node of the page instances.
 * The analytics property that stores the `s.pageName` property is called `pagedata.pagename`. This property is mapped to the `s.pageName` property in the Analytics framework.
 
@@ -156,7 +156,7 @@ The following code represents the entire class, including SCR annotations that c
  * ADOBE CONFIDENTIAL
  * __________________
  *
- * Copyright 2018 Adobe Systems Incorporated
+ * Copyright 2019 Adobe Systems Incorporated
  * All Rights Reserved.
  *
  * NOTICE:  All information contained herein is, and remains

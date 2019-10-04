@@ -11,28 +11,27 @@ content-type: reference
 discoiquuid: d11b8fc8-5e98-4a77-a536-d445ac88e1b3
 ---
 
-# Moderating Community Content{#moderating-community-content}
+# Moderating Community Content {#moderating-community-content}
 
 ## Overview {#overview}
 
 Community content, also known as user generated content (UGC), is created when a member (signed in site visitor) posts content from a published community site through interaction with one of the following community components:
 
-* [blog](/help/communities/blog-feature.md): members post a blog article or comment
-* [calendar](/help/communities/calendar.md): members post a calendar event or comment
-* [comments](/help/communities/comments.md): members post a comment or reply to a comment  
-
-* [forum](/help/communities/forum.md): members post a new topic or reply to a topic
-* [ideation](/help/communities/ideation-feature.md): members post an idea or comment
-* [QnA](/help/communities/working-with-qna.md): members create a question or answer a question
-* [reviews](/help/communities/reviews.md): members post a comment when rating an item
+* [Blog](blog-feature.md): members post a blog article or comment
+* [Calendar](calendar.md): members post a calendar event or comment
+* [Comments](comments.md): members post a comment or reply to a comment  
+* [Forum](forum.md): members post a new topic or reply to a topic
+* [Ideation](ideation-feature.md): members post an idea or comment
+* [QnA](working-with-qna.md): members create a question or answer a question
+* [Reviews](reviews.md): members post a comment when rating an item
 
 Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments:
 
-* [bulk moderation console](/help/communities/moderation.md) 
+* [Bulk moderation console](moderation.md) 
 
-  The Moderation console is accessible by administrators and [community moderators](/help/communities/users.md) in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a [common store](/help/communities/working-with-srp.md).
+  The Moderation console is accessible by administrators and [community moderators](users.md) in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a [common store](working-with-srp.md).
 
-* [in-context moderation](/help/communities/in-context.md)
+* [In-context moderation](in-context.md)
 
   Moderation in the publish environment may be performed by administrators and community moderators directly on the page where the content was posted.
 
@@ -41,24 +40,15 @@ Moderation of UGC is useful for recognizing positive contributions as well as li
 The actions which can be performed on posted content (UGC) varies depending on the user identity and the environment. The table below uses the following terminology to describe the various roles according to user identity:
 
 * `Admin`  
-
-  a user who is a member of [community-administrators](/help/communities/users.md) group
-
+  A user who is a member of [community-administrators](users.md) group
 * `Moderator` 
-
-  a member of a [community moderators](/help/communities/users.md#publishenvironmentusersandgroups) group (has [moderator permissions](/help/communities/in-context.md#moderatorpermissions))
-
+  A member of a [community moderators](users.md#publishenvironmentusersandgroups) group (has [moderator permissions](in-context.md#moderatorpermissions))
 * `Creator`  
-
-  the user who posted the content
-
+  The user who posted the content
 * `Member`  
-
-  a signed-in user without special permissions
-
+  A signed-in user without special permissions
 * `Visitor` 
- 
-  an anonymous user
+  An anonymous user
 
 <table> 
  <tbody>
@@ -183,15 +173,13 @@ The Allow action is an option for UGC that has been Flagged, Denied or has not b
 
 ### Premoderation {#premoderation}
 
-When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a [community site](/help/communities/sites-console.md), checking the box ` [Content is Premoderated](/help/communities/sites-console.md#moderation)` will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog:
+When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a [community site](sites-console.md), checking the box ` [Content is Premoderated](sites-console.md#moderation)` will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog:
 
-* [comments](/help/communities/comments.md) and [reviews](/help/communities/reviews.md)
+* [Comments](comments.md) and [reviews](reviews.md)
 
-  on **User Moderation** tab, check **Pre-Moderation**
+  on **[!UICONTROL User Moderation]** tab, check **[!UICONTROL Pre-Moderation]**
 
-* [forum](/help/communities/forum.md), [ideation](/help/communities/ideation-feature.md), [QnA](/help/communities/working-with-qna.md), and [calendar](/help/communities/calendar.md)
-
-  on **Settings** tab, check **Moderated**
+* [Forum](forum.md), [ideation](ideation-feature.md), [QnA](working-with-qna.md), and [calendar](calendar.md) on **[!UICONTROL Settings]** tab, check **[!UICONTROL Moderated]**
 
 ### Spam Detection {#spam-detection}
 
@@ -199,7 +187,7 @@ Spam detection is an auto-moderation functionality, which filters out undesireab
 
 `/libs/settings/community/sites/moderation/spamdetector-conf/profiles/spam_words.txt`.
 
-However, to customize or extend the default spam words create a set of words in the /apps directory following the structure of the default spam words by means of [overlay](/help/communities/overlay-comments.md).
+However, to customize or extend the default spam words create a set of words in the /apps directory following the structure of the default spam words by means of [overlay](overlay-comments.md).
 
 A user generated post (across all the content types, for example blogs, forums, and comments) containing spam word(s) is marked with the text “This post was classified as spam” above the post.
 
@@ -209,10 +197,10 @@ Moderator can see such a post and mark the same to allow or deny from appearing 
 
 To enable spam detection engine, follow these steps:
 
-1. Open [Web Console](http://localhost:4502/system/console/configMgr), by going to /system/console/configMgr.
+1. Open [Web Console](http://localhost:4502/system/console/configMgr), by going to `/system/console/configMgr`.
 
-1. Locate **AEM Communities Auto Moderation** configuration, and edit it.
-1. Add the "SpamProcess" entry.
+1. Locate **[!UICONTROL AEM Communities Auto Moderation]** configuration, and edit it.
+1. Add the `SpamProcess` entry.
 
 ![spamprocess](assets/spamprocess.png)
 
@@ -239,7 +227,7 @@ To overwrite or add rules, create a set of rules in the /apps directory followin
 
 Once analyzed, the sentiment is stored with the UGC.
 
-From the [bulk moderation console](/help/communities/moderation.md), it is possible to filter and view UGC based on whether the sentiment is negative, neutral, or positive.
+From the [bulk moderation console](moderation.md), it is possible to filter and view UGC based on whether the sentiment is negative, neutral, or positive.
 
 #### Watchwords {#watchwords}
 
@@ -255,11 +243,11 @@ The **sentimentprocess.name** may also be modifed to reference the location of a
 
 To configure sentiment and watchwords:
 
-* on an author instance
-* sign in as administrator
-* open [Web Console](http://localhost:4502/system/console/configMgr)
-* locate `sentimentprocess.name`
-* select the configuration to open in edit mode
+* On an author instance
+* Sign in as administrator
+* Open [Web Console](http://localhost:4502/system/console/configMgr)
+* Locate `sentimentprocess.name`
+* Select the configuration to open in edit mode
 
 ![sentimentprocess](assets/sentimentprocess.png)
 

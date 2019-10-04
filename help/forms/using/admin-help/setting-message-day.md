@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c2b3a412-70c2-4257-bfb4-1430bb1f8891
 ---
 
-# Setting the message of the day{#setting-the-message-of-the-day}
+# Setting the message of the day {#setting-the-message-of-the-day}
 
 You can set a message to be displayed on the Welcome page in the Workspace user interface.
 

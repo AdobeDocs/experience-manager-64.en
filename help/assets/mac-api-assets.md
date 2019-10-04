@@ -6,28 +6,22 @@ seo-description: Learn about the implementation, data model, and features of Ass
 uuid: ab709c58-c9a6-48da-84da-866655c84658
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: extending-assets
-content-type: reference
 discoiquuid: 68d49096-959b-4751-abf1-23bedbaed9a0
 ---
 
-# Assets HTTP API{#assets-http-api}
+# Assets HTTP API {#assets-http-api}
 
 ## Overview {#overview}
 
-The Assets HTTP API is a specific part of the general Marketing Cloud API. For general documentation, see Marketing Cloud API user documentation.
-
-The Assets HTTP API is exposed at */api/assets*, and allows for create-read-update-delete (CRUD) operations on Assets, including binary, metadata, renditions, and comments.
-
-## Current implementation {#current-implementation}
-
-The Assets HTTP API was first introduced with Adobe Experience Manager (AEM) Assets 6.1.
+The Assets HTTP API is a specific part of the general Marketing Cloud API. For general documentation, see Marketing Cloud API user documentation. The Assets HTTP API is available at `/api/assets`, and allows for create-read-update-delete (CRUD) operations on Assets, including binary, metadata, renditions, and comments.
 
 To access the API:
 
-1. Start AEM
-1. Open the API Service Document at `https://<*hostname*>:<*port*>/api.json`
-1. Follow the Assets service link.
+1. Open the API service document at `http://[hostname]:[port]/api.json`.
+
+1. Follow the Assets service link  leading to `http://[hostname]:[server]/api/assets.json`.
+
+The API's response is a JSON for some mime types and a response code for all mime types. The JSON response is optional and may not be available, for example for PDF files. Rely on the response code for further analysis or actions.
 
 ## Data model {#data-model}
 
@@ -46,6 +40,10 @@ name  -- Name of the folder. This is the same as the last segment in the URL pat
 title -- Optional title of the folder which can be displayed instead of its name
 ```
 
+>[!NOTE]
+>
+>Some properties of folder or asset are mapped to a different prefix. The JCR prefix of `jcr:title`, `jcr:description`, and `jcr:language` are replaced with `dc` prefix. Hence in the returned JSON, `dc:title` and `dc:description` contain the values of `jcr:title` and `jcr:description`, respectively.
+
 **Links**
 
 Folders expose three links:
@@ -58,17 +56,17 @@ thumbnail -- (Optional) link to a folder thumbnail image
 
 ### Assets {#assets}
 
-Assets are actually multi-part elements:
+Assets are multi-part elements, that include:
 
-* The properties and metadata of the asset
-* Multiple renditions such as the original rendition (which is the originally uploaded asset), a thumbnail and various other renditions. Additional renditions may be images of different sizes, different video encodings, or extracted pages from PDF or InDesign.
-* Optional comments
+* The properties and metadata of the asset.
+* Multiple renditions such as the original rendition (which is the originally uploaded asset), a thumbnail and various other renditions. Additional renditions may be images of different sizes, different video encodings, or extracted pages from PDF or Adobe InDesign.
+* Optional comments.
 
 Folders have the following components:
 
 **Entities**
 
-The children of Assets are its renditions.
+The children of assets are its renditions.
 
 **Properties**
 
@@ -97,8 +95,8 @@ The Assets HTTP API includes the following features:
 **Prerequisites**
 
 * Go to *https://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
-* Navigate to **Adobe Granite CSRF Filter**.
-* Make sure the property **Filter Methods** incudes: POST, PUT, DELETE.
+* Navigate to **[!UICONTROL Adobe Granite CSRF Filter]**.
+* Make sure the property **[!UICONTROL Filter Methods]** incudes: POST, PUT, DELETE.
 
 ### Retrieve a Folder Listing {#retrieve-a-folder-listing}
 
@@ -210,7 +208,7 @@ PUT /api/assets/myfolder/myAsset.png -H"Content-Type: image/png" --data-binary @
 
 ### Update Asset metadata {#update-asset-metadata}
 
-Updates the Asset metadata properties.
+Updates the asset metadata properties.
 
 **Request**
 

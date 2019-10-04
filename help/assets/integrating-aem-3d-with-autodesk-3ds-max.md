@@ -11,7 +11,7 @@ topic-tags: 3D
 discoiquuid: 0d7fefc0-6923-4ac3-9e90-335c08fa56f0
 ---
 
-# Integrating AEM 3D with Autodesk 3ds Max{#integrating-aem-d-with-autodesk-ds-max}
+# Integrating AEM 3D with Autodesk 3ds Max {#integrating-aem-d-with-autodesk-ds-max}
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ See also [Integrating AEM 3D with AutoDesk Maya](integrate-maya-with-3d.md).
    >
    >To avoid access denied issues, install 3ds Max using the same admin user account as AEM.
 
-1. In 3ds Max, click **[!UICONTROL Customize &gt; Plug-in Manager]**.
+1. In 3ds Max, click **[!UICONTROL Customize > Plug-in Manager]**.
 
    Locate `FBXMAX.DLU` and verify that its **[!UICONTROL Status]** is **[!UICONTROL loaded**.
 

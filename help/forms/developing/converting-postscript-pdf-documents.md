@@ -21,7 +21,7 @@ The Distiller® service converts PostScript®, Encapsulated PostScript (EPS), an
 >
 >For more information about the Distiller service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
-## Converting PostScript to PDF documents {#converting-postscript-to-pdf-documents}
+## Converting PostScript to PDF documents {#converting-postscript-to-pdf-documents-inner}
 
 This topic describes how you can use the Distiller Service API (Java and web service) to programmatically convert PostScript (PS), Encapsulated PostScript (EPS), and PRN files to PDF documents.
 

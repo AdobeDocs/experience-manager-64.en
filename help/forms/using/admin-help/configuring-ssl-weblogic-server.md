@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 968c2574-ec9a-45ca-9c64-66f4caeec285
 ---
 
-# Configuring SSL for WebLogic Server{#configuring-ssl-for-weblogic-server}
+# Configuring SSL for WebLogic Server {#configuring-ssl-for-weblogic-server}
 
 To configure SSL on WebLogic Server, you need an SSL credential for authentication. You can use Java keytool to perform the following tasks to create a credential:
 
@@ -25,14 +25,14 @@ Then, configure WebLogic so that it uses the Custom Identity keystore and Custom
 The keytool command is typically located in the Java jre/bin directory and must include several options and option values, which are listed in the following table.
 
 <table> 
- <thead align="left"> 
+ <thead> 
   <tr> 
    <th><p>Keytool option</p></th> 
    <th><p>Description</p></th> 
    <th><p>Option value</p></th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><p>-alias</p></td> 
    <td><p>The alias of the keystore.</p></td> 
@@ -103,11 +103,11 @@ For more information about using the keytool command, see the keytool.html file 
 1. From a command prompt, navigate to *[appserverdomain]*/adobe/*[server name]*.
 1. Enter the following command:
 
-   `[*JAVA_HOME*]/bin/keytool -genkey -v -alias ads-credentials -keyalg RSA -keystore "ads-credentials.jks" -validity 3650 -storepass *store_password* -keypass *key_password* -dname "CN=*Hostname*, OU=*Group Name*, O=*Company**Name*, L=*City Name*, S=*State*,C=*Country Code*`
+   `[JAVA_HOME]/bin/keytool -genkey -v -alias ads-credentials -keyalg RSA -keystore "ads-credentials.jks" -validity 3650 -storepass store_password -keypass key_password -dname "CN=Hostname, OU=Group Name, O=Company Name, L=City Name, S=State,C=Country Code`
 
    >[!NOTE]
    >
-   >Replace `*[JAVA_HOME] *`*with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.*
+   >Replace `[JAVA_HOME]`*with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.*
 
    For example:
 
@@ -115,11 +115,11 @@ For more information about using the keytool command, see the keytool.html file 
    C:\Program Files\Java\jrockit-jdk1.6.0_24-R28\bin\keytool" -genkey -v -alias ads-credentials -keyalg RSA -keystore "ads-credentials.jks" -validity 3650 -storepass P@ssw0rd -keypass P@ssw0rd -dname "CN=wasnode01, OU=LC, O=Adobe, L=Noida, S=UP,C=91
    ```
 
-   The Custom Identity keystore file named ‘‘ads-credentials.jks” is created in the [*appserverdomain*]/adobe/[*server name*] directory. 
+   The Custom Identity keystore file named ‘‘ads-credentials.jks” is created in the [appserverdomain]/adobe/[server name] directory. 
 
 1. Extract the certificate from the ads-credentials keystore by entering the following command:
 
-   *[JAVA_HOME]* `/bin/keytool -export -v -alias ads-credentials`
+   [JAVA_HOME]`/bin/keytool -export -v -alias ads-credentials`
 
    `-file "ads-ca.cer" -keystore "ads-credentials.jks"`
 
@@ -127,7 +127,7 @@ For more information about using the keytool command, see the keytool.html file 
 
    >[!NOTE]
    >
-   >Replace `*[JAVA_HOME]*` with the directory where the JDK is installed, and replace `*store*`*_* `*password*`* with the password for the Custom Identity keystore.*
+   >Replace `[JAVA_HOME]` with the directory where the JDK is installed, and replace `store`*_* `password`* with the password for the Custom Identity keystore.*
 
    For example:
 
@@ -135,16 +135,16 @@ For more information about using the keytool command, see the keytool.html file 
    C:\Program Files\Java\jrockit-jdk1.6.0_24-R28\bin\keytool" -export -v -alias ads-credentials -file "ads-ca.cer" -keystore "ads-credentials.jks" -storepass P@ssw0rd
    ```
 
-   The certificate file named “ads-ca.cer” is created in the [*appserverdomain*]/adobe/[*server name*] directory. 
+   The certificate file named “ads-ca.cer” is created in the [appserverdomain]/adobe/[*server name*] directory. 
 
 1. Copy the ads-ca.cer file to any host computers that need secure communication with the application server.
 1. Insert the certificate into a new keystore file (the Custom Trust keystore) by entering the following command:
 
-   *[JAVA_HOME]* `/bin/keytool -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass *store_password* -keypass *key_password*`
+   [JAVA_HOME] `/bin/keytool -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass store_password -keypass key_password`
 
    >[!NOTE]
    >
-   >Replace `*[JAVA_HOME]*` with the directory where the JDK is installed, and replace `*store*`*_* `*password*` and `*key*`*_* `*password*`* with your own passwords.*
+   >Replace `[JAVA_HOME]` with the directory where the JDK is installed, and replace `store`*_* `password` and `key`*_* `password` *with your own passwords.*
 
    For example:
 
@@ -152,14 +152,14 @@ For more information about using the keytool command, see the keytool.html file 
    C:\Program Files\Java\jrockit-jdk1.6.0_24-R28\bin\keytool" -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass Password1 -keypass Password1
    ```
 
-The Custom Trust keystore file named ‘‘ads-ca.jks’’ is created in the [**appserverdomain**]/adobe/[*server*] directory.
+The Custom Trust keystore file named ‘‘ads-ca.jks’’ is created in the [appserverdomain]/adobe/[server] directory.
 
 Configure WebLogic so that it uses the Custom Identity keystore and Custom Trust keystore that you created. Also, disable the WebLogic Hostname Verification feature because the distinguished name used to create the keystore files did not include the name of the computer that hosts WebLogic Server.
 
 ## Configure WebLogic to use SSL {#configure-weblogic-to-use-ssl}
 
 1. Start the WebLogic Server administration console by typing `https://`*[host name]* `:7001/console` in the URL line of a web browser. 
-1. Under Environment, in Domain Configurations, select **Servers &gt; [*server*] &gt; Configuration &gt; General**.
+1. Under Environment, in Domain Configurations, select **Servers &gt; [server] &gt; Configuration &gt; General**.
 1. Under General, in Configuration, ensure that **Listen Port Enabled** and **SSL Listen Port Enabled** are selected. If not enabled, do the following:
 
     1. Under the Change Center, click **Lock & Edit** to modify selections and values.

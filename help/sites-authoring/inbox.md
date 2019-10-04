@@ -61,7 +61,7 @@ Out-of-the-box AEM comes pre-loaded with four tasks assigned to the administrato
 * [Configure Analytics & Targeting](/help/sites-administering/opt-in.md)
 * [Apply the AEM Security Checklist](/help/sites-administering/security-checklist.md)
 * Enable Aggregated Usage Statistics Collection
-* [Configure HTTPS](/help/sites-deploying/config-ssl.md)
+* [Configure HTTPS](/help/sites-administering/ssl-by-default.md)
 
 ## Opening the Inbox {#opening-the-inbox}
 

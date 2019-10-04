@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 65040923-a8a8-4e27-82c0-67a04348e238
 ---
 
-# Viewing 3D assets{#viewing-d-assets}
+# Viewing 3D assets {#viewing-d-assets}
 
 This document describes both how to view 3D assets in asset details and how to view assets that are in the 3D component in sites.
 
@@ -40,14 +40,14 @@ The time it takes to open a 3D asset in the asset details page view depends on s
 
 In addition, the capabilities of the client computer-such as a workstation, notebook, or mobile touch device-are also important to consider when you manipulate the camera interactively. A reasonably powerful system with good graphics capabilities can make the interactive 3D viewing experience smoother and more favorable.
 
-To view 3D assets:
+**To view 3D assets**:
 
 1. Make sure you have uploaded 3D assets into AEM. 
    
    See [About the uploading and processing of 3D assets in AEM](upload-processing-3d-assets.md).
 
-1. From **Adobe Experience Manager**, on the **Navigation** page, tap **Assets**.
-1. Near the upper-right corner of the page, from the View drop-down list, tap **Card View**.
+1. From AEM, on the **[!UICONTROL Navigation]** page, tap **[!UICONTROL Assets]**.
+1. Near the upper-right corner of the page, from the **[!UICONTROL View]** drop-down list, tap **[!UICONTROL Card View]**.
 1. Navigate to a 3D asset that you want to view.
 1. Tap the card of the 3D asset to open it in the asset details page.  
 1. Do any of the following:
@@ -95,7 +95,7 @@ To view 3D assets:
     </tbody> 
     </table>
 
-    * Near the upper-right corner of the asset details page, tap the Stage Selector icon. Select a stage name with the background and lighting that you want to apply to the 3D asset.
+    * Near the upper-right corner of the asset details page, tap the **[!UICONTROL Stage Selector]** icon. Select a stage name with the background and lighting that you want to apply to the 3D asset.
 
    ![chlimage_1-140](assets/chlimage_1-140.png)
 
@@ -103,7 +103,7 @@ To view 3D assets:
 
    See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
-    * Near the upper-right corner of the asset details page, tap the Camera Selector icon, then select a camera view that you want to apply to the 3D asset.
+    * Near the upper-right corner of the asset details page, tap the **[!UICONTROL Camera Selector]** icon, then select a camera view that you want to apply to the 3D asset.
 
    ![chlimage_1-141](assets/chlimage_1-141.png)
 
@@ -111,14 +111,14 @@ To view 3D assets:
 
    See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
-1. In the upper-right corner of the page, tap **Save**.
+1. In the upper-right corner of the page, tap **[!UICONTROL Save]**.
 1. Do one of the following:
 
     * Render the 3D asset.  
 
       See [Rendering 3D assets](rendering-3d-assets.md).
   
-    * In the upper-right corner of the page, tap **Close** to return to the Assets page.
+    * In the upper-right corner of the page, tap **[!UICONTROL Close]** to return to the Assets page.
 
 ## Viewing 3D assets in the Sites 3D component {#viewing-d-assets-in-the-sites-d-component}
 
@@ -146,11 +146,11 @@ To work with 3D components with touchscreen devices:
 
 1. Use a two-finger pinch to move the camera closer to or farther away from the object. This action is similar to zooming in or out and lets you inspect details on the object. Alternatively, press and hold the + or - buttons to move the camera closer or farther away from the object.  
 
-1. Use a two-finger drag to pan the camera. This action moves the camera laterally to let you look at different parts of the object while zoomed in. Alternatively, tap the **Orbit/Pan Toggle** button to toggle to Pan mode, then use a one-finger drag to pan the camera. Tap the **Orbit/Pan Toggle** button to revert to **Orbit** mode.  
+1. Use a two-finger drag to pan the camera. This action moves the camera laterally to let you look at different parts of the object while zoomed in. Alternatively, tap the **[!UICONTROL Orbit/Pan Toggle]** button to toggle to Pan mode, then use a one-finger drag to pan the camera. Tap the **[!UICONTROL Orbit/Pan Toggle]** button to revert to **[!UICONTROL Orbit]** mode.  
 
-1. Tap **Reset Viewer **to reset the camera. This action brings the object back into full view and, if enabled, resumes auto-spin.  
+1. Tap **[!UICONTROL Reset Viewer]** to reset the camera. This action brings the object back into full view and, if enabled, resumes auto-spin.  
 
-1. Tap **Full Screen** to enter full-screen mode (if supported by the device). Tap **Full Screen** again to restore the 3D viewer to page-embedded mode.
+1. Tap **[!UICONTROL Full Screen]** to enter full-screen mode (if supported by the device). Tap **[!UICONTROL Full Screen]** again to restore the 3D viewer to page-embedded mode.
 
 ### Touchpad devices {#touchpad-devices}
 
@@ -158,13 +158,13 @@ To work with 3D components with touchpad devices:
 
 1. Use a one-finger drag while holding the (left) touchpad button down to move ("orbit") the viewpoint ("camera") around the object. You can view the object from any direction.  
 
-1. Use a two-finger drag down or up with touchpad buttons up to move the camera closer to or farther away from the object. This action is similar to zooming in or out and allows inspecting details on the object. Alternatively, click and hold the **Zoom In** or **Zoom Out** buttons to move the camera closer or farther away from the object.  
+1. Use a two-finger drag down or up with touchpad buttons up to move the camera closer to or farther away from the object. This action is similar to zooming in or out and allows inspecting details on the object. Alternatively, click and hold the **[!UICONTROL Zoom In]** or **[!UICONTROL Zoom Out]** buttons to move the camera closer or farther away from the object.  
 
-1. Use a one-finger drag while holding the **ALT/option** key and the (left) touchpad button to pan the camera. This action moves the camera laterally to let you look at different parts of the object while zoomed in. Alternatively, click the **Orbit/Pan Toggle** button to toggle to **Pan** mode, then use a one-finger drag while holding the (left) button to pan the camera. Click the **Orbit/Pan Toggle **button again to revert to **Orbit** mode.  
+1. Use a one-finger drag while holding the **ALT/option** key and the (left) touchpad button to pan the camera. This action moves the camera laterally to let you look at different parts of the object while zoomed in. Alternatively, click the **[!UICONTROL Orbit/Pan Toggle]** button to toggle to **[!UICONTROL Pan]** mode, then use a one-finger drag while holding the (left) button to pan the camera. Click the **[!UICONTROL Orbit/Pan Toggle]** button again to revert to **[!UICONTROL Orbit]** mode.  
 
-1. Click **Reset Viewer **to reset the camera. This action brings the object back into full view and, if enabled, resumes auto-spin.  
+1. Click **[!UICONTROL Reset Viewer]** to reset the camera. This action brings the object back into full view and, if enabled, resumes auto-spin.  
 
-1. Click **Full Screen** to enter full-screen mode. Use the **Escape** key on your keyboard or click **Full Screen **again to restore the 3D viewer to page-embedded mode.
+1. Click **[!UICONTROL Full Screen]** to enter full-screen mode. Use the **Escape** key on your keyboard or click **[!UICONTROL Full Screen]** again to restore the 3D viewer to page-embedded mode.
 
 ### Mouse and trackball devices {#mouse-and-trackball-devices}
 
@@ -172,9 +172,9 @@ To work with 3D components with mouse and trackball devices:
 
 1. Drag while holding the left mouse button down to move ("orbit") the viewpoint ("camera") around the object. You can view the object from any direction.  
 
-1. Use the scroll wheel to move the camera closer to or farther away from the object. This is similar to zooming in or out and lets you inspect details on the object. Alternatively, click and hold the **Zoom In** or **Zoom Out** buttons to move the camera closer or farther away from the object.  
+1. Use the scroll wheel to move the camera closer to or farther away from the object. This is similar to zooming in or out and lets you inspect details on the object. Alternatively, click and hold the **[!UICONTROL Zoom In]** or **[!UICONTROL Zoom Out]** buttons to move the camera closer or farther away from the object.  
 
-1. Drag while holding the **ALT/option** key and the left mouse button to pan the camera. This moves the camera laterally to allow looking at different parts of the object while zoomed in. Alternatively, clickthe **Orbit/Pan Toggle** button to toggle to **Pan** mode, then drag while holding the left mouse button to pan the camera. Click the **Orbit/Pan Toggle** again to revert to **Orbit** mode.
-1. Click **Reset Viewer** to reset the camera. This action brings the object back into full view and, if enabled, resumes auto-spin.
-1. Click **Full Screen** to enter full-screen mode. Use the **Escape** key on your keyboard or click **Full Screen** again to restore the 3D viewer to page-embedded mode.
+1. Drag while holding the **ALT/option** key and the left mouse button to pan the camera. This moves the camera laterally to allow looking at different parts of the object while zoomed in. Alternatively, click the **[!UICONTROL Orbit/Pan Toggle]** button to toggle to **[!UICONTROL Pan]** mode, then drag while holding the left mouse button to pan the camera. Click the **[!UICONTROL Orbit/Pan Toggle]** again to revert to **[!UICONTROL Orbit]** mode.
+1. Click **[!UICONTROL Reset Viewer]** to reset the camera. This action brings the object back into full view and, if enabled, resumes auto-spin.
+1. Click **[!UICONTROL Full Screen]** to enter full-screen mode. Use the **[!UICONTROL Escape]** key on your keyboard or click **[!UICONTROL Full Screen]** again to restore the 3D viewer to page-embedded mode.
 

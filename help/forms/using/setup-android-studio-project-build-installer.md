@@ -10,16 +10,15 @@ topic-tags: forms-app
 discoiquuid: fabc981e-0c9e-4157-b0a1-0c13717fb6cd
 ---
 
-# Set up the Android studio project and build the Android app{#set-up-the-android-studio-project-and-build-the-android-app}
+# Set up the Android studio project and build the Android app {#set-up-the-android-studio-project-and-build-the-android-app}
 
-| This article is for building the AEM Forms App 6.3.1.1 and later versions. For building an app from source code of source code of the AEM Forms App 6.3, see [Set up the Eclipse project and build the Android™ app](/help/forms/using/setup-eclipse-project-build-installer.md). |
-|---|
+This article is for building the AEM Forms App 6.3.1.1 and later versions. For building an app from source code of source code of the AEM Forms App 6.3, see [Set up the Eclipse project and build the Android™ app](/help/forms/using/setup-eclipse-project-build-installer.md). 
 
 AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build a custom AEM Forms app. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip` is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on package share.
 
 To get the AEM Forms app source, perform the following steps:
 
-1. Navigate to package share 
+1. Navigate to package share
 
    URL: `https://<server>:<port>/crx/packageshare`.
 
@@ -36,7 +35,7 @@ The following image displays the extracted contents of the `adobe-lc-mobileworks
 
 The following image displays the directory structure of the `android`folder in the `src`folder.
 
-![Directory structure of the android folder in src](assets/android-folder.png) 
+![Directory structure of the android folder in src](assets/android-folder.png)
 
 ## Build standard AEM Forms app {#set-up-the-xcode-project}
 
@@ -105,4 +104,4 @@ You can install the application on an Android™ device via the [Android™ Debu
 
 **For Windows® users**: `adb install %HOMEPATH%\Projects\[your-project]\adobe-lc-mobileworkspace-src-[version]\android\build\outputs\apk\android-debug.apk`
 
-[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

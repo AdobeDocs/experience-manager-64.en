@@ -281,9 +281,9 @@ Set environment variables for 32-bit and 64-bit Java Development Kit, third-part
 
 If you are running Microsoft Windows Server, configure the Ink and Handwriting service. The service is required to open Microsoft PowerPoint files which use inking capabilities of Microsoft Office:
 
-1. Open the Server Manager. Click the **Server Manager** icon on the Quick Launch tray.
-1. Click **Add Features** in the **Features** menu. Select the **Ink and Handwriting Services** check box. 
-1. **Select Features** dialog box with **Ink and Handwriting Services** selected. Click **Install** and the service is installed.
+1. Open the Server Manager. Click the **[!UICONTROL Server Manager]** icon on the Quick Launch tray.
+1. Click **[!UICONTROL Add Features]** in the **[!UICONTROL Features]** menu. Select the **[!UICONTROL Ink and Handwriting Services]** check box. 
+1. **[!UICONTROL Select Features]** dialog box with **[!UICONTROL Ink and Handwriting Services]** selected. Click **[!UICONTROL Install]** and the service is installed.
 
 ### Configure the file block settings for Microsoft Office {#configure-the-file-block-settings-for-microsoft-office}
 
@@ -291,16 +291,16 @@ Change the Microsoft Office trust center settings to enable the PDF Generator se
 
 1. Open a Microsoft Office application. For example, Microsoft Word. Navigate to **[!UICONTROL File]**> **[!UICONTROL Options]**. The options dialog box appears.  
 
-1. Click **Trust Center**, and click **Trust Center Settings**.
-1. In the **Trust Center settings**, click **File Block Settings**.
-1. In the** File Type** list, deselect **Open **for the file type that the PDF Generator service should be allowed to convert to PDF documents.
+1. Click **[!UICONTROL Trust Center]**, and click **[!UICONTROL Trust Center Settings]**.
+1. In the **[!UICONTROL Trust Center settings]**, click **[!UICONTROL File Block Settings]**.
+1. In the **[!UICONTROL File Type]** list, deselect **[!UICONTROL Open]** for the file type that the PDF Generator service should be allowed to convert to PDF documents.
 
 ### Grant the Replace a process level token privilege {#grant-the-replace-a-process-level-token-privilege}
 
 The user account used to start the application server requires the **Replace a process level token** privilege. The local system account has the **Replace a process level token** privilege by default. For the servers running with a user of the Local Administrators group, the privilege must be granted explicitly. Perform the following steps to grant the privilege:
 
-1. Open the Group Policy Editor for Microsoft Windows. To open the Group Policy Editor, click **Start**, type **gpedit.msc** in the Start Search box, and click **Group Policy Editor**.
-1. Navigate to **Local Computer Policy** &gt; **Computer Configuration** &gt; **Windows Settings** &gt; **Security Settings** &gt; **Local Policies** &gt; **User Rights Assignment** and edit the **Replace a process level token** policy and include the Administrators group.
+1. Open the Group Policy Editor for Microsoft Windows. To open the Group Policy Editor, click **[!UICONTROL Start]**, type **gpedit.msc** in the Start Search box, and click **[!UICONTROL Group Policy Editor]**.
+1. Navigate to **[!UICONTROL Local Computer Policy** &gt; **Computer Configuration** &gt; **Windows Settings** &gt; **Security Settings** &gt; **Local Policies** &gt; **User Rights Assignment]** and edit the **[!UICONTROL Replace a process level token]** policy and include the Administrators group.
 1. Add the user to the Replace a Process Level Token entry.
 
 #### Enable the PDF Generator service for non-administrators {#enable-the-pdf-generator-service-for-non-administrators}
@@ -314,8 +314,8 @@ You can enable a non-administrator user to use the PDF Generator service. Normal
 
 ### Disable User Account Control (UAC) {#disable-user-account-control-uac}
 
-1. To access the System Configuration Utility, go to **Start &gt; Run **and then enter **MSCONFIG.** 
-1. Click the **Tools **tab and scroll down and select **Change UAC Settings**. Click **Launch **to run the command in a new window.
+1. To access the System Configuration Utility, go to **[!UICONTROL Start &gt; Run]** and then enter **[!UICONTROL MSCONFIG]**. 
+1. Click the **[!UICONTROL Tools]** tab and scroll down and select **[!UICONTROL Change UAC Settings]**. Click **[!UICONTROL Launch]** to run the command in a new window.
 1. Adjust the slider to the Never notify level. When finished, close the command window and close the System Configuration window.
 1. Verify that registry setting for UAC is set to 0 (zero). Perform the following steps to verify:
 
@@ -367,13 +367,13 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 
 1. Log in to the [AEM server](http://localhost:4502) as an administrator and open [package share](http://localhost:4502/crx/packageshare). You require an Adobe ID to log in to the package share.  
 
-1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search **AEM 6.4 Forms add-on packages**, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded **appears next to the package.
+1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search **[!UICONTROL AEM 6.4 Forms add-on packages]**, click the package applicable to your operating system, and click **[!UICONTROL Download]**. Read and accept the license agreement and click **[!UICONTROL OK]**. The download starts. Once downloaded, the word **[!UICONTROL Downloaded]** appears next to the package.
 
    You can also use the version number to search an add-on package. For version number of the latest package, see the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
 
-1. After the download completes, click **Downloaded**. You are redirected to package manager. In the package manager, search the downloaded package, and click **Install**.
+1. After the download completes, click **[!UICONTROL Downloaded]**. You are redirected to package manager. In the package manager, search the downloaded package, and click **[!UICONTROL Install]**.
 
-   If you manually download the package via the direct link listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article, log in to the package manager, click **Upload Package**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **Install.**
+   If you manually download the package via the direct link listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article, log in to the package manager, click **[!UICONTROL Upload Package]**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **[!UICONTROL Install]**.
 
 1. After the package is installed, you are prompted to restart the AEM instance. **Do not immediately stop the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the [AEM-Installation-Directory]/crx-quickstart/logs/error.log file and the log is stable.
 
@@ -397,7 +397,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 ### Configuring the font manager service  {#configuring-the-font-manager-service}
 
 1. Log in to [AEM Configuration Manager](http://localhost:4502/system/console/configMgr) as an administrator. 
-1. Locate and open the **CQ-DAM-Handler-Gibson Font Managers** service. Specify the path of the System Fonts, Adobe Server Fonts, and Customer Fonts directories. Click **Save**.
+1. Locate and open the **[!UICONTROL CQ-DAM-Handler-Gibson Font Managers]** service. Specify the path of the System Fonts, Adobe Server Fonts, and Customer Fonts directories. Click **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
@@ -409,19 +409,19 @@ A local user account is required to run the PDF Generator service. For steps to 
 
 1. Open the [AEM Forms PDF Generator Configuration](http://localhost:4502/libs/fd/pdfg/config/ui.html) page.
 
-1. In the **User Accounts** tab, provide credentials of a local user account, and click **Submit**. If Microsoft Windows prompts, allow access to the user. When added successfully, the configured user is displayed under the **Your user accounts** section in the **User Accounts** tab.
+1. In the **[!UICONTROL User Accounts]** tab, provide credentials of a local user account, and click **[!UICONTROL Submit]**. If Microsoft Windows prompts, allow access to the user. When added successfully, the configured user is displayed under the **[!UICONTROL Your user accounts]** section in the **[!UICONTROL User Accounts]** tab.
 
 ### Configure the time-out settings {#configure-the-time-out-settings}
 
-1. In [AEM configuration manager](http://localhost:4502/system/console/configMgr), locate and open the **Jacorb ORB Provider** service.
+1. In [AEM configuration manager](http://localhost:4502/system/console/configMgr), locate and open the **[!UICONTROL Jacorb ORB Provider]** service.
 
-   Add the following to the **[!UICONTROL Custom Properties.name]**field and click **Save**. It sets the pending reply timeout (also known as, CORBA client timeout) to 600 seconds.
+   Add the following to the **[!UICONTROL Custom Properties.name]** field and click **[!UICONTROL Save]**. It sets the pending reply timeout (also known as, CORBA client timeout) to 600 seconds.
 
    `jacorb.connection.client.pending_reply_timeout=600000`
 
-1. Log in to the AEM author instance and navigate to **Adobe Experience Manager** &gt; **Tools**&gt;** Forms &gt; Configure PDF Generator**. The default URL is http://localhost:4502/libs/fd/pdfg/config/ui.html.
+1. Log in to the AEM author instance and navigate to **[!UICONTROL Adobe Experience Manager** &gt; **Tools**&gt;**Forms &gt; Configure PDF Generator]**. The default URL is http://localhost:4502/libs/fd/pdfg/config/ui.html.
 
-   Open the **General Configuration** tab and modify the value of the following fields for your environment:
+   Open the **[!UICONTROL General Configuration]** tab and modify the value of the following fields for your environment:
 
 <table> 
  <tbody> 
@@ -452,7 +452,7 @@ A local user account is required to run the PDF Generator service. For steps to 
 
 On Microsoft Windows, the PDF Generator service uses Adobe Acrobat to convert supported file formats to a PDF document. Perform the following steps to configure Adobe Acrobat for the PDF Generator service:
 
-1. Open Acrobat and select **[!UICONTROL Edit]**> **[!UICONTROL Preferences]**> **[!UICONTROL Updater]**. In Check for updates, deselect **Automatically install updates**, and click **OK**. Close Acrobat.
+1. Open Acrobat and select **[!UICONTROL Edit]**> **[!UICONTROL Preferences]**> **[!UICONTROL Updater]**. In Check for updates, deselect **[!UICONTROL Automatically install updates]**, and click **[!UICONTROL OK]**. Close Acrobat.
 1. Double-click a PDF document on your system. When Acrobat starts for the first time, the dialog boxes for Sign-in, Welcome screen, and EULA appear. Dismiss these dialog boxes for all the users configured to use PDF Generator. 
 1. Run the PDF Generator utility batch file to configure Acrobat for the PDF Generator service:
 
@@ -486,22 +486,43 @@ The default primary route for HTML to PDF conversion is Webkit. To change the co
 
 1. In the **[!UICONTROL General Configuration]** tab, select the preferred conversion route from the **[!UICONTROL Primary Route for HTML to PDF conversions]** drop-down.
 
+### Intialize Global Trust Store{#intialize-global-trust-store}
+
+Using the Trust Store Management, you can import, edit, and delete certificates that you trust on the server for validation of digital signatures and certificate authentication. You can import and export any number of certificates. After a certificate is imported, you can edit the trust settings and trust store type. Perform the following steps to initialize a trust store:
+
+1. Log in to AEM Forms instance as an administrator.  
+1. Go to  **[!UICONTROL Tools]** >  **[!UICONTROL Security]** >  **[!UICONTROL Trust Store]**.
+1. Click  **[!UICONTROL Create TrustStore]**. Set password and tap **[!UICONTROL Save]**.
+
 ### Set up certificates for Reader extension and encryption service {#set-up-certificates-for-reader-extension-and-encryption-service}
 
-The DocAssurance service can apply usage rights to PDF documents. To apply usage rights to PDF documents, configure the certificates:
+The DocAssurance service can apply usage rights to PDF documents. To apply usage rights to PDF documents, configure the certificates.
 
-1. Log in to AEM Author instance as an administrator. Go to Tools &gt; Operations &gt; Security &gt; Users.
-1. Click the **name** field of the user account. The **Edit User Settings** page opens. On the AEM Author instance, certificates reside in a KeyStore. If you have not created a KeyStore earlier, click **Create KeyStore** and set a new password for the KeyStore. If the server already contains a KeyStore, skip this step.
-1. On the **Edit User Settings** page, click **Manage KeyStore**. On KeyStore Management dialog, expand the **Add Private Key from Key Store file** option and provide an alias. The alias is used to perform the Reader Extensions operation. 
-1. To upload the certificate file, click **Select Key Store File** and upload a &lt;filename&gt;.pfx file.
+Before setting up the certificates, ensure that you have a:
 
-   Add the **Key Store Password**,** Private Key Password**, and **Private Key Alias **that is associated with the certificate to the respective fields. Click **Submit**.
+* Certificate file (.pfx).
+
+* Private Key password provided with the certificate.
+
+* Private Key Alias. You can execute the Java keytool command to view the Private Key Alias:
+keytool -list -v -keystore [keystore-file] -storetype pkcs12
+
+* Keystore file password. If you are using Adobe's Reader Extensions certificate, the Keystore file password is always the same as Private Key password.
+
+Perform the following steps to configure the certificates:
+
+1. Log in to AEM Author instance as an administrator. Go to **[!UICONTROL Tools]** > **[!UICONTROL Security]** > **[!UICONTROL Users]**.
+1. Click the **[!UICONTROL name]** field of the user account. The **[!UICONTROL Edit User Settings]** page opens. On the AEM Author instance, certificates reside in a KeyStore. If you have not created a KeyStore earlier, click **[!UICONTROL Create KeyStore]** and set a new password for the KeyStore. If the server already contains a KeyStore, skip this step.  If you are using Adobe's Reader Extensions certificate, the Keystore file password is always the same as Private Key password.
+1. On the **[!UICONTROL Edit User Settings]** page, select the **[!UICONTROL KeyStore]** tab. Expand the **[!UICONTROL Add Private Key from Key Store file]** option and provide an alias. The alias is used to perform the Reader Extensions operation. 
+1. To upload the certificate file, click **[!UICONTROL Select Key Store File]** and upload a &lt;filename&gt;.pfx file.
+
+   Add the **[!UICONTROL Key Store Password]**, **[!UICONTROL Private Key Password]**, and **[!UICONTROL Private Key Alias]** that is associated with the certificate to the respective fields. Click **[!UICONTROL Submit]**.
 
    >[!NOTE]
    >
-   >* To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
-   >* In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
-   >* In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
+      >* In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential.
+
+1. Click **[!UICONTROL Save & Close]** on the **[!UICONTROL Edit User Settings]** page.
 
 ### Enable AES-256 {#enable-aes}
 

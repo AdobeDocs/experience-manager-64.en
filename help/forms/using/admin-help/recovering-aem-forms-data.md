@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 4e093114-219b-4018-9530-9002eb665448
 ---
 
-# Recovering the AEM forms data{#recovering-the-aem-forms-data}
+# Recovering the AEM forms data {#recovering-the-aem-forms-data}
 
 This section describes the steps required to recover the AEM forms data. Also see [Special considerations for backup and recovery](/help/forms/using/admin-help/backup-recovery-strategy-aem-forms.md#special-considerations-for-backup-and-recovery).
 
@@ -63,17 +63,17 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
    >
    >If the /restore directory already exists, back it up and then delete it before you rename the /backup directory that contains the latest data.
 
-    * (JBoss) Rename `*[appserver root]*/server/*[server]*/svcnative/DocumentStorage/backup` to:
+    * (JBoss) Rename `[appserver root]/server/[server]/svcnative/DocumentStorage/backup` to:
 
-      `*[appserver root]*/server/*[server]*/svcnative/DocumentStorage/restore`.
+      `[appserver root]/server/[server]/svcnative/DocumentStorage/restore`.
     
-    * (WebLogic) Rename `*[appserverdomain]*/*[server]*/adobe/AEMformsserver/DocumentStorage/backup` to:
+    * (WebLogic) Rename `[appserverdomain]/[server]/adobe/AEMformsserver/DocumentStorage/backup` to:
 
-      `*[appserverdomain]*/*[server]*/adobe/AEMformsserver/DocumentStorage/restore`.
+      `[appserverdomain]/[server]/adobe/AEMformsserver/DocumentStorage/restore`.
     
-    * (WebSphere) Rename `*[appserver root]*/installedApps/adobe/*[server]*/DocumentStorage/backup` to:
+    * (WebSphere) Rename `[appserver root]/installedApps/adobe/[server]/DocumentStorage/backup` to:
 
-      `*[appserver root]*/installedApps/adobe/*[server]*/DocumentStorage/restore`.
+      `[appserver root]/installedApps/adobe/[server]/DocumentStorage/restore`.
 
 1. Recover the Content Storage Root directory by first deleting the contents of the Content Storage Root directory on the existing installation of AEM forms and then recovering the contents by following the tasks for either stand-alone or clustered environments:
 
@@ -106,7 +106,7 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
 
 ## Changing the GDS location during recovery {#changing-the-gds-location-during-recovery}
 
-If your GDS is restored to a location other than where it was originally, run the LCSetGDS script to set the GDS to the new location. The script is in the `[*aem-forms root]*\sdk\misc\Foundation\SetGDSCommandline` folder. The script takes two parameters, `defaultGDS` and `newGDS`. See the `ReadMe.txt` file in the same folder for instructions on how to run the script.
+If your GDS is restored to a location other than where it was originally, run the LCSetGDS script to set the GDS to the new location. The script is in the `[aem-forms root]\sdk\misc\Foundation\SetGDSCommandline` folder. The script takes two parameters, `defaultGDS` and `newGDS`. See the `ReadMe.txt` file in the same folder for instructions on how to run the script.
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ If your GDS is restored to a location other than where it was originally, run th
 
 >[!NOTE]
 >
->This circumstance is the only one under which you should use this script to change the GDS location. To change the GDS location while AEM forms is running, use Administration Console. (See [Configure general AEM forms settings](/help/forms/using/admin-help/configure-general-aem-forms-settings.md#configure-general-aem-forms-settings)*.) *
+>This circumstance is the only one under which you should use this script to change the GDS location. To change the GDS location while AEM forms is running, use Administration Console. (See [Configure general AEM forms settings](/help/forms/using/admin-help/configure-general-aem-forms-settings.md#configure-general-aem-forms-settings).)
 
 >[!NOTE]
 >

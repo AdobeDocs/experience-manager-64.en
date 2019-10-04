@@ -23,7 +23,7 @@ The user enters values into the form and clicks the Calculate button to view the
 * The user accesses an HTML page named StartLoan.html that acts as the web application’s start page. This page invokes a Java Servlet named `GetLoanForm`.
 * The `GetLoanForm` servlet renders a loan form. This form contains a script, interactive fields, a calculate button, and a submit button.
 * The user enters values into the form’s fields and clicks the Calculate button. The form is sent to the `CalculateData` Java Servlet where the script is executed. The form is sent back to the user with the calculation results displayed in the form.
-* The user continues entering and calculating values until a satisfactory result is displayed. When satisfied, the user clicks the Submit button to process the form. The form is sent to another Java Servlet named `ProcessForm` that is responsible for retrieving submitted data. (See [Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling-submitted-forms).)
+* The user continues entering and calculating values until a satisfactory result is displayed. When satisfied, the user clicks the Submit button to process the form. The form is sent to another Java Servlet named `ProcessForm` that is responsible for retrieving submitted data. (See [Handling Submitted Forms](/help/forms/developing/rendering-forms.md#handling-submitted-forms).)
 
 The following diagram shows the application’s logic flow.
 
@@ -32,13 +32,13 @@ The following diagram shows the application’s logic flow.
 The following table describes the steps in this diagram.
 
 <table> 
- <thead align="left"> 
+ <thead>
   <tr> 
    <th><p>Step</p></th> 
    <th><p>Description</p></th> 
   </tr> 
- </thead> 
- <tbody> 
+ </thead>
+ <tbody>
   <tr> 
    <td><p>1</p></td> 
    <td><p>The <code>GetLoanForm</code> Java Servlet is invoked from the HTML start page. </p></td> 

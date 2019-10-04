@@ -113,7 +113,7 @@ Execute detailed test plan against as defined [Upgrading Code and Customizations
 
 ### Enable Replication Agents {#enable-replication-agents}
 
-Once publish environment has been fully upgraded and validated, enable replication agents on the Author Environment. Verify that agents are able to connect to respective Publish instances. See U [pgrade Procedure](/help/sites-deploying/upgrade-procedure.md) for more details on order of events.
+Once publish environment has been fully upgraded and validated, enable replication agents on the Author Environment. Verify that agents are able to connect to respective Publish instances. See [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md) for more details on order of events.
 
 ### Enable Custom Scheduled Jobs {#enable-custom-scheduled-jobs}
 
@@ -121,9 +121,13 @@ Any scheduled jobs as part of the code base can be enabled at this point.
 
 ## Analyzing Issues With The Upgrade {#analyzing-issues-with-upgrade}
 
-This section contains some issue scenarios one might face along the upgrade procedure to AEM 6.3.
+This section contains some issue scenarios one might face along the upgrade procedure to AEM 6.4.
 
 These scenarios should help to track down the root cause of issues related to upgrade and should help to identify project or product specific issues.
+
+### Recreating the Dynamic Media Cloud Configuration after upgrading {#dynamic-media-cloud-configuration}
+
+After upgrading to AEM 6.4 from an earlier version, the Dynamic Media Cloud Configuration from earlier settings may become inaccessible from the AEM 6.4 TouchUI. To resolve this issue, use CRXDE Lite to remove the earlier settings, then create a new Dynamic Media Cloud Configuration. See also [Dynamic Media repository restructuring in AEM 6.4](/help/sites-deploying/dynamicmedia-repository-restructuring-in-aem-6-4.md).
 
 ### Repository Migration Failing  {#repository-migration-failing-}
 

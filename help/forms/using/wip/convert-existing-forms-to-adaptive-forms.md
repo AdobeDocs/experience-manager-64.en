@@ -8,7 +8,7 @@ contentOwner: khsingh
 discoiquuid: 12ea3876-5778-4a39-a746-15d529b3bb88
 ---
 
-# Use Automated Forms Conversion service{#use-automated-forms-conversion-service}
+# Use Automated Forms Conversion service {#use-automated-forms-conversion-service}
 
 Run the Automated Forms Conversion service to convert PDF forms to adaptive forms
 
@@ -49,7 +49,7 @@ After you have uploaded the forms and configured the service, perform the follow
 
    ![start-conversion-dialog](assets/start-conversion-dialog.png)
 
-1. In the **[!UICONTROL **General**]**tab of the Conversion Settings dialog:
+1. In the **[!UICONTROL General]** tab of the Conversion Settings dialog:
 
     * Select a **[!UICONTROL Cloud Configuration]**. Template and Theme options are automatically filled on selecting the configuration. You can specify a different template or a theme, if required.
     * Select the **[!UICONTROL Extract Fragment]** option to allow the conversion service to identify, extract, and download form fragments for converted forms.
@@ -62,7 +62,7 @@ After you have uploaded the forms and configured the service, perform the follow
 1. In the **Output** tab of Conversion Settings dialog, specify the location to save converted forms (adaptive forms), adaptive form schema, form fragments, and form fragments schemas.
 1. Tap **[!UICONTROL Start Conversion]**. The Conversion is started. The **[!UICONTROL Conversion in Progress]** logo is displayed until the conversion is in progress. The logo is removed after the conversion is complete. You can periodically refresh the folder to check the conversion status. A status email is also sent on the [configured email address](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-242943920) on completion of conversion.
 
-   On a successful conversion, the converted adaptive form and related schema are downloaded to the folder specified in the **[!UICONTROL Output]**tab of the conversion dialog. Form fragments and corresponding schema are downloaded only if the **[!UICONTROL Extract Fragment]** option is selected before starting the conversion.
+   On a successful conversion, the converted adaptive form and related schema are downloaded to the folder specified in the **[!UICONTROL Output]** tab of the conversion dialog. Form fragments and corresponding schema are downloaded only if the **[!UICONTROL Extract Fragment]** option is selected before starting the conversion.
 
    ![conversion-in-progress](assets/conversion-in-progress.png)
 

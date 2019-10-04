@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 542467ef-3793-4347-8424-c365c5a166f6
 ---
 
-# Catalog Essentials{#catalog-essentials}
+# Catalog Essentials {#catalog-essentials}
 
 This page provides the essential information for working with the catalog feature of enablement community sites.
 
 The catalog feature, when included in a community site, allows community members to browse and select enablement resources listed in a catalog.
 
-The [ `enablement catalog` component](/help/communities/catalog.md) allows community members to access a catalog of [enablement resources](/help/communities/resources.md). The use of AEM tags is an important part of managing the appearance of enablement resources in a catalog.
+The [ `enablement catalog` component](catalog.md) allows community members to access a catalog of [enablement resources](resources.md). The use of AEM tags is an important part of managing the appearance of enablement resources in a catalog.
 
-See [Tagging Enablement Resources](/help/communities/tag-resources.md).
+See [Tagging Enablement Resources](tag-resources.md).
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
@@ -30,11 +30,11 @@ See [Tagging Enablement Resources](/help/communities/tag-resources.md).
    <td>social/enablement/components/hbs/catalog</td> 
   </tr> 
   <tr> 
-   <td> <a href="/help/communities/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr> 
   <tr> 
-   <td> <a href="/help/communities/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.enablement.hbs.breadcrumbs<br /> cq.social.enablement.hbs.catalog<br /> cq.social.enablement.hbs.resource<br /> cq.social.enablement.hbs.learningpath</td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ See [Tagging Enablement Resources](/help/communities/tag-resources.md).
   </tr> 
   <tr> 
    <td><strong> properties</strong></td> 
-   <td>see <a href="/help/communities/catalog.md">Catalog Feature</a></td> 
+   <td>See <a href="catalog.md">Catalog Feature</a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,53 +56,53 @@ See [Tagging Enablement Resources](/help/communities/tag-resources.md).
 
 ### Catalog Function {#catalog-function}
 
-A community site structure that includes the [Catalog function](/help/communities/functions.md#catalog-function), includes a configured `enablement catalog` component.
+A community site structure that includes the [Catalog function](functions.md#catalog-function), includes a configured `enablement catalog` component.
 
 ### Pre-Filters {#pre-filters}
 
 When a Catalog function has been added to a community site, it is possible to restrict the enablement resources and learning paths which appear in the catalog by specifying a pre-filter. This is done by setting properties on the instance of the catalog resource for the site.
 
-Using the example of the [Enablement Tutorial](/help/communities/getting-started-enablement.md):
+Using the example of the [Enablement Tutorial](getting-started-enablement.md):
 
-* on author
-* using [CRXDE](/help/sites-developing/developing-with-crxde-lite.md)
+* On author
+* Using [CRXDE](../../help/sites-developing/developing-with-crxde-lite.md)
 
-    * such as [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
+    * Such as [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 
-* navigate to the catalog resource on the catalog page
+* Navigate to the catalog resource on the catalog page
 
-    * for example, `/content/sites/enable/en/catalog/jcr:content/content/primary/catalog`
+    * For example, `/content/sites/enable/en/catalog/jcr:content/content/primary/catalog`
 
-* add a child filters node
+* Add a child filters node
 
-    * select the `catalog`node
-    * select **Create Node**
+    * Select the `catalog`node
+    * Select **[!UICONTROL Create Node]**
 
         * Name: `filters`
         * Type: `nt:unstructured`
 
-    * select **Save All**
+    * Select **[!UICONTROL Save All]**
 
-* add `se_resource-tags` property to the `filters` node
+* Add `se_resource-tags` property to the `filters` node
 
-    * select the `filters` node
-    * add a Multi property
+    * Select the `filters` node
+    * Add a Multi property
 
         * Name: `se_resource-tags`
         * Type: String
         * Value: *&lt;enter a [TagID](#pre-filter-tagids)&gt;*
-        * select **Multi**
-        * select **Add**
+        * Select **[!UICONTROL Multi]**
+        * Select **[!UICONTROL Add]**
 
-            * in popup dialog, select '+' to add additional pre-filter TagIDs
+            * In popup dialog, select `+` to add additional pre-filter TagIDs
 
-* re-publish the community site
+* Re-publish the community site
 
 ![chlimage_1-189](assets/chlimage_1-189.png) 
 
 #### Pre-filter TagIDs {#pre-filter-tagids}
 
-The pre-filter [TagIDs](/help/sites-developing/framework.md#tagid) must exactly match the tags applied to the enablement resources. These are visible in the `resources` folder for the site as the values of the property `se_resource-tags`.
+The pre-filter [TagIDs](../../help/sites-developing/framework.md#tagid) must exactly match the tags applied to the enablement resources. These are visible in the `resources` folder for the site as the values of the property `se_resource-tags`.
 
 ![chlimage_1-190](assets/chlimage_1-190.png) 
 

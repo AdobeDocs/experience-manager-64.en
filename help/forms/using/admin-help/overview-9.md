@@ -11,14 +11,14 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7d2a9de8-13d1-4981-9ba2-9654127556b8
 ---
 
-# Overview of Forms workflow{#overview-of-forms-workflow}
+# Overview of Forms workflow {#overview-of-forms-workflow}
 
 Forms workflow lets users design, manage, and optimize human-centric processes. Using forms workflow, users can also manage automated business-process applications that connect systems and people.
 
 On each Forms workflow page in administration console, you can perform a different set of tasks, as outlined in this table.
 
 <table>
- <thead align="left">
+ <thead>
   <tr>
    <th><p>Page</p></th> 
    <th><p>Tasks</p></th> 

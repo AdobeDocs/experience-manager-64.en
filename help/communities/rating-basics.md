@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 7dc3ef57-05c3-45d4-ace3-bb3ba6ea768b
 ---
 
-# Rating Essentials{#rating-essentials}
+# Rating Essentials {#rating-essentials}
 
-The rating component, a [tally](/help/communities/tally.md) subclass, allows signed in community members to rate a feature on the website.
+The rating component, a [tally](tally.md) subclass, allows signed in community members to rate a feature on the website.
 
 Placing multiple instances of a voting component on the same page is allowed; each instance must be configured with an unique `tally name` property.
 
@@ -28,11 +28,11 @@ Anonymous posting of a rating is not supported. Site visitors must register and 
    <td> social/tally/components/hbs/rating</td> 
   </tr> 
   <tr> 
-   <td> <a href="/help/communities/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr> 
   <tr> 
-   <td> <a href="/help/communities/client-customize.md#clientlibs-for-scf"><strong>clientlibs</strong></a></td> 
+   <td> <a href="client-customize.md#clientlibs-for-scf"><strong>clientlibs</strong></a></td> 
    <td> cq.social.hbs.rating</td> 
   </tr> 
   <tr> 
@@ -45,12 +45,12 @@ Anonymous posting of a rating is not supported. Site visitors must register and 
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td><p>see <a href="/help/communities/rating.md">Using Rating</a></p> </td> 
+   <td><p>See <a href="rating.md">Using Rating</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* [Client-side Customizations](/help/communities/client-customize.md)
+* [Client-side Customizations](client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -58,21 +58,21 @@ Anonymous posting of a rating is not supported. Site visitors must register and 
 
 * [Tally Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](/help/communities/server-customize.md)
+* [Server-side Customizations](server-customize.md)
 
 ### Accessing Posted Ratings (UGC) {#accessing-posted-ratings-ugc}
 
 UGC should be moderated using one of the standard methods for moderation.  
-See [Moderating User Generated Content](/help/communities/moderate-ugc.md).
+See [Moderating User Generated Content](moderate-ugc.md).
 
-As of AEM 6.1 Communities, use of a [common store](/help/communities/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
+As of AEM 6.1 Communities, use of a [common store](working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 See:
 
-* [Storage Resource Provider Overview](/help/communities/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](/help/communities/srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](/help/communities/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](/help/communities/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](srp.md) - introduction and repository usage overview
+* [SRP and UGC Essentials](srp-and-ugc.md) - SRP utility methods and examples
+* [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
 

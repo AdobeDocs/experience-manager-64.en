@@ -20,7 +20,7 @@ The installation and configuration of AEM 3D (version 3.0) involves the followin
 1. Configuring the 3D asset ingestion workflow and restarting AEM.
 1. Validating the setup of AEM 3D.
 
-See also [Working with 3D assets](3d-assets.md).
+See also [Working with 3D assets](assets-3d.md).
 
 See also [AEM 3D Assets release notes](/help/release-notes/aem3d-release-notes.md) for prerequisites, supported browsers, and other important release imformation.
 
@@ -81,11 +81,11 @@ See also [Advanced Configuration Settings](advanced-config-3d.md).
    See [System requirements](/help/release-notes/aem3d-release-notes.md#system-requirements).
 
 1. Using a supported browser, log on to AEM with Administrator privileges.
-1. In AEM, click the AEM logo to access the global navigation console, then click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Administration &gt; Deployment &gt; Package Share]**.
+1. In AEM, click the AEM logo to access the global navigation console, then click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Administration > Deployment > Package Share]**.
 1. On the Adobe page, use your Adobe ID credentials to log on to your Adobe Creative Cloud account.
 1. On the Adobe packages page, locate version 3.0.1 of `AEM-6.4-DynamicMedia-3D` feature pack, then download it.  
 
-1. In AEM, click **[!UICONTROL Tools &gt; Administration &gt; Deployment &gt; Package Manager]**.
+1. In AEM, click **[!UICONTROL Tools > Administration > Deployment > Package Manager]**.
 1. Locate the downloaded feature pack, then click **[!UICONTROL Install]**.  
 
 1. In the **[!UICONTROL Install Package]** dialog box, expand **Advanced Settings**, then set **[!UICONTROL Access Control Handling]** to **Merge**.
@@ -97,7 +97,7 @@ See also [Advanced Configuration Settings](advanced-config-3d.md).
 
 **To configure the 3D asset ingestion workflow**:
 
-1. In AEM, click the AEM logo to access the global navigation console, then click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Workflow &gt; Models]**.
+1. In AEM, click the AEM logo to access the global navigation console, then click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Workflow > Models]**.
 1. On the **[!UICONTROL Workflow Models]** page, hover over the **[!UICONTROL DAM Update Asset]** workflow, and when the check mark appears, select it.  
 
 1. On the toolbar, click **[!UICONTROL Edit]**.
@@ -124,7 +124,7 @@ See also [Advanced Configuration Settings](advanced-config-3d.md).
 
 ## Validating the setup of AEM 3D {#validating-the-setup-of-aem-d}
 
-1. In AEM, click **[!UICONTROL Tools &gt; Assets]**, then download `sample-3D-content.zip`, and expand the downloaded file. (You can now delete `sample-3D-content.zip` in AEM.)
+1. In AEM, click **[!UICONTROL Tools > Assets]**, then download `sample-3D-content.zip`, and expand the downloaded file. (You can now delete `sample-3D-content.zip` in AEM.)
 
    Make sure you are in **[!UICONTROL Card View]** to view upload and processing feedback in the remaining steps.
 

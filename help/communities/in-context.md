@@ -11,73 +11,73 @@ content-type: reference
 discoiquuid: ee104f6f-123b-4a6e-9031-849fc1318cc5
 ---
 
-# In-Context Moderation{#in-context-moderation}
+# In-Context Moderation {#in-context-moderation}
 
 For AEM Communities, moderation may be performed by administrators and trusted community members directly on the published page where the community content was posted.
 
-When using a [moderation console](/help/communities/moderation.md), the information displayed for the content includes a link to the published page to allow access to additional moderation actions available when moderating in-context.
+When using a [moderation console](moderation.md), the information displayed for the content includes a link to the published page to allow access to additional moderation actions available when moderating in-context.
 
 ## Moderation Actions {#moderation-actions}
 
-Visit the moderation overview for a description of [moderation actions](/help/communities/moderate-ugc.md#moderation-actions).
+Visit the moderation overview for a description of [moderation actions](moderate-ugc.md#moderation-actions).
 
 ## Moderation UI {#moderation-ui}
 
 The UI presented to the moderator on the publish instance is contained within the dialog for posting and managing user generated content (UGC). The elements of the UI are determined by the status of the site visitor - whether they are...
 
-1. the member who posted the content  
-1. a trusted member moderator  
-1. an administrator  
-1. signed in, but neither an administrator, moderator, nor author of the content  
-1. not signed in
+1. The member who posted the content  
+1. A trusted member moderator  
+1. An administrator  
+1. Signed in, but neither an administrator, moderator, nor author of the content  
+1. Not signed in
 
 ## Example {#example}
 
-Using the [Geometrixx Engage](http://localhost:4503/content/sites/engage/en.html) site created when [Getting Started with AEM Communities](/help/communities/getting-started.md), it is possible to quickly setup a thread in a forum on which to experience various moderation activites in the publish environment, as seen below.
+Using the [Geometrixx Engage](http://localhost:4503/content/sites/engage/en.html) site created when [Getting Started with AEM Communities](getting-started.md), it is possible to quickly setup a thread in a forum on which to experience various moderation activites in the publish environment, as seen below.
 
 Aaron McDonald (aaron.mcdonald@mailinator.com) was identified as a a trusted community member by adding him to the community-engage-moderators group when creating the site.
 
-Rebekah Larsen (rebekah.larsen@trashymail.com) can be added as a member of community-engage-members group using the [Members console](/help/communities/members.md).
+Rebekah Larsen (rebekah.larsen@trashymail.com) can be added as a member of community-engage-members group using the [Members console](members.md).
 
-For more on community user groups, visit [Managing Users and User Groups](/help/communities/users.md).
+For more on community user groups, visit [Managing Users and User Groups](users.md).
 
 ### Create the Forum Posts {#create-the-forum-posts}
 
 * Log In as Rebekah Larsen (rebekah.larsen@trashymail.com)
 
-    * select Forum
-    * select New Post
-    * enter the Subject  
+    * Select Forum
+    * Select New Post
+    * Enter the Subject  
 
       When to change the nectar in Humming Bird Feeder
 
-    * enter the body text  
+    * Enter the body text  
 
       I haven't had much success when I hang a hummingbird feeder up every year. Seems they come a day or two then that is it. I change it once a week is that too long? Do I need to change it sooner?
-    * select Post
-    * select Log Out
+    * Select Post
+    * Select Log Out
 
 * Log In as Aaron McDonald (aaron.mcdonald@mailinator.com)
 
-    * select Forum
-    * for the Hummingbird Topic, select Read More
-    * enter the comment for Post Reply  
+    * Select Forum
+    * For the Hummingbird Topic, select Read More
+    * Enter the comment for Post Reply  
 
       I change mine once a week and I get them from May til October.
 
-    * select Reply
-    * select Log Out
+    * Select Reply
+    * Select Log Out
 
 * Log In as Andrew Schaeffer (andrew.schaeffer@trashymail.com)
 
-    * select Forum
-    * for the Hummingbird Topic, select Read More
-    * enter the comment for Post Reply  
+    * Select Forum
+    * For the Hummingbird Topic, select Read More
+    * Enter the comment for Post Reply  
 
       I sell nectar and feeders - visit https://my.viral.url/
 
-    * select Reply
-    * select Log Out
+    * Select Reply
+    * Select Log Out
 
 ### Anonymous Site Visitor (#5) {#anonymous-site-visitor}
 
@@ -89,7 +89,7 @@ An anonymous site visitor may only view the forum, but my not post any content n
 
 ### New Member (#4) {#new-member}
 
-On author, log in as admin and add Boyd Larsen (boyd.larsen@dodgit.com) as a new member of community-engage-members group using the [Members console](/help/communities/members.md), then Log Out.
+On author, log in as admin and add Boyd Larsen (boyd.larsen@dodgit.com) as a new member of community-engage-members group using the [Members console](members.md), then Log Out.
 
 On publish, log in as Boyd Larsen and access the thread by selecting `Forum`, and then `Read more` for the hummingbird post.
 
@@ -111,12 +111,12 @@ Log In as an Administrator (admin) and access the thread by selecting Forum, and
 
 Notice
 
-* admin can Flag, Delete, Edit, Deny, Cut, Close, Pin, Feature
-* admin may select Administration to access the moderation console
+* Admin can Flag, Delete, Edit, Deny, Cut, Close, Pin, Feature
+* Admin may select Administration to access the moderation console
 
 ![communityadmin-forum](assets/communityadmin-forum.png)
 
-Select Administration menu item to access the [moderation console](/help/communities/moderation.md) from the publish environment.
+Select Administration menu item to access the [moderation console](moderation.md) from the publish environment.
 
 Notice that, for an administrator, all moderatable content is visible, not just content from the Geometrixx Engage community site.
 
@@ -139,7 +139,7 @@ Notice
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
-Select Administration menu item to access the [moderation console](/help/communities/moderation.md) from the publish environment.
+Select Administration menu item to access the [moderation console](moderation.md) from the publish environment.
 
 Notice that, for a community moderator, only moderatable content from the Geometrixx Engage community site is visible.
 

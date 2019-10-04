@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: a07a4690-0e47-4a76-84cb-96abdc70b835
 ---
 
-# Extend Comments Component{#extend-comments-component}
+# Extend Comments Component {#extend-comments-component}
 
-The intention of [extending](/help/communities/client-customize.md#extensions) a default component is to alter the appearance or behavior of a component for specific uses.
+The intention of [extending](client-customize.md#extensions) a default component is to alter the appearance or behavior of a component for specific uses.
 
 The path to the component is unique and references the default component as a super resource type. There is less risk as the scope is limited compared to the global scope of a component overlay.
 
 >[!NOTE]
 >
->Extending an [overlaid](/help/communities/client-customize.md#overlays) component is not supported.
+>Extending an [overlaid](client-customize.md#overlays) component is not supported.
 
 ## Example {#example}
 
@@ -31,7 +31,7 @@ The comment component is actually one of two components which comprise the comme
 
 To extend comments you will need to:
 
-1. [Create the Components](/help/communities/extend-create-components.md)
-1. [Add Comment to Sample Page](/help/communities/extend-sample-page.md)
-1. [Alter the Appearance](/help/communities/extend-alter-appearance.md)
+1. [Create the Components](extend-create-components.md)
+1. [Add Comment to Sample Page](extend-sample-page.md)
+1. [Alter the Appearance](extend-alter-appearance.md)
 

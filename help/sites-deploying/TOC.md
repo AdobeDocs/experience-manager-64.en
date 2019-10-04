@@ -78,16 +78,11 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Forms Repository Restructuring in AEM 6.4](forms-repository-restructuring-in-aem-6-4.md)
     + [E-Commerce Repository Restructuring in AEM 6.4](ecommerce-repository-restructuring-in-aem-6-4.md)
     + [Repository Restructuring for AEM Communities in 6.4](communities-repository-restructuring-in-aem-6-4.md)
-+ eCommerce Connectors {#ecommerce}
++ eCommerce {#ecommerce}
     + [eCommerce Overview](ecommerce.md)
-    + [hybris](hybris.md)
-    + [Intershop](intershop.md)
-    + [Elastic Path](elasticpath.md)
-    + [Magento](magento.md)
-    + [Salesforce Commerce Cloud](demandware.md)
-    + [IBM Websphere Commerce](ibm-websphere.md)
-    + [IBM Websphere Setup](setup.md)
-    + [Digital River](digital-river.md)
+    + [SAP Commerce Cloud](sap-commerce-cloud.md)
+    + [Salesforce Commerce Cloud](https://github.com/adobe/commerce-salesforce)
+    + [Magento](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/integrations.html#!AdobeDocs/commerce-cif-documentation/master/integrations/02-AEM-Magento.md)
 + Best Practices {#practices}
    + [Deploying Best Practices](best-practices.md)
    + [Performance Tree](performance-tree.md)
@@ -95,15 +90,6 @@ user-guide-title: AEM 6.4 Deploying Guide
    + [Best Practices for Queries and Indexing](best-practices-for-queries-and-indexing.md)
    + [User Interface Recommendations for Customers](ui-recommendations.md)
    + [Performance & Scalability](performance.md)
-+ Deleted section Remove duplicates and move others to sections above {#deleted}
-    + [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)
-    + [Device Control Center](device-control-center.md)
-+ Missing TOC files that need to be linked to - please fix {#missing}
-    + [webconsole](web-console.md)
-    + [aemscreensintro](aem-screens-introduction.md)
-    + [repository-restructuring-in-aem64](repository-restructuring-in-aem64.md)
-    + [config-ssl](config-ssl.md)
-    + [configuring-screens-introduction](configuring-screens-introduction.md)
 
 
 <!-- 
@@ -113,11 +99,15 @@ To be removed:
 [Device Control Center](device-control-center.md)
 [repository-restructuring-in-aem64](repository-restructuring-in-aem64.md)
 [Web Console] (configuring-web-console.md)
+[Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
+[Kickstart Guide](kickstart-for-aem-screens.md)
+/help/sites/deploying/using/performance-lp.md
+/help/sites-deploying/do-not-delete-performance-guidelines-pdf.md
+/help/sites-deploying/removing-the-geometrixx-sites.md
+/help/sites-deploying/consistency-check.md
 
 Redirects:
-    [(Redirect)Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
-    [(Redirect)Kickstart Guide](kickstart-for-aem-screens.md)
-    [(Redirect)Glossary](screens-glossary.md)
-    [(Redirect)What is AEM Screens?](aem-screens-introduction.md)
-    [(Enabling HTTP Over SSL)](config-ssl.md) redirect to /content/help/en/experience-manager/6-4/sites-administering/ssl-by-default
+[(Redirect)Glossary](screens-glossary.md) to /help/screens/aem-screens-introduction.md
+[(Redirect)What is AEM Screens?](aem-screens-introduction.md) redirect to /help/screens/aem-screens-introduction.md
+[(Enabling HTTP Over SSL)](config-ssl.md) redirect to /content/help/en/experience-manager/6-4/sites-administering/ssl-by-default
 -->

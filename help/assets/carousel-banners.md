@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4b532cd3-1561-4b5c-8b4b-420c278926f0
 ---
 
-# Carousel Banners{#carousel-banners}
+# Carousel Banners {#carousel-banners}
 
 Carousel banners enable marketers to drive conversion by easily creating interactive rotating promotional content and delivering it to any screen.
 
@@ -65,7 +65,7 @@ To get you up and running quickly:
 
    In Carousels Sets, users navigate through banner images and tap hotspots or image maps to access relevant content.
 
-   To create a Carousel Set in Assets, tap **[!UICONTROL Create]**, then select **C[!UICONTROL arousel Sets]**. Add assets to slides and tap **[!UICONTROL Save]**. You can also edit the appearance and behavior of the carousel directly within the editor.
+   To create a Carousel Set in Assets, tap **[!UICONTROL Create]**, then select **[!UICONTROL Carousel Sets]**. Add assets to slides and tap **[!UICONTROL Save]**. You can also edit the appearance and behavior of the carousel directly within the editor.
 
 1. [Add hotspots or image maps to an image banner.](#adding-hotspots-or-image-maps-to-an-image-banner)
 
@@ -183,7 +183,7 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
 
 **To create a Carousel Set**:
 
-1. In Assets, navigate to the folder where you want to create the Carousel Set and tap **[!UICONTROL Create &gt; Carousel Set]**.
+1. In Assets, navigate to the folder where you want to create the Carousel Set and tap **[!UICONTROL Create > Carousel Set]**.
 1. On the **[!UICONTROL Carousel Banner Editor]** page, tap **[!UICONTROL Tap to open Asset Selector]** to select the image for your first slide.
 
    On the **[!UICONTROL Carousel Banner Editor]** page, do either one of the following:

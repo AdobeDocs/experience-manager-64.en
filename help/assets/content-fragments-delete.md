@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: eaf65bdd-9091-4985-90bd-5eb2148965e3
 ---
 
-# Content Fragments - Delete Considerations{#content-fragments-delete-considerations}
+# Content Fragments - Delete Considerations {#content-fragments-delete-considerations}
 
 >[!CAUTION]
 >

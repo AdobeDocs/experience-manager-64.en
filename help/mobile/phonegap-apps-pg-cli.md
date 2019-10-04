@@ -71,9 +71,9 @@ PhoneGap CLI can create a platform project, compile the source, and deploy the a
 
 ```xml
 phonegap run android
- 
-// -- or -- // 
- 
+
+// -- or -- //
+
 phonegap run ios
 ```
 
@@ -100,8 +100,8 @@ To enable the developer tools:
 
 * Open Safari's preferences
 
-    * Click Safari in menu bar
-    * Click Preferences
+  * Click Safari in menu bar
+  * Click Preferences
 
 * Click Advanced in Preference window
 
@@ -119,9 +119,9 @@ You can connect Safari to either an iOS device or emulator.
 
 ```xml
 phonegap run <platform> --device
- 
+
 // -- or -- //
- 
+
 phonegap run <platform> --emulator
 ```
 
@@ -130,7 +130,7 @@ phonegap run <platform> --emulator
 * Select iOS Simulator sub menu
 * Click on home.html
 
-![chlimage_1-48](assets/chlimage_1-48.png) 
+![chlimage_1-48](assets/chlimage_1-48.png)
 
 ## Debug JavaScript with Safari's Web Inspector {#debug-javascript-with-safari-s-web-inspector}
 

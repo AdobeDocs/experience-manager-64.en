@@ -21,7 +21,7 @@ When the **AEM view** is open the Analytics variables appear in the content find
 
 ![aa-12](assets/aa-12.png)
 
-You can map the same **Analytics variable** with multiple CQ variables. You can also map multiple Analytics variables with the same **CQ variable**.
+You can map multiple Analytics variables with the same **CQ variable**.
 
 ![chlimage_1-155](assets/chlimage_1-155.png)
 
@@ -92,11 +92,11 @@ Several AEM Commerce components use these variable names.
 
 Initially, when you open an Adobe Analytics framework the content finder contains predefined Analytics variables under:
 
-* Traffic ``  
+* Traffic   
 
-* Conversion ``  
+* Conversion   
 
-* Events ``
+* Events 
 
 When an RSID is selected all the variables belonging to that RSID get added to the list.  
 The `cf#` is needed in order to map Analytics variables to the CQ variables present on the different tracking components. See Setting Up a Framework for Basic Tracking.
@@ -107,7 +107,7 @@ The list can be manipulated in the following ways:
 
 1. When in **AEM view**, the list can be filtered depending on what variable type is selected using the 3 filter buttons:
 
-    * If* no button* is selected, the list shows the full list.
+    * If *no button* is selected, the list shows the full list.
     * If the **Traffic** button is selected, the list will only show the variables belonging to the Traffic section
     * If the **Conversion** button is selected, the list will only show the variables belonging to the Conversion section. 
     * If the **Events** button is selected, the list will only show the variables belonging to the Events section.
@@ -131,7 +131,7 @@ The list can be manipulated in the following ways:
 
    ![aa-22](assets/aa-22.png)
 
-    * The variables can be dragged&dropped onto any Adobe Analytics variable belonging to either one of the 3 variable sections (**Traffic**, **Conversion **and **Events**).
+    * The variables can be dragged&dropped onto any Adobe Analytics variable belonging to either one of the 3 variable sections (**Traffic**, **Conversion** and **Events**).
     * When dragging a new tracking component onto the framework in CQ view, the CQ variables belonging to the component get automatically added to the Content Finder(cf#) in Adobe Analytics view.
 
    >[!NOTE]

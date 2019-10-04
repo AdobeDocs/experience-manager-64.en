@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: ef564750-f107-41cb-887e-fc6d22b7d32e
 ---
 
-# Reusing adaptive forms{#reusing-adaptive-forms}
+# Reusing adaptive forms {#reusing-adaptive-forms}
 
 ## Introduction {#introduction}
 

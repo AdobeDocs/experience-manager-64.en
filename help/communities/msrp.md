@@ -11,100 +11,86 @@ content-type: reference
 discoiquuid: 048f7b30-20c3-4567-bd32-38cf2643cf39
 ---
 
-# MSRP - MongoDB Storage Resource Provider{#msrp-mongodb-storage-resource-provider}
+# MSRP - MongoDB Storage Resource Provider {#msrp-mongodb-storage-resource-provider}
 
 ## About MSRP {#about-msrp}
 
 When AEM Communities is configured to use MSRP as its common store, user generated content (UGC) is accessible from all author and publish instances without the need for synchronization nor replication.
 
-See also [Characteristics of SRP Options](/help/communities/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](/help/communities/topologies.md).
+See also [Characteristics of SRP Options](working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](topologies.md).
 
 ## Requirements {#requirements}
 
 * [MongoDB](https://www.mongodb.org/):
 
-    * version 2.6 or greater
-    * no need to configure mongos or sharding
-    * strongly recommend use of a [replica set](#mongoreplicaset)
-    * may run on same host as AEM or run remotely
+    * Version 2.6 or greater
+    * No need to configure mongos or sharding
+    * Strongly recommend use of a [replica set](#mongoreplicaset)
+    * May run on same host as AEM or run remotely
 
 * [Apache Solr](https://lucene.apache.org/solr/):
 
-    * version 4.10 or version 5
+    * Version 4.10 or version 5
     * Solr requires Java 1.7 or greater
-    * no service is needed
-    * choice of run modes:
-
-        * standalone mode
-        * [SolrCloud mode](/help/communities/solr.md#solrcloud-mode) (recommended for production environments)
-
-    * choice of Multilingual Search (MLS)
-
-        * [Installing Standard MLS](/help/communities/solr.md#installing-standard-mls)
-        * [Installing Advanced MLS](/help/communities/solr.md#installing-advanced-mls)
+    * No service is needed
+    * Choice of run modes:
+        * Standalone mode
+        * [SolrCloud mode](solr.md#solrcloud-mode) (recommended for production environments)
+    * Choice of Multilingual Search (MLS)
+        * [Installing Standard MLS](solr.md#installing-standard-mls)
+        * [Installing Advanced MLS](solr.md#installing-advanced-mls)
 
 ## MongoDB Configuration {#mongodb-configuration}
 
 ### Select MSRP {#select-msrp}
 
-The [Storage Configuration console](/help/communities/srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
+The [Storage Configuration console](srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
 
 On author, to access the Storage Configuration console:
 
-* from global navigation: **Tools, Communities, Storage Configuration**
+* From global navigation: **[!UICONTROL Tools > Communities > Storage Configuration]**
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 
-* select **MongoDB Storage Resource Provider (MSRP)**
-* **mongoDB Configuration**
+* Select **[!UICONTROL MongoDB Storage Resource Provider (MSRP)]**
+* **[!UICONTROL mongoDB Configuration]**
 
-    * **mongoDB URI**
+    * **[!UICONTROL mongoDB URI]**
   
       *default*: mongodb://localhost/?maxPoolSize=10&waitQueueMultiple=5&readPreference=secondaryPreferred
   
-    * **mongoDB Database** 
+    * **[!UICONTROL mongoDB Database]** 
   
       *default*: communities
   
-    * **mongoDB UGC Collection** 
+    * **[!UICONTROL mongoDB UGC Collection]** 
 
       *default*: content
   
-    * **mongoDB Attachment Collection** 
+    * **[!UICONTROL mongoDB Attachment Collection]** 
   
       *default*: attachments
 
-* **SolrConfiguration**
+* **[!UICONTROL SolrConfiguration]**
 
     * **[Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
 
-      When running in [SolrCloud mode](/help/communities/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the `HOST:PORT` for the ZooKeeper, such as *my.server.com:2181* 
-
+      When running in [SolrCloud mode](solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the `HOST:PORT` for the ZooKeeper, such as *my.server.com:2181* 
       For a ZooKeeper Ensemble, enter comma-separated `HOST:PORT` values, such as *host1:2181,host2:2181* 
-
       Leave blank if running Solr in standalone mode using the internal ZooKeeper.  
-
-      *default*: *&lt;blank&gt;*
-  
-    * **Solr URL** 
-
+      *Default*: *&lt;blank&gt;*
+    * **[!UICONTROL Solr URL]** 
       The URL used to communicate with Solr in standalone mode. 
-  
       Leave blank if running in SolrCloud mode.  
-
-      *default*: https://127.0.0.1:8983/solr/
-  
-    * **Solr Collection** 
-
+      *Default*: https://127.0.0.1:8983/solr/
+    * **[!UICONTROL Solr Collection]** 
       The Solr collection name.  
-
-      *default*: collection1
-
-* select **Submit**
+      *Default*: collection1
+* Select **[!UICONTROL Submit]**
 
 >[!NOTE]
 >
->The mongoDB database, which defaults to the name `communities`, should not be set to the name of a database being used for [node stores or data (binary) stores](/help/sites-deploying/data-store-config.md). See also [Storage Elements in AEM 6](/help/sites-deploying/storage-elements-in-aem-6.md).
+>The mongoDB database, which defaults to the name `communities`, should not be set to the name of a database being used for [node stores or data (binary) stores](../../help/sites-deploying/data-store-config.md). See also [Storage Elements in AEM 6](../../help/sites-deploying/storage-elements-in-aem-6.md).
 
 ### MongoDB Replica Set {#mongodb-replica-set}
 
@@ -130,23 +116,20 @@ A Solr installation may be shared between the node store (Oak) and common store 
 
 If both the Oak and MSRP collections are used intensively, a second Solr may be installed for performance reasons.
 
-For production environments, [SolrCloud mode](/help/communities/solr.md#solrcloud-mode) provides improved performance over standalone mode (a single, local Solr setup).
+For production environments, [SolrCloud mode](solr.md#solrcloud-mode) provides improved performance over standalone mode (a single, local Solr setup).
 
-For configuration details, see [Solr Configuration for SRP](/help/communities/solr.md).
+For configuration details, see [Solr Configuration for SRP](solr.md).
 
 ### Upgrading {#upgrading}
 
 If upgrading from an earlier version configured with MSRP, it will be necessary to
 
-1. perform the [upgrade to AEM Communities](/help/communities/upgrade.md)
-1. install new Solr configuration files
-
-    * for [standard MLS](/help/communities/solr.md#installing-standard-mls)
-    * for [advanced MLS](/help/communities/solr.md#installing-advanced-mls)
-
-1. reindex MSRP 
-
-   see section [MSRP Reindex Tool](#msrp-reindex-tool)
+1. Perform the [upgrade to AEM Communities](upgrade.md)
+1. Install new Solr configuration files
+    * For [standard MLS](solr.md#installing-standard-mls)
+    * For [advanced MLS](solr.md#installing-advanced-mls)
+1. Reindex MSRP 
+   See section [MSRP Reindex Tool](#msrp-reindex-tool)
 
 ## Publishing the Configuration {#publishing-the-configuration}
 
@@ -154,22 +137,19 @@ MSRP must be identified as the common store on all author and publish instances.
 
 To make the identical configuration available in the publish environment:
 
-* on author:
-
-    * navigate from main menu to `Tools > Operations > Replication`
-    * select **Activate Tree**
-    * **Start Path:**
-
-        * browse to `/etc/socialconfig/srpc/`
-
-    * select **Activate**
+* On author:
+    * Navigate from main menu to **[!UICONTROL Tools > Operations > Replication]**
+    * Select **[!UICONTROL Activate Tree]**
+    * **[!UICONTROL Start Path]**:
+        * Browse to `/etc/socialconfig/srpc/`
+    * Select **[!UICONTROL Activate]**
 
 ## Managing User Data {#managing-user-data}
 
 For information regarding *users*, *user profiles* and *user groups*, often entered in the publish environment, visit
 
-* [User Synchronization](/help/communities/sync.md)
-* [Managing Users and User Groups](/help/communities/users.md)
+* [User Synchronization](sync.md)
+* [Managing Users and User Groups](users.md)
 
 ## MSRP Reindex Tool {#msrp-reindex-tool}
 
@@ -185,8 +165,8 @@ When reindexing, there is a tradeoff between memory and performance controlled b
 
 A reasonable default is 5000:
 
-* if memory is an issue, specify a a smaller number 
-* if speed is an issue, specify a larger number to increase speed
+* If memory is an issue, specify a a smaller number 
+* If speed is an issue, specify a larger number to increase speed
 
 ### Running MSRP Reindex Tool Using cURL Command {#running-msrp-reindex-tool-using-curl-command}
 
@@ -197,7 +177,7 @@ The basic format is:
 cURL -u *signin* -d *data* *reindex-url*
 
 *signin* = administrator-id:password  
-for example: admin:admin
+For example: admin:admin
 
 *data* = "batchSize=*size*&path=*path"*
 
@@ -206,16 +186,16 @@ for example: admin:admin
 
 *path* = the root location of the tree of UGC to reindex  
 
-* to reindex all UGC, specify the value of the `asipath`property of  
+* To reindex all UGC, specify the value of the `asipath`property of  
 `/etc/socialconfig/srpc/defaultconfiguration`  
-* to limit the index to some UGC, specify a subtree of `asipath`
+* To limit the index to some UGC, specify a subtree of `asipath`
 
 *reindex-url* = the endpoint for reindexing of SRP  
 `http://localhost:4503/services/social/datastore/mongo/reindex`
 
 >[!NOTE]
 >
->If you are [reindexing DSRP Solr](/help/communities/dsrp.md), the URL is **/services/social/datastore/rdb/reindex**
+>If you are [reindexing DSRP Solr](dsrp.md), the URL is **/services/social/datastore/rdb/reindex**
 
 ### MSRP Reindex Example {#msrp-reindex-example}
 
@@ -226,7 +206,7 @@ curl -s -u admin:admin -d 'batchSize=10000&path=/content/usergenerated/asi/mongo
 
 ## How To Demo MSRP {#how-to-demo-msrp}
 
-To setup MSRP for a demonstration or development environment, see [HowTo Setup MongoDB for Demo](/help/communities/demo-mongo.md).
+To setup MSRP for a demonstration or development environment, see [HowTo Setup MongoDB for Demo](demo-mongo.md).
 
 ## Troubleshooting {#troubleshooting}
 
@@ -234,16 +214,16 @@ To setup MSRP for a demonstration or development environment, see [HowTo Setup M
 
 Make sure MSRP has been configured to be the default provider by checking the configuration of the storage option. By default, the storage resource provider is JSRP.
 
-On all author and publish AEM instances, revisit the [Storage Configuration console](/help/communities/srp-config.md) or check the AEM repository:
+On all author and publish AEM instances, revisit the [Storage Configuration console](srp-config.md) or check the AEM repository:
 
-* in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
+* In JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
-    * does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
-    * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider
+    * Does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
+    * If the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider
 
 ### UGC Disappears after Upgrade {#ugc-disappears-after-upgrade}
 
-If upgrading from an exisitng AEM Communities 6.0 site, any pre-existing UGC must be converted to conform to the structure required for the [SRP](/help/communities/srp.md) API after upgrading to AEM Communities 6.3.
+If upgrading from an exisitng AEM Communities 6.0 site, any pre-existing UGC must be converted to conform to the structure required for the [SRP](srp.md) API after upgrading to AEM Communities 6.3.
 
 There is an open source tool available on GitHub for this purpose:
 
@@ -265,26 +245,21 @@ at com.adobe.cq.social.scf.core.BaseSocialComponent.toJSONString(BaseSocialCompo
 ... 124 common frames omitted
 ```
 
-To resolve the error, when following the instructions for [Installing Standard MLS](/help/communities/solr.md#installing-standard-mls), ensure
+To resolve the error, when following the instructions for [Installing Standard MLS](solr.md#installing-standard-mls), ensure
 
-* the XML configuration files were copied to the correct Solr location
+* The XML configuration files were copied to the correct Solr location
 * Solr was restarted after the new configuration files replaced the existing ones
 
 ### Secure Connection to MongoDB Fails {#secure-connection-to-mongodb-fails}
 
 If an attempt to make a secured connection to the MongoDB server fails due to a missing class definition, it is necessary to update the MongoDB driver bundle, `mongo-java-driver`, available from the public maven repository.
 
-1. download the driver from 
-
-   [https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar](https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar) 
-   
-   (version 2.13.2 or later)
-
-1. copy the bundle into the "crx-quickstart/install" folder for an AEM instance
-1. restart the AEM instance
+1. Download the driver from [https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar](https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar) (version 2.13.2 or later)
+1. Copy the bundle into the "crx-quickstart/install" folder for an AEM instance
+1. Restart the AEM instance
 
 ## Resources {#resources}
 
-* [AEM with MongoDB](/help/sites-deploying/aem-with-mongodb.md)
+* [AEM with MongoDB](../../help/sites-deploying/aem-with-mongodb.md)
 * [MongoDB Documentation](https://docs.mongodb.org/)
 

@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 71bba66a-3cac-445b-9941-aa4bcf9b2160
 ---
 
-# Print channel and web channel{#print-channel-and-web-channel}
+# Print channel and web channel {#print-channel-and-web-channel}
 
 Importing print channel templates and creating and enabling web channel templates
 
@@ -53,9 +53,9 @@ To author a web channel template Complete the following steps:
 
 1. Navigate to the appropriate template folder and create a web template.
 
-    1. Navigate to the appropriate template folder by selecting **[!UICONTROL Tools]** > **[!UICONTROL Templates]** &gt; [Folder].
+    1. Navigate to the appropriate template folder by selecting **[!UICONTROL Tools]** > **[!UICONTROL Templates > Folder]**.
     1. Tap **[!UICONTROL Create]**.
-    1. Select **[!UICONTROL Interactive Communication - Web Channel]**and tap **[!UICONTROL Next]**. 
+    1. Select **[!UICONTROL Interactive Communication - Web Channel]** and tap **[!UICONTROL Next]**. 
     1. Enter a Template title and description and then tap **[!UICONTROL Create]**.
 
        The template is created and a dialog appears. 

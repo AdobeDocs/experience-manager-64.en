@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f146202f-25f1-46a0-9943-c483f5f09f9f
 ---
 
-# Backing up and recovering the EMC Documentum repository{#backing-up-and-recovering-the-emc-documentum-repository}
+# Backing up and recovering the EMC Documentum repository {#backing-up-and-recovering-the-emc-documentum-repository}
 
 This section describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
 
@@ -192,15 +192,15 @@ This section describes installing and configuring the EMC NetWorker software on 
 
     * Full database backup (nsrnmddbf.bat):
 
-      *[NetWorker_database_module_root]* `-s`*<NetWorker_Server_Name>* `-U`*<username>* `-P`*<password>* `-l full`*&lt;database_name&gt;*
+      *[NetWorker_database_module_root]* `-s`*<NetWorker_Server_Name>* `-U`*[username]* `-P`*[password]* `-l full`*&lt;database_name&gt;*
     
     * Incremental database backup (nsrnmddbi.bat):
 
-      *[NetWorker_database_module_root]* `-s`*<NetWorker_Server_Name>* `-U`*<username>* `-P`*<password>* `-l 1 -R`*&lt;database_name&gt;*
+      *[NetWorker_database_module_root]* `-s`*<NetWorker_Server_Name>* `-U`*[username]* `-P`*[password]* `-l 1 -R`*&lt;database_name&gt;*
     
     * Database log backup (nsrnmddbl.bat):
 
-      *[NetWorker_database_module_root]* `-s`*<NetWorker_Server_Name>* `-U`*<username>* `-P`*<password>* `-l incr -R`*&lt;database_name&gt;*
+      *[NetWorker_database_module_root]* `-s`*<NetWorker_Server_Name>* `-U`*[username]* `-P`*[password]* `-l incr -R`*&lt;database_name&gt;*
 
       Where:
 

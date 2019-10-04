@@ -11,11 +11,11 @@ content-type: reference
 discoiquuid: 4785c3f2-c25f-47c4-9ecd-09aa49afd4d3
 ---
 
-# Poll Essentials{#poll-essentials}
+# Poll Essentials {#poll-essentials}
 
-The poll component is a subclass of [tally](/help/communities/tally.md).
+The poll component is a subclass of [tally](tally.md).
 
-While the tally class, along with the [rating](/help/communities/rating-basics.md) and [voting](/help/communities/essentials-voting.md) subclasses, has been ported to the [social component framework](/help/communities/scf.md) as HBS components, the poll feature has not yet been ported.
+While the tally class, along with the [rating](rating-basics.md) and [voting](essentials-voting.md) subclasses, has been ported to the [social component framework](scf.md) as HBS components, the poll feature has not yet been ported.
 
 >[!NOTE]
 >

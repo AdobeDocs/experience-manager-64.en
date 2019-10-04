@@ -15,34 +15,32 @@ discoiquuid: 45efff93-2fe5-4313-83a0-0e23a540da93
 
 This page provides an overview of Adobe Experience Manager (AEM) components such as those [used for page authoring](/help/sites-authoring/default-components-foundation.md).
 
-## What Exactly is a Component? {#what-exactly-is-a-component}
+## What are Components? {#what-exactly-is-a-component}
 
-Components:
-
-* Are modular units which realize specific functionality to present your content on your website.
-* Are re-usable.
-* Are developed as self-contained units within one folder of the repository.
+* Modular units which realize specific functionality to present your content on your website.
+* Re-usable.
+* Developed as self-contained units within one folder of the repository.
 * Have no hidden configuration files.
 * Can contain other components.
 * Can run anywhere within any AEM system. They can also be limited to run under specific components.
 * Have a standardized user interface.
 * Have edit behavior that can be configured.
-* Use dialogs that are built using sub-elements based on Granite UI components   
+* Use dialog boxes that are built using sub-elements based on Granite UI components   
 * Are developed using [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (recommended) or JSP.
 * Can be developed to create customized components that extend the default functionality.
 
 Because components are modular, you can:
 
-1. Develop a new component on your local instance.
-1. Deploy this to your test environment.
-1. Deploy it to your live authoring environment, where they allow authors and/or administrators to add and configure content.
-1. Deploy it to your live publish environment(s), where they are used to render content for visitors to your website. Certain components, for example for Communities, also accept input from your users.
+* Develop a new component on your local instance.
+* Deploy it to your test environment.
+* Deploy it to your live authoring environment, where they allow authors and/or administrators to add and configure content.
+* Deploy it to your live publish environment(s), where they are used to render content for visitors to your website. Certain components, for example for Communities, also accept input from your users.
 
 Each AEM component:
 
-* Is a resource type
-* Is a collection of scripts that completely realize a specific function
-* Can function in *isolation*, meaning either within AEM or a portal
+* Is a resource type.
+* Is a collection of scripts that completely realize a specific function.
+* Can function in *isolation*, meaning either within AEM or a portal.
 
 ## Out-of-the-Box Components Within AEM {#out-of-the-box-components-within-aem}
 
@@ -50,7 +48,6 @@ AEM comes with a variety of [out-of-the-box components](/help/sites-authoring/de
 
 * Paragraph System ( `parsys`)
 * Page ( `responsivegrid` - touch-enabled UI only)  
-
 * Text  
 * Image, with accompanying text
 * Toolbar
@@ -61,7 +58,7 @@ The components provided and their usage within the [sample We.Retail websites](/
 
 There are two sets of Adobe-provided AEM components available:
 
-* [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html)
+* [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
 * [Foundation Components](/help/sites-authoring/default-components-foundation.md)
 
 **Core Components** were introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. The [We.Retail reference site](/help/sites-developing/we-retail.md) illustrates how the core components can be used and represent the current best-practices of component development.
@@ -70,7 +67,9 @@ There are two sets of Adobe-provided AEM components available:
 
 >[!NOTE]
 >
->[Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) represent the current best practices for component design and development and serve as reference implementations.
+>[Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) represent the current best practices for component design and development and serve as reference implementations.
+>
+>[AEM Modernization Tools](modernization-tools.md) can help the migration to Core Components.
 
 ### Viewing Available Components {#viewing-available-components}
 
@@ -78,19 +77,19 @@ For an overview of all of the available components in your AEM instance, use the
 
 Alternatively, you can also use CRXDE Lite to get a list of all the components available in the repository.
 
-1. In CRXDE Lite, select **Tools** from the toolbar, then **Query**, which opens the **Query** tab.  
+1. In **[!UICONTROL CRXDE Lite]**, select **[!UICONTROL Tools]** from the toolbar, then **[!UICONTROL Query]**, which opens the **[!UICONTROL Query]** tab.  
 
-1. In the **Query** tab, select `XPath` as **Type**.
+1. In the **[!UICONTROL Query]** tab, select `XPath` as **[!UICONTROL Type]**.
 
-1. In the **Query** input field, enter following string:
+1. In the **[!UICONTROL Query]** input field, enter following string:
 
    `//element(*, cq:Component)`
 
-1. Click **Execute **and the components are listed.
+1. Click **[!UICONTROL Execute]** and the components are listed.
 
-## Further Reading {#further-reading}
+## Additional resources {#further-reading}
 
-The following pages provide more detailed information about developing these (and other) components:
+The following pages provide more detailed information about developing these&mdash;and other&mdash;components:
 
 * [AEM Components - The Basics](/help/sites-developing/components-basics.md)
 * [Developing AEM Components](/help/sites-developing/developing-components.md)
@@ -101,7 +100,7 @@ The following pages provide more detailed information about developing these (an
 * [Components for Content Fragments](/help/sites-developing/components-content-fragments.md)
 * [Obtaining Page Information in JSON Format](/help/sites-developing/pageinfo.md)
 * [Internationalizing Components](/help/sites-developing/i18n.md)
-* [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html)
+* [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
 * [Using Hide Conditions](/help/sites-developing/hide-conditions.md)
 * Classic UI
 
