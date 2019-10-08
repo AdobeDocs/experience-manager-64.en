@@ -83,7 +83,7 @@ You can optionally adjust the batch size of the reprocess workflow from a defaul
 1. In Experience Manager, tap **[!UICONTROL Adobe Experience Manager]** to access the global navigation console, then tap the **[!UICONTROL Tools]** (hammer) icon > **[!UICONTROL Workflow > Models]**.
 1. On the Workflow Models page, in Card View or List View, select **[!UICONTROL Scene7: Reprocess Assets]**.
 
-    ![Workflow Models page with Scene7: Reprocess Assets workflow selected in Card View](/help/assets/assets/workflow-models1.png)
+    ![Workflow Models page with Scene7: Reprocess Assets workflow selected in Card View](/help/assets/assets/workflow-models0.png)
 
 1. On the tool bar, click **[!UICONTROL Edit]**. A new browser tab opens the Scene7: Reprocess Assets workflow model page.
 1. On the Scene7: Reprocess Assets workflow page, double-click any step between Flow Start and Flow End of the model. 
