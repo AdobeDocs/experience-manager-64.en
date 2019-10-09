@@ -4,10 +4,8 @@ seo-title: Imaging Transcoding Library
 description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
 seo-description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
 uuid: 5a458026-1151-424f-8900-563fb86f7b0e
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 674af52d-60de-4112-913e-6cfd2bfeceb9
 ---
 
@@ -115,7 +113,7 @@ You can configure the following options for the` `-resize` `parameter:`
 
 1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
 1. From the **[!UICONTROL Workflow Models]** page, open the **[!UICONTROL DAM Update Asset]** workflow model in edit mode.
-1. Open the **[!UICONTROL Process Thumbnails]** workflow process step. In the **[!UICONTROL Thumbnails]** tab, add the MIME types for which you want to skip the default thumbnail generation process in the **[!UICONTROL Skip Mime Types]** list. For example, if you want to create thumbnails for a JPEG image using Imaging Transcoding Library, specify `skip:image/jpeg` in the Skip Mime Types field.
+1. Open the **[!UICONTROL Process Thumbnails]** workflow process step. In the **[!UICONTROL Thumbnails]** tab, add the MIME types for which you want to skip the default thumbnail generation process in the **[!UICONTROL Skip Mime Types]** list. For example, if you want to create thumbnails for a JPEG image using Imaging Transcoding Library, specify `image/jpeg` in the [!UICONTROL Skip Mime Types] field.
 
    ![skip_mime_types-1](assets/skip_mime_types-1.png)
 
@@ -127,7 +125,7 @@ You can configure the following options for the` `-resize` `parameter:`
 
    ![process_arguments](assets/process_arguments.jpg)
 
-1. Add commands to SwitchEngine Handler using one of the following ways:
+1. [!UICONTROL Toggle side panel] and from the list of steps add **[!UICONTROL SWitchEngine Handler]**. Add commands to [!UICONTROL SWitchEngine Handler] using one of the following ways:
 
     * Based on custom requirements, tune the parameters of commands that you specify. For example, if you want to preserve the color profile of your JPEG image, add the following commands to the **[!UICONTROL Commands]** list:
 
