@@ -78,6 +78,13 @@ Open [Content Insight](/help/sites-authoring/content-insights.md) from the Sites
 
 ## Analytics visible from the Page Editor (Activity Map) {#analytics-visible-from-the-page-editor-activity-map}
 
+>[!CAUTION]
+>
+>Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM.
+>
+>The [ActivityMap plugin provided by Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html) should now be used.
+
+<!--
 >[!NOTE]
 >
 >This will be shown if the [Activity Map has been configured](/help/sites-administering/adobeanalytics-connect.md#configuring-for-the-activity-map) for your website.
@@ -152,4 +159,4 @@ The **Activity Map Settings** dialog provides a range of options on three tabs:
     * Display Top (Gainers or Losers
     * Exclude bottom %
     * Auto Update (data and period)
-
+-->

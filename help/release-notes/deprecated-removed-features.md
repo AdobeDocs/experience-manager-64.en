@@ -128,6 +128,11 @@ This section lists features and capabilities that have been removed from AEM 6.4
    <td><strong>Replacement</strong></td> 
   </tr>
   <tr>
+   <td>Analytics Activity Map</td> 
+   <td>The version of Activity Map that is included within AEM.</td> 
+   <td>Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM.<br><br>The <a href"https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html">ActivityMap plugin provided by Adobe Analytics</a> should now be used.</td> 
+  </tr>
+  <tr>
    <td>Components</td> 
    <td>Form Captcha<br /> (foundation/components/form/captcha)</td> 
    <td>Use the ReCaptcha by Google component instead</td> 
