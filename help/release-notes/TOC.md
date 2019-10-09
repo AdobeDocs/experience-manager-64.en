@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: SG_EXPERIENCEMANAGER/6.4
+product: Adobe Experience Manager
 audience: end-user
 user-guide-title: AEM 6.4 Release Notes
 ---
