@@ -1903,6 +1903,8 @@ This section lists features and capabilities that have been removed or deprecate
 
 ### Known Issues {#known-issues}
 
+* If you install AEM 6.4 Service Pack 6 on top of AEM 6.4 Service Pack 3 or later versions, **Publish page** and **Unpublish page** do not display in the list of **Page Information** options.
+
 * After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this execute the following command:
 
   `sh removing-commons.codec-1.11.0.sh <host> <port> <username> <password>`
