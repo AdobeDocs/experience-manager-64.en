@@ -34,15 +34,7 @@ In addition to supporting a wide range of file formats and profiles, Imaging Tra
 
 ## Supported MIME types {#supported-mime-types}
 
-Imaging Transcoding Library supports the following MIME types:
-
-* JPG/JPEG
-* PNG (8 and 16 Bit)
-* GIF
-* BMP
-* TIFF/Compressed TIFF (apart from 32 Bit Tiffs and PTiffs)
-* ICO
-* ICN
+See [supported MIME types article](assets-formats.md#supported-image-transcoding-library), for a list of formats that ITL supports.
 
 ## Supported Platforms {#supported-platforms}
 

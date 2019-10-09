@@ -66,7 +66,7 @@ The Adobe PDF Rasterizer library generates high-quality thumbnails and previews 
 
 See [Using PDF Rasterizer](aem-pdf-rasterizer.md).
 
-## Supported image transcoding library {#supported-image-transcoding-library}
+## Image Transcoding Library support {#supported-image-transcoding-library}
 
 The Adobe Imaging Transcoding library is an image processing solution that performs core image-handling functions, such as, encoding, transcoding, resampling, and resizing. Imaging Transcoding library supports JPG/JPEG, PNG (8-bit and 16-bit), GIF, BMP, TIFF/Compressed TIFF (apart from 32-bit TIFF files and PTIFF files), ICO, and ICN MIME types.
 
