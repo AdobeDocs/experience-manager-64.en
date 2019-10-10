@@ -6,8 +6,6 @@ seo-description: Learn about the implementation, data model, and features of Ass
 uuid: ab709c58-c9a6-48da-84da-866655c84658
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: extending-assets
-content-type: reference
 discoiquuid: 68d49096-959b-4751-abf1-23bedbaed9a0
 ---
 
@@ -58,17 +56,17 @@ thumbnail -- (Optional) link to a folder thumbnail image
 
 ### Assets {#assets}
 
-Assets are actually multi-part elements:
+Assets are multi-part elements, that include:
 
-* The properties and metadata of the asset
-* Multiple renditions such as the original rendition (which is the originally uploaded asset), a thumbnail and various other renditions. Additional renditions may be images of different sizes, different video encodings, or extracted pages from PDF or InDesign.
-* Optional comments
+* The properties and metadata of the asset.
+* Multiple renditions such as the original rendition (which is the originally uploaded asset), a thumbnail and various other renditions. Additional renditions may be images of different sizes, different video encodings, or extracted pages from PDF or Adobe InDesign.
+* Optional comments.
 
 Folders have the following components:
 
 **Entities**
 
-The children of Assets are its renditions.
+The children of assets are its renditions.
 
 **Properties**
 
@@ -210,7 +208,7 @@ PUT /api/assets/myfolder/myAsset.png -H"Content-Type: image/png" --data-binary @
 
 ### Update Asset metadata {#update-asset-metadata}
 
-Updates the Asset metadata properties.
+Updates the asset metadata properties.
 
 **Request**
 

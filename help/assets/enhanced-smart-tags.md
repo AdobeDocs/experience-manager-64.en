@@ -39,9 +39,14 @@ In summary, here are the main steps to use the Smart Content Service:
 
 ## Prerequisites {#prerequisites}
 
+Before you can use the Smart Content Service, ensure the following to create an integration on Adobe I/O:
+
+* An Adobe ID account that has administrator privileges for the organization.
+* The Smart Content Service service is enabled for your organization.
+
 ## Onboarding {#onboarding}
 
-The Smart Content Service is available for purchase as an add-on to AEM 6.4. After you purchase, an email is sent to the administrator of your organization with a link to Adobe IO.
+The Smart Content Service is available for purchase as an add-on to AEM. After you purchase, an email is sent to the administrator of your organization with a link to Adobe IO.
 
 The administrator can follow the link to integrate the Smart Content Service with AEM. To integrate the service with AEM Assets, see [Configure Smart Tags](config-smart-tagging.md).
 

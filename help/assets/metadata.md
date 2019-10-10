@@ -6,8 +6,6 @@ seo-description: Learn about the types of metadata an how AEM Assets helps manag
 uuid: 29215e51-b315-440a-9480-5b5a0ee76547
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 7acc1cab-d167-4299-bd13-8eb800a1112e
 ---
 
@@ -155,7 +153,7 @@ The metadata schemata supported are listed in the following section.
 >
 >If you find that you have a lot of application-specific metadata in your assets, you can create a workflow step that changes the application-specific property to a standard one.
 
-* acdsee - metadata managed by the ACDSee program [https://www.acdsee.com/](https://www.acdsee.com/)
+* acdsee - metadata managed by the ACDSee program [www.acdsee.com/](https://www.acdsee.com/)
 * album - Adobe Photoshop Album
 * cq - used by AEM Assets
 * dam - used by AEM Assets
@@ -172,7 +170,7 @@ The metadata schemata supported are listed in the following section.
 * cc - creative commons
 * xmpRights
 * plus - Picture Licensing Universal System - https://www.useplus.com/
-* prism - https://www.idealliance.org/prism-metadata Publishing Requirements for Industry Standard Metadata 
+* prism - https://www.idealliance.org/prism-metadata Publishing Requirements for Industry Standard Metadata
 * prl - Prism Rights Language
 * pur - Prism Usage Rights
 * xmpPlus - integration of PLUS with XMP
@@ -181,13 +179,13 @@ The metadata schemata supported are listed in the following section.
 
 * exif - lots of technical information from camera, including GPS position
 * crs - photoshop camera raw
-* Iptc4xmpCore & iptc4xmpExt
+* Iptc4xmpCore and iptc4xmpExt
 * TIFF - image metadata (not only for TIFF images)
 
 ### Print-Specific Metadata {#print-specific-metadata}
 
-* pdf & pdfx - Adobe PDF and third-party applications
-* prism - https://www.prismstandard.org Publishing Requirements for Industry Standard Metadata
+* pdf and pdfx - Adobe PDF and third-party applications
+* prism - [www.prismstandard.org](https://www.prismstandard.org) Publishing Requirements for Industry Standard Metadata
 * xmp
 * xmpPG - xmp for paged text
 
