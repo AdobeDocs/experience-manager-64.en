@@ -384,7 +384,7 @@ As an alternative, the primary repository can be copied over to the standby manu
 
 It is important to run garbage collection on file datastore instances from time to time as otherwise, deleted binaries will remain on the filesystem, eventually filling up the drive. To run garbage collection, follow the below procedure:
 
-1. Run cold standby repository maintenance as described in the section [above](/help/sites-deploying/tarmk-cold-standby.md##cold-standby-repository-maintenance).
+1. Run cold standby repository maintenance as described in the section [above](##cold-standby-repository-maintenance).
 1. After the maintenance process has completed and the instances have been restarted:
 
     * On the primary, run the data store garbage collection via the relevant JMX bean as described in [this article](/help/sites-administering/data-store-garbage-collection.md#running-data-store-garbage-collection-via-the-jmx-console).
