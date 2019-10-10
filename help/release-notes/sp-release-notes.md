@@ -32,7 +32,6 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.15.
 * Added support for tracking dynamic-UI-states in tracking event in the foundation API.
 * Added rendition support to the image core component.
-* Removed display of Publish Page and Unpublish Page in page information.
 
 ## List of changes {#list-of-changes}
 
@@ -1903,7 +1902,7 @@ This section lists features and capabilities that have been removed or deprecate
 
 ### Known Issues {#known-issues}
 
-* If you install AEM 6.4 Service Pack 6 on top of AEM 6.4 Service Pack 3 or later versions, **Publish page** and **Unpublish page** do not display in the list of **Page Information** options.
+* If **Publish page** and **Unpublish page** do not display in the list of **Page Information** options, contact Adobe support.
 
 * After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this execute the following command:
 
