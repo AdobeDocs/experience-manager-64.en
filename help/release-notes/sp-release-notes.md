@@ -32,7 +32,6 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.15.
 * Added support for tracking dynamic-UI-states in tracking event in the foundation API.
 * Added rendition support to the image core component.
-* Removed display of Publish Page and Unpublish Page in page information.
 
 ## List of changes {#list-of-changes}
 
@@ -1902,6 +1901,8 @@ This section lists features and capabilities that have been removed or deprecate
 | Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/creative-cloud.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or Desktop App. For more info, see [AEM Creative Cloud integration](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-cc-integration-best-practices.html) article. | AEM 6.4.4.0 |
 
 ### Known Issues {#known-issues}
+
+* If **Publish page** and **Unpublish page** do not display in the list of **Page Information** options, contact Adobe support.
 
 * After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this execute the following command:
 
