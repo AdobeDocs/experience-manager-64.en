@@ -52,7 +52,7 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
-1. Near the upper-right corner of the asset details page, tap the **[UICONTROL Stage Selector]** icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
+1. Near the upper-right corner of the asset details page, tap the **[!UICONTROL Stage Selector]** icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
 
    See [About the use of stages in AEM 3D](/help/sites-classic-ui-authoring/classicui-stages-aem3d.md).
 
@@ -70,7 +70,7 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 
     * In the **[!UICONTROL Width and Height]** fields, enter the pixel width and height that you want your image rendered.
     * In the **[!UICONTROL Image Name]** field, enter the name of the rendered image.
-    * In the **[!UICONTROL Export Path]** field, enter the path where you want the rendered image stored. Or, tap the **[UICONTROL Browse]** icon and navigate to a location.
+    * In the **[!UICONTROL Export Path]** field, enter the path where you want the rendered image stored. Or, tap the **[!UICONTROL Browse]** icon and navigate to a location.
     * (Optional) Select or deselect the **[!UICONTROL Overwrite existing image]** check box.
 
 1. Near the upper-right corner of the asset details page, tap the **[!UICONTROL Camera Selector]** icon. Select a camera view that you want to apply to the rendered image.

@@ -106,7 +106,7 @@ AEM Assets has a number of use cases that make network performance more importan
 
 ## WebDAV {#webdav}
 
-If you add the AEM Desktop app to the mix, network issues become more severe due to inefficiencies in the WebDAV protocol.
+If you add the AEM desktop app to the mix, network issues become more severe due to inefficiencies in the WebDAV protocol.
 
 To illustrate these inefficiencies, Adobe tested the system performance using WebDAV on OS X. A 3.5MB InDesign file was opened, edited, and the changes saved. The following observations were made:
 
@@ -118,7 +118,7 @@ To illustrate these inefficiencies, Adobe tested the system performance using We
 
 While analyzing the average save time for files over WebDAV, it was found that performance increases dramatically as bandwidth increases up until the 5-10Mbps level. Therefore, Adobe recommends that each user concurrently accessing the system should have at least 10Mbps of upload speed and 5-10Mbps of bandwidth.
 
-For more information, see [Troubleshooting AEM Desktop app](https://helpx.adobe.com/experience-manager/kb/troubleshooting-companion-app.html).
+For more information, see [Troubleshooting AEM desktop app](https://helpx.adobe.com/experience-manager/kb/troubleshooting-companion-app.html).
 
 ## Limitations {#limitations}
 
