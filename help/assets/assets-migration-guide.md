@@ -6,8 +6,6 @@ seo-description: Describes how to bring assets into AEM, apply metadata, generat
 uuid: 27190047-f5b5-4bfb-bf44-4df6e656247c
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: cb6ece20-f015-4e14-bc58-a9d88ab038b1
 ---
 

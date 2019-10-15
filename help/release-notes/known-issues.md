@@ -33,9 +33,9 @@ If you are using Mozilla Firefox as browser:
 If you are using Microsoft Edge as browser:
 
 * Type `about:flags` in the address bar and press Return.
-* Scroll to Experimental features then **[UICONTROL Touch]**.
-* Click **[UICONTROL Enable touch events]**.
-* Select **[UICONTROL Always Off]**.
+* Scroll to Experimental features then **[!UICONTROL Touch]**.
+* Click **[!UICONTROL Enable touch events]**.
+* Select **[!UICONTROL Always Off]**.
 * Restart the browser.
 
 ## Platform {#platform}
