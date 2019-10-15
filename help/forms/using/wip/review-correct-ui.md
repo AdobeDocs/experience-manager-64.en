@@ -22,7 +22,7 @@ Automated Forms Conversion service by AEM Forms allows you to convert the legacy
 
 Before you get into the Review and Correct feature, it is recommended to go through the following articles to understand the Automated Forms Conversion service and related information.
 
-* [Automated Forms Conversion service](introduction-to-automated-form-conversion-service.md)
+* [Automated Forms Conversion service](introduction.md)
 * [Configure the Automated Forms Conversion service](configure-the-automated-forms-conversion-service.md)
 * [Convert existing forms to adaptive forms](convert-existing-forms-to-adaptive-forms.md)
 * Supported forms for conversion (Link TBD)

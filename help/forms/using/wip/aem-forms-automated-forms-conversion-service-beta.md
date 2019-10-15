@@ -72,7 +72,7 @@ See the following documentation resources for detailed information about using A
 
 | Document |Coverage |
 |---|---|
-| [Automated Forms Conversion service](/help/forms/using/wip/introduction-to-automated-form-conversion-service.md) | 
+| [Automated Forms Conversion service](/help/forms/using/wip/introduction.md) | 
 Introduction to the Automated Forms Conversion service and conversion workflow   |
 | [Best practices and considerations](/help/forms/using/wip/styles-and-pattern--considerations-and-best-practices-.md) |Patterns and styles of form fields to consider before starting the conversion |
 | [Configure the Automated Forms Conversion service](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md) |Prerequisites and steps to install and configure the Automated Forms Conversion service |
