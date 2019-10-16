@@ -85,9 +85,9 @@ Leave the monochrome parameter setting at 0.
 ### Best practices for JPEF compression (&qlt=) {#best-practices-for-jpef-compression-qlt}
 
 * This parameter controls JPG encoding quality. A higher value means a higher-quality image but a large file size; alternatively, a lower value means a lower quality image but a smaller file size. The range for this parameter is 0-100.
-* To optimize for quality, do not set the parameter value to 100. The difference between a setting of 90 or 95 and 100 is almost imperceptible, yet 100 unnecessarily increases the size of the image file. Therefore, to optimize for quality but avoid image files becoming too large, set the `qlt= value` to 90 or 95.
-* To optimize for a small image file size but keep image quality at an acceptable level, set the `qlt= value` to 80. Values below 70 to 75 results in significant image quality degradation.
-* As a best practice, to stay in the middle, set the `qlt= value` to 85 to stay in the middle.
+* To optimize for quality, do not set the parameter value to 100. The difference between a setting of 90 or 95 and 100 is almost imperceptible, yet 100 unnecessarily increases the size of the image file. Therefore, to optimize for quality but avoid image files becoming too large, set the `qlt=<value>` to 90 or 95.
+* To optimize for a small image file size but keep image quality at an acceptable level, set the `qlt=<value>` to 80. Values below 70 to 75 results in significant image quality degradation.
+* As a best practice, to stay in the middle, set the `qlt=<value>` to 85 to stay in the middle.
 * Using the chroma flag in `qlt=`
 
     * The `qlt=` parameter has a second setting that lets you turn on RGB chromaticity downsampling using the value `,1` or off using the value `,0`.
@@ -99,7 +99,7 @@ As a best practice for JPG compression use `&qlt=85,0`.
 
 jpegSize is a useful parameter if you want to guarantee that an image does not exceed a certain size for delivery to devices that have limited memory.
 
-* This parameter is set in kilobytes (`jpegSize=&lt;size_in_kilobytes&gt;`). It defines the maximum allowed size for image delivery.
+* This parameter is set in kilobytes (`jpegSize=<size_in_kilobytes>`). It defines the maximum allowed size for image delivery.
 * `&jpegSize=` interacts with the JPG compression parameter `&qlt=`. If the JPG response with the specified JPG compression parameter (`&qlt=`) does not exceed thejpegSize value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
 
 As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are delivering JPG images to devices with limited memory.
