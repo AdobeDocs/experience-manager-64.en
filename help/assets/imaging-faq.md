@@ -35,7 +35,12 @@ When an image is requested for the first time by a consumer, we check the user c
 
 * Automatically convert to lossless WebP for browsers that support WebP format, such as Chrome, Android, and Opera.  
 * Automatically convert to lossless JPEGXR for browsers that support JPEGXR format, such as Internet Explorer 9+.  
-* Automatically convert to lossless JPEG2000 for browsers that support JPEG2000 format, such as Safari.  
+* Automatically convert to lossless JPEG2000 for browsers that support JPEG2000 format, such as Safari.
+* PNG requests to get lossless images.
+* JPEG requests at a range of quality settings.
+* JPEGXR requests at a range of quality settings.
+* JPEG2000 requests at a range of quality settings.
+* WEBP requests at a range of quality settings. 
 * For browsers that do not support those formats, the originally requested image format is served.
 
 ## What image formats are supported? {#what-image-formats-are-supported}
@@ -50,7 +55,7 @@ The following image formats are supported for smart imaging:
 
 ## How does smart imaging work with our existing image presets that are already in use? {#how-does-smart-imaging-work-with-our-existing-image-presets-that-are-already-in-use}
 
-Smart imaging works with your existing image presets and observes virtually all your image settings such as size, quality, sharpening, and so on. What will change is the image format or, in cases of slow network connection speed, the quality setting. For format conversion, we maintain full visual fidelity as defined by your image preset settings, but at a smaller file size.
+Smart imaging works with your existing image presets and observes virtually all your image settings such as size, quality, sharpening, and so on. What will change is the image format and the quality settings as per request. For format conversion, we maintain full visual fidelity as defined by your image preset settings, but at a smaller file size.
 
 For example, suppose an image preset is defined with JPEG format, size 500x500, quality=85, and unsharp mask=0.1,1,5. When we detect that a user is on Chrome browser, the image is converted to lossless WebP format, with size 500x500, quality=85, and unsharp mask=0.1,1,5.
 
