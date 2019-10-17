@@ -181,10 +181,10 @@ The configuration of the default handler must be configured as described in the 
 
 To have a servlet fetch and return some content that can be injected into the page:
 
-* Ensure your remote server is accessible.
-* Add one of the following snippets to the HTL template of an AEM component.
-* Optionally, create or modify the OSGi configurations.
-* Browse the content of your site
+1. Ensure your remote server is accessible.
+1. Add one of the following snippets to the HTL template of an AEM component.
+1. Optionally, create or modify the OSGi configurations.
+1. Browse the content of your site
 
 Usually, the HTL template of a page component is the main recipient of such a feature.
 
