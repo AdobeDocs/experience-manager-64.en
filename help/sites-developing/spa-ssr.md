@@ -148,13 +148,13 @@ Node.js is not supported for Adobe-hosted AEM instances.
 
 ## Remote Content Renderer {#remote-content-renderer}
 
-The [Remote Content Renderer Configuration](#remote-content-renderer-configuration) that is required to use SSR with your SPA on AEM taps into a more generalized rendering service that can be extended and customized to meet your needs beyond the standard configuration options in the OSGi configuration.
+The [Remote Content Renderer Configuration](#remote-content-renderer-configuration) that is required to use SSR with your SPA in AEM taps into a more generalized rendering service that can be extended and customized to meet your needs.
 
 ### RemoteContentRenderingService {#remotecontentrenderingservice}
 
 `RemoteContentRenderingService` is an OSGi service to retrieve content rendered on a remote server, such as from Adobe I/O. The content sent to the remote server is based on the request parameter passed.
 
-`RemoteContentRenderingService` can be injected into a custom Sling model or servlet when additional content manipulation is required.
+`RemoteContentRenderingService` can be injected by dependency inversion into either a custom Sling model or servlet when additional content manipulation is required.
 
 This service is internally used by the [RemoteContentRendererRequestHandlerServlet](#remotecontentrendererrequesthandlerservlet).
 
