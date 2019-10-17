@@ -116,6 +116,7 @@ Perform the following steps on all the Author and Publish instances to boot dele
    ```
 
 1. (AIX only) Add the following properties to the sling.properties file:
+
     ```
     sling.bootdelegation.xerces=org.apache.xerces.*
     ```

@@ -126,8 +126,9 @@ Perform the following steps on all the Author and Publish instances to boot dele
    sling.bootdelegation.class.com.rsa.jsafe.provider.JsafeJCE=com.rsa.*
    sling.bootdelegation.class.org.bouncycastle.jce.provider.BouncyCastleProvider=org.bouncycastle.*
    ```
-   
+
 1. (AIX only) Add the following properties to the sling.properties file:
+
     ```
     sling.bootdelegation.xerces=org.apache.xerces.*
     ```
