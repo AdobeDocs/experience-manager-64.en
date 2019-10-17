@@ -41,7 +41,7 @@ AEM Forms allows you to limit rule editor access to users based on their role or
 
    ![create-user](assets/create-user.png)
 
-   Now, when a user that is not a part of the a specified user group (here RuleEditorsUserGroup) taps a field, the Edit Rule icon ( ![edit-rules1](assets/edit-rules1.png)) is not available for her in the components toolbar:
+   Now, when a user that is not a part of the specified user group (here RuleEditorsUserGroup) taps a field, the Edit Rule icon ( ![edit-rules1](assets/edit-rules1.png)) is not available for her in the components toolbar:
 
    ![componentstoolbarwithre](assets/componentstoolbarwithre.png)
 

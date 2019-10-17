@@ -14,7 +14,7 @@ discoiquuid: c05c9911-7c49-4342-89de-61b8b9953c83
 
 You can use the Form Bridge APIs to open a communication channel between an XFA-based HTML5 forms and your applications. The Form Bridge APIs provides a **connect** API to create the connection.
 
-The **connect** API accepts a handler as an argument. After the a successful connection is created between XFA-based HTML5 form and Form Bridge, the handle is invoked.
+The **connect** API accepts a handler as an argument. After a successful connection is created between XFA-based HTML5 form and Form Bridge, the handle is invoked.
 
 You can use the following sample code to create the connection.
 
