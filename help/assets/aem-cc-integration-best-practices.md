@@ -19,7 +19,7 @@ Best practices for integrating an AEM instance with Adobe Creative Cloud to stre
 
 Adobe Experience Manager (AEM) Assets is a digital asset management (DAM) solution that can integrate with Adobe Creative Cloud to help DAM users work together with creative teams, such as creative agencies, freelancers, and internal studios.
 
-You can work with Creative Cloud and AEM in multiple ways and use various methods to add approved assets to AEM. Moreover, Creative Cloud includes diverse apps and services, such as Creative Cloud apps (such as Photoshop,  InDesign  and Illustrator), Creative Cloud cloud services, Creative Cloud Desktop App, and so on.
+You can work with Creative Cloud and AEM in multiple ways and use various methods to add approved assets to AEM. Moreover, Creative Cloud includes diverse apps and services, such as Creative Cloud apps (such as Photoshop,  InDesign  and Illustrator), Creative Cloud cloud services, Creative Cloud desktop application, and so on.
 
 You can integrate your AEM instance with Creative Cloud in multiple ways. Following some best practices to streamline your integration and asset transfer workflows helps achieve maximum efficiency. This guide includes best practices around integrating AEM Assets with Adobe Creative Cloud, or more broadly, with the work done on  desktop  that involves assets from DAM.
 
@@ -78,7 +78,7 @@ The following table provides a concise summary of when to use which solution or 
  <tbody> 
   <tr> 
    <th>Use case </th> 
-   <th>Desktop app</th> 
+   <th>desktop app</th> 
    <th>Folder sharing</th> 
    <th>Other solutions</th> 
   </tr> 
@@ -279,7 +279,7 @@ The asset lifecycle includes the following stages:
 
 Here are a few general recommendations on how to manage assets through this process:
 
-* Use a dedicated storage area/system, such as Adobe Creative Cloud Assets synced folder, for the WIP files: Frequent updates that are not relevant to DAM users are best handled by a dedicated system, and not from within AEM Assets. WIP assets can be synchronized to local disk using Adobe Creative Cloud Desktop App, saved on local storage, and so on.
+* Use a dedicated storage area/system, such as Adobe Creative Cloud Assets synced folder, for the WIP files: Frequent updates that are not relevant to DAM users are best handled by a dedicated system, and not from within AEM Assets. WIP assets can be synchronized to local disk using Adobe Creative Cloud desktop application, saved on local storage, and so on.
 * Use separate folders/shares for final assets and assets that are uploaded to DAM: for clarity, final assets should have it's own mapped/shared folder ("Final" example above), and the assets to be uploaded back into DAM should have their own ("Creative Ready")
 
 ### Changing existing assets managed in DAM {#changing-existing-assets-managed-in-dam}

@@ -76,81 +76,19 @@ Use the [Web Console to configure the OSGi bundle](/help/sites-deploying/configu
 
 ## Configuring the Connection to Adobe Analytics {#configuring-the-connection-to-adobe-analytics}
 
-Create a Adobe Analytics configuration so that AEM can authenticate with the Adobe Analytics server. To create the configuration you provide the credentials for your Adobe Analytics account.
-
-1. Using **Navigation**, select **Tools**, **Cloud Services**, then **Legacy Cloud Services**.
-1. Scroll to **Adobe Analytics**:
-
-    * If **Configure now** is shown, select this link.
-    * If **Show Configurations** is shown, select this link and then click **[+]** next to **Available Configurations**.
-
-1. In the **Create Configurations** dialog:
-
-    * Specify a title. 
-    * Optionally, specify a **Name** for the node used to store the configuration in the repostory. 
-    * Do not change the Parent Configuration property; for example, **Adobe Analytics Configuration**.
-
-1. Select **Create**.
-
-   >[!NOTE]
-   >
-   >The Shared Secret can be seen in the **Account Information** in Adobe Analytics.
-
-   When the **Edit Component** dialog opens, specify values for the following properties:
-
-    * **Company**: your company's name as featured on Adobe Analytics
-    * **Username**: the name used to log in to Adobe Analytics
-    * **Shared Secret**: the Adobe Analytics shared secret for the above account
-    * **Data Center**: The location of the Adobe Analytics data center that your account is associated with. 
-    * **Do not add tracking tag to page**: Select this option when you are using Adobe Analytics reports in the [Content Insights](/help/sites-authoring/content-insights.md) feature, and you are also using [Dynamic Tag Management](/help/sites-administering/dtm.md) (DTM) with AEM, and the DTM web property has the Adobe Analytics tool installed. In this case, selecting this option prevents two instances of the tracking code being added to pages.
-    * **Do not track the page load event**: as appropriate 
-    * **Use App Measurement**: as appropriate 
-    * **Use ClientContext**: as appropriate 
-    * **Additional context data**: as appropriate 
-    * **Segment**: as appropriate
-
-   Please contact your Adobe Analytics representative to confirm any details and make sure you fill in these credentials correctly.
-
-1. Click **Connect to Adobe Analytics**. When the message that indicates that the connection was successful appears, click **OK**.
-1. On the dialog, click **OK**.
+>[!CAUTION]
+>
+>Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM.
+>
+>The [ActivityMap plugin provided by Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html) should now be used.
 
 ## Configuring for the Activity Map {#configuring-for-the-activity-map}
 
-To be able to see and use the [Activity Map in the page editor](/help/sites-authoring/pa-using.md#analytics-visible-from-the-page-editor-activity-map), you need to configure:
-
-* Users (for both editing and/or configuring) need to be in the group: 
-
-  `analytics-administrators`  
-
-  as there is a restriction on node `/libs/cq/activitymap/content/settings`
-
-    * The settings are loaded via `/mnt/override/libs/cq/activitymap/content/settings` so you can override this group restriction.
-
-* The page in question needs to be published.  
-* Analytics Integration
-
-    * Use AppMeasurement set to `true` 
-    * Report Suite configured to use the `all` run mode
-
-* DTM Integration
-
-    * Use `AppMeasurement.js` 
-    * `Include Production code on Author` set to true
-
->[!NOTE]
+>[!CAUTION]
 >
->Since `ActivityMap` inspects the tag (report suite) on the page to fetch report data (and publishing data is a key aim) `ActivityMap` is only supported if the report suite on author and publish is the same.  
->  
->`ActivityMap` cannot show data from report suites other than the ones used for tracking on the page.
-
->[!NOTE]
+>Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM.
 >
->For details see also:
->
->* [Enable Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html) from the Analytics documentation.  
->
->* The videos at [Set up Adobe Anslytics Activity Map with AEM Sites](https://helpx.adobe.com/experience-manager/kt/sites/using/activity-map-feature-video-setup.html).  
->
+>The [ActivityMap plugin provided by Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html) should now be used.
 
 ## Creating a Adobe Analytics Framework {#creating-a-adobe-analytics-framework}
 
@@ -167,10 +105,10 @@ For the Report Suite ID (RSID) that you are using, you can control which server 
 >For example, a framework is configured to use the *diiweretail* report suite and author is the selected server instance. When pages are published along with the framework, calls are still made to Adobe Analytics, however these calls do not contain the RSID. Only calls from the author instance include the RSID.
 
 1. Using **Navigation**, select **Tools**, **Cloud Services**, then **Legacy Cloud Services**.
-1. Scroll to **Adobe Analytics** and click **[+]** next to **Available Configurations**.
-1. Click the **[+]** link next to your Adobe Analytics configuration.  
+2. Scroll to **Adobe Analytics** and click **[+]** next to **Available Configurations**.
+3. Click the **[+]** link next to your Adobe Analytics configuration.  
 
-1. In the **Create Framework** dialog:
+4. In the **Create Framework** dialog:
 
     * Specify a **Title**.
     * Optionally you can specify the **Name**, for the node that stores the framework details in the repository.
@@ -180,17 +118,17 @@ For the Report Suite ID (RSID) that you are using, you can control which server 
 
    The framework opens for editing.
 
-1. In the **Report Suites** section of the side pod (right side of main panel), click **Add Item**. Then use the drop-down to select the Report Suite ID (for example, `geometrixxauth`) with which the framework will interact.
+5. In the **Report Suites** section of the side pod (right side of main panel), click **Add Item**. Then use the drop-down to select the Report Suite ID (for example, `geometrixxauth`) with which the framework will interact.
 
    >[!NOTE]
    >
    >The content finder on the left is populated with Adobe Analytics variables (SiteCatalyst Variables) when you select a Report Suite ID.
 
-1. Then use the **Run Mode** drop down (next to the Report Suite ID) to select the server instances that you want to send information to the Report Suite.
+6. Then use the **Run Mode** drop down (next to the Report Suite ID) to select the server instances that you want to send information to the Report Suite.
 
    ![aa-framework-01](assets/aa-framework-01.png)
 
-1. To make the framework available on the publish instance of your site, on the **Page** tab of sidekick, click **Activate Framework.**
+7. To make the framework available on the publish instance of your site, on the **Page** tab of sidekick, click **Activate Framework.**
 
 ### Configuring Server Settings for Adobe Analytics {#configuring-server-settings-for-adobe-analytics}
 

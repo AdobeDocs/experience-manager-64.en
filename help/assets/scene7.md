@@ -125,9 +125,12 @@ See also [Responsive Design for Web Pages](/help/sites-developing/responsive.md)
 
 Although configuration options vary, the following are common to all [!UICONTROL Dynamic Media Classic] components:
 
-* **[!UICONTROL File Reference]** &ndash; Browse to a file that you want to reference. File reference shows the asset URL and not necessarily the full Dynamic Media Classic URL including the URL commands and parameters. You cannot add Dynamic Media Classic URL commands and parameters in this field. They have to be added through the corresponding functionality in the component.
-* **[!UICONTROL Width]** &ndash; Lets you set the width.
-* **[!UICONTROL Height]** &ndash; Lets you set the height.
+* **[!UICONTROL File Reference]**
+Browse to a file that you want to reference. File reference shows the asset URL and not necessarily the full Dynamic Media Classic URL including the URL commands and parameters. You cannot add Dynamic Media Classic URL commands and parameters in this field. They have to be added through the corresponding functionality in the component.
+* **[!UICONTROL Width]**
+Lets you set the width.
+* **[!UICONTROL Height]**
+Lets you set the height.
 
 You set these configuration options by opening (double-clicking) a Dynamic Media Classic component, for example, when you open a **[!UICONTROL Zoom]** component:
 
@@ -159,25 +162,34 @@ The Dynamic Media Classic **[!UICONTROL Image]** component lets you add Dynamic 
 
 ![chlimage_1-229](assets/chlimage_1-229.png)
 
-**[!UICONTROL Title, Alt Text]** &ndash; In the **[!UICONTROL Advanced]** tab, add a title to the image and alt text for those users who have graphics turned off.
+* **[!UICONTROL Title, Alt Text]**
+In the **[!UICONTROL Advanced]** tab, add a title to the image and alt text for those users who have graphics turned off.
 
-**[!UICONTROL URL, Open in]** &ndash; You can set an asset from to open a link. Set the **[!UICONTROL URL]** and in **[!UICONTROL Open in]** indicate whether you want it to open in the same window or a new window.
+* **[!UICONTROL URL, Open in]**
+You can set an asset from to open a link. Set the **[!UICONTROL URL]** and in **[!UICONTROL Open in]** indicate whether you want it to open in the same window or a new window.
 
 ![chlimage_1-230](assets/chlimage_1-230.png)
 
-**[!UICONTROL Viewer preset]** &ndash; Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See [Managing Viewer Presets](/help/assets/managing-viewer-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
+* **[!UICONTROL Viewer preset]**
+Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See [Managing Viewer Presets](/help/assets/managing-viewer-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
 
-**[!UICONTROL Dynamic Media Classic Configuration]** &ndash; Select the Dynamic Media Classic configuration you want to use to fetch active image presets from SPS.
+* **[!UICONTROL Dynamic Media Classic Configuration]**
+Select the Dynamic Media Classic configuration you want to use to fetch active image presets from SPS.
 
-**[!UICONTROL Image preset]** &ndash; Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See [Managing Image Presets](/help/assets/managing-image-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
+* **[!UICONTROL Image preset]**
+Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See [Managing Image Presets](/help/assets/managing-image-presets.md). You cannot select a viewer preset if you are using an image preset and vice versa.
 
-**[!UICONTROL Output Format]** &ndash; Select the output format of the image, for example jpeg. Depending on the output format you select, you may have additional configuration options. See [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options).
+* **[!UICONTROL Output Format]**
+Select the output format of the image, for example jpeg. Depending on the output format you select, you may have additional configuration options. See [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options).
 
-**[!UICONTROL Sharpening]** &ndash; Select how you want to sharpen the image. Sharpening is explained in detail in [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options) and [Sharpening best practices](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+* **[!UICONTROL Sharpening]**
+Select how you want to sharpen the image. Sharpening is explained in detail in [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options) and [Sharpening best practices](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
 
-**[!UICONTROL URL Modifiers]** &ndash; You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
+* **[!UICONTROL URL Modifiers]**
+You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
 
-**[!UICONTROL Breakpoints]** &ndash; If your website is responsive, you want to adjust the breakpoints. Breakpoints must be separated by commas ( , ).
+* **[!UICONTROL Breakpoints]**
+If your website is responsive, you want to adjust the breakpoints. Breakpoints must be separated by commas ( , ).
 
 ### Image Template {#image-template}
 
@@ -187,19 +199,23 @@ Tap **[!UICONTROL Edit]** to configure the component. You can configure [setting
 
 ![chlimage_1-231](assets/chlimage_1-231.png)
 
-**[!UICONTROL File Reference, Width, Height]** &ndash; See settings common to all ScDynamic Media Classicene7 components.
+* **[!UICONTROL File Reference, Width, Height]**
+See settings common to all Dynamic Media Classic components.
 
->[!NOTE]
->
->Dynamic Media Classic URL commands and parameters cannot be added to the File Reference URL directly. They can only be defined in the component UI in the **[!UICONTROL Parameter]** panel.
+    >[!NOTE]
+    >
+    >Dynamic Media Classic URL commands and parameters cannot be added to the File Reference URL directly. They can only be defined in the component UI in the **[!UICONTROL Parameter]** panel.
 
-**[!UICONTROL Title, Alt Text]** &ndash; In the Dynamic Media Classic Image Template tab, add a title to the image and alt text for those users who have graphics turned off.
+* **[!UICONTROL Title, Alt Text]**
+In the Dynamic Media Classic Image Template tab, add a title to the image and alt text for those users who have graphics turned off.
 
-**[!UICONTROL URL, Open in]** You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
+* **[!UICONTROL URL, Open in]**
+You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
 
 ![chlimage_1-232](assets/chlimage_1-232.png)
 
-**[!UICONTROL Parameter Panel]** &ndash; When importing an image, the parameters are pre-populated with information from the image. If there is no content that can be dynamically changed, this window is empty.
+* **[!UICONTROL Parameter Panel]**
+When importing an image, the parameters are pre-populated with information from the image. If there is no content that can be dynamically changed, this window is empty.
 
 ![chlimage_1-233](assets/chlimage_1-233.png) 
 
@@ -299,11 +315,13 @@ You can use either the classic UI or the touch-optimized UI to both view and sea
 
 When searching in either UI, you can filter by the following criteria (shown here in the touch-optimized UI):
 
-**[!UICONTROL Enter keywords]** &ndash; You can search assets by name. When searching the keywords you enter is what the file name starts with. For example, typing the word "swimming" would look for any asset file names that start with those letters in that order. Be sure to tap enter after you type the term to find the asset.
+* **[!UICONTROL Enter keywords]**
+You can search assets by name. When searching the keywords you enter is what the file name starts with. For example, typing the word "swimming" would look for any asset file names that start with those letters in that order. Be sure to tap enter after you type the term to find the asset.
 
 ![chlimage_1-242](assets/chlimage_1-242.png)
 
-**[!UICONTROL Folder/path]** &ndash; The name of the folder that appears is based on the configuration you have selected. You can drill down to lower levels by tapping the folder icon and selecting a sub-folder, then tapping the checkmark to select it.
+* **[!UICONTROL Folder/path]**
+The name of the folder that appears is based on the configuration you have selected. You can drill down to lower levels by tapping the folder icon and selecting a sub-folder, then tapping the checkmark to select it.
 
 If you enter a keyword and select a folder, AEM searches that folder and any sub-folders. However, if you do not enter any keywords when searching, selecting the folder will only show the assets in that folder and will not include any subfolders.
 
@@ -311,15 +329,18 @@ By default, AEM searches the folder selected and all sub-folders.
 
 ![chlimage_1-243](assets/chlimage_1-243.png)
 
-**[!UICONTROL Type of Asset]** &ndash; Select **[!UICONTROL Dynamic Media Classic]** to browse Dynamic Media Classic content. This option is only available if Dynamic Media Classic has been configured.
+* **[!UICONTROL Type of Asset]**
+Select **[!UICONTROL Dynamic Media Classic]** to browse Dynamic Media Classic content. This option is only available if Dynamic Media Classic has been configured.
 
 ![chlimage_1-244](assets/chlimage_1-244.png)
 
-**[!UICONTROL Configuration]** &ndash; If you have more than one Dynamic Media Classic configuration defined in [!UICONTROL Cloud Services], you can select it here. As a result the folder will change based on the configuration you have chosen.
+* **[!UICONTROL Configuration]**
+If you have more than one Dynamic Media Classic configuration defined in [!UICONTROL Cloud Services], you can select it here. As a result the folder will change based on the configuration you have chosen.
 
 ![chlimage_1-245](assets/chlimage_1-245.png)
 
-**[!UICONTROL Asset type]** &ndash; Within the Dynamic Media Classic browser, you can filter results to include any of the following: images, templates, videos, and adaptive video sets. If you do not select any asset type, AEM by default searches all asset types.
+* **[!UICONTROL Asset type]**
+Within the Dynamic Media Classic browser, you can filter results to include any of the following: images, templates, videos, and adaptive video sets. If you do not select any asset type, AEM by default searches all asset types.
 
 ![chlimage_1-246](assets/chlimage_1-246.png)
 
@@ -331,7 +352,8 @@ By default, AEM searches the folder selected and all sub-folders.
 >* When searching an adaptive video set, you are searching the the folder and all sub-folders but only if you have added a keyword to the search. If you have not added a keyword, AEM does not search the sub-folders.
 >
 
-**[!UICONTROL Publish Status]** &ndash; You can filter for assets based on publication status: **[!UICONTROL Unpublished]** or **[!UICONTROL Published]**. If you do not select any **[!UICONTROL Publish Status]**, AEM by default searches all publish statuses.
+* **[!UICONTROL Publish Status]**
+You can filter for assets based on publication status: **[!UICONTROL Unpublished]** or **[!UICONTROL Published]**. If you do not select any **[!UICONTROL Publish Status]**, AEM by default searches all publish statuses.
 
 ![chlimage_1-247](assets/chlimage_1-247.png)
 
