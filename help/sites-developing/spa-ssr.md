@@ -74,7 +74,7 @@ Alternatively, SSR can be implemented so that Adobe I/O Runtime is responsible f
 Both models are valid and supported by AEM. However, one should consider the advantages and disadvantages of each before implementing a particular model.
 
 |Bootstrapping|Advantages|Disadvantages|
-|-|-|-|
+|---|---|---|
 |via AEM|AEM manages injecting libraries where needed<br>Resources only need to be maintained on AEM|Possibly unfamiliar to SPA developer|
 |via Adobe I/O Runtime|More familiar to SPA developers|Clientlib resources required by the application such as CSS and JavaScript will need to be made available by the AEM developer via the [`allowProxy` property](/help/sites-developing/clientlibs.md#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet)<br>Resources must be synched between AEM and Adobe I/O Runtime<br>To enable authoring of the SPA, a proxy server for Adobe I/O Runtime may be necessary|
 

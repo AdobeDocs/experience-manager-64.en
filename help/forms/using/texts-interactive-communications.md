@@ -252,14 +252,13 @@ The Find and Replace feature allows you to search for (and replace) any string o
 1. Open a text document fragment for [editing](#edittext). 
 1. Tap **[!UICONTROL Find & Replace]**.  
 
-1. Enter the text to search in the **`[!UICONTROL Find]`** text box and the new text (replacement text) in the **`[!UICONTROL Replace]`** text box and tap **[!UICONTROL Replace]**.  
+1. Enter the text to search in the **[!UICONTROL Find]** text box and the new text (replacement text) in the **[!UICONTROL Replace]** text box and tap **[!UICONTROL Replace]**.  
 
 1. If the searched text is found, the text is replaced by the replacement text.
 
-    * If another instance of the search text is found, that instance is highlighted in the text document fragment. If you tap **`[!UICONTROL Replace]`** again, the highlighted instance is replaced and the cursor moves forward, if a third instance is found.
+    * If another instance of the search text is found, that instance is highlighted in the text document fragment. If you tap **[!UICONTROL Replace]** again, the highlighted instance is replaced and the cursor moves forward, if a third instance is found.
     * If another instance is not found, the Find & Replace dialog displays a message: Reached end of module.
 
    You can also tap Replace all to replace all the matches in a one go.
 
-   Find & Replace also includes a powerful regular expression search. To use regex in your search, select **`[!UICONTROL Reg ex]`** and then tap **`[!UICONTROL Find]`** or **[!UICONTROL Replace]**. **[!UICONTROL]**
-
+   Find & Replace also includes a powerful regular expression search. To use regex in your search, select **[!UICONTROL Reg ex]** and then tap **[!UICONTROL Find]** or **[!UICONTROL Replace]**.

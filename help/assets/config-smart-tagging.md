@@ -4,12 +4,12 @@ seo-title: Configure Asset tagging using the Smart Content Service
 description: Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
 seo-description: How to configure the Smart Tags Content Service from within AEM.
 uuid: f4a7e2cf-190b-47e0-9e78-bcac9f1cf6ef
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 957fef58-b1d4-4312-87d1-92f32a79161b
 ---
 
-# Configure Asset tagging using the Smart Content Service {#configure-asset-tagging-using-the-smart-content-service}
+# Configure asset tagging using the Smart Content Service {#configure-asset-tagging-using-the-smart-content-service}
 
 Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
 
@@ -35,7 +35,7 @@ To enable Enhanced Smart Tags, in addition to the above, also install the latest
 
 A public certificate allows you to authenticate your profile on Adobe I/O.
 
-1. From the AEM user interface, tap the AEM logo, and go to **[!UICONTROL Tools > Cloud Services]**> **[!UICONTROL Legacy Cloud Services]**.  
+1. From the AEM user interface, tap the AEM logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Legacy Cloud Services]**.  
 
 1. In the Cloud Services page, tap/click **[!UICONTROL Configure Now]** under **[!UICONTROL Assets Smart Tags]**.
 1. In the **[!UICONTROL Create Configuration]** dialog, specify a title and name for the Smart Tags configuration. Tap/click **[!UICONTROL Create]**.
@@ -48,6 +48,10 @@ A public certificate allows you to authenticate your profile on Adobe I/O.
    Leave the other fields blank for now (to be provided later). Tap/click **[!UICONTROL OK]**.
 
    ![AEM Smart Content Service dialog to provide content service URL](assets/aem_scs.png)
+
+   >[!NOTE]
+   >
+   >The URL provided as [!UICONTROL Service URL] is not accessible via browser and generates a 404 error. The configuration works OK with the same value of the [!UICONTROL Service URL] parameter. For overall Adobe I/O service status and maintenance schedule, see [https://status.adobe.com](https://status.adobe.com).
 
 1. Tap/click **[!UICONTROL Download Public Certificate for OAuth Integration]**, and download the public certificate file `AEM-SmartTags.crt`.
 
