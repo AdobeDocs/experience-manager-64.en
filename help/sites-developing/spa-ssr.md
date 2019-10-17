@@ -19,13 +19,13 @@ discoiquuid: 30d25772-0df7-468e-bcbd-c6fb2e962662
 
 ## Overview {#overview}
 
-Single page applications (SPAs) can offer the user a rich, dynamic experience that reacts and behaves in familiar ways, often just like a native application. [This is achieved by relying on the client to load the content up front and then do the heavy lifting of handling user interaction](/help/sites-developing/spa-walkthrough.md#how-does-a-spa-work) and thus minimizing the amount of communication needed between the client and the server, making the app more reactive.
+Single page applications (SPAs) can offer the user a rich, dynamic experiences that react and behave in familiar ways, often just like native applications. [This is achieved by relying on the client to load the content up front and then do the heavy lifting of handling user interaction](/help/sites-developing/spa-walkthrough.md#how-does-a-spa-work) and thus minimizing the amount of communication needed between the client and the server, making the app more reactive.
 
 However this can lead to longer initial load times, especially if the SPA is large and rich in its content. In order to optimize load times, some of the content can be rendered server-side. Using server side rendering (SSR) can accelerate the initial load of the page and then pass further rendering on to the client.
 
 ## When to Use SSR {#when-to-use-ssr}
 
-SSR is not required on all projects. Althgouh AEM fully support JS SSR for SPA, Adobe does not recommend implementing it systematically for every project.
+SSR is not required on all projects. Althgouh AEM fully supports JS SSR for SPA, Adobe does not recommend implementing it systematically for every project.
 
 When deciding to implement SSR you must first estimate what additional complexity, effort, and cost adding SSR realistically represents for the project, including the long term maintenance. An SSR architecture should be chosen only when the added value clearly exceeds the estimated costs.
 
@@ -53,6 +53,29 @@ The following secitons detail how Adobe I/O Runtime can be used to implement SSR
 >[!NOTE]
 >
 >Adobe recommends a separate Adobe I/O Runtime instance for every AEM environment (author, publish, stage, etc.).
+
+## Remote Content Renderer Configuration {#remote-content-renderer-configuration}
+
+AEM must know where the remotely-rendered content can be retrieved. Regardless of [which model you choose to implement for SSR](#adobe-io-runtime), you will need to specify to AEM how to access this remote rendering service.
+
+This is done via the **RemoteContentRenderer - Configuration Factory** OSGi service. Search for the string "RemoteContentRenderer" in the Web Console Configuration console at `http://<host>:<port>/system/console/configMgr`.
+
+![](assets/rendererconfig.png)
+
+The following fields are available for the configuration:
+
+* **Content path pattern** - Regular expression in order to match a portion of the content, if necessary
+* **Remote endpoint URL** - URL of the endpoint that is responsible for the generating the content
+  * Use the secured HTTPS protocol if not in local network.
+* **Additional request headers** - Additional headers to be added to the request sent to the remote endpoint
+  * Pattern: `key=value`
+* **Request timeout** - Remote host request timeout in milliseconds
+
+>[!NOTE]
+>
+>Regardless of if you choose to implement the [AEM-driven communication flow](#aem-driven-communication-flow) or the [Adobe I/O Runtime-driven flow](#adobe-io-driven-communication-flow), you must define a remote content renderer configuration.
+>
+>This configuration also must be defined if you choose to [use a custom Node.js server](#using-node-js).
 
 ## AEM-Driven Communication Flow {#aem-driven-communication-flow}
 
