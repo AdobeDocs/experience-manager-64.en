@@ -392,6 +392,10 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
    sling.bootdelegation.class.org.bouncycastle.jce.provider.BouncyCastleProvider=org.bouncycastle.*
    ```
 
+1. (AIX only) Add the following properties to the sling.properties file:
+    ```
+    sling.bootdelegation.xerces=org.apache.xerces.*
+    ```
 1. Save and close the file.
 
 ### Configuring the font manager service  {#configuring-the-font-manager-service}
