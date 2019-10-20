@@ -13,7 +13,7 @@ discoiquuid: 8519f029-3dd1-4325-9758-e6b5b530a0ee
 
 # Assets Supported Formats {#assets-supported-formats}
 
-The following tables describes all the formats supported by AEM Assets as well as features supported for each format.
+The following tables describes all the formats supported by AEM Assets  as well as features supported for each format.
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ The following legend describes the level of support AEM Assets offers for a feat
 
 | Asset Management Features ||||||||Dynamic Media Features |||||
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+<<<<<<< Updated upstream
 | |Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Insights |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
 | Format |||||||||||||
 | PNG | x | x | x | x | x | x | x | x | x | x | x | x |
@@ -48,6 +49,23 @@ The following legend describes the level of support AEM Assets offers for a feat
 | [EPS](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) | x | x | x | x | | | | x | x | x | x | x |
 | PICT | | | | | | | x | x | | | | |
 | PSB | x | x | x | x | | | | | | | | |
+=======
+||Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Insights |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
+| Format |||||||||||||
+| PNG |x |x |x |x |x |x |x |x |x |x |x |x |
+| GIF |x |x |x |x |x | |x |x |x |x |x |x |
+| TIFF |x |x |x |x | |x |x |x |x |x |x |x |
+| JPEG |x |x |x |x |x |x |x |x |x |x |x |x |
+| BMP |x |x |x |x |x | |x | |x | | | |
+| PNM |x |x | | | | |x | | | | | |
+| PGM |x |x | | | | |x | | | | | |
+| PBM |x |x | | | | |x | | | | | |
+| PPM |x |x | | | | |x | | | | | |
+| PSD* |x |x |x |x | | |x |x | | | | |
+| [EPS](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) |x |x |x |x | | | |x |x |x |x |x |
+| PICT | | | | | | |x |x | | | | |
+| PSB |x |x |x |x | | | | | | | | |
+>>>>>>> Stashed changes
 
 >[!NOTE]
 >
@@ -93,6 +111,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Supported Document Formats {#supported-document-formats}
 
+<<<<<<< Updated upstream
 | Asset Management Features | | | | | | | | Dynamic Media Features | | | | |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | | Storage | Metadata  management | Fulltext  extraction | Metadata  extraction | Thumbnail  generation | Subasset  extraction | Metadata  writeback | Upload  (Input format) | Create  image preset  (Output format) | Preview  dynamic rendition | Deliver  dynamic rendition | Download  dynamic rendition |
@@ -114,6 +133,29 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 | [INDD](managing-image-presets.md#indesign-indd-file-format) | x | x | | x | x | x | x | x | | | | |
 | PS | x | x | | | | | | | | | | |
 | QXP | x | x | | | | | | | | | | |
+=======
+| Asset Management Features ||||||||Dynamic Media Features |||||
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+||Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Insights |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
+| Format |||||||||||||
+| AI | x | x | | x | x | x | x| x | | | | |
+| DOC| x | x | x | x | | | | | | | | |
+| DOCX | x | x | x | x | | | | | | | | |
+| ODT| x | x | x | | | | | | | | | |
+| PDF| x | x | x | x | x | x | x| x | x | x | x | x |
+| HTML | x | x | x | | | | | | | | | |
+| RTF| x | x | x | | | | | | | | | |
+| TXT| x | x | x | | | | | | | | | |
+| XLS| x | x | x | | | | | | | | | |
+| XLSX | x | x | x | x | | | | | | | | |
+| ODS| x | x | x | | | | | | | | | |
+| PPT| x | x | x | x | x | x | | | | | | |
+| PPTX | x | x | x | x | x | x | | | | | | |
+| ODP| x | x | x | | | | | | | | | |
+| INDD | x | x | | x | x | x | x| x | | | | |
+| PS | x | x | | | | | | | | | | |
+| QXP| x | x | | | | | | | | | | |
+>>>>>>> Stashed changes
 | EPUB | x | x | | x | x | | | | | | | |
 
 >[!NOTE]
@@ -125,6 +167,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Supported Multimedia Formats {#supported-multimedia-formats}
 
+<<<<<<< Updated upstream
 | | Features | | | | |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | | Storage | Metadata management | Metadata extraction |Thumbnail generation | FFMPEG transcoding |
@@ -152,6 +195,35 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 | Video file name extension | Container | Recommended video codecs | Unsupported video codecs |
 |:---|:---|:---|:---|
+=======
+| Asset Management Features ||Dynamic Media Features||
+| |Storage |Metadata management |Metadata extraction |Thumbnail generation |FFMPEG transcoding |
+|---|---|---|---|---|---|
+| Format | |
+| AAC |x |x | |- |* |
+| MIDI |x |x | |- |* |
+| 3GP |x |x | |- |* |
+| MP3 |x |x |x |- |* |
+| MPG |x |x | |- |* |
+| OGA |x |x | |- |* |
+| OGG |x |x | |- |* |
+| RA |x |x | |- |* |
+| WAV |x |x | |- |* |
+| WMA |x |x | |- |* |
+| DVI |x |x | |* |* |
+| FLV |x |x | |* |* |
+| M4V |x |x | |* |* |
+| MPEG |x |x | |* |* |
+| OGV |x |x | |* |* |
+| MOV |x |x | |* |* |
+| WMV |x |x | |* |* |
+| SWF |x |x | | | |
+
+## Supported Input Video Formats for Dynamic Media Transcoding {#supported-input-video-formats-for-dynamic-media-transcoding}
+
+| **Video file extension** |**Container** |**Recommended video codecs** |**Unsupported video codecs** |
+|---|---|---|---|
+>>>>>>> Stashed changes
 | .mp4 |MPEG-4 |H264/AVC (all profiles) | |
 | .mov .qt |Apple QuickTime |H264/AVC, Apple ProRes422 & HQ, Sony XDCAM, Sony DVCAM, HDV, Panasonic DVCPro, Apple DV (DV25), Apple PhotoJPEG, Sorenson, Avid DNxHD, Avid AVR |Apple Intermediate, Apple Animation |
 | .flv .f4v |Adobe Flash |H264/AVC, Flix VP6, H263, Sorenson |SWF (vector animation files) |
@@ -171,6 +243,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Supported Archive Formats {#supported-archive-formats}
 
+<<<<<<< Updated upstream
 | | Features | | | | | |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
@@ -180,6 +253,16 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 | RAR | x | x | x | x | x | |
 | TAR | x | x | x | x | x | |
 | ZIP* | x | x | x | x | x | x |
+=======
+| Formats       | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
+|---------|---------|------------|----------|------------|----------------|------------------------|
+| Formats |         |            |          |            |                |                        |
+| TGZ     | x       | x          | x        | x          | x              |                        |
+| JAR     | x       | x          | x        | x          | x              |                        |
+| RAR     | x       | x          | x        | x          | x              |                        |
+| TAR     | x       | x          | x        | x          | x              |                        |
+| ZIP*    | x       | x          | x        | x          | x              | x                      |
+>>>>>>> Stashed changes
 
 **\*** The ZIP archives created using Deflate64 algorithm have limited support in AEM. Archive and unarchive operations are not supported. However, operations like uploading, browsing, and downloading are supported.
 
