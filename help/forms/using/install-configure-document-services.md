@@ -300,7 +300,7 @@ Change the Microsoft Office trust center settings to enable the PDF Generator se
 The user account used to start the application server requires the **Replace a process level token** privilege. The local system account has the **Replace a process level token** privilege by default. For the servers running with a user of the Local Administrators group, the privilege must be granted explicitly. Perform the following steps to grant the privilege:
 
 1. Open the Group Policy Editor for Microsoft Windows. To open the Group Policy Editor, click **[!UICONTROL Start]**, type **gpedit.msc** in the Start Search box, and click **[!UICONTROL Group Policy Editor]**.
-1. Navigate to **[!UICONTROL Local Computer Policy** &gt; **Computer Configuration** &gt; **Windows Settings** &gt; **Security Settings** &gt; **Local Policies** &gt; **User Rights Assignment]** and edit the **[!UICONTROL Replace a process level token]** policy and include the Administrators group.
+1. Navigate to **[!UICONTROL Local Computer Policy > Computer Configuration > Windows Settings > Security Settings > Local Policies > User Rights Assignment]** and edit the **[!UICONTROL Replace a process level token]** policy and include the Administrators group.
 1. Add the user to the Replace a Process Level Token entry.
 
 #### Enable the PDF Generator service for non-administrators {#enable-the-pdf-generator-service-for-non-administrators}
@@ -314,7 +314,7 @@ You can enable a non-administrator user to use the PDF Generator service. Normal
 
 ### Disable User Account Control (UAC) {#disable-user-account-control-uac}
 
-1. To access the System Configuration Utility, go to **[!UICONTROL Start &gt; Run]** and then enter **[!UICONTROL MSCONFIG]**. 
+1. To access the System Configuration Utility, go to **[!UICONTROL Start > Run]** and then enter **[!UICONTROL MSCONFIG]**. 
 1. Click the **[!UICONTROL Tools]** tab and scroll down and select **[!UICONTROL Change UAC Settings]**. Click **[!UICONTROL Launch]** to run the command in a new window.
 1. Adjust the slider to the Never notify level. When finished, close the command window and close the System Configuration window.
 1. Verify that registry setting for UAC is set to 0 (zero). Perform the following steps to verify:
@@ -423,7 +423,7 @@ A local user account is required to run the PDF Generator service. For steps to 
 
    `jacorb.connection.client.pending_reply_timeout=600000`
 
-1. Log in to the AEM author instance and navigate to **[!UICONTROL Adobe Experience Manager** &gt; **Tools**&gt;**Forms &gt; Configure PDF Generator]**. The default URL is http://localhost:4502/libs/fd/pdfg/config/ui.html.
+1. Log in to the AEM author instance and navigate to **[!UICONTROL Adobe Experience Manager > Tools > Forms > Configure PDF Generator]**. The default URL is http://localhost:4502/libs/fd/pdfg/config/ui.html.
 
    Open the **[!UICONTROL General Configuration]** tab and modify the value of the following fields for your environment:
 
