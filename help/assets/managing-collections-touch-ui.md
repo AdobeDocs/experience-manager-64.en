@@ -1,39 +1,34 @@
 ---
-title: Managing Collections
-seo-title: Managing Collections
+title: Manage asset collections
+seo-title: Manage asset collections
 description: Understand the concept of collection in AEM Assets. Learn how to collections, manage, edit, and collections with other users.
 seo-description: Understand the concept of collection in AEM Assets and learn how you can share collections with other users.
 uuid: bc760801-8b6e-4b99-9861-c1439bb3576f
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
 discoiquuid: 974ef0f7-1a3f-480b-b314-b9dbc9115af9
 ---
 
-# Managing Collections {#managing-collections}
+# Manage collections {#managing-collections}
 
-Understand the concept of collection in AEM Assets. Learn how to collections, manage, edit, and collections with other users.
+A collection is a set of assets within Adobe Experience Manager (AEM) Assets. Use collections to share assets between users. The set can be static collection or a dynamic collection that is based on search results.
 
-A collection is a set of assets within Adobe Experience Manager (AEM) Assets. Use collections to share assets between users.
-
-* A collection can include assets from different locations.
-* You can share collections with various users that are assigned different levels of privileges, including viewing, editing, and so on.
+Unlike folders, a collection can include assets from different locations. You can share collections with various users that are assigned different levels of privileges, including viewing, editing, and so on.
 
 You can share multiple collections with a user. Each collection contains references to assets. The referential integrity of assets is maintained across collections.
 
 Collections are of the following types, based on the way they collate assets:
 
-* A collection that contains a **static reference list** of assets, folders, and other collections  
+* A collection that contains a static reference list of assets, folders, and other collections
 
-* A **Smart collection** that dynamically includes assets based on a search criteria
+* A smart collection that dynamically includes assets based on a search criteria
 
-## Navigating the Collections console {#navigating-the-collections-console}
+## Navigating the collections console {#navigating-the-collections-console}
 
 To open the **Collections** console:
 
 1. Tap or click the AEM logo.
-1. From the Navigation page, go to **[!UICONTROL Assets >  Collections]**. The **[!UICONTROL Collections]** console is displayed.
+1. From the Navigation page, go to **[!UICONTROL Assets > Collections]**. The **[!UICONTROL Collections]** console is displayed.
 
 ## Creating a collection {#creating-a-collection}
 

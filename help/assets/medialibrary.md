@@ -1,13 +1,11 @@
 ---
 title: AEM Assets vs. AEM MediaLibrary
 seo-title: AEM Assets vs. AEM MediaLibrary
-description: Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two.
-seo-description: Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two.
+description: Frequently asked questions around AEM Assets and. AEM Media Library, including the differences.
+seo-description: Frequently asked questions around AEM Assets and. AEM Media Library, including the differences.
 uuid: 61c4c12f-1d8c-4276-ab9d-3d9ed0a66542
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 7d81d7fd-27d1-4d87-9248-dfcf6c52ffb3
 ---
 
@@ -29,12 +27,10 @@ The AEM Media Library is a designated part of the AEM WCM content repository whe
 
 Unique features that are only available to customers of AEM Assets are:
 
-1. the ability to extract and edit metadata other than title, tags and description.  
-1. the AEM Assets Admin, available from the welcome screen by clicking the second button next to the siteadmin  
-1. the Geometrixx Asset Share example DAM finder  
-1. All components being used in the Geometrixx Asset Share - namely: Query Builder, Category Predicate, Date Predicate, Generic Predicate, Lens Deck, Mosaic Lens, List Lens, iFrame Lens and all Asset-related actions  
-1. All workflow steps related to Digital Asset Management, namely AEM Assets Ingestion, AEM Assets Deletion, AEM Assets Sub-Asset-Handling, AEM Assets metadata extraction  
-1. libraries including "dam" im package space
+1. the ability to extract and edit metadata other than title, tags, and description.
+1. the AEM Assets Admin, available from the welcome screen by clicking the second button next to the `siteadmin`.
+1. All workflow steps related to Digital Asset Management, namely AEM assets ingestion, AEM Assets deletion, AEM Assets sub-asset handling, AEM Assets metadata extraction.
+1. libraries including `dam` im package space.
 
 Using these features requires a valid license of AEM Assets.
 
@@ -65,3 +61,7 @@ You can remove all AEM Assets-specific workflows, components, taxonomies, option
 ### I want to add images to a page and want to crop and resize these images. Do I need AEM Assets? {#i-want-to-add-images-to-a-page-and-want-to-crop-and-resize-these-images-do-i-need-aem-assets}
 
 For this use case it is not required to buy AEM Assets, even the use of the Media Library is not required to use images on a website as the smart image component allows uploading images directly into the page.
+
+>[!MORELIKETHIS]
+>
+>* [Detailed list of feature differences](https://helpx.adobe.com/experience-manager/6-5/assets/using/medialibrary.html)
