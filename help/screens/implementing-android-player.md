@@ -21,7 +21,7 @@ Due to Android's architecture, rebooting the device requires that the applicatio
 
 ### Signage of Android apks using Manufacturer Keys {#signage-of-android-apks-using-manufacturer-keys}
 
-To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the the android apk using the manufacturer's keys.
+To access some of the privileged APIs of Android such as *PowerManager* or *HDMIControlServices*, you need to sign the android apk using the manufacturer's keys.
 
 >[!CAUTION]
 >
