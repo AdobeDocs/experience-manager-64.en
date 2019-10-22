@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 558a7c2f-b32e-428e-89f6-123d72ca1108
 ---
 
-# AEM Screens FAQs{#aem-screens-faqs}
+# AEM Screens FAQs {#aem-screens-faqs}
 
 The following section provides answers to few of the commonly asked FAQs related to an AEM Screens project.
 
@@ -149,7 +149,7 @@ In order to disable Livefyre to avoid log errors :
 
 **Disabling Livefyre bundle:**
 
-   1. Navigate to *http://<host>:<port>/system/console/bundles*
+   1. Navigate to `http://<host>:<port>/system/console/bundles`
    1. Search for the AEM Livefyre bundle:  *com.adobe.cq.social.cq-social-livefyre*
    1. Click **Stop**.
 
