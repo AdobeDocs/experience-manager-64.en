@@ -155,7 +155,7 @@ You can also view sets by way of the user interface as described in [Editing Spi
 
 1. From search, you can select **[!UICONTROL Filters]**, then expand **[!UICONTROL Dynamic Media]** and select **[!UICONTROL Sets]**.
 
-   The search returns matching sets that were manually created in the user interface or automatically created through batch set presets. For automated sets, the search query is conducted using **[!UICONTROL Starts with]** search criteria which is different from AEM search which is based on using **[!UICONTROL Contains]** search criteria. Setting the filter to **[!UICONTROL Sets]** is the the only way to search automated sets.
+   The search returns matching sets that were manually created in the user interface or automatically created through batch set presets. For automated sets, the search query is conducted using **[!UICONTROL Starts with]** search criteria which is different from AEM search which is based on using **[!UICONTROL Contains]** search criteria. Setting the filter to **[!UICONTROL Sets]** is the only way to search automated sets.
 
    ![chlimage_1-386](assets/chlimage_1-386.png)
 

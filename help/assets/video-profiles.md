@@ -283,7 +283,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
    Tap the **[!UICONTROL Information]** icon next to each option on the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs for additional descriptions or recommended settings based on the selected video format codec.
 
-1. In the upper-right corner of the the page, tap **[!UICONTROL Save]**.
+1. In the upper-right corner of the page, tap **[!UICONTROL Save]**.
 
 ### Copying a Dynamic Media video encoding profile {#copying-a-video-encoding-profile}
 
@@ -298,7 +298,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
    Tap the **[!UICONTROL Information]** icon next to each option on the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs for recommended settings and descriptions.
 
-1. In the upper-right corner of the the page, tap **[!UICONTROL Save]**.
+1. In the upper-right corner of the page, tap **[!UICONTROL Save]**.
 
 ### Deleting a Dynamic Media video encoding profile {#deleting-a-video-encoding-profile}
 
