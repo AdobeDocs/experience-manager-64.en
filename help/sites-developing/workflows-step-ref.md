@@ -419,11 +419,11 @@ Create an OSGi service or an ECMAScript that selects a user to assign the work i
   Services must implement the [com.day.cq.workflow.exec.ParticipantStepChooser](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/ParticipantStepChooser.html) interface. The interface defines the following members:
 
     * `SERVICE_PROPERTY_LABEL` field: Use this field to specify the name of the participant chooser. The name appears in a list of available participant choosers in the **[!UICONTROL Dynamic Participant Step]** properties.
-    * `getParticipant` method: Returns the the dynamically resolved Principal id as a `String` value.
+    * `getParticipant` method: Returns the dynamically resolved Principal id as a `String` value.
 
   >[!CAUTION]
   >
-  >The `getParticipant` method returns the the dynamically resolved Principal id. This can be either a group id or user id.
+  >The `getParticipant` method returns the dynamically resolved Principal id. This can be either a group id or user id.
   >
   >
   >However, a group id can only be used for a **[!UICONTROL Participant Step]**, when a list of participants is returned. For a **[!UICONTROL Dynamic Participant Step]** an empty list is returned and this cannot be used for delegation.
@@ -509,7 +509,7 @@ Create a form for use with a **[!UICONTROL Form Participant Step]** as normal. H
 
 * The **[!UICONTROL Start of Form]** component must have the **[!UICONTROL Action Type]** property set to `Edit Workflow Controlled Resource(s)`.
 
-* The **[!UICONTROL Start of Form]** component must have a value for the the `Form Identifier` property.
+* The **[!UICONTROL Start of Form]** component must have a value for the `Form Identifier` property.
 
 * The form components must have the **Element Name** property set to the path of the node where the field data is stored. The path must locate a node in the workflow payload content. The value uses the following format:
 

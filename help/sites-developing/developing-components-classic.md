@@ -258,10 +258,9 @@ To create the new component, we use the standard textimage component as a basis 
 
 1. To keep this example simple, navigate to the component you copied and delete all the subnodes of the new textimage node except for the following ones:
 
-    * dialog definition: `textimage/dialog`
-    * component script: `textimage/textimage.jsp`
-    * edit configuration node (allowing drag-and-drop of assets): `textimage/cq:editConfig`** 
-      **
+   * dialog definition: `textimage/dialog`
+   * component script: `textimage/textimage.jsp`
+   * edit configuration node (allowing drag-and-drop of assets): `textimage/cq:editConfig`
 
    >[!NOTE]
    >

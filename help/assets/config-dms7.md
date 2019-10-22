@@ -467,7 +467,7 @@ To keep Dynamic Media (with dynamicmedia_scene7 runmode) running smoothly, Adobe
 
 * Update the predefined Granite workflow (video assets) queue worker threads.
 * Update the predefined Granite transient workflow (images and non-video assets) queue worker threads.
-* Update the the maximum upload connections to the Dynamic Media Classic server.
+* Update the maximum upload connections to the Dynamic Media Classic server.
 
 #### Updating the Granite Transient Workflow queue {#updating-the-granite-transient-workflow-queue}
 

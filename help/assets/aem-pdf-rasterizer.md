@@ -79,7 +79,7 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 
 1. Save the workflow.
 1. To enable PDF Rasterizer to process PDF pages with PDF libraries, open the **[!UICONTROL DAM Process Subasset]** model from the Workflow console.
-1. From the side panel, drag the the PDF Rasterizer Handler step under the **[!UICONTROL Create Web-Enabled Image Rendition]** step.
+1. From the side panel, drag the PDF Rasterizer Handler step under the **[!UICONTROL Create Web-Enabled Image Rendition]** step.
 1. Configure the following arguments for the **[!UICONTROL PDF Rasterizer Handler]** step:
 
     * Mime Types: `application/pdf` or `application/postscript`
