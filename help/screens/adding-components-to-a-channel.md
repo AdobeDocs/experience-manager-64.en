@@ -31,7 +31,7 @@ To view the default components to your Screens project, follow the steps below:
 1. Click the **+** icon from the side bar to open the components.
 1. All the components that are included by default in an AEM Screens project displays, as shown in the figure below.
 
-![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png) 
+![screen_shot_2017-12-18at21350pm](assets/addingComponents1.png) 
 
 ### Adding a New Component {#adding-a-new-component}
 
@@ -41,9 +41,9 @@ The following example shows the addition of a Livefyre component to a an AEM Scr
 
 1. Select the channel where you want to add a new component. For example, **We.Retail In Store** --&gt; **Channels** --&gt; **Idle Channel**.
 
-1. Click** Edit f**rom the action bar to open the editor.
+1. Click **Edit** from the action bar to open the editor.
 1. Select **Design** mode.
-1. Select the entire design editor on the right and click on the settings symbol to open the **ParSys Design** dialog box.
+1. Select the entire design editor on the right and click on the settings symbol to open the **ParSys** dialog box.
 1. You can select the components that you want to import to your AEM Screens project. The following example shows the the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
