@@ -863,7 +863,7 @@ The auto insurance walkthrough also contains another customer, Alison Jones. Cus
 
 Both the policies use same interactive communication. The sections in the policy are changed or hidden based on the policy-type condition. You can access and review the auto insurance renewal interactive communication directly from https://[authorHost]: authorPort]/aem/formdetails.html/content/dam/formsanddocuments/we-finance/autoinsurance/auto-insurance-renewal
 
-**Using Microsoft Dynamics as a data source **
+**Using Microsoft Dynamics as a data source**
 
 The reference site also provides an interactive communication which uses Microsoft Dynamics as a data source for the form data model. Perform the following steps to configure the interactive communication for the auto insurance walkthrough:
 
