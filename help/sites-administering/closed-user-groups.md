@@ -825,7 +825,7 @@ In the former implementation both the authorization and authentication aspects o
 
 #### Property For Excluding Login Path {#property-for-excluding-login-path}
 
-The mixing type defines a single, optional property called `granite:loginPath`, which basically corresponds to the `cq:cugLoginPage` property. In contrast to the previous implementation the login path property will only be respected if its declaring node type is the mentioned mixin. Adding a property with that name without setting the mixin type will have no effect and neither a new requirement nor an exclusion for the login path will be reported to the authenticator.
+The mixin type defines a single, optional property called `granite:loginPath`, which basically corresponds to the `cq:cugLoginPage` property. In contrast to the previous implementation the login path property will only be respected if its declaring node type is the mentioned mixin. Adding a property with that name without setting the mixin type will have no effect and neither a new requirement nor an exclusion for the login path will be reported to the authenticator.
 
 #### Privilege For Authentication Requirement {#privilege-for-authentication-requirement}
 
