@@ -843,7 +843,7 @@ This may be a valid scenario and is possible with a repository editor that allow
 
 #### Configured Supported Paths {#configured-supported-paths}
 
-Both the `granite:AuthenticationRequired` mixin type and the granite:loginPath property will only be respected within the scoped defined by the set of **Supported Paths** configuration option present with the **Adobe Granite Authentication Requirement and Login Path Handler**. If no paths are specifed, the authentication requirement feature is disabled altogether. In this case mixin type nor property take efect when being added or set to a given JCR node. ``
+Both the `granite:AuthenticationRequired` mixin type and the granite:loginPath property will only be respected within the scope defined by the set of **Supported Paths** configuration option present with the **Adobe Granite Authentication Requirement and Login Path Handler**. If no paths are specifed, the authentication requirement feature is disabled altogether. In this case mixin type nor property take efect when being added or set to a given JCR node.
 
 ### Mapping of JCR Content, OSGi Services and Configurations {#mapping-of-jcr-content-osgi-services-and-configurations}
 
