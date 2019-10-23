@@ -482,7 +482,7 @@ See also the CUG mapping documentation for a comprehensive mapping of the confgu
 
 ### Authorization: Setup and Configuration {#authorization-setup-and-configuration}
 
-The new, authorization related parts are contained in the **Oak CUG Authorization** bundle ( `org.apache.jackrabbit.oak-authorizationcug`), which is part of the AEM default installation. The bundle defines a separated authorization model aimed to be deployed as an additional way to manage read access.
+The new, authorization related parts are contained in the **Oak CUG Authorization** bundle ( `org.apache.jackrabbit.oak-authorization-cug`), which is part of the AEM default installation. The bundle defines a separated authorization model aimed to be deployed as an additional way to manage read access.
 
 #### Setting Up CUG Authorization {#setting-up-cug-authorization}
 
