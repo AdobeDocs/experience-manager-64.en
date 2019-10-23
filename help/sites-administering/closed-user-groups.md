@@ -39,7 +39,7 @@ A CUG as it is known in the context of AEM consists of the following steps:
 
 The new implementation has been designed to draw a line between the authentication and the authorization elements. As of AEM 6.3, it is possible to restrict read access without explicitly adding an authentication requirement. For example, if a given instance requires authentication altogether or a given tree already resides in a subtree that requires authentication already.
 
-Equally, a given tree can be marked with an authentication requirement without changing the efective permission setup. The combinations and results are listed in the [Combining CUG Policies and the Authentication Requirement](/help/sites-administering/closed-user-groups.md#combining-cug-policies-and-the-authentication-requirement) section.
+Equally, a given tree can be marked with an authentication requirement without changing the effective permission setup. The combinations and results are listed in the [Combining CUG Policies and the Authentication Requirement](/help/sites-administering/closed-user-groups.md#combining-cug-policies-and-the-authentication-requirement) section.
 
 ## Overview {#overview}
 
