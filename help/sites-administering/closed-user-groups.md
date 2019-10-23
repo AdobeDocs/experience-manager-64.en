@@ -64,7 +64,7 @@ The implementation of PrincipalSetPolicy used to represent CUGs in addition defi
 
 These CUG policies are deployed to an AEM instance through a separate authorization module called oak-authorization-cug. This module comes with its own access control management and permission evaluation. In other words, the default AEM setup ships an Oak content repository configuration that combines multiple authorization mechanisms. For more info, see [this page on the Apache Oak Documentation](https://jackrabbit.apache.org/oak/docs/security/authorization/composite.html).
 
-In this composite setup a new CUG does not replace the existing access control content attached to the target node, but is designed to be a supplement which can also be removed later on without afecting the original access control, that by default in AEM would be an access control list.
+In this composite setup a new CUG does not replace the existing access control content attached to the target node, but is designed to be a supplement which can also be removed later on without affecting the original access control, that by default in AEM would be an access control list.
 
 In contrast to the former implementation the new CUG policies are always recognized and treated as access control content. This implies that they are created and edited using the JCR access control management API. For more info, see the [Managing CUG Policies](#managing-cug-policies) section.
 
@@ -619,7 +619,7 @@ The following 2 OSGi components have been introduced to defne authentication req
   </tr> 
   <tr> 
    <td>Description</td> 
-   <td>Dedicated OSGi service for authentication requirements that registers an observer for content changes afecting auth-requirement (through the <code>granite:AuthenticationRequirement</code> mixin type) and login paths with are exposed to the <code>LoginSelectorHandler</code>. </td> 
+   <td>Dedicated OSGi service for authentication requirements that registers an observer for content changes affecting auth-requirement (through the <code>granite:AuthenticationRequirement</code> mixin type) and login paths with are exposed to the <code>LoginSelectorHandler</code>. </td> 
   </tr> 
   <tr> 
    <td>Confguration Properties</td> 
