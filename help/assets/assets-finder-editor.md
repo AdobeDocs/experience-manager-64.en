@@ -247,13 +247,13 @@ After you have created the customized Asset Editor page, you need to ensure that
 
 To set the Asset Editor page:
 
-1. In the Asset Share page, click **[!UICONTROL ]****Edit** next to the Query Builder.
+1. In the Asset Share page, click **[!UICONTROL Edit]** next to the Query Builder.
 
     ![screen_shot_2012-04-23at20123pm](assets/screen_shot_2012-04-23at20123pm.png)
 
-1. Click the **[!UICONTROL ]****General** tab if it is not already selected.
+1. Click the **[!UICONTROL General]** tab if it is not already selected.
 
-1. In the **[!UICONTROL ]****Path of Asset Editor** field, enter the path to the asset editor you want the Asset Share page to open assets in and click **[!UICONTROL ]****OK**.
+1. In the **[!UICONTROL Path of Asset Editor]** field, enter the path to the asset editor you want the Asset Share page to open assets in and click **[!UICONTROL OK]**.
 
     ![screen_shot_2012-04-23at21653pm](assets/screen_shot_2012-04-23at21653pm.png)
 
@@ -263,7 +263,7 @@ You determine what functionality an asset editor has by adding components to the
 
 To add asset editor components:
 
-1. In the Asset Editor page that you want to customize, select **[!UICONTROL ]****Asset Editor** in the sidekick. All available asset editor components are displayed.
+1. In the Asset Editor page that you want to customize, select **[!UICONTROL Asset Editor]** in the sidekick. All available asset editor components are displayed.
 
     >[!NOTE]
     >
@@ -287,29 +287,29 @@ To add asset editor components:
 
 #### Metadata Form and Text Field - Configuring the View Metadata Component {#metadata-form-and-text-field-configuring-the-view-metadata-component}
 
-The Metadata Form is a form that includes a start and end action. In between, you enter **[!UICONTROL ]****Text** fields. See [Forms](../sites-authoring/default-components.md) for more information on working with forms.
+The Metadata Form is a form that includes a start and end action. In between, you enter **[!UICONTROL Text]** fields. See [Forms](../sites-authoring/default-components.md) for more information on working with forms.
 
-1. Create a start action by clicking **[!UICONTROL ]****Edit** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **[!UICONTROL ]****Metadata**. Select the Client Validation check box if you want the java-script client code for validation generated.
+1. Create a start action by clicking **[!UICONTROL Edit]** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **[!UICONTROL Metadata]**. Select the Client Validation check box if you want the java-script client code for validation generated.
 
     ![screen_shot_2012-04-23at22911pm](assets/screen_shot_2012-04-23at22911pm.png)
 
-1. Create an End action by clicking **[!UICONTROL ]****Edit** in the End area of the form. For example, you may want to create a **[!UICONTROL ]****Submit** button to allow users to submit their metadata changes. Optionally, you can add a **[!UICONTROL ]****Reset** button that resets the metadata to its original state.
+1. Create an End action by clicking **[!UICONTROL Edit]** in the End area of the form. For example, you may want to create a **[!UICONTROL Submit]** button to allow users to submit their metadata changes. Optionally, you can add a **[!UICONTROL Reset]** button that resets the metadata to its original state.
 
     ![screen_shot_2012-04-23at23138pm](assets/screen_shot_2012-04-23at23138pm.png)
 
-1. In between the **[!UICONTROL ]****Form Start** and the **Form End**, drag Metadata Text Fields to the form. Users populate metadata into these text fields, which they can submit or complete another action on.
+1. In between the **[!UICONTROL Form Start]** and the **Form End**, drag Metadata Text Fields to the form. Users populate metadata into these text fields, which they can submit or complete another action on.
 
-1. Double-click the field name, for example, **Title** to open the metadata field and make changes. In the **[!UICONTROL ]****General** tab of the** Edit Component** window, you define the namespace and the field label as well as type, for example, **dc:title**.
+1. Double-click the field name, for example, **Title** to open the metadata field and make changes. In the **[!UICONTROL General]** tab of the **Edit Component** window, you define the namespace and the field label as well as type, for example, **dc:title**.
 
     ![screen_shot_2012-04-23at23305pm](assets/screen_shot_2012-04-23at23305pm.png)
 
     See [Customizing and Extending AEM Assets](extending-assets.md) for information on modifying the namespaces available in the metadata form.
 
-1. Click the **[!UICONTROL ]****Constraints** tab. Here you can select whether a field is required and if necessary, add any constraints.
+1. Click the **[!UICONTROL Constraints]** tab. Here you can select whether a field is required and if necessary, add any constraints.
 
     ![screen_shot_2012-04-23at23435pm](assets/screen_shot_2012-04-23at23435pm.png)
 
-1. Click the **[!UICONTROL ]****Display** tab. Here, you can enter a new width and number of rows for the metadata field. Select the **Field is read only** checkbox to allow users to edit the metadata.
+1. Click the **[!UICONTROL Display]** tab. Here, you can enter a new width and number of rows for the metadata field. Select the **Field is read only** checkbox to allow users to edit the metadata.
 
     ![screen_shot_2012-04-23at23446pm](assets/screen_shot_2012-04-23at23446pm.png)
 
@@ -461,6 +461,6 @@ To multi-edit assets with the Asset Editor page:
 
    Note: the box beside the field is automatically checked when the field is edited.  
 
-1. Click **[!UICONTROL ]Update Metadata** to submit the form and save the changes for all the assets.  
+1. Click **[!UICONTROL Update Metadata]** to submit the form and save the changes for all the assets.  
 
    Note: only the checked metadata are modified.

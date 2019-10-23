@@ -41,7 +41,7 @@ This page provides the essential information for working with the questions and 
   </tr>
   <tr>
    <td> properties</td> 
-   <td>See <a href="working-with-qna.md">Q&amp;A Forum Feature</a></td> 
+   <td>See <a href="working-with-qna.md">QnA Forum Feature</a></td> 
   </tr>
  </tbody>
 </table>

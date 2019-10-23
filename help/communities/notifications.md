@@ -61,7 +61,7 @@ Note that
 
 ![chlimage_1-254](assets/chlimage_1-254.png)
 
-The **Follow **button provides a means to follow entries as activities, subscriptions and/or notifications. Each time the **Follow **button is selected, it is possible to toggle on or off a selection. The `Email Subscriptions` selection is only present when configured.
+The **Follow** button provides a means to follow entries as activities, subscriptions and/or notifications. Each time the **Follow** button is selected, it is possible to toggle on or off a selection. The `Email Subscriptions` selection is only present when configured.
 
 If any method of following is selected, the text of the button changes to **Following**. For convenience, it is possible to select `Unfollow All` to toggle off all methods.
 
