@@ -21,7 +21,7 @@ Since AEM 6.3, there is a new Closed User Group implementation intended to addre
 >
 >For the sake of simplicity, the CUG abbreviation will be used throughout this documentation.
 
-The goal of the new implementation is to cover existing functionality where needed while at the same time addressing problems and design limitations from tolder versions. The result is a new CUG design with the following characteristics:
+The goal of the new implementation is to cover existing functionality where needed while at the same time addressing problems and design limitations from older versions. The result is a new CUG design with the following characteristics:
 
 * Clear separation of authentication and authorization elements, which can be used individually or in combination;
 * Dedicated authorization model to reflect the restricted read access at the configured CUG trees without interfering with other access control setup and permission requirements;
