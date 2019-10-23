@@ -211,7 +211,7 @@ To customize, you can edit the **[!UICONTROL Arguments]** tab of the **Page Extr
 
 If the InDesign server and AEM run on different hosts or either or both these applications do not run on default ports, configure **Day CQ Link Externalizer** to set the host name, port, and content path for the InDesign server.
 
-1. Access Configuration Manager at the URL *https://&lt;AEM server name&gt;:&lt;Port&gt;/system/console/configMgr*. 
+1. Access Configuration Manager at the URL `https://[AEM_server]:[port]/system/console/configMgr`.
 1. Locate the configuration **[!UICONTROL Day CQ Link Externalizer]**, and click the **[!UICONTROL Edit]** icon to open it.
 1. Specify the host name and context path for the Indesign server and click **[!UICONTROL Save]**.
 
@@ -264,12 +264,12 @@ To configure the number of parallel IDS jobs:
    >
    >By default, after the configurable (retry.interval.to.whitelist.name) time in minutes the IDS worker is revalidated. If the worker is found online, it is removed from the blacklist
 
-## Enabling support for InDesign server 10.0 or higher {#enabling-support-for-indesign-server-or-higher}
+## Enable support for Adobe InDesign server 10.0 or later {#enabling-support-for-indesign-server-or-higher}
 
 For InDesign server 10.0 or higher, perform the following steps to enable multi-session support.
 
-1. Open Configuration Manager from your AEM Assets instance [https://&lt;Host Name&gt;:&lt;Port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr).
-1. Edit the configuration ***com.day.cq.dam.ids.impl.IDSJobProcessor.name***.
+1. Open Configuration Manager from your AEM Assets instance `https://[AEM_server]:[port]/system/console/configMgr`.
+1. Edit the configuration `com.day.cq.dam.ids.impl.IDSJobProcessor.name`.
 1. Select the **[!UICONTROL ids.cc.enable]** option, and click **[!UICONTROL Save]**.
 
 >[!NOTE]
@@ -280,7 +280,6 @@ For InDesign server 10.0 or higher, perform the following steps to enable multi-
 
 You can change the default administrator credentials (user name and password) for accessing the InDesign server from your AEM instance without breaking the intergration with the InDesign server.
 
-1. Go to */etc/cloudservices/proxy.html*.
+1. Go to `/etc/cloudservices/proxy.html`.
 1. In the dialog, specify the new user name and password.
 1. Save the credentials.
-

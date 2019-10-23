@@ -90,15 +90,13 @@ To configure the integration, use the values of Technical Account ID, Organizati
 
 After you've completed the configuration, you can use a JMX MBean to validate the configuration. To validate, follow these steps.
 
-1. Access your AEM server at https://&lt;*servername*&gt;:&lt;*port&gt;*.
-
-1. Go to **[!UICONTROL Tools > Operations > Web Console]** to open the OSGi console. Click **[!UICONTROL Main > JMX]**.
+1. In AEM, to open OSGi console, click **[!UICONTROL Tools > Operations > Web Console]**. Click **[!UICONTROL Main > JMX]**.
 1. Click **[!UICONTROL com.day.cq.dam.similaritysearch.internal.impl]**. It opens **[!UICONTROL SimilaritySearch Miscellaneous Tasks.]**
 1. Click **[!UICONTROL validateConfigs()]**. In the **[!UICONTROL Validate Configurations]** dialog, click **[!UICONTROL Invoke]**.
 
    The validation result is displayed in the same dialog.
 
-## Enable smart tagging in the Update Asset workflow (Optional) {#enable-smart-tagging-in-the-update-asset-workflow-optional}
+## Enable smart tagging in the DAM Update Asset workflow (Optional) {#enable-smart-tagging-in-the-update-asset-workflow-optional}
 
 1. From the AEM user interface, tap/click the AEM logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
 1. On **[!UICONTROL Workflow Models]** page, select the **[!UICONTROL DAM Update Asset]** workflow model.

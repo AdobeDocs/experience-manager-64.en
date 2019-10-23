@@ -31,7 +31,7 @@ The Assets Home page is disabled by default. To enable it, perform the following
    >
    >Enabling the Asset viewed, Projects viewed, and Collections viewed options, significantly increases the number of recorded events.
 
-1. Open the **[!UICONTROL DAM Asset Home Page Feature Flag]** service from Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+1. Open the **[!UICONTROL DAM Asset Home Page Feature Flag]** service from Configuration Manager `https://[AEM_server]:[port]/system/console/configMgr`.
 1. Select the **[!UICONTROL isEnabled.name]** option to enable the Assets Home page feature. Save the changes.
 
    ![chlimage_1-251](assets/chlimage_1-251.png)
@@ -40,7 +40,7 @@ The Assets Home page is disabled by default. To enable it, perform the following
 
    ![user_preferences](assets/user_preferences.png)
 
-After enabling the Assets Home page, navigate to the Assets user interface either from the Navigation page or access it directly from the URL *https://&lt;Server Name&gt;:&lt;Port&gt;/aem/assetshome.html/content/dam*.
+After enabling the Assets Home page, navigate to the Assets user interface from the Navigation page.
 
 ![home_page](assets/home_page.png)
 
