@@ -62,7 +62,7 @@ Out of the box, Assign task step is configured to use the default template, html
 
 1. Open the **[!UICONTROL Assign Task]** step.  
 
-1. Navigate to **[!UICONTROL Assignee &gt; HTML Email Template]**.  
+1. Navigate to **[!UICONTROL Assignee > HTML Email Template]**.  
 
 1. Select the newly created HTML Email Template.  
 

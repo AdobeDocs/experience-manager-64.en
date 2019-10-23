@@ -77,7 +77,7 @@ If you have specified a form data model while creating a text, the properties in
 
 ![insertfdmelementtext](assets/insertfdmelementtext.png)
 
-* To insert an FDM property into text, place the cursor where you want to insert the property, then select the **`[A]`** property in the left pane by tapping on it, and tap **`[B]`** [!UICONTROL Add Selected]. You can also just double-tap the property to insert it at the **`[C]`** cursor position. Form data model properties are highlighted in a brownish background color. 
+* To insert an FDM property into text, place the cursor where you want to insert the property, then select the **`[A]`** property in the left pane by tapping on it, and tap **`[B]`** **[!UICONTROL Add Selected]**. You can also just double-tap the property to insert it at the **`[C]`** cursor position. Form data model properties are highlighted in a brownish background color. 
 
 * To allow the agents to edit an FDM property's value in the agent UI while [Prepare and send Interactive Communication](/help/forms/using/prepare-send-interactive-communication.md) using the Agent UI, tap the **`[D]`** lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. 
 
@@ -252,14 +252,13 @@ The Find and Replace feature allows you to search for (and replace) any string o
 1. Open a text document fragment for [editing](#edittext). 
 1. Tap **[!UICONTROL Find & Replace]**.  
 
-1. Enter the text to search in the **`[!UICONTROL Find]`** text box and the new text (replacement text) in the **`[!UICONTROL Replace]`** text box and tap **[!UICONTROL Replace]**.  
+1. Enter the text to search in the **[!UICONTROL Find]** text box and the new text (replacement text) in the **[!UICONTROL Replace]** text box and tap **[!UICONTROL Replace]**.  
 
 1. If the searched text is found, the text is replaced by the replacement text.
 
-    * If another instance of the search text is found, that instance is highlighted in the text document fragment. If you tap **`[!UICONTROL Replace]`** again, the highlighted instance is replaced and the cursor moves forward, if a third instance is found.
+    * If another instance of the search text is found, that instance is highlighted in the text document fragment. If you tap **[!UICONTROL Replace]** again, the highlighted instance is replaced and the cursor moves forward, if a third instance is found.
     * If another instance is not found, the Find & Replace dialog displays a message: Reached end of module.
 
    You can also tap Replace all to replace all the matches in a one go.
 
-   Find & Replace also includes a powerful regular expression search. To use regex in your search, select **`[!UICONTROL Reg ex]`** and then tap **`[!UICONTROL Find]`** or **[!UICONTROL Replace]**. **[!UICONTROL]**
-
+   Find & Replace also includes a powerful regular expression search. To use regex in your search, select **[!UICONTROL Reg ex]** and then tap **[!UICONTROL Find]** or **[!UICONTROL Replace]**.

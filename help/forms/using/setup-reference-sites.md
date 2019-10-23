@@ -234,13 +234,13 @@ The home mortgage application and auto insurance application reference sites are
 To import the custom entity for auto insurance application:
 
 1. Download the **WeFinanceAutoInsurance_1_0.zip** solution package from `https://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/auto-insurance/ms-dynamics/WeFinanceAutoInsurance_1_0.zip` on your AEM author instance.
-1. In your Microsoft Dynamics instance, go to **[!UICONTROL Settings &gt; Solutions]** and click **[!UICONTROL Import]**. Select and import the package.
+1. In your Microsoft Dynamics instance, go to **[!UICONTROL Solutions]** in the **[!UICONTROL Settings]** menu and click **[!UICONTROL Import]**. Select and import the package.
 
 To import the custom entity for auto insurance application:
 
 1. Download the **AEMFormsFSIRefsite_1_0.zip** package from https://[author]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip. Select and import the package.  
 
-1. In your Microsoft Dynamics instance, go to **[!UICONTROL Settings &gt; Solutions]** and click **[!UICONTROL Import]**. Select and import the package.
+1. In your Microsoft Dynamics instance, go to **[!UICONTROL Solutions]** in the **[!UICONTROL Settings]** menu and click **[!UICONTROL Import]**. Select and import the package.
 
 To import the customer and insurance policy records:
 
@@ -252,19 +252,19 @@ To import the customer and insurance policy records:
 
 1. In your Microsoft Dynamics instance, do the following:
 
-    * Go to **[!UICONTROL Sales** &gt;  **We.Finance Customers]** and click **[!UICONTROL Import]**.
-    * Go to **[!UICONTROL Sales** &gt;  **We.Finance Auto Insurance]** and click **[!UICONTROL Import]**.
-    * Go to **[!UICONTROL Sales** &gt;  **We.Finance Home Mortgage]**  and click **[!UICONTROL Import]**.
+    * Go to **[!UICONTROL Sales > We.Finance Customers]** and click **[!UICONTROL Import]**.
+    * Go to **[!UICONTROL Sales > We.Finance Auto Insurance]** and click **[!UICONTROL Import]**.
+    * Go to **[!UICONTROL Sales > We.Finance Home Mortgage]**  and click **[!UICONTROL Import]**.
 
 ## Configure OAuth cloud service for Microsoft Dynamics {#configure-oauth-cloud-service-for-microsoft-dynamics}
 
 Configure the OAuth cloud service in AEM Forms to enable communication between AEM Forms and Microsoft Dynamics. Perform the following steps to configure the OAuth Cloud Service on AEM author and publish instances:
 
-1. On AEM author instance, go to **[!UICONTROL Tools** &gt;  **Cloud Services** &gt; **Data Sources** &gt; **global]**. Tap **[!UICONTROL Refsite Dynamics Integration]** icon and tap **[!UICONTROL Properties]**. 
+1. On AEM author instance, go to **[!UICONTROL Tools > Cloud Services > Data Sources > global]**. Tap **[!UICONTROL Refsite Dynamics Integration]** icon and tap **[!UICONTROL Properties]**. 
 1. Go to Microsoft Azure Active Directory account. Add the copied cloud service configuration URL in the **[!UICONTROL Reply URL]** setting for your registered application. Save the configuration.
 1. In the Authentication Settings tab, specify **[!UICONTROL Service Root]**, **[!UICONTROL Client Id]**, **[!UICONTROL Client Secret]**, and **[!UICONTROL Resource URL]** for your Microsoft Dynamics instance. Click **[!UICONTROL Connect to OAuth]** that redirects to the Microsoft Dynamics login page.
 1. Provide your login credentials. Once logged in, you are redirected to the AEM Forms cloud service configuration page. Click **[!UICONTROL Save & Close]**. The cloud service configuration is saved. 
-1. Go to **[!UICONTROL Forms** &gt;  **Data Integrations** &gt; **We.Finance]**. Select Auto Insurance (Dynamics) and click Edit. Microsoft Dynamics entities are listed under the Data Sources tab. Wait until all entities are fetched from Microsoft Dynamics and listed under the data sources tab.
+1. Go to **[!UICONTROL Forms > Data Integrations > We.Finance]**. Select Auto Insurance (Dynamics) and click Edit. Microsoft Dynamics entities are listed under the Data Sources tab. Wait until all entities are fetched from Microsoft Dynamics and listed under the data sources tab.
 1. Select the **[!UICONTROL AutoInsuranceRenewal entity]** and click **[!UICONTROL Test Model Object]**. In the input request section, specify the value for customer ID as “900001” and click **[!UICONTROL Test]**. The Output section displays the records fetched from Microsoft Dynamics for customer ID 900001.
 1. In the input request section, specify the value for customer ID as “900001” and click **[!UICONTROL Test]**. The Output section displays the records fetched from Microsoft Dynamics for customer ID 900001.
 1. Repeat steps 1-6 on the publish instance.
@@ -287,7 +287,7 @@ Do the following on both author and publish instances:
 
 Do the following on both author and publish instances:
 
-1. Go to **[!UICONTROL Tools** &gt;  **Cloud Services** &gt; **Adobe Sign** &gt; **global]**. Select **[!UICONTROL AEM Forms Reference Site Sign]** and tap **[!UICONTROL Properties]**.
+1. Go to **[!UICONTROL Tools > Cloud Services > Adobe Sign > global]**. Select **[!UICONTROL AEM Forms Reference Site Sign]** and tap **[!UICONTROL Properties]**.
 
    >[!CAUTION]
    >

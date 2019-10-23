@@ -4,12 +4,9 @@ seo-title: Assets Performance Tuning Guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
 seo-description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
 uuid: b5746549-34bf-4fb3-bb67-05c0380d4a07
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 6e454056-96cf-4269-9bed-e6b96c480388
-tagskeywords: performance tuning, AEM Assets, software optimization, hardware optimization
 ---
 
 # Assets Performance Tuning Guide {#assets-performance-tuning-guide}
@@ -30,7 +27,7 @@ While AEM is supported on a number of platforms, Adobe has found the greatest su
 
 ### Temp Folder {#temp-folder}
 
-To improve asset upload times, use high performance storage for the Java temp directory. On Linux and Windows, a RAM drive or SSD could be used. In cloud-based environments, an equivalent high speed storage type could be used. For example in Amazon EC2, an ["ephemeral drive"](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html) drive can be used for the temp folder.
+To improve asset upload times, use high performance storage for the Java temp directory. On Linux and Windows, a RAM drive or SSD could be used. In cloud-based environments, an equivalent high speed storage type could be used. For example in Amazon EC2, an [ephemeral drive](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html) drive can be used for the temp folder.
 
 Assuming the server has ample memory, configure a RAM drive. On Linux, run these commands to create an 8 GB RAM drive:
 
@@ -184,7 +181,7 @@ Customers use images of various sizes and formats across their website or for di
 
 Many Sites customers implement an image servlet that resizes and crops images at the time they are requested, which imposes additional load on the publish instance. However, as long as these images can be cached, the challenge can be mitigated.
 
-An alternative approach is to use Scene7 technology to hand off image manipulation entirely. Additionally, you can deploy Brand Portal (a replacement for Asset Share with Scene7 capabilities) which not only takes over rendition generation responsibilities from the AEM infrastructure, but also the entire publish tier.
+An alternative approach is to use Scene7 technology to hand off image manipulation entirely. Additionally, you can deploy Brand Portal which not only takes over rendition generation responsibilities from the AEM infrastructure, but also the entire publish tier.
 
 #### ImageMagick {#imagemagick}
 
@@ -349,7 +346,7 @@ If your users don't need to be able to search the contents of assets, for exampl
 
 ### Guess Total {#guess-total}
 
-When creating queries, especially for an Asset Share implementation, that generate large result sets, use the `guessTotal` parameter to avoid heavy memory utilization when you run them.
+When creating queries that generate large result sets, use the `guessTotal` parameter to avoid heavy memory utilization when you run them.
 
 ## Known issues {#known-issues}
 
@@ -394,5 +391,5 @@ To minimize latency and achieve high throughput through efficient CPU utilizatio
 * Configure workflow and version purging
 * Optimize Lucene index configuration in versions prior to 6.2
 * Optimize indexes with the latest service packs and hotfixes. Check with Adobe Support for any additional index optimizations that may be available.
-* Use guessTotal to optimize query performance
-
+* Use `guessTotal` to optimize query performance.
+* If you configure AEM to detect file types from the content of the files (by configuring [!UICONTROL Day CQ DAM Mime Type Service] in the [!UICONTROL AEM Web Console]), upload many files in bulk during non-peak hours as the operation is resource-intensive.

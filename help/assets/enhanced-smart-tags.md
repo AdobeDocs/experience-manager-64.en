@@ -39,9 +39,14 @@ In summary, here are the main steps to use the Smart Content Service:
 
 ## Prerequisites {#prerequisites}
 
+Before you can use the Smart Content Service, ensure the following to create an integration on Adobe I/O:
+
+* An Adobe ID account that has administrator privileges for the organization.
+* The Smart Content Service service is enabled for your organization.
+
 ## Onboarding {#onboarding}
 
-The Smart Content Service is available for purchase as an add-on to AEM 6.4. After you purchase, an email is sent to the administrator of your organization with a link to Adobe IO.
+The Smart Content Service is available for purchase as an add-on to AEM. After you purchase, an email is sent to the administrator of your organization with a link to Adobe IO.
 
 The administrator can follow the link to integrate the Smart Content Service with AEM. To integrate the service with AEM Assets, see [Configure Smart Tags](config-smart-tagging.md).
 
@@ -132,7 +137,7 @@ You can run the tagging workflow periodically or whenever required.
 
 You can enable the Smart Content Service to periodically tag assets within a folder. Open the properties page of your asset folder, select **[!UICONTROL Enable Smart Tags]** under the **[!UICONTROL Details]** tab, and save the changes.
 
-Once this option is selected for a folder, the Smart Content Service automatically tags the assets within the folder. By default, the the tagging workflow runs every day at 12:00 AM.
+Once this option is selected for a folder, the Smart Content Service automatically tags the assets within the folder. By default, the tagging workflow runs every day at 12:00 AM.
 
 ### On-demand tagging {#on-demand-tagging}
 

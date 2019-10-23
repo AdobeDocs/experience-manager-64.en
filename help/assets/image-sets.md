@@ -178,7 +178,7 @@ However, sets created using batch set presets, do *not* appear in the user inter
 
 * From search, you can select **[!UICONTROL Filters]**, then expand **[!UICONTROL Dynamic Media]** and select **[!UICONTROL Sets]**.
 
-  The search returns matching sets that were manually created in the UI or automatically created through batch set presets. For automated sets, the search query is conducted using "Starts with" search criteria which is different from AEM search which is based on using "Contains" search criteria. Setting the filter to **[!UICONTROL Sets]** is the the only way to search automated sets.
+  The search returns matching sets that were manually created in the UI or automatically created through batch set presets. For automated sets, the search query is conducted using "Starts with" search criteria which is different from AEM search which is based on using "Contains" search criteria. Setting the filter to **[!UICONTROL Sets]** is the only way to search automated sets.
 
   ![chlimage_1-345](assets/chlimage_1-345.png)
 

@@ -94,7 +94,7 @@ Alternatively, you can also perform the same setting using*&lt;yourAuthorInstanc
 
 #### AEM in NOSAMPLECONTENT runmode {#aem-in-nosamplecontent-runmode}
 
-Running AEM in production uses the **NOSAMPLECONTENT** runmode. Remove the the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
+Running AEM in production uses the **NOSAMPLECONTENT** runmode. Remove the *X-Frame-Options=SAMEORIGIN* header (in the additional response header section) from
 
 [http://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet](http://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet).
 

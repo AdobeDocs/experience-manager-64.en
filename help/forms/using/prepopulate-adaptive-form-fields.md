@@ -343,11 +343,9 @@ You can use custom prefill service for the scenarios, where you constantly read 
 The prefill service is an OSGi service and is packaged through OSGi bundle. You create the OSGi bundle, upload, and install it to AEM Forms bundles. Before you get started with creating the bundle:
 
 * [Download the AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
-* [Download the boilerplate package](/help/forms/using/prepopulate-adaptive-form-fields.md#main-pars-download-section-711716493)  
+* [Download the boilerplate package](assets/prefill-sumbit-xmlsandcontentpackage.zip)  
 
 * Place the data (prefill data) file in the crx-repository. You can place the file at any location in the \contents folder of crx-repository.
-
-[Get File](assets/prefill-sumbit-xmlsandcontentpackage.zip)
 
 #### Create a prefill service {#create-a-prefill-service}
 
@@ -368,6 +366,6 @@ The boilerplate package (sample prefill service package) contains sample impleme
 To start the prefill service, upload the JAR file to AEM Forms Web Console, and activate the service. Now, the service starts appearing in adaptive forms editor. To associate a prefill service to an adaptive form:
 
 1. Open the adaptive form in Forms Editor and open the Properties panel for the Form Container.
-1. In the Properties console, navigate to **[!UICONTROL AEM Forms container &gt; Basic &gt; Prefill Service]**.
+1. In the Properties console, navigate to **[!UICONTROL AEM Forms container > Basic > Prefill Service]**.
 1. Select the Default Prefill Service and click **[!UICONTROL Save]**. The service is associated to the form.
 

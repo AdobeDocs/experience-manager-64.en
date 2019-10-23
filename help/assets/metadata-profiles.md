@@ -177,7 +177,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 In addition to applying a profile to a folder, you can also apply one globally so that any content uploaded into AEM assets in any folder has the selected profile applied.
 
-**To apply a metadata  profile globally**:
+**To apply a metadata profile globally**:
 
 1. Do one of the following:
 
@@ -185,7 +185,7 @@ In addition to applying a profile to a folder, you can also apply one globally s
 
       ![chlimage_1-492](assets/chlimage_1-492.png)
 
-    * Navigate to CRXDE Lite to the following node: `/content/dam/jcr:content`. Add the property metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name_of_metadata_profile&gt; and tap **[!UICONTROL Save All]**. 
+    * Navigate to CRXDE Lite to the following node: `/content/dam/jcr:content`. Add the property metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name_of_metadata_profile&gt; and tap **[!UICONTROL Save All]**.
 
       ![chlimage_1-493](assets/chlimage_1-493.png)
 

@@ -28,7 +28,7 @@ Perform the following steps to download the `adobe-aemfd-forms-app-src-pkg-<vers
 1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search `adobe-aemfd-forms-app-src-pkg-<version>.zip`, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded** appears next to the package.
 1. After the download completes, click **Downloaded**. You are redirected to package manager. In the package manager, search the downloaded package, and click **Install**.
 1. To download the source-code archive, open **https://&lt;server&gt;:&lt;port&gt;/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-&lt;version&gt;.zip** in your browser. The Android app .zip file is downloaded on your device.
-1. Extract the contents of the .zip file to a folder on your local file system. For example, *C:\&lt;Folder Structure&gt;\adobe-lc-mobileworkspace-src-2.4.20*
+1. Extract the contents of the .zip file to a folder on your local file system. For example, *C:\Folder Structure\adobe-lc-mobileworkspace-src-2.4.20*
 
 The following image displays the structure of the `adobe-lc-mobileworkspace-src-<version>.zip\android`folder.
 
@@ -39,8 +39,8 @@ The following image displays the structure of the `adobe-lc-mobileworkspace-src-
 Set the following environment variables before starting the build process for the AEM Forms app:
 
 * Set the JAVA_HOME environment variable to the location of JDK software on the local file system. For example, C:\Program Files\Java\jdk1.8.0_181
-* Set the `ANDROID_SDK_ROOT` system environment variable to the SDK location for Android. For example, C:\Users\&lt;username&gt;\AppData\Local\Android\Sdk
-* Set the `Path` system environment variable to include the platform-tools and tools folder locations for Android. For example, C:\Users\&lt;username&gt;\AppData\Local\Android\Sdk\platform-tools and C:\Users\&lt;username&gt;\AppData\Local\Android\Sdk\tools.
+* Set the `ANDROID_SDK_ROOT` system environment variable to the SDK location for Android. For example, C:\Users\username\AppData\Local\Android\Sdk
+* Set the `Path` system environment variable to include the platform-tools and tools folder locations for Android. For example, C:\Users\username\AppData\Local\Android\Sdk\platform-tools and C:\Users\username\AppData\Local\Android\Sdk\tools.
 
 ## Build standard AEM Forms app {#set-up-the-xcode-project}
 

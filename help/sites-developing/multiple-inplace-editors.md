@@ -121,7 +121,7 @@ To have multiple RTEs you need a configuration for each in-place RTE:
 
 ## Code Samples {#code-samples}
 
-CODE ON GITHUB
+**CODE ON GITHUB**
 
 You can find the code of this page on GitHub
 

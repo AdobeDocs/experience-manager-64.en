@@ -35,7 +35,12 @@ When an image is requested for the first time by a consumer, we check the user c
 
 * Automatically convert to lossless WebP for browsers that support WebP format, such as Chrome, Android, and Opera.  
 * Automatically convert to lossless JPEGXR for browsers that support JPEGXR format, such as Internet Explorer 9+.  
-* Automatically convert to lossless JPEG2000 for browsers that support JPEG2000 format, such as Safari.  
+* Automatically convert to lossless JPEG2000 for browsers that support JPEG2000 format, such as Safari.
+* PNG requests to get lossless images.
+* JPEG requests at a range of quality settings.
+* JPEGXR requests at a range of quality settings.
+* JPEG2000 requests at a range of quality settings.
+* WEBP requests at a range of quality settings. 
 * For browsers that do not support those formats, the originally requested image format is served.
 
 ## What image formats are supported? {#what-image-formats-are-supported}
@@ -50,7 +55,7 @@ The following image formats are supported for smart imaging:
 
 ## How does smart imaging work with our existing image presets that are already in use? {#how-does-smart-imaging-work-with-our-existing-image-presets-that-are-already-in-use}
 
-Smart imaging works with your existing image presets and observes virtually all your image settings such as size, quality, sharpening, and so on. What will change is the image format or, in cases of slow network connection speed, the quality setting. For format conversion, we maintain full visual fidelity as defined by your image preset settings, but at a smaller file size.
+Smart imaging works with your existing image presets and observes virtually all your image settings such as size, quality, sharpening, and so on. What will change is the image format and the quality settings as per request. For format conversion, we maintain full visual fidelity as defined by your image preset settings, but at a smaller file size.
 
 For example, suppose an image preset is defined with JPEG format, size 500x500, quality=85, and unsharp mask=0.1,1,5. When we detect that a user is on Chrome browser, the image is converted to lossless WebP format, with size 500x500, quality=85, and unsharp mask=0.1,1,5.
 
@@ -60,9 +65,9 @@ No. Smart imaging works seamlessly with your existing image URLs and image prese
 
 The only change that may be required is to update the **[!UICONTROL Time To Live]** (TTL) setting. This setting defines how long assets are cached by the CDN. To maximize the performance improvements of smart imaging, Adobe recommends setting the TTL to 24 hours or longer. To change this setting:
 
-* If you are using Dynamic Media Classic, tap **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**. Set the **[!UICONTROL Default Client Cache Time To Live]** value to 24 or longer.
+* If you are using Dynamic Media Classic, tap **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**. Set the **[!UICONTROL Default Client Cache Time To Live]** value to 24 or longer.
 
-* If you are using Dynamic Media, follow the instructions here: [https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html](https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html) (Configuring Dynamic Media Image Settings). Set the **[!UICONTROL Expiration]** value to 24 hours or longer.
+* If you are using Dynamic Media, follow the instructions to [Configure Dynamic Media image settings](config-dynamic.md) Set the **[!UICONTROL Expiration]** value to 24 hours or longer.
 
 >[!NOTE]
 >
@@ -81,7 +86,7 @@ To use smart imaging, your company's Dynamic Media Classic or Dynamic Media on A
 
   To find your domains, log in to your company account or accounts.  
   
-  Tap **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**. Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic domain, you can request moving over to your own custom domain as part of this transition.
+  Tap **[!UICONTROL Setup > Application Setup > General Settings]**. Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic domain, you can request moving over to your own custom domain as part of this transition.
 
 * Do not request CMYK JPEG images. As part of its processing, smart imaging converts CMYK JPEG images to RGB. If you need to obtain CMYK JPEG images, you cannot use smart imaging.
 
@@ -97,7 +102,7 @@ You must initiate the request to use smart imaging; it is not automatically enab
 
        To find your domains, log into your company account or accounts. 
 
-       Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.  
+       Click **[!UICONTROL Setup > Application Setup > General Settings]**.  
 
        Look for the field labeled **[!UICONTROL Published Server Name]**.
     1. Verify that you are using the CDN through Adobe and not managed with a direct relationship.
@@ -105,7 +110,7 @@ You must initiate the request to use smart imaging; it is not automatically enab
 
        To find your domains, log into your company account or accounts.
 
-       Click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.  
+       Click **[!UICONTROL Setup > Application Setup > General Settings]**.  
 
        Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic Dynamic Media Classic domain, you can request moving over to your own custom domain as part of this transition.
     1. Indicate if you also need this to work over HTTP/2
@@ -116,8 +121,8 @@ You must initiate the request to use smart imaging; it is not automatically enab
 1. You are notified after completion by support.
 1. To maximize the performance improvements of smart imaging, Adobe recommends setting the Time To Live (TTL) to 24 hours or longer. The TTL defines how long assets are cached by the CDN. To change this setting:
 
-    1. If you use Dynamic Media Classic, click **[!UICONTROL Setup &gt; Application Setup &gt; Publish Setup &gt; Image Server]**. Set the **[!UICONTROL Default Client Cache Time To Live]** value to 24 or longer.
-    1. If you use Dynamic Media, follow these instructions: [https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html](https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html) (Configuring Dynamic Media Image Settings). Set the **[!UICONTROL Expiration]** value 24 hours or longer.
+    1. If you use Dynamic Media Classic, click **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**. Set the **[!UICONTROL Default Client Cache Time To Live]** value to 24 or longer.
+    1. If you use Dynamic Media, follow [these instructions](config-dynamic.md). Set the **[!UICONTROL Expiration]** value 24 hours or longer.
 
 ## When can I expect my account to be enabled with smart imaging? {#when-can-i-expect-my-account-to-be-enabled-with-smart-imaging}
 
@@ -136,7 +141,7 @@ During the initial transition, the non-cached images directly hits Adobe's origi
 ## How can I verify whether smart imaging is working as expected?  {#how-can-i-verify-whether-smart-imaging-is-working-as-expected}
 
 1. After your account is configured with smart imaging, load a Dynamic Media Classic(S7)/Dynamic Media image URL on the browser.
-1. Open the Chrome developer pane by clicking **[!UICONTROL View &gt; Developer &gt; Developer Tools]** in the browser. Or choose any browser developer tool of your choice.
+1. Open the Chrome developer pane by clicking **[!UICONTROL View > Developer > Developer Tools]** in the browser. Or choose any browser developer tool of your choice.
 
 1. Ensure that cache is disabled when developer tools is open.
 
