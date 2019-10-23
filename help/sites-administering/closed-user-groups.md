@@ -796,7 +796,7 @@ This move from residual JCR properties to a dedicated access control policy has 
 
 CUG policies are expected to be created at the JCR node defining the subtree to be subject to restricted read access. This is likely to be a AEM page in case the CUG is expected afect the whole tree.
 
-Note that placing the CUG policy only at the jcr:content node located below a given page will only restrict access to the content s.str. of a given page but will not take effect on any siblings or child pages. This may be a valid use case and it is possible to achieve with a repository editor that allows to apply fine grained access content content. However, it contrasts the former implementation where placing a cq:cugEnabled property on the jcr:content node was internally re-mapped to the page node. This mapping is no longer performed.
+Note that placing the CUG policy only at the jcr:content node located below a given page will only restrict access to the contents of a given page but will not take effect on any siblings or child pages. This may be a valid use case and it is possible to achieve with a repository editor that allows to apply fine grained access content content. However, it contrasts the former implementation where placing a cq:cugEnabled property on the jcr:content node was internally re-mapped to the page node. This mapping is no longer performed.
 
 **Permission Evaluation With CUG Policies**
 
