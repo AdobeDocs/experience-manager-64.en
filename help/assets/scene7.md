@@ -41,7 +41,7 @@ You can publish digital assets to Dynamic Media Classic as follows:
 
 * [In the classic user interface from the Assets console](/help/sites-classic-ui-authoring/manage-assets-classic-s7.md#publishing-from-the-assets-console)
 * [In the classic user interface from an asset](/help/sites-classic-ui-authoring/manage-assets-classic-s7.md#publishing-from-an-asset)
-* [In the classic user interface from outside the the CQ Target folder](/help/sites-classic-ui-authoring/manage-assets-classic-s7.md#publishing-assets-from-outside-the-cq-target-folder)
+* [In the classic user interface from outside the CQ Target folder](/help/sites-classic-ui-authoring/manage-assets-classic-s7.md#publishing-assets-from-outside-the-cq-target-folder)
 
 >[!NOTE]
 >
@@ -349,7 +349,7 @@ Within the Dynamic Media Classic browser, you can filter results to include any 
 >* In the classic UI, you can also search for **Flash** and **FXG**. Filtering for these in the touch-optimized UI is currently not supported.
 >
 >* When searching video, you are searching a single rendition. Results return the original rendition (only &ast;.mp4) and the encoded rendition.
->* When searching an adaptive video set, you are searching the the folder and all sub-folders but only if you have added a keyword to the search. If you have not added a keyword, AEM does not search the sub-folders.
+>* When searching an adaptive video set, you are searching the folder and all sub-folders but only if you have added a keyword to the search. If you have not added a keyword, AEM does not search the sub-folders.
 >
 
 * **[!UICONTROL Publish Status]**

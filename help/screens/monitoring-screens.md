@@ -1,8 +1,8 @@
 ---
 title: Troubleshooting Device Control Center
 seo-title: Monitoring Screens
-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device using the the Device dashboard.
-seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device using the the Device dashboard.
+description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device using the Device dashboard.
+seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device using the Device dashboard.
 uuid: 9e3d87c4-a5ff-43cb-a0b0-8919a6086586
 contentOwner: Jyotika Syal
 content-type: reference
@@ -13,11 +13,11 @@ discoiquuid: 58738b4e-90ba-4656-85a7-2283e54d7919
 
 # Troubleshooting Device Control Center{#troubleshooting-device-control-center}
 
-You can monitor and troubleshoot performance for your Screens player activity and device using the the Device dashboard. This page provides information about how to monitor and troubleshoot perceived performance problems for Screens player and the assigned devices.
+You can monitor and troubleshoot performance for your Screens player activity and device using the Device dashboard. This page provides information about how to monitor and troubleshoot perceived performance problems for Screens player and the assigned devices.
 
 ## Monitor and Troubleshoot from Device Control Center {#monitor-and-troubleshoot-from-device-control-center}
 
-You can monitor the activity and hence troubleshoot your Screens player, using the the Device Dashboard.
+You can monitor the activity and hence troubleshoot your Screens player, using the Device Dashboard.
 
 ### Device Dashboard {#device-dashboard}
 
