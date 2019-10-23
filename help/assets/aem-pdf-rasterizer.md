@@ -1,26 +1,22 @@
 ---
 title: Using PDF Rasterizer
 seo-title: Using PDF Rasterizer
-description: This article describes how to generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
-seo-description: Learn how to generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
+description: Generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
+seo-description: Generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
 uuid: f621b9d7-433f-42c4-aae8-ddab1ddb969c
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 9913aa72-5eda-403b-bb4b-5e30f593a602
 ---
 
 # Using PDF Rasterizer {#using-pdf-rasterizer}
 
-This article describes how to generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
-
 Sometimes, when you upload large, content-intensive PDF or AI files to Adobe Experience Manager (AEM) Assets, the default library may not generate an accurate output. In such cases, Adobe's PDF Rasterizer library can generate more reliable and accurate output compared to the output from a default library.
 
 Adobe recommends using the PDF Rasterizer library for the following:
 
-* Heavy, content intensive AI/PDF files.
-* AI/PDF files with thumbnails not generated out of the box.
+* Heavy, content intensive AI or PDF files.
+* AI or PDF files with thumbnails not generated out of the box.
 * AI files with Pantone Matching System (PMS) colors.
 
 Thumbnails and previews generated using PDF Rasterizer are better in quality compared to out-of-the-box output and, therefore, provide consistent viewing experience across devices. The Adobe PDF Rasterizer library does not support any color space conversion. It always outputs to RGB irrespective of the color space of the source file.
@@ -31,15 +27,15 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
    >
    >The PDF Rasterizer library is available for Windows and Linux only.
 
-1. Access the AEM Assets Workflow console from *https://&lt;AEM server&gt;:&lt;Port&gt;/workflow*. 
-1. Open the DAM Update Asset workflow page.
-1. Configure the following to skip the default thumbnail and web rendition generation for PDF/AI files:
+1. Access the AEM Assets workflow console from `https://[AEM_server]:[port]/workflow`.
+1. Open the **[!UICONTROL DAM Update Asset]** workflow page.
+1. Configure the following to skip the default thumbnail and web rendition generation for PDF and AI files:
 
-    * Open the **[!UICONTROL Thumbnail Process]** step, and add *application/pdf* or *application/postscript* in the **[!UICONTROL Skip Mime Types]** field.
+    * Open the **[!UICONTROL Thumbnail Process]** step, and add `application/pdf` or `application/postscript` in the **[!UICONTROL Skip Mime Types]** field.
 
    ![skip_mime_types-2](assets/skip_mime_types-2.png)
 
-    * In the **[!UICONTROL Web Enabled Image]** tab, add *application/pdf* or *application/postscript* under **[!UICONTROL Skip List]** depending upon your requirements.
+    * In the **[!UICONTROL Web Enabled Image]** tab, add `application/pdf` or `application/postscript` under **[!UICONTROL Skip List]** depending upon your requirements.
 
    ![web_enabled_imageskiplist](assets/web_enabled_imageskiplist.png)
 
@@ -110,4 +106,4 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
    ![web_enabled_image-1](assets/web_enabled_image-1.png)
 
 1. Save the workflow.
-1. Upload a PDF or AI file to AEM Assets. PDF Rasterizer generates the thumbnails and web renditions for the file.
+1. Upload a PDF file or an AI file to AEM Assets. PDF Rasterizer generates the thumbnails and web renditions for the file.
