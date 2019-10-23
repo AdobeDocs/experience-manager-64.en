@@ -47,7 +47,7 @@ For details on how to edit metadata schema, see [Editing metadata schema forms](
 
 You can add your own namespaces within AEM. Just as there are predefined namespaces such as cq, jcr and sling, you can have a namespace for your repository metadata and xml processing.
 
-1. Go to the node type administration page *https://&lt;host&gt;:&lt;port&gt;/crx/explorer/nodetypes/index.jsp*.
+1. Go to the node type administration page `https://[AEM_server]:[port]/crx/explorer/nodetypes/index.jsp`.
 1. Click or tap **[!UICONTROL Namespaces]** at the top of the page. The namespace administration page is displayed in a window.  
 
 1. To add a namespace, click or tap **[!UICONTROL New]** at the bottom.
