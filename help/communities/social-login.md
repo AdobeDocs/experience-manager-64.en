@@ -63,7 +63,7 @@ As of AEM  6.4  GA and AEM 6.3 SP1 social login  was  updated to work with the n
 
 >[!NOTE]
 >
->For older AEM versions, if you are facing an exception in logs **Can't extract a token from this, **upgrade to latest CFP for that AEM release.
+>For older AEM versions, if you are facing an exception in logs **Can't extract a token from this**, upgrade to latest CFP for that AEM release.
 
 For the Facebook Graph API version information, see the [Facebook API changelog](https://developers.facebook.com/docs/apps/changelog).
 
@@ -451,17 +451,17 @@ On an author instance, signed in with administrative privileges:
 1. Modify the properties of node ntBaseLucene-oauth:
 
     * **[!UICONTROL indexPath]**: /oak:index/ntBaseLucene-oauth
-    * **[!UICONTROL name]**: oauthid-123****
+    * **[!UICONTROL name]**: oauthid-123xxxx
     * **[!UICONTROL reindex]**: true
     * **[!UICONTROL reindexCount]**: 1
 
 1. Under node /oak:index/ntBaseLucene-oauth/indexRules/nt:base/properties:
 
     * Delete all child nodes, except for cqTags.
-    * Rename cqTags to oauthid-123****
-    * Modify the properties of node oauthid-123****
+    * Rename cqTags to oauthid-123xxxx
+    * Modify the properties of node oauthid-123xxxx
 
-        * **[!UICONTROL name]**: oauthid-123****
+        * **[!UICONTROL name]**: oauthid-123xxxx
 
     * Select **[!UICONTROL Save All]**.
 

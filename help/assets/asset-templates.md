@@ -167,6 +167,7 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
 ## Merge Collateral {#merge-collateral}
 
+
 1. Click or tap **[!UICONTROL Tools > Assets]**.
 1. From the options, choose **[!UICONTROL Templates]**.
 1. Click/tap **[!UICONTROL Create]** and the choose **[!UICONTROL Merge]** from the menu.

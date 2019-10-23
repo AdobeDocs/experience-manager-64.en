@@ -82,7 +82,7 @@ Under the **[!UICONTROL Settings]** tab, specify whether or not to allow tags to
 
   Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
 
-* **[!UICONTROL ]Max Attach Image File Size** 
+* **[!UICONTROL Max Attach Image File Size]** 
 
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152 (2 Mb).
 

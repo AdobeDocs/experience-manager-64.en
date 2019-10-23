@@ -99,7 +99,7 @@ Under the **[!UICONTROL Comments]** tab, specify if and how comments for uploade
 
   Default is the entire community site.
 
-* **[!UICONTROL ]Member count aggregation**
+* **[!UICONTROL Member count aggregation]**
 
   When unchecked (turned off), only top-level posts are counted. For example, if the context is the root page (the default), then an `Activity Type`of `Posts`will never show any activity as there is no ability to post content to the root page. When checked, the counts on all descendant pages are included.
 
