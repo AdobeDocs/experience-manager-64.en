@@ -770,15 +770,15 @@ Therefore, CUG groups cannot be rolled back from a blueprint to a Live Copy. Ple
 
 The aim of this section is to provide an overview of the changes made to the CUG feature as well as a comparison between the old and the new implementation. It lists the changes affecting the way CUG support is configured and describes how and by whom CUGs are managed in the repository content.
 
-### Diferences in CUG Setup and Configuration {#diferences-in-cug-setup-and-configuration}
+### Differences in CUG Setup and Configuration {#diferences-in-cug-setup-and-configuration}
 
 The deprecated OSGi component **Adobe Granite Closed User Group (CUG) Support** ( `com.day.cq.auth.impl.cug.CugSupportImpl`) has been replaced by new components in order to be able to separately handle authorization and authentication related parts of the former CUG functionality.
 
-## Diferrences in Managing CUGs in the Repository Content {#diferrences-in-managing-cugs-in-the-repository-content}
+## Differences in Managing CUGs in the Repository Content {#diferrences-in-managing-cugs-in-the-repository-content}
 
 The following sections describe the differences between the old and the new implementations from the implementation and security perspectives. While the new implementation aims to provide the same functionality, there are subtle changes that are important to know when using the new CUG.
 
-### Diferences With Regards To Authorization {#diferences-with-regards-to-authorization}
+### Differences With Regards To Authorization {#diferences-with-regards-to-authorization}
 
 The main diferences from an authorization perspective are summarized in the list below:
 
