@@ -71,44 +71,42 @@ To build a property predicate:
        sling:resourceSuperType="foundation/components/parbase"
        allowedParents="[*/parsys]"
        componentGroup="Search"/>
-   
    ```
 
 1. Add `titlepredicate.jsp`.
 
    ```xml
    <%--
-   
      Sample title predicate component
-   
+
    --%><%@ page import="java.util.Calendar" %><%
    %><%@include file="/libs/foundation/global.jsp"%><%
-   
+
        // A unique id is necessary in case this predicate is inserted multiple times on the same page
        String elemId = "cq-predicate-" +  Long.toString(Calendar.getInstance().getTimeInMillis());
-   
+
    %><div class="predicatebox">
-   
+
        <div class="title">Title</div>
-   
+
        <%-- The wrapper for the form elements. All items will be append to this wrapper. --%>
        <div id="<%= elemId %>" class="content"></div>
-   
+
    </div><script type="text/javascript">
-   
+
        CQ.Ext.onLoad(function() {
-   
+
            var predicateName = "property";
            var propertyName = "jcr:content/metadata/dc:title";
            var elemId = "<%= elemId %>";
-   
+
            // Get the page wide available QueryBuilder.
            var qb = CQ.search.Util.getQueryBuilder();
-   
+
            // createId adds a counter to the predicate name - useful in case this predicate
            // is inserted multiple times on the same page.
            var id = qb.createId(predicateName);
-   
+
            // Hidden field that defines the property to search for; in our case this
            // is the "dc:title" metadata. The name "property" (or "1_property", "2_property" etc.)
            // indicates the server to use the property predicate
@@ -119,7 +117,7 @@ To build a property predicate:
                "name": id,
                "value": propertyName
            });
-   
+
            // The visible text field. The name has to be like the one of the hidden field above
            // plus the ".value" suffix.
            qb.addField({
@@ -127,7 +125,7 @@ To build a property predicate:
                "renderTo": elemId,
                "name": id + ".value"
            });
-   
+
            // Depending on the predicate additional parameters allow to configure the
            // predicate. Here we add an operation parameter to create a "like" query.
            // Again note the name set to the id and a suffix.
@@ -137,11 +135,10 @@ To build a property predicate:
                "name": id + ".operation",
                "value": "like"
            });
-   
+
        });
-   
+
    </script>
-   
    ```
 
 1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node `cq:editConfig` of primary type `cq:EditConfig`. So that you can remove paragraphs, add a multi-value property `cq:actions` with a single value of **DELETE**.
@@ -168,43 +165,42 @@ To build a group predicate:
        sling:resourceSuperType="foundation/components/parbase"
        allowedParents="[*/parsys]"
        componentGroup="Search"/>
-   
    ```
 
 1. Add `titlepredicate.jsp`:
 
    ```xml
    <%--
-   
+
      Sample group predicate component
-   
+
    --%><%@ page import="java.util.Calendar" %><%
    %><%@include file="/libs/foundation/global.jsp"%><%
-   
+
        // A unique id is necessary in case this predicate is inserted multiple times on the same page.
        String elemId = "cq-predicate-" +  Long.toString(Calendar.getInstance().getTimeInMillis());
-   
+
    %><div class="predicatebox">
-   
+
        <div class="title">Image Formats</div>
-   
+
        <%-- The wrapper for the form elements. All items will be append to this wrapper. --%>
        <div id="<%= elemId %>" class="content"></div>
-   
+
    </div><script type="text/javascript">
-   
+
        CQ.Ext.onLoad(function() {
-   
+
            var predicateName = "property";
            var propertyName = "jcr:content/metadata/dc:format";
            var elemId = "<%= elemId %>";
-   
+
            // Get the page wide available QueryBuilder.
            var qb = CQ.search.Util.getQueryBuilder();
-   
+
            // Create a unique group ID; will return e.g. "1_group".
            var groupId = qb.createGroupId();
-   
+
            // Hidden field that defines the property to search for  - in our case "dc:format" -
            // and declares the group of predicates. "property" in the name ("1_group.property")
            // indicates to the server to use the "property predicate"
@@ -215,7 +211,7 @@ To build a group predicate:
                "name": groupId + "." + predicateName, // 1_group.property
                "value": propertyName
            });
-   
+
            // Declare to combine the multiple values using OR.
            qb.add(new CQ.Ext.form.Hidden({
                "name": groupId + ".p.or",  // 1_group.p.or
@@ -228,7 +224,7 @@ To build a group predicate:
                { "label":"PNG",  "value":"image/png" },
                { "label":"GIF",  "value":"image/gif" }
            ];
-   
+
            // Build a checkbox for each option.
            for (var i = 0; i < options.length; i++) {
                qb.addField({
@@ -246,7 +242,7 @@ To build a group predicate:
                    }
                });
            }
-   
+
        });
 
    ```
@@ -261,158 +257,48 @@ The following predicates are available as preconfigured ExtJS widgets.
 
 ### FulltextPredicate {#fulltextpredicate}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Property<br /> </strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>predicateName</td> 
-   <td>String</td> 
-   <td>Name of the predicate. Defaults to 'fulltext'</td> 
-  </tr> 
-  <tr> 
-   <td>searchCallback</td> 
-   <td>Function</td> 
-   <td>Callback for triggering search on event 'keyup'. Default to 'CQ.wcm.SiteAdmin.doSearch'</td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Type | Description |
+|---|---|---|
+| predicateName | String | Name of the predicate. Defaults to `fulltext` |
+| searchCallback | Function | Callback for triggering search on event `keyup`. Defaults to `CQ.wcm.SiteAdmin.doSearch` |
 
 ### PropertyPredicate {#propertypredicate}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Property<br /> </strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>predicateName</td> 
-   <td>String</td> 
-   <td>Name of the predicate. Defaults to 'property'</td> 
-  </tr> 
-  <tr> 
-   <td>propertyName</td> 
-   <td>String </td> 
-   <td>Name of the JCR property. Default to 'jcr:title'</td> 
-  </tr> 
-  <tr> 
-   <td>defaultValue<br /> </td> 
-   <td>String<br /> </td> 
-   <td>Prefilled default value.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Type | Description |
+|---|---|---|
+| predicateName | String | Name of the predicate. Defaults to `property` |
+| propertyName | String | Name of the JCR property. Defaults to `jcr:title` |
+| defaultValue | String | Prefilled default value. |
 
 ### PathPredicate {#pathpredicate}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Property<br /> </strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>predicateName</td> 
-   <td>String</td> 
-   <td>Name of the predicate. Defaults to 'path'</td> 
-  </tr> 
-  <tr> 
-   <td>rootPath</td> 
-   <td>String </td> 
-   <td>Root path of the predicate. Default to '/content/dam'</td> 
-  </tr> 
-  <tr> 
-   <td>pathFieldPredicateName</td> 
-   <td>String</td> 
-   <td>Default to 'folder'</td> 
-  </tr> 
-  <tr> 
-   <td>showFlatOption</td> 
-   <td>Boolean</td> 
-   <td>Flag to show Checkbox 'search in subfolders'. Defaults to true.</td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Type | Description |
+|---|---|---|
+| predicateName | String | Name of the predicate. Defaults to `path` |
+| rootPath | String | Root path of the predicate. Defaults to `/content/dam` |
+| pathFieldPredicateName | String | Defaults to `folder` |
+| showFlatOption | Boolean | Flag to show Checkbox `search in subfolders`. Defaults to true. |
 
 ### DatePredicate {#datepredicate}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Property<br /> </strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>predicateName</td> 
-   <td>String</td> 
-   <td>Name of the predicate. Defaults to 'daterange'</td> 
-  </tr> 
-  <tr> 
-   <td>propertyname</td> 
-   <td>String</td> 
-   <td>Name of the JCR property. Default to 'jcr:content/jcr:lastModified'</td> 
-  </tr> 
-  <tr> 
-   <td>defaultValue </td> 
-   <td>String </td> 
-   <td>Prefilled default value </td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Type | Description |
+|---|---|---|
+| predicateName | String | Name of the predicate. Defaults to `daterange` |
+| propertyname | String | Name of the JCR property. Defaults to `jcr:content/jcr:lastModified` |
+| defaultValue | String | Prefilled default value |
+| showFlatOption | Boolean | Flag to show Checkbox `search in subfolders`. Defaults to true. |
 
 ### OptionsPredicate {#optionspredicate}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Property<br /> </strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>title </td> 
-   <td>String </td> 
-   <td>Adds an additional top title </td> 
-  </tr> 
-  <tr> 
-   <td>predicateName</td> 
-   <td>String</td> 
-   <td>Name of the predicate. Defaults to 'daterange'</td> 
-  </tr> 
-  <tr> 
-   <td>propertyname</td> 
-   <td>String</td> 
-   <td>Name of the JCR property. Default to 'jcr:content/metadata/cq:tags'</td> 
-  </tr> 
-  <tr> 
-   <td>collapse</td> 
-   <td>String</td> 
-   <td>Collapse level. Defaults to 'level1'</td> 
-  </tr> 
-  <tr> 
-   <td>triggerSearch</td> 
-   <td>Boolean </td> 
-   <td>Flag for triggering search on check. Defaults to false</td> 
-  </tr> 
-  <tr> 
-   <td>searchCallback</td> 
-   <td>Function</td> 
-   <td>Callback for triggering search. Defaults to 'CQ.wcm.SiteAdmin.doSearch'</td> 
-  </tr> 
-  <tr> 
-   <td>searchTimeoutTime</td> 
-   <td>Number</td> 
-   <td>Timeout before searchCallback is fired. Defaults to 800ms</td> 
-  </tr> 
- </tbody> 
-</table>
+| Property | Type | Description |
+|---|---|---|
+| title | String | Adds an additional top title |
+| predicateName | String | Name of the predicate. Defaults to `daterange` |
+| propertyname | String | Name of the JCR property. Defaults to `jcr:content/metadata/cq:tags` |
+| collapse | String | Collapse level. Defaults to `level1` |
+| triggerSearch | Boolean | Flag for triggering search on check. Defaults to false |
+| searchCallback | Function | Callback for triggering search. Defaults to `CQ.wcm.SiteAdmin.doSearch` |
+| searchTimeoutTime | Number | Timeout before searchCallback is fired. Defaults to 800ms |
 
 ## Customizing Search Results {#customizing-search-results}
 

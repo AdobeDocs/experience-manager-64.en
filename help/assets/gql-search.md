@@ -51,102 +51,30 @@ The GQL full-text search feature lets you search for assets based on the followi
 >
 >GQL full-text search works for full-text predicates only.
 
-<table> 
- <tbody>
-  <tr>
-   <td>PROPERTY </td> 
-   <td>SEARCH FORMAT (FACET VALUE)</td> 
-  </tr>
-  <tr>
-   <td>Title </td> 
-   <td>title:John</td> 
-  </tr>
-  <tr>
-   <td>Creator </td> 
-   <td>creator:John</td> 
-  </tr>
-  <tr>
-   <td>Contributor </td> 
-   <td>contributor:John</td> 
-  </tr>
-  <tr>
-   <td>Location </td> 
-   <td>location:India</td> 
-  </tr>
-  <tr>
-   <td>Description </td> 
-   <td>description:"Sample Image"</td> 
-  </tr>
-  <tr>
-   <td>Creator tool </td> 
-   <td>creatortool:"Adobe Photoshop 7.0"</td> 
-  </tr>
-  <tr>
-   <td>Copyright Owner </td> 
-   <td>copyrightowner:"Adobe Systems"</td> 
-  </tr>
-  <tr>
-   <td>Contributor </td> 
-   <td>contributor:John</td> 
-  </tr>
-  <tr>
-   <td>Usage Terms </td> 
-   <td>usageterms:"CopyRights Reserved"</td> 
-  </tr>
-  <tr>
-   <td>Created</td> 
-   <td><p>created:YYYY-MM-DDTHH:</p> <p>MM:SS.000+05:30..YYYY-MM-DDTHH:</p> <p>MM:SS.000+05:30</p> </td> 
-  </tr>
-  <tr>
-   <td>Expires Date</td> 
-   <td><p>expires:YYYY-MM-DDTHH:</p> <p>MM:SS.000+05:30..YYYY-MM-DDTHH:</p> <p>MM:SS.000+05:30</p> </td> 
-  </tr>
-  <tr>
-   <td>On time</td> 
-   <td><p>ontime:YYYY-MM-DDTHH:</p> <p>MM:SS.000+05:30..YYYY-MM-DDTHH:</p> <p>MM:SS.000+05:30</p> </td> 
-  </tr>
-  <tr>
-   <td>Off time</td> 
-   <td><p>offtime:YYYY-MM-DDTHH:</p> <p>MM:SS.000+05:30..YYYY-MM-DDTHH:</p> <p>MM:SS.000+05:30</p> </td> 
-  </tr>
-  <tr>
-   <td>Range of time(expires dateontime,offtime)</td> 
-   <td>facet field : lowerbound..upperbound</td> 
-  </tr>
-  <tr>
-   <td>Path</td> 
-   <td>/content/dam/&lt;folder name&gt;</td> 
-  </tr>
-  <tr>
-   <td>PDF Title</td> 
-   <td>pdftitle:"Adobe Document"</td> 
-  </tr>
-  <tr>
-   <td>Subject </td> 
-   <td>subject:"Training"</td> 
-  </tr>
-  <tr>
-   <td>Tags</td> 
-   <td>tags:"Location And Travel"</td> 
-  </tr>
-  <tr>
-   <td>Type</td> 
-   <td>type:"image\png"</td> 
-  </tr>
-  <tr>
-   <td>Width of image</td> 
-   <td>width:lowerbound..upperbound</td> 
-  </tr>
-  <tr>
-   <td>Height of image</td> 
-   <td>height:lowerbound..upperbound</td> 
-  </tr>
-  <tr>
-   <td>Person</td> 
-   <td>person:John</td> 
-  </tr>
- </tbody>
-</table>
+ | Property | Search format (facet value) |
+ |---|---|
+ | Title | title:John |
+ | Creator | creator:John |
+ | Contributor | contributor:John |
+ | Location | location:India |
+ | Description | description:"Sample Image" |
+ | Creator tool | creatortool:"Adobe Photoshop 7.0" |
+ | Copyright Owner | copyrightowner:"Adobe Systems" |
+ | Contributor | contributor:John |
+ | Usage Terms | usageterms:"CopyRights Reserved" |
+ | Created | created:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | Expires Date | expires:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | On time | ontime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | Off time | offtime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | Range of time(expires dateontime,offtime) | facet field: lowerbound..upperbound |
+ | Path | /content/dam/&lt;folder name&gt; |
+ | PDF Title | pdftitle:"Adobe Document" |
+ | Subject | subject:"Training" |
+ | Tags | tags:"Location And Travel" |
+ | Type | type:"image\png" |
+ | Width of image | width:lowerbound..upperbound |
+ | Height of image | height:lowerbound..upperbound |
+ | Person | person:John |
 
 Here are some examples of search formats for complex queries:
 
@@ -206,4 +134,3 @@ You can improve the relevance of keywords for particular assets to help boost se
 
 1. Click/tap **[!UICONTROL Save & Close]**.
 1. Search for the keyword using the Omnisearch box. The asset for which you promoted this keyword appears among the top search results.
-

@@ -176,161 +176,22 @@ The Tag predicate allows you to perform tag-based searches for assets. By defaul
 
 Similar to the way you add a Property predicate or an Options predicate, you can add the following additional predicates to the Search panel:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><p><strong>Predicate Name</strong></p> </td> 
-   <td><p><strong>Description</strong></p> </td> 
-   <td><p><strong>Properties</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Fulltext</p> </td> 
-   <td>Search predicate to perform full text search on an entire asset node. It is mapped with the <code>jcr</code>:<code>contains</code> operator. You can specify a relative path if you want to perform a full text search on a specific part of the asset node.</td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Placeholder</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Path Browser</td> 
-   <td>Search predicate to search for assets in folders and subfolders at a preconfigured root path</td> 
-   <td> 
-    <ul> 
-     <li>Placeholder</li> 
-     <li>Root path</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Path</p> </td> 
-   <td><p>Use it to filter results on location. You can specify different paths as options.</p> </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Path</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Publish Status</p> </td> 
-   <td><p>Search predicate to search assets based on their publish status</p> </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Relative Date</p> </td> 
-   <td><p>Search predicate to search assets based on the relative date of their creation. For example, you can configure options, such as 2 months ago, 3 weeks ago, and so on. </p> </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Property name</li> 
-     <li>Relative date</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Range</p> </td> 
-   <td><p>Search predicate to search assets that lie within a specified range. In the Search panel, you can specify minimum and maximum values for the range.</p> </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Date Range</p> </td> 
-   <td><p>Search predicate to search assets created within a specified range for a date property. In the Search panel, you can specify Start and End dates using date pickers.</p> </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Placeholder</li> 
-     <li>Property name</li> 
-     <li>Range text (From)</li> 
-     <li>Range text (To)</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Date</p> </td> 
-   <td><p>Search predicate for a slider-based search of assets based on a date property.</p> </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td><p>File Size</p> </td> 
-   <td><p>Search predicate to search assets based on their size. It is a silder-based predicate where you select the slider options from a configurable node. The default options are defined at /libs/dam/options/predicates/filesize in the CRX repository. File size is provided in bytes.</p> </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Property name</li> 
-     <li>Path</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Asset Last Modified</td> 
-   <td>Search predicate to search recently modified assets </td> 
-   <td> 
-    <ul> 
-     <li>Property name</li> 
-     <li>Property value</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Publish Status</td> 
-   <td>Search predicate to search for assets based on their publish status </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Rating</td> 
-   <td>Search predicate to search assets based on their average rating </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Property name</li> 
-     <li>Option path</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Expiry Status</td> 
-   <td>Search predicate to search for assets based on their expiration status </td> 
-   <td> 
-    <ul> 
-     <li>Label</li> 
-     <li>Property name</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Hidden</td> 
-   <td>Search predicate that defines a hidden field property to search for assets</td> 
-   <td> 
-    <ul> 
-     <li>Property name</li> 
-     <li>Property value</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+ | Predicate Name | Description | Properties |
+ |---|---|---|
+ | Fulltext | Search predicate to perform full text search on an entire asset node. It is mapped with the jcr:contains operator. You can specify a relative path if you want to perform a full text search on a specific part of the asset node. | <ul><li>Label</li><li>Placeholder</li><li>Property name</li><li>Description</li></ul> |
+ | Path Browser | Search predicate to search for assets in folders and subfolders at a preconfigured root path | <ul><li>Placeholder</li><li>Root path</li><li>Description</li></ul> |
+ | Path | Use it to filter results on location. You can specify different paths as options. | <ul><li>Label</li><li>Path</li><li>Description</li></ul> |
+ | Publish Status | Search predicate to search assets based on their publish status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | Relative Date | Search predicate to search assets based on the relative date of their creation. For example, you can configure options, such as 2 months ago, 3 weeks ago, and so on. | <ul><li>Label</li><li>Property name</li><li>Relative date</li></ul> |
+ | Range | Search predicate to search assets that lie within a specified range. In the Search panel, you can specify minimum and maximum values for the range. | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | Date Range | Search predicate to search assets created within a specified range for a date property. In the Search panel, you can specify Start and End dates using date pickers. | <ul><li>Label</li><li>Placeholder</li><li>Property name</li><li>Range text (From)</li><li>Range text (To)</li><li>Description</li></ul> |
+ | Date | Search predicate for a slider-based search of assets based on a date property. | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | File Size | Search predicate to search assets based on their size. It is a silder-based predicate where you select the slider options from a configurable node. The default options are defined at /libs/dam/options/predicates/filesize in the CRX repository. File size is provided in bytes. | <ul><li>Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
+ | Asset Last Modified | Search predicate to search recently modified assets | <ul><li>Property name</li><li>Property value</li><li>Description</li></ul> |
+ | Publish Status | Search predicate to search for assets based on their publish status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | Rating | Search predicate to search assets based on their average rating | <ul><li>Label</li><li>Property name</li><li>Option path</li><li>Description</li></ul> |
+ | Expiry Status | Search predicate to search for assets based on their expiration status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | Hidden | Search predicate that defines a hidden field property to search for assets | <ul><li>Property name</li><li>Property value</li><li>Description</li></ul> |
 
 ## Restoring default search facets {#restoring-default-search-facets}
 
@@ -352,26 +213,11 @@ To restore the default search facet, perform these steps:
 
 If you are not assigned an administrator role, here is a list of permissions you require to perform edit, delete, and preview actions involving search facets.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Action</strong></td> 
-   <td><strong>Permissions</strong></td> 
-  </tr> 
-  <tr> 
-   <td>Edit </td> 
-   <td>Read and Write permissions on the <code>/apps</code> node in CRX<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>Delete</td> 
-   <td>Read, Write, and Delete permissions on the <code>/apps</code> node in CRX</td> 
-  </tr> 
-  <tr> 
-   <td>Preview</td> 
-   <td>Read, Write, and Delete permissions on the <code>/var/dam/content</code> node in CRX. Also, Read and Write permissions on <code>/apps</code> node.</td> 
-  </tr> 
- </tbody> 
-</table>
+| Action | Permissions |
+|---|---|
+| Edit | Read and Write permissions on the /apps node in CRX |
+| Delete | Read, Write, and Delete permissions on the /apps node in CRX |
+| Preview | Read, Write, and Delete permissions on the /var/dam/content node in CRX. Also, Read and Write permissions on /apps node. |
 
 >[!MORELIKETHIS]
 >

@@ -74,70 +74,17 @@ The following table provides a concise summary of when to use which solution or 
 * **AEM / Creative Cloud folder sharing:** When users don't have direct access to AEM or only require access to a smaller number of files.
 * Alternative solutions (for example, [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share](assets-finder-editor.md) components, [Link Share](link-sharing.md), using [AEM Assets web UI](managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Use case </th> 
-   <th>desktop app</th> 
-   <th>Folder sharing</th> 
-   <th>Other solutions</th> 
-  </tr> 
-  <tr> 
-   <td>Share smaller number [1] of DAM assets with Creative user</td> 
-   <td>✔✔</td> 
-   <td>✔</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Share larger number [2] of DAM assets with Creative user</td> 
-   <td>✔✔</td> 
-   <td>✘</td> 
-   <td><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="/help/assets/assets-finder-editor.md">Asset Share</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Share DAM assets with users who have access to DAM</td> 
-   <td>✔✔</td> 
-   <td>✔</td> 
-   <td><a href="/help/assets/link-sharing.md">Link Share</a></td> 
-  </tr> 
-  <tr> 
-   <td>Share DAM assets with users who don't have access to DAM</td> 
-   <td>✘</td> 
-   <td>✔✔</td> 
-   <td><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="/help/assets/assets-finder-editor.md">Asset Share</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Save smaller number/volume of assets to DAM</td> 
-   <td>✔✔</td> 
-   <td>✔</td> 
-   <td><a href="/help/assets/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></td> 
-  </tr> 
-  <tr> 
-   <td>Save larger number of assets to DAM [3]</td> 
-   <td>✔✔</td> 
-   <td>✘</td> 
-   <td><p><a href="/help/assets/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></p> <p>Custom script / tool </p> </td> 
-  </tr> 
-  <tr> 
-   <td>Migrate huge number of assets to DAM<br /> <br /> </td> 
-   <td>✘<br /> <br /> </td> 
-   <td>✘<br /> <br /> </td> 
-   <td><a href="/help/assets/assets-migration-guide.md">Migration Guide</a></td> 
-  </tr> 
-  <tr> 
-   <td>Quickly open an asset on desktop</td> 
-   <td>✔✔</td> 
-   <td>✘</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Quickly open and change asset on desktop</td> 
-   <td>✔✔</td> 
-   <td>✘</td> 
-   <td> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Use case | Desktop app | Folder sharing | Other solutions |
+|---|---|---|---|
+| Share smaller number [1] of DAM assets with Creative user | ✔✔ | ✔ | |
+| Share larger number [2] of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br /> [Asset Share](assets-finder-editor.md) |
+| Share DAM assets with users who have access to DAM | ✔✔ | ✔ | [Link Share](link-sharing.md) |
+| Share DAM assets with users who don't have access to DAM | ✘ | ✔✔ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br /> [Asset Share](assets-finder-editor.md) |
+| Save smaller number/volume of assets to DAM | ✔✔ | ✔ | [Web UI Upload](managing-assets-touch-ui.md) |
+| Save larger number of assets to DAM [3] | ✔✔ | ✘ | [Web UI Upload](managing-assets-touch-ui.md) <br /> Custom script / tool |
+| Migrate huge number of assets to DAM | ✘ | ✘ | [Migration Guide](assets-migration-guide.md) |
+| Quickly open an asset on desktop | ✔✔ | ✘ | |
+| Quickly open and change asset on desktop | ✔✔ | ✘ | |
 
 The meaning of the symbols:
 
