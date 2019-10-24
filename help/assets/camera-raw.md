@@ -23,30 +23,11 @@ To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
 
 1. Based on the AEM version and the operating system, download the appropriate Camera Raw package and install it:
 
-   <table> 
-    <tbody>
-    <tr>
-    <td><p><strong>Supported Platforms</strong></p> </td> 
-    <td><p><strong>Package Share Link</strong></p> </td> 
-    <td><p><strong>Supported AEM Versions</strong></p> </td> 
-    </tr>
-    <tr>
-    <td><p>Windows 64 Bit, Mac OS, RHEL 7.x</p> </td> 
-    <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-cameraraw-pkg">1.3.16</a></p> </td> 
-    <td><p>6.3, 6.4</p> </td> 
-    </tr>
-    <tr>
-    <td><p>Windows 64 Bit, Mac OS, RHEL 7.x</p> </td> 
-    <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem620/product/assets/aem-assets-cameraraw-pkg">1.2.8</a></p> </td> 
-    <td><p>6.2 </p> </td> 
-    </tr>
-    <tr>
-    <td><p>Windows 64 Bit, Mac OS, RHEL 7.x</p> </td> 
-    <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem610/product/assets/aem-assets-cameraraw-pkg">1.1.22</a></p> </td> 
-    <td><p>6.1</p> </td> 
-    </tr>
-    </tbody>
-   </table>
+ | Supported Platforms | Package Share Link | Supported AEM Versions |
+|---|---|
+| Windows 64 Bit, Mac OS, RHEL 7.x | 1.3.16 | 6.3, 6.4 |
+| Windows 64 Bit, Mac OS, RHEL 7.x | 1.2.8 | 6.2 |
+| Windows 64 Bit, Mac OS, RHEL 7.x | 1.1.22 | 6.1 |
 
 1. Access `https://[AEM server]:[Port]/workflow`. Open the **[!UICONTROL DAM Update Asset]** workflow.
 

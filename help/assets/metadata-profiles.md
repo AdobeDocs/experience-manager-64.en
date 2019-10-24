@@ -45,68 +45,14 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
 1. (Optional) Add more components to the **[!UICONTROL Edit Form]** from the **[!UICONTROL Build Form]** tab, and configure their properties in the **[!UICONTROL Settings]** tab. The following properties are available from the **[!UICONTROL Build Form]** tab:
 
-    <table> 
-    <tbody> 
-      <tr> 
-      <td><strong>Component</strong></td> 
-      <td><strong>Properties</strong></td> 
-      </tr> 
-      <tr> 
-      <td>Section Header</td> 
-      <td> 
-        <ul> 
-        <li>Field Label</li> 
-        <li>Description</li> 
-        </ul> </td> 
-      </tr> 
-      <tr> 
-      <td>Single Line Text</td> 
-      <td> 
-        <ul> 
-        <li>Field Label</li> 
-        <li>Map to property</li> 
-        <li>Default Value</li> 
-        </ul> </td> 
-      </tr> 
-      <tr> 
-      <td>Multi Value Text</td> 
-      <td> 
-        <ul> 
-        <li>Field Label</li> 
-        <li>Map to property</li> 
-        <li>Default Value</li> 
-        </ul> </td> 
-      </tr> 
-      <tr> 
-      <td>Number</td> 
-      <td> 
-        <ul> 
-        <li>Field Label</li> 
-        <li>Map to property</li> 
-        <li>Default Value</li> 
-        </ul> </td> 
-      </tr> 
-      <tr> 
-      <td>Date</td> 
-      <td> 
-        <ul> 
-        <li>Field Label</li> 
-        <li>Map to property</li> 
-        <li>Default Value</li> 
-        </ul> </td> 
-      </tr> 
-      <tr> 
-      <td>Standard Tags</td> 
-      <td> 
-        <ul> 
-        <li>Field Label</li> 
-        <li>Map to property</li> 
-        <li>Default Value</li> 
-        <li>Description</li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+    | Component | Properties |
+    |---|---|
+    | Section Header | Field LabelDescription |
+    | Single Line Text | Field LabelMap to propertyDefault Value |
+    | Multi Value Text | Field LabelMap to propertyDefault Value |
+    | Number | Field LabelMap to propertyDefault Value |
+    | Date | Field LabelMap to propertyDefault Value |
+    | Standard Tags | Field LabelMap to propertyDefault ValueDescription |
 
       ![chlimage_1-484](assets/chlimage_1-484.png)
 

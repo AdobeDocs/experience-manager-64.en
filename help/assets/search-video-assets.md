@@ -19,70 +19,22 @@ If you aren't seeing the file you are looking for, you can change the entire sco
 
 You can search for digital assets based on one or more of the following properties:
 
-<table> 
- <tbody>
-  <tr>
-   <td><strong>Search field</strong></td> 
-   <td><strong>Search property values</strong></td> 
-  </tr>
-  <tr>
-   <td><p>Mime Types</p> </td> 
-   <td>Images, Documents, Multimedia, Archives, or Other.</td> 
-  </tr>
-  <tr>
-   <td>Last Modified</td> 
-   <td>Hour, Day, Week, Month, or Year.</td> 
-  </tr>
-  <tr>
-   <td>File Size</td> 
-   <td>Small, Medium, or Large.</td> 
-  </tr>
-  <tr>
-   <td>Publish Status</td> 
-   <td>Published or Unpublished.</td> 
-  </tr>
-  <tr>
-   <td>Approved Status</td> 
-   <td>Approved or Rejected.</td> 
-  </tr>
-  <tr>
-   <td>Orientation</td> 
-   <td>Horizontal, Vertical, or Square.</td> 
-  </tr>
-  <tr>
-   <td>Style</td> 
-   <td>Color, or Black &amp; White.</td> 
-  </tr>
-  <tr>
-   <td>Video Height</td> 
-   <td><p>Specified as a minimum and maximum value.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
-  </tr>
-  <tr>
-   <td>Video Width</td> 
-   <td><p>Specified as a minimum and maximum value.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
-  </tr>
-  <tr>
-   <td>Video Format</td> 
-   <td><p>DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media.</p> <p>Value is stored in the metadata of the source video and any renditions.</p> </td> 
-  </tr>
-  <tr>
-   <td>Video Codec</td> 
-   <td><p>x264.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
-  </tr>
-  <tr>
-   <td>Video Bitrate</td> 
-   <td><p>Specified as a minimum and maximum value.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
-  </tr>
-  <tr>
-   <td>Audio Codec</td> 
-   <td><p>Libvorbis, Lame Mp3, AAC Encoding.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
-  </tr>
-  <tr>
-   <td>Audio Bitrate</td> 
-   <td><p>Specified as a minimum and maximum value.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
-  </tr>
- </tbody>
-</table>
+| Search field | Search property values |
+|---|---|
+| Mime Types | Images, Documents, Multimedia, Archives, or Other. |
+| Last Modified | Hour, Day, Week, Month, or Year. |
+| File Size | Small, Medium, or Large. |
+| Publish Status | Published or Unpublished. |
+| Approved Status | Approved or Rejected. |
+| Orientation | Horizontal, Vertical, or Square. |
+| Style | Color, or Black & White. |
+| Video Height | Specified as a minimum and maximum value.Value is stored in the metadata of video renditions only. |
+| Video Width | Specified as a minimum and maximum value.Value is stored in the metadata of video renditions only. |
+| Video Format | DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media.Value is stored in the metadata of the source video and any renditions. |
+| Video Codec | x264.Value is stored in the metadata of video renditions only. |
+| Video Bitrate | Specified as a minimum and maximum value.Value is stored in the metadata of video renditions only. |
+| Audio Codec | Libvorbis, Lame Mp3, AAC Encoding.Value is stored in the metadata of video renditions only. |
+| Audio Bitrate | Specified as a minimum and maximum value.Value is stored in the metadata of video renditions only. |
 
 1. On the **[!UICONTROL Experience Manager]** page, in the left rail, tap **[!UICONTROL Assets]**.
 
@@ -107,4 +59,3 @@ You can search for digital assets based on one or more of the following properti
       Enter a keyword but instead of pressing Enter, expand a video or audio property list, and then set the values you want.
 
 1. (Optional) Near the bottom of the page, tap **[!UICONTROL Save Smart Collection]**, enter a name for the search. Check **[!UICONTROL Public]** if you want the saved search made available to other users of the Adobe Experience Manager account. Uncheck if you want the search made available only to you when you are signed in to the account. Tap **[!UICONTROL Save]**.
-

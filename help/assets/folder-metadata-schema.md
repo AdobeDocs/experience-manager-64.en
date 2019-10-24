@@ -59,46 +59,16 @@ You can map/configure these form items to a field within a metadata node in the 
 
 The **[!UICONTROL Build Form]** tab lists form items that you use in your folder metadata schema form. The **[!UICONTROL Settings]** tab displays the attributes for each item that you select in the **[!UICONTROL Build Form]** tab. Here is a list the form items available in the **[!UICONTROL Build Form]** tab:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><p><strong>Component Name</strong></p> </td> 
-   <td><p><strong>Description</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Section Header</p> </td> 
-   <td><p> Add a section heading for a list of common components.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Single Line Text</p> </td> 
-   <td><p> Add a single-line text property. It is stored as a string.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Multi Value Text</p> </td> 
-   <td><p> Add a multi value text property. It is stored as a string array.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Number</p> </td> 
-   <td><p> Add a number component.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Date</p> </td> 
-   <td><p> Add a date component.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Dropdown</p> </td> 
-   <td><p> Add a drop-down list.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Standard Tags</p> </td> 
-   <td><p> Add a tag. </p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>Hidden Field</p> </td> 
-   <td><p> Add a hidden field. It is sent as a POST parameter when the asset is saved.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Component Name | Description |
+|---|---|
+| Section Header | Add a section heading for a list of common components. |
+| Single Line Text | Add a single-line text property. It is stored as a string. |
+| Multi Value Text | Add a multi value text property. It is stored as a string array. |
+| Number | Add a number component. |
+| Date | Add a date component. |
+| Dropdown | Add a drop-down list. |
+| Standard Tags | Add a tag. |
+| Hidden Field | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
 
 ### Editing form items {#editing-form-items}
 
@@ -173,4 +143,3 @@ Open the properties for a folder configured with a folder metadata schema. A **[
 Enter metadata values in the various fields and tap/click **[!UICONTROL Save]**to store the values. The values you specify are stored in the folder node in the CRX repository.
 
 ![folder_metadata_properties-1](assets/folder_metadata_properties-1.png)
-

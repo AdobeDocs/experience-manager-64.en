@@ -71,8 +71,8 @@ All out-of-the-box Viewer Presets that come with Dynamic Media are fully compati
 
 Administrators can add and customize the following rich media types when creating new viewer presets.
 
-| Rich media types | |
-|:---|---|
+| Rich media types | Description |
+|:---|:---|
 | **Carousel Set** | Hotspots, or image maps, or both are added to a series of two or more images. A customer can pan the images left or right and then click a hotspot on an image for additional details or for purchasing directly from a website's category, home, or landing pages. |
 | **Flyout Zoom** | Displays a second image of the zoomed area next to the original image. There are no controls to use - users move the selection over the area they want to view. |
 | | When determining the complete bandwidth usage for this viewer, consider that both the main image and the flyout image are served in the viewer. The main image size (Stage Width and Height) and the Zoom Factor determine the flyout image size. To keep the flyout file size from becoming too large, balance these two values: if you have a large main image size, lower the Zoom Factor value. (The Flyout Width and Flyout Height determine the size of the flyout window, but not the size of the flyout image that is served into the viewer.) |

@@ -100,70 +100,22 @@ You can add new tabs or form items to the metadata schema form. The tabs and for
 
 The **[!UICONTROL Build Form]** tab lists form items that you use in your schema form. The **[!UICONTROL Settings]** tab provides the attributes of each item that you select in the **[!UICONTROL Build Form]** tab. The following table lists the form items available in the **[!UICONTROL Build Form]** tab:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Component Name</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>Section Header</td> 
-   <td>Add a section heading for a list of common components.</td> 
-  </tr> 
-  <tr> 
-   <td>Single Line Text</td> 
-   <td>Add a single line text property. It is stored as a string.</td> 
-  </tr> 
-  <tr> 
-   <td>Multi Value Text</td> 
-   <td>Add a multi value text property. It is stored as a string array.</td> 
-  </tr> 
-  <tr> 
-   <td>Number</td> 
-   <td>Add a number component.</td> 
-  </tr> 
-  <tr> 
-   <td>Date</td> 
-   <td>Add a date component.</td> 
-  </tr> 
-  <tr> 
-   <td>Dropdown</td> 
-   <td>Add a dropdown list.</td> 
-  </tr> 
-  <tr> 
-   <td>Standard Tags</td> 
-   <td>Add a tag. </td> 
-  </tr> 
-  <tr> 
-   <td>Smart Tags</td> 
-   <td>Add to augment search capabilities by automatically adding metadata tags.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>Hidden Field</td> 
-   <td>Add a hidden field. It is sent as a POST parameter when the asset is saved.</td> 
-  </tr> 
-  <tr> 
-   <td>Asset Referenced By</td> 
-   <td>Add this component to view list of assets referenced by the asset.</td> 
-  </tr> 
-  <tr> 
-   <td>Asset Referencing</td> 
-   <td>Add to display a list of assets that reference the asset.</td> 
-  </tr> 
-  <tr> 
-   <td>Products References</td> 
-   <td>Add to show the list of products linked with the asset.</td> 
-  </tr> 
-  <tr> 
-   <td>Asset Rating</td> 
-   <td>Add to display options for rating the asset.</td> 
-  </tr> 
-  <tr> 
-   <td>Contextual Metadata</td> 
-   <td>Add to control the display of other metadata tabs in the properties page of assets.</td> 
-  </tr> 
- </tbody> 
-</table>
+| Component Name | Description |
+|---|---|
+| Section Header | Add a section heading for a list of common components. |
+| Single Line Text | Add a single line text property. It is stored as a string. |
+| Multi Value Text | Add a multi value text property. It is stored as a string array. |
+| Number | Add a number component. |
+| Date | Add a date component. |
+| Dropdown | Add a dropdown list. |
+| Standard Tags | Add a tag. |
+| Smart Tags | Add to augment search capabilities by automatically adding metadata tags. |
+| Hidden Field | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
+| Asset Referenced By | Add this component to view list of assets referenced by the asset. |
+| Asset Referencing | Add to display a list of assets that reference the asset. |
+| Products References | Add to show the list of products linked with the asset. |
+| Asset Rating | Add to display options for rating the asset. |
+| Contextual Metadata | Add to control the display of other metadata tabs in the properties page of assets. |
 
 ### Editing the metadata component {#editing-the-metadata-component}
 
@@ -263,26 +215,26 @@ You can use an existing template for a different MIME type. For example, use the
 
 In this case, create a new node at */etc/dam/metadataeditor/mimetypemappings* in the CRX repository. Specify a name for the node and define the following properties:
 
-| **Name** |**Description** |**Type** |**Value** |
+| Name | Description | Type | Value |
 |---|---|---|---|
-| exposedmimetype |Name of the existing form to be mapped  |String |image/jpeg |
-| mimetypes |List of MIME types that use the form defined in the `exposedmimetype` attribute |String[] |image/png |
+| exposedmimetype | Name of the existing form to be mapped | String | image/jpeg |
+| mimetypes | List of MIME types that use the form defined in the `exposedmimetype` attribute |String[] | image/png |
 
 AEM Assets maps the following MIME types and schema forms:
 
-| **Schema Form** |**MIME type(s)** |
+| Schema Form | MIME type(s) |
 |---|---|
-| image/jpeg |image/pjpeg |
-| image/tiff |image/x-tiff |
-| application/pdf |application/postscript |
-| application/x-ImageSet |Multipart/Related; type=application/x-ImageSet |
-| application/x-SpinSet |Multipart/Related; type=application/x-SpinSet |
-| application/x-MixedMediaSet |Multipart/Related; type=application/x-MixedMediaSet |
-| video/quicktime |video/x-quicktime |
-| video/mpeg4 |video/mp4 |
-| video/avi |video/avi, video/msvideo, video/x-msvideo |
-| video/wmv |video/x-ms-wmv |
-| video/flv |video/x-flv |
+| image/jpeg | image/pjpeg |
+| image/tiff | image/x-tiff |
+| application/pdf | application/postscript |
+| application/x-ImageSet | Multipart/Related; type=application/x-ImageSet |
+| application/x-SpinSet | Multipart/Related; type=application/x-SpinSet |
+| application/x-MixedMediaSet | Multipart/Related; type=application/x-MixedMediaSet |
+| video/quicktime | video/x-quicktime |
+| video/mpeg4 | video/mp4 |
+| video/avi | video/avi, video/msvideo, video/x-msvideo |
+| video/wmv | video/x-ms-wmv |
+| video/flv | video/x-flv |
 
 ## Granting access to metadata schemas {#granting-access-to-metadata-schemas}
 
