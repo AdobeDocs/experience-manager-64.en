@@ -4,7 +4,7 @@ seo-title: SPA and Server-Side Rendering
 description: null
 seo-description: null
 uuid: fbf7d0d1-865d-45d2-aeec-a7e3caf3fcb2
-contentOwner: David Hasselhof
+contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference

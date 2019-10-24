@@ -296,6 +296,12 @@ In such cases, AEM desktop app provides the easiest way of performing these oper
 
 Here is the flow of events depicted in the diagram:
 
+<!-- TBD for formatting. 
+This article will get fixed automatically when 6.5 content is ported to it.
+And 6.5 content will be ported after updating it for Desktop App 2.0 best practices.
+And it will be updated for DA2.0 best practices after 6.5 repo is available for writers to edit content in.
+-->
+
 * **1:** Share the asset from DAM to desktop, or open it directly on  desktop  in the application of choice (for example, Adobe Photoshop, and so on). Check out is recommended to lock the file.
 * **2:** Minor update: Edit the file and save the changes.
 * Alternative flow to Step 2
