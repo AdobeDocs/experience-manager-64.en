@@ -30,7 +30,6 @@ Follow the steps below to set up a project
 
 1. Create an AEM Screens Project named as **ZonesDemo**, as shown below.
 
-
    >[!NOTE]
    >
    >To learn more about creating and managing projects in AEM Screens, refer to Creating a Project.

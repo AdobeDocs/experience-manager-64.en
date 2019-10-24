@@ -59,7 +59,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
 + Use Case Examples {#use-case-examples}
     + [Emergency Channels](emergency-channel.md)
     + [Data Triggered Asset Change](data-triggered-asset-change.md)
-    +[Single Zone to Multi Zone Takeover](single-to-multizone-takeover.md)
+    + [Single Zone to Multi Zone Takeover](single-to-multizone-takeover.md)
 + Troubleshooting {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
