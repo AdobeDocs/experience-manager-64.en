@@ -131,7 +131,7 @@ Under the **[!UICONTROL User Moderation]** tab, specify how the posted ideas and
 Under the **[!UICONTROL Tag field]** tab, the tags which may be applied, if allowed under the **[!UICONTROL Settings]** tab, are limited according to namespaces chosen.
 
 * **[!UICONTROL Allowed Namespaces]** 
-  Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
+  Relevant if `Allow Tagging` is checked under the **Settings** tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
 
 * **[!UICONTROL Suggestion Limit]** 
   Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of **-** 1 means no limit. Default is 0.

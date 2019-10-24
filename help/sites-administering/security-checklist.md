@@ -323,6 +323,14 @@ In order to mitigate this, please follow the below steps:
 
 1. Click **Save**.
 
+**Mitigate Against DoS Caused by Asset Download Servlet**
+
+The default Asset Download Servlet in AEM allows authenticated users to issue arbitrarily-large, concurrent download requests for creating ZIP files of assets visible to them that can overload the server and/or network.
+
+To mitigate potential DoS risks caused by this feature, `AssetDownloadServlet` OSGi component is disabled by default for publish instances on latest AEM versions.
+
+If your setup requires that the Asset Download Server be enabled, please see [this article](/help/assets/download-assets-from-aem.md#disable-asset-download-servlet) for more information.
+
 ### Disable WebDAV {#disable-webdav}
 
 WebDAV should be disabled on both the author and publish environments. This can be done by stopping the appropriate OSGi bundles.

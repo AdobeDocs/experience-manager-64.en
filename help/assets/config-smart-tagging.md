@@ -4,15 +4,12 @@ seo-title: Configure Asset tagging using the Smart Content Service
 description: Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
 seo-description: How to configure the Smart Tags Content Service from within AEM.
 uuid: f4a7e2cf-190b-47e0-9e78-bcac9f1cf6ef
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: managing-assets
-content-type: reference
 discoiquuid: 957fef58-b1d4-4312-87d1-92f32a79161b
-legacypath: /content/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/configuring-smart-content-services-integration
 ---
 
-# Configure Asset tagging using the Smart Content Service {#configure-asset-tagging-using-the-smart-content-service}
+# Configure asset tagging using the Smart Content Service {#configure-asset-tagging-using-the-smart-content-service}
 
 Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
 
@@ -32,25 +29,29 @@ Before you can use the Smart Content Service, ensure the following to create an 
 * An Adobe ID account that has administrator privileges for the organization.
 * The Smart Content Service service is enabled for your organization.
 
-To enable Enhanced Smart Tags, in addition to the above, also install [AEM 6.4 latest service pack](https://helpx.adobe.com/experience-manager/aem-releases-updates.html#main-pars_step_with_card_1987226281).
+To enable Enhanced Smart Tags, in addition to the above, also install the latest [AEM service pack](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
 
 ## Obtain public certificate {#obtain-public-certificate}
 
 A public certificate allows you to authenticate your profile on Adobe I/O.
 
-1. From the AEM user interface, tap the AEM logo, and go to **[!UICONTROL Tools > Cloud Services]**> **[!UICONTROL Legacy Cloud Services]**.  
+1. From the AEM user interface, tap the AEM logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Legacy Cloud Services]**.  
 
 1. In the Cloud Services page, tap/click **[!UICONTROL Configure Now]** under **[!UICONTROL Assets Smart Tags]**.
 1. In the **[!UICONTROL Create Configuration]** dialog, specify a title and name for the Smart Tags configuration. Tap/click **[!UICONTROL Create]**.
 1. In the **[!UICONTROL AEM Smart Content Service]** dialog, use the following values:
 
-   **[!UICONTROL Service URL]**: *https://mc.adobe.io/marketingcloud/smartcontent*
+   **[!UICONTROL Service URL]**: `https://mc.adobe.io/marketingcloud/smartcontent`
 
-   **[!UICONTROL Authorization Server]**: *https://ims-na1.adobelogin.com*
+   **[!UICONTROL Authorization Server]**: `https://ims-na1.adobelogin.com`
 
    Leave the other fields blank for now (to be provided later). Tap/click **[!UICONTROL OK]**.
 
    ![AEM Smart Content Service dialog to provide content service URL](assets/aem_scs.png)
+
+   >[!NOTE]
+   >
+   >The URL provided as [!UICONTROL Service URL] is not accessible via browser and generates a 404 error. The configuration works OK with the same value of the [!UICONTROL Service URL] parameter. For overall Adobe I/O service status and maintenance schedule, see [https://status.adobe.com](https://status.adobe.com).
 
 1. Tap/click **[!UICONTROL Download Public Certificate for OAuth Integration]**, and download the public certificate file `AEM-SmartTags.crt`.
 
@@ -89,15 +90,13 @@ To configure the integration, use the values of Technical Account ID, Organizati
 
 After you've completed the configuration, you can use a JMX MBean to validate the configuration. To validate, follow these steps.
 
-1. Access your AEM server at https://&lt;*servername*&gt;:&lt;*port&gt;*.  
-
-1. Go to **[!UICONTROL Tools > Operations > Web Console]** to open the OSGi console. Click **[!UICONTROL Main > JMX]**.
-1. Click **[!UICONTROL com.day.cq.dam.similaritysearch.internal.impl]**. It opens **[!UICONTROL SimilaritySearch Miscellaneous Tasks.]** 
+1. In AEM, to open OSGi console, click **[!UICONTROL Tools > Operations > Web Console]**. Click **[!UICONTROL Main > JMX]**.
+1. Click **[!UICONTROL com.day.cq.dam.similaritysearch.internal.impl]**. It opens **[!UICONTROL SimilaritySearch Miscellaneous Tasks.]**
 1. Click **[!UICONTROL validateConfigs()]**. In the **[!UICONTROL Validate Configurations]** dialog, click **[!UICONTROL Invoke]**.
 
    The validation result is displayed in the same dialog.
 
-## Enable smart tagging in the Update Asset workflow (Optional) {#enable-smart-tagging-in-the-update-asset-workflow-optional}
+## Enable smart tagging in the DAM Update Asset workflow (Optional) {#enable-smart-tagging-in-the-update-asset-workflow-optional}
 
 1. From the AEM user interface, tap/click the AEM logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
 1. On **[!UICONTROL Workflow Models]** page, select the **[!UICONTROL DAM Update Asset]** workflow model.
@@ -122,7 +121,7 @@ After you've completed the configuration, you can use a JMX MBean to validate th
 
 >[!MORE_LIKE_THIS]
 >
->* [Understanding Smart Tags in AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-understand.html)
->* [Using Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-use.html)
->* [Using Enhanced Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/enhanced-smart-tags-feature-video-use.html)
->* [Setup Enhanced Smart Tags in AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/enhanced-smart-tags-technical-video-setup.html)
+>[Understand Smart Tags in AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-understand.html)
+>[Using Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-use.html)
+>[Using Enhanced Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/enhanced-smart-tags-feature-video-use.html)
+>[Setup Enhanced Smart Tags in AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/enhanced-smart-tags-technical-video-setup.html)

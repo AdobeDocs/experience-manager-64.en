@@ -36,6 +36,9 @@ The metadata import is asynchronous and does not impede the system performance. 
 
 1. Tap/click **[!UICONTROL Import]** from the toolbar. After the metadata is imported, a notification is sent to your Notification inbox. Navigate to asset property page and verify whether the metadata values are correctly imported for assets.
 
+<!-- TBD: Format characters in the table using backticks and add UICONTROL after table is converted to MD
+-->
+
 ## Export Metadata {#export-metadata}
 
 You can export metada for multiple assets in a CSV format. The metadata is exported asynchronously and does not impact the performance of the system. To export metadata, AEM traverses through the properties of the asset node `jcr:content/metadata` and its child nodes and exports the metadata properties in a CSV file.

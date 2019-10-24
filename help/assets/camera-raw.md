@@ -1,25 +1,19 @@
 ---
-title: Camera Raw Support
-seo-title: Camera Raw Support
+title: Camera Raw support
+seo-title: Camera Raw support
 description: Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets.
 seo-description: Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets.
 uuid: 9b2db870-0f58-4340-b1f6-e0a2d8983e55
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: fb4a0018-2572-439e-b066-4a631eac55eb
 ---
 
-# Camera Raw Support {#camera-raw-support}
+# Camera Raw support {#camera-raw-support}
 
-The Camera Raw package enables support for various raw file formats, such as .cr2, .nef, .raf, and so on. The Camera Raw functionality is supported in AEM to render your assets in JPEG format. The supported pacakge is available at [https://blogs.adobe.com/lightroomjournal/2017/03/acr-9-9-now-available.html](https://blogs.adobe.com/lightroomjournal/2017/03/acr-9-9-now-available.html).
+The Camera Raw package enables support for various raw file formats, such as .CR2, .NEF, .RAF, and so on. The Camera Raw functionality is supported in Adobe Experience Manager (AEM) Assets to render your assets in JPEG format. The supported pacakge is available at [https://blogs.adobe.com/lightroomjournal/2017/03/acr-9-9-now-available.html](https://blogs.adobe.com/lightroomjournal/2017/03/acr-9-9-now-available.html).
 
->[!NOTE]
->
->The functionality supports only JPEG renditions.
-
-To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
+To enable Camera Raw support in Assets, follow these steps:
 
 1. Based on the AEM version and the operating system, download the appropriate Camera Raw package and install it:
 
@@ -62,13 +56,7 @@ To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
 
 1. Click **[!UICONTROL Save]**.
 
-   You can now import camera raw files into AEM Assets.
-
-   >[!NOTE]
-   >
-   >Linux, Windows, and Mac (with 64-bit JVM) support the Camera Raw package.
-
-   After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]** option appears in the list of panes.
+   You can now import camera raw files into AEM Assets. After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]** option appears in the list of panes.
 
    ![chlimage_1-337](assets/chlimage_1-337.png)
 
@@ -78,7 +66,10 @@ To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
 
 After saving the edits to a Camera Raw image, a new rendition `AdjustedPreview.jpg` is generated for the image. For other image types except Camera Raw, the changes are reflected in all the renditions.
 
->[!NOTE]
->
->The Camera Raw library has limitations around the total pixels it can process at a time. Currently, it can process a maximum of 1073741824 (1024 x 1024 x 1024) pixels.
+## Best practices, known issues, and limitations {#best-practices}
 
+The functionality has the following limitations:
+
+* The functionality supports only JPEG renditions. It is supported on Windows 64 Bit, Mac OS, and RHEL 7.x.
+* Metadata writeback is not supported for RAW and DNG formats.
+* The Camera Raw library has limitations around the total pixels it can process at a time. Currently, it can process a maximum of 1073741824 (1024 x 1024 x 1024) pixels.

@@ -26,7 +26,7 @@ This type of integration can be used in both the use cases, especially when work
 
 ## Overview {#overview}
 
-AEM to Creative Cloud folder sharing relies on the server-side sharing of folders and files between AEM Assets and Creative Cloud accounts. Creative professionals, who use the Creative Cloud Desktop app on their desktops, can additionally make the shared folders available directly on their disks using Adobe CreativeSync technology.
+AEM to Creative Cloud folder sharing relies on the server-side sharing of folders and files between AEM Assets and Creative Cloud accounts. Creative professionals, who use the Creative Cloud desktop application on their desktops, can additionally make the shared folders available directly on their disks using Adobe CreativeSync technology.
 
 The following diagram provides an overview of the integration.
 
@@ -37,7 +37,7 @@ The integration includes the following elements:
 * **AEM Assets server** deployed in the enterprise network (managed services or on-premise): Folder sharing is initiated here.
 * **Adobe Marketing Cloud Assets core service**: Acts as an intermediary between AEM and Creative Cloud storage services. Admin of the company using the integration needs to established trust relationship between the Marketing Cloud organization and the AEM Assets instance. They also [define a list of approved Creative Cloud collaborators](https://marketing.adobe.com/resources/help/en_US/mcloud/t_admin_add_cc_user.html), that AEM Assets users can share folders too for additional security.
 * **Creative Cloud Assets web services** (storage and Creative Cloud Files web UI): This is where specific Creative Cloud users, with whom an AEM Assets folder was shared, would be able to accept the invitation and see the folder in their Creative Cloud account storage.
-* **Creative Cloud Desktop App**: (Optional) Allows for direct access to shared folder/files from creative user’s desktop via sync with Creative Cloud Assets storage.
+* **Creative Cloud desktop application**: (Optional) Allows for direct access to shared folder/files from creative user’s desktop via sync with Creative Cloud Assets storage.
 
 ## Characteristics and limitations {#characteristics-and-limitations}
 

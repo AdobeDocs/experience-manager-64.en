@@ -22,7 +22,7 @@ Document security also provides clients, viewers, and indexers to protect docume
 
 ## Deployment Topology  {#deployment-topology}
 
-The document security capability is available only in AEM Forms on JEE. You require a single instance of AEM Forms on JEE. You can also create a cluster or farm of AEM Forms servers, if necessary. The following topology is indicative topology to run the document security capability. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/aem-forms-architecture-deployment.html).
+The document security capability is available only in AEM Forms on JEE. You require a single instance of AEM Forms on JEE. You can also create a cluster or farm of AEM Forms servers, if necessary. The following topology is indicative topology to run the document security capability. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](aem-forms-architecture-deployment.md).
 
 <!--fix above link-->
 

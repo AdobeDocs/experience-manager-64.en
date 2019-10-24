@@ -140,6 +140,6 @@ You can assign a folder metadata schema when creating a folder. If at least one 
 
 Open the properties for a folder configured with a folder metadata schema. A **[!UICONTROL Folder Metadata]** tab is displayed in the folder properties page. To view the folder metadata schema form, select this tab.
 
-Enter metadata values in the various fields and tap/click **[!UICONTROL Save]**to store the values. The values you specify are stored in the folder node in the CRX repository.
+Enter metadata values in the various fields and tap/click **[!UICONTROL Save]** to store the values. The values you specify are stored in the folder node in the CRX repository.
 
 ![folder_metadata_properties-1](assets/folder_metadata_properties-1.png)

@@ -6,8 +6,6 @@ seo-description: Describes how to bring assets into AEM, apply metadata, generat
 uuid: 27190047-f5b5-4bfb-bf44-4df6e656247c
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: cb6ece20-f015-4e14-bc58-a9d88ab038b1
 ---
 
@@ -132,7 +130,7 @@ In this case, your assets are already populated with metadata and renditions are
 
    There are two tools that are recommended for moving assets from one AEM instance to another:
 
-    * **Vault Remote Copy**, or vlt rcp, allows you to use vlt across a network. You can specify a source and destination directory and vlt downloads all repository data from one instance and loads it into the other. Vlt rcp is documented at [https://jackrabbit.apache.org/filevault/rcp.html](https://jackrabbit.apache.org/filevault/rcp.html)
+    * **Vault Remote Copy**, or `vlt rcp`, allows you to use vlt across a network. You can specify a source and destination directory and vlt downloads all repository data from one instance and loads it into the other. Vlt rcp is documented at [https://jackrabbit.apache.org/filevault/rcp.html](https://jackrabbit.apache.org/filevault/rcp.html)
     * **Grabbit** is an open-source content synchronization tool that was developed by Time Warner Cable for their AEM implementation. Because it uses continuous data streams, in comparison to vlt rcp, it has a lower latency and claims a speed improvement of two to ten times faster than vlt rcp. Grabbit also supports synchronization of delta content only, which allows it to sync changes after an initial migration pass has been completed.
 
 1. Activate assets.

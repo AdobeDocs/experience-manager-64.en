@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 558a7c2f-b32e-428e-89f6-123d72ca1108
 ---
 
-# AEM Screens FAQs{#aem-screens-faqs}
+# AEM Screens FAQs {#aem-screens-faqs}
 
 The following section provides answers to few of the commonly asked FAQs related to an AEM Screens project.
 
@@ -56,6 +56,12 @@ The registration request is a POST request.
 
 It is recommended to obtain the device ID from the session rather than passed as parameter. This would clean up the server logs, browser cache, and so on. It is currently not a security issue. Please note that semantically GET is used when there is no state change on the server and POST is used when there is a state change.
 
+### Is there a way to decline a device registration request?
+
+You cannot decline the registration requests. Instead the registration requests should expire after a timeout that is configured in Adobe Experience Manager Web Console. 
+
+By default, this value is set to one day and is stored in a memory cache.
+
 ## Device Monitoring and Health Reports {#device-monitoring-and-health-reports}
 
 ### How do I troubleshoot, if my AEM Screens player shows blank screen? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
@@ -90,6 +96,10 @@ Depending on what you desire out of the monitoring and alerts, a new feature AEM
 
 For more information on where you can monitor device activity, please refer to [**AEM Screens Notifications Service**](screens-notifications-service.md).
 
+### Using the publish device topology with Smart Sync, are the devices still connected directly to the author instance for snapshots and heart beat functions?
+
+No, the devices are not directly connected to author. They report to the publish instances and the author will poll the publish instances for updates.
+
 ## AEM Screens Player {#aem-screens-player}
 
 ### How to Install ChromeOS player as Chrome Browser Plugin? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
@@ -109,6 +119,20 @@ ChromeOS player can be installed as Chrome Browser plugin in developer mode with
 
 When AEM Screens player starts, it makes a request to ***/content/screens/svc.ping.json***, when the player gets a 404 error. The player initiates an authentication request to authenticate against the publish instance. If there is a custom error handler in publish instance, please make sure that you return the 404 status code for anonymous user on ***/content/screens/svc.ping.json***.
 
+### How to set the device screen stay on in an Android Player?
+
+Follow the steps below to turn on Stay Awake in on any Android player:
+
+   1. Navigate to Android player settings -> **About**
+   1. Tap 7 times on the build number to enable Developer Options in Settings
+   1. Navigate to **Developer Options**
+   1. Enable **Stay Awake**
+
+### If an update is sent from AEM and the player is offline, is there a retry mechanism that checks to see if the device is back online to deliver the updated content? Also, how long does it try for?
+
+The next ping from the device coming in will see a last modification time that is newer than what it has and will download this fresh content. 
+It will try forever until a ping succeeds.
+
 ### Using Assets {#using-assets}
 
 ### How to use videos in an AEM Screens channel larger than 2GB? {#how-to-use-videos-in-an-aem-screens-channel-larger-than-gb}
@@ -116,3 +140,21 @@ When AEM Screens player starts, it makes a request to ***/content/screens/svc.pi
 By default, the AEM Assets Touch UI does not let you upload any assets that are larger than 2 GB because of a file size limit in an AEM Screens channel. However, you can overwrite this limit by going into CRXDE Lite and creating a node under the /apps directory.
 
 To learn in detail on how to configure a higher file size limit (for example, 30GB ) in the */apps* directory, please refer to *Configuration to upload video assets that are larger than 2 GB* in [Managing Video Assets](/help/assets/managing-video-assets.md).
+
+### General Troubleshooting Tips {#general-troubleshooting}
+
+### How to Disable Livefyre to avoid A/P Screens Error?
+
+In order to disable Livefyre to avoid log errors : 
+
+**Disabling Livefyre bundle:**
+
+   1. Navigate to `http://<host>:<port>/system/console/bundles`
+   1. Search for the AEM Livefyre bundle:  *com.adobe.cq.social.cq-social-livefyre*
+   1. Click **Stop**.
+
+**Disabling Livefyre poller:**
+
+   1. In CRXDE Lite, navigate to */etc/importers/polling/livefyre-poller/jcr:content*
+   1. Add a new property enabled type Boolean
+   1. Set **enabled property** to **false**

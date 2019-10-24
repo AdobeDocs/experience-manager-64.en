@@ -4,10 +4,8 @@ seo-title: Activity stream in timeline
 description: This article describes how to display activity logs for assets on the timeline. 
 seo-description: Display activity logs for assets on the timeline.
 uuid: bf6dc1cc-afcb-4ec6-825d-f37a23fcfcdf
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
 discoiquuid: df8458a9-cd85-4170-b292-b4176cbe617f
 ---
 
@@ -28,7 +26,7 @@ The following operations are logged in the activity stream:
 
 The activity logs to be displayed in the timeline are fetched from the location `/var/audit/com.day.cq.dam/content/dam` in CRX, where log files are stored.  
 
-In addition, timeline activity is logged when new assets are uploaded or existing asses are modified and checked into AEM via [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/manage-assets-using-adobe-asset-link.html) or AEM desktop app.
+In addition, timeline activity is logged when new assets are uploaded or existing asses are modified and checked into AEM via [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/manage-assets-using-adobe-asset-link.html) or [AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html).
 
 >[!NOTE]
 >

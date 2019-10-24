@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
-product: adobe experience manager screens 6.4
-archtype: end-user
+product: Adobe Experience Manager
+audience: end-user
 user-guide-title: Adobe Experience Manager Screens 6.4 Help
 ---
 

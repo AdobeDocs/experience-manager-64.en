@@ -98,7 +98,7 @@ The custom styles will now override the default framework styles and the compone
 
 >[!CAUTION]
 >
->Any CSS class name that is prefixed with** scf-js-&ast;**has a specific use in javascript code. These classes affect the state of a component (for example, toggle from hidden to visible) and should neither be overriden nor removed.
+>Any CSS class name that is prefixed with **scf-js-&ast;** has a specific use in javascript code. These classes affect the state of a component (for example, toggle from hidden to visible) and should neither be overriden nor removed.
 >
 >While the scf-js-&ast; classes do not affect styles, the class names may be used in stylesheets with the caveat that, as they control the states of elements, there may be side effects.
 

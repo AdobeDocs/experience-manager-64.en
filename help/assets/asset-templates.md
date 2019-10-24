@@ -161,11 +161,12 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
    ![chlimage_1-323](assets/chlimage_1-323.png)
 
-1. Click/tap the PDF rendition from the list of renditions to download the the PDF file. Open the PDF file to review the collateral. 
+1. Click/tap the PDF rendition from the list of renditions to download the PDF file. Open the PDF file to review the collateral. 
 
    ![chlimage_1-324](assets/chlimage_1-324.png)
 
 ## Merge Collateral {#merge-collateral}
+
 
 1. Click or tap **[!UICONTROL Tools > Assets]**.
 1. From the options, choose **[!UICONTROL Templates]**.

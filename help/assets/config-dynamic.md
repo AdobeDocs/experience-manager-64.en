@@ -6,10 +6,7 @@ seo-description: Learn how to configure Dynamic Media - Hybrid mode.
 uuid: de88f68f-4697-4ff0-8008-3ae6a4684a84
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: dynamic-media
-content-type: reference
 discoiquuid: 821eb27e-67c9-4589-9196-30dacb84fa59
-legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
 ---
 
 # Configuring Dynamic Media - Hybrid mode {#configuring-dynamic-media-hybrid-mode}
@@ -128,7 +125,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 ## Enabling Dynamic Media {#enabling-dynamic-media}
 
-[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of Dynamic Media features, you need to enable dynamic media by using the **[!UICONTROL dynamicmedia]** run mode as you would, for example, **[!UICONTROL publish]** run mode. Before enabling, make sure to review the [technical requirements.](/help/sites-deploying/technical-requirements.md#requirements-for-aem-dynamic-media-add-on)
+[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of Dynamic Media features, you need to enable dynamic media by using the **[!UICONTROL dynamicmedia]** run mode as you would, for example, **[!UICONTROL publish]** run mode. Before enabling, make sure to review the [technical requirements](/help/sites-deploying/technical-requirements.md#requirements-for-aem-dynamic-media-add-on).
 
 >[!NOTE]
 >
@@ -201,7 +198,7 @@ To disable dynamic media after you have enabled it, you remove the **[!UICONTROL
 
 1. On the command line, when launching the quickstart, you can do either of the following:
 
-    * Do not add **[!UICONTROL -r dynamicmedia]** to the command line when starting the jar file.
+    * Do not add `-r dynamicmedia` to the command line when starting the JAR file.
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar
@@ -218,7 +215,7 @@ To disable dynamic media after you have enabled it, you remove the **[!UICONTROL
 
 ## (Optional) Migrating Dynamic Media presets and configurations from 6.3 to 6.4 zero downtime {#optional-migrating-dynamic-media-presets-and-configurations-from-to-zero-downtime}
 
-If you are upgrading AEM Dynamic Media from 6.3 to 6.4&ndash;which now includes the ability for zero downtime (also known as "Opt-in") deployments&ndash;you are required to run the following curl command to migrate all your presets and configurations from `/etc` to `/conf` in **[!UICONTROL CRXDE Lite]**.
+If you are upgrading AEM Dynamic Media from 6.3 to 6.4 &ndash; which now includes the ability for zero downtime (also known as "Opt-in") deployments &ndash; you are required to run the following curl command to migrate all your presets and configurations from `/etc` to `/conf` in CRXDE Lite.
 
 **Note**: If you run your AEM instance in compatibility mode&ndash;that is, you have the compatibility packaged installed&ndash;you do not need to run these commands.  
   
@@ -247,11 +244,11 @@ After you have configured the replication agent, you need to [validate and test 
 >
 >The default memory limit for PTIFF creation is 3 GB across all workflows. For example, you can process one image that requires 3 GB of memory while other workflows are paused, or you can process 10 images in parallel that require 300 MB of memory each.
 >
->The memory limit is configurable and should fit the system resource availability and the type of image content being processed. If you have many very large assets and have enough memory on the system, you can increase this limit to ensure that the images are processed in parallel. 
+>The memory limit is configurable and should fit the system resource availability and the type of image content being processed. If you have many very large assets and have enough memory on the system, you can increase this limit to ensure that the images are processed in parallel.
 >
 >An image that requires more than the maximum memory limit will be rejected.
 >
->To change the memory limit for PTIFF creation, navigate to **[!UICONTROL Tools > Operations > Web Console > Adobe CQ Scene7 PTiffManager]** and change the **[!UICONTROL maxMemory]** value.
+>To change the memory limit for PTIFF creation, navigate to **[!UICONTROL Tools > Operations > Web Console > Adobe CQ Scene7 PTiffManager]** and change the `maxMemory` value.
 
 ### Setting up Authentication {#setting-up-authentication}
 
@@ -259,7 +256,7 @@ You need to set up replication authentication on author in order to replicate im
 
 **To set up authentication**:
 
-1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account. 
+1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account.
 1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools > Security > Users]**.
 1. On the User Management page, navigate to the **[!UICONTROL dynamic-media-replication]** user, then tap to open.
 

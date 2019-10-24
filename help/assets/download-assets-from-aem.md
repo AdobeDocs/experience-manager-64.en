@@ -53,7 +53,7 @@ enabled=B"true"
 asset.download.prezip.maxcontentsize=I"102400"
 ```
 
-## Disable asset download servlet {#disnable-asset-download-servlet}
+## Disable asset download servlet {#disable-asset-download-servlet}
 
 The `Asset Download Servlet` can be disabled on an AEM Publish instances by updating the dispatcher configuration to block any asset download requests. The servlet can also be manually disabled via the OSGi console directly.
 

@@ -6,8 +6,6 @@ seo-description: Learn how to work with interactive video in dynamic media
 uuid: 5de8844f-d5d0-4fda-b59e-74682eda949f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: dynamic-media
-content-type: reference
 discoiquuid: 2f254541-6f9b-4f8a-9201-6c70f2d4f3b9
 ---
 
@@ -31,7 +29,7 @@ Click the thumbnail to pause the video and open the product's Quickview. For exa
 
 >[!NOTE]
 >
->If you create an interactive video to launch a web page when a user clicks a thumbnail image, some devices will block the pop-up web page from opening. In such cases, you must change the pop-up blocker setting on the device. For example, on an Apple iPhone 6, tap **[!UICONTROL Settings > Safari > Block Pop-ups]**, then slide the control to **[!UICONTROL Off]**. Now, when you play an interactive video and click a thumbnail, you are prompted if you want to open the pop-up. If you accept, the web page opens.
+>If you create an interactive video to launch a web page when a user clicks a thumbnail image, some devices will block the pop-up web page from opening. In such cases, you must change the pop-up blocker setting on the device. For example, on an Apple iPhone 6, tap **[!UICONTROL Settings > Safari > Block Pop-ups]**, then slide the control to `Off`. Now, when you play an interactive video and click a thumbnail, you are prompted if you want to open the pop-up. If you accept, the web page opens.
 
 ## Watch how interactive videos are created {#watch-how-interactive-videos-are-created}
 
@@ -86,7 +84,7 @@ When you finish the tutorial in the last Example section, the final demo web pag
 
    See [Publishing Assets](publishing-dynamicmedia-assets.md).
 
-1. **Adding an interactive video to your website or to your website in AEM** 
+1. **Adding an interactive video to your website or to your website in AEM**
 
    If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive video directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md) 
 
@@ -124,11 +122,11 @@ The approach, therefore, is to visit different areas of your existing website wh
 
 Normally there is no need for you to use any specialized debugging tools. Modern web browsers feature web inspectors that do an adequate job. The following are a few examples of web browsers that include web inspectors:
 
-* To see all outgoing HTTP requests in Google Chrome, press **[!UICONTROL F12]** (Windows) or **[!UICONTROL Command+Options+I]** (Mac) to open the Developer Tools panel, and then click the **[!UICONTROL Network]** tab.
+* To see all outgoing HTTP requests in Google Chrome, use keyboard shortcut `F12` (Windows) or `Command + Options + I` (Mac) to open the **[!UICONTROL Developer Tools]** panel, and then click the **[!UICONTROL Network]** tab.
 
-* In Firefox, you can either activate the Firebug plug-in by pressing **[!UICONTROL F12]** (Windows) or **[!UICONTROL Command+Option+I]** (Mac) and use its **[!UICONTROL Net]** tab, or you can use the built-in Inspector tool and its Network tab.
+* In Mozilla Firefox, you can either activate the Firebug plug-in by using keyboard shortcut `F12` (Windows) or `Command + Options + I` (Mac) and use its **[!UICONTROL Net]** tab, or you can use the built-in Inspector tool and its Network tab.
 
-* In Internet Explorer activate the debugger tool by pressing **[!UICONTROL F12]**.
+* In Internet Explorer activate the debugger tool by pressing `F12`.
 
 When network monitoring is turned on in the browser, trigger the Quickview on the page.
 

@@ -276,6 +276,7 @@ The Metadata Form is a form that includes a start and end action. In between, yo
 
 1. Double-click the field name, for example, **Title** to open the metadata field and make changes. In the **[!UICONTROL General]** tab of the [!UICONTROL Edit Component] window, you define the namespace and the field label as well as type, for example, `dc:title`.
 
+
     ![screen_shot_2012-04-23at23305pm](assets/screen_shot_2012-04-23at23305pm.png)
 
     See [Customizing and Extending AEM Assets](extending-assets.md) for information on modifying the namespaces available in the metadata form.
@@ -429,4 +430,11 @@ To multi-edit assets with the Asset Editor page:
 
 1. Edit the Description field. For example set it to: `This is a common description`. When a field is edited, its value overwrites the existing values of the selected assets when the form is submitted. The box beside the field is automatically checked when the field is edited.  
 
+   `This is a common description`  
+
+   When a field is edited, its value overwrites the existing values of the selected assets when the form is submitted.  
+
+   Note: the box beside the field is automatically checked when the field is edited.  
+
 1. Click **[!UICONTROL Update Metadata]** to submit the form and save the changes for all the assets. Only the checked metadata are modified.
+

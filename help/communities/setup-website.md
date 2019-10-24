@@ -60,7 +60,7 @@ The /apps directory is protected and not publicly accessible as are the /content
     1. In the **[!UICONTROL Create Folder]** dialog, enter **[!UICONTROL components]**
     1. Click **[!UICONTROL OK]**
 
-1. Create **[!UICONTROL ]templates** subfolder.
+1. Create **[!UICONTROL templates]** subfolder.
 
     1. Select the `/apps/an-scf-sandbox` folder
     1. Click **[!UICONTROL Create > Create Folder]**
