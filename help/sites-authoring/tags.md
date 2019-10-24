@@ -11,7 +11,7 @@ topic-tags: site-features
 discoiquuid: d0b0e47b-e68d-407d-9d06-deca2039dede
 ---
 
-# Using Tags{#using-tags}
+# Using Tags {#using-tags}
 
 Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.
 

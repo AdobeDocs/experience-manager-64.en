@@ -83,7 +83,7 @@ Administrators can add and customize the following rich media types when creatin
 | **Interactive Video** | Thumbnails are added to timeline segments in a video that a customer can then click for additional details or for purchasing directly from a website's category, home, or landing pages. |
 | **Mixed Media** | Displays different types of media in one viewer. You can include spin sets, image set, images, and videos. |
 | **Panoramic Image** | The Panoramic Image and PanoramicVR viewers render spherical panoramic images to immerse users in a 360° viewing experience of a room, property, location, or landscape. |
-| | For an uploaded image to qualify as a spherical panorama, it must have either one or both of the following: <ul><li>An aspect ratio of 2:1.</li><li>Tagged with the keywords equirectangular, or spherical and panorama, or spherical and panoramic. See [Using Tags](\..\sites-authoring\tags.md).</li></ul> |
+| | For an uploaded image to qualify as a spherical panorama, it must have either one or both of the following: <ul><li>An aspect ratio of 2:1.</li><li>Tagged with the keywords equirectangular, or spherical and panorama, or spherical and panoramic. See [Using Tags](../sites-authoring/tags.md).</li></ul> |
 | | Both the aspect ratio and keyword criteria apply to panoramic assets for the asset details page and the "Panoramic Media" WCM component. |
 | | Important: This viewer is only available in Dynamic Media - Scene7 mode. |
 | **Spin Set** | Provides multiple views of an image so users can turn the object to examine the different sides and angles. |
