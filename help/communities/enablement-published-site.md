@@ -246,7 +246,7 @@ For reports on views:
 * On author
 * Sign in with administrative privileges
 * Navigate to **[!UICONTROL Communities > Reports > Views Report]**
-* Select a **[!UICONTROL ]Site** from the pull-down menu (select `Enablement Tutorial`)
+* Select a **[!UICONTROL Site]** from the pull-down menu (select `Enablement Tutorial`)
 
 * Select **[!UICONTROL Content Type]** (select `all`)
 

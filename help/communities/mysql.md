@@ -165,7 +165,7 @@ Once the scripts are executed, it is necessary to refresh the `SCHEMAS`section o
 
 #### Result: scormenginedb {#result-scormenginedb}
 
-After installing and refreshing SCHEMAS, the **`scormenginedb`**will be visible.
+After installing and refreshing SCHEMAS, the **`scormenginedb`** will be visible.
 
 ![chlimage_1-335](assets/chlimage_1-335.png) 
 

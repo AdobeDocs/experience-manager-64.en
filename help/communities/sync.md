@@ -196,7 +196,7 @@ On each AEM publish instance:
 1.  Locate **[!UICONTROL Adobe Granite Distribution - Diff Observer Factory]**.
 1.  Select the existing configuration to open for edit (pencil icon).  
 
-    Verify **[!UICONTROL agent name]**: `socialpubsync` \-reverse**.
+    Verify **[!UICONTROL agent name]**: `socialpubsync` \-reverse&ast;&ast;.
 1.  Select the **[!UICONTROL Enabled]** checkbox.
 1.  Specify **rep `:members`** as `description` for propertyName in **[!UICONTROL looked properties names]**, and Save.
 

@@ -80,7 +80,7 @@ Under the **[!UICONTROL Reviews]** tab, specify how reviews are handled.
 * **[!UICONTROL Allow File Uploads]** 
   If checked, allow file attachments to be uploaded for the review. Default is unchecked.
 
-* **[!UICONTROL ]Max File Size** 
+* **[!UICONTROL Max File Size]** 
   Relevant only if **[!UICONTROL Allow File Uploads]** is checked. This field limits the size (in bytes) of an uploaded file. Default is 10 MB.
 
 * **[!UICONTROL Max Message Length]** 

@@ -87,7 +87,7 @@ Create a user on *author*, who is assigned the role of Community Administrator:
     * For example, username 'admin' / password 'admin'
 
 * From the main console, navigate to **[!UICONTROL Tools > Operations > Security > Users]**
-* From the **[!UICONTROL ]Edit** menu, select **[!UICONTROL Add User]**
+* From the **[!UICONTROL Edit]** menu, select **[!UICONTROL Add User]**
 
 * In the `Create New User` dialog enter
 
