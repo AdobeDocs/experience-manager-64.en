@@ -102,7 +102,7 @@ Follow the steps below to set up a project
 
    ![screen_shot_2019-02-21at40516pm](assets/SZ_MZvideo2.gif)
 
-## Previewing the Result {#previewing -result}
+## Previewing the Result {#previewing-result}
 
 You can click on Preview from the editor and check how the assets will transition from single zone to multizone.
 
