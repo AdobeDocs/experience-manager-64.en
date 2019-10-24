@@ -22,13 +22,15 @@ The AEM Community is constantly producing example workflows, tutorials and conte
 * [A full list of AEM Community how-ro articles is here.](https://helpx.adobe.com/experience-manager/topics/how-to.html)
 * [A full list of AEM knowledge base articles is here.](https://helpx.adobe.com/experience-manager/kb/index/full_kb_list.html)
 
-## Best practices content for different AEM capabilities {#best-practices}
+## Best practices for AEM {#best-practices}
 
+* [Best practices for Managing a Project to Implement AEM](/help/managing/best-practices.md)
 * [Best practices for Authoring in AEM](/help/sites-authoring/best-practices.md)
 * [Best practices for Administering AEM](/help/sites-administering/administer-best-practices.md)
 * [Best practices for Developing in AEM](/help/sites-developing/best-practices.md)
-* [Best practices for Managing Projects in AEM](/help/managing/best-practices.md)
 * [Best practices for SEO and URL Management](/help/managing/seo-and-url-management.md)
+* [AEM and the Web Accessibility Guidelines](/help/managing/web-accessibility.md)
+* [AEM and GDPR Readiness](/help/managing/gdpr-compliance.md)
 
 ## Getting started guides for different AEM capabilities {#getting-started}
 
