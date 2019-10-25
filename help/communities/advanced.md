@@ -145,8 +145,8 @@ In order for the expert badge to appear as a reward for activity, there are two 
 
 See the basic informaton for:
 
-* [Enabling badging for a component](implementing-scoring.md#enableforcomponent)
-* [Applying rules](implementing-scoring.md#applytopage)
+* [Enabling badging for a component](implementing-scoring.md#enable-badges-for-component)
+* [Applying rules](implementing-scoring.md#apply-rules-to-content)
 
 ### Included Scoring Rules and Sub-Rules {#included-scoring-rules-and-sub-rules}
 
