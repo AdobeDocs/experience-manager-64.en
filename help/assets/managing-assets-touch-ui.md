@@ -227,8 +227,8 @@ When you upload PostScript (EPS) or Illustrator (AI) image files, you can format
 | Colorspace | | Select the Color Space menu and choose from the following color space options: |
 | | Detect Automatically | Retains the color space of the file. |
 | | Force As RGB | Converts to the RGB color space. |
-| | Forece As CMYK | Converts to the CMYK color space. |
-| | Force As Grayscale | Converts to the grayscale color space.
+| | Force As CMYK | Converts to the CMYK color space. |
+| | Force As Grayscale | Converts to the grayscale color space.|
 
 #### Setting Photoshop upload options {#setting-photoshop-upload-options}
 
