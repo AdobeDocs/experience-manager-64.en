@@ -7,7 +7,7 @@ solution: Dynamic Media
 title: Dynamic Media Newsletter
 ---
 
-# ![Dynamic Media Newsletter logo](/help/assets/dynamic-media-newsletter-logo.png)
+# ![Dynamic Media Newsletter logo](/help/assets/assets/dynamic-media-newsletter-logo.png)
 
 The Dynamic Media Newsletter by Experience League is a monthly newsletter designed to help you get up to speed with Dynamic Media and Dynamic Media Classic so that you can start to realize value right away.
 
