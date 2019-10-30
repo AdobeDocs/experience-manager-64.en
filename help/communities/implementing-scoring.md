@@ -75,8 +75,8 @@ Reward-based badges are awarded by the scoring service to community members base
 
 In order for badges to appear as a reward for activity, there are two things that must happen:
 
-* Badging must be [enabled](#enableforcomponent) for the feature component
-* Scoring and badging rules must be [applied](#applytopage) to the page (or ancestor) on which the component is placed
+* Badging must be [enabled](#enable-badges-for-component) for the feature component
+* Scoring and badging rules must be [applied](#apply-rules-to-content) to the page (or ancestor) on which the component is placed
 
 Included in the release are three reward-based badges:
 

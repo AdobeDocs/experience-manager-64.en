@@ -125,7 +125,6 @@ Instead of associating points with a badge image, it is only necessary to identi
 | badgingLevels | Long     | (Optional) Specifies the levels of expertise to be awarded. For example, if there should be an expert and an almost expert (two badges), then the value should be set to 2. The badgingLevel should correspond with the number of expert-related badge images listed for the badgingPath property. Default is 1.                                                               |
 | badgingType   | String   | (Required) Identifies the scoring engine as either "basic" or "advanced". Set to "advanced" else the default is "basic".                                                                                                                                                                                                                                                       |
 | scoringRules  | String[] | (Optional) A multi-value string to restrict the badging rule to scoring events identified by the scoring rule(s) listed.Example entry:/etc/community/scoring/rules/adv-comments-scoringDefault is no restriction.                                                                                                                                                              |
-You can now import Markdown table code directly using File/Paste table data... dialog.
 
 ## Included Rules and Badge {#included-rules-and-badge}
 
@@ -146,8 +145,8 @@ In order for the expert badge to appear as a reward for activity, there are two 
 
 See the basic informaton for:
 
-* [Enabling badging for a component](implementing-scoring.md#enableforcomponent)
-* [Applying rules](implementing-scoring.md#applytopage)
+* [Enabling badging for a component](implementing-scoring.md#enable-badges-for-component)
+* [Applying rules](implementing-scoring.md#apply-rules-to-content)
 
 ### Included Scoring Rules and Sub-Rules {#included-scoring-rules-and-sub-rules}
 
