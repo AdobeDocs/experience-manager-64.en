@@ -1,11 +1,11 @@
 ---
-title: Single Zone to Multizone Takeover
+title: Single Zone to Multi Zone Takeover
 seo-title: Single Zone to Multizone Takeover
 description: Follow  this page to learn about the Single Zone to Multizone Takeover in an AEM Screens project.  
 seo-description: Follow  this page to learn about the Single Zone to Multizone Takeover in an AEM Screens project.    
 ---
 
-# Single Zone to Multizone Takeover {#single-zoneto-multizone}
+# Single Zone to Multi Zone Takeover {#single-zoneto-multizone}
 
 ## Use Case Description {#use-case-description}
 
@@ -26,13 +26,13 @@ Content Authors
 
 ## Setting up the Project {#setting-up-the-project}
 
-Follow the steps below to set up a project
+Follow the steps below to set up a project:
 
 1. Create an AEM Screens Project named as **ZonesDemo**, as shown below.
 
    >[!NOTE]
    >
-   >To learn more about creating and managing projects in AEM Screens, refer to Creating a Project.
+   >To learn more about creating and managing projects in AEM Screens, refer to [Creating a Project](/help/screens/creating-a-screens-project.md).
 
    ![screen_shot_2019-02-21at35809pm](assets/SZtoMZ1.png)
 
@@ -75,9 +75,9 @@ Follow the steps below to set up a project
     1. Select the channel and click **Edit** from the action bar to open the editor and drag and drop the video component to that channel and then add the desired video, as shown below.
         ![screen_shot_2019-02-21at35932pm](assets/SZtoMZ9.png)
 
-## Setting up the Takeover Channel to Transition from SingleZone to MultiZone {#takeover-channel-setup}
+## Setting up the Takeover Channel to Transition from Single Zone to Multi Zone {#takeover-channel-setup}
 
-1. **Editing the SingleZone Channel for MultiZone Takeover**
+1. **Editing the Single Zone Channel for Multi Zone Takeover**
 
     1. Select the channel (**FullScreenOne)** that you created in step 1.
     1. Click **Edit** from the action bar to open the editor. Drag and drop two channel components and one video component to the editor.
@@ -86,7 +86,7 @@ Follow the steps below to set up a project
 
 1. **Populating the Components added to FullScreenOne Channel**
 
-     1. Select the first channel component from the editor of **FullScreenOne** and click **Configure** to point to the channel created in preceding steps. Similarly, add the channel path ()to the other channel component and the video to the video component as shown below.
+     1. Select the first channel component from the editor of **FullScreenOne** and click **Configure** to point to the channel created in preceding steps. Add the path to the channel in **Channel Path** to both the channel components and drag and drop the video to the video component as shown below.
 
    ![screen_shot_2019-02-21at40516pm](assets/SZ_MZvideo1.gif)
 
@@ -97,12 +97,12 @@ Follow the steps below to set up a project
    >By default, the assets will transition after every 8 seconds, but if you want the assets to transition after a specific time duration, follow the step below.
 
    1. Select the second channel component from the editor of **FullScreenOne** and click **Settings** to configure the time duration for this channel. Similarly, set up the time duration for the channel two, as shown below.
-   In this example, the time is set as 3 seconds.
+   In this example, the time is set to 3 seconds.
 
    ![screen_shot_2019-02-21at40516pm](assets/SZ_MZvideo2.gif)
 
 ## Previewing the Result {#previewing-result}
 
-You can click on Preview from the editor and check how the assets will transition from single zone to multizone.
+You can click on **Preview** from the editor and check how the assets will transition from single zone to multizone.
 
- ![screen_shot_2019-02-22at121638pm](assets/SZ_MZvideo2.gif)
+![Preview](assets/SZ_MZvideo3.gif)
