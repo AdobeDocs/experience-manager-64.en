@@ -88,7 +88,7 @@ user-guide-title: AEM 6.4 Developing User Guide
       + [Using and Extending Widgets (Classic UI)](widgets.md)
       + [Using xtypes (Classic UI)](xtypes.md)
       + [Developing Forms (Classic UI)](developing-forms.md)
-+ Headless Experience Management|{#headless}
++ Headless Experience Management{#headless}
     + [Headless and Hybrid with AEM](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-sites/headless-content-management-system/pdfs/aem-hybrid-architecture-wp-1-18-19.pdf)
     + [Enabling JSON Export for a Component](json-exporter-components.md)
     + Single Page Applications{#spas}
