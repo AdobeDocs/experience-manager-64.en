@@ -124,18 +124,23 @@ curl -u admin:admin http://localhost:4502/api/screens/content/screens/we-retail/
   "entities": […],
   "actions": [
     {
-      "title": "",
-      "name": "broadcast-command",
       "method": "POST",
+      "name": "broadcast-command",
       "href": "/api/screens/content/screens/we-retail/locations/demo/flagship/single",
+      "title": "",
       "fields": [
         {
           "name": ":operation",
-          "value": "broadcast-command",
-          "type": "hidden"
+          "type": "hidden",
+          "value": "broadcast-command"
         },
         {
-          "name": "msg",
+          "name": "command",
+          "type": "text"
+        },
+        {
+          "name": "command_payload",
+          "optional": true,
           "type": "text"
         }
       ]
@@ -150,12 +155,16 @@ To trigger this action one would call:
 POST /api/screens/content/screens/we-retail/locations/demo/flagship/single.json HTTP/1.1
 Host: http://localhost:4502
 
-:operation=broadcast-command&msg=reboot
+:operation=broadcast-command&command=reboot
 ```
 
 Or using curl:
 
 ```xml
-curl -u admin:admin -X POST -d ':operation=broadcast-command&msg=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
+curl -u admin:admin -X POST -d ':operation=broadcast-command&command=reboot' http://localhost:4502/api/screens/content/screens/we-retail/locations/demo/flagship/single.json
 ```
 
+Other resources will have different actions exposed. Some of them being:
+- Channels: `boardcast-command`, `broadcast-command-with-ack`, `unassign`
+- Displays: `boardcast-command`, `broadcast-command-with-ack`
+- Devices: `boardcast-command`, `broadcast-command-with-ack`
