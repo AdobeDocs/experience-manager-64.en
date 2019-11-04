@@ -162,10 +162,10 @@ In the content tab, manage the content such as document fragments and content va
 
    The modules in a letter template display the unfilled variable count as described below:
 
-    * **Text **Displays the sum of the unique unfilled placeholder variables and data dictionary elements contained in the text module.
-    * **Condition **Displays the sum of the unique unfilled condition variables contained in the condition and the variables contained in the resultant modules.
-    * **List **Displays the sum of all unique unfilled variables contained in the modules assigned to the list.
-    * **Target area **Displays the sum of all unique unfilled variables contained in the modules assigned to the target area.
+    * **Text** Displays the sum of the unique unfilled placeholder variables and data dictionary elements contained in the text module.
+    * **Condition** Displays the sum of the unique unfilled condition variables contained in the condition and the variables contained in the resultant modules.
+    * **List** Displays the sum of all unique unfilled variables contained in the modules assigned to the list.
+    * **Target area** Displays the sum of all unique unfilled variables contained in the modules assigned to the target area.
 
    Note the following regarding variables with default values:
 
@@ -293,7 +293,7 @@ This option exists for people who have concerns over saving user data on publish
 #### Enable remote save {#enable-remote-save}
 
 1. In AEM, open Adobe Experience Manager Web Console Configuration for your server using the following URL: `https://<server>:<port>/<contextpath>/system/console/configMgr`
-1. Search for **[!UICONTROL Correspondence Management Configurations]**and click it. 
+1. Search for **[!UICONTROL Correspondence Management Configurations]** and click it. 
 1. Locate the **[!UICONTROL Remote Save]** configuration, check it, and the click **[!UICONTROL Save]**.
 
 #### Specify processing author settings {#specify-processing-author-settings}

@@ -152,7 +152,7 @@ The following example walks you through creation of a test suite for testing mul
 
    The above code creates a test suite named **Adaptive Form - Demo Test**. To create a test suite with a different name, change the name accordingly.
 
-1. Click **[!UICONTROL Create** > **Create Node]** to create a node under the clientlib folder for each form that you want to test. This example uses a node named **testForm **to test an adaptive form named **testForm** `.`Specify the following properties and click **[!UICONTROL OK]**:
+1. Click **[!UICONTROL Create]** > **Create Node** to create a node under the clientlib folder for each form that you want to test. This example uses a node named **testForm** to test an adaptive form named **testForm** `.`Specify the following properties and click **[!UICONTROL OK]**:
 
     * Name: testForm (your form name)
     * Type: cq:ClientLibraryFolder

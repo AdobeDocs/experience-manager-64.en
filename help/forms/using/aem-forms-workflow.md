@@ -63,7 +63,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 1. Open the Workflow Models console. The default URL is `https://[Server]:[port]/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`
 1. Select **[!UICONTROL Create]**, then **[!UICONTROL Create Model]**. The Add Workflow Model dialog appears.
 1. Enter the **[!UICONTROL Title]** and **[!UICONTROL Name]** (optional). For example, a mortgage application. Tap **[!UICONTROL Done]**.
-1. Select the newly created workflow model and tap **Edit. **Now, you can add workflow steps to build business logic. When you first create a workflow model, it contains:
+1. Select the newly created workflow model and tap **Edit.** Now, you can add workflow steps to build business logic. When you first create a workflow model, it contains:
 
     * The steps: Flow Start and Flow End. These steps represent the beginning and end of the workflow. These steps are required and cannot be edited or removed.
     * An example Participant step named Step 1. This step is configured to assign a work item to the admin user. Remove this step.
@@ -72,7 +72,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
     1. Go to AEM configuration manager at `https://[server]:[port]/system/console/configMgr`.
     1. Open the **[!UICONTROL Day CQ Mail Service]** configuration. Specify a value for the **[!UICONTROL SMTP server host name]**, **[!UICONTROL SMTP server port,]** and **[!UICONTROL "From" address]** fields. Click **[!UICONTROL Save]**.
-    1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]**field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
+    1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]** field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
 
 1. Create workflow stages. A workflow can have multiple stages. These stages are displayed in the AEM Inbox and report progress of the workflow.
 
@@ -270,7 +270,7 @@ You can use the Assign Task and Send Email steps of AEM Workflows to send an ema
 
 1. Go to AEM configuration manager at `https://[server]:[port]/system/console/configMgr`.
 1. Open the **[!UICONTROL Day CQ Mail Service]** configuration. Specify a value for the **[!UICONTROL SMTP server host name]**, **[!UICONTROL SMTP server port,]** and **[!UICONTROL "From" address]** fields. Click **[!UICONTROL Save]**.
-1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]**field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
+1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]** field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
 
 ### Purge workflow instances {#purge-workflow-instances}
 

@@ -131,7 +131,7 @@ Change the layer from Structure to Initial Content, and start adding content to 
 * You can drag-drop the panel component from the components browser in the sidebar. 
 * You can add child panel of the `guideRootPanel` from the component toolbar.
 
-To create the General Information and Professional Information tabs, add two panels in the child panel of the `guideRootPanel`. Select the panels and tap ![cmppr](assets/cmppr.png) to open the properties in the sidebar. Change the element names as `general-info` and `professional-info`, and titles as General Information and Professional Information respectively. In the sidebar, tap content to open the content browser. In the Form Objects tab, select `guideRootPanel`. In the editor, the guideRootPanel is selected. Tap ![cmppr](assets/cmppr.png) in the component toolbar to open its properties. In the Panel Layout field, select **Tabs on Top **and tap **Done**. The tabbed template structure is applied.
+To create the General Information and Professional Information tabs, add two panels in the child panel of the `guideRootPanel`. Select the panels and tap ![cmppr](assets/cmppr.png) to open the properties in the sidebar. Change the element names as `general-info` and `professional-info`, and titles as General Information and Professional Information respectively. In the sidebar, tap content to open the content browser. In the Form Objects tab, select `guideRootPanel`. In the editor, the guideRootPanel is selected. Tap ![cmppr](assets/cmppr.png) in the component toolbar to open its properties. In the Panel Layout field, select **Tabs on Top** and tap **Done**. The tabbed template structure is applied.
 
 #### Adding content in tabs {#adding-content-in-tabs}
 
@@ -180,8 +180,8 @@ Perform the following steps to show and hide templates:
 
 1. Locate and open the **[!UICONTROL FormsManager Configuration]** settings:
 
-    * To show or hide out of the box adaptive forms template, check or uncheck the **Include Out of the box AF and AD Templates **option.
-    * To show or hide out of the box adaptive form templates that were added in AEM 6.0 Forms or AEM 6.1 Forms releases but are now deprecated, check or uncheck the **Include AEM 6.0 AF Templates **option. If this option is checked, in order to take effect, it requires the **[!UICONTROL Include Out of the box AF and AD Templates]** configuration to be enabled.
+    * To show or hide out of the box adaptive forms template, check or uncheck the **Include Out of the box AF and AD Templates** option.
+    * To show or hide out of the box adaptive form templates that were added in AEM 6.0 Forms or AEM 6.1 Forms releases but are now deprecated, check or uncheck the **Include AEM 6.0 AF Templates** option. If this option is checked, in order to take effect, it requires the **[!UICONTROL Include Out of the box AF and AD Templates]** configuration to be enabled.
 
 1. Click **[!UICONTROL Save]**. The display options for the out of the box templates are changed.
 
