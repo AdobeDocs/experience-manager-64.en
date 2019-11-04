@@ -77,7 +77,7 @@ For iPads, this setting can be altered by modifying the value of `geoLocManadato
 
 ### Clearing a signature {#clearing-a-signature}
 
-While using this feature, a user can click the **Eraser **icon to clear the field, and start over. If geolocation information was added it is cleared, too.
+While using this feature, a user can click the **Eraser** icon to clear the field, and start over. If geolocation information was added it is cleared, too.
 
 ### Saving a signature {#saving-a-signature}
 

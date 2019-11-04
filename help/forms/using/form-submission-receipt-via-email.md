@@ -16,13 +16,13 @@ discoiquuid: 7ffe6317-174b-4d80-9ac6-9bfb5eed7e29
 
 Adaptive forms provides several out-of-the-box [submit actions](/help/forms/using/configuring-submit-actions.md) workflows for submitting the form data to different endpoints.
 
-For example, the **Email action **submit action sends an email on successful submission of an adaptive form. It can also be configured to send the form data and the PDF in the email.
+For example, the **Email action** submit action sends an email on successful submission of an adaptive form. It can also be configured to send the form data and the PDF in the email.
 
 This article details the steps to enable the Email action on an adaptive form and different configurations it provides.
 
 >[!NOTE]
 >
->You can also use the **Email PDF action **to send the completed form by email as a PDF attachment. The configuration options available for this action are the same as the options available for the Email action. The Email PDF action is available only for XFA-based adaptive forms
+>You can also use the **Email PDF action** to send the completed form by email as a PDF attachment. The configuration options available for this action are the same as the options available for the Email action. The Email PDF action is available only for XFA-based adaptive forms
 
 ## Email action {#email-action}
 

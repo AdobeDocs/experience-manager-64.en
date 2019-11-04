@@ -33,7 +33,7 @@ Perform the following steps to configure server-side logs:
    >
    >To generate logs in the HTML5 forms log directory, add ../logs/ before the filename.
 
-1. Change **Logger** to **HTMLFormsPerfLogger. **Click **Save**.
+1. Change **Logger** to **HTMLFormsPerfLogger.** Click **Save**.
 
 ## Configuring client logging {#configuring-client-logging}
 
@@ -44,7 +44,7 @@ You can use the following methods to enable client-side logging in HTML5 forms:
 
 ### Enabling logging using request parameter {#enabling-logging-using-request-parameter}
 
-Using this method, you can generate logs for a particular request. The name of the request parameter is `log`**. **The log URL is as follows:
+Using this method, you can generate logs for a particular request. The name of the request parameter is **log**. The log URL is as follows:
 
 `https://<server>:<port>/content/xfaforms/profiles/test.html?contentRoot=<path of the folder containing form xdp>&template=<name of the xdp>&log=<log configuration>.`
 

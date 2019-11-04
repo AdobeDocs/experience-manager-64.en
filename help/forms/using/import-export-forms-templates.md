@@ -176,12 +176,12 @@ You can use AEM package manger to export workflow applications. The procedure is
 1. Open AEM Forms package manager. URL of package manager is https://&lt;server&gt;:&lt;port&gt;/crx/packmgr.
 1. Click **[!UICONTROL Create Package]**. The **[!UICONTROL New Package]** dialog box appears.
 1. Specify name, version, and group for the package. Click **[!UICONTROL OK]**. 
-1. Click **[!UICONTROL Edit]**and open the **[!UICONTROL Filters]**tab. Click **[!UICONTROL Add Filter]**. Specify the path of the workflow application. For example, /etc/fd/dashboard/startpoints/homemortgage.
+1. Click **[!UICONTROL Edit]** and open the **[!UICONTROL Filters]** tab. Click **[!UICONTROL Add Filter]**. Specify the path of the workflow application. For example, /etc/fd/dashboard/startpoints/homemortgage.
 
    Click **[!UICONTROL Add rule]**.
 
-1. Open the **[!UICONTROL Advanced]** tab. Select **[!UICONTROL Merge]**or **[!UICONTROL Overwrite]**in ACL Handling field. Click **[!UICONTROL Save]**.
-1. Click **[!UICONTROL Build]**to create the package.
+1. Open the **[!UICONTROL Advanced]** tab. Select **[!UICONTROL Merge]** or **[!UICONTROL Overwrite]** in ACL Handling field. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Build]** to create the package.
 
    After the package is built, you can download the package and import it to the other server. The workflow application appears on the server where the package is uploaded.
 
@@ -234,9 +234,9 @@ Complete the following steps to create copies of assets and letters:
 
 ## Search {#search-features}
 
-AEM Forms UI allows you to search your content. Using the top bar, you can tap Search **[A] **to search your content for resources such as assets and documents.
+AEM Forms UI allows you to search your content. Using the top bar, you can tap Search **A** to search your content for resources such as assets and documents.
 
-When you search for assets, AEM Forms displays the side panel. You can also tap ![assets-browser-content-only](assets/assets-browser-content-only.png) &gt; Filter **[B] **to invoke the side panel. Using the various filters in the side panel, you can narrow down your search. The side panel also allows you to save your searches.
+When you search for assets, AEM Forms displays the side panel. You can also tap ![assets-browser-content-only](assets/assets-browser-content-only.png) &gt; Filter **[B]** to invoke the side panel. Using the various filters in the side panel, you can narrow down your search. The side panel also allows you to save your searches.
 
 ![search_topbar](assets/search_topbar.png)
 

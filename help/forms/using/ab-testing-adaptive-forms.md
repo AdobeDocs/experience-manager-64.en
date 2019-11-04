@@ -43,7 +43,7 @@ Perform the following steps to integrate a running Target server with AEM Forms:
 1. Click **Create**. The Edit component dialog opens.
 1. Specify your Target account details, such as client code, email, and password.
 1. Select **Rest** from the API Type drop-down list.  
-1. Click **Connect to Adobe Target** to initialize the connection with Target. If the connection is successful, the message Connection successful is displayed. Click **OK** on the message and then **OK **on the dialog. The Target account is configured.
+1. Click **Connect to Adobe Target** to initialize the connection with Target. If the connection is successful, the message Connection successful is displayed. Click **OK** on the message and then **OK** on the dialog. The Target account is configured.
 1. Create a Target framework as described in [Add a framework](/help/sites-administering/target.md).  
 1. Go to https://&lt;*hostname*&gt;:&lt;*port*&gt;/system/console/configMgr.
 1. Click **AEM Forms Target Configuration**.
@@ -106,7 +106,7 @@ Perform the following steps to create an A/B test for an adaptive form.
 
 1. In the **Experience Distribution** fields for experiences A and B, specify the distribution, in terms of percentage, to determine the distribution of experiences among the total audience. For example, if you specify 40, 60 for experiences A and B, respectively, the experience A will be served to the 40% of the audience and the remaining 60% will see the experience B.
 1. Click **Configure**. A dialog appears to confirm the creation of the A/B test.
-1. Click **Edit Experience B **to open the adaptive form in the edit mode. Modify the form to create a different experience than the default experience A. The possible variations allowed in Experience B are changes in:
+1. Click **Edit Experience B** to open the adaptive form in the edit mode. Modify the form to create a different experience than the default experience A. The possible variations allowed in Experience B are changes in:
 
     * CSS or styling 
     * Order of fields in different panels or the same panel

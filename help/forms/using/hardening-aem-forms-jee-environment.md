@@ -292,7 +292,7 @@ Web Service Definition Language (WSDL) generation should be enabled only for dev
    ```
 
 1. Click **Settings &gt; Core System Settings &gt; Configurations**.
-1. Deselect **Enable WSDL **and click **OK**.
+1. Deselect **Enable WSDL** and click **OK**.
 
 ### Application server security {#application-server-security}
 
@@ -337,7 +337,7 @@ On Oracle, the database account that you use needs only the CONNECT, RESOURCE, a
 
 1. Add the sqljdbc_auth.dll file to the Windows systems path on the computer that is running the application server. The sqljdbc_auth.dll file is located with the Microsoft SQL JDBC 6.2.1.0 driver installation.
 1. Modify JBoss Windows service (JBoss for AEM Forms on JEE) property for Log On As from Local System to a login account that has AEM Forms database and a minimum set of privileges. If you are running JBoss from the command line instead of as a Windows service, you do not need to perform this step.
-1. Set Security for SQL Server from **Mixed** mode to** Windows Authentication only**.
+1. Set Security for SQL Server from **Mixed** mode to **Windows Authentication only**.
 
 #### Configuring integrated security for SQL Server on Windows for WebLogic {#configuring-integrated-security-for-sql-server-on-windows-for-weblogic}
 
@@ -353,7 +353,7 @@ On Oracle, the database account that you use needs only the CONNECT, RESOURCE, a
 1. Under Domain Structure, click **[base_domain]** &gt; **Services** &gt; **JDBC** &gt; **Data Sources** and, in the right pane, click **RM_DS**.
 1. On the next screen, on the **Configuration** tab, click the **Connection Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
 1. Add the sqljdbc_auth.dll file to the Windows systems path on the computer that is running the application server. The sqljdbc_auth.dll file is located with the Microsoft SQL JDBC 6.2.1.0 driver installation.
-1. Set Security for SQL Server from **Mixed** mode to** Windows Authentication only**.
+1. Set Security for SQL Server from **Mixed** mode to **Windows Authentication only**.
 
 #### Configuring integrated security for SQL Server on Windows for WebSphere {#configuring-integrated-security-for-sql-server-on-windows-for-websphere}
 
@@ -959,7 +959,7 @@ The AEM Forms on JEE turnkey installation sets up a service account, by default,
 1. In the Microsoft Management Console (MMC), create a local user for the forms server service to log in as:
 
     * Select **User cannot change password**.
-    * On the **Member Of **tab, ensure that the Users group is listed.
+    * On the **Member Of** tab, ensure that the Users group is listed.
 
 1. Select **Settings** &gt; **Administrative Tools** &gt; **Services**.
 1. Double-click the application server service and stop the service.
