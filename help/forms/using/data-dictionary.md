@@ -51,7 +51,7 @@ You use the Data Dictionary Editor to create a data dictionary or you can upload
 
     * **Description**: (Optional) Description of the data dictionary.
     * **Tags:** (Optional) To create custom tag, enter value in text field and press Enter. You can see your tag below text field of tags. When you save this text, the newly added tags also get created.
-    * **Extended Properties**: (Optional) Tap **Add Field **to specify metadata attributes for your data dictionary. In the Property Name column, enter a unique property name. In the Value column, enter a value to associate with the property.
+    * **Extended Properties**: (Optional) Tap **Add Field** to specify metadata attributes for your data dictionary. In the Property Name column, enter a unique property name. In the Value column, enter a value to associate with the property.
 
    ![Data dictionary properties specified in German](do-not-localize/1_ddproperties.png)
 
@@ -63,7 +63,7 @@ You use the Data Dictionary Editor to create a data dictionary or you can upload
    >
    >You can skip uploading the schema file and build your data dictionary from scratch using the user interface. To do this, skip this step and continue with the next steps.
 
-1. Tap** Next**.
+1. Tap **Next**.
 1. In the Add Properties screen, add the elements to the data dictionary. You can also add/delete elements and edit their details if you have uploaded a schema to get a basic structure of the data dictionary.
 
    You can tap the three dots on the right side of an element and add an element to the data dictionary structure.
@@ -90,7 +90,7 @@ You use the Data Dictionary Editor to create a data dictionary or you can upload
 
    ![2_addddpropertiesbasic](assets/2_addddpropertiesbasic.png)
 
-1. (Optional) After selecting an element, in the Advanced tab you can add properties (attributes). You can also tap **Add Field **and extend the properties of a DD element.
+1. (Optional) After selecting an element, in the Advanced tab you can add properties (attributes). You can also tap **Add Field** and extend the properties of a DD element.
 
    ![3_addddpropertiesadvanced](assets/3_addddpropertiesadvanced.png)
 
@@ -455,7 +455,7 @@ When you want to send the same letter in different languages to your customers, 
 
 1. Archive the .properties file (or files for multiple locales) into a single .zip file.  
 
-1. In the Data Dictionaries page, select **More** &gt; **Upload Localization Data **and select the zip file with localized properties files. 
+1. In the Data Dictionaries page, select **More** &gt; **Upload Localization Data** and select the zip file with localized properties files. 
 1. To view the localization changes, change your browser locale.
 
 ## Data Dictionary validations {#ddvalidations}

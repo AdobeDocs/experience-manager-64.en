@@ -532,7 +532,7 @@ Perform the following steps in the author instance to experience the creation of
 1. Go to **Forms & Documents** at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 
 1. Click to open the **We.Finance** folder.
-1. Select **Application for Home Mortgage **adaptive form.
+1. Select **Application for Home Mortgage** adaptive form.
 1. Click **More** in toolbar and select **Configure A/B Testing**. The Configure A/B testing page opens.  
 
 1. Specify an **Activity Name**.
@@ -548,7 +548,7 @@ Perform the following steps in the author instance to experience the creation of
 1. Now open the form in chrome browser several times using the following url:
 
    https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/hm-app/jcr:content?wcmmode=disabled** 
-   **Note:** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
+   **Note:** Remove the cookie with the name **mbox** from browser’s cookie persistence before opening the form next time.* 
    You will see experience A and B of the form at random.
 
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
@@ -841,7 +841,7 @@ Sarah follows the instructions provided in the email and successfully renews the
 
 ### Conrad sends an insurance policy renewal communication from We.Finance {#conrad-sends-an-insurance-policy-renewal-communication-from-we-finance}
 
-Conrad logs into AEM instance, opens the Auto Insurance dashboard specifies Sarah's **Customer ID**, and clicks **Renew Policy**. The **Agent UI** opens with policy details of Sarah Rose already filled-in. Conrad specified email address of Sarah and clicks** Submit**. Sarah receives an email with the subject **Your Auto Insurance Renewal**.
+Conrad logs into AEM instance, opens the Auto Insurance dashboard specifies Sarah's **Customer ID**, and clicks **Renew Policy**. The **Agent UI** opens with policy details of Sarah Rose already filled-in. Conrad specified email address of Sarah and clicks **Submit**. Sarah receives an email with the subject **Your Auto Insurance Renewal**.
 
 ![cc-dashboard](assets/cc-dashboard.png) 
 
@@ -853,7 +853,7 @@ Insurance policy renewal communication is an interactive communication. Conrad S
 
 #### See it yourself  {#see-it-yourself-18}
 
-Log in to** We.Finance Auto Insurance Dashboard** as Conrad Simms (csimms/password). The URL is https://[publishhost]:[publishport]/content/we-finance/global/en/login.html?resource=/content/we-finance/ccdashboard.html. Specify the **Customer ID**. Customer ID of Sarah Rose is 900001. Click **Renew Policy**. The interactive communication opens up in the Agent UI. In the Agent UI, enter a valid email address to send the email with policy document attached and click **Submit**. A message, Submission Initiated, is displayed on the screen and then in few seconds another message, Submitted Successfully, is displayed. An email with the subject **Your Auto Insurance Renewal** and is sent at the specified email address. The policy offered to Sarah Rose is a premium policy.
+Log in to **We.Finance Auto Insurance Dashboard** as Conrad Simms (csimms/password). The URL is https://[publishhost]:[publishport]/content/we-finance/global/en/login.html?resource=/content/we-finance/ccdashboard.html. Specify the **Customer ID**. Customer ID of Sarah Rose is 900001. Click **Renew Policy**. The interactive communication opens up in the Agent UI. In the Agent UI, enter a valid email address to send the email with policy document attached and click **Submit**. A message, Submission Initiated, is displayed on the screen and then in few seconds another message, Submitted Successfully, is displayed. An email with the subject **Your Auto Insurance Renewal** and is sent at the specified email address. The policy offered to Sarah Rose is a premium policy.
 
 The auto insurance walkthrough also contains another customer, Alison Jones. Customer ID of Alison Jones is 900002. When you send the interactive communication to Alison Jones, a standard policy is sent. The difference between standard and premium policy are:
 
@@ -872,7 +872,7 @@ The reference site also provides an interactive communication which uses Microso
 1. Set the value of `FormFieldRequestParameter`to `/content/dam/formsanddocuments/we-finance/autoinsurance/auto-insurance-renewal-dynamics`
 1. Tap **Save All**. The reference site is configured to use interactive communication which uses MS Dynamics as a data source.
 
-Now, Log in to** We.Finance Auto Insurance Dashboard** as Conrad Simms (csimms/password). The URL is https://[publishhost]:[publishport]/content/we-finance/global/en/login.html?resource=/content/we-finance/ccdashboard.html. Specify the **Customer ID**. Customer ID of Sarah Rose is 900001. Click **Renew Policy**. The interactive communication opens up in the Agent UI. In the Agent UI, enter a valid email address to send the email with policy document attached and click **Submit**. A message, Submission Initiated, is displayed on the screen and then in few seconds another message, Submitted Successfully, is displayed. An email with the subject **Your Auto Insurance Renewal** is sent at the specified email address.
+Now, Log in to **We.Finance Auto Insurance Dashboard** as Conrad Simms (csimms/password). The URL is https://[publishhost]:[publishport]/content/we-finance/global/en/login.html?resource=/content/we-finance/ccdashboard.html. Specify the **Customer ID**. Customer ID of Sarah Rose is 900001. Click **Renew Policy**. The interactive communication opens up in the Agent UI. In the Agent UI, enter a valid email address to send the email with policy document attached and click **Submit**. A message, Submission Initiated, is displayed on the screen and then in few seconds another message, Submitted Successfully, is displayed. An email with the subject **Your Auto Insurance Renewal** is sent at the specified email address.
 
 >[!NOTE]
 >
@@ -890,7 +890,7 @@ Sarah clicks **Renew Now** and is directed to the web version of her auto insura
 
 #### How it works  {#how-it-works-21}
 
-The web and print outputs of your auto insurance letter are created using the multi-channel capabilities of Interactive Communications. The** Renew Now** button in the email is linked to the auto insurance renew application, which is an interactive communication on a publish instance.
+The web and print outputs of your auto insurance letter are created using the multi-channel capabilities of Interactive Communications. The **Renew Now** button in the email is linked to the auto insurance renew application, which is an interactive communication on a publish instance.
 
 ![ic-web-version](assets/ic-web-version.png) 
 
@@ -906,7 +906,7 @@ You can check the detailed summary of your auto insurance renewal and click **Re
 
 ### Sarah opens the payment page and makes the payment and completes the process {#sarah-opens-the-payment-page-and-makes-the-payment-and-completes-the-process}
 
-When Sarah clicks** Renew Now** on the web version of the interactive communication, the payments page opens. Sarah rechecks her Policy Number and Date of Expiration with her records. On the right side of the page, she checks the Payment Summary of her renewal with 10% premium discount on the total amount. Sarah fills her Credit Card details and clicks **Make Payment**.
+When Sarah clicks **Renew Now** on the web version of the interactive communication, the payments page opens. Sarah rechecks her Policy Number and Date of Expiration with her records. On the right side of the page, she checks the Payment Summary of her renewal with 10% premium discount on the total amount. Sarah fills her Credit Card details and clicks **Make Payment**.
 
 ![payment-adaptive-form](assets/payment-adaptive-form.png) 
 
@@ -916,7 +916,7 @@ The Renew Now button directs Sarah to the payment page. The payment page is an a
 
 #### See it yourself  {#see-it-yourself-20}
 
-Click **Renew Now **to reach to the Payment page. Fill in your Credit Card information, and click **Make Payment. **You can reach the payment page in the authoring instance at:
+Click **Renew Now** to reach to the Payment page. Fill in your Credit Card information, and click **Make Payment.** You can reach the payment page in the authoring instance at:
 
 https://[authorServer]:[authorPort]/content/document.html?documentId=/content/forms/af/we-finance/credit-card/ccbillpayment.html&schema=fdm&customerId=900001
 

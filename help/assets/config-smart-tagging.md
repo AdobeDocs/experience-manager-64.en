@@ -119,7 +119,7 @@ After you've completed the configuration, you can use a JMX MBean to validate th
 
 1. Tap/click **[!UICONTROL OK]** to close the process step, and then save the workflow.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >[Understand Smart Tags in AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-understand.html)
 >[Using Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-use.html)

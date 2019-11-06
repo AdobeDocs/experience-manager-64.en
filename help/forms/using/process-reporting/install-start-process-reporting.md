@@ -82,9 +82,9 @@ Perform the following steps to change the publishing schedule:
 
 1. Under Change Center, click **Lock & Edit**.  
 
-1. Under Domain Structure, click **Environment** &gt;  **Servers **and, in the right pane, click the managed server name.  
+1. Under Domain Structure, click **Environment** &gt;  **Servers** and, in the right pane, click the managed server name.  
 
-1. On the next screen, click the **Configuration **tab &gt; **Server Start** tab.  
+1. On the next screen, click the **Configuration** tab &gt; **Server Start** tab.  
 
 1. In the Arguments box, add the JVM argument `-Dreporting.publisher.cron = <expression>`.
 
@@ -167,7 +167,7 @@ The ProcessDataPublisher service imports process data from the AEM Forms databas
 
    The default URL is `https://[server]:port]/adminui/`.
 
-1. Navigate to **Home** &gt;  **Services** &gt;  **Applications and Services** &gt;** Service Management** and open the **ProcessDataPublisher** service.
+1. Navigate to **Home** &gt;  **Services** &gt;  **Applications and Services** &gt; **Service Management** and open the **ProcessDataPublisher** service.
 
 ![processdatapublisherservice-1](assets/processdatapublisherservice-1.png)
 

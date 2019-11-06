@@ -16,13 +16,13 @@ discoiquuid: dcf60604-c401-4c74-95c7-e7d4457fdfe5
 
 The Barcoded Forms service extracts data from electronic images of barcodes. The service accepts TIFF and PDF files that include one or more barcodes as input and extracts the barcode data. Barcode data can be formatted in various ways, including XML, delimited string, or any custom format created with JavaScript.
 
-The Barcoded Forms service supports the following** two-dimensional (2D) **symbologies supplied as scanned TIFF or PDF documents:
+The Barcoded Forms service supports the following **two-dimensional (2D)** symbologies supplied as scanned TIFF or PDF documents:
 
 * PDF417
 * Data Matrix
 * QR Code
 
-The service also supports the following **one-dimensional **symbologies supplied as scanned TIFF or PDF documents:
+The service also supports the following **one-dimensional** symbologies supplied as scanned TIFF or PDF documents:
 
 * Codabar
 * Code128

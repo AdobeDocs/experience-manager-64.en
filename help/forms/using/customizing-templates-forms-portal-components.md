@@ -78,11 +78,11 @@ Forms Portal provides a syntax for place-holders to display custom/OOTB metadata
 
 To include a repeatable entry, configure the value of the attribute **data-repeatable** to **true**.
 
-*In the example discussed, two Div elements are present at the top in the custom template. The first, with "__FP_boxes-container" CSS class, works as a container element for the forms that are listed. The second, with "__FP_boxes" CSS class, is a template for the basic entities, in this case a Form. The **data-repeatable **attribute present in the Div element has the value **true**.*
+*In the example discussed, two Div elements are present at the top in the custom template. The first, with "__FP_boxes-container" CSS class, works as a container element for the forms that are listed. The second, with "__FP_boxes" CSS class, is a template for the basic entities, in this case a Form. The **data-repeatable** attribute present in the Div element has the value **true**.
 
-Each placeholder has an exclusive OOTB metadata set. To display custom metadata at a particular place on the form, add the **${metadata_prop} property **at the place.
+Each placeholder has an exclusive OOTB metadata set. To display custom metadata at a particular place on the form, add the **$metadata_prop property** at the place.
 
-*In the example, the metadata property is used at multiple instance. For example, it is used in **description**, **name**, **formUrl**, **htmlStyle**, **pdfUrl**, **pdfStyle**, and **path **in the prescribed manner.*
+*In the example, the metadata property is used at multiple instance. For example, it is used in **description**, **name**, **formUrl**, **htmlStyle**, **pdfUrl**, **pdfStyle**, and **path** in the prescribed manner.*
 
 ## Out of the box metadata {#out-of-the-box-metadata}
 
@@ -141,26 +141,26 @@ Support for localization, sorting, and using configuration properties on the use
 
 1. For the delete option in the Drafts section under the Drafts & Submissions component, name the CSS class "__FP_deleteDraft." In addition, include the attribute "draftID" with the value **${draftID}**, which is the draft id of corresponding draft.
 
-1. While creating links to open drafts and submissions, you can specify **${path}.html **as the value of the **href** attribute for the anchor tag.
+1. While creating links to open drafts and submissions, you can specify **$path.html** as the value of the **href** attribute for the anchor tag.
 
 ![Drafts and Submission node](assets/raw-image-with-index.png)
 
-***A**. *Container element
+**A**. Container element
 
-***B.*** "path" metadata with a fixed hierarchy to obtain the thumbnail stored for each form.
+**B.** "path" metadata with a fixed hierarchy to obtain the thumbnail stored for each form.
 
-**C. **Data-repeatable attribute used for the template section for each form
+**C.** Data-repeatable attribute used for the template section for each form
 
-***D.** *To localize "Apply" string
+**D.** To localize "Apply" string
 
-***E.** *Using the configuration property pdfLinkText 
+**E.** Using the configuration property pdfLinkText 
 
-***F.*** Using the "pdfUrl" metadata
+**F.** Using the "pdfUrl" metadata
 
 ## Tips, tricks, and known issues {#tips-tricks-and-known-issues}
 
 1. Do not use single quote (') in any custom template.
 1. For custom metadata, store this property on the **jcr:content/metadata** node only. If you store it at any other place, Forms Portal can't display the metadata.
 1. Ensure that the name of any custom metadata or existing metadata does not include a colon (:). If it does, you cannot display it on the user interface.
-1. **data-repeatable **does not have any significance for a **Link **component. Adobe recommends that you avoid using this property in the template for a Link component.
+1. **data-repeatable** does not have any significance for a **Link** component. Adobe recommends that you avoid using this property in the template for a Link component.
 

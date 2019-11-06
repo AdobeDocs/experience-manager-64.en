@@ -38,7 +38,7 @@ Use the following steps to add support for custom special characters:
 1. Go to `https://[server]:[port]/[ContextPath]/crx/de` and login as Administrator.
 1. In the apps folder, create a folder named **[!UICONTROL specialcharacters]** with path/structure similar to the specialcharacters folder (located in the textEditorConfig folder under libs):
 
-    1. Right-click the **specialcharacters **folder at the following path and select **Overlay Node**:
+    1. Right-click the **specialcharacters** folder at the following path and select **Overlay Node**:
 
        `/libs/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters`
     
@@ -69,7 +69,7 @@ Use the following steps to add support for custom special characters:
    | cmConfigurationType |String |cmTextEditorConfiguration |
    | cssPath |String |/libs/fd/cm/ma/gui/components/admin/createasset/textcontrol/clientlibs/textcontrol |
 
-1. Right-click the **[!UICONTROL specialcharacters]** folder at the following path and select **Create &gt; Child Node **and then click **Save All**:
+1. Right-click the **[!UICONTROL specialcharacters]** folder at the following path and select **Create &gt; Child Node** and then click **Save All**:
 
    /apps/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters/&lt;YourChildNode&gt;
 

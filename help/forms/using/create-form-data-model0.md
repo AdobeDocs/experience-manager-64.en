@@ -65,7 +65,7 @@ Do the following to configure your MySQL database:
 
     1. Log in to AEM Forms Author Instance as an administrator and go to AEM web console bundles. The default URL is [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles).
     1. Tap **Install/Update**. An **Upload / Install Bundles** dialog appears.
-    1. Tap **Choose File** to browse and select the MySQL JDBC driver OSGi bundle. Select **Start Bundle** and **Refresh Packages**, and tap **Install **or **Update**. Ensure that the Oracle Corporation's JDBC Driver for MySQL is active. The driver is installed.
+    1. Tap **Choose File** to browse and select the MySQL JDBC driver OSGi bundle. Select **Start Bundle** and **Refresh Packages**, and tap **Install** or **Update**. Ensure that the Oracle Corporation's JDBC Driver for MySQL is active. The driver is installed.
 
 1. Configure MySQL database as a data source:
 
@@ -98,7 +98,7 @@ Do the following to create form data model:
 
 1. In AEM author instance, navigate to **Forms** &gt;  **Data Integrations**.
 1. Tap **Create** &gt;  **Form Data Model**.
-1. In the Create Form Data Model wizard, specify a **name **for the form data model. For example, **FDM_Create_First_IC**. Tap **Next**.
+1. In the Create Form Data Model wizard, specify a **name** for the form data model. For example, **FDM_Create_First_IC**. Tap **Next**.
 1. The select datasource screen lists all configured data sources. Select **MySQL** data source and tap **Create**.
 
    ![fdm_mysql_data_source](assets/fdm_mysql_data_source.png)
@@ -209,7 +209,7 @@ Perform the following steps to create associations between data model objects:
 
 1. In the **Add Argument** dialog box:
 
-    * Select **mobilenum **from the **Name** drop-down list. The mobile number property is a common property that is available in customer and calls data model objects. As a result, it is used to create an association between customer and calls data model objects.  
+    * Select **mobilenum** from the **Name** drop-down list. The mobile number property is a common property that is available in customer and calls data model objects. As a result, it is used to create an association between customer and calls data model objects.  
 
       For each mobile number available in the customer data model object, there are multiple call records available in the calls table.
     
@@ -261,9 +261,9 @@ After creating associations between the customer and other data model objects, e
     * Specify **mobilenum** as the Binding Value.
 
 1. Select **update** from the **Write** Service drop-down list.
-1. In the** Arguments** section:
+1. In the **Arguments** section:
 
-    * For **mobilenum** property, select **customer **from the **Binding To** drop-down list.
+    * For **mobilenum** property, select **customer** from the **Binding To** drop-down list.
     * Select **mobilenum** from the **Binding Value** drop-down list.
 
 1. Tap **Done** to save the properties.
@@ -306,7 +306,7 @@ Do the following to run the test:
 
 1. Go to the **Model** tab, select the **customer** data model object, and tap **Test Model Object**.
 1. In the **Test Form Data Model** window, select **Read model object** from the **Select Model/Service** drop-down list.
-1. In the **Input **section, specify a value for the **mobilenum** property that exists in the configured MySQL database and tap **Test**.
+1. In the **Input** section, specify a value for the **mobilenum** property that exists in the configured MySQL database and tap **Test**.
 
    The customer details associated with the specified mobilenum property are fetched and displayed in the Output section as shown below. Close the dialog box.
 
@@ -314,7 +314,7 @@ Do the following to run the test:
 
 1. Go to the **Services** tab.
 1. Select the **get** service and tap **Test Service.**
-1. In the **Input **section, specify a value for the **mobilenum** property that exists in the configured MySQL database and tap **Test**.
+1. In the **Input** section, specify a value for the **mobilenum** property that exists in the configured MySQL database and tap **Test**.
 
    The customer details associated with the specified mobilenum property are fetched and displayed in the Output section as shown below. Close the dialog box.
 
