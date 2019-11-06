@@ -8,7 +8,7 @@ user-guide-title: AEM 6.4 Assets User Guide
 # AEM 6.4 Assets User Guide {#assets}
 
 + [Assets user guide](home.md)
-+ [AEM 6.4 Assets release notes](../release-notes/assets.md){:target="_blank"}
++ [AEM 6.4 Assets release notes](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/assets.html)
 + [About DAM](assets.md)
 + [User experience improvements](ux-improvements.md)
 + [Best practices for assets](best-practices-for-assets.md)
