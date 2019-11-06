@@ -1,6 +1,6 @@
 ---
 title: Manage smart tags
-description: description: Update or remove the inaccurate smart tags to improve the relevance of tags
+description: Update or remove the inaccurate smart tags to improve the relevance of tags
 uuid: fd3eedf0-f222-45bf-aac7-90da6b7b7087
 contentOwner: AG
 discoiquuid: 3394b56a-3054-419b-9547-5740f8c35071
