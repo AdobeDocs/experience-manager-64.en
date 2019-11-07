@@ -1,10 +1,8 @@
 ---
 title: Assets HTTP API
-seo-title: Assets HTTP API
-description: Learn about the implementation, data model, and features of Assets HTTP API. Use Assets HTTP API to perform various tasks around assets.
-seo-description: Learn about the implementation, data model, and features of Assets HTTP API. Use Assets HTTP API to perform various tasks around assets.
+description: Learn about the implementation, data model, and features of Assets HTTP API. Use Assets HTTP API to perform various tasks around assets
 uuid: ab709c58-c9a6-48da-84da-866655c84658
-contentOwner: User
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 68d49096-959b-4751-abf1-23bedbaed9a0
 ---
@@ -22,6 +20,8 @@ To access the API:
 1. Follow the Assets service link  leading to `http://[hostname]:[server]/api/assets.json`.
 
 The API's response is a JSON for some mime types and a response code for all mime types. The JSON response is optional and may not be available, for example for PDF files. Rely on the response code for further analysis or actions.
+
+After the [!UICONTROL Off Time], an asset and its renditions are not available either via the Assets web interface or through the HTTP API. The API returns 404 error message if the [!UICONTROL On Time] is in the future or [!UICONTROL Off Time] is in the past.
 
 ## Data model {#data-model}
 
@@ -44,9 +44,7 @@ title -- Optional title of the folder which can be displayed instead of its name
 >
 >Some properties of folder or asset are mapped to a different prefix. The JCR prefix of `jcr:title`, `jcr:description`, and `jcr:language` are replaced with `dc` prefix. Hence in the returned JSON, `dc:title` and `dc:description` contain the values of `jcr:title` and `jcr:description`, respectively.
 
-**Links**
-
-Folders expose three links:
+**Links** Folders expose three links:
 
 ```xml
 self      -- Link to itself
