@@ -30,7 +30,7 @@ The AEM Community is constantly producing example workflows, tutorials and conte
 * [Best practices for Developing in AEM](/help/sites-developing/best-practices.md)
 * [Best practices for SEO and URL Management](/help/managing/seo-and-url-management.md)
 * [AEM and the Web Accessibility Guidelines](/help/managing/web-accessibility.md)
-* [AEM and GDPR Readiness](/help/managing/gdpr-compliance.md)
+* [AEM and GDPR Readiness](/help/managing/data-protection-and-privacy.md)
 
 ## Getting started guides for different AEM capabilities {#getting-started}
 

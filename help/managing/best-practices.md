@@ -584,7 +584,7 @@ For best practices on deploying, administering, developing, or authoring, see th
     * [Enterprise DevOps](/help/managing/enterprise-devops.md)
     * [SEO and URL Management Best Practices](/help/managing/seo-and-url-management.md)
     * [AEM and the Web Accessibility Guidelines](/help/managing/web-accessibility.md)
-    * [General Data Protection Regulation](/help/managing/gdpr-compliance.md)
+    * [General Data Protection Regulation](/help/managing/data-protection-and-privacy.md)
 * [Deploying and Maintaining best practices](/help/sites-deploying/best-practices.md)
 * [Administering best practices](/help/sites-administering/administer-best-practices.md)
 * [Developing best practices](/help/sites-developing/best-practices.md)
