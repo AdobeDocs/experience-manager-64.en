@@ -1,11 +1,11 @@
 ---
-title: Single Zone to Multi Zone Takeover
-seo-title: Single Zone to Multizone Takeover
-description: Follow  this page to learn about the Single Zone to Multizone Takeover in an AEM Screens project.  
-seo-description: Follow  this page to learn about the Single Zone to Multizone Takeover in an AEM Screens project.    
+title: Multi Zone to Single Zone Takeover Loop
+seo-title: Multi Zone to Single Zone Takeover Loop
+description: Follow  this page to learn about Multi Zone to Single Zone Takeover Loop in an AEM Screens project.  
+seo-description: Multi Zone to Single Zone Takeover Loop in an AEM Screens project.  
 ---
 
-# Single Zone to Multi Zone Takeover {#single-zoneto-multizone}
+# Multi Zone to Single Zone Takeover Loop{#single-zoneto-multizone}
 
 ## Use Case Description {#use-case-description}
 
@@ -28,21 +28,22 @@ Content Authors
 
 Follow the steps below to set up a project:
 
-1. Create an AEM Screens Project named as **ZonesDemo**, as shown below.
+1. Create an AEM Screens Project named as **TakeoverLoop**, as shown below.
 
    >[!NOTE]
    >
    >To learn more about creating and managing projects in AEM Screens, refer to [Creating a Project](/help/screens/creating-a-screens-project.md).
 
-   ![screen_shot_2019-02-21at35809pm](assets/SZtoMZ1.png)
+   ![](assets/takeover-loop1.png)
 
-1. **Creating a Sequence Channel with one image**
+1. **Creating a Split Screen Channel**
 
     1. Select the **Channels** folder and click **Create** from the action bar to open the wizard to create a channel.
-    1. Select **Sequence Channel** from the wizard and create the channel titled as **FullScreenOne**.
+    1. Select **Left-L Bar Split Screen Channel** from the wizard and create the channel titled as **MultiZoneLayout**.
 
-       ![screen_shot_2019-02-21at35932pm](assets/SZtoMZ2.png)
-    1. Select the channel and click **Edit** from the action bar to open the editor and drag and drop an image to that channel, as shown below.
+       ![](assets/takeover-loop2.png)
+
+    1. Select the **MultiZoneLayout** channel and click **Edit** from the action bar to open the editor. Drag and drop the assets to each of the zones. The following example shows a video, image and a text banner in the channel, as shown below.
         ![screen_shot_2019-02-21at35932pm](assets/SZtoMZ3.png)
 
 1. **Creating a 2X2 Channel with four images**
@@ -74,35 +75,3 @@ Follow the steps below to set up a project:
        ![screen_shot_2019-02-21at35932pm](assets/SZtoMZ8.png)
     1. Select the channel and click **Edit** from the action bar to open the editor and drag and drop the video component to that channel and then add the desired video, as shown below.
         ![screen_shot_2019-02-21at35932pm](assets/SZtoMZ9.png)
-
-## Setting up the Takeover Channel to Transition from Single Zone to Multi Zone {#takeover-channel-setup}
-
-1. **Editing the Single Zone Channel for Multi Zone Takeover**
-
-    1. Select the channel (**FullScreenOne)** that you created in step 1.
-    1. Click **Edit** from the action bar to open the editor. Drag and drop two channel components and one video component to the editor.
-
-   ![screen_shot_2019-02-21at40516pm](assets/SZtoMZ10.png)
-
-1. **Populating the Components added to FullScreenOne Channel**
-
-     1. Select the first channel component from the editor of **FullScreenOne** and click **Configure** to point to the channel created in preceding steps. Add the path to the channel in **Channel Path** to both the channel components and drag and drop the video to the video component as shown below.
-
-   ![screen_shot_2019-02-21at40516pm](assets/SZ_MZvideo1.gif)
-
-1. **Setting up the time duration for the channels while transitioning**
-
-   >[!NOTE]
-   >
-   >By default, the assets will transition after every 8 seconds, but if you want the assets to transition after a specific time duration, follow the step below.
-
-   1. Select the second channel component from the editor of **FullScreenOne** and click **Settings** to configure the time duration for this channel. Similarly, set up the time duration for the channel two, as shown below.
-   In this example, the time is set to 3 seconds.
-
-   ![screen_shot_2019-02-21at40516pm](assets/SZ_MZvideo2.gif)
-
-## Previewing the Result {#previewing-result}
-
-You can click on **Preview** from the editor and check how the assets will transition from single zone to multizone.
-
-![](assets/SZ_MZvideo3.gif)
