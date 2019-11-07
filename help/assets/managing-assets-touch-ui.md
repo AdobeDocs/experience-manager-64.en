@@ -1,23 +1,17 @@
 ---
 title: Manage assets in AEM Assets
-seo-title: Manage assets in AEM Assets
-description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
-seo-description: Learn how to upload, manage, and edit assets using the touch-optimized user interface
+description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets
 uuid: f148c913-7b44-4285-8db9-138f959c4899
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
 ---
 
-# Managing Assets with the Touch-Optimized UI {#managing-assets-with-the-touch-optimized-ui}
+# Managing assets with the Touch-optimized UI {#managing-assets-with-the-touch-optimized-ui}
 
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 
-This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface. For an elementary knowledge about the user interface, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md).
-
->[!CAUTION]
->
->See also [Managing Content Fragments](content-fragments-managing.md) assets.
+This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface. For an elementary knowledge about the user interface, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md). To manage Content Fragments, see [Managing Content Fragments](content-fragments-managing.md) assets.
 
 ## Creating folders {#create-folders}
 
@@ -342,11 +336,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. Navigate to the location of the asset whose metadata you want to edit.  
 
-1. Select the asset, and tap **[!UICONTROL Properties]** from the toolbar to view asset properties.
-
-   ![properties](assets/properties.png)
-
-   Alternatively, choose the **[!UICONTROL Properties]** quick action on the asset card.
+1. Select the asset, and tap **[!UICONTROL Properties]** from the toolbar to view asset properties. Alternatively, choose the **[!UICONTROL Properties]** quick action on the asset card.
 
    ![properties_quickaction](assets/properties_quickaction.png)
 
@@ -356,26 +346,20 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. To schedule a particular date/time for the activation of the asset, use the date picker beside the **[!UICONTROL On Time]** field.
 
-   ![chlimage_1-12](assets/chlimage_1-12.png)
+   ![Set On time for assets to make assets availabile for a fixed period of time between on and off time](assets/chlimage_1-12.png)
 
 1. To deactivate the asset after a particular duration, choose the deactivation date and time from the date picker beside the **[!UICONTROL Off Time]** field.
 
-   The deactivation date should be later than the activation date for an asset.
+   The deactivation date should be later than the activation date for an asset. After the [!UICONTROL Off Time], an asset and its renditions are not available either via the Assets web interface or through the HTTP API.
 
-   ![chlimage_1-13](assets/chlimage_1-13.png)
-
-   After the Off time is reached, the asset and its renditions are no longer available in the Assets UI.
-
-   ![](assets/chlimage_1-13.png)
+   ![Set off time for assets to stop their availability after a certain period of time](assets/chlimage_1-13.png)
 
 1. In the **[!UICONTROL Tags]** field, select one or more tags. To add a custom tag, type the name of the tag in the box and press **[!UICONTROL Enter]**. The new tag is saved in AEM.
 
    YouTube requires tags to publish and have a link to YouTube (if a suitable link can be found).
+   To create tags, you require write permission for `/content/cq:tags/default` in the CRX repository.
 
-   
-   To be able to create tags, you require write permission for `/content/cq:tags/default` in the CRX repository.
-
-1. To provide a rating to the asset, tap the **[!UICONTROL Advanced]** tab and then tap the star at the appropriate position to assign the desired rating. 
+1. To provide a rating to the asset, tap the **[!UICONTROL Advanced]** tab and then tap the star at the appropriate position to assign the desired rating.
 
    ![ratings](assets/ratings.png)
 
