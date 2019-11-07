@@ -155,3 +155,9 @@ Please refer to the following resources to learn more about AEM On-premise softw
 
 * [Adobe Experience Manager Managed Services](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 
+### How can a customer extend the default properties of a page or an asset? {#how-to-extend-default-properties-page-or-asset}
+
+To learn about extending the default properties of a page or an asset, refer to the resources below: 
+
+* **[Metadata Schemas in Assets](/help/assets/metadata-schemas.md)**
+* **[Customizing Views of Page Properties](/help/sites-developing/page-properties-views.md)**

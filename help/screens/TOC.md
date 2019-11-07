@@ -14,7 +14,6 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Kickstart Guide](kickstart-for-aem-screens.md)
     + [Glossary](screens-glossary.md)
 + Administering {#administering}
-    + [administering-screens](administering-screens.md)
     + [Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
     + [Setting up ACLs](setting-up-acls.md)
     + [Device Registration](device-registration.md)
@@ -26,7 +25,6 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
     + [Author and Publish Architectural Overview](author-publish-architecture-overview.md)
 + Authoring {#authoring}
-    + [authoring-screens](authoring-screens.md)
     + [Creating and Managing Projects](creating-a-screens-project.md)
     + [Creating and Managing Channels](managing-channels.md)
     + [Creating and Managing Displays](managing-displays.md)
@@ -49,7 +47,6 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Using Dynamic Embedded Sequence](dynamic-embedded-sequences.md)
     + [Configuring Author and Publish](author-and-publish.md)
 + Developing {#developing}
-    + [developing-screens](developing-screens.md)
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
     + [Offline Channels](offline-channels.md)
@@ -58,7 +55,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Use Case Examples {#use-case-examples}
     + [Emergency Channels](emergency-channel.md)
-    + [Single Zone to Multi Zone Takeover](single-to-multizone-takeover.md)
+    + [Multi Zone to Single Zone Takeover Loop](multizone-to-singlezone.md)
 + Troubleshooting {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)

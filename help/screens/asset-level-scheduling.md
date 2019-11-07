@@ -12,19 +12,16 @@ discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
 noindex: true
 ---
 
-# Asset Level Scheduling{#asset-level-scheduling}
-
-<!--removed from TOC: admitteddomains: @adobe.com;@caesars.com-->
+# Asset Level Scheduling {#asset-level-scheduling}
 
 This section describes asset level scheduling for the assets used in Channels.
 
 The following topics are covered in this section:
 
-* OvervieW
+* Overview
 * Using Asset Level Scheduling
 * Handling Recurrence in Assets
 * Multi Asset Scheduling  
-
 
 >[!CAUTION]
 >
