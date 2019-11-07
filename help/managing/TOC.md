@@ -21,4 +21,4 @@ user-guide-title: AEM 6.4 Managing User Guide
   + [AEM and the Web Accessibility Guidelines](web-accessibility.md)
   + [Quick Guide to WCAG 2.0](qg-wcag.md)
 + Data Protection {#data-protection}
-  + [GDPR Readiness](gdpr-compliance.md)
+  + [AEM Readiness for Data Protection and Data Privacy Regulations](data-protection-and-privacy.md)

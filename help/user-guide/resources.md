@@ -24,7 +24,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 
 ## GDPR Readiness {#gdpr-readiness}
 
-[Comply with GDPR privacy standards.](/help/managing/gdpr-compliance.md)
+[Comply with GDPR privacy standards.](/help/managing/data-protection-and-privacy.md)
 
 ## Experience League {#experience-leauge}
 
