@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
+product: adobe experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens 6.4 Help
 ---
