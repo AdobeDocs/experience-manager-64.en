@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
+product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Deploying Guide
 ---
@@ -92,7 +92,7 @@ user-guide-title: AEM 6.4 Deploying Guide
    + [Performance & Scalability](performance.md)
 
 
-<!-- 
+<!--
 
 To be removed:
 [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)

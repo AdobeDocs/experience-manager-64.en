@@ -1,13 +1,13 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
+product: adobe experience manager
 audience: admin-user
 user-guide-title: AEM 6.4 Administering User Guide
 ---
 
 # AEM 6.4 Administering User Guide {#administering}
 
-+ [Administering User Guide overview](home.md) 
++ [Administering User Guide overview](home.md)
 + Sites Features {#introduction}
     + [Website Administration](msm-and-translation.md)
     + [Reusing Content: Multi Site Manager and Live Copy](msm.md)
