@@ -10,7 +10,7 @@ discoiquuid: c66b65af-443f-4fc2-b775-9f4e3c60285a
 
 # AEM FAQs{#aem-faqs}
 
-Know the answers to some AEM troubleshooting and configuration issues.
+Follow this page to get answers to some AEM troubleshooting and configuration issues.
 
 ## Sites {#sites}
 
@@ -78,19 +78,19 @@ You can opt into usage statistics collection by using either the Touch UI or the
 
 ### Is there a good resource that highlights the key features for upgrading to AEM 6.4? {#is-there-a-good-resource-that-highlights-the-key-features-for-upgrading-to-aem}
 
-Please refer to [Understanding Reasons to Upgrade AEM](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/upgrade-aem-article-understand.html) that describes high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.
+Refer to [Understanding Reasons to Upgrade AEM](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/upgrade-aem-article-understand.html) that describes high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.
 
 ### How to configure an AEM instance to use the PorterStem filter? {#how-to-configure-an-aem-instance-to-use-the-porterstem-filter}
 
 PorterStem filter applies the Porter Stemming Algorithm for English. The results are similar to using the Snowball Porter Stemmer with the *language="English"* argument. But this stemmer is coded directly in Java and is not based on Snowball. It does not accept a list of protected words and is only appropriate for English language text.
 
-Oak exposes a set of lucene-provides analyzer configuration elements for use in AEM. To learn how to use filters, please refer to **Apache Oak Analyzers** in [Simple search implementation guide](https://helpx.adobe.com/experience-manager/kt/sites/using/search-tutorial-develop.html).
+Oak exposes a set of lucene-provides analyzer configuration elements for use in AEM. To learn how to use filters, refer to **Apache Oak Analyzers** in [Simple search implementation guide](https://helpx.adobe.com/experience-manager/kt/sites/using/search-tutorial-develop.html).
 
 ### How to perform a full re-indexing? {#how-to-perform-a-full-re-indexing}
 
 Re-indexing should always be approached with proper consideration on its impact to AEM's overall performance, and performed during periods of low activity or maintenance windows.
 
-Please refer to the [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md) to understand the reasons for re-indexing.
+Refer to the [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md) to understand the reasons for re-indexing.
 
 ### Do we support minified JS libs in Design Importer? {#do-we-support-minified-js-libs-in-design-importer}
 
@@ -127,21 +127,22 @@ As a workaround, you can also manually disable the component either via the UI o
 
 ### How to configure Asset Insights with AEM 6.4 instance? {#how-to-configure-asset-insights-with-aem-instance}
 
-To setup and configure Asset Insights for Experience Manager deployed via Adobe Activation (DTM), please refer to [Set up Asset Insights with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/asset-insights-tutorial-setup.html).
+To setup and configure Asset Insights for Experience Manager deployed via Adobe Activation (DTM), refer to [Set up Asset Insights with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/asset-insights-tutorial-setup.html).
 
 ### How to customize admin consoles? {#how-to-customize-admin-consoles}
 
-AEM provides various mechanisms to enable you to customize the consoles and the page authoring functionality of your authoring instance. To learn how to create a custom console and customize a default view for a console, please refer to [Customizing the Consoles](/help/sites-developing/customizing-consoles-touch.md).
+AEM provides various mechanisms to enable you to customize the consoles and the page authoring functionality of your authoring instance. 
+To learn how to create a custom console and customize a default view for a console, refer to [Customizing the Consoles](/help/sites-developing/customizing-consoles-touch.md).
 
 ### What is the difference between CoralUI 2 and CoralUI 3-based components? {#what-is-the-difference-between-coralui-and-coralui-based-components}
 
 A new set of Sling components of Granite UI Foundation is created for Coral3 and is located under [/libs/granite/ui/components/coral/foundation.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/server.html) There is one set for CoralUI 2-based components and one set for CoralUI 3-based components. The new set will not be just a copy-paste of the old set, rather it will be cleaned up (for example streamlining, removing deprecated feature). So it is recommended that a page only use either CoralUI 3-based or CoralUI 2-based set.
 
-To learn more in detail, please refer to [Migration Guide to CoralUI 3-based](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/legacy/coral2/migration.html).
+To learn more in detail, refer to [Migration Guide to CoralUI 3-based](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/legacy/coral2/migration.html).
 
 ### How to customize the search component in AEM Assets? {#how-to-customize-the-search-component-in-aem-assets}
 
-To learn about search boost/ranking and further implementation information, please refer to [Simple search implementation guide](https://helpx.adobe.com/experience-manager/kt/sites/using/search-tutorial-develop.html).
+To learn about search boost/ranking and further implementation information, refer to [Simple search implementation guide.](https://helpx.adobe.com/experience-manager/kt/sites/using/search-tutorial-develop.html)
 
 The Simple search implementation are the materials from the 2017 Summit lab AEM Search Demystified.
 
@@ -159,5 +160,5 @@ Please refer to the following resources to learn more about AEM On-premise softw
 
 To learn about extending the default properties of a page or an asset, refer to the resources below: 
 
-* **[Metadata Schemas in Assets](/help/assets/metadata-schemas.md)**
-* **[Customizing Views of Page Properties](/help/sites-developing/page-properties-views.md)**
+* [Metadata Schemas in Assets](/help/assets/metadata-schemas.md)
+* [Customizing Views of Page Properties](/help/sites-developing/page-properties-views.md)
