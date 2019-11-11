@@ -503,10 +503,10 @@ This section describes how to set the **Process Arguments** of the **CommandLine
 The values of the **Process Arguments** must be separated by a comma and must not start with a whitespace.
 
 | Argument-Format | Description |
-|---|---|---|
-| mime:&lt;mime-type&gt; | Optional argument. The process is applied if the asset has the same mime-type as the one of the argument. <br />Several mime-types can be defined. |
-| tn:&lt;width&gt;:&lt;height&gt; | Optional argument. The process creates a thumbnail with the dimensions defined in the argument. <br />Several thumbnails can be defined. |
-| cmd: &lt;command&gt; | Defines the command that will be executed. The syntax depends on the command line tool. Only one command can be defined. <br />The following variables can be used to create the command:<br />`${filename}`: name of the input file, for example original.jpg <br /> `${file}`: full path name of the input file, for example /tmp/cqdam0816.tmp/original.jpg <br /> `${directory}`: directory of the input file, for example /tmp/cqdam0816.tmp <br />`${basename}`: name of the input file without its extension, for example original <br />`${extension}`: extension of the input file, for example jpg |
+|---|---|
+| mime:&lt;mime-type&gt; | Optional argument. The process is applied if the asset has the same mime-type as the one of the argument. <br>Several mime-types can be defined. |
+| tn:&lt;width&gt;:&lt;height&gt; | Optional argument. The process creates a thumbnail with the dimensions defined in the argument. <br>Several thumbnails can be defined. |
+| cmd: &lt;command&gt; | Defines the command that will be executed. The syntax depends on the command line tool. Only one command can be defined. <br>The following variables can be used to create the command:<br>`${filename}`: name of the input file, for example original.jpg <br> `${file}`: full path name of the input file, for example /tmp/cqdam0816.tmp/original.jpg <br> `${directory}`: directory of the input file, for example /tmp/cqdam0816.tmp <br>`${basename}`: name of the input file without its extension, for example original <br>`${extension}`: extension of the input file, for example jpg |
 
 For example, if ImageMagick is installed on the disk hosting the AEM server and if you create a process step using **CommandLineProcess** as Implementation and the following values as **Process Arguments**:
 
