@@ -44,11 +44,11 @@ Assets managed within CQ DAM can then be accessed via the content finder of WCM:
 >
 >The basic navigation of user interface is the same as the rest of AEM - see [Overview of the GUI Console](/help/sites-authoring/qg-page-authoring.md) for full details.
 
-### Digital Asset Management versus Image Component {#digital-asset-management-versus-image-component}
+### Digital Asset Management versus Image component {#digital-asset-management-versus-image-component}
 
-When determining whether to put an image into AEM Assets or use CQ's image component, consider the image lifecycle:
+When determining whether to put an image into AEM Assets or use the Image component, consider the image lifecycle:
 
-* If the image has the same lifecycle as the page, use the Image Component.
+* If the image has the same lifecycle as the page, use the Image component.
 * If the image has a separate life cycle, for example, if you use the image twice or outside WCM, use AEM Assets.
 
 ## What are Digital Assets? {#what-are-digital-assets}
@@ -61,7 +61,7 @@ An asset is essentially a binary plus metadata plus renditions plus sub-assets. 
 >
 >Uploading and/or editing a large volume of assets (particularly images) can impact the performance of your CQ instance.
 
-### AEM Assets Terminology {#aem-assets-terminology}
+### AEM Assets terminology {#aem-assets-terminology}
 
 When working with digital assets in AEM, you need to understand the following terminology:
 
@@ -71,7 +71,7 @@ When working with digital assets in AEM, you need to understand the following te
 
   * **Dublin Core**: including author, description, date, subject, and so on.
   * **IPTC**: including event, model, location, and so on.
-  * **WCM**: including page properties, on- and offtimes, and so on.
+  * **WCM**: including page properties, on time and off time, and so on.
 
 * **Tagging:** Assets can be tagged and classified. See Using Tags and Administering Tags.
 
