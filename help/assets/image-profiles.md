@@ -62,7 +62,7 @@ You have two image cropping options to choose from and an option for automating 
 
 ## Unsharp Mask {#unsharp-mask}
 
-You use **Unsharp mask** to fine-tune a sharpening filter effect on the final downsampled image. You can control intensity of effect, radius of the effect (measured in pixels), and a threshold of contrast that will be ignored. This effect uses the same options as Adobe Photoshop’s “Unsharp Mask” filter.
+You use **Unsharp Mask** to fine-tune a sharpening filter effect on the final downsampled image. You can control intensity of effect, radius of the effect (measured in pixels), and a threshold of contrast that will be ignored. This effect uses the same options as Adobe Photoshop’s “Unsharp Mask” filter.
 
 >[!NOTE]
 >
