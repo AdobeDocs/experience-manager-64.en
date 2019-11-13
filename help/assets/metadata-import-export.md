@@ -22,13 +22,14 @@ The metadata import is asynchronous and does not impede the system performance. 
 >
 >To import metadata on custom namespaces, first register the namespaces.
 
-1. Navigate to the Assets user interface, and tap/click Create **[!UICONTROL Create]** from the toolbar.
+1. Navigate to the Assets user interface, and tap/click **[!UICONTROL Create]** from the toolbar.
 1. From the menu, select **[!UICONTROL Metadata]**.
 1. On the **[!UICONTROL Metadata Import]** page, tap/click the **[!UICONTROL Select File]**.  Select the CSV file with the metadata.
 1. Specify the following parameters:
 
-    | Batch Size | Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100. |
+    | Metadata import parameters | Description |
     |:---|:---|
+    | Batch Size | Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100. |
     | Field Separator | Default value is Comma. You can specify any other character. |
     | Multi value Delimiter | Separator for metadata values. Default value is |. |
     | Launch Workflows | False by default. When set to true and default Launcher settings are in effect for the DAM Metadata WriteBack Workflow (that writes metadata to the binary XMP data). Enabling launch workflows slows the system down. |
