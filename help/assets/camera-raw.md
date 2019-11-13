@@ -18,7 +18,7 @@ To enable Camera Raw support in Assets, follow these steps:
 1. Based on the AEM version and the operating system, download the appropriate Camera Raw package and install it:
 
  | Supported Platforms | Package Share Link | Supported AEM Versions |
-|---|---|
+|---|---|---|
 | Windows 64 Bit, Mac OS, RHEL 7.x | 1.3.16 | 6.3, 6.4 |
 | Windows 64 Bit, Mac OS, RHEL 7.x | 1.2.8 | 6.2 |
 | Windows 64 Bit, Mac OS, RHEL 7.x | 1.1.22 | 6.1 |
