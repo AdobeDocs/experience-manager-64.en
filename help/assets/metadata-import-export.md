@@ -29,11 +29,11 @@ The metadata import is asynchronous and does not impede the system performance. 
 
     | Metadata import parameters | Description |
     |:---|:---|
-    | Batch Size | Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100. |
-    | Field Separator | Default value is Comma. You can specify any other character. |
-    | Multi value Delimiter | Separator for metadata values. Default value is |. |
-    | Launch Workflows | False by default. When set to true and default Launcher settings are in effect for the DAM Metadata WriteBack Workflow (that writes metadata to the binary XMP data). Enabling launch workflows slows the system down. |
-    | Asset Path Column Name | Defines the column name for the CSV file with assets. |
+    | [!UICONTROL Batch Size] | Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100. |
+    | [!UICONTROL Field Separator] | Default value is Comma. You can specify any other character. |
+    | [!UICONTROL Multi Value Delimiter] | Separator for metadata values. Default value is |. |
+    | [!UICONTROL Launch Workflows] | False by default. When set to true and default Launcher settings are in effect for the DAM Metadata WriteBack Workflow (that writes metadata to the binary XMP data). Enabling launch workflows slows the system down. |
+    | [!UICONTROL Asset Path Column Name] | Defines the column name for the CSV file with assets. |
 
 1. Tap/click **[!UICONTROL Import]** from the toolbar. After the metadata is imported, a notification is sent to your Notification inbox. Navigate to asset property page and verify whether the metadata values are correctly imported for assets.
 

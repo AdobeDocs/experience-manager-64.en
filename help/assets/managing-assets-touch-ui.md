@@ -27,6 +27,7 @@ When organizing a collection of assets, for example, all `Nature` images, you ca
 1. Click **[!UICONTROL Create]**. Your folder is displayed in the digital assets folder.
 
 The following (space-separated list of) characters are not supported:
+
 * asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
 * asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 

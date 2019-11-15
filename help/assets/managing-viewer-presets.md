@@ -251,10 +251,9 @@ When you create or edit an Interactive Video viewer preset, you have the choice 
 
 | Display Mode | Description |
 |---|---|
-| Segment | Segment is the default display mode for the out-of-box Interactive Video Viewer presets Shoppable_Video_light and Shoppable_Video_dark and any Interactive Video Viewer presets that you create yourself. |
+| [!UICONTROL Segment] | [!UICONTROL Segment] is the default display mode for the out-of-box Interactive Video Viewer presets Shoppable_Video_light and Shoppable_Video_dark and any Interactive Video Viewer presets that you create yourself. |
 | | In this mode, when there are fewer thumbnails assigned to a video segment than the number of visible spots in the display panel, thumbnails from the next or previous sub-segments are not pulled in to fill any empty spots in the panel. That is, it preserves the display of swatches that were assigned to the particular video segment. |
-| Continuous | In continuous display mode, if the number of thumbnails in a segment is less than the number that are visible in the panel, the viewer automatically includes the display of thumbnails from the next segment, or the previous segment, in cases where the last thumbnail is displayed. |
-| |  |
+| [!UICONTROL Continuous] | In [!UICONTROL Continuous] display mode, if the number of thumbnails in a segment is less than the number that are visible in the panel, the viewer automatically includes the display of thumbnails from the next segment, or the previous segment, in cases where the last thumbnail is displayed. |
 
 **About Auto Scrolling Behavior in the Interactive Video Viewer**
 

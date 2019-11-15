@@ -60,14 +60,14 @@ The **[!UICONTROL Build Form]** tab lists form items that you use in your folder
 
 | Component Name | Description |
 |---|---|
-| Section Header | Add a section heading for a list of common components. |
-| Single Line Text | Add a single-line text property. It is stored as a string. |
-| Multi Value Text | Add a multi value text property. It is stored as a string array. |
-| Number | Add a number component. |
-| Date | Add a date component. |
-| Dropdown | Add a drop-down list. |
-| Standard Tags | Add a tag. |
-| Hidden Field | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
+| [!UICONTROL Section Header] | Add a section heading for a list of common components. |
+| [!UICONTROL Single Line Text] | Add a single-line text property. It is stored as a string. |
+| [!UICONTROL Multi Value Text] | Add a multi value text property. It is stored as a string array. |
+| [!UICONTROL Number] | Add a number component. |
+| [!UICONTROL Date] | Add a date component. |
+| [!UICONTROL Dropdown] | Add a drop-down list. |
+| [!UICONTROL Standard Tags] | Add a tag. |
+| [!UICONTROL Hidden Field] | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
 
 ### Editing form items {#editing-form-items}
 
