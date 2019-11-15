@@ -164,7 +164,7 @@ If you don't wish to run data store garbage collection with the Weekly Maintenan
 >
 >In the following example `curl` commands various parameters might need to be configured for your instance; for example, the hostname ( `localhost`), port ( `4502`), admin password ( `xyz`) and various parameters for the actual data store garbage collection.
 
-Here is an example curl command to invoke data store garbage colleciton via the command line:
+Here is an example curl command to invoke data store garbage collection via the command line:
 
 ```shell
 curl -u admin:admin -X POST --data markOnly=true  http://localhost:4503/system/console/jmx/org.apache.jackrabbit.oak"%"3Aname"%"3Drepository+manager"%"2Ctype"%"3DRepositoryManagement/op/startDataStoreGC/boolean
