@@ -31,7 +31,7 @@ You can also review the following best practices documents around specific types
 
 >[!NOTE]
 >
->AEM to Creative Cloud folder sharing is deprecated and no longer covered in this guide. Adobe recommends capabilities like Adobe Asset Link or AEM desktop app]() to provide creative user with access to assets managed in AEM.
+>AEM to Creative Cloud folder sharing is deprecated and no longer covered in this guide. Adobe recommends capabilities like [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) or [AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html) to provide creative user with access to assets managed in AEM.
 
 
 ## Terms and definitions {#terms-and-definitions}
@@ -71,17 +71,17 @@ The following table provides a concise summary of when to use which solution or 
 
 | Use case | Desktop app | Folder sharing | Other solutions |
 |---|---|---|---|
-| Share smaller number [1] of DAM assets with Creative user | ✔✔ | ✔ | |
-| Share larger number [2] of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br /> [Asset Share](assets-finder-editor.md) |
+| Share smaller number (1) of DAM assets with Creative user | ✔✔ | ✔ | |
+| Share larger number (2) of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br /> [Asset Share](assets-finder-editor.md) |
 | Share DAM assets with users who have access to DAM | ✔✔ | ✔ | [Link Share](link-sharing.md) |
 | Share DAM assets with users who don't have access to DAM | ✘ | ✔✔ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br /> [Asset Share](assets-finder-editor.md) |
 | Save smaller number/volume of assets to DAM | ✔✔ | ✔ | [Web UI Upload](managing-assets-touch-ui.md) |
-| Save larger number of assets to DAM [3] | ✔✔ | ✘ | [Web UI Upload](managing-assets-touch-ui.md) <br /> Custom script / tool |
+| Save larger number of assets to DAM (3) | ✔✔ | ✘ | [Web UI Upload](managing-assets-touch-ui.md) <br /> Custom script / tool |
 | Migrate huge number of assets to DAM | ✘ | ✘ | [Migration Guide](assets-migration-guide.md) |
 | Quickly open an asset on desktop | ✔✔ | ✘ | |
 | Quickly open and change asset on desktop | ✔✔ | ✘ | |
 
-The meaning of the symbols:
+The legend for the symbols:
 
 * ✔✔: preferred solution
 * ✔: acceptable solution
@@ -89,9 +89,9 @@ The meaning of the symbols:
 
 Additional remarks:
 
-* [1] Smaller number of assets: for example, a small set of assets related to a project or campaign
-* [2] Larger number of assets: for example, all approved assets in the organization
-* [3] Use AEM desktop app upload folder feature
+* (1) Smaller number of assets: for example, a small set of assets related to a project or campaign
+* (2) Larger number of assets: for example, all approved assets in the organization
+* (3) Use AEM desktop app upload folder feature
 
 ### Best Practices for AEM and Creative Cloud Integrations {#best-practices-for-aem-and-creative-cloud-integrations}
 
