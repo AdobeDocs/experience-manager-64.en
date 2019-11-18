@@ -16,12 +16,118 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 
 | Products |**Adobe Experience Manager (AEM) 6.4** |
 |---|---|
-| Version |6.4.6.0 |
+| Version |6.4.7.0 |
 | Type |Service Pack Release |
-| Date |September 19, 2019 |
-| Download URL | [AEM 6.4.6.0 on PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.6.0) |
+| Date |December 12, 2019 |
+| Download URL | [AEM 6.4.7.0 on PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.6.0) |
 
-## What's included in AEM 6.4.6.0 {#what-s-included-in-aem}
+## What's included in AEM 6.4.7.0 {#what-s-included-in-aem}
+
+AEM 6.4.7.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in **April 2018.**
+
+It is also cumulative which means that 6.4.7.0 includes all AEM 6.4 service packs release before it.
+
+Some of the key highlights of AEM 6.4.7.0 are:
+
+* To be updated
+* To be updated
+* To be updated
+
+## List of changes {#list-of-changes}
+
+### Assets {#assets}
+
+* Update the list
+
+### Sites {#sites}
+
+* Update the list
+
+### Replication {#replication}
+
+* Update the list
+
+### Sling {#sling}
+
+* Update the list
+
+### Commerce {#commerce}
+
+* Update the list
+
+### Platform {#platform}
+
+* Update the list
+
+### Communities {#communities}
+
+* Update the list
+
+### Translation {#translation}
+
+* Update the list
+
+### Integration {#integration}
+
+* Update the list
+
+### Projects {#projects}
+
+* Update the list
+
+### UI-Consoles {#ui-consoles}
+
+* Update the list
+
+### UI-Foundation {#ui-foundation}
+
+* Update the list
+
+### Forms {#forms}
+
+>[!NOTE]
+>
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
+
+### Forms add-on package {#forms-add-on-package}
+
+#### Adaptive Forms {#adaptive-forms}
+
+* Update the list here
+
+#### Forms - Backend Integration {#backend-integration}
+
+* Update the list here
+
+#### Forms - Correspondence Management {#forms-correspondence-management}
+
+* Update the list here
+
+#### HTML5 Forms {#html5-forms}
+
+* Update the list here
+
+### Forms JEE installer {#forms-jee-installer}
+
+#### Forms - Foundation JEE {#forms-foundation-jee}
+
+* Update the list here
+
+#### Forms - Document Services {#document-services}
+
+* Update the list here
+
+#### Forms - Document Security {#forms-document-security}
+
+* Update the list here
+
+#### PDFG Service {#pdfg-service}
+
+* Update the list here
+
+### Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
+
+#### AEM 6.4.6.0 {#experience-manager-6460}
 
 AEM 6.4.6.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in **April 2018.**
 
@@ -33,9 +139,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * Added support for tracking dynamic-UI-states in tracking event in the foundation API.
 * Added rendition support to the image core component.
 
-## List of changes {#list-of-changes}
-
-### Assets {#assets}
+**Assets**
 
 * Asset share link of a folder with space and `&` character in the name displays blank gray cards for some assets. NPR-29934: Hotfix for CQ-4270187
 * DAM Workflow crashes while creating MP4 assets for AEM. NPR-30031: Hotfix for CQ-4271352
@@ -52,7 +156,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * When using the carousel for managing tags, the navigation button does not work. Hotfix for CQ-4275499
 * Bulk move asset functionality is broken resulting in non-movement of assets. Hotfix for CQ-4272987
 
-### Sites {#sites}
+**Sites**
 
 * `pageinfo.json` requests are extremely slow and take too long to load. NPR-29709: Hotfix for CQ-4269560
 * `onTime` or `offTime` metadata properties saved on assets are not recalled if the AEM server gets restarted. NPR-30413: Hotfix for CQ-4272784
@@ -74,25 +178,25 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * The VersionPreviewServlet is failing in NullPointerException when trying to display a version of an Experience Fragment in the timeline. NPR-30074: Hotfix for CQ-4271881
 * Unable to lock content fragments via the check-in feature. NPR-29923: Hotfix for CQ-4258785
 
-### Replication {#replication}
+**Replication**
 
 * JCR Session / Resource Resolver is leaked during OAuth implementation on every replication to MAC / Brand Portal. NPR-30000: Hotfix for Granite-26196
 
-### Sling {#sling}
+**Sling**
 
 * The order of children affected using overlap and order before is causing IndexOutOfBoundException. NPR-30408: Hotfix for Sling-8296 & Sling-7375
 * InactiveBundlesHealthCheck are reading MissingPackagesHealthCheck configuration once the InactiveBundlesHealthCheck configurations are saved. NPR-30084: Hotfix for CQ-4272644
 
-### Commerce {#commerce}
+**Commerce**
 
 * Unable to run catalog blueprint from Sites console. NPR-29829: Hotfix for CQ-4271461
 * The asset used in the product does not show any reference to the product in the "References' section of the asset neither the asset path gets updated if the asset is moved. NPR-30542: Hotfix for CQ-4270247
 
-### Platform {#platform}
+**Platform**
 
 * AEM Default Mail Sender is unable to send mail to a remote SMTP server over TLS v1.2. NPR-30476: Hotfix for GRANITE-26605
 
-### Communities {#communities}
+**Communities**
 
 * Groups deleted on the author are not in sync with all the publishers. NPR-29987: Hotfix for CQ-4268738
 * Deleted users removed from the Community Administrators Field are not in sync with the Membership group. NPR-30389: Hotfix for CQ-4274339
@@ -100,81 +204,79 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * Updating any newly created and existing Community group overwrites the property on jcr: content node and changes their name to first page's title. NPR-30109: Hotfix for CQ-4273719
 * Quicksearch and search through location and address is not working when the community is set to work with Database Storage Resource Provider (DSRP). NPR-26737: Hotfix for CQ-4258493
 
-### Translation {#translation}
+**Translation**
 
 * Auto-execution of Translation does not work. NPR-30499: Hotfix for CQ-4276288
 * User is able to create language copy on the content path restricted to read-only. NPR-29937: Hotfix for CQ-4270708
 * Translation issue - Only a few components are translated using Machine Translation. NPR-30079: Hotfix for CQ-4273764
 
-### Integration {#integration}
+**Integration**
 
 * The customized content is not displayed correctly on the publish instance until the restart of the instance. NPR-30421: Hotfix for CQ-4273706
 
-### Projects {#projects}
+**Projects**
 
 * dam: folderThumbnailPaths values do not get refreshed and display old thumbnails even after deleting the assets within the folder. NPR-30424: Hotfix for CQ-4273667
 
-### UI-Consoles {#ui-consoles}
+**UI-Consoles**
 
 * Cross-site scripting (XSS) on Sites page properties on thumbnail tab. NPR-30048: Hotfix for Granite-26200
 
-### UI-Foundation {#ui-foundation}
+**UI-Foundation**
 
 * Added support for tracking dynamic-UI-states in tracking event in the foundation API. NPR-30742, GRANITE-26322: Hotfix for GRANITE-26036
 
-### Forms {#forms}
+**Forms**
 
 >[!NOTE]
 >
 >AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
 
-### Forms add-on package {#forms-add-on-package}
+**Forms add-on package**
 
-#### Adaptive Forms {#adaptive-forms}
+**Adaptive Forms**
 
 * Empty .css file takes longer time to fetch from the publisher, causing performance issue. NPR-30558: Hotfix for CQ-4274399
 * Forms that are modified after publishing do not get posted again on publishing the site. NPR-30411: Hotfix for CQ-4236566
 
-#### Forms - Backend Integration {#backend-integration}
+**Forms - Backend Integration**
 
 * An error is thrown while creating the Form Data Model with the Web Service Definition Language (WSDL). NPR-30388: Hotfix for CQ-4272921
 
-#### Forms - Correspondence Management {#forms-correspondence-management}
+**Forms - Correspondence Management**
 
 * Special characters such as less-than (<), greater-than (>) and ampersand (&) get encoded in the Agent UI. NPR-30410: Hotfix for CQ-4273887
 * When triggering text fragment containing Data Dictionary values, the Agent UI becomes unresponsive. NPR-30098, NPR-30083: Hotfix for CQ-4272204
 * Create Correspondence UI (CCR UI) fails intermittently with error variable (object Object). NPR-29983: Hotfix for CQ-4273874
 * Letter draft reload fails with an exception when the description of Document Fragments contain special characters like less-than (<), greater-than (>) and ampersand (&) in properties. NPR-29930: Hotfix for CQ-4252762
 
-#### HTML5 Forms {#html5-forms}
+**HTML5 Forms**
 
 * When using NonVisual Desktop Access in Browse mode to read an HTML5 form, the Chrome browser reads "graphic" before each Scalable Vector Graphic (SVG) in the form design. NPR-30450: Hotfix for CQ-4274732
 
-### Forms JEE installer {#forms-jee-installer}
+**Forms JEE installer**
 
-#### Forms - Foundation JEE {#forms-foundation-jee}
+**Forms - Foundation JEE**
 
 * Adding or editing a Web Service connection by invoking web services from AEM forms Workbench throws an error: ClassNotFoundException org.apache.axis.message.SOAPBodyElement. NPR-30116: Hotfix for CQ-4273217
 
-#### Forms - Document Services {#document-services}
+**Forms - Document Services**
 
 * PDF/A  label missing error in Acrobat preflight. NPR-30594: Hotfix for CQ-4276032
 * Single character Data Bindings in PDF cause Reader Extensions to fail with an error "java.lang.StringIndexOutOfBoundsException: String index out of range: 1". NPR-30128: Hotfix for CQ-4273878
 * When a load test is performed on HTML to PDF service, it fails with an error and file type settings are removed from AEM forms server. NPR-30085: Hotfix for CQ-4272631
 * Flattening a PDF with Adobe Acrobat 9.1 (XFA version 3.0) does not retain the PDF form state: Invisible elements on the form are set back to a visible state. NPR-29978: Hotfix for CQ-4270888
 
-#### Forms - Document Security {#forms-document-security}
+**Forms - Document Security**
 
 * Applying a signature with timestamp fails with error: ALC-DSC-003-000: com.adobe.idp.dsc.DSCInvocationException: Invocation error. NPR-30696, NPR-30537: Hotfix for CQ-4273778
 * Configuration Manager does not insert Japanese strings for localized table columns. NPR-30496: Hotfix for CQ-4274868
 
-#### PDFG Service {#pdfg-service}
+**PDFG Service**
 
 * Connection error while trying to convert Word document to PDF on Windows Server 2016. NPR-30597: Hotfix for CQ-4275652
 * Permission denied exception when trying to use the HTML to PDF backend service via the "phantomjs" library. NPR-30456: Hotfix for CQ-4258077
 * maxReuseCount for HTML to PDF service is not shown with JBoss Management Console. NPR-30303, NPR-30135: Hotfix for CQ-4273763
-
-### Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
 
 #### AEM 6.4.5.0 {#experience-manager-6450}
 
@@ -1755,7 +1857,7 @@ List of Content Packages included in AEM 6.4.1.0
 
 [Get File](assets/6_4_1_0_content-package-list.txt)
 
-### Install 6.4.6.0 {#install}
+### Install 6.4.7.0 {#install}
 
 #### Setup requirements {#setup-requirements}
 
@@ -1773,15 +1875,15 @@ List of Content Packages included in AEM 6.4.1.0
 >
 >For customers with Feature Packs installed on AEM 6.4. Optional Feature Packs provided by Adobe have dependencies on the release version and service pack. If you have any Feature Pack installed, please contact the AEM Customer Care team to validate the compatibility of those feature packs with this service pack for AEM 6.4.
 
-* AEM 6.4.6.0 requires AEM 6.4. Please visit [upgrade documentation](../sites-deploying/upgrade.md) for detailed instructions.
+* AEM 6.4.7.0 requires AEM 6.4. Please visit [upgrade documentation](../sites-deploying/upgrade.md) for detailed instructions.
 * The Service Pack download is available on Adobe Package Share, which you can access directly from the AEM 6.4 instance.
-* On a deployment with MongoDB and multiple instances, install AEM 6.4.6.0 on one of the Author instances using the Package Manager.
+* On a deployment with MongoDB and multiple instances, install AEM 6.4.7.0 on one of the Author instances using the Package Manager.
 * Before installing the service pack, ensure to have a snapshot or fresh backup of your AEM instance. 
 * Restart the instance before installation. While that is only needed when the instance is still in update mode (and this is the case when the instance was just updated from an earlier version), it's generally recommended if the instance was running for longer period of time.
 
 >[!NOTE]
 >
->Adobe does not recommend removing or uninstalling the AEM 6.4.6.0 package.
+>Adobe does not recommend removing or uninstalling the AEM 6.4.7.0 package.
 
 ### Install the Service Pack via Package Share {#install-the-service-pack-via-package-share}
 
@@ -1789,18 +1891,18 @@ Perform the following steps to install the Service Pack on an existing AEM 6.4 i
 
 1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.6.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.6.0).
 
-   (search for "AEM-6.4.6.0" to find it) 
+   (search for "AEM-6.4.7.0" to find it) 
 1. Install the downloaded package using Package Manager.
 
 >[!NOTE]
 >
->**Dialog on Package Manager UI sometimes exits immaturely during installation of 6.4.6.0**
+>**Dialog on Package Manager UI sometimes exits immaturely during installation of 6.4.7.0**
 >
 >Therefore, it is recommended to wait for error logs to stabilize before accessing the instance. The user has to wait for specific logs related to uninstallation of updater bundle before being ensured that the installations is successful. It generally happens on Safari but can intermittently happen on any browser.
 
 ### Automatic installation {#auto-installation}
 
-There are two ways to automatically install AEM 6.4.6.0 into a running instance:
+There are two ways to automatically install AEM 6.4.7.0 into a running instance:
 
 A. Place the package into ..*/crx-quickstart/install* folder while the server is running. The package gets installed automatically.
 
@@ -1808,22 +1910,22 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 
 >[!NOTE]
 >
->AEM 6.4.6.0 does not support Bootstrap installation.
+>AEM 6.4.7.0 does not support Bootstrap installation.
 
 ### Validate installation {#validate-install}
 
-1. The Product Information page (*/system/console/  productinfo *) should now show the updated version string "Adobe Experience Manager, Version 6.4.6.0" under Installed Products.
+1. The Product Information page (*/system/console/  productinfo *) should now show the updated version string "Adobe Experience Manager, Version 6.4.7.0" under Installed Products.
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
 1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.15 or higher (Use Web Console: /system/console/bundles).
 
 To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites-deploying/technical-requirements.md).
 
 >[!Note]
->On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-6 installed successfully."**
+>On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-7 installed successfully."**
 
 ### Update Dynamic Media Viewers (5.10.1) {#update-dynamic-media-viewers}
 
-<p id="Dynamic">AEM 6.4.6.0 contains new version of Dynamic Media viewers (5.10.1) which enables check for duplicate names on Image Preset page. Dynamic Media customers are advised to run the following command to bring out of the box viewer presets to an up-to-date state.
+<p id="Dynamic">AEM 6.4.7.0 contains new version of Dynamic Media viewers (5.10.1) which enables check for duplicate names on Image Preset page. Dynamic Media customers are advised to run the following command to bring out of the box viewer presets to an up-to-date state.
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
 
@@ -1839,7 +1941,7 @@ which will copy new viewer presets to /conf location.
 
 >[!NOTE]
 >
->AEM 6.4.6.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/fd/AEM-FORMS-6.4.2.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.4.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
+>AEM 6.4.7.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/fd/AEM-FORMS-6.4.2.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.4.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
 
 1. Ensure that you have installed the AEM Service Pack. 
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.
@@ -1877,7 +1979,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 ### Uber Jar {#uber-jar}
 
-The Uber Jar for AEM 6.4.6.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.6/).
+The Uber Jar for AEM 6.4.7.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.6/).
 
 To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
