@@ -19,6 +19,15 @@ In this one-stop shop newsletter, discover valuable knowledge-building resources
 
 ## Missed an issue of the Dynamic Media Newsletter?
 
+* **[November 2019, Issue 11](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)**
+    In this issue:
+
+    * A refresh of the Dynamic Media Classic user interface.
+    * Powerful new security features.
+    * How we are preparing so you have a successful holiday season.
+    * Share the newsletter with your colleagues to build team expertise.
+    * Meet Apoorva Gupta, Senior Product Manager, Dynamic Media.
+
 * **[October 2019, Issue 10](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**
     In this issue:
 
