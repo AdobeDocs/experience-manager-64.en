@@ -28,7 +28,7 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Sling Cheatsheet](sling-cheatsheet.md)
     + [Using Sling Adapters](sling-adapters.md)
     + [Tag Libraries](taglib.md)
-    + Templates|{#templates}
+    + Templates{#templates}
       + [Templates](templates.md)
       + [Page Templates - Editable ](page-templates-editable.md)
       + [Page Templates - Static](page-templates-static.md)
