@@ -371,8 +371,8 @@ You can determine what actions users can perform on selected digital assets from
 
 To add actions to the Asset Editor page:
 
-1. In the Asset Editor page that you want to customize, click **[!UICONTROL Asset Editor]** in the sidekick. 
-    ![screen_shot_2012-04-23at35515pm](assets/screen_shot_2012-04-23at35515pm.png)
+1. In the Asset Editor page that you want to customize, click **[!UICONTROL Asset Editor]** in the sidekick.<br>
+    ![select asset editor in sidekick](assets/screen_shot_2012-04-23at35515pm.png)
 
     The following actions are available:
 

@@ -298,7 +298,7 @@ This configuration adds a property `hasValidMetadata` to jcr:content of assets. 
 
 >[!NOTE]
 >
->If an asset is added after the scheduled check, the asset is not flagged with hasValidMetadata until  the next scheduled check. The assets does not appear in intermediate search results.
+>If an asset is added after the scheduled check, the asset is not flagged with `hasValidMetadata` until  the next scheduled check. The assets do not appear in intermediate search results.
 
 >[!Caution]
 >
