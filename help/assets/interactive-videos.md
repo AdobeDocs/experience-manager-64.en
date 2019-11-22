@@ -21,9 +21,9 @@ See also [Interactive Images](interactive-images.md).
 
 Click [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) to see an interactive, shoppable video in action. Scroll to the **[!UICONTROL Shoppable Media]** heading on the [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) page, then click the shoppable video.
 
-  * During playback, as products are used in the video, the identical product appears on the right as a thumbnail image.
+* During playback, as products are used in the video, the identical product appears on the right as a thumbnail image.
 
-  * Click the thumbnail to pause the video and open the product's quickview. For example, click the KitchenAid thumbnail image in the video to experience a 360-degree spin view of the mixer, or zoom in to see mixer details.
+* Click the thumbnail to pause the video and open the product's quickview. For example, click the KitchenAid thumbnail image in the video to experience a 360-degree spin view of the mixer, or zoom in to see mixer details.
 
 <!-- There was a link here that showed the video frame of an interactive video and when the reader clicked the frame the video would play https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html. This now needs to call a new interactive video-->
 
