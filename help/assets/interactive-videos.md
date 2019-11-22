@@ -19,7 +19,7 @@ See also [Interactive Images](interactive-images.md).
 
 ## Interactive video in action {#interactive-video-in-action}
 
-Click [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) to see an interactive, shoppable video in action. Scroll to the **[!UICONTROL Shoppable Media]** heading on the [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) page, then click the shoppable video.
+To see an interactive, shoppable video in action, click [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html), scroll to the **[!UICONTROL Shoppable Media]** heading on the page, then click the shoppable video.
 
 * During playback, as products are used in the video, the identical product appears on the right as a thumbnail image.
 
