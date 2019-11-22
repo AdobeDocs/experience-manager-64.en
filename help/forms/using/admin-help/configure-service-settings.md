@@ -1,4 +1,4 @@
-`---
+---
 title: Configure service settings
 seo-title: Configure service settings
 description: Learn how to configure service settings.
