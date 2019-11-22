@@ -19,17 +19,19 @@ See also [Interactive Images](interactive-images.md).
 
 ## Interactive video in action {#interactive-video-in-action}
 
-Click the following screenshot to watch the interactive video in full.
+Click [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) to see an interactive, shoppable video in action. Scroll to the **[!UICONTROL Shoppable Media]** heading on the [Live Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) page, then click the shoppable video.
 
-During playback, as products are used in the video, the identical product appears on the right as a thumbnail image.
+  * During playback, as products are used in the video, the identical product appears on the right as a thumbnail image.
 
-Click the thumbnail to pause the video and open the product's Quickview. For example, click the KitchenAid thumbnail image to experience a 360-degree spin view of the mixer, or zoom in to see mixer details.
+  * Click the thumbnail to pause the video and open the product's quickview. For example, click the KitchenAid thumbnail image in the video to experience a 360-degree spin view of the mixer, or zoom in to see mixer details.
 
-![chlimage_1-126](assets/chlimage_1-126.png)
+<!-- There was a link here that showed the video frame of an interactive video and when the reader clicked the frame the video would play https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html. This now needs to call a new interactive video-->
+
+![A frame from an interactive, shoppable video](assets/chlimage_1-126.png) *A video frame capture from an interactive, shoppable video.*
 
 >[!NOTE]
 >
->If you create an interactive video to launch a web page when a user clicks a thumbnail image, some devices will block the pop-up web page from opening. In such cases, you must change the pop-up blocker setting on the device. For example, on an Apple iPhone 6, tap **[!UICONTROL Settings > Safari > Block Pop-ups]**, then slide the control to `Off`. Now, when you play an interactive video and click a thumbnail, you are prompted if you want to open the pop-up. If you accept, the web page opens.
+>If you create an interactive video to launch a web page when a user clicks a thumbnail image, some devices will block the pop-up web page from opening. In such cases, you must change the pop-up blocker setting on the device. For example, on an Apple iPhone 6, tap **[!UICONTROL Settings** &gt; **Safari** &gt; **Block Pop-ups**, then slide the control to **[!UICONTROL Off**. Now, when you play an interactive video and click a thumbnail, you are prompted if you want to open the pop-up. If you accept, the web page opens.
 
 ## Watch how interactive videos are created {#watch-how-interactive-videos-are-created}
 
