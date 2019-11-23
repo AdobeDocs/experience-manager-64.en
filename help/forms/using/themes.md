@@ -500,7 +500,7 @@ You can now use fonts available in a web-service in an adaptive form or interact
 Perform the following steps to configure Typekit in AEM:
 
 1. In the author instance, click ![adobeexperiencemanager](assets/adobeexperiencemanager.png)**[!UICONTROL Adobe Experience Manager > Tools]** ![hammer](assets/hammer.png) **[!UICONTROL > Deployment > Cloud Services]**.
-1. On the **[!UICONTROL Cloud Services]** page, navigate to **[!UICONTROL Third Party Services** >  **Typekit,]** and click **[!UICONTROL Configure Now]** under Typekit. If a configuration is already available, click the **+** button to create a new instance. 
+1. On the **[!UICONTROL Cloud Services]** page, navigate to **[!UICONTROL Third Party Services]** >  **[!UICONTROL Typekit]** , and click **[!UICONTROL Configure Now]** under Typekit. If a configuration is already available, click the **+** button to create a new instance. 
 1. On the **[!UICONTROL Create Configuration]** dialog, specify a title for the configuration and click **[!UICONTROL Create]**.
 
    You are redirected to the configuration page.
