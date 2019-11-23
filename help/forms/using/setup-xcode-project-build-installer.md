@@ -121,7 +121,7 @@ For detailed information about Code Signing and adding devices to the iOS Provis
 
 1. Under **PROJECT**, select **AEM Forms** and ensure that the appropriate signature is selected for **Code Signing Identity**, **Debug**, **Release** and **Any iOS SDK**.
 1. Connect a provisioned iPad to a Mac machine. 
-1. Select the provisioned device for the **AEM Forms **project.
+1. Select the provisioned device for the **AEM Forms** project.
 
    ![ipad](assets/ipad.png)
 
@@ -135,7 +135,7 @@ For detailed information about Code Signing and adding devices to the iOS Provis
 You need to archive the Xcode project to build the installer (an .ipa file) and a property list (a .plist file) file. The property list file contains configuration information of the hosted in-house app, such as the name and the hosting location of the app. For more information about property list file, see [About Information Property List Files](https://developer.apple.com/library/ios/#documentation/general/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html).
 
 1. Connect a provisioned iPad to a Mac machine. For detailed information about provisioning an iPad, see [Creating and Downloading Development Provisioning Profiles](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/CreatingYourTeamProvisioningProfile/CreatingYourTeamProvisioningProfile.html)
-1. Select the provisioned device for the **AEM Forms **project.
+1. Select the provisioned device for the **AEM Forms** project.
 
    ![ipad-1](assets/ipad-1.png)
 
