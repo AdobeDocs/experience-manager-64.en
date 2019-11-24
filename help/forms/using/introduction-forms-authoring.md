@@ -382,7 +382,7 @@ The content structure typically contains the following primary components:
 
 * **[!UICONTROL rootPanel]**: The root panel of an adaptive form. It can contain subpanels under the items node. Each panel including the root panel can have a layout associated with it. The layout of the panel dictates how the form is laid out. For example, in the Accordion layout*, *its items are laid out as Accordion steps.
 
-* **[!UICONTROL toolbar]**: An adaptive form container has an associated global toolbar, which is global to the form. This toolbar can be added using the **Add Toolbar **action in the edit bar, which allows authors to add actions, such as Submit, Save, Reset, and so on. 
+* **[!UICONTROL toolbar]**: An adaptive form container has an associated global toolbar, which is global to the form. This toolbar can be added using the **Add Toolbar** action in the edit bar, which allows authors to add actions, such as Submit, Save, Reset, and so on.
 
 * **[!UICONTROL assets]**: This node contains additional information used for form authoring. For example, form model details, localization details, and so on).
 

@@ -184,7 +184,7 @@ There are some frequently asked questions (FAQ) about layout, scripting support,
 
     1. Open CRXde lite and navigate to the `/content/xfaforms/profiles/default` node.
     1. Add a property `mfDataDependentFloatingField` of type String and set the value of the property to `true`**.**
-    1. Click** Save All**. Now the floating fields are enabled for the HTML Forms using the updated rendering profile.
+    1. Click **Save All**. Now the floating fields are enabled for the HTML Forms using the updated rendering profile.
 
        >[!NOTE]
        >

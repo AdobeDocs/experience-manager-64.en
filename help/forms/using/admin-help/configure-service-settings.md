@@ -615,7 +615,7 @@ The following settings are available for the Signature service.
 
 **TSP Response Size:** Estimated size, in bytes, of the TSP response. This value should represent the maximum size of the timestamp response that the configured timestamp provider could return. Do not change this unless you are absolutely sure. The minimum value is 60B and the maximum value is 10240B. The default value is 4096B.
 
-**Ignore TimeStamp Server Extension**: Select the** Ignore TimeStamp Server Extension** option to stop AEM Forms server from contacting the specified time stamp server. Selecting the option helps avoid process failures which happen due to connection timeout between AEM Forms and time stamp servers.
+**Ignore TimeStamp Server Extension**: Select the **Ignore TimeStamp Server Extension** option to stop AEM Forms server from contacting the specified time stamp server. Selecting the option helps avoid process failures which happen due to connection timeout between AEM Forms and time stamp servers.
 
 ### Certificate Revocation List Options {#certificate-revocation-list-options}
 
@@ -792,11 +792,11 @@ Default security profiles are installed, which can then be configured to meet yo
 
    To specify the run-time identity used by a service to execute operations, select Specify Run As, select an option from the associated list, and then click Save. Choose from the following options:
 
-   **Invoker: **Uses the same identity as the user who invoked the service.
+   **Invoker:** Uses the same identity as the user who invoked the service.
 
-   **System: **Uses the System user to run the service with full privileges.
+   **System:** Uses the System user to run the service with full privileges.
 
-   **Named User: **Enables you to run the service as a specific user. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user.
+   **Named User:** Enables you to run the service as a specific user. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user.
 
    If you do not select Specify Run As, the default behavior is used.
 
