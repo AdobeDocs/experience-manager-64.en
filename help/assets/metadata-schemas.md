@@ -55,7 +55,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
     * **collection**: Schema form for collections
     * **contentfragment:** Schema form for Content Fragments
-    * **forms**: This schema form relates to [Adobe Experience Manager Forms](https://helpx.adobe.com/experience-manager/6-4/forms/user-guide.html)
+    * **forms**: This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md)
 
 >[!NOTE]
 >
