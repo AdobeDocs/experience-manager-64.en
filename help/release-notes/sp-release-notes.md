@@ -43,43 +43,33 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 * Update the list
 
-### Replication {#replication}
+### Integrations {#integrations}
 
-* Update the list
-
-### Sling {#sling}
-
-* Update the list
-
-### Commerce {#commerce}
-
-* Update the list
+* When configuring Adobe Launch, a forward slash (/) is prepended in the library URL (NPR-30700).
+ContextHub performance degrades after publishing (NPR-30884).
 
 ### Platform {#platform}
 
-* Update the list
+* Updates in buffer size configuration for Jetty-based HTTP service are not saved (NPR-30925).
+QueryBuilder now supports orderby fn:name() in xpath queries (NPR-31322).
 
-### Communities {#communities}
+* Updated Sling distributed event admin to version 1.1.4 improving the quality of logs in a clustered environment (NPR-29256).
 
-* Update the list
+### Foundation UI {#ui-foundation}
+
+* Scrolling to the end of the results page with a large number of search results causes the browser to crash (NPR-31332).
+
+* When switching from the Card view to the List view on a search results page, there is a lag before the page can be scrolled (NPR-31280).
+
+### Oak {#oak}
+
+* MS Office files with .docx and .xlsx file extensions containing JPEG images fail to parse using Tika parser (NPR-31693).
 
 ### Translation {#translation}
 
-* Update the list
+* The path to the destination experience fragment is not getting updated when promoting a launch page (NPR-30830).
 
-### Integration {#integration}
-
-* Update the list
-
-### Projects {#projects}
-
-* Update the list
-
-### UI-Consoles {#ui-consoles}
-
-* Update the list
-
-### UI-Foundation {#ui-foundation}
+### Communities {#communities}
 
 * Update the list
 
