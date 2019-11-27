@@ -29,7 +29,7 @@ If you want to migrate assets from your legacy system to AEM Assets, there are s
 When handling AEM instances, understanding the network topology is important to understand network performance, identify chokepoints, and describe the expected user experience. The Assets Network Considerations document discusses network considerations when designing your AEM Asset deployment.
 * [Assets Monitoring guide](assets-monitoring-best-practices.md)
 After your AEM instance is deployed, you should monitor certain tasks and the system in general to ensure system integrity and efficiency of operations. The Monitoring guide includes best practices for monitoring various aspects of your system.
-* [Assets Offloading guide](assets-offloading-best-practices.md)
+* (Deprecated) [Assets Offloading guide](assets-offloading-best-practices.md)
 Handling large files and running workflows in AEM Assets can consume considerable CPU, memory, and I/O resources. Offloading these tasks can reduce CPU, memory, and IO overheads. The Assets offloading guide includes recommended use cases and best practices for Assets offloading.
 * [AEM desktop app Best Practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html)
 AEM desktop app links your digital asset management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. AEM desktop app's easy-to-use workflow is enabled using network share technology that desktop operating systems provide. This guide explains key capabilities and recommended use of AEM desktop app.

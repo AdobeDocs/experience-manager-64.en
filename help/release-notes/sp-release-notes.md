@@ -187,8 +187,8 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.13.
 * Added socket timeout and connection timeout in Brand Portal replication agents.
 * Omnisearch enhancements - Increased the pagination limit of the search result to 100 pages.
-* Disabled `AssetDownloadServlet` OSGi component by default on AEM publish instances. For more information, see [Download assets from AEM](https://helpx.adobe.com/experience-manager/6-4/assets/using/download-assets-from-aem.html).
-* Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/reuse-assets-using-msm.html).
+* Disabled `AssetDownloadServlet` OSGi component by default on AEM publish instances. For more information, see [Download assets from AEM](/help/assets/download-assets-from-aem.md).
+* Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](/help/assets/reuse-assets-using-msm.md).
 
 **Assets**
 
@@ -399,7 +399,7 @@ The key highlights for AEM 6.4.5.0 forms are:
 
 **Assets**
 
-* Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/reuse-assets-using-msm.html). NPR-26450: Hotfix for CQ-4259922
+* Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](/help/assets/reuse-assets-using-msm.md). NPR-26450: Hotfix for CQ-4259922
 
 **OSGI bundles and content packages included**
 
@@ -445,8 +445,8 @@ Some of the key highlights of AEM 6.4.4.0 are:
 * When a CSV file has value which is separated by comma in a single column, AEM CSV editor does not escape the comma and treats it as a separate column. NPR-28801: Hotfix for CQ-4261694
 * Issue with Metadata Schema Editor while using path Browser to select data. NPR-28674: Hotfix for CQ-4263005
 * Too many assets get processed to the Smart Content Service resulting in a huge amount of time to complete the periodic tagging process. NPR-28640: Hotfix for CQ-4262661, CQ-4262644, CQ-4263234
-* Desktop actions do not work for Omnisearch results from aem/start.html page. NPR-27242: Hotfix for CQ-4248176
-* Assets API does not allow upload of file > 2GB causing upload failure. NPR-27629: Hotfix for Granite-23590
+* Desktop actions do not work for Omnisearch results from `aem/start.html` page. NPR-27242: Hotfix for CQ-4248176
+* Assets API does not allow upload of file > 2 GB causing upload failure. NPR-27629: Hotfix for Granite-23590
 * Metadata does not save in downloaded asset in the first attempt in case Dynamic Media is enabled on the instance. NPR-28233: Hotfix for CQ-4260759
 * Service resolver is not closed in SiteCatalyst configuration. NPR-28015: Hotfix for CQ-4259397
 * Moving assets in DAM does not result in a similar move on Scene7 (p2p config). NPR-28313: Hotfix for CQ-4261091
@@ -962,7 +962,7 @@ Some of the key highlights of AEM 6.4.2.0 are:
 * Added support for MongoDB Enterprise 3.6. 
 * The Sites Page Editor adds support for in-context editing and composition with client-side components build in React or Angular in combination with <a href="../sites-developing/spa-walkthrough.md">AEM's SPA Editor JS SDK</a>.  
 * Content Fragments enhancements: added the capability to annotate in text fields, and side-by-side comparison of versions. 
-* Added [integration with Adobe Stock](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-assets-adobe-stock.html) so that the users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html). 
+* Added [integration with Adobe Stock](/help/assets/aem-assets-adobe-stock.md) so that the users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/stock-assets-feature-video-use.md). 
 * Assets added support for dynamic conditional metaschema and the ability to set a metadata schema for asset folders.
 * Added configuration in each component to enable/disable the folder thumbnail creation/update functionality.
 * Image Editor enhancements on page authoring.
@@ -1327,10 +1327,10 @@ The key highlights for AEM 6.4.2.0 forms are:
 
 **Assets**
   
-* Added [integration with Adobe Stock](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-assets-adobe-stock.html) so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM assets](https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html. NPR-15779: Hotfix for CQ-30857 
-* Added support for dynamic conditional metaschema. For more information, see (Cascading Metadata)(https://helpx.adobe.com/experience-manager/6-4/assets/using/cascading-metadata.html). NPR-25189: Hotfix for CQ-4237413 
-* Enabled "Asset Download" option on Content Fragments. For more information, see [Asset Reports](https://helpx.adobe.com/experience-manager/6-4/assets/using/asset-reports.html). NPR-25186: Hotfix for CQ-4237410 
-* Ability to set a metadata schema for asset folders. For more information, see [Folder Metadata Schema](https://helpx.adobe.com/experience-manager/6-4/assets/using/folder-metadata-schema.html) and refer to its [Configuration Settings](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_183715669) post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574 
+* Added [integration with Adobe Stock](/help/assets/aem-assets-adobe-stock.md) so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM assets](https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html. NPR-15779: Hotfix for CQ-30857
+* Added support for dynamic conditional metaschema. For more information, see [Cascading Metadata](/help/assets/cascading-metadata.md). NPR-25189: Hotfix for CQ-4237413 
+* Enabled "Asset Download" option on Content Fragments. For more information, see [Asset Reports](/help/assets/asset-reports.md). NPR-25186: Hotfix for CQ-4237410 
+* Ability to set a metadata schema for asset folders. For more information, see [Folder Metadata Schema](/help/assets/folder-metadata-schema.md) and refer to its [Configuration Settings](/help/release-notes/sp-release-notes.md#main-pars_header_183715669) post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574 
   
 **Sites**
   
@@ -1737,7 +1737,7 @@ The key highlights for AEM Forms are:
 **Assets**
 
 * Added the capability for Enhanced Smart Tags. For more information, see [Enhanced Smart Tags](https://helpx.adobe.com/experience-manager/6-4/assets/using/enhanced-smart-tags.html). NPR-21951: Hotfix for CQ-4234883
-* Introduced AEM Assets References in InDesign. For more information, see [AEM Assets References in InDesign](https://helpx.adobe.com/experience-manager/6-4/assets/using/managing-linked-subassets.html). NPR-23386
+* Introduced AEM Assets References in InDesign. For more information, see [AEM Assets References in InDesign](/help/assets/managing-linked-subassets.md). NPR-23386
   
 **Sites**
 
@@ -1893,12 +1893,12 @@ To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](
 
 ### Removed/Deprecated Features {#removed-deprecated-features}
 
-This section lists features and capabilities that have been removed or deprecated from AEM 6.4. 
+This section lists features and capabilities that have been removed or deprecated from AEM 6.4.
 
 | Area |Feature |Replacement |Version |
 |---|---|---|---|
 | Assets |Manage Tag Action for Subassets |No Replacement |AEM 6.4.2.0 |
-| Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/creative-cloud.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-cc-integration-best-practices.html) article. | AEM 6.4.4.0 |
+| Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/creative-cloud.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](/help/assets/aem-cc-integration-best-practices.md) article. | AEM 6.4.4.0 |
 
 ### Known Issues {#known-issues}
 

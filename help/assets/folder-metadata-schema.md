@@ -14,7 +14,7 @@ Adobe Experience Manager (AEM) Assets lets you create metadata schemas for asset
 
 >[!NOTE]
 >
->This functionality requires AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](https://helpx.adobe.com/in/experience-manager/6-4/release-notes/sp-release-notes.html).
+>This functionality requires AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](/help/release-notes/sp-release-notes.md).
 
 ## Add a folder metadata schema form {#add-a-folder-metadata-schema-form}
 
