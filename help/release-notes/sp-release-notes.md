@@ -41,7 +41,25 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 ### Sites {#sites}
 
-* Update the list
+* When launches are promoted with Promote only Modified pages and Promote launches with modified pages are done, only the modified pages are appearing to be promoted. Moreover, when the list to be promoted is correct, the non-modified pages are still displayed at the bottom of the list (NPR-31314).
+
+* When an AEM Sites page is moved to a different location, its properties are not updated accordingly to reflect its new location(NPR-31265).
+
+* For a new Blueprint, If the number of records is more than 40, only the first 40 records are displayed. Blueprint displays blank lines for the rest of the records (NPR-31182).
+
+* When the number of LiveCopies is large, the LiveCopy overview takes a long time to render the preview (NPR-30945).
+
+* Added support to set a version of a page while deleting it. If versioning is disabled for the deleted page, AEM Sites cannot restore such pages (NPR-30891).
+
+* When a user adds Japanese or Korean characters in the description property of a menu, the menu displays distorted characters for Japanese and Korean language text. (NPR-31331).
+
+* When a user focuses on left rail fields and uses a keyboard shortcut to paste content, it pastes the content of the page editor clipboard instead of the content copied from the left rail fields (NPR-31169).
+
+* When a user edits a content fragment, the already deleted variation of the content fragment is restored (NPR-31178).
+  
+* Content Fragment Models query is inefficient. It is very slow if the instance has a lot of pages and results in an error (NPR-30666).
+
+* On saving the content fragment model, time in the date and time field is set to 00:00 (NPR-30540).
 
 ### Replication {#replication}
 
