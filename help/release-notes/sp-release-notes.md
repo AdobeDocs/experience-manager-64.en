@@ -89,7 +89,11 @@ QueryBuilder now supports orderby fn:name() in xpath queries (NPR-31322).
 
 ### Communities {#communities}
 
-* Update the list
+* Email functionality is not working properly in some cases even when email messaging is enabled in notification settings, system throws anexception in the NotificationsActivityStreamProvider. NPR-31521: Hotfix for CQ-4280670
+* Not able to create new members, blank screen appears on Create Member screen in AEM author instance. NPR-30951: Hotfix for CQ-4279197
+* User is not able to post a comment on a blog in Internet Explorer 11. NPR-30927: Hotfix for CQ-4276663 
+* Administrator of a Restricted Group is not able to view the Group Card, unable to perform any Quick Link operations (Edit/Publish/Delete groups) in AEM author instance. NPR-30810: Hotfix for CQ-4277208
+* Member groups/ Group information is not visible on creating a new Site in AEM author instance. NPR-28840: Hotfix for CQ-4258574 
 
 ### Forms {#forms}
 
