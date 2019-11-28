@@ -27,6 +27,7 @@ When organizing a collection of assets, for example, all `Nature` images, you ca
 1. Click **[!UICONTROL Create]**. Your folder is displayed in the digital assets folder.
 
 The following (space-separated list of) characters are not supported:
+
 * asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
 * asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 
@@ -418,7 +419,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Navigate to the location of the asset you want to move.  
 
-1. Select the asset, and tap the **[!UICONTROL Move[** icon from the toolbar.
+1. Select the asset, and tap the **[!UICONTROL Move]** icon from the toolbar.
 
    ![move_icon](assets/move_icon.png)
 

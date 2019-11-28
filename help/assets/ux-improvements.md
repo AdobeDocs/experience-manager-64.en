@@ -82,9 +82,9 @@ Depending upon the chose layout, you can open the details page for an asset in t
 
 | **View** |**How to open the asset details page** |
 |---|---|
-| Card view |Tap/click the asset tile.  |
-| List view |Tap/click on the row entry for the asset in the list. |
-| Column view |Tap/click the **[!UICONTROL More Details]** button from the asset snapshot. |
+| [!UICONTROL Card View] |Tap/click the asset tile.  |
+| [!UICONTROL List View] |Tap/click on the row entry for the asset in the list. |
+| [!UICONTROL Column View] |Tap/click the **[!UICONTROL More Details]** button from the asset snapshot. |
 
 Use the Previous/Next buttons to move back and forth between the assets.
 

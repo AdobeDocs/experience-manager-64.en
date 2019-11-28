@@ -34,7 +34,7 @@ The following are best practice tips for organizing your digital asset files.
     * **Master folders** &ndash; contains original, source digital assets.
     * **Rendition folders** &ndash; contains renditions and copies of the original, source digital assets.
     * **File Size folders** &ndash; contains digital assets based on small, medium, or large file sizes.
-    * **Sgitang folders** &ndash; contains digital assets that are ready to publish live on your website.
+    * **Staging folders** &ndash; contains digital assets that are ready to publish live on your website.
     * **Mime type folders** &ndash; contains digital assets that are specific to mime types such as images, documents, and multimedia.
     * **Archive folders** &ndash; contains retired digital assets.
     * **Date-based folders** &ndash; contains digital assets based on a creation date or a last modified date.

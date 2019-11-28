@@ -41,21 +41,21 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    i. **image**: Schema form for assets with the MIME type `image`, for example, `image/jpeg`, `image/png`, and so on.  
 
-   The "image" form has the following child form templates:  
-   
+   The "image" form has the following child form templates:
+
    a. **jpeg**: Schema form for assets with sub type jpeg.  
 
    b. **tiff**: Schema form for the assets with sub type TIFF.  
 
    ii. **application**: Schema form for assets with MIME type application, for example `application/pdf`, `application/zip`, and so on.  
-   
+
    a. **pdf**: Schema form for assets with sub type PDF.  
 
    iii. **video**: Schema form for assets with MIME type video, such as `video/avi`, `video/mp4` and so on.
 
     * **collection**: Schema form for collections
     * **contentfragment:** Schema form for Content Fragments
-    * **forms**: This schema form relates to [Adobe Experience Manager Forms](https://helpx.adobe.com/experience-manager/6-4/forms/user-guide.html)
+    * **forms**: This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md)
 
 >[!NOTE]
 >
@@ -100,20 +100,20 @@ The **[!UICONTROL Build Form]** tab lists form items that you use in your schema
 
 | Component Name | Description |
 |---|---|
-| Section Header | Add a section heading for a list of common components. |
-| Single Line Text | Add a single line text property. It is stored as a string. |
-| Multi Value Text | Add a multi value text property. It is stored as a string array. |
-| Number | Add a number component. |
-| Date | Add a date component. |
-| Dropdown | Add a dropdown list. |
-| Standard Tags | Add a tag. |
-| Smart Tags | Add to augment search capabilities by automatically adding metadata tags. |
-| Hidden Field | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
-| Asset Referenced By | Add this component to view list of assets referenced by the asset. |
-| Asset Referencing | Add to display a list of assets that reference the asset. |
-| Products References | Add to show the list of products linked with the asset. |
-| Asset Rating | Add to display options for rating the asset. |
-| Contextual Metadata | Add to control the display of other metadata tabs in the properties page of assets. |
+| [!UICONTROL Section Header] | Add a section heading for a list of common components. |
+| [!UICONTROL Single Line Text] | Add a single line text property. It is stored as a string. |
+| [!UICONTROL Multi Value Text] | Add a multi value text property. It is stored as a string array. |
+| [!UICONTROL Number] | Add a number component. |
+| [!UICONTROL Date] | Add a date component. |
+| [!UICONTROL Dropdown] | Add a dropdown list. |
+| [!UICONTROL Standard Tags] | Add a tag. |
+| [!UICONTROL Smart Tags] | Add to augment search capabilities by automatically adding metadata tags. |
+| [!UICONTROL Hidden Field] | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
+| [!UICONTROL Asset Referenced By] | Add this component to view list of assets referenced by the asset. |
+| [!UICONTROL Asset Referencing] | Add to display a list of assets that reference the asset. |
+| [!UICONTROL Products References] | Add to show the list of products linked with the asset. |
+| [!UICONTROL Asset Rating] | Add to display options for rating the asset. |
+| [!UICONTROL Contextual Metadata] | Add to control the display of other metadata tabs in the properties page of assets. |
 
 ### Editing the metadata component {#editing-the-metadata-component}
 
@@ -209,24 +209,24 @@ In this case, create a new node at `/etc/dam/metadataeditor/mimetypemappings` in
 
 | Name | Description | Type | Value |
 |---|---|---|---|
-| `exposedmimetype` |Name of the existing form to be mapped  | `String` | `image/jpeg` |
-| `mimetypes` |List of MIME types that use the form defined in the `exposedmimetype` attribute | `String` | `image/png` |
+| `exposedmimetype` | Name of the existing form to be mapped | `String` | `image/jpeg` |
+| `mimetypes` | List of MIME types that use the form defined in the `exposedmimetype` attribute | `String` | `image/png` |
 
 AEM Assets maps the following MIME types and schema forms:
 
-|         Schema Form         |                     MIME types                      |
-| --------------------------- | --------------------------------------------------- |
-| image/jpeg                  | image/pjpeg                                         |
-| image/tiff                  | image/x-tiff                                        |
-| application/pdf             | application/postscript                              |
-| application/x-ImageSet      | Multipart/Related; type=application/x-ImageSet      |
-| application/x-SpinSet       | Multipart/Related; type=application/x-SpinSet       |
+| Schema Form | MIME types |
+|---|---|
+| image/jpeg | image/pjpeg |
+| image/tiff | image/x-tiff |
+| application/pdf | application/postscript |
+| application/x-ImageSet | Multipart/Related; type=application/x-ImageSet |
+| application/x-SpinSet | Multipart/Related; type=application/x-SpinSet |
 | application/x-MixedMediaSet | Multipart/Related; type=application/x-MixedMediaSet |
-| video/quicktime             | video/x-quicktime                                   |
-| video/mpeg4                 | video/mp4                                           |
-| video/avi                   | video/avi, video/msvideo, video/x-msvideo           |
-| video/wmv                   | video/x-ms-wmv                                      |
-| video/flv                   | video/x-flv                                         |
+| video/quicktime | video/x-quicktime |
+| video/mpeg4 | video/mp4 |
+| video/avi | video/avi, video/msvideo, video/x-msvideo |
+| video/wmv | video/x-ms-wmv |
+| video/flv | video/x-flv |
 
 ## Granting access to metadata schemas {#granting-access-to-metadata-schemas}
 
@@ -298,7 +298,7 @@ This configuration adds a property `hasValidMetadata` to jcr:content of assets. 
 
 >[!NOTE]
 >
->If an asset is added after the scheduled check, the asset is not flagged with hasValidMetadata until  the next scheduled check. The assets does not appear in intermediate search results.
+>If an asset is added after the scheduled check, the asset is not flagged with `hasValidMetadata` until  the next scheduled check. The assets do not appear in intermediate search results.
 
 >[!Caution]
 >

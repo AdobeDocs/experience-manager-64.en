@@ -47,12 +47,12 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
     | Component | Properties |
     |---|---|
-    | Section Header | Field LabelDescription |
-    | Single Line Text | Field LabelMap to propertyDefault Value |
-    | Multi Value Text | Field LabelMap to propertyDefault Value |
-    | Number | Field LabelMap to propertyDefault Value |
-    | Date | Field LabelMap to propertyDefault Value |
-    | Standard Tags | Field LabelMap to propertyDefault ValueDescription |
+    | [!UICONTROL Section Header] | Field LabelDescription |
+    | [!UICONTROL Single Line Text] | Field LabelMap to propertyDefault Value |
+    | [!UICONTROL Multi Value Text] | Field LabelMap to propertyDefault Value |
+    | [!UICONTROL Number] | Field LabelMap to propertyDefault Value |
+    | [!UICONTROL Date] | Field LabelMap to propertyDefault Value |
+    | [!UICONTROL Standard Tags] | Field LabelMap to propertyDefault ValueDescription |
 
       ![chlimage_1-484](assets/chlimage_1-484.png)
 

@@ -52,7 +52,7 @@ AEM Assets comes with a set of predefined predicates that can be used to customi
 
 In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](/help/sites-developing/querybuilder-api.md).
 
-Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html.
+Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html).
 
 The best practice is to copy an existing predicate and adjust it. Sample predicates are located in `/libs/cq/search/components/predicates`.
 
@@ -248,7 +248,6 @@ To build a group predicate:
            }
 
        });
-
    ```
 
 1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node `cq:editConfig` of primary type `cq:EditConfig`. So that you can remove paragraphs, add a multi-value property `cq:actions` with a single value of `DELETE`.

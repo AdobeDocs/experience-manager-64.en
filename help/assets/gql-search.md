@@ -53,28 +53,28 @@ The GQL full-text search feature lets you search for assets based on the followi
 
  | Property | Search format (facet value) |
  |---|---|
- | Title | title:John |
- | Creator | creator:John |
- | Contributor | contributor:John |
- | Location | location:India |
- | Description | description:"Sample Image" |
- | Creator tool | creatortool:"Adobe Photoshop 7.0" |
- | Copyright Owner | copyrightowner:"Adobe Systems" |
- | Contributor | contributor:John |
- | Usage Terms | usageterms:"CopyRights Reserved" |
- | Created | created:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
- | Expires Date | expires:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
- | On time | ontime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
- | Off time | offtime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
- | Range of time(expires dateontime,offtime) | facet field: lowerbound..upperbound |
- | Path | /content/dam/&lt;folder name&gt; |
- | PDF Title | pdftitle:"Adobe Document" |
- | Subject | subject:"Training" |
- | Tags | tags:"Location And Travel" |
- | Type | type:"image\png" |
- | Width of image | width:lowerbound..upperbound |
- | Height of image | height:lowerbound..upperbound |
- | Person | person:John |
+ | [!UICONTROL Title] | title:John |
+ | [!UICONTROL Creator] | creator:John |
+ | [!UICONTROL Contributor] | contributor:John |
+ | [!UICONTROL Location] | location:India |
+ | [!UICONTROL Description] | description:"Sample Image" |
+ | [!UICONTROL Creator tool] | creatortool:"Adobe Photoshop 7.0" |
+ | [!UICONTROL Copyright Owner] | copyrightowner:"Adobe Systems" |
+ | [!UICONTROL Contributor] | contributor:John |
+ | [!UICONTROL Usage Terms] | usageterms:"CopyRights Reserved" |
+ | [!UICONTROL Created] | created:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | [!UICONTROL Expires Date] | expires:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | [!UICONTROL On time] | ontime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | [!UICONTROL Off time] | offtime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | [!UICONTROL Range of time] (expires dateontime,offtime) | facet field: lowerbound..upperbound |
+ | [!UICONTROL Path] | /content/dam/&lt;folder name&gt; |
+ | [!UICONTROL PDF Title] | pdftitle:"Adobe Document" |
+ | [!UICONTROL Subject] | subject:"Training" |
+ | [!UICONTROL Tags] | tags:"Location And Travel" |
+ | [!UICONTROL Type] | type:"image\png" |
+ | [!UICONTROL Width of image] | width:lowerbound..upperbound |
+ | [!UICONTROL Height of image] | height:lowerbound..upperbound |
+ | [!UICONTROL Person] | person:John |
 
 Here are some examples of search formats for complex queries:
 

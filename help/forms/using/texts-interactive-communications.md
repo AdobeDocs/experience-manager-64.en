@@ -33,7 +33,7 @@ The text document fragment in Interactive Communication supports the following t
     * **[!UICONTROL Title]**: (Optional) Enter the title for the text document fragment. Titles need not be unique and can have special characters and non-English characters. Texts are referred by their titles (when available) such as in thumbnails and properties. 
     * **[!UICONTROL Name]**: The unique name for the text, within a folder. No two document fragments (text, condition, or list) in any state can exist with the same name in a folder. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
     * **[!UICONTROL Description]**: Type a description of the text.
-    * **`[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the text based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]`** field appears. Browse and select a form data model. While creating text and condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on Form Data Model, see [Data Integration](/help/forms/using/data-integration.md). 
+    * **[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the text based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]** field appears. Browse and select a form data model. While creating text and condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on Form Data Model, see [Data Integration](/help/forms/using/data-integration.md). 
     * **[!UICONTROL Tags]**: Optionally, to create custom tag enter value in text field and press Enter. When you save this text, the newly added tags get created.
 
 1. Tap **[!UICONTROL Next]**.
@@ -63,11 +63,11 @@ The text document fragment in Interactive Communication supports the following t
 
 You can edit an existing text document fragment using the following steps. You can also choose to edit a text document fragment from within an Interactive Communication editor.
 
-1. Select **`[!UICONTROL Forms]`** > **[!UICONTROL Document Fragments]**. 
-1. Navigate to a text document fragment and select it. 
-1. Tap **[!UICONTROL Edit]**. 
-1. Make the required changes. For more information on options in text, see [Create text](#createtext). 
-1. Tap **[!UICONTROL Save]**and then tap **[!UICONTROL Close]**.
+1. Select **`[!UICONTROL Forms]`** > **[!UICONTROL Document Fragments]**.
+1. Navigate to a text document fragment and select it.
+1. Tap **[!UICONTROL Edit]**.
+1. Make the required changes. For more information on options in text, see [Create text](#createtext).
+1. Tap **[!UICONTROL Save]** and then tap **[!UICONTROL Close]**.
 
 ## Personalizing a text document fragment using form data model properties {#formdatamodel}
 
@@ -114,17 +114,17 @@ While creating or editing a text document fragment, you can create and insert va
     * **[!UICONTROL Name*]**: Name of the variable.
     * **[!UICONTROL Description]**: Optionally enter a description about the variable. 
     * **[!UICONTROL Type*]**: Select a type of the variable: String, Number, Boolean, or Date. 
-    * **`[!UICONTROL Allow Specific Values Only]**: For String and Number variables, you can ensure that the agent chooses from a specific set of values for a placeholder in the Agent UI. To specify the set of values, select this option and then specify comma-separated values that are allowed in the **[!UICONTROL Values*]`** field.
+    * **[!UICONTROL Allow Specific Values Only]**: For String and Number variables, you can ensure that the agent chooses from a specific set of values for a placeholder in the Agent UI. To specify the set of values, select this option and then specify comma-separated values that are allowed in the **[!UICONTROL Values]** field.
 
 1. Tap **[!UICONTROL Create]**.
 
-   The variable is created and listed in the Variables pane. 
+   The variable is created and listed in the Variables pane.
 
-1. To insert a variable in the text, place the cursor at the appropriate place, select the variable, and tap **[!UICONTROL Add Selected]**. 
+1. To insert a variable in the text, place the cursor at the appropriate place, select the variable, and tap **[!UICONTROL Add Selected]**.
 
    ![variableinserted](assets/variableinserted.png)
 
-   Variables are highlighted in light blue background color, while form data model properties are highlighted in a brownish color. 
+   Variables are highlighted in light blue background color, while form data model properties are highlighted in a brownish color.
 
 1. Tap **[!UICONTROL Save]**.
 

@@ -13,7 +13,9 @@ discoiquuid: fea76f90-22d5-4836-9901-a35229401eb0
 
 ## Introduction to submit actions {#introduction-to-submit-actions}
 
-A submit action is triggered when a user clicks the Submit button on an adaptive form. You can configure the submit action on adaptive form. Adaptive forms provide a few out of the box submit actions. You can copy and extend the default submit actions to create you own submit action. However, based on your requirements, you can write and register your own submit action to process data in the submitted form.
+A submit action is triggered when a user clicks the Submit button on an adaptive form. You can configure the submit action on adaptive form. Adaptive forms provide a few out of the box submit actions. You can copy and extend the default submit actions to create you own submit action. However, based on your requirements,you can write and register your own submit action to process data in the submitted form.
+
+When a form is prefilled or submitted, the submitted data is routed through AEM for data massaging to intermediate formats. Data is not saved on an AEM instance except when the adaptive form uses Adobe Sign, verify, forms portal draft or submit, or AEM Workflows
 
 You can configure a submit action in the **[!UICONTROL Submission]** section of the Adaptive Form Container properties, in the sidebar.
 
@@ -127,7 +129,7 @@ Before using the **[!UICONTROL Invoke an AEM Workflow]** submit action, [configu
 
 ## Server-Side Revalidation in Adaptive Form {#server-side-revalidation-in-adaptive-form}
 
-Typically, in any online data capture system, developers place some javascript validations on client side to enforce a few business rules. But in modern browsers, end users have way to bypass those validations and manually do submissions using various techniques, Such as Web Browser DevTools Console. Such techniques are also valida for adaptive forms. A forms developer can create various validation logics, but technically, end users can bypass those validation logics and submit invalid data to the server. Invalid data would break the business rules that a forms author has enforced.
+Typically, in any online data capture system, developers place some JavaScript validations on client side to enforce a few business rules. But in modern browsers, end users have way to bypass those validations and manually do submissions using various techniques, Such as Web Browser DevTools Console. Such techniques are also valid for adaptive forms. A forms developer can create various validation logics, but technically, end users can bypass those validation logics and submit invalid data to the server. Invalid data would break the business rules that a forms author has enforced.
 
 The server-side revalidation feature provides the ability to also run the validations that an adaptive forms author has provided while designing an adaptive form on the server. It prevents any possible compromise of data submissions and business rules violations represented in terms of form validations.
 

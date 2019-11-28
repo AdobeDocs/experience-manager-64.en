@@ -1,8 +1,6 @@
 ---
 title: AEM Assets vs. AEM MediaLibrary
-seo-title: AEM Assets vs. AEM MediaLibrary
 description: Frequently asked questions around AEM Assets and. AEM Media Library, including the differences.
-seo-description: Frequently asked questions around AEM Assets and. AEM Media Library, including the differences.
 uuid: 61c4c12f-1d8c-4276-ab9d-3d9ed0a66542
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -64,4 +62,4 @@ For this use case it is not required to buy AEM Assets, even the use of the Medi
 
 >[!MORELIKETHIS]
 >
->* [Detailed list of feature differences](https://helpx.adobe.com/experience-manager/6-5/assets/using/medialibrary.html)
+>* [Detailed list of feature differences](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/medialibrary.html#listoffeatures)
