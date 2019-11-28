@@ -15,9 +15,9 @@ Learn how to manage and edit the video assets in Adobe Experience Manager (AEM) 
 
 AEM Assets generates previews for video assets with the extension MP4. If the format of the asset is not MP4, install the FFmpeg pack to generate a preview. FFmpeg creates video renditions of type OGG and MP4. You can preview these renditions in the AEM Assets user interface.
 
-1. In the Digital Assets folder (or sub-folders), navigate to the location where you want to add digital assets.
-1. To upload the asset, tap **[!UICONTROL Create]** from the toolbar, then choose **[!UICONTROL Files]**. Alternatively, drop it directly in the assets area. See [Uploading assets](managing-assets-touch-ui.md#uploading-assets) for details around the upload operation.
-1. To preview a video in the **[!UICONTROL Card]** view, tap the **[!UICONTROL Play]** button on the video asset.
+1. In the Digital Assets folder or sub-folders, navigate to the location where you want to add digital assets.
+1. To upload the asset, click or tap **[!UICONTROL Create]** from the toolbar and then choose **[!UICONTROL Files]**. Alternatively, drop it directly in the assets area. See [Uploading assets](managing-assets-touch-ui.md#uploading-assets) for details around the upload operation.
+1. To preview a video in the Card view, tap the **[!UICONTROL Play]** button on the video asset.
 
    ![chlimage_1-201](assets/chlimage_1-201.png)
 
