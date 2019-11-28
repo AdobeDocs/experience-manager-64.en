@@ -105,37 +105,35 @@ QueryBuilder now supports orderby fn:name() in xpath queries (NPR-31322).
 
 #### Adaptive Forms {#adaptive-forms}
 
-* Update the list here
+* Strings contain the dictionary key while localizing adaptive forms (NPR-31109).
 
-#### Forms - Backend Integration {#backend-integration}
+* If SSL is enabled, the analytics enabled on forms in a Sites page fail for **Submit** or **Abandon** events (NPR-31359).
 
-* Update the list here
-
-#### Forms - Correspondence Management {#forms-correspondence-management}
-
-* Update the list here
+* The checkboxes and drop-down lists in Forms fail Accessiblity checks (NPR-31282).
 
 #### HTML5 Forms {#html5-forms}
 
-* Update the list here
+* Generating HTML5 preview of an XDP form displays a flicker while adding instances of a subform (NPR-30907).
+
+#### Forms - Document Services for OSGi {#document-services-osgi}
+
+* Running multiple simultaneous thread for assembling the forms using com.adobe.fd.assembler.service.AssemblerService.invoke() method displays an error message (NPR-31164).
+
+* The temporary files created by Assembler Service are not deleted automatically and requires AEM restart (NPR-30846).
+
+* Applying ReaderExtension Rights to PDF results in an error message (NPR-30930).
 
 ### Forms JEE installer {#forms-jee-installer}
 
-#### Forms - Foundation JEE {#forms-foundation-jee}
-
-* Update the list here
-
 #### Forms - Document Services {#document-services}
 
-* Update the list here
+* The Convert PDF Service fails to convert PDF documents to PostScript and displays an error message (NPR-31267).
 
-#### Forms - Document Security {#forms-document-security}
-
-* Update the list here
+* SOAP endpoint configuration resets after applying a patch to fix HTML to PDF failure (NPR-31309).
 
 #### PDFG Service {#pdfg-service}
 
-* Update the list here
+* Unable to upload the Adobe PDF settings file downloaded using the admin UI (NPR-31273).
 
 ### Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
 
