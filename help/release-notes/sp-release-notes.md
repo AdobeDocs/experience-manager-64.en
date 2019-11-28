@@ -30,14 +30,70 @@ It is also cumulative which means that 6.4.7.0 includes all AEM 6.4 service pack
 Some of the key highlights of AEM 6.4.7.0 are:
 
 * Added support to set version of a Sites page while deleting it.
-* To be updated
-* To be updated
+* New column for created date, which is sortable, has been added in DAM list view and on asset search results in list view (NPR-31311).
+* Asset sorting based on Name column has been allowed in List view (NPR-31299).
+* Batch size and workflow step timeout for Reprocess and Batch Upload are now configurable from UI in Dynamic Media (CQ-4281254).
+* The `pdfBrochure` has been set to false in Scene 7 cloud configuration, to save memory at IPS (CQ-4278254).
 
 ## List of changes {#list-of-changes}
 
 ### Assets {#assets}
 
-* Update the list
+* Metadata for some PDF documents is not updated and saved to the PDF on modifying its title (NPR-31575).
+
+* Assets with '+' symbol in the file name cannot be deleted (NPR-30588).
+
+* DAM folder properties do not show the added users or groups (created by LDAP sync) in Closed User Groups (NPR-30555).
+
+* Special characters occuring in the Subject line of Email Templates are not shown properly (NPR-30547).
+
+* Asset names are changed to lower case when moving assets from one folder to another in AEM running on Dynamic Media Scene 7 runmode (NPR-31631).
+
+* Names of the imageset are changed to lower case in Scene 7, when imageset (or mediaset) is created and named with appropriate naming convention in DAM (NPR-31576).
+
+* Dynamic Media Encode Video workflow is failing to generate thumbnail for the video that is migrated from Scene 7 to Dynamic Media - Scene 7 run mode (NPR-31523).
+
+* Internal Server Error is observed while using filter to search for Sets, in AEM running on Dynamic Media - Scene 7 runmode (NPR-31388).
+
+* Error is observed while editing a remote imageset, for the image residing in the folder named same as Scene 7 company name (NPR-31347).
+
+* Assets containing references are not getting published (DM) (NPR-31179).
+
+* The expiration (client cache time to live) value configured for Dynamic Media Hybrid mode is not replicated to the Dynamic Media delivery environment (NPR-31126).
+
+* Uploads from AEM Dynamic Media - Scene 7 runmode to Scene 7 are taking too long to complete (NPR-30926).
+
+* After creating a page having Dynamic Media component while publishing the same, from author instance running on Dynamic Media - Scene 7 runmode, user is prompted to publish the dmscene7 configuration (NPR-30880).
+
+* Value of the "asset" parameter in viewer embed code stays unchanged after changing the values in "Title after move" and "Name after move" field on Dynamic Media - Scene 7 (NPR-30745).
+
+* Touch UI search (done through Omnisearch) results page automatically scrolls up and loses user's scroll position (NPR-31306).
+
+* DAM Event Purge deletes the latest (maxSavedActivities) event data and holds the data created earlier (NPR-30870).
+
+* Asset title and name change not persisted after move operation to a destination folder that triggers infinite scrolling while selecting it (NPR-30647).
+
+* Collections are removed from the view on applying any filter in AEM Assets accessed from Adobe Asset Link (CQ-4280534).
+
+* Batch size and workflow step timeout for Reprocess and Batch Upload are not configurable from UI, and need to be set in CRXDE and workflow needs to be synced twice (CQ-4281254).
+
+* Workflow step name for batch upload and simple upload step is same in Scene 7, which leads to confusion (CQ-4281176).
+
+* Reprocess workflow in Scene 7 gets stuck if an asset is missing metadata node (CQ-4281170).
+
+* BatchUpload step in reprocess workflow does not work for the folder having video asset (CQ-4280630).
+
+* PDF options sent to DM have extractKeywords set to true by default (CQ-4280101).
+
+* Null Point Exception is observed on running Scene 7 Reprocess workflow on a folder containing non-DM assets (CQ-4279555).
+
+* Asset renaming in AEM fails to synchronize to scene 7, when an asset with a duplicate name already exists at Scene 7 (CQ-4276763).
+
+* Zip file sent by email for asset download fails to unzip when a user with Read permissions tries to open it (CQ-4277925).
+
+* AEM 6.4 fails to update to com.adobe.granite.poi : 2.0.28 (CQ-4279059).
+
+* PDF files are not indexed and content within is not searchable (CQ-4278916).
 
 ### Sites {#sites}
 
@@ -84,6 +140,10 @@ Some of the key highlights of AEM 6.4.7.0 are:
 ### Oak {#oak}
 
 * MS Office files with .docx and .xlsx file extensions containing JPEG images fail to parse using Tika parser (NPR-31693).
+
+### Livefyre
+
+* Livefyre integration with AEM 6.4 upgrade gives Null Point Exception, when integration is done using DITA plugin for synthetic rsources. The integration, however, works when components are added manually (FYR-11066).
 
 ### Translation {#translation}
 
