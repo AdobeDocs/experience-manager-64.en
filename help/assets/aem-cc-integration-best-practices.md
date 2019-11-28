@@ -72,11 +72,11 @@ The following table provides a concise summary of when to use which solution or 
 | Use case | Desktop app | Folder sharing | Other solutions |
 |---|---|---|---|
 | Share smaller number (1) of DAM assets with Creative user | ✔✔ | ✔ | |
-| Share larger number (2) of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br /> [Asset Share](assets-finder-editor.md) |
+| Share larger number (2) of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br> [Asset Share](assets-finder-editor.md) |
 | Share DAM assets with users who have access to DAM | ✔✔ | ✔ | [Link Share](link-sharing.md) |
-| Share DAM assets with users who don't have access to DAM | ✘ | ✔✔ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br /> [Asset Share](assets-finder-editor.md) |
+| Share DAM assets with users who don't have access to DAM | ✘ | ✔✔ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br> [Asset Share](assets-finder-editor.md) |
 | Save smaller number/volume of assets to DAM | ✔✔ | ✔ | [Web UI Upload](managing-assets-touch-ui.md) |
-| Save larger number of assets to DAM (3) | ✔✔ | ✘ | [Web UI Upload](managing-assets-touch-ui.md) <br /> Custom script / tool |
+| Save larger number of assets to DAM (3) | ✔✔ | ✘ | [Web UI Upload](managing-assets-touch-ui.md) <br> Custom script / tool |
 | Migrate huge number of assets to DAM | ✘ | ✘ | [Migration Guide](assets-migration-guide.md) |
 | Quickly open an asset on desktop | ✔✔ | ✘ | |
 | Quickly open and change asset on desktop | ✔✔ | ✘ | |
