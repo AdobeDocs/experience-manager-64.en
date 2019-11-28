@@ -29,7 +29,7 @@ It is also cumulative which means that 6.4.7.0 includes all AEM 6.4 service pack
 
 Some of the key highlights of AEM 6.4.7.0 are:
 
-* To be updated
+* Added support to set version of a Sites page while deleting it
 * To be updated
 * To be updated
 
@@ -64,12 +64,14 @@ Some of the key highlights of AEM 6.4.7.0 are:
 ### Integrations {#integrations}
 
 * When configuring Adobe Launch, a forward slash (/) is prepended in the library URL (NPR-30700).
-ContextHub performance degrades after publishing (NPR-30884).
+
+* ContextHub performance degrades after publishing (NPR-30884).
 
 ### Platform {#platform}
 
 * Updates in buffer size configuration for Jetty-based HTTP service are not saved (NPR-30925).
-QueryBuilder now supports orderby fn:name() in xpath queries (NPR-31322).
+
+* QueryBuilder now supports orderby fn:name() in xpath queries (NPR-31322).
 
 * Updated Sling distributed event admin to version 1.1.4 improving the quality of logs in a clustered environment (NPR-29256).
 
@@ -122,6 +124,10 @@ QueryBuilder now supports orderby fn:name() in xpath queries (NPR-31322).
 * The temporary files created by Assembler Service are not deleted automatically and requires AEM restart (NPR-30846).
 
 * Applying ReaderExtension Rights to PDF results in an error message (NPR-30930).
+
+#### Workflow {#forms-workflow}
+
+* OSGi workflow fails due to 100% CPU utilization (NPR-31234).
 
 ### Forms JEE installer {#forms-jee-installer}
 
