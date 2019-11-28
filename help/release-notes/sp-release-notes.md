@@ -29,7 +29,7 @@ It is also cumulative which means that 6.4.7.0 includes all AEM 6.4 service pack
 
 Some of the key highlights of AEM 6.4.7.0 are:
 
-* Added support to set version of a Sites page while deleting it
+* Added support to set version of a Sites page while deleting it.
 * To be updated
 * To be updated
 
