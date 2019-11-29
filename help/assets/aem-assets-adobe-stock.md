@@ -55,8 +55,7 @@ Using this capability, organizations can allow its users to work using Adobe Sto
 Once an Adobe Stock asset is licensed in AEM, it can be used and managed like a typical asset. In AEM, the users can search and preview the assets; copy and publish the assets; share the assets on Brand Portal; access and use the assets via AEM desktop app; and so on.
 
 ![Search for Adobe Stock assets and filter results from your AEM workspace](assets/adobe-stock-search-results-workspace.png)
-
-**Figure:** *Search for Adobe Stock assets and filter results from your AEM workspace*
+*Figure: Search for Adobe Stock assets and filter results from your AEM workspace*
 
 **A.** Search assets similar to the assets whose Adobe Stock ID is provided. **B.** Search assets that match your selection of shape or orientation. **C.** Search for one of more supported asset types **D.** Open or collapse the filters pane **E.** License and save the selected asset in AEM **F.** Save the asset in AEM with watermark **G.** Explore assets on Adobe Stock website that are similar to the selected asset **H.** View the selected assets on Adobe Stock website **I.** Number of selected assets from the search results **J.** Switch between Card view and List view
 
@@ -64,7 +63,7 @@ Once an Adobe Stock asset is licensed in AEM, it can be used and managed like a 
 
 Your AEM users, can search for assets in both, AEM and Adobe Stock. When the search location is not limited to Adobe Stock, the search results from AEM and Adobe Stock are displayed.
 
-* To search for Adobe Stock assets, click **[!UICONTROL Navigation]** > **[!UICONTROL Assets]** > **[!UICONTROL Search Adobe Stock]**.  
+* To search for Adobe Stock assets, click **[!UICONTROL Navigation]** > **[!UICONTROL Assets]** > **[!UICONTROL Search Adobe Stock]**.
 
 * To search for assets across Adobe Stock and AEM Assets, click the search icon ![search_icon](assets/search_icon.png).
 
@@ -75,8 +74,7 @@ Alternatively, start typing `Location: Adobe Stock` in the search bar to select 
 >Assets searched from Adobe Stock are just displayed in AEM. Adobe Stock assets are fetched and stored in AEM repository only after a user either [saves an asset](aem-assets-adobe-stock.md#saveassets) or [licenses an asset](aem-assets-adobe-stock.md#licenseassets). Assets that are already stored in AEM are displayed and highlighted for ease of reference and access. Also, such assets are saved with some additional metadata to indicate the source as Adobe Stock.
 
 ![Search filters in AEM and highlighted Adobe Stock assets in search results](assets/aem-search-filters2.jpg)
-
-**Figure:** *Search filters in AEM and highlighted Adobe Stock assets in search results*
+*Figure: Search filters in AEM and highlighted Adobe Stock assets in search results*
 
 ### Save and view the required assets {#saveassets}
 
@@ -93,8 +91,7 @@ Next time when you search for assets, the saved assets are highlighted with a ba
 Users can license Adobe Stock assets by using the quota of their Adobe Stock Enterprise plan. When you license an asset, it is saved without a watermark and is available for searching and using in AEM Assets.
 
 ![Dialog to license and save Adobe Stock assets in AEM Assets](assets/aem-stock_licenseandsave.jpg)
-
-**Figure:** *Dialog to license and save Adobe Stock assets in AEM Assets*
+*Figure: Dialog to license and save Adobe Stock assets in AEM Assets*
 
 ### Access metadata and asset properties {#access-metadata-and-asset-properties}
 
