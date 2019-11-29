@@ -19,7 +19,7 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 | Version |6.4.7.0 |
 | Type |Service Pack Release |
 | Date |December 12, 2019 |
-| Download URL | [AEM 6.4.7.0 on PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.6.0) |
+| Download URL | AEM 6.4.7.0 on PackageShare
 
 ## What's included in AEM 6.4.7.0 {#what-s-included-in-aem}
 
@@ -30,10 +30,10 @@ It is also cumulative which means that 6.4.7.0 includes all AEM 6.4 service pack
 Some of the key highlights of AEM 6.4.7.0 are:
 
 * Added support to set version of a Sites page while deleting it.
-* New column for created date, which is sortable, has been added in DAM list view and on asset search results in list view (NPR-31311).
-* Asset sorting based on Name column has been allowed in List view (NPR-31299).
-* Batch size and workflow step timeout for Reprocess and Batch Upload are now configurable from UI in Dynamic Media (CQ-4281254).
-* The `pdfBrochure` has been set to false in Scene 7 cloud configuration, to save memory at IPS (CQ-4278254).
+* New column for created date, which is sortable, has been added in **DAM list** view and on asset search results in **List** view (NPR-31311).
+* Asset sorting based on **Name** column has been allowed in **List** view.
+* Batch size and workflow step timeout for Reprocess and Batch Upload are now configurable from UI in Dynamic Media.
+* The `pdfBrochure` has been set to false in Scene 7 cloud configuration, to save memory at IPS.
 
 ## List of changes {#list-of-changes}
 
@@ -45,7 +45,7 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 * DAM folder properties do not show the added users or groups (created by LDAP sync) in Closed User Groups (NPR-30555).
 
-* Special characters occuring in the Subject line of Email Templates are not shown properly (NPR-30547).
+* Special characters occurring in the Subject line of Email Templates are not shown properly (NPR-30547).
 
 * Asset names are changed to lower case when moving assets from one folder to another in AEM running on Dynamic Media Scene 7 runmode (NPR-31631).
 
@@ -143,7 +143,7 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 ### Livefyre
 
-* Livefyre integration with AEM 6.4 upgrade gives Null Point Exception, when integration is done using DITA plugin for synthetic rsources. The integration, however, works when components are added manually (FYR-11066).
+* Livefyre integration with AEM 6.4 upgrade gives Null Point Exception, when integration is done using DITA plugin for synthetic resources. The integration, however, works when components are added manually (FYR-11066).
 
 ### Translation {#translation}
 
@@ -151,7 +151,7 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 ### Communities {#communities}
 
-* Email functionality is not working properly in some cases even when email messaging is enabled in notification settings, system throws anexception in the NotificationsActivityStreamProvider (NPR-31521).
+* Email functionality is not working properly in some cases even when email messaging is enabled in notification settings, system throws an exception in the NotificationsActivityStreamProvider (NPR-31521).
 * Not able to create new members, blank screen appears on Create Member screen in AEM author instance (NPR-30951).
 * User is not able to post a comment on a blog in Internet Explorer 11 (NPR-30927). 
 * Administrator of a Restricted Group is not able to view the Group Card, unable to perform any Quick Link operations (Edit/Publish/Delete groups) in AEM author instance (NPR-30810).
@@ -169,15 +169,13 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 * Strings contain the dictionary key while localizing adaptive forms (NPR-31109).
 
-* If SSL is enabled, the analytics enabled on forms in a Sites page fail for **Submit** or **Abandon** events (NPR-31359).
-
-* The checkboxes and drop-down lists in Forms fail Accessiblity checks (NPR-31282).
+* The checkboxes and drop-down lists in Forms fail Accessibility checks (NPR-31282).
 
 #### HTML5 Forms {#html5-forms}
 
 * Generating HTML5 preview of an XDP form displays a flicker while adding instances of a subform (NPR-30907).
 
-#### Forms - Document Services for OSGi {#document-services-osgi}
+#### Document Services for OSGi {#document-services-osgi}
 
 * Running multiple simultaneous thread for assembling the forms using com.adobe.fd.assembler.service.AssemblerService.invoke() method displays an error message (NPR-31164).
 
@@ -191,7 +189,7 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 ### Forms JEE installer {#forms-jee-installer}
 
-#### Forms - Document Services {#document-services}
+#### Document Services {#document-services}
 
 * The Convert PDF Service fails to convert PDF documents to PostScript and displays an error message (NPR-31267).
 
@@ -1965,7 +1963,7 @@ List of Content Packages included in AEM 6.4.1.0
 
 Perform the following steps to install the Service Pack on an existing AEM 6.4 instance:
 
-1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.6.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.6.0).
+1. Login to Package Share within AEM or directly from your browser and download the AEM 6.4.7.0 package.
 
    (search for "AEM-6.4.7.0" to find it) 
 1. Install the downloaded package using Package Manager.
@@ -2017,7 +2015,7 @@ which will copy new viewer presets to /conf location.
 
 >[!NOTE]
 >
->AEM 6.4.7.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/fd/AEM-FORMS-6.4.2.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.4.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
+>AEM 6.4.7.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/fd/AEM-FORMS-6.4.2.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.7.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
 
 1. Ensure that you have installed the AEM Service Pack. 
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.
@@ -2055,7 +2053,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 ### Uber Jar {#uber-jar}
 
-The Uber Jar for AEM 6.4.7.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.6/).
+The Uber Jar for AEM 6.4.7.0 is available in the Adobe Public Maven repository (link will be updated in the next version).
 
 To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
@@ -2112,15 +2110,15 @@ To workaround this issue:
 
 ### OSGi bundles and Content Packages included {#osgi-bundles-and-content-packages-included}
 
-The following text documents list the OSGi bundles and Content Packages included in AEM 6.4.6.0.
+The following text documents list the OSGi bundles and Content Packages included in AEM 6.4.7.0.
 
-List of OSGi bundles included in AEM 6.4.6.0
+List of OSGi bundles included in AEM 6.4.7.0
 
-[Get File](assets/6.4.6.0_bundle.txt)
+[Get File](link to be updated in the next version)
 
-List of Content Packages included in AEM 6.4.6.0
+List of Content Packages included in AEM 6.4.7.0
 
-[Get File](assets/6.4.6.0_OSGI.txt)
+[Get File](link to be updated in the next version)
 
 ### Helpful resources {#helpful-resources}
 
