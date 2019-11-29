@@ -419,7 +419,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Navigate to the location of the asset you want to move.  
 
-1. Select the asset, and tap the **[!UICONTROL Move[** icon from the toolbar.
+1. Select the asset, and tap the **[!UICONTROL Move]** icon from the toolbar.
 
    ![move_icon](assets/move_icon.png)
 
