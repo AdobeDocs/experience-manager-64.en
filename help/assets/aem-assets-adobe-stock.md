@@ -38,7 +38,7 @@ To allow communication between AEM and Adobe Stock, create an IMS configuration 
 
 ### Create Adobe Stock configuration in AEM {#create-adobe-stock-configuration-in-aem}
 
-1. Click on AEM logo. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Adobe Stock]**.
+1. In AEM user interface, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Adobe Stock]**.
 1. Click **[!UICONTROL Create]** to create a configuration and associate it with your existing IMS Configuration. Select `PROD` as the environment parameter.
 1. In **[!UICONTROL Licensed Assets Path]** field, leave a location as is. Do not change the location where you want to store the Adobe Stock assets.
 1. Complete creation by adding all the required properties. Click **[!UICONTROL Save & Close]**.
