@@ -19,7 +19,7 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 | Version |6.4.7.0 |
 | Type |Service Pack Release |
 | Date |December 12, 2019 |
-| Download URL | AEM 6.4.7.0 on PackageShare
+| Download URL | AEM 6.4.7.0 on PackageShare |
 
 ## What's included in AEM 6.4.7.0 {#what-s-included-in-aem}
 
