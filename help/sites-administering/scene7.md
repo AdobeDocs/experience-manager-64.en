@@ -561,7 +561,7 @@ Specifically, you configure the accepted file format by MIME type in the OSGi (O
 
    >[!NOTE]
    >
-   >If you are uploading PSD files, process them as templates with layer extractions. To do so, enter the following in the **[!UICONTROL jobParam]** value field: 
+   >If you are uploading PSD files, and you want to process them as templates with layer extractions, enter the following in the **[!UICONTROL jobParam]** value field: 
    >
    >`process=MaintainLayers&createTemplate=true`
    >
