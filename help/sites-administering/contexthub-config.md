@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 780d1a2d-38f1-4115-a9bd-f466aa3774dd
 ---
 
-# Configuring ContextHub{#configuring-contexthub}
+# Configuring ContextHub {#configuring-contexthub}
 
 ContextHub is a framework for storing, manipulating, and presenting context data. For more detail on ContextHub, please see the [developer documentation](/help/sites-developing/contexthub.md). ContextHub replaces [Client Context](/help/sites-administering/client-context.md) in the touch UI.
 
@@ -189,7 +189,7 @@ To save data from the MD5 service of the jsontest.com site, use the procedure in
 * **Enabled:** Select
 * **Detail Configuration (JSON):**
 
-  ```
+  ```xml
   {
    "service": {
    "jsonp": false,
@@ -217,7 +217,7 @@ Use the procecure in [Adding a UI Module](/help/sites-administering/contexthub-c
 * **Module Type:** contexthub.base
 * **Detail Configuration (JSON):**
 
-  ```
+  ```xml
   {
    "icon": "coral-Icon--data",
    "title": "MD5 Converstion",
@@ -246,6 +246,10 @@ Use CRXDE Lite to set the property `debug` to **true** under:
 
 * `/conf/global/settings/cloudsettings` or
 * `/conf/<tenant>/settings/cloudsettings`
+
+>[!NOTE]
+>
+>For ContextHub configurations still located under their legacy paths, the locaiton to set the `debug property` is is `/libs/settings/cloudsettings/legacy/contexthub`.
 
 ### Silent Mode {#silent-mode}
 
