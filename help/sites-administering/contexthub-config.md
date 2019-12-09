@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 780d1a2d-38f1-4115-a9bd-f466aa3774dd
 ---
 
-# Configuring ContextHub{#configuring-contexthub}
+# Configuring ContextHub {#configuring-contexthub}
 
 ContextHub is a framework for storing, manipulating, and presenting context data. For more detail on ContextHub, please see the [developer documentation](/help/sites-developing/contexthub.md). ContextHub replaces [Client Context](/help/sites-administering/client-context.md) in the touch UI.
 
@@ -21,7 +21,7 @@ Configure the [ContextHub](/help/sites-developing/contexthub.md) toolbar to cont
 
 By default, ContextHub is enabled in an AEM installation. ContextHub can be disabled to prevent it from loading js/css and initializing. There are two options to disable ContextHub:
 
-* Edit the ContextHub's [configuration](http://localhost:4502/etc/cloudsettings/default/contexthub.edit.html) and check the option **Disable ContextHub**
+* Edit the ContextHub's configuration and check the option **Disable ContextHub**
 
     1. In the rail click or tap **Tools &gt; Sites &gt; ContextHub**
     1. Click or tap the default **Configuration Container**
@@ -30,7 +30,15 @@ By default, ContextHub is enabled in an AEM installation. ContextHub can be disa
 
 or
 
-* Use CRXDE Lite to set the property `disabled` to **true** under `/etc/cloudsettings/default/contexthub`
+* Use CRXDE Lite to set the property `disabled` to **true** under `/libs/settings/cloudsettings`
+
+>[!NOTE]
+>
+>[Due to repository restructuring in AEM 6.4,](/help/sites-deploying/repository-restructuring.md) the location of ContextHub configurations changed from `/etc/cloudsettings` to:
+>
+> * `/libs/settings/cloudsettings`
+> * `/conf/global/settings/cloudsettings`
+> * `/conf/<tenant>/settings/cloudsettings`
 
 ## Showing and Hiding the ContextHub UI {#showing-and-hiding-the-contexthub-ui}
 
@@ -69,7 +77,7 @@ Add a UI mode to group related ContextHub modules. When you create the UI mode, 
 
 1. Provide values for the following properties:
 
-    * UI Mode Title: The title that identifies the UI mode 
+    * UI Mode Title: The title that identifies the UI mode
     * Mode Icon: The selector for the [Coral UI icon](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon.html#availableIcons) to use, for example `coral-Icon--user`
     * Enabled: Select to show the UI mode in the ContextHub toolbar
 
@@ -181,19 +189,19 @@ To save data from the MD5 service of the jsontest.com site, use the procedure in
 * **Enabled:** Select
 * **Detail Configuration (JSON):**
 
-  ```
-  { 
-   "service": { 
-   "jsonp": false, 
-   "timeout": 1000, 
-   "ttl": 1800000, 
-   "secure": false, 
-   "host": "md5.jsontest.com", 
-   "port": 80, 
-   "params":{ 
-   "text":"text to md5" 
-       } 
-     } 
+  ```xml
+  {
+   "service": {
+   "jsonp": false,
+   "timeout": 1000,
+   "ttl": 1800000,
+   "secure": false,
+   "host": "md5.jsontest.com",
+   "port": 80,
+   "params":{
+   "text":"text to md5"
+       }
+     }
    }
   ```
 
@@ -209,13 +217,13 @@ Use the procecure in [Adding a UI Module](/help/sites-administering/contexthub-c
 * **Module Type:** contexthub.base
 * **Detail Configuration (JSON):**
 
-  ```
-  { 
-   "icon": "coral-Icon--data", 
-   "title": "MD5 Converstion", 
-   "storeMapping": { "md5": "md5" }, 
-   "template": "<p> {{md5.original}}</p>; 
-                <p>{{md5.md5}}</p>" 
+  ```xml
+  {
+   "icon": "coral-Icon--data",
+   "title": "MD5 Converstion",
+   "storeMapping": { "md5": "md5" },
+   "template": "<p> {{md5.original}}</p>;
+                <p>{{md5.md5}}</p>"
   }
   ```
 
@@ -225,7 +233,7 @@ A debugging mode for the ContextHub can be enabled to allow for troubleshooting.
 
 ### Via the Configuration {#via-the-configuration}
 
-Edit the ContextHub's [configuration](http://localhost:4502/etc/cloudsettings/default/contexthub.edit.html) and check the option **Debug**
+Edit the ContextHub's configuration and check the option **Debug**
 
 1. In the rail click or tap **Tools &gt; Sites &gt; ContextHub**
 1. Click or tap the default **Configuration Container**
@@ -234,7 +242,14 @@ Edit the ContextHub's [configuration](http://localhost:4502/etc/cloudsettings/de
 
 ### Via CRXDE {#via-crxde}
 
-Use CRXDE Lite to set the property `debug` to **true** under /etc/cloudsettings/default/contexthub
+Use CRXDE Lite to set the property `debug` to **true** under:
+
+* `/conf/global/settings/cloudsettings` or
+* `/conf/<tenant>/settings/cloudsettings`
+
+>[!NOTE]
+>
+>For ContextHub configurations still located under their legacy paths, the locaiton to set the `debug property` is is `/libs/settings/cloudsettings/legacy/contexthub`.
 
 ### Silent Mode {#silent-mode}
 
@@ -242,7 +257,7 @@ Silent mode suppresses all debug information. Unlike the normal debug option, wh
 
 This is useful for your publish instance, where you don't want any debug information at all. Because it is a global setting, it is enabled via OSGi.
 
-1. Open the [**Adobe Experience Manager Web Console Configuration**](http://localhost:4502/system/console/configMgr)
+1. Open the **Adobe Experience Manager Web Console Configuration** at `http://<host>:<port>/system/console/configMgr`
 1. Search for **Adobe Granite ContextHub**
 1. Click the configuration **Adobe Granite ContextHub** to edit its properties
 1. Check the option **Silent Mode** and click **Save**
@@ -251,8 +266,19 @@ This is useful for your publish instance, where you don't want any debug informa
 
 When an [upgrade to AEM](/help/sites-deploying/upgrade.md) is performed, the ContextHub configurations are backed up and stored in a safe location. During the upgrade, the default ContextHub configurations are installed, replacing the existing configurations. The backup is required to preserve any changes or additions that you have made.
 
-ContextHub configurations are stored below the /etc/cloudsettings/default node, in a folder named contexthub. After an upgrade, the backup is stored below a node named /etc/cloudsettings/default-pre-upgrade_*yyyymmdd*_*xxxxxxx*, in a folder named contexthub. The yyyymmdd part of the node name is the date when the upgrade was performed.
+ContextHub configurations are stored in a folder named `contexthub` under the following nodes:
 
-![chlimage_1-324](assets/chlimage_1-324.png)
+* `/conf/global/settings/cloudsettings`
+* `/conf/<tenant>/settings/cloudsettings`
 
-To recover your ContextHub configurations, use CRXDE Lite to copy the nodes that represent your stores, UI modes, and UI modules from below the default-pre-upgrade_*yyyymmdd_xxxxxx* node to below the /etc/cloudsettings/default node. 
+After an upgrade, the backup is stored in a folder named `contexthub` below a node named:
+
+`/conf/global/settings/cloudsettings/default-pre-upgrade_yyyymmdd_xxxxxxx` or
+`/conf/<tenant>/settings/cloudsettings/default-pre-upgrade_yyyymmdd_xxxxxxx`
+
+The `yyyymmdd` portion of the node name is the date when the upgrade was performed.
+
+To recover your ContextHub configurations, use CRXDE Lite to copy the nodes that represent your stores, UI modes, and UI modules from below the `default-pre-upgrade_yyyymmdd_xxxxxx` node to below:
+
+* `/conf/global/settings/cloudsettings` or
+* `/conf/<tenant>/settings/cloudsettings`
