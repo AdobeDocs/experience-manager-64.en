@@ -145,7 +145,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Apply electronic signatures to a form using scribble signatures](using/signing-forms-using-scribble.md)
   + [AEM Forms Keyboard Shortcuts](using/keyboard-shortcuts.md)
   + [Associating submission reviewers with a form](using/adding-reviewers-form.md)
-  + [Authoring in-context help for form fields](using/authoring-in-field-help.md)
+  + [Authoring in-context help for form fields](using/authoring-in-field-help.md)  
 + Adaptive Forms - Advanced Authoring {#adaptive-forms-advanced-authoring}
   + [Creating adaptive forms using JSON Schema](using/adaptive-form-json-schema-form-model.md)
   + [Creating adaptive forms using XML Schema](using/adaptive-form-xml-schema-form-model.md)
@@ -171,6 +171,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Synchronizing Adaptive Forms with XFA Form Templates](using/synchronizing-adaptive-forms-xfa.md)
   + [Integrate Adobe Sign with AEM Forms](using/adobe-sign-integration-adaptive-forms.md)
   + [Creating and managing reviews for assets in forms](using/create-reviews-forms.md)
+  + [Standard validation error messages for adaptive forms](using/standard-validation-error-messages-adaptive-forms.md)
 + Interactive Communications {#interactive-communications}
   + [Introduction to Interactive Communication authoring UI](using/introduction-interactive-communication-authoring.md)
   + [Create an Interactive Communication](using/create-interactive-communication.md)
