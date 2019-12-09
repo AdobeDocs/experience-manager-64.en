@@ -23,7 +23,7 @@ Use the legend to understand the support level.
 | * | Supported with add-on features |
 | - | Not applicable |
 
-## Supported Raster Image Formats {#supported-raster-image-formats}
+## Supported Raster image formats {#supported-raster-image-formats}
 
 Raster image formats supported for asset management features are as follows:
 
@@ -85,31 +85,30 @@ The Adobe PDF Rasterizer library generates high-quality thumbnails and previews 
 
 See [Using PDF Rasterizer](aem-pdf-rasterizer.md).
 
-## Image Transcoding Library support {#supported-image-transcoding-library}
+## Supported Image Transcoding library {#supported-image-transcoding-library}
 
 The Adobe Imaging Transcoding library is an image processing solution that performs core image-handling functions, such as, encoding, transcoding, resampling, and resizing.
 
 Imaging Transcoding library supports JPG/JPEG, PNG (8-bit and 16-bit), GIF, BMP, TIFF/Compressed TIFF (apart from 32-bit TIFF files and PTIFF files), ICO, and ICN MIME types.
-ry](imaging-transcoding-library.md).
- 
+
 See [Imaging Transcoding Library](imaging-transcoding-library.md).
 
-## Supported Camera Raw {#supported-camera-raw}
+## Supported camera raw {#supported-camera-raw}
 
 The Adobe Camera Raw library enables AEM Assets to ingest raw images. See [Camera Raw Support](camera-raw.md).
 
-## Supported Document Formats {#supported-document-formats}
+## Supported document formats {#supported-document-formats}
 
 Document formats supported for asset management features are as follows:
 
 || Storage | Metadata<br> management | Metadata<br> extraction | Thumbnail<br> generation | Interactive<br> editing | Metadata<br> writeback | Insights |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Format** | | | | | | | |
-| AI | x | x | | x | x | x | x |
+| [AI](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) | x | x | | x | x | x | x |
 | DOC | x | x | x | x | | | |
 | DOCX | x | x | x | x | | | |
 | ODT | x | x | x | | | | |
-| PDF | x | x | x | x | x | x | x |
+| [PDF](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) | x | x | x | x | x | x | x |
 | HTML | x | x | x | | | | |
 | RTF | x | x | x | | | | |
 | TXT | x | x | x | | | | |
@@ -119,7 +118,7 @@ Document formats supported for asset management features are as follows:
 | PPT | x | x | x | x | x | x | |
 | PPTX | x | x | x | x | x | x | |
 | ODP | x | x | x | | | | |
-| INDD | x | x | | x | x | x | x |
+| [INDD](managing-image-presets.md#indesign-indd-file-format) | x | x | | x | x | x | x |
 | PS | x | x | | | | | |
 | QXP | x | x | | | | | |
 | EPUB | x | x | | x | x | | |
@@ -129,11 +128,11 @@ Document formats supported for Dynamic Media features are as follows:
 | | Upload<br> (Input format) | Create<br> image<br> preset<br> (Output format) | Preview<br> dynamic<br> rendition | Deliver<br> dynamic<br> rendition | Download<br> dynamic<br> rendition |
 |---|:---:|:---:|:---:|:---:|:---:|
 | **Format** | | | | | |
-| AI | x | | | | |
+| [AI](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) | x | | | | |
 | DOC | | | | | |
 | DOCX | | | | | |
 | ODT | | | | | |
-| PDF | x | x | x | x | x |
+| [PDF](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) | x | x | x | x | x |
 | HTML | | | | | |
 | RTF | | | | | |
 | TXT | | | | | |
@@ -143,7 +142,7 @@ Document formats supported for Dynamic Media features are as follows:
 | PPT | | | | | |
 | PPTX | | | | | |
 | ODP | | | | | |
-| INDD | x | | | | |
+| [INDD](managing-image-presets.md#indesign-indd-file-format) | x | | | | |
 | PS | | | | | |
 | QXP | | | | | |
 | EPUB | | | | | |
@@ -156,7 +155,7 @@ In addition to the above functionality, consider the following:
 
 * To use Dynamic Media to generate dynamic renditions for INDD files, see [InDesign (INDD) file format](../assets/managing-image-presets.md#indesign-indd-file-format).
 
-## Supported Multimedia Formats {#supported-multimedia-formats}
+## Supported multimedia formats {#supported-multimedia-formats}
 
 | | Storage | Metadata management | Metadata extraction | Thumbnail generation | FFMPEG transcoding |
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -232,7 +231,7 @@ The applicability of common DAM workflows for a few other file formats is descri
 
 **&ast;** The other formats are supported in DAM for storage, versioning, ACL, workflow, publishing, and metadata management.
 
-## Supported MIME Types {#supported-mime-types}
+## Supported MIME types {#supported-mime-types}
 
 By default, AEM detects the file type using the file extension. AEM can detect it from the contents of the files. For latter, select [!UICONTROL Detect MIME from content] option in [!UICONTROL Day CQ DAM Mime Type Service] in the AEM Web Console.
 
