@@ -1,10 +1,8 @@
 ---
 title: Enhanced Smart Tags
-seo-title: Enhanced Smart Tags
-description: null
-seo-description: null
+description: Enhanced Smart Tags
 uuid: 4452ca05-1f20-4f80-884a-a739ae7b8b0e
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 discoiquuid: c1b52aac-1eaf-4cfa-801f-77aeca0d90ea
@@ -54,7 +52,7 @@ The onboarding process is complete when the administrator configures the service
 
 >[!NOTE]
 >
->The Smart Content Service is supported on AEM 6.4 only. If you are running a previous version of AEM and require automatic tagging service for your assets, see [Smart Tags](https://helpx.adobe.com/experience-manager/6-3/assets/using/touch-ui-smart-tags.html).
+>If you are using AEM 6.3 or earlier version and require automatic tagging service for your assets, see [Smart Tags](https://helpx.adobe.com/experience-manager/6-3/assets/using/touch-ui-smart-tags.html). Smart Tags do not use the AI capabilities and are less accurate than the Enhanced Smart Tagging capability.
 
 ## Reviewing assets and tags {#reviewing-assets-and-tags}
 
@@ -182,4 +180,3 @@ You can trigger the tagging workflow from the following to instantly tag your as
 >However, even unaltered assets are tagged if the gap between the last and current tagging cycles for the tagging workflow exceeds 24 hours.
 >
 >For periodic tagging workflows, unaltered assets are tagged when the gap exceeds 6 months.
-
