@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a76425e9-fd3b-4c73-80f9-0ebabb8fd94f
 ---
 
-# How to use the VLT Tool{#how-to-use-the-vlt-tool}
+# How to Use the VLT Tool {#how-to-use-the-vlt-tool}
 
 The Jackrabbit FileVault tool (VLT) is a tool developed by [The Apache Foundation](https://www.apache.org/) that maps the content of a Jackrabbit/AEM instance to your file system. The VLT tool has similar functions as source control system client (such as a Subversion (SVN) client), providing normal check-in, check-out and management operations, as well as configuration options for flexible representation of the project content.
 
@@ -31,15 +31,18 @@ To start using VLT, you need to do the following:
 1. Synchronize with the repository.
 1. Test whether the synchronization worked.
 
-### Installing the vlt tool {#installing-the-vlt-tool}
+### Installing the VLT Tool {#installing-the-vlt-tool}
 
-To use the VLT tool, you first need to install it. It is not installed by default as it is an additional toolIn addition, you need to set your system's environment variable.
+To use the VLT tool, you first need to install it. It is not installed by default as it is an additional tool. In addition, you need to set your system's environment variable.
 
 1. Download the FileVault archive file from the [Apache Jackrabbit web site.](https://jackrabbit.apache.org/jcr/downloads.html#vlt)
+    >[!NOTE]
+    >
+    >The source of the VLT tool is [available on GitHub.](https://github.com/apache/jackrabbit-filevault)
 1. Extract the archive.
-1. Add `<archive-dir>/vault-cli-<version>/bin` to your environment `PATH` so that the command files `vlt` or `vlt.bat` are accessed as appropriate.
-
-   For example, `<aem-installation-dir>/crx-quickstart/opt/helpers/vault-cli-3.1.16/bin>`
+1. Add `<archive-dir>/vault-cli-<version>/bin` to your environment `PATH` so that the command files `vlt` or `vlt.bat` are accessed as appropriate. For example:
+    
+    `<aem-installation-dir>/crx-quickstart/opt/helpers/vault-cli-3.1.16/bin>`
 
 1. Open a command line shell and execute `vlt --help`. Make sure the output is similar to the following help screen:
 
@@ -101,7 +104,7 @@ To guarantee that VLT and SVN configuration match, you should set up the `svn:eo
 *.properties = svn:eol-style=native
 ```
 
-### Checking out the repository {#checking-out-the-repository}
+### Checking Out the Repository {#checking-out-the-repository}
 
 Check out the repository using the source control system. In svn, for example, type the following (substituting the URI and path with your repository):
 
@@ -109,7 +112,7 @@ Check out the repository using the source control system. In svn, for example, t
 svn co https://svn.server.com/repos/myproject
 ```
 
-### Synchronizing with the repository {#synchronizing-with-the-repository}
+### Synchronizing with the Repository {#synchronizing-with-the-repository}
 
 You need to synchronize filevault with the repository. To do this:
 
@@ -124,7 +127,7 @@ You need to synchronize filevault with the repository. To do this:
    >
    >The credentials have to be specified only once upon your initial checkout. They will then be stored in your home directory inside `.vault/auth.xml`.
 
-### Testing whether the synchronization worked {#testing-whether-the-synchronization-worked}
+### Testing Whether the Synchronization Worked {#testing-whether-the-synchronization-worked}
 
 After you have checked out the repository and synchronized it, you should test to make sure everything functions properly. An easy way to do this is to edit a **.jsp** file and see whether your changes are reflected after committing the changes.
 
@@ -209,7 +212,7 @@ Options:
 
 The following are some common tasks performed in VLT. For detailed information on each command see the individual [commands](#vlt-commands).
 
-### Checking out a subtree {#checking-out-a-subtree}
+### Checking Out a Aubtree {#checking-out-a-subtree}
 
 If you only want to check out a subtree of the repository for example, `/apps/geometrixx`, you can do so by typing the following:
 
@@ -219,7 +222,7 @@ vlt co http://localhost:4502/crx/-/jcr:root/apps/geometrixx geo
 
 Doing this creates a new export root `geo` with a `META-INF` and `jcr_root` directory and puts all files below `/apps/geometrixx` in `geo/jcr_root`.
 
-### Performing a filtered checkout {#performing-a-filtered-checkout}
+### Performing a Filtered Checkout {#performing-a-filtered-checkout}
 
 If you have an existing workspace filter and you want to use it for checkout, you can either first create the `META-INF/vault` directory and place the filter there, or specify it on the command line as follows:
 
@@ -237,7 +240,7 @@ An example filter:
 </workspaceFilter>
 ```
 
-### Using import/export instead of .vlt control {#using-import-export-instead-of-vlt-control}
+### Using Import/Export Instead of .vlt Control {#using-import-export-instead-of-vlt-control}
 
 You can import and export content between a JCR repository and the local file system without using control files.
 
@@ -771,9 +774,7 @@ The status codes used by VLT are:
 * '!' item is missing (removed by non-svn command) or incomplete  
 * '~' versioned item obstructed by some item of a different kind
 
-## Setting up FileVault sync {#setting-up-filevault-sync}
-
-This section describes the new synchronization feature shipped with FileVault tool (vlt) since the version 2.4.24.
+## Setting Up FileVault Sync {#setting-up-filevault-sync}
 
 The vault sync service is used to synchronize repository content with a local filesystem representation and vice versa. This is achieved by installing an OSGi service that will listen for repository changes and will scan the filesystem content periodically. It uses the same serialization format as vault for mapping the repository content to disk.
 
