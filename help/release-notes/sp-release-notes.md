@@ -19,7 +19,7 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 | Version |6.4.7.0 |
 | Type |Service Pack Release |
 | Date |December 12, 2019 |
-| Download URL | AEM 6.4.7.0 on PackageShare |
+| Download URL | [AEM 6.4.7.0 on PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.7.0) |
 
 ## What's included in AEM 6.4.7.0 {#what-s-included-in-aem}
 
@@ -29,6 +29,7 @@ It is also cumulative which means that 6.4.7.0 includes all AEM 6.4 service pack
 
 Some of the key highlights of AEM 6.4.7.0 are:
 
+* The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.17.
 * Added support to set version of a Sites page while deleting it.
 * New column for created date, which is sortable, has been added in **DAM list** view and on asset search results in **List** view (NPR-31311).
 * Asset sorting based on **Name** column has been allowed in **List** view.
@@ -38,6 +39,13 @@ Some of the key highlights of AEM 6.4.7.0 are:
 ## List of changes {#list-of-changes}
 
 ### Assets {#assets}
+
+**Product enhancements**
+
+* The export version of API package `package com.day.cq.dam.handler.standard.msoffice` supported by `dam-handler` bundle is upgraded to 6.0.0 (CQ-4279059).
+If you are using the package `com.day.cq.dam.handler.standard.msoffice` in your custom implementation, then it is advised that you compile your `dam-handler` bundle with the latest uber jar.
+
+**Fixes**
 
 * Metadata for some PDF documents is not updated and saved to the PDF on modifying its title (NPR-31575).
 
@@ -91,7 +99,7 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 * Zip file sent by email for asset download fails to unzip when a user with Read permissions tries to open it (CQ-4277925).
 
-* AEM 6.4 fails to update to com.adobe.granite.poi : 2.0.28 (CQ-4279059).
+* PPT Rendition Workflow fails to generate renditions of the uploaded PPT files, as AEM 6.4 fails to update to com.adobe.granite.poi version 2.0.28 (CQ-4279059).
 
 * PDF files are not indexed and content within is not searchable (CQ-4278916).
 
@@ -107,7 +115,7 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 * Added support to set a version of a page while deleting it. If versioning is disabled for the deleted page, AEM Sites cannot restore such pages (NPR-30891).
 
-* When a user adds Japanese or Korean characters in the description property of a menu, the menu displays distorted characters for Japanese and Korean language text. (NPR-31331).
+* When a user adds Japanese or Korean characters in the description property of a menu, the menu displays distorted characters for Japanese and Korean language text (NPR-31331).
 
 * When a user focuses on left rail fields and uses a keyboard shortcut to paste content, it pastes the content of the page editor clipboard instead of the content copied from the left rail fields (NPR-31169).
 
@@ -122,6 +130,10 @@ Some of the key highlights of AEM 6.4.7.0 are:
 * When configuring Adobe Launch, a forward slash (/) is prepended in the library URL (NPR-30700).
 
 * ContextHub performance degrades after publishing (NPR-30884).
+
+### Sling {#sling-6470}
+
+* Update the webconsole security provider bundle version to 1.2.4 to remove dependency of launchpad starter api from webconsolesecurityprovider (NPR-30885).
 
 ### Platform {#platform}
 
@@ -1990,7 +2002,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 
 1. The Product Information page (*/system/console/  productinfo *) should now show the updated version string "Adobe Experience Manager, Version 6.4.7.0" under Installed Products.
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
-1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.15 or higher (Use Web Console: /system/console/bundles).
+1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.17 or higher (Use Web Console: /system/console/bundles).
 
 To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites-deploying/technical-requirements.md).
 
@@ -2015,7 +2027,7 @@ which will copy new viewer presets to /conf location.
 
 >[!NOTE]
 >
->AEM 6.4.7.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/fd/AEM-FORMS-6.4.2.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.7.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
+>AEM 6.4.7.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/compatpack/AEM-FORMS-6.4.7.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.7.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
 
 1. Ensure that you have installed the AEM Service Pack. 
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.
@@ -2027,7 +2039,7 @@ which will copy new viewer presets to /conf location.
 >
 >Skip if you are not using AEM Forms on JEE. Fixes in AEM Forms JEE are delivered through a separate installer.
 
-For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0009](https://helpx.adobe.com/aem-forms/quick-fixes/6-4/jee-patch-0009.html).
+For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0013](https://helpx.adobe.com/aem-forms/quick-fixes/6-4/jee-patch-0013.html).
 
 #### Configuration settings required for NPR-21268 {#configuration-settings-required-for-npr}
 
@@ -2053,7 +2065,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 ### Uber Jar {#uber-jar}
 
-The Uber Jar for AEM 6.4.7.0 is available in the Adobe Public Maven repository (link will be updated in the next version).
+The Uber Jar for AEM 6.4.7.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.7/).
 
 To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
@@ -2079,12 +2091,6 @@ This section lists features and capabilities that have been removed or deprecate
 ### Known Issues {#known-issues}
 
 * If **Publish page** and **Unpublish page** do not display in the list of **Page Information** options, contact Adobe support.
-
-* After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this execute the following command:
-
-  `sh removing-commons.codec-1.11.0.sh <host> <port> <username> <password>`
-
-  The command retains the latest version (greater than 1.11.0) of `Apache Commons Codec` and removes other entries.
 
 * The following errors and warnings may occur during installation of AEM 6.4.6.0 and can be safely ignored as they do not impact your AEM instance:
 
@@ -2114,11 +2120,11 @@ The following text documents list the OSGi bundles and Content Packages included
 
 List of OSGi bundles included in AEM 6.4.7.0
 
-[Get File](link to be updated in the next version)
+[Get File](assets/6.4.7.0_osgi_bundles.txt)
 
 List of Content Packages included in AEM 6.4.7.0
 
-[Get File](link to be updated in the next version)
+[Get File](assets/6.4.7.0_content_packages.txt)
 
 ### Helpful resources {#helpful-resources}
 
