@@ -37,10 +37,7 @@ To start using VLT, you need to do the following:
 
 To use the VLT tool, you first need to install it. It is not installed by default and is an additional tool available in the `/opt` folder of your AEM instance. In addition, you need to set your system's environment variable.
 
-1. Copy the FileVault archive file from the cq-quickstart/opt/filevault directory of your installation. Copy either filevalut.tgz or filevault.zip, depending on your operating system.
-
-   You can also download the latest version of FileVault from [Package Share](/help/sites-administering/package-manager.md).
-
+1. [Download](https://search.maven.org/search?q=vault-cli) the latest version of VLT.
 1. Extract the archive.
 1. Add `<archive-dir>/vault-cli-<version>/bin` to your environment `PATH` so that the command files vlt or vlt.bat are accessed as appropriate.
 
