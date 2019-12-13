@@ -289,7 +289,6 @@ The following predicates are available as preconfigured ExtJS widgets.
 | predicateName | String | Name of the predicate. Defaults to `daterange` |
 | propertyname | String | Name of the JCR property. Defaults to `jcr:content/jcr:lastModified` |
 | defaultValue | String | Prefilled default value |
-| showFlatOption | Boolean | Flag to show Checkbox `search in subfolders`. Defaults to true. |
 
 ### OptionsPredicate {#optionspredicate}
 
