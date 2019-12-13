@@ -120,7 +120,7 @@ To change how search results are viewed:
 
 The following lenses are available: 
 
-| **Lens** |**Description** |
+| Lens | Description |
 |---|---|
 | **[!UICONTROL List Lens]** |Presents the assets in a list fashion with details. |
 | **[!UICONTROL Mosaic Lens]** |Presents assets in a mosaic fashion. |
