@@ -1,19 +1,15 @@
 ---
 title: Asset Templates
-seo-title: Asset Templates
 description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
-seo-description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
 uuid: 7ba87c1d-70cd-4b89-86f3-971b93885f1e
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 340b62f7-2405-4d2d-846d-2c444d6cc77b
 ---
 
 # Asset Templates {#asset-templates}
 
-Asset templates are a special class of assets that facilitate quick repurposing of visually-rich content for digital and print media. An asset template includes two parts, the fixed messaging section and the editable section.
+Asset templates are a special class of assets that facilitate quick re-purposing of visually-rich content for digital and print media. An asset template includes two parts, the fixed messaging section and the editable section.
 
 The fixed messaging section can contain proprietary content, such as brand logo and copyright information that are disabled for editing. The editable section can contain visual and textual content in fields that can be edited to customize messaging.
 
@@ -37,22 +33,17 @@ When you choose a template for your collateral, AEM Assets creates a copy of the
 
 You can export the updated file within the parent folder in the following formats:
 
-• INDD
-
-• PDF
-
-• JPG
+* INDD
+* PDF
+* JPG
 
 You can also download the output in these formats to your local system.
 
-## Creating a Collateral {#creating-a-collateral}
+## Create a Collateral {#creating-a-collateral}
 
-Consider a scenario where you want to create digital printable collateral, such as brochures, flyers, and ads for an upcoming campaign and share with outlet stores globally. Creating collateral based on a template helps deliver a unified customer experience across channels. Designers can create the campaign templates (single-page or multi-page) using a creative solution, such as InDesign and upload the templates to AEM Assets for you.
+Consider a scenario where you want to create digital printable collateral, such as brochures, flyers, and ads for an upcoming campaign and share with outlet stores globally. Creating collateral based on a template helps deliver a unified customer experience across channels. Designers can create the campaign templates (single-page or multi-page) using a creative solution, such as InDesign and upload the templates to AEM Assets for you. Before creating a collateral, have one or more INDD templates uploaded to and available in Experience Manager in advance.
 
 1. Click or tap the AEM logo, and then click/tap **[!UICONTROL Assets]** on the Navigation page.
-
-   ![chlimage_1-305](assets/chlimage_1-305.png)
-
 1. From the options, choose **[!UICONTROL Templates]**.
 
    ![chlimage_1-306](assets/chlimage_1-306.png)
@@ -61,7 +52,7 @@ Consider a scenario where you want to create digital printable collateral, such 
 
    ![chlimage_1-307](assets/chlimage_1-307.png)
 
-1. Choose a template for your brochure, and click/tap **[!UICONTROL Next]**.
+1. Have one or more INDD templates uploaded to and available in Experience Manager in advance. Choose a template for your brochure, and click/tap **[!UICONTROL Next]**.
 
    ![chlimage_1-308](assets/chlimage_1-308.png)
 
@@ -81,7 +72,7 @@ Consider a scenario where you want to create digital printable collateral, such 
 
    ![chlimage_1-312](assets/chlimage_1-312.png)
 
-## Editing a Collateral {#editing-a-collateral}
+## Edit a Collateral {#editing-a-collateral}
 
 You can edit a collateral immediately after you create it. Alternatively, you open it from the Templates page or the asset page.
 
