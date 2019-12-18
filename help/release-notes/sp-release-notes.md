@@ -1518,7 +1518,7 @@ The key highlights for AEM 6.4.2.0 forms are:
 * Added [integration with Adobe Stock](/help/assets/aem-assets-adobe-stock.md) so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM assets](https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html. NPR-15779: Hotfix for CQ-30857
 * Added support for dynamic conditional metaschema. For more information, see [Cascading Metadata](/help/assets/cascading-metadata.md). NPR-25189: Hotfix for CQ-4237413 
 * Enabled "Asset Download" option on Content Fragments. For more information, see [Asset Reports](/help/assets/asset-reports.md). NPR-25186: Hotfix for CQ-4237410 
-* Ability to set a metadata schema for asset folders. For more information, see [Folder Metadata Schema](/help/assets/folder-metadata-schema.md) and refer to its [Configuration Settings](/help/release-notes/sp-release-notes.md#main-pars_header_183715669) post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574 
+* Ability to set a metadata schema for asset folders. For more information, see [Folder Metadata Schema](/help/assets/folder-metadata-schema.md) and refer to its [Configuration Settings](#configuration-settings-required-for-npr) post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574 
   
 **Sites**
   
