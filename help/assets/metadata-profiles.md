@@ -54,7 +54,7 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 | [!UICONTROL Date] | Field Label, <br> Map to property, <br> Default Value |
 | [!UICONTROL Standard Tags] | Field Label, <br> Map to property, <br> Default Value, <br> Description |
 
-      ![chlimage_1-484](assets/chlimage_1-484.png)
+![chlimage_1-484](assets/chlimage_1-484.png)
 
 1. Click **[!UICONTROL Done]**. The Metadata Profile is added to the list of profiles in the **[!UICONTROL Metadata Profiles]** page. 
 
