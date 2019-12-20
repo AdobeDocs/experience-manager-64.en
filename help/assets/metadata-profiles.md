@@ -45,14 +45,14 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
 1. (Optional) Add more components to the **[!UICONTROL Edit Form]** from the **[!UICONTROL Build Form]** tab, and configure their properties in the **[!UICONTROL Settings]** tab. The following properties are available from the **[!UICONTROL Build Form]** tab:
 
-    | Component | Properties |
-    |---|---|
-    | [!UICONTROL Section Header] | Field Label Description |
-    | [!UICONTROL Single Line Text] | Field Label Map to property Default Value |
-    | [!UICONTROL Multi Value Text] | Field Label Map to property Default Value |
-    | [!UICONTROL Number] | Field Label Map to property Default Value |
-    | [!UICONTROL Date] | Field Label Map to property Default Value |
-    | [!UICONTROL Standard Tags] | Field Label Map to property Default Value Description |
+| Component | Properties |
+|---|---|
+| [!UICONTROL Section Header] | Field Label, <br> Description |
+| [!UICONTROL Single Line Text] | Field Label, <br> Map to property, <br> Default Value |
+| [!UICONTROL Multi Value Text] | Field Label, <br> Map to property, <br> Default Value |
+| [!UICONTROL Number] | Field Label, <br> Map to property, <br> Default Value |
+| [!UICONTROL Date] | Field Label, <br> Map to property, <br> Default Value |
+| [!UICONTROL Standard Tags] | Field Label, <br> Map to property, <br> Default Value, <br> Description |
 
       ![chlimage_1-484](assets/chlimage_1-484.png)
 
