@@ -214,9 +214,8 @@ The supported archive formats and the applicability of the common DAM workflows,
 
 The applicability of common DAM workflows for a few other file formats is described in the table below.
 
-| Features | | | | | | |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|
 | Formats | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
 | * | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | |
 | SVG | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) |
 | CSS | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) |
@@ -249,11 +248,7 @@ See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](/
 | BMP | image/bmp | | |
 | CSS | text/css | | |
 | DOC | application/msword | | |
-| EPS | application/postscript | | |
-| EPS | application/eps | | |
-| EPS | application/x-eps | | |
-| EPS | image/eps | | |
-| EPS | image/x-eps | | |
+| EPS | <ul><li>application/postscript</li><li>application/eps</li><li>application/x-eps</li><li>image/eps</li><li>image/x-eps</li> | | |
 | F4V | video/x-f4v | | ExcludeMasterVideoFromAVS |
 | FLA | application/x-shockwave-flash | | |
 | FLV | video/x-flv | | [ExcludeMasterVideoFromAVS](https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_exclude_master_video_from_avs.html) |
@@ -286,8 +281,7 @@ See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](/
 | SVG | image/svg+xml | | |
 | SWF | application/x-shockwave-flash | | |
 | TAR | application/x-tar | | |
-| TIF | image/tiff | | |
-| TIFF | image/tiff | | |
+| TIF / TIFF | image/tiff | | |
 | TTC | application/x-font-ttf | | |
 | TTF | application/x-font-ttf | | |
 | VOB | video/dvd | | [ExcludeMasterVideoFromAVS](https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_exclude_master_video_from_avs.html) |
