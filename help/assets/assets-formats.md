@@ -123,9 +123,8 @@ Document formats supported for asset management features are as follows:
 
 Document formats supported for Dynamic Media features are as follows:
 
-| | Upload<br> (Input format) | Create<br> image<br> preset<br> (Output format) | Preview<br> dynamic<br> rendition | Deliver<br> dynamic<br> rendition | Download<br> dynamic<br> rendition |
+| Format | Upload<br> (Input format) | Create<br> image<br> preset<br> (Output format) | Preview<br> dynamic<br> rendition | Deliver<br> dynamic<br> rendition | Download<br> dynamic<br> rendition |
 |---|:---:|:---:|:---:|:---:|:---:|
-| **Format** | | | | | |
 | [AI](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | | | | |
 | DOC | | | | | |
 | DOCX | | | | | |
@@ -155,7 +154,7 @@ In addition to the above functionality, consider the following:
 
 ## Supported multimedia formats {#supported-multimedia-formats}
 
-| | Storage | Metadata management | Metadata extraction | Thumbnail generation | FFMPEG transcoding |
+| Format | Storage | Metadata management | Metadata extraction | Thumbnail generation | FFMPEG transcoding |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | AAC | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | | - | * |
 | MIDI | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | | - | * |
@@ -201,9 +200,8 @@ In addition to the above functionality, consider the following:
 
 The supported archive formats and the applicability of the common DAM workflows, is covered in the following table.
 
-| | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
+| Format | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Formats** | | | | | | |
 | TGZ | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | |
 | JAR | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | |
 | RAR | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | |
@@ -218,8 +216,7 @@ The applicability of common DAM workflows for a few other file formats is descri
 
 | Features | | | | | | |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
-| **Formats** | | | | | | |
+| Formats | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
 | * | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | |
 | SVG | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) |
 | CSS | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) |
