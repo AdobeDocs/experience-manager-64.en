@@ -29,7 +29,7 @@ The Assets HTTP API exposes two major elements, folders and assets.
 
 ### Folders {#folders}
 
-Folders are like directories in tradtional filesystems. They are containers for other folders or asserts. Folders have the following components:
+Folders are like directories in traditional file-systems. They are containers for other folders or asserts. Folders have the following components:
 
 **Entities**: The entities of a folder are its child elements, which can be folders and assets.
 
@@ -94,7 +94,7 @@ The Assets HTTP API includes the following features:
 
 * Go to `https://[AEM_server]:[port]/system/console/configMgr`.
 * Navigate to **[!UICONTROL Adobe Granite CSRF Filter]**.
-* Make sure the property **[!UICONTROL Filter Methods]** incudes: POST, PUT, DELETE.
+* Make sure the property **[!UICONTROL Filter Methods]** includes: POST, PUT, DELETE.
 
 ### Retrieve a Folder Listing {#retrieve-a-folder-listing}
 

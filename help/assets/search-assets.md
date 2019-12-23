@@ -31,7 +31,7 @@ You can search based on the following options (predicates):
 
 You can customize the Filters panel and add/remove search predicates using [search facets](search-facets.md). To display the Filters panel, perform these steps:
 
-1. In the Assets user interface, tap/click ![search_icon](assets/search_icon.png) from the toolbar to display the OmniSearch box.
+1. In the Assets user interface, tap/click ![search_icon](assets/search_icon.png) from the toolbar to display the Omnisearch box.
 1. Enter your search term and press Enter. Alternatively, simply press Enter without entering any search term. Do not enter any leading spaces else the search does not work.  
 
 1. Tap/click the GlobalNav icon. The Filters panel is displayed. 
@@ -40,13 +40,13 @@ You can customize the Filters panel and add/remove search predicates using [sear
 
    Depending upon the type of items you search, the number of matches is indicated at the top of the search results.
 
-   ![numer_of_searches](assets/numer_of_searches.png)
+   ![number_of_searches](assets/number_of_searches.png)
 
 ## Search for file types {#search-for-file-types}
 
 The Filters panel helps add more granularity to your search experience and makes the search functionality more versatile. You can easily drill down to the desired level of detail.
 
-For example, if you are looking for an image, use the **File Type** predicate to choose whether you want a bitmap image or a vector image.
+For example, if you are looking for an image, use the **[!UICONTROL File Type]** predicate to choose whether you want a bitmap image or a vector image.
 
 ![image_type](assets/image_type.png)
 

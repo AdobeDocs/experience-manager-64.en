@@ -48,7 +48,7 @@ Before starting your migration, disable your launchers for the DAM Update Asset 
 
 ### Loading Tags {#loading-tags}
 
-You may already have a tag taxonomy in place that you are applying to your images. While tools like the CSV Asset Importer and AEM’s support for metadata profiles can automate the process of applying tags to assets, the tags need to be loaded into the system. The [ACS AEM Tools Tag Maker](https://adobe-consulting-services.github.io/acs-aem-tools/features/tag-maker/index.html) feature lets you populate tags by using a Microsoft Excel spreadsheet that is loaded into the system.
+You may already have a tag taxonomy in place that you are applying to your images. While tools like the CSV Asset Importer and AEM support for metadata profiles can automate the process of applying tags to assets, the tags need to be loaded into the system. The [ACS AEM Tools Tag Maker](https://adobe-consulting-services.github.io/acs-aem-tools/features/tag-maker/index.html) feature lets you populate tags by using a Microsoft Excel spreadsheet that is loaded into the system.
 
 ### Ingesting Assets {#ingesting-assets}
 
@@ -135,7 +135,7 @@ In this case, your assets are already populated with metadata and renditions are
 
 1. Activate assets.
 
-   Follow the instructions for [activating assets](#activating-assets) documented for the inital migration to AEM.
+   Follow the instructions for [activating assets](#activating-assets) documented for the initial migration to AEM.
 
 1. Clone publish.
 

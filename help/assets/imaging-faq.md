@@ -75,7 +75,7 @@ The only change that may be required is to update the **[!UICONTROL Time To Live
 
 ## Does smart imaging working with HTTPS? How about HTTP/2? {#does-smart-imaging-working-with-https-how-about-http}
 
-Smart imaging works with images delivered over HTTP or HTTPS. In addiiton, it also works over HTTP/2.
+Smart imaging works with images delivered over HTTP or HTTPS. In addition, it also works over HTTP/2.
 
 ## Am I eligible to use smart imaging? {#am-i-eligible-to-use-smart-imaging}
 
