@@ -81,7 +81,7 @@ Before uploading an asset, ensure that it is in a [supported format](assets-form
 
    If you upload an asset with the same name as that of an asset already available at the location where you are uploading the asset, a warning dialog is displayed.
 
-   You can choose to replace an existing asset, create another version, or keep both by renaming the new asset that is uploaded. If you replace an existing asset, the metadata for the asset and any prior modifications and history (for example annotations, croppings, and so on) are deleted. If you choose to keep both assets, the new asset is renamed.
+   You can choose to replace an existing asset, create another version, or keep both by renaming the new asset that is uploaded. If you replace an existing asset, the metadata for the asset and any prior modifications and history (for example annotations, crops, and so on) are deleted. If you choose to keep both assets, the new asset is renamed.
 
    ![chlimage_1-7](assets/chlimage_1-7.png)
 
@@ -101,7 +101,7 @@ Before uploading an asset, ensure that it is in a [supported format](assets-form
 
    Tap **[!UICONTROL Keep]** to retain the duplicate asset in AEM Assets. Tap  **[!UICONTROL Delete]** to delete the duplicate asset you uploaded.
 
-   AEM Assets prevents you from uploading assets with forbidden characters in their filenames. If you try to upload an asset that includes unallowed characters, AEM Assets displays a warning message regarding the presence of forbidden characters in the filename and stops the upload until you remove these characters or upload with an allowed name.
+   AEM Assets prevents you from uploading assets with forbidden characters in their filenames. If you try to upload an asset that includes the disallowed characters, AEM Assets displays a warning message regarding the presence of forbidden characters in the filename and stops the upload until you remove these characters or upload with an allowed name.
 
    To suit specific file naming conventions for your organization, the **[!UICONTROL Upload Assets]** dialog box lets you specify long names for the files that you upload.
 
@@ -164,15 +164,12 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
 
 #### Upload Job Options {#upload-job-options}
 
-<!-- TBD: After converting this HTML table to MD table, add UICONTROL.
--->
-
 | Upload option | Sub-option | Description |
 |---|---|---|
 | Job Name | | The default name that is pre-filled in the text field includes the user-entered portion of the name and the date-and-time stamp. You can use the default name or enter a name of your own creation for this upload job. <br>The job and other upload and publishing jobs are recorded on the Jobs page, where you can check the status of jobs. |
 | Publish After Uploading | | Automatically publishes the assets that you upload. |
 | Overwrite in any folder, same base asset name regardless of extension | | Select this option if you want the files you upload to replace existing files with the same names. The name of this option could be different, depending on the settings in **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**. |
-| Uncompress Zip or Tar Files on Upload | | |
+| Decompress ZIP or TAR files on upload | | |
 | Job Options | | Tap/ click **[!UICONTROL Job Options]** to open the [!UICONTROL Upload Job Options] dialog box and choose options that affect the entire upload job. These options are the same for all file types.<br>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**. Tap the **[!UICONTROL Default Upload Options]** button to open the [!UICONTROL Upload Job Options] dialog box. |
 | | When | Select One-Time or Recurring. To set a recurring job, choose a Repeat option—Daily, Weekly, Monthly, or Custom—to specify when you want the FTP upload job to recur. Then specify the scheduling options as necessary. |
 | | Include subfolders | Upload all subfolders within the folder you intend to upload. The names of the folder and its subfolders you upload are entered automatically in AEM Assets. |
@@ -203,7 +200,7 @@ When uploading image files, including AI, EPS, and PSD files, you can take the f
 | Unsharp Masking | | Lets you fine-tune a sharpening filter effect on the final downsampled image, controlling the intensity of the effect, the radius of the effect (as measured in pixels), and a threshold of contrast that is ignored.<br> This effect uses the same options as Photoshop’s Unsharp Mask filter. Contrary to what the name suggests, Unsharp Mask is a sharpening filter. Under Unsharp Masking, set the options you want. Setting options are described in the following: |
 | | Amount | Controls the amount of contrast that is applied to edge pixels.<br> Think of it as the intensity of the effect. The main difference between the amount values of Unsharp Mask in Dynamic Media and the amount values in Adobe Photoshop, is that Photoshop has an amount range of 1% to 500%. Whereas, in Dynamic Media, the value range is 0.0 to 5.0. A value of 5.0 is the rough equivalent of 500% in Photoshop; a value of 0.9 is the equivalent of 90%, and so on. |
 | | Radius | Controls the radius of the effect. The value range is 0-250.<br> The effect is run on all pixels in an image and radiates out from all pixels in all directions. The radius is measured in pixels. For example, to get a similar sharpening effect for a 2000 x 2000 pixel image and 500 x 500 pixel image, you would set a radius of two pixels on the 2000 x 2000 pixel image and a radius value of one pixel on the 500 x 500 pixel image. A larger value is used for an image that has more pixels. |
-| | Threshold | Threshold is a range of contrast that is ignored when the Unsharp Mask filter is applied. It is important so that no "noise" is introduced to an image when this filter is used. The value range is 0-255, which is the number of brightness steps in a grayscale image. 0=black, 128=50% gray and 255=white.<br> For example, a threshold value of 12 ignores slight variations is skin tone brightness to avoid adding noise, but still add edge contrast to contrasty areas such as where eyelashes meet skin.<br> For example, if you have a photo of someone’s face, the Unsharp Mask affects the contrasty parts of the image, such as where eyelashes and skin meet to create an obvious area of contrast, and the smooth skin itself. Even the smoothest skin exhibits subtle changes in brightness values. If you do not use a threshold value, the filter accentuates these subtle changes in skin pixels. In turn, a noisy and undesirable effect is created while contrast on the eyelashes is increased, enhancing sharpness.<br> To avoid this issue, a threshold value is introduced that tells the filter to ignore pixels that do not change contrast dramatically, like smooth skin.<br> In the zipper graphic shown earlier, notice the texture next to the zippers. Image noise is exhibited because the threshold values were too low to suppress the noise. |
+| | Threshold | Threshold is a range of contrast that is ignored when the Unsharp Mask filter is applied. It is important so that no "noise" is introduced to an image when this filter is used. The value range is 0-255, which is the number of brightness steps in a grayscale image. 0=black, 128=50% gray and 255=white.<br> For example, a threshold value of 12 ignores slight variations is skin tone brightness to avoid adding noise, but still add edge contrast to contrasting areas such as where eyelashes meet skin.<br> For example, if you have a photo of someone’s face, the Unsharp Mask affects the contrasting parts of the image, such as where eyelashes and skin meet to create an obvious area of contrast, and the smooth skin itself. Even the smoothest skin exhibits subtle changes in brightness values. If you do not use a threshold value, the filter accentuates these subtle changes in skin pixels. In turn, a noisy and undesirable effect is created while contrast on the eyelashes is increased, enhancing sharpness.<br> To avoid this issue, a threshold value is introduced that tells the filter to ignore pixels that do not change contrast dramatically, like smooth skin.<br> In the zipper graphic shown earlier, notice the texture next to the zippers. Image noise is exhibited because the threshold values were too low to suppress the noise. |
 | | Monochrome | Select to unsharp-mask image brightness (intensity).<br> Deselect to unsharp-mask each color component separately. |
 | Knockout Background | | Automatically removes the background of an image when you upload it. This technique is useful to draw attention to a particular object and make it stand out from a busy background. Select to enable or “turn on” the Knockout Background feature and the following sub-options: |
 | | Corner | Required.<br> The corner of the image that is used to define the background color to knockout.<br> You can choose from **Upper Left**, **Bottom Left**, **Upper Right**, or **Bottom Right**. |
@@ -302,7 +299,7 @@ You can upload ZIP archives just like any other supported asset. The same file n
 
 Select one ZIP archive at a time, click **[!UICONTROL Extract Archive]**, and select a destination folder. Select an option to handle conflicts, if any. If the assets in the ZIP file already exist in the destination folder, you can select one of these options: skip extraction, replace existing files, keep both assets by renaming, or create new version.
 
-After the extraction is complete, AEM notifies you in the notification area. While AEM extracts the ZIP, you can go back to your work without interuppting the extraction.
+After the extraction is complete, AEM notifies you in the notification area. While AEM extracts the ZIP, you can go back to your work without interrupting the extraction.
 
 ![Notification of ZIP extraction](assets/zip_extract_notification.png)
 
@@ -347,7 +344,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. To schedule a particular date/time for the activation of the asset, use the date picker beside the **[!UICONTROL On Time]** field.
 
-   ![Set On time for assets to make assets availabile for a fixed period of time between on and off time](assets/chlimage_1-12.png)
+   ![Set On time for assets to make assets available for a fixed period of time between on and off time](assets/chlimage_1-12.png)
 
 1. To deactivate the asset after a particular duration, choose the deactivation date and time from the date picker beside the **[!UICONTROL Off Time]** field.
 
@@ -381,7 +378,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 ## Copying assets {#copying-assets}
 
-When you copy an asset or a folder, the entire asset or the folder is copied, along with its content structure. A copied asset or a folder is duplicated at the target location. The asset at the source location is not alterted.
+When you copy an asset or a folder, the entire asset or the folder is copied, along with its content structure. A copied asset or a folder is duplicated at the target location. The asset at the source location is not altered.
 
 A few attributes that are unique to a particular copy of an asset are not carried forward. Some examples are:
 
@@ -508,7 +505,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 ### Viewing subassets {#viewing-subassets}
 
-In AEM, subassets can be generated for assets with supported multi-page formats such as PDF, AI, Powerpoint/Apple Keynote, and InDesign. These subassets are like normal assets, but are linked to their parent asset and facilitate multi-page view in the Touch UI.
+In AEM, subassets can be generated for assets with supported multi-page formats such as PDF, AI, PowerPoint/Apple Keynote, and InDesign. These subassets are like normal assets, but are linked to their parent asset and facilitate multi-page view in the Touch UI.
 
 Subasset generation is disabled by default. To enable subasset generation, add the **[!UICONTROL Create Sub Asset]** step to the **[!UICONTROL DAM Update Asset]** workflow.
 
@@ -611,7 +608,7 @@ While unpublishing a complex asset, unpublish the asset only. Avoid unpublishing
 
 A CUG (Closed User Group) is used to limit access to specific asset folders published from AEM. If you create a CUG for a folder, access to the folder (including folder assets and subfolders) is restricted to assigned members or groups only. To access the folder, they must log in using their security credentials.
 
-CUGs are an extra way to restrict access to your assets. You can also configure a login page for the folder.
+CUG are an extra way to restrict access to your assets. You can also configure a login page for the folder.
 
 **To create a closed user group**:
 
@@ -635,7 +632,7 @@ Basic search is detailed in the [Search and filter](/help/sites-authoring/search
 
 ![filters_panel](assets/filters_panel.png)
 
-For recently uploaded assets, their metadata (including titles, tags, and so on) is not immediately available in the list of suggestions that appear when you type in the Omni Search box.
+For recently uploaded assets, their metadata (including titles, tags, and so on) is not immediately available in the list of suggestions that appear when you type in the Omnisearch box.
 
 This is because AEM Assets waits until the expiry of a timeout period (1 hour by default) before running a background job to index the metadata for all newly uploaded/updated assets and adding them to the list of suggestions.
 
@@ -894,7 +891,7 @@ The following are scenarios where you create versions:
 
 * You modify an image in a different application and upload to AEM Assets. A version of the image is created so your original image is not overwritten.
 * You edit the metadata of an asset.
-* You use AEM desktop app to checkout an existing asset and save your changes. A new version is created everytime the asset is saved.
+* You use AEM desktop app to checkout an existing asset and save your changes. A new version is created every time the asset is saved.
 
 You can also enable automatic versioning through a workflow. When you create a version for an asset, the metadata and renditions are saved along with the version. Renditions are rendered alternatives of the same images, for example, a PNG rendition of an uploaded JPEG file.
 

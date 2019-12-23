@@ -1,10 +1,8 @@
 ---
 title: Managing Metadata for Digital Assets
-seo-title: Managing Metadata for Digital Assets
 description: Learn about the types of metadata an how AEM Assets helps manage metadata for assets to allow easier categorization and organization of assets. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata.
-seo-description: Learn about the types of metadata an how AEM Assets helps manage metadata for assets to allow easier categorization and organization of assets. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata.
 uuid: 29215e51-b315-440a-9480-5b5a0ee76547
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 7acc1cab-d167-4299-bd13-8eb800a1112e
 ---
@@ -87,7 +85,7 @@ There are a variety of ways that metadata can be embedded into files. A selectio
 * XMP: used by AEM Assets to store the extracted metadata within the repository.
 * ID3: for audio and video files.
 * EXIF: for image files.
-* Other/Legacy: from Microsoft Word, Powerpoint, Excel and so on.
+* Other/Legacy: from Microsoft Word, PowerPoint, Excel and so on.
 
 #### XMP {#xmp}
 
@@ -124,7 +122,7 @@ Most of the metadata fields defined by EXIF are of a highly technical nature and
 
 #### Other Metadata {#other-metadata}
 
-Other metadata that can be embedded from files include Microsoft Word, Powerpoint, Excel, and so on.
+Other metadata that can be embedded from files include Microsoft Word, PowerPoint, Excel, and so on.
 
 ## Metadata Schemata {#metadata-schemata}
 
@@ -140,7 +138,7 @@ The metadata schemata supported are listed in the following section.
 
 * dc - Dublin Core - the most important and widely used set of metadata
 * DICOM - Digital Imaging and Communications in Medicine
-* Iptc4xmpCore & iptc4xmpExt - International Press Communications Standard - lots of subject-specific metdata
+* Iptc4xmpCore & iptc4xmpExt - International Press Communications Standard - lots of subject-specific metadata
 * rdf - Resource Description Framework - for generic semantic web metadata
 * xmp - Extensible Metadata Platform
 * xmpBJ - Basic Job Ticketing
