@@ -29,14 +29,14 @@ The `[storeType]` part of the category is the storeType with which the store can
 
 ### Creating a ContextHub Store Candidate {#creating-a-contexthub-store-candidate}
 
-To create a store candidate, you use the [ `ContextHub.Utils.inheritance.inherit`](/help/sites-developing/contexthub-api.md#inherit-child-parent) function to extend one of the base stores:
+To create a store candidate, you use the [`ContextHub.Utils.inheritance.inherit`](/help/sites-developing/contexthub-api.md#inherit-child-parent) function to extend one of the base stores:
 
-* ` [ContextHub.Store.PersistedStore](/help/sites-developing/contexthub-api.md#contexthub-store-persistedstore)`
-* ` [ContextHub.Store.SessionStore](/help/sites-developing/contexthub-api.md#contexthub-store-sessionstore)`
-* ` [ContextHub.Store.JSONPStore](/help/sites-developing/contexthub-api.md#contexthub-store-jsonpstore)`
-* ` [ContextHub.Store.PersistedJSONPStore](/help/sites-developing/contexthub-api.md#contexthub-store-persistedjsonpstore)`
+* [`ContextHub.Store.PersistedStore`](/help/sites-developing/contexthub-api.md#contexthub-store-persistedstore)
+* [`ContextHub.Store.SessionStore`](/help/sites-developing/contexthub-api.md#contexthub-store-sessionstore)
+* [`ContextHub.Store.JSONPStore`](/help/sites-developing/contexthub-api.md#contexthub-store-jsonpstore)
+* [`ContextHub.Store.PersistedJSONPStore`](/help/sites-developing/contexthub-api.md#contexthub-store-persistedjsonpstore)
 
-Note that each base store extends the ` [ContextHub.Store.Core](/help/sites-developing/contexthub-api.md#contexthub-store-core)` store.
+Note that each base store extends the [`ContextHub.Store.Core`](/help/sites-developing/contexthub-api.md#contexthub-store-core) store.
 
 The following example creates the simplest extension of the `ContextHub.Store.PersistedStore` store candidate:
 
@@ -50,7 +50,7 @@ Realistically, your custom store candidates will define additional functions or 
 
 ### Registering a ContextHub Store Candidate {#registering-a-contexthub-store-candidate}
 
-Register a store candidate to integrate it with the ContextHub framework and enable stores to be created from it. To register a store candidate, use the [ `registerStoreCandidate`](/help/sites-developing/contexthub-api.md#registerstorecandidate-store-storetype-priority-applies) function of the `ContextHub.Utils.storeCandidates` class.
+Register a store candidate to integrate it with the ContextHub framework and enable stores to be created from it. To register a store candidate, use the [`registerStoreCandidate`](/help/sites-developing/contexthub-api.md#registerstorecandidate-store-storetype-priority-applies) function of the `ContextHub.Utils.storeCandidates` class.
 
 When you register a store candiate, you provide a name for the store type. When creating a store from the candidate, you use the store type to identify the candidate upon which it is based.
 
@@ -69,9 +69,9 @@ To create a UI moduler renderer, create a `Class` object that contains the logic
 
 * Extend the `ContextHub.UI.BaseModuleRenderer` class. This class is the base implementation for all UI module renderers. The `Class` object defines a property named `extend` that you use to name this class as that which is being extended.
 
-* Provide a default configuration. Create a `defaultConfig` property. This property is an object that includes the properties that are defined for the [ `contexthub.base`](/help/sites-developing/ch-samplemodules.md#contexthub-base-ui-module-type) UI module, and any other properties that you require.
+* Provide a default configuration. Create a `defaultConfig` property. This property is an object that includes the properties that are defined for the [`contexthub.base`](/help/sites-developing/ch-samplemodules.md#contexthub-base-ui-module-type) UI module, and any other properties that you require.
 
-The source for `ContextHub.UI.BaseModuleRenderer` is located at /libs/granite/contexthub/code/ui/container/js/ContextHub.UI.BaseModuleRenderer.js.  To register the renderer, use the ` [registerRenderer](/help/sites-developing/contexthub-api.md#registerrenderer-moduletype-renderer-dontrender)` method of the `ContextHub.UI` class. You need to provide a name for the module type. When administrators create a UI module based on this renderer, they specify this name.
+The source for `ContextHub.UI.BaseModuleRenderer` is located at `/libs/granite/contexthub/code/ui/container/js/ContextHub.UI.BaseModuleRenderer.js`.  To register the renderer, use the [`registerRenderer`](/help/sites-developing/contexthub-api.md#registerrenderer-moduletype-renderer-dontrender) method of the `ContextHub.UI` class. You need to provide a name for the module type. When administrators create a UI module based on this renderer, they specify this name.
 
 Create and register the renderer class in a self-executing anonymous function. The following example is based on the source code for the contexthub.browserinfo UI module. This UI module is a simple extension of the `ContextHub.UI.BaseModuleRenderer` class.
 
