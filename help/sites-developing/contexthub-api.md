@@ -86,7 +86,7 @@ The following example retrieves all stores and then retrieves the geolocation st
 
 ```
 var allStores = ContextHub.getAllStores();
-var geoloc = allStores.geolocation
+var geoloc = allStores.geolocation;
 ```
 
 #### getStore(name) {#getstore-name}
@@ -153,7 +153,7 @@ The name of the store.
 
 #### persistence {#persistence}
 
-A ContextHub.Utils.Persistence object. For information about the default value and initialization, see `[init(name,config)](/help/sites-developing/contexthub-api.md#init-name-config).`
+A ContextHub.Utils.Persistence object. For information about the default value and initialization, see [init(name,config)](/help/sites-developing/contexthub-api.md#init-name-config).
 
 ### Functions (ContextHub.Store.Core) {#functions-contexthub-store-core}
 
