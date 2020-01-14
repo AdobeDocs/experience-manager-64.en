@@ -52,7 +52,7 @@ Raster image formats supported for Dynamic Media features are as follows:
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ |
 | TIFF | ✓ | ✓ | ✓ | ✓ | ✓ |
 | JPEG | ✓ | ✓ | ✓ | ✓ | ✓ |
-| BMP | | ✓ | | | |
+| BMP | ✓ | | | | |
 | PNM | | | | | |
 | PGM | | | | | |
 | PBM | | | | | |
