@@ -357,7 +357,7 @@ When editing a variation you have access to the action for synchronizing the cur
 1. Open your content fragment in the fragment editor. Ensure that the **Master** has been edited.
 2. Select a specific variation, then the appropriate synchronization action from either:
 
-    * the **Actions** drop down selector - **Select current element with master** 
+    * the **Actions** drop down selector - **Sync current element with master** 
     * the toolbar of the full-screen editor - **Sync with master**
 
 3. Master and the variation will be shown side-by-side:
