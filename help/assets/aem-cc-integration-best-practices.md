@@ -55,9 +55,9 @@ The terms used in this document may have a different meaning in other contexts. 
 The following types of integration are described in this guide:
 
 * **Integration 1 - [AEM desktop app](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html):** Linking AEM Assets with the desktop and desktop applications directly. It uses a network share that  is  mounted on the local  filesystem,  and maps assets from DAM into virtualized folders/files on the local disk share. This type of integration requires network connection on the user's desktop and direct user access to AEM (including AEM login).
-* **Integration 2 - [AEM / Creative Cloud folder sharing](/help/sites-administering/creative-cloud.md):** Sharing AEM folders with Creative Cloud file storage, to let creative users access selected assets and provide new assets back into DAM. This type of integration does not require the creative user to have access / login to AEM, only their login with Adobe ID to Creative Cloud.
+* **Integration 2 - [Folder sharing](/help/assets/aem-cc-integration-best-practices.md):** Sharing AEM folders with Creative Cloud file storage, to let creative users access selected assets and provide new assets back into DAM. This type of integration does not require the creative user to have access / login to AEM, only their login with Adobe ID to Creative Cloud.
 
-The follow diagram depicts both types of integration and describes how they connect work and assets in DAM with user's work on desktop:
+The following diagram explains both types of integration and describes how they connect work and assets in DAM with user's work on desktop:
 
 ![chlimage_1-300](assets/chlimage_1-300.png) 
 
@@ -66,7 +66,7 @@ The follow diagram depicts both types of integration and describes how they conn
 The following table provides a concise summary of when to use which solution or integration and the alternatives.
 
 * **AEM desktop app:** When users have direct access to AEM Assets and/or require access to larger parts of the DAM, including the whole repository.
-* **AEM / Creative Cloud folder sharing:** When users don't have direct access to AEM or only require access to a smaller number of files.
+* **AEM folder sharing with Adobe Creative Cloud:** When users don't have direct access to AEM or only require access to a smaller number of files.
 * Alternative solutions (for example, [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share](assets-finder-editor.md) components, [Link Share](link-sharing.md), using [AEM Assets web UI](managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
 
 | Use case | AEM desktop app | Folder sharing | Other solutions |
@@ -197,7 +197,7 @@ Use the following strategies to provide access to final/approved assets:
 
 * To provide access to a large number assets: Use [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), or customer’s implementation of [Asset Share](assets-finder-editor.md) on AEM publish infrastructure
 
-* To provide access to a few assets: [AEM / Creative Cloud folder sharing](/help/sites-administering/creative-cloud.md) can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in its [dedicated best practices guide](aem-cc-folder-sharing-best-practices.md).
+* To provide access to a few assets: AEM folder sharing with Adobe Creative Cloud can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in this article.
 
 ### Use Cases {#use-cases}
 
