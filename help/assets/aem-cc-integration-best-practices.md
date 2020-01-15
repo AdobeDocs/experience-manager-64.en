@@ -69,7 +69,7 @@ The following table provides a concise summary of when to use which solution or 
 * **AEM / Creative Cloud folder sharing:** When users don't have direct access to AEM or only require access to a smaller number of files.
 * Alternative solutions (for example, [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share](assets-finder-editor.md) components, [Link Share](link-sharing.md), using [AEM Assets web UI](managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
 
-| Use case | Desktop app | Folder sharing | Other solutions |
+| Use case | AEM desktop app | Folder sharing | Other solutions |
 |---|---|---|---|
 | Share smaller number (1) of DAM assets with Creative user | ✔✔ | ✔ | |
 | Share larger number (2) of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br> [Asset Share](assets-finder-editor.md) |
@@ -240,7 +240,7 @@ Here is the flow of events depicted in the diagram:
 
 <!-- TBD for formatting. 
 This article will get fixed automatically when 6.5 content is ported to it.
-And 6.5 content will be ported after updating it for Desktop App 2.0 best practices.
+And 6.5 content will be ported after updating it for AEM desktop app 2.0 best practices.
 And it will be updated for DA2.0 best practices after 6.5 repo is available for writers to edit content in.
 -->
 
