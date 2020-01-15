@@ -45,9 +45,8 @@ Raster image formats supported for asset management features are as follows:
 
 Raster image formats supported for Dynamic Media features are as follows:
 
-| | Upload<br> (Input format) | Create<br> image<br> preset<br> (Output format) | Preview<br> dynamic<br> rendition | Deliver<br> dynamic<br> rendition | Download<br> dynamic<br> rendition |
+| Format | Upload<br> (Input format) | Create<br> image<br> preset<br> (Output format) | Preview<br> dynamic<br> rendition | Deliver<br> dynamic<br> rendition | Download<br> dynamic<br> rendition |
 |---|:---:|:---:|:---:|:---:|:---:|
-| **Format** | | | | | |
 | PNG | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) |
 | GIF | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) |
 | TIFF | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) |
@@ -214,7 +213,7 @@ The supported archive formats and the applicability of the common DAM workflows,
 
 The applicability of common DAM workflows for a few other file formats is described in the table below.
 
-| Formats | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
+| Format | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | * | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | |
 | SVG | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) | ![checkmark-icon](do-not-localize/checkmark_icon.png) |
