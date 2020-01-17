@@ -1,5 +1,5 @@
 ---
-title: Manage assets in AEM Assets
+title: Manage your digital assets using AEM Assets
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets
 uuid: f148c913-7b44-4285-8db9-138f959c4899
 contentOwner: AG
@@ -7,13 +7,13 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
 ---
 
-# Managing assets with the Touch-optimized UI {#managing-assets-with-the-touch-optimized-ui}
+# Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}
 
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 
 This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface. For an elementary knowledge about the user interface, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md). To manage Content Fragments, see [Managing Content Fragments](content-fragments-managing.md) assets.
 
-## Creating folders {#create-folders}
+## Create folders {#create-folders}
 
 When organizing a collection of assets, for example, all `Nature` images, you can create folders to keep them together. You can use folders to categorize and organize your assets. AEM Assets does not require you to organize assets in folders to work better.
 
@@ -31,7 +31,7 @@ The following (space-separated list of) characters are not supported:
 * asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
 * asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
 
-## Uploading assets {#uploading-assets}
+## Upload assets {#uploading-assets}
 
 You can upload various types of assets (including images, PDF files, RAW files, and so on) from your local folder or a network drive to AEM Assets.
 
@@ -127,7 +127,7 @@ To overcome this situation, AEM Assets ingests one asset at a time (serial uploa
 
 Serial uploading of assets is enabled by default. To disable the feature and allow concurrent uploading, overlay the `fileupload` node in CRXDe and set the value of the `parallelUploads` property to `true`.
 
-### Uploading assets using FTP {#uploading-assets-using-ftp}
+### Upload assets using FTP {#uploading-assets-using-ftp}
 
 Dynamic Media enables batch uploading of assets by way of FTP server. If you intend to upload large assets (&gt;1 GB) or upload entire folders and subfolders, you should use FTP. You can even set up FTP upload to occur on a recurring scheduled basis.
 
@@ -183,7 +183,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
 | | EVideo Options | You can transcode a video file by choosing a Video Preset.<br> See [Setting eVideo upload options](#setting-evideo-upload-options). |
 | | Batch Set Presets | To create an Image Set, or Spin Set from the uploaded files, click the Active column for the preset you want to use. You can select more than one preset. You create the presets in the Application Setup/Batch Set Presets page of Dynamic Media Classic.<br> See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets) to learn more about creating batch set presets.<br> See [Setting Batch Set Presets at upload](#setting-batch-set-presets-at-upload). |
 
-#### Setting image editing options at upload {#setting-image-editing-options-at-upload}
+#### Set image editing options at upload {#setting-image-editing-options-at-upload}
 
 When uploading image files, including AI, EPS, and PSD files, you can take the following editing actions in the **[!UICONTROL Upload Job Options]** dialog box:
 
@@ -207,7 +207,7 @@ When uploading image files, including AI, EPS, and PSD files, you can take the f
 | | Fill Method | Required.<br> Controls pixel transparency from the Corner location that you set.<br> You can choose from the following fill methods: <ul><li>**Flood Fill** - turns all pixels transparent that match the Corner that you have specified and are connected to it.</li><li>**Match Pixel** - turns all matching pixels transparent, regardless of their location on the image.</li></ul> |
 | | Tolerance | Optional.<br> Controls the allowable amount of variation in pixel color matching based on the Corner location that you set.<br> Use a value of 0.0 to match pixel colors exactly or, use a value of 1.0 to allow for the greatest variation. |
 
-#### Setting PostScript and Illustrator upload options {#setting-postscript-and-illustrator-upload-options}
+#### Set PostScript and Illustrator upload options {#setting-postscript-and-illustrator-upload-options}
 
 When you upload PostScript (EPS) or Illustrator (AI) image files, you can format them in various ways. You can rasterize the files, maintain the transparent background, choose a resolution, and choose a color space. Options for formatting PostScript and Illustrator files are available in the Upload Job Options dialog box under PostScript Options and Illustrator Options.
 
@@ -222,7 +222,7 @@ When you upload PostScript (EPS) or Illustrator (AI) image files, you can format
 | | Force As CMYK | Converts to the CMYK color space. |
 | | Force As Grayscale | Converts to the grayscale color space.|
 
-#### Setting Photoshop upload options {#setting-photoshop-upload-options}
+#### Set Photoshop upload options {#setting-photoshop-upload-options}
 
 PSD (Photoshop Document) files are most often used to create image templates. When you upload a PSD file, you can create an image template automatically from the file (select the Create Template option on the Upload screen).
 
@@ -246,7 +246,7 @@ Use the **[!UICONTROL Crop Options]** and **[!UICONTROL Color Profile Options]**
 | | Photoshop and Layer Name | Names the images after the PSD file followed by the layer name or layer number. The layer number is used if the layer names in the PSD file are default Photoshop layer names. For example, a layer named Price Tag in a PSD file named SpringAd is named Spring Ad_Price Tag. A layer with the default name Layer 2 is called Spring Ad_2. |
 | Anchor | | Specify how images are anchored in templates that are generated from the layered composition produced from the PSD file. By default, the anchor is the center. A center anchor allows replacement images to best fill the same space, no matter the aspect ratio of the replacement image. Images with a different aspect that replace this image, when referencing the template and using parameter substitution, effectively occupy the same space. Change to a different setting if your application requires the replacement images to fill the allocated space in the template. |
 
-#### Setting PDF upload options {#setting-pdf-upload-options}
+#### Set PDF upload options {#setting-pdf-upload-options}
 
 When you upload a PDF file, you can format it in various ways. You crop its pages, extract search words, enter a pixels-per-inch resolution, and choose a color space. PDF files often contain a trim margin, crop marks, registration marks, and other printer’s marks. You can crop these marks from the sides of pages as you upload a PDF file.
 
@@ -269,7 +269,7 @@ Choose from the following options:
 | | Force as CMYK | Converts to the CMYK color space. |
 | | Force as Grayscale | Converts to the grayscale color space. |
 
-#### Setting eVideo upload options {#setting-evideo-upload-options}
+#### Set eVideo upload options {#setting-evideo-upload-options}
 
 You can transcode a video file by choosing from a variety of video presets.
 
@@ -281,7 +281,7 @@ You can transcode a video file by choosing from a variety of video presets.
 | | Mobile | Create an MP4 file for delivery on iPhone or Android mobile devices.Select one or more aspect ratios with the resolution size and target data rate you desire. |
 | | Tablet | Create an MP4 file for delivery on iPad or Android tablet devices.Select one or more aspect ratios with the resolution size and target data rate you desire. |
 
-#### Setting Batch Set Presets at upload {#setting-batch-set-presets-at-upload}
+#### Set Batch Set Presets at upload {#setting-batch-set-presets-at-upload}
 
 If you want to automatically create an Image Set or Spin Set from uploaded images, click the **[!UICONTROL Active** column for the preset you want to use. You can select more than one preset.
 
@@ -311,7 +311,7 @@ Some limitations of the feature are:
 
 * You cannot select two ZIP files at the same time and extract them. You can only extract one ZIP archive at a time.
 
-## Previewing assets {#previewing-assets}
+## Preview assets {#previewing-assets}
 
 See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
@@ -330,7 +330,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
    ![chlimage_1-11](assets/chlimage_1-11.png)
 
-## Editing properties {#editing-properties}
+## Edit properties {#editing-properties}
 
 1. Navigate to the location of the asset whose metadata you want to edit.  
 
@@ -376,7 +376,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 1. Tap **[!UICONTROL Save & Close]**.
 1. Navigate to the Assets UI. The edited metadata properties, including title, description, ratings, and so on are displayed on the asset card in **[!UICONTROL Card]** view and under relevant columns in the **[!UICONTROL List]** view.
 
-## Copying assets {#copying-assets}
+## Copy assets {#copying-assets}
 
 When you copy an asset or a folder, the entire asset or the folder is copied, along with its content structure. A copied asset or a folder is duplicated at the target location. The asset at the source location is not altered.
 
@@ -412,7 +412,7 @@ The other properties and metadata information is retained. A partial copy is not
    >
    >The **[!UICONTROL Paste]** icon is available in the toolbar until the paste operation is completed.
 
-### Moving or renaming assets {#moving-or-renaming-assets}
+### Move or rename assets {#moving-or-renaming-assets}
 
 1. Navigate to the location of the asset you want to move.  
 
@@ -451,7 +451,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    If you do not update references, they continue to point to the previous path of the asset. If you adjust the references, they are updated to the new asset path.
 
-### Managing renditions {#managing-renditions}
+## Manage renditions {#managing-renditions}
 
 1. You can add or remove renditions for an asset, except the original. Navigate to the location of the asset for which you want to add or remove renditions.  
 
@@ -503,31 +503,24 @@ The other properties and metadata information is retained. A partial copy is not
    >
    >Video annotations are supported only on browsers with HTML5 compatible video formats. In addition, depending on the browser, different video formats are supported.
 
-### Viewing subassets {#viewing-subassets}
+### Create subassets {#generate-subassets}
 
-In AEM, subassets can be generated for assets with supported multi-page formats such as PDF, AI, PowerPoint/Apple Keynote, and InDesign. These subassets are like normal assets, but are linked to their parent asset and facilitate multi-page view in the Touch UI.
+Supported assets with multi-page formats &mdash; PDF files, AI files, Microsoft PowerPoint and Apple Keynote files, and Adobe InDesign files &mdash; can generate subassets for each individual page. These subassets are linked to the parent asset and facilitate multi-page view. For all other purposes, the subassets are treated like normal assets in AEM.
 
-Subasset generation is disabled by default. To enable subasset generation, add the **[!UICONTROL Create Sub Asset]** step to the **[!UICONTROL DAM Update Asset]** workflow.
+Subasset generation is disabled by default. AEM offers two methods to generate subassets:
 
-For Word documents, the DAM Parse Word Documents workflow generates a `cq:Page` component from the contents of the Word document. The images extracted from the document are referenced from the `cq:Page` component. These images are extracted even if subasset generation is disabled.
+* Add the **[!UICONTROL Create Sub Asset]** step to the **[!UICONTROL DAM Update Asset]** workflow. When the [!UICONTROL DAM Update Assets] workflow applies to the multi-page assets, the subassets are generated.
+* Select a specific multi-page asset and execute the **[!UICONTROL DAM Process Sub-Asset]** workflow from the [!UICONTROL Timeline] sidebar.
 
-**To view subassets**:
+Specifically for Microsoft Word documents, use the **[!UICONTROL DAM Parse Word Documents]** workflow. It generates a `cq:Page` component from the contents of the Microsoft Word document. The images extracted from the document are referenced from the `cq:Page` component. These images are extracted even if subasset generation is disabled.
 
-1. Navigate to the location of the asset and open its asset page.  
+### View subassets {#viewing-subassets}
 
-1. Tap the **[!UICONTROL Global Navigation]** icon, and choose **[!UICONTROL Subassets]** from the list 
-
-   ![chlimage_1-18](assets/chlimage_1-18.png)
-
-   >[!NOTE]
-   >
-   >The **[!UICONTROL Subassets]** option is displayed only if subassets are available or have been generated for the asset.
-
-   When you select **[!UICONTROL Subassets]** from the list, the **[!UICONTROL subassets]** page displays the subassets linked to the parent asset.
+The subassets are displayed only if the subassets are generated and are available for the selected multi-page asset. To view the generated subassets, navigate to the multi-page asset and open its asset page. Tap the AEM icon, and choose **[!UICONTROL Subassets]** from the list. When you select **[!UICONTROL Subassets]** from the list, the subassets page displays the subassets linked to the parent asset.
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-## Deleting assets {#deleting-assets}
+## Delete assets {#deleting-assets}
 
 To resolve or remove the incoming references from other pages, update the relevant references before deleting an asset.
 
@@ -557,11 +550,11 @@ You require delete permissions on dam/asset to be able to delete an asset. If yo
    >
    >Also, disable the **[!UICONTROL Force Delete]** button using an overlay, to disallow users from deleting referenced assets and leaving broken links.
 
-## Downloading assets {#downloading-assets}
+## Download assets {#downloading-assets}
 
 See [Download assets from AEM](download-assets-from-aem.md)
 
-## Publishing assets {#publishing-assets}
+## Publish assets {#publishing-assets}
 
 If you publish an assets that is being processed, only the original content is published. The renditions are missing. Either wait for processing to complete and then publish or re-publish the asset after the processing is completed.
 
@@ -604,7 +597,7 @@ While unpublishing a complex asset, unpublish the asset only. Avoid unpublishing
     * Tap **[!UICONTROL Cancel]** to stop the action
     * Tap **[!UICONTROL Unpublish]** to confirm that the assets are unpublished (no longer available on the publish environment) at the specified date.
 
-## Creating a Closed User Group {#closed-user-group}
+## Create a Closed User Group {#closed-user-group}
 
 A CUG (Closed User Group) is used to limit access to specific asset folders published from AEM. If you create a CUG for a folder, access to the folder (including folder assets and subfolders) is restricted to assigned members or groups only. To access the folder, they must log in using their security credentials.
 
@@ -626,7 +619,7 @@ CUG are an extra way to restrict access to your assets. You can also configure a
 1. Publish the folder, and then try accessing it from the publish instance. A login screen is displayed.
 1. If you are a CUG member, enter your security credentials. The folder is displayed after AEM authenticates you.
 
-## Searching assets {#searching-assets}
+## Search assets {#searching-assets}
 
 Basic search is detailed in the [Search and filter](/help/sites-authoring/search.md#search-and-filter) section. Use the **[!UICONTROL Search]** panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the **[!UICONTROL Search]** panel using [Search facets](search-facets.md). 
 
@@ -636,14 +629,14 @@ For recently uploaded assets, their metadata (including titles, tags, and so on)
 
 This is because AEM Assets waits until the expiry of a timeout period (1 hour by default) before running a background job to index the metadata for all newly uploaded/updated assets and adding them to the list of suggestions.
 
-## Using Quick Actions {#quick-actions}
+## Use Quick Actions {#quick-actions}
 
 Quick action icons are available for a single asset at a time. Depending upon your device, perform the following actions to display the quick action icons:
 
 * Touch devices: Touch and hold. For example, on an iPad, you can tap-and-hold an asset so that the quick actions display.
 * Non-touch devices: Hover pointer. For example, On a desktop device, the quick action bar is displayed if you hover the pointer over the asset thumbnail.
 
-### Navigating and selecting assets {#navigating-and-selecting-assets}
+### Navigate to and select assets {#navigating-and-selecting-assets}
 
 You can view, navigate through, and select assets with any of the available views (**[!UICONTROL Card]**, **[!UICONTROL Column]**, and **[!UICONTROL List]**) using the **[!UICONTROL Select]** icon. The **[!UICONTROL Select]** icon appears as a quick action in the **[!UICONTROL Card]** view.
 
@@ -659,7 +652,7 @@ Similar to **[!UICONTROL List]** view, the **[!UICONTROL Select]** icon appears 
 
 For more information, see [Viewing and Selecting your Resources](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources).
 
-## Editing images {#editing-images}
+## Edit images {#editing-images}
 
 The editing tools in the AEM Assets interface let you perform small editing jobs on image assets. You can crop, rotate, flip, and perform other editing jobs on images. You can also add image maps to assets.
 
@@ -715,7 +708,7 @@ You can also add image maps using the image editor. For details, see [Adding Ima
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
-## Using the Timeline {#timeline}
+## Use the timeline {#timeline}
 
 The **[!UICONTROL Timeline]** lets you view various events for a selected item, such as active workflows for an asset, comments, annotations, activity logs, and versions.
 
@@ -734,7 +727,7 @@ In the [Collections console](managing-collections-touch-ui.md#navigating-the-col
 
    ![timeline_options](assets/timeline_options.png)
 
-## Adding annotations {#annotating}
+## Add annotations {#annotating}
 
 Annotations are comments or explanatory notes added to images or videos. Annotations provide marketers the ability to collaborate and leave feedback about assets.
 
@@ -785,7 +778,7 @@ You can also add annotations to a collection. However, if a collection contains 
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-### Viewing saved annotations {#viewing-saved-annotations}
+### View saved annotations {#viewing-saved-annotations}
 
 1. To view saved annotations for an asset, navigate to the location of the asset and open the asset page for the asset.  
 
@@ -803,7 +796,7 @@ You can also add annotations to a collection. However, if a collection contains 
 
 1. Tap **[!UICONTROL Delete]** to remove a particular comment.
 
-### Printing annotations {#printing-annotations}
+### Print annotations {#printing-annotations}
 
 If an asset has annotations or it has been subjected to a review workflow, you can print the asset along with annotations and review status as a PDF file for offline review.
 
@@ -883,7 +876,7 @@ The following is an example of how you configure AEM to print annotations in CJK
 1. Configure the annotation PDF file by setting the font-family parameter to `Arial Unicode MS, Noto Sans, Noto Sans CJK JP, sans-serif`. This configuration is available by default and works for all European and CJK languages.
 1. If the language of your choice is different from the languages mentioned in step 2, append an appropriate (comma separated) entry to the default font-family.
 
-## Creating asset versioning {#asset-versioning}
+## Create asset versioning {#asset-versioning}
 
 Versioning creates a snapshot of digital assets at a specific point in time. Versioning helps restore assets to a previous state at a later time. For example, if you want to undo a change that you made to an asset, restore the unedited version of the asset.
 
@@ -987,9 +980,8 @@ A user can have access to multiple collections. Collections are of the following
 
 * A collection that uses a **search criteria** and dynamically populates assets based on the criteria. This is called a **Smart Collection**.
 
-See [Managing Collections](managing-collections-touch-ui.md) for details on collection management.
+See [Manage Collections](managing-collections-touch-ui.md) for details on collection management.
 
 >[!NOTE]
 >
 >You require appropriate access rights for your account to create or edit assets.
-
