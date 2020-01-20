@@ -1,19 +1,14 @@
 ---
 title: Organize digital assets
-seo-title: Organize digital assets
 description: Organize digital assets
-seo-description: Organize digital assets
-uuid: 167b74dd-eb64-4eae-ba20-17d181203493
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: c80f5e74-3f78-40c0-8ab3-c3ad38251818
 ---
 
-# Organize Digital Assets {#organize-digital-assets}
+# Organize you digital assets {#organize-digital-assets}
 
 All digital assets, metadata and content of Microsoft Office and PDF documents are extracted and made searchable. Search allows sophisticated filtering on assets and fully respects the proper permissions. Metadata is covered in detail in Metadata in Digital Asset Management.
 
-AEM Assets supports multiple ways of organizing content. You can organize them in a hierarchical manner using folders or you can organize them in an unordered, adhoc manner, using for example tags. Users can edit tags in the DAM Asset Editor where sub-assets, renditions, and metadata are displayed.
+AEM Assets supports multiple ways of organizing content. You can organize them in a hierarchical manner using folders or you can organize them in an unordered, ad-hoc manner, using for example tags. Users can edit tags in the DAM Asset Editor where sub-assets, renditions, and metadata are displayed.
 
 ## Organize assets in folders {#organize-using-folders}
 

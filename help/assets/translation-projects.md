@@ -1,12 +1,7 @@
 ---
 title: Creating Translation Projects
-seo-title: Creating Translation Projects
 description: Learn how to create translation projects in AEM.
-seo-description: Learn how to create translation projects in AEM.
-uuid: 9d360f6b-584f-4bd1-afb9-cd32aa8db0b9
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 914d1248-aa7c-4191-ade2-7cb19e95cd35
+contentOwner: AG
 ---
 
 # Creating Translation Projects {#creating-translation-projects}

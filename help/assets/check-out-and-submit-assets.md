@@ -1,27 +1,20 @@
 ---
-title: Check In and Check Out Files in Assets
-seo-title: Check In and Check Out Files in Assets
-description: Learn how to check out assets for editing and check them back in after the changes are complete.
-seo-description: Learn how to check out assets for editing and check them back in after the changes are complete.
-uuid: d84850d3-fa29-47b3-ad99-151407360833
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: managing-assets
-content-type: reference
-discoiquuid: e93cf898-498b-418f-a25c-be350914cc76
+title: Check-in and check-out your digital assets for editing
+description: Learn how to check-out assets for editing and check them back in after the changes are complete.
+contentOwner: AG
 ---
 
 # Check-in and check-out files in Assets {#check-in-and-check-out-files-in-assets}
 
-Adobe Experience Manager (AEM) Assets lets you check out assets for editing and check them back in after you complete making the changes. After you check out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset. Other users cannot perform any of these operations on the asset untill you check the asset back in to AEM Assets. However, they can still change the metadata for the locked asset.
+Adobe Experience Manager (AEM) Assets lets you check-out assets for editing and check them back in after you complete making the changes. After you check-out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset. Other users cannot perform any of these operations on the asset until you check the asset back in to AEM Assets. However, they can still change the metadata for the locked asset.
 
-To be able to check out/in assets, you require Write access on them.
+To be able to check-out or check-in assets, you require Write access on them.
 
 This feature helps prevent other users from overriding the changes made by an author where multiple users collaborate on editing workflows across teams.
 
-## Checking Out Assets {#checking-out-assets}
+## Check-out assets {#checking-out-assets}
 
-1. From the Assets UI, select the asset you want to check out. You can also select multiple assets to check out.
+1. From the Assets UI, select the asset you want to check-out. You can also select multiple assets to check-out.
 
    ![chlimage_1-468](assets/chlimage_1-468.png)
 
@@ -59,9 +52,9 @@ This feature helps prevent other users from overriding the changes made by an au
 
    The modified asset is checked in to AEM Assets and is available to other users for editing.
 
-## Forced Check In {#forced-check-in}
+## Forced check-in {#forced-check-in}
 
-Administrators can check in assets that are checked out by other users.
+Administrators can check-in assets that are checked out by other users.
 
 1. Log in to AEM Assets as an administrator.
 1. From the Assets UI select one or more assets that have been checked out by other users.

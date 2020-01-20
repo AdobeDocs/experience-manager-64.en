@@ -1,11 +1,7 @@
 ---
 title: Download assets from AEM
-seo-title: Download assets from AEM
 description:  Learn how to download assets from AEM and enable or disable the download functionality.
-seo-description:  Learn how to download assets from AEM and enable or disable the download functionality.
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-mini-toc-levels: 2
+contentOwner: AG
 ---
 
 # Download assets from AEM {#download-assets-from-aem}

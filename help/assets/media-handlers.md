@@ -1,12 +1,7 @@
 ---
 title: Process Assets using media handlers and workflows
-seo-title: Process Assets using media handlers and workflows
 description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
-seo-description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
-uuid: 4ef96bfc-d194-4aea-8d6c-ae91d04456aa
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 8cd78c84-71ba-4095-b882-90d0dc00289d
 ---
 
 # Processing Assets Using Media Handlers and Workflows {#processing-assets-using-media-handlers-and-workflows}

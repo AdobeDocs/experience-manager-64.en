@@ -1,10 +1,8 @@
 ---
 title: Manage your digital assets using AEM Assets
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets
-uuid: f148c913-7b44-4285-8db9-138f959c4899
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
+mini-toc-levels: 1
 ---
 
 # Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}
@@ -573,7 +571,7 @@ For more information specific to Dynamic Media, see [Publishing Dynamic Media As
 
 1. Tap **[!UICONTROL Publish]** to confirm the activation for the assets.
 
-## Unpublishing assets {#unpublishing-assets}
+## Unpublish assets {#unpublishing-assets}
 
 While unpublishing a complex asset, unpublish the asset only. Avoid unpublishing the references because they may be referenced by other published assets.
 
@@ -940,7 +938,7 @@ The versioning functionality lets you do the following:
 
    ![compare_versions](assets/compare_versions.png)
 
-### Starting a workflow on an asset {#starting-a-workflow-on-an-asset}
+### Start a workflow on an asset {#starting-a-workflow-on-an-asset}
 
 1. Navigate to the location of the asset for which you want to start a workflow, and tap the asset to open the asset page.
 1. Tap the **[!UICONTROL Global Navigation]** icon, and the choose **[!UICONTROL Timeline]** from the menu to display the timeline.

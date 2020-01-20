@@ -1,14 +1,7 @@
 ---
 title: Asset Selector
-seo-title: Asset Selector
 description: Learn how to use the asset selector to search, filter, browse, and fetch metadata for assets within Adobe Experience Manager (AEM) Assets. Also learn how to customize the asset selector interface.
-seo-description: Learn how to use the asset selector to search, filter, browse, and fetch metadata for assets within Adobe Experience Manager (AEM) Assets. Also learn how to customize the asset selector interface.
-uuid: 2a3ceba2-a5b7-4c63-9f4c-53b2744d1d84
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: managing-assets
-content-type: reference
-discoiquuid: 750bcb3b-d512-4628-92f6-d3083099f244
+contentOwner: AG
 ---
 
 # Asset Selector {#asset-selector}
@@ -23,7 +16,7 @@ Currently, you can pass the request parameters `Asset Type` (*Image/Video/Text*)
 
 The asset selector uses the HTML5 **Window.postMessage** message to send data for the selected asset to the recipient.
 
-The asset selector is based on Granite's foundation picker vocabulary. By default, the asset selector operates in Browse mode. However, you can apply filters using the Omni search experience to refine your search for particular assets.
+The asset selector is based on Granite's foundation picker vocabulary. By default, the asset selector operates in Browse mode. However, you can apply filters using the Omnisearch experience to refine your search for particular assets.
 
 You can integrate any web page (irrespective of whether it is part of the CQ container) with the asset selector (`https://[AEM_server]:[port]/aem/assetpicker.html`).
 
@@ -38,9 +31,9 @@ You can pass the following request parameters in a URL to launch the asset selec
 | mimetype | mimetype(s) (`/jcr:content/metadata/dc:format`) of an asset (wildcard also supported) | <ul><li>`http://localhost:4502/aem/assetpicker.html`<br>`?mimetype=image/png`</li>  <li>`http://localhost:4502/aem/assetpicker.html`<br>`?mimetype=*png`</li>  <li>`http://localhost:4502/aem/assetpicker.html`<br>`?mimetype=*presentation`</li>  <li>`http://localhost:4502/aem/assetpicker.html`<br>`?mimetype=*presentation&mimetype=*png`</li></ul> | Use it to filter assets based on MIME type(s) |
 | dialog | true, false | `http://localhost:4502/aem/assetpicker.html`<br>`?dialog=true` | Use these parameters to open the asset selector as Granite Dialog. This option is only applicable when you launch the asset selector through Granite Path Field, and configure it as pickerSrc URL. |
 | assettype (S) | images, documents, multimedia, archives | <ul><li>`http://localhost:4502/aem/assetpicker.html`<br>`?assettype=images`</li> <li>`http://localhost:4502/aem/assetpicker.html?assettype=documents`</li> <li>`http://localhost:4502/aem/assetpicker.html?assettype=multimedia`</li> <li>`http://localhost:4502/aem/assetpicker.html?assettype=archives`</li> | Use this option to filter asset types based on the value passed. |
-| root | <folder_path> | `http://localhost:4502/aem/`<br>`assetpicker.html?assettype=images`<br>`&root=/content/dam/we-retail/en/activities` | Use this option to specify the root folder for the asset selector. In this case, the asset selector lets you select only child assets (direct/indirect) under the root folder. |
+| root | `<folder_path>` | `http://localhost:4502/aem/`<br>`assetpicker.html?assettype=images`<br>`&root=/content/dam/we-retail/en/activities` | Use this option to specify the root folder for the asset selector. In this case, the asset selector lets you select only child assets (direct/indirect) under the root folder. |
 
-## Using the asset selector {#using-the-asset-selector}
+## Use the asset selector {#using-the-asset-selector}
 
 1. To access the asset selector interface, go to `https://[AEM_server]:[port]/aem/assetpicker`.
 1. Navigate to the desired folder, and select one or more assets.
