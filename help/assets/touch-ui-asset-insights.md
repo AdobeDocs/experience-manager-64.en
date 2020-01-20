@@ -1,6 +1,6 @@
 ---
-title: Asset Insights
-description: Learn how the Asset Insights feature lets you track user ratings and usage statistics of assets that are used in third-party websites, marketing campaigns, and Adobe's creative solutions.
+title: Use Asset Insights feature to track usage of your images
+description: Asset Insights feature lets you track user ratings and usage statistics of images that are used in third-party websites, marketing campaigns, and Adobe's creative solutions.
 contentOwner: AG
 ---
 
@@ -14,13 +14,13 @@ Assets Insights captures user activity details, such as the number of times an a
 
 For Assets Insights to capture usage statistics for assets from a website, you must include the embed code for the asset in the website code.
 
-To let Asset Insights display usage statistics for assets, first configure the feature to fetch reporting data from Adobe Analytics. For details, see [Configure Asset Insights](touch-ui-configuring-asset-insights.md).
+To let Asset Insights display usage statistics for assets, first configure the feature to fetch reporting data from [!DNL Adobe Analytics]. For details, see [Configure Asset Insights](touch-ui-configuring-asset-insights.md).
 
 >[!NOTE]
 >
 >Insights are supported and provided only for images.
 
-## Viewing statistics for an asset {#viewing-statistics-for-an-asset}
+## View statistics for an asset {#viewing-statistics-for-an-asset}
 
 You can view the Asset Insights scores from the metadata page.
 
@@ -57,7 +57,7 @@ You can view the Asset Insights scores from the metadata page.
 
    ![chlimage_1-303](assets/chlimage_1-303.png)
 
-## Viewing aggregate statistics for assets {#viewing-aggregate-statistics-for-assets}
+## View aggregate statistics for assets {#viewing-aggregate-statistics-for-assets}
 
 You can view scores of all assets within a folder simultaneously using **[!UICONTROL Insights View]**.
 
@@ -65,7 +65,7 @@ You can view scores of all assets within a folder simultaneously using **[!UICON
 1. Tap/click the Layout icon from the toolbar, and then choose **[!UICONTROL Insights View]**.
 1. The page displays usage scores for the assets. Compare the ratings of the various assets and draw insights.
 
-## Scheduling background job {#scheduling-background-job}
+## Schedule background job {#scheduling-background-job}
 
 Asset Insights fetches usage data for assets from Adobe Analytics report suites in a periodic manner. By default, Asset Insights runs a background job every 24 hours at 2 AM to the fetch data. However, you can modify both the frequency and the time by configuring the **[!UICONTROL Adobe CQ DAM Asset Performance Report Sync Job]** service from the web console.
 
@@ -75,4 +75,3 @@ Asset Insights fetches usage data for assets from Adobe Analytics report suites 
    ![chlimage_1-304](assets/chlimage_1-304.png)
 
 1. Specify the desired scheduler frequency and the start time for the job in the property scheduler expression. Save the changes.
-
