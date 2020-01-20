@@ -690,7 +690,7 @@ You can also add image maps using the image editor. For details, see [Adding Ima
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Use the **[!UICONTROL Undo]** and **[!UICONTROL Redo]** icons on the top right to revert to the uncropped image or retain the cropped image, respectively.
+1. Use the **[!UICONTROL Undo]** and **[!UICONTROL Redo]** icons on the top right to revert to the un-cropped image or retain the cropped image, respectively.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -932,7 +932,7 @@ The versioning functionality lets you do the following:
 1. To display this version in the Assets UI, select **[!UICONTROL Revert to this Version]**.
 1. To compare between two versions, go to the asset page of the asset and tap the version you want to compare with the current version.
 
-   ![select_version_tocompare](assets/select_version_tocompare.png)
+   ![Select a previous version of the asset to compare with the current version](assets/select_version_tocompare.png)
 
 1. From the timeline, select the version you want to compare and drag the slider to the left to superimpose this version over the current version and compare.
 

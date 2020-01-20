@@ -92,4 +92,3 @@ Use the **Insights** predicate to search for assets based on their usage statist
 * Media channels where the assets appear
 
 ![insights](assets/insights.png)
-

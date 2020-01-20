@@ -1,10 +1,10 @@
 ---
-title: Assets Supported Formats
-description: List of file formats supported by AEM Assets and features supported for each format.
+title: File formats supported in AEM Assets
+description: List of file formats and MIME types supported by AEM Assets and the features supported for each format.
 contentOwner: AG
 ---
 
-# Files formats supported by AEM Assets {#assets-supported-formats}
+# Files formats supported in AEM Assets {#assets-supported-formats}
 
 AEM Assets supports a wide range of file formats and each functionality has varied support for different MIME types.
 
@@ -90,7 +90,7 @@ See [Imaging Transcoding Library](imaging-transcoding-library.md).
 
 The Adobe Camera Raw library enables AEM Assets to ingest raw images. See [Camera Raw Support](camera-raw.md).
 
-## Document Formats {#supported-document-formats}
+## Document formats {#supported-document-formats}
 
 Document formats supported for asset management features are as follows:
 

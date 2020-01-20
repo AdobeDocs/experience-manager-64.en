@@ -56,7 +56,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 >
 >To view the child forms of a schema form, click/tap the schema form name.
 
-## Adding a metadata schema form {#adding-a-metadata-schema-form}
+## Add a metadata schema form {#adding-a-metadata-schema-form}
 
 1. To add a custom template to the list, click **[!UICONTROL Create]** from the toolbar.
 
@@ -68,7 +68,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    ![chlimage_1-174](assets/chlimage_1-174.png)
 
-## Editing metadata schema forms {#editing-metadata-schema-forms}
+## Edit metadata schema forms {#editing-metadata-schema-forms}
 
 You can edit a newly-added or existing metadata schema form. The metadata schema form includes the following:
 
@@ -110,7 +110,7 @@ The **[!UICONTROL Build Form]** tab lists form items that you use in your schema
 | [!UICONTROL Asset Rating] | Add to display options for rating the asset. |
 | [!UICONTROL Contextual Metadata] | Add to control the display of other metadata tabs in the properties page of assets. |
 
-### Editing the metadata component {#editing-the-metadata-component}
+### Edit the metadata component {#editing-the-metadata-component}
 
 To edit the properties of a metadata component on the form, click the component and edit all or a subset of the following properties in the **[!UICONTROL Settings]** tab.
 
@@ -160,11 +160,11 @@ To include any tab in the properties page in addition to the tab where the Conte
 
 ![chlimage_1-180](assets/chlimage_1-180.png)
 
-### Specifying properties in JSON file {#specifying-properties-in-json-file}
+### Specify properties in JSON file {#specifying-properties-in-json-file}
 
 Instead of specifying properties for the options in the **[!UICONTROL Settings]** tab, you can define the options in a JSON file by specifying corresponding key-value pairs. Specify the path of the JSON file in the **[!UICONTROL JSON Path]** field.
 
-### Adding/deleting a tab in the schema form {#adding-deleting-a-tab-in-the-schema-form}
+### Add or delete a tab in the schema form {#adding-deleting-a-tab-in-the-schema-form}
 
 The schema editor lets you add or delete a tab. The default schema form includes the **[!UICONTROL Basic]**, **[!UICONTROL Advanced]**, **[!UICONTROL IPTC]**, and **[!UICONTROL IPTC Extension]** tabs, by default.
 
@@ -174,7 +174,7 @@ Click `+` to add a new tab on a schema form. By default, the new tab has the nam
 
 ![chlimage_1-182](assets/chlimage_1-182.png)
 
-## Deleting metadata schema forms {#deleting-metadata-schema-forms}
+## Delete metadata schema forms {#deleting-metadata-schema-forms}
 
 AEM lets you delete custom schema forms only. It does not let you delete the default schema forms/templates. However, you can delete any custom changes in these forms.
 
@@ -192,11 +192,11 @@ To delete a form, select a form and click the **[!UICONTROL Delete]** icon.
 
 AEM Assets provides default forms for various MIME types out of the box. However, you can add custom forms for assets of various MIME types.
 
-### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
+### Add new forms for MIME types {#adding-new-forms-for-mime-types}
 
 Create a new form under the appropriate form type. For example, to add a new template for the `image/png` subtype, create the form under the `image` forms. The title for the schema form is the subtype name. In this case, the title is `png`.
 
-### Using an existing schema template for various MIME types {#using-an-existing-schema-template-for-various-mime-types}
+### Use an existing schema template for various MIME types {#using-an-existing-schema-template-for-various-mime-types}
 
 You can use an existing template for a different MIME type. For example, use the `image/jpeg` form for assets of MIME type `image/png`.
 
@@ -223,11 +223,11 @@ AEM Assets maps the following MIME types and schema forms:
 | video/wmv | video/x-ms-wmv |
 | video/flv | video/x-flv |
 
-## Granting access to metadata schemas {#granting-access-to-metadata-schemas}
+## Grant access to metadata schemas {#granting-access-to-metadata-schemas}
 
 The metadata schema feature is available to administrators only. However, administrators can provide access to non-administrator users by providing **[!UICONTROL Create]**, **[!UICONTROL Modify]**, and **[!UICONTROL Delete]** permissions on the `/conf` folder.
 
-## Applying folder-specific metadata {#applying-folder-specific-metadata}
+## Apply folder-specific metadata {#applying-folder-specific-metadata}
 
 AEM Assets lets you define a variant of a metadata schema and apply it to a specific folder.
 
@@ -265,7 +265,7 @@ If the folder has a subfolder, the assets within the subfolder inherit the metad
 1. Click **[!UICONTROL OK]** to close the success message.
 1. Navigate to the folder to which you applied the modified metadata schema.
 
-## Defining mandatory metadata {#defining-mandatory-metadata}
+## Define mandatory metadata {#defining-mandatory-metadata}
 
 You can define mandatory fields at a folder level, which is enforced on assets that are uploaded to the folder. If you upload assets with missing metadata for the mandatory fields defined earlier, a visual indication for missing metadata appears on the assets in the Card view.
 
