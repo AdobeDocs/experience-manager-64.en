@@ -1,5 +1,5 @@
 ---
-title: Metadata profiles
+title: Use metadata profiles to apply default metadata to all assets in a folder
 description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
 contentOwner: AG
 ---
