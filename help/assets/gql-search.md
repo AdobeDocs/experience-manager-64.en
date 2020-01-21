@@ -25,7 +25,7 @@ For example, to search for assets that have the title "Target," perform these st
 
 1. From the toolbar of the Assets user interface, click or tap the **[!UICONTROL Search]** icon to display the Omnisearch box.
 
-   ![](do-not-localize/chlimage_1.png)
+   ![](assets/do-not-localize/chlimage_1.png)
 
 1. With the cursor in the Omnisearch box, press Enter.
 1. Click or tap the GlobalNav icon to display the **[!UICONTROL Filters]** panel.
