@@ -79,11 +79,11 @@ There are a variety of ways that metadata can be embedded into files. A selectio
 * EXIF: for image files.
 * Other/Legacy: from Microsoft Word, PowerPoint, Excel and so on.
 
-#### XMP {#xmp}
+### XMP {#xmp}
 
 XMP means Extensible Metadata Platform and is the metadata standard that is used by AEM Assets for all metadata management. Besides offering universal metadata encoding that can be embedded into all file formats, XMP provides a rich content model and is supported by Adobe and other companies, so that users of XMP in combination with AEM Assets have a powerful platform to build upon.
 
-#### ID3 {#id}
+### ID3 {#id}
 
 Data stored in these ID3 tags is displayed when you play back a digital audio file on either your computer or a portable MP3 player.
 
@@ -95,7 +95,7 @@ ID3 tags are designed for the MP3 file format. Additional information on formats
 * Ogg Vorbis uses Xiph Comments embedded in the Ogg container.
 * AAC uses a proprietary tagging format.
 
-#### EXIF {#exif}
+### EXIF {#exif}
 
 EXIF means Exchangeable image file format and is the most popular metadata format used in digital photography. It provides a way of embedding a fixed vocabulary of metadata properties in a number of file formats such as
 
@@ -112,7 +112,7 @@ As EXIF is automatically created by modern digital cameras and supported through
 
 Most of the metadata fields defined by EXIF are of a highly technical nature and of limited use for descriptive metadata management. For this reason, AEM Assets offers mapping of EXIF properties into [common metadata schemata](metadata-schemas.md) and into [XMP](xmp-writeback.md), the powerful metadata format AEM Assets uses for metadata management.
 
-#### Other metadata {#other-metadata}
+### Other metadata {#other-metadata}
 
 Other metadata that can be embedded from files include Microsoft Word, PowerPoint, Excel, and so on.
 
