@@ -1,14 +1,7 @@
 ---
 title: Video renditions
-seo-title: Video renditions
-description: null
-seo-description: null
-uuid: a02f9ec1-30d9-4cbb-8746-8391ac614f0a
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: managing-assets
-content-type: reference
-discoiquuid: 1601b473-7227-4a56-bb7c-289de2987e4b
+description: Video renditions
+contentOwner: AG
 ---
 
 # Video renditions {#video-renditions}
@@ -42,4 +35,3 @@ After you configure the proxy server and create video profiles, you can include 
 >Audio playback do not work for OGG and WAV files on Internet Explorer 11. An error "Invalid Source " shows up on the asset details page for assets with extension OGG or WAV.
 >
 >On MS Edge and iPad , OGG files do not play and raise an Unsupported format error.
-

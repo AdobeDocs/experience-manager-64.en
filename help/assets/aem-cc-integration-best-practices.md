@@ -1,15 +1,15 @@
 ---
-title: AEM and Creative Cloud Integration Best Practices
-description: Best practices for integrating an AEM instance with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency
-uuid: cc012414-83aa-4d9a-b49e-acd10cea0aad
+title: AEM and Creative Cloud integration best practices
+description: Best practices to integrate an AEM deployment with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: cec0308a-3e48-41a6-998f-6591f402e755
 ---
 
-# AEM and Creative Cloud Integration Best Practices {#aem-and-creative-cloud-integration-best-practices}
+# AEM and Creative Cloud integration best practices {#aem-and-creative-cloud-integration-best-practices}
 
 Best practices for integrating an AEM instance with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency.
+
+<!-- TBD: Reconcile with 6.5 article that's ahead of this article now in terms of content streamlining and structuring.
+-->
 
 ## Overview {#overview}
 
@@ -32,7 +32,6 @@ You can also review the following best practices documents around specific types
 >[!NOTE]
 >
 >AEM to Creative Cloud folder sharing is deprecated and no longer covered in this guide. Adobe recommends capabilities like [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) or [AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html) to provide creative user with access to assets managed in AEM.
-
 
 ## Terms and definitions {#terms-and-definitions}
 

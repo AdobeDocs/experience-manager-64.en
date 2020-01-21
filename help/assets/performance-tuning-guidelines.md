@@ -1,15 +1,10 @@
 ---
-title: Assets Performance Tuning Guide
-seo-title: Assets Performance Tuning Guide
+title: Assets performance tuning guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-seo-description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-uuid: b5746549-34bf-4fb3-bb67-05c0380d4a07
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 6e454056-96cf-4269-9bed-e6b96c480388
 ---
 
-# Assets Performance Tuning Guide {#assets-performance-tuning-guide}
+# Assets performance tuning guide {#assets-performance-tuning-guide}
 
 An Adobe Experience Manager (AEM) Assets setup contains a number of hardware, software, and network components. Depending upon your deployment scenario, you may require specific configuration changes to hardware, software, and network components to remove performance bottlenecks.
 

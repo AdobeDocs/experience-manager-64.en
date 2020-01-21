@@ -1,12 +1,7 @@
 ---
 title: Bulk edit metadata of multiple assets and collections
-seo-title: Bulk edit metadata of multiple assets and collections
 description: Learn how to edit the metadata of many assets and collections simultaneously to quickly propagate common metadata changes.
-seo-description: Learn how to edit the metadata of many assets and collections in bulk.
-uuid: 115a6e39-2f1b-4d07-bec6-30b149524a60
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 5ca217a3-3806-4647-800c-2e3658df00b8
+contentOwner: AG
 ---
 
 # Managing Multiple Assets and Collections {#managing-multiple-assets-and-collections}

@@ -1,12 +1,7 @@
 ---
 title: Camera Raw support
-seo-title: Camera Raw support
 description: Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets.
-seo-description: Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets.
-uuid: 9b2db870-0f58-4340-b1f6-e0a2d8983e55
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: fb4a0018-2572-439e-b066-4a631eac55eb
 ---
 
 # Camera Raw support {#camera-raw-support}

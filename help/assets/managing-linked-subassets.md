@@ -1,17 +1,11 @@
 ---
-title: Managing Compound Assets
-seo-title: Managing Compound Assets
+title: Manage compound assets and 
 description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
-seo-description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
-uuid: 5e0a6b4f-71f3-4f91-85cd-2b2e785e3328
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: managing-assets
-content-type: reference
-discoiquuid: 91ee7ad8-e6d8-4a61-91bc-41fcaf374035
+contentOwner: AG
+
 ---
 
-# Managing Compound Assets {#managing-compound-assets}
+# Manage compound assets with subassets {#managing-compound-assets}
 
 Adobe Experience Manager (AEM) Assets can identify if an uploaded file contains references to assets that already exist in the repository. This feature is available for supported file formats only. If the uploaded asset contains any references to AEM assets, a bidirectional link is created between the uploaded and referenced assets.
 
@@ -58,7 +52,7 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 
 1. Perform the steps in [Creating Workflow Models](/help/sites-developing/workflows-models.md) to create a new workflow.
 1. Use the Package feature of Adobe InDesign to export the document.
-   Adobe InDesign can export a document and the linked assets as a package. In this case, the exported folder contains a Links folder that contains sub-assets in the InDesign file.
+   Adobe InDesign can export a document and the linked assets as a package. In this case, the exported folder contains a Links folder that contains subassets in the InDesign file.
 1. Create a ZIP file and upload it to the AEM repository.
 1. Start the Unarchiver workflow.
 1. When the workflow completes, the references in the Links folder are automatically referenced as subassets. To view a list of referred assets, navigate to the asset details page of the InDesign asset and close the [Rail](/help/sites-authoring/basic-handling.md#rail-selector).
@@ -71,7 +65,7 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
    ![chlimage_1-261](assets/chlimage_1-261.png)
 
 1. Save in Photoshop file to the mounted drive or or [upload](managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
-1. After the worflow completes, the references to existing AEM assets are listed in the asset details page.
+1. After the workflow completes, the references to existing AEM assets are listed in the asset details page.
 
    To view the referenced assets, close the [Rail](/help/sites-authoring/basic-handling.md#rail-selector) in the asset details page.
 
@@ -121,4 +115,3 @@ You can browse through individual pages of a file from the asset page. You can u
 1. To view and edit the metadata properties of the page, click the **[!UICONTROL View Properties]** icon from the toolbar.
 
    ![chlimage_1-269](assets/chlimage_1-269.png)
-   

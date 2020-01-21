@@ -1,17 +1,10 @@
 ---
-title: Applying Workflows to Assets
-seo-title: Applying Workflows to Assets
-description: Learn how to apply workflows to assets, folders, and collections in AEM Assets.
-seo-description: Learn how to apply workflows to assets, folders, and collections in AEM Assets.
-uuid: 0dbf20bc-77cf-4719-a304-6d02472e8d80
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
-discoiquuid: 48204f21-a26d-46b6-b5b3-ecbbec704980
+title: Apply workflows to process your digital assets
+description: Learn how to apply workflows to assets, folders, and collections in AEM Assets to process your digital assets.
+contentOwner: AG
 ---
 
-# Applying Workflows to Assets {#applying-workflows-to-assets}
+# Apply workflows to assets {#applying-workflows-to-assets}
 
 Applying workflows to digital assets is the same as for website pages. For a complete guide on how to create and use workflows in AEM, see [Starting Workflows](../sites-authoring/workflows-participating.md).
 

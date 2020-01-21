@@ -1,12 +1,7 @@
 ---
 title: Manage asset collections
-seo-title: Manage asset collections
 description: Understand the concept of collection in AEM Assets. Learn how to collections, manage, edit, and collections with other users.
-seo-description: Understand the concept of collection in AEM Assets and learn how you can share collections with other users.
-uuid: bc760801-8b6e-4b99-9861-c1439bb3576f
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 974ef0f7-1a3f-480b-b314-b9dbc9115af9
 ---
 
 # Manage collections {#managing-collections}

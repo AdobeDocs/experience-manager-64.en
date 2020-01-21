@@ -1,14 +1,7 @@
 ---
 title: Install and configure ImageMagick to work with AEM Assets
-seo-title: Install and configure ImageMagick to work with AEM Assets
 description: Learn about ImageMagick software, how to install it, set up the command line process step, and use it to edit, compose, and generate thumbnails from images.
-seo-description: Learn about ImageMagick software, how to install it, set up the command line process step, and use it to edit, compose, and generate thumbnails from images.
-uuid: 9eeaabeb-c4d0-4551-98ba-d900757e59d3
-contentOwner: asgupta
-topic-tags: extending-assets
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: f18ccd41-2db3-47b2-9462-29723c7ed9ab
+contentOwner: AG
 ---
 
 # Install and configure ImageMagick to work with AEM Assets {#install-and-configure-imagemagick-to-work-with-aem-assets}
@@ -23,7 +16,7 @@ To process large files using ImageMagick, consider higher than usual memory requ
 >
 >If you are using AEM on Adobe Managed Services (AMS), reach out to Adobe Support if you plan to process lots of large PSD or PSB files.
 
-## Installing ImageMagick {#installing-imagemagick}
+## Install ImageMagick {#installing-imagemagick}
 
 Multiple versions of ImageMagic installation files are available for various operating systems. Use the appropriate version for your operating system.
 
@@ -74,11 +67,11 @@ You can set up the command line process step for your particular use case. Perfo
 1. Save the workflow.
 1. To check whether ImageMagic is able to process images properly, upload a JPG image to AEM Assets. Verify whether a flipped image and the renditions are generated for it.
 
-## Mitigating security vulnerabilities {#mitigating-security-vulnerabilities}
+## Mitigate security vulnerabilities {#mitigating-security-vulnerabilities}
 
 There are multiple security vulnerabilities associated with using ImageMagick to process images. For example, processing user-submitted images involves the risk of remote code execution (RCE).
 
-In addition, various image-processing plug-ins depend on the ImageMagick library, including but not limited to PHP’s imagick, Ruby’s rmagick and paperclip, and nodejs’s imagemagick.
+In addition, various image-processing plug-ins depend on the ImageMagick library, including but not limited to PHP’s imagick, Ruby’s rmagick and paperclip, and Node.js’s imagemagick.
 
 If you use ImageMagick or an affected library, Adobe recommends that you mitigate the known vulnerabilities by performing at least one of the following tasks (but preferably both):
 
