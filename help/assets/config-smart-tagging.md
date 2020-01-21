@@ -1,26 +1,21 @@
 ---
-title: Configure Asset tagging using the Smart Content Service
-seo-title: Configure Asset tagging using the Smart Content Service
+title: Configure AI-based tagging using the Smart Content Service
 description: Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
-seo-description: How to configure the Smart Tags Content Service from within AEM.
-uuid: f4a7e2cf-190b-47e0-9e78-bcac9f1cf6ef
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 957fef58-b1d4-4312-87d1-92f32a79161b
 ---
 
 # Configure asset tagging using the Smart Content Service {#configure-asset-tagging-using-the-smart-content-service}
 
 Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
 
-You can integrate Adobe Experience Manager (AEM) with the Smart Content Service using Adobe I/O. Use this configuration to access the Smart Content Service from within AEM.
+You can integrate Adobe Experience Manager (AEM) with the Smart Content Service. Use this configuration to access the Smart Content Service from within AEM and automatically tag your images.
 
 The article details out the following key tasks that are required to configure the Smart Content Service. At the back end, the AEM server authenticates your service credentials with the Adobe IO gateway before forwarding your request to the Smart Content Service.
 
-* Create a Smart Content Service configuration in AEM to generate a public key. Obtain public certificate for OAuth integration.
-* Create an integration in Adobe I/O and upload the generated public key.
-* Configure your AEM instance using the API key and other credentials from Adobe I/O.  
-* Optionally, enable auto-tagging on asset upload.
+1. Create a Smart Content Service configuration in AEM to generate a public key. Obtain public certificate for OAuth integration.
+1. Create an integration in Adobe I/O and upload the generated public key.
+1. Configure your AEM instance using the API key and other credentials from Adobe I/O.  
+1. Optionally, enable auto-tagging on asset upload.
 
 ## Prerequisites {#prerequisites}
 
@@ -103,7 +98,7 @@ After you've completed the configuration, you can use a JMX MBean to validate th
 1. Tap/click **[!UICONTROL Edit]** from the toolbar.
 1. Expand the Side Panel to display the steps. Drag **[!UICONTROL Smart Tag Asset]** step that is available in the DAM Workflow section and place it after the **[!UICONTROL Process Thumbnails]** step.
 
-   ![Add smart tag asset step after the process thumbnail  step in the DAM Update Asset workflow](assets/chlimage_1-105.png)
+   ![Add smart tag asset step after the process thumbnail step in the DAM Update Asset workflow](assets/chlimage_1-105.png)
 
 1. Open the step in edit mode. Under **[!UICONTROL Advanced Settings]**, ensure that the **[!UICONTROL Handler Advance]** option is selected.
 
@@ -122,6 +117,6 @@ After you've completed the configuration, you can use a JMX MBean to validate th
 >[!MORELIKETHIS]
 >
 >[Understand Smart Tags in AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-understand.html)
->[Using Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-use.html)
->[Using Enhanced Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/enhanced-smart-tags-feature-video-use.html)
+>[Use Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/smart-tags-feature-video-use.html)
+>[Use Enhanced Smart Tags with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/enhanced-smart-tags-feature-video-use.html)
 >[Setup Enhanced Smart Tags in AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/enhanced-smart-tags-technical-video-setup.html)

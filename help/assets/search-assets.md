@@ -1,13 +1,7 @@
 ---
 title: Search assets in AEM
-seo-title: Search assets in AEM
 description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
-seo-description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
-uuid: 162ea21c-e52d-4b0b-9fda-c57b69cba6af
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: authoring
-discoiquuid: c3899c7a-e440-4844-b31a-b09e87f3379e
+contentOwner: AG
 ---
 
 # Search assets in AEM {#search-assets-in-aem}
@@ -98,4 +92,3 @@ Use the **Insights** predicate to search for assets based on their usage statist
 * Media channels where the assets appear
 
 ![insights](assets/insights.png)
-
