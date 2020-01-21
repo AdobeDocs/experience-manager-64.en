@@ -138,7 +138,7 @@ TBD: A condensed version of the below content is better placed in the Adobe DAM 
 
 To design an efficient workflow between creative and marketing/line-of-business (LOB) teams and choose the best support capabilities, it is important to understand when and why assets are stored in DAM.
 
-#### Why assets are stored in DAM {#why-assets-are-stored-in-dam}
+### Why assets are stored in DAM {#why-assets-are-stored-in-dam}
 
 Storing assets in DAM makes them easily accessible and findable. It ensures that the assets can be leveraged by numerous users across the organization or ecosystem, which includes partners, customers, and so on.
 
@@ -148,7 +148,7 @@ Storing assets is also subject to technical and resource utilization considerati
 
 Often, storing all of the assets and updates is not desirable. For example, if updates to specific assets are of poor quality and consume excessive resources, the assets may not be stored in DAM.
 
-#### When assets are stored in DAM {#when-assets-are-stored-in-dam}
+### When assets are stored in DAM {#when-assets-are-stored-in-dam}
 
 Creative teams (and organizations) are usually not interested in storing assets at each stage of the asset lifecycle. For example, they avoid storing assets in the following cases:
 
@@ -162,7 +162,7 @@ Usually, the following classes assets are stored in DAM:
 * Assets that were pre-selected by the creative team
 * Specific asset formats that are usable or requested by marketing, depending on a specific contract or agreement (for example, JPG files converted from RAW files, TIFFs/images from PSD originals)
 
-#### When updates to assets are stored in DAM {#when-updates-to-assets-are-stored-in-dam}
+### When updates to assets are stored in DAM {#when-updates-to-assets-are-stored-in-dam}
 
 As a rule, only updates to assets that are relevant to the broader set of DAM users should be stored in DAM. It ensures that users (marketing and similar functions) only see relevant versions in the DAM asset timeline.
 
@@ -201,7 +201,7 @@ Use the following strategies to provide access to final/approved assets:
 
 The following use cases describe various types of workflows between DAM and designer’s desktop.
 
-### Creating new designs using assets from DAM {#creating-new-designs-using-assets-from-dam}
+#### Create new designs using assets from DAM {#creating-new-designs-using-assets-from-dam}
 
 The following diagram illustrates the digital asset lifecycle. It depicts how creative users and DAM users (marketers, LOB users) leverage existing assets and use them to create more assets, and send them for approval.
 
@@ -222,7 +222,7 @@ Here are a few general recommendations on how to manage assets through this proc
 * Use a dedicated storage area/system, such as Adobe Creative Cloud Assets synced folder, for the WIP files: Frequent updates that are not relevant to DAM users are best handled by a dedicated system, and not from within AEM Assets. WIP assets can be synchronized to local disk using Adobe Creative Cloud desktop application, saved on local storage, and so on.
 * Use separate folders/shares for final assets and assets that are uploaded to DAM: for clarity, final assets should have it's own mapped/shared folder ("Final" example above), and the assets to be uploaded back into DAM should have their own ("Creative Ready")
 
-### Changing existing assets managed in DAM {#changing-existing-assets-managed-in-dam}
+#### Change existing assets managed in DAM {#changing-existing-assets-managed-in-dam}
 
 In some cases, assets in DAM might require changes. Examples include:
 
@@ -258,7 +258,7 @@ Here are a few general recommendations on how to manage assets throughout this p
 * Avoid directly saving a file that you opened from a network share mapped by AEM desktop app unless the changes you made to the file are small.
 * Copy the file to a separate WIP folder if you want to make additional changes to it, save intermittently, or collaborate with the Creative team.
 
-### Bulk upload to DAM {#bulk-upload-to-dam}
+#### Bulk upload to DAM {#bulk-upload-to-dam}
 
 You may have a requirement to simultaneously upload a larger number of files into DAM in some scenarios, for example:
 
@@ -275,15 +275,15 @@ You can leverage the following capabilities if you want to upload assets in bulk
 
 >[!NOTE]
 >
->Depending upon your business requirements, you can also use custom uploaders.
+>Depending upon your business requirements, you can also use custom uploader.
 
-### Manage digital assets directly from desktop {#managing-digital-assets-directly-from-desktop}
+#### Manage digital assets directly from desktop {#managing-digital-assets-directly-from-desktop}
 
 If you use Network File Shares to manage digital assets, just using the network share mapped by AEM desktop app could be seen as a convenient substitute. When transitioning from network file shares, please remember that AEM Web UI provides a rich set of Digital Asset Management capabilities that go well beyond what is possible on a network share (search, collections, metadata, collaboration, previews, etc), and AEM desktop app provides a handy link to connect the server-side DAM repository with the work on desktop.
 
 Avoid using AEM desktop app to manage assets directly in the network share of AEM Assets. For example, avoid using AEM desktop app to move/copy multiple files. Instead, use the AEM Assets web UI to drag folders from Finder/Explorer to the network share or use the AEM Assets Folder Upload feature.
 
-### Asset migration {#asset-migration}
+#### Asset migration {#asset-migration}
 
 To plan and execute asset migrations from existing system to a new system or migration of large volume of assets stored on servers, see the [Migration Guide](/help/assets/assets-migration-guide.md). AEM desktop app and AEM to Creative Cloud integrations do not support such migrations. Due to the large volumes of assets to be ingested, and additional requirements around metadata mapping, transformation, and ingestion, migrations should be handled using different tools and approaches.
 
