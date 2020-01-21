@@ -25,7 +25,7 @@ You must have Administrator rights to create, edit, and delete metadata, image, 
 
 After you create your metadata, image, or video profile, you assign it to one or more folders that you use as the destination for newly uploaded assets.
 
-See also [Best practices for organizing your digital assets for using processing profiles](best-practices-for-file-management.md).
+An important concept regarding the use of profiles in AEM Assets is that they are assigned to folders. Within a profile are settings in the form of metadata profiles, along with video profiles or image profiles. These settings process the contents of a folder along with any of its sub-folders. Therefore, how you name files and folders, how you arrange sub-folders, and how you handle the files within these folders has a significant impact on how those assets are processed by a profile. By using consistent and appropriate file and folder naming strategies, along with good metadata practice, you can make the most of your digital asset collection and ensure that the right files are processed by the right profile. For an example, see [organize assets using folders](organize-assets.md#organize-using-folders).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ See also [Best practices for organizing your digital assets for using processing
 
 You can reprocess assets in a folder that already has an existing processing profile that you later changed. 
 
-For example, suppose you created an Image profile and assigned it to a folder. Any image assets you uploaded to the folder automatically had the Image profile applied to the assets. However, later you decide to add a new smart crop ratio to the profile. Now, instead of having select and reupload the assets to the folder all over again, you simply run the *Scene7: Reprocess Assets* workflow. 
+For example, suppose you created an Image profile and assigned it to a folder. Any image assets you uploaded to the folder automatically had the Image profile applied to the assets. However, later you decide to add a new smart crop ratio to the profile. Now, instead of having select and reupload the assets to the folder all over again, you simply run the *Scene7: Reprocess Assets* workflow.
 
 You can run the reprocess workflow on an asset for which processing failed the first time. As such, even if you have not edited a processing profile or applied a processing profile, you can still run the reprocess workflow on a folder of assets any time.
 
@@ -51,12 +51,12 @@ See [Adjusting the batch size of the reprocess workflow](#adjusting-load).
 
 >[!NOTE]
 >
->If you are performing a bulk migration of assets from Dynamic Media Classic to AEM, you must enable the Migration replication agent on the Dynamic Media server. When the migration is complete, make sure you disable the agent.
- The Migration publish agent must be disabled on the Dynamic Media server so the Reprocess workflow works as expected.
+>If you are performing a bulk migration of assets from Dynamic Media Classic to AEM, you must enable the Migration replication agent on the Dynamic Media server. When the migration is complete, make sure you disable the agent. The Migration publish agent must be disabled on the Dynamic Media server so the Reprocess workflow works as expected.
 
 <!-- Batch size is the number of assets that are amalgamated into a single IPS (Dynamic Media’s Image Production System) job. When you run the Scene7: Reprocess Assets workflow, the job is triggered on IPS. The number of IPS jobs that are triggered is based on the total number of assets in the folder, divided by the batch size. For example, suppose you had a folder with 150 assets and a batch size of 50. In this case, three IPS jobs are triggered. The assets are updated when the entire batch size (50 in our example) is processed in IPS. The job then moves onto the next IPS job and so on until complete. If you increase the batch size, you may notice a longer delay with assets getting updated. -->
 
 **To reprocess assets in a folder**:
+
 1. In AEM, from the Assets page, navigate to a folder of assets that has a processing profile assigned to it and for which you want to apply the **Scene7: Reprocess Asset** workflow,
 
     Folders that have a processing profile already assigned to it are indicated by the display of the profile's name directly below the folder name in Card View. 
