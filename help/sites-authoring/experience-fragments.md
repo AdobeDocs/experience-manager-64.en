@@ -127,7 +127,7 @@ To create and configure a folder for your Experience Fragments it is recommended
    >See [Templates for Experience Fragments](/help/sites-developing/experience-fragments.md#templates-for-experience-fragments) for further details.
    -->
 
-2. Select **[!UICONTROL Save and Close]**.
+1. Select **[!UICONTROL Save and Close]**.
 
 ### Configure the Allowed Templates for your Instance {#configure-allowed-templates-instance}
 
@@ -173,13 +173,13 @@ To create an Experience Fragment:
    ![xf-authoring-02](assets/xf-authoring-02.png)
 
 
-2. Enter the **[!UICONTROL Properties]** for your Experience Fragment.
+1. Enter the **[!UICONTROL Properties]** for your Experience Fragment.
 
    A **[!UICONTROL Title]** is mandatory. If the **[!UICONTROL Name]** is left blank it will be derived from the **[!UICONTROL Title]**.
 
    ![xf-authoring-03](assets/xf-authoring-03.png)
 
-3. Click **[!UICONTROL Create]**.
+1. Click **[!UICONTROL Create]**.
 
    A message will be displayed. Select:
 
