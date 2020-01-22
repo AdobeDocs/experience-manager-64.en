@@ -62,6 +62,100 @@ Experience Fragments should be used:
     * Sharing commerce-related content on social media channels at scale
     * Making touchpoints transactional
 
+## Organizing your Experience Fragments {#organizing-your-experience-fragments}
+
+It is recommended to:
+* use folders to organize your Experience Fragments, 
+
+* [configure the allowed templates on these folders](#configure-allowed-templates-folder).
+
+Creating folders allows you to:
+
+* create a meaningful structure for your Experience Fragments; for example, according to classification
+
+  >[!NOTE]
+  >
+  >It is not necessary to align the structure of your Experience Fragments with the page structure of your site.
+
+* [allocate the allowed templates at the folder level](#configure-allowed-templates-folder)
+
+  >[!NOTE]
+  >
+  >You can use the [template editor](/help/sites-authoring/templates.md) to create your own template. 
+
+The following example shows Experience Fragments structured according to `Contributors`. The structure used also illustrates how other features, such as Multi Site Management (including language copies), can be used. 
+
+>[!CAUTION]
+>
+>The following screenshot was taken from the WKND site using Adobe Experience Manager as a Cloud Service.
+
+   ![Folders for Experience Fragments](assets/xf-folders.png)
+
+## Creating and Configuring a Folder for your Experience Fragments {#creating-and-configuring-a-folder-for-your-experience-fragments}
+
+To create and configure a folder for your Experience Fragments it is recommended to:
+
+1. [Create a folder](/help/sites-authoring/managing-pages.md#creating-a-new-folder).
+
+1. [Configure the allowed Experience Fragment templates for that folder](#configure-allowed-templates-folder).
+
+>[!NOTE]
+>
+>It is also possible to configure the [Allowed Templates for your instance](#configure-allowed-templates-instance), but this method is **not** recommended as the values may be overwritten upon upgrade.
+
+### Configure the Allowed Templates for your Folder {#configure-allowed-templates-folder}
+
+>[!NOTE]
+>
+>This is the recommended method for specifying the **[!UICONTROL Allowed Templates]**, as the values will not be overwritten upon upgrade.
+
+1. Navigate to the required **[!UICONTROL Experience Fragments]** folder.
+
+1. Select the folder, and then **[!UICONTROL Properties]**.
+
+1. Specify the regular expression for retrieving the required templates in the **[!UICONTROL Allowed Templates]** field.
+   
+   For example:
+   `/conf/(.*)/settings/wcm/templates/experience-fragment(.*)?`
+   
+   ![Experience Fragment Properties - Allowed Templates](assets/xf-folders-templates.png)
+
+   >[!NOTE]
+   >
+   >See Templates for Experience Fragments for further details.
+   <!--
+   >See [Templates for Experience Fragments](/help/sites-developing/experience-fragments.md#templates-for-experience-fragments) for further details.
+   -->
+
+1. Select **[!UICONTROL Save and Close]**.
+
+### Configure the Allowed Templates for your Instance {#configure-allowed-templates-instance}
+
+>[!CAUTION]
+>
+>It is not recommended to change the **[!UICONTROL Allowed Templates]** by this method, as the templates specified may be overwritten upon upgrade.
+>
+>Please use this dialog for information purposes only.
+
+1. Navigate to the required **[!UICONTROL Experience Fragments]** console.
+
+1. Select **[!UICONTROL Configuration options]**:
+
+   ![Configuration button](assets/xf-folders-18.png)
+
+1. Specify the required templates in the **[!UICONTROL Configure Experience Fragments]** dialog:
+
+   ![Configure Experience Fragments](assets/xf-folders-19.png)
+
+   >[!NOTE]
+   >
+   >See Templates for Experience Fragments for further details.
+   <!--
+   >See [Templates for Experience Fragments](/help/sites-developing/experience-fragments.md#templates-for-experience-fragments) for further details.
+   -->
+
+1. Select **[!UICONTROL Save]**.
+
 ## Creating an Experience Fragment {#creating-an-experience-fragment}
 
 To create an Experience Fragment:
@@ -70,42 +164,14 @@ To create an Experience Fragment:
 
    ![screen_shot_2018-04-05at92221am1](assets/screen_shot_2018-04-05at92221am1.png)
 
-1. Select **[!UICONTROL Create]**. You can create **[!UICONTROL Folders]** and/or **[!UICONTROL Experience Fragments]**.
+1. Navigate to the required folder and select **[!UICONTROL Create]**.
 
-   Creating folders allows you to create a meaningful structure for your Experience Fragments.
-
-   ![xf-authoring-01](assets/xf-authoring-01.png)
-
-1. From the required folder, select **[!UICONTROL Create]** then **[!UICONTROL Experience Fragment]** to open the **[!UICONTROL Create Experience Fragment]** wizard.
+1. Select **[!UICONTROL Experience Fragment]** to open the **[!UICONTROL Create Experience Fragment]** wizard.
 
    Select the required **[!UICONTROL Template]**, then **[!UICONTROL Next]**:
 
    ![xf-authoring-02](assets/xf-authoring-02.png)
 
-   >[!NOTE]
-   >
-   >You can use the [template editor](/help/sites-authoring/templates.md) to create your own template.
-   >
-   >**Only** editable templates can be used; static templates are not fully compatible.
-   >
-   > To create an experience fragment template that is detected by the Create Experience Fragment wizard, you must follow one of these rule sets:
-   >
-   > **Either:**
-   >
-   > *  **Both:**
-   >  
-   >    The resource type of the template (the initial node) must inherit from: `cq/experience-fragments/components/xfpage`
-   >    
-   >    **And:**
-   >
-   >    The name of the template must begin with: 
-   >    `experience-fragments`
-   >
-   >    This allows users to create experience fragments in `/content/experience-fragments` as the `cq:allowedTemplates` property of this folder includes all the templates that have names beginning with `experience-fragment`. Customers can update this property to include their own naming scheme or template locations.
-   >
-   > * **Or:**
-   >
-   >    Add the template details manually in `cq:allowedTemplates` on the `/content/experience-fragment` node.
 
 1. Enter the **[!UICONTROL Properties]** for your Experience Fragment.
 
