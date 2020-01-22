@@ -101,26 +101,23 @@ To create and configure a folder for your Experience Fragments it is recommended
 
 >[!NOTE]
 >
->It is also possible to configure the [Allowed Templates for your instance](#configure-allowed-templates-instance), but this method is **not** recommended as the values can be overwritten upon upgrade.
+>It is also possible to configure the [Allowed Templates for your instance](#configure-allowed-templates-instance), but this method is **not** recommended as the values may be overwritten upon upgrade.
 
 ### Configure the Allowed Templates for your Folder {#configure-allowed-templates-folder}
 
 >[!NOTE]
 >
->This is the recommended method for specifying the **Allowed Templates**, as the values will not be overwritten upon upgrade.
+>This is the recommended method for specifying the **[!UICONTROL Allowed Templates]**, as the values will not be overwritten upon upgrade.
 
-1. Navigate to the required **Experience Fragments** folder.
+1. Navigate to the required **[!UICONTROL Experience Fragments]** folder.
 
-1. Select the folder, and then **Properties**.
+1. Select the folder, and then **[!UICONTROL Properties]**.
 
-1. Specify the regular expression for retrieving the required templates in the **Allowed Templates** field.
+1. Specify the regular expression for retrieving the required templates in the **[!UICONTROL Allowed Templates]** field.
    
    For example:
    `/conf/(.*)/settings/wcm/templates/experience-fragment(.*)?`
    
-   See:
-   `http://localhost:4502/mnt/overlay/cq/experience-fragments/content/experience-fragments/folderproperties.html/content/experience-fragments/wknd`
-
    ![Experience Fragment Properties - Allowed Templates](assets/xf-folders-templates.png)
 
    >[!NOTE]
@@ -130,23 +127,23 @@ To create and configure a folder for your Experience Fragments it is recommended
    >See [Templates for Experience Fragments](/help/sites-developing/experience-fragments.md#templates-for-experience-fragments) for further details.
    -->
 
-1. Select **Save and Close**.
+2. Select **[!UICONTROL Save and Close]**.
 
 ### Configure the Allowed Templates for your Instance {#configure-allowed-templates-instance}
 
 >[!CAUTION]
 >
->It is not recommended to change the **Allowed Templates** by this method, as the templates specified can be overwritten upon upgrade.
+>It is not recommended to change the **[!UICONTROL Allowed Templates]** by this method, as the templates specified may be overwritten upon upgrade.
 >
 >Please use this dialog for information purposes only.
 
-1. Navigate to the required **Experience Fragments** console.
+1. Navigate to the required **[!UICONTROL Experience Fragments]** console.
 
-1. Select **Configuration options**:
+1. Select **[!UICONTROL Configuration options]**:
 
    ![Configuration button](assets/xf-folders-18.png)
 
-1. Specify the required templates in the **Configure Experience Fragments** dialog:
+1. Specify the required templates in the **[!UICONTROL Configure Experience Fragments]** dialog:
 
    ![Configure Experience Fragments](assets/xf-folders-19.png)
 
@@ -157,7 +154,7 @@ To create and configure a folder for your Experience Fragments it is recommended
    >See [Templates for Experience Fragments](/help/sites-developing/experience-fragments.md#templates-for-experience-fragments) for further details.
    -->
 
-1. Select **Save**.
+1. Select **[!UICONTROL Save]**.
 
 ## Creating an Experience Fragment {#creating-an-experience-fragment}
 
@@ -167,50 +164,22 @@ To create an Experience Fragment:
 
    ![screen_shot_2018-04-05at92221am1](assets/screen_shot_2018-04-05at92221am1.png)
 
-1. Select **[!UICONTROL Create]**. You can create **[!UICONTROL Folders]** and/or **[!UICONTROL Experience Fragments]**.
+1. Navigate to the required folder and select **[!UICONTROL Create]**.
 
-   Creating folders allows you to create a meaningful structure for your Experience Fragments.
-
-   ![xf-authoring-01](assets/xf-authoring-01.png)
-
-1. From the required folder, select **[!UICONTROL Create]** then **[!UICONTROL Experience Fragment]** to open the **[!UICONTROL Create Experience Fragment]** wizard.
+1. Select **[!UICONTROL Experience Fragment]** to open the **[!UICONTROL Create Experience Fragment]** wizard.
 
    Select the required **[!UICONTROL Template]**, then **[!UICONTROL Next]**:
 
    ![xf-authoring-02](assets/xf-authoring-02.png)
 
-   >[!NOTE]
-   >
-   >You can use the [template editor](/help/sites-authoring/templates.md) to create your own template.
-   >
-   >**Only** editable templates can be used; static templates are not fully compatible.
-   >
-   > To create an experience fragment template that is detected by the Create Experience Fragment wizard, you must follow one of these rule sets:
-   >
-   > **Either:**
-   >
-   > *  **Both:**
-   >  
-   >    The resource type of the template (the initial node) must inherit from: `cq/experience-fragments/components/xfpage`
-   >    
-   >    **And:**
-   >
-   >    The name of the template must begin with: 
-   >    `experience-fragments`
-   >
-   >    This allows users to create experience fragments in `/content/experience-fragments` as the `cq:allowedTemplates` property of this folder includes all the templates that have names beginning with `experience-fragment`. Customers can update this property to include their own naming scheme or template locations.
-   >
-   > * **Or:**
-   >
-   >    Add the template details manually in `cq:allowedTemplates` on the `/content/experience-fragment` node.
 
-1. Enter the **[!UICONTROL Properties]** for your Experience Fragment.
+2. Enter the **[!UICONTROL Properties]** for your Experience Fragment.
 
    A **[!UICONTROL Title]** is mandatory. If the **[!UICONTROL Name]** is left blank it will be derived from the **[!UICONTROL Title]**.
 
    ![xf-authoring-03](assets/xf-authoring-03.png)
 
-1. Click **[!UICONTROL Create]**.
+3. Click **[!UICONTROL Create]**.
 
    A message will be displayed. Select:
 
