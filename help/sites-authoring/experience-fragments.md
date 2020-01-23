@@ -120,13 +120,6 @@ To create and configure a folder for your Experience Fragments it is recommended
    
    ![Experience Fragment Properties - Allowed Templates](assets/xf-folders-templates.png)
 
-   >[!NOTE]
-   >
-   >See Templates for Experience Fragments for further details.
-   <!--
-   >See [Templates for Experience Fragments](/help/sites-developing/experience-fragments.md#templates-for-experience-fragments) for further details.
-   -->
-
 1. Select **[!UICONTROL Save and Close]**.
 
 ### Configure the Allowed Templates for your Instance {#configure-allowed-templates-instance}
@@ -146,13 +139,6 @@ To create and configure a folder for your Experience Fragments it is recommended
 1. Specify the required templates in the **[!UICONTROL Configure Experience Fragments]** dialog:
 
    ![Configure Experience Fragments](assets/xf-folders-19.png)
-
-   >[!NOTE]
-   >
-   >See Templates for Experience Fragments for further details.
-   <!--
-   >See [Templates for Experience Fragments](/help/sites-developing/experience-fragments.md#templates-for-experience-fragments) for further details.
-   -->
 
 1. Select **[!UICONTROL Save]**.
 
