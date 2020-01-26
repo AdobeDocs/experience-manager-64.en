@@ -39,7 +39,7 @@ You can upload various types of assets (including images, PDF files, RAW files, 
 
 You can choose to upload assets to folders with or without a processing profile assigned to them.
 
-For folders that have a processing profile assigned, the profile name appears on the thumbnail in the card view. In the list view, the profile name appears in the **Processing Profile** column. See [Processing Profiles](processing-profiles.md).
+For folders that have a processing profile assigned, the profile name appears on the thumbnail in the card view. In the list view, the profile name appears in the **[!UICONTROL Processing Profile]** column. See [Processing Profiles](processing-profiles.md).
 
 Before uploading an asset, ensure that it is in a [supported format](assets-formats.md).
 
@@ -372,7 +372,7 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
    For more details, see [Asset Insights](touch-ui-asset-insights.md).
 
 1. Tap **[!UICONTROL Save & Close]**.
-1. Navigate to the Assets UI. The edited metadata properties, including title, description, ratings, and so on are displayed on the asset card in **[!UICONTROL Card]** view and under relevant columns in the **[!UICONTROL List]** view.
+1. Navigate to the Assets UI. The edited metadata properties, including title, description, ratings, and so on are displayed on the asset card in card view and under relevant columns in the list view.
 
 ## Copy assets {#copying-assets}
 
@@ -501,22 +501,7 @@ The other properties and metadata information is retained. A partial copy is not
    >
    >Video annotations are supported only on browsers with HTML5 compatible video formats. In addition, depending on the browser, different video formats are supported.
 
-### Create subassets {#generate-subassets}
-
-Supported assets with multi-page formats &mdash; PDF files, AI files, Microsoft PowerPoint and Apple Keynote files, and Adobe InDesign files &mdash; can generate subassets for each individual page. These subassets are linked to the parent asset and facilitate multi-page view. For all other purposes, the subassets are treated like normal assets in AEM.
-
-Subasset generation is disabled by default. AEM offers two methods to generate subassets:
-
-* Add the **[!UICONTROL Create Sub Asset]** step to the **[!UICONTROL DAM Update Asset]** workflow. When the [!UICONTROL DAM Update Assets] workflow applies to the multi-page assets, the subassets are generated.
-* Select a specific multi-page asset and execute the **[!UICONTROL DAM Process Sub-Asset]** workflow from the [!UICONTROL Timeline] sidebar.
-
-Specifically for Microsoft Word documents, use the **[!UICONTROL DAM Parse Word Documents]** workflow. It generates a `cq:Page` component from the contents of the Microsoft Word document. The images extracted from the document are referenced from the `cq:Page` component. These images are extracted even if subasset generation is disabled.
-
-### View subassets {#viewing-subassets}
-
-The subassets are displayed only if the subassets are generated and are available for the selected multi-page asset. To view the generated subassets, navigate to the multi-page asset and open its asset page. Tap the AEM icon, and choose **[!UICONTROL Subassets]** from the list. When you select **[!UICONTROL Subassets]** from the list, the subassets page displays the subassets linked to the parent asset.
-
-   ![chlimage_1-19](assets/chlimage_1-19.png)
+For information about subassets, see [manage subassets](managing-linked-subassets.md).
 
 ## Delete assets {#deleting-assets}
 
@@ -636,15 +621,15 @@ Quick action icons are available for a single asset at a time. Depending upon yo
 
 ### Navigate to and select assets {#navigating-and-selecting-assets}
 
-You can view, navigate through, and select assets with any of the available views (**[!UICONTROL Card]**, **[!UICONTROL Column]**, and **[!UICONTROL List]**) using the **[!UICONTROL Select]** icon. The **[!UICONTROL Select]** icon appears as a quick action in the **[!UICONTROL Card]** view.
+You can view, navigate through, and select assets with any of the available views (card, column, list) using the **[!UICONTROL Select]** icon. **[!UICONTROL Select]** appears as a quick action in the card view.
 
 ![select_quick_action](assets/select_quick_action.png)
 
-In **[!UICONTROL List]** view, the **[!UICONTROL Select]** icon appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in the list.
+In list view, **[!UICONTROL Select]** appears when you hover the mouse icon over the thumbnail before the names of the assets/folder in the list.
 
 ![select_quick_in_listview](assets/select_quick_in_listview.png)
 
-Similar to **[!UICONTROL List]** view, the **[!UICONTROL Select]** icon appears when you hover the mouse icon over the thumbnail before the names of the assets or folder in **[!UICONTROL Column]** view.
+Similar to list view, **[!UICONTROL Select]** appears when you hover the mouse icon over the thumbnail before the names of the assets or folder in column view.
 
 ![select_quick_in_columnview](assets/select_quick_in_columnview.png)
 
@@ -672,12 +657,12 @@ You can also add image maps using the image editor. For details, see [Adding Ima
 1. Do one of the following to open an asset in edit mode:
 
     * Select the asset and then click the **[!UICONTROL Edit]** icon in the toolbar.
-    * Tap the **[!UICONTROL Edit]** icon that appears on an asset in the **[!UICONTROL Card]** view.
+    * Tap **[!UICONTROL Edit]** option that displays on an asset in the card view.
     * In the asset page, tap the **[!UICONTROL Edit]** icon in the toolbar.
 
    ![edit_icon](assets/edit_icon.png)
 
-1. To crop the image, tap the **[!UICONTROL Crop]** icon.
+1. To crop the image, tap **[!UICONTROL Crop]**.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -686,7 +671,7 @@ You can also add image maps using the image editor. For details, see [Adding Ima
    ![chlimage_1-23](assets/chlimage_1-23.png)
 
 1. Select the area to crop, and resize or reposition it on the image.
-1. Use the **[!UICONTROL Finish]** icon (top right corner) to crop the image. Tapping the **[!UICONTROL Finish]** icon also triggers the regeneration of renditions.
+1. Use the **[!UICONTROL Finish]** option in the upper-right corner to crop the image. Tapping **[!UICONTROL Finish]** also triggers the regeneration of renditions.
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -822,7 +807,7 @@ To print the annotations and review status, tap the **[!UICONTROL Print]** icon 
 
    ![chlimage_1-40](assets/chlimage_1-40.png)
 
-1. From the **Print** dialog box, choose the position you want the annotations or review status to display on the PDF. For example, if you want the annotations or status to print at the top-right of the page that contains the printed image, use the **[!UICONTROL Top-Left]** (default) setting.
+1. From the **[!UICONTROL Print]** dialog box, choose the position you want the annotations or review status to display on the PDF. For example, if you want the annotations or status to print at the top-right of the page that contains the printed image, use the **[!UICONTROL Top-Left]** (default) setting.
 
    ![chlimage_1-41](assets/chlimage_1-41.png)
 
