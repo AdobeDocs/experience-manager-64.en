@@ -1,17 +1,10 @@
 ---
 title: Assets Monitoring Best Practices
-seo-title: Assets Monitoring Best Practices
 description: Best practices for monitoring the environment and performance of your AEM instance after it is deployed.
-seo-description: Best practices for monitoring the environment and performance of your AEM instance after it is deployed.
-uuid: 8cbccf5e-7637-428f-83a8-87c099a3dc7e
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
-discoiquuid: ef2c875d-af39-40eb-8bee-5a381366bd65
+contentOwner: AG
 ---
 
-# Assets Monitoring Best Practices {#assets-monitoring-best-practices}
+# Assets monitoring best practices {#assets-monitoring-best-practices}
 
 From the Adobe Experience Manager (AEM) Assets standpoint, monitoring should include observing and reporting on the following processes and technologies:
 
@@ -28,7 +21,7 @@ From the Adobe Experience Manager (AEM) Assets standpoint, monitoring should inc
 
 Typically, AEM Assets can be monitored in two ways, live monitoring and long term monitoring.
 
-## Live Monitoring {#live-monitoring}
+## Live monitoring {#live-monitoring}
 
 You should perform live monitoring during the performance testing phase of your development or during high-load situations to understand the performance characteristics of your environment. Typically, live monitoring should be performed using a suite of tools. Here are some recommendations:
 

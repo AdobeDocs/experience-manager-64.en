@@ -1,16 +1,10 @@
 ---
-title: Search Facets
-seo-title: Search Facets
+title: Search facets
 description: This article describes how to create, modify, and use search facets in AEM.
-seo-description: Learn how to create, modify, and use search facets in AEM.
-uuid: 213bec95-2f9a-49d2-a45b-0c7d1bb4fbf8
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
-discoiquuid: 4c03f218-6c0c-4482-b10e-a6ccddb30d57
+contentOwner: AG
 ---
 
-# Search Facets {#search-facets}
+# Search facets {#search-facets}
 
 Learn how to create, modify, and use search facets in AEM.
 
@@ -121,7 +115,7 @@ If you want to use an existing node, specify it using the selection dialog.
 1. Do one of the following:
 
     * In the **[!UICONTROL Property Name]** field, mention the path of the JSON file where you define the nodes for the options and specify corresponding key-value pairs.
-    * Tap ![Add icon](do-not-localize/aem_assets_add_icon.png) next to the Options field to specify the display text and value for the options you want to supply in the Filters panel. To add another option, tap/click ![Add icon](do-not-localize/aem_assets_add_icon.png) and repeat the step.
+    * Tap ![Add icon](assets/do-not-localize/aem_assets_add_icon.png) next to the Options field to specify the display text and value for the options you want to supply in the Filters panel. To add another option, tap/click ![Add icon](assets/do-not-localize/aem_assets_add_icon.png) and repeat the step.
 
 1. Ensure that **[!UICONTROL Single Select]** is cleared to let the user select multiple options for file types at a time (for example, Images, Documents, Multimedia, and Archives). If you select **[!UICONTROL Single Select]**, the user can select only one option for file types at a time.
 

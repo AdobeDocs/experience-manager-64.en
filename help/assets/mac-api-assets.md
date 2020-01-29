@@ -1,25 +1,19 @@
 ---
 title: Assets HTTP API
 description: Learn about the implementation, data model, and features of Assets HTTP API. Use Assets HTTP API to perform various tasks around assets
-uuid: ab709c58-c9a6-48da-84da-866655c84658
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 68d49096-959b-4751-abf1-23bedbaed9a0
 ---
 
 # Assets HTTP API {#assets-http-api}
 
-## Overview {#overview}
-
-The Assets HTTP API is a specific part of the general Marketing Cloud API. For general documentation, see Marketing Cloud API user documentation. The Assets HTTP API is available at `/api/assets`, and allows for create-read-update-delete (CRUD) operations on Assets, including binary, metadata, renditions, and comments.
+The Assets HTTP API allows for create-read-update-delete (CRUD) operations on Assets, including binary, metadata, renditions, and comments, together with structured content using AEM Content Fragments. It is exposed at `/api/assets` and is implemented as REST API.
 
 To access the API:
 
 1. Open the API service document at `http://[hostname]:[port]/api.json`.
-
 1. Follow the Assets service link  leading to `http://[hostname]:[server]/api/assets.json`.
 
-The API's response is a JSON for some mime types and a response code for all mime types. The JSON response is optional and may not be available, for example for PDF files. Rely on the response code for further analysis or actions.
+The API response is a JSON for some mime types and a response code for all mime types. The JSON response is optional and may not be available, for example for PDF files. Rely on the response code for further analysis or actions.
 
 After the [!UICONTROL Off Time], an asset and its renditions are not available either via the Assets web interface or through the HTTP API. The API returns 404 error message if the [!UICONTROL On Time] is in the future or [!UICONTROL Off Time] is in the past.
 
@@ -29,7 +23,7 @@ The Assets HTTP API exposes two major elements, folders and assets.
 
 ### Folders {#folders}
 
-Folders are like directories in tradtional filesystems. They are containers for other folders or asserts. Folders have the following components:
+Folders are like directories in traditional file-systems. They are containers for other folders or asserts. Folders have the following components:
 
 **Entities**: The entities of a folder are its child elements, which can be folders and assets.
 
@@ -60,17 +54,11 @@ Assets are multi-part elements, that include:
 * Multiple renditions such as the original rendition (which is the originally uploaded asset), a thumbnail and various other renditions. Additional renditions may be images of different sizes, different video encodings, or extracted pages from PDF or Adobe InDesign.
 * Optional comments.
 
-Folders have the following components:
+In AEM a folder has the following components:
 
-**Entities**
-
-The children of assets are its renditions.
-
-**Properties**
-
-**Links**
-
-## Available features {#available-features}
+* Entities: The children of Assets are its renditions.
+* Properties
+* Links
 
 The Assets HTTP API includes the following features:
 
@@ -94,9 +82,9 @@ The Assets HTTP API includes the following features:
 
 * Go to `https://[AEM_server]:[port]/system/console/configMgr`.
 * Navigate to **[!UICONTROL Adobe Granite CSRF Filter]**.
-* Make sure the property **[!UICONTROL Filter Methods]** incudes: POST, PUT, DELETE.
+* Make sure the property **[!UICONTROL Filter Methods]** includes: `POST`, `PUT`, `DELETE`.
 
-### Retrieve a Folder Listing {#retrieve-a-folder-listing}
+## Retrieve a Folder Listing {#retrieve-a-folder-listing}
 
 Retrieves a Siren representation of an existing folder and of its child entities (subfolders or assets).
 
@@ -120,7 +108,7 @@ The class of the entity returned is assets/folder.
 
 Properties of contained entities are a subset of the full set of properties of each entity. In order to obtain a full representation of the entity, clients should retrieve the contents of the URL pointed to by the link with a `rel` of `self`.
 
-### Create a Folder {#create-a-folder}
+## Create a Folder {#create-a-folder}
 
 Creates a new `sling`: `OrderedFolder` at the given path. If a &ast; is given instead of a node name the servlet will use the parameter name as node name. Accepted as request data is either a Siren representation of the new folder or a set of name-value pairs, encoded as `application/www-form-urlencoded` or `multipart`/ `form`- `data`, useful for creating a folder directly from an HTML form. Additionally, properties of the folder can be specified as URL query parameters.
 
@@ -153,7 +141,7 @@ POST /api/assets/* -F"name=myfolder" -F"title=My Folder"
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Create an Asset {#create-an-asset}
+## Create an Asset {#create-an-asset}
 
 Creates a DAM asset at the given path with the given file. If a &ast; is given instead of a node name the servlet will use the parameter name or the file name as node name.
 
@@ -185,7 +173,7 @@ POST /api/assets/myFolder/* -F"name=myAsset.png" -F"file=@myPicture.png"
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Update Asset binary {#update-asset-binary}
+## Update Asset binary {#update-asset-binary}
 
 Updates an Assets binary (rendition with name original). This will trigger the default Asset workflow if configured.
 
@@ -204,7 +192,7 @@ PUT /api/assets/myfolder/myAsset.png -H"Content-Type: image/png" --data-binary @
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Update Asset metadata {#update-asset-metadata}
+## Update Asset metadata {#update-asset-metadata}
 
 Updates the asset metadata properties.
 
@@ -223,7 +211,7 @@ PUT /api/assets/myfolder/myAsset.png -H"Content-Type: application/json" -d '{"cl
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Create an Asset Rendition {#create-an-asset-rendition}
+## Create an Asset Rendition {#create-an-asset-rendition}
 
 Creates a new asset rendition for an asset. If request parameter name is not provided the file name is used as rendition name.
 
@@ -255,7 +243,7 @@ POST /api/assets/myfolder/myasset.png/renditions/* -F"name=web-rendition" -F"fil
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Update an Asset Rendition {#update-an-asset-rendition}
+## Update an Asset Rendition {#update-an-asset-rendition}
 
 Updates respectively replaces an asset rendition with the new binary data.
 
@@ -274,7 +262,7 @@ PUT /api/assets/myfolder/myasset.png/renditions/myRendition.png -H"Content-Type:
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Create an Asset Comment {#create-an-asset-comment}
+## Create an Asset Comment {#create-an-asset-comment}
 
 Creates a new asset comment.
 
@@ -300,7 +288,7 @@ POST /api/assets/myfolder/myasset.png/comments/* -F"message=Hello World." -F"ann
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Copy a Folder or Asset {#copy-a-folder-or-asset}
+## Copy a Folder or Asset {#copy-a-folder-or-asset}
 
 Copies a folder or asset at the given path to a new destination.
 
@@ -327,7 +315,7 @@ COPY /api/assets/myFolder -H"X-Destination: /api/assets/myFolder-copy"
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Move a Folder or Asset {#move-a-folder-or-asset}
+## Move a Folder or Asset {#move-a-folder-or-asset}
 
 Moves a folder or asset at the given path to a new destination.
 
@@ -354,7 +342,7 @@ MOVE /api/assets/myFolder -H"X-Destination: /api/assets/myFolder-moved"
 500 - INTERNAL SERVER ERROR - if something else goes wrong
 ```
 
-### Delete a Folder, Asset, or Rendition {#delete-a-folder-asset-or-rendition}
+## Delete a Folder, Asset, or Rendition {#delete-a-folder-asset-or-rendition}
 
 Deletes a resource (-tree) at the given path.
 

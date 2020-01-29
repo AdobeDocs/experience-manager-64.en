@@ -1,14 +1,7 @@
 ---
 title: Integrate AEM Assets with Adobe InDesign Server
-seo-title: Integrate AEM Assets with Adobe InDesign Server
 description: Learn how to integrate AEM Assets with InDesign Server.
-seo-description: Learn how to integrate AEM Assets with InDesign Server.
-uuid: 678840f6-0c16-4fdb-a964-5be30833539a
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
-discoiquuid: 2d406520-536f-4616-8038-7772fbc4948b
 ---
 
 # Integrate AEM Assets with Adobe InDesign Server {#integrating-aem-assets-with-indesign-server}
@@ -18,7 +11,7 @@ Adobe Experience Manager (AEM) Assets uses:
 * A proxy to distribute the load of certain processing tasks. A proxy is an AEM instance that communicates with a proxy worker to fulfil a specific task, and other AEM instances to deliver the results.  
 * A proxy worker to define and manage a specific task.
 
-These can cover a wide variety of tasks; for example, using an InDesign Server to process files.
+These can cover a wide variety of tasks; for example, using an Adobe InDesign Server to process files.
 
 To fully upload files to AEM Assets that you have created with Adobe InDesign a proxy is used. This uses a proxy worker to communicate with the Adobe InDesign Server, where [scripts](https://www.adobe.com/devnet/indesign/documentation.html#idscripting) are run to extract metadata and generate various renditions for AEM Assets. The proxy worker enables the two-way communication between the InDesign Server and the AEM instance(s) in a cloud configuration.
 
@@ -31,7 +24,7 @@ To fully upload files to AEM Assets that you have created with Adobe InDesign a 
 >
 >* [InDesign Server](https://www.adobe.com/products/indesignserver.html)  
 >  This engine enables you to programmatically create automated documents based on what you have created with InDesign. It operates as a service offering an interface to its [ExtendScript](https://www.adobe.com/devnet/scripting.html) engine.  
->  The scripts are written in extendscript, which is similar to javascript. For information about Indesign scripts see [https://www.adobe.com/devnet/indesign/documentation.html#idscripting](https://www.adobe.com/devnet/indesign/documentation.html#idscripting).
+>  The scripts are written in ExtendScript, which is similar to javascript. For information about Indesign scripts see [https://www.adobe.com/devnet/indesign/documentation.html#idscripting](https://www.adobe.com/devnet/indesign/documentation.html#idscripting).
 >
 
 ## How the Extraction Works {#how-the-extraction-works}
@@ -109,7 +102,7 @@ To install and start the InDesign Server for use with AEM:
 
 ### Configuring the AEM Assets Workflow {#configuring-the-aem-assets-workflow}
 
-AEM Assets has a preconfigured workflow **DAM Update Asset**, that has several process steps specifically for InDesign:
+AEM Assets has a pre-configured workflow **DAM Update Asset**, that has several process steps specifically for InDesign:
 
 * [Media Extraction](#media-extraction)
 * [Page Extraction](#page-extraction)
@@ -215,14 +208,7 @@ To configure the number of parallel IDS jobs:
     * **[!UICONTROL Maximum Parallel Jobs]** - `<*x*>` (as calculated above)
 
 1. Save these changes.
-1. Enable multisession support for CS6 (and above) by checking the:
-
-   `enable.multisession.name` checkbox
-
-   Under:
-
-   `com.day.cq.dam.ids.impl.IDSJobProcessor.name configuration`
-
+1. To enable the multi-session support for Adobe CS6 and late, check the `enable.multisession.name` checkbox under `com.day.cq.dam.ids.impl.IDSJobProcessor.name configuration`.
 1. Create a [pool of < `*x*>` IDS workers by adding SOAP endpoints to the IDS Worker configuration](#configuring-the-proxy-worker-for-indesign-server).
 
    If there are multiple machines running InDesign Servers, add SOAP endpoints (number of processors per machine -1) for each machine.
@@ -251,7 +237,7 @@ For InDesign server 10.0 or higher, perform the following steps to enable multi-
 
 ## Configure AEM credentials {#configure-aem-credentials}
 
-You can change the default administrator credentials (user name and password) for accessing the InDesign server from your AEM instance without breaking the intergration with the InDesign server.
+You can change the default administrator credentials (user name and password) for accessing the InDesign server from your AEM instance without breaking the integration with the Adobe InDesign server.
 
 1. Go to `/etc/cloudservices/proxy.html`.
 1. In the dialog, specify the new user name and password.

@@ -1,8 +1,6 @@
 ---
 title: AEM 6.4 Assets User Guide
-seo-title: AEM 6.4 Assets User Guide
 description: This guide covers all AEM Assets tasks, such as how to create, manage, deliver, and optimize digital assets.
-seo-description: Covers all AEM Assets tasks, such as how to create, manage, deliver, and optimize digital assets.
 ---
 
 # AEM 6.4 Assets User Guide
@@ -21,7 +19,6 @@ This guide covers all AEM Assets tasks, such as how to create, manage, deliver, 
 | User Guide | Description |
 |--- |---|
 | [Release Notes](/help/release-notes/home.md)| Provides important information about the latest release of AEM, including what's new, supported platforms, deprecated and removed features, and known issues |
-| [Assets User Guide](/help/assets/home.md) | Learn how to create, manage, deliver, and optimize digital assets. |
 | [Forms User Guide](/help/forms/home.md) | This guide describes how to create, manage, publish, and update digital forms.|
 | [Communities User Guide](/help/communities/home.md) | Create online experiences such as forums, user groups, learning resources, and other social features.  |
 | [Administering Guide](/help/sites-administering/home.md) | Understand how to administer AEM |

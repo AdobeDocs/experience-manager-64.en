@@ -1,14 +1,7 @@
 ---
 title: GQL Full-text Search
-seo-title: GQL full-text search
 description: Explore the GQL full-text search feature in AEM Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
-seo-description: Use the GQL full-text search feature to search for assets based on specific metadata, such as title, description, and author name.
-uuid: 05ed9ca9-f1a4-4f3c-807f-c7062c349026
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
-discoiquuid: d3b7133c-4a58-4c9f-a5fe-162ce4ff016b
+contentOwner: AG
 ---
 
 # GQL Full-text Search {#gql-full-text-search}
@@ -25,7 +18,7 @@ For example, to search for assets that have the title "Target," perform these st
 
 1. From the toolbar of the Assets user interface, click or tap the **[!UICONTROL Search]** icon to display the Omnisearch box.
 
-   ![](do-not-localize/chlimage_1.png)
+   ![](assets/do-not-localize/chlimage_1.png)
 
 1. With the cursor in the Omnisearch box, press Enter.
 1. Click or tap the GlobalNav icon to display the **[!UICONTROL Filters]** panel.

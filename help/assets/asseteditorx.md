@@ -1,17 +1,10 @@
 ---
-title: Extending Asset Editor
-seo-title: Extending Asset Editor
+title: Extend Asset Editor
 description: Learn how to extend the capabilities of Asset Editor using custom components.
-seo-description: Learn how to extend the capabilities of Asset Editor using custom components.
-uuid: b2e6701d-9fbf-4b3f-a175-67aab05340d3
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: extending-assets
-content-type: reference
-discoiquuid: 90dc9025-ad40-47ea-9e17-af8c93ef650c
+contentOwner: AG
 ---
 
-# Extending Asset Editor {#extending-asset-editor}
+# Extend Asset Editor {#extending-asset-editor}
 
 The Asset Editor is the page that opens when an asset found through the Asset Share is clicked allowing the user to edit such aspects of the asset as metadata, thumbnail, title and tags.
 

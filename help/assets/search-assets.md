@@ -1,13 +1,7 @@
 ---
 title: Search assets in AEM
-seo-title: Search assets in AEM
 description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
-seo-description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
-uuid: 162ea21c-e52d-4b0b-9fda-c57b69cba6af
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: authoring
-discoiquuid: c3899c7a-e440-4844-b31a-b09e87f3379e
+contentOwner: AG
 ---
 
 # Search assets in AEM {#search-assets-in-aem}
@@ -31,7 +25,7 @@ You can search based on the following options (predicates):
 
 You can customize the Filters panel and add/remove search predicates using [search facets](search-facets.md). To display the Filters panel, perform these steps:
 
-1. In the Assets user interface, tap/click ![search_icon](assets/search_icon.png) from the toolbar to display the OmniSearch box.
+1. In the Assets user interface, tap/click ![search_icon](assets/search_icon.png) from the toolbar to display the Omnisearch box.
 1. Enter your search term and press Enter. Alternatively, simply press Enter without entering any search term. Do not enter any leading spaces else the search does not work.  
 
 1. Tap/click the GlobalNav icon. The Filters panel is displayed. 
@@ -40,13 +34,13 @@ You can customize the Filters panel and add/remove search predicates using [sear
 
    Depending upon the type of items you search, the number of matches is indicated at the top of the search results.
 
-   ![numer_of_searches](assets/numer_of_searches.png)
+   ![number_of_searches](assets/number_of_searches.png)
 
 ## Search for file types {#search-for-file-types}
 
 The Filters panel helps add more granularity to your search experience and makes the search functionality more versatile. You can easily drill down to the desired level of detail.
 
-For example, if you are looking for an image, use the **File Type** predicate to choose whether you want a bitmap image or a vector image.
+For example, if you are looking for an image, use the **[!UICONTROL File Type]** predicate to choose whether you want a bitmap image or a vector image.
 
 ![image_type](assets/image_type.png)
 
@@ -98,4 +92,3 @@ Use the **Insights** predicate to search for assets based on their usage statist
 * Media channels where the assets appear
 
 ![insights](assets/insights.png)
-

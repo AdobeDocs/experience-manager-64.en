@@ -1,15 +1,10 @@
 ---
-title: Assets Performance Tuning Guide
-seo-title: Assets Performance Tuning Guide
+title: Assets performance tuning guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-seo-description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-uuid: b5746549-34bf-4fb3-bb67-05c0380d4a07
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 6e454056-96cf-4269-9bed-e6b96c480388
 ---
 
-# Assets Performance Tuning Guide {#assets-performance-tuning-guide}
+# Assets performance tuning guide {#assets-performance-tuning-guide}
 
 An Adobe Experience Manager (AEM) Assets setup contains a number of hardware, software, and network components. Depending upon your deployment scenario, you may require specific configuration changes to hardware, software, and network components to remove performance bottlenecks.
 
@@ -219,6 +214,31 @@ In addition, set the path of ImageMagick's temporary folder in the *configure.xm
 <!-- 
 
 #### Sub-asset generation and page extraction {#sub-asset-generation-and-page-extraction}
+
+During asset uploads, AEM's workflow creates a separate asset for each page in PDF and Office documents. Each of these pages is an asset by itself, which consumes additional disk space, requires versioning and additional workflow processing. If you do not require separate pages, disable Sub Asset Generation and Page Extraction.
+
+To disable Sub Asset generation, do the following:
+
+1. Open the **[!UICONTROL Workflow Console]** tool by going to */libs/cq/workflow/content/console.html*
+
+1. Select the **[!UICONTROL Models]** tab
+1. Double click the **[!UICONTROL DAM Update Asset]** workflow model
+1. Delete **[!UICONTROL Process Sub Asset]** step from **[!UICONTROL DAM Update Asset]** workflow model.
+
+1. Click on **[!UICONTROL Save]**
+
+To disable Page Extraction:
+
+1. Open the **[!UICONTROL Workflow Console]** tool by going to */libs/cq/workflow/content/console.html*
+
+1. Select the **[!UICONTROL Launchers]** tab
+1. Select a launcher that launches **[!UICONTROL DAM Parse Word Documents]** workflow model 
+1. Click **[!UICONTROL Edit]**
+1. Select **[!UICONTROL Disable]**
+1. Click **[!UICONTROL OK]**
+1. Repeat steps 3-6 for other launcher items that use **DAM Parse Word Documents **workflow model 
+
+--># Sub-asset generation and page extraction {#sub-asset-generation-and-page-extraction}
 
 During asset uploads, AEM's workflow creates a separate asset for each page in PDF and Office documents. Each of these pages is an asset by itself, which consumes additional disk space, requires versioning and additional workflow processing. If you do not require separate pages, disable Sub Asset Generation and Page Extraction.
 

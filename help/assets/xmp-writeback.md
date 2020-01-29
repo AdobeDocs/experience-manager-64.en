@@ -1,13 +1,7 @@
 ---
 title: XMP writeback to renditions
-seo-title: XMP writeback to renditions
 description: Learn how the XMP writeback feature propagates the metadata changes for an asset to all or specific renditions of the asset.
-seo-description: Learn how the XMP writeback feature propagates the metadata changes for an asset to all or specific renditions of the asset.
-uuid: 093997f5-379e-427c-b8be-ed19b84c222f
-contentOwner: asgupta
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 1258c866-8f04-4331-b6ba-1de6f9b51591
+contentOwner: AG
 ---
 
 # XMP writeback to renditions {#xmp-writeback-to-renditions}
@@ -30,7 +24,7 @@ However, AEM Assets does not automatically propagate any metadata changes to the
 
 The XMP Writeback feature lets you propagate the metadata changes to all or specific renditions of the asset. However, the changes are not stored under the metadata node in the asset hierarchy. Instead, this feature embeds the changes in the binary files for the renditions.
 
-## Enabling XMP writeback {#enabling-xmp-writeback}
+## Enable XMP writeback {#enabling-xmp-writeback}
 
 To enable the metadata changes to be propagated to the renditions of the asset when uploading it, modify the **Adobe CQ DAM Rendition Maker** configuration in Configuration Manager.
 
@@ -40,7 +34,7 @@ To enable the metadata changes to be propagated to the renditions of the asset w
 
    ![chlimage_1-346](assets/chlimage_1-346.png)
 
-## Enabling XMP writeback for specific renditions {#enabling-xmp-writeback-for-specific-renditions}
+## Enable XMP writeback for specific renditions {#enabling-xmp-writeback-for-specific-renditions}
 
 To let the XMP Writeback feature propagate metadata changes to select renditions, specify these renditions to the XMP Writeback Process workflow step of DAM Metadata WriteBack workflow. By default, this step is configured with the original rendition.
 
@@ -68,7 +62,7 @@ The metadata changes are propagated to the renditions renditions thumbnail.140.1
 >
 >For more information about supported platforms, see [XMP metadata write-back prerequisites](/help/sites-deploying/technical-requirements.md#requirements-for-aem-assets-xmp-metadata-write-back).
 
-## Filtering XMP metadata {#filtering-xmp-metadata}
+## Filter XMP metadata {#filtering-xmp-metadata}
 
 AEM Assets supports both blacklist and whitelist filtering of properties/nodes for XMP metadata that is read from asset binaries and stored in JCR when assets are ingested.
 

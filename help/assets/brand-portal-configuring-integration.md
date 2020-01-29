@@ -1,13 +1,7 @@
 ---
 title: Configure AEM Assets integration with Brand Portal
-seo-title: Configure AEM Assets integration with Brand Portal
 description: Learn how to integrate AEM Assets with Brand Portal for publishing assets and Collections to Brand Portal. 
-seo-description: Learn how to integrate AEM Assets with Brand Portal for publishing assets and Collections to Brand Portal. 
-uuid: 86fd9499-90c1-4f88-b9f8-c3b196c77e6e
-topic-tags: brand-portal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 7787f4d8-8de1-47f8-9847-69c543110ffd
+contentOwner: VG
 ---
 
 # Configure AEM Assets integration with Brand Portal {#configure-aem-assets-integration-with-brand-portal}
@@ -30,7 +24,7 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 ## Create JWT application {#create-jwt-application}
 
-1. Log in to [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) with your Adobe ID. You reach [JWT  Applications] page.
+1. Log in to [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) with your Adobe ID. You reach [!UICONTROL JWT  Applications] page.
 
    >[!NOTE]
    >
@@ -57,27 +51,27 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
    ![cloudservices](assets/cloudservices.png)
 
-3. In the [Cloud Services] page, locate the **[!UICONTROL Assets Brand Portal]** service under **[!UICONTROL Adobe Experience Cloud]**.
+3. In the [!UICONTROL Cloud Services] page, locate the **[!UICONTROL Assets Brand Portal]** service under **[!UICONTROL Adobe Experience Cloud]**.
 
    ![bpcloudservices](assets/bpcloudservices.png)
 
 4. Tap/ click the **[!UICONTROL Configure now]** link below the service to display the [Create Configuration] dialog.
-5. In the [Create Configuration] dialog, specify a title and name for the new configuration and tap/click **[!UICONTROL Create]**.
+5. In the [!UICONTROL Create Configuration] dialog, specify a title and name for the new configuration and tap/click **[!UICONTROL Create]**.
 
    ![bp-config](assets/bp-config.png)
 
-6. In the [AEM Assets Brand Portal Replication] dialog, specify the URL of your organization in the [Tenant URL] field.
-7. In the [Client ID] field, paste the application ID you copied at the end of the procedure [Create an application](#create-jwt-application). Click **[!UICONTROL OK]**.
+6. In the [!UICONTROL AEM Assets Brand Portal Replication] dialog, specify the URL of your organization in the [!UICONTROL Tenant URL] field.
+7. In the [!UICONTROL Client ID] field, paste the application ID you copied at the end of the procedure [Create an application](#create-jwt-application). Click **[!UICONTROL OK]**.
 
    ![public-folder-publish](assets/public-folder-publish.png)
 
-8. To make the assets (published from AEM) publicly available to general users of Brand Portal, enable the **[Public Folder Publish]** check box .
+8. To make the assets (published from AEM) publicly available to general users of Brand Portal, enable the **[!UICONTROL Public Folder Publish]** check box .
 
    >[!NOTE]
    >
    >The option to enable **[!UICONTROL Public Folder Publish]** is available in AEM 6.3.2.1 onwards.
 
-9. From the [Brand Portal Configuration] page, tap/click **[!UICONTROL Display Public Key]** to display the public key generated for your instance.
+9. From the [!UICONTROL Brand Portal Configuration] page, tap/click **[!UICONTROL Display Public Key]** to display the public key generated for your instance.
 
    ![display-public-key](assets/display-public-key.png)
 

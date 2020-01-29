@@ -1,14 +1,7 @@
 ---
 title: Review folder assets and collections
-seo-title: Review folder assets and collections
 description: Set up review workflows for assets within a folder or a collection and share it with reviewers or creative partners to seek feedback.
-seo-description: Set up review workflows for assets within a folder or a collection and share it with reviewers.
-uuid: 60e137ec-ee0b-42cc-908d-2a7ab229893a
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
-discoiquuid: 93455c0c-c3da-4d8c-8e43-933a5fd08770
+contentOwner: AG
 ---
 
 # Review folder assets and collections {#review-folder-assets-and-collections}
@@ -23,7 +16,7 @@ After you share the assets, reviewers can approve or reject them. Notifications 
 
 After the reviewer completes the review (approves or rejects assets), you receive a review completion notification.
 
-## Creating a review task for folders {#creating-a-review-task-for-folders}
+## Create a review task for folders {#creating-a-review-task-for-folders}
 
 1. From the Assets user interface, select the folder for which you want to create a review task.
 1. From the toolbar, tap/click the **[!UICONTROL Create Review Task]** icon to open the **[!UICONTROL Review Task]** page. If you cannot see the icon in the toolbar, tap/click **[!UICONTROL More]** and then select the icon.
@@ -71,7 +64,7 @@ After the reviewer completes the review (approves or rejects assets), you receiv
 
    ![review_status_listview](assets/review_status_listview.png)
 
-## Creating a review task for collections {#creating-a-review-task-for-collections}
+## Create a review task for collections {#creating-a-review-task-for-collections}
 
 1. From the Collections page, select the collection for which you want to create a review task.
 1. From the toolbar, tap/click the **[!UICONTROL Create Review Task]** icon to open the **[!UICONTROL Review Task]** page. If you cannot see the icon in the toolbar, tap/click **[!UICONTROL More]** and then select the icon.

@@ -1,12 +1,7 @@
 ---
-title: Using PDF Rasterizer
-seo-title: Using PDF Rasterizer
+title: Use PDF rasterizer
 description: Generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
-seo-description: Generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
-uuid: f621b9d7-433f-42c4-aae8-ddab1ddb969c
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 9913aa72-5eda-403b-bb4b-5e30f593a602
 ---
 
 # Using PDF Rasterizer {#using-pdf-rasterizer}

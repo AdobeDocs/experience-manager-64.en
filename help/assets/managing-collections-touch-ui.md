@@ -1,12 +1,7 @@
 ---
 title: Manage asset collections
-seo-title: Manage asset collections
 description: Understand the concept of collection in AEM Assets. Learn how to collections, manage, edit, and collections with other users.
-seo-description: Understand the concept of collection in AEM Assets and learn how you can share collections with other users.
-uuid: bc760801-8b6e-4b99-9861-c1439bb3576f
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 974ef0f7-1a3f-480b-b314-b9dbc9115af9
 ---
 
 # Manage collections {#managing-collections}
@@ -88,7 +83,7 @@ To create a smart collection, follow the steps:
 
 1. Navigate to the **[!UICONTROL Assets]** UI, and tap/click the **[!UICONTROL Search]** icon.
 
-1. Enter search keyword in the Omni Search box and press Enter. Tap/click the GlobalNav icon to display the Filters panel and apply a search filter from the Search panel.
+1. Enter search keyword in the Omnisearch box and press Enter. Tap/click the GlobalNav icon to display the Filters panel and apply a search filter from the Search panel.
 
 1. From the **[!UICONTROL Files & Folders]** list, select **[!UICONTROL Files]**.
 
@@ -143,7 +138,7 @@ Smart collections are built by saving a search so you can alter their content by
 
    ![chlimage_1-114](assets/chlimage_1-114.png)
 
-1. With the cursor in the Omni Search box, press the Return key. 
+1. With the cursor in the Omnisearch box, press the Return key. 
 1. Tap/click the GlobalNav icon to display the Filters panel.
 1. From the **[!UICONTROL Saved Searches]** list, select the smart collection you want to modify. The Search panel displays the filters configured for the saved search.
 
@@ -176,7 +171,7 @@ You can edit the metadata of multiple collections simultaneously. This functiona
 1. From the toolbar, tap/click the **[!UICONTROL Properties]** icon.
 1. In the **[!UICONTROL Collection Metadata]** page, edit the metadata under the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs, as necessary.
 1. Tap/click **[!UICONTROL Save & Close]** from the toolbar, and then close the confirmation dialog to complete the process.
-1. To append the new metadata with the existing metadata, select **[!UICONTROL Apend mode]**. If you do not select this option, the new metadata replaces the existing metadata in the fields. Tap/click **[!UICONTROL Submit]**.
+1. To append the new metadata with the existing metadata, select **[!UICONTROL Append mode]**. If you do not select this option, the new metadata replaces the existing metadata in the fields. Tap/click **[!UICONTROL Submit]**.
 
    >[!NOTE]
    >
@@ -188,7 +183,7 @@ The Search feature within Collections supports both [Searching for Collections](
 
 ### Searching Collections {#searching-collections}
 
-You can search collections from the Collections console. When you search with keywords in the Omni Search box, AEM Assets searches for collection names, metadata, and the tags added to the collections.
+You can search collections from the Collections console. When you search with keywords in the 0 Search box, AEM Assets searches for collection names, metadata, and the tags added to the collections.
 
 ### Searching within Collections {#searching-within-collections}
 
@@ -213,7 +208,7 @@ You can edit collection settings, such as title and description, or to add membe
 
    >[!NOTE]
    >
-   >You can also detete Smart collections by [deleting saved searches](#deleting-saved-searches).
+   >You can also delete Smart collections by [deleting saved searches](#deleting-saved-searches).
 
 ## Downloading a collection {#downloading-a-collection}
 
@@ -269,7 +264,7 @@ Editing saved searches is the same as editing smart collections. For details, se
 
    ![chlimage_1-118](assets/chlimage_1-118.png)
 
-1. With the cursor in the Omni Search box, press the Return key.
+1. With the cursor in the Omnisearch box, press the Return key.
 1. Click or tap the **[!UICONTROL GlobalNav]** icon to display the Filters panel.  
 
 1. From the **[!UICONTROL Saved Searches]** list, tap/click the **Delete** icon next to the smart collection you want to delete.

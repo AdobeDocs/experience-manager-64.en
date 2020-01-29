@@ -102,7 +102,6 @@ user-guide-title: AEM 6.4 Assets User Guide
   + [Assets Offloading Best Practices](assets-offloading-best-practices.md)
   + [Assets file format best practices](assets-file-format-best-practices.md)
   + [Assets Monitoring Best Practices](assets-monitoring-best-practices.md)
-  + [Best practices for organizing your digital assets for using Profiles](best-practices-for-file-management.md)
   + [Camera Raw Support](camera-raw.md)
   + [Detecting MIME Type of Assets Using Apache Tika](detect-asset-mime-type-with-tika.md)
   + [Imaging Transcoding Library](imaging-transcoding-library.md)
