@@ -2124,7 +2124,7 @@ List of OSGi bundles included in AEM 6.4.7.0
 
 List of Content Packages included in AEM 6.4.7.0
 
-[Get File](assets/6.4.7.0_content_packages.txt)
+[Get File](assets/sp_6.4.7.0_content_packages.txt)
 
 ### Helpful resources {#helpful-resources}
 
