@@ -15,7 +15,6 @@ discoiquuid: c3a81baa-98b0-40b4-bd34-f39e8491acca
 
 The following are the available JavaScript API references of the NPM modules for the AEM SPA Editor SDK framework.
 
-
 >[!NOTE]
 >The Single-Page Application (SPA) Editor feature requires [AEM 6.4 service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or newer.
 >
