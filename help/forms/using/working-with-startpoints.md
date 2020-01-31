@@ -18,7 +18,7 @@ A startpoint invokes a process created in Workbench. It is associated with a for
 >
 >The terms startpoints, start process, and form are used interchangably when referrring to this concept.
 
-To initiate a process from the AEM Forms app, you need to have a startpoint of type **Workspace** in your process. Also, you need to select the **[!UICONTROL Visibile in Mobile Workspace]** option for the startpoint.
+To initiate a process from the AEM Forms app, you need to have a startpoint of type **Workspace** in your process. Also, you need to select the **[!UICONTROL Visible in Mobile Workspace]** option for the startpoint.
 
 ![mws_startpoint_select_option](assets/mws_startpoint_select_option.png)
 
