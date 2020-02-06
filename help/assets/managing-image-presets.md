@@ -1,8 +1,6 @@
 ---
 title: Managing Dynamic Media image presets
-seo-title: Managing Dynamic Media image presets
 description: Understand Dynamic Media image presets and learn how to create, modify, and manage image presets
-seo-description: Understand Dynamic Media image presets and learn how to create, modify, and manage image presets
 uuid: 087e6c32-82d5-4645-8dba-0a22c62f891f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
