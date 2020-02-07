@@ -24,6 +24,11 @@ See also [Characteristics of SRP Options](working-with-srp.md#characteristics-of
 * [MySQL](#mysql-configuration), a relational database
 * [Apache Solr](#solr-configuration), a search platform
 
+>[!NOTE]
+>
+>The default storage configuration is now stored in conf path(`/conf/global/settings/community/srpc/defaultconfiguration`) instead of etc path (`/etc/socialconfig/srpc/defaultconfiguration`). You are advised to follow the [migration steps](#0dt-migration-steps) to make defaultsrp work as expected.
+>
+
 ## Relational Database Configuration {#relational-database-configuration}
 
 ### MySQL Configuration {#mysql-configuration}
@@ -51,46 +56,60 @@ On author, to access the Storage Configuration console
 * Sign in with administrator privileges
 * From the **main menu**
 
-    * Select **[!UICONTROL Tools]** (from the left hand pane)
-    * Select **[!UICONTROL Communities]**
-    * Select **[!UICONTROL Storage Configuration]**
+  * Select **[!UICONTROL Tools]** (from the left hand pane)
+  * Select **[!UICONTROL Communities]**
+  * Select **[!UICONTROL Storage Configuration]**
 
-        * As an example, the resulting location is: [http://localhost:4502/communities/admin/defaultsrp](http://localhost:4502/communities/admin/defaultsrp)
+    * As an example, the resulting location is: [http://localhost:4502/communities/admin/defaultsrp](http://localhost:4502/communities/admin/defaultsrp)
+    >[!NOTE]
+    >
+    >The default storage configuration is now stored in conf path(`/conf/global/settings/community/srpc/defaultconfiguration`) instead of etc path (`/etc/socialconfig/srpc/defaultconfiguration`). You are advised to follow the [migration steps](#0dt-migration-steps) to make defaultsrp work as expected.
+    >
 
-![chlimage_1-128](assets/chlimage_1-128.png)
+    ![chlimage_1-128](assets/chlimage_1-128.png)
 
 * Select **[!UICONTROL Database Storage Resource Provider (DSRP)]**
 * **Database Configuration**
 
-    * **[!UICONTROL JDBC datasource name]** 
+  * **[!UICONTROL JDBC datasource name]**
 
       Name given to MySQL connection must be the same as entered in [JDBC OSGi configuration](dsrp-mysql.md#configurejdbcconnections)  
 
       *default*: communities
   
-    * **[!UICONTROL Database name]** 
+  * **[!UICONTROL Database name]**
 
-      Name given to schema in [init_schema.sql](dsrp-mysql.md#obtain-the-sql-script) script 
+      Name given to schema in [init_schema.sql](dsrp-mysql.md#obtain-the-sql-script) script
 
       *default*: communities
 
 * **SolrConfiguration**
 
-    * **[Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
+  * **[Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
   
-      Leave this value blank if running Solr using the internal ZooKeeper. Else, when running in [SolrCloud mode](solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the URI for the ZooKeeper, such as *my.server.com:80* 
+      Leave this value blank if running Solr using the internal ZooKeeper. Else, when running in [SolrCloud mode](solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the URI for the ZooKeeper, such as *my.server.com:80*
   
       *default*: *&lt;blank&gt;*
   
-    * **[!UICONTROL Solr URL]** 
+  * **[!UICONTROL Solr URL]**
 
       *default*: https://127.0.0.1:8983/solr/
   
-    * **[!UICONTROL Solr Collection]** 
+    * **[!UICONTROL Solr Collection]**
 
       *default*: collection1
 
 * Select **[!UICONTROL Submit]**
+
+### 0DT Migration steps for defaultsrp {#0dt-migration-steps}
+
+Follow these steps to ensure that the defaultsrp page [http://localhost:4502/communities/admin/defaultsrp](http://localhost:4502/communities/admin/defaultsrp) works as expected:
+
+1. Rename the path at `/etc/socialconfig` to `/etc/socialconfig_old`, so that system configuration falls back to jsrp(default).
+1. Go to defaultsrp page [http://localhost:4502/communities/admin/defaultsrp](http://localhost:4502/communities/admin/defaultsrp), where jsrp is configured. Click the **[!UICONTROL submit]** button so that new default configuration node is created at `/conf/global/settings/community/srpc`.
+1. Delete the created default configuration `/conf/global/settings/community/srpc/defaultconfiguration`.
+1. Copy the old configuration `/etc/socialconfig_old/srpc/defaultconfiguration` in place of the deleted node (`/conf/global/settings/community/srpc/defaultconfiguration`) in the previous step.
+1. Delete the old etc node `/etc/socialconfig_old`.
 
 ## Publishing the Configuration {#publishing-the-configuration}
 
@@ -98,16 +117,16 @@ DSRP must be identified as the common store on all author and publish instances.
 
 To make the identical configuration available in the publish environment:
 
-* On author:
+On author:
 
-    * Navigate from main menu to **[!UICONTROL Tools > Operations > Replication]**
-    * Double-click **[!UICONTROL ]Activate Tree**
-    * **Start Path:**
+* Navigate from main menu to **[!UICONTROL Tools > Operations > Replication]**
+* Double-click **[!UICONTROL Activate Tree]**
+* **Start Path:**
 
-        * Browse to `/etc/socialconfig/srpc/`
+  * Browse to `/conf/global/settings/community/srpc/`
 
-    * Ensure `Only Modified` is not selected.
-    * Select **[!UICONTROL Activate]**
+* Ensure `Only Modified` is not selected.
+* Select **[!UICONTROL Activate]**
 
 ## Managing User Data {#managing-user-data}
 
@@ -125,4 +144,3 @@ For example, a curl command to re-index DSRP would look like this:
 ```shell
 curl -u admin:password -X POST -F path=/ https://host:port/services/social/datastore/rdb/reindex
 ```
-
