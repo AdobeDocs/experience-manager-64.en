@@ -48,7 +48,7 @@ While JSRP is the default configuration, to ensure the identical configuration i
     * Select **[!UICONTROL Activate Tree]**
     * **[!UICONTROL Start Path]**:
 
-        * Browse to `/conf/global/settings/community/srpc`
+        * Browse to `/conf/global/settings/community/srpc/`
         
     * Select **[!UICONTROL Activate]**
 
