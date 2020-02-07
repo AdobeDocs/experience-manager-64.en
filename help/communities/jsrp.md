@@ -48,8 +48,8 @@ While JSRP is the default configuration, to ensure the identical configuration i
     * Select **[!UICONTROL Activate Tree]**
     * **[!UICONTROL Start Path]**:
 
-        * Browse to `/etc/socialconfig/srpc/`
-
+        * Browse to `/conf/global/settings/community/srpc`
+        
     * Select **[!UICONTROL Activate]**
 
 ## Managing User Data {#managing-user-data}
@@ -67,7 +67,7 @@ Make sure JSRP has been configured to be the default provider by checking the co
 
 On all author and publish AEM instances, revisit the Storage Configuration console or check the AEM repository:
 
-* in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
+* in JCR, if [/conf/global/settings/community](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
     * Does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
     * If the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define JSRP to be the default provider
