@@ -134,7 +134,7 @@ This document includes details about the various types of Adobe Experience Manag
  </tbody>
 </table>
 
-## Cumulative Fix Pack (AEM <= 6.3) {#cumulative-fix-pack-aem}
+## Cumulative Fix Pack {#cumulative-fix-pack-aem}
 
 <table> 
  <tbody>
