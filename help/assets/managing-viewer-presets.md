@@ -39,7 +39,7 @@ See also [Keyboard accessiblity and navigation](https://marketing.adobe.com/reso
 
 You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM by tapping **[!UICONTROL Tools > Assets > Viewer Presets]**.
 
-![tools-assets](assets/tools-assets.png)
+![tools-assets](assets/)
 
 >[!NOTE]
 >
