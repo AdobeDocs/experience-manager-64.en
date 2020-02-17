@@ -200,9 +200,9 @@ If a workflow model is present in Classic UI, but missing in the selection popup
 
 1. Navigate to **[!UICONTROL Tools > Workflow > Models]**. Select **[!UICONTROL Request for Activation]**, then select **[!UICONTROL Edit]**.
 
-2. Select **[!UICONTROL Edit]** , then open **[!UICONTROL Workflow Model Properties]**. Go to the **[!UICONTROL Basic]** tab.
+1. Select **[!UICONTROL Edit]** , then open **[!UICONTROL Workflow Model Properties]**. Go to the **[!UICONTROL Basic]** tab.
 
-3. Add `Workflow : DAM` to **[!UICONTROL Tags]** field. Confirm the selection with the check (tick). 
+1. Add `Workflow : DAM` to **[!UICONTROL Tags]** field. Confirm the selection with the check (tick). 
 
 1. Confirm the addition of the tag with **[!UICONTROL Save & Close]**.
 ![Edit Page Properties of Model](assets/workflow_model_edit_activation1.png)
