@@ -103,6 +103,8 @@ If you are using the package `com.day.cq.dam.handler.standard.msoffice` in your 
 
 * PDF files are not indexed and content within is not searchable (CQ-4278916).
 
+* XSS vulnerability in DAM (NPR-31654).
+
 ### Sites {#sites}
 
 * When launches are promoted with Promote only Modified pages and Promote launches with modified pages are done, only the modified pages are appearing to be promoted. Moreover, when the list to be promoted is correct, the non-modified pages are still displayed at the bottom of the list (NPR-31314).
@@ -124,6 +126,10 @@ If you are using the package `com.day.cq.dam.handler.standard.msoffice` in your 
 * Content Fragment Models query is inefficient. It is very slow if the instance has a lot of pages and results in an error (NPR-30666).
 
 * On saving the content fragment model, time in the date and time field is set to 00:00 (NPR-30540).
+
+* A JavaScript file with user data gets generated on the server side (NPR-30822).
+
+* AEM authoring UI allows phishing using external content (NPR-29745).
 
 ### Integrations {#integrations}
 
