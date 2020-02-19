@@ -103,6 +103,8 @@ If you are using the package `com.day.cq.dam.handler.standard.msoffice` in your 
 
 * PDF files are not indexed and content within is not searchable (CQ-4278916).
 
+* XSS vulnerability in DAM (NPR-31654).
+
 ### Sites {#sites}
 
 * When launches are promoted with Promote only Modified pages and Promote launches with modified pages are done, only the modified pages are appearing to be promoted. Moreover, when the list to be promoted is correct, the non-modified pages are still displayed at the bottom of the list (NPR-31314).
@@ -124,6 +126,10 @@ If you are using the package `com.day.cq.dam.handler.standard.msoffice` in your 
 * Content Fragment Models query is inefficient. It is very slow if the instance has a lot of pages and results in an error (NPR-30666).
 
 * On saving the content fragment model, time in the date and time field is set to 00:00 (NPR-30540).
+
+* A JavaScript file with user data gets generated on the server side (NPR-30822).
+
+* AEM authoring UI allows phishing using external content (NPR-29745).
 
 ### Integrations {#integrations}
 
@@ -2090,9 +2096,7 @@ This section lists features and capabilities that have been removed or deprecate
 
 ### Known Issues {#known-issues}
 
-* If **Publish page** and **Unpublish page** do not display in the list of **Page Information** options, contact Adobe support.
-
-* The following errors and warnings may occur during installation of AEM 6.4.6.0 and can be safely ignored as they do not impact your AEM instance:
+* The following errors and warnings may display during installation:
 
   * Errors as create component instance and Service factory returned null occurs due to repository restart:
 
@@ -2102,6 +2106,7 @@ This section lists features and capabilities that have been removed or deprecate
   * `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)]` : Timeout waiting for reg change to complete unregistered.
   * `com.adobe.granite.maintenance.impl.TaskScheduler` No maintenance windows found at granite/operations/maintenance
   * `com.adobe.cq.com.adobe.cq.ui.commons bundle com.adobe.cq.com.adobe.cq.ui.commons:1.2.28 (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)]`: The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).
+  These errors do not require any action as they do not impact your AEM instance.
 
 ### Resolved Issues {#resolved-issues}
 

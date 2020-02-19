@@ -1,6 +1,6 @@
 ---
-title: Maintenance Release Vehicle Definitions
-seo-title: Maintenance Release Vehicle Definitions
+title: Update Release Vehicle Definitions
+seo-title: Update Release Vehicle Definitions
 description: This article details the various types of AEM releases, including full releases, feature packs, and services packs.
 seo-description: This article details the various types of AEM releases, including full releases, feature packs, and services packs.
 uuid: 388fb6f5-0249-41e2-a460-1bb4cd0f8494
@@ -11,7 +11,7 @@ topic-tags: deploying
 discoiquuid: 32695db5-d62d-4959-8a24-3d56b4a19904
 ---
 
-# Maintenance Release Vehicle Definitions{#maintenance-release-vehicle-definitions}
+# AEM Update Release Vehicle Definitions {#update-release-vehicle-definitions}
 
 This document includes details about the various types of Adobe Experience Manager (AEM) releases, including full releases, feature packs, and services packs that Adobe delivers to its customers.
 
@@ -134,7 +134,7 @@ This document includes details about the various types of Adobe Experience Manag
  </tbody>
 </table>
 
-## Cumulative Fix Pack (AEM <= 6.3) {#cumulative-fix-pack-aem}
+## Cumulative Fix Pack {#cumulative-fix-pack-aem}
 
 <table> 
  <tbody>

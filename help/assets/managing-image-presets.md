@@ -1,8 +1,6 @@
 ---
 title: Managing Dynamic Media image presets
-seo-title: Managing Dynamic Media image presets
 description: Understand Dynamic Media image presets and learn how to create, modify, and manage image presets
-seo-description: Understand Dynamic Media image presets and learn how to create, modify, and manage image presets
 uuid: 087e6c32-82d5-4645-8dba-0a22c62f891f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -230,12 +228,16 @@ Creating a Dynamic Media image preset lets you apply those settings to any image
 
 >[!NOTE]
 >
->If using Internet Explorer 9, creating a preset does not appear in the preset list immediately after saving. To work around this issue, disable the cache for IE9.
+>If you use Internet Explorer 9, creating a preset does not appear in the preset list immediately after saving. To work around this issue, disable the cache for IE9.
 
 If you intend to support the ingestion of AI, PDF, and EPS files so that you can generate dynamic rendition of these file formats, you may want to review the following information before you create image presets.  
 See [Adobe Illustrator (AI), Postscript (EPS), and PDF file formats](#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats).
 
 If you intend to support the ingestion of INDD files so that you can generate dynamic rendition of this file format, you may want to review the following information before you create image presets.  See [InDesign (INDD) file format](#indesign-indd-file-format).
+
+>[!NOTE]
+>
+>To create Dynamic Media image presets, you must have administrator privileges as an AEM administrator or Admin Console administrator.
 
 **To create a Dynamic Media image preset**:
 
