@@ -103,9 +103,8 @@ Irrespective of the asset type chosen, display the copyright information as a re
 
    ![Cascading metadata for Video asset](assets/video_asset.png)
 
-   **Figure:** *Cascading metadata for Video asset*
+   *Figure: Cascading metadata for Video asset*
 
    ![Cascading metadata for document asset](assets/doc_type_fields.png)
 
-   **Figure:** *Cascading metadata for document asset*
-
+   *Figure: Cascading metadata for document asset*
