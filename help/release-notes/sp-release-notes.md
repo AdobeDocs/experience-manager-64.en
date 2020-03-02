@@ -19,7 +19,7 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 | Version |6.4.7.0 |
 | Type |Service Pack Release |
 | Date |December 12, 2019 |
-| Download URL | AEM 6.4.7.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.7.0), [Software Distribution](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/aem.html#package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/servicepack/aem-service-pkg-6.4.7.zip) |
+| Download URL | AEM 6.4.7.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.7.0) |
 
 ## What's included in AEM 6.4.7.0 {#what-s-included-in-aem}
 
@@ -2137,7 +2137,7 @@ List of Content Packages included in AEM 6.4.7.0
 * [AEM product page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM developer support](https://docs.adobe.com/content/ddc/en.html)
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* Subscribe to [Adobe Priority Product Updates](https://www.adobe.com/subscription/priority-product-update.html)
+* Subscribe to [Adobe priority product updates](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### Restricted Sites {#restricted-sites-new}
 
