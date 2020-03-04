@@ -17,7 +17,8 @@ When organizing a collection of assets, for example, all `Nature` images, you ca
 
 >[!NOTE]
 >
->Sharing an Assets folder of the type `sling:OrderedFolder` is not supported when sharing to Marketing Cloud. If you want to share a folder, do not select Ordered when creating a folder.
+>* Sharing an Assets folder of the type `sling:OrderedFolder` is not supported when sharing to Marketing Cloud. If you want to share a folder, do not select Ordered when creating a folder.
+>* Experience Manager does not allow using `subassets` word as the name of a folder. It is a keyword reserved for node that contain subassets for compound assets.
 
 1. Navigate to the place in your digital assets folder where you want to create a new folder.
 1. In the menu, click **[!UICONTROL Create]**. Select **[!UICONTROL New Folder]**.
