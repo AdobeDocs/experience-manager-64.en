@@ -107,10 +107,6 @@ The options available on these panels are described below.
    <td>The <a href="/help/sites-authoring/touch-ui-managing-projects.md">Projects console gives you direct access to your projects</a>. Projects are virtual dashboards. They can be used to build a team, then give that team access to resources, workflows and tasks, allowing people to work on a common goal. <br /> </td> 
   </tr>
   <tr>
-   <td>Screens</td> 
-   <td><a href="/help/screens/authoring-screens.md">Screens</a> will allow you to manage all your customer-facing screens, of any size and in any location.</td> 
-  </tr>
-  <tr>
    <td>Sites</td> 
    <td>The Sites consoles let you <a href="/help/sites-authoring/author-environment-tools.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
   </tr>
