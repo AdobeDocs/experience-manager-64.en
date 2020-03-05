@@ -19,13 +19,13 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 | Version |6.4.8.0 |
 | Type |Service Pack Release |
 | Date |March 05, 2020 |
-| Download URL | AEM 6.4.8.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.7.0) |
+| Download URL | AEM 6.4.8.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.8.0) |
 
 ## What's included in AEM 6.4.8.0 {#what-s-included-in-aem}
 
-AEM 6.4.8.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in **April 2018.**
+AEM 6.4.8.0 is an important update that includes new features, key customer requested enhancements and performance, stability, security improvements, released since the general availability of AEM 6.4 in **April 2018.**
 
-It is also cumulative which means that 6.4.8.0 includes all AEM 6.4 service packs release before it.
+It is also cumulative which means that 6.4.8.0 includes all AEM 6.4 service packs released before it.
 
 Some key highlights of this service pack release are:
 
@@ -44,6 +44,19 @@ Some key highlights of this service pack release are:
 * AEM Assets is now configured with Brand Portal through Adobe I/O.
 
 ## List of changes {#list-of-changes}
+
+### Sites {#sites}
+
+* When a Blueprint is created, if the number of records is more than 80, only the first 80 records are displayed. Blueprint displays blank lines for the rest of the records (NPR-32058).
+* Users are allowed to save a Content Fragment without providing any information in the required fields (NPR-31988).
+* Automatic navigation does not work for path configured in a Core Experience Fragment Component (NPR-31921).
+* When you change the type of a table cell in Rich Text Editor (RTE), the below error occurs:
+  `Error: No common ancestor found, cannot continue` (NPR-31916).
+* When content is moved within the same folder, the page move option is disabled (NPR-31841).
+* Added support to divide Japanese language sentences using the BUNSETSU method and break lines at the appropriate position (NPR-31836).
+* When URLs ending with `/_jcr_content/.html` or `/jcr:content/.html` are accessed, CPU spikes and AEM stops responding (NPR-31755).
+* When you edit a hyperlink in Rich Text Editor (RTE), the newly selected path is not saved (NPR-31659).
+* When you delete a multifield component and undo the deletion, the component is restored but data is not restored (NPR-31617).
 
 ### Assets {#assets}
 
@@ -72,19 +85,6 @@ Some key highlights of this service pack release are:
 * Image is not seen on the timeline after annotations are added, on Experience Manager running on Dynamic Media Scene7 run mode (NPR-31754).
 
 * ZIP file downloaded from DAM can't be opened using WinZip (NPR-31745).
-
-### Sites {#sites}
-
-* When a Blueprint is created, if the number of records is more than 80, only the first 80 records are displayed. Blueprint displays blank lines for the rest of the records (NPR-32058).
-* Users are allowed to save a Content Fragment without providing any information in the required fields (NPR-31988).
-* Automatic navigation does not work for path configured in a Core Experience Fragment Component (NPR-31921).
-* When you change the type of a table cell in Rich Text Editor (RTE), the below error occurs:
-  `Error: No common ancestor found, cannot continue` (NPR-31916).
-* When content is moved within the same folder, the page move option is disabled (NPR-31841).
-* Added support to divide Japanese language sentences using the BUNSETSU method and break lines at the appropriate position (NPR-31836).
-* When URLs ending with `/_jcr_content/.html` or `/jcr:content/.html` are accessed, CPU spikes and AEM stops responding (NPR-31755).
-* When you edit a hyperlink in Rich Text Editor (RTE), the newly selected path is not saved (NPR-31659).
-* When you delete a multifield component and undo the deletion, the component is restored but data is not restored (NPR-31617).
 
 ### Integrations {#integrations-6480}
 
@@ -2172,7 +2172,7 @@ which will copy new viewer presets to /conf location.
 >
 >Skip if you are not using AEM Forms on JEE. Fixes in AEM Forms JEE are delivered through a separate installer.
 
-For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0013](https://helpx.adobe.com/aem-forms/quick-fixes/6-4/jee-patch-0013.html).
+For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0015](https://helpx.adobe.com/aem-forms/quick-fixes/6-4/jee-patch-0015.html).
 
 #### Configuration settings required for NPR-21268 {#configuration-settings-required-for-npr}
 
@@ -2198,7 +2198,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 ### Uber Jar {#uber-jar}
 
-The Uber Jar for AEM 6.4.8.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.7/).
+The Uber Jar for AEM 6.4.8.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.8/).
 
 To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
@@ -2262,7 +2262,6 @@ List of Content Packages included in AEM 6.4.8.0
 
 * [AEM 6.4 release notes](../release-notes/release-notes.md)
 * [AEM product page](https://www.adobe.com/solutions/web-experience-management.html)
-* [AEM developer support](https://docs.adobe.com/content/ddc/en.html)
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
 * Subscribe to [Adobe priority product updates](https://www.adobe.com/subscription/priority-product-update.html)
 
