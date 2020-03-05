@@ -257,13 +257,22 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
    ![](assets/test-integration5.png)
 
+   >[!NOTE]
+   >
+   >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
+
 1. Verify the test results on all four replication agents one-by-one.
+
+   >[!NOTE]
+   >
+   >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
 
 Brand Portal is successfully configured with your AEM Assets author instance. You can now:
 
-* Publish assets and folders from AEM Assets to Brand Portal
-* Publish collections from AEM Assets to Brand Portal. 
-* Configure Asset Sourcing enabling the Brand Portal users to contribute and publish assets to AEM Assets. 
+* [Publish assets from AEM Assets to Brand Portal](../assets/brand-portal-publish-assets.md)
+* [Publish folders from AEM Assets to Brand Portal](../assets/brand-portal-publish-folder.md)
+* [Publish collections from AEM Assets to Brand Portal](../assets/brand-portal-publish-collection.md) 
+* [Configure Asset Sourcing](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html) enabling the Brand Portal users to contribute and publish assets to AEM Assets. 
 
 ## Upgrade configuration {#upgrade-integration-64}
 
