@@ -19,7 +19,7 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 | Version |6.4.8.0 |
 | Type |Service Pack Release |
 | Date |March 05, 2020 |
-| Download URL | AEM 6.4.8.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.8.0) |
+| Download URL | AEM 6.4.8.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.8.0), [Software Distribution(Beta)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/servicepack/aem-service-pkg-6.4.8.zip) |
 
 ## What's included in AEM 6.4.8.0 {#what-s-included-in-aem}
 
@@ -47,6 +47,9 @@ Some key highlights of this service pack release are:
 
 ### Sites {#sites}
 
+* When a URL of an AEM Sites pages contains a colon or percentage symbol, the underlying browser stops responding and CPU cycles show a spike (NPR-32368, NPR-31917).
+* When an AEM Sites page is opened for editing and a component is copied, the paste action remains unavailable for some placeholders (NPR-32328).
+* Request for activation workflow does not include referenced assets (NPR-32304).
 * When a Blueprint is created, if the number of records is more than 80, only the first 80 records are displayed. Blueprint displays blank lines for the rest of the records (NPR-32058).
 * Users are allowed to save a Content Fragment without providing any information in the required fields (NPR-31988).
 * Automatic navigation does not work for path configured in a Core Experience Fragment Component (NPR-31921).
@@ -54,7 +57,6 @@ Some key highlights of this service pack release are:
   `Error: No common ancestor found, cannot continue` (NPR-31916).
 * When content is moved within the same folder, the page move option is disabled (NPR-31841).
 * Added support to divide Japanese language sentences using the BUNSETSU method and break lines at the appropriate position (NPR-31836).
-* When URLs ending with `/_jcr_content/.html` or `/jcr:content/.html` are accessed, CPU spikes and AEM stops responding (NPR-31755).
 * When you edit a hyperlink in Rich Text Editor (RTE), the newly selected path is not saved (NPR-31659).
 * When you delete a multifield component and undo the deletion, the component is restored but data is not restored (NPR-31617).
 
@@ -105,10 +107,6 @@ Some key highlights of this service pack release are:
 ### Translation {#translation-6480}
 
 * Translation project creation for multiple languages generates the project only for some of the languages instead of all and an error (resource resolver is already closed) is observed in the log (NPR-32212).
-
-### WCM-Template Editor {#wcm-template-editor-6480}
-
-* CPU spikes and Experience Manager turns unresponsive when URLs ending with `/_jcr_content/.html` or `/jcr:content/.html` are accessed (CQ-4280770).
 
 ### WCM-MSM {#wcm-msm-6480}
 
