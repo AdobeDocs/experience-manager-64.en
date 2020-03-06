@@ -14,6 +14,11 @@ discoiquuid: 30d25772-0df7-468e-bcbd-c6fb2e962662
 # SPA and Server-Side Rendering{#spa-and-server-side-rendering}
 
 >[!NOTE]
+>The Single-Page Application (SPA) Editor feature requires [AEM 6.4 service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) or newer.
+>
+>The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React or Angular).
+
+>[!NOTE]
 >
 >AEM 6.4.5.0 or later is required to use the SPA server side rendering features as described in this document.
 
@@ -87,7 +92,7 @@ When using SSR, the [component interaction workflow](/help/sites-developing/spa-
 
 1. The browser requests the SSR content from AEM.
 1. AEM posts the model to Adobe I/O Runtime.
-1. Adobe I/O Runtime returns the generated content  
+1. Adobe I/O Runtime returns the generated content
 1. AEM serves the HTML returned by Adobe I/O Runtime via the HTL template of the backend page component.
 
 ![server-side-rendering-cms-drivenaemnode](assets/server-side-rendering-cms-drivenaemnode-adobeio.png)

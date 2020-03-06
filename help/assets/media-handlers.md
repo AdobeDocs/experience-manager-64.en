@@ -4,11 +4,11 @@ description: Learn about various media handlers and how to use them in workflows
 contentOwner: AG
 ---
 
-# Processing Assets Using Media Handlers and Workflows {#processing-assets-using-media-handlers-and-workflows}
+# Process assets Using media handlers and workflows {#processing-assets-using-media-handlers-and-workflows}
 
-Adobe Experience Manager (AEM) Assets comes with a set of default workflows and media handlers to process assets. The workflow defines the general tasks to be executed on the assets, then delegates the specific tasks to the media handlers, for example thumbnail generation or metadata extraction.
+Adobe Experience Manager Assets provides a set of default workflows and media handlers to process assets. A workflow defines a typical asset management and processing task, then delegates the specific tasks to the media handlers, for example thumbnail generation or metadata extraction.
 
-A workflow can be defined that will automatically execute when an asset of a particular type is uploaded to the server. The processing steps are defined in terms of a series of AEM Assets Media Handlers. AEM provides some [built in handlers,](#default-media-handlers) and additional ones can be either [custom developed](#creating-a-new-media-handler) or defined by delegating the process to a [command line tool](#command-line-based-media-handler).
+A workflow can be defined that automatically execute when an asset of a particular type or format is uploaded to the server. The processing steps are defined as a series of AEM Assets media handlers. AEM provides some [built in handlers,](#default-media-handlers) and additional ones can be either [custom developed](#creating-a-new-media-handler) or defined by delegating the process to a [command line tool](#command-line-based-media-handler).
 
 Media handlers are services inside AEM Assets that perform specific actions on assets. For example, when an MP3 audio file is uploaded into AEM, a workflow triggers an MP3 handler that extracts the metadata and generates a thumbnail. Media handlers are usually used in combination with workflows. Most common MIME types are supported within AEM. Specific tasks can be performed on assets by either extending/creating workflows, extending/creating media handlers or disabling/enabling media handlers.
 
@@ -16,7 +16,7 @@ Media handlers are services inside AEM Assets that perform specific actions on a
 >
 >Please refer to the [Assets supported formats](assets-formats.md) page for a description of all the formats supported by AEM Assets as well as features supported for each format.
 
-## Default Media Handlers {#default-media-handlers}
+## Default media handlers {#default-media-handlers}
 
 The following media handlers are available within AEM Assets and handle the most common MIME types:
 
@@ -48,7 +48,7 @@ It is possible to view the active media handlers:
 
 ![chlimage_1-437](assets/chlimage_1-437.png)
 
-## Using Media Handlers in Workflows to perform tasks on Assets {#using-media-handlers-in-workflows-to-perform-tasks-on-assets}
+## Use media handlers in workflows to perform tasks on Assets {#using-media-handlers-in-workflows-to-perform-tasks-on-assets}
 
 Media handlers are services that are usually used in combination with workflows.
 
@@ -95,7 +95,7 @@ The interface and classes include:
 * `com.day.cq.dam.core.AbstractAssetHandler` class: This class serves as basis for all other asset handler implementations and provides common used functionality.
 * `com.day.cq.dam.core.AbstractSubAssetHandler` class: 
   * This class serves as basis for all other asset handler implementations and provides common used functionality plus common used functionality for subasset extraction.
-  * The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behaviour: the com.day.cq.dam.core.AbstractAssetHandler Class.
+  * The best way to start an implementation is to inherit from a provided abstract implementation that takes care of most things and provides reasonable default behavior: the com.day.cq.dam.core.AbstractAssetHandler Class.
   * This class already provides an abstract service descriptor. So if you inherit from this class and use the maven-sling-plugin, make sure that you set the inherit flag to true.
 
 The following methods need to be implemented:
@@ -451,15 +451,13 @@ The `CommandLineProcess` process performs the following operations in the order 
 * Deletes the temporary directory.  
 * Creates thumbnails based on those renditions, if specified. The number and the dimensions of the thumbnails are defined by the arguments of the step.
 
-### An Example Using ImageMagick {#an-example-using-imagemagick}
+### An example using ImageMagick {#an-example-using-imagemagick}
 
 The following example shows you how to set up the command line process step so that every time an asset with the mime-type gif or tiff is added to /content/dam on the AEM server, a flipped image of the original is created together with three additional thumbnails (140x100, 48x48 and 10x250).
 
-To do this, you will use ImageMagick. ImageMagick is a free software suite to create, edit, and compose bitmap images and is typically used from the command line.
+To do this, use ImageMagick. Install ImageMagick on the disk hosting the AEM server:
 
-First install ImageMagick on the disk hosting the AEM server:
-
-1. Install ImageMagick: please refer to the [ImageMagick documentation](https://www.imagemagick.org/script/download.php).
+1. Install ImageMagick. See [ImageMagick documentation](https://www.imagemagick.org/script/download.php) for more information.
 1. Set up the tool so you can run convert on the command line.
 1. To see if the tool is installed properly, run the following command `convert -h` on the command line.
 
@@ -469,7 +467,7 @@ First install ImageMagick on the disk hosting the AEM server:
    >
    >In some versions of Windows (for example Windows SE), the convert command may fail to run because it conflicts with the native convert utility that is part of Windows installation. In this case, mention the complete path for the ImageMagick utility used to convert image files to thumbnails. For example, `"C:\Program Files\ImageMagick-6.8.9-Q16\convert.exe" -define jpeg:size=319x319 ${filename} -thumbnail 319x319 cq5dam.thumbnail.319.319.png`.
 
-1. To see if the tool runs properly, add a .jpg image to the working directory and run the command convert `<image-name>.jpg -flip <image-name>-flipped.jpg` on the command line.
+1. To see if the tool runs properly, add a JPG image to the working directory and run the command `convert <image-name>.jpg -flip <image-name>-flipped.jpg` on the command line.
 
    A flipped image is added to the directory.
 
@@ -477,9 +475,7 @@ Then, add the command line process step to the **[!UICONTROL DAM Update Asset]**
 
 1. Go to the **[!UICONTROL Workflow]** console.
 1. In the **[!UICONTROL Models]** tab, edit the **[!UICONTROL DAM Update Asset]** model.
-1. Change the settings of the **[!UICONTROL Web enabled rendition]** step as follows:  
-
-   **Arguments**:
+1. Change the settings of the **[!UICONTROL Web enabled rendition]** step as follows:
 
    `mime:image/gif,mime:image/tiff,tn:140:100,tn:48:48,tn:10:250,cmd:convert ${directory}/${filename} -flip ${directory}/${basename}.flipped.jpg`
 
@@ -487,15 +483,13 @@ Then, add the command line process step to the **[!UICONTROL DAM Update Asset]**
 
 To test the modified workflow, add an asset to `/content/dam`.
 
-1. In the file system, get a .tiff image of your choice. Rename it to `myImage.tiff` and copy it to `/content/dam`, for example by using WebDAV.
+1. In the file system, get a TIFF image of your choice. Rename it to `myImage.tiff` and copy it to `/content/dam`, for example by using WebDAV.
 1. Go to the **[!UICONTROL CQ5 DAM]** console, for example `http://localhost:4502/libs/wcm/core/content/damadmin.html`.
-1. Open the asset **[!UICONTROL myImage.tiff]** and verify that the flipped image and the three thumbnails have been created.
+1. Open the asset `myImage.tiff` and verify that the flipped image and the three thumbnails have been created.
 
-#### Configuring the CommandLineProcess Process Step {#configuring-the-commandlineprocess-process-step}
+#### Configure the CommandLineProcess process step {#configuring-the-commandlineprocess-process-step}
 
-This section describes how to set the **Process Arguments** of the **CommandLineProcess**.
-
-The values of the **Process Arguments** must be separated by a comma and must not start with a whitespace.
+This section describes how to set the **[!UICONTROL Process Arguments]** of the `CommandLineProcess`. Separate the values of [!UICONTROL Process Arguments] using a comma and do not start a value with a whitespace.
 
 | Argument-Format | Description |
 |---|---|
@@ -509,14 +503,14 @@ For example, if ImageMagick is installed on the disk hosting the AEM server and 
 
 then, when the workflow runs, the step only applies to assets that have image/gif or mime:image/tiff as mime-types, it creates a flipped image of the original, converts it into .jpg and creates three thumbnails that have the dimensions: 140x100, 48x48 and 10x250.
 
-Use the following **Process Arguments** to create the three standard thumbnails using ImageMagick:
+Use the following [!UICONTROL Process Arguments] to create the three standard thumbnails using ImageMagick:
 
 `mime:image/tiff,mime:image/png,mime:image/bmp,mime:image/gif,mime:image/jpeg,cmd:convert ${filename} -define jpeg:size=319x319 -thumbnail "319x319>" -background transparent -gravity center -extent 319x319 -write png:cq5dam.thumbnail.319.319.png -thumbnail "140x100>" -background transparent -gravity center -extent 140x100 -write cq5dam.thumbnail.140.100.png -thumbnail "48x48>" -background transparent -gravity center -extent 48x48 cq5dam.thumbnail.48.48.png`
 
-Use the following **Process Arguments** to create the web-enabled rendition using ImageMagick:
+Use the following [!UICONTROL Process Arguments] to create the web-enabled rendition using ImageMagick:
 
 `mime:image/tiff,mime:image/png,mime:image/bmp,mime:image/gif,mime:image/jpeg,cmd:convert ${filename} -define jpeg:size=1280x1280 -thumbnail "1280x1280>" cq5dam.web.1280.1280.jpeg`
 
 >[!NOTE]
 >
->The **CommandLineProcess** step only applies to Assets (nodes of type `dam:Asset`) or descendants of an Asset.
+>The `CommandLineProcess` step only applies to Assets (nodes of type `dam:Asset`) or descendants of an asset.

@@ -40,8 +40,12 @@ Fields must be specifically configured if any change is required. This is done u
 For example, see the settings for fields grouped under the **More Titles and Description** on the **Basic** tab for the foundation Page component. These are visible in the **Create Page** wizard as `cq:showOnCreate` has been set to `true`:
 
 ```xml
-/libs/foundation/components/page/cq:dialog/content/items/tabs/items/basic/items/column/items/moretitles   
+/libs/foundation/components/page/cq:dialog/content/items/tabs/items/basic/items/column/items/moretitles
 ```
+
+>[!TIP]
+>
+>See the [Extending Page Properties tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/developing/page-properties-technical-video-develop.html) for a guide to customizing page properties.
 
 ## Configuring your Page Properties {#configuring-your-page-properties}
 

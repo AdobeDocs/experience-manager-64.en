@@ -211,7 +211,7 @@ The applicability of common DAM workflows for a few other file formats is descri
 | Format | Storage | Versioning | Workflow | Publishing | Access Control | Dynamic Media Delivery |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | * | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | |
-| SVG | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| SVG | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | |
 | CSS | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 | VTT | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 | XML | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
@@ -287,6 +287,6 @@ See also [Enable MIME type-based Assets/Scene7 upload job parameter support](/he
 | XLS | application/vnd.ms-excel | | |
 | ZIP | application/zip | | |
 
->[More Like This]
+>[!MORELIKETHIS]
 >
 >[Enable MIME type-based Assets/Scene7 upload job parameter support](../sites-administering/scene7.md#enabling-mime-type-based-assets-scene-upload-job-parameter-support).

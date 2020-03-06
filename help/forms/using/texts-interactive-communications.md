@@ -52,7 +52,7 @@ The text document fragment in Interactive Communication supports the following t
 
     * [Repeat](/help/forms/using/cm-inline-condition.md)
     * [Special characters](#special)
-    * [Searching and replacing text](#search)
+    * [Searching and replacing text](#search-features)
     * [Keyboard shortcuts](/help/forms/using/keyboard-shortcuts.md)
 
 1. Tap **[!UICONTROL Save]**.

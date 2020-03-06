@@ -141,7 +141,7 @@ public class ComponentWhichHasAEMInterfaceInjected implements TitleTrimmer {
 }
 ```
 
-To unit test either of these methods, a developer would use a mocking framework such as [JMockit](https://jmockit.org/), [Mockito](https://mockito.org/), [JMock](https://www.jmock.org/), or [Easymock](https://easymock.org/) to create a mock object for the AEM API referenced. These samples use JMockit, but for this particular use case, the difference between these frameworks is largely syntatical.
+To unit test either of these methods, a developer would use a mocking framework such as [JMockit](http://jmockit.github.io), [Mockito](https://mockito.org/), [JMock](https://www.jmock.org/), or [Easymock](https://easymock.org/) to create a mock object for the AEM API referenced. These samples use JMockit, but for this particular use case, the difference between these frameworks is largely syntatical.
 
 ```java
 @RunWith(JMockit.class)
