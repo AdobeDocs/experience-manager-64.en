@@ -8,6 +8,8 @@ contentOwner: AG
 
 Digital assets are often associated with a license, which specifies their terms and duration of use. Because Adobe Experience Manager (AEM) Assets is fully integrated with the AEM platform, you can efficiently manage asset expiration information and asset states. You can also associate licensing information with assets.
 
+<!-- TBD see if adding more UICONTROL tags is needed -->
+
 ## Asset expiration {#asset-expiration}
 
 Asset expiration is an effective way of enforcing license requirements for assets. It ensures that the published asset is unpublished when it expires, which averts the possibility of any license violation. A user without administrator rights cannot edit, copy, move, publish, and download an expired asset.
