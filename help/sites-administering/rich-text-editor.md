@@ -1,14 +1,7 @@
 ---
 title: Configure the Rich Text Editor
-seo-title: Configure the Rich Text Editor
 description: Learn to configure the AEM Rich Text Editor.
-seo-description: Learn to configure the AEM Rich Text Editor.
-uuid: 82d2fe41-676a-4a49-939f-13374b9d869f
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: operations
-content-type: reference
-discoiquuid: 9248d09c-b749-4aca-9167-1707c1dd8a53
+contentOwner: AG
 ---
 
 # Configure the Rich Text Editor {#configure-the-rich-text-editor}
@@ -21,7 +14,7 @@ The following workflow illustrates a recommended order of completing the RTE con
 
 ![Typical workflow to configure Rich Text Editor](assets/rte_workflow_v1.png)
 
-**Figure:** *Typical workflow to configure Rich Text Editor*
+*Figure: Typical workflow to configure Rich Text Editor*
 
 ## Understand Touch-enabled UI and Classic UI {#understand-touch-enabled-ui-and-classic-ui}
 
@@ -29,18 +22,18 @@ The Touch-enabled UI is the standard UI for AEM. Adobe introduced Touch UI with 
 
 ![Rich Text Editor toolbar in Touch-enabled UI](assets/chlimage_1-404.png)
 
-**Figure:** *Rich Text Editor toolbar in Touch-enabled UI*
+*Figure: Rich Text Editor toolbar in Touch-enabled UI*
 
 ![Rich Text Editor toolbar in Classic UI](assets/rtedefault.png)
 
-**Figure:** *Rich Text Editor toolbar in Classic UI*
+*Figure: Rich Text Editor toolbar in Classic UI*
 
-**See also**:
-
-* [UI recommendations](/help/sites-deploying/ui-recommendations.md)
-* About deprecating the Classic UI, see [AEM 6.4 Release Notes](/help/release-notes/deprecated-removed-features.md)
-* For difference between the UIs, see [Touch UI and Classic UI](https://aemcq5pedia.wordpress.com/2018/01/05/touch-enabled-ui-aem6-3/)
-* To understand the Touch-enabled UI in detail, see [Concepts of AEM Touch UI](/help/sites-developing/touch-ui-concepts.md)
+>[!MORELIKETHIS]
+>
+>* [UI recommendations](/help/sites-deploying/ui-recommendations.md)
+>* About deprecating the Classic UI, see [AEM 6.4 Release Notes](/help/release-notes/deprecated-removed-features.md)
+>* For difference between the UIs, see [Touch UI and Classic UI](https://aemcq5pedia.wordpress.com/2018/01/05/touch-enabled-ui-aem6-3/)
+>* To understand the Touch-enabled UI in detail, see [Concepts of AEM Touch UI](/help/sites-developing/touch-ui-concepts.md)
 
 ## Various modes of editing {#editingmodes}
 
@@ -96,7 +89,7 @@ When opened (with a slow double-tap/click) the content can be edited within the 
 
 ![Inline editing with basic toolbar in Touch-enabled UI](assets/chlimage_1-405.png)
 
-**Figure:** *Inline editing with basic toolbar in Touch-enabled UI*
+*Figure: Inline editing with basic toolbar in Touch-enabled UI*
 
 In Classic UI, a slow double-click on the component allows inline editing and an orange outline highlights the content. If the Content Finder is open, a toolbar with the available RTE formatting options is displayed at the top of the window. If the Content Finder is not open, the formatting options are not displayed and you can do basic text edits only.
 
@@ -108,19 +101,19 @@ The dialog full screen mode provides, a detailed RTE toolbar and the options and
 
 ![The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI](assets/chlimage_1-406.png)
 
-**Figure:** *The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI*
+*Figure: The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI*
 
 ### Dialog editing {#dialog-editing}
 
-When a component is double-clicked in Classic UI, a dialog box opens for editing the contents. The dialog box opens on top of the existing page. In some specific scenarios, the dialog opens as a pop-up window. For example, when a Text component is part of a column in a multicolumn page layout and the area available for the dialog is less.
+When a component is double-clicked in Classic UI, a dialog box opens for editing the contents. The dialog box opens on top of the existing page. In some specific scenarios, the dialog opens as a pop-up window. For example, when a Text component is part of a column in a multi-column page layout and the area available for the dialog is less.
 
 ![Dialog editing mode in Touch-enabled UI](assets/dialog_editing_modetouchui.png)
 
-**Figure:** *Dialog editing mode in Touch-enabled UI*
+*Figure: Dialog editing mode in Touch-enabled UI*
 
 ![Dialog box in Classic UI that contains detailed toolbar for editing](assets/chlimage_1-407.png)
 
-**Figure:** *Dialog box in Classic UI that contains detailed toolbar for editing*
+*Figure: Dialog box in Classic UI that contains detailed toolbar for editing*
 
 ## About RTE plug-ins and the associated features {#aboutplugins}
 

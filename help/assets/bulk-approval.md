@@ -104,4 +104,3 @@ After the reviewer completes the review (approves or rejects assets), you receiv
    **List view**
 
    ![collection_reviewstatuslistview](assets/collection_reviewstatuslistview.png)
-
