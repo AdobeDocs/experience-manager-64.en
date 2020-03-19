@@ -33,8 +33,8 @@ discoiquuid: d0249609-2a9c-4d3b-92ee-dbc5fbdeaac6
 
 * If not using the default ports (4502, 4503), then [configure replication agents](#replication-agents-on-author)
 * [replicate the crypto key](#replicate-the-crypto-key)
-* If supporting globalization, [setup automated translation](../../help/sites-administering/translation.md)  
-  
+* If supporting globalization, [setup automated translation](../../help/sites-administering/translation.md)
+
   (sample setup is provided for development)
 
 **For the [Communities capability](overview.md)**
@@ -128,11 +128,11 @@ The necessary steps are:
 
 1. Repeat steps 3 and 4 on all author and publish instances
 
-Further information on installing bundles is found on the [Web Console](../../help/sites-deploying/configuring-web-console.md#bundles) page.
+Further information on installing bundles is found on the [Web Console](/help/sites-deploying/web-console.md#bundles) page.
 
 #### Example: Installed MySQL Connector Bundle {#example-installed-mysql-connector-bundle}
 
-![chlimage_1-410](assets/chlimage_1-410.png) 
+![chlimage_1-410](assets/chlimage_1-410.png)
 
 ### SCORM Package {#scorm-package}
 
@@ -168,7 +168,7 @@ Existing SCORM installations can be upgraded to [**cq-social-scorm-package, vers
 1. Install the **[cq-social-scorm-package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg).**
 1. Download the package from `/libs/social/config/scorm/ScormEngine.zip` and extract the same.
 1. Go to **Installer** folder of the extracted directory.
-1. Update `SystemDatabaseConnectionString` with your `scorm db connection url` in file **[!UICONTROL EngineInstall.xml]**.  
+1. Update `SystemDatabaseConnectionString` with your `scorm db connection url` in file **[!UICONTROL EngineInstall.xml]**.
 1. Run mysql schema upgrade tool in Installer folder with the command:
 
     `java -Dlogback.configurationFile=logback.xml -cp "lib/*" RusticiSoftware.ScormContentPlayer.Logic.Upgrade.ConsoleApp EngineInstall.xml`
@@ -286,11 +286,11 @@ The following images show the results of changing the port from 4503 to 6103 by:
 
 #### Default Agent (publish) {#default-agent-publish}
 
-![chlimage_1-412](assets/chlimage_1-412.png) 
+![chlimage_1-412](assets/chlimage_1-412.png)
 
 #### Reverse Replication Agent (publish reverse) {#reverse-replication-agent-publish-reverse}
 
-![chlimage_1-413](assets/chlimage_1-413.png) 
+![chlimage_1-413](assets/chlimage_1-413.png)
 
 ### Tunnel Service on Author {#tunnel-service-on-author}
 
@@ -302,7 +302,7 @@ To enable the tunnel service:
 
 * On **author**
 * Sign in with administrative privileges
-* If publisher is not localhost:4503 or transport user is not `admin`,  
+* If publisher is not localhost:4503 or transport user is not `admin`,
 
   Then [configure the replication agent](#replication-agents-on-author)
 
@@ -315,7 +315,7 @@ To enable the tunnel service:
 * Check the **[!UICONTROL enable]** box
 * Select **[!UICONTROL Save]**
 
-![chlimage_1-414](assets/chlimage_1-414.png) 
+![chlimage_1-414](assets/chlimage_1-414.png)
 
 ### Replicate the Crypto Key {#replicate-the-crypto-key}
 
@@ -327,14 +327,14 @@ In order to copy the key material from author to all other instances, it is nece
 
 * Access the AEM instance, typically an author instance, that contains the key material to copy
 
-    * Locate the `com.adobe.granite.crypto.file` bundle in the local file system  
+    * Locate the `com.adobe.granite.crypto.file` bundle in the local file system
 
       For example,
 
         * `<author-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21`
         * The `bundle.info` file will identify the bundle
 
-    * Navigate into the data folder 
+    * Navigate into the data folder
 
       For example,
 
@@ -344,7 +344,7 @@ In order to copy the key material from author to all other instances, it is nece
 
 * For each target AEM instance
 
-    * Navigate into the data folder  
+    * Navigate into the data folder
 
       For example,
 
@@ -378,7 +378,7 @@ Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
 * [refresh the Granite Crypto bundle](#refresh-the-granite-crypto-bundle)
 
-![chlimage_1-415](assets/chlimage_1-415.png) 
+![chlimage_1-415](assets/chlimage_1-415.png)
 
 #### Refresh the Granite Crypto Bundle {#refresh-the-granite-crypto-bundle}
 
@@ -391,7 +391,7 @@ Using [CRXDE Lite](../../help/sites-developing/developing-with-crxde-lite.md):
 
 ![chlimage_1-416](assets/chlimage_1-416.png)
 
-* After a moment, a **Success** dialog should appear:  
+* After a moment, a **Success** dialog should appear:
 
   `Operation completed successfully.`
 

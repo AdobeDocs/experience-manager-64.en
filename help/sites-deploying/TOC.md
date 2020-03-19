@@ -53,6 +53,7 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Assets Performance Guide](assets-performance-sizing.md)
     + [Configuration How-To Articles](ht-deploy.md)
     + [Removing the Geometrixx Sites](removing-the-geometrixx-sites.md)
+    + [Configuring Web Console](configuring-web-console.md)
 + Upgrading to AEM 6.4 {#upgrading}
     + [Upgrading to AEM 6.4](upgrade.md)
     + [Planning Your Upgrade](upgrade-planning.md)

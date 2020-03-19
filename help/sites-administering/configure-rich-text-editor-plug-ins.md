@@ -1,15 +1,7 @@
 ---
 title: Configure the Rich Text Editor plug-ins
-seo-title: Configure the Rich Text Editor plug-ins
 description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
-seo-description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
-uuid: d6a029fb-e431-4f12-9002-7d794e4beb0d
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: operations
-content-type: reference
-discoiquuid: e0328f9c-26c6-4c40-8594-3190c38cebd8
-noindex: true
+contentOwner: AG
 ---
 
 # Configure the Rich Text Editor plug-ins {#configure-the-rich-text-editor-plug-ins}
