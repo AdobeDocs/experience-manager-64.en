@@ -22,7 +22,7 @@ discoiquuid: cc97a926-d893-46a9-8aea-b56cbee5df01
 
 >[!NOTE]
 >
->Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with [AEM](/help/sites-deploying/deploy.md). 
+>Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with [AEM](/help/sites-deploying/deploy.md).
 >
 >To Set up your environment for AEM Mobile On-Demand Services, see [AEM Mobile Application Dashboard or the Control Center](/help/mobile/mobile-apps-ondemand-application-dashboard.md).
 
@@ -34,7 +34,7 @@ An AEM developer is responsible for the following tasks while creating an app us
 * [Mobile with Content Sync](/help/mobile/mobile-ondemand-contentsync.md)
 * [Content Properties and Content Exporting](/help/mobile/on-demand-content-properties-exporting.md)
 
-See [Developing AEM Mobile Content Services](//help/mobile/developing-content-services.md) for developing Content Services.
+See [Developing AEM Mobile Content Services](/help/mobile/developing-content-services.md) for developing Content Services.
 
 >[!NOTE]
 >

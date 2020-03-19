@@ -1,8 +1,8 @@
 ---
 title: PhoneGap
 seo-title: Authoring Content for Adobe PhoneGap Enterprise
-description: This page serves as starting point for developing apps using PhoneGap Enterprise with AEM. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. PhoneGap allows the user to create utility apps that lets user to work with the content. 
-seo-description: This page serves as starting point for developing apps using PhoneGap Enterprise with AEM. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. PhoneGap allows the user to create utility apps that lets user to work with the content. 
+description: This page serves as starting point for developing apps using PhoneGap Enterprise with AEM. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. PhoneGap allows the user to create utility apps that lets user to work with the content.
+seo-description: This page serves as starting point for developing apps using PhoneGap Enterprise with AEM. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. PhoneGap allows the user to create utility apps that lets user to work with the content.
 uuid: c6ac02fa-d41c-4b57-95d8-171a96540dd6
 contentOwner: User
 content-type: reference
@@ -31,7 +31,7 @@ The following resources will help you get started with AEM Mobile using Adobe Ph
 * [AEM Mobile Content Services: An Overview](/help/mobile/develop-content-as-a-service.md)
 
     * To enable Content Services and Data Models, see [Administering Content Services](/help/mobile/developing-content-services.md)
-    * To learn about Creating Models, see [Developing Models](/help/mobile/models-in-repository.md)
+    * To learn about Creating Models, see [Developing Models](/help/mobile/administer-mobile-apps.md)
     * To learn about Rendering and Delivery, see [Rendering and Delivery of Content Services](/help/mobile/rendering-and-delivery.md)
 
 >[!NOTE]

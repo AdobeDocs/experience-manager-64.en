@@ -4441,39 +4441,38 @@ The GeneratePDFService provides APIs to convert various file formats such as .do
 
 #### PDF Generator API available on Microsoft Windows and Linux {#pdf-generator-api-available-on-microsoft-windows-and-linux}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>API</strong></td> 
-   <td><p><strong>Microsoft Windows </strong></p> </td> 
-   <td><strong>Linux </strong></td> 
-  </tr> 
-  <tr> 
-   <td>createPDF</td> 
-   <td><strong>✓</strong></td> 
-   <td><strong>✓</strong></td> 
-  </tr> 
-  <tr> 
-   <td>exportPDF</td> 
-   <td><strong>✓</strong></td> 
-   <td><strong>✓</strong></td> 
-  </tr> 
-  <tr> 
-   <td>optimizePDF</td> 
-   <td><strong>✓</strong></td> 
-   <td>✖</td> 
-  </tr> 
-  <tr> 
-   <td>exportPDF</td> 
-   <td><strong>✓</strong></td> 
-   <td>✖</td> 
-  </tr> 
-  <tr> 
-   <td>OCR PDF (searchable PDF)</td> 
-   <td><strong>✓</strong></td> 
-   <td>✖</td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <td><strong>API</strong></td>
+   <td><p><strong>Microsoft Windows </strong></p> </td>
+   <td><strong>Linux </strong></td>
+  </tr>
+  <tr>
+   <td>createPDF</td>
+   <td><strong>✓</strong></td>
+   <td><strong>✓</strong></td>
+  </tr>
+  <tr>
+   <td>htmlToPDF</td>
+   <td><strong>✓</strong></td>
+   <td><strong>✓</strong></td>
+  </tr>
+   <td>optimizePDF</td>
+   <td><strong>✓</strong></td>
+   <td>✖</td>
+  </tr>
+  <tr>
+   <td>exportPDF</td>
+   <td><strong>✓</strong></td>
+   <td>✖</td>
+  </tr>
+  <tr>
+   <td>OCR PDF (searchable PDF)</td>
+   <td><strong>✓</strong></td>
+   <td>✖</td>
+  </tr>
+ </tbody>
 </table>
 
 #### createPDF {#createpdf}
