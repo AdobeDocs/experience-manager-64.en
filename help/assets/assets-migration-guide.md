@@ -6,7 +6,7 @@ contentOwner: AG
 
 # Assets migration guide {#assets-migration-guide}
 
-When migrating assets into AEM, there are several steps to consider. Extracting assets and metadata out of their current home is outside the scope of this document as it varies widely between implementations, but this document describes how to bring these assets into AEM, apply their metadata, generate renditions, and activate them to publish instances.
+When migrating assets into AEM, there are several steps to consider. Extracting assets and metadata out of their current home is outside the scope of this document as it varies widely between implementations. Instead, this document describes how to bring these assets into AEM, apply their metadata, generate renditions, and activate or publish the assets.
 
 ## Prerequisites {#prerequisites}
 
@@ -14,7 +14,7 @@ Before performing any of the steps described below, review and implement the gui
 
 >[!NOTE]
 >
->The following asset migration tools are not part of Adobe Experience Manager and are not supported by Adobe Customer Care:
+>The following asset migration tools are not part of Adobe Experience Manager. Adobe Customer Care does not support these tools.
 >
 >* ACS AEM Tools Tag Maker
 >* ACS AEM Tools CSV Asset Importer
@@ -39,15 +39,15 @@ Migrating assets to AEM requires several steps and should be viewed as a phased 
 
 ### Disable workflows {#disable-workflows}
 
-Before starting your migration, disable your launchers for the DAM Update Asset workflow. It is best to ingest all of the assets into the system and then run the workflows in batches. If you are already live while the migration is taking place, you can schedule these activities to run on off-hours.
+Before you start a migration, disable the launchers for the `DAM Update Asset` workflow. It is best to ingest all assets into the system and then run the workflows in batches. If you are already live while the migration is taking place, you can schedule these activities to execute during off-hours.
 
 ### Load tags {#load-tags}
 
-You may already have a tag taxonomy in place that you are applying to your images. While tools like the CSV Asset Importer and the support for metadata profiles can automate the process of applying tags to assets, the tags need to be loaded into the system. The [ACS AEM Tools Tag Maker](https://adobe-consulting-services.github.io/acs-aem-tools/features/tag-maker/index.html) feature lets you populate tags by using a Microsoft Excel spreadsheet that is loaded into the system.
+You may already have a tag taxonomy in place that you are applying to your images. Tools such as the CSV Asset Importer and the metadata profiles functionality can help automate application of tags to assets. Before this, add the tags in Experience Manager. The [ACS AEM Tools Tag Maker](https://adobe-consulting-services.github.io/acs-aem-tools/features/tag-maker/index.html) feature lets you populate tags by using a Microsoft Excel spreadsheet that is loaded into the system.
 
 ### Ingest assets {#ingest-assets}
 
-Performance and stability are important concerns when ingesting assets into the system. Because you are loading a large amount of data into the system, you want to make sure that the system performs as well as it can to minimize the amount of time required and to avoid overloading the system, which can lead to a system crash, especially in systems that already are in production.
+Performance and stability are important concerns when ingesting assets into the system. When loading a lot of data in Experience Manager, ensure that the system performs well. This minimized the time required to add the data and helps to avoid overloading the system. This helps prevent system crash, especially in systems that already are in production.
 
 There are two approaches to loading the assets into the system: a push-based approach using HTTP or a pull-based approach using the JCR APIs.
 
@@ -57,7 +57,7 @@ Adobe’s Managed Services team uses a tool called Glutton to load data into cus
 
 There are two main downsides to using the approach of pushing through https:
 
-1. The assets need to be transmitted over HTTP to the server. This requires quite a bit of overhead and is time-consuming, thus lengthening the time that it takes to perform your migration. 
+1. Transmit the assets over HTTP to the server. This requires quite a bit of overhead and is time-consuming, thus lengthening the time that it takes to perform your migration. 
 1. If you have tags and custom metadata that must be applied to the assets, this approach requires a second custom process that you need to run to apply this metadata to the assets once they have been imported.
 
 The other approach to ingesting assets is to pull assets from the local file system. However, if you cannot get an external drive or network share mounted to the server to perform a pull-based approach, posting the assets over HTTP is the best option.
@@ -66,7 +66,7 @@ The other approach to ingesting assets is to pull assets from the local file sys
 
 The [ACS AEM Tools CSV Asset Importer](https://adobe-consulting-services.github.io/acs-aem-tools/features/csv-asset-importer/index.html) pulls assets from the file system and asset metadata from a CSV file for the asset import. The AEM Asset Manager API is used to import the assets into the system and apply the configured metadata properties. Ideally, assets are mounted on the server via a network file mount or through an external drive.
 
-Because assets do not need to be transmitted over a network, overall performance improves dramatically and this method is generally considered to be the most efficient way to load assets into the repository. Additionally, because the tool supports metadata ingestion, you can import all assets and metadata in a single step rather than also create a second step to apply the metadata through a separate tool.
+When assets are not transmitted over a network the overall performance improves a lot. This method is usually the most efficient method to load assets into the repository. Additionally, you can import all assets and metadata in a single step as the tool supports metadata ingestion. No other step is required to apply the metadata, say using a separate tool.
 
 ### Process renditions {#process-renditions}
 
