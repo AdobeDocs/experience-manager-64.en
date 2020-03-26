@@ -17,7 +17,7 @@ To configure SSL on JBoss Application Server, you need an SSL credential for aut
 
 You can run keytool by using a single command that includes all of the information needed to create the keystore.
 
-In this procedure:
+In this procedure: 
 
 * *[appserver root]* is the home directory of the application server running AEM forms.
 * *[type]* is a folder name that varies, depending on the type of install you performed.
