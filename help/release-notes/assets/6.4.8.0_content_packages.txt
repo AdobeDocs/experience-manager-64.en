@@ -1,6 +1,5 @@
 SUBPACKAGE                                          VERSION             
-----------                                          -------             
-aem-bundle-remover-content                          1.0.2               
+----------                                          -------              
 aemds-guide-content                                 5.1.14              
 com.adobe.granite.backup.content                    0.0.76              
 com.adobe.granite.platform.clientlibs               2.1.26-CQ640-B0010  
