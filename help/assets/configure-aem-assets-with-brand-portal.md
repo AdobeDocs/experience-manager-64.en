@@ -14,11 +14,13 @@ Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Ad
    >
    >Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. 
    >
-   >If you are an existing Brand Portal user with configuration on legacy OAuth Gateway, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
+
+>[!TIP]
    >
-   >If you are an existing Brand Portal user with configuration on legacy OAuth Gateway, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
+   >***For existing customers only*** 
    >
-   >However, the existing configuration will continue to work if you do not modify the configurations.
+   >It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
+   >
 
 This help describes the following two use-cases: 
 * [New configuration](#configure-new-integration-64): If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration on Adobe I/O. 
