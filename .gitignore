@@ -1,4 +1,5 @@
-
 .DS_Store
-help/.DS_Store
-.DS_Store
+.Trashes
+.Spotlight-V100
+settings.json
+Thumbs.db
