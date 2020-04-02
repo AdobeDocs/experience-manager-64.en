@@ -182,10 +182,27 @@ This section lists features and capabilities that have been removed from AEM 6.4
    <td>Support for images inside document fragments has been removed. </td> 
    <td>Interactive communications provides the capability to use images in print and web channels directly.<br /> </td> 
   </tr>
+    <tr>
+   <td>Forms</td> 
+   <td> Out of the place upgrade </td> 
+   <td>Support to perform out of the place upgrade is not available <br/> </td> 
+  </tr>
+  <tr>
+  <tr>
+   <td>Forms</td> 
+   <td> Sidegrade for TarMK to DocumentMK migrations </td> 
+   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see [AEM Forms on JEE upgrade documentation](../forms/toc.md) <br/> </td> 
+  </tr>
+  <tr>
+    <tr>
+   <td>Forms</td> 
+   <td> Sidegrade for TarMK to DocumentMK migrations </td> 
+   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see [AEM Forms on JEE upgrade documentation](../forms/toc.md) <br/> </td> 
+  </tr>
   <tr>
    <td>Communities</td> 
-   <td>Support for Captcha verification has been removed.</td> 
-   <td>Use custom captcha integration (such as reCAPTCHA by Google) for verification.</td> 
+   <td>AEM Forms on JEE 32-bit installer not available.</td> 
+   <td>Adobe has stopped shipping AEM Forms on JEE 32-bit installer. You can continue using 64-bit installer to install AEM Forms on JEE. </td> 
   </tr>
  </tbody>
 </table>
