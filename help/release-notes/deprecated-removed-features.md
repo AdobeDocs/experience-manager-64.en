@@ -191,7 +191,7 @@ deprecated.
   <tr>
    <td>Forms</td> 
    <td> Sidegrade for TarMK to DocumentMK migrations </td> 
-   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see <a href="help/forms/toc.md">AEM Forms on JEE upgrade documentation</a> <br/> </td> 
+   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see <a href="../forms/toc.md">AEM Forms on JEE upgrade documentation</a> <br/> </td> 
   </tr>
     <tr>
    <td>Forms</td> 
@@ -203,6 +203,12 @@ deprecated.
     <td>Removed support for using DAM images in Document Fragment Component.</td> 
     <td> You can use Image and Chart component in interactive communication's print channel. If you are using adaptive document's document fragment component in adaptive forms, it stops working after upgrading to AEM 6.4 Forms. </td>  
   </tr>
+  <tr>
+   <td>Forms</td> 
+   <td> Removed the Adaptive Documents feature</td> 
+   <td> You can use the <a href="../forms/using/interactive-communications-overview.md"> interactive communications </a> feature to create printed and web-based communications. <br/> </td> 
+  </tr>
+
   <tr>
    <td>Communities</td> 
    <td>Support for Captcha verification has been removed.</td> 
