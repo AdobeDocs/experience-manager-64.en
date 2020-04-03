@@ -191,7 +191,7 @@ deprecated.
   <tr>
    <td>Forms</td> 
    <td> Sidegrade for TarMK to DocumentMK migrations </td> 
-   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see <a href="../forms/toc.md">AEM Forms on JEE upgrade documentation</a> <br/> </td> 
+   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see AEM Forms on JEE upgrade documentations <br/> </td> 
   </tr>
     <tr>
    <td>Forms</td> 
@@ -206,9 +206,18 @@ deprecated.
   <tr>
    <td>Forms</td> 
    <td> Removed the Adaptive Documents feature</td> 
-   <td> You can use the <a href="../forms/using/interactive-communications-overview.md"> interactive communications </a> feature to create printed and web-based communications. <br/> </td> 
+   <td> You can use the interactive communications feature to create printed and web-based communications. <br/> </td> 
   </tr>
-
+    <tr>
+    <td>Forms</td> 
+    <td>Removed AEM Forms on JEE specific landing page.</td> 
+    <td>AEM Forms on JEE landing page is replaced with AEM landing page (/aem/start.html) </td>  
+  </tr>
+   <tr>
+   <td>Forms</td> 
+   <td>Removed support for default Captcha</td> 
+   <td>Use reCAPTCHA service by Google.</td> 
+  </tr>
   <tr>
    <td>Communities</td> 
    <td>Support for Captcha verification has been removed.</td> 
