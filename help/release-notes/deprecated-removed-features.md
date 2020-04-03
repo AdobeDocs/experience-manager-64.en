@@ -118,7 +118,8 @@ Customers are advised to review if they make use of the feature/capability in th
 
 ## Removed Features {#removed-features}
 
-This section lists features and capabilities that have been removed from AEM 6.4. Prior releases had these capabilites marked as depreacted.
+This section lists features and capabilities that have been removed from AEM 6.4. Prior releases had these capabilites marked as 
+deprecated.
 
 <table> 
  <tbody>
@@ -188,21 +189,24 @@ This section lists features and capabilities that have been removed from AEM 6.4
    <td>Support to perform out of the place upgrade is not available <br/> </td> 
   </tr>
   <tr>
-  <tr>
    <td>Forms</td> 
    <td> Sidegrade for TarMK to DocumentMK migrations </td> 
-   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see [AEM Forms on JEE upgrade documentation](../forms/toc.md) <br/> </td> 
+   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see <a href="help/forms/toc.md">AEM Forms on JEE upgrade documentation</a> <br/> </td> 
   </tr>
-  <tr>
     <tr>
    <td>Forms</td> 
-   <td> Sidegrade for TarMK to DocumentMK migrations </td> 
-   <td> You can export the data from older system and then import in a freshly setup system. For detailed instructions, see [AEM Forms on JEE upgrade documentation](../forms/toc.md) <br/> </td> 
+ <td>AEM Forms on JEE 32-bit installer not available.</td> 
+   <td>Adobe has stopped shipping AEM Forms on JEE 32-bit installer. You can continue using 64-bit installer to install AEM Forms on JEE. </td>  
+  </tr>
+    <tr>
+    <td>Forms</td> 
+    <td>Removed support for using DAM images in Document Fragment Component.</td> 
+    <td> You can use Image and Chart component in interactive communication's print channel. If you are using adaptive document's document fragment component in adaptive forms, it stops working after upgrading to AEM 6.4 Forms. </td>  
   </tr>
   <tr>
    <td>Communities</td> 
-   <td>AEM Forms on JEE 32-bit installer not available.</td> 
-   <td>Adobe has stopped shipping AEM Forms on JEE 32-bit installer. You can continue using 64-bit installer to install AEM Forms on JEE. </td> 
+   <td>Support for Captcha verification has been removed.</td> 
+   <td>Use custom captcha integration (such as reCAPTCHA by Google) for verification.</td> 
   </tr>
  </tbody>
 </table>
