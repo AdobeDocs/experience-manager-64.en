@@ -511,7 +511,7 @@ If the following is visible in the log :
 
 `java.lang.IllegalStateException: This tree does not exist`
 
-Then verify that the section [2. Create Authorized User](/content/docs/en/aem/6-1/administer/security/security/sync.md#2. create authorized user) was properly followed.
+Then verify that the section [2. Create Authorized User](#createauthuser) was properly followed.
 
 This section describes creating an authorized user, who exists on all publish instances, and identifying them in the 'Secret Provider' OSGi config on author. By default, the user is `admin`.
 
