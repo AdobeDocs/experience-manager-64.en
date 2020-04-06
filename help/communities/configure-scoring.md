@@ -146,10 +146,10 @@ The screen shots of repository data come from setting up scoring and badging for
 
     * Add scoring and badging properties
 
-        * scoringRules = [/etc/community/scoring/rules/comments-scoring,
-          /etc/community/scoring/rules/forums-scoring]
-        * badgingRules =[/etc/community/badging/rules/comments-scoring,
-          /etc/community/badging/rules/forums-scoring]
+        * `scoringRules = [/etc/community/scoring/rules/comments-scoring,
+          /etc/community/scoring/rules/forums-scoring]`
+        * `badgingRules =[/etc/community/badging/rules/comments-scoring,
+          /etc/community/badging/rules/forums-scoring]`
 
     * Locate the forum component node
 
