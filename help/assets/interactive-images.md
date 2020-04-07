@@ -61,7 +61,7 @@ The tutorial helps to illustrate the steps of integrating interactive images on 
 
 1. **Adding an interactive image to your website or to your website in AEM**
 
-   * If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive image directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)
+   * If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive image directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages](adding-dynamic-media-assets-to-pages.md).
    * If you use AEM Assets and Dynamic Media standalone, you must copy the embed code on your website and then integrate it with your existing Quickview. See [Integrating an interactive image with your website](#integrating-an-interactive-image-with-your-website).
    * If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive image with an existing Quickview](#integrating-an-interactive-image-with-an-existing-quickview).
 
