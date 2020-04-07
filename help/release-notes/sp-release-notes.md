@@ -1692,7 +1692,7 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 * Added ARIA support to Print and PrintDialog.
 * Added email validation ARIA support.
 * Proactive Backport for platform.clientlibs fixes.
-* Prevention of auto-execution of scripts when there is no input to the explicit dataType.
+* Prevention of auto-execution of scripts when there is no input to the explicit dataType (resolves CVE-2015-9251).
   
 **Assets**
   
