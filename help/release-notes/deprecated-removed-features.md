@@ -206,12 +206,17 @@ deprecated.
   <tr>
    <td>Forms</td> 
    <td> Removed the Adaptive Documents feature</td> 
-   <td> You can use the interactive communications feature to create printed and web-based communications. <br/> </td> 
+   <td> You can use the interactive communications feature to create printed and web-based communications. If you use Adaptive Documents, install the compatibility package to continue using existing adaptive documents<br/> </td> 
   </tr>
     <tr>
     <td>Forms</td> 
     <td>Removed AEM Forms on JEE specific landing page.</td> 
     <td>AEM Forms on JEE landing page is replaced with AEM landing page (/aem/start.html) </td>  
+  </tr>
+   <tr>
+   <td>Forms</td> 
+   <td>Removed support for default Captcha</td> 
+   <td>Use reCAPTCHA service by Google.</td> 
   </tr>
    <tr>
    <td>Forms</td> 
