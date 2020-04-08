@@ -92,7 +92,7 @@ Customers are advised to review if they make use of the feature/capability in th
   </tr>
   <tr>
    <td>Portal Director</td> 
-   <td><p>The Portal Director is a set of features, that enables the hosting of AEM content via Portlet in 3rd party servers.</p> <p>Adobe does not plan to make further enhancements to the Portal Dirtector feature under the location listed below. AEM 6.4 has the Portal Director included, and customers upgrading from earlier releases can keep using it as is. Note that Portal Direct remains fully supported while being deprecated.</p> 
+   <td><p>The Portal Director is a set of features, that enables the hosting of AEM content via Portlet in 3rd party servers.</p> <p>Adobe does not plan to make further enhancements to the Portal Director feature under the location listed below. AEM 6.4 has the Portal Director included, and customers upgrading from earlier releases can keep using it as is. Note that Portal Direct remains fully supported while being deprecated.</p> 
     <ul> 
      <li>/libs/portal/director</li> 
     </ul> </td> 
@@ -106,7 +106,14 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr>
    <td>Forms</td> 
    <td><p>Support for Adobe Central Migration Bridge service has been deprecated as Adobe Central product is no longer supported.</p> </td> 
-   <td> </td> 
+   <td>No replacement </td> 
+  </tr>
+    <tr>
+   <td>Forms</td> 
+   <td><p>Deprecated use of JSONObject in Query and OperationOptions. The following APIs are deprecated:
+   <ul><li>setArguments(JSONObject arguments)</li><li>JSONObject getArguments()</li><li>OperationOptions(String operationId, JSONObject arguments</li><li>JSONObject getArguments()</li><li>void setArguments(JSONObject arguments)</li></ul>
+   </p> </td> 
+   <td>Use the IValueMap API </td> 
   </tr>
   <tr>
    <td>Assets</td> 
