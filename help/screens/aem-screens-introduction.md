@@ -39,11 +39,7 @@ To create a demo Screens project and publish your content in Screens player, see
 
 ## Starting a New AEM Screens Project {#starting-a-new-aem-screens-project}
 
-Starting a new digital signage experience requires a cohesion of roles before it is ready for consumption. The following roles provide a starting point for creating a new Screens project:
-
-* [Author](authoring-screens.md)
-* [Developer](developing-screens.md)
-* [System Administrator/Technician](administering-screens.md)
+Starting a new digital signage experience requires a cohesion of roles before it is ready for consumption. 
 
 The following figure defines the personas and their roles for AEM Screens.
 
@@ -51,7 +47,7 @@ The following figure defines the personas and their roles for AEM Screens.
 
 >[!NOTE]
 >
->*Additionally, to view different responsibilies as per the roles, click the personas mentioned above.*
+>*Additionally, to view different responsibilities as per the roles, click the personas mentioned above.*
 
 ## Pre-requisite Knowledge {#prerequisite-knowledge}
 

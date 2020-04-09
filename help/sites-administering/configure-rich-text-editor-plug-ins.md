@@ -1,15 +1,7 @@
 ---
 title: Configure the Rich Text Editor plug-ins
-seo-title: Configure the Rich Text Editor plug-ins
 description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
-seo-description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
-uuid: d6a029fb-e431-4f12-9002-7d794e4beb0d
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: operations
-content-type: reference
-discoiquuid: e0328f9c-26c6-4c40-8594-3190c38cebd8
-noindex: true
+contentOwner: AG
 ---
 
 # Configure the Rich Text Editor plug-ins {#configure-the-rich-text-editor-plug-ins}
@@ -91,7 +83,9 @@ After activating a plug-in, follow these guidelines to configure the `features` 
 
 ## Understand the findreplace plug-in {#understand--findreplace-plugin}
 
-The `findreplace` plug-in does not need any configuration. It works as expected, out of the box.
+The `findreplace` plug-in does not need any configuration. It works out of the box.
+
+When using the replace functionality, the replace string to be replaced should be entered at the same time as find string. However you can still click find to search for the string before replacing it. If the replace string is entered after clicking find, the search is reset to the beginning of the text.
 
 The find and replace dialog becomes transparent when find is clicked and becomes opaque when replace is clicked. This allows the author to review the text that the author will replace. If users click replace all, the dialog closes and displays the number of replacements made.
 

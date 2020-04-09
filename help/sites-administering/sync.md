@@ -347,7 +347,7 @@ If the Sling ID is the same for multiple publish instances in a publish farm, th
 
 To validate that all Sling ID values differ, on each publish instance :
 
-1. browse to [https://*host:port*/system/console/status-slingsettings](http://localhost:4503/system/console/status-slingsettings)
+1. browse to `http://<host>:<port>/system/console/status-slingsettings`
 1. check the value of **Sling ID**
 
 ![chlimage_1-395](assets/chlimage_1-395.png)
@@ -511,7 +511,7 @@ If the following is visible in the log :
 
 `java.lang.IllegalStateException: This tree does not exist`
 
-Then verify that the section [2. Create Authorized User](/content/docs/en/aem/6-1/administer/security/security/sync.md#2. create authorized user) was properly followed.
+Then verify that the section [2. Create Authorized User](#createauthuser) was properly followed.
 
 This section describes creating an authorized user, who exists on all publish instances, and identifying them in the 'Secret Provider' OSGi config on author. By default, the user is `admin`.
 
