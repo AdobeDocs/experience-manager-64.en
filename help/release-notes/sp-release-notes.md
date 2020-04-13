@@ -96,6 +96,8 @@ Some key highlights of this service pack release are:
 
 * Adobe Campaign properties are not cleaned up when language copy of a newsletter linked to an Adobe Campaign is made, whereas clean up happens when a newsletter linked to an Adobe Campaign is copied or pasted (NPR-32540).
 
+* ReportSuitesServlet is vulnerable to SSRF (NPR-32161).
+
 ### Sling {#sling-6480}
 
 * Non-deterministic shadowing of resource observation is not working (CQ-4286466).
