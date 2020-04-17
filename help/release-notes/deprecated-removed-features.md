@@ -141,7 +141,7 @@ deprecated.
    <td>Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM.<br><br>The <a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html">ActivityMap plugin provided by Adobe Analytics</a> should now be used.</td> 
   </tr>
   <tr>
-   <td>Components</td> 
+   <td>Components-Forms</td> 
    <td>Form Captcha<br /> (foundation/components/form/captcha)</td> 
    <td>Use the ReCaptcha by Google component instead</td> 
   </tr>
@@ -182,11 +182,6 @@ deprecated.
   </tr>
   <tr>
    <td>Forms</td> 
-   <td>Support for default AEM Captcha service in adaptive forms has been removed. </td> 
-   <td>Use ReCaptcha by Google instead.</td> 
-  </tr>
-  <tr>
-   <td>Forms</td> 
    <td>Support for images inside document fragments has been removed. </td> 
    <td>Interactive communications provides the capability to use images in print and web channels directly.<br /> </td> 
   </tr>
@@ -219,11 +214,6 @@ deprecated.
     <td>Forms</td> 
     <td>Removed AEM Forms on JEE specific landing page.</td> 
     <td>AEM Forms on JEE landing page is replaced with AEM landing page (/aem/start.html) </td>  
-  </tr>
-   <tr>
-   <td>Forms</td> 
-   <td>Removed support for default Captcha</td> 
-   <td>Use reCAPTCHA service by Google.</td> 
   </tr>
    <tr>
    <td>Forms</td> 
