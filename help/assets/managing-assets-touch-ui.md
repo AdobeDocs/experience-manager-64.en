@@ -312,8 +312,6 @@ Some limitations of the feature are:
 
 ## Preview assets {#previewing-assets}
 
-See also [Previewing Dynamic Media Assets.](previewing-assets.md)
-
 **To preview assets**:
 
 1. From the Assets UI, navigate to the location of the asset you want to preview.
@@ -328,6 +326,11 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
    Tap the **[!UICONTROL Reset]** button to reset the view to the original size.
 
    ![chlimage_1-11](assets/chlimage_1-11.png)
+
+>[!MORELIKETHIS]
+>
+>* [Preview Dynamic Media Assets](/help/assets/previewing-assets.md).
+>* [View subassets](managing-linked-subassets.md#viewing-subassets).
 
 ## Edit properties {#editing-properties}
 
