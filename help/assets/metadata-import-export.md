@@ -4,39 +4,36 @@ description: This article describes how to import and export metadata in bulk.
 contentOwner: AG
 ---
 
-# Bulk Metadata Import and Export {#bulk-metadata-import-and-export}
+# Bulk metadata import and export {#bulk-metadata-import-and-export}
 
 AEM Assets lets you import asset metadata in bulk using a CSV file. You can do bulk updates for the recently uploaded assets or the existing assets by importing a CSV file. You can also ingest asset metadata in bulk from third-party system in CSV format.
 
 ## Import metadata {#import-metadata}
 
-The metadata import is asynchronous and does not impede the system performance. Simultaneous update of the metadata for multiple assets can be resource-intensive because of XMP writeback activity if workflow flag is checked. Plan such an import during lean server usage so that performance for other users is not impacted.
+The metadata import is asynchronous and does not impede the system performance. Simultaneous update of the metadata for multiple assets can be resource-intensive because of XMP writeback activity if workflow flag is checked. Plan such an import during lean server usage to prevent performance impact for other users.
 
 >[!NOTE]
 >
 >To import metadata on custom namespaces, first register the namespaces.
 
+To import metadata in bulk, follow these steps:
+
 1. Navigate to the Assets user interface, and tap/click **[!UICONTROL Create]** from the toolbar.
 1. From the menu, select **[!UICONTROL Metadata]**.
 1. On the **[!UICONTROL Metadata Import]** page, tap/click the **[!UICONTROL Select File]**.  Select the CSV file with the metadata.
-1. Specify the following parameters:
+1. Ensure that the CSV file contains the following parameters:
 
     | Metadata import parameters | Description |
     |:---|:---|
     | [!UICONTROL Batch Size] | Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100. |
-    | [!UICONTROL Field Separator] | Default value is Comma. You can specify any other character. |
-    | [!UICONTROL Multi Value Delimiter] | Separator for metadata values. Default value is |. |
-    | [!UICONTROL Launch Workflows] | False by default. When set to true and default Launcher settings are in effect for the DAM Metadata WriteBack Workflow (that writes metadata to the binary XMP data). Enabling launch workflows slows the system down. |
+    | [!UICONTROL Field Separator] | Default value is `,` &ndash; a comma. You can specify any other character. |
+    | [!UICONTROL Multi Value Delimiter] | Separator for metadata values. Default value is `|` &ndash; a pipe. |
+    | [!UICONTROL Launch Workflows] | False by default. When set to true and default Launcher settings are in effect for the `DAM Metadata WriteBack Workflow` (that writes metadata to the binary XMP data). Enabling launch workflows has a performance impact on the system. |
     | [!UICONTROL Asset Path Column Name] | Defines the column name for the CSV file with assets. |
 
 1. Tap/click **[!UICONTROL Import]** from the toolbar. After the metadata is imported, a notification is sent to your Notification inbox. Navigate to asset property page and verify whether the metadata values are correctly imported for assets.
 
-<!-- TBD: Format characters in the table using backticks and add UICONTROL after table is converted to MD
--->
-
 ## Export Metadata {#export-metadata}
-
-You can export metada for multiple assets in a CSV format. The metadata is exported asynchronously and does not impact the performance of the system. To export metadata, AEM traverses through the properties of the asset node `jcr:content/metadata` and its child nodes and exports the metadata properties in a CSV file.
 
 A few use cases for exporting metadata in bulk are:
 
@@ -45,14 +42,18 @@ A few use cases for exporting metadata in bulk are:
 * Test or audit the metadata for compliance.
 * Externalize the metadata for separate localization.
 
+You can export metadata for multiple assets in a CSV format. The metadata is exported asynchronously and does not impact the performance of the system. To export metadata, AEM traverses through the properties of the asset node `jcr:content/metadata` and its child nodes and exports the metadata properties in a CSV file.
+
+To export metadata of multiple assets in bulk, follow these steps:
+
 1. Select the asset folder that contains assets for which you want to export metadata. From the toolbar, select **[!UICONTROL Export metadata]**.
 
-1. In the Metadata Export dialog, specify a name for the CSV file. To export metadata for assets in subfolders, select **[!UICONTROL Include assets in sub-folders]**.
+1. In the [!UICONTROL Metadata Export] dialog, specify a name for the CSV file. To export metadata for assets in subfolders, select **[!UICONTROL Include assets in sub-folders]**.
 
    ![export_metadata_page](assets/export_metadata_page.png)
 
 1. Select the desired options. Provide a filename and if necessary a date.
-1. In the **[!UICONTROL Properties to be exported]** specify whether you want to export all or specific properties. If you choose **[!UICONTROL Selective]** properties to be exported, add the desired properties.
+1. In the **[!UICONTROL Properties to be exported]**, specify whether you want to export all or specific properties. If you choose **[!UICONTROL Selective]** properties to be exported, add the desired properties.
 
 1. From the toolbar, tap/click **[!UICONTROL Export]**. A message confirms that the metadata is exported. Close the message.
 

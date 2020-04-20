@@ -20,11 +20,8 @@ AEM supports both:
 
 >[!NOTE]
 >
->See also:
->
->* our [Quick Guide to WCAG 2.0](/help/managing/qg-wcag.md) for further details
->* [Creating accessible content (WCAG 2.0 conformance)](/help/sites-authoring/creating-accessible-content.md)  
->
+>* [Quick Guide to WCAG 2.0](/help/managing/qg-wcag.md)
+>* [Creating accessible content (WCAG 2.0 conformance)](/help/sites-authoring/creating-accessible-content.md)
 
 Content authors can use features of the RTE to provide accessibility information while adding content to a page. This can include adding structural information through headings and paragraph elements.
 
@@ -188,7 +185,7 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
    }
    ```
 
-1. Save your changes using **Save All …**
+1. Save your changes using **Save All**
 
 >[!NOTE]
 >
@@ -198,4 +195,3 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
 >
 >* The `itemId` property for each corresponding field is set to the name of the appropriate DOM attribute (`TablePropertiesDialog`).  
 >* The attribute is set and/or removed on the DOM element explicitly (`Table`).
-
