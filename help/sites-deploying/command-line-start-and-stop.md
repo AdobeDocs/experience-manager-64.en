@@ -118,4 +118,3 @@ If you just want to preconfigure the repository (without relocating it) you only
 * create `bootstrap.properties` and define `repository.config`
 
 Again, before starting the actual installation.  
-
