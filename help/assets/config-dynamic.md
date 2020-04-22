@@ -519,14 +519,14 @@ You can configure video reporting across multiple installations of AEM using Dyn
 
 **Get started:** Configure video reporting by completing the following three tasks.
 
-1. Create a Video Analytics preset package after you configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]** on the first Author node. This initial task is important because it allows a new configuration to continue using the same report suite.
-1. Install the Video Analytics preset package to any ***new*** Author node ***before*** you configure Dynamic Media Configuration (Pre 6.3).
+1. Create a [!DNL Video Analytics] preset package after you configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]** on the first Author node. This initial task is important because it allows a new configuration to continue using the same report suite.
+1. Install the [!DNL Video Analytics] preset package to any ***new*** Author node ***before*** you configure Dynamic Media Configuration (Pre 6.3).
 
 1. Verify and debug the package installation.
 
-### Creating a Video Analytics preset package after configuring the first Author node {#creating-a-video-analytics-preset-package-after-configuring-the-first-author-node}
+### Creating a [!DNL Video Analytics] preset package after configuring the first Author node {#creating-a-video-analytics-preset-package-after-configuring-the-first-author-node}
 
-When you have finished this task, you will have a package file that contains the Video Analytics presets. These presets contain a report suite, the tracking server, the tracking namespace, and the Marketing Cloud Organization ID, if available.
+When you have finished this task, you will have a package file that contains the [!DNL Video Analytics] presets. These presets contain a report suite, the tracking server, the tracking namespace, and the Marketing Cloud Organization ID, if available.
 
 1. If you have not already done so, configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**.
 1. (Optional) View and copy the **[!UICONTROL Report Suite ID]** (you must have access to the JCR). While having the **[!UICONTROL Report Suite ID]** is not required, it makes validation easier.
@@ -536,24 +536,24 @@ When you have finished this task, you will have a package file that contains the
    In AEM: `/conf/global/settings/dam/dm/presets/analytics/jcr:content/userdata`
 
 1. Build the package.
-1. Download or share the Video Analytics preset package so that it can be shared with subsequent new Author nodes.
+1. Download or share the [!DNL Video Analytics] preset package so that it can be shared with subsequent new Author nodes.
 
-### Installing the Video Analytics preset package before you configure additional Author nodes {#installing-the-video-analytics-preset-package-before-you-configure-additional-author-nodes}
+### Installing the [!DNL Video Analytics] preset package before you configure additional Author nodes {#installing-the-video-analytics-preset-package-before-you-configure-additional-author-nodes}
 
 Be sure that you complete this task _before_ you configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**. Failure to do so results in the creation of another unused report suite. In addition, even though video reporting will continue to work correctly, the gathering of data is not optimized.
 
-Make sure that the Video Analytics preset package from the first Author node is accessible on the new Author node.
+Make sure that the [!DNL Video Analytics] preset package from the first Author node is accessible on the new Author node.
 
-1. Upload the Video Analytics preset package that you created eariler to **[!UICONTROL Package Manager]**.
-1. Install the Video Analytics preset package.
+1. Upload the [!DNL Video Analytics] preset package that you created eariler to **[!UICONTROL Package Manager]**.
+1. Install the [!DNL Video Analytics] preset package.
 1. Configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**.
 
 ### Verifying and debugging the package installation {#verifying-and-debugging-the-package-installation}
 
 1. Do any one of the following to verify and, if necessary, debug the package installation:
 
-    * **Check the Video Analytics preset by way of the JCR** 
-      To check the Video Analytics preset by way of the JCR, you must have access to **[!UICONTROL CRXDE Lite]**.  
+    * **Check the [!DNL Video Analytics] preset by way of the JCR** 
+      To check the [!DNL Video Analytics] preset by way of the JCR, you must have access to **[!UICONTROL CRXDE Lite]**.  
   
       AEM - In **[!UICONTROL CRXDE Lite]**, navigate to `/conf/global/settings/dam/dm/presets/analytics/jcr:content/userdata  `
   
@@ -561,11 +561,11 @@ Make sure that the Video Analytics preset package from the first Author node is 
   
       If you do not have access to **[!UICONTROL CRXDE Lite]** on the Author node, you can check the preset through the Publish server.
 
-    * **Check the Video Analytics preset through the Image Server**
+    * **Check the [!DNL Video Analytics] preset through the Image Server**
 
-      You can validate the Video Analytics preset directly by making an Image Server `req=userdata` request.
+      You can validate the [!DNL Video Analytics] preset directly by making an Image Server `req=userdata` request.
 
-      For example, to see the Analytics preset on the Author node, you can make the following request:  
+      For example, to see the [!DNL Video Analytics] preset on the Author node, you can make the following request:  
   
       `http://localhost:4502/is/image/conf/global/settings/dam/dm/presets/analytics?req=userdata`  
   
@@ -578,7 +578,7 @@ Make sure that the Video Analytics preset package from the first Author node is 
        trackingServer=aemvideodal.d2.sc.omtrdc.net
       ```
 
-    * **Check the Video Analytics preset through the Video Reporting tool in AEM**
+    * **Check the [!DNL Video Analytics] preset through the Video Reporting tool in AEM**
 
       Tap **[!UICONTROL Tools > Assets > Video Reporting]** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
   
@@ -599,12 +599,12 @@ Make sure that the Video Analytics preset package from the first Author node is 
 ### Troubleshooting the video reporting configuration {#troubleshooting-the-video-reporting-configuration}
 
 * During installation, sometimes connections to the Analytics API server times out. The installation retries the connection 20 times, but it still fails. When this situation occurs, the log file records multiple errors. Search for `SiteCatalystReportService`.
-* Not installing the Analytics Preset package first can cause the creation of a new report suite.
+* Not installing the [!DNL Video Analytics] preset package first can cause the creation of a new report suite.
 * Upgrading from AEM 6.3 to AEM 6.4 or AEM 6.4.1, then configuring **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**, still creates a report suite. This issue is known and slated to be fixed for AEM 6.4.2.
 
-### About the Video Analytics preset {#about-the-video-analytics-preset}
+### About the [!DNL Video Analytics] preset {#about-the-video-analytics-preset}
 
-The Video Analytics preset—sometimes known simply as analytics preset--is stored next to the Viewer presets in Dynamic Media. It is basically the same as a Viewer preset but with information used to configure AppMeasurement and Video Heartbeat reporting.
+The [!DNL Video Analytics] preset—sometimes known simply as analytics preset--is stored next to the Viewer presets in Dynamic Media. It is basically the same as a Viewer preset but with information used to configure AppMeasurement and Video Heartbeat reporting.
 
 The preset’s properties are the following:
 
