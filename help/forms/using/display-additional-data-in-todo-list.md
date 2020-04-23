@@ -32,7 +32,7 @@ For more information about the JSON Object description, see [this](/help/forms/u
    For example change `/apps/ws/locales/en-US/translation.json` for English:
 
    ```
-   
+
    "task" : {
            "reminder" : {
                "value" : "Reminder",
@@ -109,7 +109,7 @@ For more information about the JSON Object description, see [this](/help/forms/u
 1. For example, add information inside the task block:
 
    ```
-   
+
    "stepname" : {
                "value" : "Step Name",
                "tooltip" : "This task belongs to __stepName__ step"
@@ -123,14 +123,13 @@ For more information about the JSON Object description, see [this](/help/forms/u
    For example add:
 
    ```css
-   
+
    .task .taskProperties .stepname{
        width: 25px;
        background: url(../images/stepname.png) no-repeat; /*-------- Or just reuse background image / image-sprite defined .task .taskProperties span of style.css---------------------*/
        background-position: 0px 0px; /*-------- Dummy values, need to be configured as per user background image / image-sprite ---------------------*/
    }
    ```
-   
 
 ## Adding entry in the HTML Template {#adding-entry-in-the-html-template}
 
@@ -146,8 +145,7 @@ Finally, you need to include an entry in the dev package for each property that 
    For example, add under `div class="taskProperties"`:
 
    ```
-   
+
    <span class="stepname" alt="<%= $.t('task.stepname.value')%>" title = '<%= $.t("task.stepname.tooltip",{stepName:stepName})%>'/>
-   
+
    ```
-   

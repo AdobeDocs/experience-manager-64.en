@@ -28,10 +28,9 @@ The organization logo is displayed at the upper-left corner of AEM Forms workspa
 1. Reference the new logo image in style sheet at /apps/ws/css/newStyle.css by adding following style.
 
    ```css
+
    #logo {
    
           background: url(../images/NewWorkspace.png) no-repeat 14px 11px; 
          }
    ```
-   
-   
