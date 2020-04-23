@@ -33,4 +33,4 @@ The assets for all the components are placed in the folder structure described b
 
 **util** Contains generic utilities usable by multiple components.
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
+****

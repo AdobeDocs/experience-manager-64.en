@@ -23,4 +23,4 @@ AEM Forms workspace is the brand new workspace. The following are some of the fe
 * Setting an approval container or custom container for a user task is not honored in AEM Forms workspace.
 * An option to search templates is available in the Tracking tab but not in the ToDo tab.
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
+****

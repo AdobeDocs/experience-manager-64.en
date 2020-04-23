@@ -26,4 +26,4 @@ AEM Forms workspace is compatible with more devices and form factors. It allows 
 * Extend business processes to both online and offline mobile workers with the AEM Forms workspace app.
 * View reports to monitor backlogs, work queues, and key performance indicators (KPIs). You can use APIs to extract data for further analysis using third-party reporting tools.
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
+****

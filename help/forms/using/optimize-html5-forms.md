@@ -77,4 +77,4 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
 
 1. To access the AEM server, use https://[Apache_server]:80.
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
+****

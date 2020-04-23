@@ -87,4 +87,4 @@ You can use AEM Forms workspace [components](/help/forms/using/description-reusa
    }
    ```
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
+****

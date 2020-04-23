@@ -207,4 +207,4 @@ To sort the task list table when you click the column heading:
        };
    ```
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
+****

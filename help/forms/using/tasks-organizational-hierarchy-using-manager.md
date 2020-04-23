@@ -114,4 +114,4 @@ The following screen illustrates accessing the tasks of direct reports and the a
 
 Access tasks of direct reports and act on the tasks
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+

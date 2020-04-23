@@ -76,4 +76,4 @@ As an example, to change the font of the top navigation bar anchor text to Couri
 ![change_font_after](assets/change_font_after.png)
 **Figure:** *Top navigation bar after font customization of first tab*
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+

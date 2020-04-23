@@ -42,4 +42,4 @@ Other forms are saved as draft in the Drafts tab. See [Saving a draft](/help/for
 
    You can tap **View Summary** to view additional instructions specified for the application.
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
+****

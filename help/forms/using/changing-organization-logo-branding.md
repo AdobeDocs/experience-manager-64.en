@@ -35,4 +35,4 @@ The organization logo is displayed at the upper-left corner of AEM Forms workspa
    }
    ```
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+

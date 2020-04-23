@@ -189,4 +189,4 @@ Scripts and styles can be debugged in different browsers.
 
    When designing forms, when you use Process Properties, it adds a Submit button inside the form. When rendered as a PDF in AEM Forms workspace, the Submit button is not visible to the end user. However, when rendering as an HTML form in AEM Forms workspace, the Submit button is visible to the end user. Clicking on this Submit button inside the form does not initiate any action. Clicking on the Submit button at the bottom of the AEM Forms workspace, outside the form, completes the task.
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+

@@ -41,4 +41,4 @@ If you disable **Allow use of camera**, the camera feature of the [Photograph an
 
 To enable **encryption of application data**, you are recommended to enable the **passcode** on your device. If passcode is not set on device, application data stored on the device is not encrypted.
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+

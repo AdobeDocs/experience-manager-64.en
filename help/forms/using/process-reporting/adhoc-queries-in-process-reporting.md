@@ -265,4 +265,4 @@ You can view the details of a specific AEM Forms process/task:
 
    For a task, the query result displays the details the forms contained in the task.
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+
