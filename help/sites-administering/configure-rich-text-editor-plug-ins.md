@@ -589,21 +589,18 @@ When the spellcheck plug-in is activated, the RTE uses dictionaries for each app
 
 >[!NOTE]
 >
->The message "Spell checking failed." is seen if a check is tried for a language that is not installed.
+>The message `Spell checking failed` is seen if a check is tried for a language that is not installed. The standard dictionaries are located at `/libs/cq/spellchecker/dictionaries`, along with the appropriate readme files. Do not modify the files.
 
-A standard AEM installation includes the dictionaries for:
+A standard AEM installation includes the dictionaries for American English (`en_us`) and British English (`en_gb`). To add more dictionaries, follow these steps.
 
-* American English (en_us)
-* British English (en_gb)
+1. Navigate to the page [https://extensions.openoffice.org/](https://extensions.openoffice.org/).
 
->[!NOTE]
->
->The standard dictionaries are located at `/libs/cq/spellchecker/dictionaries`, along with the appropriate readme files. Do not modify the files.
+1. Do one of the following to find a dictionary of your choice of language:
 
-To add more dictionaries, if required, follow these steps.
+   * Search for dictionary of your choice of language. On the dictionary page, locate the link to the original source or author's webpage. Locate the dictionary files for v2.x on such a page.
+   * Search for v2.x dictionary files at [https://wiki.openoffice.org/wiki/User:Khirano/Dictionaries](https://wiki.openoffice.org/wiki/User:Khirano/Dictionaries).
 
-1. Navigate to the page [http://download.services.openoffice.org/contrib/dictionaries/](http://download.services.openoffice.org/contrib/dictionaries/).
-1. Select the required language and download the ZIP file with the spelling definitions. Extract the contents of the archive on your file system.
+1. Download the archive with the spelling definitions. Extract the contents of the archive on your file system.
 
    >[!CAUTION]
    >
@@ -614,11 +611,9 @@ To add more dictionaries, if required, follow these steps.
 
 >[!NOTE]
 >
->The RTE spell checker is available on-demand. It does not run automatically as you start typing text. 
+>The RTE spell checker is available on-demand. It does not run automatically as you start typing text. To run the spell checker, click [!UICONTROL Spellchecker] from the toolbar. RTE checks the spelling of words and highlights the misspelled words.
 >
->To run the spell checker, tap/click the Spellchecker button from the toolbar. RTE checks the spelling of words and highlights mis-spelled words. 
->
->If you incorporate any change that the spell checker suggests, the state of the text changes and mis-spelled words are no longer highlighted. To run the spell checker, tap/click Spellchecker button again.
+>If you incorporate any change that the spell checker suggests, the state of the text changes and misspelled words are no longer highlighted. To run the spell checker, tap/click Spellchecker button again.
 
 ## Configure the history size for undo and redo actions {#undohistory}
 
