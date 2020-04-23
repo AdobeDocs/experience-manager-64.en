@@ -125,4 +125,3 @@ You can add any process to your Favorites category. By setting favorites, you ca
 
 To mark a process as favorite, select the task in its category, and click the hollow star. The star turns golden. To unmark a process as a favorite, click the golden star again.
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

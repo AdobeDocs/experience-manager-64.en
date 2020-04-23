@@ -207,4 +207,3 @@ HTML5 forms support the following Text Picture clause expressions:
 | 0 (zero) |Single alphanumeric character.  |
 | 9 |Single digit.  |
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

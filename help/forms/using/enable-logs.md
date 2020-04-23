@@ -202,4 +202,3 @@ To change the location and name of the log file:
 
 1. Change the **Logger** to **HTMLFormsPerfLogger** and click **Save**.
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
