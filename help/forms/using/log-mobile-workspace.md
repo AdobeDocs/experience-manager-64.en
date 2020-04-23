@@ -31,5 +31,3 @@ When you log in to the app, you are directed to the [**Home** screen](/help/form
 >[!NOTE]
 >
 >In the offline mode, only the last logged in user can log in to the app.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

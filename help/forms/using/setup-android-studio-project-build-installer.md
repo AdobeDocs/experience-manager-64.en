@@ -104,4 +104,3 @@ You can install the application on an Android™ device via the [Android™ Debu
 
 **For Windows® users**: `adb install %HOMEPATH%\Projects\[your-project]\adobe-lc-mobileworkspace-src-[version]\android\build\outputs\apk\android-debug.apk`
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
