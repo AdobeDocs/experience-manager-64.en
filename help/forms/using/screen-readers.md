@@ -40,4 +40,4 @@ HTML5 forms support all the default keystrokes and gestures of Voice over. For m
 
 * VoiceOver is unable to detect arrow keys on the date widget on iPad safari.
 
-****
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

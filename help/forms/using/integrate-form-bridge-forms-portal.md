@@ -100,4 +100,4 @@ An existing HTML application can leverage the FormBridge API to interact with a 
            });
    ```
 
-****
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

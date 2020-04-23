@@ -179,4 +179,4 @@ Check the following parameters:
 
    Check on the left side in Frames if that image displays.
 
-
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

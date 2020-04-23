@@ -193,4 +193,4 @@ You require development package to localize the *datepicker *API. For detailed i
    }
    ```
 
-
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

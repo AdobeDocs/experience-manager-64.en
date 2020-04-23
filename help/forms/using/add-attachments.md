@@ -83,4 +83,4 @@ Form level attachments are not supported for adaptive forms loaded in the app fr
 
 In case of adaptive forms, you can view the attached files in the document of record (DoR). See, [Generate Document of Record for non-XFA adaptive forms](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md).
 
-
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -92,4 +92,4 @@ For example, a Flex application can define `ExternalInterface.addCallback('getMe
 You can read more on third-party application integration with respect to Correspondence Management at [Integrating Correspondence Management in AEM Forms workspace](/help/forms/using/integrating-correspondence-management-html-workspace.md).
 
 
-
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

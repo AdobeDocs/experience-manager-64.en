@@ -69,4 +69,4 @@ To generate minified code for semantic changes follow these steps.
 >
 >If you minify, upgrade is impacted.
 
-****
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

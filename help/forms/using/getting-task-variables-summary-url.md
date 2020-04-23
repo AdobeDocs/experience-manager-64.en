@@ -81,4 +81,4 @@ In AEM Forms workspace, when you open a task, the summary Url accesses the CRX n
 
 The summary layout can be changed without modifying the process. The HTML renderer displays the summary appropriately.
 
-****
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

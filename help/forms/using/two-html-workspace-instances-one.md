@@ -89,4 +89,4 @@ Follow these steps to configure AEM Forms workspace.
 
 1. Change value of `sling:match` to `^[^/\||]/[^/\||]/ws2$`.
 
-
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

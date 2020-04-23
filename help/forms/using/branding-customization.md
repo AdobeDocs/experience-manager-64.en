@@ -220,4 +220,4 @@ Ensure that you have following image:
 1. To change the logo, replace the default `aem_icon.png` file with the custom `aem_icon.png` file.
 1. Build and run AEM Forms app on Windows device.
 
-
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

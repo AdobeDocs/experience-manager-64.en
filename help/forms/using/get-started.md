@@ -26,4 +26,4 @@ After installing AEM, perform the following steps to import Mobile Forms to AEM:
 
 * **Import Mobile Forms:** Import your forms from your local file system to the CRX repository. For detailed information, see [Getting XDP and PDF documents in AEM Forms](/help/forms/using/get-xdp-pdf-documents-aem.md).
 
-****
+**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

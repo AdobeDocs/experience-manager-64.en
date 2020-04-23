@@ -63,4 +63,4 @@ You can make the following changes to the settings of your app.
 >
 >However, you will be prompted to confirm the clear cache operation.
 
-
+[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
