@@ -130,6 +130,7 @@ For more information about the JSON Object description, see [this](/help/forms/u
        background-position: 0px 0px; /*-------- Dummy values, need to be configured as per user background image / image-sprite ---------------------*/
    }
    ```
+   
 
 ## Adding entry in the HTML Template {#adding-entry-in-the-html-template}
 

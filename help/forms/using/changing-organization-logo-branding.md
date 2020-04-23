@@ -30,8 +30,8 @@ The organization logo is displayed at the upper-left corner of AEM Forms workspa
    ```css
    #logo {
    
-          background: url(../images/NewWorkspace.png) no-repeat 14px 11px;
-   
-   }
+          background: url(../images/NewWorkspace.png) no-repeat 14px 11px; 
+         }
    ```
+   
    
