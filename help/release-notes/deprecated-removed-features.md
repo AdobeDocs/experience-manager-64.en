@@ -17,14 +17,14 @@ Adobe constantly evaluates product capabilities, to over time reinvent or replac
 
 To communicate the impending removal/replacement of AEM capabilities, the following rules apply:
 
-1. Announcement of deprecation comes first. While deprecated, capabiiities are still available, but they will not be further enhanced. 
+1. Announcement of deprecation comes first. While deprecated, capabilities are still available, but they will not be further enhanced. 
 1. Removal of deprecated capabilities will occur in the following major release at the earliest. Actual target date for removal will be announced.
 
 This process gives customers at least one release cycle to adapt their implementation to a new version or successor of a deprecated capability, before actual removal.
 
 ## Deprecated Features {#deprecated-features}
 
-This section lists features and capabilities that have been marked as deprecated with AEM 6.4. Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided.
+The table below lists features and capabilities that have been marked as deprecated with AEM 6.4. Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided.
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided.
 
@@ -116,6 +116,11 @@ Customers are advised to review if they make use of the feature/capability in th
    <td>Use the IValueMap API </td> 
   </tr>
   <tr>
+   <td>Forms</td> 
+   <td><p>Deprecated Central Migration Bridge service</p> </td> 
+   <td> No replacement </td> 
+  </tr>
+  <tr>
    <td>Assets</td> 
    <td><p>Assets Offloading has been deprecated starting with AEM 6.4</p> </td> 
    <td> </td> 
@@ -125,7 +130,7 @@ Customers are advised to review if they make use of the feature/capability in th
 
 ## Removed Features {#removed-features}
 
-This section lists features and capabilities that have been removed from AEM 6.4. Prior releases had these capabilites marked as 
+The table below lists features and capabilities that have been removed from AEM 6.4. Prior releases had these capabilities marked as 
 deprecated.
 
 <table> 
@@ -138,7 +143,7 @@ deprecated.
   <tr>
    <td>Analytics Activity Map</td> 
    <td>The version of the Activity Map that is included within AEM.</td> 
-   <td>Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM.<br><br>The <a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html">ActivityMap plugin provided by Adobe Analytics</a> should now be used.</td> 
+   <td>Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM.<br><br>The <a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html">ActivityMap plug-in provided by Adobe Analytics</a> should now be used.</td> 
   </tr>
   <tr>
    <td>Components-Forms</td> 
@@ -212,13 +217,18 @@ deprecated.
   </tr>
     <tr>
     <td>Forms</td> 
-    <td>Removed AEM Forms on JEE specific landing page.</td> 
+    <td>Removed AEM Forms on JEE-specific landing page.</td> 
     <td>AEM Forms on JEE landing page is replaced with AEM landing page (/aem/start.html) </td>  
   </tr>
    <tr>
    <td>Forms</td> 
    <td>Removed support for default Captcha</td> 
    <td>Use reCAPTCHA service by Google.</td> 
+  </tr>
+  <tr>
+   <td>Forms</td> 
+   <td>Removed support for flash fields in AEM Designer. AEM Designer does not allow editing flash fields used in a form.</td> 
+   <td>You can use AEM Designer released for a previous version to edit such forms.</td> 
   </tr>
   <tr>
    <td>Communities</td> 
@@ -230,14 +240,15 @@ deprecated.
 
 ## Pre-announcement for Next Release {#pre-announcement-for-next-release}
 
-This section is used to pre-announce changes in future release, that are not deprecated, but will impact customers. These are provided for planning purpose.
+
+The table below provides a list of changes for future release, that are not deprecated, but may impact customers. These are provided for planning purpose.
 
 <table> 
  <tbody>
   <tr>
    <td>Area<br /> </td> 
    <td>Feature<br /> </td> 
-   <td>Annoucement</td> 
+   <td>Announcement</td> 
   </tr>
   <tr>
    <td>Browser Support</td> 
