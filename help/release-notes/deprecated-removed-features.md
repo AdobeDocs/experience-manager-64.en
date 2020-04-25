@@ -116,6 +116,11 @@ Customers are advised to review if they make use of the feature/capability in th
    <td>Use the IValueMap API </td> 
   </tr>
   <tr>
+   <td>Forms</td> 
+   <td><p>Deprecated Central Migration Bridge service</p> </td> 
+   <td> No replacement </td> 
+  </tr>
+  <tr>
    <td>Assets</td> 
    <td><p>Assets Offloading has been deprecated starting with AEM 6.4</p> </td> 
    <td> </td> 
@@ -219,6 +224,11 @@ deprecated.
    <td>Forms</td> 
    <td>Removed support for default Captcha</td> 
    <td>Use reCAPTCHA service by Google.</td> 
+  </tr>
+  <tr>
+   <td>Forms</td> 
+   <td>Removed support for flash fields in AEM Designer. AEM Designer does not allow editing flash fields used in a form.</td> 
+   <td>You can use AEM Designer released for a previous version to edit such forms.</td> 
   </tr>
   <tr>
    <td>Communities</td> 
