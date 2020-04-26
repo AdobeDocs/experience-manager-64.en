@@ -86,4 +86,3 @@ The generic steps to perform any customizations are:
 
    Access the URL `https://[server]:[port]/lc/ws` and log in with administrator/password credentials. The browser redirects to `https://[server]:[port]/lc/apps/ws/index.html`.
 
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

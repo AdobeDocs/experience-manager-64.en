@@ -48,4 +48,3 @@ The following two images show the difference between the default and customized 
     
     1. Save the file.
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
