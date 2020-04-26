@@ -1,12 +1,7 @@
 ---
-title: AEM Assets vs. AEM MediaLibrary
-seo-title: AEM Assets vs. AEM MediaLibrary
-description: Frequently asked questions around AEM Assets and. AEM Media Library, including the differences.
-seo-description: Frequently asked questions around AEM Assets and. AEM Media Library, including the differences.
-uuid: 61c4c12f-1d8c-4276-ab9d-3d9ed0a66542
+title: Compare the features available in AEM Assets and AEM Media Library
+description: Frequently asked questions around AEM Assets and AEM Media Library, including the differences.
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 7d81d7fd-27d1-4d87-9248-dfcf6c52ffb3
 ---
 
 # AEM Assets vs. AEM MediaLibrary {#aem-assets-vs-aem-medialibrary}
@@ -48,7 +43,7 @@ Yes, the category predicate, together with all other components used in Geometri
 
 #### I want to automatically resize images upon import. Do I need AEM Assets? {#i-want-to-automatically-resize-images-upon-import-do-i-need-aem-assets}
 
-Yes. Image resizing and automatic workflow-driven transformation as well as the ability to manage renditions is part of AEM Assets and requires an AEM Assets license.
+No. Resizing and automatic workflow-driven transformation of static images as well as the ability to manage renditions are part of AEM Media Library. These features do not require an AEM Assets license.
 
 ### I want to resize images using a customized image component. Do I need AEM Assets? {#i-want-to-resize-images-using-a-customized-image-component-do-i-need-aem-assets}
 
@@ -64,4 +59,4 @@ For this use case it is not required to buy AEM Assets, even the use of the Medi
 
 >[!MORELIKETHIS]
 >
->* [Detailed list of feature differences](https://helpx.adobe.com/experience-manager/6-5/assets/using/medialibrary.html)
+>* [Detailed list of feature differences](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/medialibrary.html#listoffeatures)

@@ -16,12 +16,337 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 
 | Products |**Adobe Experience Manager (AEM) 6.4** |
 |---|---|
-| Version |6.4.6.0 |
+| Version |6.4.8.0 |
 | Type |Service Pack Release |
-| Date |September 19, 2019 |
-| Download URL | [AEM 6.4.6.0 on PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.6.0) |
+| Date |March 05, 2020 |
+| Download URL | AEM 6.4.8.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.8.0), [Software Distribution(Beta)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/servicepack/aem-service-pkg-6.4.8.zip) |
 
-## What's included in AEM 6.4.6.0 {#what-s-included-in-aem}
+## What's included in AEM 6.4.8.0 {#what-s-included-in-aem}
+
+AEM 6.4.8.0 is an important update that includes new features, key customer requested enhancements and performance, stability, security improvements, released since the general availability of AEM 6.4 in **April 2018.**
+
+It is also cumulative which means that 6.4.8.0 includes all AEM 6.4 service packs released before it.
+
+Some key highlights of this service pack release are:
+
+* The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.20.
+
+* Word wrap functionality is supported for Japanese websites in WCM-RTE.
+
+* Word break and line break processing are supported for Japanese websites.
+
+* Added support to use BUNSETSU method to break Japanese language sentence and lines at appropriate positions.
+
+* CCR UI for correspondence management now supports decimal values for German locale.
+
+* Form data model integration using SOAP web service now supports choice groups or attributes on elements.
+
+* AEM Assets is now configured with Brand Portal through Adobe I/O.
+
+* Updated the jQuery version bundled in ContextHub to 3.4.1.
+
+## List of changes {#list-of-changes}
+
+### Sites {#sites}
+
+* When a URL of an AEM Sites pages contains a colon or percentage symbol, the underlying browser stops responding and CPU cycles show a spike (NPR-32368, NPR-31917).
+* When an AEM Sites page is opened for editing and a component is copied, the paste action remains unavailable for some placeholders (NPR-32328).
+* Request for activation workflow does not include referenced assets (NPR-32304).
+* When a Blueprint is created, if the number of records is more than 80, only the first 80 records are displayed. Blueprint displays blank lines for the rest of the records (NPR-32058).
+* Users are allowed to save a Content Fragment without providing any information in the required fields (NPR-31988).
+* Automatic navigation does not work for path configured in a Core Experience Fragment Component (NPR-31921).
+* When you change the type of a table cell in Rich Text Editor (RTE), the below error occurs:
+  `Error: No common ancestor found, cannot continue` (NPR-31916).
+* When content is moved within the same folder, the page move option is disabled (NPR-31841).
+* Added support to divide Japanese language sentences using the BUNSETSU method and break lines at the appropriate position (NPR-31836).
+* When you edit a hyperlink in Rich Text Editor (RTE), the newly selected path is not saved (NPR-31659).
+* When you delete a multifield component and undo the deletion, the component is restored but data is not restored (NPR-31617).
+
+### Assets {#assets}
+
+* A folder with no name gets created in SPS (Scene7 Publishing System) while moving an asset from one folder to another in Experience Manager with Dynamic Media Scene7 configuration (NPR-32440).
+
+* Assets detail page of PDF files do not show action buttons in Experience Manager running on Dynamic Media Scene7 mode (NPR-32316).
+
+* Asset and video renditions cannot be deleted (NPR-32213).
+
+* Calendar icon for activation scheduled is not showing in Status column (in Classic UI of DAM asset listing) for assets the activation of which is scheduled for a later date and time (NPR-32198).
+
+* Relationship of assets gets overwritten when assets are related to more than one assets using Other (NPR-32196).
+
+* Save button does not import Remote Set when user has not made any changes in Set Editor in Dynamic Media Client (NPR-32178).
+
+* PSD asset ingestion causes CPU spike and unresponsive Experience Manager Author instance (NPR-32165).
+
+* Out of Memory exception observed when a large ZIP file is uploaded in Experience Manager DAM (NPR-32155).
+
+* Version history URLs are displayed under Referenced By field on assets Property page (NPR-31889).
+
+* Unpublish from Brand Portal, on Manage Publication page, fails for sub-folders of a published folder (NPR-31835).
+
+* Dynamic Media video encodes fail to upload when Scene7 Cloud Configuration is placed in a private folder `/conf` instead of `/conf/global` (NPR-31779).
+
+* Image is not seen on the timeline after annotations are added, on Experience Manager running on Dynamic Media Scene7 run mode (NPR-31754).
+
+* ZIP file downloaded from DAM can't be opened using WinZip (NPR-31745).
+
+### Integrations {#integrations-6480}
+
+* The **Company** and **Reporting** Suite drop-down menus are hidden once **Reporting Source** is selected while configuring Adobe Analytics in Experience Manager cloud services (NPR-31729).
+
+* Adobe Campaign properties are not cleaned up when language copy of a newsletter linked to an Adobe Campaign is made, whereas clean up happens when a newsletter linked to an Adobe Campaign is copied or pasted (NPR-32540).
+
+### Sling {#sling-6480}
+
+* Non-deterministic shadowing of resource observation is not working (CQ-4286466).
+
+### Projects {#projects-6480}
+
+* Create button is not visible to the user even if the user has permission to create project in the sub-folder (NPR-31831).
+
+* The functionality to switch between Card View, List View and Calendar View is not working after selecting Calendar view in Projects (NPR-31829).
+
+### Translation {#translation-6480}
+
+* Translation project creation for multiple languages generates the project only for some of the languages instead of all and an error (resource resolver is already closed) is observed in the log (NPR-32212).
+
+### WCM-MSM {#wcm-msm-6480}
+
+* Permission issues lead to display of errors while moving pages within a blueprint (NPR-32610).
+
+### WCM-Page Editor {#wcm-page-editor-6480}
+
+* The browser stops responding while trying to add a component to a page with a specific URL format (NPR-32368, NPR-31917).
+
+### WCM-Admin UI {#wcm-admin-ui-6480}
+
+* Manage publication does not include referenced assets in the request for activation workflow (NPR-32304).
+
+### Communities {#communities}
+
+* Unable to update the group thumbnail image for groups (NPR-32603).
+
+### Brand Portal {#brand-portal}
+
+* Unpublish metadata schema in AEM Assets populates an error message although the schema is removed at backend (CQ-4286871).
+
+### Foundation UI {#foundations-ui-6480}
+
+* Invalid characters display in the URL added to a Button component (NPR-32684).
+
+### Forms {#forms}
+
+>[!NOTE]
+>
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
+
+* Designer: If the tagging option is enabled, the subform border disappears in the generated PDF output (NPR-32546, NPR-32322).
+
+* Designer: If there are merged cells in a table, the accessibility test fails for the output PDF file converted from an XDP form using the output service (NPR-32079).
+
+* Document Security: A protected PDF file fails to open offline with DisableGlobalOfflineSynchronizationData option set to True (NPR-32080).
+
+* Document Security: Issues while opening a protected PDF file after upgrading from ES4 to AEM 6.3 (NPR-32170).
+
+* Document Services: An error message displays while trying to convert a PDF file to a PDF/A document using the toPDFA conversion method (NPR-32663).
+
+* Document Services: An exception displays while applying Reader Extensions service on a PDF file (NPR-32639).
+
+* Document Services: An error message displays while assembling and converting XDP files to PDF files (NPR-31821).
+
+* Analytics do not display appropriate results on submitting or abandoning forms on a Sites page (NPR-31359).
+
+### Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
+
+#### AEM 6.4.7.0 {#experience-manager-6470}
+
+AEM 6.4.7.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in **April 2018.**
+
+It is also cumulative which means that 6.4.7.0 includes all AEM 6.4 service packs release before it.
+
+Some of the key highlights of AEM 6.4.7.0 are:
+
+* The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.17.
+* Added support to set version of a Sites page while deleting it.
+* New column for created date, which is sortable, has been added in **DAM list** view and on asset search results in **List** view (NPR-31311).
+* Asset sorting based on **Name** column has been allowed in **List** view.
+* Batch size and workflow step timeout for Reprocess and Batch Upload are now configurable from UI in Dynamic Media.
+* The `pdfBrochure` has been set to false in Scene 7 cloud configuration, to save memory at IPS.
+
+##### Assets {#assets-6470}
+
+**Product enhancements**
+
+* The export version of API package `package com.day.cq.dam.handler.standard.msoffice` supported by `dam-handler` bundle is upgraded to 6.0.0 (CQ-4279059).
+If you are using the package `com.day.cq.dam.handler.standard.msoffice` in your custom implementation, then it is advised that you compile your `dam-handler` bundle with the latest uber jar.
+
+**Fixes**
+
+* Metadata for some PDF documents is not updated and saved to the PDF on modifying its title (NPR-31575).
+
+* Assets with '+' symbol in the filename cannot be deleted (NPR-30588).
+
+* DAM folder properties do not show the added users or groups (created by LDAP sync) in Closed User Groups (NPR-30555).
+
+* Special characters occurring in the Subject line of Email Templates are not shown properly (NPR-30547).
+
+* Asset names are changed to lower case when moving assets from one folder to another in AEM running on Dynamic Media Scene 7 runmode (NPR-31631).
+
+* Names of the imageset are changed to lower case in Scene 7, when imageset (or mediaset) is created and named with appropriate naming convention in DAM (NPR-31576).
+
+* Dynamic Media Encode Video workflow is failing to generate thumbnail for the video that is migrated from Scene 7 to Dynamic Media - Scene 7 run mode (NPR-31523).
+
+* Internal Server Error is observed while using filter to search for Sets, in AEM running on Dynamic Media - Scene 7 runmode (NPR-31388).
+
+* Error is observed while editing a remote imageset, for the image residing in the folder named same as Scene 7 company name (NPR-31347).
+
+* Assets containing references are not getting published (DM) (NPR-31179).
+
+* The expiration (client cache time to live) value configured for Dynamic Media Hybrid mode is not replicated to the Dynamic Media delivery environment (NPR-31126).
+
+* Uploads from AEM Dynamic Media - Scene 7 runmode to Scene 7 are taking too long to complete (NPR-30926).
+
+* After creating a page having Dynamic Media component while publishing the same, from author instance running on Dynamic Media - Scene 7 runmode, user is prompted to publish the dmscene7 configuration (NPR-30880).
+
+* Value of the "asset" parameter in viewer embed code stays unchanged after changing the values in "Title after move" and "Name after move" field on Dynamic Media - Scene 7 (NPR-30745).
+
+* Touch UI search (done through Omnisearch) results page automatically scrolls up and loses user's scroll position (NPR-31306).
+
+* DAM Event Purge deletes the latest (maxSavedActivities) event data and holds the data created earlier (NPR-30870).
+
+* Asset title and name change not persisted after move operation to a destination folder that triggers infinite scrolling while selecting it (NPR-30647).
+
+* Collections are removed from the view on applying any filter in AEM Assets accessed from Adobe Asset Link (CQ-4280534).
+
+* Batch size and workflow step timeout for Reprocess and Batch Upload are not configurable from UI, and need to be set in CRXDE and workflow needs to be synced twice (CQ-4281254).
+
+* Workflow step name for batch upload and simple upload step is same in Scene 7, which leads to confusion (CQ-4281176).
+
+* Reprocess workflow in Scene 7 gets stuck if an asset is missing metadata node (CQ-4281170).
+
+* BatchUpload step in reprocess workflow does not work for the folder having video asset (CQ-4280630).
+
+* PDF options sent to DM have extractKeywords set to true by default (CQ-4280101).
+
+* Null Point Exception is observed on running Scene 7 Reprocess workflow on a folder containing non-DM assets (CQ-4279555).
+
+* Asset renaming in AEM fails to synchronize to scene 7, when an asset with a duplicate name already exists at Scene 7 (CQ-4276763).
+
+* Zip file sent by email for asset download fails to unzip when a user with Read permissions tries to open it (CQ-4277925).
+
+* PPT Rendition Workflow fails to generate renditions of the uploaded PPT files, as AEM 6.4 fails to update to com.adobe.granite.poi version 2.0.28 (CQ-4279059).
+
+* PDF files are not indexed and content within is not searchable (CQ-4278916).
+
+##### Sites {#sites-6470}
+
+* When launches are promoted with Promote only Modified pages and Promote launches with modified pages are done, only the modified pages are appearing to be promoted. Moreover, when the list to be promoted is correct, the non-modified pages are still displayed at the bottom of the list (NPR-31314).
+
+* When an AEM Sites page is moved to a different location, its properties are not updated accordingly to reflect its new location(NPR-31265).
+
+* For a new Blueprint, If the number of records is more than 40, only the first 40 records are displayed. Blueprint displays blank lines for the rest of the records (NPR-31182).
+
+* When the number of LiveCopies is large, the LiveCopy overview takes a long time to render the preview (NPR-30945).
+
+* Added support to set a version of a page while deleting it. If versioning is disabled for the deleted page, AEM Sites cannot restore such pages (NPR-30891).
+
+* When a user adds Japanese or Korean characters in the description property of a menu, the menu displays distorted characters for Japanese and Korean language text (NPR-31331).
+
+* When a user focuses on left rail fields and uses a keyboard shortcut to paste content, it pastes the content of the page editor clipboard instead of the content copied from the left rail fields (NPR-31169).
+
+* When a user edits a content fragment, the already deleted variation of the content fragment is restored (NPR-31178).
+  
+* Content Fragment Models query is inefficient. It is very slow if the instance has a lot of pages and results in an error (NPR-30666).
+
+* On saving the content fragment model, time in the date and time field is set to 00:00 (NPR-30540).
+
+##### Integrations {#integrations-6470}
+
+* When configuring Adobe Launch, a forward slash (/) is prepended in the library URL (NPR-30700).
+
+* ContextHub performance degrades after publishing (NPR-30884).
+
+##### Sling {#sling-6470}
+
+* Update the webconsole security provider bundle version to 1.2.4 to remove dependency of launchpad starter api from webconsolesecurityprovider (NPR-30885).
+
+##### Platform {#platform-6470}
+
+* Updates in buffer size configuration for Jetty-based HTTP service are not saved (NPR-30925).
+
+* QueryBuilder now supports orderby fn:name() in xpath queries (NPR-31322).
+
+* Updated Sling distributed event admin to version 1.1.4 improving the quality of logs in a clustered environment (NPR-29256).
+
+##### Foundation UI {#foundation-6470}
+
+* Scrolling to the end of the results page with a large number of search results causes the browser to crash (NPR-31332).
+
+* When switching from the Card view to the List view on a search results page, there is a lag before the page can be scrolled (NPR-31280).
+
+##### Oak {#oak-6470}
+
+* MS Office files with .docx and .xlsx file extensions containing JPEG images fail to parse using Tika parser (NPR-31693).
+
+##### Livefyre {#livefyre-6470}
+
+* Livefyre integration with AEM 6.4 upgrade gives Null Point Exception, when integration is done using DITA plugin for synthetic resources. The integration, however, works when components are added manually (FYR-11066).
+
+##### Translation {#translation-6470}
+
+* The path to the destination experience fragment is not getting updated when promoting a launch page (NPR-30830).
+
+##### Communities {#communities-6470}
+
+* Email functionality is not working properly in some cases even when email messaging is enabled in notification settings, system throws an exception in the NotificationsActivityStreamProvider (NPR-31521).
+* Not able to create new members, blank screen appears on Create Member screen in AEM author instance (NPR-30951).
+* User is not able to post a comment on a blog in Internet Explorer 11 (NPR-30927). 
+* Administrator of a Restricted Group is not able to view the Group Card, unable to perform any Quick Link operations (Edit/Publish/Delete groups) in AEM author instance (NPR-30810).
+* Member groups/ Group information is not visible on creating a new Site in AEM author instance (NPR-28840). 
+
+##### Forms {#forms-6470}
+
+>[!NOTE]
+>
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
+
+**Forms add-on package**
+
+**Adaptive Forms**
+
+* Strings contain the dictionary key while localizing adaptive forms (NPR-31109).
+
+* The checkboxes and drop-down lists in Forms fail Accessibility checks (NPR-31282).
+
+**HTML5 Forms**
+
+* Generating HTML5 preview of an XDP form displays a flicker while adding instances of a subform (NPR-30907).
+
+**Document Services for OSGi**
+
+* Running multiple simultaneous thread for assembling the forms using com.adobe.fd.assembler.service.AssemblerService.invoke() method displays an error message (NPR-31164).
+
+* The temporary files created by Assembler Service are not deleted automatically and requires AEM restart (NPR-30846).
+
+* Applying ReaderExtension Rights to PDF results in an error message (NPR-30930).
+
+**Workflow**
+
+* OSGi workflow fails due to 100% CPU utilization (NPR-31234).
+
+**Forms JEE installer**
+
+**Document Services**
+
+* The Convert PDF Service fails to convert PDF documents to PostScript and displays an error message (NPR-31267).
+
+* SOAP endpoint configuration resets after applying a patch to fix HTML to PDF failure (NPR-31309).
+
+**PDFG Service**
+
+* Unable to upload the Adobe PDF settings file downloaded using the admin UI (NPR-31273).
+
+#### AEM 6.4.6.0 {#experience-manager-6460}
 
 AEM 6.4.6.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in **April 2018.**
 
@@ -33,9 +358,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * Added support for tracking dynamic-UI-states in tracking event in the foundation API.
 * Added rendition support to the image core component.
 
-## List of changes {#list-of-changes}
-
-### Assets {#assets}
+**Assets**
 
 * Asset share link of a folder with space and `&` character in the name displays blank gray cards for some assets. NPR-29934: Hotfix for CQ-4270187
 * DAM Workflow crashes while creating MP4 assets for AEM. NPR-30031: Hotfix for CQ-4271352
@@ -52,7 +375,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * When using the carousel for managing tags, the navigation button does not work. Hotfix for CQ-4275499
 * Bulk move asset functionality is broken resulting in non-movement of assets. Hotfix for CQ-4272987
 
-### Sites {#sites}
+**Sites**
 
 * `pageinfo.json` requests are extremely slow and take too long to load. NPR-29709: Hotfix for CQ-4269560
 * `onTime` or `offTime` metadata properties saved on assets are not recalled if the AEM server gets restarted. NPR-30413: Hotfix for CQ-4272784
@@ -74,25 +397,25 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * The VersionPreviewServlet is failing in NullPointerException when trying to display a version of an Experience Fragment in the timeline. NPR-30074: Hotfix for CQ-4271881
 * Unable to lock content fragments via the check-in feature. NPR-29923: Hotfix for CQ-4258785
 
-### Replication {#replication}
+**Replication**
 
 * JCR Session / Resource Resolver is leaked during OAuth implementation on every replication to MAC / Brand Portal. NPR-30000: Hotfix for Granite-26196
 
-### Sling {#sling}
+**Sling**
 
 * The order of children affected using overlap and order before is causing IndexOutOfBoundException. NPR-30408: Hotfix for Sling-8296 & Sling-7375
 * InactiveBundlesHealthCheck are reading MissingPackagesHealthCheck configuration once the InactiveBundlesHealthCheck configurations are saved. NPR-30084: Hotfix for CQ-4272644
 
-### Commerce {#commerce}
+**Commerce**
 
 * Unable to run catalog blueprint from Sites console. NPR-29829: Hotfix for CQ-4271461
 * The asset used in the product does not show any reference to the product in the "References' section of the asset neither the asset path gets updated if the asset is moved. NPR-30542: Hotfix for CQ-4270247
 
-### Platform {#platform}
+**Platform**
 
 * AEM Default Mail Sender is unable to send mail to a remote SMTP server over TLS v1.2. NPR-30476: Hotfix for GRANITE-26605
 
-### Communities {#communities}
+**Communities**
 
 * Groups deleted on the author are not in sync with all the publishers. NPR-29987: Hotfix for CQ-4268738
 * Deleted users removed from the Community Administrators Field are not in sync with the Membership group. NPR-30389: Hotfix for CQ-4274339
@@ -100,81 +423,79 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * Updating any newly created and existing Community group overwrites the property on jcr: content node and changes their name to first page's title. NPR-30109: Hotfix for CQ-4273719
 * Quicksearch and search through location and address is not working when the community is set to work with Database Storage Resource Provider (DSRP). NPR-26737: Hotfix for CQ-4258493
 
-### Translation {#translation}
+**Translation**
 
 * Auto-execution of Translation does not work. NPR-30499: Hotfix for CQ-4276288
 * User is able to create language copy on the content path restricted to read-only. NPR-29937: Hotfix for CQ-4270708
 * Translation issue - Only a few components are translated using Machine Translation. NPR-30079: Hotfix for CQ-4273764
 
-### Integration {#integration}
+**Integration**
 
 * The customized content is not displayed correctly on the publish instance until the restart of the instance. NPR-30421: Hotfix for CQ-4273706
 
-### Projects {#projects}
+**Projects**
 
 * dam: folderThumbnailPaths values do not get refreshed and display old thumbnails even after deleting the assets within the folder. NPR-30424: Hotfix for CQ-4273667
 
-### UI-Consoles {#ui-consoles}
+**UI-Consoles**
 
 * Cross-site scripting (XSS) on Sites page properties on thumbnail tab. NPR-30048: Hotfix for Granite-26200
 
-### UI-Foundation {#ui-foundation}
+**UI-Foundation**
 
 * Added support for tracking dynamic-UI-states in tracking event in the foundation API. NPR-30742, GRANITE-26322: Hotfix for GRANITE-26036
 
-### Forms {#forms}
+**Forms**
 
 >[!NOTE]
 >
 >AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
 
-### Forms add-on package {#forms-add-on-package}
+**Forms add-on package**
 
-#### Adaptive Forms {#adaptive-forms}
+**Adaptive Forms**
 
 * Empty .css file takes longer time to fetch from the publisher, causing performance issue. NPR-30558: Hotfix for CQ-4274399
 * Forms that are modified after publishing do not get posted again on publishing the site. NPR-30411: Hotfix for CQ-4236566
 
-#### Forms - Backend Integration {#backend-integration}
+**Forms - Backend Integration**
 
 * An error is thrown while creating the Form Data Model with the Web Service Definition Language (WSDL). NPR-30388: Hotfix for CQ-4272921
 
-#### Forms - Correspondence Management {#forms-correspondence-management}
+**Forms - Correspondence Management**
 
 * Special characters such as less-than (<), greater-than (>) and ampersand (&) get encoded in the Agent UI. NPR-30410: Hotfix for CQ-4273887
 * When triggering text fragment containing Data Dictionary values, the Agent UI becomes unresponsive. NPR-30098, NPR-30083: Hotfix for CQ-4272204
 * Create Correspondence UI (CCR UI) fails intermittently with error variable (object Object). NPR-29983: Hotfix for CQ-4273874
 * Letter draft reload fails with an exception when the description of Document Fragments contain special characters like less-than (<), greater-than (>) and ampersand (&) in properties. NPR-29930: Hotfix for CQ-4252762
 
-#### HTML5 Forms {#html5-forms}
+**HTML5 Forms**
 
 * When using NonVisual Desktop Access in Browse mode to read an HTML5 form, the Chrome browser reads "graphic" before each Scalable Vector Graphic (SVG) in the form design. NPR-30450: Hotfix for CQ-4274732
 
-### Forms JEE installer {#forms-jee-installer}
+**Forms JEE installer**
 
-#### Forms - Foundation JEE {#forms-foundation-jee}
+**Forms - Foundation JEE**
 
 * Adding or editing a Web Service connection by invoking web services from AEM forms Workbench throws an error: ClassNotFoundException org.apache.axis.message.SOAPBodyElement. NPR-30116: Hotfix for CQ-4273217
 
-#### Forms - Document Services {#document-services}
+**Forms - Document Services**
 
 * PDF/A  label missing error in Acrobat preflight. NPR-30594: Hotfix for CQ-4276032
 * Single character Data Bindings in PDF cause Reader Extensions to fail with an error "java.lang.StringIndexOutOfBoundsException: String index out of range: 1". NPR-30128: Hotfix for CQ-4273878
 * When a load test is performed on HTML to PDF service, it fails with an error and file type settings are removed from AEM forms server. NPR-30085: Hotfix for CQ-4272631
 * Flattening a PDF with Adobe Acrobat 9.1 (XFA version 3.0) does not retain the PDF form state: Invisible elements on the form are set back to a visible state. NPR-29978: Hotfix for CQ-4270888
 
-#### Forms - Document Security {#forms-document-security}
+**Forms - Document Security**
 
 * Applying a signature with timestamp fails with error: ALC-DSC-003-000: com.adobe.idp.dsc.DSCInvocationException: Invocation error. NPR-30696, NPR-30537: Hotfix for CQ-4273778
 * Configuration Manager does not insert Japanese strings for localized table columns. NPR-30496: Hotfix for CQ-4274868
 
-#### PDFG Service {#pdfg-service}
+**PDFG Service**
 
 * Connection error while trying to convert Word document to PDF on Windows Server 2016. NPR-30597: Hotfix for CQ-4275652
 * Permission denied exception when trying to use the HTML to PDF backend service via the "phantomjs" library. NPR-30456: Hotfix for CQ-4258077
 * maxReuseCount for HTML to PDF service is not shown with JBoss Management Console. NPR-30303, NPR-30135: Hotfix for CQ-4273763
-
-### Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
 
 #### AEM 6.4.5.0 {#experience-manager-6450}
 
@@ -187,8 +508,8 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.13.
 * Added socket timeout and connection timeout in Brand Portal replication agents.
 * Omnisearch enhancements - Increased the pagination limit of the search result to 100 pages.
-* Disabled `AssetDownloadServlet` OSGi component by default on AEM publish instances. For more information, see [Download assets from AEM](https://helpx.adobe.com/experience-manager/6-4/assets/using/download-assets-from-aem.html).
-* Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/reuse-assets-using-msm.html).
+* Disabled `AssetDownloadServlet` OSGi component by default on AEM publish instances. For more information, see [Download assets from AEM](/help/assets/download-assets-from-aem.md).
+* Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](/help/assets/reuse-assets-using-msm.md).
 
 **Assets**
 
@@ -205,7 +526,7 @@ Some of the key highlights of AEM 6.4.5.0 are:
 * DAM Extract Archive for zip file functionality is broken. NPR-29187: Hotfix for CQ-4254421
 * Metadata import should allow importing metadata without registering namespaces. NPR-29425, NPR-28132: Hotfix for CQ-4269445
 * Saving metadata changes do not work for assets whose name contain a quote character. NPR-29395: Hotfix for CQ-4254305
-* Cannot move a DAM asset if the file name contains whitespace. NPR-29270: Hotfix for CQ-4266403
+* Cannot move a DAM asset if the filename contains whitespace. NPR-29270: Hotfix for CQ-4266403
 * Cannot download ZIP archives compressed with Deflate64 algorithm. NPR-29225: Hotfix for CQ-4253995
 * Asset thumbnails are displayed slowly when opening a folder that contains assets with many versions. NPR-29833: Hotfix for CQ-4271629
 * Unable to enter the collection highlighted if the Enter key is pressed after selecting the collection. NPR-29723: Hotfix for CQ-4261607
@@ -399,7 +720,7 @@ The key highlights for AEM 6.4.5.0 forms are:
 
 **Assets**
 
-* Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](https://helpx.adobe.com/experience-manager/6-4/assets/using/reuse-assets-using-msm.html). NPR-26450: Hotfix for CQ-4259922
+* Enabled Multi-Site Manager support for Assets. For more information, see [Reuse assets using MSM for Assets](/help/assets/reuse-assets-using-msm.md). NPR-26450: Hotfix for CQ-4259922
 
 **OSGI bundles and content packages included**
 
@@ -445,8 +766,8 @@ Some of the key highlights of AEM 6.4.4.0 are:
 * When a CSV file has value which is separated by comma in a single column, AEM CSV editor does not escape the comma and treats it as a separate column. NPR-28801: Hotfix for CQ-4261694
 * Issue with Metadata Schema Editor while using path Browser to select data. NPR-28674: Hotfix for CQ-4263005
 * Too many assets get processed to the Smart Content Service resulting in a huge amount of time to complete the periodic tagging process. NPR-28640: Hotfix for CQ-4262661, CQ-4262644, CQ-4263234
-* Desktop actions do not work for Omnisearch results from aem/start.html page. NPR-27242: Hotfix for CQ-4248176
-* Assets API does not allow upload of file > 2GB causing upload failure. NPR-27629: Hotfix for Granite-23590
+* Desktop actions do not work for Omnisearch results from `aem/start.html` page. NPR-27242: Hotfix for CQ-4248176
+* Assets API does not allow upload of file > 2 GB causing upload failure. NPR-27629: Hotfix for Granite-23590
 * Metadata does not save in downloaded asset in the first attempt in case Dynamic Media is enabled on the instance. NPR-28233: Hotfix for CQ-4260759
 * Service resolver is not closed in SiteCatalyst configuration. NPR-28015: Hotfix for CQ-4259397
 * Moving assets in DAM does not result in a similar move on Scene7 (p2p config). NPR-28313: Hotfix for CQ-4261091
@@ -962,7 +1283,7 @@ Some of the key highlights of AEM 6.4.2.0 are:
 * Added support for MongoDB Enterprise 3.6. 
 * The Sites Page Editor adds support for in-context editing and composition with client-side components build in React or Angular in combination with <a href="../sites-developing/spa-walkthrough.md">AEM's SPA Editor JS SDK</a>.  
 * Content Fragments enhancements: added the capability to annotate in text fields, and side-by-side comparison of versions. 
-* Added [integration with Adobe Stock](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-assets-adobe-stock.html) so that the users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html). 
+* Added [integration with Adobe Stock](/help/assets/aem-assets-adobe-stock.md) so that the users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/stock-assets-feature-video-use.md). 
 * Assets added support for dynamic conditional metaschema and the ability to set a metadata schema for asset folders.
 * Added configuration in each component to enable/disable the folder thumbnail creation/update functionality.
 * Image Editor enhancements on page authoring.
@@ -1327,10 +1648,10 @@ The key highlights for AEM 6.4.2.0 forms are:
 
 **Assets**
   
-* Added [integration with Adobe Stock](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-assets-adobe-stock.html) so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM assets](https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html. NPR-15779: Hotfix for CQ-30857 
-* Added support for dynamic conditional metaschema. For more information, see (Cascading Metadata)(https://helpx.adobe.com/experience-manager/6-4/assets/using/cascading-metadata.html). NPR-25189: Hotfix for CQ-4237413 
-* Enabled "Asset Download" option on Content Fragments. For more information, see [Asset Reports](https://helpx.adobe.com/experience-manager/6-4/assets/using/asset-reports.html). NPR-25186: Hotfix for CQ-4237410 
-* Ability to set a metadata schema for asset folders. For more information, see [Folder Metadata Schema](https://helpx.adobe.com/experience-manager/6-4/assets/using/folder-metadata-schema.html) and refer to its [Configuration Settings](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_183715669) post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574 
+* Added [integration with Adobe Stock](/help/assets/aem-assets-adobe-stock.md) so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see [Using Adobe Stock assets with AEM assets](https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html. NPR-15779: Hotfix for CQ-30857
+* Added support for dynamic conditional metaschema. For more information, see [Cascading Metadata](/help/assets/cascading-metadata.md). NPR-25189: Hotfix for CQ-4237413 
+* Enabled "Asset Download" option on Content Fragments. For more information, see [Asset Reports](/help/assets/asset-reports.md). NPR-25186: Hotfix for CQ-4237410 
+* Ability to set a metadata schema for asset folders. For more information, see [Folder Metadata Schema](/help/assets/folder-metadata-schema.md) and refer to its [Configuration Settings](#configuration-settings-required-for-npr) post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574 
   
 **Sites**
   
@@ -1737,7 +2058,7 @@ The key highlights for AEM Forms are:
 **Assets**
 
 * Added the capability for Enhanced Smart Tags. For more information, see [Enhanced Smart Tags](https://helpx.adobe.com/experience-manager/6-4/assets/using/enhanced-smart-tags.html). NPR-21951: Hotfix for CQ-4234883
-* Introduced AEM Assets References in InDesign. For more information, see [AEM Assets References in InDesign](https://helpx.adobe.com/experience-manager/6-4/assets/using/managing-linked-subassets.html). NPR-23386
+* Introduced AEM Assets References in InDesign. For more information, see [AEM Assets References in InDesign](/help/assets/managing-linked-subassets.md). NPR-23386
   
 **Sites**
 
@@ -1755,7 +2076,7 @@ List of Content Packages included in AEM 6.4.1.0
 
 [Get File](assets/6_4_1_0_content-package-list.txt)
 
-### Install 6.4.6.0 {#install}
+### Install 6.4.8.0 {#install}
 
 #### Setup requirements {#setup-requirements}
 
@@ -1773,34 +2094,34 @@ List of Content Packages included in AEM 6.4.1.0
 >
 >For customers with Feature Packs installed on AEM 6.4. Optional Feature Packs provided by Adobe have dependencies on the release version and service pack. If you have any Feature Pack installed, please contact the AEM Customer Care team to validate the compatibility of those feature packs with this service pack for AEM 6.4.
 
-* AEM 6.4.6.0 requires AEM 6.4. Please visit [upgrade documentation](../sites-deploying/upgrade.md) for detailed instructions.
+* AEM 6.4.8.0 requires AEM 6.4. Please visit [upgrade documentation](../sites-deploying/upgrade.md) for detailed instructions.
 * The Service Pack download is available on Adobe Package Share, which you can access directly from the AEM 6.4 instance.
-* On a deployment with MongoDB and multiple instances, install AEM 6.4.6.0 on one of the Author instances using the Package Manager.
+* On a deployment with MongoDB and multiple instances, install AEM 6.4.8.0 on one of the Author instances using the Package Manager.
 * Before installing the service pack, ensure to have a snapshot or fresh backup of your AEM instance. 
 * Restart the instance before installation. While that is only needed when the instance is still in update mode (and this is the case when the instance was just updated from an earlier version), it's generally recommended if the instance was running for longer period of time.
 
 >[!NOTE]
 >
->Adobe does not recommend removing or uninstalling the AEM 6.4.6.0 package.
+>Adobe does not recommend removing or uninstalling the AEM 6.4.8.0 package.
 
 ### Install the Service Pack via Package Share {#install-the-service-pack-via-package-share}
 
 Perform the following steps to install the Service Pack on an existing AEM 6.4 instance:
 
-1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.6.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.6.0).
+1. Login to Package Share within AEM or directly from your browser and download the AEM 6.4.8.0 package.
 
-   (search for "AEM-6.4.6.0" to find it) 
+   (search for "AEM-6.4.8.0" to find it) 
 1. Install the downloaded package using Package Manager.
 
 >[!NOTE]
 >
->**Dialog on Package Manager UI sometimes exits immaturely during installation of 6.4.6.0**
+>**Dialog on Package Manager UI sometimes exits immaturely during installation of 6.4.8.0**
 >
 >Therefore, it is recommended to wait for error logs to stabilize before accessing the instance. The user has to wait for specific logs related to uninstallation of updater bundle before being ensured that the installations is successful. It generally happens on Safari but can intermittently happen on any browser.
 
 ### Automatic installation {#auto-installation}
 
-There are two ways to automatically install AEM 6.4.6.0 into a running instance:
+There are two ways to automatically install AEM 6.4.8.0 into a running instance:
 
 A. Place the package into ..*/crx-quickstart/install* folder while the server is running. The package gets installed automatically.
 
@@ -1808,22 +2129,22 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 
 >[!NOTE]
 >
->AEM 6.4.6.0 does not support Bootstrap installation.
+>AEM 6.4.8.0 does not support Bootstrap installation.
 
 ### Validate installation {#validate-install}
 
-1. The Product Information page (*/system/console/  productinfo *) should now show the updated version string "Adobe Experience Manager, Version 6.4.6.0" under Installed Products.
+1. The Product Information page (*/system/console/  productinfo *) should now show the updated version string "Adobe Experience Manager, Version 6.4.8.0" under Installed Products.
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
-1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.15 or higher (Use Web Console: /system/console/bundles).
+1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.17 or higher (Use Web Console: /system/console/bundles).
 
 To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites-deploying/technical-requirements.md).
 
 >[!Note]
->On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-6 installed successfully."**
+>On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-7 installed successfully."**
 
 ### Update Dynamic Media Viewers (5.10.1) {#update-dynamic-media-viewers}
 
-<p id="Dynamic">AEM 6.4.6.0 contains new version of Dynamic Media viewers (5.10.1) which enables check for duplicate names on Image Preset page. Dynamic Media customers are advised to run the following command to bring out of the box viewer presets to an up-to-date state.
+<p id="Dynamic">AEM 6.4.8.0 contains new version of Dynamic Media viewers (5.10.1) which enables check for duplicate names on Image Preset page. Dynamic Media customers are advised to run the following command to bring out of the box viewer presets to an up-to-date state.
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
 
@@ -1839,7 +2160,7 @@ which will copy new viewer presets to /conf location.
 
 >[!NOTE]
 >
->AEM 6.4.6.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/fd/AEM-FORMS-6.4.2.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.4.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
+>AEM 6.4.8.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/compatpack/AEM-FORMS-6.4.7.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.8.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
 
 1. Ensure that you have installed the AEM Service Pack. 
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.
@@ -1851,7 +2172,7 @@ which will copy new viewer presets to /conf location.
 >
 >Skip if you are not using AEM Forms on JEE. Fixes in AEM Forms JEE are delivered through a separate installer.
 
-For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0009](https://helpx.adobe.com/aem-forms/quick-fixes/6-4/jee-patch-0009.html).
+For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0015](https://helpx.adobe.com/aem-forms/quick-fixes/6-4/jee-patch-0015.html).
 
 #### Configuration settings required for NPR-21268 {#configuration-settings-required-for-npr}
 
@@ -1877,7 +2198,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 ### Uber Jar {#uber-jar}
 
-The Uber Jar for AEM 6.4.6.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.6/).
+The Uber Jar for AEM 6.4.8.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.8/).
 
 To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
@@ -1885,7 +2206,7 @@ To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](
 <dependency>
       <code>com.adobe.aem</groupId>
       <artifactId>uber-jar</artifactId>
-      <version>6.4.6</version>
+      <version>6.4.8</version>
       <classifier>apis</classifier>
       <scope>provided</scope>
 </dependency>
@@ -1893,24 +2214,16 @@ To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](
 
 ### Removed/Deprecated Features {#removed-deprecated-features}
 
-This section lists features and capabilities that have been removed or deprecated from AEM 6.4. 
+This section lists features and capabilities that have been removed or deprecated from AEM 6.4.
 
 | Area |Feature |Replacement |Version |
 |---|---|---|---|
 | Assets |Manage Tag Action for Subassets |No Replacement |AEM 6.4.2.0 |
-| Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/creative-cloud.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](https://helpx.adobe.com/experience-manager/6-4/assets/using/aem-cc-integration-best-practices.html) article. | AEM 6.4.4.0 |
+| Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/creative-cloud.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](/help/assets/aem-cc-integration-best-practices.md) article. | AEM 6.4.4.0 |
 
 ### Known Issues {#known-issues}
 
-* If **Publish page** and **Unpublish page** do not display in the list of **Page Information** options, contact Adobe support.
-
-* After installing AEM 6.4 Service Pack 6, you may see multiple entries for `Apache Commons Codec` in the `system/console` bundles. To resolve this execute the following command:
-
-  `sh removing-commons.codec-1.11.0.sh <host> <port> <username> <password>`
-
-  The command retains the latest version (greater than 1.11.0) of `Apache Commons Codec` and removes other entries.
-
-* The following errors and warnings may occur during installation of AEM 6.4.6.0 and can be safely ignored as they do not impact your AEM instance:
+* The following errors and warnings may display during installation:
 
   * Errors as create component instance and Service factory returned null occurs due to repository restart:
 
@@ -1920,6 +2233,7 @@ This section lists features and capabilities that have been removed or deprecate
   * `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)]` : Timeout waiting for reg change to complete unregistered.
   * `com.adobe.granite.maintenance.impl.TaskScheduler` No maintenance windows found at granite/operations/maintenance
   * `com.adobe.cq.com.adobe.cq.ui.commons bundle com.adobe.cq.com.adobe.cq.ui.commons:1.2.28 (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)]`: The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).
+  These errors do not require any action as they do not impact your AEM instance.
 
 ### Resolved Issues {#resolved-issues}
 
@@ -1934,23 +2248,22 @@ To workaround this issue:
 
 ### OSGi bundles and Content Packages included {#osgi-bundles-and-content-packages-included}
 
-The following text documents list the OSGi bundles and Content Packages included in AEM 6.4.6.0.
+The following text documents list the OSGi bundles and Content Packages included in AEM 6.4.8.0.
 
-List of OSGi bundles included in AEM 6.4.6.0
+List of OSGi bundles included in AEM 6.4.8.0
 
-[Get File](assets/6.4.6.0_bundle.txt)
+[Get File](assets/6.4.8.0_osgi_bundles.txt)
 
-List of Content Packages included in AEM 6.4.6.0
+List of Content Packages included in AEM 6.4.8.0
 
-[Get File](assets/6.4.6.0_OSGI.txt)
+[Get File](assets/6.4.8.0_content_packages.txt)
 
 ### Helpful resources {#helpful-resources}
 
 * [AEM 6.4 release notes](../release-notes/release-notes.md)
 * [AEM product page](https://www.adobe.com/solutions/web-experience-management.html)
-* [AEM developer support](https://docs.adobe.com/content/ddc/en.html)
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* Subscribe to [Adobe Priority Product Updates](https://www.adobe.com/subscription/priority-product-update.html)
+* Subscribe to [Adobe priority product updates](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### Restricted Sites {#restricted-sites-new}
 

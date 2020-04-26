@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
+product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Classic UI Authoring User Guide
 ---
@@ -85,5 +85,4 @@ user-guide-title: AEM 6.4 Classic UI Authoring User Guide
     + [Naming conventions for assets testing](asset-naming-conventions.md)
     + [About the uploading and processing of 3D assets in AEM](classicui-upload-proc-3d.md)
     + [About the use of stages in AEM 3D](classicui-stages-aem3d.md)
-    + [Using Asset Share Pages](manage-assets-classic-using-share-page.md)
     + [Resolving file dependencies](classicui-upload-proc-3d-resolve-dependencies.md)

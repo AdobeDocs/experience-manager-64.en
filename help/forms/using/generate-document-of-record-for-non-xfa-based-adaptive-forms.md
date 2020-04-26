@@ -36,10 +36,10 @@ When you create an adaptive form, you can select a form model. Your options are:
 
   Lets you select an XML schema definition for your adaptive form. When you select an XML schema for your adaptive form, you can:
 
-    * Associate an XFA template for document of record. Ensure that associated XFA template uses the same XML schema as your adaptive form
-    * Automatically generate document of record
+  * Associate an XFA template for document of record. Ensure that associated XFA template uses the same XML schema as your adaptive form
+  * Automatically generate document of record
 
-* None 
+* None
 
   Lets you create an adaptive form without a form model. The document of record is automatically generated for your adaptive form.
 
@@ -47,7 +47,7 @@ When you select a form model, configure document of record using options availab
 
 ## Automatically generated document of record {#automatically-generated-document-of-record}
 
-A document of record lets your customers keep a copy of submitted form for printing purpose. When you automatically generate a document of record, everytime you change your form, its document of record is updated immediately. For example, you remove age field for customers who select United States of America as their country. When such customers generate a document of record, the age field is not visible to them in the document of record.   
+A document of record lets your customers keep a copy of submitted form for printing purpose. When you automatically generate a document of record, everytime you change your form, its document of record is updated immediately. For example, you remove age field for customers who select United States of America as their country. When such customers generate a document of record, the age field is not visible to them in the document of record.
   
 Automatically generated document of record has the following advantages:
 
@@ -266,7 +266,7 @@ Perform the following steps to configure a document of record for adaptive forms
 
    >[!NOTE]
    >
-   >In the Form Model tab, ensure that you select** Schema** or **None** from the **Select From** drop-down. **[!UICONTROL Document of record is not supported for XFA-based or adaptive forms with Form Template as form model.]**
+   >In the Form Model tab, ensure that you select **Schema** or **None** from the **Select From** drop-down. **[!UICONTROL Document of record is not supported for XFA-based or adaptive forms with Form Template as form model.]**
 
 1. In the Document of Record Template Configuration section of the Form Model tab, select one of the following options.
 
@@ -277,8 +277,6 @@ Perform the following steps to configure a document of record for adaptive forms
    The selected XDP file gets associated with the adaptive form.
 
    **Generate Document of Record** Select this option to use an XDP file as a base template for defining the styling and appearance for the document of record. On selecting this option, all XDP files available in AEM Forms repository are displayed. Select the appropriate file.
-
-   **Generate Document of Record** Discuss this with Vinay and redraft...
 
    **[!UICONTROL Select this option to use an XDP file as a base template for defining the styling and appearance for the document of record. On selecting this option, all XDP files available in AEM Forms repository are displayed. Select the appropriate file.]**
 

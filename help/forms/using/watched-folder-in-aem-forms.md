@@ -18,7 +18,7 @@ An administrator can configure a network folder, known as a Watched Folder, so t
 
 You can use one of the following methods to create a Watched Folder on the file system:
 
-* While configuring the properties of a Watched Folder configuration node, type the full path of the parent directory in the folderPath property and append the name of the Watched Folder to be created, as shown in the following example: `C:/MyPDFs/MyWatchedFolder` 
+* While configuring the properties of a Watched Folder configuration node, type the full path of the parent directory in the folderPath property and append the name of the Watched Folder to be created, as shown in the following example: `C:/MyPDFs/MyWatchedFolder`
 
   The `MyWatchedFolder`folder does not exist, AEM Forms attempts to create the folder at the specified path.
 
@@ -49,7 +49,7 @@ To configure a Watched Folder, create a Watched Folder configuration node. Perfo
 
    For complete list of supported properties, see [Watched Folder properties](/help/forms/using/watched-folder-in-aem-forms.md#main-pars-header-1).
 
-1. Click** Save All**. After the node is created and the properties are saved. The `input`, `result`, `failure`, `preserve`, and `stage`folders are created at the path specified in the `folderPath` property.
+1. Click **Save All**. After the node is created and the properties are saved. The `input`, `result`, `failure`, `preserve`, and `stage`folders are created at the path specified in the `folderPath` property.
 
    The scan-job starts scanning the Watched Folder at a defined time-interval.
 
@@ -650,7 +650,7 @@ The ECMAScript would use PDF Generator’s createPDF API to convert Microsoft Wo
 
 1. Right-click the Process Step and select **Edit**. The Step Properties window appears.  
 
-1. In the Process tab, select the ECMAScript. For example, the pdfg-openOffice-sample.ecma script created in [Create an ECMAScript](#p-create-an-ecmascript-p). Enable the **Handler Advance **option and click **OK**.
+1. In the Process tab, select the ECMAScript. For example, the pdfg-openOffice-sample.ecma script created in [Create an ECMAScript](#p-create-an-ecmascript-p). Enable the **Handler Advance** option and click **OK**.
 
    ![create-a-workflow3-pdf](assets/create-a-workflow3-pdf.png)
 

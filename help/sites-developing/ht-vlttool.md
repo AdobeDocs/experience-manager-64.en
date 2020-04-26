@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a76425e9-fd3b-4c73-80f9-0ebabb8fd94f
 ---
 
-# How to use the VLT Tool{#how-to-use-the-vlt-tool}
+# How to Use the VLT Tool {#how-to-use-the-vlt-tool}
 
 The Jackrabbit FileVault tool (VLT) is a tool developed by [The Apache Foundation](https://www.apache.org/) that maps the content of a Jackrabbit/AEM instance to your file system. The VLT tool has similar functions as source control system client (such as a Subversion (SVN) client), providing normal check-in, check-out and management operations, as well as configuration options for flexible representation of the project content.
 
@@ -19,9 +19,7 @@ You run the VLT tool from the command line. This document describes how to use t
 
 ## Concepts and Architecture {#concepts-and-architecture}
 
->[!NOTE]
->
->See the [Filevault Overview](https://jackrabbit.apache.org/filevault/overview.html) and [Vault FS](https://jackrabbit.apache.org/filevault/vaultfs.html) page from the official [Apache Jackrabbit Filevault documentation](https://jackrabbit.apache.org/filevault/index.html).
+See the [Filevault Overview](https://jackrabbit.apache.org/filevault/overview.html) and [Vault FS](https://jackrabbit.apache.org/filevault/vaultfs.html) page from the official [Apache Jackrabbit Filevault documentation](https://jackrabbit.apache.org/filevault/index.html) for a thorough overview of the concepts and strucure of the Filevault tool.
 
 ## Getting Started with VLT {#getting-started-with-vlt}
 
@@ -33,41 +31,42 @@ To start using VLT, you need to do the following:
 1. Synchronize with the repository.
 1. Test whether the synchronization worked.
 
-### Installing the vlt tool {#installing-the-vlt-tool}
+### Installing the VLT Tool {#installing-the-vlt-tool}
 
-To use the VLT tool, you first need to install it. It is not installed by default and is an additional tool available in the `/opt` folder of your AEM instance. In addition, you need to set your system's environment variable.
+To use the VLT tool, you first need to install it. It is not installed by default as it is an additional tool. In addition, you need to set your system's environment variable.
 
-1. Copy the FileVault archive file from the cq-quickstart/opt/filevault directory of your installation. Copy either filevalut.tgz or filevault.zip, depending on your operating system.
-
-   You can also download the latest version of FileVault from [Package Share](/help/sites-administering/package-manager.md).
-
+1. Download the FileVault archive file from the [Maven artifact repository.](https://repo1.maven.org/maven2/org/apache/jackrabbit/vault/vault-cli/)
+    >[!NOTE]
+    >
+    >The source of the VLT tool is [available on GitHub.](https://github.com/apache/jackrabbit-filevault)
 1. Extract the archive.
-1. Add `<archive-dir>/vault-cli-<version>/bin` to your environment `PATH` so that the command files vlt or vlt.bat are accessed as appropriate.
+1. Add `<archive-dir>/vault-cli-<version>/bin` to your environment `PATH` so that the command files `vlt` or `vlt.bat` are accessed as appropriate. For example:
+    
+    `<aem-installation-dir>/crx-quickstart/opt/helpers/vault-cli-3.1.16/bin>`
 
-   For example, `<aem-installation-dir>/crx-quickstart/opt/helpers/vault-cli-3.1.16/bin>`
-
-1. Open a command line shell and execute vlt --help. Make sure it displays the following help screen:
+1. Open a command line shell and execute `vlt --help`. Make sure the output is similar to the following help screen:
 
    ```shell
    vlt --help
    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   Jackrabbit FileVault [version 3.1.16] Copyright 2013 by Apache Software Foundation. See LICENSE.txt for more information.                                                    
+   Jackrabbit FileVault [version 3.1.16] Copyright 2013 by Apache Software Foundation. See LICENSE.txt for more information.
    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   Usage:                                                                                                                                                                       
-     vlt [options] <command> [arg1 [arg2 [arg3] ..]]                                                                                                                            
+   Usage:
+     vlt [options] <command> [arg1 [arg2 [arg3] ..]]
    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   
-   Global options:                                                                                                                                                              
-     -Xjcrlog <arg>           Extended JcrLog options (omit argument for help)                                                                                                  
-     -Xdavex <arg>            Extended JCR remoting options (omit argument for help)                                                                                            
-     --credentials <arg>      The default credentials to use                                                                                                                    
-     --update-credentials     if present the credentials-to-host list is updated in the ~/.vault/auth.xml                                                                       
-     --config <arg>           The JcrFs config to use                                                                                                                           
-     -v (--verbose)           verbose output                                                                                                                                    
-     -q (--quiet)             print as little as possible                                                                                                                       
-     --version                print the version information and exit                                                                                                            
-     --log-level <level>      the log4j log level                                                                                                                               
-     -h (--help) <command>    print this help                                                                                          
+
+   Global options:
+
+     -Xjcrlog <arg>           Extended JcrLog options (omit argument for help)
+     -Xdavex <arg>            Extended JCR remoting options (omit argument for help)
+     --credentials <arg>      The default credentials to use
+     --update-credentials     if present the credentials-to-host list is updated in the ~/.vault/auth.xml
+     --config <arg>           The JcrFs config to use
+     -v (--verbose)           verbose output
+     -q (--quiet)             print as little as possible
+     --version                print the version information and exit
+     --log-level <level>      the log4j log level
+     -h (--help) <command>    print this help
    ```
 
 After you have installed it you need to update global ignored subversion files. Edit your svn settings and add the following:
@@ -85,7 +84,7 @@ global-ignores = .vlt
 VLT automatically handles End Of Line (EOF) according to the following rules:
 
 * lines of files checked out on Windows end with a `CRLF`
-* lines of files checked out on Unices end with a `LF`
+* lines of files checked out on Linux/Unix end with a `LF`
 * lines of files commited to the repository end with a `LF`
 
 To guarantee that VLT and SVN configuration match, you should set up the `svn:eol-style` property to `native` for the extension of the files stored in the repository. Edit your svn settings and add the following:
@@ -105,7 +104,7 @@ To guarantee that VLT and SVN configuration match, you should set up the `svn:eo
 *.properties = svn:eol-style=native
 ```
 
-### Checking out the repository {#checking-out-the-repository}
+### Checking Out the Repository {#checking-out-the-repository}
 
 Check out the repository using the source control system. In svn, for example, type the following (substituting the URI and path with your repository):
 
@@ -113,11 +112,11 @@ Check out the repository using the source control system. In svn, for example, t
 svn co https://svn.server.com/repos/myproject
 ```
 
-### Synchronizing with the repository {#synchronizing-with-the-repository}
+### Synchronizing with the Repository {#synchronizing-with-the-repository}
 
 You need to synchronize filevault with the repository. To do this:
 
-1. In the command line, navigate to **content/jcr_root**.
+1. In the command line, navigate to `content/jcr_root`.
 1. Check out the repository by typing the following (substituting your port number for **4502** and your admin passwords):
 
    ```shell
@@ -126,16 +125,16 @@ You need to synchronize filevault with the repository. To do this:
 
    >[!NOTE]
    >
-   >The credentials have to be specified only once upon your initial checkout. They will then be stored in your home directory inside **.vault/auth.xml**.
+   >The credentials have to be specified only once upon your initial checkout. They will then be stored in your home directory inside `.vault/auth.xml`.
 
-### Testing whether the synchronization worked {#testing-whether-the-synchronization-worked}
+### Testing Whether the Synchronization Worked {#testing-whether-the-synchronization-worked}
 
 After you have checked out the repository and synchronized it, you should test to make sure everything functions properly. An easy way to do this is to edit a **.jsp** file and see whether your changes are reflected after committing the changes.
 
 To test the synchronization:
 
-1. Navigate to **.../jcr_content/libs/foundation/components/text**.
-1. Edit something in **text.jsp**.
+1. Navigate to `.../jcr_content/libs/foundation/components/text`.
+1. Edit something in `text.jsp`.
 1. See the modified files by typing `vlt st`
 1. See the changes by typing `vlt diff text.jsp`
 1. Commit the changes: `vlt ci test.jsp`.
@@ -148,42 +147,42 @@ After installing the VLT tool, you can access its Help file from the command lin
 ```shell
 vlt --help
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Jackrabbit FileVault [version 3.1.16] Copyright 2013 by Apache Software Foundation. See LICENSE.txt for more information.                                                    
+Jackrabbit FileVault [version 3.1.16] Copyright 2013 by Apache Software Foundation. See LICENSE.txt for more information.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Usage:                                                                                                                                                                       
-  vlt [options] <command> [arg1 [arg2 [arg3] ..]]                                                                                                                            
+Usage:
+  vlt [options] <command> [arg1 [arg2 [arg3] ..]]
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Global options:                                                                                                                                                              
-  -Xjcrlog <arg>           Extended JcrLog options (omit argument for help)                                                                                                  
-  -Xdavex <arg>            Extended JCR remoting options (omit argument for help)                                                                                            
-  --credentials <arg>      The default credentials to use                                                                                                                    
-  --update-credentials     if present the credentials-to-host list is updated in the ~/.vault/auth.xml                                                                       
-  --config <arg>           The JcrFs config to use                                                                                                                           
-  -v (--verbose)           verbose output                                                                                                                                    
-  -q (--quiet)             print as little as possible                                                                                                                       
-  --version                print the version information and exit                                                                                                            
-  --log-level <level>      the log4j log level                                                                                                                               
-  -h (--help) <command>    print this help                                                                                                                                   
-Commands:                                                                                                                                                                    
-  export                   Export the Vault filesystem                                                                                                                       
-  import                   Import a Vault filesystem                                                                                                                         
-  checkout (co)            Checkout a Vault file system                                                                                                                      
-  status (st)              Print the status of working copy files and directories.                                                                                           
-  update (up)              Bring changes from the repository into the working copy.                                                                                          
-  info                     Displays information about a local file.                                                                                                          
-  commit (ci)              Send changes from your working copy to the repository.                                                                                            
-  revert (rev)             Restore pristine working copy file (undo most local edits).                                                                                       
-  resolved (res)           Remove 'conflicted' state on working copy files or directories.                                                                                   
-  propget (pg)             Print the value of a property on files or directories.                                                                                            
-  proplist (pl)            Print the properties on files or directories.                                                                                                     
-  propset (ps)             Set the value of a property on files or directories.                                                                                              
-  add                      Put files and directories under version control.                                                                                                  
-  delete (del,rm)          Remove files and directories from version control.                                                                                                
-  diff (di)                Display the differences between two paths.                                                                                                        
-  rcp                      Remote copy of repository content.                                                                                                                
-  sync                     Control vault sync service                                                                                                                        
-  console                  Run an interactive console                                                                                                                        
+Global options:
+  -Xjcrlog <arg>           Extended JcrLog options (omit argument for help)
+  -Xdavex <arg>            Extended JCR remoting options (omit argument for help)
+  --credentials <arg>      The default credentials to use
+  --update-credentials     if present the credentials-to-host list is updated in the ~/.vault/auth.xml
+  --config <arg>           The JcrFs config to use
+  -v (--verbose)           verbose output
+  -q (--quiet)             print as little as possible
+  --version                print the version information and exit
+  --log-level <level>      the log4j log level
+  -h (--help) <command>    print this help
+Commands:
+  export                   Export the Vault filesystem
+  import                   Import a Vault filesystem
+  checkout (co)            Checkout a Vault file system
+  status (st)              Print the status of working copy files and directories.
+  update (up)              Bring changes from the repository into the working copy.
+  info                     Displays information about a local file.
+  commit (ci)              Send changes from your working copy to the repository.
+  revert (rev)             Restore pristine working copy file (undo most local edits).
+  resolved (res)           Remove 'conflicted' state on working copy files or directories.
+  propget (pg)             Print the value of a property on files or directories.
+  proplist (pl)            Print the properties on files or directories.
+  propset (ps)             Set the value of a property on files or directories.
+  add                      Put files and directories under version control.
+  delete (del,rm)          Remove files and directories from version control.
+  diff (di)                Display the differences between two paths.
+  rcp                      Remote copy of repository content.
+  sync                     Control vault sync service
+  console                  Run an interactive console
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```
@@ -192,41 +191,40 @@ For help on a particular command, type the help command followed by the name of 
 
 ```shell
 vlt --help export
-Usage:                                                                                                                                                                       
- export -v|-t <arg>|-p <uri> <jcr-path> <local-path>                                                                                                                         
+Usage:
+ export -v|-t <arg>|-p <uri> <jcr-path> <local-path>
 
 Description:
-  Export the Vault filesystem mounted at <uri> to the local filesystem at <local-path>. An optional <jcr-path> can be specified in order to export just a sub tree.          
-                                                                                                                                                                             
-  Example:                                                                                                                                                                   
-    vlt export http://localhost:4502/crx /apps/geometrixx myproject                                                                                                          
+  Export the Vault filesystem mounted at <uri> to the local filesystem at <local-path>. An optional <jcr-path> can be specified in order to export just a sub tree.
+  Example:
+    vlt export http://localhost:4502/crx /apps/geometrixx myproject
 
-Options:                                                                                                                                                                     
-  -v (--verbose)          verbose output                                                                                                                                     
-  -t (--type) <arg>       specifies the export type. either 'platform' or 'jar'.                                                                                             
-  -p (--prune-missing)    specifies if missing local files should be deleted.                                                                                                
-  <uri>                   mountpoint uri                                                                                                                                     
-  <jcr-path>              the jcr path                                                                                                                                       
-  <local-path>            the local path                        
+Options:
+  -v (--verbose)          verbose output
+  -t (--type) <arg>       specifies the export type. either 'platform' or 'jar'.
+  -p (--prune-missing)    specifies if missing local files should be deleted.
+  <uri>                   mountpoint uri
+  <jcr-path>              the jcr path
+  <local-path>            the local path
 ```
 
 ## Common Tasks Performed in VLT {#common-tasks-performed-in-vlt}
 
 The following are some common tasks performed in VLT. For detailed information on each command see the individual [commands](#vlt-commands).
 
-### Checking out a subtree {#checking-out-a-subtree}
+### Checking Out a Subtree {#checking-out-a-subtree}
 
-If you only want to check out a subtree of the repository for example, **/apps/geometrixx**, you can do so by typing the following:
+If you only want to check out a subtree of the repository for example, `/apps/geometrixx`, you can do so by typing the following:
 
 ```shell
 vlt co http://localhost:4502/crx/-/jcr:root/apps/geometrixx geo
 ```
 
-Doing this creates a new export root **geo** with a **META-INF** and **jcr_root** directory and puts all files below **/apps/geometrixx** in **geo/jcr_root**.
+Doing this creates a new export root `geo` with a `META-INF` and `jcr_root` directory and puts all files below `/apps/geometrixx` in `geo/jcr_root`.
 
-### Performing a filtered checkout {#performing-a-filtered-checkout}
+### Performing a Filtered Checkout {#performing-a-filtered-checkout}
 
-If you have an existing workspace filter and you want to use it for checkout, you can either first create the **META-INF/vault** directory and place the filter there, or specify it on the command line as follows:
+If you have an existing workspace filter and you want to use it for checkout, you can either first create the `META-INF/vault` directory and place the filter there, or specify it on the command line as follows:
 
 ```shell
 $ vlt co --filter filter.xml http://localhost:4502/crx/-/jcr:root geo
@@ -242,11 +240,11 @@ An example filter:
 </workspaceFilter>
 ```
 
-### Using import/export instead of .vlt control {#using-import-export-instead-of-vlt-control}
+### Using Import/Export Instead of .vlt Control {#using-import-export-instead-of-vlt-control}
 
 You can import and export content between a JCR repository and the local file system without using control files.
 
-To import and export content without using .vlt control:
+To import and export content without using `.vlt` control:
 
 1. Initially set up the repository:
 
@@ -292,159 +290,45 @@ Options and commands are described in detail in the following sections.
 
 The following is a list of VLT options, which are available for all commands. See the individual commands for information on additional available options.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Option<br /> </strong></td> 
-   <td><strong>Description<br /> </strong></td> 
-  </tr> 
-  <tr> 
-   <td>-Xjcrlog &lt;arg&gt;</td> 
-   <td>Extended JcrLog options<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>-Xdavex &lt;arg&gt;</td> 
-   <td>Extended JCR remoting options<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>--credentials &lt;arg&gt;</td> 
-   <td>The default credentials to use</td> 
-  </tr> 
-  <tr> 
-   <td>--config &lt;arg&gt;</td> 
-   <td>The JcrFs config to use<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>print as little as possible <br /> </td> 
-  </tr> 
-  <tr> 
-   <td>--version</td> 
-   <td>Prints the version information and exits VLT</td> 
-  </tr> 
-  <tr> 
-   <td>--log-level &lt;level&gt;</td> 
-   <td>Indicates the log level, for example, the log4j log level.</td> 
-  </tr> 
-  <tr> 
-   <td>-h (--help) &lt;command&gt;</td> 
-   <td>Prints help for that particular command</td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|Option|Description|
+|`-Xjcrlog <arg>`|Extended JcrLog options|
+|`-Xdavex <arg>`|Extended JCR remoting options|
+|`--credentials <arg>`|The default credentials to use|
+|`--config <arg>`|The JcrFs config to use|
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|print as little as possible|
+|`--version`|Prints the version information and exits VLT|
+|`--log-level <level>`|Indicates the log level, for example, the log4j log level.|
+|`-h (--help) <command>`|Prints help for that particular command|
 
 ## VLT Commands {#vlt-commands}
 
 The following table describes all available VLT commands. See the individual commands for detailed information on syntax, available options, and examples.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Command</strong></td> 
-   <td><strong>Abbreviated Command</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>export <br /> </td> 
-   <td><strong> </strong></td> 
-   <td>Exports from a JCR repository (vault file system) to the local file system without control files.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>import</td> 
-   <td> </td> 
-   <td>Imports a local file system to a JCR repository (vault file system).</td> 
-  </tr> 
-  <tr> 
-   <td>checkout<br /> </td> 
-   <td>co</td> 
-   <td>Checks out a Vault file system. Use this for an initial JCR repository to the local file system. (<strong>Note:</strong> You must first check out the repository in subversion.)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>analyze <br /> </td> 
-   <td> </td> 
-   <td>Analyzes packages.</td> 
-  </tr> 
-  <tr> 
-   <td>status</td> 
-   <td>st</td> 
-   <td>Prints the status of working copy files and directories.</td> 
-  </tr> 
-  <tr> 
-   <td>update</td> 
-   <td>up</td> 
-   <td>Imports changes from the repository into the working copy.</td> 
-  </tr> 
-  <tr> 
-   <td>info</td> 
-   <td> </td> 
-   <td>Displays information about a local file.</td> 
-  </tr> 
-  <tr> 
-   <td>commit</td> 
-   <td>ci</td> 
-   <td>Sends changes from your working copy to the repository.</td> 
-  </tr> 
-  <tr> 
-   <td>revert</td> 
-   <td>rev</td> 
-   <td>Restores the working copy file to its original state and undoes most local edits.</td> 
-  </tr> 
-  <tr> 
-   <td>resolved</td> 
-   <td>res</td> 
-   <td>Removes <strong>conflicted</strong> state on working copy files or directories.</td> 
-  </tr> 
-  <tr> 
-   <td>propget</td> 
-   <td>pg</td> 
-   <td>Prints the value of a property on files or directories.</td> 
-  </tr> 
-  <tr> 
-   <td>proplist</td> 
-   <td>pl</td> 
-   <td>Prints the properties on files or directories. <br /> </td> 
-  </tr> 
-  <tr> 
-   <td>propset</td> 
-   <td>ps</td> 
-   <td>Sets the value of a property on files or directories.</td> 
-  </tr> 
-  <tr> 
-   <td>add</td> 
-   <td> </td> 
-   <td>Puts files and directories under version control.</td> 
-  </tr> 
-  <tr> 
-   <td>delete</td> 
-   <td>del or rm</td> 
-   <td>Removes files and directories from version control.</td> 
-  </tr> 
-  <tr> 
-   <td>diff</td> 
-   <td>di</td> 
-   <td>Displays the differences between two paths.</td> 
-  </tr> 
-  <tr> 
-   <td>console</td> 
-   <td> </td> 
-   <td>Runs an interactive console.</td> 
-  </tr> 
-  <tr> 
-   <td>rcp</td> 
-   <td> </td> 
-   <td>Copies a node tree from one remote repository to another.</td> 
-  </tr> 
-  <tr> 
-   <td>sync </td> 
-   <td> </td> 
-   <td>Allows to control the vault sync service.</td> 
-  </tr> 
- </tbody> 
-</table>
+||||
+|--- |--- |--- |
+|Command|Abbreviated Command|Description|
+|`export`||Exports from a JCR repository (vault file system) to the local file system without control files.|
+|`import`||Imports a local file system to a JCR repository (vault file system).|
+|`checkout`|`co`|Checks out a Vault file system. Use this for an initial JCR repository to the local file system. (Note: You must first check out the repository in subversion.)|
+|`analyze`||Analyzes packages.|
+|`status`|`st`|Prints the status of working copy files and directories.|
+|`update`|`up`|Imports changes from the repository into the working copy.|
+|`info`||Displays information about a local file.|
+|`commit`|`ci`|Sends changes from your working copy to the repository.|
+|`revert`|`rev`|Restores the working copy file to its original state and undoes most local edits.|
+|`resolved`|`res`|Removes conflicted state on working copy files or directories.|
+|`propget`|`pg`|Prints the value of a property on files or directories.|
+|`proplist`|`pl`|Prints the properties on files or directories.|
+|`propset`|`ps`|Sets the value of a property on files or directories.|
+|`add`||Puts files and directories under version control.|
+|`delete`|`del` or `rm`|Removes files and directories from version control.|
+|`diff`|`di`|Displays the differences between two paths.|
+|`console`||Runs an interactive console.|
+|`rcp`||Copies a node tree from one remote repository to another.|
+|`sync`||Allows to control the vault sync service.|
 
 ### Export {#export}
 
@@ -458,34 +342,14 @@ export -v|-t <arg>|-p <uri> <jcr-path> <local-path>
 
 #### Options {#options}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-t (--type) &lt;arg&gt;</td> 
-   <td>specifies the export type, either <strong>platform</strong> or <strong>jar</strong>.</td> 
-  </tr> 
-  <tr> 
-   <td>-p (--prune-missing)</td> 
-   <td>specifies if missing local files should be deleted</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;uri&gt;</td> 
-   <td>mountpoint uri</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;jcrPath&gt;</td> 
-   <td>JCR path<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;localPath&gt;</td> 
-   <td>local path<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output|
+|`-t (--type) <arg>`|specifies the export type, either platform or jar.|
+|`-p (--prune-missing)`|specifies if missing local files should be deleted|
+|`<uri>`|mountpoint uri|
+|`<jcrPath>`|JCR path|
+|`<localPath>`|local path|
 
 #### Examples {#examples}
 
@@ -505,30 +369,13 @@ import -v|-s <uri> <local-path> <jcr-path>
 
 #### Options {#options-1}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-s (-- sync)<br /> </td> 
-   <td>puts the local files under vault control</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;uri&gt;</td> 
-   <td>mountpoint uri</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;jcrPath&gt;</td> 
-   <td>JCR path<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;localPath&gt;</td> 
-   <td>local path<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output|
+|`-s (-- sync)`|puts the local files under vault control|
+|`<uri>`|mountpoint uri|
+|`<jcrPath>`|JCR path|
+|`<localPath>`|local path|
 
 #### Examples {#examples-1}
 
@@ -548,38 +395,15 @@ checkout --force|-v|-q|-f <file> <uri> <jcrPath> <localPath>
 
 #### Options {#options-2}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>--force</td> 
-   <td>forces checkout to overwrite local files if they already exist</td> 
-  </tr> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-f (--filter) &lt;file&gt;</td> 
-   <td>specifies auto filters if none are defined</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;uri&gt;</td> 
-   <td>mountpoint uri</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;jcrPath&gt;</td> 
-   <td>(optional) remote path<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;localPath&gt;</td> 
-   <td>(optional) local path<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`--force`|forces checkout to overwrite local files if they already exist|
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|prints as little as possible|
+|`-f (--filter) <file>`|specifies auto filters if none are defined|
+|`<uri>`|mountpoint uri|
+|`<jcrPath>`|(optional) remote path|
+|`<localPath>`|(optional) local path|
 
 #### Examples {#examples-2}
 
@@ -598,7 +422,7 @@ vlt --credentials admin:admin co http://localhost:8080/crx/server/-/jcr_root/
 If URI is incomplete, it will be expanded:
 
 ```shell
-vlt --credentials admin:admin co http://localhost:8080/crx 
+vlt --credentials admin:admin co http://localhost:8080/crx
 ```
 
 ### Analyze {#analyze}
@@ -613,26 +437,12 @@ analyze -l <format>|-v|-q <localPaths1> [<localPaths2> ...]
 
 #### Options {#options-3}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-l (--linkFormat) &lt;format&gt;</td> 
-   <td>printf format for hotfix links (name,id), for example <code>[CQ520_HF_%s|%s]</code></td> 
-  </tr> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;localPaths&gt; [&lt;localPaths&gt; ...] <br /> </td> 
-   <td>local path<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-l (--linkFormat) <format>`|printf format for hotfix links (name,id), for example `[CQ520_HF_%s|%s]`|
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|prints as little as possible|
+|`<localPaths> [<localPaths> ...]`|local path|
 
 ### Status {#status}
 
@@ -643,35 +453,18 @@ If `--show-update` is specified, each file is checked against the remote version
 #### Syntax {#syntax-4}
 
 ```shell
-status -v|-q|-u|-N <file1> [<file2> ...] 
+status -v|-q|-u|-N <file1> [<file2> ...]
 ```
 
 #### Options {#options-4}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-u (--show-update)</td> 
-   <td>displays update information</td> 
-  </tr> 
-  <tr> 
-   <td>-N (--non-recursive)</td> 
-   <td>operates on a single directory</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to display the status</td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|prints as little as possible|
+|`-u (--show-update)`|displays update information|
+|`-N (--non-recursive)`|operates on a single directory|
+|`<file> [<file> ...]`|file or directory to display the status|
 
 ### Update {#update}
 
@@ -680,35 +473,18 @@ Copies changes from the repository into the working copy.
 #### Syntax {#syntax-5}
 
 ```shell
-update -v|-q|--force|-N <file1> [<file2> ...] 
+update -v|-q|--force|-N <file1> [<file2> ...]
 ```
 
 #### Options {#options-5}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>--force</td> 
-   <td>forces the overwrite of local files<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>-N (--non-recursive)</td> 
-   <td>operates on a single directory</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to update</td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|prints as little as possible|
+|`--force`|forces the overwrite of local files|
+|`-N (--non-recursive)`|operates on a single directory|
+|`<file> [<file> ...]`|file or directory to update|
 
 ### Info {#info}
 
@@ -717,31 +493,17 @@ Displays information about a local file.
 #### Syntax {#syntax-6}
 
 ```shell
-info -v|-q|-R <file1> [<file2> ...] 
+info -v|-q|-R <file1> [<file2> ...]
 ```
 
 #### Options {#options-6}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-R (--recursive)</td> 
-   <td>operates recursive</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to display info<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|prints as little as possible|
+|`-R (--recursive)`|operates recursive|
+|`<file> [<file> ...]`|file or directory to display info|
 
 ### Commit {#commit}
 
@@ -755,30 +517,13 @@ commit -v|-q|--force|-N <file1> [<file2> ...]
 
 #### Options {#options-7}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>--force</td> 
-   <td>forces committing even if the remote copy is modified<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>-N (--non-recursive)</td> 
-   <td>operates on a single directory</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to commit</td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|prints as little as possible|
+|`--force`|forces committing even if the remote copy is modified|
+|`-N (--non-recursive)`|operates on a single directory|
+|`<file> [<file> ...]`|file or directory to commit|
 
 ### Revert {#revert}
 
@@ -787,27 +532,16 @@ Restores working copy file to original state and undoes most local edits.
 #### Syntax {#syntax-8}
 
 ```shell
-revert -q|-R <file1> [<file2> ...]   
+revert -q|-R <file1> [<file2> ...]
 ```
 
 #### Options {#options-8}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-R (--recursive)</td> 
-   <td>descends recursively<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to commit</td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-q (--quiet)`|prints as little as possible|
+|`-R (--recursive)`|descends recursively|
+|`<file> [<file> ...]`|file or directory to commit|
 
 ### Resolved {#resolved}
 
@@ -825,26 +559,12 @@ resolved -q|-R|--force <file1> [<file2> ...]
 
 #### Options {#options-9}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-R (--recursive)</td> 
-   <td>descends recursively<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>--force</td> 
-   <td>resolves, even if there are conflict markers</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to resolve</td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-q (--quiet)`|prints as little as possible|
+|`-R (--recursive)`|descends recursively|
+|`--force`|resolves, even if there are conflict markers|
+|`<file> [<file> ...]`|file or directory to resolve|
 
 ### Propget {#propget}
 
@@ -858,26 +578,12 @@ propget -q|-R <propname> <file1> [<file2> ...]
 
 #### Options {#options-10}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-R (--recursive)</td> 
-   <td>descends recursively<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;propname&gt;</td> 
-   <td>the property name<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to get the property from<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-q (--quiet)`|prints as little as possible|
+|`-R (--recursive)`|descends recursively|
+|`<propname>`|the property name|
+|`<file> [<file> ...]`|file or directory to get the property from|
 
 ### Proplist {#proplist}
 
@@ -886,27 +592,16 @@ Prints the properties on files or directories.
 #### Syntax {#syntax-11}
 
 ```shell
-proplist -q|-R <file1> [<file2> ...] 
+proplist -q|-R <file1> [<file2> ...]
 ```
 
 #### Options {#options-11}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-R (--recursive)</td> 
-   <td>descends recursively<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to list the properties from<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-q (--quiet)`|prints as little as possible|
+|`-R (--recursive)`|descends recursively|
+|`<file> [<file> ...]`|file or directory to list the properties from|
 
 ### Propset {#propset}
 
@@ -914,9 +609,9 @@ Sets the value of a property on files or directories.
 
 >[!NOTE]
 >
->VLT recognizes the following special versioned properties:   
+>VLT recognizes the following special versioned properties:
 >
->**vlt:mime-type** 
+>`vlt:mime-type`
 >
 >The mimetype of the file. Used to determine whether to merge the file. A mimetype beginning with 'text/' (or an absent mimetype) is treated as text. Anything else is treated as binary.
 
@@ -928,30 +623,13 @@ propset -q|-R <propname> <propval> <file1> [<file2> ...]
 
 #### Options {#options-12}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-R (--recursive)</td> 
-   <td>descends recursively<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;propname&gt;</td> 
-   <td>the property name<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;propval&gt;</td> 
-   <td>the property value</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to set the property to<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-q (--quiet)`|prints as little as possible|
+|`-R (--recursive)`|descends recursively|
+|`<propname>`|the property name|
+|`<propval>`|the property value|
+|`<file> [<file> ...]`|file or directory to set the property to|
 
 ### Add {#add}
 
@@ -960,35 +638,18 @@ Puts files and directories under version control, scheduling them for addition t
 #### Syntax {#syntax-13}
 
 ```shell
-add -v|-q|-N|--force <file1> [<file2> ...] 
+add -v|-q|-N|--force <file1> [<file2> ...]
 ```
 
 #### Options {#options-13}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>-N (--non-recursive)<br /> </td> 
-   <td>operates on a single directory</td> 
-  </tr> 
-  <tr> 
-   <td>--force</td> 
-   <td>forces the operation to run<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>local file or directory to add<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|prints as little as possible|
+|`-N (--non-recursive)`|operates on a single directory|
+|`--force`|forces the operation to run|
+|`<file> [<file> ...]`|local file or directory to add|
 
 ### Delete {#delete}
 
@@ -997,31 +658,17 @@ Removes files and directories from version control.
 #### Syntax {#syntax-14}
 
 ```shell
-delete -v|-q|--force <file1> [<file2> ...] 
+delete -v|-q|--force <file1> [<file2> ...]
 ```
 
 #### Options {#options-14}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)</td> 
-   <td>verbose output</td> 
-  </tr> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>prints as little as possible</td> 
-  </tr> 
-  <tr> 
-   <td>--force</td> 
-   <td>forces the operation to run<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>local file or directory to delete<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output|
+|`-q (--quiet)`|prints as little as possible|
+|`--force`|forces the operation to run|
+|`<file> [<file> ...]`|local file or directory to delete|
 
 ### Diff {#diff}
 
@@ -1035,18 +682,10 @@ diff -N <file1> [<file2> ...]
 
 #### Options {#options-15}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-N (--non-recursive)<br /> </td> 
-   <td>operates on a single directory</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;file&gt; [&lt;file&gt; ...] <br /> </td> 
-   <td>file or directory to display the differences from<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-N (--non-recursive)`|operates on a single directory|
+|`<file> [<file> ...]`|file or directory to display the differences from|
 
 ### Console {#console}
 
@@ -1060,14 +699,9 @@ console -F <file>
 
 #### Options {#options-16}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-F (--console-settings) &lt;file&gt;</td> 
-   <td>specifies the console settings file. The default file is <strong>console.properties</strong>.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-F (--console-settings) <file>`|specifies the console settings file. The default file is console.properties.|
 
 ### Rcp {#rcp}
 
@@ -1081,46 +715,17 @@ rcp -q|-r|-b <size>|-t <seconds>|-u|-n|-e <arg1> [<arg2> ...] <src> <dst>
 
 #### Options {#options-17}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-q (--quiet)</td> 
-   <td>Prints as little as possible.</td> 
-  </tr> 
-  <tr> 
-   <td>-r (--recursive)</td> 
-   <td>Descends recursively.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>-b (--batchSize) &lt;size&gt;</td> 
-   <td>Number of nodes to be processed before an intermediate save.</td> 
-  </tr> 
-  <tr> 
-   <td>-t (--throttle) &lt;seconds&gt;</td> 
-   <td>Number of seconds to wait after<br /> an intermediate save.</td> 
-  </tr> 
-  <tr> 
-   <td>-u (--update)</td> 
-   <td>Overwrite/delete existing nodes.</td> 
-  </tr> 
-  <tr> 
-   <td>-n (--newer)</td> 
-   <td>Respect lastModified properties for update.</td> 
-  </tr> 
-  <tr> 
-   <td>-e (--exclude) &lt;arg&gt; [&lt;arg&gt; ...]</td> 
-   <td>Regexp of excluded source paths.</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;src&gt;<br /> </td> 
-   <td>The repository address of the source tree.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>&lt;dst&gt;</td> 
-   <td>The repository address of the destination node.</td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-q (--quiet)`|Prints as little as possible.|
+|`-r (--recursive)`|Descends recursively.|
+|`-b (--batchSize) <size>`|Number of nodes to be processed before an intermediate save.|
+|`-t (--throttle) <seconds>`|Number of seconds to wait after an intermediate save.|
+|`-u (--update)`|Overwrite/delete existing nodes.|
+|`-n (--newer)`|Respect lastModified properties for update.|
+|`-e (--exclude) <arg> [<arg> ...]`|Regexp of excluded source paths.|
+|`<src>`|The repository address of the source tree.|
+|`<dst>`|The repository address of the destination node.|
 
 #### Examples {#examples-3}
 
@@ -1146,30 +751,13 @@ sync -v|--force|-u <uri> <command> <localPath>
 
 #### Options {#options-18}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>-v (--verbose)<br /> </td> 
-   <td>verbose output.</td> 
-  </tr> 
-  <tr> 
-   <td>--force</td> 
-   <td>force certain commands to execute.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>-u (--uri) &lt;uri&gt;<br /> </td> 
-   <td>specifies the URI of the sync host.</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;command&gt;</td> 
-   <td>sync command to execute.</td> 
-  </tr> 
-  <tr> 
-   <td>&lt;localPath&gt;</td> 
-   <td>local folder to sync.</td> 
-  </tr> 
- </tbody> 
-</table>
+|||
+|--- |--- |
+|`-v (--verbose)`|verbose output.|
+|`--force`|force certain commands to execute.|
+|`-u (--uri) <uri>`|specifies the URI of the sync host.|
+|`<command>`|sync command to execute.|
+|`<localPath>`|local folder to sync.|
 
 ### Status Codes {#status-codes}
 
@@ -1186,9 +774,7 @@ The status codes used by VLT are:
 * '!' item is missing (removed by non-svn command) or incomplete  
 * '~' versioned item obstructed by some item of a different kind
 
-## Setting up FileVault sync {#setting-up-filevault-sync}
-
-This section describes the new synchronization feature shipped with FileVault tool (vlt) since the version 2.4.24.
+## Setting Up FileVault Sync {#setting-up-filevault-sync}
 
 The vault sync service is used to synchronize repository content with a local filesystem representation and vice versa. This is achieved by installing an OSGi service that will listen for repository changes and will scan the filesystem content periodically. It uses the same serialization format as vault for mapping the repository content to disk.
 
@@ -1327,7 +913,7 @@ To setup a development environment based on a sync folder proceed as follows:
    Connecting via JCR remoting to http://localhost:4502/crx/server
    Starting initialization of sync service in existing vlt checkout /Users/colligno/Applications/cq5/vltsync/sandbox/dev/jcr_root for http://localhost:4502/crx/server/-/jcr:root
    Added new sync directory: /Users/trushton/Applications/aem/vltsync/sandbox/dev/jcr_root
-   
+
    The directory /Users/trushton/Applications/aem/vltsync/sandbox/dev/jcr_root is now enabled for syncing.
    You might perform a 'sync-once' by setting the
    appropriate flag in the /Users/trushton/Applications/aem/vltsync/sandbox/dev/jcr_root/.vlt-sync-config.properties file.
@@ -1359,4 +945,3 @@ Your local folder is now synchronized with the repository. The synchronization i
 >[!NOTE]
 >
 >The VLT Sync feature only supports simple files and folders but detects special vault serialized files (.content.xml, dialog.xml, etc) and ignores them silently. Thus it is possible to use vault sync on a default vlt checkout.
-

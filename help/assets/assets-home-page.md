@@ -1,14 +1,7 @@
 ---
 title: AEM Assets Home Page Experience
-seo-title: AEM Assets Home Page Experience
 description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
-seo-description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
-uuid: 787ebcc3-9c20-4e25-8ce5-ecba1b42d123
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
-discoiquuid: c7d6bac8-0897-4a5e-a286-823968dfb52e
+contentOwner: AG
 ---
 
 # AEM Assets Home Page Experience {#aem-assets-home-page-experience}
@@ -86,4 +79,3 @@ The Welcome screen provides easy navigational aids, for example icons on the too
 >Adobe recommends that administrators and users who perform bulk operations avoid using the Asset Home Page feature to prevent increase in user activities. In addition, administrators can exclude recording activities for specific users by configuring **Day CQ DAM Event Recorder** from Configuration Manager.
 >
 >If you use the feature, Adobe recommends that you schedule purge frequency based on the server load.
-

@@ -158,17 +158,17 @@ Once you have the task IDs, do the following to purge the associated files and d
 
        In the GDS file system:
 
-       **a. **Search for files with the following session ID strings as their extensions:
+        1. Search for files with the following session ID strings as their extensions:
 
         * `_wfattach<task_id>`
         * `_wftask<fd_id>`
         * `_wftaskformid<fd_id>`
 
-       The files with these extensions are the marker files. They are stored with filenames in the following format:
+            The files with these extensions are the marker files. They are stored with filenames in the following format:
 
-       `<file_name_guid>.session<session_id_string>`
+            `<file_name_guid>.session<session_id_string>`
 
-       **b. **Delete all marker files and other files with the exact filename as `<file_name_guid>` from the file system.
+        1. Delete all marker files and other files with the exact filename as `<file_name_guid>` from the file system.
     
     1. **GDS in database**
 

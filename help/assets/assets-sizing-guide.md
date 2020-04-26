@@ -1,13 +1,9 @@
 ---
 title: Assets Sizing Guide
-seo-title: Assets Sizing Guide
 description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
-seo-description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
 uuid: f847c07d-2a38-427a-9c38-8cdca3a1210c
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: 82c1725e-a092-42e2-a43b-72f2af3a8e04
 ---
 
@@ -142,4 +138,4 @@ It is difficult to accurately estimate the size of the TIFF file supported out-o
 
 ## Size of Assets {#size-of-assets}
 
-AEM currently lets you upload up to 2 GB of assets at a time. For more information on configuring maximum file upload sizes, see [Managing Assets](managing-assets-touch-ui.md).
+By default, AEM allows you to upload assets of file sizes up to 2 GBs. To upload very large assets in AEM, see [Configuration to upload very large assets](managing-video-assets.md#configuration-to-upload-video-assets-that-are-larger-than-gb).

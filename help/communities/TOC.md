@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
+product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Communities User Guide
 ---
@@ -17,8 +17,8 @@ user-guide-title: AEM 6.4 Communities User Guide
   + [Getting Started with AEM Communities for Enablement](getting-started-enablement.md)
   + [Initial Setup](setup.md)
   + [Author a New Community Site](create-site.md)
-  + [Experience the Published Site](published-site.md)  
-  + [Authoring Nested Groups](nested-groups.md)  
+  + [Experience the Published Site](published-site.md)
+  + [Authoring Nested Groups](nested-groups.md)
   + [Initial Setup for Enablement](enablement-setup.md)
   + [Author a New Community Site for Enablement](enablement-create-site.md)
   + [Create and Assign Enablement Resources](resource.md)
@@ -100,7 +100,6 @@ user-guide-title: AEM 6.4 Communities User Guide
   + [Leaderboard Essentials](leaderboard.md)
   + [Liking Essentials](essentials-liking.md)
   + [Messaging Essentials](essentials-messaging.md)
-  + [Poll Essentials](poll-basics.md)
   + [QnA Essentials](qna-essentials.md)
   + [Rating Essentials](rating-basics.md)
   + [Reviews Essentials](reviews-basics.md)
@@ -147,10 +146,9 @@ user-guide-title: AEM 6.4 Communities User Guide
   + [Forum Feature](forum.md)
   + [Community Groups](creating-groups.md)
   + [Ideation Feature](ideation-feature.md)
-  + [Leaderboard Feature](enabling-leaderboard.md)  
+  + [Leaderboard Feature](enabling-leaderboard.md)
   + [Using Liking](liking.md)
   + [Messaging Feature](configure-messaging.md)
-  + [Using Polls](poll.md)
   + [Q&A Forum Feature](working-with-qna.md)
   + [Using Ratings](rating.md)
   + [Using Reviews and Reviews Summary (Display)](reviews.md)

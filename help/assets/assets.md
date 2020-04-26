@@ -1,19 +1,14 @@
 ---
 title: About AEM Assets
-seo-title: About AEM Assets
 description: Learn what is digital asset management, its use cases, and Adobe's AEM Asset offering.
-seo-description: Learn what is digital asset management, its use cases, and Adobe's AEM Asset offering.
-uuid: f9c9e14c-65d1-45e5-9572-d3f908c84ea1
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 7c851395-5f10-4311-899a-e73328f57e85
+contentOwner: AG
 ---
 
-# About Assets {#about-assets}
+# About AEM Assets {#about-assets}
 
 Assets is a Digital Asset Management (DAM) tool that is fully integrated with the AEM platform and enables your enterprise to share and distribute digital assets. Users across an organization can manage, store, and access images, videos, documents, audio clips, and rich media such as Flash files for use on the web, in print, and for digital distribution.
 
-## What is Digital Asset Management? {#what-is-digital-asset-management}
+## What is Digital Asset Management (DAM)? {#what-is-digital-asset-management}
 
 Assets provides enterprise-wide sharing and distribution of an organization’s key digital assets. Users across an organization can store, manage, and access digital assets such as images, graphics, audio, video, and documents through a Web interface (or a CIFS or WebDAV folder).
 
@@ -26,7 +21,7 @@ Completely integrated into AEM, AEM Assets lets you do the following:
 * Perform image editing functions such as scaling and adding image filters. Import and export multiple digital assets simultaneously using a WebDAV or CIFS folder. 
 * Use workflows and notifications to allow joint processing and downloading of any set of assets and manage access rights to assets.
 
-### AEM Assets fully integrated in CQ WCM {#aem-assets-fully-integrated-in-cq-wcm}
+### AEM Assets is completely integrated with AEM's WCM capabilities {#aem-assets-fully-integrated-in-cq-wcm}
 
 AEM Assets is fully integrated with CQ WCM and functionality is available using the DAM icon:
 
@@ -44,16 +39,16 @@ Assets managed within CQ DAM can then be accessed via the content finder of WCM:
 >
 >The basic navigation of user interface is the same as the rest of AEM - see [Overview of the GUI Console](/help/sites-authoring/qg-page-authoring.md) for full details.
 
-### Digital Asset Management versus Image Component {#digital-asset-management-versus-image-component}
+### Digital Asset Management versus the Image component {#digital-asset-management-versus-image-component}
 
-When determining whether to put an image into AEM Assets or use CQ's image component, consider the image lifecycle:
+When determining whether to put an image into AEM Assets or use the Image component, consider the image lifecycle:
 
-* If the image has the same lifecycle as the page, use the Image Component.
+* If the image has the same lifecycle as the page, use the Image component.
 * If the image has a separate life cycle, for example, if you use the image twice or outside WCM, use AEM Assets.
 
-## What are Digital Assets? {#what-are-digital-assets}
+## What are digital assets? {#what-are-digital-assets}
 
-An asset is a digital document, image, video, or audio (or part thereof) that can have multiple renditions and can have sub-assets (for example, layers in a photoshop file, slides in a powerpoint file, pages in a pdf, files in a ZIP).
+An asset is a digital document, image, video, or audio (or part thereof) that can have multiple renditions and can have sub-assets (for example, layers in a photoshop file, slides in a PowerPoint file, pages in a pdf, files in a ZIP).
 
 An asset is essentially a binary plus metadata plus renditions plus sub-assets. See the [DAM Performance Guide](/help/sites-deploying/assets-performance-sizing.md) for detailed information.
 
@@ -61,7 +56,7 @@ An asset is essentially a binary plus metadata plus renditions plus sub-assets. 
 >
 >Uploading and/or editing a large volume of assets (particularly images) can impact the performance of your CQ instance.
 
-### AEM Assets Terminology {#aem-assets-terminology}
+### AEM Assets terminology {#aem-assets-terminology}
 
 When working with digital assets in AEM, you need to understand the following terminology:
 
@@ -71,13 +66,13 @@ When working with digital assets in AEM, you need to understand the following te
 
   * **Dublin Core**: including author, description, date, subject, and so on.
   * **IPTC**: including event, model, location, and so on.
-  * **WCM**: including page properties, on- and offtimes, and so on.
+  * **WCM**: including page properties, on time and off time, and so on.
 
 * **Tagging:** Assets can be tagged and classified. See Using Tags and Administering Tags.
 
 * **Renditions:** A rendition is the binary representation of an asset. Assets always have a primary representation - that of the uploaded file. They can have any number of additional representations that are created, for example by customized workflow steps or when an asset is uploaded. Renditions may be of a different size, with a different resolution, with an added watermark, or some other changed characteristic.
 
-* **Versions:** Versioning creates a snapshot of digital assets at a specific point in time. You can restore assets to previous versions. See Versioning in AEM Assets.
+* **Versions:** Versioning creates a snapshot of digital assets at a specific point in time. You can restore assets to previous versions. See [versioning in AEM Assets](managing-assets-touch-ui.md#asset-versioning).
 
 * **Sub-assets:** Sub-assets are assets that make up an asset, for example, layers in an Adobe Photoshop file or pages in a PDF file. In AEM Assets, you can manage sub-assets as you would assets.
 

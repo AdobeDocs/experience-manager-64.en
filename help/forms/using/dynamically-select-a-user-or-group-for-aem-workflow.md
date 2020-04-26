@@ -33,7 +33,7 @@ ECMAScript is a scripting language. It is used for client-side scripting and ser
 
 1. Add display name of the script. This name is displayed in workflow steps. To specify the name:
 
-    1. Expand the script node, right-click the **[!UICONTROL jcr:content]**node, and click **[!UICONTROL Mixins]**.
+    1. Expand the script node, right-click the **[!UICONTROL jcr:content]** node, and click **[!UICONTROL Mixins]**.
     1. Add the `mix:title` property in Edit Mixins dialog and click **OK**.
     1. Add the following property to the jcr:content node of script:
 
@@ -152,8 +152,8 @@ You require [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-form
        <dependencies>
            <dependency>
                <groupId>com.adobe.aemfd</groupId>
-               <artifactId>aemfd-client-sdk-test</artifactId>
-               <version>4.0.70</version>
+               <artifactId>aemfd-client-sdk</artifactId>
+               <version>5.1.100</version>
            </dependency>
            <dependency>
                <groupId>com.adobe.granite</groupId>

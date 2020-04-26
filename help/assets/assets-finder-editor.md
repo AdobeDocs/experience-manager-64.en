@@ -1,18 +1,10 @@
 ---
-title: Creating and Configuring Asset Editor pages
-seo-title: Creating and Configuring Asset Share and Asset Editor pages
+title: Create and configure Asset Editor pages
 description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
-seo-description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
-uuid: 2913886b-c433-47ab-8b79-8c37717176d3
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
-discoiquuid: 565e307a-e42e-4967-ba72-f1c6fb078676
+contentOwner: AG
 ---
 
-
-# Create and Configure Asset Editor pages {#creating-and-configuring-asset-editor-pages}
+# Create and configure Asset Editor pages {#creating-and-configuring-asset-editor-pages}
 
 This document describes the following:
 
@@ -34,18 +26,18 @@ Creating an asset-centric application becomes to a large extent a configuration 
 
 An asset-centric application in AEM consists of an Asset Editor page, which can be used to get a detailed view of a specific asset. An Asset Editor page also allows for the editing of metadata, provided the user accessing the asset has the necessary permissions.
 
-## Creating and Configuring an Asset Share Page {#creating-and-configuring-an-asset-share-page}
+## Create and configure an Asset Share page {#creating-and-configuring-an-asset-share-page}
 
 You customize the DAM Finder functionality and create pages that have all the functionality you require, which are called Asset Share pages. To create a new Asset Share page, you add the page using the Geometrixx Asset Share template and then you customize the actions users can perform on that page, determine how viewers see the assets, and decide how users can build their queries.
 
 Here are some use cases for creating a customized Asset Share page:
 
 * Press Center for Journalists
-* Image Search Engine for internal business users 
-* Image Database for website users 
+* Image Search Engine for internal business users
+* Image Database for website users
 * Media Tagging Interface for metadata editors
 
-### Creating an Asset Share Page {#creating-an-asset-share-page}
+### Create an Asset Share page {#creating-an-asset-share-page}
 
 To create a new Asset Share page, you can either create it when you are working on web sites or from the digital asset manager.
 
@@ -82,7 +74,7 @@ To create a new asset share page via the digital asset manager:
 
    By default, when you create an Asset Share page from **[!UICONTROL New]**, an Asset viewer and Asset editor are automatically created for you.
 
-#### Customizing Actions {#customizing-actions}
+#### Customize actions {#customizing-actions}
 
 You can determine what actions users can perform on selected digital assets from a selection of predefined actions.
 
@@ -95,18 +87,18 @@ To add actions to the Asset Share page:
 
  | Action | Description |
  |---|---|
- | Delete Action | Users can delete the selected assets. |
- | Download Action | Lets users download selected assets to their computers. |
- | Lightbox Action | Saves assets to a "lightbox"   where you can perform other actions on them. This comes in handy when working   with assets across multiple pages. The lightbox can also be used as a   shopping cart for assets. |
- | Move Action | Users can move the asset to another   location |
- | Tags Action | Lets users add tags to selected assets |
- | View Asset Action | Opens the asset in the Asset editor for   user manipulation. |
+ | [!UICONTROL Delete Action] | Users can delete the selected assets. |
+ | [!UICONTROL Download Action] | Lets users download selected assets to their computers. |
+ | [!UICONTROL Lightbox Action] | Saves assets to a "lightbox"   where you can perform other actions on them. This comes in handy when working   with assets across multiple pages. The lightbox can also be used as a   shopping cart for assets. |
+ | [!UICONTROL Move Action] | Users can move the asset to another   location |
+ | [!UICONTROL Tags Action] | Lets users add tags to selected assets |
+ | [!UICONTROL View Asset Action] | Opens the asset in the Asset editor for   user manipulation. |
 
 1. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
 
     ![chlimage_1-387](assets/chlimage_1-387.png)
 
-#### Determining how Search Results are Presented {#determining-how-search-results-are-presented}
+#### Determine how search results are presented {#determining-how-search-results-are-presented}
 
 You determine how results are displayed from a predefined list of lenses.
 
@@ -118,12 +110,12 @@ To change how search results are viewed:
 
 1. Drag the appropriate lens to the top center of the page. In the Press Center, the lenses are already available. Users press the appropriate lens icon to display search results as desired.
 
-The following lenses are available: 
+The following lenses are available:
 
-| **Lens** |**Description** |
+| Lens | Description |
 |---|---|
-| **List Lens** |Presents the assets in a list fashion with details. |
-| **Mosaic Lens** |Presents assets in a mosaic fashion. |
+| **[!UICONTROL List Lens]** |Presents the assets in a list fashion with details. |
+| **[!UICONTROL Mosaic Lens]** |Presents assets in a mosaic fashion. |
 
 #### Mosaic Lens {#mosaic-lens}
 
@@ -133,7 +125,7 @@ The following lenses are available:
 
 ![chlimage_1-389](assets/chlimage_1-389.png)
 
-#### Customizing the Query Builder {#customizing-the-query-builder}
+#### Customize the Query Builder {#customizing-the-query-builder}
 
 The query builder lets you enter search terms and create content for the Asset Share page. When you edit the query builder, you also get to determine how many search results are displayed per page, which asset editor opens when you double-click an asset, the path the query searches, and customizes nodetypes.
 
@@ -159,7 +151,7 @@ To customize the query builder:
 
     ![screen_shot_2012-04-23at15300pm](assets/screen_shot_2012-04-23at15300pm.png)
 
-#### Adding Predicates {#adding-predicates}
+#### Add predicates {#adding-predicates}
 
 AEM Assets includes a number of predicates that you can add to the Asset Share page. These let your users further narrow searches. In some cases, they may override a query builder parameter (for example, the Path parameter).
 
@@ -177,18 +169,18 @@ To add predicates:
 
  | Predicate | Description |
  |---|---|
- | **Date Predicate** |Lets users search for assets that were modified before and after certain dates. |
- | **Options Predicate** |The site owner can specify a property to search for (as in the property predicate, for example cq:tags) and a content tree to populate the options from (for example the tag tree). Doing so generates a list of options where the users can select the values (tags) that the selected property (tag property) should have. This predicate lets you build list controls like the list of tags, file types, image orientations, and so on. It is great for a fixed set of options. |
- | **Path Predicate** |Lets users define the path and subfolders, if desired. |
- | **Property Predicate** |The site owner specifies a property to search for, e.g. tiff:ImageLength and the user can then enter a value, e.g. 800. This returns all images that are 800 pixels high. Useful predicate if your property can have arbitrary values. |
+ | **[!UICONTROL Date Predicate]** |Lets users search for assets that were modified before and after certain dates. |
+ | **[!UICONTROL Options Predicate]** |The site owner can specify a property to search for (as in the property predicate, for example cq:tags) and a content tree to populate the options from (for example the tag tree). Doing so generates a list of options where the users can select the values (tags) that the selected property (tag property) should have. This predicate lets you build list controls like the list of tags, file types, image orientations, and so on. It is great for a fixed set of options. |
+ | **[!UICONTROL Path Predicate]** |Lets users define the path and subfolders, if desired. |
+ | **[!UICONTROL Property Predicate]** |The site owner specifies a property to search for, e.g. tiff:ImageLength and the user can then enter a value, e.g. 800. This returns all images that are 800 pixels high. Useful predicate if your property can have arbitrary values. |
 
-    For more information, see the [predicate javadocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.html).
+For more information, see the [predicate javadocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.html).
 
 1. To configure the predicate further, double-click it. For example, when you open the Path Predicate, you need to assign the root path.
 
     ![screen_shot_2012-04-23at15640pm](assets/screen_shot_2012-04-23at15640pm.png)
 
-## Creating and Configuring an Asset Editor Page {#creating-and-configuring-an-asset-editor-page}
+## Create and configure an Asset Editor page {#creating-and-configuring-an-asset-editor-page}
 
 You customize the asset editor to determine how users can view and edit the digital assets. To do this, you create a new Asset Editor page and then customize the views and the actions users can perform on that page.
 
@@ -196,7 +188,7 @@ You customize the asset editor to determine how users can view and edit the digi
 >
 >If you want to add custom fields to the DAM asset editor, add new cq:Widget nodes to `/apps/dam/content/asseteditors.`
 
-### Creating the Asset Editor Page {#creating-the-asset-editor-page}
+### Creat the Asset Editor page {#creating-the-asset-editor-page}
 
 When creating the Asset Editor page, a good practice is to create the page directly below the Asset Share page.
 
@@ -216,7 +208,7 @@ To customize your Asset Editor page, use elements from the sidekick. The Asset E
 
 ![assetshare6](assets/assetshare6.bmp)
 
-#### Setting which Asset Editor opens from an Asset Share page {#setting-which-asset-editor-opens-from-an-asset-share-page}
+#### Set which Asset Editor opens from an Asset Share page {#setting-which-asset-editor-opens-from-an-asset-share-page}
 
 After you have created the customized Asset Editor page, you need to ensure that when you double-click assets that the customized Asset Share you created opens the assets in the customized Editor page.
 
@@ -232,7 +224,7 @@ To set the Asset Editor page:
 
     ![screen_shot_2012-04-23at21653pm](assets/screen_shot_2012-04-23at21653pm.png)
 
-#### Adding Asset Editor Components {#adding-asset-editor-components}
+#### Add Asset Editor components {#adding-asset-editor-components}
 
 You determine what functionality an asset editor has by adding components to the page.
 
@@ -252,11 +244,11 @@ To add asset editor components:
 
     | Component | Description |
     |---|---|
-    | **Metadata Form and Text Field** |Lets you add additional metadata to an asset and perform an action, such as submitting, on that asset. |
-    | **Sub Assets** |Lets you customize sub-assets. |
-    | **Tags** |Lets users select and add tags to an asset. |
-    | **Thumbnail** |Shows a thumbnail of the asset, its filename, and lets you add an alternate text. You can add asset editor actions here as well. |
-    | **Title** |Displays the asset title, which can be customized. |
+    | **[!UICONTROL Metadata Form] and [!UICONTROL Metadata Text Field]** | Lets you add additional metadata to an asset and perform an action, such as submitting, on that asset. |
+    | **[!UICONTROL Sub Assets]** | Lets you customize sub-assets. |
+    | **Tags** | Lets users select and add tags to an asset. |
+    | **[!UICONTROL Thumbnail]** | Shows a thumbnail of the asset, its filename, and lets you add an alternate text. You can add asset editor actions here as well. |
+    | **[!UICONTROL Title]** | Displays the asset title, which can be customized. |
 
     ![screen_shot_2012-04-23at22743pm](assets/screen_shot_2012-04-23at22743pm.png)
 
@@ -365,31 +357,31 @@ The following is an example of a populated Title component:
 
 ![chlimage_1-392](assets/chlimage_1-392.png)
 
-#### Adding Asset Editor Actions {#adding-asset-editor-actions}
+#### Add Asset Editor actions {#adding-asset-editor-actions}
 
 You can determine what actions users can perform on selected digital assets from a selection of predefined actions.
 
 To add actions to the Asset Editor page:
 
-1. In the Asset Editor page that you want to customize, click **[!UICONTROL Asset Editor]** in the sidekick. 
-    ![screen_shot_2012-04-23at35515pm](assets/screen_shot_2012-04-23at35515pm.png)
+1. In the Asset Editor page that you want to customize, click **[!UICONTROL Asset Editor]** in the sidekick.<br>
+    ![select asset editor in sidekick](assets/screen_shot_2012-04-23at35515pm.png)
 
     The following actions are available:
 
     | Action | Description |
     |---|---|
-    | Download | Lets users download selected   assets to their computers. |
-    | Editors | Lets users edit an image   (interactive editing) |
-    | Lightbox | Saves assets to a   "lightbox" where you can perform other actions on them. This comes   in handy when working with assets across multiple pages. |
-    | Locking | Lets users lock an asset. This   functionality is not enabled by default and needs to be enabled in the list   of components. |
-    | References | Click this to show on what pages   the asset is being used. |
-    | Versioning | Lets you create and restore   versions of an asset. |
+    | [!UICONTROL Download] | Lets users download selected   assets to their computers. |
+    | [!UICONTROL Editors] | Lets users edit an image   (interactive editing) |
+    | [!UICONTROL Lightbox] | Saves assets to a   "lightbox" where you can perform other actions on them. This comes   in handy when working with assets across multiple pages. |
+    | [!UICONTROL Locking] | Lets users lock an asset. This   functionality is not enabled by default and needs to be enabled in the list   of components. |
+    | [!UICONTROL References] | Click this to show on what pages   the asset is being used. |
+    | [!UICONTROL Versioning] | Lets you create and restore   versions of an asset. |
 
 1. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
 
 ![chlimage_1-393](assets/chlimage_1-393.png)
 
-## Multi-Editing Assets with the Asset Editor page {#multi-editing-assets-with-the-asset-editor-page}
+## Edit multiple assets with the Asset Editor page {#multi-editing-assets-with-the-asset-editor-page}
 
 With AEM Assets you can make changes to several assets at once. After having selected assets, you can simultaneously change their:
 
@@ -437,4 +429,3 @@ To multi-edit assets with the Asset Editor page:
    Note: the box beside the field is automatically checked when the field is edited.  
 
 1. Click **[!UICONTROL Update Metadata]** to submit the form and save the changes for all the assets. Only the checked metadata are modified.
-

@@ -1,13 +1,9 @@
 ---
 title: Assets Offloading Best Practices
-seo-title: Assets Offloading Best Practices
 description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
-seo-description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
 uuid: 7d08fda2-1c59-44ad-bd35-83d199642e01
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
 discoiquuid: cdb175f4-a7c6-4d9f-994a-5fc8eca51f03
 ---
 
@@ -15,7 +11,7 @@ discoiquuid: cdb175f4-a7c6-4d9f-994a-5fc8eca51f03
 
 >[!WARNING]
 >
->This feature is deprecated starting with AEM 6.4, and removed in 6.5. Please plan accordingly.
+>This feature is deprecated AEM 6.4 onwards and is removed in AEM 6.5. Plan accordingly.
 
 Handling large files and running workflows in Adobe Experience Manager (AEM) Assets can consume considerable CPU, memory, and I/O resources. In particular, the size of assets, workflows, number of users, and frequency of asset ingestion can affect the overall system performance. The most resource-intensive operations include AEM asset ingestion and replication workflows. Intensive use of these workflows on a single AEM authoring instance can adversely impact authoring efficiency.
 

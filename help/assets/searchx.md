@@ -1,15 +1,7 @@
 ---
 title: Extending Assets Search
-seo-title: Extending Assets Search
 description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
-seo-description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
-uuid: e71f0a19-2921-4cb5-b0b0-c86ebb3ac917
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: extending-assets
-content-type: reference
-discoiquuid: 31c56b65-9ee4-42a5-b1a9-3bb0a10e96a9
-duration: 10 minutes
+contentOwner: AG
 ---
 
 # Extending Assets Search {#extending-assets-search}
@@ -52,7 +44,7 @@ AEM Assets comes with a set of predefined predicates that can be used to customi
 
 In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](/help/sites-developing/querybuilder-api.md).
 
-Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html.
+Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html).
 
 The best practice is to copy an existing predicate and adjust it. Sample predicates are located in `/libs/cq/search/components/predicates`.
 
@@ -65,7 +57,9 @@ To build a property predicate:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="https://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        jcr:title="Title Predicate"
        sling:resourceSuperType="foundation/components/parbase"
@@ -159,7 +153,9 @@ To build a group predicate:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="https://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        jcr:title="Image Formats"
        sling:resourceSuperType="foundation/components/parbase"
@@ -244,7 +240,6 @@ To build a group predicate:
            }
 
        });
-
    ```
 
 1. To make the component available, you need to be able to edit it. To make a component editable, in CRXDE, add a node `cq:editConfig` of primary type `cq:EditConfig`. So that you can remove paragraphs, add a multi-value property `cq:actions` with a single value of `DELETE`.
@@ -286,7 +281,6 @@ The following predicates are available as preconfigured ExtJS widgets.
 | predicateName | String | Name of the predicate. Defaults to `daterange` |
 | propertyname | String | Name of the JCR property. Defaults to `jcr:content/jcr:lastModified` |
 | defaultValue | String | Prefilled default value |
-| showFlatOption | Boolean | Flag to show Checkbox `search in subfolders`. Defaults to true. |
 
 ### OptionsPredicate {#optionspredicate}
 

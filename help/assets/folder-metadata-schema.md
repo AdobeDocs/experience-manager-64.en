@@ -1,8 +1,7 @@
 ---
 title: Folder Metadata Schema
-seo-title: Folder Metadata Schema
-description: This article describes how to create metadata schema for asset folders in AEM Assets.
-seo-description: How to create metadata schema for asset folders in AEM Assets.
+description: This article describes how to create metadata schema for asset folders in AEM Assets
+products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 uuid: 286a4f26-c0ad-4691-80d8-d17ba1a2dfe0
 discoiquuid: 92eacea5-7511-48ce-8a72-ff4552ebb07d
 ---
@@ -15,7 +14,7 @@ Adobe Experience Manager (AEM) Assets lets you create metadata schemas for asset
 
 >[!NOTE]
 >
->This functionality requires AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](https://helpx.adobe.com/in/experience-manager/6-4/release-notes/sp-release-notes.html).
+>This functionality requires AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](/help/release-notes/sp-release-notes.md).
 
 ## Add a folder metadata schema form {#add-a-folder-metadata-schema-form}
 
@@ -61,14 +60,14 @@ The **[!UICONTROL Build Form]** tab lists form items that you use in your folder
 
 | Component Name | Description |
 |---|---|
-| Section Header | Add a section heading for a list of common components. |
-| Single Line Text | Add a single-line text property. It is stored as a string. |
-| Multi Value Text | Add a multi value text property. It is stored as a string array. |
-| Number | Add a number component. |
-| Date | Add a date component. |
-| Dropdown | Add a drop-down list. |
-| Standard Tags | Add a tag. |
-| Hidden Field | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
+| [!UICONTROL Section Header] | Add a section heading for a list of common components. |
+| [!UICONTROL Single Line Text] | Add a single-line text property. It is stored as a string. |
+| [!UICONTROL Multi Value Text] | Add a multi value text property. It is stored as a string array. |
+| [!UICONTROL Number] | Add a number component. |
+| [!UICONTROL Date] | Add a date component. |
+| [!UICONTROL Dropdown] | Add a drop-down list. |
+| [!UICONTROL Standard Tags] | Add a tag. |
+| [!UICONTROL Hidden Field] | Add a hidden field. It is sent as a POST parameter when the asset is saved. |
 
 ### Editing form items {#editing-form-items}
 

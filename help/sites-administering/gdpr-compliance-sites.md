@@ -13,6 +13,10 @@ discoiquuid: 772f6188-5e0b-4e66-b94a-65a0cc267ed3
 
 # AEM Sites - GDPR Readiness{#aem-sites-gdpr-readiness}
 
+>[!IMPORTANT]
+>
+>GDPR is used as an example in the sections below, but the details covered are applicable to all data protection and privacy regulations; such as GDPR, CCPA etc.
+
 The European Union's General Data Protection Regulation on data privacy rights takes effect as of May 2018.
 
 AEM Sites is ready to help customers with their GDPR compliance obligations. This page guides customers through the procedures to handle GDPR requests in AEM Sites. It describes the location of private data stored, and how to remove them manually or with code.
@@ -21,15 +25,15 @@ For further information see the [GDPR page at the Adobe Privacy Center](https://
 
 >[!NOTE]
 >
->See [AEM GDPR Readiness](/help/managing/gdpr-compliance.md) for further details.
+>See [AEM GDPR Readiness](/help/managing/data-protection-and-privacy.md) for further details.
 
 ## Author Server {#author-server}
 
-User accounts and UGC content on the author server are covered in the [Platform GDPR documentation](/help/managing/gdpr-compliance.md).
+User accounts and UGC content on the author server are covered in the [Platform GDPR documentation](/help/managing/data-protection-and-privacy.md).
 
 ## Publish Server {#publish-server}
 
-User accounts used to authenticate visitors on the site, and UGC content on the publish server are covered in the [Platform GDPR documentation](/help/managing/gdpr-compliance.md).
+User accounts used to authenticate visitors on the site, and UGC content on the publish server are covered in the [Platform GDPR documentation](/help/managing/data-protection-and-privacy.md).
 
 By default AEM Sites components do not store form-data entered by visitors on the  publish  server. It is recommended to forward the data to a third party system, or Adobe Campaign for further processing.
 

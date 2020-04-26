@@ -27,7 +27,7 @@ An interactive communication includes the following elements:
 * **Data sourced from a backend system (form data model)** is customer-specific and is dynamically merged with the interactive communication. For example, the policy number or address can be sourced using form data model.
 * **Layout or templates** for the Print and Web version of the Interactive Communication.
 * **Order** in which the various text paragraphs appear in the Interactive Communication.
-* **Data entered by a frontline employee **(**Agent UI**) who is customizing the communication before sending it out. For example, the payment due date.
+* **Data entered by a frontline employee (Agent UI)** who is customizing the communication before sending it out. For example, the payment due date.
 
 * **Conditional data** that gets populated based on predefined conditions. For example, the date when the interactive communication is generated.
 * **Images stored in a repository**, such as logos and signature images. Images such as corporate logos would appear in most or all of the interactive communication.
@@ -36,8 +36,6 @@ An interactive communication includes the following elements:
 ## Anatomy of the Interactive Communication {#anatomy-of-the-interactive-communication}
 
 Once you have finalized the content and elements that are used to create your Interactive Communication, you can create an anatomy of the Interactive Communication. The anatomy must have the details listed in the [Planning Considerations](/help/forms/using/planning-interactive-communications.md#planning-considerations) section. Based on our use case, the following is an example of an anatomy of the monthly bill that a telecom operator sends to its customers.
-
-Placeholder for the anatomy video
 
 The anatomy includes data with the following modes of input:
 

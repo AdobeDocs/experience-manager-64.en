@@ -1,16 +1,10 @@
 ---
-title: Search Facets
-seo-title: Search Facets
+title: Search facets
 description: This article describes how to create, modify, and use search facets in AEM.
-seo-description: Learn how to create, modify, and use search facets in AEM.
-uuid: 213bec95-2f9a-49d2-a45b-0c7d1bb4fbf8
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: administering
-content-type: reference
-discoiquuid: 4c03f218-6c0c-4482-b10e-a6ccddb30d57
+contentOwner: AG
 ---
 
-# Search Facets {#search-facets}
+# Search facets {#search-facets}
 
 Learn how to create, modify, and use search facets in AEM.
 
@@ -96,7 +90,7 @@ Value property of a file type, as seen in CRXDE, is used for search queries to w
 
 Instead of manually creating a node structure for the options in the CRX repository, you can define the options in a JSON file by specifying corresponding key-value pairs. Specify the path of the JSON file in the **[!UICONTROL Property Name]** field. For example, you can define the key-value pairs, `image/bmp`, `image/gif`, `image/jpeg`, and `image/png` and specify their values as shown in the following sample JSON file. In the **[!UICONTROL Property Name]** field, you can specify the CRX path for this file.
 
-```
+```json
 {
     "options" :
  [
@@ -105,9 +99,7 @@ Instead of manually creating a node structure for the options in the CRX reposit
           {"value" : "image/jpeg","text" : "JPEG"},
           {"value" : "image/png","text" : "PNG"}
  ]
-
-}  
-
+}
 ```
 
 If you want to use an existing node, specify it using the selection dialog.
@@ -123,7 +115,7 @@ If you want to use an existing node, specify it using the selection dialog.
 1. Do one of the following:
 
     * In the **[!UICONTROL Property Name]** field, mention the path of the JSON file where you define the nodes for the options and specify corresponding key-value pairs.
-    * Tap ![](do-not-localize/aem_assets_add_icon.png) next to the Options field to specify the display text and value for the options you want to supply in the Filters panel. To add another option, tap/click ![](do-not-localize/aem_assets_add_icon.png) and repeat the step.
+    * Tap ![Add icon](assets/do-not-localize/aem_assets_add_icon.png) next to the Options field to specify the display text and value for the options you want to supply in the Filters panel. To add another option, tap/click ![Add icon](assets/do-not-localize/aem_assets_add_icon.png) and repeat the step.
 
 1. Ensure that **[!UICONTROL Single Select]** is cleared to let the user select multiple options for file types at a time (for example, Images, Documents, Multimedia, and Archives). If you select **[!UICONTROL Single Select]**, the user can select only one option for file types at a time.
 
@@ -178,20 +170,20 @@ Similar to the way you add a Property predicate or an Options predicate, you can
 
  | Predicate Name | Description | Properties |
  |---|---|---|
- | Fulltext | Search predicate to perform full text search on an entire asset node. It is mapped with the jcr:contains operator. You can specify a relative path if you want to perform a full text search on a specific part of the asset node. | <ul><li>Label</li><li>Placeholder</li><li>Property name</li><li>Description</li></ul> |
- | Path Browser | Search predicate to search for assets in folders and subfolders at a preconfigured root path | <ul><li>Placeholder</li><li>Root path</li><li>Description</li></ul> |
- | Path | Use it to filter results on location. You can specify different paths as options. | <ul><li>Label</li><li>Path</li><li>Description</li></ul> |
- | Publish Status | Search predicate to search assets based on their publish status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
- | Relative Date | Search predicate to search assets based on the relative date of their creation. For example, you can configure options, such as 2 months ago, 3 weeks ago, and so on. | <ul><li>Label</li><li>Property name</li><li>Relative date</li></ul> |
- | Range | Search predicate to search assets that lie within a specified range. In the Search panel, you can specify minimum and maximum values for the range. | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
- | Date Range | Search predicate to search assets created within a specified range for a date property. In the Search panel, you can specify Start and End dates using date pickers. | <ul><li>Label</li><li>Placeholder</li><li>Property name</li><li>Range text (From)</li><li>Range text (To)</li><li>Description</li></ul> |
- | Date | Search predicate for a slider-based search of assets based on a date property. | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
- | File Size | Search predicate to search assets based on their size. It is a silder-based predicate where you select the slider options from a configurable node. The default options are defined at /libs/dam/options/predicates/filesize in the CRX repository. File size is provided in bytes. | <ul><li>Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
- | Asset Last Modified | Search predicate to search recently modified assets | <ul><li>Property name</li><li>Property value</li><li>Description</li></ul> |
- | Publish Status | Search predicate to search for assets based on their publish status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
- | Rating | Search predicate to search assets based on their average rating | <ul><li>Label</li><li>Property name</li><li>Option path</li><li>Description</li></ul> |
- | Expiry Status | Search predicate to search for assets based on their expiration status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
- | Hidden | Search predicate that defines a hidden field property to search for assets | <ul><li>Property name</li><li>Property value</li><li>Description</li></ul> |
+ | [!UICONTROL Fulltext] | Search predicate to perform full text search on an entire asset node. It is mapped with the jcr:contains operator. You can specify a relative path if you want to perform a full text search on a specific part of the asset node. | <ul><li>Label</li><li>Placeholder</li><li>Property name</li><li>Description</li></ul> |
+ | [!UICONTROL Path Browser] | Search predicate to search for assets in folders and subfolders at a preconfigured root path | <ul><li>Placeholder</li><li>Root path</li><li>Description</li></ul> |
+ | [!UICONTROL Path] | Use it to filter results on location. You can specify different paths as options. | <ul><li>Label</li><li>Path</li><li>Description</li></ul> |
+ | [!UICONTROL Publish Status] | Search predicate to search assets based on their publish status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | [!UICONTROL Relative Date] | Search predicate to search assets based on the relative date of their creation. For example, you can configure options, such as 2 months ago, 3 weeks ago, and so on. | <ul><li>Label</li><li>Property name</li><li>Relative date</li></ul> |
+ | [!UICONTROL Range] | Search predicate to search assets that lie within a specified range. In the Search panel, you can specify minimum and maximum values for the range. | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | [!UICONTROL Date Range] | Search predicate to search assets created within a specified range for a date property. In the Search panel, you can specify Start and End dates using date pickers. | <ul><li>Label</li><li>Placeholder</li><li>Property name</li><li>Range text (From)</li><li>Range text (To)</li><li>Description</li></ul> |
+ | [!UICONTROL Date] | Search predicate for a slider-based search of assets based on a date property. | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | [!UICONTROL File Size] | Search predicate to search assets based on their size. It is a silder-based predicate where you select the slider options from a configurable node. The default options are defined at /libs/dam/options/predicates/filesize in the CRX repository. File size is provided in bytes. | <ul><li>Label</li><li>Property name</li><li>Path</li><li>Description</li></ul> |
+ | [!UICONTROL Asset Last Modified] | Search predicate to search recently modified assets | <ul><li>Property name</li><li>Property value</li><li>Description</li></ul> |
+ | [!UICONTROL Publish Status] | Search predicate to search for assets based on their publish status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | [!UICONTROL Rating] | Search predicate to search assets based on their average rating | <ul><li>Label</li><li>Property name</li><li>Option path</li><li>Description</li></ul> |
+ | [!UICONTROL Expiry Status] | Search predicate to search for assets based on their expiration status | <ul><li>Label</li><li>Property name</li><li>Description</li></ul> |
+ | [!UICONTROL Hidden] | Search predicate that defines a hidden field property to search for assets | <ul><li>Property name</li><li>Property value</li><li>Description</li></ul> |
 
 ## Restoring default search facets {#restoring-default-search-facets}
 
@@ -215,9 +207,9 @@ If you are not assigned an administrator role, here is a list of permissions you
 
 | Action | Permissions |
 |---|---|
-| Edit | Read and Write permissions on the /apps node in CRX |
-| Delete | Read, Write, and Delete permissions on the /apps node in CRX |
-| Preview | Read, Write, and Delete permissions on the /var/dam/content node in CRX. Also, Read and Write permissions on /apps node. |
+| [!UICONTROL Edit] | Read and Write permissions on the /apps node in CRX |
+| [!UICONTROL Delete] | Read, Write, and Delete permissions on the /apps node in CRX |
+| [!UICONTROL Preview] | Read, Write, and Delete permissions on the /var/dam/content node in CRX. Also, Read and Write permissions on /apps node. |
 
 >[!MORELIKETHIS]
 >

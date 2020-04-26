@@ -1,14 +1,7 @@
 ---
 title: Searching Video Assets
-seo-title: Searching Video Assets
 description: Use keywords, file properties such as a Mime type, size, or recently modified time stamp to quickly find your file in AEM Assets.
-seo-description: Use keywords, file properties such as a Mime type, size, or recently modified time stamp to quickly find your file in AEM Assets.
-uuid: 5ea320df-937c-4c90-8ca4-b3881c4987ea
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: managing-assets
-content-type: reference
-discoiquuid: 0463205f-75f3-4e65-b9a2-8e5028c801d6
+contentOwner: AG
 ---
 
 # Searching Video Assets {#searching-video-assets}
@@ -21,13 +14,13 @@ You can search for digital assets based on one or more of the following properti
 
 | Search field | Search property values |
 |---|---|
-| Mime Types | Images, Documents, Multimedia, Archives, or Other. |
-| Last Modified | Hour, Day, Week, Month, or Year. |
-| File Size | Small, Medium, or Large. |
-| Publish Status | Published or Unpublished. |
-| Approved Status | Approved or Rejected. |
-| Orientation | Horizontal, Vertical, or Square. |
-| Style | Color, or Black & White. |
+| Mime Types | [!UICONTROL Images], [!UICONTROL Documents], [!UICONTROL Multimedia], [!UICONTROL Archives], or Other. |
+| [!UICONTROL Last Modified] | Hour, Day, Week, Month, or Year. |
+| [!UICONTROL File Size] | Small, Medium, or Large. |
+| [!UICONTROL Publish] Status | Published or Unpublished. |
+| [!UICONTROL Approval] Status | Approved or Rejected. |
+| [!UICONTROL Orientation] | Horizontal, Vertical, or Square. |
+| [!UICONTROL Style] | Color, or Black & White. |
 | Video Height | Specified as a minimum and maximum value.Value is stored in the metadata of video renditions only. |
 | Video Width | Specified as a minimum and maximum value.Value is stored in the metadata of video renditions only. |
 | Video Format | DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media.Value is stored in the metadata of the source video and any renditions. |

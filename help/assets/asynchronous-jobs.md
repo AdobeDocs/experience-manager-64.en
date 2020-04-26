@@ -1,11 +1,7 @@
 ---
-title: Asynchronous Operations
-seo-title: Asynchronous Operations
+title: Asynchronous operations to improve performance
 description: Overview of asynchronous operations in AEM Assets.
-seo-description: Know about asynchronous operations in AEM Assets.
-uuid: cc924285-fa61-462d-b542-a1442ef4f5aa
-contentOwner: asgupta
-discoiquuid: a2ac8ea0-f154-4f03-800c-87cfee8308ea
+contentOwner: AG
 ---
 
 # Asynchronous operations {#asynchronous-operations}
@@ -18,13 +14,13 @@ To reduce adverse impact on performance, Adobe Experience Manger (AEM) Assets pr
 
 Asynchronous processing involves enqueuing multiple jobs and eventually running them in a serial manner subject to the availability of system resources.
 
-You can view the status of asynchronous jobs from the **Async Job Status** page.
+You can view the status of asynchronous jobs from the **[!UICONTROL Async Job Status]** page.
 
 >[!NOTE]
 >
->By default, jobs in AEM Assets run in parallel. If N is the number of CPU cores, N/2 jobs can run in parallel, by default. To use custom settings for the job queue, modify the **Async Operation Default Queue** configuration from the web console. For more information, see [Queue Configurations](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#queue-configurations).
+>By default, jobs in AEM Assets run in parallel. If N is the number of CPU cores, N/2 jobs can run in parallel, by default. To use custom settings for the job queue, modify the **[!UICONTROL Async Operation Default Queue]** configuration from the web console. For more information, see [Queue Configurations](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#queue-configurations).
 
-## Monitoring the status of asynchronous operations {#monitoring-the-status-of-asynchronous-operations}
+## Monitor the status of asynchronous operations {#monitoring-the-status-of-asynchronous-operations}
 
 Whenever AEM Assets processes an operation asynchronously, you receive a notification at your inbox and through email.
 
@@ -63,7 +59,7 @@ To view the status of the asynchronous operations in detail, navigate to the **A
    >
    >You cannot delete a job if its status is either active or queued.
 
-## Purging completed jobs {#purging-completed-jobs}
+## Purge completed jobs {#purging-completed-jobs}
 
 AEM Assets runs a purge job everyday at 1:00 AM to delete completed asynchronous jobs that are more than a day old.
 
@@ -81,7 +77,7 @@ You can modify the schedule for the purge job and the duration for which details
 
 You can configure the threshold number of assets or references for AEM Assets to process a particular operation asynchronously.
 
-### Configuring thresholds for asynchronous delete operations {#configuring-thresholds-for-asynchronous-delete-operations}
+### Configure the threshold for asynchronous delete operations {#configuring-thresholds-for-asynchronous-delete-operations}
 
 If the number of assets or folders to be deleted exceed the threshold number, the delete operation is performed asynchronously.
 
@@ -93,7 +89,7 @@ If the number of assets or folders to be deleted exceed the threshold number, th
 
 1. Save the changes.
 
-### Configuring thresholds for asynchronous move operations {#configuring-thresholds-for-asynchronous-move-operations}
+### Configure the threshold for asynchronous move operations {#configuring-thresholds-for-asynchronous-move-operations}
 
 If the number of assets/folders or references to be moved exceed the threshold number, the move operation is performed asynchronously.
 
@@ -104,4 +100,3 @@ If the number of assets/folders or references to be moved exceed the threshold n
    ![move_threshold](assets/move_threshold.png)
 
 1. Save the changes.
-

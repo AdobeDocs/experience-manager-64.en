@@ -1,14 +1,7 @@
 ---
 title: GQL Full-text Search
-seo-title: GQL full-text search
 description: Explore the GQL full-text search feature in AEM Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
-seo-description: Use the GQL full-text search feature to search for assets based on specific metadata, such as title, description, and author name.
-uuid: 05ed9ca9-f1a4-4f3c-807f-c7062c349026
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-content-type: reference
-topic-tags: authoring
-discoiquuid: d3b7133c-4a58-4c9f-a5fe-162ce4ff016b
+contentOwner: AG
 ---
 
 # GQL Full-text Search {#gql-full-text-search}
@@ -25,7 +18,7 @@ For example, to search for assets that have the title "Target," perform these st
 
 1. From the toolbar of the Assets user interface, click or tap the **[!UICONTROL Search]** icon to display the Omnisearch box.
 
-   ![](do-not-localize/chlimage_1.png)
+   ![](assets/do-not-localize/chlimage_1.png)
 
 1. With the cursor in the Omnisearch box, press Enter.
 1. Click or tap the GlobalNav icon to display the **[!UICONTROL Filters]** panel.
@@ -53,28 +46,28 @@ The GQL full-text search feature lets you search for assets based on the followi
 
  | Property | Search format (facet value) |
  |---|---|
- | Title | title:John |
- | Creator | creator:John |
- | Contributor | contributor:John |
- | Location | location:India |
- | Description | description:"Sample Image" |
- | Creator tool | creatortool:"Adobe Photoshop 7.0" |
- | Copyright Owner | copyrightowner:"Adobe Systems" |
- | Contributor | contributor:John |
- | Usage Terms | usageterms:"CopyRights Reserved" |
- | Created | created:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
- | Expires Date | expires:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
- | On time | ontime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
- | Off time | offtime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
- | Range of time(expires dateontime,offtime) | facet field: lowerbound..upperbound |
- | Path | /content/dam/&lt;folder name&gt; |
- | PDF Title | pdftitle:"Adobe Document" |
- | Subject | subject:"Training" |
- | Tags | tags:"Location And Travel" |
- | Type | type:"image\png" |
- | Width of image | width:lowerbound..upperbound |
- | Height of image | height:lowerbound..upperbound |
- | Person | person:John |
+ | [!UICONTROL Title] | title:John |
+ | [!UICONTROL Creator] | creator:John |
+ | [!UICONTROL Contributor] | contributor:John |
+ | [!UICONTROL Location] | location:India |
+ | [!UICONTROL Description] | description:"Sample Image" |
+ | [!UICONTROL Creator tool] | creatortool:"Adobe Photoshop 7.0" |
+ | [!UICONTROL Copyright Owner] | copyrightowner:"Adobe Systems" |
+ | [!UICONTROL Contributor] | contributor:John |
+ | [!UICONTROL Usage Terms] | usageterms:"CopyRights Reserved" |
+ | [!UICONTROL Created] | created:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | [!UICONTROL Expires Date] | expires:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | [!UICONTROL On time] | ontime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | [!UICONTROL Off time] | offtime:YYYY-MM-DDTHH:MM:SS.000+05:30..YYYY-MM-DDTHH:MM:SS.000+05:30 |
+ | [!UICONTROL Range of time] (expires dateontime,offtime) | facet field: lowerbound..upperbound |
+ | [!UICONTROL Path] | /content/dam/&lt;folder name&gt; |
+ | [!UICONTROL PDF Title] | pdftitle:"Adobe Document" |
+ | [!UICONTROL Subject] | subject:"Training" |
+ | [!UICONTROL Tags] | tags:"Location And Travel" |
+ | [!UICONTROL Type] | type:"image\png" |
+ | [!UICONTROL Width of image] | width:lowerbound..upperbound |
+ | [!UICONTROL Height of image] | height:lowerbound..upperbound |
+ | [!UICONTROL Person] | person:John |
 
 Here are some examples of search formats for complex queries:
 

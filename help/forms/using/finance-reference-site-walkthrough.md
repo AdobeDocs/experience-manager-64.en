@@ -297,9 +297,8 @@ Perform the following steps to experience the creation of A/B test for We.Financ
 
 1. Now open the form in chrome browser several times using the following url:
 
-   https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/cc-app/jcr:content?wcmmode=disabled 
-   Note: Remove the cookie with the name **mbox** from browser’s cookie persistence before opening the form next time.* 
-   You will see experience A and B of the form at random.
+   `https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/cc-app/jcr:content?wcmmode=disabled`
+   >[!NOTE] Remove the cookie with the name **mbox** from browser’s cookie persistence before opening the form next time. You will see experience A and B of the form at random.
 
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
 
@@ -547,15 +546,14 @@ Perform the following steps in the author instance to experience the creation of
 
 1. Now open the form in chrome browser several times using the following url:
 
-   https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/hm-app/jcr:content?wcmmode=disabled** 
-   **Note:** Remove the cookie with the name **mbox** from browser’s cookie persistence before opening the form next time.* 
-   You will see experience A and B of the form at random.
+   `https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/hm-app/jcr:content?wcmmode=disabled` 
+   >[!NOTE] Remove the cookie with the name **mbox** from browser’s cookie persistence before opening the form next time. You will see experience A and B of the form at random.
 
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
 
 1. Open CRXDE Lite and take a back-up of the following file: /libs/fd/fmaddon/gui/components/admin/targetreport/clientlibs/targetreport/js/targetreport.js
 1. Replace the definition of the `onReportLoadSuccess` function in the above mentioned file with the function definition in the following file: /apps/we-finance/demo-artifacts/targetreport.js
-   **Note:** These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
+   >[!NOTE] These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
 
 1. Refresh the report that you generated, and you will see something like the following. Review the reporting dashboard.
 
@@ -812,7 +810,7 @@ Go to the Blue Chip Growth Fund interactive communication at https://[publishHos
 
 ### Sarah views and emails the PDF version of the Blue Chip Growth Fund page {#sarah-views-and-emails-the-pdf-version-of-the-blue-chip-growth-fund-page}
 
-Sarah is traveling to the countryside on the weekend. She plans to discuss the Blue Chip Growth Fund with her elder brother. Her elder brother works with a bank and helps her in decisions related to finance. Sarah downloads a copy of PDF version of the Blue Chip Growth Fund page on her laptop for offline reading. She also emails a copy of PDF version to her brother. 
+Sarah is traveling to the countryside on the weekend. She plans to discuss the Blue Chip Growth Fund with her elder brother. Her elder brother works with a bank and helps her in decisions related to finance. Sarah downloads a copy of PDF version of the Blue Chip Growth Fund page on her laptop for offline reading. She also emails a copy of PDF version to her brother.
 
 ![blue-chip-pdf](assets/blue-chip-pdf.gif) 
 

@@ -1,11 +1,7 @@
 ---
 title: User experience enhancements in Assets
-seo-title: User experience enhancements in Assets
 description: This article describes the user experience improvements in AEM 6.4 Assets.
-seo-description: Usability improvements in AEM 6.4 Assets.
-uuid: d446f69a-1a24-4f46-901f-a14493f398ab
-contentOwner: asgupta
-discoiquuid: 6ea2c91f-565d-47d9-a36d-f59fa82283fa
+contentOwner: AG
 ---
 
 # User experience enhancements in Assets {#user-experience-enhancements-in-assets}
@@ -82,9 +78,9 @@ Depending upon the chose layout, you can open the details page for an asset in t
 
 | **View** |**How to open the asset details page** |
 |---|---|
-| Card view |Tap/click the asset tile.  |
-| List view |Tap/click on the row entry for the asset in the list. |
-| Column view |Tap/click the **[!UICONTROL More Details]** button from the asset snapshot. |
+| [!UICONTROL Card View] |Tap/click the asset tile.  |
+| [!UICONTROL List View] |Tap/click on the row entry for the asset in the list. |
+| [!UICONTROL Column View] |Tap/click the **[!UICONTROL More Details]** button from the asset snapshot. |
 
 Use the Previous/Next buttons to move back and forth between the assets.
 

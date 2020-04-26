@@ -1,13 +1,7 @@
 ---
 title: Cascading Metadata
-seo-title: Cascading Metadata
 description: This article describes how to define cascading metadata for assets.
-seo-description: How to define cascading metadata for assets.
-uuid: 97a9e1da-41de-4405-a725-f264ee71637c
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: authoring
-discoiquuid: f14881fd-ffff-4652-a798-0c68dd424119
+contentOwner: AG
 ---
 
 # Cascading Metadata {#cascading-metadata}
@@ -103,15 +97,14 @@ Irrespective of the asset type chosen, display the copyright information as a re
 
 1. Similary, create a dependency between the value Video in the Asset Type field and other fields, such as Codec and Duration.
 1. Repeat the steps to create dependency between document assets (PDF and Word) in the **[!UICONTROL Asset Type]** field and fields such as Page Count and Author.
-1. Click **[!UICONTROL Save]**. Apply the Metadata Schema to a folder.   
+1. Click **[!UICONTROL Save]**. Apply the Metadata Schema to a folder.
 
 1. Navigate to the folder to which you applied the Metadata Schema and open the properties page of an asset. Depending upon your choice in the Asset Type field, pertinent cascading metadata fields are displayed.
 
    ![Cascading metadata for Video asset](assets/video_asset.png)
 
-   **Figure:** *Cascading metadata for Video asset*
+   *Figure: Cascading metadata for Video asset*
 
    ![Cascading metadata for document asset](assets/doc_type_fields.png)
 
-   **Figure:** *Cascading metadata for document asset*
-
+   *Figure: Cascading metadata for document asset*

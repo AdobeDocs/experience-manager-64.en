@@ -105,4 +105,4 @@ Follow the steps below to set up a project:
 
 You can click on **Preview** from the editor and check how the assets will transition from single zone to multizone.
 
-![Preview](assets/SZ_MZvideo3.gif)
+![](assets/SZ_MZvideo3.gif)

@@ -544,6 +544,8 @@ Supported `jsdoc` tags:
     1. string  
     1. number  
     1. boolean
+    1. date
+    1. array
 
   All other return types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Return types are not case sensitive.
 

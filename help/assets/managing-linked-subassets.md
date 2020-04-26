@@ -1,17 +1,11 @@
 ---
-title: Managing Compound Assets
-seo-title: Managing Compound Assets
-description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
-seo-description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
-uuid: 5e0a6b4f-71f3-4f91-85cd-2b2e785e3328
-contentOwner: asgupta
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-topic-tags: managing-assets
-content-type: reference
-discoiquuid: 91ee7ad8-e6d8-4a61-91bc-41fcaf374035
+title: Manage compound assets and 
+description: Learn how to create references to AEM assets from within InDesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
+contentOwner: AG
+
 ---
 
-# Managing Compound Assets {#managing-compound-assets}
+# Manage compound assets with subassets {#managing-compound-assets}
 
 Adobe Experience Manager (AEM) Assets can identify if an uploaded file contains references to assets that already exist in the repository. This feature is available for supported file formats only. If the uploaded asset contains any references to AEM assets, a bidirectional link is created between the uploaded and referenced assets.
 
@@ -44,7 +38,7 @@ You can reference existing AEM assets from within an Adobe Illustrator file.
 
 To reference AEM assets from within an InDesign file, either drag AEM assets to the InDesign file or export the InDesign file as a ZIP file.
 
-Referenced assets already exist in AEM Assets. You can extract subassets by [configuring InDesign server](indesign.md). Embedded assets in an InDesign file are extracted as subassets.
+Referenced assets already exist in AEM Assets. You can extract subassets by [configure InDesign server](indesign.md). Embedded assets in an InDesign file are extracted as subassets.
 
 >[!NOTE]
 >
@@ -58,7 +52,7 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 
 1. Perform the steps in [Creating Workflow Models](/help/sites-developing/workflows-models.md) to create a new workflow.
 1. Use the Package feature of Adobe InDesign to export the document.
-   Adobe InDesign can export a document and the linked assets as a package. In this case, the exported folder contains a Links folder that contains sub-assets in the InDesign file.
+   Adobe InDesign can export a document and the linked assets as a package. In this case, the exported folder contains a Links folder that contains subassets in the InDesign file.
 1. Create a ZIP file and upload it to the AEM repository.
 1. Start the Unarchiver workflow.
 1. When the workflow completes, the references in the Links folder are automatically referenced as subassets. To view a list of referred assets, navigate to the asset details page of the InDesign asset and close the [Rail](/help/sites-authoring/basic-handling.md#rail-selector).
@@ -71,51 +65,58 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
    ![chlimage_1-261](assets/chlimage_1-261.png)
 
 1. Save in Photoshop file to the mounted drive or or [upload](managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
-1. After the worflow completes, the references to existing AEM assets are listed in the asset details page.
+1. After the workflow completes, the references to existing AEM assets are listed in the asset details page.
 
    To view the referenced assets, close the [Rail](/help/sites-authoring/basic-handling.md#rail-selector) in the asset details page.
 
-1. The referenced assets also contain the list of assets they are referenced from. To view a list of referenced assets, navigate to the asset details page and close the [Rail](/help/sites-authoring/basic-handling.md#rail-selector).
+1. The referenced assets also contain the list of assets they are referenced from. To view a list of referenced assets, navigate to the asset details page and close the [rail](/help/sites-authoring/basic-handling.md#rail-selector).
 
 >[!NOTE]
 >
 >The assets within compound assets can also be referenced based on their Document ID and Instance ID. This functionality is available with Adobe Illustrator and Adobe Photoshop versions only. For others, referencing is done on the basis of relative path of linked assets in the main compound asset as done in earlier versions of AEM.
 
+## Create subassets {#generate-subassets}
+
+For the supported assets with multi-page formats &mdash; PDF files, AI files, Microsoft PowerPoint and Apple Keynote files, and Adobe InDesign files &mdash; AEM can generate subassets that correspond to each individual page of the original asset. These subassets are linked to the *parent* asset and facilitate multi-page view. For all other purposes, the subassets are treated like normal assets in AEM.
+
+Subasset generation is disabled by default. To enable subasset generation, follow these steps:
+
+1. Log into Experience Manager as an administrator. Access **[!UICONTROL Tools > Workflow > Models]**.
+1. Select **[!UICONTROL DAM Update Asset]** workflow and click **[!UICONTROL Edit]**.
+1. Click **[!UICONTROL Toggle Side Panel]** and locate the **[!UICONTROL Create Sub Asset]** step. Add the step to the workflow. Click **[!UICONTROL Sync]**.
+
+To generate the subassets do one of the following:
+
+* New assets: The [!UICONTROL DAM Update Assets] workflow executes on any new asset that is uploaded to AEM. Subassets are auto-generated for new multi-page assets.
+* Existing multi-page assets: Manually execute the [!UICONTROL DAM Update Assets] workflow following either of the steps:
+
+  * Select an asset and click [!UICONTROL Timeline] to open the left panel. Alternately, use the keyboard shortcut `alt + 3`. Click [!UICONTROL Start Workflow], select [!UICONTROL DAM Update Asset], click [!UICONTROL Start], and click [!UICONTROL Proceed].
+  * Select an asset and click [!UICONTROL Create > Workflow] from the toolbar. From the popup dialog, select [!UICONTROL DAM Update Asset] workflow, click [!UICONTROL Start], and click [!UICONTROL Proceed].
+
+Specifically for Microsoft Word documents, execute the **[!UICONTROL DAM Parse Word Documents]** workflow. It generates a `cq:Page` component from the contents of the Microsoft Word document. The images extracted from the document are referenced from the `cq:Page` component. These images are extracted even if subasset generation is disabled.
+
+## View subassets {#viewing-subassets}
+
+The subassets are displayed only if the subassets are generated and are available for the selected multi-page asset. To view the generated subassets, open the multi-page asset. In the upper-left area of the page, click ![Left rail icon](assets/do-not-localize/aem_leftrail_contentonly.png) and click **[!UICONTROL Subassets]** from the list. When you select **[!UICONTROL Subassets]** from the list. Alternately, use the keyboard shortcut `alt + 5`.
+
+![View subassets for a multi-page asset](assets/view_subassets_simulation.gif)
+
 ## View pages of a multi-page file {#view-pages-of-a-multi-page-file}
 
-The Page Viewer feature of AEM Assets lets you view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files. For InDesign, you can extract pages using InDesign server. If the previews of pages are saved during InDesign file creation , then InDesign Server is not required for page extraction.
+You can view a multi-page file, such as PDF, INDD, PPT, PPTX, and AI file, using the Page Viewer feature of AEM Assets. Open a multi-page asset and click **[!UICONTROL View Pages]** from the upper-left corner of the page. The Page Viewer that opens displays the pages of the asset and the controls to browse through and zoom each page.
 
-You can browse through individual pages of a file from the asset page. You can use options from the toolbar to annotate individual pages of the file. You can also use the **[!UICONTROL Page Overview]** option to view all the pages simultaneously.
+![View and see pages of a multi-page asset](assets/view_multipage_asset_fmr.gif)
 
-1. Navigate to the folder in AEM Assets that contains the multi-page file.
-1. Click the asset to view its asset page.
+For InDesign, you can extract pages using InDesign server. If the previews of pages are saved during InDesign file creation, then InDesign Server is not required for page extraction.
 
-   ![chlimage_1-262](assets/chlimage_1-262.png)
+The following options are available in the toolbar, in the left rail, and in the Page Viewer controls:
 
-1. Click the Global Nav icon, and then choose **[!UICONTROL Pages]** from the menu.
+* **[!UICONTROL Desktop Actions]** to open or reveal a specific subasset using AEM desktop app. See how to [configure Desktop Actions](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html#desktopactions-v2) if you are using AEM desktop app.
 
-   ![chlimage_1-263](assets/chlimage_1-263.png)
+* **[!UICONTROL Properties]** option opens the [!UICONTROL Properties] page of the specific subasset.
 
-1. Click the left or right arrows below the image to navigate to individual pages of the file.
+* **[!UICONTROL Annotate]** option allows you to annotate the specific subasset. The annotations you use on separate subassets are collected and displayed together when the parent asset is opened for viewing.
 
-   ![chlimage_1-264](assets/chlimage_1-264.png)
+* **[!UICONTROL Page Overview]** option displays all the subassets simultaneously.
 
-1. To annotate a page, click the **[!UICONTROL Annotate]** icon from the toolbar and add a comment.
-
-   ![chlimage_1-265](assets/chlimage_1-265.png)
-
-1. To download the file, click the **[!UICONTROL Download]** icon.
-
-   ![chlimage_1-266](assets/chlimage_1-266.png)
-
-1. To view all pages of the file simultaneously, near the upper-right corner of the page, tap the **[!UICONTROL Page Overview]** icon.
-
-   ![chlimage_1-267](assets/chlimage_1-267.png)
-
-1. To view the activity stream for the file, including annotations and downloads, click the Global Navigation icon and then choose **[!UICONTROL Timeline]** from the menu.
-
-   ![chlimage_1-268](assets/chlimage_1-268.png)
-
-1. To view and edit the metadata properties of the page, click the **[!UICONTROL View Properties]** icon from the toolbar.
-
-   ![chlimage_1-269](assets/chlimage_1-269.png)
+* **[!UICONTROL Timeline]** option from the left rail after clicking ![Left rail icon](assets/do-not-localize/aem_leftrail_contentonly.png) displays the activity stream for the file.

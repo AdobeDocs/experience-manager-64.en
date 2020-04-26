@@ -1,15 +1,10 @@
 ---
-title: Assets Performance Tuning Guide
-seo-title: Assets Performance Tuning Guide
+title: Assets performance tuning guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-seo-description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-uuid: b5746549-34bf-4fb3-bb67-05c0380d4a07
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 6e454056-96cf-4269-9bed-e6b96c480388
 ---
 
-# Assets Performance Tuning Guide {#assets-performance-tuning-guide}
+# Assets performance tuning guide {#assets-performance-tuning-guide}
 
 An Adobe Experience Manager (AEM) Assets setup contains a number of hardware, software, and network components. Depending upon your deployment scenario, you may require specific configuration changes to hardware, software, and network components to remove performance bottlenecks.
 
@@ -245,6 +240,33 @@ To disable Page Extraction:
 
 -->
 
+<!--
+# Sub-asset generation and page extraction {#sub-asset-generation-and-page-extraction}
+
+During asset uploads, AEM's workflow creates a separate asset for each page in PDF and Office documents. Each of these pages is an asset by itself, which consumes additional disk space, requires versioning and additional workflow processing. If you do not require separate pages, disable Sub Asset Generation and Page Extraction.
+
+To disable Sub Asset generation, do the following:
+
+1. Open the **[!UICONTROL Workflow Console]** tool by going to */libs/cq/workflow/content/console.html*
+
+1. Select the **[!UICONTROL Models]** tab
+1. Double click the **[!UICONTROL DAM Update Asset]** workflow model
+1. Delete **[!UICONTROL Process Sub Asset]** step from **[!UICONTROL DAM Update Asset]** workflow model.
+
+1. Click on **[!UICONTROL Save]**
+
+To disable Page Extraction:
+
+1. Open the **[!UICONTROL Workflow Console]** tool by going to */libs/cq/workflow/content/console.html*
+
+1. Select the **[!UICONTROL Launchers]** tab
+1. Select a launcher that launches **[!UICONTROL DAM Parse Word Documents]** workflow model.
+1. Click **[!UICONTROL Edit]**
+1. Select **[!UICONTROL Disable]**
+1. Click **[!UICONTROL OK]**
+1. Repeat steps 3-6 for other launcher items that use **DAM Parse Word Documents** workflow model.
+--> 
+
 ### XMP writeback {#xmp-writeback}
 
 XMP writeback updates the original asset whenever metadata is modified in AEM, which results in the following:
@@ -321,12 +343,12 @@ Update index configurations to improve reindexing time:
 
    type="String"
 
-1. On the /oak:index/ntBaseLucene node, set the property *reindex=true*
+1. On the /oak:index/ntBaseLucene node, set the property `reindex=true`
 1. Click **[!UICONTROL Save All]**
-1. Monitor the error.log to see when indexing is completed: 
+1. Monitor the error.log to see when indexing is completed:
 
    Reindexing completed for indexes: [/oak:index/ntBaseLucene]
-   
+
 1. You can also see that indexing is completed by refreshing the /oak:index/ntBaseLucene node in CRXDe as the reindex property would go back to false
 1. Once indexing is completed then go back to CRXDe and set the **[!UICONTROL type]** property to disabled on these two indexes
 
@@ -379,17 +401,17 @@ To minimize latency and achieve high throughput through efficient CPU utilizatio
 
 ## AEM Assets performance checklist {#aem-assets-performance-checklist}
 
-* Enable HTTPS to get around any corporate HTTP traffic sniffers
-* Use a wired connection for heavy asset uploading
-* Deploy on Java 8.
-* Set optimal JVM parameters
-* Configure a Filesystem DataStore or an S3 DataStore
-* Enable transient workflows
-* Tune the Granite workflow queues to limit concurrent jobs
-* Configure ImageMagick to limit resource consumption
-* Remove unnecessary steps from the DAM Update Asset workflow
-* Configure workflow and version purging
-* Optimize Lucene index configuration in versions prior to 6.2
+* Enable HTTPS to get around any corporate HTTP traffic sniffers.
+* Use a wired connection for heavy asset uploading.
+* Set optimal JVM parameters.
+* Configure a Filesystem DataStore or an S3 DataStore.
+* Disable subasset generation. If it is enabled, AEM's workflow creates a separate asset for each page in a multi-page asset. Each of these pages is an individual asset that consumes additional disk space, requires versioning, and additional workflow processing. If you do not require separate pages, disable subasset generation and page extraction activities.
+* Enable transient workflows.
+* Tune the Granite workflow queues to limit concurrent jobs.
+* Configure ImageMagick to limit resource consumption.
+* Remove unnecessary steps from the DAM Update Asset workflow.
+* Configure workflow and version purging.
+* Optimize Lucene index configuration.
 * Optimize indexes with the latest service packs and hotfixes. Check with Adobe Support for any additional index optimizations that may be available.
 * Use `guessTotal` to optimize query performance.
 * If you configure AEM to detect file types from the content of the files (by configuring [!UICONTROL Day CQ DAM Mime Type Service] in the [!UICONTROL AEM Web Console]), upload many files in bulk during non-peak hours as the operation is resource-intensive.

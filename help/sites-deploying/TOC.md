@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: Adobe Experience Manager
+product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Deploying Guide
 ---
@@ -28,7 +28,7 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Oak-run.jar Indexing Use Cases](oak-run-indexing-usecases.md)
     + [Troubleshooting Oak Indexes](troubleshooting-oak-indexes.md)
     + [Opting Into Aggregated Usage Statistics Collection](opt-in-aggregated-usage-statistics.md)
-    + [Maintenance Release Vehicle Definitions](maintenance-release-vehicle-definitions.md)
+    + [Update Release Vehicle Definitions](update-release-vehicle-definitions.md)
     + [Troubleshooting](troubleshooting.md)
 + Configuring AEM {#configuring}
     + [Basic Configuration Concepts](configuring.md)
@@ -53,6 +53,7 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Assets Performance Guide](assets-performance-sizing.md)
     + [Configuration How-To Articles](ht-deploy.md)
     + [Removing the Geometrixx Sites](removing-the-geometrixx-sites.md)
+    + [Configuring Web Console](configuring-web-console.md)
 + Upgrading to AEM 6.4 {#upgrading}
     + [Upgrading to AEM 6.4](upgrade.md)
     + [Planning Your Upgrade](upgrade-planning.md)
@@ -92,7 +93,7 @@ user-guide-title: AEM 6.4 Deploying Guide
    + [Performance & Scalability](performance.md)
 
 
-<!-- 
+<!--
 
 To be removed:
 [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)

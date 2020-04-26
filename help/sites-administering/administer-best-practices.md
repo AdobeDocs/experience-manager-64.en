@@ -36,12 +36,12 @@ Best practices around Assets, including the dynamic media capability and Scene 7
  <tbody>
   <tr>
    <td>Best practices in different areas around Assets to enhance system stability and performance under load</td> 
-   <td><a href="/help/assets/best-practices-for-assets.md">Best Practices for Assets</a></td> 
+   <td><a href="/help/assets/organize-assets.md">Best Practices for Assets</a></td> 
    <td>Includes links to best practices guides in different areas around Assets. After reviewing them, you will have the knowledge and tools to build and manage an enterprise asset management system.</td> 
   </tr>
   <tr>
    <td>How to organize your content (folder hierarchy)</td> 
-   <td><a href="/help/assets/best-practices-for-file-management.md">Best practices for file management</a></td> 
+   <td><a href="/help/assets/organize-assets.md">Best practices for file management</a></td> 
    <td>Much of processing profiles is folder based as video, metadata, image processing are always applied to folders. This best practice document describes how to define and set up your folder hierarchy as the hierarchy has a significant impact on how content is processed. </td> 
   </tr>
   <tr>
