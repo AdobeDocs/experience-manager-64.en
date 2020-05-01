@@ -39,7 +39,7 @@ Adobe recommends that you use Adobe InDesign server to extract Adobe InDesign-sp
 
 Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, and performance-optimized network. It serves interactive viewing experiences and streamlines the digital campaign management process. For details around enabling Dynamic Media, see [Configuring Dynamic Media](config-dynamic.md).
 
-Currently, Dynamic Media can support videos up to 20 GB of content per file.
+Currently, Dynamic Media can support videos up to 15 GB of content per file.
 
 ## ImageMagick library {#imagemagick-library}
 
