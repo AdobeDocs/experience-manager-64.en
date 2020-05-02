@@ -70,7 +70,7 @@ In addition to the information above, consider the following:
 
 * For EPS files, metadata writeback is supported in PostScript Document Structuring Convention (PS-Adobe) version 3.0 or later.
 
-## Unsupported raster image formats in Dynamic Media (#unsupported-image-formats-dynamic-media)
+## Unsupported raster image formats in Dynamic Media {#unsupported-image-formats-dynamic-media}
 
 The following list describes the sub-types of raster image file formats that are *not* supported in Dynamic Media.
 
