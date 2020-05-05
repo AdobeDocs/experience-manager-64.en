@@ -205,11 +205,9 @@ In addition, set the path of ImageMagick's temporary folder in the *configure.xm
 
 >[!NOTE]
 >
->The ImageMagick policy.xml and configure.xml files may be found under /usr/lib64/ImageMagick-&ast;/config/ instead of /etc/ImageMagick/. Refer to the [ImageMagick documentation](https://www.imagemagick.org/script/resources.php) for details on the configuration file locations.
+>The ImageMagick `policy.xml` and `configure.xml` files may be found under `/usr/lib64/ImageMagick-*/config/` instead of `/etc/ImageMagick/`. See [ImageMagick documentation](https://www.imagemagick.org/script/resources.php) for details on the configuration file locations.
 
->[!NOTE]
->
->If you are using AEM on Adobe Managed Services (AMS), reach out to Adobe Support if you plan to process lots of large PSD or PSB files.
+If you are using AEM on Adobe Managed Services (AMS), reach out to Adobe Customer Care if you plan to process lots of large PSD or PSB files. Experience Manager may not process very high-resolution PSB files that are more than 30000 x 23000 pixels.
 
 <!-- 
 
@@ -265,7 +263,7 @@ To disable Page Extraction:
 1. Select **[!UICONTROL Disable]**
 1. Click **[!UICONTROL OK]**
 1. Repeat steps 3-6 for other launcher items that use **DAM Parse Word Documents** workflow model.
---> 
+-->
 
 ### XMP writeback {#xmp-writeback}
 
