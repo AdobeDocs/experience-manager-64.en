@@ -105,7 +105,7 @@ Perform the following steps to localize the images:
 
 ## Localizing Date Picker {#localizing-date-picker}
 
-You require development package to localize the *datepicker *API. For detailed information about creating development package, see [Building AEM Forms workspace code](introduction-customizing-html-workspace.md##building-html-workspace-code).
+You require development package to localize the *datepicker *API. For detailed information about creating development package, see [Building AEM Forms workspace code](introduction-customizing-html-workspace.md#building-html-workspace-code).
 
 1. Download and extract the [jQuery UI Package](https://jqueryui.com/download/all/), navigate to *&lt;extracted jquery UI package&gt;*\jquery-ui-1.10.2.zip\jquery-ui-1.10.2\ui\i18n.
 1. Copy the jquery.ui.datepicker-nw.js file for locale code nw to apps/ws/js/libs/jqueryui and make locale specific changes to the file. 
