@@ -15,11 +15,11 @@ Learn to create a custom theme, style individual components, and use web fonts i
 
  ![](do-not-localize/08-style_your_adaptiveformmain.png) 
 
-This tutorial is a step in the [Create Your First Adaptive Form](https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
+This tutorial is a step in the [Create Your First Adaptive Form](create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
 ## About the tutorial  {#about-the-tutorial}
 
-You can use themes to provide a unique appearance and style to an adaptive form. You can apply out of the box themes provided with adaptive forms editor or create custom themes of your own. AEM Forms provide a [theme editor](https://helpx.adobe.com/experience-manager/6-3/forms/using/themes.html) to create custom themes. A single theme can provide the different appearance to the same adaptive form opened on mobile, tablet, or desktop. Any prior knowledge of CSS or LESS is not required to use theme editor but it is desired.
+You can use themes to provide a unique appearance and style to an adaptive form. You can apply out of the box themes provided with adaptive forms editor or create custom themes of your own. AEM Forms provide a [theme editor](themes.md) to create custom themes. A single theme can provide the different appearance to the same adaptive form opened on mobile, tablet, or desktop. Any prior knowledge of CSS or LESS is not required to use theme editor but it is desired.
 
 By the end of the tutorial, you will learn to:
 

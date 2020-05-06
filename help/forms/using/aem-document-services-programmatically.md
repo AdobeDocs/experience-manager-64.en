@@ -56,7 +56,7 @@ You can perform the following operations using the DocAssurance service:
 
 >[!NOTE]
 >
->All these services use Document object as  input  parameter for which the Javadoc can be found at the URL [https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/index.html](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/index.html)
+>All these services use Document object as  input  parameter for which the Javadoc can be found at the URL [https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html)
 
 ### Adding an invisible signature field {#adding-an-invisible-signature-field}
 

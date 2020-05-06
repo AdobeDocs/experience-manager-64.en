@@ -50,7 +50,7 @@ Before you set up the reference site, ensure that you have the following:
   To use digital signing capabilities, Adobe Sign developer account is required. See [Adobe Sign](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
 
 * A running instance of Microsoft Dynamics 365 to integrate with AEM Forms. To run the reference site, you import the sample data into the Microsoft Dynamics instance to prefill the interactive communication used in the reference site.
-* A running instance of AEM 6.4 with Forms add-on package. For more information, see [Installing and configuring AEM Forms](https://helpx.adobe.com/experience-manager/6-3/forms/using/installing-configuring-aem-forms-osgi.html).
+* A running instance of AEM 6.4 with Forms add-on package. For more information, see [Installing and configuring AEM Forms](installing-configuring-aem-forms-osgi.md).
 
 Perform the following steps in the recommended sequence to set up and configure the reference sites.
 
