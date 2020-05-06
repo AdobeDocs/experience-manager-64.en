@@ -26,10 +26,10 @@ user-guide-title: AEM 6.4 Forms User Guide
   + Tutorial: Create your First Interactive Communication {#create-first-interactive-communication}
     + [Tutorial: Create your first Interactive Communication](using/create-your-first-interactive-communication.md)
     + [Tutorial: Plan the Interactive Communication](using/planning-interactive-communications.md)
-    + [Tutorial: Create form data model](using/create-form-data-model0.md)
+    + [Tutorial: Create form data model](using/create-form-data-model-tutorial.md)
     + [Tutorial: Create document fragments](using/create-document-fragments.md)
     + [Tutorial: Create templates](using/create-templates-print-web.md)
-    + [Tutorial: Create Interactive Communication](using/create-interactive-communication0.md)
+    + [Tutorial: Create Interactive Communication](using/create-interactive-communication-tutorial.md)
   + AEM Forms Reference Collaterals {#aem-forms-reference-collaterals}
     + [Set up and configure AEM Forms reference sites](using/setup-reference-sites.md)
     + [We.Finance reference site walkthrough](using/finance-reference-site-walkthrough.md)

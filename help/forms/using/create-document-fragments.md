@@ -42,7 +42,7 @@ Each document fragment includes fields with static text, data received from form
 
 While creating document fragments in this tutorial, variables are created for fields that receive data using the Agent UI.
 
-Use **FDM_Create_First_IC**, as described in the [Create form data model](/help/forms/using/create-form-data-model0.md) section, as the form data model to create document fragments in this tutorial.
+Use **FDM_Create_First_IC**, as described in the [Create form data model](create-form-data-model-tutorial.md) section, as the form data model to create document fragments in this tutorial.
 
 ## Step 1: Create Bill Details text document fragment {#step-create-bill-details-text-document-fragment}
 
