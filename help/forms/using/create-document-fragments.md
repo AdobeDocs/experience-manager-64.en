@@ -154,7 +154,7 @@ Execute the following steps to create variables for fields with Agent UI as the 
    ![customer_details_static_text_fdm](assets/customer_details_static_text_fdm.png)
 
 1. Place the cursor next to the **Mobile Number** field and double-click the **customer** &gt; **mobilenum** property.
-1. Place the cursor next to the **Alternate Contact Number** field and double-click the** customer** &gt; **alternatemobilenumber** property.
+1. Place the cursor next to the **Alternate Contact Number** field and double-click the **customer** &gt; **alternatemobilenumber** property.
 1. Place the cursor next to the **Relationship Number** field and double-click the **customer** > **relationshipnumber** property.
 1. Select the **Variables** tab, place the cursor next to the **Place of Supply** field and double-click the **Placesupply** variable.
 1. Place the cursor next to the **State Code** field and double-click the **Statecode** variable.
@@ -247,7 +247,7 @@ Execute the following steps to create static text and use form data model elemen
 1. Select **Create** &gt; **Text**.
 1. Specify the following information:
 
-    1. Enter **summary_charges_first_ic **as the name in the **Title** field. The title gets auto-populated in the Name field.
+    1. Enter **summary_charges_first_ic** as the name in the **Title** field. The title gets auto-populated in the Name field.
     1. Select **Form Data Model** from the **Data Model** section.
     1. Select **FDM_Create_First_IC** as the form data model and tap **Select**.
     1. Tap **Next**.

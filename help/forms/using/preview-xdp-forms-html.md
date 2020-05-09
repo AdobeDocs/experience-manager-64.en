@@ -103,7 +103,7 @@ Testing your form by using a sample data source ensures that the data and fields
 
 1. Select **File &gt; Form Properties**.  
 
-1. Click the **Preview **tab and, in the Data File box, type the full path to your test data file. You can also use the Browse button to navigate to the file.  
+1. Click the **Preview** tab and, in the Data File box, type the full path to your test data file. You can also use the Browse button to navigate to the file.  
 
 1. Click **OK**. The next time you preview the form in the **Preview HTML** tab, the data values from the sample XML file will appear in the respective objects.
 

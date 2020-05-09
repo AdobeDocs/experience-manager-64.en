@@ -73,7 +73,7 @@ Perform the following steps to create an adaptive form for Adobe Sign:
 
 1. In the **[!UICONTROL Form Model]** tab, select one of the following options:
 
-    * Select the [!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form. 
+    * Select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form. 
     * Select the **[!UICONTROL Generate Document of Record]** option. If you use a Document of Record option enabled adaptive form, then the document sent for signing displays all the fields of the adaptive form.
 
 1. Tap **[!UICONTROL Create.]** A sign-enabled adaptive form is created, which can be used to add Adobe Sign fields.
@@ -85,7 +85,7 @@ Perform the following steps to use Adobe Sign in an existing adaptive form:
 1. Navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]**> **[!UICONTROL Forms & Documents]**. 
 1. Select the adaptive form and tap **[!UICONTROL Properties]**.
 1. In the **[!UICONTROL Basic]** tab, select the [configuration container](/help/forms/using/adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while configuring Adobe Sign with AEM Forms.
-1. In the **[!UICONTROL Form Mode]**l tab, select one of the following options:
+1. In the **[!UICONTROL Form Model]** tab, select one of the following options:
 
     * Select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form.
     * Select the **[!UICONTROL Generate Document of Record]** option. If you use a Document of Record option enabled adaptive form, then the document sent for signing displays all the fields of the adaptive form.
@@ -98,7 +98,7 @@ Adobe Sign has various fields that can be placed on an adaptive form. These fiel
 
 Perform the following steps to add fields to an adaptive form and customize various options related to these fields:
 
-1. Drag-and-drop **Adobe Sign Block** component from the component browser to the adaptive form. The Adobe Sign Block component has all the supported Adobe Sign fields. By default, it adds a **Signature **field to the adaptive form.
+1. Drag-and-drop **Adobe Sign Block** component from the component browser to the adaptive form. The Adobe Sign Block component has all the supported Adobe Sign fields. By default, it adds a **Signature** field to the adaptive form.
 
    ![sign-block](assets/sign-block.png)
 

@@ -314,7 +314,7 @@ Do the following on both author and publish instances:
 1. Navigate to **/conf/global/settings/cloudconfigs/fdm/roi-rest/jcr:content/swaggerFile** and open the swagger file.
 1. Update the host and port settings as per your environment.
 1. Save the settings.
-1. (**Author instance only**) Go to **[!UICONTROL Tools** > **Cloud Services** > **Data Sources** > **global]**. Select **[!UICONTROL roi-rest]** and tap **[!UICONTROL Properties]**. Tap **[!UICONTROL Authentication Settings]** and set **[!UICONTROL Authentication Type]** to **[!UICONTROL Basic Authentication]**. Specify `admin`/ `admin`as the username/password to access the service. Tap **[!UICONTROL Save & Close]**.
+1. (**Author instance only**) Go to **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Data Sources]** > **[!UICONTROL global]**. Select **[!UICONTROL roi-rest]** and tap **[!UICONTROL Properties]**. Tap **[!UICONTROL Authentication Settings]** and set **[!UICONTROL Authentication Type]** to **[!UICONTROL Basic Authentication]**. Specify `admin`/ `admin`as the username/password to access the service. Tap **[!UICONTROL Save & Close]**.
 
 ## Integrate with Marketing Cloud {#integrate-with-marketing-cloud}
 
