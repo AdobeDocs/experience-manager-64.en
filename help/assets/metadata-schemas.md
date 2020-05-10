@@ -28,29 +28,34 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    ![chlimage_1-173](assets/chlimage_1-173.png)
 
-   AEM provides the following templates out of the box:
+## Metadata Schema Forms available by default {#available-metadata-schema-templates}
 
-    * **default**: The base metadata schema form for assets.
+[!DNL Experience Manager] provides the following templates:
 
-   The following child forms inherit the properties of the default form:  
+### default {#default-template}
+    
+The [!UICONTROL default] is the base metadata schema form for assets. The following child forms inherit the properties of the default form:
 
-   i. **image**: Schema form for assets with the MIME type `image`, for example, `image/jpeg`, `image/png`, and so on.  
+**image** is the schema form for assets with the MIME type "image". For example, `image/jpeg`, `image/png`, and so on. The "image" form has the following child form templates:
+* **jpeg** is the schema form for assets with sub type `jpeg`.
 
-   The "image" form has the following child form templates:
+* **tiff** is the schema form for the assets with sub type `tiff`.
 
-   a. **jpeg**: Schema form for assets with sub type jpeg.  
+**application** is the schema form for assets with MIME type `application`. For example, `application/pdf`, `application/zip`, and so on. **pdf** is the schema form for assets with sub type `pdf`.
 
-   b. **tiff**: Schema form for the assets with sub type TIFF.  
+**video** is the schema form for assets with MIME type `video`, such as `video/avi`, `video/mp4`, and so on.
 
-   ii. **application**: Schema form for assets with MIME type application, for example `application/pdf`, `application/zip`, and so on.  
+### collection {#collection-template}
 
-   a. **pdf**: Schema form for assets with sub type PDF.  
+The [!UICONTROL collection] is the schema form for collections.
 
-   iii. **video**: Schema form for assets with MIME type video, such as `video/avi`, `video/mp4` and so on.
+### contentfragment {#contentfragment-template}
 
-    * **collection**: Schema form for collections
-    * **contentfragment:** Schema form for Content Fragments
-    * **forms**: This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md)
+The [!UICONTROL contentfragment] is the schema form for Content Fragments.
+
+### forms {#forms-template} 
+
+The [!UICONTROL forms] schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md).
 
 >[!NOTE]
 >
