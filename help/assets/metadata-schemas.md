@@ -28,22 +28,34 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    ![chlimage_1-37](assets/chlimage_1-173.png)
 
-   AEM provides the following templates out of the box:
-    * **default**: The base metadata schema form for assets.
+## Metadata Schema Forms available by default {#available-metadata-schema-templates}
 
-      The following child forms inherit the properties of the default form:
+[!DNL Experience Manager] provides the following Metadata Schema Form templates:
 
-      1. **image**: Schema form for assets with the MIME type "image", for example, `image/jpeg`, `image/png`, and so on.
+### default {#default-template}
+    
+The [!UICONTROL default] is the base metadata schema form for assets. The following child forms inherit the properties of the default form:
 
-         The "image" form has the following child form templates:
-         * **jpeg**: Schema form for assets with sub type `jpeg`.
-         * **tiff**: Schema form for the assets with sub type `tiff`.
-      1. **application**: Schema form for assets with MIME type `application`, for example `application/pdf`, `application/zip`, and so on.
-         * **pdf**: Schema form for assets with sub type `pdf`.
-      1. **video**: Schema form for assets with MIME type `video`, such as `video/avi`, `video/mp4`, and so on.
-    * **collection**: Schema form for collections.
-    * **contentfragment:** Schema form for Content Fragments.
-    * **forms**: This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md).
+* **image** is the schema form for assets with the MIME type "image". For example, `image/jpeg`, `image/png`, and so on. The "image" form has the following child form templates:
+   * **jpeg** is the schema form for assets with sub type `jpeg`.
+
+   * **tiff** is the schema form for the assets with sub type `tiff`.
+
+* **application** is the schema form for assets with MIME type `application`. For example, `application/pdf`, `application/zip`, and so on. **pdf** is the schema form for assets with sub type `pdf`.
+
+* **video** is the schema form for assets with MIME type `video`, such as `video/avi`, `video/mp4`, and so on.
+
+### collection {#collection-template}
+
+The [!UICONTROL collection] is the schema form for collections.
+
+### contentfragment {#contentfragment-template}
+
+The [!UICONTROL contentfragment] is the schema form for Content Fragments.
+
+### forms {#forms-template} 
+
+The [!UICONTROL forms] schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md).
 
 >[!NOTE]
 >
