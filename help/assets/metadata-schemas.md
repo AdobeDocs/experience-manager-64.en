@@ -24,38 +24,22 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](metadata-schemas.md#editing-metadata-schema-forms) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a `jpeg` schema under `default/image` only modifies the metadata layout (asset properties) for assets with MIME type `IMAGE/JPEG`. However, if you edit the default schema, your changes modify the metadata layout for all types of assets.
 
-1. To view a list of forms/templates, click the AEM logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**.
+## Metadata Schema Forms {#default-metadata-schema-forms}
 
-   ![chlimage_1-37](assets/chlimage_1-173.png)
-
-## Metadata Schema Forms available by default {#available-metadata-schema-templates}
+To view a list of forms/templates, in [!DNL Experience Manager] interface navigate to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Metadata Schemas]**. 
 
 [!DNL Experience Manager] provides the following Metadata Schema Form templates:
 
-### default {#default-template}
-    
-The [!UICONTROL default] is the base metadata schema form for assets. The following child forms inherit the properties of the default form:
-
-* **image** is the schema form for assets with the MIME type "image". For example, `image/jpeg`, `image/png`, and so on. The "image" form has the following child form templates:
-   * **jpeg** is the schema form for assets with sub type `jpeg`.
-
-   * **tiff** is the schema form for the assets with sub type `tiff`.
-
-* **application** is the schema form for assets with MIME type `application`. For example, `application/pdf`, `application/zip`, and so on. **pdf** is the schema form for assets with sub type `pdf`.
-
-* **video** is the schema form for assets with MIME type `video`, such as `video/avi`, `video/mp4`, and so on.
-
-### collection {#collection-template}
-
-The [!UICONTROL collection] is the schema form for collections.
-
-### contentfragment {#contentfragment-template}
-
-The [!UICONTROL contentfragment] is the schema form for Content Fragments.
-
-### forms {#forms-template} 
-
-The [!UICONTROL forms] schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md).
+| Templates | | Description |
+|---|---|---|
+| [!UICONTROL default] | | The base metadata schema form for assets. |
+| | The following child forms inherit the properties of the [!UICONTROL default] form: | |
+| |<ul><li> [!UICONTROL image]</li></ul> | Schema form for assets with the MIME type "image", for example,  image/jpeg,  image/png, and so on. <br> The [!UICONTROL image] form has the following child form templates: <ul><li> [!UICONTROL jpeg]: Schema form for assets with sub type [!UICONTROL jpeg].</li> <li>[!UICONTROL tiff]: Schema form for the assets with sub type [!UICONTROL tiff].</li></ul> |
+| | <ul><li> [!UICONTROL application]</li></ul> | Schema form for assets with MIME type "application", for example  application/ pdf,  application/ zip, and so on. <br>[!UICONTROL pdf]: Schema form for assets with sub type pdf. |
+| | <ul><li>[!UICONTROL video]</li></ul> | Schema form for assets with MIME type "video", such as video/avi, video/mp4 and so on. |
+| [!UICONTROL collection] | | Schema form for collections. |
+| [!UICONTROL contentfragment] | | Schema form for content fragments. |
+| [!UICONTROL forms] | | This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md). |
 
 >[!NOTE]
 >
