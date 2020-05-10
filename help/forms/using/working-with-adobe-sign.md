@@ -272,11 +272,19 @@ Now, the in form signing experience is ready. You can preview the form to verify
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**Ans:** No, AEM Forms does not support using an adaptive form that embeds an Adobe Sign enabled adaptive form for signing
+**Q: You can embed an adaptive form in another adaptive form. Can the embedded adaptive form be Adobe Sign enabled?**
+
+**Ans:** No, AEM Forms does not support using an adaptive form that embeds an Adobe Sign enabled adaptive form for signing.
+
+**Q: When I create an adaptive form using the advanced template and open it for editing, an error message "Electronic Signatures or signers are not configured correctly." appears. How to resolve the error message?**
 
 **Ans:** Adaptive form created using the advanced template is configured to use Adobe Sign. To resolve the error, create and select an Adobe Sign cloud configuration and configure an Adobe Sign signer for the adaptive form.
 
+**Q: Can I use Adobe Sign text tags in a static text component of an adaptive form?**
+
 **Ans:** Yes, you can use text tags in a text component to add Adobe Sign fields to a [Document of Record](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md) (Auto generated document of record option only) enabled adaptive form. To learn about the procedure and rules to create a text tag, see [Adobe Sign Documentation](https://helpx.adobe.com/sign/help/text-tags.html). Also note, Adaptive forms has a limited support for text tags. You can use the text tags to create only those fields that Adobe Sign Block supports.
+
+**Q: AEM Forms provides both Adobe Sign block and Signature step components. Can these be used simultaneously in an adaptive form?**
 
 **Ans:** You can use both the components simultaneously in a form. Here are a few recommendations for using these components:
 
