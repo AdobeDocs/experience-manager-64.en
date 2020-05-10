@@ -20,7 +20,7 @@ user-guide-title: AEM 6.4 Assets User Guide
   + [Use Adobe Stock assets in AEM Assets](aem-assets-adobe-stock.md)
   + [Review folder assets and collections](bulk-approval.md)
   + [Activity stream in timeline](activity-stream.md)
-  + [Applying Workflows to Assets](assets-workflow.md)
+  + [Process Assets](assets-workflow.md)
   + [Adding image maps](image-maps.md)
   + [Reuse assets using MSM](reuse-assets-using-msm.md)
 + Dynamic Media{#dynamic}

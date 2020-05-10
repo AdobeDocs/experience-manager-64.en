@@ -26,7 +26,7 @@ You require the following to integrate Adobe Sign with AEM Forms:
 
 * An active [Adobe Sign developer account](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
 * An [SSL enabled](/help/sites-administering/ssl-by-default.md) AEM Forms server.
-* An [Adobe Sign API application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobeio/adobeio-documentation/master/sign/gstarted/create_app.md).
+* An [Adobe Sign API application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
 * Credentials (Client ID and Client Secret) of Adobe Sign API application.
 
 ## Configure Adobe Sign with AEM Forms {#configure-adobe-sign-with-aem-forms}

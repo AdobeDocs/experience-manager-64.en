@@ -48,4 +48,3 @@ On the Tracking page, you can select a process and view its details. You can sea
     * To view the task assignment details, click the Assignment tab.
     * To view the associated form, click the form button.
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

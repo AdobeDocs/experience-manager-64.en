@@ -312,8 +312,6 @@ Some limitations of the feature are:
 
 ## Preview assets {#previewing-assets}
 
-See also [Previewing Dynamic Media Assets.](previewing-assets.md)
-
 **To preview assets**:
 
 1. From the Assets UI, navigate to the location of the asset you want to preview.
@@ -328,6 +326,11 @@ See also [Previewing Dynamic Media Assets.](previewing-assets.md)
    Tap the **[!UICONTROL Reset]** button to reset the view to the original size.
 
    ![chlimage_1-11](assets/chlimage_1-11.png)
+
+>[!MORELIKETHIS]
+>
+>* [Preview Dynamic Media Assets](/help/assets/previewing-assets.md).
+>* [View subassets](managing-linked-subassets.md#viewing-subassets).
 
 ## Edit properties {#editing-properties}
 
@@ -880,25 +883,23 @@ The versioning functionality lets you do the following:
 
 **To create asset versioning**:
 
-1. Navigate to the location of the asset for which you want to create a version, and tap it to open its asset page.  
+1. Navigate to the location of the asset for which you want to create a version, and click it to open its asset page.  
 
-1. Tap the **[!UICONTROL Global Navigation]** icon, and the choose **[!UICONTROL Timeline]** from the menu.
+1. Click the **[!UICONTROL Global Navigation]** icon, and the choose **[!UICONTROL Timeline]** from the menu.
 
    ![timeline-1](assets/timeline-1.png)
 
-1. Tap the **[!UICONTROL Actions]** (arrow) icon at the bottom to view the available actions you can perform on the asset.
+1. Click **[!UICONTROL Actions]** at the bottom to view the available actions you can perform on the asset.
 
-   ![chlimage_1-45](assets/chlimage_1-45.png)
-
-1. Tap **[!UICONTROL Save as Version]** to create a version for the asset.
+1. Click **[!UICONTROL Save as Version]** to create a version for the asset.
 
    ![chlimage_1-46](assets/chlimage_1-46.png)
 
-1. Add a label and comment, and then tap **[!UICONTROL Create]** to create a version. Alternatively, tap **[!UICONTROL Cancel]** to exit the operation.
+1. Add a label and comment, and then click **[!UICONTROL Create]** to create a version. Alternatively, tap **[!UICONTROL Cancel]** to exit the operation.
 
    ![chlimage_1-47](assets/chlimage_1-47.png)
 
-1. To view the new version, open the **[!UICONTROL Show All]** list in the timeline from the asset details page or the Assets UI, and choose **[!UICONTROL Versions]**.
+1. To view the new version, open the **[!UICONTROL Show All]** list in the timeline from the asset details page or the [!DNL Assets] interface, and choose **[!UICONTROL Versions]**.
 
    ![versions_option](assets/versions_option.png)
 
@@ -914,9 +915,9 @@ The versioning functionality lets you do the following:
 
    ![save_version](assets/save_version.png)
 
-1. To generate a preview for the version, tap **[!UICONTROL Preview Version]**.
+1. To generate a preview for the version, click **[!UICONTROL Preview Version]**.
 1. To display this version in the Assets UI, select **[!UICONTROL Revert to this Version]**.
-1. To compare between two versions, go to the asset page of the asset and tap the version you want to compare with the current version.
+1. To compare between two versions, go to the asset page of the asset and click the version you want to compare with the current version.
 
    ![Select a previous version of the asset to compare with the current version](assets/select_version_tocompare.png)
 
@@ -926,30 +927,7 @@ The versioning functionality lets you do the following:
 
 ### Start a workflow on an asset {#starting-a-workflow-on-an-asset}
 
-1. Navigate to the location of the asset for which you want to start a workflow, and tap the asset to open the asset page.
-1. Tap the **[!UICONTROL Global Navigation]** icon, and the choose **[!UICONTROL Timeline]** from the menu to display the timeline.
-
-   ![timeline-2](assets/timeline-2.png)
-
-1. Tap the **[!UICONTROL Actions]** (arrow) icon at the bottom to open the list of actions available for the asset.
-
-   ![chlimage_1-48](assets/chlimage_1-48.png)
-
-1. Tap **[!UICONTROL Start Workflow]** from the list.
-
-   ![chlimage_1-49](assets/chlimage_1-49.png)
-
-1. In the **[!UICONTROL Start Workflow]** dialog box, select a workflow model from the list.
-
-   ![chlimage_1-50](assets/chlimage_1-50.png)
-
-1. (Optional) Specify a title for the workflow, which can be used to reference the workflow instance.
-
-   ![chlimage_1-51](assets/chlimage_1-51.png)
-
-1. Tap **[!UICONTROL Start]**, then tap **[!UICONTROL Proceed]** in the dialog box to confirm. Each step of workflow is displayed in the timeline as an event.
-
-   ![chlimage_1-52](assets/chlimage_1-52.png)
+See [apply a workflow to an AEM asset](/help/assets/assets-workflow.md#apply-a-workflow-to-an-aem-asset).
 
 ## About collections {#collections}
 

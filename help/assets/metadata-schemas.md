@@ -26,7 +26,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
 1. To view a list of forms/templates, click the AEM logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**.
 
-   ![chlimage_1-173](assets/chlimage_1-173.png)
+   ![chlimage_1-37](assets/chlimage_1-173.png)
 
 ## Metadata Schema Forms available by default {#available-metadata-schema-templates}
 

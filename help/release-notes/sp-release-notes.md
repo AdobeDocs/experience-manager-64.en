@@ -96,6 +96,8 @@ Some key highlights of this service pack release are:
 
 * Adobe Campaign properties are not cleaned up when language copy of a newsletter linked to an Adobe Campaign is made, whereas clean up happens when a newsletter linked to an Adobe Campaign is copied or pasted (NPR-32540).
 
+* ReportSuitesServlet is vulnerable to SSRF (NPR-32161).
+
 ### Sling {#sling-6480}
 
 * Non-deterministic shadowing of resource observation is not working (CQ-4286466).
@@ -1674,7 +1676,7 @@ List of Content Packages included in AEM 6.4.2.0
 
 AEM 6.4.1.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in April 2018.
 
-AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the service pack are: 
+AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the service pack are:
   
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.3.
 * Introduced Enhanced Smart Tags. 
@@ -1691,7 +1693,8 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 * Added Source Content Fragment for translation.
 * Added ARIA support to Print and PrintDialog.
 * Added email validation ARIA support.
-* Proactive Backport for platform.clientlibs fixes. 
+* Proactive Backport for platform.clientlibs fixes.
+* Prevention of auto-execution of scripts when there is no input to the explicit dataType (resolves CVE-2015-9251).
   
 **Assets**
   

@@ -116,7 +116,7 @@ AEM provides a console to check the statues of all the live copies of a source f
 1. To view the detailed information about each asset in the live copy folder, select an asset and click **[!UICONTROL Relationship Status]** from the toolbar.
 ![Detailed information and status of a live copy child asset in a folder](assets/lc_relationship_status.png)
 
-> [!TIP]
+>[!TIP]
 >
 >You can quickly see the statuses of live copies of other folders without having to browse too much. Just change the folder in the pop-up list in the upper middle part of the **[!UICONTROL Live Copy Overview]** interface.
 
