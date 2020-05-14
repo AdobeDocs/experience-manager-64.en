@@ -7,8 +7,9 @@ contentOwner: AG
 # Metadata Schemas {#metadata-schemas}
 
 In Adobe Experience Manager (AEM) Assets, a metadata schema defines the layout of the properties page and the metadata properties displayed for assets that use the particular schema. Metadata properties include title, description, MIME types, tags, and so on.
-
 You can use the Metadata Schema Forms editor to modify existing schemas or add custom metadata schemas.
+
+To view and edit the properties page for an asset, follow these steps:
 
 1. To view the properties page for an asset, click or tap the **[!UICONTROL View Properties]** from **[!UICONTROL Quick Actions]** on the asset tile in Card view.
 
