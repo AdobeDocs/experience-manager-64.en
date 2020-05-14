@@ -18,7 +18,7 @@ To view and edit the properties page for an asset, follow these steps:
 
    ![chlimage_1-171](assets/chlimage_1-171.png)
 
-1. You can edit the editable metadata properties under the available tabs. However, you cannot modify the asset [!UICONTROL Type] in the [!UICONTROL Basic] tab of properties page.
+1. You can edit the various editable metadata properties under the available tabs. However, you cannot modify the asset [!UICONTROL Type] in the [!UICONTROL Basic] tab of properties page.
 
    ![chlimage_1-172](assets/chlimage_1-172.png)
 
