@@ -475,13 +475,13 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Select a rendition to either view or delete the rendition.
 
-   **Deleting a rendition**
+   **Delete a rendition**
 
-   Select a rendition from the **[!UICONTROL Renditions]** panel, and then tap the **[!UICONTROL Delete Rendition]** icon from the [toolbar](/help/sites-authoring/basic-handling.md).
+   Select a rendition from the **[!UICONTROL Renditions]** panel, and then tap the **[!UICONTROL Delete Rendition]** icon from the [toolbar](/help/sites-authoring/basic-handling.md). Renditions cannot be deleted in bulk after asset processing is complete. For individual assets, you can remove renditions manually from the user interface. For multiple assets, you can customize Experience Manager to delete either specific renditions or delete the assets and re-upload the deleted assets.
 
    ![delete_renditionicon](assets/delete_renditionicon.png)
 
-   **Uploading a new rendition**
+   **Upload a new rendition**
 
    Navigate to the asset details page for the asset, and tap the **[!UICONTROL Add Rendition]** icon in the toolbar to upload a new rendition for the asset. 
 
