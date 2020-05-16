@@ -182,6 +182,10 @@ Some of the key highlights of AEM 6.4.7.0 are:
 * The export version of API package `package com.day.cq.dam.handler.standard.msoffice` supported by `dam-handler` bundle is upgraded to 6.0.0 (CQ-4279059).
 If you are using the package `com.day.cq.dam.handler.standard.msoffice` in your custom implementation, then it is advised that you compile your `dam-handler` bundle with the latest uber jar.
 
+* New column for created date, which is sortable, has been added in DAM list view and on asset search results in list view (NPR-31311).
+
+* Asset sorting based on Name column has been allowed in List view (NPR-31299).
+
 **Fixes**
 
 * Metadata for some PDF documents is not updated and saved to the PDF on modifying its title (NPR-31575).
