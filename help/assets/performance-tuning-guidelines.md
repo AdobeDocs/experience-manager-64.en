@@ -26,7 +26,7 @@ To improve asset upload times, use high performance storage for the Java temp di
 
 Assuming the server has ample memory, configure a RAM drive. On Linux, run these commands to create an 8 GB RAM drive:
 
-```
+```shell
 mkfs -q /dev/ram1 800000
  mkdir -p /mnt/aem-tmp
  mount /dev/ram1 /mnt/aem-tmp
@@ -77,7 +77,7 @@ Implementing an S3 or Shared File Datastore can help to save disk space and incr
 
 The following S3 Data Store configuration ( `org.apache.jackrabbit.oak.plugins.blob.datastore.S3DataStore.cfg`) helped Adobe extract 12.8 TB of binary large objects (BLOBs) from an existing file data store into an S3 data store at a customer site:
 
-```
+```conf
 accessKey=<snip>
  secretKey=<snip>
  s3Bucket=<snip>
