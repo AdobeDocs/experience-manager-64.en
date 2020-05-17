@@ -91,7 +91,7 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for WebLogic](http://www.adobe.com/go/learn_aemforms_upgradeWebLogic_64)
     + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebLogic](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-weblogic-livecycle.pdf)
     + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for WebSphere](http://www.adobe.com/go/learn_aemforms_upgradeWebSphere_64)
-    + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebSphere](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-turnkey-livecycle.pdf)
+    + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebSphere](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-websphere-livecycle.pdf)
 + Manage AEM Forms {#manage-administer-aem-forms}
   + [AEM Forms on OSGi Groups and Privileges](using/forms-groups-privileges-tasks.md)
   + [Create new folders to categorize forms](using/creating-new-folders-categorize-forms.md)
