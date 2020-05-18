@@ -76,7 +76,7 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 
 The following is an example of API usage:
 
-```xml
+```java
 @Reference
  JobService proxyJobService;
 
@@ -94,7 +94,6 @@ The following is an example of API usage:
 
  // to remove job and cleanup
  proxyJobService.removeJob(jobId);
-
 ```
 
 ### Cloud Service Configurations {#cloud-service-configurations}
@@ -111,7 +110,7 @@ Both proxy and proxy worker configurations are available via cloud services conf
 
 The following is an example of API usage:
 
-```xml
+```java
 @Reference(policy = ReferencePolicy.STATIC)
  ProxyConfig proxyConfig;
  
