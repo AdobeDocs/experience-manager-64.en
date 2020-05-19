@@ -38,12 +38,13 @@ Adding a Dynamic Media component to a page is the same as adding a component to 
    ![chlimage_1-537](assets/chlimage_1-537.png)
 
 1. Drag a Dynamic Media component that you want to use onto the page in the desired location.
-1. Click the blue box around the component, then tap the **[!UICONTROL Configuration]** (wrench) icon.
+1. Hover the mouse pointer directly on the component. When the component is surrounded by a blue box, tap once to display the component's toolbar. Tap the **[!UICONTROL Configuration]** (wrench) icon.
 1. [Edit the components](#dynamic-media-components) as necessary and click the checkmark to save changes.
+1. 
 
 ### Enabling Dynamic Media components {#enabling-dynamic-media-components}
 
-If no Dynamic Media components are available to add to a page, it likely means that you need to enable the components.
+If no Dynamic Media components are available to add to a page, it likely means that you need to first enable the components that you want to use.
 
 1. In AEM, open the page where you want to add the Dynamic Media component.
 1. On the left side of the toolbar near the top of the page, tap the Page Information icon, then tap **[!UICONTROL Edit Template]** from the drop-down list.
@@ -52,17 +53,17 @@ If no Dynamic Media components are available to add to a page, it likely means t
 
 1. On the right side of the toolbar near the top of the page, from the drop-down list, tap **[!UICONTROL Structure]**.
 
-  ![Policy](/help/assets/assets-dm/structure-mode.png)
+    ![Policy](/help/assets/assets-dm/structure-mode.png)
 
 1. Near the bottom of the page, tap **[!UICONTROL Layout Container]** to open its toolbar, then tap the Policy icon.
 1. On the **[!UICONTROL Layout Container]** page, under the **[!UICONTROL Properties]** heading, make sure the **[!UICONTROL Allowed Components]** tab is selected.
 
-  ![Allowed components](/help/assets/assets-dm/allowed-components.png)
+    ![Allowed components](/help/assets/assets-dm/allowed-components.png)
 
 1. Scroll until you see **[!UICONTROL Dynamic Media]**.
 1. Tap the > icon to the left of **[!UICONTROL Dynamic Media]** to expand the list, select the Dynamic Media components you want to enable.
 
-  ![Dynamic Media components list](/help/assets/assets-dm/dm-components-select.png)
+    ![Dynamic Media components list](/help/assets/assets-dm/dm-components-select.png)
 
 1. Near the upper-right corner of the **[!UICONTROL Layout Container]** page, tap the Done (checkmark) icon.
 
