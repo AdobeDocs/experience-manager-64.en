@@ -249,6 +249,10 @@ The following is a description of the effects in the repository when moving or m
 
 Experience Manager 6.4 onwards tags are stored under `/content/cq:tags`, which were earlier stored under `/etc/tags`. However, in scenarios where Adobe Experience Manager has been upgraded from previous version the tags are still present under the old location `/etc/tags`. In upgraded systems tags need to be migrated under `/content/cq:tags`.
 
+> [!NOTE]
+> It is advised to use tag ID (`geometrixx-outdoors:activity/biking`) instead of hard coding the tag base path (for example, `/etc/tags/geometrixx-outdoors/activity/biking`).
+> To list tags, `com.day.cq.tagging.servlets.TagListServlet` can be used.
+
 **If Upgraded AEM instance supports TagManager API**
 
 1. At the start of component, TagManager API detects whether it is an upgraded AEM instance. In upgraded system, tags are stored under `/etc/tags`.
@@ -310,9 +314,6 @@ println "---------------------------------Success-------------------------------
 
 ```
 The script fetches all those tags that have `/etc/tags` in the value of `cq:movedTo/cq:backLinks` property. It then iterates through the fetched result set and resolves the `cq:movedTo` and `cq:backlinks` property values to `/content/cq:tags` paths (in the case where `/etc/tags` is detected in the value).
-
-It's a bad practice to hard code tag base path (e.g. /etc/tags/geometrixx-outdoors/activity/biking) instead of it tag ID should be used (geometrixx-outdoors:activity/biking).
-To list tags, 'com.day.cq.tagging.servlets.TagListServlet' can be used.
 
 **If upgraded AEM instance runs on Claasic UI**
 
