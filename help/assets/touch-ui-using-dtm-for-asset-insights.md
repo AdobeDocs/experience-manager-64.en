@@ -60,7 +60,7 @@ Perform these steps to enable Asset Insights through DTM:
 
 1. Paste the following code in the window:
 
-   ```
+   ```java
    var sObj;
   
    if (arguments.length > 0) {

@@ -23,22 +23,51 @@ You add dynamic media assets directly to the page if you are using AEM as your W
 
 ## Adding a Dynamic Media component to a page {#adding-a-dynamic-media-component-to-a-page}
 
-Adding the Dynamic Media or Interactive Media component to a page is the same as adding a component to any page. The Dynamic Media and Interactive Media components are described in detail in the following sections.
+Adding a Dynamic Media component to a page is the same as adding a component to any page. The Dynamic Media components are described in detail in the following sections.
 
 >[!NOTE]
 >
->If there is a Dynamic Media component, an Interactive Media component, or both on a web page that is accessed by a user with read-only permissions, the page breaks and the components are not render correctly. The reason is because the page is reconstructed to ensure that the properties of the components are good and any referenced assets and configurations are accessible. The page is then rendered again causing the components to break; the respective component code on the page cannot be re-rendered due to the user’s read-only access.  
+>If there is a Dynamic Media component on a web page that is accessed by a user with read-only permissions, the page breaks and the components are not render correctly. The reason is because the page is reconstructed to ensure that the properties of the components are good and any referenced assets and configurations are accessible. The page is then rendered again causing the components to break; the respective component code on the page cannot be re-rendered due to the user’s read-only access.  
 >  
 >To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
 
-1. In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.
-1. In the left pane, click the **[!UICONTROL Components]** icon and filter for **[!UICONTROL Dynamic Media]**. If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](/help/sites-authoring/templates.md#editing-templates-template-authors) for more information. 
+1. In AEM, open the page where you want to add the Dynamic Media component.
+1. In the panel on the left side of the page (you may need to toggle the display of the side panel), click the **[!UICONTROL Components]** icon. 
+1. Under the **[!UICONTROL Components]** heading, in the drop-down list, select **[!UICONTROL Dynamic Media]**. If no list of Dynamic Media components is available, you likely need to enable the Dynamic Media components that you want to use. See [Enabling Dynamic Media components](#enabling-dynamic-media-components). 
 
    ![chlimage_1-537](assets/chlimage_1-537.png)
 
-1. Drag the **[!UICONTROL Dynamic Media]** or **[!UICONTROL Interactive Media]** component onto the page in the desired location.
-1. Click the blue box around the component, then tap the **[!UICONTROL Configuration]** (wrench) icon.
+1. Drag a Dynamic Media component that you want to use onto the page in the desired location.
+1. Hover the mouse pointer directly on the component. When the component is surrounded by a blue box, tap once to display the component's toolbar. Tap the **[!UICONTROL Configuration]** (wrench) icon.
 1. [Edit the components](#dynamic-media-components) as necessary and click the checkmark to save changes.
+1. 
+
+### Enabling Dynamic Media components {#enabling-dynamic-media-components}
+
+If no Dynamic Media components are available to add to a page, it likely means that you need to first enable the components that you want to use.
+
+1. In AEM, open the page where you want to add the Dynamic Media component.
+1. On the left side of the toolbar near the top of the page, tap the Page Information icon, then tap **[!UICONTROL Edit Template]** from the drop-down list.
+
+    ![edit-template](/help/assets/assets-dm/edit-template.png)
+
+1. On the right side of the toolbar near the top of the page, from the drop-down list, tap **[!UICONTROL Structure]**.
+
+    ![Policy](/help/assets/assets-dm/structure-mode.png)
+
+1. Near the bottom of the page, tap **[!UICONTROL Layout Container]** to open its toolbar, then tap the Policy icon.
+1. On the **[!UICONTROL Layout Container]** page, under the **[!UICONTROL Properties]** heading, make sure the **[!UICONTROL Allowed Components]** tab is selected.
+
+    ![Allowed components](/help/assets/assets-dm/allowed-components.png)
+
+1. Scroll until you see **[!UICONTROL Dynamic Media]**.
+1. Tap the > icon to the left of **[!UICONTROL Dynamic Media]** to expand the list, select the Dynamic Media components you want to enable.
+
+    ![Dynamic Media components list](/help/assets/assets-dm/dm-components-select.png)
+
+1. Near the upper-right corner of the **[!UICONTROL Layout Container]** page, tap the Done (checkmark) icon.
+
+1. On the right side of the toolbar near the top of the page, from the drop-down list, tap **[!UICONTROL Initial Content]**, then [add a Dynamic Media component to a page](#adding-a-dynamic-media-component-to-a-page) as usual.
 
 ## Localizing Dynamic Media components {#localizing-dynamic-media-components}
 
