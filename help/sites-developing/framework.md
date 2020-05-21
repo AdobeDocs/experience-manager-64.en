@@ -247,7 +247,17 @@ The following is a description of the effects in the repository when moving or m
 
 ## Tags migration {#tags-migration}
 
-Experience Manager 6.4 onwards tags are stored under `/content/cq:tags`, which were earlier stored under `/etc/tags`. However, in scenarios where Adobe Experience Manager has been upgraded from previous version the tags are still present under the old location `/etc/tags`. In upgraded systems tags need to be migrated under `/content/cq:tags` manually. After migrating tags to the new location, run the following script:
+Experience Manager 6.4 onwards tags are stored under `/content/cq:tags`, which were earlier stored under `/etc/tags`. However, in scenarios where Adobe Experience Manager has been upgraded from previous version the tags are still present under the old location `/etc/tags`. In upgraded systems tags need to be migrated under `/content/cq:tags`.
+
+**If Upgraded AEM instance supports TagManager API**
+
+1. At the start of component, TagManager API detects whether it is an upgraded AEM instance. In upgraded system, tags are stored under `/etc/tags`.
+
+1. The TagManager API then runs in backward compatibility mode, which means the API uses `/etc/tags` as the base path. If not, it uses new location `/content/cq:tags`.
+
+1. Update the tags location.
+
+1. After migrating tags to the new location, run the following script:
 
 ```groovy
 import org.apache.sling.api.resource.*
@@ -300,3 +310,18 @@ println "---------------------------------Success-------------------------------
 
 ```
 The script fetches all those tags that have `/etc/tags` in the value of `cq:movedTo/cq:backLinks` property. It then iterates through the fetched result set and resolves the `cq:movedTo` and `cq:backlinks` property values to `/content/cq:tags` paths (in the case where `/etc/tags` is detected in the value).
+
+It's a bad practice to hard code tag base path (e.g. /etc/tags/geometrixx-outdoors/activity/biking) instead of it tag ID should be used (geometrixx-outdoors:activity/biking).
+To list tags, 'com.day.cq.tagging.servlets.TagListServlet' can be used.
+
+**If upgraded AEM instance runs on Claasic UI**
+
+> [!NOTE]
+> Classic UI is not zero downtime compliant and does not support new tag base path. If you want to use classic UI than `/etc/tags` needs to be created followed by `cq-tagging` component restart.
+>
+
+In case of upgraded AEM instances supported by TagManager API and running in Classic UI:
+
+1. Once references to old tag base path `/etc/tags` are replaced by using tagId or new tag location `/content/cq:tags`, you can migrate tags to the new location `/content/cq:tags` in CRX followed by component restart.
+
+1. After migrating tags to the new location, run the above mentioned script.
