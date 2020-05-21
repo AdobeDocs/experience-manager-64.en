@@ -245,6 +245,6 @@ The following is a description of the effects in the repository when moving or m
 
 * Later updates to the page's `cq:tags` property automatically clean up the "old" references. This is triggered because resolving a moved tag through the API returns the destination tag, thus providing the destination tag ID.
 
-## Tags migration {#migrating-tags}
+## Tags migration {#tags-migration}
 
 Experience Manager 6.4 onwards tags storage has been migrated to `/content/cq:tags`, which was `/etc/tags` previously.
