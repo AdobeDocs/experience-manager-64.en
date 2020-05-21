@@ -247,4 +247,56 @@ The following is a description of the effects in the repository when moving or m
 
 ## Tags migration {#tags-migration}
 
-Experience Manager 6.4 onwards tags storage has been migrated to `/content/cq:tags`, which was `/etc/tags` previously.
+Experience Manager 6.4 onwards tags are stored under `/content/cq:tags`, which were earlier stored under `/etc/tags`. However, in scenarios where Adobe Experience Manager has been upgraded from previous version the tags are still present under the old location `/etc/tags`. In upgraded systems tags need to be migrated under `/content/cq:tags` manually. After migrating tags to the new location, run the following script:
+
+```groovy
+import org.apache.sling.api.resource.*
+import javax.jcr.*
+
+ResourceResolverFactory resourceResolverFactory = osgi.getService(ResourceResolverFactory.class);
+ResourceResolver resolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+Session session = resolver.adaptTo(Session.class);
+
+def queryManager = session.workspace.queryManager;
+def statement = "/jcr:root/content/cq:tags//element(*, cq:Tag)[jcr:contains(@cq:movedTo,\'/etc/tags\') or jcr:contains(@cq:backlinks,\'/etc/tags\')]";
+def query = queryManager.createQuery(statement, "xpath");
+
+println "query = ${query.statement}\n";
+
+def tags = query.execute().getNodes();
+
+
+tags.each { node ->
+	def tagPath = node.path;
+	println "tag = ${tagPath}";
+	
+	if(node.hasProperty("cq:movedTo") && node.getProperty("cq:movedTo").getValue().toString().startsWith("/etc/tags")){
+		
+		def movedTo = node.getProperty("cq:movedTo").getValue().toString();
+		
+		println "cq:movedTo = ${movedTo} \n";
+		
+		movedTo = movedTo.replace("/etc/tags","/content/cq:tags");
+		node.setProperty("cq:movedTo",movedTo);
+	} else if(node.hasProperty("cq:backlinks")){
+		
+		String[] backLinks = node.getProperty("cq:backlinks").getValues();
+		int count = 0;
+		
+		backLinks.each { value ->
+			if(value.startsWith("/etc/tags")){
+				println "cq:backlinks = ${value}\n";
+				backLinks[count] = value.replace("/etc/tags","/content/cq:tags");        
+      }
+			count++;
+		}
+		
+		node.setProperty("cq:backlinks",backLinks);
+  }
+}
+session.save();
+
+println "---------------------------------Success-------------------------------------"
+
+```
+The script fetches all those tags that have `/etc/tags` in the value of `cq:movedTo/cq:backLinks` property. It then iterates through the fetched result set and resolves the `cq:movedTo` and `cq:backlinks` property values to `/content/cq:tags` paths (in the case where `/etc/tags` is detected in the value).
