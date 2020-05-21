@@ -244,3 +244,7 @@ The following is a description of the effects in the repository when moving or m
 * To publish the change when a tag has been moved or merged, the `cq:Tag` node and all its backlinks must be replicated: this is automatically done when the tag is activated in the tag administration console.  
 
 * Later updates to the page's `cq:tags` property automatically clean up the "old" references. This is triggered because resolving a moved tag through the API returns the destination tag, thus providing the destination tag ID.
+
+## Tags migration {#migrating-tags}
+
+Experience Manager 6.4 onwards tags storage has been migrated to `/content/cq:tags`, which was `/etc/tags` previously.
