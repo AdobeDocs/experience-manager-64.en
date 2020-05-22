@@ -266,7 +266,7 @@ Experience Manager 6.4 onwards tags are stored under `/content/cq:tags`, which w
 
 1. After migrating tags to the new location, run the following script:
 
-```groovy
+```java
 
 import org.apache.sling.api.resource.*
 import javax.jcr.*
