@@ -256,6 +256,7 @@ For example:
         * sling:resourceSuperType = a
 
 The type hierarchy of:
+
 * `/x` 
   * is `[ c, b, a, <default>]` 
 * while for `/y` 
