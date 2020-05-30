@@ -69,7 +69,9 @@ In addition, if you selected an XML schema or XDP form template as the form mode
 
     * **[!UICONTROL Name]**: Name of the fragment. The default value is the element name of the panel. It is a mandatory field.
 
-      ***Note**: Ensure that you specify a unique name for the fragment. If there already exists another fragment with the same name, the fragment fails to create.* 
+       >[!NOTE]
+       >
+       >Ensure that you specify a unique name for the fragment. If there already exists another fragment with the same name, the fragment fails to create.
   
     * **[!UICONTROL Title]**: Title of the fragment. The default value is the title of the panel.
     * **[!UICONTROL Description]**: Description of the fragment.
