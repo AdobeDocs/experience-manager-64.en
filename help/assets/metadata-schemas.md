@@ -6,11 +6,11 @@ contentOwner: AG
 
 # Metadata Schemas {#metadata-schemas}
 
-In Adobe Experience Manager (AEM) Assets, a metadata schema defines the layout of the properties page and the metadata properties displayed for assets that use the particular schema. Metadata properties include title, description, MIME types, tags, and so on.
+In [!DNL Experience Manager Assets], a metadata schema defines the layout of the properties page and the metadata properties displayed for assets that use the particular schema. Metadata properties include title, description, MIME types, tags, and so on. You can use the Metadata Schema Forms editor to modify existing schemas or add custom metadata schemas. 
 
-You can use the Metadata Schema Forms editor to modify existing schemas or add custom metadata schemas.
+To view and edit the properties page for an asset, follow these steps:
 
-1. To view the properties page for an asset, click or tap the **[!UICONTROL View Properties]** from **[!UICONTROL Quick Actions]** on the asset tile in Card view.
+1. Click or tap the **[!UICONTROL View Properties]** from quick actions on the asset tile in Card view.
 
    ![chlimage_1-170](assets/chlimage_1-170.png)
 
@@ -18,32 +18,28 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    ![chlimage_1-171](assets/chlimage_1-171.png)
 
-1. Edit the editable metadata properties under the various tabs.
+1. You can edit the various editable metadata properties under the available tabs. However, you cannot modify the asset [!UICONTROL Type] in the [!UICONTROL Basic] tab of properties page.
 
    ![chlimage_1-172](assets/chlimage_1-172.png)
 
    To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](metadata-schemas.md#editing-metadata-schema-forms) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a `jpeg` schema under `default/image` only modifies the metadata layout (asset properties) for assets with MIME type `IMAGE/JPEG`. However, if you edit the default schema, your changes modify the metadata layout for all types of assets.
 
-1. To view a list of forms/templates, click the AEM logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**.
+## Metadata Schema Forms {#default-metadata-schema-forms}
 
-   ![chlimage_1-37](assets/chlimage_1-173.png)
+To view a list of forms/templates, in [!DNL Experience Manager] interface navigate to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Metadata Schemas]**. 
 
-   AEM provides the following templates out of the box:
-    * **default**: The base metadata schema form for assets.
+[!DNL Experience Manager] provides the following Metadata Schema Form templates:
 
-      The following child forms inherit the properties of the default form:
-
-      1. **image**: Schema form for assets with the MIME type "image", for example, `image/jpeg`, `image/png`, and so on.
-
-         The "image" form has the following child form templates:
-         * **jpeg**: Schema form for assets with sub type `jpeg`.
-         * **tiff**: Schema form for the assets with sub type `tiff`.
-      1. **application**: Schema form for assets with MIME type `application`, for example `application/pdf`, `application/zip`, and so on.
-         * **pdf**: Schema form for assets with sub type `pdf`.
-      1. **video**: Schema form for assets with MIME type `video`, such as `video/avi`, `video/mp4`, and so on.
-    * **collection**: Schema form for collections.
-    * **contentfragment:** Schema form for Content Fragments.
-    * **forms**: This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md).
+| Templates | | Description |
+|---|---|---|
+| [!UICONTROL default] | | The base metadata schema form for assets. |
+| | The following child forms inherit the properties of the [!UICONTROL default] form: | |
+| |<ul><li> [!UICONTROL image]</li></ul> | Schema form for assets with the MIME type "image", for example,  image/jpeg,  image/png, and so on. <br> The [!UICONTROL image] form has the following child form templates: <ul><li> [!UICONTROL jpeg]: Schema form for assets with sub type [!UICONTROL jpeg].</li> <li>[!UICONTROL tiff]: Schema form for the assets with sub type [!UICONTROL tiff].</li></ul> |
+| | <ul><li> [!UICONTROL application]</li></ul> | Schema form for assets with MIME type "application", for example  application/ pdf,  application/ zip, and so on. <br>[!UICONTROL pdf]: Schema form for assets with sub type pdf. |
+| | <ul><li>[!UICONTROL video]</li></ul> | Schema form for assets with MIME type "video", such as video/avi, video/mp4 and so on. |
+| [!UICONTROL collection] | | Schema form for collections. |
+| [!UICONTROL contentfragment] | | Schema form for content fragments. |
+| [!UICONTROL forms] | | This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md). |
 
 >[!NOTE]
 >

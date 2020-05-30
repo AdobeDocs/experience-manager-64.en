@@ -136,7 +136,7 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 
 >[!NOTE]
 >
->To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
+>To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Customer Care to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
 If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**
@@ -475,13 +475,13 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Select a rendition to either view or delete the rendition.
 
-   **Deleting a rendition**
+   **Delete a rendition**
 
-   Select a rendition from the **[!UICONTROL Renditions]** panel, and then tap the **[!UICONTROL Delete Rendition]** icon from the [toolbar](/help/sites-authoring/basic-handling.md).
+   Select a rendition from the **[!UICONTROL Renditions]** panel, and then tap the **[!UICONTROL Delete Rendition]** icon from the [toolbar](/help/sites-authoring/basic-handling.md). Renditions cannot be deleted in bulk after asset processing is complete. For individual assets, you can remove renditions manually from the user interface. For multiple assets, you can customize Experience Manager to delete either specific renditions or delete the assets and re-upload the deleted assets.
 
    ![delete_renditionicon](assets/delete_renditionicon.png)
 
-   **Uploading a new rendition**
+   **Upload a new rendition**
 
    Navigate to the asset details page for the asset, and tap the **[!UICONTROL Add Rendition]** icon in the toolbar to upload a new rendition for the asset. 
 

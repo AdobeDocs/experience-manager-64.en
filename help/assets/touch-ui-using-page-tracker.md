@@ -70,7 +70,6 @@ You add the page tracker code within the header section of your website code. Th
             </script>
                                                 
  </head>
-
 ```
 
 ## Adding Embed code {#adding-embed-code}
