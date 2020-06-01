@@ -40,11 +40,11 @@ You have two image crop options from which you can choose. You also have an opti
    <td><p>To use this option, select <strong>Pixel Crop</strong> from the Cropping Options drop-down list.</p> <p>To crop from the sides of an image, you enter the number of pixels to crop from any side or each side of the image. How much of the image is cropped depends on the ppi (pixels per inch) setting in the image file.</p> <p>An Image Profile pixel crop renders in the following manner:<br /> </p> 
     <ul> 
      <li>Values are Top, Bottom, Left, and Right.</li> 
-     <li>Upper left is considered 0,0 and the pixel crop is calculated from there.</li> 
+     <li>Top left is considered 0,0 and the pixel crop is calculated from there.</li> 
      <li>Crop starting point: Left is X and Top is Y</li> 
      <li>Horizontal calculation: horizontal pixel dimension of original image minus Left and then minus Right.</li> 
      <li>Vertical calculation: vertical pixel height minus Top, and then minus Bottom.</li> 
-    </ul> <p>For example, suppose you have a 4000 x 3000 pixel image. You use values: Top=250, Bottom=500, Left=300, Right=700.</p> <p>From Upper Left (300,250) crop using the fill space of (4000-300-700, 3000-250-500, or 3000,2250).</p> </td> 
+    </ul> <p>For example, suppose you have a 4000 x 3000 pixel image. You use values: Top=250, Bottom=500, Left=300, Right=700.</p> <p>From Top Left (300,250) crop using the fill space of (4000-300-700, 3000-250-500, or 3000,2250).</p> </td> 
   </tr> 
   <tr> 
    <td>Smart Crop</td> 
@@ -245,7 +245,7 @@ You can re-run smart crop to generate the additional crops again, if required.
     * Move the smart crop box. Do any one of the following:
 
         * If the image has a smart crop or a smart swatch only, on the image, drag the crop box to a new location.
-        * If the image has both a smart crop and a smart swatch, on the image, drag the smart crop box to a new location. Or, tap or click the smart swatch below the image (color swatches are static), then drag the smart swatch crop box to a new location.
+        * If the image has both a smart crop and a smart swatch, on the image, drag the smart crop box to a new location. Or, tap the smart swatch below the image (color swatches are static), then drag the smart swatch crop box to a new location.
 
        ![edit_smart_crops-move](assets/edit_smart_crops-move.png)
 
