@@ -230,7 +230,7 @@ This section lists features and capabilities that have been removed or deprecate
 
 ## Known Issues {#known-issues}
 
-* Update of [!DNL chrome] version 83 is causing an issue in building packages. Use other available browsers, such as [!DNL Internet Explorer] and [!DNL Edge], or other AEM standard package installation options to resolve the issue.
+* Update of [!DNL chrome] version 83 is causing an issue in building packages. Use other available browsers, such as [!DNL Internet Explorer] and [!DNL Firefox], or other AEM standard package installation options to resolve the issue.
 
 * Unable to send an email to the remote SMTP server using the AEM default mail sender, as it only allows communication using TLS v1.2. Remove bundle `javax.mail:mail:1.5.0-b01` from `system/console` and refresh the bundles to resolve the issue.
 
