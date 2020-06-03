@@ -1,6 +1,5 @@
 SUBPACKAGE                                          VERSION                               
-----------                                          -------                               
-aem-bundle-remover-content                          1.0.2                                 
+----------                                          -------                                                            
 com.adobe.granite.platform.welcome                  1.1.26-CQ640-B0002                    
 com.adobe.granite.security.content                  0.2.376-CQ640-B0004                   
 com.adobe.granite.ui.content                        0.8.744-CQ640-B0034                   
