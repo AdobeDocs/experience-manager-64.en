@@ -1,0 +1,26 @@
+SUBPACKAGE                                          VERSION                               
+----------                                          -------                               
+aem-bundle-remover-content                          1.0.2                                 
+com.adobe.granite.platform.welcome                  1.1.26-CQ640-B0002                    
+com.adobe.granite.security.content                  0.2.376-CQ640-B0004                   
+com.adobe.granite.ui.content                        0.8.744-CQ640-B0034                   
+com.adobe.granite.ui.coralui3                       1.1.108-CQ640-B0018                   
+cq-cloudservices-content                            1.4.94                                
+cq-dam-cfm-content                                  0.10.210                              
+cq-dam-content                                      2.4.952                               
+cq-dam-projects-addons-content                      0.0.46                                
+cq-experience-fragments-content                     1.1.358                               
+cq-inbox-content                                    1.1.70                                
+cq-platform-content                                 1.4.306                               
+cq-social-activitystreams-pkg                       1.5.33                                
+cq-social-console-pkg                               1.5.134                               
+cq-social-group-pkg                                 1.6.61                                
+cq-ui-classic-content                               1.4.92                                
+cq-ui-touch-optimized-content                       2.5.150                               
+cq-ui-wcm-admin-content                             1.0.1026                              
+cq-ui-wcm-commons-content                           1.0.226                               
+cq-ui-wcm-editor-content                            1.0.206                               
+cq-workflow-console-content                         1.3.116                               
+------------------------------------------------------------------------------------------
+SUMMARY: TOTAL SUB PACKAGES: 21  UPGRADED: 21 DOWNGRDED/MISSING: 0
+------------------------------------------------------------------------------------------
