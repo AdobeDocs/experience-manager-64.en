@@ -10,6 +10,7 @@ user-guide-title: AEM 6.4 Release Notes
 + [AEM 6.4 overview](home.md)
 + [General Release Notes](release-notes.md)
 + [Service Pack Release Notes](sp-release-notes.md)
++ [Cumulative Fix Pack Release Notes](cfp-release-notes.md)
 + [AEM Sites Release Notes](sites.md)
 + [AEM Assets Release Notes](assets.md)
 + [AEM Forms Release Notes](forms.md)

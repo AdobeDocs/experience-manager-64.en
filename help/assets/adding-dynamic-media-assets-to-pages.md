@@ -40,7 +40,6 @@ Adding a Dynamic Media component to a page is the same as adding a component to 
 1. Drag a Dynamic Media component that you want to use onto the page in the desired location.
 1. Hover the mouse pointer directly on the component. When the component is surrounded by a blue box, tap once to display the component's toolbar. Tap the **[!UICONTROL Configuration]** (wrench) icon.
 1. [Edit the components](#dynamic-media-components) as necessary and click the checkmark to save changes.
-1. 
 
 ### Enabling Dynamic Media components {#enabling-dynamic-media-components}
 

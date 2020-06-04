@@ -183,11 +183,9 @@ In the process of monitoring, if you encounter issues, here are some troubleshoo
 
 * If using TarMK, run Tar compaction often. For more details, see [Maintaining the Repository](/help/sites-deploying/storage-elements-in-aem-6.md#maintaining-the-repository).
 * Check `OutOfMemoryError` logs. For more information, see [Analyze memory problems](https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html).
-
 * Check the logs for any references to unindexed queries, tree traversals, or index traversals. These indicate unindexed queries or inadequately indexed queries. For For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md).
-* Use the workflow console to verify that your workflows perform as expected. If possible, condense multiple workflows into a single workflow. 
+* Use the workflow console to verify that your workflows perform as expected. If possible, condense multiple workflows into a single workflow.
 * Revisit live monitoring, and look for additional bottlenecks or high consumers of any specific resources.
 * Investigate the egress points from the client network and the ingress points to the AEM instance network, including the dispatcher. Frequently, these are bottleneck areas. For more information, see [Assets network considerations](assets-network-considerations.md).
-* Upsize your AEM server. You may have an inadequately sized your AEM instance. Adobe Support can help you identify whether your server is undersized.
+* Upsize your AEM server. You may have an inadequately sized your AEM instance. Adobe Customer Care can help you identify whether your server is undersized.
 * Examine the `access.log` and `error.log` files for entries around the time of something went wrong. Look for patterns that can potentially indicate custom code anomalies. Add them to the list of events you monitor.
-
