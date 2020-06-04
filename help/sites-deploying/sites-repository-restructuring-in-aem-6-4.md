@@ -16,6 +16,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
 
 **With 6.4 Upgrade**
 
+* [ContextHub Configuration](contexthub-6.4)
 * [ContextHub Segments](/help/sites-deploying/sites-repository-restructuring-in-aem-6-4.md#contexthub-segments)
 
 **Prior to 6.5 Upgrade**
@@ -34,6 +35,22 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
 * [WCM Foundation Client Libraries](/help/sites-deploying/sites-repository-restructuring-in-aem-6-4.md#wcm-foundation-client-libraries)
 
 ## With 6.4 Upgrade {#with-upgrade}
+
+### ContextHub Configurations {#contexthub-6.4}
+
+ From AEM 6.4 onwards, there is no default ContextHub configuration. Therefore on the root level of the site a `cq:contextHubPathproperty` should be set to indicate which configuration should be used.
+
+1. Navigate to the root of the site.
+1. Open the page properties of the root page and select the Personalization tab.
+1. In the Contexthub Path field enter your own ContextHub configuration path.
+
+Additionally on the ContextHub configuration, the `sling:resourceType` needs to be updated to be relative and not absolute.
+
+1. Open the properties of ContextHub configuration node in CRX DE Lite, e.g. `/apps/settings/cloudsettings/legacy/contexthub`
+1. Change `sling:resourceType` from `/libs/granite/contexthub/cloudsettings/components/baseconfiguration` to `granite/contexthub/cloudsettings/components/baseconfiguration`
+
+I.e. the `sling:resourceType` of the ContextHub configuration must be relative rather than absolute.
+
 
 ### ContextHub Segments {#contexthub-segments}
 
