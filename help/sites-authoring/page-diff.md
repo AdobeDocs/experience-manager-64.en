@@ -21,7 +21,7 @@ The page diff feature allows for the convenient side-by-side comparison of two p
 
 >[!CAUTION]
 >
->The user must have the **Modify/Create/Delete** permission on the node `/content/versionhistory` in order to use the feature.
+>If you are running a version prior to AEM 6.4.3, the user must have the **Modify/Create/Delete** permission on the node `/content/versionhistory` in order to use the feature.
 >
 >See [Developing and Page Diff](/help/sites-developing/pagediff.md#operation-details) for more technical details on this feature.
 
