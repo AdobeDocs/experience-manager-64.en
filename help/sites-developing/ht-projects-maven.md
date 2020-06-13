@@ -37,7 +37,7 @@ The "UberJar" is the informal name given to a special Java Archive (JAR) file pr
 
 In the past, developers had to manage a relatively large number of individual dependencies to different AEM libraries and when each new API was used, one or more individual dependencies had to be added to the project. On one project, the introduction of the UberJar resulted in 30 separate dependencies being removed from the project.
 
-### How to I use the UberJar? {#how-to-i-use-the-uberjar}
+### How do I use the UberJar? {#how-do-i-use-the-uberjar}
 
 If you are using Apache Maven as a build system (which is the case for most AEM Java projects), you will need to add one or two elements to your *pom.xml* file. The first is a *dependency* element adding the actual dependency to your project:
 
