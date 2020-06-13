@@ -22,7 +22,7 @@ The text document fragment in Interactive Communication supports the following t
 * **Data model objects**: The data properties use a back end data source. 
 * **Rule based content**: Parts of content in a text that appear or get hidden based on a rule. A rule could also be based on form data model properties and variables. 
 * **Variables**: In text document fragment, variables are not bound to a backend data source. The agent fills in/selects values in variables or binds the variables to data sources while preparing the Interactive Communication for submitting it to a post process. 
-* **Repeat**: You may have dynamic information in your Interactive Communication, such as transactions in a credit card statement, the number of occurrences of which may keep changing with each generated Interactive Communication. Using repeat, you can format and structure such dynamic information. For more information, see [Inline condition and repeat](https://helpx.adobe.com/experience-manager/6-3/forms/using/cm-inline-condition.html).
+* **Repeat**: You may have dynamic information in your Interactive Communication, such as transactions in a credit card statement, the number of occurrences of which may keep changing with each generated Interactive Communication. Using repeat, you can format and structure such dynamic information. For more information, see [Inline condition and repeat](cm-inline-condition.md).
 
 ## Create text {#createtext}
 

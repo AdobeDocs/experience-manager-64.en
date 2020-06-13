@@ -45,7 +45,7 @@ The anatomy includes data with the following modes of input:
 * Conditional data
 * Images
 
-In each section, the text in bold represents static text. The database includes customer, bills, and calls tables. A form data model can receive data from any of these tables. For more information, see [Create form data model](/help/forms/using/create-form-data-model0.md).
+In each section, the text in bold represents static text. The database includes customer, bills, and calls tables. A form data model can receive data from any of these tables. For more information, see [Create form data model](create-form-data-model-tutorial.md).
 
 The following table illustrates the data source for each field in the anatomy of Interactive Communication:
 
