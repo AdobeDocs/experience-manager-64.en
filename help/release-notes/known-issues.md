@@ -94,6 +94,7 @@ If you are using Microsoft Edge as browser:
 ### Installation and deployment
 
 * (AEM Forms JEE only) When boostrapping JBoss application server while running Configuration Manager returns EJB invocation and bootstrap failure errors. However, you can ignore them. (Ref# CQ-4229793)
+* When AEM Forms is started, the `SAX Security Manager could not be setup` warning appears. (CQ-4297403)
 
 ### Interactive Communications
 
