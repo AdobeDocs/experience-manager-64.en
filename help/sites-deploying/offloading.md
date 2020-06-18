@@ -68,7 +68,7 @@ For each cluster, you see a list of cluster members that indicates the order in 
 
 For each instance in the cluster, you can see several topology-related properties:
 
-* A whitelist of topics for the instance's job consumer.
+* A allow list of topics for the instance's job consumer.
 * The endpoints that are exposed for connecting with the topology.
 * The job topics for which the instance is registered for offloading.
 * The job topics that the instance processes.
@@ -101,10 +101,10 @@ Use the following procedure to open the Topology Management page of the Web Cons
 
 The Apache Sling Resource-Based Discovery Service runs on each instance to control how Experience Manager instances interact with a topology.
 
-The Discovery Service sends periodic POST requests (heartbeats) to Topology Connector services to establish and maintain connections with the topology. The Topology Connector service maintains a whitelist of IP addresses or host names that are allowed to join the topology:
+The Discovery Service sends periodic POST requests (heartbeats) to Topology Connector services to establish and maintain connections with the topology. The Topology Connector service maintains a allow list of IP addresses or host names that are allowed to join the topology:
 
 * To join an instance to a topology, specify the URL of the Topology Connector service of the root member. 
-* To enable an instance to join a topology, add the instance to the whitelist of the root member's Topology Connector service.
+* To enable an instance to join a topology, add the instance to the allow list of the root member's Topology Connector service.
 
 Use the Web Console or a sling:OsgiConfig node to configure the following properties of the org.apache.sling.discovery.impt.Config service:
 
@@ -141,7 +141,7 @@ Use the Web Console or a sling:OsgiConfig node to configure the following proper
    <td>http://localhost:4502/libs/sling/topology/connector</td> 
   </tr> 
   <tr> 
-   <td>Topology Connector Whitelist</td> 
+   <td>Topology Connector allow list</td> 
    <td>topologyConnectorWhitelist</td> 
    <td>The list of IP addresses or host names that the local Topology Connector service allows in the topology. </td> 
    <td><p>localhost</p> <p>127.0.0.1</p> </td> 
@@ -162,12 +162,12 @@ Use the following procedure to connect a CQ instance to the root member of a top
 1. Click Configure Discovery Service.
 1. Add an item to the Topology Connector URLs property, and specify the URL of the root topology member's Topology Connector service. The URL is in the form https://rootservername:4502/libs/sling/topology/connector.
 
-Perform the following procedure on the root member of the topology. The procedure adds the names of the other topology members to its Discovery Service whitelist.
+Perform the following procedure on the root member of the topology. The procedure adds the names of the other topology members to its Discovery Service allow list.
 
 1. Open the Web Console in your browser. ([http://localhost:4502/system/console](http://localhost:4502/system/console))
 1. Click Main &gt; Topology Management.
 1. Click Configure Discovery Service.
-1. For each member of the topology, add an item to the Topology Connector Whitelist property, and specify the host name or IP address of the topology member.
+1. For each member of the topology, add an item to the Topology Connector allow list property, and specify the host name or IP address of the topology member.
 
 ## Configuring Topic Consumption {#configuring-topic-consumption}
 
@@ -208,11 +208,11 @@ Several JobConsumer implementations are installed with Experience Manager. The t
 
 ### Disabling and Enabling Topics For an Instance {#disabling-and-enabling-topics-for-an-instance}
 
-The Apache Sling Job Consumer Manager service provides topic whitelist and blacklist properties. Configure these properties to enable or disable the processing of specific topics on an Experience Manager instance.
+The Apache Sling Job Consumer Manager service provides topic allow list and block list properties. Configure these properties to enable or disable the processing of specific topics on an Experience Manager instance.
 
 **Note:** If the instance belongs to a topology, you can also use Offloading Browser on any computer in the topology to enable or disable topics.
 
-The logic that creates the list of enabled topics first allows all of the topics that are in the whitelist, and then removes topics that are on the blacklist.By default, all topics are enabled (the whitelist value is `*`) and no topics are disabled (the blacklist has no value).
+The logic that creates the list of enabled topics first allows all of the topics that are in the allow list, and then removes topics that are on the block list.By default, all topics are enabled (the allow list value is `*`) and no topics are disabled (the block list has no value).
 
 Use Web Console or a `sling:OsgiConfig` node to configure the following properties. For `sling:OsgiConfig` nodes, the PID of the Job Consumer Manager service is org.apache.sling.event.impl.jobs.JobConsumerManager.
 
@@ -326,7 +326,7 @@ The following procedure assumes the following characteristics for the offloading
 * Users to do not directly interact with one or more Experience Manager instances that process the DAM assets. These instances are dedicated to the background processing of DAM assets.
 
 1. On each Experience Manager instance, configure the Discovery Service so that it points to the root Topography Connector. (See [Configuring Topology Membership](#title4).)
-1. Configure the root Topography Connector so that the connecting instances are on the whitelist. 
+1. Configure the root Topography Connector so that the connecting instances are on the allow list. 
 1. Open Offloading Browser and disable the `com/adobe/granite/workflow/offloading` topic on the instances with which users interact to upload or change DAM assets.
 
    ![chlimage_1-116](assets/chlimage_1-116.png)

@@ -69,7 +69,7 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
       The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.4 forms. You can download the utility from AEM package share. For step-by-step information to configure and use the migration utility, see [migration utility](/help/forms/using/migration-utility.md).
 
-      If you are using [Sample for integrating drafts & submissions component](https://helpx.adobe.com/experience-manager/6-3/forms/using/integrate-draft-submission-database.html) with the database and upgrading from a previous version, then run the following SQL queries after performing the upgrade:
+      If you are using [Sample for integrating drafts & submissions component](integrate-draft-submission-database.md) with the database and upgrading from a previous version, then run the following SQL queries after performing the upgrade:
 
       ```    
       UPDATE metadata m, additionalmetadatatable am

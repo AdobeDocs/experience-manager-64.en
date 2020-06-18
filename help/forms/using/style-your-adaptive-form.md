@@ -15,11 +15,11 @@ Learn to create a custom theme, style individual components, and use web fonts i
 
  ![](do-not-localize/08-style_your_adaptiveformmain.png) 
 
-This tutorial is a step in the [Create Your First Adaptive Form](https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
+This tutorial is a step in the [Create Your First Adaptive Form](create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
 ## About the tutorial  {#about-the-tutorial}
 
-You can use themes to provide a unique appearance and style to an adaptive form. You can apply out of the box themes provided with adaptive forms editor or create custom themes of your own. AEM Forms provide a [theme editor](https://helpx.adobe.com/experience-manager/6-3/forms/using/themes.html) to create custom themes. A single theme can provide the different appearance to the same adaptive form opened on mobile, tablet, or desktop. Any prior knowledge of CSS or LESS is not required to use theme editor but it is desired.
+You can use themes to provide a unique appearance and style to an adaptive form. You can apply out of the box themes provided with adaptive forms editor or create custom themes of your own. AEM Forms provide a [theme editor](themes.md) to create custom themes. A single theme can provide the different appearance to the same adaptive form opened on mobile, tablet, or desktop. Any prior knowledge of CSS or LESS is not required to use theme editor but it is desired.
 
 By the end of the tutorial, you will learn to:
 
@@ -118,7 +118,7 @@ In this tutorial, you will style header and footer, text and numeric components,
 
 Header and footer provide a consistent and distinctive look to an adaptive form. Generally, the header contains logo and name of the organization, the footer contains copyright information, and these remain identical across multiple forms of an organization. To style header and footer of the shipping-address-add-update-form adaptive form:
 
-1. Navigate the **Header** &gt; **Text** option in the Selectors panel. The Selectors panel is on the left of the theme editor. If the panel is not visible, tap ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/6-2/toggle-side-panel.png) Toggle Side Panel.  
+1. Navigate the **Header** &gt; **Text** option in the Selectors panel. The Selectors panel is on the left of the theme editor. If the panel is not visible, tap ![Toggle side panel](assets/toggle-side-panel.png) Toggle Side Panel.  
 
 1. Set the following properties in the **Text** accordion and tap ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png). 
 

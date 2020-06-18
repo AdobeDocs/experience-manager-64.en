@@ -70,6 +70,19 @@ In addition to the information above, consider the following:
 
 * For EPS files, metadata writeback is supported in PostScript Document Structuring Convention (PS-Adobe) version 3.0 or later.
 
+## Unsupported raster image formats in Dynamic Media {#unsupported-image-formats-dynamic-media}
+
+The following list describes the sub-types of raster image file formats that are *not* supported in Dynamic Media.
+
+See also [Detect unsupported file formats for Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+
+* PNG files that have an IDAT chunk size greater than 100 MB.
+* PSB files.
+* PSD files with a color space other than CMYK, RGB, Grayscale, or Bitmap are not supported. DuoTone, Lab, and Indexed color spaces are not supported.
+* PSD files that have a bit depth greater than 16.
+* TIFF files that have floating point data.
+* TIFF files that have Lab color space.
+
 ## PDF Rasterizer library {#supported-pdf-rasterizer-library}
 
 The Adobe PDF Rasterizer library generates high-quality thumbnails and previews for large and content-intensive Adobe Illustrator and PDF files. Adobe recommends using the PDF Rasterizer library for the following:

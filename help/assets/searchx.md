@@ -165,7 +165,7 @@ To build a group predicate:
 
 1. Add `titlepredicate.jsp`:
 
-   ```xml
+   ```java
    <%--
 
      Sample group predicate component

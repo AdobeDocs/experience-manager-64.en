@@ -83,7 +83,7 @@ A form data model allows you to connect an Interactive Communication to disparat
 * Edit sample data
 * Test form data model and configured services with test data
 
-    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/create-form-data-model0.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](create-form-data-model-tutorial.md)
 
 ## Step 3: Create document fragments {#step-create-document-fragments}
 
@@ -134,7 +134,7 @@ Interactive Communications can be delivered through two channels: Print and Web.
 * Create a chart in Web version of Interactive Communication
 * Create hyperlinks in Web version of Interactive Communication
 
-    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/create-interactive-communication0.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](create-interactive-communication-tutorial.md)
 
 ## Step 6: Test your Interactive Communication {#step-test-your-interactive-communication}
 

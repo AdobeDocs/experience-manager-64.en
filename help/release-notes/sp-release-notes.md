@@ -19,7 +19,7 @@ discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 | Version |6.4.8.0 |
 | Type |Service Pack Release |
 | Date |March 05, 2020 |
-| Download URL | AEM 6.4.8.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.8.0), [Software Distribution(Beta)](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/servicepack/aem-service-pkg-6.4.8.zip) |
+| Download URL | AEM 6.4.8.0 on [PackageShare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.8.0), [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/servicepack/aem-service-pkg-6.4.8.zip) |
 
 ## What's included in AEM 6.4.8.0 {#what-s-included-in-aem}
 
@@ -181,6 +181,10 @@ Some of the key highlights of AEM 6.4.7.0 are:
 
 * The export version of API package `package com.day.cq.dam.handler.standard.msoffice` supported by `dam-handler` bundle is upgraded to 6.0.0 (CQ-4279059).
 If you are using the package `com.day.cq.dam.handler.standard.msoffice` in your custom implementation, then it is advised that you compile your `dam-handler` bundle with the latest uber jar.
+
+* New column for created date, which is sortable, has been added in DAM list view and on asset search results in list view (NPR-31311).
+
+* Asset sorting based on Name column has been allowed in List view (NPR-31299).
 
 **Fixes**
 

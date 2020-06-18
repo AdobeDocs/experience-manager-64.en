@@ -26,7 +26,7 @@ To improve asset upload times, use high performance storage for the Java temp di
 
 Assuming the server has ample memory, configure a RAM drive. On Linux, run these commands to create an 8 GB RAM drive:
 
-```
+```shell
 mkfs -q /dev/ram1 800000
  mkdir -p /mnt/aem-tmp
  mount /dev/ram1 /mnt/aem-tmp
@@ -77,7 +77,7 @@ Implementing an S3 or Shared File Datastore can help to save disk space and incr
 
 The following S3 Data Store configuration ( `org.apache.jackrabbit.oak.plugins.blob.datastore.S3DataStore.cfg`) helped Adobe extract 12.8 TB of binary large objects (BLOBs) from an existing file data store into an S3 data store at a customer site:
 
-```
+```conf
 accessKey=<snip>
  secretKey=<snip>
  s3Bucket=<snip>
@@ -410,6 +410,6 @@ To minimize latency and achieve high throughput through efficient CPU utilizatio
 * Remove unnecessary steps from the DAM Update Asset workflow.
 * Configure workflow and version purging.
 * Optimize Lucene index configuration.
-* Optimize indexes with the latest service packs and hotfixes. Check with Adobe Support for any additional index optimizations that may be available.
+* Optimize indexes with the latest service packs and hotfixes. Check with Adobe Customer Care for any additional index optimizations that may be available.
 * Use `guessTotal` to optimize query performance.
 * If you configure AEM to detect file types from the content of the files (by configuring [!UICONTROL Day CQ DAM Mime Type Service] in the [!UICONTROL AEM Web Console]), upload many files in bulk during non-peak hours as the operation is resource-intensive.

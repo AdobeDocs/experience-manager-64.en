@@ -23,9 +23,9 @@ This article presents important questions to consider when engaging a front-end 
 >
 >The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React or Angular).
 
-## Maven Archetype for SPA Starter Kit {#maven-archetype-for-spa-starter-kit}
+## AEM Project Archetype {#aem-project-archetype}
 
-Any SPA project on AEM should leverage the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype).
+Any AEM project should leverage the [AEM Project Archetype](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html), which supports SPA projects using React or Angular and leverages the SPA SDK.
 
 ## SPA Development Principles for AEM {#spa-development-principles-for-aem}
 
