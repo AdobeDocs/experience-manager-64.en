@@ -105,6 +105,7 @@ By default, offloading transport uses reverse replication to pull back the offlo
 1. Change value of the property `default.transport.agent-to-master.prefix` from `offloading_reverse` to `offloading`.
 
 <!-- TBD: Make updates to the configuration for allow and block list after product updates are done.
+TBD: Update the property in the last step when GRANITE-30586 is fixed.
 -->
 
 ### Using shared datastore and binary-less replication between author and workers  {#using-shared-datastore-and-binary-less-replication-between-author-and-workers}

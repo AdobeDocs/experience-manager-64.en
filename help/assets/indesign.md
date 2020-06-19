@@ -223,7 +223,7 @@ To configure the number of parallel IDS jobs:
    >
    >By default, after the configurable (`retry.interval.to.whitelist.name`) time in minutes the IDS worker is revalidated. If the worker is found online, it is removed from the blocked list.
 
-<!-- TBD: Make updates to configurations for allow and block list after product updates are done.
+<!-- TBD: Make updates to configurations for allow and block list after product updates are done. See CQ-4298427.
 -->
 
 ## Enable support for Adobe InDesign server 10.0 or later {#enabling-support-for-indesign-server-or-higher}
