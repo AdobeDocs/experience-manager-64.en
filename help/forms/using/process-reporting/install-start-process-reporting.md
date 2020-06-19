@@ -46,6 +46,8 @@ Perform the following steps to change the publishing schedule:
 >
 >If you are running your AEM Forms implementation on a cluster, perform the following steps on each node of the cluster.
 
+#### JBoss Application Server {#jboss-application-server}
+
 1. Stop the AEM Forms server instance.
     * (For Windows) Open the `[*JBoss root*]/bin/run.conf.bat` file in an editor.
     * (For Linux, AIX and Solaris) `[*JBoss root*]/bin/run.conf.sh` file in an editor.
@@ -59,6 +61,8 @@ Perform the following steps to change the publishing schedule:
 1. Save and close the `run.conf.bat` file.  
 
 1. Restart the AEM Forms server instance.
+
+#### WebSphere Application Server {#websphere-application-server}
 
 1. Stop the AEM Forms server instance.
 1. Log in to the WebSphere Administrative Console. In the navigation tree, click **Servers** &gt;  **Application servers** and then, in the right pane, click the server name.  
@@ -76,6 +80,8 @@ Perform the following steps to change the publishing schedule:
 1. Click **Apply**, click OK, and then click **Save directly to the master configuration**.  
 
 1. Restart the AEM Forms server instance.
+
+#### WebLogic Application Server {#weblogic-application-server}
 
 1. Stop the AEM Forms server instance.
 1. Log in to the WebLogic Administration Console. The default address of WebLogic Administration Console is `https://[hostname]:[port]/console`.  

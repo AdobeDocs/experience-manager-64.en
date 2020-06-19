@@ -186,7 +186,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
 
 When uploading image files, including AI, EPS, and PSD files, you can take the following editing actions in the **[!UICONTROL Upload Job Options]** dialog box:
 
-* Crop white space from the edge of images (see description in table above).  
+* Crop whitespace from the edge of images (see description in table above).  
 * Crop manually from the sides of images (see description in table above).
 * Choose a color profile (see option description in table above).
 * Create a mask from a clipping path.

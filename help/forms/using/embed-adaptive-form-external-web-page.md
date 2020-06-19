@@ -146,7 +146,7 @@ ProxyPassReverse /content https://<AEM_Instance>/content
 
 >[!NOTE]
 >
->If you set up any other topology, ensure that you whitelist the submit, prefill, and other URLs at the dispatcher layer.
+>If you set up any other topology, ensure that you add the submit, prefill, and other URLs to the allowlist at the dispatcher layer.
 
 ## Best practices {#best-practices}
 
@@ -154,8 +154,8 @@ When embedding an adaptive form in a web page, consider the following best pract
 
 * Ensure that the styling rules defined in the web page CSS do not conflict with the form object CSS. To avoid the conflicts, you can reuse the web page CSS in the adaptive form theme using AEM client library. For information about using client library in adaptive form themes, see [Themes in AEM Forms](/help/forms/using/themes.md).
 * Make the form container in the web page use the entire window width. It ensures that the CSS rules configured for mobile devices work without any changes. If the form container does not take the entire window width, you need to write custom CSS to make the form adapt to different mobile devices. 
-* Use ` [getData](https://helpx.adobe.com/experience-manager/6-3/forms/javascript-api/GuideBridge.html)` API to get the XML or JSON representation of form data in client. 
-* Use ` [unloadAdaptiveForm](https://helpx.adobe.com/experience-manager/6-3/forms/javascript-api/GuideBridge.html)` API to unload the adaptive form from HTML DOM.
+* Use  [getData](https://helpx.adobe.com/experience-manager/6-4/forms/javascript-api/GuideBridge.html) API to get the XML or JSON representation of form data in client. 
+* Use [unloadAdaptiveForm](https://helpx.adobe.com/experience-manager/6-4/forms/javascript-api/GuideBridge.html) API to unload the adaptive form from HTML DOM.
 * Set up the access-control-origin header when sending response from AEM server.
 
 ## Enable AEM Forms to serve adaptive forms to a cross domain site  {#cross-domain-sites}

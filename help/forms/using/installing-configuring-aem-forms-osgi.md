@@ -128,11 +128,11 @@ Perform the following steps on all the Author and Publish instances to boot dele
 
 #### Configure the serialization agent {#configure-the-serialization-agent}
 
-Perform the following steps on all the Author and Publish instances to whitelist the package:
+Perform the following steps on all the Author and Publish instances to add the package to the allowlist:
 
 1. Open AEM Configuration Manager in a browser window. The default URL is `https://[server]:[port]/system/console/configMgr`.
 1. Search and open **[!UICONTROL Deserialization Firewall Configuration]**.
-1. Add the **[!UICONTROL sun.util.calendar]** package to the **[!UICONTROL whitelist]** field. Click **[!UICONTROL Save]**.
+1. Add the **[!UICONTROL sun.util.calendar]** package to the **[!UICONTROL allowlist]** field. Click **[!UICONTROL Save]**.
 1. Repeat step 1-3 on all the Author and Publish instances.
 
 ### Optional post-installation configurations {#optional-post-installation-configurations}

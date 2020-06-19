@@ -128,13 +128,13 @@ The connector can also be configured for multiple workspaces. In this case, each
 `<name>` is the name of the JCR workspace and   
 `<url>` is the URL of the SharePoint server for that workspace.
 
-In AEM, perform one more step apart from above configuration steps. Whitelist the '**com.day.cq.dam.cq-dam-jcr-connectors**' bundle.
+In AEM, perform one more step apart from above configuration steps. Allow list the '**com.day.cq.dam.cq-dam-jcr-connectors**' bundle.
 
-To whitelist bundles in AEM, perform the following steps:
+To allow list bundles in AEM, perform the following steps:
 
 1. Navigate to the OSGi Management Console: http://localhost:4502/system/console/configMgr.
 
-1. Search for " Apache Sling Login Admin Whitelist" service.
+1. Search for "Apache Sling Login Admin Whitelist" service.
 
 1. Select Bypass the whitelist.
 

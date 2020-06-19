@@ -149,7 +149,7 @@ Recommended tutorial to learn on how to best leverage the new component model: [
 
 Delivering a consistent message across all marketing channels including Digital Signage and kiosk networks is what AEM Screens stands for. AEM 6.4 adds support to run the Signage Player on Microsoft Windows and Google Chrome OS hardware. Further, enhancements to remote device management and schedules (groups of channels) are available.
 
-For more information on the Screens updates, see [AEM Screens User Guide](/help/screens/home.md).
+For more information on the Screens updates, see [AEM Screens User Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html).
 
 ### Experience Manager Communities {#experience-manager-communities}
 
