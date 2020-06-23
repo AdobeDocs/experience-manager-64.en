@@ -83,7 +83,7 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 * **[!UICONTROL maxTotalAttachmentSize.name]** 
   If supportAttachments is checked, this value specifies the maximum allowed total size (in bytes) of all attachments. Default is *104857600* (100 MB).
 
-* **[!UICONTROL attachmentTypeAllowlist.name]** 
+* **[!UICONTROL attachmentTypeBlocklist.name]** 
   A blocklist of file extensions, prefixed with '**.**', that will be rejected by the system. If not blocklisted, then the extension is allowed. Extensions may be added or removed using the '**+**' and '**-**' icons. Default is *DEFAULT*.
 
 * **[!UICONTROL allowedAttachmentTypes.name]** 
