@@ -52,7 +52,7 @@ To generate reports, ensure that the following:
 
    >[!NOTE]
    >
-   >By default, the Content Fragments and link shares are included in the Asset Downloaded report. Select the appropriate option to create a report of link shares or to exclude Content Fragments from the download report.
+   >By default, the Content Fragments and link shares are included in the asset [!UICONTROL Downloaded report]. Select the appropriate option to create a report of link shares or to exclude Content Fragments from the download report.
 
    >[!NOTE]
    >
