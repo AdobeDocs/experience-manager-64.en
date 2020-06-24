@@ -39,7 +39,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 
 ## AEM Livefyre {#aem-livefyre}
 
-[Share user-generated content with AEM Livefyre.](https://marketing.adobe.com/resources/help/en_US/livefyre/home.html)
+[Share user-generated content with AEM Livefyre.](https://docs.adobe.com/content/help/en/livefyre/using/home.html)
 
 ## AEM Mobile {#aem-mobile}
 
