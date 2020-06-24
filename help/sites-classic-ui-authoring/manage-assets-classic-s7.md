@@ -235,7 +235,7 @@ The Dynamic Media Classic Image component lets you add Dynamic Media Classic fun
 
 **[!UICONTROL Sharpening]** - Select how you want to sharpen the image. Sharpening is explained in detail in [*Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices*](/help/assets/assets/s7_sharpening_images.pdf).
 
-**[!UICONTROL URL Modifiers]** - You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Managing Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
+**[!UICONTROL URL Modifiers]** - You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Managing Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference.html).
 
 **[!UICONTROL Breakpoints]** - If your website is responsive, you want to adjust the breakpoints. Breakpoints must be separated by commas `,`.
 
