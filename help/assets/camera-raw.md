@@ -4,7 +4,7 @@ description: Learn how to enable Camera Raw support in Adobe Experience Manager 
 contentOwner: AG
 ---
 
-# Support to process images using Camera Raw {#camera-raw-support}
+# Use Camera Raw to process images {#camera-raw-support}
 
 You can enable the Camera Raw support to process raw file formats, such as CR2, NEF, and RAF, and render the images in JPEG format. The functionality is supported in Adobe Experience Manager Assets using the [Camera Raw package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-cameraraw-pkg) available via Package Share or from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem630/product/assets/aem-assets-cameraraw-pkg).
 
