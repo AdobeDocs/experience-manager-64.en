@@ -108,7 +108,5 @@ To be removed:
 /help/sites-deploying/consistency-check.md
 
 Redirects:
-[(Redirect)Glossary](screens-glossary.md) to /help/screens/aem-screens-introduction.md
-[(Redirect)What is AEM Screens?](aem-screens-introduction.md) redirect to /help/screens/aem-screens-introduction.md
 [(Enabling HTTP Over SSL)](config-ssl.md) redirect to /content/help/en/experience-manager/6-4/sites-administering/ssl-by-default
 -->

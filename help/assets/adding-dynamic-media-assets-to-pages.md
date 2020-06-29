@@ -84,11 +84,11 @@ You can localize Dynamic Media components in one of two ways:
 
 ## Dynamic Media components {#dynamic-media-components}
 
-Dynamic Media and Interactive Media are available under the [!UICONTROL Dynamic Media] tab in [!UICONTROL Components]. You use the Interactive Media] component for any interactive assets such as interactive video, interactive images, or carousel sets. For all other dynamic media components, use the Dynamic Media component.
+Dynamic Media and Interactive Media are available under the [!UICONTROL Dynamic Media] tab in [!UICONTROL Components]. You use the [!UICONTROL Interactive Media] component for any interactive assets such as interactive video, interactive images, or carousel sets. For all other dynamic media components, use the Dynamic Media component.
 
 >[!NOTE]
 >
->These components are not available by default and need to be made available via the template editor before using. [After they are made available i](/help/sites-authoring/templates.md#editing-templates-template-authors)n the template editor, you can add the components to your page as you would any other AEM component.
+>These components are not available by default and need to be made available via the template editor before using. [After they are made available](/help/sites-authoring/templates.md#editing-templates-template-authors) in the template editor, you can add the components to your page as you would any other AEM component.
 
 ![chlimage_1-539](assets/chlimage_1-539.png) 
 
@@ -176,10 +176,10 @@ Select an existing video viewer preset from the drop-down menu. If the viewer pr
 * **[!UICONTROL Viewer modifiers]**
 Viewer modifiers take the form of name=value pair with a & delimiter and let you change viewers as outlined in the Adobe Viewers Reference Guide. An example of a viewer modifier is posterimage=img.jpg&caption=text.vtt,1
 
-    With viewer modifiers, for example, you can do the following:
+  With viewer modifiers, for example, you can do the following:
 
-    * Associate a caption file with a video [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_caption.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_caption.html)
-    * Associate a navigation file with a video [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_navigation.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_navigation.html)
+    * Associate a caption file with a video [caption.](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/video/command-reference-url-video/r-html5-video-viewer-url-caption.html)
+    * Associate a navigation file with a video [navigation.](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/video/command-reference-url-video/r-html5-video-viewer-url-navigation.html)
 
 You can edit the following [!UICONTROL Advanced Settings] by clicking **[!UICONTROL Edit]** in the component.
 
