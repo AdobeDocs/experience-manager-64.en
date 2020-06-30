@@ -917,42 +917,42 @@ Table of Manifest settings and their default values:
   <tr> 
    <td>bkgcolor</td> 
    <td>FFFFFF</td> 
-   <td><p>Default background color. RGB value used to fill in any area of a reply image which does not contain actual image data.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_bkgcolor.html">BkgColor</a> in the Image Serving API.</p> </td> 
+   <td><p>Default background color. RGB value used to fill in any area of a reply image which does not contain actual image data.</p> <p>See also <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-bkgcolor.html">BkgColor</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>defaultpix</td> 
    <td>300,300</td> 
-   <td><p>Default view size. The server constrains reply images to be no larger than this width and height, if the request does not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. Does not apply to nested/embedded requests.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_defaultpix.html">DefaultPix</a> in the Image Serving API.</p> <p>Usually, however, you are using a viewer preset or image preset to deliver the asset. Defaultpix only applies to an asset that is not using a viewer preset or image preset.</p> </td> 
+   <td><p>Default view size. The server constrains reply images to be no larger than this width and height, if the request does not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. Does not apply to nested/embedded requests.</p> <p>See also <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-defaultpix.html">DefaultPix</a> in the Image Serving API.</p> <p>Usually, however, you are using a viewer preset or image preset to deliver the asset. Defaultpix only applies to an asset that is not using a viewer preset or image preset.</p> </td> 
   </tr> 
   <tr> 
    <td>defaultthumbpix</td> 
    <td>100,100</td> 
-   <td><p>Default thumbnail size. Used instead of attribute::DefaultPix for thumbnail requests (req=tmb).</p> <p>The server constrains reply images to be no larger than this width and height, if a thumbnail request (req=tmb) does not specify the size explicitly not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. </p> <p>Does not apply to nested/embedded requests.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_defaultthumbpix.html">DefaultThumbPix</a> in the Image Serving API. </p> </td> 
+   <td><p>Default thumbnail size. Used instead of attribute::DefaultPix for thumbnail requests (req=tmb).</p> <p>The server constrains reply images to be no larger than this width and height, if a thumbnail request (req=tmb) does not specify the size explicitly not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. </p> <p>Does not apply to nested/embedded requests.</p> <p>See also <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-defaultthumbpix.html">DefaultThumbPix</a> in the Image Serving API. </p> </td> 
   </tr> 
   <tr> 
    <td>expiration</td> 
    <td>36000000</td> 
-   <td><p>Default client cache time to live. Provides a default expiration interval in case a particular catalog record does not contain a valid catalog::Expiration value.</p> <p>Real number, 0 or greater. Number of milliseconds until expiration since the reply data was generated. Set to 0 to always expire the reply image immediately, which effectively disables client caching. By default, this value is set to 10 hours, which means that if a new image is published, it takes 10 hours for the old image to leave the user's cache. Contact Customer Care if you need the cache cleared sooner.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_expiration.html">Expiration</a> in the Image Serving API.</p> </td> 
+   <td><p>Default client cache time to live. Provides a default expiration interval in case a particular catalog record does not contain a valid catalog::Expiration value.</p> <p>Real number, 0 or greater. Number of milliseconds until expiration since the reply data was generated. Set to 0 to always expire the reply image immediately, which effectively disables client caching. By default, this value is set to 10 hours, which means that if a new image is published, it takes 10 hours for the old image to leave the user's cache. Contact Customer Care if you need the cache cleared sooner.</p> <p>See also <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-expiration.html">Expiration</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>jpegquality</td> 
    <td>80</td> 
-   <td><p>Default JPEG encoding attributes. Specifies the default attributes for JPEG reply images.</p> <p>Integer number and flag, separated by a comma. The first value is in the range 1..100 and defines the quality. The second value may be 0 for normal behavior, or 1 to disable the RGB chromaticity down-sampling usually employed by JPEG encoders.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_jpegquality.html">JpegQuality</a> in the Image Serving API.</p> </td> 
+   <td><p>Default JPEG encoding attributes. Specifies the default attributes for JPEG reply images.</p> <p>Integer number and flag, separated by a comma. The first value is in the range 1..100 and defines the quality. The second value may be 0 for normal behavior, or 1 to disable the RGB chromaticity down-sampling usually employed by JPEG encoders.</p> <p>See also <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-jpegquality.html">JpegQuality</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>maxpix</td> 
    <td>2000,2000</td> 
-   <td><p>Reply image size limit. Maximum reply image width and height that is returned to the client.</p> <p>The server returns an error if a request causes a reply image whose width or height is larger than attribute::MaxPix.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_maxpix.html">MaxPix</a> in the Image Serving API.</p> </td> 
+   <td><p>Reply image size limit. Maximum reply image width and height that is returned to the client.</p> <p>The server returns an error if a request causes a reply image whose width or height is larger than attribute::MaxPix.</p> <p>See also <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-maxpix.html">MaxPix</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>resmode</td> 
    <td>SHARP2</td> 
-   <td><p>Default resampling mode. Specifies the default resampling and interpolation attributes to be used for scaling image data.</p> <p>Used when resMode= is not specified in a request.</p> <p>Allowed values include BILIN, BICUB, or SHARP2.</p> <p>Enum. Set to 2 for bilin, 3 for bicub, or 4 for sharp2 interpolation mode. Use sharp2 for best results.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_is_cat_resmode.html">ResMode</a> in the Image Serving API.</p> </td> 
+   <td><p>Default resampling mode. Specifies the default resampling and interpolation attributes to be used for scaling image data.</p> <p>Used when resMode= is not specified in a request.</p> <p>Allowed values include BILIN, BICUB, or SHARP2.</p> <p>Enum. Set to 2 for bilin, 3 for bicub, or 4 for sharp2 interpolation mode. Use sharp2 for best results.</p> <p>See also <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-is-cat-resmode.html">ResMode</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>resolution</td> 
    <td>72</td> 
-   <td><p>Default object resolution. Provides a default object resolution in case a particular catalog record does not contain a valid catalog::Resolution value.</p> <p>Real number, larger than 0. Typically expressed as pixels per inch, but may also be in other units, such as pixels per meter.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_resolution.html">Resolution</a> in the Image Serving API.</p> </td> 
+   <td><p>Default object resolution. Provides a default object resolution in case a particular catalog record does not contain a valid catalog::Resolution value.</p> <p>Real number, larger than 0. Typically expressed as pixels per inch, but may also be in other units, such as pixels per meter.</p> <p>See also <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-resolution.html">Resolution</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>thumbnailtime</td> 
@@ -974,13 +974,13 @@ You can configure dynamic media color management and configure image presets usi
 
 Advanced use cases could use a manual configure **[!UICONTROL icc=]** modifier to explicitly select an output color profile:
 
-* **[!UICONTROL icc]** - [https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_icc.html](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_icc.html)
+* **[!UICONTROL icc]** - [Output color profile.](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-icc.html)
 
-* **[!UICONTROL iccEmbed]** - [https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_iccembed.html](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_iccembed.html)
+* **[!UICONTROL iccEmbed]** - [Embed color profile.](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-iccembed.html)
 
 >[!NOTE]
 >
->The standard set of Adobe color profiles are only available if you have [Feature Pack 12445 from Package Share](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-12445) or [Feature Pack 12445 from Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-12445) installed. All feature packs and service packs are available via [Package Share](https://www.adobeaemcloud.com/content/packageshare.html) and [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). Feature Pack 12445 provides the Adobe color profiles.
+>The standard set of Adobe color profiles are only available if you have [Feature Pack 12445 from Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-12445) installed. All feature packs and service packs are available at [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). Feature Pack 12445 provides the Adobe color profiles.
 
 ### Installing feature pack 12445 {#installing-feature-pack}
 
@@ -988,9 +988,9 @@ You must install feature pack 12445 to use the dynamic media color management ca
 
 **To install feature pack 12445**:
 
-1. Navigate to [Package Share](https://www.adobeaemcloud.com/content/packageshare.html) or [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) and download either `cq-6.3.0-featurepack-12445`.
+1. Navigate to [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) and download `cq-6.3.0-featurepack-12445`.
 
-   See [How to Work with Packages](/help/sites-administering/package-manager.md) for more information on using Package Share and Packages in AEM.
+   See [How to work with packages](/help/sites-administering/package-manager.md) for more information on using packages in [!DNL Adobe Experience Manager].
 
 1. Install the feature pack.
 
@@ -1023,55 +1023,55 @@ After you install the feature pack, you need to configure the appropriate defaul
       <td><strong>Description</strong></td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilergb.html">iccprofilergb</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilergb.html">iccprofilergb</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default RGB color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilecmyk.html">iccprofilecmyk</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilecmyk.html">iccprofilecmyk</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default CMYK color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilegray.html">iccprofilegray</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilegray.html">iccprofilegray</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default Gray color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrcrgb.html">iccprofilesrcrgb</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilesrcrgb.html">iccprofilesrcrgb</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default RGB color profile used for RGB images that do not have an embedded color profile</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrccmyk.html">iccprofilesrccmyk</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilesrccmyk.html">iccprofilesrccmyk</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default CMYK color profile used for CMYK images that do not have an embedded color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrcgray.html">iccprofilesrcgray</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilesrcgray.html">iccprofilesrcgray</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default Gray color profile used for CMYK images that do not have an embedded color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccblackpointcompensation.html">iccblackpointcompensation</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccblackpointcompensation.html">iccblackpointcompensation</a></td> 
       <td>Boolean</td> 
       <td>True</td> 
       <td>Specifies whether black point compensation should be done during color correction. Adobe recommends this to be on.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccdither.html">iccdither</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccdither.html">iccdither</a></td> 
       <td>Boolean</td> 
       <td>False</td> 
       <td>Specifies whether dithering should be done during color correction.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccrenderintent.html">iccrenderintent</a></td> 
+      <td><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccrenderintent.html">iccrenderintent</a></td> 
       <td>String</td> 
       <td>relative</td> 
       <td><p>Specifies the render intent. Acceptable values are: <strong>perceptual, relative, saturation, absolute. </strong><i></i>Adobe recommends <strong>relative </strong><i></i>as the default.</p> </td> 
