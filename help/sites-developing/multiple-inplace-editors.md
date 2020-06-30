@@ -6,9 +6,9 @@ contentOwner: AG
 
 # Configure multiple in-place editors {#configure-multiple-in-place-editors}
 
-You can configure Rich Text Editor in Adobe Experience Manager so that it has multiple in-place editors. When configured you can select the appropriate content and open the appropriate editor. For example:
+You can configure Rich Text Editor in Adobe Experience Manager so that it has multiple in-place editors. When configured you can select the appropriate content and open the appropriate editor.
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+![A specific in-place editor](assets/rte-inplace-editor.png)
 
 ## Configure multiple editors {#configure-multiple-editors}
 
@@ -35,7 +35,7 @@ For example:
 
     /**
       * Configures one child editor for a sub-component. The name of the this node is
-      * be used as DD ID.
+      * used as DD ID.
       *
       * @prop type type of the inline editor. For example, ["image"].
       * @prop title Title of the inline editor.
