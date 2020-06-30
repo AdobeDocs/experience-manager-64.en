@@ -43,7 +43,7 @@ Some key highlights of this service pack release are:
 
 * AEM Assets is now configured with Brand Portal through Adobe I/O.
 
-* Updated the jQuery version bundled in ContextHub to 3.4.1.
+* Updated the jQuery version bundled in ContextHub to 3.2.1.
 
 ## List of changes {#list-of-changes}
 
