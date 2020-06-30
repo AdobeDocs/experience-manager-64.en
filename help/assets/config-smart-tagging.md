@@ -10,10 +10,11 @@ You can integrate [!DNL Adobe Experience Manager] with the Smart Content Service
 
 The article details out the following key tasks that are required to configure the Smart Content Service. At the back end, the [!DNL Experience Manager] server authenticates your service credentials with the Adobe Developer Console gateway before forwarding your request to the Smart Content Service.
 
-1. Create a Smart Content Service configuration in [!DNL Experience Manager] to generate a public key. Obtain public certificate for OAuth integration.
-1. Create an integration in Adobe Developer Console and upload the generated public key.
-1. Configure your [!DNL Experience Manager] instance using the API key and other credentials from Adobe Developer Console.
-1. Optionally, enable auto-tagging on asset upload.
+1. Create a Smart Content Service configuration in [!DNL Experience Manager] to generate a public key. [Obtain public certificate](#obtain-public-certificate) for OAuth integration.
+1. [Create an integration in Adobe Developer Console](#create-adobe-i-o-integration) and upload the generated public key.
+1. [Configure your deployment](#configure-smart-content-service) using the API key and other credentials from Adobe Developer Console.
+1. [Test the configuration](#validate-the-configuration).
+1. Optionally, [enable auto-tagging on asset upload](#enable-smart-tagging-in-the-update-asset-workflow-optional).
 
 ## Prerequisites {#prerequisites}
 
