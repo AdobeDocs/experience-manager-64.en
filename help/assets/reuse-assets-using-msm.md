@@ -246,9 +246,9 @@ AEM allows you to extend the functionality using the MSM Java APIs. For Assets, 
 
 >[!NOTE]
 >
-> * Blueprint in MSM for Site is called Live Copy source in MSM for Assets.
-> * Removing the chapters step in the create site wizard is not supported in MSM for Assets.
-> * Configuring MSM locks on page properties (Touch-enabled UI) is not supported in MSM for Assets.
+>* Blueprint in MSM for Site is called Live Copy source in MSM for Assets.
+>* Removing the chapters step in the create site wizard is not supported in MSM for Assets.
+>* Configuring MSM locks on page properties (Touch-enabled UI) is not supported in MSM for Assets.
 
 ## Impact of asset management tasks on live copies {#impact-of-asset-management-tasks-on-live-copies}
 

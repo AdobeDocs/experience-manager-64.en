@@ -546,6 +546,7 @@ To achieve deletion of the classes compiled from the JSPs, we set up the Maven C
 >Depending on whether you actually make use of JSP code in `/libs` (i.e. include JSPs from there), you will need to refine which JSPs are copied for compilation.
 >
 >E.g. if you include `/libs/foundation/global.jsp`, you can use the following configuration for the `maven-resources-plugin` instead of the configuration above which completely skips over `/libs`.
+>
 >```
 > <resource>  
 >      <directory>src/main/content/jcr_root</directory>  

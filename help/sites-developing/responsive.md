@@ -153,8 +153,8 @@ Include the client library folder in the JSP script of your page component to ge
 ```
 
 >[!NOTE]
-> The `apps.weretail.all` client library folder embeds the clientlibs library.
 >
+>The `apps.weretail.all` client library folder embeds the clientlibs library.
 
 The JSP script generates the following HTML code that references the style sheets:
 
@@ -649,9 +649,9 @@ The `AbstractImageServlet` class provides the `doGet` method that processes the 
 
 The `ImageReferenceModificationServlet` class overrides the `createLayer` method and implements the logic that determines the image resource to render. The method retrieves a child node of the page's `jcr:content` node named `image`. An [Image](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/foundation/Image.html) object is created from this `image` node, and the `getFileReference` method returns the path to the image file from the `fileReference` property of the image node.
 
->[!NOTE] 
->The [com.day.cq.commons.DownloadResource](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/DownloadResource.html) class provides the getFileReferencemethod.
+>[!NOTE]
 >
+>The [com.day.cq.commons.DownloadResource](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/DownloadResource.html) class provides the getFileReferencemethod.
 
 ## Developing a fluid grid {#developing-a-fluid-grid}
 
@@ -691,9 +691,8 @@ For example, the sample geometrixx-media application contains the media-home com
 ```
 
 >[!NOTE]
-> 
->When a component includes multiple `cq:include` elements that reference the parsys component, each `path` attribute must have a different value.
 >
+>When a component includes multiple `cq:include` elements that reference the parsys component, each `path` attribute must have a different value.
 
 #### Scaling the Page component grid {#scaling-the-page-component-grid}
 
