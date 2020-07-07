@@ -153,8 +153,8 @@ Include the client library folder in the JSP script of your page component to ge
 ```
 
 >[!NOTE]
-> The `apps.weretail.all` client library folder embeds the clientlibs library.
 >
+>The `apps.weretail.all` client library folder embeds the clientlibs library.
 
 The JSP script generates the following HTML code that references the style sheets:
 
@@ -691,9 +691,8 @@ For example, the sample geometrixx-media application contains the media-home com
 ```
 
 >[!NOTE]
-> 
->When a component includes multiple `cq:include` elements that reference the parsys component, each `path` attribute must have a different value.
 >
+>When a component includes multiple `cq:include` elements that reference the parsys component, each `path` attribute must have a different value.
 
 #### Scaling the Page component grid {#scaling-the-page-component-grid}
 
