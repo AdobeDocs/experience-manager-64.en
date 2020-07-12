@@ -188,4 +188,4 @@ Timewarp makes a best effort to reproduce a page at a selected point in time. Ho
 
 >[!CAUTION]
 >
-> Timewarp is designed as a tool to assit authors with understanding and creating their content. It is not intended as an audit log or for legal purposes.
+>Timewarp is designed as a tool to assit authors with understanding and creating their content. It is not intended as an audit log or for legal purposes.

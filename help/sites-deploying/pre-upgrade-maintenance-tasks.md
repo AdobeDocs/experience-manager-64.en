@@ -307,8 +307,8 @@ After running revision cleanup on CRX3 instances, you should run Datastore Garba
 >
 >This pre-upgrade maintenance task is only necessary if:
 >
-> * You are upgrading from AEM versions older than AEM 6.3
-> * You encounter any of the errors mentioned below during the upgrade.
+>* You are upgrading from AEM versions older than AEM 6.3
+>* You encounter any of the errors mentioned below during the upgrade.
 
 There are exceptional cases when service users might end up in an older AEM versions being improperly tagged as regular users.
 

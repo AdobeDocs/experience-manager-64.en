@@ -49,7 +49,7 @@ You can create [adaptive forms](/help/forms/using/creating-adaptive-form.md) and
 
 Once the adaptive form or adaptive form fragment based on a form data model is created, form data model objects appear in the **[!UICONTROL Data Model Objects]** tab of the Content browser in adaptive form editor.
 
->[!NOTE] {grayBox="true"}
+>[!NOTE]
 >
 >For an adaptive form fragment, only the data model object selected at the time of authoring and its associated data model objects appear in the Data Model Objects tab.
 

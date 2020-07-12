@@ -33,7 +33,7 @@ With the new architecture, AEM is responsible for master assets and synchs with 
 
 >[NOTE]
 >
-> Dynamic Media - Scene7 mode is for the AEM Author instance only. As such, you must configure `runmode=dynamicmedia_scene7`on the AEM Author instance, not the AEM Publish instance.
+>Dynamic Media - Scene7 mode is for the AEM Author instance only. As such, you must configure `runmode=dynamicmedia_scene7`on the AEM Author instance, not the AEM Publish instance.
 
 To enable Dynamic Media, you must startup AEM using the `dynamicmedia_scene7` runmode from the command line by entering the folllowing in a terminal window (example port used is 4502):
 
