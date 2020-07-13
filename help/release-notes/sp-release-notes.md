@@ -2101,24 +2101,23 @@ List of Content Packages included in AEM 6.4.1.0
 >
 >For customers with Feature Packs installed on AEM 6.4. Optional Feature Packs provided by Adobe have dependencies on the release version and service pack. If you have any Feature Pack installed, please contact the AEM Customer Care team to validate the compatibility of those feature packs with this service pack for AEM 6.4.
 
-* AEM 6.4.8.0 requires AEM 6.4. Please visit [upgrade documentation](../sites-deploying/upgrade.md) for detailed instructions.
-* The Service Pack download is available on Adobe Package Share, which you can access directly from the AEM 6.4 instance.
+* AEM 6.4.8.0 requires AEM 6.4. For details, see [upgrade documentation](../sites-deploying/upgrade.md).
+* The Service Pack download is available on [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) for download.
 * On a deployment with MongoDB and multiple instances, install AEM 6.4.8.0 on one of the Author instances using the Package Manager.
-* Before installing the service pack, ensure to have a snapshot or fresh backup of your AEM instance. 
+* Before installing the service pack, ensure to have a snapshot or fresh backup of your AEM instance.
 * Restart the instance before installation. While that is only needed when the instance is still in update mode (and this is the case when the instance was just updated from an earlier version), it's generally recommended if the instance was running for longer period of time.
 
 >[!NOTE]
 >
 >Adobe does not recommend removing or uninstalling the AEM 6.4.8.0 package.
 
-### Install the Service Pack via Package Share {#install-the-service-pack-via-package-share}
+### Install the Service Pack via Package Manager {#install-the-service-pack-via-package-share}
 
 Perform the following steps to install the Service Pack on an existing AEM 6.4 instance:
 
-1. Login to Package Share within AEM or directly from your browser and download the AEM 6.4.8.0 package.
+1. Download the package from Software Distribution.
 
-   (search for "AEM-6.4.8.0" to find it) 
-1. Install the downloaded package using Package Manager.
+1. In AEM, login to Package Manager and add the downloaded AEM 6.4.8.0 package. Select the uploaded package and click **[!UICONTROL Install]**.
 
 >[!NOTE]
 >
