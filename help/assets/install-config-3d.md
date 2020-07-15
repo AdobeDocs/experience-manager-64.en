@@ -74,19 +74,17 @@ See also [Advanced Configuration Settings](advanced-config-3d.md).
 1. Do one of the following:
 
     * If this is a Windows Server deployment, log on to the server as Administrator.
-    * If this is a Mac or Windows desktop, make sure you have Adminstrator privileges.
+    * If this is a Mac or Windows desktop, make sure you have Administrator privileges.
 
 1. Ensure that you have a supported browser available to access AEM.
 
    See [System requirements](/help/release-notes/aem3d-release-notes.md#system-requirements).
 
-1. Using a supported browser, log on to AEM with Administrator privileges.
-1. In AEM, click the AEM logo to access the global navigation console, then click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Administration > Deployment > Package Share]**.
-1. On the Adobe page, use your Adobe ID credentials to log on to your Adobe Creative Cloud account.
-1. On the Adobe packages page, locate version 3.0.1 of `AEM-6.4-DynamicMedia-3D` feature pack, then download it.  
+1. Access [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). Locate version 3.0.1 of `AEM-6.4-DynamicMedia-3D` feature pack and download it.
 
 1. In AEM, click **[!UICONTROL Tools > Administration > Deployment > Package Manager]**.
-1. Locate the downloaded feature pack, then click **[!UICONTROL Install]**.  
+
+1. Upload the downloaded feature pack to AEM. Locate it and click **[!UICONTROL Install]**.
 
 1. In the **[!UICONTROL Install Package]** dialog box, expand **Advanced Settings**, then set **[!UICONTROL Access Control Handling]** to **Merge**.
 1. Click **[!UICONTROL Install]** to begin installation of the package.
