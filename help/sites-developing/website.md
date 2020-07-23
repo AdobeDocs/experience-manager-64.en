@@ -139,7 +139,7 @@ A template defines the default content of a new page. Complex websites may use s
 
    When an author creates a page below `/content`, the **[!UICONTROL contentpage]** template appears in a list of available templates to use.
 
-1. Click **[!UICONTROL Next** in the **[!UICONTROL Allowed Parents]** and **[!UICONTROL Allowed Children]** panels and click **[!UICONTROL OK]**. In CRXDE Lite, click **[!UICONTROL Save All]**.
+1. Click **[!UICONTROL Next]** in the **[!UICONTROL Allowed Parents]** and **[!UICONTROL Allowed Children]** panels and click **[!UICONTROL OK]**. In CRXDE Lite, click **[!UICONTROL Save All]**.
 
    ![chlimage_1-106](assets/chlimage_1-106.png)
 
@@ -1206,7 +1206,7 @@ In this section, you will view the **[!UICONTROL Products]** page and add your i
 1. Click the **[!UICONTROL Edit]** button to edit the design dialog of par.
 1. In the dialog, a list of **[!UICONTROL Allowed Components]** is shown; navigate to **[!UICONTROL MyWebsite]**, select the **[!UICONTROL My Image Component]** and click **[!UICONTROL OK]**.
 1. Return to **[!UICONTROL Edit mode]**.
-1. Double-click the parsys frame (on **[!UICONTROL Drag components or assets here**). The **[!UICONTROL Insert New Component]** and **[!UICONTROL Sidekick]** selectors look as follows:
+1. Double-click the parsys frame (on **[!UICONTROL Drag components or assets here]**). The **[!UICONTROL Insert New Component]** and **[!UICONTROL Sidekick]** selectors look as follows:
 
    ![chlimage_1-8](assets/chlimage_1-8.jpeg)
 
