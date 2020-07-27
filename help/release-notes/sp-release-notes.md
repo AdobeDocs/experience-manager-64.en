@@ -989,10 +989,6 @@ Forms submitted with attachments in them are not appearing in workflow with subm
 
 * Some JPEG images in an XDP template do not render properly.  NPR-26702: Hotfix for LC-3917457
 
-**Forms - OBSOLETE**
-
-* The paper capture service crashes while processing  TIFF files. NPR-28079:  Hotfix for CQ-4240649
-
 **Forms - Workflow**
 
 * HTML5 Forms with default submit process in an.lca do not work on JBoss 7. NPR-28675: Hotfix for CQ-4243928
@@ -1250,6 +1246,7 @@ The key highlights for AEM 6.4.3.0 forms are:
 
 * Unable to display Standards Reporting and Compliance settings for PDF Generator. NPR-26715: Hotfix for CQ-4253384
 * convertpdf binary file is missing in the AIX Forms add-on package,which causes failure while invoking the PDFA service. Hotfix for CQ-4257873
+* The paper capture service crashes while processing  TIFF files. NPR-28079:  Hotfix for CQ-4240649
 
 **Document Services**
 
