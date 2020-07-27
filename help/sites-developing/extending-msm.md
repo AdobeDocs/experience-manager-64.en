@@ -620,9 +620,7 @@ To modify the languages:
 
    Name the new folder `wcm`.
 
-1. Repeat the previous step to create the `/apps/wcm/core` folder tree. Create a node of type `sling:Folder` in core called `resources`.
-
-   ![chlimage_1-39](assets/chlimage_1-39.png)
+1. Repeat the previous step to create the `/apps/wcm/core` folder tree. Create a node of type `sling:Folder` in core called `resources`. <!-- ![chlimage_1-39](assets/chlimage_1-39.png) -->
 
 1. Right-click the `/libs/wcm/core/resources/languages` node and click **Copy**.
 1. Right-click the `/apps/wcm/core/resources` folder and click **Paste**. Modify the child nodes as required.
