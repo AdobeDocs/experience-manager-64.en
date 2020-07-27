@@ -22,7 +22,11 @@ This page helps you extend the functionalities of the Multi Site Manager:
 
 >[!NOTE]
 >
->This page should be read in conjunction with [Reusing Content: Multi Site Manager](/help/sites-administering/msm.md).
+>This page should be read in conjunction with:
+>* [Reusing Content: Multi Site Manager](/help/sites-administering/msm.md).
+>* Sites Repository Restructuring in AEM 6.4:
+>   * [Multi-site Manager Blueprint Configurations](/help/sites-deploying/sites-repository-restructuring-in-aem-6-4.md#multi-site-manager-blueprint-configurations)
+>   * [Multi-site Manager Rollout Configurations](/help/sites-deploying/sites-repository-restructuring-in-aem-6-4.md#multi-site-manager-rollout-configurations)
 
 >[!CAUTION]
 >
