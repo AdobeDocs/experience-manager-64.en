@@ -188,7 +188,7 @@ To create a new rollout configuration:
      **Value**: An optional description.
    * **Name**: `cq:trigger` 
      **Type**: `String`
-     **Value**: The [Rollout Trigger](/help/sites-administering/introduction/msm-sync.md#rollout-triggers) to be used. Select from:
+     **Value**: The [Rollout Trigger](/help/sites-administering/msm-sync.md#rollout-triggers) to be used. Select from:
      * `rollout`
      * `modification`
      * `publish`
