@@ -22,13 +22,13 @@ The article details out the following key tasks that are required to configure t
 
 ## Prerequisites {#prerequisites}
 
-Before you can use the Smart Content Service, ensure the following to create an integration on Adobe Developer Console:
+Before you use the Smart Content Service, ensure the following to create an integration on Adobe Developer Console:
 
 * An Adobe ID account that has administrator privileges for the organization.
 
-* The Smart Content Service service is enabled for your organization.
+* The Smart Content Service is enabled for your organization.
 
-To enable Enhanced Smart Tags, in addition to the above, also install the latest [AEM service pack](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
+To enable Enhanced Smart Tags, in addition to the above, also install the latest [Experience Manager service pack](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
 
 ## Create Smart Content Service configuration to obtain public certificate {#obtain-public-certificate}
 
@@ -50,6 +50,9 @@ A public certificate allows you to authenticate your profile on Adobe Developer 
 
    ![Experience Manager Smart Content Service dialog to provide content service URL](assets/aem_scs.png)
 
+
+   *Figure: Smart Content Service dialog to provide content service URL*
+
    >[!NOTE]
    >
    >The URL provided as [!UICONTROL Service URL] is not accessible via browser and generates a 404 error. The configuration works OK with the same value of the [!UICONTROL Service URL] parameter. For the overall service status and maintenance schedule, see [https://status.adobe.com](https://status.adobe.com).
@@ -58,13 +61,16 @@ A public certificate allows you to authenticate your profile on Adobe Developer 
 
    ![A representation of the settings created for the smart tagging service](assets/smart-tags-download-public-cert.png)
 
+
+   *Figure: Settings for smart tagging service*
+
 ### Reconfigure when a certificate expires {#certrenew}
 
 After a certificate expires, it is no longer trusted. You cannot renew an expired certificate. To add a new certificate, follow these steps.
 
 1. Log in your [!DNL Experience Manager] deployment as an administrator. Click **[!UICONTROL Tools]** > **[!UICONTROL Security]** > **[!UICONTROL Users]**.
 
-1. Locate and click **[!UICONTROL dam-update-service]** user. Click on **[!UICONTROL Keystore]** tab.
+1. Locate and click **[!UICONTROL dam-update-service]** user. Click **[!UICONTROL Keystore]** tab.
 
 1. Delete the existing **[!UICONTROL similaritysearch]** keystore with the expired certificate. Click **[!UICONTROL Save & Close]**.
 
@@ -86,11 +92,13 @@ To use Smart Content Service APIs, create an integration in Adobe Developer Cons
 
 1. Create a project with any desired name. Click **[!UICONTROL Add API]**.
 
-1. On the **[!UICONTROL Add an API]** page, select **[!UICONTROL Experience Cloud]** and select **[!UICONTROL Smart Content]**. Click **[!UICONTROL Next]**.
+1. On the **[!UICONTROL Add an API]** page, select **[!UICONTROL Experience Cloud]** and then select **[!UICONTROL Smart Content]**. Click **[!UICONTROL Next]**.
 
-1. Select **[!UICONTROL Upload your public key]**. Provide the certificate file downloaded from [!DNL Adobe Experience Manager]. A message [!UICONTROL Public key(s) uploaded successfully] is displayed. Click **[!UICONTROL Next]**.
+1. Select **[!UICONTROL Upload your public key]**. Provide the certificate file downloaded from [!DNL Experience Manager]. A message [!UICONTROL Public key(s) uploaded successfully] is displayed. Click **[!UICONTROL Next]**.
 
-1. [!UICONTROL Create a new Service Account (JWT) credential] page displays the public key for the service account just configured. Click **[!UICONTROL Next]**.
+   [!UICONTROL Create a new Service Account (JWT) credential] page displays the public key for the service account just configured.
+
+1. Click **[!UICONTROL Next]**.
 
 1. On the **[!UICONTROL Select product profiles]** page, select **[!UICONTROL Smart Content Services]**. Click **[!UICONTROL Save configured API]**.
 
@@ -102,7 +110,7 @@ To use Smart Content Service APIs, create an integration in Adobe Developer Cons
 
 ## Configure Smart Content Service {#configure-smart-content-service}
 
-To configure the integration, use the values of [!UICONTROL TECHNICAL ACCOUNT ID], [!UICONTROL ORGANIZATION ID], [!UICONTROL CLIENT SECRET], Authorization Server, and [!UICONTROL CLIENT ID] fields from the Adobe Developer Console integration. Creating a Smart Tags cloud configuration allows authentication of API requests from the [!DNL Experience Manager] deployment.
+To configure the integration, use the values of [!UICONTROL TECHNICAL ACCOUNT ID], [!UICONTROL ORGANIZATION ID], [!UICONTROL CLIENT SECRET], and [!UICONTROL CLIENT ID] fields from the Adobe Developer Console integration. Creating a Smart Tags cloud configuration allows authentication of API requests from the [!DNL Experience Manager] deployment.
 
 1. In [!DNL Experience Manager], navigate to **[!UICONTROL Tools > Cloud Service > Legacy Cloud Services]** to open the [!UICONTROL Cloud Services] console.
 
@@ -112,7 +120,7 @@ To configure the integration, use the values of [!UICONTROL TECHNICAL ACCOUNT ID
 
 1. For the fields [!UICONTROL Api Key], [!UICONTROL Technical Account ID], [!UICONTROL Organization ID], and [!UICONTROL Client Secret], copy and use the following values generated in [Adobe Developer Console integration](#create-adobe-i-o-integration).
 
-   | Assets Smart Tagging Service Settings | Adobe Developer Console integration fields |
+   | [!UICONTROL Assets Smart Tagging Service Settings] | [!UICONTROL Adobe Developer Console] integration fields |
    |--- |--- |
    | [!UICONTROL Api Key] | [!UICONTROL CLIENT ID] |
    | [!UICONTROL Technical Account ID] | [!UICONTROL TECHNICAL ACCOUNT ID] |
@@ -121,7 +129,7 @@ To configure the integration, use the values of [!UICONTROL TECHNICAL ACCOUNT ID
 
 ## Validate the configuration {#validate-the-configuration}
 
-After you've completed the configuration, you can use a JMX MBean to validate the configuration. To validate, follow these steps.
+After you have completed the configuration, use a JMX MBean to validate the configuration. To validate, follow these steps.
 
 1. Access your [!DNL Experience Manager] server at `https://[aem_server]:[port]`.
 
@@ -151,13 +159,22 @@ After you've completed the configuration, you can use a JMX MBean to validate th
 
    ![Configure DAM Update Asset workflow and add smart tag step](assets/smart-tag-step-properties-workflow1.png)
 
+
+   *Figure: Configure DAM Update Asset workflow and add smart tag step*
+
 1. In the **[!UICONTROL Arguments]** tab, select **[!UICONTROL Ignore Errors]** if you want the workflow to complete even if the automatic tagging step fails.
 
    ![Configure DAM Update Asset workflow to add smart tag step and select handler advance](assets/smart-tag-step-properties-workflow2.png)
 
+
+   *Figure: Configure DAM Update Asset workflow to add smart tag step and select handler advance*
+
    To tag assets when they are uploaded irrespective of whether smart tagging is enabled on folders, select **[!UICONTROL Ignore Smart Tag Flag]**.
 
    ![Configure DAM Update Asset workflow to add smart tag step and select ignore Smart Tag flag](assets/smart-tag-step-properties-workflow3.png)
+
+
+   *Figure: Configure DAM Update Asset workflow to add smart tag step and select ignore Smart Tag flag*
 
 1. Click **[!UICONTROL OK]** to close the process step, and then save the workflow.
 
