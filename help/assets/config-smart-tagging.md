@@ -6,15 +6,15 @@ contentOwner: AG
 
 # Configure asset tagging using the Smart Content Service {#configure-asset-tagging-using-the-smart-content-service}
 
-You can integrate [!DNL Adobe Experience Manager] with the Smart Content Service using Adobe Developer Console. Use this configuration to access the Smart Content Service from within [!DNL Experience Manager].
+You can integrate [!DNL Adobe Experience Manager] with the Smart Content Service using [!DNL Adobe Developer Console]. Use this configuration to access the Smart Content Service from within [!DNL Experience Manager].
 
-The article details out the following key tasks that are required to configure the Smart Content Service. At the back end, the [!DNL Experience Manager] server authenticates your service credentials with the Adobe Developer Console gateway before forwarding your request to the Smart Content Service.
+The article details out the following key tasks that are required to configure the Smart Content Service. At the back end, the [!DNL Experience Manager] server authenticates your service credentials with the [!DNL Adobe Developer Console] gateway before forwarding your request to the Smart Content Service.
 
 1. [Create a Smart Content Service](#obtain-public-certificate) configuration in [!DNL Experience Manager] to generate a public key. [Obtain public certificate](#obtain-public-certificate) for OAuth integration.
 
 1. [Create an integration in Adobe Developer Console](#create-adobe-i-o-integration) and upload the generated public key.
 
-1. [Configure your deployment](#configure-smart-content-service) using the API key and other credentials from Adobe Developer Console.
+1. [Configure your deployment](#configure-smart-content-service) using the API key and other credentials from [!DNL Adobe Developer Console].
 
 1. [Test the configuration](#validate-the-configuration).
 
@@ -22,7 +22,7 @@ The article details out the following key tasks that are required to configure t
 
 ## Prerequisites {#prerequisites}
 
-Before you use the Smart Content Service, ensure the following to create an integration on Adobe Developer Console:
+Before you use the Smart Content Service, ensure the following to create an integration on [!DNL Adobe Developer Console]:
 
 * An Adobe ID account that has administrator privileges for the organization.
 
@@ -32,7 +32,7 @@ To enable Enhanced Smart Tags, in addition to the above, also install the latest
 
 ## Create Smart Content Service configuration to obtain public certificate {#obtain-public-certificate}
 
-A public certificate allows you to authenticate your profile on Adobe Developer Console.
+A public certificate allows you to authenticate your profile on [!DNL Adobe Developer Console].
 
 1. In the [!DNL Experience Manager] user interface, access **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Legacy Cloud Services]**.
 
@@ -120,7 +120,7 @@ To configure the integration, use the values of [!UICONTROL TECHNICAL ACCOUNT ID
 
 1. For the fields [!UICONTROL Api Key], [!UICONTROL Technical Account ID], [!UICONTROL Organization ID], and [!UICONTROL Client Secret], copy and use the following values generated in [Adobe Developer Console integration](#create-adobe-i-o-integration).
 
-   | [!UICONTROL Assets Smart Tagging Service Settings] | [!UICONTROL Adobe Developer Console] integration fields |
+   | [!UICONTROL Assets Smart Tagging Service Settings] | [!DNL Adobe Developer Console] integration fields |
    |--- |--- |
    | [!UICONTROL Api Key] | [!UICONTROL CLIENT ID] |
    | [!UICONTROL Technical Account ID] | [!UICONTROL TECHNICAL ACCOUNT ID] |
