@@ -125,6 +125,29 @@ Customers are advised to review if they make use of the feature/capability in th
 The table below lists features and capabilities that have been removed from AEM 6.4. Prior releases had these capabilities marked as 
 deprecated.
 
+|Area|Feature|Replacement|
+|---|---|---|
+|Analytics Activity Map|The version of the Activity Map that is included within AEM.|Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM. The [ActivityMap plug-in provided by Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html) should now be used.|
+|Components-Forms|Form Captcha (foundation/components/form/captcha)|Use the ReCaptcha by Google component instead|
+|Components|Slideshow (foundation/components/slideshow)|No replacement|
+|Components|Flash (foundation/components/flash)|No replacement|
+|Components|Removed support to playback SWF files in the video component (foundation/components/video)|Use none-flash based video formats.|
+|Components|Product Table (commerce/components/product_table)|No replacement|
+|Task Management|Classic UI Task Management (/libs/cq/taskmanagement/content/taskmanager.html)|Deprecated since 6.0. Use the new task management that is combined with the workflow UI.|
+|Workflow|Notification UI used between 5.6-6.2 (/libs/cq/workflow/content/notifications.html)|Workflow Inbox /aem/inbox|
+|Forms|Export PDF to PDF/E-1 format using PDF Generator has been removed.|PDF Generator continues to support exporting PDF to PDF/A-1a/b, PDF/A-2a/b, and PDF/A-3a/b formats.|
+|Forms|Support for images inside document fragments has been removed.|Interactive communications provides the capability to use images in print and web channels directly.|
+|Forms|Out of the place upgrade|Support to perform out of the place upgrade is not available|
+|Forms|Sidegrade for TarMK to DocumentMK migrations|You can export the data from older system and then import in a freshly setup system. For detailed instructions, see AEM Forms on JEE upgrade documentations|
+|Forms|AEM Forms on JEE 32-bit installer not available.|Adobe has stopped shipping AEM Forms on JEE 32-bit installer. You can continue using 64-bit installer to install AEM Forms on JEE.|
+|Forms|Removed support for using DAM images in Document Fragment Component.|You can use Image and Chart component in interactive communication's print channel. If you are using adaptive document's document fragment component in adaptive forms, it stops working after upgrading to AEM 6.4 Forms.|
+|Forms|Removed the Adaptive Documents feature|You can use the interactive communications feature to create printed and web-based communications. If you use Adaptive Documents, install the compatibility package to continue using existing adaptive documents|
+|Forms|Removed AEM Forms on JEE-specific landing page.|AEM Forms on JEE landing page is replaced with AEM landing page (/aem/start.html)|
+|Forms|Removed support for default Captcha|Use reCAPTCHA service by Google.|
+|Forms|Removed support for flash fields in AEM Designer. AEM Designer does not allow editing flash fields used in a form.|You can use AEM Designer released for a previous version to edit such forms.|
+|Communities|Support for Captcha verification has been removed.|Use custom captcha integration (such as reCAPTCHA by Google) for verification.|
+
+<!--
 <table> 
  <tbody>
   <tr>
@@ -229,6 +252,7 @@ deprecated.
   </tr>
  </tbody>
 </table>
+-->
 
 ## Pre-announcement for Next Release {#pre-announcement-for-next-release}
 
