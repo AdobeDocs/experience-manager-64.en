@@ -1,14 +1,6 @@
 ---
 title: Deprecated and Removed Features
-seo-title: Deprecated and Removed Features
 description: Release notes specific to deprecated and removed features in Adobe Experience Manager 6.4.
-seo-description: Release notes specific to deprecated and removed features in Adobe Experience Manager 6.4.
-uuid: 2619039b-72b4-4c6c-a813-90eed622b423
-contentOwner: msm-service
-products: SG_EXPERIENCEMANAGER/6.4
-topic-tags: release-notes
-content-type: reference
-discoiquuid: 15819d42-4897-40fa-a013-e019d1580fa2
 ---
 
 # Deprecated and Removed Features {#deprecated-and-removed-features}
@@ -28,33 +20,15 @@ The table below lists features and capabilities that have been marked as depreca
 
 Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided.
 
-### UI {#deprecated-ui}
-
-Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated.  
-
-* /libs/cq/core/content/welcome.html
-* /siteadmin
-* /damadmin
-* /mcmadmin
-* /inbox
-* /tagging
-* /cf# (Page Editor)
-* /libs/launches/content/admin.html
-* /libs/cq/workflow/content/console.html|Customers are advised to switch to use the new AEM UI.
-
-**Replacement**: Customers are advised to switch to use the new AEM UI.
-
-### Components {#deprecated-components}
-
 | Area | Feature | Replacement |
 |---|---|---|
-|UI| Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated. <br> <li> /libs/cq/core/content/welcome.html </li> <li> /siteadmin</li> <li> /damadmin</li> <li> /mcmadmin</li> <li> /inbox</li> <li> /tagging</li> <li> /cf# (Page Editor)</li> <li> /libs/launches/content/admin.html</li> <li> /libs/cq/workflow/content/console.html</li> | Customers are advised to switch to use the new AEM UI. |
+| UI | Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated. <li> /libs/cq/core/content/welcome.html </li> <li> /siteadmin</li> <li> /damadmin</li> <li> /mcmadmin</li> <li> /inbox</li> <li> /tagging</li> <li> /cf# (Page Editor)</li> <li> /libs/launches/content/admin.html</li> <li> /libs/cq/workflow/content/console.html</li> | Customers are advised to switch to use the new AEM UI. |
 |Components| Adobe does not plan to make further enhancements to the Foundation Components listed below. AEM 6.4 has the Foundation Components included, and customers upgrading from earlier releases can keep using them as is. Note that Foundation Components remain fully supported while being deprecated. <li>foundation/components/account/accountname</li><li>foundation/components/account/actions</li> <li>foundation/components/account/passwordreset</li> <li>foundation/components/account/requestconfirmation</li> <li>foundation/components/adaptiveimage</li> <li>foundation/components/assetsharepage</li>  <li>foundation/components/breadcrumb</li> <li>foundation/components/form/creditcard</li> <li>foundation/components/listchildren</li> <li>foundation/components/login</li> <li>foundation/components/logo</li> <li>foundation/components/mobilefooter</li> <li>foundation/components/mobileimage</li> <li>foundation/components/mobilelist</li> <li>foundation/components/mobilelogo</li> <li>foundation/components/mobilereference</li> <li>foundation/components/mobiletextimage</li> <li>foundation/components/mobiletopnav</li> <li>foundation/components/search</li> <li>foundation/components/sitemap</li> <li>foundation/components/table</li> <li>foundation/components/toolbar</li> <li>foundation/components/topnav</li> <li>foundation/components/userinfo</li> | Customers are advised to use the Core Components for future projects. Existing sites do not need to be changed. |
-|Components | Adobe does not plan to make further enhancements to the Foundation Components listed below. AEM 6.4 has the Foundation Components included, and customers upgrading from earlier releases can keep using them as is. Note that Foundation Components remain fully supported while being deprecated. <br> <li>foundation/components/timing </li> | Adobe does not plan to provide a replacement. |
-| Portal Director | The Portal Director is a set of features, that enables the hosting of AEM content via Portlet in 3rd party servers. <br> Adobe does not plan to make further enhancements to the Portal Director feature under the location listed below. AEM 6.4 has the Portal Director included, and customers upgrading from earlier releases can keep using it as is. Note that Portal Direct remains fully supported while being deprecated. <br> <li> /libs/portal/director </li>| Adobe does not plan to provide a replacement. |
-| Portlet Component | Portlet Components under /foundation/components/portlet enables the hosting of JSR Portlets in AEM as components. <br> Adobe does not plan to make further enhancements to the Portlet Component feature. AEM 6.4 has the Portlet Component included, and customers upgrading from earlier releases can keep using it as is. Note that Portlet Component remains fully supported while being deprecated. | Adobe does not plan to provide a replacement. |
+|Components | Adobe does not plan to make further enhancements to the Foundation Components listed below. AEM 6.4 has the Foundation Components included, and customers upgrading from earlier releases can keep using them as is. Note that Foundation Components remain fully supported while being deprecated. <li>foundation/components/timing </li> | Adobe does not plan to provide a replacement. |
+| Portal Director | The Portal Director is a set of features, that enables the hosting of AEM content via Portlet in 3rd party servers. Adobe does not plan to make further enhancements to the Portal Director feature under the location listed below. AEM 6.4 has the Portal Director included, and customers upgrading from earlier releases can keep using it as is. Note that Portal Direct remains fully supported while being deprecated. <li> /libs/portal/director </li>| Adobe does not plan to provide a replacement. |
+| Portlet Component | Portlet Components under /foundation/components/portlet enables the hosting of JSR Portlets in AEM as components. Adobe does not plan to make further enhancements to the Portlet Component feature. AEM 6.4 has the Portlet Component included, and customers upgrading from earlier releases can keep using it as is. Note that Portlet Component remains fully supported while being deprecated. | Adobe does not plan to provide a replacement. |
 | Forms | Support for Adobe Central Migration Bridge service has been deprecated as Adobe Central product is no longer supported. | No replacement |
-| Forms | Deprecated use of JSONObject in Query and OperationOptions. The following APIs are deprecated: <br> <li>setArguments(JSONObject arguments)</li><li> JSONObject getArguments()</li> <li>OperationOptions(String operationId, JSONObject arguments</li> <li> JSONObject getArguments() </li><li> void setArguments(JSONObject arguments) </li> | Use the `IValueMap` API |
+| Forms | Deprecated use of JSONObject in Query and OperationOptions. The following APIs are deprecated: <li>setArguments(JSONObject arguments)</li><li> JSONObject getArguments()</li> <li>OperationOptions(String operationId, JSONObject arguments</li> <li> JSONObject getArguments() </li><li> void setArguments(JSONObject arguments) </li> | Use the `IValueMap` API |
 | Forms | Deprecated Central Migration Bridge service. | No replacement is offered. |
 | Assets | Assets Offloading has been deprecated starting with AEM 6.4. |  |
 
@@ -63,7 +37,7 @@ Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has 
 The table below lists features and capabilities that have been removed from AEM 6.4. Prior releases had these capabilities marked as deprecated.
 
 |Area|Feature|Replacement|
-|--- |--- |--- |
+|---|---|---|
 |Analytics Activity Map|The version of the Activity Map that is included within AEM.|Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM. The [ActivityMap plug-in provided by Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html) should now be used.|
 |Components-Forms|Form Captcha (foundation/components/form/captcha)|Use the ReCaptcha by Google component instead|
 |Components|Slideshow (foundation/components/slideshow)|No replacement|
@@ -89,6 +63,6 @@ The table below lists features and capabilities that have been removed from AEM 
 The table below provides a list of changes for future release, that are not deprecated, but may impact customers. These are provided for planning purpose.
 
 |Area|Feature|Announcement|
-|--- |--- |--- |
+|---|---|---|
 |Browser Support|Microsoft Internet Explorer|AEM 6.4 is the last release that supports Microsoft Internet Explorer 11.|
 |Foundation|UI Framework|Adobe is deprecating the Coral UI 2 components in 2019. AEM 6.4 is completely based on Coral UI 3 (introduced with AEM 6.2). Adobe recommends its customers and partners that have build custom UIs with Coral 2 to refactored these to Coral 3. Adobe offers a tool to convert Coral 2 dialogs to Coral 3 - [Read more](/help/sites-developing/dialog-conversion.md).|
