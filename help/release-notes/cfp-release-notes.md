@@ -40,7 +40,7 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 * The parameters appended to the original request are not included in the redirect URL (NPR-33174).
 * When the Coral.Select option sets emptyOption=true or contains a default item with value = "", the dropdownshowhide.js file encounters an error: Uncaught TypeError: component.getValue is not a function (NPR-33163).
 * When a component includes another component as data-sly-resource, the parent container component placeholder is replaced with the inner components placeholder (NPR-33119).
-* When you base a Content Fragment on a schema and it contains a mandatory text area or a path field, the Content Fragment fails to save (NPR-33007) 
+* When you base a Content Fragment on a schema and it contains a mandatory text area or a path field, the Content Fragment fails to save (NPR-33007)
 * When you create a custom component using the Out-of-the-box experience fragment component and use it in AEM Sites pages, AEM does not display references (usage) for the custom component (NPR-32852).
 * When an AEM Sites page is part of a large content set with multiple live-copies, the page version history preview fails to load (NPR-32772).
 * When you promote a launch it adds the "cq:LiveRelationship" mixin to every component added in the launch. It impacts all the launches irrespective of if a launch is created with or without selecting the —  Inherit source page live data —  option (NPR-32664).
@@ -70,7 +70,7 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 ### Platform {#platform-6481}
 
 * The [!DNL Sling] filter is not called if the `sling:match` map entry is created under `/etc/maps` (NPR-33308).
-* All flush agents are triggered on deactivating a page (NPR-32941). 
+* All flush agents are triggered on deactivating a page (NPR-32941).
 * When you use the `ScriptProcessor` API to minify a JavaScript library, the log file displays an error message indicating that the JavaScript code is not compliant to strict mode. The API does not provide option to enable or disable strict mode. (NPR-32746).
 * When an SQL query runs for a longer time, for example 7 hours, AEM stops responding (NPR-33043).
 
@@ -131,7 +131,7 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 
 * AEM 6.4.8.1 requires AEM 6.4.8.0. Please visit [upgrade documentation](../sites-deploying/upgrade.md) for detailed instructions.
 * On a deployment with MongoDB and multiple instances, install AEM 6.4.8.1 on one of the Author instances using the Package Manager.
-* Before installing the cumulative fix pack, ensure to have a snapshot or fresh backup of your AEM instance. 
+* Before installing the cumulative fix pack, ensure to have a snapshot or fresh backup of your AEM instance.
 * Restart the instance before installation. While that is only needed when the instance is still in update mode (and this is the case when the instance was just updated from an earlier version), it's generally recommended if the instance was running for longer period of time.
 
 >[!NOTE]
@@ -168,18 +168,18 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 
 ### Validate installation {#validate-install}
 
-1. The Product Information page (*/system/console/  productinfo *) should now show the updated version string "Adobe Experience Manager, Version 6.4.8.1" under Installed Products.
+1. The Product Information page (*/system/console/productinfo*) should now show the updated version string "Adobe Experience Manager, Version 6.4.8.1" under Installed Products.
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
 1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.17 or higher (Use Web Console: /system/console/bundles).
 
 To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites-deploying/technical-requirements.md).
 
 >[!Note]
->On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-7 installed successfully."**
+>On successful installation of the package, an informational message appears indicating that the content package has installed successfully, such as **"Content Package AEM-6.4-Service-Pack-7 installed successfully."**
 
 ### Update Dynamic Media Viewers (5.10.1) {#update-dynamic-media-viewers}
 
-<p id="Dynamic">AEM 6.4.8.1 contains new version of Dynamic Media viewers (5.10.1) which enables check for duplicate names on Image Preset page. Dynamic Media customers are advised to run the following command to bring out of the box viewer presets to an up-to-date state.
+AEM 6.4.8.1 contains new version of Dynamic Media viewers (5.10.1) which enables check for duplicate names on Image Preset page. Dynamic Media customers are advised to run the following command to bring out of the box viewer presets to an up-to-date state.
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
 
@@ -191,9 +191,9 @@ which will copy new viewer presets to /conf location.
 >
 >Skip if you are not using AEM Forms. Fixes in AEM Forms are delivered through a separate add-on package.
 
-1. Ensure that you have installed the AEM Cumulative Fix Pack. 
+1. Ensure that you have installed the AEM Cumulative Fix Pack.
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.
-1. Install the forms add-on package as described in [Installing AEM forms add-on packages](https://helpx.adobe.com/experience-manager/6-4/forms/using/installing-configuring-aem-forms-osgi.html#InstallAEMFormsaddonpackage).
+1. Install the forms add-on package as described in [Installing AEM forms add-on packages](https://docs.adobe.com/content/help/en/experience-manager-64/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html#install-aem-forms-add-on-package).
 
 ### Install AEM Forms JEE installer {#install-aem-forms-jee-installer}
 
@@ -226,7 +226,7 @@ This section lists features and capabilities that have been removed or deprecate
 | Area |Feature |Replacement |Version |
 |---|---|---|---|
 | Assets |Manage Tag Action for Subassets |No Replacement |AEM 6.4.2.0 |
-| Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/creative-cloud.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](/help/assets/aem-cc-integration-best-practices.md) article. | AEM 6.4.4.0 |
+| Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-cc-folder-sharing-best-practices.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](/help/assets/aem-cc-integration-best-practices.md) article. | AEM 6.4.4.0 |
 
 ## Known Issues {#known-issues}
 

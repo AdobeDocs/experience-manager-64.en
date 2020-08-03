@@ -26,14 +26,14 @@ discoiquuid: cfdaceac-a5b3-4070-ad4c-f1457b1e2e4b
 * GRANITE-18104 Repo migration error from 6.3 to 6.4 should be more meaningful
 * GRANITE-16571 Replace usage of SHA-1
 
-    * The tool checksum is now SHA-512 when using --version option
+  * The tool checksum is now SHA-512 when using --version option
 
 * GRANITE-17601 Embed oak-upgrade in CRX2Oak with oak-blob-cloud
 * GRANITE-18553 crx2oak leaves version properties on the node even when versions aren't migrated
 
 ### Version 1.6.8 (March 2017) {#version-march}
 
-* Updated Oak version to 1.6.1 
+* Updated Oak version to 1.6.1
 * CQ-61847 Merge crx2oak-quickstart-extension with crx2oak (added migration profiles)
 * CQ-97488 Promoting and dropping AEM run modes (by rewriting sling.options.file)
 * GRANITE-12798/OAK-4260 Ability to side grade from Oak Segment to Oak Segment Tar
