@@ -96,7 +96,7 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 * An error occurs on accessing the [!UICONTROL Activity Stream] page (NPR-33152).
 * Editing a [!DNL Communities] group and changing the thumbnail image does not update the group thumbnail image (NPR-32603).
 * While creating a version of notifications and subscriptions of User Generated Content (UGC), an incorrect ID of the source page is stored (CQ-4289703).
-* Cross-Site Scripting issue (NPR-33212).
+* Cross-site scripting issue (NPR-33212).
 
 ### Workflow {#workflow-6481}
 
