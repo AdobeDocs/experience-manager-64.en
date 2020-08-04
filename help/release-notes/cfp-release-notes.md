@@ -49,7 +49,7 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 * Manage Publication does not include referenced assets in the request for activation workflow (NPR-32463).
 * Dispatcher health check displays `Invalid cookie header` warning message in the log files (NPR-33630).
 * Salesforce integration is vulnerable to SSRF (NPR-32671).
-* Reflected XSS in PreferencesServlet (NPR--33439).
+* Reflected XSS in PreferencesServlet (NPR-33439).
 
 ### Assets {#assets-6481}
 
