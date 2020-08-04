@@ -48,6 +48,8 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 * Unable to create a launch for an AEM Sites page. Launch creation results in an error (NPR-32544).
 * Manage Publication does not include referenced assets in the request for activation workflow (NPR-32463).
 * Dispatcher health check displays `Invalid cookie header` warning message in the log files (NPR-33630).
+* Salesforce integration is vulnerable to SSRF (NPR-32671).
+* Reflected XSS in PreferencesServlet (NPR--33439).
 
 ### Assets {#assets-6481}
 
@@ -67,6 +69,8 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 
 * Asset processing while bulk upload gets stuck (CQ-4293916).
 
+* SSRF vulnerability in Experience Manager (NPR-33437).
+
 ### Platform {#platform-6481}
 
 * The [!DNL Sling] filter is not called if the `sling:match` map entry is created under `/etc/maps` (NPR-33308).
@@ -82,12 +86,17 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 
 * A `NullPointerException` error is seen in the logs on running a translation job (NPR-32220).
 
+### Integrations {#integrations-6481}
+
+* Cross-site scripting for JSON (NPR-32745).
+
 ### Communities {#communities-6481}
 
 * Authors, after creating a new group, are not redirected to the [!UICONTROL Community Group] section on [!DNL Internet Explorer] 11 (NPR-33202).
 * An error occurs on accessing the [!UICONTROL Activity Stream] page (NPR-33152).
 * Editing a [!DNL Communities] group and changing the thumbnail image does not update the group thumbnail image (NPR-32603).
 * While creating a version of notifications and subscriptions of User Generated Content (UGC), an incorrect ID of the source page is stored (CQ-4289703).
+* Cross-Site Scripting issue (NPR-33212).
 
 ### Workflow {#workflow-6481}
 
@@ -110,6 +119,8 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 * BackendIntegration: Form data model requests fail as the refresh token expires due to incorrect inactive state (NPR-33168).
 * Document Services: Convert PDF service fails to convert PDF documents to PostScript due to missing Gibson jars for [!DNL WebLogic] on the [!DNL Linux] server (NPR-33515, CQ-4292239).
 * Document Services: When a user converts a text file to a PDF, Japanese characters do not render correctly (NPR-33239).
+* Stored XSS with the GuideSOMProviderServlet (NPR-32701).
+
 
 ## Install 6.4.8.1 {#install}
 
