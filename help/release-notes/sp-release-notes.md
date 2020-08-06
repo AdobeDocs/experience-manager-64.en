@@ -402,6 +402,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * Parsing error when opening a Content Fragment which has characters dollar ($) and open brace ({) one after another. Hotfix for CQ-4270266
 * The VersionPreviewServlet is failing in NullPointerException when trying to display a version of an Experience Fragment in the timeline. NPR-30074: Hotfix for CQ-4271881
 * Unable to lock content fragments via the check-in feature. NPR-29923: Hotfix for CQ-4258785
+* Signature verification failure in SAML authentication handler. NPR-30379: Backport request for GRANITE-26567.
 
 **Replication**
 
