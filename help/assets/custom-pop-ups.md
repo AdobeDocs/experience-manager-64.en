@@ -104,7 +104,7 @@ While the functionality of each viewer differs, the process of creating a Quickv
     * Interactive Image viewer: [setHandlers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-images/jsapi-interactive-image/r-html5-aem-int-image-viewer-javascriptapiref-sethandlers.html)
     * Interactive Video viewer: [setHandlers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-video/jsapi-interactive-video/r-html5-aem-int-video-javascriptapiref-sethandlers.html)
 
-1. You now need to configure the quickViewActivate `` handler.
+1. You now need to configure the `quickViewActivate` handler.
 
    The quickViewActivate handler controls the Quickviews in the viewer. The handler contains the variable list and function calls for use with the Quickview. The embed code provides mapping for the SKU variable set in the Quickview as well as a sample loadQuickView function call.
 

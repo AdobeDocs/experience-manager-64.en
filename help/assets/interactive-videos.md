@@ -563,7 +563,6 @@ Notice that it is standard video embed code:
    "asset" : "/content/dam/marketing/shoppable-video/john-lewis/shoppable-video-john-lewis-2014.mp4" }
  }).init();
 </script>
-
 ```
 
 Integration is as simple as removing the video embed code and replacing it with the interactive video embed code from AEM. You can see the result at the following URL. While it shows an Interactive Video present on the page, it is not yet integrated with the existing Quickviews:
@@ -725,7 +724,6 @@ In the case of the sample website, the Quickview modal dialog box is implemented
 var sdkContainerId = s7interactivevideoviewer.getComponent("container").getInnerContainerId(); // get viewer container component
 var inner_container = document.getElementById(sdkContainerId);
 inner_container.appendChild(document.getElementById("quickview-modal"));
-
 ```
 
 The complete source code is as follows:
@@ -769,7 +767,6 @@ The complete source code is as follows:
    });
  s7interactivevideoviewer.init();
 </script>
-
 ```
 
 The final demo website with the fully integrated interactive video looks like the following:

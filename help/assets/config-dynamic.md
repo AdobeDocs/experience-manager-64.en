@@ -145,14 +145,13 @@ To enable dynamic media, you must enable the dynamic media runmode either from t
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar -r dynamicmedia
-
    ```
 
    If you are publishing to s7delivery, then you also need to include the following trustStore arguments:
 
-   ```
+   ```shell
    -Djavax.net.ssl.trustStore=<absoluteFilePath>/customerTrustStoreFileName>
-  
+
     -Djavax.net.ssl.trustStorePassword=<passwordForTrustStoreFile>
    ```
 
@@ -202,7 +201,6 @@ To disable dynamic media after you have enabled it, you remove the **[!UICONTROL
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar
-
    ```
 
 1. Request `http://localhost:4502/is/image`. You receive a message that Dynamic Media is disabled.
@@ -413,7 +411,6 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
 02.08.2016 14:37:44 - * Using OAuth 2.0 Authorization Grants
 02.08.2016 14:37:44 - * OAuth 2.0 User: dynamic-media-replication
 02.08.2016 14:37:44 - Transfer failed for ReplicationAction{type=TEST, path[0]='/content/dam', time=1470173864834, userId='admin', revision='null'}. com.adobe.granite.keystore.KeyStoreNotInitialisedException: Uninitialised key store for user dynamic-media-replication
-
 ```
 
 **Solution**:
