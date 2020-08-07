@@ -42,22 +42,22 @@ The eCommerce framework can be used with any eCommerce solution, the engine bein
 
 * eCommerce Engines are OSGi services supporting the `CommerceService` interface
 
-    * Engines can be distinguished by a `commerceProvider` service property
+  * Engines can be distinguished by a `commerceProvider` service property
 
 * AEM supports `Resource.adaptTo()` for `CommerceService` and `Product`
 
-    * The `adaptTo` implementation looks for a `cq:commerceProvider` property in the resource's hierarchy:
+  * The `adaptTo` implementation looks for a `cq:commerceProvider` property in the resource's hierarchy:
 
-        * If found, the value is used to filter the commerce service lookup.
-        * If not found, the highest-ranked commerce service is used.
+    * If found, the value is used to filter the commerce service lookup.
+    * If not found, the highest-ranked commerce service is used.
 
-    * A `cq:Commerce` mixin is used so the `cq:commerceProvider` can be added to strongly-typed resources.
+  * A `cq:Commerce` mixin is used so the `cq:commerceProvider` can be added to strongly-typed resources.
 
 * The `cq:commerceProvider` property is also used to reference the appropriate commerce factory definition.
 
-    * For example, a `cq:commerceProvider` property with the value `hybris` will correlate to the OSGi configuration for **Day CQ Commerce Factory for Hybris** (com.adobe.cq.commerce.hybris.impl.HybrisServiceFactory) - where the parameter `commerceProvider` also has the value `hybris`.
+  * For example, a `cq:commerceProvider` property with the value `hybris` will correlate to the OSGi configuration for **Day CQ Commerce Factory for Hybris** (com.adobe.cq.commerce.hybris.impl.HybrisServiceFactory) - where the parameter `commerceProvider` also has the value `hybris`.
 
-    * Here further properties, such as **Catalog version** can be configured (when appropriate and available).
+  * Here further properties, such as **Catalog version** can be configured (when appropriate and available).
 
 See the following examples below:
 
@@ -109,7 +109,6 @@ To develop for Hybris 4 the following is required:
 
   ```
   cq-commerce-hybris-server
-  
   ```
 
 * In the OSGi configuration manager:
@@ -165,7 +164,7 @@ Product data that is maintained in hybris needs to be available in AEM. The foll
 
 * The hybris extension provides a polling importer ("hybris" scheme"), which can be configured to import changes into AEM at a specified interval (for example, every 24 hours where the interval is specified in seconds):
 
-    * ``` 
+    ``` 
       http://localhost:4502/content/geometrixx-outdoors/en_US/jcr:content.json
        {
        * "jcr:mixinTypes": ["cq:PollConfig"],
@@ -174,7 +173,7 @@ Product data that is maintained in hybris needs to be available in AEM. The foll
        * "jcr:primaryType": "cq:PageContent",
        * "interval": 86400
        }
-      ```
+    ```
 
 * The catalog configuration in AEM recognizes **Staged** and **Online** catalog versions.  
 
@@ -651,4 +650,3 @@ public class MyImportHandler extends DefaultImportHandler {
     ...
 }
 ```
-

@@ -222,13 +222,19 @@ The following is a description of the effects in the repository when moving or m
 
   A special value for the `cq:movedTo` property is `nirvana`: it is applied when the tag is deleted but cannot be removed from the repository because there are subtags with a `cq:movedTo` that must be kept.
 
-    >[!NOTE]The `cq:movedTo` property is only added to the moved or merged tag if either of these conditions are met: 
+    >[!NOTE]
+    >
+    >The `cq:movedTo` property is only added to the moved or merged tag if either of these conditions are met: 
+    >
     >1. Tag is used in content (meaning it has a reference) OR
     >1. Tag has children that have already been moved.
 
 * `cq:backlinks` keeps the references in the other direction, i.e. it keeps a list of all the tags that have been moved to or merged with tag B. This is mostly required to keep `cq:movedTo`properties up to date when tag B is moved/merged/deleted as well or when tag B is activated, in which case all its backlinks tags must be activated as well.
 
->[!NOTE]The `cq:backlinks` property is only added to the moved or merged tag if either of these conditions are met:
+>[!NOTE]
+>
+>The `cq:backlinks` property is only added to the moved or merged tag if either of these conditions are met:
+>
 >1. Tag is used in content (meaning it has a reference) OR 
 >1. Tag has children that have already been moved.
 
