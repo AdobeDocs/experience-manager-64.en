@@ -13,6 +13,10 @@ discoiquuid: 4a601c2a-4ea1-4308-8ae8-704155f63c21
 
 # Working with Adobe Dimension assets {#working-with-adobe-dimension-assets}
 
+>[!IMPORTANT]
+>
+>The AEM 3D feature pack in AEM 6.4 is no longer supported. Adobe recommends that you use the 3D assets feature in [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html) or [AEM 6.5.3 or higher.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html) when working with Adobe Dimension assets.
+
 The AEM 3D feature pack provides support for Adobe Dimension assets (`.dn` files) in AEM Assets , AEM Sites, and AEM Screens.
 
 A new 3D viewer based on the glTF open standard provides preview and Sites and Screens viewing capabilities for Adobe Dimension assets.

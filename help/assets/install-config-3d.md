@@ -13,6 +13,10 @@ discoiquuid: 5898d084-4b45-41bc-ad2e-2fcc65b0392c
 
 # Installing and configuring AEM 3D {#installing-and-configuring-aem-d}
 
+>[!IMPORTANT]
+>
+>AEM 3D in AEM 6.4 is no longer supported. Adobe recommends that you use the 3D assets feature in [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html) or [AEM 6.5.3 or higher.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html)
+
 The installation and configuration of AEM 3D (version 3.0) involves the following:
 
 1. Installing the Autodesk® FBX® SDK library.
