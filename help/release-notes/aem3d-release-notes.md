@@ -14,6 +14,10 @@ discoiquuid: 9789d031-fb7e-415a-a9c3-8b8fde978238
 
 # AEM 3D Release Notes {#aem-d-release-notes}
 
+>[!IMPORTANT]
+>
+>The AEM 3D feature pack in AEM 6.4 is no longer supported. Adobe recommends that you use the 3D assets feature in [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html) or [AEM 6.5.3 or higher.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html) 
+
 AEM-6.4-DynamicMedia-3D version 3.1.0 (October 10, 2018)
 
 The AEM 3D feature pack enables support for 3D content in AEM Assets. It provides capabilities to upload, manage, preview, and render 3D assets. Support for viewing and rendering is optimized for individual objects (rather than complex scenes with multiple objects).
