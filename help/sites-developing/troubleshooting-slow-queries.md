@@ -75,7 +75,7 @@ Before adding the cq:tags index rule
 
 * **Query Builder query**
 
-    ``` 
+    ```
     type=cq:Page
      property=jcr:content/cq:tags
      property.value=my:tag
@@ -91,19 +91,19 @@ After adding the cq:tags index rule
 
 * **cq:tags Index Rule**
 
-      ```
-      /oak:index/cqPageLucene/indexRules/cq:Page/properties/cqTags
-       @name=jcr:content/cq:tags
-       @propertyIndex=true
-      ```
+    ```
+    /oak:index/cqPageLucene/indexRules/cq:Page/properties/cqTags
+     @name=jcr:content/cq:tags
+     @propertyIndex=true
+    ```
 
 * **Query Builder query**
 
-      ``` 
-      type=cq:Page
-       property=jcr:content/cq:tags
-       property.value=myTagNamespace:myTag
-      ```
+    ```
+    type=cq:Page
+     property=jcr:content/cq:tags
+     property.value=myTagNamespace:myTag
+    ```
 
 * **Query plan**
 
@@ -139,7 +139,7 @@ This helps avoiding resource intensive queries (ie. not backed by any index or b
 
 #### Post-Deployment {#post-deployment-2}
 
-* Monitor the logs for queries triggering large node traversal or large heap memory consumption : ``
+* Monitor the logs for queries triggering large node traversal or large heap memory consumption :
 
     * `*WARN* ... java.lang.UnsupportedOperationException: The query read or traversed more than 100000 nodes. To avoid affecting other tasks, processing was stopped.`
     * Optimize the query to reduce the number of traversed nodes
@@ -201,7 +201,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-      ``` 
+      ```
       type=nt:hierarchyNode
       property=jcr:content/contentType
       property.value=article-page
@@ -209,7 +209,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Optimized query**
 
-      ``` 
+      ```
       type=cq:Page
       property=jcr:content/contentType
       property.value=article-page
@@ -226,7 +226,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-      ``` 
+      ```
         property=jcr:content/contentType
         property.value=article-page
       ```
@@ -246,7 +246,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-      ``` 
+      ```
       type=cq:Page
       path=/content
       property=jcr:content/contentType
@@ -295,7 +295,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-      ``` 
+      ```
       type=cq:Page
       path=/content
       ```
@@ -320,7 +320,7 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Query Builder query**
 
-      ``` 
+      ```
       query type=cq:Page
       path=/content/my-site/us/en
       property=jcr:content/contentType
