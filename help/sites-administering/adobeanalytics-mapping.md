@@ -198,7 +198,6 @@ Taking the above image as an example, the **AEM view** has the following propert
 >* e.g. next to `prop3` you can add  
 >* `'`* `Adobe:'+pagedata.title+':'+pagedata.sitesection`  
 >  to send the *title* of a page concatenated with its *sitesection* using *:* (colon) and prefixed with *Adobe* as `prop3`
->
 
 >[!CAUTION]
 >

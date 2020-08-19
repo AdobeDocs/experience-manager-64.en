@@ -52,7 +52,7 @@ discoiquuid: 752e521f-198f-425a-abfa-051993f9c694
 
         * **Overall quality** - `0.5` or less
         * **Indirect Diffuse (GI) Mode** - `Final Gather`
-        * ``**Filter Size** - `2.0`, `2.0`
+        * **Filter Size** - `2.0`, `2.0`
 
     * Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, Render settings, or both to achieve the results you want. 
 

@@ -52,11 +52,11 @@ To generate reports, ensure that the following:
 
    >[!NOTE]
    >
-   >By default, the Content Fragments and link shares are included in the Asset Downloaded report. Select the appropriate option to create a report of link shares or to exclude Content Fragments from the download report.
+   >By default, the Content Fragments and link shares are included in the asset [!UICONTROL Downloaded report]. Select the appropriate option to create a report of link shares or to exclude Content Fragments from the download report.
 
    >[!NOTE]
    >
-   >The [!UICONTROL Download] report displays details of only those assets which are selected individually and downloaded. However, it does not include the details of the assets that were inside a downloaded folder.
+   >The [!UICONTROL Download] report displays details of only those assets which are selected individually and downloaded or downloaded using Quick Action. However, it does not include the details of the assets that were inside a downloaded folder.
    >
 
 1. Configure report details such as title, description, thumbnail, and folder path in the CRX repository where the report is stored. By default, the folder path is `/content/dam`. You can specify a different path.

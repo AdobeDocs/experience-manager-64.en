@@ -3,6 +3,7 @@ cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Assets User Guide
+user-guide-description: Create, manage, deliver, and optimize digital assets.
 ---
 
 # AEM 6.4 Assets User Guide {#assets}
