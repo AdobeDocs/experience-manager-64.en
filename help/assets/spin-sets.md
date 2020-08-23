@@ -103,7 +103,7 @@ Batch sets are created by the IPS (Image Production System) as part of asset ing
 
 **To create Spin Sets:**
 
-1. In Assets, navigate to where you want to create a spin set, tap **[!UICONTROL Create]**, and select **[!UICONTROL Spin Set**. You can also create the set from inside a folder that contains your assets.
+1. In Assets, navigate to where you want to create a spin set, tap **[!UICONTROL Create]**, and select **[!UICONTROL Spin Set]**. You can also create the set from inside a folder that contains your assets.
 
    ![chlimage_1-381](assets/chlimage_1-381.png)
 
