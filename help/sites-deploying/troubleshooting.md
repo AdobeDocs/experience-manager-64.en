@@ -79,7 +79,7 @@ java -Xmx256m -XX:+HeapDumpOnOutOfMemoryError -jar &ast;.jar
 
 This generates a heap dump file (**java_...hprof**) whenever the process runs out of memory. The process may continue to run after the heap dump was generated. Usually, one heap dump file is enough to analyze the problem.
 
-### **The AEM Welcome screen does not display in the browser after double-clicking AEM Quickstart {#the-aem-welcome-screen-does-not-display-in-the-browser-after-double-clicking-aem-quickstart}**
+### The AEM Welcome screen does not display in the browser after double-clicking AEM Quickstart {#the-aem-welcome-screen-does-not-display-in-the-browser-after-double-clicking-aem-quickstart}
 
 In certain situations, the AEM WCM Welcome screens does not automatically display even though the repository itself is successfully running. This may depend on operating system setup, browser configuration, or similar factors.
 
