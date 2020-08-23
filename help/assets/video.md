@@ -480,7 +480,7 @@ To publish to YouTube, you need a Google account. If you have a GMAIL account th
 1. On your project’s **[!UICONTROL Dashboard]**, in the **[!UICONTROL Getting Started]** card, tap **[!UICONTROL Enable APIs and get credentials like keys]**.
 1. Near the top of the **[!UICONTROL Dashboard]** page, tap **[!UICONTROL Enable API]**.
 1. On the **[!UICONTROL Library]** page, under YouTube APIs, tap **[!UICONTROL YouTube Data API]**.
-1. Near the top of the **YouTube Data API v3]** page, tap **[!UICONTROL Enable]** to turn it on.
+1. Near the top of the **[!UICONTROL YouTube Data API v3]** page, tap **[!UICONTROL Enable]** to turn it on.
 1. To use the API, you may need credentials. If necessary, tap **[!UICONTROL Create Credentials]**.
 1. From the **[!UICONTROL Where will you be calling the API from?]** drop-down list, select **[!UICONTROL Web Server (e.g. node.js, Tomcat)]**.
 1. Under **[!UICONTROL What data will you be accessing?]** select **[!UICONTROL User data]**.
@@ -560,7 +560,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
 1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Deployment > Cloud Services]**.
 1. Under the **[!UICONTROL Third Party Services]** heading, under YouTube, tap **[!UICONTROL Configure now]**.
-1. In the **Create Configuration]** dialog box, enter a title (mandatory) and name (optional) in the respective fields.
+1. In the **[!UICONTROL Create Configuration]** dialog box, enter a title (mandatory) and name (optional) in the respective fields.
 1. Tap **[!UICONTROL Create]**.
 1. In the **[!UICONTROL YouTube Account Settings]** dialog box, in the **[!UICONTROL Application Name]** field, enter the Google Project ID.
 
@@ -587,7 +587,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
     * Depending on how many channels your account has you see two or more items. Select a channel. Do not select the e-mail address.
     * On the next page, tap **[!UICONTROL Accept]** to allow access to this channel.
 
-1. Tap **[!UICONTROL Allow**.
+1. Tap **[!UICONTROL Allow]**.
 
    You will now setup tags for publishing.
 
@@ -646,7 +646,7 @@ To create the metadata processing profile, you are first going to copy values fr
 1. Near the upper-right corner of the **[!UICONTROL Metadata Schema Editor]** page, tap **[!UICONTROL Cancel]**.
 1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Tools > Assets > Metadata Profiles]**.  
 
-1. On the **[!UICONTROL Metadata Profiles** page, near the upper-right corner of the page, tap **[!UICONTROL Create**. In the **[!UICONTROL Add Metadata Profile** dialog box, in the **[!UICONTROL Profile title]** text field, enter the name `YouTube Video`.
+1. On the **[!UICONTROL Metadata Profiles]** page, near the upper-right corner of the page, tap **[!UICONTROL Create]**. In the **[!UICONTROL Add Metadata Profile]** dialog box, in the **[!UICONTROL Profile title]** text field, enter the name `YouTube Video`.
 1. On the **[!UICONTROL Metadata Profile Editor]** page, tap the **[!UICONTROL Advance]** tab.
 1. Add the copied YouTube Publishing values to the profile by doing the following:
 
@@ -666,7 +666,7 @@ To create the metadata processing profile, you are first going to copy values fr
     * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Privacy`.
     * Tap the **[!UICONTROL Build Form]** tab, then drag the component labeled **[!UICONTROL Single Line Text]** and drop it below the **[!UICONTROL YouTube Privacy]** heading you just created.
     * Tap **[!UICONTROL Field Label]** to select the component.
-    * On the right side of the page, under the **[!UICONTROL Settings]** tab, paste the **[!UICONTROL YouTube Publishing]** values (**[!UICONTROL Field Label]** value and **[!UICONTROL Map to property]** value) that you copied earlier, into their respective fields on the form. Paste the **[!UICONTROL Choices** value into the **[!UICONTROL Default Value]** field.
+    * On the right side of the page, under the **[!UICONTROL Settings]** tab, paste the **[!UICONTROL YouTube Publishing]** values (**[!UICONTROL Field Label]** value and **[!UICONTROL Map to property]** value) that you copied earlier, into their respective fields on the form. Paste the **[!UICONTROL Choices]** value into the **[!UICONTROL Default Value]** field.
 
 1. Near the upper-right corner of the page, tap **[!UICONTROL Save]**.
 1. Apply the YouTube Publishing metadata profile to the folders where you are going to upload videos. You will need to have both the Metadata Profile and the Video Profile set.

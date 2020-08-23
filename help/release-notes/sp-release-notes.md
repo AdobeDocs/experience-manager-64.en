@@ -399,7 +399,7 @@ Some of the key highlights of AEM 6.4.6.0 are:
 * Publish/Unpublish from a page alias is not supported and should be removed. NPR-30062: Hotfix for CQ-4271249
 * Unclosed ResourceResolver warning in ExperienceFragmentsReplicationListener leading to stability issues over time, forcing to restart AEM instances. NPR-30416: Hotfix for CQ-4257521
 * Moving Experience Fragments that are referenced in more than 150 pages do not modify the fragmentPath in the pages where they are referenced. NPR-30556: Hotfix for CQ-4274900
-* Parsing error when opening a Content Fragment which has characters dollar ($) and open brace ({) one after another. Hotfix for CQ-4270266
+* Parsing error when opening a Content Fragment which has characters dollar (`$`) and open brace (`{`) one after another. Hotfix for CQ-4270266
 * The VersionPreviewServlet is failing in NullPointerException when trying to display a version of an Experience Fragment in the timeline. NPR-30074: Hotfix for CQ-4271881
 * Unable to lock content fragments via the check-in feature. NPR-29923: Hotfix for CQ-4258785
 * Signature verification failure in SAML authentication handler. NPR-30379: Backport request for GRANITE-26567
@@ -1855,7 +1855,7 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 * (DMS7) Editing remote sets in AEM are not overwritten in Scene7. Hotfix for CQ-4243430
 * Verification of 6.4 SP1 build on DM Hybrid. Hotfix for CQ-4244623
 * (DMS7-UA) When clicking the Embed button for a published Video Asset, nothing appears to happen. The Embed dialog is expected to display with HTML code. Hotfix for CQ-4245237
-* (DM Hybrid) Copy URL for published Video Assets or Mixed Media Sets gets “[[object Object]” in the URL dialog. Hotfix for CQ-4245236, CQ-4245451
+* (DM Hybrid) Copy URL for published Video Assets or Mixed Media Sets gets “`[object Object]`” in the URL dialog. Hotfix for CQ-4245236, CQ-4245451
 * (DMHybrid) Video's Details View page does not contain the preview of the Video Asset show and outputs an error message to the console. Hotfix for CQ-4244320
 * Automatic S7 Encoding of we.retail content. Hotfix for CQ-4242253
 * Pre-Upgrade Video Processing Presets cannot have a new Video Encoding Preset added nor edit the existing Encoding Presets. Hotfix for CQ-4240407
@@ -2143,7 +2143,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 
 To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites-deploying/technical-requirements.md).
 
->[!Note]
+>[!NOTE]
 >On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-7 installed successfully."**
 
 ### Update Dynamic Media Viewers (5.10.1) {#update-dynamic-media-viewers}

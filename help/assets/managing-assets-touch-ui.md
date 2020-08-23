@@ -62,7 +62,7 @@ Before uploading an asset, ensure that it is in a [supported format](assets-form
 
    The size above which an asset is considered a large asset is configurable. For example, you can configure the system to consider assets above 1000 MB (instead of 500 MB) as large assets. In this case, the **[!UICONTROL Pause]** button in the progress bar appears when assets of size greater than 1000 MB are uploaded.
 
-   The **[!UICONTROL Pause]]** button does not show if a file greater than 1000 MB is uploaded with a file less than 1000 MB. However, if you cancel the less than 1000 MB file upload, the **[!UICONTROL Pause]** button appears.
+   The **[!UICONTROL Pause]** button does not show if a file greater than 1000 MB is uploaded with a file less than 1000 MB. However, if you cancel the less than 1000 MB file upload, the **[!UICONTROL Pause]** button appears.
 
    To modify the size limit, configure the `chunkUploadMinFileSize` property of the `fileupload`node in the CRX repository.
 
@@ -282,7 +282,7 @@ You can transcode a video file by choosing from a variety of video presets.
 
 #### Set Batch Set Presets at upload {#setting-batch-set-presets-at-upload}
 
-If you want to automatically create an Image Set or Spin Set from uploaded images, click the **[!UICONTROL Active** column for the preset you want to use. You can select more than one preset.
+If you want to automatically create an Image Set or Spin Set from uploaded images, click the **[!UICONTROL Active]** column for the preset you want to use. You can select more than one preset.
 
 See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets) to learn more about creating batch set presets.
 
@@ -706,7 +706,7 @@ In the [Collections console](managing-collections-touch-ui.md#navigating-the-col
 **To use Timeline**:
 
 1. Open the asset page for an asset, or select it in the Assets UI.
-1. Tap the **[!UICONTROL Global Navigation]** icon, and choose **Timeline]** from the list.
+1. Tap the **[!UICONTROL Global Navigation]** icon, and choose **[Timeline]** from the list.
 
    ![timeline](assets/timeline.png)
 

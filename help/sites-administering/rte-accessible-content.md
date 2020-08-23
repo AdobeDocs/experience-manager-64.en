@@ -155,9 +155,9 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
    ```
    /**
     * Adds Caption Element
-    */
-   var captionElement; 
-   if (dom.firstChild && dom.firstChild.tagName.toLowerCase() == "caption") 
+   */
+   var captionElement;
+   if (dom.firstChild && dom.firstChild.tagName.toLowerCase() == "caption")
    {
       captionElement = dom.firstChild;
    }
@@ -166,7 +166,7 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
        var captionTextNode = document.createTextNode(config.caption)
        if (captionElement)
        {
-          dom.replaceNode(captionElement.firstChild,captionTextNode); 
+          dom.replaceNode(captionElement.firstChild,captionTextNode);
        } else
        {
            captionElement = document.createElement("caption");
@@ -179,7 +179,7 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
               dom.appendChild(captionElement);
            }
        }
-   } else if (captionElement) 
+   } else if (captionElement)
    {
      dom.removeChild(captionElement);
    }

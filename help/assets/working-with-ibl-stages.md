@@ -24,7 +24,7 @@ Currently, AEM 3D only supports 32-bit TIFFs. If necessary, use Adobe Photoshop 
 * **[!UICONTROL Bit depth]** - 32-bit (Float)
 * **[!UICONTROL Pixel Order]** - Interleaved (RGBRGB)
 * **[!UICONTROL Image Compression]** - LZW
-* **[!UICONTROL Byte Order** - IBM PC
+* **[!UICONTROL Byte Order]** - IBM PC
 
 While a single HDR image is often sufficient for IBL stages, AEM 3D provides additional control over IBL effects by allowing up to three separate images:
 

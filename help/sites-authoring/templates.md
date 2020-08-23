@@ -309,7 +309,7 @@ The following aspects of a template can be edited:
 
 * [Layout](#editing-a-template-layout-template-author)
 
-  Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the **[Layout](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** mode for page authoring].
+  Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the **[Layout](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** mode for page authoring.
 
 * [Page Policies](#editing-a-template-structure-template-author)
 
