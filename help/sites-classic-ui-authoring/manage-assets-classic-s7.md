@@ -102,7 +102,7 @@ You do this by configuring the Cloud configuration for the page where the asset 
 
 1. In the sidekick, click the **[!UICONTROL Page]** icon, then click **[!UICONTROL Page Properties]**.  
 
-1. Click **[!UICONTROL Cloud Services > Add services > Dynamic Media Classic (Scene7)**.
+1. Click **[!UICONTROL Cloud Services] > [!UICONTROL Add services] > [!UICONTROL Dynamic Media Classic (Scene7)]**.
 1. In the Adobe Dynamic Media Classic drop-down list, select the desired configuration, then click **[!UICONTROL OK]**.
 
    ![chlimage_1-77](assets/chlimage_1-77.png)

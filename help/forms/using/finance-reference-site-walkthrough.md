@@ -868,7 +868,7 @@ The auto insurance walkthrough also contains another customer, Alison Jones. Cus
 * The standard policy costs less than the premium policy.
 * The premium policy has anti-theft reward and standard policy has smart ride reward
 
-Both the policies use same interactive communication. The sections in the policy are changed or hidden based on the policy-type condition. You can access and review the auto insurance renewal interactive communication directly from https://[authorHost]: authorPort]/aem/formdetails.html/content/dam/formsanddocuments/we-finance/autoinsurance/auto-insurance-renewal
+Both the policies use same interactive communication. The sections in the policy are changed or hidden based on the policy-type condition. You can access and review the auto insurance renewal interactive communication directly from `https://[authorHost]: [authorPort]/aem/formdetails.html/content/dam/formsanddocuments/we-finance/autoinsurance/auto-insurance-renewal`
 
 **Using Microsoft Dynamics as a data source**
 

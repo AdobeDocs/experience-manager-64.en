@@ -262,9 +262,9 @@ See [(Optional) Previewing interactive images](#optional-previewing-interactive-
 1. In the Assets view, navigate to the image banner that you want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **[!UICONTROL Select** (checkmark icon). On the toolbar, tap **[!UICONTROL Edit**. 
+    * Hover on the image, then tap **[!UICONTROL Select]** (checkmark icon). On the toolbar, tap **[!UICONTROL Edit]**. 
     * Hover on the image, then tap **[!UICONTROL More actions]** (three dots icon) &gt; **[!UICONTROL Edit]**.
-    * Tap the image to open it in the **[!UICONTROL Detail View]** page. On the toolbar, tap **[!UICONTROL Edit**.
+    * Tap the image to open it in the **[!UICONTROL Detail View]** page. On the toolbar, tap **[!UICONTROL Edit]**.
 
 1. Near the upper-left corner of the page, tap **[!UICONTROL Add Hotspot]** (finger tap icon) to open the **[!UICONTROL Hotspot Management]** page.
 1. Near the upper-left corner of the page, tap **[!UICONTROL Hotspot]**.

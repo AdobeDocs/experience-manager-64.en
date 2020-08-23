@@ -220,7 +220,7 @@ This option is not available if you are viewing image sets, spin sets, or mixed 
 You can set an asset to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-* **[!UICONTROL Height** and **[!UICONTROL Width]**
+* **[!UICONTROL Height]** and **[!UICONTROL Width]**
 Enter value in pixels if you want the smart crop image to be a fixed size. Leaving these values blank makes it adaptive.
 
 ### Interactive Media component {#interactive-media-component}

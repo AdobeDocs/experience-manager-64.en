@@ -185,7 +185,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 
 To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites-deploying/technical-requirements.md).
 
->[!Note]
+>[!NOTE]
 >On successful installation of the package, an informational message appears indicating that the content package has installed successfully, such as **"Content Package AEM-6.4-Service-Pack-7 installed successfully."**
 
 ### Update Dynamic Media Viewers (5.10.1) {#update-dynamic-media-viewers}

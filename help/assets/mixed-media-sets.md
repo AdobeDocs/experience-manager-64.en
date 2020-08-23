@@ -145,7 +145,7 @@ You can perform a variety of editing tasks to assets in Mixed Media Sets directl
    >* To delete an entire Mixed Media Set, from any viewing mode (such as **[!UICONTROL Card]** view or **[!UICONTROL Column]** view) navigate to the Mixed Media Set. Hover over the asset and tap the checkmark icon to select it. Press **[!UICONTROL Backspace]** on the keyboard, or tap **[!UICONTROL More]** (three dots) on the toolbar, then tap **[!UICONTROL Delete]**. 
    >* You can edit the assets in a Mixed Media Set by navigating to the set, tapping **[!UICONTROL Set Members]** in the left rail, and then tapping the **[!UICONTROL Pencil]** icon on an individual asset to open the editing window.
 
-1. Tap **[!UICONTROL Save** when you are done editing.
+1. Tap **[!UICONTROL Save]** when you are done editing.
 
     >[!NOTE]
     >

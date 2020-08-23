@@ -35,7 +35,7 @@ See also [Integrating AEM 3D with AutoDesk Maya](integrate-maya-with-3d.md).
 
 1. In 3ds Max, click **[!UICONTROL Customize > Plug-in Manager]**.
 
-   Locate `FBXMAX.DLU` and verify that its **[!UICONTROL Status]** is **[!UICONTROL loaded**.
+   Locate `FBXMAX.DLU` and verify that its **[!UICONTROL Status]** is **[!UICONTROL loaded]**.
 
    Close the **[!UICONTROL Plug-In Manager]** dialog box and 3ds Max.
 

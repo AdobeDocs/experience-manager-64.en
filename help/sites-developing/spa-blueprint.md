@@ -268,7 +268,7 @@ The following fragment illustrates the typical HTML representation of a page con
 
 The App owns the routing. The front end developer first needs to implement a Navigation component (mapped to an AEM navigation component). This component would render URL links to be used in conjunction with a series of routes that will display or hide fragments of content.
 
-The underlying [`PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager) library and its `[`ModelRouter`](/help/sites-developing/spa-routing.md) module (enabled by default) are responsible for pre-fetching and providing access to the model associated with a given resource path.
+The underlying [`PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager) library and its [`ModelRouter`](/help/sites-developing/spa-routing.md) module (enabled by default) are responsible for pre-fetching and providing access to the model associated with a given resource path.
 
 The two entities relate to the notion of routing but the [`ModelRouter`](/help/sites-developing/spa-routing.md) is only responsible for having the [`PageModelManager](/help/sites-developing/spa-blueprint.md#pagemodelmanager) loaded with a data model structured in sync with the current application state.
 

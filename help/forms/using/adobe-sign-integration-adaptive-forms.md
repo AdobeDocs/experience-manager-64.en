@@ -64,7 +64,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
    ![OAuth Config](assets/oauth_config.png)
 
-1. Go back to the **[!UICONTROL Create Adobe Sign Configuration]** page. In the **[!UICONTROL Settings]** tab, the **!UICONTROL OAuth URL]** field mentions the following default URL:
+1. Go back to the **[!UICONTROL Create Adobe Sign Configuration]** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
 
    `https://secure.na1.echosign.com/public/oauth`
 
