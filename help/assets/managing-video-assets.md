@@ -51,10 +51,8 @@ To configure a higher file size limit, perform the following steps in the `/apps
 
    ![chlimage_1-203](assets/chlimage_1-203.png)
 
-1. Refresh the browser. The overlay node `/jcr_root/apps/dam/gui/content/assets/jcr:content/actions/secondary/create/items/fileupload` is selected.
-1. In the **[!UICONTROL Properties]** tab, enter the appropriate value in bytes to increase the size limit to the desired size. For example, enter the following value to increase the size limit to 30 GB:
-
-   `{sizeLimit : "32212254720"}`
+1. Refresh the browser. The overlay node `/apps/dam/gui/content/assets/jcr:content/actions/secondary/create/items/fileupload` is selected.
+1. In the **[!UICONTROL Properties]** tab, enter the appropriate value in bytes to increase the size limit to the desired size. For example, enter `32212254720` value to increase the size limit to 30 GB.
 
 1. From the toolbar, tap **[!UICONTROL Save All]**.
 1. In AEM, tap **[!UICONTROL Tools > Operations > Web Console]**.
