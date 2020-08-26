@@ -12,7 +12,7 @@ topic-tags: introduction
 discoiquuid: 13c7e0bd-54af-49f3-9743-075ce6f3314d
 ---
 
-# AEM and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}
+# Adobe Experience Manager and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}
 
 There are many social, economical, and legal motivations for ensuring that web content is designed to be as accessible as possible to the target audience, regardless of any disability or limitations they may have. Web accessibility is therefore an increasingly important aspect of good web design.
 
