@@ -26,9 +26,10 @@ The first step is to add a resource super type property to the `/apps/an-scf-san
 Using CRXDE Lite:
 
 <!--Resolve steps below-->
-    * Name: `sling:resourceSuperType`
-    * Type: `String`
-    * Value: `foundation/components/page`
+
+* Name: `sling:resourceSuperType`
+* Type: `String`
+* Value: `foundation/components/page`
 
 1. Click the green **[!UICONTROL [+] Add]**
 1. Click **[!UICONTROL Save All]**
