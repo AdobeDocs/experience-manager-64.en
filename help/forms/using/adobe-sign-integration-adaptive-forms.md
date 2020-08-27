@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 7d494c2e-d457-4d52-89be-a77ffa07eb88
 ---
 
-# Integrate Adobe Sign with AEM Forms{#integrate-adobe-sign-with-aem-forms}
+# Integrate Adobe Sign with AEM Forms {#integrate-adobe-sign-with-aem-forms}
 
 Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
@@ -66,7 +66,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 1. Go back to the **Create Adobe Sign Configuration** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
 
-   https://secure.na1.echosign.com/public/oauth
+   `https://secure.na1.echosign.com/public/oauth`
 
    where:
 
@@ -87,8 +87,6 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 Now, Adobe Sign is integrated with AEM Forms and ready for use in adaptive forms. To [use Adobe Sign service in an adaptive form](../../forms/using/working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form), specify the configuration container created above in adaptive form properties.
 
-
-
 ## Configure Adobe Sign scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
 
 An Adobe Sign enabled adaptive form is submitted only after all the signers complete the signing process. By default, the Adobe Sign Scheduler services is scheduled to check (poll) signer response after every 24 hours. You can change the default interval for your environment. Perform the following steps to change the default interval:
@@ -107,4 +105,3 @@ Default interval to sync status of Adobe Sign is now changed.
 * [Using Adobe Sign in an adaptive form](../../forms/using/working-with-adobe-sign.md)
 * [Using Adobe Sign with AEM Forms (Video)](https://helpx.adobe.com/experience-manager/kt/forms/using/adobe-sign-integration-feature-video.html)
 * [Integrate Adobe Sign with AEM Forms](../../forms/using/adobe-sign-integration-adaptive-forms.md)
-
