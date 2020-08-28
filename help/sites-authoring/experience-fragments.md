@@ -182,7 +182,7 @@ The following example procedure illustrates how to create a teaser for a product
 
    ![xf-authoring-04](assets/xf-authoring-04.png)
 
-1. Select **[!UICONTROL Configure](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste)** from the component toolbar.
+1. Select **[[!UICONTROL Configure]](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste)** from the component toolbar.
 1. Add the **[!UICONTROL Asset]** and define the **[!UICONTROL Properties]** as required.
 1. Confirm the definitions with **[!UICONTROL Done]** (tick icon).
 1. Add more components as required.
