@@ -497,7 +497,6 @@ user-guide-description: Create, manage, publish, and update digital forms.
     + [Make fonts available](/help/forms/using/admin-help/make-fonts-available.md)
     + [Specify fonts to embed](/help/forms/using/admin-help/specify-fonts-embed.md)
     + [Specify security settings](/help/forms/using/admin-help/specify-security-settings.md)
-    + [Change the character set](/help/forms/using/admin-help/change-character-set.md)
   + Configuring forms workflow{#configure-forms-workflow}
     + [About administration and process terminology](/help/forms/using/admin-help/administration-process-terminology.md)
     + [Managing Processes](/help/forms/using/admin-help/processes.md)

@@ -48,7 +48,6 @@ user-guide-description: Learn key concepts for creating content and authoring in
     + [Scaffolding](scaffolding.md)
     + [Configuring Components in Design Mode](default-components-designmode.md)
     + [Foundation Components](default-components-foundation.md)
-    + [Scaffolding](scaffolding.md)
 + Projects {#projects}
     + [Projects](projects.md)
     + [Managing Projects](touch-ui-managing-projects.md)
