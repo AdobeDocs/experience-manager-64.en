@@ -15,6 +15,7 @@ user-guide-description: Learn about the latest new features in AEM 6.4 in the re
 + [AEM Sites Release Notes](sites.md)
 + [AEM Assets Release Notes](assets.md)
 + [AEM Forms Release Notes](forms.md)
++ [AEM Forms JEE Patch Installer](jee-patch-installer-64.md)
 + [AEM Communities Release Notes](communities-release-notes.md)
 + [AEM 3D Release Notes](aem3d-release-notes.md)
 + [Deprecated and Removed Features](deprecated-removed-features.md)
