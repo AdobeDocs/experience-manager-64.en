@@ -320,7 +320,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites-deploying/technical-requirements.md).
 
 >[!NOTE]
->On successful installation of the package, an informational message appears indicating that the content package has installed successfully, such as **"Content Package AEM-6.4-Service-Pack-7 installed successfully."**
+>On successful installation of the package, an informational message appears indicating that the content package has installed successfully, such as **"Content Package AEM-6.4-Service-Pack-8 installed successfully."**
 
 ### Update Dynamic Media Viewers (5.10.1) {#update-dynamic-media-viewers}
 
@@ -346,7 +346,7 @@ which will copy new viewer presets to /conf location.
 >
 >Skip if you are not using AEM Forms on JEE. Fixes in AEM Forms JEE are delivered through a separate installer.
 
-For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0016](https://helpx.adobe.com/aem-forms/quick-fixes/6-4/jee-patch-0016.html).
+For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer 0019](jee-patch-installer-64.md).
 
 ### Uber Jar {#uber-jar}
 
@@ -373,8 +373,6 @@ This section lists features and capabilities that have been removed or deprecate
 | Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-cc-folder-sharing-best-practices.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](/help/assets/aem-cc-integration-best-practices.md) article. | AEM 6.4.4.0 |
 
 ## Known Issues {#known-issues}
-
-* While installing AEM 6.4.8.1, update of [!DNL Chrome] version 83 is causing an issue in building packages. Use other available browsers, such as [!DNL Internet Explorer] and [!DNL Firefox], or other AEM standard package installation options to resolve the issue. The issue gets resolved after installing AEM 6.4.8.1.
 
 * If you upgrade from Experience Manager 6.4.8.2 to Experience Manager 6.5, some of the bundles might not display their status as `Active`. Install the latest Experience Manager 6.5 Service Pack 6 to resolve the issue.
 
