@@ -152,6 +152,8 @@ Adobe Experience Manager 6.4.8.2 provides fixes for the following issues.
 
 * When you upgrade the [!DNL JBoss] version to 7.0.9 for [!DNL Experience Manager Forms] with Document Security in a [!DNL Linux] environment, it results in an error (CQ-4300546).
 
+For information on security updates, see [Experience Manager security bulletins page](https://helpx.adobe.com/security/products/experience-manager.html).
+
 ## Hotfixes and Feature Packs included in previous Cumulative Fix Packs {#hotfixes-and-feature-packs-included-in-previous-cumulative-fix-packs}
 
 ### Adobe Experience Manager 6.4.8.1 {#experience-manager-6481}
