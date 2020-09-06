@@ -174,6 +174,7 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 
 #### Sites {#sites-6481}
 
+* Anonymous users can access CRX DE Lite features (NPR-33522).
 * When the name of a local component in a LiveCopy is identical to the name of a component in the blueprint and the component is rolled out from blueprint, term _msm_moved is not added to the name of the local component (NPR-33207).
 * The parameters appended to the original request are not included in the redirect URL (NPR-33174).
 * When the Coral.Select option sets emptyOption=true or contains a default item with value = "", the dropdownshowhide.js file encounters an error: Uncaught TypeError: component.getValue is not a function (NPR-33163).
