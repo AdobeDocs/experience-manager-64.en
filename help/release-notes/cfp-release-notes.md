@@ -164,6 +164,7 @@ AEM Cumulative Fix Pack 6.4.8.1 is dependent on AEM 6.4 Service Pack 8. Therefor
 
 Some of the key highlights of AEM 6.4.8.1 are:
 
+* Anonymous access to CRXDE Lite is disallowed to enhance security. Instead, the users are directed to the login screen. See [developing with CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md).
 * Removed Package Share integration with Adobe Experience Manager.
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.21.
 
