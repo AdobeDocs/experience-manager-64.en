@@ -33,6 +33,7 @@ Customers are advised to review if they make use of the feature/capability in th
 | Forms | Deprecated use of JSONObject in Query and OperationOptions. The following APIs are deprecated: <ul><li>`setArguments(JSONObject arguments)`</li><li> `JSONObject getArguments()`</li><li>`OperationOptions(String operationId, JSONObject arguments)`</li><li>`JSONObject getArguments()`</li><li> `void setArguments(JSONObject arguments)`</li></ul> | Use the `IValueMap` API|
 |Forms|Deprecated Central Migration Bridge service.|No replacement is offered.|
 |Assets|Assets Offloading has been deprecated starting with AEM 6.4.||
+|Developers|Lodash/underscore client library. Adobe does not plan to further maintain and update the Lodash/underscore client library that is shipped as part of the distribution (Quickstart)|Adobe recommends customers that still require Lodash/underscore for their code to add it into their project code base.|
 
 <!-- Original HTML table that came from helpx during migration.
 
