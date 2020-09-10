@@ -52,7 +52,7 @@ To publish to Dynamic Media Classic from the Assets console if the assets are in
 
 1. In the AEM classic UI, click **[!UICONTROL Digital Assets]** to access the digital asset manager.  
 
-1. Select the asset (or assets) or folder from within the target folder you want to publish to Dynamic Media Classic and right-click and select **[!UICONTROL Publish to Dynamic Media Classic]**. Alternatively, you can select **[!UICONTROL Publish to Dynamic Media Classic]** from the **[!UICONTROL Tools] menuu.
+1. Select the asset (or assets) or folder from within the target folder you want to publish to Dynamic Media Classic and right-click and select **[!UICONTROL Publish to Dynamic Media Classic]**. Alternatively, you can select **[!UICONTROL Publish to Dynamic Media Classic]** from the **[!UICONTROL Tools]** menu.
 
    ![chlimage_1-76](assets/chlimage_1-76.png)
 
@@ -102,7 +102,7 @@ You do this by configuring the Cloud configuration for the page where the asset 
 
 1. In the sidekick, click the **[!UICONTROL Page]** icon, then click **[!UICONTROL Page Properties]**.  
 
-1. Click **[!UICONTROL Cloud Services > Add services > Dynamic Media Classic (Scene7)**.
+1. Click **[!UICONTROL Cloud Services] > [!UICONTROL Add services] > [!UICONTROL Dynamic Media Classic (Scene7)]**.
 1. In the Adobe Dynamic Media Classic drop-down list, select the desired configuration, then click **[!UICONTROL OK]**.
 
    ![chlimage_1-77](assets/chlimage_1-77.png)

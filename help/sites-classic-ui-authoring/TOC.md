@@ -60,10 +60,8 @@ user-guide-description: This guide covers the concepts of authoring in AEM in th
     + [Working with the Marketing Campaign Manager](classic-personalization-campaigns-mktg-manager.md)
     + [E-mail Marketing](classic-personalization-campaigns-email.md)
     + [Tracking Bounced Emails](classic-personalization-campaigns-email-tracking-bounces.md)
-    + [Teasers and Strategies](classic-personalization-campaigns-teasers-strategy.md)
     + [Setting up your campaign](classic-personalization-campaigns-setting-up-your.md)
     + [Publishing an Email to Email Service Providers](classic-personalization-campaigns-email-newsletters.md)
-    + [Working with the Marketing Campaign Manager](classic-personalization-campaigns-mktg-manager.md)
     + [Creating an Effective Newsletter Landing Page](classic-personalization-campaigns-email-landingpage.md)
     + [Managing Subscriptions](classic-personalization-campaigns-email-subscriptions.md)
 + Adobe Campaign {#campaign}

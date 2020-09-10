@@ -61,6 +61,7 @@ user-guide-description: Learn more about installing, deploying, and the architec
     + [Assessing the Upgrade Complexity with the Pattern Detector](pattern-detector.md)
     + [Backward Compatibility in AEM 6.4](backward-compatibility.md)
     + [Upgrade Procedure](upgrade-procedure.md)
+    + [Using Offline Reindexing To Reduce Downtime During an Upgrade](upgrade-offline-reindexing.md)
     + [Performing an In-Place Upgrade](in-place-upgrade.md)
     + [Lazy Content Migration](lazy-content-migration.md)
     + [Using the CRX2Oak Migration Tool](using-crx2oak.md)

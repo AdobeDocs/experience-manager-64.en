@@ -285,6 +285,6 @@ This configuration adds a property `hasValidMetadata` to jcr:content of assets. 
 >
 >If an asset is added after the scheduled check, the asset is not flagged with `hasValidMetadata` until  the next scheduled check. The assets do not appear in intermediate search results.
 
->[!Caution]
+>[!CAUTION]
 >
 >The metadata validation checks are resource intensive and may impact the performance of your system. Schedule the checks accordingly. If the AEM deployment has performance issues, try disabling this job.

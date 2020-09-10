@@ -68,7 +68,7 @@ After you have installed AEM, access the CRXDE Lite development environment by c
 
 Use CRXDE Lite to create the mywebsite application structure in the repository:
 
-1. In the tree on the left side of CRXDE Lite, right-click the **`/apps`** folder and click **[!UICONTROL Create > Create Folder]**. In the **Create Folder** dialog, type `mywebsite` as the folder name and click **[!UICONTROL OK**.
+1. In the tree on the left side of CRXDE Lite, right-click the **`/apps`** folder and click **[!UICONTROL Create > Create Folder]**. In the **Create Folder** dialog, type `mywebsite` as the folder name and click **OK**.
 1. Right-click the `/apps/mywebsite` folder and click **[!UICONTROL Create > Create Folder]**. In the **[!UICONTROL Create Folder]** dialog, type `components` as the folder name and click **[!UICONTROL OK]**.
 1. Right-click the `/apps/mywebsite` folder and click **[!UICONTROL Create > Create Folder]**. In the **[!UICONTROL Create Folder]** dialog, type `templates` as the folder name and click **[!UICONTROL OK]**.
 
@@ -1075,7 +1075,7 @@ In this section, you include the title component, which is one of the foundation
 
    ![chlimage_1-126](assets/chlimage_1-126.png)
 
->[!Note]
+>[!NOTE]
 >You can set a different Title and the Type/Size in **[!UICONTROL Edit]** mode.
 
 ### Including the Paragraph System Component {#including-the-paragraph-system-component}
@@ -1269,7 +1269,7 @@ Your search input box will look as follows on the **[!UICONTROL English]** page:
         * **[!UICONTROL Group]**: MyWebsite
 
     1. Click **[!UICONTROL Next]**, then click **[!UICONTROL Next]** again.
-    1. On the **[!UICONTROL Allowed Parents** panel, click the **[!UICONTROL +]** button and type `*/parsys`.
+    1. On the **[!UICONTROL Allowed Parents]** panel, click the **[!UICONTROL +]** button and type `*/parsys`.
     1. Click **[!UICONTROL Next]** and then click **[!UICONTROL OK]**.
 
 1. Click **[!UICONTROL Save All]**.

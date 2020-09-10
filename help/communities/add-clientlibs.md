@@ -117,7 +117,7 @@ Once apps.an-scf-sandbox clientlibs is included, the SCF comments component appe
 
 ![chlimage_1-225](assets/chlimage_1-225.png)
 
-The include statement belongs in the <head> section of the <html> script. The default **`foundation head.jsp`** includes a script that can be overlaid: **`headlibs.jsp`**.
+The include statement belongs in the `<head>` section of the `<html>` script. The default **`foundation head.jsp`** includes a script that can be overlaid: **`headlibs.jsp`**.
 
 **Copy headlibs.jsp and include clientlibs:**
 

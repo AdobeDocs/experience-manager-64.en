@@ -137,7 +137,7 @@ Follow these steps to schedule the date and time of publishing and unpublishing 
     1. Move the pointer over an asset and tap **[!UICONTROL Unpublish]** ![unpublish](assets/unpublish.png).
     1. Do one of following and then tap unpublish:
 
-        * If you are in the card view, tap **[!UICONTROL Enter Selection** ![aem6forms_check-circle](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
+        * If you are in the card view, tap **[!UICONTROL Enter Selection]** ![aem6forms_check-circle](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
         * If you are in the list view, hover over an asset and tap ![selectassetcheckmark](assets/selectassetcheckmark.png) . The asset is selected.
         * Tap an asset to display its details.
         * Display an asset's properties by tapping View Properties ![viewproperties](assets/viewproperties.png).

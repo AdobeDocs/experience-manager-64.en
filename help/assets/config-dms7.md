@@ -31,7 +31,7 @@ With the new architecture, AEM is responsible for master assets and synchs with 
 
 [Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable it.
 
->[NOTE]
+>[!NOTE]
 >
 >Dynamic Media - Scene7 mode is for the AEM Author instance only. As such, you must configure `runmode=dynamicmedia_scene7`on the AEM Author instance, not the AEM Publish instance.
 
@@ -45,7 +45,7 @@ java -Xms4096m -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=5
 
 If you are upgrading AEM Dynamic Media from 6.3 to 6.4 (which now includes the ability for zero downtime deployments), you are required to run the following curl command to migrate all your presets and configurations from `/etc` to `/conf` in CRXDE Lite.
 
->[NOTE]
+>[!NOTE]
 >
 >If you run your AEM instance in compatibility mode--that is, you have the compatibility packaged installed--you do not need to run these commands.  
   
@@ -214,7 +214,7 @@ You can define which asset types should be processed by Dynamic Media and custom
 * Convert an Adobe Photoshop Document (.PSD) to a banner template asset for personalization.
 * Rasterize an Adobe Illustrator file (.AI) or an Adobe Photoshop Encapsulated Postscript file (.EPS).
 
->[NOTE]
+>[!NOTE]
 >
 >Video Profiles and Imaging Profiles can be used to define processing of videos and images, respectively.
 
@@ -414,7 +414,7 @@ When the Spin Set is uploaded and published, you activate the name of the 2D Spi
    Note that [!UICONTROL View Form], as set in the upper-right corner of the [!UICONTROL Details] page, is the default view.
 
 1. In the **[!UICONTROL Preset List]** panel, tap **[!UICONTROL Add]** to activate the definition fields in the **[!UICONTROL Details]** panel on the right hand side of the screen.
-1. In the **[!UICONTROL Details]** panel, in the [!UICONTROL Preset Name[!UICONTROL field, type a name for the preset.
+1. In the **[!UICONTROL Details]** panel, in the [!UICONTROL Preset Name] field, type a name for the preset.
 1. In the **[!UICONTROL Batch Set Type]** drop-down menu, select **[!UICONTROL Asset Set]**.
 1. In the **[!UICONTROL Sub Type]** drop-down list, select **[!UICONTROL Multi-Axis Spin Set]**.
 1. Expand **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Custom]**.
