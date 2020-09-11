@@ -32,18 +32,18 @@ AEM provides several APIs for developing applications. The following list provid
 
 AEM Single-Page Application (SPA) Editor SDK framework JavaScript API references:
 
-* [Component Mapping](https://www.npmjs.com/package/@adobe/cq-spa-component-mapping)
-* [Page Model Manager](https://www.npmjs.com/package/@adobe/cq-spa-page-model-manager)
-* [React Editable Components](https://www.npmjs.com/package/@adobe/cq-react-editable-components)
-* [Angular Editable Components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components)
+* [Component Mapping](https://www.npmjs.com/package/@adobe/aem-spa-component-mapping)
+* [Page Model Manager](https://www.npmjs.com/package/@adobe/aem-spa-page-model-manager)
+* [React Editable Components](https://www.npmjs.com/package/@adobe/aem-react-editable-components)
+* [Angular Editable Components](https://www.npmjs.com/package/@adobe/aem-angular-editable-components)
 
 AEM Delivery and Content Management APIs:
 
 * Core Components (JSON)
 
-    * [JSON Exporter](/help/sites-developing/json-exporter.md)
-    * [Enabling JSON Export for a Component](/help/sites-developing/json-exporter-components.md)
-    * See the [Components section in the Developing User Guide](https://helpx.adobe.com/experience-manager/6-4/sites/developing/user-guide.html?topic=/experience-manager/6-4/sites/developing/morehelp/components.ug.js) for more information
+  * [JSON Exporter](/help/sites-developing/json-exporter.md)
+  * [Enabling JSON Export for a Component](/help/sites-developing/json-exporter-components.md)
+  * See the [Components section in the Developing User Guide](https://helpx.adobe.com/experience-manager/6-4/sites/developing/user-guide.html?topic=/experience-manager/6-4/sites/developing/morehelp/components.ug.js) for more information
 
 * [AEM Assets HTTP API](/help/assets/mac-api-assets.md)
 
