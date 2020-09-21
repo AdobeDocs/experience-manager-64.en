@@ -3,6 +3,7 @@ cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Release Notes
+breadcrumb-title: Release Notes
 user-guide-description: Learn about the latest new features in AEM 6.4 in the release notes.
 ---
 
