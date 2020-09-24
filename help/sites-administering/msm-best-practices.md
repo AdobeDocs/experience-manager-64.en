@@ -8,7 +8,6 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features, best-practices
 content-type: reference
-topic-tags: 
 discoiquuid: 04344537-7485-40a9-ad14-804ba448f1e2
 ---
 
