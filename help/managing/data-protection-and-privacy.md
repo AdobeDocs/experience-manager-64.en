@@ -5,10 +5,9 @@ description: Learn about Adobe Experience Manager support for the various Data P
 seo-description: Learn about Adobe Experience Manager support for the various Data Protection and Data Privacy Regulations; including the EU General Data Protection Regulation (GDPR), the California Consumer Privacy Act and how to comply when implementing a new AEM project. 
 uuid: c443aa47-0766-4280-b0f2-b5b06534ffba
 contentOwner: aheimoz
-topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
-topic-tags: grdp
+topic-tags: grdp, introduction
 discoiquuid: 93e71efe-c1c6-4d83-9b57-6c70f7bc0b80
 ---
 
