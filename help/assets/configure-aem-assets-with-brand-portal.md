@@ -72,6 +72,11 @@ Perform the following steps in the listed sequence if you are configuring AEM As
 1. [Configure cloud service](#configure-the-cloud-service)
 1. [Test configuration](#test-integration)
 
+>[!NOTE]
+ >
+ >An AEM Assets author instance shall only be configured with one Brand Portal tenant.
+ >
+
 ### Create IMS configuration {#create-ims-configuration}
 
 IMS configuration authenticates your Brand Portal tenant with AEM Assets author instance. 

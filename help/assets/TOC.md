@@ -2,12 +2,12 @@
 cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
-user-guide-title: AEM 6.4 Assets User Guide
+user-guide-title: Assets Guide
 breadcrumb-title: Assets Guide
 user-guide-description: Create, manage, deliver, and optimize digital assets.
 ---
 
-# AEM 6.4 Assets User Guide {#assets}
+# Assets Guide {#assets}
 
 + [Assets user guide](home.md)
 + [AEM 6.4 Assets release notes](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/assets.html)

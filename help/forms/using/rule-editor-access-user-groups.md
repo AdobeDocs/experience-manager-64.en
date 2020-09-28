@@ -5,8 +5,7 @@ description: Grant restricted access to rule editor to select user groups.
 seo-description: Grant restricted access to rule editor to select user groups.
 uuid: 3d982858-b2b5-4370-a9d7-5a95842a7897
 content-type: reference
-topic-tags: adaptive_forms
-topic-tags: develop
+topic-tags: adaptive_forms, develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6bd58e37-085e-4057-8200-1404d54f41cc
 ---

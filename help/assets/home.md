@@ -1,9 +1,10 @@
 ---
-title: AEM 6.4 Assets User Guide
+title: Assets Guide
 description: This guide covers all AEM Assets tasks, such as how to create, manage, deliver, and optimize digital assets.
+user-guide-title: Assets Guide
 ---
 
-# AEM 6.4 Assets User Guide
+# Assets Guide
 
 This guide covers all AEM Assets tasks, such as how to create, manage, deliver, and optimize digital assets.
 
