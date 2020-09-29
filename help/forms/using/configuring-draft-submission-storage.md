@@ -98,7 +98,7 @@ Data is pushed directly to configured remote instance
 
 Apart from the configuration specified above, provide information about the configured remote processing instance.
 
-In the AEM Web Console Configuration ( `https://[*host*]:[*port*]/system/console/configMgr`), click to open **AEM DS Settings Service **in edit mode. In the AEM DS Settings Service dialog, provide information about processing server URL, processing server user name, and password.
+In the AEM Web Console Configuration ( `https://[*host*]:[*port*]/system/console/configMgr`), click to open **AEM DS Settings Service** in edit mode. In the AEM DS Settings Service dialog, provide information about processing server URL, processing server user name, and password.
 
 >[!NOTE]
 >

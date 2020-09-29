@@ -23,20 +23,20 @@ Community Sites:
 
 * Community Administrators can now:
 
-    * Delete permanently Community Sites
-    * Select a context-aware configuration folder for Community Sites
+  * Delete permanently Community Sites
+  * Select a context-aware configuration folder for Community Sites
 
 Community Groups:
 
 * Community Administrators can now:
 
-    * Delete permanently Community Groups
-    * Create Community Groups in multiple languages
-    * Add enablement catalog & assignments within Community Groups
+  * Delete permanently Community Groups
+  * Create Community Groups in multiple languages
+  * Add enablement catalog & assignments within Community Groups
 
 * Enablement Managers can now
 
-    * Create and assign resources and learning paths within Community Groups
+  * Create and assign resources and learning paths within Community Groups
 
 File Library:
 

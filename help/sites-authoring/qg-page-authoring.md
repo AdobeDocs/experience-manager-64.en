@@ -33,24 +33,24 @@ Before giving the overview of specifics, here is a small collection of general t
 
 * **Create**
 
-    * This button is available in many consoles - the options presented are context sensitive so can vary according to the scenario.
+  * This button is available in many consoles - the options presented are context sensitive so can vary according to the scenario.
 
 * Re-ordering pages in a folder
 
-    * This can be done in [List View](/help/sites-authoring/basic-handling.md#list-view). The changes will be applied and be visible in other views.
+  * This can be done in [List View](/help/sites-authoring/basic-handling.md#list-view). The changes will be applied and be visible in other views.
 
 * Changing your UI
 
-    * This can be done from various locations. See [Selecting your UI](/help/sites-authoring/select-ui.md).
+  * This can be done from various locations. See [Selecting your UI](/help/sites-authoring/select-ui.md).
 
 ### Page Authoring {#page-authoring}
 
 * Navigating Links
 
-    * ***Links are not available for navigation*** when you are in **Edit** mode. To navigate with links you need to [preview the page](/help/sites-authoring/editing-content.md#previewing-pages) using either:
+  * ***Links are not available for navigation*** when you are in **Edit** mode. To navigate with links you need to [preview the page](/help/sites-authoring/editing-content.md#previewing-pages) using either:
 
-        * [Preview Mode](/help/sites-authoring/editing-content.md#preview-mode)
-        * [View as Published](/help/sites-authoring/editing-content.md#view-as-published)
+    * [Preview Mode](/help/sites-authoring/editing-content.md#preview-mode)
+    * [View as Published](/help/sites-authoring/editing-content.md#view-as-published)
 
 * Workflows and Versions are no longer started/created from the page editor; this is now done from [Timeline](/help/sites-authoring/basic-handling.md#timeline) (accessible from the console).
 
@@ -60,7 +60,6 @@ Before giving the overview of specifics, here is a small collection of general t
 >
 >* [Keyboard Shortcuts When Editing Pages](/help/sites-authoring/page-authoring-keyboard-shortcuts.md)
 >* [Keyboard Shortcuts for Consoles](/help/sites-authoring/keyboard-shortcuts.md)  
->
 
 ## Finding Your Page {#finding-your-page}
 
@@ -91,14 +90,14 @@ How to select a page depends on which view you are using in the console:
 
 1. Card View:
 
-    * Enter selection mode by [selecting the required resource](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources) with:
+   * Enter selection mode by [selecting the required resource](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources) with:
 
-        * Mobile device: tap-and-hold
-        * Desktop: the [quick action](/help/sites-authoring/basic-handling.md#quick-actions) - tick icon:
+     * Mobile device: tap-and-hold
+     * Desktop: the [quick action](/help/sites-authoring/basic-handling.md#quick-actions) - tick icon:
 
-   ![screen_shot_2018-03-21at160503](assets/screen_shot_2018-03-21at160503.png)
+       ![screen_shot_2018-03-21at160503](assets/screen_shot_2018-03-21at160503.png)
 
-    * The card will be overlaid with a tick to show that the page has been selected.
+     * The card will be overlaid with a tick to show that the page has been selected.
 
    >[!NOTE]
    >
@@ -106,11 +105,11 @@ How to select a page depends on which view you are using in the console:
 
 1. List View:
 
-    * Tap/click on the thumbnail for the required resource - the thumbnail will be overlaid with a tick to show that it has been selected.
+   * Tap/click on the thumbnail for the required resource - the thumbnail will be overlaid with a tick to show that it has been selected.
 
 1. Column View:
 
-    * Tap/click on the thumbnail for the required resource - the thumbnail will be overlaid with a tick to show that it has been selected.
+   * Tap/click on the thumbnail for the required resource - the thumbnail will be overlaid with a tick to show that it has been selected.
 
 ## Quick Actions (Card View/Desktop Only) {#quick-actions-card-view-desktop-only}
 
@@ -133,56 +132,56 @@ How to select a page depends on which view you are using in the console:
 
 1. When the editor opens you can:
 
-    * [Add a new compenent to your page](/help/sites-authoring/editing-content.md#inserting-a-component) by:
+   * [Add a new compenent to your page](/help/sites-authoring/editing-content.md#inserting-a-component) by:
 
-        * opening the side panel
-        * selecting the components tab (the [components browser](/help/sites-authoring/author-environment-tools.md#components-browser))
-        * dragging the required component onto your page.
+     * opening the side panel
+     * selecting the components tab (the [components browser](/help/sites-authoring/author-environment-tools.md#components-browser))
+     * dragging the required component onto your page.
 
-      The side panel can be opened (and closed) with:
+     The side panel can be opened (and closed) with:
 
-   ![](do-not-localize/screen_shot_2018-03-21at160738.png)
+     ![](do-not-localize/screen_shot_2018-03-21at160738.png)
 
-    * [Edit the content of an existing component](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste) on the page:
+   * [Edit the content of an existing component](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste) on the page:
 
-        * Open the component toolbar with either tap or click. Use the **Edit** (pencil) icon to open the dialog.
-        * Open the in place editor for the component with either tap-and-hold or a double-slow-click. The available actions will be shown (for some components, this will be a limited selection).
-        * To see all actions available enter full-screen mode using:
+     * Open the component toolbar with either tap or click. Use the **Edit** (pencil) icon to open the dialog.
+     * Open the in place editor for the component with either tap-and-hold or a double-slow-click. The available actions will be shown (for some components, this will be a limited selection).
+     * To see all actions available enter full-screen mode using:
 
-   ![](do-not-localize/screen_shot_2018-03-21at160706.png)
+     ![](do-not-localize/screen_shot_2018-03-21at160706.png)
 
-    * [Configure the properties of an existing component](/help/sites-authoring/editing-content.md#component-edit-dialog)
+   * [Configure the properties of an existing component](/help/sites-authoring/editing-content.md#component-edit-dialog)
 
-        * Open the component toolbar with either tap or click. Use the **Configure** (wrench) icon to open the dialog.
+     * Open the component toolbar with either tap or click. Use the **Configure** (wrench) icon to open the dialog.
 
-    * [Move a component](/help/sites-authoring/editing-content.md#moving-a-component) either:
+   * [Move a component](/help/sites-authoring/editing-content.md#moving-a-component) either:
 
-        * Drag the required component to its new location.
-        * Open the component toolbar with either tap or click. Use the **Cut** then **Paste** icons where required.
+     * Drag the required component to its new location.
+     * Open the component toolbar with either tap or click. Use the **Cut** then **Paste** icons where required.
 
-    * [Copy (and Paste)](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste) a component:
+   * [Copy (and Paste)](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste) a component:
 
-        * Open the component toolbar with either tap or click. Use the **Copy** then **Paste** icons as required.
+     * Open the component toolbar with either tap or click. Use the **Copy** then **Paste** icons as required.
 
-   >[!NOTE]
-   >
-   >You can **Paste** components to either the same page, or a different page. If pasting to a different page that was already open before the cut/copy operation, then that page will need a page refresh.
+     >[!NOTE]
+     >
+     >You can **Paste** components to either the same page, or a different page. If pasting to a different page that was already open before the cut/copy operation, then that page will need a page refresh.
 
-    * [Delete](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste) a component:
+   * [Delete](/help/sites-authoring/editing-content.md#edit-configure-copy-cut-delete-paste) a component:
 
-        * Open the component toolbar with either tap or click, then use the **Delete** icon.
+     * Open the component toolbar with either tap or click, then use the **Delete** icon.
 
-    * [Add annotations](/help/sites-authoring/annotations.md#annotations) to the page:
+   * [Add annotations](/help/sites-authoring/annotations.md#annotations) to the page:
 
-        * Select the **Annotate** mode (speech bubble icon). Add annotations using the **Add annotation** (plus) icon. Exit annotation mode using the X at top right.
+     * Select the **Annotate** mode (speech bubble icon). Add annotations using the **Add annotation** (plus) icon. Exit annotation mode using the X at top right.
 
-   ![](do-not-localize/screen_shot_2018-03-21at160813.png)
+     ![](do-not-localize/screen_shot_2018-03-21at160813.png)
 
-    * [Preview a page](/help/sites-authoring/editing-content.md#preview-mode) (to see how it will appear in the publish environment)
+   * [Preview a page](/help/sites-authoring/editing-content.md#preview-mode) (to see how it will appear in the publish environment)
 
-        * Select **Preview** from the toolbar.
+     * Select **Preview** from the toolbar.
 
-    * Return to edit mode (or select another mode) using the **Edit** drop down selector.
+   * Return to edit mode (or select another mode) using the **Edit** drop down selector.
 
    >[!NOTE]
    >

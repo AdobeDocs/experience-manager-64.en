@@ -19,19 +19,25 @@ The Generate PDF service converts native file formats to PDF. It also converts P
 
 The Generate PDF service uses native applications to convert the following file formats to PDF. Unless otherwise indicated, only the German, French, English, and Japanese versions of these applications are supported. *Windows only* indicates support for only Windows Server® 2003 and Windows Server 2008.
 
-* Microsoft Office 2003 and 2007 to convert DOC, DOCX, RTF, TXT, XLS, XLSX, PPT, PPTX, VSD, MPP, MPPX, XPS, and PUB (Windows only)
+* Microsoft Office 2003 and 2007 to convert DOC, DOCX, RTF, TXT, XLS, XLSX, PPT, PPTX, VSD, MPP, MPPX, XPS, and PUB (Windows only)   
 
-  ***Note**: Acrobat® 9.2 or later is required to convert Microsoft XPS format to PDF.*
+  >[!NOTE]
+  >
+  >Acrobat® 9.2 or later is required to convert Microsoft XPS format to PDF.
 
 * Autodesk AutoCAD 2005, 2006, 2007, 2008, and 2009 to convert DWF, DWG, and DXW (English only)
 * Corel WordPerfect 12 and X4 to convert WPD, QPW, SHW (English only)
 * OpenOffice 2.0, 2.4, 3.0.1, and 3.1 to convert ODT, ODS, ODP, ODG, ODF, SXW, SXI, SXC, SXD, DOC, DOCX, RTF, TXT, XLS, XLSX, PPT, PPTX, VSD, MPP, MPPX, and PUB
 
-  ***Note**: The Generate PDF service does not support the 64-bit versions of OpenOffice.*
-
+  >[!NOTE]
+  >
+  >The Generate PDF service does not support the 64-bit versions of OpenOffice.  
+  
 * Adobe Photoshop® CS2 to convert PSD (Windows only)
 
-  ***Note**: Photoshop CS3 and CS4 are not supported because they do not support Windows Server 2003 or Windows Server 2008. *
+   >[!NOTE]
+   >
+   >Photoshop CS3 and CS4 are not supported because they do not support Windows Server 2003 or Windows Server 2008.  
 
 * Adobe FrameMaker® 7.2 and 8 to convert FM (Windows only)
 * Adobe PageMaker® 7.0 to convert PMD, PM6, P65, and PM (Windows only)
@@ -701,7 +707,7 @@ If the attributes fail to identify a caption, you can instead identify a window 
 Be aware of these issues:
 
 * Microsoft Spy++ displays captions by using an ampersand (&) to identify the caption’s hot key. For example, Spy++ shows the caption for one Print dialog box as `Pri&nt`, which indicates that the hotkey is *n*. Caption titles in script and dialog XML files must omit ampersands. 
-* Some captions include line breaks. the Generate PDF service cannot identify line breaks. If a caption includes a line break, include enough of the caption to differentiate it from the other menu items and then use regular expressions for the omitted part. An example is ( `^Long caption title$`).]. (See [Using regular expressions in caption attributes](converting-file-formats-pdf.md#using-regular-expressions-in-caption-attributes).)
+* Some captions include line breaks. the Generate PDF service cannot identify line breaks. If a caption includes a line break, include enough of the caption to differentiate it from the other menu items and then use regular expressions for the omitted part. An example is ( `^Long caption title$`). (See [Using regular expressions in caption attributes](converting-file-formats-pdf.md#using-regular-expressions-in-caption-attributes).)
 * Use character entities (also called escape sequences) for reserved XML characters. For example, use `&` for ampersands, `<` and `>` for less than and greater than symbols, `&apos;` for apostrophes, and `&quot;` for quotation marks.
 
 If you plan to work on dialog or script XML files, you should install the application Microsoft Spy++.

@@ -4,6 +4,8 @@ product: adobe experience manager
 sub-product: forms 
 audience: end-user
 user-guide-title: AEM 6.4 Forms User Guide
+breadcrumb-title: Forms Guide
+user-guide-description: Create, manage, publish, and update digital forms.
 ---
 # AEM 6.4 - Forms User Guide {#forms}
 
@@ -26,10 +28,10 @@ user-guide-title: AEM 6.4 Forms User Guide
   + Tutorial: Create your First Interactive Communication {#create-first-interactive-communication}
     + [Tutorial: Create your first Interactive Communication](using/create-your-first-interactive-communication.md)
     + [Tutorial: Plan the Interactive Communication](using/planning-interactive-communications.md)
-    + [Tutorial: Create form data model](using/create-form-data-model0.md)
+    + [Tutorial: Create form data model](using/create-form-data-model-tutorial.md)
     + [Tutorial: Create document fragments](using/create-document-fragments.md)
     + [Tutorial: Create templates](using/create-templates-print-web.md)
-    + [Tutorial: Create Interactive Communication](using/create-interactive-communication0.md)
+    + [Tutorial: Create Interactive Communication](using/create-interactive-communication-tutorial.md)
   + AEM Forms Reference Collaterals {#aem-forms-reference-collaterals}
     + [Set up and configure AEM Forms reference sites](using/setup-reference-sites.md)
     + [We.Finance reference site walkthrough](using/finance-reference-site-walkthrough.md)
@@ -91,7 +93,7 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for WebLogic](http://www.adobe.com/go/learn_aemforms_upgradeWebLogic_64)
     + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebLogic](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-weblogic-livecycle.pdf)
     + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for WebSphere](http://www.adobe.com/go/learn_aemforms_upgradeWebSphere_64)
-    + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebSphere](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-turnkey-livecycle.pdf)
+    + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebSphere](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-websphere-livecycle.pdf)
 + Manage AEM Forms {#manage-administer-aem-forms}
   + [AEM Forms on OSGi Groups and Privileges](using/forms-groups-privileges-tasks.md)
   + [Create new folders to categorize forms](using/creating-new-folders-categorize-forms.md)
@@ -496,7 +498,6 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [Make fonts available](/help/forms/using/admin-help/make-fonts-available.md)
     + [Specify fonts to embed](/help/forms/using/admin-help/specify-fonts-embed.md)
     + [Specify security settings](/help/forms/using/admin-help/specify-security-settings.md)
-    + [Change the character set](/help/forms/using/admin-help/change-character-set.md)
   + Configuring forms workflow{#configure-forms-workflow}
     + [About administration and process terminology](/help/forms/using/admin-help/administration-process-terminology.md)
     + [Managing Processes](/help/forms/using/admin-help/processes.md)
@@ -569,6 +570,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [AEM Forms Java API Reference](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html)
   + [AEM Forms on JEE Java API Reference](https://helpx.adobe.com/experience-manager/6-4/forms/ProgramLC/javadoc/index.html)
   + [Form Bridge APIs for HTML5 forms](using/form-bridge-apis.md)
+  + [JavaScript Library API reference for Adaptive Forms](https://helpx.adobe.com/experience-manager/6-4/forms/javascript-api/index.html)
   + [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddxRef_64)
   + [Workbench Help](http://www.adobe.com/go/learn_aemforms_workbench_64)
   + Programming with AEM Forms on JEE {#programming-aem-forms-jee}

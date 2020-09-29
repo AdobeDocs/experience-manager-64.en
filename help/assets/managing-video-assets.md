@@ -51,10 +51,8 @@ To configure a higher file size limit, perform the following steps in the `/apps
 
    ![chlimage_1-203](assets/chlimage_1-203.png)
 
-1. Refresh the browser. The overlay node `/jcr_root/apps/dam/gui/content/assets/jcr:content/actions/secondary/create/items/fileupload` is selected.
-1. In the **[!UICONTROL Properties]** tab, enter the appropriate value in bytes to increase the size limit to the desired size. For example, enter the following value to increase the size limit to 30 GB:
-
-   `{sizeLimit : "32212254720"}`
+1. Refresh the browser. The overlay node `/apps/dam/gui/content/assets/jcr:content/actions/secondary/create/items/fileupload` is selected.
+1. In the **[!UICONTROL Properties]** tab, enter the appropriate value in bytes to increase the size limit to the desired size. For example, enter `32212254720` value to increase the size limit to 30 GB.
 
 1. From the toolbar, tap **[!UICONTROL Save All]**.
 1. In AEM, tap **[!UICONTROL Tools > Operations > Web Console]**.
@@ -84,7 +82,7 @@ After your video assets are published, they are available to you for including i
 
    To exit the annotation wizard, tap **[!UICONTROL Close]**.
 
-1. To jump to a specific point in the video, specify the time in seconds in the text field and click **[!UICONTROL Jump]**. For example, to skip the first 10 seconds of video, enter `20` in the text field.
+1. To jump to a specific point in the video, specify the time in seconds in the text field and click **[!UICONTROL Jump]**. For example, to skip the first 20 seconds of video, enter `20` in the text field.
 
    ![chlimage_1-205](assets/chlimage_1-205.png)
 

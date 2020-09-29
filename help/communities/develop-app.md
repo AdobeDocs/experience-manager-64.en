@@ -26,9 +26,10 @@ The first step is to add a resource super type property to the `/apps/an-scf-san
 Using CRXDE Lite:
 
 <!--Resolve steps below-->
-    * Name: `sling:resourceSuperType`
-    * Type: `String`
-    * Value: `foundation/components/page`
+
+* Name: `sling:resourceSuperType`
+* Type: `String`
+* Value: `foundation/components/page`
 
 1. Click the green **[!UICONTROL [+] Add]**
 1. Click **[!UICONTROL Save All]**
@@ -112,7 +113,7 @@ Using CRXDE Lite:
 
 **View the page in a browser in edit mode:**
 
-* Standard UI: [http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html]( http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.md)
+* Standard UI: [http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html](http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.md)
 
 You should not only see the heading **Community Play**, but also the UI for editing page content.
 

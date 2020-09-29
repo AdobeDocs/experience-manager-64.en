@@ -253,7 +253,7 @@ In the Assets user interface, you can search or filter assets based on certain r
 
 ### Create saved searches {#creating-saved-searches}
 
-Saved searches are created when you create a smart collection. Smart collections are automatically added to the **[!UICONTROL Saved Searches]** list. The Saved Searches query for the collection is saved in the `dam:query` property in crxde at the relative location `/content/dam/collections/`.
+Saved searches are created when you create a smart collection. Smart collections are automatically added to the **[!UICONTROL Saved Searches]** list. The Saved Searches query for the collection is saved in the `dam:query` property in crxde at the relative location `/content/dam/collections/`. There are no limits to the searches that you can save and on the saved searches displayed in the list.
 
 >[!NOTE]
 >

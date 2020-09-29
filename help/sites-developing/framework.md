@@ -222,13 +222,19 @@ The following is a description of the effects in the repository when moving or m
 
   A special value for the `cq:movedTo` property is `nirvana`: it is applied when the tag is deleted but cannot be removed from the repository because there are subtags with a `cq:movedTo` that must be kept.
 
-    >[!NOTE]The `cq:movedTo` property is only added to the moved or merged tag if either of these conditions are met: 
+    >[!NOTE]
+    >
+    >The `cq:movedTo` property is only added to the moved or merged tag if either of these conditions are met: 
+    >
     >1. Tag is used in content (meaning it has a reference) OR
     >1. Tag has children that have already been moved.
 
 * `cq:backlinks` keeps the references in the other direction, i.e. it keeps a list of all the tags that have been moved to or merged with tag B. This is mostly required to keep `cq:movedTo`properties up to date when tag B is moved/merged/deleted as well or when tag B is activated, in which case all its backlinks tags must be activated as well.
 
->[!NOTE]The `cq:backlinks` property is only added to the moved or merged tag if either of these conditions are met:
+>[!NOTE]
+>
+>The `cq:backlinks` property is only added to the moved or merged tag if either of these conditions are met:
+>
 >1. Tag is used in content (meaning it has a reference) OR 
 >1. Tag has children that have already been moved.
 
@@ -249,12 +255,15 @@ The following is a description of the effects in the repository when moving or m
 
 Experience Manager 6.4 onwards tags are stored under `/content/cq:tags`, which were earlier stored under `/etc/tags`. However, in scenarios where Adobe Experience Manager has been upgraded from previous version the tags are still present under the old location `/etc/tags`. In upgraded systems tags need to be migrated under `/content/cq:tags`.
 
-> [!NOTE]
-> In Page Properties of tags page, it is advised to use tag ID (for example `geometrixx-outdoors:activity/biking`) instead of hard coding the tag base path (for example, `/etc/tags/geometrixx-outdoors/activity/biking`).
-> To list tags, `com.day.cq.tagging.servlets.TagListServlet` can be used.
+>[!NOTE]
+>
+>In Page Properties of tags page, it is advised to use tag ID (for example `geometrixx-outdoors:activity/biking`) instead of hard coding the tag base path (for example, `/etc/tags/geometrixx-outdoors/activity/biking`).
+>
+>To list tags, `com.day.cq.tagging.servlets.TagListServlet` can be used.
 
-> [!NOTE]
-> It is advised to use tag manager API as resource.
+>[!NOTE]
+>
+>It is advised to use tag manager API as resource.
 
 **If Upgraded AEM instance supports TagManager API**
 
@@ -322,9 +331,9 @@ The script fetches all those tags that have `/etc/tags` in the value of `cq:move
 
 **If upgraded AEM instance runs on Claasic UI**
 
-> [!NOTE]
-> Classic UI is not zero downtime compliant and does not support new tag base path. If you want to use classic UI than `/etc/tags` needs to be created followed by `cq-tagging` component restart.
+>[!NOTE]
 >
+>Classic UI is not zero downtime compliant and does not support new tag base path. If you want to use classic UI than `/etc/tags` needs to be created followed by `cq-tagging` component restart.
 
 In case of upgraded AEM instances supported by TagManager API and running in Classic UI:
 

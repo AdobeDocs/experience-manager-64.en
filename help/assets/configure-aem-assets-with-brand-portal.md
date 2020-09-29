@@ -72,6 +72,11 @@ Perform the following steps in the listed sequence if you are configuring AEM As
 1. [Configure cloud service](#configure-the-cloud-service)
 1. [Test configuration](#test-integration)
 
+>[!NOTE]
+ >
+ >An AEM Assets author instance shall only be configured with one Brand Portal tenant.
+ >
+
 ### Create IMS configuration {#create-ims-configuration}
 
 IMS configuration authenticates your Brand Portal tenant with AEM Assets author instance. 
@@ -245,12 +250,9 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
 
    >[!NOTE]
-   >
-   >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
-
-   >[!NOTE]
-   >
-   >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
+    >
+    >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
+    >
 
 
 1. To verify the connection between AEM Assets author and Brand Portal, click **[!UICONTROL Test Connection]**.
@@ -261,15 +263,15 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
    ![](assets/test-integration5.png)
 
-   >[!NOTE]
-   >
-   >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
 
 1. Verify the test results on all four replication agents one-by-one.
 
    >[!NOTE]
-   >
-   >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
+    >
+    >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
+    >
+    >Ensure that all the four replication agents are configured to avoid timeout error. See [troubleshoot issues in parallel publishing to Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/publish/troubleshoot-parallel-publishing.html#connection-timeout).
+    >
 
 Brand Portal is successfully configured with your AEM Assets author instance. You can now:
 

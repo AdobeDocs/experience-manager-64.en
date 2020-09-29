@@ -1,6 +1,6 @@
 ---
 title: Reuse assets using MSM for Assets
-description: Use assets across multiple pages/folders that are derived from and linked to parent assets. The assets stay in sync with a master copy and with a few clicks, receive the updates from parent assets.
+description: Use assets across multiple pages/folders that are derived from and linked to parent assets. The assets stay in sync with a primary copy and with a few clicks, receive the updates from parent assets.
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 mini-toc-levels: 1
@@ -11,7 +11,7 @@ mini-toc-levels: 1
 Multi Site Manager (MSM) functionality in Adobe Experience Manager (AEM) enables users to reuse content that is authored once and reused across multiple web-locations. The same is available for digital assets as MSM for Assets functionality. Using MSM for Assets, you can:
 
 * Create assets once and then make copies of these assets to reuse in other areas of the site.
-* Keep multiple copies in synchronization and update the original master copy once to push the changes to the child copies.
+* Keep multiple copies in synchronization and update the original primary copy once to push the changes to the child copies.
 * Make local changes by temporarily or permanently suspending the linking between parent and child assets.
 
 ## Prerequisites {#msm-prerequisites}
@@ -23,7 +23,7 @@ To use MSM for Assets, install at least Service Pack 5. For more information, se
 
 ### How it works and the benefits {#how-it-works-the-benefits}
 
-To understand the usage scenarios for reusing same content (text and assets) across multiple web-locations, see [possible MSM scenarios](/help/sites-administering/msm.md#possible-scenarios). AEM maintains a link between the original asset and its linked copies, called as live copies (LCs). The maintained linking allows centralized changes to be pushed to many live copies. This allows for faster updates while doing away with the limitations of managing duplicate copies. The propagation of changes is error-free and centralized. The functionality allows room for updates that are limited to selected live copies. Users can detach the linking, that is break inheritance, and make local edits that are not overwritten when next time the master copy is updated and changes are rolled out. The detaching can be done for a few select metadata fields or for an entire asset. It allows for flexibility to locally update assets that are originally inherited from a master copy.
+To understand the usage scenarios for reusing same content (text and assets) across multiple web-locations, see [possible MSM scenarios](/help/sites-administering/msm.md#possible-scenarios). AEM maintains a link between the original asset and its linked copies, called as live copies (LCs). The maintained linking allows centralized changes to be pushed to many live copies. This allows for faster updates while doing away with the limitations of managing duplicate copies. The propagation of changes is error-free and centralized. The functionality allows room for updates that are limited to selected live copies. Users can detach the linking, that is break inheritance, and make local edits that are not overwritten when next time the primary copy is updated and changes are rolled out. The detaching can be done for a few select metadata fields or for an entire asset. It allows for flexibility to locally update assets that are originally inherited from a primary copy.
 
 MSM maintains a live relationship between the source asset and its live copies so that:
 
@@ -33,7 +33,7 @@ MSM maintains a live relationship between the source asset and its live copies s
 
 ### Glossary of MSM for Assets terms {#glossary-msm-for-assets}
 
-* **Source:** The original assets or folders. Master copy from which live copies are derived.
+* **Source:** The original assets or folders. Primary copy from which live copies are derived.
 
 * **Live copy:** The copy of the source assets/folders that is in synchronization with its source. Live copies can be a source of further live copies. See [how to create LCs](#create-live-copy-asset).
 
@@ -246,9 +246,9 @@ AEM allows you to extend the functionality using the MSM Java APIs. For Assets, 
 
 >[!NOTE]
 >
-> * Blueprint in MSM for Site is called Live Copy source in MSM for Assets.
-> * Removing the chapters step in the create site wizard is not supported in MSM for Assets.
-> * Configuring MSM locks on page properties (Touch-enabled UI) is not supported in MSM for Assets.
+>* Blueprint in MSM for Site is called Live Copy source in MSM for Assets.
+>* Removing the chapters step in the create site wizard is not supported in MSM for Assets.
+>* Configuring MSM locks on page properties (Touch-enabled UI) is not supported in MSM for Assets.
 
 ## Impact of asset management tasks on live copies {#impact-of-asset-management-tasks-on-live-copies}
 

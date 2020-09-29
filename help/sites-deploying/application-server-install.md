@@ -192,7 +192,8 @@ Before a deployment read the [General Description](#general-description) above.
     * Tomcat enables neither admin nor manager access at installation. Therefore you have to manually edit `tomcat-users.xml` to allow access for these accounts:
 
         * Edit `tomcat-users.xml` to include access for admin and manager. The configuration should look similar to the following example:
-        * ```        
+
+        ```xml        
           <?xml version='1.0' encoding='utf-8'?>
            <tomcat-users>
            <role rolename="manager"/>
@@ -205,7 +206,7 @@ Before a deployment read the [General Description](#general-description) above.
            <user username="admin" password="admin" roles="admin,manager-gui"/>
            <user username="role1" password="tomcat" roles="role1"/>
            </tomcat-users>
-          ```
+        ```
 
     * If you like to deploy AEM with context root "/" then you have to change context root of the existing ROOT webapp:
 
@@ -219,14 +220,14 @@ Before a deployment read the [General Description](#general-description) above.
     
       and increase the max-file-size and max-request-size to at least 500MB, see the following `multipart-config` example of such a a `web.xml` file:
         
-        ```        
-          <multipart-config>
-           <!-- 500MB max -->
-           <max-file-size>524288000</max-file-size>
-           <max-request-size>524288000</max-request-size>
-           <file-size-threshold>0</file-size-threshold>
-           </multipart-config>
-        ```
+      ```        
+      <multipart-config>
+       <!-- 500MB max -->
+       <max-file-size>524288000</max-file-size>
+       <max-request-size>524288000</max-request-size>
+       <file-size-threshold>0</file-size-threshold>
+       </multipart-config>
+      ```
 
 * **Deploy AEM web application**
 

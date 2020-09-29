@@ -37,7 +37,7 @@ Because when using the page diff mechanism, AEM recreates the previous version o
 
 >[!CAUTION]
 >
->In order to use the page diff feature, the user needs to have the** Modify/Create/Delete** permission on the node `/content/versionhistory`.
+>In order to use the page diff feature, the user needs to have the **Modify/Create/Delete** permission on the node `/content/versionhistory`.
 
 ### As of AEM 6.4.3 {#as-of-aem}
 

@@ -122,7 +122,7 @@ Now that you have identified the process instance IDs associated with a user, do
 
 1. Create an instance of the public `ProcessManager` client ( `com.adobe.idp.workflow.client.ProcessManager`) using a `ServiceClientFactory` instance with the correct connection settings.
 
-   For more information, see Java API reference for [Class ProcessManager](https://helpx.adobe.com/experience-manager/6-3/forms/ProgramLC/javadoc/com/adobe/idp/workflow/client/ProcessManager.html).
+   For more information, see Java API reference for [Class ProcessManager](https://helpx.adobe.com/experience-manager/6-4/forms/ProgramLC/javadoc/com/adobe/idp/workflow/client/ProcessManager.html).
 
 1. Check the status of the workflow instance. If the status is other than 2 (COMPLETE) or 4 (TERMINATED), terminate the instance first by calling the following method:
 

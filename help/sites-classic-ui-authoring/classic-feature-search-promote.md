@@ -88,7 +88,7 @@ You can configure the following component properties in [!UICONTROL Edit] mode t
 
 You can enable users to filter search results by facets. The **[!UICONTROL Checkbox List Facet]**, **[!UICONTROL Dropdown Facet]**, and **[!UICONTROL Link List Facet]** components enable users to select one or more facets for filtering. When using these components, you should also include the **[!UICONTROL Breadcrumbs]** component. Breadcrumbs indicate the current filters that are used.
 
-The **[!UICONTROL Checkbox List Facet**, **[!UICONTROL Dropdown Facet]**, and **[!UICONTROL Link List Facet]** components each have the following properties that you configure in **[!UICONTROL Edit]** mode:
+The **[!UICONTROL Checkbox List Facet]**, **[!UICONTROL Dropdown Facet]**, and **[!UICONTROL Link List Facet]** components each have the following properties that you configure in **[!UICONTROL Edit]** mode:
 
 * **[!UICONTROL Facet Name]** &ndash; The name of the facet that is used for filters.
 

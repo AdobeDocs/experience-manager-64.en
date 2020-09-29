@@ -8,6 +8,10 @@ contentOwner: AG
 
 This article describes how to define cascading metadata for assets.
 
+>[!CAUTION]
+>
+>Cascading metadata is not supported for Content Fragments.
+
 When capturing the metadata information of an asset, users provide information in the various available fields. You can display specific metadata fields or field values that are dependent on the options selected in the other fields. Such conditional display of metadata is called cascading metadata. In other words, you can create a dependency between a particular metadata field/value and one or more fields and/or their values.
 
 Use metadata schemas to define rules for displaying cascading metadata. For example, if your metadata schema includes an asset type field, you can define a pertinent set of fields to be displayed based on the type of asset a user selects.
