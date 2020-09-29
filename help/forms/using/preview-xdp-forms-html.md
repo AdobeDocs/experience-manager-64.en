@@ -23,9 +23,9 @@ To enable Designer to generate HTML preview of XDP forms, perform the following 
 
 ### Configure Apache Sling Authentication Service {#configure-apache-sling-authentication-service}
 
-1. Go to https://[*server*]:[*port*]/system/console/configMgr on AEM Forms running on OSGi or  
+1. Go to `https://[server]:[port]/system/console/configMgr` on AEM Forms running on OSGi or  
 
-   https://[*server*]:[*port*]/lc/system/console/configMgr on AEM Forms running on JEE.
+   `https://[server]:[port]/lc/system/console/configMgr` on AEM Forms running on JEE.
 
 1. Locate and click **Apache Sling Authentication Service** configuration to open it in edit mode.  
 
@@ -54,8 +54,8 @@ The [protected mode](/help/forms/using/get-xdp-pdf-documents-aem.md) is on, by d
 
 1. Log in to AEM Web Console as an administrator.
 
-    * URL for AEM Forms on OSGi is https://[server]:[port]/system/console/configMgr 
-    * URL for AEM Forms on JEE is https://[*server*]:[*port*]/lc/system/console/configMgr
+    * URL for AEM Forms on OSGi is `https://[server]:[port]/system/console/configMgr`
+    * URL for AEM Forms on JEE is `https://[server]:[port]/lc/system/console/configMgr`
 
 1. Open **[!UICONTROL Mobile Forms Configurations]** for editing.
 1. Deselect the **[!UICONTROL Protected Mode]** option and click **[!UICONTROL Save]**.
@@ -103,7 +103,7 @@ Testing your form by using a sample data source ensures that the data and fields
 
 1. Select **File &gt; Form Properties**.  
 
-1. Click the **Preview **tab and, in the Data File box, type the full path to your test data file. You can also use the Browse button to navigate to the file.  
+1. Click the **Preview** tab and, in the Data File box, type the full path to your test data file. You can also use the Browse button to navigate to the file.  
 
 1. Click **OK**. The next time you preview the form in the **Preview HTML** tab, the data values from the sample XML file will appear in the respective objects.
 

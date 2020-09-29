@@ -5,9 +5,8 @@ description: Learn to create your first Interactive Communication.
 seo-description: Learn to create your first Interactive Communication.
 uuid: ed5003c6-ba3a-4fcb-8645-c7b607b22fb5
 contentOwner: anujkapo
-topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: interactive-communications
+topic-tags: interactive-communications, introduction
 discoiquuid: 954da8da-a30b-477d-bde7-3edd86a5be11
 ---
 
@@ -15,7 +14,7 @@ discoiquuid: 954da8da-a30b-477d-bde7-3edd86a5be11
 
 Learn to create your first Interactive Communication.
 
- ![01-create-first-adaptive-form-hero-image](assets/01-create-first-adaptive-form-hero-image.png)
+![01-create-first-adaptive-form-hero-image](assets/01-create-first-adaptive-form-hero-image.png)
 
 Interactive Communications centralizes and manages the creation, assembly, and delivery of secure, personalized, and interactive correspondences such as business correspondence, documents, statements, marketing mails, bills, and welcome kits. Interactive Communications can be delivered using two channels: Print and Web. The Print channel is used to create PDFs and paper communications, while the Web channel is used to deliver online experiences.
 
@@ -83,7 +82,7 @@ A form data model allows you to connect an Interactive Communication to disparat
 * Edit sample data
 * Test form data model and configured services with test data
 
-    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/create-form-data-model0.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](create-form-data-model-tutorial.md)
 
 ## Step 3: Create document fragments {#step-create-document-fragments}
 
@@ -134,7 +133,7 @@ Interactive Communications can be delivered through two channels: Print and Web.
 * Create a chart in Web version of Interactive Communication
 * Create hyperlinks in Web version of Interactive Communication
 
-    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](/help/forms/using/create-interactive-communication0.md)
+    [ ![see-the-guide-sm](assets/see-the-guide-sm.png)](create-interactive-communication-tutorial.md)
 
 ## Step 6: Test your Interactive Communication {#step-test-your-interactive-communication}
 

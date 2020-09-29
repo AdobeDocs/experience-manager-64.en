@@ -3,6 +3,8 @@ cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Deploying Guide
+breadcrumb-title: Deploying Guide
+user-guide-description: Learn more about installing, deploying, and the architecture of Adobe Experience Manager 6.4, including our Adobe Managed Services cloud deployment.
 ---
 
 # AEM 6.4 Deploying User Guide {#deploying}
@@ -60,6 +62,7 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Assessing the Upgrade Complexity with the Pattern Detector](pattern-detector.md)
     + [Backward Compatibility in AEM 6.4](backward-compatibility.md)
     + [Upgrade Procedure](upgrade-procedure.md)
+    + [Using Offline Reindexing To Reduce Downtime During an Upgrade](upgrade-offline-reindexing.md)
     + [Performing an In-Place Upgrade](in-place-upgrade.md)
     + [Lazy Content Migration](lazy-content-migration.md)
     + [Using the CRX2Oak Migration Tool](using-crx2oak.md)
@@ -108,7 +111,5 @@ To be removed:
 /help/sites-deploying/consistency-check.md
 
 Redirects:
-[(Redirect)Glossary](screens-glossary.md) to /help/screens/aem-screens-introduction.md
-[(Redirect)What is AEM Screens?](aem-screens-introduction.md) redirect to /help/screens/aem-screens-introduction.md
 [(Enabling HTTP Over SSL)](config-ssl.md) redirect to /content/help/en/experience-manager/6-4/sites-administering/ssl-by-default
 -->

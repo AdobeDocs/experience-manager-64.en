@@ -43,11 +43,11 @@ The Long Running Processes report displays the AEM Forms processes that have tak
 
 1. Click **Go** to execute the report.
 
-   The report displays in the **Report **panel on the right of the **Process Reporting** window.
+   The report displays in the **Report** panel on the right of the **Process Reporting** window.
 
    ![long_running_processes](assets/long_running_processes.png)
 
-   Use the options in the upper right corner of the **Report **panel to perform the following operations on the report.
+   Use the options in the upper right corner of the **Report** panel to perform the following operations on the report.
 
     * **Refresh**: Refreshes the report with latest data lying in the storage
     * **Change legend color**: Select and change the color of the report legend

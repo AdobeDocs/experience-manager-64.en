@@ -37,7 +37,7 @@ The "UberJar" is the informal name given to a special Java Archive (JAR) file pr
 
 In the past, developers had to manage a relatively large number of individual dependencies to different AEM libraries and when each new API was used, one or more individual dependencies had to be added to the project. On one project, the introduction of the UberJar resulted in 30 separate dependencies being removed from the project.
 
-### How to I use the UberJar? {#how-to-i-use-the-uberjar}
+### How do I use the UberJar? {#how-do-i-use-the-uberjar}
 
 If you are using Apache Maven as a build system (which is the case for most AEM Java projects), you will need to add one or two elements to your *pom.xml* file. The first is a *dependency* element adding the actual dependency to your project:
 
@@ -354,10 +354,6 @@ To add to the paths, add more `<filter>` elements:
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/myproject"/>
-    <filter root="/etc/msm/rolloutconfigs/myrolloutconfig"/>
-    <filter root="/etc/blueprints/mysite/globalsite"/>
-    <filter root="/etc/workflow/models/myproject"/>
-    <filter root="/etc/designs/myproject"/>
     <filter root="/content/myproject/sample-content"/>
 </workspaceFilter>
 ```
@@ -546,15 +542,16 @@ To achieve deletion of the classes compiled from the JSPs, we set up the Maven C
 >Depending on whether you actually make use of JSP code in `/libs` (i.e. include JSPs from there), you will need to refine which JSPs are copied for compilation.
 >
 >E.g. if you include `/libs/foundation/global.jsp`, you can use the following configuration for the `maven-resources-plugin` instead of the configuration above which completely skips over `/libs`.
+>
 >```
-> <resource>  
->      <directory>src/main/content/jcr_root</directory>  
->      <includes>  
->          <include>apps/**</include>  
->          <include>libs/foundation/global.jsp</include>
->    </includes>  
->  </resource>  
->  ```
+><resource>
+>    <directory>src/main/content/jcr_root</directory>
+>    <includes>
+>        <include>apps/**</include>
+>        <include>libs/foundation/global.jsp</include>
+>    </includes>
+></resource>
+>```
 
 ### How-To Work with SCM Systems {#how-to-work-with-scm-systems}
 

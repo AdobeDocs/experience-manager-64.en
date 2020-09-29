@@ -31,17 +31,16 @@ You can embed an adaptive form by inserting a few lines of JavaScript in the web
 
 1. Embed the following code to a webpage on your website: 
 
-   ```
-  <!doctype html>
-<html>
-  <head>
+   ```html
+   <!doctype html>
+   <html>
+   <head>
     <title>This is the title of the webpage!</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  </head>
-  <body>
-  <div class="customafsection"/>
-    <p>This section is replaced with the adaptive form.</p>
- 
+   </head>
+   <body>
+   <div class="customafsection"/>
+   <p>This section is replaced with the adaptive form.</p>
      
     <script>
     var options = {path:"/content/forms/af/locbasic.html", dataRef:"", themepath:"", CSS_Selector:".customafsection"};
@@ -87,8 +86,8 @@ You can embed an adaptive form by inserting a few lines of JavaScript in the web
     }(options);
      
     </script>
-  </body>
-</html>
+   </body>
+   </html>
    ```
 
 1. In the embedded code:
@@ -127,7 +126,7 @@ Let's look at an example how you can set up an Apache 2.4 reverse proxy server w
     ProxyPassReverse /forms https://[AEM_Instance]/forms
    ```
 
-   Replace `[AEM_Instance`] with the AEM server publish URL in the rules.
+   Replace `[AEM_Instance]` with the AEM server publish URL in the rules.
 
 If you do not mount the AEM server on a context path, the proxy rules at Apache layer will be as follows:
 
@@ -146,7 +145,7 @@ ProxyPassReverse /content https://<AEM_Instance>/content
 
 >[!NOTE]
 >
->If you set up any other topology, ensure that you whitelist the submit, prefill, and other URLs at the dispatcher layer.
+>If you set up any other topology, ensure that you add the submit, prefill, and other URLs to the allowlist at the dispatcher layer.
 
 ## Best practices {#best-practices}
 
@@ -154,8 +153,8 @@ When embedding an adaptive form in a web page, consider the following best pract
 
 * Ensure that the styling rules defined in the web page CSS do not conflict with the form object CSS. To avoid the conflicts, you can reuse the web page CSS in the adaptive form theme using AEM client library. For information about using client library in adaptive form themes, see [Themes in AEM Forms](/help/forms/using/themes.md).
 * Make the form container in the web page use the entire window width. It ensures that the CSS rules configured for mobile devices work without any changes. If the form container does not take the entire window width, you need to write custom CSS to make the form adapt to different mobile devices. 
-* Use ` [getData](https://helpx.adobe.com/experience-manager/6-3/forms/javascript-api/GuideBridge.html)` API to get the XML or JSON representation of form data in client. 
-* Use ` [unloadAdaptiveForm](https://helpx.adobe.com/experience-manager/6-3/forms/javascript-api/GuideBridge.html)` API to unload the adaptive form from HTML DOM.
+* Use  [getData](https://helpx.adobe.com/experience-manager/6-4/forms/javascript-api/GuideBridge.html) API to get the XML or JSON representation of form data in client. 
+* Use [unloadAdaptiveForm](https://helpx.adobe.com/experience-manager/6-4/forms/javascript-api/GuideBridge.html) API to unload the adaptive form from HTML DOM.
 * Set up the access-control-origin header when sending response from AEM server.
 
 ## Enable AEM Forms to serve adaptive forms to a cross domain site  {#cross-domain-sites}

@@ -47,3 +47,11 @@ You can add your own namespaces within AEM. Just as there are predefined namespa
 
 1. To add a namespace, click or tap **[!UICONTROL New]** at the bottom.
 1. Specify a custom namespace in the XML namespace convention (Specify the id in the form of a URI and an associated prefix for the id), and click or tap **[!UICONTROL Save]**.
+
+## Tips and limitations {#best-practices-limitations}
+
+* The metadata updates via Touch-UI changes the metadata properties in the `dc` namespace. Any updates made via the HTTP API changes the metadata properties in the `jcr` namespace. See [how to update metadata using HTTP API](/help/assets/mac-api-assets.md#update-asset-metadata).
+
+>[!MORELIKETHIS]
+>
+>* [About metadata and its need in Assets](metadata.md)

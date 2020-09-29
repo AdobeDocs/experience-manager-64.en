@@ -90,7 +90,9 @@ These settings appear only if you have upgraded from Adobe LiveCycle ES 2.5 or e
 
 You may need to change the UDP values for the multicast IP address (mcast_addr), the multicast IP port (mcast_port), and the TTL for the multicast packets (ip_ttl). By default, the multicast IP address and port values are randomly generated and, generally, the values do not need to be changed. However, if your company has any network policies regarding specific multicast ranges for multicast IP addresses, you may need to change the values.
 
-***Note**: The TTL must be greater than the number of network switches between the servers in the cluster; however, if the value is set too high, it can cause multicast packets to travel into subnets, where they will be discarded.*
+>[!NOTE]
+>
+>The TTL must be greater than the number of network switches between the servers in the cluster; however, if the value is set too high, it can cause multicast packets to travel into subnets, where they will be discarded.
 
 The remaining properties in this setting should not be changed.
 
@@ -124,4 +126,6 @@ To define the custom name:
 
 `<client_systemContext_name>[custom name to display]</client_systemContext_name>`
 
-**Note**: *For the Demo application, the default display name is **Citizen**. For a custom application that you create, the default display name is **System Context Account**.*
+>[!NOTE]
+>
+>For the Demo application, the default display name is **Citizen**. For a custom application that you create, the default display name is **System Context Account**.

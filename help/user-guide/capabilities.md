@@ -31,7 +31,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 
 ## AEM Screens {#aem-screens}
 
-[Learn about the digital signage solution to publish dynamic and interactive experiences.](/help/screens/home.md)
+[Learn about the digital signage solution to publish dynamic and interactive experiences.](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html)
 
 ## AEM Communities {#aem-communities}
 
@@ -39,7 +39,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 
 ## AEM Livefyre {#aem-livefyre}
 
-[Share user-generated content with AEM Livefyre.](https://marketing.adobe.com/resources/help/en_US/livefyre/home.html)
+[Share user-generated content with AEM Livefyre.](https://docs.adobe.com/content/help/en/livefyre/using/home.html)
 
 ## AEM Mobile {#aem-mobile}
 

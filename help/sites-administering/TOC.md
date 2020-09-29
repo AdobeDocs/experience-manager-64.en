@@ -3,6 +3,8 @@ cloud: experience-cloud
 product: adobe experience manager
 audience: admin-user
 user-guide-title: AEM 6.4 Administering User Guide
+breadcrumb-title: Administering Guide
+user-guide-description: Learn about administering AEM.
 ---
 
 # AEM 6.4 Administering User Guide {#administering}
@@ -142,7 +144,6 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Integrating with Adobe Search&Promote](search-and-promote.md)
     + [Solutions Integration](integration.md)
     + [Target Integration with Experience Fragments](experience-fragments-target.md)
-    + [Best Practices for Email Templates](best-practices-for-email-templates.md)
 + Best Practices {#bestpractices}
     + [Best Practices](administer-best-practices.md)
     + [Translation Best Practices](tc-bp.md)

@@ -43,8 +43,8 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 
    See [Viewing 3D assets](/help/sites-classic-ui-authoring/classicui-view-3d-assets.md).
 
-1. From **Adobe Experience Manager**, on the **[!UICONTROL Navigation]** page, tap **[!UICONTROL Assets**.
-1. Near the upper-right corner of the page, from the **[!UICONTROL View** drop-down list, tap **[!UICONTROL Card View]**.
+1. From **Adobe Experience Manager**, on the **[!UICONTROL Navigation]** page, tap **[!UICONTROL Assets]**.
+1. Near the upper-right corner of the page, from the **[!UICONTROL View]** drop-down list, tap **[!UICONTROL Card View]**.
 1. Navigate to a 3D object that you want to render.
 
 1. Tap the card of the 3D object to open it in the asset details page.

@@ -3,6 +3,8 @@ cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Developing User Guide
+breadcrumb-title: Developing Guide
+user-guide-description: This guide covers how to build out your AEM instance.
 ---
 
 # AEM 6.4 Developing User Guide {#developing}
@@ -106,7 +108,7 @@ user-guide-title: AEM 6.4 Developing User Guide
         + [SPA Model Routing](spa-routing.md)
         + [SPA and Adobe Experience Platform Launch Integration](spa-launch.md)
         + [SPA and Server-Side Rendering](spa-ssr.md)
-        + [SPA Javascript API References](spa-reference-materials.md)
+        + [SPA Reference Materials](spa-reference-materials.md)
     + [HTTP API](/help/assets/mac-api-assets.md)
     + [Content Fragments](/help/assets/content-fragments.md)
     + [Experience Fragments](/help/sites-authoring/experience-fragments.md)

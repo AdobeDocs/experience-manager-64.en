@@ -26,7 +26,7 @@ To view and edit the properties page for an asset, follow these steps:
 
 ## Metadata Schema Forms {#default-metadata-schema-forms}
 
-To view a list of forms/templates, in [!DNL Experience Manager] interface navigate to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Metadata Schemas]**. 
+To view a list of forms/templates, in [!DNL Experience Manager] interface navigate to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Metadata Schemas]**.
 
 [!DNL Experience Manager] provides the following Metadata Schema Form templates:
 
@@ -34,12 +34,13 @@ To view a list of forms/templates, in [!DNL Experience Manager] interface naviga
 |---|---|---|
 | [!UICONTROL default] | | The base metadata schema form for assets. |
 | | The following child forms inherit the properties of the [!UICONTROL default] form: | |
+| |<ul><li> [!UICONTROL dm_video]</li></ul> | Schema form for Dynamic Media videos. |
 | |<ul><li> [!UICONTROL image]</li></ul> | Schema form for assets with the MIME type "image", for example,  image/jpeg,  image/png, and so on. <br> The [!UICONTROL image] form has the following child form templates: <ul><li> [!UICONTROL jpeg]: Schema form for assets with sub type [!UICONTROL jpeg].</li> <li>[!UICONTROL tiff]: Schema form for the assets with sub type [!UICONTROL tiff].</li></ul> |
 | | <ul><li> [!UICONTROL application]</li></ul> | Schema form for assets with MIME type "application", for example  application/ pdf,  application/ zip, and so on. <br>[!UICONTROL pdf]: Schema form for assets with sub type pdf. |
 | | <ul><li>[!UICONTROL video]</li></ul> | Schema form for assets with MIME type "video", such as video/avi, video/mp4 and so on. |
 | [!UICONTROL collection] | | Schema form for collections. |
 | [!UICONTROL contentfragment] | | Schema form for content fragments. |
-| [!UICONTROL forms] | | This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md). |
+| [!UICONTROL forms] | | This schema form relates to [Adobe Experience Manager Forms](/help/forms/home.md).|
 
 >[!NOTE]
 >
@@ -284,6 +285,6 @@ This configuration adds a property `hasValidMetadata` to jcr:content of assets. 
 >
 >If an asset is added after the scheduled check, the asset is not flagged with `hasValidMetadata` until  the next scheduled check. The assets do not appear in intermediate search results.
 
->[!Caution]
+>[!CAUTION]
 >
 >The metadata validation checks are resource intensive and may impact the performance of your system. Schedule the checks accordingly. If the AEM deployment has performance issues, try disabling this job.

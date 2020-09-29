@@ -40,7 +40,7 @@ Some of the AEM Assets components require JS functions defined in `component.js`
 <script type="text/javascript" src="<%= component.getPath() %>/component.js"></script>
 ```
 
-The sample loads this javascript source in `head.jsp`(`/apps/geometrixx/components/asseteditor/head.jsp`).
+The sample loads this JavaScript source in `head.jsp`(`/apps/geometrixx/components/asseteditor/head.jsp`).
 
 ### Additional Style Sheets {#additional-style-sheets}
 
@@ -134,22 +134,22 @@ This example describes how to build a component that shows and displays the meta
 
    ```javascript
    <%--
-   
+
      Sample metadata field component
-   
+
    --%><%@ page import="com.day.cq.dam.api.Asset,
                     java.security.AccessControlException" %><%
    %><%@include file="/libs/foundation/global.jsp"%><%
-   
+
        String value = "";
        String name = "dam:sampleMetadata";
        boolean readOnly = false;
-   
+
        // If the form page is requested for an asset loadResource will be the asset.
        Resource loadResource = (Resource) request.getAttribute("cq.form.loadresource");
-   
+
        if (loadResource != null) {
-   
+
            // Determine if the loaded asset is read only.
            Session session = slingRequest.getResourceResolver().adaptTo(Session.class);
            try {
@@ -161,7 +161,7 @@ This example describes how to build a component that shows and displays the meta
                readOnly = true;
            }
            catch (RepositoryException re) {}
-   
+
            // Get the value of the metadata.
            Asset asset = loadResource.adaptTo(Asset.class);
            try {

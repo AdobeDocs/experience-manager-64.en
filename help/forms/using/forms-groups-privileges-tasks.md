@@ -26,7 +26,7 @@ Once you install [AEM Forms add-on package](/help/forms/using/installing-configu
    <td>Tasks</td> 
   </tr>
   <tr>
-   <td>forms-user <sup><a href="#main-pars-text">[1]</a></sup></td> 
+   <td>forms-user <sup>[1]</sup></td> 
    <td>
     <ul> 
      <li>Create, preview, publish, and submit adaptive forms</li> 
@@ -56,18 +56,10 @@ Once you install [AEM Forms add-on package](/help/forms/using/installing-configu
     </ul> </td> 
   </tr>
   <tr>
-   <td>template-authors <sup><a href="#main-pars-text">[2]</a></sup></td> 
+   <td>template-authors <sup>[2]</sup></td> 
    <td>
     <ul> 
      <li>Create and preview adaptive forms or interactive communications templates</li> 
-    </ul> </td> 
-  </tr>
-  <tr>
-   <td>template-power-user</td> 
-   <td>
-    <ul> 
-     <li>Create and preview adaptive forms or interactive communications templates</li> 
-     <li>Create scripts for adaptive forms or interactive communications templates using code editor</li> 
     </ul> </td> 
   </tr>
   <tr>

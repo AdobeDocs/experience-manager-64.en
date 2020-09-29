@@ -18,7 +18,7 @@ The application and data files that must be backed up are described in more deta
 Consider the following points regarding backup and recovery:
 
 * The database should be backed up before GDS and AEM repository.
-* If you need to bring down the nodes in a clustered clustered environment for backup, ensure that the slave nodes are shut down before the master node. Otherwise, it can lead to inconsistency in the cluster or server. Also, the master node should be made live before any slave node.
+* If you need to bring down the nodes in a clustered clustered environment for backup, ensure that the secondary nodes are shut down before the primary node. Otherwise, it can lead to inconsistency in the cluster or server. Also, the primary node should be made live before any secondary node.
 * For the restore operation of a cluster, application server should be stopped for each node in the cluster.
 
 ## Global Document Storage directory {#global-document-storage-directory}
@@ -98,8 +98,8 @@ Configure your DB2 database to run in archive log mode.
 
 IBM has a suite of tools and help systems to help database administrators manage their backup and recovery tasks:
 
-* IBM DB2 Archive Log Accelerator (See [IBM DB2 Archive Log Accelerator for z/OS User's Guide]( https://publib.boulder.ibm.com/infocenter/dzichelp/v2r2/topic/com.ibm.db2tools.alc.doc.ug/alcugb20.pdf?noframes=true).)
-* IBM DB2 Data Archive expert (See [IBM DB2 Data Archive Expert User's Guide and Reference]( https://publib.boulder.ibm.com/infocenter/mptoolic/v1r0/topic/com.ibm.db2tools.aeu.doc.ug/ahxugb13.pdf?noframes=true).)
+* IBM DB2 Archive Log Accelerator (See [IBM DB2 Archive Log Accelerator for z/OS User's Guide](https://publib.boulder.ibm.com/infocenter/dzichelp/v2r2/topic/com.ibm.db2tools.alc.doc.ug/alcugb20.pdf?noframes=true).)
+* IBM DB2 Data Archive expert (See [IBM DB2 Data Archive Expert User's Guide and Reference](https://publib.boulder.ibm.com/infocenter/mptoolic/v1r0/topic/com.ibm.db2tools.aeu.doc.ug/ahxugb13.pdf?noframes=true).)
 
 DB2 has built-in capabilities to back up a database to Tivoli Storage Manager. By using Tivoli Storage Manager, DB2 backups can be stored on other media or the local hard drive.
 
@@ -107,7 +107,7 @@ For more information about DB2 database backup and recovery, see [Developing a b
 
 ### Oracle {#oracle}
 
-Use snapshot backups or configure your Oracle database to run in archive log mode. (See [Oracle Backup: An Introduction]( https://www.databasedesign-resource.com/oracle-backup.md).) For more information about backing up and recovering your Oracle database, go to these sites:
+Use snapshot backups or configure your Oracle database to run in archive log mode. (See [Oracle Backup: An Introduction](https://www.databasedesign-resource.com/oracle-backup.md).) For more information about backing up and recovering your Oracle database, go to these sites:
 
 [Oracle Backup and Recovery:](https://www.oracle.com/technetwork/database/features/availability/br-overview-097160.html) Explains the concepts of backup and recovery and the most common techniques for using Recovery Manager (RMAN) for backup, recovery, and reporting in more detail, as well as providing more information about how to plan a backup and recovery strategy.
 
@@ -124,14 +124,16 @@ SQL Server also provides two backup and recovery tools:
 * SQL Server Management Studio (GUI)
 * T-SQL (command line)
 
-See [Backup Strategies]( https://articles.techrepublic.com.com/5100-1035_61-1043671.md)and [Backup and Restore](https://msdn.microsoft.com/en-us/library/ms187048(v=SQL.90).aspx).
+For more information, see [Backup and Restore](https://msdn.microsoft.com/en-us/library/ms187048(v=SQL.90).aspx).
 
 ### MySQL {#mysql}
 
-Use MySQLAdmin or modify the INI files in Windows to configure your MySQL database to run in binary log mode. (See [MySQL binary logging](https://dev.mysql.com/doc/refman/5.1/en/binary-log.html).) A hot backup tool for MySQL is also available from InnoBase software. (See [Innobase Hot Backup]( https://www.innodb.com/hot-backup/features.md).)
+Use MySQLAdmin or modify the INI files in Windows to configure your MySQL database to run in binary log mode. (See [MySQL binary logging](https://dev.mysql.com/doc/refman/5.1/en/binary-log.html).) A hot backup tool for MySQL is also available from InnoBase software. (See [Innobase Hot Backup](https://www.innodb.com/hot-backup/features.md).)
 
-**Note**: *The default binary logging mode for MySQL is "Statement", which is incompatible with tables used by Content Services (Deprecated). Using binary logging in this default mode causes Content Services (Deprecated) to fail. If your system includes Content Services (Deprecated), use "Mixed" logging mode. To enable "Mixed" logging, add the following argument to the my.ini file:*
-`binlog_format=mixed log-bin=logname`
+>[!NOTE]
+>
+>The default binary logging mode for MySQL is "Statement", which is incompatible with tables used by Content Services (Deprecated). Using binary logging in this default mode causes Content Services (Deprecated) to fail. If your system includes Content Services (Deprecated), use "Mixed" logging mode. To enable "Mixed" logging, add the following argument to the my.ini file:*
+`binlog_format=mixed log-bin=logname`.
 
 You can use the mysqldump utility to obtain the full database backup. Full backups are required, but they are not always convenient. They produce large backup files and take time to generate. To do an incremental backup, ensure that you start the server with the - `log-bin` option as described in the previous section. Each time the MySQL server restarts, it stops writing to the current binary log, creates a new one and, from then on, the new one becomes the current one. You can force a switch manually with the `FLUSH LOGS SQL` command. After the first full backup, subsequent incremental backups are done by using the mysqladmin utility with the `flush-logs` command, which creates the next log file.
 

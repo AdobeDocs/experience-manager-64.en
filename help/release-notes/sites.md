@@ -20,10 +20,10 @@ See the following for AEM Sites 6.4 enhancements in detail:
 ### Site Administration {#site-administration}
 
 * New Content Tree rail to quickly navigate a site hierarchy. In combination with the list view, this restores the Classic UI interaction model to browse a site.
-* Improved scrolling in card and list view of large folders. 
+* Improved scrolling in card and list view of large folders.
 * Improved interaction with the search results - the back button restores the prior search result.
 * Additional keyboard shortcuts, for most common actions, such as to open a particular rail, to edit, move and delete pages, or to open properties.
-* Ability to disable keyboard shortcuts (enable/disable in Preferences). 
+* Ability to disable keyboard shortcuts (enable/disable in Preferences).
 * Stop showing time stamps across all UI relative after 7 days (set default in Preferences).
 
 ### Page Editor {#page-editor}
@@ -38,14 +38,14 @@ See the following for AEM Sites 6.4 enhancements in detail:
 * Core Components 2.0.4+, see [Github for release notes](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/releases).
 * Style System
 
-    * Added an all-new concept to assign CSS classes to components and allow users in Page Editor to select from a subset of styles via UI
-    * Added ability to define the HTML element name rendered around the component e.g. &lt;main&gt;, &lt;aside&gt;
+  * Added an all-new concept to assign CSS classes to components and allow users in Page Editor to select from a subset of styles via UI
+  * Added ability to define the HTML element name rendered around the component e.g. &lt;main&gt;, &lt;aside&gt;
 
 * Grid System for Layout Container, see [Github](https://github.com/Adobe-Marketing-Cloud/aem-responsivegrid).
 * Template Editor and Policies
 
-    * Policies now support Style System configurations per component, per container, per template.
-    * Improved support for defining layout in templates on editable components
+  * Policies now support Style System configurations per component, per container, per template.
+  * Improved support for defining layout in templates on editable components
 
 * Reference Site We.Retail 3.0, see [Github for release notes](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/releases).
 
@@ -57,26 +57,26 @@ See the following for AEM Sites 6.4 enhancements in detail:
 
 * Introduced Structured Content Models as foundation for content fragments
 
-    * Model editor UI
-    * Pre-configured data elements for content fragment models (single-line text, multi-line text, number, boolean, date&time, enumeration, content reference, tags)
+  * Model editor UI
+  * Pre-configured data elements for content fragment models (single-line text, multi-line text, number, boolean, date&time, enumeration, content reference, tags)
 
 * Improved the usability of the AEM Content Fragment editor
 
-    * View-all-elements overview
-    * Full-screen editing for single elements
-    * Enhanced rich text editing capabilities (bulleted lists, numbered lists, indendentation, hyperlinks, tables, find&replace, spell check)
+  * View-all-elements overview
+  * Full-screen editing for single elements
+  * Enhanced rich text editing capabilities (bulleted lists, numbered lists, indendentation, hyperlinks, tables, find&replace, spell check)
 
 * Added enhanced output options for AEM Content Fragments
 
-    * New Content Fragment component, as part of Core Components. [See code on GitHub.](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)
-    * Content Services support with JSON output via Sling Model Exporter
+  * New Content Fragment component, as part of Core Components. [See code on GitHub.](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)
+  * Content Services support with JSON output via Sling Model Exporter
 
 ### Experience Fragments {#experience-fragments}
 
 * Introduced Experience Fragment Building Blocks, to facilitate re-using content between Experience Fragments variations by grouping components and by allowing easy reference within variations.
 * Added the ability to add Experience Fragments to translation projects via the reference rail
-* Addrf the ability to start workflows with Experience Fragments via the timeline rail
-* Reference rail now shows where an Experience Fragment is being used in AEM   
+* Added the ability to start workflows with Experience Fragments via the timeline rail
+* Reference rail now shows where an Experience Fragment is being used in AEM
 * Configuration of template locations now allows authors to define on a global or folder level what Experience Fragment templates are allowed to use
 * Faceted search now supports advanced filtering, such as published/non-published, exported to social media and Adobe Target
 * Added single social media login when exporting Experience Fragments to Pinterest or Facebook
@@ -86,15 +86,15 @@ See the following for AEM Sites 6.4 enhancements in detail:
 
 * Enhanced the usability of AEM Translation projects:
 
-    * Support for multiple target languages in one project
-    * Option to automatically promote and delete translation launches
-    * Option to schedule recurring execution of translation projects (daily, weekly, monthly, yearly)
-    * Enhanced translation project tiles with more detailed status information
+  * Support for multiple target languages in one project
+  * Option to automatically promote and delete translation launches
+  * Option to schedule recurring execution of translation projects (daily, weekly, monthly, yearly)
+  * Enhanced translation project tiles with more detailed status information
 
 * Introduced Reverse Translation Memory Update, to update translation memory in 3rd-party translation management system after local content edits in AEM
 * Translation workflows now support grouped language roots
 * Added ability to assign arbitrary names to language roots, and use JCR property for mapping to ISO code
-* Smart translation updates now recognize new pages that were added to a language master branch 
+* Smart translation updates now recognize new pages that were added to a language master branch
 * Introduced translation status reporting in Sites Admin list view
 
 ### Multi-Site Management (MSM) {#multi-site-management-msm}
@@ -134,6 +134,5 @@ See [Communities Release Notes page](/help/release-notes/communities-release-not
 * Channel assignments now have start and end date
 * Device Dashboard now shows player shell and firmware version
 * Device Dashboard list shows connection status of player
-* Added Google Chrome OS support for AEM Screens Player 
+* Added Google Chrome OS support for AEM Screens Player
 * Added Microsoft Windows 10 for AEM Screens Player
-

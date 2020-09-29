@@ -24,13 +24,13 @@ Currently, AEM 3D only supports 32-bit TIFFs. If necessary, use Adobe Photoshop 
 * **[!UICONTROL Bit depth]** - 32-bit (Float)
 * **[!UICONTROL Pixel Order]** - Interleaved (RGBRGB)
 * **[!UICONTROL Image Compression]** - LZW
-* **[!UICONTROL Byte Order** - IBM PC
+* **[!UICONTROL Byte Order]** - IBM PC
 
 While a single HDR image is often sufficient for IBL stages, AEM 3D provides additional control over IBL effects by allowing up to three separate images:
 
 * **Diffuse Lighting Environment Image** &ndash; This type of image should be an HDR image, but can be relatively small, as the image will be heavily filtered prior to using it for diffuse lighting.
 * **Reflection Environment Image** &ndash; This type of image is used to create reflections in object surfaces. It can be a standard 8-bit RGB image of a size and resolution that provides the desired quality and sharpness of reflections. If an HDR image is specified, AEM 3D converts it to 8-bit RGB prior to using a proprietary algorithm.
-* **Background Environment Image** &ndash; This type of image is used as a background. It can be a standard 8-bit RGB image and should have a size/resolution/level of detail desired for the stage background. If an HDR image is specified, AEM 3D converts it to 8-bit RGB using a proprietary algorithm. ``
+* **Background Environment Image** &ndash; This type of image is used as a background. It can be a standard 8-bit RGB image and should have a size/resolution/level of detail desired for the stage background. If an HDR image is specified, AEM 3D converts it to 8-bit RGB using a proprietary algorithm.
 
 >[!NOTE]
 >

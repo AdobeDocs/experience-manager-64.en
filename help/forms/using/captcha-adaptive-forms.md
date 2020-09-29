@@ -6,8 +6,7 @@ seo-description: Learn how to configure AEM CAPTCHA or Google reCAPTCHA service 
 uuid: 8bcb0dd7-b43c-4a36-8f6b-7875b68f9ba1
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: adaptive_forms
-topic-tags: author
+topic-tags: author, adaptive_forms
 discoiquuid: 32369b0b-5abf-487d-ae6b-972c254eb7e2
 ---
 
@@ -17,9 +16,10 @@ CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Ap
 
 AEM Forms supports CAPTCHA in adaptive forms. You can use reCAPTCHA service by Google to implement CAPTCHA.
 
->[!NOTE] {grayBox="true"}
+>[!NOTE]
 >
 >AEM Forms support only reCaptcha v2. Any other version is not supported.
+>
 >CAPTCHA in adaptive forms is not supported in offline mode on AEM Forms app.
 
 ## Configure ReCAPTCHA service by Google {#google-recaptcha}
