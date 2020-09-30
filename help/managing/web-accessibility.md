@@ -6,9 +6,8 @@ seo-description: Learn how to create accessible websites and content with AEM.
 uuid: b68281af-3e8a-4842-b762-1c59f9132795
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
-topic-tags: managing-accessibility
+topic-tags: managing-accessibility, introduction
 content-type: reference
-topic-tags: introduction
 discoiquuid: 13c7e0bd-54af-49f3-9743-075ce6f3314d
 ---
 

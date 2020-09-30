@@ -6,9 +6,8 @@ seo-description: Release notes specific to 3D content in Adobe Experience Manage
 uuid: 6675951f-86f0-4ec5-97e4-d247f6faf913
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
-topic-tags: release-notes
+topic-tags: release-notes, 3D
 content-type: reference
-topic-tags: 3D
 discoiquuid: 9789d031-fb7e-415a-a9c3-8b8fde978238
 ---
 
