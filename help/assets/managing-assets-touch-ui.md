@@ -472,7 +472,7 @@ To move assets or folders:
 1. Navigate to the location of the asset you want to move.
 
 1. Select the asset, and click **[!UICONTROL Move]** option from the toolbar.
-![Move option in Assets toolbar](assets/do-not-localize/move.png)
+![Move option in Assets toolbar](assets/do-not-localize/move_icon.png)
 
 1. In the [!UICONTROL Move Assets] wizard, do one of the following:
 
@@ -504,7 +504,7 @@ To move assets or folders:
 
    If you do not update references, they continue to point to the previous path of the asset. If you adjust the references, they are updated to the new asset path.
 
-#### Move assets using drag operation {#move-using-drag}
+### Move assets using drag operation {#move-using-drag}
 
 You can move assets (or folders) to a sibling folder, the [!UICONTROL Lightbox] collection, or another collection by dragging them to the target location, instead of using [!UICONTROL Move] option in the user interface. However, this operation is possible only in the list view.
 
