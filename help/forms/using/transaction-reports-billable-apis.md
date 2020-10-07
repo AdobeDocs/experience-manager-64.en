@@ -484,7 +484,7 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 
 ## Recording billable APIs as transactions for custom code {#recording-billable-apis-as-transactions-for-custom-code}
 
-Actions like submitting a PDF Form, using Agent UI to preview an interactive communication, using non-standard form submission, and custom implementations are not accounted as transactions. AEM Forms provides an API to record such actions as transactions. You can call the API from your custom implementations to [record a transaction](https://www.bdnsw.gov.bn/PublishingImages/page-under-construction.jpg).
+Actions like submitting a PDF Form, using Agent UI to preview an interactive communication, using non-standard form submission, and custom implementations are not accounted as transactions. AEM Forms provides an API to record such actions as transactions. You can call the API from your custom implementations to [record a transaction](record-transaction-custom-implementation.md).
 
 ## Related Articles {#related-articles}
 
