@@ -20,7 +20,7 @@ To see the various workflow models available by default, see [!UICONTROL Tools >
 
 ![Some of the default workflow](assets/aem-default-workflows.png)
 
-*Figure: Some of the default workflow available in [!DNL Experience Manager]*
+*Figure: Some of the default workflow available in [!DNL Experience Manager].*
 
 ## Apply workflows to assets {#applying-workflows-to-assets}
 
@@ -98,6 +98,7 @@ For a workflow model, users can create a workflow launcher that executes it. A w
 ## Best practices and limitations {#best-practices-limitations-tips}
 
 * Consider your needs for all types of renditions when designing workflows. If you do not foresee the need of a rendition in the future, remove its creation step from the workflow. Renditions cannot be deleted in bulk afterwards. Undesired renditions may take up a lot of storage space after prolonged use of [!DNL Experience Manager]. For individual assets, you can remove renditions manually from the user interface. For multiple assets, you can either customize [!DNL Experience Manager] to delete specific renditions or delete the assets and upload those again.
+* By default, [!UICONTROL DAM Update Asset] workflow includes some steps to create thumbnails and web renditions. If any default renditions are removed from the workflow, the user interface of [!DNL Assets] does not render properly.
 
 >[!MORELIKETHIS]
 >

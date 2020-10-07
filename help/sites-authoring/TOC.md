@@ -3,6 +3,8 @@ cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Authoring User Guide
+breadcrumb-title: Authoring Guide
+user-guide-description: Learn key concepts for creating content and authoring in AEM.
 ---
 
 # AEM 6.4 Authoring User Guide {#authoring}
@@ -47,7 +49,6 @@ user-guide-title: AEM 6.4 Authoring User Guide
     + [Scaffolding](scaffolding.md)
     + [Configuring Components in Design Mode](default-components-designmode.md)
     + [Foundation Components](default-components-foundation.md)
-    + [Scaffolding](scaffolding.md)
 + Projects {#projects}
     + [Projects](projects.md)
     + [Managing Projects](touch-ui-managing-projects.md)
@@ -79,7 +80,7 @@ user-guide-title: AEM 6.4 Authoring User Guide
     + [Managing Audiences](managing-audiences.md)
     + [Creating and Managing Offers](offerlib.md)
     + [Understanding Segmentation](segmentation-overview.md)
-+ AEM and Adobe Campaign {aem-adobe-campaign}
++ AEM and Adobe Campaign {#aem-adobe-campaign}
     + [Working with Adobe Campaign](adobe-campaign.md)
     + [Working with Adobe Campaign Classic and Adobe Campaign Standard](campaign.md)
     + [Targeting your Adobe Campaign](target-adobe-campaign.md)

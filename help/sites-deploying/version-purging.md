@@ -93,7 +93,7 @@ The following options are available:
 
 >[!NOTE]
 >
->It is not recommended to keep a large number of versions in the repository. So, when configuring the version purge operation be mindful not exclude too many versions from the purge otherwise the repository size will not be properly optimized. If you keep a large number versions due to a business requierment please contact Adobe support to find alternative ways of optimizing the repository size.
+>It is not recommended to keep a large number of versions in the repository. So, when configuring the version purge operation be mindful not exclude too many versions from the purge otherwise the repository size will not be properly optimized. If you keep a large number versions due to a business requirement please contact Adobe support to find alternative ways of optimizing the repository size.
 
 ### Combining Retention Options {#combining-retention-options}
 

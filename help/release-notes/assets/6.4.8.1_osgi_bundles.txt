@@ -1,0 +1,45 @@
+SYMBOLIC NAME                                  BUNDLE NAME                                            VERSION
+com.adobe.cq.cq-experience-fragments           AEM - Experience Fragments                             1.1.248
+com.adobe.cq.cq-experience-fragments-social    AEM - Experience Fragments Social                      1.1.46
+com.adobe.cq.social.cq-social-activitystreams  AEM Communities ActivityStreams - Bundle               1.5.29
+com.adobe.cq.social.cq-social-group            AEM Communities CommunityGroup - Bundle                1.6.44
+com.adobe.cq.social.cq-social-tally            AEM Communities Tally - Bundle                         1.5.8
+com.adobe.cq.dam.cq-dam-svg-handler            Adobe CQ Creative Cloud APIs - DAM SVG Asset Handler   0.3.6
+com.adobe.cq.cq-security-hc                    Adobe CQ Security Health Checks                        1.4.20
+com.day.cq.wcm.cq-wcm-translation              Adobe CQ Translation Workflow                          1.4.192
+com.day.cq.wcm.cq-wcm-foundation               Adobe CQ WCM Foundation Components                     5.11.58
+com.adobe.cq.wcm.cq-wcm-launches-core          Adobe Communique 5 WCM Launches Core                   5.12.16
+com.adobe.granite.crx-explorer                 Adobe Granite CRX Explorer                             1.1.12.CQ640-B0001
+com.adobe.granite.crx-packagemgr               Adobe Granite CRX Package Manager                      1.2.60.CQ640-B0007
+com.adobe.granite.crxde-lite                   Adobe Granite CRXDE Lite                               1.1.34.CQ640-B0006
+com.day.cq.cq-replication                      Adobe Granite Replication                              6.2.46.CQ640-B0016
+com.adobe.granite.timeline                     Adobe Granite Timeline Support                         1.0.20.CQ640-B0003
+com.day.crx.sling.crx-auth-token               Adobe Granite Token Authentication                     2.5.36.CQ640-B0002
+com.adobe.granite.ui.clientlibs.processor.gcc  Adobe Granite UI Clientlibs - Google Closure Compiler  1.0.8.CQ640-B0004
+com.day.cq.cq-xssprotection                    Adobe Granite XSS Protection                           5.7.4.CQ640-B0010
+org.apache.sling.engine                        Apache Sling Engine Implementation                     2.7.2
+com.adobe.cq.cq-product-info-provider          CQ ProductInfo Provider                                6.4.20
+com.day.cq.dam.cq-dam-core                     Day Communique 5 DAM Core Implementation               5.11.390
+com.day.cq.dam.cq-dam-scene7                   Day Communique 5 DAM Scene7 Integration                5.11.160
+com.day.cq.wcm.cq-wcm-api                      Day Communique 5 WCM API                               5.12.30
+com.day.cq.wcm.cq-wcm-core                     Day Communique 5 WCM Core Implementation               5.11.308
+com.day.cq.wcm.cq-msm-core                     Day Communique 5 WCM Multi Site Management Core        5.11.80
+com.day.cq.dam.cq-dam-s7dam                    Day Communique 5.6 DAM s7 Dam Integration              5.11.190
+org.apache.jackrabbit.oak-api                  Oak API                                                1.8.21
+org.apache.jackrabbit.oak-blob-plugins         Oak Blob Plugins                                       1.8.21
+org.apache.jackrabbit.oak-blob                 Oak Blob Store                                         1.8.21
+org.apache.jackrabbit.oak-authorization-cug    Oak CUG Authorization                                  1.8.21
+org.apache.jackrabbit.oak-commons              Oak Commons                                            1.8.21
+org.apache.jackrabbit.oak-store-composite      Oak Composite Store                                    1.8.21
+org.apache.jackrabbit.oak-core                 Oak Core                                               1.8.21
+org.apache.jackrabbit.oak-core-spi             Oak Core SPI                                           1.8.21
+org.apache.jackrabbit.oak-store-document       Oak DocumentNodeStore                                  1.8.21
+org.apache.jackrabbit.oak-auth-external        Oak External Authentication Support                    1.8.21
+org.apache.jackrabbit.oak-jcr                  Oak JCR Binding                                        1.8.21
+org.apache.jackrabbit.oak-auth-ldap            Oak LDAP Authentication Support                        1.8.21
+org.apache.jackrabbit.oak-lucene               Oak Lucene                                             1.8.21
+org.apache.jackrabbit.oak-store-spi            Oak NodeStore and Commit SPI                           1.8.21
+org.apache.jackrabbit.oak-query-spi            Oak Query SPI                                          1.8.21
+org.apache.jackrabbit.oak-security-spi         Oak Security SPI                                       1.8.21
+org.apache.jackrabbit.oak-segment-tar          Oak Segment Tar                                        1.8.21
+org.apache.jackrabbit.oak-solr-osgi            Oak Solr OSGi                                          1.8.21

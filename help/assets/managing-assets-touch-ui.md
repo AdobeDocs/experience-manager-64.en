@@ -62,7 +62,7 @@ Before uploading an asset, ensure that it is in a [supported format](assets-form
 
    The size above which an asset is considered a large asset is configurable. For example, you can configure the system to consider assets above 1000 MB (instead of 500 MB) as large assets. In this case, the **[!UICONTROL Pause]** button in the progress bar appears when assets of size greater than 1000 MB are uploaded.
 
-   The **[!UICONTROL Pause]]** button does not show if a file greater than 1000 MB is uploaded with a file less than 1000 MB. However, if you cancel the less than 1000 MB file upload, the **[!UICONTROL Pause]** button appears.
+   The **[!UICONTROL Pause]** button does not show if a file greater than 1000 MB is uploaded with a file less than 1000 MB. However, if you cancel the less than 1000 MB file upload, the **[!UICONTROL Pause]** button appears.
 
    To modify the size limit, configure the `chunkUploadMinFileSize` property of the `fileupload`node in the CRX repository.
 
@@ -136,7 +136,7 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 
 >[!NOTE]
 >
->To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
+>To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Customer Care to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
 If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**
@@ -186,7 +186,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
 
 When uploading image files, including AI, EPS, and PSD files, you can take the following editing actions in the **[!UICONTROL Upload Job Options]** dialog box:
 
-* Crop white space from the edge of images (see description in table above).  
+* Crop whitespace from the edge of images (see description in table above).  
 * Crop manually from the sides of images (see description in table above).
 * Choose a color profile (see option description in table above).
 * Create a mask from a clipping path.
@@ -282,7 +282,7 @@ You can transcode a video file by choosing from a variety of video presets.
 
 #### Set Batch Set Presets at upload {#setting-batch-set-presets-at-upload}
 
-If you want to automatically create an Image Set or Spin Set from uploaded images, click the **[!UICONTROL Active** column for the preset you want to use. You can select more than one preset.
+If you want to automatically create an Image Set or Spin Set from uploaded images, click the **[!UICONTROL Active]** column for the preset you want to use. You can select more than one preset.
 
 See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets) to learn more about creating batch set presets.
 
@@ -706,7 +706,7 @@ In the [Collections console](managing-collections-touch-ui.md#navigating-the-col
 **To use Timeline**:
 
 1. Open the asset page for an asset, or select it in the Assets UI.
-1. Tap the **[!UICONTROL Global Navigation]** icon, and choose **Timeline]** from the list.
+1. Tap the **[!UICONTROL Global Navigation]** icon, and choose **[Timeline]** from the list.
 
    ![timeline](assets/timeline.png)
 

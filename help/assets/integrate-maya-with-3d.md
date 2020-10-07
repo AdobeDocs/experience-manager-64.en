@@ -44,7 +44,7 @@ See also [Integrating AEM 3D with AutoDesk 3ds Max](integrating-aem-3d-with-auto
 
 1. Add the path to the Maya executable folder to the Windows PATH environment variable.
 
-   For example, on Windows Server 2012, tap **[!UICONTROL Start > Control Panel > System and Security > System > Advanced System Settings > Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
+   For example, on Windows Server 2012, tap **[!UICONTROL Start] > [!UICONTROL Control Panel] > [!UICONTROL System and Security] > [!UICONTROL System] > [!UICONTROL Advanced System Settings] > [!UICONTROL Environment Variables]**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
 
    ![chlimage_1-53](assets/chlimage_1-53.png)
 
@@ -72,7 +72,7 @@ See also [Integrating AEM 3D with AutoDesk 3ds Max](integrating-aem-3d-with-auto
 
    Note that `sample-3D-content.zip` was previously downloaded for validating the basic 3D functionality.
 
-1. Return to the **[!UICONTROL Card** view and observe the message banners shown on the uploaded assets.
+1. Return to the **[!UICONTROL Card]** view and observe the message banners shown on the uploaded assets.
 
    The Converting Format banner is displayed while Maya is converting the native `.MA` format to `.FBX`.
 

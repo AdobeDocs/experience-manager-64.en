@@ -222,13 +222,19 @@ The following is a description of the effects in the repository when moving or m
 
   A special value for the `cq:movedTo` property is `nirvana`: it is applied when the tag is deleted but cannot be removed from the repository because there are subtags with a `cq:movedTo` that must be kept.
 
-    >[!NOTE]The `cq:movedTo` property is only added to the moved or merged tag if either of these conditions are met: 
+    >[!NOTE]
+    >
+    >The `cq:movedTo` property is only added to the moved or merged tag if either of these conditions are met: 
+    >
     >1. Tag is used in content (meaning it has a reference) OR
     >1. Tag has children that have already been moved.
 
 * `cq:backlinks` keeps the references in the other direction, i.e. it keeps a list of all the tags that have been moved to or merged with tag B. This is mostly required to keep `cq:movedTo`properties up to date when tag B is moved/merged/deleted as well or when tag B is activated, in which case all its backlinks tags must be activated as well.
 
->[!NOTE]The `cq:backlinks` property is only added to the moved or merged tag if either of these conditions are met:
+>[!NOTE]
+>
+>The `cq:backlinks` property is only added to the moved or merged tag if either of these conditions are met:
+>
 >1. Tag is used in content (meaning it has a reference) OR 
 >1. Tag has children that have already been moved.
 
@@ -244,3 +250,93 @@ The following is a description of the effects in the repository when moving or m
 * To publish the change when a tag has been moved or merged, the `cq:Tag` node and all its backlinks must be replicated: this is automatically done when the tag is activated in the tag administration console.  
 
 * Later updates to the page's `cq:tags` property automatically clean up the "old" references. This is triggered because resolving a moved tag through the API returns the destination tag, thus providing the destination tag ID.
+
+## Tags migration {#tags-migration}
+
+Experience Manager 6.4 onwards tags are stored under `/content/cq:tags`, which were earlier stored under `/etc/tags`. However, in scenarios where Adobe Experience Manager has been upgraded from previous version the tags are still present under the old location `/etc/tags`. In upgraded systems tags need to be migrated under `/content/cq:tags`.
+
+>[!NOTE]
+>
+>In Page Properties of tags page, it is advised to use tag ID (for example `geometrixx-outdoors:activity/biking`) instead of hard coding the tag base path (for example, `/etc/tags/geometrixx-outdoors/activity/biking`).
+>
+>To list tags, `com.day.cq.tagging.servlets.TagListServlet` can be used.
+
+>[!NOTE]
+>
+>It is advised to use tag manager API as resource.
+
+**If Upgraded AEM instance supports TagManager API**
+
+1. At the start of component, TagManager API detects whether it is an upgraded AEM instance. In upgraded system, tags are stored under `/etc/tags`.
+
+1. The TagManager API then runs in backward compatibility mode, which means the API uses `/etc/tags` as the base path. If not, it uses new location `/content/cq:tags`.
+
+1. Update the tags location.
+
+1. After migrating tags to the new location, run the following script:
+
+```java
+
+import org.apache.sling.api.resource.*
+import javax.jcr.*
+
+ResourceResolverFactory resourceResolverFactory = osgi.getService(ResourceResolverFactory.class);
+ResourceResolver resolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+Session session = resolver.adaptTo(Session.class);
+
+def queryManager = session.workspace.queryManager;
+def statement = "/jcr:root/content/cq:tags//element(*, cq:Tag)[jcr:contains(@cq:movedTo,\'/etc/tags\') or jcr:contains(@cq:backlinks,\'/etc/tags\')]";
+def query = queryManager.createQuery(statement, "xpath");
+
+println "query = ${query.statement}\n";
+
+def tags = query.execute().getNodes();
+
+
+tags.each { node ->
+        def tagPath = node.path;
+        println "tag = ${tagPath}";
+
+        if(node.hasProperty("cq:movedTo") && node.getProperty("cq:movedTo").getValue().toString().startsWith("/etc/tags")){
+
+                def movedTo = node.getProperty("cq:movedTo").getValue().toString();
+
+                println "cq:movedTo = ${movedTo} \n";
+
+                movedTo = movedTo.replace("/etc/tags","/content/cq:tags");
+                node.setProperty("cq:movedTo",movedTo);
+        } else if(node.hasProperty("cq:backlinks")){
+
+               String[] backLinks = node.getProperty("cq:backlinks").getValues();
+               int count = 0;
+
+               backLinks.each { value ->
+                       if(value.startsWith("/etc/tags")){
+                               println "cq:backlinks = ${value}\n";
+                               backLinks[count] = value.replace("/etc/tags","/content/cq:tags");
+    }
+                       count++;
+               }
+
+               node.setProperty("cq:backlinks",backLinks);
+  }
+}
+session.save();
+
+println "---------------------------------Success-------------------------------------"
+
+```
+
+The script fetches all those tags that have `/etc/tags` in the value of `cq:movedTo/cq:backLinks` property. It then iterates through the fetched result set and resolves the `cq:movedTo` and `cq:backlinks` property values to `/content/cq:tags` paths (in the case where `/etc/tags` is detected in the value).
+
+**If upgraded AEM instance runs on Claasic UI**
+
+>[!NOTE]
+>
+>Classic UI is not zero downtime compliant and does not support new tag base path. If you want to use classic UI than `/etc/tags` needs to be created followed by `cq-tagging` component restart.
+
+In case of upgraded AEM instances supported by TagManager API and running in Classic UI:
+
+1. Once references to old tag base path `/etc/tags` are replaced by using tagId or new tag location `/content/cq:tags`, you can migrate tags to the new location `/content/cq:tags` in CRX followed by component restart.
+
+1. After migrating tags to the new location, run the above mentioned script.

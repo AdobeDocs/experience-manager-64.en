@@ -19,7 +19,7 @@ discoiquuid: 752e521f-198f-425a-abfa-051993f9c694
 1. Set up image-based lighting.
 
     1. In **[!UICONTROL Render Settings]**, select **[!UICONTROL Render Render Using: mental ray]**, and open the Scene tab.
-    1. Open the **[!UICONTROL Render Environment]** accordion and click **[!UICONTROL Render Create Image Based Lighting**.
+    1. Open the **[!UICONTROL Render Environment]** accordion and click **[!UICONTROL Render Create Image Based Lighting]**.
     1. Click the box icon that has a right arrow on the left side of the box to select the IBL node `mentalRayIblShape1`, then exit **[!UICONTROL Render Settings]**.
     1. In the **[!UICONTROL Attribute Editor]**, select the transform node `mentalRayIbl1`, then rename the transform node to `AdobeIbl`.
     1. Set the Scale of the node to make the environment sphere significantly larger than the largest 3D object to be shown with this stage (for example, `10000,10000,10000`).
@@ -52,7 +52,7 @@ discoiquuid: 752e521f-198f-425a-abfa-051993f9c694
 
         * **Overall quality** - `0.5` or less
         * **Indirect Diffuse (GI) Mode** - `Final Gather`
-        * ``**Filter Size** - `2.0`, `2.0`
+        * **Filter Size** - `2.0`, `2.0`
 
     * Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, Render settings, or both to achieve the results you want. 
 

@@ -53,7 +53,7 @@ For the Panoramic Image viewer to work properly within AEM, you must synchronize
    >
    >Only images that fall within the maximum allowable image size are supported. Requests for images that are above the size limit will result in a 403 response.
 
-1. Under the **Request Attributes]** heading, do the following:
+1. Under the **[Request Attributes]** heading, do the following:
 
     * Set **[!UICONTROL Request Obfuscation Mode]** to **[!UICONTROL Disabled]**.
     * Set **[!UICONTROL Request Locking Mode]** to **[!UICONTROL Disabled]**.

@@ -186,7 +186,7 @@ Select the output format of the image, for example jpeg. Depending on the output
 Select how you want to sharpen the image. Sharpening is explained in detail in [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options) and [Sharpening best practices](/help/assets/assets/s7_sharpening_images.pdf).
 
 * **[!UICONTROL URL Modifiers]**
-You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
+You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference.html).
 
 * **[!UICONTROL Breakpoints]**
 If your website is responsive, you want to adjust the breakpoints. Breakpoints must be separated by commas ( , ).
@@ -278,11 +278,10 @@ If you have multiple configurations, AEM by default displays the [default config
 >* Assets located in the ad-hoc folder will not appear in the Dynamic Media Classic content browser.
 >* When [Secure Preview is enabled](/help/sites-administering/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene), both published and unpublished assets on Dynamic Media Classic do appear in the Dynamic Media Classic content browser.
 >* If you do not see **[!UICONTROL Dynamic Media Classic]** or the **[!UICONTROL S7]** icon as an option in the content browser, you need to [configure Dynamic Media Classic to work with AEM](/help/sites-administering/scene7.md).
->* For video, the Dynamic Media Classic content browser supports: 
->
->  * Adaptive Video Sets: container of all video renditions needed for seamless playback across multiple screens
->  * Single MP4 video 
->  * Single F4V video 
+>* For video, the Dynamic Media Classic content browser supports:
+>   * Adaptive Video Sets: container of all video renditions needed for seamless playback across multiple screens
+>   * Single MP4 video
+>   * Single F4V video
 
 ### Browsing content in the touch-optimized UI {#browsing-content-in-the-touch-optimized-ui}
 

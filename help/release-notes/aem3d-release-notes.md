@@ -6,13 +6,16 @@ seo-description: Release notes specific to 3D content in Adobe Experience Manage
 uuid: 6675951f-86f0-4ec5-97e4-d247f6faf913
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
-topic-tags: release-notes
+topic-tags: release-notes, 3D
 content-type: reference
-topic-tags: 3D
 discoiquuid: 9789d031-fb7e-415a-a9c3-8b8fde978238
 ---
 
 # AEM 3D Release Notes {#aem-d-release-notes}
+
+>[!IMPORTANT]
+>
+>The AEM 3D feature pack in AEM 6.4 is no longer supported. Adobe recommends that you use the 3D assets feature in [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html) or [AEM 6.5.3 or higher.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html) 
 
 AEM-6.4-DynamicMedia-3D version 3.1.0 (October 10, 2018)
 
@@ -68,70 +71,17 @@ See also [Integrating AEM 3D with Autodesk Maya](/help/assets/integrate-maya-wit
 
 ## Supported 3D File Formats {#supported-d-file-formats}
 
-<table> 
- <tbody>
-  <tr>
-   <td><strong>Format</strong></td> 
-   <td><strong>Description</strong></td> 
-   <td><strong>Platforms</strong></td> 
-   <td><strong>Notes</strong></td> 
-  </tr>
-  <tr>
-   <td>DN</td> 
-   <td>Adobe Dimension</td> 
-   <td>All</td> 
-   <td>Requires access to a cloud-based conversion service.</td> 
-  </tr>
-  <tr>
-   <td>GLTZ</td> 
-   <td>Zipped gITF</td> 
-   <td>All</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>GLB</td> 
-   <td>Binary gITF</td> 
-   <td>All</td> 
-   <td>Download only (GLB renditions ar create for DN assets).</td> 
-  </tr>
-  <tr>
-   <td>OBJ</td> 
-   <td>Wavefront OBJ 3D </td> 
-   <td>All</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>FBX</td> 
-   <td>Autodesk FBX (Kaydara Filmbox)</td> 
-   <td>All</td> 
-   <td>The Autodesk FBX SDK must be installed on the Author node.</td> 
-  </tr>
-  <tr>
-   <td>MA, MB</td> 
-   <td>Native Autodesk Maya</td> 
-   <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md" target="_blank">Integrating AEM 3D with Autodesk Maya</a>.</td> 
-  </tr>
-  <tr>
-   <td>JT</td> 
-   <td>Siemens PLM Open CAD</td> 
-   <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
-  </tr>
-  <tr>
-   <td>*</td> 
-   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="/help/assets/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
-   <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
-  </tr>
-  <tr>
-   <td>MAX</td> 
-   <td>Native Autodesk 3ds Max</td> 
-   <td>Windows only</td> 
-   <td>Autodesk 3ds Max is required on the author node to enable this file format. See <a href="/help/assets/integrating-aem-3d-with-autodesk-3ds-max.md">Integrating AEM 3D with Autodesk 3ds Max</a>.</td> 
-  </tr>
- </tbody>
-</table>
+|Format|Description|Platforms|Notes|
+|--- |--- |--- |--- |
+|DN|Adobe Dimension|All|Requires access to a cloud-based conversion service.|
+|GLTZ|Zipped gITF|All||
+|GLB|Binary gITF|All|Download only (GLB renditions ar create for DN assets).|
+|OBJ|Wavefront OBJ 3D|All||
+|FBX|Autodesk FBX (Kaydara Filmbox)|All|The Autodesk FBX SDK must be installed on the Author node.|
+|MA, MB|Native Autodesk Maya|Windows only|Autodesk Maya is required on the Author node to enable these file formats. See [Integrating AEM 3D with Autodesk Maya](/help/assets/integrate-maya-with-3d.md).|
+|JT|Siemens PLM Open CAD|Windows only|Autodesk Maya is required on the Author node to enable these file formats. See [Integrating AEM 3D with Autodesk Maya](/help/assets/integrate-maya-with-3d.md).|
+|*|Additional 3D input formats supported by Autodesk Maya can be enabled. See [Enabling Additional Formats Supported by Maya](/help/assets/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya).|Windows only|Autodesk Maya is required on the Author node to enable these file formats. See [Integrating AEM 3D with Autodesk Maya](/help/assets/integrate-maya-with-3d.md).|
+|MAX|Native Autodesk 3ds Max|Windows only|Autodesk 3ds Max is required on the author node to enable this file format. See [Integrating AEM 3D with Autodesk 3ds Max](/help/assets/integrating-aem-3d-with-autodesk-3ds-max.md).|
 
 ## Enhancements and new features {#enhancements-and-new-features}
 
@@ -193,7 +143,7 @@ Version 3.1
 * **Thumbnails for stages** - The auto-generated thumbnails for stages may not represent the stage accurately.
 * **Stage geometry for non-IBL stages** - The Rapid Refine renderer does not render geometry from stages with non-IBL lighting, including backgrounds and ground planes. Such geometry still displays reasonably in the asset Detail view (3D preview).  
 
-* **FBX stages with IBL lighting** - You can upload FBX stages with IBL lighting. However, the FBX format does not have provisions to transfer the IBL image name. As such, file dependency resolution fails. The IBL image must be assigned manually to the stage after upload. You can assign the same 32-bit TIFF image to the three dependencies which are **Diffuse Lighting Environment Image**, **Reflection Envrionment Image**, and **Background Envrionment Image**, or different images may be assigned.  
+* **FBX stages with IBL lighting** - You can upload FBX stages with IBL lighting. However, the FBX format does not have provisions to transfer the IBL image name. As such, file dependency resolution fails. The IBL image must be assigned manually to the stage after upload. You can assign the same 32-bit TIFF image to the three dependencies which are **Diffuse Lighting Environment Image**, **Reflection Environment Image**, and **Background Environment Image**, or different images may be assigned.  
 
 * **Background image of IBL stages** - For some IBL scenes, the background image may have poor quality such as being too bright or too blurry. To maximize the visual quality of the image background of IBL stages, Adobe recommends that you prepare a separate high-resolution 8-bit JPEG image and attach it to the IBL stage as the **Background Environment Image**.
 
@@ -213,4 +163,3 @@ Version 3.1
 * **3D Component configuration** - You must install the 3D Feature Pack on all active Publish nodes and each node must be configured with **CRXDE Lite** to the same configuration options at `/libs/settings/dam/v3D/WebGLSites`.
 
 * **Missing textures, background, or lighting after publishing** - The **Publish** mechanism in AEM Sites automatically publishes the page's primary dependencies, including the 3D model and the 3D stage referenced by the 3D component. 3D stages and 3D models typically depend on secondary assets for IBL images and texture maps, which the Sites Publish mechanism does not publish automatically. Workaround: publish all 3D assets from Assets prior to publishing the web page from Sites. Doing so ensures that all dependencies for 3D assets are available on the Publish nodes.
-

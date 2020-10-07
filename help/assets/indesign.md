@@ -215,27 +215,30 @@ To configure the number of parallel IDS jobs:
 
    >[!NOTE]
    >
-   >You may choose to enable Blacklisting of IDS workers when working with pool of workers.
+   >When working with pool of workers, you can enable blocked list of IDS workers.
    >
-   >To do so, enable the "enable.retry.name" checkbox, under the `com.day.cq.dam.ids.impl.IDSJobProcessor.name` configuration, which enables IDS job retrials. 
+   >To do so, enable the "enable.retry.name" checkbox, under the `com.day.cq.dam.ids.impl.IDSJobProcessor.name` configuration, which enables IDS job retrials.
    >
-   >Also, under the `com.day.cq.dam.ids.impl.IDSPoolImpl.name` configuration, set a positive value for max.errors.to.blacklist parameter which determines number of job retrials before barring an IDS from the job handlers list
+   >Also, under the `com.day.cq.dam.ids.impl.IDSPoolImpl.name` configuration, set a positive value for `max.errors.to.blacklist` parameter which determines number of job retrials before barring an IDS from the job handlers list
    >
-   >By default, after the configurable (retry.interval.to.whitelist.name) time in minutes the IDS worker is revalidated. If the worker is found online, it is removed from the blacklist
+   >By default, after the configurable (`retry.interval.to.whitelist.name`) time in minutes the IDS worker is revalidated. If the worker is found online, it is removed from the blocked list.
+
+<!-- TBD: Make updates to configurations for allow and block list after product updates are done. See CQ-4298427.
+-->
 
 ## Enable support for Adobe InDesign server 10.0 or later {#enabling-support-for-indesign-server-or-higher}
 
 For InDesign server 10.0 or higher, perform the following steps to enable multi-session support.
 
-1. Open Configuration Manager from your AEM Assets instance `https://[AEM_server]:[port]/system/console/configMgr`.
+1. Open the Configuration Manager from your [!DNL Assets] instance `https://[aem_server]:[port]/system/console/configMgr`.
 1. Edit the configuration `com.day.cq.dam.ids.impl.IDSJobProcessor.name`.
-1. Select the **[!UICONTROL ids.cc.enable]** option, and click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL ids.cc.enable]** option, and click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->For InDesign Server integration with AEM Assets, use a multi-core processor because the Session Support feature necessary for the integration is not supported on single core systems.
+>For [!DNL InDesign Server] integration with [!DNL Assets], use a multi-core processor because the session support feature necessary for the integration is not supported on single core systems.
 
-## Configure AEM credentials {#configure-aem-credentials}
+## Configure Experience Manager credentials {#configure-aem-credentials}
 
 You can change the default administrator credentials (user name and password) for accessing the InDesign server from your AEM instance without breaking the integration with the Adobe InDesign server.
 

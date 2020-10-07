@@ -103,11 +103,11 @@ When the Initial Content option is selected, the Adaptive Form Container of the 
 
 Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png)**[!UICONTROL > Initial Content]**. 
 
-    [ ![Initial Content layer in Template Editor](assets/initial-content-layer.png)
+![Initial Content layer in Template Editor](assets/initial-content-layer.png)
 
 Initial Content layer in Template Editor showing Adaptive Form Container selected for specifying properties.
 
-](assets/initial-content-layer-1.png) In the Initial Content layer, you create the adaptive form template that your authors use as a base. Authoring a template is similar to authoring a form, you use options available in the Sidebar. Sidebar provides content, properties, assets, and components browsers.
+In the Initial Content layer, you create the adaptive form template that your authors use as a base. Authoring a template is similar to authoring a form, you use options available in the Sidebar. Sidebar provides content, properties, assets, and components browsers.
 
 See [Sidebar](/help/forms/using/introduction-forms-authoring.md#sidebar).
 
@@ -135,11 +135,11 @@ To create the General Information and Professional Information tabs, add two pan
 
 #### Adding content in tabs {#adding-content-in-tabs}
 
-    [ ![Adding fields in the adaptive form template](assets/template-edit-initial-content.png)
+![Adding fields in the adaptive form template](assets/template-edit-initial-content.png)
 
 Adding fields in the template
 
-](assets/template-edit-initial-content-1.png) After you add panels and structure them as tabs, you can add fields inside the tabs. When you select a tab in the editor, you can see the **[!UICONTROL Drag components here]** option. You can drag-drop components such as text-boxes, list items, and buttons. You can drag-drop components from the components browser in the sidebar.
+After you add panels and structure them as tabs, you can add fields inside the tabs. When you select a tab in the editor, you can see the **[!UICONTROL Drag components here]** option. You can drag-drop components such as text-boxes, list items, and buttons. You can drag-drop components from the components browser in the sidebar.
 
 Each component has properties that enhance data capturing and manipulation. For example, you can enable the **[!UICONTROL Required field]** property of a component. Your authors can specify a message that your customers see when they skip filling a required field. Specify the message in **[!UICONTROL Required Field Message]** property.
 

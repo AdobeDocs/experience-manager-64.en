@@ -5,8 +5,7 @@ description: Use AEM Forms Workflow to automate and rapidly build review and app
 seo-description: Use AEM Forms Workflow to automate and rapidly build review and approvals, to start document services (For example, to convert a PDF document to another format), integrate with Adobe Sign signature workflow, and more.
 uuid: 46be7ec6-d5cc-498a-9484-e66a29527064
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: publish
-topic-tags: document_services
+topic-tags: document_services, publish
 discoiquuid: f8df5fa3-3843-4110-a46d-9a524d2657cd
 noindex: true
 ---
@@ -124,7 +123,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    For the complete set of values of all the fields of the assign task steps, document of record step, and sign document step configured for example mortgage application, import the example package, available for download in the starting of this section.
 
-   The workflow model is ready. You can launch the workflow through various methods. For details, see [Launch a Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md#main-pars-header).
+   The workflow model is ready. You can launch the workflow through various methods. For details, see [Launch a Forms-centric workflow on OSGi](#launch).
 
    ![workflow-editor-mortgage](assets/workflow-editor-mortgage.png)
 

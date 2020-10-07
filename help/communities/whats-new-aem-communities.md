@@ -88,7 +88,7 @@ AEM 6.4 Communities provides Delete Site icon on the existing community sites, i
 
 ## Managing UGC and user profiles {#managing-ugc-and-user-profiles}
 
-Keeping user data protection at the heart of communities experience, AEM Communities exposes [APIs out-of-the-box](user-ugc-management-service.md) and [sample servlet](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet). These APIs help bulk manage (bulk delete and bulk export) user generated content and delete user profiles, and are instrumental in handling EU GDPR compliance requests.
+Keeping user data protection at the heart of communities experience, AEM Communities exposes [APIs out-of-the-box](user-ugc-management-service.md) and [sample servlet](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/main/bundles/communities-ugc-management-servlet). These APIs help bulk manage (bulk delete and bulk export) user generated content and delete user profiles, and are instrumental in handling EU GDPR compliance requests.
 
 ## What's Changed {#what-s-changed}
 

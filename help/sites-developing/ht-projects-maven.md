@@ -37,7 +37,7 @@ The "UberJar" is the informal name given to a special Java Archive (JAR) file pr
 
 In the past, developers had to manage a relatively large number of individual dependencies to different AEM libraries and when each new API was used, one or more individual dependencies had to be added to the project. On one project, the introduction of the UberJar resulted in 30 separate dependencies being removed from the project.
 
-### How to I use the UberJar? {#how-to-i-use-the-uberjar}
+### How do I use the UberJar? {#how-do-i-use-the-uberjar}
 
 If you are using Apache Maven as a build system (which is the case for most AEM Java projects), you will need to add one or two elements to your *pom.xml* file. The first is a *dependency* element adding the actual dependency to your project:
 
@@ -53,6 +53,10 @@ If you are using Apache Maven as a build system (which is the case for most AEM 
 
 If your company is already using a Maven Repository Manager such as Sonatype Nexus, Apache Archiva, or JFrog Artifactory, add the appropriate configuration to your project to reference this repository manager and add Adobe's Maven repository ([https://repo.adobe.com/nexus/content/groups/public/](https://repo.adobe.com/nexus/content/groups/public/)) to your repository manager.
 
+>[!NOTE]
+>
+>From AEM 6.4.8.2 onwards, UberJar and other related artifacts are available in the [Maven Central repository](https://repo.maven.apache.org/maven2/com/adobe/aem/uber-jar/) instead of the Adobe Public Maven repository (repo.adobe.com). The main UberJar file is renamed to `uber-jar-<version>.jar`. As a result, there is no `classifier`, with `apis` as the value, for the `dependency` tag.
+
 If you are not using a repository manager, then you will need to add a *repository* element to your *pom.xml* file:
 
 ```xml
@@ -60,7 +64,7 @@ If you are not using a repository manager, then you will need to add a *reposito
     <repository>
         <id>adobe-public-releases</id>
         <name>Adobe Public Repository</name>
-        <url>https://repo.adobe.com/nexus/content/groups/public/</url>
+        <url>https://repo.maven.apache.org/maven2/</url>
         <layout>default</layout>
     </repository>
 </repositories>
@@ -68,7 +72,7 @@ If you are not using a repository manager, then you will need to add a *reposito
     <pluginRepository>
         <id>adobe-public-releases</id>
         <name>Adobe Public Repository</name>
-        <url>https://repo.adobe.com/nexus/content/groups/public/</url>
+        <url>https://repo.maven.apache.org/maven2/</url>
         <layout>default</layout>
     </pluginRepository>
 </pluginRepositories>
@@ -354,10 +358,6 @@ To add to the paths, add more `<filter>` elements:
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/myproject"/>
-    <filter root="/etc/msm/rolloutconfigs/myrolloutconfig"/>
-    <filter root="/etc/blueprints/mysite/globalsite"/>
-    <filter root="/etc/workflow/models/myproject"/>
-    <filter root="/etc/designs/myproject"/>
     <filter root="/content/myproject/sample-content"/>
 </workspaceFilter>
 ```
@@ -546,15 +546,16 @@ To achieve deletion of the classes compiled from the JSPs, we set up the Maven C
 >Depending on whether you actually make use of JSP code in `/libs` (i.e. include JSPs from there), you will need to refine which JSPs are copied for compilation.
 >
 >E.g. if you include `/libs/foundation/global.jsp`, you can use the following configuration for the `maven-resources-plugin` instead of the configuration above which completely skips over `/libs`.
+>
 >```
-> <resource>  
->      <directory>src/main/content/jcr_root</directory>  
->      <includes>  
->          <include>apps/**</include>  
->          <include>libs/foundation/global.jsp</include>
->    </includes>  
->  </resource>  
->  ```
+><resource>
+>    <directory>src/main/content/jcr_root</directory>
+>    <includes>
+>        <include>apps/**</include>
+>        <include>libs/foundation/global.jsp</include>
+>    </includes>
+></resource>
+>```
 
 ### How-To Work with SCM Systems {#how-to-work-with-scm-systems}
 

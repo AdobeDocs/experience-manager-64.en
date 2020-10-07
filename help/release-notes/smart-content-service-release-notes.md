@@ -28,7 +28,7 @@ The Smart Content Service includes the following key improvements:
 * Algorithm optimizations to further improve model precision, recall values
 * Support for resetting model training for all tags at tenant level
 * Support for Enhanced Smart Tags namespaces to avoid conflicts
-* New model replacement policy to avoid any degradation due to retraining 
+* New model replacement policy to avoid any degradation due to retraining
 * Tenant-wise monitoring for service usage
 * Fixes for issues around clustering and connection, which enhance the robustness of service
 
@@ -85,6 +85,7 @@ The Smart Content Service is available for following locales:
 
 These sites are only available to customers. If you are a customer and require access, contact your Adobe account manager.
 
-* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
-
-* [Adobe Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Product Access](https://login.marketing.adobe.com)
+* [Product Download at licensing.adobe.com](https://licensing.adobe.com/).
+* Product updates, patches, and packages for additional functionality on [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+* [Customer Support via Admin Console](https://adminconsole.adobe.com/). For more information, see [New Adobe Customer Support Experience](https://docs.adobe.com/content/help/en/customer-one/using/home.html).

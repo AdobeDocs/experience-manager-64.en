@@ -303,12 +303,11 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 >
 >The Rich Text Editor uses a container DOM element with an ID of `CQrte` which may be used to provide different styles for viewing and editing:
 >
->#CQ td {
-> // defines the style for viewing }
+>`#CQ td {`
+>` // defines the style for viewing }`
 >
->#CQrte td {
-> // defines the style for editing }
->
+>`#CQrte td {`
+>` // defines the style for editing }`
 
 ### Specify the available Styles in the pop-up list {#stylesindropdown}
 
@@ -726,7 +725,7 @@ To configure how links are added in AEM from another program, define the HTML ru
         * **Type** `String`
         * **Value** the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
-    * Array of valid **protocols** (including https://, https:// file://, mailto:, amongst others)
+    * Array of valid **protocols**. The supported protocols are `http://`, `https://`, `file://`, and `mailto:`.
 
         * **Name** `protocols`
         * **Type** `String[]`
