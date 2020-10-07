@@ -416,7 +416,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 ### Move or rename assets {#moving-or-renaming-assets}
 
-When you move assets (or folders) to another location, then the assets (or folders) are not duplicated, unlike while copying the asset. The assets (or the folders) get placed at the target location and are removed from the source location. You can also rename the asset when moving it to the new location. If you are moving a published asset to a different location, then you have an option to republish the asset. By default move operation on a published asset automatically unpublishes it. Moved asset is republished if author selects the [!UICONTROL Republish] option when moving the asset.
+When you move assets (or folders) to another location, then the assets (or folders) are not duplicated unlike while copying the asset. The assets (or the folders) get placed at the target location and are removed from the source location. You can also rename the asset when moving it to the new location. If you are moving a published asset to a different location, then you have an option to republish the asset. By default move operation on a published asset automatically unpublishes it. Moved asset is republished if author selects the [!UICONTROL Republish] option when moving the asset.
 
 ![You can republish an already published asset when moving it](assets/republish-on-move.png)
 
