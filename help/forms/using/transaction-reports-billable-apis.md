@@ -340,7 +340,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ## Billable Data Capture APIs {#billable-data-capture-apis}
 
-All the submission events of adaptive forms, HTML5 Forms, and form set are accounted as transactions. By default, submission of a PDF Form is not accounted as a transaction. Use the provided [transaction reports API](https://www.bdnsw.gov.bn/PublishingImages/page-under-construction.jpg) to recording a PDF Forms submission as a transaction.
+All the submission events of adaptive forms, HTML5 Forms, and form set are accounted as transactions. By default, submission of a PDF Form is not accounted as a transaction. Use the provided [transaction reports API](record-transaction-custom-implementation.md) to recording a PDF Forms submission as a transaction.
 
 ### Adaptive Forms {#adaptive-forms}
 
