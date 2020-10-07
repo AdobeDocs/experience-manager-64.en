@@ -416,6 +416,12 @@ The other properties and metadata information is retained. A partial copy is not
 
 ### Move or rename assets {#moving-or-renaming-assets}
 
+When you move assets (or folders) to another location, then the assets (or folders) are not duplicated, unlike while copying the asset. The assets (or the folders) get placed at the target location and are removed from the source location. You can also rename the asset when moving it to the new location. If you are moving a published asset to a different location, then you have an option to republish the asset. By default move operation on a published asset automatically unpublishes it. Moved asset is republished if author selects the [!UICONTROL Republish] option when moving the asset.
+
+![You can republish an already published asset when moving it](assets/republish-on-move.png)
+
+To move assets or folders:
+
 1. Navigate to the location of the asset you want to move.  
 
 1. Select the asset, and tap the **[!UICONTROL Move]** icon from the toolbar.
@@ -452,6 +458,14 @@ The other properties and metadata information is retained. A partial copy is not
     * Tap **[!UICONTROL Cancel]** to stop the move operation.
 
    If you do not update references, they continue to point to the previous path of the asset. If you adjust the references, they are updated to the new asset path.
+
+### Move assets using drag operation {#move-using-drag}
+
+You can move assets (or folders) to a sibling folder by dragging them to the target location, instead of using [!UICONTROL Move] option in the user interface. However, this operation is possible only in the list view.
+
+Moving assets by dragging them does not open [!UICONTROL Move Asset] wizard, therefore you do not get the option to rename the assets while moving. Moreover, the already published assets are republished on moving them by dragging, without seeking user's approval to republish.  
+
+![Move assets into sibling folders by dragging assets](assets/move-by-drag.gif)
 
 ## Manage renditions {#managing-renditions}
 
