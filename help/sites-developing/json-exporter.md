@@ -68,8 +68,8 @@ Your page can contain either a single content fragment or multiple components of
   >You can [adapt your own components](/help/sites-developing/json-exporter-components.md) to access and use this data.
 
   >[!NOTE]
-   >
-   >Although not a standard implementation, [multiple selectors are supported,](json-exporter-components.md#multiple-selectors) but `model` must be the first.
+  >
+  >Although not a standard implementation, [multiple selectors are supported,](json-exporter-components.md#multiple-selectors) but `model` must be the first.
 
 ### Further Information {#further-information}
 
