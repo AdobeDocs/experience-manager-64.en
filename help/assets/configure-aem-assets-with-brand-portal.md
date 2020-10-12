@@ -9,20 +9,19 @@ contentOwner: VG
 Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
 
 >[!NOTE]
-   >
-   >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.4.8.0 and above.
-   >
-   >Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. 
-   >
+>
+>Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.4.8.0 and above.
+>
+>Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. 
 
 >[!TIP]
-   >
-   >***For existing customers only*** 
-   >
-   >It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
-   >
+>
+>***For existing customers only*** 
+>
+>It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
 
 This help describes the following two use-cases: 
+
 * [New configuration](#configure-new-integration-64): If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration on Adobe I/O. 
 * [Upgrade configuration](#upgrade-integration-64): If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal on legacy OAuth Gateway, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
 
@@ -39,7 +38,6 @@ You require the following to configure AEM Assets with Brand Portal:
 * An up and running AEM Assets author instance with latest Service Pack.
 * Brand Portal tenant URL.
 * A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
-
 
 [Download and install AEM 6.4](#aemquickstart)
 
@@ -66,6 +64,7 @@ For detailed instructions see,
 ## Create configuration {#configure-new-integration-64}
 
 Perform the following steps in the listed sequence if you are configuring AEM Assets with Brand Portal for the first-time: 
+
 1. [Obtain public certificate](#public-certificate)
 1. [Create Adobe I/O integration](#createnewintegration) 
 1. [Create IMS Account configuration](#create-ims-account-configuration)
@@ -73,9 +72,8 @@ Perform the following steps in the listed sequence if you are configuring AEM As
 1. [Test configuration](#test-integration)
 
 >[!NOTE]
- >
- >An AEM Assets author instance shall only be configured with one Brand Portal tenant.
- >
+>
+>An AEM Assets author instance shall only be configured with one Brand Portal tenant.
 
 ### Create IMS configuration {#create-ims-configuration}
 
@@ -137,7 +135,7 @@ Adobe I/O integration generates API Key, Client Secret, and Payload (JWT) which 
    ![Create New Integration](assets/create-new-integration1.png)
 
 1. Create a new integration page opens. 
-   
+
    Select your organization from the drop-down list.
 
    In **[!UICONTROL Experience Cloud]**, Select **[!UICONTROL AEM Brand Portal]** and click **[!UICONTROL Continue]**. 
@@ -194,12 +192,10 @@ Ensure that you have performed the following steps:
    ![](assets/create-new-integration5.png)
 
 >[!CAUTION]
-   >
-   >You must have only one IMS configuration. Do not create multiple IMS configurations.
-   >
-   >Ensure that the IMS configuration passes the health check. If the configuration does not pass the health check, it is invalid. You must delete it and create a new, valid configuration.
-   >
-
+>
+>You must have only one IMS configuration. Do not create multiple IMS configurations.
+>
+>Ensure that the IMS configuration passes the health check. If the configuration does not pass the health check, it is invalid. You must delete it and create a new, valid configuration.
 
 ### Configure cloud service {#configure-the-cloud-service}
 
@@ -250,10 +246,8 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
 
    >[!NOTE]
-    >
-    >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
-    >
-
+   >
+   >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
 
 1. To verify the connection between AEM Assets author and Brand Portal, click **[!UICONTROL Test Connection]**.
 
@@ -267,11 +261,10 @@ Perform the following steps to create Brand Portal cloud service configuration:
 1. Verify the test results on all four replication agents one-by-one.
 
    >[!NOTE]
-    >
-    >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
-    >
-    >Ensure that all the four replication agents are configured to avoid timeout error. See [troubleshoot issues in parallel publishing to Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/publish/troubleshoot-parallel-publishing.html#connection-timeout).
-    >
+   >
+   >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
+   >
+   >Ensure that all the four replication agents are configured to avoid timeout error. See [troubleshoot issues in parallel publishing to Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/publish/troubleshoot-parallel-publishing.html#connection-timeout).
 
 Brand Portal is successfully configured with your AEM Assets author instance. You can now:
 
@@ -356,4 +349,3 @@ After replication succeeds, you can publish assets, folders, and Collections to 
 * [Publish assets to Brand Portal](brand-portal-publish-assets.md)
 * [Publish assets and folders to Brand Portal](brand-portal-publish-folder.md)
 * [Publish Collections to Brand Portal](brand-portal-publish-collection.md)
-

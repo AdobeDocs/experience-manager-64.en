@@ -34,9 +34,9 @@ The following (space-separated list of) characters are not supported:
 
 You can upload various types of assets (including images, PDF files, RAW files, and so on) from your local folder or a network drive to AEM Assets.
 
-   >[!NOTE]
-   >
-   >In Dynamic Media - Scene7 mode, you can only upload assets whose file sizes are 2 GB or less.
+>[!NOTE]
+>
+>In Dynamic Media - Scene7 mode, you can only upload assets whose file sizes are 2 GB or less.
 
 You can choose to upload assets to folders with or without a processing profile assigned to them.
 
@@ -137,7 +137,8 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 >[!NOTE]
 >
 >To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Customer Care to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
-If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
+>
+>If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**
 
