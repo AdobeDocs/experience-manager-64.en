@@ -211,9 +211,9 @@ This would allow the AEM translation tools such as the multi-site manager to con
 
 While also allowing end users to interact with the page name in their native languages.
 
- >[!NOTE]
-  >
-  > The `sling:alias` property can be set using the [Alias property when editing Page Properties](/help/sites-authoring/editing-page-properties.md#advanced)
+>[!NOTE]
+>
+> The `sling:alias` property can be set using the [Alias property when editing Page Properties](/help/sites-authoring/editing-page-properties.md#advanced)
 
 #### /etc/map {#etc-map}
 

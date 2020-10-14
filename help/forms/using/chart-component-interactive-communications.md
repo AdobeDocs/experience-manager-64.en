@@ -88,7 +88,7 @@ To accomplish this, you need to specify:
 * **[!UICONTROL Title]** for the X and Y axis (for Column type chart in the print channel only in this example) - in this example, Amount ($) for the X axis and Expense for the Y axis.
 * **[!UICONTROL Label Direction]** (for Column type chart in the print channel only in this example) - in this example `Tilt Left`
 
-* **[!UICONTROL Tooltip]** to display on mouse over of an expense (web channel only) - in this example `${x}: $ ${y}`, which displays as [Expense Label: $ Amount] (Example: Theme Park Visit: $ 315)
+* **[!UICONTROL Tooltip]** to display on mouse over of an expense (web channel only) - in this example `${x}: $ ${y}`, which displays as `[Expense Label: $ Amount]` (Example: Theme Park Visit: $ 315)
 
 ![Column chart in the print output of an Interactive Communication](assets/chartprintchannel.png)
 **Figure:** *Column chart in the print output of an Interactive Communication*

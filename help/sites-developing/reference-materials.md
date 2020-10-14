@@ -53,7 +53,3 @@ The following external resources are for reference only:
 * [Jackrabbit Oak API](https://jackrabbit.apache.org/oak/docs/oak_api/overview.html)
 * [Java Content Repository API](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html)
 * [Apache Jackrabbit API](https://jackrabbit.apache.org/api)
-
->[!VIDEO](https://vimeo.com/)
-
->[!VIDEO](https://vimeo.com/)

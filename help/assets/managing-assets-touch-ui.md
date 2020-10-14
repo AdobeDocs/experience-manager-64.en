@@ -34,9 +34,9 @@ The following (space-separated list of) characters are not supported:
 
 You can upload various types of assets (including images, PDF files, RAW files, and so on) from your local folder or a network drive to AEM Assets.
 
-   >[!NOTE]
-   >
-   >In Dynamic Media - Scene7 mode, you can only upload assets whose file sizes are 2 GB or less.
+>[!NOTE]
+>
+>In Dynamic Media - Scene7 mode, you can only upload assets whose file sizes are 2 GB or less.
 
 You can choose to upload assets to folders with or without a processing profile assigned to them.
 
@@ -137,7 +137,8 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 >[!NOTE]
 >
 >To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Customer Care to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
-If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
+>
+>If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**
 
@@ -416,8 +417,13 @@ The other properties and metadata information is retained. A partial copy is not
 
 ## Move and rename assets {#moving-or-renaming-assets}
 
-When you move assets (or folders) to another location, then the assets (or folders) are not duplicated, unlike while copying the asset. The assets (or the folders) get placed at the target location and are removed from the source location. You can also rename the asset when moving it to the new location.
-If you are moving a published asset to a different location, then you have an option to republish the asset. By default move operation on a published asset automatically unpublishes it. Moved asset is republished if author selects the [!UICONTROL Republish] option when moving the asset.
+When you move assets (or folders) to another location, then the assets (or folders) are not duplicated unlike while copying the asset. The assets (or the folders) get placed at the target location and are removed from the source location. You can also rename the asset when moving it to the new location. If you are moving a published asset to a different location, then you have an option to republish the asset. By default move operation on a published asset automatically unpublishes it. Moved asset is republished if author selects the [!UICONTROL Republish] option when moving the asset.
+
+![You can republish an already published asset when moving it](assets/republish-on-move.png)
+
+To move assets or folders:
+
+1. Navigate to the location of the asset you want to move.  
 
 ![You can republish an already published asset when moving it](assets/republish-on-move.png)
 
@@ -460,9 +466,9 @@ To move assets or folders:
 
 ### Move assets using drag operation {#move-using-drag}
 
-You can move assets (or folders) to a sibling folder, the [!UICONTROL Lightbox] collection, or another collection by dragging them to the target location, instead of using [!UICONTROL Move] option in the user interface. However, this operation is possible only in the list view.
+You can move assets (or folders) to a sibling folder by dragging them to the target location, instead of using [!UICONTROL Move] option in the user interface. However, this operation is possible only in the list view.
 
-Moving assets by dragging them does not open [!UICONTROL Move Asset] wizard, therefor you do not get the option to rename the assets while moving. Moreover, the already published assets are republished on moving them by dragging, without seeking user's approval to republish.  
+Moving assets by dragging them does not open [!UICONTROL Move Asset] wizard, therefore you do not get the option to rename the assets while moving. Moreover, the already published assets are republished on moving them by dragging, without seeking user's approval to republish.  
 
 ![Move assets into sibling folders by dragging assets](assets/move-by-drag.gif)
 
