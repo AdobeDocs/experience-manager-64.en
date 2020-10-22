@@ -265,7 +265,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
    <td><p>Updates and patches</p> </td> 
   </tr> 
   <tr> 
-   <td><p>Red Hat Enterprise Linux 7 (Kernel 3.x)</p> </td> 
+   <td><p>Red Hat Enterprise Linux 7 (Kernel 3.x)</br><b>Note:</b> Red Hat Enterprise Linux 6 reaches End of Maintenance Phase and transitions to Extended Life Phase on Nov 30, 2020. Adobe recommends Red Hat Enterprise Linux 7 for upgrade and new installations.</p> </td> 
    <td><p>A: Supported</p> </td> 
    <td><p>Minor releases, cumulative updates, and critical updates</p> </td> 
   </tr> 

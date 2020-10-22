@@ -415,7 +415,7 @@ The other properties and metadata information is retained. A partial copy is not
    >
    >The **[!UICONTROL Paste]** icon is available in the toolbar until the paste operation is completed.
 
-### Move or rename assets {#moving-or-renaming-assets}
+## Move and rename assets {#moving-or-renaming-assets}
 
 When you move assets (or folders) to another location, then the assets (or folders) are not duplicated unlike while copying the asset. The assets (or the folders) get placed at the target location and are removed from the source location. You can also rename the asset when moving it to the new location. If you are moving a published asset to a different location, then you have an option to republish the asset. By default move operation on a published asset automatically unpublishes it. Moved asset is republished if author selects the [!UICONTROL Republish] option when moving the asset.
 
@@ -425,38 +425,42 @@ To move assets or folders:
 
 1. Navigate to the location of the asset you want to move.  
 
-1. Select the asset, and tap the **[!UICONTROL Move]** icon from the toolbar.
+![You can republish an already published asset when moving it](assets/republish-on-move.png)
 
-   ![move_icon](assets/move_icon.png)
+To move assets or folders:
 
-1. In the **[!UICONTROL Move Assets]** wizard, do one of the following:
+1. Navigate to the location of the asset you want to move.
 
-    * Specify the name for the asset after it is moved. Then tap **[!UICONTROL Next]** to proceed.
-    * Tap **[!UICONTROL Cancel]** to stop the process.
+1. Select the asset, and click **[!UICONTROL Move]** option from the toolbar.
+![Move option in Assets toolbar](assets/do-not-localize/move_icon.png)
+
+1. In the [!UICONTROL Move Assets] wizard, do one of the following:
+
+    * Specify the name for the asset after it is moved. Then click **[!UICONTROL Next]** to proceed.
+
+    * Click **[!UICONTROL Cancel]** to stop the process.
 
    >[!NOTE]
    >
-   >You can specify the same name for the asset if there is no asset with that name at the new location. However, you should use a different name if you move the asset to a location where an asset with the same name exists. If you use the same name, the system automatically generates a variation of the name. For example if your asset has the name Square, the system generates the name Square1 for its copy.
+   >* You can specify the same name for the asset if there is no asset with that name at the new location. However, you should use a different name if you move the asset to a location where an asset with the same name exists. If you use the same name, the system automatically generates a variation of the name. For example if your asset has the name Square, the system generates the name Square1 for its copy.
+   >* When renaming, whitespace is not allowed in the file name.
 
-   >[!NOTE]
-   >
-   >The following (space-separated list of) characters are not supported:
-   >* asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
-   >* asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
+1. On the **[!UICONTROL Select Destination]** dialog, do one of the following:
 
-1. On the **[!UICONTROL Select Destination]** page, do one of the following:
+    * Navigate to the new location for the assets, and then click **[!UICONTROL Next]** to proceed.
 
-    * Navigate to the new location for the assets, and then tap **[!UICONTROL Next]** to proceed. 
-    * Tap **[!UICONTROL Back]** to return to the **[!UICONTROL Rename]** page.
+    * Click **[!UICONTROL Back]** to return to the **[!UICONTROL Rename]** screen.
 
 1. If the assets being moved have any referencing pages, assets, or collections, the **[!UICONTROL Adjust References]** tab appears beside the **[!UICONTROL Select Destination]** tab.
 
-   Do one of the following on the **[!UICONTROL Adjust References]** page:
+   Do one of the following in the **[!UICONTROL Adjust References]** screen:
 
-    * Specify the references to be adjusted based on the new details, and then tap **[!UICONTROL Move]** to proceed. 
-    * From the **[!UICONTROL Adjust]** column, select or deselect references to the assets. 
-    * Tap **[!UICONTROL Back]** to return to the **[!UICONTROL Select Destination]** page.
-    * Tap **[!UICONTROL Cancel]** to stop the move operation.
+    * Specify the references to be adjusted based on the new details, and then click **[!UICONTROL Move]** to proceed.
+
+    * From the **[!UICONTROL Adjust]** column, select/unselect references to the assets.
+    * Click **[!UICONTROL Back]** to return to the **[!UICONTROL Select Destination]** screen.
+
+    * Click **[!UICONTROL Cancel]** to stop the move operation.
 
    If you do not update references, they continue to point to the previous path of the asset. If you adjust the references, they are updated to the new asset path.
 
