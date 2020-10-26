@@ -29,7 +29,7 @@ Configurations can be created for many different features within AEM.
 
 * [Cloud Configurations](/help/sites-administering/configurations.md)
 * [Context Hub Segments](/help/sites-administering/segmentation.md)
-* [Content Fragment Models](/help/assets/content-fragments/content-fragments-models.md)
+* [Content Fragment Models](/help/assets/content-fragments-models.md)
 * [Editable Templates](/help/sites-authoring/templates.md)
 
 ### Example {#administrator-example}
@@ -75,7 +75,7 @@ It is very simple to create a new configuration in AEM by using the Configuratio
 1. Check the type of configurations you wish to allow.
    * [Cloud Configurations](/help/sites-administering/configurations.md)
    * [Context Hub Segments](/help/sites-administering/segmentation.md)
-   * [Content Fragment Models](/help/assets/content-fragments/content-fragments-models.md)
+   * [Content Fragment Models](/help/assets/content-fragments-models.md)
    * [Editable Templates](/help/sites-authoring/templates.md)
 1. Tap or click **Create**.
 
