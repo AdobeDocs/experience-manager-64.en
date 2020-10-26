@@ -225,6 +225,8 @@ To create a new folder, you can either do this:
 >[!NOTE]
 >
 >In the Configuration Browser, you can edit the global folder and activate the **Editable Templates** option if you wish to create templates within this folder, however this is not recommended best practice.
+>
+>See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 
 ### ACLs and Groups {#acls-and-groups}
 

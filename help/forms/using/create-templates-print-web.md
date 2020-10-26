@@ -172,7 +172,8 @@ To create a Web channel template, define a folder where you can save the created
 Execute the following steps to create a folder for the editable templates:
 
 1. Tap **Tools** ![Tools](assets/tools-icon.svg) &gt; **Configuration Browser**.
-1. In the Configuration Browser page, tap **Create**. 
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
+1. In the Configuration Browser page, tap **Create**.
 1. In the **Create Configuration** dialog, specify **Create_First_IC_templates** as the title for the folder, check **Editable Templates**, and tap **Create**.
 
    ![create_first_ic_web_template](assets/create_first_ic_web_template.png)

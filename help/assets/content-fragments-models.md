@@ -34,6 +34,7 @@ To enable content fragment models you need to:
 To [create a new Content Fragment Model](#creating-a-content-fragment-model) you **must** first enable them using the Configuration Manager:
 
 1. Navigate to **[!UICONTROL Tools]**, **[!UICONTROL General]**, then open the **[!UICONTROL Configuration Browser]**.
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 1. Select the location appropriate to your website.
 1. Use **[!UICONTROL Create]** to open the dialog, where you:
 
