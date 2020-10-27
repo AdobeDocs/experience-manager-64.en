@@ -1,7 +1,8 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: forms 
+sub-product: forms
+solution: Experience Manager, Experience Manager Forms
 audience: end-user
 user-guide-title: Adobe Experience Manager 6.4 Forms Guide
 breadcrumb-title: Forms Guide
