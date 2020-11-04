@@ -168,7 +168,7 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
   <tr> 
    <td>MongoDB Enterprise 3.4 [2, 3]</td> 
    <td>Repository</td> 
-   <td>A: Supported</td> 
+   <td>A: Not Supported</td> 
   </tr> 
   <tr> 
    <td>MySQL 5.7</td> 
