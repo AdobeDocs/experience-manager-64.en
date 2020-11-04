@@ -161,14 +161,14 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
    <td>A: Supported</td> 
   </tr> 
   <tr> 
-   <td>MongoDB Enterprise 3.6 [5]</td> 
+   <td>MongoDB Enterprise 3.6 [5, 6]</td> 
    <td>Repository</td> 
-   <td>A: Supported</td> 
+   <td>A: Supported with limitations</td> 
   </tr> 
   <tr> 
-   <td>MongoDB Enterprise 3.4 [2, 3]</td> 
+   <td>MongoDB Enterprise 3.4 [2, 3, 6]</td> 
    <td>Repository</td> 
-   <td>A: Not Supported</td> 
+   <td>A: Supported with limitations</td> 
   </tr> 
   <tr> 
    <td>MySQL 5.7</td> 
@@ -223,6 +223,7 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 1. MongoDB Storage Engine WiredTiger is supported only.
 1. Not supported for AEM Forms.
 1. MongoDB Enterprise 3.6 is supported starting with AEM version 6.4.2.0.
+1. Support for MongoDB 3.4 has reached end of life (EOL), while MongoDB 3.6 is expected to reach EOL on April 30th, 2021. Please note that Adobe will only be providing support for AEM product related issues going forward.
 
 >[!NOTE]
 >
