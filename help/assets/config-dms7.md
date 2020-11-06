@@ -134,8 +134,8 @@ Setup and configuration tasks are:
 * [Publishing setup for Image Server](#publishing-setup-for-image-server)
 * [Configuring application general settings](#configuring-application-general-settings)
 * [Configuring color management](#configuring-color-management)
-* [Configuring asset processing](#configuring-asset-processing)
-* [Adding custom MIME types for unsupported formats](#adding-custom-mime-types-for-unsupported-formats)
+* [Editing MIME types for supported formats](#editing-mime-types-for-supported-formats)
+* [Adding MIME types for unsupported formats](#adding-mime-types-for-unsupported-formats)
 * [Creating batch set presets to auto-generate Image Sets and Spin Sets](#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets)
 
 #### Publishing setup for Image Server {#publishing-setup-for-image-server}
@@ -206,21 +206,18 @@ Doing so would do the following:
 * Dynamic renditions that return RGB output, will return it in the `sRGB` color space.
 * Dynamic renditions that return CMYK output, will return it in the `WebCoated` color space.
 
-#### Configuring asset processing {#configuring-asset-processing}
+#### Editing MIME types for supported formats {#editing-mime-types-for-supported-formats}
 
 You can define which asset types should be processed by Dynamic Media and customize advanced asset processing parameters. For example, you can specifiy asset processing parameters to do the following:
 
 * Convert an Adobe PDF to an eCatalog asset.
 * Convert an Adobe Photoshop Document (.PSD) to a banner template asset for personalization.
 * Rasterize an Adobe Illustrator file (.AI) or an Adobe Photoshop Encapsulated Postscript file (.EPS).
-
->[!NOTE]
->
->Video Profiles and Imaging Profiles can be used to define processing of videos and images, respectively.
+* [Video Profiles](/help/assets/video-profiles.md) and [Imaging Profiles](/help/assets/image-profiles.md) can be used to define processing of videos and images, respectively.
 
 See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
-**To configure asset processing**:
+**To edit mime types for supported formats**
 
 1. In AEM, tap the AEM logo to access the global navigation console, then tap the **[!UICONTROL Tools]** (hammer) icon and navigate to **[!UICONTROL General > CRXDE Lite]**.
 1. In the left rail, navigate to the following:
@@ -246,7 +243,7 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 You can add custom MIME types for unsupported formats in AEM Assets. To ensure that any new node you add in CRXDE Lite is not deleted by AEM, you must ensure that you move the MIME type before **[!UICONTROL image_]** and its enabled value is set to **[!UICONTROL false]**.
 
-**To add custom MIME types for unsupported formats**:
+**To add custom MIME types for unsupported formats**
 
 1. From AEM, click **[!UICONTROL Tools > Operations > Web Console]**.
 
@@ -502,9 +499,11 @@ The Granite Transit Workflow queue is used for the **[!UICONTROL DAM Update Asse
 
 1. In the **[!UICONTROL Maximum Parallel Jobs]** field, change the number to the desired value.
 
-   By default, the maximum number of parallel jobs depends on the number of available CPU cores. For example, on a 4-core server, it assigns 2 worker threads. (A value between 0.0 and 1.0 is ratio based, or any numbers greater than 1 will assign the number of worker threads.)
+   You can increase **[!UICONTROL Maximum Parallel Jobs]** to adequately support heavy upload of files to Dynamic Media. The exact value is dependent on hardware capacity. In certain scenarios&ndash;that is, an initial migration or a one-time bulk upload&ndash;you can use a large value. Be aware, however, that using a large value (such as two times the number of cores) may have negative effects on other concurrent activities. As such, you should test and adjust the value based on your particular use case.
 
-   Adobe recommends that 32 **[!UICONTROL Maximum Parallel Jobs]** be configured to adequately support heavy upload of files to Dynamic Media Classic.
+<!--    By default, the maximum number of parallel jobs depends on the number of available CPU cores. For example, on a 4-core server, it assigns 2 worker threads. (A value between 0.0 and 1.0 is ratio based, or any numbers greater than 1 will assign the number of worker threads.)
+
+   Adobe recommends that 32 **[!UICONTROL Maximum Parallel Jobs]** be configured to adequately support heavy upload of files to Dynamic Media Classic. -->
 
    ![chlimage_1](assets/chlimage_1.jpeg)
 
