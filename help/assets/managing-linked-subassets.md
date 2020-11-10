@@ -111,7 +111,7 @@ For InDesign, you can extract pages using InDesign server. If the previews of pa
 
 The following options are available in the toolbar, in the left rail, and in the Page Viewer controls:
 
-* **[!UICONTROL Desktop Actions]** to open or reveal a specific subasset using AEM desktop app. See how to [configure Desktop Actions](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html#desktopactions-v2) if you are using AEM desktop app.
+* **[!UICONTROL Desktop Actions]** to open or reveal a specific subasset using AEM desktop app. See how to [configure Desktop Actions](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=en#desktopactions-v2) if you are using AEM desktop app.
 
 * **[!UICONTROL Properties]** option opens the [!UICONTROL Properties] page of the specific subasset.
 
@@ -127,4 +127,4 @@ The following options are available in the toolbar, in the left rail, and in the
 
 >[!MORELIKETHIS]
 >
->* [Use Adobe Experience Manager desktop app](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)
+>* [Use Adobe Experience Manager desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html)

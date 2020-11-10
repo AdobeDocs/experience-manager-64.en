@@ -183,4 +183,3 @@ After you have completed the configuration, use a JMX MBean to validate the conf
 >* [Manage Smart Tags](managing-smart-tags.md)
 >* [Overview of and how to train Smart Tags](enhanced-smart-tags.md)
 >* [Guidelines and rules to train the Smart Content Service](smart-tags-training-guidelines.md)
->* [Video tutorial about how to configure smart tags](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html)
