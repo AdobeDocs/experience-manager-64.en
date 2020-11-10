@@ -11,7 +11,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
 # Assets Guide {#assets}
 
 + [Assets user guide](home.md)
-+ [AEM 6.4 Assets release notes](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/assets.html)
++ [AEM 6.4 Assets release notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/assets.html)
 + [About DAM](assets.md)
 + [User experience improvements](ux-improvements.md)
 + [Best practices for assets](best-practices-for-assets.md)
