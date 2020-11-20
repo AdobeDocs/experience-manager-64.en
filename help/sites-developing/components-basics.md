@@ -1020,9 +1020,9 @@ The `cq:listeners` node (node type `cq:EditListenersConfig`) defines what happen
 >[!NOTE]
 >
 >In the case of nested components there are certain restrictions on actions defined as properties on the `cq:listeners` node:  
-
 >
->* For nested components, the values of the following properties *must* be `REFRESH_PAGE`: >
+>* For nested components, the values of the following properties *must* be `REFRESH_PAGE`: 
+>
 >  * `aftermove`
 >  * `aftercopy`
 
