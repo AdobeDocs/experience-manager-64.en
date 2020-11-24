@@ -450,7 +450,7 @@ To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](
 
 >[!NOTE]
 >
->This release onwards, UberJar and other related artifacts are available on Maven Central Repository instead of Adobe Public Maven repository (repo.adobe.com). The main UberJar file is renamed to `uber-jar-<version>.jar`. As a result, there is no `classifier`, with `apis` as the value, for the `dependency` tag.
+>UberJar and other related artifacts are available on Maven Central Repository instead of Adobe Public Maven repository (repo.adobe.com). The main UberJar file is renamed to `uber-jar-<version>.jar`. As a result, there is no `classifier`, with `apis` as the value, for the `dependency` tag.
 
 ## Removed/Deprecated Features {#removed-deprecated-features}
 
