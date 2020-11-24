@@ -1,0 +1,47 @@
+SUBPACKAGE                                          VERSION                       
+----------                                          -------                       
+aem-bundle-remover-content                          1.0.2                         
+com.adobe.granite.datavisualization.content         1.58-CQ640-B0002              
+com.adobe.granite.monitoring.dashboard              1.5.240-CQ640-B0005           
+com.adobe.granite.platform.clientlibs               2.1.26-CQ640-B0014            
+com.adobe.granite.platform.welcome                  1.1.26-CQ640-B0002            
+com.adobe.granite.replication.content               1.0.38-CQ640-B0002            
+com.adobe.granite.security.content                  0.2.376-CQ640-B0008           
+com.adobe.granite.ui.content                        0.8.744-CQ640-B0054           
+com.adobe.granite.ui.coralui3                       1.1.108-CQ640-B0026           
+com.adobe.granite.ui.coralui3-rte                   0.1.38-CQ640-B0016            
+com.adobe.granite.ui.legacy                         1.1.4-CQ640-B0004             
+com.adobe.reef.contexthub.content                   0.3.32                        
+cq-cloudservices-content                            1.4.96                        
+cq-commerce-content                                 1.6.186                       
+cq-content-insight-content                          1.4.12                        
+cq-dam-cfm-content                                  0.10.212                      
+cq-dam-content                                      2.4.972                       
+cq-dam-projects-addons-content                      0.0.46                        
+cq-dam-scene7-viewers-content                       2.2.60                        
+cq-experience-fragments-content                     1.1.358                       
+cq-foundation-content                               1.4.210                       
+cq-inbox-content                                    1.1.70                        
+cq-integration-target-content                       1.2.54                        
+cq-launches-content                                 1.6.24                        
+cq-mcm-content                                      1.4.36-CQ640-B0005            
+cq-personalization-content                          1.2.160                       
+cq-platform-content                                 1.4.312                       
+cq-projects-content                                 1.4.120                       
+cq-social-activitystreams-pkg                       1.5.33                        
+cq-social-console-pkg                               1.5.134                       
+cq-social-enablement-pkg                            2.2.84                        
+cq-social-filelibrary-pkg                           1.4.40                        
+cq-social-group-pkg                                 1.6.61                        
+cq-social-thirdparty-pkg                            1.4.9                         
+cq-ui-classic-content                               1.4.94                        
+cq-ui-touch-optimized-content                       2.5.154                       
+cq-ui-wcm-admin-content                             1.0.1034                      
+cq-ui-wcm-commons-content                           1.0.236                       
+cq-ui-wcm-editor-content                            1.0.218                       
+cq-wcm-content                                      6.4.302                       
+cq-workflow-console-content                         1.3.120                       
+tsdk-aem-clientlib                                  1.1.14-CQ640-B0008            
+----------------------------------------------------------------------------------
+SUMMARY: TOTAL SUB PACKAGES: 42  UPGRADED: 42 DOWNGRDED/MISSING: 0
+----------------------------------------------------------------------------------
