@@ -1,5 +1,5 @@
 ---
-title: AEM 6.4 Cumulative Fix Pack Pack Release Notes
+title: AEM 6.4 Cumulative Fix Pack Release Notes
 description: Release notes specific to Adobe Experience Manager 6.4 Cumulative Fix Packs.
 contentOwner: AK
 mini-toc-levels: 1
