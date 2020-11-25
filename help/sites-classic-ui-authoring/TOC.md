@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
+solution: Experience Manager, Experience Manager Sites
 audience: end-user
 user-guide-title: AEM 6.4 Classic UI Authoring User Guide
 breadcrumb-title: Classic UI Authoring Guide

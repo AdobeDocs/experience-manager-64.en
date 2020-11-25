@@ -10,7 +10,7 @@ Adobe Dynamic Tag Management is a tool that activates your digital marketing too
 
 >[!CAUTION]
 >
->Adobe DTM is deprecated in favor of Adobe Experience Platform Launch and will soon reach [end of life](https://medium.com/launch-by-adobe/dtm-plans-for-a-sunset-3c6aab003a6f). Adobe recommends that you [use Launch for asset insights](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html).
+>Adobe DTM is deprecated in favor of Adobe Experience Platform Launch and will soon reach [end of life](https://medium.com/launch-by-adobe/dtm-plans-for-a-sunset-3c6aab003a6f). Adobe recommends that you [use Launch for asset insights](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html).
 
 Perform these steps to enable Asset Insights through DTM:
 

@@ -1,15 +1,16 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: forms 
+sub-product: forms
+solution: Experience Manager, Experience Manager Forms
 audience: end-user
-user-guide-title: AEM 6.4 Forms User Guide
+user-guide-title: Adobe Experience Manager 6.4 Forms Guide
 breadcrumb-title: Forms Guide
 user-guide-description: Create, manage, publish, and update digital forms.
 ---
-# AEM 6.4 - Forms User Guide {#forms}
+# Adobe Experience Manager 6.4 Forms Guide {#forms}
 
-+ [AEM 6.4 Forms User Guide](home.md)
++ [AEM 6.4 Forms Guide](home.md)
 + Release Notes {#release-notes-new-features}
   + [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/forms.html)
   + [New features summary](using/whats-new.md)

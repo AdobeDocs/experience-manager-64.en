@@ -210,7 +210,7 @@ The Settings panel contains several sub-panels presenting features to configure 
 
 >[!NOTE]
 >
-**[!UICONTROL Allowing Social Logins]**
+>**[!UICONTROL Allowing Social Logins]**
 >
 >While sample Facebook and Twitter configurations may exist and be selectable, for a [production environment](../../help/sites-administering/production-ready.md), it is necessary to create custom Facebook and Twitter applications. See [Social Login with Facebook and Twitter](social-login.md).
 

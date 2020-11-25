@@ -169,7 +169,7 @@ Once the node has been created, add the following properties:
   
   ```
 
-* **includePropertyNames:** `["alias"] (of type String)`
+* **includePropertyNames:** `[alias]` (of type String)
 
 >[!NOTE]
 >
