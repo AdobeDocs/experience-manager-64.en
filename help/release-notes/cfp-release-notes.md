@@ -444,7 +444,8 @@ To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](
 <dependency>
       <groupId>com.adobe.aem</groupId>
       <artifactId>uber-jar</artifactId>
-      <version>6.4.8.3</version>  
+      <version>6.4.8.3</version>
+      <scope>provided</scope>  
 </dependency>
 ```
 
