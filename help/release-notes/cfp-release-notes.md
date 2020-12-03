@@ -93,6 +93,22 @@ Adobe Experience Manager 6.4.8.3 provides fixes for the following issues.
 >
 >[!DNL Experience Manager Forms] releases the add-on packages one week after the scheduled [!DNL Experience Manager] Cumulative Fix Pack release date.
 
+**Adaptive Forms**
+
+* Unable to edit an adaptive form using Classic UI after applying the [!DNL Experience Manager] Cumulative Fix Pack (NPR-35127).
+
+* Fragments take longer time to load in an adaptive form because of cache invalidation (NPR-34655).
+
+* Accessibility: Tab navigation does not work appropriately for screen readers in an adaptive form (NPR-34550).
+
+**Correspondence Management**
+
+* When you migrate the assets from ES3, the assets include two non-editable default conditions (NPR-34971).
+
+**Foundation JEE**
+
+* Migrate [!DNL AEM Forms] users from Flash to HTML (CQ-4304075).
+
 For information on security updates, see [Experience Manager security bulletins page](https://helpx.adobe.com/security/products/experience-manager.html).
 
 ## Hotfixes and Feature Packs included in previous Cumulative Fix Packs {#hotfixes-and-feature-packs-included-in-previous-cumulative-fix-packs}
