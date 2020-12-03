@@ -93,6 +93,10 @@ Adobe Experience Manager 6.4.8.3 provides fixes for the following issues.
 >
 >[!DNL Experience Manager Forms] releases the add-on packages one week after the scheduled [!DNL Experience Manager] Cumulative Fix Pack release date.
 
+>[!NOTE]
+>
+>[!DNL Experience Manager] Cumulative Fix Pack does not include fixes for [!DNL Experience Manager Forms]. They are delivered using a separate [!DNL Forms] add-on package. In addition, a cumulative installer is released that includes fixes for [!DNL Experience Manager Forms] on JEE. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
+
 **Adaptive Forms**
 
 * Unable to edit an adaptive form using Classic UI after applying the [!DNL Experience Manager] Cumulative Fix Pack (NPR-35127).
