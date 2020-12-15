@@ -597,20 +597,26 @@ For pages that are not modified, the pictures still remain in the cache, althoug
 
 #### Personalization {#personalization}
 
-The Dispatcher cannot cache personalized data, so it is recommended that you limit personalization to where it is necessary. To illustrate why:
+It is recommended that you limit personalization to where it is necessary. To illustrate why:
 
 * If you use a freely customizable start page, that page has to be composed every time a user requests it.
 * If, in contrast, you offer a choice of 10 different start pages, you can cache each one of them, thus improving performance.
 
->[!NOTE]
+>[!TIP]
 >
->If you personalize each page (for example by putting the user's name into the title bar) you cannot cache it, which can cause a major performance impact.
+>For further details on configuring the Dispatcher cache, see the [AEM Dispatcher Cache Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/dispatcher-tutorial/overview.html) and its section on [Caching Protected Content.](https://experienceleague.adobe.com/docs/experience-manager-learn/dispatcher-tutorial/chapter-1.html#dispatcher-tips-and-tricks)
+
+If you personalize each page (for example by putting the user's name into the title bar) it can have a performance impact.
+
+>[!TIP]
 >
->However, if you have to do this, you can:
+>For caching secured content see [Caching Secured Content](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/permissions-cache.html) in the Dispatcher guide.
+
+With regards to mixing restricted and public content on one page, you might want to consider a strategy that leverages server side includes in the Dispatcher, or client side includes via Ajax in the browser.
+
+>[!TIP]
 >
->* use iFrames to split the page into one part that is the same for all users and one part that is the same for all pages of the user. You can then cache both of these parts.
->* use client-side JavaScript to display personalized information. However, you have to make sure that the page still displays correctly if a user turns JavaScript off.
->
+>For handling mixed public and restricted content, see [Set up Sling Dynamic Include.](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-sling-dynamic-include.html)
 
 #### Sticky Connections {#sticky-connections}
 
@@ -625,7 +631,7 @@ There are two ways in which a browser can determine the type of a file:
 
 For most files, the MIME-type is implied in the file extension. i.e.:
 
-1. By its extension (e.g. `.html`, `.gif`, `.jpg`, etc)
+1. By its extension (e.g. `.html`, `.gif`, `.jpg`, etc.)
 1. By the MIME-type that the server sends with the file.
 
 If the file name has no extension, it is displayed as plain text.
