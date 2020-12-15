@@ -97,7 +97,11 @@ When using personalization, consider the following:
 #### Caching {#caching}
 
 * Caching is an aspect which the user will see in terms of performance and accuracy - how quickly does the website deliver personalized content, and is it always current.
-* Caching is a key consideration when configuring personalization and time must be taken to ensure that the correct implementation is used. This will be discussed in more detail later.
+* Caching is a key consideration when configuring personalization and time must be taken to ensure that the correct implementation is used.
+
+>[!TIP]
+>
+>Personalization's effect on performance and related caching topics are discussed further in the document [Performance Optimization.](/help/sites-deploying/configuring-performance.md)
 
 ##### Accuracy of Rules {#accuracy}
 
