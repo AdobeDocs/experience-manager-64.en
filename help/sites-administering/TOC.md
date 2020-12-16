@@ -43,7 +43,7 @@ user-guide-description: Learn about administering AEM.
     + [The Bulk Editor](bulk-editor.md)
     + [Configuring Email Notification](notification.md)
     + [Configuring RTE for Producing Accessible Sites](rte-accessible-content.md)
-    + [The External Link Checker](external-link-checker.md)
+    + [The Link Checker](external-link-checker.md)
     + [Troubleshooting AEM](troubleshoot.md)
     + [Audit Log Maintenance in AEM 6](operations-audit-log.md)
     + [Editor](enable-classic-ui-editor.md)
