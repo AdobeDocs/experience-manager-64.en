@@ -151,6 +151,9 @@ Adobe Experience Manager 6.4.8.2 provides fixes for the following issues.
 * You can suspend the [!DNL Live Copy] of a page and inheritance are broken in as seen in the Editor mode. However, in the Page properties, the icon representing inheritance incorrectly indicates that the inheritance exists and is not broken (NPR-34096).
 * Issue with display of allowed components in Edit template page (CQ-4297295).
 * After upgrading Chrome and Firefox, the pop-up menus are not working as expected. On loading the page properties, it does not display the panel when there is data in it (CQ-4292995).
+* Multiple cross site scripting instances in [!DNL Experience Manager Sites] components (NPR-33926).
+* User inputs are not appropriately encoded for various components when sending information to the client (NPR-33696).
+* A URL that ends with `childrenlist.html` displays an HTML page instead of a 404 response. Such URLs are vulnerable to cross site scripting (NPR-33441).
 
 #### Assets {#assets-6482}
 
@@ -227,6 +230,8 @@ Adobe Experience Manager 6.4.8.2 provides fixes for the following issues.
 * The **[!UICONTROL Submit to REST endpoint]** submit action does not work for an adaptive form (NPR-34513).
 
 * Accessibility: When you try to submit an adaptive form without uploading an attachment for a mandatory field, the focus does not shift to the attachment field automatically (NPR-34511).
+
+* User inputs are not appropriately encoded for [!DNL Forms] components when sending information to the client (NPR-33611).
 
 **Workflow**
 
