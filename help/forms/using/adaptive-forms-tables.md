@@ -61,6 +61,14 @@ The drop-down menu for the row also provides the Edit operation to edit row prop
 >
 >While you can add any number of rows in a table, the maximum number of columns you can add is six. Also, you cannot delete the header row from the table.
 
+### Set column width for a table {#set-column-width}
+
+Execute the following steps to set column width for a table:
+
+1. In the **[!UICONTROL Content]** tab, tap the **[!UICONTROL Table]** component and tap the Configure (![Configure](assets/configure-icon.svg))icon.
+
+1. Enter the comma-separated list of values in the **[!UICONTROL Column Width]** field to specify the proportionate width of each column in the table. For example, for a table that includes 3 columns, specifying 2,4,6 as the value in the **[!UICONTROL Column Width]** field results in setting the width of columns as 2/12 for first column, 4/12 for second column, and 6/12 for third column. 2/12 as the width for the first column refers to one-sixth of the table width. Similarly, 4/12 sets the second column width as one-third of the table width and 6/12 sets the third column width as half of the table width.
+
 ### Add table description {#add-table-description}
 
 You can add a description of the table to explain how the information is organized that screen readers can interpret and read out. To add the description:
