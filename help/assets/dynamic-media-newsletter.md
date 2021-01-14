@@ -35,15 +35,15 @@ In this one-stop shop newsletter, discover valuable knowledge-building resources
     * Fast-track your Adobe expertise with Adobe Experience League. -->
 
 * **[April 2020, Issue 3](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2020_April.html)**
-    
+
     In this issue:
 
-    * Discover three ways your rich media investment can help during these challenging times.
-    * Sign up for the webinar to learn how to lighten your page load with Smart Imaging.
-    * Watch the on-demand Skill Builder webinars for Dynamic Media Classic.
-    * View the Dynamic Media sessions from Online Adobe Summit 2020.
-    * Learn more about our free Dynamic Media Classic audits.
-    * Meet John Monroe, Senior Program Manager for Customer Success Services.
+  * Discover three ways your rich media investment can help during these challenging times.
+  * Sign up for the webinar to learn how to lighten your page load with Smart Imaging.
+  * Watch the on-demand Skill Builder webinars for Dynamic Media Classic.
+  * View the Dynamic Media sessions from Online Adobe Summit 2020.
+  * Learn more about our free Dynamic Media Classic audits.
+  * Meet John Monroe, Senior Program Manager for Customer Success Services.
 
     >[!IMPORTANT]
     >
@@ -53,105 +53,104 @@ In this one-stop shop newsletter, discover valuable knowledge-building resources
 
     In this issue:
 
-    * Attend new Skill Builder Webinars and transform into a Dynamic Media Classic expert.
-    * See where you'll find Dynamic Media at Adobe Summit 2020.
-    * Discover how to use the cropping magic of Dynamic Media.
-    * Take advantage of a free audit to help you get more value from Dynamic Media Classic.
-    * Learn about the new user interface for Dynamic Media Classic.
-    * Meet Georgia Myers, Manager of Customer Success for Adobe Experience Cloud.
+  * Attend new Skill Builder Webinars and transform into a Dynamic Media Classic expert.
+  * See where you'll find Dynamic Media at Adobe Summit 2020.
+  * Discover how to use the cropping magic of Dynamic Media.
+  * Take advantage of a free audit to help you get more value from Dynamic Media Classic.
+  * Learn about the new user interface for Dynamic Media Classic.
+  * Meet Georgia Myers, Manager of Customer Success for Adobe Experience Cloud.
 
 * **[January 2020, Issue 1](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_01_2020_Jan.html)**
 
     In this issue:
 
-    * Five new Skill Builder Webinars to hone your Dynamic Media Classic skills.
-    * A free audit to help you get more value from Dynamic Media Classic.
-    * A record-setting holiday shopping season for our rich media customers.
-    * Your go-to guide for selecting a DAM (Digital Asset Manager) that meets your needs for today and prepares you for what's new in rich media tomorrow.
-    * Meet Mark Dean, Digital Media Specialist.
+  * Five new Skill Builder Webinars to hone your Dynamic Media Classic skills.
+  * A free audit to help you get more value from Dynamic Media Classic.
+  * A record-setting holiday shopping season for our rich media customers.
+  * Your go-to guide for selecting a DAM (Digital Asset Manager) that meets your needs for today and prepares you for what's new in rich media tomorrow.
+  * Meet Mark Dean, Digital Media Specialist.
 
 * **[November 2019, Issue 11](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)**
 
     In this issue:
 
-    * A refresh of the Dynamic Media Classic user interface.
-    * Powerful new security features.
-    * How we are preparing so you have a successful holiday season.
-    * Share the newsletter with your colleagues to build team expertise.
-    * Meet Apoorva Gupta, Senior Product Manager, Dynamic Media.
+  * A refresh of the Dynamic Media Classic user interface.
+  * Powerful new security features.
+  * How we are preparing so you have a successful holiday season.
+  * Share the newsletter with your colleagues to build team expertise.
+  * Meet Apoorva Gupta, Senior Product Manager, Dynamic Media.
 
 * **[October 2019, Issue 10](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**
 
     In this issue:
 
-    * How you can get advanced analytics on the actions visitors take in your Dynamic Media viewers.
-    * An infographic with tips for jawdropping results from delivering high-quality images and videos.
-    * A CMSwire article that helps you understand how to update your rich media strategy to meet today's customer expectations.
-    * Access to the on-demand webinar on Dynamic Media from the Skill Builder series.
-    * Meet Nick Peters, Manager, Site Reliability Engineering, Adobe Experience Manager.
-    * Get up to speed on Dynamic Media and Dynamic Media Classic in Experience League.
+  * How you can get advanced analytics on the actions visitors take in your Dynamic Media viewers.
+  * An infographic with tips for jawdropping results from delivering high-quality images and videos.
+  * A CMSwire article that helps you understand how to update your rich media strategy to meet today's customer expectations.
+  * Access to the on-demand webinar on Dynamic Media from the Skill Builder series.
+  * Meet Nick Peters, Manager, Site Reliability Engineering, Adobe Experience Manager.
+  * Get up to speed on Dynamic Media and Dynamic Media Classic in Experience League.
 
 * **[September 2019, Issue 09](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_09_2019_Sept.html)**
 
     In this issue:
 
-    * Supercharge your customer experiences by eliminating these 9 "gotchas."
-    * Find out how the Dynamic Media team can help you prepare for a day with higher than normal visitor traffic.
-    * A second chance to catch two recent Skill Builder webinars.
-    * Watch the on-demand webinar on protecting your digital assets from piracy.
-    * Meet Bridget Roman, Senior Product Marketing Manager for Adobe Experience Manager Assets.
-    * Get up to speed on Dynamic Media and Dynamic Media Classic in Experience League.
-
+  * Supercharge your customer experiences by eliminating these 9 "gotchas."
+  * Find out how the Dynamic Media team can help you prepare for a day with higher than normal visitor traffic.
+  * A second chance to catch two recent Skill Builder webinars.
+  * Watch the on-demand webinar on protecting your digital assets from piracy.
+  * Meet Bridget Roman, Senior Product Marketing Manager for Adobe Experience Manager Assets.
+  * Get up to speed on Dynamic Media and Dynamic Media Classic in Experience League.
 
 * **[August 2019, Issue 08](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_08_2019_Aug.html)**
- 
+
     In this issue:
 
-    * Explore valuable features available only when you upgrade to Dynamic Media.
-    * Learn about a webinar series designed to get you up to speed on Adobe Experience Manager Assets and Dynamic Media.
-    * Start your journey getting value from Dynamic Media on Experience League.
-    * Get a sneak peek at a powerful integration coming this September that lets you analyze how visitors interact with your rich media.
-    * Meet PieterJan Pieper, Dynamic Media technical support wiz.
-
+  * Explore valuable features available only when you upgrade to Dynamic Media.
+  * Learn about a webinar series designed to get you up to speed on Adobe Experience Manager Assets and Dynamic Media.
+  * Start your journey getting value from Dynamic Media on Experience League.
+  * Get a sneak peek at a powerful integration coming this September that lets you analyze how visitors interact with your rich media.
+  * Meet PieterJan Pieper, Dynamic Media technical support wiz.
 
 * **[July 2019, Issue 07](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)**
 
     In this issue:
 
-    * Resources and information that let you properly manage your high-value assets to confidently deliver experiences that keep your visitors coming back.
-    * Learn about an upcoming webinar on protecting your digital assets.
-    * Next stops on the information-filled Adobe Insider Tour.
-    * Exciting capabilities available when you have Dynamic Media within Adobe Experience Manager Assets (AEM Assets).
-    * Adding 360-degree videos and custom video thumbnails to your website.
-    * Meet Andrew Hathaway, Principal Solutions Consultant for Dynamic Media within AEM Assets.
+  * Resources and information that let you properly manage your high-value assets to confidently deliver experiences that keep your visitors coming back.
+  * Learn about an upcoming webinar on protecting your digital assets.
+  * Next stops on the information-filled Adobe Insider Tour.
+  * Exciting capabilities available when you have Dynamic Media within Adobe Experience Manager Assets (AEM Assets).
+  * Adding 360-degree videos and custom video thumbnails to your website.
+  * Meet Andrew Hathaway, Principal Solutions Consultant for Dynamic Media within AEM Assets.
 
 * **[June 2019, Issue 06](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_06_2019_June.html)**
 
     In this issue:
 
-    * Enjoy videos that highlight the awesomeness of upgrading to Dynamic Media within AEM Assets.
-    * Watch key how-to videos in Experience League.
-    * Learn more about the upcoming Adobe Insider Tour.
-    * Read about how you can protect your digital assets from being pirated.
-    * Learn about AI-driven Smart Crop for images.
-    * Meet Alex Thiers, one of the driving forces behind many of the great features and innovations within Dynamic Media and Dynamic Media Classic.
+  * Enjoy videos that highlight the awesomeness of upgrading to Dynamic Media within AEM Assets.
+  * Watch key how-to videos in Experience League.
+  * Learn more about the upcoming Adobe Insider Tour.
+  * Read about how you can protect your digital assets from being pirated.
+  * Learn about AI-driven Smart Crop for images.
+  * Meet Alex Thiers, one of the driving forces behind many of the great features and innovations within Dynamic Media and Dynamic Media Classic.
 
 * **[May 2019, Issue 05](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)**
 
     In this issue:
 
-    * Discover top 10 hidden features of Dynamic Media Classic in a blog post.
-    * Watch key how-to videos in Experience League.
-    * Learn about the upcoming Adobe Insider Tour.
-    * Read a three-part blog series to update your rich media strategy.
-    * Learn about AI-driven video smart cropping.
+  * Discover top 10 hidden features of Dynamic Media Classic in a blog post.
+  * Watch key how-to videos in Experience League.
+  * Learn about the upcoming Adobe Insider Tour.
+  * Read a three-part blog series to update your rich media strategy.
+  * Learn about AI-driven video smart cropping.
 
 * **[April 2019, Issue 04](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)**
 
     Welcome to the inauguration issue of the Dynamic Media Newsletter, our new monthly newsletter filled with news, events, and resources for users of Dynamic Media within Adobe Experience Manager Assets and Adobe Dynamic Media Classic.
-    
+
     In this issue:
-    * Register for our Dynamic Media Classic Hidden Features webinar.
-    * Learn about our on-demand webinar series to help you develop your rich media strategy.
-    * Read about key rich media use cases and our solutions for them. 
-    * ... and much more!
+
+  * Register for our Dynamic Media Classic Hidden Features webinar.
+  * Learn about our on-demand webinar series to help you develop your rich media strategy.
+  * Read about key rich media use cases and our solutions for them. 
+  * ... and much more!

@@ -15,13 +15,13 @@ discoiquuid: e6c9b50b-c27c-48bf-b3c0-9994e7bf6d7e
 
 Dynamic Media assets are cached by the CDN for fast delivery. However, when you make updates to an asset, you may want those changes to take effect immediately. Invalidating your CDN (Content Delivery Network) cached content lets you quickly update assets that are delivered by Dynamic Media, instead of waiting for the cache to expire.
 
-See also [Cache overview in Dynamic Media Classic (Scene7)](https://helpx.adobe.com/experience-manager/scene7/kb/base/caching-questions/scene7-caching-overview.html).
+See also [Cache overview in Dynamic Media Classic](https://helpx.adobe.com/experience-manager/scene7/kb/base/caching-questions/scene7-caching-overview.html).
 
 **To invalidate your CDN cached content:**
 
-1. Log on to your Dynamic Media Classic (Scene7) account:
+1. Sign in to your Dynamic Media Classic desktop application.
 
-   [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
+   [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html?lang=en#system-requirements-dmc-app)
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
@@ -37,7 +37,7 @@ See also [Cache overview in Dynamic Media Classic (Scene7)](https://helpx.adobe.
    If the Template just contains `<ID>`, then Dynamic Media fills in `https://<server>/is/image` where `<server>` is the Publish Server Name that is defined in General Settings and &lt;ID&gt; is the asset(s) selected to be invalidated.
 
 1. In the lower-right corner of the page, click **[!UICONTROL Close]**.
-1. In the Dynamic Media Classic (Scene7) UI, select one or more assets, then click **[!UICONTROL File > Invalidate CDN]**. You will see a list of one or more URLs generated from the template you created and the asset(s) you selected. It uses the server URL listed under "Published Server Name" under the Application General Settings.
+1. In the user interface of the Dynamic Media Classic desktop application, select one or more assets, then click **[!UICONTROL File > Invalidate CDN]**. You will see a list of one or more URLs generated from the template you created and the asset(s) you selected. It uses the server URL listed under "Published Server Name" under the Application General Settings.
 
    For example, with the CDN Invalidation Template set in the previous step, suppose you selected a single image asset image named `Backpack_B`. When you click **[!UICONTROL File > Invalidate CDN]** it results in the following generated URL in the CDN Invalidation user interface:
 

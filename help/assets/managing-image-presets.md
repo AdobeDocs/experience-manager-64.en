@@ -383,7 +383,7 @@ When you create or edit image presets, you have the options described in this se
     </ul> 
     <div>
       Sharpening is described in 
-     <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/assets/s7_sharpening_images.pdf">Sharpening Images</a>. 
+     <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/assets/sharpening_images.pdf">Sharpening Images</a>. 
     </div> </td> 
   </tr> 
   <tr> 
