@@ -1,12 +1,10 @@
 ---
 title: Managing Dynamic Media image presets
 description: Understand Dynamic Media image presets and learn how to create, modify, and manage image presets
-uuid: 087e6c32-82d5-4645-8dba-0a22c62f891f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: e401816d-eba5-4833-a3bd-e2e45bc3b19e
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets
 ---
 
@@ -382,8 +380,8 @@ When you create or edit image presets, you have the options described in this se
      <li><strong>Apply to</strong> - Determines whether the unsharpening applies to each color or brightness.</li> 
     </ul> 
     <div>
-      Sharpening is described in 
-     <a href="https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/assets/s7_sharpening_images.pdf">Sharpening Images</a>. 
+      Sharpening is described in  
+     <a href="https://experienceleague.adobe.com/doc/experience-manager-64/assets/assets/sharpening_images.pdf">Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices</a>. 
     </div> </td> 
   </tr> 
   <tr> 
@@ -496,8 +494,6 @@ If you are running Dynamic Media - Scene7 mode, image presets are automatically 
    ![chlimage_1-505](assets/chlimage_1-505.png)
 
 ## Deleting Dynamic Media image presets {#deleting-image-presets}
-
-**To delete Dynamic Media image presets**:
 
 1. In AEM, tap the AEM logo to access the global navigation console.
 1. Tap the **[!UICONTROL Tools]** icon, then navigate to **[!UICONTROL Assets > Image Presets]**.
