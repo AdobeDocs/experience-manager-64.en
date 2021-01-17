@@ -1,8 +1,8 @@
 ---
 title: Components and Services Java APIQuick Start(SOAP)
 seo-title: Components and Services Java APIQuick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Components and Services Java API Quick Start to deploy a component, set the execution context of a service, disable service security, start a service, modify service configuration values, and remove components.
+seo-description: Use the Components and Services Java API Quick Start to deploy a component, set the execution context of a service, disable service security, start a service, modify service configuration values, and remove components.
 uuid: 7d9ade2d-f927-4558-9e80-df08bd572772
 contentOwner: admin
 content-type: reference

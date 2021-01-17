@@ -1,8 +1,8 @@
 ---
 title: Document Security Service JavaAPI Quick Start(SOAP)
 seo-title: Document Security Service JavaAPI Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Rights management service Java API to create a policy, modify a policy, delete a policy, apply a policy to a PDF document, remove a policy from  a PDF document, revoke a document, reinstate access to a revoked document, inspect policy protected PDF documents, create a watermark, modify a watermark, search for events, and remove a policy from a Word document. 
+seo-description: Use the Rights management service Java API to create a policy, modify a policy, delete a policy, apply a policy to a PDF document, remove a policy from  a PDF document, revoke a document, reinstate access to a revoked document, inspect policy protected PDF documents, create a watermark, modify a watermark, search for events, and remove a policy from a Word document.
 uuid: f3823a95-c8c2-42c8-8edc-3ab8ab4311dc
 contentOwner: admin
 content-type: reference
