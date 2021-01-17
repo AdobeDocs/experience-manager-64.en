@@ -41,7 +41,7 @@ Some key highlights of this service pack release are:
 
 * Form data model integration using SOAP web service now supports choice groups or attributes on elements.
 
-* AEM Assets is now configured with Brand Portal through Adobe I/O.
+* AEM Assets is now configured with Brand Portal through [!DNL Adobe I/O].
 
 * Updated the jQuery version bundled in ContextHub to 3.2.1.
 

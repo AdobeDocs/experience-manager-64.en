@@ -20,9 +20,9 @@ With Dynamic Media you have several options:
 * If your website is hosted on AEM, then you want to add the dynamic media assets directly to your page. 
 * If your website is not on AEM, then you have the choice of either:
 
-    * Embedding your video or image on your website.
-    * Link URLs to your web application. Use linking when you want to deliver a video player as a pop-up or modal window.
-    * If your site is responsive, you can [deliver optimized images.](responsive-site.md)
+  * Embedding your video or image on your website.
+  * Link URLs to your web application. Use linking when you want to deliver a video player as a pop-up or modal window.
+  * If your site is responsive, you can [deliver optimized images.](responsive-site.md)
 
 >[!NOTE]
 >
