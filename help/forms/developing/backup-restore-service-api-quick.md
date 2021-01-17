@@ -1,8 +1,8 @@
 ---
 title: Backup and Restore Service APIQuick Starts
 seo-title: Backup and Restore Service APIQuick Starts
-description: null
-seo-description: null
+description: Use the Backup and Restore Service API to enter and leave backup mode using the Java API Quick Start.
+seo-description: Use the Backup and Restore Service API to enter and leave backup mode using the Java API Quick Start.
 uuid: c3992be2-ceb4-480d-9c8f-71eb0ea66dde
 contentOwner: admin
 content-type: reference
