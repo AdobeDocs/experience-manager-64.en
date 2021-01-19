@@ -108,6 +108,6 @@ If sharpening results are still not satisfactory, increase the radius in decimal
 
 As you experiment, you may also find the following general suggestions helpful to optimize your workflow:
 
-* Try out and test different parameters in real time, either directly on a URL or using the Scene7 Publishing System's image adjustment functionality which provides real-time previews for adjustment operations.
+* Try out and test different parameters in real time, directly on a URL.
 * As a best practice, remember that you can group Dynamic Media Image Serving commands into an image preset. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. The custom preset name in a URL path makes a call to these presets. Such functionality helps you manage commands and quality settings for different usage patterns of images on your website and shortens the overall length of URLs.
 * AEM also provides more advanced ways to tune image quality, such as applying sharpening images on ingestion. For advanced use cases where this may be an option to further tune and optimize rendering results, [Adobe Professional Services](https://www.adobe.com/experience-cloud/consulting-services.html) can help you with customized insight and best practices.

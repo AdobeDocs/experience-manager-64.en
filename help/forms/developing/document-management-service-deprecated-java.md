@@ -1,8 +1,8 @@
 ---
 title: Document Management Service (Deprecated)Java API Quick Start(SOAP)
 seo-title: Document Management Service (Deprecated)Java API Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Document Management Service Java API to create Content Services spaces, delete Content Services spaces, Add content to Content Services, retrieve content from Content Services, move Content Services content, list Content Services content, search Content Services content, and set Content Services permissions.
+seo-description: Use the Document Management Service Java API to create Content Services spaces, delete Content Services spaces, Add content to Content Services, retrieve content from Content Services, move Content Services content, list Content Services content, search Content Services content, and set Content Services permissions.
 uuid: 967c282a-ccde-4489-a4d5-53c6a1a0cac0
 contentOwner: admin
 content-type: reference

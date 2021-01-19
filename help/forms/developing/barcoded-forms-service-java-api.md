@@ -1,8 +1,8 @@
 ---
 title: Barcoded Forms Service Java APIQuick Start(SOAP)
 seo-title: Barcoded Forms Service Java APIQuick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Barcoded Forms service to decode barcoded form data using the Java API Quick Start.
+seo-description: Use the Barcoded Forms service to decode barcoded form data using the Java API Quick Start.
 uuid: a6739695-ee0b-4480-8cef-0f91a72deaad
 contentOwner: admin
 content-type: reference
