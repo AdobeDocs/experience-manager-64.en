@@ -101,7 +101,7 @@ In **Unsharp Mask**, you have the following filtering options:
  </tbody> 
 </table>
 
-<!-- Sharpening is described in [Sharpening Images](/help/assets/assets/sharpening_images.pdf). -->
+Sharpening is described in [Sharpening Images](/help/assets/assets/sharpening_images.pdf).
 
 ## Creating Dynamic Media image profiles {#creating-image-profiles}
 
