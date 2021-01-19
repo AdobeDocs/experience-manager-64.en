@@ -380,8 +380,7 @@ When you create or edit image presets, you have the options described in this se
      <li><strong>Apply to</strong> - Determines whether the unsharpening applies to each color or brightness.</li>
     </ul>
     <div>
-      Sharpening is described in  
-     <a href="https://experienceleague.adobe.com/doc/experience-manager-64/assets/assets/sharpening_images.pdf">Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices</a>.
+      Sharpening is described in * Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices</a>.
     </div> </td>
   </tr>
   <tr>
