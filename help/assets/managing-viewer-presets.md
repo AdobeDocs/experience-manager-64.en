@@ -16,12 +16,12 @@ legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer
 
 A Dynamic Media viewer preset is a collection of settings that determine how users view rich-media assets on their computer screens and mobile devices. If you are an administrator, you can create Viewer Presets. Settings are available for an array of viewer configuration options. For example, you can change the viewer display size or zoom behavior.
 
-For instructions on creating and customizing your own HTML5 viewer presets, see the *Adobe Scene7 HTML5 Viewer SDK*. The SDK is available on the IS publish server embedded in the SDK itself. Each library version has its own SDK documentation included.
+For instructions on creating and customizing your own HTML5 viewer presets, see the Adobe Dynamic Media *HTML5 Viewer SDK API Documentation*. The SDK is available on the IS publish server embedded in the SDK itself. Each library version has its own SDK documentation included.
 
 Path: `<scene7_domain>/s7sdk/<library_version>/docs/jsdocs/index.html`.  
-For example, 3.5 SDK: [https://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html](https://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html)
+For example, 3.10 SDK: [https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html](https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html)
 
-See also the [Adobe Viewers Reference Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+See also the [Adobe Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 This section describes how to create, edit, and manage viewer presets. You can apply a viewer preset to an asset anytime you preview it. See [Applying Viewer Presets](viewer-presets.md).
 
@@ -33,7 +33,7 @@ This section describes how to create, edit, and manage viewer presets. You can a
 
 All out-of-the-box viewers support keyboard accessibility.
 
-See also [Keyboard accessiblity and navigation](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/c-keyboard-accessibility.html).
+See also [Keyboard accessiblity and navigation](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/c-keyboard-accessibility.html).
 
 ## Managing Dynamic Media viewer presets {#managing-presets}
 

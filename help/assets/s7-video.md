@@ -130,7 +130,7 @@ The following table provides a high level comparison of supported capabilties be
 | Approach |HTML5 first approach. Flash is only used for non-HTML5 fallback. |Flash on most desktops. HTML5 is used for mobile and tablets. |
 | Delivery |Progressive |Adaptive Streaming |
 | Tracking |Yes |Yes |
-| Extensibility |Yes |Yes (with Scene7 viewer SDK) |
+| Extensibility |Yes |Yes (with [HTML5 Viewer SDK API Documentation](https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html)) |
 | Mobile Video |Yes |Yes |
 
 ### Setting Up {#setting-up}

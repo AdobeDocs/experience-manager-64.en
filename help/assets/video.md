@@ -890,19 +890,13 @@ For video reports to work correctly, a Report Suite ID is automatically created 
 
 1. In the table that lists the top published videos, tap a video name to play the video and also see the video’s audience retention (drop-off) report.
 
-### Viewing video reports based on a video viewer that you created using the Scene7 HMTL5 Viewer SDK {#viewing-video-reports-based-on-a-video-viewer-that-you-created-using-the-scene-hmtl-viewer-sdk}
+### Viewing video reports based on a video viewer that you created using the HTML5 Viewer SDK {#viewing-video-reports-based-on-a-video-viewer-that-you-created-using-the-scene-hmtl-viewer-sdk}
 
-If you are using an out-of-box video viewer provided by Dynamic Media, or if you created a custom viewer preset based off of an out-of-box video viewer, then no additional steps are required to view video reports. However, if you have created your own video viewer based off the Scene7 HTML5 Viewer SDK, then use the following steps to ensure the your video viewer is sending tracking events to Dynamic Media Video Reports.
+If you are using an out-of-box video viewer provided by Dynamic Media, or if you created a custom viewer preset based off of an out-of-box video viewer, then no additional steps are required to view video reports. However, if you have created your own video viewer based off the HTML5 Viewer SDK API, then use the following steps to ensure the your video viewer is sending tracking events to Dynamic Media Video Reports.
 
-Use the Scene7 Viewers Reference and the Scene7 HTML5 Viewers SDK to create your own video viewers.
+Use the [Adobe Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html) and the [HTML5 Viewer SDK API](https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html) to create your own video viewers.
 
-See [Scene7 Viewers Reference Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
-
-Download the Scene7 HTML Viewer SDK from Adobe Developer Connection.
-
-See [Adobe Developer Connection](https://help.adobe.com/en_US/scene7/using/WSef8d5860223939e2-43dedf7012b792fc1d5-8000.html).
-
-To view Video Reports based on a video viewer that you created using the Scene7 HTML5 Viewer SDK:
+To view Video Reports based on a video viewer that you created using the HTML5 Viewer SDK API:
 
 1. Navigate to any published video asset.
 1. Near the upper-left corner of the asset's page, from the drop-down list, select **[!UICONTROL Viewers]**.
@@ -929,7 +923,7 @@ To view Video Reports based on a video viewer that you created using the Scene7 
 
 1. Create the TrackingManager component by doing the following:
 
-    * After calling `s7sdk.Utils.init();` create a TrackingManager instance to track events by adding the following: 
+    * After calling `s7sdk.Util.init();` create a TrackingManager instance to track events by adding the following: 
 
       `var trackingManager = new s7sdk.TrackingManager();` 
   
@@ -1028,7 +1022,7 @@ You can make your long form videos easier to watch and navigate by adding chapte
 >
 >The video player that is used must support the use of chapter markers. Dynamic Media video players do support chapter markers but using third party video players may not.
 
-If desired, you can create and brand your own custom video viewer with chapters instead of using a video viewer preset. For instructions on creating your own HTML5 viewer with chapter navigation, in the Adobe Scene7 Viewer SDK for HTML5 guide, reference the heading “Customizing Behavior Using Modifiers” under the classes `s7sdk.video.VideoPlayer` and `s7sdk.video.VideoScrubber`. The Adobe Scene7 Viewer SDK is available as a download from [Adobe Developer Connection](https://help.adobe.com/en_US/scene7/using/WSef8d5860223939e2-43dedf7012b792fc1d5-8000.html).  
+If desired, you can create and brand your own custom video viewer with chapters instead of using a video viewer preset. For instructions on creating your own HTML5 viewer with chapter navigation, in the Adobe HTML5 Viewer SDK API, reference the heading “Customizing Behavior Using Modifiers” under the classes `s7sdk.video.VideoPlayer` and `s7sdk.video.VideoScrubber`. See the [HTML5 Viewer SDK API]((https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html)) documentation.  
   
 You create a chapter list for your video in much the same way that you create captions. That is, you create a WebVTT file. Note, however, that this file must be separate from any WebVTT caption file that you may also be using; you cannot combine captions and chapters into one WebVTT file.  
   
