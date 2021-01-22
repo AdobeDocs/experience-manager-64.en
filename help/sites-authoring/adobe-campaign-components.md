@@ -24,7 +24,7 @@ When you open a newsletter/email that is configured to integrate with Adobe Camp
 * Heading (Campaign)
 * Image (Campaign)
 * Link (Campaign)
-* Scene7 Image Template (Campaign)
+* Dynamic Media  Image Template (Campaign)
 * Targeted reference (Campaign)
 * Text & Image (Campaign)
 * Text & Personalization (Campaign)
@@ -170,7 +170,7 @@ You can configure the following in the **Display**, **URL Info**, or **Advanced*
 
 The following example shows a Link (Campaign) component being displayed.
 
-![chlimage_1-110](assets/chlimage_1-110.png) 
+![chlimage_1-110](assets/chlimage_1-110.png)
 
 ### Scene7 Image Template (Campaign) {#scene-image-template-campaign}
 

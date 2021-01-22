@@ -70,7 +70,7 @@ When assets are not transmitted over a network the overall performance improves 
 
 ### Process renditions {#process-renditions}
 
-After you load the assets into the system, you need to process them through the DAM Update Asset workflow to extract metadata and generate renditions. Before performing this step, you need to duplicate and modify the DAM Update Asset workflow to fit your needs. Some steps in the default workflow may not be necessary for you, such as Scene7 PTIFF generation or InDesign server integration.
+After you load the assets into the system, you need to process them through the DAM Update Asset workflow to extract metadata and generate renditions. Before performing this step, you need to duplicate and modify the DAM Update Asset workflow to fit your needs. Some steps in the default workflow may not be necessary for you, such as Dynamic Media Classic PTIFF generation or InDesign server integration.
 
 After you have configured the workflow according to your needs, you have two options to execute it:
 

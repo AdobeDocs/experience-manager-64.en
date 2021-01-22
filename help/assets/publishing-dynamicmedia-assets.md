@@ -1,14 +1,10 @@
 ---
 title: Publishing Dynamic Media Assets
-seo-title: Publishing Dynamic Media Assets
-description: How to publish dynamic media assets
-seo-description: How to publish dynamic media assets
-uuid: b1bee905-86cf-4284-8d4e-067e11557899
+description: How to publish Dynamic Media assets including HTTP/2 delivery of those assets.
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 99d7025f-d022-4213-83c0-815a4712c573
 ---
 
 # Publishing Dynamic Media Assets {#publishing-dynamic-media-assets}

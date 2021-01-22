@@ -153,7 +153,7 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 
    >[!NOTE]
    >
-   >When you upload assets by way of FTP, the upload job options you set in Dynamic Media Classic (Scene7) take precedent over asset processing parameters set in AEM.
+   >When you upload assets by way of FTP, the upload job options you set in Dynamic Media Classic take precedent over asset processing parameters set in AEM.
 
 1. In the lower-right corner of the **[!UICONTROL Upload Job Options]** dialog box, tap **[!UICONTROL Save]**.
 1. In the lower-right corner of the **[!UICONTROL Upload]** page, tap **[!UICONTROL Submit Upload]**.

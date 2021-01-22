@@ -58,7 +58,7 @@ Adobe Experience Manager 6.4.8.3 provides fixes for the following issues.
 
 * In Image Preset settings, when the option [!UICONTROL Enable JPG Chrominance Downsampling] is deselected in [!DNL Experience Manager], the change does not sync with [!DNL Dynamic Media] (NPR-34284).
 * In the [!UICONTROL Viewer Presets Editor], when editing [!UICONTROL PanoramicImage/PanoramicImage_VR] preset, in the `PanoramicView` component, the `PANORAMICVIEW_AUTOROTATE` modifier label is not available (CQ-4302043).
-* Unpublishing a video from [!DNL Experience Manager] does not unpublish the Adaptive Video Set on configured Scene7. (CQ-4304405).
+* Unpublishing a video from [!DNL Experience Manager] does not unpublish the Adaptive Video Set on configured Dynamic Media Classic. (CQ-4304405).
 
 ### Platform {#platform-6483}
 
@@ -180,7 +180,7 @@ Adobe Experience Manager 6.4.8.2 provides fixes for the following issues.
 
 * The Smart Crop functionality fails with error when image profile is added to a folder having multiple (for example, 11) aspect ratios (NPR-34083).
 
-* Changes to image presets in [!UICONTROL Adobe Experience Manager] do not sync to Scene7 Publishing System (NPR-34284, CQ-4299713).
+* Changes to image presets in [!UICONTROL Adobe Experience Manager] do not sync to Dynamic Media Classic (NPR-34284, CQ-4299713).
 
 * The [!UICONTROL PANORAMICVIEW_AUTOROTATE] modifier label is missing from the [!UICONTROL Behavior] tab in [!UICONTROL Viewer Preset Editor] page (CQ-4302043).
 

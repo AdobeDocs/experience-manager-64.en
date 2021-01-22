@@ -158,7 +158,7 @@ As of AEM 6.2 and with a feature pack for AEM 6.1, you can perform offloading wi
 
 ### DAM Update Asset configuration {#dam-update-asset-configuration}
 
-The DAM Update Asset workflow contains a full suite of steps that are configured for tasks, such as Scene7 PTIFF generation and InDesign Server integration. However, most users may not require several of these steps. Adobe recommends you create a custom copy of the DAM Update Asset workflow model, and remove any unnecessary steps. In this case, update the launchers for DAM Update Asset to point to the new model.
+The DAM Update Asset workflow contains a full suite of steps that are configured for tasks, such as Dynamic Media Classic PTIFF generation and InDesign Server integration. However, most users may not require several of these steps. Adobe recommends you create a custom copy of the DAM Update Asset workflow model, and remove any unnecessary steps. In this case, update the launchers for DAM Update Asset to point to the new model.
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ Customers use images of various sizes and formats across their website or for di
 
 Many Sites customers implement an image servlet that resizes and crops images at the time they are requested, which imposes additional load on the publish instance. However, as long as these images can be cached, the challenge can be mitigated.
 
-An alternative approach is to use Scene7 technology to hand off image manipulation entirely. Additionally, you can deploy Brand Portal which not only takes over rendition generation responsibilities from the AEM infrastructure, but also the entire publish tier.
+An alternative approach is to use Dynamic Media Classic technology to hand off image manipulation entirely. Additionally, you can deploy Brand Portal which not only takes over rendition generation responsibilities from the AEM infrastructure, but also the entire publish tier.
 
 #### ImageMagick {#imagemagick}
 

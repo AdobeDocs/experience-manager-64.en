@@ -1,14 +1,10 @@
 ---
 title: Profiles for Processing Metadata, Images, and Videos
-seo-title: Profiles for Processing Metadata, Images, and Videos
 description: A profile a set of rules around the options to be applied to assets uploaded to a folder. Specify what metadata profile and video encoding profile to apply to video assets that you upload. For image assets, you can also specify what imaging profile to apply to image assets to have them properly cropped.
-seo-description: A profile a set of rules around the options to be applied to assets uploaded to a folder. Specify what metadata profile and video encoding profile to apply to video assets that you upload. For image assets, you can also specify what imaging profile to apply to image assets to have them properly cropped.
-uuid: d95978b9-ffa4-4895-854f-3f7bd396e019
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 347a90ae-a0c5-44f5-8e80-edc3edc1386f
 ---
 
 # About profiles for processing metadata, images, and videos {#profiles-for-processing-metadata-images-and-videos}
@@ -99,17 +95,17 @@ See [Adjusting the batch size of the reprocess workflow](#adjusting-load).
 
     ![Scene7 Batch Upload component](/help/assets/assets-dm/reprocess-assets8.png)
 
-1. On the **[!UICONTROL Batch Upload to Scene7&mdash;Step Properties]** dialog box, set the following:
+1. On the **[!UICONTROL Batch Upload to Scene7&ndash;Step Properties]** dialog box, set the following:
     * In the **[!UICONTROL Title]** and **[!UICONTROL Description]** text fields, enter a new title and description for the job, if desired.
     * Select **[!UICONTROL Handler Advance]** if your handler will advance to the next step.
     * In the **[!UICONTROL Timeout]** field, enter the external process timeout (seconds).
-    * In the **[!UICONTROL Period]** field, enter a polling interval (seconds) to test for the completion of the external process. 
+    * In the **[!UICONTROL Period]** field, enter a polling interval (seconds) to test for the completion of the external process.
     * In the **[!UICONTROL Batch field]**, enter the maximum number of assets (50-1000) to process in a Dynamic Media server batch processing upload job.
     * Select **[!UICONTROL Advance on timeout]** if you want to advance when the timeout is reached. Deselect if you want to proceed to the inbox when the timeout is reached. 
 
     ![Properties dialog box](/help/assets/assets-dm/reprocess-assets3.png)
 
-1. In the upper-right corner of the **[!UICONTROL Batch Upload to Scene7 &ndash; Step Properties]** dialog box, tap **[!UICONTROL Done]**.
+1. In the upper-right corner of the **[!UICONTROL Batch Upload to Scene7&ndash;Step Properties]** dialog box, tap **[!UICONTROL Done]**.
 
 1. In the upper-right corner of the Scene7: Reprocess Assets workflow model page, tap **[!UICONTROL Sync]**. When you see **[!UICONTROL Synced]**, the workflow runtime model is successfully synchronized and ready to reprocess asset in a folder.
 
