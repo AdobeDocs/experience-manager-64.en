@@ -128,7 +128,7 @@ user-guide-description: Learn about administering AEM.
     + [Integrating with Adobe Dynamic Tag Management](dtm.md)
     + [Opting Into Adobe Analytics and Adobe Target](opt-in.md)
     + [AEM Portals and Portlets](aem-as-portal.md)
-    + [Integrating with Dynamic Media Classic (Scene7)](scene7.md)
+    + [Integrating with Dynamic Media Classic](scene7.md)
     + [AEM Livefyre Recipes](aem-livefyre-recipes.md)
     + [Troubleshooting Integration Issues](troubleshooting-integration-issues.md)
     + [Integrating with BrightEdge Content Optimizer](brightedge.md)

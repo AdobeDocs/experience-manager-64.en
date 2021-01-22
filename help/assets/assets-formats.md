@@ -300,5 +300,5 @@ A list of supported MIME types are available in CRXDE Lite at `/conf/global/sett
 
 >[!MORELIKETHIS]
 >
->* [Enable MIME type-based Assets/Scene7 upload job parameter support](/help/sites-administering/scene7.md#enabling-mime-type-based-assets-scene-upload-job-parameter-support).
+>* [Enable MIME type-based Assets/Dynamic Media Classic upload job parameter support](/help/sites-administering/scene7.md#enabling-mime-type-based-assets-scene-upload-job-parameter-support).
 >* [Configure MIME type-based for upload job parameters support](config-dynamic.md).

@@ -1,14 +1,10 @@
 ---
 title: Video
-seo-title: Video
-description: Learn how to work with video in Dynamic Media
-seo-description: Learn how to work with video in Dynamic Media
-uuid: 15e89f88-2787-472d-bbb6-d370bbab9228
+description: Learn how to work with video in Dynamic Media.
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: Dynamic-Media
 content-type: reference
-discoiquuid: b721dc7c-b056-47f5-9489-9f4db45b68a0
 ---
 
 # Video {#video}
@@ -23,7 +19,7 @@ The following step-by-step workflow description is designed to help you get up a
 >
 >Before you work with video in Dynamic Media, make sure that your AEM admininistrator has already enabled and configured Dynamic Media Cloud Services.
 >
->* See [Configuring Dynamic Media Cloud Services in Configuring Dynamic Media - Hybrid mode.](/help/assets/config-dynamic.md) 
+>* See [Configuring Dynamic Media Cloud Services in Configuring Dynamic Media - Hybrid mode.](/help/assets/config-dynamic.md)
 >* See [Configuring Dynamic Media - Scene7 mode](config-dms7.md) and [Troubleshooting Dynamic Media - Scene7 mode](troubleshoot-dms7.md)
 >
 
@@ -131,8 +127,8 @@ For managing single video and Adaptive Video Sets, the following is supported:
 
 * Uploading video from numerous supported video formats and audio formats and encoding video to MP4 H.264 format for playback across multiple screens. You can use predefined adaptive video presets, single video encoding presets, or customize your own encoding to control the quality and size of the video.
 
-    * When an adaptive video set is generated, it includes MP4 videos.
-    * **Note**: Master/source videos are not added to an Adaptive Video Set.
+  * When an adaptive video set is generated, it includes MP4 videos.
+  * **Note**: Master/source videos are not added to an Adaptive Video Set.
 
 * Video captioning in all HTML5 video viewers.
 * Organize, browse, and search video with full metadata support for efficient management of video assets.
@@ -146,15 +142,15 @@ You can find Windows devices that support this video format at the following: [S
 
 * Play back the video using Dynamic Media Video Viewer Presets, including the following:
 
-    * Single video viewers.
-    * Mixed Media viewers that combine both video and image content.
+  * Single video viewers.
+  * Mixed Media viewers that combine both video and image content.
 
 * Configure video players to meet your branding needs.
 * Integrate video to your website, mobile site, or mobile application with a simple URL or embed code.
 
-See [Dynamic video playback](https://s7d9.scene7.com/s7/uvideo.jsp?asset=GeoRetail/Mop_AVS&config=GeoRetail/Universal_Video1&stageSize=640,480).
+<!-- See [Dynamic video playback](https://s7d9.scene7.com/s7/uvideo.jsp?asset=GeoRetail/Mop_AVS&config=GeoRetail/Universal_Video1&stageSize=640,480). -->
 
-See also [About HTML5 Viewers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) in the Adobe Scene7 Viewers Reference Guide.
+See also [About HTML5 Viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) in the Adobe Dynamic Media Viewers Reference Guide.
 
 ## Best practice: Using the HTML5 video viewer {#best-practice-using-the-html-video-viewer}
 
@@ -183,87 +179,87 @@ HLS (HTTP Live Streaming) is an Apple standard for adaptive video streaming that
 
 Progressive video is delivered by downloading and storing the video locally to a user’s desktop screen or mobile device.
 
-The following table describes the device, browser, and playback method of videos on desktop computers and mobile devices using the Scene7 Video Viewer.
+The following table describes the device, browser, and playback method of videos on desktop computers and mobile devices using the Dynamic Media Video Viewer.
 
 <table> 
  <tbody> 
   <tr> 
-   <td><strong>Device</strong></td> 
-   <td><strong>Browser</strong></td> 
-   <td><strong>Video playback mode</strong></td> 
-  </tr> 
+   <td><strong>Device</strong></td>
+   <td><strong>Browser</strong></td>
+   <td><strong>Video playback mode</strong></td>
+  </tr>
   <tr> 
-   <td>Desktop</td> 
-   <td>Internate Explorer 9 and 10</td> 
-   <td>Progressive download.</td> 
-  </tr> 
+   <td>Desktop</td>
+   <td>Internate Explorer 9 and 10</td>
+   <td>Progressive download.</td>
+  </tr>
   <tr> 
-   <td>Desktop</td> 
-   <td>Internate Explorer 11+</td> 
-   <td>On Windows 8 and Windows 10 - Force use of HTTPS whenever HLS is requested. Known limitation: HTTP on HLS does not work in this browser/operating system combination<br /> <br /> On Windows 7 - Progressive download. Uses standard logic for selecting HTTP versus HTTPS protocol.</td> 
-  </tr> 
+   <td>Desktop</td>
+   <td>Internate Explorer 11+</td>
+   <td>On Windows 8 and Windows 10 - Force use of HTTPS whenever HLS is requested. Known limitation: HTTP on HLS does not work in this browser/operating system combination<br /> <br /> On Windows 7 - Progressive download. Uses standard logic for selecting HTTP versus HTTPS protocol.</td>
+  </tr>
   <tr> 
-   <td>Desktop</td> 
-   <td>Firefox 23-44</td> 
-   <td>Progressive download.</td> 
-  </tr> 
+   <td>Desktop</td>
+   <td>Firefox 23-44</td>
+   <td>Progressive download.</td>
+  </tr>
   <tr> 
-   <td>Desktop</td> 
-   <td>Firefox 45 or later</td> 
-   <td>HLS video streaming.</td> 
-  </tr> 
+   <td>Desktop</td>
+   <td>Firefox 45 or later</td>
+   <td>HLS video streaming.</td>
+  </tr>
   <tr> 
-   <td>Desktop</td> 
-   <td>Chrome</td> 
-   <td>HLS video streaming.</td> 
-  </tr> 
+   <td>Desktop</td>
+   <td>Chrome</td>
+   <td>HLS video streaming.</td>
+  </tr>
   <tr> 
-   <td>Desktop</td> 
-   <td>Safari (Mac)</td> 
-   <td>HLS video streaming.</td> 
-  </tr> 
+   <td>Desktop</td>
+   <td>Safari (Mac)</td>
+   <td>HLS video streaming.</td>
+  </tr>
   <tr> 
-   <td>Mobile</td> 
-   <td>Chrome (Android 6 or earlier)</td> 
-   <td>Progressive download.</td> 
-  </tr> 
+   <td>Mobile</td>
+   <td>Chrome (Android 6 or earlier)</td>
+   <td>Progressive download.</td>
+  </tr>
   <tr> 
-   <td>Mobile</td> 
-   <td>Chrome (Android 7 or later)</td> 
-   <td>HLS video streaming.</td> 
-  </tr> 
+   <td>Mobile</td>
+   <td>Chrome (Android 7 or later)</td>
+   <td>HLS video streaming.</td>
+  </tr>
   <tr> 
-   <td>Mobile</td> 
-   <td>Android (default browser)</td> 
-   <td>Progressive download.</td> 
-  </tr> 
+   <td>Mobile</td>
+   <td>Android (default browser)</td>
+   <td>Progressive download.</td>
+  </tr>
   <tr> 
-   <td>Mobile</td> 
-   <td>Safari (iOS)</td> 
-   <td>HLS video streaming.</td> 
-  </tr> 
+   <td>Mobile</td>
+   <td>Safari (iOS)</td>
+   <td>HLS video streaming.</td>
+  </tr>
   <tr> 
-   <td>Mobile</td> 
-   <td>Chrome (iOS)</td> 
-   <td>HLS video streaming.</td> 
-  </tr> 
+   <td>Mobile</td>
+   <td>Chrome (iOS)</td>
+   <td>HLS video streaming.</td>
+  </tr>
   <tr> 
-   <td>Mobile</td> 
-   <td>Blackberry</td> 
-   <td>HLS video streaming.</td> 
-  </tr> 
- </tbody> 
+   <td>Mobile</td>
+   <td>Blackberry</td>
+   <td>HLS video streaming.</td>
+  </tr>
+ </tbody>
 </table>
 
 ## Architecture of Dynamic Media video solution {#architecture-of-dynamic-media-video-solution}
 
 The following graphic shows the overall authoring workflow of videos that are uploaded and encoded by way of DMGateway and made available for public consumption.
 
-![chlimage_1-427](assets/chlimage_1-427.png) 
+![chlimage_1-427](assets/chlimage_1-427.png)
 
 ## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
-![chlimage_1-428](assets/chlimage_1-428.png) 
+![chlimage_1-428](assets/chlimage_1-428.png)
 
 ## Best practices for encoding videos {#best-practices-for-encoding-videos}
 
@@ -631,7 +627,7 @@ To create the metadata processing profile, you are first going to copy values fr
 1. Under the YouTube Publishing heading, tap **[!UICONTROL YouTube Privacy]**. (Do not tap the YouTube Privacy drop-down list.)
 1. On the right side of the page, under the **[!UICONTROL Settings]** tab, do the following:
 
-    * In the **[!UICONTROL Field Label]** text field, select and copy the value. 
+    * In the **[!UICONTROL Field Label]** text field, select and copy the value.
 
       Paste the copied value into an open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
@@ -790,7 +786,7 @@ To monitor progress (including failed encoding/YouTube publish):
 
    ![chlimage_1-434](assets/chlimage_1-434.png)
 
-   From the **[!UICONTROL Workflow Instances]** area, you can also suspend, terminate, or rename workflows. See [Administering workflows](/help/sites-administering/workflows-administering.md) for more information. 
+   From the **[!UICONTROL Workflow Instances]** area, you can also suspend, terminate, or rename workflows. See [Administering workflows](/help/sites-administering/workflows-administering.md) for more information.
 
 1. For failed jobs, see **Workflow Failures** available from **[!UICONTROL Tools > Workflow > Failures]**. The **[!UICONTROL Workflow Failure]** lists all failed workflow activities.
 
@@ -830,9 +826,9 @@ How you configure notification depends on whether you want notifications for enc
 * For YouTube publishing jobs, do the following:
 
 1. In AEM, select **[!UICONTROL Tools > Workflow > Models]**.
-1. Select the **[!UICONTROL Publish to YouTube]** workflow, then tap **[!UICONTROL Edit]**. 
-1. Right-click the **[!UICONTROL YouTube Upload]** workflow step, then tap **[!UICONTROL Edit]**. 
-1. Tap the **[!UICONTROL Argument]s** tab. 
+1. Select the **[!UICONTROL Publish to YouTube]** workflow, then tap **[!UICONTROL Edit]**.
+1. Right-click the **[!UICONTROL YouTube Upload]** workflow step, then tap **[!UICONTROL Edit]**.
+1. Tap the **[!UICONTROL Argument]s** tab.
 1. You can select or clear the following check boxes:
 
     * **[!UICONTROL Publish Start]**
@@ -882,7 +878,7 @@ For video reports to work correctly, a Report Suite ID is automatically created 
 
       You only need to use Refresh if the end date of the report is the current day. This ensures that you see the video tracking that has occurred since the last time you ran the report.
   
-    * Near the upper-right corner, tap the **[!UICONTROL Date Picker]** icon. 
+    * Near the upper-right corner, tap the **[!UICONTROL Date Picker]** icon.
 
       Specify the beginning and end date range for which you want video data, and then tap **[!UICONTROL Run Report]**.
 
@@ -890,7 +886,7 @@ For video reports to work correctly, a Report Suite ID is automatically created 
 
 1. In the table that lists the top published videos, tap a video name to play the video and also see the video’s audience retention (drop-off) report.
 
-### Viewing video reports based on a video viewer that you created using the HTML5 Viewer SDK {#viewing-video-reports-based-on-a-video-viewer-that-you-created-using-the-scene-hmtl-viewer-sdk}
+### Viewing video reports based on a video viewer that you created using the Dynamic Media  HTML5 Viewer SDK {#viewing-video-reports-based-on-a-video-viewer-that-you-created-using-the-scene-hmtl-viewer-sdk}
 
 If you are using an out-of-box video viewer provided by Dynamic Media, or if you created a custom viewer preset based off of an out-of-box video viewer, then no additional steps are required to view video reports. However, if you have created your own video viewer based off the HTML5 Viewer SDK API, then use the following steps to ensure the your video viewer is sending tracking events to Dynamic Media Video Reports.
 
@@ -953,7 +949,7 @@ To view Video Reports based on a video viewer that you created using the HTML5 V
 
    The appMeasurementBridge object has a built-in track function. However, you can provide your own to support multiple tracking systems or other functionality.
 
-   For more information, see *Using the TrackingManager Component* in the *Scene7 HTML5 Viewer SDK User Guide* available for download from [Adobe Developer Connection](https://help.adobe.com/en_US/scene7/using/WSef8d5860223939e2-43dedf7012b792fc1d5-8000.html).
+<!--    For more information, see *Using the TrackingManager Component* in the *Scene7 HTML5 Viewer SDK User Guide* available for download from [Adobe Developer Connection](https://help.adobe.com/en_US/scene7/using/WSef8d5860223939e2-43dedf7012b792fc1d5-8000.html). -->
 
 ## Adding captions to video {#adding-captions-to-video}
 
@@ -967,7 +963,7 @@ Captioning also allows for greater accessibility by using closed captioning for 
 
 Dynamic Media has the capability of converting caption files to JSON (JavaScript Object Notation) format. This conversion means you can embed the JSON text into a web page as a hidden but complete transcript of the video. Search engines can then crawl and index the content to make the videos more easily discoverable and give customers additional details about the video content.
 
-See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html) in the *Scene7 Image Serving API Help* for more information about using the JSON function in a URL.
+See [Serving static (non-image) contents](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html#image-serving-api) in the *Dynamic Media Image Serving and Rendering API Help* for more information about using the JSON function in a URL.
 
 **To add captions or subtitles to video**:
 
@@ -1022,7 +1018,7 @@ You can make your long form videos easier to watch and navigate by adding chapte
 >
 >The video player that is used must support the use of chapter markers. Dynamic Media video players do support chapter markers but using third party video players may not.
 
-If desired, you can create and brand your own custom video viewer with chapters instead of using a video viewer preset. For instructions on creating your own HTML5 viewer with chapter navigation, in the Adobe HTML5 Viewer SDK API, reference the heading “Customizing Behavior Using Modifiers” under the classes `s7sdk.video.VideoPlayer` and `s7sdk.video.VideoScrubber`. See the [HTML5 Viewer SDK API]((https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html)) documentation.  
+If desired, you can create and brand your own custom video viewer with chapters instead of using a video viewer preset. For instructions on creating your own HTML5 viewer with chapter navigation, in the Adobe HTML5 Viewer SDK API, reference the heading “Customizing Behavior Using Modifiers” under the classes `s7sdk.video.VideoPlayer` and `s7sdk.video.VideoScrubber`. See the [HTML5 Viewer SDK API]((https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html)) documentation.
   
 You create a chapter list for your video in much the same way that you create captions. That is, you create a WebVTT file. Note, however, that this file must be separate from any WebVTT caption file that you may also be using; you cannot combine captions and chapters into one WebVTT file.  
   
@@ -1170,4 +1166,3 @@ To configure the default time interval that video thumbnails are generated,
 1. After the image is successfully uploaded, in the **[!UICONTROL Change Thumbnail]** page, tap **[!UICONTROL Save Changes]**.
 
    The custom thumbnail is added to your video.
-

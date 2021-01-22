@@ -65,7 +65,7 @@ See [Installing feature pack 18912 for bulk asset migration](bulk-ingest-migrate
 
 ## Configuring Dynamic Media Cloud Services {#configuring-dynamic-media-cloud-services}
 
-Change the password, before you configure Dynamic Media Cloud Services. After you receive your provisioning email with Dynamic Media credentials, you must [log in](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) to Dynamic Media Classic to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that Dynamic Media Cloud Service is set up with the correct credentials.
+Change the password, before you configure Dynamic Media Cloud Services. After you receive your provisioning email with Dynamic Media credentials, you must [sign in](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html?lang=en#system-requirements-dmc-app) to Dynamic Media Classic desktop application to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that Dynamic Media Cloud Service is set up with the correct credentials.
 
    >[!NOTE]
    >

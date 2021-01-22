@@ -48,7 +48,7 @@ Best practices around Assets, including the dynamic media capability and Scene 7
   <tr>
    <td>Dynamic Imaging</td> 
    <td><a href="/help/assets/best-practices-for-optimizing-the-quality-of-your-images.md">Dynamic Imaging best practices</a></td> 
-   <td><p>Describes how to sharpen an image for best results and the best way to optimize the quality of your images if you're using the Dynamic Media functionality or are integrating with Scene7. </p> </td> 
+   <td><p>Describes how to sharpen an image for best results and the best way to optimize the quality of your images if you're using the Dynamic Media functionality or are integrating with Dynamic Media. </p> </td> 
   </tr>
   <tr>
    <td>Mulltilingual Assets</td> 

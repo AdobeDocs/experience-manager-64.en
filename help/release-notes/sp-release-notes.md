@@ -64,7 +64,7 @@ Some key highlights of this service pack release are:
 
 ### Assets {#assets}
 
-* A folder with no name gets created in SPS (Scene7 Publishing System) while moving an asset from one folder to another in Experience Manager with Dynamic Media Scene7 configuration (NPR-32440).
+* A folder with no name gets created in Dynamic Media Classic while moving an asset from one folder to another in Experience Manager with Dynamic Media Classic configuration (NPR-32440).
 
 * Assets detail page of PDF files do not show action buttons in Experience Manager running on Dynamic Media Scene7 mode (NPR-32316).
 
