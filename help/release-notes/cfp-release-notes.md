@@ -108,7 +108,7 @@ Adobe Experience Manager 6.4.8.3 provides fixes for the following issues.
 * When dragging an asset on a folder to move it, the user interface also displays the option to [!UICONTROL Drop in Lightbox] and [!UICONTROL Drop in Collection]. Even if the move operation is canceled, the user interface continues to display the latter two options (NPR-34525).
 * When the Manage Publication interface is opened, the publish option is not available and upon selecting the unpublish option the scope page is blank (CQ-4302509).
 
-##### [!DNL Dynamic Media] {#dynamic-media}
+##### [!DNL Dynamic Media] {#dynamic-media-6483}
 
 * In Image Preset settings, when the option [!UICONTROL Enable JPG Chrominance Downsampling] is deselected in [!DNL Experience Manager], the change does not sync with [!DNL Dynamic Media] (NPR-34284).
 * In the [!UICONTROL Viewer Presets Editor], when editing [!UICONTROL PanoramicImage/PanoramicImage_VR] preset, in the `PanoramicView` component, the `PANORAMICVIEW_AUTOROTATE` modifier label is not available (CQ-4302043).
