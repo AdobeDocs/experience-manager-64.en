@@ -31,11 +31,11 @@ For information on CFP and other types of releases, see [AEM Update Release Vehi
 
 Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
-### Sites {#sites-6483}
+### Sites {#sites-6484}
 
 * Bug fix 1
 
-### [!DNL Assets] {#assets-6483}
+### [!DNL Assets] {#assets-6484}
 
 * Bug fix 1
 
@@ -43,27 +43,27 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 * Bug fix 1
 
-### Platform {#platform-6483}
+### Platform {#platform-6484}
 
 * Bug fix 1
 
-### Integrations {#integrations-6483}
+### Integrations {#integrations-6484}
 
 * Bug fix 1
 
-### User Interface {#ui-6483}
+### User Interface {#ui-6484}
 
 * Bug fix 1
 
-### Communities {#communities-6483}
+### Communities {#communities-6484}
 
 * Bug fix 1
 
-### Commerce {#commerce-6483}
+### Commerce {#commerce-6484}
 
 * Bug fix 1
 
-### Forms {#forms-6483}
+### Forms {#forms-6484}
 
 >[!NOTE]
 >
