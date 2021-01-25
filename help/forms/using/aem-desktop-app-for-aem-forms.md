@@ -1,8 +1,8 @@
 ---
 title: AEM desktop app for AEM Forms
 seo-title: AEM desktop app for AEM Forms
-description: null
-seo-description: null
+description: AEM desktop app lets you map the Adobe Experience Manager (AEM) Assets repository and AEM Forms binary files to a network directory on your system. Learn more about the assets supported in AEM desktop app and how to enable AEM Forms for AEM desktop app.
+seo-description: AEM desktop app lets you map the Adobe Experience Manager (AEM) Assets repository and AEM Forms binary files to a network directory on your system. Learn more about the assets supported in AEM desktop app and how to enable AEM Forms for AEM desktop app.
 uuid: 99e0f2fb-8623-45bb-8e2e-5c5d6f482366
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS

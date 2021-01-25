@@ -1,8 +1,8 @@
 ---
 title: Endpoint Registry Java API QuickStart(SOAP)
 seo-title: Endpoint Registry Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Endpoint Registry Java API to add an EJB endpoint, add a SOAP endpoint, add a Watched folder endpoint, add an Email endpoint, add a remoting endpoint, add a TaskManager endpoint, modify an endpoint, remove an endpoint, and retrieve endpoint connector information.
+seo-description: Use the Endpoint Registry Java API to add an EJB endpoint, add a SOAP endpoint, add a Watched folder endpoint, add an Email endpoint, add a remoting endpoint, add a TaskManager endpoint, modify an endpoint, remove an endpoint, and retrieve endpoint connector information.
 uuid: 986c55d0-e199-46f8-a3cc-a6baf5cce316
 contentOwner: admin
 content-type: reference

@@ -125,13 +125,13 @@ Media extraction arguments and script paths
 
 * **Extend Scripts**: You can specify different script combinations here. If you want your own scripts to be executed on the InDesign Server, save the scripts at `/apps/settings/dam/indesign/scripts`.
 
-  For information about Indesign scripts see [https://www.adobe.com/devnet/indesign/documentation.html#idscripting](https://www.adobe.com/devnet/indesign/documentation.html#idscripting).
+  For information about InDesign scripts see [https://www.adobe.com/devnet/indesign/documentation.html#idscripting](https://www.adobe.com/devnet/indesign/documentation.html#idscripting).
 
 >[!CAUTION]
 >
 >Do not change the ExtendScript library. The library provides the HTTP functionality required to communicate with Sling. This setting specifies the library to be send to the Adobe InDesign Server for use there.
 
-  The `ThumbnailExport.jsx` script run by the Media Extraction workflow step generates a thumbnail rendition in .jpg format. This rendition is used by the Process Thumbnails workflow step to generate the static renditions required by AEM.
+  The `ThumbnailExport.jsx` script run by the Media Extraction workflow step generates a thumbnail rendition in JPG format. This rendition is used by the Process Thumbnails workflow step to generate the static renditions required by AEM.
 
   You can configure the Process Thumbnails workflow step to generate static renditions at different sizes. Ensure that you do not remove the defaults, because they are required by the AEM Assets UI. Finally, the Delete Image Preview Rendition workflow step removes the .jpg thumbnail rendition, as it is no longer needed.
 
@@ -173,17 +173,17 @@ To customize, you can edit the **[!UICONTROL Arguments]** tab of the **Page Extr
 
 1. Click **[!UICONTROL OK]** to save.
 
-### Configuring Day CQ Link Externalizer  {#configuring-day-cq-link-externalizer}
+### Configuring Day CQ Link Externalizer {#configuring-day-cq-link-externalizer}
 
-If the InDesign server and AEM run on different hosts or either or both these applications do not run on default ports, configure **Day CQ Link Externalizer** to set the host name, port, and content path for the InDesign server.
+If the InDesign Server and AEM are on different hosts or one or both of these applications are not working on default ports, configure **Day CQ Link Externalizer** to set the host name, port, and content path for the InDesign Server.
 
 1. Access Configuration Manager at the URL `https://[AEM_server]:[port]/system/console/configMgr`.
-1. Locate the configuration **[!UICONTROL Day CQ Link Externalizer]**, and click the **[!UICONTROL Edit]** icon to open it.
-1. Specify the host name and context path for the Indesign server and click **[!UICONTROL Save]**.
+1. Locate the configuration **[!UICONTROL Day CQ Link Externalizer]**. Click **[!UICONTROL Edit]** to open.
+1. Link Externalizer settings help create absolutely URLs for the [!DNL Experience Manager] deployment and for the [!DNL InDesign Server]. Use **[!UICONTROL Domains]** field to specify the host name and the context path for the [!DNL Adobe InDesign Server]. Follow the on-screen instructions. Click **[!UICONTROL Save]**.
 
-   ![chlimage_1-290](assets/chlimage_1-290.png)
+   ![Link externalizer settings](assets/link-externalizer-config.png)
 
-### Enabling Parallel Job Processing for InDesign Server(s) {#enabling-parallel-job-processing-for-indesign-server-s}
+### Enabling Parallel Job Processing for InDesign Servers {#enabling-parallel-job-processing-for-indesign-server}
 
 You can now enable parallel job processing for IDS.
 

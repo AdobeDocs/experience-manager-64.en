@@ -1,5 +1,5 @@
 ---
-title: AEM 6.4 Cumulative Fix Pack Pack Release Notes
+title: AEM 6.4 Cumulative Fix Pack Release Notes
 description: Release notes specific to Adobe Experience Manager 6.4 Cumulative Fix Packs.
 contentOwner: AK
 mini-toc-levels: 1
@@ -58,7 +58,7 @@ Adobe Experience Manager 6.4.8.3 provides fixes for the following issues.
 
 * In Image Preset settings, when the option [!UICONTROL Enable JPG Chrominance Downsampling] is deselected in [!DNL Experience Manager], the change does not sync with [!DNL Dynamic Media] (NPR-34284).
 * In the [!UICONTROL Viewer Presets Editor], when editing [!UICONTROL PanoramicImage/PanoramicImage_VR] preset, in the `PanoramicView` component, the `PANORAMICVIEW_AUTOROTATE` modifier label is not available (CQ-4302043).
-* Unpublishing a video from [!DNL Experience Manager] does not unpublish the Adaptive Video Set on configured Scene7. (CQ-4304405).
+* Unpublishing a video from [!DNL Experience Manager] does not unpublish the Adaptive Video Set on configured Dynamic Media Classic. (CQ-4304405).
 
 ### Platform {#platform-6483}
 
@@ -92,6 +92,26 @@ Adobe Experience Manager 6.4.8.3 provides fixes for the following issues.
 >[!NOTE]
 >
 >[!DNL Experience Manager Forms] releases the add-on packages one week after the scheduled [!DNL Experience Manager] Cumulative Fix Pack release date.
+
+>[!NOTE]
+>
+>[!DNL Experience Manager] Cumulative Fix Pack does not include fixes for [!DNL Experience Manager Forms]. They are delivered using a separate [!DNL Forms] add-on package. In addition, a cumulative installer is released that includes fixes for [!DNL Experience Manager Forms] on JEE. For more information, see [Install AEM Forms add-on package](#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](#install-aem-forms-jee-installer).
+
+**Adaptive Forms**
+
+* Unable to edit an adaptive form using Classic UI after applying the [!DNL Experience Manager] Cumulative Fix Pack (NPR-35127).
+
+* Fragments take longer time to load in an adaptive form because of cache invalidation (NPR-34655).
+
+* Accessibility: Tab navigation does not work appropriately for screen readers in an adaptive form (NPR-34550).
+
+**Correspondence Management**
+
+* When you migrate the assets from ES3, the assets include two non-editable default conditions (NPR-34971).
+
+**Foundation JEE**
+
+* Migrate [!DNL AEM Forms] users from Flash to HTML (CQ-4304075).
 
 For information on security updates, see [Experience Manager security bulletins page](https://helpx.adobe.com/security/products/experience-manager.html).
 
@@ -131,6 +151,9 @@ Adobe Experience Manager 6.4.8.2 provides fixes for the following issues.
 * You can suspend the [!DNL Live Copy] of a page and inheritance are broken in as seen in the Editor mode. However, in the Page properties, the icon representing inheritance incorrectly indicates that the inheritance exists and is not broken (NPR-34096).
 * Issue with display of allowed components in Edit template page (CQ-4297295).
 * After upgrading Chrome and Firefox, the pop-up menus are not working as expected. On loading the page properties, it does not display the panel when there is data in it (CQ-4292995).
+* Multiple cross site scripting instances in [!DNL Experience Manager Sites] components (NPR-33926).
+* User inputs are not appropriately encoded for various components when sending information to the client (NPR-33696).
+* A URL that ends with `childrenlist.html` displays an HTML page instead of a 404 response. Such URLs are vulnerable to cross site scripting (NPR-33441).
 
 #### Assets {#assets-6482}
 
@@ -157,7 +180,7 @@ Adobe Experience Manager 6.4.8.2 provides fixes for the following issues.
 
 * The Smart Crop functionality fails with error when image profile is added to a folder having multiple (for example, 11) aspect ratios (NPR-34083).
 
-* Changes to image presets in [!UICONTROL Adobe Experience Manager] do not sync to Scene7 Publishing System (NPR-34284, CQ-4299713).
+* Changes to image presets in [!UICONTROL Adobe Experience Manager] do not sync to Dynamic Media Classic (NPR-34284, CQ-4299713).
 
 * The [!UICONTROL PANORAMICVIEW_AUTOROTATE] modifier label is missing from the [!UICONTROL Behavior] tab in [!UICONTROL Viewer Preset Editor] page (CQ-4302043).
 
@@ -207,6 +230,8 @@ Adobe Experience Manager 6.4.8.2 provides fixes for the following issues.
 * The **[!UICONTROL Submit to REST endpoint]** submit action does not work for an adaptive form (NPR-34513).
 
 * Accessibility: When you try to submit an adaptive form without uploading an attachment for a mandatory field, the focus does not shift to the attachment field automatically (NPR-34511).
+
+* User inputs are not appropriately encoded for [!DNL Forms] components when sending information to the client (NPR-33611).
 
 **Workflow**
 

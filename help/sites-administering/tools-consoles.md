@@ -1,14 +1,10 @@
 ---
 title: Tools Consoles
-seo-title: Tools Consoles
-description: Learn about the different tools consoles throughout AEM.
-seo-description: Learn about the different tools consoles throughout AEM.
-uuid: d01382f8-0c8f-4d76-9271-bed9e34b3b4b
+description: Learn about the different tools consoles throughout Adobe Experience Manager.
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2bf8496d-a485-4b39-a6c9-07222b66d0cd
 ---
 
 # Tools Consoles{#tools-consoles}

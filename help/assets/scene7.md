@@ -1,14 +1,10 @@
 ---
 title: Adding Dynamic Media Classic Features to your Page
-seo-title: Adding Dynamic Media Classic Features to your Page
-description: Learn how to add Dynamic Media Classic features and components to your AEM page.
-seo-description: Learn how to add Dynamic Media Classic features and components to your AEM page.
-uuid: aa5a4735-bfec-43b8-aec0-a0c32bff134f
+description: Learn about Dynamic Media Classic components and how to add them to your AEM page.
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: managing-assets
-discoiquuid: e7b95732-a571-48e8-afad-612059cdbde7
 ---
 
 # Adding Dynamic Media Classic Features to your Page {#adding-scene-features-to-your-page}
@@ -183,7 +179,7 @@ Select an existing image preset from the drop-down menu. If the image preset you
 Select the output format of the image, for example jpeg. Depending on the output format you select, you may have additional configuration options. See [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options).
 
 * **[!UICONTROL Sharpening]**
-Select how you want to sharpen the image. Sharpening is explained in detail in [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options) and [Sharpening best practices](/help/assets/assets/s7_sharpening_images.pdf).
+Select how you want to sharpen the image. Sharpening is explained in detail in [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options) and [Sharpening best practices](/help/assets/assets/sharpening_images.pdf).
 
 * **[!UICONTROL URL Modifiers]**
 You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference.html).

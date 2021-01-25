@@ -1,8 +1,8 @@
 ---
 title: Application Manager Client JavaAPI Quick Start(SOAP)
 seo-title: Application Manager Client JavaAPI Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Application Manager Client to create an application version, export applications, import applications, get an AEM Forms application, get applications, get status of applications, preview AEM Forms and later application archive, and delete AEM Forms application archive.
+seo-description: Use the Application Manager Client to create an application version, export applications, import applications, get an AEM Forms application, get applications, get status of applications, preview AEM Forms and later application archive, and delete AEM Forms application archive.
 uuid: 043f1c08-c7de-4e2d-88ca-b46428b1b551
 contentOwner: admin
 content-type: reference

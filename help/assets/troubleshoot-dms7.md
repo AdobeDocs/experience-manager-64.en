@@ -1,14 +1,10 @@
 ---
 title: Troubleshooting Dynamic Media - Scene7 mode
-seo-title: Troubleshooting Dynamic Media - Scene7 mode
-description: Troubleshooting Dynamic Media in Scene7 runmode.
-seo-description: Troubleshooting Dynamic Media in Scene7 runmode.
-uuid: bd9653f7-e4c7-464f-84a8-dc1e8dc37ba2
+description: Troubleshooting Dynamic Media - Scene7 run mode.
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: eab920f4-b56e-4ed2-9ec1-03f348810ae5
 ---
 
 # Troubleshooting Dynamic Media - Scene7 mode {#troubleshooting-dynamic-media-scene-mode}
@@ -23,7 +19,7 @@ Ensure that Dynamic Media has been set up properly by doing the following:
 * Any AEM 6.4 cumulative fix packs (CFPs) have been installed first *before* any available Dynamic Media Feature Packs.
 * Optional Feature Pack 18912 is installed.
 
-  This optional feature pack is for FTP support or if you are migrating assets to Dynamic Media from Dynamic Media Classic (Scene7).
+  This optional feature pack is for FTP support or if you are migrating assets to Dynamic Media from Dynamic Media Classic.
 
 * Navigate to the Cloud Services user interface and confirm that the provisioned account appears under **[!UICONTROL Available Configurations]**.
 * Ensure that the **[!UICONTROL Dynamic Media Asset Activation (scene7)]** replication agent is enabled.

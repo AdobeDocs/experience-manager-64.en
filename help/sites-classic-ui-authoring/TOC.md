@@ -79,7 +79,7 @@ user-guide-description: This guide covers the concepts of authoring in AEM in th
     + [Delivering Dynamic Media Assets](dynamic-media-assets-delivering.md)
     + [Setting up a standard stage with Autodesk Maya and Mental Ray](classicui-stages-aem3d-ad-mr.md)
     + [Adding Dynamic Media Assets to Pages](dynamic-media-assets-adding-to-page.md)
-    + [Adding Scene7 Features to your Page](manage-assets-classic-s7.md)
+    + [Adding Dynamic Media Classic (Scene7) Features to your Page](manage-assets-classic-s7.md)
     + [Working with Dynamic Media](dynamic-media-assets.md)
     + [Working with 3D assets](classicui-3dassets.md)
     + [Video](manage-assets-classic-s7-video.md)

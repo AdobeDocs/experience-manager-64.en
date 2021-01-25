@@ -15,7 +15,7 @@ discoiquuid: 36a4a4e7-8bb2-4853-b335-cf9148be410c
 
 >[!NOTE]
 >
->This documentation describes Dynamic Media capabilites, which are integrated directly into AEM. If you are using Dynamic Media Classic (previously called Scene7) integrated into AEM, see [Dynamic Media Classic integration documentation](/help/sites-administering/scene7.md).
+>This documentation describes Dynamic Media capabilites, which are integrated directly into AEM. If you are using Dynamic Media Classic integrated into AEM, see [Dynamic Media Classic integration documentation](/help/sites-administering/scene7.md).
 >
 >See [Dual Use Scenario](/help/sites-administering/scene7.md#dual-use-scenario) for times when you may want to use AEM integrated with Dynamic Media Classic along with Dynamic Media.
 

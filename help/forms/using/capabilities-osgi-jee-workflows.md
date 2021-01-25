@@ -1,8 +1,8 @@
 ---
 title: Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows 
 seo-title: Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows 
-description: null
-seo-description: null
+description: Learn more about the differences in actions supported by AEM Inbox and HTML Workspace, differences in capabilities supported by Form-centric AEM Workflows on OSGi and AEM Forms JEE Workflows, and differences between AEM Inbox and AEM Forms app features.
+seo-description: Learn more about the differences in actions supported by AEM Inbox and HTML Workspace, differences in capabilities supported by Form-centric AEM Workflows on OSGi and AEM Forms JEE Workflows, and differences between AEM Inbox and AEM Forms app features.
 uuid: ce2a05fe-ba45-42ed-880e-fb1d6efc1d26
 contentOwner: khsingh
 topic-tags: publish
