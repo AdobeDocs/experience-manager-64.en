@@ -37,7 +37,8 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 ### [!DNL Assets] {#assets-6484}
 
-* Bug fix 1
+* `IndexWriter.merge` causes `OutOfMemoryError` error as smart tagging functionality creates large `/oak:index/lucene` and `/oak:index/ntBaseLucene` indices. (NPR-35650)
+* Users are unable to check-in assets after editing those in [!DNL Adobe InDesign] and receive error about lack of permissions. (NPR-35340)
 
 #### [!DNL Dynamic Media] {#dynamic-media}
 
