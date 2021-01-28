@@ -160,7 +160,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [Smart Content Service Training Guidelines](smart-tags-training-guidelines.md)
   + [Video renditions](video-renditions.md)
 + 3D Assets {#three-d}
-  + [AEM 3D release notes](../release-notes/aem3d-release-notes.md)
+  + [AEM 3D release notes](https://experienceleague.adobe.com/docs/experience-manager-64/assets/three-d/assets-3d.html)
   + [Working with 3D assets](assets-3d.md)
   + [Installing and configuring AEM 3D](install-config-3d.md)
   + [Advanced configuration settings](advanced-config-3d.md)
