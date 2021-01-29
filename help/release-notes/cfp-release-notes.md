@@ -42,7 +42,7 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 #### [!DNL Dynamic Media] {#dynamic-media}
 
-* Bug fix 1
+* Intermittent ImageServer error causes 403 response for and consequent failure of a few functionalities of [!DNL Experience Manager]. (CQ-4308565)
 
 ### Platform {#platform-6484}
 
