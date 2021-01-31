@@ -143,8 +143,8 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 **To upload assets using FTP**
 
 1. Using your choice of FTP client, log in to the FTP server using the FTP user name and password that you received from the provisioning email. In the FTP client, upload files or folders to the FTP server.
-1. [Log in to Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials received from the provisioning email. On the Global Navigation Bar, tap **[!UICONTROL Upload]**.  
-
+1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account using credentials received from the provisioning email.
+1. On the Global Navigation Bar, tap **[!UICONTROL Upload]**.  
 1. On the **[!UICONTROL Upload]** page, near the upper-left corner, tap the **[!UICONTROL Via FTP]** tab.
 1. On the left side of the page, choose an FTP folder to upload files from; on the right side of the page, choose a destination folder.
 1. Near the lower-right corner of the page, tap **[!UICONTROL Job Options]** and then set the options you want based on the assets in the folder you selected.
@@ -153,7 +153,7 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 
    >[!NOTE]
    >
-   >When you upload assets by way of FTP, the upload job options you set in Dynamic Media Classic (Scene7) take precedent over asset processing parameters set in AEM.
+   >When you upload assets by way of FTP, the upload job options you set in Dynamic Media Classic take precedent over asset processing parameters set in AEM.
 
 1. In the lower-right corner of the **[!UICONTROL Upload Job Options]** dialog box, tap **[!UICONTROL Save]**.
 1. In the lower-right corner of the **[!UICONTROL Upload]** page, tap **[!UICONTROL Submit Upload]**.

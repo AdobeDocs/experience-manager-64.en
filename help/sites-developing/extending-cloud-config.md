@@ -1,14 +1,10 @@
 ---
 title: Cloud Service Configurations
-seo-title: Cloud Service Configurations
-description: You can extend the existing instances to create your own configurations
-seo-description: You can extend the existing instances to create your own configurations
-uuid: 9d20c3a4-2a12-4d3c-80c3-fcac3137a675
+description: You can extend the existing instances to create your own configurations.
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: d25c03bf-6eaa-45f4-ab60-298865935a62
 ---
 
 # Cloud Service Configurations{#cloud-service-configurations}
@@ -217,7 +213,7 @@ These services are provided by default:
 * [Adobe Analytics](/help/sites-administering/marketing-cloud.md#integrating-with-adobe-analytics)
 * [Test&Target](/help/sites-administering/marketing-cloud.md#integrating-with-adobe-target)
 * [Search&Promote](/help/sites-administering/marketing-cloud.md#integrating-with-search-promote)
-* [Scene7](/help/sites-administering/marketing-cloud.md#integrating-with-scene)
+* [Dynamic Media](/help/sites-administering/marketing-cloud.md#integrating-with-scene)
 
 >[!NOTE]
 >

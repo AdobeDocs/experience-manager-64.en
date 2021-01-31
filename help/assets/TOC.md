@@ -43,7 +43,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [Dynamic Media Image Profiles](image-profiles.md)
   + [Smart Imaging](imaging-faq.md)
   + [Video](s7-video.md)
-  + [Adding Scene7 features to your page](scene7.md)
+  + [Adding Dynamic Media Classic features to your page](scene7.md)
   + [HTTP2 delivery of content](http2.md)
   + [Delivering Dynamic Media assets](delivering-dynamic-media-assets.md)
   + [Activating hotlink protection in Dynamic Media](hotlink-protection.md)
@@ -160,7 +160,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [Smart Content Service Training Guidelines](smart-tags-training-guidelines.md)
   + [Video renditions](video-renditions.md)
 + 3D Assets {#three-d}
-  + [AEM 3D release notes](../release-notes/aem3d-release-notes.md)
+  + [AEM 3D release notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/aem3d-release-notes.html)
   + [Working with 3D assets](assets-3d.md)
   + [Installing and configuring AEM 3D](install-config-3d.md)
   + [Advanced configuration settings](advanced-config-3d.md)
