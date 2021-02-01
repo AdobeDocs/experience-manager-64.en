@@ -1,8 +1,8 @@
 ---
 title: DO NOT PUBLISH Create your first adaptive document
 seo-title: DO NOT PUBLISH Create your first adaptive document
-description: null
-seo-description: null
+description: DO NOT PUBLISH
+seo-description: DO NOT PUBLISH
 page-status-flag: de-activated
 uuid: 2cb2bf82-130f-4d6b-a711-df0b97cb0504
 discoiquuid: f3ca177f-7c0d-4b8b-ab4b-bf04668d634c
