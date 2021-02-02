@@ -182,7 +182,7 @@ Select the output format of the image, for example jpeg. Depending on the output
 Select how you want to sharpen the image. Sharpening is explained in detail in [Image Preset best practices](/help/assets/managing-image-presets.md#image-preset-options) and [Sharpening best practices](/help/assets/assets/sharpening_images.pdf).
 
 * **[!UICONTROL URL Modifiers]**
-You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference.html).
+You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference.html).
 
 * **[!UICONTROL Breakpoints]**
 If your website is responsive, you want to adjust the breakpoints. Breakpoints must be separated by commas ( , ).
