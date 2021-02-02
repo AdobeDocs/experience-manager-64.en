@@ -34,7 +34,7 @@ In the context of Dynamic Media, websites that use an XML-based system to manage
 >Use caution when using rulesets; they can prevent Dynamic Media content from being displayed on your website.
 
 There are sample rulesets available that can help you create your own ruleset.  
-See [Rule set reference](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/rule-set-reference/c-rule-set-reference.html).
+See [Rule set reference](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/rule-set-reference/c-rule-set-reference.html).
 
 As with all rule set creation, ensure that your XML file is valid before you upload it by using an XML validator program such as xmlvalid.  
 See also [Troubleshooting rule sets](https://helpx.adobe.com/experience-manager/scene7/kb/base/scene7-rulesets/scene7-ruleset-troubleshooting.html).
