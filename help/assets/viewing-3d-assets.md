@@ -1,21 +1,17 @@
 ---
 title: Viewing 3D assets
-seo-title: Viewing 3D assets
 description: Learn about the interactive 3D viewer available from the asset details page in AEM and how to use it to view 3D assets.
-seo-description: Learn about the interactive 3D viewer available from the asset details page in AEM and how to use it to view 3D assets.
-uuid: 7d8133ac-3110-4979-8e19-e65090e791be
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 65040923-a8a8-4e27-82c0-67a04348e238
 ---
 
 # Viewing 3D assets {#viewing-d-assets}
 
 >[!IMPORTANT]
 >
->AEM 3D in AEM 6.4 is no longer supported. Adobe recommends that you use the 3D assets feature in [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html) or [AEM 6.5.3 or higher.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html) to view 3D assets.
+>AEM 3D in AEM 6.4 is no longer supported. Adobe recommends that you use the 3D assets feature in [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html#dynamicmedia) or [AEM 6.5.3 or higher.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/assets-3d.html#dynamic) to view 3D assets.
 
 This document describes both how to view 3D assets in asset details and how to view assets that are in the 3D component in sites.
 
