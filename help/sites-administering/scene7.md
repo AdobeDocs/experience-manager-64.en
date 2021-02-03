@@ -408,7 +408,7 @@ However, if you do not want assets pushed to Dynamic Media Classic to publish au
 Before you can push assets to Dynamic Media Classic without publishing them, you must set up the following:
 
 1. [Use the Admin Console to create a support case.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) In your support case, request that secure preview be enabled for your Dynamic Media Classic account.
-1. Follow directions to [setup secure preview for your Dynamic Media Classic account.](https://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html)
+1. Follow directions to [setup secure preview for your Dynamic Media Classic account.](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#upload-publish)
 
 These are the same steps you would follow to create any secure test setup in Dynamic Media Classic.
 
@@ -438,7 +438,7 @@ To set the state of assets pushed to Dynamic Media Classic as unpublished:
 1. Tap the AEM icon and navigate to **[!UICONTROL Deployment > Cloud Services]**, tap **[!UICONTROL Dynamic Media Classic]**, and select your configuration in Dynamic Media Classic.
 1. Tap the **[!UICONTROL Advanced]** tab. In the **[!UICONTROL Enable Secure View]** drop-down menu, select **[!UICONTROL Upon AEM Publish Activation]** to push assets to Dynamic Media Classic without publishing. (By default, this value is set to **[!UICONTROL Immediately]**, where Dynamic Media Classic assets are published immediately.)
 
-   See [Dynamic Media Classic documentation](https://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html) for more information on testing assets before making them public.
+   See [Dynamic Media Classic documentation](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#upload-publish) for more information on testing assets before making them public.
 
    ![chlimage_1-302](assets/chlimage_1-302.png)
 

@@ -174,13 +174,13 @@ The following example shows a Link (Campaign) component being displayed.
 
 ### Scene7 Image Template (Campaign) {#scene-image-template-campaign}
 
-[Scene7 Image Templates](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) are layered are layered image files, where content and properties can be parameterized for variability. The **Image template** component lets you use Scene7 templates within newsletters and change the values of template parameters. In addition, you can use Adobe Campaign metadata variables inside the parameters, so that each user experiences the image in a personalized way.
+[Scene7 Image Templates](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics.html#template-basics) are layered are layered image files, where content and properties can be parameterized for variability. The **Image template** component lets you use Dynamic Media Classic (formerly Scene7) templates within newsletters and change the values of template parameters. In addition, you can use Adobe Campaign metadata variables inside the parameters, so that each user experiences the image in a personalized way.
 
 ![chlimage_1-111](assets/chlimage_1-111.png)
 
-Click **Edit** to configure the component. You can configure the settings described in this section. This Scene7 Image template is described in detail in [Scene7 Image Template component](/help/assets/scene7.md#image-template).
+Click **Edit** to configure the component. You can configure the settings described in this section. This Dynamic Media Classic (formerly Scene7) Image template is described in detail in [Scene7 Image Template component](/help/assets/scene7.md#image-template).
 
-In addition, the parameter panel lists all template parameters that have been defined for the template in Scene7. For each of these parameters, you can adapt the value, insert variables, or reset them to their default value.
+In addition, the parameter panel lists all template parameters that have been defined for the template in Dynamic Media Classic (formerly Scene7). For each of these parameters, you can adapt the value, insert variables, or reset them to their default value.
 
 ![chlimage_1-112](assets/chlimage_1-112.png) 
 

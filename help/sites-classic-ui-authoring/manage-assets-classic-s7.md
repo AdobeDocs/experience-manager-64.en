@@ -13,7 +13,7 @@ discoiquuid: 9ba95dce-a801-4a36-8798-45d295371b1b
 
 # Adding Dynamic Media Classic features to your page{#adding-scene-features-to-your-page}
 
-[Adobe Dynamic Media Classic](https://help.adobe.com/en_US/scene7/using/WS26AB0D9A-F51C-464e-88C8-580A5A82F810.html) is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
+Adobe Dynamic Media Classic is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
 
 You can view AEM assets published in Dynamic Media Classic in various viewers:
 
@@ -142,8 +142,6 @@ After they are made available in **[!UICONTROL Design]** mode, you can add the c
 
 Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform.
 
-For more information about this important change, see [Flash viewer end-of-life FAQs](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
-
 ### Adding a Dynamic Media Classic component to a page {#adding-a-scene-component-to-a-page}
 
 Adding a Dynamic Media Classic component to a page is the same as adding a component to any page. Dynamic Media Classic components are described in detail in the following sections.
@@ -241,7 +239,7 @@ The Dynamic Media Classic Image component lets you add Dynamic Media Classic fun
 
 ### Image Template {#image-template}
 
-[Dynamic Media Classic Image Templates](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) are layered Photoshop content that was imported to Dynamic Media Classic, where content and properties were parameterized for variability. The **[!UICONTROL Image template]** component lets you import images and change the text dynamically in AEM. In addition, you can configure the **[!UICONTROL Image template]** component to use values from client context, so that each user experiences the image in a personalized way.
+[Dynamic Media Classic Image Templates](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics.html#template-basics) are layered Photoshop content that was imported to Dynamic Media Classic, where content and properties were parameterized for variability. The **[!UICONTROL Image template]** component lets ;you import images and change the text dynamically in AEM. In addition, you can configure the **[!UICONTROL Image template]** component to use values from client context, so that each user experiences the image in a personalized way.
 
 Click **[!UICONTROL Edit]** to configure the component. You can configure [settings common to all Dynamic Media Classic components](/help/sites-administering/scene7.md#settingscommontoalldynamicmediaclassicscomponents) as well as other settings described in this section.
 
