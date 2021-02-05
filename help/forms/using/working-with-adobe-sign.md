@@ -33,6 +33,8 @@ Adobe Sign integration with AEM Forms supports:
 * Dynamic signing processes (integration with AEM Forms workflow)
 * Authentication through a knowledge base, phone, and social profiles
 
+Learn the [best practices of using Adobe Sign with adaptive forms](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684) to create better signing experiences.
+
 ## Prerequisites {#prerequisites}
 
 Before using Adobe Sign in an adaptive form:
