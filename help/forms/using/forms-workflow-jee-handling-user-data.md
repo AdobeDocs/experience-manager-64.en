@@ -1,8 +1,8 @@
 ---
 title: Forms JEE workflows | Handling user data
 seo-title: Forms JEE workflows | Handling user data
-description: null
-seo-description: null
+description: AEM Forms JEE workflows provide tools to design, create, and manage business processes. Learn more on how to access and delete user data, identify process instance IDs when workflow initiator or participant is known, identify process instance IDs when user data is stored in primitive variables, purge user data from workflow instances based on process instance IDs, and work with orphan tasks.
+seo-description: AEM Forms JEE workflows provide tools to design, create, and manage business processes. Learn more on how to access and delete user data, identify process instance IDs when workflow initiator or participant is known, identify process instance IDs when user data is stored in primitive variables, purge user data from workflow instances based on process instance IDs, and work with orphan tasks.
 uuid: 3b06ef19-d3c4-411e-9530-2c5d2159b559
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
