@@ -1,8 +1,10 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
+solution: Experience Manager, Experience Manager Sites
 audience: end-user
 user-guide-title: AEM 6.4 Classic UI Authoring User Guide
+breadcrumb-title: Classic UI Authoring Guide
 user-guide-description: This guide covers the concepts of authoring in AEM in the classic user interface.
 ---
 
@@ -60,10 +62,8 @@ user-guide-description: This guide covers the concepts of authoring in AEM in th
     + [Working with the Marketing Campaign Manager](classic-personalization-campaigns-mktg-manager.md)
     + [E-mail Marketing](classic-personalization-campaigns-email.md)
     + [Tracking Bounced Emails](classic-personalization-campaigns-email-tracking-bounces.md)
-    + [Teasers and Strategies](classic-personalization-campaigns-teasers-strategy.md)
     + [Setting up your campaign](classic-personalization-campaigns-setting-up-your.md)
     + [Publishing an Email to Email Service Providers](classic-personalization-campaigns-email-newsletters.md)
-    + [Working with the Marketing Campaign Manager](classic-personalization-campaigns-mktg-manager.md)
     + [Creating an Effective Newsletter Landing Page](classic-personalization-campaigns-email-landingpage.md)
     + [Managing Subscriptions](classic-personalization-campaigns-email-subscriptions.md)
 + Adobe Campaign {#campaign}
@@ -79,7 +79,7 @@ user-guide-description: This guide covers the concepts of authoring in AEM in th
     + [Delivering Dynamic Media Assets](dynamic-media-assets-delivering.md)
     + [Setting up a standard stage with Autodesk Maya and Mental Ray](classicui-stages-aem3d-ad-mr.md)
     + [Adding Dynamic Media Assets to Pages](dynamic-media-assets-adding-to-page.md)
-    + [Adding Scene7 Features to your Page](manage-assets-classic-s7.md)
+    + [Adding Dynamic Media Classic (Scene7) Features to your Page](manage-assets-classic-s7.md)
     + [Working with Dynamic Media](dynamic-media-assets.md)
     + [Working with 3D assets](classicui-3dassets.md)
     + [Video](manage-assets-classic-s7-video.md)

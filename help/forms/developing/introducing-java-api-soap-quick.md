@@ -1,14 +1,13 @@
 ---
 title: Introducing Java API QuickStart
 seo-title: Introducing Java API QuickStart
-description: null
-seo-description: null
+description: Java API Quick Start programs help you expedite the development of programs that interact with AEM Forms services. You can use the Java API Quick Start programs in your project as a starting point and customize it.
+seo-description: Java API Quick Start programs help you expedite the development of programs that interact with AEM Forms services. You can use the Java API Quick Start programs in your project as a starting point and customize it.
 uuid: 480e1809-f789-4ad8-b5d5-2d97aba8411a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: develop
-topic-tags: development-tools
+topic-tags: development-tools, develop
 discoiquuid: 38fd51ec-347e-4ae3-86d4-9d2429f79bdd
 ---
 
@@ -59,7 +58,7 @@ The JAR file listing is located in a comment section located at the beginning of
 
 ## Multiple Services Quick Start {#multiple-services-quick-start}
 
-Most Quick Starts located in *Programming with AEM Forms *invoke a specific service in order to perform an operation. However, some Quick Starts invoke multiple AEM Forms services in order to perform a given workflow. The following list provides Java quick starts that invoke more than one AEM Forms service:
+Most Quick Starts located in *Programming with AEM Forms* invoke a specific service in order to perform an operation. However, some Quick Starts invoke multiple AEM Forms services in order to perform a given workflow. The following list provides Java quick starts that invoke more than one AEM Forms service:
 
 [Quick Start (SOAP mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-passing-a-document-located-in-the-repository-to-the-output-service-using-the-java-api) (invokes the Repository and Output service)
 

@@ -46,6 +46,7 @@ To author a web channel template Complete the following steps:
 1. Create a Template folder to keep your Interactive Communication web templates, if you do not already have one. For more information, see Template Folders in [Page Templates - Editable](/help/sites-developing/page-templates-editable.md).
 
     1. Tap **[!UICONTROL Tools]** ![tools-1](assets/tools-1.png) > **[!UICONTROL Configuration Browser]**.
+       * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
     1. In the Configuration Browser page, tap **[!UICONTROL Create]**. 
     1. In the Create Configuration dialog, specify a title for the folder, check **[!UICONTROL Editable Templates]**, and tap **[!UICONTROL Create]**.
 

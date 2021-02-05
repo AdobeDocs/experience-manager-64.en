@@ -1,14 +1,10 @@
 ---
 title: Mixed Media Sets
-seo-title: Mixed Media Sets
-description: Learn how to work with mixed media sets in dynamic media
-seo-description: Learn how to work with mixed media sets in dynamic media
-uuid: e37fa648-74e2-42e3-8611-8509c92ec00d
+description: Learn how to work with mixed media sets (images, image sets, spin sets, and videos) in Dynamic Media.
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 599c316e-b6a7-4a28-bc4b-75d48409bde0
 ---
 
 # Mixed Media Sets {#mixed-media-sets}

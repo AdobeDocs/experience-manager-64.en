@@ -26,7 +26,7 @@ A key factor here is that to recognize potential issues you need to know how you
 | [Log files](/help/sites-deploying/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) are being monitored. |  |  |
 | System monitoring is (constantly) running in the background. |Including CPU, memory, disk and network usage. Using for example, iostat / vmstat / perfmon. |Logged data is visualized and can be used for tracking performance problems. Raw data is also accessible. |
 | [AEM performance is being monitored](/help/sites-deploying/monitoring-and-maintaining.md#monitoring-performance). |Including [Request Counters](/help/sites-deploying/monitoring-and-maintaining.md#request-counters) to monitor traffic levels. |If a significant, or long term loss, of performance is seen, detailed investigation should be made. |
-| You are monitoring your [Replication Agents](/help/sites-deploying/monitoring-and-maintaining.md#monitoring-your-replication-agents). `` |  |  |
+| You are monitoring your [Replication Agents](/help/sites-deploying/monitoring-and-maintaining.md#monitoring-your-replication-agents). |  |  |
 | Regularly purge workflow instances. |Repository size and workflow performance. |See [Regular Purging of Workflow Instances](/help/sites-administering/workflows-administering.md#regular-purging-of-workflow-instances). |
 
 ## Backups {#backups}
@@ -92,7 +92,7 @@ This section deals with maintenance operations related to the versioning feature
 
 ### Overview {#overview}
 
-The **Purge Versions** tool is available in the **[Tools](/help/sites-administering/tools-consoles.md) console** under **Versioning** or directly at: ``
+The **Purge Versions** tool is available in the **[Tools](/help/sites-administering/tools-consoles.md) console** under **Versioning** or directly at:
 
 `https://<server>:<port>/etc/versioning/purge.html`
 
@@ -136,7 +136,7 @@ To purge versions of a web site, proceed as follows:
 The **Dry Run** and **Purge** processes list all the nodes that have been processed. During the process, a node can have one of the following status:
 
 * `ignore (not versionnable)`: the node does not support versioning and is ignored during the process.  
-* `ignore (no version)`: the node does not have any version and is ignored during the process. ``
+* `ignore (no version)`: the node does not have any version and is ignored during the process.
 * `retained`: the node is not purged.
 * `purged`: the node is purged.
 
@@ -193,7 +193,7 @@ Various log files are held on the file server where you installed AEM:
 
       Error messages (of varying levels of severity) are registered here.
     
-    * [ `ImageServer-<PortId>-yyyy>-<mm>-<dd>.log`](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/config-admin/server-logging/c-image-server-log.html) 
+    * [ `ImageServer-<PortId>-yyyy>-<mm>-<dd>.log`](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/config-admin/server-logging/c-image-server-log.html) 
 
       This log is only used if dynamic media is enabled. It provides statistics and analytical information used for analyzing behavior of the internal ImageServer process. 
     
@@ -201,7 +201,7 @@ Various log files are held on the file server where you installed AEM:
 
       Each access request is registered here together with the response.
     
-    * [ `s7access-<yyyy>-<mm>-<dd>.log`](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/config-admin/server-logging/c-access-log.html) 
+    * [ `s7access-<yyyy>-<mm>-<dd>.log`](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/config-admin/server-logging/c-access-log.html) 
 
       This log is only used if dynamic media is enabled. The s7access log records each request made to Dynamic Media through `/is/image` and `/is/content`.
     
@@ -312,12 +312,17 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >`org.apache.sling.commons.log.pattern` supports up to six arguments. 
    >
-   >{0} The timestamp of type `java.util.Date` 
+   >{0} The timestamp of type `java.util.Date`
+   >
    >{1} the log marker
-   >{2} the name of the current thread  
-   >{3} the name of the logger  
-   >{4} the log level  
-   >{5} the log message  
+   >
+   >{2} the name of the current thread
+   >
+   >{3} the name of the logger
+   >
+   >{4} the log level
+   >
+   >{5} the log message
    >
    >If the log call includes a `Throwable` the stacktrace is appended to the message.
 
@@ -394,28 +399,27 @@ In certain circumstances you may want to create a custom log file with a differe
    >`org.apache.sling.commons.log.file.size` controls the rotation of the log file by setting either:
    >
    >* a maximum file size
-   >* a time/date schedule   
+   >* a time/date schedule
    >
-   >to indicate when a new file will be created (and the existing file renamed according to the name pattern).  
+   >to indicate when a new file will be created (and the existing file renamed according to the name pattern).
    >
    >* A size limit can be specified with a number. If no size indicator is given, then this is taken as the number of bytes, or you can add one of the size indicators - `KB`, `MB`, or `GB` (case is ignored).
    >* A time/date schedule can be specified as a `java.util.SimpleDateFormat` pattern. This defines the time period after which the file will be rotated; also the suffix appended to the rotated file (for identification).
    >
-   >  The default is '.'yyyy-MM-dd (for daily log rotation).
+   >The default is '.'yyyy-MM-dd (for daily log rotation).
    >
-   >  So for example, at midnight of January 20th 2010 (or when the first log message after this occurs to be precise), ../logs/error.log will be renamed to ../logs/error.log.2010-01-20. Logging for the 21st of January will be output to (a new and empty) ../logs/error.log until it is rolled over at the next change of day.  
+   >So for example, at midnight of January 20th 2010 (or when the first log message after this occurs to be precise), ../logs/error.log will be renamed to ../logs/error.log.2010-01-20. Logging for the 21st of January will be output to (a new and empty) ../logs/error.log until it is rolled over at the next change of day.
    >
-   >  | `'.'yyyy-MM` |Rotation at the beginning of each month |
-   >  |---|---|
-   >  | `'.'yyyy-ww` |Rotation at the first day of each week (depends on the locale). |
-   >  | `'.'yyyy-MM-dd` |Rotation at midnight each day. |
-   >  | `'.'yyyy-MM-dd-a` |Rotation at midnight and midday of each day. |
-   >  | `'.'yyyy-MM-dd-HH` |Rotation at the top of every hour. |
-   >  | `'.'yyyy-MM-dd-HH-mm` |Rotation at the beginning of every minute. |
+   >| `'.'yyyy-MM` |Rotation at the beginning of each month |
+   >|---|---|
+   >| `'.'yyyy-ww` |Rotation at the first day of each week (depends on the locale). |
+   >| `'.'yyyy-MM-dd` |Rotation at midnight each day. |
+   >| `'.'yyyy-MM-dd-a` |Rotation at midnight and midday of each day. |
+   >| `'.'yyyy-MM-dd-HH` |Rotation at the top of every hour. |
+   >| `'.'yyyy-MM-dd-HH-mm` |Rotation at the beginning of every minute. |
    >
-   >  Note: When specifying a time/date:
-   >
-   >  1. You should "escape" literal text within a pair of single quotes (' ');
+   >Note: When specifying a time/date:
+   > 1. You should "escape" literal text within a pair of single quotes (' ');
    >
    >     this is to avoid certain characters being interpreted as pattern letters.
    >
@@ -449,7 +453,7 @@ These entries hold the same information as shown when editing a page.
 
 #### OSGi Audit records from the Web Console {#osgi-audit-records-from-the-web-console}
 
-OSGi events also generate audit records which can be seen from the **Configuration Status** tab -&gt; **Log Files **tab in the AEM Web Console:
+OSGi events also generate audit records which can be seen from the **Configuration Status** tab -&gt; **Log Files** tab in the AEM Web Console:
 
 ![screen_shot_2012-02-13at50346pm](assets/screen_shot_2012-02-13at50346pm.png) 
 

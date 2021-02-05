@@ -17,7 +17,7 @@ Read on to know what integrations to pick between desktop and the enterprise-gra
 
 >[!NOTE]
 >
->AEM to Creative Cloud folder sharing is deprecated and no longer covered in this guide. Adobe recommends using newer capabilities such as [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) or [AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html) to provide creative user with access to assets managed in AEM.
+>AEM to Creative Cloud folder sharing is deprecated and no longer covered in this guide. Adobe recommends using newer capabilities such as [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) or [AEM desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html) to provide creative user with access to assets managed in AEM.
 
 ## Collaboration needs of creatives, marketers, and DAM users {#collaboration-needs-of-creatives-marketers-and-dam-users}
 
@@ -32,7 +32,7 @@ Read on to know what integrations to pick between desktop and the enterprise-gra
 | Value proposition for the involved personas | Adobe offering | Involved surfaces |
 |---|---|---|
 | Creative users discover assets from AEM, open and use them, edit and upload changes to AEM, as well as upload new files into AEM, without leaving Creative Cloud apps. | [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) | Photoshop, Illustrator, and InDesign |
-| Business users simplify opening and using assets, editing and uploading changes to AEM, and uploading new files into AEM from the desktop environment. They use a generic integration to open any asset type in the native desktop application, including non-Adobe ones. | [AEM desktop app](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html) | AEM desktop app on Win and Mac desktop |
+| Business users simplify opening and using assets, editing and uploading changes to AEM, and uploading new files into AEM from the desktop environment. They use a generic integration to open any asset type in the native desktop application, including non-Adobe ones. | [AEM desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html) | AEM desktop app on Win and Mac desktop |
 | Marketers and business users discover, preview, license and save, and manage the Adobe Stock assets from within AEM. Licensed and saved assets provide select Adobe Stock metadata for better governance. | [Experience Manager and Adobe Stock integration](aem-assets-adobe-stock.md) | AEM web interface |
 
 This article focuses primarily on the first two aspects of the collaboration needs. Distribution and sourcing of assets at scale is briefly mentioned as a use case. For such needs solutions, consider Adobe Brand Portal or Asset Share Commons. Alternate solutions such as [Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share Commons](https://adobe-marketing-cloud.github.io/asset-share-commons/) components, [Link Share](/help/assets/link-sharing.md), using [Experience Manager Assets](/help/assets/managing-assets-touch-ui.md) should be reviewed based on specific requirement.
@@ -60,9 +60,9 @@ The terms used in this document may have a different meaning in other contexts. 
 | Use case | AEM desktop app | Folder sharing | Other solutions |
 |---|---|---|---|
 | Share smaller number (1) of DAM assets with Creative user | ✔✔ | ✔ | |
-| Share larger number (2) of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br> [Asset Share](assets-finder-editor.md) |
+| Share larger number (2) of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html) <br> [Asset Share](assets-finder-editor.md) |
 | Share DAM assets with users who have access to DAM | ✔✔ | ✔ | [Link Share](link-sharing.md) |
-| Share DAM assets with users who don't have access to DAM | ✘ | ✔✔ | [Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html) <br> [Asset Share](assets-finder-editor.md) |
+| Share DAM assets with users who don't have access to DAM | ✘ | ✔✔ | [Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html) <br> [Asset Share](assets-finder-editor.md) |
 | Save smaller number/volume of assets to DAM | ✔✔ | ✔ | [Web UI Upload](managing-assets-touch-ui.md) |
 | Save larger number of assets to DAM (3) | ✔✔ | ✘ | [Web UI Upload](managing-assets-touch-ui.md) <br> Custom script / tool |
 | Migrate huge number of assets to DAM | ✘ | ✘ | [Migration Guide](assets-migration-guide.md) |
@@ -104,7 +104,7 @@ To support asset distribution use cases, other solutions should be considered:
 
 ### Considerations when using AEM and Creative Cloud integration {#considerations-when-using-aem-and-creative-cloud-integration}
 
-* See [desktop app best practices](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html#best-practices-to-prevent-troubles)
+* See [desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/troubleshoot.html?lang=en#best-practices-to-prevent-troubles)
 * See [Adobe Stock integration](aem-assets-adobe-stock.md)
 * See [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html)
 
@@ -290,6 +290,6 @@ To plan and execute asset migrations from existing system to a new system or mig
 >[!MORELIKETHIS]
 >
 >* [Adobe Asset Link](https://helpx.adobe.com/in/enterprise/using/adobe-asset-link.html)
->* [AEM desktop app best practices](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/archive/best-practices-for-v1.html)
->* [AEM Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal.html)
+>* [AEM desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/archive/best-practices-for-v1.html)
+>* [AEM Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html)
 >* [AEM and Adobe Stock integration](aem-assets-adobe-stock.md)

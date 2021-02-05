@@ -6,25 +6,24 @@ contentOwner: VG
 
 # Configure AEM Assets with Brand Portal {#configure-integration-64}
 
-Adobe Experience Manager (AEM) Assets is configured with Brand Portal through Adobe I/O, which procures an IMS token for authorization of your Brand Portal tenant.
+Adobe Experience Manager (AEM) Assets is configured with Brand Portal through [!DNL Adobe I/O], which procures an IMS token for authorization of your Brand Portal tenant.
 
 >[!NOTE]
-   >
-   >Configuring AEM Assets with Brand Portal via Adobe I/O is supported on AEM 6.4.8.0 and above.
-   >
-   >Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. 
-   >
+>
+>Configuring AEM Assets with Brand Portal via [!DNL Adobe I/O] is supported on AEM 6.4.8.0 and above.
+>
+>Earlier, Brand Portal was configured in Classic UI via Legacy OAuth Gateway, which uses the JWT token exchange to obtain an IMS Access token for authorization. 
 
 >[!TIP]
-   >
-   >***For existing customers only*** 
-   >
-   >It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via Adobe I/O.
-   >
+>
+>***For existing customers only*** 
+>
+>It is recommended to continue using existing legacy OAuth Gateway configuration. In case, you encounter problems with legacy OAuth Gateway configuration,  delete the existing configuration and create new configuration via [!DNL Adobe I/O].
 
 This help describes the following two use-cases: 
-* [New configuration](#configure-new-integration-64): If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration on Adobe I/O. 
-* [Upgrade configuration](#upgrade-integration-64): If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal on legacy OAuth Gateway, it is recommended to delete the existing configurations and create new configuration on Adobe I/O.
+
+* [New configuration](#configure-new-integration-64): If you are a new Brand Portal user and want to configure your AEM Assets author instance with Brand Portal, you can create new configuration on [!DNL Adobe I/O]. 
+* [Upgrade configuration](#upgrade-integration-64): If you are an existing Brand Portal user with your AEM Assets author instance configured with Brand Portal on legacy OAuth Gateway, it is recommended to delete the existing configurations and create new configuration on [!DNL Adobe I/O].
 
 The information provided is based on the assumption that anyone reading this Help is familiar with the following technologies:
 
@@ -39,7 +38,6 @@ You require the following to configure AEM Assets with Brand Portal:
 * An up and running AEM Assets author instance with latest Service Pack.
 * Brand Portal tenant URL.
 * A user with system administrator privileges on the IMS organization of the Brand Portal tenant. 
-
 
 [Download and install AEM 6.4](#aemquickstart)
 
@@ -66,11 +64,16 @@ For detailed instructions see,
 ## Create configuration {#configure-new-integration-64}
 
 Perform the following steps in the listed sequence if you are configuring AEM Assets with Brand Portal for the first-time: 
+
 1. [Obtain public certificate](#public-certificate)
-1. [Create Adobe I/O integration](#createnewintegration) 
+1. [Create [!DNL Adobe I/O] integration](#createnewintegration) 
 1. [Create IMS Account configuration](#create-ims-account-configuration)
 1. [Configure cloud service](#configure-the-cloud-service)
 1. [Test configuration](#test-integration)
+
+>[!NOTE]
+>
+>An AEM Assets author instance shall only be configured with one Brand Portal tenant.
 
 ### Create IMS configuration {#create-ims-configuration}
 
@@ -83,7 +86,7 @@ IMS configuration includes two steps:
 
 ### Obtain public certificate {#public-certificate}
 
-Public certificate allows you to authenticate your profile on Adobe I/O.
+Public certificate allows you to authenticate your profile on [!DNL Adobe I/O].
 
 1. Login to your AEM Assets author instance
 Default URL: http:// localhost:4502/aem/start.html
@@ -107,7 +110,7 @@ Default URL: http:// localhost:4502/aem/start.html
 
    ![Create Certificate](assets/ims-config2.png)
 
-1. Click **[!UICONTROL Download Public Key]** and save the *AEM-Adobe-IMS.crt* certificate file on your machine. The certificate file is used to [create Adobe I/O integration](#createnewintegration).  
+1. Click **[!UICONTROL Download Public Key]** and save the *AEM-Adobe-IMS.crt* certificate file on your machine. The certificate file is used to [create [!DNL Adobe I/O] integration](#createnewintegration).  
 
    ![Download Certificate](assets/ims-config3.png)
 
@@ -115,13 +118,13 @@ Default URL: http:// localhost:4502/aem/start.html
 
     In the **Account** tab, you create the Adobe IMS Account but for that you will need the integration details. Keep this page open for now.
 
-    Open a new tab and [Create Adobe I/O integration](#createnewintegration) to get the integration details for IMS Account configurations. 
+    Open a new tab and [Create [!DNL Adobe I/O] integration](#createnewintegration) to get the integration details for IMS Account configurations. 
 
-### Create Adobe I/O integration {#createnewintegration}
+### Create [!DNL Adobe I/O] integration {#createnewintegration}
 
-Adobe I/O integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Account configurations.
+[!DNL Adobe I/O] integration generates API Key, Client Secret, and Payload (JWT) which is required in setting up the IMS Account configurations.
 
-1. Login to Adobe I/O Console with system administrator privileges on the IMS organization of the Brand Portal tenant.
+1. Login to [!DNL Adobe I/O] Console with system administrator privileges on the IMS organization of the Brand Portal tenant.
 
    Default URL: [https://console.adobe.io/](https://console.adobe.io/) 
 
@@ -132,7 +135,7 @@ Adobe I/O integration generates API Key, Client Secret, and Payload (JWT) which 
    ![Create New Integration](assets/create-new-integration1.png)
 
 1. Create a new integration page opens. 
-   
+
    Select your organization from the drop-down list.
 
    In **[!UICONTROL Experience Cloud]**, Select **[!UICONTROL AEM Brand Portal]** and click **[!UICONTROL Continue]**. 
@@ -164,7 +167,7 @@ Adobe I/O integration generates API Key, Client Secret, and Payload (JWT) which 
 Ensure that you have performed the following steps:
 
 * [Obtain public certificate](#public-certificate)
-* [Create Adobe I/O integration](#createnewintegration)
+* [Create [!DNL Adobe I/O] integration](#createnewintegration)
 
 **Steps to create IMS account configuration:**
 
@@ -174,7 +177,7 @@ Ensure that you have performed the following steps:
 
    In **[!UICONTROL Authorization Server]**, enter the URL: [https://ims-na1.adobelogin.com/](https://ims-na1.adobelogin.com/)  
 
-   Paste the API Key, Client Secret, and JWT payload that you have copied in the end of [Create Adobe I/O integration](#createnewintegration).
+   Paste the API Key, Client Secret, and JWT payload that you have copied in the end of [Create [!DNL Adobe I/O] integration](#createnewintegration).
 
    Click **[!UICONTROL Create]**.
 
@@ -189,12 +192,10 @@ Ensure that you have performed the following steps:
    ![](assets/create-new-integration5.png)
 
 >[!CAUTION]
-   >
-   >You must have only one IMS configuration. Do not create multiple IMS configurations.
-   >
-   >Ensure that the IMS configuration passes the health check. If the configuration does not pass the health check, it is invalid. You must delete it and create a new, valid configuration.
-   >
-
+>
+>You must have only one IMS configuration. Do not create multiple IMS configurations.
+>
+>Ensure that the IMS configuration passes the health check. If the configuration does not pass the health check, it is invalid. You must delete it and create a new, valid configuration.
 
 ### Configure cloud service {#configure-the-cloud-service}
 
@@ -248,11 +249,6 @@ Perform the following steps to create Brand Portal cloud service configuration:
    >
    >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
 
-   >[!NOTE]
-   >
-   >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
-
-
 1. To verify the connection between AEM Assets author and Brand Portal, click **[!UICONTROL Test Connection]**.
 
    ![](assets/test-integration4.png)
@@ -261,15 +257,14 @@ Perform the following steps to create Brand Portal cloud service configuration:
 
    ![](assets/test-integration5.png)
 
-   >[!NOTE]
-   >
-   >The replication agents work in parallel and share the job distribution equally, thereby increasing the publishing speed by four times the original speed. After the cloud service is configured, additional configuration is not required to enable the replication agents that are activated by default to enable parallel publishing of multiple assets.
 
 1. Verify the test results on all four replication agents one-by-one.
 
    >[!NOTE]
    >
    >Avoid disabling any of the replication agents, as it can cause the replication of some of the assets to fail.
+   >
+   >Ensure that all the four replication agents are configured to avoid timeout error. See [troubleshoot issues in parallel publishing to Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/publish/troubleshoot-parallel-publishing.html#connection-timeout).
 
 Brand Portal is successfully configured with your AEM Assets author instance. You can now:
 
@@ -333,7 +328,7 @@ Perform the following steps to delete the existing configuration:
    ![](assets/delete-mac-user.png)
 
 
-You can now [create configuration](#configure-new-integration-64) on your AEM 6.4 author instance on Adobe I/O. 
+You can now [create configuration](#configure-new-integration-64) on your AEM 6.4 author instance on [!DNL Adobe I/O]. 
 
 
 
@@ -354,4 +349,3 @@ After replication succeeds, you can publish assets, folders, and Collections to 
 * [Publish assets to Brand Portal](brand-portal-publish-assets.md)
 * [Publish assets and folders to Brand Portal](brand-portal-publish-folder.md)
 * [Publish Collections to Brand Portal](brand-portal-publish-collection.md)
-

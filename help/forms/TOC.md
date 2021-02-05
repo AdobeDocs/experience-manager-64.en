@@ -1,14 +1,16 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: forms 
+sub-product: forms
+solution: Experience Manager, Experience Manager Forms
 audience: end-user
-user-guide-title: AEM 6.4 Forms User Guide
+user-guide-title: Adobe Experience Manager 6.4 Forms Guide
+breadcrumb-title: Forms Guide
 user-guide-description: Create, manage, publish, and update digital forms.
 ---
-# AEM 6.4 - Forms User Guide {#forms}
+# Adobe Experience Manager 6.4 Forms Guide {#forms}
 
-+ [AEM 6.4 Forms User Guide](home.md)
++ [AEM 6.4 Forms Guide](home.md)
 + Release Notes {#release-notes-new-features}
   + [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/forms.html)
   + [New features summary](using/whats-new.md)
@@ -54,18 +56,18 @@ user-guide-description: Create, manage, publish, and update digital forms.
     + [Install and configure Interactive Communications](using/installing-configuring-intreactive-communication-correspondence-management.md)
   + Install AEM Forms on JEE {#jee-installation}
     + [Supported platforms for AEM forms on JEE](using/aem-forms-jee-supported-platforms.md)
-    + [Install and deploy AEM Forms on JEE using JBoss turnkey](http://www.adobe.com/go/learn_aemforms_installTurnkey_64)
-    + [Installing and configuring only document security server](using/installing-and-configuring-the-document-security-server.md)
-    + [Prepare to install AEM Forms single server](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64)
-    + [Install and deploying AEM Forms on JEE for JBoss](http://www.adobe.com/go/learn_aemforms_installJBoss_64)
-    + [Install and deploying AEM Forms on JEE for WebLogic](http://www.adobe.com/go/learn_aemforms_installWebLogic_64)
-    + [Install and deploying AEM Forms on JEE for WebSphere](http://www.adobe.com/go/learn_aemforms_installWebSphere_64)
+    + [Installing and Deploying AEM Forms on JEE Using JBoss Turnkey](http://www.adobe.com/go/learn_aemforms_installTurnkey_64)
+    + [Installing and configuring AEM Forms Document Security server](using/installing-and-configuring-the-document-security-server.md)
+    + [Preparing to install AEM Forms (Single Server)](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64)
+    + [Installing and Deploying Adobe Experience Manager Forms on JEE for JBoss](http://www.adobe.com/go/learn_aemforms_installJBoss_64)
+    + [Installing and Deploying AEM Forms on JEE for WebLogic](http://www.adobe.com/go/learn_aemforms_installWebLogic_64)
+    + [Installing and Deploying Adobe Experience Manager Forms on JEE for WebSphere](http://www.adobe.com/go/learn_aemforms_installWebSphere_64)
     + [Install AEM Forms Workbench](http://help.adobe.com/en_US/AEMForms/6.1/InstallWorkbench/index.html)
     + [Install and configure Designer](using/installing-configuring-designer.md)
-    + [Prepare to install AEM Forms server cluster](http://www.adobe.com/go/learn_aemforms_prepareInstallcluster_64)
-    + [Configure AEM Forms on JEE on JBoss cluster](http://www.adobe.com/go/learn_aemforms_clusterJBoss_64)
-    + [Configure AEM Forms on JEE on WebLogic cluster](http://www.adobe.com/go/learn_aemforms_clusterWebLogic_64)
-    + [Configure AEM Forms on JEE on WebSphere cluster](http://www.adobe.com/go/learn_aemforms_clusterWebSphere_64)
+    + [Preparing to Install AEM Forms (Server Cluster)](http://www.adobe.com/go/learn_aemforms_prepareInstallcluster_64)
+    + [Configuring Adobe Experience Manager Forms on JEE on JBoss Cluster](http://www.adobe.com/go/learn_aemforms_clusterJBoss_64)
+    + [Configuring Adobe Experience Manager Forms on JEE on WebLogic Cluster](http://www.adobe.com/go/learn_aemforms_clusterWebLogic_64)
+    + [Configuring Adobe Experience Manager Forms on JEE on WebSphere Cluster](http://www.adobe.com/go/learn_aemforms_clusterWebSphere_64)
   + Configure AEM Forms {#configure-aem-forms}
     + [Performance tuning of AEM Forms server](using/performance-tuning-aem-forms.md)
     + [Configure adaptive forms cache](using/configure-adaptive-forms-cache.md)
@@ -82,17 +84,17 @@ user-guide-description: Create, manage, publish, and update digital forms.
     + [Install Compatibility Package](using/compatibility-package.md)
     + [Migrate AEM Forms assets and documents](using/migration-utility.md)
   + Upgrade AEM Forms on JEE {#aem-forms-jee-upgrade}
-    + [Prepare to upgrade AEM Forms](http://www.adobe.com/go/learn_aemforms_prepareupgrade_64)
-    + [Upgrade checklist and planning](http://www.adobe.com/go/learn_aemforms_upgrade_checklist_64)
+    + [Preparing to upgrade AEM Forms](http://www.adobe.com/go/learn_aemforms_prepareupgrade_64)
+    + [Adobe Experience Manager Forms on JEE upgrade checklist and planning](http://www.adobe.com/go/learn_aemforms_upgrade_checklist_64)
     + [Upgrade to AEM 6.4 forms on JEE](using/upgrade-forms-jee.md)
-    + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for JBoss](http://www.adobe.com/go/learn_aemforms_upgradeJBoss_64)
+    + [Upgrading to Adobe Experience Manager Forms on JEE for JBoss](http://www.adobe.com/go/learn_aemforms_upgradeJBoss_64)
     + [Upgrading from LiveCycle ES4 SP1 to Adobe Experience Manager Forms on JEE for JBoss](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-jboss-livecycle.pdf)
-    + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for JBoss turnkey](http://www.adobe.com/go/learn_aemforms_upgradeTurnkey_64)
-    + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-turnkey-livecycle.pdf)
-    + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for WebLogic](http://www.adobe.com/go/learn_aemforms_upgradeWebLogic_64)
-    + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebLogic](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-weblogic-livecycle.pdf)
-    + [Upgrading from an AEM Forms release to AEM 6.4 Forms on JEE for WebSphere](http://www.adobe.com/go/learn_aemforms_upgradeWebSphere_64)
-    + [Upgrading from LiveCycle ES4 SP1 to AEM Forms on JEE for WebSphere](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-websphere-livecycle.pdf)
+    + [Upgrading to AEM Forms on JEE for JBoss Turnkey](http://www.adobe.com/go/learn_aemforms_upgradeTurnkey_64)
+    + [Upgrading from LiveCycle ES4 SP1 to Adobe Experience Manager Forms on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-turnkey-livecycle.pdf)
+    + [Upgrading to Adobe Experience Manager Forms on JEE for WebLogic](http://www.adobe.com/go/learn_aemforms_upgradeWebLogic_64)
+    + [Upgrading from LiveCycle ES4 SP1 to Adobe Experience Manager Forms on JEE for WebLogic](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-weblogic-livecycle.pdf)
+    + [Upgrading to Adobe Experience Manager Forms on JEE for WebSphere](http://www.adobe.com/go/learn_aemforms_upgradeWebSphere_64)
+    + [Upgrading from LiveCycle ES4 SP1 to Adobe Experience Manager Forms on JEE for WebSphere](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/upgrade-websphere-livecycle.pdf)
 + Manage AEM Forms {#manage-administer-aem-forms}
   + [AEM Forms on OSGi Groups and Privileges](using/forms-groups-privileges-tasks.md)
   + [Create new folders to categorize forms](using/creating-new-folders-categorize-forms.md)
@@ -359,11 +361,11 @@ user-guide-description: Create, manage, publish, and update digital forms.
   + [Protect a document on behalf of another user](using/protect-document-on-behalf-of-another-user.md)
 + Forms Designer {#use-forms-designer}
   + [Using Designer](http://www.adobe.com/go/learn_aemforms_designer_64)
-  + [Designer quick start tutorials](http://www.adobe.com/go/learn_aemforms_designer_quick_start_64)
-  + [Designer samples](http://www.adobe.com/go/learn_aemforms_designer_samples_64)
-  + [Designer scripting basics](http://www.adobe.com/go/learn_aemforms_scriptingBasics_64)
-  + [Designer scripting reference](http://www.adobe.com/go/learn_aemforms_scriptingReference_64)
-  + [Designer FormCalc reference](http://www.adobe.com/go/learn_aemforms_formCalc_64)
+  + [Designer Quick Start Tutorials](http://www.adobe.com/go/learn_aemforms_designer_quick_start_64)
+  + [Designer Samples](http://www.adobe.com/go/learn_aemforms_designer_samples_64)
+  + [Designer Scripting Basics](http://www.adobe.com/go/learn_aemforms_scriptingBasics_64)
+  + [Designer Scripting Reference](http://www.adobe.com/go/learn_aemforms_scriptingReference_64)
+  + [Designer FormCalc Reference](http://www.adobe.com/go/learn_aemforms_formCalc_64)
   + [Using Scribble Signature in HTML5 forms](using/scribble-signature.md)
 + Customize AEM Forms {#customize-aem-forms}
   + [Appearance framework for adaptive and HTML5 forms](using/introduction-widgets.md)
@@ -497,7 +499,6 @@ user-guide-description: Create, manage, publish, and update digital forms.
     + [Make fonts available](/help/forms/using/admin-help/make-fonts-available.md)
     + [Specify fonts to embed](/help/forms/using/admin-help/specify-fonts-embed.md)
     + [Specify security settings](/help/forms/using/admin-help/specify-security-settings.md)
-    + [Change the character set](/help/forms/using/admin-help/change-character-set.md)
   + Configuring forms workflow{#configure-forms-workflow}
     + [About administration and process terminology](/help/forms/using/admin-help/administration-process-terminology.md)
     + [Managing Processes](/help/forms/using/admin-help/processes.md)

@@ -17,6 +17,10 @@ The [Video component](/help/sites-authoring/default-components-foundation.md#vid
 
 For proper transcoding to occur, your administrator must [Install FFmpeg and configure AEM](#install-ffmpeg) separately. They can also [Configure your Video Profiles](#configure-video-profiles) for use with HTML5 elements.
 
+>[!CAUTION]
+>
+>This component is no longer expected to function out-of-the-box without extensive project-level customization.
+
 ## Configure video profiles {#configure-video-profiles}
 
 You may want to define video profiles to use for HTML5 elements. Those chosen here are used in order. To access, use [Design Mode](/help/sites-authoring/default-components-designmode.md) (Classic UI only) and select the **[!UICONTROL Profiles]** tab:

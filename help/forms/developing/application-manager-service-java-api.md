@@ -1,8 +1,8 @@
 ---
 title: Application Manager Service JavaAPI Quick Start(SOAP)
 seo-title: Application Manager Service JavaAPI Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Application Manager service to deploy and remove applications using the Java API Quick Start.
+seo-description: Use the Application Manager service to deploy and remove applications using the Java API Quick Start.
 uuid: 01a9bce3-868b-495b-bdee-bc60f029129e
 contentOwner: admin
 content-type: reference

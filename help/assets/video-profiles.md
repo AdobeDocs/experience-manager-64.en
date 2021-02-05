@@ -1,14 +1,10 @@
 ---
 title: Dynamic Media video profiles
-seo-title: Dynamic Media video profiles
-description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
-seo-description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
-uuid: cfb498f8-44a0-4d94-99b0-fed7c27f575b
+description: Dynamic Media comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best video viewing experience possible. 
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: b893f366-279a-4872-9413-77626d3387ea
 ---
 
 # Dynamic Media video profiles {#video-profiles}

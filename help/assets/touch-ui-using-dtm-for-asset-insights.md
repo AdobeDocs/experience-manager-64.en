@@ -6,9 +6,11 @@ contentOwner: AG
 
 # Enabling Asset Insights through DTM {#enabling-asset-insights-through-dtm}
 
-Adobe Dynamic Tag Management is a tool that activates your digital marketing tools. It is provided for free to Adobe Analytics customers.
+Adobe Dynamic Tag Management is a tool that activates your digital marketing tools. It is provided for free to Adobe Analytics customers. You can either customize your tracking code to enable third-party CMS solutions to use Asset Insights or you can use DTM to insert Asset Insights tags. Insights are only supported and provided for images.
 
-Although you can customize your tracking code to enable third-party CMS solutions to use Asset Insights, Adobe recommends that you use DTM to insert Asset Insights tags.
+>[!CAUTION]
+>
+>Adobe DTM is deprecated in favor of Adobe Experience Platform Launch and will soon reach [end of life](https://medium.com/launch-by-adobe/dtm-plans-for-a-sunset-3c6aab003a6f). Adobe recommends that you [use Launch for asset insights](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html).
 
 Perform these steps to enable Asset Insights through DTM:
 
@@ -42,7 +44,6 @@ Perform these steps to enable Asset Insights through DTM:
    >* The call to `assetAnalytics.dispatcher.init()` is removed. The function is expected to be called once DTM's Adobe Analytics tool finishes loading.
    >* Depending on where Asset Insights Page Tracker is hosted (for example AEM, CDN and so on), the origin of the script source may require changes.
    >* For AEM-hosted Page Tracker, the source should point to a publish instance using the host name of the dispatcher instance.
-
 
 1. Open [https://dtm.adobe.com](https://dtm.adobe.com). Click Overview in the web property and click Add Tool or open an existing Adobe Analytics Tool. While creating the tool, you can set Configuration Method to Automatic.
 

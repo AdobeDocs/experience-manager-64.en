@@ -1,14 +1,10 @@
 ---
 title: Configuring Search Forms
-seo-title: Configuring Search Forms
 description: Learn how to configure Search Forms.
-seo-description: Learn how to configure Search Forms.
-uuid: 0d30921c-0d4d-4ab6-b796-7833cd321e5d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: abc27987-960e-48da-9580-1008a2bdc94c
 ---
 
 # Configuring Search Forms{#configuring-search-forms}
@@ -21,9 +17,9 @@ You can [configure the search forms](#configuring-your-search-forms) used within
 
 * **Tools**
 
-    * **General**
+  * **General**
 
-        * **Search Forms**
+    * **Search Forms**
 
 When you first access this console you can see that all the configurations have a padlock symbol. This indicates that the appropriate configuration is the default (out-of-the-box) configuration - and cannot be deleted. Once you have customized the configuration the lock will disappear - unless you [delete your customized configuration](#deleting-a-configuration-to-reinstate-the-default), in which case the default (and the padlock indicator) will be reinstated.
 
@@ -57,9 +53,9 @@ The default configurations available are:
 
   This configuration defines the options available when searching for products in the assets browser (when editing a page).
 
-* **Page Editor (Scene7 search)**:
+* **Page Editor (Dynamic Media Classic [formerly Scene7] search)**:
 
-  This configuration defines the options available when searching for Scene7 resources in the assets browser (when editing a page).
+  This configuration defines the options available when searching for Dynamic Media Classic resources in the assets browser (when editing a page).
 
 * **Sites Admin Search Rail**:
 
@@ -449,7 +445,7 @@ You can add or edit fields and define/update their settings:
 
 1. Select the Preview icon:
 
-   ![](do-not-localize/chlimage_1-31.png)
+    ![](do-not-localize/chlimage_1-31.png)
 
 1. This will display the search forms as they will be shown (fully expanded) in the Search column of the appropriate console.
 

@@ -42,7 +42,7 @@ The `PageModelManager` library is provided as an NPM package to be used by an SP
 
 On behalf of the SPA, it abstracts the retrieval and management of the JSON structure that represents the actual content structure. It is also responsible for syncing with the SPA to let it know when it has to re-render its components.
 
-See the NPM package [@adobe/cq-spa-page-model-manager](https://www.npmjs.com/package/@adobe/cq-spa-page-model-manager)
+See the NPM package [@adobe/aem-spa-page-model-manager](https://www.npmjs.com/package/@adobe/aem-spa-page-model-manager)
 
 When initializing the `PageModelManager`, the library first loads the provided root model of the App (via parameter, meta property, or current URL). If the library identifies that the model of the current page is not part of the root model it fetches and include it as the model of a child page.
 
@@ -70,7 +70,7 @@ The remainder of this document describes the requirements of this intermediary f
 
 The content structure of the page is stored in AEM. The model of the page is used to map and instantiate SPA components. The SPA developers create SPA components which they map to AEM components. To do this, they use the resource type (or path to the AEM component) as a unique key.
 
-The SPA components must be in synch with the page model and be updated with any changes to its content accordingly. A pattern leveraging dynamic components must be used to instantiate components on the fly following the provided page model structure.
+The SPA components must be in sync with the page model and be updated with any changes to its content accordingly. A pattern leveraging dynamic components must be used to instantiate components on the fly following the provided page model structure.
 
 ### Meta Fields {#meta-fields}
 
@@ -92,14 +92,14 @@ Separating concerns helps to facilitate project implementation. Therefore an npm
 
 To facilitate the interoperability of the libraries, Adobe advise the framework-specific module to bundle the following libraries. If necessary, the layer can encapsulate and adapt the underlying APIs before exposing them to the project.
 
-* [@adobe/cq-spa-page-model-manager](https://www.npmjs.com/package/@adobe/cq-spa-page-model-manager)
-* [@adobe/cq-spa-component-mapping](https://www.npmjs.com/package/@adobe/cq-spa-component-mapping)
+* [@adobe/aem-spa-page-model-manager](https://www.npmjs.com/package/@adobe/aem-spa-page-model-manager)
+* [@adobe/aem-spa-component-mapping](https://www.npmjs.com/package/@adobe/aem-spa-component-mapping)
 
 #### Implementations {#implementations}
 
 #### React {#react}
 
-npm module: [@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components)
+npm module: [@adobe/aem-react-editable-components](https://www.npmjs.com/package/@adobe/aem-react-editable-components)
 
 #### Angular {#angular}
 
@@ -162,7 +162,7 @@ The Responsive Grid component should come pre-mapped to its AEM counterpart as t
 * `gridClassNames:` Provided class names for the responsive grid
 * `columnClassNames:` Provided class names for the responsive column
 
-See also the npm resource [@adobe/cq-react-editable-components#srccomponentsresponsivegridjsx](https://www.npmjs.com/package/@adobe/cq-react-editable-components#srccomponentsresponsivegridjsx)
+See also the npm resource [@adobe/aem-react-editable-components#srccomponentsresponsivegridjsx](https://www.npmjs.com/package/@adobe/aem-react-editable-components#srccomponentsresponsivegridjsx)
 
 #### Placeholder of the Reponsive Grid {#placeholder-of-the-reponsive-grid}
 

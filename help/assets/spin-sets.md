@@ -1,14 +1,10 @@
 ---
 title: Spin Sets
-seo-title: Spin Sets
-description: Learn how to work with spin sets in dynamic media
-seo-description: Learn how to work with spin sets in dynamic media
-uuid: a80a0491-6500-463a-83c4-ff4b90a88182
+description: Learn how to work with Spin Sets in Dynamic Media. A Spin Set simulates the real-world act of turning an object to examine it from any angle.
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: afacb3ad-e4ad-4d06-a898-f3f2da8bbb64
 ---
 
 # Spin Sets {#spin-sets}
@@ -17,7 +13,7 @@ A Spin Set simulates the real-world act of turning an object to examine it. Spin
 
 A Spin Set simulates a 360-degree viewing experience. Dynamic Media offers single-axis Spin Sets in which viewers can rotate an item. Moreover, users can “free-form” zoom and pan any of the views with a few simple mouse-clicks. In this way, users can examine an item more closely from a particular viewpoint.
 
-Spin Sets are designated by a banner with the word **[!UICONTROL SPINSET]**. In addition, if the Spin Set is published, then the publish date, indicated by the **[!UICONTROL World]** icon is on the banner along with the last modification date, indicated by the **[!UICONTROL Pencil]** icon displays. 
+Spin Sets are designated by a banner with the word **[!UICONTROL SPINSET]**. In addition, if the Spin Set is published, then the publish date, indicated by the **[!UICONTROL World]** icon is on the banner along with the last modification date, indicated by the **[!UICONTROL Pencil]** icon displays.
 
 ![chlimage_1-380](assets/chlimage_1-380.png)
 
@@ -42,7 +38,8 @@ To get you up and running quickly with Spin Sets, follow this workflow:
    >[!NOTE]
    >
    >You can also create Spin Sets automatically through [batch set presets](/help/assets/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets).
-   *Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode*.
+   >
+   >*Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode*.
 
 1. Set up [Spin Set Viewer presets](managing-viewer-presets.md), as needed.
 
@@ -97,7 +94,8 @@ The order in which images appear in a spin set matter. Be sure to order them so 
 >[!NOTE]
 >
 >You can also create spin sets automatically through [batch set presets](/help/assets/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets).
-Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
+>
+>Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
 >
 >See "Creating batch set presets to auto-generate Image Sets and Spin Sets" in [Configuring Dynamic Media - Scene7 mode](/help/assets/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets).
 

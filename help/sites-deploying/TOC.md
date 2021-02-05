@@ -1,8 +1,10 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
+solution: Experience Manager, Experience Manager Sites
 audience: end-user
 user-guide-title: AEM 6.4 Deploying Guide
+breadcrumb-title: Deploying Guide
 user-guide-description: Learn more about installing, deploying, and the architecture of Adobe Experience Manager 6.4, including our Adobe Managed Services cloud deployment.
 ---
 
@@ -28,8 +30,7 @@ user-guide-description: Learn more about installing, deploying, and the architec
     + [Indexing via the Oak-run Jar](indexing-via-the-oak-run-jar.md)
     + [Oak-run.jar Indexing Use Cases](oak-run-indexing-usecases.md)
     + [Troubleshooting Oak Indexes](troubleshooting-oak-indexes.md)
-    + [Opting Into Aggregated Usage Statistics Collection](opt-in-aggregated-usage-statistics.md)
-    + [Update Release Vehicle Definitions](update-release-vehicle-definitions.md)
+    + [Opting Into Aggregated Usage Statistics Collection](opt-in-aggregated-usage-statistics.md)   
     + [Troubleshooting](troubleshooting.md)
 + Configuring AEM {#configuring}
     + [Basic Configuration Concepts](configuring.md)
@@ -47,7 +48,7 @@ user-guide-description: Learn more about installing, deploying, and the architec
     + [Offloading Jobs](offloading.md)
     + [Single Sign On](single-sign-on.md)
     + [Resource Mapping](resource-mapping.md)
-    + [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md)
+    + [Enabling HTTP Over SSL](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/configuring/ssl-by-default.html)
     + [Consistency and Traversal Checks](consistency-check.md)
     + [Performance Guidelines](performance-guidelines.md)
     + [Performance Optimization](configuring-performance.md)
@@ -61,6 +62,7 @@ user-guide-description: Learn more about installing, deploying, and the architec
     + [Assessing the Upgrade Complexity with the Pattern Detector](pattern-detector.md)
     + [Backward Compatibility in AEM 6.4](backward-compatibility.md)
     + [Upgrade Procedure](upgrade-procedure.md)
+    + [Using Offline Reindexing To Reduce Downtime During an Upgrade](upgrade-offline-reindexing.md)
     + [Performing an In-Place Upgrade](in-place-upgrade.md)
     + [Lazy Content Migration](lazy-content-migration.md)
     + [Using the CRX2Oak Migration Tool](using-crx2oak.md)

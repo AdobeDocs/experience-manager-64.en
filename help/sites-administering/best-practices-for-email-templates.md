@@ -1,15 +1,10 @@
 ---
 title: Best Practices for Email Templates
-seo-title: Best Practices for Email Templates
-description: Find best practices on creating email templates in AEM.
-seo-description: Find best practices on creating email templates in AEM.
-uuid: 714090bd-a742-4004-a968-aebd8fd03e04
+description: Find best practices around email design that results in a well-developed email campaign template in Adobe Experience Manager.
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: integration
 content-type: reference
-topic-tags: best-practices
-discoiquuid: 6c019157-cc37-4826-8d3a-dbee59ec09e0
+topic-tags: best-practices, integration
 ---
 
 # Best Practices for Email Templates{#best-practices-for-email-templates}
@@ -142,7 +137,7 @@ There are currently [seven components available for use inside campaign template
 | Text&Personalization |/libs/mcm/campaign/components/personalization |
 | Textimage |/libs/mcm/campaign/components/textimage |
 | Link |/libs/mcm/campaign/components/reference |
-| Scene7 Image Template |/libs/mcm/campaign/s7image |
+| Dynamic Media Classic (formerly Scene7) Image Template |/libs/mcm/campaign/s7image |
 | Targeted Reference |/libs/mcm/campaign/components/reference |
 
 >[!NOTE]

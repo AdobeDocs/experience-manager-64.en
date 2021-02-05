@@ -15,7 +15,9 @@ discoiquuid: 418cc919-0ae3-4c6c-8566-7e9a206f02a8
 
 Adobe Experience Manager (AEM) Communities provides the ability to quickly create an on-premise community site that has improved performance, improved site management, and encourages the conversion of site visitors to valuable community members.
 
+<!--
 Contact your account representative for information regarding licensing of AEM Communities as well as additional licensing for enablement features and Adobe Analytics.
+-->
 
 ## Communities Features {#communities-features}
 
