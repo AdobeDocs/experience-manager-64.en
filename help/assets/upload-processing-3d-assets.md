@@ -15,7 +15,7 @@ discoiquuid: a0319701-21eb-4b7f-8b2e-ac81a7a75875
 
 >[!IMPORTANT]
 >
->AEM 3D in AEM 6.4 is no longer supported. Adobe recommends that you use the 3D assets feature in [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html) or [AEM 6.5.3 or higher.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html).
+>AEM 3D in AEM 6.4 is no longer supported. Adobe recommends that you use the 3D assets feature in [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html#dynamicmedia) or [AEM 6.5.3 or higher.](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/assets-3d.html#dynamic).
 
 Use standard upload or sync mechanisms to bring 3D assets and their associated referenced files into AEM Assets.
 
