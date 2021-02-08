@@ -86,3 +86,7 @@ Of course, you can apply workflows manually as well. See [Assets Media Handlers]
 ## [!DNL Experience Manager Assets] and [!DNL Media Library] {#cq-dam-vs-cq-medialibrary}
 
 See [Assets and Media Library](medialibrary.md) for information on the differences.
+
+>[!MORELIKETHIS]
+>
+>* [Experience Manager Assets as a modern DAM](https://www.youtube.com/embed/PBwQqZgC-yo)
