@@ -1,8 +1,8 @@
 ---
 title: Configuring a Correspondence Management solution
 seo-title: Configuring a Correspondence Management solution
-description: null
-seo-description: null
+description: Learn how to define an author instance URL for the author instance version restore and define the Publish instance URL for public instance activation manager.
+seo-description: Learn how to define an author instance URL for the author instance version restore and define the Publish instance URL for public instance activation manager.
 uuid: 76b25004-fe47-44d7-9bed-7c0fd963306b
 topic-tags: correspondence-management
 content-type: reference
