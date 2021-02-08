@@ -23,9 +23,7 @@ contentOwner: AG
 
 ### [!DNL Experience Manager Assets] is integrated with [!DNL Experience Manager Sites] {#aem-assets-fully-integrated-in-cq-wcm}
 
-[!DNL Assets] completely integrates with [!DNL Sites] and works seamlessly for all use cases. For example, when authoring web pages, the [!DNL Sites] authors can find and use the digital assets via the Content Finder. The user interface of [!DNL Assets] is the same as that of [!DNL Sites]. See [overview of Sites](/help/sites-authoring/page-authoring.md) for full details.
-
-The basic user interface is the same as that of [!DNL Sites]. See [Overview of the Sites](/help/sites-authoring/page-authoring.md) for full details.
+[!DNL Assets] completely integrates with [!DNL Sites] and works seamlessly for all use cases. For example, when authoring web pages, the [!DNL Sites] authors can find and use the digital assets via the Content Finder. The user interface of [!DNL Assets] is the same as that of [!DNL Sites]. See [overview of Sites](/help/sites-authoring/qg-page-authoring.md) for full details.
 
 <!-- TBD: Update image for branding 
 
