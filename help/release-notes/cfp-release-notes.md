@@ -58,7 +58,7 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 ### Communities {#communities-6484}
 
-* Bug fix 1
+* Broken access control and denial of service with DSRPReindexServlet which brings the communities site down untill the indexing is complete (NPR-35624).
 
 ### Commerce {#commerce-6484}
 
