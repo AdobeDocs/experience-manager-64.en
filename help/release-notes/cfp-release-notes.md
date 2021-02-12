@@ -35,7 +35,8 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 * When you open the properties of a page after upgrading to Experience Manager 6.4.8.3, JavaScript errors start appearing in the console (NPR-35649).
 * Updates to product asset reference puts replication threads to the waiting state until the ProductAssetListener thread completes its commits to JCR (NPR-35359).
-* After installing Experience Manager Service Pack 6.4.8.2, users cannot edit content fragment models.
+* After installing Experience Manager Service Pack 6.4.8.2, users cannot edit content fragment models and experience the following error: 
+
   `Uncaught TypeError: Cannot read property 'debounce' of undefined` (NPR-35312)
 * When a user clicks the logout button, the user is not logged out of Package Manager. (NPR-35161)
 * After upgrading from Experience Manager 6.4.x to Experience Manager 6.4.8.3, users are unable to publish a page via Manage Publication. (CQ-4312511)
