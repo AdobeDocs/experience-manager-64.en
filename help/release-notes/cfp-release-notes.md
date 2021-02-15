@@ -53,7 +53,7 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 ### Platform {#platform-6484}
 
-* When you use a Coral Tab View component with no tabs and then trigger a Foundation validator, the following error occurs (NPR-35636):
+* When you use a Coral Tab View component with no tabs and then trigger a Foundation validator, the following error occurs (NPR-35637):
 
   ```TXT
    Uncaught TypeError: Cannot set property 'invalid' of undefined
@@ -67,7 +67,7 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 ### Communities {#communities-6484}
 
-* Broken access control and denial of service with DSRPReindexServlet which brings the communities site down untill the indexing is complete (NPR-35624).
+* Broken access control and denial of service with DSRPReindexServlet which brings the communities site down until the indexing is complete (NPR-35624).
 
 ### Commerce {#commerce-6484}
 
