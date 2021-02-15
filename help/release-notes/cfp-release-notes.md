@@ -44,8 +44,10 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 ### [!DNL Assets] {#assets-6484}
 
-* `IndexWriter.merge` causes `OutOfMemoryError` error as smart tagging functionality creates large `/oak:index/lucene` and `/oak:index/ntBaseLucene` indices. (NPR-35650)
-* Users are unable to check-in assets after editing those in [!DNL Adobe InDesign] and receive error about lack of permissions. (NPR-35340)
+* `IndexWriter.merge` causes `OutOfMemoryError` error as smart tagging functionality creates large `/oak:index/lucene` and `/oak:index/ntBaseLucene` indices (NPR-35650).
+* Users are unable to check-in assets after editing those in [!DNL Adobe InDesign] and receive error about lack of permissions (NPR-35340).
+* When a new version of an existing asset is created after resolving the naming conflict, the metadata of original asset is overwritten (NPR-35939).
+* Private folder auto-generated groups are not maintained and not removed when deleting the folder or when updating the folder with the [!UICONTROL Remove Private Folder Restrictions] option set (NPR-35625).
 
 #### [!DNL Dynamic Media] {#dynamic-media}
 
