@@ -1,8 +1,8 @@
 ---
 title: DO NOT PUBLISH WIP - Work in progress
 seo-title: DO NOT PUBLISH WIP - Work in progress
-description: null
-seo-description: null
+description: DO NOT PUBLISH
+seo-description: DO NOT PUBLISH
 page-status-flag: never-activated
 uuid: 31dee661-b6af-4c8e-ba98-c1ed0ef680b0
 contentOwner: khsingh

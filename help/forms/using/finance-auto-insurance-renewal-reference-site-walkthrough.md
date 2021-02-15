@@ -1,8 +1,8 @@
 ---
 title: We.Finance Auto Insurance Renewal reference site walkthrough
 seo-title: We.Finance Auto Insurance Renewal reference site walkthrough
-description: null
-seo-description: null
+description: Read on detailed reference site walkthrough of We.Finance Auto Insurance use case which showcases how AEM forms and its integration with Microsoft Dynamics helps personalize customer experience in a financial service company.
+seo-description: Read on detailed reference site walkthrough of We.Finance Auto Insurance use case which showcases how AEM forms and its integration with Microsoft Dynamics helps personalize customer experience in a financial service company.
 uuid: 18676ab4-9f8d-4014-b751-2a722fd152da
 contentOwner: dekalra
 topic-tags: introduction

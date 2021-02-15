@@ -17,6 +17,42 @@ discoiquuid: a726c904-aadd-4678-be84-9e05808ab8be
 
 This section of the AEM Communities documentation is in addition to:
 
+* [Building AEM Projects using Apache Maven](../../help/sites-developing/ht-projects-maven.md).
+
+There is only one "uber" artifact that replace individual artifacts:
+
+* AEM [Uber API jar](../../help/sites-developing/ht-projects-maven.md#what-is-the-uberjar)
+
+>[!NOTE]
+>
+>From AEM 6.4 onwards, the Communities APIs are not released explicitly. All the Communities APIs are are now included in the Uber jar itself. 
+>
+>It is recommended to keep up-to-date with the most recent Communities release.
+>
+>See [Latest Releases](deploy-communities.md#latest-releases) section to identify the most recent version.
+
+## Maven Dependency Example {#maven-dependency-example}
+
+```xml
+<dependency>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>uber-jar</artifactId>
+    <version>6.4.8.3</version>
+    <scope>provided</scope>
+</dependency>
+```
+
+>[!NOTE]
+>
+>See [AEM Uber jar repository](https://mvnrepository.com/artifact/com.adobe.aem/uber-jar) to identify the latest Uber jar artifact. 
+
+<!--
+# Using Maven for Communities {#using-maven-for-communities}
+
+## Overview {#overview}
+
+This section of the AEM Communities documentation is in addition to:
+
 * [How to Build AEM Projects using Apache Maven](../../help/sites-developing/ht-projects-maven.md)
 
 There are now two "uber" artifacts that replace individual artifacts:
@@ -73,3 +109,4 @@ The Communities API jar must be specified before the Uber API jar.
     <classifier>apis</classifier>
 </dependency>
 ```
+-->

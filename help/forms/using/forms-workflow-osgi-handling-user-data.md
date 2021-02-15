@@ -1,8 +1,8 @@
 ---
 title: Forms-centric workflows on OSGi | Handling user data
 seo-title: Forms-centric workflows on OSGi | Handling user data
-description: null
-seo-description: null
+description: Forms-centric AEM workflows enable you to automate real-world Forms-centric business processes. Dig deeper on user data and data stores. Learn how to access and delete user data.
+seo-description: Forms-centric AEM workflows enable you to automate real-world Forms-centric business processes. Dig deeper on user data and data stores. Learn how to access and delete user data.
 uuid: 6eefbe84-6496-4bf8-b065-212aa50cd074
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS

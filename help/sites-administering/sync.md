@@ -162,7 +162,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
         * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
-    * locate `Adobe Granite Distribution - Encrypted Password Transport Secret Provider`
+    * locate `com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider.name`
     * select the existing configuration to open for edit (pencil icon) 
 
       Verify `property name` : **`socialpubsync-publishUser`**
