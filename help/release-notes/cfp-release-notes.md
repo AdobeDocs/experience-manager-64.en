@@ -55,11 +55,11 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 * When you use a Coral Tab View component with no tabs and then trigger a Foundation validator, the following error occurs (NPR-35636):
 
-    ```TXT
+  ```TXT
    Uncaught TypeError: Cannot set property 'invalid' of undefined
     at enable (foundation.js:10703)
     at foundation.js:10710
-    ```
+  ```
 
 ### Integrations {#integrations-6484}
 
