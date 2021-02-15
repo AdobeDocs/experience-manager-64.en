@@ -25,7 +25,7 @@ AEM Cumulative Fix Pack 6.4.8.4 is an important update that includes several int
 
 AEM 6.4.8.4 is a Cumulative Fix Pack (CFP) that is dependent on AEM 6.4 Service Pack 8. Install the CFP after installing AEM 6.4 Service Pack 8.
 
-In AEM 6.4.8.4, the built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.23.
+In AEM 6.4.8.4, the built-in repository (Apache Jackrabbit Oak) is updated to version [TBD].
 
 For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
 
@@ -33,8 +33,6 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 ### Sites {#sites-6484}
 
-* When you open the properties of a page after upgrading to Experience Manager 6.4.8.3, JavaScript errors start appearing in the console (NPR-35649).
-* Updates to product asset reference puts replication threads to the waiting state until the ProductAssetListener thread completes its commits to JCR (NPR-35359).
 * After installing Experience Manager Service Pack 6.4.8.2, users cannot edit content fragment models and experience the following error: 
 
   `Uncaught TypeError: Cannot read property 'debounce' of undefined` (NPR-35312)
@@ -55,15 +53,17 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 ### Platform {#platform-6484}
 
-* Bug fix 1
+* When you use a Coral Tab View component with no tabs and then trigger a Foundation validator, the following error occurs (NPR-35636):
+
+    ```TXT
+   Uncaught TypeError: Cannot set property 'invalid' of undefined
+    at enable (foundation.js:10703)
+    at foundation.js:10710
+    ```
 
 ### Integrations {#integrations-6484}
 
-* Bug fix 1
-
-### User Interface {#ui-6484}
-
-* Bug fix 1
+* When you open the properties of a page after upgrading to Experience Manager 6.4.8.3, JavaScript errors start appearing in the console (NPR-35649).
 
 ### Communities {#communities-6484}
 
@@ -71,7 +71,7 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 ### Commerce {#commerce-6484}
 
-* Bug fix 1
+* Updates to product asset reference puts replication threads to the waiting state until the ProductAssetListener thread completes its commits to JCR (NPR-35359).
 
 ### Forms {#forms-6484}
 
