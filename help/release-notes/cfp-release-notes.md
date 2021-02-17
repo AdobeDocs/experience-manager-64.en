@@ -15,7 +15,7 @@ mini-toc-levels: 1
 |---|---|
 | Version |6.4.8.4 |
 | Type |Cumulative Fix Pack |
-| Date |February 25, 2020 |
+| Date |February 25, 2021 |
 | Prerequisite |[AEM 6.4 Service Pack 8 (6.4.8.0)](sp-release-notes.md) |
 | Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/cumulativefixpack/aem-6.4.8-cfp-3.0.zip) |
 
