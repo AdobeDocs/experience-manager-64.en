@@ -72,7 +72,7 @@ user-guide-description: This guide covers how to build out your AEM instance.
     + [Developing AEM Components](developing-components.md)
     + [Developing AEM Components - Code Samples](developing-components-samples.md)
     + [JSON Exporter for Content Services](json-exporter.md)
-    + [Enabling JSON Export for a Component](https://experienceleague.adobe.com/docs/experience-manager-64/developing/components/json-exporter-components.html)
+    + [Enabling JSON Export for a Component](json-exporter-components.md)
     + [Image Editor](image-editor.md)
     + [Decoration Tag](decoration-tag.md)
     + [Using Hide Conditions](hide-conditions.md)
@@ -93,7 +93,7 @@ user-guide-description: This guide covers how to build out your AEM instance.
       + [Developing Forms (Classic UI)](developing-forms.md)
 + Headless Experience Management{#headless}
     + [Headless and Hybrid with AEM](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-sites/headless-content-management-system/pdfs/aem-hybrid-architecture-wp-1-18-19.pdf)
-    + [Enabling JSON Export for a Component](json-exporter-components.md)
+    + [Enabling JSON Export for a Component](https://experienceleague.adobe.com/docs/experience-manager-64/developing/components/json-exporter-components.html)
     + Single Page Applications{#spas}
         + [SPA Introduction and Walkthrough](spa-walkthrough.md)
         + [SPA WKND Tutorial](spa-wknd.md)
