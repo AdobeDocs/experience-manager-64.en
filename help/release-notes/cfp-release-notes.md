@@ -25,7 +25,7 @@ AEM Cumulative Fix Pack 6.4.8.4 is an important update that includes several int
 
 AEM 6.4.8.4 is a Cumulative Fix Pack (CFP) that is dependent on AEM 6.4 Service Pack 8. Install the CFP after installing AEM 6.4 Service Pack 8.
 
-In AEM 6.4.8.4, the built-in repository (Apache Jackrabbit Oak) is updated to version [TBD].
+In AEM 6.4.8.4, the built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.24.
 
 For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
 
@@ -53,27 +53,9 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 * Intermittent ImageServer error causes 403 response for and consequent failure of a few functionalities of [!DNL Experience Manager]. (CQ-4308565)
 
-### Platform {#platform-6484}
-
-* When you use a Coral Tab View component with no tabs and then trigger a Foundation validator, the following error occurs (NPR-35637):
-
-  ```TXT
-   Uncaught TypeError: Cannot set property 'invalid' of undefined
-    at enable (foundation.js:10703)
-    at foundation.js:10710
-  ```
-
 ### Integrations {#integrations-6484}
 
 * When you open the properties of a page after upgrading to Experience Manager 6.4.8.3, JavaScript errors start appearing in the console (NPR-35649).
-
-### Communities {#communities-6484}
-
-* Broken access control and denial of service with DSRPReindexServlet which brings the communities site down until the indexing is complete (NPR-35624).
-
-### Commerce {#commerce-6484}
-
-* Updates to product asset reference puts replication threads to the waiting state until the ProductAssetListener thread completes its commits to JCR (NPR-35359).
 
 ### Forms {#forms-6484}
 
@@ -523,7 +505,7 @@ For information about installing the cumulative installer for AEM Forms JEE and 
 
 ### Uber Jar {#uber-jar}
 
-The Uber Jar for AEM 6.4.8.4 is available in the [Maven Central repository](https://repo.maven.apache.org/maven2/com/adobe/aem/uber-jar/6.4.8.3/).
+The Uber Jar for AEM 6.4.8.4 is available in the [Maven Central repository](https://repo.maven.apache.org/maven2/com/adobe/aem/uber-jar/6.4.8.4/).
 
 To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
