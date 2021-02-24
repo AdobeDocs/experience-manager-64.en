@@ -193,7 +193,7 @@ In such cases, you can leverage the AEM/Creative Cloud integration to improve th
 
 Use the following strategies to provide access to final/approved assets:
 
-* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), or customer’s implementation of [Asset Share](assets-finder-editor.md) on AEM publish infrastructure
+* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en), or customer’s implementation of [Asset Share](assets-finder-editor.md) on AEM publish infrastructure
 
 * To provide access to a few assets: AEM folder sharing with Adobe Creative Cloud can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in this article.
 
@@ -289,7 +289,7 @@ To plan and execute asset migrations from existing system to a new system or mig
 
 >[!MORELIKETHIS]
 >
->* [Adobe Asset Link](https://helpx.adobe.com/in/enterprise/using/adobe-asset-link.html)
+>* [Adobe Asset Link](https://helpx.adobe.com/in/enterprise/admin-guide.html/in/enterprise/using/adobe-asset-link.ug.html)
 >* [AEM desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/archive/best-practices-for-v1.html)
 >* [AEM Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html)
 >* [AEM and Adobe Stock integration](aem-assets-adobe-stock.md)
