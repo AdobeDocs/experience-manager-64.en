@@ -17,7 +17,7 @@ mini-toc-levels: 1
 | Type |Cumulative Fix Pack |
 | Date |February 25, 2021 |
 | Prerequisite |[AEM 6.4 Service Pack 8 (6.4.8.0)](sp-release-notes.md) |
-| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/cumulativefixpack/aem-6.4.8-cfp-3.0.zip) |
+| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/cumulativefixpack/aem-6.4.8-cfp-4.0.zip) |
 
 ## What's included in AEM 6.4.8.4 {#what-s-included-in-aem}
 
@@ -27,7 +27,7 @@ AEM 6.4.8.4 is a Cumulative Fix Pack (CFP) that is dependent on AEM 6.4 Service 
 
 In AEM 6.4.8.4, the built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.24.
 
-For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
+For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-release-vehicle-definitions.html?lang=en)
 
 Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
@@ -438,7 +438,7 @@ Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 
 Perform the following steps to install the Cumulative Fix Pack on an existing AEM 6.4.8.0 instance:
 
-1. Click the [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/cumulativefixpack/aem-6.4.8-cfp-3.0.zip) link to download the package.
+1. Click the [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/cumulativefixpack/aem-6.4.8-cfp-4.0.zip) link to download the package.
 
 1. Open [Package Manager](http://localhost:4502/crx/packmgr/index.jsp) and click **[!UICONTROL Upload Package]** to upload the package.
 
@@ -487,22 +487,6 @@ which will copy new viewer presets to /conf location.
 >
 >[!DNL Experience Manager Forms] releases the add-on packages one week after the scheduled [!DNL Experience Manager] Cumulative Fix Pack release date.
 
->[!NOTE]
->
->Skip if you are not using AEM Forms. Fixes in AEM Forms are delivered through a separate add-on package.
-
-1. Ensure that you have installed the AEM Cumulative Fix Pack.
-1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.
-1. Install the forms add-on package as described in [Installing AEM forms add-on packages](https://docs.adobe.com/content/help/en/experience-manager-64/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html#install-aem-forms-add-on-package).
-
-### Install AEM Forms JEE installer {#install-aem-forms-jee-installer}
-
->[!NOTE]
->
->Skip if you are not using AEM Forms on JEE. Fixes in AEM Forms JEE are delivered through a separate installer.
-
-For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer](jee-patch-installer-64.md).
-
 ### Uber Jar {#uber-jar}
 
 The Uber Jar for AEM 6.4.8.4 is available in the [Maven Central repository](https://repo.maven.apache.org/maven2/com/adobe/aem/uber-jar/6.4.8.4/).
@@ -543,11 +527,11 @@ The following text documents list the OSGi bundles and Content Packages included
 
 List of OSGi bundles included in AEM 6.4.8.4
 
-[Get File](assets/6.4.8.3_osgi_bundles.txt)
+[Get File](assets/6.4.8.4_osgi_bundles.txt)
 
 List of Content Packages included in AEM 6.4.8.4
 
-[Get File](assets/6.4.8.3_content_packages.txt)
+[Get File](assets/6.4.8.4_content_packages.txt)
 
 ## Helpful resources {#helpful-resources}
 
