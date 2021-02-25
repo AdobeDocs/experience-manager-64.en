@@ -2229,11 +2229,6 @@ This section lists features and capabilities that have been removed or deprecate
 
 * The following errors and warnings may display during installation:
 
-  * Errors as create component instance and Service factory returned null occurs due to repository restart:
-
-      * com.day.cq.cq-personalization \[com.day.cq.personalization.impl.DefaultProfileProvider(938)\] Cannot create component instance due to failure to bind reference profileManager
-      * org.apache.sling.commons.scheduler FrameworkEvent ERROR (org.osgi.framework.ServiceException: Service factory returned null. (Component: com.day.cq.tagging.impl.TagGarbageCollector (1687)))
-
   * `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)]` : Timeout waiting for reg change to complete unregistered.
   * `com.adobe.granite.maintenance.impl.TaskScheduler` No maintenance windows found at granite/operations/maintenance
   * `com.adobe.cq.com.adobe.cq.ui.commons bundle com.adobe.cq.com.adobe.cq.ui.commons:1.2.28 (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)]`: The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).
