@@ -25,7 +25,13 @@ AEM Cumulative Fix Pack 6.4.8.4 is an important update that includes several int
 
 AEM 6.4.8.4 is a Cumulative Fix Pack (CFP) that is dependent on AEM 6.4 Service Pack 8. Install the CFP after installing AEM 6.4 Service Pack 8.
 
-In AEM 6.4.8.4, the built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.24.
+The key features and enhancements introduced in [!DNL Adobe Experience Manager] 6.4.8.4 are:
+
+* Ability to enable or disable the [!DNL Experience Manager Forms] registry changes when performing a PDFG conversion.
+
+* X-509 certificate-based authentication for SOAP-based web services in form data model.
+
+* The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.24.
 
 For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-release-vehicle-definitions.html?lang=en)
 
@@ -62,6 +68,20 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 >[!NOTE]
 >
 >[!DNL Experience Manager Forms] releases the add-on packages one week after the scheduled [!DNL Experience Manager] Cumulative Fix Pack release date.
+
+**Correspondence Management**
+
+* When you are editing a letter, the modules with conditions take a longer time to load (NPR-35326).
+
+* When editing a letter, the content and data bindings do not display on the User Interface (CQ-4312905).
+
+**Document Services**
+
+* Unable to assemble PDFs after upgrading [!DNL JAVA] to [!DNL JDK1.8.0_261] (NPR-35761, NPR-35848).
+
+**Foundation JEE**
+
+* When you edit a task notification in [!DNL Forms] workflow, you are not able to save it (CQ-4315055).
 
 For information on security updates, see [Experience Manager security bulletins page](https://helpx.adobe.com/security/products/experience-manager.html).
 
@@ -486,6 +506,26 @@ which will copy new viewer presets to /conf location.
 >[!NOTE]
 >
 >[!DNL Experience Manager Forms] releases the add-on packages one week after the scheduled [!DNL Experience Manager] Cumulative Fix Pack release date.
+
+>[!NOTE]
+>
+>Skip if you are not using AEM Forms. Fixes in AEM Forms are delivered through a separate add-on package.
+
+1. Ensure that you have installed the AEM Cumulative Fix Pack.
+1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en#forms-updates) for your operating system.
+1. Install the forms add-on package as described in [Installing AEM forms add-on packages](https://docs.adobe.com/content/help/en/experience-manager-64/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html#install-aem-forms-add-on-package).
+
+### Install AEM Forms JEE installer {#install-aem-forms-jee-installer}
+
+>[!NOTE]
+>
+>Skip if you are not using AEM Forms on JEE. Fixes in AEM Forms JEE are delivered through a separate installer.
+
+For information about installing the cumulative installer for AEM Forms JEE and post-deployment configuration, see [AEM Forms JEE Patch Installer](jee-patch-installer-64.md).
+
+>[!NOTE]
+>
+>After installing the cumulative installer for Experience Manager Forms on JEE, install the latest Forms add-on package, delete the Forms add-on package from the `crx-repository\install` folder, and restart the server.
 
 ### Uber Jar {#uber-jar}
 
