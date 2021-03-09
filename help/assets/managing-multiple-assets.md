@@ -25,12 +25,7 @@ To customize the metadata properties page, including adding, modifying, deleting
 
 1. In the Assets user interface, navigate to the location of the assets you want to edit.
 1. Select the assets for which you want to edit common properties.
-1. From the toolbar, tap/click the **[!UICONTROL Properties]** icon to open the properties page for the selected assets.
-
-   >[!NOTE]
-   >
-   >When you select multiple assets, the lowest common parent form is selected for the assets. In other words, the properties page only displays metadata fields that are common across the properties pages of all the individual assets.
-
+1. From the toolbar, click **[!UICONTROL Properties]** to open the properties page for the selected assets.
 1. Modify the metadata properties for selected assets under the various tabs.
 1. To view the metadata editor for a specific asset, deselect the remaining assets in the list. The metadata editor fields are populated with the metadata for the particular asset.
 
@@ -39,9 +34,9 @@ To customize the metadata properties page, including adding, modifying, deleting
    >* In the properties page, you can remove assets from the asset list by deselecting them. The asset list has all the assets selected by default. The metadata for assets that you remove from the list is not updated.
    >* At the top of assets list, select the check box near **Title** to toggle between selecting the assets and clearing the list.
 
-1. To select a different metadata schema for the assets, tap/click the **[!UICONTROL Settings]** icon from the toolbar, and select the desired schema.
+1. To select a different metadata schema for the assets, click **[!UICONTROL Settings]** from the toolbar, and select the desired schema.
 1. Save the changes.
-1. To append the new metadata with the existing metadata in fields that contain multiple values, select **[!UICONTROL Append mode]**. If you do not select this option, the new metadata replaces the existing metadata in the fields. Tap/click **[!UICONTROL Submit]**.
+1. To append the new metadata with the existing metadata in fields that contain multiple values, select **[!UICONTROL Append mode]**. If you do not select this option, the new metadata replaces the existing metadata in the fields. Click **[!UICONTROL Submit]**.
 
    >[!CAUTION]
    >
