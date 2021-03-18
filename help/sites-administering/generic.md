@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
 discoiquuid: ad80505f-116e-43f1-8d93-ffe6e8b1ac46
+feature: Commerce Integration Framework
 ---
 
 # Administering Generic eCommerce{#administering-generic-ecommerce}

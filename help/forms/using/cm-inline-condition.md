@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: interactive-communications, correspondence-management
 discoiquuid: f376b8c1-e176-4fe6-b298-f3d493c59319
+feature: Correspondence Management
 ---
 
 # Inline condition and repeat in Interactive Communications and letters {#inline-condition-and-repeat-in-interactive-communications-and-letters}

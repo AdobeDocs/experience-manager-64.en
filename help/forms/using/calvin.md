@@ -8,6 +8,7 @@ contentOwner: gtalwar
 content-type: reference
 topic-tags: adaptive_forms, develop
 discoiquuid: 2daf95b6-bf72-4191-bdb7-e17e76b166f3
+feature: Adaptive Forms
 ---
 
 # Automate testing of adaptive forms {#automate-testing-of-adaptive-forms}

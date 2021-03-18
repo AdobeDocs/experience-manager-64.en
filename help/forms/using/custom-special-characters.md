@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 1b5e6746-3618-46fe-ba2d-ec76bb79de1d
+feature: Correspondence Management
 ---
 
 # Custom special characters in Correspondence Management {#custom-special-characters-in-correspondence-management}

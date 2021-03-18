@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: fc879b0b-823b-4bdc-aaa6-36f53a33fb22
+feature: Upgrading
 ---
 
 # Repository Restructuring in AEM 6.4{#repository-restructuring-in-aem}

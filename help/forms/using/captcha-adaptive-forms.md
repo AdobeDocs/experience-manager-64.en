@@ -8,6 +8,7 @@ contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author, adaptive_forms
 discoiquuid: 32369b0b-5abf-487d-ae6b-972c254eb7e2
+feature: Adaptive Forms
 ---
 
 # Using CAPTCHA in adaptive forms {#using-captcha-in-adaptive-forms}

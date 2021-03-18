@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: c491f0f3-375d-4203-bdf3-234987bbf685
+feature: Multi Site Manager
 ---
 
 # Configuring Live Copy Synchronization{#configuring-live-copy-synchronization}

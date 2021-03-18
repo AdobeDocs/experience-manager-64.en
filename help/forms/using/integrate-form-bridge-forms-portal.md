@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: e0608649-bd49-4f40-bc1b-821c9b208883
+feature: Mobile Forms
 ---
 
 # Integrating Form Bridge with custom portal for HTML5 forms {#integrating-form-bridge-with-custom-portal-for-html-forms}
