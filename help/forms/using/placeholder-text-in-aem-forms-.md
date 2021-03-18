@@ -7,6 +7,7 @@ uuid: 553ed988-ad2c-4bdb-bf1e-332e48cf7dfa
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 2d7367fa-6cb8-40a1-8566-1fd0d46fdfde
+feature: Adaptive Forms
 ---
 
 # Placeholder text in AEM Forms {#placeholder-text-in-aem-forms}

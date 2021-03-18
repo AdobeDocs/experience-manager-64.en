@@ -6,6 +6,8 @@ audience: end-user
 user-guide-title: AEM 6.4 Classic UI Authoring User Guide
 breadcrumb-title: Classic UI Authoring Guide
 user-guide-description: This guide covers the concepts of authoring in AEM in the classic user interface.
+feature: Authoring
+role: Business Practitioner
 ---
 
 # AEM 6.4 Classic UI Authoring User Guide {#classic-ui}

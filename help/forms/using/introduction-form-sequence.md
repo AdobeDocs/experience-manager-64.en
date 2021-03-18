@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 4a51ebc4-e019-4fc5-93a1-d97f695126f5
+feature: Adaptive Forms
 ---
 
 # Introduction to multi-step form sequence {#introduction-to-multi-step-form-sequence}

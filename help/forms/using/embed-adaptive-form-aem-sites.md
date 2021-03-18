@@ -8,6 +8,7 @@ contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications, author
 discoiquuid: 43362643-69cd-4006-a613-f998c79eeddc
+feature: Adaptive Forms
 ---
 
 # Embed an adaptive form or interactive communication in AEM sites page {#embed-an-adaptive-form-or-interactive-communication-in-aem-sites-page}

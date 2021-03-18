@@ -7,6 +7,7 @@ uuid: 5a5f912a-9696-4bc1-af3f-ead78f767e02
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: c51817aa-193a-4d4f-bd83-06518ddfb395
+feature: Adaptive Forms
 ---
 
 # Configuring redirect page {#configuring-redirect-page}

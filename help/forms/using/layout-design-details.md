@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management, interactive-communications
 discoiquuid: 046b1bf9-1ac7-4e2e-ab37-6fe5422dfa20
+feature: Correspondence Management
 ---
 
 # Layout Design {#layout-design}

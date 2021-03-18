@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: e135fa01-fede-4285-b4dd-2d23acbb4d26
+feature: Mobile Forms
 ---
 
 # Designing form templates for HTML5 forms {#designing-form-templates-for-html-forms}

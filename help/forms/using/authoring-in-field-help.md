@@ -7,6 +7,7 @@ uuid: 07427ddd-9d35-41f6-a807-0e418aade199
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 893a72c7-d68f-464f-9765-ec2272189e58
+feature: Adaptive Forms
 ---
 
 # Authoring in-context help for form fields {#authoring-in-context-help-for-form-fields}

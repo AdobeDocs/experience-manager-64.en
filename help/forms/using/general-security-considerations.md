@@ -8,6 +8,7 @@ content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 38132225-ecae-4887-8f3d-0b3845059130
+role: Administrator
 ---
 
 # General Security Considerations for AEM Forms on JEE {#general-security-considerations-for-aem-forms-on-jee}
