@@ -172,4 +172,4 @@ The table below provides a list of changes for future release, that are not depr
 |Area|Feature|Announcement|
 |---|---|---|
 |Browser Support|Microsoft Internet Explorer|AEM 6.4 is the last release that supports Microsoft Internet Explorer 11.|
-|Foundation|UI Framework|Adobe is deprecating the Coral UI 2 components in 2019. AEM 6.4 is completely based on Coral UI 3 (introduced with AEM 6.2). Adobe recommends its customers and partners that have build custom UIs with Coral 2 to refactored these to Coral 3. Adobe offers a tool to convert Coral 2 dialogs to Coral 3 - [Read more](/help/sites-developing/dialog-conversion.md).|
+|Foundation|UI Framework|Adobe is deprecating the Coral UI 2 components in 2019. AEM 6.4 is completely based on Coral UI 3 (introduced with AEM 6.2). Adobe recommends its customers and partners that have build custom UIs with Coral 2 to refactored these to Coral 3. Adobe offers a tool to convert Coral 2 dialogs to Coral 3 - [Read more.](/help/sites-developing/modernization-tools.md)|

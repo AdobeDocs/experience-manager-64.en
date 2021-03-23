@@ -300,7 +300,7 @@ This process of prioritization has yielded more than 500 customer focused change
   * [Italian](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/product/smartcontent-model-it)
   * [French](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/product/smartcontent-model-fr)
 
-* [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md) to migrate Classic UI components to Coral 3
+* [AEM Modernization Tools](/help/sites-developing/modernization-tools.md) to migrate Classic UI components to Coral 3
 
 **Assets**
 
