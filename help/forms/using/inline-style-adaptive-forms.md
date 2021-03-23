@@ -7,6 +7,7 @@ uuid: ab948f02-3b41-4304-955b-6dd51d27088e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 91a41bc1-3fa3-4467-b3f8-5570ba7757c0
+feature: Adaptive Forms
 ---
 
 # Inline styling of adaptive form components {#inline-styling-of-adaptive-form-components}

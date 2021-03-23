@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 2791c9a1-38a2-4154-8bea-2f7c564b46c8
+feature: Mobile Forms
 ---
 
 # HTML5 forms service proxy {#html-forms-service-proxy}

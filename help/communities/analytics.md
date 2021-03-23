@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 36ea97a4-4e13-4e89-866b-495f3c30cb94
+role: Administrator
 ---
 
 # Analytics Configuration for Communities Features {#analytics-configuration-for-communities-features}

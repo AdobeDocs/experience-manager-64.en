@@ -7,6 +7,7 @@ uuid: 93d69398-aead-4e23-8db3-b3e890477113
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3ade2a54-cb9a-4e34-808c-c6feec23cfe1
+feature: Interactive Communication
 ---
 
 # Conditions in Interactive Communications {#conditions-in-interactive-communications}

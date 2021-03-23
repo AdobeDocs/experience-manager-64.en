@@ -1,7 +1,7 @@
 ---
 title: SPA and Server-Side Rendering
 seo-title: SPA and Server-Side Rendering
-description: null
+description: "SPA and Server-Side Rendering"
 seo-description: null
 uuid: fbf7d0d1-865d-45d2-aeec-a7e3caf3fcb2
 contentOwner: bohnert
@@ -30,7 +30,7 @@ However this can lead to longer initial load times, especially if the SPA is lar
 
 ## When to Use SSR {#when-to-use-ssr}
 
-SSR is not required on all projects. Althgouh AEM fully supports JS SSR for SPA, Adobe does not recommend implementing it systematically for every project.
+SSR is not required on all projects. Although AEM fully supports JS SSR for SPA, Adobe does not recommend implementing it systematically for every project.
 
 When deciding to implement SSR you must first estimate what additional complexity, effort, and cost adding SSR realistically represents for the project, including the long term maintenance. An SSR architecture should be chosen only when the added value clearly exceeds the estimated costs.
 

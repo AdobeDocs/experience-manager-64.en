@@ -7,6 +7,7 @@ uuid: 4f33c10f-e862-4113-9d5a-67e6208e1e66
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9f3ba207-b5a3-43a2-b59c-0d74d62c03fc
+feature: Adaptive Forms
 ---
 
 # Adaptive Form Expressions {#adaptive-form-expressions}

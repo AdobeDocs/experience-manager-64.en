@@ -10,10 +10,9 @@ This guide covers all AEM Assets tasks, such as how to create, manage, deliver, 
 
 ## Key AEM articles
 
-* [Getting Started with AEM](https://helpx.adobe.com/experience-manager/get-started.html)
-* [AEM 6.4 Release Notes](/help/release-notes/home.md)
-* [Recent Documentation Updates](https://helpx.adobe.com/experience-manager/documentation-updates.html)
-* [AEM Security Checklist](/help/sites-administering/security-checklist.md)
+* [AEM 6.4 release notes](/help/release-notes/home.md)
+* [Recent documentation updates](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html)
+* [AEM security checklist](/help/sites-administering/security-checklist.md)
 
 ## AEM 6.4 user guides
 
@@ -34,7 +33,7 @@ This guide covers all AEM Assets tasks, such as how to create, manage, deliver, 
 
 ## Key AEM resources
 
-* [AEM tutorials](https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html)
+* [AEM tutorials](https://experienceleague.adobe.com/docs/experience-manager-tutorials.html)
 * [Dispatcher User Guide](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html)
 * [HTL User Guide](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)
 * [Core Components User Guide](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)

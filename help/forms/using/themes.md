@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop, interactive-communications
 content-strategy: max-2018
 discoiquuid: c5933e2a-fb8d-4d1b-a301-c8a2bc7ee226
+feature: Adaptive Forms
 ---
 
 # Creating and using themes {#creating-and-using-themes}

@@ -8,6 +8,7 @@ uuid: 81d40278-4df9-4b61-93ad-eae2fce0a35c
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 31e97723-d637-4a18-999d-36e00fbd031a
+feature: Adaptive Forms
 ---
 
 # Tutorial: Create form data model  {#tutorial-create-form-data-model}

@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 161b591b-5871-4b5f-9c63-823b6e67b1fd
+feature: Multi Site Manager
 ---
 
 # Creating and Synchronizing Live Copies{#creating-and-synchronizing-live-copies}
@@ -331,6 +332,10 @@ You can suspend the live copy inheritance for a live copy page so that you can c
 >
 >You can also [detach a live copy](#detaching-a-live-copy) from its blueprint to remove all connections. The Detach action is permanent and non-reversible.
 
+>[!NOTE]
+>
+>If the component is marked as a container, the cancellation and suspend actions do not apply to its child components. See also [MSM Best Practices](/help/sites-administering/msm-best-practices.md#components-and-container-synchronization) for additional information.
+
 #### Suspending Inheritance from Page Properties {#suspending-inheritance-from-page-properties}
 
 To suspend inheritance on a page:
@@ -434,6 +439,10 @@ To specify or change the depth:
 ### Cancelling Inheritance for a Component {#cancelling-inheritance-for-a-component}
 
 Cancel the live copy inheritance for a component so that the component is no longer synchronized with the source component. You can enable inheritance at a later point if required.
+
+>[!NOTE]
+>
+>If the component is marked as a container, the cancellation and suspend actions do not apply to its child components. See also [MSM Best Practices](/help/sites-administering/msm-best-practices.md#components-and-container-synchronization) for additional information.
 
 >[!NOTE]
 >

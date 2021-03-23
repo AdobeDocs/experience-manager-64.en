@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: e975e026-e815-4445-be3e-b1237ed3f6b2
+role: Administrator
 ---
 
 # SRP - Community Content Storage {#srp-community-content-storage}

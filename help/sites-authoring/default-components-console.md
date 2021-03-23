@@ -1,7 +1,7 @@
 ---
 title: Components Console
 seo-title: Components Console
-description: null
+description: Components Console
 seo-description: null
 uuid: 308b7fa1-9525-43f3-8c15-1076485b3f8c
 contentOwner: Chris Bohnert

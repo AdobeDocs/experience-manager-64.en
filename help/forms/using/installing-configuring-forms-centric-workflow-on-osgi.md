@@ -6,6 +6,7 @@ seo-description: Install and configure AEM Forms Interactive Communications to c
 uuid: 847c3351-dc46-4e60-a023-0f4e9e057c7c
 topic-tags: installing
 discoiquuid: 7333641e-8c8c-4b52-a7da-a2976c88592c
+role: Administrator
 ---
 
 # Installing and Configuring Forms-centric workflow on OSGi {#installing-and-configuring-forms-centric-workflow-on-osgi}
@@ -175,7 +176,7 @@ Caching is a mechanism to shorten data access times, reduce latency, and improve
 Perform the following steps to configure the adaptive forms cache:
 
 1. Go to AEM web console configuration manager at `https://[server]:[port]/system/console/configMgr`.
-1. Click **Adaptive Form Configuration Service** to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the **Number of Adaptive Forms** field. The default value is 100. Click **Save**.
+1. Click **[!UICONTROL Adaptive Form and Interactive Communication Web Channel Configuration]** to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the **Number of Adaptive Forms** field. The default value is 100. Click **Save**.
 
    >[!NOTE]
    >

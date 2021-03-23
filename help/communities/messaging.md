@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 5cb571ae-eeb5-4943-a6b8-92e346e85be2
+role: Administrator
 ---
 
 # Configuring Messaging {#configuring-messaging}

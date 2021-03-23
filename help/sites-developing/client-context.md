@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 7b97fc27-30de-4ef9-9efe-673aec50cff2
+feature: Context Hub
 ---
 
 # Client Context in Detail{#client-context-in-detail}
