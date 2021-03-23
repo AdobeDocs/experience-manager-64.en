@@ -70,7 +70,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
      <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selecting-your-ui">Selecting Your UI</a>.</li> 
     </ol> <p>Then, in a second phase:</p> 
     <ol> 
-     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="/help/sites-developing/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
+     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="/help/sites-developing/modernization-tools.md">AEM Modernization Tools</a> to update the components.</li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
      <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selecting-your-ui">Selecting Your UI</a>.</li> 
     </ol> <p>Then, in a second phase:</p> 
     <ol> 
-     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="/help/sites-developing/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
+     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="/help/sites-developing/modernization-tools.md">AEM Modernization Tools</a> to update the components.</li> 
      <li>Configure the ContextHub (the replacement for the ClientContext) and update the page templates to use the ContextHub. Note that the ContextHub has a compatibility mode that allows loading custom ClientContext stores.</li> 
     </ol> </td> 
   </tr> 
@@ -117,7 +117,7 @@ For background information on basic handling:
 For detailed development information:
 
 * [Touch-optimized UI architecture](/help/sites-developing/touch-ui-concepts.md).
-* Use the [Dialog Conversion tool](/help/sites-developing/dialog-conversion.md) to convert component Edit dialogs from the classic UI to the touch-optimized UI.  
+* Use the [AEM Modernization Tools](/help/sites-developing/modernization-tools.md) to convert component Edit dialogs from the classic UI to the touch-optimized UI.  
 
 * [Structure of the touch-optimized UI](/help/sites-developing/touch-ui-structure.md).  
 
