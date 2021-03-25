@@ -9,6 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 599f1925-a17e-4bae-93d9-b54edcee92b0
+feature: Mobile Forms
 ---
 
 # Architecture of HTML5 forms {#architecture-of-html-forms}

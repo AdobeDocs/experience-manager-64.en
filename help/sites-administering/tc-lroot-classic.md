@@ -9,6 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 237b8cc6-158e-4c51-970d-4c9cc74f6496
+feature: Language Copy
 ---
 
 # Creating a Language Root Using the Classic UI{#creating-a-language-root-using-the-classic-ui}

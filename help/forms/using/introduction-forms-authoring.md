@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction, author
 discoiquuid: c7a1d13e-cb61-4082-8ae7-7f5eee9e0a51
+feature: Adaptive Forms
 ---
 
 # Introduction to authoring adaptive forms  {#introduction-to-authoring-adaptive-forms}

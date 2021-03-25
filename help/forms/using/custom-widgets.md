@@ -9,6 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 5d860f05-3257-4cf7-93dd-77d226d59b39
+feature: Mobile Forms
 ---
 
 # Create custom appearances in HTML5 forms {#create-custom-appearances-in-html-forms}

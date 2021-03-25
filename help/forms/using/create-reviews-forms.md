@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 43fd720f-2a5a-47fb-b9d9-d19f866cd0a0
+feature: Adaptive Forms
 ---
 
 # Creating and managing reviews for assets in forms {#creating-and-managing-reviews-for-assets-in-forms}

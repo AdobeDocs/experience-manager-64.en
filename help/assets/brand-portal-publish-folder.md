@@ -2,6 +2,8 @@
 title: Publish folders to Brand Portal
 description: Learn how to publish and unpublish folders to Brand Portal.
 contentOwner: VG
+feature: Brand Portal
+role: Business Practitioner
 ---
 
 # Publish folders to Brand Portal {#publish-folders-to-brand-portal}

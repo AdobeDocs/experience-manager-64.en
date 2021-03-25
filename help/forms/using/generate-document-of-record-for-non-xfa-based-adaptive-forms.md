@@ -9,6 +9,7 @@ topic-tags: adaptive_forms, develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1e533a8c-f200-40ca-b170-0e9abee8513e
 noindex: true
+feature: Adaptive Forms
 ---
 
 # Generate Document of Record for adaptive forms {#generate-document-of-record-for-adaptive-forms}

@@ -1,7 +1,7 @@
 ---
 title: SPA and Server-Side Rendering
 seo-title: SPA and Server-Side Rendering
-description: null
+description: "SPA and Server-Side Rendering"
 seo-description: null
 uuid: fbf7d0d1-865d-45d2-aeec-a7e3caf3fcb2
 contentOwner: bohnert

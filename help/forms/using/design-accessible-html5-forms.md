@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: ccc59dd5-c0cf-415a-b71a-5bc0cf452ede
+feature: Mobile Forms
 ---
 
 # Designing accessible HTML5 forms {#designing-accessible-html-forms}

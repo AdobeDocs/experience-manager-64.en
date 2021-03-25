@@ -2,6 +2,8 @@
 title: Configure AEM Assets with Brand Portal
 description: Learn how to configure AEM Assets with Brand Portal for publishing assets and Collections to Brand Portal. 
 contentOwner: VG
+feature: Brand Portal
+role: Administrator
 ---
 
 # Configure AEM Assets with Brand Portal {#configure-integration-64}

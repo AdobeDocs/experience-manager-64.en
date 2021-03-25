@@ -6,6 +6,7 @@ seo-description: Install and configure AEM Forms Interactive Communications to c
 uuid: c09b5743-3cbc-49ff-977a-b6b3eb81b160
 topic-tags: installing
 discoiquuid: 674c6b68-8a04-4cd3-a63e-9968ca686948
+role: Administrator
 ---
 
 # Install and configure Interactive Communications {#install-and-configure-interactive-communications}

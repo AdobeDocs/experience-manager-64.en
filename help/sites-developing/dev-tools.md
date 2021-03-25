@@ -43,7 +43,7 @@ AEM ships with other tools that facilitate development:
 * [How to Develop AEM Projects using IntelliJ IDEA](/help/sites-developing/ht-intellij.md)
 * [How to use the VLT Tool](/help/sites-developing/ht-vlttool.md)
 * [How to use the Proxy Server Tool](/help/sites-developing/ht-proxy-server.md)
-* [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md)
+* [AEM Modernization Tools](/help/sites-developing/modernization-tools.md)
 * [AEM Repo Tool](/help/sites-developing/aem-repo-tool.md)
 
 Tools that facilitate creation of new projects:
@@ -55,4 +55,3 @@ Tools that facilitate creation of new projects:
 >
 >Following tutorial might be of interest for starting a new AEM project:  
 >[Getting Started with AEM Sites Part 1 - Project Setup](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop/part1.html)
-

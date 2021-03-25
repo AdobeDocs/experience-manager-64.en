@@ -8,6 +8,7 @@ content-type: reference
 topic-tags: adaptive_forms, develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 66a3528a-489b-4fd0-be6c-b8c4b9b1f908
+feature: Adaptive Forms
 ---
 
 # Adaptive forms rule editor {#adaptive-forms-rule-editor}

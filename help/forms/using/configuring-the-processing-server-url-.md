@@ -8,6 +8,7 @@ contentOwner: amgoyal
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: fbb9044a-a737-45f6-8062-0ef5424a92f8
+role: Administrator
 ---
 
 # Configuring AEM DS settings {#configuring-aem-ds-settings}
