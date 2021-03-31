@@ -2,6 +2,8 @@
 title: Extending Assets Search
 description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
 contentOwner: AG
+feature: Search
+role: Developer
 ---
 
 # Extending Assets Search {#extending-assets-search}

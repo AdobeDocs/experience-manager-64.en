@@ -5,6 +5,8 @@ uuid: 56a8c221-409f-4605-97b1-a054dd2abfab
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: f341fae1-dda3-4917-b6db-ad02fec63702
+feature: "Asset Management,Video"
+role: Business Practitioner
 ---
 
 # Manage video assets {#managing-video-assets}

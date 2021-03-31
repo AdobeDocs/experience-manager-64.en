@@ -2,6 +2,8 @@
 title: Assets performance tuning guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
 contentOwner: AG
+feature: Asset Management
+role: "Architect,Administrator"
 ---
 
 # Assets performance tuning guide {#assets-performance-tuning-guide}

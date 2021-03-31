@@ -2,6 +2,8 @@
 title: Bulk edit metadata of multiple assets and collections
 description: Learn how to edit the metadata of many assets and collections simultaneously to quickly propagate common metadata changes.
 contentOwner: AG
+feature: "Asset Management,Metadata,Collections"
+role: Business Practitioner
 ---
 
 # Manage multiple assets and collections {#managing-multiple-assets-and-collections}

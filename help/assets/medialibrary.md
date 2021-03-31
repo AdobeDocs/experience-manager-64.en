@@ -2,6 +2,8 @@
 title: Compare the features available in AEM Assets and AEM Media Library
 description: Frequently asked questions around AEM Assets and AEM Media Library, including the differences.
 contentOwner: AG
+feature: Asset Management
+role: "Architect,Leader"
 ---
 
 # AEM Assets vs. AEM MediaLibrary {#aem-assets-vs-aem-medialibrary}

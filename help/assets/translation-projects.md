@@ -2,6 +2,8 @@
 title: Creating Translation Projects
 description: Learn how to create translation projects in AEM.
 contentOwner: AG
+feature: Translation
+role: "Architect,Administrator"
 ---
 
 # Creating Translation Projects {#creating-translation-projects}

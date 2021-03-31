@@ -2,6 +2,8 @@
 title: Customizing and Extending Assets
 description: Learn ways by which you can customize and extend Asset Share and Asset Editor, which presents users with a specifically tailored interface and set of functionality.
 contentOwner: AG
+feature: Developer Tools
+role: Developer
 ---
 
 # Customizing and Extending Assets {#customizing-and-extending-assets}

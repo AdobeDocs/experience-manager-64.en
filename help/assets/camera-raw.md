@@ -2,6 +2,8 @@
 title: Camera Raw support
 description: Learn how to enable Camera Raw support in Adobe Experience Manager Assets.
 contentOwner: AG
+feature: Developer Tools
+role: Administrator
 ---
 
 # Use Camera Raw to process images {#camera-raw-support}

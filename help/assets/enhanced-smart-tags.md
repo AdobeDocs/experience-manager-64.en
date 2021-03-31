@@ -6,6 +6,8 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 discoiquuid: c1b52aac-1eaf-4cfa-801f-77aeca0d90ea
+feature: "Smart Tags,Search"
+role: Business Practitioner
 ---
 
 # Enhanced Smart Tags {#enhanced-smart-tags}
