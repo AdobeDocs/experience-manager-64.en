@@ -3,6 +3,8 @@ title: Manage asset collections
 description: Learn tasks to manage Collections of assets, such as create, view, delete, edit, and download collections.
 contentOwner: AG
 mini-toc-levels: 1
+feature: Collections
+role: Business Practitioner
 ---
 
 # Manage collections {#managing-collections}

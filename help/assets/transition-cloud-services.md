@@ -2,6 +2,8 @@
 title: Applying translation cloud services to folders
 description: Applying translation cloud services to folders
 contentOwner: AG
+feature: Translation
+role: Administrator
 ---
 
 # Applying translation cloud services to folders {#applying-translation-cloud-services-to-folders}

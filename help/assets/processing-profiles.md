@@ -5,6 +5,8 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
+feature: Workflow,Asset Management,Renditions
+role: Business Practitioner,Administrator
 ---
 
 # About profiles for processing metadata, images, and videos {#profiles-for-processing-metadata-images-and-videos}

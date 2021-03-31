@@ -2,6 +2,8 @@
 title: Bulk Metadata Import and Export
 description: This article describes how to import and export metadata in bulk.
 contentOwner: AG
+feature: Metadata
+role: Business Practitioner,Administrator
 ---
 
 # Bulk metadata import and export {#bulk-metadata-import-and-export}

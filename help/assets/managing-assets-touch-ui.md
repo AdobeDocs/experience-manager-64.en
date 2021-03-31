@@ -3,6 +3,8 @@ title: Manage your digital assets using AEM Assets
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets
 contentOwner: AG
 mini-toc-levels: 1
+feature: Asset Management,Search,Renditions,Collaboration
+role: Business Practitioner
 ---
 
 # Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}

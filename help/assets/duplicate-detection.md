@@ -2,6 +2,8 @@
 title: Enabling Duplicate Detection
 description: Learn how to enable the detection of duplicate assets in AEM.
 contentOwner: AG
+feature: Asset Management,Asset Reports
+role: Business Practitioner,Administrator
 ---
 
 # Enabling Duplicate Detection {#enabling-duplicate-detection}

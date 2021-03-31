@@ -5,6 +5,8 @@ uuid: 7ba87c1d-70cd-4b89-86f3-971b93885f1e
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 340b62f7-2405-4d2d-846d-2c444d6cc77b
+feature: Asset Management,Developer Tools
+role: Business Practitioner
 ---
 
 # Asset Templates {#asset-templates}
