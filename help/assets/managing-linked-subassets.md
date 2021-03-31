@@ -3,6 +3,8 @@ title: Manage compound assets and generate subassets.
 description: Learn how to create references to AEM assets from within InDesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and AI files.
 contentOwner: AG
 
+feature: Asset Management
+role: Business Practitioner,Administrator
 ---
 
 # Manage compound assets with subassets {#managing-compound-assets}

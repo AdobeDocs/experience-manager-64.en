@@ -2,6 +2,8 @@
 title: Video renditions
 description: Video renditions
 contentOwner: AG
+feature: Video,Renditions
+role: Business Practitioner
 ---
 
 # Video renditions {#video-renditions}

@@ -2,6 +2,8 @@
 title: Configuring Asset Insights
 description: Learn how to configure Asset Insights in AEM Assets.
 contentOwner: AG
+feature: Asset Insights,Asset Reports
+role: Business Practitioner,Administrator
 ---
 
 # Configuring Asset Insights {#configuring-asset-insights}

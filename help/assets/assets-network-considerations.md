@@ -2,6 +2,8 @@
 title: Assets Network Considerations
 description: Discusses network considerations when designing an AEM Assets deployment.
 contentOwner: AG
+feature: Developer Tools
+role: Architect,Administrator
 ---
 
 # Assets network considerations {#assets-network-considerations}

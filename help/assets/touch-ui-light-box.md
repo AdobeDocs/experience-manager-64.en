@@ -2,6 +2,8 @@
 title: Lightbox
 description: Learn about Lightbox in AEM Assets.
 contentOwner: AG
+feature: Developer Tools,Renditions
+role: Business Practitioner,Administrator
 ---
 
 # Lightbox {#lightbox}
