@@ -3,7 +3,7 @@ title: Cascading Metadata
 description: This article describes how to define cascading metadata for assets.
 contentOwner: AG
 feature: Metadata
-role: "Business Practitioner,Administrator"
+role: Business Practitioner,Administrator
 ---
 
 # Cascading Metadata {#cascading-metadata}

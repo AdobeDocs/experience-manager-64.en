@@ -3,7 +3,7 @@ title: Add image maps
 description: Learn how to add hyperlinked image maps to image assets.
 contentOwner: AG
 feature: Asset Management
-role: "Business Practitioner, Administrator"
+role: Business Practitioner, Administrator
 ---
 
 # Add image maps {#adding-image-maps}

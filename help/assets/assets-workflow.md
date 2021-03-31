@@ -2,8 +2,8 @@
 title: Process assets to accomplish business processes, do audits, achieve compliance, and maintain basic sanity
 description: Asset processing to convert formats, create renditions, manage assets, validate assets, and run workflows.
 contentOwner: AG
-feature: "Workflow,Renditions"
-role: "Business Practitioner,Administrator"
+feature: Workflow,Renditions
+role: Business Practitioner,Administrator
 ---
 
 # Process digital assets {#process-assets}

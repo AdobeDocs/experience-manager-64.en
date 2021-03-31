@@ -2,7 +2,7 @@
 title: Searching Video Assets
 description: Use keywords, file properties such as a Mime type, size, or recently modified time stamp to quickly find your file in AEM Assets.
 contentOwner: AG
-feature: "Video,Search"
+feature: Video,Search
 role: Business Practitioner
 ---
 

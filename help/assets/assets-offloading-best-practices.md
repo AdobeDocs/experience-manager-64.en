@@ -3,7 +3,7 @@ title: Assets Offloading Best Practices
 description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
 contentOwner: AG
 feature: Asset Management
-role: "Business Practitioner,Administrator"
+role: Business Practitioner,Administrator
 ---
 
 # Assets Offloading Best Practices {#assets-offloading-best-practices}

@@ -2,7 +2,7 @@
 title: Related assets
 description: Learn how to relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets.
 contentOwner: AG
-feature: "Asset Management,Collaboration"
+feature: Asset Management,Collaboration
 role: Business Practitioner
 ---
 

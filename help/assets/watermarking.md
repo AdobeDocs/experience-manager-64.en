@@ -3,7 +3,7 @@ title: Add watermark to your digital assets
 description: Learn how to use the Watermarking feature to add a digital watermark to assets.
 contentOwner: AG
 feature: Asset Management
-role: "Business Practitioner,Administrator"
+role: Business Practitioner,Administrator
 ---
 
 # Watermark your digital assets {#watermarking}

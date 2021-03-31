@@ -6,7 +6,7 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 82c1725e-a092-42e2-a43b-72f2af3a8e04
 feature: Asset Management
-role: "Architect,Administrator"
+role: Architect,Administrator
 ---
 
 # Assets Sizing Guide {#assets-sizing-guide}

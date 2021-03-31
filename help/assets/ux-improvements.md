@@ -3,7 +3,7 @@ title: User experience enhancements in Assets
 description: This article describes the user experience improvements in AEM 6.4 Assets.
 contentOwner: AG
 feature: Release Information
-role: "Leader,Business Practitioner"
+role: Leader,Business Practitioner
 ---
 
 # User experience enhancements in Assets {#user-experience-enhancements-in-assets}

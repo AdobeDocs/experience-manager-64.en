@@ -2,7 +2,7 @@
 title: Search assets in AEM
 description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
 contentOwner: AG
-feature: "Search,Metadata"
+feature: Search,Metadata
 role: Business Practitioner
 ---
 
