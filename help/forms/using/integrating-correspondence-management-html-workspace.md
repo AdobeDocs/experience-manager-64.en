@@ -7,8 +7,8 @@ uuid: 9649157c-fe28-43bf-a7d3-52ed55a0bf4f
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: f2bde2e8-da95-48ac-a652-85ead87f2cd3
+exl-id: 4df9a16c-0853-4bbf-81bb-1856ab55c5ee
 ---
-
 # Integrating third-party applications in AEM Forms workspace {#integrating-third-party-applications-in-aem-forms-workspace}
 
 AEM Forms workspace supports the management of task assignment and completion activities for forms and documents. These forms and documents can be XDP Forms, Flex® forms, or Guides (deprecated) that have been rendered in XDP, PDF, HTML, or Flex formats.
@@ -111,4 +111,3 @@ Use the following steps to create a task to render and submit a letter in AEM Wo
    >[!NOTE]
    >
    >The Submit button is not enabled until all the required variables in the letter are filled in.
-

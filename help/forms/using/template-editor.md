@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 155aaf96-1e9c-4e73-8e43-d96878d69b16
 feature: Adaptive Forms
+exl-id: 8bb350f2-a160-4943-bd6a-00f87f4e6cbc
 ---
-
 # Adaptive Form Templates {#adaptive-form-templates}
 
 When you author a form, you add fields and components to define form structure, content, and actions in the editor. You add fields and components in the `guideRootPanel` of the form container. With Template Editor, you can create a template that contains basic structure and initial content that authors can use to create forms.
@@ -192,4 +192,3 @@ Perform the following steps to show and hide templates:
 * If you want to add a breakpoint, create it when you author an adaptive form template. 
 
   For more information on breakpoints, see [Responsive Layout](/help/sites-authoring/responsive-layout.md).
-

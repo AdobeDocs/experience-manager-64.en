@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: f74d225e-0245-4d5a-bb93-0ee3f31557aa
+exl-id: 3da30cb4-39b2-4495-9e8b-93567b73b644
 ---
-
 # Initial Sandbox Application {#initial-sandbox-application}
 
 In this section, you will create the following:

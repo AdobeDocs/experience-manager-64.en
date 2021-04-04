@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 0c1b6ad7-9d25-41dc-b1fe-a4cb9366c259
+exl-id: 17e8c644-ee17-496c-a781-a295a4796cb9
 ---
-
 # We.Finance reference site walkthrough {#we-finance-reference-site-walkthrough}
 
 ## Pre-requisites {#pre-requisites}
@@ -927,4 +927,4 @@ Click **Renew Now** to reach to the Payment page. Fill in your Credit Card infor
 
 https://[authorServer]:[authorPort]/content/document.html?documentId=/content/forms/af/we-finance/credit-card/ccbillpayment.html&schema=fdm&customerId=900001
 
-The thank you message appears after the Make Payment button is clicked. 
+The thank you message appears after the Make Payment button is clicked.

@@ -8,8 +8,8 @@ contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e9b78e2b-af7d-49d7-b37f-c96ec732015e
 feature: Interactive Communication
+exl-id: 50d93998-6393-4607-b89b-5b97aad530a3
 ---
-
 # Tutorial: Create document fragments {#tutorial-create-document-fragments}
 
 Create document fragments for Interactive Communication
@@ -292,4 +292,3 @@ Execute the following steps to create static text and use form data model elemen
    ![create_rules_caption](assets/create_rules_caption.gif)
 
 1. Click **Save** to create the Summary of charges text document fragment.
-

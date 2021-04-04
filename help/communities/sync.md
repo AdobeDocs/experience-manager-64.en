@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 32b56b48-75cb-4cc9-a077-10e335f01a35
 role: Administrator
+exl-id: 3a8e8fef-9aef-4b9d-8b0b-e76aa2962b61
 ---
-
 # Communities User Synchronization {#communities-user-synchronization}
 
 ## Introduction {#introduction}
@@ -398,4 +398,3 @@ If Sling distribution fails, try the following debugging steps:
     1. On publisher, change the exporter or importer endpoints in **[!UICONTROL Apache Sling Distribution Agent - Sync Agents Factory]**.  
 
        We can download and extract package data to check what all properties are pushed to other publishers, and which data is lost.
-

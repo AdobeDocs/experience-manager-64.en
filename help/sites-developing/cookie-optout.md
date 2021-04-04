@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 5773ec1a-f15b-462d-8f9f-54ee1d7ead44
+exl-id: 7f604d89-c6ad-405d-98cd-80f057466e61
 ---
-
 # Configuring Cookie Usage{#configuring-cookie-usage}
 
 AEM provides a service that enables you to configure and control how cookies are used with your web pages:

@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager, introduction
 discoiquuid: 6f9cb26a-ac7f-4218-827f-9d4d55b859b4
+exl-id: 08686ad6-85cc-4de5-86d8-05d55acec418
 ---
-
 # Introduction to managing forms {#introduction-to-managing-forms}
 
 AEM Forms provides simplified yet powerful user interface to create and manage forms, documents, themes, letters, document fragments, data dictionaries, and related assets. It helps manage the complete lifecycle of forms, documents, and related assets - from a developer's desktop to offering  

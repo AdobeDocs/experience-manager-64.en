@@ -8,8 +8,8 @@ topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 62f9d1de-c397-46b5-964e-19777ddd130c
 feature: Form Data Model
+exl-id: 18df57b6-789a-4b61-9418-fa12294b226f
 ---
-
 # Microsoft Dynamics OData configuration {#microsoft-dynamics-odata-configuration}
 
 Leverage, integrate, and work with online and on-premises Microsoft Dynamics services through form data model.

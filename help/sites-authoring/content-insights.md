@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 60f980fd-049e-43c1-8b5d-60a8279b357a
+exl-id: 54ec1b84-bee2-4c1f-acbc-8e6bd0d76c87
 ---
-
 # Content Insight{#content-insight}
 
 Content Insight provides information about page performance using web analytics and SEO recommendations. Use Content Insight to make decisions about how to modify pages, or to learn how previous changes have changed performance. For every page that you author, you can open Content Insight to analyse the page.
@@ -92,4 +92,3 @@ The SEO Recommendations report contains the results of the BrightEdge analysis f
 The report enables you to create tasks so that improvements are made to improve page findability. Recommendations indicate that tasks have been created for implementing the recommendation. See [Assigning Tasks for SEO Recommendations](/help/sites-authoring/ci-analyze.md#assigning-tasks-for-seo-recommendations).
 
 ![chlimage_1-317](assets/chlimage_1-317.png)
-

@@ -4,8 +4,8 @@ description: Recommended use cases and best practices for offloading asset inges
 contentOwner: AG
 feature: Asset Management
 role: Business Practitioner,Administrator
+exl-id: 3ecc8988-add1-47d5-80b4-984beb4d8dab
 ---
-
 # Assets Offloading Best Practices {#assets-offloading-best-practices}
 
 >[!WARNING]
@@ -154,4 +154,3 @@ This document focuses on Asset Offloading. Here is some additional documentation
 
 * [Offloading Jobs](/help/sites-deploying/offloading.md) 
 * [Assets workflow offloader](/help/sites-administering/workflow-offloader.md)
-

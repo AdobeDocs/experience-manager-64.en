@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
 discoiquuid: 150b43e3-9fb3-4c1c-b1cd-ccfd162974ad
+exl-id: d45fe856-4709-437b-b193-e8243a695d2c
 ---
-
 # SEO and URL Management Best Practices{#seo-and-url-management-best-practices}
 
 Search Engine Optimization (SEO) has become a key concern for many marketers. As a result, SEO concerns need to be addressed on many AEM projects.

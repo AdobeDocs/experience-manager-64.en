@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 71fac7e9-814a-48b5-b816-9bdcb2a05190
 role: Administrator
+exl-id: 905b6dc5-cf17-4f58-a687-27e2910a0729
 ---
-
 # Storage Configuration {#storage-configuration}
 
 Storage configuration is the means of identifying the storage chosen for community content, also known as user generated content (UGC).
@@ -53,4 +53,3 @@ Visit [JCR Store](jsrp.md) for additional information.
 >[!NOTE]
 >
 >The absence of the node `srpc`under `/etc/socialconfig` indicates the default [JCR store](jsrp.md).
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: d1cff2bb-9fdf-49cb-a695-d437bba5653d
+exl-id: 943e5199-271f-4015-a9f7-4d39c00deabe
 ---
-
 # Integrating with ExactTarget{#integrating-with-exacttarget}
 
 Integrating AEM with Exact Target lets you manage and send email created in AEM via Exact Target. It also allows you to use the lead management features of Exact Target via AEM forms on AEM pages.
@@ -73,4 +73,3 @@ To add multiple configurations:
 
 1. On the welcome page, click **Cloud Services** and click **ExactTarget**. Click on **Show Configurations** button which appears if one or more ExactTarget configurations is available. All available configurations are listed.
 1. Click the **+** sign next to Available configurations. This opens the **Create Configurations** window. Follow the previous configuration procedure to create a new configuration.
-

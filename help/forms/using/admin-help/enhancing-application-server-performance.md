@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: fad65765-d56d-4a9f-82d5-bcceb1758953
+exl-id: 88f692de-f88b-4459-97e9-73506bf87525
 ---
-
 # Enhancing application server performance{#enhancing-application-server-performance}
 
 This content describes optional settings that you can configure to improve the performance of your AEM forms application server.
@@ -186,4 +186,3 @@ Using connection pooling on the search connection can decrease the number of por
 >[!NOTE]
 >
 >Serious problems can occur if you modify the registry incorrectly by using Registry Editor or by using another method. These problems may require that you reinstall your operating system. Modify the registry at your own risk.
-

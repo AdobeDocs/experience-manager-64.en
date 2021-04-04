@@ -10,8 +10,8 @@ topic-tags: site-features
 content-type: reference
 discoiquuid: dc185a75-84a0-4075-ae1e-8bb78d414aa8
 feature: Language Copy
+exl-id: a3ac6b7e-8a18-4432-9e56-1f9bd7cf0548
 ---
-
 # Language Copy Wizard{#language-copy-wizard}
 
 The Language Copy wizard is a guided experience for creating and instrumenting multilingual content structure. It is now much simpler and quicker to create a language copy.
@@ -53,4 +53,3 @@ To access this wizard:
 1. The **Create** button ends the wizard.
 
    ![chlimage_1-53](assets/chlimage_1-53.jpeg)
-

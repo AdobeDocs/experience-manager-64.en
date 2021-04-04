@@ -4,8 +4,8 @@ description: Learn how to configure and use Adobe's Imaging Transcoding Library,
 contentOwner: AG
 feature: Renditions,Developer Tools,Asset Processing
 role: Administrator
+exl-id: 0314626d-e846-4f10-950e-6c1ceb7f4c06
 ---
-
 # Imaging Transcoding Library {#imaging-transcoding-library}
 
 Adobe's Imaging Transcoding Library is a proprietary image processing solution that can perform core image-handling functions, including:

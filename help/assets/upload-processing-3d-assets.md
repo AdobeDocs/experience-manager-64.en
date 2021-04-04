@@ -9,8 +9,8 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: a0319701-21eb-4b7f-8b2e-ac81a7a75875
+exl-id: 4b8b0247-0978-40b5-92e2-319cfa44b34e
 ---
-
 # About the uploading and processing of 3D assets in AEM {#about-the-uploading-and-processing-of-d-assets-in-aem}
 
 >[!IMPORTANT]
@@ -106,4 +106,3 @@ In **[!UICONTROL Card View]** only, the processing status and progression is dis
 >[!NOTE]
 >
 >You can view a 3D asset in **[!UICONTROL Detail View]** or render it after the Creating preview stage is complete. You do not need to wait for all processing stages to complete.
-

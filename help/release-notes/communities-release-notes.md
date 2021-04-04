@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 55a0b70e-5212-408b-8560-6e758bd8bb10
+exl-id: 3a341e72-01c5-4c63-8942-6320e5b08440
 ---
-
 # AEM Communities Release Notes {#aem-communities-release-notes}
 
 This section provides information on the improvements to AEM Communities since the 6.3 release. To learn about the new features in greater detail, see [What's New in AEM 6.4 Communities](/help/communities/whats-new-aem-communities.md).

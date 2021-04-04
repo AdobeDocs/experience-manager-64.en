@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: d9f1e24e-51a9-4f28-b2cd-2e97aed63a24
+exl-id: 865f524d-6b54-43c8-9b28-86a766e010a1
 ---
-
 # SPA Model Routing{#spa-model-routing}
 
 For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.

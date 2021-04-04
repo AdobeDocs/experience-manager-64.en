@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: f8d85d72-0215-4680-a334-e37a530fba58
+exl-id: 55aa015e-e0e4-411e-8e28-75006ae3090b
 ---
-
 # Social Graph Essentials {#social-graph-essentials}
 
 The ability for a Community member to follow [activities](essentials-activities.md) as well as be followed is established through two components:
@@ -82,4 +82,3 @@ The `following`component lists the members that are either following the current
 * [Social Graph Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/endpoint/package-frame.html)
 
 * [Server-side Customizations](server-customize.md)
-

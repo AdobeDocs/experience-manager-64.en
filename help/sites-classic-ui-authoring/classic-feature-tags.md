@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: c117b9d1-e4ae-403f-8619-6e48d424a761
+exl-id: bcc0bdde-3983-48a3-811b-3804777d8421
 ---
-
 # Using Tags{#using-tags}
 
 Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.
@@ -74,4 +74,3 @@ You can search for tags in both the author and publish environments.
 Adding a [Search component](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md#search) to a page provides a search capability which includes tags and can be used in both the author and publish environments.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
-

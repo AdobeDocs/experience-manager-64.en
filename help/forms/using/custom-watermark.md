@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: a09e2c83-083d-427a-8336-0567e00c5712
 feature: Correspondence Management
+exl-id: 8aeabd95-948d-4a54-b593-1eda8ddd731b
 ---
-
 # Custom watermark in letter PDF preview {#custom-watermark-in-letter-pdf-preview}
 
 ## Overview {#overview}
@@ -77,4 +77,3 @@ You can use the following steps to customize the text and appearance of the wate
    >In the ddx file, the references to result and source should remain unchaged to output.pdf and input.pdf. Name of the file ddx should also not be changed.
 
 1. Click **Save All**.
-

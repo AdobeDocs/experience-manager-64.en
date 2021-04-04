@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 29e0bdfa-1d49-47d9-a332-04da062d3d3f
+exl-id: 26d912e1-d8ee-44fc-8c82-ccc66551ddc1
 ---
-
 # Using the Rich Text Editor to author content {#using-the-rich-text-editor-to-author-content}
 
 The Rich Text Editor (RTE) is a basic building block for authoring text in AEM pages. Many components such as Text, Text and Image, and Table are based on RTE.

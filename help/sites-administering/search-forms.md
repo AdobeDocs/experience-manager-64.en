@@ -5,8 +5,8 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
+exl-id: b1f17bcd-1e91-43f0-85e1-963ff5fe3717
 ---
-
 # Configuring Search Forms{#configuring-search-forms}
 
 Use **Search Forms** to customize the selection of search predicates used in the search panels available in various AEM consoles and/or panels of the author environment. Customizing these panels makes the search functionality versatile according your specific needs.
@@ -548,4 +548,3 @@ The following table lists the permissions required to perform edit, delete, and 
   </tr> 
  </tbody> 
 </table>
-

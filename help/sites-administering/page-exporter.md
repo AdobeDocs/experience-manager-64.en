@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 6ab07b5b-ee37-4029-95da-be2031779107
+exl-id: a5cb3b7b-d40f-4d86-8473-fb584f1d486c
 ---
-
 # The Page Exporter{#the-page-exporter}
 
 AEM allows you to export a page as a complete web page including images, .js and .css files.
@@ -139,5 +139,4 @@ The servlet that is bound to the `export` selector and the `zip` extension uses 
 
 ## Troubleshooting {#troubleshooting}
 
-If you experience a problem with the download of the zip file, you may delete the `/var/contentsync` node in the repository and send the export request again.  
-
+If you experience a problem with the download of the zip file, you may delete the `/var/contentsync` node in the repository and send the export request again.

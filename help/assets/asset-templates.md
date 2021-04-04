@@ -7,8 +7,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 340b62f7-2405-4d2d-846d-2c444d6cc77b
 feature: Asset Management,Developer Tools
 role: Business Practitioner
+exl-id: 9b4f16e6-dd91-4179-9629-576d801fcf43
 ---
-
 # Asset Templates {#asset-templates}
 
 Asset templates are a special class of assets that facilitate quick re-purposing of visually-rich content for digital and print media. An asset template includes two parts, the fixed messaging section and the editable section.
@@ -201,4 +201,3 @@ You can edit a collateral immediately after you create it. Alternatively, you op
    >[!NOTE]
    >
    >You cannot edit a merged collateral later or use it to create other collateral.
-

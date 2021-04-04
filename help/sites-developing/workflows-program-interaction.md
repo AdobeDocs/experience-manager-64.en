@@ -5,8 +5,8 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
+exl-id: da06850a-c4d5-44dd-b572-771e3b2a66c5
 ---
-
 # Interacting with Workflows Programmatically{#interacting-with-workflows-programmatically}
 
 When [customizing and extending your workflows](/help/sites-developing/workflows-customizing-extending.md) you can access workflow objects:
@@ -878,4 +878,3 @@ public class WorkflowEventCatcher implements EventHandler, JobProcessor {
  }
 }
 ```
-

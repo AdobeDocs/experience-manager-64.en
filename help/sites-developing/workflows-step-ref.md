@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 25f0e0f7-9570-4748-81cb-ccec6492c0b4
+exl-id: dfa39c6c-7a1a-4aa4-a72d-caa5e3ebf4a8
 ---
-
 # Workflow Step Reference{#workflow-step-reference}
 
 Workflow models consist of a series of steps of various types. According to the type, these steps can be configured and extended with parameters and scripts to provide the functionality and control you require.
@@ -575,4 +575,3 @@ To configure the step, edit and use the following tabs:
 
     * **[!UICONTROL Handler Advance]**: Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
     * **[!UICONTROL Arguments]**: Arguments to be passed to the process.
-

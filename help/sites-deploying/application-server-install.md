@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 6fdce35d-2709-41cc-87fb-27a4b867e960
+exl-id: 65346618-e5a6-43d0-a2b3-698268d3cf64
 ---
-
 # Application Server Install{#application-server-install}
 
 >[!NOTE]
@@ -248,4 +248,3 @@ Before a deployment read the [General Description](#general-description) above.
 For information on dealing with issues that may come up during installation, see:
 
 * [Troubleshooting](/help/sites-deploying/troubleshooting.md)
-

@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 0b126218-b142-4d33-a28c-a91ab4fe99ac
 role: Administrator
+exl-id: e32fc619-6226-48c6-bbd7-1910963d1036
 ---
-
 # How to Setup MongoDB for Demo {#how-to-setup-mongodb-for-demo}
 
 ## Introduction {#introduction}

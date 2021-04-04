@@ -9,8 +9,8 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 3d063268-17d7-4db6-8028-682537645377
+exl-id: 52ecbf81-0953-4c44-bc2c-d40e507b8d98
 ---
-
 # Integrating AEM 3D with Autodesk Maya {#integrating-aem-d-with-autodesk-maya}
 
 >[!NOTE]
@@ -121,4 +121,3 @@ See [Supported Data Import Formats | Maya](https://knowledge.autodesk.com/suppor
 The following screenshot illustrates an added file format, using COLLADA DAE as an example:
 
 ![image2018-6-22_12-50-39](assets/image2018-6-22_12-50-39.png)
-

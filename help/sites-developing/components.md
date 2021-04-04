@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: 45efff93-2fe5-4313-83a0-0e23a540da93
+exl-id: 3444d7df-fc43-4383-87b0-0f00fef116bc
 ---
-
 # Components Overview{#components-overview}
 
 This page provides an overview of Adobe Experience Manager (AEM) components such as those [used for page authoring](/help/sites-authoring/default-components-foundation.md).
@@ -108,4 +108,3 @@ The following pages provide more detailed information about developing these&mda
     * [Using and Extending Widgets (Classic UI)](/help/sites-developing/widgets.md)
     * [Using xtypes (Classic UI)](/help/sites-developing/xtypes.md)
     * [Developing Forms (Classic UI)](/help/sites-developing/developing-forms.md)
-

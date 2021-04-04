@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: df8cfde3-543d-4150-9822-9be763908bd7
+exl-id: d56fa6ba-6ac7-4d4f-968b-075f4f13957c
 ---
-
 # Integrating Services with the JMX Console{#integrating-services-with-the-jmx-console}
 
 Create and deploy MBeans to manage services using the JMX Console. Expose service attributes and operations to enable administration tasks to be performed.
@@ -589,4 +589,3 @@ Add the following profile to your maven settings file to use the public Adobe re
      </pluginRepositories>
 </profile>
 ```
-

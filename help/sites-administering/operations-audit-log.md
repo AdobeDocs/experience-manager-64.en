@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 565d89de-b3ca-41a5-8e1c-d10905c25fb5
+exl-id: bcbdab55-4871-4c7f-b82a-b7d8280e82e3
 ---
-
 # Audit Log Maintenance in AEM 6{#audit-log-maintenance-in-aem}
 
 AEM events that qualify for audit logging generate much archived data. This data can quickly grow over time due to replications, asset uploads and other system activities.
@@ -94,4 +94,3 @@ In AEM 6.3, if the scheduled maintenance window closes before the Audit Log Purg
     * **Audit log Replication event types:** the types of Replication audit events that should be purged
 
 1. Click **Save** to save your configuration.
-

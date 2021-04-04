@@ -4,8 +4,8 @@ description: This guide covers all AEM Assets tasks, such as how to create, mana
 user-guide-title: Assets Guide
 feature: Asset Management
 role: Business Practitioner,Architect,Administrator
+exl-id: 72b5e053-9307-4333-84e5-d4cc2b6bdecc
 ---
-
 # Assets Guide
 
 This guide covers all AEM Assets tasks, such as how to create, manage, deliver, and optimize digital assets.

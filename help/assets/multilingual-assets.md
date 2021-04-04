@@ -4,8 +4,8 @@ description: Learn how to automate workflows for translating assets, including b
 contentOwner: AG
 feature: Asset Management
 role: Administrator
+exl-id: 8e065137-3599-48af-a040-6923b7b5e1d9
 ---
-
 # Multilingual Assets {#multilingual-assets}
 
 Adobe Experience Manager (AEM) Assets lets you automate translation workflows on assets (including binaries, metadata, and tags) to generate assets in other languages for use in multilingual projects.

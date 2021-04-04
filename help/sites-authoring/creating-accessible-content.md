@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 3d4258de-c0bb-4952-b6f0-0c5f2a15e531
+exl-id: f792a65d-35f5-4143-bec2-c64de3f567b4
 ---
-
 # Creating Accessible Content (WCAG 2.0 Conformance){#creating-accessible-content-wcag-conformance}
 
 WCAG 2.0 consists of a set of technology independent guidelines and success criteria to help make web content accessible to, and usable by, persons with disabilities.
@@ -916,4 +916,3 @@ In simple forms with very limited functionality, appropriately labelling a `Subm
 
 * [Understanding Success Criterion 3.3.2](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html) 
 * [How to meet Success Criterion 3.3.2](https://www.w3.org/WAI/WCAG20/quickref/#qr-minimize-error-cues)
-

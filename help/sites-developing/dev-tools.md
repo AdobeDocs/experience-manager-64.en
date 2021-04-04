@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 76c570e5-46ed-46be-9864-4fe4a83f0caf
+exl-id: 3c18feab-97a6-49f2-96be-7e7458199f5d
 ---
-
 # Development Tools{#development-tools}
 
 To develop your JCR, Apache Sling or AEM applications, the following tool sets are available:

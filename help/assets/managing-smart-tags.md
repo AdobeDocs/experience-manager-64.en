@@ -7,8 +7,8 @@ contentOwner: AG
 discoiquuid: 3394b56a-3054-419b-9547-5740f8c35071
 feature: Smart Tags,Tagging,Search
 role: Business Practitioner
+exl-id: 05f43e43-ac72-4ab1-a373-687c137d2bed
 ---
-
 # Managing Smart Tags {#managing-smart-tags}
 
 You can curate Smart tags to remove any inaccurate tags that may have been assigned to your brand images so only the most relevant tags are displayed.

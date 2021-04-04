@@ -9,9 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: e1b5c25d-cbdd-421c-b81a-feb6039610a3
+exl-id: f8cd2866-6e4d-47e6-b9aa-c2190b0b1b7b
 ---
-
-
 # Create An SCF Sandbox {#create-an-scf-sandbox}
 
 
@@ -81,4 +80,4 @@ If not logged in, you will be unable to navigate the JCR repository or perform a
 
 ***When in doubt, re-login!***
 
-![chlimage_1-352](assets/chlimage_1-352.png) 
+![chlimage_1-352](assets/chlimage_1-352.png)

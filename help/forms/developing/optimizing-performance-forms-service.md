@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 9f883483-b81e-42c6-a4a1-eb499dd112e7
 role: Developer
+exl-id: a6d468cd-2b70-4332-8277-15f8b9fc1329
 ---
-
 # Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-theforms-service}
 
 ## Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-the-forms-service}

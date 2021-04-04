@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 91a41bc1-3fa3-4467-b3f8-5570ba7757c0
 feature: Adaptive Forms
+exl-id: 8e7ba9d2-207f-419b-bcd5-74ba9b14ab92
 ---
-
 # Inline styling of adaptive form components {#inline-styling-of-adaptive-form-components}
 
 You can define the overall appearance and style of an adaptive form by specifying styles using [theme editor](/help/forms/using/themes.md). Also, you can apply inline CSS styles to individual adaptive form components and preview the changes on the fly. Inline styles override styling provided in the theme.
@@ -98,4 +98,3 @@ Following the steps above, you can select and style other components, such as pa
 >[!NOTE]
 >
 >Styling properties vary based on the component you select.
-

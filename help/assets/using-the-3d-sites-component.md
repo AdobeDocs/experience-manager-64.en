@@ -9,8 +9,8 @@ topic-tags: 3D
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 9017ab55-6d4a-4306-922f-223ab1b2504b
+exl-id: bf87b470-08c8-44b4-95d9-1251586b0610
 ---
-
 # Working with the 3D Sites component {#working-with-the-d-sites-component}
 
 AEM 3D includes an AEM Sites component that you can use to implement interactive viewing of 3D models on web pages.
@@ -165,4 +165,3 @@ See [Publishing Assets](managing-assets-touch-ui.md) for information on how to p
 >Using the **[!UICONTROL Publish Page]** menu item on the **[!UICONTROL Page Information]** menu will publish the page and all primary page dependencies. Secondary dependencies that may be referenced by the 3D model and/or the 3D stage, such as texture maps and IBL images, are not published when you publish the page in this way.
 >
 >Adobe recommends that you publish all 3D assets and their dependencies directly from AEM Assets, before publishing the web page that references these assets.
-

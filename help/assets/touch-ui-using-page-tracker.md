@@ -4,8 +4,8 @@ description: Lear how to include Page Tracker and embed JavaScript codes in your
 contentOwner: AG
 feature: Asset Reports
 role: Architect,Administrator
+exl-id: b0154c9c-a671-43fb-8733-274a35307a34
 ---
-
 # Using Page Tracker and Embed code in web pages {#using-page-tracker-and-embed-code-in-web-pages}
 
 Page Tracker is a piece of JavaScript code that you include in third-party websites' code to enable Adobe Analytics to capture usage data around Adobe Experience Manager (AEM) assets on these websites.

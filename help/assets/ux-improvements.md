@@ -4,8 +4,8 @@ description: This article describes the user experience improvements in AEM 6.4 
 contentOwner: AG
 feature: Release Information
 role: Leader,Business Practitioner
+exl-id: 65029113-987e-46eb-86eb-8028233031f9
 ---
-
 # User experience enhancements in Assets {#user-experience-enhancements-in-assets}
 
 AEM 6.4 Assets includes several usability improvements that provide a seamless user experience and improves productivity. The increase in the speed with which you can create/manage your go-to-market content improves the content velocity of the business.

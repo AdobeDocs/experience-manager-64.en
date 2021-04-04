@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 87a1f27a-765e-4882-9c06-5909e1610e1d
+exl-id: ad529be3-9d31-492f-943f-ef3e99e13586
 ---
-
 # Defining your Test Cases{#defining-your-test-cases}
 
 Your test cases should be based upon the:

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: b4cf0ffc-973a-473b-80c8-7f530d111435
+exl-id: 26c9098b-f810-4c3d-a6c8-9a5fbcd307dd
 ---
-
 # AEM Development - Guidelines and Best Practices{#aem-development-guidelines-and-best-practices}
 
 ## Guidelines for Using Templates and Components {#guidelines-for-using-templates-and-components}
@@ -160,4 +160,4 @@ See [Customizing Error Pages shown by the Error Handler](/help/sites-developing/
 
 Because AEM can access a large number of files it is recommended that the number of [open files for a Java process](/help/sites-deploying/configuring.md#open-files-in-the-java-process) be explicitly configured for AEM.
 
-To minimize this issue development should ensure that any file opened is correctly closed as soon as (meaningfully) possible.  
+To minimize this issue development should ensure that any file opened is correctly closed as soon as (meaningfully) possible.

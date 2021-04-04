@@ -9,8 +9,8 @@ topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: a70aa448-0f58-4ed2-9381-afcc76fa827f
+exl-id: 9e27d45e-1d72-4663-a2c5-2ec48f2b23c4
 ---
-
 # Activating hotlink protection in Dynamic Media {#activating-hotlink-protection-in-dynamic-media}
 
 Hotlinking is when a third-party website uses HTML code to display an image from your website. They use your bandwidth every time the picture is requested because the visitor's browser is accessing it directly from your server. Hotlink *protection* is a method to prevent other websites from directly linking to pictures, css, or javascript on your webpages. This kind of shield helps reduce unnecessary bandwidth usage under your Dynamic Media account.

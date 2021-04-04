@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: configuring
 discoiquuid: 6fe1c5c5-deb7-4405-82e4-23e0f90e2bd8
 feature: Configuring
+exl-id: b4a56f59-dc5e-40c3-a024-ee9df10949d8
 ---
-
 # Replication{#replication}
 
 Replication agents are central to Adobe Experience Manager (AEM) as the mechanism used to:

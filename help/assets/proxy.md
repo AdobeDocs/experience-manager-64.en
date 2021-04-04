@@ -4,8 +4,8 @@ description: A proxy is an AEM instance that uses proxy workers to process jobs.
 contentOwner: AG
 feature: Asset Processing
 role: Administrator, Architect
+exl-id: c7511326-697e-4749-ab46-513cdbaa00d8
 ---
-
 # Assets Proxy Development {#assets-proxy-development}
 
 Adobe Experience Manager (AEM) Assets uses a proxy to distribute processing for certain tasks.

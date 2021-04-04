@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 437fa139-2dde-41a0-9649-6bb110039618
+exl-id: f987c4f5-64dd-491b-aafe-cb98acf0b1eb
 ---
-
 # How to Audit User Management Operations in AEM{#how-to-audit-user-management-operations-in-aem}
 
 ## Introduction {#introduction}

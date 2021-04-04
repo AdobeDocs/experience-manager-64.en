@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 3d8bb2d3-b1f8-49e1-a529-b3e7a28da4bb
 role: Developer
+exl-id: de8ba694-0b68-4442-bd50-5ba6d845749c
 ---
-
 # Invoking AEM Forms using Remoting {#invoking-aem-forms-using-remoting}
 
 Processes created in Workbench can be invoked by using Remoting. That is, you can invoke a AEM Forms process from a client application built with Flex. This feature is based on Data Services.

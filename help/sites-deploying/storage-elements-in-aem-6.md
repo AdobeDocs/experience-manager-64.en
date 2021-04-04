@@ -10,8 +10,8 @@ topic-tags: platform
 content-type: reference
 discoiquuid: 0aa2c22f-32bb-4e50-8328-63ed73c0f19e
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/microkernels-in-aem-6-0
+exl-id: 3b1100ed-44c6-4c09-aec4-9e6670234567
 ---
-
 # Storage Elements in AEM 6.4{#storage-elements-in-aem}
 
 In this article, we will cover:

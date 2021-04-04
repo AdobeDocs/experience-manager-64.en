@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 893a72c7-d68f-464f-9765-ec2272189e58
 feature: Adaptive Forms
+exl-id: 0c761c0c-fbe4-4129-8a90-c4ef1127a762
 ---
-
 # Authoring in-context help for form fields {#authoring-in-context-help-for-form-fields}
 
 ## Introduction {#introduction}
@@ -62,4 +62,3 @@ In addition to the in-context help for form fields, you can specify help at a pa
 Adding help for panel displays a **?** icon next to the panel description. Clicking the icon displays the content added in the Help Content section of the panel edit dialog.
 
 ![Example of in-context help at form panel level](assets/photoshop-1.png)
-

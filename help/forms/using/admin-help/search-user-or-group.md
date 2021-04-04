@@ -9,10 +9,9 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f345e42c-82d9-4970-9169-156ea4505097
+exl-id: 53aa6c11-0d73-4d95-a0b3-cf369883abe8
 ---
-
 # Search for a user or group {#search-for-a-user-or-group}
 
 1. In administration console, click Settings &gt; User Management &gt; Users And Groups.
 1. Specify information to narrow the search and click Find. The results of the search are listed at the bottom of the page. You can sort the list by clicking any of the column headings. A maximum of 1000 results are returned.
-

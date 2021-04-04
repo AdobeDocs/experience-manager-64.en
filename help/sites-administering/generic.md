@@ -10,8 +10,8 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: ad80505f-116e-43f1-8d93-ffe6e8b1ac46
 feature: Commerce Integration Framework
+exl-id: 614815ef-6fe3-4b06-9c56-bc9fee127825
 ---
-
 # Administering Generic eCommerce{#administering-generic-ecommerce}
 
 The AEM generic solution provides methods of managing the commerce information held within the repository (as opposed to using an external ecommerce engine). This includes:
@@ -681,4 +681,3 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
    ![](do-not-localize/chlimage_1-27.png)
 
 1. The [order information](/help/sites-administering/concepts.md#order-information) will be shown. Use **Edit** and **Done** to make any changes.
-

@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 2cb251a6-d8d0-4563-b0f0-2dca38037155
+exl-id: 0111d1f6-1780-40a2-b7d7-43930c4b96f7
 ---
-
 # Working with To-do lists {#working-with-to-do-lists}
 
 When you view your To-do lists, you may see tasks from a business process that are assigned to you, or to any groups that you belong to, or are the shared tasks of other users. You can open, work on, and complete the tasks as required, such as approving or rejecting a request or adding more information. After you complete a task, it is sent to the next person in the business process,
@@ -390,4 +390,3 @@ You can set a default person to which all of your tasks are sent. You can also s
    >The process designer may specify that tasks from some processes are always kept private and not forwarded to other users. This setting overrides any settings that you make.
 
 1. When you finish setting preferences, click **Save**. If your settings indicate that you are currently out of the office, your changes take effect immediately. Otherwise, they take effect at the specified start date and time. If you log in while you are out of the office, you are not considered in the office until you change your settings.
-

@@ -1,8 +1,8 @@
 ---
 title: How to Build AEM Projects using Apache Maven
 description: This document describes how to set up an AEM project based on Apache Maven
+exl-id: 6ae0e387-468b-4cea-9e3f-0816d67b7621
 ---
-
 # How to Build AEM Projects using Apache Maven {#how-to-build-aem-projects-using-apache-maven}
 
 AEM 6.5 adheres to the latest best practices for package management and project structure as implemented by the latest AEM Project Archetype for both on-premises and AMS implementations.

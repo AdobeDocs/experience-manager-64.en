@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: b6e42b9d-9e27-4f22-8543-442d03af48f3
+exl-id: f98302cf-159b-488b-aa62-8739ad32460c
 ---
-
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
 
 Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to [page editing](/help/sites-classic-ui-authoring/classic-page-author-keyboard-shortcuts.md).

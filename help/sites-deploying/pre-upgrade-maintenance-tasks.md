@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: upgrading
 discoiquuid: 899ea120-c96d-4dbf-85da-e5d25959d10a
 feature: Upgrading
+exl-id: f146cb2f-ee77-4c99-8dff-446cdb3a7797
 ---
-
 # Pre-Upgrade Maintenance Tasks{#pre-upgrade-maintenance-tasks}
 
 Before beginning your upgrade, it is important to follow these maintenance tasks to ensure that the system is ready and can be rolled back should issues occur:

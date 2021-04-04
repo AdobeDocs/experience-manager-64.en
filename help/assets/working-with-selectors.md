@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 262eb911-3dcb-475d-b410-8bcac1347905
+exl-id: 6bd68afe-bd54-4482-bd6e-cb318868c8d0
 ---
-
 # Working with Selectors {#working-with-selectors}
 
 When working with an Interactive Image, Interactive Video, or Carousel Banner, you select assets and you select sites and products for hotspots and image maps to link to. When working with Image Sets, Spin Sets, and Multimedia Sets, you also select assets with the Asset Selector.
@@ -111,4 +111,3 @@ See also [Asset Picker](asset-selector.md) for more information.
 1. Tap the check mark to select the asset. The asset is displayed.
 
    ![chlimage_1-536](assets/chlimage_1-536.png)
-

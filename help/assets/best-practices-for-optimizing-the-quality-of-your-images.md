@@ -5,8 +5,8 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
+exl-id: 2e90bea1-eaac-457b-8588-b18d3a6e8d91
 ---
-
 # Best practices for optimizing the quality of your images {#best-practices-for-optimizing-the-quality-of-your-images}
 
 Optimizing image quality can be a time consuming process as many factors contribute to rendering acceptable results. The outcome is partly subjective because individuals perceive image quality differently. Structured experimentation is key.

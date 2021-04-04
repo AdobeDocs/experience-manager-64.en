@@ -11,8 +11,8 @@ content-type: reference
 discoiquuid: ba90b25f-f672-42c5-8b06-07bb32cc51de
 targetaudience: target-audience upgrader
 feature: Upgrading
+exl-id: e6092e80-3a39-4fde-8a94-084eee5fa8a9
 ---
-
 # Upgrade Procedure{#upgrade-procedure}
 
 >[!NOTE]

@@ -4,8 +4,8 @@ description: AEM Forms JEE Patch Installer
 uuid: e709871b-c04c-43bb-a7d0-45e89fbd3d44
 content-type: reference
 discoiquuid: 83bace08-1d4f-4192-a634-c7c4879963d8
+exl-id: ce5300ce-03f4-4e7b-bc5b-01a9968ebe06
 ---
-
 # AEM Forms JEE Patch Installer {#aem-forms-jee-patch-installer}
 
 >[!NOTE]

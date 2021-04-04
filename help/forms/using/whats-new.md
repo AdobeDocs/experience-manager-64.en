@@ -8,8 +8,8 @@ contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 436aa424-d05e-4f3d-90ac-5ff3b05ddba8
+exl-id: 21b8ed83-9c0c-41ee-9fbb-56ccebaee132
 ---
-
 # New features summary | AEM 6.4 Forms {#new-features-summary-aem-forms}
 
 Summary of new features and enhancements in AEM 6.4 Forms.

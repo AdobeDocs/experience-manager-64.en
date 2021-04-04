@@ -5,8 +5,8 @@ seo-description: Knowledge-building resources are available in this one-stop sho
 seo-title: Adobe Dynamic Media Newsletter 
 solution: Dynamic Media Classic
 title: Dynamic Media Newsletter
+exl-id: aa02c811-0296-4a02-b745-e70aeb9d1e97
 ---
-
 # ![Dynamic Media Newsletter logo](/help/assets/assets/dynamic-media-newsletter-logo.png)
 
 The monthly Dynamic Media Newsletter by Experience League is designed to help you get up to speed with Dynamic Media and Dynamic Media Classic so that you can start realizing value right away.

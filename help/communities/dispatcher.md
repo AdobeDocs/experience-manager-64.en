@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 23745dd3-1424-4d22-8456-d2dbd42467f4
+exl-id: dc4e27dd-fb2e-485d-8c7f-ab830bde1d3d
 ---
-
 # Configuring Dispatcher for Communities {#configuring-dispatcher-for-communities}
 
 ## AEM Communities {#aem-communities}
@@ -512,4 +512,3 @@ Following is a sample `dispatcher.any` file that includes the Communities /filte
   }
 
 ```
-

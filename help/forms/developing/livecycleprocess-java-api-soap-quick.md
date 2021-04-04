@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9c17fa2d-0337-4204-822e-dcdafebf0e4d
 role: Developer
+exl-id: ee8f5f16-218a-41eb-be42-fda4537b2b4e
 ---
-
 # LiveCycleProcess Java API (SOAP) Quick Start {#livecycleprocess-java-api-soap-quick-start}
 
 The Java API(SOAP) Quick Start is available for processes. A *process instance* is an occurrence of a specific process that was started by an invocation method such as the Invocation API or from within Workspace.
@@ -637,4 +637,3 @@ The following code example retrieves the status of 10 AEM Forms jobs.
   
  
 ```
-

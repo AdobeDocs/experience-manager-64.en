@@ -9,8 +9,8 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 31e97723-d637-4a18-999d-36e00fbd031a
 feature: Adaptive Forms
+exl-id: 2f83e853-2468-4ea2-85f6-8cf7fe9de6a8
 ---
-
 # Tutorial: Create form data model  {#tutorial-create-form-data-model}
 
  ![04-create-form-data-model-main](assets/04-create-form-data-model-main.png)
@@ -223,4 +223,3 @@ Do the following to run the test:
    Now, if you test the read model service again for the id 7107215, it will fetch and display the updated customer details as shown below.
 
    ![read-updated](assets/read-updated.png)
-

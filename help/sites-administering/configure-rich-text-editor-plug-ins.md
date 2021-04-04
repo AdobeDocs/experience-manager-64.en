@@ -2,8 +2,8 @@
 title: Configure the Rich Text Editor plug-ins
 description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
 contentOwner: AG
+exl-id: c9ab462d-b7d4-42c1-a4cf-80d16722910b
 ---
-
 # Configure the Rich Text Editor plug-ins {#configure-the-rich-text-editor-plug-ins}
 
 RTE functionalities are made available via a series of plug-ins, each with features property. You can configure the features property to enable or disable, one or more RTE features. This article describes how to specifically configure the RTE plug-ins.

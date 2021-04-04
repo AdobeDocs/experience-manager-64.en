@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 40560e06-2508-45a4-a648-39629ed54f28
+exl-id: e1f0e210-2c63-4a5f-9e69-4e73624a4304
 ---
-
 # Dashboards{#dashboards}
 
 When using AEM you are able of managing a lot of content of different types (e.g. pages, assets). AEM Dashboards provide an easy to use and customizable way to define pages that displays consolidated data.
@@ -254,4 +254,3 @@ String reportletTitle = properties.get("title", "Top Authors");
      <div id="authors-list"></div>
 </html>
 ```
-

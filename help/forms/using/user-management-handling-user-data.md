@@ -8,8 +8,8 @@ topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a88fc933-f1af-4798-b72f-10e7b0d2fd11
 role: Administrator
+exl-id: 5005d57c-2585-46d1-9785-939e249a0128
 ---
-
 # Forms user management | Handling user data {#forms-user-management-handling-user-data}
 
 User management is an AEM Forms JEE component that allows creating, managing, and authorizing AEM Forms users to access AEM Forms. User management uses domains as directory for obtaining user information. The following domain types are supported:
@@ -180,4 +180,3 @@ To delete a user:
 1. Search for a user and double-click the username to open user properties. Copy the `Path` property.
 1. Go to AEM CRX DELite at `https://[*server*]:[*port*]/lc/crx/de/index.jsp` and navigate or search the user path.
 1. Delete the path and click **[!UICONTROL Save All]** to permanently delete the user from AEM repository.
-

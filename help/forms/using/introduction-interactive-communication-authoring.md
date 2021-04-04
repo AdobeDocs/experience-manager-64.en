@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
 discoiquuid: 565bfb42-6099-49f4-83ba-b1f0c129aab7
 feature: Interactive Communication
+exl-id: 1537490b-71b3-4ab3-b8d1-d85eac88d857
 ---
-
 # Introduction to Interactive Communication authoring UI {#introduction-to-interactive-communication-authoring-ui}
 
 An introduction to the various user interface elements you can use to author Interactive Communication
@@ -147,4 +147,3 @@ The Page toolbar on the top provides options that let you preview the Interactiv
     * Target: Lets you enable or disable custom components, or out-of-the-box components that are not listed in the Sidebar.
 
 * Preview: Lets you preview how the Interactive Communication looks when you publish it.
-

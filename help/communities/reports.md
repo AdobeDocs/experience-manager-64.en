@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 0042893e-3d2c-469e-8759-404be16e7436
 role: Administrator
+exl-id: 766711ea-f3d3-49ab-8346-4e4477c261bd
 ---
-
 # Reports Console {#reports-console}
 
 ## Overview {#overview}

@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 7bdf1f06-c298-4695-bad1-e402cf472086
 feature: Correspondence Management
+exl-id: 3bc32053-d35d-4c19-a311-48b0b99eefb8
 ---
-
 # Document Fragments {#document-fragments}
 
 ## Document Fragments {#document-fragments-1}
@@ -540,4 +540,3 @@ To quickly create a document fragment with properties and content similar to an 
 1. Tap Paste. The Paste dialog appears. If you are copying and pasting the document fragments at the same place, the system automatically assigns names and a titles to the new copies of letters, but you can edit the titles and names of the letters. 
 1. If required, edit the Title and Name with which you want to save the copy of the document fragment.
 1. Tap Paste. The copy of the document fragment is created.
-

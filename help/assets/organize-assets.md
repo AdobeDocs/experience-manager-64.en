@@ -4,8 +4,8 @@ description: Organize your digital assets, images, files, folders, and so on usi
 contentOwner: AG
 feature: Asset Management,Search
 role: Business Practitioner
+exl-id: 41e083b3-e956-4346-9a99-008de2c6a169
 ---
-
 # Organize your digital assets {#organize-digital-assets}
 
 All digital assets, metadata and content of Microsoft Office and PDF documents are extracted and made searchable. Search allows sophisticated filtering on assets and fully respects the proper permissions. Metadata is covered in detail in metadata in Digital Asset Management.

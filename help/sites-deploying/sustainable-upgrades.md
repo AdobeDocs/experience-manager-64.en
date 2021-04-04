@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: upgrading
 discoiquuid: 5ca8dd7a-4efd-493e-8022-d2f10903b0a2
 feature: Upgrading
+exl-id: 765efa8d-1548-4db3-ba87-baa02075eaf6
 ---
-
 # Sustainable Upgrades{#sustainable-upgrades}
 
 ## Customization Framework {#customization-framework}

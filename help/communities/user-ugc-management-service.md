@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 discoiquuid: f564759f-fb56-4f70-a7b1-286a223755c6
 role: Administrator
+exl-id: f4adc53d-6809-4d89-a3dd-5d783e938a63
 ---
-
 # User and UGC Management Service in AEM Communities {#user-and-ugc-management-service-in-aem-communities}
 
 >[!IMPORTANT]

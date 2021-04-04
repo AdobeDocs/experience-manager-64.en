@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 2feb4a9c-57ad-4c6b-a572-0047bc409bbb
+exl-id: 9c5d956c-06bc-4428-afcd-02b4f81b802f
 ---
-
 # Set up and configure AEM Forms reference sites {#set-up-and-configure-aem-forms-reference-sites}
 
 AEM Forms provides reference site implementation to demonstrate how AEM Forms helps Financial Services Industry and Government organizations in transforming their complex transactions into simple and engaging digital experiences anywhere, anytime, on any device.
@@ -385,4 +385,3 @@ Now you are all set to explore the reference site. For more information about re
 * [We.Gov reference site walkthrough](/help/forms/using/gov-reference-site-walkthrough.md)  
 
 * [Employee self-service reference site walkthrough](/help/forms/using/employee-self-service-reference-site.md)
-

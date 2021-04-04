@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 5542de4e-6262-4300-9cf8-0eac79ba4f9a
+exl-id: 033db49a-3a8b-46cf-92b3-c0a04d7c820d
 ---
-
 # Troubleshooting{#troubleshooting}
 
 This section includes detailed information on logs available to help you troubleshoot and also includes information on some of the problems you might encounter with AEM.

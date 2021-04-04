@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: 09536869-3806-4b89-adfd-68f408298c55
+exl-id: af4f25d4-a784-47fe-bca4-75c8d373f7d2
 ---
-
 # Associated Content {#associated-content}
 
 >[!CAUTION]
@@ -50,4 +50,3 @@ Once you have associated a collection you can:
 * **Add Assets** to the collection.
 * Select an asset for further action.
 * Edit the asset.
-

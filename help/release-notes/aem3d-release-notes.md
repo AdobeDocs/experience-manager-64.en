@@ -5,8 +5,8 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes, 3D
 content-type: reference
+exl-id: d02949b5-09c6-4aba-9bc2-4eea8d3aa438
 ---
-
 # AEM 3D Release Notes {#aem-d-release-notes}
 
 >[!IMPORTANT]

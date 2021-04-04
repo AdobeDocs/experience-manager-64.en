@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 0685478b-d08e-4d69-8dd3-f75270772167
+exl-id: aabfd05d-581b-4205-8e61-5667d5713cb1
 ---
-
 # Overview of AEM Document Services {#overview-of-aem-document-services}
 
 AEM Document Services are a set of OSGi Services for creating, assembling, and securing PDF Documents. Document Services contain following services:

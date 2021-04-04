@@ -8,8 +8,8 @@ topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 71bba66a-3cac-445b-9941-aa4bcf9b2160
 feature: Interactive Communication
+exl-id: cb7a8e96-4440-47ec-b506-275d5acc774e
 ---
-
 # Print channel and web channel {#print-channel-and-web-channel}
 
 Importing print channel templates and creating and enabling web channel templates
@@ -82,4 +82,3 @@ To author a web channel template Complete the following steps:
 While authoring an Interactive Communication, authors can select this option to create the web channel in sync with the print channel. Using print channel as master for web channel ensures the content, inheritance, and data binding of the web channel is derived from the print channel and the changes made in the print channel could be reflected in the web channel. The Interactive Communication authors are, however, allowed to break the inheritance for specific components in the web channel, as required.
 
 ![printweb_2-2](assets/printweb_2-2.png)
-

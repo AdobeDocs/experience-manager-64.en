@@ -11,8 +11,8 @@ content-type: reference
 discoiquuid: 67faa2ee-cb12-44b0-8bfb-534d1d6c360a
 legacypath: /content/docs/en/aem/6-0/administer/integration/third-party-services/machine-translation
 feature: Language Copy
+exl-id: 3a3f5c4d-6c3f-4201-acc8-dbd138bb59ba
 ---
-
 # Translating Content for Multilingual Sites{#translating-content-for-multilingual-sites}
 
 Automate the translation of page content, assets, and user-generated content to create and maintain multilingual websites. To automate translation workflows, you integrate translation service providers with AEM and create projects for translating content into multiple languages. AEM supports human and machine translation workflows.

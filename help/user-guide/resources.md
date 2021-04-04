@@ -5,8 +5,8 @@ description: AEM 6.4 release notes, certifications, and additional resources
 seo-description: AEM 6.4 release notes, certifications, and additional resources
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+exl-id: 77111a12-1d9d-4f2d-a2f2-6b2f66709fce
 ---
-
 # AEM 6.4 Additional Resources {#aem-64-additional-resources}
 
 ## AEM 6.4 Release Notes {#aem-64-release-notes}

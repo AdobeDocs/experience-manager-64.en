@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: d0249609-2a9c-4d3b-92ee-dbc5fbdeaac6
+exl-id: 0b7496f0-0b3c-4d12-a659-d95744157f14
 ---
-
 # Deploying Communities {#deploying-communities}
 
 ## Prerequisites {#prerequisites}
@@ -434,4 +434,3 @@ If using a Dispatcher, see:
 * Visit [Developing Communities](communities.md) to learn about the social component framework (SCF) and customizing Communities components and features.
 
 * Visit [Authoring Communities Components](author-communities.md) to learn how to author with and configure Communities components.
-

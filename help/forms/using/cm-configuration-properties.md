@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: f2955419-c680-44a7-9913-c594b4577551
 feature: Correspondence Management
+exl-id: 102e4f39-192e-4cc1-a249-4b6bc641919d
 ---
-
 # Correspondence Management Configuration Properties {#correspondence-management-configuration-properties}
 
 To configure these properties, open the following URL in a browser: `https://<server>:<port>/<contextPath>/system/console/configMgr` and select **Correspondence Management Configurations**.

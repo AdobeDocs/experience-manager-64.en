@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 19cb3946-32ba-4f0b-89f0-f9272f2373d2
+exl-id: 40e24cc6-95a9-4efd-b812-4144ba44b071
 ---
-
 # Developing with CRXDE Lite {#developing-with-crxde-lite}
 
 This section describes how to develop your AEM application using CRXDE Lite.
@@ -299,4 +299,3 @@ You can:
 >[!NOTE]
 >
 >See [Users, Groups and Access Rights Administration](/help/sites-administering/user-group-ac-admin.md) for more information.
-

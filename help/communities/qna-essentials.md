@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: ceace3aa-78a5-485e-b519-630479e087d8
+exl-id: 99f8afda-1771-471b-bd0c-99960a453bc9
 ---
-
 # QnA Essentials {#qna-essentials}
 
 This page provides the essential information for working with the questions and answers (QnA) forum feature.
@@ -75,4 +75,3 @@ See:
 * [SRP and UGC Essentials](srp-and-ugc.md) - SRP utility methods and examples
 * [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
 * [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
-

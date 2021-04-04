@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 8be3adcf-5b3a-40e9-8f87-1a6f39aab554
+exl-id: c8712b93-34b1-421c-8a39-ab9465b05efe
 ---
-
 # Landing Pages{#landing-pages}
 
 The landing pages feature allows quick and easy importing of a design and content right into an AEM page. A web developer can prepare the HTML and additional assets that can be imported as a full page or only a part of a page. The functionality is useful to create marketing landing pages that are only active for a limited time and need to be created quickly.
@@ -437,4 +437,3 @@ You can publish the landing page and all its dependencies just like publishing a
 >[!NOTE]
 >
 >Publishing the desktop landing page also publishes its corresponding mobile version (if any). But publishing a mobile landing page does not publish the desktop version.
-

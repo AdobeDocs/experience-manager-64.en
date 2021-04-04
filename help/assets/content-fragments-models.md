@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 45e67357-4524-4d25-b5f1-21182b8e803c
+exl-id: 39ed07ec-54a6-4387-8435-e891726c411c
 ---
-
 # Content Fragment Models {#content-fragment-models}
 
 >[!CAUTION]
@@ -142,4 +142,3 @@ To publish a content fragment model:
    >[!NOTE]
    >
    >If you publish a content fragment for which the model has not yet been published, a selection list will indicate this and the model will be published with the fragment.
-

@@ -10,8 +10,8 @@ topic-tags: correspondence-management, installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 38a80992-2eda-4535-89af-0de34b1a9686
 role: Administrator
+exl-id: 0bfa0e65-c4cd-4c37-b42b-bff1b777a7be
 ---
-
 # Install compatibility Package {#compatibility-package}
 
 Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages
@@ -71,4 +71,3 @@ By installing the Compatibility package, you can make the following assets and t
     * /libs/fd/af/components/page/survey
     * /libs/fd/af/components/page/tabbedenrollment
     * /libs/fd/afaddon/components/page/advancedenrollment
-

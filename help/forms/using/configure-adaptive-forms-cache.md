@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: dd18f7b5-882d-4e81-ab3d-85f1e5d74992
 role: Administrator
+exl-id: 6a610e9d-beec-486d-b1d2-78b5fec44c52
 ---
-
 # Configure adaptive forms cache {#configure-adaptive-forms-cache}
 
 A cache is a mechanism to shorten data access times, reduce latency, and improve input/output (I/O) speeds. Adaptive forms cache stores only HTML content and JSON structure of an adaptive form without saving any pre-filled data. It helps in reducing the time required to render an adaptive form or document on the client. It is designed specifically for adaptive forms and also supports adaptive documents.
@@ -38,4 +38,3 @@ Perform the following steps to configure the adaptive forms cache:
    ![Configuration dialog for adaptive forms HTML cache](assets/cache-configuration-edit.png)
 
 1. Click **Save** to save the configuration.
-

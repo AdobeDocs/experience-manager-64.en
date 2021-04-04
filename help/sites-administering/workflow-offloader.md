@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 91f0fd7d-4b49-4599-8f0e-fc367d51aeba
+exl-id: 2ca8e786-042b-44f6-ac60-834eca64f79f
 ---
-
 # Assets Workflow Offloader{#assets-workflow-offloader}
 
 Assets workflow offloader lets you enable multiple instances of Adobe Experience Manager (AEM) Assets to reduce the processing load on the primary (leader) instance. The processing load is distributed among the leader instance and the various offloader (worker) instances that you add to it. Distributing the processing load of assets increases the efficiency and speed with which AEM Assets processes assets. In addition, it helps allocate dedicated resources to process assets of a particular MIME type. For example, you can allocate a specific node in your topology to process InDesign assets only.
@@ -92,4 +92,3 @@ Disable the workflow launchers that run the **DAM Update Asset** workflow on the
    ![chlimage_1-57](assets/chlimage_1-57.png)
 
 1. Upload any asset of type image at the leader instance. Verify the thumbnails generated and ported back for the asset by the offloaded instance.
-

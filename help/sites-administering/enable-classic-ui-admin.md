@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 98ba3093-1edb-4891-abbe-47cf6e4f1feb
+exl-id: f3c03562-aaeb-4d43-aee1-d92d661ee329
 ---
-
 # Admin Consoles{#admin-consoles}
 
 By default, the ability to switch to the classic UI via the admin consoles has been disabled. Therefore the pop-up icons that was seen when mousing over certain console icons, allowing access to classic UI, are no longer displayed.

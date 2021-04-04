@@ -5,8 +5,8 @@ contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: managing-assets
+exl-id: b11b19c1-712d-4698-aefc-930ff8cacbc1
 ---
-
 # Adding Dynamic Media Classic Features to your Page {#adding-scene-features-to-your-page}
 
 Adobe Dynamic Media Classic is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
@@ -349,4 +349,3 @@ Within the Dynamic Media Classic browser, you can filter results to include any 
 You can filter for assets based on publication status: **[!UICONTROL Unpublished]** or **[!UICONTROL Published]**. If you do not select any **[!UICONTROL Publish Status]**, AEM by default searches all publish statuses.
 
 ![chlimage_1-247](assets/chlimage_1-247.png)
-

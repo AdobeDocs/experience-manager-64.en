@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 70be208d-185b-4b27-8e01-74e62f656344
+exl-id: 358b70b8-8122-4eda-baa7-d9a58d6901f9
 ---
-
 # Alter the Appearance (HBS) {#alter-the-appearance-hbs}
 
 Now that the components for the custom comment system in the application directory (/apps) are in place, with a resourceSuperType referencing the default comment system and the custom Model/View registered, it is possible to modify the implementation.

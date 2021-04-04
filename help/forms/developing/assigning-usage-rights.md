@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 9e8db506-9ace-4e1f-8a7b-c4e9b15dde7e
 role: Developer
+exl-id: c7805d8a-eb6a-4908-9662-936920ffa67a
 ---
-
 # Assigning Usage Rights {#assigning-usage-rights}
 
 ## About the Acrobat Reader DC extensions Service {#about-the-acrobat-reader-dc-extensions-service}

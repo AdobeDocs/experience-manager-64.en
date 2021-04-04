@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f9a3f897-90c6-4942-8a86-aae510298f2a
+exl-id: 6b431cbd-2cea-4ae2-ad26-587ba524d2f5
 ---
-
 # Configure AEM forms to prefetchdomain information {#configure-aem-forms-to-prefetchdomain-information}
 
 Users may experience a slower response time if they belong to many groups (for example, 500 or more) or if the groups are nested deeply (for example, 30 levels). If you are experiencing this problem, you can configure AEM forms to prefetch information from certain domains.
@@ -38,4 +38,3 @@ Users may experience a slower response time if they belong to many groups (for e
 
 1. To import the updated file, in User Management, click **[!UICONTROL Configuration > Import And Export Configuration Files]**.
 1. Click **[!UICONTROL Browse]** to find the file, click Import, and then click **[!UICONTROL OK]**.
-

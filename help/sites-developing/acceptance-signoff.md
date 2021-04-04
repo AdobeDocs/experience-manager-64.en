@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: d8da194f-f161-4ba7-b8cc-c2c282dc9c83
+exl-id: e6dd95d2-9444-40e6-a83a-2c4f9e4cfcef
 ---
-
 # Acceptance and Sign-off{#acceptance-and-sign-off}
 
 As mentioned, [Acceptance Tests](/help/sites-developing/planning.md) are a special category of test used to verify that the:
@@ -25,4 +25,3 @@ For this reason they must be:
 * Defined as early as possible.
 * Updated whenever necessary.
 * Any changes must be formally accepted and signed by both parties (partner and the customer).
-

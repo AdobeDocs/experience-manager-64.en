@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 00806e6e-3578-4caa-bafa-064f200a871f
+exl-id: 6dd289ee-13fd-46be-82cd-aa69852397c9
 ---
-
 # Configure the Admin Password on Installation{#configure-the-admin-password-on-installation}
 
 ## Overview {#overview}
@@ -62,4 +62,3 @@ admin.password = 12345678
 >[!NOTE]
 >
 >If you simply use the `-nointeractive` parameter without the `-Dadmin.password.file` system property, AEM will use the default admin password without asking you to change it, essentially replicating behaviour from earlier versions. This non interactive mode can be used for automated installations using the command line in an installation script.
-

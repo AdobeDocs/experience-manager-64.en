@@ -5,8 +5,8 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
+exl-id: 47cb6d40-a5c4-4f6a-9794-bd2eddfaa7d0
 ---
-
 # Spin Sets {#spin-sets}
 
 A Spin Set simulates the real-world act of turning an object to examine it. Spin Sets make it possible to view items from any angle, gaining the key visual details from any angle.

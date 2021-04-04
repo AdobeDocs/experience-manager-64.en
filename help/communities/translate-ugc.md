@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: bfaf80c5-448b-47fb-9f22-57ee0eb169b2
 role: Administrator
+exl-id: b8cbc429-b0c3-4f6e-a15f-4aef54733c8e
 ---
-
 # Translating User Generated Content {#translating-user-generated-content}
 
 The translation feature for AEM Communities extends the concept of [translating page content](../../help/sites-administering/translation.md) to the user generated content (UGC) posted to community sites using [social component framework (SCF) components](scf.md).

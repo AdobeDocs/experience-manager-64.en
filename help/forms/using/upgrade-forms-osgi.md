@@ -10,8 +10,8 @@ topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: e745033f-8015-4fae-9d82-99d35802c0a6
 role: Administrator
+exl-id: 183ed9c6-6a9a-4932-8405-5ae2c6fac1ec
 ---
-
 # Upgrade to AEM 6.4 Forms on OSGi {#upgrade-to-aem-forms-osgi}
 
 Use one of the following upgrade paths, as appropriate for your environment.

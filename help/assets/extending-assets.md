@@ -4,8 +4,8 @@ description: Learn ways by which you can customize and extend Asset Share and As
 contentOwner: AG
 feature: Developer Tools
 role: Developer
+exl-id: 0291690b-874a-483d-901f-f02cb6d8ab28
 ---
-
 # Customizing and Extending Assets {#customizing-and-extending-assets}
 
 The Asset Editor is the primary point of access that users of a Adobe Enterprise Manager (AEM) website will use to find, view, and manipulate the digital assets in your repository.

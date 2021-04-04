@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: 7a1bfd43-39b1-478b-a294-92c78eaebbf2
 feature: Form Data Model
+exl-id: 39408af6-439c-4ade-8062-155be9141dfa
 ---
-
 # Use form data model {#use-form-data-model}
 
  ![](do-not-localize/data-integeration.png)

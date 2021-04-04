@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: 96cf7c92-af98-417f-ab60-b368e3846ef8
+exl-id: 0123fb44-9f38-4d9e-9dce-7c9cfd4260e1
 ---
-
 # Metadata - Fragment Properties {#metadata-fragment-properties}
 
 >[!CAUTION]
@@ -38,4 +38,3 @@ You can view and edit the metadata (properties) for content fragments:
     * Created (display only)
 
    ![cfm-6420-07](assets/cfm-6420-07.png)
-

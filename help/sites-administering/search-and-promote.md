@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 87e62346-98d5-40ec-a3ef-904adf667425
+exl-id: 2bbcc8d0-c1c7-4901-836f-44b8a2153a46
 ---
-
 # Integrating with Adobe Search&Promote{#integrating-with-adobe-search-promote}
 
 To call the Adobe Search&Promote service from your website, perform the following tasks:

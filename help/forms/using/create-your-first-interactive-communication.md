@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications, introduction
 discoiquuid: 954da8da-a30b-477d-bde7-3edd86a5be11
 feature: Interactive Communication
+exl-id: 4b2754dc-4b41-4d0d-a22c-d45595b36f84
 ---
-
 # Tutorial: Create your first Interactive Communication {#tutorial-create-your-first-interactive-communication}
 
 Learn to create your first Interactive Communication.
@@ -159,4 +159,3 @@ Once you create and test Interactive Communications using Print and Web channels
 * Integrate Interactive Communications with an email client to be able to send a communication to the customers
 * Include a PDF document as an attachment (Interactive Communication created in Print channel)
 * Include a link to the Web version of the Interactive Communication
-

@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: deploying
 discoiquuid: 084075b8-826d-4f27-9342-35f33368f24f
 noindex: true
+exl-id: 62f1d3e6-b0d2-4d64-b62e-91836b573e8c
 ---
-
 # Oak-run.jar Indexing Use Cases{#oak-run-jar-indexing-use-cases}
 
 Oak-run supports indexing use cases on the command line without having to orchestrate the execution of these use cases via AEM's JMX console.
@@ -205,4 +205,3 @@ The process you need to consider for this use case is:
 1. The updated JSON is then given to the System Administrator  
 1. System Administrator follows the out-of-band approach and prepares the index on a different installation  
 1. Once this is completed, the generated index files will be imported on a running AEM installation.
-

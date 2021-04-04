@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: b4c1cb82-865b-48dd-b5c0-946e6610ce8e
+exl-id: 201e2b57-17c0-4454-9b0e-026e2c95ac63
 ---
-
 # Working with Logs{#working-with-logs}
 
 This section includes detailed information on logs available to help you troubleshoot.

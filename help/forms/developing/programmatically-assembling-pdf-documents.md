@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: ebe8136b-2a79-4035-b9d5-aa70a5bbd4af
 role: Developer
+exl-id: be09271b-3004-4866-b43b-fb03c91305ec
 ---
-
 # Programmatically Assembling PDF Documents {#programmatically-assembling-pdf-documents}
 
 You can use the Assembler Service API to assemble multiple PDF documents into a single PDF document. The following illustration shows three PDF documents being merged into a single PDF document. 

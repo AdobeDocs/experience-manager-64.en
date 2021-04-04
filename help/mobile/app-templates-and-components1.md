@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: 7f31c6a7-92d5-4a87-a9f0-68a82b834d5a
+exl-id: 5480ac38-f651-4211-94f6-c588fb44ad55
 ---
-
 # App Templates and Components{#app-templates-and-components}
 
 >[!NOTE]
@@ -71,4 +71,3 @@ To learn about additional topics on mobile apps, see the links below:
 
 * [Mobile with Content Sync](/help/mobile/mobile-ondemand-contentsync.md)
 * [Testing Mobile Apps](/help/mobile/develop-mobile-apps-testing.md)
-

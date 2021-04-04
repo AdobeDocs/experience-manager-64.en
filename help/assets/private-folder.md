@@ -4,8 +4,8 @@ description: Learn how to create a private folder in the Adobe Experience Manage
 contentOwner: AG
 feature: Collaboration
 role: Business Practitioner
+exl-id: b6aa3cba-4085-47ac-a249-7461baee2a00
 ---
-
 # Private folder sharing {#private-folder-sharing}
 
 You can create a private folder in the Adobe Experience Manager (AEM) Assets user interface that is available exclusively to you. You can share this private folder to other users and the assign various privileges to them. Based on the privilege level you assign, users can perform various tasks on the folder, for example view assets within the folder or edit the assets.
@@ -53,4 +53,3 @@ You can create a private folder in the Adobe Experience Manager (AEM) Assets use
 >[!NOTE]
 >
 >To be able to create a private folder, you require Read and Edit ACL permissions on the parent folder under which you want to create a private folder. If you are not an administrator, these permissions are not enabled for you by default on */content/dam*. In this case, first obtain these permissions for your user ID/group before attempting to create private folders or view folder settings.
-

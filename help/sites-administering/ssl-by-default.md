@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 discoiquuid: 3a1817cd-357b-473d-9a09-e18bbfc60dfd
+exl-id: 07f89673-125b-4205-bc54-c90287a1e9a5
 ---
-
 # SSL By Default{#ssl-by-default}
 
 In an effort to continously improve the security of AEM, Adobe has introduced a feature called SSL By Default. The purpose is to encourage the use of HTTPS to connect to AEM instances.

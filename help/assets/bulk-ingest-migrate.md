@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 6198e613-a867-49a8-b9a5-a05e7889821c
+exl-id: f9bb59f6-39a5-4804-8abe-12783d4162c9
 ---
-
 # Installing feature pack 18912 for bulk asset migration {#installing-feature-pack}
 
 The installation of feature pack 18912 is _optional_.

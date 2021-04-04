@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS, SG_AEMFORMS
 discoiquuid: 70559a94-42ea-411a-a32f-5f38bc17ff96
+exl-id: 5392027c-eb5a-49c4-bf9b-fe7d399ae0a1
 ---
-
 # Microsoft SQL Server database: Fine-tuning the configuration {#microsoft-sql-server-database-fine-tuning-the-configuration}
 
 You should change the default configuration settings when using Microsoft SQL Server. Right-click the local server in Oracle Enterprise Manager to access the properties dialog box.

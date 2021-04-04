@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7ec0698a-9e6e-48d4-bba2-5a6eee313900
+exl-id: d6b2f389-bff4-481d-93bf-87f56114a91b
 ---
-
 # Synchronizing directories {#synchronizing-directories}
 
 To synchronize domains, you can choose to do a manual or scheduled synchronization. A *manual synchronization* synchronizes any selected domains. A *scheduled synchronization* synchronizes all domains.
@@ -93,4 +93,3 @@ The cron expression usage is based on the Quartz open source job-scheduling syst
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click Abort. This button is displayed only while a directory synchronization is in progress.
-

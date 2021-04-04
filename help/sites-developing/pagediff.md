@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 13e8cbef-698f-4e69-9f8c-f9bee82e9fd1
+exl-id: 365e944d-d8a3-4f4e-8925-88629845232f
 ---
-
 # Developing and Page Diff{#developing-and-page-diff}
 
 ## Feature Overview {#feature-overview}
@@ -69,4 +69,3 @@ However there are a number of limitations that need to be considered by the deve
     * Components that use AJAX to inlcude content
     * Single Page Applications
     * Javascript based components that manipulate the DOM upon user interaction.
-

@@ -10,8 +10,8 @@ topic-tags: configuring
 content-type: reference
 discoiquuid: 12329e26-40bc-4c94-bc60-6d9cbd01345f
 feature: Configuring
+exl-id: c27e74d6-3093-4c0e-a724-92ce920fe75c
 ---
-
 # Run Modes{#run-modes}
 
 Run modes allow you to tune your AEM instance for a specific purpose; for example author or publish, test, development, intranet or others.

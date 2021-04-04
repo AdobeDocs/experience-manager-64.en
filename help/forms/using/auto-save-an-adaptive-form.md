@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: d519ac4e-6d29-4a69-874e-792acabe87ff
 feature: Adaptive Forms
+exl-id: 073734e9-449b-463a-b539-d73e11f50fa4
 ---
-
 # Auto-save an adaptive form {#auto-save-an-adaptive-form}
 
 You can configure an adaptive form to automatically start saving the content based on an event or a pre-defined time-interval. By default, contents of an adaptive form are saved on a user action, such as on pressing the save button. The auto save option is helpful in:
@@ -83,4 +83,3 @@ You can implement a custom event to trigger the autosave functionality. Perform 
 1. In the edit mode, select a component, then tap ![field-level](assets/field-level.png) &gt; **[!UICONTROL Adaptive Form Container]**, and then tap ![cmppr](assets/cmppr.png).
 1. In th properties, open the **[!UICONTROL Basic]** section. In the **[!UICONTROL Client Library Category]** box, enter the value of the category property defined while creating the client library folders.
 1. Open the Auto Save section. In the **[!UICONTROL Auto save after this event]** box, specify a custom event already defined in the client library. Click **[!UICONTROL OK]**.
-

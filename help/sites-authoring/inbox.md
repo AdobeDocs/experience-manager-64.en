@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 8b607b55-2412-469f-856b-0a3dea4b0efb
+exl-id: 9037f21c-5392-4322-af0d-7e220c810954
 ---
-
 # Your Inbox{#your-inbox}
 
 You can receive notifications from various areas of AEM, including workflows and projects; for example, about:
@@ -247,4 +247,3 @@ You can filter the items listed:
    >[!NOTE]
    >
    >With [View Settings](#inbox-view-settings) you can also configure the sort order when using the [List View](#inbox-list-view).
-

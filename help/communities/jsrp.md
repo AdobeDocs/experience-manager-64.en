@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: f5316a73-84e2-4a18-98c1-a384eeaa77cf
 role: Administrator
+exl-id: 73c59497-43fe-4e15-afda-e3cf5264696e
 ---
-
 # JSRP - JCR Storage Resource Provider {#jsrp-jcr-storage-resource-provider}
 
 ## About JSRP {#about-jsrp}

@@ -10,8 +10,8 @@ topic-tags: site-features
 content-type: reference
 discoiquuid: 3763e985-7dd8-47fd-bfdf-2368b424c270
 feature: Multi Site Manager
+exl-id: 96238d40-c19a-4c1f-9400-c7bb8636b448
 ---
-
 # Live Copy Overview Console{#live-copy-overview-console}
 
 The **Live Copy Overview** enables you to:
@@ -137,4 +137,3 @@ This tab provides detailed information about the status of the relationship betw
 This tab allows you to view and edit the live copy configuration:
 
 ![chlimage_1-364](assets/chlimage_1-364.png)
-

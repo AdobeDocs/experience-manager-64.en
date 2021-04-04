@@ -10,8 +10,8 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0f069fbc-10c2-403e-9419-5e9920035d75
 feature: Document Security
+exl-id: 571c1391-dc60-4bed-b4f9-482a508e4bd4
 ---
-
 # Configure the document security server {#configure-the-document-security-server}
 
 1. In administration console, click Services &gt; document security &gt; Configuration &gt; Server Configuration.
@@ -1045,4 +1045,3 @@ You can increase the scalability of the document security server by limiting the
    >By default, the value of the `DisableGlobalOfflineSynchronizationData`key is set to `false`.
 
 1. Save and import the configuration file. (See [Manually editing the document security configuration file](/help/forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file).)
-

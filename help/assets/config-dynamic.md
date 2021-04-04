@@ -7,8 +7,8 @@ uuid: de88f68f-4697-4ff0-8008-3ae6a4684a84
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 821eb27e-67c9-4589-9196-30dacb84fa59
+exl-id: 1e122f97-ac37-44f5-a1cd-bf53ffda6f5b
 ---
-
 # Configuring Dynamic Media - Hybrid mode {#configuring-dynamic-media-hybrid-mode}
 
 Dynamic Media &ndash; Hybrid needs to be enabled and configured for use. Depending on your use case, Dynamic Media has several [supported configurations](#supported-dynamic-media-configurations).

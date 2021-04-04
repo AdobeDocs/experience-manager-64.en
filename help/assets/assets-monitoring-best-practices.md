@@ -4,8 +4,8 @@ description: Best practices for monitoring the environment and performance of yo
 contentOwner: AG
 feature: Asset Management
 role: Administrator,Architect
+exl-id: edbb275a-5ead-4ed2-8708-29e766081d75
 ---
-
 # Assets monitoring best practices {#assets-monitoring-best-practices}
 
 From the Adobe Experience Manager (AEM) Assets standpoint, monitoring should include observing and reporting on the following processes and technologies:

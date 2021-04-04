@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: c8e145ad-f021-4043-8190-62151775e296
+exl-id: 59cd9f8c-6d01-448d-bf57-bdc9fd2e381b
 ---
-
 # HTTP2 Delivery of Content {#http-delivery-of-content}
 
 Adobe is excited to announce the availability of HTTP/2 delivery of content with the overall benefit of improved performance.

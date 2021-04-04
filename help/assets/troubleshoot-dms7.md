@@ -5,8 +5,8 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
+exl-id: d8cc94b0-eacf-4e76-bd50-7934bbc28c92
 ---
-
 # Troubleshooting Dynamic Media - Scene7 mode {#troubleshooting-dynamic-media-scene-mode}
 
 The following document describes troubleshooting for Dynamic Media running **dynamicmedia_scene7** run mode.
@@ -251,4 +251,3 @@ If you are having issues with viewers, see the following troubleshooting guidanc
   </tr> 
  </tbody> 
 </table>
-

@@ -8,8 +8,8 @@ contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ef873c07-be89-4cd0-8913-65765b989f90
 feature: Interactive Communication
+exl-id: f767e47c-f5a6-478c-ac56-00d519a627cf
 ---
-
 # Tutorial: Create form data model {#tutorial-create-form-data-model}
 
 Create form data model for Interactive Communication
@@ -384,4 +384,3 @@ Do the following to generate, edit, and save sample data:
    ![edit_sample_data](assets/edit_sample_data.png)
 
 1. In **Edit Sample Data** window, edit data, as required, and tap **Save**. Close the window.
-

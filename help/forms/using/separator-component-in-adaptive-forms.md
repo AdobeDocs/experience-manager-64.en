@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: ba674a2d-7c78-430e-8e17-1a18619e71cb
 feature: Adaptive Forms
+exl-id: 7e37401a-8c63-4711-8a33-61e6bd4b419f
 ---
-
 # Separator component in adaptive forms {#separator-component-in-adaptive-forms}
 
 You can use the separator component to visually segregate panels of a form. You can define the overall appearance and style of a separator component by specifying the following properties of separator component:
@@ -29,4 +29,3 @@ To specify properties of a separator component:
 1. Click **Add Item** to specify another property and its value.
 1. Click **Preview** to preview the changes in the form.
 1. Click **OK** to confirm the changes or **Cancel **to exit the dialog without any changes.
-

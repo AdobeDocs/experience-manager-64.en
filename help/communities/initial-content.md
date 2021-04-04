@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: e8f28cd5-7950-4aab-bf62-3d4ed3d33cbd
+exl-id: 171fd95d-51f6-468b-84ed-4a757dba868e
 ---
-
 # Initial Sandbox Content {#initial-sandbox-content}
 
 In this section, you create the following pages which all use the [page template](initial-app.md#createthepagetemplate):
@@ -102,4 +102,3 @@ The respository should appear as follows:
 >[!NOTE]
 >
 >The use of cq:designPath is optional and is unrelated to the [use of clientlibs](develop-app.md#includeclientlibsintemplate), which are essentially required as the SCF components use [clientlibs](client-customize.md#clientlibs-for-scf) to manage their JS and CSS.
-

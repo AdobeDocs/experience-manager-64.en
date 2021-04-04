@@ -8,8 +8,8 @@ contentOwner: dekalra
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
+exl-id: d0da9390-2167-47ee-82fd-8c81d8d68a3e
 ---
-
 # AEM 6.4 Service Pack Release Notes {#aem-service-pack-release-notes}
 
 ## Release Information {#release-information}

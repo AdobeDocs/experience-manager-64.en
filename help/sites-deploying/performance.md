@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: c64fa860-92ef-4b47-a779-1e7d8ac56e16
+exl-id: e2015e30-9f42-431b-a384-e25047e4e83c
 ---
-
 # Performance & Scalability{#performance-scalability}
 
 ## White Paper: AEM Scalability, Performance, and Disaster Recovery {#white-paper-aem-scalability-performance-and-disaster-recovery}

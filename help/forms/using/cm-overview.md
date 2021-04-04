@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 1291b395-a981-4ef9-b4f0-c0d3026c5f19
 feature: Correspondence Management
+exl-id: 3cda92c9-5f3e-4704-a52b-55eda3b3fd2a
 ---
-
 # Correspondence Management Overview {#correspondence-management-overview}
 
 ## Introduction {#introduction}
@@ -42,4 +42,3 @@ It improves customer engagement, enabling you to:
 * Add interactive technologies to enable a two-way channel, reducing paper submissions
 * Protect sensitive information with built-in, end-to-end document security
 * Send correspondence via customer’s preferred communication channel, whether electronic, mail, mobile, or fax.
-

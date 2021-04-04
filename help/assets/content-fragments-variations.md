@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: 1cdb2dfc-623b-44cf-9a7b-98cfabbb1d0c
+exl-id: 15a5fdc9-2878-4f95-83ee-02a2899aeb43
 ---
-
 # Variations - Authoring Fragment Content {#variations-authoring-fragment-content}
 
 >[!CAUTION]
@@ -368,4 +368,3 @@ When editing a variation you have access to the action for synchronizing the cur
    ![cfm-6420-27](assets/cfm-6420-27.png)
 
 4. Select **[!UICONTROL Synchronize]**, the variation will updated and shown.
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: f48fa5ba-749b-4d3d-a4dd-c802006c8f07
+exl-id: 80442184-212a-424d-b320-5b301a54f974
 ---
-
 # Tough Day{#tough-day}
 
 ## What is Tough Day 2 {#what-is-tough-day}

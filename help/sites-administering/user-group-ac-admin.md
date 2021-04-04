@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: cc0637ef-4a9e-454f-899d-655c9caebe2b
+exl-id: 9c14e57b-019e-45ae-9e96-40424fa609c2
 ---
-
 # User, Group and Access Rights Administration{#user-group-and-access-rights-administration}
 
 Enabling access to a CRX repository involves several topics:
@@ -634,4 +634,3 @@ The order in the list indicates the order in which the policies are applied.
 1. Click **Test** to see the results for your selection:
 
    ![crx_accesscontrol_test](assets/crx_accesscontrol_test.png)
-

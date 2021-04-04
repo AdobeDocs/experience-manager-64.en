@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
 discoiquuid: 934eda2a-bd3b-4018-86dc-dbb01d246386
+exl-id: 7d1145e8-d7f7-4cc7-9dd9-ee8ce04e43d4
 ---
-
 # Enterprise DevOps{#enterprise-devops}
 
 DevOps covers the processes, methods and communication required to:

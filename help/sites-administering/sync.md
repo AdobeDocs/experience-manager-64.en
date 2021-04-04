@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 707b150b-7759-437f-9150-9f4784856754
+exl-id: 537b86f5-ad38-4419-8dde-40ec08091b7e
 ---
-
 # User Synchronization{#user-synchronization}
 
 ## Introduction {#introduction}
@@ -592,4 +592,3 @@ To remove a publisher from the [Apache Sling Distribution Agent - Sync Agents Fa
     * re-enable user sync
 
         * check the `Enabled` checkbox for [Apache Sling Distribution Agent - Sync Agents Factory](#apache-sling-distribution-agent-sync-agents-factory)
-

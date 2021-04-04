@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: ef564750-f107-41cb-887e-fc6d22b7d32e
 feature: Adaptive Forms
+exl-id: 9393fe94-002a-497b-9579-d6ad3bb3973e
 ---
-
 # Reusing adaptive forms {#reusing-adaptive-forms}
 
 ## Introduction {#introduction}
@@ -65,4 +65,3 @@ The content of a pasted adaptive forms can be changed using the following approa
 1. **Republish:** 
 
    The pasted asset is different from the copied one. You can publish it as a new asset to make it available for end users. To know how to publish an asset, see [Publishing and unpublishing forms](/help/forms/using/publishing-unpublishing-forms.md)
-

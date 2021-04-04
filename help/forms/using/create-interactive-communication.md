@@ -8,8 +8,8 @@ topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c106aa41-cbc0-4daf-9ac6-6c0d23710010
 feature: Interactive Communication
+exl-id: a65b775d-040c-4069-b43a-6815be959b31
 ---
-
 # Create an Interactive Communication  {#create-an-interactive-communication}
 
 Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types.
@@ -350,4 +350,3 @@ If you are using Print as Master for Web Channel and make changes to the print c
 
     * **[!UICONTROL Discard Changes]**: Discards all the changes made to the Web channel regardless of the changes made in the web channel. 
     * **[!UICONTROL Keep Changes]**: Syncs content only for the target areas in which inheritance is not cancelled.
-

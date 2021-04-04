@@ -9,8 +9,8 @@ topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 6b380e92-f90d-4875-b7a2-f3958daf2364
 role: Administrator
+exl-id: 5aa02fae-b9dd-45bf-9826-16e9e5686727
 ---
-
 # Hardening Your AEM Forms on JEE Environment {#hardening-your-aem-forms-on-jee-environment}
 
 Learn a variety of security-hardening settings to enhance the security of AEM Forms on JEE running in a corporate intranet.
@@ -1036,4 +1036,3 @@ Set the `directoryBrowsingEnabled` property in the ibm-web-ext.xml file to `fals
 1. Deselect both **Enable application security** and **Use Java 2 security**.
 1. Click **OK** or **Apply**.
 1. In the **Messages** box, click **Save directly to the master configuration**.
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 7185fb13-46a2-4fa3-aa21-a51e63cdb9be
+exl-id: 96ef7e58-66c9-4985-973b-0c6fc7c39fd5
 ---
-
 # Add Comment to Sample Page {#add-comment-to-sample-page}
 
 Now that the components for the custom comment system are in place in the application directory (/apps), it is possible to make use of the extended component. The instance of the comment system in a website to be affected must set its resourceType to be the custom comment system and include all necessary client libraries.
@@ -62,4 +62,3 @@ Here is aaron.mcdonald@mailinator.com posting a comment:
 ![chlimage_1-51](assets/chlimage_1-51.png) ![chlimage_1-52](assets/chlimage_1-52.png)
 
 Now that it appears the extended component is working correctly with the default appearance, it is time to modify the appearance.
-

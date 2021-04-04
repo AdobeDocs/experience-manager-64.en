@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: 508f4fab-dd87-4306-83ae-12e544b8b723
+exl-id: c747bfda-e82a-4b2d-a4af-5792bfe82576
 ---
-
 # Using and Extending Widgets (Classic UI){#using-and-extending-widgets-classic-ui}
 
 Adobe Experience Manager's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page.
@@ -877,4 +877,3 @@ The javascript code referenced in the component jsp (`referencesearch.js`) defin
 
         * the property ' `test`' of the node at the path defined by the "**jcr:path**" column is set in the repository with the value of the cell
         * if the POST is successful, the value is added to the `store` object, otherwise it is rejected
-

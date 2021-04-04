@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 4ec4c674-d7d3-4988-9d77-78d274970672
 role: Developer
+exl-id: 0ada2e06-9a88-4262-8970-7b2aa52a8434
 ---
-
 # PDF Utilities Service Java API Quick Start (SOAP) {#pdf-utilities-service-java-apiquick-start-soap}
 
 The following Quick Starts are available for the PDF Utilities service.
@@ -660,4 +660,3 @@ public class Sanitization {
     } 
 }
 ```
-

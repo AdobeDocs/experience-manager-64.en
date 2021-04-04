@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: cf181663-8a4a-4efc-9f02-be1cf71c9299
+exl-id: 38da6522-46ef-4304-a089-209db11ff32a
 ---
-
 # Page Templates - Editable {#page-templates-editable}
 
 Editable templates have been introduced to:
@@ -649,4 +649,3 @@ When rendering a page:
 
         * The `cq:policy` property of this node points to the actual content policy (i.e. it holds the design configuration for that component). 
         * This allows you to have multiple templates that re-use the same content policy configurations.
-

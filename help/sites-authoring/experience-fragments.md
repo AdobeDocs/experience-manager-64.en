@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 1fe58af0-3005-46fc-8717-5d32557947ed
+exl-id: 8906b3ab-cb08-4b3e-8796-334e36b1e491
 ---
-
 # Experience Fragments{#experience-fragments}
 
 An Experience Fragment is a group of one or more components including content and layout that can be referenced within pages. They can contain any component.
@@ -306,5 +306,4 @@ For example:
 
 By default, Experience Fragments are delivered in the HTML format. This can be used by both AEM and third party channels alike.
 
-For export to Adobe Target, HTML is used. See [Target Integration with Experience Fragments](/help/sites-administering/experience-fragments-target.md) for full information.  
-
+For export to Adobe Target, HTML is used. See [Target Integration with Experience Fragments](/help/sites-administering/experience-fragments-target.md) for full information.

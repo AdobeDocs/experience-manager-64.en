@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: 6301e0ef-3faa-4e6f-932d-37b049577cec
+exl-id: a55999a8-a92b-4750-bf05-ee326d079f65
 ---
-
 # Configuring analytics and reports {#configuring-analytics-and-reports}
 
 AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.
@@ -190,4 +190,3 @@ Now, you can enable analytics for forms and generate an analytics report.
    **A.** Enable Analytics button **B.** Selected form
 
    For detailed information on viewing forms analytics reports, see [Viewing and understanding AEM Forms analytics reports](/help/forms/using/view-understand-aem-forms-analytics-reports.md)
-

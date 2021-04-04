@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 42bf42cb-0c6c-4390-8170-2c540c4d3ed3
+exl-id: 1e5172d9-47a3-4d73-b749-166e201f4eef
 ---
-
 # User Interface Recommendations for Customers{#user-interface-recommendations-for-customers}
 
 Adobe Experience Manager 6.4 comes with two UIs - the unified Experience Cloud UI and the Classic UI.
@@ -127,4 +127,3 @@ For detailed development information:
 
 * [AEM Gem Session on touch-optimized customization](https://docs.adobe.com/content/ddc/en/gems/user-interface-customization-for-aem-6.html).
 * [Granite UI documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html).
-

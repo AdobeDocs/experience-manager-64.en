@@ -10,8 +10,8 @@ topic-tags: site-features
 content-type: reference
 discoiquuid: 161b591b-5871-4b5f-9c63-823b6e67b1fd
 feature: Multi Site Manager
+exl-id: 13d044bd-fa61-4e24-ac1d-69a6f10847a4
 ---
-
 # Creating and Synchronizing Live Copies{#creating-and-synchronizing-live-copies}
 
 You can create a live copy from a page or blueprint configuration, then can manage inheritance and synchronization.
@@ -627,4 +627,3 @@ The [Detach action is also available from the Live Copy Overview](/help/sites-ad
 1. Confirm the **Detach** action in the **Detach Live Copy** dialog:
 
    ![chlimage_1-237](assets/chlimage_1-237.png)
-

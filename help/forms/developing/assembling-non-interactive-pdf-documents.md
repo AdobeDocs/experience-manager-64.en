@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 8a75c201-bd88-4809-be08-69de94656489
 role: Developer
+exl-id: d4e40d68-781d-4fc8-8557-bf36462ca1d9
 ---
-
 # Assembling Non-Interactive PDF Documents {#assembling-non-interactive-pdf-documents}
 
 You can assemble a non-interactive PDF document when using an interactive PDF form as input. That is, assume that you have a form that users can use to enter data into its fields. You can pass that form to the Assembler service, resulting in the Assembler service returning a PDF document that prevents users from entering data into its fields. This document is a non-interactive PDF form. For example, the following illustration shows a mortgage application that represents an interactive form.

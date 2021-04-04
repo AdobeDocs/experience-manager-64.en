@@ -5,8 +5,8 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: Dynamic-Media
 content-type: reference
+exl-id: acb95a2b-0171-449e-97fa-f9a533f990de
 ---
-
 # Video {#video}
 
 This section describes working with video in Dynamic Media.

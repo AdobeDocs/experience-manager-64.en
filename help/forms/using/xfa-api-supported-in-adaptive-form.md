@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: eaf60421-097e-4feb-b661-433a512470ab
 feature: Adaptive Forms
+exl-id: 86596819-8108-409e-af14-4634e8a1959d
 ---
-
 # XFA support in XDP-based adaptive forms {#xfa-support-in-xdp-based-adaptive-forms}
 
 ## Introduction {#introduction}
@@ -261,4 +261,3 @@ The following table captures how XFA validations map to validations in adaptive 
 >[!NOTE]
 >
 >You cannot override mandatory property for adaptive form radio button and check box group that are bound to XFA check buttons.
-

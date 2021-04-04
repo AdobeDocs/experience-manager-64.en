@@ -5,8 +5,8 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
+exl-id: 7cb3d58c-0d78-4414-9b66-0a10e52d0906
 ---
-
 # Video{#video}
 
 Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Dynamic Media Classic and access Dynamic Media Classic videos directly from Assets for page authoring.
@@ -179,4 +179,3 @@ The foundation video component must know about what video profiles to use in ord
 1. The video profiles must be activated.
 1. Configure the design of the foundation video component on your page.
 1. Activate the design after you are done with your design changes.
-

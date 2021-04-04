@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 2c8cea3c-8d8b-41d4-8ef9-a0ada8f86be6
 role: Administrator
+exl-id: 7f1c4bac-accf-43e4-9439-89c5420d50f2
 ---
-
 # Configuring the synchronization scheduler {#configuring-the-synchronization-scheduler}
 
 By default, the synchronization scheduler runs after every 3 minutes to synchronize all the assets modified and updated in the repository via LiveCycle Workbench 11. Applications containing forms and resources are visible in the AEM Forms user interface once the synchronization process is complete.
@@ -54,4 +54,3 @@ To resolve the conflict, rename the application, and manually synchronize the as
 ![Conflicts in asset synchronization dialog box](assets/sync-conflict.png)
 
 **Figure:** *Conflicts in asset synchronization dialog box*
-

@@ -9,8 +9,8 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: e43fd002-2954-4ef1-ac2b-e8d45afa75be
+exl-id: fdc82bca-e676-4052-b3e9-a198c685df96
 ---
-
 # Advanced configuration settings {#advanced-configuration-settings}
 
 While the default configuration settings are appropriate for typical use cases, some situations may require you to make changes.
@@ -142,4 +142,3 @@ In **CRXDE Lite** in AEM (**[!UICONTROL Tools > General > CRXDE Lite]**), access
 | `/libs/settings/dam/v3D/WebGLSites/fadeCurtains` |When set to **[!UICONTROL true]**, the load curtain will gradually fade out during the latter parts of loading and initialization. When set to **[!UICONTROL false]**, the curtain remains opaque until loading and initialization has completed. |
 | `/libs/settings/dam/v3D/WebGLSites/showCurtains` |Set to **[!UICONTROL true]** or **[!UICONTROL false]** to enable or disable the load curtain for the 3D Sites component. |
 | `/libs/settings/dam/v3D/WebGLSites/spinHeight` |When auto-spin is enabled and active, the vertical position of the camera is automatically adjusted relative to the height of the 3D object. When set to 0.5, the camera will positioned vertically at 1/2 the height of the object, which results in the horizon to be centered vertically in the viewport. Larger values result in the camera looking down onto the object and raising the height of the rendered horizon, smaller values result in the camera looking up at the object and lowering the horizon. |
-

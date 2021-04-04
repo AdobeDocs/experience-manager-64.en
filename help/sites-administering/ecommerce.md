@@ -10,8 +10,8 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 68799110-8183-40fe-be4f-2a7c7a7b3018
 feature: Commerce Integration Framework
+exl-id: 3c046e16-5f54-4a16-aa5b-256b679808fa
 ---
-
 # eCommerce{#ecommerce}
 
 * [Concepts](/help/sites-administering/concepts.md)
@@ -132,4 +132,3 @@ The [Concepts](/help/sites-administering/concepts.md) section covers the framewo
 * To provide the basic mechanisms needed to quickly realise a customized eCommerce site.
 * Tp provide the flexibility needed for developing a real-life eCommerce site.
 * Illustrate best practices.
-

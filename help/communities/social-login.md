@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: c0a71870-8f95-40c8-9ffd-b7af49723288
 role: Administrator
+exl-id: 85dcae2f-0773-4867-a24c-056bd2f5585e
 ---
-
 # Social Login with Facebook and Twitter {#social-login-with-facebook-and-twitter}
 
 Social login is the capability to present a site visitor the option to sign in with their Facebook or Twitter account. Therefore, including permitted Facebook or Twitter data in their AEM member profile.

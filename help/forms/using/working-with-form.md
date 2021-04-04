@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 8a5e038e-b39a-41de-88a0-47642e5bd5bf
+exl-id: ae565dbd-2631-4364-89f7-675700b43320
 ---
-
 # Working with a Form {#working-with-a-form}
 
 If a form is enabled for syncing in the forms app, the form is downloaded and you can work with it directly.

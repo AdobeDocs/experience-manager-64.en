@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 6a806727-28c5-430e-9a83-b43e0e9d9e1c
 feature: Adaptive Forms
+exl-id: a870c4b7-4040-4bd8-b477-286ebe6a4b01
 ---
-
 # Apply electronic signatures to a form using scribble signatures {#apply-electronic-signatures-to-a-form-using-scribble-signatures}
 
 You can use the **Scribble Signature** component and **Signature Step** component to draw(Scribble) signature on an adaptive form. The Signature step component displays a PDF version of the adaptive form. You require a Document of Record option enabled or form template based adaptive forms to use the Signature step component.
@@ -61,5 +61,4 @@ Both the components provide a window, as displayed below, to sign a form. You ca
 
    ![Complete the signing process](assets/scribblecomplete.jpg)
 
-The signatures are added to the form and the form control moves to the next panel.  
-
+The signatures are added to the form and the form control moves to the next panel.

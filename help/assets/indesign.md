@@ -4,8 +4,8 @@ description: Learn how to integrate AEM Assets with InDesign Server.
 contentOwner: AG
 feature: Publishing
 role: Administrator
+exl-id: d80562f7-071c-460a-9c68-65f48d36fbd9
 ---
-
 # Integrate AEM Assets with Adobe InDesign Server {#integrating-aem-assets-with-indesign-server}
 
 Adobe Experience Manager (AEM) Assets uses:

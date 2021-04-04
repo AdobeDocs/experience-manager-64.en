@@ -1,8 +1,8 @@
 ---
 title: Decoration Tag
 description: When a component in a web page is rendered, an HTML element can be generated, wrapping the rendered component within itself. For developers, AEM offers clear and simple logic controlling the decoration tags that wrap included components.
+exl-id: b5edfd56-8e21-44b9-9ea4-3bbdcdb23b50
 ---
-
 # Decoration Tag {#decoration-tag}
 
 When a component in a web page is rendered, an HTML element can be generated, wrapping the rendered component within itself. This primarily serves two purposes:
@@ -142,4 +142,3 @@ When including a component using `cq:includ`e or `sling:include`, the default be
 The following decision tree illustrates how `cq:noDecoration`, `cq:htmlTag`, `cq:tagName`, and `decorationTagName` affect the wrapper behavior.
 
 ![chlimage_1-3](assets/chlimage_1-3.jpeg)
-

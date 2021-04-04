@@ -6,8 +6,8 @@ seo-description: Use metadata to populate information in a forms workflow email 
 uuid: 17e018c9-6bf8-4042-bba9-4ebe449304ac
 topic-tags: publish
 discoiquuid: bdf13893-630a-43cd-aaeb-c7c16bf4f8a6
+exl-id: 248c5adf-23e9-463f-9f29-869ae2426c22
 ---
-
 # Use metadata in an email notification  {#use-metadata-in-an-email-notification}
 
 Use metadata to populate information in a forms workflow email notification
@@ -250,4 +250,4 @@ To create an OSGi bundle with Java interface, add [AEM Forms Client SDK](https:/
 
 1. Upload the bundle to an AEM Forms server. You can use AEM Package Manager to import the bundle to AEM Forms server.
 
-After the bundle is imported, you can select the metadata in the Assign Task step and use it an email template. 
+After the bundle is imported, you can select the metadata in the Assign Task step and use it an email template.

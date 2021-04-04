@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 03619a67-d1ea-4b80-b1a6-0c65a9e9212f
 role: Administrator
+exl-id: 260e405e-f59c-4aea-b83f-53ee103df94e
 ---
-
 # Configuring AEM Forms to submit form data to an AEM Forms on JEE process {#configuring-aem-forms-to-submit-form-data-to-an-aem-forms-on-jee-process}
 
 Adaptive forms supports submitting data to an AEM Forms on JEE process for further processing. It allows you to trigger an AEM Forms on JEE process with the data available from the submitted form. Perform the following steps to enable your AEM Forms instance to submit an adaptive form to AEM Forms on JEE process:

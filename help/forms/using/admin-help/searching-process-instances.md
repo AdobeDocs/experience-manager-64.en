@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 88b634bb-8f6c-4830-ad01-821668609615
+exl-id: 25a01630-47ec-4823-ad11-9a636697f3dc
 ---
-
 # Searching for process instances{#searching-for-process-instances}
 
 Use the Process Search page to enter search criteria for finding a process instance. You can access the Process Search page from the forms workflow page or by clicking Search on the Process Instance page.

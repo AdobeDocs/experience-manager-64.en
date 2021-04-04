@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 8cd6480f-cb4f-40dd-a444-8ba463b78604
+exl-id: 8b1ff508-83e1-4b70-9210-e3efb049af95
 ---
-
 # Configuring Adobe Target Cloud Service {#configuring-adobe-target-cloud-service}
 
 >[!NOTE]
@@ -99,4 +99,4 @@ When content is staged via the Adobe Mobile Dashboard, staged content is conside
 
 ## Creating Content {#creating-content}
 
-Now that the cloud services have been created and the mobileappoffers handler has been configured, content authors can now start generating targeted experiences. 
+Now that the cloud services have been created and the mobileappoffers handler has been configured, content authors can now start generating targeted experiences.

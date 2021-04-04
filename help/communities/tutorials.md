@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: a420b0b1-65f4-4103-a7c9-263657c7870f
+exl-id: 4e5c63af-78f1-4005-8dc1-2b30cb0b6c5a
 ---
-
 # Tutorials {#tutorials}
 
 These are examples to help in learning and working with AEM 6.1 Communities [social component framework (SCF)](scf.md).

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 7d423dff-8710-4f43-ad55-8863169946e2
+exl-id: 9b4ed16f-3c7c-478a-a897-9b4be086988b
 ---
-
 # Clientlibs for Communities Components {#clientlibs-for-communities-components}
 
 ## Introduction {#introduction}
@@ -86,4 +86,3 @@ To add a clientlib for a community site using [CRXDE Lite](../../help/sites-deve
 Using the [Getting Started with AEM Communities](getting-started.md) example, where `site-name` is *engage*, this is how the clientliblist would appear if adding the reviews component:
 
 ![chlimage_1-247](assets/chlimage_1-247.png)
-

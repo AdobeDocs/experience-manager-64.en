@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 75ee94f7-e939-409b-b8cb-8fdc3f79bb63
 feature: Adaptive Forms
+exl-id: 969b0c11-adc7-476e-8c82-d444fccba984
 ---
-
 # Create an adaptive form using a set of adaptive forms {#create-an-adaptive-form-using-a-set-of-adaptive-forms}
 
 ## Overview {#overview}
@@ -142,4 +142,3 @@ Perform the following steps to add an adaptive form as a child form using asset 
 
 1. Drag-drop the adaptive form you want to add as a child form. 
     [ ![Drag-drop the adaptive form in your site](assets/drag-drop.png)](assets/drag-drop-1.png)The adaptive form you drop is added as a child form.
-

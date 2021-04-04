@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 88dbfd34-1f8d-47a2-893d-20faf1a80f95
+exl-id: 654387e3-d837-4bde-a9e4-962862ad69e9
 ---
-
 # Connecting to Adobe Analytics and Creating Frameworks{#connecting-to-adobe-analytics-and-creating-frameworks}
 
 To track web data from your AEM pages in Adobe Analytics, create a Adobe Analytics Cloud Services configuration and a Adobe Analytics framework:
@@ -212,5 +212,4 @@ When editing an Adobe Analytics configuration, you also need to press the **Edit
 
 To delete an Adobe Analytics framework, first [open it for editing](#editing-adobe-analytics-configurations-and-or-frameworks).
 
-Then select **Delete Framework** from the **Page** tab of the sidekick.  
-
+Then select **Delete Framework** from the **Page** tab of the sidekick.

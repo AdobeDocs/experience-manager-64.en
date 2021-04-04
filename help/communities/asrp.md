@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 86349e4d-29ff-4baa-9fcd-c0ab1f0753e9
 role: Administrator
+exl-id: 136c0913-c8b8-451d-bb28-3c3285c172a1
 ---
-
 # ASRP - Adobe Storage Resource Provider {#asrp-adobe-storage-resource-provider}
 
 ## About ASRP {#about-asrp}
@@ -156,4 +156,3 @@ On all author and publish AEM instances, revisit the Storage Configuration conso
 
     * Does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
     * If the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define ASRP to be the default provider
-

@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 968c2574-ec9a-45ca-9c64-66f4caeec285
+exl-id: 5bbb51d8-db91-458a-bfdd-e3f874ef1723
 ---
-
 # Configuring SSL for WebLogic Server {#configuring-ssl-for-weblogic-server}
 
 To configure SSL on WebLogic Server, you need an SSL credential for authentication. You can use Java keytool to perform the following tasks to create a credential:
@@ -206,4 +206,3 @@ Configure WebLogic so that it uses the Custom Identity keystore and Custom Trust
 
 1. Under Change Center, click Lock & Edit to modify selections and values. 
 1. Restart the application server.
-

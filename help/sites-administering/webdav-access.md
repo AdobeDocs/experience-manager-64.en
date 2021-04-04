@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 1eaf7afe-a181-45df-8766-bd564b1ad22a
+exl-id: 969dc933-6a23-4213-81f5-cd7e7dae0f64
 ---
-
 # WebDAV Access{#webdav-access}
 
 To connect to AEM via WebDAV with KDE:

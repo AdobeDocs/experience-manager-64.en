@@ -2,8 +2,8 @@
 title: Configure the Rich Text Editor
 description: Learn to configure the AEM Rich Text Editor.
 contentOwner: AG
+exl-id: 2d5e9ada-1567-43dc-ab19-6891e20e1d0b
 ---
-
 # Configure the Rich Text Editor {#configure-the-rich-text-editor}
 
 The Rich Text Editor (RTE) provides authors with a wide range of functionality for editing their text content. Icons, selection boxes, toolbar, and menus are provided for a WYSIWYG text-editing experience.

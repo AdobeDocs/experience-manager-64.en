@@ -9,8 +9,8 @@ topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: eaf65bdd-9091-4985-90bd-5eb2148965e3
+exl-id: 43b11355-ee21-421c-8809-cd8a0443a03a
 ---
-
 # Content Fragments - Delete Considerations {#content-fragments-delete-considerations}
 
 >[!CAUTION]
@@ -90,4 +90,3 @@ The `add` and `modify` privileges can also be administered in CRXDE Lite, or usi
 For example, the definition of the `remove` privileges for a group `content-authors-no-delete`:
 
 ![cf-delete-03](assets/cf-delete-03.png)
-

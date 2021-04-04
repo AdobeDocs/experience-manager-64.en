@@ -4,8 +4,8 @@ description: Describes the recording capabilities of AEM and how to configure AE
 contentOwner: AG
 feature: Asset Management
 role: Developer
+exl-id: c25a4da7-1c58-41cf-9ff6-c094b50208e6
 ---
-
 # Integrating Assets with Activity Stream {#integrating-assets-with-activity-stream}
 
 Adobe Experience Manager (AEM) Assets users perform many actions like creating, uploading and deleting Assets. These actions can be recorded so you are able to provide an history of what has been done by a user. This section describes the recording capabilities of AEM and how to configure AEM in order to record specific events.
@@ -52,4 +52,4 @@ The [Web console](/help/sites-deploying/configuring-osgi.md) provides access to 
 
 ## Reading recorded events {#reading-recorded-events}
 
-The recorded events are stored as activities. You can read them programmatically by using the [ActivityManager API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ActivityManager.html).  
+The recorded events are stored as activities. You can read them programmatically by using the [ActivityManager API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ActivityManager.html).

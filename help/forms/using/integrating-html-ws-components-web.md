@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 6be87939-007e-42c7-8a41-e34ac2b8bed4
+exl-id: 4e3ed3c8-ef77-432e-ad4d-7d341787cc5c
 ---
-
 # Integrating AEM Forms workspace components in web applications {#integrating-aem-forms-workspace-components-in-web-applications}
 
 You can use AEM Forms workspace [components](/help/forms/using/description-reusable-components.md) in your own web application. The following sample implementation uses components from an AEM Forms workspace dev package installed on a CRX™ instance to create a web application. Customize the solution below to suit your specific needs. The sample implementation reuses `UserInfo`, `FilterList`, and `TaskList`components inside a web portal.

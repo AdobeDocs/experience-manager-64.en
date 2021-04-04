@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 6e913190-be92-4862-a8b9-517f8bde0044
+exl-id: 0b263211-6cfd-4b4c-bfa5-e36f5e06c861
 ---
-
 # AEM Core Concepts {#aem-core-concepts}
 
 >[!NOTE]
@@ -469,4 +469,4 @@ For example, web sites are often provided in multiple languages for internationa
     * Maintain a common look and feel.
     * Focus efforts on managing the content that differs between the sites.
 
-For more information, see [Multi Site Manager](/help/sites-administering/msm.md).  
+For more information, see [Multi Site Manager](/help/sites-administering/msm.md).

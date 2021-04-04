@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 244cd43c-a573-495d-b80c-b97ba9d19b75
+exl-id: 022043cd-35ed-49b1-b5b4-5cc92d29cef4
 ---
-
 # Coding Guidelines {#coding-guidelines}
 
 ## Guidelines, Tips and Tricks {#guidelines-tips-and-tricks}
@@ -36,4 +36,3 @@ Following are various coding guidelines and best practices for AEM Communities d
 
 * [Using Maven for Communities](maven.md) - how to include the Communities API jar.
 * [SocialUtils Refactoring](socialutils.md) - utility methods for SRP that replace SocialUtils.
-

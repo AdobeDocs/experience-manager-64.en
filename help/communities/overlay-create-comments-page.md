@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: b3cb8f12-197e-4f5e-bd7d-70b55e76b0ca
+exl-id: d975c32f-77c7-4203-b828-41f492adcfa2
 ---
-
 # Create Comments Page {#create-comments-page}
 
 **[⇐ Overlay Comments Component](overlay-comments.md) [Create Nodes ⇒](overlay-create-nodes.md)**

@@ -8,8 +8,8 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: 672d5b1e-6b2f-4afe-ab04-c398e5ef45d5
+exl-id: d826375d-0ce6-49fc-b264-bac39882983d
 ---
-
 # Rendering and Delivery{#rendering-and-delivery}
 
 >[!NOTE]
@@ -225,4 +225,3 @@ See the resources below to learn about additional topics in Content Services:
 * [Developing Models](/help/mobile/administer-mobile-apps.md)
 * [Authoring Content Services](/help/mobile/develop-content-as-a-service.md)
 * [Administering Content Services](/help/mobile/developing-content-services.md)
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 1f920892-c52e-42ca-900c-2c7ab3c503b3
+exl-id: d9730cb5-e969-4b18-bf1f-6a0ef13f6fac
 ---
-
 # Product Feed{#product-feed}
 
 AEM integrates with [Search&Promote](https://www.adobe.com/solutions/testing-targeting/searchandpromote.html) and allows you to:

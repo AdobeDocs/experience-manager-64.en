@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: a2bd7045-970f-4245-ad5d-a272a654df0a
+exl-id: 71dfaea7-2fae-4feb-bb1d-ad0da573f910
 ---
-
 # Closed User Groups in AEM{#closed-user-groups-in-aem}
 
 ## Introduction {#introduction}
@@ -875,4 +875,3 @@ Adobe provides a tool for migrating to the new CUG implementation. In order to u
 >[!NOTE]
 >
 >If you run into issues, it is possible to set up a specific logger at **DEBUG** level on `com.day.cq.auth.impl.cug` to get the output of the migration tool. See [Logging](/help/sites-deploying/configure-logging.md) for more information on how to do this.
-

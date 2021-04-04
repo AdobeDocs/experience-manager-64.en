@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 28549db2-e2f2-4a25-b0b1-785237d9d941
 role: Administrator
+exl-id: d10bc3e9-66a6-4cb2-b484-da338259f1c8
 ---
-
 # Manage form metadata {#manage-form-metadata}
 
 ## Overview&nbsp; {#overview-nbsp}

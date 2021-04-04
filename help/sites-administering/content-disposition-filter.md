@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: Security
 discoiquuid: badfaa18-472e-4777-a7dc-9c28441b38b7
+exl-id: bb022f6b-938b-4421-8860-4c22aecf5b85
 ---
-
 # Content Disposition Filter{#content-disposition-filter}
 
 Content disposition filter is a security feature against XSS attacks on SVG files.
@@ -28,4 +28,3 @@ The Content Disposition Filter options provide the following functionality:
 * Excluded Resource Paths: a list fo excluded resources, each resource path must be given as absolute and fully qualified path. Prefix matching/wildcards are not supported.
 
 * Enable For All Resource Paths: this flag controls whether to enable this filter for all paths, except for the excluded paths defined by Excluded Resource Paths. Setting this to 'true' leads to ignoring Content Disposition Paths. Independent of the configuration only resource paths are covered which contain a property named 'jcr:data' or 'jcr:content jcr:data'.
-

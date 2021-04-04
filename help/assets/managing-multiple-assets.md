@@ -4,8 +4,8 @@ description: Learn how to edit the metadata of many assets and collections simul
 contentOwner: AG
 feature: Asset Management,Metadata,Collections
 role: Business Practitioner
+exl-id: 3541b50a-f226-4a6a-9c2a-03a5f47f1c23
 ---
-
 # Manage multiple assets and collections {#managing-multiple-assets-and-collections}
 
 Learn how to edit the metadata of multiple assets and collections simultaneously to quickly propagate common metadata changes.

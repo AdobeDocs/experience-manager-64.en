@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 266634ab-21d3-4aac-acfa-b799a7485507
+exl-id: ba65e853-d69a-4341-93c3-5628c60c403b
 ---
-
 # Known Issues {#known-issues}
 
 This page keeps a list of known issues Adobe Experience Manager 6.4 released on April 2018. For more information about known issues, [contact support](https://helpx.adobe.com/support/experience-manager.html).

@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 72fe5749-2fa2-442f-b679-7889faeafcac
+exl-id: 9eabafbe-2193-4799-9bdd-c2be42ead0b9
 ---
-
 # Importing and exporting global settings {#importing-and-exporting-global-settings}
 
 You can import and export search template definitions and global settings for Workspace.

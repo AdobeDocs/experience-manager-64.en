@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9c55feb9-23d8-4798-a3c5-70ec736df3ad
+exl-id: 546a699e-975f-42a1-8ab5-0de4bd7f4a8f
 ---
-
 # Configuring Task Manager endpoints {#configuring-task-manager-endpoints}
 
 Task Manager endpoints enable Workspace users to invoke the service.

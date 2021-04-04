@@ -5,8 +5,8 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
+exl-id: ebe30c07-1d76-4338-b301-49591f981688
 ---
-
 # Publishing Dynamic Media Assets {#publishing-dynamic-media-assets}
 
 You publish your Dynamic Media assets by selecting the assets and tapping **[!UICONTROL Publish]**. After your dynamic media assets are published, they are available to you for including in a web page via URL or by way of embedding.

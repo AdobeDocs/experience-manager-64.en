@@ -8,8 +8,8 @@ contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 40c0a17b-6894-44cc-b1f7-490913061532
 feature: Interactive Communication
+exl-id: 5822145f-d317-4807-a3f0-1d2aea0a779b
 ---
-
 # Tutorial: Create templates {#tutorial-create-templates}
 
 Create Print and Web templates for Interactive Communication
@@ -268,4 +268,3 @@ Based on the use case, you must include the **Pay Now** and **Subscribe** button
    ![allowed_components_af](assets/allowed_components_af.png)
 
 1. Tap ![done_icon](assets/done_icon.png) to save the properties.
-

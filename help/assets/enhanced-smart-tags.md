@@ -8,8 +8,8 @@ topic-tags: authoring
 discoiquuid: c1b52aac-1eaf-4cfa-801f-77aeca0d90ea
 feature: Smart Tags,Search
 role: Business Practitioner
+exl-id: 21a9f130-ea91-45bf-adc8-8a73a2a00c77
 ---
-
 # Enhanced Smart Tags {#enhanced-smart-tags}
 
 ## Overview of Enhanced Smart Tags {#overview-of-enhanced-smart-tags}

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 300aa9f3-596f-42bc-8d46-e535f2bc4379
+exl-id: 9092df98-f600-4ed8-93d8-f2e83cd8bb6a
 ---
-
 # Search Essentials {#search-essentials}
 
 ## Overview {#overview}
@@ -229,4 +229,3 @@ The value of the `q` parameter is the query. Once the URL encoding is decoded, t
 * [Accessing UGC with SRP](accessing-ugc-with-srp.md) - Coding guidelines
 * [SocialUtils Refactoring](socialutils.md) - Utility methods for SRP that replace SocialUtils
 * [Search and Search Results components](search.md) - Adding UGC search feature to a template
-

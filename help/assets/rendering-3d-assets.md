@@ -9,8 +9,8 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 5b044519-d034-4f05-98c5-f1b299a3ea37
+exl-id: 3eecec53-0b39-4783-8730-f08705183941
 ---
-
 # Rendering 3D assets {#rendering-d-assets}
 
 You can render 3D assets you have manipulated and saved in AEM to create 2D images for use on your web content pages.
@@ -83,4 +83,3 @@ Conversion, processing, and render jobs are queued on the server as needed to pr
 1. Tap **[!UICONTROL Start Render]** to begin the rendering process.
 
    A message is temporarily displayed to indicate that rendering has started. For convenience, this message also includes a link to the selected Output Folder so you can navigate to it directly.
-

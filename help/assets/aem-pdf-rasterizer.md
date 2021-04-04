@@ -4,8 +4,8 @@ description: Generate high-quality thumbnails and renditions using the Adobe PDF
 contentOwner: AG
 feature: Developer Tools,Renditions
 role: Developer,Administrator
+exl-id: 7d78fba9-16df-44e0-aae6-83f65e8d2bbd
 ---
-
 # Use PDF Rasterizer {#using-pdf-rasterizer}
 
 When you upload large, content-intensive PDF or AI files to [!DNL Adobe Experience Manager Assets], the default library may not generate an accurate output. Adobe's PDF Rasterizer library can generate a more reliable and accurate output when compared to the output from a default library. Adobe recommends using the PDF Rasterizer library for the following scenarios:

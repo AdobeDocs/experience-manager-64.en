@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 487e3966-443a-408e-b5af-899fcba6fca6
+exl-id: bd7ec9d6-b1d2-4f01-8cef-05e5e1eceda1
 ---
-
 # Changing the font on the interface {#changing-the-font-on-the-interface}
 
 You can change the font displayed in AEM Forms workspace. Fonts used in a specific section of the user interface are defined in the corresponding section of the style sheet. You can change the fonts on the user interface selectively.
