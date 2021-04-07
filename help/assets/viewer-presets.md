@@ -6,6 +6,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 exl-id: 7cd62a2f-f7c9-40b1-bcd4-5853dadabf1b
+feature: Viewer Presets
+role: Business Practitioner
 ---
 # Applying Dynamic Media viewer presets {#applying-viewer-presets}
 

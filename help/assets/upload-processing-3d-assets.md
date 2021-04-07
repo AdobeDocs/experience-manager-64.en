@@ -10,6 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: a0319701-21eb-4b7f-8b2e-ac81a7a75875
 exl-id: 4b8b0247-0978-40b5-92e2-319cfa44b34e
+feature: 3D Assets
+role: Business Practitioner
 ---
 # About the uploading and processing of 3D assets in AEM {#about-the-uploading-and-processing-of-d-assets-in-aem}
 

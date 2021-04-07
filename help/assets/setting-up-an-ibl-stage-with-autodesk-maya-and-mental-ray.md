@@ -10,6 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 752e521f-198f-425a-abfa-051993f9c694
 exl-id: ecb489e2-fd6f-4163-9739-5d7ff497d305
+feature: 3D Assets
+role: Administrator,Business Practitioner
 ---
 # Setting up an IBL stage with Autodesk Maya and Mental Ray {#setting-up-an-ibl-stage-with-autodesk-maya-and-mental-ray}
 

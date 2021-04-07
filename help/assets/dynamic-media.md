@@ -10,6 +10,8 @@ topic-tags: introduction
 content-type: reference
 discoiquuid: a8063d43-923a-42ac-9a16-0c7fadd8f73f
 exl-id: f8a3936e-82b5-46c7-9614-b97162e27d6a
+feature: Asset Management,Renditions
+role: Administrator,Business Practitioner
 ---
 # Working with Dynamic Media {#working-with-dynamic-media}
 

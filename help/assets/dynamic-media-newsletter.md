@@ -6,6 +6,8 @@ seo-title: Adobe Dynamic Media Newsletter
 solution: Dynamic Media Classic
 title: Dynamic Media Newsletter
 exl-id: aa02c811-0296-4a02-b745-e70aeb9d1e97
+feature: Collaboration,Dynamic Media Classic
+role: Administrator,Business Practitioner
 ---
 # ![Dynamic Media Newsletter logo](/help/assets/assets/dynamic-media-newsletter-logo.png)
 

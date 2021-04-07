@@ -6,6 +6,8 @@ topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 exl-id: 51150d51-865e-4b8e-9990-ca755e4c7778
+feature: Panoramic Images
+role: Business Practitioner
 ---
 # Panoramic Images {#panoramic-images}
 

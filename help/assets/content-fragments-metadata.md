@@ -10,6 +10,8 @@ topic-tags: content-fragments
 content-type: reference
 discoiquuid: 96cf7c92-af98-417f-ab60-b368e3846ef8
 exl-id: 0123fb44-9f38-4d9e-9dce-7c9cfd4260e1
+feature: Content Fragments,Metadata
+role: Business Practitioner
 ---
 # Metadata - Fragment Properties {#metadata-fragment-properties}
 
