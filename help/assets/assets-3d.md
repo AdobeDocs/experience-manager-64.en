@@ -7,7 +7,7 @@ topic-tags: introduction
 content-type: reference
 exl-id: 3cee9b4f-c4be-4ffc-970c-5680c8ebba47
 feature: 3D Assets
-role: "Administrator,Business Practitioner"
+role: Administrator,Business Practitioner
 ---
 # Working with AEM 3D assets {#working-with-d-assets}
 

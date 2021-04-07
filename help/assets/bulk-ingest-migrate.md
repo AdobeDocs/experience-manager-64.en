@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 6198e613-a867-49a8-b9a5-a05e7889821c
 exl-id: f9bb59f6-39a5-4804-8abe-12783d4162c9
 feature: Configuration
-role: "Administrator,Business Practitioner"
+role: Administrator,Business Practitioner
 ---
 # Installing feature pack 18912 for bulk asset migration {#installing-feature-pack}
 

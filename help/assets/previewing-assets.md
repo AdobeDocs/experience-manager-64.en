@@ -10,7 +10,7 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 77296bff-8429-4240-af93-26076ae431ec
 exl-id: ec05569a-6449-4430-9b9f-7ab051f44970
-feature: "Asset Management,Renditions"
+feature: Asset Management,Renditions
 role: Business Practitioner
 ---
 # Previewing Dynamic Media assets {#previewing-assets}

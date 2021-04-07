@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: e43fd002-2954-4ef1-ac2b-e8d45afa75be
 exl-id: fdc82bca-e676-4052-b3e9-a198c685df96
 feature: 3D Assets
-role: "Administrator,Business Practitioner"
+role: Administrator,Business Practitioner
 ---
 # Advanced configuration settings {#advanced-configuration-settings}
 

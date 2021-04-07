@@ -10,8 +10,8 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: e6c9b50b-c27c-48bf-b3c0-9994e7bf6d7e
 exl-id: 335c7a78-a00f-451b-8e53-225830d429c6
-feature: "Asset Management,CDN Cache"
-role: "Administrator,Business Practitioner,Developer"
+feature: Asset Management,CDN Cache
+role: Administrator,Business Practitioner,Developer
 ---
 # Invalidating your CDN cached content {#invalidating-your-cdn-cached-content}
 
