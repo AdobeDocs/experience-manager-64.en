@@ -10,6 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 9017ab55-6d4a-4306-922f-223ab1b2504b
 exl-id: bf87b470-08c8-44b4-95d9-1251586b0610
+feature: 3D Assets
+role: Business Practitioner
 ---
 # Working with the 3D Sites component {#working-with-the-d-sites-component}
 

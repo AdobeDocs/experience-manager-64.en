@@ -10,6 +10,8 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: d630499d-740d-4979-8a34-9e3fcc3b5a23
 exl-id: 4d3299e2-269b-4a41-a979-c884c707666d
+feature: Interactive Images
+role: Business Practitioner
 ---
 # Interactive Images {#interactive-images}
 

@@ -10,6 +10,8 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 4bcab3f4-500f-432e-b16b-cdc26b9bab4d
 exl-id: 56b070e4-b445-4488-acff-685b7ce5785f
+feature: Configuration
+role: Administrator,Business Practitioner,Developer
 ---
 # Using Quickviews to create custom pop-ups {#using-quickviews-to-create-custom-pop-ups}
 

@@ -10,6 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 05b7410b-82a1-4267-ac07-2edbc29e9ee8
 exl-id: 088d32a8-a47e-4ae6-a171-8d327d3dac64
+feature: 3D Assets
+role: Business Practitioner
 ---
 # Resolving file dependencies {#resolving-file-dependencies}
 

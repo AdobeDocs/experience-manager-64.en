@@ -10,6 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: eaf65bdd-9091-4985-90bd-5eb2148965e3
 exl-id: 43b11355-ee21-421c-8809-cd8a0443a03a
+feature: Content Fragments
+role: Business Practitioner
 ---
 # Content Fragments - Delete Considerations {#content-fragments-delete-considerations}
 

@@ -6,6 +6,8 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 exl-id: 71f89564-a413-49f6-8d6e-c5305bf92c75
+feature: 3D Assets
+role: Business Practitioner
 ---
 # Viewing 3D assets {#viewing-d-assets}
 

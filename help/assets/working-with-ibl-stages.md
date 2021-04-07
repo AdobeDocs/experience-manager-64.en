@@ -10,6 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 658ff671-16b9-41bd-ba24-b77a32b3346b
 exl-id: 074ab20f-02df-4f9e-9512-93a76f5d234f
+feature: 3D Assets
+role: Business Practitioner
 ---
 # About working with IBL stages {#about-working-with-ibl-stages}
 
