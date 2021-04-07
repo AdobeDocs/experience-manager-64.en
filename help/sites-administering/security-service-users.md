@@ -1,7 +1,7 @@
 ---
 title: Service Users in AEM
 seo-title: Service Users in AEM
-description: Learn about Service Users in AEM.
+description: Learn about Service Users in AEM.Security""
 seo-description: Learn about Service Users in AEM.
 uuid: 4efab5fb-ba11-4922-bd68-43ccde4eb355
 contentOwner: User

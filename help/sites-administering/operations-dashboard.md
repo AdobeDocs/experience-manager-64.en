@@ -1,7 +1,7 @@
 ---
 title: Operations Dashboard
 seo-title: Operations Dashboard
-description: Learn how to use the Operations Dashboard.
+description: Learn how to use the Operations Dashboard.Operations
 seo-description: Learn how to use the Operations Dashboard.
 uuid: f1a6dcdc-307b-45f4-ade5-cedc58f0c7cf
 contentOwner: Guillaume Carlino

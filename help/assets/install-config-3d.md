@@ -10,6 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 5898d084-4b45-41bc-ad2e-2fcc65b0392c
 exl-id: 5baaef61-5c70-4796-8ae2-44053e855ad9
+feature: 3D Assets
+role: "Administrator,Business Practitioner"
 ---
 # Installing and configuring AEM 3D {#installing-and-configuring-aem-d}
 

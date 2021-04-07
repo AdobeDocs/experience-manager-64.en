@@ -6,6 +6,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: Dynamic-Media
 content-type: reference
 exl-id: acb95a2b-0171-449e-97fa-f9a533f990de
+feature: Video
+role: Business Practitioner
 ---
 # Video {#video}
 

@@ -10,6 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 3d063268-17d7-4db6-8028-682537645377
 exl-id: 52ecbf81-0953-4c44-bc2c-d40e507b8d98
+feature: 3D Assets
+role: "Administrator,Business Practitioner"
 ---
 # Integrating AEM 3D with Autodesk Maya {#integrating-aem-d-with-autodesk-maya}
 

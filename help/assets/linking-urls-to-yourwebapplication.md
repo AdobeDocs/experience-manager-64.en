@@ -10,6 +10,8 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: d12e6ea3-aaf4-4672-9679-3c16c76d7d5b
 exl-id: e076349d-8b1a-487f-b982-9440d7de13b9
+feature: Configuration
+role: Business Practitioner
 ---
 # Linking URLs to your Web Application {#linking-urls-to-your-web-application}
 

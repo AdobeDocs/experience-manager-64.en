@@ -6,6 +6,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 exl-id: a87c7562-0d61-403e-9e8e-e706cac9b7c5
+feature: Asset Management
+role: "Administrator,Business Practitioner"
 ---
 # About managing Dynamic Media assets {#managing-assets}
 

@@ -10,6 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: bf8c6bbd-847d-43d7-9ff4-7231bfd8d107
 exl-id: 2f24c4bc-8071-4403-b959-00db0f08db34
+feature: Smart Services
+role: Business Practitioner
 ---
 # Smart Imaging {#smart-imaging}
 

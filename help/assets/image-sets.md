@@ -10,6 +10,8 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: e00e7cc9-b777-4f9e-906d-824bcb2bbd41
 exl-id: af3f95aa-a162-4212-a20a-68b5a0e72d6d
+feature: Image Sets
+role: Business Practitioner
 ---
 # Image Sets {#image-sets}
 

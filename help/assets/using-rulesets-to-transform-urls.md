@@ -6,6 +6,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 exl-id: f0cd3a75-03ed-40a9-b336-8a782f3cfe69
+feature: Rulesets
+role: "Administrator,Business Practitioner,Developer"
 ---
 # Using rule sets to transform URLs {#using-rulesets-to-transform-urls}
 

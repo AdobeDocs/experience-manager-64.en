@@ -10,6 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 5b044519-d034-4f05-98c5-f1b299a3ea37
 exl-id: 3eecec53-0b39-4783-8730-f08705183941
+feature: 3D Assets
+role: Business Practitioner
 ---
 # Rendering 3D assets {#rendering-d-assets}
 

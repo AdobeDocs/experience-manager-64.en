@@ -10,6 +10,8 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: c8e145ad-f021-4043-8190-62151775e296
 exl-id: 59cd9f8c-6d01-448d-bf57-bdc9fd2e381b
+feature: Asset Management
+role: "Administrator,Business Practitioner"
 ---
 # HTTP2 Delivery of Content {#http-delivery-of-content}
 
