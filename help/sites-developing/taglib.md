@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 6678e3c3-fb0f-4300-8838-38f23f14db07
+exl-id: 24d53784-5915-4638-ab2b-26f897cca13b
 ---
-
 # Tag Libraries{#tag-libraries}
 
 The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components.

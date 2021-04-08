@@ -10,8 +10,8 @@ topic-tags: configuring
 content-type: reference
 discoiquuid: de6ed870-0e69-4d16-99e4-037dd5acf413
 feature: Configuring
+exl-id: a59a4d3e-dc21-4e14-b132-6ed369e674de
 ---
-
 # Monitoring and Maintaining Your AEM instance{#monitoring-and-maintaining-your-aem-instance}
 
 After your AEM instances have been deployed certain tasks will be needed to monitor and maintain their operation, performance and integrity.
@@ -1170,4 +1170,3 @@ This will help you see how much memory is being used, what GC algorithms are bei
 >For Oracle's VM there is also information at:
 >
 >[https://docs.oracle.com/javase/7/docs/technotes/guides/vm/server-class.html](https://docs.oracle.com/javase/7/docs/technotes/guides/vm/server-class.html)
-

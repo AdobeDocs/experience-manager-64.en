@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 8c399a27-abdb-41fb-bd76-f30d22f1d68f
+exl-id: fdf1aba8-17fa-473a-9c32-7189d0628927
 ---
-
 # Content Fragment Templates{#content-fragment-templates}
 
 >[!CAUTION]
@@ -243,4 +243,3 @@ More details about the nodes and their properties are:
   </tr> 
  </tbody> 
 </table>
-

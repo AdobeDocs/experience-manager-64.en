@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 0798ae5c-e06e-425f-ba8a-9309eb233083
+exl-id: 22110676-c102-4730-ab38-45396b15a274
 ---
-
 # Monitoring Server Resources Using the JMX Console{#monitoring-server-resources-using-the-jmx-console}
 
 The JMX Console enables you to monitor and manage services on the CRX server. The sections that follow summarize the attributes and operations that are exposed through the JMX framework.
@@ -942,4 +942,3 @@ In order to access CRX's internal monitoring and configuration options, go to th
 Within that section, select the desired attribute or operation in the left pane.
 
 ![screen_shot_2012-03-26at115728am](assets/screen_shot_2012-03-26at115728am.png)
-

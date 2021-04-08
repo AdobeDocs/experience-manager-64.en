@@ -10,8 +10,8 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: cb043066-aefc-4b68-b302-2b5dd710a786
 feature: Commerce Integration Framework
+exl-id: d84cd0ec-4586-45c1-a07a-a4d50fcbb629
 ---
-
 # eCommerce Overview{#ecommerce-overview}
 
 AEM generic eCommerce is available as part of a standard installation and provides you with the full functionality of the eCommerce framework.
@@ -41,4 +41,3 @@ Adobe provides two versions of the Commerce Integration Framework:
 >For information about concepts and administering eCommerce implementations, see [Administering eCommerce](/help/sites-administering/ecommerce.md).
 >
 >For information about extending eCommerce capabilities, see [Developing eCommerce](/help/sites-developing/ecommerce.md).
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 482b5eb0-1b15-4f10-a9d8-3b72dd74acf8
+exl-id: e1422581-143b-4fce-976e-e5aa3360e2d0
 ---
-
 # Touch UI Feature Status {#touch-ui-feature-status}
 
 >[!CAUTION]
@@ -653,4 +653,3 @@ This is a list of various tools the classic UI have and the status in the touch-
   </tr>
  </tbody>
 </table>
-

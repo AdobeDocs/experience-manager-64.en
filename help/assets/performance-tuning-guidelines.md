@@ -4,8 +4,8 @@ description: Key focus areas around AEM configuration, changes to hardware, soft
 contentOwner: AG
 feature: Asset Management
 role: Architect,Administrator
+exl-id: 6c1bff46-f9e0-4638-9374-a9e820d30534
 ---
-
 # Assets performance tuning guide {#assets-performance-tuning-guide}
 
 An Adobe Experience Manager (AEM) Assets setup contains a number of hardware, software, and network components. Depending upon your deployment scenario, you may require specific configuration changes to hardware, software, and network components to remove performance bottlenecks.

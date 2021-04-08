@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: f7f19679-cfc2-4ac0-9a26-685fad09276f
 role: Administrator
+exl-id: c6e5c19a-9d93-470f-916e-7ef06c3de141
 ---
-
 # Searching for forms and assets {#searching-for-forms-and-assets}
 
 You can search for your forms or form assets, using a text string or text string along with wildcards. You can also narrow your search using the criteria available in various categories in the Search panel.

@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 83ca522e-d16e-4196-9aa7-84f85de8dee2
 feature: Document Security
+exl-id: aa32050e-fe52-4823-b826-66ea06e1a6bf
 ---
-
 # Reader extending policy-protected PDF documents using Portable Protection Library {#reader-extending-policy-protected-pdf-documents-using-portable-protection-library}
 
 You must be familiar with concepts of document security, reader extension, and Java Programming language to reader-extend the document security policy-protected PDF documents.
@@ -184,4 +184,3 @@ outputStream.close();
 inputFileStream.close();
 
 ```
-

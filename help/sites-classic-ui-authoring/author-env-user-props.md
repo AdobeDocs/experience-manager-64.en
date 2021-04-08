@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: a91fd37e-5975-4572-a4b3-c7e8993d5f88
+exl-id: 6a7de639-9c87-4e7c-b431-e48c9cdc7982
 ---
-
 # Configuring your account environment{#configuring-your-account-environment}
 
 AEM provides you with the capability to configure your account and certain aspects of the author environment.
@@ -56,4 +56,3 @@ Each user can set certain properties for themselves. This is available from **Pr
 The dialog offers the following options:
 
 ![chlimage_1-171](assets/chlimage_1-171.png)
-

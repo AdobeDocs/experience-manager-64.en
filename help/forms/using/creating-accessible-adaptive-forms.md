@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 96d9ad52-074b-4084-b818-abce79282776
 feature: Adaptive Forms
+exl-id: adad26fa-b27a-4bd7-806c-4ddfbaae7a37
 ---
-
 # Creating accessible adaptive forms {#creating-accessible-adaptive-forms}
 
 ## Introduction {#introduction}

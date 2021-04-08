@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4194278f-5127-4105-b181-60961c7a1def
 role: Administrator
+exl-id: b6aa9d73-4e20-446a-a1fc-78f8968d6844
 ---
-
 # Badges Console {#badges-console}
 
 ## About Badges {#about-badges}

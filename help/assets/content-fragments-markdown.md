@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: bde54663-9050-4a5a-93cb-7cd84ac7f071
+exl-id: 209f0e02-b883-4104-8358-01cab15e5db2
+feature: Content Fragments
+role: Business Practitioner
 ---
-
 # Markdown {#markdown}
 
 >[!CAUTION]
@@ -212,4 +214,3 @@ Backslash escapes are available for the following characters:
 &nbsp;&nbsp;&nbsp;&nbsp;` - minus sign (hyphen)`
 
 &nbsp;&nbsp;&nbsp;&nbsp;` . dot`
-

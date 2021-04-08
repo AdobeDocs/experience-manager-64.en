@@ -4,8 +4,8 @@ description: Asynchronously complete some resource-intensive tasks to optimize p
 contentOwner: AG
 feature: Asset Management
 role: Business Practitioner
+exl-id: 0abdfe87-d932-41dd-b1e6-9f5fa5b924fe
 ---
-
 # Asynchronous operations {#asynchronous-operations}
 
 To reduce adverse impact on performance, [!DNL Adobe Experience Manger Assets] processes certain long-running and resource-intensive asset operations asynchronously. Asynchronous processing involves enqueuing multiple tasks and eventually executing them in a serial manner subject to the availability of system resources. These operations include:

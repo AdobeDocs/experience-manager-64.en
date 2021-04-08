@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 9a862756-58e8-47c0-a4b4-5d4aaac021e4
 role: Administrator
+exl-id: ac399a66-0f3b-4f95-969e-a4109c260d1d
 ---
-
 # Group Templates {#group-templates}
 
 The Group Templates console is very similar to the [Site Templates](sites.md) console. Both are blueprints for a set of pre-wired pages and features which form a community site. The difference is that a site template is for the main community and a group template is for a community group, a sub-community nested within the main community.

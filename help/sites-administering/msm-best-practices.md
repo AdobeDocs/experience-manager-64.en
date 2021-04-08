@@ -10,8 +10,8 @@ topic-tags: site-features, best-practices
 content-type: reference
 discoiquuid: 04344537-7485-40a9-ad14-804ba448f1e2
 feature: Multi Site Manager
+exl-id: f23a1c62-0191-4b5b-90be-d66d51e38f83
 ---
-
 # MSM Best Practices{#msm-best-practices}
 
 ## General {#general}
@@ -193,4 +193,3 @@ This and the following pages cover the related issues:
 * [Live Copy Overview Console](/help/sites-administering/msm-livecopy-overview.md)
 * [Configuring Live Copy Synchronization](/help/sites-administering/msm-sync.md)
 * [MSM Rollout Conflicts](/help/sites-administering/msm-rollout-conflicts.md)
-

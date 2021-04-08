@@ -5,8 +5,10 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
+exl-id: 252c1a50-17ac-4412-88d6-49bb6850658d
+feature: Mix Media Sets
+role: Business Practitioner
 ---
-
 # Mixed Media Sets {#mixed-media-sets}
 
 Mixed Media Sets let you provide a mix of images, Image Sets, Spin Sets, and videos in one presentation.
@@ -159,4 +161,3 @@ See [Publishing Assets](publishing-dynamicmedia-assets.md) for details on how to
 >[!NOTE]
 >
 >If the Mixed Media Det does not fully end up in the delivery service the first time you publish it, you may need to publish the mixed media set a second time.
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 5e1e0039-670e-4051-9f2a-e88162482467
+exl-id: e3ebab59-a3c7-45b8-b1ea-ff07d63167fd
 ---
-
 # Viewing 3D assets{#viewing-d-assets}
 
 The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
@@ -116,4 +116,3 @@ In addition, the capabilities of the client computer-such as a workstation, note
       See [Rendering 3D assets](/help/sites-classic-ui-authoring/classicui-rendering-3d.md).
   
     * In the upper-right corner of the page, tap **[!UICONTROL Close]** to return to the Assets page.
-

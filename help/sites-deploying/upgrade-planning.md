@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: upgrading
 discoiquuid: 901108a1-c0cb-4680-bc71-6266bcde2775
 feature: Upgrading
+exl-id: a3cf6d27-c99f-43f7-a557-b14e88cc921e
 ---
-
 # Planning Your Upgrade{#planning-your-upgrade}
 
 ## AEM Project Overview {#aem-project-overview}

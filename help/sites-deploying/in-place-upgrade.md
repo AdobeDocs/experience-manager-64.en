@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: upgrading
 discoiquuid: b1bd40f4-21c6-48f5-a41e-42daeaad3687
 feature: Upgrading
+exl-id: 70c5ef98-1004-46d0-b805-9435613ec36b
 ---
-
 # Performing an In-Place Upgrade{#performing-an-in-place-upgrade}
 
 >[!NOTE]

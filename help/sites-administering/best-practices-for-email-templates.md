@@ -5,8 +5,8 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices, integration
+exl-id: a72c0f77-458f-4ea0-b8ca-59e71fef2c5d
 ---
-
 # Best Practices for Email Templates{#best-practices-for-email-templates}
 
 This document describes some of the best practices around email design resulting in a well-developed email campaign template.

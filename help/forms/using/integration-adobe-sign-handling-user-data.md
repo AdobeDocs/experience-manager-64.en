@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e9e0d8fb-955e-4021-9e9a-9c95c6ffe88d
 feature: Adobe Sign
 role: Administrator
+exl-id: c2061de7-8627-4595-b96c-aa2d6abffddd
 ---
-
 # Integration with Adobe Sign | Handling user data {#integration-with-adobe-sign-handling-user-data}
 
 AEM Forms integrates with Adobe Sign to enable e-signature workflows in adaptive forms to process forms or agreements for legal, sales, payroll, human resource management workflows. It allows for single and multiuser signing, sequential and simultaneous signing workflows, signing forms as an anonymous or logged-in user, and multiple ways to authenticate users.

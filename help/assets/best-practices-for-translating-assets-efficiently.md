@@ -4,8 +4,8 @@ description: Best practices for efficient management of assets to synchronize va
 contentOwner: AG
 feature: Translation
 role: Business Practitioner,Administrator
+exl-id: 15162b80-ddef-4ec0-9db6-36695c93ebb1
 ---
-
 # Best practices to translate assets efficiently {#best-practices-for-translating-assets-efficiently}
 
 Adobe Experience Manager (AEM) Assets supports multilingual workflows to translate binaries, metadata, and tags for digital assets into multiple locales and to manage the translated assets. For details, see [Multilingual Assets](multilingual-assets.md).
@@ -41,4 +41,3 @@ You can also make a few configuration changes to a couple of workflows and the t
 
 1. [Configure the translation integration framework](/help/sites-administering/tc-tic.md) to stop translating asset binaries. Unselect the “Translate Assets" option under the Assets tab to stop the translation of Asset binaries.
 1. Translate asset metadata/tags using [Multilingual Asset workflows](multilingual-assets.md).
-

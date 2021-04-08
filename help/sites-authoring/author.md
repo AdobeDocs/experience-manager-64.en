@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 72ee013a-7a60-41ee-9421-2846e4c6bc68
+exl-id: 23e30de9-1a30-484a-b370-f9f0d45b4e41
 ---
-
 # Concept of Authoring and Publishing{#authoring}
 
 AEM provides you with two environments:

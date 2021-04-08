@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: f3781d9a-421a-446e-8b49-40744b9ef58e
+exl-id: 779e1e4c-9a6e-4446-9c12-5b2499afbf6a
 ---
-
 # Mitigating serialization issues in AEM{#mitigating-serialization-issues-in-aem}
 
 ## Overview {#overview}
@@ -133,5 +133,4 @@ In order to load the agent manually, follow the below instructions:
 
 ## Other Considerations {#other-considerations}
 
-If you are running on an IBM JVM, please review the documentation on support for the Java Attach API at [this location](https://www.ibm.com/support/knowledgecenter/SSSTCZ_2.0.0/com.ibm.rt.doc.20/user/attachapi.html).  
-
+If you are running on an IBM JVM, please review the documentation on support for the Java Attach API at [this location](https://www.ibm.com/support/knowledgecenter/SSSTCZ_2.0.0/com.ibm.rt.doc.20/user/attachapi.html).

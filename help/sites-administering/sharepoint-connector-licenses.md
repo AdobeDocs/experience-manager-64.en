@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 487fc170-3750-49a7-af59-f1cc20d5f528
+exl-id: 4cd44f33-1bf9-4ec6-868f-0db60bfc56c0
 ---
-
 # SharePoint Connector Licenses, Copyright Notices, and Disclaimers{#sharepoint-connector-licenses-copyright-notices-and-disclaimers}
 
 This section lists all licenses, copyright notices and disclaimers which must be explicitly stated in connection with Day JCR Connector for MS SharePoint.
@@ -1296,4 +1296,3 @@ documentation shall at all times remain with Princeton University and
 LICENSEE agrees to preserve same.
 
 ```
-

@@ -10,8 +10,8 @@ topic-tags: configuring
 content-type: reference
 discoiquuid: ccddb2cd-8e67-43aa-a495-8996ad349761
 feature: Configuring
+exl-id: 5c07c773-53a3-41fd-860a-da0cb14f8bc6
 ---
-
 # OSGi Configuration Settings{#osgi-configuration-settings}
 
 [OSGi](https://www.osgi.org/) is a fundamental element in the technology stack of AEM. It is used to control the composite bundles of AEM and their configuration.

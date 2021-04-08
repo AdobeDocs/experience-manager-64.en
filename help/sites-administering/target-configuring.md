@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 20c8eb1d-5847-4902-b7d3-4c3286423b46
+exl-id: 6abadd53-dab1-4e3b-84d8-10374e8a305c
 ---
-
 # Manually Configuring the Integration with Adobe Target {#manually-configuring-the-integration-with-adobe-target}
 
 You can either modify the opt-in wizard configurations that you made when using the wizard, or you can manually integrate with Adobe Target without using the wizard.
@@ -251,4 +251,3 @@ Perform the following tasks to troubleshoot problems that occur when connecting 
 * Make sure that the AEM instance can connect to the Target server. For example, make sure that firewall rules are not blocking outbound AEM connections, or that AEM is configured to use necessary proxies. 
 * Look for helpful messages in the AEM error log. The error.log file is located in the **crx-quickstart/logs** directory where AEM is installed.
 * When editing the activity in Adobe Target, the URL is pointing to localhost. Work around this by setting the AEM externalizer to the correct URL.
-

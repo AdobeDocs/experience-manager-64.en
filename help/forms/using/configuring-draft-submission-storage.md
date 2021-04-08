@@ -8,8 +8,8 @@ topic-tags: publish
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6ebb6420-68b6-4abc-b298-c252db038416
+exl-id: c73fd1c5-6f3f-4c62-a8d6-fcd22f02c0ca
 ---
-
 # Configuring storage services for drafts and submissions {#configuring-storage-services-for-drafts-and-submissions}
 
 ## Overview {#overview}
@@ -103,4 +103,3 @@ In the AEM Web Console Configuration ( `https://[*host*]:[*port*]/system/console
 >[!NOTE]
 >
 >A sample implementation is also provided for storing user data in a database. To understand how to configure data and metadata services to store user data in an external database, see [Sample for integrating drafts & submissions component with database](/help/forms/using/integrate-draft-submission-database.md).
-

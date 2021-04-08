@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9cffdb77-c8a4-4a15-b64f-1d3aadaa60c7
 role: Developer
+exl-id: 5ffd9600-03ec-4fd5-abb1-a8d9adefe6f3
 ---
-
 # Document Management Service (Deprecated) Java API Quick Start (SOAP) {#document-management-service-deprecated-java-api-quick-start-soap}
 
 The following Quick Starts are available for the Document Management service (Deprecated).
@@ -1019,4 +1019,3 @@ The following Java code creates an association an XML data file and a PDF form. 
      } 
  
 ```
-

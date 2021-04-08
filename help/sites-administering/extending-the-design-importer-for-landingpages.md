@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: f8991416-995b-4160-a705-d131e78089ee
+exl-id: 4b37c866-30c3-45ff-b7a3-013b69598668
 ---
-
 # Extending and Configuring the Design Importer for Landing Pages{#extending-and-configuring-the-design-importer-for-landing-pages}
 
 This section describes how to configure and if desired, extend the design importer for landing pages. Working with Landing Pages after import is covered in [Landing Pages.](/help/sites-classic-ui-authoring/classic-personalization-campaigns-landingpage.md)
@@ -593,4 +593,3 @@ Then `box img` is used in the design importer, the resulting landing page appear
 >[!NOTE]
 >
 >Also, designers should be aware that only code inside the **id=cqcanvas** tag is recognized by the importer, otherwise design is not preserved.
-

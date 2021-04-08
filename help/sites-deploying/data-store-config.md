@@ -11,8 +11,8 @@ topic-tags: deploying
 discoiquuid: d4636434-98a6-4cf7-bb92-4338da17c893
 legacypath: /deploy/platform/data-store-config
 feature: Configuring
+exl-id: 89b8e8a7-103b-472e-8c29-3b6e5b7273b1
 ---
-
 # Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}
 
 ## Introduction {#introduction}
@@ -468,4 +468,3 @@ With newer versions of AEM, data store garbage collection can also be run on dat
     1. In the following dialogue, enter `false` for the `markOnly` parameter again.
 
    This will collate all the files found using the mark phase used before and delete the rest that are unused from the data store.
-

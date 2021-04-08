@@ -10,8 +10,8 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 379957bf-0634-4182-b269-1b010da4c90f
 feature: Document Security
+exl-id: 0c4a846f-4e31-435b-a6f6-d0b7c4cd1259
 ---
-
 # Monitoring events {#monitoring-events}
 
 When the auditing capability is enabled, document security enables you to monitor certain types of events. The events that you can see depend on your role:
@@ -102,4 +102,3 @@ You can sort the events list by column heading to find events more easily. Trian
 
 1. Click the appropriate column heading. 
 1. To change the sort order, click the column heading again.
-

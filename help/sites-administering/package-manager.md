@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 8e568c59-5455-422f-94a6-baf6d2aae070
+exl-id: eebc10fa-1d49-4797-a9e6-b6615bfe0173
 ---
-
 # How to Work With Packages{#how-to-work-with-packages}
 
 Packages enable the importing and exporting of repository content. For example, you can use packages to install new functionality, transfer content between instances, and back up repository content.
@@ -887,5 +887,4 @@ You can only delete packages that you have uploaded by proceed as follows:
 
 ### Making Packages Semi-Private {#making-packages-semi-private}
 
-You can share packages outside your organization, but not publicly. These packages would be considered as semi-private. To share these semi-private packages you will need some help from Adobe Support. To do this, open a ticket with Adobe Support requesting a package be made available outside your organization. They will ask you for a list of Adobe ID's you want to grant access to your packages.   
-
+You can share packages outside your organization, but not publicly. These packages would be considered as semi-private. To share these semi-private packages you will need some help from Adobe Support. To do this, open a ticket with Adobe Support requesting a package be made available outside your organization. They will ask you for a list of Adobe ID's you want to grant access to your packages.

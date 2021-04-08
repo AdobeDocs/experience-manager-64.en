@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: 1dafd400-16c0-416d-9e81-7bf53b761f98
 feature: Form Data Model
+exl-id: a8f200ac-cf9f-47b7-9856-e62aa8b229eb
 ---
-
 # Configure data sources {#configure-data-sources}
 
 Learn how to configure different types of data sources and leverage to create form data models.

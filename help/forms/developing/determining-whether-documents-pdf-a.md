@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: c429d6e1-7847-43c8-bf75-cb0078dbb9d5
 role: Developer
+exl-id: fa9d0720-f4bf-4933-ae63-c24bb835cc60
 ---
-
 # Determining Whether Documents Are PDF/A-Compliant {#determining-whether-documents-are-pdf-a-compliant}
 
 You can determine whether a PDF document is PDF/A-compliant by using the Assembler service. A PDF/A document exists as an archival format meant for long-term preservation of the document’s content. The fonts are embedded within the document, and the file is uncompressed. As a result, a PDF/A document is typically larger than a standard PDF document. Also, a PDF/A document does not contain audio and video content.

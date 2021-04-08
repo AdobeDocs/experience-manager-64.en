@@ -3,8 +3,8 @@ title: Adobe Experience Manager 6.4 Forms Guide
 seo-title: AEM 6.4 Forms Guide
 description: This guide covers all AEM Forms tasks, including how to create, manage, publish, and update digital forms.
 seo-description: Covers all AEM Forms tasks, including how to create, manage, publish, and update digital forms.
+exl-id: e25a3b24-c460-49a9-a62c-c9ed1f1128e3
 ---
-
 # Adobe Experience Manager 6.4 Forms Guide
 
 This guide covers all AEM Forms tasks, including how to create, manage, publish, and update digital forms.

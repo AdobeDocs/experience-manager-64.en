@@ -10,8 +10,8 @@ topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: a972fb35-38a7-4b83-99bd-6a6dddf8043b
 role: Administrator
+exl-id: ef486673-30fe-410a-83cf-c55be6064ce4
 ---
-
 # Choosing a persistence type for an AEM Forms installation {#choosing-a-persistence-type-for-an-aem-forms-installation}
 
 Choose a persistence type wisely. It helps you build an efficient and scalable AEM Forms environment. 

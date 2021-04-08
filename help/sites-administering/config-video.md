@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: a1efef3c-0e4b-4a17-bcad-e3cc17adbbf7
+exl-id: 46d0765d-fb77-4332-8fbb-5bd2abcd6806
 ---
-
 # Configure the Video component {#configure-the-video-component}
 
 The [Video component](/help/sites-authoring/default-components-foundation.md#video) lets you place a predefined, OOTB (out-of-the-box) video element on your page.
@@ -89,4 +89,3 @@ The Video Component relies on the third-party open-source product FFmpeg for pro
 >[!NOTE]
 >
 >OOTB workflow models are not preserved when you upgrade your AEM instance. Adobe recommends that you copy OOTB workflow models before editing them. For example, copy the OOTB DAM Update Asset model before editing the FFmpeg Transcoding step in the DAM Update Asset model to pick video-profile names that existed before the upgrade. Then, you can overlay the `/apps` node to let AEM retrieve the custom changes to the OOTB model.
-

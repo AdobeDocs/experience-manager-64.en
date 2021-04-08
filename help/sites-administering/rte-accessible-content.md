@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: ff0f006d-461c-4cc4-b6eb-d665f3f3b498
+exl-id: 245e1c28-f702-4300-81cf-5139db9d95ec
 ---
-
 # Configuring RTE for Producing Accessible Sites {#configuring-rte-for-producing-accessible-sites}
 
 AEM supports both:

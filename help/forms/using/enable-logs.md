@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 23bc7cd2-7d06-4ef8-977a-778e290daef9
 feature: Mobile Forms
+exl-id: c7953d1b-a332-4138-b744-516f3881cd4d
 ---
-
 # Enable logging for HTML5 forms {#enable-logging-for-html-forms}
 
 You can configure the logger utility to start creating logs for HTML5 forms. The logger utility has various levels, you can set a level as per your requirements. HTML5 forms has server and client components. You can configure logs for both the components.
@@ -202,4 +202,3 @@ To change the location and name of the log file:
    >To create logs in the same directory where other log files are kept, specify ../logs/&lt;filename&gt; in the Log Files property.
 
 1. Change the **Logger** to **HTMLFormsPerfLogger** and click **Save**.
-

@@ -4,8 +4,8 @@ description: Learn how to relate assets that share certain common attributes. Yo
 contentOwner: AG
 feature: Asset Management,Collaboration
 role: Business Practitioner
+exl-id: d19544c4-c8e7-4a39-9c86-15a46dca848e
 ---
-
 # Related assets {#related-assets}
 
 Adobe Experience Manager (AEM) Assets lets you manually relate assets based on the needs of your organization using the Related Assets feature. For example, you can relate a license file with an asset or an image/video on a similar topic. You can relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets. For example, if you have a PDF file that is generated from an INDD file, you can relate the PDF file to its source INDD file.

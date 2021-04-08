@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: fbfe8097-3c3f-4a05-97ad-1ce526362a26
+exl-id: b051b279-b0d9-41a3-b5d8-4b9bad448c0f
 ---
-
 # Developing Communities {#developing-communities}
 
 ## Overview {#overview}
@@ -92,4 +92,3 @@ AEM Communities components, functions and features provide the building blocks f
 * Visit [Administering Communities Sites](administer-landing.md) to learn about creating a Community Site, configuring Community Site Templates, moderating community content, managing members, and configuring messaging.
 
 * Visit [Authoring Communities Components](author-communities.md) to learn how to author with and configure Communities components.
-

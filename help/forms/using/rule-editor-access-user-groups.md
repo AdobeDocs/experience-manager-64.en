@@ -9,8 +9,8 @@ topic-tags: adaptive_forms, develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6bd58e37-085e-4057-8200-1404d54f41cc
 feature: Adaptive Forms
+exl-id: 5e2960f2-b172-48a7-bba3-4561a5f9c7bc
 ---
-
 # Grant rule editor access to select user groups {#grant-rule-editor-access-to-select-user-groups}
 
 ## Overview {#overview}
@@ -52,4 +52,3 @@ AEM Forms allows you to limit rule editor access to users based on their role or
    Components toolbar as visible to a user without rule editor access
 
    For instructions on adding users to groups, see [User Administration and Security](/help/sites-administering/security.md).
-

@@ -6,8 +6,8 @@ seo-description: Custom email templates for forms workflow email notifications
 uuid: bc2af94d-d4ad-417e-b3d2-bcfffc1b306d
 topic-tags: publish
 discoiquuid: c447fc39-c0f3-4932-ac6c-465d1fb83f8c
+exl-id: 5af73823-2c32-41b3-9ab8-a7ad9fd9532f
 ---
-
 # Use custom email templates in an Assign Task step {#use-custom-email-templates-in-an-assign-task-step}
 
 Custom email templates for forms workflow email notifications 
@@ -68,4 +68,4 @@ Out of the box, Assign task step is configured to use the default template, html
 
 1. Click **[!UICONTROL OK]**. The template is changed.
 
-An email notification also uses [metadata](/help/forms/using/use-metadata-in-email-notifications.md). For example, due date, priority, workflow name, and more. You can also configure the template to use [custom metadata](/help/forms/using/use-metadata-in-email-notifications.md#using-custom-metadata-in-an-email-notification). 
+An email notification also uses [metadata](/help/forms/using/use-metadata-in-email-notifications.md). For example, due date, priority, workflow name, and more. You can also configure the template to use [custom metadata](/help/forms/using/use-metadata-in-email-notifications.md#using-custom-metadata-in-an-email-notification).

@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 77296bff-8429-4240-af93-26076ae431ec
+exl-id: ec05569a-6449-4430-9b9f-7ab051f44970
+feature: Asset Management,Renditions
+role: Business Practitioner
 ---
-
 # Previewing Dynamic Media assets {#previewing-assets}
 
 You can use **[!UICONTROL Preview]** to see how a Dynamic Media digital asset looks when it is viewed by a customer in their own web browser. The default embedded, cross-device viewer that is assigned to the asset is used for the **[!UICONTROL Preview]**.
@@ -103,4 +105,3 @@ Besides using the dedicated preview feature for video, spin sets, and image sets
   </tr>
  </tbody>
 </table>
-

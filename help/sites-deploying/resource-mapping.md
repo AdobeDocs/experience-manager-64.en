@@ -10,8 +10,8 @@ topic-tags: configuring
 content-type: reference
 discoiquuid: ddfacc63-1840-407e-8802-3730009c84f0
 feature: Configuring
+exl-id: 81dddbab-1a9e-49ee-b2a5-a8e4de3630d1
 ---
-
 # Resource Mapping{#resource-mapping}
 
 Resource mapping is used to define redirects, vanity URLs and virtual hosts for AEM.
@@ -135,4 +135,3 @@ had been requested.
 >[!NOTE]
 >
 >You can use `/etc/map.publish` to hold the configurations for the publish environment. These must then be replicated, and the new location ( `/etc/map.publish`) configured for the **Mapping Location** of the [Apache Sling Resource Resolver](/help/sites-deploying/osgi-configuration-settings.md#apacheslingresourceresolver) of the publish environment.
-

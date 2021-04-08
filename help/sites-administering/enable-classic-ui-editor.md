@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 5fca5401-502d-483b-bfc1-ef53e2c041b7
+exl-id: 04a9c595-9a73-4a8a-99ae-c2292882338f
 ---
-
 # Editor{#editor}
 
 By default, the ability to switch to the classic UI from the editor has been disabled.
@@ -40,4 +40,3 @@ To re-enable the option **Open in Classic UI** in the **Page Information** menu,
 1. The **Open in Classic UI** option is again available in the **Page Information** menu when editing pages.
 
    ![chlimage_1-10](assets/chlimage_1-10.png)
-

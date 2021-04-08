@@ -10,8 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8e7a8481-b8cd-4f2b-b9d2-7a8132f1d3f6
 feature: Document Security
+exl-id: 18ebc041-0660-4595-bc96-2039474f91fb
 ---
-
 # Document security offerings {#document-security-offerings}
 
 Adobe Experience Manager Forms document security ensures that only authorized users can use your documents. Using document security, you can safely distribute any information that you have saved in a supported format. Supported file formats include Adobe Portable Document Format (PDF) and Microsoft Word, Excel, and PowerPoint files.
@@ -73,4 +73,3 @@ Microsoft Windows full-text search engines (SharePoint Index server) and Adobe E
 * **iFilter indexer:** You can use the iFilter indexer to index protected PDF documents and enable Microsoft Windows full-text search engines (Desktop Indexing Service and SharePoint Indexserver) to search protected PDF documents. For detailed information see, [AEM SharePoint IFilter for Protected Documents](assets/sharepoint-ifilter-doc-security.pdf).  
 
 * **AEM Forms Document Security Indexer:** You can use the AEM Forms Document Security indexer to index protected PDF documents and enable Adobe Experience Manager to search protected PDF documents. The indexers are part of AEM Forms Document Security offering. These are included in AEM Forms on JEE installers.
-

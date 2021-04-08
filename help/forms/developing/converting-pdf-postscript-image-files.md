@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: f8707752-2c83-461a-b83d-708754b0f3f6
 role: Developer
+exl-id: 4afed537-1694-4187-8968-608f49116c2e
 ---
-
 # Converting PDF to Postscript and Image Files {#converting-pdf-to-postscript-andimage-files}
 
 **About the Convert PDF Service**

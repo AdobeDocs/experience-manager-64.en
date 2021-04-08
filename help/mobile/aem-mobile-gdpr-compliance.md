@@ -6,8 +6,8 @@ seo-description: null
 uuid: 817c434f-4b78-40f7-99d6-6efafdedb77e
 contentOwner: trushton
 discoiquuid: 9399dd3d-a485-4f53-a6f2-7b190da4235b
+exl-id: 2b73e843-690b-4cf3-9b8f-936b70c84406
 ---
-
 # AEM Mobile - GDPR Readiness {#aem-mobile-gdpr-readiness}
 
 >[!IMPORTANT]
@@ -296,4 +296,3 @@ email = “test@what.com”
 
 }
 ```
-

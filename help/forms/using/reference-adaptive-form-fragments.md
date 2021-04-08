@@ -7,8 +7,8 @@ uuid: af3ab863-e895-4fac-84f4-0a77a66f5094
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 43dc10c2-8cfc-4ca3-8ccb-9b3f268663b7
+exl-id: cceea4d1-8fc2-4118-b22e-91f27e69c7e4
 ---
-
 # Reference adaptive form fragments {#reference-adaptive-form-fragments}
 
 [Adaptive form fragment](/help/forms/using/adaptive-form-fragments.md) is a group of fields, or a panel containing a group of fields that you can use when you create a form. It lets you create a form easily and quickly. You can drag-drop an adaptive form fragment into a form using the assets browser in sidebar, and you can edit it in the form editor.

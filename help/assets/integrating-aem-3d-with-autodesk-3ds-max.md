@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: 3D
 discoiquuid: 0d7fefc0-6923-4ac3-9e90-335c08fa56f0
+exl-id: 2edecd53-0a2d-44bb-968a-d988c780e142
+feature: 3D Assets
+role: Administrator,Business Practitioner
 ---
-
 # Integrating AEM 3D with Autodesk 3ds Max {#integrating-aem-d-with-autodesk-ds-max}
 
 >[!NOTE]
@@ -82,4 +84,3 @@ See also [Integrating AEM 3D with AutoDesk Maya](integrate-maya-with-3d.md).
 1. After processing is finished, open `logo-sphere.max` in the **[!UICONTROL Detail]** view.
 
    The Preview experience is the same as with `logo_sphere.fbx`.
-

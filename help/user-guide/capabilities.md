@@ -5,8 +5,8 @@ description: An overview of the essential capabilities of AEM 6.4
 seo-description: An overview of the essential capabilities of AEM 6.4
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+exl-id: f4dea584-3cd1-4d9f-ae3c-2573726dde95
 ---
-
 # AEM 6.4 Capabilities User Guides {#aem-64-capabilities-user-guides}
 
 ## AEM Foundation {#aem-foundation}

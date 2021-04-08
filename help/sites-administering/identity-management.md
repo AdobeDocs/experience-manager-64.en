@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: a6d9b08d-e669-4b9b-b591-c21cd72b6e22
+exl-id: 82e4af22-30b7-4678-9b14-84f2fecfd310
 ---
-
 # Identity Management{#identity-management}
 
 Individual visitors to your website can only be identified when you provide the ability for them to log in. There are various reasons why you may want to provide a login capability:
@@ -237,4 +237,3 @@ This component allows the user to input a detailed name.
 This component allows the user to input their gender.
 
 ![dc_profiles_gender](assets/dc_profiles_gender.png)
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 0089394f-0107-49eb-ad73-52e9cabe71b1
+exl-id: ca11bfcd-06d1-4ca9-9069-afa91d8a6610
 ---
-
 # Integrating with Adobe Analytics{#integrating-with-adobe-analytics}
 
 Integrating Adobe Analytics and AEM allows you to track your web page activity:
@@ -55,4 +55,3 @@ See:
 >* **Apache HTTP Components Proxy Configuration** to configure the 4.x API;  
 >
 >  for example, [http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator](http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator)
-

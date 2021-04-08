@@ -5,8 +5,10 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
+exl-id: 3cee9b4f-c4be-4ffc-970c-5680c8ebba47
+feature: 3D Assets
+role: Administrator,Business Practitioner
 ---
-
 # Working with AEM 3D assets {#working-with-d-assets}
 
 >[!IMPORTANT]
@@ -156,4 +158,3 @@ See [Rendering 3D assets](rendering-3d-assets.md).
 ## Naming materials in a primary 3D model file {#naming-materials-in-a-primary-d-model-file}
 
 A *surface* is defined as the surface area of a 3D model covered by the same material. This material also provides the name for the surface. As such, Adobe recommends that you name the materials included in primary 3D model files accordingly. For example, the use of specific names such as "Body", "Windows", "Tires", or "Rims" is preferred to the use of vague names such as "Red", "Glass", "Rubber", "Aluminum".
-

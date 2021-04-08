@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: f50150af-deff-4c29-bfe0-1cfc67b29d51
+exl-id: 66c19394-9d2f-4bdd-9c17-f0ec8090f0b4
 ---
-
 # We.Retail Reference Implementation{#we-retail-reference-implementation}
 
 ## Introduction {#introduction}
@@ -116,4 +116,3 @@ Feel free to fork or to contribute with [pull requests](https://github.com/Adobe
 Preview of the We.Retail welcome page:
 
 ![screencapture-localhost-4502-editor-html-content-we-retail-us-en-html-2018-08-17-14_33_32](assets/screencapture-localhost-4502-editor-html-content-we-retail-us-en-html-2018-08-17-14_33_32.png)
-

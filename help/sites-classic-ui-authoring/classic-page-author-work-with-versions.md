@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: ba74d3fb-063d-4bd6-a551-8e71ad6559e3
+exl-id: 407287cf-8096-40ee-971c-006d876ba4e4
 ---
-
 # Working with Page Versions{#working-with-page-versions}
 
 Versioning creates a "snapshot" of a page at a specific point in time. With versioning, you can perform the following actions:

@@ -9,8 +9,8 @@ topic-tags: adaptive_forms, develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 66a3528a-489b-4fd0-be6c-b8c4b9b1f908
 feature: Adaptive Forms
+exl-id: 7cd73bdf-6717-4923-91ca-e8b6d44429ca
 ---
-
 # Adaptive forms rule editor {#adaptive-forms-rule-editor}
 
 ## Overview {#overview}
@@ -785,4 +785,3 @@ In the purchase order form explained in the previous example, you want to restri
 ![example-validate](assets/example-validate.png)
 
 ![example-validate-code](assets/example-validate-code.png)
-

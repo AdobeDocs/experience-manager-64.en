@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 0e842725-57be-4a16-b972-f5677eaad8cb
+exl-id: dcd54a52-f610-4c68-8547-39562c062d84
 ---
-
 # Managing Audiences{#managing-audiences}
 
 The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context:
@@ -103,4 +103,3 @@ You can edit any ContextHub or Client Context audience from the Audiences consol
 1. In the Navigation console, click or tap **Personalization**. Click or tap **Audiences**.
 1. Tap or click the icon next to the ContextHub or Client Context segment you want to edit, and tap or click **Edit**.
 1. Make any edits in the segment editor. See [Client Context](/help/sites-administering/campaign-segmentation.md) or [ContextHub](/help/sites-administering/contexthub-config.md) documentation.
-

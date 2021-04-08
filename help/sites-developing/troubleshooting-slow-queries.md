@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: c01e42ff-e338-46e6-a961-131ef943ea91
+exl-id: edffa86c-a157-45bc-a565-a57200debb37
 ---
-
 # Troubleshooting Slow Queries{#troubleshooting-slow-queries}
 
 ## Slow Query Classifications {#slow-query-classifications}
@@ -468,4 +468,3 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
 
     * Google Chrome web browser extension that exposes per-request log data, including executed queries and their query plans, in the browser's dev tools console.
     * Requires [Sling Log Tracer 1.0.2+](https://sling.apache.org/downloads.cgi) to be installed and enabled on AEM.
-

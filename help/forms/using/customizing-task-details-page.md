@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 16e57cf6-aaa1-406d-a6ad-71ec60b15386
+exl-id: de97e6f7-25bf-462b-b67d-0d3fbd86a321
 ---
-
 # Customizing the task details page {#customizing-the-task-details-page}
 
 The task details page contains information about a task and its processes. However, you can customize the task details page to add or delete information.

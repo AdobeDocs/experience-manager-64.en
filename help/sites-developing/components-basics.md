@@ -10,8 +10,8 @@ topic-tags: components
 content-type: reference
 discoiquuid: 1f9867f1-5089-46d0-8e21-30d62dbf4f45
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
+exl-id: 2c8956bf-e20a-441d-aecc-f2600e1fa11e
 ---
-
 # AEM Components - The Basics{#aem-components-the-basics}
 
 When you start to develop new components you need to understand the basics of their structure and configuration.
@@ -1081,4 +1081,3 @@ With the following configuration the page is refreshed after the component has b
         afterinsert="REFRESH_PAGE"
         afterMove="REFRESH_PAGE"/>
 ```
-

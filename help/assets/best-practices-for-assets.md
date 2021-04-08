@@ -4,8 +4,8 @@ description: Identify and adhere to the best practices that enhances system stab
 contentOwner: AG
 feature: Asset Management
 role: Architect,Administrator
+exl-id: e2ab924b-53cb-4011-8c0a-9e8e59dd2f16
 ---
-
 # Best practices for AEM Assets {#best-practices-for-assets}
 
 Adobe Experience Manager (AEM) Assets is a crucial part of delivering high-quality digital marketing experiences that contribute to the achievement of business goals through increasing your content velocity. If you work with a large number of assets within AEM Assets or regularly/periodically upload numerous assets, including videos and dynamic media, optimizing your digital asset management experience is critical for system efficiency.

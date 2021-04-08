@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: f328cd1e-30a3-42d2-88b7-64455ee9eb1f
+exl-id: 02641496-188b-465c-9256-b2e377eb685c
 ---
-
 # Adobe Campaign Components{#adobe-campaign-components}
 
 When you integrate with Adobe Campaign, you have components available for when working with newsletters and with forms. Both are described in this document.
@@ -541,4 +541,3 @@ In addition to [settings common to most Adobe Campaign components](#settings-com
 The following example shows a Text Field (Campaign) component being displayed.
 
 ![chlimage_1-131](assets/chlimage_1-131.png)
-

@@ -9,8 +9,10 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 658ff671-16b9-41bd-ba24-b77a32b3346b
+exl-id: 074ab20f-02df-4f9e-9512-93a76f5d234f
+feature: 3D Assets
+role: Business Practitioner
 ---
-
 # About working with IBL stages {#about-working-with-ibl-stages}
 
 AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine™ renderer and third-party renderers. You can create IBL stages with common authoring tools such as Autodesk® Maya® or Autodesk® 3ds Max®.
@@ -88,4 +90,3 @@ IBL stages use spherical background images that are 20 meters diameter by defaul
    For example, a jet plane model that is 20 meters long displays well if `dam:gPlaneRadius=20000`.
 
 1. Near the upper-left corner of the CRXDE Lite page, tap **[!UICONTROL Save All]**.
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 90605f41-1861-4891-a7c8-b8b5918cd5c6
+exl-id: 6ae560e7-cf45-466d-832c-6f2b26e08953
 ---
-
 # ContextHub Javascript API Reference{#contexthub-javascript-api-reference}
 
 The ContextHub Javascript API is available to your scripts when the [ContextHub component has been added to the page](/help/sites-developing/ch-adding.md#adding-contexthub-to-a-page-component).
@@ -1147,4 +1147,3 @@ The priority is a number that indicates the importance of same-named stores. Whe
 ContextHub.Utils.storeCandidates.registerStoreCandidate(myStoreCandidate, 
                                 'contexthub.mystorecandiate', 0);
 ```
-

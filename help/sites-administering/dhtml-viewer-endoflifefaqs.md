@@ -6,8 +6,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: d94244ac-a5f6-4c95-ab8c-26b41d25863f
+exl-id: 7a9d6e97-2592-43cb-b5ab-4238409bd7f3
 ---
-
 # DHTML Viewer End-of-Life {#dhtml-viewer-end-of-life-}
 
 Effective January 31, 2014, the DHTML viewer platform is officially end-of-life.

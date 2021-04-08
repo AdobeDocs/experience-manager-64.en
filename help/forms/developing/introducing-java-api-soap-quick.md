@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: development-tools, develop
 discoiquuid: 38fd51ec-347e-4ae3-86d4-9d2429f79bdd
 role: Developer
+exl-id: 8a3f2eb9-d686-49d4-baa4-c0921622d01a
 ---
-
 # Introducing Java API Quick Start {#introducing-java-api-quickstart}
 
 Adobe AEM Forms API Quick Start can help you accelerate your efforts to develop programs that interact with AEM Forms services. *Quick Start*s are complete programs that you can copy and paste into your own projects and use as a starting point. You can run a Quick Start to see how it behaves and modify it for your own needs.
@@ -82,4 +82,3 @@ Most Quick Starts located in *Programming with AEM Forms* invoke a specific serv
 >[!NOTE]
 >
 >Most web service Quick Starts are written in C# and uses the .NET framework. However, you can create client application logic that is able to invoke AEM Forms services in any development environment that supports SOAP standards. (See [Invoking AEM Forms Using Web Services](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-web-services).)
-

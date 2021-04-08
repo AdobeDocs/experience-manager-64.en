@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: configuring
 discoiquuid: 9ccbc39e-aea7-455e-8639-9193abc1552f
 feature: Configuring
+exl-id: ee86b1b9-68fb-4311-bf5f-6151dd94d3b0
 ---
-
 # Performance Guidelines{#performance-guidelines}
 
 This page provides general guidelines on how to optimize the performance of your AEM deployment. If you are new to AEM, please go over the following pages before you start reading the performance guidelines:

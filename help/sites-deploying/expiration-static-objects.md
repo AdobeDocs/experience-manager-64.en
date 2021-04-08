@@ -10,8 +10,8 @@ topic-tags: configuring
 content-type: reference
 discoiquuid: 73f37b3c-5dbe-4132-bb60-daa8de871884
 feature: Configuring
+exl-id: 3551d25c-c852-4f59-84fe-5e62f57ae63f
 ---
-
 # Expiration of Static Objects{#expiration-of-static-objects}
 
 Static objects (for example, icons) do not change. Therefore the system should be configured so that they do not expire (for a reasonable period of time) and so reduce unnecessary traffic.

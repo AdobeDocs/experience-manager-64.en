@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: 9d2bf30c-5190-4924-82cd-bcdfde24eb39
+exl-id: 9d7e9d46-9f38-44a0-9c83-4bc4fceb17c8
 ---
-
 # Working with Project Workflows{#working-with-project-workflows}
 
 The project workflows available out of the box include the following:

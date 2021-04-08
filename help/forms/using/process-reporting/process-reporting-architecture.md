@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
 discoiquuid: 4afc68fc-6b39-4c31-95fa-2ef3111c57da
+exl-id: 05ef8b08-bb1d-441d-8b02-5f047efbabcb
 ---
-
 # How Process Reporting Works {#how-process-reporting-works}
 
 Process Reporting is the reporting module of the AEM Forms on JEE.
@@ -69,4 +69,3 @@ The service then uses OSGi services to obtain the relevant reporting data, proce
 You can create your own custom reports and display these reports in the Custom Reports tab of the Process Reporting user interface.
 
 For the steps to create a custom report, see To create a custom report in the article [Custom Reports in Process Reporting](/help/forms/using/process-reporting/process-reporting-custom-reports.md).
-

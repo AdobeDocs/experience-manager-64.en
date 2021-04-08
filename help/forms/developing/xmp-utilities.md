@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 01d5677f-5c87-4a6e-987b-8eda9acc0b27
 role: Developer
+exl-id: 00a7989f-0a08-4552-8493-d4d790ed81e9
 ---
-
 # Working with XMP Utilities {#working-with-xmp-utilities}
 
 **About the XMP Utilities Service**

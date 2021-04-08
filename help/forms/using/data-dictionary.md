@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 53595ac8-ca7e-4adc-9214-5d0b7cdf71a0
 feature: Correspondence Management
+exl-id: 6b53f47c-9333-43a3-8db9-8737d9610110
 ---
-
 # Data Dictionary {#data-dictionary}
 
 ## Introduction {#introduction}
@@ -651,4 +651,3 @@ The Token.xsd associated to this sample would be:
 | TokenText |empty(null) |
 | TokenHeading |TokenText/TextHeading |
 | TokenBody |TokenText/TextBody |
-

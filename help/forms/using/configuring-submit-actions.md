@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: fea76f90-22d5-4836-9901-a35229401eb0
 feature: Adaptive Forms
+exl-id: 2a842bdc-6dcf-42cc-9a45-57ac15b79eb7
 ---
-
 # Configuring the Submit action {#configuring-the-submit-action}
 
 ## Introduction to submit actions {#introduction-to-submit-actions}

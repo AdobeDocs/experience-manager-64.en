@@ -1,8 +1,8 @@
 ---
 title: Deprecated and Removed Features
 description: Release notes specific to deprecated and removed features in Adobe Experience Manager 6.4.
+exl-id: 2fe0dad7-fc78-4aac-afa3-79a278008453
 ---
-
 # Deprecated and Removed Features {#deprecated-and-removed-features}
 
 Adobe constantly evaluates product capabilities, to over time reinvent or replace older features with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.

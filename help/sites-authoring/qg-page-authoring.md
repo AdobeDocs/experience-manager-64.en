@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 163a4887-7c33-4305-8c48-882630f2caa1
+exl-id: c63e44e7-cc89-4fa0-8ba4-460d682df601
 ---
-
 # Quick Guide to Authoring Pages{#quick-guide-to-authoring-pages}
 
 These procedures are intended as a quick guide (high-level) to the key actions of authoring page content in AEM.
@@ -320,4 +320,3 @@ The same basic mechanism is used when restoring and/or comparing versions of you
     * **Show Differences**
 
         * The page will be opened with differences (between the two versions) highlighted.
-

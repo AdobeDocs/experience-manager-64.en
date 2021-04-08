@@ -8,8 +8,8 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 discoiquuid: 56761a36-ce21-46e1-856f-75a7e94acae9
+exl-id: 495031fb-b559-4071-abc4-93d238ce136d
 ---
-
 # Removing the Geometrixx Sites{#removing-the-geometrixx-sites}
 
 AEM comes with a set of sample Geometrixx websites. You can remove this sample content through the **Package Manager**.
@@ -39,4 +39,3 @@ You have now an "empty" AEM instance without any demonstration sites.
 >[!NOTE]
 >
 >When upgrading, geometrixx sites are automatically re-installed. You may need to remove geometrixx web sites after upgrading if you do not want these samples.
-

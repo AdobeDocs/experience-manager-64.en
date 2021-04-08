@@ -5,8 +5,10 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
+exl-id: b0f0c6e4-77c8-40db-a9f4-699d1a633571
+feature: Configuration,Scene7 mode
+role: Administrator,Business Practitioner,Developer
 ---
-
 # Configuring Dynamic Media - Scene7 mode {#configuring-dynamic-media-scene-mode}
 
 If you use Adobe Experience Manager set up for different environments, such development, staging, and live production, you must configure Dynamic Media Cloud Services for each environment.
@@ -650,4 +652,3 @@ If you are using Dynamic Media for imaging, or video, or both, then you can use 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    If you only wanted to replicate the original, then you would enter `+original`.
-

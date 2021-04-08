@@ -10,8 +10,8 @@ topic-tags: administering
 content-type: reference
 discoiquuid: e975e026-e815-4445-be3e-b1237ed3f6b2
 role: Administrator
+exl-id: 4ff530ae-c676-4259-86f2-a3881843b642
 ---
-
 # SRP - Community Content Storage {#srp-community-content-storage}
 
 ## Introduction {#introduction}

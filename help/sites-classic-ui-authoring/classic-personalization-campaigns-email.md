@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: eb72f934-4b0f-4a71-b2a2-3ddf78db8c3c
+exl-id: 5e97f7bd-d668-423d-9f65-7dcc8fb1943a
 ---
-
 # E-mail Marketing{#e-mail-marketing}
 
 >[!NOTE]
@@ -296,4 +296,3 @@ To subscribe to a newsletter (using the Geometrixx web site as an example):
    ![chlimage_1-169](assets/chlimage_1-169.png)
 
 1. In the Geometrixx Newsletter **Sign Up** field, enter your e-mail address and click **Sign Up**. You are now subscribed to the newsletter.
-

@@ -7,8 +7,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: f341fae1-dda3-4917-b6db-ad02fec63702
 feature: Asset Management,Video
 role: Business Practitioner
+exl-id: eb652414-5b10-45af-a8b6-f1de649994c5
 ---
-
 # Manage video assets {#managing-video-assets}
 
 Learn how to manage and edit the video assets in Adobe Experience Manager (AEM) Assets. Also, if you are licensed to use Dynamic Media, see the [Dynamic Media Video documentation](video.md).

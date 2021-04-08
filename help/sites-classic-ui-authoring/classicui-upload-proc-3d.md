@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 0be4a856-951b-4cb6-8103-8004052c63a0
+exl-id: 384db9db-14d1-459f-9aad-df2208199460
 ---
-
 # About the uploading and processing of 3D assets in AEM{#about-the-uploading-and-processing-of-d-assets-in-aem}
 
 Use standard upload or sync mechanisms to bring 3D assets and their associated referenced files into AEM Assets.
@@ -95,4 +95,3 @@ In **[!UICONTROL Card View]** only, the processing status and progression is dis
 >[!NOTE]
 >
 >You can view a 3D asset in **[!UICONTROL Detail View]** or render it after the Creating preview stage is complete. You do not need to wait for all processing stages to complete.
-

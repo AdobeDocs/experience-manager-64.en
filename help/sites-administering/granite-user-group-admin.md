@@ -2,6 +2,7 @@
 title: Granite Operations - User and Group Administration
 seo-title: Granite Operations - User and Group Administration
 description: Learn about Granite user and group administration.
+feature: Security
 seo-description: Learn about Granite user and group administration.
 uuid: 7b6b7767-712c-4cc8-8d90-36f26280d6e3
 contentOwner: Guillaume Carlino
@@ -9,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 95ab2e54-0f8d-49e0-ad20-774875f6f80a
+exl-id: bd29e81d-eb4a-4764-96f2-84e091836a8a
 ---
-
 # Granite Operations - User and Group Administration{#granite-operations-user-and-group-administration}
 
 As Granite incorporates the CRX Repository implementation of the JCR API Specification it has its own user and group administration.
@@ -226,4 +227,3 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
    ![](do-not-localize/chlimage_1-6.png)
 
 1. You will be asked to confirm the deletion, then a message will confirm that the actual deletion has taken place.
-

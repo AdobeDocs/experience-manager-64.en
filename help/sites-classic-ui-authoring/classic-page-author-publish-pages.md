@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 80c9f4b7-d59f-4ed1-a457-300756962708
+exl-id: 7b3f58df-036e-46a8-913e-e695de34ddd7
 ---
-
 # Publishing Pages{#publishing-pages}
 
 Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website (your publish environment).
@@ -164,4 +164,3 @@ From the **Websites** tab you can activate the individual pages. When you have e
 
     1. Select **Dry Run** if you want to check which pages *would* be activated. This is only an emulation, no pages will be activated.
     1. Select **Activate** if you want to activate the pages.
-

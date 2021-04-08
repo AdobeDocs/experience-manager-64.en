@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: deploying
 discoiquuid: 56a984a5-4b7f-4a95-8a17-95d2d355bfed
 feature: Configuring
+exl-id: 89523bb4-e4c4-469c-802b-6fe27c816a2e
 ---
-
 # RDBMS Support in AEM 6.4{#rdbms-support-in-aem}
 
 ## Overview {#overview}
@@ -117,4 +117,3 @@ A different URL string format is used in the data source configuration depending
 While concurrent use of multiple AEM instances with a single database is supported by RDBMS persistence, concurrent installations are not.
 
 In order work around this, make sure you run the installation with a single member first, and add the other ones after the first has finished installing.
-

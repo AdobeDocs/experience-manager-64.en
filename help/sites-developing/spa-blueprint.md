@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 6d4188f4-ad98-49df-9bb4-7936b7bea9c8
+exl-id: 73995327-d781-4501-ba14-3394dc8ea4fc
 ---
-
 # SPA Blueprint{#spa-blueprint}
 
 To enable the author to use the AEM SPA Editor to edit the content of an SPA, there are requirements that the SPA must fulfill, which are described in this document.

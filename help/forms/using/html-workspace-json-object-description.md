@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 61b7246d-ed28-4470-a0a2-a4aaf1a061a4
+exl-id: 8c7e1ee2-0f7f-427e-aca2-d4bf523fd7f1
 ---
-
 # AEM Forms workspace JSON object description {#aem-forms-workspace-json-object-description}
 
 JSON objects used in AEM Forms workspace are described below.

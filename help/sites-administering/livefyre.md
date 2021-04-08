@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: bb3fcb53-b8c3-4b1d-9125-4715f34ceb0b
+exl-id: 39ecacda-2941-4b57-a001-e7ad1349723c
 ---
-
 # Integrating with Livefyre{#integrating-with-livefyre}
 
 Learn how to integrate Livefyre's industry-leading curation capabilities with your AEM 6.4 instance, allowing you to publish valuable user-generated content (UGC) from social networks to your site in minutes.
@@ -226,4 +226,3 @@ After you import the product catalog, the products show up in real time in your 
 | Storify 2 |  |X |X |X |
 | Trending |  |X |X |X |
 | Upload Button |  |X |X |X |
-

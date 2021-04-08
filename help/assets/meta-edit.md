@@ -4,8 +4,8 @@ description: Learn about asset metadata in AEM Assets an various ways by which y
 contentOwner: AG
 feature: Metadata
 role: Business Practitioner,Administrator
+exl-id: f0522343-f8a9-4d89-8ce8-b3357ae3fe70
 ---
-
 # How to edit or add metadata {#how-to-edit-or-add-metadata}
 
 Metadata is additional information about the asset that can be searched. It is automatically extracted when you upload an image. You can edit the existing metadata or add new metadata properties to existing fields (for example, when a metadata field is blank).

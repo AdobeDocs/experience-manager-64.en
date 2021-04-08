@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: a65c5303-0ebd-43a9-a777-401042d8fcad
 role: Developer
+exl-id: 49c4af9a-5797-468c-b3ad-f3140d445ff2
 ---
-
 # Rendering Forms Based on Fragments {#rendering-forms-based-on-fragments}
 
 ## Rendering Forms Based on Fragments {#rendering-forms-based-on-fragments-inner}

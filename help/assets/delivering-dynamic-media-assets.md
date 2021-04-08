@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: ec394bd3-2fa6-4f50-b974-bc10f643ecac
+exl-id: e5110a90-ddc9-4244-8466-f91adfca8469
+feature: Asset Management
+role: Business Practitioner
 ---
-
 # Delivering Dynamic Media Assets {#delivering-dynamic-media-assets}
 
 How you can deliver your dynamic media assets - both video and images - depends on how your website is implemented.

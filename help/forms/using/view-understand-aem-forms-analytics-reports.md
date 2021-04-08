@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: a9045816-cae7-42cf-a734-6c3a25d0f522
+exl-id: 0483b6ed-676a-4272-a00e-23d53a979b07
 ---
-
 # View and understand AEM Forms analytics reports {#view-and-understand-aem-forms-analytics-reports}
 
 Adobe Experience Manager Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.
@@ -140,4 +140,4 @@ Once a filter is applied:
 
 If you have A/B testing enabled and set up for the form, the report page has a drop-down you can use to display the A/B testing report. A/B testing report displays the comparative performance of two versions of the form as you have set up.
 
-For more information on A/B testing, see [Create and manage A/B test for adaptive forms](/help/forms/using/ab-testing-adaptive-forms.md). 
+For more information on A/B testing, see [Create and manage A/B test for adaptive forms](/help/forms/using/ab-testing-adaptive-forms.md).

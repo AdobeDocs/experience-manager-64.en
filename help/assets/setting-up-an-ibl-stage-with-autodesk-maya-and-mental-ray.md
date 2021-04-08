@@ -9,8 +9,10 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 752e521f-198f-425a-abfa-051993f9c694
+exl-id: ecb489e2-fd6f-4163-9739-5d7ff497d305
+feature: 3D Assets
+role: Administrator,Business Practitioner
 ---
-
 # Setting up an IBL stage with Autodesk Maya and Mental Ray {#setting-up-an-ibl-stage-with-autodesk-maya-and-mental-ray}
 
 1. In Maya, create a new, empty scene.  
@@ -75,4 +77,3 @@ discoiquuid: 752e521f-198f-425a-abfa-051993f9c694
 1. Open Asset Properties in AEM. Set **[!UICONTROL Title]** to a suitable string that will appear in the **[!UICONTROL Stage Selector]** drop-down list. Verify that **[!UICONTROL Class]** is set to **[!UICONTROL 3D Stage]**. Save and exit.  
 
 1. Open a 3D asset, select the new stage, and verify that it previews and renders as expected.
-

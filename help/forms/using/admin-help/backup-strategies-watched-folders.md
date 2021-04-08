@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6f775933-e989-4456-ad01-9bdf5dee3dad
+exl-id: ae6b4caa-5bd0-4a09-9ccf-077405ea3868
 ---
-
 # Backup strategies for watched folders {#backup-strategies-for-watched-folders}
 
 This content describes how watched folders are affected by different backup and recovery scenarios, the limitations and outcomes of these scenarios, and how to minimize data loss.

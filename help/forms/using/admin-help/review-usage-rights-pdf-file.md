@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2777706c-d42b-4921-a8f4-720b7c0fa45e
+exl-id: 50f96633-bb20-4d55-adf9-3c3d314be4c5
 ---
-
 # Review the usage rights of a PDF file {#review-the-usage-rights-of-a-pdf-file}
 
 When you upload a PDF file to the Acrobat Reader DC extensions web application, you can view this information:to view whether it has been Reader extended, any usage rights applied, and their expiry dates.
@@ -19,4 +19,3 @@ When you upload a PDF file to the Acrobat Reader DC extensions web application, 
 1. Click Browse to upload the PDF file and then click Info. The information appears below the filename.
 
    See Acrobat Reader DC extensions Help for details on modifying the file’s usage rights.
-

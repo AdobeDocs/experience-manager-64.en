@@ -5,8 +5,8 @@ contentOwner: AG
 
 feature: Asset Management
 role: Business Practitioner,Administrator
+exl-id: 9fa44b26-76f7-48e2-a9df-4fd1c0074158
 ---
-
 # Manage compound assets with subassets {#managing-compound-assets}
 
 Adobe Experience Manager (AEM) Assets can identify if an uploaded file contains references to assets that already exist in the repository. This feature is available for supported file formats only. If the uploaded asset contains any references to AEM assets, a bidirectional link is created between the uploaded and referenced assets.

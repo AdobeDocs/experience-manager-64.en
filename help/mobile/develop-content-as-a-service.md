@@ -8,8 +8,8 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: 3d65cc6b-5721-472f-a805-588d50f3571b
+exl-id: 16fa0371-6bf5-449a-872a-914840640efa
 ---
-
 # Content Delivery{#content-delivery}
 
 >[!NOTE]
@@ -138,4 +138,3 @@ Content can get to the app in several ways.
     * Out-of-the-box Default Sling Renderers
     * AEM Mobile/Content Services Content Renderers
     * Custom Renders
-

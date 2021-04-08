@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: f5ab3f61-aa5a-49ae-a976-6ab7f0d11ea6
+exl-id: 8249fd48-38af-4bf7-8dcc-2f63db6750b6
 ---
-
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
 
 Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to [page editing](/help/sites-authoring/page-authoring-keyboard-shortcuts.md).
@@ -89,4 +89,3 @@ You can deactivate keyboard shortcuts in two locations:
 >[!NOTE]
 >
 >The navigation shortcut keys for the column view and content tree are always active.
-

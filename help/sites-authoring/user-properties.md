@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 6afbc889-c613-40e6-8a25-1570dff32d60
+exl-id: f620e85e-8c77-41a3-a238-9b93c819909d
 ---
-
 # Configuring your account environment{#configuring-your-account-environment}
 
 AEM provides you with the capability to configure your account and certain aspects of the author environment.
@@ -101,4 +101,3 @@ Each user can set certain properties for himself or herself.
 * **Enable Assets Home Page**
 
   This option will only be available if your system administrator has enabled Assets Home Page experience for the entire organization.
-

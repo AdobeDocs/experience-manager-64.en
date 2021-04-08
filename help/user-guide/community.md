@@ -5,8 +5,8 @@ description: The AEM Community
 seo-description: The AEM Community
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+exl-id: 537f6fe5-011b-4d4a-ac71-71708fd72b85
 ---
-
 # The AEM Community {#the-aem-community}
 
 ## What is the AEM Community? {#what-is}

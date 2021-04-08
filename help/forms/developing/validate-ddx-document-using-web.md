@@ -10,8 +10,8 @@ geptopics: SG_AEMFORMS/categories/validating_ddx_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a6fe91ab-3aa0-4b3d-87c0-6cf69a2c4cc4
 role: Developer
+exl-id: da303186-8f36-4fc8-a2db-b38a0b200c39
 ---
-
 # Validate a DDX document using the web service API {#validate-a-ddx-document-using-theweb-service-api}
 
 Validate a DDX document by using the Assembler Service API (web service):

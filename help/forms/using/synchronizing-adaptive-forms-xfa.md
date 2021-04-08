@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 29c0a78c-53b5-4ce7-a2f3-63e1b089b0d0
 feature: Adaptive Forms
+exl-id: 014c735e-84f8-4cdb-979e-bfab24b3f666
 ---
-
 # Synchronizing Adaptive Forms with XFA Form Templates {#synchronizing-adaptive-forms-with-xfa-form-templates}
 
 ## Introduction {#introduction}

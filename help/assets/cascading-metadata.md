@@ -4,8 +4,8 @@ description: This article describes how to define cascading metadata for assets.
 contentOwner: AG
 feature: Metadata
 role: Business Practitioner,Administrator
+exl-id: ea6187e8-075d-4666-afc5-01c97deccc11
 ---
-
 # Cascading Metadata {#cascading-metadata}
 
 This article describes how to define cascading metadata for assets.

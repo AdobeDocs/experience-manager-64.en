@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d7b5b5e3-2d84-4a6b-bcc2-d490882ff3ed
+exl-id: 9264c888-a583-40eb-9178-273146f8a12b
 ---
-
 # Social Component Framework {#social-component-framework}
 
 The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components on both server-side and client-side.
@@ -217,5 +217,4 @@ Additional developer information may be found in the [Coding Guidelines](code-gu
 
 ## Troubleshooting {#troubleshooting}
 
-Common concerns and known issues are described in the [Troubleshooting](troubleshooting.md) section.  
-
+Common concerns and known issues are described in the [Troubleshooting](troubleshooting.md) section.

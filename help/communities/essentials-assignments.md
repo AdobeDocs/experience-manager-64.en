@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 796781e6-5cab-4ea1-b484-0945bc8febbf
+exl-id: 310d9086-36b6-42ea-835f-c77d75e880cb
 ---
-
 # Assignments Essentials {#assignments-essentials}
 
 This page provides the essential information for working with the assignments feature of [enablement community](overview.md#enablement-community) sites.

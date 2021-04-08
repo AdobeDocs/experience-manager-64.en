@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 4d3c4650-3e2a-43b1-ad2d-8d0ae2254ca9
+exl-id: 21c10b39-ca37-4085-86f8-063c30a180ed
 ---
-
 # Technical Requirements{#technical-requirements}
 
 Adobe supports Adobe Experience Manager (AEM) on the platforms as detailed in the following information in this document.

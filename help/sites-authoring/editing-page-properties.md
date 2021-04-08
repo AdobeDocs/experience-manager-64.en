@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 8e85ea7f-80ea-43b6-a67c-366852ef86ce
+exl-id: b0e579a4-f5bd-4a55-a003-0496224bc940
 ---
-
 # Editing Page Properties{#editing-page-properties}
 
 You can define the required properties for a page. These can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
@@ -343,4 +343,3 @@ Once you have entered Bulk Editing you can:
 >[!NOTE]
 >
 >The page component can be configured to specify the fields available for bulk editing. See [Configuring your page for bulk editing of page properties](/help/sites-developing/bulk-editing.md).
-

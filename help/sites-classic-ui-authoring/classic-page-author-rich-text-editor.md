@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: adc697e1-4a1c-4985-8690-79ed77736fec
+exl-id: 44cd0092-de40-4a72-a682-1e8f5906b2e5
 ---
-
 # Rich Text Editor{#rich-text-editor}
 
 The Rich Text Editor is a basic building block for inputting textual content into AEM. It forms the basis of various components, including:
@@ -438,4 +438,3 @@ Will looks as follows in source mode (often the source is much longer, so you wi
 >[!CAUTION]
 >
 >When leaving source mode, AEM makes certain validation checks (for example, ensuring that the text is correctly contained/nested in blocks). This can result in changes to your edits.
-

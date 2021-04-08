@@ -10,8 +10,8 @@ topic-tags: personalization
 content-type: reference
 discoiquuid: 7b97fc27-30de-4ef9-9efe-673aec50cff2
 feature: Context Hub
+exl-id: fb613a57-d064-45eb-be15-c4f7e06bb0ee
 ---
-
 # Client Context in Detail{#client-context-in-detail}
 
 >[!NOTE]
@@ -631,4 +631,4 @@ To create a second client context you need to duplicate the branch:
 To use your customized client context, edit the property  
 `path`  
 in the design style of the client context component, as included in the page template. For example, as the standard location of:  
-`/libs/cq/personalization/components/clientcontext/design_dialog/items/path` 
+`/libs/cq/personalization/components/clientcontext/design_dialog/items/path`

@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: configuring
 discoiquuid: 257f3e4a-4b59-4cbb-bf61-f72f173676e6
 feature: Configuring
+exl-id: 98f7a6b1-8b16-410c-872c-4af7bc4bcc64
 ---
-
 # Configuration How-To Articles{#configuration-how-to-articles}
 
 The following topics describe how to accomplish specific AEM deployment tasks:
@@ -22,4 +22,3 @@ The following topics describe how to accomplish specific AEM deployment tasks:
 * [Performance Tuning Tips](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html)
 * [How to Remove Features From the Welcome Screen](/help/sites-developing/customizing-the-welcome-console.md)
 * [How to Turn Off the Location Tracker Feature](https://helpx.adobe.com/experience-manager/kb/turn-off-geolocation.html)
-

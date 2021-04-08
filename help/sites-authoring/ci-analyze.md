@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: ead74e39-3b07-488e-aeb1-fcb4aa6ff200
+exl-id: dc24edaf-ca1d-4a6b-a2dc-86677267e18d
 ---
-
 # Analyzing Page Performance{#analyzing-page-performance}
 
 Open the [Content Insight](/help/sites-authoring/content-insights.md) page to analyze the performance of the page that you are authoring. Configure the reporting period to focus your analysis.
@@ -104,4 +104,4 @@ Use the following procedure to create a task for an SEO recommendation.
 
 >[!NOTE]
 >
->The task that is created also includes the path to the page to which the SEO recommendation applies. 
+>The task that is created also includes the path to the page to which the SEO recommendation applies.

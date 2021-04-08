@@ -4,8 +4,8 @@ description: Configuration and best practices to allow Adobe Experience Manager 
 contentOwner: AG
 feature: Collaboration
 role: Business Practitioner,Administrator
+exl-id: 7e2adfcc-410d-4574-8f7e-39aceecfdd4b
 ---
-
 # AEM to Creative Cloud folder sharing best practices {#aem-to-creative-cloud-folder-sharing-best-practices}
 
 >[!CAUTION]

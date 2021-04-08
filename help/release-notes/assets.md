@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 397b3267-1437-4263-963c-9d68ccc928ab
+exl-id: 3f2cb2f9-2a4e-4c5d-b937-b693f27e11da
 ---
-
 # AEM Assets Release Notes {#aem-assets-release-notes}
 
 The key features, highlights, and enhancements done in AEM 6.4 Assets are covered in these release notes. For detailed information, follow the provided links.

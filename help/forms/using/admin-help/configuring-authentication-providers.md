@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 31dd8db3-ddac-429e-82f8-8c5dc4ffc186
+exl-id: 1b5ead0a-cf33-4422-bdca-2bd6aebbc98d
 ---
-
 # Configuring authentication providers {#configuring-authentication-providers}
 
 Hybrid domains require at least one authentication provider, and enterprise domains require at least one authentication provider or directory provider.
@@ -153,4 +153,3 @@ Without just-in-time provisioning, when a user is successfully authenticated but
 
 1. Add authentication providers. While adding authentication providers, on the New Authentication screen, select a registered Identity Creator and Assignment Provider. (See [Configuring authentication providers](configuring-authentication-providers.md#configuring-authentication-providers).)
 1. Save the domain.
-

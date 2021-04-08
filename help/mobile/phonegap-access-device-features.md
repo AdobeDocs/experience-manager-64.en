@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 0019e367-8edc-4a23-bfa4-5beda266ace6
+exl-id: 7f3a5081-9640-49ce-a8e7-8061fc080ec1
 ---
-
 # Access Device Features{#access-device-features}
 
 >[!NOTE]

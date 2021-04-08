@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 9cadec1b-f435-4fd8-b4bc-1a23a0cf11f3
+exl-id: 415efbe0-95f5-4c9e-ac33-c4a384a8271e
 ---
-
 # Selecting your UI{#selecting-your-ui}
 
 ## Understanding the UIs
@@ -167,4 +167,3 @@ The settings defined by a user or system administrator can be overriden by the s
 >* Manually edit the URL - A non-standard URL could result in an unknown situation and lack of functionality.
 >* Have both editors open at the same time - For example, in separate windows.  
 >
-

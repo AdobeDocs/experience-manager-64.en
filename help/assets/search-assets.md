@@ -4,8 +4,8 @@ description: Learn how to find the required assets in AEM by using Filters panel
 contentOwner: AG
 feature: Search,Metadata
 role: Business Practitioner
+exl-id: cc1a5946-e13d-4433-a25a-d297fd07e2e4
 ---
-
 # Search assets in AEM {#search-assets-in-aem}
 
 Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.

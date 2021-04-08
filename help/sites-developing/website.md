@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 8d14017d-d311-45e9-8aea-4a5ca46f1a07
+exl-id: 6d408fd6-9241-4069-9b04-806e30e03ff2
 ---
-
 # Create a Fully-Featured Website (JSP){#create-a-fully-featured-website-jsp}
 
 >[!CAUTION]
@@ -1519,4 +1519,3 @@ For this component you can set several parameters in both edit mode and design m
 1. In your browser, reload the **[!UICONTROL Products]** page. The whole page looks as follows:
 
    ![chlimage_1-9](assets/chlimage_1-9.jpeg)
-

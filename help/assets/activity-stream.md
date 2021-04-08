@@ -4,8 +4,8 @@ description: This article describes how to display activity logs for assets on t
 contentOwner: AG
 feature: Asset Management
 role: Business Practitioner,Administrator
+exl-id: 52fa2d59-177f-49ca-a480-7213ce0ca7d7
 ---
-
 # Activity stream in timeline {#activity-stream-in-timeline}
 
 This feature displays activity logs for assets on the timeline. If you perform any of the following asset-related operations in Adobe Experience Manager (AEM) Assets, the Activity stream feature updates the timeline to reflect the activity.

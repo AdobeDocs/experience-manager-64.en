@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 7313c108-39fa-4cf4-8955-2d54be41d476
 feature: Correspondence Management
+exl-id: 4e261228-14a4-4983-97ac-6ca476bee126
 ---
-
 # Manage agent signature images {#manage-agent-signature-images}
 
 ## Overview {#overview}
@@ -83,4 +83,3 @@ You can also override the default custom function to define your own logic for f
 1. When the letter is rendered, you can see you signature in the letter preview in the image field according to the layout.
 
    ![Agent signature image in the letter](assets/letterwithsignature.png)
-

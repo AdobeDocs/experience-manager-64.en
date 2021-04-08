@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 8ae6817a-16d3-4740-b67a-498e75adf350
+exl-id: 8d49a2ac-8752-4161-940d-808470e8c93b
 ---
-
 # Configuring Components in Design Mode{#configuring-components-in-design-mode}
 
 When AEM instance is installed out-of-the-box, a selection of components are immediately available in the components browser.
@@ -156,4 +156,3 @@ To either enable or disable a component:
    ![](do-not-localize/screen_shot_2018-03-22at103816.png)
 
 1. Click or tap the **Done** icon to save and close the dialogue.
-

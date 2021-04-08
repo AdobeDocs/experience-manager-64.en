@@ -8,8 +8,8 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 82e72ffb-2faa-45fe-8bb2-f485d8fa043e
+exl-id: 18b5c6e2-3b0c-4ec8-9e65-c4105b47be4e
 ---
-
 # Transaction Reports Billable APIs {#transaction-reports-billable-apis}
 
 List of all the APIs that are accounted as transactions
@@ -491,4 +491,3 @@ Actions like submitting a PDF Form, using Agent UI to preview an interactive com
 * [Transaction Reports Overview](/help/forms/using/transaction-reports-overview.md)
 * [Viewing and Understanding a Transaction Reports](/help/forms/using/viewing-and-understanding-transaction-reports.md)
 * [Record a transaction for custom implementations](/help/forms/using/record-transaction-custom-implementation.md)
-

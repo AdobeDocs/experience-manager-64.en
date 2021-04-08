@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 212930fc-3430-4a0a-842c-2fb613ef981f
 feature: Upgrading
+exl-id: 3d5bbf95-bd1e-453b-b487-517a56fe727f
 ---
-
 # Assets Repository Restructuring in AEM 6.4{#assets-repository-restructuring-in-aem}
 
 As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Assets Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
@@ -305,4 +305,3 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   </tr> 
  </tbody> 
 </table>
-

@@ -9,8 +9,10 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: da8fc33b-84ae-4ead-87bb-5a7870a38b1f
+exl-id: facd0411-8a3c-4b1a-af9d-0d59e0399b2c
+feature: 3D Assets
+role: Administrator,Business Practitioner
 ---
-
 # Setting up a standard stage with Autodesk Maya and Mental Ray {#setting-up-a-standard-stage-with-autodesk-maya-and-mental-ray}
 
 1. In Maya, create a new, empty scene.
@@ -61,4 +63,3 @@ discoiquuid: da8fc33b-84ae-4ead-87bb-5a7870a38b1f
 
 1. Open Asset Properties in AEM. Set **[!UICONTROL Title]** to a suitable string that will appear in the **[!UICONTROL Stage Selector]** drop-down list. Verify that **[!UICONTROL Class]** is set to **[!UICONTROL 3D Stage]**. Save and exit.
 1. Open a 3D asset, select the new stage, and verify that it previews and renders as expected.
-

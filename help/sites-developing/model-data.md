@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 39546c0a-b72f-42df-859b-98428ee0d5fb
+exl-id: 44a54278-f4b0-487f-95d5-d222778dffe9
 ---
-
 # Data Modeling - David Nuescheler's Model{#data-modeling-david-nuescheler-s-model}
 
 ## Source {#source}
@@ -238,4 +238,3 @@ instead of:
 -- filename
 + resource (nt:resource)
 ```
-

@@ -8,8 +8,8 @@ uuid: 62f5222c-c787-46be-95fa-a701aa0e6115
 topic-tags: introduction
 discoiquuid: 4e247e70-c50a-4571-8ac1-fbbb07100262
 feature: Adaptive Forms
+exl-id: f634a73a-e720-4a38-a459-6ddbe4fdc565
 ---
-
 # Create your first adaptive form {#do-not-publish-create-your-first-adaptive-form}
 
  ![01-create-first-adaptive-form-hero-image](assets/01-create-first-adaptive-form-hero-image.png)
@@ -121,4 +121,3 @@ You can publish adaptive forms as a stand-alone form (single page application), 
 Goals:
 
 * Publish the adaptive form as a single page application
-

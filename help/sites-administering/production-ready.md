@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 32da99f0-f058-40ae-95a8-2522622438ce
+exl-id: 2ab55a72-2eb2-49dc-8716-0a8a4d0c4b73
 ---
-
 # Running AEM in Production Ready Mode{#running-aem-in-production-ready-mode}
 
 With AEM 6.1, Adobe introduces the new `"nosamplecontent"` runmode aimed at automating the steps required to prepare an AEM instance for deployment in a production environment.
@@ -69,4 +69,3 @@ More specifically, the following configuration changes will be performed when AE
 | XML rendition |disabled |disabled |
 | json.maximumresults |1000 |100 |
 | Auto Index |disabled |disabled |
-

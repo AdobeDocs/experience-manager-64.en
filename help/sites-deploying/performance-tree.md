@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 5febbb1e-795c-49cd-a8f4-c6b4b540673d
+exl-id: dfc6a660-e6b3-4395-a555-f4cf8f3fed91
 ---
-
 # Performance Tree{#performance-tree}
 
 ## Scope {#scope}
@@ -323,4 +323,3 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   </tr> 
  </tbody> 
 </table>
-

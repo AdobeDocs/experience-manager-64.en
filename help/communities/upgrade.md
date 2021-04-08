@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 7aa28e36-6b31-4447-b800-cab2dc78c93c
+exl-id: ef622ac3-d96d-48bf-bfb2-61516d9deb5c
 ---
-
 # Upgrading to AEM 6.4 Communities {#upgrading-to-aem-communities}
 
 Depending on each site's topology and features, the following actions may be necessary when upgrading to AEM Communities 6.4 or installing the latest feature pack.

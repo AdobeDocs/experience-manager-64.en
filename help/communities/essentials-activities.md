@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 8cc04993-4021-4cb7-b973-5afc4da1ed11
+exl-id: 74dcbefa-e670-419b-af9b-b3d3c593ebaa
 ---
-
 # Activity Stream Essentials {#activity-stream-essentials}
 
 The activities of a signed in community member, such as posting to a forum or blog, is collected into a stream which may be filtered and displayed in various ways through configuration of the activity streams component.

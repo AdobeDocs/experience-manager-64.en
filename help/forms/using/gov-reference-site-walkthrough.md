@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 25a6d702-9995-4c63-99d8-3e5d710bb0c4
+exl-id: c8ebd18b-fa24-4264-bd17-f553a2a784d9
 ---
-
 # We.Gov reference site walkthrough {#we-gov-reference-site-walkthrough}
 
 ## Pre-requisite {#pre-requisite}
@@ -355,4 +355,3 @@ To generate analytics report with seed data:
 1. In CRXDE, navigate to: **/content/dam/formsanddocuments/we-gov/child-support/css/jcr:content/analyticsdatanode/lastsevendays**
 1. In the analyticsdata field under Properties, paste the copied content of the test data file.
 1. Now generate analytics report again for **[!UICONTROL Application for Child Support Services]**. You can see the seed data in the generated report.
-

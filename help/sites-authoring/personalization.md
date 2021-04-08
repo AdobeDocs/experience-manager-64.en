@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 850da0da-f7c3-4dd7-bb06-404c14a2a791
+exl-id: 669e2509-e563-46ff-b01c-3f05ec196df5
 ---
-
 # Personalization and Content Targeting {#personalization}
 
 ## Personalization and Content Targeting {#personalization-and-content-targeting}

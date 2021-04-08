@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 358d32bc-be5f-4500-9637-525d35cdbeff
+exl-id: 269eee08-5fca-4621-a56e-93db9361fa64
 ---
-
 # Managing Activities{#managing-activities}
 
 The Activities console enables you to create, organize, and manage the marketing [activities](/help/sites-authoring/personalization.md#activities) of your brands:
@@ -224,4 +224,3 @@ To avoid synchonization problems, always use unique names for activities. If an 
 >If you use the same name in the same campaign type, you will overwrite the existing campaign. 
 >
 >If while synchronizing, you encounter the error "Request Failed. `thirdPartyId` already exists," change the name of the campaign and synchronize again.
-

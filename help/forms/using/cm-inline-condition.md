@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: interactive-communications, correspondence-management
 discoiquuid: f376b8c1-e176-4fe6-b298-f3d493c59319
 feature: Correspondence Management
+exl-id: 1b669f86-5090-4618-9bd2-85fcec44d51a
 ---
-
 # Inline condition and repeat in Interactive Communications and letters {#inline-condition-and-repeat-in-interactive-communications-and-letters}
 
 Using inline condition and repeat in Interactive Communications and letters, you can create communications that are highly contextual and well structured.
@@ -234,4 +234,4 @@ You may need to insert empty inline conditions and embed text and DD elements la
 
 ![emptycondition](assets/emptycondition.png)
 
-It is, however, recommended that if possible, you insert the text and DD elements first in the text module with the intended formatting, such as bullets, and apply an inline condition afterwards. 
+It is, however, recommended that if possible, you insert the text and DD elements first in the text module with the intended formatting, such as bullets, and apply an inline condition afterwards.

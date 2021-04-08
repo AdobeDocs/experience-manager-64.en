@@ -4,8 +4,8 @@ description: Learn how to use the asset selector to search, filter, browse, and 
 contentOwner: AG
 feature: Asset Management,Metadata,Search
 role: Business Practitioner
+exl-id: 4b518ac0-5b8b-4d61-ac31-269aa1f5abe4
 ---
-
 # Asset selector {#asset-selector}
 
 >[!NOTE]

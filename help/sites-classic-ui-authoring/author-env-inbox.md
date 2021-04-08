@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 71f16254-336f-41bf-bf75-f69ba1051d59
+exl-id: e7111c21-1f38-4d0d-ac4b-c83133c0d8d6
 ---
-
 # Your Inbox{#your-inbox}
 
 You can receive notifications from various areas of AEM such as notification about work items or tasks that represent actions that you need to perform on page content.
@@ -104,4 +104,3 @@ If you have chosen to receive notifications in your AEM inbox, your inbox will f
 * Delete it by clicking **Delete**.
 
 ![chlimage_1-9](assets/chlimage_1-9.jpeg)
-

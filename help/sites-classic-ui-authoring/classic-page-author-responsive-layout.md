@@ -9,11 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 69a20064-99c9-4ead-9cc1-4c771a87268c
+exl-id: 648ac183-b1e0-46b8-b831-4a13ba50cae8
 ---
-
 # Responsive Layout{#responsive-layout}
 
 >[!CAUTION]
 >
 >Although the Layout container component is available in the classic UI, its full functionality is only available and supported in the touch-enabled UI. Please see [Responsive Layout](/help/sites-authoring/responsive-layout.md) in the standard authoring documentation for further details.
-

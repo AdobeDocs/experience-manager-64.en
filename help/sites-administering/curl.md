@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: d4ceb82e-2889-4507-af22-b051af83be38
+exl-id: 97120959-0a45-46b8-a10d-68522ad6f81a
 ---
-
 # Using cURL with AEM{#using-curl-with-aem}
 
 Administrators often need to automate or simplify common tasks within any system. In AEM for example, managing users, installing packages, and managing OSGi bundles are tasks that must be commonly done.

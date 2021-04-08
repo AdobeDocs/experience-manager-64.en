@@ -7,8 +7,10 @@ uuid: 5de8844f-d5d0-4fda-b59e-74682eda949f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 2f254541-6f9b-4f8a-9201-6c70f2d4f3b9
+exl-id: 3adae6da-e148-4670-86ae-27d83008ec66
+feature: Interactive Videos,Video
+role: Business Practitioner
 ---
-
 # Interactive Videos {#interactive-videos}
 
 You can easily create interactive videos that drive conversion directly from the video. Customer engagement with the video takes place in a panel alongside the video player where related service, information, or product thumbnails are scrolled into view based on what is featured in the video. Customers can tap the thumbnail and be linked directly to the service, or add the item to a shopping cart for immediate purchase, or be linked to a web page for more information.

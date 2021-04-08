@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: e0df2f85-664a-47b3-a8c5-e986b975d421
+exl-id: 355c4810-6e45-41cb-9b60-73225bd53526
 ---
-
 # Save forms as templates {#save-forms-as-templates}
 
 At times, when users fill a form, inputs to a few fields remain the same. For such instances, you can fill the fields that require identical values in every instance, and save the form or draft as a template. Now, every time you create an instance of the template, the specified fields are already filled with values specified in the template. It helps you save time and effort required to fill the form.
@@ -30,4 +30,3 @@ You can also delete a template if it is no longer required. To delete a template
 >[!NOTE]
 >
 >A template is available locally, and it is not synced with the server. Clearing the app's local data deletes the template.
-

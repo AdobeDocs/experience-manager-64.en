@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 80bd707f-c02d-4616-9b45-90f6c726abea
 feature: Upgrading
+exl-id: df03f65b-9951-4fd4-abf7-1672618fc1df
 ---
-
 # Common Repository Restructuring in AEM 6.4{#common-repository-restructuring-in-aem}
 
 As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes potentially impacting all solutions. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
@@ -849,4 +849,3 @@ I.e. the `sling:resourceType` of the ContextHub configuration must be relative r
   </tr>
  </tbody>
 </table>
-

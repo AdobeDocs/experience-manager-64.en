@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
 discoiquuid: a063d1ba-712a-49e1-8844-75bfa6e98977
+exl-id: 5e2b4930-c030-4abe-9b81-6e6729fe3ad4
 ---
-
 # Glossary {#glossary}
 
 This glossary lists (alpabetically) details of all Deliverable documents from the [Project Checklist](/help/managing/best-practices-checklist.md).

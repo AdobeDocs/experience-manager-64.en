@@ -5,8 +5,10 @@ contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
+exl-id: 081e7db0-95cc-4260-8f08-318cd7d9d5b4
+feature: Video
+role: Business Practitioner
 ---
-
 # Video {#video}
 
 Assets provide for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Dynamic Media Classic. You can also access Dynamic Media Classic videos directly from Assets for page authoring.
@@ -182,4 +184,3 @@ The **[!UICONTROL Foundation Video]** component must know about what video profi
 1. The video profiles must be activated.
 1. Configure the design of the **[!UICONTROL Foundation Video]** component on your page.
 1. Activate the design after you are done with your design changes.
-

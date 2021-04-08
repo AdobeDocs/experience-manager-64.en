@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: a87834c9-247c-49fa-9978-a969230db91c
+exl-id: 732ef9c7-b556-497d-a157-c1b2945eb4e1
 ---
-
 # Manage App Tile{#manage-app-tile}
 
 >[!NOTE]
@@ -164,4 +164,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/developing-in-phonegap.md)
 * [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/administer-phonegap.md)
-

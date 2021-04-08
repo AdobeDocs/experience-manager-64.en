@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: b6786321-6e8e-40e2-809b-d117991246c4
 feature: Form Data Model
+exl-id: 8cbd3fb0-3c87-433e-bfd7-0f93216a5de7
 ---
-
 # Introduction to AEM Forms Data Integration {#aem-forms-data-integration}
 
 Data Integration lets you integrate AEM Forms with disparate data sources and create form data model to create and work with adaptive forms and interactive communications.
@@ -53,4 +53,3 @@ Review the following to get started, understand, and implement data integration.
 * [Create form data model](/help/forms/using/create-form-data-models.md)
 * [Work with form data model](/help/forms/using/work-with-form-data-model.md)
 * [Use form data model](/help/forms/using/using-form-data-model.md)
-

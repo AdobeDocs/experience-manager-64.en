@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: site-features
 discoiquuid: 977a3dda-4292-4bd2-bfa5-af4d789d9ef9
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
+exl-id: 2a790f7d-03a1-4f60-a59e-0a5f15c44fa5
 ---
-
 # Promoting Launches{#promoting-launches}
 
 You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page. The following options are available when promoting a launch page:
@@ -142,4 +142,3 @@ To start a workflow automatically when pages are promoted, [configure a workflow
 For example, you can automatically generate page activation requests when authors promote Launches pages. Configure a workflow launcher to start the Request Activation workflow when the package node is modified. 
 
 ![chlimage_1-7](assets/chlimage_1-7.png)
-

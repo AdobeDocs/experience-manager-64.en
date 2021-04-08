@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 5271feb9-70c6-4c82-8ac7-34a63d80e3aa
+exl-id: f5a63642-9f2c-436f-bd40-4459545a0ddf
 ---
-
 # Naming Conventions {#naming-conventions}
 
 ## Hyphens in Java Package Name {#hyphens-in-java-package-name}

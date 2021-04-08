@@ -8,8 +8,8 @@ contentOwner: gtalwar
 topic-tags: interactive-communications, introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 67b03098-c58d-4a57-90e0-e4ddd78e5d99
+exl-id: 386fc8b2-c92d-4731-8445-1bb6af54fd98
 ---
-
 # Interactive Communications Overview {#interactive-communications-overview}
 
 This article includes overview, sample use cases, creation workflow, and differences between Interactive Communication and letter.
@@ -143,4 +143,3 @@ Interactive Communication is the default and recommended approach to create cust
   </tr>
  </tbody>
 </table>
-

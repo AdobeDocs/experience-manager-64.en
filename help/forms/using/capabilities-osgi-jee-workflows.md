@@ -7,8 +7,8 @@ uuid: ce2a05fe-ba45-42ed-880e-fb1d6efc1d26
 contentOwner: khsingh
 topic-tags: publish
 discoiquuid: 4c7ba430-25b2-4ba2-a5eb-4edaed0d599a
+exl-id: 6172d936-9348-4f3f-a437-6465dd156f3b
 ---
-
 # Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows  {#actions-and-capabilities-of-form-centric-aem-workflows-on-osgi-and-aem-forms-jee-workflows}
 
 ## AEM Inbox and HTML Workspace {#aem-inbox-and-html-workspace}
@@ -383,4 +383,3 @@ The following table lists the capabilities of AEM Inbox and AEM Forms app:
   </tr>
  </tbody>
 </table>
-

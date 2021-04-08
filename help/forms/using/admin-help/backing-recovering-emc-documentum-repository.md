@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f146202f-25f1-46a0-9943-c483f5f09f9f
+exl-id: 89d7b2e1-1d88-4392-89d3-484a98f07121
 ---
-
 # Backing up and recovering the EMC Documentum repository {#backing-up-and-recovering-the-emc-documentum-repository}
 
 This section describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
@@ -262,4 +262,3 @@ Perform the following tasks before you restore your AEM forms data. (See [Recove
    ```as3
     - nsrnmdrs.exe -B <docbase_name> -f <path_to_cfg_file> -C SA
    ```
-

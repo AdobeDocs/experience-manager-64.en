@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: cdcae09f-c3cb-471e-863f-b33130e9df0f
+exl-id: c72b246d-442e-4841-810d-1045e83f60f9
 ---
-
 # File Library Feature {#file-library-feature}
 
 ## Introduction {#introduction}

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 79d426a6-bad5-4f6d-a027-ca935576bcb9
+exl-id: 07f143cc-4ba4-4b34-bb6d-641691a1afa7
 ---
-
 # Delivering Dynamic Media assets{#delivering-dynamic-media-assets}
 
 How you can deliver your Dynamic Media assets &ndash; both video and images &ndash; depends on how your web site is implemented.
@@ -23,4 +23,3 @@ With Dynamic Media you have several options:
 For more information, see the following topics:
 
 * [Adding Dynamic Media assets to pages](/help/sites-classic-ui-authoring/dynamic-media-assets-adding-to-page.md)
-

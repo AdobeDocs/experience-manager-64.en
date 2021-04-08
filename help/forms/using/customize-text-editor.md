@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: a80254a2-245c-48fa-b460-958eeda085af
 feature: Correspondence Management
+exl-id: 5e9f8e0f-209e-4613-b230-2b826b46ba6b
 ---
-
 # Customize text editor {#customize-text-editor}
 
 ## Overview {#overview}
@@ -187,4 +187,3 @@ For example, the Sazanami Mincho Medium font added in the [Customize fonts by ed
 >[!NOTE]
 >
 >To see text in Japanese, you first need to enter the text with Japanese characters. The application of a custom Japanese font only formats the text in a certain way. Application of a custom Japanese font does not change English or other characters to Japanese characters.
-

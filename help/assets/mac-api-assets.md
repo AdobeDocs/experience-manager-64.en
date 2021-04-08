@@ -4,8 +4,8 @@ description: Create, read, update, delete, manage digital assets using HTTP API 
 contentOwner: AG
 feature: APIs,Assets HTTP API,Developer Tools
 role: Developer
+exl-id: 3d7d078c-5046-489a-a8e0-258acaea7191
 ---
-
 # Assets HTTP API {#assets-http-api}
 
 The Assets HTTP API allows for create-read-update-delete (CRUD) operations on digital assets, including on metadata, on renditions, and on comments, together with structured content using [!DNL Experience Manager] Content Fragments. It is exposed at `/api/assets` and is implemented as REST API.

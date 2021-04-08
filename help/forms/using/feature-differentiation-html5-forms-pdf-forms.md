@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 273096d0-b0e1-4519-8af6-11b3414cc172
 feature: Mobile Forms
+exl-id: 2b82e68c-ec11-417d-a8e2-769da9b35140
 ---
-
 # Feature differentiation between HTML5 forms and PDF forms {#feature-differentiation-between-html-forms-and-pdf-forms}
 
 The following table specifies the feature support provided for HTML5 forms and PDF forms:
@@ -77,4 +77,3 @@ The following table specifies the feature support provided for HTML5 forms and P
 </table>
 
 Follow the best practices to enable a form template for HTML5 renditions and ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent. For detailed list of best practices, see [Best practices to design an HTML5 form.](/help/forms/using/best-practices-for-html5-forms.md)
-

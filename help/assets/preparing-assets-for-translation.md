@@ -4,8 +4,8 @@ description: Create language root folders to prepare for translating multilingua
 contentOwner: AG
 feature: Projects,Translation
 role: Business Practitioner,Administrator
+exl-id: cc6c4f9e-8e22-4622-8b24-230ae258351c
 ---
-
 # Preparing Assets for Translation {#preparing-assets-for-translation}
 
 Multilingual assets means assets with binaries, metadata, and tags in multiple languages. Generally, binaries, metadata, and tags for assets exist in one language, which are then translated to other languages for use in multilingual projects.
@@ -65,4 +65,3 @@ The touch-optimized UI provides a References panel that shows a list of language
 1. In the References pane, click or tap **[!UICONTROL Language Copies]**. The Language Copies panel shows the language copies of the assets.
 
    ![chlimage_1-123](assets/chlimage_1-123.png)
-

@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: configuring
 discoiquuid: 80118cd1-73e1-4675-bbdf-85d66d150abc
 feature: Configuring
+exl-id: 06b197de-f97b-451f-8037-931c8cd754b6
 ---
-
 # Performance Optimization {#performance-optimization}
 
 >[!NOTE]

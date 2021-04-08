@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 1bc19f9a-fa3f-43e3-813e-23ab0b708d43
+exl-id: 34b509d5-4e80-4229-b155-40004856e87e
 ---
-
 # Troubleshooting AEM{#troubleshooting-aem}
 
 The following section covers some issues that you may encounter when using AEM, together with suggestions on how to troubleshoot them.
@@ -122,4 +122,3 @@ The status of the OSGi bundles can also give an early indication of possible iss
     * whether any of the bundles have missing dependencies. Such details can be seen by clicking on the individual bundle Name, which is a link (the following example does not have any issues):
 
 ![screen_shot_2012-02-13at44706pm](assets/screen_shot_2012-02-13at44706pm.png)
-

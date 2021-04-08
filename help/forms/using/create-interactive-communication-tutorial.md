@@ -8,8 +8,8 @@ contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 39262cb1-1447-469a-9c01-886f66eeec74
 feature: Interactive Communication
+exl-id: b4ec8004-d100-4bcb-b2d8-0928e0955d3f
 ---
-
 # Tutorial: Create Interactive Communication {#tutorial-create-interactive-communication}
 
 Create an Interactive Communication using all building blocks
@@ -223,4 +223,3 @@ Execute the following steps to derive the Web channel content using Print channe
    ![ic_web_content_tree](assets/ic_web_content_tree.png)
 
 1. Repeat steps 13 - 18 of [Create Interactive Communication for Web channel](#create-interactive-communication-for-web-channel) to insert the **Pay Now** and **Subscribe** hyperlinks in the Web channel of the Interactive Communication.
-
