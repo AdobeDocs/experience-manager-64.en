@@ -20,7 +20,6 @@ role: Leader, Architect, Developer, Data Architect, Data Engineer, Administrator
 + [AEM Forms Release Notes](forms.md)
 + [AEM Forms JEE Patch Installer](jee-patch-installer-64.md)
 + [AEM Communities Release Notes](communities-release-notes.md)
-+ [AEM 3D Release Notes](aem3d-release-notes.md)
 + [Deprecated and Removed Features](deprecated-removed-features.md)
 + [Known Issues](known-issues.md)
 + [AEM Foundation and Repository](wcm-platform.md)

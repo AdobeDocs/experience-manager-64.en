@@ -161,7 +161,3 @@ See [Smart Imaging](../assets/imaging-faq.md) documentation to learn more.
 * VR Viewer provides immersive experience for properties, locations, and landscapes.
 * Vertical Image Viewer optimized for product imagery.
 * Keyboard accessibility improvements.
-
-### 3D and integration with Dimension CC {#d-and-integration-with-dimension-cc}
-
-Integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introduced. To learn more, see [Working with 3D assets](../assets/assets-3d.md) documentation.

@@ -241,14 +241,6 @@ New viewers, including Panoramic and VR, let you provide more immersive experien
 
 See [Panoramic Images](/help/assets/panoramic-images.md) documentation to learn more.
 
-**3D Assets**
-
-New integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html), a Creative Cloud application for authoring 3D experiences.
-
-See [Working with 3D assets](/help/assets/assets-3d.md) documentation to learn more.
-
-![do-not-localize/3d](assets/do-not-localize/3d.png)
-
 ### Experience Manager Forms {#experience-manager-forms}
 
 AEM 6.4 Forms brings in several new features and enhancements. The highlights include:
