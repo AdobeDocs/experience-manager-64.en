@@ -241,10 +241,6 @@ New viewers, including Panoramic and VR, let you provide more immersive experien
 
 See [Panoramic Images](/help/assets/panoramic-images.md) documentation to learn more.
 
-
-
-![do-not-localize/3d](assets/do-not-localize/3d.png)
-
 ### Experience Manager Forms {#experience-manager-forms}
 
 AEM 6.4 Forms brings in several new features and enhancements. The highlights include:
