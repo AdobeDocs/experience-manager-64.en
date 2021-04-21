@@ -8,7 +8,7 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 821eb27e-67c9-4589-9196-30dacb84fa59
 exl-id: 1e122f97-ac37-44f5-a1cd-bf53ffda6f5b
-feature: Configuration,Hybrid mode
+feature: Configuration,Hybrid Mode
 role: Administrator,Business Practitioner,Developer
 ---
 # Configuring Dynamic Media - Hybrid mode {#configuring-dynamic-media-hybrid-mode}
