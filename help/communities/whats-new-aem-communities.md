@@ -1,8 +1,6 @@
 ---
 title: What's New in AEM 6.4 Communities
-seo-title: What's New in AEM 6.4 Communities
-description: null
-seo-description: null
+description: AEM Communities offers a framework to businesses to collaborate among their partners, customers and employees.
 uuid: e4bf343c-59cd-48ac-bee4-85db109e4c65
 contentOwner: mgulati
 discoiquuid: 3e3c867f-afb0-4402-94f4-16e1a556ddee

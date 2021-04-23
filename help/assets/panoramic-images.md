@@ -1,6 +1,6 @@
 ---
 title: Panoramic Images
-Description: Learn how to work with panoramic images in Dynamic Media.
+description: Learn how to work with panoramic images in Dynamic Media.
 contentOwner: Rick Brough
 topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
