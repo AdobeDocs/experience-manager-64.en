@@ -757,14 +757,14 @@ This has been adjusted to make the reference to `CugSupport` optional in order t
 
 ### AEM LiveCopy {#aem-livecopy}
 
-Configuring CUGs in conjuction with LiveCopy is represented in the repository by the addition of one extra node and one extra property as follows:
+Configuring CUGs in conjunction with LiveCopy is represented in the repository by the addition of one extra node and one extra property as follows:
 
 * `/content/we-retail/us/en/blueprint/rep:cugPolicy`
 * `/content/we-retail/us/en/LiveCopy@granite:loginPath`
 
 Both of these elements are created under the `cq:Page`. With the current design, MSM only handles nodes and properties that are under the `cq:PageContent` (`jcr:content`) node.
 
-Therefore, CUG groups cannot be rolled back from a blueprint to a Live Copy. Please plan accordingly around this when setting up a Live Copy.
+Therefore, CUG groups cannot be rolled out to Live Copies from Blueprints. Please plan around this when configuring Live Copy.
 
 ## Changes with the New CUG Implementation {#changes-with-the-new-cug-implementation}
 
