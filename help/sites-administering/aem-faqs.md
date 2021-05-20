@@ -125,9 +125,9 @@ As a workaround, you can also manually disable the component either via the UI o
 
 `curl -u admin:$(pass CQ_Admin) 'http://localhost:4502/system/console/components/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter' --data 'action=disable'`
 
-### How to configure Asset Insights with AEM 6.4 instance? {#how-to-configure-asset-insights-with-aem-instance}
+### How to configure Assets Insights with AEM 6.4 instance? {#how-to-configure-asset-insights-with-aem-instance}
 
-To setup and configure Asset Insights for Experience Manager deployed via Adobe Activation (DTM), refer to [Set up Asset Insights with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/asset-insights-tutorial-setup.html).
+To setup and configure Assets Insights for Experience Manager deployed via Adobe Activation (DTM), refer to [Set up Assets Insights with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/asset-insights-tutorial-setup.html).
 
 ### How to customize admin consoles? {#how-to-customize-admin-consoles}
 

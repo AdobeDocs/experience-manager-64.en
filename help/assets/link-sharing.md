@@ -23,7 +23,7 @@ To generate the URL for assets that you want to share with users, use the Link S
 1. From the toolbar, click the **[!UICONTROL Share Link]** ![share assets icon](assets/assets_share.png). The link that will be created after clicking **[!UICONTROL Share]** is displayed in advance in the [!UICONTROL Share Link] field. The link is not yet created till you click **[!UICONTROL Submit]**.
 
    ![Dialog with the Link Share](assets/chlimage_1-542.png)
-   
+
    *Figure: The dialog to share assets as a link.*
 
 1. In the email address box of the **[!UICONTROL Link Sharing]** dialog, type the email ID of the user you want to share the link with. You can add one or more users.
