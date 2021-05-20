@@ -376,7 +376,7 @@ Some limitations of the feature are:
     * Channels/devices through which the asset was used.
     * Creative solutions where the asset was recently used.
 
-   For more details, see [Asset Insights](touch-ui-asset-insights.md).
+   For more details, see [Assets Insights](touch-ui-asset-insights.md).
 
 1. Tap **[!UICONTROL Save & Close]**.
 1. Navigate to the Assets UI. The edited metadata properties, including title, description, ratings, and so on are displayed on the asset card in card view and under relevant columns in the list view.
