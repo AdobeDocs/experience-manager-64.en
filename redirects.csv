@@ -1,6 +1,5 @@
 source,dest
 https://experienceleague.adobe.com/docs/eclipse.html,https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/howto-projects-eclipse.html
-https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/creative-cloud.html,https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/aem-cc-folder-sharing-best-practices.html
 https://experienceleague.adobe.com/docs/experience-manager-64/deploying/deploying/maintenance-release-vehicle-definitions.html,https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-release-vehicle-definitions.html
 https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/brand-portal-configuring-integration.html,https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html
 https://experienceleague.adobe.com/docs/experience-manager-64/screens/home.html,https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html
@@ -75,3 +74,5 @@ https://experienceleague.adobe.com/docs/experience-manager-64/developing/extendi
 https://experienceleague.adobe.com/docs/experience-manager-64/developing/extending-aem/extending-classic-ui/dev-reports.html,https://experienceleague.adobe.com/docs/experience-manager-64/developing/platform/dev-reports.html
 https://experienceleague.adobe.com/docs/experience-manager-64/developing/testing/hobbes.html,https://experienceleague.adobe.com/docs/experience-manager-64/developing/components/hobbes.html
 https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/dev-guidelines-bestpractices.html,https://experienceleague.adobe.com/docs/experience-manager-64/developing/introduction/dev-guidelines-bestpractices.html
+https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/configure-assets-cc-integration.html,https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html
+https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/creative-cloud.html,https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/aem-cc-integration-best-practices.html
