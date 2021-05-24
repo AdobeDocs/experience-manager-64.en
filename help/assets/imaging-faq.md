@@ -1,9 +1,6 @@
 ---
 title: Smart Imaging
-seo-title: Smart Imaging
 description: Smart imaging leverages each user's unique viewing characteristics to automatically serve the right images optimized for their experience, resulting in better performance and engagement.
-seo-description: Smart imaging leverages each user's unique viewing characteristics to automatically serve the right images optimized for their experience, resulting in better performance and engagement.
-uuid: c11e52ba-8d64-4dc5-b30a-fc10c2b704e5
 contentOwner: Rick Brough
 topic-tags: dynamic-media
 content-type: reference
@@ -37,9 +34,53 @@ The following image asset examples depict the added Smart Imaging optimization:
 
 Similar to the above, Adobe also ran a test with 7009 URLs from live customer sites. They were able to achieve an average of 38% further file size optimization for JPEG. For PNG with WebP format, they were able to achieve an average of 31% further file size optimization. This kind of optimization is possible because of the capability of Smart Imaging.
 
+On the mobile web, the challenges are compounded by two factors:
+
+* Large variety of devices with different form factors and high-resolution displays.
+* Constrained network bandwidth.
+
+In terms of images, the goal is to serve the best quality images as efficiently as possible.
+
+### About device pixel ratio optimization {#dpr}
+
+Device pixel ratio (DPR) &ndash; also known as CSS pixel ratio &ndash; is the relation between a device’s physical pixels and logical pixels. Especially with the advent of retina screens, the pixel resolution of modern mobile devices is growing at a fast rate.
+
+Enabling Device Pixel Ratio optimization renders the image at the native resolution of the screen which makes it look crisp.
+
+Turning on Smart Imaging DPR configuration automatically adjusts the requested image based on pixel density of the display the request is being served from. Currently, the pixel density of the display comes from Akamai CDN header values.
+
+| Permitted values in the URL of an image | Description |
+|---|---|
+| `dpr=off` | Turn off DPR optimization at an individual image URL level.| 
+| `dpr=on,dprValue` | Override the DPR value detected by Smart Imaging, with a custom value (as detected by any client-side logic or other means). Permitted value for `dprValue` is any number greater than 0. Specified values of 1.5, 2, or 3 are typical. |
+
+>[!NOTE]
+>
+>* You can use `dpr=on,dprValue` even if the company level DPR setting as off.
+>* Owing to DPR optimization, when the resultant image is greater than the MaxPix Dynamic Media setting, MaxPix width is always recognized by maintaining the image's aspect ratio.
+
+| Requested Image size | DPR value | Delivered image size |
+|---|---|---|
+| 816x500 | 1 | 816x500 |
+| 816x500 | 2 | 1632x1000 |
+
+### About network bandwidth optimization {#network-bandwidth-optimization}
+
+Turning on Network Bandwidth automatically adjusts the image quality that is served based on actual network bandwidth. For poor network bandwidth, DPR optimization is automatically turned off, even if it is already on.
+
+If desired, your company can opt out of network bandwidth optimization at the individual image level by appending `network=off` to the URL of the image.
+
+| Permitted value in the URL of an image | Description |
+|---|---|
+| `network=off` | Turns off network optimization at an individual image URL level. |
+
+>[!NOTE]
+>
+>DPR and network bandwidth values are based on the detected client-side values of the bundled CDN. These values are sometimes inaccurate. For example, iPhone5 with DPR=2 and iPhone12 with DPR=3, both show DPR=2. Still, for high-resolution devices, sending DPR=2 is better than sending DPR=1. Coming soon: Adobe is working on client-side code to accurately determine an end user's DPR.
+
 ## What are the key benefits of the latest Smart Imaging? {#what-are-the-key-benefits-of-smart-imaging}
 
-Because images constitute most of a page's load time, the performance improvement can have a profound impact on a Business such as higher conversion, time spent on site, and lower site bounce rate.
+Images constitute most of a page's load time. As such, any performance improvement can have a profound impact on higher conversion rates, time spent on a site, and lower site bounce rates.
 
 Enhancements in latest version of Smart Imaging:
 
@@ -98,7 +139,6 @@ The following image formats are supported for Smart Imaging:
 
 Adobe is working on a permanent fix that does not require you to append `bfc=off` for `fmt !=JPEG` or `fmt !=PNG`. This topic will be updated after the fix is delivered. -->
 
-
 ## How does Smart Imaging work with your existing image presets that are already in use? {#how-does-smart-imaging-work-with-our-existing-image-presets-that-are-already-in-use}
 
 Smart Imaging works with your existing “image presets” and observes all of your image settings except for quality (`qlt`) and format (`fmt`) if the requested file format is JPEG or PNG. For format conversion, Adobe maintains full visual fidelity as defined by your image preset settings, but at a smaller file size. If original image size is smaller than what Smart Imaging produces, then the original image is served.
@@ -128,13 +168,23 @@ To use Smart Imaging, your company's Dynamic Media Classic or Dynamic Media on E
 
 To find your domains, log in to your company account or accounts.  
   
-Tap **[!UICONTROL Setup > Application Setup > General Settings]**. Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic domain, you can request moving over to your own custom domain as part of this transition when you submit a technical support ticket.
+Tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**. Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic domain, you can request moving over to your own custom domain as part of this transition when you submit a technical support ticket.
 
 Your first custom domain is no additional cost with a Dynamic Media license.
 
 ## What is the process for enabling Smart Imaging for my account? {#what-is-the-process-for-enabling-smart-imaging-for-my-account}
 
 You initiate the request to use smart imaging; it is not automatically enabled.
+
+By default, Smart Imaging DPR and network optimization is disabled (turned off) for a Dynamic Media company account. If you want to enable (turn on) one or both of these out-of-the-box enhancements, create a support case as described below.
+
+The release schedule for Smart Imaging DPR and network optimization is as follows:
+
+| Region | Target date |
+|---|---|
+| North America | 24 May 2021 |
+| Europe, Middle East, Africa | 25 Jun 2021 |
+| Asia-Pacific | 19 Jul 2021 |
 
 1. [Use the Admin Console to create a support case.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 1. Provide the following information in your support case:
@@ -144,7 +194,7 @@ You initiate the request to use smart imaging; it is not automatically enabled.
 
        To find your domains, open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your company account or accounts.
 
-       Click **[!UICONTROL Setup > Application Setup > General Settings]**.  
+       Click **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.  
 
        Look for the field labeled **[!UICONTROL Published Server Name]**.
     1. Verify that you are using the CDN through Adobe and not managed with a direct relationship.
@@ -152,7 +202,7 @@ You initiate the request to use smart imaging; it is not automatically enabled.
 
        To find your domains, open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your company account or accounts.
 
-       Click **[!UICONTROL Setup > Application Setup > General Settings]**.  
+       Click **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.  
 
        Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic Dynamic Media Classic domain, you can request moving over to your own custom domain as part of this transition.
     1. Indicate if you also need Smart Imaging to work over HTTP/2.
@@ -163,7 +213,7 @@ You initiate the request to use smart imaging; it is not automatically enabled.
 1. You are notified after completion by support.
 1. To maximize the performance improvements of Smart Imaging, Adobe recommends setting the Time To Live (TTL) to 24 hours or longer. The TTL defines how long assets are cached by the CDN. To change this setting:
 
-    1. If you use Dynamic Media Classic, click **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**. Set the **[!UICONTROL Default Client Cache Time To Live]** value to 24 or longer.
+    1. If you use Dynamic Media Classic, click **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Set the **[!UICONTROL Default Client Cache Time To Live]** value to 24 or longer.
     1. If you use Dynamic Media, follow [these instructions](config-dynamic.md). Set the **[!UICONTROL Expiration]** value 24 hours or longer.
 
 ## When can I expect my account to be enabled with Smart Imaging? {#when-can-i-expect-my-account-to-be-enabled-with-smart-imaging}
@@ -183,7 +233,7 @@ During the initial transition, the non-cached images directly hit Adobe's origin
 ## How can I verify whether smart imaging is working as expected?  {#how-can-i-verify-whether-smart-imaging-is-working-as-expected}
 
 1. After your account is configured with smart imaging, load a Dynamic Media Classic/Dynamic Media image URL on the browser.
-1. Open the Chrome developer pane by clicking **[!UICONTROL View > Developer > Developer Tools]** in the browser. Or, choose any browser developer tool of your choice.
+1. Open the Chrome developer pane by clicking **[!UICONTROL View]** > **[!UICONTROL Developer]** > **[!UICONTROL Developer Tools]** in the browser. Or, choose any browser developer tool of your choice.
 
 1. Ensure that cache is disabled when developer tools are open.
 
@@ -203,6 +253,10 @@ During the initial transition, the non-cached images directly hit Adobe's origin
 
 Yes. You can turn off Smart Imaging by adding the modifier `bfc=off` to the URL.
 
+## Can I request DPR and network optimization to be turned off at the company level? {#dpr-companylevel-turnoff}
+
+Yes. To disable DPR and network optimization at your company, create a support case as described earlier in this topic.
+
 ## What "tuning" is available? Are there any settings or behaviors that can be defined? (#tuning-settings)
 
 Currently, you can optionally enable or disable Smart Imaging. No other tuning is available.
@@ -214,3 +268,9 @@ There is no such provisioning ability in the current Smart Imaging.
 ## Sometimes, a JPEG image is returned to Chrome instead of a WebP image. Why? (#jpeg-webp)
 
 Smart Imaging determines if the conversion is beneficial or not. It returns the new image only if the conversion results in a smaller file size with comparable quality.
+
+## How does Smart Imaging DPR optimization work with Adobe Experience Manager Sites components and Dynamic Media viewers?
+
+* Experience Manager Sites Core Components are configured by default for DPR optimization. To avoid oversized images owing to server-side Smart Imaging DPR optimization, `dpr=off` is always added to Experience Manager Sites Core Components Dynamic Media images.
+* Given Dynamic Media Foundation Component is configured by default for DPR optimization, to avoid oversized images owing to server-side Smart Imaging DPR optimization, `dpr=off` is always added to Dynamic Media Foundation Component images. Even if customer deselects DPR optimization in DM Foundation Component, server-side Smart Imaging DPR does not kick in. In summary, in the DM Foundation Component, DPR optimization comes into effect based on DM Foundation Component level setting only.
+* Any viewer side DPR optimization works in tandem with server-side Smart Imaging DPR optimization, and does not result in over-sized images. In other words, wherever DPR is handled by the viewer, such as the main view only in a zoom-enabled viewer, the server-side Smart Imaging DPR values are not triggered. Likewise, wherever viewer elements, such as swatches and thumbnails, do not have DPR handling, the server-side Smart Imaging DPR value is triggered.
