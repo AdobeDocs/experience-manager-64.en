@@ -16,7 +16,7 @@ Assets Insights captures user activity details, such as the number of times an a
 
 For Assets Insights to capture usage statistics for assets from a website, you must include the embed code for the asset in the website code.
 
-To let Assets Insights display usage statistics for assets, first configure the feature to fetch reporting data from [!DNL Adobe Analytics]. For details, see [Configure Assets Insights](touch-ui-configuring-asset-insights.md). To use this feature, buy [!DNL Adobe Analytics] license separately. Customers on [!DNL Managed Services] receive [!DNL Analytics] license bundled with [!DNL Experience Manager]. See [Managed Services product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html).
+To let Assets Insights display usage statistics for assets, first configure the feature to fetch reporting data from [!DNL Adobe Analytics]. For details, see [Configure Assets Insights](touch-ui-configuring-asset-insights.md). To use this feature in an on-premise installation, purchase [!DNL Adobe Analytics] license separately. Customers on [!DNL Managed Services] receive [!DNL Analytics] license bundled with [!DNL Experience Manager]. See [Managed Services product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html).
 
 >[!NOTE]
 >
