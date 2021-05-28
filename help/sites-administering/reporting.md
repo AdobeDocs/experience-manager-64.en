@@ -320,6 +320,11 @@ All components are included, product-standard and project-specific. Using the **
 
 ### Disk Usage {#disk-usage}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_ctt_diskusage"
+>title="Disk Usage Report"
+>abstract="As an input to CTT Calculator, Users can estimate the size of the AEM Repository by running the Disk Usage report under 'http://HOST:PORT/etc/reports/diskusage.html'. Users can also estimate size of specific repository paths by using the 'path' parameter such as: 'http://HOST:PORT/etc/reports/diskusage.html?path=/content/dam'."
+
 The disk usage report shows information about the data stored within your repository.
 
 The report starts in the root ( / ) of the repository; by clicking on a particular branch you can drill down inside the repository (the current path will be reflected in the report title).
