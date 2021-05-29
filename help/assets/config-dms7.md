@@ -27,11 +27,11 @@ With the new architecture, Experience Manager is responsible for master assets a
 
 ## Enabling Dynamic Media in Scene7 mode {#enabling-dynamic-media-in-scene-mode}
 
-[Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you must enable it.
+[Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of Dynamic Media features, you must enable it.
 
->[!NOTE]
+>[!WARNING]
 >
->Dynamic Media - Scene7 mode is for the Experience Manager Author instance only. As such, you must configure `runmode=dynamicmedia_scene7`on the Experience Manager Author instance, not the Experience Manager Publish instance.
+>Dynamic Media - Scene7 mode is for the *Experience Manager Author instance only*. As such, you must configure `runmode=dynamicmedia_scene7`on the Experience Manager Author instance, *not* the Experience Manager Publish instance.
 
 To enable Dynamic Media, you must startup Experience Manager using the `dynamicmedia_scene7` run mode from the command line by entering the following in a terminal window (example port used is 4502):
 
@@ -71,7 +71,7 @@ Change the password, before you configure Dynamic Media Cloud Services. After yo
 
 **To configure Dynamic Media Cloud Services:**
 
-1. In Experience Manager, tap the Experience Manager logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services]** > **[!UICONTROL Dynamic Media Configuration]**.
+1. In your Experience Manager Author instance, tap the Experience Manager logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services]** > **[!UICONTROL Dynamic Media Configuration]**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, tap **[!UICONTROL global]** and tap **[!UICONTROL Create]**. Do not tap or select the folder icon to the left of [!UICONTROL global].
 1. On the [!UICONTROL Create Dynamic Media Configuration] page, enter a title, the Dynamic Media account email address, and password. Select your region. This information is provided to you by Adobe in your provisioning email. Contact Adobe Customer Care if you did not receive the email.
 
@@ -101,7 +101,7 @@ Change the password, before you configure Dynamic Media Cloud Services. After yo
 1. Tap **[!UICONTROL Save]**.
 1. To securely preview Dynamic Media content before it gets published, you must "allowlist" the Experience Manager Author instance to connect to Dynamic Media:
 
-    * Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account. Your credentials and sign in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+    * Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account. Your credentials and sign-in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
     * On the navigation bar near the top right of the page, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
     * On the Image Server Publish page, in the Publish Context drop-down list, select **[!UICONTROL Test Image Serving]**.
     * For the Client Address Filter, tap **[!UICONTROL Add]**.
@@ -261,7 +261,7 @@ You can add custom MIME types for unsupported formats in Experience Manager Asse
 
 1. Type `DWG=image/vnd.dwg` in the empty text field that you just added.
 
-   The example `DWG=image/vnd.dwg` is for illustration purposes only. The MIME type that you add here can be any other unsupported format.
+   The example `DWG=image/vnd.dwg` is for demonstration purposes only. The MIME type that you add here can be any other unsupported format.
 
    ![Example mime type addition](assets/2019-08-02_16-36-36.png)
 
@@ -301,7 +301,7 @@ When you upload files, Dynamic Media automatically creates a set with all files 
 
 **Configuring default naming**
 
-Create a default naming convention that is used in any batch set preset recipe. The default naming convention selected in the batch set preset definition is likely all that your company needs to batch-generate sets. A batch set preset is created to use the default naming convention that you define. You are able to create as many Batch Set presets with alternate, custom naming conventions needed for a particular set of content in cases where there is an exception to the company-defined default naming.
+Create a default naming convention that is used in any batch set preset recipe. The default naming convention selected in the batch set preset definition is likely all that your company needs for generating batch sets. A batch set preset is created to use the default naming convention that you define. You are able to create as many Batch Set presets with alternate, custom naming conventions needed for a particular set of content in cases where there is an exception to the company-defined default naming.
 
 While setting up a default naming convention is not required to use batch set preset functionality, you can use it to define as many elements of your naming convention that you want grouped in a set. Doing so helps to streamline batch set creation.
 
@@ -313,7 +313,7 @@ Two elements are available for definition, **[!UICONTROL Match]** and **[!UICONT
 
 1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account.
 
-   Your credentials and sign in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+   Your credentials and sign-in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
 1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Default Naming]**.
 1. Select **[!UICONTROL View Form]** or **[!UICONTROL View Code]** to specify how you want to view and enter information about each element.
@@ -347,7 +347,7 @@ You can use either the form field method to define a batch set preset or the cod
 
 1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account.
 
-   Your credentials and sign in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+   Your credentials and sign-in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
 1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**.
 
@@ -402,7 +402,7 @@ When the Spin Set is uploaded and published, you activate the name of the 2D Spi
 
 1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account.
 
-   Your credentials and sign in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+   Your credentials and sign-in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
 1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**.
 
@@ -439,7 +439,7 @@ When the Spin Set is uploaded and published, you activate the name of the 2D Spi
 
    `\w+-\w+-C(\d+)`
 
-   Remember that these expressions are examples for illustration purposes only. You can create your regular expression however you want to suit your needs.
+   Remember that these expressions are examples for demonstration purposes only. You can create your regular expression however you want to suit your needs.
 
    >[!NOTE]
    >
