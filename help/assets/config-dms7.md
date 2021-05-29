@@ -31,7 +31,7 @@ With the new architecture, Experience Manager is responsible for master assets a
 
 >[!WARNING]
 >
->Dynamic Media - Scene7 mode is for the *Experience Manager Author instance only*. As such, you must configure `runmode=dynamicmedia_scene7`on the Experience Manager Author instance, *not* the Experience Manager Publish instance.
+>Dynamic Media - Scene7 mode is for the *Experience Manager Author instance only*. As such, configure `runmode=dynamicmedia_scene7`on the Experience Manager Author instance, *not* the Experience Manager Publish instance.
 
 To enable Dynamic Media, you must startup Experience Manager using the `dynamicmedia_scene7` run mode from the command line by entering the following in a terminal window (example port used is 4502):
 
