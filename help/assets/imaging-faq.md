@@ -34,7 +34,7 @@ The following image asset examples depict the added Smart Imaging optimization:
 
 Similar to the above, Adobe also ran a test with 7009 URLs from live customer sites. They were able to achieve an average of 38% further file size optimization for JPEG. For PNG with WebP format, they were able to achieve an average of 31% further file size optimization. This kind of optimization is possible because of the capability of Smart Imaging.
 
-<!-- CQDOC-17915 HIDDEN AS PER APOORVA EMAIL FROM MAY 28 2021 On the mobile web, the challenges are compounded by two factors:
+On the mobile web, the challenges are compounded by two factors:
 
 * Large variety of devices with different form factors and high-resolution displays.
 * Constrained network bandwidth.
@@ -51,7 +51,7 @@ Turning on Smart Imaging DPR configuration automatically adjusts the requested i
 
 | Permitted values in the URL of an image | Description |
 |---|---|
-| `dpr=off` | Turn off DPR optimization at an individual image URL level.| 
+| `dpr=off` | Turn off DPR optimization at an individual image URL level.|
 | `dpr=on,dprValue` | Override the DPR value detected by Smart Imaging, with a custom value (as detected by any client-side logic or other means). Permitted value for `dprValue` is any number greater than 0. Specified values of 1.5, 2, or 3 are typical. |
 
 >[!NOTE]
@@ -76,7 +76,7 @@ If desired, your company can opt out of network bandwidth optimization at the in
 
 >[!NOTE]
 >
->DPR and network bandwidth values are based on the detected client-side values of the bundled CDN. These values are sometimes inaccurate. For example, iPhone5 with DPR=2 and iPhone12 with DPR=3, both show DPR=2. Still, for high-resolution devices, sending DPR=2 is better than sending DPR=1. Coming soon: Adobe is working on client-side code to accurately determine an end user's DPR. -->
+>DPR and network bandwidth values are based on the detected client-side values of the bundled CDN. These values are sometimes inaccurate. For example, iPhone5 with DPR=2 and iPhone12 with DPR=3, both show DPR=2. Still, for high-resolution devices, sending DPR=2 is better than sending DPR=1. Coming soon: Adobe is working on client-side code to accurately determine an end user's DPR.
 
 ## What are the key benefits of the latest Smart Imaging? {#what-are-the-key-benefits-of-smart-imaging}
 
@@ -176,15 +176,15 @@ Your first custom domain is no additional cost with a Dynamic Media license.
 
 You initiate the request to use smart imaging; it is not automatically enabled.
 
-<!-- CQDOC-17915 HIDDEN AS PER APOORVA EMAIL FROM MAY 28 2021 By default, Smart Imaging DPR and network optimization is disabled (turned off) for a Dynamic Media company account. If you want to enable (turn on) one or both of these out-of-the-box enhancements, create a support case as described below.
+By default, Smart Imaging DPR and network optimization is disabled (turned off) for a Dynamic Media company account. If you want to enable (turn on) one or both of these out-of-the-box enhancements, create a support case as described below.
 
 The release schedule for Smart Imaging DPR and network optimization is as follows:
 
 | Region | Target date |
 |---|---|
-| North America | 24 May 2021 |
-| Europe, Middle East, Africa | 25 June 2021 |
-| Asia-Pacific | 19 July 2021 | -->
+| North America | Live |
+| Europe, Middle East, Africa | 13 August 2021 |
+| Asia-Pacific | 22 July 2021 |
 
 1. [Use the Admin Console to create a support case.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 1. Provide the following information in your support case:
@@ -253,9 +253,9 @@ During the initial transition, the non-cached images directly hit Adobe's origin
 
 Yes. You can turn off Smart Imaging by adding the modifier `bfc=off` to the URL.
 
-<!-- CQDOC-17915 HIDDEN AS PER APOORVA EMAIL FROM MAY 28 2021 ## Can I request DPR and network optimization to be turned off at the company level? {#dpr-companylevel-turnoff}
+## Can I request DPR and network optimization to be turned off at the company level? {#dpr-companylevel-turnoff}
 
-Yes. To disable DPR and network optimization at your company, create a support case as described earlier in this topic. -->
+Yes. To disable DPR and network optimization at your company, create a support case as described earlier in this topic.
 
 ## What "tuning" is available? Are there any settings or behaviors that can be defined? (#tuning-settings)
 
@@ -269,7 +269,7 @@ There is no such provisioning ability in the current Smart Imaging.
 
 Smart Imaging determines if the conversion is beneficial or not. It returns the new image only if the conversion results in a smaller file size with comparable quality.
 
-<!-- CQDOC-17915 HIDDEN AS PER APOORVA EMAIL FROM MAY 28 2021 ## How does Smart Imaging DPR optimization work with Adobe Experience Manager Sites components and Dynamic Media viewers?
+## How does Smart Imaging DPR optimization work with Adobe Experience Manager Sites components and Dynamic Media viewers?
 
 * Experience Manager Sites Core Components are configured by default for DPR optimization. To avoid oversized images owing to server-side Smart Imaging DPR optimization, `dpr=off` is always added to Experience Manager Sites Core Components Dynamic Media images.
 * Given Dynamic Media Foundation Component is configured by default for DPR optimization, to avoid oversized images owing to server-side Smart Imaging DPR optimization, `dpr=off` is always added to Dynamic Media Foundation Component images. Even if customer deselects DPR optimization in DM Foundation Component, server-side Smart Imaging DPR does not kick in. In summary, in the DM Foundation Component, DPR optimization comes into effect based on DM Foundation Component level setting only.
