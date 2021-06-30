@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 47201e2d-338d-40e0-af82-c681a552807b
+role: Administrator
+exl-id: f6c6619e-b386-4d34-9d17-654d7c97aedd
 ---
-
 # Communities Notifications {#communities-notifications}
 
 ## Overview {#overview}
@@ -106,4 +107,3 @@ When visiting the published site, selecting the `Notifications` link will displa
 When the email channel is enabled, the member receives an email which contains a link to the content on the web.
 
 ![chlimage_1-259](assets/chlimage_1-259.png)
-

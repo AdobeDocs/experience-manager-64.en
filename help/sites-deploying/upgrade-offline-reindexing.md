@@ -5,8 +5,9 @@ contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: upgrading
 content-type: reference
+feature: Upgrading
+exl-id: 7d2cf3d6-0dd3-4ce2-be9e-5d8b65a9edab
 ---
-
 # Using Offline Reindexing To Reduce Downtime During an Upgrade {#offline-reindexing-to-reduce-downtime-during-upgrades}
 
 ## Introduction {#introduction}

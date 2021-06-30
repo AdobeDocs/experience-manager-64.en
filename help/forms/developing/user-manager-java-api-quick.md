@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: e0c20fd2-b084-4f61-936c-5282826a8d3d
+role: Developer
+exl-id: 130b5669-4533-4e88-9a64-bbbd7c68a5ca
 ---
-
 # User Manager Java API Quick Start (SOAP) {#user-manager-java-api-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the User Manager API.
@@ -1085,4 +1086,3 @@ public class ManagePreferences {
 } 
 }
 ```
-

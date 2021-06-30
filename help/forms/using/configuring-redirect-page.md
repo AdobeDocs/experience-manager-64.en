@@ -7,8 +7,9 @@ uuid: 5a5f912a-9696-4bc1-af3f-ead78f767e02
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: c51817aa-193a-4d4f-bd83-06518ddfb395
+feature: Adaptive Forms
+exl-id: bbe10952-d6a7-4adc-bab9-388c1ee8e56a
 ---
-
 # Configuring redirect page {#configuring-redirect-page}
 
 Form authors can configure a page for each form, to which the form users are redirected after submitting a form.
@@ -32,4 +33,3 @@ Form authors can use the following parameters that are passed to the Thank you p
 * **Submit to Forms workflow**: Output parameters returned from forms workflow are passed.  
 
 * **Submit to REST endpoint**: Parameters added for in-field to parameter mapping are passed. `status` and `owner` parameters are not passed in this submit action. For more information, see [Configuring the Submit to REST endpoint submit action](/help/forms/using/configuring-submit-actions.md).
-

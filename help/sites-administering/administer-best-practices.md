@@ -5,8 +5,8 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
+exl-id: 8c41dba4-bedc-4747-b67d-fd89d71c8b2c
 ---
-
 # Best Practices{#best-practices}
 
 Best practices describe how to develop, administer, or use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.
@@ -96,4 +96,3 @@ Managing and authoring your website content has some best practices outlined as 
   </tr>
  </tbody>
 </table>
-

@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: a7c0c4cf-7476-41e7-8d4e-564e6a21458d
+role: Developer
+exl-id: 897be9a1-a2e7-469f-8c60-2ede787cef29
 ---
-
 # Generate PDF Service Java API Quick Start (SOAP) {#generate-pdf-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Generate PDF service.
@@ -353,4 +354,3 @@ The following code example converts a PDF document named *Loan.pdf* to an RTF do
      } 
  }
 ```
-

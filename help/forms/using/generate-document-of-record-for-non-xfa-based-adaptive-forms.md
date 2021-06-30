@@ -9,8 +9,9 @@ topic-tags: adaptive_forms, develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1e533a8c-f200-40ca-b170-0e9abee8513e
 noindex: true
+feature: Adaptive Forms
+exl-id: 2e7944e5-976e-49d2-a8d2-76c5868a92a2
 ---
-
 # Generate Document of Record for adaptive forms {#generate-document-of-record-for-adaptive-forms}
 
 ## Overview {#overview}
@@ -381,4 +382,3 @@ Keep in mind the following considerations and limitations when working on docume
 * Content binding in document of record generated for XML Schema based adaptive form is not supported. 
 * Content binding in document of record generated for XML Schema based adaptive form is not supported.   
 * Localized version of document of record is created on demand for a locale when the user requests the rendering of the document of record. Localization of document of record occurs along with localization of adaptive form. For more information on localization of document of record and adaptive forms see [Using AEM translation workflow to localize adaptive forms and document of record](/help/forms/using/using-aem-translation-workflow-to-localize-adaptive-forms.md).
-

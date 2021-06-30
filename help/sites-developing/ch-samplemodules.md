@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: fa68c786-5102-4cc3-b61c-2565ee919768
+exl-id: 637ec80e-320f-4cf7-b09a-9f3cbf47bb63
 ---
-
 # Sample ContextHub UI Module Types {#sample-contexthub-ui-module-types}
 
 ContextHub provides several sample UI modules that you can use in your solutions. The following information is provided:

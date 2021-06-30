@@ -2,8 +2,10 @@
 title: Metadata schemas
 description: Metadata schema defines the layout of the properties page and the metadata properties displayed for assets. Learn how to create custom metadata schema, edit metadata schema, and how to apply metadata schema to assets.  
 contentOwner: AG
+feature: Metadata
+role: Business Practitioner,Administrator
+exl-id: 82f42bb3-2c01-407c-a41b-9abe7be4660e
 ---
-
 # Metadata Schemas {#metadata-schemas}
 
 In [!DNL Experience Manager Assets], a metadata schema defines the layout of the properties page and the metadata properties displayed for assets that use the particular schema. Metadata properties include title, description, MIME types, tags, and so on. You can use the Metadata Schema Forms editor to modify existing schemas or add custom metadata schemas. 

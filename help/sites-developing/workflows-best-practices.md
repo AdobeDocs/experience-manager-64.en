@@ -1,7 +1,7 @@
 ---
 title: Workflow Best Practices
 seo-title: Workflow Best Practices
-description: null
+description: Workflow Best Practices
 seo-description: null
 uuid: 79be4055-c2ef-428e-9054-103c6cfde1d2
 contentOwner: User
@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 0be8b88c-6f57-4dcc-ae11-77b378a2decd
+exl-id: 21c3be7c-7b73-4a37-bba2-1b589bcde316
 ---
-
 # Workflow Best Practices{#workflow-best-practices}
 
 Workflows enable you to automate Adobe Experience Manager (AEM) activities.

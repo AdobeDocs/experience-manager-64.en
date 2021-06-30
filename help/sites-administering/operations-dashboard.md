@@ -2,6 +2,7 @@
 title: Operations Dashboard
 seo-title: Operations Dashboard
 description: Learn how to use the Operations Dashboard.
+feature: Operations
 seo-description: Learn how to use the Operations Dashboard.
 uuid: f1a6dcdc-307b-45f4-ade5-cedc58f0c7cf
 contentOwner: Guillaume Carlino
@@ -9,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 7599fa42-3a47-49c9-8a7f-e0b6be302ff0
+exl-id: a0cb6a30-fdd4-4806-a5fa-45c98ad15d11
 ---
-
 # Operations Dashboard {#operations-dashboard}
 
 ## Introduction {#introduction}
@@ -907,4 +908,3 @@ You can also download a `JSON` file summarizing the dashboard information by cli
   </tr> 
  </tbody> 
 </table>
-

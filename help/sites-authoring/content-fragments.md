@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 076a3064-80c3-454b-93f9-6ae925c54328
+exl-id: bbe4ae86-e9b8-4c3f-ada3-82470e371c4e
 ---
-
 # Page Authoring with Content Fragments{#page-authoring-with-content-fragments}
 
 >[!CAUTION]
@@ -206,4 +206,3 @@ Fragments need to be published so they can used used on your published web pages
 
 * A fragment can be published after [creating the fragment in the Assets console](/help/assets/content-fragments-managing.md#publishing-and-referencing-a-fragment).
 * If an *unpublished fragment* is used on a page that is being published, the fragment can also be published at this time.
-

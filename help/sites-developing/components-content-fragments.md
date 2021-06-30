@@ -10,8 +10,8 @@ topic-tags: components
 content-type: reference
 discoiquuid: 76b63c7c-f7ea-46be-8d10-6c1a30af2e2b
 pagetitle: Components for Content Fragments
+exl-id: 516c1561-5c13-4301-8009-9b021087cec7
 ---
-
 # Components for Content Fragments{#components-for-content-fragments}
 
 >[!CAUTION]

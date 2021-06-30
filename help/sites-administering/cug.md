@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: ba73e267-598d-4c70-a1a8-71bcfcfbf9e5
+exl-id: 3a052270-b3ea-4d17-915c-be2b51cdc482
 ---
-
 # Creating a Closed User Group{#creating-a-closed-user-group}
 
 Closed User Groups (CUGs) are used to limit access to specific pages that reside within a published internet site. Such pages require the assigned members to login and provide security credentials.
@@ -77,7 +77,7 @@ To apply the CUG to a page:
 
    >[NOTE!]
    >
-   > Note that CUGs in the Permissions tab cannot be rolled back from Blueprints to Live Copies. Please plan around this when configuring Live Copy.
+   > Note that CUGs in the Permissions tab cannot be rolled out to Live Copies from Blueprints. Please plan around this when configuring Live Copy.
    >
    > For more information, see [this page](closed-user-groups.md#aem-livecopy).
 
@@ -136,4 +136,3 @@ Configure [session management in the dispatcher.any file](https://helpx.adobe.co
    ```
 
 1. Set [/allowAuthorized](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#caching-when-authentication-is-used) to `0`.
-

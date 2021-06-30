@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 481856df-5db1-4ef5-80d3-3722b5bf8b67
+feature: Correspondence Management
+exl-id: 5bcb26dc-aeb7-4a81-b905-23c8fb05d6d0
 ---
-
 # Add custom action/button in Create Correspondence UI {#add-custom-action-button-in-create-correspondence-ui}
 
 ## Overview {#overview}
@@ -445,4 +446,4 @@ After you have configured the action and button for sending the letter for revie
 
 ![sendreview](assets/sendreview.png)
 
-The reviewer receives an email from the system with the letter as a PDF attachment. 
+The reviewer receives an email from the system with the letter as a PDF attachment.

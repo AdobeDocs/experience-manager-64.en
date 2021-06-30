@@ -5,8 +5,10 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
+feature: Workflow,Asset Management,Renditions
+role: Business Practitioner,Administrator
+exl-id: 78d76b4f-a46c-4ffc-b772-ed925eb8e34c
 ---
-
 # About profiles for processing metadata, images, and videos {#profiles-for-processing-metadata-images-and-videos}
 
 A profile is a recipe for what options to apply to assets that get uploaded to a folder. For example, you can specify what metadata profile and video encoding profile to apply to video assets that you upload. Or, what imaging profile to apply to image assets to have them properly cropped.

@@ -1,7 +1,7 @@
 ---
 title: SPA and Server-Side Rendering
 seo-title: SPA and Server-Side Rendering
-description: null
+description: "SPA and Server-Side Rendering"
 seo-description: null
 uuid: fbf7d0d1-865d-45d2-aeec-a7e3caf3fcb2
 contentOwner: bohnert
@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 30d25772-0df7-468e-bcbd-c6fb2e962662
+exl-id: 89e45231-885a-4d35-839b-2b50239503ad
 ---
-
 # SPA and Server-Side Rendering{#spa-and-server-side-rendering}
 
 >[!NOTE]
@@ -30,7 +30,7 @@ However this can lead to longer initial load times, especially if the SPA is lar
 
 ## When to Use SSR {#when-to-use-ssr}
 
-SSR is not required on all projects. Althgouh AEM fully supports JS SSR for SPA, Adobe does not recommend implementing it systematically for every project.
+SSR is not required on all projects. Although AEM fully supports JS SSR for SPA, Adobe does not recommend implementing it systematically for every project.
 
 When deciding to implement SSR you must first estimate what additional complexity, effort, and cost adding SSR realistically represents for the project, including the long term maintenance. An SSR architecture should be chosen only when the added value clearly exceeds the estimated costs.
 
@@ -57,7 +57,9 @@ The following sections detail how Adobe I/O Runtime can be used to implement SSR
 
 >[!NOTE]
 >
->Adobe recommends a separate Adobe I/O Runtime instance for every AEM environment (author, publish, stage, etc.).
+>Adobe recommends a separate Adobe I/O Runtime workspace per environment (stage, prod, testing, etc.). This allows for typical systems development life cycle (SDLC) patterns with different versions of a single application deployed to different environments. See the document [CI/CD for Project Firefly Applications](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html#!AdobeDocs/project-firefly/master/guides/ci_cd_for_firefly_apps.md) for more information.
+>
+>A separate workspace is not needed per instance (author, publish) unless there are differences in the runtime implementation per instance type.
 
 ## Remote Content Renderer Configuration {#remote-content-renderer-configuration}
 

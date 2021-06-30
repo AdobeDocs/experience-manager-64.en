@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 669ede46-ea55-444b-a23f-23a86e5aff8e
+role: Developer
+exl-id: 2e8bcdf8-ae57-4ccd-945a-8f3fda4aa3c2
 ---
-
 # Rendering Forms as HTML {#rendering-forms-as-html}
 
 The Forms service renders forms as HTML in response to an HTTP request from a web browser. A benefit of rendering a form as HTML is that the computer on which the client web browser is located does not require Adobe Reader, Acrobat, or Flash Player (for form Guides (deprecated)).
@@ -370,4 +371,3 @@ Render an HTML form by using the Forms API (web service):
 [Rendering Forms as HTML](#rendering-forms-as-html)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
-

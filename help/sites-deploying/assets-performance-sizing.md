@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: a79839e2-be39-418b-a3bd-f5457e555172
+exl-id: 2c455a20-a2b9-4a80-8577-f1a1713710d6
 ---
-
 # Assets Performance Guide{#assets-performance-guide}
 
 Digital asset management is often used in cases where performance matters; however, the typical DAM setup contains a number of hardware and software components that can affect performance. This document provides the following:
@@ -104,4 +104,3 @@ The following performance tweaks have been used in projects so far:
 ## Further Reading {#further-reading}
 
 * [Analyzing Slow and Blocked Processes](https://helpx.adobe.com/experience-manager/kb/AnalyzeSlowAndBlockedProcesses.html)
-

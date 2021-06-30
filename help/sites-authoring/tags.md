@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: d0b0e47b-e68d-407d-9d06-deca2039dede
+exl-id: 846a925a-673e-4051-a673-1a9236701f0a
 ---
-
 # Using Tags {#using-tags}
 
 Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.
@@ -83,4 +83,3 @@ You can search for tags in both the author and publish environments.
 Adding a [Search component](/help/sites-authoring/default-components-foundation.md#search) to a page provides a search capability which includes tags and can be used in both the author and publish environments.
 
 ![chlimage_1-93](assets/chlimage_1-93.png)
-

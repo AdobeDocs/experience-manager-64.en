@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 6d4188f4-ad98-49df-9bb4-7936b7bea9c8
+exl-id: 73995327-d781-4501-ba14-3394dc8ea4fc
 ---
-
 # SPA Blueprint{#spa-blueprint}
 
 To enable the author to use the AEM SPA Editor to edit the content of an SPA, there are requirements that the SPA must fulfill, which are described in this document.
@@ -270,7 +270,7 @@ The App owns the routing. The front end developer first needs to implement a Nav
 
 The underlying [`PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager) library and its [`ModelRouter`](/help/sites-developing/spa-routing.md) module (enabled by default) are responsible for pre-fetching and providing access to the model associated with a given resource path.
 
-The two entities relate to the notion of routing but the [`ModelRouter`](/help/sites-developing/spa-routing.md) is only responsible for having the [`PageModelManager](/help/sites-developing/spa-blueprint.md#pagemodelmanager) loaded with a data model structured in sync with the current application state.
+The two entities relate to the notion of routing but the [`ModelRouter`](/help/sites-developing/spa-routing.md) is only responsible for having the [`PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager) loaded with a data model structured in sync with the current application state.
 
 See the article [SPA Model Routing](/help/sites-developing/spa-routing.md) for more information.
 

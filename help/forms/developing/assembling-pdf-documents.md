@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/performing_service_operations_using_apis
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 3dd2b0d3-6023-490a-9b17-e29cc21c1b9d
+role: Developer
+exl-id: d89bac8d-67e6-4442-845b-e358cbe0a568
 ---
-
 # Assembling PDF Documents {#assembling-pdf-documents}
 
 **About the Assembler Service**
@@ -23,4 +24,3 @@ Starting with LiveCycle ES 8.0 and later, support for PDF packages is available 
 >[!NOTE]
 >
 >For more information about the Assembler service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
-

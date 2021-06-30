@@ -2,8 +2,10 @@
 title: Process assets to accomplish business processes, do audits, achieve compliance, and maintain basic sanity
 description: Asset processing to convert formats, create renditions, manage assets, validate assets, and run workflows.
 contentOwner: AG
+feature: Workflow,Renditions
+role: Business Practitioner,Administrator
+exl-id: 4fb3d12c-feac-45b9-8d09-3b6995591b3d
 ---
-
 # Process digital assets {#process-assets}
 
 [!DNL Adobe Experience Manager Assets] allows you to work on your digital assets in many ways to allow for robust asset processing. You can use the available processing methods or extend the methods to ensure end-to-end business process completion using, audits and compliance of, discovery and distribution of, and basic sanity of your digital assets. You can do all this while achieving the required scale and customization.

@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 1e6cc554-aef1-463c-906b-634b80a27917
+role: Developer
+exl-id: fbf6c225-5351-4589-97d3-9faf9c5939bc
 ---
-
 # Working with PDF/A Documents {#working-with-pdf-a-documents}
 
 **About the DocConverter Service**

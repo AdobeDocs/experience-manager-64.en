@@ -9,8 +9,9 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d997a268-a40a-462d-badd-94f0731f7ba4
+feature: PDF Generator
+exl-id: 6942b6fc-8d04-429f-8433-1ab74c68fcc1
 ---
-
 # Configuring fallback fonts {#configuring-fallback-fonts}
 
 You can manually configure the FontManagerResources.properties file to map the default AEM forms fonts to fallback (or substitute) if the default fonts are not available on the server. This property file is located in the adobe-fontmanager.jar file.
@@ -40,4 +41,3 @@ You can manually configure the FontManagerResources.properties file to map the d
 >[!NOTE]
 >
 >Do not use Configuration Manager to repackage the adobe-livecycle-[appserver].ear file because it will overwrite your modifications with the AEM forms default values.
-

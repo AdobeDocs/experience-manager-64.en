@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 85048fe4-ca1b-41fa-8e19-6eeb8dd09962
+exl-id: ae0463de-271f-47c0-b947-f6d149ded8ab
 ---
-
 # Set up the Visual Studio project and build the Windows app {#set-up-the-visual-studio-project-and-build-the-windows-app}
 
 AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build a custom workspace application. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip`is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on Software Distribution.
@@ -159,4 +159,3 @@ To install the app on Windows using Visual Studio:
 
 1. With your app open in Visual Studio, choose Windows-x64, Windows-x86, or Windows-AnyCPU from the Solution Platforms list, and select **Remote Machine**.
 1. Your app is deployed on the remote machine.
-

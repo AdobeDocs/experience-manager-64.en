@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 60d67c6b-5994-42ef-b159-ed6edf5cf9d4
+exl-id: e07adddb-e904-4a80-9b1c-8028b12c0e37
 ---
-
 # Customizing form event tracking {#customizing-form-event-tracking}
 
 Out of the box, the following events are tracked in an analytics enabled Adaptive Form:

@@ -5,8 +5,10 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
+exl-id: f0cd3a75-03ed-40a9-b336-8a782f3cfe69
+feature: Rulesets
+role: Administrator,Business Practitioner,Developer
 ---
-
 # Using rule sets to transform URLs {#using-rulesets-to-transform-urls}
 
 You can deploy rule sets in Dynamic Media to transform URLs. Rule sets are sets of instructions written in a scripting language (such as JavaScript) that evaluate XML data and take certain actions if that data meets certain conditions. Each rule consists of at least one condition and at least one action. A rule evaluates the XML data against the conditions, and if a condition is met, then it takes the appropriate action. Examples of rule sets include the following:
@@ -34,7 +36,7 @@ In the context of Dynamic Media, websites that use an XML-based system to manage
 >Use caution when using rulesets; they can prevent Dynamic Media content from being displayed on your website.
 
 There are sample rulesets available that can help you create your own ruleset.  
-See [Rule set reference](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/rule-set-reference/c-rule-set-reference.html).
+See [Rule set reference](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/rule-set-reference/c-rule-set-reference.html).
 
 As with all rule set creation, ensure that your XML file is valid before you upload it by using an XML validator program such as xmlvalid.  
 See also [Troubleshooting rule sets](https://helpx.adobe.com/experience-manager/scene7/kb/base/scene7-rulesets/scene7-ruleset-troubleshooting.html).
@@ -76,4 +78,3 @@ See also [Using 'asset' instead of 'is' image in a rule set](https://helpx.adobe
    The rule set conditions are applied on the requests to the live Dynamic Media Image Servers.
 
    If you make changes to the rule set file, the changes are immediately applied when you re-upload and re-publish the updated rule set file.
-

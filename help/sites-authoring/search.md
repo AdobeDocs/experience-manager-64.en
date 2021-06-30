@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: cd87e1e8-5329-4e60-ac9d-2705f54d0da6
+exl-id: 9e93b28b-627d-4676-82a6-d719de4d152a
 ---
-
 # Search{#search-features}
 
 The author environment of AEM provides various mechanisms for searching for content, dependent on the resource type.
@@ -112,4 +112,3 @@ As well as searching by a wide range of facets you can also save a particular se
 Saved searches can be modified by selecting the saved search and clicking **Edit Saved Search** at the bottom of the search panel.
 
 ![screen_shot_2018-03-23at102213](assets/screen_shot_2018-03-23at102213.png)
-

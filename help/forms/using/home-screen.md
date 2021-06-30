@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: e4636b25-20a4-4326-82fb-f22f735e43c0
+exl-id: b8f515fd-7ab7-4237-9a35-2840f708e856
 ---
-
 # Home screen {#home-screen}
 
 When you log in to the AEM Forms app, you are redirected to the Home screen.
@@ -36,4 +36,3 @@ You can change the default Home screen of the app either from the **[General Set
 The change made to Home screen setting on the app effects the Home screen for the current logged or the user on the current mobile device.
 
 However, the change made in HTML Workspace effects all AEM Forms app users logged on to the AEM Forms server.
-

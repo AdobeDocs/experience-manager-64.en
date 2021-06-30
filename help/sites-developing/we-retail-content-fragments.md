@@ -1,7 +1,7 @@
 ---
 title: Trying out Content Fragments in We.Retail
 seo-title: Trying out Content Fragments in We.Retail
-description: null
+description: Trying out Content Fragments in We.Retail
 seo-description: null
 uuid: 66daddfe-8e98-47b6-8499-db055887ac17
 contentOwner: User
@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: d1326737-f378-46d0-9916-61ead4d31639
+exl-id: d93bec03-c651-4329-b220-4ac1ea189de1
 ---
-
 # Trying out Content Fragments in We.Retail{#trying-out-content-fragments-in-we-retail}
 
 Content Fragments allow you to create channel-neutral content, together with (possibly channel-specific) variations. **We.Retail** (as available in an out-of-the-box instance of AEM) provides the fragment **Arctic Surfing in Lofoten** as a basic sample. This illustrates that:
@@ -96,4 +96,3 @@ For more details see:
 * [Developing and Extending Content Fragments](/help/sites-developing/customizing-content-fragments.md)
 
     * Information to help you develop and extend Content Fragments.
-

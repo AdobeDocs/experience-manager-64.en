@@ -7,8 +7,9 @@ uuid: cd123d42-f7cf-489d-8182-f3a01a2a4799
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: 2ee45ac0-bc15-403a-93fc-c8592afb967d
+feature: Form Data Model
+exl-id: 2dcbc459-5fa3-4712-a72e-159bdbad0a61
 ---
-
 # Work with form data model {#work-with-form-data-model}
 
 Data Integration provides form data model editor to configure and work with form data models.

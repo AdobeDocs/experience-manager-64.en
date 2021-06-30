@@ -1,7 +1,7 @@
 ---
 title: Foundation Components
 seo-title: Foundation Components
-description: null
+description: Foundation Components
 seo-description: null
 uuid: c1eccd51-ee65-4c4d-8c27-c99b52574518
 contentOwner: User
@@ -11,8 +11,8 @@ content-type: reference
 discoiquuid: 3619ded2-a67c-4b96-b634-4c0d68f5284a
 legacypath: /content/docs/en/aem/6-2/author/page-authoring/default-components/editmode
 pagetitle: Foundation Components
+exl-id: c85e442a-eb24-4eda-a49b-089e5988150d
 ---
-
 # Foundation Components{#foundation-components}
 
 >[!NOTE]
@@ -1469,4 +1469,3 @@ The standard text field can be configured to your required size and with with yo
 This allows you to create a Submit button for use in a workflow.
 
 ![chlimage_1-204](assets/chlimage_1-204.png)
-

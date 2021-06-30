@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: b7b17cf8-def5-4a77-a872-c1f286814881
+role: Developer
+exl-id: 2efc0a84-4808-47dd-a859-76caf98b1872
 ---
-
 # Assembler Service Java API QuickStart(SOAP) {#assembler-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Assembler service
@@ -1772,4 +1773,3 @@ public class RedactPDF
     } 
 }
 ```
-

@@ -10,8 +10,8 @@ audience: developing
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 39d1cb2e-18f5-4d08-b983-a06b1f470c51
+exl-id: 0c80ee60-d2dd-49ad-a283-81fdb1fd201e
 ---
-
 # API Guides{#api-guides}
 
 AEM provides several APIs for developing applications. The following list provides the documentation for APIs supported by AEM:

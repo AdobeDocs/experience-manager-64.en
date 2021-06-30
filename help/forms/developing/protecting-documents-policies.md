@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 9b1d2bf3-f28c-41b2-9026-1f3311556422
+role: Developer
+exl-id: 88065c4d-8ca9-4dfb-8663-ac8772e5e556
 ---
-
 # Protecting Documents with Policies {#protecting-documents-with-policies}
 
 **About the Document Security Service**

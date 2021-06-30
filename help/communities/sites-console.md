@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 5ac2fcef-05b8-46f7-9a15-997cdd79a3db
+role: Administrator
+exl-id: f1408709-5402-4f55-bd37-9943fe828af0
 ---
-
 # Communities Sites Console {#communities-sites-console}
 
 The Communities Sites console provides access to:
@@ -580,4 +581,3 @@ From the global navigation Sites console, community sites are located in the `Co
 While it is possible to access a community site in this manner, for administrative tasks, the community site should be accessed from the Communities Sites console.
 
 ![chlimage_1-470](assets/chlimage_1-470.png)
-

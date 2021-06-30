@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: d701e4ba-417f-4b57-b103-27fd25290736
+feature: Configuring
+exl-id: 977d07d2-36cf-4799-bcfe-991cf89a612a
 ---
-
 # Configuring OSGi{#configuring-osgi}
 
 [OSGi](https://www.osgi.org/) is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration.
@@ -364,4 +365,3 @@ To list all configuration nodes in your instance, use the **Query** functionalit
 >You must ***never*** edit the folders or files under:
 >
 >`/crx-quickstart/launchpad/config`
-

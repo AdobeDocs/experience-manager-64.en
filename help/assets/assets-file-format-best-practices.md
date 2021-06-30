@@ -2,8 +2,10 @@
 title: Assets file format best practices
 description: Best practices for file support in AEM Assets.
 contentOwner: AG
+feature: Asset Management,Developer Tools
+role: Administrator
+exl-id: ff739a17-188e-4779-8820-9e4d9b7031d0
 ---
-
 # Assets file format best practices {#assets-file-format-best-practices}
 
 AEM Assets supports many proprietary and third-party file format libraries to cater to diverse file support requirements of users. The supported Adobe libraries include, Adobe Camera Raw, Gibson, Adobe PDF Rasterizer, and Adobe InDesign Server. In addition, AEM Assets supports third-party libraries, including ImageMagick, TwelveMonkeys, and so on.

@@ -2,8 +2,10 @@
 title: Video renditions
 description: Video renditions
 contentOwner: AG
+feature: Video,Renditions
+role: Business Practitioner
+exl-id: 9fc93034-e83a-42b5-901d-7867b4a850a8
 ---
-
 # Video renditions {#video-renditions}
 
 Adobe Experience Manager (AEM) Assets generates video renditions for video assets of various formats including OGG, FLV, and so on.

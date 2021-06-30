@@ -10,8 +10,8 @@ topic-tags: components
 content-type: reference
 discoiquuid: c68f724f-f9b3-4018-8d3a-1680c53d73f8
 legacypath: /content/docs/en/aem/6-2/develop/components/components-classic
+exl-id: 725e4f82-7019-4365-9c01-b5d95ea2a8fa
 ---
-
 # Developing AEM Components (Classic UI){#developing-aem-components-classic-ui}
 
 The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. Due to the nature of these widgets there are some differences between how components interact with the classic UI and the [touch-enabled UI](/help/sites-developing/developing-components.md).
@@ -398,4 +398,3 @@ To disable this capability, we use the standard image component as a basis and m
    ![chlimage_1-65](assets/chlimage_1-65.png)
 
 1. The component is now ready to use.
-

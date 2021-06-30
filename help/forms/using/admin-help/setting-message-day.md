@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c2b3a412-70c2-4257-bfb4-1430bb1f8891
+exl-id: 7ddd5a4d-2b46-4408-b241-81e16cfead3c
 ---
-
 # Setting the message of the day {#setting-the-message-of-the-day}
 
 You can set a message to be displayed on the Welcome page in the Workspace user interface.
@@ -40,4 +40,3 @@ For more information about the supported tags, see the definition of the `htmlTe
 >[!NOTE]
 >
 >The Flex Worksapce is deprecated for AEM forms release.
-

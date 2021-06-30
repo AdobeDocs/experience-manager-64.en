@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 43fd720f-2a5a-47fb-b9d9-d19f866cd0a0
+feature: Adaptive Forms
+exl-id: ff113288-a69a-4083-82a6-4c65c5062411
 ---
-
 # Creating and managing reviews for assets in forms {#creating-and-managing-reviews-for-assets-in-forms}
 
 ## Review {#review}
@@ -97,4 +98,3 @@ This section describes, what happens on Review end / modification:
     1. **Reviewers**: For each reviewer, the incomplete task related to the review is terminated. The task no longer appears as 'Pending' in the reviewer's Notifications section.
     1. **Initiator**: The task assigned to the Review initiator is marked complete. The task is removed from the Notification section of the review initiator.
     1. **All**: The review appears in the Previous Reviews section. No further comments can be added.
-

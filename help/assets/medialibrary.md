@@ -1,58 +1,88 @@
 ---
-title: Compare the features available in AEM Assets and AEM Media Library
-description: Frequently asked questions around AEM Assets and AEM Media Library, including the differences.
+title: Use Media Library for basic digital asset management
+description: [!DNL Experience Manager Assets] and Media Library for asset management.
 contentOwner: AG
+feature: Asset Management
+role: Architect,Leader
+exl-id: f0afdae4-5777-464c-9203-e9d19c6d62f6
 ---
+<!--
 
-# AEM Assets vs. AEM MediaLibrary {#aem-assets-vs-aem-medialibrary}
+Define Media Lib
+Define req for it
+Define use cases
+Define what is not included
 
-Adobe Experience Manager (AEM) Assets is an integral part of the AEM platform. This smooth integration is seen as a major advantage of AEM and ensures consistency in content management and high productivity for content authors.
+-->
 
-## Frequently asked questions {#frequently-asked-questions}
+# Use Media Library for basic asset management {#manage-assets-using-media-library}
 
-### What is AEM Assets? {#what-is-aem-assets}
+[!DNL Adobe Experience Manager] platform provides different capabilities to manage assets. Media Library allows the users to upload a small number of assets to the repository, search and use those in the webpages, and accomplish simple asset management tasks on the assets.
 
-AEM Assets is an application on the AEM Platform that allows our customers to manage their digital assets (images, videos, documents and audio clips) in a web-based repository. AEM Assets includes Metadata-support, Renditions, the Digital Asset Management Finder and the AEM Assets Administration UI.
+Media Library is a lightweight Digital Asset Management (DAM) solution that comes complimentary with [!DNL Adobe Experience Manager Sites] license. [!DNL Sites] is a Web Content Management (WCM) offering. Media Library works with all capabilities of Experience Manager.
 
-### What is the AEM Media Library? {#what-is-the-aem-media-library}
+[!DNL Adobe Experience Manager Assets] license is available separately for purchase. [!DNL Experience Manager Assets] allows for robust handling of assets via enterprise use cases, customizations for metadata, schemas, search, and user interface, and many other features beyond what Media Library provides.
 
-The AEM Media Library is a designated part of the AEM WCM content repository where images and other shared resources are stored. The Media Library uses the Digital Asset Management capabilities of AEM WCM.
+## Licensing requirements {#avail-media-library-license}
 
-### What do I get from AEM Assets that is not part of AEM WCM? {#what-do-i-get-from-aem-assets-that-is-not-part-of-aem-wcm}
+Customers who have [!DNL Sites] license are entitled to use Media Library. It works with all components of [!DNL Experience Manager].
 
-Unique features that are only available to customers of AEM Assets are:
+Media Library gets installed as part of Sites. No additional license or package is required beyond Sites license and installation.
 
-1. the ability to extract and edit metadata other than title, tags, and description.
-1. the AEM Assets Admin, available from the welcome screen by clicking the second button next to the `siteadmin`.
-1. All workflow steps related to Digital Asset Management, namely AEM assets ingestion, AEM Assets deletion, AEM Assets sub-asset handling, AEM Assets metadata extraction.
-1. libraries including `dam` im package space.
+## [!DNL Assets] versus Media Library {#assets-and-media-library}
 
-Using these features requires a valid license of AEM Assets.
+Experience Manager Assets provides enterprise-grade DAM functionality. Assets functionality is delivered with [!DNL Experience Manager] in one single package. However, users who have not purchased an Assets license are not entitled to use the advanced DAM features. Without Assets license, only [Media Library features](#use-media-library) are available.
 
-### Is AEM Assets available as a separate Package? {#is-aem-assets-available-as-a-separate-package}
+If you want to prevent unintended use of [!DNL Assets] features that you have not licensed, then remove all the [!DNL Assets]-specific workflows, components, taxonomies, options and the [!DNL Assets] admin from [!DNL Experience Manager]. Doing so prevents your users from accidentally using [!DNL Assets] features that you did not license.
 
-No. To ease installation and deployment, all AEM Applications and add-ons are delivered in one single package with all functionality included. This does not imply that you have permission to use all features in the package.
+## Use Media Library {#use-media-library}
 
-#### I want to edit metadata of digital assets. Do I need AEM Assets? {#i-want-to-edit-metadata-of-digital-assets-do-i-need-aem-assets}
+Media Library broadly covers the following use cases:
 
-If you are planning to edit metadata other than title, description and tags, it is required to license AEM Assets.
+* Provide basic DAM features for web pages crated using [!DNL Adobe Experience Manager Sites].
+* Adaptive forms and communications created using [!DNL Adobe Experience Manager Forms].
+* Digital screen experiences created using [!DNL Adobe Experience Manager Screens].
+* [!DNL Assets] HTTP REST APIs for headless operations.
 
-#### I want to automatically resize images upon import. Do I need AEM Assets? {#i-want-to-automatically-resize-images-upon-import-do-i-need-aem-assets}
+<!-- TBD: Remove this after confirmation. May need to merge this list with the list provided by PMs.
 
-No. Resizing and automatic workflow-driven transformation of static images as well as the ability to manage renditions are part of AEM Media Library. These features do not require an AEM Assets license.
+* Basic metadata properties
+* Tag management
+* Version control
+* Static renditions
+* Projects, tasks, workflow authoring
+* Activity stream (timeline)
+* Query Builder (API)
+* Marketing Cloud integration
+* User interface customization and extension
+* Comments and annotation
+-->
 
-### I want to resize images using a customized image component. Do I need AEM Assets? {#i-want-to-resize-images-using-a-customized-image-component-do-i-need-aem-assets}
+To use the Media Library functionality, you can use the default [!DNL Experience Manager] user interface. Media Library is part of the [!DNL Experience Manager Sites] installation and no separate interface or add-on is required. Using the existing interface, Media Library users are entitled to accomplish the following tasks:
 
-The image component is part of AEM WCM. The graphics library that is being used by the image component (but also by AEM Assets) is part of the AEM platform and does not require an AEM Assets license.
+* Create folders to organize assets.
+* Upload assets.
+* Publish assets.
+* Edit, move, and copy assets.
+* Browse, filter, and search (includes similarity search) assets.
+* Add values to and edit the values in the metadata fields, except Smart Tags field, that are available in the [!UICONTROL Basic] tab of an asset's [!UICONTROL Properties] page by default.
+* Add and delete static renditions.
+* Download folders, assets, and asset renditions.
+* Create asset versions.
+* Create and perform review tasks on assets.
+* Annotate assets.
+* Add assets to [!DNL Sites] pages through Content Finder.
+* Use [!DNL Content Fragments].
 
-### How can I prevent my users from using AEM Assets if I did not license AEM Assets? {#how-can-i-prevent-my-users-from-using-aem-assets-if-i-did-not-license-aem-assets}
+<!-- TBD: Define exactly which basic Assets workflow are available for use with Media Library?
+-->
 
-You can remove all AEM Assets-specific workflows, components, taxonomies, options and the AEM Assets admin from AEM. Doing so prevents your users from accidentally using AEM Assets features that you did not license.
+>[!IMPORTANT]
+>
+>Many advanced DAM use cases are fulfilled by [!DNL Experience Manager Assets]. Media Library license entitles you to fulfil only the listed use cases using Media Library. If a use case is not listed, do not use it with Media Library license. If you have any queries, contact Adobe Customer Care.
 
-### I want to add images to a page and want to crop and resize these images. Do I need AEM Assets? {#i-want-to-add-images-to-a-page-and-want-to-crop-and-resize-these-images-do-i-need-aem-assets}
-
-For this use case it is not required to buy AEM Assets, even the use of the Media Library is not required to use images on a website as the smart image component allows uploading images directly into the page.
+<!-- TBD: Add a CTA - how to contact Adobe for queries. -->
 
 >[!MORELIKETHIS]
 >
->* [Detailed list of feature differences](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/medialibrary.html#listoffeatures)
+>* [DAM features in [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-64/assets/home.html)

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: 0ef6a3b1-e7ce-4268-a5be-a565646ecc29
+exl-id: 6d52babc-9477-4528-9c25-35cb729f5d78
 ---
-
 # Developing Forms (Classic UI){#developing-forms-classic-ui}
 
 The basic structure of a form is:

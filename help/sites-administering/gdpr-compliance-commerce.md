@@ -1,13 +1,14 @@
 ---
 title: AEM Commerce - GDPR Readiness
 seo-title: AEM Commerce - GDPR Readiness
-description: null
+description: "AEM Commerce - GDPR Readiness"
 seo-description: null
 uuid: 7ca26587-8cce-4c75-8629-e0e5cfb8166c
 contentOwner: carlino
 discoiquuid: c637964a-dfcb-41fe-9c92-934620fe2cb3
+feature: Commerce Integration Framework
+exl-id: c5002812-cbc6-4b3e-85be-3446630b4e8a
 ---
-
 # AEM Commerce - GDPR Readiness{#aem-commerce-gdpr-readiness}
 
 >[!IMPORTANT]
@@ -41,4 +42,3 @@ For the hybris and IBM WebSphere integrations, there is some data in AEM. You sh
 >[!NOTE]
 >
 >Have a look at the [hybris wiki](https://wiki.hybris.com/) or the [Websphere Commerce documentation](https://www-01.ibm.com/support/docview.wss?uid=swg27036450) if required.
-

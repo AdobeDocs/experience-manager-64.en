@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 16db5334-604f-44e2-9993-10d683dee5bb
+feature: Multi Site Manager
+exl-id: 636b28aa-0806-4250-ad3b-a72be704af1f
 ---
-
 # MSM Rollout Conflicts{#msm-rollout-conflicts}
 
 Conflicts can occur if new pages with the same page name are created in both the blueprint branch and a dependent live copy branch.

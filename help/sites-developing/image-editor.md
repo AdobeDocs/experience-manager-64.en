@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 discoiquuid: f6347492-cf48-4835-b8fd-ce9a75a09abe
+exl-id: 843c67d6-dda1-448f-a992-19574066e1c3
 ---
-
 # Image Editor{#image-editor}
 
 The Image Editor is a core piece of AEM and can be leveraged by components to facilitate the manipulation of images by content authors.
@@ -90,4 +90,3 @@ The `supportedMimeTypes` property must then be set as a string of the allowed MI
      </cq:inplaceEditing>
  </jcr:root>
 ```
-

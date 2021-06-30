@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: c72f608e-052a-4bf9-b7bc-ddf57483af35
+exl-id: fb1e0bec-c943-4468-920d-8ef360a01365
 ---
-
 # Theme Customization {#theme-customization}
 
 You can customize the HTML code and CSS file to provide a distinct organization-specific look and feel to AEM Forms app. For example, you can change the background color and height of tasks or Startpoints. The following example provides instructions to change:
@@ -79,4 +79,3 @@ You can customize the HTML code and CSS file to provide a distinct organization-
 1. Open the AEM Forms app.
 
    The AEM Forms app now displays instructions instead of description.
-

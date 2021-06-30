@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 8fa1426f-f453-45c5-89b9-67038f56c70e
+role: Developer
+exl-id: a7c60be2-4a58-4f0a-a90e-386ef91c3335
 ---
-
 # Performing Service Operations Using APIs {#performing-service-operations-using-apis}
 
 Before you start developing client applications by using the AEM Forms APIs, it is recommended that you first read Invoking AEM Forms, which describes the different ways in which to invoke services. (See [Service container](/help/forms/developing/service-container.md#service-container).)

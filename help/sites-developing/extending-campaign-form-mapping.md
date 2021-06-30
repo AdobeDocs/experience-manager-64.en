@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: d5dac1db-2dde-4b75-a31b-e057b447f6e2
+exl-id: 3270a279-13ef-4bbf-aafe-539df388c652
 ---
-
 # Creating Custom Form Mappings{#creating-custom-form-mappings}
 
 When you create a custom table in Adobe Campaign, you may want to build a form in AEM that maps to that custom table.
@@ -122,4 +122,3 @@ You can now submit the form and validate on the Adobe Campaign side whether the 
 When submitting the form, this error is logged in the **error.log** in AEM.
 
 This is due to an invalid format for the date field. The workaround is to supply **yyyy-mm-dd** as the value.
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: d4473758-674a-42d6-923a-b536f7f9c1f7
+exl-id: 52eb9c2f-ce29-4622-8726-802ac40246d4
 ---
-
 # Export to CSV{#export-to-csv}
 
 **Create CSV Export** enables you to export information about your pages to a CSV file on your local system.
@@ -62,4 +62,3 @@ To create a CSV export:
 
 1. Select the required properties to export.
 1. Select **Create**.
-

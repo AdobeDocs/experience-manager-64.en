@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: f4415aeb-5c1b-4087-b60f-b2ea952c52b5
+role: Developer
+exl-id: 56ec125c-b759-4e97-98c6-bae786a712b9
 ---
-
 # Output Service Java API Quick Start (SOAP) {#output-service-java-api-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the Output service.
@@ -1606,4 +1607,3 @@ The following Java code example transforms an interactive PDF document named *Lo
  } 
  
 ```
-

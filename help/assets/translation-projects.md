@@ -2,8 +2,10 @@
 title: Creating Translation Projects
 description: Learn how to create translation projects in AEM.
 contentOwner: AG
+feature: Translation
+role: Architect,Administrator
+exl-id: 1b931fef-eed0-4758-993d-cdf8d478fb6f
 ---
-
 # Creating Translation Projects {#creating-translation-projects}
 
 To create a language copy, trigger one of the following language copy workflows available under the References rail in the Assets UI:

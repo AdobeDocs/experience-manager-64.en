@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 6e913190-be92-4862-a8b9-517f8bde0044
+exl-id: 0b263211-6cfd-4b4c-bfa5-e36f5e06c861
 ---
-
 # AEM Core Concepts {#aem-core-concepts}
 
 >[!NOTE]
@@ -433,7 +433,7 @@ The following list gives an overview of the structure you will see within the re
 
 * `/var` 
 
-  Files that change and are updated by the system; such as audit logs, statistics, event-handling. The sub-folder `/var/classes` contains the java servlets in source and compiled forms that have been generated from the components scripts.
+  Files that change and are updated by the system; such as audit logs, statistics, event-handling.
 
 ## Environments {#environments}
 
@@ -469,4 +469,4 @@ For example, web sites are often provided in multiple languages for internationa
     * Maintain a common look and feel.
     * Focus efforts on managing the content that differs between the sites.
 
-For more information, see [Multi Site Manager](/help/sites-administering/msm.md).  
+For more information, see [Multi Site Manager](/help/sites-administering/msm.md).

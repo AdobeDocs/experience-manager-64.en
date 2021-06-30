@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 0763f236-5648-49e9-8a24-dbc8f4c77ee3
+exl-id: 45b9d418-0ecb-44c9-8091-b9ce29ba730b
 ---
-
 # SRP and UGC Essentials {#srp-and-ugc-essentials}
 
 ## Introduction {#introduction}
@@ -126,4 +126,3 @@ The UGC is created in neither of those locations, and should only be accessed us
 * [Storage Resource Provider Overview](srp.md) - Introduction and repository usage overview
 * [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
 * [SocialUtils Refactoring](socialutils.md) - Mapping deprecated utility methods to current SRP utility methods
-

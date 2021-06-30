@@ -2,8 +2,10 @@
 title: Use PDF rasterizer to generate renditions
 description: Generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
 contentOwner: AG
+feature: Developer Tools,Renditions
+role: Developer,Administrator
+exl-id: 7d78fba9-16df-44e0-aae6-83f65e8d2bbd
 ---
-
 # Use PDF Rasterizer {#using-pdf-rasterizer}
 
 When you upload large, content-intensive PDF or AI files to [!DNL Adobe Experience Manager Assets], the default library may not generate an accurate output. Adobe's PDF Rasterizer library can generate a more reliable and accurate output when compared to the output from a default library. Adobe recommends using the PDF Rasterizer library for the following scenarios:
@@ -16,7 +18,7 @@ Adobe recommends using the PDF Rasterizer library for the following:
 
 Thumbnails and previews generated using PDF Rasterizer are better in quality compared to out-of-the-box output and, therefore, provide consistent viewing experience across devices. The Adobe PDF Rasterizer library does not support any color space conversion. It always outputs to RGB irrespective of the color space of the source file.
 
-1. Install the PDF Rasterizer package on your [!DNL Adobe Experience Manager] deployment from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/product/assets/aem-assets-pdf-rasterizer-pkg).
+1. Install the PDF Rasterizer package on your [!DNL Adobe Experience Manager] deployment from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/product/assets/aem-assets-pdf-rasterizer-pkg-4.4.zip).
 
    >[!NOTE]
    >

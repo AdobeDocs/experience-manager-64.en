@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9fe48243-24c6-4e08-9886-148cd99dec87
+role: Developer
+exl-id: abc2af58-3bf7-493e-917d-081022afb9a3
 ---
-
 # Forms Service API Quick Starts {#forms-service-api-quick-starts}
 
 The following Quick Starts are available for the Forms service:
@@ -2762,4 +2763,3 @@ The following Java quick start retrieves the file Loan.xdp from Content Services
  } 
  
 ```
-

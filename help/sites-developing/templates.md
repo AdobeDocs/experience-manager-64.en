@@ -10,8 +10,8 @@ topic-tags: platform
 content-type: reference
 discoiquuid: 7c723773-7c23-43d7-85dc-53e54556b648
 legacypath: /content/docs/en/aem/6-1/develop/the-basics/templates
+exl-id: 4ecb6e10-1d6b-4065-917f-e86215687e29
 ---
-
 # Templates{#templates}
 
 Templates are used at various points in AEM:

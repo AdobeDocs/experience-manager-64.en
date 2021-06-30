@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 180cac3f-6378-42bc-9a47-60f9f08a7103
+role: Developer
+exl-id: 79091a75-2669-453f-9560-e58bfffa3487
 ---
-
 # Converting Between File Formats and PDF {#converting-between-file-formatsand-pdf}
 
 **About the Generate PDF Service**
@@ -1135,4 +1136,3 @@ This example specifies how the Generate PDF service should interact with Notepad
     <abortMessage msg="15078"/> 
 </application>
 ```
-

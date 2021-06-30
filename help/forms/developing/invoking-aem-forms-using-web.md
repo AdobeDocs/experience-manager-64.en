@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: d5722281-bea9-4fc7-abdc-e678899e0a15
+role: Developer
+exl-id: cd4b5e40-afd5-422d-ae2e-cfde0f4d6b1a
 ---
-
 # Invoking AEM Forms using Web Services {#invoking-aem-forms-using-web-services}
 
 Most AEM Forms services in the service container are configured to expose a web service, with full support for web service definition language (WSDL) generation. That is, you can create proxy objects that consume the native SOAP stack of an AEM Forms service. As a result, AEM Forms services can exchange and process the following SOAP messages:
@@ -1744,4 +1745,3 @@ The following C# code example signs an interactive form that is rendered by the 
 ### Services starting with the letter I produce invalid proxy files {#services-starting-with-the-letter-i-produce-invalid-proxy-files}
 
 The name of some AEM Forms generated proxy classes are incorrect when using Microsoft .Net 3.5 and WCF. This issue occurs when proxy classes are created for the IBMFilenetContentRepositoryConnector, IDPSchedulerService or any other service whose name starts with the letter I. For example, the name of the generated client in case of IBMFileNetContentRepositoryConnector is `BMFileNetContentRepositoryConnectorClient`. The letter I is missing in the generated proxy class.
-

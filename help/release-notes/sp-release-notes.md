@@ -8,8 +8,8 @@ contentOwner: dekalra
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
+exl-id: d0da9390-2167-47ee-82fd-8c81d8d68a3e
 ---
-
 # AEM 6.4 Service Pack Release Notes {#aem-service-pack-release-notes}
 
 ## Release Information {#release-information}
@@ -2228,11 +2228,6 @@ This section lists features and capabilities that have been removed or deprecate
 ### Known Issues {#known-issues}
 
 * The following errors and warnings may display during installation:
-
-  * Errors as create component instance and Service factory returned null occurs due to repository restart:
-
-      * com.day.cq.cq-personalization \[com.day.cq.personalization.impl.DefaultProfileProvider(938)\] Cannot create component instance due to failure to bind reference profileManager
-      * org.apache.sling.commons.scheduler FrameworkEvent ERROR (org.osgi.framework.ServiceException: Service factory returned null. (Component: com.day.cq.tagging.impl.TagGarbageCollector (1687)))
 
   * `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)]` : Timeout waiting for reg change to complete unregistered.
   * `com.adobe.granite.maintenance.impl.TaskScheduler` No maintenance windows found at granite/operations/maintenance

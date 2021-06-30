@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 42de04bf-25e4-4478-a411-38671ed871ae
+role: Developer
+exl-id: b8488a39-44dd-4e6c-b3f0-857d67c79385
 ---
-
 # Digitally Signing and Certifying Documents {#digitally-signing-and-certifying-documents}
 
 **About the Signature Service**

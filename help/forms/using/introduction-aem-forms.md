@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: a976a854-4bf2-49f8-871e-28bc597ac496
+feature: Adaptive Forms
+exl-id: 0a79111d-e42f-4eb6-8bc4-ab97424e7f90
 ---
-
 # Introduction to AEM Forms {#introduction-to-aem-forms}
 
 For information about latest features and enhancements in AEM Forms, see [What's new in AEM Forms](/help/forms/using/whats-new.md).
@@ -111,4 +112,3 @@ Personalized documents, like, receipts, welcome kits, and statements can easily 
 
 ![](do-not-localize/layout-02.png)
 **Figure:** *Streamlined personalized communication workflow*
-

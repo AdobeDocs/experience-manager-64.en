@@ -5,8 +5,10 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
+exl-id: 2e90bea1-eaac-457b-8588-b18d3a6e8d91
+feature: Asset Management,Renditions
+role: Business Practitioner
 ---
-
 # Best practices for optimizing the quality of your images {#best-practices-for-optimizing-the-quality-of-your-images}
 
 Optimizing image quality can be a time consuming process as many factors contribute to rendering acceptable results. The outcome is partly subjective because individuals perceive image quality differently. Structured experimentation is key.
@@ -72,7 +74,7 @@ Gradually increase the amount from 1.75 to 4. If sharpening is still not the way
 
 Leave the monochrome parameter setting at 0.
 
-### Best practices for JPEF compression (&qlt=) {#best-practices-for-jpef-compression-qlt}
+### Best practices for JPEG compression (&qlt=) {#best-practices-for-compression-qlt}
 
 * This parameter controls JPG encoding quality. A higher value means a higher-quality image but a large file size; alternatively, a lower value means a lower quality image but a smaller file size. The range for this parameter is 0-100.
 * To optimize for quality, do not set the parameter value to 100. The difference between a setting of 90 or 95 and 100 is almost imperceptible, yet 100 unnecessarily increases the size of the image file. Therefore, to optimize for quality but avoid image files becoming too large, set the `qlt=<value>` to 90 or 95.

@@ -3,8 +3,10 @@ title: Manage your digital assets using AEM Assets
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets
 contentOwner: AG
 mini-toc-levels: 1
+feature: Asset Management,Search,Renditions,Collaboration
+role: Business Practitioner
+exl-id: aa1a702b-18dd-496b-a6e0-aa593af6e57c
 ---
-
 # Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}
 
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
@@ -374,7 +376,7 @@ Some limitations of the feature are:
     * Channels/devices through which the asset was used.
     * Creative solutions where the asset was recently used.
 
-   For more details, see [Asset Insights](touch-ui-asset-insights.md).
+   For more details, see [Assets Insights](touch-ui-asset-insights.md).
 
 1. Tap **[!UICONTROL Save & Close]**.
 1. Navigate to the Assets UI. The edited metadata properties, including title, description, ratings, and so on are displayed on the asset card in card view and under relevant columns in the list view.
@@ -560,48 +562,33 @@ You require delete permissions on dam/asset to be able to delete an asset. If yo
 
 See [Download assets from AEM](download-assets-from-aem.md)
 
-## Publish assets {#publishing-assets}
+## Publish and unpublish assets {#publish-assets}
 
-If you publish an assets that is being processed, only the original content is published. The renditions are missing. Either wait for processing to complete and then publish or re-publish the asset after the processing is completed.
+After uploading, processing, or editing your assets on [!DNL Experience Manager] author, you publish the asset to the publish server. Publishing makes the asset available publicly. Unpublishing action removed the asset from the publish server but not from the authoring server.
 
-If the folder you want to publish includes an empty folder, the empty folder is not published.
+For information specific to [!DNL Dynamic Media], see [publishing [!DNL Dynamic Media] assets](publishing-dynamicmedia-assets.md).
 
-For more information specific to Dynamic Media, see [Publishing Dynamic Media Assets](publishing-dynamicmedia-assets.md).
+1. Navigate to the location of the asset or the asset folder that you want to publish or that you want to remove from the publish environment (unpublish).
 
-**To publish assets**:
+1. Select the asset or the folder to unpublish, and click **[!UICONTROL Manage Publication]** ![manage publication option](assets/do-not-localize/globe-publication.png) option from the toolbar. Alternatively, to publish quickly, select the **[!UICONTROL Quick Publish]** option from the toolbar. If the folder you want to publish includes an empty folder, the empty folder is not published.
 
-1. Navigate to the location of the assets/folder you want to publish  
+1. Select the **[!UICONTROL Publish]** or **[!UICONTROL Unpublish]** option as required.
 
-1. Either select the **[!UICONTROL Publish]** quick action from the asset card, or select the asset and tap the **[!UICONTROL Quick Publish]** icon from the toolbar.
-1. If the asset references other assets, its references are listed in the wizard. Only references that are either unpublished or modified since they were last published or unpublished are displayed. Choose the references you want to publish.
+   ![Unpublish action](assets/unpublish_action.png)
+   *Figure: Publish and unpublish options and the scheduling option.*
 
-   ![chlimage_1-21](assets/chlimage_1-21.png)
+1. Select **[!UICONTROL Now]** to act on the asset right away or select **[!UICONTROL Later]** to schedule the action. Select a date and time if you choose the **[!UICONTROL Later]** option. Click **[!UICONTROL Next]**.
 
-1. Tap **[!UICONTROL Publish]** to confirm the activation for the assets.
+1. When publishing, if an asset references other assets, its references are listed in the wizard. Only those references are displayed, that are either unpublished or modified since last publish. Choose the references that you want to publish.
 
-## Unpublish assets {#unpublishing-assets}
+1. When unpublishing, if an asset references other assets, choose the references that you want to unpublish. Click **[!UICONTROL Unpublish]**. In the confirmation dialog, click **[!UICONTROL Cancel]** to stop the action or click **[!UICONTROL Unpublish]** to confirm that the assets are to be unpublished at the specified date.
 
-While unpublishing a complex asset, unpublish the asset only. Avoid unpublishing the references because they may be referenced by other published assets.
+Understand the following limitations and tips related to publishing or unpublishing assets or folders:
 
-**To unpublish assets**:
-
-1. Navigate to the location of the asset or asset folder you want to remove from the publish environment (unpublish).  
-
-1. Select the asset or folder to unpublish, and tap the **[!UICONTROL Manage Publication]** icon from the toolbar.
-
-   ![manage_publication](assets/manage_publication.png)
-
-1. Select the **[!UICONTROL Unpublish]** action from the list.
-
-   ![unpublish_action](assets/unpublish_action.png)
-
-1. To unpublish the asset later, select **[!UICONTROL Unpublish Later]**, and then select a date for unpublishing the asset.
-1. Schedule a date for the asset to be unavailable from the publish environment.
-1. If the asset references other assets, choose the references you want to unpublish. Tap **[!UICONTROL Unpublish]**.
-1. In the confirmation dialog box, do one of the following:
-
-    * Tap **[!UICONTROL Cancel]** to stop the action
-    * Tap **[!UICONTROL Unpublish]** to confirm that the assets are unpublished (no longer available on the publish environment) at the specified date.
+* The option to [!UICONTROL Manage Publication] is available only to the user accounts that have replication permissions.
+* While unpublishing a complex asset, unpublish only the asset. Avoid unpublishing the references because those may be referenced by other published assets.
+* Empty folders are not published.
+* If you publish an assets that is being processed, only the original content is published. The renditions are missing. Either wait for processing to complete and then publish or re-publish the asset once the processing completes.
 
 ## Create a Closed User Group {#closed-user-group}
 

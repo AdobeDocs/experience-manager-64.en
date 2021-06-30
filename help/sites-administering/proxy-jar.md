@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: ff0b1e93-2fd2-4dc1-898f-4ba4db1b3d98
+exl-id: fb96ed26-b5b6-4afc-a820-3ef45a9f3abd
 ---
-
 # Proxy Server Tool (proxy.jar){#proxy-server-tool-proxy-jar}
 
 The proxy server acts as an intermediate server that relays requests between a client and a server. The proxy server keeps track of all the client-server interactions and outputs a log of the entire TCP communication. This allows you to monitor exactly what is going on, without having to access the main server.
@@ -274,4 +274,4 @@ The above example is comparatively simple, because the two connections occur seq
 * first the server returns the HTML code
 * then the browser requests the image and opens a new connection
 
-In practice, a page may generate many parallel requests for images, style sheets, JavaScript files, etc. This means that the logs have overlapping entries of parallel open connections. In that case, we recommended to use option -i to improve readability. 
+In practice, a page may generate many parallel requests for images, style sheets, JavaScript files, etc. This means that the logs have overlapping entries of parallel open connections. In that case, we recommended to use option -i to improve readability.

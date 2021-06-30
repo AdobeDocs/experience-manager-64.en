@@ -7,8 +7,9 @@ uuid: 40561086-e69d-4e6a-9543-1eb2f54cd836
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: aa3e50f1-8f5a-489d-a42e-a928e437ab79
+feature: Adaptive Forms
+exl-id: 0653b0e4-a697-472a-8093-5ed48ede3c75
 ---
-
 # API to invoke form data model service from adaptive forms {#api-to-invoke-form-data-model-service-from-adaptive-forms}
 
 ## Overview {#overview}
@@ -101,4 +102,3 @@ var outputs = {
 guidelib.dataIntegrationUtils.executeOperation(operationInfo, inputs, outputs);
 
 ```
-

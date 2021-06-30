@@ -7,8 +7,9 @@ uuid: ce253b5a-eeb2-47d2-a6c9-e6f59384159a
 contentOwner: khsingh
 topic-tags: installing
 discoiquuid: 1bb8360c-5543-484e-9712-590822211298
+role: Administrator
+exl-id: 45b0fb99-9f7f-47e6-a4de-4db321867f8f
 ---
-
 # Install and configure data capture capabilities {#install-and-configure-data-capture-capabilities}
 
 Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
@@ -121,6 +122,7 @@ Perform the following steps on all the Author and Publish instances to boot dele
    ```
 
 1. (AIX only) Add the following properties to the sling.properties file:
+
     ```
     sling.bootdelegation.xerces=org.apache.xerces.*
     ```
@@ -204,4 +206,3 @@ You have configured an environment to use AEM Forms data capture capabilities. N
 * [Create your first adaptive form](/help/forms/using/create-your-first-adaptive-form.md)
 * [Create your first PDF form](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/designer-quickstart.pdf)
 * [Introduction to HTML5 Forms](/help/forms/using/introduction.md)
-

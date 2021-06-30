@@ -5,8 +5,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 uuid: 1c011496-be6e-470b-9da8-48db8c6d1108
 contentOwner: AG
 discoiquuid: a5aab094-8b2d-4a23-890f-be6f9e5137bd
+feature: Tagging,Metadata,Smart Tags
+role: Business Practitioner
+exl-id: 14241f8d-fd0b-4bcf-b2bb-1d0e52bf7748
 ---
-
 # Smart Content Service Training Guidelines {#smart-content-service-training-guidelines}
 
 To be able to effectively tag your brand images, the Smart Content Service requires that the training images conform to certain guidelines.
@@ -54,4 +56,3 @@ To search for assets with smart tags (regular or enhanced), use the Assets Omni-
 >The ability of the Smart Content Service to train on your tags and apply them on other images depends on the quality of images you use for training. 
 >
 >For best results, Adobe recommends that you use visually similar images to train the service for each tag.
-

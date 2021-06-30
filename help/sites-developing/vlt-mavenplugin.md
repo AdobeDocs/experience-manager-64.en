@@ -1,8 +1,8 @@
 ---
 title: Adobe Content Package Maven Plugin
 description: Use the Content Package Maven plugin to deploy AEM applications
+exl-id: 106a677b-7c89-4fbc-bb96-eaa3dfa71b58
 ---
-
 # Adobe Content Package Maven Plugin {#adobe-content-package-maven-plugin}
 
 Use the Adobe Content Package Maven plugin to integrate package deployment and management tasks into your Maven projects.

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 6825dcd6-fa75-4410-b6b2-e7bd4a391224
+exl-id: d7617d8a-b9b1-4a55-a8b7-4bdf90fd6905
 ---
-
 # Customizing Page Authoring{#customizing-page-authoring}
 
 >[!CAUTION]
@@ -249,4 +249,3 @@ To have customized behavior upon such activation you can overlay the **Request f
 
 1. Update the [workflow model](/help/sites-developing/workflows-models.md) and related configurations/scripts as required.
 1. Remove the right to the [ `replicate` action](/help/sites-administering/security.md#actions) from all appropriate users for all relevant pages; to have this workflow triggered as a default action when any of the users try to publish (or replicate) a page.
-

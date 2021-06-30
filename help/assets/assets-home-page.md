@@ -2,8 +2,10 @@
 title: AEM Assets Home Page Experience
 description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 contentOwner: AG
+feature: Developer Tools,Asset Management
+role: Administrator,Business Practitioner
+exl-id: f47c6da7-aa21-4f49-9c66-2a8091e19561
 ---
-
 # AEM Assets Home Page Experience {#aem-assets-home-page-experience}
 
 Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.

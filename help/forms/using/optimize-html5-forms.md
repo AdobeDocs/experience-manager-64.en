@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: bdb9edc2-6a37-4d3f-97d5-0fc5664316be
+feature: Mobile Forms
+exl-id: 8d2b5294-9763-4348-b927-706ebac90b95
 ---
-
 # Optimizing HTML5 forms {#optimizing-html-forms}
 
 HTML5 forms renders forms in the HTML5 format. The resultant output could be large depending on factors like the form size and images in the form. To optimize the data transfer, the recommended approach is to compress the HTML response using the Web Server from which the request is being served. This approach reduces the response size, network traffic, and the time required to stream data between the server and client machines.
@@ -76,4 +77,3 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
    ```
 
 1. To access the AEM server, use https://[Apache_server]:80.
-

@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: b89293c4-ea2e-4fa4-9e5e-ef4f548e9608
+role: Developer
+exl-id: 982223c2-aa4a-4013-8136-0155a99f5eff
 ---
-
 # Document Security Service Java API Quick Start (SOAP) {#document-security-service-javaapi-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the Rights Management service:
@@ -2306,4 +2307,3 @@ public class protectStatementWorkFlowSoap {
     
 }
 ```
-

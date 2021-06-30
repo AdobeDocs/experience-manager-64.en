@@ -2,6 +2,7 @@
 title: Service Users in AEM
 seo-title: Service Users in AEM
 description: Learn about Service Users in AEM.
+feature: Security
 seo-description: Learn about Service Users in AEM.
 uuid: 4efab5fb-ba11-4922-bd68-43ccde4eb355
 contentOwner: User
@@ -9,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 9cfe5f11-8a0e-4a27-9681-a8d50835c864
+exl-id: b6e77f61-5c7b-4e40-881c-057177e7ea6d
 ---
-
 # Service Users in AEM{#service-users-in-aem}
 
 ## Overview {#overview}
@@ -81,7 +82,7 @@ If the above fails, Sling 7 offers a Service User Mapping service, which allows 
 * They allow mapping services to users  
 * They make it possinle to define sub-service users
 * The central configuration point is: `org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl`
-* `service-id` = `service-name` [ “:” subservice-name ] 
+* `service-id` = `service-name` [ “:” subservice-name ]
 
 * `service-id` is mapped to a resource resolver and/or JCR repository user ID for authentication
 * `service-name` is the symbolic name of the bundle providing the service

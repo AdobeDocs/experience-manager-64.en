@@ -5,8 +5,8 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
+exl-id: 7cb3d58c-0d78-4414-9b66-0a10e52d0906
 ---
-
 # Video{#video}
 
 Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Dynamic Media Classic and access Dynamic Media Classic videos directly from Assets for page authoring.
@@ -14,7 +14,7 @@ Assets provides for centralized video asset management where you can upload vide
 Dynamic Media Classic video integration extends the reach of optimized video to all screens (auto device and bandwidth detection).
 
 * The Dynamic Media Classic (Scene7) video component automatically performs device and bandwidth detection to play the right format and right quality video across desktop, tablets and mobile.
-* Assets - You can include adaptive video sets rather than only single video assets. An adaptive video set is a container for all video renditions required to playback video seamlessly across multiple screens. An Adaptive Video Set groups versions of the same video that are encoded at different bit rates and formats such as 400 kbps, 800 kbps, and 1000 kbps. You use an Adaptive Video Set, along with S7 video component, for adaptive video streaming across multiple screens including desktop, iOS, Android, Blackberry, and Windows mobile devices. See [Scene7 documentation about adaptive video sets for more information](https://help.adobe.com/en_US/scene7/using/WS53492AE1-6029-45d8-BF80-F4B5CF33EB08.html).
+* Assets - You can include adaptive video sets rather than only single video assets. An adaptive video set is a container for all video renditions required to playback video seamlessly across multiple screens. An Adaptive Video Set groups versions of the same video that are encoded at different bit rates and formats such as 400 kbps, 800 kbps, and 1000 kbps. You use an Adaptive Video Set, along with S7 video component, for adaptive video streaming across multiple screens including desktop, iOS, Android, Blackberry, and Windows mobile devices. See [Scene7 documentation about adaptive video sets for more information](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/setup/application-setup.html#video-presets-for-encoding-video-files).
 
 ## About FFMPEG and Dynamic Media Classic {#about-ffmpeg-and-scene}
 
@@ -55,7 +55,7 @@ If you need a workflow or versioning for your assets, you should upload to Adobe
 
 If you do not need a workflow or versioning for your assets, you should upload your assets to Dynamic Media Classic. The following is the recommended workflow:
 
-1. In Dynamic Media Classic, [set up a scheduled FTP uploading and encoding to Dynamic Media Classic (system automated)](https://help.adobe.com/en_US/scene7/using/WS70B173EC-4CAD-4b4c-BF9C-43A11F3A5950.html).
+1. In Dynamic Media Classic, [set up a scheduled FTP uploading and encoding to Dynamic Media Classic (system automated)](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/uploading-files.html#uploading-your-files).
 1. In AEM, access video assets in WCM in the **[!UICONTROL Dynamic Media Classic]** tab of the Content Finder.
 1. Author with the Dynamic Media Classic video component.
 
@@ -74,7 +74,7 @@ If you do not need a workflow or versioning for your assets, you should upload y
 
    >[!NOTE]
    >
-   >For more information about what the video presets mean, see the [Dynamic Media Classic documentation](https://help.adobe.com/en_US/scene7/using/WSE86ACF2B-BD50-4c48-A1D7-9CD4405B62D0.html). 
+   >For more information about what the video presets mean, see the [Dynamic Media Classic documentation](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/setup/application-setup.html#video-presets-for-encoding-video-files). 
    >
    >Adobe recommends that you select either both adaptive video sets when configuring the universal presets or select the **[!UICONTROL Adaptive Video Encoding]** option.
 
@@ -179,4 +179,3 @@ The foundation video component must know about what video profiles to use in ord
 1. The video profiles must be activated.
 1. Configure the design of the foundation video component on your page.
 1. Activate the design after you are done with your design changes.
-

@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: 167f3bd9-7dbc-4e6b-9868-3ee53935641b
+exl-id: 598ec9cd-e23b-4cc4-be1c-0836a1e3f118
 ---
-
 # Configure Your Users and User Groups {#configure-your-users-and-user-groups}
 
 >[!NOTE]
@@ -121,4 +121,3 @@ The tile currently has no actions that require permissions, however the details 
 The image below shows the Download and Edit options for an app:
 
 ![chlimage_1-21](assets/chlimage_1-21.png)
-

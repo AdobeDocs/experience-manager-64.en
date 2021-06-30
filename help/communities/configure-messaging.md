@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 88ee8573-58c4-42cd-8e36-2ea4a0d654e4
+exl-id: e03cf05c-2469-4883-ae7b-9d7e6660b71f
 ---
-
 # Messaging Feature {#messaging-feature}
 
 In addtion to the publicly visible interactions which occur in forums and comments, the messaging feature of AEM Communities enables community members to interact with one another more privately.
@@ -169,4 +169,3 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
 
 * **[!UICONTROL Timestamp patterns]** 
   Provide timestamp patterns for one or more languages. Default is for en, de, fr, it, es, ja, zh_CN, ko_KR.
-

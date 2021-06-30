@@ -1,11 +1,13 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
 audience: end-user
 user-guide-title: AEM 6.4 Deploying Guide
 breadcrumb-title: Deploying Guide
 user-guide-description: Learn more about installing, deploying, and the architecture of Adobe Experience Manager 6.4, including our Adobe Managed Services cloud deployment.
+feature: Deploying
+role: Architect
 ---
 
 # AEM 6.4 Deploying User Guide {#deploying}
@@ -48,7 +50,7 @@ user-guide-description: Learn more about installing, deploying, and the architec
     + [Offloading Jobs](offloading.md)
     + [Single Sign On](single-sign-on.md)
     + [Resource Mapping](resource-mapping.md)
-    + [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md)
+    + [Enabling HTTP Over SSL](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/configuring/ssl-by-default.html)
     + [Consistency and Traversal Checks](consistency-check.md)
     + [Performance Guidelines](performance-guidelines.md)
     + [Performance Optimization](configuring-performance.md)

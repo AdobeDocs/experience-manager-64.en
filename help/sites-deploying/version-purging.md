@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 56f36dcf-8fbd-43f8-bf74-e88d5b686160
+feature: Configuring
+exl-id: 357d5f23-3e75-44e3-905f-4efe960858bf
 ---
-
 # Version Purging{#version-purging}
 
 In a standard installation AEM creates a new version of a page or node when you activate a page after updating the content.

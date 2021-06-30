@@ -7,8 +7,9 @@ uuid: 9ec359ea-f518-441c-9c3d-e3c1ea07a532
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 377d804d-4a75-4c93-8125-d2660cf56418
+feature: Adaptive Forms
+exl-id: 130bdc9f-b19e-4b7d-a6ad-ef5097c9cf41
 ---
-
 # Previewing a form {#previewing-a-form}
 
 ## Overview {#overview}
@@ -66,4 +67,3 @@ When you select **Preview with Data**, you can see how the form looks with real 
 
 1. Select an asset, click Preview ![aem6forms_preview](assets/aem6forms_preview.png), and select **Preview with Data**.
 1. In the Preview Form dialog, provide FormData as an XML file. Click Preview to render the form with the merged data from XML.
-

@@ -2,8 +2,10 @@
 title: Use metadata profiles to apply default metadata to all assets in a folder
 description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
 contentOwner: AG
+feature: Metadata
+role: Business Practitioner,Administrator
+exl-id: a7b0f1d6-7deb-4565-8c7f-27cad7cd6bf8
 ---
-
 # Metadata profiles {#metadata-profiles}
 
 A metadata profile lets you apply default metadata to assets within a folder. Create a Metadata Profile and apply it to a folder. Any asset that you subsequently upload to the folder inherits the default metadata that you configured in the Metadata Profile.

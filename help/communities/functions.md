@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: cc993b71-e2f2-48e7-ad4e-469cb5ce2dc1
+role: Administrator
+exl-id: 2007336d-d75c-4e01-af81-181751c04cfe
 ---
-
 # Community Functions {#community-functions}
 
 The type of features expected from a community experience are well known. Community features are available as community functions. Essentially, they are one or more pages pre-wired to implement a community feature which requires more than simply adding a component to a page in author mode. They are the building blocks used to define the structure of a [community site template](sites.md) from which community sites are [created](sites-console.md).

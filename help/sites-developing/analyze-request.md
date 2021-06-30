@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 1b5e0ccf-4157-45e3-8caf-1d6739d7d9d2
+exl-id: 8582bbca-c11a-4880-88ba-da22e0301dba
 ---
-
 # Request Analysis Script{#request-analysis-script}
 
 ## Download {#download}

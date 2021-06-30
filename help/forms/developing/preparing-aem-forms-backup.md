@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: e747147e-e96d-43c7-87b3-55947eef81f5
+role: Developer
+exl-id: fa2bff05-a3b8-4230-95d6-1fbdc96bac3b
 ---
-
 # Preparing AEM Forms for Backup {#preparing-aem-forms-for-backup}
 
 ## About the Backup and Restore Service {#about-the-backup-and-restore-service}
@@ -259,4 +260,3 @@ Leave backup mode by using the Backup and Restore Service API (web service):
 1. Retrieve information about the backup mode session on the server
 
    Retrieve the backup mode identifier after the operation to verify that it was successful. The information that you can retrieve after you leave backup mode may be useful for integrating with your backup procedures.
-

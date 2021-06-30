@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 4849da13-518c-40c8-b80e-1b2264d7f8f5
+exl-id: 31528814-02bc-4978-87fa-5c8074b454ed
 ---
-
 # Overlay Comments Component {#overlay-comments-component}
 
 The intention of [overlaying](client-customize.md#overlays) a default component is to alter the appearance or behavior of a component globally, for all relative references to the component. It relies on the nature of sling to resolve to the /apps folder before searching in the /libs folder. Thus the path to the component is identical to the path to the default component, except it is in the /apps folder and not the /libs folder.
@@ -24,4 +24,3 @@ To overlay comments you will need to:
 1. [Comments Page](overlay-create-comments-page.md)
 1. [Create Nodes](overlay-create-nodes.md)
 1. [Alter the Appearance](overlay-alter-appearance.md)
-

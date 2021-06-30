@@ -7,8 +7,9 @@ uuid: c3fa2aa4-a6b4-458e-8534-138e075290b1
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 01724ca0-6901-45e7-b045-f44814ed574e
+feature: Adaptive Forms
+exl-id: 6ae70f02-a86d-4514-abc5-1ed08e484852
 ---
-
 # Creating forms with repeatable sections {#creating-forms-with-repeatable-sections}
 
 Repeatable sections are panels that can be added or removed to a form dynamically.

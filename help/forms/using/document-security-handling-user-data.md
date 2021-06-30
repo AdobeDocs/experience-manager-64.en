@@ -1,14 +1,15 @@
 ---
 title: Document Security | Handling user data
 seo-title: Document Security | Handling user data
-description: null
-seo-description: null
+description: AEM Forms document security allows you to create, store, and apply predefined security settings to your documents. It ensures that only authorized users can use the documents. Learn how document security organizes data in database tables, access and export document security data for users in the databases, and if required, delete it permanently.
+seo-description: AEM Forms document security allows you to create, store, and apply predefined security settings to your documents. It ensures that only authorized users can use the documents. Learn how document security organizes data in database tables, access and export document security data for users in the databases, and if required, delete it permanently.
 uuid: 1624a465-8b0c-4347-a53f-1118bfa6e18f
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 898268cb-4426-421f-8f63-d75bd85cb57f
+role: Administrator
+exl-id: eeffd886-8955-46eb-aa6d-dd4da5e8570c
 ---
-
 # Document Security | Handling user data {#document-security-handling-user-data}
 
 AEM Forms document security allows you to create, store, and apply predefined security settings to your documents. It ensures that only authorized users can use the documents. You can protect documents by using policies. A policy is a collection of information that includes security settings and a list of authorized users. You can apply a policy to one or more documents and authorizes users who are added in AEM Forms JEE user management.
@@ -206,4 +207,3 @@ Do the following to delete document security data for a principal ID from databa
 
 1. Delete the data for the principal ID from user management database. For detailed steps, see [Forms User Management | Handling user data](/help/forms/using/user-management-handling-user-data.md).
 1. Start the AEM Forms server.
-

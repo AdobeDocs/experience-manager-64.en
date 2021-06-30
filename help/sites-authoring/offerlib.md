@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 889b5ffc-3652-47d8-b576-128f3cee513a
+exl-id: 5c7c1cda-0e9c-454f-91c4-8e1f37a155c3
 ---
-
 # Creating and Managing Offers{#creating-and-managing-offers}
 
 Use the Offers console to create offers that you can [use in activity experiences](/help/sites-authoring/content-targeting-touch.md). Creating offers in the Offers console saves time when several experiences require the same offer:
@@ -103,4 +103,3 @@ To search offers:
 
 1. At the top of the Offers console, click or tap the magnifying glass icon. By default the search is limited to offers. 
 1. Enter your keyword to search for offers. Select from the results.
-

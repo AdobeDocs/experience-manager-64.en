@@ -8,8 +8,9 @@ content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 38132225-ecae-4887-8f3d-0b3845059130
+role: Administrator
+exl-id: cde40670-ce9d-4b96-92d3-9e56cb15bdce
 ---
-
 # General Security Considerations for AEM Forms on JEE {#general-security-considerations-for-aem-forms-on-jee}
 
 Learn how to prepare for hardening your AEM Forms on JEE environment.

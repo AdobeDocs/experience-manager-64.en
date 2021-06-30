@@ -10,8 +10,9 @@ topic-tags: designer
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 36560809-dba9-49cf-a8ee-23c6766382ef
 noindex: true
+role: Administrator
+exl-id: 9791ffd5-04c4-4eed-8e99-b390e539197d
 ---
-
 # Installing and configuring Designer {#installing-and-configuring-designer}
 
 Designer is available as a stand-alone installer and is also bundled with WorkBench. If you are using a stand-alone installer for Designer, follow these steps:
@@ -28,4 +29,3 @@ Designer is available as a stand-alone installer and is also bundled with WorkBe
 1. (Optional) change the default installation path, if you want to install Designer at a location of your choice. Click Next.
 1. Click Back to change any preferences. To install Designer, click Install.
 1. Click Finish when the installation completes.
-

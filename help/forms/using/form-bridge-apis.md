@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: developer-reference
 discoiquuid: c05c9911-7c49-4342-89de-61b8b9953c83
+exl-id: ad669f3b-2bda-4c41-8032-cf25a192ce12
 ---
-
 # Form Bridge APIs for HTML5 forms {#form-bridge-apis-for-html-forms}
 
 You can use the Form Bridge APIs to open a communication channel between an XFA-based HTML5 forms and your applications. The Form Bridge APIs provides a **connect** API to create the connection.
@@ -258,5 +258,3 @@ if(a.errors) {
     formBridge.submitForm({success:suc,error:err}); // not passing a context means that this will be formBridge itself. Validation errors will be checked.
   }
 ```
-
-

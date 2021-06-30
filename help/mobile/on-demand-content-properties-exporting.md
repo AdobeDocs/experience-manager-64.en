@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: a3006835-b1d2-47d6-959a-cdb692e34e1e
+exl-id: 27aa405d-2388-4f91-85d0-1a8709e0d5d0
 ---
-
 # Using Content Properties to Export Content{#using-content-properties-to-export-content}
 
 >[!NOTE]

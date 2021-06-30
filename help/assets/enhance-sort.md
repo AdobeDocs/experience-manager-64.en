@@ -2,8 +2,10 @@
 title: Enhanced sorting of assets in AEM
 description: Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
 contentOwner: AG
+feature: Search
+role: Business Practitioner
+exl-id: aa24ca68-d94e-4bd4-a5cc-113906650a2e
 ---
-
 # Enhanced sorting of assets in AEM {#enhanced-sorting-of-assets-in-aem}
 
 Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
@@ -81,4 +83,3 @@ AEM Assets lets you chronologically sort timeline entries, such as annotations, 
 1. Click/tap the **[!UICONTROL Sort]** icon beside the **[!UICONTROL Date]** label. Based on your selection, the annotations are listed in the chronological/reverse chronological order in which they were added to the asset.
 
    ![chlimage_1-401](assets/chlimage_1-401.png)
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: a2bd7045-970f-4245-ad5d-a272a654df0a
+exl-id: 71dfaea7-2fae-4feb-bb1d-ad0da573f910
 ---
-
 # Closed User Groups in AEM{#closed-user-groups-in-aem}
 
 ## Introduction {#introduction}
@@ -757,14 +757,14 @@ This has been adjusted to make the reference to `CugSupport` optional in order t
 
 ### AEM LiveCopy {#aem-livecopy}
 
-Configuring CUGs in conjuction with LiveCopy is represented in the repository by the addition of one extra node and one extra property as follows:
+Configuring CUGs in conjunction with LiveCopy is represented in the repository by the addition of one extra node and one extra property as follows:
 
 * `/content/we-retail/us/en/blueprint/rep:cugPolicy`
 * `/content/we-retail/us/en/LiveCopy@granite:loginPath`
 
 Both of these elements are created under the `cq:Page`. With the current design, MSM only handles nodes and properties that are under the `cq:PageContent` (`jcr:content`) node.
 
-Therefore, CUG groups cannot be rolled back from a blueprint to a Live Copy. Please plan accordingly around this when setting up a Live Copy.
+Therefore, CUG groups cannot be rolled out to Live Copies from Blueprints. Please plan around this when configuring Live Copy.
 
 ## Changes with the New CUG Implementation {#changes-with-the-new-cug-implementation}
 
@@ -875,4 +875,3 @@ Adobe provides a tool for migrating to the new CUG implementation. In order to u
 >[!NOTE]
 >
 >If you run into issues, it is possible to set up a specific logger at **DEBUG** level on `com.day.cq.auth.impl.cug` to get the output of the migration tool. See [Logging](/help/sites-deploying/configure-logging.md) for more information on how to do this.
-

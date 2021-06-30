@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 5e344be7-46cd-4e1f-ae3a-1f89c645cffe
+feature: Mobile Forms
+exl-id: b63758f1-b375-4c05-bd53-69e0346733c6
 ---
-
 # Picture clause support for HTML5 forms {#picture-clause-support-for-html-forms}
 
 HTML5 forms supports XFA Picture clause for display value and formatted value for date, text, and numeric symbols. Following Picture clause Expressions are supported:
@@ -206,4 +207,3 @@ HTML5 forms support the following Text Picture clause expressions:
 | O |Single alphanumeric character.  |
 | 0 (zero) |Single alphanumeric character.  |
 | 9 |Single digit.  |
-

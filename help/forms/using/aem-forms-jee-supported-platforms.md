@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 1b9f8d98-e7e8-4b9b-a0df-52ccba324da3
+role: Administrator
+exl-id: 6609c625-0591-42fd-910b-c7c65d52c5f1
 ---
-
 # Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
 
 ## Supported Platforms {#supported-platforms}
@@ -612,21 +613,16 @@ For additional reuirements see:
 
 ### Designer {#designer}
 
-**Note:** To install Designer on Windows, run the installer with Administrative privileges.
-
-* Microsoft® Windows® 2012 Server R2, Microsoft® Windows® 2016 Server, Microsoft Windows 10
-
-  * 1 GHz or faster processor with support for PAE, NX, and SSE2.
-  * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS 
-  * 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
-
+* Microsoft® Windows® 2012 Server R2, Microsoft® Windows® 2016 Server, Microsoft® Windows® 2019 Server, Microsoft® Windows® 10
+* 1 GHz or faster processor with support for PAE, NX, and SSE2.
+* 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS 
+* 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
 * Graphics memory - 128 MB of GPU (256 MB recommended)
 * 2.35 GB of available hard-disk space
-* DVD-ROM drive
-* Internet Explorer 10 or 11; Firefox 45.x
 * 1024 X 768 pixels or greater monitor resolution
 * Video hardware acceleration (optional)
-* Acrobat Pro DC, Acrobat Standard DC, or Adobe Acrobat Reader DC.
+* Acrobat Pro DC, Acrobat Standard DC, or Adobe Acrobat Reader DC
+* Administrative privileges to install Designer
 
 ### Adobe Acrobat and Adobe Reader {#adobe-acrobat-and-adobe-reader}
 

@@ -2,8 +2,10 @@
 title: Multi-tenancy for collections, snippets, and snippet templates
 description: Segregate content in the CRX repository based on the customer organization to prevent unauthorized access.
 contentOwner: AG
+feature: Collections
+role: Architect,Administrator,Leader
+exl-id: d00a671a-6707-4941-868d-fa13510b7b60
 ---
-
 # Multi-tenancy for collections, snippets, and snippet templates {#multi-tenancy-for-collections-snippets-and-snippet-templates}
 
 The Multi-tenancy feature lets you segregate content in CRX based on the organization prefix and organization ID to safeguard the content from unauthorized access by users of other organizations.

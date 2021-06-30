@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: ea4b26c8-b9cf-42c2-b4da-2884336014a9
+role: Developer
+exl-id: 0a418016-f61a-485d-a87a-a3d48651e0d7
 ---
-
 # DocConverter Service Java API Quick Start (SOAP) {#docconverter-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the DocConverter service.
@@ -237,4 +238,3 @@ The following Java code example determines whether the input PDF document is PDF
       } 
  }
 ```
-

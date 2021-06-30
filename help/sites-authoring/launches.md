@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: a7ec190d-056e-4fc9-8f2d-f4164273674d
+exl-id: a6dca5d7-21b5-4a7f-9e83-b0f5ea77bc88
 ---
-
 # Launches Overview{#launches}
 
 Launches enable you to efficiently develop content for a future release.
@@ -118,4 +118,3 @@ The Launches console provides an overview of your launches and allows you to tak
 1. Tap/click on the appropriate launch, the list of possible actions will be displayed:
 
    ![chlimage_1-237](assets/chlimage_1-237.png)
-

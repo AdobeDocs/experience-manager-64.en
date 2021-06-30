@@ -7,8 +7,9 @@ uuid: c612ca3b-62f7-4021-939b-e0c05dbbf0d7
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: author
 discoiquuid: b99c7b93-ba05-42ee-9ca8-0079e15d8602
+feature: Adaptive Forms
+exl-id: 84a46197-9933-4b94-a8e3-e7baf9c644b1
 ---
-
 # Embed adaptive form in external web page{#embed-adaptive-form-in-external-web-page}
 
 Learn how to embed an adaptive form in an external web page
@@ -159,6 +160,6 @@ When embedding an adaptive form in a web page, consider the following best pract
 
 ## Enable AEM Forms to serve adaptive forms to a cross domain site  {#cross-domain-sites}
 
-1. On AEM author instance, go to AEM Web Console Configuration Manager at `http://[server]:[port]/system/console/configMgr`.
+1. On AEM publish instance, go to AEM Web Console Configuration Manager at `http://[server]:[port]/system/console/configMgr`.
 1. Locate and open the **Apache Sling Referrer** Filter configuration.
-1. In the **Allowed Hosts** field, specify the domain where the web page resides. It enables the host to make POST requests to the AEM server. You can also use regular expression to specify a series of external application domains. 
+1. In the **Allowed Hosts** field, specify the domain where the web page resides. It enables the host to make POST requests to the AEM server. You can also use regular expression to specify a series of external application domains.

@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: dae1ce32-702e-4cf0-b3c6-976551208d09
+exl-id: b5681fe5-69ba-4fc0-95e3-6ffdcdd95382
 ---
-
 # Synchronizing the app {#synchronizing-the-app}
 
 ## Synchronizing the app {#synchronizing-the-app-1}
@@ -41,4 +41,3 @@ Tap the Synchronize button ![sync-app](assets/sync-app.png) at the lower-right c
 * In the .js, the call to the processOfflineSubmittedSavedTasks(...) function, sends the saved / submitted tasks to the server. It also handles any errors or conflicts in the sync process. If the submission of a task fails, the task on the app is marked as failed. In addition, the task remains in your Outbox.
 * The syncSubmittedTask() and syncSavedTask() function perform operations on individual tasks.
 * The call to the processOfflineSubmittedSavedTasks() function is initiated by the task list component after a user selects to synchronize offline state to the server or an automatic sync by the background thread.
-

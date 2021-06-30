@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: df7b60bb-4897-479e-a05e-1b1e9429ed87
+role: Developer
+exl-id: 82770ac6-aafc-44b9-82fb-6f193bb3a128
 ---
-
 # Invoking AEM Forms using REST Requests {#invoking-aem-forms-using-rest-requests}
 
 Processes created in Workbench can be configured so that you can invoke them through Representational State Transfer (REST) requests. REST requests are sent from HTML pages. That is, you can invoke a Forms process directly from a web page using a REST request. For example, you can open a new instance of a web page. Then you can invoke a Forms process and load a rendered PDF document with data that was sent in an HTTP POST request.
@@ -316,4 +317,4 @@ The complete URL to invoke the process is https://hiro-xp:8080/rest/services/MyA
 
 If the process requires a PDF document as an input value, ensure that you submit the form as PDF, as shown in the previous illustration. Also, to successfully invoke a process, the process must return a PDF document. Otherwise Acroabt cannot handle the return value and an error occurs. You do not have to specify the name of the input process variable. For example, the* MyApplication/EncryptDocument* process has an input variable named `inDoc`. You do not have to specify inDoc, as long as the form is submited as PDF.
 
-You can also submit form data as XML to a Forms process, To submit XML data, ensure that the `Submit As` drop down specifies XML. Because the return value of the process must be a PDF document, the PDF document is displayed in Acrobat. 
+You can also submit form data as XML to a Forms process, To submit XML data, ensure that the `Submit As` drop down specifies XML. Because the return value of the process must be a PDF document, the PDF document is displayed in Acrobat.

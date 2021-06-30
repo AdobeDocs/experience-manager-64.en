@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a62b68b4-7735-49b1-8938-f0d9e4c4a051
+exl-id: b4877c24-3450-44b6-adcd-78a694b28857
 ---
-
 # IBM DB2 database: Running commands for regular maintenance {#ibm-db-database-running-commands-for-regular-maintenance}
 
 The following IBM DB2 commands are recommended for regular maintenance of your AEM forms database. For detailed information about maintenance and performance tuning for your DB2 database, see *IBM DB2 Administration Guide*.
@@ -86,4 +86,3 @@ Run the `reorg` command on the following AEM forms database tables and indexes. 
   
      INDEXES ALL FOR TABLE <schema>.EDCPRINCIPALGRPCTMNTENTITY
 ```
-

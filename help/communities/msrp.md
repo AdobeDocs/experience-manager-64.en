@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 048f7b30-20c3-4567-bd32-38cf2643cf39
+role: Administrator
+exl-id: 65d37adc-d5fa-4171-bb7f-05b631cad180
 ---
-
 # MSRP - MongoDB Storage Resource Provider {#msrp-mongodb-storage-resource-provider}
 
 ## About MSRP {#about-msrp}
@@ -262,4 +263,3 @@ If an attempt to make a secured connection to the MongoDB server fails due to a 
 
 * [AEM with MongoDB](../../help/sites-deploying/aem-with-mongodb.md)
 * [MongoDB Documentation](https://docs.mongodb.org/)
-

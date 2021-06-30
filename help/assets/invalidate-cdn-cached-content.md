@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: e6c9b50b-c27c-48bf-b3c0-9994e7bf6d7e
+exl-id: 335c7a78-a00f-451b-8e53-225830d429c6
+feature: Asset Management,CDN Cache
+role: Administrator,Business Practitioner,Developer
 ---
-
 # Invalidating your CDN cached content {#invalidating-your-cdn-cached-content}
 
 Dynamic Media assets are cached by the CDN for fast delivery. However, when you make updates to an asset, you may want those changes to take effect immediately. Invalidating your CDN (Content Delivery Network) cached content lets you quickly update assets that are delivered by Dynamic Media, instead of waiting for the cache to expire.
@@ -54,4 +56,3 @@ See also [Cache overview in Dynamic Media Classic](https://helpx.adobe.com/exper
    >When you select assets, and then click **[!UICONTROL File > Invalidate CDN]**, Dynamic Media uses an invalidate CDN template to automatically create URLs to invalidate from the Content Delivery Network (CDN). If there is nothing in the **[!UICONTROL CDN Invalidate Template]** text box, then you get a blank URL list. Caching at the CDN is not asset-based; it is URL-based. Therefore, it is necessary to be aware of the complete URLs that are on your website. After you determine those URLs, you can add them to the **[!UICONTROL Invalidate CDN Template]** text box earlier in the steps. Then, you can select those assets, and invalidate the URLs in one step.
    >
    >Another option is to add complete URLs to the **[!UICONTROL Invalidate CDN]** list. If you follow this approach, it is unnecessary to select assets in Dynamic Media Classic before going to the **[!UICONTROL File > Invalidate CDN]** option.
-

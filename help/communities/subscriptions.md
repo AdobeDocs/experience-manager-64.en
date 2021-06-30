@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 33c85af4-4c56-487a-ba60-55211cb9f72c
+role: Administrator
+exl-id: 8a756328-0405-49b7-b94d-3dd5a87c782a
 ---
-
 # Communities Subscriptions {#communities-subscriptions}
 
 ## Overview {#overview}
@@ -66,4 +67,3 @@ If they reply to the email, the content they enter in the reply will appear as c
 The amount of time it takes for a reply to be posted is controlled by the [polling importer's update interval](email.md#configure-polling-importer).
 
 ![chlimage_1-7](assets/chlimage_1-7.png)
-

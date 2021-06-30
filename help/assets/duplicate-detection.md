@@ -2,8 +2,10 @@
 title: Enabling Duplicate Detection
 description: Learn how to enable the detection of duplicate assets in AEM.
 contentOwner: AG
+feature: Asset Management,Asset Reports
+role: Business Practitioner,Administrator
+exl-id: 138cf649-9e21-415e-9861-b07caacc85db
 ---
-
 # Enabling Duplicate Detection {#enabling-duplicate-detection}
 
 If you attempt to upload an asset that exists in Adobe Experience Manager (AEM) Assets, the duplicate detection feature identifies it as duplicate. Duplicate detection is disabled by default. To enable the feature, do the following steps:

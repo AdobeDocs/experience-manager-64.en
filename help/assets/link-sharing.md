@@ -2,8 +2,10 @@
 title: Share assets using a link
 description: Share assets, folders, and collections as a URL.
 contentOwner: AG
+feature: Link Sharing,Asset Management
+role: Business Practitioner
+exl-id: bf4b0acf-4103-4da1-8666-c6d9fe80c41f
 ---
-
 # Share asset via a link {#asset-link-sharing}
 
 [!DNL Adobe Experience Manager Assets] lets you share assets, folders, and collections as a URL with members of your organization and external entities, including partners and vendors. Sharing assets through a link is a convenient way of making resources available to external parties without them having to first log in to [!DNL Assets].
@@ -18,25 +20,11 @@ contentOwner: AG
 To generate the URL for assets that you want to share with users, use the Link Sharing dialog. Users with administrator privileges or with read permissions at `/var/dam/share` location are able to view the links shared with them.
 
 1. In the [!DNL Assets] user interface, select the asset to share as a link.
-1. From the toolbar, click the **[!UICONTROL Share Link]** ![share assets icon](assets/assets_share.png).
-
-   The link that will be created after clicking [!UICONTROL Share] is displayed in advance in the [!UICONTROL Share Link] field. The default expiration time for the link is one day.
+1. From the toolbar, click the **[!UICONTROL Share Link]** ![share assets icon](assets/assets_share.png). The link that will be created after clicking **[!UICONTROL Share]** is displayed in advance in the [!UICONTROL Share Link] field. The link is not yet created till you click **[!UICONTROL Submit]**.
 
    ![Dialog with the Link Share](assets/chlimage_1-542.png)
-   
+
    *Figure: The dialog to share assets as a link.*
-
-   >[!NOTE]
-   >
-   >If you want to share links from your [!DNL Experience Manager] Author deployment to external entities, ensure that you only expose the following URLs (which are used for link sharing) for `GET` requests only. Block other URLs for security reasons.
-   >
-   >* `http://[aem_server]:[port]/linkshare.html`
-   >* `http://[aem_server]:[port]/linksharepreview.html`
-   >* `http://[aem_server]:[port]/linkexpired.html`
-
-1. In [!DNL Experience Manager] interface, access **[!UICONTROL Tools]** > **[!UICONTROL Operations]** > **[!UICONTROL Web Console]**.
-
-1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration and modify the following properties in the **[!UICONTROL Domains]** field with the values mentioned against `local`, `author`, and `publish`. For the `local` and `author` properties, provide the URL for the local and the author instance respectively. Both `local` and `author` properties have the same value if you run a single [!DNL Experience Manager] author instance. For Publish instances, provide the URL for the [!DNL Experience Manager] publish instance.
 
 1. In the email address box of the **[!UICONTROL Link Sharing]** dialog, type the email ID of the user you want to share the link with. You can add one or more users.
 
@@ -51,7 +39,7 @@ To generate the URL for assets that you want to share with users, use the Link S
 1. In the **[!UICONTROL Subject]** box, enter a subject for the asset you want to share.
 1. In the **[!UICONTROL Message]** box, enter an optional message.
 
-1. In the **[!UICONTROL Expiration]** field, specify an expiration date and time for the link to stop working. By default, the expiration date is set for a week from the date you share the link.
+1. In the **[!UICONTROL Expiration]** field, specify an expiration date and time for the link to stop working. The default expiration time for the link is one day.
 
    ![Set expiration date of shared link](assets/chlimage_1-544.png)
 
@@ -59,11 +47,7 @@ To generate the URL for assets that you want to share with users, use the Link S
 
 1. Click **[!UICONTROL Share]**. A message confirms that the link is shared with the users via an email.
 
-1. To view the shared asset, click the link in the email that is sent to the user. The shared asset is displayed in the [!UICONTROL Adobe Marketing Cloud] page.
-
-   ![Shared assets are available in Adobe Marketing Cloud](assets/chlimage_1-545.png)
-
-1. To generate a preview of the asset, click the shared asset. To close the preview and return to the **[!UICONTROL Marketing Cloud]** page, click **[!UICONTROL Back]** on the toolbar. If you have shared a folder, click **[!UICONTROL Parent Folder]** to return to the parent folder.
+1. To view the shared asset, click the link in the email that is sent to the user. To generate a preview of the asset, click the shared asset. To close the preview, click **[!UICONTROL Back]**. If you have shared a folder, click **[!UICONTROL Parent Folder]** to return to the parent folder.
 
    ![chlimage_1-546](assets/chlimage_1-546.png)
 
@@ -92,7 +76,7 @@ To generate the URL for assets that you want to share with users, use the Link S
 
    ![chlimage_1-548](assets/chlimage_1-548.png)
 
-1. Click/tap **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
 ## Configure maximum data size {#configure-maximum-data-size}
 
@@ -113,3 +97,11 @@ When you download assets from the link shared using the Link Sharing feature, [!
 * If you cannot send email with links to shared assets or if the other users cannot receive your email, check with your [!DNL Experience Manager] administrator if the [email service](#configure-day-cq-mail-service) is configured or not.
 * If you cannot share assets using link sharing functionality, ensure that you have the appropriate permissions. See [share assets](#share-assets).
 * If a shared asset is moved to a different location, its link stops working. Re-create the link and re-share with the users.
+
+* If you want to share links from your [!DNL Experience Manager] Author deployment to external entities, ensure that you only expose the following URLs that are used for link sharing, for `GET` requests only. Block other URLs for security reasons.
+
+  * `http://[aem_server]:[port]/linkshare.html`
+  * `http://[aem_server]:[port]/linksharepreview.html`
+  * `http://[aem_server]:[port]/linkexpired.html`
+
+  In [!DNL Experience Manager] interface, access **[!UICONTROL Tools]** > **[!UICONTROL Operations]** > **[!UICONTROL Web Console]**. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration and modify the following properties in the **[!UICONTROL Domains]** field with the values mentioned against `local`, `author`, and `publish`. For the `local` and `author` properties, provide the URL for the local and the Author instances, respectively. If you run a single [!DNL Experience Manager] Author instance, use the same value for `local` and `author` properties. For Publish instances, provide the URL of the [!DNL Experience Manager] Publish instance.

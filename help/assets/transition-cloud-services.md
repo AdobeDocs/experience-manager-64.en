@@ -2,8 +2,10 @@
 title: Applying translation cloud services to folders
 description: Applying translation cloud services to folders
 contentOwner: AG
+feature: Translation
+role: Administrator
+exl-id: 87883a3f-db95-41f4-b0aa-cdaeb7e6f555
 ---
-
 # Applying translation cloud services to folders {#applying-translation-cloud-services-to-folders}
 
 Adobe Experience Manager (AEM) lets you avail cloud-based translation services from the translation provider of your choice to ensure your assets are translated based on your requirements.

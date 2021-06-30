@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 3c59ec8f-b72f-48dd-bac8-9817005ae210
+exl-id: 8397352a-51b0-4d03-a72d-19f7da58c07e
 ---
-
 # AEM with MongoDB{#aem-with-mongodb}
 
 This article aims to improve knowledge on tasks and considerations needed to successfully deploy Adobe Experience Manager with MongoDB.

@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b93060bd-c6e1-40d2-8acd-ccafb8ed56da
+exl-id: 6e0607d6-171c-4119-95a1-373b30fb63c1
 ---
-
 # Starting and stopping services {#starting-and-stopping-services}
 
 There are two types of services that are part of AEM forms:
@@ -44,4 +44,3 @@ On UNIX® or Linux, enter the following text from a command line, where *`[servi
 ```as3
      ps -A | grep [service name]
 ```
-

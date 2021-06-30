@@ -5,8 +5,8 @@ description: An overview of all of the essential resources for understanding, in
 seo-description: An overview of all of the essential resources for understanding, installing, managing, and using AEM 6.4
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+exl-id: dbeb093b-489b-46c3-b136-e33a430793e0
 ---
-
 # AEM 6.4 User Guide Hub {#aem-64-user-guide}
 
 ## Introduction {#introduction}

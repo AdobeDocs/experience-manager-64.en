@@ -2,8 +2,10 @@
 title: Extending Assets Search
 description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
 contentOwner: AG
+feature: Search
+role: Developer
+exl-id: d68c735f-2699-4923-a7e7-4d1356eae335
 ---
-
 # Extending Assets Search {#extending-assets-search}
 
 You can extend Adobe Experience Manager (AEM) Assets search capabilities. Out of the box, AEM Assets searches for assets by strings.

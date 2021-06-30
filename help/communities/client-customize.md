@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 24b6d1d2-c118-4a25-959f-2783961c4ae3
+exl-id: 3e005993-d96b-4c7c-83b3-37f733218c3d
 ---
-
 # Client-side Customization {#client-side-customization}
 
 | **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
@@ -201,4 +201,3 @@ Every site is different in how they manage client libraries. Various factors inc
 | **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
 |   |**[SCF Handlebars Helpers ⇒](handlebars-helpers.md)** |
-

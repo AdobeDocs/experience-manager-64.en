@@ -2,8 +2,10 @@
 title: XMP Metadata
 description: Learn about the XMP (Extensible Metadata Platform) metadata standard used by AEM Assets for metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
 contentOwner: AG
+feature: Metadata
+role: Business Practitioner,Administrator
+exl-id: 32c4ca3d-2e9e-46a3-b4c7-70dcc50daaaa
 ---
-
 # XMP metadata {#xmp-metadata}
 
 XMP (Extensible Metadata Platform) is the metadata standard used by AEM Assets for all metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
@@ -76,4 +78,4 @@ For example, a typical subset used by many Adobe applications might include the 
 
 ### Language Alternatives {#language-alternatives}
 
-XMP offers you the ability to add an **xml:lang** property to text properties to specify the language of the text.  
+XMP offers you the ability to add an **xml:lang** property to text properties to specify the language of the text.

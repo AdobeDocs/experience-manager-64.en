@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 8b0297a1-d922-410f-9aaf-3a6b87e11dc0
+exl-id: 32fb6479-ae53-4bb3-8827-db15d7f5705e
 ---
-
 # Development Practices{#development-practices}
 
 ## Work according to a Definition of Done {#work-according-to-a-definition-of-done}

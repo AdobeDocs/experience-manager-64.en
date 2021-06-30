@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: b35ea921-182f-4371-90f6-482d22694b42
+feature: Correspondence Management
+exl-id: 00b3efc5-ef1c-4b9d-957d-2eda01c0b985
 ---
-
 # Add custom action to the Asset Listing view {#add-custom-action-to-the-asset-listing-view}
 
 ## Overview {#overview}
@@ -362,4 +363,3 @@ After you have added custom functionality to download flat PDF of your letters, 
    ![Download letter as PDF](assets/6_downloadflatpdf.png)
 
    The letter gets downloaded to your computer as a flat PDF.
-

@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: de6ed870-0e69-4d16-99e4-037dd5acf413
+feature: Configuring
+exl-id: a59a4d3e-dc21-4e14-b132-6ed369e674de
 ---
-
 # Monitoring and Maintaining Your AEM instance{#monitoring-and-maintaining-your-aem-instance}
 
 After your AEM instances have been deployed certain tasks will be needed to monitor and maintain their operation, performance and integrity.
@@ -193,7 +194,7 @@ Various log files are held on the file server where you installed AEM:
 
       Error messages (of varying levels of severity) are registered here.
     
-    * [ `ImageServer-<PortId>-yyyy>-<mm>-<dd>.log`](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/config-admin/server-logging/c-image-server-log.html) 
+    * [ `ImageServer-<PortId>-yyyy>-<mm>-<dd>.log`](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/config-admin/server-logging/c-image-server-log.html) 
 
       This log is only used if dynamic media is enabled. It provides statistics and analytical information used for analyzing behavior of the internal ImageServer process. 
     
@@ -201,7 +202,7 @@ Various log files are held on the file server where you installed AEM:
 
       Each access request is registered here together with the response.
     
-    * [ `s7access-<yyyy>-<mm>-<dd>.log`](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/config-admin/server-logging/c-access-log.html) 
+    * [ `s7access-<yyyy>-<mm>-<dd>.log`](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/config-admin/server-logging/c-access-log.html) 
 
       This log is only used if dynamic media is enabled. The s7access log records each request made to Dynamic Media through `/is/image` and `/is/content`.
     
@@ -1169,4 +1170,3 @@ This will help you see how much memory is being used, what GC algorithms are bei
 >For Oracle's VM there is also information at:
 >
 >[https://docs.oracle.com/javase/7/docs/technotes/guides/vm/server-class.html](https://docs.oracle.com/javase/7/docs/technotes/guides/vm/server-class.html)
-

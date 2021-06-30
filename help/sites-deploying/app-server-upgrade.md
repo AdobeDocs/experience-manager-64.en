@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: c427c8b6-eb94-45fa-908f-c3d5a337427d
+feature: Upgrading
+exl-id: 1c72093e-82c8-49ad-bd3c-d61904aaab28
 ---
-
 # Upgrade Steps for Application Server Installations{#upgrade-steps-for-application-server-installations}
 
 This section describes the procedure that needs to be followed in order to update AEM for Application Server installations.
@@ -142,4 +143,3 @@ All the examples in this procedure use JBoss as the Application Server and imply
    ```shell
    cp temp/aem62.war jboss-install-folder/standalone/deployments/aem61.war
    ```
-

@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: bc06d9bd-af6c-47b1-b46f-aab990ef5816
+role: Developer
+exl-id: 7dcfcee1-998e-41d8-badc-3106055e6ba7
 ---
-
 # Working with Credentials {#working-with-credentials}
 
 **About the Credential Service**

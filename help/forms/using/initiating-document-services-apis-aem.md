@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 8b85bdc7-3864-49c9-81b0-cf15b8e986d9
+exl-id: a2821338-f31d-4b08-91e6-7f934dc01384
 ---
- 
 # Initiate Document Services APIs from AEM Workflow  {#initiate-document-services-apis-from-aem-workflow}
 
 ## Assembler {#assembler}
@@ -153,4 +153,3 @@ The Generate Non Interactive PDF Workflow is a wrapper around `generatePDFOutput
 * Linearized PDF: Specifies whether to optimize the generated PDF for web viewing.
 * *Tagged PDF*: Specifies whether to make the generated PDF accessible.
 * *XCI document*: Specifies the path to the XCI file.
-

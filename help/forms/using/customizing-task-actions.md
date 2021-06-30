@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: ca3f6025-7e17-4173-8267-e24a338ea4a1
+exl-id: 3534864b-3d1c-42ca-96a0-5becbfbc8ce6
 ---
-
 # Customizing Task Actions {#customizing-task-actions}
 
 AEM Forms workspace allows users to customize the task actions. Before customizing the task actions, ensure that you follow the steps listed at [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).

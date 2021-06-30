@@ -3,8 +3,8 @@ title: AEM 6.4 Communities User Guide
 seo-title: AEM 6.4 Communities User Guide
 description: This guide covers all AEM Communities tasks, such as creating online experiences such as forums, user groups, learning resources, and other social features.
 seo-description: Covers all AEM Communities tasks, such as creating online experiences such as forums, user groups, learning resources, and other social features.
+exl-id: 4711564b-adcc-4835-8215-138b209d1578
 ---
-
 # AEM 6.4 Communities User Guide
 
 This guide covers all AEM Communities tasks, such as creating online experiences such as forums, user groups, learning resources, and other social features.

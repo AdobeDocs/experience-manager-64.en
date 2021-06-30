@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: bc681589-5d46-44cd-888d-b0722a2fd006
+exl-id: d6e8412d-09d4-4cac-a691-71703ebaa374
 ---
-
 # Creating Article Export Configuration{#creating-article-export-configuration}
 
 >[!NOTE]
@@ -56,4 +56,3 @@ To view sample shared resource, see the steps below:
 >[!NOTE]
 >
 >Articles should be uploaded or exported to AEM Mobile On-Demand Services when an articles content changes.
-

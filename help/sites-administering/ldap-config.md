@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 5faf6ee5-9242-48f4-87a8-ada887a3be1e
+exl-id: 1e329725-538a-4058-8832-4eba036f7972
 ---
-
 # Configuring LDAP with AEM 6 {#configuring-ldap-with-aem}
 
 LDAP (the **L**ightweight **D**irectory **A**ccess **P**rotocol) is used for accessing centralized directory services. This helps reduce the effort required to manage user accounts as they can be accessed by multiple applications. One such LDAP server is Active Directory. LDAP is often used to achieve Single Sign On which allows a user to access multiple applications after logging in once.
@@ -298,5 +298,4 @@ For more information, see Apache Oak documentation on [User and Group Synchroniz
 
 ## Known issues {#known-issues}
 
-If you plan on using LDAP over SSL, make sure the certificates you are using are created without the Netscape comment option. If this option is enabled, authentication will fail with a SSL Handshake error.  
-
+If you plan on using LDAP over SSL, make sure the certificates you are using are created without the Netscape comment option. If this option is enabled, authentication will fail with a SSL Handshake error.

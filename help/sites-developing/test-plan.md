@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 3a8302e8-bc61-402c-a9f2-5db3dfa6dd6d
+exl-id: 913e1fee-b071-4152-94c3-dd7b8900e5ed
 ---
-
 # Compiling your Test Plan{#compiling-your-test-plan}
 
 The individual test cases will then be amalgamated into your Test Plan, which will also define:

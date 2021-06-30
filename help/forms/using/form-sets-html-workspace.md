@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: c1793e2e-413c-4b6f-b96b-09e011f06263
+exl-id: 4e39f6dd-b7a3-4c6c-be1f-66b9a5743352
 ---
-
 # Working with Formsets in AEM Forms workspace {#working-with-formsets-in-aem-forms-workspace}
 
 A formset is a collection of HTML5 forms grouped and presented as a single set of forms to end users. When end users start filling a formset, they are seamlessly transitioned from one form to another. The set of forms can then be submitted in just one click. For more info on formsets and how to set them up, see [Formset in AEM Forms](/help/forms/using/formset-in-aem-forms.md).
@@ -51,4 +51,3 @@ The operations supported on formset through the AEM Forms workspace are:
 >[!NOTE]
 >
 >For performance improvement during the movement from previous and next forms in a formset, all the workspace buttons (Back, Next, Save, Submit, and ... (More)) are disabled until the relevant form renders fully.
-

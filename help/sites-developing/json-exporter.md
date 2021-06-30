@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: components
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 4c7e33ea-f2d3-4d69-b676-aeb50c610d70
+exl-id: ead4306a-6337-4dae-8839-14fada0ae0e5
 ---
-
 # JSON Exporter for Content Services{#json-exporter-for-content-services}
 
 AEM Content Services are designed to generalize the description and delivery of content in/from AEM beyond a focus on web pages.
@@ -98,4 +98,3 @@ For further details see:
 * [Enabling JSON Export for a Component](/help/sites-developing/json-exporter-components.md)  
 
 * [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) and the [Content Fragment component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)
-

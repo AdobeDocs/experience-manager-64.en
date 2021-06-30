@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 076889a7-9c9f-4b6f-a45b-67a9b3923c36
+role: Developer
+exl-id: 1dc43962-dffe-4062-838f-737b3100ad28
 ---
-
 # Programmatically Managing Endpoints {#programmatically-managing-endpoints}
 
 **About Endpoint Registry Service**

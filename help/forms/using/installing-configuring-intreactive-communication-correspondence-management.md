@@ -6,8 +6,9 @@ seo-description: Install and configure AEM Forms Interactive Communications to c
 uuid: c09b5743-3cbc-49ff-977a-b6b3eb81b160
 topic-tags: installing
 discoiquuid: 674c6b68-8a04-4cd3-a63e-9968ca686948
+role: Administrator
+exl-id: c7aaa81d-d140-44d9-9144-0cbf6ec5d650
 ---
-
 # Install and configure Interactive Communications {#install-and-configure-interactive-communications}
 
 ## Introduction {#introduction}
@@ -185,4 +186,3 @@ You have configured an environment to use interactive communication and correspo
 * [Create an interactive communication](/help/forms/using/create-interactive-communication.md)  
 
 * [Create a correspondence management letter](/help/forms/using/create-letter.md)
-

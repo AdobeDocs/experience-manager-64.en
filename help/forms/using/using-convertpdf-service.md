@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 5ec4f0ec-a9fd-4571-9b9a-278f4622c028
+exl-id: a6fe7794-3c31-4706-9e23-fe63a506b0bc
 ---
-
 # ConvertPDF Service {#convertpdf-service}
 
 ## Overview {#overview}
@@ -187,4 +187,3 @@ var convertedPS = cpdfService.toPS(inputDocument, toPSOptions);
 convertedPS.copyToFile(new File("C:/temp/out.ps"));
 
 ```
-

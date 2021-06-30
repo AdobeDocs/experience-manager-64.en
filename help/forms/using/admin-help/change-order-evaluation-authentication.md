@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5434df9c-ecf6-450a-aa7e-d9ab69b66fe6
+exl-id: cac16c50-a85d-4e40-a590-8a0a52be893c
 ---
-
 # Change the order of evaluation for authentication {#change-the-order-of-evaluation-for-authentication}
 
 If you configured multiple authentication providers, you can change the order in which AEM forms evaluates them for authentication. The order of the authentication providers that are listed in the config.xml file determines the order of evaluation for authentication.
@@ -41,4 +41,3 @@ If you configured multiple authentication providers, you can change the order in
 
 1. To import the updated file, in User Management, click Configuration &gt; Import And Export Configuration Files.
 1. Click Browse to find the file, click Import, and then click OK.
-

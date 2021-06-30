@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 2be468e7-2b4e-4e04-881b-b9bdd1f55e57
+exl-id: ee034595-2d2a-4887-86c4-6bf0770da6a2
 ---
-
 # General Release Notes for Adobe Experience Manager 6.4 {#general-release-notes-for-adobe-experience-manager}
 
 ## Release Information {#release-information}
@@ -241,14 +241,6 @@ New viewers, including Panoramic and VR, let you provide more immersive experien
 
 See [Panoramic Images](/help/assets/panoramic-images.md) documentation to learn more.
 
-**3D Assets**
-
-New integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html), a Creative Cloud application for authoring 3D experiences.
-
-See [Working with 3D assets](/help/assets/assets-3d.md) documentation to learn more.
-
-![do-not-localize/3d](assets/do-not-localize/3d.png)
-
 ### Experience Manager Forms {#experience-manager-forms}
 
 AEM 6.4 Forms brings in several new features and enhancements. The highlights include:
@@ -300,7 +292,7 @@ This process of prioritization has yielded more than 500 customer focused change
   * [Italian](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/product/smartcontent-model-it)
   * [French](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/product/smartcontent-model-fr)
 
-* [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md) to migrate Classic UI components to Coral 3
+* [AEM Modernization Tools](/help/sites-developing/modernization-tools.md) to migrate Classic UI components to Coral 3
 
 **Assets**
 

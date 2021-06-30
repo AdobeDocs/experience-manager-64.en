@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 8b6c1697-d693-41f4-8337-f41658465107
+exl-id: 66045e67-4d33-4c0c-81d7-d4287ed68ccc
 ---
-
 # SCF Handlebars Helpers {#scf-handlebars-helpers}
 
 | **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
@@ -604,4 +604,3 @@ Note: the SCF helpers are defined in `/etc/clientlibs/social/commons/scf/helpers
 | **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
 |   |**[Client-side Customization ⇒](client-customize.md)** |
-

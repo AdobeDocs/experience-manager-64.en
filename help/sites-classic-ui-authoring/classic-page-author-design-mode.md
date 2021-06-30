@@ -10,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 93f98f7b-7ab8-4d9c-b179-dc99b80ffc91
+exl-id: af6c383b-f8fd-442c-8fc5-3cdd40657c6a
 ---
-
 # Configuring Components in Design Mode{#configuring-components-in-design-mode}
 
 When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick.
@@ -76,4 +76,3 @@ In Design mode, you can also configure attributes for the individual components.
 1. The Sidekick minimizes in Design mode. By clicking on the arrow you can maximize the Sidekick and return to Edit Mode:
 
    ![](do-not-localize/sidekick-collapsed-1.png)
-

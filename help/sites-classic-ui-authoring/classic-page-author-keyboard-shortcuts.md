@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 68fa88c5-a759-49fa-ab9b-8dc63c049d5f
+exl-id: 04075ed1-3a52-4371-aa4e-0c3d61c878ef
 ---
-
 # Keyboard Shortcuts when Editing Pages{#keyboard-shortcuts-when-editing-pages}
 
 Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the [use of consoles](/help/sites-classic-ui-authoring/author-env-keyboard-shortcuts.md).
@@ -164,4 +164,3 @@ Additional keyboard shortcuts are available for desktop developers when using th
   </tr> 
  </tbody> 
 </table>
-

@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: de527d50-991b-4ca3-a8ac-44d5cab988e9
+role: Developer
+exl-id: 31f60907-0b9c-43ac-bb9f-74eacf6976d7
 ---
-
 # Creating Document Output Streams  {#creating-document-output-streams}
 
 **About the Output Service**

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 08bdade7-fdad-445d-80fe-8fc06596dace
+exl-id: afa7f346-fefa-4faa-bf2d-7480a7e5a5ee
 ---
-
 # Implementing a Custom Predicate Evaluator for the Query Builder{#implementing-a-custom-predicate-evaluator-for-the-query-builder}
 
 This section describes how to extend the [Query Builder](/help/sites-developing/querybuilder-api.md) by implementing a custom predicate evaluator.

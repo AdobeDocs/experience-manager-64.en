@@ -7,8 +7,9 @@ page-status-flag: de-activated
 uuid: ffb2cc22-baaf-4525-a2e3-29f39271c670
 topic-tags: introduction
 discoiquuid: 655303a4-99bb-4ba3-9d50-a178f5edcf85
+feature: Adaptive Forms
+exl-id: 0ccf43eb-f0c6-4204-8325-f891caa8f5af
 ---
-
 # Style your adaptive form {#do-not-publish-style-your-adaptive-form}
 
 Learn to create a custom theme, style individual components, and use web fonts in a theme 
@@ -448,4 +449,3 @@ Adobe Typekit is a web fonts service. You can configure and use the service with
 1. Configure your theme to use the TypeKit configuration. On the author instance, open **Global Theme** in the theme editor. In the theme editor, navigate to Theme Options ![theme-options](assets/theme-options.png) > Configure. In **Typekit Configuration** field, select the kit, and click **Save**.
 
    The fonts added to the Typekit are available for selection in the **Text** accordion of all the components.
-

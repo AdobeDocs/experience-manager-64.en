@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: b9752c60-eb26-4840-9163-a99537a58727
+exl-id: 4c09699a-c7ae-48ee-9423-87ff35b1e9d9
 ---
-
 # Integrating with Salesforce{#integrating-with-salesforce}
 
 Integrating Salesforce with AEM provides lead management capabilities and leverages the existing capabilities provided out of the box by Salesforce. You can configure AEM to post leads to Salesforce and create components that access data directly from Salesforce.
@@ -232,4 +232,3 @@ To use this component:
 1. AEM displays the leads specified in your search component that match the criteria specified.
 
    ![chlimage_1-101](assets/chlimage_1-101.png)
-

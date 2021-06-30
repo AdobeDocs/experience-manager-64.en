@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6f9a294d-24bd-4e4b-b929-2809f5e6cef9
+exl-id: 407db3cf-8add-486b-8cf5-daeecc18bf30
 ---
-
 # Files to back up and recover {#files-to-back-up-and-recover}
 
 The application and data files that must be backed up are described in more detail in the following sections.

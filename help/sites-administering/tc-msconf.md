@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: a7958411-b509-428e-bbe2-42efe8fd1add
+feature: Language Copy
+exl-id: 6387fd5d-d8de-4ea8-b1e6-3274b53d4f41
 ---
-
 # Connecting to Microsoft Translator{#connecting-to-microsoft-translator}
 
 Create a configuration for the Microsoft Translator cloud service to use your Microsoft Translation account for translating AEM page content, community content, or assets.
@@ -77,4 +78,3 @@ You need to activate your cloud service configurations to support translated con
 
 * Microsoft Translation Service: /libs/settings/cloudconfigs/translation/msft-translation
 * Third-party Translation: /etc/cloudservices/machine-translation
-
