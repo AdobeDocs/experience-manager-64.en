@@ -17,19 +17,19 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
 
 **With 6.4 Upgrade**
 
-* [Misc](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#misc)
+* [Misc](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
 
 **Prior to 6.5 Upgrade**
 
-* [Asset/Collection Event E-mail Notification Template](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#asset-collection-event-e-mail-notification-template)
-* [Classic Asset Share Designs](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#classic-asset-share-designs)
-* [Download Asset E-mail Notification Template](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#download-asset-e-mail-notification-template)
-* [Example DRM Licenses](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#example-drm-licenses)  
+* [Asset/Collection Event E-mail Notification Template](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
+* [Classic Asset Share Designs](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
+* [Download Asset E-mail Notification Template](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
+* [Example DRM Licenses](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)  
 
-* [Link Share E-mail Notification Template](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#link-share-e-mail-notification-template)
-* [InDesign Workflow Scripts](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#indesign-workflow-scripts)
-* [Video Transcoding Configurations](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#video-transcoding-configurations)
-* [Misc](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md#misc2)
+* [Link Share E-mail Notification Template](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
+* [InDesign Workflow Scripts](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
+* [Video Transcoding Configurations](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
+* [Misc](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
 
 ## With 6.4 Upgrade {#with-upgrade}
 
