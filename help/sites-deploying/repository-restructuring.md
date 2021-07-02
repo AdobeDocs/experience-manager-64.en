@@ -38,7 +38,7 @@ While planning for an upgrade to AEM 6.4, the following per-solution pages shoul
 
 * [Repository restructuring common to all AEM solutions](/help/sites-deploying/all-repository-restructuring-in-aem-6-4.md)
 * [AEM Sites repository restructuring](/help/sites-deploying/sites-repository-restructuring-in-aem-6-4.md)
-* [AEM Assets repository restructuring](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md)
+* [AEM Assets repository restructuring](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
 * [AEM Assets Dynamic Media repository restructuring](/help/sites-deploying/dynamicmedia-repository-restructuring-in-aem-6-4.md)
 * [AEM Forms repository restructuring](/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md)
 * [AEM Communities repository restructuring](/help/sites-deploying/communities-repository-restructuring-in-aem-6-4.md)
