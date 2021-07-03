@@ -3,7 +3,7 @@ title: Bulk Metadata Import and Export
 description: This article describes how to import and export metadata in bulk.
 contentOwner: AG
 feature: Metadata
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 956cdec4-2ba8-43c9-9122-564d764f4681
 ---
 # Bulk metadata import and export {#bulk-metadata-import-and-export}

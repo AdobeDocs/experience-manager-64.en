@@ -7,7 +7,7 @@ topic-tags: dynamic-media
 content-type: reference
 exl-id: b0f0c6e4-77c8-40db-a9f4-699d1a633571
 feature: Configuration,Scene7 Mode
-role: Administrator,Business Practitioner,Developer
+role: Admin,User,Developer
 ---
 # Configuring Dynamic Media - Scene7 mode {#configuring-dynamic-media-scene-mode}
 

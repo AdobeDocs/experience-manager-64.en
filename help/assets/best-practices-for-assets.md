@@ -3,7 +3,7 @@ title: Best practices to manage assets using AEM
 description: Identify and adhere to the best practices that enhances system stability and performance under load, depending on AEM Assets deployment and features used to ingest and process assets.
 contentOwner: AG
 feature: Asset Management
-role: Architect,Administrator
+role: Architect,Admin
 exl-id: e2ab924b-53cb-4011-8c0a-9e8e59dd2f16
 ---
 # Best practices for AEM Assets {#best-practices-for-assets}

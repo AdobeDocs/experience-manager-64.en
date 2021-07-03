@@ -5,7 +5,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 uuid: 286a4f26-c0ad-4691-80d8-d17ba1a2dfe0
 discoiquuid: 92eacea5-7511-48ce-8a72-ff4552ebb07d
 feature: Metadata
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 1bc72dac-41f7-4593-aaea-d48ebd94b43e
 ---
 # Folder Metadata Schema {#folder-metadata-schema}

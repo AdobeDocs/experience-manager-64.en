@@ -4,7 +4,7 @@ description: Learn about various asset management and editing tasks that you can
 contentOwner: AG
 mini-toc-levels: 1
 feature: Asset Management,Search,Renditions,Collaboration
-role: Business Practitioner
+role: User
 exl-id: aa1a702b-18dd-496b-a6e0-aa593af6e57c
 ---
 # Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}
